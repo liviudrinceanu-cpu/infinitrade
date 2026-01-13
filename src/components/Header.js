@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, Phone, Mail } from 'lucide-react';
+import { Menu, X, ChevronDown, Phone, Mail, Clock } from 'lucide-react';
 import { navigation, categories } from '@/data/products';
 import styles from './Header.module.css';
 
@@ -27,16 +27,15 @@ export default function Header() {
       <div className={styles.topBar}>
         <div className={styles.topBarContent}>
           <div className={styles.topBarLeft}>
-            <span>Dăm puls industriei</span>
-          </div>
-          <div className={styles.topBarRight}>
             <a href="mailto:vanzari@infinitrade-romania.ro" className={styles.topBarLink}>
               <Mail size={14} />
               vanzari@infinitrade-romania.ro
             </a>
-            <span className={styles.topBarDivider}>|</span>
+          </div>
+          <div className={styles.topBarRight}>
             <span className={styles.topBarLink}>
-              Luni - Vineri: 08:00 - 17:30
+              <Clock size={14} />
+              Luni - Vineri: 08:00 - 16:30
             </span>
           </div>
         </div>
@@ -45,14 +44,15 @@ export default function Header() {
       {/* Main Header */}
       <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
         <div className={styles.headerContent}>
-          {/* Logo */}
+          {/* Logo - Horizontal version */}
           <Link href="/" className={styles.logo}>
             <Image 
-              src="/logo-icon.jpg" 
-              alt="Infinitrade" 
-              width={44} 
-              height={44}
+              src="/logo-full.png" 
+              alt="Infinitrade - Dăm puls industriei" 
+              width={200} 
+              height={50}
               className={styles.logoImage}
+              priority
             />
           </Link>
 

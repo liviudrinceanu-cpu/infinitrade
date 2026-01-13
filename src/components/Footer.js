@@ -20,8 +20,8 @@ export default function Footer() {
               <Image 
                 src="/logo-full.png" 
                 alt="Infinitrade - Dăm puls industriei" 
-                width={180} 
-                height={50}
+                width={200} 
+                height={55}
                 className={styles.logoImage}
               />
             </Link>
@@ -70,13 +70,19 @@ export default function Footer() {
             <ul className={styles.contactList}>
               <li>
                 <Mail size={18} />
-                <a href={`mailto:${companyInfo.contact.email}`}>
-                  {companyInfo.contact.email}
-                </a>
+                <div>
+                  <a href="mailto:vanzari@infinitrade-romania.ro">
+                    vanzari@infinitrade-romania.ro
+                  </a>
+                  <br />
+                  <a href="mailto:secretariat@infinitrade-romania.ro">
+                    secretariat@infinitrade-romania.ro
+                  </a>
+                </div>
               </li>
               <li>
                 <Clock size={18} />
-                <span>{companyInfo.contact.hours}</span>
+                <span>Luni - Vineri: 08:00 - 16:30</span>
               </li>
               <li>
                 <MapPin size={18} />
@@ -115,12 +121,18 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className={styles.bottom}>
-          <p className={styles.copyright}>
-            © {currentYear} Infinitrade Romania. Toate drepturile rezervate.
-          </p>
+          <div className={styles.bottomLeft}>
+            <p className={styles.copyright}>
+              © {currentYear} Driatheli Group SRL. Toate drepturile rezervate.
+            </p>
+            <p className={styles.companyInfo}>
+              Brand: Infinitrade Romania | CUI: RO12345678
+            </p>
+          </div>
           <div className={styles.bottomLinks}>
-            <Link href="/termeni">Termeni și Condiții</Link>
-            <Link href="/confidentialitate">Politica de Confidențialitate</Link>
+            <Link href="/termeni-si-conditii">Termeni și Condiții</Link>
+            <Link href="/politica-confidentialitate">Politica de Confidențialitate</Link>
+            <Link href="/politica-cookies">Politica Cookies</Link>
             <Link href="/gdpr">GDPR</Link>
           </div>
         </div>

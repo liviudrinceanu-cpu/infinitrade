@@ -600,6 +600,7 @@ export const companyInfo = {
   tagline: 'Dăm puls industriei',
   description: 'Distribuitor de echipamente industriale premium cu peste 15 ani de experiență. Peste 500 de branduri internaționale, livrare rapidă în toată România.',
   founded: 2009,
+  legalEntity: 'Driatheli Group SRL',
   location: {
     city: 'Ghiroda',
     county: 'Timiș',
@@ -608,8 +609,10 @@ export const companyInfo = {
   },
   contact: {
     email: 'vanzari@infinitrade-romania.ro',
+    emailSecretariat: 'secretariat@infinitrade-romania.ro',
+    emailOferte: 'liviu.drinceanu@infinitrade-romania.ro',
     phone: '+40 XXX XXX XXX',
-    hours: 'Luni - Vineri / 08:00 - 17:30'
+    hours: 'Luni - Vineri / 08:00 - 16:30'
   },
   stats: {
     clients: '800+',

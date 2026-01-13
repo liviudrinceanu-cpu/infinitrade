@@ -183,9 +183,21 @@ export default function ContactPage() {
                       <Mail size={20} />
                     </div>
                     <div>
-                      <span className={styles.infoLabel}>Email</span>
-                      <a href={`mailto:${companyInfo.contact.email}`}>
-                        {companyInfo.contact.email}
+                      <span className={styles.infoLabel}>Email Vânzări</span>
+                      <a href="mailto:vanzari@infinitrade-romania.ro">
+                        vanzari@infinitrade-romania.ro
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className={styles.infoItem}>
+                    <div className={styles.infoIcon}>
+                      <Mail size={20} />
+                    </div>
+                    <div>
+                      <span className={styles.infoLabel}>Email Secretariat</span>
+                      <a href="mailto:secretariat@infinitrade-romania.ro">
+                        secretariat@infinitrade-romania.ro
                       </a>
                     </div>
                   </div>
@@ -196,7 +208,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <span className={styles.infoLabel}>Program</span>
-                      <span>{companyInfo.contact.hours}</span>
+                      <span>Luni - Vineri: 08:00 - 16:30</span>
                     </div>
                   </div>
 

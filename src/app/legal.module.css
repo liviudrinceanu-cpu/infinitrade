@@ -1,0 +1,109 @@
+.main {
+  min-height: 100vh;
+  padding: 140px 0 80px;
+  background: var(--gray-50);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.container h1 {
+  font-size: clamp(32px, 5vw, 44px);
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.lastUpdated {
+  font-size: 14px;
+  color: var(--gray-500);
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.container section {
+  margin-bottom: 40px;
+}
+
+.container h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.container h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+
+.container p {
+  font-size: 16px;
+  color: var(--gray-600);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.container ul {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+.container li {
+  font-size: 16px;
+  color: var(--gray-600);
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.container a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+.container strong {
+  color: var(--gray-700);
+}
+
+/* Right cards for GDPR page */
+.rightCard {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.rightCard h3 {
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.rightCard p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 120px 0 60px;
+  }
+  
+  .container h1 {
+    font-size: 28px;
+  }
+}

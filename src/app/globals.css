@@ -1,34 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Colors - Clean Industrial Premium */
+  /* Colors - Infinitrade Brand Guide */
   --white: #ffffff;
-  --black: #1d1d1f;
+  --black: #23233b;  /* Brand dark blue-black */
   --gray-50: #fbfbfd;
   --gray-100: #f5f5f7;
   --gray-200: #e8e8ed;
   --gray-300: #d2d2d7;
-  --gray-400: #86868b;
+  --gray-400: #969696;  /* Brand gray */
   --gray-500: #6e6e73;
   --gray-600: #424245;
+  --gray-700: #23233b;
   
-  /* Brand Colors */
-  --primary: #0071e3;
-  --primary-hover: #0077ed;
-  --accent: #ff6b35;
-  --accent-dark: #e55a2b;
+  /* Infinitrade Brand Colors */
+  --primary: #0990db;  /* Brand blue */
+  --primary-hover: #0880c5;
+  --primary-dark: #063c69;  /* Brand dark blue (INFINI) */
+  --accent: #ff2800;  /* Brand red */
+  --accent-dark: #e02400;
+  --success: #37c67f;  /* Brand green */
   
   /* Industrial accent */
-  --industrial-blue: #1a3a5c;
-  --industrial-steel: #4a5568;
+  --industrial-blue: #063c69;
+  --industrial-steel: #969696;
   
   /* Gradients */
   --gradient-hero: linear-gradient(180deg, #fbfbfd 0%, #f5f5f7 100%);
   --gradient-card: linear-gradient(135deg, #ffffff 0%, #f5f5f7 100%);
-  --gradient-dark: linear-gradient(180deg, #1d1d1f 0%, #2d2d2f 100%);
+  --gradient-dark: linear-gradient(180deg, #23233b 0%, #1a1a2e 100%);
+  --gradient-brand: linear-gradient(135deg, #0990db 0%, #063c69 100%);
   
-  /* Typography */
-  --font-primary: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+  /* Typography - Proxima Nova fallback to Inter */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   
   /* Spacing */
   --section-padding: clamp(80px, 10vw, 150px);
@@ -41,10 +45,10 @@
   --transition-slow: 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
   
   /* Shadows */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
-  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.12);
-  --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.15);
+  --shadow-sm: 0 2px 8px rgba(35, 35, 59, 0.04);
+  --shadow-md: 0 4px 20px rgba(35, 35, 59, 0.08);
+  --shadow-lg: 0 8px 40px rgba(35, 35, 59, 0.12);
+  --shadow-xl: 0 20px 60px rgba(35, 35, 59, 0.15);
   
   /* Border Radius */
   --radius-sm: 8px;
