@@ -1,18 +1,35 @@
 'use client';
 
+import { useState } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight, Check, Phone, Mail, MapPin, Package, Truck, Wrench, Shield } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, Phone, Mail, Plus, ShoppingCart, Package, Truck, Wrench, Shield } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { allBrands, categories } from '@/data/products';
+import { useQuoteCart } from '@/context/QuoteCartContext';
 import styles from './brand.module.css';
 
 export default function BrandPage() {
   const params = useParams();
+  const { addItem, items: cartItems } = useQuoteCart();
+  const [addedAnimation, setAddedAnimation] = useState(null);
+  
   const brand = allBrands.find(b => b.slug === params.brandSlug);
   const category = brand ? categories.find(c => c.slug === brand.category) : null;
+
+  const handleAddToCart = (item) => {
+    const success = addItem(item);
+    if (success) {
+      setAddedAnimation(item.name);
+      setTimeout(() => setAddedAnimation(null), 1000);
+    }
+  };
+
+  const isInCart = (name) => {
+    return cartItems.some(item => item.name === name);
+  };
 
   if (!brand || !category) {
     return (
@@ -32,8 +49,7 @@ export default function BrandPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className={styles.hero} style={{ background: category.gradient }}>
-          <div className={styles.heroOverlay} />
+        <section className={styles.hero}>
           <div className={styles.heroContainer}>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -49,24 +65,41 @@ export default function BrandPage() {
               </div>
               
               <h1 className={styles.heroTitle}>
-                {brand.name} România
+                {brand.name}
               </h1>
               <p className={styles.heroSubtitle}>
-                Distribuitor Autorizat | {brand.country}
+                Distribuitor Autorizat • {brand.country}
               </p>
               <p className={styles.heroDescription}>
-                {brand.description}. Oferim gama completă de produse {brand.name}, piese de schimb originale și suport tehnic specializat pentru toate aplicațiile industriale.
+                {brand.description}. Oferim gama completă de produse {brand.name}, piese de schimb originale și suport tehnic specializat.
               </p>
 
               <div className={styles.heroCtas}>
+                <button 
+                  className={`${styles.ctaAddCart} ${isInCart(brand.name) ? styles.inCart : ''} ${addedAnimation === brand.name ? styles.adding : ''}`}
+                  onClick={() => handleAddToCart({
+                    type: 'brand',
+                    name: brand.name,
+                    category: category.name,
+                    url: `/brand/${brand.slug}`
+                  })}
+                >
+                  {isInCart(brand.name) ? (
+                    <>
+                      <Check size={18} />
+                      În Cerere
+                    </>
+                  ) : (
+                    <>
+                      <Plus size={18} />
+                      Adaugă la Cerere
+                    </>
+                  )}
+                </button>
                 <Link href="/contact" className={styles.ctaPrimary}>
-                  Cere Ofertă {brand.name}
+                  Trimite Cererea
                   <ArrowRight size={18} />
                 </Link>
-                <a href={`tel:+40XXXXXXXXX`} className={styles.ctaSecondary}>
-                  <Phone size={18} />
-                  Sună Acum
-                </a>
               </div>
             </motion.div>
           </div>
@@ -77,31 +110,31 @@ export default function BrandPage() {
           <div className={styles.container}>
             <div className={styles.valuePropsGrid}>
               <div className={styles.valueProp}>
-                <Package size={28} />
+                <Package size={24} />
                 <div>
-                  <h4>Produse {brand.name} Originale</h4>
-                  <p>Echipamente noi cu garanție de la producător</p>
+                  <h4>Produse Originale</h4>
+                  <p>Garanție producător</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
-                <Truck size={28} />
+                <Truck size={24} />
                 <div>
                   <h4>Livrare Rapidă</h4>
-                  <p>24-72h pentru produse din stoc</p>
+                  <p>24-72h din stoc</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
-                <Wrench size={28} />
+                <Wrench size={24} />
                 <div>
-                  <h4>Piese Schimb {brand.name}</h4>
-                  <p>Piese originale și kituri service</p>
+                  <h4>Piese Schimb</h4>
+                  <p>Kituri service</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
-                <Shield size={28} />
+                <Shield size={24} />
                 <div>
                   <h4>Suport Tehnic</h4>
-                  <p>Consultanță gratuită de la specialiști</p>
+                  <p>Consultanță gratuită</p>
                 </div>
               </div>
             </div>
@@ -122,27 +155,23 @@ export default function BrandPage() {
                   Ca distribuitor autorizat {brand.name} în România, Infinitrade vă oferă acces la întreaga gamă de produse, 
                   consultanță tehnică specializată și service post-vânzare de înaltă calitate.
                 </p>
-                <p>
-                  Beneficiați de prețuri competitive, livrare rapidă și suport tehnic profesionist pentru toate 
-                  proiectele dumneavoastră industriale.
-                </p>
               </div>
               <div className={styles.aboutStats}>
                 <div className={styles.statCard}>
-                  <span className={styles.statValue}>{category.stats.brands}</span>
-                  <span className={styles.statLabel}>Branduri Partenere</span>
+                  <span className={styles.statValue}>{category.stats.brands}+</span>
+                  <span className={styles.statLabel}>Branduri</span>
                 </div>
                 <div className={styles.statCard}>
-                  <span className={styles.statValue}>{category.stats.products}</span>
-                  <span className={styles.statLabel}>Produse Disponibile</span>
+                  <span className={styles.statValue}>{category.stats.products}+</span>
+                  <span className={styles.statLabel}>Produse</span>
                 </div>
                 <div className={styles.statCard}>
                   <span className={styles.statValue}>15+</span>
                   <span className={styles.statLabel}>Ani Experiență</span>
                 </div>
                 <div className={styles.statCard}>
-                  <span className={styles.statValue}>24-72h</span>
-                  <span className={styles.statLabel}>Livrare Rapidă</span>
+                  <span className={styles.statValue}>24h</span>
+                  <span className={styles.statLabel}>Răspuns Rapid</span>
                 </div>
               </div>
             </div>
@@ -152,10 +181,10 @@ export default function BrandPage() {
         {/* Product Types */}
         <section className={styles.productsSection}>
           <div className={styles.container}>
-            <h2>Produse {brand.name} Disponibile</h2>
-            <p className={styles.sectionSubtitle}>
-              Comandă echipamente {brand.name} pentru orice aplicație industrială
-            </p>
+            <div className={styles.sectionHeader}>
+              <h2>Produse {brand.name} Disponibile</h2>
+              <p>Selectează produsele de care ai nevoie și solicită ofertă</p>
+            </div>
             <div className={styles.productsGrid}>
               {category.productTypes.map((type, index) => (
                 <motion.div
@@ -164,21 +193,34 @@ export default function BrandPage() {
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
+                  transition={{ delay: index * 0.05 }}
                 >
-                  <h3>{type.name}</h3>
-                  <p>{type.description}</p>
-                  <div className={styles.applications}>
-                    <span>Aplicații:</span>
-                    <div className={styles.appTags}>
+                  <div className={styles.productCardContent}>
+                    <h3>{type.name}</h3>
+                    <p>{type.description}</p>
+                    <div className={styles.applications}>
                       {type.applications.slice(0, 3).map(app => (
                         <span key={app} className={styles.appTag}>{app}</span>
                       ))}
                     </div>
                   </div>
-                  <Link href="/contact" className={styles.productLink}>
-                    Solicită Ofertă <ArrowRight size={16} />
-                  </Link>
+                  <div className={styles.productCardActions}>
+                    <button
+                      className={`${styles.addBtn} ${isInCart(`${type.name} ${brand.name}`) ? styles.inCart : ''} ${addedAnimation === `${type.name} ${brand.name}` ? styles.adding : ''}`}
+                      onClick={() => handleAddToCart({
+                        type: 'product',
+                        name: `${type.name} ${brand.name}`,
+                        category: category.name,
+                        url: `/${category.slug}#${type.slug}`
+                      })}
+                    >
+                      {isInCart(`${type.name} ${brand.name}`) ? (
+                        <Check size={18} />
+                      ) : (
+                        <Plus size={18} />
+                      )}
+                    </button>
+                  </div>
                 </motion.div>
               ))}
             </div>
@@ -188,33 +230,35 @@ export default function BrandPage() {
         {/* Services */}
         <section className={styles.servicesSection}>
           <div className={styles.container}>
-            <h2>Servicii pentru Produse {brand.name}</h2>
+            <div className={styles.sectionHeader}>
+              <h2>Servicii pentru {brand.name}</h2>
+            </div>
             <div className={styles.servicesGrid}>
               <div className={styles.serviceCard}>
                 <h3>Vânzare Echipamente</h3>
-                <ul>
-                  <li><Check size={16} /> Produse {brand.name} originale</li>
-                  <li><Check size={16} /> Consultanță tehnică gratuită</li>
+                <ul className={styles.serviceList}>
+                  <li><Check size={16} /> Produse originale</li>
+                  <li><Check size={16} /> Consultanță tehnică</li>
                   <li><Check size={16} /> Oferte personalizate</li>
                   <li><Check size={16} /> Prețuri competitive</li>
                 </ul>
               </div>
               <div className={styles.serviceCard}>
                 <h3>Piese de Schimb</h3>
-                <ul>
-                  <li><Check size={16} /> Piese originale {brand.name}</li>
-                  <li><Check size={16} /> Kituri de service complete</li>
+                <ul className={styles.serviceList}>
+                  <li><Check size={16} /> Piese originale</li>
+                  <li><Check size={16} /> Kituri service</li>
                   <li><Check size={16} /> Livrare expresă</li>
-                  <li><Check size={16} /> Compatibilitate garantată</li>
+                  <li><Check size={16} /> Compatibilitate</li>
                 </ul>
               </div>
               <div className={styles.serviceCard}>
                 <h3>Suport Tehnic</h3>
-                <ul>
-                  <li><Check size={16} /> Dimensionare și selecție</li>
-                  <li><Check size={16} /> Documentație tehnică</li>
-                  <li><Check size={16} /> Asistență la instalare</li>
-                  <li><Check size={16} /> Service și mentenanță</li>
+                <ul className={styles.serviceList}>
+                  <li><Check size={16} /> Dimensionare</li>
+                  <li><Check size={16} /> Documentație</li>
+                  <li><Check size={16} /> Instalare</li>
+                  <li><Check size={16} /> Mentenanță</li>
                 </ul>
               </div>
             </div>
@@ -228,19 +272,15 @@ export default function BrandPage() {
               <div className={styles.ctaContent}>
                 <h2>Ai nevoie de produse {brand.name}?</h2>
                 <p>
-                  Contactează-ne pentru o ofertă personalizată. Echipa noastră de specialiști 
-                  te ajută să găsești soluția perfectă pentru aplicația ta.
+                  Adaugă produsele dorite și trimite cererea. 
+                  Primești ofertă personalizată în 24h.
                 </p>
               </div>
               <div className={styles.ctaButtons}>
                 <Link href="/contact" className={styles.ctaButtonPrimary}>
-                  Cere Ofertă Gratuită
-                  <ArrowRight size={20} />
+                  <ShoppingCart size={20} />
+                  Vezi Cererea ({cartItems.length})
                 </Link>
-                <a href="mailto:vanzari@infinitrade-romania.ro" className={styles.ctaButtonSecondary}>
-                  <Mail size={20} />
-                  vanzari@infinitrade-romania.ro
-                </a>
               </div>
             </div>
           </div>
@@ -260,8 +300,10 @@ export default function BrandPage() {
                     href={`/brand/${relatedBrand.slug}`}
                     className={styles.relatedCard}
                   >
-                    <span className={styles.relatedName}>{relatedBrand.name}</span>
-                    <span className={styles.relatedCountry}>{relatedBrand.country}</span>
+                    <div className={styles.relatedInfo}>
+                      <span className={styles.relatedName}>{relatedBrand.name}</span>
+                      <span className={styles.relatedCountry}>{relatedBrand.country}</span>
+                    </div>
                     <ArrowRight size={16} />
                   </Link>
                 ))}
