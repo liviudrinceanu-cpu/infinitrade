@@ -230,6 +230,7 @@ export const features = [
 
 export const navigation = [
   { name: 'Acasă', href: '/' },
+  { name: 'Despre Noi', href: '/despre-noi' },
   { name: 'Pompe Industriale', href: '/pompe-industriale' },
   { name: 'Robineți Industriali', href: '/robineti-industriali' },
   { name: 'Motoare Industriale', href: '/motoare-electrice' },

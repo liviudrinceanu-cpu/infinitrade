@@ -93,7 +93,7 @@ const organizationSchema = {
   contactPoint: [
     {
       '@type': 'ContactPoint',
-      telephone: '+40-XXX-XXX-XXX',
+      telephone: '+40-371-232-404',
       contactType: 'sales',
       email: 'vanzari@infinitrade-romania.ro',
       availableLanguage: ['Romanian', 'English']
@@ -122,7 +122,7 @@ const localBusinessSchema = {
   name: 'Infinitrade Romania',
   image: 'https://infinitrade.ro/logo-header.png',
   url: 'https://infinitrade.ro',
-  telephone: '+40-XXX-XXX-XXX',
+  telephone: '+40-371-232-404',
   email: 'vanzari@infinitrade-romania.ro',
   address: {
     '@type': 'PostalAddress',

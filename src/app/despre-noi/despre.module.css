@@ -1,0 +1,384 @@
+.main {
+  min-height: 100vh;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  padding: 120px 0 80px;
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  color: white;
+  overflow: hidden;
+}
+
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.heroContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.heroContent {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.heroTagline {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Stats Section */
+.statsSection {
+  padding: 60px 0;
+  background: #f8f9fa;
+  margin-top: -40px;
+  position: relative;
+  z-index: 2;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.statCard {
+  background: white;
+  padding: 32px 24px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-4px);
+}
+
+.statIcon {
+  color: #0990db;
+  margin-bottom: 16px;
+}
+
+.statValue {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #063c69;
+  margin-bottom: 8px;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+/* About Section */
+.aboutSection {
+  padding: 80px 0;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.aboutContent h2 {
+  font-size: 2rem;
+  color: #063c69;
+  margin-bottom: 24px;
+}
+
+.aboutContent h3 {
+  font-size: 1.5rem;
+  color: #063c69;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.aboutContent p {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.aboutFeatures h3 {
+  font-size: 1.5rem;
+  color: #063c69;
+  margin-bottom: 24px;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.featureList li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+.featureList li svg {
+  color: #37c67f;
+  flex-shrink: 0;
+}
+
+.certifications h4 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.certList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.certBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: #f0f7ff;
+  color: #063c69;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Industries Section */
+.industriesSection {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.sectionHeader h2 {
+  font-size: 2rem;
+  color: #063c69;
+  margin-bottom: 12px;
+}
+
+.sectionHeader p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.industriesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.industryCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.industryCard:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.industryCard svg {
+  color: #0990db;
+}
+
+.industryCard span {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Clients Section */
+.clientsSection {
+  padding: 80px 0;
+}
+
+.clientsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.clientCard {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.clientCard:hover {
+  background: #063c69;
+  color: white;
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+}
+
+.ctaBox {
+  text-align: center;
+  color: white;
+}
+
+.ctaBox h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.ctaBox p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 32px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary {
+  padding: 16px 32px;
+  background: white;
+  color: #063c69;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ctaPrimary:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.ctaSecondary {
+  padding: 16px 32px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ctaSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .aboutGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .industriesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .clientsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 0 60px;
+  }
+  
+  .statsSection {
+    margin-top: -20px;
+  }
+  
+  .industriesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .clientsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .industriesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .clientsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+  }
+}
