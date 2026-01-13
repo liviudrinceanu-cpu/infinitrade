@@ -1,9 +1,10 @@
 'use client';
 
+import { useState } from 'react';
 import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone, Send } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { categories } from '@/data/products';
@@ -12,6 +13,53 @@ import styles from './category.module.css';
 export default function CategoryPage() {
   const params = useParams();
   const category = categories.find(c => c.slug === params.category);
+  
+  const [formData, setFormData] = useState({
+    name: '',
+    company: '',
+    email: '',
+    phone: '',
+    category: category?.name || '',
+    message: ''
+  });
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setError(null);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Eroare la trimiterea formularului');
+      }
+
+      setIsSubmitted(true);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   if (!category) {
     return (
@@ -232,32 +280,63 @@ export default function CategoryPage() {
                 </div>
               </div>
 
-              <form className={styles.contactForm}>
+              {!isSubmitted ? (
+              <form className={styles.contactForm} onSubmit={handleSubmit}>
                 <div className={styles.formRow}>
                   <div className={styles.formGroup}>
                     <label>Nume complet *</label>
-                    <input type="text" placeholder="Nume și prenume" required />
+                    <input 
+                      type="text" 
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      placeholder="Nume și prenume" 
+                      required 
+                    />
                   </div>
                   <div className={styles.formGroup}>
                     <label>Companie</label>
-                    <input type="text" placeholder="Numele companiei" />
+                    <input 
+                      type="text" 
+                      name="company"
+                      value={formData.company}
+                      onChange={handleChange}
+                      placeholder="Numele companiei" 
+                    />
                   </div>
                 </div>
                 
                 <div className={styles.formRow}>
                   <div className={styles.formGroup}>
                     <label>Email *</label>
-                    <input type="email" placeholder="email@companie.ro" required />
+                    <input 
+                      type="email" 
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      placeholder="email@companie.ro" 
+                      required 
+                    />
                   </div>
                   <div className={styles.formGroup}>
-                    <label>Telefon *</label>
-                    <input type="tel" placeholder="07XX XXX XXX" required />
+                    <label>Telefon</label>
+                    <input 
+                      type="tel" 
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      placeholder="07XX XXX XXX" 
+                    />
                   </div>
                 </div>
 
                 <div className={styles.formGroup}>
                   <label>Categorie produs</label>
-                  <select defaultValue={category.name}>
+                  <select 
+                    name="category"
+                    value={formData.category}
+                    onChange={handleChange}
+                  >
                     {categories.map((cat) => (
                       <option key={cat.id} value={cat.name}>{cat.name}</option>
                     ))}
@@ -267,21 +346,43 @@ export default function CategoryPage() {
                 <div className={styles.formGroup}>
                   <label>Descrieți solicitarea *</label>
                   <textarea 
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
                     rows={5} 
                     placeholder="Descrieți echipamentele de care aveți nevoie, aplicația, cantitatea, etc."
                     required
                   />
                 </div>
 
-                <button type="submit" className={styles.submitButton}>
-                  Trimite Cererea
-                  <ArrowRight size={18} />
+                {error && (
+                  <div className={styles.errorMessage}>
+                    {error}
+                  </div>
+                )}
+
+                <button 
+                  type="submit" 
+                  className={styles.submitButton}
+                  disabled={isLoading}
+                >
+                  {isLoading ? 'Se trimite...' : 'Trimite Cererea'}
+                  {!isLoading && <Send size={18} />}
                 </button>
 
                 <p className={styles.formNote}>
-                  * Câmpuri obligatorii. Datele tale sunt protejate conform GDPR.
+                  * Câmpuri obligatorii. Datele dumneavoastră sunt protejate conform GDPR.
                 </p>
               </form>
+              ) : (
+                <div className={styles.successMessage}>
+                  <div className={styles.successIcon}>
+                    <Check size={32} />
+                  </div>
+                  <h3>Mulțumim pentru solicitare!</h3>
+                  <p>Am primit cererea dumneavoastră și vă vom contacta în cel mai scurt timp posibil.</p>
+                </div>
+              )}
             </div>
           </div>
         </section>

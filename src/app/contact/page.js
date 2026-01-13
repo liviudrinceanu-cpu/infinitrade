@@ -18,12 +18,35 @@ export default function ContactPage() {
     message: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
-    setIsSubmitted(true);
+    setIsLoading(true);
+    setError(null);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Eroare la trimiterea formularului');
+      }
+
+      setIsSubmitted(true);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleChange = (e) => {
@@ -149,9 +172,19 @@ export default function ContactPage() {
                       />
                     </div>
 
-                    <button type="submit" className={styles.submitButton}>
-                      Trimite Cererea
-                      <Send size={18} />
+                    {error && (
+                      <div className={styles.errorMessage}>
+                        {error}
+                      </div>
+                    )}
+
+                    <button 
+                      type="submit" 
+                      className={styles.submitButton}
+                      disabled={isLoading}
+                    >
+                      {isLoading ? 'Se trimite...' : 'Trimite Cererea'}
+                      {!isLoading && <Send size={18} />}
                     </button>
                   </form>
                 ) : (
@@ -161,7 +194,7 @@ export default function ContactPage() {
                     </div>
                     <h2>Mulțumim pentru mesaj!</h2>
                     <p>
-                      Am primit cererea ta și te vom contacta în cel mai scurt timp posibil.
+                      Am primit cererea dumneavoastră și vă vom contacta în cel mai scurt timp posibil.
                       De obicei răspundem în maxim 24 de ore în zilele lucrătoare.
                     </p>
                   </div>
