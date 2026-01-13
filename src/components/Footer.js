@@ -1,8 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
-import { Mail, Phone, MapPin, Clock, ArrowUpRight } from 'lucide-react';
+import { Mail, MapPin, Clock, ArrowUpRight } from 'lucide-react';
 import { categories, companyInfo } from '@/data/products';
 import styles from './Footer.module.css';
 
@@ -14,17 +13,10 @@ export default function Footer() {
       <div className={styles.container}>
         {/* Main Footer */}
         <div className={styles.main}>
-          {/* Brand Column */}
+          {/* Brand Column - NO LOGO */}
           <div className={styles.brand}>
-            <Link href="/" className={styles.logo}>
-              <Image 
-                src="/logo-footer.png" 
-                alt="Infinitrade - Dăm puls industriei" 
-                width={220} 
-                height={70}
-                className={styles.logoImage}
-              />
-            </Link>
+            <h3 className={styles.brandTitle}>Infinitrade Romania</h3>
+            <p className={styles.brandTagline}>Dăm puls industriei</p>
             <p className={styles.brandDescription}>
               Distribuitor premium de echipamente industriale 
               cu peste {companyInfo.stats.years} ani de experiență.

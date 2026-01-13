@@ -24,15 +24,19 @@
   max-width: 320px;
 }
 
-.logo {
-  display: inline-block;
-  margin-bottom: 20px;
+.brandTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 4px;
 }
 
-.logoImage {
-  height: 65px;
-  width: auto;
-  object-fit: contain;
+.brandTagline {
+  font-size: 14px;
+  color: var(--primary);
+  font-weight: 500;
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
 }
 
 .brandDescription {

@@ -64,7 +64,7 @@
   max-width: var(--container-wide);
   margin: 0 auto;
   padding: 0 24px;
-  height: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,7 +78,7 @@
 }
 
 .logoImage {
-  height: 60px;
+  height: 80px;
   width: auto;
   object-fit: contain;
 }
