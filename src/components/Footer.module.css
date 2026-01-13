@@ -30,12 +30,9 @@
 }
 
 .logoImage {
-  height: 55px;
+  height: 65px;
   width: auto;
   object-fit: contain;
-  background: white;
-  padding: 8px 12px;
-  border-radius: 8px;
 }
 
 .brandDescription {

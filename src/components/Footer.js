@@ -18,10 +18,10 @@ export default function Footer() {
           <div className={styles.brand}>
             <Link href="/" className={styles.logo}>
               <Image 
-                src="/logo-full.png" 
+                src="/logo-footer.png" 
                 alt="Infinitrade - Dăm puls industriei" 
-                width={200} 
-                height={55}
+                width={220} 
+                height={70}
                 className={styles.logoImage}
               />
             </Link>

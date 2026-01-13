@@ -16,7 +16,7 @@ export const categories = [
     stats: {
       brands: '45+',
       products: '2000+',
-      delivery: '24-48h'
+      delivery: '24-72h'
     },
     brands: [
       {
@@ -148,7 +148,7 @@ export const categories = [
     stats: {
       brands: '35+',
       products: '3000+',
-      delivery: '24-48h'
+      delivery: '24-72h'
     },
     brands: [
       {
@@ -647,7 +647,7 @@ export const features = [
   {
     icon: 'Truck',
     title: 'Livrare Rapidă',
-    description: 'Livrare în 24-48h pentru produse din stoc. Transport aerian disponibil pentru urgențe'
+    description: 'Livrare în 24-72h pentru produse din stoc. Transport aerian disponibil pentru urgențe'
   },
   {
     icon: 'Wrench',

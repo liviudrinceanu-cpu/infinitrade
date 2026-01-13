@@ -194,7 +194,7 @@ export default function CategoryPage() {
                 <h3>Livrare Rapidă</h3>
                 <p>Livrăm rapid în toată România. Transport aerian disponibil pentru situații urgente.</p>
                 <ul className={styles.servicesList}>
-                  <li><Check size={16} />Livrare 24-48h pentru stoc disponibil</li>
+                  <li><Check size={16} />Livrare 24-72h pentru stoc disponibil</li>
                   <li><Check size={16} />Transport express internațional</li>
                   <li><Check size={16} />Livrare în toată România</li>
                   <li><Check size={16} />Ambalare profesională</li>

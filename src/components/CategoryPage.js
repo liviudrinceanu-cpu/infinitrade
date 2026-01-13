@@ -93,7 +93,7 @@ export default function CategoryPage({ slug }) {
                 </div>
                 <div>
                   <h4>Livrare Rapidă</h4>
-                  <p>Piese de schimb în 24-48h din stoc</p>
+                  <p>Piese de schimb în 24-72h din stoc</p>
                 </div>
               </div>
               <div className={styles.valueProp}>

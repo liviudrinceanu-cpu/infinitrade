@@ -44,13 +44,13 @@ export default function Header() {
       {/* Main Header */}
       <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
         <div className={styles.headerContent}>
-          {/* Logo - Horizontal version */}
+          {/* Logo - Horizontal color version */}
           <Link href="/" className={styles.logo}>
             <Image 
-              src="/logo-full.png" 
+              src="/logo-header.png" 
               alt="Infinitrade - Dăm puls industriei" 
-              width={200} 
-              height={50}
+              width={220} 
+              height={70}
               className={styles.logoImage}
               priority
             />
