@@ -5,8 +5,9 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronDown, Phone, Mail, Clock, Search } from 'lucide-react';
+import { Menu, X, ChevronDown, Phone, Mail, Clock, Search, ShoppingCart, Plus, Trash2 } from 'lucide-react';
 import { navigation, categories, allBrands } from '@/data/products';
+import { useQuoteCart } from '@/context/QuoteCartContext';
 import styles from './Header.module.css';
 
 // Build search index
@@ -53,13 +54,17 @@ const searchIndex = buildSearchIndex();
 
 export default function Header() {
   const router = useRouter();
+  const { items: cartItems, itemCount, lastAction, addItem, removeItem } = useQuoteCart();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
+  const [isCartOpen, setIsCartOpen] = useState(false);
+  const [cartAnimation, setCartAnimation] = useState(null); // 'add' | 'remove'
   const searchRef = useRef(null);
+  const cartRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -69,11 +74,23 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close search when clicking outside
+  // Cart animation effect
+  useEffect(() => {
+    if (lastAction) {
+      setCartAnimation(lastAction.type);
+      const timer = setTimeout(() => setCartAnimation(null), 600);
+      return () => clearTimeout(timer);
+    }
+  }, [lastAction]);
+
+  // Close dropdowns when clicking outside
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (searchRef.current && !searchRef.current.contains(e.target)) {
         setIsSearchFocused(false);
+      }
+      if (cartRef.current && !cartRef.current.contains(e.target)) {
+        setIsCartOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -260,22 +277,109 @@ export default function Header() {
                     exit={{ opacity: 0, y: 10 }}
                   >
                     {searchResults.map((result, idx) => (
-                      <button
-                        key={idx}
-                        className={styles.searchResult}
-                        onClick={() => handleResultClick(result.url)}
-                      >
-                        <span className={styles.resultType}>
-                          {result.type === 'brand' ? '🏷️' : result.type === 'category' ? '📦' : '🔧'}
-                        </span>
-                        <div className={styles.resultInfo}>
-                          <span className={styles.resultName}>{result.name}</span>
-                          {result.category && (
-                            <span className={styles.resultCategory}>{result.category}</span>
-                          )}
-                        </div>
-                      </button>
+                      <div key={idx} className={styles.searchResult}>
+                        <button
+                          className={styles.searchResultMain}
+                          onClick={() => handleResultClick(result.url)}
+                        >
+                          <span className={styles.resultType}>
+                            {result.type === 'brand' ? '🏷️' : result.type === 'category' ? '📦' : '🔧'}
+                          </span>
+                          <div className={styles.resultInfo}>
+                            <span className={styles.resultName}>{result.name}</span>
+                            {result.category && (
+                              <span className={styles.resultCategory}>{result.category}</span>
+                            )}
+                          </div>
+                        </button>
+                        <button
+                          className={styles.addToCartBtn}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            addItem({
+                              type: result.type,
+                              name: result.name,
+                              category: result.category || '',
+                              url: result.url
+                            });
+                          }}
+                          title="Adaugă la cerere ofertă"
+                        >
+                          <Plus size={16} />
+                        </button>
+                      </div>
                     ))}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Cart Button with Badge */}
+            <div className={styles.cartWrapper} ref={cartRef}>
+              <button 
+                className={`${styles.cartButton} ${cartAnimation === 'add' ? styles.cartAdded : ''} ${cartAnimation === 'remove' ? styles.cartRemoved : ''}`}
+                onClick={() => setIsCartOpen(!isCartOpen)}
+              >
+                <ShoppingCart size={20} />
+                {itemCount > 0 && (
+                  <span className={styles.cartBadge}>{itemCount}</span>
+                )}
+              </button>
+
+              {/* Cart Dropdown */}
+              <AnimatePresence>
+                {isCartOpen && (
+                  <motion.div
+                    className={styles.cartDropdown}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 10 }}
+                  >
+                    <div className={styles.cartHeader}>
+                      <h4>Cerere Ofertă ({itemCount})</h4>
+                    </div>
+                    
+                    {cartItems.length === 0 ? (
+                      <div className={styles.cartEmpty}>
+                        <p>Nu ai adăugat produse</p>
+                        <span>Caută și adaugă produse pentru a solicita ofertă</span>
+                      </div>
+                    ) : (
+                      <>
+                        <div className={styles.cartItems}>
+                          {cartItems.map((item) => (
+                            <div key={item.id} className={styles.cartItem}>
+                              <div className={styles.cartItemInfo}>
+                                <span className={styles.cartItemType}>
+                                  {item.type === 'brand' ? '🏷️' : item.type === 'category' ? '📦' : '🔧'}
+                                </span>
+                                <div>
+                                  <span className={styles.cartItemName}>{item.name}</span>
+                                  {item.category && (
+                                    <span className={styles.cartItemCategory}>{item.category}</span>
+                                  )}
+                                </div>
+                              </div>
+                              <button
+                                className={styles.cartItemRemove}
+                                onClick={() => removeItem(item.id)}
+                              >
+                                <Trash2 size={14} />
+                              </button>
+                            </div>
+                          ))}
+                        </div>
+                        <div className={styles.cartFooter}>
+                          <Link 
+                            href="/contact" 
+                            className={styles.cartSubmit}
+                            onClick={() => setIsCartOpen(false)}
+                          >
+                            Trimite Cererea
+                          </Link>
+                        </div>
+                      </>
+                    )}
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -283,6 +387,7 @@ export default function Header() {
 
             <Link href="/contact" className={styles.ctaButton}>
               Cere Ofertă
+              {itemCount > 0 && <span className={styles.ctaBadge}>{itemCount}</span>}
             </Link>
           </div>
         </div>

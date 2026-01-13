@@ -146,6 +146,8 @@ const localBusinessSchema = {
   priceRange: '$$'
 }
 
+import { QuoteCartProvider } from '@/context/QuoteCartContext';
+
 export default function RootLayout({ children }) {
   return (
     <html lang="ro">
@@ -169,7 +171,9 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        {children}
+        <QuoteCartProvider>
+          {children}
+        </QuoteCartProvider>
       </body>
     </html>
   )

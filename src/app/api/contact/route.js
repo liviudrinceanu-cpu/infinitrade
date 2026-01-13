@@ -106,26 +106,29 @@ DATELE CLIENTULUI:
 - Companie: ${formData.company || 'Nespecificată'}
 - Categorie selectată: ${formData.category || 'Nespecificată'}
 
-MESAJUL CLIENTULUI:
+${formData.cartItems && formData.cartItems.length > 0 ? `PRODUSE DIN COȘ (selectate de client):
+${formData.cartItems.map(item => `- ${item.type === 'brand' ? 'Brand' : item.type === 'category' ? 'Categorie' : 'Produs'}: ${item.name}${item.category ? ` (${item.category})` : ''}`).join('\n')}
+
+` : ''}MESAJUL CLIENTULUI:
 ${formData.message}
+
+${formData.cartItems && formData.cartItems.length > 3 ? `NOTĂ: Clientul a selectat ${formData.cartItems.length} produse. Oferă o estimare sumară pe categorii în loc de detalii pentru fiecare, pentru eficiență.` : ''}
 
 Răspunde în română, structurat și profesional. Pentru estimările de preț, folosește intervale realiste bazate pe piața din România/Europa pentru echipamente industriale. Dacă nu poți identifica produse specifice, menționează acest lucru și oferă estimări generale bazate pe categoria selectată.
 
 Format răspuns:
 📋 REZUMAT CERERE:
-[rezumat]
+[rezumat scurt]
 
 🏭 PRODUSE IDENTIFICATE:
 [lista produse cu branduri dacă sunt menționate]
 
 💰 ESTIMARE PREȚURI (EUR):
-[produs 1]: [preț min] - [preț max] EUR
-[produs 2]: [preț min] - [preț max] EUR
-...
+[produs/categorie]: [preț min] - [preț max] EUR
 📊 TOTAL ESTIMAT: [sumă min] - [sumă max] EUR
 
-💡 OBSERVAȚII PENTRU VÂNZĂRI:
-[observații relevante, întrebări de clarificare sugerate]`;
+💡 OBSERVAȚII:
+[observații scurte și relevante]`;
 
   try {
     const response = await client.messages.create({

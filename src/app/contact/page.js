@@ -1,14 +1,17 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Clock, Send, Check } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Send, Check, X, ShoppingCart } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { companyInfo, categories } from '@/data/products';
+import { useQuoteCart } from '@/context/QuoteCartContext';
 import styles from './contact.module.css';
 
 export default function ContactPage() {
+  const { items: cartItems, removeItem, clearCart, getCartSummary } = useQuoteCart();
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -21,10 +24,31 @@ export default function ContactPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // Pre-fill message with cart items
+  useEffect(() => {
+    if (cartItems.length > 0 && !formData.message) {
+      const cartSummary = getCartSummary();
+      setFormData(prev => ({
+        ...prev,
+        message: `Solicit ofertă pentru:\n\n${cartSummary}\n\nDetalii suplimentare:\n`
+      }));
+    }
+  }, [cartItems]);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
     setError(null);
+
+    // Add cart items to form data for API
+    const submitData = {
+      ...formData,
+      cartItems: cartItems.map(item => ({
+        type: item.type,
+        name: item.name,
+        category: item.category
+      }))
+    };
 
     try {
       const response = await fetch('/api/contact', {
@@ -32,7 +56,7 @@ export default function ContactPage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(submitData),
       });
 
       const result = await response.json();
@@ -41,6 +65,8 @@ export default function ContactPage() {
         throw new Error(result.error || 'Eroare la trimiterea formularului');
       }
 
+      // Clear cart after successful submission
+      clearCart();
       setIsSubmitted(true);
     } catch (err) {
       setError(err.message);
@@ -92,6 +118,36 @@ export default function ContactPage() {
                   <form onSubmit={handleSubmit} className={styles.form}>
                     <h2>Cere Ofertă</h2>
                     <p>Completează formularul și te vom contacta în cel mai scurt timp.</p>
+
+                    {/* Cart Items Display */}
+                    {cartItems.length > 0 && (
+                      <div className={styles.cartItemsSection}>
+                        <div className={styles.cartItemsHeader}>
+                          <ShoppingCart size={18} />
+                          <span>Produse selectate ({cartItems.length})</span>
+                        </div>
+                        <div className={styles.cartItemsList}>
+                          {cartItems.map((item) => (
+                            <div key={item.id} className={styles.cartItemTag}>
+                              <span className={styles.cartItemEmoji}>
+                                {item.type === 'brand' ? '🏷️' : item.type === 'category' ? '📦' : '🔧'}
+                              </span>
+                              <span className={styles.cartItemText}>
+                                {item.name}
+                                {item.category && <small> • {item.category}</small>}
+                              </span>
+                              <button
+                                type="button"
+                                className={styles.cartItemRemoveBtn}
+                                onClick={() => removeItem(item.id)}
+                              >
+                                <X size={14} />
+                              </button>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
 
                     <div className={styles.formGrid}>
                       <div className={styles.formGroup}>
