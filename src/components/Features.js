@@ -65,11 +65,11 @@ export default function Features() {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <div className={styles.ctaContent}>
-            <h3>Ai nevoie de ajutor?</h3>
-            <p>Echipa noastră tehnică este gata să te ajute cu orice întrebare.</p>
+            <h3>Ai nevoie de asistență tehnică?</h3>
+            <p>Echipa noastră te poate asista în orice situație - contactează-ne.</p>
           </div>
           <a href="/contact" className={styles.ctaButton}>
-            Contactează-ne
+            Contactează Echipa Tehnică
           </a>
         </motion.div>
       </div>

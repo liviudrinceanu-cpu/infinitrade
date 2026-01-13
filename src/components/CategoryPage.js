@@ -235,14 +235,14 @@ export default function CategoryPage({ slug }) {
           <div className={styles.container}>
             <div className={styles.ctaBox}>
               <div className={styles.ctaContent}>
-                <h2>Ai nevoie de {category.name.toLowerCase()}?</h2>
+                <h2>Căutați {category.name.toLowerCase()} pentru aplicația dumneavoastră?</h2>
                 <p>
-                  Contactează-ne pentru o ofertă personalizată. Echipa noastră tehnică 
-                  te ajută să găsești soluția perfectă pentru aplicația ta.
+                  Solicitați o ofertă personalizată. Echipa noastră tehnică vă poate asista 
+                  în selectarea soluției optime pentru cerințele specifice ale proiectului.
                 </p>
               </div>
               <Link href="/contact" className={styles.ctaButton}>
-                Cere Ofertă Gratuită
+                Solicită Ofertă Personalizată
                 <ArrowRight size={20} />
               </Link>
             </div>

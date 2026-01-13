@@ -209,11 +209,11 @@ export default function CategoryPage() {
           <div className={styles.container}>
             <div className={styles.contactGrid}>
               <div className={styles.contactInfo}>
-                <h2>Cere Ofertă pentru {category.name}</h2>
+                <h2>Solicitați Ofertă pentru {category.name}</h2>
                 <p>
-                  Completează formularul alăturat și vei primi o ofertă personalizată 
-                  în cel mai scurt timp. Echipa noastră tehnică te va contacta pentru 
-                  a înțelege exact nevoile tale.
+                  Completați formularul alăturat pentru a primi o ofertă personalizată 
+                  în cel mai scurt timp. Echipa noastră tehnică vă va contacta pentru 
+                  a identifica soluția optimă pentru cerințele dumneavoastră.
                 </p>
                 
                 <div className={styles.contactFeatures}>

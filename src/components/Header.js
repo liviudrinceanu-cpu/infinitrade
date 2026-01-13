@@ -49,8 +49,8 @@ export default function Header() {
             <Image 
               src="/logo-header.png" 
               alt="Infinitrade - Dăm puls industriei" 
-              width={300} 
-              height={95}
+              width={400} 
+              height={130}
               className={styles.logoImage}
               priority
             />
