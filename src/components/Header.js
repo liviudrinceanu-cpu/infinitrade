@@ -33,6 +33,11 @@ export default function Header() {
             </a>
           </div>
           <div className={styles.topBarRight}>
+            <a href="tel:0371232404" className={styles.topBarLink}>
+              <Phone size={14} />
+              0371 232 404
+            </a>
+            <span className={styles.topBarDivider}>|</span>
             <span className={styles.topBarLink}>
               <Clock size={14} />
               Luni - Vineri: 08:00 - 16:30
@@ -41,111 +46,105 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Main Header */}
+      {/* Main Header - Two Rows */}
       <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
         <div className={styles.headerContent}>
-          {/* Logo - Horizontal color version - LARGER */}
-          <Link href="/" className={styles.logo}>
-            <Image 
-              src="/logo-header.png" 
-              alt="Infinitrade - Dăm puls industriei" 
-              width={400} 
-              height={130}
-              className={styles.logoImage}
-              priority
-            />
-          </Link>
-
-          {/* Desktop Navigation */}
-          <nav className={styles.nav}>
-            {navigation.map((item) => (
-              <div
-                key={item.name}
-                className={styles.navItem}
-                onMouseEnter={() => item.href !== '/' && item.href !== '/contact' && setActiveDropdown(item.name)}
-                onMouseLeave={() => setActiveDropdown(null)}
-              >
-                <Link href={item.href} className={styles.navLink}>
-                  {item.name}
-                  {item.href !== '/' && item.href !== '/contact' && (
-                    <ChevronDown size={14} className={styles.navChevron} />
-                  )}
-                </Link>
-              </div>
-            ))}
-          </nav>
-
-          {/* CTA Button */}
-          <div className={styles.headerActions}>
-            <Link href="/contact" className={styles.ctaButton}>
-              Cere Ofertă
+          {/* Row 1: Logo + CTA */}
+          <div className={styles.headerTop}>
+            <Link href="/" className={styles.logo}>
+              <Image 
+                src="/logo-header.png" 
+                alt="Infinitrade - Dăm puls industriei" 
+                width={280} 
+                height={90}
+                className={styles.logoImage}
+                priority
+              />
             </Link>
+
+            <div className={styles.headerTopRight}>
+              <Link href="/contact" className={styles.ctaButton}>
+                Cere Ofertă
+              </Link>
+              
+              {/* Mobile Menu Button */}
+              <button
+                className={styles.mobileMenuButton}
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              >
+                {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className={styles.mobileMenuButton}
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Row 2: Navigation */}
+          <nav className={styles.navRow}>
+            <div className={styles.nav}>
+              {navigation.map((item) => {
+                const isCategory = !['/despre-noi', '/contact', '/'].includes(item.href);
+                
+                return (
+                  <div
+                    key={item.name}
+                    className={styles.navItem}
+                    onMouseEnter={() => isCategory && setActiveDropdown(item.name)}
+                    onMouseLeave={() => setActiveDropdown(null)}
+                  >
+                    <Link href={item.href} className={styles.navLink}>
+                      {item.name}
+                      {isCategory && (
+                        <ChevronDown size={14} className={styles.navChevron} />
+                      )}
+                    </Link>
+                    
+                    {/* Dropdown for categories */}
+                    <AnimatePresence>
+                      {activeDropdown === item.name && isCategory && (
+                        <motion.div
+                          className={styles.dropdown}
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: 10 }}
+                          transition={{ duration: 0.15 }}
+                          onMouseEnter={() => setActiveDropdown(item.name)}
+                          onMouseLeave={() => setActiveDropdown(null)}
+                        >
+                          {categories
+                            .filter(cat => `/${cat.slug}` === item.href)
+                            .map(category => (
+                              <div key={category.id} className={styles.dropdownContent}>
+                                <div className={styles.dropdownMain}>
+                                  <h4>{category.name}</h4>
+                                  <p>{category.tagline}</p>
+                                  <Link href={`/${category.slug}`} className={styles.dropdownCta}>
+                                    Vezi toate produsele →
+                                  </Link>
+                                </div>
+                                <div className={styles.dropdownBrands}>
+                                  <span className={styles.dropdownLabel}>Branduri populare:</span>
+                                  <div className={styles.brandTags}>
+                                    {category.brands.filter(b => b.featured).slice(0, 4).map(brand => (
+                                      <Link 
+                                        key={brand.slug} 
+                                        href={`/brand/${brand.slug}`}
+                                        className={styles.brandTag}
+                                      >
+                                        {brand.name}
+                                      </Link>
+                                    ))}
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                );
+              })}
+            </div>
+          </nav>
         </div>
-
-        {/* Mega Dropdown */}
-        <AnimatePresence>
-          {activeDropdown && (
-            <motion.div
-              className={styles.megaDropdown}
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
-              transition={{ duration: 0.2 }}
-              onMouseEnter={() => setActiveDropdown(activeDropdown)}
-              onMouseLeave={() => setActiveDropdown(null)}
-            >
-              <div className={styles.megaDropdownContent}>
-                {categories
-                  .filter((cat) => {
-                    const navItem = navigation.find(n => n.name === activeDropdown);
-                    return navItem && cat.slug === navItem.href.replace('/', '');
-                  })
-                  .map((category) => (
-                    <div key={category.id} className={styles.megaDropdownGrid}>
-                      <div className={styles.megaDropdownMain}>
-                        <h3 className={styles.megaDropdownTitle}>{category.name}</h3>
-                        <p className={styles.megaDropdownDesc}>{category.description}</p>
-                        <Link href={`/${category.slug}`} className={styles.megaDropdownLink}>
-                          Explorează {category.name} →
-                        </Link>
-                      </div>
-                      <div className={styles.megaDropdownTypes}>
-                        <h4>Tipuri de Produse</h4>
-                        <ul>
-                          {category.productTypes.slice(0, 6).map((type) => (
-                            <li key={type.name}>
-                              <Link href={`/${category.slug}#${type.name.toLowerCase().replace(/ /g, '-')}`}>
-                                {type.name}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      <div className={styles.megaDropdownBrands}>
-                        <h4>Branduri Top</h4>
-                        <div className={styles.brandLogos}>
-                          {category.brands.filter(b => b.featured).slice(0, 4).map((brand) => (
-                            <span key={brand.name} className={styles.brandBadge}>
-                              {brand.name}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
       </header>
 
       {/* Mobile Menu */}

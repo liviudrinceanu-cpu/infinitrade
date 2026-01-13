@@ -1,9 +1,9 @@
 /* Top Bar */
 .topBar {
-  background: var(--black);
-  color: var(--white);
-  font-size: 12px;
+  background: var(--gray-50);
+  border-bottom: 1px solid var(--gray-200);
   padding: 8px 0;
+  font-size: 13px;
 }
 
 .topBarContent {
@@ -15,11 +15,7 @@
   align-items: center;
 }
 
-.topBarLeft {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
+.topBarLeft,
 .topBarRight {
   display: flex;
   align-items: center;
@@ -30,44 +26,51 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  color: var(--gray-300);
+  color: var(--gray-500);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
 
 .topBarLink:hover {
-  color: var(--white);
+  color: var(--primary);
 }
 
 .topBarDivider {
-  color: var(--gray-600);
+  color: var(--gray-300);
 }
 
-/* Header */
+/* Main Header */
 .header {
   position: sticky;
   top: 0;
+  background: var(--white);
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: saturate(180%) blur(20px);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: 1px solid transparent;
-  transition: all var(--transition-fast);
+  box-shadow: 0 1px 0 var(--gray-200);
+  transition: box-shadow var(--transition-normal);
 }
 
 .header.scrolled {
-  background: rgba(255, 255, 255, 0.95);
-  border-bottom-color: var(--gray-200);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .headerContent {
   max-width: var(--container-wide);
   margin: 0 auto;
   padding: 0 24px;
-  height: 130px;
+}
+
+/* Row 1: Logo + CTA */
+.headerTop {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 16px 0;
+}
+
+.headerTopRight {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 /* Logo */
@@ -78,16 +81,42 @@
 }
 
 .logoImage {
-  height: 110px;
+  height: 70px;
   width: auto;
   object-fit: contain;
 }
 
-/* Navigation */
+/* CTA Button */
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background: var(--primary);
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 980px;
+  transition: all var(--transition-fast);
+}
+
+.ctaButton:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+/* Row 2: Navigation */
+.navRow {
+  border-top: 1px solid var(--gray-100);
+  padding: 0;
+}
+
 .nav {
   display: flex;
   align-items: center;
-  gap: 4px;
+  justify-content: center;
+  gap: 0;
 }
 
 .navItem {
@@ -98,17 +127,16 @@
   display: flex;
   align-items: center;
   gap: 4px;
-  padding: 8px 14px;
+  padding: 14px 18px;
   font-size: 14px;
-  font-weight: 400;
-  color: var(--black);
+  font-weight: 450;
+  color: var(--gray-700);
   text-decoration: none;
-  border-radius: 6px;
   transition: all var(--transition-fast);
 }
 
 .navLink:hover {
-  background: var(--gray-100);
+  color: var(--primary);
 }
 
 .navChevron {
@@ -118,133 +146,101 @@
 
 .navItem:hover .navChevron {
   transform: rotate(180deg);
+  opacity: 1;
 }
 
-/* Header Actions */
-.headerActions {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.ctaButton {
-  display: inline-flex;
-  align-items: center;
-  padding: 8px 18px;
-  background: var(--primary);
-  color: var(--white);
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 980px;
-  text-decoration: none;
-  transition: all var(--transition-fast);
-}
-
-.ctaButton:hover {
-  background: var(--primary-hover);
-  transform: scale(1.02);
-}
-
-/* Mobile Menu Button */
-.mobileMenuButton {
-  display: none;
-  padding: 8px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: var(--black);
-}
-
-/* Mega Dropdown */
-.megaDropdown {
+/* Dropdown */
+.dropdown {
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background: var(--white);
-  border-top: 1px solid var(--gray-200);
-  box-shadow: var(--shadow-lg);
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  min-width: 320px;
+  z-index: 100;
 }
 
-.megaDropdownContent {
-  max-width: var(--container-wide);
-  margin: 0 auto;
-  padding: 32px 24px;
+.dropdownContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.megaDropdownGrid {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
-  gap: 48px;
-}
-
-.megaDropdownMain h3 {
-  font-size: 24px;
+.dropdownMain h4 {
+  font-size: 16px;
   font-weight: 600;
-  margin-bottom: 8px;
+  color: var(--gray-900);
+  margin-bottom: 4px;
 }
 
-.megaDropdownDesc {
-  font-size: 15px;
+.dropdownMain p {
+  font-size: 13px;
   color: var(--gray-500);
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
-.megaDropdownLink {
-  font-size: 15px;
+.dropdownCta {
+  font-size: 13px;
   font-weight: 500;
   color: var(--primary);
   text-decoration: none;
-  transition: color var(--transition-fast);
 }
 
-.megaDropdownLink:hover {
+.dropdownCta:hover {
   text-decoration: underline;
 }
 
-.megaDropdownTypes h4,
-.megaDropdownBrands h4 {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--gray-400);
+.dropdownBrands {
+  padding-top: 16px;
+  border-top: 1px solid var(--gray-100);
+}
+
+.dropdownLabel {
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 16px;
-}
-
-.megaDropdownTypes ul {
-  list-style: none;
-}
-
-.megaDropdownTypes li {
+  color: var(--gray-400);
+  display: block;
   margin-bottom: 10px;
 }
 
-.megaDropdownTypes a {
-  font-size: 14px;
-  color: var(--gray-600);
-  text-decoration: none;
-  transition: color var(--transition-fast);
-}
-
-.megaDropdownTypes a:hover {
-  color: var(--primary);
-}
-
-.brandLogos {
+.brandTags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
-.brandBadge {
-  display: inline-flex;
+.brandTag {
   padding: 6px 12px;
-  background: var(--gray-100);
-  border-radius: 6px;
-  font-size: 13px;
+  background: var(--gray-50);
+  color: var(--gray-700);
+  font-size: 12px;
   font-weight: 500;
-  color: var(--gray-600);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.brandTag:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
+/* Mobile Menu Button */
+.mobileMenuButton {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: var(--gray-100);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--gray-700);
 }
 
 /* Mobile Menu */
@@ -252,61 +248,72 @@
   position: fixed;
   top: 0;
   right: 0;
-  bottom: 0;
   width: 100%;
   max-width: 400px;
+  height: 100vh;
   background: var(--white);
-  z-index: 999;
-  box-shadow: var(--shadow-xl);
-  padding: 80px 24px 24px;
+  z-index: 2000;
+  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  padding-top: 80px;
 }
 
 .mobileNav {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 }
 
 .mobileNavLink {
-  display: block;
   padding: 16px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
-  color: var(--black);
+  color: var(--gray-700);
   text-decoration: none;
-  border-radius: var(--radius-md);
+  border-radius: 12px;
   transition: all var(--transition-fast);
 }
 
 .mobileNavLink:hover {
-  background: var(--gray-100);
+  background: var(--gray-50);
+  color: var(--primary);
 }
 
 .mobileCta {
-  display: block;
-  margin-top: 24px;
-  padding: 18px;
+  margin-top: 16px;
+  padding: 16px 24px;
   background: var(--primary);
   color: var(--white);
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
-  border-radius: var(--radius-lg);
+  border-radius: 12px;
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
-  .nav {
-    display: none;
+@media (max-width: 1200px) {
+  .navLink {
+    padding: 14px 14px;
+    font-size: 13px;
   }
-  
-  .headerActions {
+}
+
+@media (max-width: 1024px) {
+  .navRow {
     display: none;
   }
   
   .mobileMenuButton {
     display: flex;
+  }
+  
+  .headerTop {
+    padding: 12px 0;
+  }
+  
+  .logoImage {
+    height: 55px;
   }
 }
 
@@ -315,8 +322,31 @@
     display: none;
   }
   
-  .topBarLeft {
-    text-align: center;
-    width: 100%;
+  .ctaButton {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .logoImage {
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topBar {
+    display: none;
+  }
+  
+  .headerContent {
+    padding: 0 16px;
+  }
+  
+  .logoImage {
+    height: 45px;
+  }
+  
+  .ctaButton {
+    padding: 8px 16px;
+    font-size: 13px;
   }
 }

@@ -220,9 +220,11 @@ export async function POST(request) {
   <style>
     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-    .header { background: linear-gradient(135deg, #063c69 0%, #0990db 100%); color: white; padding: 20px; border-radius: 8px 8px 0 0; }
-    .header h1 { margin: 0; font-size: 24px; }
-    .header p { margin: 5px 0 0; opacity: 0.9; }
+    .header { background: linear-gradient(135deg, #063c69 0%, #0990db 100%); color: white; padding: 24px; border-radius: 8px 8px 0 0; }
+    .header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+    .header-meta { display: flex; align-items: center; gap: 12px; margin-top: 10px; }
+    .badge { display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 500; border: 1px solid rgba(255,255,255,0.3); }
+    .header-date { opacity: 0.85; font-size: 13px; }
     .content { background: #f8f9fa; padding: 20px; border: 1px solid #e0e0e0; }
     .section { background: white; padding: 15px; margin-bottom: 15px; border-radius: 8px; border-left: 4px solid #0990db; }
     .section h2 { margin: 0 0 10px; color: #063c69; font-size: 16px; }
@@ -231,14 +233,16 @@ export async function POST(request) {
     .ai-analysis { background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #37c67f; white-space: pre-wrap; }
     .ai-analysis h2 { color: #37c67f; }
     .footer { background: #063c69; color: white; padding: 15px; text-align: center; border-radius: 0 0 8px 8px; font-size: 12px; }
-    .badge { display: inline-block; background: #ff2800; color: white; padding: 3px 10px; border-radius: 4px; font-size: 12px; font-weight: bold; }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
       <h1>📧 Nouă Solicitare de Ofertă</h1>
-      <p><span class="badge">infinitrade.ro</span> ${new Date().toLocaleString('ro-RO')}</p>
+      <div class="header-meta">
+        <span class="badge">infinitrade.ro</span>
+        <span class="header-date">${new Date().toLocaleString('ro-RO')}</span>
+      </div>
     </div>
     
     <div class="content">
