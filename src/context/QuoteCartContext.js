@@ -1,29 +1,42 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback } from 'react';
 
 const QuoteCartContext = createContext();
 
 export function QuoteCartProvider({ children }) {
   const [items, setItems] = useState([]);
-  const [lastAction, setLastAction] = useState(null); // { type: 'add' | 'remove', item }
+  const [lastAction, setLastAction] = useState(null);
+  const [isHydrated, setIsHydrated] = useState(false);
 
   // Load from localStorage on mount
   useEffect(() => {
-    const saved = localStorage.getItem('quoteCart');
-    if (saved) {
-      try {
-        setItems(JSON.parse(saved));
-      } catch (e) {
-        console.error('Error loading cart:', e);
+    try {
+      const saved = localStorage.getItem('quoteCart');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          setItems(parsed);
+        }
       }
+    } catch (e) {
+      // Silently fail if localStorage is not available or corrupted
+      console.error('Error loading cart:', e);
+    } finally {
+      setIsHydrated(true);
     }
   }, []);
 
   // Save to localStorage on change
   useEffect(() => {
-    localStorage.setItem('quoteCart', JSON.stringify(items));
-  }, [items]);
+    if (isHydrated) {
+      try {
+        localStorage.setItem('quoteCart', JSON.stringify(items));
+      } catch (e) {
+        console.error('Error saving cart:', e);
+      }
+    }
+  }, [items, isHydrated]);
 
   // Clear last action after animation
   useEffect(() => {
@@ -33,7 +46,7 @@ export function QuoteCartProvider({ children }) {
     }
   }, [lastAction]);
 
-  const addItem = (item) => {
+  const addItem = useCallback((item) => {
     // Check if already exists
     const exists = items.find(i => 
       i.type === item.type && 
@@ -43,7 +56,7 @@ export function QuoteCartProvider({ children }) {
     if (!exists) {
       const newItem = {
         ...item,
-        id: Date.now(),
+        id: Date.now() + Math.random(),
         addedAt: new Date().toISOString()
       };
       setItems(prev => [...prev, newItem]);
@@ -51,22 +64,22 @@ export function QuoteCartProvider({ children }) {
       return true;
     }
     return false;
-  };
+  }, [items]);
 
-  const removeItem = (id) => {
+  const removeItem = useCallback((id) => {
     const item = items.find(i => i.id === id);
     if (item) {
       setItems(prev => prev.filter(i => i.id !== id));
       setLastAction({ type: 'remove', item });
     }
-  };
+  }, [items]);
 
-  const clearCart = () => {
+  const clearCart = useCallback(() => {
     setItems([]);
     setLastAction({ type: 'clear' });
-  };
+  }, []);
 
-  const getCartSummary = () => {
+  const getCartSummary = useCallback(() => {
     return items.map(item => {
       if (item.type === 'brand') {
         return `${item.name} (${item.category})`;
@@ -76,7 +89,7 @@ export function QuoteCartProvider({ children }) {
         return `${item.name} - ${item.category}`;
       }
     }).join('\n');
-  };
+  }, [items]);
 
   return (
     <QuoteCartContext.Provider value={{
@@ -86,7 +99,8 @@ export function QuoteCartProvider({ children }) {
       addItem,
       removeItem,
       clearCart,
-      getCartSummary
+      getCartSummary,
+      isHydrated
     }}>
       {children}
     </QuoteCartContext.Provider>

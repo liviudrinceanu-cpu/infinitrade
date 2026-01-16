@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -8,13 +8,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, Phone, Mail, Clock, Search, ShoppingCart, Plus, Trash2 } from 'lucide-react';
 import { navigation, categories, allBrands } from '@/data/products';
 import { useQuoteCart } from '@/context/QuoteCartContext';
+import { debounce } from '@/lib/utils';
 import styles from './Header.module.css';
 
-// Build search index
+// Build search index - moved outside component
 const buildSearchIndex = () => {
   const items = [];
   
-  // Add categories
   categories.forEach(cat => {
     items.push({
       type: 'category',
@@ -23,7 +23,6 @@ const buildSearchIndex = () => {
       keywords: [cat.name.toLowerCase(), cat.tagline?.toLowerCase() || '']
     });
     
-    // Add product types
     cat.productTypes?.forEach(pt => {
       items.push({
         type: 'product',
@@ -35,7 +34,6 @@ const buildSearchIndex = () => {
     });
   });
   
-  // Add brands
   allBrands.forEach(brand => {
     const cat = categories.find(c => c.slug === brand.category);
     items.push({
@@ -50,6 +48,7 @@ const buildSearchIndex = () => {
   return items;
 };
 
+// Build once, reuse
 const searchIndex = buildSearchIndex();
 
 export default function Header() {
@@ -97,21 +96,29 @@ export default function Header() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  // Search function
-  const handleSearch = (query) => {
-    setSearchQuery(query);
-    if (query.length < 2) {
-      setSearchResults([]);
-      return;
-    }
-    
-    const q = query.toLowerCase();
-    const results = searchIndex.filter(item => 
-      item.keywords.some(kw => kw.includes(q)) || 
-      item.name.toLowerCase().includes(q)
-    ).slice(0, 8);
-    
-    setSearchResults(results);
+  // Search function with debounce
+  const handleSearch = useMemo(
+    () => debounce((query) => {
+      if (query.length < 2) {
+        setSearchResults([]);
+        return;
+      }
+      
+      const q = query.toLowerCase();
+      const results = searchIndex.filter(item => 
+        item.keywords.some(kw => kw.includes(q)) || 
+        item.name.toLowerCase().includes(q)
+      ).slice(0, 8);
+      
+      setSearchResults(results);
+    }, 300),
+    []
+  );
+
+  const handleSearchChange = (e) => {
+    const value = e.target.value;
+    setSearchQuery(value);
+    handleSearch(value);
   };
 
   // Handle search submit
@@ -166,7 +173,7 @@ export default function Header() {
             <Link href="/" className={styles.logo}>
               <Image 
                 src="/logo-header.png" 
-                alt="Infinitrade - Dăm puls industriei" 
+                alt="Infinitrade Romania - Distribuitor echipamente industriale. Dăm puls industriei." 
                 width={380} 
                 height={120}
                 className={styles.logoImage}
@@ -175,7 +182,7 @@ export default function Header() {
             </Link>
 
             {/* Navigation - right of logo */}
-            <nav className={styles.nav}>
+            <nav className={styles.nav} aria-label="Navigare principală">
               {navigation.map((item) => {
                 const isCategory = !['/despre-noi', '/contact', '/'].includes(item.href);
                 
@@ -189,7 +196,7 @@ export default function Header() {
                     <Link href={item.href} className={styles.navLink}>
                       {item.name}
                       {isCategory && (
-                        <ChevronDown size={14} className={styles.navChevron} />
+                        <ChevronDown size={14} className={styles.navChevron} aria-hidden="true" />
                       )}
                     </Link>
                     
@@ -244,6 +251,8 @@ export default function Header() {
             <button
               className={styles.mobileMenuButton}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label={isMobileMenuOpen ? 'Închide meniu' : 'Deschide meniu'}
+              aria-expanded={isMobileMenuOpen}
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -252,17 +261,18 @@ export default function Header() {
           {/* Row 2: Search + CTA Button */}
           <div className={styles.searchRow}>
             <div className={styles.searchWrapper} ref={searchRef}>
-              <form onSubmit={handleSearchSubmit} className={styles.searchForm}>
+              <form onSubmit={handleSearchSubmit} className={styles.searchForm} role="search">
                 <div className={`${styles.searchContainer} ${isSearchFocused ? styles.searchFocused : ''}`}>
                   <div className={styles.searchGlow} />
-                  <Search size={20} className={styles.searchIcon} />
+                  <Search size={20} className={styles.searchIcon} aria-hidden="true" />
                   <input
                     type="text"
                     placeholder="Caută branduri, produse, echipamente..."
                     value={searchQuery}
-                    onChange={(e) => handleSearch(e.target.value)}
+                    onChange={handleSearchChange}
                     onFocus={() => setIsSearchFocused(true)}
                     className={styles.searchInput}
+                    aria-label="Căutare produse"
                   />
                 </div>
               </form>
@@ -275,14 +285,16 @@ export default function Header() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 10 }}
+                    role="listbox"
+                    aria-label="Rezultate căutare"
                   >
                     {searchResults.map((result, idx) => (
-                      <div key={idx} className={styles.searchResult}>
+                      <div key={idx} className={styles.searchResult} role="option">
                         <button
                           className={styles.searchResultMain}
                           onClick={() => handleResultClick(result.url)}
                         >
-                          <span className={styles.resultType}>
+                          <span className={styles.resultType} aria-hidden="true">
                             {result.type === 'brand' ? '🏷️' : result.type === 'category' ? '📦' : '🔧'}
                           </span>
                           <div className={styles.resultInfo}>
@@ -304,6 +316,7 @@ export default function Header() {
                             });
                           }}
                           title="Adaugă la cerere ofertă"
+                          aria-label={`Adaugă ${result.name} la cerere ofertă`}
                         >
                           <Plus size={16} />
                         </button>
@@ -319,10 +332,12 @@ export default function Header() {
               <button 
                 className={`${styles.cartButton} ${cartAnimation === 'add' ? styles.cartAdded : ''} ${cartAnimation === 'remove' ? styles.cartRemoved : ''}`}
                 onClick={() => setIsCartOpen(!isCartOpen)}
+                aria-label={`Coș cereri ofertă. ${itemCount} ${itemCount === 1 ? 'produs' : 'produse'}`}
+                aria-expanded={isCartOpen}
               >
-                <ShoppingCart size={20} />
+                <ShoppingCart size={20} aria-hidden="true" />
                 {itemCount > 0 && (
-                  <span className={styles.cartBadge}>{itemCount}</span>
+                  <span className={styles.cartBadge} aria-hidden="true">{itemCount}</span>
                 )}
               </button>
 
@@ -346,11 +361,11 @@ export default function Header() {
                       </div>
                     ) : (
                       <>
-                        <div className={styles.cartItems}>
+                        <div className={styles.cartItems} role="list">
                           {cartItems.map((item) => (
-                            <div key={item.id} className={styles.cartItem}>
+                            <div key={item.id} className={styles.cartItem} role="listitem">
                               <div className={styles.cartItemInfo}>
-                                <span className={styles.cartItemType}>
+                                <span className={styles.cartItemType} aria-hidden="true">
                                   {item.type === 'brand' ? '🏷️' : item.type === 'category' ? '📦' : '🔧'}
                                 </span>
                                 <div>
@@ -363,8 +378,9 @@ export default function Header() {
                               <button
                                 className={styles.cartItemRemove}
                                 onClick={() => removeItem(item.id)}
+                                aria-label={`Elimină ${item.name} din coș`}
                               >
-                                <Trash2 size={14} />
+                                <Trash2 size={14} aria-hidden="true" />
                               </button>
                             </div>
                           ))}
@@ -387,7 +403,7 @@ export default function Header() {
 
             <Link href="/contact" className={styles.ctaButton}>
               Cere Ofertă
-              {itemCount > 0 && <span className={styles.ctaBadge}>{itemCount}</span>}
+              {itemCount > 0 && <span className={styles.ctaBadge} aria-hidden="true">{itemCount}</span>}
             </Link>
           </div>
         </div>
@@ -403,7 +419,7 @@ export default function Header() {
             exit={{ opacity: 0, x: '100%' }}
             transition={{ type: 'tween', duration: 0.3 }}
           >
-            <nav className={styles.mobileNav}>
+            <nav className={styles.mobileNav} aria-label="Navigare mobilă">
               {navigation.map((item) => (
                 <Link
                   key={item.name}

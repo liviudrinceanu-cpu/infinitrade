@@ -1,4 +1,8 @@
 import { Resend } from 'resend';
+import { z } from 'zod';
+import { rateLimit, getClientIP } from '@/lib/rateLimit';
+import { sanitizeHtml } from '@/lib/utils';
+import { config } from '@/lib/config';
 
 // Lazy initialization - only create clients when needed
 let resend = null;
@@ -83,6 +87,21 @@ const priceDatabase = {
   'rulment': { min: 30, max: 800, avg: 150 },
 };
 
+// Validation schema
+const contactSchema = z.object({
+  name: z.string().min(2, 'Numele trebuie să aibă minim 2 caractere').max(100, 'Numele este prea lung'),
+  email: z.string().email('Email invalid'),
+  phone: z.string().max(20, 'Număr de telefon prea lung').optional(),
+  company: z.string().max(200, 'Numele companiei este prea lung').optional(),
+  category: z.string().max(100).optional(),
+  message: z.string().min(10, 'Mesajul trebuie să aibă minim 10 caractere').max(5000, 'Mesajul este prea lung'),
+  cartItems: z.array(z.object({
+    type: z.string(),
+    name: z.string(),
+    category: z.string().optional(),
+  })).optional(),
+});
+
 async function analyzeRequestWithClaude(formData) {
   const client = await getAnthropic();
   
@@ -144,7 +163,6 @@ Format răspuns:
 
     return response.content[0].text;
   } catch (error) {
-    console.error('Claude API error:', error);
     // Fallback to basic analysis if Claude fails
     return generateBasicAnalysis(formData);
   }
@@ -201,18 +219,45 @@ function generateBasicAnalysis(formData) {
 
 export async function POST(request) {
   try {
+    // Rate limiting
+    const ip = getClientIP(request);
+    const rateLimitResult = rateLimit(ip, config.api.rateLimit.max, config.api.rateLimit.windowMs);
+    
+    if (!rateLimitResult.allowed) {
+      return Response.json(
+        { error: 'Prea multe solicitări. Te rugăm să încerci din nou mai târziu.' },
+        { 
+          status: 429,
+          headers: {
+            'Retry-After': '900', // 15 minutes
+          }
+        }
+      );
+    }
+
     const formData = await request.json();
 
-    // Validate required fields
-    if (!formData.name || !formData.email || !formData.message) {
+    // Validate with Zod
+    const validationResult = contactSchema.safeParse(formData);
+    
+    if (!validationResult.success) {
+      const errors = validationResult.error.errors.map(e => e.message).join(', ');
       return Response.json(
-        { error: 'Câmpurile Nume, Email și Mesaj sunt obligatorii.' },
+        { error: errors },
         { status: 400 }
       );
     }
 
+    const validatedData = validationResult.data;
+
     // Analyze request with Claude AI
-    const aiAnalysis = await analyzeRequestWithClaude(formData);
+    const aiAnalysis = await analyzeRequestWithClaude(validatedData);
+
+    // Sanitize HTML for email
+    const sanitizedName = sanitizeHtml(validatedData.name);
+    const sanitizedCompany = sanitizeHtml(validatedData.company || '');
+    const sanitizedMessage = sanitizeHtml(validatedData.message);
+    const sanitizedAnalysis = sanitizeHtml(aiAnalysis);
 
     // Format the email
     const emailHtml = `
@@ -251,27 +296,27 @@ export async function POST(request) {
     <div class="content">
       <div class="section">
         <h2>👤 Date Client</h2>
-        <p><span class="label">Nume:</span> ${formData.name}</p>
-        <p><span class="label">Email:</span> <a href="mailto:${formData.email}">${formData.email}</a></p>
-        <p><span class="label">Telefon:</span> ${formData.phone || 'Nespecificat'}</p>
-        <p><span class="label">Companie:</span> ${formData.company || 'Nespecificată'}</p>
-        <p><span class="label">Categorie:</span> ${formData.category || 'Nespecificată'}</p>
+        <p><span class="label">Nume:</span> ${sanitizedName}</p>
+        <p><span class="label">Email:</span> <a href="mailto:${validatedData.email}">${validatedData.email}</a></p>
+        <p><span class="label">Telefon:</span> ${validatedData.phone || 'Nespecificat'}</p>
+        <p><span class="label">Companie:</span> ${sanitizedCompany || 'Nespecificată'}</p>
+        <p><span class="label">Categorie:</span> ${validatedData.category || 'Nespecificată'}</p>
       </div>
       
       <div class="section">
         <h2>📝 Mesajul Clientului</h2>
-        <p>${formData.message.replace(/\n/g, '<br>')}</p>
+        <p>${sanitizedMessage.replace(/\n/g, '<br>')}</p>
       </div>
       
       <div class="ai-analysis">
         <h2>🤖 Analiză AI & Estimare Costuri</h2>
-        <div>${aiAnalysis.replace(/\n/g, '<br>')}</div>
+        <div>${sanitizedAnalysis.replace(/\n/g, '<br>')}</div>
       </div>
     </div>
     
     <div class="footer">
       <p>Această solicitare a fost trimisă de pe <strong>infinitrade.ro</strong></p>
-      <p>Răspunde direct la emailul clientului: ${formData.email}</p>
+      <p>Răspunde direct la emailul clientului: ${validatedData.email}</p>
     </div>
   </div>
 </body>
@@ -290,16 +335,16 @@ export async function POST(request) {
 ───────────────────────────────────────────────────
 👤 DATE CLIENT
 ───────────────────────────────────────────────────
-Nume: ${formData.name}
-Email: ${formData.email}
-Telefon: ${formData.phone || 'Nespecificat'}
-Companie: ${formData.company || 'Nespecificată'}
-Categorie: ${formData.category || 'Nespecificată'}
+Nume: ${sanitizedName}
+Email: ${validatedData.email}
+Telefon: ${validatedData.phone || 'Nespecificat'}
+Companie: ${sanitizedCompany || 'Nespecificată'}
+Categorie: ${validatedData.category || 'Nespecificată'}
 
 ───────────────────────────────────────────────────
 📝 MESAJUL CLIENTULUI
 ───────────────────────────────────────────────────
-${formData.message}
+${validatedData.message}
 
 ───────────────────────────────────────────────────
 🤖 ANALIZĂ AI & ESTIMARE COSTURI
@@ -307,7 +352,7 @@ ${formData.message}
 ${aiAnalysis}
 
 ═══════════════════════════════════════════════════
-Răspunde direct la: ${formData.email}
+Răspunde direct la: ${validatedData.email}
 ═══════════════════════════════════════════════════
     `;
 
@@ -315,7 +360,6 @@ Răspunde direct la: ${formData.email}
     const resendClient = getResend();
     
     if (!resendClient) {
-      console.error('Resend not configured');
       return Response.json(
         { error: 'Serviciul de email nu este configurat.' },
         { status: 500 }
@@ -325,14 +369,13 @@ Răspunde direct la: ${formData.email}
     const { data, error } = await resendClient.emails.send({
       from: 'Infinitrade.ro <noreply@infinitrade.ro>',
       to: ['liviu.drinceanu@infinitrade-romania.ro'],
-      subject: `[Infinitrade.ro] Nouă solicitare de ofertă - ${formData.name}${formData.company ? ' (' + formData.company + ')' : ''}`,
+      subject: `[Infinitrade.ro] Nouă solicitare de ofertă - ${sanitizedName}${sanitizedCompany ? ' (' + sanitizedCompany + ')' : ''}`,
       html: emailHtml,
       text: emailText,
-      reply_to: formData.email,
+      reply_to: validatedData.email,
     });
 
     if (error) {
-      console.error('Resend error:', error);
       return Response.json(
         { error: 'Eroare la trimiterea emailului. Vă rugăm încercați din nou.' },
         { status: 500 }
@@ -345,9 +388,13 @@ Răspunde direct la: ${formData.email}
     });
 
   } catch (error) {
-    console.error('API error:', error);
+    // Don't expose internal errors in production
+    const errorMessage = process.env.NODE_ENV === 'development' 
+      ? error.message 
+      : 'Eroare internă. Vă rugăm încercați din nou.';
+    
     return Response.json(
-      { error: 'Eroare internă. Vă rugăm încercați din nou.' },
+      { error: errorMessage },
       { status: 500 }
     );
   }

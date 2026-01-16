@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { Mail, MapPin, Clock, ArrowUpRight } from 'lucide-react';
 import { categories, companyInfo } from '@/data/products';
+import { config } from '@/lib/config';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -61,23 +62,23 @@ export default function Footer() {
             <h4 className={styles.columnTitle}>Contact</h4>
             <ul className={styles.contactList}>
               <li>
-                <Mail size={18} />
+                <Mail size={18} aria-hidden="true" />
                 <div>
-                  <a href="mailto:vanzari@infinitrade-romania.ro">
-                    vanzari@infinitrade-romania.ro
+                  <a href={`mailto:${config.site.email.sales}`}>
+                    {config.site.email.sales}
                   </a>
                   <br />
-                  <a href="mailto:secretariat@infinitrade-romania.ro">
-                    secretariat@infinitrade-romania.ro
+                  <a href={`mailto:${config.site.email.secretariat}`}>
+                    {config.site.email.secretariat}
                   </a>
                 </div>
               </li>
               <li>
-                <Clock size={18} />
+                <Clock size={18} aria-hidden="true" />
                 <span>Luni - Vineri: 08:00 - 16:30</span>
               </li>
               <li>
-                <MapPin size={18} />
+                <MapPin size={18} aria-hidden="true" />
                 <span>
                   {companyInfo.location.address}<br />
                   {companyInfo.location.city}, {companyInfo.location.county}
@@ -86,7 +87,7 @@ export default function Footer() {
             </ul>
             <Link href="/contact" className={styles.contactCta}>
               Cere Ofertă
-              <ArrowUpRight size={16} />
+              <ArrowUpRight size={16} aria-hidden="true" />
             </Link>
           </div>
         </div>
@@ -118,7 +119,7 @@ export default function Footer() {
               © {currentYear} Driatheli Group SRL. Toate drepturile rezervate.
             </p>
             <p className={styles.companyInfo}>
-              Brand: Infinitrade Romania | CUI: RO12345678
+              Brand: Infinitrade Romania | CUI: {config.site.cui}
             </p>
           </div>
           <div className={styles.bottomLinks}>

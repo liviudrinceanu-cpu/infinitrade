@@ -1,7 +1,19 @@
 import './globals.css'
+import { Inter } from 'next/font/google';
+import Script from 'next/script';
+import { QuoteCartProvider } from '@/context/QuoteCartContext';
+import { ErrorBoundary } from '@/components/ErrorBoundary';
+import { config } from '@/lib/config';
+
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+  preload: true,
+});
 
 export const metadata = {
-  metadataBase: new URL('https://infinitrade.ro'),
+  metadataBase: new URL(config.site.url),
   title: {
     default: 'Infinitrade Romania | Distribuitor Pompe, Robineți, Motoare Industriale',
     template: '%s | Infinitrade Romania'
@@ -64,10 +76,10 @@ export const metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code',
+    google: config.verification.google,
   },
   alternates: {
-    canonical: 'https://infinitrade.ro',
+    canonical: config.site.url,
   },
   category: 'business',
 }
@@ -78,8 +90,8 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'Infinitrade Romania',
   legalName: 'Driatheli Group SRL',
-  url: 'https://infinitrade.ro',
-  logo: 'https://infinitrade.ro/logo-header.png',
+  url: config.site.url,
+  logo: `${config.site.url}/logo-header.png`,
   description: 'Distribuitor autorizat de echipamente industriale în România - pompe, robineți, motoare electrice, schimbătoare de căldură și suflante.',
   foundingDate: '2009',
   address: {
@@ -93,9 +105,9 @@ const organizationSchema = {
   contactPoint: [
     {
       '@type': 'ContactPoint',
-      telephone: '+40-371-232-404',
+      telephone: `+40-${config.site.phone.replace(/\s/g, '-')}`,
       contactType: 'sales',
-      email: 'vanzari@infinitrade-romania.ro',
+      email: config.site.email.sales,
       availableLanguage: ['Romanian', 'English']
     }
   ],
@@ -118,12 +130,12 @@ const organizationSchema = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://infinitrade.ro/#business',
+  '@id': `${config.site.url}/#business`,
   name: 'Infinitrade Romania',
-  image: 'https://infinitrade.ro/logo-header.png',
-  url: 'https://infinitrade.ro',
-  telephone: '+40-371-232-404',
-  email: 'vanzari@infinitrade-romania.ro',
+  image: `${config.site.url}/logo-header.png`,
+  url: config.site.url,
+  telephone: `+40-${config.site.phone.replace(/\s/g, '-')}`,
+  email: config.site.email.sales,
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Calea Lugojului, nr.47/B, Hala nr. 3',
@@ -146,19 +158,19 @@ const localBusinessSchema = {
   priceRange: '$$'
 }
 
-import { QuoteCartProvider } from '@/context/QuoteCartContext';
-
 export default function RootLayout({ children }) {
   return (
-    <html lang="ro">
+    <html lang="ro" className={inter.variable}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#0990db" />
         <meta name="geo.region" content="RO-TM" />
         <meta name="geo.placename" content="Ghiroda, Timis" />
-        <link rel="canonical" href="https://infinitrade.ro" />
+        <link rel="canonical" href={config.site.url} />
+        
+        {/* Preconnect for performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         
         {/* Schema.org JSON-LD */}
         <script
@@ -169,11 +181,37 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
+        
+        {/* Google Analytics */}
+        {config.analytics.gaId && (
+          <>
+            <Script
+              strategy="afterInteractive"
+              src={`https://www.googletagmanager.com/gtag/js?id=${config.analytics.gaId}`}
+            />
+            <Script
+              id="google-analytics"
+              strategy="afterInteractive"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${config.analytics.gaId}', {
+                    page_path: window.location.pathname,
+                  });
+                `,
+              }}
+            />
+          </>
+        )}
       </head>
       <body>
-        <QuoteCartProvider>
-          {children}
-        </QuoteCartProvider>
+        <ErrorBoundary>
+          <QuoteCartProvider>
+            {children}
+          </QuoteCartProvider>
+        </ErrorBoundary>
       </body>
     </html>
   )
