@@ -1,0 +1,131 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// NextAuth.js required models
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// Application models
+model User {
+  id             String          @id @default(cuid())
+  email          String          @unique
+  name           String?
+  password       String
+  role           Role            @default(SALES)
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  accounts       Account[]
+  sessions       Session[]
+  quoteRequests  QuoteRequest[]  @relation("AssignedTo")
+  communications Communication[]
+}
+
+enum Role {
+  ADMIN
+  SALES
+}
+
+model Client {
+  id            String         @id @default(cuid())
+  email         String         @unique
+  name          String
+  company       String?
+  phone         String?
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  quoteRequests QuoteRequest[]
+}
+
+model QuoteRequest {
+  id             String          @id @default(cuid())
+  client         Client          @relation(fields: [clientId], references: [id])
+  clientId       String
+  status         Status          @default(NEW)
+  category       String?
+  message        String          @db.Text
+  productsJson   Json?
+  aiAnalysis     String?         @db.Text
+  estimatedMin   Float?
+  estimatedMax   Float?
+  assignedTo     User?           @relation("AssignedTo", fields: [assignedToId], references: [id])
+  assignedToId   String?
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  communications Communication[]
+
+  @@index([clientId])
+  @@index([assignedToId])
+  @@index([status])
+  @@index([createdAt])
+}
+
+enum Status {
+  NEW
+  IN_PROGRESS
+  QUOTE_SENT
+  COMPLETED
+  CANCELLED
+}
+
+model Communication {
+  id             String       @id @default(cuid())
+  quoteRequest   QuoteRequest @relation(fields: [quoteRequestId], references: [id], onDelete: Cascade)
+  quoteRequestId String
+  type           CommType
+  content        String       @db.Text
+  user           User         @relation(fields: [userId], references: [id])
+  userId         String
+  createdAt      DateTime     @default(now())
+
+  @@index([quoteRequestId])
+  @@index([userId])
+}
+
+enum CommType {
+  NOTE
+  EMAIL_SENT
+  CALL
+  STATUS_CHANGE
+}

@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { rateLimit, getClientIP } from '@/lib/rateLimit';
 import { sanitizeHtml } from '@/lib/utils';
 import { config } from '@/lib/config';
+import { prisma } from '@/lib/db';
 
 // Lazy initialization - only create clients when needed
 let resend = null;
@@ -252,6 +253,61 @@ export async function POST(request) {
 
     // Analyze request with Claude AI
     const aiAnalysis = await analyzeRequestWithClaude(validatedData);
+
+    // Extract price estimates from AI analysis
+    let estimatedMin = null;
+    let estimatedMax = null;
+    const totalMatch = aiAnalysis.match(/TOTAL ESTIMAT:\s*(\d[\d\s.,]*)\s*-\s*(\d[\d\s.,]*)\s*EUR/i);
+    if (totalMatch) {
+      estimatedMin = parseFloat(totalMatch[1].replace(/[\s.,]/g, ''));
+      estimatedMax = parseFloat(totalMatch[2].replace(/[\s.,]/g, ''));
+    }
+
+    // Save to database
+    try {
+      // Find or create client
+      let client = await prisma.client.findUnique({
+        where: { email: validatedData.email },
+      });
+
+      if (!client) {
+        client = await prisma.client.create({
+          data: {
+            email: validatedData.email,
+            name: validatedData.name,
+            company: validatedData.company || null,
+            phone: validatedData.phone || null,
+          },
+        });
+      } else {
+        // Update client info if changed
+        await prisma.client.update({
+          where: { id: client.id },
+          data: {
+            name: validatedData.name,
+            company: validatedData.company || client.company,
+            phone: validatedData.phone || client.phone,
+          },
+        });
+      }
+
+      // Create quote request
+      await prisma.quoteRequest.create({
+        data: {
+          clientId: client.id,
+          category: validatedData.category || null,
+          message: validatedData.message,
+          productsJson: validatedData.cartItems || null,
+          aiAnalysis: aiAnalysis,
+          estimatedMin: estimatedMin,
+          estimatedMax: estimatedMax,
+          status: 'NEW',
+        },
+      });
+    } catch (dbError) {
+      // Log error but don't fail the request - email should still be sent
+      console.error('Failed to save to database:', dbError);
+    }
 
     // Sanitize HTML for email
     const sanitizedName = sanitizeHtml(validatedData.name);

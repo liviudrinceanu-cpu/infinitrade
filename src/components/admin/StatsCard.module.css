@@ -1,0 +1,87 @@
+.card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: all var(--transition-fast);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.primary .iconWrapper {
+  background: rgba(9, 144, 219, 0.1);
+  color: var(--primary);
+}
+
+.success .iconWrapper {
+  background: rgba(55, 198, 127, 0.1);
+  color: var(--success);
+}
+
+.warning .iconWrapper {
+  background: rgba(245, 158, 11, 0.1);
+  color: #f59e0b;
+}
+
+.accent .iconWrapper {
+  background: rgba(255, 40, 0, 0.1);
+  color: var(--accent);
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-500);
+  margin: 0 0 8px;
+}
+
+.valueRow {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--black);
+  line-height: 1;
+}
+
+.change {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.positive {
+  background: rgba(55, 198, 127, 0.1);
+  color: var(--success);
+}
+
+.negative {
+  background: rgba(255, 40, 0, 0.1);
+  color: var(--accent);
+}
