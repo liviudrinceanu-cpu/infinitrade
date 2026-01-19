@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Clock, Send, Check, X, ShoppingCart } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Send, Check, X, ShoppingCart, ExternalLink } from 'lucide-react';
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { companyInfo, categories } from '@/data/products';
@@ -24,13 +25,19 @@ export default function ContactPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  // Pre-fill message with cart items
+  // Pre-fill message with cart items including links
   useEffect(() => {
     if (cartItems.length > 0 && !formData.message) {
-      const cartSummary = getCartSummary();
+      const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://infinitrade.ro';
+      const cartSummaryWithLinks = cartItems.map(item => {
+        const emoji = item.type === 'brand' ? '🏷️' : item.type === 'category' ? '📦' : '🔧';
+        const link = item.url ? `${baseUrl}${item.url}` : '';
+        return `${emoji} ${item.name}${item.category ? ` (${item.category})` : ''}${link ? `\n   Link: ${link}` : ''}`;
+      }).join('\n\n');
+
       setFormData(prev => ({
         ...prev,
-        message: `Solicit ofertă pentru:\n\n${cartSummary}\n\nDetalii suplimentare:\n`
+        message: `Solicit ofertă pentru:\n\n${cartSummaryWithLinks}\n\nDetalii suplimentare:\n`
       }));
     }
   }, [cartItems]);
@@ -40,13 +47,15 @@ export default function ContactPage() {
     setIsLoading(true);
     setError(null);
 
-    // Add cart items to form data for API
+    // Add cart items to form data for API (including URLs)
+    const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://infinitrade.ro';
     const submitData = {
       ...formData,
       cartItems: cartItems.map(item => ({
         type: item.type,
         name: item.name,
-        category: item.category
+        category: item.category,
+        url: item.url ? `${baseUrl}${item.url}` : null
       }))
     };
 
@@ -132,10 +141,17 @@ export default function ContactPage() {
                               <span className={styles.cartItemEmoji}>
                                 {item.type === 'brand' ? '🏷️' : item.type === 'category' ? '📦' : '🔧'}
                               </span>
-                              <span className={styles.cartItemText}>
-                                {item.name}
-                                {item.category && <small> • {item.category}</small>}
-                              </span>
+                              <div className={styles.cartItemContent}>
+                                {item.url ? (
+                                  <Link href={item.url} className={styles.cartItemLink} target="_blank">
+                                    {item.name}
+                                    <ExternalLink size={12} />
+                                  </Link>
+                                ) : (
+                                  <span className={styles.cartItemName}>{item.name}</span>
+                                )}
+                                {item.category && <small className={styles.cartItemCategory}>{item.category}</small>}
+                              </div>
                               <button
                                 type="button"
                                 className={styles.cartItemRemoveBtn}

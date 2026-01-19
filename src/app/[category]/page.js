@@ -4,16 +4,31 @@ import { useState } from 'react';
 import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone, Send } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone, Send, Plus, ShoppingCart } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { categories } from '@/data/products';
+import { useQuoteCart } from '@/context/QuoteCartContext';
 import styles from './category.module.css';
 
 export default function CategoryPage() {
   const params = useParams();
   const category = categories.find(c => c.slug === params.category);
-  
+  const { addItem, items: cartItems } = useQuoteCart();
+  const [addedAnimation, setAddedAnimation] = useState(null);
+
+  const handleAddToCart = (item) => {
+    const success = addItem(item);
+    if (success) {
+      setAddedAnimation(item.name);
+      setTimeout(() => setAddedAnimation(null), 1000);
+    }
+  };
+
+  const isInCart = (name) => {
+    return cartItems.some(item => item.name === name);
+  };
+
   const [formData, setFormData] = useState({
     name: '',
     company: '',
@@ -112,10 +127,31 @@ export default function CategoryPage() {
               </div>
 
               <div className={styles.heroCtas}>
-                <a href="#contact-form" className={styles.ctaPrimary}>
-                  Cere Ofertă
-                  <ArrowRight size={18} />
-                </a>
+                <button
+                  className={`${styles.ctaAddCart} ${isInCart(category.name) ? styles.inCart : ''} ${addedAnimation === category.name ? styles.adding : ''}`}
+                  onClick={() => handleAddToCart({
+                    type: 'category',
+                    name: category.name,
+                    category: category.name,
+                    url: `/${category.slug}`
+                  })}
+                >
+                  {isInCart(category.name) ? (
+                    <>
+                      <Check size={18} />
+                      În Cerere
+                    </>
+                  ) : (
+                    <>
+                      <Plus size={18} />
+                      Adaugă la Cerere
+                    </>
+                  )}
+                </button>
+                <Link href="/contact" className={styles.ctaPrimary}>
+                  <ShoppingCart size={18} />
+                  Vezi Cererea ({cartItems.length})
+                </Link>
                 <a href="#branduri" className={styles.ctaSecondary}>
                   Vezi Branduri
                 </a>
@@ -149,6 +185,23 @@ export default function CategoryPage() {
                     <h3>{brand.name}</h3>
                     <span className={styles.brandCountry}>{brand.country}</span>
                     <p>{brand.description}</p>
+                  </div>
+                  <div className={styles.brandActions}>
+                    <button
+                      className={`${styles.brandAddBtn} ${isInCart(brand.name) ? styles.inCart : ''} ${addedAnimation === brand.name ? styles.adding : ''}`}
+                      onClick={() => handleAddToCart({
+                        type: 'brand',
+                        name: brand.name,
+                        category: category.name,
+                        url: `/brand/${brand.slug}`
+                      })}
+                      title={isInCart(brand.name) ? 'În cerere' : 'Adaugă la cerere'}
+                    >
+                      {isInCart(brand.name) ? <Check size={16} /> : <Plus size={16} />}
+                    </button>
+                    <Link href={`/brand/${brand.slug}`} className={styles.brandLink}>
+                      Detalii <ArrowRight size={14} />
+                    </Link>
                   </div>
                   {brand.featured && (
                     <span className={styles.brandBadge}>Partner Premium</span>
@@ -187,9 +240,23 @@ export default function CategoryPage() {
                       ))}
                     </div>
                   </div>
-                  <a href="#contact-form" className={styles.typeLink}>
-                    Cere ofertă <ArrowRight size={16} />
-                  </a>
+                  <div className={styles.typeActions}>
+                    <button
+                      className={`${styles.typeAddBtn} ${isInCart(type.name) ? styles.inCart : ''} ${addedAnimation === type.name ? styles.adding : ''}`}
+                      onClick={() => handleAddToCart({
+                        type: 'product',
+                        name: type.name,
+                        category: category.name,
+                        url: `/${category.slug}#${type.slug}`
+                      })}
+                      title={isInCart(type.name) ? 'În cerere' : 'Adaugă la cerere'}
+                    >
+                      {isInCart(type.name) ? <Check size={16} /> : <Plus size={16} />}
+                    </button>
+                    <Link href="/contact" className={styles.typeLink}>
+                      Cere ofertă <ArrowRight size={16} />
+                    </Link>
+                  </div>
                 </motion.div>
               ))}
             </div>

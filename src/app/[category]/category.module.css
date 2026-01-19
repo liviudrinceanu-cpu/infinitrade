@@ -137,6 +137,42 @@
   background: rgba(255,255,255,0.3);
 }
 
+.ctaAddCart {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 32px;
+  background: rgba(255,255,255,0.15);
+  color: var(--white);
+  font-size: 17px;
+  font-weight: 500;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-radius: 980px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all var(--transition-fast);
+}
+
+.ctaAddCart:hover {
+  background: rgba(255,255,255,0.25);
+  border-color: rgba(255,255,255,0.6);
+}
+
+.ctaAddCart.inCart {
+  background: rgba(55, 198, 127, 0.3);
+  border-color: rgba(55, 198, 127, 0.6);
+}
+
+.ctaAddCart.adding {
+  animation: cartPulse 0.4s ease;
+}
+
+@keyframes cartPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
 /* Container */
 .container {
   max-width: var(--container-wide);
@@ -183,6 +219,7 @@
   border: 1px solid var(--gray-200);
   border-radius: var(--radius-lg);
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 16px;
   transition: all var(--transition-medium);
@@ -230,6 +267,64 @@
   font-size: 14px;
   color: var(--gray-500);
   line-height: 1.5;
+}
+
+.brandInfo {
+  flex: 1;
+  min-width: 150px;
+}
+
+.brandActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin-top: 4px;
+  padding-top: 12px;
+  border-top: 1px solid var(--gray-200);
+}
+
+.brandAddBtn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.brandAddBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 113, 227, 0.3);
+}
+
+.brandAddBtn.inCart {
+  background: #37c67f;
+}
+
+.brandAddBtn.adding {
+  animation: cartPulse 0.4s ease;
+}
+
+.brandLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brandLink:hover {
+  text-decoration: underline;
 }
 
 .brandBadge {
@@ -311,6 +406,41 @@
   border-radius: 6px;
   font-size: 13px;
   color: var(--gray-600);
+}
+
+.typeActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: auto;
+}
+
+.typeAddBtn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.typeAddBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 113, 227, 0.3);
+}
+
+.typeAddBtn.inCart {
+  background: #37c67f;
+}
+
+.typeAddBtn.adding {
+  animation: cartPulse 0.4s ease;
 }
 
 .typeLink {

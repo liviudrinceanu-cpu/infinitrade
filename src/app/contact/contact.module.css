@@ -341,6 +341,40 @@
   font-size: 11px;
 }
 
+.cartItemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cartItemLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.cartItemLink:hover {
+  text-decoration: underline;
+}
+
+.cartItemLink svg {
+  opacity: 0.6;
+}
+
+.cartItemName {
+  color: #333;
+  font-weight: 500;
+}
+
+.cartItemCategory {
+  color: #888;
+  font-size: 11px;
+}
+
 .cartItemRemoveBtn {
   display: flex;
   align-items: center;
