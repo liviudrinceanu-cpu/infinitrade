@@ -1,13 +1,74 @@
 # Infinitrade.ro - Admin Dashboard
 
-## STATUS ACTUAL (16 Ianuarie 2026)
+## STATUS ACTUAL (19 Ianuarie 2026)
 
-### IMPLEMENTARE COMPLETĂ (100%)
+### CE S-A FĂCUT DEJA:
+1. ✅ Cont Supabase creat (project ref: `rinzaeqdmwnplhbpkkct`, region: `eu-central-1`)
+2. ✅ `.env.local` creat cu credențiale corecte
+3. ✅ `trustHost: true` adăugat în `src/lib/auth.ts` (fix pentru producție)
+4. ✅ `npx prisma db push` - tabelele create în Supabase
+5. ✅ `npm run db:seed` - userii admin creați
+6. ✅ Auth testat cu curl - FUNCȚIONEAZĂ (session valid)
+
+### CONFIGURARE ENVIRONMENT:
+Creează fișierul `.env` cu următoarele variabile (valorile le găsești în Supabase Dashboard și Vercel):
+
+```env
+# Supabase PostgreSQL (din Supabase Dashboard → Connect → ORMs → Prisma)
+DATABASE_URL="<SUPABASE_POOLER_URL>"
+DIRECT_URL="<SUPABASE_DIRECT_URL>"
+
+# NextAuth.js (generează secret cu: openssl rand -base64 32)
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="<GENERATED_SECRET>"
+
+# API Keys (din conturile respective)
+ANTHROPIC_API_KEY="<YOUR_ANTHROPIC_KEY>"
+RESEND_API_KEY="<YOUR_RESEND_KEY>"
+```
+
+### DUPĂ CONFIGURARE:
+```bash
+npm run dev
+# Accesează: http://localhost:3000/admin/login
+# Login: admin@infinitrade.ro / admin123
+```
+
+### DEPLOY PE VERCEL:
+După ce funcționează local, adaugă în Vercel Dashboard → Settings → Environment Variables:
+- `DATABASE_URL`
+- `DIRECT_URL`
+- `NEXTAUTH_URL="https://infinitrade.ro"`
+- `NEXTAUTH_SECRET`
+- `ANTHROPIC_API_KEY`
+- `RESEND_API_KEY`
+
+---
+
+## CREDENȚIALE SUPABASE
+- **Project ref:** `rinzaeqdmwnplhbpkkct`
+- **Region:** `eu-central-1`
+- **Parola DB:** vezi Supabase Dashboard → Settings → Database
+
+---
+
+## CREDENȚIALE ADMIN (din seed)
+
+| Rol | Email | Parolă |
+|-----|-------|--------|
+| Admin | admin@infinitrade.ro | admin123 |
+| Vânzări | vanzari@infinitrade.ro | vanzari123 |
+
+**IMPORTANT:** Schimbă parolele după primul login!
+
+---
+
+## IMPLEMENTARE COMPLETĂ (100%)
 Codul pentru admin dashboard este complet și build-ul trece cu succes.
 
 **Ce s-a implementat:**
 - Prisma schema complet (`prisma/schema.prisma`)
-- NextAuth.js v5 cu Credentials provider (`src/lib/auth.ts`)
+- NextAuth.js v5 cu Credentials provider + `trustHost: true` (`src/lib/auth.ts`)
 - Prisma client singleton (`src/lib/db.ts`)
 - Middleware protecție rute (`src/middleware.ts`)
 - Pagină login admin (`src/app/admin/login/`)
@@ -23,62 +84,6 @@ Codul pentru admin dashboard este complet și build-ul trece cu succes.
 - SessionProvider pentru client components
 - Componente: Sidebar, StatsCard, StatusBadge
 - Error handling graceful pentru când DB nu e configurat
-
----
-
-## URMĂTORII PAȘI (în ordine)
-
-### 1. Creează cont Supabase
-- Du-te la https://supabase.com
-- Creează cont gratuit
-- Creează proiect nou (alege regiune EU pentru performanță)
-- Din Settings → Database copiază:
-  - **Connection string** (pgbouncer) → pentru DATABASE_URL
-  - **Direct connection** → pentru DIRECT_URL
-
-### 2. Creează fișier `.env.local` în root
-```env
-# Supabase PostgreSQL
-DATABASE_URL="postgresql://postgres:[PASSWORD]@db.[PROJECT-REF].supabase.co:5432/postgres?pgbouncer=true"
-DIRECT_URL="postgresql://postgres:[PASSWORD]@db.[PROJECT-REF].supabase.co:5432/postgres"
-
-# NextAuth (generează secret cu: openssl rand -base64 32)
-NEXTAUTH_URL="https://infinitrade.ro"
-NEXTAUTH_SECRET="<32-char-random-string>"
-
-# Existente (copiază din Vercel sau din backup)
-ANTHROPIC_API_KEY="sk-ant-..."
-RESEND_API_KEY="re_..."
-```
-
-### 3. Inițializează baza de date
-```bash
-npx prisma db push      # Creează tabelele în Supabase
-npm run db:seed         # Creează userii admin default
-```
-
-### 4. Testează local
-```bash
-npm run dev
-# Accesează: http://localhost:3000/admin
-# Login cu: admin@infinitrade.ro / admin123
-```
-
-### 5. Deploy pe Vercel
-- Adaugă variabilele de mediu în Vercel Dashboard → Settings → Environment Variables
-- Redeploy proiectul
-- Accesează: https://infinitrade.ro/admin
-
----
-
-## CREDENȚIALE DEFAULT (din seed)
-
-| Rol | Email | Parolă |
-|-----|-------|--------|
-| Admin | admin@infinitrade.ro | admin123 |
-| Vânzări | vanzari@infinitrade.ro | vanzari123 |
-
-**IMPORTANT:** Schimbă parolele după primul login!
 
 ---
 
@@ -140,10 +145,3 @@ npx prisma studio    # GUI pentru baza de date
 npx prisma db push   # Sync schema cu DB
 npm run db:seed      # Creează useri default
 ```
-
----
-
-## PLAN COMPLET ORIGINAL
-
-Planul detaliat se găsește în:
-`/Users/drinceanumac/.claude/plans/robust-popping-kettle.md`
