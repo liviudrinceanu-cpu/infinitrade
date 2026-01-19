@@ -1,10 +1,11 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import Link from 'next/link';
-import { Droplets, Settings2, Zap, Thermometer, Wind, ArrowRight } from 'lucide-react';
+import { Droplets, Settings2, Zap, Thermometer, Wind, ArrowRight, Plus, Check } from 'lucide-react';
 import { categories } from '@/data/products';
+import { useQuoteCart } from '@/context/QuoteCartContext';
 import styles from './Categories.module.css';
 
 const iconMap = {
@@ -18,6 +19,22 @@ const iconMap = {
 export default function Categories() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const { addItem, items: cartItems } = useQuoteCart();
+  const [addedAnimation, setAddedAnimation] = useState(null);
+
+  const handleAddToCart = (e, item) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const success = addItem(item);
+    if (success) {
+      setAddedAnimation(item.name);
+      setTimeout(() => setAddedAnimation(null), 1000);
+    }
+  };
+
+  const isInCart = (name) => {
+    return cartItems.some(item => item.name === name);
+  };
 
   return (
     <section id="categorii" className={styles.section} ref={ref}>
@@ -92,10 +109,25 @@ export default function Categories() {
                       ))}
                     </div>
 
-                    {/* CTA */}
-                    <div className={styles.cardCta}>
-                      <span>Explorează</span>
-                      <ArrowRight size={18} />
+                    {/* CTA + Add Button */}
+                    <div className={styles.cardActions}>
+                      <div className={styles.cardCta}>
+                        <span>Explorează</span>
+                        <ArrowRight size={18} />
+                      </div>
+                      <button
+                        className={`${styles.addToCartBtn} ${isInCart(category.name) ? styles.inCart : ''} ${addedAnimation === category.name ? styles.adding : ''}`}
+                        onClick={(e) => handleAddToCart(e, {
+                          type: 'category',
+                          name: category.name,
+                          category: category.name,
+                          url: `/${category.slug}`
+                        })}
+                        title={isInCart(category.name) ? 'În cerere' : 'Adaugă la cerere'}
+                        aria-label={isInCart(category.name) ? `${category.name} este în cerere` : `Adaugă ${category.name} la cerere`}
+                      >
+                        {isInCart(category.name) ? <Check size={18} /> : <Plus size={18} />}
+                      </button>
                     </div>
                   </div>
 
