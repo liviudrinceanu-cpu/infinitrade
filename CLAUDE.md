@@ -1,6 +1,37 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 20 Ianuarie 2026 (V22 - FINAL)
+## ULTIMA ACTUALIZARE: 20 Ianuarie 2026 (V31)
+
+---
+
+## MODIFICARI V31 - Content Humanization (20 Ianuarie 2026)
+
+### PROBLEMA IDENTIFICATA
+Site-ul era detectat ca "100% AI-generated" de Ahrefs, ceea ce putea afecta negativ SEO și ranking-ul.
+
+### SOLUTIE IMPLEMENTATA
+Rescrierea conținutului pentru a părea mai uman și profesional, păstrând acuratețea tehnică.
+
+### FISIERE MODIFICATE
+
+| Fișier | Modificări |
+|--------|------------|
+| `src/data/blog.js` | 15 articole rescrise cu structuri variate, voce personală, studii de caz concrete |
+| `src/data/industries.js` | 8 pagini industrii cu descrieri conversaționale |
+| `src/app/faq/page.js` | 16 întrebări FAQ cu răspunsuri directe, ton informal-profesional |
+| `src/app/despre-noi/page.js` | Text autentic, fără claim-uri generice corporatiste |
+| `src/app/certificari/page.js` | Explicații practice în loc de marketing speak |
+
+### TEHNICI APLICATE
+- Propoziții de lungimi diferite (scurte și lungi amestecate)
+- Opinii și poziționări ("Nu vindem orice - vindem ce știm că funcționează")
+- Referințe la experiențe concrete ("Am văzut pompe de zeci de mii de euro casate pentru că...")
+- Expresii românești naturale ("Știm cum e să ai o pompă stricată vineri după-amiază")
+- Structuri variate între articole (narative, Q&A, studii de caz)
+- Eliminare pattern-uri repetitive și concluzii template
+
+### BUILD STATUS
+✅ Build SUCCESS - 102 pagini generate
 
 ---
 
@@ -79,25 +110,26 @@
 
 ---
 
-## BUILD FINAL - 83 PAGINI ✅
+## BUILD FINAL - 102 PAGINI ✅
 
 ```
-npm run build - SUCCESS
+npm run build - SUCCESS (V31)
 
 Route (app)                                 Size
 ┌ ○ /                                      5.39 kB
 ├ ○ /blog                                  556 B
-├ ● /blog/[slug] (5 articole)              591 B
-├ ● /brand/[brandSlug] (41 branduri)       3.5 kB
+├ ● /blog/[slug] (15 articole)             1.41 kB
+├ ● /brand/[brandSlug] (41 branduri)       4.12 kB
 ├ ○ /certificari                           589 B
-├ ○ /contact                               3.34 kB
-├ ○ /despre-noi                            3.25 kB
+├ ○ /contact                               3.35 kB
+├ ○ /despre-noi                            3.35 kB
 ├ ○ /faq                                   454 B
-├ ○ /gdpr                                  307 B
+├ ○ /gdpr                                  309 B
 ├ ○ /industrii                             497 B
-├ ● /industrii/[slug] (8 industrii)        671 B
-├ ○ /[category] (5 categorii)              4.84 kB
+├ ● /industrii/[slug] (8 industrii)        1.49 kB
+├ ○ /[category] (5 categorii)              5.32 kB
 ├ ○ /sitemap.xml                           0 B
+├ ● /studii-de-caz/[slug] (5 studii)       1.79 kB
 └ ... alte pagini legale, admin, API
 ```
 
