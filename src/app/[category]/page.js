@@ -28,8 +28,8 @@ export async function generateMetadata({ params }) {
   const brandNames = category.brands.map(b => b.name).join(', ');
   const productTypeNames = category.productTypes.map(p => p.name).slice(0, 5).join(', ');
 
-  const title = `${category.name} Romania | Distribuitor ${brandNames.split(',').slice(0, 3).join(',')} | Infinitrade`;
-  const description = `${category.heroDescription} Distribuitor autorizat: ${brandNames}. Livrare rapidă în România. ${category.stats.brands} branduri, ${category.stats.products} produse. Suport tehnic gratuit.`;
+  const title = `${category.name} Romania | Furnizor SEAP | Distribuitor ${brandNames.split(',').slice(0, 2).join(',')}`;
+  const description = `${category.heroDescription} Furnizor înregistrat SEAP/SICAP pentru licitații și achiziții publice. Distribuitor autorizat: ${brandNames}. Documentație completă pentru fonduri europene. ${category.stats.brands} branduri, ${category.stats.products} produse.`;
 
   // Generate comprehensive keywords
   const baseKeywords = [
@@ -41,6 +41,14 @@ export async function generateMetadata({ params }) {
     `${category.name.toLowerCase()} preturi`,
     `${category.name.toLowerCase()} oferta`,
     `${category.name.toLowerCase()} catalog`,
+    // SEAP / SICAP / Public Procurement
+    `${category.name.toLowerCase()} SEAP`,
+    `${category.name.toLowerCase()} SICAP`,
+    `furnizor SEAP ${category.name.toLowerCase()}`,
+    `licitatie ${category.name.toLowerCase()}`,
+    `achizitii publice ${category.name.toLowerCase()}`,
+    `${category.name.toLowerCase()} fonduri europene`,
+    `${category.name.toLowerCase()} PNRR`,
     // Distributor intent
     `distribuitor ${category.name.toLowerCase()}`,
     `distribuitor autorizat ${category.name.toLowerCase()}`,
@@ -50,10 +58,10 @@ export async function generateMetadata({ params }) {
     ...category.brands.map(b => b.name),
     ...category.brands.map(b => `${b.name} Romania`),
     ...category.brands.slice(0, 5).map(b => `${b.name} ${category.name.toLowerCase()}`),
-    ...category.brands.slice(0, 5).map(b => `${b.name} pret`),
+    ...category.brands.slice(0, 3).map(b => `${b.name} SEAP`),
     // Product type keywords
     ...category.productTypes.map(p => p.name),
-    ...category.productTypes.map(p => `${p.name.toLowerCase()} pret`),
+    ...category.productTypes.map(p => `${p.name.toLowerCase()} licitatie`),
     // Application keywords
     ...category.productTypes.flatMap(pt => pt.applications.slice(0, 2)),
     // Accessories and services
@@ -63,13 +71,15 @@ export async function generateMetadata({ params }) {
     `achizitie ${category.name.toLowerCase()}`,
     // General
     'echipamente industriale romania',
+    'furnizor SEAP',
+    'furnizor SICAP',
     'distribuitor autorizat',
     'livrare rapida',
     'piese schimb originale',
   ];
 
   // Remove duplicates and limit
-  const keywords = [...new Set(baseKeywords)].slice(0, 40);
+  const keywords = [...new Set(baseKeywords)].slice(0, 45);
 
   return {
     title,

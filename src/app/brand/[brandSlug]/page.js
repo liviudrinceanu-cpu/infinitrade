@@ -22,8 +22,8 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const title = `${brand.name} Romania | Distribuitor Autorizat ${category.name} | Infinitrade`;
-  const description = `Distribuitor autorizat ${brand.name} (${brand.country}) in Romania. ${brand.description}. Produse originale, piese schimb, suport tehnic. Livrare rapida 24-72h.`;
+  const title = `${brand.name} Romania | Distribuitor Autorizat ${category.name} | Furnizor SEAP`;
+  const description = `Distribuitor autorizat ${brand.name} (${brand.country}) in Romania. Furnizor inregistrat SEAP/SICAP pentru licitatii si achizitii publice. ${brand.description}. Documentatie completa pentru fonduri europene. Livrare rapida 24-72h.`;
 
   // Generate comprehensive keywords based on brand, category, and products
   const baseKeywords = [
@@ -37,6 +37,14 @@ export async function generateMetadata({ params }) {
     `${brand.name} piese schimb`,
     `${brand.name} service`,
     `${brand.name} catalog`,
+    // SEAP / SICAP / Public Procurement
+    `${brand.name} SEAP`,
+    `${brand.name} SICAP`,
+    `${brand.name} licitatie`,
+    `${brand.name} achizitii publice`,
+    `furnizor ${brand.name} SEAP`,
+    `licitatie ${category.name.toLowerCase()} ${brand.name}`,
+    `${brand.name} fonduri europene`,
     // Category + Brand combinations
     `${category.name.toLowerCase()} ${brand.name}`,
     `${brand.name} ${category.name.toLowerCase()}`,
@@ -56,12 +64,13 @@ export async function generateMetadata({ params }) {
     `furnizor ${brand.name}`,
     // General
     'echipamente industriale romania',
+    'furnizor SEAP echipamente industriale',
     `piese schimb ${category.name.toLowerCase()}`,
     brand.country,
   ];
 
-  // Remove duplicates and limit to 30 keywords
-  const keywords = [...new Set(baseKeywords)].slice(0, 30);
+  // Remove duplicates and limit to 35 keywords
+  const keywords = [...new Set(baseKeywords)].slice(0, 35);
 
   return {
     title,

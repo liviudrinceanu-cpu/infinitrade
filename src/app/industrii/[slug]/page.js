@@ -34,14 +34,22 @@ export async function generateMetadata({ params }) {
     `echipamente industriale ${industry.name.toLowerCase()}`,
     `furnizor echipamente ${industry.name.toLowerCase()}`,
     `distribuitor ${industry.name.toLowerCase()}`,
+    // SEAP / SICAP / Public Procurement
+    `echipamente ${industry.name.toLowerCase()} SEAP`,
+    `furnizor SEAP ${industry.name.toLowerCase()}`,
+    `licitatie echipamente ${industry.name.toLowerCase()}`,
+    `achizitii publice ${industry.name.toLowerCase()}`,
+    `${industry.name.toLowerCase()} fonduri europene`,
     // Equipment keywords
     ...industry.equipment.map(eq => eq.name.toLowerCase()),
-    ...industry.equipment.map(eq => `${eq.name.toLowerCase()} romania`),
+    ...industry.equipment.map(eq => `${eq.name.toLowerCase()} SEAP`),
+    ...industry.equipment.map(eq => `${eq.name.toLowerCase()} licitatie`),
     // Application keywords
     ...industry.applications.map(a => a.toLowerCase()),
     // Brand keywords in industry context
     ...industry.brands,
     ...industry.brands.map(b => `${b} ${industry.name.toLowerCase()}`),
+    ...industry.brands.map(b => `${b} SEAP`),
     // Client reference keywords (without company names for privacy)
     `echipamente ${industry.slug}`,
     `pompe ${industry.name.toLowerCase()}`,
@@ -51,17 +59,23 @@ export async function generateMetadata({ params }) {
     `pret echipamente ${industry.name.toLowerCase()}`,
     // General
     'echipamente industriale romania',
+    'furnizor SEAP',
+    'furnizor SICAP',
     'distribuitor autorizat',
     'piese schimb originale',
     'service industrial',
   ];
 
   // Remove duplicates and limit
-  const keywords = [...new Set(baseKeywords)].slice(0, 35);
+  const keywords = [...new Set(baseKeywords)].slice(0, 40);
+
+  // Enhanced title and description with SEAP
+  const enhancedTitle = `${industry.metaTitle} | Furnizor SEAP`;
+  const enhancedDescription = `${industry.metaDescription} Furnizor înregistrat SEAP/SICAP. Documentație completă pentru licitații și fonduri europene.`;
 
   return {
-    title: industry.metaTitle,
-    description: industry.metaDescription,
+    title: enhancedTitle,
+    description: enhancedDescription,
     keywords,
     openGraph: {
       title: industry.metaTitle,

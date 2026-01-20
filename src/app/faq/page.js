@@ -80,12 +80,37 @@ const faqData = [
         a: 'Cam în toate care au nevoie de echipamente industriale: petrochimie, energie, alimentar, farmaceutic, tratare apă, construcții/HVAC, minerit. Avem experiență specifică în fiecare domeniu și știm ce funcționează.'
       },
       {
-        q: 'Participați la licitații SEAP?',
-        a: 'Da, suntem înscriși și participăm regulat. Am livrat pentru instituții publice, companii de stat, proiecte europene. Știm ce documente trebuie și cum să le pregătim ca să nu pierzi timp.'
-      },
-      {
         q: 'Cum vă pot contacta?',
         a: 'Email: secretariat@infinitrade-romania.ro. Telefon: vezi pagina de contact. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem în maxim 24h în zilele lucrătoare.'
+      },
+    ]
+  },
+  {
+    category: 'Licitații SEAP / SICAP',
+    questions: [
+      {
+        q: 'Sunteți furnizor înregistrat în SEAP/SICAP?',
+        a: 'Da, suntem operator economic verificat și activ în Sistemul Electronic de Achiziții Publice. Am participat și câștigat zeci de licitații pentru instituții publice, primării, spitale, companii de stat. Avem experiență concretă cu procedurile SEAP.'
+      },
+      {
+        q: 'Ce documente pregătiți pentru licitații publice?',
+        a: 'Tot ce ai nevoie pentru dosarul de achiziție: certificate de conformitate CE, declarații de conformitate, fișe tehnice complete, certificate de garanție, documente de origine. Le pregătim în format electronic, gata de încărcat în SEAP.'
+      },
+      {
+        q: 'Livrați pentru proiecte cu fonduri europene?',
+        a: 'Da, avem experiență cu proiecte finanțate din fonduri europene și PNRR. Știm ce documentație specifică e necesară și cum să o pregătim corect. Am livrat pentru proiecte de modernizare stații de epurare, centrale termice, fabrici.'
+      },
+      {
+        q: 'Puteți participa la achiziții directe sub prag?',
+        a: 'Desigur. Pentru achizițiile directe sub pragul de licitație, putem trimite oferta în aceeași zi. Avem toate documentele pregătite și stocuri disponibile pentru livrare rapidă.'
+      },
+      {
+        q: 'Cum mă ajutați cu caietul de sarcini?',
+        a: 'Dacă ești în faza de pregătire a caietului de sarcini, putem oferi consultanță tehnică gratuită: specificații corecte, parametri realiști, alternative tehnice. Asta ajută să primești oferte comparabile și să eviți contestații.'
+      },
+      {
+        q: 'Aveți istoric de contracte publice?',
+        a: 'Da, avem un istoric solid de contracte îndeplinite pentru autorități publice. Putem furniza referințe și documente care atestă experiența similară dacă ai nevoie pentru evaluarea ofertelor.'
       },
     ]
   },
@@ -109,14 +134,23 @@ function generateFaqJsonLd() {
 }
 
 export const metadata = {
-  title: 'Intrebari Frecvente (FAQ) | Echipamente Industriale',
-  description: 'Raspunsuri la cele mai frecvente intrebari despre echipamente industriale: pompe, robineti, motoare, schimbatoare caldura. Consultanta tehnica gratuita.',
+  title: 'Intrebari Frecvente (FAQ) | Furnizor SEAP | Echipamente Industriale',
+  description: 'Raspunsuri la cele mai frecvente intrebari despre echipamente industriale si achizitii publice SEAP/SICAP: pompe, robineti, motoare, licitatii, fonduri europene. Consultanta tehnica gratuita.',
   keywords: [
     // FAQ specific
     'faq echipamente industriale',
     'intrebari echipamente industriale',
     'intrebari frecvente pompe',
     'intrebari frecvente robineti',
+    // SEAP / SICAP questions
+    'faq SEAP echipamente',
+    'intrebari SEAP pompe',
+    'furnizor SEAP intrebari',
+    'licitatii publice intrebari',
+    'achizitii publice faq',
+    'documente licitatie SEAP',
+    'fonduri europene echipamente',
+    'PNRR echipamente faq',
     // Product selection
     'cum aleg pompa industriala',
     'cum aleg pompa potrivita',
@@ -141,6 +175,7 @@ export const metadata = {
     'consultanta tehnica gratuita',
     // General
     'distribuitor echipamente industriale',
+    'furnizor SEAP romania',
     'furnizor pompe romania',
     'infinitrade romania',
   ],

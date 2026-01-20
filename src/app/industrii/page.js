@@ -6,31 +6,38 @@ import { ArrowRight, Factory } from 'lucide-react';
 import styles from './industrii.module.css';
 
 export const metadata = {
-  title: 'Industrii Deservite | Echipamente Industriale pe Sector',
-  description: 'Furnizam echipamente industriale specializate pentru: petrochimie, alimentar, tratare apa, energie, farmaceutic, chimie, minerit, constructii. 15+ ani experienta.',
+  title: 'Industrii Deservite | Furnizor SEAP | Echipamente Industriale pe Sector',
+  description: 'Furnizor SEAP/SICAP echipamente industriale specializate pentru: petrochimie, alimentar, tratare apa, energie, farmaceutic. Licitații publice și fonduri europene. 15+ ani experienta.',
   keywords: [
+    // SEAP / SICAP
+    'furnizor SEAP',
+    'furnizor SICAP',
+    'furnizor SEAP industrie',
+    'licitatie echipamente industriale',
+    'achizitii publice industrie',
+    'fonduri europene industrie',
     // Industry sectors
     'echipamente industriale romania',
     'echipamente industriale pe sector',
     'industrii deservite',
     'solutii industriale',
     // Petrochemical
-    'echipamente petrochimie',
-    'pompe rafinarii',
+    'echipamente petrochimie SEAP',
+    'pompe rafinarii licitatie',
     'furnizor pompe petrochimie',
     'echipamente atex',
     // Food industry
-    'echipamente industria alimentara',
+    'echipamente industria alimentara SEAP',
     'pompe industria alimentara',
     'echipamente inox alimentar',
     'pompe sanitare',
     // Water treatment
-    'pompe statii epurare',
-    'echipamente tratare apa',
+    'pompe statii epurare SEAP',
+    'echipamente tratare apa licitatie',
     'suflante aerare',
     'pompe submersibile epurare',
     // Energy
-    'echipamente centrale electrice',
+    'echipamente centrale electrice SEAP',
     'echipamente termoficare',
     'pompe alimentare cazane',
     'robineti abur',

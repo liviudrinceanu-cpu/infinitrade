@@ -18,13 +18,26 @@ export const metadata = {
     default: 'Infinitrade Romania | Distribuitor Pompe, Robineți, Motoare Industriale',
     template: '%s | Infinitrade Romania'
   },
-  description: 'Distribuitor autorizat echipamente industriale România. Pompe Grundfos, Wilo, KSB. Robineți ARI Armaturen, Spirax Sarco. Motoare Siemens, SEW, ABB. Livrare 24-72h, piese schimb, service.',
+  description: 'Distribuitor autorizat echipamente industriale România. Furnizor înregistrat SEAP/SICAP pentru achiziții publice și licitații. Pompe Grundfos, Wilo, KSB. Robineți ARI Armaturen, Spirax Sarco. Motoare Siemens, SEW, ABB. Documentație completă pentru fonduri europene.',
   keywords: [
     // Main keywords
     'echipamente industriale romania',
     'distribuitor echipamente industriale',
     'furnizor echipamente industriale romania',
     'echipamente industriale pret',
+    // SEAP / SICAP / Public Procurement
+    'furnizor SEAP',
+    'furnizor SICAP',
+    'furnizor inregistrat SEAP',
+    'echipamente industriale SEAP',
+    'pompe industriale SEAP',
+    'licitatie echipamente industriale',
+    'licitatie pompe industriale',
+    'achizitii publice echipamente',
+    'achizitii publice pompe',
+    'fonduri europene echipamente industriale',
+    'PNRR echipamente industriale',
+    'documentatie licitatie',
     // Pumps
     'pompe industriale',
     'pompe industriale romania',
