@@ -143,7 +143,7 @@ export default function FAQPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
         <section className={styles.hero}>
           <div className={styles.container}>
             <h1>Intrebari Frecvente</h1>

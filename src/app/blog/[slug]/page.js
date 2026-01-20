@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { blogArticles, getBlogArticle } from '@/data/blog';
 import { Calendar, Clock, User, ArrowLeft, Tag, Share2 } from 'lucide-react';
 import styles from './article.module.css';
@@ -234,13 +235,13 @@ export default async function BlogArticlePage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
         <article className={styles.article}>
           <div className={styles.container}>
-            <Link href="/blog" className={styles.backLink}>
-              <ArrowLeft size={18} />
-              Inapoi la Blog
-            </Link>
+            <Breadcrumbs
+              items={[{ label: 'Blog', href: '/blog' }]}
+              currentPage={article.title}
+            />
 
             <header className={styles.header}>
               <span className={styles.category}>{article.category}</span>

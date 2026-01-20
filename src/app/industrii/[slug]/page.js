@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { industries, getIndustry } from '@/data/industries';
 import { ArrowRight, CheckCircle, Building2, Users, Award, Phone, Factory } from 'lucide-react';
 import styles from './industry.module.css';
@@ -124,20 +125,17 @@ export default async function IndustryPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
         {/* Hero */}
         <section
           className={styles.hero}
           style={{ '--accent-color': industry.color }}
         >
           <div className={styles.container}>
-            <div className={styles.breadcrumb}>
-              <Link href="/">Acasa</Link>
-              <span>/</span>
-              <Link href="/industrii">Industrii</Link>
-              <span>/</span>
-              <span>{industry.name}</span>
-            </div>
+            <Breadcrumbs
+              items={[{ label: 'Industrii', href: '/industrii' }]}
+              currentPage={industry.name}
+            />
             <div className={styles.heroContent}>
               <div
                 className={styles.heroIcon}

@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, ArrowRight, Check, Phone, Mail, Plus, ShoppingCart, Package, Truck, Wrench, Shield } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import styles from './brand.module.css';
 
@@ -28,22 +29,19 @@ export default function BrandPageClient({ brand, category }) {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero Section */}
         <section className={styles.hero}>
           <div className={styles.heroContainer}>
+            <Breadcrumbs
+              items={[{ label: category.name, href: `/${category.slug}` }]}
+              currentPage={brand.name}
+            />
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className={styles.breadcrumb}>
-                <Link href="/">Acasa</Link>
-                <span>/</span>
-                <Link href={`/${category.slug}`}>{category.name}</Link>
-                <span>/</span>
-                <span>{brand.name}</span>
-              </div>
 
               <h1 className={styles.heroTitle}>
                 {brand.name}

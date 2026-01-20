@@ -22,9 +22,6 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <a href="#main-content" className="skip-link">
-        Sari la conținut principal
-      </a>
       <Header />
       <main id="main-content">
         <Hero />

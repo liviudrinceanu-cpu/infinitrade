@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone, Send, Plus, ShoppingCart } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { categories } from '@/data/products';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import styles from './category.module.css';
@@ -92,21 +93,17 @@ export default function CategoryPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero Section */}
         <section className={styles.hero} style={{ background: category.gradient }}>
           <div className={styles.heroOverlay} />
           <div className={styles.heroContainer}>
+            <Breadcrumbs items={[]} currentPage={category.name} />
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <Link href="/" className={styles.backLink}>
-                <ArrowLeft size={18} />
-                Înapoi la categorii
-              </Link>
-              
               <h1 className={styles.heroTitle}>{category.name}</h1>
               <p className={styles.heroTagline}>{category.tagline}</p>
               <p className={styles.heroDescription}>{category.heroDescription}</p>

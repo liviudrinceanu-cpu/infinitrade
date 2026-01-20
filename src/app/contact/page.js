@@ -94,7 +94,7 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
         {/* Hero */}
         <section className={styles.hero}>
           <div className={styles.container}>

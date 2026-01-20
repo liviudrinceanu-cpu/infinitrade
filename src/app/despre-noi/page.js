@@ -18,7 +18,7 @@ export default function DesprePage() {
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
         {/* Hero Section */}
         <section className={styles.hero}>
           <div className={styles.heroBackground} />
