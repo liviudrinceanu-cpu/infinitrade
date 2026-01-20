@@ -41,7 +41,7 @@
 
 .brandDescription {
   font-size: 15px;
-  color: var(--gray-400);
+  color: rgba(255, 255, 255, 0.75);
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -58,7 +58,7 @@
   border-radius: 6px;
   font-size: 12px;
   font-weight: 500;
-  color: var(--gray-300);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 /* Columns */
@@ -68,7 +68,7 @@
 .columnTitle {
   font-size: 13px;
   font-weight: 600;
-  color: var(--gray-400);
+  color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 20px;
@@ -84,7 +84,7 @@
 
 .columnLink {
   font-size: 15px;
-  color: var(--gray-300);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
@@ -95,7 +95,7 @@
 
 .industryTag {
   font-size: 14px;
-  color: var(--gray-400);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Contact */
@@ -109,17 +109,17 @@
   gap: 12px;
   margin-bottom: 16px;
   font-size: 14px;
-  color: var(--gray-400);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .contactList li svg {
   flex-shrink: 0;
   margin-top: 2px;
-  color: var(--gray-500);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contactList a {
-  color: var(--gray-300);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
@@ -169,7 +169,7 @@
 
 .statLabel {
   font-size: 13px;
-  color: var(--gray-500);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Bottom */
@@ -188,12 +188,12 @@
 
 .copyright {
   font-size: 13px;
-  color: var(--gray-500);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .companyInfo {
   font-size: 12px;
-  color: var(--gray-600);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .bottomLinks {
@@ -204,13 +204,13 @@
 
 .bottomLinks a {
   font-size: 13px;
-  color: var(--gray-500);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
 
 .bottomLinks a:hover {
-  color: var(--gray-300);
+  color: rgba(255, 255, 255, 0.95);
 }
 
 /* Responsive */

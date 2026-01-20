@@ -240,7 +240,7 @@
   justify-content: center;
   gap: 8px;
   padding: 8px 0;
-  padding-left: 60px; /* Offset to align visually with search row below */
+  margin-left: -80px; /* Offset to align Despre Noi under Motoare Industriale and center of search */
   border-top: 1px solid var(--gray-100);
 }
 
