@@ -16,7 +16,8 @@ export async function generateStaticParams() {
 
 // Generate dynamic metadata for each category - CRITICAL FOR SEO
 export async function generateMetadata({ params }) {
-  const category = categories.find(c => c.slug === params.category);
+  const { category: categorySlug } = await params;
+  const category = categories.find(c => c.slug === categorySlug);
 
   if (!category) {
     return {
@@ -117,8 +118,9 @@ export async function generateMetadata({ params }) {
 }
 
 // Main page component (Server Component)
-export default function CategoryPage({ params }) {
-  const category = categories.find(c => c.slug === params.category);
+export default async function CategoryPage({ params }) {
+  const { category: categorySlug } = await params;
+  const category = categories.find(c => c.slug === categorySlug);
 
   if (!category) {
     notFound();
