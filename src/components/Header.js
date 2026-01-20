@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, Phone, Mail, Clock, Search, ShoppingCart, Plus, Trash2 } from 'lucide-react';
-import { navigation, categories, allBrands } from '@/data/products';
+import { navigation, secondaryNavigation, categories, allBrands } from '@/data/products';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { debounce } from '@/lib/utils';
 import styles from './Header.module.css';
@@ -186,12 +186,13 @@ export default function Header() {
               {navigation.map((item) => {
                 const isCategory = !['/despre-noi', '/contact', '/', '/blog'].includes(item.href) && !item.isDropdown;
                 const isResourcesDropdown = item.isDropdown;
+                const hasDropdown = isCategory || isResourcesDropdown;
 
                 return (
                   <div
                     key={item.name}
                     className={styles.navItem}
-                    onMouseEnter={() => (isCategory || isResourcesDropdown) && setActiveDropdown(item.name)}
+                    onMouseEnter={() => hasDropdown && setActiveDropdown(item.name)}
                     onMouseLeave={() => setActiveDropdown(null)}
                   >
                     <Link href={item.href} className={styles.navLink}>
@@ -287,6 +288,15 @@ export default function Header() {
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
+          </div>
+
+          {/* Secondary Navigation Row - Centered */}
+          <div className={styles.secondaryNav}>
+            {secondaryNavigation.map((item) => (
+              <Link key={item.name} href={item.href} className={styles.secondaryNavLink}>
+                {item.name}
+              </Link>
+            ))}
           </div>
 
           {/* Row 2: Search + CTA Button */}
@@ -451,6 +461,22 @@ export default function Header() {
             transition={{ type: 'tween', duration: 0.3 }}
           >
             <nav className={styles.mobileNav} aria-label="Navigare mobilă">
+              {/* Secondary navigation first */}
+              {secondaryNavigation.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={styles.mobileNavLink}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              ))}
+
+              {/* Separator */}
+              <div className={styles.mobileDivider} />
+
+              {/* Primary navigation - categories */}
               {navigation.map((item) => (
                 item.isDropdown ? (
                   <div key={item.name} className={styles.mobileDropdownGroup}>

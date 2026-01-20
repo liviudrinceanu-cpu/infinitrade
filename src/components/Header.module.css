@@ -233,6 +233,33 @@
   color: var(--gray-500);
 }
 
+/* Secondary Navigation Row - Centered */
+.secondaryNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-top: 1px solid var(--gray-100);
+}
+
+.secondaryNavLink {
+  display: flex;
+  align-items: center;
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gray-600);
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all var(--transition-fast);
+}
+
+.secondaryNavLink:hover {
+  color: var(--primary);
+  background: rgba(9, 144, 219, 0.08);
+}
+
 /* Row 2: Search + CTA */
 .searchRow {
   display: flex;
@@ -704,6 +731,12 @@
   color: var(--primary);
 }
 
+.mobileDivider {
+  height: 1px;
+  background: var(--gray-100);
+  margin: 8px 0;
+}
+
 .mobileDropdownGroup {
   display: flex;
   flex-direction: column;
@@ -755,23 +788,27 @@
   .nav {
     display: none;
   }
-  
+
+  .secondaryNav {
+    display: none;
+  }
+
   .mobileMenuButton {
     display: flex;
   }
-  
+
   .headerMain {
     padding: 16px 0;
   }
-  
+
   .logoImage {
     height: 60px;
   }
-  
+
   .searchRow {
     padding: 12px 0 16px;
   }
-  
+
   .searchWrapper {
     max-width: 100%;
   }

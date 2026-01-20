@@ -228,9 +228,8 @@ export const features = [
   { icon: 'Globe', title: '500+ Branduri Industriale', description: 'Acces la cei mai importanți producători mondiali de echipamente industriale' }
 ];
 
+// Primary navigation - product categories
 export const navigation = [
-  { name: 'Acasă', href: '/' },
-  { name: 'Despre Noi', href: '/despre-noi' },
   { name: 'Pompe Industriale', href: '/pompe-industriale' },
   { name: 'Robineți Industriali', href: '/robineti-industriali' },
   { name: 'Motoare Industriale', href: '/motoare-electrice' },
@@ -248,7 +247,13 @@ export const navigation = [
       { name: 'Certificări', href: '/certificari', description: 'Autorizări și parteneri' },
     ]
   },
-  { name: 'Contact', href: '/contact' }
+];
+
+// Secondary navigation - info pages (centered below)
+export const secondaryNavigation = [
+  { name: 'Acasă', href: '/' },
+  { name: 'Despre Noi', href: '/despre-noi' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 // Footer industries with links
