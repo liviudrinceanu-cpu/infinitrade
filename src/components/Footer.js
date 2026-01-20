@@ -59,6 +59,38 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Resources */}
+          <div className={styles.column}>
+            <h4 className={styles.columnTitle}>Resurse</h4>
+            <ul className={styles.columnList}>
+              <li>
+                <Link href="/blog" className={styles.columnLink}>
+                  Blog Tehnic
+                </Link>
+              </li>
+              <li>
+                <Link href="/studii-de-caz" className={styles.columnLink}>
+                  Studii de Caz
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className={styles.columnLink}>
+                  Întrebări Frecvente
+                </Link>
+              </li>
+              <li>
+                <Link href="/certificari" className={styles.columnLink}>
+                  Certificări
+                </Link>
+              </li>
+              <li>
+                <Link href="/despre-noi" className={styles.columnLink}>
+                  Despre Noi
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           {/* Contact */}
           <div className={styles.column}>
             <h4 className={styles.columnTitle}>Contact</h4>

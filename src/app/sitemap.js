@@ -1,4 +1,6 @@
 import { categories, allBrands } from '@/data/products';
+import { blogArticles } from '@/data/blog';
+import { caseStudies } from '@/data/caseStudies';
 
 const BASE_URL = 'https://infinitrade.ro';
 
@@ -26,6 +28,36 @@ export default function sitemap() {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/blog`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/studii-de-caz`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/industrii`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/faq`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/certificari`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
       url: `${BASE_URL}/gdpr`,
       lastModified: currentDate,
       changeFrequency: 'yearly',
@@ -48,18 +80,6 @@ export default function sitemap() {
       lastModified: currentDate,
       changeFrequency: 'yearly',
       priority: 0.3,
-    },
-    {
-      url: `${BASE_URL}/faq`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${BASE_URL}/certificari`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly',
-      priority: 0.6,
     },
   ];
 
@@ -103,5 +123,28 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...categoryPages, ...brandPages, ...industryPages];
+  // Blog article pages
+  const blogPages = blogArticles.map((article) => ({
+    url: `${BASE_URL}/blog/${article.slug}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  // Case study pages
+  const caseStudyPages = caseStudies.map((cs) => ({
+    url: `${BASE_URL}/studii-de-caz/${cs.slug}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  }));
+
+  return [
+    ...staticPages,
+    ...categoryPages,
+    ...brandPages,
+    ...industryPages,
+    ...blogPages,
+    ...caseStudyPages,
+  ];
 }

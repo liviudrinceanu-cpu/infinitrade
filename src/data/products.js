@@ -242,6 +242,7 @@ export const navigation = [
     isDropdown: true,
     children: [
       { name: 'Blog Tehnic', href: '/blog', description: 'Ghiduri și articole tehnice' },
+      { name: 'Studii de Caz', href: '/studii-de-caz', description: 'Proiecte și rezultate reale' },
       { name: 'Întrebări Frecvente', href: '/faq', description: 'Răspunsuri la întrebări comune' },
       { name: 'Industrii Deservite', href: '/industrii', description: 'Soluții pe verticale industriale' },
       { name: 'Certificări', href: '/certificari', description: 'Autorizări și parteneri' },
