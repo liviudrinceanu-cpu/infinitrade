@@ -1,6 +1,78 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 20 Ianuarie 2026 (V41)
+## ULTIMA ACTUALIZARE: 20 Ianuarie 2026 (V42)
+
+---
+
+## MODIFICARI V42 - Comprehensive SEAP/SICAP Procurement Guide (20 Ianuarie 2026)
+
+### SCOP
+Crearea unei resurse complete pentru achiziții publice SEAP/SICAP, integrând toate categoriile de produse, branduri și coduri CPV pentru îmbunătățirea SEO și credibilității în fața achizitorilor publici.
+
+### PAGINA NOUA CREATA
+
+| URL | Fișiere | Descriere |
+|-----|---------|-----------|
+| `/ghid-achizitii-seap` | `src/app/ghid-achizitii-seap/page.js`, `ghid-seap.module.css` | Ghid complet achiziții publice |
+
+### CONTINUT PAGINA
+
+#### 1. Coduri CPV Complete (50+ coduri)
+
+| Categorie | Exemple Coduri CPV |
+|-----------|-------------------|
+| Pompe Industriale | 42120000-6, 42122000-0, 42122100-1, 42122130-0 |
+| Robineți Industriali | 42130000-9, 42131000-6, 42131100-7, 42131140-9 |
+| Motoare Electrice | 31100000-7, 31110000-0, 31121000-0, 31161000-2 |
+| Schimbătoare Căldură | 42510000-4, 42511000-1, 42511100-2, 42512000-8 |
+| Suflante/Ventilatoare | 42520000-7, 42522000-1, 39717200-3, 42123400-1 |
+
+#### 2. Proceduri Achiziții Explicate
+
+| Tip Procedură | Prag Valoric | Descriere |
+|---------------|--------------|-----------|
+| Achiziție Directă | < 135.060 lei | Catalog SEAP, fără publicare anunț |
+| Procedură Simplificată | 135.060 - 1.227.017 lei | Anunț SEAP, evaluare oferte |
+| Licitație Deschisă | > 1.227.017 lei | Publicare europeană, termene extinse |
+
+#### 3. Secțiuni Pagină
+
+- Hero cu statistici (15+ ani, 800+ clienți, 500+ branduri)
+- De ce Infinitrade pentru licitații (5 avantaje)
+- Coduri CPV interactive pe categorii
+- Proceduri achiziții cu praguri
+- Documente necesare (checklist)
+- Branduri partenere cu linkuri
+- FAQ (6 întrebări) cu JSON-LD FAQPage schema
+- CTA final cu contact
+
+### MODIFICARI NAVIGATIE
+
+| Locație | Modificare |
+|---------|------------|
+| Header - Resurse dropdown | Adăugat "Ghid Achiziții SEAP" (prima poziție) |
+| Footer - Resurse column | Adăugat "Ghid Achiziții SEAP" |
+| Sitemap | Adăugat cu priority 0.9 |
+
+### FISIERE MODIFICATE
+
+| Fișier | Modificare |
+|--------|------------|
+| `src/app/ghid-achizitii-seap/page.js` | NOU - 600+ linii, conținut complet |
+| `src/app/ghid-achizitii-seap/ghid-seap.module.css` | NOU - styling responsive |
+| `src/data/products.js` | Adăugat în navigation children |
+| `src/components/Footer.js` | Adăugat link în Resurse |
+| `src/app/sitemap.js` | Adăugat pagina nouă |
+
+### SEO IMPLEMENTAT
+
+- **Title**: `Ghid Achiziții SEAP/SICAP | Coduri CPV Echipamente Industriale | Infinitrade`
+- **Keywords**: 50+ keywords SEAP/SICAP specifice
+- **JSON-LD**: FAQPage schema cu 6 întrebări
+- **Internal linking**: Toate categoriile și brandurile principale
+
+### BUILD STATUS
+✅ Build SUCCESS - 98 pagini generate (include /ghid-achizitii-seap)
 
 ---
 
@@ -297,6 +369,9 @@ infinitrade.ro/
 │   │   ├── certificari/               # ✅ NOU - Certificari
 │   │   │   ├── page.js
 │   │   │   └── certificari.module.css
+│   │   ├── ghid-achizitii-seap/       # ✅ V42 - Ghid SEAP/SICAP
+│   │   │   ├── page.js
+│   │   │   └── ghid-seap.module.css
 │   │   ├── contact/
 │   │   ├── despre-noi/
 │   │   ├── gdpr/
@@ -333,6 +408,7 @@ infinitrade.ro/
 - ✅ Certificari cu parteneri si clienti
 - ✅ Blog cu 5 articole tehnice si JSON-LD Article schema
 - ✅ 8 Pagini Industrii verticale cu echipamente specifice
+- ✅ Ghid Achiziții SEAP/SICAP cu coduri CPV și proceduri (V42)
 - ✅ Custom 404 branded
 - ✅ Dynamic Sitemap (toate paginile)
 - ✅ Pagini legale (GDPR, Politici, Termeni)
@@ -403,6 +479,9 @@ http://localhost:3000/faq
 
 # Certificari
 http://localhost:3000/certificari
+
+# Ghid SEAP/SICAP
+http://localhost:3000/ghid-achizitii-seap
 
 # 404
 http://localhost:3000/pagina-inexistenta
