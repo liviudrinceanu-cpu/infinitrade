@@ -46,14 +46,6 @@ export async function generateMetadata({ params }) {
       siteName: 'Infinitrade Romania',
       locale: 'ro_RO',
       type: 'website',
-      images: [
-        {
-          url: '/og-image.jpg',
-          width: 1200,
-          height: 630,
-          alt: `${brand.name} - Distribuitor Infinitrade Romania`,
-        },
-      ],
     },
     twitter: {
       card: 'summary_large_image',
@@ -72,6 +64,51 @@ export async function generateMetadata({ params }) {
 
 // Generate JSON-LD structured data
 function generateJsonLd(brand, category) {
+  // Generate Product entries for each product type
+  const productItems = category.productTypes.map((product, index) => ({
+    '@type': 'Product',
+    '@id': `https://infinitrade.ro/brand/${brand.slug}#product-${product.slug}`,
+    name: `${product.name} ${brand.name}`,
+    description: product.description,
+    category: category.name,
+    brand: {
+      '@type': 'Brand',
+      name: brand.name,
+    },
+    manufacturer: {
+      '@type': 'Organization',
+      name: brand.name,
+      address: {
+        '@type': 'PostalAddress',
+        addressCountry: brand.country,
+      },
+    },
+    offers: {
+      '@type': 'Offer',
+      priceCurrency: 'EUR',
+      availability: 'https://schema.org/InStock',
+      itemCondition: 'https://schema.org/NewCondition',
+      seller: {
+        '@type': 'Organization',
+        name: 'Infinitrade Romania',
+        url: 'https://infinitrade.ro',
+      },
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        priceCurrency: 'EUR',
+        eligibleRegion: {
+          '@type': 'Country',
+          name: 'Romania',
+        },
+      },
+    },
+    additionalProperty: product.applications.map(app => ({
+      '@type': 'PropertyValue',
+      name: 'Aplicatie',
+      value: app,
+    })),
+  }));
+
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -82,6 +119,14 @@ function generateJsonLd(brand, category) {
         name: 'Infinitrade Romania',
         url: 'https://infinitrade.ro',
         logo: 'https://infinitrade.ro/logo.png',
+        description: 'Distribuitor autorizat echipamente industriale Romania',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Ghiroda',
+          addressLocality: 'Timisoara',
+          addressRegion: 'Timis',
+          addressCountry: 'RO',
+        },
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: '+40-256-XXX-XXX',
@@ -114,14 +159,17 @@ function generateJsonLd(brand, category) {
           },
         ],
       },
-      // Product (Brand as product line)
+      // Main Product (Brand as product line)
       {
-        '@type': 'Product',
+        '@type': 'ProductGroup',
+        '@id': `https://infinitrade.ro/brand/${brand.slug}#brand-products`,
         name: `${brand.name} ${category.name}`,
-        description: brand.description,
+        description: `${brand.description}. Distribuitor autorizat ${brand.name} in Romania - produse originale, piese schimb, suport tehnic.`,
+        url: `https://infinitrade.ro/brand/${brand.slug}`,
         brand: {
           '@type': 'Brand',
           name: brand.name,
+          logo: `https://infinitrade.ro/brands/${brand.slug}.png`,
         },
         manufacturer: {
           '@type': 'Organization',
@@ -131,15 +179,34 @@ function generateJsonLd(brand, category) {
             addressCountry: brand.country,
           },
         },
+        hasVariant: productItems,
+        variesBy: [
+          'https://schema.org/product-type',
+        ],
         offers: {
           '@type': 'AggregateOffer',
           priceCurrency: 'EUR',
           availability: 'https://schema.org/InStock',
+          offerCount: productItems.length,
           seller: {
             '@type': 'Organization',
             name: 'Infinitrade Romania',
+            url: 'https://infinitrade.ro',
           },
         },
+      },
+      // ItemList for product catalog
+      {
+        '@type': 'ItemList',
+        name: `Produse ${brand.name} disponibile`,
+        description: `Lista completa produse ${brand.name} ${category.name.toLowerCase()} disponibile la Infinitrade Romania`,
+        numberOfItems: productItems.length,
+        itemListElement: category.productTypes.map((product, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: `${product.name} ${brand.name}`,
+          url: `https://infinitrade.ro/${category.slug}#${product.slug}`,
+        })),
       },
     ],
   };
