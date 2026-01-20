@@ -215,6 +215,13 @@ export default function RootLayout({ children }) {
         {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+
+        {/* DNS Prefetch for external resources */}
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+
+        {/* Preload critical resources */}
+        <link rel="preload" href="/logo-header.png" as="image" type="image/png" />
         
         {/* Schema.org JSON-LD */}
         <script

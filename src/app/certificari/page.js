@@ -73,6 +73,81 @@ const partners = [
   { name: 'FPZ', country: 'Italia' },
 ];
 
+// JSON-LD Schema for Certifications page
+function generateCertificationsSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': 'https://infinitrade.ro/certificari#webpage',
+    name: 'Certificari si Autorizari - Infinitrade Romania',
+    description: 'Certificari si autorizari Infinitrade Romania: ISO 9001, distribuitor autorizat Grundfos, Siemens, KSB.',
+    url: 'https://infinitrade.ro/certificari',
+    isPartOf: {
+      '@id': 'https://infinitrade.ro/#website'
+    },
+    about: {
+      '@type': 'Organization',
+      '@id': 'https://infinitrade.ro/#organization',
+      name: 'Infinitrade Romania',
+      legalName: 'Driatheli Group SRL',
+      hasCredential: [
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'certification',
+          name: 'ISO 9001:2015',
+          description: 'Certificare pentru managementul calității în comercializarea și distribuția echipamentelor industriale'
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'authorization',
+          name: 'Distribuitor Autorizat Grundfos',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'Grundfos',
+            address: { '@type': 'PostalAddress', addressCountry: 'DK' }
+          }
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'authorization',
+          name: 'Distribuitor Autorizat Wilo',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'Wilo',
+            address: { '@type': 'PostalAddress', addressCountry: 'DE' }
+          }
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'authorization',
+          name: 'Distribuitor Autorizat KSB',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'KSB',
+            address: { '@type': 'PostalAddress', addressCountry: 'DE' }
+          }
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'authorization',
+          name: 'Distribuitor Autorizat Siemens',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'Siemens',
+            address: { '@type': 'PostalAddress', addressCountry: 'DE' }
+          }
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'registration',
+          name: 'Înregistrare SEAP/SICAP',
+          description: 'Înregistrat în sistemul electronic de achiziții publice pentru licitații'
+        }
+      ]
+    }
+  };
+}
+
 export const metadata = {
   title: 'Certificari si Autorizari | Distribuitor Autorizat',
   description: 'Certificari si autorizari Infinitrade Romania: ISO 9001, distribuitor autorizat Grundfos, Siemens, KSB. Inregistrat SEAP pentru licitatii publice.',
@@ -98,8 +173,14 @@ export const metadata = {
 };
 
 export default function CertificariPage() {
+  const certificationsSchema = generateCertificationsSchema();
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(certificationsSchema) }}
+      />
       <Header />
       <main id="main-content" className={styles.main}>
         <section className={styles.hero}>

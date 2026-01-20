@@ -41,11 +41,18 @@ export async function generateMetadata({ params }) {
       publishedTime: article.date,
       authors: [article.author],
       tags: article.tags,
+      images: [{
+        url: `/blog/${article.slug}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: article.title,
+      }],
     },
     twitter: {
       card: 'summary_large_image',
       title: article.title,
       description: article.excerpt,
+      images: [`/blog/${article.slug}/opengraph-image`],
     },
     alternates: {
       canonical: `https://infinitrade.ro/blog/${article.slug}`,
@@ -58,8 +65,15 @@ function generateArticleJsonLd(article) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
+    '@id': `https://infinitrade.ro/blog/${article.slug}#article`,
     headline: article.title,
     description: article.excerpt,
+    image: {
+      '@type': 'ImageObject',
+      url: `https://infinitrade.ro/blog/${article.slug}/opengraph-image`,
+      width: 1200,
+      height: 630
+    },
     author: {
       '@type': 'Person',
       name: article.author,
@@ -69,7 +83,9 @@ function generateArticleJsonLd(article) {
       name: 'Infinitrade Romania',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://infinitrade.ro/logo.png',
+        url: 'https://infinitrade.ro/logo-header.png',
+        width: 200,
+        height: 60
       },
     },
     datePublished: article.date,
@@ -79,6 +95,12 @@ function generateArticleJsonLd(article) {
       '@id': `https://infinitrade.ro/blog/${article.slug}`,
     },
     keywords: article.tags.join(', '),
+    inLanguage: 'ro-RO',
+    isPartOf: {
+      '@type': 'Blog',
+      '@id': 'https://infinitrade.ro/blog#blog',
+      name: 'Blog Tehnic Infinitrade Romania'
+    }
   };
 }
 

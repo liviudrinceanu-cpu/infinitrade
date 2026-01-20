@@ -13,6 +13,48 @@ export const metadata = {
   },
 };
 
+// ContactPage JSON-LD schema
+const contactPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  '@id': 'https://infinitrade.ro/contact#webpage',
+  name: 'Contact Infinitrade Romania',
+  description: 'Contactează Infinitrade Romania pentru oferte personalizate echipamente industriale.',
+  url: 'https://infinitrade.ro/contact',
+  isPartOf: {
+    '@id': 'https://infinitrade.ro/#website'
+  },
+  mainEntity: {
+    '@type': 'Organization',
+    '@id': 'https://infinitrade.ro/#organization',
+    name: 'Infinitrade Romania',
+    telephone: '+40-371-232-404',
+    email: 'vanzari@infinitrade.ro',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Calea Lugojului, nr.47/B, Hala nr. 3',
+      addressLocality: 'Ghiroda',
+      addressRegion: 'Timiș',
+      postalCode: '307200',
+      addressCountry: 'RO'
+    },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '08:00',
+      closes: '16:30'
+    }
+  }
+};
+
 export default function ContactLayout({ children }) {
-  return children;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }}
+      />
+      {children}
+    </>
+  );
 }
