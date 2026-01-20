@@ -22,7 +22,7 @@
   gap: 8px;
   font-size: 14px;
   margin-bottom: 24px;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 
 .breadcrumb a {
@@ -60,7 +60,7 @@
 
 .hero p {
   font-size: 17px;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.95);
   max-width: 700px;
   margin: 0 auto 32px;
   line-height: 1.6;
@@ -86,7 +86,7 @@
 
 .stat small {
   font-size: 13px;
-  opacity: 0.8;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 /* Applications */
@@ -253,7 +253,7 @@
 
 .ctaBox p {
   font-size: 17px;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.95);
   margin: 0 0 24px;
 }
 

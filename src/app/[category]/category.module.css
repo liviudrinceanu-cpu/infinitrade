@@ -75,14 +75,14 @@
 .heroTagline {
   font-size: clamp(20px, 2.5vw, 28px);
   font-weight: 500;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 24px;
 }
 
 .heroDescription {
   font-size: clamp(16px, 1.5vw, 18px);
   max-width: 700px;
-  opacity: 0.85;
+  color: rgba(255, 255, 255, 0.95);
   line-height: 1.7;
   margin-bottom: 40px;
 }
@@ -105,7 +105,7 @@
 
 .heroStatLabel {
   font-size: 14px;
-  opacity: 0.8;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 .heroCtas {

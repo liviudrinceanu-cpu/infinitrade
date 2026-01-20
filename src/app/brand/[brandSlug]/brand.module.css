@@ -41,7 +41,7 @@
   gap: 8px;
   font-size: 14px;
   margin-bottom: 24px;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 
 .breadcrumb a {
@@ -62,14 +62,14 @@
 
 .heroSubtitle {
   font-size: 18px;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 16px;
 }
 
 .heroDescription {
   font-size: 17px;
   max-width: 600px;
-  opacity: 0.85;
+  color: rgba(255, 255, 255, 0.95);
   line-height: 1.7;
   margin-bottom: 32px;
 }
