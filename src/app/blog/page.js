@@ -26,14 +26,61 @@ export const metadata = {
   alternates: {
     canonical: 'https://infinitrade.ro/blog',
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
+
+// CollectionPage schema for blog listing
+function generateBlogCollectionSchema(articles) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': 'https://infinitrade.ro/blog#webpage',
+    name: 'Blog Tehnic - Ghiduri Echipamente Industriale',
+    description: 'Articole tehnice despre pompe industriale, motoare electrice, robineti. Ghiduri de selectie, comparatii, eficienta energetica si mentenanta.',
+    url: 'https://infinitrade.ro/blog',
+    isPartOf: {
+      '@id': 'https://infinitrade.ro/#website'
+    },
+    about: {
+      '@type': 'Thing',
+      name: 'Echipamente Industriale'
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: articles.map((article, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        item: {
+          '@type': 'Article',
+          '@id': `https://infinitrade.ro/blog/${article.slug}`,
+          headline: article.title,
+          description: article.excerpt,
+          url: `https://infinitrade.ro/blog/${article.slug}`,
+          datePublished: article.date,
+          author: {
+            '@type': 'Organization',
+            name: 'Infinitrade Romania'
+          }
+        }
+      }))
+    }
+  };
+}
 
 export default function BlogPage() {
   const featuredArticles = blogArticles.filter(a => a.featured);
   const regularArticles = blogArticles.filter(a => !a.featured);
+  const collectionSchema = generateBlogCollectionSchema(blogArticles);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
       <Header />
       <main id="main-content" className={styles.main}>
         <section className={styles.hero}>

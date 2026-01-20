@@ -26,11 +26,54 @@ export const metadata = {
   alternates: {
     canonical: 'https://infinitrade.ro/industrii',
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
+// CollectionPage schema for industries listing
+function generateIndustriesCollectionSchema(industriesList) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': 'https://infinitrade.ro/industrii#webpage',
+    name: 'Industrii Deservite - Echipamente Industriale pe Sector',
+    description: 'Furnizam echipamente industriale specializate pentru diverse sectoare industriale.',
+    url: 'https://infinitrade.ro/industrii',
+    isPartOf: {
+      '@id': 'https://infinitrade.ro/#website'
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: industriesList.map((industry, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        item: {
+          '@type': 'Service',
+          '@id': `https://infinitrade.ro/industrii/${industry.slug}`,
+          name: `Echipamente Industriale pentru ${industry.name}`,
+          description: industry.heroDescription,
+          url: `https://infinitrade.ro/industrii/${industry.slug}`,
+          provider: {
+            '@type': 'Organization',
+            name: 'Infinitrade Romania'
+          }
+        }
+      }))
+    }
+  };
+}
+
 export default function IndustriiPage() {
+  const industriesSchema = generateIndustriesCollectionSchema(industries);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(industriesSchema) }}
+      />
       <Header />
       <main id="main-content" className={styles.main}>
         <section className={styles.hero}>

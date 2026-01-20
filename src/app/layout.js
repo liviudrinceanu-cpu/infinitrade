@@ -158,6 +158,29 @@ const localBusinessSchema = {
   priceRange: '$$'
 }
 
+// Schema.org for WebSite with SearchAction (enables sitelink search box in SERP)
+const webSiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${config.site.url}/#website`,
+  name: 'Infinitrade Romania',
+  alternateName: 'Infinitrade - Echipamente Industriale',
+  url: config.site.url,
+  description: 'Distribuitor autorizat de echipamente industriale în România - pompe, robineți, motoare electrice, schimbătoare de căldură și suflante.',
+  publisher: {
+    '@id': `${config.site.url}/#organization`
+  },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${config.site.url}/brand/{search_term_string}`
+    },
+    'query-input': 'required name=search_term_string'
+  },
+  inLanguage: 'ro-RO'
+}
+
 // Skip to content styles (inline for performance)
 const skipLinkStyles = `
   .skip-to-content {
@@ -201,6 +224,10 @@ export default function RootLayout({ children }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
         />
         
         {/* Google Analytics */}

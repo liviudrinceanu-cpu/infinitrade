@@ -206,7 +206,7 @@ export default function Header() {
                     <AnimatePresence>
                       {activeDropdown === item.name && isResourcesDropdown && (
                         <motion.div
-                          className={styles.dropdown}
+                          className={styles.resourcesDropdown}
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: 10 }}
@@ -214,19 +214,17 @@ export default function Header() {
                           onMouseEnter={() => setActiveDropdown(item.name)}
                           onMouseLeave={() => setActiveDropdown(null)}
                         >
-                          <div className={styles.dropdownContent}>
-                            <div className={styles.resourcesGrid}>
-                              {item.children.map(child => (
-                                <Link
-                                  key={child.href}
-                                  href={child.href}
-                                  className={styles.resourceLink}
-                                >
-                                  <span className={styles.resourceName}>{child.name}</span>
-                                  <span className={styles.resourceDesc}>{child.description}</span>
-                                </Link>
-                              ))}
-                            </div>
+                          <div className={styles.resourcesGrid}>
+                            {item.children.map(child => (
+                              <Link
+                                key={child.href}
+                                href={child.href}
+                                className={styles.resourceLink}
+                              >
+                                <span className={styles.resourceName}>{child.name}</span>
+                                <span className={styles.resourceDesc}>{child.description}</span>
+                              </Link>
+                            ))}
                           </div>
                         </motion.div>
                       )}
