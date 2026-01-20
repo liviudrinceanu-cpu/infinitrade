@@ -72,27 +72,27 @@ export default function DesprePage() {
               >
                 <h2>Cine Suntem</h2>
                 <p>
-                  <strong>Infinitrade Romania</strong>, parte a grupului <strong>Driatheli Group SRL</strong>, 
-                  este unul dintre cei mai importanți distribuitori de echipamente industriale din România, 
-                  activ pe piață din 2009.
+                  <strong>Infinitrade Romania</strong> e brandul sub care operăm din 2009, parte a
+                  <strong> Driatheli Group SRL</strong>. Am început cu câțiva clienți și câteva branduri,
+                  și am crescut pe baza unui principiu simplu: livrăm ce promitem, când promitem.
                 </p>
                 <p>
-                  Înțelegem provocările departamentelor de achiziții și mentenanță: nevoia de echipamente 
-                  fiabile, livrări rapide pentru a evita oprirea producției și suport tehnic competent. 
-                  De aceea, am construit o rețea de peste 300 de furnizori internaționali și menținem 
-                  stocuri strategice pentru componentele critice.
+                  Știm cum e să ai o pompă stricată vineri după-amiază și producția oprită. De asta am
+                  construit stocuri pentru componentele critice și relații cu peste 300 de furnizori
+                  din toată Europa. Când ai nevoie urgent de ceva, de obicei găsim o soluție.
                 </p>
                 <p>
-                  Portofoliul nostru include peste <strong>500 de branduri internaționale</strong> de renume, 
-                  acoperind toate nevoile industriale: pompe, robineți, motoare electrice, schimbătoare 
-                  de căldură și suflante.
+                  Lucrăm cu peste <strong>500 de branduri internaționale</strong>: de la Grundfos și Wilo
+                  la pompe, Siemens și ABB la motoare, până la Alfa Laval pentru schimbătoare de căldură.
+                  Nu vindem orice - vindem ce știm că funcționează.
                 </p>
 
-                <h3>Misiunea Noastră</h3>
+                <h3>Ce Ne Diferențiază</h3>
                 <p>
-                  Să fim partenerul de încredere al industriei românești, oferind echipamente de calitate 
-                  superioară, suport tehnic specializat și servicii care minimizează timpul de nefuncționare 
-                  al instalațiilor clienților noștri.
+                  Nu suntem cel mai mare distribuitor din România și nu pretindem să fim. Dar clienții
+                  care lucrează cu noi rămân pentru că răspundem la telefon, știm ce vindem și nu
+                  dispărem după ce livrăm. Suportul tehnic nu e un cost pentru noi, e modul în care
+                  ne facem treaba.
                 </p>
               </motion.div>
 

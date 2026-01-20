@@ -6,44 +6,44 @@ import styles from './faq.module.css';
 
 const faqData = [
   {
-    category: 'Produse si Comenzi',
+    category: 'Produse și Comenzi',
     questions: [
       {
-        q: 'Cum aleg pompa potrivita pentru aplicatia mea?',
-        a: 'Selectia unei pompe industriale depinde de mai multi factori: debitul necesar (m³/h), presiunea de refulare (bar), tipul fluidului pompat, temperatura de lucru si mediul de instalare. Echipa noastra tehnica va ofera consultanta gratuita pentru dimensionarea corecta. Trimiteti-ne datele aplicatiei prin formularul de contact si va vom recomanda solutia optima.'
+        q: 'Cum aleg pompa potrivită pentru aplicația mea?',
+        a: 'Cel mai simplu: trimite-ne datele aplicației (debit, presiune, ce fluid, temperatură) și ne ocupăm noi de dimensionare. E gratis și durează de obicei 24h. Dacă vrei să înțelegi mai bine procesul, avem un articol pe blog despre selectarea pompelor - acolo explicăm criteriile pas cu pas.'
       },
       {
-        q: 'Care sunt diferentele intre robineti cu bila si robineti fluture?',
-        a: 'Robinetii cu bila ofera etansare perfecta (zero leakage) si sunt ideali pentru aplicatii on/off cu fluide curate sau usor vâscoase. Robinetii fluture sunt mai economici, ocupa mai putin spatiu si sunt potriviti pentru debite mari cu cadere de presiune redusa. Alegerea depinde de: presiunea de lucru, tipul fluidului, frecventa operarii si cerintele de etansare.'
+        q: 'Care sunt diferențele între robineți cu bilă și robineți fluture?',
+        a: 'Pe scurt: bila pentru când contează etanșarea (gaze, fluide scumpe), fluture pentru când contează prețul și spațiul (apă, HVAC). Bila e mai scumpă dar nu lasă nimic să treacă. Fluture e mai ieftin, mai compact, dar nu are aceeași etanșare. Pentru gaze, întotdeauna bilă. Pentru apă industrială, fluture merge perfect.'
       },
       {
-        q: 'Ce tipuri de motoare electrice industriale aveti?',
-        a: 'Oferim o gama completa: motoare asincrone trifazate (IE2, IE3, IE4), motoare ATEX pentru zone cu risc de explozie, servomotoare pentru aplicatii de precizie, motoreductoare integrate si convertizoare de frecventa. Branduri: Siemens, SEW Eurodrive, ABB, Bonfiglioli, WEG.'
+        q: 'Ce tipuri de motoare electrice industriale aveți?',
+        a: 'Cam tot ce ai nevoie: de la motoare asincrone standard (IE3, IE4) până la ATEX pentru zone cu risc de explozie. Lucrăm cu Siemens, ABB și SEW - trei branduri care acoperă 95% din aplicații. Dacă ai nevoie de ceva specific, spune-ne și vedem ce soluție găsim.'
       },
       {
-        q: 'Aveti piese de schimb originale pentru echipamentele vandute?',
-        a: 'Da, suntem distribuitori autorizati si oferim piese de schimb originale pentru toate brandurile din portofoliu: garnituri mecanice, rotoare, statoare, rulmenți, kituri de service complete. Piese originale = performanta garantata si durata de viata prelungita a echipamentelor.'
+        q: 'Aveți piese de schimb originale?',
+        a: 'Da, pentru tot ce vindem. Garnituri mecanice, rotoare, rulmenți, kituri complete - le avem pe cele curente în stoc sau le comandăm rapid. Sfatul nostru: piesele originale par mai scumpe, dar durează de 2-3 ori mai mult. Pe termen lung, ies mai ieftine.'
       },
     ]
   },
   {
-    category: 'Livrare si Plata',
+    category: 'Livrare și Plată',
     questions: [
       {
-        q: 'Cat dureaza livrarea produselor?',
-        a: 'Produsele din stoc se livreaza in 24-72 ore lucratoare in toata Romania. Pentru echipamentele speciale sau configurate la comanda, termenul poate fi de 2-6 saptamâni, in functie de producator. La cerere, oferim si livrare expres pentru urgente de productie.'
+        q: 'Cât durează livrarea?',
+        a: 'Ce avem în stoc: 24-72h în toată România. Ce trebuie comandat de la producător: 2-6 săptămâni, depinde de ce e. Pentru urgențe de producție, sună-ne direct - găsim soluție, fie din stocul altui distribuitor, fie cu livrare expres.'
       },
       {
-        q: 'Oferiti livrare pe santiere si platforme industriale?',
-        a: 'Da, livram direct la punctul de lucru specificat: santiere, fabrici, centrale, statii de pompare. Asiguram transport specializat pentru echipamente grele si voluminoase. Coordonatorii nostri logistici va pot ajuta cu programarea descarcarii.'
+        q: 'Livrați pe șantier sau direct în fabrică?',
+        a: 'Da, oriunde e nevoie. Am livrat în rafinării, pe platforme offshore, în centrale electrice - nu e problemă locația. Pentru echipamente grele avem transport specializat. Coordonăm descărcarea cu echipa ta.'
       },
       {
-        q: 'Ce modalitati de plata acceptati?',
-        a: 'Acceptam: transfer bancar (plata la termen pentru clienti cu istoric), plata la livrare (ramburs), card bancar, leasing operational sau financiar pentru investitii mari. Pentru proiecte mari oferim esalonare sau plata in transe.'
+        q: 'Ce modalități de plată acceptați?',
+        a: 'Transfer bancar (cu termen pentru clienții cu istoric), ramburs la livrare, card. Pentru investiții mai mari putem discuta leasing sau plată în tranșe - depinde de situație.'
       },
       {
-        q: 'Emiteti factura fiscala?',
-        a: 'Da, suntem platitori de TVA si emitem factura fiscala pentru toate comenzile. Pentru achizitii din fonduri europene sau PNRR, oferim documentatia completa necesara.'
+        q: 'Emiți factură fiscală?',
+        a: 'Bineînțeles, suntem plătitori de TVA. Pentru achiziții din fonduri europene sau PNRR, pregătim toată documentația necesară - certificate, declarații, fișe tehnice, ce mai cere dosarul.'
       },
     ]
   },
@@ -51,20 +51,20 @@ const faqData = [
     category: 'Suport Tehnic',
     questions: [
       {
-        q: 'Oferiti consultanta tehnica pentru proiecte?',
-        a: 'Da, consultanta tehnica este gratuita. Echipa noastra de ingineri va poate ajuta cu: dimensionarea echipamentelor, selectia materialelor potrivite, calculul eficientei energetice, integrarea in sisteme existente si specificatii pentru caietele de sarcini.'
+        q: 'Oferiți consultanță tehnică?',
+        a: 'Da, și e gratuită. Dimensionare echipamente, selectare materiale, calcul eficiență - facem asta zilnic. Trimite-ne datele și răspundem în 24h cu recomandare. Nu ai obligația să cumperi de la noi doar pentru că te-am ajutat cu consultanță.'
       },
       {
-        q: 'Faceti punere in functiune si service?',
-        a: 'Oferim servicii complete de punere in functiune prin echipa proprie sau parteneri autorizati. De asemenea, asiguram service, mentenanta preventiva si reparatii pentru echipamentele din portofoliu. Intervenim rapid pentru urgente de productie.'
+        q: 'Faceți punere în funcțiune și service?',
+        a: 'Punere în funcțiune: da, fie cu echipa noastră, fie cu parteneri autorizați, depinde de echipament și zonă. Service și mentenanță: da, pentru ce avem în portofoliu. Pentru urgențe, sună-ne - încercăm să intervenim cât mai repede.'
       },
       {
-        q: 'Unde gasesc documentatia tehnica pentru produse?',
-        a: 'Documentatia tehnica (fise tehnice, manuale, certificate, desene CAD) este disponibila la cerere. Trimiteti-ne un email cu codul produsului si va trimitem toate materialele necesare in format PDF sau DWG.'
+        q: 'Unde găsesc documentația tehnică?',
+        a: 'Scrie-ne pe email cu codul produsului și îți trimitem ce ai nevoie: fișă tehnică, manual, certificat, desen CAD. Majoritatea documentelor le avem, pentru rest comandăm de la producător. Durează de obicei 1-2 zile.'
       },
       {
-        q: 'Oferiti garantie pentru produse?',
-        a: 'Toate produsele beneficiaza de garantia producatorului, de obicei 12-24 luni. Garantia acopera defectele de fabricatie si materiale. Pentru garantie extinsa sau contracte de mentenanta, contactati-ne pentru o oferta personalizata.'
+        q: 'Ce garanție au produsele?',
+        a: 'Garanția producătorului, de obicei 12-24 luni. Acoperă defecte de fabricație, nu uzura normală sau folosirea greșită. Păstrează documentele și respectă condițiile de operare - altfel pot apărea probleme cu reclamațiile.'
       },
     ]
   },
@@ -72,20 +72,20 @@ const faqData = [
     category: 'Despre Infinitrade',
     questions: [
       {
-        q: 'Ce branduri distribuiti?',
-        a: 'Suntem distribuitori autorizati pentru peste 45 de branduri internationale: Grundfos, Wilo, KSB (pompe), ARI Armaturen, Spirax Sarco (robineti), Siemens, SEW, ABB (motoare), Alfa Laval, Kelvion (schimbatoare caldura), Becker, FPZ (suflante). Lista completa pe site.'
+        q: 'Ce branduri distribuiți?',
+        a: 'Peste 45 de branduri, dintre care cele mai cerute: Grundfos și Wilo la pompe, Siemens și ABB la motoare, ARI Armaturen și Spirax Sarco la robineți, Alfa Laval la schimbătoare, Becker la suflante. Lista completă e pe site, la fiecare categorie.'
       },
       {
-        q: 'In ce industrii activati?',
-        a: 'Furnizam echipamente pentru: petrochimie si rafinarii, centrale electrice si termoficare, industria alimentara si farmaceutica, tratarea apei si statii de epurare, constructii si HVAC industrial, minerit si extractie, automotive si logistica.'
+        q: 'În ce industrii lucrați?',
+        a: 'Cam în toate care au nevoie de echipamente industriale: petrochimie, energie, alimentar, farmaceutic, tratare apă, construcții/HVAC, minerit. Avem experiență specifică în fiecare domeniu și știm ce funcționează.'
       },
       {
-        q: 'Participati la licitatii SEAP/SICAP?',
-        a: 'Da, suntem inscrisi in SEAP si participam regulat la licitatii publice. Avem experienta in furnizarea de echipamente pentru institutii publice, companii de stat si proiecte finantate european. Oferim toate documentele necesare pentru dosarul de achizitie.'
+        q: 'Participați la licitații SEAP?',
+        a: 'Da, suntem înscriși și participăm regulat. Am livrat pentru instituții publice, companii de stat, proiecte europene. Știm ce documente trebuie și cum să le pregătim ca să nu pierzi timp.'
       },
       {
-        q: 'Cum va pot contacta?',
-        a: 'Ne gasiti la sediul din Ghiroda, Timis. Email: secretariat@infinitrade-romania.ro. Programul de lucru: Luni-Vineri 08:00-17:00. Formularul de contact de pe site este monitorizat si raspundem in maxim 24h.'
+        q: 'Cum vă pot contacta?',
+        a: 'Email: secretariat@infinitrade-romania.ro. Telefon: vezi pagina de contact. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem în maxim 24h în zilele lucrătoare.'
       },
     ]
   },

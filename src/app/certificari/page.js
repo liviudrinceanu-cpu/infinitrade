@@ -8,53 +8,53 @@ const certifications = [
   {
     icon: Shield,
     title: 'Distribuitor Autorizat',
-    description: 'Suntem distribuitori oficiali pentru peste 45 de branduri internationale de echipamente industriale.',
+    description: 'Lucrăm direct cu producătorii, nu prin intermediari. Asta înseamnă prețuri corecte, piese originale garantat și acces la suport tehnic de la sursă.',
     brands: ['Grundfos', 'Wilo', 'KSB', 'Siemens', 'ABB', 'ARI Armaturen', 'Spirax Sarco', 'Alfa Laval'],
   },
   {
     icon: Award,
     title: 'ISO 9001:2015',
-    description: 'Sistem de management al calitatii certificat, asigurand procese controlate si imbunatatire continua.',
-    details: 'Certificare valida pentru comercializarea si distributia echipamentelor industriale.',
+    description: 'Certificare pentru managementul calității. Nu e doar o hârtie pe perete - înseamnă că avem procese clare de la comandă la livrare și service.',
+    details: 'Certificare validă pentru comercializarea și distribuția echipamentelor industriale.',
   },
   {
     icon: FileCheck,
     title: 'SEAP / SICAP',
-    description: 'Inregistrati in Sistemul Electronic de Achizitii Publice pentru participarea la licitatii.',
-    details: 'Experienta in furnizarea pentru institutii publice si proiecte cu fonduri europene.',
+    description: 'Suntem înscriși în sistemul de achiziții publice. Știm ce documente trebuie pentru licitații și cum să le pregătim corect.',
+    details: 'Experiență în furnizarea pentru instituții publice și proiecte cu fonduri europene.',
   },
   {
     icon: Building2,
-    title: 'Camera de Comert',
-    description: 'Driatheli Group SRL - operator al brandului Infinitrade Romania, inregistrat la ONRC.',
-    details: 'CUI: RO12345678 | Nr. Reg. Com.: J35/1234/2010',
+    title: 'Camera de Comerț',
+    description: 'Driatheli Group SRL operează brandul Infinitrade Romania din 2009. Suntem o companie românească cu sediul în Timiș.',
+    details: 'Înregistrați la ONRC, plătitori de TVA, toate actele în regulă.',
   },
 ];
 
 const qualityPoints = [
   {
     title: 'Produse Originale',
-    description: 'Toate echipamentele comercializate sunt originale, insotite de certificate de conformitate si garantie producator.',
+    description: 'Nu vindem imitații sau "echivalente". Tot ce livrăm e original, cu certificat și garanție de la producător.',
   },
   {
-    title: 'Trasabilitate Completa',
-    description: 'Fiecare produs poate fi trasat pana la fabrica de origine. Oferim documentatie completa pentru orice audit.',
+    title: 'Trasabilitate Completă',
+    description: 'Putem demonstra originea fiecărui produs. La audituri sau controale, avem toată documentația la zi.',
   },
   {
-    title: 'Depozitare Corespunzatoare',
-    description: 'Produsele sunt depozitate in conditii controlate, conform cerintelor producatorilor.',
+    title: 'Depozitare Corectă',
+    description: 'Garniturile stau unde trebuie, lubrifianții la temperatura corectă. Știm că depozitarea greșită strică produsele.',
   },
   {
-    title: 'Personal Instruit',
-    description: 'Echipa noastra participa regulat la training-uri organizate de producatori.',
+    title: 'Echipă Instruită',
+    description: 'Mergem la training-uri, citim cataloagele, știm ce vindem. Nu suntem doar intermediari care mută cutii.',
   },
   {
-    title: 'Suport Post-Vanzare',
-    description: 'Oferim service autorizat si piese de schimb originale pe toata durata de viata a echipamentelor.',
+    title: 'Suport După Vânzare',
+    description: 'Nu dispărem după ce livrăm. Dacă ai o problemă peste 2 ani, ne găsești la același număr de telefon.',
   },
   {
     title: 'Conformitate CE',
-    description: 'Toate produsele respecta directivele europene si sunt marcate CE corespunzator.',
+    description: 'Toate produsele au marcaj CE și respectă directivele europene. Nu e cazul să îți faci griji la controale.',
   },
 ];
 
