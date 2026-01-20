@@ -76,7 +76,7 @@
 }
 
 .logoImage {
-  height: 85px;
+  height: 102px;
   width: auto;
   object-fit: contain;
 }
@@ -233,13 +233,14 @@
   color: var(--gray-500);
 }
 
-/* Secondary Navigation Row - Centered */
+/* Secondary Navigation Row - Centered with page content */
 .secondaryNav {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   padding: 8px 0;
+  padding-left: 60px; /* Offset to align visually with search row below */
   border-top: 1px solid var(--gray-100);
 }
 
