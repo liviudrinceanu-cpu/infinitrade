@@ -1,0 +1,768 @@
+/* Ghid SEAP Page Styles */
+
+.main {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  padding: 120px 0 80px;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.heroContent {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroIcon {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+.heroContent h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.heroDescription {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 40px;
+}
+
+.heroStats {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stat {
+  text-align: center;
+}
+
+.statValue {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Intro Section */
+.introSection {
+  padding: 80px 0;
+  background: white;
+}
+
+.introGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.introContent h2 {
+  font-size: 2rem;
+  color: #063c69;
+  margin-bottom: 24px;
+}
+
+.introContent p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4a5568;
+  margin-bottom: 16px;
+}
+
+.introContent p strong {
+  color: #063c69;
+}
+
+.highlightBox {
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  border-radius: 16px;
+  padding: 32px;
+  color: white;
+}
+
+.highlightBox svg {
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.highlightBox h3 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.highlightBox ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.highlightBox li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.highlightBox li:last-child {
+  border-bottom: none;
+}
+
+.highlightNote {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+
+/* Section Header */
+.sectionHeader {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 48px;
+}
+
+.sectionHeader h2 {
+  font-size: 2rem;
+  color: #063c69;
+  margin-bottom: 16px;
+}
+
+.sectionHeader p {
+  font-size: 1.1rem;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+/* Advantages Section */
+.advantagesSection {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.advantagesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.advantageCard {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.advantageCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.advantageIcon {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.advantageCard h3 {
+  font-size: 1.1rem;
+  color: #063c69;
+  margin-bottom: 12px;
+}
+
+.advantageCard p {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Products Section */
+.productsSection {
+  padding: 80px 0;
+  background: white;
+}
+
+.categoryBlock {
+  background: #f8fafc;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 32px;
+  border: 1px solid #e2e8f0;
+}
+
+.categoryHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 32px;
+  background: white;
+  border-left: 4px solid;
+}
+
+.categoryIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+.categoryInfo {
+  flex: 1;
+}
+
+.categoryInfo h3 {
+  font-size: 1.3rem;
+  color: #063c69;
+  margin: 0 0 4px;
+}
+
+.categoryInfo p {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.categoryLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #063c69;
+  color: white;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.categoryLink:hover {
+  background: #0990db;
+}
+
+.categoryContent {
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 40px;
+}
+
+.cpvList h4 {
+  font-size: 1rem;
+  color: #063c69;
+  margin-bottom: 16px;
+}
+
+.cpvGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.cpvItem {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.cpvCode {
+  display: block;
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 0.8rem;
+  color: #0990db;
+  margin-bottom: 4px;
+}
+
+.cpvName {
+  font-size: 0.8rem;
+  color: #4a5568;
+  line-height: 1.4;
+}
+
+.cpvMore {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: #64748b;
+  font-style: italic;
+}
+
+.categoryDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.detailBlock h5 {
+  font-size: 0.9rem;
+  color: #063c69;
+  margin-bottom: 12px;
+}
+
+.detailBlock ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detailBlock li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #4a5568;
+  padding: 6px 0;
+}
+
+.detailBlock li svg {
+  color: #37c67f;
+  flex-shrink: 0;
+}
+
+/* Procedures Section */
+.proceduresSection {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.proceduresGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.procedureCard {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.procedureCard h3 {
+  font-size: 1.2rem;
+  color: #063c69;
+  margin-bottom: 8px;
+}
+
+.procedureThreshold {
+  font-size: 0.85rem;
+  color: #0990db;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.procedureCard p {
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.procedureTimeline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #37c67f;
+  margin-bottom: 16px;
+}
+
+.procedureTip {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #64748b;
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.procedureTip svg {
+  color: #0990db;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Documents Section */
+.documentsSection {
+  padding: 80px 0;
+  background: white;
+}
+
+.documentsGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.documentsContent h2 {
+  font-size: 2rem;
+  color: #063c69;
+  margin-bottom: 16px;
+}
+
+.documentsContent > p {
+  font-size: 1.05rem;
+  color: #4a5568;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.documentsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.documentItem {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.documentItem svg {
+  color: #0990db;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.documentItem strong {
+  display: block;
+  font-size: 0.95rem;
+  color: #063c69;
+  margin-bottom: 4px;
+}
+
+.documentItem span {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.documentsBox {
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  border-radius: 16px;
+  padding: 32px;
+  color: white;
+}
+
+.documentsBox h3 {
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+}
+
+.documentsBox p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+}
+
+.documentsBox ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.documentsBox li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  padding: 8px 0;
+}
+
+.documentsBox li svg {
+  color: #37c67f;
+}
+
+/* FAQ Section */
+.faqSection {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.faqGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.faqItem {
+  background: white;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.faqItem h3 {
+  font-size: 1.05rem;
+  color: #063c69;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.faqItem p {
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 80px 0;
+  background: white;
+}
+
+.ctaBox {
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  border-radius: 20px;
+  padding: 60px;
+  text-align: center;
+  color: white;
+}
+
+.ctaBox h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.ctaBox > p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+  margin: 0 auto 32px;
+  line-height: 1.7;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.ctaPrimary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: white;
+  color: #063c69;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ctaPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ctaSecondary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.ctaSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+}
+
+.ctaContact {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.ctaContact strong {
+  color: white;
+}
+
+/* Related Section */
+.relatedSection {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.relatedSection h2 {
+  font-size: 1.5rem;
+  color: #063c69;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.relatedCard {
+  background: white;
+  border-radius: 12px;
+  padding: 28px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.relatedCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.relatedCard h3 {
+  font-size: 1.1rem;
+  color: #063c69;
+  margin-bottom: 8px;
+}
+
+.relatedCard p {
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.5;
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.relatedCard svg {
+  color: #0990db;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+
+  .introGrid,
+  .documentsGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .advantagesGrid,
+  .proceduresGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .categoryContent {
+    grid-template-columns: 1fr;
+  }
+
+  .cpvGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 0 60px;
+  }
+
+  .heroContent h1 {
+    font-size: 1.75rem;
+  }
+
+  .heroStats {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .advantagesGrid,
+  .proceduresGrid,
+  .faqGrid,
+  .relatedGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .categoryHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .categoryLink {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cpvGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .documentsList {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaBox {
+    padding: 40px 24px;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+  }
+
+  .ctaPrimary,
+  .ctaSecondary {
+    width: 100%;
+    justify-content: center;
+  }
+}

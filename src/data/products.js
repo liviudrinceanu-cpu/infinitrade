@@ -240,6 +240,7 @@ export const navigation = [
     href: '/blog',
     isDropdown: true,
     children: [
+      { name: 'Ghid Achiziții SEAP', href: '/ghid-achizitii-seap', description: 'Coduri CPV și proceduri licitații' },
       { name: 'Blog Tehnic', href: '/blog', description: 'Ghiduri și articole tehnice' },
       { name: 'Studii de Caz', href: '/studii-de-caz', description: 'Proiecte și rezultate reale' },
       { name: 'Testimoniale', href: '/testimoniale', description: 'Ce spun clienții noștri' },

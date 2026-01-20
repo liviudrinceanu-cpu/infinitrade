@@ -64,6 +64,11 @@ export default function Footer() {
             <h4 className={styles.columnTitle}>Resurse</h4>
             <ul className={styles.columnList}>
               <li>
+                <Link href="/ghid-achizitii-seap" className={styles.columnLink}>
+                  Ghid Achiziții SEAP
+                </Link>
+              </li>
+              <li>
                 <Link href="/blog" className={styles.columnLink}>
                   Blog Tehnic
                 </Link>
