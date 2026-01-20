@@ -58,6 +58,18 @@ export default function sitemap() {
       priority: 0.6,
     },
     {
+      url: `${BASE_URL}/testimoniale`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/ghid-comparativ`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/gdpr`,
       lastModified: currentDate,
       changeFrequency: 'yearly',
