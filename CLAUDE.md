@@ -1,6 +1,61 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 20 Ianuarie 2026 (V33)
+## ULTIMA ACTUALIZARE: 20 Ianuarie 2026 (V41)
+
+---
+
+## MODIFICARI V41 - Category Pages SEAP Metadata Fix (20 Ianuarie 2026)
+
+### PROBLEMA IDENTIFICATA
+Paginile de categorii (pompe, robineți, motoare, etc.) nu afișau metadata SEAP pe site-ul live, deși codul din `[category]/page.js` era corect.
+
+### CAUZA ROOT
+Existau 5 foldere statice vechi (`/pompe-industriale/page.js`, `/robineti-industriali/page.js`, etc.) create înainte de ruta dinamică `[category]`. Aceste pagini statice aveau `export const metadata` cu titluri VECHI (fără SEAP) și **suprascrieau** ruta dinamică nouă cu `generateMetadata`.
+
+### SOLUTIE IMPLEMENTATA
+Ștergerea tuturor folderelor statice de categorii pentru a permite rutei dinamice `[category]/page.js` să gestioneze toate paginile cu metadata SEAP corectă.
+
+### FISIERE STERSE
+
+| Fișier | Motiv |
+|--------|-------|
+| `src/app/pompe-industriale/page.js` | Suprascriere metadata veche |
+| `src/app/robineti-industriali/page.js` | Suprascriere metadata veche |
+| `src/app/motoare-electrice/page.js` | Suprascriere metadata veche |
+| `src/app/schimbatoare-caldura/page.js` | Suprascriere metadata veche |
+| `src/app/suflante-ventilatoare/page.js` | Suprascriere metadata veche |
+
+### REZULTAT - Titluri noi cu SEAP
+
+| Categorie | Titlu nou |
+|-----------|-----------|
+| Pompe | `Pompe Industriale Romania \| Furnizor SEAP \| Distribuitor Grundfos, Wilo` |
+| Robineți | `Robineți Industriali Romania \| Furnizor SEAP \| Distribuitor ARI Armaturen, Spirax Sarco` |
+| Motoare | `Motoare Electrice Industriale Romania \| Furnizor SEAP \| Distribuitor Siemens, SEW Eurodrive` |
+| Schimbătoare | `Schimbătoare de Căldură Industriale Romania \| Furnizor SEAP \| Distribuitor Alfa Laval, Kelvion` |
+| Suflante | `Suflante și Ventilatoare Industriale Romania \| Furnizor SEAP \| Distribuitor Becker, FPZ` |
+
+### LECTIE INVATATA
+În Next.js, rutele statice (`/pompe-industriale/page.js`) au **prioritate** față de rutele dinamice (`/[category]/page.js`). Când se creează o rută dinamică nouă, trebuie șterse rutele statice existente pentru aceeași cale.
+
+### BUILD STATUS
+✅ Build SUCCESS - 97 pagini generate (5 pagini statice duplicate eliminate)
+
+---
+
+## MODIFICARI V38-V40 - SEAP/SICAP SEO Strengthening (20 Ianuarie 2026)
+
+### V38: Comprehensive keyword expansion
+- Adăugare keywords SEAP/SICAP pe toate paginile
+
+### V39: SEAP/SICAP SEO strengthening
+- Titluri actualizate cu "Furnizor SEAP" pe FAQ, Certificări, Brand pages
+- Meta descriptions cu SEAP/SICAP pe toate paginile
+- Keywords extinse pentru achiziții publice și licitații
+
+### V40: Next.js 14 params fix
+- Fix `await params` în generateMetadata pentru paginile de categorii
+- Corectare pattern Next.js 14 pentru parametri async
 
 ---
 
