@@ -1,0 +1,170 @@
+.main {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  padding: 120px 0 80px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content {
+  text-align: center;
+}
+
+.errorCode {
+  display: block;
+  font-size: 120px;
+  font-weight: 800;
+  line-height: 1;
+  background: linear-gradient(135deg, #0990db 0%, #063c69 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 16px;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  max-width: 500px;
+  margin: 0 auto 48px;
+  line-height: 1.6;
+}
+
+.suggestions {
+  margin-bottom: 48px;
+}
+
+.suggestions h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 24px;
+}
+
+.linksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.linkCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.linkCard:hover {
+  border-color: #0990db;
+  box-shadow: 0 4px 20px rgba(9, 144, 219, 0.1);
+  transform: translateY(-2px);
+}
+
+.linkCard svg:first-child {
+  flex-shrink: 0;
+  color: #0990db;
+}
+
+.linkCard > div {
+  flex: 1;
+  text-align: left;
+}
+
+.linkCard h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 4px;
+}
+
+.linkCard p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.linkCard svg:last-child {
+  flex-shrink: 0;
+  color: #999;
+  transition: transform 0.2s ease;
+}
+
+.linkCard:hover svg:last-child {
+  transform: translateX(4px);
+  color: #0990db;
+}
+
+.categories {
+  padding-top: 32px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.categories h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 16px;
+}
+
+.categoryLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.categoryLinks a {
+  padding: 8px 16px;
+  background: #f1f5f9;
+  color: #0990db;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.categoryLinks a:hover {
+  background: #0990db;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 100px 0 60px;
+  }
+
+  .errorCode {
+    font-size: 80px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .linksGrid {
+    grid-template-columns: 1fr;
+  }
+}

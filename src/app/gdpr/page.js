@@ -83,7 +83,7 @@ export default function GDPRPage() {
               <p>
                 Aveți dreptul de a depune plângere la Autoritatea Națională de Supraveghere 
                 a Prelucrării Datelor cu Caracter Personal (ANSPDCP):<br />
-                <a href="https://www.dataprotection.ro" target="_blank" rel="noopener">
+                <a href="https://www.dataprotection.ro" target="_blank" rel="noopener noreferrer">
                   www.dataprotection.ro
                 </a>
               </p>

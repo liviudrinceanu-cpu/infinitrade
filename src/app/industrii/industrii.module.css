@@ -1,0 +1,214 @@
+.main {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  padding: 120px 0 60px;
+  text-align: center;
+  color: white;
+}
+
+.heroIcon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.industriesSection {
+  padding: 60px 0;
+}
+
+.industriesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 24px;
+}
+
+.industryCard {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.industryCard:hover {
+  border-color: var(--accent-color, #0990db);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.iconWrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+.cardHeader h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0;
+}
+
+.cardDescription {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0 0 16px;
+  flex: 1;
+}
+
+.cardApplications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.appTag {
+  padding: 4px 12px;
+  background: #f1f5f9;
+  color: #555;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.cardStats {
+  display: flex;
+  gap: 16px;
+  padding: 12px 0;
+  border-top: 1px solid #f1f5f9;
+  margin-bottom: 12px;
+}
+
+.cardStats span {
+  font-size: 13px;
+  color: #888;
+  font-weight: 500;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--accent-color, #0990db);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cardFooter svg {
+  transition: transform 0.2s ease;
+}
+
+.industryCard:hover .cardFooter svg {
+  transform: translateX(4px);
+}
+
+.ctaSection {
+  padding: 0 0 80px;
+}
+
+.ctaBox {
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  border-radius: 16px;
+  padding: 48px;
+  text-align: center;
+  color: white;
+}
+
+.ctaBox h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.ctaBox p {
+  font-size: 17px;
+  opacity: 0.9;
+  margin: 0 0 24px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButton {
+  display: inline-flex;
+  padding: 14px 32px;
+  background: white;
+  color: #063c69;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.ctaButton:hover {
+  background: #f1f5f9;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 0 48px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .industriesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaBox {
+    padding: 32px 24px;
+  }
+
+  .ctaBox h2 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,399 @@
+.main {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  padding: 120px 0 60px;
+  color: white;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.heroContent {
+  text-align: center;
+}
+
+.heroIcon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 24px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 0 16px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero p {
+  font-size: 17px;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
+
+.heroStats {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.stat span {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.stat small {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+/* Applications */
+.applicationsSection {
+  padding: 60px 0;
+}
+
+.applicationsSection h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.applicationsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.applicationCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.applicationCard span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1a1a2e;
+}
+
+/* Equipment */
+.equipmentSection {
+  padding: 60px 0;
+  background: white;
+}
+
+.equipmentSection h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+.sectionDescription {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 32px;
+}
+
+.equipmentGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.equipmentCard {
+  padding: 24px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.equipmentCard h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 8px;
+}
+
+.equipmentCard p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Brands */
+.brandsSection {
+  padding: 60px 0;
+}
+
+.brandsSection h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.brandsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.brandBadge {
+  padding: 10px 24px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+/* Clients */
+.clientsSection {
+  padding: 60px 0;
+  background: white;
+}
+
+.clientsSection h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+.clientsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.clientBadge {
+  padding: 12px 24px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* CTA */
+.ctaSection {
+  padding: 60px 0;
+}
+
+.ctaBox {
+  border-radius: 16px;
+  padding: 48px;
+  text-align: center;
+  color: white;
+}
+
+.ctaBox h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.ctaBox p {
+  font-size: 17px;
+  opacity: 0.9;
+  margin: 0 0 24px;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ctaButtonPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  background: white;
+  color: #063c69;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.ctaButtonPrimary:hover {
+  background: #f1f5f9;
+}
+
+.ctaButtonSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.ctaButtonSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Other Industries */
+.otherSection {
+  padding: 0 0 80px;
+}
+
+.otherSection h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 24px;
+}
+
+.otherGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.otherCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.otherCard:hover {
+  border-color: #0990db;
+  transform: translateX(4px);
+}
+
+.otherIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+.otherCard span {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.otherCard svg:last-child {
+  color: #999;
+  transition: transform 0.2s ease;
+}
+
+.otherCard:hover svg:last-child {
+  transform: translateX(4px);
+  color: #0990db;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 0 48px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .heroStats {
+    gap: 24px;
+  }
+
+  .stat span {
+    font-size: 22px;
+  }
+
+  .applicationsSection h2,
+  .equipmentSection h2,
+  .brandsSection h2,
+  .clientsSection h2 {
+    font-size: 24px;
+  }
+
+  .ctaBox {
+    padding: 32px 24px;
+  }
+
+  .ctaBox h2 {
+    font-size: 22px;
+  }
+}

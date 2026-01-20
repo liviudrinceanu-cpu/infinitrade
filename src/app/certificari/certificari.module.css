@@ -1,0 +1,288 @@
+.main {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  padding: 120px 0 60px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.certificationsSection {
+  padding: 60px 0;
+}
+
+.certificationsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.certCard {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+.certCard:hover {
+  border-color: #0990db;
+  box-shadow: 0 4px 20px rgba(9, 144, 219, 0.1);
+}
+
+.certIcon {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0990db 0%, #063c69 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.certCard h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 12px;
+}
+
+.certCard p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.brandTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.brandTag {
+  padding: 4px 12px;
+  background: #f1f5f9;
+  color: #0990db;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.certDetails {
+  font-size: 13px !important;
+  color: #888 !important;
+  font-style: italic;
+}
+
+.qualitySection {
+  padding: 60px 0;
+  background: white;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.sectionHeader h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 12px;
+}
+
+.sectionHeader p {
+  font-size: 17px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.globeIcon {
+  color: #0990db;
+  margin-bottom: 16px;
+}
+
+.qualityGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.qualityCard {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.checkIcon {
+  flex-shrink: 0;
+  color: #37c67f;
+}
+
+.qualityCard h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 8px;
+}
+
+.qualityCard p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.partnersSection {
+  padding: 60px 0;
+}
+
+.partnersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.partnerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.partnerCard:hover {
+  border-color: #0990db;
+  transform: translateY(-2px);
+}
+
+.partnerName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.partnerCountry {
+  font-size: 13px;
+  color: #888;
+}
+
+.ctaSection {
+  padding: 0 0 80px;
+}
+
+.ctaBox {
+  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  border-radius: 16px;
+  padding: 48px;
+  text-align: center;
+  color: white;
+}
+
+.ctaBox h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.ctaBox p {
+  font-size: 17px;
+  opacity: 0.9;
+  margin: 0 0 24px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  background: white;
+  color: #063c69;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.ctaButton:hover {
+  background: #f1f5f9;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 0 48px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .certificationsSection,
+  .qualitySection,
+  .partnersSection {
+    padding: 40px 0;
+  }
+
+  .sectionHeader h2 {
+    font-size: 26px;
+  }
+
+  .qualityGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaBox {
+    padding: 32px 24px;
+  }
+
+  .ctaBox h2 {
+    font-size: 24px;
+  }
+}

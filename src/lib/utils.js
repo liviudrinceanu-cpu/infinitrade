@@ -1,3 +1,5 @@
+import DOMPurify from 'isomorphic-dompurify';
+
 // Debounce function
 export function debounce(func, wait) {
   let timeout;
@@ -11,14 +13,26 @@ export function debounce(func, wait) {
   };
 }
 
-// Sanitize HTML
+// Sanitize HTML using DOMPurify (secure against XSS)
 export function sanitizeHtml(html) {
   if (typeof html !== 'string') return '';
-  return html
-    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
-    .replace(/<iframe\b[^<]*(?:(?!<\/iframe>)<[^<]*)*<\/iframe>/gi, '')
-    .replace(/on\w+="[^"]*"/gi, '')
-    .replace(/javascript:/gi, '');
+
+  // Configure DOMPurify to allow safe HTML for emails
+  const config = {
+    ALLOWED_TAGS: ['b', 'i', 'em', 'strong', 'a', 'br', 'p', 'ul', 'ol', 'li', 'span'],
+    ALLOWED_ATTR: ['href', 'class'],
+    ALLOW_DATA_ATTR: false,
+    FORBID_TAGS: ['script', 'iframe', 'object', 'embed', 'form', 'input', 'style'],
+    FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover', 'onfocus', 'onblur'],
+  };
+
+  return DOMPurify.sanitize(html, config);
+}
+
+// Sanitize plain text (strip all HTML)
+export function sanitizeText(text) {
+  if (typeof text !== 'string') return '';
+  return DOMPurify.sanitize(text, { ALLOWED_TAGS: [] });
 }
 
 // Format phone number

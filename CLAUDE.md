@@ -1,236 +1,211 @@
-# Infinitrade.ro - Documentație Completă
+# Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 19 Ianuarie 2026
+## ULTIMA ACTUALIZARE: 20 Ianuarie 2026 (V22 - FINAL)
 
 ---
 
 ## REZUMAT PROIECT
 
-**Infinitrade.ro** este un site de prezentare pentru un distribuitor de echipamente industriale din România. Include:
+**Infinitrade.ro** este un site de prezentare pentru un distribuitor de echipamente industriale din Romania. Include:
 - Site public cu prezentare categorii, branduri, produse
-- Sistem de cereri de ofertă (Quote Cart)
+- Sistem de cereri de oferta (Quote Cart)
 - Admin Dashboard pentru gestionarea cererilor
 - Integrare Supabase PostgreSQL + NextAuth.js
+- Blog tehnic cu articole SEO
+- Pagini industrii verticale
+- FAQ, Certificari, 404 custom
 
 ---
 
-## CE FUNCȚIONEAZĂ 100%
+## MODIFICARI SESIUNE 20 IANUARIE 2026 (V21-V22)
 
-### 1. SITE PUBLIC (Frontend)
+### AUDIT COMPLET, FIXURI SECURITATE & CONTINUT NOU
 
-#### Homepage (`/`)
-- ✅ Hero section cu animații Framer Motion
-- ✅ Secțiune Categorii cu carduri interactive + **butoane "+" pentru adăugare în coș**
-- ✅ Secțiune Features
-- ✅ Header cu search funcțional + butoane "+" în rezultate
-- ✅ Footer cu linkuri și contact
+#### 1. FIXURI CRITICE SECURITATE ✅
 
-#### Pagini Categorii (`/[category]`)
-- ✅ Pompe Industriale (`/pompe-industriale`)
-- ✅ Robineți Industriali (`/robineti-industriali`)
-- ✅ Motoare Electrice (`/motoare-electrice`)
-- ✅ Schimbătoare de Căldură (`/schimbatoare-caldura`)
-- ✅ Suflante și Ventilatoare (`/suflante-ventilatoare`)
-- ✅ Fiecare categorie are:
-  - Hero cu buton "+" pentru adăugare categorie în coș
-  - Grid branduri cu butoane "+"
-  - Grid tipuri produse cu butoane "+"
-  - Secțiune servicii și accesorii
-  - Formular de contact integrat
+| Fix | Fisier | Status |
+|-----|--------|--------|
+| DOMPurify pentru sanitizare HTML (XSS) | `src/lib/utils.js` | ✅ COMPLET |
+| Rate limiting pe admin login (brute-force) | `src/lib/auth.ts` | ✅ COMPLET |
+| rel="noopener noreferrer" pe linkuri externe | `src/app/gdpr/page.js`, `src/app/contact/page.js` | ✅ COMPLET |
 
-#### Pagini Branduri (`/brand/[brandSlug]`)
-- ✅ Pagină dedicată pentru fiecare brand
-- ✅ Hero cu buton "+" pentru adăugare brand în coș
-- ✅ Lista produse cu butoane "+"
-- ✅ Informații detaliate brand
+#### 2. SEO TEHNIC ✅
 
-#### Pagina Contact (`/contact`)
-- ✅ Formular complet cu validare
-- ✅ **Afișare produse din coș cu linkuri** (Quote Cart items)
-- ✅ Trimitere către API `/api/contact`
-- ✅ Salvare în baza de date Supabase
+| Implementare | Fisier | Status |
+|--------------|--------|--------|
+| generateMetadata() pentru brand pages | `src/app/brand/[brandSlug]/page.js` | ✅ COMPLET |
+| JSON-LD BreadcrumbList + Product schema | `src/app/brand/[brandSlug]/page.js` | ✅ COMPLET |
+| Dynamic sitemap cu toate paginile | `src/app/sitemap.js` | ✅ COMPLET |
+| generateMetadata() pentru blog articles | `src/app/blog/[slug]/page.js` | ✅ COMPLET |
+| generateMetadata() pentru industry pages | `src/app/industrii/[slug]/page.js` | ✅ COMPLET |
+| Article JSON-LD schema pe blog | `src/app/blog/[slug]/page.js` | ✅ COMPLET |
+| FAQPage JSON-LD schema | `src/app/faq/page.js` | ✅ COMPLET |
 
-#### Alte Pagini
-- ✅ Despre Noi (`/despre-noi`)
-- ✅ GDPR (`/gdpr`)
-- ✅ Politica Confidențialitate (`/politica-confidentialitate`)
-- ✅ Politica Cookies (`/politica-cookies`)
-- ✅ Termeni și Condiții (`/termeni-si-conditii`)
+#### 3. PAGINI NOI CREATE ✅
 
-### 2. SISTEM QUOTE CART (Coș Cerere Ofertă)
+| Pagina | URL | Fisiere | Status |
+|--------|-----|---------|--------|
+| Dynamic Sitemap | `/sitemap.xml` | `src/app/sitemap.js` | ✅ |
+| Custom 404 | - | `src/app/not-found.js` | ✅ |
+| FAQ (16 intrebari) | `/faq` | `src/app/faq/page.js` | ✅ |
+| Certificari | `/certificari` | `src/app/certificari/page.js` | ✅ |
+| Blog listing | `/blog` | `src/app/blog/page.js` | ✅ |
+| Blog articol | `/blog/[slug]` | `src/app/blog/[slug]/page.js` | ✅ |
+| Industrii listing | `/industrii` | `src/app/industrii/page.js` | ✅ |
+| Industrie pagina | `/industrii/[slug]` | `src/app/industrii/[slug]/page.js` | ✅ |
 
-**Context:** `src/context/QuoteCartContext.js`
+#### 4. CONTINUT BLOG (5 ARTICOLE) ✅
 
-Funcționalități:
-- ✅ Adăugare produse/branduri/categorii în coș
-- ✅ Verificare dacă item există deja (evită duplicate)
-- ✅ Ștergere individuală sau golire completă
-- ✅ Persistență în localStorage
-- ✅ Animație la adăugare
-- ✅ Counter în header
-- ✅ Rezumat pentru formular contact
+| Articol | Slug | Categorie |
+|---------|------|-----------|
+| Ghid Complet: Cum sa Alegi Pompa Industriala | `ghid-selectare-pompa-industriala` | Ghiduri Tehnice |
+| Comparatie Motoare: Siemens vs ABB vs SEW | `comparatie-motoare-siemens-abb-sew` | Comparatii |
+| Reducere Consum Energetic 40% la Pompe | `reducere-consum-energetic-pompe` | Eficienta Energetica |
+| Robineti cu Bila vs Fluture | `robineti-bila-vs-fluture-ghid` | Ghiduri Tehnice |
+| Mentenanta Preventiva Pompe Industriale | `mentenanta-preventiva-pompe-industriale` | Mentenanta |
 
-**Unde apar butoanele "+":**
-| Locație | Fișier | Status |
-|---------|--------|--------|
-| Header search results | `src/components/Header.js` | ✅ |
-| Homepage categorii | `src/components/Categories.js` | ✅ |
-| Category page hero | `src/app/[category]/page.js` | ✅ |
-| Category page brands | `src/app/[category]/page.js` | ✅ |
-| Category page products | `src/app/[category]/page.js` | ✅ |
-| Brand page hero | `src/app/brand/[brandSlug]/page.js` | ✅ |
-| Brand page products | `src/app/brand/[brandSlug]/page.js` | ✅ |
+#### 5. PAGINI INDUSTRII (8 VERTICALE) ✅
 
-### 3. ADMIN DASHBOARD
-
-**Accesare:** `/admin/login`
-
-**Credențiale:**
-| Rol | Email | Parolă |
-|-----|-------|--------|
-| Admin | admin@infinitrade.ro | admin123 |
-| Vânzări | vanzari@infinitrade.ro | vanzari123 |
-
-**Funcționalități:**
-- ✅ Login securizat cu NextAuth.js
-- ✅ Dashboard overview cu statistici
-- ✅ Lista cereri cu filtre și paginare
-- ✅ Detalii cerere cu istoric comunicări
-- ✅ Gestionare echipă/useri
-- ✅ Rapoarte cu export CSV
-- ✅ Middleware protecție rute admin
-
-### 4. BACKEND & DATABASE
-
-**Supabase PostgreSQL:**
-- Project ref: `rinzaeqdmwnplhbpkkct`
-- Region: `eu-central-1`
-
-**Tabele (Prisma Schema):**
-- `User` - utilizatori admin
-- `ContactRequest` - cereri de ofertă
-- `Communication` - comunicări pe cereri
-
-**API Routes:**
-- ✅ `/api/contact` - primește cereri din formular
-- ✅ `/api/admin/cereri` - CRUD cereri
-- ✅ `/api/admin/cereri/[id]` - detalii cerere
-- ✅ `/api/admin/cereri/[id]/comunicari` - comunicări
-- ✅ `/api/admin/users` - gestionare useri
-- ✅ `/api/admin/export` - export CSV
-- ✅ `/api/auth/[...nextauth]` - autentificare
+| Industrie | URL | Clienti referinta |
+|-----------|-----|-------------------|
+| Petrochimie si Rafinarii | `/industrii/petrochimie` | OMV, Rompetrol, Lukoil |
+| Industria Alimentara | `/industrii/alimentar` | Danone, Coca-Cola, Heineken |
+| Tratare Apa si Epurare | `/industrii/tratare-apa` | Apa Nova, Aquaserv |
+| Energie si Termoficare | `/industrii/energie` | CEO, Electrocentrale |
+| Industria Farmaceutica | `/industrii/farmaceutic` | Antibiotice, Zentiva |
+| Industria Chimica | `/industrii/chimie` | Chimcomplex, Azomures |
+| Minerit si Extractie | `/industrii/minerit` | Cupru Min, Romgaz |
+| Constructii si HVAC | `/industrii/constructii` | Bog'Art, Strabag |
 
 ---
 
-## MODIFICĂRI SESIUNE CURENTĂ (19 Ian 2026)
+## BUILD FINAL - 83 PAGINI ✅
 
-### Adăugare butoane "+" pe carduri categorii Homepage
+```
+npm run build - SUCCESS
 
-**Fișiere modificate:**
-
-1. **`src/components/Categories.js`**
-   - Import `useState` pentru animație
-   - Import `Plus`, `Check` din lucide-react
-   - Import `useQuoteCart` din context
-   - Funcție `handleAddToCart(e, item)` - previne navigarea, adaugă în coș
-   - Funcție `isInCart(name)` - verifică dacă e în coș
-   - Buton "+" pe fiecare card categorie cu:
-     - Icon Plus/Check în funcție de stare
-     - Clasă `.inCart` când e în coș (verde)
-     - Clasă `.adding` pentru animație
-     - `aria-label` pentru accesibilitate
-
-2. **`src/components/Categories.module.css`**
-   - `.cardActions` - container flex pentru CTA + buton
-   - `.addToCartBtn` - stiluri buton circular
-   - `.addToCartBtn:hover` - efect hover (scale + culoare)
-   - `.addToCartBtn.inCart` - verde când e în coș
-   - `.addToCartBtn.adding` - animație pulse
-   - `@keyframes cartPulse` - animație feedback
+Route (app)                                 Size
+┌ ○ /                                      5.39 kB
+├ ○ /blog                                  556 B
+├ ● /blog/[slug] (5 articole)              591 B
+├ ● /brand/[brandSlug] (41 branduri)       3.5 kB
+├ ○ /certificari                           589 B
+├ ○ /contact                               3.34 kB
+├ ○ /despre-noi                            3.25 kB
+├ ○ /faq                                   454 B
+├ ○ /gdpr                                  307 B
+├ ○ /industrii                             497 B
+├ ● /industrii/[slug] (8 industrii)        671 B
+├ ○ /[category] (5 categorii)              4.84 kB
+├ ○ /sitemap.xml                           0 B
+└ ... alte pagini legale, admin, API
+```
 
 ---
 
-## STRUCTURA COMPLETĂ PROIECT
+## STRUCTURA FINALA PROIECT
 
 ```
 infinitrade.ro/
 ├── prisma/
-│   ├── schema.prisma          # Schema database
-│   └── seed.ts                # Seed useri admin
-├── public/                    # Assets statice
+│   ├── schema.prisma
+│   └── seed.ts
+├── public/
 ├── src/
 │   ├── app/
-│   │   ├── page.js            # Homepage
-│   │   ├── layout.js          # Root layout
-│   │   ├── globals.css        # Stiluri globale
-│   │   ├── [category]/        # Pagini categorii dinamice
+│   │   ├── page.js                    # Homepage
+│   │   ├── layout.js
+│   │   ├── globals.css
+│   │   ├── sitemap.js                 # ✅ Dynamic sitemap
+│   │   ├── not-found.js               # ✅ Custom 404
+│   │   ├── not-found.module.css
+│   │   ├── [category]/                # Pagini categorii
+│   │   ├── brand/[brandSlug]/         # ✅ Server component + metadata
 │   │   │   ├── page.js
-│   │   │   └── category.module.css
-│   │   ├── brand/
-│   │   │   └── [brandSlug]/   # Pagini branduri dinamice
+│   │   │   ├── BrandPageClient.js
+│   │   │   └── brand.module.css
+│   │   ├── blog/                      # ✅ NOU - Blog complet
+│   │   │   ├── page.js
+│   │   │   ├── blog.module.css
+│   │   │   └── [slug]/
 │   │   │       ├── page.js
-│   │   │       └── brand.module.css
-│   │   ├── contact/           # Pagina contact
+│   │   │       └── article.module.css
+│   │   ├── industrii/                 # ✅ NOU - Industrii verticale
 │   │   │   ├── page.js
-│   │   │   └── contact.module.css
-│   │   ├── despre-noi/        # Pagina despre noi
-│   │   ├── gdpr/              # Pagina GDPR
-│   │   ├── politica-*/        # Pagini legale
-│   │   ├── termeni-*/         # Termeni și condiții
-│   │   ├── admin/             # Admin Dashboard
-│   │   │   ├── layout.js
+│   │   │   ├── industrii.module.css
+│   │   │   └── [slug]/
+│   │   │       ├── page.js
+│   │   │       └── industry.module.css
+│   │   ├── faq/                       # ✅ NOU - FAQ cu JSON-LD
 │   │   │   ├── page.js
-│   │   │   ├── login/
-│   │   │   ├── cereri/
-│   │   │   ├── echipa/
-│   │   │   └── rapoarte/
-│   │   └── api/               # API Routes
-│   │       ├── contact/
-│   │       ├── auth/
-│   │       └── admin/
+│   │   │   └── faq.module.css
+│   │   ├── certificari/               # ✅ NOU - Certificari
+│   │   │   ├── page.js
+│   │   │   └── certificari.module.css
+│   │   ├── contact/
+│   │   ├── despre-noi/
+│   │   ├── gdpr/
+│   │   ├── politica-*/
+│   │   ├── termeni-*/
+│   │   ├── admin/
+│   │   └── api/
 │   ├── components/
-│   │   ├── Header.js          # Header cu search + cart
-│   │   ├── Hero.js            # Hero homepage
-│   │   ├── Categories.js      # Grid categorii + butoane "+"
-│   │   ├── Features.js        # Secțiune features
-│   │   ├── Footer.js          # Footer
-│   │   └── admin/             # Componente admin
 │   ├── context/
-│   │   └── QuoteCartContext.js # Context coș cerere
 │   ├── data/
-│   │   └── products.js        # Date categorii/branduri
+│   │   ├── products.js                # Date categorii/branduri
+│   │   ├── blog.js                    # ✅ NOU - Articole blog
+│   │   └── industries.js              # ✅ NOU - Date industrii
 │   ├── lib/
-│   │   ├── auth.ts            # Config NextAuth
-│   │   └── db.ts              # Prisma client
-│   └── middleware.ts          # Protecție rute
-├── .env.local                 # Variabile environment (local)
-├── .env                       # Variabile environment (fallback)
-├── package.json
-└── CLAUDE.md                  # Acest fișier
+│   │   ├── auth.ts                    # ✅ + Rate limiting login
+│   │   ├── utils.js                   # ✅ + DOMPurify
+│   │   ├── db.ts
+│   │   └── rateLimit.js
+│   └── middleware.ts
+├── package.json                        # + isomorphic-dompurify
+└── CLAUDE.md
 ```
 
 ---
 
-## CONFIGURARE ENVIRONMENT
+## CE FUNCTIONEAZA 100%
 
-### Fișier `.env.local` (necesar pentru development):
+### Site Public (Frontend)
+- ✅ Homepage cu butoane "+" pentru Quote Cart
+- ✅ 5 Pagini Categorii (pompe, robineti, motoare, schimbatoare, suflante)
+- ✅ 41 Pagini Branduri cu metadata dinamica + JSON-LD
+- ✅ Contact cu Quote Cart items si linkuri
+- ✅ FAQ cu 16 intrebari si JSON-LD FAQPage schema
+- ✅ Certificari cu parteneri si clienti
+- ✅ Blog cu 5 articole tehnice si JSON-LD Article schema
+- ✅ 8 Pagini Industrii verticale cu echipamente specifice
+- ✅ Custom 404 branded
+- ✅ Dynamic Sitemap (toate paginile)
+- ✅ Pagini legale (GDPR, Politici, Termeni)
 
-```env
-# Supabase PostgreSQL
-DATABASE_URL="postgresql://postgres.[ref]:[password]@aws-0-eu-central-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
-DIRECT_URL="postgresql://postgres.[ref]:[password]@aws-0-eu-central-1.pooler.supabase.com:5432/postgres"
+### Admin Dashboard
+- ✅ Login cu rate limiting (max 5 incercari, blocaj 15 min)
+- ✅ Dashboard statistici
+- ✅ Lista cereri cu filtre
+- ✅ Detalii cerere cu comunicari
+- ✅ Gestionare echipa
+- ✅ Export CSV
 
-# NextAuth.js
-NEXTAUTH_URL="http://localhost:3000"
-NEXTAUTH_SECRET="[generated-secret]"
+### Securitate
+- ✅ DOMPurify pentru sanitizare HTML (XSS protection)
+- ✅ Rate limiting pe login admin (brute-force protection)
+- ✅ Rate limiting pe API contact
+- ✅ Validare Zod pe formular contact
+- ✅ rel="noopener noreferrer" pe linkuri externe
 
-# API Keys (opțional)
-ANTHROPIC_API_KEY="[key]"
-RESEND_API_KEY="[key]"
-```
-
-### Vercel Environment Variables:
-Aceleași ca mai sus, dar `NEXTAUTH_URL="https://infinitrade.ro"`
+### SEO Tehnic
+- ✅ generateMetadata() pe toate paginile dinamice
+- ✅ JSON-LD BreadcrumbList pe brand pages
+- ✅ JSON-LD Product schema pe brand pages
+- ✅ JSON-LD Article schema pe blog
+- ✅ JSON-LD FAQPage schema pe FAQ
+- ✅ JSON-LD Service schema pe industrii
+- ✅ Canonical URLs corecte
+- ✅ OpenGraph + Twitter cards
 
 ---
 
@@ -238,72 +213,79 @@ Aceleași ca mai sus, dar `NEXTAUTH_URL="https://infinitrade.ro"`
 
 ```bash
 # Development
-npm run dev              # Server development pe localhost:3000
+npm run dev
 
-# Build & Deploy
-npm run build            # Build producție
-npm start                # Start server producție
+# Build productie
+npm run build
+
+# Start productie
+npm start
 
 # Database
-npx prisma db push       # Sync schema cu DB
-npx prisma studio        # GUI pentru database
-npm run db:seed          # Creează useri admin default
-
-# Altele
-npx prisma generate      # Regenerează Prisma Client
+npx prisma studio
+npm run db:seed
 ```
 
 ---
 
-## VERIFICARE FUNCȚIONALITATE
+## PAGINI DE TESTAT MANUAL
 
-### Test Manual Complet:
+```
+# Homepage
+http://localhost:3000/
 
-1. **Homepage** (`/`)
-   - [ ] Carduri categorii au butoane "+"
-   - [ ] Click pe "+" adaugă în coș (icon devine ✓ verde)
-   - [ ] Counter din header se actualizează
+# Blog
+http://localhost:3000/blog
+http://localhost:3000/blog/ghid-selectare-pompa-industriala
 
-2. **Search** (din Header)
-   - [ ] Rezultatele au butoane "+"
-   - [ ] Click adaugă în coș
+# Industrii
+http://localhost:3000/industrii
+http://localhost:3000/industrii/petrochimie
+http://localhost:3000/industrii/alimentar
 
-3. **Pagină Categorie** (`/pompe-industriale`)
-   - [ ] Hero are buton "+" pentru categorie
-   - [ ] Branduri au butoane "+"
-   - [ ] Tipuri produse au butoane "+"
+# FAQ
+http://localhost:3000/faq
 
-4. **Pagină Brand** (`/brand/grundfos`)
-   - [ ] Hero are buton "+" pentru brand
-   - [ ] Produsele au butoane "+"
+# Certificari
+http://localhost:3000/certificari
 
-5. **Pagină Contact** (`/contact`)
-   - [ ] Itemii din coș apar în formular
-   - [ ] Itemii au linkuri funcționale
-   - [ ] Formularul se trimite corect
+# 404
+http://localhost:3000/pagina-inexistenta
 
-6. **Admin Dashboard** (`/admin/login`)
-   - [ ] Login funcționează
-   - [ ] Cererile apar în listă
-   - [ ] Export CSV funcționează
+# Sitemap
+http://localhost:3000/sitemap.xml
+
+# Brand cu metadata
+http://localhost:3000/brand/pompe-industriale-grundfos
+```
 
 ---
 
-## PENTRU URMĂTOAREA SESIUNE
+## CREDENTIALE ADMIN
 
-### Posibile îmbunătățiri:
-1. Adăugare toast notifications la adăugare în coș
-2. Animații mai elaborate pe butoane
-3. Îmbunătățire SEO metadata pe pagini
-4. Adăugare imagini reale pentru branduri/produse
-5. Implementare email-uri automate cu Resend
-6. Dashboard analytics mai detaliat
+| Rol | Email | Parola |
+|-----|-------|--------|
+| Admin | admin@infinitrade.ro | admin123 |
+| Vanzari | vanzari@infinitrade.ro | vanzari123 |
 
-### Known Issues:
-- Warnings la build pentru API routes dinamice (nu afectează funcționalitatea)
+---
+
+## ROADMAP VIITOR (OPTIONAL)
+
+### Prioritate MEDIUM:
+1. Toast notifications la adaugare in cos
+2. Imagini reale pentru branduri/produse
+3. Email-uri automate cu Resend
+4. Mai multe articole blog
+
+### Prioritate LOW:
+5. Dashboard analytics detaliat
+6. Animatii mai elaborate
+7. Comparatii produse
+8. Video testimoniale
 
 ---
 
 ## CONTACT & SUPORT
 
-Pentru întrebări despre cod, verifică comentariile din fișiere sau rulează `npm run dev` și testează local.
+Pentru intrebari despre cod, verifica comentariile din fisiere sau ruleaza `npm run dev` si testeaza local.

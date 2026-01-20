@@ -143,7 +143,7 @@ export default function ContactPage() {
                               </span>
                               <div className={styles.cartItemContent}>
                                 {item.url ? (
-                                  <Link href={item.url} className={styles.cartItemLink} target="_blank">
+                                  <Link href={item.url} className={styles.cartItemLink} target="_blank" rel="noopener noreferrer">
                                     {item.name}
                                     <ExternalLink size={12} />
                                   </Link>
