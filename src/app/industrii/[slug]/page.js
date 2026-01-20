@@ -135,6 +135,7 @@ export default async function IndustryPage({ params }) {
             <Breadcrumbs
               items={[{ label: 'Industrii', href: '/industrii' }]}
               currentPage={industry.name}
+              variant="light"
             />
             <div className={styles.heroContent}>
               <div

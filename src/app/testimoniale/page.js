@@ -122,6 +122,7 @@ export default function TestimonialePage() {
             <Breadcrumbs
               items={[]}
               currentPage="Testimoniale"
+              variant="light"
             />
             <h1>Ce Spun Clienții Noștri</h1>
             <p className={styles.heroSubtitle}>

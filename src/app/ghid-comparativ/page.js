@@ -290,7 +290,7 @@ export default function GhidComparativPage() {
         {/* Hero */}
         <section className={styles.hero}>
           <div className={styles.container}>
-            <Breadcrumbs items={[]} currentPage="Ghid Comparativ" />
+            <Breadcrumbs items={[]} currentPage="Ghid Comparativ" variant="light" />
             <h1>Ghid Comparativ Echipamente Industriale</h1>
             <p className={styles.heroSubtitle}>
               Comparații obiective între cele mai importante branduri.

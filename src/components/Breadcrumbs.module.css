@@ -50,6 +50,23 @@
   font-weight: 500;
 }
 
+/* Light variant for dark backgrounds */
+.light .link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.light .link:hover {
+  color: #ffffff;
+}
+
+.light .separator {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.light .current {
+  color: #ffffff;
+}
+
 .srOnly {
   position: absolute;
   width: 1px;

@@ -36,6 +36,7 @@ export default function BrandPageClient({ brand, category }) {
             <Breadcrumbs
               items={[{ label: category.name, href: `/${category.slug}` }]}
               currentPage={brand.name}
+              variant="light"
             />
             <motion.div
               initial={{ opacity: 0, y: 20 }}

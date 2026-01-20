@@ -9,8 +9,9 @@ import styles from './Breadcrumbs.module.css';
  * @param {Object} props
  * @param {Array} props.items - Array of {label, href} objects
  * @param {string} props.currentPage - Current page label (no link)
+ * @param {string} props.variant - 'default' or 'light' (for dark backgrounds)
  */
-export default function Breadcrumbs({ items = [], currentPage }) {
+export default function Breadcrumbs({ items = [], currentPage, variant = 'default' }) {
   // Build the full breadcrumb list including home and current page
   const allItems = [
     { label: 'Acasă', href: '/' },
@@ -45,7 +46,7 @@ export default function Breadcrumbs({ items = [], currentPage }) {
       />
 
       {/* Visual Breadcrumbs */}
-      <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
+      <nav className={`${styles.breadcrumbs} ${variant === 'light' ? styles.light : ''}`} aria-label="Breadcrumb">
         <ol className={styles.list}>
           {allItems.map((item, index) => (
             <li key={item.href} className={styles.item}>
