@@ -5,7 +5,7 @@ import { Home, Search, Phone, ArrowRight } from 'lucide-react';
 import styles from './not-found.module.css';
 
 export const metadata = {
-  title: 'Pagina nu a fost gasita | 404 | Infinitrade Romania',
+  title: 'Pagina nu a fost gasita | 404',
   description: 'Pagina cautata nu exista. Descopera gama completa de echipamente industriale Infinitrade Romania.',
 };
 

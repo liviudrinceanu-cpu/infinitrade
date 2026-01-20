@@ -6,7 +6,7 @@ import { ArrowRight, Factory } from 'lucide-react';
 import styles from './industrii.module.css';
 
 export const metadata = {
-  title: 'Industrii Deservite | Echipamente Industriale pe Sector | Infinitrade Romania',
+  title: 'Industrii Deservite | Echipamente Industriale pe Sector',
   description: 'Furnizam echipamente industriale specializate pentru: petrochimie, alimentar, tratare apa, energie, farmaceutic, chimie, minerit, constructii. 15+ ani experienta.',
   keywords: [
     'echipamente industriale romania',
@@ -16,7 +16,7 @@ export const metadata = {
     'echipamente centrale electrice',
   ],
   openGraph: {
-    title: 'Industrii Deservite | Infinitrade Romania',
+    title: 'Industrii Deservite | Echipamente Industriale pe Sector',
     description: 'Echipamente industriale specializate pe sector.',
     url: 'https://infinitrade.ro/industrii',
     siteName: 'Infinitrade Romania',

@@ -109,7 +109,7 @@ function generateFaqJsonLd() {
 }
 
 export const metadata = {
-  title: 'Intrebari Frecvente (FAQ) | Echipamente Industriale | Infinitrade Romania',
+  title: 'Intrebari Frecvente (FAQ) | Echipamente Industriale',
   description: 'Raspunsuri la cele mai frecvente intrebari despre echipamente industriale: pompe, robineti, motoare, schimbatoare caldura. Consultanta tehnica gratuita.',
   keywords: [
     'faq echipamente industriale',
@@ -121,7 +121,7 @@ export const metadata = {
     'garantie echipamente industriale',
   ],
   openGraph: {
-    title: 'Intrebari Frecvente | Infinitrade Romania',
+    title: 'Intrebari Frecvente (FAQ) | Echipamente Industriale',
     description: 'Gaseste raspunsuri la intrebarile despre echipamente industriale.',
     url: 'https://infinitrade.ro/faq',
     siteName: 'Infinitrade Romania',

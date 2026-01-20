@@ -74,7 +74,7 @@ const partners = [
 ];
 
 export const metadata = {
-  title: 'Certificari si Autorizari | Distribuitor Autorizat | Infinitrade Romania',
+  title: 'Certificari si Autorizari | Distribuitor Autorizat',
   description: 'Certificari si autorizari Infinitrade Romania: ISO 9001, distribuitor autorizat Grundfos, Siemens, KSB. Inregistrat SEAP pentru licitatii publice.',
   keywords: [
     'certificari infinitrade',
@@ -85,7 +85,7 @@ export const metadata = {
     'iso 9001 distribuitor',
   ],
   openGraph: {
-    title: 'Certificari si Autorizari | Infinitrade Romania',
+    title: 'Certificari si Autorizari | Distribuitor Autorizat',
     description: 'Distribuitor autorizat pentru branduri internationale de echipamente industriale.',
     url: 'https://infinitrade.ro/certificari',
     siteName: 'Infinitrade Romania',

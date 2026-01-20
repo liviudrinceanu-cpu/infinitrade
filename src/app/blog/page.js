@@ -6,7 +6,7 @@ import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
 import styles from './blog.module.css';
 
 export const metadata = {
-  title: 'Blog Tehnic | Ghiduri Echipamente Industriale | Infinitrade Romania',
+  title: 'Blog Tehnic | Ghiduri Echipamente Industriale',
   description: 'Articole tehnice despre pompe industriale, motoare electrice, robineti. Ghiduri de selectie, comparatii, eficienta energetica si mentenanta.',
   keywords: [
     'blog echipamente industriale',
@@ -16,7 +16,7 @@ export const metadata = {
     'mentenanta pompe',
   ],
   openGraph: {
-    title: 'Blog Tehnic | Infinitrade Romania',
+    title: 'Blog Tehnic | Ghiduri Echipamente Industriale',
     description: 'Articole tehnice despre echipamente industriale.',
     url: 'https://infinitrade.ro/blog',
     siteName: 'Infinitrade Romania',
