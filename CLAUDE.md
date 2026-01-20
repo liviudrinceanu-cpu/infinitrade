@@ -1,6 +1,38 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 20 Ianuarie 2026 (V32)
+## ULTIMA ACTUALIZARE: 20 Ianuarie 2026 (V33)
+
+---
+
+## MODIFICARI V33 - Color Contrast Accessibility Fix (20 Ianuarie 2026)
+
+### PROBLEMA IDENTIFICATA
+Text gri închis sau negru pe fundal albastru închis - contrast insuficient pentru lizibilitate optimă pe paginile brand, industrii și categorii.
+
+### SOLUTIE IMPLEMENTATA
+Înlocuirea valorilor `opacity: 0.8/0.85` cu `rgba(255, 255, 255, 0.95)` pentru text pe fundaluri albastre închise.
+
+### FISIERE MODIFICATE
+
+| Fișier | Modificări |
+|--------|------------|
+| `src/app/brand/[brandSlug]/brand.module.css` | breadcrumb, heroSubtitle, heroDescription |
+| `src/app/industrii/[slug]/industry.module.css` | breadcrumb, hero p, stat small, ctaBox p |
+| `src/app/[category]/category.module.css` | heroTagline, heroDescription, heroStatLabel |
+| `src/app/studii-de-caz/[slug]/case-study.module.css` | confidentialNote |
+
+### DETALII TEHNICE
+
+| Element | Înainte | După |
+|---------|---------|------|
+| Breadcrumb | `opacity: 0.8` | `opacity: 0.95` |
+| Hero Subtitle | `opacity: 0.9` | `rgba(255,255,255,0.95)` |
+| Hero Description | `opacity: 0.85` | `rgba(255,255,255,0.95)` |
+| Stat Labels | `opacity: 0.8` | `rgba(255,255,255,0.95)` |
+| Testimonial Note | `opacity: 0.7` | `rgba(255,255,255,0.9)` |
+
+### BUILD STATUS
+✅ Build SUCCESS - 102 pagini generate
 
 ---
 
