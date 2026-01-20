@@ -34,7 +34,7 @@ const certifications = [
 const qualityPoints = [
   {
     title: 'Produse Originale',
-    description: 'Nu vindem imitații sau "echivalente". Tot ce livrăm e original, cu certificat și garanție de la producător.',
+    description: 'Nu vindem imitații sau "echivalente" (știm că există pe piață, dar nu la noi). Tot ce livrăm e original, cu certificat și garanție de la producător.',
   },
   {
     title: 'Trasabilitate Completă',

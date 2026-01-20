@@ -77,9 +77,9 @@ export default function DesprePage() {
                   și am crescut pe baza unui principiu simplu: livrăm ce promitem, când promitem.
                 </p>
                 <p>
-                  Știm cum e să ai o pompă stricată vineri după-amiază și producția oprită. De asta am
-                  construit stocuri pentru componentele critice și relații cu peste 300 de furnizori
-                  din toată Europa. Când ai nevoie urgent de ceva, de obicei găsim o soluție.
+                  Știm cum e să ai o pompă stricată vineri după-amiază și producția oprită (am fost și noi în situația aia).
+                  De asta am construit stocuri pentru componentele critice și relații cu peste 300 de furnizori
+                  din toată Europa. Când ai nevoie urgent de ceva, de obicei găsim o soluție - nu garantăm mereu, dar încercăm.
                 </p>
                 <p>
                   Lucrăm cu peste <strong>500 de branduri internaționale</strong>: de la Grundfos și Wilo

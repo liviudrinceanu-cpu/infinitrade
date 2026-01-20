@@ -10,7 +10,7 @@ const faqData = [
     questions: [
       {
         q: 'Cum aleg pompa potrivită pentru aplicația mea?',
-        a: 'Cel mai simplu: trimite-ne datele aplicației (debit, presiune, ce fluid, temperatură) și ne ocupăm noi de dimensionare. E gratis și durează de obicei 24h. Dacă vrei să înțelegi mai bine procesul, avem un articol pe blog despre selectarea pompelor - acolo explicăm criteriile pas cu pas.'
+        a: 'Cel mai simplu: trimite-ne datele aplicației (debit, presiune, ce fluid pompezi, temperatură) și ne ocupăm noi de dimensionare. E gratis și răspundem de obicei în 24h - uneori mai repede dacă nu-i aglomerat. Dacă vrei să înțelegi și tu procesul, avem un articol pe blog despre selectarea pompelor unde explicăm criteriile pas cu pas.'
       },
       {
         q: 'Care sunt diferențele între robineți cu bilă și robineți fluture?',
@@ -22,7 +22,7 @@ const faqData = [
       },
       {
         q: 'Aveți piese de schimb originale?',
-        a: 'Da, pentru tot ce vindem. Garnituri mecanice, rotoare, rulmenți, kituri complete - le avem pe cele curente în stoc sau le comandăm rapid. Sfatul nostru: piesele originale par mai scumpe, dar durează de 2-3 ori mai mult. Pe termen lung, ies mai ieftine.'
+        a: 'Da, pentru tot ce vindem. Garnituri mecanice, rotoare, rulmenți, kituri complete - pe cele curente le avem în stoc, restul le comandăm (și de obicei vin repede). Sfatul nostru: piesele originale par mai scumpe la prima vedere, dar durează de 2-3 ori mai mult. La final de calcul, tot ele ies mai ieftine.'
       },
     ]
   },

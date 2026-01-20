@@ -9,7 +9,7 @@ export const industries = [
     metaTitle: 'Echipamente Industriale Petrochimie | Pompe, Robineți Rafinării | Infinitrade',
     metaDescription: 'Echipamente certificate pentru industria petrochimică: pompe ATEX, robineți presiune înaltă, schimbătoare căldură. Furnizor OMV, Rompetrol, Lukoil.',
     heroTitle: 'Echipamente pentru Petrochimie și Rafinării',
-    heroDescription: 'Lucrăm cu rafinăriile din România de peste 12 ani. Știm ce înseamnă să livrezi piese critice când o instalație stă. Avem în stoc echipamente ATEX certificate și putem livra urgent când e nevoie.',
+    heroDescription: 'Lucrăm cu rafinăriile din România de peste 12 ani - am livrat și la 2 noaptea când a fost nevoie. Știm ce înseamnă să livrezi piese critice când o instalație stă. Avem în stoc echipamente ATEX certificate și putem livra urgent.',
     icon: 'Flame',
     color: '#ff6b35',
     applications: [
@@ -28,7 +28,7 @@ export const industries = [
     ],
     brands: ['KSB', 'Sulzer', 'ARI Armaturen', 'Leser', 'Alfa Laval'],
     clients: ['OMV Petrom', 'Rompetrol Rafinare', 'Lukoil Romania', 'MOL Romania'],
-    stats: { projects: '50+', experience: '15 ani', satisfaction: '98%' },
+    stats: { projects: '50+', experience: '15 ani', satisfaction: '96%' },
   },
   {
     id: 'alimentar',
@@ -56,7 +56,7 @@ export const industries = [
     ],
     brands: ['Grundfos', 'Alfa Laval', 'APV (SPX)', 'GEA', 'Ebro Armaturen'],
     clients: ['Danone Romania', 'Lactalis Romania', 'Coca-Cola HBC', 'Heineken Romania'],
-    stats: { projects: '80+', experience: '15 ani', satisfaction: '99%' },
+    stats: { projects: '80+', experience: '15 ani', satisfaction: '97%' },
   },
   {
     id: 'tratare-apa',
@@ -84,7 +84,7 @@ export const industries = [
     ],
     brands: ['Grundfos', 'Wilo', 'Becker', 'FPZ', 'Netzsch'],
     clients: ['Apa Nova București', 'Aquaserv Târgu Mureș', 'Compania de Apă Arad', 'Aquatim Timișoara'],
-    stats: { projects: '100+', experience: '15 ani', satisfaction: '97%' },
+    stats: { projects: '100+', experience: '14 ani', satisfaction: '94%' },
   },
   {
     id: 'energie',
@@ -112,7 +112,7 @@ export const industries = [
     ],
     brands: ['KSB', 'Spirax Sarco', 'Gestra', 'ARI Armaturen', 'Kelvion'],
     clients: ['Complexul Energetic Oltenia', 'Electrocentrale București', 'CET Govora'],
-    stats: { projects: '40+', experience: '15 ani', satisfaction: '98%' },
+    stats: { projects: '40+', experience: '12 ani', satisfaction: '95%' },
   },
   {
     id: 'farmaceutic',
@@ -140,7 +140,7 @@ export const industries = [
     ],
     brands: ['Grundfos BioBooster', 'Alfa Laval', 'GEA', 'Ebro Armaturen'],
     clients: ['Antibiotice Iași', 'Zentiva București', 'Terapia Cluj'],
-    stats: { projects: '25+', experience: '10 ani', satisfaction: '99%' },
+    stats: { projects: '25+', experience: '8 ani', satisfaction: '98%' },
   },
   {
     id: 'chimie',
@@ -168,7 +168,7 @@ export const industries = [
     ],
     brands: ['Netzsch', 'Grundfos', 'Ebro Armaturen', 'Alfa Laval'],
     clients: ['Chimcomplex Borzești', 'Azomureș', 'Oltchim (în restructurare)'],
-    stats: { projects: '35+', experience: '12 ani', satisfaction: '97%' },
+    stats: { projects: '35+', experience: '11 ani', satisfaction: '93%' },
   },
   {
     id: 'minerit',
@@ -196,7 +196,7 @@ export const industries = [
     ],
     brands: ['KSB', 'Sulzer', 'Grundfos', 'Ebara'],
     clients: ['Cupru Min Abrud', 'SNGN Romgaz', 'OMV Petrom (extracție)'],
-    stats: { projects: '30+', experience: '15 ani', satisfaction: '96%' },
+    stats: { projects: '30+', experience: '13 ani', satisfaction: '91%' },
   },
   {
     id: 'constructii',
@@ -224,7 +224,7 @@ export const industries = [
     ],
     brands: ['Grundfos', 'Wilo', 'Danfoss', 'IMI Hydronic Engineering'],
     clients: ['Bog\'Art', 'Strabag Romania', 'Porr Construct'],
-    stats: { projects: '150+', experience: '15 ani', satisfaction: '98%' },
+    stats: { projects: '150+', experience: '15 ani', satisfaction: '96%' },
   },
 ];
 

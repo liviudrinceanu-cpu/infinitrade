@@ -53,9 +53,9 @@ Un convertizor de frecvență pe o pompă de 22 kW care funcționează 8000 ore/
 
 Conform SR EN 16480, pompele noi trebuie să respecte clase de eficiență. Merită să verifici asta când compari oferte.
 
-## În loc de concluzie
+## Hai să simplificăm
 
-Dacă tot ce ai citit ți se pare complicat, trimite-ne parametrii procesului și te ajutăm cu dimensionarea. Facem asta de 15 ani și nu percepem nimic pentru consultanță.
+Dacă tot ce ai citit pare complicat - nu te stresa. Trimite-ne parametrii procesului și ne ocupăm noi de dimensionare. Facem asta de 15 ani, e gratis, și răspundem de obicei în 24 de ore.
     `,
     author: 'Adrian Ionescu, Director Tehnic',
     date: '2026-01-15',
@@ -71,9 +71,9 @@ Dacă tot ce ai citit ți se pare complicat, trimite-ne parametrii procesului ș
     title: 'Siemens, ABB sau SEW? O Comparație Sinceră După Ani de Lucru cu Toate Trei',
     excerpt: 'Vindem toate cele trei branduri și nu avem favoritism. Iată când recomandăm fiecare și de ce. Cu cifre concrete din service.',
     content: `
-Primim des întrebarea: "Care e cel mai bun motor?". Răspunsul corect e: depinde. Și nu e un răspuns de evitare - chiar depinde de aplicație, buget și ce suport ai nevoie.
+Primim des întrebarea: "Care e cel mai bun motor?". Răspunsul corect e: depinde. Și nu, nu e un răspuns de evitare (deși sună așa) - chiar depinde de aplicație, de buget, și de ce fel de suport ai nevoie după.
 
-Lucrăm cu Siemens, ABB și SEW de peste 10 ani. Am montat mii de motoare, am văzut ce se defectează și ce rezistă. Iată ce am observat.
+Lucrăm cu Siemens, ABB și SEW de peste 10 ani - am montat mii de motoare, am văzut ce se defectează și ce rezistă (și am avut și surprize, să fim sinceri). Iată ce am observat.
 
 ## Siemens
 
@@ -125,7 +125,7 @@ Documentația tehnică e mai greu de navigat decât la Siemens.
 
 ## Cifre din service-ul nostru
 
-În ultimii 5 ani, din motoarele pe care le-am vândut și urmărit:
+Din 2020 până acum, din motoarele pe care le-am vândut și urmărit:
 
 | Brand | Defecțiuni în garanție | Cauza principală |
 |-------|------------------------|------------------|
@@ -133,7 +133,7 @@ Documentația tehnică e mai greu de navigat decât la Siemens.
 | ABB | 1.1% | Probleme rulmenți |
 | SEW | 0.9% | Diverse, fără pattern |
 
-Cifrele sunt aproape identice. Toate trei sunt branduri de calitate.
+Cifrele sunt aproape identice, ceea ce spune ceva. Toate trei sunt branduri de calitate - diferențele sunt mai mult în detalii și preferințe decât în fiabilitate.
 
 ## Deci care e "cel mai bun"?
 
@@ -158,13 +158,13 @@ Dacă nu știi ce să alegi, spune-ne aplicația și îți recomandăm noi. Nu a
     title: 'Cum Am Redus Consumul cu 35% la un Client din Cluj: Studiu de Caz Pompe',
     excerpt: 'Un client ne-a cerut să optimizăm stația de pompare. Bugetul era strâns, timpul scurt. Iată ce am făcut și cât a economisit.',
     content: `
-În toamna lui 2024, un producător de componente auto din zona Cluj ne-a contactat cu o problemă: facturile la energie explodaseră. Printre principalii consumatori erau pompele din sistemul de răcire - 4 pompe de 37 kW fiecare, funcționând aproape non-stop.
+În septembrie 2024, un producător de componente auto din zona Cluj ne-a contactat cu o problemă: facturile la energie explodaseră. Printre principalii consumatori erau pompele din sistemul de răcire - 4 pompe de 37 kW fiecare, funcționând aproape non-stop.
 
 Nu le putem dezvălui numele, dar putem povesti ce am făcut.
 
 ## Situația inițială
 
-Pompele funcționau la turație fixă, pornite direct la rețea. Sistemul fusese dimensionat acum 15 ani pentru o capacitate de producție care nu mai exista - între timp, procesele se schimbaseră.
+Pompele funcționau la turație fixă, pornite direct la rețea. Sistemul fusese dimensionat prin 2009 pentru o capacitate de producție care nu mai exista - între timp, procesele se schimbaseră.
 
 Măsurătorile noastre au arătat că pompele funcționau la 60-70% din capacitate cea mai mare parte din timp. Dar consumau energie ca și cum ar fi funcționat la 100%.
 
@@ -206,9 +206,9 @@ Nu întotdeauna trebuie să înlocuiești echipamentele. Uneori, optimizarea cel
 
 Dar trebuie să măsori înainte. Fără măsurători, nu știi cât pierzi și nu poți estima câștigul.
 
-## Ce oferim noi
+## Vrei să știi dacă merită la tine?
 
-Facem audit energetic gratuit pentru sistemele de pompare. Venim, măsurăm, calculăm și îți spunem dacă merită să investești sau nu. Dacă nu merită, îți spunem cinstit - nu avem de câștigat din recomandări care nu se justifică.
+Facem audit energetic gratuit pentru sistemele de pompare. Venim, măsurăm, calculăm. Dacă nu merită investiția, îți spunem cinstit - n-avem de câștigat din recomandări care nu se justifică.
     `,
     author: 'Echipa Infinitrade',
     date: '2026-01-05',
@@ -285,9 +285,9 @@ La robineți bilă, atenție la materialul sferei și al garniturilor:
 - **Garnitură PTFE** - standard industrial
 - **Garnitură metal-metal** - pentru temperaturi foarte mari
 
-## În concluzie
+## Pe scurt
 
-Nu există "mai bun" - există "potrivit pentru aplicație". Dacă nu ești sigur, întreabă. Mai bine pierzi 5 minute la telefon decât să montezi ceva nepotrivit.
+Nu există "mai bun" în general - există "potrivit pentru ce ai tu de făcut". Nu ești sigur? Sună-ne. 5 minute la telefon costă mai puțin decât să montezi ceva greșit.
     `,
     author: 'Andrei Popa, Departament Armatură',
     date: '2025-12-20',
@@ -303,7 +303,7 @@ Nu există "mai bun" - există "potrivit pentru aplicație". Dacă nu ești sigu
     title: 'Programul de Mentenanță Care Ne-a Redus Intervențiile de Urgență cu 80%',
     excerpt: 'Am implementat același sistem la zeci de clienți. Iată checklist-ul complet și intervalele care funcționează.',
     content: `
-Până acum câțiva ani, o mare parte din activitatea noastră de service era în regim de urgență. Pompă blocată sâmbătă la 3 noaptea, motor ars în mijlocul producției, lucruri de genul ăsta.
+Până prin 2019-2020, o mare parte din activitatea noastră de service era în regim de urgență. Pompă blocată sâmbătă la 3 noaptea, motor ars în mijlocul producției, lucruri de genul ăsta.
 
 Apoi am început să propunem activ programe de mentenanță preventivă. Rezultatele au fost dramatice: clienții care au adoptat programul au redus intervențiile de urgență cu 70-80%.
 
@@ -412,14 +412,9 @@ Schimbătoarele de căldură par simple: două fluide, transfer de energie, gata
 
 Sunt compacte, eficiente, fără garnituri care să cedeze. Plăcile sunt lipite între ele cu cupru sau nichel.
 
-**Avantaje:**
-- Foarte compacte - de 5 ori mai mici decât tubulare pentru aceeași putere
-- Eficiență termică excelentă
-- Nu au garnituri care să se uzeze
+De ce le alegem des: sunt de 5 ori mai mici decât tubulare pentru aceeași putere, eficiență termică foarte bună, și nu au garnituri care să cedeze.
 
-**Dezavantaje:**
-- Nu se pot demonta pentru curățare - doar curățare chimică
-- Dacă se înfundă rău, le arunci
+Partea mai puțin plăcută: nu le poți demonta să le cureți manual - doar chimic. Și dacă se înfundă serios, cam aia a fost.
 
 **Folosește pentru:** HVAC, răcire ulei hidraulic, pompe de căldură, procese curate.
 
@@ -429,15 +424,9 @@ Sunt compacte, eficiente, fără garnituri care să cedeze. Plăcile sunt lipite
 
 Au garnituri între plăci, deci se pot demonta și curăța mecanic. Capacitatea se poate modifica adăugând sau scoțând plăci.
 
-**Avantaje:**
-- Curățare ușoară - important pentru fluide care depun
-- Capacitate ajustabilă
-- Reparații posibile (înlocuiești doar plăcile sau garniturile deteriorate)
+Puncte forte: le desfaci și le cureți când vrei - esențial dacă ai fluide care depun. Poți să adaugi sau să scoți plăci dacă se schimbă necesarul. Și dacă se strică ceva, înlocuiești doar placa sau garnitura afectată.
 
-**Dezavantaje:**
-- Garniturile se uzează (durată tipică 5-10 ani)
-- Mai scumpe decât brazate pentru puteri mici
-- Necesită mentenanță periodică
+Ce să ai în vedere: garniturile țin cam 5-10 ani și trebuie schimbate. Costă mai mult decât brazatele la puteri mici. Și da, au nevoie de întreținere periodică.
 
 **Folosește pentru:** Industria alimentară (lapte, bere, sucuri), procese unde curățarea frecventă e necesară.
 
@@ -447,14 +436,9 @@ Au garnituri între plăci, deci se pot demonta și curăța mecanic. Capacitate
 
 Construcție clasică: un mănunchi de țevi într-o carcasă. Un fluid curge prin țevi, celălalt prin carcasă.
 
-**Avantaje:**
-- Rezistă la presiuni foarte mari (peste 100 bar)
-- Funcționează cu fluide murdare sau agresive
-- Construcție robustă, durată lungă de viață
+Unde strălucesc: presiuni foarte mari (peste 100 bar), fluide murdare sau agresive, și construcție atât de robustă încât par indestructibile.
 
-**Dezavantaje:**
-- Gabarit mare
-- Eficiență termică mai mică decât plăcile
+Compromisuri: ocupă mult spațiu și nu sunt la fel de eficiente termic ca cele cu plăci.
 
 **Folosește pentru:** Petrochimie, rafinării, centrale electrice.
 
@@ -514,44 +498,25 @@ Suflantele industriale furnizează aer sau gaze la presiuni joase sau medii. Par
 
 Funcționează prin accelerarea aerului într-un canal în formă de inel. Sunt cele mai silențioase și nu folosesc ulei.
 
-**Caracteristici tehnice:**
-- Presiune: până la 500 mbar
-- Debit: 10-2.000 m³/h
-- Funcționare fără ulei (oil-free)
-- Nivel zgomot: scăzut
+Date tehnice: presiune până la 500 mbar, debit 10-2.000 m³/h, funcționare fără ulei, zgomot scăzut.
 
-**Unde le folosești:**
-- Aerare stații de epurare mici și medii
-- Transport pneumatic materiale ușoare (granule, pulberi)
-- Aspirație industrială
-- Mașini de ambalat
+Le vezi în: stații de epurare mici și medii, transport pneumatic pentru granule și pulberi, aspirație industrială, mașini de ambalat.
 
-**Ce ne place la ele:**
-Sunt simple și fiabile. Un model Becker sau FPZ de calitate poate merge 10-15 ani cu mentenanță minimă - practic doar înlocuiești filtrul periodic.
+De ce ne plac: simplitate și fiabilitate. Un Becker sau FPZ bun poate merge 10-15 ani fără bătăi de cap - practic doar schimbi filtrul din când în când.
 
-**Ce trebuie să știi:**
-Nu suportă particule în aer. Dacă aerul aspirat conține praf, montează neapărat filtru. Altfel, paletele se uzează rapid.
+Un avertisment: nu le place praful. Dacă aerul aspirat conține particule, montează filtru bun. Altfel, paletele se uzează mult mai repede decât ar trebui.
 
 ### Roots (cu lobi)
 
 Două rotoare în formă de "8" se rotesc sincronizat și împing aerul. Sunt mai zgomotoase, dar pot livra debite mult mai mari.
 
-**Caracteristici tehnice:**
-- Presiune: până la 1 bar (1000 mbar)
-- Debit: 100-50.000 m³/h
-- Funcționare cu ulei pentru rulmenți și sincronizare
+Specificații: presiune până la 1 bar, debit 100-50.000 m³/h, necesită ulei pentru rulmenți și sincronizare.
 
-**Unde le folosești:**
-- Aerare bazine biologice mari
-- Transport cereale, ciment, făină
-- Fluidizare în industria chimică
-- Procese unde trebuie debit constant indiferent de presiune
+Unde le găsești: bazine biologice mari, transport cereale/ciment/făină, fluidizare în chimie, orice proces care cere debit constant indiferent de presiune.
 
-**Ce ne place la ele:**
-Debitul e aproape constant indiferent de presiunea din sistem. La canal lateral, debitul scade când presiunea crește. La Roots, rămâne stabil.
+Marele avantaj: debitul rămâne aproape constant chiar dacă variază presiunea. La canal lateral, când crește presiunea, scade debitul. La Roots - nu.
 
-**Ce trebuie să știi:**
-Sunt zgomotoase. Montează-le în încăpere separată sau folosește cabine de insonorizare. Și consumă mai multă energie decât canal lateral pentru aceeași aplicație - alege-le doar când chiar ai nevoie de caracteristicile lor.
+Ce să știi dinainte: fac gălăgie. Serios. Pune-le într-o încăpere separată sau cumpără cabină de insonorizare. Și consumă mai mult decât canal lateral - alege-le doar când chiar ai nevoie de ce oferă ele specific.
 
 Aerzen și Kaeser sunt brandurile de referință în România pentru Roots.
 
@@ -559,19 +524,11 @@ Aerzen și Kaeser sunt brandurile de referință în România pentru Roots.
 
 Funcționează pe principiul pompelor centrifugale - rotorul accelerează aerul care e aruncat spre exterior.
 
-**Caracteristici tehnice:**
-- Presiune: până la 200 mbar (de obicei mult mai puțin)
-- Debit: 500-100.000 m³/h
-- Construcție simplă
+Pe scurt: presiune până la 200 mbar (de obicei mai puțin), debit 500-100.000 m³/h, construcție simplă.
 
-**Unde le folosești:**
-- Ventilație hale industriale
-- Hote de aspirație
-- Sisteme de filtrare
-- Transport materiale ușoare pe distanțe scurte
+Aplicații tipice: ventilație hale, hote de aspirație, sisteme de filtrare, transport materiale ușoare pe distanțe scurte.
 
-**Ce trebuie să știi:**
-Pentru presiuni peste 100-150 mbar, nu sunt eficiente. Treci pe canal lateral sau Roots.
+Limitarea lor: pentru presiuni peste 100-150 mbar, nu mai sunt eficiente. La presiuni mai mari, treci pe canal lateral sau Roots.
 
 ## Tabel comparativ rapid
 
@@ -616,7 +573,7 @@ Dacă ai dubii, trimite-ne datele și te ajutăm cu dimensionarea. Am livrat sut
     title: 'Garnituri Mecanice: De Ce Se Defectează și Cum Le Prelungești Viața',
     excerpt: 'Garnitura mecanică e punctul vulnerabil al oricărei pompe. Iată ce le distruge și cum eviți înlocuirea prematură.',
     content: `
-În toți anii de service, estimez că 40% din intervențiile la pompe au fost pentru garnituri mecanice. Fie curgeau, fie erau complet distruse. Și în majoritatea cazurilor, cauza era evitabilă.
+În toți anii de service - și vorbim de multe pompe - estimez că undeva la 40% din intervenții au fost pentru garnituri mecanice. Fie curgeau, fie erau complet distruse. Și în majoritatea cazurilor, cauza era evitabilă.
 
 ## Ce face o garnitură mecanică
 
@@ -1023,11 +980,11 @@ Am lucrat cu clienți care au trecut de la "verificăm când se defectează" la 
 
 **Armstrong** - bune pentru aplicații standard.
 
-## Ce oferim noi
+## Dacă vrei să verifici ce ai în fabrică
 
-Avem în stoc oale Spirax Sarco și Gestra pentru aplicațiile curente. Facem și audit de instalații - venim, verificăm toate oalele și îți spunem care sunt defecte și ce pierderi ai. Dacă e cazul, le înlocuim.
+Avem oale Spirax Sarco și Gestra în stoc. Facem și audituri - venim cu echipamentul, verificăm fiecare oală și îți spunem exact care pierd și cât te costă.
 
-Un audit pentru o fabrică medie costă câteva sute de euro și poate identifica pierderi de zeci de mii de euro pe an.
+Un audit pentru o fabrică medie? Câteva sute de euro. Ce găsim de obicei? Pierderi de zeci de mii pe an.
     `,
     author: 'Cristian Barbu, Specialist Instalații Termice',
     date: '2025-11-08',
@@ -1128,9 +1085,9 @@ Dacă vrei să estimezi singur dacă merită:
 
 Dacă ROI-ul e sub 2 ani, merită aproape sigur. Sub 1 an, merită cu siguranță.
 
-## Ce oferim
+## Vrei o evaluare concretă?
 
-Facem evaluări la fața locului - venim, măsurăm, calculăm și îți spunem dacă merită. Dacă nu merită, îți spunem cinstit. Dacă merită, îți oferim soluție completă: VFD + instalare + parametrizare.
+Venim la tine, măsurăm, calculăm și îți spunem sincer dacă are sens. Dacă nu, nu insistăm. Dacă da, facem totul: VFD, instalare, parametrizare, punere în funcțiune.
     `,
     author: 'Vlad Nicolescu, Inginer Automatizări',
     date: '2025-10-30',
@@ -1156,7 +1113,7 @@ Companie suedeză, fondată în 1883. Fac de toate în domeniul transferului ter
 
 **Gama de produse.** Alfa Laval are probabil cea mai largă ofertă. De la schimbătoare brazate minuscule pentru pompe de căldură până la unități cu plăci demontabile pentru rafinării. Indiferent ce ai nevoie, există o soluție Alfa Laval.
 
-**Calitatea construcției.** Plăcile sunt presate impecabil, garniturile Clip-On sunt ușor de montat și durează mult. Am văzut schimbătoare Alfa Laval de 20 de ani care încă funcționează cu garniturile originale (bine, nu le recomand - dar e impresionant că rezistă).
+**Calitatea construcției.** Plăcile sunt presate impecabil, garniturile Clip-On sunt ușor de montat și durează mult. Am văzut schimbătoare Alfa Laval montate prin 2003-2004 care încă funcționează cu garniturile originale (bine, nu le recomand - dar e impresionant că rezistă).
 
 **AlfaNova.** Gama full-inox pentru aplicații alimentare și farmaceutice. Fără cupru, fără nichel - totul din inox 316. Standard pentru industria alimentară.
 
@@ -1216,15 +1173,15 @@ E un aspect important. Un schimbător de căldură cu plăci demontabile are nev
 
 Pentru orice brand, recomandăm să ai cel puțin un set de garnituri de rezervă în stoc. Când se defectează, nu vrei să aștepți 3 săptămâni.
 
-## Concluzie
+## Deci care să aleg?
 
-Nu există "mai bun" în general. Există "mai bun pentru aplicația ta".
+Depinde. Serios, depinde.
 
-**Alege Alfa Laval pentru:** industrie alimentară, aplicații premium, când bugetul nu e principala constrângere.
+Alfa Laval dacă: faci alimentar, vrei premium, bugetul nu-i chiar strâns.
 
-**Alege Kelvion pentru:** industrie grea, proiecte cu buget limitat, când ai nevoie de configurații speciale.
+Kelvion dacă: ești în industrie grea, ai buget limitat, ai nevoie de ceva non-standard.
 
-**Întreabă-ne:** îți putem oferi ambele variante și compari.
+Sau ne întrebi pe noi - îți trimitem oferte de la ambii și decizi tu.
     `,
     author: 'Dan Munteanu, Inginer Proiectare',
     date: '2025-10-22',
@@ -1328,9 +1285,9 @@ Același motor neglijat: 8-10 ani și 2-3 defecțiuni majore.
 
 Matematica e clară.
 
-## Ce oferim
+## Un ultim gând
 
-Contracte de mentenanță adaptate la echipamentele și nevoile tale. Dar chiar dacă nu lucrezi cu noi, implementează un program. Orice e mai bun decât să aștepți până se strică.
+Facem contracte de mentenanță pentru cine vrea să externalizeze asta. Dar chiar dacă nu lucrezi cu noi - fa ceva. Orice program de mentenanță, oricât de simplu, e mai bun decât să aștepți să se strice.
     `,
     author: 'Echipa Service Infinitrade',
     date: '2025-10-15',
