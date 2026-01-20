@@ -112,13 +112,37 @@ export const metadata = {
   title: 'Intrebari Frecvente (FAQ) | Echipamente Industriale',
   description: 'Raspunsuri la cele mai frecvente intrebari despre echipamente industriale: pompe, robineti, motoare, schimbatoare caldura. Consultanta tehnica gratuita.',
   keywords: [
+    // FAQ specific
     'faq echipamente industriale',
-    'intrebari pompe industriale',
-    'cum aleg pompa',
-    'diferente robineti',
-    'livrare echipamente industriale',
+    'intrebari echipamente industriale',
+    'intrebari frecvente pompe',
+    'intrebari frecvente robineti',
+    // Product selection
+    'cum aleg pompa industriala',
+    'cum aleg pompa potrivita',
+    'selectie pompe industriale',
+    'diferente robineti bila fluture',
+    'robineti bila vs fluture',
+    'tipuri motoare electrice',
+    // Purchase questions
     'piese schimb originale',
+    'piese schimb pompe',
     'garantie echipamente industriale',
+    'garantie pompe industriale',
+    // Delivery and payment
+    'livrare echipamente industriale',
+    'livrare pompe romania',
+    'transport echipamente grele',
+    'plata echipamente industriale',
+    // Service questions
+    'service pompe industriale',
+    'mentenanta pompe',
+    'reparatii pompe industriale',
+    'consultanta tehnica gratuita',
+    // General
+    'distribuitor echipamente industriale',
+    'furnizor pompe romania',
+    'infinitrade romania',
   ],
   openGraph: {
     title: 'Intrebari Frecvente (FAQ) | Echipamente Industriale',

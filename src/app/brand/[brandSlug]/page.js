@@ -25,20 +25,48 @@ export async function generateMetadata({ params }) {
   const title = `${brand.name} Romania | Distribuitor Autorizat ${category.name} | Infinitrade`;
   const description = `Distribuitor autorizat ${brand.name} (${brand.country}) in Romania. ${brand.description}. Produse originale, piese schimb, suport tehnic. Livrare rapida 24-72h.`;
 
+  // Generate comprehensive keywords based on brand, category, and products
+  const baseKeywords = [
+    // Brand variations
+    brand.name,
+    `${brand.name} Romania`,
+    `${brand.name} pret`,
+    `${brand.name} oferta`,
+    `${brand.name} distribuitor`,
+    `${brand.name} distribuitor autorizat`,
+    `${brand.name} piese schimb`,
+    `${brand.name} service`,
+    `${brand.name} catalog`,
+    // Category + Brand combinations
+    `${category.name.toLowerCase()} ${brand.name}`,
+    `${brand.name} ${category.name.toLowerCase()}`,
+    // Product type keywords
+    ...category.productTypes.map(pt => `${pt.name.toLowerCase()} ${brand.name}`),
+    ...category.productTypes.map(pt => `${brand.name} ${pt.name.toLowerCase()}`),
+    // Application keywords
+    ...category.productTypes.flatMap(pt =>
+      pt.applications.slice(0, 2).map(app => `${brand.name} ${app.toLowerCase()}`)
+    ),
+    // Industry keywords
+    `${brand.name} industrial`,
+    `${brand.name} industrie`,
+    // Purchase intent
+    `cumpara ${brand.name}`,
+    `achizitie ${brand.name}`,
+    `furnizor ${brand.name}`,
+    // General
+    'echipamente industriale romania',
+    `piese schimb ${category.name.toLowerCase()}`,
+    brand.country,
+  ];
+
+  // Remove duplicates and limit to 30 keywords
+  const keywords = [...new Set(baseKeywords)].slice(0, 30);
+
   return {
     title,
     description,
-    keywords: [
-      brand.name,
-      `${brand.name} Romania`,
-      `${brand.name} pret`,
-      `${brand.name} distribuitor`,
-      category.name.toLowerCase(),
-      `${category.name.toLowerCase()} ${brand.name}`,
-      'echipamente industriale',
-      'piese schimb',
-      brand.country,
-    ],
+    keywords,
     openGraph: {
       title,
       description,

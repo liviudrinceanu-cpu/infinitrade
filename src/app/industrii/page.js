@@ -9,11 +9,41 @@ export const metadata = {
   title: 'Industrii Deservite | Echipamente Industriale pe Sector',
   description: 'Furnizam echipamente industriale specializate pentru: petrochimie, alimentar, tratare apa, energie, farmaceutic, chimie, minerit, constructii. 15+ ani experienta.',
   keywords: [
+    // Industry sectors
     'echipamente industriale romania',
+    'echipamente industriale pe sector',
+    'industrii deservite',
+    'solutii industriale',
+    // Petrochemical
+    'echipamente petrochimie',
+    'pompe rafinarii',
     'furnizor pompe petrochimie',
+    'echipamente atex',
+    // Food industry
     'echipamente industria alimentara',
+    'pompe industria alimentara',
+    'echipamente inox alimentar',
+    'pompe sanitare',
+    // Water treatment
     'pompe statii epurare',
+    'echipamente tratare apa',
+    'suflante aerare',
+    'pompe submersibile epurare',
+    // Energy
     'echipamente centrale electrice',
+    'echipamente termoficare',
+    'pompe alimentare cazane',
+    'robineti abur',
+    // Pharmaceutical
+    'echipamente industria farmaceutica',
+    'echipamente gmp',
+    'pompe sterile',
+    // Chemical
+    'echipamente industria chimica',
+    'pompe anticorozive',
+    // General
+    'furnizor echipamente industriale',
+    'distribuitor industrial romania',
   ],
   openGraph: {
     title: 'Industrii Deservite | Echipamente Industriale pe Sector',

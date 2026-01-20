@@ -26,10 +26,40 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  // Generate comprehensive keywords for blog articles
+  const titleWords = article.title.toLowerCase().split(' ').filter(w => w.length > 3);
+  const baseKeywords = [
+    // Article tags (primary keywords)
+    ...article.tags,
+    // Category keyword
+    article.category.toLowerCase(),
+    `${article.category.toLowerCase()} echipamente industriale`,
+    // Title-based keywords
+    ...titleWords.slice(0, 5),
+    // Search intent variations
+    `ghid ${article.tags[0]?.toLowerCase() || ''}`.trim(),
+    `cum sa alegi ${article.tags[0]?.toLowerCase() || ''}`.trim(),
+    `sfaturi ${article.tags[0]?.toLowerCase() || ''}`.trim(),
+    // Romanian industrial keywords
+    'echipamente industriale',
+    'pompe industriale',
+    'motoare electrice',
+    'robineti industriali',
+    'mentenanta industriala',
+    'eficienta energetica',
+    // Blog content keywords
+    'articole tehnice',
+    'blog industrial',
+    'ghiduri tehnice',
+  ];
+
+  // Remove empty strings, duplicates, and limit
+  const keywords = [...new Set(baseKeywords.filter(k => k && k.length > 2))].slice(0, 25);
+
   return {
     title: `${article.title} | Blog Infinitrade Romania`,
     description: article.excerpt,
-    keywords: article.tags,
+    keywords,
     authors: [{ name: article.author }],
     openGraph: {
       title: article.title,

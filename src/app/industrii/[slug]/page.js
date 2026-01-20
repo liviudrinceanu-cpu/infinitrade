@@ -26,15 +26,43 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  // Generate comprehensive keywords for industry pages
+  const baseKeywords = [
+    // Industry name variations
+    industry.name.toLowerCase(),
+    `echipamente ${industry.name.toLowerCase()}`,
+    `echipamente industriale ${industry.name.toLowerCase()}`,
+    `furnizor echipamente ${industry.name.toLowerCase()}`,
+    `distribuitor ${industry.name.toLowerCase()}`,
+    // Equipment keywords
+    ...industry.equipment.map(eq => eq.name.toLowerCase()),
+    ...industry.equipment.map(eq => `${eq.name.toLowerCase()} romania`),
+    // Application keywords
+    ...industry.applications.map(a => a.toLowerCase()),
+    // Brand keywords in industry context
+    ...industry.brands,
+    ...industry.brands.map(b => `${b} ${industry.name.toLowerCase()}`),
+    // Client reference keywords (without company names for privacy)
+    `echipamente ${industry.slug}`,
+    `pompe ${industry.name.toLowerCase()}`,
+    `robineti ${industry.name.toLowerCase()}`,
+    // Purchase intent
+    `oferta echipamente ${industry.name.toLowerCase()}`,
+    `pret echipamente ${industry.name.toLowerCase()}`,
+    // General
+    'echipamente industriale romania',
+    'distribuitor autorizat',
+    'piese schimb originale',
+    'service industrial',
+  ];
+
+  // Remove duplicates and limit
+  const keywords = [...new Set(baseKeywords)].slice(0, 35);
+
   return {
     title: industry.metaTitle,
     description: industry.metaDescription,
-    keywords: [
-      industry.name.toLowerCase(),
-      `echipamente ${industry.name.toLowerCase()}`,
-      ...industry.applications.map(a => a.toLowerCase()),
-      ...industry.brands,
-    ],
+    keywords,
     openGraph: {
       title: industry.metaTitle,
       description: industry.metaDescription,

@@ -31,23 +31,50 @@ export async function generateMetadata({ params }) {
   const title = `${category.name} Romania | Distribuitor ${brandNames.split(',').slice(0, 3).join(',')} | Infinitrade`;
   const description = `${category.heroDescription} Distribuitor autorizat: ${brandNames}. Livrare rapidă în România. ${category.stats.brands} branduri, ${category.stats.products} produse. Suport tehnic gratuit.`;
 
+  // Generate comprehensive keywords
+  const baseKeywords = [
+    // Category variations
+    category.name,
+    `${category.name} Romania`,
+    `${category.name} industriale`,
+    `${category.name.toLowerCase()} pret`,
+    `${category.name.toLowerCase()} preturi`,
+    `${category.name.toLowerCase()} oferta`,
+    `${category.name.toLowerCase()} catalog`,
+    // Distributor intent
+    `distribuitor ${category.name.toLowerCase()}`,
+    `distribuitor autorizat ${category.name.toLowerCase()}`,
+    `furnizor ${category.name.toLowerCase()}`,
+    `furnizor ${category.name.toLowerCase()} romania`,
+    // Brand keywords
+    ...category.brands.map(b => b.name),
+    ...category.brands.map(b => `${b.name} Romania`),
+    ...category.brands.slice(0, 5).map(b => `${b.name} ${category.name.toLowerCase()}`),
+    ...category.brands.slice(0, 5).map(b => `${b.name} pret`),
+    // Product type keywords
+    ...category.productTypes.map(p => p.name),
+    ...category.productTypes.map(p => `${p.name.toLowerCase()} pret`),
+    // Application keywords
+    ...category.productTypes.flatMap(pt => pt.applications.slice(0, 2)),
+    // Accessories and services
+    ...category.accessories.slice(0, 5),
+    // Purchase intent
+    `cumpara ${category.name.toLowerCase()}`,
+    `achizitie ${category.name.toLowerCase()}`,
+    // General
+    'echipamente industriale romania',
+    'distribuitor autorizat',
+    'livrare rapida',
+    'piese schimb originale',
+  ];
+
+  // Remove duplicates and limit
+  const keywords = [...new Set(baseKeywords)].slice(0, 40);
+
   return {
     title,
     description,
-    keywords: [
-      category.name,
-      `${category.name} Romania`,
-      `${category.name} industriale`,
-      `distribuitor ${category.name.toLowerCase()}`,
-      `${category.name.toLowerCase()} pret`,
-      `${category.name.toLowerCase()} oferta`,
-      ...category.brands.map(b => `${b.name} Romania`),
-      ...category.brands.map(b => `${b.name} ${category.name.toLowerCase()}`),
-      ...category.productTypes.map(p => p.name),
-      'echipamente industriale',
-      'distribuitor autorizat',
-      'livrare rapida',
-    ],
+    keywords,
     openGraph: {
       title: `${category.name} | Distribuitor Autorizat Romania | Infinitrade`,
       description: `Distribuitor ${category.name.toLowerCase()} în România. Branduri: ${brandNames}. ${category.stats.products} produse disponibile. Livrare 24-72h.`,

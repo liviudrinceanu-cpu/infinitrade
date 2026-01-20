@@ -152,12 +152,37 @@ export const metadata = {
   title: 'Certificari si Autorizari | Distribuitor Autorizat',
   description: 'Certificari si autorizari Infinitrade Romania: ISO 9001, distribuitor autorizat Grundfos, Siemens, KSB. Inregistrat SEAP pentru licitatii publice.',
   keywords: [
+    // Certification keywords
     'certificari infinitrade',
-    'distribuitor autorizat pompe',
-    'distribuitor autorizat grundfos romania',
-    'distribuitor autorizat siemens motoare',
-    'seap echipamente industriale',
+    'certificari echipamente industriale',
+    'certificari iso 9001',
+    'iso 9001 2015',
     'iso 9001 distribuitor',
+    // Authorization keywords
+    'distribuitor autorizat pompe',
+    'distribuitor autorizat romania',
+    'distribuitor autorizat grundfos',
+    'distribuitor autorizat grundfos romania',
+    'distribuitor autorizat wilo',
+    'distribuitor autorizat ksb',
+    'distribuitor autorizat siemens',
+    'distribuitor autorizat siemens motoare',
+    'distribuitor autorizat abb',
+    'distribuitor autorizat alfa laval',
+    // Public procurement
+    'seap echipamente industriale',
+    'sicap echipamente industriale',
+    'licitatii publice echipamente',
+    'fonduri europene echipamente',
+    'achizitii publice pompe',
+    // Quality keywords
+    'produse originale certificate',
+    'garantie producator',
+    'conformitate ce',
+    'certificate conformitate',
+    // Company keywords
+    'driatheli group srl',
+    'infinitrade romania certificari',
   ],
   openGraph: {
     title: 'Certificari si Autorizari | Distribuitor Autorizat',

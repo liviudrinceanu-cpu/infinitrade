@@ -9,11 +9,35 @@ export const metadata = {
   title: 'Blog Tehnic | Ghiduri Echipamente Industriale',
   description: 'Articole tehnice despre pompe industriale, motoare electrice, robineti. Ghiduri de selectie, comparatii, eficienta energetica si mentenanta.',
   keywords: [
+    // Blog main keywords
     'blog echipamente industriale',
+    'blog tehnic industrial',
+    'articole tehnice industriale',
+    'articole pompe industriale',
+    // Guide keywords
     'ghid pompe industriale',
+    'ghid selectie pompe',
+    'ghid alegere pompa',
+    'ghid motoare electrice',
+    'ghid robineti industriali',
+    // Comparison keywords
+    'comparatie pompe industriale',
     'comparatie motoare electrice',
+    'comparatie siemens abb sew',
+    'comparatie grundfos wilo',
+    'comparatie robineti bila fluture',
+    // Technical topics
     'eficienta energetica pompe',
-    'mentenanta pompe',
+    'eficienta energetica motoare',
+    'consum energie pompe',
+    'mentenanta pompe industriale',
+    'mentenanta preventiva',
+    'intretinere pompe',
+    // Information keywords
+    'sfaturi echipamente industriale',
+    'informatii pompe',
+    'cum functioneaza pompele',
+    'tipuri pompe industriale',
   ],
   openGraph: {
     title: 'Blog Tehnic | Ghiduri Echipamente Industriale',
