@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { Mail, MapPin, Clock, ArrowUpRight } from 'lucide-react';
-import { categories, companyInfo } from '@/data/products';
+import { categories, companyInfo, footerIndustries } from '@/data/products';
 import { config } from '@/lib/config';
 import styles from './Footer.module.css';
 
@@ -49,9 +49,11 @@ export default function Footer() {
           <div className={styles.column}>
             <h4 className={styles.columnTitle}>Industrii</h4>
             <ul className={styles.columnList}>
-              {companyInfo.industries.slice(0, 6).map((industry) => (
-                <li key={industry}>
-                  <span className={styles.industryTag}>{industry}</span>
+              {footerIndustries.map((industry) => (
+                <li key={industry.slug}>
+                  <Link href={`/industrii/${industry.slug}`} className={styles.columnLink}>
+                    {industry.name}
+                  </Link>
                 </li>
               ))}
             </ul>

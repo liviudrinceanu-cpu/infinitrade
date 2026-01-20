@@ -184,22 +184,53 @@ export default function Header() {
             {/* Navigation - right of logo */}
             <nav className={styles.nav} aria-label="Navigare principală">
               {navigation.map((item) => {
-                const isCategory = !['/despre-noi', '/contact', '/'].includes(item.href);
-                
+                const isCategory = !['/despre-noi', '/contact', '/', '/blog'].includes(item.href) && !item.isDropdown;
+                const isResourcesDropdown = item.isDropdown;
+
                 return (
                   <div
                     key={item.name}
                     className={styles.navItem}
-                    onMouseEnter={() => isCategory && setActiveDropdown(item.name)}
+                    onMouseEnter={() => (isCategory || isResourcesDropdown) && setActiveDropdown(item.name)}
                     onMouseLeave={() => setActiveDropdown(null)}
                   >
                     <Link href={item.href} className={styles.navLink}>
                       {item.name}
-                      {isCategory && (
+                      {(isCategory || isResourcesDropdown) && (
                         <ChevronDown size={14} className={styles.navChevron} aria-hidden="true" />
                       )}
                     </Link>
-                    
+
+                    {/* Dropdown for Resources */}
+                    <AnimatePresence>
+                      {activeDropdown === item.name && isResourcesDropdown && (
+                        <motion.div
+                          className={styles.dropdown}
+                          initial={{ opacity: 0, y: 10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: 10 }}
+                          transition={{ duration: 0.15 }}
+                          onMouseEnter={() => setActiveDropdown(item.name)}
+                          onMouseLeave={() => setActiveDropdown(null)}
+                        >
+                          <div className={styles.dropdownContent}>
+                            <div className={styles.resourcesGrid}>
+                              {item.children.map(child => (
+                                <Link
+                                  key={child.href}
+                                  href={child.href}
+                                  className={styles.resourceLink}
+                                >
+                                  <span className={styles.resourceName}>{child.name}</span>
+                                  <span className={styles.resourceDesc}>{child.description}</span>
+                                </Link>
+                              ))}
+                            </div>
+                          </div>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+
                     {/* Dropdown for categories */}
                     <AnimatePresence>
                       {activeDropdown === item.name && isCategory && (
@@ -227,8 +258,8 @@ export default function Header() {
                                   <span className={styles.dropdownLabel}>Branduri populare:</span>
                                   <div className={styles.brandTags}>
                                     {category.brands.filter(b => b.featured).slice(0, 4).map(brand => (
-                                      <Link 
-                                        key={brand.slug} 
+                                      <Link
+                                        key={brand.slug}
                                         href={`/brand/${brand.slug}`}
                                         className={styles.brandTag}
                                       >
@@ -421,14 +452,30 @@ export default function Header() {
           >
             <nav className={styles.mobileNav} aria-label="Navigare mobilă">
               {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={styles.mobileNavLink}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {item.name}
-                </Link>
+                item.isDropdown ? (
+                  <div key={item.name} className={styles.mobileDropdownGroup}>
+                    <span className={styles.mobileDropdownLabel}>{item.name}</span>
+                    {item.children.map(child => (
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        className={styles.mobileNavLink}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        {child.name}
+                      </Link>
+                    ))}
+                  </div>
+                ) : (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className={styles.mobileNavLink}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                )
               ))}
               <Link
                 href="/contact"

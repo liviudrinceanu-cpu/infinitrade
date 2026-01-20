@@ -236,7 +236,28 @@ export const navigation = [
   { name: 'Motoare Industriale', href: '/motoare-electrice' },
   { name: 'Schimbătoare Căldură', href: '/schimbatoare-caldura' },
   { name: 'Suflante Industriale', href: '/suflante-ventilatoare' },
+  {
+    name: 'Resurse',
+    href: '/blog',
+    isDropdown: true,
+    children: [
+      { name: 'Blog Tehnic', href: '/blog', description: 'Ghiduri și articole tehnice' },
+      { name: 'Întrebări Frecvente', href: '/faq', description: 'Răspunsuri la întrebări comune' },
+      { name: 'Industrii Deservite', href: '/industrii', description: 'Soluții pe verticale industriale' },
+      { name: 'Certificări', href: '/certificari', description: 'Autorizări și parteneri' },
+    ]
+  },
   { name: 'Contact', href: '/contact' }
+];
+
+// Footer industries with links
+export const footerIndustries = [
+  { name: 'Petrochimie', slug: 'petrochimie' },
+  { name: 'Energie', slug: 'energie' },
+  { name: 'Alimentar', slug: 'alimentar' },
+  { name: 'Farmaceutic', slug: 'farmaceutic' },
+  { name: 'Tratare Apă', slug: 'tratare-apa' },
+  { name: 'Chimie', slug: 'chimie' },
 ];
 
 export const ctaMessages = {
