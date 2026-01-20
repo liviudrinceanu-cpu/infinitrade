@@ -400,7 +400,7 @@
 
 .ctaSection p {
   font-size: 18px;
-  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 32px;
   max-width: 600px;
   margin-left: auto;
