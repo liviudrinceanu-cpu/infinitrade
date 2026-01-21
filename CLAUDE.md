@@ -1,6 +1,41 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 21 Ianuarie 2026 (V44)
+## ULTIMA ACTUALIZARE: 21 Ianuarie 2026 (V45)
+
+---
+
+## MODIFICARI V45 - SEO Audit Fix: 404 Broken Links (21 Ianuarie 2026)
+
+### PROBLEMA IDENTIFICATA
+Ahrefs audit a detectat 7 linkuri sparte (404) cauzate de slug-uri de brand incorecte în paginile de studii de caz.
+
+### CAUZA
+Fișierul `caseStudies.js` conținea slug-uri de brand care nu respectau pattern-ul corect din `products.js`.
+
+### LINKURI INCORECTE vs CORECTE
+
+| Slug Incorect | Slug Corect |
+|---------------|-------------|
+| `motoare-electrice-siemens` | `motoare-electrice-industriale-siemens` |
+| `motoare-electrice-abb` | `motoare-electrice-industriale-abb` |
+| `motoare-electrice-sew-eurodrive` | `motoare-electrice-industriale-sew-eurodrive` |
+| `schimbatoare-caldura-alfa-laval` | `schimbatoare-caldura-industriale-alfa-laval` |
+| `schimbatoare-caldura-kelvion` | `schimbatoare-caldura-industriale-kelvion` |
+| `suflante-ventilatoare-becker` | `suflante-industriale-becker` |
+| `suflante-ventilatoare-fpz` | `suflante-industriale-fpz` |
+
+### FISIER MODIFICAT
+- `src/data/caseStudies.js` - Corectat array-urile `brandSlugs` în toate cele 5 studii de caz
+
+### STUDII DE CAZ AFECTATE
+1. **Case Study 1** (optimizare-sistem-pompare-rafinarie) - linia 97
+2. **Case Study 2** (modernizare-statie-tratare-apa) - linia 210
+3. **Case Study 3** (eficientizare-energetica-industria-alimentara) - linia 322
+4. **Case Study 4** (sistem-termic-centrala-cogenerare) - linia 435
+5. **Case Study 5** (automatizare-statie-compresoare-minerit) - linia 541
+
+### BUILD STATUS
+✅ Build SUCCESS - toate linkurile funcționează corect
 
 ---
 
