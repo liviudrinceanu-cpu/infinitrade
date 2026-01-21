@@ -134,8 +134,8 @@ function generateFaqJsonLd() {
 }
 
 export const metadata = {
-  title: 'Intrebari Frecvente (FAQ) | Furnizor SEAP | Echipamente Industriale',
-  description: 'Raspunsuri la cele mai frecvente intrebari despre echipamente industriale si achizitii publice SEAP/SICAP: pompe, robineti, motoare, licitatii, fonduri europene. Consultanta tehnica gratuita.',
+  title: 'FAQ | Întrebări Frecvente',
+  description: 'Răspunsuri despre echipamente industriale și achiziții SEAP/SICAP: pompe, robineți, motoare, licitații. Consultanță gratuită.',
   keywords: [
     // FAQ specific
     'faq echipamente industriale',

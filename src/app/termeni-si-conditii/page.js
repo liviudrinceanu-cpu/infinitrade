@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import styles from '../legal.module.css';
 
 export const metadata = {
-  title: 'Termeni și Condiții | Infinitrade Romania',
-  description: 'Termeni și condiții de utilizare a site-ului Infinitrade Romania',
+  title: 'Termeni și Condiții',
+  description: 'Termeni și condiții de utilizare a site-ului. Reguli privind comenzile, livrarea și garanția echipamentelor industriale.',
 };
 
 export default function TermeniPage() {

@@ -1,6 +1,70 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 21 Ianuarie 2026 (V45)
+## ULTIMA ACTUALIZARE: 21 Ianuarie 2026 (V46)
+
+---
+
+## MODIFICARI V46 - SEO Audit Fix: Titles, Descriptions, Schema.org (21 Ianuarie 2026)
+
+### PROBLEME IDENTIFICATE (Ahrefs Audit)
+- 51 pagini cu titluri prea lungi (>60 caractere)
+- 28 pagini cu meta descrieri prea lungi (>160 caractere)
+- 9 pagini cu meta descrieri prea scurte (<70 caractere)
+- 11 pagini brand cu erori Schema.org validation
+- Titluri duplicate cauzate de sufixul "| Infinitrade Romania" aplicat de două ori
+
+### CAUZA PRINCIPALĂ - DUPLICATE TITLE SUFFIX
+- `layout.js` root conține template: `%s | Infinitrade Romania`
+- Paginile individuale adăugau și ele "| Infinitrade Romania" în titlu
+- Rezultat: "Titlu | Infinitrade Romania | Infinitrade Romania"
+
+### FIȘIERE MODIFICATE
+
+| Fișier | Modificări |
+|--------|------------|
+| `src/app/page.js` | `title.absolute` pentru a evita template |
+| `src/app/despre-noi/layout.js` | Scurtat titlu, eliminat sufix duplicat |
+| `src/app/contact/layout.js` | Scurtat titlu, eliminat sufix duplicat |
+| `src/app/brand/[brandSlug]/page.js` | Scurtat titlu, fixat Schema.org complet |
+| `src/app/[category]/page.js` | Scurtat titlu |
+| `src/app/industrii/[slug]/page.js` | Eliminat sufix, scurtat titlu |
+| `src/app/industrii/page.js` | Scurtat titlu și descriere |
+| `src/app/blog/[slug]/page.js` | Schimbat "| Blog Infinitrade Romania" → "| Blog" |
+| `src/app/studii-de-caz/[slug]/page.js` | Scurtat titlu, eliminat sufix |
+| `src/app/studii-de-caz/page.js` | Scurtat titlu și descriere |
+| `src/app/faq/page.js` | Scurtat titlu și descriere |
+| `src/app/testimoniale/page.js` | Eliminat sufix, scurtat titlu |
+| `src/app/certificari/page.js` | Scurtat titlu și descriere |
+| `src/app/ghid-comparativ/page.js` | Scurtat titlu și descriere |
+| `src/app/ghid-achizitii-seap/page.js` | Scurtat titlu și descriere |
+| `src/app/politica-confidentialitate/page.js` | Eliminat sufix, expandat descriere |
+| `src/app/termeni-si-conditii/page.js` | Eliminat sufix, expandat descriere |
+| `src/app/politica-cookies/page.js` | Eliminat sufix, expandat descriere |
+| `src/app/gdpr/page.js` | Eliminat sufix, expandat descriere |
+| `src/app/brand/layout.js` | Eliminat sufix din template |
+
+### SCHEMA.ORG FIXES (Brand Pages)
+
+| Eroare | Fix aplicat |
+|--------|-------------|
+| Invalid `variesBy` property | Înlocuit cu `productGroupID` |
+| Missing `image` on ProductGroup | Adăugat `image: 'https://infinitrade.ro/logo-header.png'` |
+| Missing `image` on Product | Adăugat `image` la fiecare Product |
+| Wrong logo path `/logo.png` | Corectat la `/logo-header.png` |
+| Missing price details | Adăugat `price`, `priceValidUntil`, `lowPrice`, `highPrice` |
+| Incomplete Organization | Adăugat adresă completă și contactPoint |
+
+### EXEMPLE MODIFICĂRI
+
+| Pagină | Titlu Vechi | Titlu Nou |
+|--------|-------------|-----------|
+| Homepage | Infinitrade Romania \| Infinitrade Romania | Infinitrade Romania \| Distribuitor Echipamente Industriale |
+| Brand | Grundfos \| Distribuitor Autorizat \| Infinitrade Romania | Grundfos \| Distribuitor Autorizat |
+| Blog Article | Ghid Selectare... \| Blog Infinitrade Romania | Ghid Selectare... \| Blog |
+| FAQ | FAQ \| Întrebări Frecvente \| Infinitrade Romania | FAQ \| Întrebări Frecvente |
+
+### BUILD STATUS
+✅ Build SUCCESS - 103 pagini generate
 
 ---
 

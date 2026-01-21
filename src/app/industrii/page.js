@@ -6,8 +6,8 @@ import { ArrowRight, Factory } from 'lucide-react';
 import styles from './industrii.module.css';
 
 export const metadata = {
-  title: 'Industrii Deservite | Furnizor SEAP | Echipamente Industriale pe Sector',
-  description: 'Furnizor SEAP/SICAP echipamente industriale specializate pentru: petrochimie, alimentar, tratare apa, energie, farmaceutic. Licitații publice și fonduri europene. 15+ ani experienta.',
+  title: 'Industrii Deservite | Furnizor SEAP',
+  description: 'Furnizor SEAP/SICAP echipamente: petrochimie, alimentar, tratare apă, energie, farmaceutic. 15+ ani experiență.',
   keywords: [
     // SEAP / SICAP
     'furnizor SEAP',

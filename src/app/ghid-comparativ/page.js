@@ -6,8 +6,8 @@ import { categories } from '@/data/products';
 import styles from './ghid-comparativ.module.css';
 
 export const metadata = {
-  title: 'Ghid Comparativ Echipamente Industriale | Grundfos vs Wilo vs KSB | Infinitrade',
-  description: 'Comparații detaliate între branduri de echipamente industriale: pompe Grundfos vs Wilo vs KSB, motoare Siemens vs ABB vs SEW, robineți ARI vs Spirax Sarco. Alege corect!',
+  title: 'Ghid Comparativ | Grundfos vs Wilo vs KSB',
+  description: 'Comparații între branduri: pompe Grundfos vs Wilo vs KSB, motoare Siemens vs ABB vs SEW, robineți ARI vs Spirax Sarco.',
   keywords: [
     'comparatie pompe industriale',
     'Grundfos vs Wilo',

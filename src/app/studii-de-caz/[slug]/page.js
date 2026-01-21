@@ -24,13 +24,13 @@ export async function generateMetadata({ params }) {
 
   if (!caseStudy) {
     return {
-      title: 'Studiu de Caz negăsit | Infinitrade Romania',
+      title: 'Studiu de Caz negăsit',
       description: 'Pagina căutată nu a fost găsită.',
     };
   }
 
-  const title = `${caseStudy.title} | Studiu de Caz Infinitrade`;
-  const description = `${caseStudy.excerpt} Branduri: ${caseStudy.brands.join(', ')}. Rezultate: ${Object.values(caseStudy.results).join(', ')}.`;
+  const title = `${caseStudy.shortTitle} | Studiu de Caz`;
+  const description = `${caseStudy.excerpt} Branduri: ${caseStudy.brands.join(', ')}.`;
 
   return {
     title,

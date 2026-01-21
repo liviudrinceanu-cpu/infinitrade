@@ -17,13 +17,13 @@ export async function generateMetadata({ params }) {
 
   if (!brand || !category) {
     return {
-      title: 'Brand negasit | Infinitrade Romania',
-      description: 'Pagina cautata nu a fost gasita.',
+      title: 'Brand negăsit',
+      description: 'Pagina căutată nu a fost găsită.',
     };
   }
 
-  const title = `${brand.name} Romania | Distribuitor Autorizat ${category.name} | Furnizor SEAP`;
-  const description = `Distribuitor autorizat ${brand.name} (${brand.country}) in Romania. Furnizor inregistrat SEAP/SICAP pentru licitatii si achizitii publice. ${brand.description}. Documentatie completa pentru fonduri europene. Livrare rapida 24-72h.`;
+  const title = `${brand.name} | Distribuitor Autorizat`;
+  const description = `Distribuitor autorizat ${brand.name} (${brand.country}). Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
 
   // Generate comprehensive keywords based on brand, category, and products
   const baseKeywords = [
@@ -107,6 +107,7 @@ function generateJsonLd(brand, category) {
     '@id': `https://infinitrade.ro/brand/${brand.slug}#product-${product.slug}`,
     name: `${product.name} ${brand.name}`,
     description: product.description,
+    image: `https://infinitrade.ro/logo-header.png`,
     category: category.name,
     brand: {
       '@type': 'Brand',
@@ -122,7 +123,9 @@ function generateJsonLd(brand, category) {
     },
     offers: {
       '@type': 'Offer',
-      priceCurrency: 'EUR',
+      priceCurrency: 'RON',
+      price: '0',
+      priceValidUntil: '2026-12-31',
       availability: 'https://schema.org/InStock',
       itemCondition: 'https://schema.org/NewCondition',
       seller: {
@@ -130,20 +133,7 @@ function generateJsonLd(brand, category) {
         name: 'Infinitrade Romania',
         url: 'https://infinitrade.ro',
       },
-      priceSpecification: {
-        '@type': 'PriceSpecification',
-        priceCurrency: 'EUR',
-        eligibleRegion: {
-          '@type': 'Country',
-          name: 'Romania',
-        },
-      },
     },
-    additionalProperty: product.applications.map(app => ({
-      '@type': 'PropertyValue',
-      name: 'Aplicatie',
-      value: app,
-    })),
   }));
 
   return {
@@ -155,18 +145,19 @@ function generateJsonLd(brand, category) {
         '@id': 'https://infinitrade.ro/#organization',
         name: 'Infinitrade Romania',
         url: 'https://infinitrade.ro',
-        logo: 'https://infinitrade.ro/logo.png',
+        logo: 'https://infinitrade.ro/logo-header.png',
         description: 'Distribuitor autorizat echipamente industriale Romania',
         address: {
           '@type': 'PostalAddress',
-          streetAddress: 'Ghiroda',
-          addressLocality: 'Timisoara',
+          streetAddress: 'Calea Lugojului nr.47/B, Hala nr. 3',
+          addressLocality: 'Ghiroda',
           addressRegion: 'Timis',
+          postalCode: '307200',
           addressCountry: 'RO',
         },
         contactPoint: {
           '@type': 'ContactPoint',
-          telephone: '+40-256-XXX-XXX',
+          telephone: '+40-371-232-404',
           contactType: 'sales',
           areaServed: 'RO',
           availableLanguage: ['Romanian', 'English'],
@@ -203,10 +194,10 @@ function generateJsonLd(brand, category) {
         name: `${brand.name} ${category.name}`,
         description: `${brand.description}. Distribuitor autorizat ${brand.name} in Romania - produse originale, piese schimb, suport tehnic.`,
         url: `https://infinitrade.ro/brand/${brand.slug}`,
+        image: 'https://infinitrade.ro/logo-header.png',
         brand: {
           '@type': 'Brand',
           name: brand.name,
-          logo: `https://infinitrade.ro/brands/${brand.slug}.png`,
         },
         manufacturer: {
           '@type': 'Organization',
@@ -217,12 +208,12 @@ function generateJsonLd(brand, category) {
           },
         },
         hasVariant: productItems,
-        variesBy: [
-          'https://schema.org/product-type',
-        ],
+        productGroupID: brand.slug,
         offers: {
           '@type': 'AggregateOffer',
-          priceCurrency: 'EUR',
+          priceCurrency: 'RON',
+          lowPrice: '0',
+          highPrice: '999999',
           availability: 'https://schema.org/InStock',
           offerCount: productItems.length,
           seller: {

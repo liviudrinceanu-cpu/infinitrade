@@ -7,8 +7,8 @@ import { categories } from '@/data/products';
 import styles from './testimoniale.module.css';
 
 export const metadata = {
-  title: 'Testimoniale Clienți | Recenzii Echipamente Industriale | Infinitrade Romania',
-  description: `${testimonialStats.totalClients}+ clienți mulțumiți din ${testimonialStats.industriesServed} industrii. Rating ${testimonialStats.avgRating}/5. Citește experiențele clienților noștri cu pompe industriale, motoare electrice, robineți și alte echipamente.`,
+  title: 'Testimoniale Clienți | Recenzii',
+  description: `${testimonialStats.totalClients}+ clienți mulțumiți din ${testimonialStats.industriesServed} industrii. Rating ${testimonialStats.avgRating}/5. Experiențe cu pompe, motoare, robineți industriali.`,
   keywords: [
     'testimoniale echipamente industriale',
     'recenzii pompe industriale',
@@ -21,7 +21,7 @@ export const metadata = {
   ],
   openGraph: {
     title: 'Testimoniale Clienți | Infinitrade Romania',
-    description: `${testimonialStats.totalClients}+ clienți mulțumiți. Rating ${testimonialStats.avgRating}/5. Citește experiențele reale ale clienților noștri.`,
+    description: `${testimonialStats.totalClients}+ clienți mulțumiți. Rating ${testimonialStats.avgRating}/5. Experiențe reale ale clienților.`,
     url: 'https://infinitrade.ro/testimoniale',
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',

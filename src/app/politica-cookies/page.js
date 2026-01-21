@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import styles from '../legal.module.css';
 
 export const metadata = {
-  title: 'Politica Cookies | Infinitrade Romania',
-  description: 'Informații despre utilizarea cookie-urilor pe site-ul Infinitrade Romania',
+  title: 'Politica Cookies',
+  description: 'Informații despre utilizarea cookie-urilor pe site. Tipuri de cookies, scopuri și gestionarea preferințelor.',
 };
 
 export default function CookiesPage() {

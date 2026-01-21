@@ -21,8 +21,8 @@ export async function generateMetadata({ params }) {
 
   if (!industry) {
     return {
-      title: 'Industrie negasita | Infinitrade Romania',
-      description: 'Pagina cautata nu a fost gasita.',
+      title: 'Industrie negăsită',
+      description: 'Pagina căutată nu a fost găsită.',
     };
   }
 
@@ -69,9 +69,9 @@ export async function generateMetadata({ params }) {
   // Remove duplicates and limit
   const keywords = [...new Set(baseKeywords)].slice(0, 40);
 
-  // Enhanced title and description with SEAP
-  const enhancedTitle = `${industry.metaTitle} | Furnizor SEAP`;
-  const enhancedDescription = `${industry.metaDescription} Furnizor înregistrat SEAP/SICAP. Documentație completă pentru licitații și fonduri europene.`;
+  // Shortened title for SEO
+  const enhancedTitle = industry.shortTitle || industry.metaTitle.split('|')[0].trim();
+  const enhancedDescription = `${industry.metaDescription} Furnizor SEAP/SICAP.`;
 
   return {
     title: enhancedTitle,

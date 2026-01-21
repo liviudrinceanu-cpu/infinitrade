@@ -57,7 +57,7 @@ export async function generateMetadata({ params }) {
   const keywords = [...new Set(baseKeywords.filter(k => k && k.length > 2))].slice(0, 25);
 
   return {
-    title: `${article.title} | Blog Infinitrade Romania`,
+    title: `${article.title} | Blog`,
     description: article.excerpt,
     keywords,
     authors: [{ name: article.author }],

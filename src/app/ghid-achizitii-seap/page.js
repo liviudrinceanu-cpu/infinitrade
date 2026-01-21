@@ -312,8 +312,8 @@ function generateSeapGuideSchema() {
 }
 
 export const metadata = {
-  title: 'Ghid Complet Achiziții SEAP/SICAP | Echipamente Industriale | Coduri CPV',
-  description: 'Ghid detaliat pentru achiziții publice SEAP/SICAP de echipamente industriale: pompe Grundfos, robineți ARI, motoare Siemens. Coduri CPV complete, documentație licitații, proceduri achiziție directă. Furnizor verificat SEAP.',
+  title: 'Ghid Achiziții SEAP | Coduri CPV',
+  description: 'Ghid achiziții SEAP/SICAP echipamente industriale: coduri CPV, documentație licitații, proceduri achiziție directă. Furnizor verificat.',
   keywords: [
     // SEAP/SICAP primary
     'ghid SEAP',

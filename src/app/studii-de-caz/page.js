@@ -7,8 +7,8 @@ import { ArrowRight, Factory, Zap, TrendingUp, Clock, Award } from 'lucide-react
 import styles from './studii-de-caz.module.css';
 
 export const metadata = {
-  title: 'Studii de Caz | Proiecte Echipamente Industriale România',
-  description: 'Studii de caz reale: pompe Grundfos și KSB în rafinării, motoare Siemens și ABB în industria alimentară, schimbătoare Alfa Laval în centrale termice. Rezultate măsurabile.',
+  title: 'Studii de Caz | Proiecte Industriale',
+  description: 'Studii de caz: pompe Grundfos și KSB în rafinării, motoare Siemens și ABB în industria alimentară, schimbătoare Alfa Laval. Rezultate măsurabile.',
   keywords: [
     'studii de caz echipamente industriale',
     'proiecte pompe industriale romania',

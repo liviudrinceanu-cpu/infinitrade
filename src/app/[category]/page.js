@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
 
   if (!category) {
     return {
-      title: 'Categorie negăsită | Infinitrade Romania',
+      title: 'Categorie negăsită',
     };
   }
 
@@ -29,8 +29,8 @@ export async function generateMetadata({ params }) {
   const brandNames = category.brands.map(b => b.name).join(', ');
   const productTypeNames = category.productTypes.map(p => p.name).slice(0, 5).join(', ');
 
-  const title = `${category.name} Romania | Furnizor SEAP | Distribuitor ${brandNames.split(',').slice(0, 2).join(',')}`;
-  const description = `${category.heroDescription} Furnizor înregistrat SEAP/SICAP pentru licitații și achiziții publice. Distribuitor autorizat: ${brandNames}. Documentație completă pentru fonduri europene. ${category.stats.brands} branduri, ${category.stats.products} produse.`;
+  const title = `${category.name} | Distribuitor Autorizat`;
+  const description = `${category.heroDescription} Furnizor SEAP/SICAP. Distribuitor: ${brandNames}. ${category.stats.brands} branduri.`;
 
   // Generate comprehensive keywords
   const baseKeywords = [
@@ -104,7 +104,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${category.name} | Infinitrade Romania`,
+      title: `${category.name} | Distribuitor`,
       description: `Distribuitor ${category.name.toLowerCase()} în România. ${category.stats.brands} branduri premium.`,
     },
     alternates: {

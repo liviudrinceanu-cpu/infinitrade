@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Despre Noi | Distribuitor Echipamente Industriale din 2009 | Infinitrade Romania',
-  description: 'Infinitrade Romania - distribuitor autorizat echipamente industriale din 2009. Peste 500 branduri, 800+ clienți industriali, 300+ furnizori globali. ISO 9001:2015, furnizor SEAP.',
+  title: 'Despre Noi | Distribuitor din 2009',
+  description: 'Infinitrade Romania - distribuitor autorizat echipamente industriale din 2009. 500+ branduri, 800+ clienți industriali. ISO 9001:2015, furnizor SEAP.',
   keywords: 'despre infinitrade, distribuitor echipamente industriale, driatheli group, furnizor industrial romania, iso 9001',
   alternates: {
     canonical: 'https://infinitrade.ro/despre-noi',

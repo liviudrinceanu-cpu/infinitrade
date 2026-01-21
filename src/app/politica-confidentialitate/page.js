@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import styles from '../legal.module.css';
 
 export const metadata = {
-  title: 'Politica de Confidențialitate | Infinitrade Romania',
-  description: 'Politica de confidențialitate și protecția datelor personale - Infinitrade Romania',
+  title: 'Politica de Confidențialitate',
+  description: 'Politica de confidențialitate și protecția datelor personale. Informații despre prelucrarea datelor conform GDPR.',
 };
 
 export default function ConfidentialitatePage() {

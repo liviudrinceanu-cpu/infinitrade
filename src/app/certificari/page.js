@@ -150,8 +150,8 @@ function generateCertificationsSchema() {
 }
 
 export const metadata = {
-  title: 'Certificari si Autorizari | Furnizor SEAP SICAP | Distribuitor Autorizat',
-  description: 'Furnizor verificat SEAP/SICAP pentru licitații și achiziții publice. Certificări ISO 9001, distribuitor autorizat Grundfos, Siemens, KSB. Documentație completă pentru fonduri europene și PNRR.',
+  title: 'Certificări | Furnizor SEAP',
+  description: 'Furnizor verificat SEAP/SICAP. Certificări ISO 9001, distribuitor autorizat Grundfos, Siemens, KSB. Documentație pentru licitații și fonduri europene.',
   keywords: [
     // SEAP / SICAP Primary keywords
     'furnizor SEAP',

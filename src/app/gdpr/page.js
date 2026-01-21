@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import styles from '../legal.module.css';
 
 export const metadata = {
-  title: 'GDPR - Protecția Datelor | Infinitrade Romania',
-  description: 'Informații GDPR și drepturile persoanelor vizate - Infinitrade Romania',
+  title: 'GDPR - Protecția Datelor',
+  description: 'Informații GDPR și drepturile dumneavoastră conform Regulamentului (UE) 2016/679 privind protecția datelor personale.',
 };
 
 export default function GDPRPage() {
