@@ -115,17 +115,26 @@ Adăugat `shortTitle` la toate cele 15 articole de blog pentru a respecta limita
 | `src/app/page.js` | Descriere scurtată |
 | `src/app/contact/layout.js` | Schema.org logo/image |
 
-### VERIFICARE LIVE
+### VERIFICARE LIVE (21 Ianuarie 2026, 21:30)
 
 | Pagină | Titlu | Descriere | Schema |
 |--------|-------|-----------|--------|
 | Homepage | ✅ 55 chars | ✅ 141 chars | ✅ |
-| Pompe Industriale | ✅ Scurt | ✅ 155 chars | ✅ |
-| Blog Article | ✅ shortTitle | ✅ | ✅ |
+| Pompe Industriale | ✅ 57 chars | ✅ 158 chars | ✅ |
+| Blog Article | ✅ shortTitle (34 chars) | ✅ | ✅ |
 | SEW Brand Page | ✅ Nu mai e 404 | ✅ | ✅ |
+| Case Study Link | ✅ `/brand/motoare-electrice-industriale-sew` | ✅ | ✅ |
+
+**NOTĂ IMPORTANTĂ:** Audit-ul Ahrefs din 21:24 (21 Ianuarie 2026) conține date VECHI crawlate înainte de deploy-ul V47. Toate fix-urile au fost verificate LIVE și funcționează corect. Pentru a vedea rezultatele corecte în Ahrefs:
+- Solicită re-crawl manual în Ahrefs Site Audit
+- Sau așteaptă re-crawl-ul automat periodic
 
 ### BUILD STATUS
 ✅ Build SUCCESS - 103 pagini generate
+
+### COMMITS V47
+- `2a32945` - V47: Ahrefs SEO Audit Fixes - Titles, Descriptions, Schema.org
+- `fa71b9d` - docs: Update CLAUDE.md with V47 Ahrefs audit fixes
 
 ---
 
