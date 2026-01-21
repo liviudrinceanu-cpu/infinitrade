@@ -1,6 +1,131 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 21 Ianuarie 2026 (V46)
+## ULTIMA ACTUALIZARE: 21 Ianuarie 2026 (V47)
+
+---
+
+## MODIFICARI V47 - Ahrefs SEO Audit Fixes Round 2 (21 Ianuarie 2026)
+
+### PROBLEME IDENTIFICATE (Ahrefs Audit Export)
+- 1 link 404: `/brand/motoare-electrice-industriale-sew-eurodrive`
+- 18 pagini cu titluri prea lungi (>60 caractere) - blog articles și categorii
+- 16 pagini cu meta descrieri prea lungi (>160 caractere)
+- 5 pagini categorii cu erori Schema.org validation
+- 13 pagini industrii cu erori Google rich results
+
+### FIX 1: 404 ERROR - SEW EURODRIVE SLUG
+
+| Problemă | Cauză | Soluție |
+|----------|-------|---------|
+| `/brand/motoare-electrice-industriale-sew-eurodrive` returna 404 | Slug greșit în `caseStudies.js` (Case Study 3) | Corectat la `motoare-electrice-industriale-sew` |
+
+**Fișier:** `src/data/caseStudies.js` linia 322
+
+### FIX 2: TITLURI PREA LUNGI (Blog Articles)
+
+Adăugat `shortTitle` la toate cele 15 articole de blog pentru a respecta limita de 60 caractere.
+
+| Articol | shortTitle Nou |
+|---------|----------------|
+| Ghid Selectare Pompă | `Ghid Selectare Pompe Industriale` |
+| Siemens vs ABB vs SEW | `Siemens vs ABB vs SEW: Comparație` |
+| Reducere Consum 35% | `Studiu de Caz: -35% Consum Pompe` |
+| Bilă vs Fluture | `Robineți Bilă vs Fluture: Ghid` |
+| Mentenanță Preventivă | `Mentenanță Preventivă Pompe` |
+| Schimbătoare Căldură | `Ghid Schimbătoare de Căldură` |
+| Suflante Industriale | `Tipuri de Suflante Industriale` |
+| Garnituri Mecanice | `Garnituri Mecanice: Ghid Complet` |
+| Echipamente ATEX | `Echipamente ATEX: Ghid Practic` |
+| Grundfos vs Wilo | `Grundfos vs Wilo: Comparație` |
+| Oale de Condens | `Oale de Condens: Ghid Complet` |
+| VFD Beneficii | `Convertizoare Frecvență: Merită?` |
+| Alfa Laval vs Kelvion | `Alfa Laval vs Kelvion` |
+| 10 Greșeli Echipamente | `10 Greșeli Care Distrug Echipamente` |
+| Tendințe 2026 | `Tendințe Echipamente 2026` |
+
+**Fișiere modificate:**
+- `src/data/blog.js` - adăugat `shortTitle` la fiecare articol
+- `src/app/blog/[slug]/page.js` - folosește `shortTitle` în metadata
+
+### FIX 3: TITLURI CATEGORII SCURTATE
+
+| Pagină | Titlu Vechi | Titlu Nou |
+|--------|-------------|-----------|
+| Categorii | `Pompe Industriale \| Distribuitor Autorizat` | `Pompe Industriale \| Distribuitor` |
+
+**Fișier:** `src/app/[category]/page.js`
+
+### FIX 4: META DESCRIERI PREA LUNGI
+
+| Pagină | Modificare |
+|--------|------------|
+| Homepage | Scurtat de la 168 la 141 caractere |
+| Categorii | Folosește `metaDescription` din data (optimizat) |
+| Industrii | Eliminat ` Furnizor SEAP/SICAP.` adăugat dinamic |
+| Studii de Caz | Trunchiat excerpt la 140 caractere |
+
+**Fișiere modificate:**
+- `src/app/page.js`
+- `src/app/[category]/page.js`
+- `src/app/industrii/[slug]/page.js`
+- `src/app/studii-de-caz/[slug]/page.js`
+
+### FIX 5: SCHEMA.ORG VALIDATION ERRORS (Categorii)
+
+| Eroare | Fix Aplicat |
+|--------|-------------|
+| Missing `image` on ProductGroup | Adăugat `image: 'https://infinitrade.ro/logo-header.png'` |
+| Missing `productGroupID` | Adăugat `productGroupID: category.slug` |
+| Missing `lowPrice/highPrice` | Adăugat `lowPrice: '100'`, `highPrice: '50000'` |
+| Wrong logo path | Corectat `/logo.png` → `/logo-header.png` |
+| Too many brands in schema | Limitat la primele 5 branduri |
+
+**Fișier:** `src/app/[category]/page.js`
+
+### FIX 6: GOOGLE RICH RESULTS ERRORS (Industrii)
+
+| Eroare | Fix Aplicat |
+|--------|-------------|
+| Service missing `image` | Adăugat `image: 'https://infinitrade.ro/logo-header.png'` |
+| Service missing `serviceType` | Adăugat `serviceType: 'Industrial Equipment Distribution'` |
+| Provider missing `logo` | Adăugat `logo` la Organization |
+| Missing Organization schema | Adăugat Organization cu `contactPoint` |
+
+**Fișier:** `src/app/industrii/[slug]/page.js`
+
+### FIX 7: CONTACT PAGE SCHEMA
+
+| Eroare | Fix Aplicat |
+|--------|-------------|
+| Organization missing `logo` | Adăugat `logo: 'https://infinitrade.ro/logo-header.png'` |
+| Organization missing `image` | Adăugat `image: 'https://infinitrade.ro/logo-header.png'` |
+
+**Fișier:** `src/app/contact/layout.js`
+
+### FIȘIERE MODIFICATE SUMAR
+
+| Fișier | Tip Modificare |
+|--------|----------------|
+| `src/data/caseStudies.js` | Fix 404 slug SEW |
+| `src/data/blog.js` | Adăugat 15 shortTitle |
+| `src/app/blog/[slug]/page.js` | Folosește shortTitle |
+| `src/app/[category]/page.js` | Titlu scurt + Schema.org fixes |
+| `src/app/industrii/[slug]/page.js` | Descriere + Schema.org fixes |
+| `src/app/studii-de-caz/[slug]/page.js` | Descriere trunchiată |
+| `src/app/page.js` | Descriere scurtată |
+| `src/app/contact/layout.js` | Schema.org logo/image |
+
+### VERIFICARE LIVE
+
+| Pagină | Titlu | Descriere | Schema |
+|--------|-------|-----------|--------|
+| Homepage | ✅ 55 chars | ✅ 141 chars | ✅ |
+| Pompe Industriale | ✅ Scurt | ✅ 155 chars | ✅ |
+| Blog Article | ✅ shortTitle | ✅ | ✅ |
+| SEW Brand Page | ✅ Nu mai e 404 | ✅ | ✅ |
+
+### BUILD STATUS
+✅ Build SUCCESS - 103 pagini generate
 
 ---
 
@@ -82,7 +207,7 @@ Fișierul `caseStudies.js` conținea slug-uri de brand care nu respectau pattern
 |---------------|-------------|
 | `motoare-electrice-siemens` | `motoare-electrice-industriale-siemens` |
 | `motoare-electrice-abb` | `motoare-electrice-industriale-abb` |
-| `motoare-electrice-sew-eurodrive` | `motoare-electrice-industriale-sew-eurodrive` |
+| `motoare-electrice-sew-eurodrive` | `motoare-electrice-industriale-sew` |
 | `schimbatoare-caldura-alfa-laval` | `schimbatoare-caldura-industriale-alfa-laval` |
 | `schimbatoare-caldura-kelvion` | `schimbatoare-caldura-industriale-kelvion` |
 | `suflante-ventilatoare-becker` | `suflante-industriale-becker` |
