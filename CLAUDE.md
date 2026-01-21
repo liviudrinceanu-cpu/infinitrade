@@ -1,6 +1,34 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 21 Ianuarie 2026 (V43)
+## ULTIMA ACTUALIZARE: 21 Ianuarie 2026 (V44)
+
+---
+
+## MODIFICARI V44 - Image Optimization (21 Ianuarie 2026)
+
+### PROBLEMA
+Imaginile din `/public/` erau prea mari și neoptimizate, încetinind încărcarea paginii.
+
+### OPTIMIZARI EFECTUATE
+
+| Imagine | Dimensiune Originală | Dimensiune Nouă | Reducere |
+|---------|---------------------|-----------------|----------|
+| `favicon.jpg` | 98 KB (1249×1249) | 2.3 KB (64×64) | **97.6%** |
+| `logo-icon.jpg` | 98 KB (1249×1249) | 6 KB (180×180) | **93.9%** |
+| `logo-header.png` | 81 KB (636×504) | 32 KB (636×504) | **60.3%** |
+| **TOTAL** | **278 KB** | **41 KB** | **85%** |
+
+### METODE UTILIZATE
+- `sips` (macOS) pentru redimensionare și compresie JPEG
+- `pngquant` pentru optimizare PNG fără pierdere vizibilă (quality 80-95)
+
+### DIMENSIUNI CORECTE
+- **favicon.jpg**: 64×64 (standard pentru favicon)
+- **logo-icon.jpg**: 180×180 (standard pentru apple-touch-icon)
+- **logo-header.png**: 636×504 (dimensiune originală, doar comprimat)
+
+### BUILD STATUS
+✅ Build SUCCESS - 103 pagini generate
 
 ---
 
