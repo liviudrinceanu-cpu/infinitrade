@@ -29,8 +29,10 @@ export async function generateMetadata({ params }) {
   const brandNames = category.brands.map(b => b.name).join(', ');
   const productTypeNames = category.productTypes.map(p => p.name).slice(0, 5).join(', ');
 
-  const title = `${category.name} | Distribuitor Autorizat`;
-  const description = `${category.heroDescription} Furnizor SEAP/SICAP. Distribuitor: ${brandNames}. ${category.stats.brands} branduri.`;
+  // Shorten title to stay under 60 chars with template suffix (21 chars for " | Infinitrade Romania")
+  const title = `${category.name} | Distribuitor`;
+  // Use metaDescription from data (already optimized for length) instead of dynamic description
+  const description = category.metaDescription;
 
   // Generate comprehensive keywords
   const baseKeywords = [
@@ -140,27 +142,26 @@ export default async function CategoryPage({ params }) {
         name: category.name,
         description: category.heroDescription,
         url: `https://infinitrade.ro/${category.slug}`,
-        brand: category.brands.map(brand => ({
+        image: 'https://infinitrade.ro/logo-header.png',
+        productGroupID: category.slug,
+        brand: category.brands.slice(0, 5).map(brand => ({
           '@type': 'Brand',
           name: brand.name,
-          url: `https://infinitrade.ro/brand/${brand.slug}`,
         })),
-        hasVariant: category.productTypes.map(type => ({
+        hasVariant: category.productTypes.slice(0, 5).map(type => ({
           '@type': 'Product',
           name: type.name,
           description: type.description,
-          category: category.name,
+          image: 'https://infinitrade.ro/logo-header.png',
           offers: {
             '@type': 'AggregateOffer',
             priceCurrency: 'EUR',
+            lowPrice: '100',
+            highPrice: '50000',
+            offerCount: parseInt(category.stats.products) || 100,
             availability: 'https://schema.org/InStock',
-            seller: {
-              '@type': 'Organization',
-              name: 'Infinitrade Romania',
-            },
           },
         })),
-        numberOfItems: parseInt(category.stats.products) || 100,
       },
       // Breadcrumb Schema
       {
@@ -187,7 +188,7 @@ export default async function CategoryPage({ params }) {
         '@id': 'https://infinitrade.ro/#organization',
         name: 'Infinitrade Romania',
         url: 'https://infinitrade.ro',
-        logo: 'https://infinitrade.ro/logo.png',
+        logo: 'https://infinitrade.ro/logo-header.png',
         description: `Distribuitor autorizat ${category.name.toLowerCase()} în România`,
         address: {
           '@type': 'PostalAddress',

@@ -28,6 +28,8 @@ const contactPageSchema = {
     '@type': 'Organization',
     '@id': 'https://infinitrade.ro/#organization',
     name: 'Infinitrade Romania',
+    logo: 'https://infinitrade.ro/logo-header.png',
+    image: 'https://infinitrade.ro/logo-header.png',
     telephone: '+40-371-232-404',
     email: 'vanzari@infinitrade.ro',
     address: {

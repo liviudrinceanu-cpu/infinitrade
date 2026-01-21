@@ -69,9 +69,10 @@ export async function generateMetadata({ params }) {
   // Remove duplicates and limit
   const keywords = [...new Set(baseKeywords)].slice(0, 40);
 
-  // Shortened title for SEO
+  // Shortened title for SEO - use shortTitle if available, otherwise extract first part of metaTitle
   const enhancedTitle = industry.shortTitle || industry.metaTitle.split('|')[0].trim();
-  const enhancedDescription = `${industry.metaDescription} Furnizor SEAP/SICAP.`;
+  // Use metaDescription directly (already contains SEAP/SICAP info where needed)
+  const enhancedDescription = industry.metaDescription;
 
   return {
     title: enhancedTitle,
@@ -121,28 +122,33 @@ function generateIndustryJsonLd(industry) {
       },
       {
         '@type': 'Service',
+        '@id': `https://infinitrade.ro/industrii/${industry.slug}#service`,
         name: `Echipamente pentru ${industry.name}`,
         description: industry.metaDescription,
+        image: 'https://infinitrade.ro/logo-header.png',
         provider: {
           '@type': 'Organization',
           name: 'Infinitrade Romania',
           url: 'https://infinitrade.ro',
+          logo: 'https://infinitrade.ro/logo-header.png',
         },
         areaServed: {
           '@type': 'Country',
           name: 'Romania',
         },
-        hasOfferCatalog: {
-          '@type': 'OfferCatalog',
-          name: `Echipamente ${industry.name}`,
-          itemListElement: industry.equipment.map((eq) => ({
-            '@type': 'Offer',
-            itemOffered: {
-              '@type': 'Product',
-              name: eq.name,
-              description: eq.description,
-            },
-          })),
+        serviceType: 'Industrial Equipment Distribution',
+      },
+      {
+        '@type': 'Organization',
+        '@id': 'https://infinitrade.ro/#organization',
+        name: 'Infinitrade Romania',
+        url: 'https://infinitrade.ro',
+        logo: 'https://infinitrade.ro/logo-header.png',
+        contactPoint: {
+          '@type': 'ContactPoint',
+          telephone: '+40-371-232-404',
+          contactType: 'sales',
+          availableLanguage: ['Romanian', 'English'],
         },
       },
     ],

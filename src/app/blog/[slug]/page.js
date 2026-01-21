@@ -56,8 +56,12 @@ export async function generateMetadata({ params }) {
   // Remove empty strings, duplicates, and limit
   const keywords = [...new Set(baseKeywords.filter(k => k && k.length > 2))].slice(0, 25);
 
+  // Truncate title to fit within 60 char limit (with template suffix)
+  // Template adds " | Infinitrade Romania" (21 chars), so title should be max 39 chars
+  const shortTitle = article.shortTitle || article.title.substring(0, 38);
+
   return {
-    title: `${article.title} | Blog`,
+    title: shortTitle,
     description: article.excerpt,
     keywords,
     authors: [{ name: article.author }],

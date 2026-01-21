@@ -30,7 +30,11 @@ export async function generateMetadata({ params }) {
   }
 
   const title = `${caseStudy.shortTitle} | Studiu de Caz`;
-  const description = `${caseStudy.excerpt} Branduri: ${caseStudy.brands.join(', ')}.`;
+  // Truncate excerpt to 140 chars to leave room for brand mention
+  const shortExcerpt = caseStudy.excerpt.length > 140
+    ? caseStudy.excerpt.substring(0, 137) + '...'
+    : caseStudy.excerpt;
+  const description = shortExcerpt;
 
   return {
     title,

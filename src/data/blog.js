@@ -6,6 +6,7 @@ export const blogArticles = [
     id: 1,
     slug: 'ghid-selectare-pompa-industriala',
     title: 'Cum Alegi Pompa Industrială Potrivită: Lecții din 15 Ani de Experiență',
+    shortTitle: 'Ghid Selectare Pompe Industriale',
     excerpt: 'Am ajutat sute de clienți să aleagă pompe industriale. Iată ce am învățat despre debit, presiune, NPSH și de ce dimensionarea greșită costă mai mult decât crezi.',
     content: `
 Am văzut de multe ori aceeași greșeală: un client comandă o pompă "mai mare, să fie sigur". După 6 luni, pompele supradimensionate consumă cu 30% mai multă energie și se uzează prematur din cauza funcționării în afara punctului optim.
@@ -69,6 +70,7 @@ Dacă tot ce ai citit pare complicat - nu te stresa. Trimite-ne parametrii proce
     id: 2,
     slug: 'comparatie-motoare-siemens-abb-sew',
     title: 'Siemens, ABB sau SEW? O Comparație Sinceră După Ani de Lucru cu Toate Trei',
+    shortTitle: 'Siemens vs ABB vs SEW: Comparație',
     excerpt: 'Vindem toate cele trei branduri și nu avem favoritism. Iată când recomandăm fiecare și de ce. Cu cifre concrete din service.',
     content: `
 Primim des întrebarea: "Care e cel mai bun motor?". Răspunsul corect e: depinde. Și nu, nu e un răspuns de evitare (deși sună așa) - chiar depinde de aplicație, de buget, și de ce fel de suport ai nevoie după.
@@ -156,6 +158,7 @@ Dacă nu știi ce să alegi, spune-ne aplicația și îți recomandăm noi. Nu a
     id: 3,
     slug: 'reducere-consum-energetic-pompe',
     title: 'Cum Am Redus Consumul cu 35% la un Client din Cluj: Studiu de Caz Pompe',
+    shortTitle: 'Studiu de Caz: -35% Consum Pompe',
     excerpt: 'Un client ne-a cerut să optimizăm stația de pompare. Bugetul era strâns, timpul scurt. Iată ce am făcut și cât a economisit.',
     content: `
 În septembrie 2024, un producător de componente auto din zona Cluj ne-a contactat cu o problemă: facturile la energie explodaseră. Printre principalii consumatori erau pompele din sistemul de răcire - 4 pompe de 37 kW fiecare, funcționând aproape non-stop.
@@ -222,6 +225,7 @@ Facem audit energetic gratuit pentru sistemele de pompare. Venim, măsurăm, cal
     id: 4,
     slug: 'robineti-bila-vs-fluture-ghid',
     title: 'Bilă sau Fluture? Un Ghid Practic pentru Alegerea Robinetului',
+    shortTitle: 'Robineți Bilă vs Fluture: Ghid',
     excerpt: 'Două tipuri de robineți, fiecare cu rolul lui. Când alegi unul, când altul, și când nu contează.',
     content: `
 E o întrebare pe care o primim săptămânal: "Ce robinet să pun?". Răspunsul depinde de câțiva factori simpli, dar importanți.
@@ -301,6 +305,7 @@ Nu există "mai bun" în general - există "potrivit pentru ce ai tu de făcut".
     id: 5,
     slug: 'mentenanta-preventiva-pompe-industriale',
     title: 'Programul de Mentenanță Care Ne-a Redus Intervențiile de Urgență cu 80%',
+    shortTitle: 'Mentenanță Preventivă Pompe',
     excerpt: 'Am implementat același sistem la zeci de clienți. Iată checklist-ul complet și intervalele care funcționează.',
     content: `
 Până prin 2019-2020, o mare parte din activitatea noastră de service era în regim de urgență. Pompă blocată sâmbătă la 3 noaptea, motor ars în mijlocul producției, lucruri de genul ăsta.
@@ -402,6 +407,7 @@ Facem contracte de mentenanță pentru clienții care preferă să externalizeze
     id: 6,
     slug: 'ghid-schimbatoare-caldura-industriale',
     title: 'Schimbătoare de Căldură: Ce Am Învățat în 12 Ani de Dimensionări',
+    shortTitle: 'Ghid Schimbătoare de Căldură',
     excerpt: 'Plăci brazate, plăci demontabile, tubulare - fiecare are locul lui. Plus greșelile frecvente pe care le vedem.',
     content: `
 Schimbătoarele de căldură par simple: două fluide, transfer de energie, gata. Dar am văzut suficiente dimensionări greșite încât să știu că nu e chiar așa simplu.
@@ -490,6 +496,7 @@ Alfa Laval, Kelvion, SWEP au piese disponibile rapid în Europa. Merită diferen
     id: 7,
     slug: 'suflante-industriale-tipuri-aplicatii',
     title: 'Suflante Industriale: Canal Lateral, Roots sau Centrifugale?',
+    shortTitle: 'Tipuri de Suflante Industriale',
     excerpt: 'Trei tipuri de suflante pentru trei tipuri de aplicații. Cum alegi și ce trebuie să știi despre fiecare.',
     content: `
 Suflantele industriale furnizează aer sau gaze la presiuni joase sau medii. Pare simplu, dar alegerea greșită poate costa mult - fie în energie, fie în întreținere.
@@ -571,6 +578,7 @@ Dacă ai dubii, trimite-ne datele și te ajutăm cu dimensionarea. Am livrat sut
     id: 8,
     slug: 'garnituri-mecanice-ghid-complet',
     title: 'Garnituri Mecanice: De Ce Se Defectează și Cum Le Prelungești Viața',
+    shortTitle: 'Garnituri Mecanice: Ghid Complet',
     excerpt: 'Garnitura mecanică e punctul vulnerabil al oricărei pompe. Iată ce le distruge și cum eviți înlocuirea prematură.',
     content: `
 În toți anii de service - și vorbim de multe pompe - estimez că undeva la 40% din intervenții au fost pentru garnituri mecanice. Fie curgeau, fie erau complet distruse. Și în majoritatea cazurilor, cauza era evitabilă.
@@ -682,6 +690,7 @@ Sfat: când comanzi, spune modelul exact de pompă și dacă se poate, trimite p
     id: 9,
     slug: 'echipamente-atex-ghid-zone-periculoase',
     title: 'Echipamente ATEX: Ce Trebuie Să Știi Înainte Să Comanzi',
+    shortTitle: 'Echipamente ATEX: Ghid Practic',
     excerpt: 'Zone, categorii, marcaje - ATEX pare complicat, dar nu e. Iată esențialul pentru a alege corect.',
     content: `
 ATEX vine de la "ATmosphères EXplosibles". E directiva europeană care reglementează echipamentele pentru zone cu risc de explozie. Dacă lucrezi în petrochimie, chimie, silozuri de cereale sau orice loc unde există gaze sau prafuri explozive, te privește.
@@ -797,6 +806,7 @@ Dacă nu ești sigur de clasificarea zonei sau de ce echipament ai nevoie, vorbe
     id: 10,
     slug: 'grundfos-vs-wilo-comparatie-pompe',
     title: 'Grundfos vs Wilo: O Comparație Onestă de la Cineva Care Le Vinde pe Amândouă',
+    shortTitle: 'Grundfos vs Wilo: Comparație',
     excerpt: 'Suntem distribuitori pentru ambele branduri. Nu avem favorit. Iată diferențele reale pe care le vedem.',
     content: `
 E probabil cea mai frecventă întrebare pe care o primim: "Grundfos sau Wilo?". Și pentru că vindem ambele branduri, suntem într-o poziție bună să răspundem obiectiv - nu avem interes să îți vindem una în defavoarea celeilalte.
@@ -890,6 +900,7 @@ Dacă ai altă preferință sau ai avut experiențe bune cu alt brand, respectă
     id: 11,
     slug: 'oale-condens-instalatii-abur',
     title: 'Oale de Condens: Componenta Mică Care Te Poate Costa Mii de Euro',
+    shortTitle: 'Oale de Condens: Ghid Complet',
     excerpt: 'Le ignorăm până când se defectează. Dar o oală de condens blocată deschis poate costa 10.000-20.000 EUR/an în abur pierdut.',
     content: `
 În instalațiile de abur, oala de condens (steam trap) e cea mai ignorată componentă. E mică, nu face zgomot (de obicei), și toată lumea uită de ea până când explozia de costuri energetice apare în factură.
@@ -998,6 +1009,7 @@ Un audit pentru o fabrică medie? Câteva sute de euro. Ce găsim de obicei? Pie
     id: 12,
     slug: 'convertizoare-frecventa-beneficii',
     title: 'VFD: Când Merită și Când Nu Merită Să Investești',
+    shortTitle: 'Convertizoare Frecvență: Merită?',
     excerpt: 'Convertizoarele de frecvență pot reduce consumul dramatic. Dar nu întotdeauna. Iată cum să decizi.',
     content: `
 Convertizoarele de frecvență (VFD, Variable Frequency Drive) sunt probabil cea mai bună investiție în eficiență energetică pentru motoare. Dar nu în toate cazurile.
@@ -1101,6 +1113,7 @@ Venim la tine, măsurăm, calculăm și îți spunem sincer dacă are sens. Dac�
     id: 13,
     slug: 'alfa-laval-vs-kelvion-schimbatoare',
     title: 'Alfa Laval vs Kelvion: Două Filosofii, Amândouă Bune',
+    shortTitle: 'Alfa Laval vs Kelvion',
     excerpt: 'Doi producători de top în schimbătoare de căldură. Care e mai bun? Depinde de ce cauți.',
     content: `
 Alfa Laval și Kelvion sunt cei mai importanți producători de schimbătoare de căldură la nivel mondial. Lucrăm cu ambele de ani de zile și putem spune că nu există un câștigător clar - fiecare are punctele forte.
@@ -1195,6 +1208,7 @@ Sau ne întrebi pe noi - îți trimitem oferte de la ambii și decizi tu.
     id: 14,
     slug: 'prelungire-viata-echipamente-industriale',
     title: '10 Lucruri Care Distrug Echipamentele (și Cum Să Le Eviți)',
+    shortTitle: '10 Greșeli Care Distrug Echipamente',
     excerpt: 'Am reparat mii de pompe și motoare. Iată ce le-a distrus și cum să nu pățești la fel.',
     content: `
 În anii de service, am văzut echipamente de zeci de mii de euro distruse din cauze care puteau fi evitate. Iată cele mai frecvente greșeli și cum să le eviți.
@@ -1301,6 +1315,7 @@ Facem contracte de mentenanță pentru cine vrea să externalizeze asta. Dar chi
     id: 15,
     slug: 'tendinte-echipamente-industriale-2026',
     title: 'Ce Se Schimbă în Industria Echipamentelor: Observații din Piață',
+    shortTitle: 'Tendințe Echipamente 2026',
     excerpt: 'Digitalizare, eficiență energetică, sustenabilitate - buzzwords sau realitate? Ce vedem noi concret.',
     content: `
 Fiecare an vine cu predicții despre "revoluția industrială 4.0", "IoT", "AI în producție". Dar ce se întâmplă efectiv în piața din România? Iată ce observăm noi în interacțiunile cu clienții.

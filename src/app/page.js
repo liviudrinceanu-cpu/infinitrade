@@ -8,7 +8,7 @@ export const metadata = {
   title: {
     absolute: 'Infinitrade Romania | Distribuitor Echipamente Industriale',
   },
-  description: 'Distribuitor autorizat echipamente industriale în România. Furnizor SEAP/SICAP. Pompe Grundfos, Wilo, KSB. Robineți ARI Armaturen. Motoare Siemens, ABB. Livrare 24-72h.',
+  description: 'Distribuitor echipamente industriale România. Furnizor SEAP/SICAP. Pompe Grundfos, Wilo. Robineți ARI. Motoare Siemens, ABB. Livrare 24-72h.',
   keywords: [
     'furnizor SEAP', 'furnizor SICAP', 'echipamente industriale SEAP', 'licitatie echipamente industriale',
     'achizitii publice pompe', 'achizitii publice echipamente', 'fonduri europene echipamente',
