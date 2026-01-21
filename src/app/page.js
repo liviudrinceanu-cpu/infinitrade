@@ -5,15 +5,23 @@ import Features from '@/components/Features';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Infinitrade Romania | Distribuitor Echipamente Industriale | Pompe, Robineți, Motoare',
-  description: 'Distribuitor autorizat echipamente industriale în România. Pompe Grundfos, Wilo, KSB. Robineți ARI Armaturen, Spirax Sarco. Motoare Siemens, ABB. Peste 500 branduri, livrare 24-72h.',
-  keywords: 'echipamente industriale, distribuitor pompe, robineti industriali, motoare electrice, schimbatoare caldura, suflante industriale, piese schimb, grundfos, wilo, siemens, abb',
+  title: 'Infinitrade Romania | Furnizor SEAP Echipamente Industriale | Pompe, Robineți, Motoare',
+  description: 'Distribuitor autorizat echipamente industriale în România. Furnizor înregistrat SEAP/SICAP pentru achiziții publice și licitații. Pompe Grundfos, Wilo, KSB. Robineți ARI Armaturen, Spirax Sarco. Motoare Siemens, ABB. Documentație completă fonduri europene. Livrare 24-72h.',
+  keywords: [
+    'furnizor SEAP', 'furnizor SICAP', 'echipamente industriale SEAP', 'licitatie echipamente industriale',
+    'achizitii publice pompe', 'achizitii publice echipamente', 'fonduri europene echipamente',
+    'distribuitor echipamente industriale', 'echipamente industriale romania',
+    'pompe industriale', 'pompe grundfos', 'pompe wilo', 'pompe ksb',
+    'robineti industriali', 'ari armaturen', 'spirax sarco',
+    'motoare electrice', 'motoare siemens', 'motoare abb',
+    'schimbatoare caldura', 'alfa laval', 'suflante industriale'
+  ],
   alternates: {
     canonical: 'https://infinitrade.ro',
   },
   openGraph: {
-    title: 'Infinitrade Romania | Distribuitor Echipamente Industriale Premium',
-    description: 'Distribuitor autorizat pompe, robineți, motoare electrice în România. Branduri premium: Grundfos, Wilo, Siemens, ABB, Alfa Laval.',
+    title: 'Infinitrade Romania | Furnizor SEAP Echipamente Industriale Premium',
+    description: 'Distribuitor autorizat și furnizor SEAP pentru pompe, robineți, motoare electrice în România. Branduri premium: Grundfos, Wilo, Siemens, ABB, Alfa Laval. Documentație licitații.',
     url: 'https://infinitrade.ro',
     type: 'website',
   },

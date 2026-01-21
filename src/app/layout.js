@@ -270,7 +270,6 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#0990db" />
         <meta name="geo.region" content="RO-TM" />
         <meta name="geo.placename" content="Ghiroda, Timis" />
-        <link rel="canonical" href={config.site.url} />
         
         {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
