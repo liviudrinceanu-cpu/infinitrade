@@ -1,6 +1,65 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 21 Ianuarie 2026 (V47)
+## ULTIMA ACTUALIZARE: 22 Ianuarie 2026 (V48)
+
+---
+
+## MODIFICARI V48 - Ahrefs SEO Audit Fixes Round 3 (22 Ianuarie 2026)
+
+### PROBLEME IDENTIFICATE (Ahrefs Audit - New Crawl 07:32)
+- 1 link 404: `/brand` (link generat incorect din studii-de-caz)
+- 2 pagini cu titluri prea lungi: `/suflante-ventilatoare` (73 chars), `/schimbatoare-caldura` (72 chars)
+- 6 pagini cu meta descrieri prea lungi (161-176 chars)
+- 1 articol blog cu descriere prea lungă (161 chars)
+
+### FIX 1: 404 ERROR - /brand LINK INVALID
+
+| Problemă | Cauză | Soluție |
+|----------|-------|---------|
+| `/brand` returna 404 | Logică greșită în generarea link-urilor de brand pe pagina studii-de-caz | Folosire index lookup corect pentru a mapa branduri la slug-uri |
+
+**Fișier:** `src/app/studii-de-caz/page.js` linia 247-256
+- Înainte: folosea `.find()` cu `.includes()` care putea eșua și returna `#`
+- După: folosește `indexOf()` pentru a găsi indexul corect și extrage `brandSlugs[brandIndex]`
+
+### FIX 2: TITLURI CATEGORII PREA LUNGI
+
+| Categorie | Titlu Vechi (chars) | Titlu Nou (chars) |
+|-----------|---------------------|-------------------|
+| Suflante și Ventilatoare Industriale | 73 | Suflante Industriale \| Distribuitor (57) |
+| Schimbătoare de Căldură Industriale | 72 | Schimbătoare Căldură \| Distribuitor (58) |
+
+**Fișier:** `src/app/[category]/page.js`
+- Adăugat `shortNames` map pentru categorii cu nume lungi
+- Folosește numele scurt în titlu când categoria are slug în map
+
+### FIX 3: META DESCRIPTIONS SCURTATE
+
+| Categorie | Chars Vechi | Chars Noi |
+|-----------|-------------|-----------|
+| Pompe Industriale | 166 | 130 |
+| Robineți Industriali | 169 | 120 |
+| Motoare Electrice | 161 | 108 |
+| Schimbătoare Căldură | 167 | 116 |
+| Suflante Ventilatoare | 176 | 118 |
+
+**Fișier:** `src/data/products.js`
+- Eliminat "SICAP" duplicat (păstrat doar SEAP)
+- Eliminat "autorizat" din distribuitor
+- Eliminat "fonduri europene" (prea lung)
+- Scurtat la esențial
+
+### FIX 4: BLOG EXCERPT SCURTAT
+
+| Articol | Chars Vechi | Chars Noi |
+|---------|-------------|-----------|
+| ghid-selectare-pompa-industriala | 161 | 153 |
+
+**Fișier:** `src/data/blog.js`
+- Schimbat "costă mai mult decât crezi" -> "costă mult"
+
+### BUILD STATUS
+✅ Build SUCCESS - 103 pagini generate
 
 ---
 
