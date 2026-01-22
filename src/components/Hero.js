@@ -18,27 +18,27 @@ export default function Hero() {
       <div className={styles.container}>
         <motion.div
           className={styles.content}
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
+          initial={{ y: 20 }}
+          animate={{ y: 0 }}
+          transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
         >
           {/* Badge */}
           <motion.div
             className={styles.badge}
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
+            initial={{ scale: 0.95 }}
+            animate={{ scale: 1 }}
+            transition={{ delay: 0.05, duration: 0.3 }}
           >
             <span className={styles.badgeDot} />
             <span>Peste 500 de branduri internaționale</span>
           </motion.div>
 
-          {/* Headline */}
+          {/* Headline - LCP ELEMENT: NO opacity animation to ensure immediate visibility */}
           <motion.h1
             className={styles.headline}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
+            initial={{ y: 15 }}
+            animate={{ y: 0 }}
+            transition={{ delay: 0.1, duration: 0.4 }}
           >
             Dăm puls
             <br />
@@ -48,21 +48,21 @@ export default function Hero() {
           {/* Subheadline */}
           <motion.p
             className={styles.subheadline}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.8 }}
+            initial={{ y: 15 }}
+            animate={{ y: 0 }}
+            transition={{ delay: 0.15, duration: 0.4 }}
           >
-            Distribuitor premium de echipamente industriale. 
-            Pompe, robineți, motoare, schimbătoare de căldură și suflante 
+            Distribuitor premium de echipamente industriale.
+            Pompe, robineți, motoare, schimbătoare de căldură și suflante
             de la cele mai prestigioase branduri mondiale.
           </motion.p>
 
           {/* CTA Buttons */}
           <motion.div
             className={styles.ctas}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.8 }}
+            initial={{ y: 15 }}
+            animate={{ y: 0 }}
+            transition={{ delay: 0.2, duration: 0.4 }}
           >
             <Link href="/contact" className={styles.ctaPrimary}>
               Cere Ofertă
@@ -76,9 +76,9 @@ export default function Hero() {
           {/* Stats */}
           <motion.div
             className={styles.stats}
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 0.7 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.7, duration: 0.8 }}
+            transition={{ delay: 0.3, duration: 0.4 }}
           >
             <div className={styles.stat}>
               <span className={styles.statNumber}>800+</span>
@@ -105,9 +105,9 @@ export default function Hero() {
         {/* Visual Element */}
         <motion.div
           className={styles.visual}
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.4, duration: 1 }}
+          initial={{ scale: 0.98 }}
+          animate={{ scale: 1 }}
+          transition={{ delay: 0.15, duration: 0.5 }}
         >
           <div className={styles.visualInner}>
             {/* Abstract Industrial Visual */}
@@ -175,7 +175,7 @@ export default function Hero() {
         className={styles.scrollIndicator}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 0.5 }}
+        transition={{ delay: 0.8, duration: 0.3 }}
       >
         <motion.div
           className={styles.scrollMouse}
