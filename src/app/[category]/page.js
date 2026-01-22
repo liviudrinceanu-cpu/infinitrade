@@ -36,7 +36,7 @@ export async function generateMetadata({ params }) {
     'schimbatoare-caldura': 'Schimbătoare Căldură',
   };
   const displayName = shortNames[category.slug] || category.name;
-  const title = `${displayName} | Distribuitor`;
+  const title = `${displayName} | Distribuitor 2026`;
   // Use metaDescription from data (already optimized for length) instead of dynamic description
   const description = category.metaDescription;
 
@@ -78,6 +78,9 @@ export async function generateMetadata({ params }) {
     // Purchase intent
     `cumpara ${category.name.toLowerCase()}`,
     `achizitie ${category.name.toLowerCase()}`,
+    // 2026 keywords
+    'catalog 2026',
+    'preturi 2026',
     // General
     'echipamente industriale romania',
     'furnizor SEAP',

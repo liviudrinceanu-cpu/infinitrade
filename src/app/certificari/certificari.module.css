@@ -101,6 +101,21 @@
   font-style: italic;
 }
 
+.certLink {
+  display: inline-block;
+  margin-top: 12px;
+  color: #0990db;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.certLink:hover {
+  color: #063c69;
+  text-decoration: underline;
+}
+
 .qualitySection {
   padding: 60px 0;
   background: white;

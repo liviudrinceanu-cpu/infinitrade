@@ -1,6 +1,7 @@
 import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
+import { csrfProtection } from '@/lib/csrf';
 
 // Pagination limits
 const MIN_PAGE = 1;

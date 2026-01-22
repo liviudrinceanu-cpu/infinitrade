@@ -82,6 +82,8 @@ function generateCaseStudyJsonLd(caseStudy) {
         '@id': `https://infinitrade.ro/studii-de-caz/${caseStudy.slug}#article`,
         headline: caseStudy.title,
         description: caseStudy.excerpt,
+        datePublished: caseStudy.date || `${caseStudy.year}-01-15`,
+        dateModified: '2026-01-22',
         author: {
           '@type': 'Organization',
           name: 'Infinitrade Romania',
@@ -92,17 +94,17 @@ function generateCaseStudyJsonLd(caseStudy) {
           name: 'Infinitrade Romania',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://infinitrade.ro/logo.png',
+            url: 'https://infinitrade.ro/logo-header.png',
           },
         },
-        datePublished: `${caseStudy.year}-01-15`,
-        dateModified: `${caseStudy.year}-06-01`,
         mainEntityOfPage: {
           '@type': 'WebPage',
           '@id': `https://infinitrade.ro/studii-de-caz/${caseStudy.slug}`,
         },
-        keywords: caseStudy.tags.join(', '),
+        image: 'https://infinitrade.ro/logo-header.png',
         articleSection: 'Studii de Caz',
+        inLanguage: 'ro-RO',
+        keywords: caseStudy.tags.join(', '),
         about: [
           ...caseStudy.brands.map(brand => ({
             '@type': 'Brand',
@@ -127,8 +129,8 @@ function generateCaseStudyJsonLd(caseStudy) {
         step: [
           {
             '@type': 'HowToStep',
-            name: 'Analiză și Proiectare',
-            text: 'Audit detaliat al sistemului existent și proiectare soluție optimizată',
+            name: 'Analiza si Proiectare',
+            text: 'Audit detaliat al sistemului existent si proiectare solutie optimizata',
           },
           {
             '@type': 'HowToStep',
@@ -137,13 +139,13 @@ function generateCaseStudyJsonLd(caseStudy) {
           },
           {
             '@type': 'HowToStep',
-            name: 'Instalare și Punere în Funcțiune',
-            text: 'Montaj profesional și testare completă',
+            name: 'Instalare si Punere in Functiune',
+            text: 'Montaj profesional si testare completa',
           },
           {
             '@type': 'HowToStep',
-            name: 'Optimizare și Training',
-            text: 'Fine-tuning parametri și instruire personal',
+            name: 'Optimizare si Training',
+            text: 'Fine-tuning parametri si instruire personal',
           },
         ],
       },
@@ -154,7 +156,7 @@ function generateCaseStudyJsonLd(caseStudy) {
           {
             '@type': 'ListItem',
             position: 1,
-            name: 'Acasă',
+            name: 'Acasa',
             item: 'https://infinitrade.ro',
           },
           {
@@ -166,8 +168,7 @@ function generateCaseStudyJsonLd(caseStudy) {
           {
             '@type': 'ListItem',
             position: 3,
-            name: caseStudy.shortTitle,
-            item: `https://infinitrade.ro/studii-de-caz/${caseStudy.slug}`,
+            name: caseStudy.title,
           },
         ],
       },

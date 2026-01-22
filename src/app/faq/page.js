@@ -10,7 +10,8 @@ const faqData = [
     questions: [
       {
         q: 'Cum aleg pompa potrivită pentru aplicația mea?',
-        a: 'Cel mai simplu: trimite-ne datele aplicației (debit, presiune, ce fluid pompezi, temperatură) și ne ocupăm noi de dimensionare. E gratis și răspundem de obicei în 24h - uneori mai repede dacă nu-i aglomerat. Dacă vrei să înțelegi și tu procesul, avem un articol pe blog despre selectarea pompelor unde explicăm criteriile pas cu pas.'
+        a: 'Cel mai simplu: trimite-ne datele aplicației (debit, presiune, ce fluid pompezi, temperatură) și ne ocupăm noi de dimensionare. E gratis și răspundem de obicei în 24h - uneori mai repede dacă nu-i aglomerat. Dacă vrei să înțelegi și tu procesul, avem un articol pe blog despre selectarea pompelor unde explicăm criteriile pas cu pas.',
+        link: { href: '/pompe-industriale', text: 'Vezi gama de pompe industriale' }
       },
       {
         q: 'Care sunt diferențele între robineți cu bilă și robineți fluture?',
@@ -81,7 +82,8 @@ const faqData = [
       },
       {
         q: 'Cum vă pot contacta?',
-        a: 'Email: secretariat@infinitrade-romania.ro. Telefon: vezi pagina de contact. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem în maxim 24h în zilele lucrătoare.'
+        a: 'Email: secretariat@infinitrade-romania.ro. Telefon: vezi pagina de contact. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem în maxim 24h în zilele lucrătoare.',
+        link: { href: '/contact', text: 'Mergi la pagina de contact' }
       },
     ]
   },
@@ -90,7 +92,8 @@ const faqData = [
     questions: [
       {
         q: 'Sunteți furnizor înregistrat în SEAP/SICAP?',
-        a: 'Da, suntem operator economic verificat și activ în Sistemul Electronic de Achiziții Publice. Am participat și câștigat zeci de licitații pentru instituții publice, primării, spitale, companii de stat. Avem experiență concretă cu procedurile SEAP.'
+        a: 'Da, suntem operator economic verificat și activ în Sistemul Electronic de Achiziții Publice. Am participat și câștigat zeci de licitații pentru instituții publice, primării, spitale, companii de stat. Avem experiență concretă cu procedurile SEAP.',
+        link: { href: '/ghid-achizitii-seap', text: 'Vezi ghidul pentru achiziții publice' }
       },
       {
         q: 'Ce documente pregătiți pentru licitații publice?',
@@ -106,7 +109,8 @@ const faqData = [
       },
       {
         q: 'Cum mă ajutați cu caietul de sarcini?',
-        a: 'Dacă ești în faza de pregătire a caietului de sarcini, putem oferi consultanță tehnică gratuită: specificații corecte, parametri realiști, alternative tehnice. Asta ajută să primești oferte comparabile și să eviți contestații.'
+        a: 'Dacă ești în faza de pregătire a caietului de sarcini, putem oferi consultanță tehnică gratuită: specificații corecte, parametri realiști, alternative tehnice. Asta ajută să primești oferte comparabile și să eviți contestații.',
+        link: { href: '/ghid-achizitii-seap', text: 'Vezi ghidul complet pentru achiziții SEAP' }
       },
       {
         q: 'Aveți istoric de contracte publice?',
@@ -227,6 +231,11 @@ export default function FAQPage() {
                       </summary>
                       <div className={styles.answer}>
                         <p>{item.a}</p>
+                        {item.link && (
+                          <Link href={item.link.href} className={styles.answerLink}>
+                            {item.link.text} &rarr;
+                          </Link>
+                        )}
                       </div>
                     </details>
                   ))}

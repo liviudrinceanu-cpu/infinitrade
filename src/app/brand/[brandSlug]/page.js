@@ -22,8 +22,8 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const title = `${brand.name} | Distribuitor Autorizat`;
-  const description = `Distribuitor autorizat ${brand.name} (${brand.country}). Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
+  const title = `${brand.name} | Distribuitor Autorizat Catalog 2026`;
+  const description = `2026: Distribuitor autorizat ${brand.name} (${brand.country}). Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
 
   // Generate comprehensive keywords based on brand, category, and products
   const baseKeywords = [

@@ -31,7 +31,7 @@ export default function sitemap() {
       url: `${BASE_URL}/blog`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
-      priority: 0.8,
+      priority: 0.9,
     },
     {
       url: `${BASE_URL}/studii-de-caz`,
@@ -43,7 +43,7 @@ export default function sitemap() {
       url: `${BASE_URL}/industrii`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 0.9,
     },
     {
       url: `${BASE_URL}/faq`,

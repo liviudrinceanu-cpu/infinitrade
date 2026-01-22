@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { blogArticles, getBlogArticle } from '@/data/blog';
+import { getAuthorById } from '@/data/authors';
 import { Calendar, Clock, User, ArrowLeft, Tag, Share2 } from 'lucide-react';
 import { sanitizeContentHtml } from '@/lib/utils';
 import styles from './article.module.css';
@@ -95,8 +96,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// Generate Article JSON-LD
-function generateArticleJsonLd(article) {
+// Generate Article JSON-LD with enhanced author details for E-E-A-T
+function generateArticleJsonLd(article, author) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -111,7 +112,14 @@ function generateArticleJsonLd(article) {
     },
     author: {
       '@type': 'Person',
-      name: article.author,
+      name: author.name,
+      jobTitle: author.role,
+      description: author.bio,
+      affiliation: {
+        '@type': 'Organization',
+        name: 'Infinitrade Romania',
+        url: 'https://infinitrade.ro'
+      }
     },
     publisher: {
       '@type': 'Organization',
@@ -124,7 +132,7 @@ function generateArticleJsonLd(article) {
       },
     },
     datePublished: article.date,
-    dateModified: article.date,
+    dateModified: article.dateModified || article.date,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://infinitrade.ro/blog/${article.slug}`,
@@ -280,7 +288,8 @@ export default async function BlogArticlePage({ params }) {
     notFound();
   }
 
-  const jsonLd = generateArticleJsonLd(article);
+  const author = getAuthorById(article.authorId);
+  const jsonLd = generateArticleJsonLd(article, author);
   const relatedArticles = blogArticles
     .filter(a => a.slug !== article.slug && a.category === article.category)
     .slice(0, 3);

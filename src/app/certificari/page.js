@@ -23,6 +23,7 @@ const certifications = [
     description: 'Suntem furnizor verificat și activ în Sistemul Electronic de Achiziții Publice. Am câștigat și livrat zeci de contracte pentru instituții publice din toată România.',
     details: 'Experiență solidă cu licitații publice, achiziții directe, fonduri europene și PNRR. Pregătim documentația completă: certificate de conformitate, declarații, fișe tehnice, certificate de garanție.',
     seapFeatures: ['Operator economic verificat', 'Istoric contracte publice', 'Documentație conformă', 'Livrare la termen garantată'],
+    link: { href: '/ghid-achizitii-seap', text: 'Vezi ghidul complet pentru achiziții SEAP' },
   },
   {
     icon: Building2,
@@ -248,6 +249,11 @@ export default function CertificariPage() {
                   )}
                   {cert.details && (
                     <p className={styles.certDetails}>{cert.details}</p>
+                  )}
+                  {cert.link && (
+                    <Link href={cert.link.href} className={styles.certLink}>
+                      {cert.link.text} &rarr;
+                    </Link>
                   )}
                 </div>
               ))}

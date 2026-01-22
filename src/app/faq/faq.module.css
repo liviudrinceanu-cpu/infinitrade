@@ -117,6 +117,21 @@
   margin: 0;
 }
 
+.answerLink {
+  display: inline-block;
+  margin-top: 12px;
+  color: #0990db;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.answerLink:hover {
+  color: #063c69;
+  text-decoration: underline;
+}
+
 @keyframes slideDown {
   from {
     opacity: 0;

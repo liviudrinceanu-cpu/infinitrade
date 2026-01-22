@@ -2,6 +2,7 @@ import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import bcrypt from 'bcryptjs';
+import { csrfProtection, validateContentType } from '@/lib/csrf';
 
 export async function GET(request) {
   try {
@@ -36,6 +37,16 @@ export async function GET(request) {
 
 export async function POST(request) {
   try {
+    // CSRF Protection
+    const csrfError = csrfProtection(request);
+    if (csrfError) return csrfError;
+
+    // Content-Type validation
+    const contentTypeResult = validateContentType(request);
+    if (!contentTypeResult.valid) {
+      return NextResponse.json({ error: contentTypeResult.error }, { status: 400 });
+    }
+
     const session = await auth();
 
     if (!session || session.user.role !== 'ADMIN') {
@@ -91,6 +102,10 @@ export async function POST(request) {
 
 export async function DELETE(request) {
   try {
+    // CSRF Protection
+    const csrfError = csrfProtection(request);
+    if (csrfError) return csrfError;
+
     const session = await auth();
 
     if (!session || session.user.role !== 'ADMIN') {
