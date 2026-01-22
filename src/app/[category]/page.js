@@ -30,7 +30,13 @@ export async function generateMetadata({ params }) {
   const productTypeNames = category.productTypes.map(p => p.name).slice(0, 5).join(', ');
 
   // Shorten title to stay under 60 chars with template suffix (21 chars for " | Infinitrade Romania")
-  const title = `${category.name} | Distribuitor`;
+  // Max title before suffix: 39 chars. Use short names for long categories.
+  const shortNames = {
+    'suflante-ventilatoare': 'Suflante Industriale',
+    'schimbatoare-caldura': 'Schimbătoare Căldură',
+  };
+  const displayName = shortNames[category.slug] || category.name;
+  const title = `${displayName} | Distribuitor`;
   // Use metaDescription from data (already optimized for length) instead of dynamic description
   const description = category.metaDescription;
 

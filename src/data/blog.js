@@ -7,7 +7,7 @@ export const blogArticles = [
     slug: 'ghid-selectare-pompa-industriala',
     title: 'Cum Alegi Pompa Industrială Potrivită: Lecții din 15 Ani de Experiență',
     shortTitle: 'Ghid Selectare Pompe Industriale',
-    excerpt: 'Am ajutat sute de clienți să aleagă pompe industriale. Iată ce am învățat despre debit, presiune, NPSH și de ce dimensionarea greșită costă mai mult decât crezi.',
+    excerpt: 'Am ajutat sute de clienți să aleagă pompe industriale. Iată ce am învățat despre debit, presiune, NPSH și de ce dimensionarea greșită costă mult.',
     content: `
 Am văzut de multe ori aceeași greșeală: un client comandă o pompă "mai mare, să fie sigur". După 6 luni, pompele supradimensionate consumă cu 30% mai multă energie și se uzează prematur din cauza funcționării în afara punctului optim.
 
