@@ -8,6 +8,7 @@ import {
   Factory, Clock, Calendar, Zap, TrendingUp, CheckCircle,
   ArrowRight, Quote, Target, Wrench, BarChart3, Users
 } from 'lucide-react';
+import { sanitizeContentHtml } from '@/lib/utils';
 import styles from './case-study.module.css';
 
 // Generate static params for all case studies
@@ -247,7 +248,7 @@ function renderContent(content) {
       const text = trimmed.replace(/^- /, '');
       const processed = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
       currentList.push(
-        <li key={currentList.length} dangerouslySetInnerHTML={{ __html: processed }} />
+        <li key={currentList.length} dangerouslySetInnerHTML={{ __html: sanitizeContentHtml(processed) }} />
       );
       return;
     }
@@ -258,12 +259,12 @@ function renderContent(content) {
       return;
     }
 
-    // Regular paragraph
+    // Regular paragraph - sanitize HTML to prevent XSS
     flushList();
     let processed = trimmed;
     processed = processed.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     elements.push(
-      <p key={index} dangerouslySetInnerHTML={{ __html: processed }} />
+      <p key={index} dangerouslySetInnerHTML={{ __html: sanitizeContentHtml(processed) }} />
     );
   });
 

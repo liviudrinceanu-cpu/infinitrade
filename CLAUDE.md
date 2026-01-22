@@ -868,10 +868,24 @@ http://localhost:3000/brand/pompe-industriale-grundfos
 
 ## CREDENTIALE ADMIN
 
-| Rol | Email | Parola |
-|-----|-------|--------|
-| Admin | admin@infinitrade.ro | admin123 |
-| Vanzari | vanzari@infinitrade.ro | vanzari123 |
+⚠️ **SECURITY NOTE**: Credentials are NOT stored in this file.
+
+Pentru a configura useri admin, setează variabilele de mediu și rulează seed:
+```bash
+# În .env.local (NICIODATĂ în git!)
+ADMIN_SEED_PASSWORD=<parola-puternica-min-12-chars>
+SALES_SEED_PASSWORD=<parola-puternica-min-12-chars>
+
+# Apoi rulează
+npm run db:seed
+```
+
+**Cerințe parolă:**
+- Minimum 12 caractere
+- Cel puțin o literă mare
+- Cel puțin o literă mică
+- Cel puțin o cifră
+- Cel puțin un caracter special (!@#$%^&* etc.)
 
 ---
 

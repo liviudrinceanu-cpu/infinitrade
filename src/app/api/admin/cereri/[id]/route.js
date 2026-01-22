@@ -1,6 +1,20 @@
 import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
+import { csrfProtection, validateContentType } from '@/lib/csrf';
+
+// Valid status values (must match Prisma enum)
+const VALID_STATUSES = ['NEW', 'IN_PROGRESS', 'QUOTE_SENT', 'COMPLETED', 'CANCELLED'];
+
+// Valid category values
+const VALID_CATEGORIES = [
+  'pompe-industriale',
+  'robineti-industriali',
+  'motoare-electrice',
+  'schimbatoare-caldura',
+  'suflante-ventilatoare',
+  'altele'
+];
 
 export async function GET(request, { params }) {
   try {
@@ -43,6 +57,16 @@ export async function GET(request, { params }) {
 
 export async function PUT(request, { params }) {
   try {
+    // CSRF Protection
+    const csrfError = csrfProtection(request);
+    if (csrfError) return csrfError;
+
+    // Content-Type validation
+    const contentTypeResult = validateContentType(request);
+    if (!contentTypeResult.valid) {
+      return NextResponse.json({ error: contentTypeResult.error }, { status: 400 });
+    }
+
     const session = await auth();
 
     if (!session) {
@@ -50,21 +74,72 @@ export async function PUT(request, { params }) {
     }
 
     const { id } = await params;
-    const body = await request.json();
 
+    // Validate ID format (UUID)
+    if (!id || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
+      return NextResponse.json({ error: 'Invalid ID format' }, { status: 400 });
+    }
+
+    const body = await request.json();
     const { status, assignedToId, category } = body;
+
+    const userRole = session.user.role;
+    const userId = session.user.id;
+
+    // RBAC: Check if user has permission to update this request
+    // ADMIN can update any request, SALES can only update requests assigned to them
+    if (userRole !== 'ADMIN') {
+      const existingRequest = await prisma.quoteRequest.findUnique({
+        where: { id },
+        select: { assignedToId: true }
+      });
+
+      if (!existingRequest) {
+        return NextResponse.json({ error: 'Request not found' }, { status: 404 });
+      }
+
+      // SALES users can only update requests assigned to them
+      if (existingRequest.assignedToId !== userId) {
+        return NextResponse.json({
+          error: 'Nu aveți permisiunea să modificați această cerere'
+        }, { status: 403 });
+      }
+
+      // SALES users cannot reassign requests
+      if (assignedToId !== undefined) {
+        return NextResponse.json({
+          error: 'Nu aveți permisiunea să reasignați cereri'
+        }, { status: 403 });
+      }
+    }
 
     const updateData = {};
 
+    // Validate status enum
     if (status) {
+      if (!VALID_STATUSES.includes(status)) {
+        return NextResponse.json({
+          error: `Invalid status. Must be one of: ${VALID_STATUSES.join(', ')}`
+        }, { status: 400 });
+      }
       updateData.status = status;
     }
 
-    if (assignedToId !== undefined) {
+    // Validate assignedToId (must be string or null) - only ADMIN can change this
+    if (assignedToId !== undefined && userRole === 'ADMIN') {
+      if (assignedToId !== null && typeof assignedToId !== 'string') {
+        return NextResponse.json({ error: 'Invalid assignedToId format' }, { status: 400 });
+      }
       updateData.assignedToId = assignedToId || null;
     }
 
+    // Validate category
     if (category !== undefined) {
+      if (category !== null && !VALID_CATEGORIES.includes(category)) {
+        return NextResponse.json({
+          error: `Invalid category. Must be one of: ${VALID_CATEGORIES.join(', ')}`
+        }, { status: 400 });
+      }
       updateData.category = category;
     }
 
@@ -100,6 +175,10 @@ export async function PUT(request, { params }) {
 
 export async function DELETE(request, { params }) {
   try {
+    // CSRF Protection
+    const csrfError = csrfProtection(request);
+    if (csrfError) return csrfError;
+
     const session = await auth();
 
     if (!session || session.user.role !== 'ADMIN') {
@@ -107,6 +186,11 @@ export async function DELETE(request, { params }) {
     }
 
     const { id } = await params;
+
+    // Validate ID format (UUID)
+    if (!id || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
+      return NextResponse.json({ error: 'Invalid ID format' }, { status: 400 });
+    }
 
     await prisma.quoteRequest.delete({
       where: { id },

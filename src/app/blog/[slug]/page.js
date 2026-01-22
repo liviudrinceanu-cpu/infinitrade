@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { blogArticles, getBlogArticle } from '@/data/blog';
 import { Calendar, Clock, User, ArrowLeft, Tag, Share2 } from 'lucide-react';
+import { sanitizeContentHtml } from '@/lib/utils';
 import styles from './article.module.css';
 
 // Generate static params for all blog articles
@@ -258,10 +259,10 @@ function renderContent(content) {
     let processed = trimmed;
     processed = processed.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 
-    // Regular paragraph
+    // Regular paragraph - sanitize HTML to prevent XSS
     flushList();
     elements.push(
-      <p key={index} dangerouslySetInnerHTML={{ __html: processed }} />
+      <p key={index} dangerouslySetInnerHTML={{ __html: sanitizeContentHtml(processed) }} />
     );
   });
 

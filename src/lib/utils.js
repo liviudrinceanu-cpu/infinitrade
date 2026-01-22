@@ -29,6 +29,27 @@ export function sanitizeHtml(html) {
   return DOMPurify.sanitize(html, config);
 }
 
+// Sanitize HTML for content rendering (blog, case studies, etc.)
+// Allows more tags but still prevents XSS
+export function sanitizeContentHtml(html) {
+  if (typeof html !== 'string') return '';
+
+  const config = {
+    ALLOWED_TAGS: [
+      'b', 'i', 'em', 'strong', 'a', 'br', 'p', 'ul', 'ol', 'li', 'span',
+      'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'code', 'pre',
+      'table', 'thead', 'tbody', 'tr', 'th', 'td', 'sup', 'sub', 'mark'
+    ],
+    ALLOWED_ATTR: ['href', 'class', 'id', 'target', 'rel'],
+    ALLOW_DATA_ATTR: false,
+    ADD_ATTR: ['target'], // Allow target attribute
+    FORBID_TAGS: ['script', 'iframe', 'object', 'embed', 'form', 'input', 'style', 'svg', 'math'],
+    FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover', 'onfocus', 'onblur', 'onsubmit', 'onchange'],
+  };
+
+  return DOMPurify.sanitize(html, config);
+}
+
 // Sanitize plain text (strip all HTML)
 export function sanitizeText(text) {
   if (typeof text !== 'string') return '';

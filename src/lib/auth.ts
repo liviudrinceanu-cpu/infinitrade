@@ -3,49 +3,20 @@ import { PrismaAdapter } from '@auth/prisma-adapter';
 import Credentials from 'next-auth/providers/credentials';
 import bcrypt from 'bcryptjs';
 import { prisma } from './db';
+import { rateLimit } from './rateLimit';
 
-// Simple in-memory rate limiter for login attempts
-const loginAttempts = new Map<string, { count: number; lastAttempt: number }>();
 const MAX_LOGIN_ATTEMPTS = 5;
 const LOCKOUT_DURATION = 15 * 60 * 1000; // 15 minutes
 
-function checkLoginRateLimit(email: string): { allowed: boolean; remainingTime?: number } {
-  const now = Date.now();
-  const attempts = loginAttempts.get(email);
+async function checkLoginRateLimit(email: string): Promise<{ allowed: boolean; remainingTime?: number }> {
+  const result = await rateLimit(`login:${email}`, MAX_LOGIN_ATTEMPTS, LOCKOUT_DURATION);
 
-  if (!attempts) {
-    return { allowed: true };
-  }
-
-  // Reset if lockout period has passed
-  if (now - attempts.lastAttempt > LOCKOUT_DURATION) {
-    loginAttempts.delete(email);
-    return { allowed: true };
-  }
-
-  if (attempts.count >= MAX_LOGIN_ATTEMPTS) {
-    const remainingTime = Math.ceil((LOCKOUT_DURATION - (now - attempts.lastAttempt)) / 1000);
-    return { allowed: false, remainingTime };
+  if (!result.allowed) {
+    // Estimate remaining time (15 minutes max)
+    return { allowed: false, remainingTime: Math.ceil(LOCKOUT_DURATION / 1000) };
   }
 
   return { allowed: true };
-}
-
-function recordLoginAttempt(email: string, success: boolean): void {
-  const now = Date.now();
-
-  if (success) {
-    loginAttempts.delete(email);
-    return;
-  }
-
-  const attempts = loginAttempts.get(email);
-  if (attempts) {
-    attempts.count += 1;
-    attempts.lastAttempt = now;
-  } else {
-    loginAttempts.set(email, { count: 1, lastAttempt: now });
-  }
 }
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
@@ -72,10 +43,10 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         const email = credentials.email as string;
         const password = credentials.password as string;
 
-        // Check rate limit before processing
-        const rateLimit = checkLoginRateLimit(email);
-        if (!rateLimit.allowed) {
-          throw new Error(`Prea multe încercări. Încercați din nou în ${rateLimit.remainingTime} secunde.`);
+        // Check rate limit before processing (uses Upstash Redis in production)
+        const rateLimitResult = await checkLoginRateLimit(email);
+        if (!rateLimitResult.allowed) {
+          throw new Error(`Prea multe încercări. Încercați din nou în ${rateLimitResult.remainingTime} secunde.`);
         }
 
         const user = await prisma.user.findUnique({
@@ -83,19 +54,14 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         });
 
         if (!user || !user.password) {
-          recordLoginAttempt(email, false);
           return null;
         }
 
         const isPasswordValid = await bcrypt.compare(password, user.password);
 
         if (!isPasswordValid) {
-          recordLoginAttempt(email, false);
           return null;
         }
-
-        // Clear attempts on successful login
-        recordLoginAttempt(email, true);
 
         return {
           id: user.id,

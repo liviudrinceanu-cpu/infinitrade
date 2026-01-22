@@ -4,6 +4,7 @@ import { rateLimit, getClientIP } from '@/lib/rateLimit';
 import { sanitizeHtml } from '@/lib/utils';
 import { config } from '@/lib/config';
 import { prisma } from '@/lib/db';
+import { csrfProtection, validateContentType } from '@/lib/csrf';
 
 // Lazy initialization - only create clients when needed
 let resend = null;
@@ -220,6 +221,16 @@ function generateBasicAnalysis(formData) {
 
 export async function POST(request) {
   try {
+    // CSRF Protection
+    const csrfError = csrfProtection(request);
+    if (csrfError) return csrfError;
+
+    // Content-Type validation
+    const contentTypeResult = validateContentType(request);
+    if (!contentTypeResult.valid) {
+      return Response.json({ error: contentTypeResult.error }, { status: 400 });
+    }
+
     // Rate limiting
     const ip = getClientIP(request);
     const rateLimitResult = rateLimit(ip, config.api.rateLimit.max, config.api.rateLimit.windowMs);
