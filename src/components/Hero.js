@@ -33,17 +33,12 @@ export default function Hero() {
             <span>Peste 500 de branduri internaționale</span>
           </motion.div>
 
-          {/* Headline - LCP ELEMENT: NO opacity animation to ensure immediate visibility */}
-          <motion.h1
-            className={styles.headline}
-            initial={{ y: 15 }}
-            animate={{ y: 0 }}
-            transition={{ delay: 0.1, duration: 0.4 }}
-          >
+          {/* Headline - LCP ELEMENT: Pure CSS animation, no JS dependency for immediate render */}
+          <h1 className={`${styles.headline} ${styles.headlineAnimate}`}>
             Dăm puls
             <br />
             <span className={styles.headlineAccent}>industriei.</span>
-          </motion.h1>
+          </h1>
 
           {/* Subheadline */}
           <motion.p

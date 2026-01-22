@@ -271,16 +271,12 @@ export default function RootLayout({ children }) {
         <meta name="geo.region" content="RO-TM" />
         <meta name="geo.placename" content="Ghiroda, Timis" />
         
-        {/* Preconnect for performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-
         {/* DNS Prefetch for external resources */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
 
-        {/* Preload critical resources */}
-        <link rel="preload" href="/logo-header.png" as="image" type="image/png" />
+        {/* Preload critical resources - fetchpriority for LCP */}
+        <link rel="preload" href="/logo-header.png" as="image" type="image/png" fetchPriority="high" />
         
         {/* Schema.org JSON-LD */}
         <script
