@@ -1,8 +1,27 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
-import { Shield, Award, FileCheck, Building2, CheckCircle, Globe } from 'lucide-react';
+import { Shield, Award, FileCheck, Building2, CheckCircle, Globe, ExternalLink } from 'lucide-react';
 import styles from './certificari.module.css';
+
+// Link-uri de verificare externă
+const verificationLinks = [
+  {
+    name: 'Registrul Comerțului (ONRC)',
+    url: 'https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL',
+    description: 'Verifică datele oficiale ale companiei',
+  },
+  {
+    name: 'Portal SEAP e-Licitație',
+    url: 'https://www.e-licitatie.ro/pub',
+    description: 'Caută "Driatheli Group" pentru contracte publice',
+  },
+  {
+    name: 'Verificare Fiscală ANAF',
+    url: 'https://www.risco.ro/verifica-firma/driatheli-group-cui-26209397',
+    description: 'Status fiscal și date financiare',
+  },
+];
 
 const certifications = [
   {
@@ -301,6 +320,55 @@ export default function CertificariPage() {
                   <span className={styles.partnerCountry}>{partner.country}</span>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Verification Section - E-E-A-T Authority Signal */}
+        <section className={styles.verificationSection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <ExternalLink size={32} className={styles.globeIcon} />
+              <h2>Verifică-ne Independent</h2>
+              <p>
+                Transparența e importantă. Poți verifica toate informațiile despre compania noastră
+                în registrele publice oficiale.
+              </p>
+            </div>
+            <div className={styles.verificationGrid}>
+              {verificationLinks.map((link, index) => (
+                <a
+                  key={index}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.verificationCard}
+                >
+                  <span className={styles.verificationName}>{link.name}</span>
+                  <span className={styles.verificationDesc}>{link.description}</span>
+                  <ExternalLink size={16} className={styles.externalIcon} />
+                </a>
+              ))}
+            </div>
+            <div className={styles.companyData}>
+              <div className={styles.dataItem}>
+                <strong>Denumire legală:</strong> Driatheli Group SRL
+              </div>
+              <div className={styles.dataItem}>
+                <strong>CUI:</strong> RO26209397
+              </div>
+              <div className={styles.dataItem}>
+                <strong>Nr. Reg. Com.:</strong> J35/2901/2009
+              </div>
+              <div className={styles.dataItem}>
+                <strong>Sediu:</strong> Ghiroda, Timiș
+              </div>
+              <div className={styles.dataItem}>
+                <strong>An înființare:</strong> 2009
+              </div>
+              <div className={styles.dataItem}>
+                <strong>Activitate:</strong> CAEN 4690 - Comerț en-gros nespecializat
+              </div>
             </div>
           </div>
         </section>

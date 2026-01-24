@@ -266,6 +266,84 @@
   transform: translateY(-2px);
 }
 
+/* Verification Section - E-E-A-T */
+.verificationSection {
+  padding: 60px 0;
+  background: #f0fdf4;
+  border-top: 3px solid #37c67f;
+}
+
+.verificationGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto 32px;
+}
+
+.verificationCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+  border: 2px solid #d1fae5;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.verificationCard:hover {
+  border-color: #37c67f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(55, 198, 127, 0.15);
+}
+
+.verificationName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.verificationDesc {
+  font-size: 14px;
+  color: #666;
+}
+
+.externalIcon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #37c67f;
+}
+
+.companyData {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.dataItem {
+  font-size: 14px;
+  color: #444;
+}
+
+.dataItem strong {
+  color: #1a1a2e;
+  display: block;
+  margin-bottom: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 100px 0 48px;
@@ -299,5 +377,13 @@
 
   .ctaBox h2 {
     font-size: 24px;
+  }
+
+  .verificationSection {
+    padding: 40px 0;
+  }
+
+  .companyData {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
