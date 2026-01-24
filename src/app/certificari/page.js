@@ -12,9 +12,14 @@ const verificationLinks = [
     description: 'Verifică datele oficiale ale companiei',
   },
   {
+    name: 'Achiziții Publice SICAP',
+    url: 'https://sicap.ai/achizitii/firma/169611',
+    description: 'Istoric contracte publice câștigate',
+  },
+  {
     name: 'Portal SEAP e-Licitație',
     url: 'https://www.e-licitatie.ro/pub',
-    description: 'Caută "Driatheli Group" pentru contracte publice',
+    description: 'Caută "Driatheli Group" pentru contracte',
   },
   {
     name: 'Verificare Fiscală ANAF',
@@ -22,6 +27,7 @@ const verificationLinks = [
     description: 'Status fiscal și date financiare',
   },
 ];
+
 
 const certifications = [
   {
