@@ -5,11 +5,17 @@ import { QuoteCartProvider } from '@/context/QuoteCartContext';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { config } from '@/lib/config';
 
-const inter = Inter({ 
+// Optimized font loading - only load latin subset with swap display
+// This prevents FOIT (Flash of Invisible Text) and improves LCP
+const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
   preload: true,
+  // Only load weights actually used in the site
+  weight: ['400', '500', '600'],
+  // Reduce data by excluding unused features
+  fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
 });
 
 export const metadata = {
@@ -270,13 +276,26 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#0990db" />
         <meta name="geo.region" content="RO-TM" />
         <meta name="geo.placename" content="Ghiroda, Timis" />
-        
-        {/* DNS Prefetch for external resources */}
+
+        {/* DNS Prefetch for external resources - improves connection setup time */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
 
+        {/* Preconnect for critical third-party origins */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
+
         {/* Preload critical resources - fetchpriority for LCP */}
         <link rel="preload" href="/logo-header.png" as="image" type="image/png" fetchPriority="high" />
+
+        {/* Inline critical CSS for above-the-fold content */}
+        <style dangerouslySetInnerHTML={{ __html: `
+          /* Critical CSS - prevents layout shift */
+          :root{--primary:#0990db;--white:#fff;--black:#23233b;--gray-50:#fbfbfd;--gray-100:#f5f5f7;--gray-200:#e8e8ed;--gray-500:#6e6e73}
+          body{margin:0;font-family:var(--font-inter),-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+          .skip-to-content{position:absolute;top:-40px;left:0;background:#0990db;color:white;padding:8px 16px;z-index:10000;transition:top 0.3s;text-decoration:none;font-weight:500;border-radius:0 0 4px 0}
+          .skip-to-content:focus{top:0}
+        `}} />
         
         {/* Schema.org JSON-LD */}
         <script

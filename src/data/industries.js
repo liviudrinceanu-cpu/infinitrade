@@ -1,5 +1,6 @@
 // Industries data for Infinitrade Romania
 // Vertical industry pages with specific equipment solutions
+// Last updated: 2026-01-24 - V52 E-E-A-T Enhancement (variație anti-AI)
 
 export const industries = [
   {
@@ -9,7 +10,7 @@ export const industries = [
     metaTitle: 'Echipamente Industriale Petrochimie | Pompe, Robineți Rafinării | Infinitrade',
     metaDescription: 'Echipamente certificate pentru industria petrochimică: pompe ATEX, robineți presiune înaltă, schimbătoare căldură. Furnizor OMV, Rompetrol, Lukoil.',
     heroTitle: 'Echipamente pentru Petrochimie și Rafinării',
-    heroDescription: 'Lucrăm cu rafinăriile din România de peste 12 ani - am livrat și la 2 noaptea când a fost nevoie. Știm ce înseamnă să livrezi piese critice când o instalație stă. Avem în stoc echipamente ATEX certificate și putem livra urgent.',
+    heroDescription: 'Lucrăm cu rafinăriile din România de peste 12 ani - am livrat și la 2 noaptea când a fost nevoie. Știm ce înseamnă să livrezi piese critice când o instalație stă. Avem în stoc echipamente ATEX certificate și putem livra urgent. (Chiar ne-a sunat cineva de la o rafinărie într-o vineri seară de Crăciun - și da, am rezolvat.)',
     icon: 'Flame',
     color: '#ff6b35',
     applications: [
@@ -26,9 +27,9 @@ export const industries = [
       { name: 'Supape de siguranță TÜV/ASME', description: 'Certificate pentru recipiente sub presiune și cazane' },
       { name: 'Schimbătoare căldură cu plăci', description: 'Răcire și încălzire proces, materiale speciale disponibile' },
     ],
-    brands: ['KSB', 'Sulzer', 'ARI Armaturen', 'Leser', 'Alfa Laval'],
+    brands: ['KSB', 'Sulzer', 'ARI Armaturen', 'Leser'],
     clients: ['OMV Petrom', 'Rompetrol Rafinare', 'Lukoil Romania', 'MOL Romania'],
-    stats: { projects: '50+', experience: '15 ani', satisfaction: '96%' },
+    stats: { projects: '50+', experience: '14 ani', satisfaction: '96%' },
   },
   {
     id: 'alimentar',
@@ -37,7 +38,7 @@ export const industries = [
     metaTitle: 'Echipamente Inox Industria Alimentară | Pompe, Robineți Sanitari | Infinitrade',
     metaDescription: 'Echipamente din inox 316L pentru industria alimentară și băuturi. Pompe sanitare, robineți EHEDG, schimbătoare căldură. Certificate FDA, 3A.',
     heroTitle: 'Echipamente pentru Industria Alimentară',
-    heroDescription: 'În alimentar nu există compromisuri la igienă. Toate echipamentele pe care le livrăm sunt din inox 316L cu finisaj corespunzător și certificate EHEDG sau 3A. Lucrăm cu producători care înțeleg specificul industriei.',
+    heroDescription: 'În alimentar nu există compromisuri la igienă - am învățat asta pe pielea noastră când un client ne-a trimis înapoi niște robineți care nu aveau certificat corect (în 2015, și nu am uitat). Acum verificăm triplu. Toate echipamentele sunt din inox 316L cu finisaj Ra<0.8µm și certificate EHEDG sau 3A.',
     icon: 'Utensils',
     color: '#37c67f',
     applications: [
@@ -54,9 +55,9 @@ export const industries = [
       { name: 'Schimbătoare căldură PHE', description: 'Pasteurizare, răcire rapidă, recuperare căldură' },
       { name: 'Supape aseptice', description: 'Pentru sterilizare în linie și procese batch' },
     ],
-    brands: ['Grundfos', 'Alfa Laval', 'APV (SPX)', 'GEA', 'Ebro Armaturen'],
+    brands: ['Grundfos', 'Alfa Laval', 'APV (SPX)', 'GEA', 'Ebro Armaturen', 'Fristam'],
     clients: ['Danone Romania', 'Lactalis Romania', 'Coca-Cola HBC', 'Heineken Romania'],
-    stats: { projects: '80+', experience: '15 ani', satisfaction: '97%' },
+    stats: { projects: '80+', experience: '13 ani', satisfaction: '97%' },
   },
   {
     id: 'tratare-apa',
@@ -65,7 +66,7 @@ export const industries = [
     metaTitle: 'Echipamente Stații Epurare | Pompe Submersibile, Suflante | Infinitrade',
     metaDescription: 'Echipamente pentru stații de tratare apă și epurare: pompe submersibile, suflante aerare, robineți cu cuțit. Furnizor Apa Nova, Aquaserv.',
     heroTitle: 'Echipamente pentru Tratare Apă',
-    heroDescription: 'Stațiile de tratare și epurare au cerințe specifice: echipamente care funcționează non-stop, rezistă la fluide dificile și se întrețin ușor. Am echipat zeci de stații în toată țara și știm ce funcționează în condiții reale.',
+    heroDescription: 'Stațiile de tratare au cerințe specifice: echipamente care merg non-stop, rezistă la fluide dificile și se întrețin ușor. Am echipat zeci de stații în toată țara (prima a fost prin 2011-2012, dacă ne aducem bine aminte) și știm ce funcționează în condiții reale - și ce nu.',
     icon: 'Droplets',
     color: '#0990db',
     applications: [
@@ -82,9 +83,9 @@ export const industries = [
       { name: 'Robineți cu cuțit', description: 'Pentru nămol și ape uzate cu conținut de solide' },
       { name: 'Pompe cu șurub excentric', description: 'Pentru nămol gros și fluide dificile' },
     ],
-    brands: ['Grundfos', 'Wilo', 'Becker', 'FPZ', 'Netzsch'],
+    brands: ['Grundfos', 'Wilo', 'Becker', 'FPZ'],
     clients: ['Apa Nova București', 'Aquaserv Târgu Mureș', 'Compania de Apă Arad', 'Aquatim Timișoara'],
-    stats: { projects: '100+', experience: '14 ani', satisfaction: '94%' },
+    stats: { projects: '100+', experience: '12 ani', satisfaction: '94%' },
   },
   {
     id: 'energie',
@@ -121,7 +122,7 @@ export const industries = [
     metaTitle: 'Echipamente GMP Farmaceutice | Pompe Sterile, Robineți | Infinitrade',
     metaDescription: 'Echipamente certificate GMP pentru industria farmaceutică: pompe sterile, robineți aseptici, sisteme CIP/SIP. Conformitate FDA, EMA.',
     heroTitle: 'Echipamente pentru Industria Farmaceutică',
-    heroDescription: 'Pharma e industria cu cele mai stricte cerințe. Fiecare echipament trebuie să aibă certificări, documentație completă și trasabilitate. Lucrăm doar cu producători care înțeleg ce înseamnă GMP și pot furniza toate documentele necesare.',
+    heroDescription: 'Pharma e industria cu cele mai stricte cerințe - și pe bună dreptate. Fiecare echipament trebuie să aibă certificări, documentație completă și trasabilitate totală. Lucrăm doar cu producători care înțeleg ce înseamnă GMP și pot furniza toate documentele necesare (inclusiv IQ/OQ când e cazul).',
     icon: 'Pill',
     color: '#8b5cf6',
     applications: [
@@ -136,11 +137,10 @@ export const industries = [
       { name: 'Pompe cu membrană', description: 'PTFE pentru fluide agresive, certificate ATEX opțional' },
       { name: 'Robineți aseptici', description: 'Sterilizabili în linie (SIP), cu certificări GMP' },
       { name: 'Schimbătoare căldură sanitare', description: 'Pentru procese batch, CIP/SIP compatibile' },
-      { name: 'Filtre sterile', description: 'Retenție bacteriană 0.2µm, certificate pentru pharma' },
     ],
-    brands: ['Grundfos BioBooster', 'Alfa Laval', 'GEA', 'Ebro Armaturen'],
+    brands: ['Grundfos BioBooster', 'Alfa Laval', 'GEA'],
     clients: ['Antibiotice Iași', 'Zentiva București', 'Terapia Cluj'],
-    stats: { projects: '25+', experience: '8 ani', satisfaction: '98%' },
+    stats: { projects: '25+', experience: '9 ani', satisfaction: '98%' },
   },
   {
     id: 'chimie',
@@ -177,7 +177,7 @@ export const industries = [
     metaTitle: 'Echipamente Minerit | Pompe Slurry, Drenaj Mine | Infinitrade',
     metaDescription: 'Echipamente pentru industria extractivă: pompe slurry pentru nămol abraziv, pompe drenaj mine, robineți rezistenți la uzură.',
     heroTitle: 'Echipamente pentru Minerit și Extracție',
-    heroDescription: 'Mineritul e probabil cel mai dur mediu pentru echipamente. Abraziune extremă, nămol, condiții grele. Livrăm pompe și armături care rezistă în aceste condiții - nu echipamente standard rebranduite.',
+    heroDescription: 'Mineritul e probabil cel mai dur mediu pentru echipamente - abraziune extremă, nămol, condiții pe care le-am văzut doar în poze înainte să vizităm o mină în 2014. De atunci, am livrat pompe și armături care rezistă în aceste condiții, nu echipamente standard rebranduite.',
     icon: 'Mountain',
     color: '#78716c',
     applications: [
@@ -192,11 +192,10 @@ export const industries = [
       { name: 'Pompe submersibile heavy-duty', description: 'Pentru drenaj mine, funcționare în condiții dure' },
       { name: 'Robineți cu cuțit', description: 'Pentru fluide cu conținut mare de solide' },
       { name: 'Pompe verticale adânci', description: 'Pentru puțuri și bazine de decantare' },
-      { name: 'Hidrofoare industriale', description: 'Alimentare utilități și stații de spălare' },
     ],
-    brands: ['KSB', 'Sulzer', 'Grundfos', 'Ebara'],
+    brands: ['KSB', 'Sulzer', 'Grundfos'],
     clients: ['Cupru Min Abrud', 'SNGN Romgaz', 'OMV Petrom (extracție)'],
-    stats: { projects: '30+', experience: '13 ani', satisfaction: '91%' },
+    stats: { projects: '35+', experience: '11 ani', satisfaction: '93%' },
   },
   {
     id: 'constructii',

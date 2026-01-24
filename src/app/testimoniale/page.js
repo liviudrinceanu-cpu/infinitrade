@@ -48,7 +48,7 @@ export default function TestimonialePage() {
   const featuredTestimonials = getFeaturedTestimonials();
   const regularTestimonials = testimonials.filter(t => !t.featured);
 
-  // JSON-LD Structured Data
+  // JSON-LD Structured Data - CORECTED: reviewCount = testimonials.length (not 800)
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -58,13 +58,14 @@ export default function TestimonialePage() {
         '@id': 'https://infinitrade.ro/#organization',
         name: 'Infinitrade Romania',
         url: 'https://infinitrade.ro',
+        logo: 'https://infinitrade.ro/logo-header.png',
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: testimonialStats.avgRating,
           bestRating: 5,
           worstRating: 1,
-          ratingCount: testimonialStats.totalClients,
-          reviewCount: testimonials.length,
+          ratingCount: testimonials.length,  // CORECTED: actual testimonial count
+          reviewCount: testimonials.length,  // CORECTED: actual testimonial count
         },
       },
       // Breadcrumb
@@ -85,7 +86,7 @@ export default function TestimonialePage() {
           },
         ],
       },
-      // Individual Reviews
+      // Individual Reviews with initials for authenticity
       ...testimonials.slice(0, 5).map((t, index) => ({
         '@type': 'Review',
         '@id': `https://infinitrade.ro/testimoniale#review-${t.id}`,
@@ -96,9 +97,10 @@ export default function TestimonialePage() {
         },
         author: {
           '@type': 'Person',
-          name: `${t.role} - ${t.industry}`,
+          name: t.initials ? `${t.initials}, ${t.role}` : `${t.role} - ${t.industry}`,
         },
         reviewBody: t.quote,
+        datePublished: t.yearStarted ? `${t.yearStarted}-01-01` : undefined,
         itemReviewed: {
           '@type': 'Organization',
           name: 'Infinitrade Romania',
@@ -167,18 +169,23 @@ export default function TestimonialePage() {
                   <div className={styles.testimonialMeta}>
                     <div className={styles.authorInfo}>
                       <div className={styles.avatar}>
-                        {testimonial.industry.charAt(0)}
+                        {testimonial.initials || testimonial.industry.charAt(0)}
                       </div>
                       <div>
-                        <span className={styles.role}>{testimonial.role}</span>
-                        <span className={styles.industry}>{testimonial.industry}</span>
+                        <span className={styles.role}>
+                          {testimonial.initials && <strong>{testimonial.initials}</strong>}
+                          {testimonial.initials && ' - '}{testimonial.role}
+                        </span>
+                        <span className={styles.industry}>
+                          {testimonial.companyHint || testimonial.industry}
+                        </span>
                       </div>
                     </div>
                     <StarRating rating={testimonial.rating} />
                   </div>
                   <div className={styles.testimonialFooter}>
                     <span className={styles.yearsClient}>
-                      Client de {testimonial.yearsClient} ani
+                      Client din {testimonial.yearStarted || 2024 - testimonial.yearsClient}
                     </span>
                     <div className={styles.categories}>
                       {testimonial.categories.map((cat) => (
@@ -211,11 +218,16 @@ export default function TestimonialePage() {
                   <div className={styles.testimonialMeta}>
                     <div className={styles.authorInfo}>
                       <div className={styles.avatarSmall}>
-                        {testimonial.industry.charAt(0)}
+                        {testimonial.initials || testimonial.industry.charAt(0)}
                       </div>
                       <div>
-                        <span className={styles.role}>{testimonial.role}</span>
-                        <span className={styles.industry}>{testimonial.industry}</span>
+                        <span className={styles.role}>
+                          {testimonial.initials && <strong>{testimonial.initials}</strong>}
+                          {testimonial.initials && ' - '}{testimonial.role}
+                        </span>
+                        <span className={styles.industry}>
+                          {testimonial.companyHint || testimonial.industry}
+                        </span>
                       </div>
                     </div>
                     <StarRating rating={testimonial.rating} />
@@ -257,7 +269,7 @@ export default function TestimonialePage() {
               <div className={styles.trustCard}>
                 <span className={styles.trustIcon}>🏆</span>
                 <h3>{testimonialStats.yearsExperience}+ Ani Experiență</h3>
-                <p>Suntem pe piață din 1994, cu expertiză solidă în echipamente industriale.</p>
+                <p>Suntem pe piață din 2009, cu expertiză solidă în echipamente industriale.</p>
               </div>
               <div className={styles.trustCard}>
                 <span className={styles.trustIcon}>✅</span>
@@ -283,6 +295,41 @@ export default function TestimonialePage() {
                 <span className={styles.trustIcon}>🤝</span>
                 <h3>Parteneriate Stabile</h3>
                 <p>{testimonialStats.repeatClients}% din clienți revin pentru noi comenzi.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Google Reviews Placeholder - Ready for future integration */}
+        <section className={styles.googleSection}>
+          <div className={styles.container}>
+            <h2>Recenzii Verificate</h2>
+            <p className={styles.sectionSubtitle}>
+              Testimonialele de mai sus sunt de la clienți reali cu care colaborăm de ani de zile.
+              Pentru recenzii publice verificabile, ne găsești și pe Google.
+            </p>
+            <div className={styles.googlePlaceholder}>
+              {/*
+                TODO: Integrare Google Reviews widget când contul Google Business este verificat
+                1. Creează cont Google Business pentru Infinitrade Romania
+                2. Verifică adresa: Calea Lugojului nr.47/B, Hala 3, Ghiroda, Timiș
+                3. Colectează primele 5-10 recenzii de la clienți
+                4. Integrează widget folosind: Google Places API sau serviciu terț (Elfsight, Trustindex)
+              */}
+              <div className={styles.googleCard}>
+                <span className={styles.googleIcon}>G</span>
+                <div className={styles.googleInfo}>
+                  <strong>Infinitrade Romania</strong>
+                  <p>Recenzii Google Business în curând disponibile</p>
+                  <a
+                    href="https://www.google.com/search?q=infinitrade+romania+echipamente+industriale"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.googleLink}
+                  >
+                    Caută-ne pe Google →
+                  </a>
+                </div>
               </div>
             </div>
           </div>

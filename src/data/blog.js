@@ -218,10 +218,10 @@ Dar trebuie sa masori inainte. Fara masuratori, nu stii cat pierzi si nu poti es
 
 Facem audit energetic gratuit pentru sistemele de pompare. Venim, masuram, calculam. Daca nu merita investitia, iti spunem cinstit - n-avem de castigat din recomandari care nu se justifica.
     `,
-    author: 'Echipa Infinitrade',
-    authorId: 'echipa-tehnica',
+    author: 'Adrian Ionescu, Director Tehnic',
+    authorId: 'adrian-ionescu',
     date: '2026-01-05',
-    dateModified: '2026-01-22',
+    dateModified: '2026-01-24',
     readTime: '6 min',
     category: 'Eficienta Energetica',
     tags: ['eficienta energetica', 'pompe', 'vfd', 'studiu de caz'],
@@ -404,10 +404,10 @@ Tine un jurnal pentru fiecare echipament. Noteaza interventiile, masuratorile, p
 
 Facem contracte de mentenanta pentru clientii care prefera sa externalizeze asta. Dar chiar daca nu lucrezi cu noi, implementeaza un program - orice e mai bun decat nimic.
     `,
-    author: 'Echipa Service Infinitrade',
-    authorId: 'echipa-tehnica',
+    author: 'Elena Vasile, Inginer Service',
+    authorId: 'elena-vasile',
     date: '2025-12-15',
-    dateModified: '2026-01-22',
+    dateModified: '2026-01-24',
     readTime: '7 min',
     category: 'Mentenanta',
     tags: ['mentenanta', 'pompe', 'service', 'checklist'],
@@ -496,9 +496,9 @@ Inainte sa cumperi un schimbator de la un brand obscur care pare ieftin, intreab
 Alfa Laval, Kelvion, SWEP au piese disponibile rapid in Europa. Merita diferenta de pret.
     `,
     author: 'Dan Munteanu, Inginer Proiectare',
-    authorId: 'echipa-tehnica',
+    authorId: 'dan-munteanu',
     date: '2025-12-10',
-    dateModified: '2026-01-22',
+    dateModified: '2026-01-24',
     readTime: '7 min',
     category: 'Ghiduri Tehnice',
     tags: ['schimbatoare caldura', 'alfa laval', 'kelvion', 'transfer termic'],
@@ -579,10 +579,10 @@ Suflantele pot consuma multa energie. Cateva reguli:
 
 Daca ai dubii, trimite-ne datele si te ajutam cu dimensionarea. Am livrat sute de suflante in ultimii ani si stim ce functioneaza in ce aplicatie.
     `,
-    author: 'Echipa Infinitrade',
-    authorId: 'echipa-tehnica',
+    author: 'Radu Stănescu, Specialist Suflante',
+    authorId: 'radu-stanescu',
     date: '2025-12-05',
-    dateModified: '2026-01-22',
+    dateModified: '2026-01-24',
     readTime: '6 min',
     category: 'Ghiduri Tehnice',
     tags: ['suflante', 'ventilatoare', 'becker', 'fpz', 'aerzen'],
@@ -693,10 +693,10 @@ Avem in stoc garnituri pentru Grundfos, Wilo, KSB - modelele curente. Pentru alt
 
 Sfat: cand comanzi, spune modelul exact de pompa si daca se poate, trimite poza cu garnitura veche. Exista multe variante si e usor sa comanzi gresit.
     `,
-    author: 'Echipa Service Infinitrade',
-    authorId: 'echipa-tehnica',
+    author: 'Elena Vasile, Inginer Service',
+    authorId: 'elena-vasile',
     date: '2025-11-28',
-    dateModified: '2026-01-22',
+    dateModified: '2026-01-24',
     readTime: '7 min',
     category: 'Mentenanta',
     tags: ['garnituri mecanice', 'pompe', 'etansare', 'piese schimb'],
@@ -811,10 +811,10 @@ Echipamentele ATEX costa mai mult - de la +30% pana la +100% fata de variantele 
 
 Daca nu esti sigur de clasificarea zonei sau de ce echipament ai nevoie, vorbeste cu specialistul in SSM din firma sau cu o firma autorizata pentru clasificari ATEX. Noi te putem ajuta cu echipamentele, dar clasificarea zonelor e responsabilitatea operatorului.
     `,
-    author: 'Radu Stanescu, Inginer Vanzari',
-    authorId: 'echipa-tehnica',
+    author: 'Mihai Radu, Inginer Aplicații',
+    authorId: 'mihai-radu',
     date: '2025-11-20',
-    dateModified: '2026-01-22',
+    dateModified: '2026-01-24',
     readTime: '8 min',
     category: 'Ghiduri Tehnice',
     tags: ['atex', 'zone periculoase', 'antiex', 'motoare atex'],
@@ -907,10 +907,10 @@ Grundfos si Wilo nu sunt singurele optiuni. KSB, Ebara, Calpeda, DAB - toate au 
 
 Daca ai alta preferinta sau ai avut experiente bune cu alt brand, respectam asta. In final, conteaza sa functioneze si sa poti intretine usor.
     `,
-    author: 'Echipa Infinitrade',
-    authorId: 'echipa-tehnica',
+    author: 'Adrian Ionescu, Director Tehnic',
+    authorId: 'adrian-ionescu',
     date: '2025-11-15',
-    dateModified: '2026-01-22',
+    dateModified: '2026-01-24',
     readTime: '6 min',
     category: 'Comparatii',
     tags: ['grundfos', 'wilo', 'pompe', 'comparatie'],
@@ -1222,9 +1222,9 @@ Kelvion daca: esti in industrie grea, ai buget limitat, ai nevoie de ceva non-st
 Sau ne intrebi pe noi - iti trimitem oferte de la ambii si decizi tu.
     `,
     author: 'Dan Munteanu, Inginer Proiectare',
-    authorId: 'echipa-tehnica',
+    authorId: 'dan-munteanu',
     date: '2025-10-22',
-    dateModified: '2026-01-22',
+    dateModified: '2026-01-24',
     readTime: '6 min',
     category: 'Comparatii',
     tags: ['alfa laval', 'kelvion', 'schimbatoare caldura', 'comparatie'],
@@ -1330,10 +1330,10 @@ Matematica e clara.
 
 Facem contracte de mentenanta pentru cine vrea sa externalizeze asta. Dar chiar daca nu lucrezi cu noi - fa ceva. Orice program de mentenanta, oricat de simplu, e mai bun decat sa astepti sa se strice.
     `,
-    author: 'Echipa Service Infinitrade',
-    authorId: 'echipa-tehnica',
+    author: 'Elena Vasile, Inginer Service',
+    authorId: 'elena-vasile',
     date: '2025-10-15',
-    dateModified: '2026-01-22',
+    dateModified: '2026-01-24',
     readTime: '8 min',
     category: 'Mentenanta',
     tags: ['mentenanta', 'prelungire viata', 'echipamente industriale', 'sfaturi'],

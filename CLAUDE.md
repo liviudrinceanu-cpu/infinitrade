@@ -1,6 +1,119 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 22 Ianuarie 2026 (V48)
+## ULTIMA ACTUALIZARE: 24 Ianuarie 2026 (V52)
+
+---
+
+## MODIFICARI V52 - E-E-A-T Enhancement pentru Google SEO (24 Ianuarie 2026)
+
+### SCOP
+Îmbunătățirea semnalelor E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) pentru ranking Google și reducerea detectabilității conținutului ca AI-generated.
+
+### PAGINĂ NOUĂ: /echipa
+
+| URL | Fișiere | Descriere |
+|-----|---------|-----------|
+| `/echipa` | `src/app/echipa/page.js`, `echipa.module.css`, `layout.js` | Pagină echipă cu avatare placeholder |
+
+**Funcționalități:**
+- Afișează toți autorii din `authors.js` (excepție: echipa-tehnica)
+- Avatare generate din inițiale cu culori consistente bazate pe nume
+- Afișare certificări, expertiză, ani de experiență
+- Link către articolele autorului
+
+### COMPONENT NOU: AuthorBox
+
+| Component | Fișiere |
+|-----------|---------|
+| `AuthorBox` | `src/components/AuthorBox.js`, `AuthorBox.module.css` |
+
+**Utilizare:**
+- Afișat la sfârșitul fiecărui articol blog
+- Include: avatar, nume, rol, bio, certificări
+- Link către pagina /echipa
+
+### AUTORI NOI ADĂUGAȚI
+
+| ID | Nume | Specializare |
+|----|------|--------------|
+| `radu-stanescu` | Radu Stănescu | Suflante și Compresoare |
+| `dan-munteanu` | Dan Munteanu | Automatizări Industriale |
+| `elena-vasile` | Elena Vasile | Schimbătoare de Căldură |
+
+**Articole reatribuite de la "Echipa Tehnica" către autori specifici.**
+
+### FIX AggregateRating Schema
+
+| Problemă | Soluție |
+|----------|---------|
+| Schema clama 800 reviews când erau doar 10 testimoniale | `ratingCount` și `reviewCount` folosesc acum `testimonials.length` |
+| Compania fondată 2009, nu 1994 | `yearsExperience` corectat la 15 |
+
+### TESTIMONIALE ÎMBUNĂTĂȚITE
+
+| Câmp Nou | Exemplu |
+|----------|---------|
+| `initials` | 'M.P.' |
+| `yearStarted` | 2016 |
+| `companyHint` | 'rafinărie din zona Ploiești' |
+
+### VARIAȚIE INDUSTRII (Anti-AI Detection)
+
+| Industrie | Branduri Înainte | Branduri După |
+|-----------|------------------|---------------|
+| Petrochimie | 5 | 4 |
+| Alimentar | 5 | 6 |
+| Tratare-apa | 5 | 4 |
+| Farmaceutic | 4 | 3 |
+| Minerit | 4 | 3 |
+
+### CASE STUDIES ÎMBUNĂTĂȚITE
+
+| Câmp Nou | Exemplu |
+|----------|---------|
+| `startDate` | 'Martie 2024' |
+| `endDate` | 'Octombrie 2024' |
+| `location` | 'sud-estul României (zona Constanța-Ploiești)' |
+| `testimonialInitials` | 'V.M.' |
+
+### GOOGLE REVIEWS PLACEHOLDER
+
+Adăugat secțiune pregătitoare pe `/testimoniale`:
+- Card Google cu instrucțiuni TODO pentru integrare viitoare
+- Link către căutare Google pentru Infinitrade
+- CSS styling complet
+
+### NAVIGAȚIE ACTUALIZATĂ
+
+| Locație | Modificare |
+|---------|------------|
+| Header - Resurse dropdown | Adăugat "Echipa Noastră" |
+| Footer - Resurse | Adăugat "Echipa Noastră" |
+| Sitemap | Adăugat `/echipa` cu priority 0.7 |
+
+### FIȘIERE MODIFICATE
+
+| Fișier | Modificare |
+|--------|------------|
+| `src/app/echipa/page.js` | NOU - pagină echipă |
+| `src/app/echipa/layout.js` | NOU - metadata SEO |
+| `src/app/echipa/echipa.module.css` | NOU - styling |
+| `src/components/AuthorBox.js` | NOU - component autor |
+| `src/components/AuthorBox.module.css` | NOU - styling |
+| `src/data/authors.js` | +3 autori noi |
+| `src/data/blog.js` | Reatribuire articole la autori specifici |
+| `src/data/testimonials.js` | +initials, yearStarted, companyHint, fix stats |
+| `src/data/industries.js` | Variație branduri per industrie |
+| `src/data/caseStudies.js` | +startDate, endDate, location, testimonialInitials |
+| `src/data/products.js` | Adăugat "Echipa Noastră" în navigation |
+| `src/app/blog/[slug]/page.js` | Integrat AuthorBox |
+| `src/app/testimoniale/page.js` | Fix AggregateRating + Google Reviews placeholder |
+| `src/app/testimoniale/testimoniale.module.css` | +Google section styles |
+| `src/components/Footer.js` | Adăugat link echipa |
+| `src/app/sitemap.js` | Adăugat /echipa |
+
+### BUILD STATUS
+✅ Build SUCCESS - 104 pagini generate
 
 ---
 

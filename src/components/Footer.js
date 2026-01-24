@@ -93,6 +93,11 @@ export default function Footer() {
                   Despre Noi
                 </Link>
               </li>
+              <li>
+                <Link href="/echipa" className={styles.columnLink}>
+                  Echipa Noastră
+                </Link>
+              </li>
             </ul>
           </div>
 

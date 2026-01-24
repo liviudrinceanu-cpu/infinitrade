@@ -253,6 +253,7 @@ export const navigation = [
       { name: 'Industrii Deservite', href: '/industrii', description: 'Soluții pe verticale industriale' },
       { name: 'Ghid Comparativ', href: '/ghid-comparativ', description: 'Comparații branduri și produse' },
       { name: 'Certificări', href: '/certificari', description: 'Autorizări și parteneri' },
+      { name: 'Echipa Noastră', href: '/echipa', description: 'Specialiștii din spatele soluțiilor' },
     ]
   },
 ];

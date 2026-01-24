@@ -1,0 +1,167 @@
+/* AuthorBox Component Styles */
+
+.authorBox {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.authorHeader {
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.authorContent {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: 1.2rem;
+  color: #1a365d;
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+}
+
+.role {
+  color: #2563eb;
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.experience {
+  color: #64748b;
+  font-size: 0.85rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.bio {
+  color: #475569;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+}
+
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.certTag {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.profileLink {
+  color: #2563eb;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.profileLink:hover {
+  text-decoration: underline;
+}
+
+/* Team Box (for collective authors) */
+.teamBox {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.teamIcon {
+  font-size: 2.5rem;
+}
+
+.teamInfo {
+  flex: 1;
+}
+
+.teamLabel {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.teamName {
+  font-size: 1.1rem;
+  color: #1a365d;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.teamBio {
+  color: #475569;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.teamLink {
+  color: #2563eb;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.teamLink:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .authorContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .certifications {
+    justify-content: center;
+  }
+
+  .teamBox {
+    flex-direction: column;
+    text-align: center;
+  }
+}

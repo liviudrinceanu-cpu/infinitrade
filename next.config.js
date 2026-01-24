@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Image optimization
   images: {
     remotePatterns: [
       {
@@ -20,22 +21,49 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 31536000, // 1 year cache for optimized images
   },
+
+  // Enable compression
   compress: true,
+
+  // Remove X-Powered-By header
   poweredByHeader: false,
+
+  // Strict mode for better development experience
   reactStrictMode: true,
+
   // Performance optimizations
   experimental: {
+    // Tree-shake lucide-react and framer-motion for smaller bundles
     optimizePackageImports: ['lucide-react', 'framer-motion'],
   },
+
+  // Compiler optimizations
+  compiler: {
+    // Remove console.log in production
+    removeConsole: process.env.NODE_ENV === 'production' ? {
+      exclude: ['error', 'warn'],
+    } : false,
+  },
+
+  // Enable SWC minification (faster than Terser)
+  swcMinify: true,
+
+  // Strict mode for output
+  output: 'standalone',
+
+  // Security and performance headers
   async headers() {
     return [
+      // Global headers
       {
         source: '/:path*',
         headers: [
+          // DNS prefetch for faster resolution
           {
             key: 'X-DNS-Prefetch-Control',
             value: 'on'
           },
+          // Security headers
           {
             key: 'X-Frame-Options',
             value: 'SAMEORIGIN'
@@ -86,7 +114,7 @@ const nextConfig = {
           }
         ],
       },
-      // Cache static assets
+      // Long-term cache for static assets (images)
       {
         source: '/(.*)\\.(jpg|jpeg|png|gif|ico|svg|webp|avif)',
         headers: [
@@ -96,7 +124,7 @@ const nextConfig = {
           }
         ],
       },
-      // Cache fonts
+      // Long-term cache for fonts
       {
         source: '/(.*)\\.(woff|woff2|eot|ttf|otf)',
         headers: [
@@ -106,6 +134,39 @@ const nextConfig = {
           }
         ],
       },
+      // Cache JS and CSS files (hashed filenames = immutable)
+      {
+        source: '/_next/static/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable'
+          }
+        ],
+      },
+      // API routes should not be cached
+      {
+        source: '/api/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'no-store, no-cache, must-revalidate'
+          }
+        ],
+      },
+    ];
+  },
+
+  // Redirects for SEO
+  async redirects() {
+    return [
+      // Redirect www to non-www (assuming DNS is configured)
+      // {
+      //   source: '/:path*',
+      //   has: [{ type: 'host', value: 'www.infinitrade.ro' }],
+      //   destination: 'https://infinitrade.ro/:path*',
+      //   permanent: true,
+      // },
     ];
   },
 }

@@ -1,3 +1,8 @@
+/* ===========================================
+   HERO SECTION - LCP OPTIMIZED
+   All animations are CSS-only for better Core Web Vitals
+   =========================================== */
+
 .hero {
   position: relative;
   min-height: 100vh;
@@ -6,14 +11,18 @@
   padding: 120px 0 80px;
   overflow: hidden;
   background: var(--gradient-hero);
+  /* Contain paint to improve performance */
+  contain: layout style;
 }
 
-/* Background Elements */
+/* Background Elements - GPU accelerated */
 .backgroundElements {
   position: absolute;
   inset: 0;
   pointer-events: none;
   overflow: hidden;
+  /* Use will-change sparingly on background */
+  contain: strict;
 }
 
 .gradientOrb1 {
@@ -25,7 +34,8 @@
   background: radial-gradient(circle, rgba(0, 113, 227, 0.08) 0%, transparent 70%);
   border-radius: 50%;
   filter: blur(40px);
-  will-change: transform;
+  /* GPU layer for smooth rendering */
+  transform: translateZ(0);
   contain: layout style paint;
 }
 
@@ -38,14 +48,14 @@
   background: radial-gradient(circle, rgba(255, 107, 53, 0.06) 0%, transparent 70%);
   border-radius: 50%;
   filter: blur(40px);
-  will-change: transform;
+  transform: translateZ(0);
   contain: layout style paint;
 }
 
 .gridOverlay {
   position: absolute;
   inset: 0;
-  background-image: 
+  background-image:
     linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
   background-size: 60px 60px;
@@ -63,9 +73,25 @@
   align-items: center;
 }
 
-/* Content */
+/* Content - LCP critical section */
 .content {
   max-width: 600px;
+}
+
+/* CSS Animation for content wrapper */
+.contentAnimate {
+  animation: contentSlideUp 0.4s ease-out forwards;
+}
+
+@keyframes contentSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Badge */
@@ -83,6 +109,21 @@
   margin-bottom: 24px;
 }
 
+.badgeAnimate {
+  animation: badgeScale 0.3s ease-out 0.05s both;
+}
+
+@keyframes badgeScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .badgeDot {
   width: 8px;
   height: 8px;
@@ -96,7 +137,7 @@
   50% { opacity: 0.6; transform: scale(1.2); }
 }
 
-/* Headline */
+/* Headline - LCP CRITICAL ELEMENT */
 .headline {
   font-size: clamp(48px, 7vw, 80px);
   font-weight: 600;
@@ -113,9 +154,11 @@
 
 @keyframes slideUp {
   from {
+    opacity: 0;
     transform: translateY(15px);
   }
   to {
+    opacity: 1;
     transform: translateY(0);
   }
 }
@@ -136,11 +179,19 @@
   max-width: 520px;
 }
 
+.subheadlineAnimate {
+  animation: slideUp 0.4s ease-out 0.15s both;
+}
+
 /* CTAs */
 .ctas {
   display: flex;
   gap: 16px;
   margin-bottom: 56px;
+}
+
+.ctasAnimate {
+  animation: slideUp 0.4s ease-out 0.2s both;
 }
 
 .ctaPrimary {
@@ -191,6 +242,19 @@
   border-top: 1px solid var(--gray-200);
 }
 
+.statsAnimate {
+  animation: fadeIn 0.4s ease-out 0.3s both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .stat {
   display: flex;
   flex-direction: column;
@@ -216,12 +280,20 @@
   background: var(--gray-200);
 }
 
-/* Visual */
+/* Visual - Hidden on mobile for performance */
 .visual {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  transform: scale(0.98);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.visualLoaded {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .visualInner {
@@ -291,7 +363,7 @@
   height: 100%;
 }
 
-/* Floating Badges */
+/* Floating Badges - Pure CSS animations */
 .floatingBadges {
   position: absolute;
   inset: 0;
@@ -329,12 +401,54 @@
   left: 15%;
 }
 
+/* CSS-only floating animations */
+.float1 {
+  animation: float1 3s ease-in-out infinite;
+}
+
+.float2 {
+  animation: float2 3.5s ease-in-out infinite 0.5s;
+}
+
+.float3 {
+  animation: float3 2.8s ease-in-out infinite 1s;
+}
+
+.float4 {
+  animation: float4 3.2s ease-in-out infinite 1.5s;
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes float3 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes float4 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
 /* Scroll Indicator */
 .scrollIndicator {
   position: absolute;
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
+  opacity: 0;
+}
+
+.scrollIndicatorAnimate {
+  animation: fadeIn 0.3s ease-out 0.8s forwards;
 }
 
 .scrollMouse {
@@ -352,9 +466,18 @@
   height: 8px;
   background: var(--gray-400);
   border-radius: 2px;
+  animation: scrollBounce 1.5s ease-in-out infinite;
 }
 
-/* Responsive */
+@keyframes scrollBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+/* ===========================================
+   RESPONSIVE - MOBILE PERFORMANCE OPTIMIZATIONS
+   =========================================== */
+
 @media (max-width: 1024px) {
   .container {
     grid-template-columns: 1fr;
@@ -381,6 +504,7 @@
     flex-wrap: wrap;
   }
 
+  /* Hide visual on tablet - improves LCP significantly */
   .visual {
     display: none;
   }
@@ -392,15 +516,16 @@
     min-height: auto;
   }
 
-  /* Reduce expensive effects on mobile for better LCP */
+  /* CRITICAL: Reduce expensive effects on mobile for better LCP */
   .gradientOrb1,
   .gradientOrb2 {
     filter: blur(20px); /* Reduced from 40px */
     opacity: 0.7;
   }
 
+  /* Hide grid on mobile - expensive to render */
   .gridOverlay {
-    display: none; /* Hide grid on mobile */
+    display: none;
   }
 
   .ctas {
@@ -427,14 +552,67 @@
   }
 }
 
-/* Extra optimizations for very slow connections */
+/* Extra optimizations for very slow connections / low-end devices */
 @media (max-width: 480px) {
+  /* Hide gradient orbs on small mobile - major LCP improvement */
   .gradientOrb1,
   .gradientOrb2 {
-    display: none; /* Hide gradient orbs on small mobile */
+    display: none;
   }
 
   .backgroundElements {
     background: var(--gradient-hero);
+  }
+
+  /* Simplify animations for better performance */
+  .contentAnimate,
+  .badgeAnimate,
+  .headlineAnimate,
+  .subheadlineAnimate,
+  .ctasAnimate,
+  .statsAnimate {
+    animation-duration: 0.2s;
+  }
+}
+
+/* Reduced motion preference - accessibility + performance */
+@media (prefers-reduced-motion: reduce) {
+  .contentAnimate,
+  .badgeAnimate,
+  .headlineAnimate,
+  .subheadlineAnimate,
+  .ctasAnimate,
+  .statsAnimate,
+  .scrollIndicatorAnimate {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .badgeDot {
+    animation: none;
+  }
+
+  .scrollWheel {
+    animation: none;
+  }
+
+  .float1,
+  .float2,
+  .float3,
+  .float4 {
+    animation: none;
+  }
+
+  .circle1,
+  .circle2 {
+    animation: none;
+  }
+
+  .visual,
+  .visualLoaded {
+    opacity: 1;
+    transform: scale(1);
+    transition: none;
   }
 }

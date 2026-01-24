@@ -99,6 +99,12 @@ export default function sitemap() {
       changeFrequency: 'yearly',
       priority: 0.3,
     },
+    {
+      url: `${BASE_URL}/echipa`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
   ];
 
   // Category pages

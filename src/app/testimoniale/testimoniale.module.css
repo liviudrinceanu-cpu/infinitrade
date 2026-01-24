@@ -463,6 +463,85 @@
   }
 }
 
+/* Google Reviews Section */
+.googleSection {
+  padding: 60px 0;
+  background: var(--gray-50);
+}
+
+.googleSection h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+  color: var(--gray-900);
+}
+
+.googlePlaceholder {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.googleCard {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 28px 32px;
+  border-radius: 16px;
+  border: 2px solid var(--gray-200);
+  transition: all var(--transition-fast);
+}
+
+.googleCard:hover {
+  border-color: #4285f4;
+  box-shadow: 0 4px 20px rgba(66, 133, 244, 0.15);
+}
+
+.googleIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #4285f4 0%, #34a853 50%, #fbbc05 75%, #ea4335 100%);
+  border-radius: 12px;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+}
+
+.googleInfo {
+  flex: 1;
+}
+
+.googleInfo strong {
+  display: block;
+  font-size: 18px;
+  color: var(--gray-900);
+  margin-bottom: 4px;
+}
+
+.googleInfo p {
+  font-size: 14px;
+  color: var(--gray-500);
+  margin-bottom: 8px;
+}
+
+.googleLink {
+  font-size: 14px;
+  color: #4285f4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.googleLink:hover {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
 @media (max-width: 480px) {
   .statsBar {
     grid-template-columns: 1fr;
@@ -475,5 +554,15 @@
 
   .featuredCard {
     padding: 24px;
+  }
+
+  .googleCard {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .googleSection h2 {
+    font-size: 26px;
   }
 }

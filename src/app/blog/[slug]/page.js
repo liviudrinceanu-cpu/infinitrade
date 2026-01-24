@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import AuthorBox from '@/components/AuthorBox';
 import { blogArticles, getBlogArticle } from '@/data/blog';
 import { getAuthorById } from '@/data/authors';
 import { Calendar, Clock, User, ArrowLeft, Tag, Share2 } from 'lucide-react';
@@ -333,6 +334,9 @@ export default async function BlogArticlePage({ params }) {
                   </span>
                 ))}
               </div>
+
+              {/* Author Box - E-E-A-T Enhancement */}
+              <AuthorBox author={author} />
             </footer>
           </div>
         </article>

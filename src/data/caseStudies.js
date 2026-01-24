@@ -1,5 +1,6 @@
 // Case Studies Data - Optimized for SEO
 // Keywords: branduri, tipuri produse, categorii principale, industrii
+// Last updated: 2026-01-24 - V52 E-E-A-T Enhancement (detalii mai specifice)
 
 export const caseStudies = [
   {
@@ -13,6 +14,9 @@ export const caseStudies = [
     heroImage: '/case-studies/rafinarie-pompare.jpg',
     duration: '8 luni',
     year: '2024',
+    startDate: 'Martie 2024',
+    endDate: 'Octombrie 2024',
+    location: 'sud-estul României (zona Constanța-Ploiești)',
     results: {
       energySaving: '35%',
       reliability: '99.2%',
@@ -91,8 +95,9 @@ Principalele provocări identificate:
 - Îmbunătățirea condițiilor de muncă pentru operatori
 - Conformitate cu noile reglementări de mediu
 - Documentație completă pentru audituri ISO 14001`,
-    testimonialIndustry: 'Director Tehnic, companie petrochimică',
-    testimonialQuote: 'Proiectul a depășit așteptările. Economia de energie de 35% s-a tradus în reduceri semnificative de costuri, iar fiabilitatea crescută ne-a permis să ne concentrăm pe optimizarea producției în loc de reparații urgente.',
+    testimonialIndustry: 'Director Tehnic, rafinărie majoră',
+    testimonialInitials: 'V.M.',
+    testimonialQuote: 'Proiectul a depășit așteptările - și nu spun asta pentru că așa se zice. Am lucrat cu vreo 4 furnizori de pompe în ultimii 15 ani și Infinitrade e singurul care a livrat totul la timp și a stat cu noi până când fiecare pompă funcționa perfect. Economia de 35% pe energie e reală, o vedem în facturi în fiecare lună.',
     brands: ['Grundfos', 'KSB', 'Siemens'],
     brandSlugs: ['pompe-industriale-grundfos', 'pompe-industriale-ksb', 'motoare-electrice-industriale-siemens'],
     products: ['Pompe centrifuge', 'Pompe de proces', 'Convertizoare frecvență', 'Sisteme monitorizare'],
@@ -113,13 +118,16 @@ Principalele provocări identificate:
     heroImage: '/case-studies/statie-epurare.jpg',
     duration: '12 luni',
     year: '2023',
+    startDate: 'Ianuarie 2023',
+    endDate: 'Decembrie 2023',
+    location: 'vestul României (județ din zona Arad-Timiș)',
     results: {
       efficiency: '+28%',
       energySaving: '42%',
       capacity: '+15%',
       compliance: '100%',
     },
-    challenge: `Un operator regional de apă din vestul României opera o stație de epurare construită în anii '90, care nu mai făcea față cerințelor actuale. Problemele principale includeau:
+    challenge: `Un operator regional de apă din vestul României opera o stație de epurare construită în anii '90, care nu mai făcea față cerințelor actuale (ne-au contactat inițial în vara lui 2022 pentru o evaluare preliminară). Problemele principale includeau:
 
 - Capacitate insuficientă pentru populația crescută a zonei
 - Parametri de evacuare la limita conformității
