@@ -6,10 +6,6 @@ import { config } from '@/lib/config';
 import { prisma } from '@/lib/db';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 
-// Force dynamic rendering - required for API routes with runtime features
-export const dynamic = 'force-dynamic';
-export const runtime = 'nodejs';
-
 // Lazy initialization - only create clients when needed
 let resend = null;
 let anthropic = null;
@@ -110,15 +106,10 @@ const contactSchema = z.object({
 
 async function analyzeRequestWithClaude(formData) {
   const client = await getAnthropic();
-
+  
   if (!client) {
     return generateBasicAnalysis(formData);
   }
-
-  // Add timeout to prevent Vercel function timeout (max 10s for API call)
-  const timeoutPromise = new Promise((_, reject) =>
-    setTimeout(() => reject(new Error('AI analysis timeout')), 8000)
-  );
 
   const prompt = `Ești un expert în echipamente industriale (pompe, robineți, motoare electrice, schimbătoare de căldură, suflante). 
 
@@ -161,7 +152,7 @@ Format răspuns:
 [observații scurte și relevante]`;
 
   try {
-    const apiCallPromise = client.messages.create({
+    const response = await client.messages.create({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 1500,
       messages: [
@@ -172,13 +163,9 @@ Format răspuns:
       ]
     });
 
-    // Race between API call and timeout
-    const response = await Promise.race([apiCallPromise, timeoutPromise]);
-
     return response.content[0].text;
   } catch (error) {
-    // Fallback to basic analysis if Claude fails or times out
-    console.warn('Claude AI analysis failed, using basic analysis:', error.message);
+    // Fallback to basic analysis if Claude fails
     return generateBasicAnalysis(formData);
   }
 }
@@ -468,21 +455,14 @@ Răspunde direct la: ${validatedData.email}
     });
 
   } catch (error) {
-    // Log error for debugging
-    console.error('Contact API Error:', error);
-
     // Don't expose internal errors in production
-    const errorMessage = process.env.NODE_ENV === 'development'
-      ? error.message
-      : 'Eroare internă. Vă rugăm încercați din nou sau contactați-ne direct la email.';
-
+    const errorMessage = process.env.NODE_ENV === 'development' 
+      ? error.message 
+      : 'Eroare internă. Vă rugăm încercați din nou.';
+    
     return Response.json(
-      { error: errorMessage, success: false },
-      {
-        status: 500,
-        headers: { 'Content-Type': 'application/json' }
-      }
+      { error: errorMessage },
+      { status: 500 }
     );
   }
 }
-
