@@ -6,6 +6,9 @@ import { config } from '@/lib/config';
 import { prisma } from '@/lib/db';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 
+// Force dynamic - this route uses runtime features
+export const dynamic = 'force-dynamic';
+
 // Lazy initialization - only create clients when needed
 let resend = null;
 let anthropic = null;
