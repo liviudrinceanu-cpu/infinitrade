@@ -6,6 +6,10 @@ import { config } from '@/lib/config';
 import { prisma } from '@/lib/db';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 
+// Force dynamic rendering - required for API routes with runtime features
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 // Lazy initialization - only create clients when needed
 let resend = null;
 let anthropic = null;
