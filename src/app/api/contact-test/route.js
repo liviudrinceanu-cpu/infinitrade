@@ -1,4 +1,4 @@
-// Minimal test endpoint for contact API
+// Minimal test endpoint for contact API - diagnose module loading issues
 export const dynamic = 'force-dynamic';
 
 export async function POST(request) {
@@ -11,6 +11,7 @@ export async function POST(request) {
       hasDatabase: !!process.env.DATABASE_URL,
       hasResend: !!process.env.RESEND_API_KEY,
       hasAnthropic: !!process.env.ANTHROPIC_API_KEY,
+      nodeEnv: process.env.NODE_ENV,
     };
 
     // Step 3: Try loading modules one by one
@@ -39,11 +40,14 @@ export async function POST(request) {
       modules.rateLimitError = e.message;
     }
 
+    // NOTE: @/lib/utils imports isomorphic-dompurify which requires JSDOM
+    // This may fail in serverless environments
     try {
       const { sanitizeHtml } = await import('@/lib/utils');
       modules.utils = true;
     } catch (e) {
       modules.utilsError = e.message;
+      modules.utilsNote = 'isomorphic-dompurify may fail in serverless - this is expected';
     }
 
     try {
@@ -81,6 +85,16 @@ export async function POST(request) {
       modules.anthropicError = e.message;
     }
 
+    // Test the simple sanitizer used in contact route
+    const testHtml = '<script>alert("xss")</script><p>Hello</p>';
+    const sanitized = testHtml
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#x27;')
+      .replace(/\//g, '&#x2F;');
+
     return Response.json({
       status: 'ok',
       received: {
@@ -89,6 +103,10 @@ export async function POST(request) {
       },
       envCheck,
       modules,
+      sanitizerTest: {
+        input: testHtml,
+        output: sanitized,
+      },
       timestamp: new Date().toISOString(),
     });
 

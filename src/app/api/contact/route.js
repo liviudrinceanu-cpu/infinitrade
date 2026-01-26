@@ -1,11 +1,45 @@
 import { z } from 'zod';
-import { rateLimit, getClientIP } from '@/lib/rateLimit';
-import { sanitizeHtml } from '@/lib/utils';
-import { config } from '@/lib/config';
-import { csrfProtection, validateContentType } from '@/lib/csrf';
 
 // Force dynamic - this route uses runtime features
 export const dynamic = 'force-dynamic';
+
+// Lazy imports to prevent build-time/load-time errors in serverless
+let rateLimitModule = null;
+let configModule = null;
+let csrfModule = null;
+
+async function getRateLimitModule() {
+  if (!rateLimitModule) {
+    rateLimitModule = await import('@/lib/rateLimit');
+  }
+  return rateLimitModule;
+}
+
+async function getConfigModule() {
+  if (!configModule) {
+    configModule = await import('@/lib/config');
+  }
+  return configModule;
+}
+
+async function getCsrfModule() {
+  if (!csrfModule) {
+    csrfModule = await import('@/lib/csrf');
+  }
+  return csrfModule;
+}
+
+// Simple HTML sanitization that works in serverless (no JSDOM dependency)
+function sanitizeHtmlSimple(html) {
+  if (typeof html !== 'string') return '';
+  return html
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#x27;')
+    .replace(/\//g, '&#x2F;');
+}
 
 // Lazy imports to prevent build-time errors
 let prisma = null;
@@ -255,6 +289,11 @@ function generateBasicAnalysis(formData) {
 
 export async function POST(request) {
   try {
+    // Lazy load modules
+    const { csrfProtection, validateContentType } = await getCsrfModule();
+    const { rateLimit, getClientIP } = await getRateLimitModule();
+    const { config } = await getConfigModule();
+
     // CSRF Protection
     const csrfError = csrfProtection(request);
     if (csrfError) return csrfError;
@@ -267,12 +306,12 @@ export async function POST(request) {
 
     // Rate limiting
     const ip = getClientIP(request);
-    const rateLimitResult = rateLimit(ip, config.api.rateLimit.max, config.api.rateLimit.windowMs);
-    
+    const rateLimitResult = await rateLimit(ip, config.api.rateLimit.max, config.api.rateLimit.windowMs);
+
     if (!rateLimitResult.allowed) {
       return Response.json(
         { error: 'Prea multe solicitări. Te rugăm să încerci din nou mai târziu.' },
-        { 
+        {
           status: 429,
           headers: {
             'Retry-After': '900', // 15 minutes
@@ -359,11 +398,11 @@ export async function POST(request) {
       console.warn('Database not available, skipping save');
     }
 
-    // Sanitize HTML for email
-    const sanitizedName = sanitizeHtml(validatedData.name);
-    const sanitizedCompany = sanitizeHtml(validatedData.company || '');
-    const sanitizedMessage = sanitizeHtml(validatedData.message);
-    const sanitizedAnalysis = sanitizeHtml(aiAnalysis);
+    // Sanitize HTML for email (using simple sanitizer that works in serverless)
+    const sanitizedName = sanitizeHtmlSimple(validatedData.name);
+    const sanitizedCompany = sanitizeHtmlSimple(validatedData.company || '');
+    const sanitizedMessage = sanitizeHtmlSimple(validatedData.message);
+    const sanitizedAnalysis = sanitizeHtmlSimple(aiAnalysis);
 
     // Format the email
     const emailHtml = `
