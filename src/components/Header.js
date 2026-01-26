@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
+// Removed framer-motion - using CSS transitions for better performance (~30KB savings)
 import { Menu, X, ChevronDown, Phone, Mail, Clock, Search, ShoppingCart, Plus, Trash2 } from 'lucide-react';
 import { navigation, secondaryNavigation, categories, allBrands } from '@/data/products';
 import { useQuoteCart } from '@/context/QuoteCartContext';
@@ -230,75 +230,63 @@ export default function Header() {
                     </Link>
 
                     {/* Dropdown for Resources */}
-                    <AnimatePresence>
-                      {activeDropdown === item.name && isResourcesDropdown && (
-                        <motion.div
-                          className={styles.resourcesDropdown}
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0, y: 10 }}
-                          transition={{ duration: 0.15 }}
-                          onMouseEnter={() => setActiveDropdown(item.name)}
-                          onMouseLeave={() => setActiveDropdown(null)}
-                        >
-                          <div className={styles.resourcesGrid}>
-                            {item.children.map(child => (
-                              <Link
-                                key={child.href}
-                                href={child.href}
-                                className={styles.resourceLink}
-                              >
-                                <span className={styles.resourceName}>{child.name}</span>
-                                <span className={styles.resourceDesc}>{child.description}</span>
-                              </Link>
-                            ))}
-                          </div>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
+                    {isResourcesDropdown && (
+                      <div
+                        className={`${styles.resourcesDropdown} ${activeDropdown === item.name ? styles.dropdownVisible : ''}`}
+                        onMouseEnter={() => setActiveDropdown(item.name)}
+                        onMouseLeave={() => setActiveDropdown(null)}
+                      >
+                        <div className={styles.resourcesGrid}>
+                          {item.children.map(child => (
+                            <Link
+                              key={child.href}
+                              href={child.href}
+                              className={styles.resourceLink}
+                            >
+                              <span className={styles.resourceName}>{child.name}</span>
+                              <span className={styles.resourceDesc}>{child.description}</span>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    )}
 
                     {/* Dropdown for categories */}
-                    <AnimatePresence>
-                      {activeDropdown === item.name && isCategory && (
-                        <motion.div
-                          className={styles.dropdown}
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0, y: 10 }}
-                          transition={{ duration: 0.15 }}
-                          onMouseEnter={() => setActiveDropdown(item.name)}
-                          onMouseLeave={() => setActiveDropdown(null)}
-                        >
-                          {categories
-                            .filter(cat => `/${cat.slug}` === item.href)
-                            .map(category => (
-                              <div key={category.id} className={styles.dropdownContent}>
-                                <div className={styles.dropdownMain}>
-                                  <h4>{category.name}</h4>
-                                  <p>{category.tagline}</p>
-                                  <Link href={`/${category.slug}`} className={styles.dropdownCta}>
-                                    Vezi toate produsele →
-                                  </Link>
-                                </div>
-                                <div className={styles.dropdownBrands}>
-                                  <span className={styles.dropdownLabel}>Branduri populare:</span>
-                                  <div className={styles.brandTags}>
-                                    {category.brands.filter(b => b.featured).slice(0, 4).map(brand => (
-                                      <Link
-                                        key={brand.slug}
-                                        href={`/brand/${brand.slug}`}
-                                        className={styles.brandTag}
-                                      >
-                                        {brand.name}
-                                      </Link>
-                                    ))}
-                                  </div>
+                    {isCategory && (
+                      <div
+                        className={`${styles.dropdown} ${activeDropdown === item.name ? styles.dropdownVisible : ''}`}
+                        onMouseEnter={() => setActiveDropdown(item.name)}
+                        onMouseLeave={() => setActiveDropdown(null)}
+                      >
+                        {categories
+                          .filter(cat => `/${cat.slug}` === item.href)
+                          .map(category => (
+                            <div key={category.id} className={styles.dropdownContent}>
+                              <div className={styles.dropdownMain}>
+                                <h4>{category.name}</h4>
+                                <p>{category.tagline}</p>
+                                <Link href={`/${category.slug}`} className={styles.dropdownCta}>
+                                  Vezi toate produsele →
+                                </Link>
+                              </div>
+                              <div className={styles.dropdownBrands}>
+                                <span className={styles.dropdownLabel}>Branduri populare:</span>
+                                <div className={styles.brandTags}>
+                                  {category.brands.filter(b => b.featured).slice(0, 4).map(brand => (
+                                    <Link
+                                      key={brand.slug}
+                                      href={`/brand/${brand.slug}`}
+                                      className={styles.brandTag}
+                                    >
+                                      {brand.name}
+                                    </Link>
+                                  ))}
                                 </div>
                               </div>
-                            ))}
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
+                            </div>
+                          ))}
+                      </div>
+                    )}
                   </div>
                 );
               })}
@@ -344,53 +332,46 @@ export default function Header() {
               </form>
 
               {/* Search Results Dropdown */}
-              <AnimatePresence>
-                {isSearchFocused && searchResults.length > 0 && (
-                  <motion.div
-                    className={styles.searchResults}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 10 }}
-                    role="listbox"
-                    aria-label="Rezultate căutare"
-                  >
-                    {searchResults.map((result, idx) => (
-                      <div key={idx} className={styles.searchResult} role="option">
-                        <button
-                          className={styles.searchResultMain}
-                          onClick={() => handleResultClick(result.url)}
-                        >
-                          <span className={styles.resultType} aria-hidden="true">
-                            {result.type === 'brand' ? '🏷️' : result.type === 'category' ? '📦' : '🔧'}
-                          </span>
-                          <div className={styles.resultInfo}>
-                            <span className={styles.resultName}>{result.name}</span>
-                            {result.category && (
-                              <span className={styles.resultCategory}>{result.category}</span>
-                            )}
-                          </div>
-                        </button>
-                        <button
-                          className={styles.addToCartBtn}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            addItem({
-                              type: result.type,
-                              name: result.name,
-                              category: result.category || '',
-                              url: result.url
-                            });
-                          }}
-                          title="Adaugă la cerere ofertă"
-                          aria-label={`Adaugă ${result.name} la cerere ofertă`}
-                        >
-                          <Plus size={16} />
-                        </button>
+              <div
+                className={`${styles.searchResults} ${isSearchFocused && searchResults.length > 0 ? styles.dropdownVisible : ''}`}
+                role="listbox"
+                aria-label="Rezultate căutare"
+              >
+                {searchResults.map((result, idx) => (
+                  <div key={idx} className={styles.searchResult} role="option">
+                    <button
+                      className={styles.searchResultMain}
+                      onClick={() => handleResultClick(result.url)}
+                    >
+                      <span className={styles.resultType} aria-hidden="true">
+                        {result.type === 'brand' ? '🏷️' : result.type === 'category' ? '📦' : '🔧'}
+                      </span>
+                      <div className={styles.resultInfo}>
+                        <span className={styles.resultName}>{result.name}</span>
+                        {result.category && (
+                          <span className={styles.resultCategory}>{result.category}</span>
+                        )}
                       </div>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
+                    </button>
+                    <button
+                      className={styles.addToCartBtn}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        addItem({
+                          type: result.type,
+                          name: result.name,
+                          category: result.category || '',
+                          url: result.url
+                        });
+                      }}
+                      title="Adaugă la cerere ofertă"
+                      aria-label={`Adaugă ${result.name} la cerere ofertă`}
+                    >
+                      <Plus size={16} />
+                    </button>
+                  </div>
+                ))}
+              </div>
             </div>
 
             {/* Cart Button with Badge */}
@@ -408,63 +389,56 @@ export default function Header() {
               </button>
 
               {/* Cart Dropdown */}
-              <AnimatePresence>
-                {isCartOpen && (
-                  <motion.div
-                    className={styles.cartDropdown}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 10 }}
-                  >
-                    <div className={styles.cartHeader}>
-                      <h4>Cerere Ofertă ({itemCount})</h4>
-                    </div>
-                    
-                    {cartItems.length === 0 ? (
-                      <div className={styles.cartEmpty}>
-                        <p>Nu ai adăugat produse</p>
-                        <span>Caută și adaugă produse pentru a solicita ofertă</span>
-                      </div>
-                    ) : (
-                      <>
-                        <div className={styles.cartItems} role="list">
-                          {cartItems.map((item) => (
-                            <div key={item.id} className={styles.cartItem} role="listitem">
-                              <div className={styles.cartItemInfo}>
-                                <span className={styles.cartItemType} aria-hidden="true">
-                                  {item.type === 'brand' ? '🏷️' : item.type === 'category' ? '📦' : '🔧'}
-                                </span>
-                                <div>
-                                  <span className={styles.cartItemName}>{item.name}</span>
-                                  {item.category && (
-                                    <span className={styles.cartItemCategory}>{item.category}</span>
-                                  )}
-                                </div>
-                              </div>
-                              <button
-                                className={styles.cartItemRemove}
-                                onClick={() => removeItem(item.id)}
-                                aria-label={`Elimină ${item.name} din coș`}
-                              >
-                                <Trash2 size={14} aria-hidden="true" />
-                              </button>
+              <div
+                className={`${styles.cartDropdown} ${isCartOpen ? styles.dropdownVisible : ''}`}
+              >
+                <div className={styles.cartHeader}>
+                  <h4>Cerere Ofertă ({itemCount})</h4>
+                </div>
+
+                {cartItems.length === 0 ? (
+                  <div className={styles.cartEmpty}>
+                    <p>Nu ai adăugat produse</p>
+                    <span>Caută și adaugă produse pentru a solicita ofertă</span>
+                  </div>
+                ) : (
+                  <>
+                    <div className={styles.cartItems} role="list">
+                      {cartItems.map((item) => (
+                        <div key={item.id} className={styles.cartItem} role="listitem">
+                          <div className={styles.cartItemInfo}>
+                            <span className={styles.cartItemType} aria-hidden="true">
+                              {item.type === 'brand' ? '🏷️' : item.type === 'category' ? '📦' : '🔧'}
+                            </span>
+                            <div>
+                              <span className={styles.cartItemName}>{item.name}</span>
+                              {item.category && (
+                                <span className={styles.cartItemCategory}>{item.category}</span>
+                              )}
                             </div>
-                          ))}
-                        </div>
-                        <div className={styles.cartFooter}>
-                          <Link 
-                            href="/contact" 
-                            className={styles.cartSubmit}
-                            onClick={() => setIsCartOpen(false)}
+                          </div>
+                          <button
+                            className={styles.cartItemRemove}
+                            onClick={() => removeItem(item.id)}
+                            aria-label={`Elimină ${item.name} din coș`}
                           >
-                            Trimite Cererea
-                          </Link>
+                            <Trash2 size={14} aria-hidden="true" />
+                          </button>
                         </div>
-                      </>
-                    )}
-                  </motion.div>
+                      ))}
+                    </div>
+                    <div className={styles.cartFooter}>
+                      <Link
+                        href="/contact"
+                        className={styles.cartSubmit}
+                        onClick={() => setIsCartOpen(false)}
+                      >
+                        Trimite Cererea
+                      </Link>
+                    </div>
+                  </>
                 )}
-              </AnimatePresence>
+              </div>
             </div>
 
             <Link href="/contact" className={styles.ctaButton}>
@@ -476,69 +450,66 @@ export default function Header() {
       </header>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
-        {isMobileMenuOpen && (
-          <motion.div
-            className={styles.mobileMenu}
-            initial={{ opacity: 0, x: '100%' }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: '100%' }}
-            transition={{ type: 'tween', duration: 0.3 }}
-          >
-            <nav className={styles.mobileNav} aria-label="Navigare mobilă">
-              {/* Secondary navigation first */}
-              {secondaryNavigation.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={styles.mobileNavLink}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {item.name}
-                </Link>
-              ))}
+      <div
+        className={`${styles.mobileMenu} ${isMobileMenuOpen ? styles.mobileMenuVisible : ''}`}
+        aria-hidden={!isMobileMenuOpen}
+      >
+        <nav className={styles.mobileNav} aria-label="Navigare mobilă">
+          {/* Secondary navigation first */}
+          {secondaryNavigation.map((item) => (
+            <Link
+              key={item.name}
+              href={item.href}
+              className={styles.mobileNavLink}
+              onClick={() => setIsMobileMenuOpen(false)}
+              tabIndex={isMobileMenuOpen ? 0 : -1}
+            >
+              {item.name}
+            </Link>
+          ))}
 
-              {/* Separator */}
-              <div className={styles.mobileDivider} />
+          {/* Separator */}
+          <div className={styles.mobileDivider} />
 
-              {/* Primary navigation - categories */}
-              {navigation.map((item) => (
-                item.isDropdown ? (
-                  <div key={item.name} className={styles.mobileDropdownGroup}>
-                    <span className={styles.mobileDropdownLabel}>{item.name}</span>
-                    {item.children.map(child => (
-                      <Link
-                        key={child.href}
-                        href={child.href}
-                        className={styles.mobileNavLink}
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        {child.name}
-                      </Link>
-                    ))}
-                  </div>
-                ) : (
+          {/* Primary navigation - categories */}
+          {navigation.map((item) => (
+            item.isDropdown ? (
+              <div key={item.name} className={styles.mobileDropdownGroup}>
+                <span className={styles.mobileDropdownLabel}>{item.name}</span>
+                {item.children.map(child => (
                   <Link
-                    key={item.name}
-                    href={item.href}
+                    key={child.href}
+                    href={child.href}
                     className={styles.mobileNavLink}
                     onClick={() => setIsMobileMenuOpen(false)}
+                    tabIndex={isMobileMenuOpen ? 0 : -1}
                   >
-                    {item.name}
+                    {child.name}
                   </Link>
-                )
-              ))}
+                ))}
+              </div>
+            ) : (
               <Link
-                href="/contact"
-                className={styles.mobileCta}
+                key={item.name}
+                href={item.href}
+                className={styles.mobileNavLink}
                 onClick={() => setIsMobileMenuOpen(false)}
+                tabIndex={isMobileMenuOpen ? 0 : -1}
               >
-                Cere Ofertă
+                {item.name}
               </Link>
-            </nav>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            )
+          ))}
+          <Link
+            href="/contact"
+            className={styles.mobileCta}
+            onClick={() => setIsMobileMenuOpen(false)}
+            tabIndex={isMobileMenuOpen ? 0 : -1}
+          >
+            Cere Ofertă
+          </Link>
+        </nav>
+      </div>
     </>
   );
 }
