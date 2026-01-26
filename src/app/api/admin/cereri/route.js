@@ -3,6 +3,9 @@ import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import { csrfProtection } from '@/lib/csrf';
 
+// Force dynamic rendering (uses auth headers)
+export const dynamic = 'force-dynamic';
+
 // Pagination limits
 const MIN_PAGE = 1;
 const MAX_PAGE = 10000;

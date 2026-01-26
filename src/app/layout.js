@@ -257,31 +257,10 @@ const webSiteSchema = {
   inLanguage: 'ro-RO'
 }
 
-// Skip to content styles (inline for performance)
-const skipLinkStyles = `
-  .skip-to-content {
-    position: absolute;
-    top: -40px;
-    left: 0;
-    background: #0990db;
-    color: white;
-    padding: 8px 16px;
-    z-index: 10000;
-    transition: top 0.3s;
-    text-decoration: none;
-    font-weight: 500;
-    border-radius: 0 0 4px 0;
-  }
-  .skip-to-content:focus {
-    top: 0;
-  }
-`;
-
 export default function RootLayout({ children }) {
   return (
     <html lang="ro" className={inter.variable}>
       <head>
-        <style dangerouslySetInnerHTML={{ __html: skipLinkStyles }} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#0990db" />
         <meta name="geo.region" content="RO-TM" />
