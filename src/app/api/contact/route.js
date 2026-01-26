@@ -482,14 +482,3 @@ Răspunde direct la: ${validatedData.email}
   }
 }
 
-// Ensure OPTIONS request returns proper CORS headers
-export async function OPTIONS(request) {
-  return Response.json({}, {
-    status: 200,
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'POST, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
-    }
-  });
-}
