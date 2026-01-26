@@ -1,23 +1,54 @@
-import { Resend } from 'resend';
 import { z } from 'zod';
 import { rateLimit, getClientIP } from '@/lib/rateLimit';
 import { sanitizeHtml } from '@/lib/utils';
 import { config } from '@/lib/config';
-import { prisma } from '@/lib/db';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 
 // Force dynamic - this route uses runtime features
 export const dynamic = 'force-dynamic';
 
+// Lazy imports to prevent build-time errors
+let prisma = null;
+let Resend = null;
+
+async function getPrisma() {
+  if (!prisma) {
+    try {
+      const { prisma: prismaClient } = await import('@/lib/db');
+      prisma = prismaClient;
+    } catch (e) {
+      console.error('Failed to load Prisma:', e);
+      return null;
+    }
+  }
+  return prisma;
+}
+
+async function getResendClass() {
+  if (!Resend) {
+    try {
+      const resendModule = await import('resend');
+      Resend = resendModule.Resend;
+    } catch (e) {
+      console.error('Failed to load Resend:', e);
+      return null;
+    }
+  }
+  return Resend;
+}
+
 // Lazy initialization - only create clients when needed
-let resend = null;
+let resendClient = null;
 let anthropic = null;
 
-function getResend() {
-  if (!resend && process.env.RESEND_API_KEY) {
-    resend = new Resend(process.env.RESEND_API_KEY);
+async function getResend() {
+  if (!resendClient && process.env.RESEND_API_KEY) {
+    const ResendClass = await getResendClass();
+    if (ResendClass) {
+      resendClient = new ResendClass(process.env.RESEND_API_KEY);
+    }
   }
-  return resend;
+  return resendClient;
 }
 
 async function getAnthropic() {
@@ -277,50 +308,55 @@ export async function POST(request) {
       estimatedMax = parseFloat(totalMatch[2].replace(/[\s.,]/g, ''));
     }
 
-    // Save to database
-    try {
-      // Find or create client
-      let client = await prisma.client.findUnique({
-        where: { email: validatedData.email },
-      });
+    // Save to database (optional - email is the primary delivery)
+    const db = await getPrisma();
+    if (db) {
+      try {
+        // Find or create client
+        let client = await db.client.findUnique({
+          where: { email: validatedData.email },
+        });
 
-      if (!client) {
-        client = await prisma.client.create({
+        if (!client) {
+          client = await db.client.create({
+            data: {
+              email: validatedData.email,
+              name: validatedData.name,
+              company: validatedData.company || null,
+              phone: validatedData.phone || null,
+            },
+          });
+        } else {
+          // Update client info if changed
+          await db.client.update({
+            where: { id: client.id },
+            data: {
+              name: validatedData.name,
+              company: validatedData.company || client.company,
+              phone: validatedData.phone || client.phone,
+            },
+          });
+        }
+
+        // Create quote request
+        await db.quoteRequest.create({
           data: {
-            email: validatedData.email,
-            name: validatedData.name,
-            company: validatedData.company || null,
-            phone: validatedData.phone || null,
+            clientId: client.id,
+            category: validatedData.category || null,
+            message: validatedData.message,
+            productsJson: validatedData.cartItems || null,
+            aiAnalysis: aiAnalysis,
+            estimatedMin: estimatedMin,
+            estimatedMax: estimatedMax,
+            status: 'NEW',
           },
         });
-      } else {
-        // Update client info if changed
-        await prisma.client.update({
-          where: { id: client.id },
-          data: {
-            name: validatedData.name,
-            company: validatedData.company || client.company,
-            phone: validatedData.phone || client.phone,
-          },
-        });
+      } catch (dbError) {
+        // Log error but don't fail the request - email should still be sent
+        console.error('Failed to save to database:', dbError);
       }
-
-      // Create quote request
-      await prisma.quoteRequest.create({
-        data: {
-          clientId: client.id,
-          category: validatedData.category || null,
-          message: validatedData.message,
-          productsJson: validatedData.cartItems || null,
-          aiAnalysis: aiAnalysis,
-          estimatedMin: estimatedMin,
-          estimatedMax: estimatedMax,
-          status: 'NEW',
-        },
-      });
-    } catch (dbError) {
-      // Log error but don't fail the request - email should still be sent
-      console.error('Failed to save to database:', dbError);
+    } else {
+      console.warn('Database not available, skipping save');
     }
 
     // Sanitize HTML for email
@@ -427,16 +463,16 @@ Răspunde direct la: ${validatedData.email}
     `;
 
     // Send email via Resend
-    const resendClient = getResend();
-    
-    if (!resendClient) {
+    const emailClient = await getResend();
+
+    if (!emailClient) {
       return Response.json(
         { error: 'Serviciul de email nu este configurat.' },
         { status: 500 }
       );
     }
 
-    const { data, error } = await resendClient.emails.send({
+    const { data, error } = await emailClient.emails.send({
       from: 'Infinitrade.ro <noreply@infinitrade.ro>',
       to: ['liviu.drinceanu@infinitrade-romania.ro'],
       subject: `[Infinitrade.ro] Nouă solicitare de ofertă - ${sanitizedName}${sanitizedCompany ? ' (' + sanitizedCompany + ')' : ''}`,
