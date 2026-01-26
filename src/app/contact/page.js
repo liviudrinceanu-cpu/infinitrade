@@ -68,7 +68,22 @@ export default function ContactPage() {
         body: JSON.stringify(submitData),
       });
 
-      const result = await response.json();
+      // Handle empty or invalid JSON responses
+      let result;
+      const responseText = await response.text();
+
+      if (!responseText || responseText.trim() === '') {
+        // Empty response - likely a timeout or server error
+        throw new Error('Serverul nu a răspuns. Te rugăm să încerci din nou sau să ne contactezi direct la email.');
+      }
+
+      try {
+        result = JSON.parse(responseText);
+      } catch (parseError) {
+        // Invalid JSON response
+        console.error('Invalid JSON response:', responseText);
+        throw new Error('Eroare la procesarea răspunsului. Te rugăm să încerci din nou.');
+      }
 
       if (!response.ok) {
         throw new Error(result.error || 'Eroare la trimiterea formularului');
@@ -78,7 +93,12 @@ export default function ContactPage() {
       clearCart();
       setIsSubmitted(true);
     } catch (err) {
-      setError(err.message);
+      // Handle network errors specifically
+      if (err.name === 'TypeError' && err.message.includes('fetch')) {
+        setError('Eroare de conexiune. Verifică conexiunea la internet și încearcă din nou.');
+      } else {
+        setError(err.message);
+      }
     } finally {
       setIsLoading(false);
     }

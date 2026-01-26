@@ -106,10 +106,15 @@ const contactSchema = z.object({
 
 async function analyzeRequestWithClaude(formData) {
   const client = await getAnthropic();
-  
+
   if (!client) {
     return generateBasicAnalysis(formData);
   }
+
+  // Add timeout to prevent Vercel function timeout (max 10s for API call)
+  const timeoutPromise = new Promise((_, reject) =>
+    setTimeout(() => reject(new Error('AI analysis timeout')), 8000)
+  );
 
   const prompt = `Ești un expert în echipamente industriale (pompe, robineți, motoare electrice, schimbătoare de căldură, suflante). 
 
@@ -152,7 +157,7 @@ Format răspuns:
 [observații scurte și relevante]`;
 
   try {
-    const response = await client.messages.create({
+    const apiCallPromise = client.messages.create({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 1500,
       messages: [
@@ -163,9 +168,13 @@ Format răspuns:
       ]
     });
 
+    // Race between API call and timeout
+    const response = await Promise.race([apiCallPromise, timeoutPromise]);
+
     return response.content[0].text;
   } catch (error) {
-    // Fallback to basic analysis if Claude fails
+    // Fallback to basic analysis if Claude fails or times out
+    console.warn('Claude AI analysis failed, using basic analysis:', error.message);
     return generateBasicAnalysis(formData);
   }
 }
@@ -455,14 +464,32 @@ Răspunde direct la: ${validatedData.email}
     });
 
   } catch (error) {
+    // Log error for debugging
+    console.error('Contact API Error:', error);
+
     // Don't expose internal errors in production
-    const errorMessage = process.env.NODE_ENV === 'development' 
-      ? error.message 
-      : 'Eroare internă. Vă rugăm încercați din nou.';
-    
+    const errorMessage = process.env.NODE_ENV === 'development'
+      ? error.message
+      : 'Eroare internă. Vă rugăm încercați din nou sau contactați-ne direct la email.';
+
     return Response.json(
-      { error: errorMessage },
-      { status: 500 }
+      { error: errorMessage, success: false },
+      {
+        status: 500,
+        headers: { 'Content-Type': 'application/json' }
+      }
     );
   }
+}
+
+// Ensure OPTIONS request returns proper CORS headers
+export async function OPTIONS(request) {
+  return Response.json({}, {
+    status: 200,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+    }
+  });
 }
