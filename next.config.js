@@ -48,9 +48,6 @@ const nextConfig = {
   // Enable SWC minification (faster than Terser)
   swcMinify: true,
 
-  // Strict mode for output
-  output: 'standalone',
-
   // Security and performance headers
   async headers() {
     return [
