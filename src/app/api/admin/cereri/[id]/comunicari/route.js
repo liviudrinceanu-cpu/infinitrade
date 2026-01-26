@@ -3,8 +3,8 @@ import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 
-// Valid communication types
-const VALID_TYPES = ['NOTE', 'EMAIL', 'PHONE', 'STATUS_CHANGE'];
+// Valid communication types (must match Prisma CommType enum)
+const VALID_TYPES = ['NOTE', 'EMAIL_SENT', 'CALL', 'STATUS_CHANGE'];
 
 // Content length limits
 const MAX_CONTENT_LENGTH = 10000;

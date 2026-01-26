@@ -4,6 +4,35 @@ import { NextResponse } from 'next/server';
 import bcrypt from 'bcryptjs';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 
+// Valid roles (must match Prisma enum)
+const VALID_ROLES = ['ADMIN', 'SALES'];
+
+// UUID regex pattern for ID validation
+const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+// Password strength validation
+function validatePassword(password) {
+  const errors = [];
+
+  if (password.length < 12) {
+    errors.push('Parola trebuie să aibă minim 12 caractere');
+  }
+  if (!/[A-Z]/.test(password)) {
+    errors.push('Parola trebuie să conțină cel puțin o literă mare');
+  }
+  if (!/[a-z]/.test(password)) {
+    errors.push('Parola trebuie să conțină cel puțin o literă mică');
+  }
+  if (!/[0-9]/.test(password)) {
+    errors.push('Parola trebuie să conțină cel puțin o cifră');
+  }
+  if (!/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(password)) {
+    errors.push('Parola trebuie să conțină cel puțin un caracter special');
+  }
+
+  return errors;
+}
+
 export async function GET(request) {
   try {
     const session = await auth();
@@ -63,6 +92,23 @@ export async function POST(request) {
       );
     }
 
+    // Validate role if provided
+    if (role && !VALID_ROLES.includes(role)) {
+      return NextResponse.json(
+        { error: `Rol invalid. Trebuie să fie unul dintre: ${VALID_ROLES.join(', ')}` },
+        { status: 400 }
+      );
+    }
+
+    // Validate password strength
+    const passwordErrors = validatePassword(password);
+    if (passwordErrors.length > 0) {
+      return NextResponse.json(
+        { error: passwordErrors.join('. ') },
+        { status: 400 }
+      );
+    }
+
     // Check if email already exists
     const existingUser = await prisma.user.findUnique({
       where: { email },
@@ -117,6 +163,11 @@ export async function DELETE(request) {
 
     if (!id) {
       return NextResponse.json({ error: 'User ID is required' }, { status: 400 });
+    }
+
+    // Validate ID format (UUID)
+    if (!UUID_PATTERN.test(id)) {
+      return NextResponse.json({ error: 'Invalid ID format' }, { status: 400 });
     }
 
     // Prevent deleting own account

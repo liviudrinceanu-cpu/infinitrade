@@ -47,32 +47,52 @@ export function QuoteCartProvider({ children }) {
   }, [lastAction]);
 
   const addItem = useCallback((item) => {
-    // Check if already exists
-    const exists = items.find(i => 
-      i.type === item.type && 
-      i.name === item.name
-    );
-    
-    if (!exists) {
-      const newItem = {
+    let added = false;
+    let newItem = null;
+
+    setItems(prev => {
+      // Check if already exists using functional update pattern
+      const exists = prev.find(i =>
+        i.type === item.type &&
+        i.name === item.name
+      );
+
+      if (exists) {
+        return prev; // No change
+      }
+
+      newItem = {
         ...item,
         id: Date.now() + Math.random(),
         addedAt: new Date().toISOString()
       };
-      setItems(prev => [...prev, newItem]);
+      added = true;
+      return [...prev, newItem];
+    });
+
+    // Set last action after state update
+    if (added && newItem) {
       setLastAction({ type: 'add', item: newItem });
-      return true;
     }
-    return false;
-  }, [items]);
+    return added;
+  }, []); // No dependencies needed - uses functional update
 
   const removeItem = useCallback((id) => {
-    const item = items.find(i => i.id === id);
-    if (item) {
-      setItems(prev => prev.filter(i => i.id !== id));
-      setLastAction({ type: 'remove', item });
+    let removedItem = null;
+
+    setItems(prev => {
+      const item = prev.find(i => i.id === id);
+      if (item) {
+        removedItem = item;
+        return prev.filter(i => i.id !== id);
+      }
+      return prev;
+    });
+
+    if (removedItem) {
+      setLastAction({ type: 'remove', item: removedItem });
     }
-  }, [items]);
+  }, []); // No dependencies needed - uses functional update
 
   const clearCart = useCallback(() => {
     setItems([]);

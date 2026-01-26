@@ -16,8 +16,16 @@ export async function GET(request) {
 
     let dateFilter = {};
     if (days && days !== 'all') {
+      const parsedDays = parseInt(days, 10);
+      // Validate days parameter bounds (1-365)
+      if (isNaN(parsedDays) || parsedDays < 1 || parsedDays > 365) {
+        return NextResponse.json(
+          { error: 'Invalid days parameter. Must be between 1 and 365.' },
+          { status: 400 }
+        );
+      }
       const daysAgo = new Date();
-      daysAgo.setDate(daysAgo.getDate() - parseInt(days));
+      daysAgo.setDate(daysAgo.getDate() - parsedDays);
       dateFilter = { createdAt: { gte: daysAgo } };
     }
 
