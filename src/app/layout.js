@@ -154,12 +154,19 @@ export const metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': `${config.site.url}/#organization`,
   name: 'Infinitrade Romania',
   legalName: 'Driatheli Group SRL',
   url: config.site.url,
   logo: `${config.site.url}/logo-header.png`,
+  image: `${config.site.url}/logo-header.png`,
   description: 'Distribuitor autorizat de echipamente industriale în România - pompe, robineți, motoare electrice, schimbătoare de căldură și suflante.',
-  foundingDate: '2009',
+  foundingDate: '2009-11-11',
+  taxID: 'RO26209397',
+  numberOfEmployees: {
+    '@type': 'QuantitativeValue',
+    value: 16
+  },
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Calea Lugojului, nr.47/B, Hala nr. 3',
@@ -188,7 +195,10 @@ const organizationSchema = {
     'Motoare electrice',
     'Schimbătoare de căldură',
     'Suflante industriale',
-    'Echipamente industriale'
+    'Echipamente industriale',
+    'Grundfos', 'Wilo', 'KSB', 'Siemens', 'ABB', 'SEW Eurodrive',
+    'Alfa Laval', 'Kelvion', 'ARI Armaturen', 'Spirax Sarco',
+    'Becker', 'FPZ', 'Endress Hauser', 'Timken', 'NSK'
   ]
 }
 
