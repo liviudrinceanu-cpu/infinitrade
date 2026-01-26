@@ -205,6 +205,43 @@ export default function DesprePage() {
           </div>
         </section>
 
+        {/* Official Data Section - E-E-A-T */}
+        <section className={styles.officialSection}>
+          <div className={styles.container}>
+            <motion.div
+              className={styles.sectionHeader}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2>Date Oficiale Verificabile</h2>
+              <p>Informații publice din registrele oficiale (ONRC, 2024)</p>
+            </motion.div>
+            <div className={styles.officialGrid}>
+              <div className={styles.officialCard}>
+                <span className={styles.officialLabel}>Cifră de Afaceri</span>
+                <span className={styles.officialValue}>{companyInfo.officialData.revenue} {companyInfo.officialData.revenueUnit}</span>
+                <span className={styles.officialYear}>{companyInfo.officialData.revenueYear}</span>
+              </div>
+              <div className={styles.officialCard}>
+                <span className={styles.officialLabel}>Angajați</span>
+                <span className={styles.officialValue}>{companyInfo.officialData.employees}</span>
+                <span className={styles.officialYear}>persoane</span>
+              </div>
+              <div className={styles.officialCard}>
+                <span className={styles.officialLabel}>CUI</span>
+                <span className={styles.officialValue}>{companyInfo.officialData.cui}</span>
+                <span className={styles.officialYear}>Cod Unic de Identificare</span>
+              </div>
+              <div className={styles.officialCard}>
+                <span className={styles.officialLabel}>Nr. Reg. Com.</span>
+                <span className={styles.officialValue}>{companyInfo.officialData.regCom}</span>
+                <span className={styles.officialYear}>Registrul Comerțului</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Contact CTA */}
         <section className={styles.ctaSection}>
           <div className={styles.container}>

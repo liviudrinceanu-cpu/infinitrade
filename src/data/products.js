@@ -208,7 +208,7 @@ export const companyInfo = {
   legalEntity: 'Driatheli Group SRL',
   tagline: 'Dăm puls industriei',
   description: 'Partener strategic pentru departamentele de achiziții, mentenanță și investiții din industria românească. Furnizăm echipamente industriale de înaltă performanță pentru cele mai exigente aplicații.',
-  aboutUs: 'Cu peste 15 ani de experiență în distribuția de echipamente industriale, Infinitrade Romania s-a impus ca partener de încredere pentru cele mai importante companii din România. Înțelegem provocările departamentelor de achiziții și mentenanță: nevoia de echipamente fiabile, livrări rapide pentru a evita oprirea producției, și suport tehnic competent. De aceea, am construit o rețea de peste 300 de furnizori internaționali și menținem stocuri strategice pentru componentele critice. Clienții noștri - de la Continental și Siemens la ArcelorMittal și Romgaz - ne aleg pentru promptitudine, expertiză tehnică și angajamentul nostru față de calitate.',
+  aboutUs: 'Cu 17 ani de experiență în distribuția de echipamente industriale, Infinitrade Romania s-a impus ca partener de încredere pentru cele mai importante companii din România. Înțelegem provocările departamentelor de achiziții și mentenanță: nevoia de echipamente fiabile, livrări rapide pentru a evita oprirea producției, și suport tehnic competent. De aceea, am construit o rețea de peste 300 de furnizori internaționali și menținem stocuri strategice pentru componentele critice. Clienții noștri - de la Continental și Siemens la ArcelorMittal și Romgaz - ne aleg pentru promptitudine, expertiză tehnică și angajamentul nostru față de calitate.',
   founded: 2009,
   location: { city: 'Ghiroda', county: 'Timiș', address: 'Calea Lugojului, nr.47/B, Hala nr. 3', country: 'România' },
   contact: { 
@@ -217,7 +217,17 @@ export const companyInfo = {
     phone: '0371 232 404', 
     hours: 'Luni - Vineri / 08:00 - 16:30' 
   },
-  stats: { clients: '800+', brands: '500+', suppliers: '300+', years: '15+' },
+  stats: { clients: '800+', brands: '500+', suppliers: '300+', years: '17' },
+  // Date oficiale verificabile (sursa: ONRC/risco.ro 2024)
+  officialData: {
+    revenue: '16.5M',
+    revenueUnit: 'RON',
+    revenueYear: '2024',
+    employees: '16',
+    foundingDate: '2009-11-11',
+    cui: 'RO26209397',
+    regCom: 'J35/2901/2009',
+  },
   certifications: ['ISO 9001:2015', 'Distribuitor Autorizat', 'Furnizor SEAP / SICAP'],
   industries: ['Petrochimie', 'Energie', 'Alimentar', 'Farmaceutic', 'Automotive', 'Naval', 'Metalurgie', 'HVAC', 'Tratare Apă', 'Minerit', 'Ciment', 'Hârtie', 'Chimie', 'Logistică', 'Biogaz'],
   majorClients: ['Continental Automotive', 'Siemens', 'Aerostar', 'HeidelbergCement', 'ArcelorMittal Galați', 'Damen Shipyard', 'Romgaz', 'Azomureș', 'Alro Slatina', 'Rombat', 'PepsiCo', 'Linde', 'Saint-Gobain'],
