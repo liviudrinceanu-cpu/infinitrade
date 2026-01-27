@@ -34,6 +34,7 @@ export async function generateMetadata({ params }) {
   const shortNames = {
     'suflante-ventilatoare': 'Suflante Industriale',
     'schimbatoare-caldura': 'Schimbătoare Căldură',
+    'motoare-electrice': 'Motoare Electrice',
   };
   const displayName = shortNames[category.slug] || category.name;
   const title = `${displayName} | Distribuitor 2026`;

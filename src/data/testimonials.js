@@ -143,26 +143,20 @@ export const testimonialStats = {
   yearsExperience: 15,         // Corectat de la 30 (compania e din 2009)
   satisfactionRate: 98,
   repeatClients: 92,
-  industriesServed: 15,
+  industriesServed: 8,
 };
 
-// Industrii deservite cu iconuri
+// Industrii deservite cu iconuri și slug-uri corecte pentru link-uri
+// Doar industriile cu pagini dedicate au slug - restul au slug: null
 export const industriesServed = [
-  { name: 'Petrochimie', icon: '🛢️', clients: 120 },
-  { name: 'Alimentar', icon: '🏭', clients: 95 },
-  { name: 'Tratare Apă', icon: '💧', clients: 85 },
-  { name: 'Energie', icon: '⚡', clients: 75 },
-  { name: 'Farmaceutic', icon: '💊', clients: 45 },
-  { name: 'Chimie', icon: '🧪', clients: 70 },
-  { name: 'Minerit', icon: '⛏️', clients: 55 },
-  { name: 'Automotive', icon: '🚗', clients: 90 },
-  { name: 'Construcții', icon: '🏗️', clients: 65 },
-  { name: 'HVAC', icon: '❄️', clients: 50 },
-  { name: 'Agricultură', icon: '🌾', clients: 40 },
-  { name: 'Naval', icon: '🚢', clients: 25 },
-  { name: 'Textile', icon: '🧵', clients: 35 },
-  { name: 'Hârtie', icon: '📄', clients: 30 },
-  { name: 'Logistică', icon: '📦', clients: 20 },
+  { name: 'Petrochimie', icon: '🛢️', clients: 120, slug: 'petrochimie' },
+  { name: 'Alimentar', icon: '🏭', clients: 95, slug: 'alimentar' },
+  { name: 'Tratare Apă', icon: '💧', clients: 85, slug: 'tratare-apa' },
+  { name: 'Energie', icon: '⚡', clients: 75, slug: 'energie' },
+  { name: 'Farmaceutic', icon: '💊', clients: 45, slug: 'farmaceutic' },
+  { name: 'Chimie', icon: '🧪', clients: 70, slug: 'chimie' },
+  { name: 'Minerit', icon: '⛏️', clients: 55, slug: 'minerit' },
+  { name: 'Construcții', icon: '🏗️', clients: 65, slug: 'constructii' },
 ];
 
 // Helper functions

@@ -249,7 +249,7 @@ export default function TestimonialePage() {
               {industriesServed.map((industry) => (
                 <Link
                   key={industry.name}
-                  href={`/industrii/${industry.name.toLowerCase().replace(/\s+/g, '-')}`}
+                  href={`/industrii/${industry.slug}`}
                   className={styles.industryCard}
                 >
                   <span className={styles.industryIcon}>{industry.icon}</span>

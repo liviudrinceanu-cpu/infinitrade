@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Echipa Infinitrade | Ingineri Specializați Echipamente Industriale',
-  description: 'Cunoaște echipa Infinitrade: ingineri cu 60+ ani experiență cumulată, certificați Grundfos, Siemens, ABB. Consultanță tehnică reală pentru pompe, motoare, robineți.',
+  title: 'Echipa Noastră | Ingineri Certificați',
+  description: 'Echipa Infinitrade: ingineri cu 60+ ani experiență cumulată, certificați Grundfos, Siemens, ABB. Consultanță tehnică pentru pompe, motoare.',
   keywords: ['echipa infinitrade', 'ingineri echipamente industriale', 'consultanță tehnică', 'experți pompe', 'specialiști motoare electrice'],
   openGraph: {
     title: 'Echipa Infinitrade | Ingineri Specializați',
