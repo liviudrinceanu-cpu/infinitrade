@@ -39,7 +39,7 @@ export default function Hero() {
 
           {/* Headline - LCP ELEMENT: Pure CSS animation, immediate render */}
           <h1 className={`${styles.headline} ${styles.headlineAnimate}`}>
-            Dam puls
+            Dăm puls
             <br />
             <span className={styles.headlineAccent}>industriei.</span>
           </h1>
