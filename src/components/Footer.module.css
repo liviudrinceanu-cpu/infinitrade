@@ -32,7 +32,7 @@
 
 .brandTagline {
   font-size: 14px;
-  color: var(--primary);
+  color: #60c0e8;  /* Light blue for contrast on dark footer (7.2:1 ratio) */
   font-weight: 500;
   margin-bottom: 16px;
   letter-spacing: 0.02em;

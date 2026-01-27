@@ -7,7 +7,7 @@
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   padding: 120px 0 80px;
   color: white;
 }
@@ -103,7 +103,7 @@
 }
 
 .highlightBox {
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   border-radius: 16px;
   padding: 32px;
   color: white;
@@ -189,7 +189,7 @@
 .advantageIcon {
   width: 56px;
   height: 56px;
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -276,7 +276,7 @@
 }
 
 .categoryLink:hover {
-  background: #0990db;
+  background: #0077b6;
 }
 
 .categoryContent {
@@ -309,7 +309,7 @@
   display: block;
   font-family: 'Monaco', 'Consolas', monospace;
   font-size: 0.8rem;
-  color: #0990db;
+  color: #0077b6;
   margin-bottom: 4px;
 }
 
@@ -385,7 +385,7 @@
 
 .procedureThreshold {
   font-size: 0.85rem;
-  color: #0990db;
+  color: #0077b6;
   font-weight: 600;
   margin-bottom: 16px;
   padding-bottom: 16px;
@@ -420,7 +420,7 @@
 }
 
 .procedureTip svg {
-  color: #0990db;
+  color: #0077b6;
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -466,7 +466,7 @@
 }
 
 .documentItem svg {
-  color: #0990db;
+  color: #0077b6;
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -484,7 +484,7 @@
 }
 
 .documentsBox {
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   border-radius: 16px;
   padding: 32px;
   color: white;
@@ -560,7 +560,7 @@
 }
 
 .ctaBox {
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   border-radius: 20px;
   padding: 60px;
   text-align: center;
@@ -683,7 +683,7 @@
 }
 
 .relatedCard svg {
-  color: #0990db;
+  color: #0077b6;
 }
 
 /* Responsive */

@@ -10,7 +10,7 @@
 }
 
 .hero {
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   padding: 120px 0 60px;
   text-align: center;
   color: white;
@@ -48,7 +48,7 @@
   color: #1a1a2e;
   margin: 0 0 24px;
   padding-bottom: 12px;
-  border-bottom: 2px solid #0990db;
+  border-bottom: 2px solid #0077b6;
 }
 
 .questionsList {
@@ -66,11 +66,11 @@
 }
 
 .faqItem:hover {
-  border-color: #0990db;
+  border-color: #0077b6;
 }
 
 .faqItem[open] {
-  border-color: #0990db;
+  border-color: #0077b6;
 }
 
 .question {
@@ -97,7 +97,7 @@
 
 .chevron {
   flex-shrink: 0;
-  color: #0990db;
+  color: #0077b6;
   transition: transform 0.3s ease;
 }
 
@@ -120,7 +120,7 @@
 .answerLink {
   display: inline-block;
   margin-top: 12px;
-  color: #0990db;
+  color: #0077b6;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
@@ -148,7 +148,7 @@
 }
 
 .ctaBox {
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   border-radius: 16px;
   padding: 48px;
   text-align: center;

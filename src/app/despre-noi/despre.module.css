@@ -6,7 +6,7 @@
 .hero {
   position: relative;
   padding: 120px 0 80px;
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   color: white;
   overflow: hidden;
 }
@@ -84,7 +84,7 @@
 }
 
 .statIcon {
-  color: #0990db;
+  color: #0077b6;
   margin-bottom: 16px;
 }
 
@@ -231,7 +231,7 @@
 }
 
 .industryCard svg {
-  color: #0990db;
+  color: #0077b6;
 }
 
 .industryCard span {
@@ -315,7 +315,7 @@
 /* CTA Section */
 .ctaSection {
   padding: 80px 0;
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
 }
 
 .ctaBox {

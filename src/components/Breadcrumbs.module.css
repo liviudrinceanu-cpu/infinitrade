@@ -31,11 +31,11 @@
 }
 
 .link:hover {
-  color: var(--primary, #0990db);
+  color: var(--primary, #0077b6);
 }
 
 .link:focus-visible {
-  outline: 2px solid var(--primary, #0990db);
+  outline: 2px solid var(--primary, #0077b6);
   outline-offset: 2px;
   border-radius: 2px;
 }

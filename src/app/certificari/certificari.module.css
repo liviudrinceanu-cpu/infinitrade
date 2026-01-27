@@ -10,7 +10,7 @@
 }
 
 .hero {
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   padding: 120px 0 60px;
   text-align: center;
   color: white;
@@ -49,7 +49,7 @@
 }
 
 .certCard:hover {
-  border-color: #0990db;
+  border-color: #0077b6;
   box-shadow: 0 4px 20px rgba(9, 144, 219, 0.1);
 }
 
@@ -57,7 +57,7 @@
   width: 64px;
   height: 64px;
   border-radius: 12px;
-  background: linear-gradient(135deg, #0990db 0%, #063c69 100%);
+  background: linear-gradient(135deg, #0077b6 0%, #063c69 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,7 +89,7 @@
 .brandTag {
   padding: 4px 12px;
   background: #f1f5f9;
-  color: #0990db;
+  color: #0077b6;
   font-size: 13px;
   font-weight: 500;
   border-radius: 20px;
@@ -104,7 +104,7 @@
 .certLink {
   display: inline-block;
   margin-top: 12px;
-  color: #0990db;
+  color: #0077b6;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
@@ -141,7 +141,7 @@
 }
 
 .globeIcon {
-  color: #0990db;
+  color: #0077b6;
   margin-bottom: 16px;
 }
 
@@ -205,7 +205,7 @@
 }
 
 .partnerCard:hover {
-  border-color: #0990db;
+  border-color: #0077b6;
   transform: translateY(-2px);
 }
 
@@ -225,7 +225,7 @@
 }
 
 .ctaBox {
-  background: linear-gradient(135deg, #063c69 0%, #0990db 100%);
+  background: linear-gradient(135deg, #063c69 0%, #0077b6 100%);
   border-radius: 16px;
   padding: 48px;
   text-align: center;
