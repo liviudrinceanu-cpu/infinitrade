@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { config } from '@/lib/config';
 import { FileCheck, Shield, Clock, Truck, Phone, CheckCircle, AlertCircle, ArrowRight, FileText, Award, Building2, Users, Package, Zap, Settings2, Thermometer, Wind, Droplets } from 'lucide-react';
 import styles from './ghid-seap.module.css';
 
@@ -270,25 +271,25 @@ function generateSeapGuideSchema() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://infinitrade.ro/ghid-achizitii-seap#webpage',
+        '@id': `${config.site.url}/ghid-achizitii-seap#webpage`,
         name: 'Ghid Complet Achiziții SEAP/SICAP - Echipamente Industriale',
         description: 'Ghid complet pentru achiziții publice SEAP/SICAP de echipamente industriale: pompe, robineți, motoare, schimbătoare căldură. Coduri CPV, documentație, proceduri.',
-        url: 'https://infinitrade.ro/ghid-achizitii-seap',
-        isPartOf: { '@id': 'https://infinitrade.ro/#website' },
-        breadcrumb: { '@id': 'https://infinitrade.ro/ghid-achizitii-seap#breadcrumb' },
+        url: `${config.site.url}/ghid-achizitii-seap`,
+        isPartOf: { '@id': `${config.site.url}/#website` },
+        breadcrumb: { '@id': `${config.site.url}/ghid-achizitii-seap#breadcrumb` },
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://infinitrade.ro/ghid-achizitii-seap#breadcrumb',
+        '@id': `${config.site.url}/ghid-achizitii-seap#breadcrumb`,
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Acasă', item: 'https://infinitrade.ro' },
-          { '@type': 'ListItem', position: 2, name: 'Resurse', item: 'https://infinitrade.ro/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Ghid Achiziții SEAP', item: 'https://infinitrade.ro/ghid-achizitii-seap' },
+          { '@type': 'ListItem', position: 1, name: 'Acasă', item: config.site.url },
+          { '@type': 'ListItem', position: 2, name: 'Resurse', item: `${config.site.url}/blog` },
+          { '@type': 'ListItem', position: 3, name: 'Ghid Achiziții SEAP', item: `${config.site.url}/ghid-achizitii-seap` },
         ],
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://infinitrade.ro/ghid-achizitii-seap#faq',
+        '@id': `${config.site.url}/ghid-achizitii-seap#faq`,
         mainEntity: seapFaqs.map(faq => ({
           '@type': 'Question',
           name: faq.q,
@@ -297,9 +298,9 @@ function generateSeapGuideSchema() {
       },
       {
         '@type': 'Organization',
-        '@id': 'https://infinitrade.ro/#organization',
+        '@id': `${config.site.url}/#organization`,
         name: 'Infinitrade Romania',
-        url: 'https://infinitrade.ro',
+        url: config.site.url,
         hasCredential: {
           '@type': 'EducationalOccupationalCredential',
           credentialCategory: 'registration',
@@ -373,13 +374,13 @@ export const metadata = {
   openGraph: {
     title: 'Ghid Complet Achiziții SEAP/SICAP | Echipamente Industriale | Infinitrade',
     description: 'Ghid detaliat pentru achiziții publice de echipamente industriale. Coduri CPV, proceduri, documentație. Furnizor verificat SEAP.',
-    url: 'https://infinitrade.ro/ghid-achizitii-seap',
+    url: `${config.site.url}/ghid-achizitii-seap`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'article',
   },
   alternates: {
-    canonical: 'https://infinitrade.ro/ghid-achizitii-seap',
+    canonical: `${config.site.url}/ghid-achizitii-seap`,
   },
   robots: {
     index: true,

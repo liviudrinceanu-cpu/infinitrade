@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import { config } from '@/lib/config';
 import { Shield, Award, FileCheck, Building2, CheckCircle, Globe, ExternalLink } from 'lucide-react';
 import styles from './certificari.module.css';
 
@@ -100,16 +101,16 @@ function generateCertificationsSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://infinitrade.ro/certificari#webpage',
+    '@id': `${config.site.url}/certificari#webpage`,
     name: 'Certificari si Autorizari - Infinitrade Romania',
     description: 'Certificari si autorizari Infinitrade Romania: ISO 9001, distribuitor autorizat Grundfos, Siemens, KSB.',
-    url: 'https://infinitrade.ro/certificari',
+    url: `${config.site.url}/certificari`,
     isPartOf: {
-      '@id': 'https://infinitrade.ro/#website'
+      '@id': `${config.site.url}/#website`
     },
     about: {
       '@type': 'Organization',
-      '@id': 'https://infinitrade.ro/#organization',
+      '@id': `${config.site.url}/#organization`,
       name: 'Infinitrade Romania',
       legalName: 'Driatheli Group SRL',
       hasCredential: [
@@ -219,13 +220,13 @@ export const metadata = {
   openGraph: {
     title: 'Furnizor SEAP SICAP | Certificari si Autorizari | Infinitrade Romania',
     description: 'Furnizor verificat SEAP/SICAP. Distribuitor autorizat echipamente industriale pentru licitații publice și fonduri europene.',
-    url: 'https://infinitrade.ro/certificari',
+    url: `${config.site.url}/certificari`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://infinitrade.ro/certificari',
+    canonical: `${config.site.url}/certificari`,
   },
 };
 

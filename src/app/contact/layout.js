@@ -1,14 +1,16 @@
+import { config } from '@/lib/config';
+
 export const metadata = {
   title: 'Contact | Solicită Ofertă',
   description: 'Contactează-ne pentru oferte echipamente industriale. Pompe, robineți, motoare. Răspuns în 24h, consultanță gratuită. Tel: 0371 232 404',
   keywords: 'contact infinitrade, oferta pompe, oferta robineti, echipamente industriale romania, distribuitor autorizat',
   alternates: {
-    canonical: 'https://infinitrade.ro/contact',
+    canonical: `${config.site.url}/contact`,
   },
   openGraph: {
     title: 'Contact Infinitrade Romania | Solicită Ofertă',
     description: 'Contactează-ne pentru oferte echipamente industriale. Răspuns în 24h.',
-    url: 'https://infinitrade.ro/contact',
+    url: `${config.site.url}/contact`,
     type: 'website',
   },
 };
@@ -17,19 +19,19 @@ export const metadata = {
 const contactPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
-  '@id': 'https://infinitrade.ro/contact#webpage',
+  '@id': `${config.site.url}/contact#webpage`,
   name: 'Contact Infinitrade Romania',
   description: 'Contactează Infinitrade Romania pentru oferte personalizate echipamente industriale.',
-  url: 'https://infinitrade.ro/contact',
+  url: `${config.site.url}/contact`,
   isPartOf: {
-    '@id': 'https://infinitrade.ro/#website'
+    '@id': `${config.site.url}/#website`
   },
   mainEntity: {
     '@type': 'Organization',
-    '@id': 'https://infinitrade.ro/#organization',
+    '@id': `${config.site.url}/#organization`,
     name: 'Infinitrade Romania',
-    logo: 'https://infinitrade.ro/logo-header.png',
-    image: 'https://infinitrade.ro/logo-header.png',
+    logo: `${config.site.url}/logo-header.png`,
+    image: `${config.site.url}/logo-header.png`,
     telephone: '+40-371-232-404',
     email: 'vanzari@infinitrade.ro',
     address: {

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { config } from '@/lib/config';
 import { caseStudies, getFeaturedCaseStudies } from '@/data/caseStudies';
 import { ArrowRight, Factory, Zap, TrendingUp, Clock, Award } from 'lucide-react';
 import styles from './studii-de-caz.module.css';
@@ -24,13 +25,13 @@ export const metadata = {
   openGraph: {
     title: 'Studii de Caz | Proiecte Echipamente Industriale',
     description: 'Proiecte reale cu rezultate măsurabile: pompe, motoare, schimbătoare căldură în industria din România.',
-    url: 'https://infinitrade.ro/studii-de-caz',
+    url: `${config.site.url}/studii-de-caz`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://infinitrade.ro/studii-de-caz',
+    canonical: `${config.site.url}/studii-de-caz`,
   },
 };
 
@@ -41,11 +42,11 @@ function generateCollectionJsonLd() {
     '@type': 'CollectionPage',
     name: 'Studii de Caz Echipamente Industriale',
     description: 'Colecție de studii de caz despre implementarea echipamentelor industriale în România',
-    url: 'https://infinitrade.ro/studii-de-caz',
+    url: `${config.site.url}/studii-de-caz`,
     publisher: {
       '@type': 'Organization',
       name: 'Infinitrade Romania',
-      url: 'https://infinitrade.ro',
+      url: config.site.url,
     },
     mainEntity: {
       '@type': 'ItemList',
@@ -53,7 +54,7 @@ function generateCollectionJsonLd() {
       itemListElement: caseStudies.map((cs, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `https://infinitrade.ro/studii-de-caz/${cs.slug}`,
+        url: `${config.site.url}/studii-de-caz/${cs.slug}`,
         name: cs.title,
       })),
     },

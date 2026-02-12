@@ -1,6 +1,7 @@
 'use client';
 
 import { authors } from '@/data/authors';
+import { config } from '@/lib/config';
 import styles from './echipa.module.css';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -42,7 +43,7 @@ export default function EchipaPage() {
   const generatePersonSchema = (member) => ({
     '@context': 'https://schema.org',
     '@type': 'Person',
-    '@id': `https://infinitrade.ro/echipa#${member.id}`,
+    '@id': `${config.site.url}/echipa#${member.id}`,
     name: member.name,
     jobTitle: member.role,
     description: member.bio,
@@ -50,7 +51,7 @@ export default function EchipaPage() {
     worksFor: {
       '@type': 'Organization',
       name: 'Infinitrade Romania',
-      url: 'https://infinitrade.ro',
+      url: config.site.url,
     },
     hasCredential: (member.certifications || []).map(cert => ({
       '@type': 'EducationalOccupationalCredential',

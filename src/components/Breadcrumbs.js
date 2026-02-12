@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
+import { config } from '@/lib/config';
 import styles from './Breadcrumbs.module.css';
 
 /**
@@ -27,7 +28,7 @@ export default function Breadcrumbs({ items = [], currentPage, variant = 'defaul
         '@type': 'ListItem',
         position: index + 1,
         name: item.label,
-        item: `https://infinitrade.ro${item.href}`,
+        item: `${config.site.url}${item.href}`,
       })),
       {
         '@type': 'ListItem',

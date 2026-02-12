@@ -1,14 +1,16 @@
+import { config } from '@/lib/config';
+
 export const metadata = {
   title: 'Despre Noi | Distribuitor din 2009',
   description: 'Infinitrade Romania - distribuitor autorizat echipamente industriale din 2009. 500+ branduri, 800+ clienți industriali. ISO 9001:2015, furnizor SEAP.',
   keywords: 'despre infinitrade, distribuitor echipamente industriale, driatheli group, furnizor industrial romania, iso 9001',
   alternates: {
-    canonical: 'https://infinitrade.ro/despre-noi',
+    canonical: `${config.site.url}/despre-noi`,
   },
   openGraph: {
     title: 'Despre Infinitrade Romania | Distribuitor Echipamente Industriale',
     description: 'Partener strategic pentru industria românească din 2009. 500+ branduri, livrare 24-72h.',
-    url: 'https://infinitrade.ro/despre-noi',
+    url: `${config.site.url}/despre-noi`,
     type: 'website',
   },
 };
@@ -17,16 +19,16 @@ export const metadata = {
 const aboutPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
-  '@id': 'https://infinitrade.ro/despre-noi#webpage',
+  '@id': `${config.site.url}/despre-noi#webpage`,
   name: 'Despre Infinitrade Romania',
   description: 'Infinitrade Romania - distribuitor autorizat echipamente industriale din 2009.',
-  url: 'https://infinitrade.ro/despre-noi',
+  url: `${config.site.url}/despre-noi`,
   isPartOf: {
-    '@id': 'https://infinitrade.ro/#website'
+    '@id': `${config.site.url}/#website`
   },
   mainEntity: {
     '@type': 'Organization',
-    '@id': 'https://infinitrade.ro/#organization',
+    '@id': `${config.site.url}/#organization`,
     name: 'Infinitrade Romania',
     legalName: 'Driatheli Group SRL',
     foundingDate: '2009',

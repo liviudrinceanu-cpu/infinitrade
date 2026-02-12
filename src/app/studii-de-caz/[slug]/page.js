@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { config } from '@/lib/config';
 import { caseStudies, getCaseStudy, getRelatedCaseStudies } from '@/data/caseStudies';
 import {
   Factory, Clock, Calendar, Zap, TrendingUp, CheckCircle,
@@ -51,7 +52,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: caseStudy.title,
       description: caseStudy.excerpt,
-      url: `https://infinitrade.ro/studii-de-caz/${caseStudy.slug}`,
+      url: `${config.site.url}/studii-de-caz/${caseStudy.slug}`,
       siteName: 'Infinitrade Romania',
       locale: 'ro_RO',
       type: 'article',
@@ -62,7 +63,7 @@ export async function generateMetadata({ params }) {
       description: caseStudy.excerpt,
     },
     alternates: {
-      canonical: `https://infinitrade.ro/studii-de-caz/${caseStudy.slug}`,
+      canonical: `${config.site.url}/studii-de-caz/${caseStudy.slug}`,
     },
     robots: {
       index: true,
@@ -79,7 +80,7 @@ function generateCaseStudyJsonLd(caseStudy) {
       // Article schema
       {
         '@type': 'Article',
-        '@id': `https://infinitrade.ro/studii-de-caz/${caseStudy.slug}#article`,
+        '@id': `${config.site.url}/studii-de-caz/${caseStudy.slug}#article`,
         headline: caseStudy.title,
         description: caseStudy.excerpt,
         datePublished: caseStudy.date || `${caseStudy.year}-01-15`,
@@ -87,21 +88,21 @@ function generateCaseStudyJsonLd(caseStudy) {
         author: {
           '@type': 'Organization',
           name: 'Infinitrade Romania',
-          url: 'https://infinitrade.ro',
+          url: config.site.url,
         },
         publisher: {
           '@type': 'Organization',
           name: 'Infinitrade Romania',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://infinitrade.ro/logo-header.png',
+            url: `${config.site.url}/logo-header.png`,
           },
         },
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id': `https://infinitrade.ro/studii-de-caz/${caseStudy.slug}`,
+          '@id': `${config.site.url}/studii-de-caz/${caseStudy.slug}`,
         },
-        image: 'https://infinitrade.ro/logo-header.png',
+        image: `${config.site.url}/logo-header.png`,
         articleSection: 'Studii de Caz',
         inLanguage: 'ro-RO',
         keywords: caseStudy.tags.join(', '),
@@ -157,13 +158,13 @@ function generateCaseStudyJsonLd(caseStudy) {
             '@type': 'ListItem',
             position: 1,
             name: 'Acasa',
-            item: 'https://infinitrade.ro',
+            item: config.site.url,
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Studii de Caz',
-            item: 'https://infinitrade.ro/studii-de-caz',
+            item: `${config.site.url}/studii-de-caz`,
           },
           {
             '@type': 'ListItem',

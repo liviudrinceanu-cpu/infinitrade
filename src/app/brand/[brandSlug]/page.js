@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { allBrands, categories } from '@/data/products';
+import { config } from '@/lib/config';
 import BrandPageClient from './BrandPageClient';
 
 // Generate static params for all brand pages
@@ -79,7 +80,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title,
       description,
-      url: `https://infinitrade.ro/brand/${brand.slug}`,
+      url: `${config.site.url}/brand/${brand.slug}`,
       siteName: 'Infinitrade Romania',
       locale: 'ro_RO',
       type: 'website',
@@ -90,7 +91,7 @@ export async function generateMetadata({ params }) {
       description,
     },
     alternates: {
-      canonical: `https://infinitrade.ro/brand/${brand.slug}`,
+      canonical: `${config.site.url}/brand/${brand.slug}`,
     },
     robots: {
       index: true,
@@ -104,10 +105,10 @@ function generateJsonLd(brand, category) {
   // Generate Product entries for each product type
   const productItems = category.productTypes.map((product, index) => ({
     '@type': 'Product',
-    '@id': `https://infinitrade.ro/brand/${brand.slug}#product-${product.slug}`,
+    '@id': `${config.site.url}/brand/${brand.slug}#product-${product.slug}`,
     name: `${product.name} ${brand.name}`,
     description: product.description,
-    image: `https://infinitrade.ro/logo-header.png`,
+    image: `${config.site.url}/logo-header.png`,
     category: category.name,
     brand: {
       '@type': 'Brand',
@@ -131,7 +132,7 @@ function generateJsonLd(brand, category) {
       seller: {
         '@type': 'Organization',
         name: 'Infinitrade Romania',
-        url: 'https://infinitrade.ro',
+        url: config.site.url,
       },
     },
   }));
@@ -142,10 +143,10 @@ function generateJsonLd(brand, category) {
       // Organization
       {
         '@type': 'Organization',
-        '@id': 'https://infinitrade.ro/#organization',
+        '@id': `${config.site.url}/#organization`,
         name: 'Infinitrade Romania',
-        url: 'https://infinitrade.ro',
-        logo: 'https://infinitrade.ro/logo-header.png',
+        url: config.site.url,
+        logo: `${config.site.url}/logo-header.png`,
         description: 'Distribuitor autorizat echipamente industriale Romania',
         address: {
           '@type': 'PostalAddress',
@@ -171,30 +172,30 @@ function generateJsonLd(brand, category) {
             '@type': 'ListItem',
             position: 1,
             name: 'Acasa',
-            item: 'https://infinitrade.ro',
+            item: config.site.url,
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: category.name,
-            item: `https://infinitrade.ro/${category.slug}`,
+            item: `${config.site.url}/${category.slug}`,
           },
           {
             '@type': 'ListItem',
             position: 3,
             name: brand.name,
-            item: `https://infinitrade.ro/brand/${brand.slug}`,
+            item: `${config.site.url}/brand/${brand.slug}`,
           },
         ],
       },
       // Main Product (Brand as product line)
       {
         '@type': 'ProductGroup',
-        '@id': `https://infinitrade.ro/brand/${brand.slug}#brand-products`,
+        '@id': `${config.site.url}/brand/${brand.slug}#brand-products`,
         name: `${brand.name} ${category.name}`,
         description: `${brand.description}. Distribuitor autorizat ${brand.name} in Romania - produse originale, piese schimb, suport tehnic.`,
-        url: `https://infinitrade.ro/brand/${brand.slug}`,
-        image: 'https://infinitrade.ro/logo-header.png',
+        url: `${config.site.url}/brand/${brand.slug}`,
+        image: `${config.site.url}/logo-header.png`,
         brand: {
           '@type': 'Brand',
           name: brand.name,
@@ -219,7 +220,7 @@ function generateJsonLd(brand, category) {
           seller: {
             '@type': 'Organization',
             name: 'Infinitrade Romania',
-            url: 'https://infinitrade.ro',
+            url: config.site.url,
           },
         },
       },
@@ -233,7 +234,7 @@ function generateJsonLd(brand, category) {
           '@type': 'ListItem',
           position: index + 1,
           name: `${product.name} ${brand.name}`,
-          url: `https://infinitrade.ro/${category.slug}#${product.slug}`,
+          url: `${config.site.url}/${category.slug}#${product.slug}`,
         })),
       },
     ],

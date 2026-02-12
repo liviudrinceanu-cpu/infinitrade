@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { config } from '@/lib/config';
 import { industries, getIndustry } from '@/data/industries';
 import { ArrowRight, CheckCircle, Building2, Users, Award, Phone, Factory } from 'lucide-react';
 import styles from './industry.module.css';
@@ -81,13 +82,13 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: industry.metaTitle,
       description: industry.metaDescription,
-      url: `https://infinitrade.ro/industrii/${industry.slug}`,
+      url: `${config.site.url}/industrii/${industry.slug}`,
       siteName: 'Infinitrade Romania',
       locale: 'ro_RO',
       type: 'website',
     },
     alternates: {
-      canonical: `https://infinitrade.ro/industrii/${industry.slug}`,
+      canonical: `${config.site.url}/industrii/${industry.slug}`,
     },
   };
 }
@@ -104,33 +105,33 @@ function generateIndustryJsonLd(industry) {
             '@type': 'ListItem',
             position: 1,
             name: 'Acasa',
-            item: 'https://infinitrade.ro',
+            item: config.site.url,
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Industrii',
-            item: 'https://infinitrade.ro/industrii',
+            item: `${config.site.url}/industrii`,
           },
           {
             '@type': 'ListItem',
             position: 3,
             name: industry.name,
-            item: `https://infinitrade.ro/industrii/${industry.slug}`,
+            item: `${config.site.url}/industrii/${industry.slug}`,
           },
         ],
       },
       {
         '@type': 'Service',
-        '@id': `https://infinitrade.ro/industrii/${industry.slug}#service`,
+        '@id': `${config.site.url}/industrii/${industry.slug}#service`,
         name: `Echipamente pentru ${industry.name}`,
         description: industry.metaDescription,
-        image: 'https://infinitrade.ro/logo-header.png',
+        image: `${config.site.url}/logo-header.png`,
         provider: {
           '@type': 'Organization',
           name: 'Infinitrade Romania',
-          url: 'https://infinitrade.ro',
-          logo: 'https://infinitrade.ro/logo-header.png',
+          url: config.site.url,
+          logo: `${config.site.url}/logo-header.png`,
         },
         areaServed: {
           '@type': 'Country',
@@ -140,10 +141,10 @@ function generateIndustryJsonLd(industry) {
       },
       {
         '@type': 'Organization',
-        '@id': 'https://infinitrade.ro/#organization',
+        '@id': `${config.site.url}/#organization`,
         name: 'Infinitrade Romania',
-        url: 'https://infinitrade.ro',
-        logo: 'https://infinitrade.ro/logo-header.png',
+        url: config.site.url,
+        logo: `${config.site.url}/logo-header.png`,
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: '+40-371-232-404',

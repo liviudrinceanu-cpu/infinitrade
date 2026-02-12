@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import { config } from '@/lib/config';
 import { ChevronDown } from 'lucide-react';
 import styles from './faq.module.css';
 
@@ -186,13 +187,13 @@ export const metadata = {
   openGraph: {
     title: 'Intrebari Frecvente (FAQ) | Echipamente Industriale',
     description: 'Gaseste raspunsuri la intrebarile despre echipamente industriale.',
-    url: 'https://infinitrade.ro/faq',
+    url: `${config.site.url}/faq`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://infinitrade.ro/faq',
+    canonical: `${config.site.url}/faq`,
   },
 };
 

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { config } from '@/lib/config';
 import { testimonials, testimonialStats, industriesServed, getFeaturedTestimonials } from '@/data/testimonials';
 import { categories } from '@/data/products';
 import styles from './testimoniale.module.css';
@@ -22,13 +23,13 @@ export const metadata = {
   openGraph: {
     title: 'Testimoniale Clienți | Infinitrade Romania',
     description: `${testimonialStats.totalClients}+ clienți mulțumiți. Rating ${testimonialStats.avgRating}/5. Experiențe reale ale clienților.`,
-    url: 'https://infinitrade.ro/testimoniale',
+    url: `${config.site.url}/testimoniale`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://infinitrade.ro/testimoniale',
+    canonical: `${config.site.url}/testimoniale`,
   },
 };
 
@@ -55,10 +56,10 @@ export default function TestimonialePage() {
       // Organization with Aggregate Rating
       {
         '@type': 'Organization',
-        '@id': 'https://infinitrade.ro/#organization',
+        '@id': `${config.site.url}/#organization`,
         name: 'Infinitrade Romania',
-        url: 'https://infinitrade.ro',
-        logo: 'https://infinitrade.ro/logo-header.png',
+        url: config.site.url,
+        logo: `${config.site.url}/logo-header.png`,
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: testimonialStats.avgRating,
@@ -76,20 +77,20 @@ export default function TestimonialePage() {
             '@type': 'ListItem',
             position: 1,
             name: 'Acasă',
-            item: 'https://infinitrade.ro',
+            item: config.site.url,
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Testimoniale',
-            item: 'https://infinitrade.ro/testimoniale',
+            item: `${config.site.url}/testimoniale`,
           },
         ],
       },
       // Individual Reviews with initials for authenticity
       ...testimonials.slice(0, 5).map((t, index) => ({
         '@type': 'Review',
-        '@id': `https://infinitrade.ro/testimoniale#review-${t.id}`,
+        '@id': `${config.site.url}/testimoniale#review-${t.id}`,
         reviewRating: {
           '@type': 'Rating',
           ratingValue: t.rating,

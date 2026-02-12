@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { config } from '@/lib/config';
 import { industries } from '@/data/industries';
 import { ArrowRight, Factory } from 'lucide-react';
 import styles from './industrii.module.css';
@@ -55,13 +56,13 @@ export const metadata = {
   openGraph: {
     title: 'Industrii Deservite | Echipamente Industriale pe Sector',
     description: 'Echipamente industriale specializate pe sector.',
-    url: 'https://infinitrade.ro/industrii',
+    url: `${config.site.url}/industrii`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://infinitrade.ro/industrii',
+    canonical: `${config.site.url}/industrii`,
   },
   robots: {
     index: true,
@@ -74,12 +75,12 @@ function generateIndustriesCollectionSchema(industriesList) {
   return {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    '@id': 'https://infinitrade.ro/industrii#webpage',
+    '@id': `${config.site.url}/industrii#webpage`,
     name: 'Industrii Deservite - Echipamente Industriale pe Sector',
     description: 'Furnizam echipamente industriale specializate pentru diverse sectoare industriale.',
-    url: 'https://infinitrade.ro/industrii',
+    url: `${config.site.url}/industrii`,
     isPartOf: {
-      '@id': 'https://infinitrade.ro/#website'
+      '@id': `${config.site.url}/#website`
     },
     mainEntity: {
       '@type': 'ItemList',
@@ -88,10 +89,10 @@ function generateIndustriesCollectionSchema(industriesList) {
         position: index + 1,
         item: {
           '@type': 'Service',
-          '@id': `https://infinitrade.ro/industrii/${industry.slug}`,
+          '@id': `${config.site.url}/industrii/${industry.slug}`,
           name: `Echipamente Industriale pentru ${industry.name}`,
           description: industry.heroDescription,
-          url: `https://infinitrade.ro/industrii/${industry.slug}`,
+          url: `${config.site.url}/industrii/${industry.slug}`,
           provider: {
             '@type': 'Organization',
             name: 'Infinitrade Romania'

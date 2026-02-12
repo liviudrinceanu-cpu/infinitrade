@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { config } from '@/lib/config';
 import { categories } from '@/data/products';
 import styles from './ghid-comparativ.module.css';
 
@@ -23,13 +24,13 @@ export const metadata = {
   openGraph: {
     title: 'Ghid Comparativ Echipamente Industriale | Infinitrade Romania',
     description: 'Comparații obiective între branduri: Grundfos vs Wilo, Siemens vs ABB. Ghid practic pentru achiziții informate.',
-    url: 'https://infinitrade.ro/ghid-comparativ',
+    url: `${config.site.url}/ghid-comparativ`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://infinitrade.ro/ghid-comparativ',
+    canonical: `${config.site.url}/ghid-comparativ`,
   },
 };
 
@@ -234,16 +235,16 @@ export default function GhidComparativPage() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://infinitrade.ro/ghid-comparativ',
+        '@id': `${config.site.url}/ghid-comparativ`,
         name: 'Ghid Comparativ Echipamente Industriale',
         description: 'Comparații detaliate între branduri de echipamente industriale',
-        url: 'https://infinitrade.ro/ghid-comparativ',
+        url: `${config.site.url}/ghid-comparativ`,
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Acasă', item: 'https://infinitrade.ro' },
-          { '@type': 'ListItem', position: 2, name: 'Ghid Comparativ', item: 'https://infinitrade.ro/ghid-comparativ' },
+          { '@type': 'ListItem', position: 1, name: 'Acasă', item: config.site.url },
+          { '@type': 'ListItem', position: 2, name: 'Ghid Comparativ', item: `${config.site.url}/ghid-comparativ` },
         ],
       },
       {

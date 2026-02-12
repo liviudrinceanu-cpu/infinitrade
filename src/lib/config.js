@@ -1,7 +1,7 @@
 export const config = {
   site: {
     name: 'Infinitrade Romania',
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://infinitrade.ro',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.infinitrade.ro',
     email: {
       sales: 'vanzari@infinitrade-romania.ro',
       secretariat: 'secretariat@infinitrade-romania.ro',

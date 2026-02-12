@@ -28,7 +28,7 @@ export default function ContactPage() {
   // Pre-fill message with cart items including links
   useEffect(() => {
     if (cartItems.length > 0 && !formData.message) {
-      const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://infinitrade.ro';
+      const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://www.infinitrade.ro';
       const cartSummaryWithLinks = cartItems.map(item => {
         const emoji = item.type === 'brand' ? '🏷️' : item.type === 'category' ? '📦' : '🔧';
         const link = item.url ? `${baseUrl}${item.url}` : '';
@@ -48,7 +48,7 @@ export default function ContactPage() {
     setError(null);
 
     // Add cart items to form data for API (including URLs)
-    const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://infinitrade.ro';
+    const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://www.infinitrade.ro';
     const submitData = {
       ...formData,
       cartItems: cartItems.map(item => ({
