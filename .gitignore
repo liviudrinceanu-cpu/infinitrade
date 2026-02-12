@@ -27,3 +27,4 @@ npm-debug.log*
 .playwright-mcp/
 .vercel
 ._*
+.env*.local
