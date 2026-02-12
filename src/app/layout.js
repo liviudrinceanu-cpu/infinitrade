@@ -184,7 +184,6 @@ const organizationSchema = {
       availableLanguage: ['Romanian', 'English']
     }
   ],
-  sameAs: [],
   areaServed: {
     '@type': 'Country',
     name: 'Romania'
@@ -245,14 +244,6 @@ const webSiteSchema = {
   description: 'Distribuitor autorizat de echipamente industriale în România - pompe, robineți, motoare electrice, schimbătoare de căldură și suflante.',
   publisher: {
     '@id': `${config.site.url}/#organization`
-  },
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: `${config.site.url}/brand/{search_term_string}`
-    },
-    'query-input': 'required name=search_term_string'
   },
   inLanguage: 'ro-RO'
 }

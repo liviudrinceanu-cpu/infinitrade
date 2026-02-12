@@ -1,8 +1,9 @@
 import { categories, allBrands } from '@/data/products';
 import { blogArticles } from '@/data/blog';
 import { caseStudies } from '@/data/caseStudies';
+import { config } from '@/lib/config';
 
-const BASE_URL = 'https://infinitrade.ro';
+const BASE_URL = config.site.url;
 
 export default function sitemap() {
   const currentDate = new Date().toISOString();
@@ -113,6 +114,7 @@ export default function sitemap() {
     lastModified: currentDate,
     changeFrequency: 'weekly',
     priority: 0.9,
+    ...(category.image && { images: [`${BASE_URL}${category.image}`] }),
   }));
 
   // Brand pages
@@ -121,6 +123,7 @@ export default function sitemap() {
     lastModified: currentDate,
     changeFrequency: 'weekly',
     priority: 0.8,
+    ...(brand.logo && { images: [`${BASE_URL}${brand.logo}`] }),
   }));
 
   // Industry pages (to be added later)
@@ -147,12 +150,13 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  // Blog article pages
+  // Blog article pages - use actual article dates when available
   const blogPages = blogArticles.map((article) => ({
     url: `${BASE_URL}/blog/${article.slug}`,
-    lastModified: currentDate,
+    lastModified: article.dateModified || article.date || currentDate,
     changeFrequency: 'monthly',
     priority: 0.7,
+    ...(article.image && { images: [`${BASE_URL}${article.image}`] }),
   }));
 
   // Case study pages

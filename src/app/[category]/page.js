@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { categories, companyInfo } from '@/data/products';
+import { config } from '@/lib/config';
 import CategoryClient from './CategoryClient';
 import styles from './category.module.css';
 
@@ -101,13 +102,13 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `${category.name} | Distribuitor Autorizat Romania | Infinitrade`,
       description: `Distribuitor ${category.name.toLowerCase()} în România. Branduri: ${brandNames}. ${category.stats.products} produse disponibile. Livrare 24-72h.`,
-      url: `https://infinitrade.ro/${category.slug}`,
+      url: `${config.site.url}/${category.slug}`,
       siteName: 'Infinitrade Romania',
       locale: 'ro_RO',
       type: 'website',
       images: [
         {
-          url: `https://infinitrade.ro/og-${category.slug}.jpg`,
+          url: `${config.site.url}/og-${category.slug}.jpg`,
           width: 1200,
           height: 630,
           alt: `${category.name} - Infinitrade Romania`,
@@ -120,7 +121,7 @@ export async function generateMetadata({ params }) {
       description: `Distribuitor ${category.name.toLowerCase()} în România. ${category.stats.brands} branduri premium.`,
     },
     alternates: {
-      canonical: `https://infinitrade.ro/${category.slug}`,
+      canonical: `${config.site.url}/${category.slug}`,
     },
     robots: {
       index: true,
@@ -148,11 +149,11 @@ export default async function CategoryPage({ params }) {
       // Product Collection Schema
       {
         '@type': 'ProductGroup',
-        '@id': `https://infinitrade.ro/${category.slug}#product-group`,
+        '@id': `${config.site.url}/${category.slug}#product-group`,
         name: category.name,
         description: category.heroDescription,
-        url: `https://infinitrade.ro/${category.slug}`,
-        image: 'https://infinitrade.ro/logo-header.png',
+        url: `${config.site.url}/${category.slug}`,
+        image: `${config.site.url}/logo-header.png`,
         productGroupID: category.slug,
         brand: category.brands.slice(0, 5).map(brand => ({
           '@type': 'Brand',
@@ -162,7 +163,7 @@ export default async function CategoryPage({ params }) {
           '@type': 'Product',
           name: type.name,
           description: type.description,
-          image: 'https://infinitrade.ro/logo-header.png',
+          image: `${config.site.url}/logo-header.png`,
           offers: {
             '@type': 'AggregateOffer',
             priceCurrency: 'EUR',
@@ -176,29 +177,29 @@ export default async function CategoryPage({ params }) {
       // Breadcrumb Schema
       {
         '@type': 'BreadcrumbList',
-        '@id': `https://infinitrade.ro/${category.slug}#breadcrumb`,
+        '@id': `${config.site.url}/${category.slug}#breadcrumb`,
         itemListElement: [
           {
             '@type': 'ListItem',
             position: 1,
             name: 'Acasă',
-            item: 'https://infinitrade.ro',
+            item: config.site.url,
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: category.name,
-            item: `https://infinitrade.ro/${category.slug}`,
+            item: `${config.site.url}/${category.slug}`,
           },
         ],
       },
       // Organization Schema
       {
         '@type': 'Organization',
-        '@id': 'https://infinitrade.ro/#organization',
+        '@id': `${config.site.url}/#organization`,
         name: 'Infinitrade Romania',
-        url: 'https://infinitrade.ro',
-        logo: 'https://infinitrade.ro/logo-header.png',
+        url: config.site.url,
+        logo: `${config.site.url}/logo-header.png`,
         description: `Distribuitor autorizat ${category.name.toLowerCase()} în România`,
         address: {
           '@type': 'PostalAddress',
@@ -221,7 +222,7 @@ export default async function CategoryPage({ params }) {
       // Service Schema
       {
         '@type': 'Service',
-        '@id': `https://infinitrade.ro/${category.slug}#service`,
+        '@id': `${config.site.url}/${category.slug}#service`,
         name: `Distribuție ${category.name}`,
         serviceType: 'Industrial Equipment Distribution',
         provider: {
@@ -248,7 +249,7 @@ export default async function CategoryPage({ params }) {
       // FAQ Schema for common questions
       {
         '@type': 'FAQPage',
-        '@id': `https://infinitrade.ro/${category.slug}#faq`,
+        '@id': `${config.site.url}/${category.slug}#faq`,
         mainEntity: [
           {
             '@type': 'Question',

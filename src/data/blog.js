@@ -9,6 +9,14 @@ export const blogArticles = [
     title: 'Cum Alegi Pompa Industriala Potrivita: Lectii din 15 Ani de Experienta',
     shortTitle: 'Ghid Selectare Pompe Industriale',
     excerpt: 'Am ajutat sute de clienti sa aleaga pompe industriale. Iata ce am invatat despre debit, presiune, NPSH si de ce dimensionarea gresita costa mult.',
+    howToSteps: [
+      { name: 'Identifică fluidul', text: 'Determină ce pompezi: apă curată, chimicale, fluide vâscoase. Fiecare situație cere alt tip de pompă.' },
+      { name: 'Calculează debitul', text: 'Calculează debitul necesar în m³/h bazat pe procesul real. Adaugă maxim 10-15% rezervă.' },
+      { name: 'Verifică presiunea', text: 'Calculează pierderile din conducte, diferența de nivel și presiunea necesară la utilizare.' },
+      { name: 'Verifică NPSH', text: 'Asigură-te că NPSH disponibil este mai mare decât NPSH necesar plus minimum 0.5m marjă.' },
+      { name: 'Selectează materialele', text: 'Alege materialele potrivite: fontă pentru apă standard, inox 316L pentru industria alimentară, bronze pentru aplicații marine.' },
+      { name: 'Solicită dimensionare', text: 'Trimite parametrii procesului la Infinitrade pentru dimensionare gratuită și recomandare în 24 ore.' },
+    ],
     content: `
 Am vazut de multe ori aceeasi greseala: un client comanda o pompa "mai mare, sa fie sigur". Dupa 6 luni, pompele supradimensionate consuma cu 30% mai multa energie si se uzeaza prematur din cauza functionarii in afara punctului optim.
 

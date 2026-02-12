@@ -3,6 +3,7 @@
 import { authors } from '@/data/authors';
 import styles from './echipa.module.css';
 import Link from 'next/link';
+import Script from 'next/script';
 
 // Generează culori consistente pentru avatare bazat pe nume
 function getAvatarColor(name) {
@@ -37,8 +38,42 @@ export default function EchipaPage() {
   // Filtrăm echipa tehnică generică, afișăm doar persoanele reale
   const teamMembers = authors.filter(a => a.id !== 'echipa-tehnica');
 
+  // Generate Person JSON-LD for each team member (E-E-A-T enhancement)
+  const generatePersonSchema = (member) => ({
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': `https://infinitrade.ro/echipa#${member.id}`,
+    name: member.name,
+    jobTitle: member.role,
+    description: member.bio,
+    knowsAbout: member.expertise || [],
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Infinitrade Romania',
+      url: 'https://infinitrade.ro',
+    },
+    hasCredential: (member.certifications || []).map(cert => ({
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'certification',
+      name: cert,
+    })),
+  });
+
+  const teamSchemas = teamMembers.map(generatePersonSchema);
+
   return (
-    <main className={styles.main}>
+    <>
+      {/* E-E-A-T: Person structured data for all team members - JSON is safe from static data */}
+      {teamSchemas.map((schema, index) => (
+        <Script
+          key={index}
+          id={`person-schema-${index}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          strategy="beforeInteractive"
+        />
+      ))}
+      <main className={styles.main}>
       {/* Hero Section */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
@@ -181,5 +216,6 @@ export default function EchipaPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import Categories from '@/components/Categories';
 import Features from '@/components/Features';
 import Footer from '@/components/Footer';
+import { config } from '@/lib/config';
 
 export const metadata = {
   title: {
@@ -37,12 +38,12 @@ export const metadata = {
     'pret pompe industriale', 'oferta echipamente industriale',
   ],
   alternates: {
-    canonical: 'https://infinitrade.ro',
+    canonical: config.site.url,
   },
   openGraph: {
     title: 'Infinitrade Romania | Furnizor SEAP Echipamente Industriale 2026',
     description: 'Distribuitor autorizat și furnizor SEAP 2026 pentru pompe Grundfos, Wilo, KSB, robineți ARI Armaturen, Spirax Sarco, motoare Siemens, ABB, SEW în România. Documentație licitații SEAP/SICAP.',
-    url: 'https://infinitrade.ro',
+    url: config.site.url,
     type: 'website',
   },
 };

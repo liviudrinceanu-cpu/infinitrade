@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import AuthorBox from '@/components/AuthorBox';
 import { blogArticles, getBlogArticle } from '@/data/blog';
 import { getAuthorById } from '@/data/authors';
+import { config } from '@/lib/config';
 import { Calendar, Clock, User, ArrowLeft, Tag, Share2 } from 'lucide-react';
 import { sanitizeContentHtml } from '@/lib/utils';
 import styles from './article.module.css';
@@ -71,7 +72,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: article.title,
       description: article.excerpt,
-      url: `https://infinitrade.ro/blog/${article.slug}`,
+      url: `${config.site.url}/blog/${article.slug}`,
       siteName: 'Infinitrade Romania',
       locale: 'ro_RO',
       type: 'article',
@@ -92,7 +93,7 @@ export async function generateMetadata({ params }) {
       images: [`/blog/${article.slug}/opengraph-image`],
     },
     alternates: {
-      canonical: `https://infinitrade.ro/blog/${article.slug}`,
+      canonical: `${config.site.url}/blog/${article.slug}`,
     },
   };
 }
@@ -102,12 +103,12 @@ function generateArticleJsonLd(article, author) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    '@id': `https://infinitrade.ro/blog/${article.slug}#article`,
+    '@id': `${config.site.url}/blog/${article.slug}#article`,
     headline: article.title,
     description: article.excerpt,
     image: {
       '@type': 'ImageObject',
-      url: `https://infinitrade.ro/blog/${article.slug}/opengraph-image`,
+      url: `${config.site.url}/blog/${article.slug}/opengraph-image`,
       width: 1200,
       height: 630
     },
@@ -119,7 +120,7 @@ function generateArticleJsonLd(article, author) {
       affiliation: {
         '@type': 'Organization',
         name: 'Infinitrade Romania',
-        url: 'https://infinitrade.ro'
+        url: config.site.url
       }
     },
     publisher: {
@@ -127,7 +128,7 @@ function generateArticleJsonLd(article, author) {
       name: 'Infinitrade Romania',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://infinitrade.ro/logo-header.png',
+        url: `${config.site.url}/logo-header.png`,
         width: 200,
         height: 60
       },
@@ -136,15 +137,41 @@ function generateArticleJsonLd(article, author) {
     dateModified: article.dateModified || article.date,
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://infinitrade.ro/blog/${article.slug}`,
+      '@id': `${config.site.url}/blog/${article.slug}`,
     },
     keywords: article.tags.join(', '),
     inLanguage: 'ro-RO',
     isPartOf: {
       '@type': 'Blog',
-      '@id': 'https://infinitrade.ro/blog#blog',
+      '@id': `${config.site.url}/blog#blog`,
       name: 'Blog Tehnic Infinitrade Romania'
-    }
+    },
+    // GEO optimization: speakable sections for voice search
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.articleSummary', 'h2'],
+    },
+  };
+}
+
+// Generate HowTo JSON-LD for guide articles (GEO optimization)
+function generateHowToJsonLd(article) {
+  if (!article.howToSteps || article.howToSteps.length === 0) {
+    return null;
+  }
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    '@id': `${config.site.url}/blog/${article.slug}#howto`,
+    name: article.title,
+    description: article.excerpt,
+    step: article.howToSteps.map((step, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: step.name,
+      text: step.text,
+    })),
   };
 }
 
@@ -291,6 +318,7 @@ export default async function BlogArticlePage({ params }) {
 
   const author = getAuthorById(article.authorId);
   const jsonLd = generateArticleJsonLd(article, author);
+  const howToJsonLd = generateHowToJsonLd(article);
   const relatedArticles = blogArticles
     .filter(a => a.slug !== article.slug && a.category === article.category)
     .slice(0, 3);
@@ -300,6 +328,38 @@ export default async function BlogArticlePage({ params }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {howToJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
+        />
+      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            {
+              '@type': 'ListItem',
+              position: 1,
+              name: 'Acasă',
+              item: { '@type': 'WebPage', '@id': config.site.url },
+            },
+            {
+              '@type': 'ListItem',
+              position: 2,
+              name: 'Blog',
+              item: { '@type': 'WebPage', '@id': `${config.site.url}/blog` },
+            },
+            {
+              '@type': 'ListItem',
+              position: 3,
+              name: article.title,
+            },
+          ],
+        }) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>
@@ -320,6 +380,19 @@ export default async function BlogArticlePage({ params }) {
                 <span><Clock size={16} /> {article.readTime}</span>
               </div>
             </header>
+
+            {/* Answer-first summary for AI search engines (GEO optimization) */}
+            <div className={styles.articleSummary} style={{
+              background: '#f8f9fa',
+              borderLeft: '4px solid #0077b6',
+              padding: '16px 20px',
+              borderRadius: '0 8px 8px 0',
+              marginBottom: '32px',
+            }}>
+              <p style={{ margin: 0, fontWeight: 500, color: '#333', lineHeight: 1.6 }}>
+                {article.excerpt}
+              </p>
+            </div>
 
             <div className={styles.content}>
               {renderContent(article.content)}

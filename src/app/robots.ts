@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { config } from '@/lib/config';
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -22,7 +23,7 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: 'https://infinitrade.ro/sitemap.xml',
-    host: 'https://infinitrade.ro',
+    sitemap: `${config.site.url}/sitemap.xml`,
+    host: config.site.url,
   };
 }

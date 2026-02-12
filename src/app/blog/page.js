@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { blogArticles, blogCategories } from '@/data/blog';
+import { config } from '@/lib/config';
 import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
 import styles from './blog.module.css';
 
@@ -42,13 +43,13 @@ export const metadata = {
   openGraph: {
     title: 'Blog Tehnic | Ghiduri Echipamente Industriale',
     description: 'Articole tehnice despre echipamente industriale.',
-    url: 'https://infinitrade.ro/blog',
+    url: `${config.site.url}/blog`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://infinitrade.ro/blog',
+    canonical: `${config.site.url}/blog`,
   },
   robots: {
     index: true,
@@ -61,12 +62,12 @@ function generateBlogCollectionSchema(articles) {
   return {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    '@id': 'https://infinitrade.ro/blog#webpage',
+    '@id': `${config.site.url}/blog#webpage`,
     name: 'Blog Tehnic - Ghiduri Echipamente Industriale',
     description: 'Articole tehnice despre pompe industriale, motoare electrice, robineti. Ghiduri de selectie, comparatii, eficienta energetica si mentenanta.',
-    url: 'https://infinitrade.ro/blog',
+    url: `${config.site.url}/blog`,
     isPartOf: {
-      '@id': 'https://infinitrade.ro/#website'
+      '@id': `${config.site.url}/#website`
     },
     about: {
       '@type': 'Thing',
@@ -79,10 +80,10 @@ function generateBlogCollectionSchema(articles) {
         position: index + 1,
         item: {
           '@type': 'Article',
-          '@id': `https://infinitrade.ro/blog/${article.slug}`,
+          '@id': `${config.site.url}/blog/${article.slug}`,
           headline: article.title,
           description: article.excerpt,
-          url: `https://infinitrade.ro/blog/${article.slug}`,
+          url: `${config.site.url}/blog/${article.slug}`,
           datePublished: article.date,
           author: {
             '@type': 'Organization',
