@@ -6,103 +6,104 @@ import { config } from '@/lib/config';
 const BASE_URL = config.site.url;
 
 export default function sitemap() {
-  const currentDate = new Date().toISOString();
+  // Use fixed dates for static content instead of dynamic dates
+  const staticDate = '2026-02-01';
 
   // Static pages
   const staticPages = [
     {
       url: BASE_URL,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'weekly',
       priority: 1.0,
     },
     {
       url: `${BASE_URL}/contact`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/despre-noi`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
       url: `${BASE_URL}/blog`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/studii-de-caz`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
       url: `${BASE_URL}/industrii`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/faq`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${BASE_URL}/certificari`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
       url: `${BASE_URL}/testimoniale`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${BASE_URL}/ghid-comparativ`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${BASE_URL}/ghid-achizitii-seap`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/gdpr`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'yearly',
       priority: 0.3,
     },
     {
       url: `${BASE_URL}/politica-confidentialitate`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'yearly',
       priority: 0.3,
     },
     {
       url: `${BASE_URL}/politica-cookies`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'yearly',
       priority: 0.3,
     },
     {
       url: `${BASE_URL}/termeni-si-conditii`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'yearly',
       priority: 0.3,
     },
     {
       url: `${BASE_URL}/echipa`,
-      lastModified: currentDate,
+      lastModified: staticDate,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
@@ -111,7 +112,7 @@ export default function sitemap() {
   // Category pages
   const categoryPages = categories.map((category) => ({
     url: `${BASE_URL}/${category.slug}`,
-    lastModified: currentDate,
+    lastModified: staticDate,
     changeFrequency: 'weekly',
     priority: 0.9,
     ...(category.image && { images: [`${BASE_URL}${category.image}`] }),
@@ -120,7 +121,7 @@ export default function sitemap() {
   // Brand pages
   const brandPages = allBrands.map((brand) => ({
     url: `${BASE_URL}/brand/${brand.slug}`,
-    lastModified: currentDate,
+    lastModified: staticDate,
     changeFrequency: 'weekly',
     priority: 0.8,
     ...(brand.logo && { images: [`${BASE_URL}${brand.logo}`] }),
@@ -145,7 +146,7 @@ export default function sitemap() {
     'hartie',
   ].map((industry) => ({
     url: `${BASE_URL}/industrii/${industry}`,
-    lastModified: currentDate,
+    lastModified: staticDate,
     changeFrequency: 'monthly',
     priority: 0.7,
   }));
@@ -153,7 +154,7 @@ export default function sitemap() {
   // Blog article pages - use actual article dates when available
   const blogPages = blogArticles.map((article) => ({
     url: `${BASE_URL}/blog/${article.slug}`,
-    lastModified: article.dateModified || article.date || currentDate,
+    lastModified: article.dateModified || article.date || staticDate,
     changeFrequency: 'monthly',
     priority: 0.7,
     ...(article.image && { images: [`${BASE_URL}${article.image}`] }),
@@ -162,7 +163,7 @@ export default function sitemap() {
   // Case study pages
   const caseStudyPages = caseStudies.map((cs) => ({
     url: `${BASE_URL}/studii-de-caz/${cs.slug}`,
-    lastModified: currentDate,
+    lastModified: staticDate,
     changeFrequency: 'monthly',
     priority: 0.8,
   }));

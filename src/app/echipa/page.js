@@ -74,7 +74,7 @@ export default function EchipaPage() {
           strategy="beforeInteractive"
         />
       ))}
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
       {/* Hero Section */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>

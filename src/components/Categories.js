@@ -1,11 +1,11 @@
 'use client';
 
-import { useRef, useState } from 'react';
-import { motion, useInView } from 'framer-motion';
+import { useState } from 'react';
 import Link from 'next/link';
 import { Droplets, Settings2, Zap, Thermometer, Wind, ArrowRight, Plus, Check } from 'lucide-react';
 import { categories } from '@/data/products';
 import { useQuoteCart } from '@/context/QuoteCartContext';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './Categories.module.css';
 
 const iconMap = {
@@ -17,8 +17,7 @@ const iconMap = {
 };
 
 export default function Categories() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [ref, isVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
   const [addedAnimation, setAddedAnimation] = useState(null);
 
@@ -40,29 +39,24 @@ export default function Categories() {
     <section id="categorii" className={styles.section} ref={ref}>
       <div className={styles.container}>
         {/* Section Header */}
-        <motion.div
-          className={styles.header}
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
+        <div
+          className={`${styles.header} animate-fade-up ${isVisible ? 'is-visible' : ''}`}
         >
           <h2 className={styles.title}>Echipamente Industriale Premium</h2>
           <p className={styles.subtitle}>
-            Explorează gama noastră completă de soluții industriale. 
+            Explorează gama noastră completă de soluții industriale.
             De la pompe la motoare, avem tot ce ai nevoie pentru proiectul tău.
           </p>
-        </motion.div>
+        </div>
 
         {/* Categories Grid */}
         <div className={styles.grid}>
           {categories.map((category, index) => {
             const Icon = iconMap[category.icon];
             return (
-              <motion.div
+              <div
                 key={category.id}
-                initial={{ opacity: 0, y: 40 }}
-                animate={isInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className={`animate-fade-up animate-delay-${Math.min(index + 1, 6)} ${isVisible ? 'is-visible' : ''}`}
               >
                 <Link href={`/${category.slug}`} className={styles.card}>
                   <div className={styles.cardInner}>
@@ -137,7 +131,7 @@ export default function Categories() {
                     style={{ background: category.gradient }}
                   />
                 </Link>
-              </motion.div>
+              </div>
             );
           })}
         </div>

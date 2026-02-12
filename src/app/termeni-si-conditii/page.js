@@ -19,10 +19,10 @@ export default function TermeniPage() {
           <section>
             <h2>1. Informații Generale</h2>
             <p>
-              Prezentul document stabilește termenii și condițiile de utilizare a site-ului 
-              <strong> infinitrade.ro</strong>, operat de <strong>Driatheli Group SRL</strong>, 
-              cu sediul în Ghiroda, Calea Lugojului nr.47/B, Hala nr. 3, Județul Timiș, România, 
-              înregistrată la Registrul Comerțului sub nr. J35/XXXX/XXXX, CUI ROXXXXXXXX.
+              Prezentul document stabilește termenii și condițiile de utilizare a site-ului
+              <strong> infinitrade.ro</strong>, operat de <strong>Driatheli Group SRL</strong>,
+              cu sediul în Ghiroda, Calea Lugojului nr.47/B, Hala nr. 3, Județul Timiș, România,
+              înregistrată la Registrul Comerțului sub nr. J35/2901/2009, CUI RO26209397.
             </p>
             <p>
               Brandul comercial utilizat este <strong>Infinitrade Romania</strong>.

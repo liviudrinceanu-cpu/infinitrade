@@ -1,14 +1,17 @@
 'use client';
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone, Send, Plus, ShoppingCart } from 'lucide-react';
 import { categories } from '@/data/products';
 import { useQuoteCart } from '@/context/QuoteCartContext';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './category.module.css';
 
 export default function CategoryClient({ category }) {
+  const [heroRef, heroVisible] = useIntersectionObserver();
+  const [brandsRef, brandsVisible] = useIntersectionObserver();
+  const [typesRef, typesVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
   const [addedAnimation, setAddedAnimation] = useState(null);
 
@@ -74,13 +77,11 @@ export default function CategoryClient({ category }) {
   return (
     <>
       {/* Hero Section */}
-      <section className={styles.hero} style={{ background: category.gradient }}>
+      <section className={styles.hero} style={{ background: category.gradient }} ref={heroRef}>
         <div className={styles.heroOverlay} />
         <div className={styles.heroContainer}>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+          <div
+            className={`animate-fade-up ${heroVisible ? 'is-visible' : ''}`}
           >
             <h1 className={styles.heroTitle}>{category.name}</h1>
             <p className={styles.heroTagline}>{category.tagline}</p>
@@ -131,12 +132,12 @@ export default function CategoryClient({ category }) {
                 Vezi Branduri
               </a>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Brands Section */}
-      <section id="branduri" className={styles.brandsSection}>
+      <section id="branduri" className={styles.brandsSection} ref={brandsRef}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <h2>Branduri Premium {category.name}</h2>
@@ -145,13 +146,9 @@ export default function CategoryClient({ category }) {
 
           <div className={styles.brandsGrid}>
             {category.brands.map((brand, index) => (
-              <motion.div
+              <div
                 key={brand.name}
-                className={`${styles.brandCard} ${brand.featured ? styles.brandFeatured : ''}`}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.05 }}
+                className={`${styles.brandCard} ${brand.featured ? styles.brandFeatured : ''} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${brandsVisible ? 'is-visible' : ''}`}
               >
                 <div className={styles.brandLogo}>
                   {brand.name.charAt(0)}
@@ -181,14 +178,14 @@ export default function CategoryClient({ category }) {
                 {brand.featured && (
                   <span className={styles.brandBadge}>Partner Premium</span>
                 )}
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* Product Types Section */}
-      <section className={styles.typesSection}>
+      <section className={styles.typesSection} ref={typesRef}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
             <h2>Tipuri de {category.name}</h2>
@@ -197,13 +194,9 @@ export default function CategoryClient({ category }) {
 
           <div className={styles.typesGrid}>
             {category.productTypes.map((type, index) => (
-              <motion.div
+              <div
                 key={type.name}
-                className={styles.typeCard}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
+                className={`${styles.typeCard} animate-fade-up animate-delay-${Math.min(index + 1, 6)} ${typesVisible ? 'is-visible' : ''}`}
               >
                 <h3>{type.name}</h3>
                 <p>{type.description}</p>
@@ -232,7 +225,7 @@ export default function CategoryClient({ category }) {
                     Cere ofertă <ArrowRight size={16} />
                   </Link>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>

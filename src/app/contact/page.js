@@ -1,18 +1,21 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Clock, Send, Check, X, ShoppingCart, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { companyInfo, categories } from '@/data/products';
 import { useQuoteCart } from '@/context/QuoteCartContext';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './contact.module.css';
 
 export default function ContactPage() {
+  const [heroRef, heroVisible] = useIntersectionObserver();
+  const [formRef, formVisible] = useIntersectionObserver();
+  const [infoRef, infoVisible] = useIntersectionObserver();
   const { items: cartItems, removeItem, clearCart, getCartSummary } = useQuoteCart();
-  
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -116,19 +119,17 @@ export default function ContactPage() {
       <Header />
       <main id="main-content" className={styles.main}>
         {/* Hero */}
-        <section className={styles.hero}>
+        <section className={styles.hero} ref={heroRef}>
           <div className={styles.container}>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
+            <div
+              className={`animate-fade-up ${heroVisible ? 'is-visible' : ''}`}
             >
               <h1 className={styles.title}>Contactează-ne</h1>
               <p className={styles.subtitle}>
-                Echipa noastră este pregătită să te ajute cu orice întrebare. 
+                Echipa noastră este pregătită să te ajute cu orice întrebare.
                 Oferim consultanță tehnică gratuită pentru selecția echipamentelor.
               </p>
-            </motion.div>
+            </div>
           </div>
         </section>
 
@@ -137,11 +138,9 @@ export default function ContactPage() {
           <div className={styles.container}>
             <div className={styles.grid}>
               {/* Contact Form */}
-              <motion.div
-                className={styles.formWrapper}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
+              <div
+                ref={formRef}
+                className={`${styles.formWrapper} animate-fade-left animate-delay-2 ${formVisible ? 'is-visible' : ''}`}
               >
                 {!isSubmitted ? (
                   <form onSubmit={handleSubmit} className={styles.form}>
@@ -291,14 +290,12 @@ export default function ContactPage() {
                     </p>
                   </div>
                 )}
-              </motion.div>
+              </div>
 
               {/* Contact Info */}
-              <motion.div
-                className={styles.info}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: 0.3 }}
+              <div
+                ref={infoRef}
+                className={`${styles.info} animate-fade-right animate-delay-3 ${infoVisible ? 'is-visible' : ''}`}
               >
                 <div className={styles.infoCard}>
                   <h2>Informații Contact</h2>
@@ -377,7 +374,7 @@ export default function ContactPage() {
                     </li>
                   </ul>
                 </div>
-              </motion.div>
+              </div>
             </div>
           </div>
         </section>

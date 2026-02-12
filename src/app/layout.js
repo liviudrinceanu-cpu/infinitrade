@@ -24,76 +24,7 @@ export const metadata = {
     default: 'Infinitrade Romania | Distribuitor Pompe, Robineți, Motoare Industriale',
     template: '%s | Infinitrade Romania'
   },
-  description: 'Distribuitor autorizat echipamente industriale România. Furnizor înregistrat SEAP/SICAP pentru achiziții publice și licitații. Pompe Grundfos, Wilo, KSB. Robineți ARI Armaturen, Spirax Sarco. Motoare Siemens, SEW, ABB. Documentație completă pentru fonduri europene.',
-  keywords: [
-    // Main keywords
-    'echipamente industriale romania',
-    'distribuitor echipamente industriale',
-    'furnizor echipamente industriale romania',
-    'echipamente industriale pret',
-    // SEAP / SICAP / Public Procurement
-    'furnizor SEAP',
-    'furnizor SICAP',
-    'furnizor inregistrat SEAP',
-    'echipamente industriale SEAP',
-    'pompe industriale SEAP',
-    'licitatie echipamente industriale',
-    'licitatie pompe industriale',
-    'achizitii publice echipamente',
-    'achizitii publice pompe',
-    'fonduri europene echipamente industriale',
-    'PNRR echipamente industriale',
-    'documentatie licitatie',
-    // Pumps
-    'pompe industriale',
-    'pompe industriale romania',
-    'pompe industriale pret',
-    'pompe grundfos',
-    'pompe grundfos romania',
-    'pompe wilo',
-    'pompe wilo romania',
-    'pompe ksb',
-    'pompe submersibile',
-    'pompe centrifugale',
-    'pompe dozatoare',
-    'pompe de vid',
-    // Valves
-    'robineti industriali',
-    'robineti industriali romania',
-    'ari armaturen',
-    'spirax sarco',
-    'spirax sarco romania',
-    'supape siguranta',
-    'supape siguranta industriale',
-    'oale condens',
-    'robineti cu bila',
-    'robineti fluture',
-    // Motors
-    'motoare electrice',
-    'motoare electrice industriale',
-    'motoare siemens',
-    'motoare siemens romania',
-    'sew eurodrive',
-    'motoare abb',
-    'motoare atex',
-    'motoreductoare',
-    // Heat exchangers
-    'schimbatoare caldura',
-    'schimbatoare caldura industriale',
-    'alfa laval',
-    'alfa laval romania',
-    'kelvion',
-    // Blowers
-    'suflante industriale',
-    'suflante aerare',
-    'ventilatoare industriale',
-    'pompe vid industriale',
-    // Services
-    'piese schimb industriale',
-    'piese schimb pompe',
-    'service pompe industriale',
-    'livrare rapida echipamente',
-  ],
+  description: 'Distribuitor autorizat echipamente industriale Romania. Furnizor SEAP/SICAP. Pompe Grundfos, Wilo. Robineti ARI, Spirax Sarco. Motoare Siemens, ABB. Livrare 24-72h.',
   authors: [{ name: 'Infinitrade Romania - Driatheli Group SRL' }],
   creator: 'Infinitrade Romania',
   publisher: 'Driatheli Group SRL',
@@ -146,6 +77,10 @@ export const metadata = {
   },
   alternates: {
     canonical: config.site.url,
+    languages: {
+      'ro-RO': config.site.url,
+      'x-default': config.site.url,
+    },
   },
   category: 'business',
 }
@@ -198,14 +133,26 @@ const organizationSchema = {
     'Grundfos', 'Wilo', 'KSB', 'Siemens', 'ABB', 'SEW Eurodrive',
     'Alfa Laval', 'Kelvion', 'ARI Armaturen', 'Spirax Sarco',
     'Becker', 'FPZ', 'Endress Hauser', 'Timken', 'NSK'
-  ]
+  ],
+  sameAs: [
+    'https://www.linkedin.com/company/infinitrade-romania',
+    'https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL',
+  ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.8',
+    bestRating: '5',
+    worstRating: '1',
+    ratingCount: '15',
+  }
 }
 
 // Schema.org for LocalBusiness
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
+  '@type': ['LocalBusiness', 'WholesaleStore'],
   '@id': `${config.site.url}/#business`,
+  parentOrganization: { '@id': `${config.site.url}/#organization` },
   name: 'Infinitrade Romania',
   image: `${config.site.url}/logo-header.png`,
   url: config.site.url,

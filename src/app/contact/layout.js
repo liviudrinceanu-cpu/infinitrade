@@ -1,9 +1,10 @@
 import { config } from '@/lib/config';
 
+export const revalidate = 86400;
+
 export const metadata = {
   title: 'Contact | Solicită Ofertă',
   description: 'Contactează-ne pentru oferte echipamente industriale. Pompe, robineți, motoare. Răspuns în 24h, consultanță gratuită. Tel: 0371 232 404',
-  keywords: 'contact infinitrade, oferta pompe, oferta robineti, echipamente industriale romania, distribuitor autorizat',
   alternates: {
     canonical: `${config.site.url}/contact`,
   },
@@ -33,7 +34,7 @@ const contactPageSchema = {
     logo: `${config.site.url}/logo-header.png`,
     image: `${config.site.url}/logo-header.png`,
     telephone: '+40-371-232-404',
-    email: 'vanzari@infinitrade.ro',
+    email: config.site.email.sales,
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Calea Lugojului, nr.47/B, Hala nr. 3',

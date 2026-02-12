@@ -33,8 +33,8 @@ const nextConfig = {
 
   // Performance optimizations
   experimental: {
-    // Tree-shake lucide-react and framer-motion for smaller bundles
-    optimizePackageImports: ['lucide-react', 'framer-motion'],
+    // Tree-shake lucide-react for smaller bundles
+    optimizePackageImports: ['lucide-react'],
   },
 
   // Compiler optimizations

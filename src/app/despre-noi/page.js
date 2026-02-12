@@ -1,13 +1,21 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { Award, Users, Globe, Clock, Shield, Truck, CheckCircle, Building } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { companyInfo, targetIndustries } from '@/data/products';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './despre.module.css';
 
 export default function DesprePage() {
+  const [heroRef, heroVisible] = useIntersectionObserver();
+  const [statsRef, statsVisible] = useIntersectionObserver();
+  const [aboutRef, aboutVisible] = useIntersectionObserver();
+  const [industriesRef, industriesVisible] = useIntersectionObserver();
+  const [clientsRef, clientsVisible] = useIntersectionObserver();
+  const [officialRef, officialVisible] = useIntersectionObserver();
+  const [ctaRef, ctaVisible] = useIntersectionObserver();
+
   const stats = [
     { value: companyInfo.stats.years, label: 'Ani Experiență', icon: Clock },
     { value: companyInfo.stats.clients, label: 'Clienți Industriali', icon: Users },
@@ -20,55 +28,46 @@ export default function DesprePage() {
       <Header />
       <main id="main-content" className={styles.main}>
         {/* Hero Section */}
-        <section className={styles.hero}>
+        <section className={styles.hero} ref={heroRef}>
           <div className={styles.heroBackground} />
           <div className={styles.heroContainer}>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className={styles.heroContent}
+            <div
+              className={`${styles.heroContent} animate-fade-up ${heroVisible ? 'is-visible' : ''}`}
             >
               <h1>Despre Infinitrade Romania</h1>
               <p className={styles.heroTagline}>{companyInfo.tagline}</p>
               <p className={styles.heroDescription}>
-                Partener strategic pentru industria românească din 2009. Furnizăm echipamente 
+                Partener strategic pentru industria românească din 2009. Furnizăm echipamente
                 industriale de înaltă performanță pentru cele mai exigente aplicații.
               </p>
-            </motion.div>
+            </div>
           </div>
         </section>
 
         {/* Stats Section */}
-        <section className={styles.statsSection}>
+        <section className={styles.statsSection} ref={statsRef}>
           <div className={styles.container}>
             <div className={styles.statsGrid}>
               {stats.map((stat, index) => (
-                <motion.div
+                <div
                   key={stat.label}
-                  className={styles.statCard}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className={`${styles.statCard} animate-fade-up animate-delay-${Math.min(index + 1, 6)} ${statsVisible ? 'is-visible' : ''}`}
                 >
                   <stat.icon size={32} className={styles.statIcon} />
                   <span className={styles.statValue}>{stat.value}</span>
                   <span className={styles.statLabel}>{stat.label}</span>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
         </section>
 
         {/* About Content */}
-        <section className={styles.aboutSection}>
+        <section className={styles.aboutSection} ref={aboutRef}>
           <div className={styles.container}>
             <div className={styles.aboutGrid}>
-              <motion.div
-                className={styles.aboutContent}
-                initial={{ opacity: 0, x: -30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6 }}
+              <div
+                className={`${styles.aboutContent} animate-fade-left ${aboutVisible ? 'is-visible' : ''}`}
               >
                 <h2>Cine Suntem</h2>
                 <p>
@@ -94,13 +93,10 @@ export default function DesprePage() {
                   dispărem după ce livrăm. Suportul tehnic nu e un cost pentru noi, e modul în care
                   ne facem treaba.
                 </p>
-              </motion.div>
+              </div>
 
-              <motion.div
-                className={styles.aboutFeatures}
-                initial={{ opacity: 0, x: 30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
+              <div
+                className={`${styles.aboutFeatures} animate-fade-right animate-delay-2 ${aboutVisible ? 'is-visible' : ''}`}
               >
                 <h3>De Ce Să Ne Alegeți</h3>
                 <ul className={styles.featureList}>
@@ -141,82 +137,67 @@ export default function DesprePage() {
                     ))}
                   </div>
                 </div>
-              </motion.div>
+              </div>
             </div>
           </div>
         </section>
 
         {/* Industries Section */}
-        <section className={styles.industriesSection}>
+        <section className={styles.industriesSection} ref={industriesRef}>
           <div className={styles.container}>
-            <motion.div
-              className={styles.sectionHeader}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+            <div
+              className={`${styles.sectionHeader} animate-fade-up ${industriesVisible ? 'is-visible' : ''}`}
             >
               <h2>Industrii Deservite</h2>
               <p>Furnizăm echipamente industriale pentru cele mai importante sectoare ale economiei</p>
-            </motion.div>
+            </div>
 
             <div className={styles.industriesGrid}>
               {companyInfo.industries.slice(0, 12).map((industry, index) => (
-                <motion.div
+                <div
                   key={industry}
-                  className={styles.industryCard}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.3, delay: index * 0.05 }}
+                  className={`${styles.industryCard} animate-scale animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${industriesVisible ? 'is-visible' : ''}`}
                 >
                   <Building size={24} />
                   <span>{industry}</span>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
         </section>
 
         {/* Clients Section */}
-        <section className={styles.clientsSection}>
+        <section className={styles.clientsSection} ref={clientsRef}>
           <div className={styles.container}>
-            <motion.div
-              className={styles.sectionHeader}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+            <div
+              className={`${styles.sectionHeader} animate-fade-up ${clientsVisible ? 'is-visible' : ''}`}
             >
               <h2>Clienți de Referință</h2>
               <p>Companii de top care ne-au acordat încrederea</p>
-            </motion.div>
+            </div>
 
             <div className={styles.clientsGrid}>
               {companyInfo.majorClients.map((client, index) => (
-                <motion.div
+                <div
                   key={client}
-                  className={styles.clientCard}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.3, delay: index * 0.05 }}
+                  className={`${styles.clientCard} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${clientsVisible ? 'is-visible' : ''}`}
                 >
                   {client}
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
         </section>
 
         {/* Official Data Section - E-E-A-T */}
-        <section className={styles.officialSection}>
+        <section className={styles.officialSection} ref={officialRef}>
           <div className={styles.container}>
-            <motion.div
-              className={styles.sectionHeader}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+            <div
+              className={`${styles.sectionHeader} animate-fade-up ${officialVisible ? 'is-visible' : ''}`}
             >
               <h2>Date Oficiale Verificabile</h2>
               <p>Informații publice din registrele oficiale (ONRC, 2024)</p>
-            </motion.div>
+            </div>
             <div className={styles.officialGrid}>
               <div className={styles.officialCard}>
                 <span className={styles.officialLabel}>Cifră de Afaceri</span>
@@ -243,13 +224,10 @@ export default function DesprePage() {
         </section>
 
         {/* Contact CTA */}
-        <section className={styles.ctaSection}>
+        <section className={styles.ctaSection} ref={ctaRef}>
           <div className={styles.container}>
-            <motion.div
-              className={styles.ctaBox}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+            <div
+              className={`${styles.ctaBox} animate-fade-up ${ctaVisible ? 'is-visible' : ''}`}
             >
               <h2>Pregătiți pentru o colaborare?</h2>
               <p>
@@ -263,7 +241,7 @@ export default function DesprePage() {
                   Sună: 0371 232 404
                 </a>
               </div>
-            </motion.div>
+            </div>
           </div>
         </section>
       </main>

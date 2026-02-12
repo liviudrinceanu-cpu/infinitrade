@@ -8,6 +8,8 @@ import { config } from '@/lib/config';
 import CategoryClient from './CategoryClient';
 import styles from './category.module.css';
 
+export const revalidate = 3600;
+
 // Generate static paths for all categories
 export async function generateStaticParams() {
   return categories.map((category) => ({
@@ -42,63 +44,9 @@ export async function generateMetadata({ params }) {
   // Use metaDescription from data (already optimized for length) instead of dynamic description
   const description = category.metaDescription;
 
-  // Generate comprehensive keywords
-  const baseKeywords = [
-    // Category variations
-    category.name,
-    `${category.name} Romania`,
-    `${category.name} industriale`,
-    `${category.name.toLowerCase()} pret`,
-    `${category.name.toLowerCase()} preturi`,
-    `${category.name.toLowerCase()} oferta`,
-    `${category.name.toLowerCase()} catalog`,
-    // SEAP / SICAP / Public Procurement
-    `${category.name.toLowerCase()} SEAP`,
-    `${category.name.toLowerCase()} SICAP`,
-    `furnizor SEAP ${category.name.toLowerCase()}`,
-    `licitatie ${category.name.toLowerCase()}`,
-    `achizitii publice ${category.name.toLowerCase()}`,
-    `${category.name.toLowerCase()} fonduri europene`,
-    `${category.name.toLowerCase()} PNRR`,
-    // Distributor intent
-    `distribuitor ${category.name.toLowerCase()}`,
-    `distribuitor autorizat ${category.name.toLowerCase()}`,
-    `furnizor ${category.name.toLowerCase()}`,
-    `furnizor ${category.name.toLowerCase()} romania`,
-    // Brand keywords
-    ...category.brands.map(b => b.name),
-    ...category.brands.map(b => `${b.name} Romania`),
-    ...category.brands.slice(0, 5).map(b => `${b.name} ${category.name.toLowerCase()}`),
-    ...category.brands.slice(0, 3).map(b => `${b.name} SEAP`),
-    // Product type keywords
-    ...category.productTypes.map(p => p.name),
-    ...category.productTypes.map(p => `${p.name.toLowerCase()} licitatie`),
-    // Application keywords
-    ...category.productTypes.flatMap(pt => pt.applications.slice(0, 2)),
-    // Accessories and services
-    ...category.accessories.slice(0, 5),
-    // Purchase intent
-    `cumpara ${category.name.toLowerCase()}`,
-    `achizitie ${category.name.toLowerCase()}`,
-    // 2026 keywords
-    'catalog 2026',
-    'preturi 2026',
-    // General
-    'echipamente industriale romania',
-    'furnizor SEAP',
-    'furnizor SICAP',
-    'distribuitor autorizat',
-    'livrare rapida',
-    'piese schimb originale',
-  ];
-
-  // Remove duplicates and limit
-  const keywords = [...new Set(baseKeywords)].slice(0, 45);
-
   return {
     title,
     description,
-    keywords,
     openGraph: {
       title: `${category.name} | Distribuitor Autorizat Romania | Infinitrade`,
       description: `Distribuitor ${category.name.toLowerCase()} în România. Branduri: ${brandNames}. ${category.stats.products} produse disponibile. Livrare 24-72h.`,
@@ -193,31 +141,10 @@ export default async function CategoryPage({ params }) {
           },
         ],
       },
-      // Organization Schema
+      // Reference global Organization Schema (defined in layout.js)
       {
         '@type': 'Organization',
         '@id': `${config.site.url}/#organization`,
-        name: 'Infinitrade Romania',
-        url: config.site.url,
-        logo: `${config.site.url}/logo-header.png`,
-        description: `Distribuitor autorizat ${category.name.toLowerCase()} în România`,
-        address: {
-          '@type': 'PostalAddress',
-          streetAddress: companyInfo.location.address,
-          addressLocality: companyInfo.location.city,
-          addressRegion: companyInfo.location.county,
-          postalCode: '300699',
-          addressCountry: 'RO',
-        },
-        contactPoint: {
-          '@type': 'ContactPoint',
-          telephone: '+40-371-232-404',
-          contactType: 'sales',
-          availableLanguage: ['Romanian', 'English'],
-        },
-        sameAs: [
-          'https://www.linkedin.com/company/infinitrade-romania',
-        ],
       },
       // Service Schema
       {

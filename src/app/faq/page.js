@@ -5,6 +5,8 @@ import { config } from '@/lib/config';
 import { ChevronDown } from 'lucide-react';
 import styles from './faq.module.css';
 
+export const revalidate = 86400;
+
 const faqData = [
   {
     category: 'Produse și Comenzi',
@@ -141,49 +143,6 @@ function generateFaqJsonLd() {
 export const metadata = {
   title: 'FAQ | Întrebări Frecvente',
   description: 'Răspunsuri despre echipamente industriale și achiziții SEAP/SICAP: pompe, robineți, motoare, licitații. Consultanță gratuită.',
-  keywords: [
-    // FAQ specific
-    'faq echipamente industriale',
-    'intrebari echipamente industriale',
-    'intrebari frecvente pompe',
-    'intrebari frecvente robineti',
-    // SEAP / SICAP questions
-    'faq SEAP echipamente',
-    'intrebari SEAP pompe',
-    'furnizor SEAP intrebari',
-    'licitatii publice intrebari',
-    'achizitii publice faq',
-    'documente licitatie SEAP',
-    'fonduri europene echipamente',
-    'PNRR echipamente faq',
-    // Product selection
-    'cum aleg pompa industriala',
-    'cum aleg pompa potrivita',
-    'selectie pompe industriale',
-    'diferente robineti bila fluture',
-    'robineti bila vs fluture',
-    'tipuri motoare electrice',
-    // Purchase questions
-    'piese schimb originale',
-    'piese schimb pompe',
-    'garantie echipamente industriale',
-    'garantie pompe industriale',
-    // Delivery and payment
-    'livrare echipamente industriale',
-    'livrare pompe romania',
-    'transport echipamente grele',
-    'plata echipamente industriale',
-    // Service questions
-    'service pompe industriale',
-    'mentenanta pompe',
-    'reparatii pompe industriale',
-    'consultanta tehnica gratuita',
-    // General
-    'distribuitor echipamente industriale',
-    'furnizor SEAP romania',
-    'furnizor pompe romania',
-    'infinitrade romania',
-  ],
   openGraph: {
     title: 'Intrebari Frecvente (FAQ) | Echipamente Industriale',
     description: 'Gaseste raspunsuri la intrebarile despre echipamente industriale.',

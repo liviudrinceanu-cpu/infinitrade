@@ -6,40 +6,11 @@ import { config } from '@/lib/config';
 import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
 import styles from './blog.module.css';
 
+export const revalidate = 3600;
+
 export const metadata = {
   title: 'Blog Tehnic | Ghiduri Echipamente Industriale',
   description: 'Articole tehnice despre pompe industriale, motoare electrice, robineti. Ghiduri de selectie, comparatii, eficienta energetica si mentenanta.',
-  keywords: [
-    // Blog main keywords
-    'blog echipamente industriale',
-    'blog tehnic industrial',
-    'articole tehnice industriale',
-    'articole pompe industriale',
-    // Guide keywords
-    'ghid pompe industriale',
-    'ghid selectie pompe',
-    'ghid alegere pompa',
-    'ghid motoare electrice',
-    'ghid robineti industriali',
-    // Comparison keywords
-    'comparatie pompe industriale',
-    'comparatie motoare electrice',
-    'comparatie siemens abb sew',
-    'comparatie grundfos wilo',
-    'comparatie robineti bila fluture',
-    // Technical topics
-    'eficienta energetica pompe',
-    'eficienta energetica motoare',
-    'consum energie pompe',
-    'mentenanta pompe industriale',
-    'mentenanta preventiva',
-    'intretinere pompe',
-    // Information keywords
-    'sfaturi echipamente industriale',
-    'informatii pompe',
-    'cum functioneaza pompele',
-    'tipuri pompe industriale',
-  ],
   openGraph: {
     title: 'Blog Tehnic | Ghiduri Echipamente Industriale',
     description: 'Articole tehnice despre echipamente industriale.',
@@ -56,6 +27,18 @@ export const metadata = {
     follow: true,
   },
 };
+
+// BreadcrumbList schema for blog
+function generateBlogBreadcrumbSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Acasă', item: config.site.url },
+      { '@type': 'ListItem', position: 2, name: 'Blog' },
+    ],
+  };
+}
 
 // CollectionPage schema for blog listing
 function generateBlogCollectionSchema(articles) {
@@ -99,12 +82,17 @@ export default function BlogPage() {
   const featuredArticles = blogArticles.filter(a => a.featured);
   const regularArticles = blogArticles.filter(a => !a.featured);
   const collectionSchema = generateBlogCollectionSchema(blogArticles);
+  const breadcrumbSchema = generateBlogBreadcrumbSchema();
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>

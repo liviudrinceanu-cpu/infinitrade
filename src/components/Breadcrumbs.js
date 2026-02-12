@@ -40,13 +40,7 @@ export default function Breadcrumbs({ items = [], currentPage, variant = 'defaul
 
   return (
     <>
-      {/* JSON-LD Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
-      {/* Visual Breadcrumbs */}
+      {/* Visual Breadcrumbs - JSON-LD is handled at page level to avoid duplicates */}
       <nav className={`${styles.breadcrumbs} ${variant === 'light' ? styles.light : ''}`} aria-label="Breadcrumb">
         <ol className={styles.list}>
           {allItems.map((item, index) => (

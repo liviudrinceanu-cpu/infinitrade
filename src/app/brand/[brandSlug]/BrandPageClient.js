@@ -2,15 +2,17 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { ArrowLeft, ArrowRight, Check, Phone, Mail, Plus, ShoppingCart, Package, Truck, Wrench, Shield } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { useQuoteCart } from '@/context/QuoteCartContext';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './brand.module.css';
 
 export default function BrandPageClient({ brand, category }) {
+  const [heroRef, heroVisible] = useIntersectionObserver();
+  const [productsRef, productsVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
   const [addedAnimation, setAddedAnimation] = useState(null);
 
@@ -31,17 +33,15 @@ export default function BrandPageClient({ brand, category }) {
       <Header />
       <main id="main-content">
         {/* Hero Section */}
-        <section className={styles.hero}>
+        <section className={styles.hero} ref={heroRef}>
           <div className={styles.heroContainer}>
             <Breadcrumbs
               items={[{ label: category.name, href: `/${category.slug}` }]}
               currentPage={brand.name}
               variant="light"
             />
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
+            <div
+              className={`animate-fade-up ${heroVisible ? 'is-visible' : ''}`}
             >
 
               <h1 className={styles.heroTitle}>
@@ -81,7 +81,7 @@ export default function BrandPageClient({ brand, category }) {
                   <ArrowRight size={18} />
                 </Link>
               </div>
-            </motion.div>
+            </div>
           </div>
         </section>
 
@@ -159,7 +159,7 @@ export default function BrandPageClient({ brand, category }) {
         </section>
 
         {/* Product Types */}
-        <section className={styles.productsSection}>
+        <section className={styles.productsSection} ref={productsRef}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
               <h2>Produse {brand.name} Disponibile</h2>
@@ -167,13 +167,9 @@ export default function BrandPageClient({ brand, category }) {
             </div>
             <div className={styles.productsGrid}>
               {category.productTypes.map((type, index) => (
-                <motion.div
+                <div
                   key={type.slug}
-                  className={styles.productCard}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.05 }}
+                  className={`${styles.productCard} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${productsVisible ? 'is-visible' : ''}`}
                 >
                   <div className={styles.productCardContent}>
                     <h3>{type.name}</h3>
@@ -201,7 +197,7 @@ export default function BrandPageClient({ brand, category }) {
                       )}
                     </button>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>

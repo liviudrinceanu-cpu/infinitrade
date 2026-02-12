@@ -1,9 +1,8 @@
 'use client';
 
-import { useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
 import { Package, Truck, Wrench, Headphones, Shield, Globe } from 'lucide-react';
 import { features } from '@/data/products';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './Features.module.css';
 
 const iconMap = {
@@ -16,53 +15,43 @@ const iconMap = {
 };
 
 export default function Features() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [ref, isVisible] = useIntersectionObserver();
 
   return (
     <section className={styles.section} ref={ref}>
       <div className={styles.container}>
         {/* Header */}
-        <motion.div
-          className={styles.header}
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
+        <div
+          className={`${styles.header} animate-fade-up ${isVisible ? 'is-visible' : ''}`}
         >
           <h2 className={styles.title}>De ce Infinitrade?</h2>
           <p className={styles.subtitle}>
             Mai mult decât un distribuitor - suntem partenerul tău de încredere pentru succesul industrial.
           </p>
-        </motion.div>
+        </div>
 
         {/* Features Grid */}
         <div className={styles.grid}>
           {features.map((feature, index) => {
             const Icon = iconMap[feature.icon];
             return (
-              <motion.div
+              <div
                 key={feature.title}
-                className={styles.feature}
-                initial={{ opacity: 0, y: 30 }}
-                animate={isInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className={`${styles.feature} animate-fade-up animate-delay-${Math.min(index + 1, 6)} ${isVisible ? 'is-visible' : ''}`}
               >
                 <div className={styles.featureIcon}>
                   <Icon size={28} />
                 </div>
                 <h3 className={styles.featureTitle}>{feature.title}</h3>
                 <p className={styles.featureDescription}>{feature.description}</p>
-              </motion.div>
+              </div>
             );
           })}
         </div>
 
         {/* Bottom CTA */}
-        <motion.div
-          className={styles.cta}
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6, delay: 0.6 }}
+        <div
+          className={`${styles.cta} animate-fade-up animate-delay-6 ${isVisible ? 'is-visible' : ''}`}
         >
           <div className={styles.ctaContent}>
             <h2>Ai nevoie de asistență tehnică?</h2>
@@ -71,7 +60,7 @@ export default function Features() {
           <a href="/contact" className={styles.ctaButton}>
             Contactează Echipa Tehnică
           </a>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

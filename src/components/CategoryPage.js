@@ -1,19 +1,20 @@
 'use client';
 
-import { useRef, useState } from 'react';
-import { motion, useInView } from 'framer-motion';
+import { useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight, Check, Truck, Wrench, Phone, ChevronRight, Plus, ShoppingCart } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { categories } from '@/data/products';
 import { useQuoteCart } from '@/context/QuoteCartContext';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './CategoryPage.module.css';
 
 export default function CategoryPage({ slug }) {
   const category = categories.find(c => c.slug === slug);
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  const [heroRef, heroVisible] = useIntersectionObserver();
+  const [brandsRef, brandsVisible] = useIntersectionObserver({ rootMargin: '-50px' });
+  const [typesRef, typesVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
   const [addedAnimation, setAddedAnimation] = useState(null);
 
@@ -38,16 +39,13 @@ export default function CategoryPage({ slug }) {
       <Header />
       <main className={styles.main}>
         {/* Hero Section */}
-        <section className={styles.hero} style={{ '--category-color': category.color }}>
+        <section className={styles.hero} style={{ '--category-color': category.color }} ref={heroRef}>
           <div className={styles.heroBackground}>
             <div className={styles.heroGradient} style={{ background: category.gradient }} />
           </div>
           <div className={styles.heroContainer}>
-            <motion.div
-              className={styles.heroContent}
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
+            <div
+              className={`${styles.heroContent} animate-fade-up ${heroVisible ? 'is-visible' : ''}`}
             >
               {/* Breadcrumb */}
               <div className={styles.breadcrumb}>
@@ -106,7 +104,7 @@ export default function CategoryPage({ slug }) {
                   Vezi Branduri
                 </a>
               </div>
-            </motion.div>
+            </div>
           </div>
         </section>
 
@@ -155,26 +153,20 @@ export default function CategoryPage({ slug }) {
         </section>
 
         {/* Brands Section */}
-        <section id="branduri" className={styles.brandsSection} ref={ref}>
+        <section id="branduri" className={styles.brandsSection} ref={brandsRef}>
           <div className={styles.container}>
-            <motion.div
-              className={styles.sectionHeader}
-              initial={{ opacity: 0, y: 20 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5 }}
+            <div
+              className={`${styles.sectionHeader} animate-fade-up ${brandsVisible ? 'is-visible' : ''}`}
             >
               <h2>Branduri Partenere</h2>
               <p>Colaborăm cu cei mai importanți producători mondiali pentru a-ți oferi soluții de calitate.</p>
-            </motion.div>
+            </div>
 
             <div className={styles.brandsGrid}>
               {category.brands.map((brand, index) => (
-                <motion.div
+                <div
                   key={brand.name}
-                  className={`${styles.brandCard} ${brand.featured ? styles.brandCardFeatured : ''}`}
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={isInView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ duration: 0.5, delay: index * 0.05 }}
+                  className={`${styles.brandCard} ${brand.featured ? styles.brandCardFeatured : ''} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${brandsVisible ? 'is-visible' : ''}`}
                 >
                   <div className={styles.brandHeader}>
                     <h3 className={styles.brandName}>{brand.name}</h3>
@@ -199,14 +191,14 @@ export default function CategoryPage({ slug }) {
                       Solicită Ofertă →
                     </Link>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
         </section>
 
         {/* Product Types */}
-        <section className={styles.typesSection}>
+        <section className={styles.typesSection} ref={typesRef}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
               <h2>Tipuri de Produse</h2>
@@ -215,13 +207,9 @@ export default function CategoryPage({ slug }) {
 
             <div className={styles.typesGrid}>
               {category.productTypes.map((type, index) => (
-                <motion.div
+                <div
                   key={type.name}
-                  className={styles.typeCard}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className={`${styles.typeCard} animate-fade-up animate-delay-${Math.min(index + 1, 6)} ${typesVisible ? 'is-visible' : ''}`}
                 >
                   <h3 className={styles.typeName}>{type.name}</h3>
                   <p className={styles.typeDescription}>{type.description}</p>
@@ -250,7 +238,7 @@ export default function CategoryPage({ slug }) {
                       Cere ofertă <ArrowRight size={16} />
                     </Link>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
