@@ -301,7 +301,7 @@ export default function ContactPage() {
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <div className={styles.infoCard}>
-                  <h3>Informații Contact</h3>
+                  <h2>Informații Contact</h2>
                   
                   <div className={styles.infoItem}>
                     <div className={styles.infoIcon}>
@@ -353,7 +353,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className={styles.whyCard}>
-                  <h3>De ce să ne alegi?</h3>
+                  <h2>De ce să ne alegi?</h2>
                   <ul>
                     <li>
                       <Check size={18} />

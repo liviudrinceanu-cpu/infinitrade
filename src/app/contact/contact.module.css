@@ -196,8 +196,8 @@
   padding: 32px;
 }
 
-.infoCard h3,
-.whyCard h3 {
+.infoCard h2,
+.whyCard h2 {
   font-size: 20px;
   font-weight: 600;
   color: var(--black);
