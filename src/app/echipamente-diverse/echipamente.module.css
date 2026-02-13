@@ -1,0 +1,121 @@
+.container {
+  max-width: var(--container-wide);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.breadcrumbWrapper {
+  padding: 120px 0 0;
+  background: var(--gray-50);
+}
+
+.hero {
+  padding: 40px 0 60px;
+  background: var(--gray-50);
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 16px;
+}
+
+.heroDescription {
+  font-size: 17px;
+  color: var(--gray-600);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.categoriesSection {
+  padding: 60px 0 80px;
+  background: white;
+}
+
+.categoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+}
+
+.categoryCard {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--gray-200);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+.categoryCardHeader {
+  padding: 24px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoryName {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.categoryBrandCount {
+  font-size: 13px;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.categoryCardBody {
+  padding: 20px 24px 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryDescription {
+  font-size: 14px;
+  color: var(--gray-600);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.categoryBrands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.brandTag {
+  font-size: 11px;
+  padding: 3px 8px;
+  background: var(--gray-100);
+  border-radius: 4px;
+  color: var(--gray-700);
+}
+
+.viewMore {
+  margin-top: auto;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .categoriesGrid {
+    grid-template-columns: 1fr;
+  }
+}

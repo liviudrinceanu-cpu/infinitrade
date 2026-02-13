@@ -1,4 +1,4 @@
-import { categories, allBrands } from '@/data/products';
+import { allCategoriesUnified as categories, allBrandsUnified } from '@/data/allBrandsIndex';
 import { blogArticles } from '@/data/blog';
 import { caseStudies } from '@/data/caseStudies';
 import { config } from '@/lib/config';
@@ -107,6 +107,12 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/echipamente-diverse`,
+      lastModified: staticDate,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ];
 
   // Category pages
@@ -118,13 +124,13 @@ export default function sitemap() {
     ...(category.image && { images: [`${BASE_URL}${category.image}`] }),
   }));
 
-  // Brand pages
-  const brandPages = allBrands.map((brand) => ({
-    url: `${BASE_URL}/brand/${brand.slug}`,
+  // Brand pages (unified, simple slugs)
+  const brandPages = allBrandsUnified.map((brand) => ({
+    url: `${BASE_URL}/brand/${brand.simpleSlug}`,
     lastModified: staticDate,
     changeFrequency: 'weekly',
     priority: 0.8,
-    ...(brand.logo && { images: [`${BASE_URL}${brand.logo}`] }),
+    ...(brand.logo && brand.logo !== '/brands/placeholder.png' && { images: [`${BASE_URL}${brand.logo}`] }),
   }));
 
   // Industry pages (to be added later)
