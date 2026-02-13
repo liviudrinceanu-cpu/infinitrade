@@ -821,7 +821,7 @@ Echipamentele ATEX costa mai mult - de la +30% pana la +100% fata de variantele 
 
 Daca nu esti sigur de clasificarea zonei sau de ce echipament ai nevoie, vorbeste cu specialistul in SSM din firma sau cu o firma autorizata pentru clasificari ATEX. Noi te putem ajuta cu echipamentele - vezi gama de [robineti industriali ATEX](/robineti-industriali) pe site - dar clasificarea zonelor e responsabilitatea operatorului.
     `,
-    author: 'Mihai Radu, Inginer Aplicații',
+    author: 'M.R., Inginer Aplicații',
     authorId: 'mihai-radu',
     date: '2025-11-20',
     dateModified: '2026-01-24',
