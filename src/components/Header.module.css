@@ -65,6 +65,8 @@
   align-items: center;
   padding: 20px 0;
   gap: 24px;
+  position: relative;
+  z-index: 10;
 }
 
 /* Logo - cropped and larger */
