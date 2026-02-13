@@ -65,7 +65,7 @@ Conform SR EN 16480, pompele noi trebuie sa respecte clase de eficienta. Merita 
 
 ## Hai sa simplificam
 
-Daca tot ce ai citit pare complicat - nu te stresa. Trimite-ne parametrii procesului si ne ocupam noi de dimensionare. Am lucrat cu toate brandurile majore - [Grundfos](/brand/pompe-industriale-grundfos), [Wilo](/brand/pompe-industriale-wilo), [KSB](/brand/pompe-industriale-ksb) - si putem recomanda exact ce ai nevoie. Facem asta de 15 ani, e gratis, si raspundem de obicei in 24 de ore.
+Daca tot ce ai citit pare complicat - nu te stresa. Trimite-ne parametrii procesului si ne ocupam noi de dimensionare. Am lucrat cu toate brandurile majore - [Grundfos](/brand/grundfos), [Wilo](/brand/wilo), [KSB](/brand/ksb) - si putem recomanda exact ce ai nevoie. Facem asta de 15 ani, e gratis, si raspundem de obicei in 24 de ore.
     `,
     author: 'Adrian Ionescu, Director Tehnic',
     authorId: 'adrian-ionescu',
@@ -86,7 +86,7 @@ Daca tot ce ai citit pare complicat - nu te stresa. Trimite-ne parametrii proces
     content: `
 Primim des intrebarea: "Care e cel mai bun motor?". Raspunsul corect e: depinde. Si nu, nu e un raspuns de evitare (desi suna asa) - chiar depinde de aplicatie, de buget, si de ce fel de suport ai nevoie dupa.
 
-Lucram cu [motoare electrice](/motoare-electrice) de la [Siemens](/brand/motoare-electrice-industriale-siemens), [ABB](/brand/motoare-electrice-industriale-abb) si [SEW](/brand/motoare-electrice-industriale-sew) de peste 10 ani - am montat mii de motoare, am vazut ce se defecteaza si ce rezista (si am avut si surprize, sa fim sinceri). Iata ce am observat.
+Lucram cu [motoare electrice](/motoare-electrice) de la [Siemens](/brand/siemens), [ABB](/brand/abb) si [SEW](/brand/sew-eurodrive) de peste 10 ani - am montat mii de motoare, am vazut ce se defecteaza si ce rezista (si am avut si surprize, sa fim sinceri). Iata ce am observat.
 
 ## Siemens
 
@@ -151,9 +151,9 @@ Cifrele sunt aproape identice, ceea ce spune ceva. Toate trei sunt branduri de c
 ## Deci care e "cel mai bun"?
 
 Depinde de ce conteaza pentru tine:
-- **Documentatie si integrare** → [Siemens](/brand/motoare-electrice-industriale-siemens)
-- **Pret si ATEX** → [ABB](/brand/motoare-electrice-industriale-abb)
-- **Motoreductoare si service rapid** → [SEW](/brand/motoare-electrice-industriale-sew)
+- **Documentatie si integrare** → [Siemens](/brand/siemens)
+- **Pret si ATEX** → [ABB](/brand/abb)
+- **Motoreductoare si service rapid** → [SEW](/brand/sew-eurodrive)
 
 Daca nu stii ce sa alegi, spune-ne aplicatia si iti recomandam noi. Vezi [gama completa de motoare electrice](/motoare-electrice) pe site. Nu avem interes sa iti vindem un brand sau altul - marjele sunt similare.
     `,
@@ -224,7 +224,7 @@ Dar trebuie sa masori inainte. Fara masuratori, nu stii cat pierzi si nu poti es
 
 ## Vrei sa stii daca merita la tine?
 
-Facem audit energetic gratuit pentru sistemele de pompare. Venim, masuram, calculam. Lucram cu toate brandurile majore - [Grundfos](/brand/pompe-industriale-grundfos), [Wilo](/brand/pompe-industriale-wilo) - si putem recomanda exact ce ai nevoie. Daca nu merita investitia, iti spunem cinstit - n-avem de castigat din recomandari care nu se justifica.
+Facem audit energetic gratuit pentru sistemele de pompare. Venim, masuram, calculam. Lucram cu toate brandurile majore - [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) - si putem recomanda exact ce ai nevoie. Daca nu merita investitia, iti spunem cinstit - n-avem de castigat din recomandari care nu se justifica.
     `,
     author: 'Adrian Ionescu, Director Tehnic',
     authorId: 'adrian-ionescu',
@@ -304,7 +304,7 @@ La robineti bila, atentie la materialul sferei si al garniturilor:
 - **Garnitura PTFE** - standard industrial
 - **Garnitura metal-metal** - pentru temperaturi foarte mari
 
-Lucram cu branduri premium precum [Spirax Sarco](/brand/robineti-industriali-spirax-sarco) pentru aplicatii de abur si [Danfoss](/brand/robineti-reglare-industriali-danfoss) pentru reglare.
+Lucram cu branduri premium precum [Spirax Sarco](/brand/spirax-sarco) pentru aplicatii de abur si [Danfoss](/brand/danfoss) pentru reglare.
 
 ## Pe scurt
 
@@ -393,7 +393,7 @@ Am creat un checklist pe care il folosim intern:
 
 ## Cat costa mentenanta vs. defectarea
 
-Am facut calculul pentru o [pompa Grundfos](/brand/pompe-industriale-grundfos) CR de 15 kW:
+Am facut calculul pentru o [pompa Grundfos](/brand/grundfos) CR de 15 kW:
 
 **Cu mentenanta preventiva:**
 - Service anual: aproximativ 800 EUR
@@ -406,7 +406,7 @@ Am facut calculul pentru o [pompa Grundfos](/brand/pompe-industriale-grundfos) C
 - Durata de viata: 6-8 ani
 - Cost total: 15.000-20.000 EUR + stres
 
-Calculul e clar. Acelasi principiu se aplica si pentru [pompe Wilo](/brand/pompe-industriale-wilo) sau [KSB](/brand/pompe-industriale-ksb).
+Calculul e clar. Acelasi principiu se aplica si pentru [pompe Wilo](/brand/wilo) sau [KSB](/brand/ksb).
 
 ## Un ultim sfat
 
@@ -445,7 +445,7 @@ Partea mai putin placuta: nu le poti demonta sa le cureti manual - doar chimic. 
 
 **Foloseste pentru:** HVAC, racire ulei hidraulic, pompe de caldura, procese curate.
 
-**Branduri cu care lucram:** SWEP ([Alfa Laval](/brand/schimbatoare-caldura-industriale-alfa-laval)), Danfoss, [Kelvion](/brand/schimbatoare-caldura-industriale-kelvion).
+**Branduri cu care lucram:** SWEP ([Alfa Laval](/brand/alfa-laval)), Danfoss, [Kelvion](/brand/kelvion).
 
 ### Placi demontabile (PHE)
 
@@ -503,7 +503,7 @@ Fara aceste date, orice dimensionare e ghicire.
 
 Inainte sa cumperi un [schimbator de caldura](/schimbatoare-caldura) de la un brand obscur care pare ieftin, intreaba cat costa garniturile de schimb si care e disponibilitatea. Am vazut clienti care au economisit 20% la achizitie si apoi au asteptat 8 saptamani pentru garnituri din China.
 
-[Alfa Laval](/brand/schimbatoare-caldura-industriale-alfa-laval), [Kelvion](/brand/schimbatoare-caldura-industriale-kelvion), SWEP au piese disponibile rapid in Europa. Merita diferenta de pret.
+[Alfa Laval](/brand/alfa-laval), [Kelvion](/brand/kelvion), SWEP au piese disponibile rapid in Europa. Merita diferenta de pret.
     `,
     author: 'Dan Munteanu, Inginer Proiectare',
     authorId: 'dan-munteanu',
@@ -532,7 +532,7 @@ Date tehnice: presiune pana la 500 mbar, debit 10-2.000 m³/h, functionare fara 
 
 Le vezi in: statii de epurare mici si medii, transport pneumatic pentru granule si pulberi, aspiratie industriala, masini de ambalat.
 
-De ce ne plac: simplitate si fiabilitate. Un [Becker](/brand/suflante-industriale-becker) sau [FPZ](/brand/suflante-industriale-fpz) bun poate merge 10-15 ani fara batai de cap - practic doar schimbi filtrul din cand in cand.
+De ce ne plac: simplitate si fiabilitate. Un [Becker](/brand/becker) sau [FPZ](/brand/fpz) bun poate merge 10-15 ani fara batai de cap - practic doar schimbi filtrul din cand in cand.
 
 Un avertisment: nu le place praful. Daca aerul aspirat contine particule, monteaza filtru bun. Altfel, paletele se uzeaza mult mai repede decat ar trebui.
 
@@ -699,7 +699,7 @@ Preventiv:
 
 ## Unde gasesti piese
 
-Avem in stoc garnituri pentru [Grundfos](/brand/pompe-industriale-grundfos), [Wilo](/brand/pompe-industriale-wilo), [KSB](/brand/pompe-industriale-ksb) - modelele curente. Pentru alte marci sau modele mai vechi, comandam de la Burgmann sau John Crane, livrare de obicei in 5-7 zile.
+Avem in stoc garnituri pentru [Grundfos](/brand/grundfos), [Wilo](/brand/wilo), [KSB](/brand/ksb) - modelele curente. Pentru alte marci sau modele mai vechi, comandam de la Burgmann sau John Crane, livrare de obicei in 5-7 zile.
 
 Sfat: cand comanzi, spune modelul exact de pompa si daca se poate, trimite poza cu garnitura veche. Exista multe variante si e usor sa comanzi gresit.
     `,
@@ -785,7 +785,7 @@ Exemplu: **II 2G Ex d IIB T4 Gb**
 ## Ce vindem noi
 
 **[Motoare electrice](/motoare-electrice) ATEX:**
-- [Siemens](/brand/motoare-electrice-industriale-siemens) 1LE1/1MB1 - gama completa Ex d
+- [Siemens](/brand/siemens) 1LE1/1MB1 - gama completa Ex d
 - ABB M3BP - bun raport calitate-pret
 - Brook Crompton - specialist in ATEX, multe configuratii in stoc
 
@@ -838,7 +838,7 @@ Daca nu esti sigur de clasificarea zonei sau de ce echipament ai nevoie, vorbest
     shortTitle: 'Grundfos vs Wilo: Comparatie',
     excerpt: 'Suntem distribuitori pentru ambele branduri. Nu avem favorit. Iata diferentele reale pe care le vedem.',
     content: `
-E probabil cea mai frecventa intrebare pe care o primim despre [pompe industriale](/pompe-industriale): "[Grundfos](/brand/pompe-industriale-grundfos) sau [Wilo](/brand/pompe-industriale-wilo)?". Si pentru ca vindem ambele branduri, suntem intr-o pozitie buna sa raspundem obiectiv - nu avem interes sa iti vindem una in defavoarea celeilalte.
+E probabil cea mai frecventa intrebare pe care o primim despre [pompe industriale](/pompe-industriale): "[Grundfos](/brand/grundfos) sau [Wilo](/brand/wilo)?". Si pentru ca vindem ambele branduri, suntem intr-o pozitie buna sa raspundem obiectiv - nu avem interes sa iti vindem una in defavoarea celeilalte.
 
 Raspunsul scurt: ambele sunt excelente. Diferentele sunt in detalii.
 
@@ -898,12 +898,12 @@ Aici e aproape egal. Alege dupa disponibilitate si pret.
 
 Nu avem o recomandare generala. Depinde de:
 
-**Alege [Grundfos](/brand/pompe-industriale-grundfos) daca:**
+**Alege [Grundfos](/brand/grundfos) daca:**
 - Ai nevoie de documentatie tehnica detaliata pentru proiect
 - E o aplicatie critica unde nu vrei surprize
 - Ai deja ecosistem Grundfos si vrei piese compatibile
 
-**Alege [Wilo](/brand/pompe-industriale-wilo) daca:**
+**Alege [Wilo](/brand/wilo) daca:**
 - Bugetul e strans dar nu vrei sa cobori calitatea
 - Ai nevoie de service rapid si piese disponibile imediat
 - E o aplicatie HVAC standard
@@ -1016,7 +1016,7 @@ Am lucrat cu clienti care au trecut de la "verificam cand se defecteaza" la veri
 
 ## Branduri recomandate
 
-**[Spirax Sarco](/brand/robineti-industriali-spirax-sarco)** - liderul mondial. Oale pentru orice aplicatie, documentatie excelenta, piese disponibile.
+**[Spirax Sarco](/brand/spirax-sarco)** - liderul mondial. Oale pentru orice aplicatie, documentatie excelenta, piese disponibile.
 
 **Gestra (acum parte din Flowserve)** - calitate germana, foarte fiabile.
 
@@ -1096,8 +1096,8 @@ Motoarele vechi pot avea probleme cu alimentarea de la VFD (izolatia sufera de l
 Puterea VFD-ului trebuie sa fie cel putin egala cu cea a motorului. La aplicatii cu porniri grele sau suprasarcini temporare, supradimensioneaza cu 20-30%.
 
 Branduri cu care lucram si in care avem incredere:
-- **[Siemens](/brand/motoare-electrice-industriale-siemens) SINAMICS G120** - gama completa, integrare excelenta
-- **[ABB](/brand/motoare-electrice-industriale-abb) ACS580** - fiabil, bun raport calitate-pret
+- **[Siemens](/brand/siemens) SINAMICS G120** - gama completa, integrare excelenta
+- **[ABB](/brand/abb) ACS580** - fiabil, bun raport calitate-pret
 - **Danfoss VLT** - specializat pe pompe si HVAC
 
 ### Instalare corecta
@@ -1153,7 +1153,7 @@ Venim la tine, masuram, calculam si iti spunem sincer daca are sens. Vezi gama c
     shortTitle: 'Alfa Laval vs Kelvion',
     excerpt: 'Doi producatori de top in schimbatoare de caldura. Care e mai bun? Depinde de ce cauti.',
     content: `
-[Alfa Laval](/brand/schimbatoare-caldura-industriale-alfa-laval) si [Kelvion](/brand/schimbatoare-caldura-industriale-kelvion) sunt cei mai importanti producatori de [schimbatoare de caldura](/schimbatoare-caldura) la nivel mondial. Lucram cu ambele de ani de zile si putem spune ca nu exista un castigator clar - fiecare are punctele forte.
+[Alfa Laval](/brand/alfa-laval) si [Kelvion](/brand/kelvion) sunt cei mai importanti producatori de [schimbatoare de caldura](/schimbatoare-caldura) la nivel mondial. Lucram cu ambele de ani de zile si putem spune ca nu exista un castigator clar - fiecare are punctele forte.
 
 ## Alfa Laval
 
@@ -1227,9 +1227,9 @@ Pentru orice brand, recomandam sa ai cel putin un set de garnituri de rezerva in
 
 Depinde. Serios, depinde.
 
-[Alfa Laval](/brand/schimbatoare-caldura-industriale-alfa-laval) daca: faci alimentar, vrei premium, bugetul nu-i chiar strans.
+[Alfa Laval](/brand/alfa-laval) daca: faci alimentar, vrei premium, bugetul nu-i chiar strans.
 
-[Kelvion](/brand/schimbatoare-caldura-industriale-kelvion) daca: esti in industrie grea, ai buget limitat, ai nevoie de ceva non-standard.
+[Kelvion](/brand/kelvion) daca: esti in industrie grea, ai buget limitat, ai nevoie de ceva non-standard.
 
 Sau ne intrebi pe noi - vezi gama completa de [schimbatoare de caldura](/schimbatoare-caldura) pe site si iti trimitem oferte de la ambii si decizi tu.
     `,
@@ -1376,7 +1376,7 @@ Legislatia europeana (Ecodesign) impinge si ea in aceasta directie. De la 1 iuli
 
 ## Digitalizarea - in crestere, dar lenta
 
-Producatorii mari ([Grundfos](/brand/pompe-industriale-grundfos), Siemens, ABB) investesc masiv in echipamente conectate. iSOLUTIONS, MindSphere, ABB Ability - platforme care monitorizeaza echipamentele in timp real.
+Producatorii mari ([Grundfos](/brand/grundfos), Siemens, ABB) investesc masiv in echipamente conectate. iSOLUTIONS, MindSphere, ABB Ability - platforme care monitorizeaza echipamentele in timp real.
 
 **Ce vedem concret:**
 - Clientii mari (multinationale) implementeaza sisteme de monitorizare pentru [schimbatoare de caldura](/schimbatoare-caldura) si [pompe](/pompe-industriale)

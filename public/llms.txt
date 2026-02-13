@@ -12,12 +12,28 @@
 - [Certifications](https://infinitrade.ro/certificari)
 - [FAQ](https://infinitrade.ro/faq)
 
-## Product Categories
-- [Industrial Pumps](https://infinitrade.ro/pompe-industriale) - Grundfos, Wilo, KSB, Lowara, Ebara, Sulzer, Netzsch, Brinkmann, Becker, DAB
-- [Industrial Valves](https://infinitrade.ro/robineti-industriali) - ARI Armaturen, Spirax Sarco, Ebro Armaturen, End Armaturen, Danfoss, Gestra Flowserve, Leser, Samson, Mankenberg
-- [Electric Motors](https://infinitrade.ro/motoare-electrice) - Siemens, SEW Eurodrive, ABB, Bonfiglioli, Marelli, Brook Crompton, WEG, Nord, Leroy Somer
-- [Heat Exchangers](https://infinitrade.ro/schimbatoare-caldura) - Alfa Laval, Kelvion, SWEP, Danfoss, Funke, Emmegi
-- [Blowers & Fans](https://infinitrade.ro/suflante-ventilatoare) - Becker, FPZ, Ziehl Abegg, Gardner Denver, Elmo Rietschle, Elektror, Aerzen
+## Product Categories (15 categories, 238+ brands)
+### Core Categories (5)
+- [Industrial Pumps](https://infinitrade.ro/pompe-industriale) - Grundfos, Wilo, KSB, Lowara, Ebara, Sulzer, Netzsch, Brinkmann, Becker, DAB (41+ brands)
+- [Industrial Valves](https://infinitrade.ro/robineti-industriali) - ARI Armaturen, Spirax Sarco, Ebro Armaturen, End Armaturen, Danfoss, Gestra Flowserve, Leser, Samson, Mankenberg (29+ brands)
+- [Electric Motors](https://infinitrade.ro/motoare-electrice) - Siemens, SEW Eurodrive, ABB, Bonfiglioli, Marelli, Brook Crompton, WEG, Nord, Leroy Somer (26+ brands)
+- [Heat Exchangers](https://infinitrade.ro/schimbatoare-caldura) - Alfa Laval, Kelvion, SWEP, Danfoss, Funke, Emmegi (18+ brands)
+- [Blowers & Fans](https://infinitrade.ro/suflante-ventilatoare) - Becker, FPZ, Ziehl Abegg, Gardner Denver, Elmo Rietschle, Elektror, Aerzen (17+ brands)
+
+### Additional Equipment Categories (10)
+- [Industrial Automation](https://infinitrade.ro/automatizari-industriale) - Siemens, ABB, Schneider Electric, Mitsubishi, Rockwell Automation. PLC, HMI, SCADA, actuators, industrial relays (15+ brands, 5000+ products)
+- [Sensors & Instrumentation](https://infinitrade.ro/senzori-instrumentatie) - Endress+Hauser, WIKA, Siemens, Emerson. Pressure, temperature, flow, level measurement (20+ brands, 8000+ products)
+- [Hydraulic & Pneumatic Components](https://infinitrade.ro/componente-hidraulice-pneumatice) - Parker, Bosch Rexroth, Festo, SMC. Cylinders, valves, pumps, hoses (15+ brands, 12000+ products)
+- [Electrical Equipment & Automation](https://infinitrade.ro/echipamente-electrice) - Siemens, ABB, Schneider Electric, Eaton. Circuit breakers, contactors, VFDs, cables (20+ brands, 15000+ products)
+- [Mechanical Components & Transmissions](https://infinitrade.ro/componente-mecanice) - SKF, FAG, NSK, Timken, Gates. Bearings, belts, chains, seals, couplings (15+ brands, 20000+ products)
+- [Filters & Industrial Consumables](https://infinitrade.ro/filtre-consumabile) - Mann+Hummel, Donaldson, Parker, Hydac. Hydraulic, air, oil filters (12+ brands, 8000+ products)
+- [Tools & Measuring Instruments](https://infinitrade.ro/scule-instrumente) - Bosch Professional, Hilti, Makita, Mitutoyo. Power tools, pneumatic tools, precision measuring (10+ brands, 5000+ products)
+- [Thermal & HVAC Equipment](https://infinitrade.ro/echipamente-termice) - Carrier, Daikin, Trane, Grundfos HVAC. Chillers, boilers, fan heaters, AC systems (8+ brands, 2000+ products)
+- [Lubricants & Industrial Chemicals](https://infinitrade.ro/lubrifianti-chimice) - Shell, Mobil, Castrol, Klüber. Hydraulic oils, greases, adhesives, coolants (8+ brands, 1500+ products)
+- [Auxiliary Equipment & Safety](https://infinitrade.ro/echipamente-auxiliare) - 3M Safety, Dräger, MSA, Kärcher Industrial. PPE, industrial cleaning, dosing systems, tanks (8+ brands, 3000+ products)
+
+### Equipment Landing Page
+- [Diverse Industrial Equipment](https://infinitrade.ro/echipamente-diverse) - Browse all 10 additional equipment categories with detailed specifications and pricing
 
 ## Guides & Resources
 - [Technical Blog](https://infinitrade.ro/blog) - Expert guides on industrial equipment selection and maintenance
@@ -55,7 +71,10 @@ We serve 15+ industries including:
 - Registration: J35/2901/2009
 - Employees: 16
 - Location: Ghiroda, Timiș, Romania
-- Brands: 500+ international brands
+- Brands: 238+ international brands (expanded portfolio)
+- Product Categories: 15 (5 core + 10 additional equipment)
+- Total Products: 80000+ SKUs
+- Pages: ~359 (categories, brands, industries, guides, blog)
 - Clients: 800+ active industrial customers
 - SEAP/SICAP: Registered supplier for public procurement
 - Certifications: ISO 9001:2015, Authorized Distributors
