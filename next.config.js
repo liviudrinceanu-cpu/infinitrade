@@ -87,7 +87,7 @@ const nextConfig = {
           },
           {
             key: 'Cross-Origin-Embedder-Policy',
-            value: 'credentialless'
+            value: 'unsafe-none'
           },
           {
             key: 'Strict-Transport-Security',
