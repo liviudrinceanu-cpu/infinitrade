@@ -10,11 +10,16 @@ import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './brand.module.css';
 
-export default function BrandPageClient({ brand, category }) {
+export default function BrandPageClient({ brand, allCategories }) {
   const [heroRef, heroVisible] = useIntersectionObserver();
   const [productsRef, productsVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
   const [addedAnimation, setAddedAnimation] = useState(null);
+  const [activeCategory, setActiveCategory] = useState(0);
+
+  // Current category from brand's categories
+  const category = brand.categories[activeCategory];
+  const productTypes = category.productTypes || [];
 
   const handleAddToCart = (item) => {
     const success = addItem(item);
@@ -48,8 +53,18 @@ export default function BrandPageClient({ brand, category }) {
                 {brand.name}
               </h1>
               <p className={styles.heroSubtitle}>
-                Distribuitor Autorizat • {brand.country}
+                Distribuitor Autorizat &bull; {brand.country}
               </p>
+
+              {/* Category badges for multi-category brands */}
+              {brand.categories.length > 1 && (
+                <div className={styles.categoryBadges}>
+                  {brand.categories.map((cat) => (
+                    <span key={cat.slug} className={styles.categoryBadge}>{cat.name}</span>
+                  ))}
+                </div>
+              )}
+
               <p className={styles.heroDescription}>
                 {brand.description}. Oferim gama completa de produse {brand.name}, piese de schimb originale si suport tehnic specializat.
               </p>
@@ -61,7 +76,7 @@ export default function BrandPageClient({ brand, category }) {
                     type: 'brand',
                     name: brand.name,
                     category: category.name,
-                    url: `/brand/${brand.slug}`
+                    url: `/brand/${brand.simpleSlug}`
                   })}
                 >
                   {isInCart(brand.name) ? (
@@ -138,11 +153,11 @@ export default function BrandPageClient({ brand, category }) {
               </div>
               <div className={styles.aboutStats}>
                 <div className={styles.statCard}>
-                  <span className={styles.statValue}>{category.stats.brands}+</span>
+                  <span className={styles.statValue}>{category.stats?.brands || '10+'}+</span>
                   <span className={styles.statLabel}>Branduri</span>
                 </div>
                 <div className={styles.statCard}>
-                  <span className={styles.statValue}>{category.stats.products}+</span>
+                  <span className={styles.statValue}>{category.stats?.products || '500+'}+</span>
                   <span className={styles.statLabel}>Produse</span>
                 </div>
                 <div className={styles.statCard}>
@@ -158,15 +173,34 @@ export default function BrandPageClient({ brand, category }) {
           </div>
         </section>
 
+        {/* Category Tabs (only for multi-category brands) */}
+        {brand.categories.length > 1 && (
+          <section className={styles.categoryTabsSection}>
+            <div className={styles.container}>
+              <div className={styles.categoryTabs}>
+                {brand.categories.map((cat, index) => (
+                  <button
+                    key={cat.slug}
+                    className={`${styles.categoryTab} ${activeCategory === index ? styles.activeTab : ''}`}
+                    onClick={() => setActiveCategory(index)}
+                  >
+                    {cat.name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Product Types */}
         <section className={styles.productsSection} ref={productsRef}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
-              <h2>Produse {brand.name} Disponibile</h2>
+              <h2>Produse {brand.name} - {category.name}</h2>
               <p>Selecteaza produsele de care ai nevoie si solicita oferta</p>
             </div>
             <div className={styles.productsGrid}>
-              {category.productTypes.map((type, index) => (
+              {productTypes.map((type, index) => (
                 <div
                   key={type.slug}
                   className={`${styles.productCard} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${productsVisible ? 'is-visible' : ''}`}
@@ -175,7 +209,7 @@ export default function BrandPageClient({ brand, category }) {
                     <h3>{type.name}</h3>
                     <p>{type.description}</p>
                     <div className={styles.applications}>
-                      {type.applications.slice(0, 3).map(app => (
+                      {(type.applications || []).slice(0, 3).map(app => (
                         <span key={app} className={styles.appTag}>{app}</span>
                       ))}
                     </div>
@@ -262,27 +296,36 @@ export default function BrandPageClient({ brand, category }) {
           </div>
         </section>
 
-        {/* Related Brands */}
+        {/* Related Brands (from current active category) */}
         <section className={styles.relatedSection}>
           <div className={styles.container}>
             <h2>Alte Branduri in {category.name}</h2>
             <div className={styles.relatedGrid}>
-              {category.brands
-                .filter(b => b.slug !== brand.slug)
+              {allCategories
+                .find(c => c.slug === category.slug)
+                ?.brands
+                ?.filter(b => {
+                  // Filter out current brand by comparing names
+                  return b.name !== brand.name;
+                })
                 .slice(0, 5)
-                .map(relatedBrand => (
-                  <Link
-                    key={relatedBrand.slug}
-                    href={`/brand/${relatedBrand.slug}`}
-                    className={styles.relatedCard}
-                  >
-                    <div className={styles.relatedInfo}>
-                      <span className={styles.relatedName}>{relatedBrand.name}</span>
-                      <span className={styles.relatedCountry}>{relatedBrand.country}</span>
-                    </div>
-                    <ArrowRight size={16} />
-                  </Link>
-                ))}
+                .map(relatedBrand => {
+                  // Determine link: simple slug for new categories, original slug for old
+                  const href = `/brand/${relatedBrand.slug}`;
+                  return (
+                    <Link
+                      key={relatedBrand.slug}
+                      href={href}
+                      className={styles.relatedCard}
+                    >
+                      <div className={styles.relatedInfo}>
+                        <span className={styles.relatedName}>{relatedBrand.name}</span>
+                        <span className={styles.relatedCountry}>{relatedBrand.country}</span>
+                      </div>
+                      <ArrowRight size={16} />
+                    </Link>
+                  );
+                })}
             </div>
           </div>
         </section>

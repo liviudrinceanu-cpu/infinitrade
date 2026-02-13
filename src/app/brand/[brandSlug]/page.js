@@ -1,34 +1,35 @@
 import { notFound } from 'next/navigation';
-import { allBrands, categories } from '@/data/products';
+import { allCategoriesUnified, getBrandByAnySlug, getAllBrandSlugs } from '@/data/allBrandsIndex';
 import { config } from '@/lib/config';
 import BrandPageClient from './BrandPageClient';
 
-// Generate static params for all brand pages
+// Generate static params for all brand pages (simple slugs)
 export async function generateStaticParams() {
-  return allBrands.map((brand) => ({
-    brandSlug: brand.slug,
+  return getAllBrandSlugs().map((slug) => ({
+    brandSlug: slug,
   }));
 }
 
 // Generate dynamic metadata for SEO
 export async function generateMetadata({ params }) {
   const { brandSlug } = await params;
-  const brand = allBrands.find(b => b.slug === brandSlug);
-  const category = brand ? categories.find(c => c.slug === brand.category) : null;
+  const brand = getBrandByAnySlug(brandSlug);
 
-  if (!brand || !category) {
+  if (!brand) {
     return {
       title: 'Brand negăsit',
       description: 'Pagina căutată nu a fost găsită.',
     };
   }
 
+  // Use first category for primary SEO context
+  const primaryCategory = brand.categories[0];
+  const categoryNames = brand.categories.map(c => c.name).join(', ');
+
   const title = `${brand.name} | Distribuitor Autorizat Catalog 2026`;
   const description = `2026: Distribuitor autorizat ${brand.name} (${brand.country}). Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
 
-  // Generate comprehensive keywords based on brand, category, and products
   const baseKeywords = [
-    // Brand variations
     brand.name,
     `${brand.name} Romania`,
     `${brand.name} pret`,
@@ -38,39 +39,33 @@ export async function generateMetadata({ params }) {
     `${brand.name} piese schimb`,
     `${brand.name} service`,
     `${brand.name} catalog`,
-    // SEAP / SICAP / Public Procurement
     `${brand.name} SEAP`,
     `${brand.name} SICAP`,
     `${brand.name} licitatie`,
     `${brand.name} achizitii publice`,
     `furnizor ${brand.name} SEAP`,
-    `licitatie ${category.name.toLowerCase()} ${brand.name}`,
-    `${brand.name} fonduri europene`,
-    // Category + Brand combinations
-    `${category.name.toLowerCase()} ${brand.name}`,
-    `${brand.name} ${category.name.toLowerCase()}`,
-    // Product type keywords
-    ...category.productTypes.map(pt => `${pt.name.toLowerCase()} ${brand.name}`),
-    ...category.productTypes.map(pt => `${brand.name} ${pt.name.toLowerCase()}`),
-    // Application keywords
-    ...category.productTypes.flatMap(pt =>
-      pt.applications.slice(0, 2).map(app => `${brand.name} ${app.toLowerCase()}`)
+    // Keywords from all categories this brand belongs to
+    ...brand.categories.flatMap(cat => [
+      `${cat.name.toLowerCase()} ${brand.name}`,
+      `${brand.name} ${cat.name.toLowerCase()}`,
+      `licitatie ${cat.name.toLowerCase()} ${brand.name}`,
+    ]),
+    // Product type keywords from primary category
+    ...(primaryCategory.productTypes || []).map(pt => `${pt.name.toLowerCase()} ${brand.name}`),
+    ...(primaryCategory.productTypes || []).map(pt => `${brand.name} ${pt.name.toLowerCase()}`),
+    ...(primaryCategory.productTypes || []).flatMap(pt =>
+      (pt.applications || []).slice(0, 2).map(app => `${brand.name} ${app.toLowerCase()}`)
     ),
-    // Industry keywords
     `${brand.name} industrial`,
     `${brand.name} industrie`,
-    // Purchase intent
     `cumpara ${brand.name}`,
     `achizitie ${brand.name}`,
     `furnizor ${brand.name}`,
-    // General
     'echipamente industriale romania',
     'furnizor SEAP echipamente industriale',
-    `piese schimb ${category.name.toLowerCase()}`,
     brand.country,
   ];
 
-  // Remove duplicates and limit to 35 keywords
   const keywords = [...new Set(baseKeywords)].slice(0, 35);
 
   return {
@@ -80,7 +75,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title,
       description,
-      url: `${config.site.url}/brand/${brand.slug}`,
+      url: `${config.site.url}/brand/${brand.simpleSlug}`,
       siteName: 'Infinitrade Romania',
       locale: 'ro_RO',
       type: 'website',
@@ -91,7 +86,7 @@ export async function generateMetadata({ params }) {
       description,
     },
     alternates: {
-      canonical: `${config.site.url}/brand/${brand.slug}`,
+      canonical: `${config.site.url}/brand/${brand.simpleSlug}`,
     },
     robots: {
       index: true,
@@ -100,47 +95,48 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// Generate JSON-LD structured data
-function generateJsonLd(brand, category) {
-  // Generate Product entries for each product type
-  const productItems = category.productTypes.map((product, index) => ({
-    '@type': 'Product',
-    '@id': `${config.site.url}/brand/${brand.slug}#product-${product.slug}`,
-    name: `${product.name} ${brand.name}`,
-    description: product.description,
-    image: `${config.site.url}/logo-header.png`,
-    category: category.name,
-    brand: {
-      '@type': 'Brand',
-      name: brand.name,
-    },
-    manufacturer: {
-      '@type': 'Organization',
-      name: brand.name,
-      address: {
-        '@type': 'PostalAddress',
-        addressCountry: brand.country,
+// Generate JSON-LD structured data (multi-category aware)
+function generateJsonLd(brand) {
+  const primaryCategory = brand.categories[0];
+  const allProductItems = brand.categories.flatMap(cat =>
+    (cat.productTypes || []).map((product) => ({
+      '@type': 'Product',
+      '@id': `${config.site.url}/brand/${brand.simpleSlug}#product-${product.slug}`,
+      name: `${product.name} ${brand.name}`,
+      description: product.description,
+      image: `${config.site.url}/logo-header.png`,
+      category: cat.name,
+      brand: {
+        '@type': 'Brand',
+        name: brand.name,
       },
-    },
-    offers: {
-      '@type': 'Offer',
-      priceCurrency: 'RON',
-      price: '0',
-      priceValidUntil: '2026-12-31',
-      availability: 'https://schema.org/InStock',
-      itemCondition: 'https://schema.org/NewCondition',
-      seller: {
+      manufacturer: {
         '@type': 'Organization',
-        name: 'Infinitrade Romania',
-        url: config.site.url,
+        name: brand.name,
+        address: {
+          '@type': 'PostalAddress',
+          addressCountry: brand.country,
+        },
       },
-    },
-  }));
+      offers: {
+        '@type': 'Offer',
+        priceCurrency: 'RON',
+        price: '0',
+        priceValidUntil: '2026-12-31',
+        availability: 'https://schema.org/InStock',
+        itemCondition: 'https://schema.org/NewCondition',
+        seller: {
+          '@type': 'Organization',
+          name: 'Infinitrade Romania',
+          url: config.site.url,
+        },
+      },
+    }))
+  );
 
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      // Organization
       {
         '@type': 'Organization',
         '@id': `${config.site.url}/#organization`,
@@ -164,7 +160,6 @@ function generateJsonLd(brand, category) {
           availableLanguage: ['Romanian', 'English'],
         },
       },
-      // BreadcrumbList
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
@@ -177,24 +172,23 @@ function generateJsonLd(brand, category) {
           {
             '@type': 'ListItem',
             position: 2,
-            name: category.name,
-            item: `${config.site.url}/${category.slug}`,
+            name: primaryCategory.name,
+            item: `${config.site.url}/${primaryCategory.slug}`,
           },
           {
             '@type': 'ListItem',
             position: 3,
             name: brand.name,
-            item: `${config.site.url}/brand/${brand.slug}`,
+            item: `${config.site.url}/brand/${brand.simpleSlug}`,
           },
         ],
       },
-      // Main Product (Brand as product line)
       {
         '@type': 'ProductGroup',
-        '@id': `${config.site.url}/brand/${brand.slug}#brand-products`,
-        name: `${brand.name} ${category.name}`,
+        '@id': `${config.site.url}/brand/${brand.simpleSlug}#brand-products`,
+        name: `${brand.name} - ${brand.categories.map(c => c.name).join(', ')}`,
         description: `${brand.description}. Distribuitor autorizat ${brand.name} in Romania - produse originale, piese schimb, suport tehnic.`,
-        url: `${config.site.url}/brand/${brand.slug}`,
+        url: `${config.site.url}/brand/${brand.simpleSlug}`,
         image: `${config.site.url}/logo-header.png`,
         brand: {
           '@type': 'Brand',
@@ -208,15 +202,15 @@ function generateJsonLd(brand, category) {
             addressCountry: brand.country,
           },
         },
-        hasVariant: productItems,
-        productGroupID: brand.slug,
+        hasVariant: allProductItems.slice(0, 10),
+        productGroupID: brand.simpleSlug,
         offers: {
           '@type': 'AggregateOffer',
           priceCurrency: 'RON',
-          lowPrice: '0',
-          highPrice: '999999',
+          lowPrice: '100',
+          highPrice: '50000',
           availability: 'https://schema.org/InStock',
-          offerCount: productItems.length,
+          offerCount: allProductItems.length,
           seller: {
             '@type': 'Organization',
             name: 'Infinitrade Romania',
@@ -224,17 +218,16 @@ function generateJsonLd(brand, category) {
           },
         },
       },
-      // ItemList for product catalog
       {
         '@type': 'ItemList',
         name: `Produse ${brand.name} disponibile`,
-        description: `Lista completa produse ${brand.name} ${category.name.toLowerCase()} disponibile la Infinitrade Romania`,
-        numberOfItems: productItems.length,
-        itemListElement: category.productTypes.map((product, index) => ({
+        description: `Lista completa produse ${brand.name} disponibile la Infinitrade Romania`,
+        numberOfItems: allProductItems.length,
+        itemListElement: allProductItems.slice(0, 15).map((product, index) => ({
           '@type': 'ListItem',
           position: index + 1,
-          name: `${product.name} ${brand.name}`,
-          url: `${config.site.url}/${category.slug}#${product.slug}`,
+          name: product.name,
+          url: `${config.site.url}/brand/${brand.simpleSlug}`,
         })),
       },
     ],
@@ -243,14 +236,13 @@ function generateJsonLd(brand, category) {
 
 export default async function BrandPage({ params }) {
   const { brandSlug } = await params;
-  const brand = allBrands.find(b => b.slug === brandSlug);
-  const category = brand ? categories.find(c => c.slug === brand.category) : null;
+  const brand = getBrandByAnySlug(brandSlug);
 
-  if (!brand || !category) {
+  if (!brand) {
     notFound();
   }
 
-  const jsonLd = generateJsonLd(brand, category);
+  const jsonLd = generateJsonLd(brand);
 
   return (
     <>
@@ -258,7 +250,7 @@ export default async function BrandPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <BrandPageClient brand={brand} category={category} />
+      <BrandPageClient brand={brand} allCategories={allCategoriesUnified} />
     </>
   );
 }
