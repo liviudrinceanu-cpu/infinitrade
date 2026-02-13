@@ -267,6 +267,7 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#0990db" />
         <meta name="geo.region" content="RO-TM" />
         <meta name="geo.placename" content="Ghiroda, Timis" />
+        <meta name="p:domain_verify" content="625b8d95664e42f3035aadf5188814f7" />
 
         {/* DNS Prefetch for external resources - improves connection setup time */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
