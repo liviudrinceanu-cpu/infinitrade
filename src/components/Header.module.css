@@ -314,6 +314,7 @@
 /* Mega-Menu Wrapper */
 .megaMenuWrapper {
   position: relative;
+  z-index: 200;
 }
 
 .megaMenuDropdown {

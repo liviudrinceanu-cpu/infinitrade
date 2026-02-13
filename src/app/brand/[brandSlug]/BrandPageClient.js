@@ -10,6 +10,24 @@ import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './brand.module.css';
 
+// Strip category prefix from brand slug to get simple slug
+function toSimpleSlug(slug) {
+  const prefixes = [
+    'pompe-industriale-', 'pompe-vid-industriale-',
+    'robineti-industriali-', 'robineti-reglare-industriali-',
+    'regulatoare-presiune-industriale-', 'oale-condens-industriale-',
+    'supape-siguranta-industriale-', 'motoare-electrice-industriale-',
+    'motoare-atex-industriale-', 'schimbatoare-caldura-industriale-',
+    'racitoare-ulei-industriale-', 'suflante-industriale-',
+    'suflante-roots-industriale-', 'ventilatoare-industriale-',
+    'compresoare-industriale-',
+  ];
+  for (const prefix of prefixes) {
+    if (slug.startsWith(prefix)) return slug.slice(prefix.length);
+  }
+  return slug;
+}
+
 export default function BrandPageClient({ brand, allCategories }) {
   const [heroRef, heroVisible] = useIntersectionObserver();
   const [productsRef, productsVisible] = useIntersectionObserver();
@@ -153,11 +171,11 @@ export default function BrandPageClient({ brand, allCategories }) {
               </div>
               <div className={styles.aboutStats}>
                 <div className={styles.statCard}>
-                  <span className={styles.statValue}>{category.stats?.brands || '10+'}+</span>
+                  <span className={styles.statValue}>{category.stats?.brands || '10+'}</span>
                   <span className={styles.statLabel}>Branduri</span>
                 </div>
                 <div className={styles.statCard}>
-                  <span className={styles.statValue}>{category.stats?.products || '500+'}+</span>
+                  <span className={styles.statValue}>{category.stats?.products || '500+'}</span>
                   <span className={styles.statLabel}>Produse</span>
                 </div>
                 <div className={styles.statCard}>
@@ -310,8 +328,7 @@ export default function BrandPageClient({ brand, allCategories }) {
                 })
                 .slice(0, 5)
                 .map(relatedBrand => {
-                  // Determine link: simple slug for new categories, original slug for old
-                  const href = `/brand/${relatedBrand.slug}`;
+                  const href = `/brand/${toSimpleSlug(relatedBrand.slug)}`;
                   return (
                     <Link
                       key={relatedBrand.slug}
