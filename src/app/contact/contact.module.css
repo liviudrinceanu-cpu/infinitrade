@@ -337,7 +337,7 @@
 }
 
 .cartItemText small {
-  color: #888;
+  color: #636363;
   font-size: 11px;
 }
 
@@ -371,7 +371,7 @@
 }
 
 .cartItemCategory {
-  color: #888;
+  color: #636363;
   font-size: 11px;
 }
 
@@ -385,7 +385,7 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  color: #999;
+  color: #767676;
   transition: all 0.2s;
 }
 

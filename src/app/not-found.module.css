@@ -103,7 +103,7 @@
 
 .linkCard svg:last-child {
   flex-shrink: 0;
-  color: #999;
+  color: #767676;
   transition: transform 0.2s ease;
 }
 

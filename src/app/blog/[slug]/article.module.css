@@ -64,7 +64,7 @@
   flex-wrap: wrap;
   gap: 20px;
   font-size: 14px;
-  color: #888;
+  color: #636363;
 }
 
 .meta span {
@@ -301,7 +301,7 @@
   display: flex;
   gap: 12px;
   font-size: 12px;
-  color: #888;
+  color: #636363;
 }
 
 @media (max-width: 768px) {
