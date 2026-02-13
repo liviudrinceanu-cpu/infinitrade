@@ -14,6 +14,7 @@ export default function ContactPage() {
   const [heroRef, heroVisible] = useIntersectionObserver();
   const [formRef, formVisible] = useIntersectionObserver();
   const [infoRef, infoVisible] = useIntersectionObserver();
+  const [mapRef, mapVisible] = useIntersectionObserver();
   const { items: cartItems, removeItem, clearCart, getCartSummary } = useQuoteCart();
 
   const [formData, setFormData] = useState({
@@ -374,6 +375,30 @@ export default function ContactPage() {
                     </li>
                   </ul>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Map Section */}
+        <section className={styles.mapSection}>
+          <div className={styles.container}>
+            <div
+              ref={mapRef}
+              className={`${styles.mapWrapper} animate-fade-up ${mapVisible ? 'is-visible' : ''}`}
+            >
+              <div className={styles.mapHeader}>
+                <h2>Locația Noastră</h2>
+                <p>Calea Lugojului 47/B, Hala 3, Ghiroda, Timiș 307200</p>
+              </div>
+              <div className={styles.mapContainer}>
+                <iframe
+                  src="https://www.google.com/maps?q=Calea+Lugojului+47B,+Ghiroda,+Timis,+Romania&output=embed"
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Locația Driatheli Group SRL - Calea Lugojului 47/B, Ghiroda, Timiș"
+                />
               </div>
             </div>
           </div>

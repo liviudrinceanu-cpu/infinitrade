@@ -102,7 +102,7 @@ const nextConfig = {
               "img-src 'self' data: https: blob:",
               "font-src 'self' data:",
               "connect-src 'self' https://www.google-analytics.com https://vitals.vercel-insights.com https://vercel.live wss://ws-us3.pusher.com",
-              "frame-src 'self' https://vercel.live",
+              "frame-src 'self' https://vercel.live https://www.google.com https://maps.google.com",
               "frame-ancestors 'self'",
               "form-action 'self'",
               "base-uri 'self'",
