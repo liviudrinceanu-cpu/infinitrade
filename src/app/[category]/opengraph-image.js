@@ -179,7 +179,7 @@ export default async function Image({ params }) {
           }}
         >
           <span style={{ fontSize: 20, color: '#64748b' }}>
-            Distribuitor Autorizat Romania
+            Distribuitor Industrial Romania
           </span>
           <span style={{ fontSize: 20, color: '#0990DB', fontWeight: 600 }}>
             Livrare 24-72h

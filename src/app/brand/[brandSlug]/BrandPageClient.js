@@ -71,7 +71,7 @@ export default function BrandPageClient({ brand, allCategories }) {
                 {brand.name}
               </h1>
               <p className={styles.heroSubtitle}>
-                Distribuitor Autorizat &bull; {brand.country}
+                Furnizor în România &bull; {brand.country}
               </p>
 
               {/* Category badges for multi-category brands */}
@@ -165,7 +165,7 @@ export default function BrandPageClient({ brand, allCategories }) {
                   recunoscut pentru calitatea exceptionala si inovatia in domeniul {category.name.toLowerCase()}.
                 </p>
                 <p>
-                  Ca distribuitor autorizat {brand.name} in Romania, Infinitrade va ofera acces la intreaga gama de produse,
+                  Ca furnizor {brand.name} in Romania, Infinitrade va ofera acces la intreaga gama de produse,
                   consultanta tehnica specializata si service post-vanzare de inalta calitate.
                 </p>
               </div>

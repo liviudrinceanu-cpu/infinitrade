@@ -81,9 +81,9 @@ export default function DesprePage() {
                   din toată Europa. Când ai nevoie urgent de ceva, de obicei găsim o soluție - nu garantăm mereu, dar încercăm.
                 </p>
                 <p>
-                  Lucrăm cu peste <strong>500 de branduri internaționale</strong>: de la Grundfos și Wilo
-                  la pompe, Siemens și ABB la motoare, până la Alfa Laval pentru schimbătoare de căldură.
-                  Nu vindem orice - vindem ce știm că funcționează.
+                  Lucrăm cu peste <strong>400 de branduri internaționale din 15 categorii</strong>: de la Grundfos și Wilo
+                  la pompe, Siemens și ABB la motoare, Endress+Hauser la senzori, Parker la hidraulică,
+                  până la Schneider Electric pentru automatizări. Nu vindem orice - vindem ce știm că funcționează.
                 </p>
 
                 <h3>Ce Ne Diferențiază</h3>
@@ -102,7 +102,7 @@ export default function DesprePage() {
                 <ul className={styles.featureList}>
                   <li>
                     <CheckCircle size={20} />
-                    <span>Distribuitor autorizat pentru branduri premium</span>
+                    <span>Partener pentru branduri premium din întreaga lume</span>
                   </li>
                   <li>
                     <CheckCircle size={20} />

@@ -36,7 +36,7 @@ Inainte de orice catalog sau oferta, ai nevoie de raspunsuri la cateva intrebari
 
 NPSH inseamna Net Positive Suction Head. Pe scurt: pompa are nevoie de o anumita presiune la aspiratie ca sa functioneze fara cavitatie.
 
-Regula e simpla: NPSH disponibil (ce ai in instalatie) trebuie sa fie mai mare decat NPSH necesar (ce cere pompa) + o marja de siguranta de minim 0.5m.
+Regula e simpla: NPSH disponibil (ce ai in instalatie) trebuie sa fie mai mare decat NPSH necesar (ce cere pompa) + o marja de siguranta de minim 0.5m. Pentru monitorizarea constanta a presiunii, investeste in [senzori de monitorizare](/senzori-instrumentatie) de calitate.
 
 Cavitatia distruge rotoarele in cateva luni. Am vazut pompe de zeci de mii de euro casate pentru ca nimeni nu a verificat NPSH-ul la proiectare.
 
@@ -59,7 +59,7 @@ Dar daca ai fluide vascoase (peste 200 cP), ai nevoie de debite mici la presiuni
 
 Pompele consuma aproximativ 20% din energia industriala la nivel global. Nu e o statistica, e realitatea pe care o vedem in facturile clientilor.
 
-Un convertizor de frecventa pe o pompa de 22 kW care functioneaza 8000 ore/an poate economisi 5.000-8.000 EUR anual. Investitia se recupereaza in 1-2 ani.
+Un convertizor de frecventa pe o pompa de 22 kW care functioneaza 8000 ore/an poate economisi 5.000-8.000 EUR anual. Investitia se recupereaza in 1-2 ani. Pentru control optim, integreaza [automatizări cu convertizor de frecvență](/automatizari-industriale) in sistemele de pompare.
 
 Conform SR EN 16480, pompele noi trebuie sa respecte clase de eficienta. Merita sa verifici asta cand compari oferte.
 
@@ -93,7 +93,7 @@ Lucram cu [motoare electrice](/motoare-electrice) de la [Siemens](/brand/siemens
 **Ce ne place:**
 Documentatia tehnica e impecabila. Daca ai nevoie de o curba, un certificat, un desen CAD - gasesti totul online in 5 minute. Pentru proiecte unde trebuie sa justifici fiecare alegere, Siemens te scuteste de multe batai de cap.
 
-Integrarea cu automatizari Siemens (PLC-uri, HMI-uri) e fara cusur. Daca ai deja ecosistem Siemens in fabrica, nu are sens sa complici lucrurile.
+Integrarea cu [automatizari industriale](/automatizari-industriale) Siemens (PLC-uri, HMI-uri) e fara cusur. Daca ai deja ecosistem Siemens in fabrica, nu are sens sa complici lucrurile.
 
 Gama de eficienta IE4 si IE5 e extinsa. Pentru aplicatii unde motorul merge non-stop, diferenta de randament se simte in factura.
 
@@ -123,7 +123,7 @@ Catalogul de accesorii e mai restrans. Pentru montaje speciale, uneori trebuie s
 ## SEW Eurodrive
 
 **Ce ne place:**
-Sistemele motor-reductor integrate sunt domeniul lor de excelenta. Daca ai nevoie de motoreductor, SEW e aproape mereu prima optiune.
+Sistemele motor-reductor integrate sunt domeniul lor de excelenta. Daca ai nevoie de motoreductor, SEW e aproape mereu prima optiune. [Componentele mecanice](/componente-mecanice) aditionale sunt usor de integrat.
 
 Service-ul in Romania e rapid. Au piese in stoc local si raspund repede.
 
@@ -196,7 +196,7 @@ Problema: Capacitatea de rezerva dispare. Daca productia creste?
 Cost estimat: 18.000 EUR pentru 4 convertizoare ABB ACS580
 Avantaj: Pompele se adapteaza automat la necesar
 
-Am recomandat varianta 2. Clientul a fost de acord. Convertizoarele de frecventa sunt solutia ideala pentru [pompe cu debit variabil](/brand/pompe-industriale-grundfos), iar ABB are un raport calitate-pret excelent.
+Am recomandat varianta 2. Clientul a fost de acord. [Automatizările și control](/automatizari-industriale) prin convertizoare de frecventa sunt solutia ideala pentru [pompe cu debit variabil](/brand/pompe-industriale-grundfos), iar ABB are un raport calitate-pret excelent.
 
 ## Implementare
 
@@ -220,7 +220,7 @@ Asta inseamna ca orice pompa care nu functioneaza tot timpul la capacitate maxim
 
 Nu intotdeauna trebuie sa inlocuiesti echipamentele. Uneori, optimizarea celor existente e mai rapida, mai ieftina si la fel de eficienta.
 
-Dar trebuie sa masori inainte. Fara masuratori, nu stii cat pierzi si nu poti estima castigul.
+Dar trebuie sa masori inainte. Fara [senzori de proces](/senzori-instrumentatie) si masuratori, nu stii cat pierzi si nu poti estima castigul.
 
 ## Vrei sa stii daca merita la tine?
 
@@ -267,7 +267,7 @@ Robinetul fluture are un disc care se roteste in interiorul conductei. E mai sim
 - Instalatii de apa industriala unde etansarea perfecta nu e critica
 - Diametre mari - un fluture DN300 costa o fractiune dintr-o bila DN300
 - HVAC - sunt standard in industrie pentru asta
-- Cand ai nevoie si de reglaj, nu doar pornit/oprit
+- Cand ai nevoie si de reglaj, nu doar pornit/oprit. Poti integra si [componente hidraulice și pneumatice](/componente-hidraulice-pneumatice) pentru actuare automata.
 
 **Cand NU ii folosesti:**
 - Gaze - nu au etansarea necesara
@@ -308,7 +308,7 @@ Lucram cu branduri premium precum [Spirax Sarco](/brand/spirax-sarco) pentru apl
 
 ## Pe scurt
 
-Nu exista "mai bun" in general - exista "potrivit pentru ce ai tu de facut". Nu esti sigur? Suna-ne. 5 minute la telefon costa mai putin decat sa montezi ceva gresit.
+Nu exista "mai bun" in general - exista "potrivit pentru ce ai tu de facut". Pentru [automatizări pentru valve](/automatizari-industriale) complexe sau control avansat, consultă-ne despre soluții integrate. Nu esti sigur? Suna-ne. 5 minute la telefon costa mai putin decat sa montezi ceva gresit.
     `,
     author: 'C.P., Specialist Armaturi',
     authorId: 'cristina-pop',
@@ -353,25 +353,25 @@ Nu trebuie sa fii specialist - daca ceva s-a schimbat fata de "normal", noteaza.
 ### Saptamanal (15 minute)
 - Verifica presiunile de aspiratie si refulare - variatii mari indica probleme
 - Verifica temperatura motorului cu mana (atentie, poate fi fierbinte) - daca nu poti tine mana, e prea cald
-- La pompele cu ungere manuala, verifica nivelul uleiului
+- La pompele cu ungere manuala, verifica nivelul [lubrifiatului industrial](/lubrifianti-chimice)
 
 ### Lunar (1 ora)
 - Masoara vibratiile (daca ai echipament) sau cel putin asculta cu atentie
 - Verifica cuplajul - joc excesiv inseamna uzura
-- Curata filtrele de aspiratie
+- Curata [filtrele de aspiratie](/filtre-consumabile) si inlocuieste-le daca sunt colmatate
 - Verifica consumul electric si compara cu istoricul
 
 ### Trimestrial (2-3 ore)
 - Verifica alinierea pompa-motor (ideal cu laser, dar si cu comparator merge)
 - Inspecteaza garnitura de ax - cateva picaturi pe minut sunt normale, mai mult nu
-- Verifica rulmentii - temperatura si zgomot
+- Verifica rulmentii - temperatura si zgomot. Foloseste [scule și instrumente](/scule-instrumente) adecvate pentru masuratori precise.
 - Documenteaza totul
 
 ### Anual (service complet)
 - Demontare si inspectie detaliata
 - Inlocuire garnitura mecanica (preventiv, nu doar cand curge)
 - Verificare rotor - uzura, coroziune
-- Inlocuire rulmenti daca au peste 20.000 ore sau semne de uzura
+- Inlocuire rulmenti si alte [componente mecanice](/componente-mecanice) daca au peste 20.000 ore sau semne de uzura
 - Vopsire/protectie anticoroziva unde e nevoie
 
 ## Checklist pentru service anual
@@ -477,7 +477,7 @@ Am avut clienti care au cerut oferta pentru schimbator mai mic ca sa economiseas
 
 ### 2. Material gresit
 
-Apa din sistemele de racire in circuitul secundar pare inofensiva, dar daca are cloruri (frecvent in anumite zone din Romania), inoxul 316 e obligatoriu. Am vazut schimbatoare din inox 304 perforate in 2 ani.
+Apa din sistemele de racire in circuitul secundar pare inofensiva, dar daca are cloruri (frecvent in anumite zone din Romania), inoxul 316 e obligatoriu. Am vazut schimbatoare din inox 304 perforate in 2 ani. Integreaza [senzori de temperatură](/senzori-instrumentatie) pentru monitorizare continua.
 
 ### 3. Ignorarea depunerilor
 
@@ -501,7 +501,7 @@ Fara aceste date, orice dimensionare e ghicire.
 
 ## Un pont: intreaba de piese de schimb
 
-Inainte sa cumperi un [schimbator de caldura](/schimbatoare-caldura) de la un brand obscur care pare ieftin, intreaba cat costa garniturile de schimb si care e disponibilitatea. Am vazut clienti care au economisit 20% la achizitie si apoi au asteptat 8 saptamani pentru garnituri din China.
+Inainte sa cumperi un [schimbator de caldura](/schimbatoare-caldura) de la un brand obscur care pare ieftin, intreaba cat costa garniturile de schimb si care e disponibilitatea. Am vazut clienti care au economisit 20% la achizitie si apoi au asteptat 8 saptamani pentru garnituri din China. Pentru sisteme complete, ia in calcul si [echipamente termice](/echipamente-termice) complementare precum chillere si turnuri de racire.
 
 [Alfa Laval](/brand/alfa-laval), [Kelvion](/brand/kelvion), SWEP au piese disponibile rapid in Europa. Merita diferenta de pret.
     `,
@@ -532,7 +532,7 @@ Date tehnice: presiune pana la 500 mbar, debit 10-2.000 m³/h, functionare fara 
 
 Le vezi in: statii de epurare mici si medii, transport pneumatic pentru granule si pulberi, aspiratie industriala, masini de ambalat.
 
-De ce ne plac: simplitate si fiabilitate. Un [Becker](/brand/becker) sau [FPZ](/brand/fpz) bun poate merge 10-15 ani fara batai de cap - practic doar schimbi filtrul din cand in cand.
+De ce ne plac: simplitate si fiabilitate. Un [Becker](/brand/becker) sau [FPZ](/brand/fpz) bun poate merge 10-15 ani fara batai de cap - practic doar schimbi [filtrul de aspirație](/filtre-consumabile) din cand in cand.
 
 Un avertisment: nu le place praful. Daca aerul aspirat contine particule, monteaza filtru bun. Altfel, paletele se uzeaza mult mai repede decat ar trebui.
 
@@ -575,7 +575,7 @@ Limitarea lor: pentru presiuni peste 100-150 mbar, nu mai sunt eficiente. La pre
 Suflantele pot consuma multa energie. Cateva reguli:
 
 1. **Nu supradimensiona** - o suflanta prea mare consuma mai mult si functioneaza ineficient
-2. **Foloseste control de frecventa** daca debitul necesar variaza
+2. **Foloseste [automatizări control suflante](/automatizari-industriale)** daca debitul necesar variaza - VFD-urile economisesc energie substanțiala
 3. **Curata filtrele** - un filtru infundat creste consumul cu 10-15%
 4. **Verifica pierderile din conducte** - o scurgere de aer de 3mm la 6 bar pierde aproximativ 1.500 EUR/an
 
@@ -648,11 +648,12 @@ Elastomerii (o-ringurile) au limite de temperatura. EPDM merge pana la aproximat
 
 ### 3. Particule abrazive
 
-Nisip, rugina, cristale - orice particula solida care ajunge intre fete le zgarie si uzeaza.
+Nisip, rugina, cristale - orice particula solida care ajunge intre fete le zgarie si uzeaza. [Componentele mecanice de etanșare](/componente-mecanice) sunt vulnerabile la particule dure.
 
 **Cum eviti:**
 - Filtreaza fluidul
 - Foloseste fete din materiale dure (SiC/SiC pentru abrazive)
+- Aplica [lubrifianți pentru garnituri](/lubrifianti-chimice) compatibili cu materialele
 - La pompe pentru fluide murdare, ia in calcul garnitura externa cu fluid de bariera curat
 
 ### 4. Vibratii si dezaliniere
@@ -729,7 +730,7 @@ Nu e complicat odata ce intelegi logica.
 Zonele se clasifica dupa frecventa cu care apare atmosfera exploziva.
 
 **Pentru gaze si vapori:**
-- **Zona 0** - atmosfera exploziva prezenta continuu sau pentru perioade lungi. Exemplu: interiorul unui rezervor cu solvent.
+- **Zona 0** - atmosfera exploziva prezenta continuu sau pentru perioade lungi. Exemplu: interiorul unui rezervor cu solvent. Necesita [senzori ATEX](/senzori-instrumentatie) certificați.
 - **Zona 1** - atmosfera exploziva probabil sa apara in functionare normala. Exemplu: in jurul pompelor de transfer solventi.
 - **Zona 2** - atmosfera exploziva putin probabil sa apara, si daca apare, doar pentru scurt timp. Exemplu: zone cu ventilatie buna, dar unde e posibila scurgere accidentala.
 
@@ -817,7 +818,7 @@ Pastreaza-le. La controale, inspectorii le cer. Si daca se intampla ceva, lipsa 
 
 ## Un lucru important
 
-Echipamentele ATEX costa mai mult - de la +30% pana la +100% fata de variantele standard. Dar nu e loc de economii. Un motor standard intr-o zona cu gaze e o bomba cu ceas.
+Echipamentele ATEX costa mai mult - de la +30% pana la +100% fata de variantele standard. Dar nu e loc de economii. Un motor standard intr-o zona cu gaze e o bomba cu ceas. Investeste si in [echipamente protecție ATEX](/echipamente-auxiliare) complementare pentru siguranta maxima.
 
 Daca nu esti sigur de clasificarea zonei sau de ce echipament ai nevoie, vorbeste cu specialistul in SSM din firma sau cu o firma autorizata pentru clasificari ATEX. Noi te putem ajuta cu echipamentele - vezi gama de [robineti industriali ATEX](/robineti-industriali) pe site - dar clasificarea zonelor e responsabilitatea operatorului.
     `,
@@ -858,7 +859,7 @@ Grundfos Product Center e cel mai bun tool de dimensionare din industrie. Curbe,
 Aplicatia Grundfos GO pentru telefon e utila pe santier - scanezi pompa, vezi specificatii, comanzi piese.
 
 ### Pompe submersibile grele
-Pentru aplicatii municipale si industriale cu fluide dificile (ape uzate cu continut mare de solide), gama Grundfos SE/SL are o reputatie foarte buna. Am montat sute si rata de defectiuni e sub 1%.
+Pentru aplicatii municipale si industriale cu fluide dificile (ape uzate cu continut mare de solide), gama Grundfos SE/SL are o reputatie foarte buna. Am montat sute si rata de defectiuni e sub 1%. Pentru monitorizare continua, integreaza [senzori de debit și presiune](/senzori-instrumentatie).
 
 ### Suport tehnic
 In Romania, Grundfos are o retea solida de distribuitori autorizati si training-uri periodice. Daca ai o problema tehnica, raspunsul vine repede.
@@ -902,6 +903,7 @@ Nu avem o recomandare generala. Depinde de:
 - Ai nevoie de documentatie tehnica detaliata pentru proiect
 - E o aplicatie critica unde nu vrei surprize
 - Ai deja ecosistem Grundfos si vrei piese compatibile
+- Planuiesti [automatizări pentru stații de pompare](/automatizari-industriale) complexe
 
 **Alege [Wilo](/brand/wilo) daca:**
 - Bugetul e strans dar nu vrei sa cobori calitatea
@@ -1003,7 +1005,7 @@ La oalele cu evacuare la atmosfera, priveste ce iese. Condensat = jet de apa car
 Problema: multe oale evacueaza in sistem de recuperare condensat, nu la vedere.
 
 ### Termografie
-Masori temperatura inainte si dupa oala. Daca e aproape egala (diferenta sub 5-10°C), oala e probabil blocata deschis.
+Masori temperatura inainte si dupa oala cu [senzori monitorizare abur](/senzori-instrumentatie). Daca e aproape egala (diferenta sub 5-10°C), oala e probabil blocata deschis.
 
 ### Ultrasunete
 Cel mai precis. Detectezi turbulenta creata de scurgerea de abur. Necesita echipament si experienta.
@@ -1026,7 +1028,7 @@ Vezi gama completa de [robineti si armatura industriala](/robineti-industriali) 
 
 ## Daca vrei sa verifici ce ai in fabrica
 
-Avem oale Spirax Sarco si Gestra in stoc. Vezi si gama de [schimbatoare de caldura](/schimbatoare-caldura) pentru optimizarea sistemelor termice. Facem si audituri - venim cu echipamentul, verificam fiecare oala si iti spunem exact care pierd si cat te costa.
+Avem oale Spirax Sarco si Gestra in stoc. Vezi si gama de [schimbatoare de caldura](/schimbatoare-caldura) pentru optimizarea sistemelor termice. Pentru control avansat, considera [automatizări control condensat](/automatizari-industriale) cu monitorizare in timp real. Facem si audituri - venim cu echipamentul, verificam fiecare oala si iti spunem exact care pierd si cat te costa.
 
 Un audit pentru o fabrica medie? Cateva sute de euro. Ce gasim de obicei? Pierderi de zeci de mii pe an.
     `,
@@ -1093,7 +1095,7 @@ Motoarele vechi pot avea probleme cu alimentarea de la VFD (izolatia sufera de l
 ## Consideratii practice
 
 ### Alegerea VFD-ului
-Puterea VFD-ului trebuie sa fie cel putin egala cu cea a motorului. La aplicatii cu porniri grele sau suprasarcini temporare, supradimensioneaza cu 20-30%.
+Puterea VFD-ului trebuie sa fie cel putin egala cu cea a motorului. La aplicatii cu porniri grele sau suprasarcini temporare, supradimensioneaza cu 20-30%. Pentru integrare completa in [automatizări industriale](/automatizari-industriale), alege modele cu comunicatie Profinet/Modbus.
 
 Branduri cu care lucram si in care avem incredere:
 - **[Siemens](/brand/siemens) SINAMICS G120** - gama completa, integrare excelenta
@@ -1106,6 +1108,7 @@ Cateva reguli:
 - Ecranul conectat la pamant la ambele capete
 - Separare de cablurile de semnal
 - Filtre de iesire daca cablul e mai lung de 50m
+- Consulta [componente electrice](/echipamente-electrice) necesare pentru instalare completa
 
 Un VFD instalat prost poate crea probleme electromagnetice in toata fabrica.
 
@@ -1199,11 +1202,11 @@ Companie germana, fondata in 1920 sub numele GEA Heat Exchangers. S-au separat i
 
 ### Industria alimentara
 **Recomandat: Alfa Laval**
-Gama AlfaNova e standard in industrie. Certificate FDA, 3A, EHEDG. Kelvion are solutii, dar Alfa Laval domina segmentul.
+Gama AlfaNova e standard in industrie. Certificate FDA, 3A, EHEDG. Kelvion are solutii, dar Alfa Laval domina segmentul. Integreaza [senzori temperatură](/senzori-instrumentatie) pentru control HACCP.
 
 ### HVAC si racire industriala
 **Ambele OK**
-Pentru schimbatoare brazate standard, diferenta de performanta e minima. Alege dupa pret si disponibilitate.
+Pentru schimbatoare brazate standard, diferenta de performanta e minima. Alege dupa pret si disponibilitate. Pentru sisteme complete, vezi gama de [echipamente termice complementare](/echipamente-termice).
 
 ### Petrochimie si energie
 **Recomandat: Kelvion**
@@ -1262,7 +1265,7 @@ E cauza numarul 1 a defectiunilor la rulmenti. Si rulmentii defecti duc la defec
 - Lubrifiant nepotrivit (incompatibilitate, performanta slaba)
 - Intervale prea lungi intre ungeri
 
-**Solutia:** Foloseste lubrifiantul recomandat de producator, in cantitatea specificata, la intervalele specificate. E simplu, dar necesita disciplina.
+**Solutia:** Foloseste [lubrifianți de calitate](/lubrifianti-chimice) recomandat de producator, in cantitatea specificata, la intervalele specificate. E simplu, dar necesita disciplina.
 
 ## 2. Dezaliniere
 
@@ -1286,7 +1289,7 @@ Cand presiunea la aspiratie scade sub presiunea de vaporizare a fluidului, apar 
 
 **Semne:** zgomot caracteristic (ca pietricele in pompa), performanta scazuta, uzura pe rotor.
 
-**Solutia:** Verifica NPSH, asigura-te ca filtrele de aspiratie nu sunt colmatate, nu aspira de la distanta prea mare.
+**Solutia:** Verifica NPSH, asigura-te ca [filtrele și consumabilele](/filtre-consumabile) de aspiratie nu sunt colmatate, nu aspira de la distanta prea mare.
 
 ## 5. Suprasarcina
 
@@ -1318,7 +1321,7 @@ Fiecare pornire streseaza motorul (curent mare) si procesul (lovitura de presiun
 
 ## 9. Piese neoriginale de calitate slaba
 
-Nu toate piesele neoriginale sunt proaste. Dar unele sunt. Am vazut garnituri mecanice "compatibile" care au rezistat 3 luni in loc de 3 ani.
+Nu toate piesele neoriginale sunt proaste. Dar unele sunt. Am vazut garnituri mecanice "compatibile" care au rezistat 3 luni in loc de 3 ani. [Componentele mecanice de schimb](/componente-mecanice) trebuie sa fie de calitate garantata.
 
 **Solutia:** Cumpara de la furnizori de incredere. Piesele originale sau OEM de calitate costa mai mult initial, dar sunt mai ieftine pe termen lung.
 
@@ -1369,6 +1372,7 @@ Acum 5 ani, eficienta energetica pentru [pompe industriale](/pompe-industriale) 
 - Cereri mult mai multe pentru VFD-uri, chiar si pe pompe mici
 - Interes pentru motoare IE4/IE5, chiar daca costa mai mult
 - Clienti care cer calcule de ROI inainte de orice achizitie
+- Cresterea cererii pentru [automatizări și Industry 4.0](/automatizari-industriale) cu monitorizare energetica
 
 Legislatia europeana (Ecodesign) impinge si ea in aceasta directie. De la 1 iulie 2023, motoarele 0.75-200 kW trebuie sa fie minim IE3 sau IE2+VFD.
 
@@ -1379,7 +1383,7 @@ Legislatia europeana (Ecodesign) impinge si ea in aceasta directie. De la 1 iuli
 Producatorii mari ([Grundfos](/brand/grundfos), Siemens, ABB) investesc masiv in echipamente conectate. iSOLUTIONS, MindSphere, ABB Ability - platforme care monitorizeaza echipamentele in timp real.
 
 **Ce vedem concret:**
-- Clientii mari (multinationale) implementeaza sisteme de monitorizare pentru [schimbatoare de caldura](/schimbatoare-caldura) si [pompe](/pompe-industriale)
+- Clientii mari (multinationale) implementeaza sisteme de monitorizare pentru [schimbatoare de caldura](/schimbatoare-caldura) si [pompe](/pompe-industriale) cu [senzori IoT](/senzori-instrumentatie) avansati
 - Clientii medii sunt interesati, dar adesea nu ajung la implementare din cauza complexitatii
 - Clientii mici inca prefera simplu si robust
 
@@ -1393,6 +1397,7 @@ ESG (Environmental, Social, Governance) nu mai e doar PR. Clientii nostri care l
 - Cereri pentru certificate de eficienta energetica
 - Intrebari despre materialele folosite si posibilitatea de reciclare
 - Interes pentru programe de reconditionare/remanufacturare
+- Adoptarea [echipamentelor termice verzi](/echipamente-termice) cu fluide refrigerante ecologice
 
 Grundfos, de exemplu, ofera deja pompe cu componente reciclabile in proportie de 98%.
 

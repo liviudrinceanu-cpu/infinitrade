@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
     title,
     description,
     openGraph: {
-      title: `${category.name} | Distribuitor Autorizat Romania | Infinitrade`,
+      title: `${category.name} | Distribuitor Romania | Infinitrade`,
       description: `Distribuitor ${category.name.toLowerCase()} în România. Branduri: ${brandNames}. ${category.stats.products} produse disponibile. Livrare 24-72h.`,
       url: `${config.site.url}/${category.slug}`,
       siteName: 'Infinitrade Romania',

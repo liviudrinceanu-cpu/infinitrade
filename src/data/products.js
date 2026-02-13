@@ -358,7 +358,7 @@ export const companyInfo = {
     cui: 'RO26209397',
     regCom: 'J35/2901/2009',
   },
-  certifications: ['ISO 9001:2015', 'Distribuitor Autorizat', 'Furnizor SEAP / SICAP'],
+  certifications: ['ISO 9001:2015', 'Distribuitor Industrial', 'Furnizor SEAP / SICAP'],
   industries: ['Petrochimie', 'Energie', 'Alimentar', 'Farmaceutic', 'Automotive', 'Naval', 'Metalurgie', 'HVAC', 'Tratare Apă', 'Minerit', 'Ciment', 'Hârtie', 'Chimie', 'Logistică', 'Biogaz'],
   majorClients: ['Continental Automotive', 'Siemens', 'Aerostar', 'HeidelbergCement', 'ArcelorMittal Galați', 'Damen Shipyard', 'Romgaz', 'Azomureș', 'Alro Slatina', 'Rombat', 'PepsiCo', 'Linde', 'Saint-Gobain'],
   targetAudience: 'Departamente de achiziții, echipe de mentenanță, ingineri de proiect și responsabili investiții din industria grea'

@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
-import { FileCheck, Shield, Clock, Truck, Phone, CheckCircle, AlertCircle, ArrowRight, FileText, Award, Building2, Users, Package, Zap, Settings2, Thermometer, Wind, Droplets } from 'lucide-react';
+import { FileCheck, Shield, Clock, Truck, Phone, CheckCircle, AlertCircle, ArrowRight, FileText, Award, Building2, Users, Package, Zap, Settings2, Thermometer, Wind, Droplets, Cpu, Gauge, Wrench, Filter, Cog, Plug2, Flame, HardHat } from 'lucide-react';
 import styles from './ghid-seap.module.css';
 
 // CPV Codes for each product category
@@ -109,6 +109,86 @@ const cpvCodes = {
     { code: '42522000-6', name: 'Ventilatoare, altele decât ventilatoarele de masă' },
     { code: '39721320-1', name: 'Uscătoare cu aer' },
   ],
+  automatizari: [
+    { code: '48000000-8', name: 'Pachete software și sisteme informatice' },
+    { code: '31682500-5', name: 'Echipamente electrice de urgență' },
+    { code: '48151000-1', name: 'Sisteme de control al computerelor' },
+    { code: '51100000-0', name: 'Servicii de instalare echipamente electrice și mecanice' },
+    { code: '31700000-3', name: 'Echipamente electronice' },
+    { code: '38300000-8', name: 'Instrumente de măsurare' },
+  ],
+  senzori: [
+    { code: '38300000-8', name: 'Instrumente de măsurare' },
+    { code: '38310000-1', name: 'Balanțe de precizie' },
+    { code: '38340000-0', name: 'Instrumente de măsurare a cantităților' },
+    { code: '38410000-2', name: 'Instrumente de contorizare' },
+    { code: '38420000-5', name: 'Instrumente de măsurare debit' },
+    { code: '38430000-8', name: 'Aparate de detecție și analiză' },
+  ],
+  hidraulice: [
+    { code: '42000000-6', name: 'Mașini industriale' },
+    { code: '42124200-6', name: 'Piese pentru pompe sau elevatoare de lichide' },
+    { code: '42636000-3', name: 'Prese' },
+    { code: '42636100-4', name: 'Prese hidraulice' },
+    { code: '42142000-4', name: 'Organe de asamblare' },
+    { code: '44165100-5', name: 'Furtunuri' },
+  ],
+  electrice: [
+    { code: '31000000-6', name: 'Mașini, aparate, echipamente și consumabile electrice' },
+    { code: '31200000-8', name: 'Aparate de distribuție și de comandă electrică' },
+    { code: '31210000-1', name: 'Aparate electrice de comutare sau protecție' },
+    { code: '31213000-2', name: 'Echipamente de distribuție' },
+    { code: '31214000-9', name: 'Aparataj de comutare' },
+    { code: '31220000-4', name: 'Componente ale circuitelor electrice' },
+  ],
+  mecanice: [
+    { code: '44440000-6', name: 'Rulmenți' },
+    { code: '44540000-7', name: 'Lanțuri' },
+    { code: '44441000-3', name: 'Rulmenți cu bile' },
+    { code: '44442000-0', name: 'Rulmenți cu role' },
+    { code: '44531000-0', name: 'Elemente de fixare cu filet' },
+    { code: '42141000-7', name: 'Cutii de viteze, angrenaje și elemente de acționare' },
+  ],
+  filtre: [
+    { code: '42514310-8', name: 'Filtre de aer' },
+    { code: '42912300-5', name: 'Mașini și aparate de filtrare' },
+    { code: '42912310-8', name: 'Aparate de filtrare a apei' },
+    { code: '42912330-4', name: 'Aparate de purificare a apei' },
+    { code: '42514200-4', name: 'Filtre electrostatice' },
+    { code: '42514300-7', name: 'Aparate de filtrare' },
+  ],
+  scule: [
+    { code: '44510000-8', name: 'Scule' },
+    { code: '38000000-5', name: 'Echipamente de laborator, optice și de precizie' },
+    { code: '44511000-5', name: 'Scule de mână' },
+    { code: '42660000-0', name: 'Scule de strunjire, găurire, frezare' },
+    { code: '38550000-5', name: 'Contoare' },
+    { code: '38552000-9', name: 'Contoare electronice' },
+  ],
+  hvac: [
+    { code: '42500000-1', name: 'Echipamente de răcire și de ventilare' },
+    { code: '39717200-3', name: 'Aparate de climatizare' },
+    { code: '42510000-4', name: 'Schimbătoare de căldură și mașini de lichefiere' },
+    { code: '42512000-8', name: 'Instalații de climatizare complete' },
+    { code: '42520000-7', name: 'Echipamente de ventilare' },
+    { code: '42530000-0', name: 'Piese pentru echipamente de refrigerare' },
+  ],
+  lubrifianti: [
+    { code: '09211000-1', name: 'Uleiuri lubrifiante și agenți lubrifianți' },
+    { code: '24951000-5', name: 'Grăsimi și lubrifianți' },
+    { code: '09211100-2', name: 'Uleiuri pentru motoare' },
+    { code: '09211400-5', name: 'Uleiuri pentru cutii de viteze' },
+    { code: '09211600-7', name: 'Uleiuri pentru sisteme hidraulice' },
+    { code: '24957000-7', name: 'Aditivi chimici' },
+  ],
+  protectie: [
+    { code: '18100000-0', name: 'Îmbrăcăminte profesională, îmbrăcăminte de lucru specială' },
+    { code: '35113000-9', name: 'Echipamente de siguranță' },
+    { code: '18143000-3', name: 'Echipamente de protecție' },
+    { code: '35110000-8', name: 'Echipamente de stingere a incendiilor, salvare și siguranță' },
+    { code: '18830000-6', name: 'Încălțăminte de protecție' },
+    { code: '33735100-2', name: 'Ochelari de protecție' },
+  ],
 };
 
 // Product categories with links
@@ -163,6 +243,106 @@ const productCategories = [
     cpvKey: 'suflante',
     applications: ['Stații epurare', 'Transport pneumatic', 'Ventilație industrială', 'Ambalare vid'],
   },
+  {
+    name: 'Automatizări Industriale',
+    slug: 'automatizari-industriale',
+    icon: Cpu,
+    color: '#6366f1',
+    brands: ['Siemens', 'ABB', 'Schneider Electric', 'Festo', 'Omron'],
+    types: ['PLC-uri și controlere', 'Panouri HMI', 'Sisteme SCADA', 'Convertizoare frecvență', 'I/O distribuit'],
+    cpvKey: 'automatizari',
+    applications: ['Linii de producție', 'Stații pompare', 'Procese chimice', 'BMS clădiri'],
+  },
+  {
+    name: 'Senzori și Instrumentație',
+    slug: 'senzori-instrumentatie',
+    icon: Gauge,
+    color: '#8b5cf6',
+    brands: ['Endress+Hauser', 'WIKA', 'SICK', 'Emerson', 'IFM'],
+    types: ['Transmițătoare presiune', 'Senzori temperatură', 'Debitmetre', 'Senzori nivel', 'Analizoare'],
+    cpvKey: 'senzori',
+    applications: ['Petrochimie', 'Stații tratare apă', 'Industria alimentară', 'Farmaceutic'],
+  },
+  {
+    name: 'Componente Hidraulice și Pneumatice',
+    slug: 'componente-hidraulice-pneumatice',
+    icon: Wrench,
+    color: '#dc2626',
+    brands: ['Parker', 'Bosch Rexroth', 'Festo', 'SMC', 'Eaton'],
+    types: ['Cilindri hidraulici', 'Pompe hidraulice', 'Valve proporționale', 'Furtunuri și racorduri', 'Unități pregătire aer'],
+    cpvKey: 'hidraulice',
+    applications: ['Prese industriale', 'Utilaje construcții', 'Mașini CNC', 'Automatizare'],
+  },
+  {
+    name: 'Echipamente Electrice',
+    slug: 'echipamente-electrice',
+    icon: Plug2,
+    color: '#ea580c',
+    brands: ['Schneider Electric', 'Siemens', 'ABB', 'Eaton', 'Legrand'],
+    types: ['Contactoare', 'Întrerupătoare automate', 'Protecții motor', 'Tablouri electrice', 'Relee'],
+    cpvKey: 'electrice',
+    applications: ['Tablouri distribuție', 'Protecție motoare', 'Automatizare', 'Instalații industriale'],
+  },
+  {
+    name: 'Componente Mecanice',
+    slug: 'componente-mecanice',
+    icon: Cog,
+    color: '#475569',
+    brands: ['SKF', 'FAG/Schaeffler', 'NSK', 'Gates', 'Optibelt'],
+    types: ['Rulmenți', 'Curele transmisie', 'Cuplaje', 'Bucșe', 'Lanțuri'],
+    cpvKey: 'mecanice',
+    applications: ['Mentenanță echipamente', 'Conveioare', 'Reductoare', 'Mașini rotative'],
+  },
+  {
+    name: 'Filtre și Consumabile',
+    slug: 'filtre-consumabile',
+    icon: Filter,
+    color: '#0891b2',
+    brands: ['Donaldson', 'Mann+Hummel', 'Parker', 'Hydac', 'Pall'],
+    types: ['Filtre aer', 'Filtre ulei', 'Filtre hidraulice', 'Cartușe deprăfuire', 'Filtre apă'],
+    cpvKey: 'filtre',
+    applications: ['Compresoare', 'Sisteme hidraulice', 'Ventilație', 'Tratare apă'],
+  },
+  {
+    name: 'Scule și Instrumente',
+    slug: 'scule-instrumente',
+    icon: Wrench,
+    color: '#ca8a04',
+    brands: ['Mitutoyo', 'Stahlwille', 'Knipex', 'Wera', 'Gedore'],
+    types: ['Instrumente măsură', 'Scule de mână', 'Chei dinamometrice', 'Truse mentenanță', 'Calibre'],
+    cpvKey: 'scule',
+    applications: ['Mentenanță industrială', 'Control calitate', 'Montaj echipamente', 'Laborator'],
+  },
+  {
+    name: 'Echipamente Termice și HVAC',
+    slug: 'echipamente-termice',
+    icon: Thermometer,
+    color: '#e11d48',
+    brands: ['Carrier', 'Daikin', 'Trane', 'Mitsubishi Electric', 'Swegon'],
+    types: ['Chillere industriale', 'Pompe de căldură', 'Unități tratare aer', 'Ventiloconvectoare', 'Turnuri răcire'],
+    cpvKey: 'hvac',
+    applications: ['Climatizare industrială', 'Data center-uri', 'Răcire procese', 'Camere curate'],
+  },
+  {
+    name: 'Lubrifianți și Produse Chimice',
+    slug: 'lubrifianti-chimice',
+    icon: Flame,
+    color: '#b45309',
+    brands: ['Shell', 'Klüber', 'Mobil', 'Castrol', 'Total'],
+    types: ['Uleiuri hidraulice', 'Uleiuri reductoare', 'Grăsimi rulmenți', 'Fluide așchiere', 'Antigel'],
+    cpvKey: 'lubrifianti',
+    applications: ['Sisteme hidraulice', 'Reductoare', 'Compresoare', 'Mașini CNC'],
+  },
+  {
+    name: 'Echipamente Protecție și Siguranță',
+    slug: 'echipamente-auxiliare',
+    icon: HardHat,
+    color: '#15803d',
+    brands: ['Dräger', 'MSA Safety', '3M', 'Honeywell', 'Uvex'],
+    types: ['Detectoare gaze', 'Protecție respiratorie', 'Echipamente ATEX', 'Ochelari protecție', 'Încălțăminte siguranță'],
+    cpvKey: 'protectie',
+    applications: ['Petrochimie', 'Chimie', 'Construcții', 'Minerit'],
+  },
 ];
 
 // Documents we provide
@@ -202,7 +382,7 @@ const advantages = [
   {
     icon: Award,
     title: 'Produse Originale Certificate',
-    description: 'Distribuitor autorizat pentru 45+ branduri premium. Garanție producător și piese de schimb originale.',
+    description: 'Furnizor pentru 45+ branduri premium. Garanție producător și piese de schimb originale.',
   },
   {
     icon: Users,
@@ -369,7 +549,7 @@ export const metadata = {
     'echipamente primarii',
     // General
     'furnizor echipamente industriale Romania',
-    'distribuitor autorizat SEAP',
+    'furnizor verificat SEAP',
   ],
   openGraph: {
     title: 'Ghid Complet Achiziții SEAP/SICAP | Echipamente Industriale | Infinitrade',
@@ -803,7 +983,7 @@ export default function GhidSeapPage() {
               </Link>
               <Link href="/certificari" className={styles.relatedCard}>
                 <h3>Certificări și Autorizări</h3>
-                <p>ISO 9001, distribuitor autorizat, înregistrare SEAP</p>
+                <p>ISO 9001, partener branduri premium, înregistrare SEAP</p>
                 <ArrowRight size={16} />
               </Link>
               <Link href="/blog" className={styles.relatedCard}>

@@ -77,16 +77,70 @@ const faqData = [
     questions: [
       {
         q: 'Ce branduri distribuiți?',
-        a: 'Peste 45 de branduri, dintre care cele mai cerute: Grundfos și Wilo la pompe, Siemens și ABB la motoare, ARI Armaturen și Spirax Sarco la robineți, Alfa Laval la schimbătoare, Becker la suflante. Lista completă e pe site, la fiecare categorie.'
+        a: 'Peste 400 de branduri din 15 categorii, dintre care cele mai cerute: Grundfos și Wilo la pompe, Siemens și ABB la motoare, ARI Armaturen și Spirax Sarco la robineți, Alfa Laval la schimbătoare, Becker la suflante, Endress+Hauser și WIKA la senzori, Parker și Bosch Rexroth la hidraulică, Schneider Electric la automatizări. Lista completă e pe site, la fiecare categorie.'
       },
       {
         q: 'În ce industrii lucrați?',
-        a: 'Cam în toate care au nevoie de echipamente industriale: petrochimie, energie, alimentar, farmaceutic, tratare apă, construcții/HVAC, minerit. Avem experiență specifică în fiecare domeniu și știm ce funcționează.'
+        a: 'Cam în toate care au nevoie de echipamente industriale: petrochimie, energie, alimentar, farmaceutic, tratare apă, construcții/HVAC, minerit, automotive, metalurgie, ciment, hârtie, logistică, biogaz și construcții navale. 15 industrii - și în fiecare avem proiecte concrete și clienți mulțumiți.'
       },
       {
         q: 'Cum vă pot contacta?',
         a: 'Email: secretariat@infinitrade-romania.ro. Telefon: vezi pagina de contact. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem în maxim 24h în zilele lucrătoare.',
         link: { href: '/contact', text: 'Mergi la pagina de contact' }
+      },
+    ]
+  },
+  {
+    category: 'Echipamente Specializate',
+    questions: [
+      {
+        q: 'Ce soluții de automatizare industrială oferiți?',
+        a: 'Avem tot ce ține de automatizare: PLC-uri Siemens și ABB, panouri HMI, senzori de proximitate, convertizoare de frecvență, sisteme SCADA. Lucrăm mult cu Schneider Electric și Festo pe partea de control. Dacă ai nevoie de un tablou complet configurat sau doar de un senzor - sună-ne, găsim soluția potrivită.',
+        link: { href: '/automatizari-industriale', text: 'Vezi gama de automatizări industriale' }
+      },
+      {
+        q: 'Aveți senzori și instrumente certificate ATEX?',
+        a: 'Da, avem senzori ATEX și IECEx de la Endress+Hauser, WIKA și SICK - transmițătoare de presiune, temperatură, nivel și debit pentru zone Ex. Am echipat rafinării și platforme chimice cu sute de instrumente certificate. Livrăm cu toată documentația: certificate ATEX, fișe de siguranță, declarații de conformitate.',
+        link: { href: '/senzori-instrumentatie', text: 'Vezi senzori și instrumentație' }
+      },
+      {
+        q: 'Aveți componente hidraulice pentru utilaje grele?',
+        a: 'Da, lucrăm cu Parker și Bosch Rexroth pe hidraulică - cilindri, pompe, valve proporționale, furtunuri, racorduri. De la sisteme hidraulice pentru prese de 500 tone până la cilindri de schimb pentru excavatoare. Dacă ai o schemă hidraulică, o analizăm și facem ofertă pe componente.',
+        link: { href: '/componente-hidraulice-pneumatice', text: 'Vezi componente hidraulice și pneumatice' }
+      },
+      {
+        q: 'Aveți filtre de schimb pentru compresoare și instalații?',
+        a: 'Da, filtre originale și compatibile de la Donaldson, Mann+Hummel, Parker. Filtre aer compresor, filtre ulei, filtre hidraulice, cartușe pentru deprăfuire. Cele curente le avem în stoc, restul vin în 3-5 zile. Sfat de la noi: nu economisi la filtre - un filtru ieftin te costă de 10 ori mai mult în reparații.',
+        link: { href: '/filtre-consumabile', text: 'Vezi filtre și consumabile' }
+      },
+      {
+        q: 'Ce lubrifianți industriali aveți pentru reductoare?',
+        a: 'Lubrifianți sintetici și minerali de la Shell, Klüber, Mobil - uleiuri pentru reductoare (CLP, PAO, PAG), grăsimi pentru rulmenți, fluide hidraulice. Klüber e alegerea noastră pentru aplicații speciale (temperaturi extreme, industrie alimentară). Putem face și recomandare pe baza fișei echipamentului.',
+        link: { href: '/lubrifianti-chimice', text: 'Vezi lubrifianți și produse chimice' }
+      },
+      {
+        q: 'Aveți instrumente de măsură Mitutoyo sau similare?',
+        a: 'Avem instrumente de măsură de la mai multe branduri: șublere, micrometre, comparatoare, rugozimetre. Plus scule de mână profesionale și truse pentru mentenanță. Nu suntem magazin de scule (hai să fim sinceri), dar pentru clienții care cumpără echipamente mari, adăugăm și sculele necesare în pachet.',
+        link: { href: '/scule-instrumente', text: 'Vezi scule și instrumente' }
+      },
+      {
+        q: 'Aveți chillere industriale Carrier sau Daikin?',
+        a: 'Da, lucrăm cu Carrier, Daikin și alți producători pe echipamente termice - chillere, pompe de căldură, unități de tratare aer, ventiloconvectoare. De la răcire procese industriale (turnare, sudură) până la climatizare data center-uri. Dimensionăm gratuit pe baza sarcinii termice.',
+        link: { href: '/echipamente-termice', text: 'Vezi echipamente termice și HVAC' }
+      },
+      {
+        q: 'Aveți tablouri electrice și protecții motor?',
+        a: 'Da - contactoare, întrerupătoare, protecții motor, relee termice, de la Schneider Electric și Siemens. Fie componente separate, fie tablouri asamblate. Pentru proiecte mai mari, putem livra tablouri complete cu schemă și certificare.',
+        link: { href: '/echipamente-electrice', text: 'Vezi echipamente electrice' }
+      },
+      {
+        q: 'Aveți rulmenți SKF sau FAG în stoc?',
+        a: 'Rulmenți SKF, FAG (Schaeffler), NSK - da, cele mai cerute dimensiuni le avem în stoc. Rulmenți cu bile, cu role conice, oscilatori, axiali. Plus bucșe, cuplaje, curele de transmisie de la Gates. Dacă ai codul, verificăm disponibilitatea pe loc.',
+        link: { href: '/componente-mecanice', text: 'Vezi componente mecanice' }
+      },
+      {
+        q: 'Câte categorii de echipamente distribuiți?',
+        a: 'Acoperim 15 categorii de echipamente industriale cu peste 400 de branduri: de la pompe și robineți (nucleul nostru din 2009) până la automatizări, senzori, hidraulică, electrice, filtre, lubrifianți, scule, echipamente termice. Practic, tot ce ai nevoie într-o fabrică sau pe un șantier industrial - fără să alergi la 10 furnizori diferiți.',
       },
     ]
   },

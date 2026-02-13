@@ -28,9 +28,9 @@ const verificationLinks = [
 const certifications = [
   {
     icon: Shield,
-    title: 'Distribuitor Autorizat',
+    title: 'Partener de Distribuție',
     description: 'Lucrăm direct cu producătorii, nu prin intermediari. Asta înseamnă prețuri corecte, piese originale garantat și acces la suport tehnic de la sursă.',
-    brands: ['Grundfos', 'Wilo', 'KSB', 'Siemens', 'ABB', 'ARI Armaturen', 'Spirax Sarco', 'Alfa Laval'],
+    brands: ['Grundfos', 'Wilo', 'KSB', 'Siemens', 'ABB', 'ARI Armaturen', 'Spirax Sarco', 'Alfa Laval', 'Endress+Hauser', 'Parker', 'Schneider Electric', 'SKF'],
   },
   {
     icon: Award,
@@ -51,6 +51,18 @@ const certifications = [
     title: 'Camera de Comerț',
     description: 'Driatheli Group SRL operează brandul Infinitrade Romania din 2009. Suntem o companie românească cu sediul în Timiș.',
     details: 'Înregistrați la ONRC, plătitori de TVA, toate actele în regulă.',
+  },
+  {
+    icon: Shield,
+    title: 'Certificări ATEX / IECEx',
+    description: 'Distribuim echipamente certificate ATEX și IECEx pentru zone cu risc de explozie. Senzori, motoare, luminare, instrumente - toate cu documentație completă pentru zone Ex 1, Ex 2, Ex 21, Ex 22.',
+    details: 'Directiva 2014/34/EU (ATEX 114) și IECEx pentru export. Certificate de la organisme notificate europene.',
+  },
+  {
+    icon: Award,
+    title: 'Certificări Automatizare și Instrumentație',
+    description: 'Echipamentele de automatizare și instrumentație pe care le distribuim sunt certificate conform standardelor internaționale: IEC 61508 (SIL), IEC 61511 pentru securitate funcțională.',
+    details: 'Transmițătoare SIL 2/SIL 3 pentru aplicații de securitate în petrochimie, energie și industria chimică.',
   },
 ];
 
@@ -94,6 +106,24 @@ const partners = [
   { name: 'Kelvion', country: 'Germania' },
   { name: 'Becker', country: 'Germania' },
   { name: 'FPZ', country: 'Italia' },
+  { name: 'Endress+Hauser', country: 'Elvetia' },
+  { name: 'WIKA', country: 'Germania' },
+  { name: 'SICK', country: 'Germania' },
+  { name: 'Parker', country: 'SUA' },
+  { name: 'Bosch Rexroth', country: 'Germania' },
+  { name: 'Festo', country: 'Germania' },
+  { name: 'Schneider Electric', country: 'Franta' },
+  { name: 'Donaldson', country: 'SUA' },
+  { name: 'Mann+Hummel', country: 'Germania' },
+  { name: 'SKF', country: 'Suedia' },
+  { name: 'Gates', country: 'SUA' },
+  { name: 'Carrier', country: 'SUA' },
+  { name: 'Daikin', country: 'Japonia' },
+  { name: 'Shell Lubricants', country: 'Olanda' },
+  { name: 'Klüber', country: 'Germania' },
+  { name: 'Dräger', country: 'Germania' },
+  { name: 'MSA Safety', country: 'SUA' },
+  { name: 'Mitutoyo', country: 'Japonia' },
 ];
 
 // JSON-LD Schema for Certifications page
@@ -103,7 +133,7 @@ function generateCertificationsSchema() {
     '@type': 'WebPage',
     '@id': `${config.site.url}/certificari#webpage`,
     name: 'Certificari si Autorizari - Infinitrade Romania',
-    description: 'Certificari si autorizari Infinitrade Romania: ISO 9001, distribuitor autorizat Grundfos, Siemens, KSB.',
+    description: 'Certificari si autorizari Infinitrade Romania: ISO 9001, partener Grundfos, Siemens, KSB.',
     url: `${config.site.url}/certificari`,
     isPartOf: {
       '@id': `${config.site.url}/#website`
@@ -123,7 +153,7 @@ function generateCertificationsSchema() {
         {
           '@type': 'EducationalOccupationalCredential',
           credentialCategory: 'authorization',
-          name: 'Distribuitor Autorizat Grundfos',
+          name: 'Partener Grundfos',
           recognizedBy: {
             '@type': 'Organization',
             name: 'Grundfos',
@@ -133,7 +163,7 @@ function generateCertificationsSchema() {
         {
           '@type': 'EducationalOccupationalCredential',
           credentialCategory: 'authorization',
-          name: 'Distribuitor Autorizat Wilo',
+          name: 'Partener Wilo',
           recognizedBy: {
             '@type': 'Organization',
             name: 'Wilo',
@@ -143,7 +173,7 @@ function generateCertificationsSchema() {
         {
           '@type': 'EducationalOccupationalCredential',
           credentialCategory: 'authorization',
-          name: 'Distribuitor Autorizat KSB',
+          name: 'Partener KSB',
           recognizedBy: {
             '@type': 'Organization',
             name: 'KSB',
@@ -153,7 +183,7 @@ function generateCertificationsSchema() {
         {
           '@type': 'EducationalOccupationalCredential',
           credentialCategory: 'authorization',
-          name: 'Distribuitor Autorizat Siemens',
+          name: 'Partener Siemens',
           recognizedBy: {
             '@type': 'Organization',
             name: 'Siemens',
@@ -165,6 +195,26 @@ function generateCertificationsSchema() {
           credentialCategory: 'registration',
           name: 'Înregistrare SEAP/SICAP',
           description: 'Înregistrat în sistemul electronic de achiziții publice pentru licitații'
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'authorization',
+          name: 'Partener Endress+Hauser',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'Endress+Hauser',
+            address: { '@type': 'PostalAddress', addressCountry: 'CH' }
+          }
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'authorization',
+          name: 'Partener Parker Hannifin',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'Parker Hannifin',
+            address: { '@type': 'PostalAddress', addressCountry: 'US' }
+          }
         }
       ]
     }
@@ -173,7 +223,7 @@ function generateCertificationsSchema() {
 
 export const metadata = {
   title: 'Certificări | Furnizor SEAP',
-  description: 'Furnizor verificat SEAP/SICAP. Certificări ISO 9001, distribuitor autorizat Grundfos, Siemens, KSB. Documentație pentru licitații și fonduri europene.',
+  description: 'Furnizor verificat SEAP/SICAP. Certificări ISO 9001, partener Grundfos, Siemens, KSB. Documentație pentru licitații și fonduri europene.',
   keywords: [
     // SEAP / SICAP Primary keywords
     'furnizor SEAP',
@@ -204,11 +254,11 @@ export const metadata = {
     'certificari echipamente industriale',
     'iso 9001 2015',
     'iso 9001 distribuitor',
-    // Authorization keywords
-    'distribuitor autorizat pompe',
-    'distribuitor autorizat grundfos',
-    'distribuitor autorizat siemens',
-    'distribuitor autorizat ksb',
+    // Partnership keywords
+    'furnizor pompe industriale',
+    'partener grundfos romania',
+    'partener siemens romania',
+    'partener ksb romania',
     // Quality keywords
     'certificate conformitate',
     'garantie producator',
@@ -219,7 +269,7 @@ export const metadata = {
   ],
   openGraph: {
     title: 'Furnizor SEAP SICAP | Certificari si Autorizari | Infinitrade Romania',
-    description: 'Furnizor verificat SEAP/SICAP. Distribuitor autorizat echipamente industriale pentru licitații publice și fonduri europene.',
+    description: 'Furnizor verificat SEAP/SICAP. Distribuitor echipamente industriale pentru licitații publice și fonduri europene.',
     url: `${config.site.url}/certificari`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
@@ -267,7 +317,7 @@ export default function CertificariPage() {
           <div className={styles.container}>
             <h1>Certificari si Autorizari</h1>
             <p>
-              Infinitrade Romania este distribuitor autorizat pentru branduri internationale
+              Infinitrade Romania este distribuitor pentru branduri internationale
               de echipamente industriale, cu certificari care garanteaza calitatea si conformitatea.
             </p>
           </div>

@@ -46,7 +46,7 @@ export default function Hero() {
 
           {/* Answer-first paragraph - SEO optimization for "What is Infinitrade Romania?" */}
           <p className={`${styles.subheadline} ${styles.subheadlineAnimate}`} style={{ marginBottom: '1rem' }}>
-            Infinitrade Romania este distribuitor autorizat de echipamente industriale din 2009.
+            Infinitrade Romania este distribuitor de echipamente industriale din 2009.
             Oferim pompe Grundfos si Wilo, robineti ARI Armaturen, motoare Siemens si ABB,
             schimbatoare de caldura Alfa Laval. Furnizor verificat SEAP/SICAP cu livrare in toata Romania.
           </p>

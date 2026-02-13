@@ -33,7 +33,7 @@ export const metadata = {
     default: 'Infinitrade Romania | Distribuitor Pompe, Robineți, Motoare Industriale',
     template: '%s | Infinitrade Romania'
   },
-  description: 'Distribuitor autorizat echipamente industriale Romania. Furnizor SEAP/SICAP. Pompe Grundfos, Wilo. Robineti ARI, Spirax Sarco. Motoare Siemens, ABB. Livrare 24-72h.',
+  description: 'Distribuitor echipamente industriale Romania. Furnizor SEAP/SICAP. Pompe Grundfos, Wilo. Robineti ARI, Spirax Sarco. Motoare Siemens, ABB. Livrare 24-72h.',
   authors: [{ name: 'Infinitrade Romania - Driatheli Group SRL' }],
   creator: 'Infinitrade Romania',
   publisher: 'Driatheli Group SRL',
@@ -50,7 +50,7 @@ export const metadata = {
   manifest: '/manifest.json',
   openGraph: {
     title: 'Infinitrade Romania | Distribuitor Echipamente Industriale Premium',
-    description: 'Distribuitor autorizat pompe, robineți, motoare electrice în România. Branduri premium: Grundfos, Wilo, Siemens, ABB, Alfa Laval. Livrare rapidă 24-72h.',
+    description: 'Distribuitor pompe, robineți, motoare electrice în România. Branduri premium: Grundfos, Wilo, Siemens, ABB, Alfa Laval. Livrare rapidă 24-72h.',
     url: config.site.url,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
@@ -104,7 +104,7 @@ const organizationSchema = {
   url: config.site.url,
   logo: `${config.site.url}/logo-header.png`,
   image: `${config.site.url}/logo-header.png`,
-  description: 'Distribuitor autorizat de echipamente industriale în România - pompe, robineți, motoare electrice, schimbătoare de căldură și suflante.',
+  description: 'Distribuitor de echipamente industriale în România - pompe, robineți, motoare electrice, schimbătoare de căldură și suflante.',
   foundingDate: '2009-11-11',
   taxID: 'RO26209397',
   numberOfEmployees: {
@@ -213,7 +213,7 @@ const webSiteSchema = {
   name: 'Infinitrade Romania',
   alternateName: 'Infinitrade - Echipamente Industriale',
   url: config.site.url,
-  description: 'Distribuitor autorizat de echipamente industriale în România - pompe, robineți, motoare electrice, schimbătoare de căldură și suflante.',
+  description: 'Distribuitor de echipamente industriale în România - pompe, robineți, motoare electrice, schimbătoare de căldură și suflante.',
   publisher: {
     '@id': `${config.site.url}/#organization`
   },

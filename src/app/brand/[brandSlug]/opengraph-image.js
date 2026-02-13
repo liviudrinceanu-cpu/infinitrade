@@ -3,7 +3,7 @@ import { allBrands, categories } from '@/data/products';
 
 export const runtime = 'edge';
 
-export const alt = 'Infinitrade Romania - Distribuitor Autorizat';
+export const alt = 'Infinitrade Romania - Furnizor Echipamente Industriale';
 export const size = {
   width: 1200,
   height: 630,
@@ -100,7 +100,7 @@ export default async function Image({ params }) {
                   color: '#94a3b8',
                 }}
               >
-                {countryName} • Distribuitor Autorizat
+                {countryName} • Furnizor în România
               </span>
             )}
           </div>

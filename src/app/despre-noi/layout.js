@@ -4,7 +4,7 @@ export const revalidate = 86400;
 
 export const metadata = {
   title: 'Despre Noi | Distribuitor din 2009',
-  description: 'Infinitrade Romania - distribuitor autorizat echipamente industriale din 2009. 500+ branduri, 800+ clienți industriali. ISO 9001:2015, furnizor SEAP.',
+  description: 'Infinitrade Romania - distribuitor echipamente industriale din 2009. 500+ branduri, 800+ clienți industriali. ISO 9001:2015, furnizor SEAP.',
   alternates: {
     canonical: `${config.site.url}/despre-noi`,
   },
@@ -22,7 +22,7 @@ const aboutPageSchema = {
   '@type': 'AboutPage',
   '@id': `${config.site.url}/despre-noi#webpage`,
   name: 'Despre Infinitrade Romania',
-  description: 'Infinitrade Romania - distribuitor autorizat echipamente industriale din 2009.',
+  description: 'Infinitrade Romania - distribuitor echipamente industriale din 2009.',
   url: `${config.site.url}/despre-noi`,
   isPartOf: {
     '@id': `${config.site.url}/#website`

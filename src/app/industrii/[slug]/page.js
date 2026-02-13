@@ -62,7 +62,7 @@ export async function generateMetadata({ params }) {
     'echipamente industriale romania',
     'furnizor SEAP',
     'furnizor SICAP',
-    'distribuitor autorizat',
+    'distribuitor industrial',
     'piese schimb originale',
     'service industrial',
   ];

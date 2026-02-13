@@ -26,8 +26,8 @@ export async function generateMetadata({ params }) {
   const primaryCategory = brand.categories[0];
   const categoryNames = brand.categories.map(c => c.name).join(', ');
 
-  const title = `${brand.name} | Distribuitor Autorizat Catalog 2026`;
-  const description = `2026: Distribuitor autorizat ${brand.name} (${brand.country}). Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
+  const title = `${brand.name} | Catalog Produse 2026 | Infinitrade`;
+  const description = `2026: Distribuitor ${brand.name} (${brand.country}). Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
 
   const baseKeywords = [
     brand.name,
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
     `${brand.name} pret`,
     `${brand.name} oferta`,
     `${brand.name} distribuitor`,
-    `${brand.name} distribuitor autorizat`,
+    `${brand.name} furnizor Romania`,
     `${brand.name} piese schimb`,
     `${brand.name} service`,
     `${brand.name} catalog`,
@@ -143,7 +143,7 @@ function generateJsonLd(brand) {
         name: 'Infinitrade Romania',
         url: config.site.url,
         logo: `${config.site.url}/logo-header.png`,
-        description: 'Distribuitor autorizat echipamente industriale Romania',
+        description: 'Distribuitor echipamente industriale Romania',
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'Calea Lugojului nr.47/B, Hala nr. 3',
@@ -187,7 +187,7 @@ function generateJsonLd(brand) {
         '@type': 'ProductGroup',
         '@id': `${config.site.url}/brand/${brand.simpleSlug}#brand-products`,
         name: `${brand.name} - ${brand.categories.map(c => c.name).join(', ')}`,
-        description: `${brand.description}. Distribuitor autorizat ${brand.name} in Romania - produse originale, piese schimb, suport tehnic.`,
+        description: `${brand.description}. Furnizor ${brand.name} in Romania - produse originale, piese schimb, suport tehnic.`,
         url: `${config.site.url}/brand/${brand.simpleSlug}`,
         image: `${config.site.url}/logo-header.png`,
         brand: {
