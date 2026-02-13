@@ -266,6 +266,9 @@ function renderContent(content) {
     let processed = trimmed;
     processed = processed.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 
+    // Link processing - markdown style [text](url)
+    processed = processed.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-blue-600 hover:text-blue-800 underline">$1</a>');
+
     // Regular paragraph - sanitize HTML to prevent XSS
     flushList();
     elements.push(

@@ -2,7 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { config } from '@/lib/config';
-import { Shield, Award, FileCheck, Building2, CheckCircle, Globe, ExternalLink } from 'lucide-react';
+import { Shield, Award, FileCheck, Building2, CheckCircle, Globe, ExternalLink, AlertCircle } from 'lucide-react';
 import styles from './certificari.module.css';
 
 // Link-uri de verificare externă
@@ -392,6 +392,63 @@ export default function CertificariPage() {
               </div>
               <div className={styles.dataItem}>
                 <strong>Activitate:</strong> CAEN 4690 - Comerț en-gros nespecializat
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Transparency and Limitations Section - E-E-A-T */}
+        <section className={styles.transparencySection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <AlertCircle size={32} className={styles.globeIcon} />
+              <h2>Transparență și Limitări</h2>
+              <p>
+                Suntem sinceri despre ce putem și ce nu putem oferi. Credibilitatea se construiește prin transparență.
+              </p>
+            </div>
+            <div className={styles.qualityGrid}>
+              <div className={styles.qualityCard}>
+                <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
+                <div>
+                  <h3>Timp de Răspuns</h3>
+                  <p>În funcție de complexitatea solicitării, timpul de răspuns poate varia între 24-72 ore pentru oferte tehnice detaliate. Pentru urgențe, oferim soluții alternative.</p>
+                </div>
+              </div>
+              <div className={styles.qualityCard}>
+                <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
+                <div>
+                  <h3>Livrare</h3>
+                  <p>Acoperim toată România, dar localități foarte izolate pot necesita cost suplimentar de transport. Confirmăm întotdeauna costurile înainte de comandă.</p>
+                </div>
+              </div>
+              <div className={styles.qualityCard}>
+                <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
+                <div>
+                  <h3>Suport Tehnic</h3>
+                  <p>Disponibil Luni-Vineri, 08:00-16:30. Pentru urgențe în weekend, avem protocol de escaladare, dar timpul de răspuns poate fi mai lung.</p>
+                </div>
+              </div>
+              <div className={styles.qualityCard}>
+                <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
+                <div>
+                  <h3>Garanție</h3>
+                  <p>Conform termenilor producătorilor (12-24 luni). Nu oferim garanție extinsă proprie, dar avem parteneriate pentru extindere la cerere.</p>
+                </div>
+              </div>
+              <div className={styles.qualityCard}>
+                <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
+                <div>
+                  <h3>Modificări Personalizate</h3>
+                  <p>Limitate la specificațiile producătorilor. Nu fabricăm echipamente custom, dar avem acces la configurații speciale prin producători.</p>
+                </div>
+              </div>
+              <div className={styles.qualityCard}>
+                <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
+                <div>
+                  <h3>Stocuri</h3>
+                  <p>Pentru produse la comandă, termenele de livrare variază între 2-8 săptămâni în funcție de producător și configurație. Confirmare disponibilitate la solicitare ofertă.</p>
+                </div>
               </div>
             </div>
           </div>

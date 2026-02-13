@@ -636,6 +636,100 @@ export default function GhidSeapPage() {
           </div>
         </section>
 
+        {/* Pros & Cons: SEAP vs Direct Procurement - GEO-01 */}
+        <section className={styles.prosConsSection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <h2>Avantaje și Dezavantaje: Achiziții SEAP vs. Direct</h2>
+              <p>
+                Comparație obiectivă între procedurile publice SEAP și achizițiile directe
+                pentru a vă ajuta să înțelegeți beneficiile și limitările fiecărei metode.
+              </p>
+            </div>
+
+            <div className={styles.prosConsGrid}>
+              {/* SEAP Column */}
+              <div className={styles.prosConsCard}>
+                <h3 className={styles.prosConsTitle}>Achiziții SEAP</h3>
+
+                <div className={styles.prosSection}>
+                  <h4 style={{color: '#10b981', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                    <CheckCircle size={20} /> Avantaje SEAP
+                  </h4>
+                  <ul className={styles.prosList}>
+                    <li><span style={{color: '#10b981'}}>✓</span> Transparență totală și trasabilitate completă</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Prețuri competitive prin licitație deschisă</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Audit trail complet pentru verificări</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Conformitate legală 100% garantată</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Protecție împotriva acuzațiilor de favoritism</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Documentație standardizată și verificată</li>
+                  </ul>
+                </div>
+
+                <div className={styles.consSection}>
+                  <h4 style={{color: '#ef4444', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                    <AlertCircle size={20} /> Dezavantaje SEAP
+                  </h4>
+                  <ul className={styles.consList}>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Proces birocratic complex și consumator de timp</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Termene lungi: 30-90 zile de la anunț la livrare</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Documentație voluminoasă (DUAE, certificate, declarații)</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Risc de contestații care prelungesc procesul</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Dificil de modificat specificațiile după publicare</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Costuri administrative pentru pregătire dosar</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Direct Procurement Column */}
+              <div className={styles.prosConsCard}>
+                <h3 className={styles.prosConsTitle}>Achiziții Directe</h3>
+
+                <div className={styles.prosSection}>
+                  <h4 style={{color: '#10b981', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                    <CheckCircle size={20} /> Avantaje Direct
+                  </h4>
+                  <ul className={styles.prosList}>
+                    <li><span style={{color: '#10b981'}}>✓</span> Rapiditate: livrare în 5-10 zile pentru stocuri</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Flexibilitate în negociere și specificații</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Relație directă cu furnizorul pentru suport</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Suport tehnic personalizat și consultanță</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Posibilitate modificări în timpul proiectului</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Proces administrativ minimal</li>
+                  </ul>
+                </div>
+
+                <div className={styles.consSection}>
+                  <h4 style={{color: '#ef4444', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                    <AlertCircle size={20} /> Dezavantaje Direct
+                  </h4>
+                  <ul className={styles.consList}>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Lipsă transparență publică în proces</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Prețuri potențial mai mari fără competiție</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Fără protecție legală specifică SEAP</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Risc de percepție negativă în audituri</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Mai puține garanții pentru instituții publice</li>
+                    <li><span style={{color: '#ef4444'}}>✗</span> Documentație mai puțin standardizată</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.prosConsConclusion}>
+              <h4>Recomandarea Noastră</h4>
+              <p>
+                <strong>Pentru achiziții peste pragurile legale:</strong> SEAP este obligatoriu și oferă protecție maximă.
+              </p>
+              <p>
+                <strong>Pentru achiziții sub praguri sau urgențe:</strong> Achizițiile directe sunt mai rapide, dar asigurați-vă că documentați procesul și obțineți minimum 3 oferte comparative.
+              </p>
+              <p>
+                <strong>Pentru proiecte cu fonduri europene sau PNRR:</strong> SEAP este de regulă obligatoriu indiferent de valoare.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section className={styles.faqSection}>
           <div className={styles.container}>

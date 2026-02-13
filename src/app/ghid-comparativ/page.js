@@ -48,6 +48,7 @@ const comparisons = [
         country: 'Danemarca',
         founded: 1945,
         strengths: ['Eficiență energetică lider', 'Tehnologie IE5', 'Monitorizare IoT', 'Durabilitate excepțională'],
+        weaknesses: ['Preț inițial cu 20-30% mai mare', 'Complexitate configurare IoT', 'Costuri ridicate piese de schimb', 'Necesită training specializat pentru modele avansate'],
         bestFor: ['Tratare apă', 'HVAC', 'Industrie alimentară', 'Aplicații cu debit variabil'],
         priceRange: '€€€',
         warranty: '2-5 ani',
@@ -59,6 +60,7 @@ const comparisons = [
         country: 'Germania',
         founded: 1872,
         strengths: ['Raport calitate-preț excelent', 'Gama largă', 'Service rapid', 'Ușor de întreținut'],
+        weaknesses: ['Gama mai restrânsă pe pompe de proces', 'Suport tehnic local mai limitat față de Grundfos', 'Mai puțin prezent în aplicații chimice aggressive', 'Documentație tehnică mai puțin detaliată'],
         bestFor: ['Clădiri comerciale', 'Termoficare', 'Industrie generală', 'Drenaj'],
         priceRange: '€€',
         warranty: '2-3 ani',
@@ -70,6 +72,7 @@ const comparisons = [
         country: 'Germania',
         founded: 1871,
         strengths: ['Robust pentru aplicații grele', 'Experiență 150+ ani', 'Customizare avansată', 'Materiale speciale'],
+        weaknesses: ['Termene de livrare mai lungi (8-12 săptămâni)', 'Prețuri premium segment', 'Configurare mai complexă', 'Greu de justificat pentru aplicații standard'],
         bestFor: ['Petrochimie', 'Energie', 'Minerit', 'Aplicații ATEX'],
         priceRange: '€€€',
         warranty: '2-5 ani',
@@ -90,6 +93,7 @@ const comparisons = [
         country: 'Germania',
         founded: 1847,
         strengths: ['Integrare completă cu automatizări', 'Gama IE4/IE5', 'Suport global', 'Digitalizare avansată'],
+        weaknesses: ['Preț ridicat pentru aplicații standard', 'Complexitate software și parametrizare', 'Licențiere costisitoare pentru funcții avansate', 'Necesită formare specializată pentru întreținere'],
         bestFor: ['Linii de producție automatizate', 'Industrie 4.0', 'Aplicații de precizie', 'Sisteme integrate'],
         priceRange: '€€€',
         warranty: '2-3 ani',
@@ -101,6 +105,7 @@ const comparisons = [
         country: 'Elveția',
         founded: 1988,
         strengths: ['Motoare sincrone reluctanță', 'Eficiență IE5', 'Convertizoare VFD', 'Fiabilitate dovedită'],
+        weaknesses: ['Integrare dificilă cu sisteme non-ABB', 'Documentație complexă pentru modele speciale', 'Cost ridicat service pentru reparații complexe', 'Termene mai lungi pentru configurații personalizate'],
         bestFor: ['Industria grea', 'Compresoare', 'Pompe mari', 'Aplicații continue 24/7'],
         priceRange: '€€€',
         warranty: '2-3 ani',
@@ -112,6 +117,7 @@ const comparisons = [
         country: 'Germania',
         founded: 1931,
         strengths: ['Sisteme motor-reductor integrate', 'Modularitate', 'Service excelent', 'Soluții complete'],
+        weaknesses: ['Gama limitată la acționări și transportoare', 'Disponibilitate piese mai redusă local', 'Preț premium pentru soluții integrate', 'Mai puțin potrivit pentru motoare standalone mari'],
         bestFor: ['Transportoare', 'Logistică', 'Packaging', 'Automatizări modulare'],
         priceRange: '€€',
         warranty: '2-3 ani',
@@ -132,6 +138,7 @@ const comparisons = [
         country: 'Germania',
         founded: 1950,
         strengths: ['Specializare în abur', 'Calitate germană', 'Gama completă', 'Customizare'],
+        weaknesses: ['Preț ridicat față de alternative', 'Termene de livrare lungi pentru configurații speciale', 'Necesită cunoștințe avansate pentru montaj corect', 'Piese de schimb costisitoare'],
         bestFor: ['Instalații de abur', 'Industrie chimică', 'Rafinierii', 'Centrale termice'],
         priceRange: '€€€',
         warranty: '2 ani',
@@ -143,6 +150,7 @@ const comparisons = [
         country: 'UK',
         founded: 1888,
         strengths: ['Lider global în abur', 'Soluții complete', 'Training și consultanță', 'Monitorizare'],
+        weaknesses: ['Cele mai ridicate prețuri din industrie', 'Timpi de răspuns mai lungi pentru suport tehnic', 'Complexitate ridicată pentru aplicații simple', 'Lock-in în ecosistem proprietar'],
         bestFor: ['Sisteme abur complexe', 'Industria alimentară', 'Farmaceutică', 'Optimizare energie'],
         priceRange: '€€€',
         warranty: '2 ani',
@@ -154,6 +162,7 @@ const comparisons = [
         country: 'Danemarca',
         founded: 1933,
         strengths: ['Inovație în reglare', 'HVAC și refrigerare', 'Digitalizare', 'Eficiență energetică'],
+        weaknesses: ['Mai puțin potrivit pentru abur înaltă presiune', 'Gama limitată pentru aplicații chimice', 'Suport local mai slab decât concurența', 'Documentație tehnică uneori incompletă'],
         bestFor: ['HVAC industrial', 'Refrigerare', 'Reglare temperatură', 'Sisteme hidraulice'],
         priceRange: '€€',
         warranty: '2 ani',
@@ -174,6 +183,7 @@ const comparisons = [
         country: 'Suedia',
         founded: 1883,
         strengths: ['Tehnologie lider', 'Eficiență maximă', 'Inovație continuă', 'Gama vastă'],
+        weaknesses: ['Cel mai scump brand din piață', 'Garnituri OEM foarte costisitoare', 'Timpi de livrare lungi pentru configurații speciale', 'Lock-in în gamă proprietară'],
         bestFor: ['Industria alimentară', 'Marine', 'Energie', 'Farmaceutică'],
         priceRange: '€€€',
         warranty: '2-3 ani',
@@ -185,6 +195,7 @@ const comparisons = [
         country: 'Germania',
         founded: 1920,
         strengths: ['Raport calitate-preț', 'HVAC industrial', 'Răcire industrială', 'Flexibilitate'],
+        weaknesses: ['Documentație tehnică mai puțin detaliată', 'Disponibilitate piese în România', 'Termene comanda din Germania (5-7 zile)', 'Suport tehnic mai slab față de Alfa Laval'],
         bestFor: ['HVAC', 'Răcire industrială', 'Data centers', 'Aplicații generale'],
         priceRange: '€€',
         warranty: '2 ani',
@@ -196,6 +207,7 @@ const comparisons = [
         country: 'Suedia',
         founded: 1983,
         strengths: ['Schimbătoare brazate compacte', 'Eficiență termică', 'Design compact', 'Durabilitate'],
+        weaknesses: ['Nu se pot demonta pentru curățare manuală', 'Limitări pentru aplicații cu particule', 'Gama mai îngustă față de Alfa Laval', 'Dificil de reparat în caz de defecțiune'],
         bestFor: ['HVAC', 'Refrigerare', 'Pompe de căldură', 'Aplicații OEM'],
         priceRange: '€€',
         warranty: '2 ani',
@@ -345,7 +357,16 @@ export default function GhidComparativPage() {
                       <h4>Puncte Forte:</h4>
                       <ul>
                         {brand.strengths.map((strength) => (
-                          <li key={strength}>{strength}</li>
+                          <li key={strength}><span style={{color: '#10b981'}}>✓</span> {strength}</li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div className={styles.weaknesses}>
+                      <h4>Puncte Slabe:</h4>
+                      <ul>
+                        {brand.weaknesses.map((weakness) => (
+                          <li key={weakness}><span style={{color: '#ef4444'}}>✗</span> {weakness}</li>
                         ))}
                       </ul>
                     </div>
