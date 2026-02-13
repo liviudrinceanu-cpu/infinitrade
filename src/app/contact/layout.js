@@ -1,5 +1,10 @@
 import { config } from '@/lib/config';
 
+// Safe JSON-LD serialization - prevents XSS via script injection
+function safeJsonLd(data) {
+  return JSON.stringify(data).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026')
+}
+
 export const revalidate = 86400;
 
 export const metadata = {
@@ -57,7 +62,7 @@ export default function ContactLayout({ children }) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(contactPageSchema) }}
       />
       {children}
     </>

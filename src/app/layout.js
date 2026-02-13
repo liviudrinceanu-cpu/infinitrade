@@ -18,6 +18,11 @@ const inter = Inter({
   fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
 });
 
+// Safe JSON-LD serialization - prevents XSS via script injection
+function safeJsonLd(data) {
+  return JSON.stringify(data).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026')
+}
+
 export const metadata = {
   metadataBase: new URL(config.site.url),
   title: {
@@ -178,6 +183,21 @@ const localBusinessSchema = {
     opens: '08:00',
     closes: '16:30'
   },
+  areaServed: [
+    { '@type': 'Country', name: 'România' },
+    { '@type': 'City', name: 'București' },
+    { '@type': 'City', name: 'Cluj-Napoca' },
+    { '@type': 'City', name: 'Timișoara' },
+    { '@type': 'City', name: 'Iași' },
+    { '@type': 'City', name: 'Constanța' },
+    { '@type': 'City', name: 'Craiova' },
+    { '@type': 'City', name: 'Brașov' },
+    { '@type': 'City', name: 'Galați' },
+    { '@type': 'City', name: 'Ploiești' },
+    { '@type': 'City', name: 'Oradea' },
+    { '@type': 'City', name: 'Arad' },
+    { '@type': 'City', name: 'Sibiu' },
+  ],
   priceRange: '$$'
 }
 
@@ -194,6 +214,45 @@ const webSiteSchema = {
     '@id': `${config.site.url}/#organization`
   },
   inLanguage: 'ro-RO'
+}
+
+// Schema.org for Services offered
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Service',
+      '@id': `${config.site.url}/#service-consultanta`,
+      name: 'Consultanță Tehnică Echipamente Industriale',
+      description: 'Consultanță tehnică gratuită pentru selecția echipamentelor industriale: pompe, robineți, motoare electrice, schimbătoare de căldură. Dimensionare, specificații tehnice, bugetare.',
+      serviceType: 'Consultanță Tehnică',
+      provider: { '@id': `${config.site.url}/#organization` },
+      areaServed: { '@type': 'Country', name: 'România' },
+      availableChannel: {
+        '@type': 'ServiceChannel',
+        serviceUrl: `${config.site.url}/contact`,
+        servicePhone: '+40371232404',
+      },
+    },
+    {
+      '@type': 'Service',
+      '@id': `${config.site.url}/#service-instalare`,
+      name: 'Instalare și Punere în Funcțiune',
+      description: 'Servicii profesionale de instalare și punere în funcțiune echipamente industriale. Pompe, sisteme de pompare, robineți industriali, motoare electrice.',
+      serviceType: 'Instalare',
+      provider: { '@id': `${config.site.url}/#organization` },
+      areaServed: { '@type': 'Country', name: 'România' },
+    },
+    {
+      '@type': 'Service',
+      '@id': `${config.site.url}/#service-mentenanta`,
+      name: 'Service și Mentenanță Echipamente Industriale',
+      description: 'Service autorizat pentru pompe Grundfos, Wilo, KSB, motoare Siemens, ABB. Mentenanță preventivă, reparații, piese de schimb originale.',
+      serviceType: 'Service și Mentenanță',
+      provider: { '@id': `${config.site.url}/#organization` },
+      areaServed: { '@type': 'Country', name: 'România' },
+    },
+  ]
 }
 
 export default function RootLayout({ children }) {
@@ -228,17 +287,21 @@ export default function RootLayout({ children }) {
         {/* Schema.org JSON-LD */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(organizationSchema) }}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(localBusinessSchema) }}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(webSiteSchema) }}
         />
-        
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(serviceSchema) }}
+        />
+
         {/* Google Analytics */}
         {config.analytics.gaId && (
           <>
