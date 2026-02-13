@@ -1,9 +1,13 @@
 import './globals.css'
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
+import dynamic from 'next/dynamic';
 import { QuoteCartProvider } from '@/context/QuoteCartContext';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { config } from '@/lib/config';
+
+// Dynamically import WebVitals to avoid SSR (client-only component)
+const WebVitals = dynamic(() => import('@/components/WebVitals'), { ssr: false });
 
 // Optimized font loading - only load latin subset with swap display
 // This prevents FOIT (Flash of Invisible Text) and improves LCP
@@ -330,6 +334,7 @@ export default function RootLayout({ children }) {
         <a href="#main-content" className="skip-to-content">
           Salt la conținut
         </a>
+        <WebVitals />
         <ErrorBoundary>
           <QuoteCartProvider>
             {children}

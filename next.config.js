@@ -157,13 +157,22 @@ const nextConfig = {
   // Redirects for SEO
   async redirects() {
     return [
-      // Redirect www to non-www (assuming DNS is configured)
-      // {
-      //   source: '/:path*',
-      //   has: [{ type: 'host', value: 'www.infinitrade.ro' }],
-      //   destination: 'https://infinitrade.ro/:path*',
-      //   permanent: true,
-      // },
+      // 301 redirects from old category-prefixed brand slugs to simple slugs
+      { source: '/brand/pompe-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/pompe-vid-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/robineti-industriali-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/robineti-reglare-industriali-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/regulatoare-presiune-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/oale-condens-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/supape-siguranta-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/motoare-electrice-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/motoare-atex-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/schimbatoare-caldura-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/racitoare-ulei-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/suflante-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/suflante-roots-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/ventilatoare-industriale-:slug', destination: '/brand/:slug', permanent: true },
+      { source: '/brand/compresoare-industriale-:slug', destination: '/brand/:slug', permanent: true },
     ];
   },
 }
