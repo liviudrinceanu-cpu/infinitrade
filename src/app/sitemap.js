@@ -7,32 +7,32 @@ const BASE_URL = config.site.url;
 
 export default function sitemap() {
   // Use fixed dates for static content instead of dynamic dates
-  const staticDate = '2026-02-01';
+  const staticDate = '2026-02-13';
 
   // Static pages
   const staticPages = [
     {
       url: BASE_URL,
       lastModified: staticDate,
-      changeFrequency: 'weekly',
+      changeFrequency: 'daily',
       priority: 1.0,
     },
     {
       url: `${BASE_URL}/contact`,
       lastModified: staticDate,
-      changeFrequency: 'monthly',
+      changeFrequency: 'yearly',
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/despre-noi`,
       lastModified: staticDate,
-      changeFrequency: 'monthly',
+      changeFrequency: 'yearly',
       priority: 0.7,
     },
     {
       url: `${BASE_URL}/blog`,
       lastModified: staticDate,
-      changeFrequency: 'weekly',
+      changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
@@ -44,13 +44,13 @@ export default function sitemap() {
     {
       url: `${BASE_URL}/industrii`,
       lastModified: staticDate,
-      changeFrequency: 'monthly',
+      changeFrequency: 'yearly',
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/faq`,
       lastModified: staticDate,
-      changeFrequency: 'monthly',
+      changeFrequency: 'yearly',
       priority: 0.8,
     },
     {

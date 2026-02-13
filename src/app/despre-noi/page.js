@@ -220,6 +220,9 @@ export default function DesprePage() {
                 <span className={styles.officialYear}>Registrul Comerțului</span>
               </div>
             </div>
+            <p className="text-xs text-gray-400 mt-8 text-center">
+              Ultima actualizare: Februarie 2026
+            </p>
           </div>
         </section>
 
