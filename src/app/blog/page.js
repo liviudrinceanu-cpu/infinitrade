@@ -195,6 +195,9 @@ export default function BlogPage() {
                 </div>
               </aside>
             </div>
+            <div style={{ textAlign: 'center', marginTop: '3rem', fontSize: '0.875rem', color: '#6b7280' }}>
+              Ultima actualizare: Februarie 2026
+            </div>
           </div>
         </section>
       </main>

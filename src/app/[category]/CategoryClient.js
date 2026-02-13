@@ -437,6 +437,9 @@ export default function CategoryClient({ category }) {
                 </Link>
               ))}
           </div>
+          <div style={{ textAlign: 'center', marginTop: '2rem', fontSize: '0.875rem', color: '#6b7280' }}>
+            Ultima actualizare: Februarie 2026
+          </div>
         </div>
       </section>
     </>
