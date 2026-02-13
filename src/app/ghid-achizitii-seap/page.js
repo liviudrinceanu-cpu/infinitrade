@@ -755,7 +755,7 @@ export default function GhidSeapPage() {
                 „Am livrat peste 200 de comenzi prin SEAP în ultimii 5 ani. Cheia succesului în achizițiile publice este documentația tehnică impecabilă și respectarea termenelor. Oferim specificații tehnice complete, certificate de conformitate și livrare în termenul agreat. Pentru instituțiile publice, recomand să solicite oferte comparative de la minimum 3 furnizori autorizați."
               </blockquote>
               <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
-                <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>Liviu Drinceanu</cite>
+                <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>L.D.</cite>
                 <span style={{color: '#9ca3af'}}>·</span>
                 <span style={{color: '#6b7280', fontSize: '0.875rem'}}>Director General</span>
               </div>

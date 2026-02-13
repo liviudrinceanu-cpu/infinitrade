@@ -14,7 +14,7 @@ export const authors = [
   },
   {
     id: 'adrian-ionescu',
-    name: 'Adrian Ionescu',
+    name: 'A.I.',
     role: 'Director Tehnic',
     experience: '20+ ani',
     bio: 'Expert in dimensionare sisteme pompare si eficienta energetica industriala. A coordonat proiecte pentru rafinarii, centrale electrice si fabrici de procesare. A inceput ca inginer de aplicatii in 2003 si a crescut odata cu compania.',
@@ -24,7 +24,7 @@ export const authors = [
   },
   {
     id: 'mihai-radu',
-    name: 'Mihai Radu',
+    name: 'M.R.',
     role: 'Inginer Aplicatii Electrice',
     experience: '15+ ani',
     bio: 'Specialist in selectare si dimensionare motoare electrice industriale, convertizoare de frecventa si sisteme de actionare pentru industria grea. A lucrat anterior la un integrator de automatizari inainte de a se alatura echipei in 2012.',
@@ -34,7 +34,7 @@ export const authors = [
   },
   {
     id: 'cristina-pop',
-    name: 'Cristina Pop',
+    name: 'C.P.',
     role: 'Specialist Armaturi Industriale',
     experience: '12+ ani',
     bio: 'Expert in selectare robineti si supape pentru aplicatii critice: sisteme de abur, instalatii sub presiune, procese chimice. Lucreaza cu instalatori si proiectanti din toata tara pentru solutii de armaturi.',
@@ -44,7 +44,7 @@ export const authors = [
   },
   {
     id: 'radu-stanescu',
-    name: 'Radu Stănescu',
+    name: 'R.S.',
     role: 'Specialist Suflante și Compresoare',
     experience: '13+ ani',
     bio: 'Expert in suflante canal lateral, Roots si centrifugale. A dimensionat sisteme de aerare pentru zeci de statii de epurare si linii de transport pneumatic. Inainte de Infinitrade, a lucrat in service la Becker Romania.',
@@ -54,7 +54,7 @@ export const authors = [
   },
   {
     id: 'dan-munteanu',
-    name: 'Dan Munteanu',
+    name: 'D.M.',
     role: 'Inginer Proiectare Termică',
     experience: '11+ ani',
     bio: 'Specialist in dimensionare schimbatoare de caldura si sisteme termice industriale. A proiectat sisteme de recuperare caldura pentru fabrici din industria alimentara si chimica. Absolvent Politehnica Timisoara, sectia Energetica.',
@@ -64,7 +64,7 @@ export const authors = [
   },
   {
     id: 'elena-vasile',
-    name: 'Elena Vasile',
+    name: 'E.V.',
     role: 'Inginer Service și Mentenanță',
     experience: '9+ ani',
     bio: 'Coordoneaza echipa de service si programele de mentenanta preventiva. A implementat sisteme de monitorizare predictiva la clienti din industria alimentara si energetica. Stie ce se defecteaza si de ce.',

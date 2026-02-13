@@ -67,7 +67,7 @@ Conform SR EN 16480, pompele noi trebuie sa respecte clase de eficienta. Merita 
 
 Daca tot ce ai citit pare complicat - nu te stresa. Trimite-ne parametrii procesului si ne ocupam noi de dimensionare. Am lucrat cu toate brandurile majore - [Grundfos](/brand/grundfos), [Wilo](/brand/wilo), [KSB](/brand/ksb) - si putem recomanda exact ce ai nevoie. Facem asta de 15 ani, e gratis, si raspundem de obicei in 24 de ore.
     `,
-    author: 'Adrian Ionescu, Director Tehnic',
+    author: 'A.I., Director Tehnic',
     authorId: 'adrian-ionescu',
     date: '2026-01-15',
     dateModified: '2026-01-22',
@@ -157,7 +157,7 @@ Depinde de ce conteaza pentru tine:
 
 Daca nu stii ce sa alegi, spune-ne aplicatia si iti recomandam noi. Vezi [gama completa de motoare electrice](/motoare-electrice) pe site. Nu avem interes sa iti vindem un brand sau altul - marjele sunt similare.
     `,
-    author: 'Mihai Radu, Inginer Aplicatii',
+    author: 'M.R., Inginer Aplicații',
     authorId: 'mihai-radu',
     date: '2026-01-10',
     dateModified: '2026-01-22',
@@ -226,7 +226,7 @@ Dar trebuie sa masori inainte. Fara masuratori, nu stii cat pierzi si nu poti es
 
 Facem audit energetic gratuit pentru sistemele de pompare. Venim, masuram, calculam. Lucram cu toate brandurile majore - [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) - si putem recomanda exact ce ai nevoie. Daca nu merita investitia, iti spunem cinstit - n-avem de castigat din recomandari care nu se justifica.
     `,
-    author: 'Adrian Ionescu, Director Tehnic',
+    author: 'A.I., Director Tehnic',
     authorId: 'adrian-ionescu',
     date: '2026-01-05',
     dateModified: '2026-01-24',
@@ -310,7 +310,7 @@ Lucram cu branduri premium precum [Spirax Sarco](/brand/spirax-sarco) pentru apl
 
 Nu exista "mai bun" in general - exista "potrivit pentru ce ai tu de facut". Nu esti sigur? Suna-ne. 5 minute la telefon costa mai putin decat sa montezi ceva gresit.
     `,
-    author: 'Andrei Popa, Departament Armatura',
+    author: 'C.P., Specialist Armaturi',
     authorId: 'cristina-pop',
     date: '2025-12-20',
     dateModified: '2026-01-22',
@@ -414,7 +414,7 @@ Tine un jurnal pentru fiecare echipament. Noteaza interventiile, masuratorile, p
 
 Facem contracte de mentenanta pentru clientii care prefera sa externalizeze asta. Dar chiar daca nu lucrezi cu noi, implementeaza un program - orice e mai bun decat nimic.
     `,
-    author: 'Elena Vasile, Inginer Service',
+    author: 'E.V., Inginer Service',
     authorId: 'elena-vasile',
     date: '2025-12-15',
     dateModified: '2026-01-24',
@@ -505,7 +505,7 @@ Inainte sa cumperi un [schimbator de caldura](/schimbatoare-caldura) de la un br
 
 [Alfa Laval](/brand/alfa-laval), [Kelvion](/brand/kelvion), SWEP au piese disponibile rapid in Europa. Merita diferenta de pret.
     `,
-    author: 'Dan Munteanu, Inginer Proiectare',
+    author: 'D.M., Inginer Proiectare',
     authorId: 'dan-munteanu',
     date: '2025-12-10',
     dateModified: '2026-01-24',
@@ -589,7 +589,7 @@ Suflantele pot consuma multa energie. Cateva reguli:
 
 Daca ai dubii, trimite-ne datele si te ajutam cu dimensionarea. Vezi gama completa de [suflante industriale](/suflante-ventilatoare) pe site. Am livrat sute de suflante in ultimii ani si stim ce functioneaza in ce aplicatie.
     `,
-    author: 'Radu Stănescu, Specialist Suflante',
+    author: 'R.S., Specialist Suflante',
     authorId: 'radu-stanescu',
     date: '2025-12-05',
     dateModified: '2026-01-24',
@@ -703,7 +703,7 @@ Avem in stoc garnituri pentru [Grundfos](/brand/grundfos), [Wilo](/brand/wilo), 
 
 Sfat: cand comanzi, spune modelul exact de pompa si daca se poate, trimite poza cu garnitura veche. Exista multe variante si e usor sa comanzi gresit.
     `,
-    author: 'Elena Vasile, Inginer Service',
+    author: 'E.V., Inginer Service',
     authorId: 'elena-vasile',
     date: '2025-11-28',
     dateModified: '2026-01-24',
@@ -917,7 +917,7 @@ Grundfos si Wilo nu sunt singurele optiuni. KSB, Ebara, Calpeda, DAB - toate au 
 
 Daca ai alta preferinta sau ai avut experiente bune cu alt brand, respectam asta. In final, conteaza sa functioneze si sa poti intretine usor.
     `,
-    author: 'Adrian Ionescu, Director Tehnic',
+    author: 'A.I., Director Tehnic',
     authorId: 'adrian-ionescu',
     date: '2025-11-15',
     dateModified: '2026-01-24',
@@ -1030,7 +1030,7 @@ Avem oale Spirax Sarco si Gestra in stoc. Vezi si gama de [schimbatoare de caldu
 
 Un audit pentru o fabrica medie? Cateva sute de euro. Ce gasim de obicei? Pierderi de zeci de mii pe an.
     `,
-    author: 'Cristian Barbu, Specialist Instalatii Termice',
+    author: 'C.P., Specialist Instalații Termice',
     authorId: 'cristina-pop',
     date: '2025-11-08',
     dateModified: '2026-01-22',
@@ -1136,7 +1136,7 @@ Daca ROI-ul e sub 2 ani, merita aproape sigur. Sub 1 an, merita cu siguranta.
 
 Venim la tine, masuram, calculam si iti spunem sincer daca are sens. Vezi gama completa de [motoare electrice](/motoare-electrice) pe site. Daca nu, nu insistam. Daca da, facem totul: VFD, instalare, parametrizare, punere in functiune.
     `,
-    author: 'Vlad Nicolescu, Inginer Automatizari',
+    author: 'M.R., Inginer Automatizări',
     authorId: 'mihai-radu',
     date: '2025-10-30',
     dateModified: '2026-01-22',
@@ -1233,7 +1233,7 @@ Depinde. Serios, depinde.
 
 Sau ne intrebi pe noi - vezi gama completa de [schimbatoare de caldura](/schimbatoare-caldura) pe site si iti trimitem oferte de la ambii si decizi tu.
     `,
-    author: 'Dan Munteanu, Inginer Proiectare',
+    author: 'D.M., Inginer Proiectare',
     authorId: 'dan-munteanu',
     date: '2025-10-22',
     dateModified: '2026-01-24',
@@ -1342,7 +1342,7 @@ Matematica e clara.
 
 Facem contracte de mentenanta pentru cine vrea sa externalizeze asta. Dar chiar daca nu lucrezi cu noi - fa ceva. Orice program de mentenanta, oricat de simplu, e mai bun decat sa astepti sa se strice.
     `,
-    author: 'Elena Vasile, Inginer Service',
+    author: 'E.V., Inginer Service',
     authorId: 'elena-vasile',
     date: '2025-10-15',
     dateModified: '2026-01-24',

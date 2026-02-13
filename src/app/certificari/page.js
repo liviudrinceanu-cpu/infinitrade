@@ -462,7 +462,7 @@ export default function CertificariPage() {
                 „Certificările și autorizațiile nu sunt doar documente — sunt garanția că echipamentele pe care le livrăm respectă cele mai înalte standarde de calitate și siguranță. Fiecare brand din portofoliul nostru este selectat pe baza certificărilor internaționale: ISO, CE, ATEX pentru medii explozive, și certificări specifice industriei alimentare sau farmaceutice."
               </blockquote>
               <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
-                <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>Liviu Drinceanu</cite>
+                <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>L.D.</cite>
                 <span style={{color: '#9ca3af'}}>·</span>
                 <span style={{color: '#6b7280', fontSize: '0.875rem'}}>Director General</span>
               </div>
