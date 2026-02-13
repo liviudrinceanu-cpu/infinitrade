@@ -6,7 +6,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 // Removed framer-motion - using CSS transitions for better performance (~30KB savings)
 import { Menu, X, ChevronDown, Phone, Mail, Clock, Search, ShoppingCart, Plus, Trash2 } from 'lucide-react';
-import { navigation, secondaryNavigation, categories, allBrands } from '@/data/products';
+import { navigation, secondaryNavigation } from '@/data/products';
+import { allCategoriesUnified as categories, allBrandsUnified } from '@/data/allBrandsIndex';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { debounce } from '@/lib/utils';
 import styles from './Header.module.css';
@@ -34,14 +35,14 @@ const buildSearchIndex = () => {
     });
   });
   
-  allBrands.forEach(brand => {
-    const cat = categories.find(c => c.slug === brand.category);
+  allBrandsUnified.forEach(brand => {
+    const catName = brand.categories?.[0]?.name || '';
     items.push({
       type: 'brand',
       name: brand.name,
-      category: cat?.name || '',
-      url: `/brand/${brand.slug}`,
-      keywords: [brand.name.toLowerCase(), cat?.name?.toLowerCase() || '']
+      category: catName,
+      url: `/brand/${brand.simpleSlug}`,
+      keywords: [brand.name.toLowerCase(), catName.toLowerCase(), brand.country?.toLowerCase() || '']
     });
   });
   
@@ -306,9 +307,40 @@ export default function Header() {
           {/* Secondary Navigation Row - Centered */}
           <div className={styles.secondaryNav}>
             {secondaryNavigation.map((item) => (
-              <Link key={item.name} href={item.href} className={styles.secondaryNavLink}>
-                {item.name}
-              </Link>
+              item.isMegaMenu ? (
+                <div
+                  key={item.name}
+                  className={styles.megaMenuWrapper}
+                  onMouseEnter={() => setActiveDropdown('mega')}
+                  onMouseLeave={() => setActiveDropdown(null)}
+                >
+                  <Link
+                    href={item.href}
+                    className={`${styles.secondaryNavLink} ${styles.secondaryNavLinkRed}`}
+                  >
+                    {item.name}
+                    <ChevronDown size={12} />
+                  </Link>
+                  <div className={`${styles.megaMenuDropdown} ${activeDropdown === 'mega' ? styles.dropdownVisible : ''}`}>
+                    <div className={styles.megaMenuGrid}>
+                      {item.children.map(child => (
+                        <Link
+                          key={child.href}
+                          href={child.href}
+                          className={styles.megaMenuCard}
+                        >
+                          <span className={styles.megaMenuName}>{child.name}</span>
+                          <span className={styles.megaMenuDesc}>{child.description}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <Link key={item.name} href={item.href} className={styles.secondaryNavLink}>
+                  {item.name}
+                </Link>
+              )
             ))}
           </div>
 
@@ -457,15 +489,39 @@ export default function Header() {
         <nav className={styles.mobileNav} aria-label="Navigare mobilă">
           {/* Secondary navigation first */}
           {secondaryNavigation.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className={styles.mobileNavLink}
-              onClick={() => setIsMobileMenuOpen(false)}
-              tabIndex={isMobileMenuOpen ? 0 : -1}
-            >
-              {item.name}
-            </Link>
+            item.isMegaMenu ? (
+              <div key={item.name} className={styles.mobileDropdownGroup}>
+                <Link
+                  href={item.href}
+                  className={`${styles.mobileNavLink} ${styles.mobileNavLinkRed}`}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  tabIndex={isMobileMenuOpen ? 0 : -1}
+                >
+                  {item.name}
+                </Link>
+                {item.children.map(child => (
+                  <Link
+                    key={child.href}
+                    href={child.href}
+                    className={styles.mobileSubLink}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    tabIndex={isMobileMenuOpen ? 0 : -1}
+                  >
+                    {child.name}
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <Link
+                key={item.name}
+                href={item.href}
+                className={styles.mobileNavLink}
+                onClick={() => setIsMobileMenuOpen(false)}
+                tabIndex={isMobileMenuOpen ? 0 : -1}
+              >
+                {item.name}
+              </Link>
+            )
           ))}
 
           {/* Separator */}

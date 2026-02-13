@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { Mail, MapPin, Clock, ArrowUpRight } from 'lucide-react';
 import { categories, companyInfo, footerIndustries } from '@/data/products';
+import { equipmentCategories } from '@/data/equipmentCategories';
 import { config } from '@/lib/config';
 import styles from './Footer.module.css';
 
@@ -56,6 +57,25 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          {/* Echipamente Diverse */}
+          <div className={styles.column}>
+            <h4 className={styles.columnTitle}>Echipamente</h4>
+            <ul className={styles.columnList}>
+              {equipmentCategories.slice(0, 6).map((cat) => (
+                <li key={cat.slug}>
+                  <Link href={`/${cat.slug}`} className={styles.columnLink}>
+                    {cat.name}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link href="/echipamente-diverse" className={styles.columnLink}>
+                  Vezi toate →
+                </Link>
+              </li>
             </ul>
           </div>
 

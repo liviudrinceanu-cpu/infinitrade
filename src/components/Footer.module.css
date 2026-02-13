@@ -10,11 +10,11 @@
   padding: 0 24px;
 }
 
-/* Main - 5 columns: Brand wider, rest equal */
+/* Main - 6 columns: Brand wider, rest equal */
 .main {
   display: grid;
-  grid-template-columns: 1.5fr repeat(4, 1fr);
-  gap: 40px;
+  grid-template-columns: 1.5fr repeat(5, 1fr);
+  gap: 32px;
   padding-bottom: 48px;
 }
 
@@ -227,7 +227,7 @@
 /* Responsive - Large tablets */
 @media (max-width: 1200px) {
   .main {
-    grid-template-columns: 1.5fr repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 32px;
   }
 

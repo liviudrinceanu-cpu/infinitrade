@@ -401,6 +401,24 @@ export const navigation = [
 // Secondary navigation - info pages (centered below)
 export const secondaryNavigation = [
   { name: 'Acasă', href: '/' },
+  {
+    name: 'Branduri & Echipamente',
+    href: '/echipamente-diverse',
+    isRedHighlight: true,
+    isMegaMenu: true,
+    children: [
+      { name: 'Automatizări Industriale', href: '/automatizari-industriale', description: 'PLC, HMI, SCADA, actuatoare' },
+      { name: 'Senzori și Instrumentație', href: '/senzori-instrumentatie', description: 'Presiune, temperatură, debit' },
+      { name: 'Componente Hidraulice', href: '/componente-hidraulice-pneumatice', description: 'Cilindri, distribuitoare, pompe' },
+      { name: 'Echipamente Electrice', href: '/echipamente-electrice', description: 'Întrerupătoare, contactoare, VFD' },
+      { name: 'Componente Mecanice', href: '/componente-mecanice', description: 'Rulmenți, curele, garnituri' },
+      { name: 'Filtre și Consumabile', href: '/filtre-consumabile', description: 'Filtre hidraulice, aer, ulei' },
+      { name: 'Scule și Instrumente', href: '/scule-instrumente', description: 'Scule electrice, măsură' },
+      { name: 'Echipamente Termice', href: '/echipamente-termice', description: 'Chillere, cazane, arzătoare' },
+      { name: 'Lubrifianți și Chimice', href: '/lubrifianti-chimice', description: 'Uleiuri, unsori, adezivi' },
+      { name: 'Echipamente Auxiliare', href: '/echipamente-auxiliare', description: 'Protecție, curățenie, dozare' },
+    ]
+  },
   { name: 'Despre Noi', href: '/despre-noi' },
   { name: 'Contact', href: '/contact' },
 ];

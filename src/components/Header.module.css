@@ -299,6 +299,100 @@
   background: rgba(9, 144, 219, 0.08);
 }
 
+/* Red Mega-Menu Link */
+.secondaryNavLinkRed {
+  color: #dc2626;
+  font-weight: 600;
+  gap: 4px;
+}
+
+.secondaryNavLinkRed:hover {
+  color: white;
+  background: #dc2626;
+}
+
+/* Mega-Menu Wrapper */
+.megaMenuWrapper {
+  position: relative;
+}
+
+.megaMenuDropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+  padding: 24px;
+  width: 680px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+}
+
+.megaMenuDropdown.dropdownVisible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.megaMenuGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.megaMenuCard {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background var(--transition-fast);
+}
+
+.megaMenuCard:hover {
+  background: var(--gray-50);
+}
+
+.megaMenuName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: 3px;
+}
+
+.megaMenuDesc {
+  font-size: 12px;
+  color: var(--gray-500);
+  line-height: 1.4;
+}
+
+/* Mobile Red Link */
+.mobileNavLinkRed {
+  color: #dc2626 !important;
+  font-weight: 600 !important;
+}
+
+.mobileSubLink {
+  display: block;
+  padding: 10px 16px 10px 32px;
+  font-size: 14px;
+  color: var(--gray-600);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all var(--transition-fast);
+}
+
+.mobileSubLink:hover {
+  background: var(--gray-50);
+  color: var(--primary);
+}
+
 /* Row 2: Search + CTA */
 .searchRow {
   display: flex;
@@ -870,6 +964,10 @@
   }
 
   .secondaryNav {
+    display: none;
+  }
+
+  .megaMenuDropdown {
     display: none;
   }
 
