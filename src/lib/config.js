@@ -6,7 +6,7 @@ export const config = {
       sales: 'vanzari@infinitrade-romania.ro',
       secretariat: 'secretariat@infinitrade-romania.ro',
     },
-    phone: '0371 232 404',
+    phone: '+40 371 232 404',
     cui: 'RO26209397',
   },
   api: {

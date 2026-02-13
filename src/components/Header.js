@@ -179,9 +179,9 @@ export default function Header() {
             </a>
           </div>
           <div className={styles.topBarRight}>
-            <a href="tel:0371232404" className={styles.topBarLink}>
+            <a href="tel:+40371232404" className={styles.topBarLink}>
               <Phone size={14} />
-              0371 232 404
+              +40 371 232 404
             </a>
             <span className={styles.topBarDivider}>|</span>
             <span className={styles.topBarLink}>

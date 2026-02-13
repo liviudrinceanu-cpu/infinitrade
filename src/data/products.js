@@ -214,7 +214,7 @@ export const companyInfo = {
   contact: { 
     email: 'vanzari@infinitrade-romania.ro', 
     emailSecretariat: 'secretariat@infinitrade-romania.ro', 
-    phone: '0371 232 404', 
+    phone: '+40 371 232 404', 
     hours: 'Luni - Vineri / 08:00 - 16:30' 
   },
   stats: { clients: '800+', brands: '500+', suppliers: '300+', years: '17' },

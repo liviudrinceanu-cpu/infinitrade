@@ -231,7 +231,7 @@ const serviceSchema = {
       availableChannel: {
         '@type': 'ServiceChannel',
         serviceUrl: `${config.site.url}/contact`,
-        servicePhone: '+40371232404',
+        servicePhone: '+40 371 232 404',
       },
     },
     {

@@ -394,6 +394,22 @@ export default function GhidComparativPage() {
           </div>
         </section>
 
+        {/* Expert Quote - GEO-02 Signal */}
+        <section style={{padding: '3rem 0', background: '#f9fafb'}}>
+          <div style={{maxWidth: '800px', margin: '0 auto', padding: '0 1.5rem'}}>
+            <div style={{background: 'white', borderRadius: '16px', padding: '2rem', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb'}}>
+              <blockquote style={{fontSize: '1.1rem', color: '#374151', fontStyle: 'italic', marginBottom: '1rem', lineHeight: '1.7'}}>
+                „Comparația obiectivă între branduri este esențială înainte de orice achiziție industrială. După 15 ani de experiență cu Grundfos, Wilo și KSB, pot spune că fiecare brand excelează în aplicații diferite. Grundfos domină în eficiență energetică, Wilo în raport calitate-preț, iar KSB în aplicații de înaltă presiune. Nu există un brand universal mai bun — totul depinde de aplicația specifică."
+              </blockquote>
+              <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
+                <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>Liviu Drinceanu</cite>
+                <span style={{color: '#9ca3af'}}>·</span>
+                <span style={{color: '#6b7280', fontSize: '0.875rem'}}>Director General</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className={styles.ctaSection}>
           <div className={styles.container}>

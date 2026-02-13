@@ -158,7 +158,7 @@ function generateJsonLd(brand, category) {
         },
         contactPoint: {
           '@type': 'ContactPoint',
-          telephone: '+40-371-232-404',
+          telephone: '+40 371 232 404',
           contactType: 'sales',
           areaServed: 'RO',
           availableLanguage: ['Romanian', 'English'],

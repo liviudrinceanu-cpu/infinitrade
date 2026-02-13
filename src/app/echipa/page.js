@@ -210,8 +210,8 @@ export default function EchipaPage() {
             <Link href="/contact" className={styles.primaryBtn}>
               Contactează-ne
             </Link>
-            <a href="tel:0371232404" className={styles.secondaryBtn}>
-              📞 0371 232 404
+            <a href="tel:+40371232404" className={styles.secondaryBtn}>
+              📞 +40 371 232 404
             </a>
           </div>
         </div>

@@ -9,7 +9,7 @@ export const revalidate = 86400;
 
 export const metadata = {
   title: 'Contact | Solicită Ofertă',
-  description: 'Contactează-ne pentru oferte echipamente industriale. Pompe, robineți, motoare. Răspuns în 24h, consultanță gratuită. Tel: 0371 232 404',
+  description: 'Contactează-ne pentru oferte echipamente industriale. Pompe, robineți, motoare. Răspuns în 24h, consultanță gratuită. Tel: +40 371 232 404',
   alternates: {
     canonical: `${config.site.url}/contact`,
   },
@@ -38,7 +38,7 @@ const contactPageSchema = {
     name: 'Infinitrade Romania',
     logo: `${config.site.url}/logo-header.png`,
     image: `${config.site.url}/logo-header.png`,
-    telephone: '+40-371-232-404',
+    telephone: '+40 371 232 404',
     email: config.site.email.sales,
     address: {
       '@type': 'PostalAddress',

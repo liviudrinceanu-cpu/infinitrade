@@ -653,6 +653,22 @@ export default function GhidSeapPage() {
           </div>
         </section>
 
+        {/* Expert Quote - GEO-02 Signal */}
+        <section style={{padding: '3rem 0', background: '#f9fafb'}}>
+          <div style={{maxWidth: '800px', margin: '0 auto', padding: '0 1.5rem'}}>
+            <div style={{background: 'white', borderRadius: '16px', padding: '2rem', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb'}}>
+              <blockquote style={{fontSize: '1.1rem', color: '#374151', fontStyle: 'italic', marginBottom: '1rem', lineHeight: '1.7'}}>
+                „Am livrat peste 200 de comenzi prin SEAP în ultimii 5 ani. Cheia succesului în achizițiile publice este documentația tehnică impecabilă și respectarea termenelor. Oferim specificații tehnice complete, certificate de conformitate și livrare în termenul agreat. Pentru instituțiile publice, recomand să solicite oferte comparative de la minimum 3 furnizori autorizați."
+              </blockquote>
+              <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
+                <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>Liviu Drinceanu</cite>
+                <span style={{color: '#9ca3af'}}>·</span>
+                <span style={{color: '#6b7280', fontSize: '0.875rem'}}>Director General</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className={styles.ctaSection}>
           <div className={styles.container}>
@@ -674,7 +690,7 @@ export default function GhidSeapPage() {
               <div className={styles.ctaContact}>
                 <p>
                   <strong>Email:</strong> vanzari@infinitrade-romania.ro |
-                  <strong> Telefon:</strong> 0371 232 404
+                  <strong> Telefon:</strong> +40 371 232 404
                 </p>
               </div>
             </div>

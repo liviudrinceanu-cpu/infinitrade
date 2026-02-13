@@ -147,7 +147,7 @@ function generateIndustryJsonLd(industry) {
         logo: `${config.site.url}/logo-header.png`,
         contactPoint: {
           '@type': 'ContactPoint',
-          telephone: '+40-371-232-404',
+          telephone: '+40 371 232 404',
           contactType: 'sales',
           availableLanguage: ['Romanian', 'English'],
         },

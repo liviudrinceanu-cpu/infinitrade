@@ -397,6 +397,22 @@ export default function CertificariPage() {
           </div>
         </section>
 
+        {/* Expert Quote - GEO-02 Signal */}
+        <section style={{padding: '3rem 0', background: '#f9fafb'}}>
+          <div style={{maxWidth: '800px', margin: '0 auto', padding: '0 1.5rem'}}>
+            <div style={{background: 'white', borderRadius: '16px', padding: '2rem', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb'}}>
+              <blockquote style={{fontSize: '1.1rem', color: '#374151', fontStyle: 'italic', marginBottom: '1rem', lineHeight: '1.7'}}>
+                „Certificările și autorizațiile nu sunt doar documente — sunt garanția că echipamentele pe care le livrăm respectă cele mai înalte standarde de calitate și siguranță. Fiecare brand din portofoliul nostru este selectat pe baza certificărilor internaționale: ISO, CE, ATEX pentru medii explozive, și certificări specifice industriei alimentare sau farmaceutice."
+              </blockquote>
+              <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
+                <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>Liviu Drinceanu</cite>
+                <span style={{color: '#9ca3af'}}>·</span>
+                <span style={{color: '#6b7280', fontSize: '0.875rem'}}>Director General</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
