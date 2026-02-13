@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { config } from '@/lib/config';
+import { safeJsonLd } from '@/lib/utils';
 import { Shield, Award, FileCheck, Building2, CheckCircle, Globe, ExternalLink, AlertCircle } from 'lucide-react';
 import styles from './certificari.module.css';
 
@@ -305,11 +306,11 @@ export default function CertificariPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(certificationsSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(certificationsSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>
@@ -391,7 +392,6 @@ export default function CertificariPage() {
               {partners.map((partner, index) => (
                 <div key={index} className={styles.partnerCard}>
                   <span className={styles.partnerName}>{partner.name}</span>
-                  <span className={styles.partnerCountry}>{partner.country}</span>
                 </div>
               ))}
             </div>
@@ -444,6 +444,11 @@ export default function CertificariPage() {
                 <strong>Activitate:</strong> CAEN 4690 - Comerț en-gros nespecializat
               </div>
             </div>
+            <p className={styles.disclaimer}>
+              <AlertCircle size={14} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '4px' }} />
+              Link-urile de mai sus duc către site-uri externe operate de terți.
+              Infinitrade nu controlează conținutul acestor site-uri.
+            </p>
           </div>
         </section>
 

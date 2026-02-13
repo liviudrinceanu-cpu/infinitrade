@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { config } from '@/lib/config';
+import { safeJsonLd } from '@/lib/utils';
 import { ChevronDown } from 'lucide-react';
 import styles from './faq.module.css';
 
@@ -217,7 +218,7 @@ export default function FAQPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>

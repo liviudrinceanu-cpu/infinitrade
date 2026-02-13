@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
   const categoryNames = brand.categories.map(c => c.name).join(', ');
 
   const title = `${brand.name} | Catalog Produse 2026 | Infinitrade`;
-  const description = `2026: Distribuitor ${brand.name} (${brand.country}). Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
+  const description = `2026: Distribuitor ${brand.name} în România. Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
 
   const baseKeywords = [
     brand.name,
@@ -63,7 +63,6 @@ export async function generateMetadata({ params }) {
     `furnizor ${brand.name}`,
     'echipamente industriale romania',
     'furnizor SEAP echipamente industriale',
-    brand.country,
   ];
 
   const keywords = [...new Set(baseKeywords)].slice(0, 35);

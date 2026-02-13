@@ -93,16 +93,14 @@ export default async function Image({ params }) {
             >
               {brandName}
             </span>
-            {countryName && (
-              <span
-                style={{
-                  fontSize: '32px',
-                  color: '#94a3b8',
-                }}
-              >
-                {countryName} • Furnizor în România
-              </span>
-            )}
+            <span
+              style={{
+                fontSize: '32px',
+                color: '#94a3b8',
+              }}
+            >
+              Furnizor în România
+            </span>
           </div>
 
           {/* Features */}

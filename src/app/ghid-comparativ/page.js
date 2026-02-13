@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
 import { categories } from '@/data/products';
+import { safeJsonLd } from '@/lib/utils';
 import styles from './ghid-comparativ.module.css';
 
 export const metadata = {
@@ -403,7 +404,7 @@ export default function GhidComparativPage() {
       <main id="main-content">
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
         />
 
         {/* Hero */}
@@ -449,7 +450,7 @@ export default function GhidComparativPage() {
 
                     <div className={styles.brandHeader}>
                       <h3>{brand.name}</h3>
-                      <span className={styles.country}>{brand.country} • Fondat {brand.founded}</span>
+                      <span className={styles.country}>Fondat {brand.founded}</span>
                     </div>
 
                     <StarRating rating={brand.rating} />

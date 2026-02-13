@@ -56,6 +56,11 @@ export function sanitizeText(text) {
   return DOMPurify.sanitize(text, { ALLOWED_TAGS: [] });
 }
 
+// Safe JSON-LD serialization (prevents XSS in structured data)
+export function safeJsonLd(data) {
+  return JSON.stringify(data).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026');
+}
+
 // Format phone number
 export function formatPhone(phone) {
   if (!phone) return '';

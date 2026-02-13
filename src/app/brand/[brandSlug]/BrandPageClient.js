@@ -71,7 +71,7 @@ export default function BrandPageClient({ brand, allCategories }) {
                 {brand.name}
               </h1>
               <p className={styles.heroSubtitle}>
-                Furnizor în România &bull; {brand.country}
+                Furnizor în România
               </p>
 
               {/* Category badges for multi-category brands */}
@@ -161,7 +161,7 @@ export default function BrandPageClient({ brand, allCategories }) {
               <div className={styles.aboutContent}>
                 <h2>Despre {brand.name}</h2>
                 <p>
-                  <strong>{brand.name}</strong> este un producator de renume mondial din <strong>{brand.country}</strong>,
+                  <strong>{brand.name}</strong> este un producator de renume mondial,
                   recunoscut pentru calitatea exceptionala si inovatia in domeniul {category.name.toLowerCase()}.
                 </p>
                 <p>
@@ -337,7 +337,6 @@ export default function BrandPageClient({ brand, allCategories }) {
                     >
                       <div className={styles.relatedInfo}>
                         <span className={styles.relatedName}>{relatedBrand.name}</span>
-                        <span className={styles.relatedCountry}>{relatedBrand.country}</span>
                       </div>
                       <ArrowRight size={16} />
                     </Link>

@@ -155,7 +155,6 @@ export default function CategoryClient({ category }) {
                 </div>
                 <div className={styles.brandInfo}>
                   <h3>{brand.name}</h3>
-                  <span className={styles.brandCountry}>{brand.country}</span>
                   <p>{brand.description}</p>
                 </div>
                 <div className={styles.brandActions}>

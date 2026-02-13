@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
+import { safeJsonLd } from '@/lib/utils';
 import { FileCheck, Shield, Clock, Truck, Phone, CheckCircle, AlertCircle, ArrowRight, FileText, Award, Building2, Users, Package, Zap, Settings2, Thermometer, Wind, Droplets, Cpu, Gauge, Wrench, Filter, Cog, Plug2, Flame, HardHat } from 'lucide-react';
 import styles from './ghid-seap.module.css';
 
@@ -575,7 +576,7 @@ export default function GhidSeapPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>
