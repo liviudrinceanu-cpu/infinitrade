@@ -137,6 +137,7 @@ const organizationSchema = {
   sameAs: [
     'https://www.linkedin.com/company/infinitrade-romania',
     'https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL',
+    'https://www.risco.ro/verifica-firma/driatheli-group-cui-26209397',
   ],
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -180,7 +181,7 @@ const localBusinessSchema = {
   priceRange: '$$'
 }
 
-// Schema.org for WebSite with SearchAction (enables sitelink search box in SERP)
+// Schema.org for WebSite (removed SearchAction as there's no search functionality)
 const webSiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',

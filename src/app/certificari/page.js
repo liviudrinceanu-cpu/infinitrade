@@ -233,11 +233,33 @@ export const metadata = {
 export default function CertificariPage() {
   const certificationsSchema = generateCertificationsSchema();
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Acasă',
+        item: { '@type': 'WebPage', '@id': config.site.url },
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Certificări',
+      },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(certificationsSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>
