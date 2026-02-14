@@ -86,7 +86,7 @@ Daca tot ce ai citit pare complicat - nu te stresa. Trimite-ne parametrii proces
     content: `
 Primim des intrebarea: "Care e cel mai bun motor?". Raspunsul corect e: depinde. Si nu, nu e un raspuns de evitare (desi suna asa) - chiar depinde de aplicatie, de buget, si de ce fel de suport ai nevoie dupa.
 
-Lucram cu [motoare electrice](/motoare-electrice) de la [Siemens](/brand/siemens), [ABB](/brand/abb) si [SEW](/brand/sew-eurodrive) de peste 10 ani - am montat mii de motoare, am vazut ce se defecteaza si ce rezista (si am avut si surprize, sa fim sinceri). Iata ce am observat.
+Lucram cu [motoare electrice](/motoare-electrice) de la [Siemens](/brand/siemens), [ABB](/brand/abb) si [SEW](/brand/sew) de peste 10 ani - am montat mii de motoare, am vazut ce se defecteaza si ce rezista (si am avut si surprize, sa fim sinceri). Iata ce am observat.
 
 ## Siemens
 
@@ -153,7 +153,7 @@ Cifrele sunt aproape identice, ceea ce spune ceva. Toate trei sunt branduri de c
 Depinde de ce conteaza pentru tine:
 - **Documentatie si integrare** → [Siemens](/brand/siemens)
 - **Pret si ATEX** → [ABB](/brand/abb)
-- **Motoreductoare si service rapid** → [SEW](/brand/sew-eurodrive)
+- **Motoreductoare si service rapid** → [SEW](/brand/sew)
 
 Daca nu stii ce sa alegi, spune-ne aplicatia si iti recomandam noi. Vezi [gama completa de motoare electrice](/motoare-electrice) pe site. Nu avem interes sa iti vindem un brand sau altul - marjele sunt similare.
     `,

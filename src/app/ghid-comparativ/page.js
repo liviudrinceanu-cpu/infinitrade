@@ -35,6 +35,31 @@ export const metadata = {
   },
 };
 
+// Map old brand slugs to new simple slugs
+function getBrandSlug(oldSlug) {
+  const mapping = {
+    'pompe-industriale-grundfos': 'grundfos',
+    'pompe-industriale-wilo': 'wilo',
+    'pompe-industriale-ksb': 'ksb',
+    'motoare-electrice-industriale-siemens': 'siemens',
+    'motoare-electrice-industriale-abb': 'abb',
+    'motoare-electrice-industriale-sew': 'sew',
+    'robineti-industriali-ari-armaturen': 'ari-armaturen',
+    'robineti-industriali-spirax-sarco': 'spirax-sarco',
+    'robineti-industriali-danfoss': 'danfoss',
+    'schimbatoare-caldura-industriale-alfa-laval': 'alfa-laval',
+    'schimbatoare-caldura-industriale-kelvion': 'kelvion',
+    'schimbatoare-caldura-industriale-swep': 'swep',
+    'automatizari-industriale-siemens': 'siemens',
+    'automatizari-industriale-abb': 'abb',
+    'automatizari-industriale-schneider': 'schneider-electric',
+    'senzori-instrumentatie-endress-hauser': 'endress-hauser',
+    'senzori-instrumentatie-wika': 'wika',
+    'senzori-instrumentatie-emerson': 'emerson',
+  };
+  return mapping[oldSlug] || oldSlug;
+}
+
 // Comparison data for major categories
 const comparisons = [
   {
@@ -491,7 +516,7 @@ export default function GhidComparativPage() {
                       <span>Garanție: {brand.warranty}</span>
                     </div>
 
-                    <Link href={`/brand/${brand.slug}`} className={styles.brandLink}>
+                    <Link href={`/brand/${getBrandSlug(brand.slug)}`} className={styles.brandLink}>
                       Vezi Produse {brand.name}
                     </Link>
                   </div>

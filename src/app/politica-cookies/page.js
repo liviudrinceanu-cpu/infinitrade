@@ -1,10 +1,14 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { config } from '@/lib/config';
 import styles from '../legal.module.css';
 
 export const metadata = {
   title: 'Politica Cookies',
   description: 'Informații despre utilizarea cookie-urilor pe site. Tipuri de cookies, scopuri și gestionarea preferințelor.',
+  alternates: {
+    canonical: `${config.site.url}/politica-cookies`,
+  },
 };
 
 export default function CookiesPage() {

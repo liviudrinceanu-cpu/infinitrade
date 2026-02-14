@@ -246,12 +246,11 @@ export default function StudiiDeCazPage() {
             <h2>Branduri Utilizate în Proiecte</h2>
             <p>Echipamente de la producători de renume mondial</p>
             <div className={styles.brandsGrid}>
-              {[...new Set(caseStudies.flatMap(cs => cs.brands))].map(brand => {
+              {[...new Set(caseStudies.flatMap(cs => cs.brands))].sort().map(brand => {
                 const caseStudy = caseStudies.find(cs => cs.brands.includes(brand));
                 const brandIndex = caseStudy?.brands.indexOf(brand);
                 const brandSlug = brandIndex !== undefined && brandIndex >= 0 ? caseStudy?.brandSlugs[brandIndex] : null;
 
-                // Skip rendering if no valid slug found
                 if (!brandSlug) return null;
 
                 return (

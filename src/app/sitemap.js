@@ -150,9 +150,6 @@ export default function sitemap() {
     'logistica',
     'biogaz',
     'naval',
-    'hvac',
-    'agricultura',
-    'textile',
   ].map((industry) => ({
     url: `${BASE_URL}/industrii/${industry}`,
     lastModified: staticDate,

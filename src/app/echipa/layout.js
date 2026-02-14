@@ -1,3 +1,5 @@
+import { config } from '@/lib/config';
+
 export const metadata = {
   title: 'Echipa Noastră | Ingineri Certificați',
   description: 'Echipa Infinitrade: ingineri cu 60+ ani experiență cumulată, certificați Grundfos, Siemens, ABB. Consultanță tehnică pentru pompe, motoare.',
@@ -6,6 +8,9 @@ export const metadata = {
     title: 'Echipa Infinitrade | Ingineri Specializați',
     description: 'Cunoaște inginerii care te vor ajuta să alegi echipamentul potrivit.',
     type: 'website',
+  },
+  alternates: {
+    canonical: `${config.site.url}/echipa`,
   },
 };
 

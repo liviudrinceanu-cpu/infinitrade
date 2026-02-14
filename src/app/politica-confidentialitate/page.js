@@ -1,10 +1,14 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { config } from '@/lib/config';
 import styles from '../legal.module.css';
 
 export const metadata = {
   title: 'Politica de Confidențialitate',
   description: 'Politica de confidențialitate și protecția datelor personale. Informații despre prelucrarea datelor conform GDPR.',
+  alternates: {
+    canonical: `${config.site.url}/politica-confidentialitate`,
+  },
 };
 
 export default function ConfidentialitatePage() {

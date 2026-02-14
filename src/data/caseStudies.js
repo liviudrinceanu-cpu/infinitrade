@@ -327,7 +327,7 @@ Principalele provocări identificate:
     testimonialIndustry: 'Director Producție, fabrică produse lactate',
     testimonialQuote: 'Nu ne așteptam la o îmbunătățire atât de dramatică. Motoarele Siemens IE4 și convertizoarele SEW au transformat complet profilul de consum. Iar schimbătoarele Alfa Laval ne-au ajutat să îmbunătățim și calitatea produselor.',
     brands: ['Siemens', 'ABB', 'SEW Eurodrive', 'Alfa Laval', 'Kelvion'],
-    brandSlugs: ['siemens', 'abb', 'sew-eurodrive', 'alfa-laval', 'kelvion'],
+    brandSlugs: ['siemens', 'abb', 'sew', 'alfa-laval', 'kelvion'],
     products: ['Motoare electrice IE4', 'Convertizoare frecvență', 'Schimbătoare cu plăci', 'Motoreductoare'],
     productSlugs: ['motoare-electrice-ie4', 'convertizoare-frecventa', 'schimbatoare-placi'],
     categories: ['Motoare Electrice', 'Schimbătoare de Căldură'],

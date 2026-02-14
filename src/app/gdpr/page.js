@@ -1,10 +1,14 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { config } from '@/lib/config';
 import styles from '../legal.module.css';
 
 export const metadata = {
   title: 'GDPR - Protecția Datelor',
   description: 'Informații GDPR și drepturile dumneavoastră conform Regulamentului (UE) 2016/679 privind protecția datelor personale.',
+  alternates: {
+    canonical: `${config.site.url}/gdpr`,
+  },
 };
 
 export default function GDPRPage() {
