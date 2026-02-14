@@ -8,7 +8,7 @@ import { safeJsonLd } from '@/lib/utils';
 import styles from './ghid-comparativ.module.css';
 
 export const metadata = {
-  title: 'Ghid Comparativ | Grundfos vs Wilo, Siemens vs ABB, Endress+Hauser vs WIKA',
+  title: 'Ghid Comparativ Branduri Industriale | Infinitrade',
   description: 'Comparații între branduri: pompe Grundfos vs Wilo vs KSB, motoare Siemens vs ABB, automatizări, senzori Endress+Hauser vs WIKA vs Emerson.',
   keywords: [
     'comparatie pompe industriale',

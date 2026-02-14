@@ -33,15 +33,22 @@ export async function generateMetadata({ params }) {
   const brandNames = category.brands.map(b => b.name).join(', ');
   const productTypeNames = category.productTypes.map(p => p.name).slice(0, 5).join(', ');
 
-  // Shorten title to stay under 60 chars with template suffix (21 chars for " | Infinitrade Romania")
-  // Max title before suffix: 39 chars. Use short names for long categories.
+  // Shorten title to stay under 70 chars total
+  // Use short names for long categories to fit "| Infinitrade" suffix (14 chars)
   const shortNames = {
     'suflante-ventilatoare': 'Suflante Industriale',
     'schimbatoare-caldura': 'Schimbătoare Căldură',
     'motoare-electrice': 'Motoare Electrice',
+    'echipamente-electrice': 'Echipamente Electrice',
+    'echipamente-auxiliare': 'Echipamente Auxiliare',
+    'lubrifianti-chimice': 'Lubrifianți Chimice',
+    'scule-instrumente': 'Scule Măsură',
+    'componente-mecanice': 'Componente Mecanice',
+    'filtre-consumabile': 'Filtre Industriale',
+    'componente-hidraulice-pneumatice': 'Hidraulică Pneumatică',
   };
   const displayName = shortNames[category.slug] || category.name;
-  const title = `${displayName} | Distribuitor 2026`;
+  const title = `${displayName} | Infinitrade`;
   // Use metaDescription from data (already optimized for length) instead of dynamic description
   const description = category.metaDescription;
 

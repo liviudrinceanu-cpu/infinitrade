@@ -8,6 +8,23 @@ import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './category.module.css';
 
+function toSimpleSlug(slug) {
+  const prefixes = [
+    'pompe-industriale-', 'pompe-vid-industriale-',
+    'robineti-industriali-', 'robineti-reglare-industriali-',
+    'regulatoare-presiune-industriale-', 'oale-condens-industriale-',
+    'supape-siguranta-industriale-', 'motoare-electrice-industriale-',
+    'motoare-atex-industriale-', 'schimbatoare-caldura-industriale-',
+    'racitoare-ulei-industriale-', 'suflante-industriale-',
+    'suflante-roots-industriale-', 'ventilatoare-industriale-',
+    'compresoare-industriale-',
+  ];
+  for (const prefix of prefixes) {
+    if (slug.startsWith(prefix)) return slug.slice(prefix.length);
+  }
+  return slug;
+}
+
 export default function CategoryClient({ category }) {
   const [heroRef, heroVisible] = useIntersectionObserver();
   const [brandsRef, brandsVisible] = useIntersectionObserver();
@@ -164,13 +181,13 @@ export default function CategoryClient({ category }) {
                       type: 'brand',
                       name: brand.name,
                       category: category.name,
-                      url: `/brand/${brand.slug}`
+                      url: `/brand/${toSimpleSlug(brand.slug)}`
                     })}
                     title={isInCart(brand.name) ? 'În cerere' : 'Adaugă la cerere'}
                   >
                     {isInCart(brand.name) ? <Check size={16} /> : <Plus size={16} />}
                   </button>
-                  <Link href={`/brand/${brand.slug}`} className={styles.brandLink}>
+                  <Link href={`/brand/${toSimpleSlug(brand.slug)}`} className={styles.brandLink}>
                     Detalii <ArrowRight size={14} />
                   </Link>
                 </div>

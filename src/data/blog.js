@@ -196,7 +196,7 @@ Problema: Capacitatea de rezerva dispare. Daca productia creste?
 Cost estimat: 18.000 EUR pentru 4 convertizoare ABB ACS580
 Avantaj: Pompele se adapteaza automat la necesar
 
-Am recomandat varianta 2. Clientul a fost de acord. [Automatizările și control](/automatizari-industriale) prin convertizoare de frecventa sunt solutia ideala pentru [pompe cu debit variabil](/brand/pompe-industriale-grundfos), iar ABB are un raport calitate-pret excelent.
+Am recomandat varianta 2. Clientul a fost de acord. [Automatizările și control](/automatizari-industriale) prin convertizoare de frecventa sunt solutia ideala pentru [pompe cu debit variabil](/brand/grundfos), iar ABB are un raport calitate-pret excelent.
 
 ## Implementare
 
@@ -241,7 +241,7 @@ Facem audit energetic gratuit pentru sistemele de pompare. Venim, masuram, calcu
     slug: 'robineti-bila-vs-fluture-ghid',
     title: 'Bila sau Fluture? Un Ghid Practic pentru Alegerea Robinetului',
     shortTitle: 'Robineti Bila vs Fluture: Ghid',
-    excerpt: 'Doua tipuri de robineti, fiecare cu rolul lui. Cand alegi unul, cand altul, si cand nu conteaza.',
+    excerpt: 'Doua tipuri de robineti, fiecare cu rolul lui. Cand alegi unul, cand altul, si cand nu conteaza. Iata ce trebuie sa stii pentru aplicatia ta.',
     content: `
 E o intrebare pe care o primim saptamanal: "Ce [robinet industrial](/robineti-industriali) sa pun?". Raspunsul depinde de cativa factori simpli, dar importanti.
 
@@ -719,7 +719,7 @@ Sfat: cand comanzi, spune modelul exact de pompa si daca se poate, trimite poza 
     slug: 'echipamente-atex-ghid-zone-periculoase',
     title: 'Echipamente ATEX: Ce Trebuie Sa Stii Inainte Sa Comanzi',
     shortTitle: 'Echipamente ATEX: Ghid Practic',
-    excerpt: 'Zone, categorii, marcaje - ATEX pare complicat, dar nu e. Iata esentialul pentru a alege corect.',
+    excerpt: 'Zone, categorii, marcaje - ATEX pare complicat, dar nu e. Iata esentialul pentru a alege corect echipamente pentru zone cu risc de explozie.',
     content: `
 ATEX vine de la "ATmospheres EXplosibles". E directiva europeana care reglementeaza echipamentele pentru zone cu risc de explozie. Daca lucrezi in petrochimie, chimie, silozuri de cereale sau orice loc unde exista gaze sau prafuri explozive, te priveste.
 
@@ -1047,7 +1047,7 @@ Un audit pentru o fabrica medie? Cateva sute de euro. Ce gasim de obicei? Pierde
     slug: 'convertizoare-frecventa-beneficii',
     title: 'VFD: Cand Merita si Cand Nu Merita Sa Investesti',
     shortTitle: 'Convertizoare Frecventa: Merita?',
-    excerpt: 'Convertizoarele de frecventa pot reduce consumul dramatic. Dar nu intotdeauna. Iata cum sa decizi.',
+    excerpt: 'Convertizoarele de frecventa pot reduce consumul dramatic. Dar nu intotdeauna. Iata cum sa decizi daca merita investitia si in cat timp se recupereaza.',
     content: `
 Convertizoarele de frecventa (VFD, Variable Frequency Drive) pentru [motoare electrice](/motoare-electrice) sunt probabil cea mai buna investitie in eficienta energetica. Dar nu in toate cazurile.
 
@@ -1154,7 +1154,7 @@ Venim la tine, masuram, calculam si iti spunem sincer daca are sens. Vezi gama c
     slug: 'alfa-laval-vs-kelvion-schimbatoare',
     title: 'Alfa Laval vs Kelvion: Doua Filosofii, Amandoua Bune',
     shortTitle: 'Alfa Laval vs Kelvion',
-    excerpt: 'Doi producatori de top in schimbatoare de caldura. Care e mai bun? Depinde de ce cauti.',
+    excerpt: 'Doi producatori de top in schimbatoare de caldura. Care e mai bun? Depinde de ce cauti: eficienta maxima sau raport calitate-pret. Iata diferentele.',
     content: `
 [Alfa Laval](/brand/alfa-laval) si [Kelvion](/brand/kelvion) sunt cei mai importanti producatori de [schimbatoare de caldura](/schimbatoare-caldura) la nivel mondial. Lucram cu ambele de ani de zile si putem spune ca nu exista un castigator clar - fiecare are punctele forte.
 
@@ -1251,7 +1251,7 @@ Sau ne intrebi pe noi - vezi gama completa de [schimbatoare de caldura](/schimba
     slug: 'prelungire-viata-echipamente-industriale',
     title: '10 Lucruri Care Distrug Echipamentele (si Cum Sa Le Eviti)',
     shortTitle: '10 Greseli Care Distrug Echipamente',
-    excerpt: 'Am reparat mii de pompe si motoare. Iata ce le-a distrus si cum sa nu patesti la fel.',
+    excerpt: 'Am reparat mii de pompe si motoare. Iata ce le-a distrus si cum sa nu patesti la fel. Greselile de mentenanta costa zeci de mii de euro anual.',
     content: `
 In anii de service pentru [pompe industriale](/pompe-industriale), [motoare electrice](/motoare-electrice) si [robineti industriali](/robineti-industriali), am vazut echipamente de zeci de mii de euro distruse din cauze care puteau fi evitate. Iata cele mai frecvente greseli si cum sa le eviti.
 
