@@ -12,6 +12,7 @@ export default function robots(): MetadataRoute.Robots {
           '/api/',
           '/_next/',
           '/private/',
+          '/download/',
         ],
       },
       {
@@ -20,6 +21,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [
           '/admin/',
           '/api/',
+          '/download/',
         ],
       },
       // AI crawlers - explicit allow for LLM indexing
