@@ -48,7 +48,7 @@ export async function generateMetadata({ params }) {
     'componente-hidraulice-pneumatice': 'Hidraulică Pneumatică',
   };
   const displayName = shortNames[category.slug] || category.name;
-  const title = `${displayName} | Infinitrade`;
+  const title = displayName;
   // Use metaDescription from data (already optimized for length) instead of dynamic description
   const description = category.metaDescription;
 
