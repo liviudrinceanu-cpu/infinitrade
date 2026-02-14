@@ -549,24 +549,285 @@
   color: var(--gray-400);
 }
 
+/* Rich Brand Content Sections */
+
+/* Common title for rich sections */
+.richSectionTitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: var(--gray-900);
+  text-align: center;
+}
+
+/* Brand Overview */
+.brandOverview {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.overviewText {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--gray-700);
+}
+
+.overviewText p {
+  margin-bottom: 20px;
+}
+
+.overviewText p:last-child {
+  margin-bottom: 0;
+}
+
+.overviewSidebar {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border: 1px solid var(--gray-200);
+}
+
+.factItem {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.factItem:last-child {
+  border-bottom: none;
+}
+
+.factLabel {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--gray-500);
+  margin-bottom: 8px;
+}
+
+.factValue {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.certBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.certBadge {
+  display: inline-block;
+  padding: 4px 10px;
+  background: var(--primary);
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+/* Why Choose Section */
+.whyChooseSection {
+  padding: 80px 0;
+  background: white;
+}
+
+.whyChooseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.whyChooseCard {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.whyChooseCard:hover {
+  border-color: var(--primary);
+  box-shadow: 0 4px 15px rgba(9, 144, 219, 0.1);
+}
+
+.whyChooseIcon {
+  color: var(--primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.whyChooseCard p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--gray-700);
+  margin: 0;
+}
+
+/* Key Products Section */
+.keyProductsSection {
+  padding: 80px 0;
+  background: var(--gray-50);
+}
+
+.keyProductsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 24px;
+}
+
+.keyProductCard {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid var(--gray-200);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: all 0.3s ease;
+}
+
+.keyProductCard:hover {
+  border-color: var(--primary);
+  box-shadow: 0 8px 25px rgba(9, 144, 219, 0.12);
+  transform: translateY(-4px);
+}
+
+.keyProductCard h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 12px;
+}
+
+.keyProductCard p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--gray-600);
+  margin: 0;
+}
+
+/* Industries Section */
+.industriesSection {
+  padding: 80px 0;
+  background: white;
+}
+
+.industriesTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.industryTag {
+  display: inline-block;
+  padding: 10px 20px;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-700);
+  transition: all 0.2s ease;
+}
+
+.industryTag:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: rgba(9, 144, 219, 0.05);
+}
+
+/* Infinitrade Partnership Section */
+.infinitradeSection {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #063c69 0%, #0a5a9c 100%);
+  color: white;
+}
+
+.infinitradeBox {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.infinitradeBox h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.infinitradeBox p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 20px;
+}
+
+.infinitradeBox p:last-of-type {
+  margin-bottom: 32px;
+}
+
+.infinitradeBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  background: white;
+  color: #063c69;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.infinitradeBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
   .valuePropsGrid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .aboutGrid {
     grid-template-columns: 1fr;
   }
-  
+
+  .brandOverview {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .whyChooseGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .keyProductsGrid {
+    grid-template-columns: 1fr;
+  }
+
   .servicesGrid {
     grid-template-columns: 1fr;
   }
-  
+
   .relatedGrid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .ctaBox {
     flex-direction: column;
     text-align: center;

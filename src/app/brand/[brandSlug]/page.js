@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { allCategoriesUnified, getBrandByAnySlug, getAllBrandSlugs } from '@/data/allBrandsIndex';
 import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
+import { getBrandContent } from '@/data/brandContent';
 import BrandPageClient from './BrandPageClient';
 
 // Generate static params for all brand pages (simple slugs)
@@ -242,6 +243,9 @@ export default async function BrandPage({ params }) {
     notFound();
   }
 
+  // Get rich brand content if available
+  const content = getBrandContent(brand.simpleSlug);
+
   const jsonLd = generateJsonLd(brand);
 
   return (
@@ -250,7 +254,7 @@ export default async function BrandPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <BrandPageClient brand={brand} allCategories={allCategoriesUnified} />
+      <BrandPageClient brand={brand} allCategories={allCategoriesUnified} brandContent={content} />
     </>
   );
 }

@@ -28,7 +28,7 @@ function toSimpleSlug(slug) {
   return slug;
 }
 
-export default function BrandPageClient({ brand, allCategories }) {
+export default function BrandPageClient({ brand, allCategories, brandContent }) {
   const [heroRef, heroVisible] = useIntersectionObserver();
   const [productsRef, productsVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
@@ -154,42 +154,153 @@ export default function BrandPageClient({ brand, allCategories }) {
           </div>
         </section>
 
-        {/* About Brand */}
-        <section className={styles.aboutSection}>
-          <div className={styles.container}>
-            <div className={styles.aboutGrid}>
-              <div className={styles.aboutContent}>
-                <h2>Despre {brand.name}</h2>
-                <p>
-                  <strong>{brand.name}</strong> este un producator de renume mondial,
-                  recunoscut pentru calitatea exceptionala si inovatia in domeniul {category.name.toLowerCase()}.
-                </p>
-                <p>
-                  Ca furnizor {brand.name} in Romania, Infinitrade va ofera acces la intreaga gama de produse,
-                  consultanta tehnica specializata si service post-vanzare de inalta calitate.
-                </p>
+        {/* Rich Brand Content (when available) OR Generic About */}
+        {brandContent ? (
+          <>
+            {/* Brand Overview with Rich Content */}
+            <section className={styles.aboutSection}>
+              <div className={styles.container}>
+                <h2 className={styles.richSectionTitle}>Despre {brand.name}</h2>
+                <div className={styles.brandOverview}>
+                  <div className={styles.overviewText}>
+                    {brandContent.overview.split('\n\n').map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
+                    ))}
+                  </div>
+                  <div className={styles.overviewSidebar}>
+                    <div className={styles.factItem}>
+                      <span className={styles.factLabel}>Fondată:</span>
+                      <span className={styles.factValue}>{brandContent.founded}</span>
+                    </div>
+                    <div className={styles.factItem}>
+                      <span className={styles.factLabel}>Sediu:</span>
+                      <span className={styles.factValue}>{brandContent.headquarters}</span>
+                    </div>
+                    <div className={styles.factItem}>
+                      <span className={styles.factLabel}>Angajați:</span>
+                      <span className={styles.factValue}>{brandContent.employees}</span>
+                    </div>
+                    {brandContent.certifications && (
+                      <div className={styles.factItem}>
+                        <span className={styles.factLabel}>Certificări:</span>
+                        <div className={styles.certBadges}>
+                          {brandContent.certifications.slice(0, 3).map((cert, i) => (
+                            <span key={i} className={styles.certBadge}>
+                              {cert.split(' ')[0]}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
               </div>
-              <div className={styles.aboutStats}>
-                <div className={styles.statCard}>
-                  <span className={styles.statValue}>{category.stats?.brands || '10+'}</span>
-                  <span className={styles.statLabel}>Branduri</span>
+            </section>
+
+            {/* Why Choose This Brand */}
+            {brandContent.whyChoose && brandContent.whyChoose.length > 0 && (
+              <section className={styles.whyChooseSection}>
+                <div className={styles.container}>
+                  <h2 className={styles.richSectionTitle}>De ce {brand.name}?</h2>
+                  <div className={styles.whyChooseGrid}>
+                    {brandContent.whyChoose.map((reason, i) => (
+                      <div key={i} className={styles.whyChooseCard}>
+                        <Check size={20} className={styles.whyChooseIcon} />
+                        <p>{reason}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-                <div className={styles.statCard}>
-                  <span className={styles.statValue}>{category.stats?.products || '500+'}</span>
-                  <span className={styles.statLabel}>Produse</span>
+              </section>
+            )}
+
+            {/* Key Products */}
+            {brandContent.keyProducts && brandContent.keyProducts.length > 0 && (
+              <section className={styles.keyProductsSection}>
+                <div className={styles.container}>
+                  <h2 className={styles.richSectionTitle}>Produse Cheie {brand.name}</h2>
+                  <div className={styles.keyProductsGrid}>
+                    {brandContent.keyProducts.map((product, i) => (
+                      <div key={i} className={styles.keyProductCard}>
+                        <h3>{product.name}</h3>
+                        <p>{product.description}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-                <div className={styles.statCard}>
-                  <span className={styles.statValue}>15+</span>
-                  <span className={styles.statLabel}>Ani Experienta</span>
+              </section>
+            )}
+
+            {/* Industries Served */}
+            {brandContent.industries && brandContent.industries.length > 0 && (
+              <section className={styles.industriesSection}>
+                <div className={styles.container}>
+                  <h2 className={styles.richSectionTitle}>Industrii Deservite</h2>
+                  <div className={styles.industriesTags}>
+                    {brandContent.industries.map((industry, i) => (
+                      <span key={i} className={styles.industryTag}>{industry}</span>
+                    ))}
+                  </div>
                 </div>
-                <div className={styles.statCard}>
-                  <span className={styles.statValue}>24h</span>
-                  <span className={styles.statLabel}>Raspuns Rapid</span>
+              </section>
+            )}
+
+            {/* Infinitrade Partnership */}
+            {brandContent.infinitrade && (
+              <section className={styles.infinitradeSection}>
+                <div className={styles.container}>
+                  <div className={styles.infinitradeBox}>
+                    <h2>Infinitrade & {brand.name}</h2>
+                    {brandContent.infinitrade.split('\n\n').map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
+                    ))}
+                    <Link href="/contact" className={styles.infinitradeBtn}>
+                      Solicită Ofertă
+                      <ArrowRight size={18} />
+                    </Link>
+                  </div>
+                </div>
+              </section>
+            )}
+          </>
+        ) : (
+          /* Generic About Section (fallback for brands without rich content) */
+          <section className={styles.aboutSection}>
+            <div className={styles.container}>
+              <div className={styles.aboutGrid}>
+                <div className={styles.aboutContent}>
+                  <h2>Despre {brand.name}</h2>
+                  <p>
+                    <strong>{brand.name}</strong> este un producator de renume mondial,
+                    recunoscut pentru calitatea exceptionala si inovatia in domeniul {category.name.toLowerCase()}.
+                  </p>
+                  <p>
+                    Ca furnizor {brand.name} in Romania, Infinitrade va ofera acces la intreaga gama de produse,
+                    consultanta tehnica specializata si service post-vanzare de inalta calitate.
+                  </p>
+                </div>
+                <div className={styles.aboutStats}>
+                  <div className={styles.statCard}>
+                    <span className={styles.statValue}>{category.stats?.brands || '10+'}</span>
+                    <span className={styles.statLabel}>Branduri</span>
+                  </div>
+                  <div className={styles.statCard}>
+                    <span className={styles.statValue}>{category.stats?.products || '500+'}</span>
+                    <span className={styles.statLabel}>Produse</span>
+                  </div>
+                  <div className={styles.statCard}>
+                    <span className={styles.statValue}>15+</span>
+                    <span className={styles.statLabel}>Ani Experienta</span>
+                  </div>
+                  <div className={styles.statCard}>
+                    <span className={styles.statValue}>24h</span>
+                    <span className={styles.statLabel}>Raspuns Rapid</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        )}
 
         {/* Category Tabs (only for multi-category brands) */}
         {brand.categories.length > 1 && (
