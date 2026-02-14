@@ -8,7 +8,7 @@ import { blogArticles, getBlogArticle } from '@/data/blog';
 import { getAuthorById } from '@/data/authors';
 import { config } from '@/lib/config';
 import { Calendar, Clock, User, ArrowLeft, Tag, Share2 } from 'lucide-react';
-import { sanitizeContentHtml } from '@/lib/utils';
+import { sanitizeContentHtml, safeJsonLd } from '@/lib/utils';
 import styles from './article.module.css';
 
 export const revalidate = 3600;
@@ -301,17 +301,17 @@ export default async function BlogArticlePage({ params }) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       {howToJsonLd && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(howToJsonLd) }}
         />
       )}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [

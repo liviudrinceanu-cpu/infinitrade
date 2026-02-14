@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
 import { testimonials, testimonialStats, industriesServed, getFeaturedTestimonials } from '@/data/testimonials';
 import { categories } from '@/data/products';
+import { safeJsonLd } from '@/lib/utils';
 import styles from './testimoniale.module.css';
 
 export const metadata = {
@@ -123,7 +124,7 @@ export default function TestimonialePage() {
       <main id="main-content">
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
         />
 
         {/* Hero Section */}

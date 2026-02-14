@@ -1,4 +1,5 @@
 import { config } from '@/lib/config';
+import { safeJsonLd } from '@/lib/utils';
 
 export const revalidate = 86400;
 
@@ -65,7 +66,7 @@ export default function DespreLayout({ children }) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(aboutPageSchema) }}
       />
       {children}
     </>

@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { config } from '@/lib/config';
 import { industries } from '@/data/industries';
+import { safeJsonLd } from '@/lib/utils';
 import { ArrowRight, Factory } from 'lucide-react';
 import styles from './industrii.module.css';
 
@@ -118,7 +119,7 @@ export default function IndustriiPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(industriesSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(industriesSchema) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>

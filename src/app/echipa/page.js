@@ -2,6 +2,7 @@
 
 import { authors } from '@/data/authors';
 import { config } from '@/lib/config';
+import { safeJsonLd } from '@/lib/utils';
 import styles from './echipa.module.css';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -70,7 +71,7 @@ export default function EchipaPage() {
           key={index}
           id={`person-schema-${index}`}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
           strategy="beforeInteractive"
         />
       ))}

@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
 import { industries, getIndustry } from '@/data/industries';
+import { safeJsonLd } from '@/lib/utils';
 import { ArrowRight, CheckCircle, Building2, Users, Award, Phone, Factory } from 'lucide-react';
 import styles from './industry.module.css';
 
@@ -179,7 +180,7 @@ export default async function IndustryPage({ params }) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>

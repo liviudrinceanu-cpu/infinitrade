@@ -9,7 +9,7 @@ import {
   Factory, Clock, Calendar, Zap, TrendingUp, CheckCircle,
   ArrowRight, Quote, Target, Wrench, BarChart3, Users
 } from 'lucide-react';
-import { sanitizeContentHtml } from '@/lib/utils';
+import { sanitizeContentHtml, safeJsonLd } from '@/lib/utils';
 import styles from './case-study.module.css';
 
 // Generate static params for all case studies
@@ -299,7 +299,7 @@ export default async function CaseStudyPage({ params }) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>

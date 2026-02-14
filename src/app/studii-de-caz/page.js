@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
 import { caseStudies, getFeaturedCaseStudies } from '@/data/caseStudies';
+import { safeJsonLd } from '@/lib/utils';
 import { ArrowRight, Factory, Zap, TrendingUp, Clock, Award } from 'lucide-react';
 import styles from './studii-de-caz.module.css';
 
@@ -84,7 +85,7 @@ export default function StudiiDeCazPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { allCategoriesUnified, getBrandByAnySlug, getAllBrandSlugs } from '@/data/allBrandsIndex';
 import { config } from '@/lib/config';
+import { safeJsonLd } from '@/lib/utils';
 import BrandPageClient from './BrandPageClient';
 
 // Generate static params for all brand pages (simple slugs)
@@ -255,7 +256,7 @@ export default async function BrandPage({ params }) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <BrandPageClient brand={brand} allCategories={allCategoriesUnified} />
     </>

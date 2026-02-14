@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { companyInfo } from '@/data/products';
 import { allCategoriesUnified as categories } from '@/data/allBrandsIndex';
 import { config } from '@/lib/config';
+import { safeJsonLd } from '@/lib/utils';
 import CategoryClient from './CategoryClient';
 import styles from './category.module.css';
 
@@ -222,7 +223,7 @@ export default async function CategoryPage({ params }) {
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
         />
 
         {/* Breadcrumbs - visible on page */}

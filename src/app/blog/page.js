@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { blogArticles, blogCategories } from '@/data/blog';
 import { config } from '@/lib/config';
+import { safeJsonLd } from '@/lib/utils';
 import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
 import styles from './blog.module.css';
 
@@ -96,11 +97,11 @@ export default function BlogPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(collectionSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       <Header />
       <main id="main-content" className={styles.main}>
