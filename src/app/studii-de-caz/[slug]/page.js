@@ -56,14 +56,6 @@ export async function generateMetadata({ params }) {
       siteName: 'Infinitrade Romania',
       locale: 'ro_RO',
       type: 'article',
-      images: [
-        {
-          url: `${config.site.url}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: `${caseStudy.title} - Infinitrade Romania`,
-        }
-      ],
     },
     twitter: {
       card: 'summary_large_image',

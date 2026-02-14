@@ -1,9 +1,5 @@
 import { config } from '@/lib/config';
-
-// Safe JSON-LD serialization - prevents XSS via script injection
-function safeJsonLd(data) {
-  return JSON.stringify(data).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026')
-}
+import { safeJsonLd } from '@/lib/utils';
 
 export const revalidate = 86400;
 
