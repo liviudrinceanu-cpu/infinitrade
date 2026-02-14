@@ -13,6 +13,14 @@ export const metadata = {
     description: 'Partener strategic pentru industria românească din 2009. 500+ branduri, livrare 24-72h.',
     url: `${config.site.url}/despre-noi`,
     type: 'website',
+    images: [
+      {
+        url: `${config.site.url}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Despre Infinitrade Romania - Distribuitor Echipamente Industriale',
+      }
+    ],
   },
 };
 

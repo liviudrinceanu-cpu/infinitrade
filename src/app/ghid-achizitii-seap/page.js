@@ -559,6 +559,14 @@ export const metadata = {
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'article',
+    images: [
+      {
+        url: `${config.site.url}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Ghid Achiziții SEAP/SICAP Echipamente Industriale - Infinitrade Romania',
+      }
+    ],
   },
   alternates: {
     canonical: `${config.site.url}/ghid-achizitii-seap`,

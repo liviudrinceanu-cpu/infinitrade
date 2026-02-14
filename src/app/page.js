@@ -18,8 +18,15 @@ export const metadata = {
   openGraph: {
     title: 'Infinitrade Romania | Furnizor SEAP Echipamente Industriale 2026',
     description: 'Distribuitor și furnizor SEAP 2026 pentru pompe Grundfos, Wilo, KSB, robineți ARI Armaturen, Spirax Sarco, motoare Siemens, ABB, SEW în România. Documentație licitații SEAP/SICAP.',
-    url: config.site.url,
     type: 'website',
+    images: [
+      {
+        url: `${config.site.url}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Infinitrade Romania - Furnizor SEAP Echipamente Industriale',
+      }
+    ],
   },
 };
 

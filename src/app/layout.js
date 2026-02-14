@@ -51,7 +51,6 @@ export const metadata = {
   openGraph: {
     title: 'Infinitrade Romania | Distribuitor Echipamente Industriale Premium',
     description: 'Distribuitor pompe, robineți, motoare electrice în România. Branduri premium: Grundfos, Wilo, Siemens, ABB, Alfa Laval. Livrare rapidă 24-72h.',
-    url: config.site.url,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',

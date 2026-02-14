@@ -8,6 +8,14 @@ export const metadata = {
     title: 'Echipa Infinitrade | Ingineri Specializați',
     description: 'Cunoaște inginerii care te vor ajuta să alegi echipamentul potrivit.',
     type: 'website',
+    images: [
+      {
+        url: `${config.site.url}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Echipa Infinitrade Romania',
+      }
+    ],
   },
   alternates: {
     canonical: `${config.site.url}/echipa`,

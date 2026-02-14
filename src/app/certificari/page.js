@@ -275,6 +275,14 @@ export const metadata = {
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',
+    images: [
+      {
+        url: `${config.site.url}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Certificări și Autorizări - Infinitrade Romania',
+      }
+    ],
   },
   alternates: {
     canonical: `${config.site.url}/certificari`,

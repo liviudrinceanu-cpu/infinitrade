@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>V4: Split Minimal - InfiniTrade Header Prototype</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+    }
+
+    /* Info Strip */
+    .info-strip {
+      background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+      color: white;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 11px;
+      letter-spacing: 0.3px;
+      font-weight: 500;
+      position: sticky;
+      top: 0;
+      z-index: 1001;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .info-strip.hidden {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+
+    .info-strip span {
+      margin: 0 12px;
+      opacity: 0.95;
+    }
+
+    .info-strip span:not(:last-child)::after {
+      content: '|';
+      margin-left: 12px;
+      opacity: 0.5;
+    }
+
+    /* Main Header Container */
+    .header-container {
+      position: sticky;
+      top: 24px;
+      z-index: 1000;
+      transition: top 0.3s ease;
+    }
+
+    .header-container.info-hidden {
+      top: 0;
+    }
+
+    /* Left Logo Zone */
+    .logo-zone {
+      position: fixed;
+      left: 0;
+      top: 24px;
+      width: 60px;
+      height: 56px;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px) saturate(180%);
+      border-right: 1px solid rgba(0, 0, 0, 0.06);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 1002;
+      transition: top 0.3s ease;
+    }
+
+    .logo-zone.info-hidden {
+      top: 0;
+    }
+
+    .logo-icon {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1e40af;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+    .secondary-links {
+      position: absolute;
+      bottom: -36px;
+      left: 0;
+      width: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 0;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      border-right: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .secondary-links a {
+      font-size: 9px;
+      color: #64748b;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+      text-align: center;
+      line-height: 1.2;
+    }
+
+    .secondary-links a:hover {
+      color: #1e40af;
+    }
+
+    /* Main Bar */
+    .main-bar {
+      height: 56px;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px) saturate(180%);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      display: flex;
+      align-items: center;
+      padding: 0 32px 0 76px;
+      gap: 20px;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 1;
+      padding: 0 16px;
+    }
+
+    .nav-item {
+      position: relative;
+      padding: 8px 16px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #334155;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.2s ease;
+      transform-origin: center;
+      cursor: pointer;
+    }
+
+    .nav-item::after {
+      content: '';
+      position: absolute;
+      bottom: 6px;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background: #1e40af;
+      transition: width 0.3s ease, left 0.3s ease;
+    }
+
+    .nav-item:hover {
+      color: #1e40af;
+    }
+
+    .nav-item:hover::after {
+      width: 80%;
+      left: 10%;
+    }
+
+    .nav-item.active {
+      font-weight: 600;
+      color: #1e40af;
+    }
+
+    .nav-item.active::before {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 4px;
+      height: 4px;
+      background: #1e40af;
+      border-radius: 50%;
+    }
+
+    .nav-item.red {
+      color: #dc2626;
+    }
+
+    .nav-item.red:hover::after {
+      background: #dc2626;
+    }
+
+    .divider {
+      width: 1px;
+      height: 24px;
+      background: rgba(0, 0, 0, 0.1);
+      margin: 0 4px;
+    }
+
+    /* Right Actions */
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .search-icon, .cart-icon {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background 0.2s ease, transform 0.2s ease;
+      position: relative;
+    }
+
+    .search-icon:hover, .cart-icon:hover {
+      background: rgba(30, 64, 175, 0.1);
+      transform: scale(1.1);
+    }
+
+    .cart-badge {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      background: #dc2626;
+      color: white;
+      font-size: 10px;
+      font-weight: 600;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid white;
+    }
+
+    .cta-button {
+      background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 2px 8px rgba(30, 64, 175, 0.3);
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(30, 64, 175, 0.4);
+    }
+
+    /* Search Overlay */
+    .search-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+      z-index: 2000;
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 120px;
+    }
+
+    .search-overlay.active {
+      display: flex;
+    }
+
+    .search-box {
+      background: white;
+      width: 600px;
+      max-width: 90%;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      animation: slideDown 0.3s ease;
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .search-input {
+      width: 100%;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 16px 20px;
+      font-size: 16px;
+      font-family: inherit;
+      transition: border-color 0.2s ease;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: #1e40af;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 80px 32px 80px 92px;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    }
+
+    .hero-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: 64px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 16px;
+      letter-spacing: -2px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #64748b;
+      margin-bottom: 32px;
+    }
+
+    .stats {
+      display: flex;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 32px;
+      font-weight: 700;
+      color: #1e40af;
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 4px;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      margin-top: 48px;
+    }
+
+    .category-card {
+      background: white;
+      border-radius: 16px;
+      padding: 32px 24px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .category-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .category-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .category-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: #1e293b;
+    }
+  </style>
+</head>
+<body>
+  <!-- Info Strip -->
+  <div class="info-strip" id="infoStrip">
+    <span>vanzari@infinitrade-romania.ro</span>
+    <span>+40 371 232 404</span>
+    <span>Luni-Vineri 08:00-16:30</span>
+  </div>
+
+  <!-- Header Container -->
+  <div class="header-container" id="headerContainer">
+    <!-- Left Logo Zone -->
+    <div class="logo-zone" id="logoZone">
+      <div class="logo-icon">IT</div>
+      <div class="secondary-links">
+        <a href="#">Acasă</a>
+        <a href="#">Despre Noi</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <!-- Main Bar -->
+    <div class="main-bar">
+      <div class="nav-container" id="navContainer">
+        <a href="#" class="nav-item active">Pompe Industriale</a>
+        <a href="#" class="nav-item">Robineți Industriali</a>
+        <a href="#" class="nav-item">Motoare Industriale</a>
+        <a href="#" class="nav-item">Schimbătoare Căldură</a>
+        <a href="#" class="nav-item">Suflante Industriale</a>
+        <div class="divider"></div>
+        <a href="#" class="nav-item red">Branduri & Echipamente</a>
+        <div class="divider"></div>
+        <a href="#" class="nav-item">Resurse</a>
+      </div>
+
+      <div class="actions">
+        <div class="search-icon" id="searchIcon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
+        </div>
+        <div class="cart-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"/>
+            <circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+          </svg>
+          <span class="cart-badge">0</span>
+        </div>
+        <button class="cta-button">Cere Ofertă</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-box">
+      <input type="text" class="search-input" placeholder="Caută echipamente, branduri, produse..." autofocus>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Dăm puls industriei.</h1>
+      <p>Distribuitor autorizat de echipamente industriale premium pentru toate sectoarele</p>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-number">800+</span>
+          <span class="stat-label">Clienți</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Branduri</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Ani Experiență</span>
+        </div>
+      </div>
+
+      <div class="categories">
+        <div class="category-card">
+          <div class="category-icon">⚙️</div>
+          <div class="category-name">Pompe Industriale</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">🔧</div>
+          <div class="category-name">Robineți Industriali</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">⚡</div>
+          <div class="category-name">Motoare Industriale</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">🔥</div>
+          <div class="category-name">Schimbătoare Căldură</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon">💨</div>
+          <div class="category-name">Suflante Industriale</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Dock Magnification Effect
+    const navContainer = document.getElementById('navContainer');
+    const navItems = navContainer.querySelectorAll('.nav-item');
+
+    function handleMouseMove(e) {
+      navItems.forEach(item => {
+        const rect = item.getBoundingClientRect();
+        const itemCenter = rect.left + rect.width / 2;
+        const distance = Math.abs(e.clientX - itemCenter);
+        const maxDistance = 150;
+        const scale = Math.max(1, 1.4 - (distance / maxDistance) * 0.4);
+        item.style.transform = `scale(${scale})`;
+      });
+    }
+
+    function resetScale() {
+      navItems.forEach(item => {
+        item.style.transform = 'scale(1)';
+      });
+    }
+
+    navContainer.addEventListener('mousemove', handleMouseMove);
+    navContainer.addEventListener('mouseleave', resetScale);
+
+    // Search Overlay
+    const searchIcon = document.getElementById('searchIcon');
+    const searchOverlay = document.getElementById('searchOverlay');
+
+    searchIcon.addEventListener('click', () => {
+      searchOverlay.classList.add('active');
+    });
+
+    searchOverlay.addEventListener('click', (e) => {
+      if (e.target === searchOverlay) {
+        searchOverlay.classList.remove('active');
+      }
+    });
+
+    // Scroll Behavior - Hide Info Strip
+    let lastScroll = 0;
+    const infoStrip = document.getElementById('infoStrip');
+    const headerContainer = document.getElementById('headerContainer');
+    const logoZone = document.getElementById('logoZone');
+
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+
+      if (currentScroll > 24) {
+        infoStrip.classList.add('hidden');
+        headerContainer.classList.add('info-hidden');
+        logoZone.classList.add('info-hidden');
+      } else {
+        infoStrip.classList.remove('hidden');
+        headerContainer.classList.remove('info-hidden');
+        logoZone.classList.remove('info-hidden');
+      }
+
+      lastScroll = currentScroll;
+    });
+  </script>
+</body>
+</html>

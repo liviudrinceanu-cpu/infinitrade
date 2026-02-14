@@ -18,6 +18,14 @@ export const metadata = {
     description: 'Contactează-ne pentru oferte echipamente industriale. Răspuns în 24h.',
     url: `${config.site.url}/contact`,
     type: 'website',
+    images: [
+      {
+        url: `${config.site.url}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Contact Infinitrade Romania',
+      }
+    ],
   },
 };
 

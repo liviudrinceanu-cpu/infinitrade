@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>V5D: Minimal Dot - InfiniTrade Header Prototype</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+    }
+
+    /* Info Strip */
+    .info-strip {
+      background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+      color: white;
+      height: 0;
+      opacity: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 11px;
+      letter-spacing: 0.3px;
+      font-weight: 500;
+      transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+      position: relative;
+      z-index: 1001;
+    }
+
+    .info-strip.expanded {
+      height: 24px;
+      opacity: 1;
+    }
+
+    .info-strip span {
+      margin: 0 12px;
+      opacity: 0.95;
+    }
+
+    .info-strip span:not(:last-child)::after {
+      content: '|';
+      margin-left: 12px;
+      opacity: 0.5;
+    }
+
+    /* Main Header */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px) saturate(180%);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      height: 44px;
+    }
+
+    .header.expanded {
+      height: 100px;
+    }
+
+    .header-content {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 32px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Main Bar (always visible) */
+    .main-bar {
+      height: 44px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1e40af;
+      letter-spacing: -0.5px;
+      margin-right: 24px;
+    }
+
+    /* Category Icons Container */
+    .category-icons {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      position: relative;
+      padding: 0 8px;
+    }
+
+    .category-icon-wrapper {
+      position: relative;
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+      transform-origin: center;
+    }
+
+    .category-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .category-icon.pompe { background: rgba(59, 130, 246, 0.2); color: #1e40af; }
+    .category-icon.robineti { background: rgba(239, 68, 68, 0.2); color: #dc2626; }
+    .category-icon.motoare { background: rgba(251, 191, 36, 0.2); color: #d97706; }
+    .category-icon.schimbatoare { background: rgba(239, 68, 68, 0.2); color: #dc2626; }
+    .category-icon.suflante { background: rgba(34, 197, 94, 0.2); color: #16a34a; }
+
+    .category-icon::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: currentColor;
+      transition: transform 0.2s ease;
+    }
+
+    .category-icon:hover::before {
+      transform: scale(1.2);
+    }
+
+    .category-icon:hover {
+      animation: pulse 0.6s ease-in-out;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+
+    /* Tooltip */
+    .tooltip {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(30, 41, 59, 0.95);
+      color: white;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 500;
+      white-space: nowrap;
+      margin-top: 8px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      z-index: 10;
+    }
+
+    .tooltip::before {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 4px solid transparent;
+      border-bottom-color: rgba(30, 41, 59, 0.95);
+    }
+
+    .category-icon-wrapper:hover .tooltip {
+      opacity: 1;
+      transform: translateX(-50%) translateY(2px);
+    }
+
+    /* Search Bar - Slim and elegant */
+    .search-bar {
+      position: relative;
+      width: 320px;
+      margin-left: auto;
+    }
+
+    .search-input {
+      width: 100%;
+      height: 34px;
+      border: 1px solid #e2e8f0;
+      border-radius: 17px;
+      padding: 0 16px 0 38px;
+      font-size: 12px;
+      font-family: inherit;
+      transition: all 0.2s ease;
+      background: rgba(248, 250, 252, 0.5);
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: #1e40af;
+      box-shadow: 0 0 0 2px rgba(30, 64, 175, 0.08);
+      background: white;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 13px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #94a3b8;
+      pointer-events: none;
+    }
+
+    .search-results {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      margin-top: 6px;
+      padding: 14px;
+      display: none;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    .search-input:focus + .search-results,
+    .search-results:hover {
+      display: block;
+    }
+
+    /* Actions (right side) */
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .action-icon {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background 0.2s ease, transform 0.2s ease;
+      position: relative;
+    }
+
+    .action-icon:hover {
+      background: rgba(30, 64, 175, 0.08);
+      transform: scale(1.05);
+    }
+
+    .cart-badge {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      background: #dc2626;
+      color: white;
+      font-size: 9px;
+      font-weight: 600;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid white;
+    }
+
+    .cta-button {
+      background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 2px 6px rgba(30, 64, 175, 0.25);
+    }
+
+    .cta-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 3px 10px rgba(30, 64, 175, 0.35);
+    }
+
+    /* Hamburger Menu - Minimal Dots */
+    .hamburger-dots {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      cursor: pointer;
+      position: relative;
+      padding: 4px 0;
+      transition: transform 0.2s ease;
+    }
+
+    .hamburger-dots:hover {
+      transform: scale(1.05);
+    }
+
+    .hamburger-dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: currentColor;
+      transition: all 0.2s ease;
+      animation: glowPulse 2s ease-in-out infinite, dotColorSwap 3s ease-in-out infinite;
+    }
+
+    .hamburger-dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .hamburger-dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes glowPulse {
+      0%, 100% {
+        box-shadow: 0 0 0 rgba(220, 38, 38, 0);
+      }
+      50% {
+        box-shadow: 0 0 6px currentColor;
+      }
+    }
+
+    @keyframes dotColorSwap {
+      0%, 100% {
+        color: #dc2626;
+      }
+      50% {
+        color: #64748b;
+      }
+    }
+
+    /* Hamburger Pills Dropdown */
+    .hamburger-dropdown {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: white;
+      border: 1px solid #f1f5f9;
+      border-radius: 14px;
+      margin-top: 12px;
+      padding: 6px;
+      display: none;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+      min-width: 150px;
+      animation: slideDown 0.2s ease;
+    }
+
+    .hamburger-dropdown.active {
+      display: block;
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .hamburger-dropdown a {
+      display: block;
+      padding: 10px 16px;
+      color: #334155;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      border-radius: 10px;
+      transition: all 0.15s ease;
+      background: transparent;
+    }
+
+    .hamburger-dropdown a:hover {
+      background: linear-gradient(135deg, rgba(30, 64, 175, 0.08), rgba(30, 64, 175, 0.12));
+      color: #1e40af;
+      padding-left: 20px;
+    }
+
+    /* Expanded Content */
+    .expanded-content {
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+      pointer-events: none;
+      height: 0;
+      overflow: hidden;
+    }
+
+    .header.expanded .expanded-content {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+      height: auto;
+      padding-top: 8px;
+    }
+
+    /* Full Navigation */
+    .full-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-item {
+      position: relative;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #334155;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.2s ease;
+      transform-origin: center;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    .nav-item:hover {
+      color: #1e40af;
+      background: rgba(30, 64, 175, 0.05);
+    }
+
+    .nav-item.red {
+      color: #dc2626;
+    }
+
+    .divider {
+      width: 1px;
+      height: 20px;
+      background: rgba(0, 0, 0, 0.1);
+      margin: 0 4px;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 80px 32px;
+      background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    }
+
+    .hero-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-size: 64px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 16px;
+      letter-spacing: -2px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #64748b;
+      margin-bottom: 32px;
+    }
+
+    .stats {
+      display: flex;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 32px;
+      font-weight: 700;
+      color: #1e40af;
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 4px;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      margin-top: 48px;
+    }
+
+    .category-card {
+      background: white;
+      border-radius: 16px;
+      padding: 32px 24px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .category-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .category-icon-large {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .category-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: #1e293b;
+    }
+  </style>
+</head>
+<body>
+  <!-- Info Strip -->
+  <div class="info-strip" id="infoStrip">
+    <span>vanzari@infinitrade-romania.ro</span>
+    <span>+40 371 232 404</span>
+    <span>Luni-Vineri 08:00-16:30</span>
+  </div>
+
+  <!-- Main Header -->
+  <header class="header" id="header">
+    <div class="header-content">
+      <!-- Main Bar (always visible) -->
+      <div class="main-bar">
+        <div class="logo">INFINITRADE</div>
+
+        <div class="category-icons" id="categoryIcons">
+          <div class="category-icon-wrapper">
+            <div class="category-icon pompe"></div>
+            <div class="tooltip">Pompe Industriale</div>
+          </div>
+          <div class="category-icon-wrapper">
+            <div class="category-icon robineti"></div>
+            <div class="tooltip">Robineți Industriali</div>
+          </div>
+          <div class="category-icon-wrapper">
+            <div class="category-icon motoare"></div>
+            <div class="tooltip">Motoare Industriale</div>
+          </div>
+          <div class="category-icon-wrapper">
+            <div class="category-icon schimbatoare"></div>
+            <div class="tooltip">Schimbătoare Căldură</div>
+          </div>
+          <div class="category-icon-wrapper">
+            <div class="category-icon suflante"></div>
+            <div class="tooltip">Suflante Industriale</div>
+          </div>
+        </div>
+
+        <div class="search-bar">
+          <div class="search-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.35-4.35"/>
+            </svg>
+          </div>
+          <input type="text" class="search-input" placeholder="Caută branduri, produse, echipamente...">
+          <div class="search-results">
+            <p style="color: #94a3b8; font-size: 11px;">Rezultate căutare...</p>
+          </div>
+        </div>
+
+        <div class="actions">
+          <div class="action-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="9" cy="21" r="1"/>
+              <circle cx="20" cy="21" r="1"/>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+            </svg>
+            <span class="cart-badge">0</span>
+          </div>
+          <button class="cta-button">Cere Ofertă</button>
+          <div class="hamburger-dots" id="hamburgerDots">
+            <div class="hamburger-dot"></div>
+            <div class="hamburger-dot"></div>
+            <div class="hamburger-dot"></div>
+            <div class="hamburger-dropdown" id="hamburgerDropdown">
+              <a href="#">Acasă</a>
+              <a href="#">Despre Noi</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Expanded Content -->
+      <div class="expanded-content">
+        <div class="full-nav" id="fullNav">
+          <a href="#" class="nav-item">Pompe Industriale</a>
+          <a href="#" class="nav-item">Robineți Industriali</a>
+          <a href="#" class="nav-item">Motoare Industriale</a>
+          <a href="#" class="nav-item">Schimbătoare Căldură</a>
+          <a href="#" class="nav-item">Suflante Industriale</a>
+          <div class="divider"></div>
+          <a href="#" class="nav-item red">Branduri & Echipamente</a>
+          <div class="divider"></div>
+          <a href="#" class="nav-item">Resurse</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Dăm puls industriei.</h1>
+      <p>Echipamente industriale de încredere pentru performanță maximă.</p>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-number">800+</span>
+          <span class="stat-label">Clienți</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Branduri</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Ani Experiență</span>
+        </div>
+      </div>
+
+      <div class="categories">
+        <div class="category-card">
+          <div class="category-icon-large">⚙️</div>
+          <div class="category-name">Pompe Industriale</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon-large">🔧</div>
+          <div class="category-name">Robineți Industriali</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon-large">⚡</div>
+          <div class="category-name">Motoare Industriale</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon-large">🔥</div>
+          <div class="category-name">Schimbătoare Căldură</div>
+        </div>
+        <div class="category-card">
+          <div class="category-icon-large">💨</div>
+          <div class="category-name">Suflante Industriale</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const header = document.getElementById('header');
+    const infoStrip = document.getElementById('infoStrip');
+    const categoryIcons = document.getElementById('categoryIcons');
+    const fullNav = document.getElementById('fullNav');
+    const hamburgerDots = document.getElementById('hamburgerDots');
+    const hamburgerDropdown = document.getElementById('hamburgerDropdown');
+
+    let lastScrollY = 0;
+    let expandTimeout = null;
+    let collapseTimeout = null;
+
+    // Dock Magnification Effect on Icons
+    const iconWrappers = categoryIcons.querySelectorAll('.category-icon-wrapper');
+
+    function handleIconMouseMove(e) {
+      iconWrappers.forEach(wrapper => {
+        const rect = wrapper.getBoundingClientRect();
+        const itemCenter = rect.left + rect.width / 2;
+        const distance = Math.abs(e.clientX - itemCenter);
+        const maxDistance = 100;
+        const scale = Math.max(1, 1.3 - (distance / maxDistance) * 0.3);
+        wrapper.style.transform = `scale(${scale})`;
+      });
+    }
+
+    function resetIconScale() {
+      iconWrappers.forEach(wrapper => {
+        wrapper.style.transform = 'scale(1)';
+      });
+    }
+
+    categoryIcons.addEventListener('mousemove', handleIconMouseMove);
+    categoryIcons.addEventListener('mouseleave', resetIconScale);
+
+    // Dock Magnification Effect on Full Nav
+    const navItems = fullNav.querySelectorAll('.nav-item');
+
+    function handleNavMouseMove(e) {
+      navItems.forEach(item => {
+        const rect = item.getBoundingClientRect();
+        const itemCenter = rect.left + rect.width / 2;
+        const distance = Math.abs(e.clientX - itemCenter);
+        const maxDistance = 150;
+        const scale = Math.max(1, 1.4 - (distance / maxDistance) * 0.4);
+        item.style.transform = `scale(${scale})`;
+      });
+    }
+
+    function resetNavScale() {
+      navItems.forEach(item => {
+        item.style.transform = 'scale(1)';
+      });
+    }
+
+    fullNav.addEventListener('mousemove', handleNavMouseMove);
+    fullNav.addEventListener('mouseleave', resetNavScale);
+
+    // Hamburger dots toggle
+    hamburgerDots.addEventListener('click', (e) => {
+      e.stopPropagation();
+      hamburgerDropdown.classList.toggle('active');
+    });
+
+    document.addEventListener('click', () => {
+      hamburgerDropdown.classList.remove('active');
+    });
+
+    hamburgerDropdown.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+
+    // Expand header on hover
+    function expandHeader() {
+      clearTimeout(collapseTimeout);
+      expandTimeout = setTimeout(() => {
+        header.classList.add('expanded');
+        infoStrip.classList.add('expanded');
+      }, 100);
+    }
+
+    function collapseHeader() {
+      clearTimeout(expandTimeout);
+      collapseTimeout = setTimeout(() => {
+        if (!header.matches(':hover')) {
+          header.classList.remove('expanded');
+          infoStrip.classList.remove('expanded');
+        }
+      }, 300);
+    }
+
+    header.addEventListener('mouseenter', expandHeader);
+    header.addEventListener('mouseleave', collapseHeader);
+
+    // Scroll behavior
+    window.addEventListener('scroll', () => {
+      const currentScrollY = window.pageYOffset;
+
+      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+        header.classList.remove('expanded');
+        infoStrip.classList.remove('expanded');
+      } else if (currentScrollY < lastScrollY) {
+        if (currentScrollY < 200) {
+          header.classList.add('expanded');
+          infoStrip.classList.add('expanded');
+        }
+      }
+
+      lastScrollY = currentScrollY;
+    });
+
+    // Initial state - expanded on load
+    setTimeout(() => {
+      header.classList.add('expanded');
+      infoStrip.classList.add('expanded');
+    }, 100);
+  </script>
+</body>
+</html>
