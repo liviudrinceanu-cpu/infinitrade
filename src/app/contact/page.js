@@ -28,6 +28,8 @@ export default function ContactPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [honeypot, setHoneypot] = useState('');
+  const [formLoadedAt] = useState(() => Date.now());
 
   // Pre-fill message with cart items including links
   useEffect(() => {
@@ -55,6 +57,8 @@ export default function ContactPage() {
     const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://www.infinitrade.ro';
     const submitData = {
       ...formData,
+      website: honeypot,
+      _t: formLoadedAt,
       cartItems: cartItems.map(item => ({
         type: item.type,
         name: item.name,
@@ -261,6 +265,20 @@ export default function ContactPage() {
                         rows={5}
                         placeholder="Descrie ce echipamente cauți, specificații tehnice, cantități, termen de livrare dorit..."
                         required
+                      />
+                    </div>
+
+                    {/* Honeypot - invisible to humans, bots fill it */}
+                    <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px', top: '-9999px', opacity: 0, height: 0, overflow: 'hidden', tabIndex: -1 }}>
+                      <label htmlFor="website">Website</label>
+                      <input
+                        type="text"
+                        id="website"
+                        name="website"
+                        value={honeypot}
+                        onChange={(e) => setHoneypot(e.target.value)}
+                        autoComplete="off"
+                        tabIndex={-1}
                       />
                     </div>
 

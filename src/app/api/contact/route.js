@@ -170,7 +170,175 @@ const contactSchema = z.object({
     name: z.string(),
     category: z.string().optional(),
   })).optional(),
+  website: z.string().optional(), // honeypot field
+  _t: z.number().optional(), // form load timestamp
 });
+
+// --- Bot / Spam Detection ---
+
+/**
+ * Calculate Shannon entropy of a string (randomness measure).
+ * High entropy = likely random gibberish.
+ */
+function calculateEntropy(str) {
+  if (!str || str.length === 0) return 0;
+  const freq = {};
+  for (const ch of str) {
+    freq[ch] = (freq[ch] || 0) + 1;
+  }
+  let entropy = 0;
+  const len = str.length;
+  for (const count of Object.values(freq)) {
+    const p = count / len;
+    entropy -= p * Math.log2(p);
+  }
+  return entropy;
+}
+
+/**
+ * Check if a string looks like gibberish based on consonant clusters
+ * and lack of vowel patterns typical in real languages (Romanian, English, etc.)
+ */
+function isGibberish(str) {
+  if (!str || str.length < 3) return false;
+  const cleaned = str.toLowerCase().replace(/[^a-zA-ZăâîșțĂÂÎȘȚ]/g, '');
+  if (cleaned.length < 3) return false;
+
+  // Check consonant-to-vowel ratio
+  const vowels = cleaned.match(/[aeiouăâî]/gi) || [];
+  const vowelRatio = vowels.length / cleaned.length;
+  // Normal Romanian/English text has ~35-45% vowels; below 15% is suspicious
+  if (vowelRatio < 0.15 && cleaned.length > 5) return true;
+
+  // Check for long consonant clusters (4+ consecutive consonants is suspicious for names)
+  const longClusters = cleaned.match(/[^aeiouăâî]{5,}/gi) || [];
+  if (longClusters.length > 0 && cleaned.length < 30) return true;
+
+  // High entropy for short strings is suspicious (random characters)
+  const entropy = calculateEntropy(cleaned);
+  if (entropy > 4.0 && cleaned.length < 20) return true;
+
+  return false;
+}
+
+/**
+ * Detect if the submission is likely from a bot/spam.
+ * Returns { isSpam: boolean, reason: string }
+ */
+function detectSpam(data, formLoadedAt) {
+  const reasons = [];
+  let score = 0; // 0 = clean, higher = more likely spam
+
+  // 1. Honeypot check - bots fill hidden fields
+  if (data.website && data.website.trim().length > 0) {
+    return { isSpam: true, reason: 'honeypot', score: 100 };
+  }
+
+  // 2. Timing check - form submitted too fast (< 3 seconds)
+  if (formLoadedAt) {
+    const elapsed = Date.now() - formLoadedAt;
+    if (elapsed < 3000) {
+      return { isSpam: true, reason: 'too_fast', score: 100 };
+    }
+    if (elapsed < 5000) {
+      score += 30;
+      reasons.push('submitted_quickly');
+    }
+  }
+
+  // 3. Name gibberish check
+  if (isGibberish(data.name)) {
+    score += 40;
+    reasons.push('gibberish_name');
+  }
+
+  // 4. Company gibberish check
+  if (data.company && data.company.length > 3 && isGibberish(data.company)) {
+    score += 30;
+    reasons.push('gibberish_company');
+  }
+
+  // 5. Message gibberish check
+  if (isGibberish(data.message)) {
+    score += 40;
+    reasons.push('gibberish_message');
+  }
+
+  // 6. Message too short and meaningless (just random chars)
+  const messageWords = data.message.trim().split(/\s+/);
+  if (messageWords.length <= 2) {
+    // Check if the 1-2 words are actual words or gibberish
+    const allGibberish = messageWords.every(w => isGibberish(w));
+    if (allGibberish) {
+      score += 35;
+      reasons.push('meaningless_message');
+    }
+  }
+
+  // 7. Name has no spaces (most real names have first + last name)
+  //    and name is long random string
+  if (data.name.length > 12 && !data.name.includes(' ') && /[A-Z].*[A-Z]/.test(data.name)) {
+    // CamelCase random like "vQafAhaRGzNKRngVrc"
+    const upperCount = (data.name.match(/[A-Z]/g) || []).length;
+    if (upperCount > 3) {
+      score += 30;
+      reasons.push('random_casing_name');
+    }
+  }
+
+  // 8. Mixed-case within a single word (real names don't have random uppercase mid-word)
+  //    e.g. "putiEHwMeBXVUNkUlpahy" has uppercase letters scattered inside
+  const nameParts = data.name.trim().split(/\s+/);
+  for (const part of nameParts) {
+    if (part.length > 8) {
+      // Count case transitions (lower->upper or upper->lower)
+      let transitions = 0;
+      for (let i = 1; i < part.length; i++) {
+        const prevUpper = part[i - 1] === part[i - 1].toUpperCase() && part[i - 1] !== part[i - 1].toLowerCase();
+        const currUpper = part[i] === part[i].toUpperCase() && part[i] !== part[i].toLowerCase();
+        if (prevUpper !== currUpper) transitions++;
+      }
+      // Real names have 0-1 transitions (e.g. "Ion" = 1). Gibberish has many.
+      if (transitions > 4) {
+        score += 35;
+        reasons.push('chaotic_casing');
+        break;
+      }
+    }
+  }
+
+  // 9. Message is a single "word" with no spaces - very suspicious
+  if (messageWords.length === 1 && data.message.trim().length > 8) {
+    score += 30;
+    reasons.push('single_word_message');
+  }
+
+  // 10. Phone number sanity (if provided)
+  if (data.phone) {
+    const digitsOnly = data.phone.replace(/[\s\-\+\(\)\.]/g, '');
+    // Romanian phone: 10 digits starting with 0, or international +40 = 12 chars
+    // Allow some international formats too
+    if (digitsOnly.length > 0 && (digitsOnly.length < 6 || digitsOnly.length > 15)) {
+      score += 20;
+      reasons.push('invalid_phone_length');
+    }
+  }
+
+  // 11. Email from known disposable/spam domains (basic list)
+  const disposableDomains = [
+    'mailinator.com', 'guerrillamail.com', 'tempmail.com', 'throwaway.email',
+    'yopmail.com', 'sharklasers.com', 'guerrillamailblock.com', 'grr.la',
+    'dispostable.com', 'trashmail.com', '10minutemail.com', 'maildrop.cc',
+  ];
+  const emailDomain = (data.email || '').split('@')[1]?.toLowerCase();
+  if (emailDomain && disposableDomains.includes(emailDomain)) {
+    score += 25;
+    reasons.push('disposable_email');
+  }
+
+  const isSpam = score >= 60;
+  return { isSpam, reason: reasons.join(', '), score };
+}
 
 async function analyzeRequestWithClaude(formData) {
   const client = await getAnthropic();
@@ -334,6 +502,23 @@ export async function POST(request) {
     }
 
     const validatedData = validationResult.data;
+
+    // --- Spam Detection (BEFORE AI analysis to save tokens) ---
+    const spamResult = detectSpam(validatedData, validatedData._t);
+
+    if (spamResult.isSpam) {
+      console.log(`[SPAM BLOCKED] score=${spamResult.score} reason="${spamResult.reason}" name="${validatedData.name}" email="${validatedData.email}"`);
+      // Return success to not reveal to bots that they were caught
+      return Response.json({
+        success: true,
+        message: 'Solicitarea a fost trimisă cu succes!'
+      });
+    }
+
+    // Log borderline cases for monitoring
+    if (spamResult.score > 0) {
+      console.log(`[SPAM CHECK] score=${spamResult.score} reason="${spamResult.reason}" name="${validatedData.name}" email="${validatedData.email}"`);
+    }
 
     // Analyze request with Claude AI
     const aiAnalysis = await analyzeRequestWithClaude(validatedData);
