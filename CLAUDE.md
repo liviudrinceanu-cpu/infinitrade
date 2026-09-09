@@ -1,6 +1,64 @@
 # Infinitrade.ro - Documentatie Completa
 
-## ULTIMA ACTUALIZARE: 24 Ianuarie 2026 (V52)
+## ULTIMA ACTUALIZARE: 9 Septembrie 2026 (V53)
+
+---
+
+## MODIFICARI V53 - Audit 360° SEO/AEO + reparare producție (9 Septembrie 2026)
+
+### CAUZA PRINCIPALĂ (rezolvată)
+Din 4 martie 2026 orice randare necache-uită (URL inexistent, 404, /favicon.ico, revalidare ISR) dădea **HTTP 500**: `isomorphic-dompurify` → `jsdom` → `@exodus/bytes` (ESM) crăpa pe Node 24 (Vercel) cu `ERR_REQUIRE_ESM`. 7,2% din cereri erau 5xx; ISR servea pagini înghețate (`cache=STALE`).
+
+| Fix | Fișiere |
+|-----|---------|
+| jsdom eliminat; `sanitize-html` (fără jsdom) pentru blog/studii de caz | `src/lib/utils.js` (doar helperi puri, client-safe), `src/lib/sanitize.js` (server) |
+| Pagină de eroare brandată | `src/app/error.js` |
+| `favicon.ico` + `apple-touch-icon.png` reale; `icon-192/512.png` erau JPEG cu extensie .png | `public/` |
+| Vechile căi de sitemap WordPress → `/sitemap.xml` | `next.config.js` |
+
+**Regulă:** nimic din `@/lib/utils` nu are voie să importe dependențe server-only/DOM — modulul e importat de componente client (`Header.js`).
+
+### TRIAJ AI PE OPUS 5 (`src/app/api/contact/route.js`)
+- `claude-opus-5`, system prompt cu rol/reguli, mesajul clientului izolat în `<mesaj_client>` (date, nu instrucțiuni)
+- Output structurat (`output_config.format` JSON schema): rezumat, tip cerere, produse (brand/cod/cantitate), urgență, profil client, estimare cu grad de încredere, informații lipsă, acțiune recomandată, semnale de atenție, scor lead 1–10 (și în subiectul emailului: `[Lead N/10]`)
+- `estimatedMin/Max` pentru DB vin din JSON (regex-ul vechi rămâne fallback); eșecurile se loghează (`[AI] eșec status=…`), lipsa cheii se loghează
+- Destinatari: `vanzari@infinitrade-romania.ro` + `liviu.drinceanu@` (decizie utilizator); `maxDuration = 60`
+- ⚠️ Cheia din Vercel aparține unui workspace Anthropic fără credit (400 „credit balance too low") → până la alimentare rulează `generateBasicAnalysis`
+- ⚠️ `DATABASE_URL`/`DIRECT_URL` au parola Supabase veche → cererile nu se salvează (`[DB] salvare eșuată`)
+
+### SEO TEHNIC / AEO
+| Ce | Unde |
+|----|------|
+| `AggregateRating`/`Review` self-serving scoase (avertisment GSC) | `src/app/layout.js`, `src/app/testimoniale/page.js` |
+| Sitemap cu `lastModified` real per grup — **bump la fiecare modificare de conținut** | `src/data/lastModified.js`, `src/app/sitemap.js` |
+| 69/128 redirecturi legacy → brand/categorie (Leser, Gestra, VAG, Ebro, Georg Fischer/„gerorg-fischer", Spirax Sarco, KSB, Wilo…); 48 rămân → `/` | `next.config.js`; verificare obligatorie: `node scripts/verify-redirects.mjs` (0 FAILED) |
+| Crawlere AI permise explicit; `llms.txt` cu 15 categorii + 15 industrii | `src/app/robots.ts`, `public/llms.txt` |
+| Vercel Web Analytics (activat în dashboard) | `<Analytics />` în `layout.js` |
+| hreflang scos din root (site monolingv) | `layout.js` |
+
+### CONȚINUT
+| Ce | Unde |
+|----|------|
+| 134 branduri cu conținut bogat (era 20): batch-urile 5–16 reparate (sintaxă, structură `whyChoose`), audit „distribuitor/service autorizat" → limbaj de furnizor, Alfa Laval HQ → Lund | `src/data/brandContent*.js` (16 batch-uri) |
+| FAQ expert + `FAQPage` pe 15 categorii (6 Q&A) — schema generică veche (3 întrebări invizibile) scoasă | `src/data/categoryFaq.js`, `src/app/[category]/page.js` |
+| FAQ expert + `FAQPage` pe 15 industrii (5 Q&A) | `src/data/industryFaq.js`, `src/app/industrii/[slug]/page.js` |
+
+### DECIZII UTILIZATOR (9 Sep 2026)
+- **Nu se atinge `infinitrade-romania.ro`** (WordPress) fără acord explicit — nici redirecturi, nici cross-link
+- Nu se șterg/redenumesc URL-uri indexate; nu se schimbă canonical-uri
+- Push direct pe `main` aprobat pentru această lucrare
+
+### URMĂTORII PAȘI
+1. Utilizator: credit Anthropic, parolă DB în Vercel, Enable „Google Search Console API" (proiect GCP 1030936253057), `NEXT_PUBLIC_GA_ID`
+2. Cu API-ul GSC activ: poziții per brand (288), retrimitere sitemap, validare 5xx
+3. 154 branduri fără conținut bogat; apoi pagini de **produs/serie** (motorul long-tail — cererile reale vin pe coduri: MOVITRAC MC07B, Burster 8524, SPECK GY0281)
+4. CRO formular: promisiune timp de răspuns, notă GDPR; aliniere „500+ branduri" vs 288 pagini
+
+### BUILD STATUS
+✅ Build SUCCESS - 366 pagini generate (288 brand, 15 categorii, 15 industrii, 15 blog, 5 studii de caz)
+
+---
+
 
 ---
 
