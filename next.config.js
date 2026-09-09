@@ -203,7 +203,7 @@ const nextConfig = {
       { source: '/accesorii-sudura', destination: '/scule-instrumente', permanent: true },
       { source: '/aparate-sudura-mig-mag', destination: '/scule-instrumente', permanent: true },
       { source: '/transformatoare-de-sudura', destination: '/scule-instrumente', permanent: true },
-      { source: '/piese-de-schimb-accesorii-si-consumabile-pentru-industrie', destination: '/', permanent: true },
+      { source: '/piese-de-schimb-accesorii-si-consumabile-pentru-industrie', destination: '/echipamente-diverse', permanent: true },
       { source: '/echipamente-agricultura-si-gradina', destination: '/', permanent: true },
       { source: '/casti-de-protectie', destination: '/echipamente-auxiliare', permanent: true },
       { source: '/protectie-auditiva', destination: '/echipamente-auxiliare', permanent: true },
@@ -273,10 +273,15 @@ const nextConfig = {
       { source: '/schneeberger-:path*', destination: '/', permanent: true },
       // Note: Interroll/Rulmeca are not carried brands (not present anywhere in
       // the current catalog) - no relevant target exists, left at homepage
-      { source: '/interroll-:path*', destination: '/', permanent: true },
-      { source: '/rulmeca-:path*', destination: '/', permanent: true },
+      { source: '/interroll-:path*', destination: '/componente-mecanice', permanent: true },
+      { source: '/rulmeca-:path*', destination: '/componente-mecanice', permanent: true },
       { source: '/masterchem-:path*', destination: '/', permanent: true },
-      { source: '/vag-armaturen-:path*', destination: '/', permanent: true },
+      { source: '/vag-armaturen-:path*', destination: '/brand/vag', permanent: true },
+      // Old GF page was published with a typo in its slug; Google still lists it
+      { source: '/gerorg-fischer-:path*', destination: '/brand/georg-fischer', permanent: true },
+      { source: '/georg-fischer-:path*', destination: '/brand/georg-fischer', permanent: true },
+      { source: '/victaulic', destination: '/robineti-industriali', permanent: true },
+      { source: '/victaulic-:path*', destination: '/robineti-industriali', permanent: true },
       { source: '/erhard-armaturen-:path*', destination: '/', permanent: true },
       { source: '/meca-inox-:path*', destination: '/', permanent: true },
       { source: '/eckart-:path*', destination: '/', permanent: true },
