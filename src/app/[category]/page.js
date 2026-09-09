@@ -93,7 +93,7 @@ export default async function CategoryPage({ params }) {
   const brandNames = category.brands.map(b => b.name);
 
   // Expert FAQ content (answer-engine optimization) - separate from the generic
-  // FAQPage entry already present in the @graph below, which is left untouched.
+  // The only FAQPage schema on the page - its questions are rendered visibly below.
   const expertFaqs = getCategoryFaq(category.slug);
   const expertFaqJsonLd = expertFaqs.length > 0 ? {
     '@context': 'https://schema.org',
@@ -191,37 +191,6 @@ export default async function CategoryPage({ params }) {
             },
           })),
         },
-      },
-      // FAQ Schema for common questions
-      {
-        '@type': 'FAQPage',
-        '@id': `${config.site.url}/${category.slug}#faq`,
-        mainEntity: [
-          {
-            '@type': 'Question',
-            name: `Ce branduri de ${category.name.toLowerCase()} aveți disponibile?`,
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: `Oferim ${category.name.toLowerCase()} de la ${brandNames.slice(0, 5).join(', ')} și alte ${category.stats.brands} branduri premium. Toate produsele sunt originale cu garanție.`,
-            },
-          },
-          {
-            '@type': 'Question',
-            name: `Cât durează livrarea pentru ${category.name.toLowerCase()}?`,
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: `Livrarea pentru ${category.name.toLowerCase()} din stoc se face în 24-72h în toată România. Pentru produse la comandă, termenul este de 2-4 săptămâni în funcție de producător.`,
-            },
-          },
-          {
-            '@type': 'Question',
-            name: `Oferiți suport tehnic pentru ${category.name.toLowerCase()}?`,
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: `Da, oferim consultanță tehnică gratuită pentru selectarea ${category.name.toLowerCase()} potrivite aplicației dumneavoastră. Echipa noastră de ingineri vă ajută cu dimensionare, instalare și punere în funcțiune.`,
-            },
-          },
-        ],
       },
     ],
   };
