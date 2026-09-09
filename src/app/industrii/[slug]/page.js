@@ -5,9 +5,11 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
 import { industries, getIndustry } from '@/data/industries';
+import { getIndustryFaq } from '@/data/industryFaq';
 import { safeJsonLd } from '@/lib/utils';
-import { ArrowRight, CheckCircle, Building2, Users, Award, Phone, Factory } from 'lucide-react';
+import { ArrowRight, CheckCircle, Building2, Users, Award, Phone, Factory, ChevronDown } from 'lucide-react';
 import styles from './industry.module.css';
+import faqStyles from './faq.module.css';
 
 // Generate static params
 export async function generateStaticParams() {
@@ -157,6 +159,22 @@ function generateIndustryJsonLd(industry) {
   };
 }
 
+// Generate FAQPage JSON-LD (separate schema object, mirrors src/app/faq/page.js)
+function generateIndustryFaqJsonLd(faqs) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  };
+}
+
 export default async function IndustryPage({ params }) {
   const { slug } = await params;
   const industry = getIndustry(slug);
@@ -166,6 +184,8 @@ export default async function IndustryPage({ params }) {
   }
 
   const jsonLd = generateIndustryJsonLd(industry);
+  const faqs = getIndustryFaq(industry.slug);
+  const faqJsonLd = faqs.length > 0 ? generateIndustryFaqJsonLd(faqs) : null;
   const otherIndustries = industries.filter(ind => ind.slug !== industry.slug).slice(0, 4);
 
   return (
@@ -174,6 +194,12 @@ export default async function IndustryPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(faqJsonLd) }}
+        />
+      )}
       <Header />
       <main id="main-content" className={styles.main}>
         {/* Hero */}
@@ -280,6 +306,28 @@ export default async function IndustryPage({ params }) {
                   <div key={client} className={styles.clientBadge}>
                     {client}
                   </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* FAQ */}
+        {faqs.length > 0 && (
+          <section className={faqStyles.faqSection} aria-labelledby="faq-heading">
+            <div className={styles.container}>
+              <h2 id="faq-heading">Întrebări frecvente – {industry.name}</h2>
+              <div className={faqStyles.faqList}>
+                {faqs.map((item, index) => (
+                  <details key={index} className={faqStyles.faqItem}>
+                    <summary className={faqStyles.question}>
+                      <span>{item.q}</span>
+                      <ChevronDown className={faqStyles.chevron} size={20} />
+                    </summary>
+                    <div className={faqStyles.answer}>
+                      <p>{item.a}</p>
+                    </div>
+                  </details>
                 ))}
               </div>
             </div>
