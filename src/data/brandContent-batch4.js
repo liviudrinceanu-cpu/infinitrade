@@ -51,7 +51,7 @@ Noi la Infinitrade distribuim gama industrială Schneider Electric pentru automa
     infinitrade: `La Infinitrade furnizăm componente și soluții Schneider Electric pentru automatizări industriale — de la PLC-uri și HMI-uri, la variatori de frecvență și echipamente de distribuție electrică. Avem în stoc permanent seriile populare (Modicon M241/M340, Altivar 320/630, Magelis GTU/STU) și putem să aducem rapid orice componentă din gama industrială Schneider. Dacă proiectezi o linie nouă sau modernizezi o instalație existentă, hai să discutăm — te ajutăm cu configurarea, dimensionarea și integrarea echipamentelor în arhitectura ta de automatizare. Schneider e scump, dar e investiție pe termen lung — și merită fiecare ban când vine vorba de uptime și suport.`,
   },
 
-  'sew-eurodrive': {
+  'sew': {
     founded: 1931,
     headquarters: 'Bruchsal, Germania',
     employees: '21,000+',
