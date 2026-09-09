@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import dynamic from 'next/dynamic';
+import { Analytics } from '@vercel/analytics/next';
 import { QuoteCartProvider } from '@/context/QuoteCartContext';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { config } from '@/lib/config';
@@ -43,9 +44,12 @@ export const metadata = {
     telephone: false,
   },
   icons: {
-    icon: '/logo-icon.jpg',
-    apple: '/logo-icon.jpg',
-    shortcut: '/logo-icon.jpg',
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/icon-192.png', type: 'image/png', sizes: '192x192' },
+    ],
+    apple: '/apple-touch-icon.png',
+    shortcut: '/favicon.ico',
   },
   manifest: '/manifest.json',
   openGraph: {
@@ -85,10 +89,6 @@ export const metadata = {
   },
   alternates: {
     canonical: config.site.url,
-    languages: {
-      'ro-RO': config.site.url,
-      'x-default': config.site.url,
-    },
   },
   category: 'business',
 }
@@ -147,13 +147,6 @@ const organizationSchema = {
     'https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL',
     'https://www.risco.ro/verifica-firma/driatheli-group-cui-26209397',
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.8',
-    bestRating: '5',
-    worstRating: '1',
-    ratingCount: '15',
-  }
 }
 
 // Schema.org for LocalBusiness
@@ -340,6 +333,7 @@ export default function RootLayout({ children }) {
             {children}
           </QuoteCartProvider>
         </ErrorBoundary>
+        <Analytics />
       </body>
     </html>
   )

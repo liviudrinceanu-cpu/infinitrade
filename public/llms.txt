@@ -1,8 +1,10 @@
 # Driatheli Group SRL - Infinitrade Romania
 
-> Authorized distributor of industrial equipment in Romania since 2009.
+> Supplier and distributor of industrial equipment in Romania since 2009.
 > Pumps, valves, electric motors, heat exchangers, blowers.
 > Brands: Grundfos, Wilo, Siemens, ABB, Alfa Laval, KSB, ARI Armaturen, Spirax Sarco.
+
+Sitemap: https://www.infinitrade.ro/sitemap.xml
 
 ## Company
 - [About Us](https://infinitrade.ro/despre-noi)
@@ -54,15 +56,35 @@
   - [Industrial Equipment Trends 2026](https://infinitrade.ro/blog/tendinte-echipamente-industriale-2026)
 - [SEAP Procurement Guide](https://infinitrade.ro/ghid-achizitii-seap) - How to procure industrial equipment through public tenders
 - [Brand Comparison Guide](https://infinitrade.ro/ghid-comparativ) - Compare industrial equipment brands
+- [Case Studies](https://infinitrade.ro/studii-de-caz) - Real-world equipment deployment stories across industries
 
 ## Industry Solutions
-We serve 15+ industries including:
-- [Petrochemicals & Refineries](https://infinitrade.ro/industrii/petrochimie) - ATEX certified equipment
-- [Energy & Utilities](https://infinitrade.ro/industrii/energie) - Power plants and district heating
-- [Food Industry](https://infinitrade.ro/industrii/alimentar) - Stainless steel equipment, food-safe
-- [Pharmaceutical](https://infinitrade.ro/industrii/farmaceutic) - Clean room compatible
-- [Water Treatment](https://infinitrade.ro/industrii/tratare-apa) - Wastewater and drinking water solutions
-- [Chemical Industry](https://infinitrade.ro/industrii/chimie) - Chemical-resistant materials
+We serve 15 industries:
+- [Petrochemicals & Refineries](https://infinitrade.ro/industrii/petrochimie) - ATEX certified equipment for refineries and cracking units
+- [Food Industry](https://infinitrade.ro/industrii/alimentar) - Stainless steel 316L equipment, EHEDG/3A certified, food-safe
+- [Water Treatment](https://infinitrade.ro/industrii/tratare-apa) - Drinking water and wastewater treatment plant equipment
+- [Energy & Utilities](https://infinitrade.ro/industrii/energie) - Power plants and district heating equipment
+- [Pharmaceutical](https://infinitrade.ro/industrii/farmaceutic) - Clean room compatible equipment
+- [Chemical Industry](https://infinitrade.ro/industrii/chimie) - Chemical-resistant materials for aggressive media
+- [Mining & Extraction](https://infinitrade.ro/industrii/minerit) - Slurry pumps and mine dewatering equipment for abrasive conditions
+- [Construction & HVAC](https://infinitrade.ro/industrii/constructii) - Circulation pumps, balancing valves and pumping groups for commercial buildings
+- [Automotive Industry](https://infinitrade.ro/industrii/automotive) - Hydraulic press systems, production-line bearings and automation for car plants
+- [Metallurgy & Steel](https://infinitrade.ro/industrii/metalurgie) - Equipment rated for extreme-temperature environments near furnaces
+- [Cement Industry](https://infinitrade.ro/industrii/ciment) - Dust filters, transmission belts and blowers for clinker mills
+- [Paper & Pulp Industry](https://infinitrade.ro/industrii/hartie) - Pulp pumps, consistency sensors and heat exchangers for paper mills
+- [Logistics & Warehousing](https://infinitrade.ro/industrii/logistica) - Conveyor motors, sorting pneumatics and sensors for distribution centers
+- [Biogas & Green Energy](https://infinitrade.ro/industrii/biogaz) - Biomass pumps, pH/level sensors and aeration blowers for biogas plants
+- [Shipbuilding & Maritime](https://infinitrade.ro/industrii/naval) - Marine pumps, deck hydraulics and bronze valves resistant to seawater corrosion
+
+## How to Request a Quote
+Use the form at [infinitrade.ro/contact](https://infinitrade.ro/contact) (name, email, phone, company, category of interest, message).
+To get an accurate quote faster, include in your message:
+- Product/model code or brand, if known
+- Nameplate data (flow, pressure, power, voltage, or other relevant technical specs)
+- Quantity needed
+- Process conditions (fluid/medium, temperature, environment, application)
+- Desired delivery timeframe
+Response time: within 1 business day.
 
 ## Company Facts
 - Founded: 2009 (17 years in business)
@@ -77,7 +99,7 @@ We serve 15+ industries including:
 - Pages: ~359 (categories, brands, industries, guides, blog)
 - Clients: 800+ active industrial customers
 - SEAP/SICAP: Registered supplier for public procurement
-- Certifications: ISO 9001:2015, Authorized Distributors
+- Certifications: ISO 9001:2015
 - Delivery: 24-72h for stock items, throughout Romania
 
 ## Contact

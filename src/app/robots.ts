@@ -53,6 +53,38 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: 'Applebot-Extended',
         allow: '/',
       },
+      {
+        userAgent: 'OAI-SearchBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'Amazonbot',
+        allow: '/',
+      },
+      {
+        userAgent: 'Meta-ExternalAgent',
+        allow: '/',
+      },
+      {
+        userAgent: 'Applebot',
+        allow: '/',
+      },
+      {
+        userAgent: 'cohere-ai',
+        allow: '/',
+      },
+      {
+        userAgent: 'YouBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'DuckAssistBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'MistralAI-User',
+        allow: '/',
+      },
     ],
     sitemap: `${config.site.url}/sitemap.xml`,
     host: config.site.url,

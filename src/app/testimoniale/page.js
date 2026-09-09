@@ -58,25 +58,19 @@ export default function TestimonialePage() {
   const featuredTestimonials = getFeaturedTestimonials();
   const regularTestimonials = testimonials.filter(t => !t.featured);
 
-  // JSON-LD Structured Data - CORECTED: reviewCount = testimonials.length (not 800)
+  // JSON-LD Structured Data
+  // Note: No AggregateRating/Review markup here by design - Google disallows
+  // self-published review/rating structured data for a business's own site.
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
-      // Organization with Aggregate Rating
+      // Organization
       {
         '@type': 'Organization',
         '@id': `${config.site.url}/#organization`,
         name: 'Infinitrade Romania',
         url: config.site.url,
         logo: `${config.site.url}/logo-header.png`,
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: testimonialStats.avgRating,
-          bestRating: 5,
-          worstRating: 1,
-          ratingCount: testimonials.length,  // CORECTED: actual testimonial count
-          reviewCount: testimonials.length,  // CORECTED: actual testimonial count
-        },
       },
       // Breadcrumb
       {
@@ -95,26 +89,6 @@ export default function TestimonialePage() {
           },
         ],
       },
-      // Individual Reviews with initials for authenticity
-      ...testimonials.slice(0, 5).map((t, index) => ({
-        '@type': 'Review',
-        '@id': `${config.site.url}/testimoniale#review-${t.id}`,
-        reviewRating: {
-          '@type': 'Rating',
-          ratingValue: t.rating,
-          bestRating: 5,
-        },
-        author: {
-          '@type': 'Person',
-          name: t.initials ? `${t.initials}, ${t.role}` : `${t.role} - ${t.industry}`,
-        },
-        reviewBody: t.quote,
-        datePublished: t.yearStarted ? `${t.yearStarted}-01-01` : undefined,
-        itemReviewed: {
-          '@type': 'Organization',
-          name: 'Infinitrade Romania',
-        },
-      })),
     ],
   };
 
