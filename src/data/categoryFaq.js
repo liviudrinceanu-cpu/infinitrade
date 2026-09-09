@@ -401,7 +401,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Ce informații trimit pentru o ofertă de echipamente auxiliare sau de protecție?',
-      a: 'Pentru pompe dozatoare: debitul necesar, contrapresiunea din sistem și fluidul dozat (pentru compatibilitatea materialelor). Pentru echipamente de protecție: tipul de contaminant din mediul de lucru și concentrația estimată, dacă e cunoscută. Pentru rezervoare: volumul necesar, fluidul stocat și dacă rezervorul va fi amplasat în interior sau exterior. Cu aceste date recomandăm echipamentul potrivit, nu doar cel mai ieftin disponibil.',
+      a: 'Pentru pompe dozatoare: debitul necesar, contrapresiunea din sistem și fluidul dozat (pentru compatibilitatea materialelor). Pentru echipamente de protecție: tipul de contaminant din mediul de lucru și concentrația estimată, dacă e cunoscută. Pentru rezervoare: volumul necesar, fluidul stocat și dacă rezervorul va fi amplasat în interior sau exterior. Pentru agitatoare, menționați volumul rezervorului și vâscozitatea aproximativă a fluidului amestecat. Cu aceste date recomandăm echipamentul potrivit, nu doar cel mai ieftin disponibil.',
     },
     {
       q: 'Cât durează livrarea echipamentelor auxiliare și de protecție a muncii?',
