@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { companyInfo } from '@/data/products';
 import { allCategoriesUnified as categories } from '@/data/allBrandsIndex';
+import { getCategoryFaq } from '@/data/categoryFaq';
 import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
 import CategoryClient from './CategoryClient';
@@ -90,6 +91,23 @@ export default async function CategoryPage({ params }) {
 
   // Get brand names for schema
   const brandNames = category.brands.map(b => b.name);
+
+  // Expert FAQ content (answer-engine optimization) - separate from the generic
+  // FAQPage entry already present in the @graph below, which is left untouched.
+  const expertFaqs = getCategoryFaq(category.slug);
+  const expertFaqJsonLd = expertFaqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': `${config.site.url}/${category.slug}#expert-faq`,
+    mainEntity: expertFaqs.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  } : null;
 
   // JSON-LD Structured Data
   const jsonLd = {
@@ -218,6 +236,14 @@ export default async function CategoryPage({ params }) {
           dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
         />
 
+        {/* Expert FAQ Structured Data (answer-engine optimization) */}
+        {expertFaqJsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: safeJsonLd(expertFaqJsonLd) }}
+          />
+        )}
+
         {/* Breadcrumbs - visible on page */}
         <div className={styles.breadcrumbWrapper}>
           <div className={styles.container}>
@@ -227,6 +253,27 @@ export default async function CategoryPage({ params }) {
 
         {/* Client-side interactive content */}
         <CategoryClient category={category} />
+
+        {/* Expert FAQ - concrete, technical answers for buyers, engineers and AI answer engines */}
+        {expertFaqs.length > 0 && (
+          <section aria-labelledby="faq-heading" className={styles.faqSection}>
+            <div className={styles.container}>
+              <div className={styles.sectionHeader}>
+                <h2 id="faq-heading">Întrebări frecvente despre {category.name}</h2>
+              </div>
+              <div className={styles.faqList}>
+                {expertFaqs.map((item, index) => (
+                  <details key={index} className={styles.faqItem}>
+                    <summary className={styles.faqQuestion}>{item.q}</summary>
+                    <div className={styles.faqAnswer}>
+                      <p>{item.a}</p>
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
       </main>
       <Footer />
     </>
