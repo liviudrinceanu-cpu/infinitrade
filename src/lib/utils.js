@@ -1,4 +1,10 @@
-import DOMPurify from 'isomorphic-dompurify';
+// Pure, environment-agnostic helpers.
+//
+// IMPORTANT: this module is imported by client components (Header.js), so it must
+// never pull in server-only or DOM-emulating dependencies. HTML sanitisation lives
+// in '@/lib/sanitize' (server-side, sanitize-html) for exactly that reason - the
+// previous isomorphic-dompurify import here loaded jsdom on every server render and
+// crashed the not-found path (and ISR revalidation) on Vercel with ERR_REQUIRE_ESM.
 
 // Debounce function
 export function debounce(func, wait) {
@@ -13,47 +19,10 @@ export function debounce(func, wait) {
   };
 }
 
-// Sanitize HTML using DOMPurify (secure against XSS)
-export function sanitizeHtml(html) {
-  if (typeof html !== 'string') return '';
-
-  // Configure DOMPurify to allow safe HTML for emails
-  const config = {
-    ALLOWED_TAGS: ['b', 'i', 'em', 'strong', 'a', 'br', 'p', 'ul', 'ol', 'li', 'span'],
-    ALLOWED_ATTR: ['href', 'class'],
-    ALLOW_DATA_ATTR: false,
-    FORBID_TAGS: ['script', 'iframe', 'object', 'embed', 'form', 'input', 'style'],
-    FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover', 'onfocus', 'onblur'],
-  };
-
-  return DOMPurify.sanitize(html, config);
-}
-
-// Sanitize HTML for content rendering (blog, case studies, etc.)
-// Allows more tags but still prevents XSS
-export function sanitizeContentHtml(html) {
-  if (typeof html !== 'string') return '';
-
-  const config = {
-    ALLOWED_TAGS: [
-      'b', 'i', 'em', 'strong', 'a', 'br', 'p', 'ul', 'ol', 'li', 'span',
-      'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'code', 'pre',
-      'table', 'thead', 'tbody', 'tr', 'th', 'td', 'sup', 'sub', 'mark'
-    ],
-    ALLOWED_ATTR: ['href', 'class', 'id', 'target', 'rel'],
-    ALLOW_DATA_ATTR: false,
-    ADD_ATTR: ['target'], // Allow target attribute
-    FORBID_TAGS: ['script', 'iframe', 'object', 'embed', 'form', 'input', 'style', 'svg', 'math'],
-    FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover', 'onfocus', 'onblur', 'onsubmit', 'onchange'],
-  };
-
-  return DOMPurify.sanitize(html, config);
-}
-
-// Sanitize plain text (strip all HTML)
+// Strip all HTML tags and decode nothing - plain text only.
 export function sanitizeText(text) {
   if (typeof text !== 'string') return '';
-  return DOMPurify.sanitize(text, { ALLOWED_TAGS: [] });
+  return text.replace(/<[^>]*>/g, '').replace(/[<>]/g, '');
 }
 
 // Safe JSON-LD serialization (prevents XSS in structured data)

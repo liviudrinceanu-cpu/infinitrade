@@ -9,7 +9,8 @@ import {
   Factory, Clock, Calendar, Zap, TrendingUp, CheckCircle,
   ArrowRight, Quote, Target, Wrench, BarChart3, Users
 } from 'lucide-react';
-import { sanitizeContentHtml, safeJsonLd } from '@/lib/utils';
+import { safeJsonLd } from '@/lib/utils';
+import { sanitizeContentHtml } from '@/lib/sanitize';
 import styles from './case-study.module.css';
 
 // Generate static params for all case studies

@@ -8,7 +8,8 @@ import { blogArticles, getBlogArticle } from '@/data/blog';
 import { getAuthorById } from '@/data/authors';
 import { config } from '@/lib/config';
 import { Calendar, Clock, User, ArrowLeft, Tag, Share2 } from 'lucide-react';
-import { sanitizeContentHtml, safeJsonLd } from '@/lib/utils';
+import { safeJsonLd } from '@/lib/utils';
+import { sanitizeContentHtml } from '@/lib/sanitize';
 import styles from './article.module.css';
 
 export const revalidate = 3600;

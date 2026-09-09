@@ -157,6 +157,11 @@ const nextConfig = {
   // Redirects for SEO
   async redirects() {
     return [
+      // Legacy WordPress sitemap paths Google still requests (were returning 500)
+      { source: '/sitemap_index.xml', destination: '/sitemap.xml', permanent: true },
+      { source: '/sitemap-:name.xml', destination: '/sitemap.xml', permanent: true },
+      { source: '/wp-sitemap.xml', destination: '/sitemap.xml', permanent: true },
+
       // 301 redirects from old category-prefixed brand slugs to simple slugs
       { source: '/brand/pompe-industriale-:slug', destination: '/brand/:slug', permanent: true },
       { source: '/brand/pompe-vid-industriale-:slug', destination: '/brand/:slug', permanent: true },
