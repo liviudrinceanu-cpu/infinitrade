@@ -1,7 +1,7 @@
 /**
  * Brand Content - Rich SEO content for brand landing pages
  *
- * This file merges all 4 batches of brand content into a single export.
+ * This file merges all 16 batches of brand content into a single export.
  * Each batch contains detailed information for specific brands including:
  * - Company overview and history
  * - Key products and applications
@@ -17,6 +17,18 @@ import { brandContentBatch1 } from './brandContent-batch1';
 import { brandContentBatch2 } from './brandContent-batch2';
 import { brandContentBatch3 } from './brandContent-batch3';
 import { brandContentBatch4 } from './brandContent-batch4';
+import { brandContentBatch5 } from './brandContent-batch5';
+import { brandContentBatch6 } from './brandContent-batch6';
+import { brandContentBatch7 } from './brandContent-batch7';
+import { brandContentBatch8 } from './brandContent-batch8';
+import { brandContentBatch9 } from './brandContent-batch9';
+import { brandContentBatch10 } from './brandContent-batch10';
+import { brandContentBatch11 } from './brandContent-batch11';
+import { brandContentBatch12 } from './brandContent-batch12';
+import { brandContentBatch13 } from './brandContent-batch13';
+import { brandContentBatch14 } from './brandContent-batch14';
+import { brandContentBatch15 } from './brandContent-batch15';
+import { brandContentBatch16 } from './brandContent-batch16';
 
 // Merge all batches into single object
 export const brandContent = {
@@ -24,6 +36,18 @@ export const brandContent = {
   ...brandContentBatch2,
   ...brandContentBatch3,
   ...brandContentBatch4,
+  ...brandContentBatch5,
+  ...brandContentBatch6,
+  ...brandContentBatch7,
+  ...brandContentBatch8,
+  ...brandContentBatch9,
+  ...brandContentBatch10,
+  ...brandContentBatch11,
+  ...brandContentBatch12,
+  ...brandContentBatch13,
+  ...brandContentBatch14,
+  ...brandContentBatch15,
+  ...brandContentBatch16,
 };
 
 /**

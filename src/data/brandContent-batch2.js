@@ -192,7 +192,7 @@ Ceea ce ne place la ARI e că nu fac compromisuri la calitate. Asta se vede în 
 
   'alfa-laval': {
     founded: 1883,
-    headquarters: 'Stockholm, Suedia',
+    headquarters: 'Lund, Suedia',
     employees: '~20,500',
     overview: `Alfa Laval e unul dintre brandurile pe care le admiri pentru longevitate și inovație constantă. Fondată în 1883 în Stockholm de Gustaf de Laval (da, același care a inventat turbina de abur), compania a început cu separatoare centrifugale pentru lapte. Astăzi, 140+ ani mai târziu, sunt lider mondial în transfer termic, separare și manevrare fluide – trei domenii vitale pentru industria globală. Peste 20,000 de angajați, prezență în 100+ țări, și un portofoliu de brevete impresionant (în special la schimbătoarele de căldură cu plăci, unde practic au inventat tehnologia în forma modernă).
 
