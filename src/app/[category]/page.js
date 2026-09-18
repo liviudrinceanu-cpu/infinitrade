@@ -8,6 +8,7 @@ import { allCategoriesUnified as categories } from '@/data/allBrandsIndex';
 import { getCategoryFaq } from '@/data/categoryFaq';
 import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
+import { buildCategoryJsonLd } from '@/lib/schema/category';
 import CategoryClient from './CategoryClient';
 import styles from './category.module.css';
 
@@ -110,90 +111,7 @@ export default async function CategoryPage({ params }) {
   } : null;
 
   // JSON-LD Structured Data
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      // Product Collection Schema
-      {
-        '@type': 'ProductGroup',
-        '@id': `${config.site.url}/${category.slug}#product-group`,
-        name: category.name,
-        description: category.heroDescription,
-        url: `${config.site.url}/${category.slug}`,
-        image: `${config.site.url}/logo-header.png`,
-        productGroupID: category.slug,
-        brand: category.brands.slice(0, 5).map(brand => ({
-          '@type': 'Brand',
-          name: brand.name,
-        })),
-        hasVariant: category.productTypes.slice(0, 5).map(type => ({
-          '@type': 'Product',
-          name: type.name,
-          description: type.description,
-          image: `${config.site.url}/logo-header.png`,
-          offers: {
-            '@type': 'AggregateOffer',
-            priceCurrency: 'EUR',
-            lowPrice: '100',
-            highPrice: '50000',
-            offerCount: parseInt(category.stats.products) || 100,
-            availability: 'https://schema.org/InStock',
-          },
-        })),
-      },
-      // Breadcrumb Schema
-      {
-        '@type': 'BreadcrumbList',
-        '@id': `${config.site.url}/${category.slug}#breadcrumb`,
-        itemListElement: [
-          {
-            '@type': 'ListItem',
-            position: 1,
-            name: 'Acasă',
-            item: config.site.url,
-          },
-          {
-            '@type': 'ListItem',
-            position: 2,
-            name: category.name,
-            item: `${config.site.url}/${category.slug}`,
-          },
-        ],
-      },
-      // Reference global Organization Schema (defined in layout.js)
-      {
-        '@type': 'Organization',
-        '@id': `${config.site.url}/#organization`,
-      },
-      // Service Schema
-      {
-        '@type': 'Service',
-        '@id': `${config.site.url}/${category.slug}#service`,
-        name: `Distribuție ${category.name}`,
-        serviceType: 'Industrial Equipment Distribution',
-        provider: {
-          '@type': 'Organization',
-          name: 'Infinitrade Romania',
-        },
-        areaServed: {
-          '@type': 'Country',
-          name: 'Romania',
-        },
-        hasOfferCatalog: {
-          '@type': 'OfferCatalog',
-          name: `Catalog ${category.name}`,
-          itemListElement: category.productTypes.map((type, index) => ({
-            '@type': 'Offer',
-            itemOffered: {
-              '@type': 'Product',
-              name: type.name,
-              description: type.description,
-            },
-          })),
-        },
-      },
-    ],
-  };
+  const jsonLd = buildCategoryJsonLd(category, config);
 
   return (
     <>

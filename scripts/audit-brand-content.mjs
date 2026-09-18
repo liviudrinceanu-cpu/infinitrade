@@ -8,10 +8,14 @@
  * violation. Exits non-zero when any BLOCKER fires, so it can gate CI and gate
  * every writer agent's commit.
  *
- *   node scripts/audit-brand-content.mjs                 # human report
- *   node scripts/audit-brand-content.mjs --json          # machine report
- *   node scripts/audit-brand-content.mjs --only=B3,B7    # a subset of rules
+ *   node scripts/audit-brand-content.mjs                        # human report
+ *   node scripts/audit-brand-content.mjs --json                 # machine report
+ *   node scripts/audit-brand-content.mjs --only=B3,B7           # a subset of rules
  *   node scripts/audit-brand-content.mjs --brand=grundfos
+ *   node scripts/audit-brand-content.mjs --corpus=/path/to/corpus
+ *
+ * Corpus location resolves as: --corpus > $ITR_CORPUS > $ITR_ARCHIVE (deprecated
+ * alias) > /home/claude/b3/corpus (default).
  *
  * Severities: BLOCKER (never ship), MAJOR (fix before the page is re-indexed),
  * MINOR (queue). Only BLOCKER affects the exit code, so the corpus can be
@@ -28,13 +32,23 @@ import fs from 'node:fs';
 import os from 'node:os';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const ARCHIVE = process.env.ITR_ARCHIVE
-  || path.join(os.homedir(), '.claude/projects/-Users-drinceanumac-Projects-InfiniTradeHUB2026/research-archive');
 
 const argv = process.argv.slice(2);
 const asJson = argv.includes('--json');
 const onlyRules = (argv.find((a) => a.startsWith('--only=')) || '').slice(7).split(',').filter(Boolean);
 const onlyBrand = (argv.find((a) => a.startsWith('--brand=')) || '').slice(8) || null;
+const corpusArg = (argv.find((a) => a.startsWith('--corpus=')) || '').slice(9) || null;
+
+// Corpus location: --corpus > ITR_CORPUS > deprecated ITR_ARCHIVE alias > default.
+// ITR_ARCHIVE is kept only so older invocations (and the legacy macOS path it
+// used to default to) keep working; ITR_CORPUS/--corpus is the current name.
+if (process.env.ITR_ARCHIVE && !process.env.ITR_CORPUS && !corpusArg) {
+  console.error(`[deprecated] ITR_ARCHIVE is a deprecated alias for ITR_CORPUS — using ITR_ARCHIVE=${process.env.ITR_ARCHIVE}`);
+}
+const ARCHIVE = corpusArg
+  || process.env.ITR_CORPUS
+  || process.env.ITR_ARCHIVE
+  || '/home/claude/b3/corpus';
 
 const findings = [];
 const report = (rule, severity, brand, message, evidence) => {

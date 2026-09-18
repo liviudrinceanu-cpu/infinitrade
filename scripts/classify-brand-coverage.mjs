@@ -8,19 +8,33 @@
  * (length band, required blocks, required sources, claim ceiling, indexing)
  * for each row.
  *
- *   node scripts/classify-brand-coverage.mjs            # summary table
- *   node scripts/classify-brand-coverage.mjs --write    # write coverage-policy.json
+ *   node scripts/classify-brand-coverage.mjs                       # summary table
+ *   node scripts/classify-brand-coverage.mjs --write               # write coverage-policy.json
+ *   node scripts/classify-brand-coverage.mjs --corpus=/path/to/corpus
+ *
+ * Corpus location resolves as: --corpus > $ITR_CORPUS > $ITR_ARCHIVE (deprecated
+ * alias) > /home/claude/b3/corpus (default).
  *
  * Deterministic: same input -> same output, no judgement at write time. This is
  * what stops 288 writer agents from each inventing their own page length.
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import os from 'node:os';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const ARCHIVE = process.env.ITR_ARCHIVE
-  || path.join(os.homedir(), '.claude/projects/-Users-drinceanumac-Projects-InfiniTradeHUB2026/research-archive');
+const argv = process.argv.slice(2);
+const corpusArg = (argv.find((a) => a.startsWith('--corpus=')) || '').slice(9) || null;
+if (process.env.ITR_ARCHIVE && !process.env.ITR_CORPUS && !corpusArg) {
+  console.error(`[deprecated] ITR_ARCHIVE is a deprecated alias for ITR_CORPUS — using ITR_ARCHIVE=${process.env.ITR_ARCHIVE}`);
+}
+const ARCHIVE = corpusArg
+  || process.env.ITR_CORPUS
+  || process.env.ITR_ARCHIVE
+  || '/home/claude/b3/corpus';
+if (!fs.existsSync(path.join(ARCHIVE, 'plan-v2/brand-universe.json'))) {
+  console.error(`unsupported environment: plan-v2/brand-universe.json not found under ${ARCHIVE} — pass --corpus=<dir> or set ITR_CORPUS`);
+  process.exit(1);
+}
 const universe = JSON.parse(fs.readFileSync(path.join(ARCHIVE, 'plan-v2/brand-universe.json'), 'utf8'));
 
 /* ---- evidence class: derived from the buckets already in the universe ----- */

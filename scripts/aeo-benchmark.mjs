@@ -15,6 +15,12 @@
  *   node scripts/aeo-benchmark.mjs --score runs/2026-09-11.tsv
  *       Scores one logged run and compares it to the previous run.
  *
+ * The prompt set lives in the research corpus, not the repo: --corpus=<dir> or
+ * $ITR_CORPUS (default /home/claude/b3/corpus) point at it, resolving to
+ * <corpus>/plan-v2/checks/aeo-benchmark-prompts.tsv. $ITR_PROMPTS overrides the
+ * resolved path outright, and $ITR_ARCHIVE is kept as a deprecated alias of
+ * $ITR_CORPUS.
+ *
  * The engines (ChatGPT search, Perplexity, Google AI Mode, Gemini, Claude) have
  * no stable API that reproduces the consumer answer surface, so the RUN itself
  * is executed by a browser agent or a human and logged to a TSV with these
@@ -32,7 +38,13 @@ import path from 'node:path';
 import os from 'node:os';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const PROMPTS = process.env.ITR_PROMPTS || path.join(ROOT, '.planning/plan-v2/checks/aeo-benchmark-prompts.tsv');
+const argv0 = process.argv.slice(2);
+const corpusArg = (argv0.find((a) => a.startsWith('--corpus=')) || '').slice(9) || null;
+if (process.env.ITR_ARCHIVE && !process.env.ITR_CORPUS && !corpusArg) {
+  console.error(`[deprecated] ITR_ARCHIVE is a deprecated alias for ITR_CORPUS — using ITR_ARCHIVE=${process.env.ITR_ARCHIVE}`);
+}
+const CORPUS = corpusArg || process.env.ITR_CORPUS || process.env.ITR_ARCHIVE || '/home/claude/b3/corpus';
+const PROMPTS = process.env.ITR_PROMPTS || path.join(CORPUS, 'plan-v2/checks/aeo-benchmark-prompts.tsv');
 const BASE = process.env.BASE || 'https://www.infinitrade.ro';
 const UA = 'OAI-SearchBot/1.4; +https://openai.com/searchbot';
 const ENGINES = ['chatgpt', 'perplexity', 'google-ai-mode', 'gemini', 'claude'];
@@ -43,6 +55,10 @@ const tsv = (file) => {
   return rows.filter(Boolean).map((r) => Object.fromEntries(r.split('\t').map((v, i) => [cols[i], (v || '').trim()])));
 };
 
+if (!fs.existsSync(PROMPTS)) {
+  console.error(`unsupported environment: prompt set not found at ${PROMPTS} — pass --corpus=<dir>, set ITR_CORPUS, or set ITR_PROMPTS directly`);
+  process.exit(1);
+}
 const prompts = tsv(PROMPTS);
 const mode = process.argv.includes('--score') ? 'score' : 'preflight';
 

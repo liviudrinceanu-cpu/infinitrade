@@ -1,5 +1,13 @@
-const sharp = require('sharp');
 const path = require('path');
+
+let sharp;
+try {
+  sharp = require('sharp');
+} catch (e) {
+  console.error('unsupported environment: the `sharp` package is not installed (no node_modules) — cannot generate public/og-image.jpg here.');
+  console.error(`(require('sharp') failed: ${e.code || e.message})`);
+  process.exit(0);
+}
 
 async function generateOGImage() {
   const width = 1200;

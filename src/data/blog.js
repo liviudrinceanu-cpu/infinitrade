@@ -837,7 +837,7 @@ Daca nu esti sigur de clasificarea zonei sau de ce echipament ai nevoie, vorbest
     slug: 'grundfos-vs-wilo-comparatie-pompe',
     title: 'Grundfos vs Wilo: O Comparatie Onesta de la Cineva Care Le Vinde pe Amandoua',
     shortTitle: 'Grundfos vs Wilo: Comparatie',
-    excerpt: 'Suntem distribuitori pentru ambele branduri. Nu avem favorit. Iata diferentele reale pe care le vedem.',
+    excerpt: 'Furnizăm ambele branduri. Nu avem favorit. Iata diferentele reale pe care le vedem.',
     content: `
 E probabil cea mai frecventa intrebare pe care o primim despre [pompe industriale](/pompe-industriale): "[Grundfos](/brand/grundfos) sau [Wilo](/brand/wilo)?". Si pentru ca vindem ambele branduri, suntem intr-o pozitie buna sa raspundem obiectiv - nu avem interes sa iti vindem una in defavoarea celeilalte.
 

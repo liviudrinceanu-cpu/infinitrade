@@ -1,0 +1,34 @@
+{
+  "generated": "2026-09-11T00:00:00.000Z",
+  "contract": {
+    "transactional": {
+      "words": [500, 1400],
+      "blocks": ["answer-first-60w", "spec-or-range-table", "question-h2 x>=3", "own-fact", "limitation", "accessories-links", "series-links", "sources", "dated-changelog"],
+      "ownFact": "stock.tsv row, real lead time, delivered-volume aggregate, or an equivalence table row",
+      "sourcesMin": 3,
+      "seriesPagesAllowed": true,
+      "indexing": "index,follow"
+    }
+  },
+  "rows": [
+    {
+      "slug": "wilo",
+      "display_name": "Wilo",
+      "category": "pompe-industriale",
+      "on_site": true,
+      "has_rich_content": true,
+      "action": "keep",
+      "evidenceClass": "transactional",
+      "tier": 2,
+      "tierSource": "derived",
+      "contract": {
+        "words": [500, 1400],
+        "blocks": ["answer-first-60w", "spec-or-range-table", "question-h2 x>=3", "own-fact", "limitation", "accessories-links", "series-links", "sources", "dated-changelog"],
+        "ownFact": "stock.tsv row, real lead time, delivered-volume aggregate, or an equivalence table row",
+        "sourcesMin": 3,
+        "seriesPagesAllowed": true,
+        "indexing": "index,follow"
+      }
+    }
+  ]
+}

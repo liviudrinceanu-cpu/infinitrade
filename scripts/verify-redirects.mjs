@@ -6,6 +6,11 @@
  * pattern used for legacy category-prefixed brand URLs.
  *
  * Run with: node scripts/verify-redirects.mjs
+ *           node scripts/verify-redirects.mjs --corpus=/path/to/corpus
+ *
+ * This script only reads the repo's own src/data/* files and next.config.js —
+ * it does not use the research corpus. --corpus/$ITR_CORPUS are accepted for
+ * consistency with the other five scripts and are otherwise unused.
  *
  * Exits non-zero if any redirect destination does not resolve to a real
  * target, so this can also be wired into CI.
@@ -16,6 +21,12 @@ import fs from 'node:fs';
 import os from 'node:os';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+const argv = process.argv.slice(2);
+const CORPUS = (argv.find((a) => a.startsWith('--corpus=')) || '').slice(9)
+  || process.env.ITR_CORPUS
+  || process.env.ITR_ARCHIVE
+  || '/home/claude/b3/corpus';
+void CORPUS; // accepted for interface consistency; unused by this script
 
 // --- 1. Load redirects() from next.config.js (CommonJS - Node's ESM loader
 //        interops this automatically since the repo has no "type": "module") ---
