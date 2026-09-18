@@ -5,6 +5,7 @@ import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
 import { ChevronDown } from 'lucide-react';
 import styles from './faq.module.css';
+import { brandCount } from '@/data/siteStats';
 
 export const revalidate = 86400;
 
@@ -78,7 +79,7 @@ const faqData = [
     questions: [
       {
         q: 'Ce branduri distribuiți?',
-        a: 'Peste 400 de branduri din 15 categorii, dintre care cele mai cerute: Grundfos și Wilo la pompe, Siemens și ABB la motoare, ARI Armaturen și Spirax Sarco la robineți, Alfa Laval la schimbătoare, Becker la suflante, Endress+Hauser și WIKA la senzori, Parker și Bosch Rexroth la hidraulică, Schneider Electric la automatizări. Lista completă e pe site, la fiecare categorie.'
+        a: `${brandCount} de branduri cu pagină proprie, din 15 categorii, dintre care cele mai cerute: Grundfos și Wilo la pompe, Siemens și ABB la motoare, ARI Armaturen și Spirax Sarco la robineți, Alfa Laval la schimbătoare, Becker la suflante, Endress+Hauser și WIKA la senzori, Parker și Bosch Rexroth la hidraulică, Schneider Electric la automatizări. Lista completă e pe site, la fiecare categorie.`
       },
       {
         q: 'În ce industrii lucrați?',
@@ -141,7 +142,7 @@ const faqData = [
       },
       {
         q: 'Câte categorii de echipamente distribuiți?',
-        a: 'Acoperim 15 categorii de echipamente industriale cu peste 400 de branduri: de la pompe și robineți (nucleul nostru din 2009) până la automatizări, senzori, hidraulică, electrice, filtre, lubrifianți, scule, echipamente termice. Practic, tot ce ai nevoie într-o fabrică sau pe un șantier industrial - fără să alergi la 10 furnizori diferiți.',
+        a: `Acoperim 15 categorii de echipamente industriale cu ${brandCount} de branduri cu pagină proprie: de la pompe și robineți (nucleul nostru din 2009) până la automatizări, senzori, hidraulică, electrice, filtre, lubrifianți, scule, echipamente termice. Practic, tot ce ai nevoie într-o fabrică sau pe un șantier industrial - fără să alergi la 10 furnizori diferiți.`,
       },
     ]
   },
