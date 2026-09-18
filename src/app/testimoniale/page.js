@@ -7,6 +7,7 @@ import { testimonials, testimonialStats, industriesServed, getFeaturedTestimonia
 import { categories } from '@/data/products';
 import { safeJsonLd } from '@/lib/utils';
 import styles from './testimoniale.module.css';
+import { siteStats } from '@/data/siteStats';
 
 export const metadata = {
   title: 'Testimoniale Clienți | Recenzii',
@@ -271,7 +272,7 @@ export default function TestimonialePage() {
               </div>
               <div className={styles.trustCard}>
                 <span className={styles.trustIcon}>💼</span>
-                <h3>500+ Branduri</h3>
+                <h3>{siteStats.brands} Branduri</h3>
                 <p>Portofoliu complet de branduri premium: Grundfos, Wilo, Siemens, ABB, etc.</p>
               </div>
               <div className={styles.trustCard}>

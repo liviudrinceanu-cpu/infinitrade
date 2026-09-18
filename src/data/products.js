@@ -347,7 +347,7 @@ export const companyInfo = {
     phone: '+40 371 232 404', 
     hours: 'Luni - Vineri / 08:00 - 16:30' 
   },
-  stats: { clients: '800+', brands: '500+', suppliers: '300+', years: '17' },
+  // brands/years: see src/data/siteStats.js (derived). 800+ clients / 300+ suppliers retired — no source (entityFacts.json).
   // Date oficiale verificabile (sursa: ONRC/risco.ro 2024)
   officialData: {
     revenue: '16.5M',
@@ -360,7 +360,6 @@ export const companyInfo = {
   },
   certifications: ['ISO 9001:2015', 'Furnizor industrial din 2009', 'Furnizor SEAP / SICAP'],
   industries: ['Petrochimie', 'Energie', 'Alimentar', 'Farmaceutic', 'Automotive', 'Naval', 'Metalurgie', 'HVAC', 'Tratare Apă', 'Minerit', 'Ciment', 'Hârtie', 'Chimie', 'Logistică', 'Biogaz'],
-  majorClients: ['Continental Automotive', 'Siemens', 'Aerostar', 'HeidelbergCement', 'ArcelorMittal Galați', 'Damen Shipyard', 'Romgaz', 'Azomureș', 'Alro Slatina', 'Rombat', 'PepsiCo', 'Linde', 'Saint-Gobain'],
   targetAudience: 'Departamente de achiziții, echipe de mentenanță, ingineri de proiect și responsabili investiții din industria grea'
 };
 
@@ -370,7 +369,7 @@ export const features = [
   { icon: 'Wrench', title: 'Piese de Schimb Originale', description: 'Componente originale de la producători pentru mentenanță preventivă și corectivă' },
   { icon: 'Headphones', title: 'Suport Tehnic Specializat', description: 'Echipa noastră tehnică te poate asista în orice situație - contactează-ne' },
   { icon: 'Shield', title: 'Garanție și Certificări', description: 'Produse originale cu garanție producător și certificate de conformitate' },
-  { icon: 'Globe', title: '500+ Branduri Industriale', description: 'Acces la cei mai importanți producători mondiali de echipamente industriale' }
+  { icon: 'Globe', title: 'Branduri Industriale de Top', description: 'Acces la cei mai importanți producători mondiali de echipamente industriale' }
 ];
 
 // Primary navigation - product categories

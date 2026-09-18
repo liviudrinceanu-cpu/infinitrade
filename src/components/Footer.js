@@ -6,6 +6,7 @@ import { categories, companyInfo, footerIndustries } from '@/data/products';
 import { equipmentCategories } from '@/data/equipmentCategories';
 import { config } from '@/lib/config';
 import styles from './Footer.module.css';
+import { siteStats } from '@/data/siteStats';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -21,7 +22,7 @@ export default function Footer() {
             <p className={styles.brandTagline}>Dăm puls industriei</p>
             <p className={styles.brandDescription}>
               Distribuitor premium de echipamente industriale 
-              cu peste {companyInfo.stats.years} ani de experiență.
+              cu peste {siteStats.years} ani de experiență.
             </p>
             <div className={styles.certifications}>
               {companyInfo.certifications.map((cert) => (
@@ -159,19 +160,19 @@ export default function Footer() {
         {/* Stats Bar */}
         <div className={styles.statsBar}>
           <div className={styles.stat}>
-            <span className={styles.statNumber}>{companyInfo.stats.clients}</span>
-            <span className={styles.statLabel}>Clienți</span>
+            <span className={styles.statNumber}>{siteStats.foundingYear}</span>
+            <span className={styles.statLabel}>Din anul</span>
           </div>
           <div className={styles.stat}>
-            <span className={styles.statNumber}>{companyInfo.stats.brands}</span>
+            <span className={styles.statNumber}>{siteStats.brands}</span>
             <span className={styles.statLabel}>Branduri</span>
           </div>
           <div className={styles.stat}>
-            <span className={styles.statNumber}>{companyInfo.stats.suppliers}</span>
-            <span className={styles.statLabel}>Furnizori</span>
+            <span className={styles.statNumber}>{siteStats.leadTime}</span>
+            <span className={styles.statLabel}>Livrare din stoc</span>
           </div>
           <div className={styles.stat}>
-            <span className={styles.statNumber}>{companyInfo.stats.years}</span>
+            <span className={styles.statNumber}>{siteStats.years}+</span>
             <span className={styles.statLabel}>Ani Experiență</span>
           </div>
         </div>

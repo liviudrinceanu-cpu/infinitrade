@@ -5,13 +5,13 @@ export const revalidate = 86400;
 
 export const metadata = {
   title: 'Despre Noi | Distribuitor din 2009',
-  description: 'Infinitrade Romania - distribuitor echipamente industriale din 2009. 500+ branduri, 800+ clienți industriali. ISO 9001:2015, furnizor SEAP.',
+  description: 'Infinitrade Romania - distribuitor echipamente industriale din 2009. Branduri cu pagină proprie, livrare 24-72h din stoc. ISO 9001:2015, furnizor SEAP.',
   alternates: {
     canonical: `${config.site.url}/despre-noi`,
   },
   openGraph: {
     title: 'Despre Infinitrade Romania | Distribuitor Echipamente Industriale',
-    description: 'Partener strategic pentru industria românească din 2009. 500+ branduri, livrare 24-72h.',
+    description: 'Partener strategic pentru industria românească din 2009. Livrare 24-72h din stoc, furnizor SEAP.',
     url: `${config.site.url}/despre-noi`,
     type: 'website',
     images: [

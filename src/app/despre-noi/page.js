@@ -4,6 +4,7 @@ import { Award, Users, Globe, Clock, Shield, Truck, CheckCircle, Building } from
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { companyInfo, targetIndustries } from '@/data/products';
+import { siteStats } from '@/data/siteStats';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './despre.module.css';
 
@@ -12,15 +13,14 @@ export default function DesprePage() {
   const [statsRef, statsVisible] = useIntersectionObserver();
   const [aboutRef, aboutVisible] = useIntersectionObserver();
   const [industriesRef, industriesVisible] = useIntersectionObserver();
-  const [clientsRef, clientsVisible] = useIntersectionObserver();
   const [officialRef, officialVisible] = useIntersectionObserver();
   const [ctaRef, ctaVisible] = useIntersectionObserver();
 
   const stats = [
-    { value: companyInfo.stats.years, label: 'Ani Experiență', icon: Clock },
-    { value: companyInfo.stats.clients, label: 'Clienți Industriali', icon: Users },
-    { value: companyInfo.stats.brands, label: 'Branduri Distribuite', icon: Globe },
-    { value: companyInfo.stats.suppliers, label: 'Furnizori Globali', icon: Truck },
+    { value: `${siteStats.years}+`, label: 'Ani Experiență', icon: Clock },
+    { value: siteStats.foundingYear, label: 'Din anul', icon: Users },
+    { value: siteStats.brands, label: 'Branduri cu pagină proprie', icon: Globe },
+    { value: siteStats.leadTime, label: 'Livrare din stoc', icon: Truck },
   ];
 
   return (
@@ -160,29 +160,6 @@ export default function DesprePage() {
                 >
                   <Building size={24} />
                   <span>{industry}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Clients Section */}
-        <section className={styles.clientsSection} ref={clientsRef}>
-          <div className={styles.container}>
-            <div
-              className={`${styles.sectionHeader} animate-fade-up ${clientsVisible ? 'is-visible' : ''}`}
-            >
-              <h2>Clienți de Referință</h2>
-              <p>Companii de top care ne-au acordat încrederea</p>
-            </div>
-
-            <div className={styles.clientsGrid}>
-              {companyInfo.majorClients.map((client, index) => (
-                <div
-                  key={client}
-                  className={`${styles.clientCard} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${clientsVisible ? 'is-visible' : ''}`}
-                >
-                  {client}
                 </div>
               ))}
             </div>

@@ -6,6 +6,7 @@ import { safeJsonLd } from '@/lib/utils';
 import styles from './echipa.module.css';
 import Link from 'next/link';
 import Script from 'next/script';
+import { siteStats } from '@/data/siteStats';
 
 // Generează culori consistente pentru avatare bazat pe nume
 function getAvatarColor(name) {
@@ -193,8 +194,8 @@ export default function EchipaPage() {
               <span className={styles.statLabel}>Industrii acoperite</span>
             </div>
             <div className={styles.stat}>
-              <span className={styles.statNumber}>500+</span>
-              <span className={styles.statLabel}>Branduri cunoscute</span>
+              <span className={styles.statNumber}>{siteStats.brands}</span>
+              <span className={styles.statLabel}>Branduri cu pagină proprie</span>
             </div>
           </div>
         </div>

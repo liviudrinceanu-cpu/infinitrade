@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import styles from './Hero.module.css';
+import { siteStats } from '@/data/siteStats';
 
 // Lazy load framer-motion only for non-critical animations (visual section)
 // This improves LCP by not blocking the main thread with motion library initialization
@@ -72,17 +73,17 @@ export default function Hero() {
           {/* Stats - CSS animation */}
           <div className={`${styles.stats} ${styles.statsAnimate}`}>
             <div className={styles.stat}>
-              <span className={styles.statNumber}>800+</span>
-              <span className={styles.statLabel}>Clienti Activi</span>
+              <span className={styles.statNumber}>{siteStats.foundingYear}</span>
+              <span className={styles.statLabel}>Din anul</span>
             </div>
             <div className={styles.statDivider} />
             <div className={styles.stat}>
-              <span className={styles.statNumber}>500+</span>
+              <span className={styles.statNumber}>{siteStats.brands}</span>
               <span className={styles.statLabel}>Branduri</span>
             </div>
             <div className={styles.statDivider} />
             <div className={styles.stat}>
-              <span className={styles.statNumber}>15+</span>
+              <span className={styles.statNumber}>{siteStats.years}+</span>
               <span className={styles.statLabel}>Ani Experienta</span>
             </div>
             <div className={styles.statDivider} />
