@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
   const categoryNames = brand.categories.map(c => c.name).join(', ');
 
   const title = `${brand.name} | Catalog Produse 2026 | Infinitrade`;
-  const description = `2026: Distribuitor ${brand.name} în România. Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
+  const description = `2026: Furnizăm echipamente ${brand.name} în România. Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
 
   const baseKeywords = [
     brand.name,
@@ -144,7 +144,7 @@ function generateJsonLd(brand) {
         name: 'Infinitrade Romania',
         url: config.site.url,
         logo: `${config.site.url}/logo-header.png`,
-        description: 'Distribuitor echipamente industriale Romania',
+        description: 'Furnizor de echipamente industriale în România',
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'Calea Lugojului nr.47/B, Hala nr. 3',

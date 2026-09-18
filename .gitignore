@@ -28,3 +28,6 @@ npm-debug.log*
 .vercel
 ._*
 .env*.local
+
+# Local research archive - contains commercial analysis, never commit
+.planning/

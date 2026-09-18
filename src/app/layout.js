@@ -243,7 +243,7 @@ const serviceSchema = {
       '@type': 'Service',
       '@id': `${config.site.url}/#service-mentenanta`,
       name: 'Service și Mentenanță Echipamente Industriale',
-      description: 'Service autorizat pentru pompe Grundfos, Wilo, KSB, motoare Siemens, ABB. Mentenanță preventivă, reparații, piese de schimb originale.',
+      description: 'Service și mentenanță pentru pompe Grundfos, Wilo, KSB, motoare Siemens, ABB. Mentenanță preventivă, reparații, piese de schimb originale.',
       serviceType: 'Service și Mentenanță',
       provider: { '@id': `${config.site.url}/#organization` },
       areaServed: { '@type': 'Country', name: 'România' },
