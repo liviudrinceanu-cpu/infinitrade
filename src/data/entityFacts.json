@@ -1,0 +1,69 @@
+{
+  "_readme": [
+    "ENTITY FACT REGISTRY — single source of truth (closes critique G23 / C8).",
+    "Rule: any number or name that appears on more than one surface is generated from here,",
+    "never typed. Surfaces that must agree: Organization JSON-LD (src/app/layout.js),",
+    "homepage Hero, /despre-noi, /certificari, /brand layout metadata, public/llms.txt,",
+    "every brand page footer. `scripts/audit-brand-content.mjs` rule B14 fails the build",
+    "when a surface contradicts this file.",
+    "`brandCount` is NOT authored — it is asserted equal to allBrandsUnified.length at check time."
+  ],
+
+  "commercialName": "Infinitrade România",
+  "alternateName": "Infinitrade",
+  "legalName": "Driatheli Group SRL",
+  "vatID": "RO26209397",
+  "foundingDate": "2009-11-11",
+  "foundingYear": 2009,
+  "yearsActiveExpression": "new Date().getFullYear() - 2009",
+
+  "addressLocality": "Ghiroda",
+  "addressRegion": "Timiș",
+  "nearestCity": "Timișoara",
+  "warehousePhrase": "depozit în Ghiroda (Timiș), lângă Timișoara",
+  "streetAddress": "Calea Lugojului nr. 47/B, Hala nr. 3",
+  "postalCode": "307200",
+
+  "employees": { "value": 16, "asOf": "2026-02-14", "status": "OWNER_CONFIRM", "publicCrossCheck": "ONRC/Termene bilanț — the only entity number a third party can contradict" },
+
+  "brandCount": 288,
+  "brandCountDerivedFrom": "allBrandsUnified.length (src/data/allBrandsIndex.js)",
+  "brandCountAfterMerges": 283,
+  "brandCountPhrase": "branduri cu pagină proprie pe site",
+
+  "leadTimePhrases": ["24–72 h din stoc", "2–6 săptămâni la comandă"],
+
+  "certifications": [
+    {
+      "name": "ISO 9001:2015",
+      "certificateNumber": null,
+      "issuedBy": null,
+      "validUntil": null,
+      "status": "OWNER_CONFIRM",
+      "rule": "Until certificateNumber + issuedBy are filled, this may be stated in prose on /certificari but MUST NOT appear in Organization JSON-LD hasCertification, and MUST NOT be repeated on brand pages."
+    }
+  ],
+
+  "sameAs": [
+    "https://www.linkedin.com/company/infinitrade-romania",
+    "https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL",
+    "https://www.risco.ro/verifica-firma/driatheli-group-cui-26209397"
+  ],
+
+  "retired": {
+    "_why": "Numbers previously shown on the site with no source behind them. They are not to be restated anywhere.",
+    "brands500Plus": "no evidence; the index has 288",
+    "clients800Plus": "no source; would also be a client-count claim we cannot document",
+    "suppliers300Plus": "no source",
+    "llmsTxt238Plus": "stale snapshot of the index",
+    "perCategoryBrandPlus": "'41+/60+/51+ brands' per category — derive from category.brands.length or drop"
+  },
+
+  "forbiddenValues": [
+    { "fact": "brandCount", "canonical": "288 (derived)", "pattern": "500\\+\\s*(de\\s*)?(branduri|brands)|peste\\s*500\\s*de\\s*branduri", "flags": "i", "why": "Hero + /brand layout still say 500+; the index has 288" },
+    { "fact": "brandCount", "canonical": "288 (derived)", "pattern": "238\\+\\s*brands", "flags": "i", "why": "llms.txt snapshot" },
+    { "fact": "warehouseCity", "canonical": "Ghiroda (Timiș)", "pattern": "stoc (permanent )?(în|in) (București|Cluj-Napoca|Iași|Brașov)", "flags": "i", "why": "there is one warehouse and it is in Ghiroda" },
+    { "fact": "certifications", "canonical": "ISO 9001:2015 without a public certificate number", "pattern": "partener (Grundfos|Siemens|KSB)", "flags": "i", "why": "reads as a partnership claim (owner rule #5); use 'lucrăm cu gama'" },
+    { "fact": "foundingYear", "canonical": "2009", "pattern": "din (200[0-8]|201\\d|202\\d)\\b(?![^.]{0,20}garanție)", "flags": "i", "why": "company founding year is 2009-11-11" }
+  ]
+}
