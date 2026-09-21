@@ -162,6 +162,17 @@ const nextConfig = {
       { source: '/sitemap-:name.xml', destination: '/sitemap.xml', permanent: true },
       { source: '/wp-sitemap.xml', destination: '/sitemap.xml', permanent: true },
 
+      // 301 redirects for the five merged brand pages (duplicate entries of the
+      // same manufacturer). The losing entry was removed from its brands[] array
+      // in the same commit; per owner decision 8 an indexed URL is never deleted,
+      // only redirected. Must precede the category-prefix rules below so the
+      // legacy prefixed URLs chain into the surviving page.
+      { source: '/brand/rockwell', destination: '/brand/rockwell-automation', permanent: true },
+      { source: '/brand/mitsubishi', destination: '/brand/mitsubishi-electric', permanent: true },
+      { source: '/brand/br', destination: '/brand/br-automation', permanent: true },
+      { source: '/brand/getriebebau', destination: '/brand/nord', permanent: true },
+      { source: '/brand/crane-chempharma', destination: '/brand/crane', permanent: true },
+
       // 301 redirects from old category-prefixed brand slugs to simple slugs
       { source: '/brand/pompe-industriale-:slug', destination: '/brand/:slug', permanent: true },
       { source: '/brand/pompe-vid-industriale-:slug', destination: '/brand/:slug', permanent: true },

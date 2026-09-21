@@ -7,6 +7,7 @@ import styles from './echipa.module.css';
 import Link from 'next/link';
 import Script from 'next/script';
 import { siteStats } from '@/data/siteStats';
+import { companyInfo } from '@/data/products';
 
 // Generează culori consistente pentru avatare bazat pe nume
 function getAvatarColor(name) {
@@ -182,15 +183,11 @@ export default function EchipaPage() {
         <div className={styles.container}>
           <div className={styles.statsGrid}>
             <div className={styles.stat}>
-              <span className={styles.statNumber}>60+</span>
-              <span className={styles.statLabel}>Ani experiență cumulată</span>
+              <span className={styles.statNumber}>{siteStats.years}</span>
+              <span className={styles.statLabel}>Ani de activitate Infinitrade</span>
             </div>
             <div className={styles.stat}>
-              <span className={styles.statNumber}>15+</span>
-              <span className={styles.statLabel}>Certificări active</span>
-            </div>
-            <div className={styles.stat}>
-              <span className={styles.statNumber}>8</span>
+              <span className={styles.statNumber}>{companyInfo.industries.length}</span>
               <span className={styles.statLabel}>Industrii acoperite</span>
             </div>
             <div className={styles.stat}>

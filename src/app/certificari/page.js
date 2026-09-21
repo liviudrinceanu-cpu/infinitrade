@@ -22,7 +22,7 @@ const verificationLinks = [
     name: 'Verificare Fiscală ANAF',
     url: 'https://www.risco.ro/verifica-firma/driatheli-group-cui-26209397',
     description: 'Status fiscal și date financiare',
-  },
+  }
 ];
 
 
@@ -64,7 +64,7 @@ const certifications = [
     title: 'Certificări Automatizare și Instrumentație',
     description: 'Echipamentele de automatizare și instrumentație pe care le distribuim sunt certificate conform standardelor internaționale: IEC 61508 (SIL), IEC 61511 pentru securitate funcțională.',
     details: 'Transmițătoare SIL 2/SIL 3 pentru aplicații de securitate în petrochimie, energie și industria chimică.',
-  },
+  }
 ];
 
 const qualityPoints = [
@@ -91,7 +91,7 @@ const qualityPoints = [
   {
     title: 'Conformitate CE',
     description: 'Toate produsele au marcaj CE și respectă directivele europene. Nu e cazul să îți faci griji la controale.',
-  },
+  }
 ];
 
 const partners = [
@@ -124,7 +124,7 @@ const partners = [
   { name: 'Klüber', country: 'Germania' },
   { name: 'Dräger', country: 'Germania' },
   { name: 'MSA Safety', country: 'SUA' },
-  { name: 'Mitutoyo', country: 'Japonia' },
+  { name: 'Mitutoyo', country: 'Japonia' }
 ];
 
 // JSON-LD Schema for Certifications page
@@ -134,7 +134,7 @@ function generateCertificationsSchema() {
     '@type': 'WebPage',
     '@id': `${config.site.url}/certificari#webpage`,
     name: 'Certificari si Autorizari - Infinitrade Romania',
-    description: 'Certificari si autorizari Infinitrade Romania: ISO 9001, partener Grundfos, Siemens, KSB.',
+    description: 'Certificari si autorizari Infinitrade Romania: ISO 9001. Lucram cu gama Grundfos, Siemens, KSB.',
     url: `${config.site.url}/certificari`,
     isPartOf: {
       '@id': `${config.site.url}/#website`
@@ -153,69 +153,9 @@ function generateCertificationsSchema() {
         },
         {
           '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'authorization',
-          name: 'Partener Grundfos',
-          recognizedBy: {
-            '@type': 'Organization',
-            name: 'Grundfos',
-            address: { '@type': 'PostalAddress', addressCountry: 'DK' }
-          }
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'authorization',
-          name: 'Partener Wilo',
-          recognizedBy: {
-            '@type': 'Organization',
-            name: 'Wilo',
-            address: { '@type': 'PostalAddress', addressCountry: 'DE' }
-          }
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'authorization',
-          name: 'Partener KSB',
-          recognizedBy: {
-            '@type': 'Organization',
-            name: 'KSB',
-            address: { '@type': 'PostalAddress', addressCountry: 'DE' }
-          }
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'authorization',
-          name: 'Partener Siemens',
-          recognizedBy: {
-            '@type': 'Organization',
-            name: 'Siemens',
-            address: { '@type': 'PostalAddress', addressCountry: 'DE' }
-          }
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
           credentialCategory: 'registration',
           name: 'Înregistrare SEAP/SICAP',
           description: 'Înregistrat în sistemul electronic de achiziții publice pentru licitații'
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'authorization',
-          name: 'Partener Endress+Hauser',
-          recognizedBy: {
-            '@type': 'Organization',
-            name: 'Endress+Hauser',
-            address: { '@type': 'PostalAddress', addressCountry: 'CH' }
-          }
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'authorization',
-          name: 'Partener Parker Hannifin',
-          recognizedBy: {
-            '@type': 'Organization',
-            name: 'Parker Hannifin',
-            address: { '@type': 'PostalAddress', addressCountry: 'US' }
-          }
         }
       ]
     }
@@ -224,7 +164,7 @@ function generateCertificationsSchema() {
 
 export const metadata = {
   title: 'Certificări | Furnizor SEAP',
-  description: 'Furnizor verificat SEAP/SICAP. Certificări ISO 9001, partener Grundfos, Siemens, KSB. Documentație pentru licitații și fonduri europene.',
+  description: 'Furnizor verificat SEAP/SICAP. Certificări ISO 9001. Lucrăm cu gama Grundfos, Siemens, KSB. Documentație pentru licitații și fonduri europene.',
   keywords: [
     // SEAP / SICAP Primary keywords
     'furnizor SEAP',
@@ -257,16 +197,13 @@ export const metadata = {
     'iso 9001 distribuitor',
     // Partnership keywords
     'furnizor pompe industriale',
-    'partener grundfos romania',
-    'partener siemens romania',
-    'partener ksb romania',
     // Quality keywords
     'certificate conformitate',
     'garantie producator',
     'conformitate ce',
     // Company keywords
     'driatheli group srl',
-    'infinitrade romania',
+    'infinitrade romania'
   ],
   openGraph: {
     title: 'Furnizor SEAP SICAP | Certificari si Autorizari | Infinitrade Romania',
@@ -306,7 +243,7 @@ export default function CertificariPage() {
         '@type': 'ListItem',
         position: 2,
         name: 'Certificări',
-      },
+      }
     ],
   };
 

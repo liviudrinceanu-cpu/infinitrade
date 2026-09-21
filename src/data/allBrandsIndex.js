@@ -3,6 +3,12 @@
 
 import { categories } from './products';
 import { equipmentCategories } from './equipmentCategories';
+import { NOINDEX_BRANDS } from './noindexBrands';
+// getBrandsWithContent is a plain function reading a plain object (brandContent.js
+// and its batches do not import this module), so a static import is safe here —
+// no circular-import cycle exists. If that ever changes, resolve it lazily with
+// a dynamic `await import('./brandContent')` inside getBrandStats() instead.
+import { getBrandsWithContent } from './brandContent';
 
 // All 15 categories unified
 export const allCategoriesUnified = [...categories, ...equipmentCategories];
@@ -39,6 +45,20 @@ function deriveSimpleSlug(brandSlug, categorySlug) {
   return brandSlug;
 }
 
+// D-AEO B6/B1: five brand entries got their display name from a category-specific
+// data-file label (e.g. `robineti-industriali-siemens` is named "Siemens Valves"
+// because that is the first category the brand is listed under). The slug, the
+// data file and the URL are all correct and must not change (owner decision 8) —
+// only the rendered name is wrong. This map is consumed in buildBrandIndex() below
+// so every consumer (brand pages, sitemap, JSON-LD via brand.name) sees the fix.
+export const DISPLAY_NAME_OVERRIDES = {
+  siemens: 'Siemens',
+  honeywell: 'Honeywell',
+  norgren: 'Norgren',
+  smc: 'SMC',
+  festo: 'Festo',
+};
+
 // Build unified brand index
 function buildBrandIndex() {
   const brandMap = new Map(); // simpleSlug -> brand object
@@ -68,7 +88,7 @@ function buildBrandIndex() {
         // New brand entry
         brandMap.set(simpleSlug, {
           simpleSlug,
-          name: brand.name,
+          name: DISPLAY_NAME_OVERRIDES[simpleSlug] || brand.name,
           country: brand.country,
           description: brand.description,
           featured: brand.featured || false,
@@ -143,4 +163,18 @@ export function getBrandsByCategory(categorySlug) {
 // Get category by slug
 export function getCategoryBySlug(categorySlug) {
   return allCategoriesUnified.find(cat => cat.slug === categorySlug) || null;
+}
+
+// Single source of truth for brand counts (D-ARCH C8). Every surface that shows
+// a brand count reads this instead of typing a number:
+//   - total: every brand with its own page (allBrandsUnified.length)
+//   - indexed: total minus brands deliberately kept noindex (src/data/noindexBrands.js)
+//   - withContent: total minus brands that only have a thin/auto page, i.e. how many
+//     allBrandsUnified slugs also have a rich brandContent entry
+export function getBrandStats() {
+  const total = allBrandsUnified.length;
+  const indexed = total - NOINDEX_BRANDS.length;
+  const contentSlugs = new Set(getBrandsWithContent());
+  const withContent = allBrandsUnified.filter((b) => contentSlugs.has(b.simpleSlug)).length;
+  return { total, indexed, withContent };
 }

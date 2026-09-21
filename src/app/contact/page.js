@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { companyInfo, categories } from '@/data/products';
+import { siteStats } from '@/data/siteStats';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './contact.module.css';
@@ -377,7 +378,7 @@ export default function ContactPage() {
                     </li>
                     <li>
                       <Check size={18} />
-                      Peste 500 de branduri disponibile
+                      {siteStats.brands} de branduri disponibile
                     </li>
                     <li>
                       <Check size={18} />
@@ -389,7 +390,7 @@ export default function ContactPage() {
                     </li>
                     <li>
                       <Check size={18} />
-                      15+ ani de experiență
+                      {siteStats.years} ani de experiență
                     </li>
                   </ul>
                 </div>

@@ -35,13 +35,13 @@
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 
-const BASELINE_EXPECTED_ROUTES = 355;
+const BASELINE_EXPECTED_ROUTES = '350/305'; // after F2: 283 brands + 67 other = 350 prerendered; 350 - 45 noindex = 305 in sitemap
 
 export async function run(ctx) {
   const ledgerPath = path.join(ctx.repoRoot, 'scripts', 'gates', 'ledger.mjs');
-  const expect = Number(
+  const expect = String(
     ctx.meta?.expectRoutes ?? process.env.ITR_EXPECTED_ROUTES ?? BASELINE_EXPECTED_ROUTES
-  );
+  ); // "<prerendered>[/<sitemap>]" — passed through to ledger.mjs --expect
 
   const args = [ledgerPath, '--json', '--repo', ctx.target, '--expect', String(expect)];
   const res = spawnSync(process.execPath, args, { encoding: 'utf8' });

@@ -334,7 +334,7 @@ export const equipmentCategories = [
     productTypes: [
       {
         name: 'Rulmenți Industriali',
-        slug: 'rulmenți-industriali',
+        slug: 'rulmenti-industriali',
         description: 'Rulmenți cu bile, role și ace pentru toate aplicațiile',
         applications: ['Motoare electrice', 'Reductoare', 'Pompe și ventilatoare', 'Utilaje de procesare']
       },
@@ -665,7 +665,7 @@ export const equipmentCategories = [
     productTypes: [
       {
         name: 'Echipamente Protecție Muncă',
-        slug: 'protectie-muncă',
+        slug: 'protectie-munca',
         description: 'EPI pentru siguranța personalului industrial',
         applications: ['Protecție respiratorie', 'Echipamente anti-cădere', 'Ochelari și măști', 'Mănuși de protecție']
       },
@@ -704,3 +704,17 @@ export const equipmentCategories = [
     services: ['Training siguranță și protecție muncă', 'Consultanță sisteme de dozare', 'Mentenanță echipamente curățenie', 'Livrări programate consumabile', 'Audit siguranță operațională']
   }
 ];
+
+// Per-category brand counts are derived from the actual brands array, never
+// hand-typed (entityFacts.json retired.perCategoryBrandPlus — a manually kept
+// "15+/20+" drifts from reality the moment a brand is added or removed).
+for (const category of equipmentCategories) {
+  category.stats.brands = String(category.brands.length);
+}
+
+// Total distinct brands across these 10 additional equipment categories
+// (a brand such as Siemens can appear in several categories, so this is a
+// deduplicated count, not a sum of the per-category counts above).
+export const equipmentBrandsTotal = new Set(
+  equipmentCategories.flatMap((category) => category.brands.map((b) => b.slug))
+).size;

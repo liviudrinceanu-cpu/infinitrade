@@ -17,8 +17,7 @@
  */
 import { pathToFileURL } from 'node:url';
 import path from 'node:path';
-import fs from 'node:fs';
-import os from 'node:os';
+import { loadDataDir } from './gates/_lib/loader.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const argv = process.argv.slice(2);
@@ -40,27 +39,23 @@ const redirects = await nextConfig.redirects();
 //        can't load them in place - run them from a throwaway ESM-enabled
 //        temp dir instead. This keeps the check based on the exact same
 //        logic the site itself uses (no slug lists duplicated/hand-maintained
-//        here). ---
-const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'infinitrade-redirect-check-'));
+//        here).
+//
+//        This step used to hand-copy three flat files and patch two import
+//        specifiers; it broke as soon as allBrandsIndex.js grew further
+//        imports (noindexBrands.js, brandContent.js and its batches). It now
+//        delegates to the shared scripts/gates/_lib/loader.mjs, which copies
+//        the whole src/data tree and rewrites every extensionless relative
+//        specifier, so new data modules cannot break this check again. ---
 let allCategoriesUnified;
 let allBrandsUnified;
-try {
-  for (const file of ['products.js', 'equipmentCategories.js', 'allBrandsIndex.js']) {
-    fs.copyFileSync(path.join(ROOT, 'src/data', file), path.join(tmpDir, file));
+{
+  const loader = loadDataDir(ROOT);
+  try {
+    ({ allCategoriesUnified, allBrandsUnified } = await loader.importFile('allBrandsIndex.js'));
+  } finally {
+    loader.cleanup();
   }
-  fs.writeFileSync(path.join(tmpDir, 'package.json'), JSON.stringify({ type: 'module' }));
-
-  // Native ESM requires explicit file extensions on relative specifiers.
-  const idxPath = path.join(tmpDir, 'allBrandsIndex.js');
-  const idxSrc = fs
-    .readFileSync(idxPath, 'utf8')
-    .replace("from './products'", "from './products.js'")
-    .replace("from './equipmentCategories'", "from './equipmentCategories.js'");
-  fs.writeFileSync(idxPath, idxSrc);
-
-  ({ allCategoriesUnified, allBrandsUnified } = await import(pathToFileURL(idxPath).href));
-} finally {
-  fs.rmSync(tmpDir, { recursive: true, force: true });
 }
 
 const categorySlugs = new Set(allCategoriesUnified.map((c) => c.slug));

@@ -35,7 +35,7 @@ export default function Hero() {
           {/* Badge - CSS animation */}
           <div className={`${styles.badge} ${styles.badgeAnimate}`}>
             <span className={styles.badgeDot} />
-            <span>Peste 500 de branduri internationale</span>
+            <span>{siteStats.brands} de branduri internationale</span>
           </div>
 
           {/* Headline - LCP ELEMENT: Pure CSS animation, immediate render */}

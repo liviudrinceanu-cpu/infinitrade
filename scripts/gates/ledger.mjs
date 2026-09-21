@@ -57,8 +57,10 @@ import os from 'node:os';
 
 const argv = process.argv.slice(2);
 const asJson = argv.includes('--json');
-const expectArg = (argv.find((a) => a.startsWith('--expect=')) || '').slice(9)
+const expectArgRaw = (argv.find((a) => a.startsWith('--expect=')) || '').slice(9)
   || (argv.includes('--expect') ? argv[argv.indexOf('--expect') + 1] : '');
+const [expectArg, expectSitemapArg] = String(expectArgRaw || '').split('/');
+const EXPECT_SITEMAP = expectSitemapArg ? Number(expectSitemapArg) : null;
 const EXPECT = expectArg !== '' ? Number(expectArg) : null;
 
 const flagValue = (name, fallback) => {
@@ -215,6 +217,13 @@ async function countAccessoryRoutes(repoRoot) {
 
 function countProductTypeRoutes(outRoot, corpusRoot) {
   const worklist = path.join(outRoot, 'plan-v2', 'worklists', 'product-types.json');
+  // A worklist is a plan, not a route. Product-type pages only become routes once
+  // the App Router file src/app/[category]/[type]/page.js exists (backlog F7).
+  const routeFile = path.join(REPO, 'src', 'app', '[category]', '[type]', 'page.js');
+  if (!fs.existsSync(routeFile)) {
+    notes.push('src/app/[category]/[type]/page.js does not exist yet — productTypeRoutes = 0 (worklist entries are not routes until F7 lands the route file).');
+    return 0;
+  }
   if (!fs.existsSync(worklist)) {
     notes.push(`${path.relative(process.cwd(), worklist)} does not exist yet — productTypeRoutes = 0 (frozen by backlog item F2-08).`);
     return 0;
@@ -353,11 +362,12 @@ async function main() {
       process.exitCode = 1;
       return;
     }
+    // --expect <prerendered>[/<sitemap>]  (sitemap optional; when omitted only prerendered is asserted)
     const mismatches = [];
     if (result.prerendered !== EXPECT) mismatches.push(`prerendered=${result.prerendered}`);
-    if (result.sitemap !== EXPECT) mismatches.push(`sitemap=${result.sitemap}`);
+    if (EXPECT_SITEMAP !== null && result.sitemap !== EXPECT_SITEMAP) mismatches.push(`sitemap=${result.sitemap}`);
     if (mismatches.length) {
-      console.error(`ledger: expected ${EXPECT}/${EXPECT}, got ${mismatches.join(', ')}`);
+      console.error(`ledger: expected ${EXPECT}/${EXPECT_SITEMAP === null ? '*' : EXPECT_SITEMAP}, got ${mismatches.join(', ')}`);
       process.exitCode = 1;
     }
   }

@@ -8,7 +8,6 @@
     "when a surface contradicts this file.",
     "`brandCount` is NOT authored — it is asserted equal to allBrandsUnified.length at check time."
   ],
-
   "commercialName": "Infinitrade România",
   "alternateName": "Infinitrade",
   "legalName": "Driatheli Group SRL",
@@ -16,23 +15,26 @@
   "foundingDate": "2009-11-11",
   "foundingYear": 2009,
   "yearsActiveExpression": "new Date().getFullYear() - 2009",
-
   "addressLocality": "Ghiroda",
   "addressRegion": "Timiș",
   "nearestCity": "Timișoara",
   "warehousePhrase": "depozit în Ghiroda (Timiș), lângă Timișoara",
   "streetAddress": "Calea Lugojului nr. 47/B, Hala nr. 3",
   "postalCode": "307200",
-
-  "employees": { "value": 16, "asOf": "2026-02-14", "status": "OWNER_CONFIRM", "publicCrossCheck": "ONRC/Termene bilanț — the only entity number a third party can contradict" },
-
-  "brandCount": 288,
+  "employees": {
+    "value": 16,
+    "asOf": "2026-02-14",
+    "status": "OWNER_CONFIRM",
+    "publicCrossCheck": "ONRC/Termene bilanț — the only entity number a third party can contradict"
+  },
+  "brandCount": 283,
   "brandCountDerivedFrom": "allBrandsUnified.length (src/data/allBrandsIndex.js)",
   "brandCountAfterMerges": 283,
   "brandCountPhrase": "branduri cu pagină proprie pe site",
-
-  "leadTimePhrases": ["24–72 h din stoc", "2–6 săptămâni la comandă"],
-
+  "leadTimePhrases": [
+    "24–72 h din stoc",
+    "2–6 săptămâni la comandă"
+  ],
   "certifications": [
     {
       "name": "ISO 9001:2015",
@@ -43,13 +45,11 @@
       "rule": "Until certificateNumber + issuedBy are filled, this may be stated in prose on /certificari but MUST NOT appear in Organization JSON-LD hasCertification, and MUST NOT be repeated on brand pages."
     }
   ],
-
   "sameAs": [
     "https://www.linkedin.com/company/infinitrade-romania",
     "https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL",
     "https://www.risco.ro/verifica-firma/driatheli-group-cui-26209397"
   ],
-
   "retired": {
     "_why": "Numbers previously shown on the site with no source behind them. They are not to be restated anywhere.",
     "brands500Plus": "no evidence; the index has 288",
@@ -58,19 +58,24 @@
     "llmsTxt238Plus": "stale snapshot of the index",
     "perCategoryBrandPlus": "'41+/60+/51+ brands' per category — derive from category.brands.length or drop"
   },
-
   "boilerplate": [
     {
       "id": "sourcing-statement",
       "template": "Nu ținem produse <Brand> în stoc; le putem oferta la comandă, termen orientativ 2–6 săptămâni.",
-      "placeholders": ["Brand"],
+      "placeholders": [
+        "Brand"
+      ],
       "mandatedOn": "gsc-only + zero-evidence pages (88+47 pages, D-AEO A4) — verbatim except the brand name",
       "source": "decisions-coverage-aeo.md §A4"
     },
     {
       "id": "role-byline",
       "template": "Verificat de <rol> (<ani>, certificări) · actualizat <dată>",
-      "placeholders": ["rol", "ani", "dată"],
+      "placeholders": [
+        "rol",
+        "ani",
+        "dată"
+      ],
       "mandatedOn": "every page (G20 editorial contract) — the role byline, never a personal name",
       "source": "decisions-architecture.md G20 / gapfill-4 §7.2"
     },
@@ -105,12 +110,41 @@
     "agent cannot grow the allow-list to launder a new duplicated sentence past G14 —",
     "only an edit to entityFacts.json (an architecture-owned registry file) can."
   ],
-
   "forbiddenValues": [
-    { "fact": "brandCount", "canonical": "288 (derived)", "pattern": "500\\+\\s*(de\\s*)?(branduri|brands)|peste\\s*500\\s*de\\s*branduri", "flags": "i", "why": "Hero + /brand layout still say 500+; the index has 288" },
-    { "fact": "brandCount", "canonical": "288 (derived)", "pattern": "238\\+\\s*brands", "flags": "i", "why": "llms.txt snapshot" },
-    { "fact": "warehouseCity", "canonical": "Ghiroda (Timiș)", "pattern": "stoc (permanent )?(în|in) (București|Cluj-Napoca|Iași|Brașov)", "flags": "i", "why": "there is one warehouse and it is in Ghiroda" },
-    { "fact": "certifications", "canonical": "ISO 9001:2015 without a public certificate number", "pattern": "partener (Grundfos|Siemens|KSB)", "flags": "i", "why": "reads as a partnership claim (owner rule #5); use 'lucrăm cu gama'" },
-    { "fact": "foundingYear", "canonical": "2009", "pattern": "din (200[0-8]|201\\d|202\\d)\\b(?![^.]{0,20}garanție)", "flags": "i", "why": "company founding year is 2009-11-11" }
+    {
+      "fact": "brandCount",
+      "canonical": "288 (derived)",
+      "pattern": "500\\+\\s*(de\\s*)?(branduri|brands)|peste\\s*500\\s*de\\s*branduri",
+      "flags": "i",
+      "why": "Hero + /brand layout still say 500+; the index has 288"
+    },
+    {
+      "fact": "brandCount",
+      "canonical": "288 (derived)",
+      "pattern": "238\\+\\s*brands",
+      "flags": "i",
+      "why": "llms.txt snapshot"
+    },
+    {
+      "fact": "warehouseCity",
+      "canonical": "Ghiroda (Timiș)",
+      "pattern": "stoc (permanent )?(în|in) (București|Cluj-Napoca|Iași|Brașov)",
+      "flags": "i",
+      "why": "there is one warehouse and it is in Ghiroda"
+    },
+    {
+      "fact": "certifications",
+      "canonical": "ISO 9001:2015 without a public certificate number",
+      "pattern": "partener (Grundfos|Siemens|KSB)",
+      "flags": "i",
+      "why": "reads as a partnership claim (owner rule #5); use 'lucrăm cu gama'"
+    },
+    {
+      "fact": "foundingYear",
+      "canonical": "2009",
+      "pattern": "(?<![a-z])(Infinitrade Rom[âa]nia|Infinitrade\\b(?!:))[^.]{0,60}\\bdin (19\\d\\d|200[0-8])\\b|\\bdin (19\\d\\d|200[0-8])\\b[^.]{0,40}(Infinitrade Rom[âa]nia|firma noastr[ăa])",
+      "flags": "i",
+      "why": "company founded 2009-11-11: any 'Infinitrade ... din <year before 2009>' is impossible; a later year about when a brand relationship started is legitimate"
+    }
   ]
 }

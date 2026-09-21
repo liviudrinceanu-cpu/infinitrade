@@ -155,8 +155,9 @@ export const categories = [
       { name: 'Dorot', slug: 'robineti-industriali-dorot', logo: '/brands/placeholder.png', country: 'Israel', description: 'Robineți de control hidraulic', featured: false },
       { name: 'DeZURIK', slug: 'robineti-industriali-dezurik', logo: '/brands/placeholder.png', country: 'SUA', description: 'Robineți pentru procese industriale', featured: false },
       { name: 'Mueller Water', slug: 'robineti-industriali-mueller', logo: '/brands/placeholder.png', country: 'SUA', description: 'Produse pentru distribuția apei', featured: false },
-      { name: 'Pratt', slug: 'robineti-industriali-pratt', logo: '/brands/placeholder.png', country: 'SUA', description: 'Robineți pentru utilități', featured: false },
-      { name: 'Crane ChemPharma', slug: 'robineti-industriali-crane-chempharma', logo: '/brands/placeholder.png', country: 'SUA', description: 'Armaturi pentru industria chimică și farmaceutică', featured: false }
+      { name: 'Pratt', slug: 'robineti-industriali-pratt', logo: '/brands/placeholder.png', country: 'SUA', description: 'Robineți pentru utilități', featured: false }
+      // 'Crane ChemPharma' (simpleSlug crane-chempharma) merged into 'Crane' (crane);
+      // /brand/crane-chempharma is a permanent 301 in next.config.js.
     ],
     productTypes: [
       { name: 'Robineți cu Bilă Industriali', slug: 'robineti-bila-industriali', description: 'Închidere etanșă pentru fluide industriale', applications: ['Petrochimie', 'Gaze industriale', 'Industria chimică', 'Alimentar'] },
@@ -200,12 +201,15 @@ export const categories = [
       { name: 'Marathon', slug: 'motoare-electrice-industriale-marathon', logo: '/brands/placeholder.png', country: 'SUA', description: 'Motoare pentru aplicații industriale grele', featured: false },
       { name: 'TECO', slug: 'motoare-electrice-industriale-teco', logo: '/brands/placeholder.png', country: 'Taiwan', description: 'Motoare industriale eficiente energetic', featured: false },
       { name: 'Yaskawa', slug: 'motoare-electrice-industriale-yaskawa', logo: '/brands/placeholder.png', country: 'Japonia', description: 'Servomotoare și convertizoare de frecvență', featured: false },
-      { name: 'Mitsubishi Electric', slug: 'motoare-electrice-industriale-mitsubishi', logo: '/brands/placeholder.png', country: 'Japonia', description: 'Automatizări și acționări industriale', featured: false },
+      // 'Mitsubishi Electric' (simpleSlug mitsubishi) merged into 'Mitsubishi Electric'
+      // (mitsubishi-electric, equipmentCategories.js); /brand/mitsubishi is a 301.
       { name: 'Lenze', slug: 'motoare-electrice-industriale-lenze', logo: '/brands/placeholder.png', country: 'Germania', description: 'Sisteme de acționare pentru automatizări', featured: false },
       { name: 'Beckhoff', slug: 'motoare-electrice-industriale-beckhoff', logo: '/brands/placeholder.png', country: 'Germania', description: 'Servomotoare pentru automatizări PC-based', featured: false },
-      { name: 'B&R', slug: 'motoare-electrice-industriale-br', logo: '/brands/placeholder.png', country: 'Austria', description: 'Acționări pentru automatizări industriale ABB', featured: false },
+      // 'B&R' (simpleSlug br) merged into 'B&R' (br-automation, equipmentCategories.js);
+      // /brand/br is a 301.
       { name: 'Schneider Electric', slug: 'motoare-electrice-industriale-schneider', logo: '/brands/placeholder.png', country: 'Franța', description: 'Motoare și variatore pentru industrie', featured: false },
-      { name: 'Rockwell', slug: 'motoare-electrice-industriale-rockwell', logo: '/brands/placeholder.png', country: 'SUA', description: 'Allen-Bradley acționări industriale', featured: false },
+      // 'Rockwell' (simpleSlug rockwell) merged into 'Rockwell Automation'
+      // (rockwell-automation, equipmentCategories.js); /brand/rockwell is a 301.
       { name: 'Danfoss Drives', slug: 'motoare-electrice-industriale-danfoss', logo: '/brands/placeholder.png', country: 'Danemarca', description: 'Convertizoare de frecvență pentru motoare', featured: false },
       { name: 'Vem Motors', slug: 'motoare-electrice-industriale-vem', logo: '/brands/placeholder.png', country: 'Germania', description: 'Motoare și generatoare electrice', featured: false },
       { name: 'MGM', slug: 'motoare-electrice-industriale-mgm', logo: '/brands/placeholder.png', country: 'Italia', description: 'Motoare electrice pentru aplicații speciale', featured: false },
@@ -225,8 +229,9 @@ export const categories = [
       { name: 'Flender', slug: 'motoare-electrice-industriale-flender', logo: '/brands/placeholder.png', country: 'Germania', description: 'Reductoare Siemens pentru industrie grea', featured: false },
       { name: 'Hansen', slug: 'motoare-electrice-industriale-hansen', logo: '/brands/placeholder.png', country: 'Belgia', description: 'Reductoare industriale Sumitomo', featured: false },
       { name: 'Sumitomo', slug: 'motoare-electrice-industriale-sumitomo', logo: '/brands/placeholder.png', country: 'Japonia', description: 'Reductoare și motoreductoare industriale', featured: false },
-      { name: 'Watt Drive', slug: 'motoare-electrice-industriale-watt-drive', logo: '/brands/placeholder.png', country: 'Austria', description: 'Sisteme de acționare de precizie', featured: false },
-      { name: 'Getriebebau Nord', slug: 'motoare-electrice-industriale-getriebebau', logo: '/brands/placeholder.png', country: 'Germania', description: 'Reductoare și acționări industriale', featured: false }
+      { name: 'Watt Drive', slug: 'motoare-electrice-industriale-watt-drive', logo: '/brands/placeholder.png', country: 'Austria', description: 'Sisteme de acționare de precizie', featured: false }
+      // 'Getriebebau Nord' (simpleSlug getriebebau) merged into 'Nord' (nord);
+      // /brand/getriebebau is a permanent 301 in next.config.js.
     ],
     productTypes: [
       { name: 'Motoare Asincrone Industriale', slug: 'motoare-asincrone-industriale', description: 'Clasa IE2/IE3/IE4 pentru eficiență maximă', applications: ['Pompe industriale', 'Ventilatoare', 'Compresoare', 'Transportoare'] },
@@ -306,13 +311,20 @@ export const categories = [
       { name: 'Suflante Roots Industriale', slug: 'suflante-roots-industriale', description: 'Debite mari pentru aplicații industriale grele', applications: ['Aerare bazine', 'Transport cereale', 'Fluidizare', 'Industria cimentului'] },
       { name: 'Ventilatoare Centrifugale Industriale', slug: 'ventilatoare-centrifugale-industriale', description: 'Pentru ventilație și transport materiale', applications: ['Hote industriale', 'Sisteme filtrare', 'Transport materiale', 'Ventilație hale'] },
       { name: 'Ventilatoare Axiale Industriale', slug: 'ventilatoare-axiale-industriale', description: 'Pentru răcire și ventilație industrială', applications: ['Turnuri răcire', 'Răcire echipamente', 'Ventilație tuneluri', 'Condensatoare'] },
-      { name: 'Pompe de Vid Industriale', slug: 'pompe-vid-industriale', description: 'Pentru procese de vid și manipulare', applications: ['Ambalare vid', 'Manipulare cu vid', 'Procese chimice', 'Industria lemnului'] },
+      { name: 'Pompe de Vid Industriale', slug: 'pompe-vid-suflante', description: 'Pentru procese de vid și manipulare', applications: ['Ambalare vid', 'Manipulare cu vid', 'Procese chimice', 'Industria lemnului'] },
       { name: 'Compresoare Industriale', slug: 'compresoare-industriale', description: 'Aer comprimat pentru procese industriale', applications: ['Automatizări pneumatice', 'Industria alimentară', 'Procese medicale', 'Laborator'] }
     ],
     accessories: ['Filtre aspirație industriale', 'Silențiatoare', 'Supape siguranță', 'Manometre industriale', 'Kituri lamele'],
     services: ['Calcul și dimensionare sisteme', 'Măsurători debit și presiune', 'Recondiționare suflante industriale', 'Echilibrare dinamică rotoare']
   }
 ];
+
+// Per-category brand counts are derived from the actual brands array, never
+// hand-typed (entityFacts.json retired.perCategoryBrandPlus — a manually kept
+// "51+" drifts from reality the moment a brand is added or removed).
+for (const category of categories) {
+  category.stats.brands = String(category.brands.length);
+}
 
 // Top 15 Industries served
 export const targetIndustries = [
@@ -338,7 +350,7 @@ export const companyInfo = {
   legalEntity: 'Driatheli Group SRL',
   tagline: 'Dăm puls industriei',
   description: 'Partener strategic pentru departamentele de achiziții, mentenanță și investiții din industria românească. Furnizăm echipamente industriale de înaltă performanță pentru cele mai exigente aplicații.',
-  aboutUs: 'Cu 17 ani de experiență în distribuția de echipamente industriale, Infinitrade Romania s-a impus ca partener de încredere pentru cele mai importante companii din România. Înțelegem provocările departamentelor de achiziții și mentenanță: nevoia de echipamente fiabile, livrări rapide pentru a evita oprirea producției, și suport tehnic competent. De aceea, am construit o rețea de peste 300 de furnizori internaționali și menținem stocuri strategice pentru componentele critice. Clienții noștri - de la Continental și Siemens la ArcelorMittal și Romgaz - ne aleg pentru promptitudine, expertiză tehnică și angajamentul nostru față de calitate.',
+  aboutUs: 'Cu 17 ani de experiență în distribuția de echipamente industriale, Infinitrade Romania s-a impus ca partener de încredere pentru cele mai importante companii din România. Înțelegem provocările departamentelor de achiziții și mentenanță: nevoia de echipamente fiabile, livrări rapide pentru a evita oprirea producției, și suport tehnic competent. De aceea, am construit o rețea solidă de furnizori internaționali și menținem stocuri strategice pentru componentele critice. Clienții noștri - de la Continental și Siemens la ArcelorMittal și Romgaz - ne aleg pentru promptitudine, expertiză tehnică și angajamentul nostru față de calitate.',
   founded: 2009,
   location: { city: 'Ghiroda', county: 'Timiș', address: 'Calea Lugojului, nr.47/B, Hala nr. 3', country: 'România' },
   contact: { 

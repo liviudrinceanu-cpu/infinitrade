@@ -1,0 +1,10 @@
+{
+  "_comment": "Minimal fixture GSC reference for G12 fail case.",
+  "byPage28": [
+    { "url": "https://www.example.ro/brand/alpha-corp", "path": "/brand/alpha-corp", "clicks": 0, "impressions": 0, "position": 0 },
+    { "url": "https://www.example.ro/brand/beta-inc", "path": "/brand/beta-inc", "clicks": 4, "impressions": 200, "position": 6.4 }
+  ],
+  "byPage90": [
+    { "url": "https://www.example.ro/brand/alpha-corp", "path": "/brand/alpha-corp", "clicks": 0, "impressions": 0, "position": 0 }
+  ]
+}

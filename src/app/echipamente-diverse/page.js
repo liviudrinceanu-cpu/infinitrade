@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { equipmentCategories } from '@/data/equipmentCategories';
+import { equipmentCategories, equipmentBrandsTotal } from '@/data/equipmentCategories';
 import { config } from '@/lib/config';
 import styles from './echipamente.module.css';
 
@@ -40,7 +40,7 @@ export default function EchipamenteDiversePage() {
             <h1 className={styles.heroTitle}>Echipamente Industriale</h1>
             <p className={styles.heroDescription}>
               Catalog complet de echipamente industriale: automatizari, senzori, componente hidraulice si pneumatice,
-              echipamente electrice, mecanice, filtre si multe altele. Peste 130 de branduri internationale.
+              echipamente electrice, mecanice, filtre si multe altele. {equipmentBrandsTotal} branduri internationale.
             </p>
           </div>
         </section>

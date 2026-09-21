@@ -4,6 +4,7 @@ import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
 import { getBrandContent } from '@/data/brandContent';
 import { buildBrandJsonLd } from '@/lib/schema/brand';
+import { NOINDEX_BRANDS } from '@/data/noindexBrands';
 import BrandPageClient from './BrandPageClient';
 
 // Generate static params for all brand pages (simple slugs)
@@ -47,10 +48,9 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: `${config.site.url}/brand/${brand.simpleSlug}`,
     },
-    robots: {
-      index: true,
-      follow: true,
-    },
+    robots: NOINDEX_BRANDS.includes(brand.simpleSlug)
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
   };
 }
 
