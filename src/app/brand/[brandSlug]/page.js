@@ -49,8 +49,8 @@ export async function generateMetadata({ params }) {
       canonical: `${config.site.url}/brand/${brand.simpleSlug}`,
     },
     robots: NOINDEX_BRANDS.includes(brand.simpleSlug)
-      ? { index: false, follow: true }
-      : { index: true, follow: true },
+      ? { index: false, follow: true, googleBot: { index: false, follow: true } }
+      : { index: true, follow: true, googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 } },
   };
 }
 
