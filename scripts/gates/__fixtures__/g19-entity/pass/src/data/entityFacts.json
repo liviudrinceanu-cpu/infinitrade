@@ -1,0 +1,7 @@
+{
+  "brandCount": 2,
+  "forbiddenValues": [
+    { "fact": "brandCount", "canonical": "2 (derived)", "pattern": "500\\+\\s*(de\\s*)?(branduri|brands)|peste\\s*500\\s*de\\s*branduri", "flags": "i", "why": "the index has 2 brands in this fixture" },
+    { "fact": "foundingYear", "canonical": "2009", "pattern": "din (200[0-8]|201\\d|202\\d)\\b(?![^.]{0,20}garanție)", "flags": "i", "why": "company founding year is 2009-11-11" }
+  ]
+}

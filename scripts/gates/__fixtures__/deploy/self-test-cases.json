@@ -1,0 +1,133 @@
+[
+  {
+    "name": "G13 pass — sitemap loc count matches ledger",
+    "check": "g13",
+    "sitemapFile": "sitemap-3-urls.xml",
+    "input": { "ledgerExpected": 3 },
+    "expectStatus": "pass"
+  },
+  {
+    "name": "G13 fail — sitemap loc count does not match ledger (route drift)",
+    "check": "g13",
+    "sitemapFile": "sitemap-3-urls.xml",
+    "input": { "ledgerExpected": 355 },
+    "expectStatus": "fail"
+  },
+  {
+    "name": "G13 error — ledgerExpected missing/not a number",
+    "check": "g13",
+    "sitemapFile": "sitemap-3-urls.xml",
+    "input": { "ledgerExpected": null },
+    "expectStatus": "error"
+  },
+  {
+    "name": "G12 pass — sitemap set equals expected minus noindex (noindex empty)",
+    "check": "g12",
+    "sitemapFile": "sitemap-3-urls.xml",
+    "input": {
+      "expectedPaths": ["/", "/brand/grundfos", "/brand/wilo"],
+      "noindexBrandSlugs": []
+    },
+    "expectStatus": "pass"
+  },
+  {
+    "name": "G12 fail — expected route missing from deployed sitemap",
+    "check": "g12",
+    "sitemapFile": "sitemap-3-urls.xml",
+    "input": {
+      "expectedPaths": ["/", "/brand/grundfos", "/brand/wilo", "/brand/kaeser"],
+      "noindexBrandSlugs": []
+    },
+    "expectStatus": "fail"
+  },
+  {
+    "name": "G12 fail — noindex'd brand still present in deployed sitemap",
+    "check": "g12",
+    "sitemapFile": "sitemap-3-urls.xml",
+    "input": {
+      "expectedPaths": ["/", "/brand/grundfos", "/brand/wilo"],
+      "noindexBrandSlugs": ["wilo"]
+    },
+    "expectStatus": "fail"
+  },
+  {
+    "name": "G3 pass — probe has a real 404 status code",
+    "check": "g3",
+    "input": {
+      "probes": [
+        { "url": "https://preview.example.vercel.app/brand/grundfos/not-a-real-series", "status": 404 }
+      ]
+    },
+    "expectStatus": "pass"
+  },
+  {
+    "name": "G3 fail — probe returns 200 (route/redirect collision)",
+    "check": "g3",
+    "input": {
+      "probes": [
+        { "url": "https://preview.example.vercel.app/brand/grundfos/not-a-real-series", "status": 200 }
+      ]
+    },
+    "expectStatus": "fail"
+  },
+  {
+    "name": "G3 inconclusive — no status code, but WebFetch body carries the 404 page markers",
+    "check": "g3",
+    "input": {
+      "probes": [
+        {
+          "url": "https://preview.example.vercel.app/brand/grundfos/not-a-real-series",
+          "bodyText": "404\nPagina nu a fost gasita\nNe pare rau, pagina pe care o cauti nu exista sau a fost mutata."
+        }
+      ]
+    },
+    "expectStatus": "inconclusive"
+  },
+  {
+    "name": "G3 fail — WebFetch body looks like a real page, no 404 markers",
+    "check": "g3",
+    "input": {
+      "probes": [
+        {
+          "url": "https://preview.example.vercel.app/brand/grundfos/not-a-real-series",
+          "bodyText": "Grundfos CR64 - pompa centrifuga verticala multietajata, specificatii tehnice si debit."
+        }
+      ]
+    },
+    "expectStatus": "fail"
+  },
+  {
+    "name": "G17 pass — every target has >=3 inbound links from sampled hubs",
+    "check": "g17",
+    "input": {
+      "hubs": [
+        { "url": "https://x/", "internalLinks": ["/brand/grundfos", "/pompe-industriale"] },
+        { "url": "https://x/pompe-industriale", "internalLinks": ["/brand/grundfos", "/brand/wilo"] },
+        { "url": "https://x/industrii", "internalLinks": ["/brand/grundfos", "/brand/wilo"] },
+        { "url": "https://x/blog", "internalLinks": ["/brand/grundfos", "/brand/wilo"] }
+      ],
+      "targetPaths": ["/brand/grundfos", "/brand/wilo"],
+      "minInbound": 3
+    },
+    "expectStatus": "pass"
+  },
+  {
+    "name": "G17 fail — a target has fewer than 3 inbound links from sampled hubs",
+    "check": "g17",
+    "input": {
+      "hubs": [
+        { "url": "https://x/", "internalLinks": ["/brand/kaeser"] },
+        { "url": "https://x/pompe-industriale", "internalLinks": ["/brand/kaeser"] }
+      ],
+      "targetPaths": ["/brand/kaeser"],
+      "minInbound": 3
+    },
+    "expectStatus": "fail"
+  },
+  {
+    "name": "G17 error — no hub pages supplied",
+    "check": "g17",
+    "input": { "hubs": [], "targetPaths": ["/brand/kaeser"] },
+    "expectStatus": "error"
+  }
+]

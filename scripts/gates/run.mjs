@@ -40,6 +40,7 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { loadDataDir } from './_lib/loader.mjs';
 import { writeGateReport, appendProgress } from './_lib/report.mjs';
+import { appendItemProgress } from './_lib/progress.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
@@ -88,7 +89,23 @@ const GATE_IDS = new Set(GATES.map((g) => g.id));
 
 /* --------------------------------------------------------------- argv ---- */
 function parseArgv(argv) {
-  const out = { batch: null, gate: 'all', files: null, target: null, out: null };
+  const out = {
+    batch: null,
+    gate: 'all',
+    files: null,
+    target: null,
+    out: null,
+    // Item-ledger fields (F0-16). All optional; the item-level line is only
+    // appended when --item is given, so a plain `--batch/--gate` invocation
+    // behaves exactly as before (no forking of the existing gate-line log).
+    phase: null,
+    item: null,
+    brand: null,
+    file: null,
+    sha: null,
+    agentId: null,
+    status: null,
+  };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     const eat = () => argv[++i];
@@ -102,6 +119,20 @@ function parseArgv(argv) {
     else if (a.startsWith('--target=')) out.target = a.slice(9);
     else if (a === '--out') out.out = eat();
     else if (a.startsWith('--out=')) out.out = a.slice(6);
+    else if (a === '--phase') out.phase = eat();
+    else if (a.startsWith('--phase=')) out.phase = a.slice(8);
+    else if (a === '--item') out.item = eat();
+    else if (a.startsWith('--item=')) out.item = a.slice(7);
+    else if (a === '--brand') out.brand = eat();
+    else if (a.startsWith('--brand=')) out.brand = a.slice(8);
+    else if (a === '--file') out.file = eat();
+    else if (a.startsWith('--file=')) out.file = a.slice(7);
+    else if (a === '--sha') out.sha = eat();
+    else if (a.startsWith('--sha=')) out.sha = a.slice(6);
+    else if (a === '--agent-id') out.agentId = eat();
+    else if (a.startsWith('--agent-id=')) out.agentId = a.slice(11);
+    else if (a === '--status') out.status = eat();
+    else if (a.startsWith('--status=')) out.status = a.slice(9);
     else if (a === '--help' || a === '-h') out.help = true;
   }
   return out;
@@ -182,6 +213,26 @@ async function runOneGate(gateDef, scriptPath, ctx) {
   }
 }
 
+/** Append the item-level ledger line (F0-16), if --item was given. Shared by
+ * both the `--gate none` smoke-test path and the normal gate-running path so
+ * "the gate runner appends a line for every item it processes" holds even
+ * for a smoke run. */
+function maybeAppendItemLine(args, outJsonlPath, results, gateReportFile) {
+  if (!args.item) return;
+  const hasBlockerOrFail = results.some((r) => r.status === 'fail' || r.status === 'error');
+  const status = args.status || (hasBlockerOrFail ? 'quarantined' : 'gated');
+  appendItemProgress(outJsonlPath, {
+    phase: args.phase,
+    item: args.item,
+    brand: args.brand,
+    file: args.file,
+    status,
+    gate_report: gateReportFile,
+    sha: args.sha,
+    agent_id: args.agentId,
+  });
+}
+
 async function main() {
   const args = parseArgv(process.argv.slice(2));
 
@@ -196,7 +247,8 @@ async function main() {
 
   // --gate none: smoke test — write an empty report, touch nothing else, exit 0.
   if (args.gate === 'none') {
-    const { report } = writeGateReport(reportOutDir, { batch: args.batch, target, results: [] });
+    const { file, report } = writeGateReport(reportOutDir, { batch: args.batch, target, results: [] });
+    maybeAppendItemLine(args, outJsonlPath, [], file);
     console.log(`[gates] --gate none: wrote empty ${path.join(reportOutDir, 'gate-report.json')}`);
     console.log(JSON.stringify(report.summary));
     process.exit(0);
@@ -233,6 +285,11 @@ async function main() {
 
   const { file, report } = writeGateReport(reportOutDir, { batch: args.batch, target, results });
   appendProgress(outJsonlPath, { batch: args.batch, target, results });
+
+  // Item-level ledger line (F0-16) — additive, only when the caller passes
+  // --item (the orchestrator invokes run.mjs per item; a bare ad-hoc
+  // `--gate G15` debug run does not, and behaves exactly as before).
+  maybeAppendItemLine(args, outJsonlPath, results, file);
 
   console.log(`[gates] wrote ${file}`);
   console.log(JSON.stringify(report.summary));

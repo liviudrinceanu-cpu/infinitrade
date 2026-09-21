@@ -1,0 +1,2 @@
+serie_id	brand	familie	oem_url	oem_url_tip	ciclu_viata	succesor	data_verificare	tip_dovada	incredere	nota	citat
+testbrand/alpha	TestBrand	pompe-industriale	https://oem.example.com/products/alpha	product	activ		2026-09-10	N	90	pagina de gama activa	"AX-100 is the current model in the Alpha range and remains in active production"

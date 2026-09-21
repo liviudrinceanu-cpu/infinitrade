@@ -1,7 +1,10 @@
 /**
  * Brand Content - Rich SEO content for brand landing pages
  *
- * This file merges all 16 batches of brand content into a single export.
+ * This file merges all 38 batches of brand content into a single export
+ * (batch1..18 hold written content; batch19..38 are reserved shards, each
+ * either empty — marked with `__EMPTY_SHARD__` for scripts/gates/g04-import.mjs —
+ * or filled in by a later content-writing wave via scripts/assign-batch.mjs).
  * Each batch contains detailed information for specific brands including:
  * - Company overview and history
  * - Key products and applications
@@ -38,6 +41,19 @@ import { brandContentBatch22 } from './brandContent-batch22';
 import { brandContentBatch23 } from './brandContent-batch23';
 import { brandContentBatch24 } from './brandContent-batch24';
 import { brandContentBatch25 } from './brandContent-batch25';
+import { brandContentBatch26 } from './brandContent-batch26';
+import { brandContentBatch27 } from './brandContent-batch27';
+import { brandContentBatch28 } from './brandContent-batch28';
+import { brandContentBatch29 } from './brandContent-batch29';
+import { brandContentBatch30 } from './brandContent-batch30';
+import { brandContentBatch31 } from './brandContent-batch31';
+import { brandContentBatch32 } from './brandContent-batch32';
+import { brandContentBatch33 } from './brandContent-batch33';
+import { brandContentBatch34 } from './brandContent-batch34';
+import { brandContentBatch35 } from './brandContent-batch35';
+import { brandContentBatch36 } from './brandContent-batch36';
+import { brandContentBatch37 } from './brandContent-batch37';
+import { brandContentBatch38 } from './brandContent-batch38';
 
 // Merge all batches into single object
 export const brandContent = {
@@ -66,6 +82,19 @@ export const brandContent = {
   ...brandContentBatch23,
   ...brandContentBatch24,
   ...brandContentBatch25,
+  ...brandContentBatch26,
+  ...brandContentBatch27,
+  ...brandContentBatch28,
+  ...brandContentBatch29,
+  ...brandContentBatch30,
+  ...brandContentBatch31,
+  ...brandContentBatch32,
+  ...brandContentBatch33,
+  ...brandContentBatch34,
+  ...brandContentBatch35,
+  ...brandContentBatch36,
+  ...brandContentBatch37,
+  ...brandContentBatch38,
 };
 
 /**

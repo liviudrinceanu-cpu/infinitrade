@@ -1,0 +1,34 @@
+{
+  "generated": "2026-09-11T00:00:00.000Z",
+  "contract": {
+    "history-only": {
+      "words": [350, 800],
+      "blocks": ["answer-first-60w", "range-table", "question-h2 x>=2", "own-fact", "limitation", "sources"],
+      "ownFact": "anonymised delivered-volume aggregate",
+      "sourcesMin": 2,
+      "seriesPagesAllowed": false,
+      "indexing": "index,follow"
+    }
+  },
+  "rows": [
+    {
+      "slug": "acme-valves",
+      "display_name": "Acme Valves",
+      "category": "robineti-industriali",
+      "on_site": true,
+      "has_rich_content": true,
+      "action": "keep",
+      "evidenceClass": "history-only",
+      "tier": 2,
+      "tierSource": "derived",
+      "contract": {
+        "words": [350, 800],
+        "blocks": ["answer-first-60w", "range-table", "question-h2 x>=2", "own-fact", "limitation", "sources"],
+        "ownFact": "anonymised delivered-volume aggregate",
+        "sourcesMin": 2,
+        "seriesPagesAllowed": false,
+        "indexing": "index,follow"
+      }
+    }
+  ]
+}

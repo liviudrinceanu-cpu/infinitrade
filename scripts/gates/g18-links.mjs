@@ -260,6 +260,12 @@ function collectFiles(ctx) {
   return files;
 }
 
+// Exported (additive — F0-10) so scripts/gates/deploy-checks.mjs can reuse the
+// exact same route-derivation logic for the G12 deploy-verified check
+// ("sitemap equals generateStaticParams minus NOINDEX_BRANDS") instead of a
+// second, divergent copy.
+export { buildRouteInventory };
+
 export async function run(ctx) {
   let routes;
   try {

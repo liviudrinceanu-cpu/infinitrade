@@ -114,7 +114,19 @@ export async function run(ctx) {
         continue;
       }
 
+      // Opt-out for an intentionally-empty shard file (e.g. a
+      // brandContent-batchNN.js reserved for a future content-writing wave
+      // that has not landed yet). A file must say so explicitly with
+      // `export const __EMPTY_SHARD__ = true;` alongside its empty
+      // object/array export — this is a per-file, per-author declaration,
+      // not a filename pattern, so it never masks a real bug: an empty
+      // object without the marker (like the pre-existing batch19..25 files
+      // before this opt-out existed, or any other data file that silently
+      // ended up empty) still fails G4 exactly as before.
+      const isDeclaredEmptyShard = mod.__EMPTY_SHARD__ === true;
+
       for (const [name, value] of exportEntries) {
+        if (name === '__EMPTY_SHARD__') continue; // the marker itself, not content
         if (value === undefined) {
           findings.push({
             file: `src/data/${f}`,
@@ -126,7 +138,7 @@ export async function run(ctx) {
         }
         if (typeof value === 'function') continue; // helper export, nothing to content-check
         if (Array.isArray(value)) {
-          if (value.length === 0) {
+          if (value.length === 0 && !isDeclaredEmptyShard) {
             findings.push({
               file: `src/data/${f}`,
               line: null,
@@ -136,7 +148,7 @@ export async function run(ctx) {
             continue;
           }
         } else if (typeof value === 'object' && value !== null) {
-          if (Object.keys(value).length === 0) {
+          if (Object.keys(value).length === 0 && !isDeclaredEmptyShard) {
             findings.push({
               file: `src/data/${f}`,
               line: null,

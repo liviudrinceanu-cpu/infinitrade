@@ -1,0 +1,13 @@
+{
+  "generated": "2026-09-10",
+  "contract": {},
+  "rows": [
+    {
+      "slug": "testbrand",
+      "display_name": "TestBrand",
+      "category": "pompe-industriale",
+      "evidenceClass": "transactional",
+      "contract": { "seriesPagesAllowed": true }
+    }
+  ]
+}

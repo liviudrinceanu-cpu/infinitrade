@@ -1,0 +1,14 @@
+{
+  "meta": { "totalKeyProducts": 1 },
+  "matched": [],
+  "keyproduct_only": [],
+  "demand_only": [
+    {
+      "brand": "testbrand",
+      "code": "AX-100",
+      "demandCount": 3,
+      "sources": ["fixture"],
+      "sampleDesc": "pompa test"
+    }
+  ]
+}
