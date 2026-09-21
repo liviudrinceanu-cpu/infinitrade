@@ -38,3 +38,27 @@ export const lastModified = {
 
   // Blog does NOT use this map - it already uses article.dateModified || article.date per article. Keep that logic.
 };
+
+// F3-03 — the single "when was this brand page actually last updated" value.
+// Used by BOTH the visible "Actualizat: <dată>" line
+// (src/app/brand/[brandSlug]/BrandPageClient.js, heading-phrasings.md B-14)
+// and the JSON-LD `dateModified` (src/lib/schema/brand.js) — one source, two
+// surfaces, so they can never disagree (decisions-coverage-aeo.md §C5).
+//
+// Value = the most recent of: the group-wide `lastModified.brands` date,
+// the brand's own `lastVerified` (brandContent.js data contract), and every
+// `changelog[].date` on that brand. Plain ISO 'YYYY-MM-DD' strings compare
+// correctly with `>` (lexicographic order matches chronological order).
+// Never returns a date earlier than `lastModified.brands`.
+export function getBrandUpdatedDate(brandContent) {
+  let latest = lastModified.brands;
+  if (brandContent?.lastVerified && brandContent.lastVerified > latest) {
+    latest = brandContent.lastVerified;
+  }
+  if (Array.isArray(brandContent?.changelog)) {
+    for (const entry of brandContent.changelog) {
+      if (entry?.date && entry.date > latest) latest = entry.date;
+    }
+  }
+  return latest;
+}

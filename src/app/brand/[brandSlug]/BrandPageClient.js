@@ -8,6 +8,8 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
+import { getBrandUpdatedDate } from '@/data/lastModified';
+import entityFacts from '@/data/entityFacts.json';
 import styles from './brand.module.css';
 
 // Strip category prefix from brand slug to get simple slug
@@ -27,6 +29,27 @@ function toSimpleSlug(slug) {
   }
   return slug;
 }
+
+// F3-02 helpers ---------------------------------------------------------
+// The template only ever reads its own data fields - it never invents a
+// number, a claim or a heading string that is not in heading-phrasings.md
+// (F3-01). Sections whose backing field does not exist yet on a given brand
+// render nothing (no empty question-H2) - most of those fields (limitation,
+// sources[], changelog, series successor) are F3-03's job, not this one's.
+
+// First citable sentence out of a longer field - the unit an answer engine
+// actually lifts (heading-phrasings.md "answer-first" rule).
+function firstSentence(text) {
+  if (typeof text !== 'string' || !text.trim()) return '';
+  const firstParagraph = text.trim().split(/\n\s*\n/)[0].trim();
+  const match = firstParagraph.match(/^[^.!?]*[.!?]/);
+  return (match ? match[0] : firstParagraph).trim();
+}
+
+const SOURCING_STATEMENT = entityFacts.boilerplate.find((b) => b.id === 'sourcing-statement')?.template
+  || 'Nu ținem produse <Brand> în stoc; le putem oferta la comandă, termen orientativ 2–6 săptămâni.';
+const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
+const LEAD_TIME_TO_ORDER = entityFacts.leadTimePhrases?.[1] || '2–6 săptămâni la comandă';
 
 export default function BrandPageClient({ brand, allCategories, brandContent }) {
   const [heroRef, heroVisible] = useIntersectionObserver();
@@ -50,6 +73,31 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
   const isInCart = (name) => {
     return cartItems.some(item => item.name === name);
   };
+
+  // B-LEDE - answer-first block, above every section (heading-phrasings.md §1.2).
+  // First sentence of `overview`, falling back to `infinitrade`, falling back
+  // to the plain brand description when there is no rich content at all.
+  const ledeSentence = brandContent
+    ? (firstSentence(brandContent.overview) || firstSentence(brandContent.infinitrade))
+    : `${brand.description}.`;
+  const hasFoundedFact = brandContent && (brandContent.founded || brandContent.headquarters);
+
+  // B-01 - table rows: keyProducts when the brand has them, else the active
+  // category's product types (heading-phrasings.md B-01 "if keyProducts is
+  // empty, render the table from category.productTypes").
+  const usesKeyProductsTable = Boolean(brandContent?.keyProducts?.length);
+  const tableRows = usesKeyProductsTable ? brandContent.keyProducts : productTypes;
+  const tableCount = tableRows.length;
+
+  // B-14 - F3-03: the single "Actualizat:" value, identical to the JSON-LD
+  // `dateModified` computed the same way in src/lib/schema/brand.js.
+  const updatedDate = getBrandUpdatedDate(brandContent);
+
+  // B-16 - other brands in the same active category, minus this one.
+  const relatedBrands = (allCategories
+    .find(c => c.slug === category.slug)
+    ?.brands
+    ?.filter(b => b.name !== brand.name)) || [];
 
   return (
     <>
@@ -83,9 +131,18 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
                 </div>
               )}
 
-              <p className={styles.heroDescription}>
-                {brand.description}. Oferim gama completa de produse {brand.name}, piese de schimb originale si suport tehnic specializat.
-              </p>
+              {/* B-LEDE: answer-first block, directly under the H1, above
+                  everything else on the page (heading-phrasings.md §1.1). */}
+              <div className={styles.ledeBlock}>
+                <p className={styles.ledeText}>{ledeSentence}</p>
+                {hasFoundedFact && (
+                  <p className={styles.ledeFacts}>
+                    {brandContent.founded && <>Fondată în {brandContent.founded}</>}
+                    {brandContent.founded && brandContent.headquarters && ' · '}
+                    {brandContent.headquarters && <>Sediu: {brandContent.headquarters}</>}
+                  </p>
+                )}
+              </div>
 
               <div className={styles.heroCtas}>
                 <button
@@ -133,7 +190,7 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
                 <Truck size={24} />
                 <div>
                   <h4>Livrare Rapida</h4>
-                  <p>24-72h din stoc</p>
+                  <p>{LEAD_TIME_FROM_STOCK}</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
@@ -154,13 +211,199 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
           </div>
         </section>
 
+        {/* B-01 - Ce livrăm din gama <Brand>? - visible <table>, all classes,
+            renders from keyProducts or, when empty, from productTypes. */}
+        {tableCount > 0 && (
+          <section className={styles.keyProductsSection}>
+            <div className={styles.container}>
+              <h2 className={styles.richSectionTitle}>Ce livrăm din gama {brand.name}?</h2>
+              <p className={styles.sectionLead}>
+                {usesKeyProductsTable
+                  ? <>Livrăm {tableCount} familii de produse {brand.name} din categoria {category.name.toLowerCase()}.</>
+                  : <>{brand.name} are {tableCount} tipuri de echipamente listate în categoria {category.name.toLowerCase()}.</>}
+              </p>
+              <div className={styles.dataTableWrap}>
+                <table className={styles.dataTable}>
+                  <thead>
+                    <tr>
+                      <th scope="col">Produs</th>
+                      <th scope="col">Descriere</th>
+                      {!usesKeyProductsTable && <th scope="col">Aplicații</th>}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {tableRows.map((row, i) => (
+                      <tr key={row.slug || row.name || i}>
+                        <td>{row.name}</td>
+                        <td>{row.description}</td>
+                        {!usesKeyProductsTable && (
+                          <td>{(row.applications || []).join(', ')}</td>
+                        )}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* B-02 - Ce avem pe stoc de la <Brand>? - never omitted: the honest
+            sourcing statement is a fact the manufacturer's own site does not
+            carry (decisions-coverage-aeo.md §A4.3). Real stock.tsv-backed
+            facts are F3-03/F4's job (ownFact field, not yet on this data
+            model); until then this renders the registry sourcing statement
+            verbatim, brand name interpolated. */}
+        <section className={styles.aboutSection}>
+          <div className={styles.container}>
+            <h2 className={styles.richSectionTitle}>Ce avem pe stoc de la {brand.name}?</h2>
+            <p className={styles.sectionLead}>
+              {brandContent?.ownFact || SOURCING_STATEMENT.replace(/<Brand>/g, brand.name)}
+            </p>
+          </div>
+        </section>
+
+        {/* B-03 - Cât durează livrarea la <Brand>? - both standing lead
+            times, never a brand-specific promise, never a number outside
+            entityFacts.leadTimePhrases. */}
+        <section className={styles.aboutSection}>
+          <div className={styles.container}>
+            <h2 className={styles.richSectionTitle}>Cât durează livrarea la {brand.name}?</h2>
+            <p className={styles.sectionLead}>
+              Pentru produsele {brand.name}, termenul orientativ este {LEAD_TIME_TO_ORDER} pentru
+              comenzi de fabrică, respectiv {LEAD_TIME_FROM_STOCK} pentru reperele aflate deja pe stoc.
+            </p>
+          </div>
+        </section>
+
+        {/* B-04 - Ce înlocuiește seriile <Brand> ieșite din producție?
+            Requires a series-sources.tsv row for this brand - not yet wired
+            into brandContent (F3-03/F4). Omitted, not written as "nu avem
+            informații" (heading-phrasings.md B-04). */}
+
+        {/* B-05 - Ce piese și consumabile <Brand> livrăm? - from the active
+            category's accessories list; falls back to nothing (omitted) when
+            a category carries none. */}
+        {category.accessories && category.accessories.length > 0 && (
+          <section className={styles.industriesSection}>
+            <div className={styles.container}>
+              <h2 className={styles.richSectionTitle}>Ce piese și consumabile {brand.name} livrăm?</h2>
+              <p className={styles.sectionLead}>
+                Pentru echipamentele {brand.name} din categoria {category.name.toLowerCase()} livrăm
+                {' '}{category.accessories.length} familii de piese și consumabile:
+              </p>
+              <div className={styles.industriesTags}>
+                {category.accessories.map((acc, i) => (
+                  <span key={i} className={styles.industryTag}>{acc}</span>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Rich Brand Content (when available) OR Generic About */}
         {brandContent ? (
           <>
-            {/* Brand Overview with Rich Content */}
+            {/* B-06 - Ce tipuri de echipamente are <Brand>? */}
+            {productTypes.length > 0 && (
+              <section className={styles.productsSection} ref={productsRef}>
+                <div className={styles.container}>
+                  <div className={styles.sectionHeader}>
+                    <h2>Ce tipuri de echipamente are {brand.name}?</h2>
+                    <p>
+                      Gama {brand.name} din categoria {category.name.toLowerCase()} cuprinde {productTypes.length}{' '}
+                      tipuri de echipamente. Selectează produsele de care ai nevoie și solicită oferta.
+                    </p>
+                  </div>
+                  <div className={styles.productsGrid}>
+                    {productTypes.map((type, index) => (
+                      <div
+                        key={type.slug}
+                        className={`${styles.productCard} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${productsVisible ? 'is-visible' : ''}`}
+                      >
+                        <div className={styles.productCardContent}>
+                          <h3>{type.name}</h3>
+                          <p>{type.description}</p>
+                          <div className={styles.applications}>
+                            {(type.applications || []).slice(0, 3).map(app => (
+                              <span key={app} className={styles.appTag}>{app}</span>
+                            ))}
+                          </div>
+                        </div>
+                        <div className={styles.productCardActions}>
+                          <button
+                            className={`${styles.addBtn} ${isInCart(`${type.name} ${brand.name}`) ? styles.inCart : ''} ${addedAnimation === `${type.name} ${brand.name}` ? styles.adding : ''}`}
+                            onClick={() => handleAddToCart({
+                              type: 'product',
+                              name: `${type.name} ${brand.name}`,
+                              category: category.name,
+                              url: `/${category.slug}#${type.slug}`
+                            })}
+                          >
+                            {isInCart(`${type.name} ${brand.name}`) ? (
+                              <Check size={18} />
+                            ) : (
+                              <Plus size={18} />
+                            )}
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
+
+            {/* B-07 - Unde se folosesc echipamentele <Brand>? */}
+            {brandContent.industries && brandContent.industries.length > 0 && (
+              <section className={styles.industriesSection}>
+                <div className={styles.container}>
+                  <h2 className={styles.richSectionTitle}>Unde se folosesc echipamentele {brand.name}?</h2>
+                  <p className={styles.sectionLead}>
+                    Echipamentele {brand.name} se folosesc în {brandContent.industries.length} industrii:
+                  </p>
+                  <div className={styles.industriesTags}>
+                    {brandContent.industries.map((industry, i) => (
+                      <span key={i} className={styles.industryTag}>{industry}</span>
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
+
+            {/* B-08 - De ce <Brand> și nu altă marcă? */}
+            {brandContent.whyChoose && brandContent.whyChoose.length > 0 && (
+              <section className={styles.whyChooseSection}>
+                <div className={styles.container}>
+                  <h2 className={styles.richSectionTitle}>De ce {brand.name} și nu altă marcă?</h2>
+                  <div className={styles.whyChooseGrid}>
+                    {brandContent.whyChoose.map((reason, i) => (
+                      <div key={i} className={styles.whyChooseCard}>
+                        <Check size={20} className={styles.whyChooseIcon} />
+                        <p>{reason}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
+
+            {/* B-09 - Ce nu putem furniza de la <Brand>? - requires
+                `limitation` (F3-03). Rendering nothing rather than inventing
+                a limitation, per heading-phrasings.md B-09. */}
+            {brandContent.limitation && (
+              <section className={styles.aboutSection}>
+                <div className={styles.container}>
+                  <h2 className={styles.richSectionTitle}>Ce nu putem furniza de la {brand.name}?</h2>
+                  <p className={styles.sectionLead}>{brandContent.limitation}</p>
+                </div>
+              </section>
+            )}
+
+            {/* B-10 - Cine e <Brand> și ce produce? (was "Despre {brand}") */}
             <section className={styles.aboutSection}>
               <div className={styles.container}>
-                <h2 className={styles.richSectionTitle}>Despre {brand.name}</h2>
+                <h2 className={styles.richSectionTitle}>Cine e {brand.name} și ce produce?</h2>
                 <div className={styles.brandOverview}>
                   <div className={styles.overviewText}>
                     {brandContent.overview.split('\n\n').map((paragraph, i) => (
@@ -197,60 +440,12 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
               </div>
             </section>
 
-            {/* Why Choose This Brand */}
-            {brandContent.whyChoose && brandContent.whyChoose.length > 0 && (
-              <section className={styles.whyChooseSection}>
-                <div className={styles.container}>
-                  <h2 className={styles.richSectionTitle}>De ce {brand.name}?</h2>
-                  <div className={styles.whyChooseGrid}>
-                    {brandContent.whyChoose.map((reason, i) => (
-                      <div key={i} className={styles.whyChooseCard}>
-                        <Check size={20} className={styles.whyChooseIcon} />
-                        <p>{reason}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </section>
-            )}
-
-            {/* Key Products */}
-            {brandContent.keyProducts && brandContent.keyProducts.length > 0 && (
-              <section className={styles.keyProductsSection}>
-                <div className={styles.container}>
-                  <h2 className={styles.richSectionTitle}>Produse Cheie {brand.name}</h2>
-                  <div className={styles.keyProductsGrid}>
-                    {brandContent.keyProducts.map((product, i) => (
-                      <div key={i} className={styles.keyProductCard}>
-                        <h3>{product.name}</h3>
-                        <p>{product.description}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </section>
-            )}
-
-            {/* Industries Served */}
-            {brandContent.industries && brandContent.industries.length > 0 && (
-              <section className={styles.industriesSection}>
-                <div className={styles.container}>
-                  <h2 className={styles.richSectionTitle}>Industrii Deservite</h2>
-                  <div className={styles.industriesTags}>
-                    {brandContent.industries.map((industry, i) => (
-                      <span key={i} className={styles.industryTag}>{industry}</span>
-                    ))}
-                  </div>
-                </div>
-              </section>
-            )}
-
-            {/* Infinitrade Partnership */}
+            {/* B-11 - Cum lucrăm cu gama <Brand>? (was "Infinitrade & {brand}") */}
             {brandContent.infinitrade && (
               <section className={styles.infinitradeSection}>
                 <div className={styles.container}>
                   <div className={styles.infinitradeBox}>
-                    <h2>Infinitrade & {brand.name}</h2>
+                    <h2>Cum lucrăm cu gama {brand.name}?</h2>
                     {brandContent.infinitrade.split('\n\n').map((paragraph, i) => (
                       <p key={i}>{paragraph}</p>
                     ))}
@@ -264,42 +459,93 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
             )}
           </>
         ) : (
-          /* Generic About Section (fallback for brands without rich content) */
-          <section className={styles.aboutSection}>
-            <div className={styles.container}>
-              <div className={styles.aboutGrid}>
-                <div className={styles.aboutContent}>
-                  <h2>Despre {brand.name}</h2>
-                  <p>
-                    <strong>{brand.name}</strong> este un producator de renume mondial,
-                    recunoscut pentru calitatea exceptionala si inovatia in domeniul {category.name.toLowerCase()}.
-                  </p>
-                  <p>
-                    Ca furnizor {brand.name} in Romania, Infinitrade va ofera acces la intreaga gama de produse,
-                    consultanta tehnica specializata si service post-vanzare de inalta calitate.
-                  </p>
-                </div>
-                <div className={styles.aboutStats}>
-                  <div className={styles.statCard}>
-                    <span className={styles.statValue}>{category.stats?.brands || '10+'}</span>
-                    <span className={styles.statLabel}>Branduri</span>
+          <>
+            {/* Generic About Section (fallback for brands without rich content) -
+                B-10, no `overview` so no invented prose beyond the existing
+                factual copy. */}
+            <section className={styles.aboutSection}>
+              <div className={styles.container}>
+                <div className={styles.aboutGrid}>
+                  <div className={styles.aboutContent}>
+                    <h2>Cine e {brand.name} și ce produce?</h2>
+                    <p>
+                      <strong>{brand.name}</strong> este un producator de renume mondial,
+                      recunoscut pentru calitatea exceptionala si inovatia in domeniul {category.name.toLowerCase()}.
+                    </p>
+                    <p>
+                      Ca furnizor {brand.name} in Romania, Infinitrade va ofera acces la intreaga gama de produse,
+                      consultanta tehnica specializata si service post-vanzare de inalta calitate.
+                    </p>
                   </div>
-                  <div className={styles.statCard}>
-                    <span className={styles.statValue}>{category.stats?.products || '500+'}</span>
-                    <span className={styles.statLabel}>Produse</span>
-                  </div>
-                  <div className={styles.statCard}>
-                    <span className={styles.statValue}>15+</span>
-                    <span className={styles.statLabel}>Ani Experienta</span>
-                  </div>
-                  <div className={styles.statCard}>
-                    <span className={styles.statValue}>24h</span>
-                    <span className={styles.statLabel}>Raspuns Rapid</span>
+                  <div className={styles.aboutStats}>
+                    <div className={styles.statCard}>
+                      <span className={styles.statValue}>{category.stats?.brands || '10+'}</span>
+                      <span className={styles.statLabel}>Branduri</span>
+                    </div>
+                    <div className={styles.statCard}>
+                      <span className={styles.statValue}>{category.stats?.products || '500+'}</span>
+                      <span className={styles.statLabel}>Produse</span>
+                    </div>
+                    <div className={styles.statCard}>
+                      <span className={styles.statValue}>15+</span>
+                      <span className={styles.statLabel}>Ani Experienta</span>
+                    </div>
+                    <div className={styles.statCard}>
+                      <span className={styles.statValue}>24h</span>
+                      <span className={styles.statLabel}>Raspuns Rapid</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
+
+            {/* B-06 - Ce tipuri de echipamente are <Brand>? (generic path) */}
+            {productTypes.length > 0 && (
+              <section className={styles.productsSection} ref={productsRef}>
+                <div className={styles.container}>
+                  <div className={styles.sectionHeader}>
+                    <h2>Ce tipuri de echipamente are {brand.name}?</h2>
+                    <p>Selecteaza produsele de care ai nevoie si solicita oferta</p>
+                  </div>
+                  <div className={styles.productsGrid}>
+                    {productTypes.map((type, index) => (
+                      <div
+                        key={type.slug}
+                        className={`${styles.productCard} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${productsVisible ? 'is-visible' : ''}`}
+                      >
+                        <div className={styles.productCardContent}>
+                          <h3>{type.name}</h3>
+                          <p>{type.description}</p>
+                          <div className={styles.applications}>
+                            {(type.applications || []).slice(0, 3).map(app => (
+                              <span key={app} className={styles.appTag}>{app}</span>
+                            ))}
+                          </div>
+                        </div>
+                        <div className={styles.productCardActions}>
+                          <button
+                            className={`${styles.addBtn} ${isInCart(`${type.name} ${brand.name}`) ? styles.inCart : ''} ${addedAnimation === `${type.name} ${brand.name}` ? styles.adding : ''}`}
+                            onClick={() => handleAddToCart({
+                              type: 'product',
+                              name: `${type.name} ${brand.name}`,
+                              category: category.name,
+                              url: `/${category.slug}#${type.slug}`
+                            })}
+                          >
+                            {isInCart(`${type.name} ${brand.name}`) ? (
+                              <Check size={18} />
+                            ) : (
+                              <Plus size={18} />
+                            )}
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
+          </>
         )}
 
         {/* Category Tabs (only for multi-category brands) */}
@@ -321,56 +567,13 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
           </section>
         )}
 
-        {/* Product Types */}
-        <section className={styles.productsSection} ref={productsRef}>
-          <div className={styles.container}>
-            <div className={styles.sectionHeader}>
-              <h2>Produse {brand.name} - {category.name}</h2>
-              <p>Selecteaza produsele de care ai nevoie si solicita oferta</p>
-            </div>
-            <div className={styles.productsGrid}>
-              {productTypes.map((type, index) => (
-                <div
-                  key={type.slug}
-                  className={`${styles.productCard} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${productsVisible ? 'is-visible' : ''}`}
-                >
-                  <div className={styles.productCardContent}>
-                    <h3>{type.name}</h3>
-                    <p>{type.description}</p>
-                    <div className={styles.applications}>
-                      {(type.applications || []).slice(0, 3).map(app => (
-                        <span key={app} className={styles.appTag}>{app}</span>
-                      ))}
-                    </div>
-                  </div>
-                  <div className={styles.productCardActions}>
-                    <button
-                      className={`${styles.addBtn} ${isInCart(`${type.name} ${brand.name}`) ? styles.inCart : ''} ${addedAnimation === `${type.name} ${brand.name}` ? styles.adding : ''}`}
-                      onClick={() => handleAddToCart({
-                        type: 'product',
-                        name: `${type.name} ${brand.name}`,
-                        category: category.name,
-                        url: `/${category.slug}#${type.slug}`
-                      })}
-                    >
-                      {isInCart(`${type.name} ${brand.name}`) ? (
-                        <Check size={18} />
-                      ) : (
-                        <Plus size={18} />
-                      )}
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Services */}
+        {/* B-12 - Ce servicii oferim pentru echipamentele <Brand>? (was
+            "Servicii pentru {brand}") */}
         <section className={styles.servicesSection}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
-              <h2>Servicii pentru {brand.name}</h2>
+              <h2>Ce servicii oferim pentru echipamentele {brand.name}?</h2>
+              <p>Vânzare, piese de schimb și suport tehnic pentru echipamentele {brand.name}.</p>
             </div>
             <div className={styles.servicesGrid}>
               <div className={styles.serviceCard}>
@@ -404,15 +607,76 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* B-13 - De unde sunt datele din pagină? - requires sources[]
+            (F3-03: sources: [{ title, url, publisher, accessed }], see the
+            data contract atop src/data/brandContent.js). Rendering nothing
+            when the array is empty/absent is deliberate: an empty sources
+            section is exactly the class-contract failure §A3 wants surfaced,
+            not something this item should paper over. A visible ordered
+            list, not cards - each item links the manufacturer/standards-body
+            page directly, `rel="nofollow noopener"`, with its accessed date
+            (heading-phrasings.md B-13). */}
+        {Array.isArray(brandContent?.sources) && brandContent.sources.length > 0 && (
+          <section className={styles.aboutSection}>
+            <div className={styles.container}>
+              <h2 className={styles.richSectionTitle}>De unde sunt datele din pagină?</h2>
+              <p className={styles.sectionLead}>
+                Pagina se bazează pe {brandContent.sources.length} surse verificate.
+              </p>
+              <ol className={styles.serviceList}>
+                {brandContent.sources.map((src, i) => (
+                  <li key={i}>
+                    <a href={src.url} rel="nofollow noopener" target="_blank">{src.title}</a>
+                    {src.publisher && <> — {src.publisher}</>}
+                    {src.accessed && <>, accesat {src.accessed}</>}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </section>
+        )}
+
+        {/* B-14 - Ce s-a schimbat pe pagina <Brand>? + "Actualizat: <dată>".
+            F3-03: `changelog` is `[{ date, note }]` (data contract atop
+            src/data/brandContent.js). `updatedDate` (computed above via
+            `getBrandUpdatedDate`) is the max of `lastModified.brands`,
+            `brandContent.lastVerified` and every `changelog[].date` - the
+            SAME value src/lib/schema/brand.js uses for JSON-LD
+            `dateModified` and the sitemap uses as `lastmod`
+            (decisions-coverage-aeo.md §C5). The heading only renders when a
+            changelog exists; the "Actualizat:" label always renders
+            (heading-phrasings.md B-14). */}
+        <section className={styles.updatedSection}>
+          <div className={styles.container}>
+            {Array.isArray(brandContent?.changelog) && brandContent.changelog.length > 0 && (
+              <h2 className={styles.richSectionTitle}>Ce s-a schimbat pe pagina {brand.name}?</h2>
+            )}
+            <p className={styles.updatedLine}>
+              <strong>Actualizat:</strong> {updatedDate}
+            </p>
+            {Array.isArray(brandContent?.changelog) && brandContent.changelog.length > 0 && (
+              <ul className={styles.serviceList}>
+                {brandContent.changelog.map((entry, i) => (
+                  <li key={i} className={styles.changelogNote}>
+                    {entry.date && <strong>{entry.date}: </strong>}
+                    {entry.note}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </section>
+
+        {/* B-15 - Cum cer o ofertă <Brand>? (was "Ai nevoie de produse
+            {brand}?") */}
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
               <div className={styles.ctaContent}>
-                <h2>Ai nevoie de produse {brand.name}?</h2>
+                <h2>Cum cer o ofertă {brand.name}?</h2>
                 <p>
-                  Adauga produsele dorite si trimite cererea.
-                  Primesti oferta personalizata in 24h.
+                  Trimite-ne plăcuța sau codul produsului, cantitatea și termenul dorit.
+                  Adaugă produsele la cerere și primești oferta personalizată în 24h.
                 </p>
               </div>
               <div className={styles.ctaButtons}>
@@ -425,18 +689,16 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
           </div>
         </section>
 
-        {/* Related Brands (from current active category) */}
+        {/* B-16 - Ce alte mărci livrăm din aceeași categorie? (was "Alte
+            Branduri in {category.name}") */}
         <section className={styles.relatedSection}>
           <div className={styles.container}>
-            <h2>Alte Branduri in {category.name}</h2>
+            <h2>Ce alte mărci livrăm din aceeași categorie?</h2>
+            <p className={styles.sectionLead}>
+              În categoria {category.name.toLowerCase()} mai livrăm încă {relatedBrands.length} branduri.
+            </p>
             <div className={styles.relatedGrid}>
-              {allCategories
-                .find(c => c.slug === category.slug)
-                ?.brands
-                ?.filter(b => {
-                  // Filter out current brand by comparing names
-                  return b.name !== brand.name;
-                })
+              {relatedBrands
                 .slice(0, 5)
                 .map(relatedBrand => {
                   const href = `/brand/${toSimpleSlug(relatedBrand.slug)}`;

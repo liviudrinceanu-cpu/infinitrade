@@ -875,3 +875,106 @@
     padding: 32px 24px;
   }
 }
+
+/* F3-02: answer-first lede block (B-LEDE), above every section */
+.ledeBlock {
+  max-width: 760px;
+  margin-top: 8px;
+}
+
+.ledeText {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.94);
+  margin: 0 0 8px;
+}
+
+.ledeFacts {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0 0 20px;
+}
+
+/* F3-02: visible spec/equivalence table under B-01 (Ce livrăm din gama <Brand>?) */
+.dataTableWrap {
+  overflow-x: auto;
+  margin-top: 24px;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+}
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.dataTable caption {
+  caption-side: top;
+  text-align: left;
+  padding: 12px 20px 0;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.dataTable thead th {
+  text-align: left;
+  padding: 14px 20px;
+  background: var(--gray-50);
+  color: var(--gray-900);
+  font-weight: 700;
+  border-bottom: 2px solid var(--gray-200);
+  white-space: nowrap;
+}
+
+.dataTable tbody td {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--gray-100);
+  color: var(--gray-700);
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.dataTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.dataTable tbody tr:hover {
+  background: var(--gray-50);
+}
+
+/* F3-02: intro sentence rendered above a data-driven section (answer-first
+   first sentence for each question-H2, per heading-phrasings.md). */
+.sectionLead {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--gray-600);
+  margin: 0 0 24px;
+  max-width: 780px;
+}
+
+/* F3-02: visible "Actualizat: <dată>" line, bound to src/data/lastModified.js
+   (the same value as JSON-LD dateModified and the sitemap lastmod). */
+.updatedSection {
+  padding: 32px 0;
+  background: white;
+  border-top: 1px solid var(--gray-200);
+}
+
+.updatedLine {
+  font-size: 14px;
+  color: var(--gray-500);
+  margin: 0;
+}
+
+.updatedLine strong {
+  color: var(--gray-700);
+}
+
+.changelogNote {
+  font-size: 14px;
+  color: var(--gray-600);
+  margin: 8px 0 0;
+  max-width: 700px;
+}

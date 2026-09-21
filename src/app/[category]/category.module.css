@@ -899,3 +899,80 @@
     padding: 0 20px 18px;
   }
 }
+
+/* F3-02: answer-first lede block (C-LEDE), above every section */
+.ledeBlock {
+  max-width: 760px;
+  margin-top: 8px;
+}
+
+.ledeText {
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.94);
+  margin: 0;
+}
+
+/* F3-02: intro sentence for a data-driven question-H2 section */
+.sectionLead {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--gray-600);
+  margin: 0 0 24px;
+  max-width: 780px;
+}
+
+/* F3-02: visible spec/criterion table (C-03) */
+.dataTableWrap {
+  overflow-x: auto;
+  margin-top: 24px;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+}
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.dataTable thead th {
+  text-align: left;
+  padding: 14px 20px;
+  background: var(--gray-50);
+  color: var(--gray-900);
+  font-weight: 700;
+  border-bottom: 2px solid var(--gray-200);
+  white-space: nowrap;
+}
+
+.dataTable tbody td {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--gray-100);
+  color: var(--gray-700);
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.dataTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* F3-02: visible "Actualizat: <dată>" line (C-10), bound to
+   src/data/lastModified.js - the same value as JSON-LD dateModified and the
+   sitemap lastmod. */
+.updatedSection {
+  padding: 32px 0;
+  background: white;
+  border-top: 1px solid var(--gray-200);
+}
+
+.updatedLine {
+  font-size: 14px;
+  color: var(--gray-500);
+  margin: 0;
+}
+
+.updatedLine strong {
+  color: var(--gray-700);
+}

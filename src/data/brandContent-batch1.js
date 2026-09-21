@@ -69,6 +69,30 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
     infinitrade: `La Infinitrade furnizăm gama completă Grundfos pentru România — de la pompele mici de circulație UPS până la sistemele complexe de pompare CR și SP pentru utilități publice. Avem stoc permanent în Timișoara pentru modelele standard (CR 3-8, UPS 25-40, TP 40-120), iar pentru sisteme mari aducem configurații la comandă în 2-3 săptămâni.
 
 Ce apreciază clienții la noi: nu vindem doar pompa, ci oferim consultanță tehnică completă. Îți calculăm exact ce model Grundfos ți se potrivește (debit, înălțime de pompare, rezistență chimică), îți facem sizing pentru sistemul întreg (rezervoare, vase de expansiune, automatizări), și te ajutăm cu punerea în funcțiune. Avem ingineri care au făcut training direct la Grundfos în Danemarca, deci nu improvizăm. Livrare în 24-72h în toată România (expres pentru urgențe), garanție completă de la producător, și suport tehnic post-vânzare. Dacă aveți nevoie de pompe Grundfos pentru un proiect mare (spital, mall, fabrică), hai să discutăm — vă facem ofertă personalizată cu cele mai bune prețuri din piață.`,
+
+    // F3-03 demonstration entry (backlog item F3-03). `ownFact`/`limitation`
+    // are deliberately NOT added here: the plan-v2 packet
+    // (out/plan-v2/packets/brand/grundfos.json) states evidenceClass
+    // "gsc-only" with ownFact "none available — the page must say plainly
+    // what we can and cannot source, and carry no Romanian-market claim" —
+    // there is no stock.tsv row or demand aggregate for this brand that
+    // would make either field a checkable statement, only 3 individual
+    // model-request rows (98595908 / NB 50-200/210 / SMART Digital DDA
+    // 7.5-16). Writing either field from that would be an invented claim
+    // this item's rules forbid; leaving them out is correct until F4/F6
+    // find a real, checkable fact to cite.
+    lastVerified: '2026-09-21',
+    changelog: [
+      { date: '2026-09-21', note: 'pagina restructurată cu întrebări și tabel de produse' },
+    ],
+    sources: [
+      {
+        title: 'About us | Grundfos',
+        url: 'https://www.grundfos.com/about-us',
+        publisher: 'Grundfos',
+        accessed: '2026-09-21',
+      },
+    ],
   },
 
   'ksb': {

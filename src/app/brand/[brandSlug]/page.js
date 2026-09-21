@@ -58,8 +58,8 @@ export async function generateMetadata({ params }) {
 // Builder lives in '@/lib/schema/brand' (pure function, unit-testable, and
 // what G15 scans) - see that file for why there is no Offer/AggregateOffer/
 // Product node here.
-function generateJsonLd(brand) {
-  return buildBrandJsonLd(brand, config);
+function generateJsonLd(brand, brandContent) {
+  return buildBrandJsonLd(brand, config, brandContent);
 }
 
 export default async function BrandPage({ params }) {
@@ -73,7 +73,7 @@ export default async function BrandPage({ params }) {
   // Get rich brand content if available
   const content = getBrandContent(brand.simpleSlug);
 
-  const jsonLd = generateJsonLd(brand);
+  const jsonLd = generateJsonLd(brand, content);
 
   return (
     <>

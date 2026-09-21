@@ -141,6 +141,9 @@ const ALLOWED_KEYS = new Set([
   'keyProducts', 'certifications', 'industries', 'infinitrade',
   // new, required by the coverage policy:
   'sources', 'evidenceClass', 'tier', 'ownFact', 'limitation', 'indexing', 'lastVerified',
+  // F3-03: dated change log, rendered under B-14 (see the data contract atop
+  // src/data/brandContent.js).
+  'changelog',
 ]);
 const CITED_FIELDS = ['founded', 'headquarters', 'employees', 'certifications'];
 

@@ -12,10 +12,24 @@
 // Every other node (BreadcrumbList, the Organization reference, Service
 // itself) and every `@id` value that survives is unchanged from the previous
 // inline implementation.
+//
+// F3-02: adds a `WebPage` node carrying `dateModified`, the SAME value as
+// `lastModified.categories` (src/data/lastModified.js) used by the sitemap's
+// `lastmod` for this same URL and by the visible "Actualizat: <dată>" line
+// rendered in CategoryClient.js.
+import { lastModified } from '@/data/lastModified';
+
 export function buildCategoryJsonLd(category, config) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': `${config.site.url}/${category.slug}#webpage`,
+        url: `${config.site.url}/${category.slug}`,
+        name: category.name,
+        dateModified: lastModified.categories,
+      },
       // Product type listing - no Offer/AggregateOffer/Product: see file header.
       {
         '@type': 'ItemList',

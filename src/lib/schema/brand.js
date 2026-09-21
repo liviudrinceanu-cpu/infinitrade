@@ -10,7 +10,21 @@
 //
 // Every other node (Organization, BreadcrumbList) and every `@id` value that
 // survives is unchanged from the previous inline implementation.
-export function buildBrandJsonLd(brand, config) {
+//
+// F3-02: adds a `WebPage` node carrying `dateModified`. Its value is
+// `lastModified.brands` (src/data/lastModified.js) - the SAME value the
+// sitemap uses as `lastmod` for this same URL (src/app/sitemap.js) and the
+// SAME value the visible "Actualizat: <dată>" line renders in
+// BrandPageClient.js (decisions-coverage-aeo.md §C5 / heading-phrasings.md
+// B-14). One source, three surfaces, never three literals.
+//
+// F3-03: when the brand carries a `changelog[]`/`lastVerified` (brandContent
+// data contract, see src/data/brandContent.js), `dateModified` is computed
+// via `getBrandUpdatedDate()` instead of reading `lastModified.brands`
+// directly, so it stays identical to the visible "Actualizat:" line.
+import { getBrandUpdatedDate } from '@/data/lastModified';
+
+export function buildBrandJsonLd(brand, config, brandContent) {
   const primaryCategory = brand.categories[0];
 
   const allProductItems = brand.categories.flatMap((cat) =>
@@ -44,6 +58,13 @@ export function buildBrandJsonLd(brand, config) {
           areaServed: 'RO',
           availableLanguage: ['Romanian', 'English'],
         },
+      },
+      {
+        '@type': 'WebPage',
+        '@id': `${config.site.url}/brand/${brand.simpleSlug}#webpage`,
+        url: `${config.site.url}/brand/${brand.simpleSlug}`,
+        name: brand.name,
+        dateModified: getBrandUpdatedDate(brandContent),
       },
       {
         '@type': 'BreadcrumbList',

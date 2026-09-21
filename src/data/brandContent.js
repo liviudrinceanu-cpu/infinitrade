@@ -14,6 +14,81 @@
  *
  * CRITICAL: All content is factual about our supply capabilities.
  * We do NOT claim official distributor status where not authorized.
+ *
+ * ---------------------------------------------------------------------------
+ * DATA CONTRACT (F3-03) — the fields below are what F4/F6 (content writers)
+ * add to a brand entry, and EXACTLY what src/app/brand/[brandSlug]/
+ * BrandPageClient.js renders. `ALLOWED_KEYS` in scripts/audit-brand-content.mjs
+ * already whitelists all of them (rule B1); this comment is the shape
+ * contract those writers follow so the audit and the live page agree.
+ *
+ * Every field below is OPTIONAL and renders ONLY when present — an absent
+ * field means the matching question-H2 section is omitted entirely, never
+ * rendered empty or with invented filler (heading-phrasings.md §1.1).
+ *
+ *   sources: [{ title, url, publisher, accessed }]
+ *     - One entry per third-party fact the page states (founded,
+ *       headquarters, employees, certifications, or anything in `ownFact`).
+ *     - `title`     : the source page's own title (string, required).
+ *     - `url`       : full https:// URL, the manufacturer's own page or a
+ *                     standards body — never a search result (required).
+ *     - `publisher` : the organisation the source belongs to, e.g.
+ *                     "Grundfos" (required).
+ *     - `accessed`  : ISO date 'YYYY-MM-DD' the writer actually fetched and
+ *                     confirmed the page — never invented, never today's
+ *                     date unless the fetch happened today (required).
+ *     - Renders under B-13 ("De unde sunt datele din pagină?") as a visible
+ *       ordered list (`<ol>`), each item linking `url` with
+ *       `rel="nofollow noopener"` and showing `accessed`. Coverage class
+ *       minimums (decisions-coverage-aeo.md §A3): 3 for `transactional`,
+ *       2 for every other class (`sourcesMin` in coverage-policy.json).
+ *
+ *   ownFact: string
+ *     - ONE sentence stating a real, checkable fact about what we can
+ *       source or hold for this brand (e.g. a stock.tsv-backed SKU/date, or
+ *       an anonymised demand aggregate genuinely present in the brand's
+ *       plan-v2 packet). NEVER a price, an invented quantity, or a
+ *       Romanian-market claim the packet does not support — when no such
+ *       fact exists, leave the field out entirely; the template falls back
+ *       to the registry sourcing statement instead of inventing one.
+ *     - Renders as the first sentence under B-02 ("Ce avem pe stoc de la
+ *       <Brand>?").
+ *
+ *   limitation: string
+ *     - ONE sentence stating plainly what we cannot source, confirm or
+ *       attest for this brand (a sub-range, a certification, a service) —
+ *       never invented; only written when a real fact backs it.
+ *     - Renders under B-09 ("Ce nu putem furniza de la <Brand>?"); the
+ *       section is omitted (not rendered empty) when this field is absent.
+ *
+ *   lastVerified: 'YYYY-MM-DD'
+ *     - The date this brand's data was last checked against its sources.
+ *       Overrides the group-wide `lastModified.brands` date (src/data/
+ *       lastModified.js) when more recent — see `getBrandUpdatedDate()` in
+ *       that file, used by both the visible "Actualizat:" line
+ *       (BrandPageClient.js, B-14) and the JSON-LD `dateModified`
+ *       (src/lib/schema/brand.js), so the two never disagree.
+ *
+ *   changelog: [{ date: 'YYYY-MM-DD', note: string }]
+ *     - What changed on this brand's page, most recent entries meaningful
+ *       to a returning reader/crawler (never a future date).
+ *     - Renders under B-14 ("Ce s-a schimbat pe pagina <Brand>?") as a
+ *       dated list; also feeds `getBrandUpdatedDate()` (its max `date`
+ *       competes with `lastVerified` and `lastModified.brands` for the
+ *       single "Actualizat:" value used everywhere on the page).
+ *
+ *   evidenceClass: 'transactional' | 'gsc-only' | 'zero-evidence' |
+ *                  'history-only' | 'unclassified'
+ *     - Copied from coverage-policy.json's per-brand row (plan-v2). Governs
+ *       which blocks/word-count band the brand's page must satisfy (G7/G10).
+ *       Not itself rendered — read by gates, kept here so a writer can see
+ *       which contract they are filling without re-opening coverage-policy.json.
+ *
+ *   tier: number
+ *     - Queue-order metadata only (decisions-coverage-aeo.md §A1: evidence
+ *       class governs the contract, tier only orders the backlog). Not
+ *       rendered.
+ * ---------------------------------------------------------------------------
  */
 
 import { brandContentBatch1 } from './brandContent-batch1';

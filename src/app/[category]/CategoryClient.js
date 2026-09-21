@@ -4,6 +4,9 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone, Send, Plus, ShoppingCart } from 'lucide-react';
 import { allCategoriesUnified as categories } from '@/data/allBrandsIndex';
+import { getCategoryFaq } from '@/data/categoryFaq';
+import { lastModified } from '@/data/lastModified';
+import entityFacts from '@/data/entityFacts.json';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './category.module.css';
@@ -24,6 +27,148 @@ function toSimpleSlug(slug) {
   }
   return slug;
 }
+
+// F3-02 - fixed per-category question headings, copied VERBATIM from
+// out/plan-v2/heading-phrasings.md §3.2 (F3-01's input contract). Not
+// derived at runtime, per that document's rule 3/4 ("F3-02 must not derive
+// it at runtime"). C-07, the two C-10 headings and C-11 are identical across
+// all 15 categories by design (all ≤8 words, G14-safe without an allow-list
+// entry - see heading-phrasings.md §4).
+const CATEGORY_HEADINGS = {
+  'pompe-industriale': {
+    c01: 'Ce mărci de pompe industriale livrăm?',
+    c02: 'Ce tipuri de pompe industriale livrăm?',
+    c03: 'Cum aleg debitul și înălțimea de pompare?',
+    c05: 'Ce piese de schimb la pompe ținem?',
+    c06: 'Cât durează livrarea la pompe industriale?',
+    c08: 'Ce servicii tehnice oferim la pompe?',
+  },
+  'robineti-industriali': {
+    c01: 'Ce mărci de robineți industriali livrăm?',
+    c02: 'Ce tipuri de robineți și supape livrăm?',
+    c03: 'Cum aleg DN, PN și materialul corpului?',
+    c05: 'Ce garnituri și kituri de revizie livrăm?',
+    c06: 'Cât durează livrarea la robineți industriali?',
+    c08: 'Ce servicii tehnice oferim la robineți?',
+  },
+  'motoare-electrice': {
+    c01: 'Ce mărci de motoare electrice livrăm?',
+    c02: 'Ce tipuri de motoare electrice livrăm?',
+    c03: 'Cum aleg puterea, turația și mărimea carcasei?',
+    c05: 'Ce piese de schimb la motoare livrăm?',
+    c06: 'Cât durează livrarea la motoare electrice?',
+    c08: 'Ce servicii tehnice oferim la motoare?',
+  },
+  'schimbatoare-caldura': {
+    c01: 'Ce mărci de schimbătoare de căldură livrăm?',
+    c02: 'Ce tipuri de schimbătoare de căldură livrăm?',
+    c03: 'Cum dimensionez un schimbător de căldură?',
+    c05: 'Ce plăci și garnituri de schimb livrăm?',
+    c06: 'Cât durează livrarea la schimbătoare de căldură?',
+    c08: 'Ce servicii tehnice oferim la schimbătoare?',
+  },
+  'suflante-ventilatoare': {
+    c01: 'Ce mărci de suflante și ventilatoare livrăm?',
+    c02: 'Ce tipuri de suflante și ventilatoare livrăm?',
+    c03: 'Cum aleg debitul de aer și presiunea?',
+    c05: 'Ce filtre și curele de schimb livrăm?',
+    c06: 'Cât durează livrarea la suflante industriale?',
+    c08: 'Ce servicii tehnice oferim la suflante?',
+  },
+  'automatizari-industriale': {
+    c01: 'Ce mărci de automatizări industriale livrăm?',
+    c02: 'Ce tipuri de echipamente de automatizare livrăm?',
+    c03: 'Cum aleg PLC-ul potrivit pentru aplicație?',
+    c05: 'Ce module și accesorii de automatizare livrăm?',
+    c06: 'Cât durează livrarea la automatizări industriale?',
+    c08: 'Ce servicii tehnice oferim la automatizări?',
+  },
+  'senzori-instrumentatie': {
+    c01: 'Ce mărci de senzori și traductoare livrăm?',
+    c02: 'Ce tipuri de senzori industriali livrăm?',
+    c03: 'Cum aleg domeniul de măsură și semnalul?',
+    c05: 'Ce cabluri și accesorii pentru senzori livrăm?',
+    c06: 'Cât durează livrarea la senzori industriali?',
+    c08: 'Ce servicii tehnice oferim la instrumentație?',
+  },
+  'componente-hidraulice-pneumatice': {
+    c01: 'Ce mărci de hidraulică și pneumatică livrăm?',
+    c02: 'Ce componente hidraulice și pneumatice livrăm?',
+    c03: 'Cum aleg presiunea de lucru și debitul?',
+    c05: 'Ce garnituri, furtunuri și racorduri livrăm?',
+    c06: 'Cât durează livrarea la componente hidraulice?',
+    c08: 'Ce servicii tehnice oferim la hidraulică?',
+  },
+  'echipamente-electrice': {
+    c01: 'Ce mărci de aparataj electric livrăm?',
+    c02: 'Ce tipuri de aparataj electric livrăm?',
+    c03: 'Cum aleg curentul nominal și capacitatea de rupere?',
+    c05: 'Ce siguranțe și accesorii de tablou livrăm?',
+    c06: 'Cât durează livrarea la aparataj electric?',
+    c08: 'Ce servicii tehnice oferim la tablouri?',
+  },
+  'componente-mecanice': {
+    c01: 'Ce mărci de transmisii mecanice livrăm?',
+    c02: 'Ce componente mecanice și transmisii livrăm?',
+    c03: 'Cum aleg raportul de transmisie și cuplul?',
+    c05: 'Ce rulmenți, curele și cuplaje ținem?',
+    c06: 'Cât durează livrarea la componente mecanice?',
+    c08: 'Ce servicii tehnice oferim la transmisii?',
+  },
+  'filtre-consumabile': {
+    c01: 'Ce mărci de filtre industriale livrăm?',
+    c02: 'Ce tipuri de filtre industriale livrăm?',
+    c03: 'Cum aleg finețea de filtrare în microni?',
+    c05: 'Ce elemente filtrante de schimb livrăm?',
+    c06: 'Cât durează livrarea la filtre industriale?',
+    c08: 'Ce servicii tehnice oferim la filtrare?',
+  },
+  'scule-instrumente': {
+    c01: 'Ce mărci de scule și aparate livrăm?',
+    c02: 'Ce tipuri de scule și instrumente livrăm?',
+    c03: 'Cum aleg clasa de precizie a instrumentului?',
+    c05: 'Ce accesorii și piese pentru scule livrăm?',
+    c06: 'Cât durează livrarea la scule industriale?',
+    c08: 'Ce servicii tehnice oferim la instrumente?',
+  },
+  'echipamente-termice': {
+    c01: 'Ce mărci de echipamente termice livrăm?',
+    c02: 'Ce tipuri de echipamente termice livrăm?',
+    c03: 'Cum aleg puterea termică necesară?',
+    c05: 'Ce piese de schimb la echipamente termice?',
+    c06: 'Cât durează livrarea la echipamente termice?',
+    c08: 'Ce servicii tehnice oferim la termice?',
+  },
+  'lubrifianti-chimice': {
+    c01: 'Ce mărci de lubrifianți industriali livrăm?',
+    c02: 'Ce tipuri de lubrifianți și chimice livrăm?',
+    c03: 'Cum aleg vâscozitatea ISO VG potrivită?',
+    c05: 'Ce ambalaje și cantități de lubrifianți livrăm?',
+    c06: 'Cât durează livrarea la lubrifianți industriali?',
+    c08: 'Ce servicii tehnice oferim la lubrifianți?',
+  },
+  'echipamente-auxiliare': {
+    c01: 'Ce mărci de echipamente auxiliare livrăm?',
+    c02: 'Ce echipamente auxiliare și de protecție livrăm?',
+    c03: 'Cum aleg clasa de protecție IP corectă?',
+    c05: 'Ce consumabile de protecția muncii livrăm?',
+    c06: 'Cât durează livrarea la echipamente auxiliare?',
+    c08: 'Ce servicii tehnice oferim la protecție?',
+  },
+};
+
+// Identical across all 15 categories (heading-phrasings.md §3.1).
+const C07_HEADING = 'Ce date ne trimiteți pentru ofertă?';
+const C09_HEADING = 'Ce ne întreabă cel mai des inginerii?';
+// C-10's "De unde sunt datele din pagină?" heading renders once sources[]
+// exists per category (F3-03) - not declared here to avoid an unused
+// constant; see the C-10 section below for the changelog/date half that
+// ships now.
+const C10_CHANGELOG_HEADING = 'Ce s-a schimbat pe această pagină?';
+const C11_HEADING = 'Ce alte categorii de echipamente livrăm?';
+
+const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
+const LEAD_TIME_TO_ORDER = entityFacts.leadTimePhrases?.[1] || '2–6 săptămâni la comandă';
 
 export default function CategoryClient({ category }) {
   const [heroRef, heroVisible] = useIntersectionObserver();
@@ -91,6 +236,25 @@ export default function CategoryClient({ category }) {
     }
   };
 
+  const headings = CATEGORY_HEADINGS[category.slug] || {};
+  const featuredBrands = (category.brands || []).filter((b) => b.featured);
+  const brandCount = (category.brands || []).length;
+  const productTypeCount = (category.productTypes || []).length;
+  const expertFaqs = getCategoryFaq(category.slug);
+  // C-03's answer-first sentence borrows the category's own first expert FAQ
+  // entry: it is already the real selection criterion for the category
+  // (categoryFaq.js), so this is the citable sentence heading-phrasings.md
+  // §3.1 asks for, not a manufactured one. The remaining entries render
+  // under C-09 below.
+  const selectionFaq = expertFaqs[0] || null;
+  const remainingFaqs = expertFaqs.slice(1);
+
+  // C-LEDE - answer-first block, above every section (heading-phrasings.md
+  // §3.1): what the category covers, how many brands and product types.
+  const ledeSentence = category.description
+    ? category.description.split(/\n\s*\n/)[0].match(/^[^.!?]*[.!?]/)?.[0]?.trim() || category.description
+    : `${category.name}: ${brandCount} branduri, ${productTypeCount} tipuri de produse.`;
+
   return (
     <>
       {/* Hero Section */}
@@ -102,16 +266,21 @@ export default function CategoryClient({ category }) {
           >
             <h1 className={styles.heroTitle}>{category.name}</h1>
             <p className={styles.heroTagline}>{category.tagline}</p>
-            <p className={styles.heroDescription}>{category.heroDescription}</p>
+
+            {/* C-LEDE: answer-first block, directly under the H1, above
+                every section. */}
+            <div className={styles.ledeBlock}>
+              <p className={styles.ledeText}>{ledeSentence}</p>
+            </div>
 
             <div className={styles.heroStats}>
               <div className={styles.heroStat}>
-                <span className={styles.heroStatValue}>{category.stats.brands}</span>
+                <span className={styles.heroStatValue}>{brandCount || category.stats.brands}</span>
                 <span className={styles.heroStatLabel}>Branduri</span>
               </div>
               <div className={styles.heroStat}>
-                <span className={styles.heroStatValue}>{category.stats.products}</span>
-                <span className={styles.heroStatLabel}>Produse</span>
+                <span className={styles.heroStatValue}>{productTypeCount || category.stats.products}</span>
+                <span className={styles.heroStatLabel}>Tipuri de produse</span>
               </div>
               <div className={styles.heroStat}>
                 <span className={styles.heroStatValue}>{category.stats.delivery}</span>
@@ -153,12 +322,18 @@ export default function CategoryClient({ category }) {
         </div>
       </section>
 
-      {/* Brands Section */}
+      {/* C-01 - Ce mărci de <categorie> livrăm? (was "Branduri Premium
+          {category.name}") */}
       <section id="branduri" className={styles.brandsSection} ref={brandsRef}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
-            <h2>Branduri Premium {category.name}</h2>
-            <p>Colaborăm cu cele mai prestigioase branduri mondiale pentru a-ți oferi echipamente de cea mai înaltă calitate.</p>
+            <h2>{headings.c01 || `Ce mărci de ${category.name.toLowerCase()} livrăm?`}</h2>
+            <p>
+              Livrăm {brandCount} branduri în categoria {category.name.toLowerCase()}
+              {featuredBrands.length > 0 && (
+                <> — cele mai cerute: {featuredBrands.slice(0, 5).map((b) => b.name).join(', ')}</>
+              )}.
+            </p>
           </div>
 
           <div className={styles.brandsGrid}>
@@ -200,12 +375,15 @@ export default function CategoryClient({ category }) {
         </div>
       </section>
 
-      {/* Product Types Section */}
+      {/* C-02 - Ce tipuri de <categorie> livrăm? (was "Tipuri de
+          {category.name}") */}
       <section className={styles.typesSection} ref={typesRef}>
         <div className={styles.container}>
           <div className={styles.sectionHeader}>
-            <h2>Tipuri de {category.name}</h2>
-            <p>Explorează gama completă de produse disponibile în această categorie.</p>
+            <h2>{headings.c02 || `Ce tipuri de ${category.name.toLowerCase()} livrăm?`}</h2>
+            <p>
+              Categoria {category.name.toLowerCase()} se împarte în {productTypeCount} tipuri de produse.
+            </p>
           </div>
 
           <div className={styles.typesGrid}>
@@ -247,33 +425,55 @@ export default function CategoryClient({ category }) {
         </div>
       </section>
 
+      {/* C-03 - the category's selection criterion, the citable sentence of
+          the page (heading-phrasings.md §3.1). Renders only when the
+          category has an expert FAQ entry to answer it from - never
+          invented. */}
+      {selectionFaq && (
+        <section className={styles.typesSection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <h2>{headings.c03 || selectionFaq.q}</h2>
+            </div>
+            <p className={styles.sectionLead}>{selectionFaq.a}</p>
+          </div>
+        </section>
+      )}
+
+      {/* C-04 - replacement / equivalence. Requires equivalence-seed.tsv rows
+          for this category, not yet wired into repo data (F3-03/F4). Omitted
+          rather than writing a placeholder, per heading-phrasings.md. */}
+
       {/* Services & Accessories */}
       <section className={styles.servicesSection}>
         <div className={styles.container}>
           <div className={styles.servicesGrid}>
-            {/* Accessories */}
-            <div className={styles.servicesCard}>
-              <div className={styles.servicesIcon}>
-                <Package size={32} />
+            {/* C-05 - Ce piese de schimb livrăm? (was "Piese de Schimb &
+                Accesorii") */}
+            {category.accessories && category.accessories.length > 0 && (
+              <div className={styles.servicesCard}>
+                <div className={styles.servicesIcon}>
+                  <Package size={32} />
+                </div>
+                <h3>{headings.c05 || 'Ce piese de schimb livrăm?'}</h3>
+                <p>Livrăm {category.accessories.length} familii de piese de schimb și consumabile originale pentru mentenanța echipamentelor.</p>
+                <ul className={styles.servicesList}>
+                  {category.accessories.map((acc) => (
+                    <li key={acc}>
+                      <Check size={16} />
+                      {acc}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <h3>Piese de Schimb & Accesorii</h3>
-              <p>Gamă completă de piese de schimb originale și accesorii pentru mentenanța echipamentelor.</p>
-              <ul className={styles.servicesList}>
-                {category.accessories.map((acc) => (
-                  <li key={acc}>
-                    <Check size={16} />
-                    {acc}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            )}
 
-            {/* Services */}
+            {/* C-08 - Ce servicii tehnice oferim? (was "Servicii Tehnice") */}
             <div className={styles.servicesCard}>
               <div className={styles.servicesIcon}>
                 <Wrench size={32} />
               </div>
-              <h3>Servicii Tehnice</h3>
+              <h3>{headings.c08 || 'Ce servicii tehnice oferim?'}</h3>
               <p>Suport tehnic complet de la selecție până la punerea în funcțiune și mentenanță.</p>
               <ul className={styles.servicesList}>
                 {category.services.map((service) => (
@@ -285,15 +485,19 @@ export default function CategoryClient({ category }) {
               </ul>
             </div>
 
-            {/* Delivery */}
+            {/* C-06 - Cât durează livrarea la <categorie>? (was "Livrare
+                Rapidă") */}
             <div className={styles.servicesCard}>
               <div className={styles.servicesIcon}>
                 <Truck size={32} />
               </div>
-              <h3>Livrare Rapidă</h3>
-              <p>Livrăm rapid în toată România. Transport aerian disponibil pentru situații urgente.</p>
+              <h3>{headings.c06 || `Cât durează livrarea la ${category.name.toLowerCase()}?`}</h3>
+              <p>
+                Termenul orientativ este {LEAD_TIME_TO_ORDER} pentru comenzi de fabrică, respectiv{' '}
+                {LEAD_TIME_FROM_STOCK} pentru reperele aflate deja pe stoc.
+              </p>
               <ul className={styles.servicesList}>
-                <li><Check size={16} />Livrare 24-72h pentru stoc disponibil</li>
+                <li><Check size={16} />Livrare {LEAD_TIME_FROM_STOCK} pentru stoc disponibil</li>
                 <li><Check size={16} />Transport express internațional</li>
                 <li><Check size={16} />Livrare în toată România</li>
                 <li><Check size={16} />Ambalare profesională</li>
@@ -303,16 +507,15 @@ export default function CategoryClient({ category }) {
         </div>
       </section>
 
-      {/* Contact Form Section */}
+      {/* Contact Form Section - C-07 heading, identical across categories */}
       <section id="contact-form" className={styles.contactSection}>
         <div className={styles.container}>
           <div className={styles.contactGrid}>
             <div className={styles.contactInfo}>
-              <h2>Solicitați Ofertă pentru {category.name}</h2>
+              <h2>{C07_HEADING}</h2>
               <p>
-                Completați formularul alăturat pentru a primi o ofertă personalizată
-                în cel mai scurt timp. Echipa noastră tehnică vă va contacta pentru
-                a identifica soluția optimă pentru cerințele dumneavoastră.
+                Trimiteți plăcuța sau codul produsului, cantitatea și termenul dorit prin formularul
+                alăturat, pentru a primi o ofertă personalizată în cel mai scurt timp.
               </p>
 
               <div className={styles.contactFeatures}>
@@ -438,10 +641,53 @@ export default function CategoryClient({ category }) {
         </div>
       </section>
 
-      {/* Other Categories */}
+      {/* C-09 - Ce ne întreabă cel mai des inginerii? - the remaining expert
+          FAQ entries (the first now answers C-03 above), still rendered as
+          <h3> questions, still the single FAQPage schema's visible copy
+          (src/app/[category]/page.js). */}
+      {remainingFaqs.length > 0 && (
+        <section aria-labelledby="faq-heading" className={styles.faqSection}>
+          <div className={styles.container}>
+            <div className={styles.sectionHeader}>
+              <h2 id="faq-heading">{C09_HEADING}</h2>
+              <p>Răspunsuri din tipare reale de cerere de ofertă pentru {category.name.toLowerCase()}.</p>
+            </div>
+            <div className={styles.faqList}>
+              {remainingFaqs.map((item, index) => (
+                <details key={index} className={styles.faqItem}>
+                  <summary className={styles.faqQuestion}>{item.q}</summary>
+                  <div className={styles.faqAnswer}>
+                    <p>{item.a}</p>
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* C-10 - De unde sunt datele din pagină? / Ce s-a schimbat pe această
+          pagină? + visible "Actualizat: <dată>", bound to
+          src/data/lastModified.js - the same value the sitemap uses as
+          `lastmod` and JSON-LD uses as `dateModified`
+          (src/lib/schema/category.js). Sources[] itself is F3-03's job. */}
+      <section className={styles.updatedSection}>
+        <div className={styles.container}>
+          <h2>{C10_CHANGELOG_HEADING}</h2>
+          <p className={styles.updatedLine}>
+            <strong>Actualizat:</strong> {lastModified.categories}
+          </p>
+        </div>
+      </section>
+
+      {/* C-11 - Ce alte categorii de echipamente livrăm? (was "Explorează și
+          alte categorii") */}
       <section className={styles.otherCategories}>
         <div className={styles.container}>
-          <h2>Explorează și alte categorii</h2>
+          <h2>{C11_HEADING}</h2>
+          <p className={styles.sectionLead}>
+            Livrăm echipamente în {categories.length} categorii; iată celelalte {categories.length - 1}.
+          </p>
           <div className={styles.otherCategoriesGrid}>
             {categories
               .filter(c => c.id !== category.id)
@@ -452,9 +698,6 @@ export default function CategoryClient({ category }) {
                   <ArrowRight size={18} />
                 </Link>
               ))}
-          </div>
-          <div style={{ textAlign: 'center', marginTop: '2rem', fontSize: '0.875rem', color: '#6b7280' }}>
-            Ultima actualizare: Februarie 2026
           </div>
         </div>
       </section>
