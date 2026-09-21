@@ -61,7 +61,7 @@
   "boilerplate": [
     {
       "id": "sourcing-statement",
-      "template": "Nu ținem produse <Brand> în stoc; le putem oferta la comandă, termen orientativ 2–6 săptămâni.",
+      "template": "Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 2–6 săptămâni.",
       "placeholders": [
         "Brand"
       ],
@@ -104,7 +104,7 @@
   "_boilerplateReadme": [
     "G14 (scripts/gates/g14-duplication.mjs) reads this list as the ONLY allow-listed",
     "duplicate-sentence exceptions. <Placeholder> tokens are wildcards: a filled sentence",
-    "(e.g. 'Nu ținem produse Grundfos în stoc; ...') still matches its template and is",
+    "(e.g. 'Nu avem stoc permanent documentat pentru Grundfos; ...') still matches its template and is",
     "exempted, whether or not the filled value happens to repeat across pages.",
     "This list lives here, not in a writer-editable content file, so a content-writing",
     "agent cannot grow the allow-list to launder a new duplicated sentence past G14 —",

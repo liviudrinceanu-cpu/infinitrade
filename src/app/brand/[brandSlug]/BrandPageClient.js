@@ -47,7 +47,7 @@ function firstSentence(text) {
 }
 
 const SOURCING_STATEMENT = entityFacts.boilerplate.find((b) => b.id === 'sourcing-statement')?.template
-  || 'Nu ținem produse <Brand> în stoc; le putem oferta la comandă, termen orientativ 2–6 săptămâni.';
+  || 'Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 2–6 săptămâni.';
 const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
 const LEAD_TIME_TO_ORDER = entityFacts.leadTimePhrases?.[1] || '2–6 săptămâni la comandă';
 
