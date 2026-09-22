@@ -1,10 +1,9 @@
 import { notFound } from 'next/navigation';
-import { allCategoriesUnified, getBrandByAnySlug, getAllBrandSlugs } from '@/data/allBrandsIndex';
+import { allCategoriesUnified, getBrandByAnySlug, getAllBrandSlugs, isBrandNoindex } from '@/data/allBrandsIndex';
 import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
 import { getBrandContent } from '@/data/brandContent';
 import { buildBrandJsonLd } from '@/lib/schema/brand';
-import { NOINDEX_BRANDS } from '@/data/noindexBrands';
 import BrandPageClient from './BrandPageClient';
 
 // Generate static params for all brand pages (simple slugs)
@@ -48,7 +47,7 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: `${config.site.url}/brand/${brand.simpleSlug}`,
     },
-    robots: NOINDEX_BRANDS.includes(brand.simpleSlug)
+    robots: isBrandNoindex(brand.simpleSlug)
       ? { index: false, follow: true, googleBot: { index: false, follow: true } }
       : { index: true, follow: true, googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 } },
   };

@@ -9,9 +9,16 @@ import { NOINDEX_BRANDS } from './noindexBrands';
 // no circular-import cycle exists. If that ever changes, resolve it lazily with
 // a dynamic `await import('./brandContent')` inside getBrandStats() instead.
 import { getBrandsWithContent } from './brandContent';
+import { BRANDS_EXTENSION, EXTENSION_BY_SLUG } from './brandsExtension';
 
 // All 15 categories unified
-export const allCategoriesUnified = [...categories, ...equipmentCategories];
+// Branduri-500 (D-2026-09-21): the generated extension (src/data/brandsExtension.js)
+// is appended per category here, so every consumer of allCategoriesUnified
+// (brand index, category pages, header, sitemap) sees one merged list.
+export const allCategoriesUnified = [...categories, ...equipmentCategories].map((category) => ({
+  ...category,
+  brands: [...category.brands, ...(BRANDS_EXTENSION[category.slug] || [])],
+}));
 
 // Strip category prefix from old-style brand slugs to get simple slug
 // e.g. 'pompe-industriale-grundfos' -> 'grundfos'
@@ -173,8 +180,24 @@ export function getCategoryBySlug(categorySlug) {
 //     allBrandsUnified slugs also have a rich brandContent entry
 export function getBrandStats() {
   const total = allBrandsUnified.length;
-  const indexed = total - NOINDEX_BRANDS.length;
   const contentSlugs = new Set(getBrandsWithContent());
   const withContent = allBrandsUnified.filter((b) => contentSlugs.has(b.simpleSlug)).length;
+  const indexed = allBrandsUnified.filter((b) => !isBrandNoindex(b.simpleSlug, contentSlugs)).length;
   return { total, indexed, withContent };
+}
+
+// Single indexing rule for brand pages (used by page.js metadata, sitemap.js
+// and getBrandStats so the three never disagree):
+//   - slugs in NOINDEX_BRANDS (zero-evidence, generated list) -> noindex
+//   - Branduri-500 extension brands WITHOUT a rich brandContent entry -> noindex
+//     (a thin auto page is never offered to Google; it flips to index the
+//     moment its content batch lands - no code change needed)
+//   - everything else -> index
+export function isBrandNoindex(simpleSlug, contentSlugs = null) {
+  if (NOINDEX_BRANDS.includes(simpleSlug)) return true;
+  if (Object.prototype.hasOwnProperty.call(EXTENSION_BY_SLUG, simpleSlug)) {
+    const set = contentSlugs || new Set(getBrandsWithContent());
+    return !set.has(simpleSlug);
+  }
+  return false;
 }

@@ -7,7 +7,7 @@ import Image from 'next/image';
 // Removed framer-motion - using CSS transitions for better performance (~30KB savings)
 import { Menu, X, ChevronDown, Phone, Mail, Clock, Search, ShoppingCart, Plus, Trash2 } from 'lucide-react';
 import { navigation, secondaryNavigation } from '@/data/products';
-import { allCategoriesUnified as categories, allBrandsUnified } from '@/data/allBrandsIndex';
+import { allCategoriesUnified as categories, allBrandsUnified, getBrandByAnySlug } from '@/data/allBrandsIndex';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { debounce } from '@/lib/utils';
 import styles from './Header.module.css';
@@ -276,7 +276,7 @@ export default function Header() {
                                   {category.brands.filter(b => b.featured).slice(0, 4).map(brand => (
                                     <Link
                                       key={brand.slug}
-                                      href={`/brand/${brand.slug}`}
+                                      href={`/brand/${getBrandByAnySlug(brand.slug)?.simpleSlug || brand.slug}`}
                                       className={styles.brandTag}
                                     >
                                       {brand.name}

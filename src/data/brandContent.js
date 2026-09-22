@@ -1,8 +1,9 @@
 /**
  * Brand Content - Rich SEO content for brand landing pages
  *
- * This file merges all 38 batches of brand content into a single export
- * (batch1..18 hold written content; batch19..38 are reserved shards, each
+ * This file merges all 46 batches of brand content into a single export
+ * (batch1..18 hold written content; batch39..46 hold the Branduri-500 wave-1
+ * content (Sept 2026); batch19..38 are reserved shards, each
  * either empty — marked with `__EMPTY_SHARD__` for scripts/gates/g04-import.mjs —
  * or filled in by a later content-writing wave via scripts/assign-batch.mjs).
  * Each batch contains detailed information for specific brands including:
@@ -129,6 +130,14 @@ import { brandContentBatch35 } from './brandContent-batch35';
 import { brandContentBatch36 } from './brandContent-batch36';
 import { brandContentBatch37 } from './brandContent-batch37';
 import { brandContentBatch38 } from './brandContent-batch38';
+import { brandContentBatch39 } from './brandContent-batch39';
+import { brandContentBatch40 } from './brandContent-batch40';
+import { brandContentBatch41 } from './brandContent-batch41';
+import { brandContentBatch42 } from './brandContent-batch42';
+import { brandContentBatch43 } from './brandContent-batch43';
+import { brandContentBatch44 } from './brandContent-batch44';
+import { brandContentBatch45 } from './brandContent-batch45';
+import { brandContentBatch46 } from './brandContent-batch46';
 
 // Merge all batches into single object
 export const brandContent = {
@@ -170,6 +179,14 @@ export const brandContent = {
   ...brandContentBatch36,
   ...brandContentBatch37,
   ...brandContentBatch38,
+  ...brandContentBatch39,
+  ...brandContentBatch40,
+  ...brandContentBatch41,
+  ...brandContentBatch42,
+  ...brandContentBatch43,
+  ...brandContentBatch44,
+  ...brandContentBatch45,
+  ...brandContentBatch46,
 };
 
 /**
