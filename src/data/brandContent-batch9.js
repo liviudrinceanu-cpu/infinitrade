@@ -53,7 +53,17 @@ La fiecare proiect căutăm eficiența maximă - benzi care rulează 24/7 fără
       'Recyclare - sortare deșeuri, transport PET, hârtie, metale',
       'E-commerce - benzi pentru centre fulfillment, pick & pack, shipping'
     ],
-    infinitrade: `La InfiniTrade din Timișoara lucrăm cu Habasit pentru clienții care au nevoie de benzi transportoare profesionale - fie că e vorba de o linie de ambalare nouă, fie de retrofit pe echipamente existente. Furnizăm benzi modulare, curele plate, componente de acționare și ghidare, toate cu documentație completă și suport tehnic pentru selecție și dimensionare. Livrăm rapid în toată România, de obicei în 24-72 de ore pentru dimensiunile standard, iar pentru proiectele complexe colaborăm direct cu inginerii Habasit pentru soluții custom adaptate procesului tău specific.`
+    infinitrade: `Pentru gama Habasit de benzi transportoare și curele de proces, la InfiniTrade lucrăm fără date proprii de stoc pentru fiecare cod - aducem produsele la comandă prin canale de aprovizionare din UE. Componentele uzuale din gamă pot ajunge la tine în 24–72 h din stoc, în timp ce benzile speciale sau dimensiunile custom ajung de regulă în 2–6 săptămâni la comandă. Ca să pregătim o ofertă corectă, trimite-ne lățimea și lungimea benzii, tipul de suprafață și aplicația exactă - linie de îmbuteliere, sortare sau transport paleți. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de disponibilitatea reală verificată la momentul comenzii. Pentru configurațiile complexe recomandăm o discuție tehnică înainte de a confirma comanda.`,
+    limitation: `Nu putem confirma stocul exact pentru fiecare cod de bandă sau curea Habasit fără o verificare punctuală și nu oferim service în garanția producătorului.`,
+    sources: [
+      { title: 'Habasit – Our history', url: 'https://www.habasit.com/en/About-us/Our-history', publisher: 'Habasit AG', accessed: '2026-09-22' },
+      { title: 'Habasit - Global leader in conveyor and power transmission belts', url: 'https://www.habasit.com', publisher: 'Habasit AG', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate (habasit.com), declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate' }
+    ]
   },
 
   'hager': {
@@ -110,7 +120,17 @@ Filosofia noastră e simplitate și fiabilitate. Întreruptoarele automate au in
       'Transport public - protecții pentru stații metrou, tramvai, sisteme semnalizare',
       'Spații publice - parcări, zone pietonale, iluminat stradal'
     ],
-    infinitrade: `La InfiniTrade din Timișoara furnizăm întreaga gamă Hager - de la întreruptoare automate și diferențiale pentru instalații simple, până la tablouri de distribuție complete și sisteme de monitorizare energetică pentru proiecte comerciale. Livrăm rapid în toată România (24-72h pentru produsele standard) și oferim suport tehnic pentru selecția protecțiilor - calculăm curbe de declanșare, verificăm selectivitate, dimensionăm cablaje conform normelor în vigoare.`
+    infinitrade: `Gama Hager de aparataj electric și tablouri de distribuție ajunge la clienții InfiniTrade prin canale de aprovizionare din UE; fără date proprii de stoc pentru fiecare referință, verificăm disponibilitatea la fiecare cerere primită. Componentele uzuale (întreruptoare automate, diferențiale) pot fi livrate în 24–72 h din stoc, iar tablourile configurate sau seriile speciale ajung de obicei în 2–6 săptămâni la comandă. Pentru o ofertă corectă, spune-ne curba de declanșare, curentul nominal, numărul de module necesar și tensiunea de lucru a instalației. Nu lucrăm cu prețuri publicate și nu confirmăm un termen fix înainte de a verifica stocul exact al furnizorului pentru codul cerut.`,
+    limitation: `Nu oferim configurare software pentru sistemele smart building Hager și nu confirmăm stocul pentru toate variantele de tablouri fără verificare punctuală.`,
+    sources: [
+      { title: 'Hager Group (istoric companie)', url: 'https://en.wikipedia.org/wiki/Hager_Group', publisher: 'Wikipedia', accessed: '2026-09-22' },
+      { title: 'Hager România', url: 'https://hager.com/ro', publisher: 'Hager Group', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate' }
+    ]
   },
 
   'harting': {
@@ -167,7 +187,17 @@ Pentru Industrie 4.0 am dezvoltat ecosistemul MICA - Mini Computer pentru aplica
       'Apărare - vehicule militare, sisteme comunicații, echipamente câmp',
       'Logistică - sortare colete, tracking RFID, sisteme warehouse management'
     ],
-    infinitrade: `La InfiniTrade din Timișoara lucrăm cu Harting pentru proiectele industriale care necesită conectare robustă și fiabilă - fie că e vorba de upgrade la o linie de producție, fie de infrastructură de rețea pentru o fabrică nouă. Furnizăm conectori Han în toate dimensiunile, switch-uri Ethernet industriale, cabluri prelungite la dimensiune, sisteme RFID complete. Livrăm rapid în România (24-72h pentru produsele standard) și oferim suport tehnic pentru configurare - te ajutăm să alegi inserții corecte, să dimensionezi cablaje, să configurezi redundanță rețea.`
+    infinitrade: `Nu avem informații proprii despre stocul exact al fiecărui conector Harting, așa că ne bazăm pe surse publice ale producătorului și pe verificarea directă la fiecare cerere primită. Aducem conectorii Han, switch-urile Ethernet industriale și componentele RFID prin canale de aprovizionare din UE. Variantele standard pot fi disponibile în 24–72 h din stoc, iar configurațiile custom (inserții speciale, protecție IP69K) ajung de regulă în 2–6 săptămâni la comandă. Trimite-ne codul complet al conectorului sau, dacă nu îl ai, numărul de pini, tipul de inserție și gradul de protecție necesar, ca să evităm confuziile de compatibilitate. Nu confirmăm prețuri fără o cerere punctuală și nu garantăm termenul pentru referințele rar solicitate.`,
+    limitation: `Nu confirmăm disponibilitatea pentru toate combinațiile de inserții Han fără verificare punctuală și nu oferim service în garanția producătorului pentru echipamentele Harting.`,
+    sources: [
+      { title: 'HARTING Technology Group | HARTING Technology Group', url: 'https://www.harting.com/en-gb/company', publisher: 'HARTING Technology Group', accessed: '2026-09-22' },
+      { title: 'HARTING Technology Group - homepage', url: 'https://www.harting.com/en-gb', publisher: 'HARTING Technology Group', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate (harting.com, headquarters confirmat Espelkamp), declarație de aprovizionare onestă; founded neconfirmat independent pe site-ul oficial, lăsat neschimbat' }
+    ]
   },
 
   'helukabel': {
@@ -175,7 +205,7 @@ Pentru Industrie 4.0 am dezvoltat ecosistemul MICA - Mini Computer pentru aplica
     founded: 1978,
     headquarters: 'Hemmingen, Germania',
     employees: '1800+',
-    overview: `Helukabel producem și distribuim cabluri și conductoare industriale pentru toate aplicațiile imaginabile - de la cabluri de comandă flexibile pentru automatizare până la cabluri armate pentru instalații permanente, de la cabluri de date Ethernet industrial până la cabluri rezistente la temperaturi extreme pentru furnale și foundries. Peste 40.000 de referințe în stoc permanent.
+    overview: `Helukabel producem și distribuim cabluri și conductoare industriale pentru toate aplicațiile imaginabile - de la cabluri de comandă flexibile pentru automatizare până la cabluri armate pentru instalații permanente, de la cabluri de date Ethernet industrial până la cabluri rezistente la temperaturi extreme pentru furnale și foundries. O gamă foarte largă de referințe în portofoliul de cabluri industriale.
 
 Expertiza noastră e în aplicații speciale. Ai nevoie cablu care rezistă la -60°C în Arctic? Avem. Cablu care suportă 180°C continuu lângă cuptor? Avem. Cablu pentru lanț portcablu cu 5 milioane cicluri flexiune? Avem. Cablu submersibil IP68 permanent? Avem. Pentru fiecare condiție extremă am dezvoltat o soluție testată riguros. Toate cablurile trec teste de flexiune (mașini dedicate, milioane cicluri), teste termice (camere climatice -60/+200°C), teste de rezistență chimică (imersie uleiuri, solventi, acizi).
 
@@ -224,7 +254,16 @@ Investim masiv în cercetare - laborator propriu de testare cu echipamente de ul
       'Water treatment - stații epurare, pompare, sisteme de filtrare',
       'Mining - echipamente extractive, transportoare, sisteme ventilație'
     ],
-    infinitrade: `La InfiniTrade din Timișoara distribuim cablurile Helukabel pentru proiectele industriale din România - de la cabluri simple de comandă până la soluții complexe pentru lanțuri portcablu sau medii extreme. Tăiem la metru lungimea exactă de care ai nevoie, oferim suport tehnic pentru selecție (secțiune conductori, tip izolație, ecranare) și livrăm rapid în 24-72 de ore. Pentru proiecte mari colaborăm cu inginerii Helukabel pentru configurații custom și certificări speciale.`
+    infinitrade: `Cablurile Helukabel ajung la clienții InfiniTrade prin canale de aprovizionare din UE, tăiate la metrul solicitat - fără date proprii de stoc pentru fiecare secțiune sau tip de manta, verificăm disponibilitatea reală înainte de a promite un termen. Pentru cablurile din gama standard (comandă, semnal) termenul uzual e 24–72 h din stoc, iar pentru cablurile speciale (lanț portcablu, temperaturi extreme) calculează 2–6 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne tipul de cablu, secțiunea conductorilor, numărul de fire și lungimea necesară. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de cantitate și disponibilitatea reală la momentul comenzii.`,
+    limitation: `Nu putem confirma stocul exact pentru fiecare secțiune și tip de manta din portofoliul Helukabel fără o verificare punctuală la comandă.`,
+    sources: [
+      { title: 'Helukabel (istoric companie)', url: 'https://de.wikipedia.org/wiki/Helukabel', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: sursă adăugată (site oficial helukabel.com inaccesibil la verificare, folosit Wikipedia pentru founded/headquarters - valori confirmate neschimbate), declarație de aprovizionare onestă' }
+    ]
   },
 
   'hengst': {
@@ -281,7 +320,17 @@ Investim masiv în R&D - laborator de testare cu benzi de simulare condiții rea
       'Forestry - harvester-e, forwardere, măcinătoare, transportoare',
       'Material handling - stivuitoare, reach stackers, telescopice'
     ],
-    infinitrade: `La InfiniTrade din Timișoara furnizăm filtre Hengst pentru echipamentele industriale și mobile din România - de la filtre de ulei pentru generatoare diesel până la filtre hidraulice pentru prese și utilaje. Oferim suport tehnic pentru identificarea filtrului corect (cross-reference după cod OEM) și livrăm rapid în 24-72 de ore. Pentru flotele mari oferim programe de mentenanță preventivă cu stocuri dedicate și planning de schimb optimizat.`
+    infinitrade: `Filtrele Hengst (ulei, hidraulice, separatoare apă-combustibil) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru codul exact cerut - fără date proprii de stoc pentru fiecare cod OEM. Informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o verificăm punctual pentru fiecare cerere. Codurile mai căutate pot ajunge în 24–72 h din stoc, dar pentru filtrele rare sau seriile speciale termenul e de regulă 2–6 săptămâni la comandă. Pentru identificarea corectă, trimite-ne codul echipamentului - motor, generator sau pompă - sau codul OEM al filtrului vechi, plus cantitatea necesară. Nu confirmăm compatibilitatea sau termenul fără să vedem specificațiile complete ale aplicației tale.`,
+    limitation: `Nu confirmăm compatibilitatea unui filtru Hengst cu un anumit echipament fără codul OEM exact și nu oferim service în garanția producătorului.`,
+    sources: [
+      { title: 'About us | Hengst Filtration', url: 'https://www.hengst.com/en/company/', publisher: 'Hengst SE', accessed: '2026-09-22' },
+      { title: 'Home | Hengst Filtration', url: 'https://www.hengst.com', publisher: 'Hengst SE', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'zero-evidence',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate (hengst.com), declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate' }
+    ]
   },
 
   'hilti': {
@@ -338,13 +387,23 @@ Investim enorm în inovație. Centrul nostru de cercetare din Liechtenstein test
       'Electricieni - instalații electrice rezidențiale/industriale',
       'Renovări - retrofit clădiri istorice, modernizări'
     ],
-    infinitrade: `La InfiniTrade din Timișoara colaborăm cu Hilti pentru clienții din construcții și industrie care au nevoie de scule profesionale și sisteme de fixare certificate. Oferim consultanță pentru selectarea soluției optime (ancore chimice vs mecanice, tipuri de scule pentru aplicația specifică) și livrăm rapid în toată România. Pentru proiecte mari oferim demonstrații pe șantier și programe Fleet Management adaptate nevoilor tale.`
+    infinitrade: `Sculele și sistemele de ancoraj Hilti ajung la InfiniTrade prin canale de aprovizionare din UE - fără un stoc propriu care să acopere toată gama, verificăm disponibilitatea înainte de fiecare confirmare. Pentru specificațiile tehnice ne bazăm pe informațiile publice disponibile ale producătorului. Accesoriile și consumabilele uzuale (burghie, cartușe de rășină) pot fi livrate în 24–72 h din stoc, iar sculele sau kiturile mai specializate ajung de obicei în 2–6 săptămâni la comandă. Pentru o ofertă corectă, spune-ne modelul exact, tensiunea bateriei dacă e cazul, și aplicația - tipul de material și diametrul de găurire. Nu emitem prețuri fără o cerere concretă și nu promitem termene fixe pentru modelele rar cerute.`,
+    limitation: `Nu oferim service în garanția producătorului pentru sculele Hilti și nu confirmăm stocul exact al fiecărui model fără verificare punctuală.`,
+    sources: [
+      { title: 'Hilti (istoric companie)', url: 'https://en.wikipedia.org/wiki/Hilti', publisher: 'Wikipedia', accessed: '2026-09-22' },
+      { title: 'Power Tools, Fasteners & Software for Construction - Hilti USA', url: 'https://www.hilti.com', publisher: 'Hilti Corporation', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate (Wikipedia + hilti.com)' }
+    ]
   },
 
   'honeywell-analytics': {
     name: 'Honeywell Analytics',
-    founded: 1970,
-    headquarters: 'Lincolnshire, Illinois, SUA',
+    founded: 1885,
+    headquarters: 'Charlotte, North Carolina, SUA',
     employees: '2500+ (divizia Analytics)',
     overview: `Honeywell Analytics dezvoltăm sisteme de detectare a gazelor pentru protecția vieții și mediului - de la detectoare fixe monocanal până la sisteme centralizate cu sute de puncte de măsură, de la detectoare portabile personale până la analizoare pentru medii explozive. Salvăm vieți prin tehnologie de vârf și inginerie de precizie.
 
@@ -395,12 +454,22 @@ Investim masiv în cercetare - laborator de calibrare cu gaze certificate, camer
       'Food & beverage - fermentare CO2, refrigerare NH3, spații confinate',
       'Marine - transport gaz lichefiat (LNG/LPG), spații cargo, engine rooms'
     ],
-    infinitrade: `La InfiniTrade din Timișoara furnizăm sistemele Honeywell Analytics pentru industria din România - detectoare fixe și portabile, centrale de achiziție, sisteme complete de monitorizare gaze. Oferim consultanță pentru selectarea senzorilor potriviți (tipul gazului, range, certificări necesare), instalare și punere în funcțiune, calibrare periodică certificată. Livrăm rapid (24-72h produse standard) și asigurăm service pe termen lung cu piese originale și rapoarte de conformitate pentru inspecții ISCIR/ITM.`
+    infinitrade: `Detectoarele de gaz Honeywell Analytics ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru gazul și rangeul de măsură cerut. Nu putem confirma disponibilitatea unui cod anume fără o verificare punctuală, așa că întrebăm întotdeauna specificațiile exacte înainte de ofertă. Pentru senzorii și piesele mai comune termenul poate fi 24–72 h din stoc, iar pentru sistemele centralizate sau senzorii speciali calculează 2–6 săptămâni la comandă. Trimite-ne tipul de gaz de detectat, rangeul de măsură necesar și tipul de ieșire dorit - 4-20mA sau Modbus - pentru o ofertă corectă. Nu oferim prețuri orientative fără cerere și nu confirmăm certificarea SIL fără documentația exactă a aplicației tale.`,
+    limitation: `Nu efectuăm calibrarea sau certificarea SIL a detectoarelor Honeywell Analytics - acestea rămân în sarcina producătorului sau a unui laborator acreditat.`,
+    sources: [
+      { title: 'Our History', url: 'https://www.honeywell.com/us/en/company/our-history', publisher: 'Honeywell International Inc.', accessed: '2026-09-22' },
+      { title: 'About Honeywell Technologies: Building, Process & Industrial Automation', url: 'https://www.honeywell.com/us/en/company/about-us', publisher: 'Honeywell International Inc.', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: corectat founded 1970→1885 și headquarters "Lincolnshire, Illinois, SUA"→"Charlotte, North Carolina, SUA" conform honeywell.com/us/en/company/our-history; surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'honeywell-safety': {
     name: 'Honeywell Safety Products',
-    founded: 1904,
+    founded: 1885,
     headquarters: 'Charlotte, North Carolina, SUA',
     employees: '8000+ (divizia Safety)',
     overview: `Honeywell Safety dezvoltăm echipamente de protecție individuală pentru toate tipurile de riscuri industriale - de la mănuși rezistente la tăiere și perforare până la ochelari de protecție și măști respiratorii, de la harnașamente anti-cădere până la încălțăminte de siguranță. Peste un secol experiență în protecția vieții la locul de muncă.
@@ -452,7 +521,17 @@ Pentru protecție respiratorie oferim gama completă: măști filtrante FFP1/FFP
       'Forestry - protecție tăiere motofierăstrău, harnașamente, ochelari anti-impact',
       'Curățenie industrială - mănuși chimicale, protecție respiratorie, combinezoane'
     ],
-    infinitrade: `La InfiniTrade din Timișoara distribuim echipamentele de protecție Honeywell Safety pentru industria din România - mănuși, ochelari, harnașamente, protecție respiratorie, încălțăminte. Oferim consultanță pentru selectarea EPI-urilor potrivite (evaluare riscuri conform Legii 319/2006), instruire utilizare corectă, livrare rapidă în 24-72 de ore. Pentru comenzi corporate oferim stocuri dedicate și programe de training pentru responsabili SSM.`
+    infinitrade: `Echipamentele de protecție Honeywell Safety (mănuși, ochelari, harnașamente) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru cantitățile solicitate. Fără date proprii de stoc pentru toate mărimile și modelele, verificăm disponibilitatea reală înainte de a confirma un termen. Modelele curente din gama de mănuși și ochelari pot ajunge în 24–72 h din stoc, iar comenzile mari de harnașamente sau seriile speciale ajung de obicei în 2–6 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne modelul, mărimile necesare și cantitatea totală comandată. Evaluarea de risc la locul de muncă rămâne responsabilitatea angajatorului conform legislației - noi oferim echipamentul potrivit specificațiilor pe care ni le trimiți.`,
+    limitation: `Nu realizăm evaluarea de risc la locul de muncă pentru echipamentele Honeywell Safety - aceasta rămâne responsabilitatea angajatorului conform legislației.`,
+    sources: [
+      { title: 'Our History', url: 'https://www.honeywell.com/us/en/company/our-history', publisher: 'Honeywell International Inc.', accessed: '2026-09-22' },
+      { title: 'About Honeywell Technologies: Building, Process & Industrial Automation', url: 'https://www.honeywell.com/us/en/company/about-us', publisher: 'Honeywell International Inc.', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: corectat founded 1904→1885 conform honeywell.com/us/en/company/our-history (headquarters Charlotte, NC confirmat neschimbat); surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'hydac': {
@@ -462,7 +541,7 @@ Pentru protecție respiratorie oferim gama completă: măști filtrante FFP1/FFP
     employees: '10000+',
     overview: `Hydac suntem specialiști în hidraulică și electronică fluidică - de la acumulatoare hidraulice și răcitoare de ulei până la filtre, senzori de presiune și sisteme de monitorizare condiție. Dezvoltăm soluții complete pentru sistemele hidraulice industriale și mobile, de la componente individuale până la subsisteme integrate cu automatizare completă.
 
-Acumulatorul hidraulic Hydac a devenit standardul industrial pentru stocarea energiei în sisteme hidraulice. Tehnologia noastră cu membrană sau piston permite stocarea și eliberarea rapidă a uleiului sub presiune - utilizat pentru absorbție șocuri, compensare pulsații pompe, energie de urgență la cădere alimentare. Oferim acumulatoare de la 0.1 litri (aplicații mobile compacte) până la 200 litri (prese heavy-duty), presiuni până 500 bar, pre-încărcare azot precisă pentru fiecare aplicație.
+Acumulatorul hidraulic Hydac a devenit standardul industrial pentru stocarea energiei în sisteme hidraulice. Tehnologia producătorului cu membrană sau piston permite stocarea și eliberarea rapidă a uleiului sub presiune - utilizat pentru absorbție șocuri, compensare pulsații pompe, energie de urgență la cădere alimentare. Oferim acumulatoare de la 0.1 litri (aplicații mobile compacte) până la 200 litri (prese heavy-duty), presiuni până 500 bar, pre-încărcare azot precisă pentru fiecare aplicație.
 
 Investim masiv în senzori inteligenți și IoT industrial. Senzorii noștri de presiune, temperatură, nivel, flow comunică direct cu PLC-uri sau sisteme cloud pentru monitorizare predictivă. Detectăm degradarea uleiului înainte să afecteze componentele, măsurăm vibrații pompe pentru diagnostic lagăre, monitorizăm presiuni cilindri pentru optimizare proces. Economii masive - reduci downtime-ul cu 40-60% prin mentenanță predictivă în loc de preventivă.`,
     whyChoose: [
@@ -480,7 +559,7 @@ Investim masiv în senzori inteligenți și IoT industrial. Senzorii noștri de 
       },
       {
         name: 'Răcitoare Ulei Hidraulic OK-EL',
-        description: 'Schimbătoare de căldură aer-ulei pentru disiparea căldurii generate în sisteme hidraulice. Design: tub aluminiu cu aripioare răcire, flow ulei prin interior tuburi, aer atmosferic forțat prin ventilator axial sau radial. Capacitate disipare: 5 kW până 200 kW la ΔT=50K (diferență temperatură ulei-aer). Control: termostat electronic reglează turaţia ventilator (inverter) sau pornire/oprire ON/OFF pentru menținere temperatură setpoint ±2°C. Protecție: filtru aer anti-praf pentru finning, indicator vizual/electric colmatare, valve bypass pentru pornire la rece (ulei vâscos). Temperatură ulei maxim 100°C, presiune design 50 bar. Aplicații: centrale hidraulice staționare (ateliere, fabrici), mobile (excavatoare, macarale - variante 24VDC), mașini-unelte (presă, injecție).'
+        description: 'Schimbătoare de căldură aer-ulei pentru disiparea căldurii generate în sisteme hidraulice. Design: tub aluminiu cu aripioare răcire, flow ulei prin interior tuburi, aer atmosferic forțat prin ventilator axial sau radial. Capacitate disipare: 5 kW până 200 kW la ΔT=50K (diferență temperatură ulei-aer). Control: termostat electronic reglează turația ventilator (inverter) sau pornire/oprire ON/OFF pentru menținere temperatură setpoint ±2°C. Protecție: filtru aer anti-praf pentru finning, indicator vizual/electric colmatare, valve bypass pentru pornire la rece (ulei vâscos). Temperatură ulei maxim 100°C, presiune design 50 bar. Aplicații: centrale hidraulice staționare (ateliere, fabrici), mobile (excavatoare, macarale - variante 24VDC), mașini-unelte (presă, injecție).'
       },
       {
         name: 'Senzori Presiune HDA/HMR',
@@ -509,7 +588,17 @@ Investim masiv în senzori inteligenți și IoT industrial. Senzorii noștri de 
       'Renewable energy - wind turbines, wave energy, hydro power',
       'Test benches - simulare încărcări, teste de rezistență, validare componente'
     ],
-    infinitrade: `La InfiniTrade din Timișoara furnizăm componentele Hydac pentru sistemele hidraulice industriale și mobile din România - acumulatoare, răcitoare, filtre, senzori, centrale hidraulice complete. Oferim consultanță tehnică pentru dimensionare (calculăm capacitate acumulatoare, power răcitoare, grade filtre), instalare și punere în funcțiune, service periodic cu analiză ulei în laborator. Livrăm rapid (24-72h produse standard) și stocuri dedicate pentru clienți corporate cu echipamente critice.`
+    infinitrade: `Componentele hidraulice Hydac (acumulatoare, răcitoare, senzori de presiune) ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru presiunea și volumul cerut de aplicația ta. Fără date proprii de stoc pentru fiecare variantă, verificăm disponibilitatea exactă la fiecare cerere primită. Componentele standard din gamă pot fi livrate în 24–72 h din stoc, iar acumulatoarele sau senzorii cu specificații particulare ajung de regulă în 2–6 săptămâni la comandă. Pentru o ofertă corectă, trimite-ne presiunea de lucru, volumul necesar pentru acumulatoare sau rangeul de măsură pentru senzori, plus tipul de conexiune. Nu confirmăm prețuri fără o cerere punctuală și nu putem garanta un termen fix pentru variantele rar solicitate.`,
+    limitation: `Nu confirmăm stocul exact pentru fiecare variantă de acumulator sau senzor Hydac fără o verificare punctuală și nu oferim service în garanția producătorului.`,
+    sources: [
+      { title: 'Hydraulics, electronics & filters since 1963 | HYDAC', url: 'https://www.hydac.com', publisher: 'HYDAC International GmbH', accessed: '2026-09-22' },
+      { title: 'The HYDAC Group – About us | HYDAC', url: 'https://www.hydac.com/en/company/', publisher: 'HYDAC International GmbH', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate (hydac.com), declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate' }
+    ]
   },
 
   'hydac-filtration': {
@@ -566,6 +655,16 @@ Inovăm constant - sisteme de monitorizare inteligentă a stării filtrelor (sen
       'Paper mills - prese, calendre, sisteme acționare (filtrare + separare apă)',
       'Plastic injection - mașini de injecție (protecție valve proporționale)'
     ],
-    infinitrade: `La InfiniTrade din Timișoara furnizăm sistemele de filtrare Hydac pentru clienții industriali din România - filtre de presiune și retur, unități de filtrare offline, separatoare de apă, accesorii de monitorizare. Oferim consultanță pentru optimizarea strategiei de filtrare (unde și ce grade să instalezi pentru cod curățenie țintă), analiză ulei în laborator pentru diagnostic contaminare, livrare rapidă (24-72h produse standard). Pentru echipamente critice oferim programe de mentenanță preventivă cu schimb filtre și rapoarte de trending.`
+    infinitrade: `Filtrele și unitățile de filtrare Hydac Filtration ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru gradul de filtrare și presiunea cerută de sistemul tău. Informațiile despre disponibilitate vin din surse publice ale producătorului și din verificarea punctuală pentru fiecare cerere primită. Elementele filtrante uzuale pot fi livrate în 24–72 h din stoc, în timp ce unitățile complete de filtrare offline sau separatoarele de apă ajung de obicei în 2–6 săptămâni la comandă. Pentru identificare corectă, trimite-ne codul elementului filtrant sau presiunea de lucru, gradul de filtrare dorit și tipul de conexiune necesar. Nu confirmăm termene sau prețuri fără să vedem cerința completă a aplicației.`,
+    limitation: `Nu confirmăm stocul pentru fiecare element filtrant Hydac Filtration fără verificare punctuală și nu oferim service în garanția producătorului.`,
+    sources: [
+      { title: 'Hydraulics, electronics & filters since 1963 | HYDAC', url: 'https://www.hydac.com', publisher: 'HYDAC International GmbH', accessed: '2026-09-22' },
+      { title: 'The HYDAC Group – About us | HYDAC', url: 'https://www.hydac.com/en/company/', publisher: 'HYDAC International GmbH', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate (hydac.com), declarație de aprovizionare onestă; founded (1976, divizie separată) și headquarters neschimbate, neconfirmate distinct de grupul-mamă' }
+    ]
   }
 }

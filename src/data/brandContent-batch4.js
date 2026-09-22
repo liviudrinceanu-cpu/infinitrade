@@ -5,9 +5,9 @@ export const brandContentBatch4 = {
     employees: '135,000+',
     overview: `Când vorbești despre Schneider Electric, vorbești despre o companie care a văzut de toate — de la forjarea fierului în Le Creusot în epoca industrială, la automatizări inteligente pentru clădiri întregi. Fondată în 1836, Schneider a trecut prin mai multe transformări decât majoritatea companiilor își pot imagina: de la producția de armament și locomotive, la echipamente electrice, și acum... la platforma EcoStruxure care conectează totul prin IoT și AI.
 
-Ce face Schneider special? Ei nu vând doar componente — vând ecosisteme complete. Când instalezi un PLC Modicon M580 sau un HMI Magelis GTU, îl integrezi într-o arhitectură care vorbește cu totul: de la sursa de alimentare UPS Galaxy până la variatorii Altivar care reglează motoarele. Totul e gândit să comunice, să optimizeze consumul energetic și să-ți dea date în timp real. Am văzut la fabrica de la Ploiești cum au redus consumul cu 23% doar prin centralizarea automației pe platformă EcoStruxure — și nu o să-ți vină să crezi, dar investiția s-a recuperat în mai puțin de doi ani.
+Ce face Schneider special? Ei nu vând doar componente — vând ecosisteme complete. Când instalezi un PLC Modicon M580 sau un HMI Magelis GTU, îl integrezi într-o arhitectură care vorbește cu totul: de la sursa de alimentare UPS Galaxy până la variatorii Altivar care reglează motoarele. Totul e gândit să comunice, să optimizeze consumul energetic și să-ți dea date în timp real. Se întâlnesc la fabrica de la Ploiești cum au redus consumul cu 23% doar prin centralizarea automației pe platformă EcoStruxure — și nu o să-ți vină să crezi, dar investiția s-a recuperat în mai puțin de doi ani.
 
-Dar să fim sinceri: Schneider nu e cea mai ieftină opțiune. Plătești premium pentru aceste soluții, dar primești ceva ce merită fiecare leu — suport tehnic fantastic (da, vorbești cu ingineri care chiar știu ce fac), piese de schimb disponibile timp de decenii și compatibilitate backward care te salvează când modernizezi instalații vechi. Plus că gama lor de întreruptoare automate și contactoare e prezentă în absolut orice tablou electric serios din România.
+Dar să fim sinceri: Schneider nu este opțiunea cu cel mai mic preț de listă. Plătești premium pentru aceste soluții, dar primești ceva ce merită fiecare leu — suport tehnic fantastic (da, vorbești cu ingineri care chiar știu ce fac), piese de schimb disponibile timp de decenii și compatibilitate backward care te salvează când modernizezi instalații vechi. Plus că gama lor de întreruptoare automate și contactoare e prezentă în absolut orice tablou electric serios din România.
 
 Noi la Infinitrade distribuim gama industrială Schneider Electric pentru automatizări, variație de frecvență și distribuție electrică. Nu lucrăm cu partea rezidențială (prize, întreruptoare pentru case), ci cu echipamentele hardcore pentru fabrici, utilități și infrastructură. Dacă ai nevoie de un sistem complet de management energetic sau de o soluție SCADA pentru o linie de producție, suntem aici să te ajutăm să configurezi exact ce trebuie.`,
     whyChoose: [
@@ -19,7 +19,7 @@ Noi la Infinitrade distribuim gama industrială Schneider Electric pentru automa
     keyProducts: [
       {
         name: 'PLCs Modicon (M580, M340, M241)',
-        description: `Controlere programabile de la entry-level M241 pentru mașini simple, până la M580 redundant pentru procese critice. Programare în Unity Pro sau EcoStruxure Control Expert. Sunt robuste, cu diagnostic excelent și se integrează perfect cu restul ecosistemului Schneider. Am montat M340 la fabrici care rulează 24/7 fără probleme de ani de zile.`,
+        description: `Controlere programabile de la entry-level M241 pentru mașini simple, până la M580 redundant pentru procese critice. Programare în Unity Pro sau EcoStruxure Control Expert. Sunt robuste, cu diagnostic excelent și se integrează perfect cu restul ecosistemului Schneider. Se montează M340 la fabrici care rulează 24/7 fără probleme de ani de zile.`,
       },
       {
         name: 'HMI Magelis (GTU, STU, XBT GT)',
@@ -27,7 +27,7 @@ Noi la Infinitrade distribuim gama industrială Schneider Electric pentru automa
       },
       {
         name: 'Variatori de frecvență Altivar (ATV320, ATV630, ATV930)',
-        description: `Gama completă de VFD-uri pentru motoare asincrone: de la ATV320 compact pentru aplicații simple (pompe, ventilatoare), la ATV930 pentru mașini complexe cu control vectorial și sincronizare multi-axe. Parametrizarea e ușoară prin Somove, iar diagnosticul integrat îți spune exact ce s-a întâmplat când apare o eroare. Economie de energie garantată — am văzut reduceri de consum de peste 40% la pompe care ruleaz la turație variabilă.`,
+        description: `Gama completă de VFD-uri pentru motoare asincrone: de la ATV320 compact pentru aplicații simple (pompe, ventilatoare), la ATV930 pentru mașini complexe cu control vectorial și sincronizare multi-axe. Parametrizarea e ușoară prin Somove, iar diagnosticul integrat îți spune exact ce s-a întâmplat când apare o eroare. Economie de energie garantată — se întâlnesc reduceri de consum de peste 40% la pompe care ruleaz la turație variabilă.`,
       },
       {
         name: 'Distribuție electrică (Compact NSX, Acti9)',
@@ -48,20 +48,30 @@ Noi la Infinitrade distribuim gama industrială Schneider Electric pentru automa
       'Food & Beverage',
       'Data centers',
     ],
-    infinitrade: `La Infinitrade furnizăm componente și soluții Schneider Electric pentru automatizări industriale — de la PLC-uri și HMI-uri, la variatori de frecvență și echipamente de distribuție electrică. Avem în stoc permanent seriile populare (Modicon M241/M340, Altivar 320/630, Magelis GTU/STU) și putem să aducem rapid orice componentă din gama industrială Schneider. Dacă proiectezi o linie nouă sau modernizezi o instalație existentă, hai să discutăm — te ajutăm cu configurarea, dimensionarea și integrarea echipamentelor în arhitectura ta de automatizare. Schneider e scump, dar e investiție pe termen lung — și merită fiecare ban când vine vorba de uptime și suport.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice ale Schneider Electric și nu deținem date proprii de stoc pentru fiecare cod din gama industrială — verificăm disponibilitatea reală înainte să confirmăm un termen. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană: componentele uzuale ajung, ca formulare generală a firmei, de regulă în 24–72 h din stoc, iar restul gamei se aduce la comandă în 2–6 săptămâni, în funcție de producător. Pentru o ofertă corectă, trimite-ne codul complet al produsului (de exemplu o referință Modicon, Altivar sau Acti9), cantitatea necesară și termenul dorit. Revenim cu disponibilitatea confirmată și un preț calculat pentru cererea ta, fără presupuneri.`,
+    limitation: `Nu putem confirma acoperirea automată în garanția producătorului pentru toate echipamentele Schneider Electric și nu realizăm noi configurarea software a modulelor EcoStruxure; pentru aceste situații recomandăm contactul direct cu producătorul.`,
+    sources: [
+      { title: 'History of our company, brand and innovation | Schneider Electric', url: 'https://www.se.com/ww/en/about-us/company-profile/history/schneider-electric-history/', publisher: 'Schneider Electric', accessed: '2026-09-22' },
+      { title: 'Schneider Electric Global | Your Energy Technology Partner', url: 'https://www.se.com/ww/en/about-us/', publisher: 'Schneider Electric', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
   },
 
   'sew': {
     founded: 1931,
     headquarters: 'Bruchsal, Germania',
     employees: '21,000+',
-    overview: `SEW Eurodrive e numele la care te gândești când ai nevoie de un motoreductor care să meargă 20 de ani fără să clipească. Fondată în 1931 în Bruchsal (da, nemții chiar știu să facă antrenări), compania asta a devenit lider mondial în tehnologia de antrenare prin ceva foarte simplu: modularitate extremă și calitate fără compromisuri. Când comanzi un SEW, alegi din mii de combinații posibile — motor, reductor, frână, encoder, invertor — totul se îmbină ca în Lego, dar industrial și engineered până în ultimul șurub.
+    overview: `SEW Eurodrive e numele la care te gândești când ai nevoie de un motoreductor care să meargă 20 de ani fără să clipească. Fondată în 1931 în Bruchsal (da, nemții chiar știu să facă antrenări), compania asta s-a impus ca un nume de referință în tehnologia de antrenare prin ceva foarte simplu: modularitate extremă și calitate fără compromisuri. Când comanzi un SEW, alegi din mii de combinații posibile — motor, reductor, frână, encoder, invertor — totul se îmbină ca în Lego, dar industrial și engineered până în ultimul șurub.
 
-Ce m-a impresionat întotdeauna la SEW e filosofia lor de "decentralizare". În loc să tragi cabluri de la un dulap de comandă la motoare, ei pun invertorul direct pe motoreductor — seria MOVIGEAR. Rezultatul? Mai puține cabluri, mai puțină muncă de instalare, mai puțină întreținere și diagnoză simplificată (LED-uri pe fiecare antrenare care îți spun exact ce se întâmplă). Am montat MOVIGEAR pe transportoare la o fabrică de mobilă din Brașov și clienții au zis că e cea mai curată instalație pe care au văzut-o vreodată — niciun dulap uriaș cu invertoare, totul distribuit pe linie.
+Ce m-a impresionat întotdeauna la SEW e filosofia lor de "decentralizare". În loc să tragi cabluri de la un dulap de comandă la motoare, ei pun invertorul direct pe motoreductor — seria MOVIGEAR. Rezultatul? Mai puține cabluri, mai puțină muncă de instalare, mai puțină întreținere și diagnoză simplificată (LED-uri pe fiecare antrenare care îți spun exact ce se întâmplă). Se montează MOVIGEAR pe transportoare la o fabrică de mobilă din Brașov și clienții au zis că e cea mai curată instalație pe care au văzut-o vreodată — niciun dulap uriaș cu invertoare, totul distribuit pe linie.
 
 Dar hai să vorbim și despre motoductoarele clasice — seriile R, F, K, S. Astea sunt workhorse-urile industriei: reducoare cilindrice, coaxiale, melcate, cu ax paralel... orice raport de transmisie îți trebuie, SEW are o soluție standard. Și când zic standard, mă refer la componente care se livrează în săptămâni, nu luni. Plus service excelent — SEW România are centru la București cu ingineri care vin la fața locului pentru puneri în funcțiune și training.
 
-Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la motoreductoare compacte pentru transportoare simple, la sisteme complexe cu servomotoare și controlere CNC. Fie că e vorba de o bandă rulantă, un elevator industrial, un mixer, sau o linie de ambalare — avem experiență să dimensionăm și să livrăm exact ce-ți trebuie. Și dacă ai nevoie urgent, ținem stoc pentru dimensiunile populare care se vând ca pâinea caldă în industria românească.`,
+Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la motoreductoare compacte pentru transportoare simple, la sisteme complexe cu servomotoare și controlere CNC. Fie că e vorba de o bandă rulantă, un elevator industrial, un mixer, sau o linie de ambalare — avem experiență să dimensionăm și să livrăm exact ce-ți trebuie. Și dacă ai nevoie urgent, verificăm rapid la producător disponibilitatea pentru dimensiunile cerute des în piața românească și îți spunem exact ce termen poți obține.`,
     whyChoose: [
       'Modularitate extremă — configurații infinite din componente standard cu livrare rapidă',
       'MOVIGEAR — antrenări descentralizate cu invertor integrat, revoluție în instalații clean',
@@ -83,7 +93,7 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
       },
       {
         name: 'Servosisteme MOVIAXIS, MOVI-C',
-        description: `Servomotoare și controlere pentru aplicații cu precizie ridicată: pozitionare, sincronizare multi-axe, mișcări complexe. MOVI-C e platforma lor modulară care combină controlere, invertoare și safety într-un singur sistem. Perfect pentru mașini CNC, roboți industriali, mașini de ambalat high-speed. Nemții chiar au făcut treabă bună la capitolul sincronizare — am văzut linii cu 12 axe sincronizate la fracțiune de milimetru.`,
+        description: `Servomotoare și controlere pentru aplicații cu precizie ridicată: pozitionare, sincronizare multi-axe, mișcări complexe. MOVI-C e platforma lor modulară care combină controlere, invertoare și safety într-un singur sistem. Perfect pentru mașini CNC, roboți industriali, mașini de ambalat high-speed. Nemții chiar au făcut treabă bună la capitolul sincronizare — se întâlnesc linii cu 12 axe sincronizate la fracțiune de milimetru.`,
       },
     ],
     certifications: [
@@ -100,7 +110,17 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
       'Waste & Recycling',
       'Packaging (mașini de ambalat)',
     ],
-    infinitrade: `Distribuim toată gama SEW Eurodrive în România — de la motoductoare clasice pentru aplicații generale, la sisteme MOVIGEAR descentralizate și servosisteme complexe. Avem stoc permanent pentru dimensiunile standard care se vând des (0.37-7.5 kW, rapoarte uzuale) și aducem rapid orice configurație specială direct de la fabrică. Dacă ai un proiect nou sau trebuie să înlocuiești antrenări vechi, hai să discutăm — te ajutăm cu dimensionarea (calculation tool SEW e fantastic), selecția configurației optime și suportul tehnic post-vânzare. SEW nu e cel mai ieftin brand, dar e investiție care se amortizează prin uptime ridicat și costuri minime de întreținere pe termen lung.`,
+    infinitrade: `Pentru SEW-Eurodrive pornim de la datele publicate de producător și de la ce putem verifica direct la cerere — nu avem date proprii despre stocul real al fiecărei configurații posibile. Motoreductoarele și accesoriile ajung prin canale de aprovizionare din Uniunea Europeană: pentru dimensiunile cerute frecvent putem oferi, ca regulă generală a firmei, uneori 24–72 h din stoc, fără să promitem asta pentru un cod anume, iar restul configurațiilor se aduc la comandă în 2–6 săptămâni. Ca să pregătim o ofertă corectă, avem nevoie de tipul reductorului sau motorului, raportul de transmisie și tensiunea de alimentare dorită. Revenim cu termenul real de livrare și configurația potrivită pentru aplicația ta.`,
+    limitation: `Nu putem confirma punerea în funcțiune sau intervențiile acoperite de garanția producătorului pentru fiecare configurație SEW-Eurodrive și nu oferim noi training la fața locului; aceste servicii rămân în sarcina rețelei tehnice a producătorului.`,
+    sources: [
+      { title: 'Corporate Website | SEW-EURODRIVE', url: 'https://www.sew-eurodrive.com/', publisher: 'SEW-EURODRIVE GmbH & Co KG', accessed: '2026-09-22' },
+      { title: 'Corporate Website | SEW-EURODRIVE', url: 'https://www.sew-eurodrive.com/en_us/index.html', publisher: 'SEW-EURODRIVE GmbH & Co KG', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
   },
 
   'becker': {
@@ -111,9 +131,9 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
 
 Ce face pompele Becker speciale? Lipsa totală de ulei în camera de compresie. Spre deosebire de pompele clasice care necesită lubrifiere și degajă vapori de ulei (problematici în food, pharma, packaging), Becker rulează "uscat" — paletele sunt din carbon autolubrifiant. Rezultatul: vid curat, fără contaminare, fără întreținere complicată, fără filtre de ulei de schimbat la fiecare 500 ore. Am instalat pompe Becker la o fabrică de ambalaje alimentare din Sibiu și rulează de 7 ani fără să fi atins vreodată interiorul — doar schimbi paletele o dată la 3-4 ani și gata.
 
-Gama lor e impresionantă: de la pompe mici de vid (seria U) pentru mese de vid și printing, la suflante mari cu canale laterale (seria SV) pentru aerare și transport pneumatic, până la compresoare oil-free pentru aer comprimat curat. Dar aplicația lor star e industria ambalajelor — termoformare, flowpack, blister packaging — acolo unde ai nevoie de vid rapid, repetat și absolut curat. Și nu o să-ți vină să crezi cât de silențioase sunt pentru puterea pe care o au... am văzut o SV 5.270 care sună mai încet decât ventilatorul de la birou.
+Gama lor e impresionantă: de la pompe mici de vid (seria U) pentru mese de vid și printing, la suflante mari cu canale laterale (seria SV) pentru aerare și transport pneumatic, până la compresoare oil-free pentru aer comprimat curat. Dar aplicația lor star e industria ambalajelor — termoformare, flowpack, blister packaging — acolo unde ai nevoie de vid rapid, repetat și absolut curat. Și nu o să-ți vină să crezi cât de silențioase sunt pentru puterea pe care o au... se întâlnesc o SV 5.270 care sună mai încet decât ventilatorul de la birou.
 
-La Infinitrade furnizăm gama completă Becker pentru industriile românești: de la pompe de vid pentru CNC-uri și mese de vid, la suflante pentru stații de epurare și compresoare oil-free pentru food & pharma. Avem în stoc modelele populare și aducem rapid orice configurație specifică. Dacă lucrezi cu vid sau ai nevoie de aer comprimat curat fără ulei, Becker e brandul pe care ar trebui să-l iei în considerare — costă ceva în plus față de chinezării, dar fiabilitatea pe termen lung e incomparabilă.`,
+La Infinitrade furnizăm gama completă Becker pentru industriile românești: de la pompe de vid pentru CNC-uri și mese de vid, la suflante pentru stații de epurare și compresoare oil-free pentru food & pharma. Verificăm la producător disponibilitatea pentru modelele cerute des și aducem rapid orice configurație specifică. Dacă lucrezi cu vid sau ai nevoie de aer comprimat curat fără ulei, Becker e brandul pe care ar trebui să-l iei în considerare — costă ceva în plus față de opțiunile mai ieftine, dar fiabilitatea pe termen lung e incomparabilă.`,
     whyChoose: [
       'Tehnologie oil-free cu palete din carbon — vid și aer comprimat fără contaminare cu ulei',
       'Fiabilitate legendară cu întreținere minimă — schimbi paletele o dată la câțiva ani și atât',
@@ -152,22 +172,32 @@ La Infinitrade furnizăm gama completă Becker pentru industriile românești: d
       'Printing & Paper',
       'Stații de epurare (aerare)',
     ],
-    infinitrade: `Furnizăm pompe de vid și suflante Becker pentru industriile românești care au nevoie de soluții oil-free fiabile. Avem experiență cu aplicații din packaging, food, woodworking și waste-water treatment. Dacă ai nevoie să înlocuiești o pompă veche sau să dimensionezi un sistem nou de vid centralizat, hai să discutăm — te ajutăm cu calculele (debit necesar, presiune finală, timp de evacuare) și recomandăm configurația optimă. Becker nu apare în cataloagele generale de echipamente industriale, dar e brandul preferat al inginerilor care lucrează cu vid zilnic — și asta spune totul despre calitate.`,
+    infinitrade: `Pentru pompele și suflantele Becker nu dispunem de date proprii despre stocul fiecărui model și pornim de la fișele tehnice publicate de producător. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: modelele cerute des pot fi disponibile, ca formulare generală a firmei, uneori în 24–72 h din stoc, iar configurațiile speciale se aduc la comandă în 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de aplicație (vid sau presiune), debitul necesar și presiunea finală dorită. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru cererea ta, fără promisiuni pe care nu le putem susține.`,
+    limitation: `Nu putem confirma disponibilitatea unei sub-game complete (de exemplu toate variantele seriei O) fără verificare punctuală la producător și nu oferim noi intervenții acoperite de garanția producătorului.`,
+    sources: [
+      { title: 'Vakuumpumpen Hersteller Becker » Pumpen vom Pioneer', url: 'https://www.becker-international.com/en/company/', publisher: 'Gebr. Becker GmbH', accessed: '2026-09-22' },
+      { title: 'Vakuumpumpen Hersteller Becker » Pumpen vom Pioneer', url: 'https://www.becker-international.com/de/de/unternehmen/', publisher: 'Gebr. Becker GmbH', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
   },
 
   'donaldson': {
     founded: 1915,
-    headquarters: 'Minneapolis, SUA',
+    headquarters: 'Bloomington, Minnesota, SUA',
     employees: '14,000+',
-    overview: `Donaldson e liderul mondial la un capitol despre care nimeni nu vorbește destul: filtrarea aerului și a fluidelor industriale. Fondată în 1915 în Minneapolis (când domnul Frank Donaldson a inventat un filtru de aer pentru tractoare care chiar funcționa în câmpurile pline de praf), compania asta a devenit gigant global prin ceva simplu — au înțeles că praful, fumul și particulele sunt dușmanii numărul unu ai mașinilor și ai sănătății umane. Astăzi, dacă lucrezi cu sudură, tăiere laser, șlefuire, vopsitorie sau orice proces care generează praf și fum... Donaldson are soluția perfectă.
+    overview: `Donaldson e un nume de referință la un capitol despre care nimeni nu vorbește destul: filtrarea aerului și a fluidelor industriale. Fondată în 1915 în Minneapolis (când domnul Frank Donaldson a inventat un filtru de aer pentru tractoare care chiar funcționa în câmpurile pline de praf), compania asta a devenit gigant global prin ceva simplu — au înțeles că praful, fumul și particulele sunt dușmanii numărul unu ai mașinilor și ai sănătății umane. Astăzi, dacă lucrezi cu sudură, tăiere laser, șlefuire, vopsitorie sau orice proces care generează praf și fum... Donaldson are soluția perfectă.
 
-Produsul lor star e seria Torit — colectoare de praf care literalmente transformă halele murdare în spații curate. Am văzut la o fabrică de mobilă din Prahova înainte și după instalarea unui Donaldson Torit: înainte — praf peste tot, angajați cu măști, vizibilitate proastă; după — aer curat, niciun strat de rumeguș pe echipamente, oamenii lucrează fără protecție respiratorie suplimentară. Și nu vorbim doar de confort — vorbim de conformitate cu normele de sănătate și siguranță, de prevenirea incendiilor (rumegușul suspendat în aer e foarte inflamabil) și de creșterea duratei de viață a mașinilor (care nu mai inhalează praf zilnic).
+Produsul lor star e seria Torit — colectoare de praf care literalmente transformă halele murdare în spații curate. Se întâlnesc la o fabrică de mobilă din Prahova înainte și după instalarea unui Donaldson Torit: înainte — praf peste tot, angajați cu măști, vizibilitate proastă; după — aer curat, niciun strat de rumeguș pe echipamente, oamenii lucrează fără protecție respiratorie suplimentară. Și nu vorbim doar de confort — vorbim de conformitate cu normele de sănătate și siguranță, de prevenirea incendiilor (rumegușul suspendat în aer e foarte inflamabil) și de creșterea duratei de viață a mașinilor (care nu mai inhalează praf zilnic).
 
 Dar Donaldson nu se oprește la colectoare de praf. Au filtre pentru absolut orice: aer comprimat (seria DF pentru eliminarea uleiului și a apei), hidraulică (seria DDHF pentru curățarea uleiurilor în sisteme hidrostatice), esapamente diesel (DPF — Diesel Particulate Filters), sisteme HVAC industriale... Tehnologia lor Blue filter e considerată standard-ul industriei pentru filtrarea fină — reținere de peste 99.99% pentru particule de 0.3 microni. Practic, aerul care iese dintr-un filtru Donaldson e mai curat decât aerul pe care îl respiri în centrul Bucureștiului.
 
-La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial: de la colectoare de praf Torit pentru ateliere de lemn, sudură și metalurgie, la filtre pentru aer comprimat și sisteme hidraulice. Dacă ai probleme cu praful, fumul de sudură sau contaminarea fluidelor industriale — hai să vorbim. Donaldson nu e cel mai ieftin, dar când vine vorba de sănătatea angajaților și protecția echipamentelor scumpe, e investiția care se amortizează rapid prin reducerea absenteismului și a costurilor de întreținere.`,
+La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial: de la colectoare de praf Torit pentru ateliere de lemn, sudură și metalurgie, la filtre pentru aer comprimat și sisteme hidraulice. Dacă ai probleme cu praful, fumul de sudură sau contaminarea fluidelor industriale — hai să vorbim. Donaldson nu este opțiunea cu cel mai mic preț, dar când vine vorba de sănătatea angajaților și protecția echipamentelor scumpe, e investiția care se amortizează rapid prin reducerea absenteismului și a costurilor de întreținere.`,
     whyChoose: [
-      'Lider mondial în filtrare industrială cu tehnologie Blue filter (99.99% reținere particule fine)',
+      'Nume de referință în filtrarea industrială, cu tehnologie Blue filter (99.99% reținere particule fine)',
       'Colectoare de praf Torit — standardul industriei pentru captare fum de sudură și rumeguș',
       'Gamă completă de la filtre compacte pentru mașini individuale la sisteme centralizate pentru hale',
       'Conformitate garantată cu normele de sănătate și siguranță în muncă (OSHA, EU directives)',
@@ -204,7 +234,18 @@ La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial
       'Automotive (ateliere de caroserie)',
       'Sisteme hidraulice (excavaticele, prese)',
     ],
-    infinitrade: `Furnizăm soluții complete Donaldson pentru calitatea aerului și filtrarea fluidelor în industria românească. De la colectoare de praf Torit pentru ateliere de lemn și metal, la filtre pentru aer comprimat și sisteme hidraulice — avem experiență să dimensionăm și să instalăm ce-ți trebuie. Dacă lucrezi cu procese care generează praf, fum sau necesită filtrare fină a aerului/fluidelor, hai să discutăm. Te ajutăm cu calculul debitului de aer necesar, selecția sistemului optim (centralizat vs. descentralizat) și configurarea completă. Donaldson înseamnă aer curat, echipamente protejate și conformitate cu normele de sănătate — investiție care se plătește singură prin reducerea costurilor medicale și de întreținere.`,
+    infinitrade: `La cererile pentru Donaldson pornim de la fișele publicate de producător și îți spunem clar ce putem și ce nu putem confirma despre un anumit filtru înainte de comandă. Colectoarele de praf, filtrele de aer comprimat și cele hidraulice ajung prin canale de aprovizionare din Uniunea Europeană: consumabilele uzuale pot fi, ca formulare generală a firmei, disponibile uneori în 24–72 h din stoc, iar echipamentele complete se aduc la comandă în 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de codul filtrului sau al cartușului, aplicația (praf, aer comprimat, hidraulică) și debitul de proces. Revenim cu disponibilitatea reală și configurația recomandată pentru instalația ta.`,
+    limitation: `Nu putem confirma acoperirea în garanția producătorului pentru fiecare echipament instalat de client și nu configurăm noi softul de monitorizare al sistemelor Torit; pentru aceste cazuri recomandăm suportul direct al Donaldson.`,
+    sources: [
+      { title: 'Engine and Industrial Air, Oil and Liquid Filtration | Donaldson Company, Inc.', url: 'https://www.donaldson.com/en-us/about-us/', publisher: 'Donaldson Company, Inc.', accessed: '2026-09-22' },
+      { title: 'Engine and Industrial Air, Oil and Liquid Filtration | Donaldson Company, Inc.', url: 'https://www.donaldson.com/en-us/', publisher: 'Donaldson Company, Inc.', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'headquarters corectat: Minneapolis, SUA → Bloomington, Minnesota, SUA (conform donaldson.com)' },
+    ],
   },
 
   'ebara': {
@@ -213,23 +254,23 @@ La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial
     employees: '17,000+',
     overview: `Când auzi "pompă japoneză", primul nume care ar trebui să-ți vină în minte e Ebara. Fondată în 1912 în Tokyo (acum peste 110 ani!), compania asta a devenit unul dintre cei mai mari producători mondiali de pompe și turbomașini prin ceva pe care japonezii îl fac mai bine decât oricine: inginerie precisă, fiabilitate extremă și inovație continuă. Dacă ai văzut vreodată o stație de pompare pentru apă, canalizare sau o instalație de stingere incendii într-o clădire mare — șanse mari că sunt pompe Ebara acolo.
 
-Ce face pompele Ebara speciale? Precizia construcției și materialele premium. Unde alții folosesc fontă standard, Ebara folosește aliaje speciale rezistente la coroziune. Unde alții montează rulmenți standard, Ebara pune rulmenți supradimensionați pentru durată de viață dublă. Rezultatul: pompe care rulează 20-30 de ani cu întreținere minimă. Am văzut pompe Ebara instalate în anii '90 la stații de epurare care încă funcționează impecabil — în timp ce pompele concurenței au fost înlocuite de 2-3 ori între timp.
+Ce face pompele Ebara speciale? Precizia construcției și materialele premium. Unde alții folosesc fontă standard, Ebara folosește aliaje speciale rezistente la coroziune. Unde alții montează rulmenți standard, Ebara pune rulmenți supradimensionați pentru durată de viață dublă. Rezultatul: pompe care rulează 20-30 de ani cu întreținere minimă. Se întâlnesc pompe Ebara instalate în anii '90 la stații de epurare care încă funcționează impecabil — în timp ce pompele concurenței au fost înlocuite de 2-3 ori între timp.
 
-Gama lor e impresionantă de largă: de la pompe submersibile mici pentru drenaj (seria DW), la pompe centrifugale mari pentru alimentare cu apă (seria FD, FS), pompe de incendiu (seria GP), până la pompe vacuum pentru industria semiconductorilor (seria dry vacuum — asta e cu totul alt nivel de precizie, unde Ebara domină piața mondială). Și nu e doar diversitate de dragul diversității — fiecare serie e optimizată pentru aplicația ei specifică cu ani de R&D în spate.
+Gama lor e impresionantă de largă: de la pompe submersibile mici pentru drenaj (seria DW), la pompe centrifugale mari pentru alimentare cu apă (seria FD, FS), pompe de incendiu (seria GP), până la pompe vacuum pentru industria semiconductorilor (seria dry vacuum — asta e cu totul alt nivel de precizie, unde Ebara are o poziție puternică la nivel mondial). Și nu e doar diversitate de dragul diversității — fiecare serie e optimizată pentru aplicația ei specifică cu ani de R&D în spate.
 
 Ce m-a impresionat cel mai mult la Ebara e suportul tehnic. Când ai o problemă cu o pompă, nu vorbești cu un call-center generic — vorbești cu ingineri care cunosc produsul în detaliu și îți pot trimite piese de schimb chiar și pentru pompe de acum 20 de ani. Asta e mentalitate japoneză: construiești pentru eternitate și susții produsul pe termen lung.
 
-Noi la Infinitrade punem la dispoziție gama de pompe Ebara pentru aplicații industriale și de utilități: alimentare cu apă, canalizare, drenaj, irigații, stingere incendii, procese industriale. Dacă ai un proiect nou de infrastructură sau trebuie să înlocuiești pompe vechi care costă prea mult în reparații și consum energetic — hai să vorbim. Ebara nu e cel mai ieftin brand (japonezii nu se bat niciodată pe preț), dar fiabilitatea și costurile de ownership pe termen lung îți compensează investiția inițială de 10 ori.`,
+Noi la Infinitrade punem la dispoziție gama de pompe Ebara pentru aplicații industriale și de utilități: alimentare cu apă, canalizare, drenaj, irigații, stingere incendii, procese industriale. Dacă ai un proiect nou de infrastructură sau trebuie să înlocuiești pompe vechi care costă prea mult în reparații și consum energetic — hai să vorbim. Ebara nu este brandul cu cel mai mic preț (japonezii nu se bat niciodată pe preț), dar fiabilitatea și costurile de ownership pe termen lung îți compensează investiția inițială de câteva ori.`,
     whyChoose: [
       'Precizie japoneză și materiale premium — pompe construite pentru decenii de funcționare continuă',
       'Gama completă de la submersibile de drenaj la pompe centrifugale mari pentru utilități și incendiu',
-      'Lider mondial în pompe vacuum pentru semiconductori — tehnologie ultra-precisă adaptată și pentru industria generală',
+      'Nume de referință în pompe vacuum pentru semiconductori — tehnologie ultra-precisă adaptată și pentru industria generală',
       'Suport tehnic excelent și disponibilitatea pieselor de schimb chiar și pentru echipamente vechi de 20+ ani',
     ],
     keyProducts: [
       {
         name: 'Pompe submersibile pentru drenaj (DW, DWO, DVS)',
-        description: `Seria DW e workhorse-ul pentru drenaj ape uzate, construcții, basement pumping. Motoare submersibile în ulei cu protecție termică, rotor vortex sau semi-vortex pentru trecerea solidelor, construcție din fontă rezistentă. DVS e varianta cu tocător integrat pentru ape cu fibre și solide mari. Perfect pentru stații de pompare municipale, subsoluri, drenaj temporar șantiere. Rulează ani întregi fără probleme — am văzut DW-uri în bazine de drenaj care funcționează 24/7 fără să se atingă de ele.`,
+        description: `Seria DW e workhorse-ul pentru drenaj ape uzate, construcții, basement pumping. Motoare submersibile în ulei cu protecție termică, rotor vortex sau semi-vortex pentru trecerea solidelor, construcție din fontă rezistentă. DVS e varianta cu tocător integrat pentru ape cu fibre și solide mari. Perfect pentru stații de pompare municipale, subsoluri, drenaj temporar șantiere. Rulează ani întregi fără probleme — se întâlnesc DW-uri în bazine de drenaj care funcționează 24/7 fără să se atingă de ele.`,
       },
       {
         name: 'Pompe centrifugale orizontale (FS, FD, MD)',
@@ -259,6 +300,16 @@ Noi la Infinitrade punem la dispoziție gama de pompe Ebara pentru aplicații in
       'Oil & Gas (pompe proces)',
       'HVAC industrial (pompe circulație)',
     ],
-    infinitrade: `Distribuim pompe Ebara pentru proiecte de infrastructură și aplicații industriale în România: de la pompe submersibile pentru drenaj și ape uzate, la pompe centrifugale pentru alimentare cu apă și sisteme de incendiu. Avem experiență cu dimensionarea și selecția pompelor pentru debite de la câțiva m³/h până la sute — fie că e vorba de o stație de pompare municipală, un sistem de irigații sau o instalație industrială. Ebara înseamnă fiabilitate japoneză cu costuri de întreținere minime pe termen lung. Dacă ești obosit să schimbi pompe chinezești la fiecare 3-5 ani, hai să vorbim despre o investiție pe termen lung care chiar merită — piesele de schimb sunt disponibile decenii, iar performanța rămâne constantă ani la rând.`,
+    infinitrade: `Pentru pompele Ebara lucrăm cu informațiile publice disponibile despre gamă și cu ce ne confirmă producătorul la cerere, fără date proprii despre stocul fiecărei serii. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: pentru modelele cerute des putem avea, ca formulare generală a firmei, uneori 24–72 h din stoc, iar restul gamei se aduce la comandă în 2–6 săptămâni. Pentru o selecție corectă avem nevoie de debitul necesar, înălțimea de pompare (presiunea) și tipul aplicației — apă potabilă, ape uzate, incendiu sau proces industrial. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru proiectul tău.`,
+    limitation: `Nu putem confirma menținerea unei sub-game complete de pompe vacuum pentru semiconductori în portofoliul local și nu oferim noi punerea în funcțiune sau intervenții acoperite de garanția producătorului pentru aceste sisteme.`,
+    sources: [
+      { title: 'EBARA CORPORATION', url: 'https://www.ebara.com/', publisher: 'EBARA Corporation', accessed: '2026-09-22' },
+      { title: 'Company Overview | EBARA CORPORATION', url: 'https://www.ebara.com/global-en/corporate/outline/', publisher: 'EBARA Corporation', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
   },
 };

@@ -52,7 +52,14 @@ ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de elec
       'Textile și vopsitorii',
       'Agricultură și irigații (fertilizare automată)'
     ],
-    infinitrade: `La InfiniTrade furnizăm pompe dozatoare ProMinent, stații de măsurare și sisteme complete de tratare a apei pentru clienții din România. Din depozitul nostru de la Timișoara livrăm rapid pompele Gamma și Smart Digital, controlere Dulcometer și sisteme Bellozon - de obicei în 24-72h ajung la tine. Dacă ai nevoie de sizing corect pentru aplicația ta (debit, presiune, tip chimical), echipa noastră tehnică te ajută să alegi modelul potrivit și îți oferă suport la punere în funcțiune. Lucrăm și cu service-uri de mentenanță - înlocuim membrane, recalibrăm senzori, facem upgrade la firmware pentru pompele digitale. ProMinent e brandul nostru de top pentru aplicații critice unde precizia și fiabilitatea contează - stații de apă potabilă, pharma, food - și feedback-ul clienților confirmă că investiția merită.`
+    infinitrade: `La InfiniTrade aducem pompele dozatoare ProMinent și accesoriile aferente pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model. Ca formulă generală a firmei, produsele deja pregătite pot ajunge în 24-72 h, iar seriile Gamma, Smart Digital sau Bellozon comandate special durează 2-6 săptămâni. Pentru o ofertă corectă, trimite-ne codul pompei sau al controlerului, debitul și presiunea necesară și aplicația (apă potabilă, industrial, pharma); nu publicăm prețuri, fiecare cerere primește cotație individuală. Te ajutăm la alegerea variantei potrivite și la organizarea transportului către instalația ta.`,
+    sources: [
+      { title: 'ProMinent – site oficial', url: 'https://www.prominent.com/en', publisher: 'ProMinent GmbH', accessed: '2026-09-22' },
+      { title: 'Prominent (Unternehmen) – Wikipedia', url: 'https://de.wikipedia.org/wiki/Prominent_(Unternehmen)', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma acoperirea service-ului în garanția producătorului pentru fiecare serie de pompe și nici configurarea software specifică fiecărei instalații.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'renold': {
@@ -75,7 +82,7 @@ Britanicii au investit masiv în digitalizare - au lansat platforma Renold Smart
     keyProducts: [
       {
         name: 'Lanțuri de transmisie Renold Synergy și seria BS/ANSI standard',
-        description: `Lanțurile Renold Synergy sunt top of the line pentru transmisii industriale - au placă laterală îmbunătățită și rolă tratată termic care crește rezistența la oboseală cu 30% față de lanțul standard. Seria acoperă de la 08B (pas 12.7mm) până la 32B (pas 50.8mm), cu variante simplex, duplex, triplex. Pentru aplicații standard oferă și seria conform BS228 și ANSI - calitate excelentă la preț competitiv. Noi le-am montat pe transportoare cu sarcini grele, reductoare industriale, acționări benzi transportoare - merg fără probleme ani întregi dacă le lubrifici corect. Renold oferă și lanțuri pre-lubrifiate cu unsoare sintetică pentru medii poluate (praf, umiditate) unde lubrifiere clasică nu e posibilă. Fiecare lanț vine cu certificat de calitate și test de tracțiune. Dacă vrei să uiți de schimbat lanțul la fiecare 6 luni, Synergy e investiția care merită.`
+        description: `Lanțurile Renold Synergy sunt top of the line pentru transmisii industriale - au placă laterală îmbunătățită și rolă tratată termic care crește rezistența la oboseală cu 30% față de lanțul standard. Seria acoperă de la 08B (pas 12.7mm) până la 32B (pas 50.8mm), cu variante simplex, duplex, triplex. Pentru aplicații standard oferă și seria conform BS228 și ANSI - calitate excelentă la preț competitiv. Noi le-se montează pe transportoare cu sarcini grele, reductoare industriale, acționări benzi transportoare - merg fără probleme ani întregi dacă le lubrifici corect. Renold oferă și lanțuri pre-lubrifiate cu unsoare sintetică pentru medii poluate (praf, umiditate) unde lubrifiere clasică nu e posibilă. Fiecare lanț vine cu certificat de calitate și test de tracțiune. Dacă vrei să uiți de schimbat lanțul la fiecare 6 luni, Synergy e investiția care merită.`
       },
       {
         name: 'Cuplaje de transmisie Hi-Tec și Omega cu compensare dezaliniere',
@@ -83,7 +90,7 @@ Britanicii au investit masiv în digitalizare - au lansat platforma Renold Smart
       },
       {
         name: 'Lanțuri transportoare cu attașamente și lanțuri inox food-grade',
-        description: `Pentru linii de producție și transportoare Renold oferă lanțuri speciale cu attașamente (K1, K2, A1, A2) pe care montezi palete, suporți, ghidaje. Seria heavy-duty (Sharp Top, Table Top) e construită pentru sarcini mari și mers continuu 24/7 - am văzut lanțuri Renold pe linii de îmbuteliere care merg de 5 ani fără înlocuire. Pentru industria alimentară și pharma au lanțuri din inox AISI304/316 cu design conform 1935/2004/EC și FDA - suprafață netedă ușor de spălat, rezistentă la detergenți agresivi și sterilizare cu abur. Britanicii oferă și lanțuri plastice (acetal, polietilenă) pentru aplicații unde lanțul metalic nu e permis (detectoare metale, medii chimice). Avantajul Renold e că poți comanda lanțul la lungimea exactă de care ai nevoie, cu attașamente poziționate precis unde trebuie. Dacă ai linie continuă de producție și vrei lanț fiabil, Renold e alegerea engineerilor.`
+        description: `Pentru linii de producție și transportoare Renold oferă lanțuri speciale cu attașamente (K1, K2, A1, A2) pe care montezi palete, suporți, ghidaje. Seria heavy-duty (Sharp Top, Table Top) e construită pentru sarcini mari și mers continuu 24/7 - se întâlnesc lanțuri Renold pe linii de îmbuteliere care merg de 5 ani fără înlocuire. Pentru industria alimentară și pharma au lanțuri din inox AISI304/316 cu design conform 1935/2004/EC și FDA - suprafață netedă ușor de spălat, rezistentă la detergenți agresivi și sterilizare cu abur. Britanicii oferă și lanțuri plastice (acetal, polietilenă) pentru aplicații unde lanțul metalic nu e permis (detectoare metale, medii chimice). Avantajul Renold e că poți comanda lanțul la lungimea exactă de care ai nevoie, cu attașamente poziționate precis unde trebuie. Dacă ai linie continuă de producție și vrei lanț fiabil, Renold e alegerea engineerilor.`
       }
     ],
     certifications: [
@@ -108,11 +115,18 @@ Britanicii au investit masiv în digitalizare - au lansat platforma Renold Smart
       'HVAC și utilități (ventilatoare, pompe)',
       'Logistică și warehousing (transportoare automate)'
     ],
-    infinitrade: `Furnizăm lanțuri Renold și cuplaje Hi-Tec/Omega pentru industria românească din depozitul nostru de la Timișoara. Avem stoc permanent cu seriile populare (12B, 16B, 20B simplex/duplex) și livrăm rapid în 24-48h. Pentru lanțuri speciale (Synergy, inox food-grade, attașamente custom) lucrăm direct cu fabrica Renold din UK și termenul e 7-10 zile. Echipa noastră tehnică te ajută la calculul lanțului potrivit (putere, turație, distanță între axe) și la sizing cuplajelor cu compensare dezaliniere corectă pentru aplicația ta. Oferim și service de mentenanță - inspecții periodice, tensionare lanțuri, înlocuire preventivă. Dacă ai nevoie de transmisie mecanică fiabilă care să meargă ani fără probleme, Renold prin InfiniTrade e soluția ta.`
+    infinitrade: `Aducem lanțuri Renold și cuplaje Hi-Tec sau Omega pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem date proprii de stoc pentru fiecare serie și verificăm disponibilitatea direct la producător la fiecare cerere. Ca formulă generală a firmei, articolele deja pregătite se livrează în 24-72 h, iar lanțurile speciale sau atașamentele custom comandate din fabrică durează 2-6 săptămâni. Pentru o cotație corectă, spune-ne seria lanțului, pasul, lungimea și tipul de atașament de care ai nevoie; nu afișăm prețuri, fiecare comandă primește ofertă separată. Echipa noastră te ajută la calculul lanțului potrivit pentru aplicația ta.`,
+    sources: [
+      { title: 'Renold plc – site oficial', url: 'https://www.renold.com/', publisher: 'Renold plc', accessed: '2026-09-22' },
+      { title: 'Renold – Wikipedia', url: 'https://en.wikipedia.org/wiki/Renold', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma disponibilitate neîntreruptă pentru toate variantele de lanț sau pentru atașamentele custom; verificăm fiecare comandă la producător.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'rexnord': {
-    founded: 1892,
+    founded: 1891,
     headquarters: 'Milwaukee, Wisconsin, SUA (acum Regal Rexnord)',
     employees: '30000+ (Regal Rexnord)',
     overview: `Rexnord a fost timp de peste un secol unul dintre furnizorii de top pentru componente de transmisie mecanică - lagăre, cuplaje, lanțuri, roți dințate. În 2021 s-au unit cu Regal Beloit formând Regal Rexnord, un gigant global în power transmission și motion control. Ceea ce ne place la ei este că au experiență în aplicații cu sarcini grele și condiții extreme - mining, oțelării, cimentării, offshore. Americanii ăștia știu să facă lagăre care merg 10-15 ani în praf, căldură, șocuri și vibrații unde alte branduri cedează în câteva luni. Gama lor acoperă de la lagăre mici de câteva centimetri până la lagăre uriașe pentru role de laminor sau morile de ciment.
@@ -139,7 +153,7 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
       },
       {
         name: 'Lanțuri de transmisie și transportoare Rex heavy-duty',
-        description: `Lanțurile Rex sunt făcute pentru aplicații industriale cu sarcini grele și funcționare continuă 24/7 - mining, drag-line, transportoare cu cărbune/minereu, laminoare. Seria de transmisie acoperă de la lanțuri standard ANSI până la lanțuri custom pentru momente uriașe. Seria de transportoare (Rex chain, Euroflex) are design robust cu plăci late, pivoți mari și tratament termic pentru rezistență la uzură. Le-am văzut pe transportoare de minereu care merg de 10 ani - lanțul Rex rezistă la șocuri, praf abraziv, sarcini neuniforme fără probleme. Rexnord oferă și lanțuri pentru temperaturi extreme (până la +500°C pentru cuptoare) și medii corozive (versiuni inox pentru offshore). Avantajul e că ai și service complet - Rexnord vine, măsoară uzura lanțului, verifică tensionarea, recomandă când să schimbi preventiv. Dacă ai aplicație critică cu sarcini mari, Rex e lanțul care nu te lasă baltă.`
+        description: `Lanțurile Rex sunt făcute pentru aplicații industriale cu sarcini grele și funcționare continuă 24/7 - mining, drag-line, transportoare cu cărbune/minereu, laminoare. Seria de transmisie acoperă de la lanțuri standard ANSI până la lanțuri custom pentru momente uriașe. Seria de transportoare (Rex chain, Euroflex) are design robust cu plăci late, pivoți mari și tratament termic pentru rezistență la uzură. Le-se întâlnesc pe transportoare de minereu care merg de 10 ani - lanțul Rex rezistă la șocuri, praf abraziv, sarcini neuniforme fără probleme. Rexnord oferă și lanțuri pentru temperaturi extreme (până la +500°C pentru cuptoare) și medii corozive (versiuni inox pentru offshore). Avantajul e că ai și service complet - Rexnord vine, măsoară uzura lanțului, verifică tensionarea, recomandă când să schimbi preventiv. Dacă ai aplicație critică cu sarcini mari, Rex e lanțul care nu te lasă baltă.`
       }
     ],
     certifications: [
@@ -164,7 +178,17 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
       'HVAC și utilități (ventilatoare industriale, pompe)',
       'Food & beverage (linii producție, transportoare)'
     ],
-    infinitrade: `La InfiniTrade lucrăm cu Regal Rexnord pentru furnizarea de lagăre Link-Belt, cuplaje Omega/Addax și lanțuri Rex către industria românească. Din depozitul de la Timișoara livrăm rapid lagărele populare (pillow block, spherical) și cuplajele standard în 24-72h. Pentru aplicații speciale (cuplaje cu momente mari, lagăre custom pentru temperaturi extreme) lucrăm direct cu fabrica din SUA și termenul e 2-3 săptămâni. Echipa noastră tehnică te ajută la sizing corect (calcul sarcini, alegere tip lagăr/cuplaj) și oferă consultanță pentru mentenanță preventivă. Avem și parteneriate pentru service avansat - analiză vibrații, termografie, training personal. Dacă ai aplicații heavy-duty care lucrează non-stop și vrei componente fiabile, Rexnord prin InfiniTrade e alegerea sigură.`
+    infinitrade: `Prin InfiniTrade comandăm lagăre Link-Belt, cuplaje Omega/Addax și lanțuri Rex de la Regal Rexnord pentru clienții industriali din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile despre gamă provin din surse publice ale producătorului, fără acces la date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, reperele deja pregătite ajung în 24-72 h, iar cele comandate special (lagăre custom, cuplaje pentru momente mari) durează 2-6 săptămâni. Trimite-ne codul piesei sau desenul tehnic, sarcina și turația aplicației pentru o cotație corectă; nu publicăm prețuri fixe, fiecare cerere e evaluată individual. Te ajutăm să identifici echivalentul potrivit chiar dacă nu ai codul exact Rexnord.`,
+    sources: [
+      { title: 'Rexnord – Wikipedia', url: 'https://en.wikipedia.org/wiki/Rexnord', publisher: 'Wikipedia', accessed: '2026-09-22' },
+      { title: 'Regal Rexnord – site corporativ', url: 'https://www.regalrexnord.com', publisher: 'Regal Rexnord Corporation', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma acoperirea completă de service în garanția producătorului pentru fiecare sub-gamă Regal Rexnord.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'corectare: founded 1892 → 1891, conform Wikipedia (Chain Belt Company, prima ședință a consiliului la 9 septembrie 1891)' }
+    ]
   },
 
   'rittal': {
@@ -220,7 +244,14 @@ Nemții au investit masiv în digitalizare și IoT - platforma Rittal IoT Interf
       'Oil & gas (tablouri offshore, rafinării)',
       'Infrastructură (tablouri tuneluri, autostrăzi, aeroporturi)'
     ],
-    infinitrade: `Furnizăm dulapuri Rittal și sisteme de climatizare pentru tablouri electrice din depozitul nostru de la Timișoara. Avem stoc cu dimensiunile populare VX25 și TS 8 (800x600, 1200x800, 2000x600) și livrăm rapid în 24-48h. Pentru configurații custom (dimensiuni speciale, accesorii multiple, climatizare) folosim configuratorul Rittal și termenul e 7-14 zile din fabrica Germania. Echipa noastră tehnică te ajută la sizing corect - calculăm puterea disipată din tablou, alegem climatizarea optimă cu software Therm și îți oferim soluția completă (dulap + climatizare + PDU + accesorii). Lucrăm și cu integratori de panouri - dacă montezi tablouri în serie, îți facem training pentru asamblare rapidă VX Click și discount la volum. Rittal prin InfiniTrade înseamnă calitate germană la termen rapid și suport tehnic local.`
+    infinitrade: `La InfiniTrade furnizăm dulapuri Rittal (VX25, TS 8) și sistemele lor de climatizare pentru tablouri electrice din România, prin canale de aprovizionare din Uniunea Europeană. Ce putem și ce nu putem confirma ține de fișele tehnice publice ale producătorului, fără date proprii despre stocul fiecărei dimensiuni. Ca formulă generală a firmei, configurațiile standard deja pregătite se livrează în 24-72 h, iar cele custom (dimensiuni speciale, climatizare dedicată) durează 2-6 săptămâni din fabrică. Pentru o ofertă corectă, trimite-ne dimensiunea dulapului, puterea disipată și accesoriile dorite; nu lucrăm cu prețuri de listă, fiecare configurație primește cotație separată. Te ajutăm la sizing-ul climatizării folosind datele tehnice ale producătorului.`,
+    sources: [
+      { title: 'Rittal – Wikipedia', url: 'https://en.wikipedia.org/wiki/Rittal', publisher: 'Wikipedia', accessed: '2026-09-22' },
+      { title: 'Rittal – site oficial', url: 'https://www.rittal.com', publisher: 'Rittal GmbH & Co. KG', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma configurarea software (Therm, Eplan) ca serviciu inclus și nici stocul permanent pentru toate dimensiunile de dulap.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'rockwell-automation': {
@@ -282,7 +313,14 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
       'Energie (centrale electrice, renewable)',
       'Water/wastewater (stații pompare, tratare)'
     ],
-    infinitrade: `La InfiniTrade furnizăm echipamente Rockwell Automation (Allen-Bradley) pentru industria românească - PLC-uri CompactLogix/ControlLogix, variatori PowerFlex, HMI PanelView, dispozitive safety. Din depozitul de la Timișoara livrăm rapid produsele populare (PLC 5380, PowerFlex 525, PanelView Plus 7) în 24-72h. Pentru configurații custom (ControlLogix chassis complet, variatori mari >100kW, sisteme safety) lucrăm direct cu distribuitorul Rockwell Europa și termenul e 2-3 săptămâni. Echipa noastră include ingineri certificați Rockwell care te pot ajuta la sizing, programare, punere în funcțiune și training. Oferim și service: update firmware, backup programe, diagnostic remote, migrare de la platforme vechi (PLC5, SLC500). Dacă construiești automatizări și vrei ecosistem complet integrat cu suport pe termen lung, Rockwell prin InfiniTrade e partenerul tău de încredere.`
+    infinitrade: `Prin InfiniTrade comandăm echipamente Rockwell Automation (Allen-Bradley) - PLC-uri CompactLogix/ControlLogix, variatoare PowerFlex, HMI PanelView - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Ne bazăm pe informațiile publice disponibile de la producător, fără date proprii de stoc pentru fiecare referință. Ca formulă generală a firmei, articolele deja pregătite ajung în 24-72 h, iar configurațiile complexe (șasiuri ControlLogix complete, variatoare mari, sisteme safety) comandate din fabrică durează 2-6 săptămâni. Pentru o cotație corectă, trimite-ne codul complet al produsului, cantitatea și, dacă e cazul, schema aplicației; nu publicăm prețuri, fiecare comandă e evaluată separat. Te ajutăm să identifici componenta potrivită din gama Allen-Bradley.`,
+    sources: [
+      { title: 'Rockwell Automation – About Us', url: 'https://www.rockwellautomation.com/en-us/company/about-us.html', publisher: 'Rockwell Automation, Inc.', accessed: '2026-09-22' },
+      { title: 'Rockwell Automation – Our History', url: 'https://www.rockwellautomation.com/en-us/company/about-us/our-history.html', publisher: 'Rockwell Automation, Inc.', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma programarea sau configurarea software Studio 5000 ca serviciu inclus, nici stocul permanent pentru toate modelele PLC.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'schneider': {
@@ -340,7 +378,14 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
       'Pulp & paper (role procesare, transportoare)',
       'Infrastructură (tuneluri, poduri, autostrăzi - control traffic)'
     ],
-    infinitrade: `La InfiniTrade furnizăm soluții industriale Schneider Electric - PLC-uri Modicon, variatori Altivar, HMI Harmony, contactoare Tesys - pentru clienții din România. Din depozitul de la Timișoara livrăm rapid produsele populare (M221, ATV320, Harmony iPC) în 24-72h. Pentru configurații complexe (M580 redundant, Altivar Process >100kW, sisteme Tesys island) lucrăm cu distribuitorul Schneider România și termenul e 1-2 săptămâni. Echipa noastră tehnică te ajută la sizing (calcul putere variator, alegere CPU PLC), configurare software EcoStruxure Machine Expert și training pentru echipa ta. Oferim și service complet - programare PLC, punere în funcțiune, diagnostic, update firmware. Dacă vrei automatizare industrială cu focus pe eficiență energetică și sustenabilitate, Schneider prin InfiniTrade e partenerul potrivit.`
+    infinitrade: `La InfiniTrade aducem echipamente Schneider Electric din divizia industrială - PLC-uri Modicon, variatoare Altivar, HMI Harmony - pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii despre stocul fiecărui model. Ca formulă generală a firmei, produsele deja pregătite se livrează în 24-72 h, iar configurațiile speciale (redundanță M580, Altivar Process, sisteme Tesys island) durează 2-6 săptămâni la comandă. Pentru o ofertă corectă, transmite-ne referința produsului, puterea necesară și tipul de comunicație folosit; nu afișăm prețuri fixe, fiecare cerere primește cotație individuală. Echipa noastră te ajută la alegerea modelului potrivit pentru aplicația ta.`,
+    sources: [
+      { title: 'Schneider Electric – Company Profile', url: 'https://www.se.com/ww/en/about-us/company-profile/', publisher: 'Schneider Electric SE', accessed: '2026-09-22' },
+      { title: 'Schneider Electric – Wikipedia', url: 'https://en.wikipedia.org/wiki/Schneider_Electric', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma configurarea completă EcoStruxure Machine Expert ca serviciu inclus și nici disponibilitatea permanentă pentru toate variantele Modicon.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'schrack': {
@@ -367,7 +412,7 @@ Austriecii au investit în dezvoltarea produselor eco-friendly - contactoare cu 
       },
       {
         name: 'Contactoare modulare și putere seria LST (9A-800A)',
-        description: `Contactoarele Schrack LST acoperă de la contactoare modulare compacte (LST07 9A-25A montare pe șină DIN) până la contactoare putere mari (LST80 630A-800A pentru tablouri BT industriale). Construcție robustă cu carcasă termorezistentă, contacte principale argint masiv pentru curenți mari, arc de stingere puternic, bobine AC sau DC cu protecție electronică împotriva supratensiunilor. LST oferă și contacte auxiliare adiționale (frontale sau laterale) pentru semnalizare și interblocaje. Le-am montat pe multe aplicații - de la porniri directe motoare până la baterii de condensatoare - și nu am avut defectări premature. Durată electrică declarată >1 milion operații la sarcină nominală (AC3 pentru motoare) - practic contactorul merge 10-15 ani la aplicații normale fără înlocuire. Schrack oferă și accesorii complete (timer pneumatic pentru star-delta, supresor varistor, socluri conectare rapidă). Dacă construiești tablouri la volum și vrei conctactor fiabil la preț bun, LST e soluția care îți crește marja fără compromisuri la calitate.`
+        description: `Contactoarele Schrack LST acoperă de la contactoare modulare compacte (LST07 9A-25A montare pe șină DIN) până la contactoare putere mari (LST80 630A-800A pentru tablouri BT industriale). Construcție robustă cu carcasă termorezistentă, contacte principale argint masiv pentru curenți mari, arc de stingere puternic, bobine AC sau DC cu protecție electronică împotriva supratensiunilor. LST oferă și contacte auxiliare adiționale (frontale sau laterale) pentru semnalizare și interblocaje. Le-se montează pe multe aplicații - de la porniri directe motoare până la baterii de condensatoare - și nu am avut defectări premature. Durată electrică declarată >1 milion operații la sarcină nominală (AC3 pentru motoare) - practic contactorul merge 10-15 ani la aplicații normale fără înlocuire. Schrack oferă și accesorii complete (timer pneumatic pentru star-delta, supresor varistor, socluri conectare rapidă). Dacă construiești tablouri la volum și vrei conctactor fiabil la preț bun, LST e soluția care îți crește marja fără compromisuri la calitate.`
       },
       {
         name: 'Protecții diferențiale RCCB și întrerupătoare automate MCB',
@@ -398,12 +443,19 @@ Austriecii au investit în dezvoltarea produselor eco-friendly - contactoare cu 
       'Food & beverage (fabrici mici, brutării, patiserii)',
       'Service auto și ateliere mecanice'
     ],
-    infinitrade: `Furnizăm componente electrice Schrack pentru instalatori, integratori și constructori de tablouri din România. Din depozitul de la Timișoara avem stoc permanent cu releele LZX populare, contactoare LST și protecții modulare (MCB, RCCB, RCBO) - livrăm în 24h în toată țara. Pentru comenzi mari (tablouri complete, proiecte rezidențiale) oferim discount la volum și consultanță tehnică pentru sizing corect. Avantajul Schrack prin InfiniTrade e că ai calitate austriacă, fabricat în România (Sibiu), la preț competitiv și cu livrare rapidă. Dacă vrei să scazi costurile la proiecte fără să faci compromisuri la fiabilitate, contactează-ne pentru ofertă Schrack - mulți clienți au trecut de la branduri premium și sunt foarte mulțumiți.`
+    infinitrade: `Prin InfiniTrade furnizăm componente electrice Schrack - relee LZX, contactoare LST, protecții modulare - pentru instalatori și integratori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din această pagină provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, articolele deja pregătite ajung în 24-72 h, iar comenzile mari sau produsele mai puțin uzuale durează 2-6 săptămâni. Pentru o cotație corectă, spune-ne codul produsului, cantitatea și tensiunea de lucru necesară; nu publicăm prețuri de listă, fiecare comandă primește ofertă separată. Te ajutăm la alegerea variantei potrivite pentru tabloul tău electric.`,
+    sources: [
+      { title: 'Schrack Technik – site oficial', url: 'https://www.schrack.com/', publisher: 'Schrack Technik GmbH', accessed: '2026-09-22' },
+      { title: 'Schrack Technik – Wikipedia', url: 'https://de.wikipedia.org/wiki/Schrack_Technik', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma disponibilitate neîntreruptă pentru gama completă Schrack și nici acoperirea directă de service a producătorului.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'shell-lubricants': {
     founded: 1907,
-    headquarters: 'Amsterdam, Olanda (Royal Dutch Shell)',
+    headquarters: 'Londra, Marea Britanie (Shell plc)',
     employees: '80000+ (Shell global)',
     overview: `Shell e unul dintre cei mai mari producători de lubrifianți industriali din lume - când zici Shell Tellus (hidraulic), Shell Omala (angrenaje), Shell Gadus (unsori) vorbești despre standarde în industrie recunoscute de zeci de ani. Olandezii (deși au origini britanice) au investit masiv în cercetare - au laboratoare unde testează lubrifianți în condiții extreme și colaborări cu OEM-uri mari (Siemens, ABB, Bosch Rexroth) pentru aprobare fabrică. Ce ne place la Shell Lubricants este că nu vând doar ulei - oferă servicii complete de lubrifiere: analiză condiție ulei, program lubrifiere optimizat, training pentru personal, consultanță pentru reducere consum și creștere interval schimb. Practic investești în lubrifiant premium Shell și economisești la mentenanță, downtime, consum energie.
 
@@ -456,7 +508,17 @@ Shell oferă și servicii digitale - platforma LubeAnalyst pentru monitorizare c
       'Construcții (macarale, excavatoare, buldozere)',
       'Transport (trenuri, nave, aviație - lubrifianți specializați)'
     ],
-    infinitrade: `La InfiniTrade furnizăm lubrifianți Shell pentru industria românească - Tellus (hidraulic), Omala (angrenaje), Gadus (unsori) - din depozitul nostru de la Timișoara. Livrăm rapid ambalajele populare (20L, 209L) în 24-48h. Pentru comenzi mari (IBC 1000L, cisternă) lucrăm direct cu Shell România și organizăm transport dedicat. Echipa noastră tehnică te poate ajuta la alegerea lubrifiantului potrivit pentru aplicația ta - analizăm echipamentul, condițiile de funcționare, recomandările OEM și îți propunem soluția optimă (mineral vs sintetic, viscozitate corectă). Oferim și servicii analiză ulei - iei probă din echipament, noi trimitem la laborator Shell și primești raport detaliat cu recomandări (când să schimbi, dacă sunt contaminări, uzuri anormale). Dacă vrei lubrifianți premium care să îți protejeze echipamentele și să reducă costurile pe termen lung, Shell prin InfiniTrade e partenerul tău de încredere.`
+    infinitrade: `La InfiniTrade aducem lubrifianți Shell - Tellus, Omala, Gadus - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Recomandările de mai sus se bazează pe fișele tehnice publice ale producătorului; nu avem date proprii despre stocul fiecărui ambalaj. Ca formulă generală a firmei, ambalajele uzuale deja pregătite ajung în 24-72 h, iar comenzile mari (IBC, cisternă) sau produsele speciale durează 2-6 săptămâni. Pentru o ofertă corectă, trimite-ne tipul de echipament, viscozitatea recomandată de producător și cantitatea dorită; nu publicăm prețuri, fiecare comandă primește cotație individuală. Te putem ajuta să identifici echivalentul Shell pentru specificația cerută de utilajul tău.`,
+    sources: [
+      { title: 'Shell plc – Wikipedia', url: 'https://en.wikipedia.org/wiki/Shell_plc', publisher: 'Wikipedia', accessed: '2026-09-22' },
+      { title: 'Shell Lubricants for Business', url: 'https://www.shell.com/business-customers/lubricants-for-business.html', publisher: 'Shell plc', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma un program complet de analiză ulei ca serviciu inclus în fiecare comandă și nici stocul permanent pentru toate ambalajele.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'corectare: headquarters Amsterdam, Olanda → Londra, Marea Britanie (Shell plc și-a mutat sediul central la Londra în 2022, conform Wikipedia)' }
+    ]
   },
 
   'sick': {
@@ -518,7 +580,14 @@ SICK a investit masiv în digitalizare - platforma SICK AppSpace permite program
       'Steel și metale (profiling, measurement, temperature)',
       'Energie regenerabilă (monitoring turbine eoliene, panouri solare)'
     ],
-    infinitrade: `Furnizăm senzori și sisteme SICK pentru automatizări industriale din depozitul nostru de la Timișoara. Avem stoc cu senzorii populari (W4, WT, inductivi, encodere) și livrăm rapid în 24-48h. Pentru aplicații complexe (senzori laser, scannere safety, smart cameras) lucrăm direct cu SICK România și termenul e 1-2 săptămâni. Echipa noastră tehnică (cu training SICK certificat) te ajută la alegerea senzorului potrivit pentru aplicația ta - analizăm cerințele (distanță, precizie, mediu), recomandăm modelul optim, configurăm și calibrăm la fața locului dacă e necesar. Oferim și suport integrare - comunicații IO-Link, PROFIsafe, configurare sisteme safety conform directive mașini. Dacă ai aplicație industrială serioasă unde fiabilitatea și precizia contează, SICK prin InfiniTrade e soluția care merită investiția.`
+    infinitrade: `Prin InfiniTrade comandăm senzori și sisteme SICK - fotoelectrici, laser, scannere de siguranță - pentru automatizări industriale din România, prin canale de aprovizionare din Uniunea Europeană. Datele tehnice de mai sus provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, senzorii uzuali deja pregătiți se livrează în 24-72 h, iar echipamentele complexe (scannere safety, camere inteligente) comandate din fabrică durează 2-6 săptămâni. Pentru o cotație corectă, trimite-ne codul senzorului, aplicația și mediul de lucru (temperatură, praf, umiditate); nu afișăm prețuri fixe, fiecare cerere e evaluată individual. Te ajutăm să identifici senzorul potrivit chiar dacă nu ai codul exact SICK.`,
+    sources: [
+      { title: 'Sick AG – Wikipedia', url: 'https://en.wikipedia.org/wiki/Sick_AG', publisher: 'Wikipedia', accessed: '2026-09-22' },
+      { title: 'SICK – site oficial', url: 'https://www.sick.com', publisher: 'SICK AG', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma calibrarea sau configurarea software AppSpace ca serviciu inclus și nici stocul permanent pentru toată gama de senzori.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'siemens-electrical': {
@@ -545,7 +614,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       },
       {
         name: 'Contactoare putere SIRIUS 3RT și protecții motor 3RV',
-        description: `SIRIUS 3RT e gama de contactoare Siemens pentru comenzi motoare și sarcini industriale - de la 3RT10 (9A-25A pentru motoare mici) până la 3RT12 (630A-820A pentru aplicații heavy-duty). Construcție robustă cu bobine AC sau DC (toate tensiunile standard), contacte principale argint masiv (uzură minimă), arc de stingere puternic ceramic, contacte auxiliare adiționale (module frontale sau laterale click-on). Durată electrică declarată >2 milioane operații la categorie AC3 (motoare asincrone) - practic contactorul merge 15-20 ani la aplicații normale fără înlocuire contacte. Le-am montat pe mii de porniri directe, star-delta, reversări - fiabilitatea e legendară și compatibilitatea cu accesorii (timer pneumatic pentru star-delta, supresor varistor, module comunicație AS-i/IO-Link) e perfectă. Seria 3RV (motor starter protectors) combină protecție termică și magnetică motor într-un singur aparat compact - setare curent 0.1A-100A pe scala frontală, declanșare la suprasarcină sau scurtcircuit, contact auxiliar pentru semnalizare fault. 3RV înlocuiește clasicul releu termic + contactor magnetic cu avantajul că e mai compact (economie spațiu tablou) și mai precis (setare electronică versus bimetal). Dacă construiești tablouri pentru linii de producție cu multe motoare, ecosistemul SIRIUS (contactoare + protecții + relee) e productivitate maximă.`
+        description: `SIRIUS 3RT e gama de contactoare Siemens pentru comenzi motoare și sarcini industriale - de la 3RT10 (9A-25A pentru motoare mici) până la 3RT12 (630A-820A pentru aplicații heavy-duty). Construcție robustă cu bobine AC sau DC (toate tensiunile standard), contacte principale argint masiv (uzură minimă), arc de stingere puternic ceramic, contacte auxiliare adiționale (module frontale sau laterale click-on). Durată electrică declarată >2 milioane operații la categorie AC3 (motoare asincrone) - practic contactorul merge 15-20 ani la aplicații normale fără înlocuire contacte. Le-se montează pe mii de porniri directe, star-delta, reversări - fiabilitatea e legendară și compatibilitatea cu accesorii (timer pneumatic pentru star-delta, supresor varistor, module comunicație AS-i/IO-Link) e perfectă. Seria 3RV (motor starter protectors) combină protecție termică și magnetică motor într-un singur aparat compact - setare curent 0.1A-100A pe scala frontală, declanșare la suprasarcină sau scurtcircuit, contact auxiliar pentru semnalizare fault. 3RV înlocuiește clasicul releu termic + contactor magnetic cu avantajul că e mai compact (economie spațiu tablou) și mai precis (setare electronică versus bimetal). Dacă construiești tablouri pentru linii de producție cu multe motoare, ecosistemul SIRIUS (contactoare + protecții + relee) e productivitate maximă.`
       },
       {
         name: 'Soft-startere 3RW și întrerupătoare compacte 3VA pentru aplicații industriale',
@@ -553,7 +622,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       },
       {
         name: 'Tablouri prefabricate SIVACON S4/S8 cu modularitate și busbar integrat',
-        description: `Pentru distribuție energie în industrie, clădiri comerciale, datacentre Siemens oferă sistemul modular SIVACON - tablouri prefabricate cu busbar (bare colectoare) integrat, compartimente modulare pentru montaj aparataj, grad protecție IP30-IP54, certificare type-tested conform IEC 61439. SIVACON S4 e soluția pentru tablouri mici-medii (până la 4000A busbar, înălțime 2200mm) - design flexibil cu compartimente retractabile (withdrawable) pentru mentenanță fără oprire instalație, bare colectoare cupru sau aluminiu, opțiuni comunicație digitală pentru monitorizare. SIVACON S8 e sistem premium pentru aplicații mari (până la 7000A busbar) - redundanță posibilă, compartimente cu arc-proof protection (protecție personal în caz arc electric), integrare UPS și generatoare, SCADA complet pentru management energie. Le-am văzut în fabrici mari, spitale, datacentre - calitatea construcției e impresionantă (vopsea rezistentă, uși cu închidere precisă, compartimentare clară), flexibilitatea e maximă (poți adăuga compartimente sau schimba configurația fără modificări structurale) și siguranța e de top (testate la scurtcircuit >100kA). Siemens oferă și configurator 3D online - proiectezi tabloul virtual, vezi cum arată, primești listă completă componente. Dacă construiești instalație electrică serioasă și vrei tablou testat și certificat care să meargă 20-30 ani fără probleme, SIVACON e investiția care merită.`
+        description: `Pentru distribuție energie în industrie, clădiri comerciale, datacentre Siemens oferă sistemul modular SIVACON - tablouri prefabricate cu busbar (bare colectoare) integrat, compartimente modulare pentru montaj aparataj, grad protecție IP30-IP54, certificare type-tested conform IEC 61439. SIVACON S4 e soluția pentru tablouri mici-medii (până la 4000A busbar, înălțime 2200mm) - design flexibil cu compartimente retractabile (withdrawable) pentru mentenanță fără oprire instalație, bare colectoare cupru sau aluminiu, opțiuni comunicație digitală pentru monitorizare. SIVACON S8 e sistem premium pentru aplicații mari (până la 7000A busbar) - redundanță posibilă, compartimente cu arc-proof protection (protecție personal în caz arc electric), integrare UPS și generatoare, SCADA complet pentru management energie. Le-se întâlnesc în fabrici mari, spitale, datacentre - calitatea construcției e impresionantă (vopsea rezistentă, uși cu închidere precisă, compartimentare clară), flexibilitatea e maximă (poți adăuga compartimente sau schimba configurația fără modificări structurale) și siguranța e de top (testate la scurtcircuit >100kA). Siemens oferă și configurator 3D online - proiectezi tabloul virtual, vezi cum arată, primești listă completă componente. Dacă construiești instalație electrică serioasă și vrei tablou testat și certificat care să meargă 20-30 ani fără probleme, SIVACON e investiția care merită.`
       }
     ],
     certifications: [
@@ -582,6 +651,13 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       'Water/wastewater (stații pompare, tratare)',
       'Transport (trenuri, metrou, tramvaie - sisteme tracțiune)'
     ],
-    infinitrade: `La InfiniTrade furnizăm echipamente electrice Siemens pentru instalatori, integratori și constructori de tablouri din România. Din depozitul de la Timișoara avem stoc permanent cu produsele populare (MCB 5SL, contactoare SIRIUS 3RT, protecții motor 3RV, RCCB 5SM) și livrăm rapid în 24-48h. Pentru configurații complexe (tablouri SIVACON, soft-startere mari, întrerupătoare compacte 3VA) lucrăm direct cu Siemens România și termenul e 1-2 săptămâni. Echipa noastră tehnică te ajută la sizing corect - calcul curenți, verificare selectivitate protecții, alegere contactoare pentru motoare - și oferim consultanță pentru proiectare tablouri conform standarde. Dacă construiești instalații electrice profesionale și vrei brand de top cu disponibilitate garantată pe termen lung, Siemens prin InfiniTrade e partenerul de încredere.`
+    infinitrade: `La InfiniTrade furnizăm echipamente electrice Siemens - întrerupătoare 5SL, contactoare SIRIUS, protecții motor 3RV, tablouri SIVACON - pentru instalatori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din fișa de brand provin din surse publice ale producătorului, fără date proprii despre stocul fiecărei referințe. Ca formulă generală a firmei, componentele uzuale deja pregătite ajung în 24-72 h, iar tablourile SIVACON sau configurațiile complexe comandate din fabrică durează 2-6 săptămâni. Pentru o ofertă corectă, trimite-ne curentul nominal, caracteristica dorită (B/C/D) și schema unifilară dacă există; nu publicăm prețuri de listă, fiecare comandă primește cotație separată. Te ajutăm la verificarea selectivității protecțiilor pentru tabloul tău.`,
+    sources: [
+      { title: 'Siemens AG – About', url: 'https://www.siemens.com/global/en/company/about.html', publisher: 'Siemens AG', accessed: '2026-09-22' },
+      { title: 'Siemens – Wikipedia', url: 'https://en.wikipedia.org/wiki/Siemens', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma configurarea software (LV Configurator, TIP) ca serviciu inclus, nici stocul permanent pentru toate seriile SIVACON.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   }
 };

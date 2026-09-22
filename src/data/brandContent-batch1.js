@@ -6,16 +6,16 @@ export const brandContentBatch1 = {
     founded: 1945,
     headquarters: 'Bjerringbro, Danemarca',
     employees: '19000+',
-    overview: `Grundfos e numele pe care îl vezi cel mai des când deschizi un dulap tehnic într-o clădire modernă sau într-o stație de pompare. Danezii ăștia au început treaba în 1945 (ca să vă faceți o imagine: fix când se termina al Doilea Război Mondial), și de atunci au devenit cel mai mare producător de pompe din lume. Nu cel mai mare din Danemarca sau din Europa — ci din întreaga lume.
+    overview: `Grundfos e numele pe care îl vezi cel mai des când deschizi un dulap tehnic într-o clădire modernă sau într-o stație de pompare. Danezii ăștia au început treaba în 1945 (ca să vă faceți o imagine: fix când se termina al Doilea Război Mondial), și de atunci au devenit unul dintre cei mai mari producători de pompe din lume, cu fabrici și birouri pe mai multe continente.
 
 Ce mă impresionează la Grundfos nu-i doar dimensiunea, ci obsesia lor pentru eficiență energetică. În 2010, când majoritatea producătorilor încă vindeau motoare IE2 (standard la vremea aia), danezii deja lucrau la IE5. Astăzi, dacă intri pe site-ul lor, găsești pompe cu motoare ECM care consumă cu 70% mai puțin curent decât echivalentele clasice. Pentru o fabrică care rulează 24/7, asta înseamnă economii masive — vorbim de zeci de mii de euro pe an.
 
-Produsele Grundfos se regăsesc peste tot: de la instalațiile de climatizare din malluri (seriile UPS, Alpha), la stațiile de pompare pentru apă potabilă (seriile SP, CR, NK), până la dozarea precisă de chimicale în rafinării (seriile DME, DDA). Am văzut pompe Grundfos rulând ani buni în condiții extrem de agresive — pH 2, temperaturi de 80°C, porniri/opriri de 50 de ori pe zi — și tot merg. Asta spune ceva despre calitatea ingineriei daneze.
+Produsele Grundfos se regăsesc peste tot: de la instalațiile de climatizare din malluri (seriile UPS, Alpha), la stațiile de pompare pentru apă potabilă (seriile SP, CR, NK), până la dozarea precisă de chimicale în rafinării (seriile DME, DDA). Se întâlnesc pompe Grundfos rulând ani buni în condiții extrem de agresive — pH 2, temperaturi de 80°C, porniri/opriri de 50 de ori pe zi — și tot merg. Asta spune ceva despre calitatea ingineriei daneze.
 
-Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și Industry 4.0: pompe cu senzori încorporați, diagnosticare la distanță prin Grundfos Machine Cloud, optimizare automată a consumului. Pentru un operator de utilități publice, asta înseamnă că poate monitoriza 100 de stații de pompare dintr-un singur birou, poate detecta probleme înainte să apară defecțiuni, și poate programa mentenanță predictivă. Sincer, tehnologia lor e cu vreo 5 ani înaintea multor competitori.`,
+Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și Industry 4.0: pompe cu senzori încorporați, diagnosticare la distanță prin Grundfos Machine Cloud, optimizare automată a consumului. Pentru un operator de utilități publice, asta înseamnă că poate monitoriza 100 de stații de pompare dintr-un singur birou, poate detecta probleme înainte să apară defecțiuni, și poate programa mentenanță predictivă. Practic, tehnologia lor e cu vreo 5 ani înaintea multor competitori.`,
 
     whyChoose: [
-      'Lider mondial cu peste 19,000 de angajați și prezență în 56 de țări — când cumperi Grundfos, cumperi know-how acumulat în 79 de ani',
+      'Producător global cu peste 19,000 de angajați și prezență în 56 de țări — know-how acumulat în zeci de ani de inginerie de pompare',
       'Eficiență energetică de top: motoare IE5 și ECM care reduc consumul electric cu până la 70% față de soluțiile tradiționale',
       'Gamă completă de la pompe de circulație mici (10W) până la sisteme gigantice de 500 kW pentru utilități publice și petrochimie',
       'Platforme digitale avansate: Grundfos GO (aplicație mobilă), Grundfos Machine Cloud pentru monitorizare și diagnosticare la distanță',
@@ -30,7 +30,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         name: 'SP/SQ (Pompe Submersibile pentru Puțuri)',
-        description: 'Seria SP (SP = Submersible Pump) e dedicată puțurilor adânci și captărilor de apă. Motoare de 4" până la 12" (diametru), debite de la 1 la 500 m³/h, adâncimi de pompare până la 550 metri. Utilizări clasice: alimentare cu apă potabilă în orașe, irigații agricole pe suprafețe mari, drenaj mină, sisteme geotermale. Motorele sunt răcite cu apă, etanșate dublu, cu protecție termică încorporată. Seria SQ (mai mică) e pentru puțuri de 3" și aplicații rezidențiale sau agricole mici. Fiabilitate uriașă — am văzut pompe SP rulând 20 de ani în puțuri de 300 metri fără probleme.'
+        description: 'Seria SP (SP = Submersible Pump) e dedicată puțurilor adânci și captărilor de apă. Motoare de 4" până la 12" (diametru), debite de la 1 la 500 m³/h, adâncimi de pompare până la 550 metri. Utilizări clasice: alimentare cu apă potabilă în orașe, irigații agricole pe suprafețe mari, drenaj mină, sisteme geotermale. Motorele sunt răcite cu apă, etanșate dublu, cu protecție termică încorporată. Seria SQ (mai mică) e pentru puțuri de 3" și aplicații rezidențiale sau agricole mici. Fiabilitate uriașă — se întâlnesc pompe SP rulând 20 de ani în puțuri de 300 metri fără probleme.'
       },
       {
         name: 'DME/DDA (Pompe Dozatoare Digitale)',
@@ -66,24 +66,27 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       'HVAC Industrial (centrale termice/frigorifice, districte termice)',
     ],
 
-    infinitrade: `La Infinitrade furnizăm gama completă Grundfos pentru România — de la pompele mici de circulație UPS până la sistemele complexe de pompare CR și SP pentru utilități publice. Avem stoc permanent în Timișoara pentru modelele standard (CR 3-8, UPS 25-40, TP 40-120), iar pentru sisteme mari aducem configurații la comandă în 2-3 săptămâni.
+    infinitrade: `La Infinitrade aducem produse Grundfos prin canale de aprovizionare din Uniunea Europeană. Ce putem și ce nu putem confirma: nu ținem evidență proprie a stocului fabricii, așa că orice termen depinde de disponibilitatea reală verificată la comandă. Pentru referințe uzuale din portofoliul CR, SP sau UPS, livrarea poate fi 24–72 h din stoc atunci când modelul se află deja în rețeaua noastră de furnizori; pentru configurații speciale sau debite mari, calculăm 2–6 săptămâni la comandă. Pentru o propunere corectă avem nevoie de codul modelului, debitul și înălțimea de pompare cerute, și temperatura sau tipul fluidului vehiculat. Nu putem angaja intervenții în perioada de garanție a producătorului fără acordul prealabil al acestuia, dar facem selecția tehnică și urmărim comanda până la livrare.`,
 
-Ce apreciază clienții la noi: nu vindem doar pompa, ci oferim consultanță tehnică completă. Îți calculăm exact ce model Grundfos ți se potrivește (debit, înălțime de pompare, rezistență chimică), îți facem sizing pentru sistemul întreg (rezervoare, vase de expansiune, automatizări), și te ajutăm cu punerea în funcțiune. Avem ingineri care au făcut training direct la Grundfos în Danemarca, deci nu improvizăm. Livrare în 24-72h în toată România (expres pentru urgențe), garanție completă de la producător, și suport tehnic post-vânzare. Dacă aveți nevoie de pompe Grundfos pentru un proiect mare (spital, mall, fabrică), hai să discutăm — vă facem ofertă personalizată cu cele mai bune prețuri din piață.`,
-
-    // F3-03 demonstration entry (backlog item F3-03). `ownFact`/`limitation`
-    // are deliberately NOT added here: the plan-v2 packet
+    // F3-03 demonstration entry (backlog item F3-03). `ownFact` is
+    // deliberately NOT added here: the plan-v2 packet
     // (out/plan-v2/packets/brand/grundfos.json) states evidenceClass
     // "gsc-only" with ownFact "none available — the page must say plainly
     // what we can and cannot source, and carry no Romanian-market claim" —
     // there is no stock.tsv row or demand aggregate for this brand that
-    // would make either field a checkable statement, only 3 individual
+    // would make it a checkable statement, only 3 individual
     // model-request rows (98595908 / NB 50-200/210 / SMART Digital DDA
-    // 7.5-16). Writing either field from that would be an invented claim
-    // this item's rules forbid; leaving them out is correct until F4/F6
-    // find a real, checkable fact to cite.
-    lastVerified: '2026-09-21',
+    // 7.5-16). Writing it from that would be an invented claim
+    // this item's rules forbid; leaving it out is correct until F4/F6
+    // find a real, checkable fact to cite. `limitation` was added on
+    // 2026-09-22 (A5 repair pass) since it only states what we cannot
+    // confirm/provide, which is not the same as an invented `ownFact`.
+    limitation: 'Nu putem confirma sau efectua intervenții de service în perioada de garanție a producătorului fără avizul prealabil al Grundfos, și nu configurăm platformele software Grundfos GO sau Machine Cloud.',
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
     changelog: [
       { date: '2026-09-21', note: 'pagina restructurată cu întrebări și tabel de produse' },
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
     ],
     sources: [
       {
@@ -91,6 +94,12 @@ Ce apreciază clienții la noi: nu vindem doar pompa, ci oferim consultanță te
         url: 'https://www.grundfos.com/about-us',
         publisher: 'Grundfos',
         accessed: '2026-09-21',
+      },
+      {
+        title: 'Our purpose and values | Grundfos',
+        url: 'https://www.grundfos.com/about-us/our-purpose-and-values',
+        publisher: 'Grundfos',
+        accessed: '2026-09-22',
       },
     ],
   },
@@ -123,7 +132,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         name: 'Sewatec (Pompe Submersibile pentru Canalizare)',
-        description: 'Seria Sewatec (Sewage + Technology) e dedicată pompării apelor uzate și nămolului în stații de epurare și sisteme de canalizare. Pompe submersibile verticale cu rotor tip vortex sau channel impeller (nu se înfundă cu deșeuri solide), debite de la 10 la 3000 m³/h, înălțimi de pompare până la 50 metri. Motor electric răcit cu apă, etanșare dublă cu cameră de ulei, carcasă din fontă GG25 sau inox pentru medii corozive. Se montează în bazine de colectare, stații de pompare canalizare, drenaj tuneluri/mine. KSB oferă și sisteme complete "plug-and-play" cu automatizări, vane de retenție, separator de grăsimi — dai drumul și funcționează. Fiabilitate enormă: am văzut instalații Sewatec rulând 15+ ani fără probleme majore.'
+        description: 'Seria Sewatec (Sewage + Technology) e dedicată pompării apelor uzate și nămolului în stații de epurare și sisteme de canalizare. Pompe submersibile verticale cu rotor tip vortex sau channel impeller (nu se înfundă cu deșeuri solide), debite de la 10 la 3000 m³/h, înălțimi de pompare până la 50 metri. Motor electric răcit cu apă, etanșare dublă cu cameră de ulei, carcasă din fontă GG25 sau inox pentru medii corozive. Se montează în bazine de colectare, stații de pompare canalizare, drenaj tuneluri/mine. KSB oferă și sisteme complete "plug-and-play" cu automatizări, vane de retenție, separator de grăsimi — dai drumul și funcționează. Fiabilitate enormă: se întâlnesc instalații Sewatec rulând 15+ ani fără probleme majore.'
       },
       {
         name: 'Multitec (Pompe Multietajate pentru Presiuni Înalte)',
@@ -160,9 +169,22 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       'Agricultură (irigații pe suprafețe mari, drenaj terenuri)',
     ],
 
-    infinitrade: `Livrăm produse KSB în România pentru proiecte industriale complexe — pompe Etanorm și Multitec pentru procese, robinete fluture Omega pentru utilități, și sisteme Sewatec pentru canalizare. Nu ținem stoc permanent (KSB lucrează pe comandă pentru configurații specifice), dar aducem orice model în 3-4 săptămâni din Germania.
+    infinitrade: `Aducem produsele KSB către România prin canalele de aprovizionare din Uniunea Europeană ale producătorului. Nu avem date proprii despre stocul fabricii din Frankenthal, deci confirmăm disponibilitatea exactă înainte de a stabili un termen. Pentru piese standard din familia Etanorm, uneori putem oferi 24–72 h din stoc dacă articolul e deja recepționat de furnizorul nostru; în rest, estimăm 2–6 săptămâni la comandă pentru pompe sau robinete fabricate special. Pentru un calcul corect trimiteți-ne debitul, presiunea, temperatura fluidului și materialul dorit pentru corpul pompei. Nu putem confirma teste sau configurări software specifice fără implicarea directă a departamentului tehnic KSB, însă vă ajutăm cu dimensionarea inițială și cu urmărirea comenzii.`,
 
-Avantajul nostru e că lucrăm cu KSB de peste 10 ani și avem relație directă cu reprezentanța lor din România. Asta înseamnă prețuri bune, suport tehnic rapid, și acces la inginerii KSB pentru proiecte complexe. Dacă aveți nevoie de sizing pentru o pompă Etanorm (ce debit, ce presiune, ce material pentru fluidul vostru), vă facem calculele gratuit. Dacă proiectul e mare (rafinărie, centrală, stație de epurare), vă conectăm direct cu inginerii KSB pentru consultanță. Livrare oriunde în România, garanție completă de la producător, piese de schimb disponibile rapid prin rețeaua KSB. Sunați-ne pentru orice aplicație industrială critică — KSB e alegerea sigură când nu ai voie să faci compromisuri.`,
+    limitation: 'Nu putem confirma teste de material sau configurări software specifice pentru automatizările KSB, iar service-ul în perioada de garanție rămâne la decizia producătorului.',
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
+    sources: [
+      {
+        title: 'Company | KSB',
+        url: 'https://www.ksb.com/en-global/company',
+        publisher: 'KSB SE & Co. KGaA',
+        accessed: '2026-09-22',
+      },
+    ],
   },
 
   'wilo': {
@@ -173,7 +195,7 @@ Avantajul nostru e că lucrăm cu KSB de peste 10 ani și avem relație directă
 
 Ceea ce îmi place la Wilo e obsesia lor pentru eficiență energetică și integrare smart. În 2008, când majoritatea încă vindea pompe cu motoare asincrone clasice (eficiență 60-70%), Wilo a lansat seria Stratos cu motor EC (electronically commutated) și eficiență de peste 80%. Astăzi au ajuns la Stratos MAXO cu IE5+ — practic cea mai eficientă pompă de circulație din lume. Pentru un bloc cu 100 de apartamente, înlocuirea pompelor vechi cu Wilo Stratos poate reduce factura electrică cu 70%. Pe 10 ani, economiile se numără în zeci de mii de euro.
 
-Un alt punct forte e gama Wilo pentru drainage (drenaj și evacuare ape uzate). Seria DrainLift, DrainBox, și EMUport sunt lider pe piața europeană pentru pompare apă uzată din subsoluri, băi la etaje joase, bucătării comerciale, spălătorii auto. Sunt compacte, silențioase, și foarte fiabile. Am văzut instalații Wilo DrainLift în restaurante care funcționează 15+ ani fără mentenanță (în afară de curățare filtru, bineînțeles).
+Un alt punct forte e gama Wilo pentru drainage (drenaj și evacuare ape uzate). Seria DrainLift, DrainBox, și EMUport au o prezență puternică pe piața europeană pentru pompare apă uzată din subsoluri, băi la etaje joase, bucătării comerciale, spălătorii auto. Sunt compacte, silențioase, și foarte fiabile. Se întâlnesc instalații Wilo DrainLift în restaurante care funcționează 15+ ani fără mentenanță (în afară de curățare filtru, bineînțeles).
 
 Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetooth și aplicație Wilo-Assistant pentru configurare/diagnosticare de pe telefon. Modelele mai mari (CronoLine, VeroLine) au conectivitate Modbus/BACnet pentru integrare în BMS (Building Management Systems). Pentru un facility manager care administrează 10 clădiri, asta înseamnă că poate vedea toate pompele pe un dashboard central, poate detecta probleme înainte să apară defecțiuni, și poate optimiza consumul automat. Tehnologie de viitor, disponibilă azi.`,
 
@@ -183,7 +205,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       'Specializare în drainage și evacuare ape uzate: DrainLift, DrainBox, EMUport pentru subsoluri, băi, bucătării comerciale',
       'Integrare smart completă: aplicație Wilo-Assistant pentru configurare pe telefon, conectivitate Modbus/BACnet pentru BMS',
       'Gamă imensă: de la pompe mici pentru vile (100W) până la sisteme gigantice pentru districte termice (500+ kW)',
-      'Garanție extinsă și service rapid: centru de service Wilo în București, piese de schimb disponibile în 24-48h pentru modelele standard',
+      'Garanție extinsă și rețea de service: piese de schimb pentru modelele standard, conform politicii producătorului',
     ],
 
     keyProducts: [
@@ -230,9 +252,22 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       'Construcții (drenaj șantiere, alimentare betoniere)',
     ],
 
-    infinitrade: `Punem la dispoziție gama completă Wilo pentru România — de la pompele mici de circulație Stratos pentru case și apartamente, până la sisteme complexe CronoLine și EMUport pentru industrie și utilități. Avem stoc permanent în Timișoara pentru modelele standard (Stratos, DrainLift, VeroLine), iar pentru sisteme mari configurăm și aducem la comandă în 2-3 săptămâni.
+    infinitrade: `Comandăm produse Wilo prin lanțul de aprovizionare european al producătorului, fără un depozit propriu dedicat acestui brand. Nu putem confirma în timp real stocul central Wilo, așa că verificăm fiecare cerere înainte de a promite o dată. Pentru pompele de circulație uzuale (seria Stratos) livrarea poate ajunge la 24–72 h din stoc atunci când piesa e deja în rețeaua noastră, iar pentru sisteme mai mari precum CronoLine sau EMUport calculăm 2–6 săptămâni la comandă. Ca să vă facem o propunere, spuneți-ne debitul și înălțimea de pompare necesare, tipul instalației și diametrul racordului. Nu putem garanta intervenții în perioada de garanție a producătorului fără avizul acestuia, dar vă sprijinim cu alegerea modelului potrivit.`,
 
-Un lucru pe care clienții noștri îl apreciază foarte mult: îți facem sizing corect pentru pompele Wilo. Nu vindem "pompă mare să fie siguri" (cum fac unii), ci calculăm exact ce debit și presiune ai nevoie, și îți recomandăm modelul optim. Asta înseamnă economii la achiziție, dar mai ales economii uriașe la energie pe termen lung. Avem experiență cu Wilo de peste 8 ani, am montat sute de instalații, și cunoaștem foarte bine produsele lor. Livrare în 24-72h în toată România (expres pentru urgențe), garanție de la producător, și suport tehnic post-vânzare. Dacă aveți un proiect cu pompe Wilo (clădire nouă, reabilitare termică, schimbat pompe vechi), sunați-ne — vă ajutăm cu plăcere și fără obligații de cumpărare.`,
+    limitation: 'Nu putem confirma intervenții de service în perioada de garanție a producătorului și nu configurăm de la distanță aplicația Wilo-Assistant sau conectivitatea Modbus/BACnet a pompelor.',
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
+    sources: [
+      {
+        title: 'Wilo Group',
+        url: 'https://wilo-group.com/en/index.html',
+        publisher: 'Wilo SE',
+        accessed: '2026-09-22',
+      },
+    ],
   },
 
   'siemens': {
@@ -241,7 +276,7 @@ Un lucru pe care clienții noștri îl apreciază foarte mult: îți facem sizin
     employees: '303000+',
     overview: `Siemens e unul dintre giganții industriali ai Germaniei — fondată în 1847 (da, în timpul revoluțiilor europene din 1848), compania are aproape 180 de ani de istorie. Pentru context, când Siemens a început, telegraful electric era "tehnologia de vârf". Astăzi, Siemens e prezent în tot ce înseamnă electrificare, automatizare, și digitalizare industrială: de la motoare electrice și convertizoare de frecvență, până la PLC-uri, HMI-uri, SCADA, roboți industriali, și platforme de simulare digitală.
 
-În contextul InfiniTrade (pompare, ventilare, acționări industriale), Siemens e "provider-ul de bază" pentru motoare electrice și drive-uri. Seria SIMOTICS e lider mondial pentru motoare asincrone și sincrone industriale: de la motoare mici de 0.12 kW pentru ventilatoare, până la motoare gigantice de 50,000 kW pentru stații de pompare și compresoare în petrochimie. Eficiență IE2, IE3, IE4, IE5 — Siemens are totul. Și nu vorbim doar de motoare standard, ci și de motoare ATEX pentru zone cu risc de explozie, motoare marină pentru nave, motoarecu răcire specială pentru temperaturi extreme.
+În contextul InfiniTrade (pompare, ventilare, acționări industriale), Siemens e "provider-ul de bază" pentru motoare electrice și drive-uri. Seria SIMOTICS e una dintre gamele de referință pentru motoare asincrone și sincrone industriale: de la motoare mici de 0.12 kW pentru ventilatoare, până la motoare gigantice de 50,000 kW pentru stații de pompare și compresoare în petrochimie. Eficiență IE2, IE3, IE4, IE5 — Siemens are totul. Și nu vorbim doar de motoare standard, ci și de motoare ATEX pentru zone cu risc de explozie, motoare marină pentru nave, motoarecu răcire specială pentru temperaturi extreme.
 
 Seria SINAMICS (convertizoare de frecvență) e la fel de impresionantă: de la micro-drive-uri G120C de 0.37 kW, până la mega-drive-uri GM150 de 120,000 kW pentru aplicații în minerit și oțelării. Un SINAMICS nu doar pornește/oprește motorul — el optimizează consumul energetic, protejează motorul de suprasarcini, permite control precis de viteză și cuplu, comunică cu PLC-ul prin Profinet/Profibus, și poate face diagnosticare predictivă (îți spune când urmează să cedeze un rulment sau un ventilator).
 
@@ -259,7 +294,7 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
     keyProducts: [
       {
         name: 'SIMOTICS GP/SD/XP (Motoare Asincrone Industriale)',
-        description: 'Seria SIMOTICS (Siemens Motors and Control Systems) e "coloana vertebrală" pentru orice aplicație industrială cu motoare electrice. SIMOTICS GP (General Purpose) = motoare standard pentru ventilatoare, pompe, transportoare, puteri de 0.12 kW la 500 kW, eficiență IE2/IE3/IE4. SIMOTICS SD (Severe Duty) = motoare pentru condiții extreme (temperaturi -60°C până +60°C, umiditate ridicată, medii agresive), construcție robustă cu protecție IP55/IP66. SIMOTICS XP (Explosion Proof) = motoare ATEX pentru zone cu risc de explozie (rafinării, mine de cărbune, silozuri cereale), certificate ATEX Zone 1 și Zone 2. Toate variante au design modular, sunt compatibile cu drive-uri SINAMICS, și pot fi dotate cu senzori de temperatură, vibrații, rulmenți (pentru mentenanță predictivă). Fiabilitate legendară — am văzut motoare Siemens rulând 20+ ani fără reparații majore.'
+        description: 'Seria SIMOTICS (Siemens Motors and Control Systems) e "coloana vertebrală" pentru orice aplicație industrială cu motoare electrice. SIMOTICS GP (General Purpose) = motoare standard pentru ventilatoare, pompe, transportoare, puteri de 0.12 kW la 500 kW, eficiență IE2/IE3/IE4. SIMOTICS SD (Severe Duty) = motoare pentru condiții extreme (temperaturi -60°C până +60°C, umiditate ridicată, medii agresive), construcție robustă cu protecție IP55/IP66. SIMOTICS XP (Explosion Proof) = motoare ATEX pentru zone cu risc de explozie (rafinării, mine de cărbune, silozuri cereale), certificate ATEX Zone 1 și Zone 2. Toate variante au design modular, sunt compatibile cu drive-uri SINAMICS, și pot fi dotate cu senzori de temperatură, vibrații, rulmenți (pentru mentenanță predictivă). Fiabilitate legendară — se întâlnesc motoare Siemens rulând 20+ ani fără reparații majore.'
       },
       {
         name: 'SINAMICS G120 / G120C (Convertizoare de Frecvență)',
@@ -301,9 +336,28 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       'Infrastructură (tuneluri, metrou, sisteme de ventilare/evacuare fum)',
     ],
 
-    infinitrade: `Furnizăm produse Siemens pentru automatizări și acționări electrice în România — motoare SIMOTICS, drive-uri SINAMICS, PLC-uri SIMATIC, și HMI Comfort Panels. Nu ținem stoc permanent pentru toate modelele (gama Siemens e imensă), dar aducem la comandă în 1-2 săptămâni din distribuția oficială Siemens România.
+    infinitrade: `Livrăm echipamente Siemens către clienții din România prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul Siemens, care este foarte extins, astfel încât fiecare comandă pornește de la o verificare reală a disponibilității. Motoarele și convertizoarele din seriile de bază pot ajunge în 24–72 h din stoc atunci când referința e deja la furnizor, în timp ce pentru configurații personalizate de automatizare calculăm 2–6 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de codul produsului, puterea motorului sau modelul convertizorului, tensiunea de alimentare și aplicația vizată. Nu putem asigura programarea completă a unui sistem SCADA fără o discuție tehnică prealabilă, dar vă ajutăm cu selecția componentelor și cu plasarea comenzii.`,
 
-Ce oferim în plus: consultanță tehnică completă pentru sizing motoare și drive-uri. Îți calculăm exact ce putere motor ai nevoie pentru pompa/ventilatorul tău, ce tip de drive (V/f sau vectorial), ce protecții sunt necesare, și îți recomandăm configurația optimă. Avem ingineri cu training Siemens (TIA Portal, SINAMICS commissioning), deci nu improvizăm. Pentru proiecte complexe (automatizare stație de pompare, sistem SCADA pentru utilități), vă putem face și programarea PLC + HMI la cheie. Livrare în toată România, garanție de la producător (2 ani standard, extensibilă la 5 ani), suport tehnic post-vânzare. Dacă aveți nevoie de soluții Siemens pentru un proiect industrial, hai să vorbim — vă facem ofertă personalizată cu cele mai bune condiții din piață.`,
+    limitation: 'Nu putem asigura programarea completă a unui sistem SCADA sau service-ul în perioada de garanție a producătorului fără o discuție tehnică prealabilă cu Siemens.',
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
+    sources: [
+      {
+        title: 'Company history | Siemens',
+        url: 'https://www.siemens.com/global/en/company/about/history.html',
+        publisher: 'Siemens AG',
+        accessed: '2026-09-22',
+      },
+      {
+        title: 'About Siemens',
+        url: 'https://www.siemens.com/global/en/company/about.html',
+        publisher: 'Siemens AG',
+        accessed: '2026-09-22',
+      },
+    ],
   },
 
   'abb': {
@@ -312,7 +366,7 @@ Ce oferim în plus: consultanță tehnică completă pentru sizing motoare și d
     employees: '105000+',
     overview: `ABB (Asea Brown Boveri) e rezultatul unei fuziuni mega în 1988 între suedezii de la ASEA și elvețienii de la BBC Brown Boveri — două gigante europene în electrificare și automatizări. Deși compania "modernă" ABB are 36 de ani, rădăcinile merg mult mai adânc: ASEA a fost fondată în 1883, iar BBC în 1891. Deci vorbim de peste 130 de ani de experiență combinată în inginerie electrică și control industrial.
 
-Astăzi, ABB e lider mondial în robotică industrială (de exemplu, roboți pentru linii de asamblare auto), electrificare (transformatoare de înaltă tensiune, stații de distribuție), acționări industriale (motoare, drive-uri, soft-startere), și automatizări (PLC-uri, SCADA, sisteme de control pentru fabrici). În contextul InfiniTrade (pompare, ventilare, motoare), ABB e "rivalul direct" al Siemens — ambele oferă gamă completă de motoare electrice și convertizoare de frecvență de top.
+Astăzi, ABB este unul dintre principalii jucători în robotică industrială (de exemplu, roboți pentru linii de asamblare auto), electrificare (transformatoare de înaltă tensiune, stații de distribuție), acționări industriale (motoare, drive-uri, soft-startere), și automatizări (PLC-uri, SCADA, sisteme de control pentru fabrici). În contextul InfiniTrade (pompare, ventilare, motoare), ABB e "rivalul direct" al Siemens — ambele oferă gamă completă de motoare electrice și convertizoare de frecvență de top.
 
 Seria ABB de motoare (IE2, IE3, IE4, IE5) e poate cea mai eficientă din lume. ABB a fost primul producător care a lansat comercial motoare IE5 (synchronous reluctance motors cu magneti permanenți) — eficiență de peste 92%, cu 20-30% mai puțin consum decât motoarele IE3 standard. Pentru o fabrică care rulează motoare non-stop, upgrade-ul la ABB IE5 se amortizează în 1-2 ani doar din economiile la energie.
 
@@ -326,7 +380,7 @@ Un lucru pe care ABB îl face excepțional e platforma ABB Ability — cloud IoT
       'Seria ACS (drive-uri): de la micro la mega (0.18 kW până la 100,000+ kW), control vectorial avansat, regenerare energie',
       'Soft-startere PSR/PST: protejează motoarele și rețeaua electrică, reduc curentul de pornire cu 70%, prelungesc viața motorului',
       'Platformă digitală ABB Ability: conectivitate cloud, monitorizare remote, mentenanță predictivă, analize avansate',
-      'Suport tehnic global: centru de service ABB în București, training-uri certificate, asistență 24/7 pentru aplicații critice',
+      'Suport tehnic global: rețea de service ABB documentată de producător, training-uri certificate, asistență 24/7 pentru aplicații critice',
     ],
 
     keyProducts: [
@@ -374,8 +428,27 @@ Un lucru pe care ABB îl face excepțional e platforma ABB Ability — cloud IoT
       'Marin și Offshore (acționări electrice pentru nave, platforme petroliere)',
     ],
 
-    infinitrade: `Distribuim produse ABB în România pentru aplicații industriale de pompare, ventilare, și automatizări — motoare IE4/IE5, drive-uri ACS880, soft-startere PSR/PST, și soluții digitale ABB Ability. Nu ținem stoc permanent pentru toate modelele (gama ABB e uriașă), dar aducem la comandă în 2-3 săptămâni din distribuția ABB România.
+    infinitrade: `Aducem echipamente ABB pentru automatizări și acționări prin furnizori din Uniunea Europeană, fără stoc propriu permanent pentru această gamă. Nu avem surse proprii despre stocul central ABB, așa că orice termen se confirmă înainte de a fi transmis clientului. Pentru motoare și drive-uri din seriile curente putem oferi uneori 24–72 h din stoc dacă piesa e deja recepționată, iar pentru echipamente cu configurație specială estimăm 2–6 săptămâni la comandă. Pentru a pregăti o ofertă, trimiteți-ne puterea și turația motorului, tipul aplicației și protocolul de comunicație dorit. Nu putem confirma programarea platformei ABB Ability sau service-ul în garanție fără implicarea producătorului, dar vă asistăm cu dimensionarea și urmărirea livrării.`,
 
-Punctul nostru forte e consultanța tehnică: îți calculăm exact ce motor și drive ABB ai nevoie pentru aplicația ta, îți facem comparație de eficiență (CE economisești dacă upgrade-zi de la IE3 la IE5), și îți recomandăm configurația optimă. Avem experiență cu ABB de peste 12 ani, am integrat sute de drive-uri ACS în diverse industrii, și cunoaștem foarte bine produsele lor. Pentru proiecte complexe (automatizare stație de pompare, retrofit instalații vechi cu drive-uri moderne), vă ajutăm cu sizing, programare, și punere în funcțiune. Livrare în toată România, garanție completă de la producător (2 ani standard, extensibilă), suport tehnic post-vânzare. Dacă aveți nevoie de soluții ABB pentru economie de energie sau automatizări industriale, sunați-ne — vă oferim consultanță gratuită și ofertă personalizată.`,
+    limitation: 'Nu putem confirma configurarea platformei ABB Ability sau intervențiile de service în perioada de garanție a producătorului fără implicarea directă a ABB.',
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
+    sources: [
+      {
+        title: 'About ABB',
+        url: 'https://www.abb.com/global/en/company/about',
+        publisher: 'ABB',
+        accessed: '2026-09-22',
+      },
+      {
+        title: 'ABB history',
+        url: 'https://www.abb.com/global/en/company/about/history',
+        publisher: 'ABB',
+        accessed: '2026-09-22',
+      },
+    ],
   },
 };

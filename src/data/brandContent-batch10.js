@@ -3,11 +3,11 @@ export const brandContentBatch10 = {
     founded: 1969,
     headquarters: 'Essen, Germania',
     employees: '8,000+',
-    overview: `IFM Electronic este unul dintre liderii mondiali în tehnologia senzorilor industriali și sistemelor de automatizare. De peste 50 de ani dezvoltăm și producem senzori inductivi, capacitivi, fotoelectrici, de presiune, temperatură și debit care setează standardele în industrie. Avem fabrici în Germania și centre de competență în toată lumea, cu peste 8,000 de specialiști dedicați inovației.
+    overview: `IFM Electronic este un producător german de senzori industriali și sisteme de automatizare, cu prezență internațională. De peste 50 de ani dezvoltăm și producem senzori inductivi, capacitivi, fotoelectrici, de presiune, temperatură și debit care setează standardele în industrie. Avem fabrici în Germania și centre de competență în toată lumea, cu peste 8,000 de specialiști dedicați inovației.
 
 Suntem pionieri ai tehnologiei IO-Link, care a revoluționat comunicarea între senzori și sisteme de control. Fiecare produs IFM este conceput pentru fiabilitate maximă în condiții extreme - temperaturi de la -40°C la +200°C, presiuni până la 1000 bar, vibrații și șocuri intense. Majoritatea senzorilonr noștri sunt construiți integral din inox 316L sau titan, cu clase de protecție IP68/IP69K pentru medii umede, prafuite sau corozive.
 
-Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci soluții complete de monitorizare și diagnostic predictiv. Platformele noastre moneo și ecosys permit analiza în timp real a semnalelor de la sute de senzori, detectarea anomaliilor și planificarea întreținerii înainte ca defecțiunile să apară. Asta înseamnă costuri mai mici, timp de nefuncționare zero și eficiență crescută pentru clienții noștri din automotive, food & beverage, logistică, chimie și energie.`,
+Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci soluții complete de monitorizare și diagnostic predictiv. Platformele producătorului moneo și ecosys permit analiza în timp real a semnalelor de la sute de senzori, detectarea anomaliilor și planificarea întreținerii înainte ca defecțiunile să apară. Asta înseamnă costuri mai mici, timp de nefuncționare zero și eficiență crescută pentru clienții producătorului din automotive, food & beverage, logistică, chimie și energie.`,
     whyChoose: [
       'Tehnologie IO-Link nativă pe majoritatea senzorilonr - configurare rapidă, diagnoză la distanță, schimb automat parametri',
       'Calibrare din fabrică cu certificate de etalonare trasabile NIST/PTB - precizie garantată până la 0.05% FS',
@@ -56,7 +56,16 @@ Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci 
       'Farmaceutică - senzori sanitari, trasabilitate, validare procese',
       'Machine Building - OEM solutions, integrare IO-Link, IIoT'
     ],
-    infinitrade: `InfiniTrade aduce în România gama completă IFM Electronic - peste 15,000 de referințe de senzori și sisteme IO-Link disponibile pentru livrare rapidă din stocul nostru din Timișoara sau direct din depozitele IFM din Germania. Fie că ai nevoie de un senzor inductiv M12 pentru o linie automotive sau de un sistem complet IO-Link cu 50 de senzori pentru o fabrică nouă, îți găsim soluția optimă în 24-48h. Echipa noastră tehnică configurează parametrii IO-Link, verifică compatibilitatea cu PLC-ul tău Siemens/AB/Schneider și asigură documentația necesară pentru punere în funcțiune. Livrăm în toată țara cu curier rapid, iar pentru proiecte complexe venim la fața locului pentru audit, măsurători și setup inițial al platformei moneo.`
+    infinitrade: `Aducem în România senzorii și sistemele IO-Link IFM Electronic prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fizic disponibil la un moment dat, așa că lucrăm cu informațiile publice ale producătorului și cu disponibilitatea confirmată de furnizor înainte să dăm un termen. Ca regulă generală a firmei, produsele curente pot ajunge în 24–72 h din stoc, iar variantele speciale sau seturile complete IO-Link, la comandă, în 2–6 săptămâni. Trimite-ne codul exact al senzorului sau al modulului, tensiunea de alimentare și tipul de ieșire dorit, iar noi verificăm la furnizor termenul real și eventuale echivalențe. Configurarea avansată a platformei moneo pentru procesul tău rămâne în sarcina echipei tale tehnice sau a producătorului.`,
+    sources: [
+      { title: 'ifm electronic - pagina oficială (sediu Essen)', url: 'https://www.ifm.com/de/en', publisher: 'ifm electronic gmbh', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    limitation: 'Nu putem confirma disponibilitatea în timp real a fiecărei referințe IFM și nu oferim configurare avansată a platformei moneo fără implicarea producătorului.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'internormen': {
@@ -116,7 +125,16 @@ Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fieca
       'Aerospace - sisteme hidraulice aviație, teste componente',
       'Test Benches - standuri testare pompe, motoare, supape'
     ],
-    infinitrade: `InfiniTrade distribuie în România întreaga gamă Internormen - filtre presiune, retur, aspirație și sisteme off-line pentru orice aplicație hidraulică. Avem în stoc permanent la Timișoara peste 300 de referințe de elemente filtrante originale și corpuri de filtru pentru livrare în 24h. Dacă ai o instalație hidraulică care consumă ulei, face zgomot sau are drifturi la cilindri, problema este aproape sigur uleiul contaminat. Venim cu echipament de analiză, prelevăm probe, măsurăm clasa de curățenie conform ISO 4406 și îți recomandăm filtrarea necesară pentru a reveni la parametrii optimi. Livrăm filtre noi sau recondiționăm cele existente cu elemente originale Internormen, inclusiv pentru sisteme vechi de 20-30 ani.`
+    infinitrade: `Comandăm filtrele și elementele Internormen prin furnizori din Uniunea Europeană, fără să ținem evidențe proprii despre ce se află pe stoc în orice clipă. Ne bazăm pe surse publice ale producătorului și pe confirmarea furnizorului pentru fiecare cerere concretă. Ca formulare generală a firmei, piesele uzuale de filtrare ajung în 24–72 h din stoc, iar elementele speciale sau sistemele off-line complete, la comandă, în 2–6 săptămâni. Ca să îți dăm un răspuns exact, spune-ne modelul carcasei sau codul elementului filtrant, debitul instalației și clasa de filtrare dorită. Nu efectuăm noi analize de laborator ale uleiului; pentru acestea recomandăm un laborator acreditat sau contactul direct cu fabrica din Schmalkalden.`,
+    sources: [
+      { title: 'Internormen Technology - pagina oficială', url: 'https://www.internormen.com/', publisher: 'Internormen Technology GmbH', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    limitation: 'Nu efectuăm noi analize de laborator ale uleiului hidraulic și nu putem garanta disponibilitate neîntreruptă pentru toate dimensiunile de filtre Internormen.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'jean-muller': {
@@ -125,7 +143,7 @@ Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fieca
     employees: '800+',
     overview: `Jean Müller este producător german de siguranțe fuzibile de înaltă performanță pentru protecția instalațiilor electrice industriale. De peste 125 de ani fabricăm siguranțe tip NH (formă lamă) și HRC (High Rupturing Capacity) care protejează transformatoare, motoare, condensatoare, invertoare și cabluri electrice de scurtcircuite și suprasarcini. Fabrica noastră din Nürnberg produce anual milioane de siguranțe exportate în peste 80 de țări pe cinci continente.
 
-Tehnologia noastră se bazează pe umplerea corpului ceramic cu nisip cuarțos calibrat care absoarbe energia arcului electric la întrerupere. Când curentul de scurtcircuit atinge 10-100 kA, firul fuzibil se topește în microsecunde, iar nisipul stinge arcul înainte ca acesta să distrugă echipamentele din aval. Testăm fiecare tip de siguranță în laboratorul nostru la curenti de scurtcircuit de până la 120 kA - mai mult decât vei găsi vreodată într-o instalație industrială normală.
+Tehnologia producătorului se bazează pe umplerea corpului ceramic cu nisip cuarțos calibrat care absoarbe energia arcului electric la întrerupere. Când curentul de scurtcircuit atinge 10-100 kA, firul fuzibil se topește în microsecunde, iar nisipul stinge arcul înainte ca acesta să distrugă echipamentele din aval. Testăm fiecare tip de siguranță în laboratorul nostru la curenti de scurtcircuit de până la 120 kA - mai mult decât vei găsi vreodată într-o instalație industrială normală.
 
 Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jean Müller fabricată astăzi are exact aceleași caracteristici I²t și caracteristică timp-curent ca una fabricată acum 20 de ani cu același cod. Asta înseamnă că poți completa un set vechi fără să recalculezi selectivitatea sau să schimbi întreaga instalație. Pentru electricieni și ingineri de mentenanță, asta înseamnă liniște și predictibilitate într-o lume în care echipamentele se schimbă constant.`,
     whyChoose: [
@@ -176,7 +194,16 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       'Data Centers - UPS, transformatoare, panouri distribuție',
       'Water Treatment - pompe înaltă putere, suflante aer'
     ],
-    infinitrade: `InfiniTrade păstrează în stoc permanent la Timișoara peste 500 de referințe de siguranțe Jean Müller - NH gG/aM 6A-1250A, HRC 690V, baze și accesorii. Livrăm în 24h oriunde în România, iar pentru comenzi urgente (avarie transformator, motor ars) facem livrare express în 4-6h în zona Banat. Echipa noastră tehnică te ajută să alegi calibrul corect pe baza secțiunii cablului sau puterii motorului - nu trebuie să calculezi singur I²t sau caracteristica timp-curent. Oferim pachete complete: siguranțe + baze + borne + etichetare conformă ANRE pentru tablouri noi sau recondiționări. Pentru proiecte mari (>100 buc) negociem prețuri speciale și livrare eșalonată direct din fabrica Jean Müller Germania.`
+    infinitrade: `Procurăm siguranțele Jean Müller prin lanțuri de aprovizionare din spațiul UE și nu avem un sistem propriu de evidență a stocului fizic în timp real. Informațiile despre calibre și caracteristici le preluăm din surse publice ale producătorului, iar disponibilitatea o confirmăm punctual la furnizor. Ca regulă generală a firmei, siguranțele NH și HRC uzuale pot ajunge în 24–72 h din stoc, în timp ce loturile mari sau calibrele rare intră pe flux de comandă cu termen de 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de curentul nominal, tensiunea instalației și numărul de bucăți. Nu calculăm noi selectivitatea instalației electrice, care rămâne responsabilitatea proiectantului.`,
+    sources: [
+      { title: 'Jean Müller GmbH - pagina oficială', url: 'https://www.jean-mueller.de/', publisher: 'Jean Müller GmbH Elektrotechnische Fabrik', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    limitation: 'Nu calculăm noi selectivitatea instalației electrice și nu putem garanta disponibilitate neîntreruptă pentru toate calibrele de siguranțe Jean Müller.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'jumo': {
@@ -187,7 +214,7 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
 
 Avem fabrici proprii în Germania unde producem sonde de temperatură Pt100/Pt1000 cu toleranță clasa A sau AA conform IEC 60751, traductoare de presiune ceramice cu acuratețe 0.25% FS, regulatoare PID multiloop cu algoritmi autotune. Fiecare produs JUMO este calibrat individual în laborator acreditat DAkkS/ISO 17025 și vine cu certificat de calibrare trasabil la standardele naționale germane. Pentru industria farmaceutică și alimentară oferim versiuni sanitare cu certificări FDA 21 CFR Part 11 și 3-A Sanitary Standards.
 
-Ceea ce ne face preferați de inginerii de proces este versatilitatea: același regulator JUMO poate controla temperatură, presiune, nivel sau pH doar schimbând senzorul și câțiva parametri software. Platformele noastre mTRON și AQUIS permit automatizarea completă a proceselor complexe - de la fermentare bere la sterilizare autoclave, de la congelare blast-chiller la pasteurizare lapte. Integrare nativă PROFIBUS, PROFINET, Modbus și OPC UA facilitează conectarea la sisteme SCADA și MES.`,
+Ceea ce ne face preferați de inginerii de proces este versatilitatea: același regulator JUMO poate controla temperatură, presiune, nivel sau pH doar schimbând senzorul și câțiva parametri software. Platformele producătorului mTRON și AQUIS permit automatizarea completă a proceselor complexe - de la fermentare bere la sterilizare autoclave, de la congelare blast-chiller la pasteurizare lapte. Integrare nativă PROFIBUS, PROFINET, Modbus și OPC UA facilitează conectarea la sisteme SCADA și MES.`,
     whyChoose: [
       'Calibrare fabrică DAkkS/ISO 17025 - certificat trasabil inclus pentru fiecare senzor',
       'Sonde Pt100 clasa AA toleranță ±0.1°C la 0°C - precizie superioară pentru procese critice',
@@ -237,16 +264,25 @@ Ceea ce ne face preferați de inginerii de proces este versatilitatea: același 
       'Energy - biogas, biomass, solar thermal, CHP',
       'Environmental - monitorizare emisii, incineratoare, compostare'
     ],
-    infinitrade: `InfiniTrade este distribuitorul tău JUMO în România - aducem la Timișoara întreaga gamă de senzori temperatură, presiune, nivel, regulatoare și sisteme SCADA. Avem în stoc permanent sonde Pt100 sanitare, regulatoare dTRON și traductoare pentru livrare în 24-48h. Pentru aplicații speciale (pharma, food safety) comandăm direct din fabrica JUMO Germania echipamente cu certificare 3-A, EHEDG sau FDA și documentație IQ/OQ pentru validare. Oferim suport tehnic complet: te ajutăm să alegi senzorul potrivit pentru procesul tău, configurăm regulatorul PID, facem punerea în funcțiune la fața locului și instruim operatorii. Recalibrăm senzori vechi în laboratorul JUMO și emitem certificat DAkkS valabil pentru audituri ANSVSA sau ANSM.`
+    infinitrade: `Aducem senzorii și regulatoarele JUMO din Fulda prin furnizori din Uniunea Europeană, fără evidență proprie a stocului disponibil în fiecare clipă. Datele tehnice pe care le folosim provin din surse publice ale producătorului, iar termenul real îl confirmăm după ce verificăm cererea la furnizor. Ca regulă generală a firmei, sondele și traductoarele obișnuite pot ajunge în 24–72 h din stoc, iar regulatoarele configurate special sau seturile pentru automatizare completă intră pe flux de comandă de 2–6 săptămâni. Spune-ne domeniul de măsură, tipul de ieșire și, dacă e cazul, standardul de calibrare cerut, ca să verificăm rapid opțiunile. Nu efectuăm noi calibrări acreditate DAkkS și nu configurăm software-ul platformelor AQUIS sau mTRON pentru procesul tău specific.`,
+    sources: [
+      { title: 'JUMO GmbH & Co. KG - pagina oficială', url: 'https://www.jumo.net/', publisher: 'JUMO GmbH & Co. KG', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    limitation: 'Nu efectuăm calibrări acreditate DAkkS în nume propriu și nu configurăm software-ul platformelor AQUIS/mTRON pentru procesul specific al clientului.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'karcher-industrial': {
     founded: 1935,
     headquarters: 'Winnenden, Germania',
     employees: '14,000+',
-    overview: `Kärcher este liderul mondial în tehnologia de curățenie profesională și industrială. De peste 85 de ani dezvoltăm și producem mașini de spălat cu presiune, aspiratoare industriale, mașini de spălat pardoseli și sisteme complete de curățare pentru fabrici, depozite, parcări, aeroporturi și spații publice. Cu peste 14,000 de angajați și prezență în 190 de țări, Kärcher stabilește standardele în eficiență, durabilitate și sustenabilitate.
+    overview: `Kärcher este un producător german de echipamente de curățenie profesională și industrială, cu rețea de distribuție în peste 190 de țări. De peste 85 de ani dezvoltăm și producem mașini de spălat cu presiune, aspiratoare industriale, mașini de spălat pardoseli și sisteme complete de curățare pentru fabrici, depozite, parcări, aeroporturi și spații publice. Cu peste 14,000 de angajați și prezență în 190 de țări, Kärcher stabilește standardele în eficiență, durabilitate și sustenabilitate.
 
-Gama noastră industrială începe de la mașini mobile pentru curățare zilnică și ajunge până la sisteme robotizate complet automatizate care curăță 10,000 m² pe oră fără operator. Folosim tehnologii brevitate precum iCapsol (spumă uscată cu consum 90% mai mic de apă), ec!iciency (motoare brushless care consumă cu 50% mai puțin curent) și KART (navigație laser autonomă). Fiecare mașină Kärcher Industrial este construită în fabricile noastre din Germania pentru a rezista la utilizare intensivă 8-16 ore pe zi, 7 zile pe săptămână, ani la rând.
+Gama noastră industrială începe de la mașini mobile pentru curățare zilnică și ajunge până la sisteme robotizate complet automatizate care curăță 10,000 m² pe oră fără operator. Folosim tehnologii brevitate precum iCapsol (spumă uscată cu consum 90% mai mic de apă), ec!iciency (motoare brushless care consumă cu 50% mai puțin curent) și KART (navigație laser autonomă). Fiecare mașină Kärcher Industrial este construită în fabricile producătorului din Germania pentru a rezista la utilizare intensivă 8-16 ore pe zi, 7 zile pe săptămână, ani la rând.
 
 Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 1,000 de brevete active pentru tehnologii de pulverizare, aspirare, filtrare și robotică. Toate produsele sunt testate în laboratoare proprii la zeci de mii de ore funcționare simulată înainte de lansare. Rezultatul: utilaje care își mențin performanța și eficiența chiar și după 10,000-15,000 ore de utilizare, cu costuri de mentenanță minime și timp de nefuncționare aproape zero.`,
     whyChoose: [
@@ -297,7 +333,16 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
       'Construction - șantiere, echipamente murdare, betoane',
       'Agriculture - ferme, grajduri, tractoare, combine'
     ],
-    infinitrade: `InfiniTrade aduce în România gama completă Kärcher Professional & Industrial din Timișoara - de la aspiratoare IVR pentru ateliere mici până la roboți KIRA pentru depozite de 50,000 m². Avem în stoc permanent autolăvătoare, aspiratoare, mașini presiune și consumabile (perii, filtre, detergenti) pentru livrare în 24-48h. Oferim demo gratuit la fața locului pentru orice mașină - vii cu utilajul, testezi pe suprafața ta reală, vezi rezultatele și apoi decizi. Service tehnic specializat Kärcher, cu tehnicieni instruiți în Germania - intervenție în 24h pentru clienții cu contract mentenanță. Pentru flote mari (10+ mașini) oferim fleet management digital cu raportare centralizată și planificare service predictivă.`
+    infinitrade: `Comandăm utilajele Kärcher Professional prin canale de aprovizionare din Uniunea Europeană, fără să deținem un stoc propriu garantat pentru fiecare model în orice moment. Specificațiile tehnice le luăm din surse publice ale producătorului, iar disponibilitatea concretă o verificăm la furnizor înainte să dăm un termen ferm. Ca formulare generală a firmei, echipamentele uzuale de curățenie pot ajunge în 24–72 h din stoc, iar liniile automatizate sau roboții de curățare intră pe comandă specială cu termen de 2–6 săptămâni. Pentru o ofertă corectă spune-ne suprafața de curățat, tipul de pardoseală și dacă ai nevoie de operator sau de soluție autonomă. Intervențiile care țin de garanția producătorului rămân în sarcina rețelei de service Kärcher.`,
+    sources: [
+      { title: 'Kärcher International - pagina oficială (sediu Winnenden)', url: 'https://www.kaercher.com/int/', publisher: 'Alfred Kärcher SE & Co. KG', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    limitation: 'Nu oferim service în garanția producătorului pentru utilajele Kärcher și nu putem garanta disponibilitate neîntreruptă pentru fiecare model din gama industrială.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'keller': {
@@ -306,9 +351,9 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
     employees: '350+',
     overview: `Keller este producător elvețian de traductoare și transmițătoare de presiune piezoresistive de înaltă precizie. De 50 de ani dezvoltăm senzori pentru măsurarea presiunii în aplicații industriale, hidrologie, geotehnică, automotive și aerospace unde precizia, stabilitatea pe termen lung și fiabilitatea sunt absolut critice. Fabrica noastră din Winterthur produce anual peste 200,000 de traductoare exportate în 80 de țări, fiecare calibrat individual și certificat.
 
-Tehnologia noastră se bazează pe celule piezoresistive cu membrană de silicone monocristalin pe care sunt difuzați rezistori Wheatstone. Când presiunea deformează membrana cu câțiva micrometri, rezistența electrică se modifică proporțional, generând un semnal electric precis și stabil. Compensăm temperatura folosind rezistori integrati pe același chip și algoritmi digitali care corectează derივarea termică până la ±0.05% FS pe întregul domeniu -40°C până +125°C.
+Tehnologia producătorului se bazează pe celule piezoresistive cu membrană de silicone monocristalin pe care sunt difuzați rezistori Wheatstone. Când presiunea deformează membrana cu câțiva micrometri, rezistența electrică se modifică proporțional, generând un semnal electric precis și stabil. Compensăm temperatura folosind rezistori integrati pe același chip și algoritmi digitali care corectează derივarea termică până la ±0.05% FS pe întregul domeniu -40°C până +125°C.
 
-Ceea ce ne face unici în lume este expertiza în aplicații extreme: traductoare submersibile până la 5,000 metri adâncime oceană, senzori pentru 700 bar presiune hidraulică în prese de forjare, transmițătoare wireless pentru monitorizare baraje cu autonomie 10 ani pe baterie. Colaborăm cu NASA pentru senzori aerospace, cu Schlumberger pentru sonde petroliere de 10 km adâncime și cu CERN pentru sisteme criogenice la -269°C. Dacă măsurarea trebuie să fie perfectă, alegi Keller.`,
+Avem expertiză extinsă în aplicații extreme: traductoare submersibile până la 5,000 metri adâncime oceană, senzori pentru 700 bar presiune hidraulică în prese de forjare, transmițătoare wireless pentru monitorizare baraje cu autonomie 10 ani pe baterie. Colaborăm cu NASA pentru senzori aerospace, cu Schlumberger pentru sonde petroliere de 10 km adâncime și cu CERN pentru sisteme criogenice la -269°C. Dacă măsurarea trebuie să fie perfectă, alegi Keller.`,
     whyChoose: [
       'Acuratețe 0.05% FS - de 10 ori mai bună decât traductoare industriale standard',
       'Stabilitate pe termen lung <0.1% pe an - zero necesitate recalibrare anuală',
@@ -320,7 +365,7 @@ Ceea ce ne face unici în lume este expertiza în aplicații extreme: traductoar
     keyProducts: [
       {
         name: 'Traductoare seria 33X pentru nivel apă',
-        description: 'Traductoarele noastre submersibile 33X sunt standard mondial pentru măsurarea nivelului în fântâni, puțuri, rezervoare, râuri și lacuri. Domenii de presiune de la 0-1 mH2O până la 0-500 mH2O (echivalent 5-5000 metri adâncime). Membrană ceramică Al2O3 sau titan, carcasă inox 316L sau titan pur pentru apă de mare. Compensare barometrică automată prin tub capilary în cablu sau senzor barometric integrat. Acuratețe 0.1% FS, stabilitate 0.1% pe an. Cablu poliuretan (PU) sau FEP ranforsat cu kevlar, rezistent UV și abraziune. Ieșire 4-20mA, 0-10V sau Modbus RTU. Certificare IP68 și testare la 2x presiune nominală.'
+        description: 'Traductoarele noastre submersibile 33X sunt utilizate pe scară largă pentru măsurarea nivelului în fântâni, puțuri, rezervoare, râuri și lacuri. Domenii de presiune de la 0-1 mH2O până la 0-500 mH2O (echivalent 5-5000 metri adâncime). Membrană ceramică Al2O3 sau titan, carcasă inox 316L sau titan pur pentru apă de mare. Compensare barometrică automată prin tub capilary în cablu sau senzor barometric integrat. Acuratețe 0.1% FS, stabilitate 0.1% pe an. Cablu poliuretan (PU) sau FEP ranforsat cu kevlar, rezistent UV și abraziune. Ieșire 4-20mA, 0-10V sau Modbus RTU. Certificare IP68 și testare la 2x presiune nominală.'
       },
       {
         name: 'Transmițătoare seria 21/25/35Y pentru industrie',
@@ -357,20 +402,30 @@ Ceea ce ne face unici în lume este expertiza în aplicații extreme: traductoar
       'Marine - balast, apă de mare, sisteme hidraulice navale',
       'Environmental - monitorizare poluare, managementul apelor'
     ],
-    infinitrade: `InfiniTrade este distribuitorul tău Keller în România - aducem la Timișoara traductoare de presiune elvețiene pentru aplicații care cer precizie și fiabilitate maximă. Avem în stoc seria 33X pentru nivel apă și seria 21/25 industrială pentru livrare rapidă. Pentru proiecte de monitorizare hidrologie, geotehnică sau infrastructură (baraje, versanți, poduri) oferim consultanță completă: calculăm domeniul de presiune necesar, alegem materialul membranei în funcție de mediu, configurăm datalogger-ul wireless și instalăm sistemul complet la fața locului. Recalibrăm traductoare vechi în laboratorul Keller Elveția și emitem certificat acreditat SAS valabil pentru audituri sau cerințe legale. Livrăm în 24-72h oriunde în România.`
+    infinitrade: `Procurăm traductoarele de presiune Keller din Winterthur prin furnizori din Uniunea Europeană și nu avem evidență proprie a stocului fizic pentru fiecare referință. Parametrii tehnici îi preluăm din surse publice ale producătorului elvețian, iar termenul concret îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, traductoarele standard pot ajunge în 24–72 h din stoc, iar variantele submersibile speciale sau seturile wireless intră pe flux de comandă de 2–6 săptămâni. Trimite-ne domeniul de presiune, tipul de mediu măsurat și lungimea de cablu necesară pentru o verificare rapidă. Nu emitem noi certificate proprii de calibrare; pentru recalibrare acreditată clientul apelează direct la laboratorul producătorului.`,
+    sources: [
+      { title: 'KELLER Pressure - Home', url: 'https://keller-pressure.com/en/', publisher: 'Keller AG für Druckmesstechnik', accessed: '2026-09-22' },
+      { title: 'KELLER Pressure - Company', url: 'https://keller-pressure.com/en/company', publisher: 'Keller AG für Druckmesstechnik', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    limitation: 'Nu emitem noi certificate de calibrare acreditate SAS și nu putem garanta disponibilitate neîntreruptă pentru toate variantele submersibile Keller.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'kluber': {
     founded: 1929,
     headquarters: 'München, Germania',
     employees: '2,500+',
-    overview: `Klüber Lubrication este liderul mondial în lubrifianți speciali de înaltă performanță pentru aplicații industriale extreme unde unsori și uleiuri convenționale eșuează. De peste 90 de ani dezvoltăm formulări unice pentru temperaturi de la -70°C până +1200°C, viteze de rotație de peste 100,000 rpm, vid înalt 10⁻⁹ mbar, radiații nucleare, compatibilitate oxigen pur, contactul cu alimente și medicamente. Cu peste 2,500 de specialiști în 270 de locații mondiale, Klüber combină chimia de vârf cu expertiză aplicativă profundă.
+    overview: `Klüber Lubrication este un producător german specializat în lubrifianți speciali de înaltă performanță pentru aplicații industriale extreme unde unsori și uleiuri convenționale eșuează. De peste 90 de ani dezvoltăm formulări unice pentru temperaturi de la -70°C până +1200°C, viteze de rotație de peste 100,000 rpm, vid înalt 10⁻⁹ mbar, radiații nucleare, compatibilitate oxigen pur, contactul cu alimente și medicamente. Cu peste 2,500 de specialiști în 270 de locații mondiale, Klüber combină chimia de vârf cu expertiză aplicativă profundă.
 
 Portofoliul nostru cuprinde peste 3,000 de formulări specializate: unsori sintetice pe bază PFPE sau PAO pentru temperaturi extreme, uleiuri de înaltă performanță pentru reductoare și lagăre, paste de asamblare, lubrifianți solizi MoS2 sau PTFE, fluide de răcire pentru prelucrări metalice. Fiecare produs Klüber este optimizat pentru o aplicație specifică și testat în laboratoarele noastre până la milioane de cicluri sau mii de ore funcționare înainte de lansare comercială.
 
 Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klüber, primești acces la o echipă de tribologi care analizează aplicația ta, testează compatibilitatea materialelor, calculează intervalul de reungere și monitorizează performanța în timp. Colaborăm cu BMW pentru unsori transmisii electrice, cu SKF pentru preungere lagăre, cu NASA pentru lubrifianți aerospace și cu Nestlé pentru unsori food-grade. Unde fiabilitatea contează mai mult decât prețul, alegi Klüber.`,
     whyChoose: [
-      'Domeniu temperatură -70°C până +1200°C - singurele unsori care funcționează în extreme totale',
+      'Domeniu temperatură -70°C până +1200°C - unsori formulate pentru condiții de temperatură extremă',
       'Formulări sintetice PFPE - inerți chimic total, compatibili oxigen pur, nu ard, nu oxidează',
       'NSF H1 food-grade - contactul accidental cu alimentele este sigur conform FDA',
       'Durată viață extinsă - intervaluri reungere de 5-10 ori mai mari decât unsori minerale',
@@ -418,7 +473,16 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       'Mining - excavatoare, crushers, transportoare, cilindri hidraulici',
       'Aerospace - actuatoare, pompe hidraulice, lagăre înaltă viteză'
     ],
-    infinitrade: `InfiniTrade distribuie în România gama Klüber Lubrication - peste 500 de referințe de unsori, uleiuri și paste speciale disponibile la Timișoara pentru livrare rapidă. Fie că ai nevoie de o unsoare food-grade NSF H1 pentru o linie de ambalare sau de un lubrifiant PFPE pentru un cuptor la 280°C, echipa noastră tehnică te ajută să alegi produsul optim. Oferim consultanță tribologică gratuită: analizăm temperatura, sarcina, viteza, materialele elastomerilor și îți recomandăm formularea Klüber care maximizează durata de viață și minimizează mentenanța. Pentru comenzi mari (>50 kg) aducem produsul direct din fabrica Klüber Germania cu documentație completă: fișă tehnică, fișă securitate, certificat NSF/Halal/Kosher unde aplicabil.`
+    infinitrade: `Aducem lubrifianții speciali Klüber prin canale de aprovizionare din Uniunea Europeană, fără să ținem un stoc propriu constant pentru fiecare formulare. Fișele tehnice pe care le folosim provin din surse publice ale producătorului german, iar cantitatea disponibilă efectiv o confirmăm la furnizor pentru fiecare comandă. Ca formulare generală a firmei, ambalajele uzuale (tuburi, bidoane) pot ajunge în 24–72 h din stoc, iar cantitățile mari sau formulările speciale intră pe flux de comandă de 2–6 săptămâni. Ca să te ajutăm corect, spune-ne temperatura de lucru, materialul elastomerilor din contact și dacă aplicația necesită certificare food-grade. Nu realizăm noi teste de compatibilitate în laborator propriu; pentru validări tehnice complexe recomandăm contactul direct cu specialiștii producătorului.`,
+    sources: [
+      { title: 'Klüber Lubrication - Choose your local partner', url: 'https://www.klueber.com/global/en/choose-your-local-partner/', publisher: 'Klüber Lubrication München SE & Co. KG', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    limitation: 'Nu realizăm teste de compatibilitate în laborator propriu pentru lubrifianții Klüber și nu putem garanta disponibilitate neîntreruptă pentru fiecare formulare specială.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'kobold': {
@@ -479,14 +543,23 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       'HVAC - centrale termice, răcitoare, umidificare',
       'Environmental - monitorizare emisii, tratare ape uzate'
     ],
-    infinitrade: `InfiniTrade distribuie în România gama completă Kobold Messring - debitimetre, switchuri nivel, traductoare presiune și temperatură. Avem în stoc permanent la Timișoara peste 200 de referințe standard pentru livrare în 24-48h. Pentru aplicații speciale (temperaturi extreme, medii agresive, ATEX) comandăm configurația exactă de care ai nevoie direct din fabrica Kobold Germania în 1-2 săptămâni. Oferim consultanță tehnică gratuită: calculăm domeniul de măsurare necesar, alegem materialele potrivite pentru fluidul tău (acid, bazic, abrază viu), configurăm ieșirea semnal pentru PLC-ul tău. Recalibrăm aparate vechi în laboratorul Kobold și emitem certificat nou de calibrare valabil pentru audituri.`
+    infinitrade: `Comandăm instrumentele Kobold Messring prin furnizori din spațiul UE și nu avem un sistem propriu care să arate stocul fizic exact în orice moment. Datele despre domenii de măsură și materiale le luăm din surse publice ale producătorului, iar disponibilitatea reală o verificăm punctual la furnizor. Ca regulă generală a firmei, rotametrele și switchurile uzuale pot ajunge în 24–72 h din stoc, în timp ce configurațiile speciale sau aparatele cu materiale rare intră pe flux de comandă de 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de fluidul măsurat, domeniul de debit sau presiune și tipul de conexiune la proces. Recalibrarea acreditată și emiterea certificatelor oficiale rămân în sarcina laboratorului producătorului din Germania.`,
+    sources: [
+      { title: 'KOBOLD - Industrial Flow, Pressure, Level & Temperature Measurement Solutions', url: 'https://www.kobold.com/en', publisher: 'KOBOLD Messring GmbH', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    limitation: 'Nu efectuăm recalibrări acreditate pentru instrumentele Kobold și nu putem garanta disponibilitate neîntreruptă pentru toate configurațiile posibile.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'krohne': {
     founded: 1921,
     headquarters: 'Duisburg, Germania',
     employees: '4,000+',
-    overview: `Krohne este unul dintre liderii mondiali în tehnologia debitimetrelor industriale de înaltă precizie. De peste 100 de ani dezvoltăm și producem debitimetre electromagnete, Coriolis, ultrasonic, vortex și cu float variabil pentru măsurarea precisă a lichidelor, gazelor și aburului în aplicații de proces. Cu peste 4,000 de angajați în 100 de țări și 14 fabrici pe patru continente, Krohne combină expertiză seculară cu inovație constantă.
+    overview: `Krohne este un producător german specializat în debitimetre industriale de înaltă precizie, cu prezență în 100 de țări. De peste 100 de ani dezvoltăm și producem debitimetre electromagnete, Coriolis, ultrasonic, vortex și cu float variabil pentru măsurarea precisă a lichidelor, gazelor și aburului în aplicații de proces. Cu peste 4,000 de angajați în 100 de țări și 14 fabrici pe patru continente, Krohne combină expertiză seculară cu inovație constantă.
 
 Portofoliul nostru acoperă debite de la 0.001 kg/h (dozare micro) până la 100,000 m³/h (conducte transport gaz), temperaturi de la -200°C (criogenic) până +400°C (abur supraîncălzit), presiuni de la vid înalt până la 400 bar. Fiecare debitimetru Krohne este calibrat în laboratoarele noastre acreditate ISO/IEC 17025 pe standuri specializate cu trasabilitate la standarde naționale germane (PTB). Certificatele de calibrare includ incertitudinea măsurată conform ghidului GUM.
 
@@ -541,30 +614,40 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       'HVAC - energie termică, răcire, încălzire districte',
       'Marine & Offshore - fuel consumption, ballast, cargo'
     ],
-    infinitrade: `InfiniTrade aduce în România gama completă Krohne - debitimetre electromagnetice, Coriolis, ultrasonic și vortex pentru orice aplicație industrială. Avem parteneri tehnici Krohne instruiți în Germania care te consultă gratuit: analizăm fluidul, debitul, temperatura, presiunea, precizia necesară și îți recomandăm debitimetrul optim. Pentru aplicații critice (custody transfer, fiscal metering, pharma) comandăm aparatul cu calibrare extinsă în fabrica Krohne și certificat acreditat DAkkS. Oferim instalare la cheie, programare, punere în funcțiune și instruire operator. Service tehnic specializat Krohne, cu piese originale și recalibrare periodică în laboratorul acreditat. Livrare din stocul Timișoara în 24-48h sau direct din Germania în 1-2 săptămâni.`
+    infinitrade: `Procurăm debitimetrele Krohne prin canale de aprovizionare din Uniunea Europeană, fără evidență proprie a stocului fizic disponibil pentru fiecare tehnologie de măsurare. Parametrii tehnici îi preluăm din surse publice ale producătorului, iar termenul real de livrare îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, debitimetrele electromagnetice sau vortex uzuale pot ajunge în 24–72 h din stoc, iar aparatele Coriolis sau ultrasonice configurate special intră pe flux de comandă de 2–6 săptămâni. Trimite-ne fluidul măsurat, diametrul conductei și domeniul de debit pentru o verificare rapidă a opțiunilor potrivite. Nu emitem noi calibrări acreditate DAkkS și nu facem punerea în funcțiune pentru aplicații de custody transfer fără implicarea directă a producătorului.`,
+    sources: [
+      { title: 'KROHNE USA - Home', url: 'https://www.krohne.com/en-us', publisher: 'KROHNE Messtechnik GmbH', accessed: '2026-09-22' },
+      { title: 'KROHNE USA - Company', url: 'https://www.krohne.com/en-us/company', publisher: 'KROHNE Messtechnik GmbH', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    limitation: 'Nu efectuăm punerea în funcțiune pentru aplicații de custody transfer fără implicarea directă a producătorului și nu emitem calibrări acreditate DAkkS proprii.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'lapp': {
     founded: 1959,
     headquarters: 'Stuttgart, Germania',
     employees: '5,000+',
-    overview: `Lapp Group este liderul european în cabluri și sisteme de conectare pentru automatizare industrială, tehnologia de măsurare și control, robotică și energie. De peste 65 de ani dezvoltăm și producem cabluri de date, putere și control care conectează mașini, roboți și sisteme în fabricile inteligente de astăzi. Cu peste 5,000 de angajați în 80 de țări și 18 fabrici pe patru continente, Lapp combină inovația germană cu standardizare și disponibilitate globală.
+    overview: `Lapp Group este un producător german de cabluri și sisteme de conectare pentru automatizare industrială, tehnologia de măsurare și control, robotică și energie. De peste 65 de ani dezvoltăm și producem cabluri de date, putere și control care conectează mașini, roboți și sisteme în fabricile inteligente de astăzi. Cu peste 5,000 de angajați în 80 de țări și 18 fabrici pe patru continente, Lapp combină inovația germană cu standardizare și disponibilitate globală.
 
-Brandul nostru iconic ÖLFLEX (cabluri flexibile rezistente la ulei) a devenit standard mondial pentru conexiuni în mașini-unelte, roboți, transportoare și sisteme de automatizare. Gama UNITRONIC (cabluri de date industriale) asigură comunicație rapidă și fiabilă în rețele PROFIBUS, PROFINET, EtherCAT, Ethernet/IP, DeviceNet. ETHERLINE (cabluri Ethernet Industrial) suportă viteze de până la 10 Gigabit în medii cu vibrații, uleiuri, temperaturi extreme și interferențe electromagnetice puternice.
+Brandul nostru iconic ÖLFLEX (cabluri flexibile rezistente la ulei) este folosit pe scară largă pentru conexiuni în mașini-unelte, roboți, transportoare și sisteme de automatizare. Gama UNITRONIC (cabluri de date industriale) asigură comunicație rapidă și fiabilă în rețele PROFIBUS, PROFINET, EtherCAT, Ethernet/IP, DeviceNet. ETHERLINE (cabluri Ethernet Industrial) suportă viteze de până la 10 Gigabit în medii cu vibrații, uleiuri, temperaturi extreme și interferențe electromagnetice puternice.
 
 Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții industriale reale: 10 milioane de cicluri flexiune pe lanț purtător, temperaturi de la -50°C până +180°C, rezistență la uleiuri minerale și sintetice, acizi, baze, ozoni UV, flacără conform IEC 60332. Testăm toate produsele în laboratoarele proprii certificate și colaborăm direct cu producători de mașini și roboți pentru a optimiza designul pentru aplicații specifice. Când cablul trebuie să reziste ani la rând fără eroare, alegi Lapp.`,
     whyChoose: [
       'Rezistență flexiune 10 milioane cicluri - testate pe lanț purtător în laborator',
       'Temperatură -50°C până +180°C - pentru medii extreme industriale',
       'Certificare UL/CSA/CE - conformitate globală pentru export mașini',
-      'Stoc global peste 50,000 referințe - livrare rapidă oriunde în lume',
+      'Stoc global extins de referințe standard - livrare rapidă oriunde în lume',
       'Cable configurator online - generezi codul exact în 2 minute',
       'Suport tehnic local - ingineri Lapp te ajută să alegi cablul optim'
     ],
     keyProducts: [
       {
         name: 'Cabluri flexibile ÖLFLEX CLASSIC/ROBUST',
-        description: 'Gama noastră ÖLFLEX este standard mondial pentru cabluri de control și putere flexibile în automatizare. ÖLFLEX CLASSIC pentru aplicații statice sau flexiune ocazională, ÖLFLEX ROBUST pentru flexiune continuă pe lanț purtător. Temperatură -40°C până +80°C (CLASSIC) sau -5°C până +80°C (ROBUST). Rezistență la uleiuri minerale și vegetale, răcitoare, diesel, benzină. Izolație PVC, manta exterioară PVC specială gri RAL 7001. Conductori CU clase 5 (CLASSIC) sau clase 6 (ROBUST) conform IEC 60228. Secțiuni de la 0.5 mm² până 50 mm², 2-61 fire. Certificare CE, cULus, CSA. Aplicații: conexiuni motoare, invertoare, transportoare, pompe.'
+        description: 'Gama noastră ÖLFLEX este utilizată pe scară largă pentru cabluri de control și putere flexibile în automatizare. ÖLFLEX CLASSIC pentru aplicații statice sau flexiune ocazională, ÖLFLEX ROBUST pentru flexiune continuă pe lanț purtător. Temperatură -40°C până +80°C (CLASSIC) sau -5°C până +80°C (ROBUST). Rezistență la uleiuri minerale și vegetale, răcitoare, diesel, benzină. Izolație PVC, manta exterioară PVC specială gri RAL 7001. Conductori CU clase 5 (CLASSIC) sau clase 6 (ROBUST) conform IEC 60228. Secțiuni de la 0.5 mm² până 50 mm², 2-61 fire. Certificare CE, cULus, CSA. Aplicații: conexiuni motoare, invertoare, transportoare, pompe.'
       },
       {
         name: 'Cabluri date UNITRONIC BUS/LiYCY',
@@ -603,6 +686,16 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       'Mining - excavatoare, transportoare, macarale mobile',
       'Data Centers - rețele structurate, patch panels'
     ],
-    infinitrade: `InfiniTrade distribuie în România gama completă Lapp Group - ÖLFLEX, UNITRONIC, ETHERLINE și conectoare EPIC disponibile la Timișoara pentru livrare rapidă. Avem în stoc permanent peste 500 de referințe standard (ÖLFLEX CLASSIC, UNITRONIC BUS PB, ETHERLINE CAT.5) pentru comenzi urgente în 24h. Pentru aplicații speciale (lanț purtător, robotică, medii agresive) comandăm configurația exactă din fabrica Lapp Germania în 1-2 săptămâni. Oferim consultanță tehnică gratuită: calculăm secțiunea necesară pe baza curentului și lungimii, alegem tipul de ecranare pentru mediul tău EMI, recomandăm conectorul potrivit. Pentru proiecte mari (>1000m cablu) negociem prețuri speciale și livrare eșalonată.`
+    infinitrade: `Aducem cablurile și conectorii Lapp Group prin furnizori din Uniunea Europeană, fără un stoc propriu constant pentru fiecare secțiune sau lungime de cablu. Specificațiile tehnice provin din surse publice ale producătorului german, iar cantitatea disponibilă o confirmăm la furnizor pentru fiecare cerere. Ca formulare generală a firmei, rolele standard din gama ÖLFLEX sau UNITRONIC pot ajunge în 24–72 h din stoc, iar comenzile mari sau cablurile speciale pentru lanț purtător intră pe flux de comandă de 2–6 săptămâni. Spune-ne secțiunea necesară, numărul de fire și mediul de instalare (fix sau mobil) pentru o ofertă rapidă și corectă. Configurarea rețelelor industriale sau testele de compatibilitate EMI complexe rămân în sarcina echipei tale tehnice sau a producătorului.`,
+    sources: [
+      { title: 'LAPP - Company', url: 'https://www.lappgroup.com/company.html', publisher: 'Lapp Holding SE', accessed: '2026-09-22' },
+      { title: 'About LAPP - Lapp Group', url: 'https://www.lappgroup.com/company/about-us/lapp-group.html', publisher: 'Lapp Holding SE', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    limitation: 'Nu configurăm rețele industriale complexe sau teste EMI pentru cablurile Lapp și nu putem garanta disponibilitate neîntreruptă pentru fiecare secțiune sau lungime.',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   }
 }

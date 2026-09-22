@@ -1,10 +1,10 @@
 export const brandContentBatch16 = {
   trelleborg: {
     name: "Trelleborg",
-    founded: 1905,
+    founded: 1896,
     headquarters: "Trelleborg, Suedia",
     employees: "16,000+ angajați la nivel global",
-    overview: `Trelleborg e un gigant suedez specializat în soluții de etanșare și amortizare pentru industrie grea. Când vorbim de o-ring-uri care chiar țin presiunea sau de garnituri radiale (radial shaft seals) care rezistă zeci de mii de ore în condiții extreme, ne gândim direct la ei. Compania a pornit în 1905 ca producător de cauciuc și s-a transformat într-un lider global pentru aplicații unde nicio scurgere nu e acceptabilă — de la hidraulice de pe excavatoare până la etanșări de turbine eoliene.
+    overview: `Trelleborg e un gigant suedez specializat în soluții de etanșare și amortizare pentru industrie grea. Când vorbim de o-ring-uri care chiar țin presiunea sau de garnituri radiale (radial shaft seals) care rezistă zeci de mii de ore în condiții extreme, ne gândim direct la ei. Compania a pornit în 1896 ca producător de cauciuc și s-a transformat într-un lider global pentru aplicații unde nicio scurgere nu e acceptabilă — de la hidraulice de pe excavatoare până la etanșări de turbine eoliene.
 
 Am lucrat cu garnituri Trelleborg în sisteme unde orice scurgere costa scump — cilindri hidraulici pe prese de sute de tone, pompe industriale cu lichide corozive, reductoare care rulează nonstop. Calitatea materialelor e excepțională: NBR pentru aplicații generale, FKM (Viton) pentru temperaturi și chimicale aggressive, PTFE pentru industria alimentară. Ceea ce apreciem cel mai mult e consistența: comand un lot de o-ring-uri 70 shore și știu că următorul va fi identic, fără surprize la montaj.
 
@@ -57,7 +57,18 @@ Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru 
       "Alimentar și farmaceutic — etanșări sanitare conforme FDA",
       "Industria hârtiei și celulozei — cilindri și garnituri pentru mașini de hârtie"
     ],
-    infinitrade: "Furnizăm produse Trelleborg din stoc local pentru Timișoara și toată România — o-ring-uri standard, garnituri radiale, seturi complete pentru cilindri hidraulici. Avem materiale NBR, FKM, EPDM și PTFE în dimensiunile cele mai solicitate, plus acces rapid la gama completă prin canalele europene. Pentru aplicații speciale sau volume mari, coordonăm producția de garnituri custom și profile extrudate, cu livrare în 2-4 săptămâni. Oferim suport tehnic pentru selectarea corectă a materialelor și design-ul etanșărilor — fie că e vorba de reparația unui cilindru hidraulic vechi sau de proiectarea unei instalații noi. Livrăm rapid în 24-72h pentru produsele din stoc, cu certificate de materiale și trasabilitate completă pe loturi."
+    infinitrade: "La Infinitrade lucrăm cu informațiile publice disponibile despre Trelleborg și cu ce putem confirma direct la fiecare cerere; nu avem un inventar propriu verificat pentru toată gama de o-ring-uri și garnituri radiale. Aducem produsele Trelleborg la comandă prin canale de aprovizionare din Uniunea Europeană, iar pentru materialele și dimensiunile pe care le avem deja confirmate lucrăm de regulă în 24-72 h din stoc; pentru restul gamei, calculăm 2-6 săptămâni la comandă. Ca să pregătim o ofertă corectă, avem nevoie de codul produsului sau dimensiunea exactă, materialul dorit (NBR, FKM, EPDM, PTFE), cantitatea și aplicația în care se montează garnitura. Nu comunicăm prețuri fără o cerere punctuală, iar pentru piese critice recomandăm confirmarea specificațiilor tehnice direct cu documentația producătorului.",
+    sources: [
+      { title: "About us | Trelleborg Group", url: "https://www.trelleborg.com/en/about-us", publisher: "Trelleborg Group", accessed: "2026-09-22" },
+      { title: "History | Trelleborg Group", url: "https://www.trelleborg.com/en/about-us/history", publisher: "Trelleborg Group", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma disponibilitatea exactă a fiecărei dimensiuni de o-ring sau garnitură radială înainte de o verificare punctuală, și nu oferim service în perioada de garanție a producătorului.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "founded corectat: 1905 → 1896, conform paginii oficiale de istorie Trelleborg (\"In 1896, production started in Trelleborg\")" },
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "transactional"
   },
 
   tsubaki: {
@@ -65,13 +76,13 @@ Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru 
     founded: 1917,
     headquarters: "Osaka, Japonia",
     employees: "9,000+ angajați la nivel global",
-    overview: `Tsubakimoto Chain Co. (Tsubaki) e cel mai mare producător de lanțuri industriale din lume și unul dintre puținii care a mers dincolo de lanțul simplex — au dezvoltat sisteme complete de transmisie și manipulare materiale care rulează în fabrici pe toate continentele. Când vezi o linie automată de asamblare auto, un elevator de paleți într-un depozit sau o bandă transportoare într-o fabrică de băuturi, șansele sunt mari că acolo e un lanț Tsubaki. Compania a pornit în 1917 producând lanțuri pentru biciclete și motociclete, iar astăzi produce peste 10,000 de tipuri diferite — de la lanțuri de transmisie micro pentru electronice până la lanțuri gigantice pentru excavatoare de cărbune.
+    overview: `Tsubakimoto Chain Co. (Tsubaki) e unul dintre cei mai mari producători de lanțuri industriale din lume și unul dintre puținii care a mers dincolo de lanțul simplex — au dezvoltat sisteme complete de transmisie și manipulare materiale care rulează în fabrici pe toate continentele. Când vezi o linie automată de asamblare auto, un elevator de paleți într-un depozit sau o bandă transportoare într-o fabrică de băuturi, șansele sunt mari că acolo e un lanț Tsubaki. Compania a pornit în 1917 producând lanțuri pentru biciclete și motociclete, iar astăzi produce peste 10,000 de tipuri diferite — de la lanțuri de transmisie micro pentru electronice până la lanțuri gigantice pentru excavatoare de cărbune.
 
-Am montat lanțuri Tsubaki pe diverse aplicații — de la reductoare cu lanț simplu pe utilaje mici până la sisteme duble și triple de transmisie pe linii grele de producție. Ceea ce iese în evidență e precizia: pasul lanțului e perfect constant, clearance-ul dintre eclisă și bolț e controlat la sutimi, iar tratamentul termic al pinilor asigură rezistență la uzură de 2-3 ori mai mare decât la lanțurile generice. Pe o linie de producție continuă, diferența înseamnă să schimbi lanțul o dată pe an în loc de o dată la 4 luni — deci ROI direct în ore de downtime economisit.
+Se montează lanțuri Tsubaki pe diverse aplicații — de la reductoare cu lanț simplu pe utilaje mici până la sisteme duble și triple de transmisie pe linii grele de producție. Ceea ce iese în evidență e precizia: pasul lanțului e perfect constant, clearance-ul dintre eclisă și bolț e controlat la sutimi, iar tratamentul termic al pinilor asigură rezistență la uzură de 2-3 ori mai mare decât la lanțurile generice. Pe o linie de producție continuă, diferența înseamnă să schimbi lanțul o dată pe an în loc de o dată la 4 luni — deci ROI direct în ore de downtime economisit.
 
 Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri Lambda (fără lubrifiere, cu durata de viață de 3 ori mai lungă), lanțuri Neptune (rezistente la coroziune pentru industria alimentară și chimică), lanțuri cu foi (attachment chains) pentru transportoare, și sisteme complete de manipulare materiale cu software de control inclus. Pentru industria românească, asta înseamnă acces la aceeași tehnologie folosită de Toyota, BMW sau Coca-Cola pentru liniile lor de producție.`,
     whyChoose: [
-      "Lider mondial în lanțuri — peste 100 de ani de inovație continuă și cea mai largă gamă de produse din industrie",
+      "Gamă amplă de lanțuri — peste 100 de ani de experiență și o gamă variată de produse pentru industrie",
       "Durabilitate excepțională — lanțurile Tsubaki rezistă cu 50-200% mai mult decât echivalentele standard, reducând drastic costurile de mentenanță",
       "Precizie japoneză — toleranțe strânse la pas și dimensiuni, eliminând vibrațiile și zgomotul excesiv",
       "Inovație constantă — lanțuri fără lubrifiere (Lambda), rezistente la coroziune (Neptune), și cu elastomeri pentru aplicații silențioase",
@@ -118,7 +129,17 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
       "Construcții și heavy machinery — excavatoare, macarale, utilaje de terasament",
       "Procesare metal — linii de tablă, vopsitorii, tratamente termice"
     ],
-    infinitrade: "Distribuim lanțuri Tsubaki pentru industria din România — de la lanțuri simplex și duplex standard până la soluții Lambda fără lubrifiere și Neptune rezistente la coroziune. Avem stocuri locale pentru dimensiunile și pasurile cele mai folosite (de la 3/8\" până la 2\"), plus acces rapid la gama completă prin distribuitorii europeni. Pentru aplicații speciale coordonăm livrări de lanțuri cu foi, configurații custom, și roți dințate (sprockets) tăiate la comandă pe CNC. Oferim suport tehnic pentru calculul corect al transmisiilor prin lanț — raport de transmisie, distanță între axe, tip de tindere, lubrifiere recomandată. Livrăm în 24-72h din stoc Timișoara pentru produsele standard, și în 1-2 săptămâni pentru comenzile speciale din Europa."
+    infinitrade: "Pentru Tsubaki, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi înșine pentru fiecare comandă — nu avem un inventar propriu verificat pentru toate variantele de lanț. Aducem lanțurile Tsubaki (RS, Lambda, Neptune) la comandă prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru variantele pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru restul gamei sau pentru roți dințate speciale. Pentru o ofertă corectă, trimiteți-ne pasul lanțului, tipul (simplex, duplex sau triplex), lungimea sau numărul de zale, și aplicația (transmisie sau manipulare materiale). Nu lucrăm cu prețuri afișate public și nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor.",
+    sources: [
+      { title: "About Tsubaki | TSUBAKIMOTO CHAIN GROUP", url: "https://www.tsubakimoto.com/company/", publisher: "Tsubakimoto Chain Co.", accessed: "2026-09-22" },
+      { title: "Tsubakimoto Chain", url: "https://en.wikipedia.org/wiki/Tsubakimoto_Chain", publisher: "Wikipedia", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu confirmăm stocul exact pentru fiecare pas sau variantă de lanț fără o verificare punctuală, și nu executăm montaj sau configurare a sistemelor de manipulare materiale.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "transactional"
   },
 
   turck: {
@@ -128,7 +149,7 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
     employees: "5,500+ angajați la nivel global",
     overview: `Turck e unul dintre giganții germani în senzori industriali și sisteme de automatizare de câmp — dacă ai lucrat vreodată cu senzori inductivi, RFID industrial sau module I/O pentru bus de câmp, probabil ai întâlnit brandul. Compania a pornit în 1965 producând senzori de proximitate și de atunci a evoluat constant, lansând soluții integrate pentru Industry 4.0 înainte ca termenul să devină la modă. Astăzi Turck oferă peste 30,000 de produse diferite — de la senzori simpli de poziție până la gateway-uri cloud și sisteme complete de identificare RFID pentru tracking de active și produse.
 
-Ce apreciem la Turck e filozofia lor de "plug and work" — senzorii vin pre-configurați, conectarea e simplă (M8, M12, sau eurofast), iar integrarea în PLC sau DCS se face rapid prin profile device file (GSDML, EDS). Am montat senzori inductivi Turck pe linii de producție unde poziționarea exactă a pieselor era critică — repetabilitate de 0.01mm, fără drift termic, și LED-uri de status care fac diagnosticarea instantanee. Pentru aplicații RFID, sistemele Turck oferă rate de citire de 100% chiar și la viteze mari de bandă, eliminând erorile de tracking.
+Ce apreciem la Turck e filozofia lor de "plug and work" — senzorii vin pre-configurați, conectarea e simplă (M8, M12, sau eurofast), iar integrarea în PLC sau DCS se face rapid prin profile device file (GSDML, EDS). Se montează senzori inductivi Turck pe linii de producție unde poziționarea exactă a pieselor era critică — repetabilitate de 0.01mm, fără drift termic, și LED-uri de status care fac diagnosticarea instantanee. Pentru aplicații RFID, sistemele Turck oferă rate de citire de 100% chiar și la viteze mari de bandă, eliminând erorile de tracking.
 
 Turck nu vinde doar componente — oferă soluții complete. Ai nevoie să conectezi 200 de senzori la un PLC Siemens? Turck are module I/O multiprotocol (Profinet, EtherNet/IP, Modbus TCP) care reduc drastic cablajul și costurile de instalare. Vrei să implementezi tracking complet al paletizilor într-un depozit automatizat? Sistemul BL ident RFID al Turck face exact asta, cu software de management inclus. Pentru industria românească, înseamnă acces la aceeași tehnologie folosită în fabricile Mercedes, BMW sau Bosch.`,
     whyChoose: [
@@ -179,7 +200,16 @@ Turck nu vinde doar componente — oferă soluții complete. Ai nevoie să conec
       "Semiconductor și electronică — senzori de precizie pentru pick-and-place",
       "Energie regenerabilă — senzori pentru turbine eoliene și sisteme fotovoltaice"
     ],
-    infinitrade: "Furnizăm senzori și sisteme Turck pentru automatizări industriale în România — senzori inductivi M8 până la M30, sisteme RFID BL ident, module I/O pentru Profinet și EtherNet/IP. Stocurile noastre din Timișoara includ dimensiunile și tipurile cele mai solicitate, iar pentru produse speciale sau comenzi de proiect coordonăm livrări rapide din distribuția europeană. Oferim suport tehnic pentru selectarea corectă a senzorilor — distanță de sensing, tip de ieșire, conectare la PLC, configurare IO-Link. Pentru proiecte mari de automatizare sau retrofit, putem veni cu soluții complete — de la engineering și dimensionare până la punere în funcțiune și training. Livrare rapidă 24-72h pentru produsele din stoc, și 1-2 săptămâni pentru comenzile speciale."
+    infinitrade: "Cu Turck, plecăm de la informațiile publice disponibile despre producător, completate cu ce putem verifica noi la momentul cererii; nu deținem un inventar propriu documentat pentru toate familiile de senzori. Comandăm senzorii inductivi, sistemele RFID BL ident sau modulele I/O prin canale de aprovizionare europene, cu 24-72 h din stoc pentru referințele confirmate deja și 2-6 săptămâni la comandă pentru rest. Ca să răspundem rapid, avem nevoie de codul exact al senzorului sau de tipul, distanța de sensing, tensiunea și tipul de ieșire, plus cantitatea și protocolul de comunicație folosit (Profinet, EtherNet/IP, Modbus). Nu includem prețuri în acest text, iar pentru integrarea în proiecte mari recomandăm o discuție tehnică punctuală înainte de comandă.",
+    sources: [
+      { title: "Turck", url: "https://en.wikipedia.org/wiki/Turck", publisher: "Wikipedia", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma configurarea software sau parametrizarea IO-Link a senzorilor înainte de livrare, și nu garantăm un inventar constant pentru toate familiile de produse.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: sursă oficială turck.com inaccesibilă (429 repetat la 3 încercări), folosit Wikipedia pentru confirmarea founded/headquarters; declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "transactional"
   },
 
   vega: {
@@ -193,7 +223,7 @@ Am instalat senzori Vega pe diverse aplicații — radar pe silozuri de ciment (
 
 Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) pentru acuratețe maximă în tancuri înguste, radar liber (FMCW 80 GHz) pentru rezervoare mari, ultrasonic pentru aplicații cost-effective, și capacitiv pentru detectare nivel în pulberi. Plus senzori de presiune pentru lichide și gaze, și switch-uri de nivel pentru alarme și protecție. Pentru industria românească, Vega înseamnă acces la aceeași tehnologie folosită în rafinării, fabrici chimice Bayer sau BASF, și depozite de cereale care stochează zeci de mii de tone.`,
     whyChoose: [
-      "Lider mondial în radar — tehnologie FMCW 80 GHz cu acuratețe de ±1mm, insensibilă la praf, spumă, temperatură",
+      "Tehnologie radar de precizie — FMCW 80 GHz cu acuratețe de ±1mm, insensibilă la praf, spumă, temperatură",
       "Fiabilitate germană — MTBF de peste 100,000 ore, senzorii rulează ani fără recalibrări sau mentenanță",
       "Configurare simplă — Bluetooth prin aplicație mobilă plics, sau HART/Profibus/Modbus pentru integrare în DCS",
       "Display vizibil 360° — citire locală clară chiar și în soare puternic, cu iluminare pentru noapte",
@@ -240,7 +270,17 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
       "Pulp & paper — tancuri de pastă, clarificatoare, rezervoare de chimicale",
       "Metal processing — emulsii de răcire, baze, acizi pentru decapare"
     ],
-    infinitrade: "Furnizăm senzori Vega pentru industria de proces din România — radar VEGAPULS pentru lichide și solide, radar ghidat VEGAFLEX pentru acuratețe maximă, ultrasonic VEGASON pentru aplicații cost-effective, și presiune VEGABAR. Stocurile din Timișoara includ modelele și gamele de măsurare cele mai solicitate, cu livrare rapidă 24-72h. Pentru proiecte speciale coordonăm comenzi directe din Germania, cu termene de 1-2 săptămâni. Oferim suport tehnic complet — dimensionarea corectă a senzorului pentru aplicație (lichid/solid, gamă, temperatură, presiune), configurare și punere în funcțiune, training pentru echipele de mentenanță. Avem experiență cu integrarea în PLC-uri Siemens, Allen-Bradley, Schneider, și DCS-uri ABB, Honeywell, Yokogawa."
+    infinitrade: "La Vega, lucrăm cu ce putem confirma direct pentru fiecare cerere și cu informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare model. Aducem senzorii VEGAPULS, VEGAFLEX, VEGASON și VEGABAR la comandă prin canale de aprovizionare din UE — 24-72 h din stoc pentru variantele pe care le avem deja confirmate, altfel 2-6 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de tehnologia dorită (radar, ultrasonic, capacitiv sau presiune), gama de măsurare, tipul de material (lichid, pastă sau solid) și presiunea sau temperatura de proces. Nu publicăm prețuri și nu confirmăm un termen exact înainte să verificăm disponibilitatea la sursă pentru configurația cerută.",
+    sources: [
+      { title: "VEGA Grieshaber KG - Company | VEGA", url: "https://www.vega.com/en-us/company", publisher: "VEGA Grieshaber KG", accessed: "2026-09-22" },
+      { title: "VEGA - Level measurement - Level Switches - Pressure transmitters", url: "https://www.vega.com/en-us", publisher: "VEGA Grieshaber KG", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu confirmăm disponibilitatea fiecărei game de măsurare fără o verificare la sursă, și nu oferim configurarea software avansată a senzorilor la fața locului.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "transactional"
   },
 
   wago: {
@@ -301,7 +341,17 @@ Dar Wago nu e doar borniere — au dezvoltat o gamă completă de automatizări 
       "Mining — utilaje mobile, conexiuni rezistente la șocuri și praf",
       "Machine building — mașini-unelte, ambalare, textile, print"
     ],
-    infinitrade: "Distribuim produse Wago pentru industria din România — borniere TOPJOB S în toate dimensiunile (0.5mm² până la 35mm²), module I/O pentru Profinet, EtherNet/IP și Modbus, PLC-uri compacte seria 750, și relee de interfață. Avem stocuri locale la Timișoara pentru produsele standard (borniere 2.5mm² și 4mm², module I/O digitale), cu livrare rapidă 24-72h. Pentru proiecte mari sau configurații speciale de sisteme I/O, coordonăm comenzi directe cu termene de 1-2 săptămâni. Oferim suport tehnic pentru dimensionarea corectă — calcul de curenti, selecția modulelor I/O, configurarea PLC-urilor în CODESYS. Training disponibil pentru echipele care trec de la borniere clasice la WAGO sau de la I/O centralizat la sisteme modulare descentralizate."
+    infinitrade: "Pentru Wago, ne ghidăm după ce putem confirma noi la fiecare comandă și după surse publice ale producătorului, fără un inventar propriu documentat pentru toată gama de borniere și module I/O. Produsele Wago ajung la noi la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h din stoc pentru referințele pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru restul gamei sau configurațiile de proiect. Pentru o ofertă corectă trimiteți secțiunea cablului sau codul bornierei, protocolul de bus folosit (Profinet, EtherNet/IP, Modbus), numărul de canale necesare și cantitatea. Nu afișăm prețuri aici, iar pentru module safety sau PLC-uri seria 750 recomandăm o verificare tehnică înainte de a confirma un termen.",
+    sources: [
+      { title: "Our Company | WAGO", url: "https://www.wago.com/global/company", publisher: "WAGO GmbH & Co. KG", accessed: "2026-09-22" },
+      { title: "WAGO | Reliable Solutions for Many Sectors and Industries | WAGO", url: "https://www.wago.com/global", publisher: "WAGO GmbH & Co. KG", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu confirmăm programarea sau configurarea PLC-urilor seria 750 în CODESYS ca serviciu inclus, și nu garantăm un inventar constant pentru toate modulele I/O.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "transactional"
   },
 
   weidmuller: {
@@ -362,7 +412,17 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       "Alimentar și pharma — conexiuni rezistente la spălare, certificări FDA",
       "Mining — utilaje grele, rezistență la șocuri, praf, umiditate"
     ],
-    infinitrade: "Furnizăm produse Weidmüller pentru industria din România — borniere seria W în toate dimensiunile (de la 0.14mm² la 300mm²), conectori industriali HDC și ROCKSTAR, sisteme de marcare termică și laser, scule de sertizat manuale și semi-automate. Stocurile noastre din Timișoara includ bornierele și conectorii cei mai utilizați, cu livrare rapidă 24-72h. Pentru proiecte mari (dulapuri de comandă, mașini în serie) oferim consultanță completă — design de tablou în WMC Configurator, liste de materiale optimizate, marcaje personalizate pre-tipărite. Coordonăm comenzi de proiect cu termene de 1-2 săptămâni, inclusiv livrare kit-uri complete asamblate pe șine DIN gata de montaj. Training disponibil pentru inginerii și tehnicienii care proiectează sau montează tablouri electrice."
+    infinitrade: "La Weidmüller, pornim de la informațiile publice disponibile despre producător și de la ce putem verifica noi direct, fără un inventar propriu documentat pentru fiecare secțiune de bornieră. Aducem bornierele seria W, conectorii industriali și accesoriile de marcare prin canale de aprovizionare din UE — 24-72 h din stoc pentru pozițiile deja confirmate, 2-6 săptămâni la comandă pentru rest. Pentru o cotație corectă avem nevoie de secțiunea de cablu în mm², tipul de conexiune (șurub, arc sau push-in), numărul de poziții și, dacă e cazul, cerințele de marcare. Nu comunicăm prețuri în acest text, iar pentru proiectarea completă a unui tablou recomandăm o discuție tehnică separată înainte de comandă.",
+    sources: [
+      { title: "Company - Weidmüller as a partner at eye level", url: "https://www.weidmueller.com/int/company/index.jsp", publisher: "Weidmüller Interface GmbH & Co. KG", accessed: "2026-09-22" },
+      { title: "Weidmüller: Smart Industrial Connectivity from Detmold with Love", url: "https://www.weidmueller.com/int/index.jsp", publisher: "Weidmüller Interface GmbH & Co. KG", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu oferim proiectarea completă a tabloului electric ca serviciu inclus (doar consultanță punctuală), și nu confirmăm stocul fiecărei secțiuni de bornieră fără o verificare directă.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "gsc-only"
   },
 
   "weidmuller-electric": {
@@ -423,7 +483,17 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
       "Mining — utilaje grele, rezistență la șocuri, praf, temperaturi extreme",
       "Alimentar și pharma — alimentări pentru zone curate, certificări FDA"
     ],
-    infinitrade: "Furnizăm componente electrice Weidmüller pentru automatizări industriale în România — alimentatoare switching PRO de la 30W la 960W, module de protecție la supratensiuni pentru AC și DC, convertoare de semnal cu izolare galvanică, relee de monitorizare și siguranță. Stocurile din Timișoara includ alimentatoarele și modulele de protecție cele mai solicitate (24VDC 5A, 10A, 20A), cu livrare rapidă 24-72h. Pentru proiecte mari oferim consultanță completă — calcul de puteri, dimensionarea protecțiilor, selectarea convertoarelor potrivite pentru tipurile de senzori folosiți. Coordonăm comenzi speciale cu termene de 1-2 săptămâni, inclusiv configurare custom a releelor programabile. Training disponibil pentru inginerii care proiectează sau modernizează tablouri de automatizare."
+    infinitrade: "Pentru gama electronică Weidmüller — alimentatoare, protecții la supratensiuni, convertoare de semnal — folosim ce putem confirma punctual și informațiile publice disponibile despre producător; nu avem un inventar propriu pentru fiecare putere sau variantă de alimentator. Aducem produsele prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h din stoc acolo unde avem deja confirmare și 2-6 săptămâni la comandă pentru rest. Ca să pregătim rapid o ofertă, trimiteți puterea sau curentul alimentatorului dorit, tensiunea de ieșire, tipul de protecție necesar (linii AC, DC sau de semnal) și cantitatea. Nu includem prețuri aici, iar pentru monitorizarea curenților trifazați sau releele de siguranță SIL recomandăm o verificare tehnică înainte de a stabili termenul final.",
+    sources: [
+      { title: "Company - Weidmüller as a partner at eye level", url: "https://www.weidmueller.com/int/company/index.jsp", publisher: "Weidmüller Interface GmbH & Co. KG", accessed: "2026-09-22" },
+      { title: "Weidmüller: Smart Industrial Connectivity from Detmold with Love", url: "https://www.weidmueller.com/int/index.jsp", publisher: "Weidmüller Interface GmbH & Co. KG", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu confirmăm configurarea avansată a releelor programabile ca serviciu inclus, și nu garantăm un inventar constant pentru fiecare putere de alimentator.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "gsc-only"
   },
 
   wera: {
@@ -483,7 +553,17 @@ Portofoliul Wera nu e vast, e concentrat — fac câteva lucruri excepțional de
       "DIY profesionist — pasionați de bricolaj care vor scule premium",
       "Service & mentenanță generală — orice industrie cu echipamente mecanice"
     ],
-    infinitrade: "Distribuim scule Wera pentru profesioniști și industrie din România — șurubelnițe Kraftform în toate dimensiunile și capetele, seturi de biți Bit-Check cu tehnologie Hex-Plus și Diamond, chei imbus seria 950 și 967, chei dinamometrice pentru aplicații de precizie. Stocurile din Timișoara includ seturile și dimensiunile cele mai solicitate, cu livrare rapidă 24-72h. Pentru comenzi mari (dotare echipe de service, OEM-uri care produc mașini) oferim configurații custom și prețuri de proiect. Wera nu sunt sculele cele mai ieftine, dar sunt investiție pe viață — cumperi o dată, folosești zeci de ani. Ideal pentru echipele de mentenanță, integratorii de sisteme, service-urile auto și mecanice care vor performanță constantă fără compromisuri."
+    infinitrade: "Pentru Wera, mergem după ce putem confirma la momentul cererii și după surse publice ale producătorului, fără un inventar propriu documentat pentru fiecare set sau dimensiune. Șurubelnițele, biții și cheile Wera ajung la comandă prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru seturile pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru comenzile speciale sau seturile Tool-Check personalizate. Pentru o ofertă corectă spuneți-ne dimensiunea sau codul sculei, tipul de cap (Phillips, Pozidriv, Torx sau Hex), și dacă aveți nevoie de un set complet sau de bucăți individuale. Nu publicăm prețuri și nu promitem un termen fix înainte de a verifica disponibilitatea reală a modelului cerut.",
+    sources: [
+      { title: "Wera Tools | Official Site", url: "https://weratool.com/", publisher: "Wera Werk Hermann Werner GmbH & Co. KG", accessed: "2026-09-22" },
+      { title: "Wera Tools", url: "https://en.wikipedia.org/wiki/Wera_Tools", publisher: "Wikipedia", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu oferim service sau reparații ale sculelor în garanția producătorului, și nu confirmăm disponibilitatea fiecărui set Tool-Check fără o verificare punctuală.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "gsc-only"
   },
 
   "wilo-hvac": {
@@ -544,7 +624,17 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
       "District heating — stații de transfer termic în sisteme de termoficare",
       "Sisteme geotermale — pompe pentru bucle închise cu glicol (ground source heat pumps)"
     ],
-    infinitrade: "Distribuim pompe Wilo pentru HVAC în România — seria Stratos PICO high-efficiency pentru economii maxime, seria Star-RS pentru aplicații economy, sisteme de presiune constantă Comfort pentru clădiri cu mai multe etaje, și pompe de recirculare apă caldă Star-Z. Stocurile din Timișoara includ dimensiunile și modelele standard (G1, G1¼, puteri 25-80W), cu livrare rapidă 24-72h. Pentru proiecte mari (clădiri noi, renovări HVAC) oferim consultanță completă — calcul hidraulic, selecție pompe în software Wilo-Select, dimensionarea sistemelor de presiune. Coordonăm comenzi speciale cu termene de 1-2 săptămâni. Training disponibil pentru instalatorii care trec de la pompe clasice la high-efficiency și vor să înțeleagă setările și diagnosticarea. Pompa Wilo se plătește singură prin economii de energie în 2-4 ani, apoi e profit curat."
+    infinitrade: "La Wilo, plecăm de la informațiile publice disponibile despre producător și de la ce putem verifica noi pentru fiecare cerere, fără un inventar propriu documentat pe toată gama de pompe. Aducem pompele Stratos PICO, Star-RS, sistemele Comfort și Star-Z prin canale de aprovizionare din Uniunea Europeană — 24-72 h din stoc pentru modelele confirmate deja, 2-6 săptămâni la comandă pentru rest. Pentru o cotație corectă avem nevoie de racordul dorit (G1, G1¼ sau flanșă DN), puterea sau debitul necesar, și dacă înlocuiți o pompă existentă sau proiectați o instalație nouă. Nu comunicăm prețuri în acest text, iar pentru sistemele de presiune constantă sau proiectele HVAC mai mari recomandăm o discuție tehnică înainte de a confirma termenul.",
+    sources: [
+      { title: "The Wilo Group | Intelligent water technology worldwide | Wilo", url: "https://wilo-group.com/en/", publisher: "WILO SE", accessed: "2026-09-22" },
+      { title: "Countries", url: "https://wilo.com/en/Company/Profile/Company-headquarters/Dortmund/", publisher: "WILO SE", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu oferim service în garanția producătorului pentru pompele Wilo, și nu confirmăm disponibilitatea fiecărui model fără o verificare directă la sursă.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "gsc-only"
   },
 
   "wurth-chimice": {
@@ -552,16 +642,16 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
     founded: 1945,
     headquarters: "Künzelsau, Germania",
     employees: "83,000+ angajați la nivel global",
-    overview: `Würth e un gigant german în produse chimice tehnice și consumabile pentru industrie, ateliere, și construcții — de la spray-uri lubrifiere și curățare până la adezivi structurali, paste și produse de protecție. Când intri într-un atelier auto profesional sau într-o hală de producție bine organizată, vezi rafturi pline cu produse Würth în ambalajele lor roșii distinctive — asta pentru că Würth nu vinde doar chimicale, vinde sistem complet: produse de calitate constantă + organizare (rack-uri, dispensere, organizatoare) + livrare la timp prin reprezentanți dedicați. Compania a pornit în 1945 ca distribuitor de șuruburi și s-a extins până la peste 125,000 de SKU-uri, devenind cel mai mare furnizor de consumabile industriale din lume.
+    overview: `Würth e un gigant german în produse chimice tehnice și consumabile pentru industrie, ateliere, și construcții — de la spray-uri lubrifiere și curățare până la adezivi structurali, paste și produse de protecție. Când intri într-un atelier auto profesional sau într-o hală de producție bine organizată, vezi rafturi pline cu produse Würth în ambalajele lor roșii distinctive — asta pentru că Würth nu vinde doar chimicale, vinde sistem complet: produse de calitate constantă, organizare (rack-uri, dispensere, organizatoare) și livrare la timp prin echipe dedicate. Compania a pornit în 1945 ca distribuitor de șuruburi și s-a extins într-un furnizor global de consumabile industriale, cu un portofoliu foarte amplu de produse.
 
 Am folosit produse Würth pe diverse aplicații — de la spray-uri degresante pentru curățarea pieselor înainte de vopsire, până la adezivi anaerobici pentru fixarea lagărelor, și paste anti-grippare pentru șuruburile din inox (ca să nu se sudeze prin coroziune galvanică). Ceea ce apreciem e consistența — comand același lubrifiant sau același spray de curățare și știu exact ce primesc, fără variații de la lot la lot. Ambalajele sunt gândite pentru uz industrial greu — spray-uri cu valve robuste care nu se înfund, tuburi de adeziv cu duze de precizie, bidoane cu pompe dozatoare pentru ateliere.
 
 Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (spray-uri, paste, uleiuri), curățare (degresante, solutii de curățare frâne, sprayuri contact cleaner), protecție (vopsele spray, anti-coroziune, ceară protectoare), adezivi (cianoacrilat, anaerobic, epoxidic, MS-polymer), și produse auxiliare (spray de aer comprimat, detectoare scurgeri, spray-uri de marcare). Pentru industria românească, Würth înseamnă acces rapid la aceleași chimicale folosite în fabricile Mercedes, BMW, sau Bosch — aceeași calitate, aceeași documentație tehnică, aceeași consistență.`,
     whyChoose: [
-      "Gamă vastă — peste 125,000 SKU-uri, acoperă practic orice nevoie de chimicale tehnice și consumabile",
+      "Gamă vastă — portofoliu foarte amplu de produse, acoperă practic orice nevoie de chimicale tehnice și consumabile",
       "Calitate germană constantă — produse testate riguros, performanță repetabilă, fără variații între loturi",
       "Sistem de organizare — rack-uri, dispensere, organizatoare pentru atelier curat și eficient",
-      "Livrare rapidă — reprezentanți Würth locali cu stoc pe vehicul, livrare directă la client",
+      "Livrare rapidă — echipe Würth locale cu stoc pe vehicul, livrare directă la client",
       "Documentație completă — fișe tehnice, fișe de securitate (SDS), instrucțiuni de utilizare în română",
       "Suport tehnic — consultanță pentru alegerea produsului potrivit, training pentru aplicații speciale"
     ],
@@ -605,7 +695,17 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
       "Agricol — reparații utilaje, mentenanță tractoare (lubrifianți, degripare, protecție)",
       "Transport și logistică — mentenanță flote auto, camioane, remorci"
     ],
-    infinitrade: "Distribuim produse chimice tehnice Würth pentru industria din România — spray-uri de lubrifiere (HHS 2000, PTFE, silicon, grafit), degresanți și brake cleaner, adezivi (cianoacrilat, anaerobic, epoxidic), produse anti-coroziune (zinc spray, ceară protectoare), paste anti-grippare. Stocurile din Timișoara includ produsele cele mai solicitate (spray 400ml/500ml, tuburi de adeziv), cu livrare rapidă 24-72h. Pentru consumatori mari (ateliere, fabrici cu mentenanță intensă) oferim soluții de rack-uri și dispensere Würth pentru organizarea produselor, plus livrări programate săptămânale sau lunare. Consultanță disponibilă pentru alegerea produsului potrivit aplicației — lubrifiant pentru lanțuri vs ghidaje, degreaser pe bază de solvent vs pe bază de apă, adeziv rigid vs elastic. Produsele Würth sunt investiție în calitate și predictibilitate — știi ce primești, de fiecare dată."
+    infinitrade: "Pentru produsele chimice Würth, folosim ce putem confirma direct la cerere și informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare tip de spray sau adeziv. Comandăm produsele prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru cele pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru comenzile mai mari sau produsele mai puțin uzuale. Pentru o ofertă corectă, spuneți-ne tipul de produs (lubrifiant, degresant, adeziv sau protecție anti-coroziune), ambalajul dorit (spray, tub sau bidon) și cantitatea necesară. Nu afișăm prețuri aici, iar pentru consumul recurent sau soluțiile de organizare cu rack-uri și dispensere recomandăm o discuție separată de aprovizionare.",
+    sources: [
+      { title: "History | Würth Group", url: "https://www.wuerth.com/wuerth-group/Company/History/History.php", publisher: "Würth Group", accessed: "2026-09-22" },
+      { title: "Company | Würth Group", url: "https://www.wuerth.com/wuerth-group/Company/Company.php", publisher: "Würth Group", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu confirmăm compatibilitatea chimică a fiecărui produs cu toate materialele clientului fără o verificare punctuală, și nu garantăm un inventar constant pentru toată gama.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "gsc-only"
   },
 
   yokogawa: {
@@ -613,9 +713,9 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
     founded: 1915,
     headquarters: "Tokyo, Japonia",
     employees: "17,000+ angajați la nivel global",
-    overview: `Yokogawa e lider mondial în instrumentație de proces și sisteme de control distribuit (DCS) pentru industria chimică, petrochimică, energie, și pharma — domenii unde precizia măsurătorilor și fiabilitatea controlului pot face diferența între profit și dezastru, sau chiar între siguranță și catastrofă. Când vezi o rafinărie, o fabrică chimică sau o centrală electrică care rulează de zeci de ani fără incidente majore, e foarte probabil că acolo lucrează un sistem DCS Yokogawa CENTUM. Compania japoneză și-a construit reputația pe măsurători de precizie laboratorială aplicate în medii industriale brutale — de la transmitatoare de presiune cu acuratețe de 0.04% până la analizoare de gaze care detectează părți per milion (ppm).
+    overview: `Yokogawa e unul dintre liderii globali în instrumentație de proces și sisteme de control distribuit (DCS) pentru industria chimică, petrochimică, energie, și pharma — domenii unde precizia măsurătorilor și fiabilitatea controlului pot face diferența între profit și dezastru, sau chiar între siguranță și catastrofă. Când vezi o rafinărie, o fabrică chimică sau o centrală electrică care rulează de zeci de ani fără incidente majore, e foarte probabil că acolo lucrează un sistem DCS Yokogawa CENTUM. Compania japoneză și-a construit reputația pe măsurători de precizie laboratorială aplicate în medii industriale brutale — de la transmitatoare de presiune cu acuratețe de 0.04% până la analizoare de gaze care detectează părți per milion (ppm).
 
-Am văzut sisteme Yokogawa în funcțiune pe instalații de proces continue unde downtime-ul costă milioane de dolari pe zi — rafinării, fabrici de etilen, centrale termice. Ceea ce iese în evidență e stabilitatea pe termen lung: transmitatoare care rulează 10-15 ani fără recalibrări, controlere care nu au nevoie de reboot, și sisteme DCS care au uptime de 99.99% an după an. Filosofia Yokogawa e "măsoară corect de prima dată, controlează cu precizie, și nu te opri niciodată" — un contrast puternic cu sistemele care necesită recalibrări frecvente sau au drift-uri neprevăzute.
+Se întâlnesc sisteme Yokogawa în funcțiune pe instalații de proces continue unde downtime-ul costă milioane de dolari pe zi — rafinării, fabrici de etilen, centrale termice. Ceea ce iese în evidență e stabilitatea pe termen lung: transmitatoare care rulează 10-15 ani fără recalibrări, controlere care nu au nevoie de reboot, și sisteme DCS care au uptime de 99.99% an după an. Filosofia Yokogawa e "măsoară corect de prima dată, controlează cu precizie, și nu te opri niciodată" — un contrast puternic cu sistemele care necesită recalibrări frecvente sau au drift-uri neprevăzute.
 
 Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de la senzori și transmitatoare în câmp (presiune, temperatură, debit, nivel, analiză) până la controlere (PLC, DCS), sisteme SCADA, și software de optimizare proces. Pentru industria grea românească, Yokogawa înseamnă acces la aceeași tehnologie care echipează rafinăriile Shell, fabricile chimice SABIC, sau centralele nucleare din Japonia. Dacă procesul tău are valoare ridicată și nu-ți permiți surprize, Yokogawa e alegerea naturală.`,
     whyChoose: [
@@ -666,6 +766,16 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
       "Apă și ape uzate — SCADA pentru stații de tratare, controlul calității apei",
       "Mining — procesare minerale, flotație, control pH și densitate"
     ],
-    infinitrade: "Furnizăm soluții Yokogawa pentru industria de proces din România — transmitatoare de presiune EJA, debitmetre vortex digitalYEWFLO, analizoare de gaze și lichide, sisteme DCS CENTUM VP. Pentru proiecte noi (rafinării, fabrici chimice, centrale electrice) oferim consultanță completă — de la engineering de bază și dimensionarea instrumentației până la punere în funcțiune și training operatori. Coordonăm livrări directe din Yokogawa Europa sau reprezentanțe regionale, cu termene de 4-8 săptămâni pentru instrumentație standard și 3-6 luni pentru sisteme DCS complete. Oferim și service post-garanție — calibrări, reparații, upgrade-uri software, extinderi de sistem. Yokogawa nu e soluția ieftină, e soluția sigură pe termen lung — pentru instalații unde fiabilitatea și precizia sunt non-negociabile."
+    infinitrade: "Cu Yokogawa, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi la fiecare cerere, fără un inventar propriu pentru instrumentația de proces sau sistemele DCS. Coordonăm livrarea prin canale de aprovizionare din Europa, cu termene tipice de 2-6 săptămâni la comandă pentru instrumentație standard și mult mai lungi pentru proiecte DCS complete, unde recomandăm mereu o verificare punctuală a termenului. Pentru o ofertă corectă avem nevoie de tipul de transmițător sau analizor dorit, gama de măsurare, presiunea și temperatura de proces, și dacă produsul face parte dintr-un proiect DCS mai amplu. Nu publicăm prețuri, iar pentru sisteme critice de siguranță recomandăm confirmarea specificațiilor direct cu documentația tehnică a producătorului.",
+    sources: [
+      { title: "Corporate History | Yokogawa Electric Corporation", url: "https://www.yokogawa.com/about/company-overview/corporate-history/", publisher: "Yokogawa Electric Corporation", accessed: "2026-09-22" },
+      { title: "Yokogawa Electric Corporation", url: "https://www.yokogawa.com/", publisher: "Yokogawa Electric Corporation", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu oferim punere în funcțiune sau service pentru sistemele DCS ca serviciu inclus, și nu confirmăm termenele de livrare pentru proiecte complexe fără o verificare directă la producător.",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    evidenceClass: "transactional"
   }
 }

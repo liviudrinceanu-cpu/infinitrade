@@ -6,7 +6,7 @@ export const brandContentBatch12 = {
     employees: '146,000+',
     overview: `Când vorbim despre automatizări industriale de top, Mitsubishi Electric e numele care îți vine instant în minte. Peste 100 de ani de inginerie japoneză concentrată în fiecare PLC, servo-drive sau VFD pe care îl livram. Noi lucrăm cu seria lor MELSEC iQ-R de vreo 8 ani și pot să spun că stabilitatea pe care o oferă e incredibilă - am avut linii de producție care rulează non-stop 3 ani fără nici o eroare de program.
 
-Ce ne place la ei e că au gândit ecosistemul complet: de la automate programabile mici (seria FX) până la sisteme complexe de control motion cu 64 de axe sincronizate simultan. Interfețele lor GOT (Graphic Operation Terminal) sunt intuitive, programarea în GX Works e logică, iar diagnosticarea online salvează ore întregi când apare vreo urgență. Am văzut mașini din '95 care încă funcționează impecabil, doar cu update-uri software - cam asta înseamnă calitate pe termen lung.
+Ce ne place la ei e că au gândit ecosistemul complet: de la automate programabile mici (seria FX) până la sisteme complexe de control motion cu 64 de axe sincronizate simultan. Interfețele lor GOT (Graphic Operation Terminal) sunt intuitive, programarea în GX Works e logică, iar diagnosticarea online salvează ore întregi când apare vreo urgență. Se întâlnesc mașini din '95 care încă funcționează impecabil, doar cu update-uri software - cam asta înseamnă calitate pe termen lung.
 
 Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de ±0.01mm la axe liniare, timpi de stabilizare sub 20ms, iar comunicația prin SSCNET III/H permite sincronizare perfectă între 32 de axe. Variatorii de frecvență FR-A800 au control vectorial fără senzor care rivalizează cu sisteme closed-loop de 3 ori mai scumpe. În automatizări complexe - de la ambalare la prelucrări CNC - componente Mitsubishi Electric înseamnă performanță fără compromisuri și suport tehnic solid din partea echipei lor.`,
     whyChoose: [
@@ -57,9 +57,17 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       'Material Handling - conveyors, sortare automată, AS/RS, AGV',
       'Textile - mașini țesut, colorare, finisare cu control tensiune și sincronizare'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), furnizăm soluții complete Mitsubishi Electric pentru automatizări - de la PLC-uri și servo-sisteme până la HMI-uri și variatoare de frecvență. Livrăm rapid din stoc local sau commandăm direct din Japonia/Europa cu termene clare 5-15 zile lucrătoare. Oferim suport tehnic pre-vânzare (sizing, configurare, programming assistance) și post-vânzare, iar pentru proiecte complexe colaborăm cu integratori certificați Mitsubishi din România.
-
-Dacă automatizezi o linie nouă sau upgrade-uiești echipamente existente, suntem aici să te ajutăm cu soluția optimă - consultanță hardware, licențe software GX Works/GT Designer, cabluri și accesorii originale. Livrare în Timișoara 24-48h, restul țării 48-72h, prețuri competitive și documentație tehnică completă în limba română. Sună-ne pentru ofertă personalizată - expertiza noastră în automatizări industriale e la dispoziția ta.`
+    infinitrade: `Lucrăm cu informațiile tehnice publicate de Mitsubishi Electric și spunem deschis ce putem și ce nu putem confirma fără o discuție tehnică prealabilă, mai ales pentru configurarea software a automatelor. Nu avem un stoc afișat public pentru fiecare PLC, servo-drive sau variator, dar aducem echipamentele solicitate prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru codurile curente sau în 2-6 săptămâni la comandă pentru configurațiile speciale. Pentru o ofertă corectă, trimite-ne referința exactă a produsului, cantitatea și aplicația vizată – automatizare, motion control sau interfață HMI. Revenim cu un termen realist după ce verificăm disponibilitatea la furnizor.`,
+    limitation: 'Nu putem confirma configurarea sau parametrizarea software (GX Works, GT Designer) pentru instalația ta fără o discuție tehnică prealabilă, și nici service-ul în garanția producătorului.',
+    sources: [
+      { title: 'MITSUBISHI ELECTRIC Global website', url: 'https://www.mitsubishielectric.com/en/index.html', publisher: 'Mitsubishi Electric Corporation', accessed: '2026-09-22' },
+      { title: 'Mitsubishi Electric', url: 'https://en.wikipedia.org/wiki/Mitsubishi_Electric', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'mitutoyo': {
@@ -120,9 +128,17 @@ Ce apreciem cel mai mult e consistența calității - fiecare instrument vine cu
       'Quality Control Labs - departamente QC care validează procese producție',
       'Education - institute tehnice și universități pentru training metrologie'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), furnizăm întreaga gamă Mitutoyo - șublere, micrometre, comparatoare, durimetre, rugozimetre, proiectoare de profil și mașini CMM pentru Quality Labs pretențioase. Comenzile standard (instrumente manuale și digitale clasice) le livrăm în 3-7 zile lucrătoare, iar echipamentele complexe (CMM, proiectoare) au termene 4-8 săptămâni cu instalare și training inclus. Fiecare instrument vine cu certificat de calibrare traceable și garanție extinsă 2 ani.
-
-Oferim și service post-garanție - recalibrare anuală în laboratoare acreditate ISO 17025, reparații, piese de schimb originale, upgrade-uri firmware pentru instrumentele digitale. Dacă ai nevoie de consultanță pentru alegerea echipamentului potrivit aplicației tale (automotive QC, toolroom, R&D), suntem aici să te ghidăm. Comenzile din Timișoara ajung în 24h, iar din restul țării în 48-72h; oferim suport tehnic în română și documentație completă. Precizia începe cu instrumentul potrivit - noi îl avem.`
+    infinitrade: `Folosim informațiile tehnice publicate de Mitutoyo și precizăm clar ce putem și ce nu putem confirma direct, în special pentru calibrare și service. Nu ținem un stoc afișat public pentru fiecare instrument de măsură, dar aducem șublerele, micrometrele sau componentele pentru CMM solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru instrumentele uzuale sau în 2-6 săptămâni la comandă pentru echipamente complexe. Pentru o ofertă corectă, spune-ne ce instrument cauți, intervalul de măsurare necesar și precizia cerută de aplicația ta. Termenul real de livrare vine după ce verificăm disponibilitatea la furnizor.`,
+    limitation: 'Nu putem confirma calibrarea sau service-ul instrumentelor Mitutoyo aflate în garanția producătorului fără verificare directă la un centru autorizat de recalibrare.',
+    sources: [
+      { title: 'Mitutoyo America Corporation | Precision Metrology Solutions', url: 'https://www.mitutoyo.com/', publisher: 'Mitutoyo Corporation', accessed: '2026-09-22' },
+      { title: 'Mitutoyo', url: 'https://en.wikipedia.org/wiki/Mitutoyo', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'history-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'mobil-industrial': {
@@ -183,9 +199,17 @@ Ce ne impresionează e investiția lor în R&D - laborator tribologie unde teste
       'Marine - propulsion systems, deck machinery, hydraulics în mediu salin coroziv',
       'Automotive Manufacturing - linii asamblare, roboti sudură, paint shop hydraulics'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), distribuim gama completă Mobil Industrial Lubricants - de la uleiuri hidraulice și transmisii până la unsori speciale și fluide pentru compresoare. Comandă produsele standard (DTE, Mobilith, Mobilgear) le livrăm rapid din stoc local Timișoara în 24-48h, iar produsele speciale (SHC sintetic, Mobil Rarus, Vacuoline) au termene 3-7 zile lucrătoare din depozitul central. Oferim consultanță tehnică gratuită pentru selecția lubrifiantului optim aplicației tale - luăm în considerare temperatură, sarcină, viteză, compatibilitate materiale, interval mentenanță dorit.
-
-Dacă vrei să treci de la lubrifiante minerale convenționale la sintetic SHC pentru eficiență energetică și intervale extinse, te ajutăm cu analiza cost-benefit și plan de tranziție. Livrăm ambalaje de la 1L până la 208L (butoi), asigurăm tracking comenzi și documentație tehnică completă (MSDS, PDS, typical properties). Pentru clienți industriali mari oferim și Mobil Serv Program - oil analysis gratuit, lubrication surveys, training echipe mentenanță. Investește în lubrifianții care prelungesc viața echipamentelor și reduc costurile - suntem aici să te sprijinim.`
+    infinitrade: `Lucrăm cu fișele tehnice publice ale producătorului Mobil (ExxonMobil) și spunem clar ce putem și ce nu putem confirma pentru fiecare aplicație, mai ales compatibilitatea cu echipamentul tău. Nu deținem un stoc afișat public pentru fiecare ambalaj, dar aducem lubrifianții Mobil solicitați prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru gramajele uzuale sau în 2-6 săptămâni la comandă pentru butoaie ori formule speciale. Pentru o ofertă corectă, trimite-ne tipul de echipament, temperatura de lucru și vâscozitatea recomandată de producătorul utilajului. Verificăm disponibilitatea reală la furnizor înainte să confirmăm termenul de livrare.`,
+    limitation: 'Nu putem confirma stocul permanent pentru fiecare gramaj sau ambalaj Mobil și nici compatibilitatea exactă cu un echipament anume fără specificațiile lui tehnice.',
+    sources: [
+      { title: 'ExxonMobil – Corporate website', url: 'https://corporate.exxonmobil.com/', publisher: 'ExxonMobil Corporation', accessed: '2026-09-22' },
+      { title: 'ExxonMobil', url: 'https://en.wikipedia.org/wiki/ExxonMobil', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'moog': {
@@ -246,15 +270,23 @@ Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele m
       'Marine - stabilizatori fin motion, steering gear heavy ships, submarine control surfaces',
       'Entertainment - theme park rides motion platforms, special effects movie studios'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), furnizăm componente și sisteme Moog pentru aplicații hidraulice de înaltă precizie - servo-valve, valve proporționale, controllere motion RMC, pompe și cilindri. Datorită naturii specializate a produselor, majoritatea comenzilor sunt custom sau low-volume cu termene 6-12 săptămâni direct din fabrici Moog (SUA, Germania). Oferim consultanță tehnică pre-vânzare detaliată - sizing hidraulic, selecție valve, configurare controller, interfațare cu echipament existent.
-
-Pentru proiecte complexe (upgrade linii teste, retrofit mașini vechi, sisteme noi servo-hidraulice), colaborăm cu integratori certificați Moog din Europa care asigură installation, commissioning, training. Asigurăm și service post-vânzare - piese de schimb, recalibrare valve, firmware updates controllere. Dacă dezvolți un sistem de testare sau upgrade-uiezi echipament hidraulic existent către control de precizie, suntem aici să te ghidăm către soluția optimă Moog. Contact pentru consultanță și ofertare - expertiza noastră în automatizări hidraulice e la dispoziția ta.`
+    infinitrade: `Pornim de la surse publice ale producătorului Moog și spunem deschis ce putem și ce nu putem confirma din capacitate proprie, mai ales pentru configurațiile custom. Nu avem un stoc afișat public pentru servo-valve sau controllere, dar aducem componentele Moog solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 2-6 săptămâni la comandă, iar pentru accesorii uzuale uneori și în 24-72 h din stoc. Pentru o ofertă corectă, trimite-ne specificațiile tehnice complete ale valvei sau sistemului hidraulic – presiune, debit, tip de semnal de comandă. Revenim cu un termen realist doar după ce confirmăm disponibilitatea direct la furnizor.`,
+    limitation: 'Nu putem confirma termenele de livrare pentru configurațiile custom Moog și nici service-ul în garanția producătorului, care se face prin canalele oficiale ale fabricantului.',
+    sources: [
+      { title: 'Moog Inc. – Shaping the way our world moves', url: 'https://www.moog.com/', publisher: 'Moog Inc.', accessed: '2026-09-22' },
+      { title: 'Moog Inc.', url: 'https://en.wikipedia.org/wiki/Moog_Inc.', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'history-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'mp-filtri': {
     name: 'MP Filtri',
     founded: 1964,
-    headquarters: 'Bologna, Italia',
+    headquarters: 'Milano, Italia',
     employees: '1,200+',
     overview: `MP Filtri e specialist absolut în filtrare hidraulică și monitorizare contaminare - 60 ani dedicați unei singure obsesii: să țină uleiul hidraulic curat și să detecteze orice problemă înainte să devină catastrofă. Am folosit filtre lor în sisteme hidraulice de la 50L la 2,000L rezervor și diferența față de filtre generice e dramatică - beta ratio real (nu teoretic) peste specificații, capacitate de retenție praf dublă, indicatori saturație fiabili, viață filtru prelungită cu 30-50%. Oil analysis după 1,000 ore arată cod de contaminare ISO 16/14/11 vs. 19/17/14 cu filtre standard - asta înseamnă pompe și valve care trăiesc de 3x mai mult.
 
@@ -309,9 +341,17 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
       'Machine Tools - prese hidraulice, CNC machining centers, grinding machines',
       'Material Handling - elevators, conveyors, AGV cu hidraulică frecvent ciclată'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), furnizăm gama completă MP Filtri - de la filtre simple return/pressure până la sisteme avansate de monitorizare online și unități off-line filtration. Produsele standard (filtre FHP, FMP, strainere STR) le livrăm în 3-7 zile lucrătoare din stoc European, iar sistemele speciale (MPT particle counters, FKP units) au termene 2-4 săptămâni. Oferim consultanță tehnică gratuită pentru sizing corect - calculăm debit, presiune diferențială, finețe necesară bazat pe componentele tale hidraulice și cod ISO țintă.
-
-Dacă ai probleme recurente cu pompe sau valve uzate prematur, te ajutăm cu analiza cauzelor (probabil contaminare) și soluție completă filtrare + monitoring. Livrăm și consumabile (elemente filtrante replacement, magneți, indicatori) pentru mentenanță pe termen lung. Pentru clienți industriali mari oferim audit gratuit sisteme hidraulice - sampling ulei, măsurare contaminare, recomandări upgrade filtrare. Investește în protecția corectă - costul filtrelor e 1-2% din costul echipamentului protejat. Comenzile ridicate din Timișoara ajung în aceeași zi, iar în restul țării în 48-72h. Contactează-ne pentru ofertă personalizată.`
+    infinitrade: `Folosim informațiile tehnice publicate de MP Filtri și explicăm clar ce putem și ce nu putem confirma noi, în special pentru senzorii de monitorizare online. Nu ținem un stoc afișat public pentru fiecare finețe de filtrare, dar aducem filtrele și strecurătoarele MP Filtri prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 2-6 săptămâni la comandă pentru sisteme de monitorizare. Pentru o ofertă corectă, trimite-ne debitul, presiunea de lucru și finețea de filtrare necesară aplicației tale. Confirmăm termenul după verificarea disponibilității reale la furnizor.`,
+    limitation: 'Nu putem confirma stocul permanent pentru fiecare finețe de filtrare MP Filtri și nici configurarea senzorilor de particule pentru sistemul tău fără o discuție tehnică prealabilă.',
+    sources: [
+      { title: 'MP Filtri – Official website', url: 'https://www.mpfiltri.com/', publisher: 'MP Filtri S.p.A.', accessed: '2026-09-22' },
+      { title: 'MP Filtri', url: 'https://en.wikipedia.org/wiki/MP_Filtri', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: corectat headquarters din "Bologna, Italia" în "Milano, Italia" (confirmat pe mpfiltri.com), surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'msa-safety': {
@@ -372,23 +412,31 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
       'Maritime - tank cleaning pe tankers, engine room, ballast spaces confined',
       'Pharmaceutical - clean rooms, solvent handling, reactor maintenance'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), furnizăm echipamente MSA Safety pentru protecție personală și monitorizare gaze - de la detectoare portabile și fixe până la căști, ochelari, harnașamente fall protection. Produsele standard (V-Gard hard hats, ochelari, single-gas detectors) le livrăm rapid din stoc European în 3-7 zile, iar echipamentele complexe (ALTAIR multi-gas, ULTIMA X systems, SCBA) au termene 2-6 săptămâni. Oferim consultanță gratuită risk assessment - identificăm hazardurile tale și recomandăm echipamentul adecvat conform legislație română SSM și standarde internaționale.
-
-Asigurăm și service complet post-vânzare - calibrare detectoare gaze (bump test, full calibration cu gaz standard certificat), inspecție anuală SCBA conform NFPA, testing harnașamente fall arrest, înlocuire consumabile (senzori, filtre, baterii). Pentru clienți industriali mari oferim training certificat utilizare echipamente (detectoare, SCBA, fall protection) și programe rental pentru proiecte temporare. Protecția echipei tale nu e negociabilă - investește în echipament certificat de la lider mondial safety. Contactează-ne pentru audit SSM gratuit și ofertă personalizată. Livrare Timișoara 24-48h, restul țării 48-72h.`
+    infinitrade: `Lucrăm cu informațiile publicate de MSA Safety și spunem clar ce putem și ce nu putem confirma direct, mai ales pentru calibrarea detectoarelor de gaz. Nu avem un stoc afișat public pentru fiecare echipament, dar aducem detectoarele, căștile sau harnașamentele MSA prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru produsele curente sau în 2-6 săptămâni la comandă pentru configurații speciale. Pentru o ofertă corectă, trimite-ne modelul exact, gazele de detectat sau standardul de protecție cerut de aplicația ta. Confirmăm termenul după ce verificăm disponibilitatea reală la furnizor.`,
+    limitation: 'Nu putem confirma calibrarea sau service-ul echipamentelor MSA aflate în garanția producătorului fără verificare directă la un centru autorizat.',
+    sources: [
+      { title: 'MSA Safety | Global', url: 'https://www.msasafety.com/en-US/', publisher: 'MSA Safety Incorporated', accessed: '2026-09-22' },
+      { title: 'MSA Safety', url: 'https://en.wikipedia.org/wiki/MSA_Safety', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'zero-evidence',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, eliminat superlativ nedovedit din infinitrade' }
+    ]
   },
 
   'murr-elektronik': {
     name: 'Murr Elektronik',
-    founded: 1954,
+    founded: 1975,
     headquarters: 'Oppenweiler, Germania',
     employees: '3,000+',
-    overview: `Murr Elektronik e specialist german în conectică industrială și infrastructură electrică pentru automatizări - 70 ani dedicați unei misiuni simple: conectează totul robust, rapid, fără erori. De la cabluri M8/M12 pentru senzori până la switch-uri Ethernet managed și alimentatoare cu redundanță N+1, produsele Murr rezolvă problema eternă a câblării industriale complicate. Am folosit module lor I/O remote IMPACT67 în aplicații automotive assembly și reducerea timpului de cablare a fost dramatică - de la 40 ore cu terminale clasice la 8 ore cu conectori quick-disconnect și module pre-configurate.
+    overview: `Murr Elektronik e specialist german în conectică industrială și infrastructură electrică pentru automatizări - zeci de ani dedicați unei misiuni simple: conectează totul robust, rapid, fără erori. De la cabluri M8/M12 pentru senzori până la switch-uri Ethernet managed și alimentatoare cu redundanță N+1, produsele Murr rezolvă problema eternă a câblării industriale complicate. Am folosit module lor I/O remote IMPACT67 în aplicații automotive assembly și reducerea timpului de cablare a fost dramatică - de la 40 ore cu terminale clasice la 8 ore cu conectori quick-disconnect și module pre-configurate.
 
 Gama lor acoperă tot lanțul conectivitate: cabluri și conectori M8/M12/M23 pentru senzori/actuatori (straight, right-angle, shielded, cu LED, push-pull, bayonet), module I/O distribuite IP67 (IMPACT67 cu IO-Link, EtherNet/IP, PROFINET), switch-uri Ethernet industriale (managed/unmanaged cu redundanță, PoE, fiber), alimentatoare 24VDC (EVOLVE cu eficiență 96%, redundanță diode OR, monitoring curent), sistem decentralizare MVK Metal cu protecție fuse/breaker per circuit. Și totul gândit modular - adaugi 8 I/O aici, un switch acolo, un alimentator redundant - fără redesign complet panou.
 
 Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezistă jet high-pressure cleaning la 80°C (food processing, automotive paint shop), cabluri PUR/PVC cu rezistență ulei, abraziune, UV, temperaturi -40°C la +90°C, module I/O cu coating protectiv pentru medii corozive. Și apoi e ușurința diagnosticării - LED-uri status pe fiecare conector, module cu web server integrat pentru troubleshooting remote, alimentatoare cu alarme DC-OK. Când cablez o mașină nouă sau retrofit echipament vechi, Murr înseamnă timp redus commissioning și fiabilitate pe termen lung fără probleme intermitente de contact. În automatizări unde sute de senzori și actuatori comunică, conectica corectă e tot atât de importantă ca PLC-ul.`,
     whyChoose: [
-      'Specialist conectică 70 ani - de la conectori M8 simpli la ecosisteme I/O distribuite',
+      'Specialist conectică industrială - de la conectori M8 simpli la ecosisteme I/O distribuite',
       'Robustețe industrială extremă - IP67/IP69K, rezistență chimică, temperaturi -40°C/+90°C',
       'Modularitate completă - cabluri, conectori, module I/O, switch-uri, alimentatoare integrate',
       'Reducere timp cablare 60-80% - conectori quick-disconnect vs. terminale clasice',
@@ -406,11 +454,11 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
       },
       {
         name: 'EVOLVE Power Supplies 24VDC',
-        description: 'Alimentatoare comutate 24VDC cu eficiență extremă pentru reducere pierderi și costuri energie. Power 120W-960W (5A-40A), intrare 100-240VAC sau 320-575VAC (3-phase pentru modele >480W). Eficiență până la 96.5% (80 PLUS Platinum equivalent), corecție factor putere >0.99 pasiv. Output adjustable 24-28VDC cu precizie ±1%, ripple <50mV p-p. Funcții: soft-start, short-circuit constant current, overload auto-recovery, DC-OK relay signal. Protecție IP20 standard, temperatură -25°C la +70°C derating, convection cooling fără fan (MTBF 500,000h). Montare DIN rail TS35, conexiuni spring-clamp cage sau screw. Certificare UL508, cUL, CE, marine. Aplicații: alimentare PLC, I/O modules, HMI, drives în panouri control. Model EVOLVE 24V/20A (480W) costă ~450 EUR dar economie energie vs. alimentator 90% eficiență: 25W pierderi reduse × 8,000h/an × 0.15 EUR/kWh = 30 EUR/an saved - ROI în 15 ani nu impresionant, dar fiabilitate și compactness justify.'
+        description: 'Alimentatoare comutate 24VDC cu eficiență extremă pentru reducere pierderi și costuri energie. Power 120W-960W (5A-40A), intrare 100-240VAC sau 320-575VAC (3-phase pentru modele >480W). Eficiență până la 96.5% (80 PLUS Platinum equivalent), corecție factor putere >0.99 pasiv. Output adjustable 24-28VDC cu precizie ±1%, ripple <50mV p-p. Funcții: soft-start, short-circuit constant current, overload auto-recovery, DC-OK relay signal. Protecție IP20 standard, temperatură -25°C la +70°C derating, convection cooling fără fan (MTBF 500,000h). Montare DIN rail TS35, conexiuni spring-clamp cage sau screw. Certificare UL508, cUL, CE, marine. Aplicații: alimentare PLC, I/O modules, HMI, drives în panouri control. Model EVOLVE 24V/20A (480W) reduce pierderile de energie an de an vs. un alimentator standard, iar fiabilitatea și compactitatea justifică diferența de cost.'
       },
       {
         name: 'Tree8 Managed Ethernet Switches',
-        description: 'Switch-uri Ethernet industriale managed pentru backbone comunicație în automatizări complexe. Porturi: 8-28 (combinații RJ45 10/100/1000Mbit, SFP fiber, PoE+). Funcții managed: VLAN, QoS, IGMP snooping, RSTP/MRP redundanță <200ms, port mirroring pentru diagnostică. PoE+: IEEE 802.3at până la 30W per port, budget total 240-480W dependent model. Alimentare 24VDC sau 110-230VAC redundant input cu relay alarme. Carcasă metal IP30 montare DIN rail, temperatură -40°C la +75°C fanless. Certificare IEC 61850-3, IEEE 1613 (substation), EN 50121 (railway), marine DNV. Management: web interface, CLI, SNMP v1/v2c/v3, email alerts, syslog. Aplicații: manufacturing plants cu multiple PLC, SCADA networks, IP camera systems industrial, building automation BACnet/IP. Model Tree8 cu 16 porturi Gigabit + 4 SFP costă ~1,200 EUR - investiție pentru infrastructure critică unde downtime network = producție oprită. Redundanță <200ms asigură continuitate chiar dacă un cablu/switch cade.'
+        description: 'Switch-uri Ethernet industriale managed pentru backbone comunicație în automatizări complexe. Porturi: 8-28 (combinații RJ45 10/100/1000Mbit, SFP fiber, PoE+). Funcții managed: VLAN, QoS, IGMP snooping, RSTP/MRP redundanță <200ms, port mirroring pentru diagnostică. PoE+: IEEE 802.3at până la 30W per port, budget total 240-480W dependent model. Alimentare 24VDC sau 110-230VAC redundant input cu relay alarme. Carcasă metal IP30 montare DIN rail, temperatură -40°C la +75°C fanless. Certificare IEC 61850-3, IEEE 1613 (substation), EN 50121 (railway), marine DNV. Management: web interface, CLI, SNMP v1/v2c/v3, email alerts, syslog. Aplicații: manufacturing plants cu multiple PLC, SCADA networks, IP camera systems industrial, building automation BACnet/IP. Redundanță <200ms asigură continuitate chiar dacă un cablu sau switch cade din rețea.'
       }
     ],
     certifications: [
@@ -435,9 +483,17 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
       'Transportation - railway signaling, metro, tram cu certificări EN 50121',
       'Building Automation - HVAC, lighting, access control cu PoE și BACnet/IP'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), furnizăm gama completă Murr Elektronik - conectori M8/M12/M23, cabluri pre-assemblate, module I/O IMPACT67, switch-uri Ethernet, alimentatoare EVOLVE, sistem MVK Metal. Produsele standard (conectori, cabluri, alimentatoare) le livrăm în 3-7 zile lucrătoare din stoc German, iar configurațiile custom (cabluri lungimi speciale, module I/O configurate specific) au termene 2-3 săptămâni. Oferim consultanță tehnică gratuită pentru sizing - calculăm numărul I/O necesare, alegem conectori potriviți IP rating și temperatură, dimensionăm alimentatoare cu reserve.
-
-Dacă construiești o mașină nouă sau retrofit echipament vechi, te ajutăm să optimizezi cablarea pentru reducere timp și cost. Livrăm și training tehnic - best practices instalare conectică IP67, setup module I/O PROFINET/EtherNet/IP, configuration switch-uri managed. Pentru integratori și OEM-uri oferim prețuri volum și support tehnic dedicat pre-sales. Investiția în conectică industrială de calitate se amortizează rapid prin timp commissioning redus și fiabilitate pe termen lung. Pentru Timișoara livrarea e în 24h, iar pentru restul țării în 48-72h. Contactează-ne pentru ofertă personalizată și catalog tehnic complet.`
+    infinitrade: `Pornim de la surse publice ale producătorului Murrelektronik și spunem deschis ce putem și ce nu putem confirma din capacitate proprie, mai ales pentru configurarea software a rețelei tale. Nu deținem un stoc afișat public pentru fiecare conector sau modul I/O, dar aducem componentele Murrelektronik prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru cablurile și conectorii uzuali sau în 2-6 săptămâni la comandă pentru module configurate special. Pentru o ofertă corectă, trimite-ne codul componentei, lungimea cablului sau protocolul de comunicare folosit. Verificăm disponibilitatea reală înainte de a confirma un termen ferm.`,
+    limitation: 'Nu putem confirma configurarea software a modulelor I/O Murrelektronik pentru rețeaua ta fără o discuție tehnică prealabilă, și nici stocul permanent pentru fiecare cod de cablu.',
+    sources: [
+      { title: 'Murrelektronik – Official website', url: 'https://www.murrelektronik.com/', publisher: 'Murrelektronik GmbH', accessed: '2026-09-22' },
+      { title: 'Murrelektronik', url: 'https://de.wikipedia.org/wiki/Murrelektronik', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: corectat founded din 1954 în 1975 (confirmat: compania a fost fondată de Franz Hafner în 1975), surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'nilfisk': {
@@ -449,31 +505,31 @@ Dacă construiești o mașină nouă sau retrofit echipament vechi, te ajutăm s
 
 Gama lor industrială include: aspiratoare profesionale (uscate, umede, wet&dry cu separatoare ciclonic, ATEX pentru praf exploziv), aspiratoare industriale heavy-duty (3-phase, 5-10kW, containere 50-100L, filtrare HEPA), mașini spălat pardoseli (walk-behind și ride-on de la 40cm până la 150cm lățime lucru, capacitate rezervoare 40-200L, autonomie 2-5 ore), echipamente high-pressure cleaning (1,500-3,000 PSI cu încălzire opțională pentru degresare), sisteme curățenie autonome (roboti AMR cu navigație SLAM pentru cleaning 24/7 fără operator). Toate gândite pentru utilizare intensivă - 6-12 ore/zi, 6-7 zile/săptămână, ani de zile.
 
-Ce ne impresionează e atenția la detalii operaționale - mașini spălat cu squeegee ajustabil automat pentru urmărire perfect pardoseală, aspiratoare cu alarme filter clogged și sisteme auto-clean filtru, pressure washers cu detergent injection automat și lance cu dead-man switch pentru safety. Service-ul e organizat global - piese de schimb pentru modele de 15 ani, manuale service detaliate, training pentru tehnicieni. În curățenia industrială profesională - fabrici, depozite, retail mari, hospitality - Nilfisk e investiția care se plătește prin productivitate ridicată, costuri operaționale mici (consumabile, mentenanță) și uptime aproape 100%. Mai scump decât alternative low-cost cu 40-60%, dar TCO pe 5 ani e de fapt mai mic datorită durabilității și eficienței.`,
+Ce ne impresionează e atenția la detalii operaționale - mașini spălat cu squeegee ajustabil automat pentru urmărire perfect pardoseală, aspiratoare cu alarme filter clogged și sisteme auto-clean filtru, pressure washers cu detergent injection automat și lance cu dead-man switch pentru safety. Service-ul e organizat global - piese de schimb pentru modele de 15 ani, manuale service detaliate, training pentru tehnicieni. În curățenia industrială profesională - fabrici, depozite, retail mari, hospitality - Nilfisk e investiția care se plătește prin productivitate ridicată, costuri operaționale mici (consumabile, mentenanță) și uptime aproape 100%. Mai scump decât alternative low-cost, dar TCO pe 5 ani e de fapt mai mic datorită durabilității și eficienței.`,
     whyChoose: [
       'Experiență 110+ ani - de la primul aspirator electric la roboti autonomi moderni',
       'Durabilitate legendară - echipamente care țin 10-15 ani în utilizare industrială zilnică',
       'Gamă completă profesional - de la aspiratoare portabile la mașini ride-on și sisteme autonome',
-      'Eficiență operațională - consumuri reduse apă/energie/detergent vs. competiție 20-30%',
-      'Service global - piese schimb disponibile decenii, training tehnic, support 24/7',
+      'Eficiență operațională - consumuri reduse apă/energie/detergent vs. competiție',
+      'Service global - piese schimb disponibile decenii, training tehnic, support tehnic dedicat',
       'Inovație continuă - HEPA filtration, eco-mode, telemetrie IoT, autonomous cleaning'
     ],
     keyProducts: [
       {
         name: 'Nilfisk VHW420 Industrial Vacuum',
-        description: 'Aspirator industrial wet & dry heavy-duty pentru aplicații extreme construcții, producție, metal working. Motor 3-phase 5.5kW (7.5HP), debit aer 440 m³/h, depresiune 310 mbar (water lift 3,100mm), zgomot 76 dB(A). Container inox AISI 304 100L cu system emptying tip-over sau pump-out pentru lichide. Filtrare: pre-separator cyclonic, filtru principal poliester lavabil, opțiune HEPA H13 pentru praf fin toxic. Auto-filter cleaning prin pulse aer comprimat reverse. Accesorii: furtun 76mm heavy-duty 5m, lance telescopică inox, set perii și duze pentru diverse materiale. Protecție IP54, alimentare 400VAC 50Hz. Aplicații: curățare după șlefuire/polizare metal, aspirare șpan și coolant în ateliere CNC, cleanup după construcții, recuperare lichide industriale. Greutate 110kg cu roți heavy-duty și handle pentru manevrabilitate. Investiție ~4,500 EUR dar înlocuiește 3 aspiratoare shop-vac care mor în 6 luni pe șantier.'
+        description: 'Aspirator industrial wet & dry heavy-duty pentru aplicații extreme construcții, producție, metal working. Motor 3-phase 5.5kW (7.5HP), debit aer 440 m³/h, depresiune 310 mbar (water lift 3,100mm), zgomot 76 dB(A). Container inox AISI 304 100L cu system emptying tip-over sau pump-out pentru lichide. Filtrare: pre-separator cyclonic, filtru principal poliester lavabil, opțiune HEPA H13 pentru praf fin toxic. Auto-filter cleaning prin pulse aer comprimat reverse. Accesorii: furtun 76mm heavy-duty 5m, lance telescopică inox, set perii și duze pentru diverse materiale. Protecție IP54, alimentare 400VAC 50Hz. Aplicații: curățare după șlefuire/polizare metal, aspirare șpan și coolant în ateliere CNC, cleanup după construcții, recuperare lichide industriale. Greutate 110kg cu roți heavy-duty și handle pentru manevrabilitate.'
       },
       {
         name: 'SC6500 Ride-on Scrubber-Dryer',
-        description: 'Mașină profesională spălat-uscat pardoseli tip ride-on pentru suprafețe mari - productivitate până la 10,000 m²/h. Lățime lucru 105cm (disc brush) sau 116cm (cilindric brush), capacitate rezervor soluție 265L + recovery 285L, autonomie 5.5 ore continuous. Motor tracțiune 24V DC brushless cu viteză variabilă 0-9 km/h, motor brush 1,500W, motor vacuum 600W. Brush pressure 23-180 kg adjustable dependent tip pardoseală. Eco-mode reduce consum apă cu 30%, energie cu 20%, detergent cu 50% vs. mod normal. Display intuitiv cu alarme level apă, filter clogged, battery low. Încărcare baterii on-board 24V/240Ah, charger integrat 35A. Aplicații: depozite logistice, retail hypermarketuri, aeroporturi, fabrici production floors, parking subteran. Greutate 745kg, dimensiuni compact pentru manevrabilitate. Cost ~45,000 EUR dar pentru 20,000m² zilnic e singura soluție viabilă - walk-behind ar necesita 3 operatori vs. 1 pe ride-on.'
+        description: 'Mașină profesională spălat-uscat pardoseli tip ride-on pentru suprafețe mari - productivitate până la 10,000 m²/h. Lățime lucru 105cm (disc brush) sau 116cm (cilindric brush), capacitate rezervor soluție 265L + recovery 285L, autonomie 5.5 ore continuous. Motor tracțiune 24V DC brushless cu viteză variabilă 0-9 km/h, motor brush 1,500W, motor vacuum 600W. Brush pressure 23-180 kg adjustable dependent tip pardoseală. Eco-mode reduce consum apă cu 30%, energie cu 20%, detergent cu 50% vs. mod normal. Display intuitiv cu alarme level apă, filter clogged, battery low. Încărcare baterii on-board 24V/240Ah, charger integrat 35A. Aplicații: depozite logistice, retail hypermarketuri, aeroporturi, fabrici production floors, parking subteran. Greutate 745kg, dimensiuni compact pentru manevrabilitate.'
       },
       {
         name: 'MC5M Autonomous Scrubber',
-        description: 'Robot autonom spălat pardoseli cu navigație SLAM (Simultaneous Localization And Mapping) - curățenie 24/7 fără operator uman. Lățime lucru 55cm disc brush, capacitate rezervoare 70L soluție + 75L recovery, autonomie 4.5 ore. Navigație: LIDAR + camere viziune pentru mapping environment și evitare obstacole dinamic. Velocitate 4.5 km/h, productivitate 1,800 m²/h. Programare: teaching mode (conduci manual prima dată, apoi repetă autonom), multi-zone cu schedule diferit, charge automat când baterie <20%. Safety: senzori 360° cu stop instant la obstacol, alarme sonore/vizuale, compliance EN 1525. Telemetrie: cloud portal cu monitoring real-time poziție, alarme, productivity reports, remote diagnostics. Aplicații: retail după program (night cleaning), aeroporturi zone non-public, fabrici production floors night shift, hospitality (hoteluri, spitale). Investiție ~85,000 EUR dar elimină 1 FTE cleaner + permite cleaning frecvent fără cost labor suplimentar - ROI în 2-3 ani pentru facilități mari.'
+        description: 'Robot autonom spălat pardoseli cu navigație SLAM (Simultaneous Localization And Mapping) - curățenie 24/7 fără operator uman. Lățime lucru 55cm disc brush, capacitate rezervoare 70L soluție + 75L recovery, autonomie 4.5 ore. Navigație: LIDAR + camere viziune pentru mapping environment și evitare obstacole dinamic. Velocitate 4.5 km/h, productivitate 1,800 m²/h. Programare: teaching mode (conduci manual prima dată, apoi repetă autonom), multi-zone cu schedule diferit, charge automat când baterie <20%. Safety: senzori 360° cu stop instant la obstacol, alarme sonore/vizuale, compliance EN 1525. Telemetrie: cloud portal cu monitoring real-time poziție, alarme, productivity reports, remote diagnostics. Aplicații: retail după program (night cleaning), aeroporturi zone non-public, fabrici production floors night shift, hospitality (hoteluri, spitale).'
       },
       {
         name: 'MH 7P High-Pressure Cleaner',
-        description: 'Echipament spălat cu presiune înaltă mobil heavy-duty pentru degresare industrială și curățare mașini/echipamente. Presiune 200 bar (2,900 PSI), debit apă 1,260 L/h, motor electric 3-phase 10kW. Pompă triplex pistons cu ceramic plungers și brass head - viață 2,000+ ore. Încălzire: burner diesel/păcură 35kW pentru temperatură apă până la 85°C - dizolvare grease și uleiuri instant. Rezervor detergent 60L cu injector Venturi adjustable dilution. Lance inox telescopică cu swivel, duze rotative pentru degresare heavy și flat-jet pentru suprafețe mari. Hose high-pressure 20m DN8 cu quick-connect. Protecție: total-stop automat când trigger release (economie apă/energie), termostat safety pentru overheat, manometru presiune. Frame pe roți cu handle pentru portabilitate. Aplicații: curățare utilaje construcții (excavatoare, bulldozere), degresare echipamente producție, wash bays automotive, cleanup după turnare beton. Cost ~6,500 EUR - investiție pentru mentenanță facilități unde grease și dirt heavy sunt challenge zilnic.'
+        description: 'Echipament spălat cu presiune înaltă mobil heavy-duty pentru degresare industrială și curățare mașini/echipamente. Presiune 200 bar (2,900 PSI), debit apă 1,260 L/h, motor electric 3-phase 10kW. Pompă triplex pistons cu ceramic plungers și brass head - viață 2,000+ ore. Încălzire: burner diesel/păcură 35kW pentru temperatură apă până la 85°C - dizolvare grease și uleiuri instant. Rezervor detergent 60L cu injector Venturi adjustable dilution. Lance inox telescopică cu swivel, duze rotative pentru degresare heavy și flat-jet pentru suprafețe mari. Hose high-pressure 20m DN8 cu quick-connect. Protecție: total-stop automat când trigger release (economie apă/energie), termostat safety pentru overheat, manometru presiune. Frame pe roți cu handle pentru portabilitate. Aplicații: curățare utilaje construcții (excavatoare, bulldozere), degresare echipamente producție, wash bays automotive, cleanup după turnare beton.'
       }
     ],
     certifications: [
@@ -498,9 +554,17 @@ Ce ne impresionează e atenția la detalii operaționale - mașini spălat cu sq
       'Automotive - service centers, dealerships, wash bays cu degresare și cleaning echipamente',
       'Pharmaceuticals - clean rooms, production floors cu particulate control strict'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), furnizăm gama completă Nilfisk pentru curățenie industrială și comercială - de la aspiratoare profesionale la mașini spălat pardoseli walk-behind și ride-on, echipamente high-pressure, soluții autonome. Produsele standard (aspiratoare portabile, pressure cleaners mici) le livrăm în 7-14 zile din stoc European, iar echipamentele mari (mașini ride-on, roboti autonomi) au termene 4-8 săptămâni cu instalare și training operator inclus. Oferim consultanță gratuită selecție echipament - evaluăm suprafața, tipul pardoselii, gradul de murdărire, frecvența necesară pentru sizing corect.
-
-Asigurăm service post-vânzare complet - mentenanță preventivă, reparații, piese de schimb originale (filtre, perii, squeegee, baterii), training echipe cleaning pentru utilizare optimă. Pentru clienți mari (retail chains, facility management) oferim contracte service cu intervenție rapidă și rental temporar când echipamentul e în service. Investiția în echipament profesional Nilfisk se amortizează rapid prin productivitate ridicată, costuri operaționale reduse și durabilitate pe termen lung. Livrare și instalare în toată România, training inclus, garanție extinsă 2-3 ani. Contactează-ne pentru demo gratuit la locația ta și ofertă personalizată.`
+    infinitrade: `Folosim informațiile publicate de Nilfisk și spunem clar ce putem și ce nu putem confirma direct, în special pentru service și piese de schimb. Nu ținem un stoc afișat public pentru fiecare echipament de curățenie, dar aducem aspiratoarele, mașinile de spălat pardoseli sau echipamentele de presiune Nilfisk prin canale de aprovizionare din Uniunea Europeană, de obicei în 2-6 săptămâni la comandă, iar unele consumabile uneori și în 24-72 h din stoc. Pentru o ofertă corectă, trimite-ne suprafața de curățat, tipul pardoselii și frecvența de utilizare dorită. Îți spunem termenul concret abia după ce verificăm stocul la furnizor.`,
+    limitation: 'Nu putem confirma service-ul în garanția producătorului pentru echipamentele Nilfisk și nici stocul permanent pentru fiecare model din gama profesională.',
+    sources: [
+      { title: 'Nilfisk United States', url: 'https://www.nilfisk.com/en-us/', publisher: 'Nilfisk A/S', accessed: '2026-09-22' },
+      { title: 'Nilfisk', url: 'https://en.wikipedia.org/wiki/Nilfisk', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'norgren': {
@@ -508,35 +572,35 @@ Asigurăm service post-vânzare complet - mentenanță preventivă, reparații, 
     founded: 1927,
     headquarters: 'Lichfield, UK',
     employees: '5,500+ (IMI Precision Engineering)',
-    overview: `Norgren (parte din grupul IMI Precision Engineering) e unul dintre liderii mondiali în pneumatică industrială - peste 95 ani de inovație în controlul aerului comprimat pentru automatizări. De la primele valve și cilindri pentru industria aviatică până la sistemele electronice de control motion pneumatic de azi, Norgren a fost mereu în fruntea tehnologiei. Am integrat componente Norgren în zeci de aplicații - de la mașini ambalare rapidă cu cilindri ISO compact la linii automotive assembly cu valve manifold gestionate prin bus industrial - fiabilitatea și consistența performanței e remarcabilă chiar după milioane cicluri.
+    overview: `Norgren (parte din grupul IMI Precision Engineering) e unul dintre liderii mondiali în pneumatică industrială - peste 95 ani de inovație în controlul aerului comprimat pentru automatizări. De la primele valve și cilindri pentru industria aviatică până la sistemele electronice de control motion pneumatic de azi, Norgren a fost mereu în fruntea tehnologiei. Am integrat componente Norgren în zeci de aplicații - de la mașini ambalare rapidă cu cilindri ISO compact la linii automotive assembly cu valve manifold gestionate prin bus industrial - fiabilitatea și consistența performanței e remarcabilă chiar și după milioane cicluri.
 
 Gama lor industrială e vastă și bine organizată pe categorii: cilindri pneumatici (ISO 15552 standard și compact, rotative, ghidate, rodless, cu magnet pentru senzori), valve (directionale 3/2, 5/2, 5/3 monostabile/bistabile, proporționale pentru control debit/presiune), FRL units (filtre, regulatoare presiune, lubricatoare modular combinabile), actuatoare (clești, grippers, rotative, linear slides), fitting-uri și tubulatura (push-in, instant, brass/inox pentru toate diametrele). Și apoi e linia electronică - valve manifold cu driver integrat (comunicare PROFIBUS, PROFINET, EtherNet/IP, IO-Link), regulatoare presiune electronice cu feedback closed-loop, motion controllers pneumatici.
 
-Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența parametrilor - când spec sheet spune forță 1,200N la 6 bar, vei obține exact asta ±2% pe toți cilindrii dintr-un lot, nu ±10% ca la producători low-cost. Rezultat: mașini care funcționează repetat fără re-tuning, timpi ciclu stabili, menos downtime. În food packaging, automotive, pharmaceuticals unde viteza și precizia pneumatică dictează productivitatea, Norgren înseamnă investiție justificată prin performanță. Service-ul lor e global cu distribuitori locali care țin stoc și oferă suport tehnic rapid - comandă astăzi, instalează mâine, producție rulează fără întrerupere.`,
+Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența parametrilor - când spec sheet spune forță 1,200N la 6 bar, vei obține exact asta ±2% pe toți cilindrii dintr-un lot, nu ±10% ca la producători low-cost. Rezultat: mașini care funcționează repetat fără re-tuning, timpi ciclu stabili, menos downtime. În food packaging, automotive, pharmaceuticals unde viteza și precizia pneumatică dictează productivitatea, Norgren înseamnă investiție justificată prin performanță. Service-ul lor e organizat printr-o rețea de distribuitori locali care țin stoc și oferă suport tehnic rapid.`,
     whyChoose: [
       '95+ ani experiență pneumatică - de la aviație la automatizări industriale moderne',
       'Calitate manufacturing UK/EU - consistență parametri ±2% vs. ±10% low-cost brands',
       'Gamă completă sistem pneumatic - cilindri, valve, FRL, actuatoare, control electronic',
       'Tehnologie avansată - valve proporționale, motion control, IO-Link, bus industrial',
       'Durabilitate extremă - cilindri ISO testați 10 milioane cicluri fără degradare',
-      'Service global rapid - distribuitori locali cu stoc, suport tehnic, livrare next-day'
+      'Rețea de distribuție locală - stoc regional, suport tehnic, livrare rapidă'
     ],
     keyProducts: [
       {
         name: 'ISO 15552 Pneumatic Cylinders',
-        description: 'Cilindri pneumatici standard ISO 15552 (fost ISO 6431) - cea mai răspândită configurație în automatizări industriale worldwide. Diametru piston 32-320mm, cursă până la 2,000mm (dependent diametru), presiune lucru 1-10 bar. Construcție: țeavă aluminiu hard-anodized, piston aluminiu cu etanșări NBR/PUR, tijă inox AISI 304 cromată hard. Amortizare: fixă elastomer (standard) sau adjustabilă pneumatică (opțiune) pentru reducere șoc la capete cursă. Magnet permanent integrat pentru senzori reed/Hall proximity fără contact. Mounting: numeroase opțiuni (front/rear flange, clevis, trunnion) conform ISO. Temperatură -20°C la +80°C, mediu lubrifiat sau non-lube (long-life seals). Aplicații: mașini ambalare, conveyors, automotive assembly, material handling. Model 63mm × 100mm stroke costă ~120 EUR - investiție standard pentru mișcare liniară pneumatică robust și interschimbabil între producători.'
+        description: 'Cilindri pneumatici standard ISO 15552 (fost ISO 6431) - cea mai răspândită configurație în automatizări industriale worldwide. Diametru piston 32-320mm, cursă până la 2,000mm (dependent diametru), presiune lucru 1-10 bar. Construcție: țeavă aluminiu hard-anodized, piston aluminiu cu etanșări NBR/PUR, tijă inox AISI 304 cromată hard. Amortizare: fixă elastomer (standard) sau adjustabilă pneumatică (opțiune) pentru reducere șoc la capete cursă. Magnet permanent integrat pentru senzori reed/Hall proximity fără contact. Mounting: numeroase opțiuni (front/rear flange, clevis, trunnion) conform ISO. Temperatură -20°C la +80°C, mediu lubrifiat sau non-lube (long-life seals). Aplicații: mașini ambalare, conveyors, automotive assembly, material handling. Model 63mm × 100mm stroke e o soluție standard pentru mișcare liniară pneumatică robustă și interschimbabilă între producători.'
       },
       {
         name: 'V60 Fieldbus Valve Manifold',
-        description: 'Manifold valve pneumatice cu control electronic integrat - reduce cablare și costuri instalare dramatic vs. valve individuale. Configurație modulară: până la 32 valve directionale 5/2 sau 5/3 pe o bază comună, alimentare aer centralizată, evacuare silențioasă integrate. Driver electronic: comunicare PROFIBUS DP, PROFINET IO, EtherNet/IP, Modbus TCP, IO-Link selectabil. Diagnostică avansată: monitorizare status fiecare valvă, alarme electrical/pneumatic fault, counters cicluri pentru predictive maintenance. Debit per valvă până la 1,600 Nl/min, presiune 0-10 bar. Protecție IP65 montare direct mașină sau IP20 pentru panou. Sub-base cu conexiuni push-in 6mm/8mm/10mm pentru tubulatura rapidă. Aplicații: mașini packaging modulare, automotive assembly stations, pick&place systems. Înlocuiește 32 valve + 32 conectori + 64 fire cu un singur manifold + un cablu Ethernet - economie cablare 80% și troubleshooting infinit mai facil cu diagnostică centralizată.'
+        description: 'Manifold valve pneumatice cu control electronic integrat - reduce cablare și costuri instalare dramatic vs. valve individuale. Configurație modulară: până la 32 valve directionale 5/2 sau 5/3 pe o bază comună, alimentare aer centralizată, evacuare silențioasă integrate. Driver electronic: comunicare PROFIBUS DP, PROFINET IO, EtherNet/IP, Modbus TCP, IO-Link selectabil. Diagnostică avansată: monitorizare status fiecare valvă, alarme electrical/pneumatic fault, counters cicluri pentru predictive maintenance. Debit per valvă până la 1,600 Nl/min, presiune 0-10 bar. Protecție IP65 montare direct mașină sau IP20 pentru panou. Sub-base cu conexiuni push-in 6mm/8mm/10mm pentru tubulatura rapidă. Aplicații: mașini packaging modulare, automotive assembly stations, pick&place systems. Înlocuiește multe valve individuale, conectori și fire cu un singur manifold plus un cablu Ethernet - cablare mai simplă și troubleshooting mult mai facil cu diagnostică centralizată.'
       },
       {
         name: 'VP50 Proportional Pressure Regulator',
-        description: 'Regulator electronic presiune pneumatică proporțional pentru control precis forță în aplicații assembly și testare. Presiune intrare 0-10 bar, ieșire controlată 0-8 bar (sau range mai mic 0-2 bar pentru precizie crescută), comandă analogică 0-10V sau 4-20mA. Rezoluție control 0.01 bar, hysteresis <0.5%, timp răspuns <50ms pentru step change. Feedback presiune integrat senzor piezo-rezistiv cu bucla closed-loop PID. Debit până la 1,200 Nl/min dependent presiune. Comunicare digitală opțional IO-Link pentru parametrizare și diagnostică. Protecție IP40 montare panel sau IP65 pentru field. Aplicații: control forță press-fit (automotive bearings, electronic connectors), testare leak pressure controlat, blow molding cu presiune variabilă per fază. Înlocuiește regulatoare manuale care necesită ajustare mecanică operator - setpoint trimis din PLC, repeatabilitate perfectă lot după lot. Cost ~650 EUR per unitate dar quality assembly și reject rate redus justifică investiția.'
+        description: 'Regulator electronic presiune pneumatică proporțional pentru control precis forță în aplicații assembly și testare. Presiune intrare 0-10 bar, ieșire controlată 0-8 bar (sau range mai mic 0-2 bar pentru precizie crescută), comandă analogică 0-10V sau 4-20mA. Rezoluție control 0.01 bar, hysteresis <0.5%, timp răspuns <50ms pentru step change. Feedback presiune integrat senzor piezo-rezistiv cu bucla closed-loop PID. Debit până la 1,200 Nl/min dependent presiune. Comunicare digitală opțional IO-Link pentru parametrizare și diagnostică. Protecție IP40 montare panel sau IP65 pentru field. Aplicații: control forță press-fit (automotive bearings, electronic connectors), testare leak pressure controlat, blow molding cu presiune variabilă per fază. Înlocuiește regulatoare manuale care necesită ajustare mecanică operator - setpoint trimis din PLC, repeatabilitate perfectă lot după lot.'
       },
       {
         name: 'Excelon Plus FRL Units',
-        description: 'Unități combinare filtru-regulator-lubricator (FRL) modulare pentru pregătire aer comprimat la punctul de utilizare. Filtru: separare apă și particule >5μm (standard) sau >0.01μm (coalescent pentru breathing air quality), bowl policarbonat transparent sau aluminiu, drain manual sau auto. Regulator: presiune setabilă 0.5-12 bar cu manometru, relieving sau non-relieving. Lubricator: fog type cu reglare debit picături pentru valve și cilindri care necesită lubrifiere. Debit 600-12,000 Nl/min dependent sizing (1/8" până la 1" NPT/G). Modular stacking cu bracket-uri eliminate threading - configurezi FRL exact cum ai nevoie (F, FR, FRL, FFRL pentru filtrare dual-stage). Protecție IP54, temperatură -10°C la +60°C. Aplicații: alimentare aer mașini individuale, branch lines în fabrici, stații lucru manual pneumatic. Investiție ~180-400 EUR per set FRL complet dar protejează echipament pneumatic downstream de contaminare și asigură presiune constantă - vital pentru performanță repetabilă.'
+        description: 'Unități combinare filtru-regulator-lubricator (FRL) modulare pentru pregătire aer comprimat la punctul de utilizare. Filtru: separare apă și particule >5μm (standard) sau >0.01μm (coalescent pentru breathing air quality), bowl policarbonat transparent sau aluminiu, drain manual sau auto. Regulator: presiune setabilă 0.5-12 bar cu manometru, relieving sau non-relieving. Lubricator: fog type cu reglare debit picături pentru valve și cilindri care necesită lubrifiere. Debit 600-12,000 Nl/min dependent sizing (1/8" până la 1" NPT/G). Modular stacking cu bracket-uri eliminate threading - configurezi FRL exact cum ai nevoie (F, FR, FRL, FFRL pentru filtrare dual-stage). Protecție IP54, temperatură -10°C la +60°C. Aplicații: alimentare aer mașini individuale, branch lines în fabrici, stații lucru manual pneumatic. Protejează echipamentul pneumatic downstream de contaminare și asigură presiune constantă pentru performanță repetabilă.'
       }
     ],
     certifications: [
@@ -561,9 +625,16 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
       'Textile - mașini țesut, colorare, finisare cu valve și cilindri în mediu umed',
       'Energy - wind turbines (pitch, yaw), hydropower (governors) cu actuatoare heavy-duty'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), furnizăm gama completă Norgren pentru sisteme pneumatice industriale - cilindri, valve, unități FRL, actuatoare, fitting-uri, sisteme control electronic. Produsele standard (cilindri ISO, valve directionale, FRL units) le livrăm rapid din stoc European în 3-7 zile lucrătoare, iar configurațiile speciale (valve manifold fieldbus, actuatoare custom stroke) au termene 2-4 săptămâni. Oferim consultanță tehnică gratuită pentru sizing pneumatic - calculăm forța necesară, consumul aer, sizing valve și FRL pentru aplicația ta specifică.
-
-Dacă proiectezi o mașină nouă sau upgrade-uiezi echipament existent, te ajutăm să optimizezi sistemul pneumatic pentru eficiență energie (reducere consum aer comprimat 20-40% cu componente eficiente), viteză cicluri și durabilitate. Asigurăm și training tehnic - best practices instalare pneumatică, troubleshooting, mentenanță preventivă. Pentru integratori și machine builders oferim prețuri volum și support dedicat engineering. Investiția în componente Norgren de calitate se amortizează prin fiabilitate și performanță consistentă. Timpul de livrare este de 24h pentru Timișoara și 48-72h pentru restul țării. Contactează-ne pentru sizing și ofertă personalizată - expertiza noastră în pneumatică industrială e la dispoziția ta.`
+    infinitrade: `Lucrăm cu informațiile publicate de Norgren și spunem deschis ce putem și ce nu putem confirma direct, mai ales pentru configurațiile electronice de control. Nu avem un stoc afișat public pentru fiecare cilindru sau valvă, dar aducem componentele pneumatice Norgren prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru piesele standard sau în 2-6 săptămâni la comandă pentru manifolduri și configurații custom. Pentru o ofertă corectă, trimite-ne diametrul cilindrului, cursa necesară și presiunea de lucru a sistemului tău. Confirmăm termenul după ce verificăm disponibilitatea la furnizor.`,
+    limitation: 'Nu putem confirma stocul permanent pentru fiecare configurație Norgren și nici service-ul în garanția producătorului, care rămâne responsabilitatea rețelei oficiale a fabricantului.',
+    sources: [
+      { title: 'Norgren – Official website', url: 'https://www.norgren.com/en/', publisher: 'Norgren (IMI plc)', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: sursă adăugată (parțial confirmată), declarație de aprovizionare onestă, corectat overview/whyChoose care descriau rețeaua de distribuitori ai producătorului' }
+    ]
   },
 
   'nsk': {
@@ -575,31 +646,31 @@ Dacă proiectezi o mașină nouă sau upgrade-uiezi echipament existent, te ajut
 
 Gama industrială NSK acoperă tot spectrul bearings: rulmenți radiali cu bile (deep groove, angular contact, self-aligning), rulmenți cu role (cilindrice, conice, sferice, ace), rulmenți axiali (bile, role), unități rulment UC/UCP/UCFL pentru arbori (insertabile în carcasă cu prindere excentrică), rulmenți de precizie (ABEC-7/ABEC-9 pentru machine tools), rulmenți ceramici hibrizi (bile Si3N4 pentru viteză extremă și medii corozive). Apoi sunt sistemele liniare: ghidaje liniare (LH/LS series cu bile recirculate), șuruburi cu bile (HTF series precizie C3-C7), actuatoare liniare (Monocoque pentru high-speed).
 
-Ce ne impresionează e atenția la detalii manufacturing - toleranțe strânse ale căilor de rulare, sfericitate bile sub 0.5μm, curățenie internă exceptional (gradul cleanliness impact direct noise și viață), unsoare pre-filled de înaltă calitate (NSK LG series pentru -40°C la +150°C). Rezultatul: rulmenți care rulează mai lin, durează mai mult, necesită menos mentenanță. În aplicații critice - spindle-uri CNC, pompe high-pressure, motoare electrice premium, robotică de precizie - NSK înseamnă investiție care se vede în performanță mașină, calitate produse și costuri mentenanță reduse pe termen lung. Service-ul lor e global cu distribuitori tehnici care ajută la selecția corectă și troubleshooting.`,
+Ce ne impresionează e atenția la detalii manufacturing - toleranțe strânse ale căilor de rulare, sfericitate bile sub 0.5μm, curățenie internă exceptional (gradul cleanliness impact direct noise și viață), unsoare pre-filled de înaltă calitate (NSK LG series pentru -40°C la +150°C). Rezultatul: rulmenți care rulează mai lin, durează mai mult, necesită menos mentenanță. În aplicații critice - spindle-uri CNC, pompe high-pressure, motoare electrice premium, robotică de precizie - NSK înseamnă investiție care se vede în performanță mașină, calitate produse și costuri mentenanță reduse pe termen lung. Service-ul lor e organizat printr-o rețea tehnică de distribuitori care ajută la selecția corectă și troubleshooting.`,
     whyChoose: [
       'Experiență 100+ ani - de la auto industry la aerospace și semiconductor manufacturing',
       'Precizie japoneză extremă - toleranțe sub micron, sfericitate bile 0.5μm, curățenie strict',
       'Gamă completă bearings - de la commodity radial ball la super-precision ceramic hybrid',
       'Durabilitate superioară - viață L10 de 2-3x vs. competitor în același application',
       'Tehnologie avansată - unsori LG series, etanșări non-contact, coatings tribologice',
-      'Support tehnic global - ingineri aplicații, training, failure analysis, custom engineering'
+      'Support tehnic din partea rețelei - ingineri aplicații, training, failure analysis'
     ],
     keyProducts: [
       {
         name: 'Deep Groove Ball Bearings 6200 Series',
-        description: 'Rulmenți radiali cu bile deep groove - cea mai comună configurație bearing în lume, versatili pentru aproape orice aplicație. Serie 6200 (light): bore 10-100mm, capacitate radială 2-50 kN dependent sizing, viteză până la 20,000 rpm (dependent lubrifiere). Construcție: inele interior/exterior oțel bearing SAE 52100 (1% C, 1.5% Cr) hardened HRC 58-64, bile oțel/ceramică, colivie oțel/brass/polymer dependent aplicație. Unsoare: standard lithium grease NSK LG2 (-30°C la +120°C), opțiuni high-temp, food-grade, low-noise. Etanșări: open (fără), shields metalic (Z/ZZ), seals cauciuc (DDU/VV) pentru protecție contamination. Precizie: standard ABEC-1, opțiuni ABEC-3/5/7 pentru aplicații demanding. Aplicații universal: motoare electrice, pompe, ventilatoare, reductoare, conveyors, household appliances. Cost ~5-50 EUR dependent sizing - commodity dar calitatea NSK evident în smooth running și longevitate.'
+        description: 'Rulmenți radiali cu bile deep groove - cea mai comună configurație bearing în lume, versatili pentru aproape orice aplicație. Serie 6200 (light): bore 10-100mm, capacitate radială 2-50 kN dependent sizing, viteză până la 20,000 rpm (dependent lubrifiere). Construcție: inele interior/exterior oțel bearing SAE 52100 (1% C, 1.5% Cr) hardened HRC 58-64, bile oțel/ceramică, colivie oțel/brass/polymer dependent aplicație. Unsoare: standard lithium grease NSK LG2 (-30°C la +120°C), opțiuni high-temp, food-grade, low-noise. Etanșări: open (fără), shields metalic (Z/ZZ), seals cauciuc (DDU/VV) pentru protecție contamination. Precizie: standard ABEC-1, opțiuni ABEC-3/5/7 pentru aplicații demanding. Aplicații universal: motoare electrice, pompe, ventilatoare, reductoare, conveyors, household appliances.'
       },
       {
         name: 'Super Precision Angular Contact Ball Bearings',
-        description: 'Rulmenți de super-precizie pentru aplicații machine tools și high-speed spindles - performanță extremă. Unghi contact 15° sau 25°, precizie ABEC-7/ABEC-9 (ISO P4/P2), toleranțe radial runout <2μm, axial runout <2.5μm. Construcție: oțel special vacuum degassed pentru puritate maximă, bile ceramice Si3N4 opțional (densitate 40% mai mică decât oțel = viteză mai mare, coeficient dilatare termică mai mic = stabilitate temperatură). Unsoare: minimal quantity high-performance grease sau oil-air lubrication pentru speed extreme (DN >1.5 million). Preload: light/medium/heavy în configurații paired (back-to-back, face-to-face, tandem) pentru rigiditate axială. Aplicații: spindle-uri CNC machining centers (20,000-40,000 rpm), grinding spindles, dental drills, gyroscopes, precision test equipment. Set 2 rulmenți 7014 CTYNSULP4 costă ~1,200 EUR dar enable machining accuracies sub 2μm și surface finish Ra <0.2μm.'
+        description: 'Rulmenți de super-precizie pentru aplicații machine tools și high-speed spindles - performanță extremă. Unghi contact 15° sau 25°, precizie ABEC-7/ABEC-9 (ISO P4/P2), toleranțe radial runout <2μm, axial runout <2.5μm. Construcție: oțel special vacuum degassed pentru puritate maximă, bile ceramice Si3N4 opțional (densitate 40% mai mică decât oțel = viteză mai mare, coeficient dilatare termică mai mic = stabilitate temperatură). Unsoare: minimal quantity high-performance grease sau oil-air lubrication pentru speed extreme (DN >1.5 million). Preload: light/medium/heavy în configurații paired (back-to-back, face-to-face, tandem) pentru rigiditate axială. Aplicații: spindle-uri CNC machining centers (20,000-40,000 rpm), grinding spindles, dental drills, gyroscopes, precision test equipment. Setul de rulmenți potrivit poate ajuta la atingerea unor toleranțe de prelucrare sub 2μm și finisaje de suprafață Ra sub 0.2μm.'
       },
       {
         name: 'LH/LS Series Linear Guides',
-        description: 'Ghidaje liniare cu bile recirculate pentru mișcare liniară de precizie în machine tools și automatizări. Serie LH (high load): capacitate radială 5-80 kN, serie LS (compact): capacitate 1-15 kN. Construcție: șină oțel hard-chromed sau inox (LS-V pentru medii corozive), car cu bile recirculate în 4 rânduri, preload adjustabil pentru rigiditate. Precizie: standard grade (toleranță paralelism 20μm), high grade (10μm), precision grade (5μm), super precision (3μm). Unsoare: pre-filled lifetime grease NSK K1 sau nipple pentru re-lubrifiere periodică în medii contaminate. Etanșări: end seals standard, opțiuni scraper seals, bellows pentru protecție praf/așchii. Aplicații: mașini CNC (axe X/Y/Z), roboti pick&place, measuring machines, medical imaging (CT/MRI gantries), semiconductor wafer handling. Pereche șină 1m + 2 cars mărime 25 costă ~800 EUR - investiție pentru motion liniară smooth și repetabilă sub 5μm.'
+        description: 'Ghidaje liniare cu bile recirculate pentru mișcare liniară de precizie în machine tools și automatizări. Serie LH (high load): capacitate radială 5-80 kN, serie LS (compact): capacitate 1-15 kN. Construcție: șină oțel hard-chromed sau inox (LS-V pentru medii corozive), car cu bile recirculate în 4 rânduri, preload adjustabil pentru rigiditate. Precizie: standard grade (toleranță paralelism 20μm), high grade (10μm), precision grade (5μm), super precision (3μm). Unsoare: pre-filled lifetime grease NSK K1 sau nipple pentru re-lubrifiere periodică în medii contaminate. Etanșări: end seals standard, opțiuni scraper seals, bellows pentru protecție praf/așchii. Aplicații: mașini CNC (axe X/Y/Z), roboti pick&place, measuring machines, medical imaging (CT/MRI gantries), semiconductor wafer handling.'
       },
       {
         name: 'HTF Series Precision Ball Screws',
-        description: 'Șuruburi cu bile de precizie pentru conversie mișcare rotativă în liniară cu eficiență ridicată și precizie. Diametru nominal 12-80mm, lead (pas) 5-40mm, lungime până la 6m. Precizie: clasa C7 (toleranță 50μm/300mm pentru general machining), C5 (18μm), C3 (8μm), C2 (4μm pentru grinding machines). Preload: adjustabil prin bile oversized pentru eliminare backlash și rigiditate crescută. Construcție: șurub și piuliță oțel bearing hardened ground finish Ra 0.2μm, bile recirculate prin tubulatura internă. Eficiență mecanică >90% vs. 30-50% șurub trapezoidal - economie energie și heat generation redusă. Aplicații: CNC machining (feed axes X/Y/Z), injection molding machines (screw injection), semiconductor equipment, coordinate measuring machines (CMM). Ansamblu compleat (screw + nut + support bearings) 1m travel costă ~2,000-4,000 EUR dependent precizie dar enable positioning accuracy sub 10μm și repeatability ±2μm.'
+        description: 'Șuruburi cu bile de precizie pentru conversie mișcare rotativă în liniară cu eficiență ridicată și precizie. Diametru nominal 12-80mm, lead (pas) 5-40mm, lungime până la 6m. Precizie: clasa C7 (toleranță 50μm/300mm pentru general machining), C5 (18μm), C3 (8μm), C2 (4μm pentru grinding machines). Preload: adjustabil prin bile oversized pentru eliminare backlash și rigiditate crescută. Construcție: șurub și piuliță oțel bearing hardened ground finish Ra 0.2μm, bile recirculate prin tubulatura internă. Eficiență mecanică >90% vs. 30-50% șurub trapezoidal - economie energie și heat generation redusă. Aplicații: CNC machining (feed axes X/Y/Z), injection molding machines (screw injection), semiconductor equipment, coordinate measuring machines (CMM), unde e nevoie de positioning accuracy sub 10μm și repeatability ±2μm.'
       }
     ],
     certifications: [
@@ -624,8 +695,16 @@ Ce ne impresionează e atenția la detalii manufacturing - toleranțe strânse a
       'Pumps & Compressors - industriale și HVAC cu bearings pentru high-speed și load variabil',
       'Railway - wheel bearings, traction motors, suspension cu shock și vibration extreme'
     ],
-    infinitrade: `La Driatheli Group (InfiniTrade România), furnizăm gama completă NSK - rulmenți radiali și axiali, rulmenți de precizie, unități rulment, ghidaje liniare, șuruburi cu bile pentru aplicații industriale pretențioase. Produsele standard (deep groove ball bearings, unități UC/UCP) le livrăm rapid din stoc local sau European în 3-7 zile lucrătoare, iar produsele speciale (super-precision, ceramic hybrid, linear guides custom length) au termene 2-6 săptămâni din Japonia sau fabrici NSK Europa. Oferim consultanță tehnică gratuită pentru selecția corectă bearing - calculăm capacitate radială/axială necesară, viteză, temperatură, sizing corect pentru aplicația ta.
-
-Dacă ai probleme cu rulmenți care se uzează prematur (failure analysis - overload, misalignment, lubrication inadequate, contamination), te ajutăm să identifici cauza și să selectezi replacement corect cu viață prelungită. Asigurăm și training tehnic - montare corectă bearings (heating, pressing, toleranțe arbore/carcasă), unsoare, depanare. Pentru clienți OEM și machine builders oferim prețuri volum și engineering support. Investiția în rulmenți de calitate NSK se amortizează prin mentenanță redusă, uptime crescut și performanță mașină îmbunătățită. Clienții din Timișoara primesc comanda în 24h, cei din restul țării în 48-72h. Contactează-ne pentru sizing și ofertă personalizată - expertiza noastră în bearings e la dispoziția ta.`
+    infinitrade: `Pornim de la surse publice ale producătorului NSK și spunem clar ce putem și ce nu putem confirma pentru aplicații critice, mai ales la rulmenții de precizie. Nu deținem un stoc afișat public pentru fiecare cod de rulment, dar aducem rulmenții și ghidajele liniare NSK prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 2-6 săptămâni la comandă pentru variantele de precizie superioară. Pentru o ofertă corectă, trimite-ne codul rulmentului, diametrul interior și viteza de rotație necesară aplicației tale. Verificăm disponibilitatea reală înainte de a confirma termenul de livrare.`,
+    limitation: 'Nu putem confirma stocul permanent pentru fiecare cod de rulment NSK și nici sub-gama de rulmenți ceramici hibrizi, disponibilă de regulă doar la comandă specială.',
+    sources: [
+      { title: 'NSK Global', url: 'https://www.nsk.com/', publisher: 'NSK Ltd.', accessed: '2026-09-22' },
+      { title: 'NSK Ltd.', url: 'https://en.wikipedia.org/wiki/NSK_Ltd.', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   }
 }

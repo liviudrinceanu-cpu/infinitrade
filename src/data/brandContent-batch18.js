@@ -50,21 +50,29 @@ Completează gama pompele centrifugale de proces seria NM/NTT, construite după 
       "ATEX — variante certificate pentru zone cu risc de explozie",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune"
     ],
-    infinitrade: `Furnizăm pompe Allweiler cu șurub și cu cavitate progresivă pentru aplicații unde o pompă centrifugală obișnuită nu ține pasul cu vâscozitatea sau conținutul de gaz din fluid — de la boost petrolier până la dozare de produse vâscoase. Pentru piese de uzură (rotoare, statoare, etanșări mecanice, garnituri) ținem la dispoziție surse rapide din gama europeană, cu livrare în 24-72h pentru consumabilele curente. Pentru unități complete, configurate pe debit, presiune și compatibilitate chimică, lucrăm cu gama producătorului și livrăm în 2-6 săptămâni de la comandă. Oferim și suport tehnic pentru dimensionare — calculăm vâscozitatea reală de lucru, presiunea necesară și materialul potrivit pentru fluidul dumneavoastră înainte de a face oferta finală.`
+    infinitrade: `Pentru pompele Allweiler cu șurub și cu cavitate progresivă, lucrăm din surse publice ale producătorului și prin canale de aprovizionare din UE — vă spunem clar ce putem și ce nu putem confirma înainte de a pregăti o ofertă. Pentru rotoare, statoare și etanșări mecanice, orientarea noastră generală e de 24-72h din stoc pentru piesele cel mai des cerute; pentru pompe complete, configurate pe debit și compatibilitate chimică, termenul standard e de 2-6 săptămâni la comandă. Ca să pregătim o ofertă corectă avem nevoie de seria pompei sau numărul de fabricație, vâscozitatea reală a fluidului și presiunea de lucru dorită. Nu lucrăm cu prețuri de catalog fără o cerere punctuală, deoarece fiecare configurație tehnică se calculează separat, în funcție de disponibilitatea reală din rețeaua europeană a producătorului.`,
+    sources: [
+      { title: "ALLWEILER Pumps | Industrial Pump Solutions | CIRCOR", url: "https://pumps.circor.com/allweiler", publisher: "CIRCOR", accessed: "2026-09-22" },
+      { title: "Allweiler | CIRCOR", url: "https://www.circorpt.com/allweiler", publisher: "CIRCOR", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul real al fabricii Allweiler și nici disponibilitatea service-ului în garanția producătorului pentru piese specifice; oferim informațiile pe care le avem la momentul cererii.",
+    evidenceClass: "transactional",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   avk: {
     name: "AVK",
-    founded: 1936,
-    headquarters: "Skovby, Danemarca",
+    founded: 1941,
+    headquarters: "Galten, Danemarca",
     employees: "4.500+ angajați la nivel global",
-    overview: `AVK a pornit în 1936 de la ideea unui singur inginer danez, Anker Vagn Kristensen, și a ajuns astăzi unul dintre cei mai mari producători mondiali de robineți pentru rețele de apă și gaz — practic literele din numele companiei vin chiar din inițialele fondatorului. Spre deosebire de mulți producători generaliști de armături industriale, AVK s-a concentrat aproape exclusiv pe infrastructura de apă, canalizare și gaz, ceea ce se vede în profunzimea gamei: vane cu sertar cu corp elastic (seria 01/06), vane fluture (seria 756/755), clapete de sens, vane de aer pentru rețele și hidranți subterani și supraterani (seria 42).
+    overview: `AVK a pornit în 1941 de la ideea unui singur inginer danez, Aage Valdemar Kjær, și a ajuns astăzi unul dintre cei mai mari producători mondiali de robineți pentru rețele de apă și gaz — practic literele din numele companiei vin chiar din inițialele fondatorului. Spre deosebire de mulți producători generaliști de armături industriale, AVK s-a concentrat aproape exclusiv pe infrastructura de apă, canalizare și gaz, ceea ce se vede în profunzimea gamei: vane cu sertar cu corp elastic (seria 01/06), vane fluture (seria 756/755), clapete de sens, vane de aer pentru rețele și hidranți subterani și supraterani (seria 42).
 
 Punctul forte al AVK e vana cu sertar cu sertar elastic complet cauciucat (resilient wedge gate valve) — un design fără spații moarte unde ar putea rămâne resturi sau depuneri, cu etanșare completă la 0 bar diferență de presiune și fără scurgeri pe tijă datorită garniturilor toroidale multiple. Dimensiunile merg de la DN40 până la DN600 și mai mult la comandă specială, presiuni nominale PN10 și PN16, cu corpuri turnate din fontă ductilă acoperite epoxidic la interior și exterior pentru rezistență la coroziune în sol. Pentru rețelele de gaz, AVK oferă o gamă dedicată de robineți cu sferă și fluture, compatibili cu conductele de PE și oțel.
 
 Pentru o companie de utilități sau un constructor de rețele din România, AVK înseamnă un singur furnizor pentru tot ce ține de izolarea și controlul unei rețele îngropate — vane, hidranți, vane de aer și piese de racord — toate proiectate să reziste zeci de ani sub pământ, cu întreținere minimă și fiabilitate ridicată la manevrare rară dar critică.`,
     whyChoose: [
-      "Specializare exclusivă pe apă și gaz — nu o linie secundară, ci focusul principal al companiei de aproape 90 de ani",
+      "Specializare exclusivă pe apă și gaz — nu o linie secundară, ci focusul principal al companiei de peste opt decenii",
       "Vane cu sertar elastic fără spații moarte — etanșare completă chiar și după ani de îngropare fără manevrare",
       "Acoperire epoxidică interior-exterior — rezistență dovedită la coroziune în sol umed sau agresiv",
       "Gamă unică integrată — vane, hidranți, vane de aer și racorduri de la același producător, compatibile între ele",
@@ -105,7 +113,18 @@ Pentru o companie de utilități sau un constructor de rețele din România, AVK
       "DVGW — aprobare germană pentru rețele de apă și gaz",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune"
     ],
-    infinitrade: `Furnizăm vane cu sertar, vane fluture, hidranți și vane de aer AVK pentru proiecte de rețele de apă, canalizare și gaz din România — de la reabilitări de tronsoane municipale până la extinderi de rețea pe șantiere private. Pentru dimensiunile și configurațiile cel mai des cerute (DN80-DN300, PN10/PN16) putem oferta din surse europene cu livrare în 2-6 săptămâni, iar pentru componente uzuale de racord și piese de schimb lucrăm cu termene de 24-72h din stoc. Pregătim documentația tehnică necesară pentru licitații publice (fișe tehnice, certificate de conformitate) și oferim consultanță pentru alegerea corectă a tipului de vană în funcție de diametrul conductei, presiunea de lucru și frecvența de manevrare.`
+    infinitrade: `Lucrăm din surse publice ale producătorului AVK și prin canale de aprovizionare din UE pentru vane cu sertar, vane fluture, hidranți și vane de aer — fără date proprii despre stocul fabricii, așa că vă transmitem exact ce am reușit să confirmăm până în momentul ofertei. Pentru componente uzuale de racord și piese de schimb, termenul orientativ e de 24-72h din stoc; pentru diametre și configurații de proiect, aducem la comandă în 2-6 săptămâni. Vă rugăm să ne trimiteți diametrul nominal, presiunea nominală și tipul de rețea (apă, canalizare sau gaz), plus, dacă e cazul, caietul de sarcini pentru licitație. Nu includem prețuri în discuția inițială, pentru că fiecare cerere depinde de disponibilitatea reală din lanțul european de distribuție al producătorului.`,
+    sources: [
+      { title: "Quality valve solutions for drinking water, wastewater, gas supply and fire protection", url: "https://www.avkvalves.com", publisher: "AVK Group", accessed: "2026-09-22" },
+      { title: "Celebrating 80 years of the AVK Group", url: "https://www.avkvalves.com/en/news/about-our-business/celebrating-80-years-of-the-avk-group", publisher: "AVK Group", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul curent al producătorului pentru diametre mari sau execuții speciale de vane și nu oferim service în garanția AVK; verificăm disponibilitatea reală doar la cererea punctuală a clientului.",
+    evidenceClass: "transactional",
+    lastVerified: "2026-09-22",
+    changelog: [
+      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" },
+      { date: "2026-09-22", note: "corectat pe baza sursei oficiale: founded 1936→1941, headquarters Skovby→Galten, numele fondatorului corectat la Aage Valdemar Kjær (sursa: avkvalves.com)" }
+    ]
   },
 
   belimo: {
@@ -113,7 +132,7 @@ Pentru o companie de utilități sau un constructor de rețele din România, AVK
     founded: 1975,
     headquarters: "Hinwil, Elveția",
     employees: "2.200+ angajați la nivel global",
-    overview: `Belimo a apărut în 1975 în Elveția cu o idee simplă care a schimbat industria HVAC: să înlocuiască actuatoarele pneumatice, greoaie și scumpe de întreținut, cu actuatoare electrice compacte, ușor de instalat și de programat. Astăzi compania e liderul mondial pe actuatoare pentru clapete de aer și robineți de reglare din instalațiile de climatizare, cu o gamă care acoperă totul, de la actuatoare mici de 5 Nm pentru clapete de zonă, până la actuatoare puternice de peste 40 Nm pentru clapete mari de fum și incendiu.
+    overview: `Belimo a apărut în 1975 în Elveția cu o idee simplă care a schimbat industria HVAC: să înlocuiască actuatoarele pneumatice, greoaie și scumpe de întreținut, cu actuatoare electrice compacte, ușor de instalat și de programat. Astăzi compania este unul dintre principalii furnizori de actuatoare pentru clapete de aer și robineți de reglare din instalațiile de climatizare, cu o gamă care acoperă totul, de la actuatoare mici de 5 Nm pentru clapete de zonă, până la actuatoare puternice de peste 40 Nm pentru clapete mari de fum și incendiu.
 
 Ce diferențiază Belimo e integrarea completă a lanțului de control al fluidului: nu vând doar actuatorul, ci și robinetul de reglare potrivit pentru el, dimensionat corect din start. Robinetele caracterizate seria CCV (Characterized Control Valve) mențin o curbă de reglare liniară indiferent de variațiile de presiune din sistem, iar tehnologia Energy Valve integrează senzori de debit și temperatură direct în corpul robinetului, măsurând în timp real energia termică livrată — util pentru facturare pe consum real în clădiri cu mai mulți chiriași. Actuatoarele seria NM și LM acoperă clapetele de aer standard, cu variante spring-return pentru poziționare de siguranță în caz de pană de curent, iar seria AF/BF acționează clapetele de fum și evacuare a fumului din sistemele de siguranță la incendiu.
 
@@ -159,7 +178,15 @@ Pentru un proiectant sau un integrator de sisteme HVAC din România, gama Belimo
       "ATEX — variante de actuatoare pentru zone cu risc de explozie",
       "TÜV — testare independentă pentru actuatoarele de siguranță la incendiu"
     ],
-    infinitrade: `Furnizăm actuatoare Belimo pentru clapete de aer și robinete de reglare, plus robinete caracterizate CCV, pentru proiecte de climatizare din România — de la clădiri de birouri până la spitale și centre comerciale. Pentru modelele cele mai cerute (NM, LM, CCV standard) livrăm în 24-72h din stoc, iar pentru configurații speciale sau seria Energy Valve aducem la comandă în 2-4 săptămâni. Ajutăm la alegerea cuplului și forței corecte pentru fiecare clapetă sau robinet din proiect, astfel încât actuatorul să nu fie nici subdimensionat, nici supradimensionat inutil, și oferim suport pentru integrarea protocoalelor de comunicație (0-10V, MP-Bus, Modbus, BACnet) în sistemul de automatizare al clădirii.`
+    infinitrade: `Ne bazăm pe informațiile publice disponibile de la Belimo și pe canale de aprovizionare din UE pentru actuatoare de clapete de aer, actuatoare liniare și robinete caracterizate CCV — nu deținem date proprii despre stocul central al fabricii, așa că verificăm disponibilitatea la fiecare cerere. Pentru modelele NM, LM și CCV standard, orientarea noastră e de 24-72h din stoc; pentru configurații cu poziționer digital sau seria Energy Valve, termenul devine 2-6 săptămâni la comandă. Pentru o ofertă utilă, spuneți-ne cuplul sau forța necesară, tensiunea de alimentare și protocolul de comunicație folosit în instalație (0-10V, MP-Bus, Modbus sau BACnet). Nu discutăm prețuri fără aceste detalii, pentru că fiecare actuator se alege pe măsura clapetei sau robinetului deservit.`,
+    sources: [
+      { title: "Home | Belimo", url: "https://www.belimo.com", publisher: "Belimo Holding AG", accessed: "2026-09-22" },
+      { title: "40 Years of Belimo", url: "https://www.belimo.com/mam/corporate-communications/pictures-graphics/history/40_years_belimo.pdf", publisher: "Belimo Holding AG", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al Belimo pentru variantele Energy Valve sau execuțiile ATEX și nu oferim configurare software proprie pentru integrarea în BMS-uri terțe.",
+    evidenceClass: "transactional",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   bornemann: {
@@ -211,7 +238,14 @@ Pentru piața românească, gama Bornemann e relevantă mai ales acolo unde flui
       "ATEX — execuții certificate pentru zone cu risc de explozie",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune"
     ],
-    infinitrade: `Furnizăm pompe cu șurub Bornemann și piesele de uzură asociate pentru aplicații cu fluide dificile — amestecuri cu gaz, vâscozitate mare sau conținut abraziv — unde soluțiile centrifugale clasice nu rezistă. Pentru piese de recondiționare (șuruburi, lagăre, etanșări) lucrăm cu gama producătorului și livrăm în 2-6 săptămâni, în funcție de disponibilitatea în rețeaua ITT. Pentru pompe noi sau sisteme complete de boostare, pregătim dimensionarea pe baza profilului real de producție sau de proces și transmitem cererea către inginerii de aplicație pentru configurația optimă. Consultanța tehnică inițială pentru alegerea seriei corecte este gratuită, indiferent de mărimea proiectului.`
+    infinitrade: `Pentru pompele cu șurub Bornemann și piesele lor de recondiționare, nu avem acces la stocul intern al fabricii ITT, așa că lucrăm din surse publice ale producătorului și prin canale de aprovizionare din UE, spunându-vă din start ce am putut confirma. Pentru șuruburi, lagăre și etanșări de schimb, folosim ca reper 24-72h din stoc atunci când piesa e uzuală; pentru pompe multifazice noi sau sisteme complete de boostare, termenul standard e de 2-6 săptămâni la comandă. Pentru a pregăti dimensionarea corectă avem nevoie de profilul real al fluidului pompat — fracția de gaz, conținutul de nisip și presiunea necesară — precum și de seria pompei existente, dacă înlocuiți o unitate. Discutăm prețul doar după ce avem aceste date.`,
+    sources: [
+      { title: "ITT Bornemann GmbH - Obernkirchen, Germany", url: "https://www.chemeurope.com/en/companies/1659/itt-bornemann-gmbh.html", publisher: "chemeurope.com", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu am reușit să confirmăm direct pe site-ul bornemann.com (blocat pentru acces automat) anul exact al înființării sau stocul curent; nu oferim service în garanția producătorului pentru pompele multifazice instalate deja pe teren.",
+    evidenceClass: "zero-evidence",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   bray: {
@@ -265,7 +299,15 @@ Un avantaj practic pentru un integrator de sisteme e gama proprie de servomotoar
       "ASME — conformitate dimensională B16.34 pentru robineți industriali",
       "TÜV — testare independentă pentru robineții de izolare critici"
     ],
-    infinitrade: `Furnizăm robineți fluture și cu bilă Bray, împreună cu servomotoarele electrice și pneumatice din gama Bray Controls, pentru proiecte industriale din România unde e nevoie de izolare fiabilă pe diametre mari. Pentru configurațiile standard (manșon EPDM/NBR, acționare manuală) putem oferta cu livrare în 2-4 săptămâni, iar pentru ansambluri robinet-actuator motorizate lucrăm termene de până la 6 săptămâni, în funcție de complexitate. Pregătim fișele tehnice și certificatele de material necesare pentru licitații și proiecte cu cerințe de documentație extinsă, și oferim suport pentru alegerea corectă a materialului de manșon sau scaun în funcție de fluidul și temperatura din aplicație.`
+    infinitrade: `Robineții fluture și cu bilă Bray, împreună cu servomotoarele Bray Controls, îi aducem prin canale de aprovizionare din UE; nu dispunem de o legătură directă cu stocul fabricii, deci lucrăm din informațiile publice disponibile de la producător și le confirmăm punctual pentru fiecare cerere. Pentru manșoane, garnituri și piese de racord uzuale, reperul e 24-72h din stoc; pentru ansambluri robinet-actuator motorizate sau diametre mari, termenul e de 2-6 săptămâni la comandă. Trimiteți-ne diametrul, presiunea nominală, materialul dorit pentru manșon sau scaun și temperatura fluidului, ca să putem propune varianta tehnică potrivită. Certificatele de material și fișele tehnice pentru licitații le pregătim după ce avem specificația completă, fără să discutăm preț înainte de asta.`,
+    sources: [
+      { title: "Bray International, Inc.", url: "https://www.bray.com", publisher: "Bray International", accessed: "2026-09-22" },
+      { title: "About Bray: Quality, History, Careers | Bray", url: "https://www.bray.com/about", publisher: "Bray International", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al Bray pentru diametre foarte mari sau execuții triplu excentrice speciale și nu efectuăm intervenții acoperite de garanția producătorului pentru servomotoarele deja instalate.",
+    evidenceClass: "zero-evidence",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   burkert: {
@@ -320,7 +362,15 @@ Ceea ce face Bürkert relevant pentru integratorii de sisteme e modularitatea: v
       "EHEDG — design igienic certificat pentru componente de proces alimentar",
       "FDA — materiale de contact conforme pentru aplicații alimentare"
     ],
-    infinitrade: `Furnizăm electrovalve, valve de proces cu diafragmă și debitmetre Bürkert pentru instalații de automatizare a fluidelor din industria chimică, alimentară și tratarea apei. Pentru modelele standard din seria 6014 și accesoriile curente ținem termene de livrare de 24-72h din stoc, iar pentru configurații cu poziționer digital, bus de teren sau materiale speciale de corp lucrăm cu gama producătorului și livrăm în 2-6 săptămâni. Oferim suport tehnic pentru alegerea corectă a materialului de corp și etanșare în funcție de fluidul de lucru, precum și pentru integrarea insulelor de valve în sistemul de automatizare existent al clientului.`
+    infinitrade: `Electrovalvele, valvele de proces cu diafragmă și debitmetrele Bürkert vin la noi prin canale de aprovizionare din UE; nu cunoaștem stocul intern al fabricii din Ingelfingen, așa că lucrăm cu informațiile publice disponibile de la producător și le verificăm pentru fiecare cerere înainte de ofertă. Pentru electrovalvele din seria 6014 și accesoriile obișnuite, termenul orientativ e 24-72h din stoc; pentru valve cu poziționer digital, bus de teren sau materiale speciale de corp, aducem la comandă în 2-6 săptămâni. Spuneți-ne fluidul de lucru, presiunea, materialul de corp dorit (PVC, polipropilenă sau inox) și protocolul de comunicație folosit, ca să propunem configurația corectă. Nu dăm un preț fără aceste detalii tehnice.`,
+    sources: [
+      { title: "Bürkert Fluid Control Systems | Valve Engineering & Systems", url: "https://www.burkert.com", publisher: "Bürkert", accessed: "2026-09-22" },
+      { title: "Bürkert Fluid Control Systems | Valve Engineering & Systems", url: "https://www.burkert.com/en", publisher: "Bürkert", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al Bürkert pentru insulele de valve pe bus de teren sau pentru materialele speciale de corp și nu configurăm software-ul de automatizare al clientului.",
+    evidenceClass: "gsc-only",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   elmo: {
@@ -372,7 +422,14 @@ Pentru industria din România, gama Elmo Rietschle acoperă o nișă foarte prac
       "ATEX — execuții certificate pentru medii cu praf sau gaze combustibile",
       "TÜV — testare independentă pentru siguranța echipamentelor de vid"
     ],
-    infinitrade: `Furnizăm suflante cu canal lateral, pompe de vid cu palete și pompe cu gheare uscate Elmo Rietschle pentru aplicații de ambalare, transport pneumatic și procesare industrială. Pentru piese de uzură curente — palete, filtre, garnituri — livrăm în 24-72h din stoc, iar pentru unități complete sau execuții speciale (ATEX, fără ulei) aducem la comandă în 2-4 săptămâni prin gama producătorului. Ajutăm la alegerea tehnologiei potrivite — canal lateral, palete uleiate sau gheare uscate — în funcție de nivelul de vid necesar și de cerințele de curățenie ale procesului, evitând supradimensionarea inutilă a echipamentului.`
+    infinitrade: `Pentru suflantele cu canal lateral, pompele de vid cu palete și pompele cu gheare uscate Elmo Rietschle, site-ul oficial al brandului nu ne-a fost accesibil la verificare, așa că pornim de la informațiile publice disponibile despre gamă și le confirmăm punctual, prin canale de aprovizionare din UE, înainte de orice ofertă. Pentru palete, filtre și garnituri de schimb, orientarea e 24-72h din stoc; pentru unități complete sau execuții ATEX ori fără ulei, termenul e de 2-6 săptămâni la comandă. Pentru propunerea corectă avem nevoie de nivelul de vid sau presiunea necesară, debitul de aer și cerințele de curățenie ale procesului (cu sau fără urme de ulei acceptate). Nu transmitem prețuri estimative fără aceste date.`,
+    sources: [
+      { title: "Gardner Denver", url: "https://en.wikipedia.org/wiki/Gardner_Denver", publisher: "Wikipedia", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu am putut accesa direct site-ul producătorului (gardnerdenver.com) pentru a confirma anul înființării Elmo Rietschle sau stocul curent; nu oferim intervenții acoperite de garanția producătorului pentru unitățile deja instalate.",
+    evidenceClass: "transactional",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   end: {
@@ -424,7 +481,15 @@ Pentru un integrator sau un operator de instalații criogenice sau petrochimice 
       "ATEX — execuții certificate pentru zone cu risc de explozie",
       "ASME — conformitate dimensională și de proiectare pentru robineți industriali"
     ],
-    infinitrade: `Furnizăm robineți cu bilă și fluture END-Armaturen pentru aplicații unde temperatura, presiunea sau agresivitatea chimică a fluidului depășesc capacitatea robineților standard de catalog — instalații criogenice, petrochimice sau cu medii corozive. Fiind produse calificate pe aplicații speciale, termenele de livrare sunt de regulă 4-6 săptămâni de la comandă, cu documentația de material și rapoartele de test incluse. Pregătim specificația tehnică împreună cu clientul — fluid, temperatură, presiune, clasă de etanșare necesară — și transmitem cererea către gama producătorului pentru configurația exactă, evitând alegerea unui robinet standard nepotrivit pentru condițiile reale de proces.`
+    infinitrade: `Robineții cu bilă și fluture END-Armaturen pentru servicii criogenice, presiune înaltă sau medii corozive îi comandăm prin canale de aprovizionare din UE, pe baza surselor publice ale producătorului — fără date proprii despre stocul de fabrică pentru execuțiile speciale. Fiind produse calificate pe aplicație, termenul standard e de 2-6 săptămâni la comandă; doar pentru accesorii uzuale de instrumentație putem oferi 24-72h din stoc, ca formulare generală, fără garanția unui produs anume disponibil. Avem nevoie de fluidul de proces, temperatura minimă și maximă de lucru, presiunea nominală și clasa de etanșare cerută, ca să transmitem specificația corectă spre configurare. Nu discutăm preț înainte de a primi aceste date tehnice complete.`,
+    sources: [
+      { title: "Find valves in Shop: Manufacturer and supplier for industrial valves", url: "https://www.end.de/en/", publisher: "END-Armaturen GmbH & Co. KG", accessed: "2026-09-22" },
+      { title: "Industrial valves made in Germany | END-Armaturen GmbH & Co. KG", url: "https://www.end.de/en/industrial-valves/", publisher: "END-Armaturen GmbH & Co. KG", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al producătorului pentru execuțiile criogenice sau de presiune înaltă și nu efectuăm intervenții acoperite de garanția producătorului pe robineții deja montați.",
+    evidenceClass: "transactional",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   fisher: {
@@ -478,7 +543,14 @@ Element esențial al oricărei bucle moderne de control, poziționerele digitale
       "ASME — conformitate dimensională B16.34 pentru robineți de control",
       "TÜV — testare independentă pentru bucle de siguranță instrumentate"
     ],
-    infinitrade: `Furnizăm robineți de control Fisher, regulatoare de presiune și poziționere digitale FIELDVUE pentru bucle de control din industria chimică, petrochimică și distribuția de gaze naturale. Pentru regulatoare de presiune standard din gama EZR ținem termene de livrare de 24-72h din stoc pentru configurațiile curente, iar pentru robineți de control inginerie la comandă sau poziționere cu protocol specific lucrăm cu gama producătorului și livrăm în 2-6 săptămâni. Oferim suport pentru dimensionarea Cv a robinetului de control pe baza condițiilor reale de proces, precum și pentru alegerea trimului potrivit în aplicații cu zgomot sau cavitație.`
+    infinitrade: `Robineții de control Fisher, regulatoarele de presiune și poziționerele FIELDVUE le procurăm prin canale de aprovizionare din UE, pornind de la surse publice ale producătorului Emerson — fără date proprii de stoc pentru fiecare configurație din gamă. Pentru regulatoarele de presiune uzuale din seria EZR, orientarea e 24-72h din stoc; pentru robineți de control inginerie la comandă sau poziționere cu protocol specific (HART, Foundation Fieldbus), termenul e de 2-6 săptămâni la comandă. Pentru dimensionarea corectă (Cv-ul robinetului, trimul anti-cavitație sau anti-zgomot), trimiteți-ne debitul, presiunea diferențială și fluidul de proces. Nu oferim un preț orientativ înainte de a primi aceste condiții reale de funcționare.`,
+    sources: [
+      { title: "Fisher", url: "https://www.emerson.com/en-us/automation/fisher", publisher: "Emerson", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu am reușit să confirmăm din a doua sursă independentă anul exact al înființării Fisher; nu putem confirma stocul permanent al Emerson pentru poziționere cu protocoale speciale și nu efectuăm intervenții acoperite de garanția producătorului.",
+    evidenceClass: "gsc-only",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   "gardner-denver": {
@@ -530,7 +602,14 @@ O linie mai puțin cunoscută publicului larg, dar esențială pentru industria 
       "ATEX — execuții certificate pentru medii cu praf sau gaze combustibile",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune"
     ],
-    infinitrade: `Furnizăm suflante Roots și cu șurub, precum și compresoare cu șurub Gardner Denver, pentru aplicații de transport pneumatic, aerare și aer comprimat industrial. Pentru filtre, curele și piese de uzură curente livrăm în 24-72h din stoc, iar pentru unități complete sau execuții speciale (ATEX, puteri mari) lucrăm cu gama producătorului și livrăm în 2-6 săptămâni de la comandă. Oferim consultanță pentru alegerea între tehnologia Roots clasică și alternativa cu șurub mai eficientă energetic, calculând costul total de operare pe termen lung pentru fiecare opțiune, nu doar investiția inițială.`
+    infinitrade: `Site-ul oficial al producătorului ne-a blocat accesul automat la verificare, așa că pentru suflantele Roots, suflantele cu șurub și compresoarele Gardner Denver ne bazăm pe surse publice ale producătorului și pe canale de aprovizionare din UE, confirmând disponibilitatea reală pentru fiecare cerere primită. Pentru filtre, curele și alte piese de uzură curente, reperul e 24-72h din stoc; pentru unități complete sau execuții ATEX de putere mare, termenul standard e de 2-6 săptămâni la comandă. Spuneți-ne debitul și presiunea diferențială necesară, plus dacă aveți nevoie de aer fără ulei, ca să recomandăm tehnologia Roots sau cu șurub potrivită aplicației. Prețul îl calculăm doar după ce avem aceste date de proces.`,
+    sources: [
+      { title: "Gardner Denver", url: "https://en.wikipedia.org/wiki/Gardner_Denver", publisher: "Wikipedia", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu am putut accesa direct site-urile producătorului (gardnerdenver.com, ingersollrand.com) pentru a confirma stocul curent; nu efectuăm intervenții acoperite de garanția producătorului pe echipamentele deja instalate.",
+    evidenceClass: "gsc-only",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   kitz: {
@@ -583,7 +662,14 @@ Un segment mai puțin vizibil, dar tehnic foarte solicitant, e gama de robineți
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune",
       "ATEX — execuții certificate pentru zone cu risc de explozie"
     ],
-    infinitrade: `Furnizăm robineți cu bilă, sertar, ventil și fluture KITZ pentru proiecte industriale din România care cer precizie de fabricație și fiabilitate pe termen lung. Pentru dimensiunile și clasele de presiune uzuale putem oferta cu livrare în 2-6 săptămâni din gama producătorului, cu documentație tehnică și certificate de material incluse pentru proiecte cu cerințe stricte. Oferim suport pentru alegerea corectă între standardele JIS și ANSI, în funcție de specificația proiectului, și pregătim ofertele astfel încât materialele și clasele de presiune să corespundă exact cerințelor din caietul de sarcini.`
+    infinitrade: `Pentru robineții cu bilă, sertar, ventil și fluture KITZ, lucrăm din informațiile publice disponibile de la producător și prin canale de aprovizionare din UE — nu cunoaștem stocul propriu al fabricii din Japonia, deci verificăm disponibilitatea reală înainte de fiecare ofertă. Pentru dimensiunile și clasele de presiune uzuale, termenul standard e de 2-6 săptămâni la comandă; pentru accesorii mici de instrumentație putem oferi 24-72h din stoc, ca formulare generală a firmei. Avem nevoie de standardul de proiectare (JIS sau ANSI), diametrul nominal, clasa de presiune și materialul de corp dorit, ca să pregătim o ofertă corectă pentru caietul dumneavoastră de sarcini. Documentația tehnică o transmitem după ce confirmăm configurația exactă.`,
+    sources: [
+      { title: "KITZ' Statement of Corporate Mission", url: "https://www.kitz.com", publisher: "KITZ Corporation", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu am reușit să confirmăm dintr-o a doua sursă independentă anul înființării KITZ (site-ul kitz.co.jp blochează accesul automat) și nu putem confirma stocul permanent pentru robineții de înaltă puritate.",
+    evidenceClass: "gsc-only",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   klinger: {
@@ -635,7 +721,15 @@ Pentru industria de proces din România — rafinării, centrale termice, indust
       "TÜV — testare independentă conform DIN EN 13555 pentru garnituri",
       "FDA — materiale de etanșare conforme pentru contact alimentar"
     ],
-    infinitrade: `Furnizăm garnituri KLINGERsil și PTFE expandat, robineți cu piston și indicatoare de nivel pentru instalații de proces din România — rafinării, centrale termice și industrie chimică. Pentru coli de garnitură standard și dimensiuni uzuale decupate livrăm în 24-72h din stoc, iar pentru robineți cu piston, indicatoare de nivel sau garnituri custom pe desen tehnic lucrăm cu gama producătorului și livrăm în 2-4 săptămâni. Oferim consultanță pentru alegerea materialului de etanșare potrivit combinației exacte de presiune, temperatură și fluid din aplicația dumneavoastră, evitând alegerea unui material subdimensionat pentru condițiile reale de proces.`
+    infinitrade: `Garniturile KLINGERsil și PTFE expandat, robineții cu piston și indicatoarele de nivel le procurăm prin canale de aprovizionare din UE, folosind informațiile publice disponibile de la producător — fără acces la stocul central al grupului KLINGER. Pentru coli de garnitură în dimensiuni uzuale, orientarea generală e 24-72h din stoc; pentru robineți cu piston, indicatoare de nivel sau garnituri decupate pe desen tehnic, termenul e de 2-6 săptămâni la comandă. Ca să alegem materialul de etanșare potrivit, trimiteți-ne presiunea de lucru, temperatura maximă și fluidul din aplicație (abur, ulei termic sau chimicale agresive). Nu propunem un preț fără specificația tehnică completă a flanșei sau a robinetului de izolare.`,
+    sources: [
+      { title: "At a glance - KLINGER Dichtungstechnik", url: "https://www.klinger.co.at/en/company/", publisher: "KLINGER Dichtungstechnik", accessed: "2026-09-22" },
+      { title: "KLINGER Dichtungstechnik Gumpoldskirchen - KLINGER Dichtungstechnik", url: "https://www.klinger.co.at/en/", publisher: "KLINGER Dichtungstechnik", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al KLINGER pentru garnituri custom pe desen tehnic sau pentru robineții cu piston de presiune foarte înaltă și nu efectuăm intervenții acoperite de garanția producătorului.",
+    evidenceClass: "transactional",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   lewa: {
@@ -689,7 +783,15 @@ Membrana dublă cu monitorizare a spargerii, standard pe majoritatea pompelor LE
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune",
       "API 675 — standard specific pentru pompe volumetrice de dozare cu volum controlat"
     ],
-    infinitrade: `Furnizăm pompe dozatoare cu membrană LEWA din gama ecoflow și ecodos, plus pompe hidraulice de proces pentru aplicații de debit mare, pentru instalații de tratare a apei, industrie chimică și procesare alimentară din România. Fiind echipamente de precizie, configurate pe fiecare aplicație (chimical, debit, presiune), termenele de livrare sunt de regulă 2-6 săptămâni de la comandă, cu piese de schimb pentru membrane și supape disponibile mai rapid prin gama producătorului. Oferim suport pentru dimensionarea corectă a capului de dozare și a materialelor de contact, pe baza fișei tehnice a chimicalului dozat și a condițiilor reale de proces.`
+    infinitrade: `Pompele dozatoare cu membrană LEWA din gamele ecoflow și ecodos, plus pompele hidraulice seria LDC, le aducem prin canale de aprovizionare din UE; nu avem date proprii despre stocul fabricii din Leonberg, așa că pornim de la surse publice ale producătorului pentru fiecare cap de dozare. Fiind echipamente de precizie configurate pe aplicație, termenul standard rămâne 2-6 săptămâni la comandă; pentru membrane și supape de schimb ale unităților deja instalate, orientarea e 24-72h din stoc. Pentru dimensionarea capului de dozare, avem nevoie de chimicalul dozat, debitul necesar și presiunea de refulare din procesul dumneavoastră. Nu transmitem un preț estimativ înainte de a primi fișa tehnică a chimicalului și condițiile reale de lucru.`,
+    sources: [
+      { title: "LEWA: Premier Dosing Pump Solutions for Unmatched Precision & Efficiency | LEWA", url: "https://www.lewa.com/en", publisher: "LEWA", accessed: "2026-09-22" },
+      { title: "Technologies | LEWA", url: "https://www.lewa.com/en/technologies/", publisher: "LEWA", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al LEWA pentru capete de dozare speciale la presiuni de peste 1.000 bar și nu efectuăm intervenții acoperite de garanția producătorului pe pompele deja montate.",
+    evidenceClass: "zero-evidence",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   neles: {
@@ -700,7 +802,7 @@ Membrana dublă cu monitorizare a spargerii, standard pe majoritatea pompelor LE
 
 Robineții cu bilă segmentată excentrică seria Neles R (moștenire Neles Jamesbury) sunt soluția clasică pentru control de debit în aplicații dure, cu geometrie care evită contactul continuu al bilei cu scaunul, reducând uzura la fluide cu particule abrazive. Pentru diametre mari și cerințe de reglare pe conducte de transport, robineții fluture de înaltă performanță Neldisc oferă control triplu excentric pe diametre de la DN50 până la DN1200. Robineții cu bilă trunion pentru izolare completează gama pentru conductele de transport petrol și gaz, cu presiuni ridicate și cerințe stricte de etanșeitate la scurgeri zero.
 
-Legătura strânsă cu Valmet, unul dintre liderii mondiali în tehnologie pentru industria celulozei și hârtiei, se reflectă și în competența specifică a robineților Neles pentru fluide dificile din acest sector — paste de celuloză, lichide negre, suspensii cu consistență variabilă. Poziționerele digitale seria ND9000 completează oferta cu diagnosticare de performanță pentru fiecare robinet motorizat din instalație. Pentru industria din România, robineții Neles reprezintă o soluție tehnică specifică acolo unde fluidul de proces nu e "curat" — cu solide, viscozitate sau eroziune ca provocare principală.`,
+Legătura strânsă cu Valmet, un furnizor major de tehnologie pentru industria celulozei și hârtiei, se reflectă și în competența specifică a robineților Neles pentru fluide dificile din acest sector — paste de celuloză, lichide negre, suspensii cu consistență variabilă. Poziționerele digitale seria ND9000 completează oferta cu diagnosticare de performanță pentru fiecare robinet motorizat din instalație. Pentru industria din România, robineții Neles reprezintă o soluție tehnică specifică acolo unde fluidul de proces nu e "curat" — cu solide, viscozitate sau eroziune ca provocare principală.`,
     whyChoose: [
       "Specializare pe fluide dificile — geometrie de robinet gândită pentru eroziune, viscozitate și conținut de solide",
       "Robineți fluture triplu excentric Neldisc — control de precizie pe diametre mari de transport",
@@ -741,7 +843,15 @@ Legătura strânsă cu Valmet, unul dintre liderii mondiali în tehnologie pentr
       "ATEX — execuții certificate pentru zone cu risc de explozie",
       "ASME — conformitate dimensională B16.34 pentru robineți industriali"
     ],
-    infinitrade: `Furnizăm robineți cu bilă segmentată, robineți fluture Neldisc și robineți trunion Neles pentru aplicații cu fluide dificile din industria chimică, petrol și gaze, și procesarea celulozei. Pentru configurațiile și dimensiunile uzuale lucrăm cu gama producătorului și livrăm în 2-6 săptămâni de la comandă, cu documentație tehnică completă pentru proiecte cu cerințe de licitație. Oferim suport pentru calculul de dimensionare (Cv) pe baza condițiilor reale de proces — debit, presiune diferențială, conținut de solide — astfel încât robinetul ales să facă față exact provocărilor fluidului dumneavoastră.`
+    infinitrade: `Robineții cu bilă segmentată, robineții fluture Neldisc și robineții trunion Neles îi procurăm prin canale de aprovizionare din UE, plecând de la surse publice ale producătorului Valmet Flow Control — fără date proprii despre stocul fabricii din Finlanda. Pentru configurațiile și dimensiunile uzuale, termenul rămâne 2-6 săptămâni la comandă; pentru accesorii mici de poziționare putem oferi 24-72h din stoc, ca reper general al firmei. Pentru calculul de dimensionare (Cv-ul robinetului), trimiteți-ne debitul de proces, presiunea diferențială și conținutul de solide sau fibre din fluid. Documentația tehnică pentru licitații o pregătim după ce confirmăm configurația exactă cu gama producătorului, fără să discutăm preț mai devreme.`,
+    sources: [
+      { title: "We are a global leader in flow control solutions and services.", url: "https://www.valmet.com/flowcontrol/", publisher: "Valmet", accessed: "2026-09-22" },
+      { title: "About Valmet", url: "https://www.valmet.com/about-us/valmet-in-brief/", publisher: "Valmet", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al Valmet Flow Control pentru diametre mari de robineți trunion și nu efectuăm intervenții acoperite de garanția producătorului pe robineții deja instalați.",
+    evidenceClass: "gsc-only",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   prominent: {
@@ -751,7 +861,7 @@ Legătura strânsă cu Valmet, unul dintre liderii mondiali în tehnologie pentr
     employees: "3.000+ angajați la nivel global",
     overview: `ProMinent a fost fondată în 1960 la Heidelberg și s-a dezvoltat într-un furnizor complet de tehnologie de dozare și dezinfecție pentru apă — de la pompa dozatoare simplă montată pe un perete de fabrică, până la sisteme complexe de generare a dezinfectantului chiar la locul de utilizare. Compania acoperă practic tot lanțul tehnic al tratării chimice a apei: pompare, dozare, măsurare și control automat, toate sub aceeași marcă.
 
-Pompele dozatoare solenoidale seria gamma/ X și Beta acoperă cea mai mare parte a aplicațiilor uzuale de dozare — corecție pH, clorinare, dozare floculanți — cu debite de la 0,6 ml/h până la câteva sute de litri pe oră, presiuni de refulare de până la 20 bar. Pentru debite și presiuni mai mari, pompele cu membrană sau piston acționate de motor electric din seria Sigma acoperă dozarea la scară de proces industrial, cu debite de până la câteva mii de litri pe oră. Sistemele de dezinfecție Bello Zon, care generează dioxid de clor la fața locului, și sistemele de electroliză pentru generarea de hipoclorit de sodiu din sare elimină nevoia de transport și stocare a clorului gazos, o preocupare majoră de siguranță pentru operatorii de stații de apă.
+Pompele dozatoare solenoidale seria gamma/ X și Beta acoperă majoritatea aplicațiilor uzuale de dozare — corecție pH, clorinare, dozare floculanți — cu debite de la 0,6 ml/h până la câteva sute de litri pe oră, presiuni de refulare de până la 20 bar. Pentru debite și presiuni mai mari, pompele cu membrană sau piston acționate de motor electric din seria Sigma acoperă dozarea la scară de proces industrial, cu debite de până la câteva mii de litri pe oră. Sistemele de dezinfecție Bello Zon, care generează dioxid de clor la fața locului, și sistemele de electroliză pentru generarea de hipoclorit de sodiu din sare elimină nevoia de transport și stocare a clorului gazos, o preocupare majoră de siguranță pentru operatorii de stații de apă.
 
 Completează oferta seria de regulatoare și senzori DULCOMETER pentru măsurarea continuă a pH-ului, clorului rezidual sau potențialului redox, integrate direct cu pompele dozatoare pentru bucle de control automat cu răspuns în timp real. Pentru operatorii de stații de apă și piscine din România, gama ProMinent oferă tot ce e necesar pentru un sistem de dozare și dezinfecție complet, de la un singur furnizor tehnic.`,
     whyChoose: [
@@ -795,7 +905,14 @@ Completează oferta seria de regulatoare și senzori DULCOMETER pentru măsurare
       "DVGW — aprobare germană pentru echipamente de tratare a apei potabile",
       "WRAS — aprobare pentru contact cu apa potabilă (piața UK)"
     ],
-    infinitrade: `Furnizăm pompe dozatoare ProMinent din gama gamma/X, Beta și Sigma, plus sisteme de dezinfecție și regulatoare DULCOMETER, pentru stații de tratare a apei, piscine și instalații industriale din România. Pentru pompele standard din stoc livrăm în 24-72h, iar pentru sisteme de dezinfecție complete sau configurații Sigma la comandă lucrăm cu gama producătorului și livrăm în 2-4 săptămâni. Oferim consultanță pentru dimensionarea corectă a debitului de dozare în funcție de debitul de apă tratat și de concentrația necesară a reactivului, precum și pentru integrarea senzorilor DULCOMETER în bucla de control automat existentă.`
+    infinitrade: `Pentru pompele dozatoare ProMinent (gamma/X, Beta, Sigma), sistemele de dezinfecție și regulatoarele DULCOMETER, ne bazăm pe surse publice ale producătorului și pe canale de aprovizionare din UE — nu avem o legătură directă cu stocul central german, deci verificăm disponibilitatea pentru fiecare cerere. Pentru pompele solenoidale uzuale, orientarea e 24-72h din stoc; pentru sisteme complete de dezinfecție sau configurații Sigma la comandă, termenul e de 2-6 săptămâni. Pentru dimensionarea corectă, trimiteți-ne debitul de apă tratat, concentrația necesară a reactivului și tipul de chimical dozat (clor, acid sau floculant). Prețul îl calculăm după ce primim aceste date de proces, nu înainte.`,
+    sources: [
+      { title: "Experts in Metering Technology and Water Treatment - ProMinent", url: "https://www.prominent.com", publisher: "ProMinent GmbH", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu am reușit să confirmăm dintr-o a doua sursă independentă anul exact al înființării ProMinent și nu putem confirma stocul permanent pentru sistemele de electroliză sau Bello Zon.",
+    evidenceClass: "gsc-only",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   sulzer: {
@@ -849,7 +966,15 @@ Pentru procese chimice și industria hârtiei, pompele Sulzer seria AHLSTAR (fos
       "ATEX — execuții certificate pentru zone cu risc de explozie",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune"
     ],
-    infinitrade: `Furnizăm pompe de proces API 610 și pompe submersibile ABS Sulzer pentru aplicații industriale critice și pentru stații municipale de apă și canalizare din România. Pentru piese de schimb (rotoare, etanșări mecanice, lagăre) pentru pompele ABS instalate deja pe teren ținem surse rapide cu livrare de 24-72h pentru consumabilele curente, iar pentru pompe și unități noi lucrăm cu gama producătorului și livrăm în 2-6 săptămâni de la comandă. Oferim suport tehnic pentru dimensionarea corectă pe baza curbei de sistem reale și pentru alegerea materialelor potrivite fluidului și condițiilor de funcționare din aplicația dumneavoastră.`
+    infinitrade: `Pentru pompele de proces API 610 și pompele submersibile ABS Sulzer, lucrăm din informațiile publice disponibile de la producător și prin canale de aprovizionare din UE — fără date proprii despre stocul intern al fabricilor Sulzer. Pentru rotoare, etanșări mecanice și lagăre ale pompelor ABS deja instalate, orientarea generală e 24-72h din stoc; pentru pompe și unități noi, termenul standard e de 2-6 săptămâni la comandă. Pentru dimensionare corectă, avem nevoie de curba reală de sistem (debit, înălțime de pompare), fluidul vehiculat și materialul de construcție dorit. Nu propunem un preț fără aceste condiții reale de funcționare din aplicația dumneavoastră.`,
+    sources: [
+      { title: "Home | Sulzer", url: "https://www.sulzer.com", publisher: "Sulzer", accessed: "2026-09-22" },
+      { title: "About us | Sulzer", url: "https://www.sulzer.com/en/about-us", publisher: "Sulzer", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al Sulzer pentru pompe API 610 multietajate mari și nu efectuăm intervenții acoperite de garanția producătorului pe pompele ABS deja montate.",
+    evidenceClass: "transactional",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   verder: {
@@ -902,7 +1027,15 @@ Un aspect practic important e modelul de consum: furtunurile Verderprene și tub
       "FDA — materiale de furtun și tub conforme pentru contact alimentar",
       "EHEDG — design igienic pentru aplicații de proces alimentar"
     ],
-    infinitrade: `Furnizăm pompe peristaltice Verderflex și pompe cu diafragmă Verderair pentru aplicații cu fluide abrazive, vâscoase sau sensibile la contaminare din minerit, tratarea apei și industrie alimentară. Pentru furtunuri și tuburi de schimb, piesa de uzură principală a pompelor peristaltice, livrăm în 24-72h din stoc pentru dimensiunile uzuale, iar pentru unități complete de pompă lucrăm cu gama producătorului și livrăm în 2-4 săptămâni de la comandă. Recomandăm și menținem disponibil un stoc minim de furtunuri de rezervă pentru clienții cu aplicații critice, unde o oprire neplanificată ar afecta semnificativ producția.`
+    infinitrade: `Pompele peristaltice Verderflex și pompele cu diafragmă Verderair le procurăm prin canale de aprovizionare din UE, plecând de la surse publice ale producătorului — nu avem acces la stocul central al grupului Verder pentru fiecare dimensiune de furtun sau tub. Pentru furtunurile și tuburile de schimb, principala piesă de uzură, orientarea generală e 24-72h din stoc; pentru unități complete de pompă, termenul e de 2-6 săptămâni la comandă. Ca să identificăm furtunul sau tubul potrivit, avem nevoie de modelul pompei instalate, diametrul furtunului și fluidul vehiculat (abraziv, vâscos sau sensibil la contaminare). Nu comunicăm un preț fără aceste detalii tehnice confirmate.`,
+    sources: [
+      { title: "Verder Group: Enabling Progress. To the Benefit of Many.", url: "https://www.verder.com", publisher: "Verder Group", accessed: "2026-09-22" },
+      { title: "Company - Verder", url: "https://www.verder.com/company/", publisher: "Verder Group", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al Verder pentru toate diametrele de furtun Verderprene și nu efectuăm intervenții acoperite de garanția producătorului pe pompele deja instalate.",
+    evidenceClass: "history-only",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 
   vogelsang: {
@@ -953,6 +1086,14 @@ Pentru operatorii de stații de epurare, instalații de biogaz și ferme mari di
       "ATEX — execuții certificate pentru zone cu risc de explozie",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune"
     ],
-    infinitrade: `Furnizăm pompe cu lobi Vogelsang seria VX și IQ/QJ, împreună cu maceratoarele RotaCut și XRipper, pentru instalații de biogaz, stații de epurare și ferme din România care lucrează cu fluide cu solide sau fibre. Pentru piese de uzură (lobi, elastomeri, cuțite de tocare) livrăm în 24-72h din stoc pentru dimensiunile curente, iar pentru pompe și maceratoare complete lucrăm cu gama producătorului și livrăm în 2-6 săptămâni de la comandă. Oferim suport tehnic pentru dimensionarea corectă a pompei și pentru alegerea combinației potrivite de macerare-pompare, în funcție de compoziția reală a materialului pompat.`
+    infinitrade: `Pompele cu lobi Vogelsang din seriile VX și IQ/QJ, împreună cu maceratoarele RotaCut și XRipper, le aducem prin canale de aprovizionare din UE, pe baza informațiilor publice disponibile de la producător — fără date proprii despre stocul fabricii din nord-vestul Germaniei. Pentru lobi, elastomeri și cuțite de tocare de schimb, orientarea generală e 24-72h din stoc; pentru pompe și maceratoare complete, termenul standard e de 2-6 săptămâni la comandă. Pentru dimensionare, trimiteți-ne compoziția reală a materialului pompat (conținut de solide, fibre lungi, textile), debitul necesar și presiunea de refulare. Nu discutăm preț înainte de a avea aceste informații despre aplicație.`,
+    sources: [
+      { title: "From Local Pioneer to Global Leader: The Vogelsang Journey | Vogelsang", url: "https://www.vogelsang.info/en/company/", publisher: "Vogelsang GmbH & Co. KG", accessed: "2026-09-22" },
+      { title: "Your partner for highly-engineered and service friendly equipment | Vogelsang", url: "https://www.vogelsang.info", publisher: "Vogelsang GmbH & Co. KG", accessed: "2026-09-22" }
+    ],
+    limitation: "Nu putem confirma stocul permanent al Vogelsang pentru toate dimensiunile de maceratoare submersibile și nu efectuăm intervenții acoperite de garanția producătorului pe echipamentele deja montate.",
+    evidenceClass: "history-only",
+    lastVerified: "2026-09-22",
+    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
   },
 };

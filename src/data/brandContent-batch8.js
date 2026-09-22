@@ -3,7 +3,7 @@ export const brandContentBatch8 = {
     founded: 1883,
     headquarters: 'Herzogenaurach, Germania',
     employees: '83,000+',
-    overview: `De peste 140 de ani, FAG Schaeffler stabilește standardele globale în domeniul rulmenților industriali de precizie. Ce-am învățat noi lucrând cu aceste produse? Că diferența dintre un rulment obișnuit și unul FAG se simte imediat – în vibrațiile reduse, în temperatura mai scăzută de funcționare, în durata de viață dublată sau chiar triplată. Producem rulmenți radiali cu bile și cu role, rulmenți oscilanti (autoaliniatori), rulmenți axiali și soluții combinare pentru toate industriile grele.
+    overview: `De peste 140 de ani, FAG Schaeffler dezvoltă rulmenți industriali de precizie folosiți în aplicații critice din întreaga lume. Ce-am învățat noi lucrând cu aceste produse? Că diferența dintre un rulment obișnuit și unul FAG se simte imediat – în vibrațiile reduse, în temperatura mai scăzută de funcționare, în durata de viață dublată sau chiar triplată. Producem rulmenți radiali cu bile și cu role, rulmenți oscilanti (autoaliniatori), rulmenți axiali și soluții combinare pentru toate industriile grele.
 
 Portofoliul nostru acoperă de la rulmenți miniatură de câțiva milimetri (pentru medicală și robotică) până la lagăre uriașe de câteva tone (pentru turbine eoliene și laminoare). Tehnologia INA FAG combină experiența germană în metalurgie cu inovația în lubrifianți de lungă durată și sisteme de etanșare avansate. Fiecare rulment trece prin teste de durabilitate echivalente cu ani de funcționare reală, iar codificarea precisă FAG permite identificarea rapidă a înlocuitorilor.
 
@@ -14,7 +14,7 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
       'Tehnologie FAG ARCANOL – unsori speciale pe bază de litiu care rezistă 5+ ani fără reungere',
       'Sistem de codificare complet – fiecare rulment are cod unic pentru identificare rapidă și comandă exactă',
       'Gama completă de dimensiuni – de la 3mm diametru interior (miniaturale) la 4,000mm (turbine)',
-      'Suport tehnic FAG Romania – ingineri care ajută la calculul duratei de viață și la alegerea corectă'
+      'Documentație tehnică FAG completă – calcule de durată de viață L10 și ghiduri de montaj pentru alegerea corectă'
     ],
     keyProducts: [
       {
@@ -56,14 +56,22 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
       'Agricultură – combine, tractoare, sisteme irigații',
       'Medicală – echipamente imagistică, robotică chirurgicală'
     ],
-    infinitrade: `La InfiniTrade Timișoara avem stoc permanent de rulmenți FAG pentru dimensiunile cele mai comune – seria 6000, 6200, 6300 în variante standard. Pentru dimensiuni mai mari sau pentru tipuri speciale (oscilanti, conici, axiali) colaborăm cu distribuitorul local FAG Schaeffler Romania și livrăm în 24-72 de ore. Oferim suport tehnic complet – îți calculăm durata de viață L10 pentru aplicația ta, îți recomandăm tipul corect de unsoare pentru condițiile de lucru, și îți explicăm cum se face montajul corect (încălzire, presare la rece, metodă hidraulică). Mulți clienți ne caută pentru înlocuiri urgente – avem experiență în identificarea codurilor FAG și găsirea echivalentelor când originalul nu mai e disponibil.`
+    infinitrade: `Pentru rulmenții FAG lucrăm din surse publice ale producătorului și nu avem un stoc propriu documentat pentru fiecare cod din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, putem asigura 24-72 h din stoc pentru codurile cele mai cerute, restul gamei (rulmenți oscilanți, conici, axiali de dimensiuni speciale) intrând pe fluxul obișnuit de 2-6 săptămâni la comandă. Ca să dăm un răspuns exact, avem nevoie de codul complet al rulmentului sau de dimensiunile arborelui/alezajului și de aplicația vizată. Fără aceste detalii nu putem confirma disponibilitatea sau un termen ferm.`,
+    limitation: 'Nu putem confirma service în perioada de garanție a producătorului, o legătură contractuală directă cu Schaeffler sau acoperirea prin stoc propriu a întregii game de rulmenți FAG.',
+    sources: [
+      { title: 'Schaeffler Worldwide', url: 'https://www.schaeffler.com/en/', publisher: 'Schaeffler AG', accessed: '2026-09-22' },
+      { title: 'Schaeffler Group', url: 'https://en.wikipedia.org/wiki/Schaeffler_Group', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, formulări de statut/superlative eliminate' }]
   },
 
   'filtrec': {
-    founded: 1977,
-    headquarters: 'Varese, Italia',
+    founded: 1991,
+    headquarters: 'Telgate (Bergamo), Italia',
     employees: '350+',
-    overview: `De aproape 50 de ani, Filtrec dezvoltă și produce filtre hidraulice și elemente filtrante pentru toate industriile care lucrează cu ulei sub presiune. Experiența noastră? Că filtrarea corectă face diferența dintre un sistem hidraulic care funcționează 20,000 de ore și unul care crapă la 5,000. Producem filtre de presiune (inline), filtre de retur (tank-mounted), filtre de aspirație, filtre de aerisire și breather-e, plus întreaga gamă de elemente filtrante înlocuibile.
+    overview: `De peste trei decenii, Filtrec dezvoltă și produce filtre hidraulice și elemente filtrante pentru toate industriile care lucrează cu ulei sub presiune. Experiența noastră? Că filtrarea corectă face diferența dintre un sistem hidraulic care funcționează 20,000 de ore și unul care crapă la 5,000. Producem filtre de presiune (inline), filtre de retur (tank-mounted), filtre de aspirație, filtre de aerisire și breather-e, plus întreaga gamă de elemente filtrante înlocuibile.
 
 Tehnologia Filtrec combină media filtrare sintetică (microfibră de sticlă pentru filtrare fină sub 3 microni) cu construcție robustă din aluminiu sau oțel inoxidabil pentru presiuni până la 420 bar. Fiecare filtru vine cu indicator vizual de colmatare – știi exact când să schimbi elementul, nu lucrezi la ghici. Oferim și variante cu switch electric pentru alarmă/oprire automată când filtrul e înfundat. Gama acoperă de la filtre minuscule pentru sisteme mobile (2-5 l/min) până la baterii de filtrare pentru centrale hidraulice industriale (1,000+ l/min).
 
@@ -74,7 +82,7 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       'Indicator vizual de colmatare inclus – vezi cu ochiul liber când e timpul să schimbi elementul',
       'Compatibilitate universală – același element înlocuiește Parker, Hydac, Bosch Rexroth, Pall',
       'Flush-valve integrat pe filtre de retur – curățare rapidă fără demontare completă',
-      'Timpi de livrare Italia-România 3-5 zile – Filtrec are depozit central în Lombardia'
+      'Element filtrant standardizat – ușor de identificat și de comandat pe baza codului sau a dimensiunilor'
     ],
     keyProducts: [
       {
@@ -116,7 +124,15 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       'Industrie hârtie – cilindri hidraulici calandre',
       'Testare componente – standuri de test hidraulice'
     ],
-    infinitrade: `La InfiniTrade Timișoara comandăm filtre Filtrec și elemente filtrante direct din Italia și le avem în 3-5 zile lucrătoare. Ținem stoc local pentru dimensiunile și finețile cele mai comune (3µ, 5µ, 10µ) – astea le expediezi imediat. Oferim consultanță pentru alegerea corectă a filtrării – îți calculăm debitul, îți recomandăm finetea optimă în funcție de echipamentul protejat (de exemplu, servovalve-uri cer 3µ absolut, cilindri simpli merg bine cu 10µ). Avem tabele de echivalență pentru înlocuirea filtrelor Parker, Hydac, Bosch – dacă ai cod competitor, îți găsim echivalentul Filtrec exact. Și îți explicăm cum se face mentenanța corectă – când să schimbi elementele, cum să cureți carcasa, cum să resetezi indicatorul.`
+    infinitrade: `Pentru filtrele Filtrec ne bazăm pe informațiile publice disponibile la producător, fără date proprii de stoc pentru fiecare finețe și dimensiune din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană – ca regulă generală a firmei, elementele filtrante cele mai cerute pot fi asigurate în 24-72 h din stoc, iar restul configurațiilor (carcase HP, RHR/DHR, breather-e speciale) intră pe fluxul de 2-6 săptămâni la comandă. Pentru un răspuns corect trimite-ne codul Filtrec exact sau codul echivalent Parker/Hydac/Bosch pe care vrei să-l înlocuiești, plus finețea și debitul aplicației. Fără aceste date nu putem confirma echivalența sau termenul de livrare.`,
+    limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor fineților și dimensiunilor de elemente filtrante Filtrec și nici testarea beta ratio pe loc – aceasta rămâne un serviciu al producătorului.',
+    sources: [
+      { title: 'FILTREC S.p.A. – About Us', url: 'https://www.filtrec.com/about/', publisher: 'FILTREC S.p.A.', accessed: '2026-09-22' },
+      { title: 'FILTREC S.p.A.', url: 'https://www.filtrec.com/', publisher: 'FILTREC S.p.A.', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, founded 1977→1991 și headquarters Varese→Telgate (Bergamo) corectate conform site-ului oficial' }]
   },
 
   'finder': {
@@ -134,7 +150,7 @@ Investim constant în conformitate – toate releele Finder au certificări UL, 
       'Seria 55 și 65 cu LED indicator stare – vezi imediat dacă releul e activat (fără multimetru)',
       'Temporizatoare multifuncționale 16 moduri – un singur aparat înlocuiește 16 tipuri clasice',
       'Montaj rapid DIN-rail cu cleme detașabile – schimbi releul în 30 secunde fără rescrewit',
-      'Stoc Europe – livrare rapidă din Italia sau depozite regionale'
+      'Fabricație în Italia cu rețea de distribuție în toată Europa – acces facil la gama completă de relee și temporizatoare'
     ],
     keyProducts: [
       {
@@ -176,16 +192,24 @@ Investim constant în conformitate – toate releele Finder au certificări UL, 
       'Energie regenerabilă – sisteme fotovoltaice, eoliene',
       'Telecomunicații – echipamente BTS, centrale telefonice'
     ],
-    infinitrade: `La InfiniTrade Timișoara comandăm relee Finder din Italia și le avem în stoc în 3-5 zile. Pentru seria 55 (releele industriale clasice) și temporizatoarele seria 80 păstrăm stoc local – astea le expediezi imediat. Oferim suport tehnic pentru alegerea corectă – îți explicăm diferența dintre seria 55 și seria 65 (capacitate contact), îți ajutăm să alegi tensiunea bobinei corectă, îți recomandăm tipul de contact (AgNi pentru inductive, AgSnO2 pentru curenți mari de pornire). Avem și soclurile corespunzătoare – seria 95 pentru PCB, seria 94 pentru DIN-rail. Mulți electricieni ne caută pentru înlocuiri urgente în automatizări existente – Finder e compatible cu majoritatea sistemelor europene.`
+    infinitrade: `Ce putem și ce nu putem confirma pentru Finder: lucrăm din cataloagele publice ale producătorului și nu ținem un stoc propriu documentat pentru fiecare serie de relee sau temporizatoare. Aprovizionarea se face prin canale din Uniunea Europeană – ca formulare generală a firmei, seriile cele mai comune pot fi asigurate în 24-72 h din stoc, restul gamei (contactoare, relee de interfață speciale) urmând fluxul de 2-6 săptămâni la comandă. Ca să-ți dăm un răspuns exact, trimite-ne codul complet al releului sau temporizatorului (serie, tensiune bobină, tip contact) și cantitatea dorită. Fără aceste informații nu putem confirma disponibilitatea sau termenul de livrare.`,
+    limitation: 'Nu putem confirma o legătură contractuală directă cu Finder și nici acoperirea prin stoc propriu a tuturor seriilor de relee și temporizatoare.',
+    sources: [
+      { title: 'Finder – First steps', url: 'https://www.findernet.com/en/worldwide/about-us/first-steps/', publisher: 'Finder S.p.A.', accessed: '2026-09-22' },
+      { title: 'Finder – Company', url: 'https://www.findernet.com/en/worldwide/about-us/company/', publisher: 'Finder S.p.A.', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'fluke': {
     founded: 1948,
     headquarters: 'Everett, Washington, SUA',
     employees: '3,000+',
-    overview: `De 75 de ani, Fluke produce cele mai robuste și mai precise instrumente de măsurare electrică din lume. Experiența noastră? Că un multimetru Fluke supraviețuiește căderilor, loviturilor, prafului, umezelii și abuzului din teren – acolo unde alte mărci se strică în 6 luni, Fluke funcționează 10-15 ani. Producem multimetre digitale (de la entry-level până la true-RMS industrial), clești ampermetrici, termometre IR și camere termoviziune, megaohmetre pentru izolație, osciloscoape portabile, analizoare de calitate energie, și detectoare de scurgeri electrice.
+    overview: `De 75 de ani, Fluke produce instrumente de măsurare electrică robuste și precise, recunoscute la nivel global pentru fiabilitate în condiții de teren. Experiența noastră? Că un multimetru Fluke supraviețuiește căderilor, loviturilor, prafului, umezelii și abuzului din teren – acolo unde alte mărci se strică în 6 luni, Fluke funcționează 10-15 ani. Producem multimetre digitale (de la entry-level până la true-RMS industrial), clești ampermetrici, termometre IR și camere termoviziune, megaohmetre pentru izolație, osciloscoape portabile, analizoare de calitate energie, și detectoare de scurgeri electrice.
 
-Tehnologia Fluke combină circuite analogice de precizie cu procesare digitală avansată – multimetrul 87V (best-seller-ul lor) are rezoluție 20,000 counts și acuratețe ±0.05% DC (incredibil pentru un aparat portabil). Toate instrumentele trec prin testare în condiții extreme – cădere de la 1 metru pe beton, funcționare la -20°C și +55°C, protecție IP67 (unele modele). Pentru termoviziune, Fluke folosește senzori VOx (vanadium oxide) microbolometer cu rezoluție până la 640x480 pixeli și sensibilitate termică 0.04°C – vezi diferențe minuscule de temperatură.
+Tehnologia Fluke combină circuite analogice de precizie cu procesare digitală avansată – multimetrul 87V (unul dintre cele mai cunoscute modele ale gamei) are rezoluție 20,000 counts și acuratețe ±0.05% DC (incredibil pentru un aparat portabil). Toate instrumentele trec prin testare în condiții extreme – cădere de la 1 metru pe beton, funcționare la -20°C și +55°C, protecție IP67 (unele modele). Pentru termoviziune, Fluke folosește senzori VOx (vanadium oxide) microbolometer cu rezoluție până la 640x480 pixeli și sensibilitate termică 0.04°C – vezi diferențe minuscule de temperatură.
 
 Am investit masiv în siguranță – toate multimetrele au protecție CAT III/CAT IV (rezistă la spike-uri de 1000V în rețele industriale), fuzibile ceramice HRC pentru protecție la scurtcircuit, și design cu bariere interne care împiedică arcul electric să ajungă la operator. Pentru mentenanță predictivă dezvoltăm soluții wireless – termometre IR cu Bluetooth care trimit date în cloud, camere termoviziune cu raportare automată, și sisteme de monitorizare continuă pentru echipamente critice.`,
     whyChoose: [
@@ -199,7 +223,7 @@ Am investit masiv în siguranță – toate multimetrele au protecție CAT III/C
     keyProducts: [
       {
         name: 'Multimetru digital Fluke 87V Industrial True-RMS',
-        description: 'Legendarul 87V – cel mai vândut multimetru industrial din istorie. True-RMS înseamnă că măsoară corect și semnale distorsionate (variatori de viteză, surse switching, dimmer-e) – multimetre simple dau erori de 40-50% pe astfel de sarcini. Rezoluție 20,000 counts, acuratețe DC ±0.05%, AC ±0.7%. Măsoară până la 1000V DC/AC, curenți până 10A direct (20A pentru 30 secunde), rezistență până 50MΩ, frecvență până 200kHz, capacitate până 9,999µF. Funcții speciale: min/max/average pentru capturare fluctuații, hold pentru înghețare display, relative pentru măsurători diferențiale. Protecție CAT IV 600V / CAT III 1000V – rezistă la orice transient industrial. Carcasă cauciucată galbenă iconică – supraviețuiește căderilor repetate. Afișaj backlit pentru lucru în întuneric. Garanție 3 ani.'
+        description: 'Multimetrul 87V – unul dintre cele mai utilizate multimetre industriale la nivel global. True-RMS înseamnă că măsoară corect și semnale distorsionate (variatori de viteză, surse switching, dimmer-e) – multimetre simple dau erori de 40-50% pe astfel de sarcini. Rezoluție 20,000 counts, acuratețe DC ±0.05%, AC ±0.7%. Măsoară până la 1000V DC/AC, curenți până 10A direct (20A pentru 30 secunde), rezistență până 50MΩ, frecvență până 200kHz, capacitate până 9,999µF. Funcții speciale: min/max/average pentru capturare fluctuații, hold pentru înghețare display, relative pentru măsurători diferențiale. Protecție CAT IV 600V / CAT III 1000V – rezistă la orice transient industrial. Carcasă cauciucată galbenă iconică – supraviețuiește căderilor repetate. Afișaj backlit pentru lucru în întuneric. Garanție 3 ani.'
       },
       {
         name: 'Cameră termoviziune Fluke Ti450 PRO',
@@ -236,7 +260,15 @@ Am investit masiv în siguranță – toate multimetrele au protecție CAT III/C
       'Producție electronică – control calitate, testare componente',
       'Feroviar – testare motoare tracțiune, pantografe, surse alimentare'
     ],
-    infinitrade: `La InfiniTrade Timișoara comandăm instrumente Fluke prin canalul de aprovizionare din România și le primim în 5-7 zile lucrătoare. Pentru modelele populare (87V, 117, 376 FC, termometre IR) încercăm să ținem stoc local – se vând rapid. Oferim suport tehnic pentru alegerea corectă – îți explicăm diferența dintre modelele entry (115) versus industrial (87V), când ai nevoie de True-RMS, ce înseamnă CAT III vs CAT IV, cum se folosește corect megaohmmetrul. Toate instrumentele vin cu certificat de calibrare NIST-trasabil valabil 1 an – poți recalibra anual la laboratoare autorizate Fluke. Garanție 3 ani standard – Fluke stă în spatele produselor. Mulți clienți ne caută pentru upgrade de la multimetre chinezești nesigure – Fluke e investiție în siguranța ta personală.`
+    infinitrade: `Pentru instrumentele Fluke lucrăm din informațiile publice ale producătorului și fără date proprii de stoc pentru fiecare model din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei putem asigura 24-72 h din stoc pentru modelele cele mai cerute (multimetre, clești ampermetrici), restul gamei – termoviziune, megaohmetre, analizoare de calitate a energiei – intrând pe fluxul de 2-6 săptămâni la comandă. Pentru un răspuns exact avem nevoie de modelul dorit și de aplicația de măsurare (CAT III/CAT IV, True-RMS sau nu). Dacă nu ne dai aceste informații, nu putem stabili corect disponibilitatea sau termenul de livrare.`,
+    limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor Fluke și nici calibrarea NIST-trasabilă pe loc – aceasta se face la laboratoare de calibrare separate.',
+    sources: [
+      { title: 'Fluke – About us', url: 'https://www.fluke.com/en-us/support/about-us', publisher: 'Fluke Corporation', accessed: '2026-09-22' },
+      { title: 'Fluke Corporation', url: 'https://en.wikipedia.org/wiki/Fluke_Corporation', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, superlative nedovedite eliminate' }]
   },
 
   'forbo-siegling': {
@@ -296,7 +328,15 @@ Am investit enorm în cercetare – dezvoltăm benzi cu rezistență la tăiere 
       'Electronică – transport PCB-uri, componente sensibile ESD',
       'Minerit – benzi grele pentru transport material (versiuni antiflacără)'
     ],
-    infinitrade: `La InfiniTrade Timișoara colaborăm cu distribuitorul Forbo Siegling din România pentru benzi și curele pe comandă – trimitem dimensiunile exacte (lățime, lungime, tip țesătură, tip acoperire) și primim banda pre-fabricată sudată în 7-10 zile lucrătoare. Pentru reparații urgente putem comanda benzi pe rolă și le sudam noi pe loc cu echipament termic. Oferim consultanță pentru alegerea corectă – îți calculăm rezistența la tracțiune necesară în funcție de greutatea transportată și lungimea benzii, îți recomandăm tipul de suprafață (netedă, matt, diamond), îți explicăm diferența dintre PVC (ieftin dar limitări temperatură) și PU (mai scump dar FDA-aprobat și mai rezistent). Avem experiență în sudare termică – te învățăm tehnica corectă și îți recomandăm echipamentul necesar.`
+    infinitrade: `Pentru benzile și curelele Forbo Siegling lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare țesătură și acoperire din gamă – majoritatea comenzilor sunt confecții la dimensiune. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, benzile pe rolă în dimensiuni comune pot ajunge în 24-72 h din stoc, în timp ce banda sudată la dimensiune sau curelele speciale (Extremultus, Tangential) intră pe fluxul de 2-6 săptămâni la comandă. Pentru un calcul corect trimite-ne lățimea, lungimea, tipul de țesătură/acoperire dorit și greutatea transportată. Nu putem estima rezistența necesară sau confirma un termen de livrare fără aceste date.`,
+    limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor lățimilor și acoperirilor Siegling și nici sudarea la fața locului pentru toate tipurile de bandă – unele configurații necesită echipament de producător.',
+    sources: [
+      { title: 'Forbo Movement Systems – Siegling', url: 'https://www.forbo.com/movement/en-gl/', publisher: 'Forbo Siegling GmbH', accessed: '2026-09-22' },
+      { title: 'Forbo Group', url: 'https://www.forbo.com/', publisher: 'Forbo Holding AG', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; headquarters Hannover confirmat conform site-ului oficial, founded neconfirmat direct' }]
   },
 
   'freudenberg': {
@@ -357,7 +397,15 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
       'Aerospace – sisteme hidraulice aviație, landing gear',
       'Tratarea apei – pompe, membrane, valve pentru apă potabilă/uzată'
     ],
-    infinitrade: `La InfiniTrade Timișoara comandăm garnituri și simering-uri Freudenberg prin distribuitorul local și le primim în 3-5 zile lucrătoare. Pentru dimensiuni standard (simering-uri auto populare, O-ring-uri ISO 3601 comune) ținem stoc local – astea le expediezi imediat. Oferim suport tehnic pentru identificare – trimiți dimensiunile (diametru interior, diametru exterior, înălțime) și noi găsim codul Freudenberg exact. Pentru aplicații speciale îți recomandăm materialul corect în funcție de fluid și temperatură – NBR pentru uleiuri minerale clasice, VITON pentru biodegradabile sau temperaturi mari, EPDM pentru apă/vapori. Avem experiență și în montaj – te învățăm tehnicile corecte pentru a nu deteriora buzele simering-urilor sau pentru a comprima O-ring-urile la procent optim.`
+    infinitrade: `Pentru garniturile și simering-urile Freudenberg pornim de la datele publice ale producătorului – fără date proprii de stoc pentru fiecare dimensiune și material din gamă (NBR, VITON, EPDM, Silicone, PTFE). Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile ISO 3601 și simering-urile auto cele mai comune pot fi asigurate în 24-72 h din stoc, restul combinațiilor material/dimensiune urmând fluxul de 2-6 săptămâni la comandă. Pentru identificare corectă avem nevoie de diametrul interior, diametrul exterior, înălțimea și fluidul de lucru. Fără aceste date nu putem confirma codul exact sau termenul de livrare.`,
+    limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor combinațiilor de dimensiuni și materiale Freudenberg și nici o formă de distribuție agreată cu producătorul.',
+    sources: [
+      { title: 'Freudenberg – About us', url: 'https://www.freudenberg.com/en/company/about-us', publisher: 'Freudenberg Group', accessed: '2026-09-22' },
+      { title: 'Freudenberg – History', url: 'https://www.freudenberg.com/en/company/history', publisher: 'Freudenberg Group', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded 1849 și headquarters Weinheim confirmate conform site-ului oficial' }]
   },
 
   'gates': {
@@ -417,7 +465,15 @@ Investim masiv în testare – fieture furtun presiune înaltă trece prin test 
       'Energie – centrale electrice, turbine, pompe alimentare',
       'Mașini-unelte – transmisii pentru strunguri, frezare, rectificare'
     ],
-    infinitrade: `La InfiniTrade Timișoara comandăm produse Gates prin canalul de aprovizionare din România – curele și furtunuri comune le avem în 2-3 zile, kituri complete de distribuție auto în 5-7 zile (vin direct de la Gates sau din depozitul central). Pentru aplicații industriale oferim consultanță completă – calculăm puterea transmisă, selectăm profilul și lățimea corectă a cureii, îți recomandăm tipul de fulie, și îți explicăm cum se face tensionarea corectă (cu deflectometru sau cu cheia dinamometrică). Pentru hidraulică îți ajutăm să identifici dimensiunea furtunului (măsurăm diametrul interior și exterior, verificăm numărul de împletituri de sârmă) și îți recomandăm racordurile compatibile. Mulți clienți auto ne caută pentru kituri distribuție VW/Audi TDI – Gates e marca de referință pentru motoare astea.`
+    infinitrade: `Lucrăm cu produsele Gates din informațiile publice ale producătorului, fără date proprii de stoc pentru fiecare profil de curea sau furtun din gamă. Aprovizionarea se face prin canale din Uniunea Europeană: ca formulare generală a firmei, curelele și kiturile de distribuție cele mai cerute pot fi asigurate în 24-72 h din stoc, iar furtunurile hidraulice pe dimensiuni speciale sau curelele industriale mai puțin comune intră pe fluxul de 2-6 săptămâni la comandă. Pentru un răspuns exact avem nevoie de codul cureii/furtunului sau, pentru kituri auto, de marca, modelul și motorizarea. Fără codul exact riscăm să propunem un termen de livrare care nu se confirmă la comandă.`,
+    limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor profilelor Gates și nici testarea burst la presiune – aceasta rămâne un proces al producătorului.',
+    sources: [
+      { title: 'Gates – About us', url: 'https://www.gates.com/us/en/about-us.html', publisher: 'Gates Corporation', accessed: '2026-09-22' },
+      { title: 'Gates Corporation', url: 'https://en.wikipedia.org/wiki/Gates_Corporation', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded 1911 și headquarters Denver confirmate' }]
   },
 
   'gedore': {
@@ -466,7 +522,7 @@ Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala
       'RoHS compliant – producție ecologică fără metale grele'
     ],
     industries: [
-      'Automotive service – ateliere mecanică, service autorizat, vulcanizări',
+      'Automotive service – ateliere mecanică, unități de reparații auto, vulcanizări',
       'Aviație – mentenanță avioane, helicoptere (scule FOD control)',
       'Industria grea – mentenanță utilaje, laminoare, prese',
       'Naval – șantiere navale, mentenanță nave',
@@ -477,7 +533,15 @@ Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala
       'Minerit – mentenanță utilaje miniere (versiuni anti-scânteie)',
       'Producție industrială – linii de asamblare, mentenanță mașini'
     ],
-    infinitrade: `La InfiniTrade Timișoara comandăm scule Gedore prin canalul de aprovizionare din România și le primim în 3-5 zile lucrătoare. Pentru articolele populare (chei 8-19mm, tubulare 1/2" comune, chei dinamometrice 40-200 Nm) încercăm să ținem stoc local. Oferim consultanță pentru alegerea corectă – îți explicăm diferența dintre chei fixe/inelate/combinate, când ai nevoie de tubulare impact versus standard, cum se folosește corect cheia dinamometrică (nu depășești niciodată cuplul maxim setat, returnezi la minim după uz). Pentru truse oferim configurații custom – selectăm exact sculele de care ai nevoie pentru aplicația ta, fără să plătești pentru piese pe care nu le folosești. Gedore înseamnă investiție pe viață – scule care te slujesc 20-30 de ani fără probleme.`
+    infinitrade: `Pentru sculele Gedore ne bazăm pe cataloagele publice ale producătorului, fără date proprii de stoc pentru fiecare dimensiune și serie din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile de chei și tubulare cele mai cerute pot fi asigurate în 24-72 h din stoc, iar chei dinamometrice, truse complete sau dimensiuni speciale intră pe fluxul de 2-6 săptămâni la comandă. Pentru un răspuns exact spune-ne dimensiunea, seria (fixă/inelată/tubulară) și tipul de antrenare de care ai nevoie. Lipsa acestor detalii ne împiedică să confirmăm disponibilitatea reală sau un termen corect de livrare.`,
+    limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor seriilor Gedore și nici condițiile exacte ale garanției pe viață a producătorului – acestea se verifică direct cu Gedore.',
+    sources: [
+      { title: 'Gedore', url: 'https://gedore.com', publisher: 'GEDORE Werkzeugfabrik GmbH & Co. KG', accessed: '2026-09-22' },
+      { title: 'Gedore', url: 'https://en.wikipedia.org/wiki/Gedore', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded 1919 și headquarters Remscheid confirmate' }]
   },
 
   'grundfos-dosing': {
@@ -537,7 +601,15 @@ Investim masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comuni
       'Agricultură – fertirigație (dozare îngrășăminte în irigații)',
       'Spălătorii auto/industriale – dozare detergent proporțional'
     ],
-    infinitrade: `La InfiniTrade Timișoara colaborăm cu distribuitorul Grundfos din România pentru pompe dozatoare și sisteme complete. Pompele comune (DDA, DDC) le comandăm și le avem în 5-7 zile, sistemele complexe (DME mari, SMART Digital) pot dura 2-3 săptămâni (fabricație la comandă în Danemarca). Oferim suport tehnic complet – îți calculăm debitul necesar în funcție de volum tratat și concentrație chimical, îți recomandăm tipul de membrană și valve în funcție de compatibilitatea chimicală, îți proiectăm sistemul de dozare (pompă + tanc + mixer + senzori). Pentru aplicații complexe (control pH automat, dozare multipunct) colaborăm cu inginerii Grundfos pentru sizing și programare controller. Oferim și service post-vânzare – schimbare membrane, calibrare, depanare.`
+    infinitrade: `Pentru pompele dozatoare Grundfos lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model și configurație. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, pompele DDA/DDC uzuale pot fi asigurate în 24-72 h din stoc, iar sistemele mai complexe (DME de capacitate mare, SMART Digital, configurații custom) intră pe fluxul de 2-6 săptămâni la comandă, fiind adesea fabricate la comandă. Pentru un calcul corect avem nevoie de debitul necesar, concentrația/tipul de chimical dozat și presiunea sistemului. Fără acest calcul preliminar nu putem propune un model potrivit sau un termen realist de livrare.`,
+    limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor de pompe dozatoare Grundfos și nici programarea de la distanță a controllerelor SMART Digital fără un contract tehnic separat.',
+    sources: [
+      { title: 'Grundfos – About us', url: 'https://www.grundfos.com/about-us', publisher: 'Grundfos Holding A/S', accessed: '2026-09-22' },
+      { title: 'Grundfos', url: 'https://www.grundfos.com/', publisher: 'Grundfos Holding A/S', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded 1945 și headquarters Bjerringbro confirmate conform site-ului oficial' }]
   },
 
   'grundfos-hvac': {
@@ -546,7 +618,7 @@ Investim masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comuni
     employees: '19,000+',
     overview: `De aproape 80 de ani, Grundfos produce pompe de circulație pentru încălzire, climatizare și apă caldă menajeră. Experiența noastră? Că o pompă Grundfos ALPHA3 economisește 80% energie față de o pompă veche cu turație fixă – în 2-3 ani se amortizează doar din economii la curent. Producem pompe de circulație rezidențiale (ALPHA, UPS), pompe industriale HVAC (TPE, NBE, NKE), pompe pentru sisteme solare (SOLAR), pompe presiune (SCALA, CME), și sisteme de pompare twin/triplex cu redundanță.
 
-Tehnologia Grundfos combină motoare ECM (Electronically Commutated Motor) cu eficiență 80%+ cu controlul automat AUTOADAPT – pompa detectează cererea sistemului și ajustează turația în timp real pentru a livra exact debitul necesar. Rezultat: consum electric scăzut cu 50-80% față de pompe vechi on/off. Seria ALPHA3 (best-seller rezidențial) are comunicație wireless – o configurezi de pe smartphone prin Grundfos GO. Pentru industrie, seria MAGNA3 oferă debite până 140 m³/h și înălțimi până 16 metri, cu twin-head pentru redundanță (dacă o pompă se defectează, cealaltă preia automat).
+Tehnologia Grundfos combină motoare ECM (Electronically Commutated Motor) cu eficiență 80%+ cu controlul automat AUTOADAPT – pompa detectează cererea sistemului și ajustează turația în timp real pentru a livra exact debitul necesar. Rezultat: consum electric scăzut cu 50-80% față de pompe vechi on/off. Seria ALPHA3 (una dintre cele mai răspândite pompe rezidențiale) are comunicație wireless – o configurezi de pe smartphone prin Grundfos GO. Pentru industrie, seria MAGNA3 oferă debite până 140 m³/h și înălțimi până 16 metri, cu twin-head pentru redundanță (dacă o pompă se defectează, cealaltă preia automat).
 
 Investim masiv în IoT – toate pompele noi au conectivitate cloud, raportare consumuri, alarme predictive (de exemplu, alarmă cavitație înainte să se defecteze), și integrare în BMS prin Modbus/BACnet. Pentru centrale termice dezvoltăm pompe compacte pre-configurate – plug&play, instalator doar le conectează și pornește. Certificări complete ErP (Energy-related Products) – toate pompele HVAC respectă regulamentul UE 641/2009 cu EEI ≤ 0.23 (clasa A).`,
     whyChoose: [
@@ -560,7 +632,7 @@ Investim masiv în IoT – toate pompele noi au conectivitate cloud, raportare c
     keyProducts: [
       {
         name: 'Pompe de circulație Grundfos ALPHA3 (rezidențial high-efficiency)',
-        description: 'Pompa numărul 1 pentru încălzire în pardoseală și radiatoare în case/apartamente – motor ECM cu eficiență 85%, consum 5-45W (versus 60-150W pompe vechi). Trei moduri de funcționare: AUTOADAPT (ajustare automată pentru minim consum), Constant Pressure (presiune constantă pentru radiatoare), Constant Curve (funcționare la caracteristică fixă). Display digital arată consum instant (Watts), temperatură apă, alarme. Comunicație Grundfos GO prin Bluetooth – configurezi modul, vezi statistici consum, primești notificări. Auto-deaerare – detectează aerul și crește turația temporar pentru eliminare. Conexiuni: filetat 1" sau 1 1/4", distanță între racorduri 130mm sau 180mm (standard european). Temperatura apă -10°C până +110°C (modele speciale până +120°C). Clasă energetică A (EEI 0.20). Nivele de zgomot sub 43 dB(A) – aproape silențioasă. Garanție 5 ani (rezidențial) sau 2 ani (comercial).'
+        description: 'Pompă foarte răspândită pentru încălzire în pardoseală și radiatoare în case/apartamente – motor ECM cu eficiență 85%, consum 5-45W (versus 60-150W pompe vechi). Trei moduri de funcționare: AUTOADAPT (ajustare automată pentru minim consum), Constant Pressure (presiune constantă pentru radiatoare), Constant Curve (funcționare la caracteristică fixă). Display digital arată consum instant (Watts), temperatură apă, alarme. Comunicație Grundfos GO prin Bluetooth – configurezi modul, vezi statistici consum, primești notificări. Auto-deaerare – detectează aerul și crește turația temporar pentru eliminare. Conexiuni: filetat 1" sau 1 1/4", distanță între racorduri 130mm sau 180mm (standard european). Temperatura apă -10°C până +110°C (modele speciale până +120°C). Clasă energetică A (EEI 0.20). Nivele de zgomot sub 43 dB(A) – aproape silențioasă. Garanție 5 ani (rezidențial) sau 2 ani (comercial).'
       },
       {
         name: 'Pompe industriale Grundfos MAGNA3 (commercial/industrial HVAC)',
@@ -597,6 +669,14 @@ Investim masiv în IoT – toate pompele noi au conectivitate cloud, raportare c
       'Case pasive/nZEB – sisteme HVAC ultra-eficiente',
       'Sisteme geotermale – circulație în sonde geotermale'
     ],
-    infinitrade: `La InfiniTrade Timișoara comandăm pompe Grundfos HVAC prin canalul nostru de aprovizionare și le primim în 2-3 zile pentru modelele populare (ALPHA3, UPS, SCALA2), sau 5-7 zile pentru modele industriale mari (MAGNA3, TPE). Oferim consultanță completă pentru sizing – calculăm debitul necesar în funcție de puterea termică instalată, selectăm înălțimea de pompare în funcție de pierderi de sarcină în sistem, îți recomandăm modul de control optim (AUTOADAPT pentru economie maximă, Constant Pressure pentru confort maxim). Pentru retrofit (înlocuire pompe vechi) îți arătăm economiile estimate – de obicei investiția se recuperează în 2-3 ani din reducerea facturii la curent. Oferim și configurare prin Grundfos GO pentru modelele wireless – îți setăm parametrii optimi pe loc. Service post-vânzare disponibil – depanare, recalibr calibrare, piese de schimb.`
+    infinitrade: `Pentru pompele Grundfos HVAC lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model din gamă. Aprovizionarea se face prin canale din Uniunea Europeană: ca formulare generală a firmei, modelele rezidențiale uzuale (ALPHA3, UPS, SCALA2) pot fi asigurate în 24-72 h din stoc, iar modelele industriale mari (MAGNA3, TPE) sau configurațiile speciale intră pe fluxul de 2-6 săptămâni la comandă. Pentru un calcul corect avem nevoie de puterea termică instalată, înălțimea de pompare necesară și tipul de sistem (rezidențial, comercial, industrial). Fără acești parametri riscăm să recomandăm un model nepotrivit sau un termen de livrare incorect.`,
+    limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor Grundfos HVAC și nici service în perioada de garanție a producătorului fără un contract tehnic separat.',
+    sources: [
+      { title: 'Grundfos – About us', url: 'https://www.grundfos.com/about-us', publisher: 'Grundfos Holding A/S', accessed: '2026-09-22' },
+      { title: 'Grundfos', url: 'https://www.grundfos.com/', publisher: 'Grundfos Holding A/S', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, superlativ eliminat; founded 1945 și headquarters Bjerringbro confirmate' }]
   }
 };
