@@ -51,7 +51,7 @@ const SOURCING_STATEMENT = entityFacts.boilerplate.find((b) => b.id === 'sourcin
 const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
 const LEAD_TIME_TO_ORDER = entityFacts.leadTimePhrases?.[1] || '2–6 săptămâni la comandă';
 
-export default function BrandPageClient({ brand, allCategories, brandContent }) {
+export default function BrandPageClient({ brand, allCategories, brandContent, seriesPages = [] }) {
   const [heroRef, heroVisible] = useIntersectionObserver();
   const [productsRef, productsVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
@@ -276,10 +276,23 @@ export default function BrandPageClient({ brand, allCategories, brandContent }) 
           </div>
         </section>
 
-        {/* B-04 - Ce înlocuiește seriile <Brand> ieșite din producție?
-            Requires a series-sources.tsv row for this brand - not yet wired
-            into brandContent (F3-03/F4). Omitted, not written as "nu avem
-            informații" (heading-phrasings.md B-04). */}
+        {/* Serii documentate (src/data/series/<brand>.js) — rendered only when
+            the brand has at least one series page (decisions-architecture.md B). */}
+        {seriesPages.length > 0 && (
+          <section className={styles.industriesSection}>
+            <div className={styles.container}>
+              <h2 className={styles.richSectionTitle}>Ce serii {brand.name} avem documentate pe cod?</h2>
+              <p className={styles.sectionLead}>
+                Pentru seriile de mai jos avem pagini cu codurile de tip cerute de clienți, parametrii din documentația producătorului și ce trebuie trimis pentru ofertă:
+              </p>
+              <div className={styles.industriesTags}>
+                {seriesPages.map((s) => (
+                  <Link key={s.slug} href={`/brand/${brand.simpleSlug}/${s.slug}`} className={styles.industryTag}>{s.name}</Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* B-05 - Ce piese și consumabile <Brand> livrăm? - from the active
             category's accessories list; falls back to nothing (omitted) when

@@ -5,6 +5,7 @@ import { safeJsonLd } from '@/lib/utils';
 import { getBrandContent } from '@/data/brandContent';
 import { buildBrandJsonLd } from '@/lib/schema/brand';
 import BrandPageClient from './BrandPageClient';
+import { getSeriesForBrand } from '@/data/series/_index';
 
 // Generate static params for all brand pages (simple slugs)
 export async function generateStaticParams() {
@@ -80,7 +81,7 @@ export default async function BrandPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <BrandPageClient brand={brand} allCategories={allCategoriesUnified} brandContent={content} />
+      <BrandPageClient brand={brand} allCategories={allCategoriesUnified} brandContent={content} seriesPages={getSeriesForBrand(brand.simpleSlug)} />
     </>
   );
 }

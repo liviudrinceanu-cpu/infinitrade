@@ -227,7 +227,9 @@ export async function run(ctx) {
   const loader = loadDataDir(ctx.target);
   let seriesChecked = 0;
   try {
-    const seriesFiles = loader.files.filter((f) => f.startsWith(`series${path.sep}`) && f.endsWith('.js'));
+    // `_index.js` re-exports every brand file's array — skip it so each series is
+    // checked exactly once, not once per file that exports it.
+    const seriesFiles = loader.files.filter((f) => f.startsWith(`series${path.sep}`) && f.endsWith('.js') && !path.basename(f).startsWith('_'));
     for (const f of seriesFiles) {
       const mod = await loader.importFile(f);
       const arr = mod.default || mod.series || Object.values(mod).find((v) => Array.isArray(v));
@@ -235,8 +237,12 @@ export async function run(ctx) {
       for (const s of arr) {
         if (!s || !s.slug || !s.brand) continue;
         seriesChecked += 1;
-        const pairKey = `${normLoose(s.brand)}::${normLoose(s.family)}`;
-        const hasDemandRow = demandPairsLoose.has(pairKey);
+        // demand-models.json keys brands by the name customers wrote (brand_key,
+        // e.g. `sew-eurodrive`), while series files use the LIVE simple slug
+        // (`sew`). A series may declare `demandBrandKey` to name the brand_key
+        // it is evidenced under; both keys are checked, the pair must still exist.
+        const brandKeys = [s.brand, s.demandBrandKey].filter(Boolean);
+        const hasDemandRow = brandKeys.some((b) => demandPairsLoose.has(`${normLoose(b)}::${normLoose(s.family)}`));
         const codes = (s.models || []).map((m) => m.code).filter(Boolean);
         const hasGscCode = !hasDemandRow && hasCodeQueryEvidence(gsc, codes);
         if (!hasDemandRow && !hasGscCode) {

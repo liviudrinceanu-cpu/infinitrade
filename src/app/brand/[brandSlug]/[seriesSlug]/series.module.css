@@ -1,0 +1,29 @@
+.main { min-height: 100vh; background: #f8fafc; }
+.container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+.hero { background: linear-gradient(135deg, #063c69 0%, #0077b6 100%); padding: 110px 0 44px; color: #fff; }
+.kicker { font-size: 13px; letter-spacing: .04em; text-transform: uppercase; opacity: .9; margin: 14px 0 6px; }
+.hero h1 { font-size: 36px; font-weight: 700; margin: 0 0 12px; }
+.lede { font-size: 18px; line-height: 1.6; max-width: 800px; margin: 0 0 12px; color: rgba(255,255,255,.95); }
+.meta { font-size: 14px; opacity: .9; margin: 0 0 22px; }
+.ctas { display: flex; flex-wrap: wrap; gap: 12px; }
+.ctaPrimary { display: inline-block; padding: 12px 22px; border-radius: 10px; font-weight: 600; background: #fff; color: #063c69; text-decoration: none; }
+.ctaSecondary { display: inline-block; padding: 12px 22px; border-radius: 10px; font-weight: 600; border: 1px solid rgba(255,255,255,.6); color: #fff; text-decoration: none; }
+.section { padding: 40px 0; }
+.alt { background: #fff; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; }
+.section h2 { font-size: 24px; color: #0f172a; margin: 0 0 14px; }
+.section h3 { font-size: 18px; color: #0f172a; margin: 22px 0 10px; }
+.prose { color: #334155; line-height: 1.7; max-width: 800px; margin: 0 0 14px; }
+.table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; overflow: hidden; }
+.table th, .table td { text-align: left; padding: 10px 14px; border-bottom: 1px solid #e5e7eb; vertical-align: top; }
+.table th { background: #f1f5f9; font-size: 13px; text-transform: uppercase; letter-spacing: .03em; color: #475569; }
+.table code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; color: #063c69; }
+.note { font-size: 13px; color: #64748b; margin: 10px 0 0; }
+.list { color: #334155; line-height: 1.7; padding-left: 20px; }
+.faqItem + .faqItem { margin-top: 24px; }
+.sources { color: #334155; line-height: 1.7; padding-left: 20px; }
+.sources a { color: #0077b6; }
+.ctaSection { padding: 48px 0 72px; text-align: center; }
+.ctaSection h2 { font-size: 26px; color: #0f172a; margin: 0 0 8px; }
+.ctaSection p { color: #475569; max-width: 640px; margin: 0 auto 20px; }
+.ctaSection .ctaPrimary { background: #0077b6; color: #fff; }
+@media (max-width: 640px) { .hero { padding-top: 96px; } .hero h1 { font-size: 28px; } .table th, .table td { padding: 8px 10px; font-size: 14px; } }

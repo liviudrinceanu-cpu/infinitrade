@@ -186,7 +186,8 @@ async function countSeriesRoutes(repoRoot) {
   }
   const loader = loadDataDir(repoRoot);
   try {
-    const files = loader.files.filter((f) => f.startsWith(`series${path.sep}`) && f.endsWith('.js'));
+    // `_index.js` aggregates the brand files — skip it so no series is counted twice.
+    const files = loader.files.filter((f) => f.startsWith(`series${path.sep}`) && f.endsWith('.js') && !path.basename(f).startsWith('_'));
     let total = 0;
     for (const f of files) {
       const mod = await loader.importFile(f);

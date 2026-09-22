@@ -1,4 +1,5 @@
-import { allCategoriesUnified as categories, allBrandsUnified, isBrandNoindex } from '@/data/allBrandsIndex';
+import { allCategoriesUnified as categories, allBrandsUnified, isBrandNoindex, getAllBrandSlugs } from '@/data/allBrandsIndex';
+import { seriesIndex } from '@/data/series/_index';
 import { blogArticles } from '@/data/blog';
 import { caseStudies } from '@/data/caseStudies';
 import { lastModified } from '@/data/lastModified';
@@ -149,6 +150,18 @@ export default function sitemap() {
     ...(brand.logo && brand.logo !== '/brands/placeholder.png' && { images: [`${BASE_URL}${brand.logo}`] }),
   }));
 
+  // Series pages (/brand/<brand>/<serie>) — decisions-architecture.md B:
+  // priority 0.7, monthly, lastModified = the series' own dateModified.
+  const liveBrandSlugs = new Set(getAllBrandSlugs());
+  const seriesPages = seriesIndex
+    .filter((s) => liveBrandSlugs.has(s.brand))
+    .map((s) => ({
+      url: `${BASE_URL}/brand/${s.brand}/${s.slug}`,
+      lastModified: s.dateModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    }));
+
   // Industry pages (to be added later)
   const industryPages = [
     'petrochimie',
@@ -195,6 +208,7 @@ export default function sitemap() {
     ...categoryPages,
     brandIndexPage,
     ...brandPages,
+    ...seriesPages,
     ...industryPages,
     ...blogPages,
     ...caseStudyPages,
