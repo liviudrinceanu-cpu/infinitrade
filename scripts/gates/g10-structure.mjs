@@ -80,8 +80,13 @@ const strings = (v, acc = []) => {
   return acc;
 };
 
+// D-2026-09-22: `productCodes[]` (a code table) and `faq[]` are structural
+// blocks rendered outside the prose (B-15/B-16), so they do not count toward
+// the class word band; `sources[]`/`changelog[]` metadata never did in spirit.
+const PROSE_EXCLUDED = new Set(['productCodes', 'faq', 'sources', 'changelog', 'lastVerified', 'evidenceClass', 'tier', 'indexing']);
 function wordCount(content) {
-  const text = strings(content).join(' ');
+  const prose = Object.fromEntries(Object.entries(content || {}).filter(([k]) => !PROSE_EXCLUDED.has(k)));
+  const text = strings(prose).join(' ');
   return text.trim() ? text.trim().split(/\s+/).filter(Boolean).length : 0;
 }
 
@@ -94,17 +99,21 @@ const BLOCK_DETECTORS = {
   'range-table': (c) => Array.isArray(c.keyProducts) && c.keyProducts.length > 0,
   'own-fact': (c) => !isBlank(c.ownFact),
   limitation: (c) => !isBlank(c.limitation),
-  'accessories-links': (c) => Array.isArray(c.accessories) && c.accessories.length > 0,
-  'series-links': (c) => Array.isArray(c.series) && c.series.length > 0,
+  // D-2026-09-22: detectors reflect what BrandPageClient actually renders —
+  // B-05 category accessories (every brand whose category lists them),
+  // series pages from src/data/series/_index.js (F5), and the F3-03
+  // changelog[]/lastVerified pair (the visible "Actualizat:" line).
+  'accessories-links': (c, ctx) => (Array.isArray(c.accessories) && c.accessories.length > 0) || (ctx && ctx.categoryAccessories > 0),
+  'series-links': (c, ctx) => (Array.isArray(c.series) && c.series.length > 0) || (ctx && ctx.seriesPages > 0),
   sources: (c) => Array.isArray(c.sources) && c.sources.length > 0,
-  'dated-changelog': (c) => !isBlank(c.dateModified) || !isBlank(c.lastUpdated),
+  'dated-changelog': (c) => !isBlank(c.dateModified) || !isBlank(c.lastUpdated) || !isBlank(c.lastVerified) || (Array.isArray(c.changelog) && c.changelog.length > 0),
   'sourcing-statement': (c) => !isBlank(c.sourcingStatement) || SOURCING_STATEMENT_RE.test(strings(c).join('\n')),
   'portfolio-list': (c) => Array.isArray(c.keyProducts) && c.keyProducts.length > 0,
 };
 
 const QUESTION_H2_RE = /^question-h2\s*x\s*>=\s*(\d+)$/i;
 
-function detectBlock(blockSpec, content) {
+function detectBlock(blockSpec, content, ctx) {
   const qh2 = QUESTION_H2_RE.exec(blockSpec.trim());
   if (qh2) {
     const min = Number(qh2[1]);
@@ -113,7 +122,7 @@ function detectBlock(blockSpec, content) {
   }
   const detector = BLOCK_DETECTORS[blockSpec.trim()];
   if (!detector) return null; // unknown block id — can't judge, don't fail on it
-  return detector(content);
+  return detector(content, ctx);
 }
 
 /* --------------------------------------------------------------- run() --- */
@@ -133,9 +142,25 @@ export async function run(ctx) {
   const { importFile, cleanup } = loadDataDir(ctx.target, { subdir: 'src/data' });
   let brandContent = {};
   let loadOk = true;
+  const pageCtx = new Map(); // slug -> { categoryAccessories, seriesPages }
   try {
     const mod = await importFile('brandContent.js');
     brandContent = mod.brandContent || mod.default || {};
+    try {
+      const idx = await importFile('allBrandsIndex.js');
+      for (const b of idx.allBrandsUnified || []) {
+        const acc = (b.categories || []).reduce((n, cat) => n + ((cat.accessories || []).length), 0);
+        pageCtx.set(b.simpleSlug, { categoryAccessories: acc, seriesPages: 0 });
+      }
+      const ser = await importFile('series/_index.js');
+      for (const sp of ser.seriesIndex || []) {
+        const key = sp.brand;
+        const cur = pageCtx.get(key) || { categoryAccessories: 0, seriesPages: 0 };
+        cur.seriesPages += 1; pageCtx.set(key, cur);
+      }
+    } catch (err) {
+      findings.push({ file: 'src/data/allBrandsIndex.js', line: null, severity: 'MINOR', message: `G10: page context (accessories/series) unavailable: ${err.message}` });
+    }
   } catch (err) {
     loadOk = false;
     findings.push({ file: 'src/data/brandContent.js', line: null, severity: 'BLOCKER', message: `G10: could not import brandContent.js from ${ctx.target}: ${err.message}` });
@@ -173,7 +198,7 @@ export async function run(ctx) {
       const requiredBlocks = Array.isArray(classContract.blocks) ? classContract.blocks : [];
       const missing = [];
       for (const blockSpec of requiredBlocks) {
-        const present = detectBlock(blockSpec, content);
+        const present = detectBlock(blockSpec, content, pageCtx.get(row.slug));
         if (present === false) missing.push(blockSpec);
       }
       if (missing.length) {

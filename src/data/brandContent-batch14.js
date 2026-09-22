@@ -58,6 +58,7 @@ ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de elec
       { title: 'Prominent (Unternehmen) – Wikipedia', url: 'https://de.wikipedia.org/wiki/Prominent_(Unternehmen)', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma acoperirea service-ului în garanția producătorului pentru fiecare serie de pompe și nici configurarea software specifică fiecărei instalații.',
+    evidenceClass: "gsc-only",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
@@ -121,6 +122,7 @@ Britanicii au investit masiv în digitalizare - au lansat platforma Renold Smart
       { title: 'Renold – Wikipedia', url: 'https://en.wikipedia.org/wiki/Renold', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma disponibilitate neîntreruptă pentru toate variantele de lanț sau pentru atașamentele custom; verificăm fiecare comandă la producător.',
+    evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
@@ -184,6 +186,7 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
       { title: 'Regal Rexnord – site corporativ', url: 'https://www.regalrexnord.com', publisher: 'Regal Rexnord Corporation', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma acoperirea completă de service în garanția producătorului pentru fiecare sub-gamă Regal Rexnord.',
+    evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [
       { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
@@ -250,6 +253,7 @@ Nemții au investit masiv în digitalizare și IoT - platforma Rittal IoT Interf
       { title: 'Rittal – site oficial', url: 'https://www.rittal.com', publisher: 'Rittal GmbH & Co. KG', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma configurarea software (Therm, Eplan) ca serviciu inclus și nici stocul permanent pentru toate dimensiunile de dulap.',
+    evidenceClass: "history-only",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
@@ -319,6 +323,7 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
       { title: 'Rockwell Automation – Our History', url: 'https://www.rockwellautomation.com/en-us/company/about-us/our-history.html', publisher: 'Rockwell Automation, Inc.', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma programarea sau configurarea software Studio 5000 ca serviciu inclus, nici stocul permanent pentru toate modelele PLC.',
+    evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
@@ -384,6 +389,7 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
       { title: 'Schneider Electric – Wikipedia', url: 'https://en.wikipedia.org/wiki/Schneider_Electric', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma configurarea completă EcoStruxure Machine Expert ca serviciu inclus și nici disponibilitatea permanentă pentru toate variantele Modicon.',
+    evidenceClass: "gsc-only",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
@@ -449,6 +455,7 @@ Austriecii au investit în dezvoltarea produselor eco-friendly - contactoare cu 
       { title: 'Schrack Technik – Wikipedia', url: 'https://de.wikipedia.org/wiki/Schrack_Technik', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma disponibilitate neîntreruptă pentru gama completă Schrack și nici acoperirea directă de service a producătorului.',
+    evidenceClass: "zero-evidence",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
@@ -514,6 +521,7 @@ Shell oferă și servicii digitale - platforma LubeAnalyst pentru monitorizare c
       { title: 'Shell Lubricants for Business', url: 'https://www.shell.com/business-customers/lubricants-for-business.html', publisher: 'Shell plc', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma un program complet de analiză ulei ca serviciu inclus în fiecare comandă și nici stocul permanent pentru toate ambalajele.',
+    evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [
       { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
@@ -586,6 +594,7 @@ SICK a investit masiv în digitalizare - platforma SICK AppSpace permite program
       { title: 'SICK – site oficial', url: 'https://www.sick.com', publisher: 'SICK AG', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma calibrarea sau configurarea software AppSpace ca serviciu inclus și nici stocul permanent pentru toată gama de senzori.',
+    evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
@@ -657,6 +666,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       { title: 'Siemens – Wikipedia', url: 'https://en.wikipedia.org/wiki/Siemens', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma configurarea software (LV Configurator, TIP) ca serviciu inclus, nici stocul permanent pentru toate seriile SIVACON.',
+    evidenceClass: "gsc-only",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   }

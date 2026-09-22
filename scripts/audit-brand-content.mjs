@@ -144,6 +144,11 @@ const ALLOWED_KEYS = new Set([
   // F3-03: dated change log, rendered under B-14 (see the data contract atop
   // src/data/brandContent.js).
   'changelog',
+  // Branduri-500 v3 (D-2026-09-22): `faq[]` = [{ q, a }] rendered as
+  // "Întrebări frecvente despre <Brand>" + FAQPage node; `productCodes[]` =
+  // [{ code, description }] = series/type designations copied from the
+  // manufacturer's public catalogue (identification aid, NOT a stock list).
+  'faq', 'productCodes',
 ]);
 const CITED_FIELDS = ['founded', 'headquarters', 'employees', 'certifications'];
 
@@ -173,15 +178,18 @@ const jaccard = (a, b) => {
 /* ------------------------------------------------------------------- main -- */
 
 const { tmp, import: imp } = loadDataModules();
-let brandIndex; let brandContent; let categories;
+let brandIndex; let brandContent; let categories; let noindexBrands = [];
 try {
   ({ allBrandsUnified: brandIndex, allCategoriesUnified: categories } = await imp('allBrandsIndex.js'));
   ({ brandContent } = await imp('brandContent.js'));
+  ({ NOINDEX_BRANDS: noindexBrands } = await imp('noindexBrands.js'));
 } finally {
   fs.rmSync(tmp, { recursive: true, force: true });
 }
 
 const universe = loadJson('plan-v2/brand-universe.json');
+const coveragePolicy = loadJson('plan-v2/coverage-policy.json');
+const policyClassBySlug = new Map(((coveragePolicy && coveragePolicy.rows) || []).map((r) => [r.slug, r.evidenceClass]));
 const stock = loadTsv('research/stock.tsv');
 const equivalence = loadTsv('research/equivalence-seed.tsv');
 const seriesSources = loadTsv('research/series-sources.tsv');
@@ -388,8 +396,18 @@ const CLASSES = new Set(['transactional', 'history-only', 'gsc-only', 'zero-evid
 for (const [slug, c] of Object.entries(brandContent)) {
   if (!c.evidenceClass) report('B13', 'MAJOR', slug, 'no evidenceClass — the length/claim budget for the page is undefined');
   else if (!CLASSES.has(c.evidenceClass)) report('B13', 'MAJOR', slug, `unknown evidenceClass "${c.evidenceClass}"`);
-  if (c.evidenceClass === 'zero-evidence' && c.indexing !== 'noindex,follow') {
-    report('B13', 'MAJOR', slug, 'zero-evidence page must ship as noindex,follow until GSC shows demand');
+  // D-2026-09-22: the noindex decision lives in the generated NOINDEX_BRANDS
+  // list (scripts/build-noindex.mjs applies the GSC impressions guard). A
+  // zero-evidence slug that the guard keeps indexed (measurable demand) is
+  // not a violation; a zero-evidence slug that is NOT in the list and does
+  // not declare noindex,follow still is.
+  // The generated list is built from coverage-policy.json's zero-evidence rows
+  // (minus the impressions guard), so a slug the policy already classes as
+  // zero-evidence has had its indexing decided there — in the list = noindex,
+  // guard-kept = indexed on purpose. Only a zero-evidence page unknown to the
+  // policy (nobody decided) must declare noindex,follow itself.
+  if (c.evidenceClass === 'zero-evidence' && c.indexing !== 'noindex,follow' && !noindexBrands.includes(slug) && policyClassBySlug.get(slug) !== 'zero-evidence') {
+    report('B13', 'MAJOR', slug, 'zero-evidence page must ship as noindex,follow until GSC shows demand (not in NOINDEX_BRANDS and no `indexing` declared)');
   }
   const wc = words(strings(c).join(' ')).length;
   const cap = { 'zero-evidence': [150, 450], 'gsc-only': [250, 600], 'history-only': [350, 800], transactional: [500, 1400] }[c.evidenceClass];
