@@ -32,8 +32,10 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  // Get brand names for keywords
-  const brandNames = category.brands.map(b => b.name).join(', ');
+  // Brand names for the meta description: featured first, at most 6 — the
+  // full list (now 100+ in some categories) would blow past 155 characters.
+  const brandNames = [...category.brands.filter(b => b.featured), ...category.brands.filter(b => !b.featured)]
+    .slice(0, 6).map(b => b.name).join(', ');
   const productTypeNames = category.productTypes.map(p => p.name).slice(0, 5).join(', ');
 
   // Shorten title to stay under 70 chars total

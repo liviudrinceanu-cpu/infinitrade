@@ -305,7 +305,12 @@ async function main() {
     const idx = await loader.importFile('allBrandsIndex.js');
     brandRoutes = idx.getAllBrandSlugs ? idx.getAllBrandSlugs().length : idx.allBrandsUnified.length;
     categoryRoutes = idx.allCategoriesUnified.length;
-    noindexBrands = await getNoindexBrands(loader);
+    // Since D-2026-09-21 the single indexing rule lives in allBrandsIndex.js
+    // (isBrandNoindex: NOINDEX_BRANDS + extension brands without rich content),
+    // so the ledger asks the index itself and only falls back to the raw list.
+    noindexBrands = typeof idx.isBrandNoindex === 'function'
+      ? idx.getAllBrandSlugs().filter((slug) => idx.isBrandNoindex(slug))
+      : await getNoindexBrands(loader);
 
     var blogMod = await loader.importFile('blog.js');
     var caseStudiesMod = await loader.importFile('caseStudies.js');
