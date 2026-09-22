@@ -384,7 +384,7 @@ for (const b of brandIndex) {
 }
 
 /* --- B13 evidence class / tier / indexing declared ------------------------ */
-const CLASSES = new Set(['transactional', 'history-only', 'gsc-only', 'zero-evidence', 'hypothesis']);
+const CLASSES = new Set(['transactional', 'history-only', 'gsc-only', 'zero-evidence', 'hypothesis', 'market-signal-ro', 'market-signal-intl']); // market-signal-*: Branduri-500 (D-2026-09-21)
 for (const [slug, c] of Object.entries(brandContent)) {
   if (!c.evidenceClass) report('B13', 'MAJOR', slug, 'no evidenceClass — the length/claim budget for the page is undefined');
   else if (!CLASSES.has(c.evidenceClass)) report('B13', 'MAJOR', slug, `unknown evidenceClass "${c.evidenceClass}"`);

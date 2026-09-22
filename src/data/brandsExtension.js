@@ -2343,7 +2343,7 @@ export const BRANDS_EXTENSION = {
       "country": "Italia",
       "description": "Arzatoare industriale pe gaz si combustibil lichid",
       "featured": false,
-      "officialUrl": "https://ecoflam.com.ro",
+      "officialUrl": "https://www.ecoflam-burners.com",
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Spirax Sarco Thermal"

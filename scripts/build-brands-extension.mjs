@@ -30,7 +30,12 @@ const MERGED = ['rockwell', 'mitsubishi', 'br', 'getriebebau', 'crane-chempharma
 const FORBIDDEN = /distribuitor|autorizat|oficial|exclusiv|reprezentan|partener oficial|service autorizat/i;
 
 const idx = await importDataFile(ROOT, 'allBrandsIndex.js');
-const liveSlugs = new Set(idx.getAllBrandSlugs());
+// allBrandsIndex already merges the CURRENT extension; the collision guard is
+// against the base (non-extension) brands only, otherwise a re-run collides
+// with its own previous output.
+let previousExt = {};
+try { previousExt = (await importDataFile(ROOT, 'brandsExtension.js')).EXTENSION_BY_SLUG || {}; } catch { previousExt = {}; }
+const liveSlugs = new Set(idx.getAllBrandSlugs().filter((s) => !Object.prototype.hasOwnProperty.call(previousExt, s)));
 const liveCats = new Set(idx.allCategoriesUnified.map((c) => c.slug));
 
 const rows = JSON.parse(fs.readFileSync(SRC, 'utf8'));
