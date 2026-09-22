@@ -53,8 +53,110 @@ Hidraulica mobilă e un alt domeniu unde Rexroth excelează. Furnizăm component
     infinitrade: `La Infinitrade nu avem date proprii despre stocurile Bosch Rexroth din fabrică, așa că lucrăm cu ce putem confirma din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Componentele hidraulice din gamele uzuale — pompe, distribuitoare, cilindri standard — pot ajunge din stoc în 24–72 h, ca formulare generală, fără să promitem un anumit produs în stoc; echipamentele speciale sau seriile personalizate se aduc la comandă în 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de codul de produs sau desenul tehnic, cantitatea și aplicația unde va fi montat echipamentul. Trimite-ne aceste detalii și revenim cu disponibilitate reală și termen confirmat.`,
     limitation: 'Nu putem confirma service în perioada de garanție a producătorului și nici configurarea software a sistemelor electro-hidraulice mai complexe din gama Bosch Rexroth.',
     sources: [
+      {"title":"Industrial Hydraulics – Product Overview","url":"https://www.boschrexroth.com/en/cz/products/industrial-solutions/industrial-hydraulics/","publisher":"Bosch Rexroth","accessed":"2026-09-22"},
+      {"title":"Electric Drives and Controls","url":"https://www.boschrexroth.com/en/us/products/product-groups/electric-drives-and-controls/","publisher":"Bosch Rexroth","accessed":"2026-09-22"},
       { title: 'Company | Bosch Rexroth', url: 'https://www.boschrexroth.com/en/us/company/', publisher: 'Bosch Rexroth AG', accessed: '2026-09-22' },
       { title: 'Our History | Bosch Rexroth', url: 'https://www.boschrexroth.com/en/us/company/our-history/', publisher: 'Bosch Rexroth AG', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "CytroPac",
+        "description": "Grup hidraulic compact pentru mașini industriale"
+      },
+      {
+        "code": "CytroBox",
+        "description": "Grup hidraulic compact, generatie mai noua"
+      },
+      {
+        "code": "CytroForce",
+        "description": "Actuator liniar hidraulic pentru aplicații de presare"
+      },
+      {
+        "code": "CytroMotion",
+        "description": "Actuator hidraulic autonom pentru miscare controlata"
+      },
+      {
+        "code": "Sytronix",
+        "description": "Pompă hidraulică cu turație variabilă pentru economie de energie"
+      },
+      {
+        "code": "ABMAXX",
+        "description": "Grup hidraulic modular de mare putere"
+      },
+      {
+        "code": "ABPAC",
+        "description": "Grup hidraulic standard pentru mașini"
+      },
+      {
+        "code": "ABSKG",
+        "description": "Grup hidraulic de mica putere"
+      },
+      {
+        "code": "H4U",
+        "description": "Platforma de control pentru sisteme hidraulice"
+      },
+      {
+        "code": "OBED",
+        "description": "Vana hidraulica cu electronica de control incorporata"
+      },
+      {
+        "code": "IFB",
+        "description": "Vana hidraulica cu magistrala de camp integrata"
+      },
+      {
+        "code": "IAC",
+        "description": "Controler integrat pentru axe hidraulice"
+      },
+      {
+        "code": "WRC-4X",
+        "description": "Vana cartus directionala de mare viteza"
+      },
+      {
+        "code": "LC 8X",
+        "description": "Vana cartus cu doua cai"
+      },
+      {
+        "code": "AZx",
+        "description": "Grup de angrenaje externe pentru actionari hidraulice"
+      },
+      {
+        "code": "HSR",
+        "description": "Distribuitor hidraulic multistatie"
+      },
+      {
+        "code": "STO",
+        "description": "Distribuitor hidraulic pentru circuite de baza"
+      },
+      {
+        "code": "ctrlX AUTOMATION",
+        "description": "Platforma deschisa de automatizare industriala"
+      },
+      {
+        "code": "ctrlX CORE",
+        "description": "Unitate centrala de control din platforma ctrlX"
+      },
+      {
+        "code": "ctrlX WORKS",
+        "description": "Mediu software de inginerie pentru platforma ctrlX"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este platforma Bosch Rexroth ctrlX AUTOMATION?",
+        "a": "Este o platformă deschisă de automatizare în care controlul mașinii, aplicațiile software și conectivitatea IT rulează pe aceeași unitate hardware, numită ctrlX CORE. Programarea și configurarea se fac în mediul ctrlX WORKS, cu posibilitatea de a adăuga aplicații suplimentare ca într-un magazin de aplicații. Această abordare înlocuiește combinația clasică de PLC separat și software dedicat pentru fiecare funcție."
+      },
+      {
+        "q": "Livrează Bosch Rexroth componente hidraulice în România la comandă?",
+        "a": "Da, aducem la comandă grupuri hidraulice, vane și actuatoare din gamele CytroPac, CytroBox, Sytronix sau ABMAXX, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-6 săptămâni la comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la un grup hidraulic Bosch Rexroth?",
+        "a": "Este nevoie de debitul și presiunea de lucru dorite, tipul de pompă, putere fixă sau variabilă, volumul rezervorului și tensiunea de alimentare a motorului electric. Dacă înlocuiți un grup existent, o fotografie a plăcuței de identificare ajută la încadrarea corectă în gama ABPAC, ABSKG sau ABMAXX, în funcție de puterea instalată."
+      },
+      {
+        "q": "Ce diferență este între CytroPac și CytroBox la Bosch Rexroth?",
+        "a": "Ambele sunt grupuri hidraulice compacte gândite să inlocuiasca instalatiile clasice cu rezervor mare, însă CytroBox este o generație mai recenta, cu integrare electronică extinsă și monitorizare a stării de funcționare. CytroPac rămâne o soluție compactă consacrata pentru mașini standard. Alegerea depinde de nevoia de conectivitate digitală și de bugetul disponibil pentru echipament."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -119,8 +221,133 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
     infinitrade: `Pentru Festo nu deținem un stoc propriu care să acopere toate variantele din catalog, așa că spunem clar ce putem și ce nu putem confirma înainte de a pregăti o ofertă. Ne aprovizionăm prin canale din Uniunea Europeană; ca formulare generală a firmei, componentele din gamele curente pot ajunge din stoc în 24–72 h, fără promisiunea unui produs anume în stoc, iar configurațiile speciale sau seturile complete de automatizare vin la comandă în 2–6 săptămâni. Ca să răspundem corect avem nevoie de codul complet al produsului, cantitatea și, dacă e cazul, aplicația unde va fi montat. Scrie-ne codul Festo sau desenul tehnic și revenim cu un termen real.`,
     limitation: 'Nu putem confirma stocul permanent pentru toate variantele de cilindri și supape Festo, nici parametrizarea software a controllerelor CPX-E pentru fiecare aplicație în parte.',
     sources: [
+      {"title":"Festo Product overview 2025/26","url":"https://media.festo.com/media/4228_documentation.pdf","publisher":"Festo","accessed":"2026-09-22"},
       { title: 'Festo – Automation Technology & Training', url: 'https://www.festo.com/de/en/', publisher: 'Festo SE & Co. KG', accessed: '2026-09-22' },
       { title: 'Festo', url: 'https://en.wikipedia.org/wiki/Festo', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "DSNU",
+        "description": "Cilindru rotund standard după ISO 6432"
+      },
+      {
+        "code": "DSNU-S",
+        "description": "Cilindru rotund compact pentru montaj în spații înguste"
+      },
+      {
+        "code": "ESNU",
+        "description": "Cilindru rotund cu amortizare elastica"
+      },
+      {
+        "code": "DSBC",
+        "description": "Cilindru standard după ISO 15552, seria metrică"
+      },
+      {
+        "code": "DSBF",
+        "description": "Cilindru standard cu tija dubla"
+      },
+      {
+        "code": "DSBG",
+        "description": "Cilindru standard, varianta de inalta rezistenta"
+      },
+      {
+        "code": "DSNA",
+        "description": "Cilindru rotund cu amortizare pneumatica"
+      },
+      {
+        "code": "DSNB",
+        "description": "Cilindru rotund, varianta de baza"
+      },
+      {
+        "code": "ADN",
+        "description": "Cilindru compact pentru montaj în spații reduse"
+      },
+      {
+        "code": "ADN-S",
+        "description": "Cilindru compact, varianta scurta"
+      },
+      {
+        "code": "AEN",
+        "description": "Cilindru compact cu tija filetata"
+      },
+      {
+        "code": "AEN-S",
+        "description": "Cilindru compact scurt cu tija filetata"
+      },
+      {
+        "code": "ADN-EL",
+        "description": "Cilindru compact cu senzor electronic de pozitie"
+      },
+      {
+        "code": "CDC",
+        "description": "Cilindru compact cu profil de ghidare"
+      },
+      {
+        "code": "DZF",
+        "description": "Cilindru plat cu tija dubla"
+      },
+      {
+        "code": "DZH",
+        "description": "Cilindru plat cu tija dubla, varianta rezistenta"
+      },
+      {
+        "code": "EZH",
+        "description": "Cilindru plat compact"
+      },
+      {
+        "code": "DRVS",
+        "description": "Actuator rotativ cu paletă și amortizare"
+      },
+      {
+        "code": "DSM",
+        "description": "Actuator rotativ cu pinion și cremalieră"
+      },
+      {
+        "code": "DRRS",
+        "description": "Actuator rotativ semi-rotativ cu reglaj de unghi"
+      },
+      {
+        "code": "DRRD",
+        "description": "Actuator rotativ semi-rotativ, varianta dubla"
+      },
+      {
+        "code": "DGC-K",
+        "description": "Cilindru fără tijă cu ghidaj încorporat"
+      },
+      {
+        "code": "VTSA",
+        "description": "Terminal de vane pentru automatizare de proces"
+      },
+      {
+        "code": "VTOP",
+        "description": "Terminal de vane pentru aplicații de proces"
+      },
+      {
+        "code": "MSE6-C2M",
+        "description": "Unitate electronica de monitorizare a aerului comprimat"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc codul unui cilindru Festo, de exemplu DSBC?",
+        "a": "Prima literă arată familia constructivă: D pentru cilindru standard cu tijă, iar restul literelor indică varianta, de exemplu SBC pentru seria metrică după ISO 15552. Sufixele suplimentare, precum -S sau -EL, marchează o variantă compactă sau cu senzor electronic încorporat. Confirmarea completă a diametrului și cursei se face din fișa tehnică Festo corespunzătoare codului exact."
+      },
+      {
+        "q": "Livrează Festo componente pneumatice în România la comandă?",
+        "a": "Da, aducem la comandă cilindri, actuatoare rotative și terminale de vane din gamele DSNU, ADN, DRVS sau VTSA, după codul confirmat de client din catalogul oficial. Componentele Festo le aducem la comandă, pe baza informațiilor publice de disponibilitate ale producătorului, de regulă în 2-6 săptămâni."
+      },
+      {
+        "q": "Ce date trimit pentru o oferta la un cilindru Festo?",
+        "a": "Este nevoie de codul complet al seriei, diametrul alezajului, cursa în milimetri, tipul de amortizare și prezența sau absența senzorului de poziție. Dacă înlocuiți un cilindru existent, o fotografie a etichetei cu codul de comandă ajută la identificarea rapidă a variantei corecte din gamele DSNU, ADN sau DSBC."
+      },
+      {
+        "q": "Ce diferență este între cilindrii Festo ADN și DSNU?",
+        "a": "ADN este un cilindru compact, gândit pentru spații reduse de montaj, cu o lungime totală mai mică față de cursa disponibilă. DSNU este un cilindru rotund clasic după standardul ISO 6432, mai lung, dar cu o construcție simplă și robustă. Alegerea depinde de spațiul disponibil pe mașină și de forța necesară la cursa maximă."
+      },
+      {
+        "q": "Ce este terminalul de vane Festo VTSA?",
+        "a": "VTSA este un terminal de vane folosit pentru comanda mai multor cilindri sau actuatoare dintr-o singură unitate centralizată, reducând numărul de conexiuni pneumatice individuale. Se folosește frecvent în mașini cu multe axe pneumatice, unde gestionarea separată a fiecărei vane ar complica instalația. Configurația exactă a modulelor se stabilește pe baza numărul de actuatoare din mașină."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -186,8 +413,70 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
     infinitrade: `Pentru rulmenții și sistemele SKF nu avem date proprii de stoc în timp real, deci lucrăm cu informațiile publice disponibile de la producător și cu partenerii noștri de aprovizionare din Uniunea Europeană. Ca formulare generală a firmei, rulmenții din seriile uzuale pot fi aduși din stoc în 24–72 h, fără să garantăm un anumit reper în stoc, iar dimensiunile speciale, casele de rulmenți sau sistemele de monitorizare vin la comandă în 2–6 săptămâni. Pentru un răspuns util avem nevoie de codul complet al rulmentului, cantitatea și, dacă se poate, aplicația — turație, sarcină, mediu de lucru. Trimite-ne aceste detalii și revenim cu un termen verificat.`,
     limitation: 'Nu putem confirma că toate seriile de rulmenți SKF sunt disponibile din stoc în orice moment, nici recondiționarea sau service-ul în garanția producătorului pentru componentele critice.',
     sources: [
+      {"title":"Deep groove ball bearings | SKF","url":"https://www.skf.com/group/products/rolling-bearings/ball-bearings/deep-groove-ball-bearings","publisher":"SKF","accessed":"2026-09-22"},
+      {"title":"SKF Explorer deep groove ball bearings with RSL and RSH seals","url":"https://www.skf.com/binaries/pub12/Images/SKF%20Explorer%20deep%20groove%20ball%20bearings%20with%20RSL%20and%20RSH%20seals_6270%20EN_tcm_12-179206.pdf","publisher":"SKF","accessed":"2026-09-22"},
       { title: 'About SKF', url: 'https://www.skf.com/group/about-skf', publisher: 'SKF Group', accessed: '2026-09-22' },
       { title: 'SKF history', url: 'https://www.skf.com/group/about-skf/history', publisher: 'SKF Group', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "6203-RSL",
+        "description": "Rulment rigid cu bile, etansare cu frecare redusa"
+      },
+      {
+        "code": "6204-2RSL",
+        "description": "Rulment rigid cu bile, dublu etansat, frecare redusa"
+      },
+      {
+        "code": "6203-RSH",
+        "description": "Rulment rigid cu bile, etansare standard de contact"
+      },
+      {
+        "code": "6204-2RSH",
+        "description": "Rulment rigid cu bile, dublu etansat, contact standard"
+      },
+      {
+        "code": "SKF Explorer",
+        "description": "Gama de rulmenti rigizi cu bile de performanta ridicata"
+      },
+      {
+        "code": "60",
+        "description": "Serie de rulmenti rigizi cu bile, inel ingust"
+      },
+      {
+        "code": "62",
+        "description": "Serie de rulmenti rigizi cu bile, inel standard"
+      },
+      {
+        "code": "63",
+        "description": "Serie de rulmenti rigizi cu bile, inel lat"
+      },
+      {
+        "code": "618",
+        "description": "Serie de rulmenti cu sectiune subtire, referinta unsoare"
+      },
+      {
+        "code": "619",
+        "description": "Serie de rulmenti cu sectiune extra-subtire, referinta unsoare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum interpretez codul unui rulment SKF, de exemplu 6204-2RSH?",
+        "a": "Codul arata seria (62 inseamna rulment rigid cu bile, inel standard), diametrul interior codificat (04 corespunde la 20 mm) si tipul de etansare, unde 2RSH inseamna doua sigilii de contact pe ambele fete. Comparam codul de pe rulmentul existent sau din desenul tehnic cu structura oficiala SKF inainte de a confirma echivalentul potrivit, ca sa evitam o comanda gresita pentru un ax cu alte toleranțe."
+      },
+      {
+        "q": "Ce diferență este între seriile 62 și 63 la rulmenții SKF?",
+        "a": "Diferența principală este lățimea inelului exterior și a bilelor folosite: seria 63 are un inel mai lat decât seria 62 la același diametru interior, ceea ce îi dă o capacitate de încărcare radială mai mare. Alegerea depinde de spațiul disponibil în carcasă mașinii și de sarcina reală din aplicație, detalii pe care le cerem înainte de a pregăti o ofertă."
+      },
+      {
+        "q": "Livrați rulmenți SKF în România?",
+        "a": "Da, aducem rulmenți SKF la comandă din surse publice ale producătorului, fără date proprii de stoc afișate pe site. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de seria cerută și disponibilitatea la fabricant. Pentru o ofertă rapidă, trimiteti codul complet stanțat pe rulment sau desenul tehnic cu diametrele și tipul de etanșare necesar."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de rulmenți SKF?",
+        "a": "Cel mai rapid este să trimiteti codul stanțat pe inelul rulmentului, de exemplu 6204-2RSH, sau, dacă marcajul nu mai este vizibil, diametrul interior, diametrul exterior, lățimea și tipul de etanșare de care aveți nevoie. O fotografie clară a marcajului ajută mult la identificarea seriei corecte și scurteaza timpul de răspuns."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -254,8 +543,125 @@ Technologia Heartbeat e un game-changer. E un sistem de auto-diagnosticare care 
     infinitrade: `Pentru Endress+Hauser nu dispunem de date proprii despre stocul fiecărui model, aici preferăm să spunem clar: lucrăm din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Instrumentele din gamele curente de nivel, debit, presiune și temperatură pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar variantele certificate ATEX sau SIL, ori execuțiile speciale, se aduc la comandă în 2–6 săptămâni. Pentru o ofertă utilă avem nevoie de codul de produs sau specificația tehnică, cantitatea și aplicația de proces vizată. Scrie-ne aceste detalii, iar noi revenim cu un termen realist.`,
     limitation: 'Nu putem confirma calibrarea certificată la fața locului sau integrarea completă cu sisteme SCADA terțe pentru fiecare instalație Endress+Hauser, acestea depinzând de proiectul concret.',
     sources: [
+      {"title":"Field instruments overview","url":"https://www.endress.com/en/field-instruments-overview","publisher":"Endress+Hauser","accessed":"2026-09-22"},
       { title: 'Endress+Hauser at a glance', url: 'https://www.endress.com/en/endress-hauser-group/endresshauser-at-a-glance', publisher: 'Endress+Hauser Group', accessed: '2026-09-22' },
       { title: 'Company history', url: 'https://www.endress.com/en/endress-hauser-group/endresshauser-at-a-glance/company-history', publisher: 'Endress+Hauser Group', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Promass F 300",
+        "description": "Debitmetru masic Coriolis pentru lichide și gaze"
+      },
+      {
+        "code": "Promass U 500",
+        "description": "Debitmetru Coriolis în versiune universală pentru fluide industriale"
+      },
+      {
+        "code": "Promag W 400",
+        "description": "Debitmetru electromagnetic pentru apă și fluide conductive"
+      },
+      {
+        "code": "Prowirl F 200",
+        "description": "Debitmetru cu vortex pentru abur și gaze"
+      },
+      {
+        "code": "Picomag",
+        "description": "Debitmetru electromagnetic compact pentru aplicații de bază"
+      },
+      {
+        "code": "Dosimag",
+        "description": "Debitmetru electromagnetic dedicat aplicatiilor de dozare"
+      },
+      {
+        "code": "Dosimass",
+        "description": "Debitmetru Coriolis dedicat aplicatiilor de dozare de precizie"
+      },
+      {
+        "code": "FLOWSIC900",
+        "description": "Debitmetru ultrasonic pentru masurarea gazelor industriale"
+      },
+      {
+        "code": "Micropilot FMR10B",
+        "description": "Radar de nivel fără contact pentru rezervoare simple"
+      },
+      {
+        "code": "Micropilot FMR20B",
+        "description": "Radar de nivel fără contact, montaj universal"
+      },
+      {
+        "code": "Micropilot FMR43",
+        "description": "Radar de nivel liber pentru lichide și paste"
+      },
+      {
+        "code": "Micropilot FMR62B",
+        "description": "Radar de nivel de inalta precizie pentru lichide"
+      },
+      {
+        "code": "Levelflex FMP51",
+        "description": "Radar ghidat prin cablu pentru nivel de lichide"
+      },
+      {
+        "code": "Liquiphant FTL43",
+        "description": "Comutator de nivel cu vibratie pentru lichide"
+      },
+      {
+        "code": "Liquiphant FTL51B",
+        "description": "Comutator de nivel cu vibratie, versiune igienica"
+      },
+      {
+        "code": "FlexView FMA90",
+        "description": "Afisaj la distanta pentru senzorii de nivel"
+      },
+      {
+        "code": "Liquiline CM442",
+        "description": "Transmitator multiparametru pentru analiza lichidelor"
+      },
+      {
+        "code": "Liquiline CM42B",
+        "description": "Transmitator de baza pentru analiza lichidelor"
+      },
+      {
+        "code": "Turbimax CUS52D",
+        "description": "Senzor de turbiditate pentru apă și ape uzate"
+      },
+      {
+        "code": "Oxymax COS61D",
+        "description": "Senzor optic pentru oxigen dizolvat"
+      },
+      {
+        "code": "iTHERM TM131",
+        "description": "Termometru cu rezistenta pentru procese industriale"
+      },
+      {
+        "code": "iTHERM TMT82",
+        "description": "Transmitator de temperatura cu montaj pe cap de senzor"
+      },
+      {
+        "code": "Cerabar PMP71B",
+        "description": "Transmitator de presiune ceramic pentru procese industriale"
+      },
+      {
+        "code": "Deltabar PMD78B",
+        "description": "Transmitator de presiune diferențială pentru debit și nivel"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg între un debitmetru electromagnetic Promag și unul Coriolis Promass de la Endress Hauser?",
+        "a": "Alegerea depinde de tipul fluidului: Promag măsoară doar lichide conductive electric, în timp ce Promass Coriolis funcționează și pentru fluide neconductive, vascoase sau cu conținut de gaz, și oferă în plus densitate și concentrație. Pentru apă sau soluții apoase, Promag este de obicei soluția mai economică; pentru produse petrochimice sau alimentare complexe, recomandăm Promass."
+      },
+      {
+        "q": "Ce echivalent are un radar de nivel Micropilot mai vechi de la Endress Hauser?",
+        "a": "Pentru un Micropilot mai vechi trimitem codul complet de pe eticheta și domeniul de măsurare, iar echivalentul actual se alege după tipul de antena, presiunea de proces și materialul de contact cu produsul. Seriile FMR43 și FMR62B acoperă majoritatea aplicațiilor cu lichide, în timp ce FMR10B și FMR20B sunt variante compacte pentru rezervoare simple."
+      },
+      {
+        "q": "Livrează Endress Hauser echipamente de proces în România?",
+        "a": "Da, aducem echipamente Endress+Hauser la comandă pe bază informațiilor publice de la producător, fără gama pe raft afisat pe site. Termenul uzual este de 2-6 săptămâni la comandă, funcție de model și configurație. Pentru o ofertă corectă trimiteti codul de comandă complet sau, dacă lipsește, tipul de senzor, domeniul de măsurare și conexiunea de proces."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă de transmitatoare de presiune Cerabar?",
+        "a": "Trimiteti domeniul de presiune necesar, tipul de proces (lichid, gaz sau abur), materialul membranei în contact cu produsul, tipul de conexiune de proces și ieșirea electrică dorită, de exemplu 4-20 mA sau HART. Cu aceste date identificăm varianta Cerabar potrivită, apropiată de PMP71B sau de o altă serie din gama Endress Hauser."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -284,7 +690,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
     keyProducts: [
       {
         name: 'Manometre Mecanice și cu Glicerină',
-        description: 'Serie 111, 113, 232.50 cu conexiuni filet NPT/G, cadrane 40-250mm, presiuni -1 la 1600 bar. Umplere glicerină pentru vibrații, carcasă inox pentru medii corozive, execuție ATEX pentru zone explozive. Pentru comenzi urgente verificăm disponibilitatea reală înainte de a confirma termenul.'
+        description: 'Serie 111, 113, 232.50 cu conexiuni filet NPT/G, cadrane 40-250mm, presiuni -1 la 1600 bar. Umplere glicerină pentru vibrații, carcasă inox pentru medii corozive, execuție ATEX pentru zone explozive. Când comanda e urgentă, confirmăm întâi cu WIKA disponibilitatea reală și abia apoi termenul.'
       },
       {
         name: 'Transmițători Presiune A-10, S-20, MH-3',
@@ -325,8 +731,125 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
     infinitrade: `La instrumentele WIKA procedăm ca la toate brandurile noastre: spunem ce putem și ce nu putem confirma, fără date proprii de stoc pentru fiecare cod din catalog. Ne aprovizionăm prin canale din Uniunea Europeană; produsele din gama standard — manometre, termometre, transmițătoare uzuale — pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar execuțiile speciale sau certificatele de calibrare individuale se aduc la comandă în 2–6 săptămâni. Pentru un calcul de preț și termen avem nevoie de codul produsului, domeniul de măsurare și cantitatea dorită. Trimite-ne aceste informații și revenim cu o ofertă verificată.`,
     limitation: 'Nu putem confirma că toate variantele de manometre și transmițătoare WIKA sunt disponibile din stoc în orice moment, nici serviciile de calibrare certificată pentru fiecare tip de instrument din gamă.',
     sources: [
+      {"title":"Pressure measurement products","url":"https://www.wika.com/en-en/pressure_measurement.WIKA","publisher":"WIKA","accessed":"2026-09-22"},
       { title: 'WIKA Group', url: 'https://www.wika.com/en-en/wika_group.WIKA', publisher: 'WIKA Alexander Wiegand SE & Co. KG', accessed: '2026-09-22' },
       { title: 'WIKA History', url: 'https://www.wika.com/en-en/history.WIKA', publisher: 'WIKA Alexander Wiegand SE & Co. KG', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "113.13",
+        "description": "Manometru cu tub Bourdon pentru presiune hidraulică"
+      },
+      {
+        "code": "213.53",
+        "description": "Manometru cu glicerină pentru vibrații și pulsații"
+      },
+      {
+        "code": "312.20",
+        "description": "Manometru de test pentru verificari de precizie"
+      },
+      {
+        "code": "432.50",
+        "description": "Manometru cu membrana pentru medii vascoase"
+      },
+      {
+        "code": "433.50",
+        "description": "Manometru cu membrana, versiune industriala rezistenta"
+      },
+      {
+        "code": "532.52",
+        "description": "Manometru pentru presiune absolută, aplicații de laborator"
+      },
+      {
+        "code": "532.53",
+        "description": "Manometru pentru presiune absolută, montaj de proces"
+      },
+      {
+        "code": "532.54",
+        "description": "Manometru pentru presiune absolută, versiune extinsă"
+      },
+      {
+        "code": "910.10",
+        "description": "Robinet de izolare pentru manometre"
+      },
+      {
+        "code": "910.11",
+        "description": "Ventil de izolare pentru linia de presiune"
+      },
+      {
+        "code": "910.12",
+        "description": "Amortizor de pulsatii pentru manometre"
+      },
+      {
+        "code": "910.14",
+        "description": "Adaptor de montaj pentru manometre"
+      },
+      {
+        "code": "910.15",
+        "description": "Sifon de protectie pentru manometre pe abur"
+      },
+      {
+        "code": "IV1",
+        "description": "Ventil cu ac pentru instrumentatie de proces"
+      },
+      {
+        "code": "IV2",
+        "description": "Ventil bloc și golire pentru instrumentație"
+      },
+      {
+        "code": "IV30",
+        "description": "Manifold cu 2 căi pentru transmitatoare de presiune"
+      },
+      {
+        "code": "IV31",
+        "description": "Manifold cu 2 cai, versiune compacta"
+      },
+      {
+        "code": "IV50",
+        "description": "Manifold cu 5 căi pentru presiune diferențială"
+      },
+      {
+        "code": "IV51",
+        "description": "Manifold cu 5 cai, versiune compacta"
+      },
+      {
+        "code": "IVM",
+        "description": "Monoflansa pentru montaj direct pe proces"
+      },
+      {
+        "code": "MW",
+        "description": "Presostat cu membrana pentru control de proces"
+      },
+      {
+        "code": "DW10",
+        "description": "Presostat diferential pentru control de proces"
+      },
+      {
+        "code": "PCA",
+        "description": "Presostat mecanic pentru aplicații industriale generale"
+      },
+      {
+        "code": "MFT",
+        "description": "Termomanometru combinat pentru temperatură și presiune"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg un manometru Wika potrivit pentru vibrații în instalație?",
+        "a": "Pentru puncte cu vibrații sau pulsații de presiune, seria 213.53 cu umplere de glicerină reduce uzura acului indicator și prelungește durata de viață a manometrului Wika. Verificam domeniul de presiune necesar, diametrul carcasei și tipul racordului de proces înainte de a recomanda varianta exactă."
+      },
+      {
+        "q": "Ce diferență este între un manometru Wika cu tub Bourdon și unul cu membrană?",
+        "a": "Manometrele cu tub Bourdon, precum seria 113.13, sunt potrivite pentru presiuni medii și mari în medii curate, iar cele cu membrană, precum 432.50 sau 433.50, sunt gândite pentru medii vascoase, cu particule sau agresive chimic, unde tubul Bourdon s-ar înfunda rapid. Alegerea depinde de natura mediului măsurat."
+      },
+      {
+        "q": "Livrează Wika instrumente de măsură în România?",
+        "a": "Da, aducem instrumentele Wika la comandă pe bază informațiilor publice ale producătorului, fără a ține evidență unui stoc propriu pe site. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de tip și domeniul de presiune cerut, iar pentru variante speciale poate dura mai mult."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de manifold Wika, de exemplu IV30?",
+        "a": "Precizati numărul de căi (2, 3 sau 5), presiunea maximă de lucru, materialul de construcție necesar pentru mediul de proces și tipul de racord către transmitator, de exemplu cu flanșă sau cu filet. Aceste detalii ne permit să confirmăm varianta corectă din familia IV a manifold-urilor Wika."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',

@@ -72,11 +72,96 @@ Pentru clienții din România, avantajul Xylem este acoperirea largă de aplica�
     ],
     infinitrade: `Aducem echipamente Xylem la comandă din Uniunea Europeană, fără date proprii despre stocul fiecărui depozit al producătorului — lucrăm doar cu ce confirmă paginile oficiale ale grupului la momentul ofertei. Pentru gamele Lowara, Flygt și Goulds, deja prezente separat în oferta noastră, redirecționăm către paginile lor dedicate; pentru Godwin, Bell & Gossett, Wedeco sau YSI aducem echipamente sau piese la comandă, cu un termen orientativ de 2-6 săptămâni. Clientul trebuie să ne transmită aplicația exactă, debitul, presiunea sau parametrii de măsurat, după caz. Nu confirmăm disponibilitate imediată pentru fiecare referință din portofoliul Xylem.`,
     limitation: "Nu putem confirma configurarea sau service-ul pentru brandurile Lowara, Flygt și Goulds, care au pagină proprie pe site, și nu avem evidență proprie de disponibilitate pentru niciun brand din portofoliul Xylem.",
+    productCodes: [
+      {
+        "code": "Godwin",
+        "description": "Pompe autoamorsante pentru evacuare de șantier"
+      },
+      {
+        "code": "Bell & Gossett",
+        "description": "Pompe și schimbătoare de căldură pentru HVAC"
+      },
+      {
+        "code": "Wedeco",
+        "description": "Sisteme de tratare a apei cu UV și ozon"
+      },
+      {
+        "code": "YSI",
+        "description": "Instrumente pentru monitorizarea calității apei"
+      },
+      {
+        "code": "Flygt",
+        "description": "Pompe submersibile pentru ape uzate"
+      },
+      {
+        "code": "Goulds Water Technology",
+        "description": "Pompe pentru aplicații rezidențiale și comerciale"
+      },
+      {
+        "code": "Jabsco",
+        "description": "Pompe pentru aplicații marine și mobile"
+      },
+      {
+        "code": "Lowara",
+        "description": "Pompe centrifugale și multietajate industriale"
+      },
+      {
+        "code": "Sanitaire",
+        "description": "Sisteme de aerare pentru tratarea apelor uzate"
+      },
+      {
+        "code": "Sensus",
+        "description": "Contoare de apă și sisteme de citire la distanță"
+      },
+      {
+        "code": "Smith-Blair",
+        "description": "Coliere de reparație pentru conducte de apă"
+      },
+      {
+        "code": "Wallace & Tiernan",
+        "description": "Sisteme de dozare a clorului pentru tratarea apei"
+      },
+      {
+        "code": "McDonnell & Miller",
+        "description": "Controlere de nivel pentru cazane și boilere"
+      },
+      {
+        "code": "Leopold",
+        "description": "Sisteme de filtrare pentru tratarea apei"
+      },
+      {
+        "code": "ADI Systems",
+        "description": "Sisteme biologice de tratare a apelor industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce marcă Xylem aleg pentru evacuarea apei de pe un șantier?",
+        "a": "Godwin este marca Xylem dedicată pompelor autoamorsante folosite pentru evacuarea temporară a apei de pe șantiere sau din excavații. Alegerea modelului exact depinde de debitul necesar, de înălțimea de aspirație și de conținutul de solide al apei evacuate."
+      },
+      {
+        "q": "Ce este marca Xylem Wedeco?",
+        "a": "Este divizia dedicată tratării apei prin ultraviolete și ozon, folosită pentru dezinfecția apei potabile, a apelor uzate sau a apei din piscine, ca alternativă sau completare la dezinfecția clasică cu clor. Alegerea sistemului depinde de debitul de tratat și de calitatea apei brute."
+      },
+      {
+        "q": "Livrați echipamente Xylem în România?",
+        "a": "Da, aducem la comandă echipamente din portofoliul Xylem pe baza paginilor publice ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de marcă și de model. Recomandăm precizarea mărcii și seriei exacte înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă din portofoliul Xylem?",
+        "a": "Este util să precizați marca dorită (de exemplu Lowara, Flygt sau Godwin), debitul și presiunea necesare, precum și tipul fluidului vehiculat. Aceste detalii permit alegerea corectă a echipamentului din portofoliul extins Xylem."
+      },
+      {
+        "q": "Ce este marca Xylem Sensus?",
+        "a": "Este divizia dedicată contoarelor de apă și sistemelor de citire la distanță, folosită de companiile de utilități pentru facturarea consumului și pentru detectarea pierderilor din rețelele de distribuție a apei."
+      }
+    ],
     evidenceClass: "transactional",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products & Services","url":"https://www.xylem.com/en-us/products--services/","publisher":"Xylem","accessed":"2026-09-22"},
       { title: "Xylem homepage", url: "https://www.xylem.com/en-us/", publisher: "Xylem Inc.", accessed: "2026-09-22" },
       { title: "Xylem Global Brands", url: "https://www.xylem.com/en-in/brands/", publisher: "Xylem Inc.", accessed: "2026-09-22" }
     ],
@@ -112,11 +197,84 @@ Pentru fermieri, instalatori și distribuitori din România, Pedrollo rămâne o
     ],
     infinitrade: `Pompele Pedrollo ajung la comandă prin distribuitori din Uniunea Europeană, fără date proprii despre stocul fabricii din San Bonifacio — spunem punctual ce putem confirma din cataloagele publice ale producătorului. Termenul orientativ de livrare la comandă este de 2-6 săptămâni, în funcție de model și de partenerul din UE prin care aducem produsul. Pentru o ofertă corectă avem nevoie de diametrul forajului sau al conductei, adâncimea de aspirație și debitul dorit. Nu confirmăm disponibilitate imediată pentru fiecare model din gamă și recomandăm verificarea termenului exact înainte de plasarea comenzii.`,
     limitation: "Nu oferim service în perioada de garanție a producătorului și nu putem confirma disponibilitatea pe piața locală italiană a fiecărui model din gamă.",
+    productCodes: [
+      {
+        "code": "PKm 60",
+        "description": "Pompă de suprafață cu rotor periferic, debit mic"
+      },
+      {
+        "code": "PK",
+        "description": "Pompă de suprafață cu rotor periferic, uz general"
+      },
+      {
+        "code": "PQ",
+        "description": "Pompă cu rotor periferic pentru presiune ridicată"
+      },
+      {
+        "code": "PKS",
+        "description": "Pompă autoamorsantă cu rotor periferic"
+      },
+      {
+        "code": "CKR",
+        "description": "Pompă autoamorsantă cu inel lichid"
+      },
+      {
+        "code": "CK",
+        "description": "Pompă autoamorsantă cu inel lichid, uz general"
+      },
+      {
+        "code": "PQ-IND",
+        "description": "Pompă cu rotor periferic pentru aplicații industriale"
+      },
+      {
+        "code": "PQ-Bs",
+        "description": "Pompă cu rotor periferic cu corp din alamă"
+      },
+      {
+        "code": "PQ 81-PPS",
+        "description": "Pompă cu rotor periferic cu corp din PPS rezistent chimic"
+      },
+      {
+        "code": "PQA",
+        "description": "Pompă cu rotor periferic cu corp din PPS, variantă compactă"
+      },
+      {
+        "code": "PV",
+        "description": "Pompă cu rotor periferic cu corp din alamă, gamă extinsă"
+      },
+      {
+        "code": "PQ 3000",
+        "description": "Pompă cu rotor periferic de capacitate mărită"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă Pedrollo aleg pentru presurizarea apei într-o casă?",
+        "a": "Seria PKm sau PK, cu rotor periferic, este alegerea tipică pentru presurizare casnică, oferind un raport bun între presiune și debit la putere redusă. Pentru medii chimice ușor agresive, varianta cu corp din PPS, precum PQ 81-PPS, este mai potrivită decât cea din alamă."
+      },
+      {
+        "q": "Ce diferență este între pompele Pedrollo CK și CKR?",
+        "a": "Ambele sunt pompe autoamorsante cu inel lichid, dar CKR este varianta de uz general, iar CK acoperă o gamă similară de aplicații cu mici diferențe constructive de debit și înălțime de refulare. Alegerea exactă depinde de adâncimea de aspirație și de debitul necesar."
+      },
+      {
+        "q": "Livrați pompe Pedrollo în România?",
+        "a": "Da, aducem la comandă pompe Pedrollo pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. De regulă, livrarea durează 2-6 săptămâni de la comandă, în funcție de model. Recomandăm confirmarea codului exact înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă Pedrollo?",
+        "a": "Este util să precizați debitul necesar, înălțimea de pompare (presiunea), adâncimea de aspirație și dacă apa conține impurități. Aceste detalii permit alegerea corectă între seriile PK, PQ sau CK din gama Pedrollo."
+      },
+      {
+        "q": "Ce este pompa Pedrollo seria PQ-Bs?",
+        "a": "Este o pompă cu rotor periferic cu corp din alamă, recomandată pentru aplicații unde rezistența la coroziune a corpului pompei este importantă, de exemplu la alimentarea cu apă potabilă din surse cu conținut mineral ridicat."
+      }
+    ],
     evidenceClass: "zero-evidence",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://www.pedrollo.com/en/products/","publisher":"Pedrollo","accessed":"2026-09-22"},
       { title: "Water management company", url: "https://www.pedrollo.com/public/company/", publisher: "Pedrollo S.p.A.", accessed: "2026-09-22" },
       { title: "History", url: "https://www.pedrollo.com/en/history/", publisher: "Pedrollo S.p.A.", accessed: "2026-09-22" }
     ],
@@ -193,11 +351,80 @@ Pentru instalatori și proiectanți de instalații termice din România, Caleffi
     ],
     infinitrade: `Componentele Caleffi le aducem la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul din Fontaneto d'Agogna — lucrăm cu ce confirmă cataloagele publice ale producătorului. Termenul orientativ pentru o comandă este de 2-6 săptămâni, în funcție de disponibilitatea la partenerii din UE. Pentru o ofertă corectă avem nevoie de tipul instalației, diametrul racordurilor și debitul de proiectare al circuitului vizat. Nu confirmăm disponibilitate imediată pentru fiecare cod de produs din cele 13 categorii ale gamei.`,
     limitation: "Nu putem confirma disponibilitatea fiecărei variante de robinet din gama Caleffi și nu oferim proiectare de instalație, doar componentele individuale.",
+    productCodes: [
+      {
+        "code": "SEP4",
+        "description": "Separator hidraulic 4 în 1 pentru circuite hidronice"
+      },
+      {
+        "code": "Hydro Separator",
+        "description": "Separator hidraulic pentru decuplarea circuitelor"
+      },
+      {
+        "code": "HydroCal",
+        "description": "Separator hidraulic cu flanșă ANSI"
+      },
+      {
+        "code": "QuickSetter+",
+        "description": "Robinet de echilibrare statică cu funcții extinse"
+      },
+      {
+        "code": "QuickSetter",
+        "description": "Robinet de echilibrare statică pentru hidronice"
+      },
+      {
+        "code": "Flo-Set",
+        "description": "Robinet de echilibrare statică compact"
+      },
+      {
+        "code": "FlowCal",
+        "description": "Robinet de echilibrare dinamică cu corp Y"
+      },
+      {
+        "code": "FlowCal+",
+        "description": "Robinet de echilibrare dinamică cu corp Y, variantă extinsă"
+      },
+      {
+        "code": "FlowCal Compact",
+        "description": "Robinet de echilibrare dinamică compact"
+      },
+      {
+        "code": "ThermoSetter",
+        "description": "Robinet de echilibrare termică pentru circuite hidronice"
+      },
+      {
+        "code": "ThermoSetter Compact",
+        "description": "Robinet de echilibrare termică, variantă compactă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce separator Caleffi aleg pentru decuplarea circuitelor unei centrale termice?",
+        "a": "SEP4 este un separator hidraulic 4-în-1, care combină funcția de separare hidraulică cu eliminarea aerului, a impurităților și, în unele variante, filtrare magnetică. Pentru instalații mai simple, un Hydro Separator standard poate fi suficient."
+      },
+      {
+        "q": "Ce diferență este între robinetele Caleffi FlowCal și QuickSetter?",
+        "a": "FlowCal este un robinet de echilibrare dinamică, care menține un debit constant indiferent de variațiile de presiune din rețea. QuickSetter este un robinet de echilibrare statică, unde debitul se reglează manual o singură dată, la punerea în funcțiune a instalației."
+      },
+      {
+        "q": "Livrați robinete și separatoare Caleffi în România?",
+        "a": "Da, aducem la comandă produse Caleffi pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de diametrul necesar. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de separator hidraulic Caleffi?",
+        "a": "Este util să precizați debitul total al instalației, diametrul conexiunilor și tipul de flanșă necesar (union sau ANSI). Aceste detalii permit alegerea corectă între seriile SEP4, Hydro Separator sau HydroCal din gama Caleffi."
+      },
+      {
+        "q": "Ce este robinetul Caleffi ThermoSetter?",
+        "a": "Este un robinet de echilibrare termică, folosit pentru menținerea unei temperaturi constante pe un circuit hidronic, adesea în instalații de recirculare a apei calde menajere, unde temperatura trebuie controlată la fiecare punct de consum."
+      }
+    ],
     evidenceClass: "gsc-only",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Balancing Valves","url":"https://www.caleffi.com/en-us/products/balancing-valves","publisher":"Caleffi","accessed":"2026-09-22"},
       { title: "Caleffi Hydronic Solutions", url: "https://www.caleffi.com/", publisher: "Caleffi S.p.a.", accessed: "2026-09-22" },
       { title: "Products", url: "https://www.caleffi.com/en-us/products", publisher: "Caleffi S.p.a.", accessed: "2026-09-22" },
       { title: "Headquarters", url: "https://www.caleffi.com/en-us/contacts/headquarters", publisher: "Caleffi S.p.a.", accessed: "2026-09-22" }
@@ -355,11 +582,89 @@ Pentru instalații industriale din România cu pompe sau compresoare de putere m
     ],
     infinitrade: `Motoarele industriale Nidec ajung la comandă prin canale de distribuție din Uniunea Europeană, fără date proprii despre stocul uzinelor producătorului — spunem clar ce putem confirma din documentația publică a seriei TITAN. Termenul orientativ de livrare la comandă este de 2-6 săptămâni, în funcție de puterea și configurația motorului. Pentru o ofertă corectă avem nevoie de puterea, turația, tensiunea de alimentare și standardul de montaj cerut de utilajul acționat. Nu confirmăm disponibilitate imediată pentru motoarele de putere foarte mare sau pentru configurațiile API 547.`,
     limitation: "Nu putem confirma disponibilitatea locală a motoarelor de putere foarte mare și nu oferim suport pentru integrarea electronică de control asociată.",
+    productCodes: [
+      {
+        "code": "TITAN 449 WPII",
+        "description": "Motor vertical protejat la intemperii, până la 450 CP"
+      },
+      {
+        "code": "TITAN 5812",
+        "description": "Motor vertical cu ramă din fontă"
+      },
+      {
+        "code": "TITAN 5813",
+        "description": "Motor vertical cu ramă din fontă, variantă extinsă"
+      },
+      {
+        "code": "TITAN 6813",
+        "description": "Motor vertical cu carcasă monobloc din fontă"
+      },
+      {
+        "code": "TITAN 841",
+        "description": "Motor orizontal conform standardului IEEE 841"
+      },
+      {
+        "code": "TITAN 5000",
+        "description": "Motor orizontal cu montaj în cinci poziții"
+      },
+      {
+        "code": "TITAN 5800",
+        "description": "Motor orizontal închis, răcit cu ventilator"
+      },
+      {
+        "code": "Definite Purpose Motors",
+        "description": "Motoare electrice pentru aplicații dedicate"
+      },
+      {
+        "code": "Hazardous Location Motors",
+        "description": "Motoare electrice pentru zone cu risc de explozie"
+      },
+      {
+        "code": "IEC Motors",
+        "description": "Motoare electrice conforme standardului IEC"
+      },
+      {
+        "code": "NEMA Motors",
+        "description": "Motoare electrice conforme standardului NEMA"
+      },
+      {
+        "code": "Severe Duty Motors",
+        "description": "Motoare electrice pentru condiții de exploatare grele"
+      },
+      {
+        "code": "Variable Speed Motors",
+        "description": "Motoare electrice pentru acționare cu turație variabilă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce motor Nidec aleg pentru o pompă verticală de mare putere?",
+        "a": "Familia TITAN, cu variante precum TITAN 449 WPII sau TITAN 5000, este dedicată motoarelor verticale și orizontale de putere mare, folosite frecvent la pomparea apei sau la aplicații industriale grele. Alegerea exactă depinde de puterea necesară și de poziția de montaj."
+      },
+      {
+        "q": "Ce este standardul IEEE 841 la motoarele Nidec TITAN 841?",
+        "a": "Este un standard industrial care impune cerințe stricte de fiabilitate și durată de viață pentru motoarele electrice folosite în industria petrolieră și chimică. Motoarele TITAN 841 sunt construite pentru a depăși aceste cerințe, oferind o durată de funcționare extinsă între revizii."
+      },
+      {
+        "q": "Livrați motoare electrice Nidec în România?",
+        "a": "Da, aducem la comandă motoare Nidec pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de putere și de configurație. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de motor electric Nidec?",
+        "a": "Este util să precizați puterea necesară, turația, tensiunea de alimentare și poziția de montaj (orizontală sau verticală). Dacă aplicația este în zonă cu risc de explozie, este necesar să menționați și clasificarea zonei respective."
+      },
+      {
+        "q": "Ce diferență este între motoarele Nidec NEMA și IEC?",
+        "a": "Motoarele NEMA respectă standardele nord-americane de dimensiuni și performanță, în timp ce motoarele IEC respectă standardele europene și internaționale. Alegerea depinde de standardul folosit de restul echipamentului din instalație, pentru compatibilitate mecanică și electrică."
+      }
+    ],
     evidenceClass: "history-only",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"AC Motors","url":"https://acim.nidec.com/en/motors/usmotors/Products-And-Services/AC-Motors","publisher":"Nidec (US Motors)","accessed":"2026-09-22"},
+      {"title":"Large AC TITAN","url":"https://acim.nidec.com/en/motors/usmotors/Products-And-Services/AC-Motors/Large-AC-TITAN","publisher":"Nidec (US Motors)","accessed":"2026-09-22"},
       { title: "History", url: "https://www.nidec.com/en/corporate/about/history/", publisher: "Nidec Corporation", accessed: "2026-09-22" },
       { title: "Large AC TITAN", url: "https://acim.nidec.com/en/motors/usmotors/Products-And-Services/AC-Motors/Large-AC-TITAN", publisher: "Nidec Motor Corporation", accessed: "2026-09-22" }
     ],
@@ -395,11 +700,76 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
     ],
     infinitrade: `Compresoarele Atlas Copco le aducem la comandă prin rețeaua europeană a producătorului, fără date proprii despre stocul fiecărei fabrici — spunem clar ce putem confirma din fișele tehnice publice ale seriei GA. Termenul orientativ de livrare la comandă este de 2-6 săptămâni, în funcție de putere și de opțiunile alese (uscător integrat, variator de turație). Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și dacă instalația cere aer fără ulei. Nu confirmăm disponibilitate imediată pentru fiecare variantă de putere sau pentru compresoarele de gaz de proces.`,
     limitation: "Nu oferim proiectare de rețea de aer comprimat completă și nu putem confirma stocuri locale pentru fiecare variantă de putere din gama GA.",
+    productCodes: [
+      {
+        "code": "GA 30+",
+        "description": "Compresor cu șurub cu injecție de ulei, gamă compactă"
+      },
+      {
+        "code": "GA 30-90",
+        "description": "Compresor cu șurub cu injecție de ulei"
+      },
+      {
+        "code": "GA 37-90",
+        "description": "Compresor cu șurub cu injecție de ulei, gamă medie"
+      },
+      {
+        "code": "GA 45",
+        "description": "Compresor cu șurub cu injecție de ulei"
+      },
+      {
+        "code": "GA 55",
+        "description": "Compresor cu șurub cu injecție de ulei, putere mărită"
+      },
+      {
+        "code": "GA 55-90",
+        "description": "Compresor cu șurub cu injecție de ulei, gamă extinsă"
+      },
+      {
+        "code": "GA 75",
+        "description": "Compresor cu șurub cu injecție de ulei, putere mare"
+      },
+      {
+        "code": "GA 90",
+        "description": "Compresor cu șurub cu injecție de ulei, putere maximă din gamă"
+      },
+      {
+        "code": "GA 37-110 VSD+",
+        "description": "Compresor cu șurub cu turație variabilă"
+      },
+      {
+        "code": "GA 160 VSD",
+        "description": "Compresor cu șurub cu turație variabilă, capacitate mare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce compresor Atlas Copco aleg pentru o hală de producție de dimensiuni medii?",
+        "a": "Seria GA 37-90 acoperă necesarul tipic al unei hale de dimensiuni medii, oferind un echilibru bun între debitul de aer și consumul energetic. Pentru un consum variabil pe parcursul zilei, o variantă VSD+ reduce costurile prin adaptarea turației la cererea reală de aer."
+      },
+      {
+        "q": "Ce înseamnă VSD la compresoarele Atlas Copco GA?",
+        "a": "VSD înseamnă turație variabilă a motorului, care ajustează automat viteza compresorului în funcție de consumul real de aer comprimat din instalație. Aceasta reduce consumul de energie față de un compresor cu turație fixă, mai ales acolo unde cererea de aer variază mult pe parcursul zilei."
+      },
+      {
+        "q": "Livrați compresoare Atlas Copco în România?",
+        "a": "Da, aducem la comandă compresoare Atlas Copco pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Livrarea durează de obicei 2-6 săptămâni de la comandă, în funcție de model și de accesoriile alese. Recomandăm confirmarea puterii necesare înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de compresor Atlas Copco GA?",
+        "a": "Este util să precizați debitul de aer necesar (l/min sau m³/min), presiunea de lucru dorită și dacă instalația necesită variantă cu turație variabilă. Aceste detalii permit alegerea corectă între modelele din seria GA, de la GA 30+ până la GA 160 VSD."
+      },
+      {
+        "q": "Ce diferență este între compresoarele Atlas Copco GA 55 și GA 90?",
+        "a": "Diferența principală este puterea instalată și debitul de aer livrat, GA 90 acoperind un necesar mai mare decât GA 55 la aceeași presiune de lucru. Alegerea corectă se face în funcție de consumul total de aer al tuturor echipamentelor pneumatice din hală."
+      }
+    ],
     evidenceClass: "gsc-only",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"GA Screw Compressor","url":"https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-screw-compressor","publisher":"Atlas Copco","accessed":"2026-09-22"},
       { title: "Atlas Copco USA", url: "https://www.atlascopco.com/en-us/", publisher: "Atlas Copco", accessed: "2026-09-22" },
       { title: "GA 37-90 oil-injected screw compressor", url: "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-screw-compressor", publisher: "Atlas Copco", accessed: "2026-09-22" },
       { title: "Atlas Copco", url: "https://en.wikipedia.org/wiki/Atlas_Copco", publisher: "Wikipedia", accessed: "2026-09-22" }
@@ -437,11 +807,89 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
     ],
     infinitrade: `Compresoarele Kaeser ajung la comandă prin distribuția europeană a producătorului german, fără date proprii despre stocul din Coburg — lucrăm cu ce confirmă cataloagele tehnice publice ale seriilor ASD, BSD și CSD. Termenul orientativ de livrare la comandă este de 2-6 săptămâni, în funcție de putere și de opțiunile alese (uscător, variator de turație, recuperare de căldură). Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și dacă instalația cere recuperare de căldură. Nu confirmăm disponibilitate imediată pentru compresoarele de putere mare.`,
     limitation: "Nu oferim proiectare de sistem de recuperare a căldurii și nu putem confirma stocuri locale pentru compresoarele de peste 110 kW.",
+    productCodes: [
+      {
+        "code": "CSD",
+        "description": "Compresor cu șurub Kaeser cu injecție de ulei, clasa medie"
+      },
+      {
+        "code": "CSDX",
+        "description": "Compresor cu șurub cu convertizor de frecvență"
+      },
+      {
+        "code": "CSD T",
+        "description": "Compresor cu șurub cu uscător frigorific integrat"
+      },
+      {
+        "code": "CSD SFC",
+        "description": "Compresor cu șurub cu acționare cu turație variabilă"
+      },
+      {
+        "code": "CSD T SFC",
+        "description": "Compresor cu șurub cu uscător și turație variabilă"
+      },
+      {
+        "code": "ASD",
+        "description": "Compresor cu șurub Kaeser cu injecție de ulei, clasa medie"
+      },
+      {
+        "code": "BSD",
+        "description": "Compresor cu șurub Kaeser cu injecție de ulei, putere superioară"
+      },
+      {
+        "code": "CSG-2",
+        "description": "Compresor cu șurub fără ulei, răcit cu aer"
+      },
+      {
+        "code": "DSG-2",
+        "description": "Compresor cu șurub fără ulei, gamă extinsă"
+      },
+      {
+        "code": "ASV 61",
+        "description": "Pompă de vid cu șurub rotativ"
+      },
+      {
+        "code": "SECOTEC",
+        "description": "Uscător frigorific pentru economie de energie"
+      },
+      {
+        "code": "KRYOSEC",
+        "description": "Uscător frigorific compact"
+      },
+      {
+        "code": "SIGMA Profile",
+        "description": "Profil de rotor patentat pentru eficiență de compresie"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce compresor Kaeser aleg pentru o hală industrială de dimensiuni medii?",
+        "a": "Seria CSD, cu variante de putere între 18,5 și 110 kW, este alegerea tipică pentru hale industriale de dimensiuni medii, oferind un raport bun între debit de aer și consum energetic. Pentru un necesar de aer variabil, varianta CSD SFC cu turație variabilă reduce costurile energetice."
+      },
+      {
+        "q": "Ce diferență este între compresoarele Kaeser CSD și CSG-2?",
+        "a": "CSD este un compresor cu injecție de ulei, potrivit pentru majoritatea aplicațiilor industriale generale. CSG-2 este un compresor fără ulei, folosit acolo unde aerul comprimat trebuie să fie complet lipsit de urme de ulei, de exemplu în industria alimentară sau farmaceutică."
+      },
+      {
+        "q": "Livrați compresoare Kaeser în România?",
+        "a": "Da, aducem la comandă compresoare Kaeser pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Așteptați un termen de livrare de 2-6 săptămâni de la comandă, în funcție de model și de dotările alese. Recomandăm confirmarea puterii necesare înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de compresor Kaeser?",
+        "a": "Este util să precizați debitul de aer necesar, presiunea de lucru dorită și dacă instalația necesită uscător de aer integrat sau turație variabilă. Aceste detalii permit alegerea corectă între seriile CSD, ASD sau BSD din gama Kaeser."
+      },
+      {
+        "q": "Ce este uscătorul frigorific Kaeser SECOTEC?",
+        "a": "Este un uscător frigorific folosit pentru eliminarea umidității din aerul comprimat, montat de obicei imediat după compresor, pentru a proteja instalația pneumatică de coroziune și de acumularea de condens pe conducte."
+      }
+    ],
     evidenceClass: "transactional",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Mid-sized rotary screw compressors from 18 to 110 kW","url":"https://www.kaeser.com/int-en/products/rotary-screw-compressors/rotary-screw-compressors-with-fluid-cooling/mid-sized-rotary-screw-compressors-from-18-to-110-kw","publisher":"Kaeser","accessed":"2026-09-22"},
+      {"title":"Rotary Screw Compressors","url":"https://www.kaeser.com/int-en/products/rotary-screw-compressors/","publisher":"Kaeser","accessed":"2026-09-22"},
       { title: "Company", url: "https://www.kaeser.com/int-en/company/", publisher: "Kaeser Kompressoren", accessed: "2026-09-22" },
       { title: "Mid-sized rotary screw compressors up to 110 kW", url: "https://www.kaeser.com/int-en/products/rotary-screw-compressors/rotary-screw-compressors-with-fluid-cooling/mid-sized-rotary-screw-compressors-from-18-to-110-kw", publisher: "Kaeser Kompressoren", accessed: "2026-09-22" }
     ],

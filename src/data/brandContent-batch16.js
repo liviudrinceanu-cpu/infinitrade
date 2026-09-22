@@ -59,10 +59,88 @@ Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru 
     ],
     infinitrade: "La Infinitrade lucrăm cu informațiile publice disponibile despre Trelleborg și cu ce putem confirma direct la fiecare cerere; nu avem un inventar propriu verificat pentru toată gama de o-ring-uri și garnituri radiale. Aducem produsele Trelleborg la comandă prin canale de aprovizionare din Uniunea Europeană, iar pentru materialele și dimensiunile pe care le avem deja confirmate lucrăm de regulă în 24-72 h din stoc; pentru restul gamei, calculăm 2-6 săptămâni la comandă. Ca să pregătim o ofertă corectă, avem nevoie de codul produsului sau dimensiunea exactă, materialul dorit (NBR, FKM, EPDM, PTFE), cantitatea și aplicația în care se montează garnitura. Nu comunicăm prețuri fără o cerere punctuală, iar pentru piese critice recomandăm confirmarea specificațiilor tehnice direct cu documentația producătorului.",
     sources: [
+      {"title":"Seals - Products and Solutions","url":"https://www.trelleborg.com/en/seals/products-and-solutions","publisher":"Trelleborg","accessed":"2026-09-22"},
+      {"title":"O-Rings","url":"https://www.trelleborg.com/en/seals/products-and-solutions/o-rings","publisher":"Trelleborg","accessed":"2026-09-22"},
       { title: "About us | Trelleborg Group", url: "https://www.trelleborg.com/en/about-us", publisher: "Trelleborg Group", accessed: "2026-09-22" },
       { title: "History | Trelleborg Group", url: "https://www.trelleborg.com/en/about-us/history", publisher: "Trelleborg Group", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma disponibilitatea exactă a fiecărei dimensiuni de o-ring sau garnitură radială înainte de o verificare punctuală, și nu oferim service în perioada de garanție a producătorului.",
+    productCodes: [
+      {
+        "code": "Elastomeric O-Ring",
+        "description": "Garnitură O-ring din elastomer standard"
+      },
+      {
+        "code": "FEP O-Ring",
+        "description": "Garnitură O-ring cu înveliș fluoropolimeric FEP"
+      },
+      {
+        "code": "FlexiMold O-Ring",
+        "description": "O-ring de gabarit mare, fabricat la comandă"
+      },
+      {
+        "code": "Isolast FFKM O-Ring",
+        "description": "Garnitură din perfluoroelastomer pentru chimicale agresive"
+      },
+      {
+        "code": "Polyurethane O-Ring",
+        "description": "Garnitură O-ring din poliuretan rezistent la uzură"
+      },
+      {
+        "code": "PTFE O-Ring",
+        "description": "Garnitură O-ring din PTFE cu miez elastomeric"
+      },
+      {
+        "code": "Turcon",
+        "description": "Material tehnic pe bază de PTFE pentru garnituri de mișcare"
+      },
+      {
+        "code": "Wills Rings",
+        "description": "O-ring metalic pentru etanșări la temperatură extremă"
+      },
+      {
+        "code": "Rubore Seals",
+        "description": "Garnitură compozită metal-elastomer pentru arbori"
+      },
+      {
+        "code": "Rubore Shims",
+        "description": "Șaibă de etanșare compozită pentru arbori rotativi"
+      },
+      {
+        "code": "Rubore Cap Seal",
+        "description": "Capac de etanșare compozit pentru capete de arbore"
+      },
+      {
+        "code": "HMF FlatSeals",
+        "description": "Garnitură plată pentru flanșe industriale"
+      },
+      {
+        "code": "Orkot",
+        "description": "Material compozit pentru lagăre marine și industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce material Trelleborg aleg pentru o garnitură expusă la chimicale agresive?",
+        "a": "Isolast FFKM este materialul recomandat pentru medii chimice agresive și temperaturi ridicate, oferind rezistență superioară comparativ cu elastomerii standard. Alegerea gradului exact de FFKM depinde de fluidul specific și de temperatura maximă de funcționare a instalației."
+      },
+      {
+        "q": "Ce diferență este între O-ring-ul Trelleborg din PTFE și cel elastomeric?",
+        "a": "O-ring-ul din PTFE are un miez elastomeric care oferă forța de etanșare, iar învelișul PTFE adaugă rezistență chimică superioară și frecare redusă. Varianta elastomerică standard este suficientă pentru aplicații generale, fără expunere la solvenți sau chimicale agresive."
+      },
+      {
+        "q": "Livrați garnituri Trelleborg în România?",
+        "a": "Da, aducem la comandă garnituri Trelleborg pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de material și de dimensiune. Recomandăm confirmarea diametrului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de garnitură Trelleborg?",
+        "a": "Este util să precizați diametrul interior și exterior sau secțiunea garniturii, fluidul cu care va veni în contact, presiunea și temperatura de lucru. Aceste detalii permit alegerea corectă a materialului, de la elastomer standard până la Isolast FFKM."
+      },
+      {
+        "q": "Ce este materialul Turcon de la Trelleborg?",
+        "a": "Este un material tehnic pe bază de PTFE, folosit pentru garnituri de mișcare la cilindri hidraulici și pneumatici, unde frecarea redusă și rezistența la uzură sunt esențiale. Este ales frecvent acolo unde elastomerii clasici nu rezistă la solicitările repetate de mișcare."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "founded corectat: 1905 → 1896, conform paginii oficiale de istorie Trelleborg (\"In 1896, production started in Trelleborg\")" },
@@ -272,10 +350,83 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
     ],
     infinitrade: "La Vega, lucrăm cu ce putem confirma direct pentru fiecare cerere și cu informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare model. Aducem senzorii VEGAPULS, VEGAFLEX, VEGASON și VEGABAR la comandă prin canale de aprovizionare din UE — 24-72 h din stoc pentru variantele pe care le avem deja confirmate, altfel 2-6 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de tehnologia dorită (radar, ultrasonic, capacitiv sau presiune), gama de măsurare, tipul de material (lichid, pastă sau solid) și presiunea sau temperatura de proces. Nu publicăm prețuri și nu confirmăm un termen exact înainte să verificăm disponibilitatea la sursă pentru configurația cerută.",
     sources: [
+      {"title":"Radar Level Sensors","url":"https://www.vega.com/en-us/products/product-catalog/level/radar","publisher":"VEGA","accessed":"2026-09-22"},
       { title: "VEGA Grieshaber KG - Company | VEGA", url: "https://www.vega.com/en-us/company", publisher: "VEGA Grieshaber KG", accessed: "2026-09-22" },
       { title: "VEGA - Level measurement - Level Switches - Pressure transmitters", url: "https://www.vega.com/en-us", publisher: "VEGA Grieshaber KG", accessed: "2026-09-22" }
     ],
     limitation: "Nu confirmăm disponibilitatea fiecărei game de măsurare fără o verificare la sursă, și nu oferim configurarea software avansată a senzorilor la fața locului.",
+    productCodes: [
+      {
+        "code": "VEGAPULS 6X",
+        "description": "Senzor radar universal pentru orice tip de aplicație"
+      },
+      {
+        "code": "VEGAPULS 42",
+        "description": "Senzor radar compact pentru sarcini de măsurare simple"
+      },
+      {
+        "code": "VEGAPULS Air 23",
+        "description": "Senzor radar autonom cu transmisie radio"
+      },
+      {
+        "code": "VEGAPULS Air 41",
+        "description": "Senzor radar autonom cu transmisie radio, gamă medie"
+      },
+      {
+        "code": "VEGAPULS Air 42",
+        "description": "Senzor radar autonom cu transmisie radio, gamă extinsă"
+      },
+      {
+        "code": "VEGAPULS C 11",
+        "description": "Senzor radar de nivel, model de bază"
+      },
+      {
+        "code": "VEGAPULS C 21",
+        "description": "Senzor radar de nivel pentru sarcini standard"
+      },
+      {
+        "code": "VEGAPULS C 22",
+        "description": "Senzor radar de nivel pentru sarcini standard, variantă extinsă"
+      },
+      {
+        "code": "VEGAPULS C 23",
+        "description": "Senzor radar de nivel pentru sarcini standard, gamă superioară"
+      },
+      {
+        "code": "VEGAPULS 11",
+        "description": "Senzor radar cu carcasă din plastic pentru sarcini simple"
+      },
+      {
+        "code": "VEGAPULS 21",
+        "description": "Senzor radar cu carcasă din plastic pentru sarcini standard"
+      },
+      {
+        "code": "VEGAPULS 31",
+        "description": "Senzor radar cu carcasă din plastic și afișaj integrat"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce senzor VEGA aleg pentru măsurarea nivelului într-un rezervor simplu?",
+        "a": "VEGAPULS C 11 sau VEGAPULS 11 sunt alegerile de bază pentru sarcini simple de măsurare a nivelului, cu montare directă și punere în funcțiune rapidă. Pentru aplicații mai pretențioase, cu spumă sau agitare puternică a produsului, seria VEGAPULS 6X oferă performanță superioară."
+      },
+      {
+        "q": "Ce diferență este între seriile VEGAPULS C și VEGAPULS Air de la VEGA?",
+        "a": "Seria VEGAPULS C este alimentată clasic prin cablu și potrivită pentru instalații fixe cu acces la alimentare. Seria VEGAPULS Air este autonomă, cu transmisie radio a datelor, recomandată pentru puncte de măsurare izolate, greu accesibile pentru cablare electrică."
+      },
+      {
+        "q": "Livrați senzori de nivel VEGA în România?",
+        "a": "Da, aducem la comandă senzori VEGA pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de opțiunile de proces alese. Recomandăm confirmarea variantei exacte înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de senzor radar VEGA?",
+        "a": "Este util să precizați tipul produsului măsurat (lichid sau solid), înălțimea rezervorului, temperatura și presiunea de proces, precum și tipul racordului de proces disponibil. Aceste detalii permit alegerea corectă între seriile VEGAPULS C, Air sau 6X."
+      },
+      {
+        "q": "Ce este senzorul radar VEGAPULS 6X de la VEGA?",
+        "a": "Este senzorul radar universal al producătorului, gândit să acopere majoritatea aplicațiilor de măsurare a nivelului cu o singură platformă, înlocuind mai multe modele anterioare dedicate unor sarcini specifice. Oferă performanță ridicată inclusiv în condiții dificile de proces."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }

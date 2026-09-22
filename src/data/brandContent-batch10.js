@@ -58,7 +58,76 @@ Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci 
     ],
     infinitrade: `Aducem în România senzorii și sistemele IO-Link IFM Electronic prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fizic disponibil la un moment dat, așa că lucrăm cu informațiile publice ale producătorului și cu disponibilitatea confirmată de furnizor înainte să dăm un termen. Ca regulă generală a firmei, produsele curente pot ajunge în 24–72 h din stoc, iar variantele speciale sau seturile complete IO-Link, la comandă, în 2–6 săptămâni. Trimite-ne codul exact al senzorului sau al modulului, tensiunea de alimentare și tipul de ieșire dorit, iar noi verificăm la furnizor termenul real și eventuale echivalențe. Configurarea avansată a platformei moneo pentru procesul tău rămâne în sarcina echipei tale tehnice sau a producătorului.`,
     sources: [
+      {"title":"AL1350 - IO-Link master with IoT interface","url":"https://www.ifm.com/us/en/product/AL1350","publisher":"ifm electronic","accessed":"2026-09-22"},
       { title: 'ifm electronic - pagina oficială (sediu Essen)', url: 'https://www.ifm.com/de/en', publisher: 'ifm electronic gmbh', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "AL1350",
+        "description": "master IO-Link cu interfață IoT"
+      },
+      {
+        "code": "AL1332",
+        "description": "master IO-Link cu interfață EtherCAT"
+      },
+      {
+        "code": "AL1342",
+        "description": "stație master IO-Link pentru rețele de câmp"
+      },
+      {
+        "code": "IGS200",
+        "description": "senzor inductiv de proximitate"
+      },
+      {
+        "code": "IFS200",
+        "description": "senzor inductiv de proximitate, variantă compactă"
+      },
+      {
+        "code": "PN7002",
+        "description": "traductor de presiune cu afișaj"
+      },
+      {
+        "code": "PN7092",
+        "description": "traductor de presiune cu afișaj, variantă extinsă"
+      },
+      {
+        "code": "PM1705",
+        "description": "senzor de presiune cu membrană la ras"
+      },
+      {
+        "code": "SM6000",
+        "description": "debitmetru magnetic-inductiv pentru lichide conductoare"
+      },
+      {
+        "code": "SM8000",
+        "description": "debitmetru magnetic-inductiv, variantă de precizie ridicată"
+      },
+      {
+        "code": "SV5500",
+        "description": "debitmetru cu vârtejuri pentru medii pe bază de apă"
+      },
+      {
+        "code": "SV4500",
+        "description": "debitmetru cu vârtejuri cu afișaj integrat"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între senzorii inductivi IGS200 și IFS200 de la IFM?",
+        "a": "IGS200 și IFS200 sunt ambii senzori inductivi de proximitate, însă diferă prin distanța nominală de detecție și dimensiunea carcasei; IFS200 are, de regulă, o carcasă mai compactă potrivită pentru spații restrânse, în timp ce IGS200 oferă o distanță de comutare ceva mai mare pentru aceeași gamă de aplicații."
+      },
+      {
+        "q": "Ce rol are un master IO-Link precum AL1350 într-o rețea IFM?",
+        "a": "Un master IO-Link precum AL1350 conectează mai mulți senzori și actuatoare IO-Link la un controler prin rețea, agregând datele de proces și diagnosticare într-un singur punct; varianta cu interfață IoT permite trimiterea acelorași date și către un sistem separat de monitorizare, fără a încărca automatizarea principală."
+      },
+      {
+        "q": "Livrați senzori și debitmetre IFM în România la comandă?",
+        "a": "Da, aducem senzori inductivi, traductoare de presiune și debitmetre IFM la comandă, pornind de la fișele tehnice publice ale producătorului, fără a menține un stoc propriu constant; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și lungimea cablului."
+      },
+      {
+        "q": "Ce diferență este între debitmetrele magnetic-inductive SM și cele cu vârtejuri SV?",
+        "a": "Debitmetrele din seria SM măsoară lichide conductoare electric, folosind principiul magnetic-inductiv, fără piese în mișcare, în timp ce seria SV, cu vârtejuri, este potrivită și pentru alte lichide sau gaze, măsurând frecvența vârtejurilor create de un corp de reflux introdus în curgere."
+      }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu putem confirma disponibilitatea în timp real a fiecărei referințe IFM și nu oferim configurare avansată a platformei moneo fără implicarea producătorului.',
@@ -127,7 +196,68 @@ Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fieca
     ],
     infinitrade: `Comandăm filtrele și elementele Internormen prin furnizori din Uniunea Europeană, fără să ținem evidențe proprii despre ce se află pe stoc în orice clipă. Ne bazăm pe surse publice ale producătorului și pe confirmarea furnizorului pentru fiecare cerere concretă. Ca formulare generală a firmei, piesele uzuale de filtrare ajung în 24–72 h din stoc, iar elementele speciale sau sistemele off-line complete, la comandă, în 2–6 săptămâni. Ca să îți dăm un răspuns exact, spune-ne modelul carcasei sau codul elementului filtrant, debitul instalației și clasa de filtrare dorită. Nu efectuăm noi analize de laborator ale uleiului; pentru acestea recomandăm un laborator acreditat sau contactul direct cu fabrica din Schmalkalden.`,
     sources: [
+      {"title":"HP3 high-pressure carbon steel filters (420 bar)","url":"https://www.eaton.com/us/en-us/catalog/filters-strainers/hp3.html","publisher":"Eaton (Internormen)","accessed":"2026-09-22"},
       { title: 'Internormen Technology - pagina oficială', url: 'https://www.internormen.com/', publisher: 'Internormen Technology GmbH', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "HP3",
+        "description": "filtru de presiune din oțel carbon pentru 420 bar"
+      },
+      {
+        "code": "EHPF",
+        "description": "filtru de presiune din oțel inoxidabil pentru presiune înaltă"
+      },
+      {
+        "code": "LF",
+        "description": "filtru de joasă presiune din oțel inoxidabil pentru 32 bar"
+      },
+      {
+        "code": "TSW",
+        "description": "filtru de aspirație montat pe rezervor"
+      },
+      {
+        "code": "TRS",
+        "description": "filtru de retur montat pe rezervor"
+      },
+      {
+        "code": "TEF",
+        "description": "filtru de retur montat pe rezervor, pentru 10 bar"
+      },
+      {
+        "code": "TS",
+        "description": "filtru de aspirație pentru ulei hidraulic montat pe rezervor"
+      },
+      {
+        "code": "TNRS",
+        "description": "filtru în linie montat pe capacul rezervorului, pentru 10 bar"
+      },
+      {
+        "code": "AS",
+        "description": "filtru de aspirație hidraulic montat pe rezervor"
+      },
+      {
+        "code": "ASF/SS",
+        "description": "filtru de aspirație hidraulic montat pe rezervor, variantă dublă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între filtrele de presiune HP3 și EHPF de la Internormen?",
+        "a": "HP3 este construit din oțel carbon și acoperă presiuni de până la 420 bar, fiind o soluție potrivită pentru aplicații obișnuite, în timp ce EHPF este realizat din oțel inoxidabil, recomandat acolo unde fluidul sau mediul de lucru impune rezistență sporită la coroziune."
+      },
+      {
+        "q": "Ce tip de filtru Internormen aleg pentru un rezervor hidraulic, aspirație sau retur?",
+        "a": "Pentru linia de aspirație se folosesc filtrele montate pe rezervor, precum TSW, TS sau AS, care protejează pompa de particule mari, iar pentru linia de retur se aleg modele precum TRS sau TEF, care rețin contaminarea generată de sistem înainte ca uleiul să revină în rezervor."
+      },
+      {
+        "q": "Livrați filtre hidraulice Internormen în România la comandă?",
+        "a": "Da, aducem filtre de presiune, aspirație și retur din gama Internormen la comandă, pornind de la fișele tehnice publice disponibile pentru aceste produse, fără a menține un stoc propriu constant; termenul obișnuit de aprovizionare este de 2-6 săptămâni la comandă, în funcție de model."
+      },
+      {
+        "q": "Ce înseamnă codul ASF/SS la un filtru de aspirație?",
+        "a": "Codul ASF/SS desemnează o variantă de filtru de aspirație montat pe rezervor, gândită pentru instalații care necesită două trepte de filtrare sau un montaj dublu în paralel, oferind un debit mai mare sau o redundanță suplimentară față de un filtru simplu din aceeași familie constructivă."
+      }
     ],
     evidenceClass: 'gsc-only',
     limitation: 'Nu efectuăm noi analize de laborator ale uleiului hidraulic și nu putem garanta disponibilitate neîntreruptă pentru toate dimensiunile de filtre Internormen.',
@@ -196,7 +326,93 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
     ],
     infinitrade: `Procurăm siguranțele Jean Müller prin lanțuri de aprovizionare din spațiul UE și nu avem un sistem propriu de evidență a stocului fizic în timp real. Informațiile despre calibre și caracteristici le preluăm din surse publice ale producătorului, iar disponibilitatea o confirmăm punctual la furnizor. Ca regulă generală a firmei, siguranțele NH și HRC uzuale pot ajunge în 24–72 h din stoc, în timp ce loturile mari sau calibrele rare intră pe flux de comandă cu termen de 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de curentul nominal, tensiunea instalației și numărul de bucăți. Nu calculăm noi selectivitatea instalației electrice, care rămâne responsabilitatea proiectantului.`,
     sources: [
+      {"title":"Products - JEAN MÜLLER","url":"https://www.jeanmueller.com/products/","publisher":"Jean Mueller","accessed":"2026-09-22"},
+      {"title":"NH strip type fuse switch disconnectors SL - JEAN MÜLLER","url":"https://www.jeanmueller.com/products/nh-strip-type-fuse-switch-disconnectors-sl/","publisher":"Jean Mueller","accessed":"2026-09-22"},
       { title: 'Jean Müller GmbH - pagina oficială', url: 'https://www.jean-mueller.de/', publisher: 'Jean Müller GmbH Elektrotechnische Fabrik', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "SL00",
+        "description": "separator-sigurante NH mărimea 00, curent până la 160A"
+      },
+      {
+        "code": "SL1",
+        "description": "separator-sigurante NH mărimea 1, curent până la 250A"
+      },
+      {
+        "code": "SL2",
+        "description": "separator-sigurante NH mărimea 2, curent până la 400A"
+      },
+      {
+        "code": "SL3",
+        "description": "separator-sigurante NH mărimea 3, curent până la 630A"
+      },
+      {
+        "code": "SL3-910A",
+        "description": "separator de intrare NH pentru protecție secundară în tablou"
+      },
+      {
+        "code": "SL3-910Aplus",
+        "description": "separator-sigurante de intrare cu curent termic până la 1000A"
+      },
+      {
+        "code": "SL3-1000A",
+        "description": "separator de intrare cu interblocare mecanica pentru bare colectoare"
+      },
+      {
+        "code": "TOKEO",
+        "description": "separator-sigurante NH inteligent cu electronica de monitorizare integrata"
+      },
+      {
+        "code": "KETO",
+        "description": "separator NH cu verificare tensiune brevetată și control de câmp"
+      },
+      {
+        "code": "SASILplus",
+        "description": "separator-sigurante compact pentru alimentare sigură cu energie electrică"
+      },
+      {
+        "code": "D/D0",
+        "description": "gama de siguranțe compacte pentru uz neprofesionist și terminale"
+      },
+      {
+        "code": "HH (seria IKUS)",
+        "description": "siguranțe pentru aplicații de înaltă tensiune, gama IKUS"
+      },
+      {
+        "code": "NH00-NH3 baze",
+        "description": "baze de sigurante NH pentru montaj pe placa sau bara"
+      },
+      {
+        "code": "PV",
+        "description": "siguranta dedicata protectiei sistemelor fotovoltaice de curent continuu"
+      },
+      {
+        "code": "aR semiconductor",
+        "description": "siguranta ultrarapida pentru protectia semiconductoarelor de putere"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg mărimea corectă a unei siguranțe NH Jean Muller, de exemplu între SL1 și SL2?",
+        "a": "Mărimea depinde de curentul nominal al liniei și de spațiul fizic din tabloul electric existent. SL1 acoperă până la 250A, iar SL2 până la 400A, dar încadrarea corectă ține cont și de curentul de scurtcircuit al rețelei. Recomandăm verificarea codului complet marcat pe separatorul existent înainte de comanda unui înlocuitor, pentru a evita o eroare de dimensionare a instalației."
+      },
+      {
+        "q": "Livrați separatoare cu siguranțe Jean Muller în România?",
+        "a": "Da, aducem la comandă separatoare din gamele SL, TOKEO sau SASILplus, pe baza codului confirmat de client. Nu avem această gamă pe raft și ne raportăm la informațiile publice ale producătorului; termenul obișnuit este de 2-6 săptămâni la comandă. Este util să trimiteti codul complet de pe eticheta separatorului existent, pentru a identifica exact varianta compatibilă cu instalația."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de siguranțe NH?",
+        "a": "Aveți nevoie de mărimea NH (00 până la 3), clasa de funcționare (gG pentru uz general sau aM pentru protecția motoarelor), curentul nominal și tensiunea de lucru. Pentru bazele de montaj menționați și tipul de conexiune, cu placă sau cu bară colectoare. O fotografie a piesei existente ajută la evitarea confuziei între variante apropiate ale aceleiași game."
+      },
+      {
+        "q": "Ce diferență este între seria SL și separatorul TOKEO de la Jean Muller?",
+        "a": "SL este seria clasică de separatoare cu siguranțe, disponibilă în mărimile 00 până la 3 și în versiuni pentru curenți mari de intrare. TOKEO adaugă electronica pentru monitorizarea stării instalației și semnalizarea eventualelor probleme, fiind gândit pentru aplicații unde se dorește supraveghere suplimentară. Alegerea depinde de complexitatea tabloului și de necesitatea unei monitorizări active."
+      },
+      {
+        "q": "Cum gasesc echivalentul unei baze de sigurante NH mai vechi de la Jean Muller?",
+        "a": "Comparăm mărimea NH, distanța dintre borne și tipul de conexiune (placă sau bară colectoare) cu gamele actuale din documentația oficială a producătorului. O fotografie clară a bazei existente, împreună cu mărimea NH scrisă pe corp, este suficientă de obicei pentru identificare. Confirmarea finală se face după verificarea curentului nominal necesar în instalație."
+      }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu calculăm noi selectivitatea instalației electrice și nu putem garanta disponibilitate neîntreruptă pentru toate calibrele de siguranțe Jean Müller.',
@@ -335,7 +551,77 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
     ],
     infinitrade: `Comandăm utilajele Kärcher Professional prin canale de aprovizionare din Uniunea Europeană, fără să deținem un stoc propriu garantat pentru fiecare model în orice moment. Specificațiile tehnice le luăm din surse publice ale producătorului, iar disponibilitatea concretă o verificăm la furnizor înainte să dăm un termen ferm. Ca formulare generală a firmei, echipamentele uzuale de curățenie pot ajunge în 24–72 h din stoc, iar liniile automatizate sau roboții de curățare intră pe comandă specială cu termen de 2–6 săptămâni. Pentru o ofertă corectă spune-ne suprafața de curățat, tipul de pardoseală și dacă ai nevoie de operator sau de soluție autonomă. Intervențiile care țin de garanția producătorului rămân în sarcina rețelei de service Kärcher.`,
     sources: [
+      {"title":"Industrial vacuum cleaners - Kärcher International","url":"https://www.kaercher.com/int/professional/industrial-vacuum-cleaners.html","publisher":"Karcher","accessed":"2026-09-22"},
+      {"title":"Floor scrubbers / scrubber driers - Kärcher International","url":"https://www.kaercher.com/int/professional/floor-scrubbers-scrubber-driers.html","publisher":"Karcher","accessed":"2026-09-22"},
       { title: 'Kärcher International - pagina oficială (sediu Winnenden)', url: 'https://www.kaercher.com/int/', publisher: 'Alfred Kärcher SE & Co. KG', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "K-Mop 46",
+        "description": "masina compacta de spalat pardoseli pentru spatii aglomerate"
+      },
+      {
+        "code": "B 80 W",
+        "description": "masina de spalat-aspirat pardoseli cu detectie automata a suprafetei"
+      },
+      {
+        "code": "B 150 R Bp DOSE",
+        "description": "masina cu baterie pentru spalat pardoseli, dozare automata solutie"
+      },
+      {
+        "code": "BR 45/22",
+        "description": "mașină compactă pentru spălat-aspirat pardoseli în spații comerciale"
+      },
+      {
+        "code": "BR 35/12",
+        "description": "masina compacta de spalat pardoseli, latime lucru redusa"
+      },
+      {
+        "code": "BR 30/4",
+        "description": "masina manuala compacta pentru curatare pardoseli mici"
+      },
+      {
+        "code": "B 40/10",
+        "description": "masina de spalat pardoseli cu rezervor de capacitate medie"
+      },
+      {
+        "code": "BD 38/12 FL",
+        "description": "masina cu freza pentru spalat pardoseli industriale"
+      },
+      {
+        "code": "IVR-L",
+        "description": "aspirator industrial pentru lichide și solide, funcționare continuă"
+      },
+      {
+        "code": "seria vacuum L/M",
+        "description": "aspiratoare industriale pentru praf și solide, extracție continuă"
+      },
+      {
+        "code": "seria H/ACD/Z22",
+        "description": "aspiratoare certificate pentru pulberi combustibile, clase M și H"
+      },
+      {
+        "code": "dedusteri Atex 22",
+        "description": "instalații de deprafuire pentru zone cu risc de explozie"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între mașinile Karcher seria BR și seria B?",
+        "a": "Seria BR grupează modele compacte de spălat-aspirat pardoseli, potrivite pentru spații comerciale mai mici și trafic moderat. Seria B include modele mai mari, cu autonomie extinsă și tehnologii precum detecția automată a suprafeței, gândite pentru hale și suprafețe extinse. Alegerea corectă depinde de lățimea de lucru necesară și de tipul pardoselii curățate zilnic."
+      },
+      {
+        "q": "Livrați echipamente industriale Karcher în România la comandă?",
+        "a": "Da, aducem la comandă mașini de spălat pardoseli și aspiratoare industriale din gamele B, BR și IVR-L, pe baza codului confirmat de client. Nu ținem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul uzual este de 2-6 săptămâni. Recomandăm transmiterea codului exact al modelului cerut pentru evitarea confuziilor între variante."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la un aspirator industrial Karcher?",
+        "a": "Este nevoie de tipul materialului aspirat (praf, lichid sau ambele), clasa de praf cerută (L, M sau H), dacă zona este clasificata Atex și capacitatea rezervorului dorită. Pentru aplicații cu pulberi combustibile menționați explicit necesitatea certificarii pentru zona 22, deoarece aceasta schimbă seria recomandată din gamă IVR sau dedusteri."
+      },
+      {
+        "q": "Cum aleg între o mașină de spălat pardoseli cu baterie și una cu cablu la Karcher?",
+        "a": "Modelele cu baterie, precum B 150 R Bp DOSE, oferă mobilitate fără restricții de cablu și sunt potrivite pentru suprafețe mari fără prize apropiate. Variantele cu cablu rămân utile în spații mici, unde autonomia bateriei nu este o prioritate. Decizia depinde de suprafața zilnică de curățat și de accesul la surse de alimentare."
+      }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu oferim service în garanția producătorului pentru utilajele Kärcher și nu putem garanta disponibilitate neîntreruptă pentru fiecare model din gama industrială.',
@@ -404,8 +690,86 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
     ],
     infinitrade: `Procurăm traductoarele de presiune Keller din Winterthur prin furnizori din Uniunea Europeană și nu avem evidență proprie a stocului fizic pentru fiecare referință. Parametrii tehnici îi preluăm din surse publice ale producătorului elvețian, iar termenul concret îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, traductoarele standard pot ajunge în 24–72 h din stoc, iar variantele submersibile speciale sau seturile wireless intră pe flux de comandă de 2–6 săptămâni. Trimite-ne domeniul de presiune, tipul de mediu măsurat și lungimea de cablu necesară pentru o verificare rapidă. Nu emitem noi certificate proprii de calibrare; pentru recalibrare acreditată clientul apelează direct la laboratorul producătorului.`,
     sources: [
+      {"title":"Series 33X | KELLER Pressure","url":"https://keller-pressure.com/en/products/pressure-transmitters/standard-pressure-transmitters/series-33x","publisher":"Keller Pressure","accessed":"2026-09-22"},
+      {"title":"Products overview | KELLER Pressure","url":"https://keller-pressure.com/en/products","publisher":"Keller Pressure","accessed":"2026-09-22"},
       { title: 'KELLER Pressure - Home', url: 'https://keller-pressure.com/en/', publisher: 'Keller AG für Druckmesstechnik', accessed: '2026-09-22' },
       { title: 'KELLER Pressure - Company', url: 'https://keller-pressure.com/en/company', publisher: 'Keller AG für Druckmesstechnik', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Series 33X",
+        "description": "traductor de presiune standard, domeniu 0,3 până la 1000 bar"
+      },
+      {
+        "code": "Series 33X-Ed",
+        "description": "traductor de presiune cu carcasă antideflagrantă pentru zone clasificate"
+      },
+      {
+        "code": "Series 35X",
+        "description": "traductor de presiune cu membrana frontala, variantă rasfrant"
+      },
+      {
+        "code": "Series 35HTCX",
+        "description": "traductor cu membrana frontala pentru temperaturi ridicate"
+      },
+      {
+        "code": "Series PD-33X",
+        "description": "traductor de presiune diferențiala din familia 33X"
+      },
+      {
+        "code": "Series PD-39X",
+        "description": "traductor de presiune diferențiala pentru aplicații industriale"
+      },
+      {
+        "code": "Series PD-39X-Ei",
+        "description": "traductor diferential cu certificare intrinsec sigura"
+      },
+      {
+        "code": "Series 21Y",
+        "description": "traductor de presiune compact pentru uz general"
+      },
+      {
+        "code": "Series 23",
+        "description": "traductor de presiune din gama standard Keller"
+      },
+      {
+        "code": "Series PD-23",
+        "description": "traductor de presiune diferențiala din gama 23"
+      },
+      {
+        "code": "Series 25",
+        "description": "traductor de presiune miniatural pentru montaj în spații restrânse"
+      },
+      {
+        "code": "22M/22S",
+        "description": "traductoare de presiune miniaturale, variante M și S"
+      },
+      {
+        "code": "Series 36XW",
+        "description": "sonda de nivel submersibila pentru masurarea apei"
+      },
+      {
+        "code": "DCX-22",
+        "description": "datalogger de nivel autonom pentru ape subterane și de suprafață"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg între traductoarele Keller seria 33X și seria 21Y?",
+        "a": "Seria 33X acoperă un domeniu larg, de la 0,3 până la 1000 bar, și oferă precizie ridicată prin compensare digitală, fiind potrivită pentru măsurători industriale exigente. Seria 21Y este o soluție compactă pentru uz general, cu montaj mai simplu acolo unde precizia extremă nu este cerință principală. Alegerea depinde de domeniul de presiune și de exactitatea cerută de aplicație."
+      },
+      {
+        "q": "Livrați traductoare de presiune Keller în România?",
+        "a": "Da, aducem la comandă traductoare din seriile 33X, PD-39X sau dataloggere DCX, pe baza codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-6 săptămâni la comandă. Transmiteti codul complet de pe eticheta pentru identificarea rapidă a variantei corecte."
+      },
+      {
+        "q": "Ce date trimit pentru o oferta de traductor Keller?",
+        "a": "Precizati domeniul de presiune necesar, tipul de mediu măsurat, temperatura de lucru, tipul de ieșire electrică (4-20 mA, RS485 sau tensiune) și dacă este nevoie de certificare pentru zone explozive. Dacă înlocuiți un traductor existent, codul complet de pe eticheta acestuia grăbește identificarea variantei echivalente din gama actuală."
+      },
+      {
+        "q": "Ce este un traductor diferential precum Series PD-39X de la Keller?",
+        "a": "Un traductor diferențial măsoară diferența de presiune între două puncte ale unei instalații, utilă la filtre colmatate, debitmetre sau nivel în rezervoare închise. Seria PD-39X este gândită pentru aplicații industriale exigente, iar varianta PD-39X-Ei adaugă certificare intrinsec sigură pentru zone cu risc de explozie. Selectarea corectă ține cont de domeniul diferențial și de mediul de lucru."
+      }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu emitem noi certificate de calibrare acreditate SAS și nu putem garanta disponibilitate neîntreruptă pentru toate variantele submersibile Keller.',
@@ -475,7 +839,93 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
     ],
     infinitrade: `Aducem lubrifianții speciali Klüber prin canale de aprovizionare din Uniunea Europeană, fără să ținem un stoc propriu constant pentru fiecare formulare. Fișele tehnice pe care le folosim provin din surse publice ale producătorului german, iar cantitatea disponibilă efectiv o confirmăm la furnizor pentru fiecare comandă. Ca formulare generală a firmei, ambalajele uzuale (tuburi, bidoane) pot ajunge în 24–72 h din stoc, iar cantitățile mari sau formulările speciale intră pe flux de comandă de 2–6 săptămâni. Ca să te ajutăm corect, spune-ne temperatura de lucru, materialul elastomerilor din contact și dacă aplicația necesită certificare food-grade. Nu realizăm noi teste de compatibilitate în laborator propriu; pentru validări tehnice complexe recomandăm contactul direct cu specialiștii producătorului.`,
     sources: [
+      {"title":"Lubricating greases - Kluber Lubrication","url":"https://www.klueber.com/us/en/products-service/lubricants/lubricating-greases/","publisher":"Klueber Lubrication","accessed":"2026-09-22"},
+      {"title":"Lubricating oils for compressors, hydraulics & more - Kluber Lubrication","url":"https://www.klueber.com/us/en/products-service/lubricants/lubricating-oils/","publisher":"Klueber Lubrication","accessed":"2026-09-22"},
       { title: 'Klüber Lubrication - Choose your local partner', url: 'https://www.klueber.com/global/en/choose-your-local-partner/', publisher: 'Klüber Lubrication München SE & Co. KG', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Klueberplex BEM 41-141",
+        "description": "unsoare pe baza de litiu pentru rulmenti la turatii medii"
+      },
+      {
+        "code": "Klueberalfa BF 83-102",
+        "description": "unsoare fluorurata pentru medii chimic agresive"
+      },
+      {
+        "code": "Klueberalfa RM 93-101",
+        "description": "unsoare fluorurată pentru aplicații de înaltă temperatură"
+      },
+      {
+        "code": "BARRIERTA L 55/2",
+        "description": "unsoare pe baza de PFPE pentru medii extreme"
+      },
+      {
+        "code": "BARRIERTA KM 192",
+        "description": "unsoare de bariera pentru contact cu chimicale agresive"
+      },
+      {
+        "code": "Klubersynth BQP 72-82",
+        "description": "unsoare sintetica pentru rulmenti la turatii ridicate"
+      },
+      {
+        "code": "Klubersynth UH1 64-2403",
+        "description": "unsoare sintetica avizata pentru contact incidental cu alimente"
+      },
+      {
+        "code": "Klueberfood NH1 94-301",
+        "description": "unsoare food-grade pentru industria alimentară și farmaceutică"
+      },
+      {
+        "code": "Klueberfood NH1 94-6000",
+        "description": "unsoare food-grade cu vascozitate mai mare pentru sarcini medii"
+      },
+      {
+        "code": "ISOFLEX PDL 300 A",
+        "description": "unsoare de precizie pentru mecanisme fine și rulmenti mici"
+      },
+      {
+        "code": "CENTOPLEX GLP 500",
+        "description": "unsoare universală pentru lagăre și aplicații industriale generale"
+      },
+      {
+        "code": "MICROLUBE GB 0",
+        "description": "unsoare pentru angrenaje și suprafețe cu frecare de alunecare"
+      },
+      {
+        "code": "Klubersynth GH 6",
+        "description": "ulei sintetic de angrenaje pentru transmisii industriale"
+      },
+      {
+        "code": "Klueber Summit compressor oil",
+        "description": "ulei sintetic pentru compresoare de aer și gaz"
+      },
+      {
+        "code": "Klubertherm chain oil",
+        "description": "ulei pentru lanturi la temperaturi de lucru ridicate"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între unsorile Kluber Klueberplex și Klubersynth?",
+        "a": "Klueberplex folosește de regulă un ulei de bază mineral sau semisintetic, potrivit pentru rulmenți la turații medii și sarcini uzuale. Klubersynth are ulei de bază sintetic, ceea ce îi oferă stabilitate mai buna la temperaturi ridicate și la turații mari, fiind recomandat în aplicații mai solicitante. Alegerea corectă depinde de turația, temperatură și sarcină din aplicația respectivă."
+      },
+      {
+        "q": "Livrați unsori și uleiuri Kluber în România?",
+        "a": "Da, aducem la comandă produse din gamele Klueberplex, Klubersynth sau Klueberfood, pe baza codului exact solicitat de client. Nu avem această gamă pe raft și ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-6 săptămâni la comandă. Transmiteti codul complet de pe fișa tehnică pentru a evita confuzia între variante apropiate."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de lubrifiant Klueber?",
+        "a": "Menționati aplicația exactă (rulment, angrenaj, lant sau compresor), domeniul de temperatură de funcționare, sarcină și turația, plus dacă este necesară o certificare pentru contact incidental cu alimente. Codul complet al produsului existent, dacă înlocuiți un lubrifiant deja folosit, ajută mult la identificarea variantei echivalente din gamă actuală Klueber."
+      },
+      {
+        "q": "Ce inseamna certificarea alimentara la o unsoare Klueberfood?",
+        "a": "Gama Klueberfood este formulată pentru a fi folosită în zone unde există posibilitatea unui contact incidental cu produse alimentare, respectând cerințe specifice industriei alimentare și farmaceutice. Codurile NH1 94-301 și NH1 94-6000 diferă prin vâscozitate, fiind alese în funcție de sarcina mecanismului lubrifiat. Documentația oficială a producătorului confirmă domeniul exact de utilizare admis."
+      },
+      {
+        "q": "Ce este unsoarea BARRIERTA de la Klueber și când se folosește?",
+        "a": "BARRIERTA este o gamă de unsori pe bază de PFPE, rezistente la atacul chimic al solventilor, acizilor sau bazelor, fiind folosite acolo unde lubrifianții uzuali s-ar degrada rapid. Variantele L 55/2 și KM 192 diferă prin consistenta și domeniul de temperatură recomandat. Alegerea corectă se face după fișa tehnică a mediului chimic prezent în instalație."
+      }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu realizăm teste de compatibilitate în laborator propriu pentru lubrifianții Klüber și nu putem garanta disponibilitate neîntreruptă pentru fiecare formulare specială.',
@@ -545,7 +995,88 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
     ],
     infinitrade: `Comandăm instrumentele Kobold Messring prin furnizori din spațiul UE și nu avem un sistem propriu care să arate stocul fizic exact în orice moment. Datele despre domenii de măsură și materiale le luăm din surse publice ale producătorului, iar disponibilitatea reală o verificăm punctual la furnizor. Ca regulă generală a firmei, rotametrele și switchurile uzuale pot ajunge în 24–72 h din stoc, în timp ce configurațiile speciale sau aparatele cu materiale rare intră pe flux de comandă de 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de fluidul măsurat, domeniul de debit sau presiune și tipul de conexiune la proces. Recalibrarea acreditată și emiterea certificatelor oficiale rămân în sarcina laboratorului producătorului din Germania.`,
     sources: [
+      {"title":"Products - Kobold","url":"https://www.kobold.com/en/products/","publisher":"Kobold","accessed":"2026-09-22"},
       { title: 'KOBOLD - Industrial Flow, Pressure, Level & Temperature Measurement Solutions', url: 'https://www.kobold.com/en', publisher: 'KOBOLD Messring GmbH', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "DUK",
+        "description": "debitmetru cu ultrasunete cu IO-Link, montaj în linie"
+      },
+      {
+        "code": "MIM",
+        "description": "debitmetru magneto-inductiv din inox pentru intreg corpul"
+      },
+      {
+        "code": "MIK",
+        "description": "debitmetru-monitor magneto-inductiv cu IO-Link"
+      },
+      {
+        "code": "DON-H",
+        "description": "debitmetru volumetric cu roti ovale pentru lichide vascoase"
+      },
+      {
+        "code": "DOE",
+        "description": "debitmetru volumetric cu roti ovale, gama compacta"
+      },
+      {
+        "code": "DUC",
+        "description": "debitmetru cu ultrasunete tip clamp-on, fără contact cu fluidul"
+      },
+      {
+        "code": "PITe/UMF-2",
+        "description": "debitmetru magneto-inductiv tip insertie pentru conducte mari"
+      },
+      {
+        "code": "KEC",
+        "description": "debitmetru masic termic pentru gaze industriale"
+      },
+      {
+        "code": "MAN-SC",
+        "description": "manometru digital cu alimentare din baterie"
+      },
+      {
+        "code": "MAN-LC",
+        "description": "manometru digital cu iesire IO-Link"
+      },
+      {
+        "code": "ZOK",
+        "description": "electronica de numărare și dozare pentru linii de producție"
+      },
+      {
+        "code": "ZOE",
+        "description": "electronica de numarare pentru procese industriale"
+      },
+      {
+        "code": "TWC",
+        "description": "senzor de temperatură OEM pentru integrare în echipamente"
+      },
+      {
+        "code": "MMA",
+        "description": "senzor de temperatură tip inserție, cu sau fără traductor"
+      },
+      {
+        "code": "MWD",
+        "description": "termorezistenta industriala pentru masurarea temperaturii"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între debitmetrele Kobold DUC și DUK?",
+        "a": "DUC este un debitmetru cu ultrasunete tip clamp-on, montat pe exteriorul conductei fără a intra în contact cu fluidul, util când nu se dorește intervenția pe conductă. DUK se montează în linie și comunică prin IO-Link, oferind o măsurare directă mai precisă în aplicații industriale integrate digital. Alegerea depinde de posibilitatea de a întrerupe conducta și de tipul de fluid măsurat."
+      },
+      {
+        "q": "Livrați debitmetre și senzori Kobold în România?",
+        "a": "Da, aducem la comandă debitmetre, manometre digitale și senzori de temperatură din gamele DUK, MAN-LC sau MMA, pe baza codului confirmat de client. Nu ținem această gamă pe raft, iar informațiile de disponibilitate provin din surse publice ale producătorului; termenul uzual este de 2-6 săptămâni la comandă. Codul exact de pe eticheta scurtează mult identificarea variantei."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de debitmetru Kobold?",
+        "a": "Este nevoie de tipul fluidului măsurat (lichid, gaz sau vascos), debitul minim și maxim așteptat, diametrul conductei, presiunea și temperatură de lucru, plus tipul de ieșire dorit, analogică sau IO-Link. Pentru montajul clamp-on menționați materialul și grosimea peretelui conductei, deoarece influențează direct alegerea corectă a modelului."
+      },
+      {
+        "q": "Ce este un senzor de temperatura tip insertie MMA de la Kobold?",
+        "a": "MMA este un senzor introdus direct în fluidul sau mediul măsurat, disponibil cu sau fără traductor de semnal integrat, potrivit pentru monitorizarea continuă a temperaturii în conducte sau rezervoare. Alegerea între varianta cu traductor și cea simplă depinde de sistemul de automatizare existent și de tipul de semnal acceptat de acesta."
+      }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu efectuăm recalibrări acreditate pentru instrumentele Kobold și nu putem garanta disponibilitate neîntreruptă pentru toate configurațiile posibile.',
@@ -616,8 +1147,77 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
     ],
     infinitrade: `Procurăm debitimetrele Krohne prin canale de aprovizionare din Uniunea Europeană, fără evidență proprie a stocului fizic disponibil pentru fiecare tehnologie de măsurare. Parametrii tehnici îi preluăm din surse publice ale producătorului, iar termenul real de livrare îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, debitimetrele electromagnetice sau vortex uzuale pot ajunge în 24–72 h din stoc, iar aparatele Coriolis sau ultrasonice configurate special intră pe flux de comandă de 2–6 săptămâni. Trimite-ne fluidul măsurat, diametrul conductei și domeniul de debit pentru o verificare rapidă a opțiunilor potrivite. Nu emitem noi calibrări acreditate DAkkS și nu facem punerea în funcțiune pentru aplicații de custody transfer fără implicarea directă a producătorului.`,
     sources: [
+      {"title":"Flow measurement products - KROHNE","url":"https://www.krohne.com/en-us/products/flow-measurement","publisher":"Krohne","accessed":"2026-09-22"},
       { title: 'KROHNE USA - Home', url: 'https://www.krohne.com/en-us', publisher: 'KROHNE Messtechnik GmbH', accessed: '2026-09-22' },
       { title: 'KROHNE USA - Company', url: 'https://www.krohne.com/en-us/company', publisher: 'KROHNE Messtechnik GmbH', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "OPTIFLUX 1050",
+        "description": "debitmetru electromagnetic compact pentru aplicații generale"
+      },
+      {
+        "code": "OPTIFLUX 2100",
+        "description": "debitmetru electromagnetic pentru apă și apă uzată"
+      },
+      {
+        "code": "OPTIFLUX 4300",
+        "description": "debitmetru electromagnetic de precizie pentru industrie"
+      },
+      {
+        "code": "OPTIFLUX 4400",
+        "description": "debitmetru electromagnetic cu iesiri digitale extinse"
+      },
+      {
+        "code": "OPTIFLUX 5100",
+        "description": "debitmetru electromagnetic pentru aplicații sanitare și igienice"
+      },
+      {
+        "code": "WATERFLUX 3070",
+        "description": "debitmetru electromagnetic pentru retele de distributie a apei"
+      },
+      {
+        "code": "WATERFLUX 3100",
+        "description": "debitmetru electromagnetic pentru masurarea consumului de apa"
+      },
+      {
+        "code": "POWERFLUX 4300",
+        "description": "debitmetru electromagnetic pentru medii cu conductivitate scazuta"
+      },
+      {
+        "code": "POWERFLUX 5300",
+        "description": "debitmetru electromagnetic de inalta precizie pentru industrie"
+      },
+      {
+        "code": "ENVIROMAG",
+        "description": "debitmetru electromagnetic pentru industria apei și apei uzate"
+      },
+      {
+        "code": "TIDALFLUX 2300",
+        "description": "debitmetru electromagnetic pentru conducte partial umplute"
+      },
+      {
+        "code": "AF-E 400",
+        "description": "debitmetru electromagnetic pentru utilități și automatizare industrială"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între debitmetrele Krohne OPTIFLUX și WATERFLUX?",
+        "a": "OPTIFLUX este familia generală de debitmetre electromagnetice, cu variante pentru industrie, apă uzată sau aplicații sanitare, în funcție de model. WATERFLUX este dedicată specific rețelelor de apă potabilă și de distribuție, cu montaj adesea îngropat și consum redus de energie. Alegerea corectă depinde de tipul aplicației și de condițiile de montaj din teren."
+      },
+      {
+        "q": "Livrați debitmetre electromagnetice Krohne în România?",
+        "a": "Da, aducem la comandă debitmetre din gamele OPTIFLUX, WATERFLUX și POWERFLUX, pe baza codului și diametrului confirmate de client. La KROHNE nu lucrăm de pe raft: ne raportăm la disponibilitatea publicată de producător, cu un termen obișnuit de 2-6 săptămâni de la comandă. Codul complet de pe eticheta grăbește identificarea variantei potrivite."
+      },
+      {
+        "q": "Ce date trimit pentru o oferta de debitmetru Krohne?",
+        "a": "Precizati diametrul nominal al conductei, debitul minim și maxim, tipul fluidului și conductivitatea acestuia, presiunea și temperatura de lucru, precum și tipul de ieșire electrică dorit. Dacă înlocuiți un debitmetru existent, codul de pe placuta și diametrul flanșei ajută la identificarea rapidă a variantei echivalente din gama actuală."
+      },
+      {
+        "q": "Când se folosește debitmetrul TIDALFLUX în locul unui OPTIFLUX de la Krohne?",
+        "a": "TIDALFLUX 2300 este gândit pentru conducte care nu sunt mereu complet umplute, precum canalizările gravitaționale, unde un debitmetru electromagnetic obișnuit nu ar măsura corect nivelul parțial. OPTIFLUX presupune conducta plină permanent cu lichid pentru o citire corectă. Alegerea depinde de gradul de umplere real al conductei în punctul de montaj."
+      }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu efectuăm punerea în funcțiune pentru aplicații de custody transfer fără implicarea directă a producătorului și nu emitem calibrări acreditate DAkkS proprii.',
@@ -688,8 +1288,93 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
     ],
     infinitrade: `Aducem cablurile și conectorii Lapp Group prin furnizori din Uniunea Europeană, fără un stoc propriu constant pentru fiecare secțiune sau lungime de cablu. Specificațiile tehnice provin din surse publice ale producătorului german, iar cantitatea disponibilă o confirmăm la furnizor pentru fiecare cerere. Ca formulare generală a firmei, rolele standard din gama ÖLFLEX sau UNITRONIC pot ajunge în 24–72 h din stoc, iar comenzile mari sau cablurile speciale pentru lanț purtător intră pe flux de comandă de 2–6 săptămâni. Spune-ne secțiunea necesară, numărul de fire și mediul de instalare (fix sau mobil) pentru o ofertă rapidă și corectă. Configurarea rețelelor industriale sau testele de compatibilitate EMI complexe rămân în sarcina echipei tale tehnice sau a producătorului.`,
     sources: [
+      {"title":"Cables and Wires - LAPP","url":"https://www.lapp.com/en_US/us/products/cables-and-wires/c/113879","publisher":"Lapp Group","accessed":"2026-09-22"},
       { title: 'LAPP - Company', url: 'https://www.lappgroup.com/company.html', publisher: 'Lapp Holding SE', accessed: '2026-09-22' },
       { title: 'About LAPP - Lapp Group', url: 'https://www.lappgroup.com/company/about-us/lapp-group.html', publisher: 'Lapp Holding SE', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "OLFLEX",
+        "description": "gama principală de cabluri flexibile pentru instalații industriale"
+      },
+      {
+        "code": "OLFLEX CLASSIC 400 P",
+        "description": "cablu flexibil de control pentru aplicații generale"
+      },
+      {
+        "code": "OLFLEX CLASSIC FD 810",
+        "description": "cablu flexibil pentru lanturi porta-cablu, solicitare dinamica"
+      },
+      {
+        "code": "OLFLEX ROBUST 210",
+        "description": "cablu rezistent la ulei și abraziune pentru medii dure"
+      },
+      {
+        "code": "OLFLEX ROBUST 215 C",
+        "description": "cablu ecranat rezistent pentru medii industriale solicitante"
+      },
+      {
+        "code": "OLFLEX ROBUST FD",
+        "description": "cablu robust pentru lanțuri porta-cablu în medii dificile"
+      },
+      {
+        "code": "OLFLEX SOLAR XLWP",
+        "description": "cablu pentru conectarea panourilor fotovoltaice"
+      },
+      {
+        "code": "OLFLEX SOLAR XLS-R",
+        "description": "cablu solar cu rezistenta sporita la radiatii UV"
+      },
+      {
+        "code": "ETHERLINE",
+        "description": "gama de cabluri Ethernet industriale"
+      },
+      {
+        "code": "HITRONIC",
+        "description": "gama de cabluri din fibra optica industriala"
+      },
+      {
+        "code": "UNITRONIC",
+        "description": "gamă de cabluri de date și transmisie de semnal"
+      },
+      {
+        "code": "EPIC",
+        "description": "gama de conectoare industriale"
+      },
+      {
+        "code": "SKINTOP",
+        "description": "gama de presetupe pentru cabluri"
+      },
+      {
+        "code": "SKINTOP ST/STR",
+        "description": "presetupă cu inel de etanșare pentru cabluri rotunde"
+      },
+      {
+        "code": "SILVYN",
+        "description": "gama de tuburi de protectie pentru cabluri"
+      },
+      {
+        "code": "FLEXIMARK",
+        "description": "gamă de sisteme de marcare pentru cabluri și componente"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între cablurile Lapp OLFLEX CLASSIC și OLFLEX ROBUST?",
+        "a": "OLFLEX CLASSIC acoperă aplicații generale de control și alimentare în medii industriale obișnuite, cu o construcție flexibilă standard. OLFLEX ROBUST este gândit pentru medii cu ulei, abraziune sau solicitări mecanice mai mari, având o mantă mai rezistentă. Alegerea corectă depinde de condițiile de mediu și de gradul de solicitare mecanică din instalație."
+      },
+      {
+        "q": "Livrați cabluri și conectori Lapp în România?",
+        "a": "Da, aducem la comandă cabluri și accesorii din gamele OLFLEX, UNITRONIC, SKINTOP sau EPIC, pe baza codului confirmat de client. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul uzual este de 2-6 săptămâni la comandă. Codul complet de pe mantă cablului grăbește identificarea variantei corecte."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de cablu Lapp?",
+        "a": "Menționati numărul de conductori și sectiunea acestora, tensiunea de lucru, dacă este nevoie de ecranare, tipul de mediu (fix, mobil sau lant porta-cablu) și temperatură de funcționare. Pentru presetupe SKINTOP precizați diametrul cablului și tipul filetului, iar pentru cabluri solare menționați tensiunea sistemului fotovoltaic."
+      },
+      {
+        "q": "Ce este o presetupă SKINTOP ST/STR de la Lapp și când se folosește?",
+        "a": "SKINTOP ST/STR este o presetupă cu inel de etanșare, folosită pentru fixarea și etanșarea cablurilor rotunde la intrarea în tablouri sau carcase de echipamente. Varianta STR adaugă rezistență sporită la tracțiune, utilă acolo unde cablul este supus unor solicitări mecanice suplimentare. Alegerea depinde de diametrul cablului și de gradul de protecție cerut de aplicație."
+      }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu configurăm rețele industriale complexe sau teste EMI pentru cablurile Lapp și nu putem garanta disponibilitate neîntreruptă pentru fiecare secțiune sau lungime.',

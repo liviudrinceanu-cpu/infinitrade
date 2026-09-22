@@ -56,8 +56,126 @@ La fiecare proiect căutăm eficiența maximă - benzi care rulează 24/7 fără
     infinitrade: `Pentru gama Habasit de benzi transportoare și curele de proces, la InfiniTrade lucrăm fără date proprii de stoc pentru fiecare cod - aducem produsele la comandă prin canale de aprovizionare din UE. Componentele uzuale din gamă pot ajunge la tine în 24–72 h din stoc, în timp ce benzile speciale sau dimensiunile custom ajung de regulă în 2–6 săptămâni la comandă. Ca să pregătim o ofertă corectă, trimite-ne lățimea și lungimea benzii, tipul de suprafață și aplicația exactă - linie de îmbuteliere, sortare sau transport paleți. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de disponibilitatea reală verificată la momentul comenzii. Pentru configurațiile complexe recomandăm o discuție tehnică înainte de a confirma comanda.`,
     limitation: `Nu putem confirma stocul exact pentru fiecare cod de bandă sau curea Habasit fără o verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
+      {"title":"Products - Habasit conveyor and processing belts","url":"https://www.habasit.com/en/products","publisher":"Habasit","accessed":"2026-09-22"},
+      {"title":"Plastic Modular Belts - HabasitLINK","url":"https://www.habasit.com/en/products/plastic-modular-belts","publisher":"Habasit","accessed":"2026-09-22"},
       { title: 'Habasit – Our history', url: 'https://www.habasit.com/en/About-us/Our-history', publisher: 'Habasit AG', accessed: '2026-09-22' },
       { title: 'Habasit - Global leader in conveyor and power transmission belts', url: 'https://www.habasit.com', publisher: 'Habasit AG', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "M0800",
+        "description": "lanț modular micropitch pentru transferuri înguste"
+      },
+      {
+        "code": "M0870",
+        "description": "bandă micropitch HighGrip-L cu suprafață antiderapantă"
+      },
+      {
+        "code": "M0885",
+        "description": "bandă micropitch Flush Grid cu perforații de drenaj"
+      },
+      {
+        "code": "M1065",
+        "description": "bandă Flat Top HyClean pentru igienă alimentară"
+      },
+      {
+        "code": "M1220",
+        "description": "bandă GripTop cu grosime mărită pentru tracțiune"
+      },
+      {
+        "code": "M1233",
+        "description": "bandă Flush Grid GripTop pentru drenaj și aderență"
+      },
+      {
+        "code": "M1234",
+        "description": "bandă Nub Top Flush Grid cu proeminențe de sprijin"
+      },
+      {
+        "code": "M2470",
+        "description": "bandă GripTop pentru transport pe planuri înclinate"
+      },
+      {
+        "code": "M2483",
+        "description": "bandă Sphere Top cu bile rotative pentru acumulare"
+      },
+      {
+        "code": "M2514",
+        "description": "bandă Nub Top cu suprafață texturată antiaderentă"
+      },
+      {
+        "code": "M2520",
+        "description": "bandă Roller Top pentru acumularea produselor fragile"
+      },
+      {
+        "code": "M2533",
+        "description": "bandă Roller Top cu role incorporate pentru transfer"
+      },
+      {
+        "code": "M2585",
+        "description": "bandă Flush Grid cu deschideri pentru scurgerea lichidelor"
+      },
+      {
+        "code": "M2620",
+        "description": "bandă Roller Top cu contrapresiune redusă la acumulare"
+      },
+      {
+        "code": "M2960",
+        "description": "bandă Flat Top Super HyClean pentru spălare intensivă"
+      },
+      {
+        "code": "M5011",
+        "description": "bandă Flat Top perforată pentru scurgerea lichidelor"
+      },
+      {
+        "code": "M5013",
+        "description": "bandă Cone Top pentru produse rotunde sau cilindrice"
+      },
+      {
+        "code": "M5014",
+        "description": "bandă Nub Top din seria M5000 cu grip sporit"
+      },
+      {
+        "code": "M5015",
+        "description": "bandă GripTop din seria M5000 pentru transport înclinat"
+      },
+      {
+        "code": "M5182",
+        "description": "bandă Roller Top pentru curbe la nouăzeci de grade"
+      },
+      {
+        "code": "M2540",
+        "description": "bandă modulară de rază, variante Flush Grid și GripTop"
+      },
+      {
+        "code": "M3398",
+        "description": "bandă de rază cu profil Curved Top"
+      },
+      {
+        "code": "IS610",
+        "description": "bandă GripTop din seria industrială IS600"
+      },
+      {
+        "code": "FF620",
+        "description": "bandă Fluid-Flo cu canale de drenaj pentru lichide"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între banda HabasitLINK M2500 și seria M5000?",
+        "a": "Seria M2500 este gama standard de benzi modulare cu pas mic, potrivită pentru transport general și acumulare ușoară, în timp ce M5000 oferă module mai late și rezistență sporită pentru sarcini mai mari și aplicații de igienizare intensivă precum industria alimentară."
+      },
+      {
+        "q": "Cum recunosc codul unei benzi Habasit pe eticheta produsului?",
+        "a": "Codul începe cu litera M urmată de patru cifre, de exemplu M2520, care indică familia constructivă, urmat uneori de un sufix ce descrie varianta de suprafață, precum GripTop sau Flush Grid; acest format apare pe eticheta rulei și în documentația tehnică Habasit."
+      },
+      {
+        "q": "Livrați benzi transportoare Habasit în România?",
+        "a": "Da, aducem benzi transportoare și module Habasit la comandă din surse publice ale producătorului, fără a menține un stoc propriu permanent; termenul uzual este de 2-6 săptămâni la comandă, în funcție de serie, lățime și disponibilitatea materialului la fabrică."
+      },
+      {
+        "q": "Ce tip de bandă modulară aleg pentru transport pe curbe?",
+        "a": "Pentru trasee cu curbe se recomandă benzile de rază precum M2540 sau M3398, care au module articulate ce permit rotația pe ambele fețe ale traseului; alegerea între Flush Grid și GripTop depinde de necesitatea de drenaj sau de aderență suplimentară a produsului transportat."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -123,8 +241,102 @@ Filosofia noastră e simplitate și fiabilitate. Întreruptoarele automate au in
     infinitrade: `Gama Hager de aparataj electric și tablouri de distribuție ajunge la clienții InfiniTrade prin canale de aprovizionare din UE; fără date proprii de stoc pentru fiecare referință, verificăm disponibilitatea la fiecare cerere primită. Componentele uzuale (întreruptoare automate, diferențiale) pot fi livrate în 24–72 h din stoc, iar tablourile configurate sau seriile speciale ajung de obicei în 2–6 săptămâni la comandă. Pentru o ofertă corectă, spune-ne curba de declanșare, curentul nominal, numărul de module necesar și tensiunea de lucru a instalației. Nu lucrăm cu prețuri publicate și nu confirmăm un termen fix înainte de a verifica stocul exact al furnizorului pentru codul cerut.`,
     limitation: `Nu oferim configurare software pentru sistemele smart building Hager și nu confirmăm stocul pentru toate variantele de tablouri fără verificare punctuală.`,
     sources: [
+      {"title":"Hager Romania","url":"https://hager.com/ro","publisher":"Hager","accessed":"2026-09-22"},
+      {"title":"MBN420 - MCB 4P 6kA B-20A 4M","url":"https://hager.com/intl-en/catalogue/information/mbn420-mcb-4p-6ka-b-20a-4m","publisher":"Hager","accessed":"2026-09-22"},
       { title: 'Hager Group (istoric companie)', url: 'https://en.wikipedia.org/wiki/Hager_Group', publisher: 'Wikipedia', accessed: '2026-09-22' },
       { title: 'Hager România', url: 'https://hager.com/ro', publisher: 'Hager Group', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "MBN316",
+        "description": "întrerupător automat MCB 3P 6kA curbă B 16A"
+      },
+      {
+        "code": "MBN510E",
+        "description": "întrerupător automat MCB 1P+N 6kA curbă B 10A"
+      },
+      {
+        "code": "MBN125E",
+        "description": "întrerupător automat MCB 1P 6kA curbă B 25A"
+      },
+      {
+        "code": "MBN116E",
+        "description": "întrerupător automat MCB 1P 6kA curbă B 16A"
+      },
+      {
+        "code": "MBN340E",
+        "description": "întrerupător automat MCB 3P 6kA curbă B 40A"
+      },
+      {
+        "code": "MBN106E",
+        "description": "întrerupător automat MCB 1P 6kA curbă B 6A"
+      },
+      {
+        "code": "MBN113E",
+        "description": "întrerupător automat MCB 1P 6kA curbă B 13A"
+      },
+      {
+        "code": "MBN420",
+        "description": "întrerupător automat MCB 4P 6kA curbă B 20A"
+      },
+      {
+        "code": "MBN516E",
+        "description": "întrerupător automat MCB 1P+N 6kA curbă B 16A"
+      },
+      {
+        "code": "BE464",
+        "description": "bloc de protecție diferențială 4P 63A 100mA clasa AC"
+      },
+      {
+        "code": "BD426",
+        "description": "bloc de protecție diferențială 4P 25A 30mA clasa AC"
+      },
+      {
+        "code": "BF426",
+        "description": "bloc de protecție diferențială 4P 25A 300mA clasa AC"
+      },
+      {
+        "code": "BR464N",
+        "description": "bloc de protecție diferențială 4P 63A 500mA clasa AC-S"
+      },
+      {
+        "code": "NCN240A",
+        "description": "întrerupător automat MCB 2P 10/15kA curbă C 40A"
+      },
+      {
+        "code": "NCN204A",
+        "description": "întrerupător automat MCB 2P 10/15kA curbă C 4A"
+      },
+      {
+        "code": "NEN150",
+        "description": "întrerupător automat MCB 1P 6/10kA curbă B 50A"
+      },
+      {
+        "code": "HMX410",
+        "description": "întrerupător automat MCB 4P 50kA curbă C 10A"
+      },
+      {
+        "code": "HMX363",
+        "description": "întrerupător automat MCB 3P 50kA curbă C 63A"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul MBN316 la un întrerupător Hager?",
+        "a": "Codul MBN316 descrie un întrerupător automat modular Hager trifazat, cu putere de rupere de 6kA, curbă de declanșare B și curent nominal de 16A; structura codului urmează logica seriei MBN, unde cifrele finale indică numărul de poli, curentul și, uneori, varianta de bornă."
+      },
+      {
+        "q": "Care este diferența dintre seria MBN și seria NCN la Hager?",
+        "a": "Seria MBN acoperă întrerupătoarele automate standard cu putere de rupere de 6kA pentru instalații casnice obișnuite, în timp ce seria NCN oferă capacitate de rupere mai mare, de 10 sau 15kA, recomandată pentru tablouri cu curenți de scurtcircuit ridicați sau cerințe industriale mai stricte."
+      },
+      {
+        "q": "Livrați componente Hager pentru tablouri electrice în România?",
+        "a": "Da, aducem întrerupătoare, blocuri diferențiale și accesorii Hager la comandă, pe baza informațiilor publice din cataloagele producătorului, fără a ține stoc propriu constant; timpul obișnuit de aprovizionare este de 2-6 săptămâni la comandă, în funcție de model și cantitate."
+      },
+      {
+        "q": "La ce folosesc blocurile de protecție diferențială precum BD426?",
+        "a": "Blocurile precum BD426 se atașează sub un întrerupător automat existent pentru a adăuga protecție diferențială fără a înlocui întregul aparat; codul indică numărul de poli, curentul nominal și sensibilitatea de declanșare, aici 25A și 30mA, potrivită pentru circuite cu risc de electrocutare."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -190,8 +402,110 @@ Pentru Industrie 4.0 am dezvoltat ecosistemul MICA - Mini Computer pentru aplica
     infinitrade: `Nu avem informații proprii despre stocul exact al fiecărui conector Harting, așa că ne bazăm pe surse publice ale producătorului și pe verificarea directă la fiecare cerere primită. Aducem conectorii Han, switch-urile Ethernet industriale și componentele RFID prin canale de aprovizionare din UE. Variantele standard pot fi disponibile în 24–72 h din stoc, iar configurațiile custom (inserții speciale, protecție IP69K) ajung de regulă în 2–6 săptămâni la comandă. Trimite-ne codul complet al conectorului sau, dacă nu îl ai, numărul de pini, tipul de inserție și gradul de protecție necesar, ca să evităm confuziile de compatibilitate. Nu confirmăm prețuri fără o cerere punctuală și nu garantăm termenul pentru referințele rar solicitate.`,
     limitation: `Nu confirmăm disponibilitatea pentru toate combinațiile de inserții Han fără verificare punctuală și nu oferim service în garanția producătorului pentru echipamentele Harting.`,
     sources: [
+      {"title":"HARTING Technology Group","url":"https://www.harting.com/en-gb","publisher":"HARTING","accessed":"2026-09-22"},
+      {"title":"Series overview - HARTING","url":"https://www.harting.com/en-SG/s","publisher":"HARTING","accessed":"2026-09-22"},
       { title: 'HARTING Technology Group | HARTING Technology Group', url: 'https://www.harting.com/en-gb/company', publisher: 'HARTING Technology Group', accessed: '2026-09-22' },
       { title: 'HARTING Technology Group - homepage', url: 'https://www.harting.com/en-gb', publisher: 'HARTING Technology Group', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Han 3A-HBM-SL",
+        "description": "conector industrial din seria Han 3A"
+      },
+      {
+        "code": "Han-Eco",
+        "description": "conector industrial din material plastic ușor"
+      },
+      {
+        "code": "har-flexicon",
+        "description": "conector PCB miniaturizat cu pas de 1,27mm"
+      },
+      {
+        "code": "HARTING ix Industrial",
+        "description": "conector Ethernet industrial compact și robust"
+      },
+      {
+        "code": "HARTING PushPull",
+        "description": "conector modular pentru date și alimentare"
+      },
+      {
+        "code": "HARTING RJ Industrial",
+        "description": "sistem de conector Ethernet RJ45 industrial"
+      },
+      {
+        "code": "HARTING T1 Industrial",
+        "description": "conector Single Pair Ethernet pentru automatizare"
+      },
+      {
+        "code": "Han HPR PYD",
+        "description": "fișă de putere pentru distribuție de tip Y"
+      },
+      {
+        "code": "Han-Modular",
+        "description": "standard de conectori industriali modulari configurabili"
+      },
+      {
+        "code": "preLink",
+        "description": "sistem de cablare universal pentru rețele de date"
+      },
+      {
+        "code": "har-flex",
+        "description": "conector PCB miniaturizat pentru aplicații compacte"
+      },
+      {
+        "code": "Han Ex",
+        "description": "conector pentru zone cu risc de explozie"
+      },
+      {
+        "code": "M12",
+        "description": "conector circular pentru senzori și aplicații industriale"
+      },
+      {
+        "code": "har-modular",
+        "description": "sistem configurabil de conectori pentru placă"
+      },
+      {
+        "code": "Han HPR HPTC",
+        "description": "interfață pentru transmisia curentului de mare intensitate"
+      },
+      {
+        "code": "Han-Snap",
+        "description": "conector compact cu montare rapidă fără scule"
+      },
+      {
+        "code": "SEK",
+        "description": "conector cu deplasare de izolație pentru cabluri"
+      },
+      {
+        "code": "Han 1A",
+        "description": "conector pentru transmisie de putere, date și semnal"
+      },
+      {
+        "code": "Han-Yellock",
+        "description": "conector de mare densitate cu închidere rapidă"
+      },
+      {
+        "code": "Han HMC",
+        "description": "conector cu număr ridicat de cicluri de mateare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între conectorii Han-Eco și Han-Modular de la Harting?",
+        "a": "Han-Eco este o gamă de carcase din plastic, mai ușoare și mai economice, potrivite pentru aplicații generale, în timp ce Han-Modular permite combinarea liberă a modulelor de contacte pentru semnal, putere, date sau aer și lichide într-o singură carcasă, pentru aplicații mai complexe și configurabile."
+      },
+      {
+        "q": "Cum aleg conectorul potrivit dintr-o gamă Harting atât de largă?",
+        "a": "Alegerea pornește de la mediul de lucru și numărul de contacte necesare: pentru rețele se caută seria HARTING RJ Industrial sau ix Industrial, pentru putere și semnal mixte se alege Han-Modular, iar pentru zone explozive se optează pentru varianta Han Ex; specificațiile complete se verifică în selectorul tehnic al producătorului."
+      },
+      {
+        "q": "Livrați conectori industriali Harting pentru automatizări în România?",
+        "a": "Da, aducem conectori și accesorii Harting la comandă, pe baza cataloagelor și fișelor tehnice publice ale producătorului, fără gama pe raft ținut permanent; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de serie, configurația de contacte și cantitatea solicitată."
+      },
+      {
+        "q": "Ce este un conector Han-Yellock și când se folosește?",
+        "a": "Han-Yellock este o familie de conectori de mare densitate cu sistem de închidere rapidă cu o singură mână, gândită pentru spații reduse și cicluri frecvente de conectare-deconectare, fiind folosită frecvent în mașini modulare, roboți mobili și echipamente unde accesul la conector este limitat."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -257,7 +571,68 @@ Investim masiv în cercetare - laborator propriu de testare cu echipamente de ul
     infinitrade: `Cablurile Helukabel ajung la clienții InfiniTrade prin canale de aprovizionare din UE, tăiate la metrul solicitat - fără date proprii de stoc pentru fiecare secțiune sau tip de manta, verificăm disponibilitatea reală înainte de a promite un termen. Pentru cablurile din gama standard (comandă, semnal) termenul uzual e 24–72 h din stoc, iar pentru cablurile speciale (lanț portcablu, temperaturi extreme) calculează 2–6 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne tipul de cablu, secțiunea conductorilor, numărul de fire și lungimea necesară. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de cantitate și disponibilitatea reală la momentul comenzii.`,
     limitation: `Nu putem confirma stocul exact pentru fiecare secțiune și tip de manta din portofoliul Helukabel fără o verificare punctuală la comandă.`,
     sources: [
+      {"title":"JZ-500 / OZ-500 datasheet","url":"https://assets-cdn.helukabel.com/suppliers/Helukabel/documents/db/HELUKABEL_M10001_EN_GB.pdf","publisher":"Helukabel","accessed":"2026-09-22"},
       { title: 'Helukabel (istoric companie)', url: 'https://de.wikipedia.org/wiki/Helukabel', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "TOPFLEX-611 C-PUR",
+        "description": "cablu flexibil cu manta PUR pentru lanțuri port-cablu"
+      },
+      {
+        "code": "TOPFLEX-EMV-UV-2XSLCH-J",
+        "description": "cablu ecranat rezistent la UV pentru compatibilitate electromagnetică"
+      },
+      {
+        "code": "TOPFLEX-300",
+        "description": "cablu monofilar flexibil PVC pentru lanț port-cablu"
+      },
+      {
+        "code": "JZ-500",
+        "description": "cablu de comandă PVC cu conductor de protecție"
+      },
+      {
+        "code": "OZ-500",
+        "description": "cablu de comandă PVC fără conductor de protecție"
+      },
+      {
+        "code": "H07RN-F",
+        "description": "cablu cu manta din cauciuc pentru uz greu"
+      },
+      {
+        "code": "PAAR-TRONIC",
+        "description": "cablu ecranat pentru semnal și transmisie de date"
+      },
+      {
+        "code": "PAAR-TRONIC-CY",
+        "description": "cablu ecranat cu tresă de cupru pentru compatibilitate EMC"
+      },
+      {
+        "code": "LiYCY-P",
+        "description": "cablu ecranat torsadat pentru instrumentație"
+      },
+      {
+        "code": "HELUKAT",
+        "description": "cablu de date din cupru pentru rețele industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între cablurile JZ-500 și OZ-500 de la Helukabel?",
+        "a": "Diferența principală este firul de protecție: JZ-500 include un conductor verde-galben de împământare, în timp ce OZ-500 este varianta fără acest conductor, folosită acolo unde împământarea se asigură separat; ambele sunt cabluri de comandă PVC cu structură și rezistență mecanică similare."
+      },
+      {
+        "q": "Cum recunosc un cablu potrivit pentru lanț port-cablu în gama Helukabel?",
+        "a": "Cablurile destinate lanțurilor port-cablu poartă în denumire seria TOPFLEX, precum TOPFLEX-300 sau TOPFLEX-611 C-PUR, concepute cu manta rezistentă la torsiune și flexare repetată; pentru medii cu ulei sau expunere UV se aleg variantele cu manta PUR sau cu aditivi speciali menționați în fișa tehnică."
+      },
+      {
+        "q": "Livrați cabluri industriale Helukabel în România la comandă?",
+        "a": "Da, aducem cabluri Helukabel la comandă, pe baza fișelor tehnice și cataloagelor publice ale producătorului, fără a menține stoc propriu constant; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de secțiune, lungimea de tăiere și disponibilitatea la fabricant."
+      },
+      {
+        "q": "Ce este un cablu HELUKAT și pentru ce se folosește?",
+        "a": "HELUKAT este familia de cabluri de date din cupru pentru rețele industriale Ethernet, disponibilă în variante ecranate și neecranate, potrivite pentru automatizare, transmisie de date la viteze ridicate și medii cu perturbații electromagnetice; alegerea categoriei depinde de viteza de transfer necesară și de mediul de instalare."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -323,8 +698,94 @@ Investim masiv în R&D - laborator de testare cu benzi de simulare condiții rea
     infinitrade: `Filtrele Hengst (ulei, hidraulice, separatoare apă-combustibil) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru codul exact cerut - fără date proprii de stoc pentru fiecare cod OEM. Informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o verificăm punctual pentru fiecare cerere. Codurile mai căutate pot ajunge în 24–72 h din stoc, dar pentru filtrele rare sau seriile speciale termenul e de regulă 2–6 săptămâni la comandă. Pentru identificarea corectă, trimite-ne codul echipamentului - motor, generator sau pompă - sau codul OEM al filtrului vechi, plus cantitatea necesară. Nu confirmăm compatibilitatea sau termenul fără să vedem specificațiile complete ale aplicației tale.`,
     limitation: `Nu confirmăm compatibilitatea unui filtru Hengst cu un anumit echipament fără codul OEM exact și nu oferim service în garanția producătorului.`,
     sources: [
+      {"title":"Products - Hengst Filtration","url":"https://www.hengst.com/en/products/","publisher":"Hengst Filtration","accessed":"2026-09-22"},
+      {"title":"Filter Elements for hydraulic systems","url":"https://www.hengst.com/en/products/productgroups/54-hydraulic-filtration/98-filter-element","publisher":"Hengst Filtration","accessed":"2026-09-22"},
       { title: 'About us | Hengst Filtration', url: 'https://www.hengst.com/en/company/', publisher: 'Hengst SE', accessed: '2026-09-22' },
       { title: 'Home | Hengst Filtration', url: 'https://www.hengst.com', publisher: 'Hengst SE', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "RE 51515",
+        "description": "element filtrant hidraulic tip 1 pentru sisteme industriale"
+      },
+      {
+        "code": "RE 51517",
+        "description": "element filtrant hidraulic tip 2 cu eficiență ridicată"
+      },
+      {
+        "code": "RE 51519",
+        "description": "element filtrant hidraulic tip 4 pentru filtrare fină"
+      },
+      {
+        "code": "RE 51521",
+        "description": "element filtrant hidraulic tip 6 pentru retur de ulei"
+      },
+      {
+        "code": "RE 51523",
+        "description": "element filtrant hidraulic tip 7 pentru presiune medie"
+      },
+      {
+        "code": "RE 51525",
+        "description": "element filtrant hidraulic tip 20 de capacitate mare"
+      },
+      {
+        "code": "RE 51527",
+        "description": "element filtrant hidraulic tip 2.Z, variantă întărită"
+      },
+      {
+        "code": "RE 51529",
+        "description": "element filtrant hidraulic tip 9 pentru aspirație"
+      },
+      {
+        "code": "RE 51531",
+        "description": "element filtrant hidraulic tip 10 pentru presiune înaltă"
+      },
+      {
+        "code": "RE 51533",
+        "description": "element filtrant hidraulic tip 16 de uz general"
+      },
+      {
+        "code": "RE 51535",
+        "description": "element filtrant hidraulic tip 18 pentru sisteme mobile"
+      },
+      {
+        "code": "RE 51487",
+        "description": "cartuș filtrant de schimb pentru carcase de tip Eaton"
+      },
+      {
+        "code": "RE 51537",
+        "description": "element filtrant tip Celludisc pentru particule fine"
+      },
+      {
+        "code": "HE 51485",
+        "description": "cartuș filtrant tip spin-on, dimensiune 16"
+      },
+      {
+        "code": "HE 51479",
+        "description": "cartuș filtrant tip spin-on, dimensiune 80"
+      },
+      {
+        "code": "HE 51480",
+        "description": "cartuș filtrant tip spin-on, dimensiune 81"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce reprezintă codurile RE de la fișele tehnice Hengst?",
+        "a": "Codurile RE, precum RE 51515 sau RE 51531, sunt numerele fișelor tehnice publicate de Hengst pentru fiecare tip de element filtrant hidraulic; fiecare fișă descrie dimensiunile, materialul mediului filtrant și gradul de filtrare al elementului corespunzător tipului numeric menționat în denumire."
+      },
+      {
+        "q": "Cum aleg elementul de schimb corect pentru o carcasă Hengst?",
+        "a": "Alegerea corectă pornește de la tipul original montat pe carcasă, indicat pe eticheta filtrului sau în manualul echipamentului; se caută apoi fișa tehnică Hengst corespunzătoare acelui tip pentru a confirma dimensiunile de montaj, filetul și gradul de filtrare înainte de comandă."
+      },
+      {
+        "q": "Livrați filtre hidraulice Hengst pentru utilaje industriale în România?",
+        "a": "Da, aducem elemente filtrante Hengst la comandă, pornind de la fișele tehnice publice ale producătorului, fără a păstra un stoc propriu constant; termenul de livrare uzual este de 2-6 săptămâni la comandă, în funcție de tipul elementului și disponibilitatea la fabrică."
+      },
+      {
+        "q": "Ce diferență există între elementele tip 6 și tip 18 la Hengst?",
+        "a": "Diferența constă în principal în capacitatea de reținere și presiunea de lucru: elementele cu numărul de tip mai mic sunt gândite pentru debite și presiuni mai reduse, în timp ce tipurile cu numere mai mari, precum tipul 18, sunt destinate sistemelor hidraulice mobile cu solicitări mai ridicate."
+      }
     ],
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
@@ -390,8 +851,101 @@ Investim enorm în inovație. Centrul nostru de cercetare din Liechtenstein test
     infinitrade: `Sculele și sistemele de ancoraj Hilti ajung la InfiniTrade prin canale de aprovizionare din UE - fără un stoc propriu care să acopere toată gama, verificăm disponibilitatea înainte de fiecare confirmare. Pentru specificațiile tehnice ne bazăm pe informațiile publice disponibile ale producătorului. Accesoriile și consumabilele uzuale (burghie, cartușe de rășină) pot fi livrate în 24–72 h din stoc, iar sculele sau kiturile mai specializate ajung de obicei în 2–6 săptămâni la comandă. Pentru o ofertă corectă, spune-ne modelul exact, tensiunea bateriei dacă e cazul, și aplicația - tipul de material și diametrul de găurire. Nu emitem prețuri fără o cerere concretă și nu promitem termene fixe pentru modelele rar cerute.`,
     limitation: `Nu oferim service în garanția producătorului pentru sculele Hilti și nu confirmăm stocul exact al fiecărui model fără verificare punctuală.`,
     sources: [
+      {"title":"Chemical anchors - Hilti USA","url":"https://www.hilti.com/c/CLS_FASTENER_7135/CLS_CHEMICAL_ANCHORS_7135","publisher":"Hilti","accessed":"2026-09-22"},
       { title: 'Hilti (istoric companie)', url: 'https://en.wikipedia.org/wiki/Hilti', publisher: 'Wikipedia', accessed: '2026-09-22' },
       { title: 'Power Tools, Fasteners & Software for Construction - Hilti USA', url: 'https://www.hilti.com', publisher: 'Hilti Corporation', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "HIT-HY 200-R V3",
+        "description": "mortar hibrid pentru ancorare chimică, întărire normală"
+      },
+      {
+        "code": "HIT-HY 200-A V3",
+        "description": "mortar hibrid pentru ancorare chimică, întărire accelerată"
+      },
+      {
+        "code": "HIT-RE 500 V3",
+        "description": "mortar epoxidic injectabil pentru ancorare structurală"
+      },
+      {
+        "code": "HIT-FP 700 R",
+        "description": "adeziv cimentos injectabil pentru ancorare în zidărie"
+      },
+      {
+        "code": "HIT-HY 270",
+        "description": "mortar hibrid injectabil pentru ancorare în zidărie"
+      },
+      {
+        "code": "HIT-RE 100",
+        "description": "mortar epoxidic injectabil pentru ancorare structurală"
+      },
+      {
+        "code": "HIT-HY 100",
+        "description": "mortar hibrid injectabil pentru ancorare general"
+      },
+      {
+        "code": "HVU2",
+        "description": "capsulă din folie pentru ancore de mare capacitate"
+      },
+      {
+        "code": "Kwik-X",
+        "description": "ancoră cu acțiune dublă combinată cu capsulă adezivă"
+      },
+      {
+        "code": "Kwik-X CRC",
+        "description": "ancoră cu acțiune dublă rezistentă la coroziune"
+      },
+      {
+        "code": "Kwik-X SS316",
+        "description": "ancoră cu acțiune dublă din oțel inoxidabil"
+      },
+      {
+        "code": "KHC",
+        "description": "capsulă adezivă pentru sistemul dual Kwik-X"
+      },
+      {
+        "code": "TE 30-22",
+        "description": "ciocan rotopercutor pe acumulator, prindere SDS-Plus"
+      },
+      {
+        "code": "TE 30-AVR",
+        "description": "ciocan rotopercutor cu cablu și amortizare de vibrații"
+      },
+      {
+        "code": "TE 30",
+        "description": "ciocan rotopercutor cu cablu, prindere SDS-Plus"
+      },
+      {
+        "code": "TE 6-22",
+        "description": "ciocan rotopercutor compact pe acumulator"
+      },
+      {
+        "code": "TE 6-CL",
+        "description": "ciocan rotopercutor compact cu cablu"
+      },
+      {
+        "code": "TE 30-A36",
+        "description": "ciocan rotopercutor pe acumulator de 36V"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între mortarul HIT-HY 200-A și HIT-HY 200-R de la Hilti?",
+        "a": "Diferența este timpul de întărire: varianta A, accelerată, atinge rezistența de manipulare mai repede și este recomandată pentru temperaturi scăzute, în timp ce varianta R, normală, are un timp de lucru mai lung, util la montaje cu mai multe ancore sau temperaturi ambientale ridicate."
+      },
+      {
+        "q": "Ce ciocan rotopercutor Hilti aleg pentru găuri SDS-Plus de uz frecvent?",
+        "a": "Pentru găurire frecventă în beton cu prindere SDS-Plus se potrivesc modelele din seria TE 6 și TE 30, disponibile atât cu cablu, cât și pe acumulator; alegerea depinde de diametrul găurii, greutatea acceptată la lucrul deasupra capului și de autonomia dorită pe șantier."
+      },
+      {
+        "q": "Livrați ancore chimice și scule Hilti în România la comandă?",
+        "a": "Da, aducem produse Hilti precum mortare de ancorare și ciocane rotopercutoare la comandă, pe baza fișelor tehnice publice ale producătorului, fără a menține stoc propriu constant; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și cantitate."
+      },
+      {
+        "q": "Ce este sistemul Kwik-X și cum diferă de un mortar injectabil clasic?",
+        "a": "Kwik-X combină o ancoră mecanică cu o capsulă adezivă, oferind acțiune dublă de fixare, spre deosebire de mortarele injectabile precum HIT-HY sau HIT-RE, care se bazează exclusiv pe legătura chimică dintre tijă, mortar și suport; sistemul dual poate reduce timpul de instalare la anumite aplicații."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -457,8 +1011,69 @@ Investim masiv în cercetare - laborator de calibrare cu gaze certificate, camer
     infinitrade: `Detectoarele de gaz Honeywell Analytics ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru gazul și rangeul de măsură cerut. Nu putem confirma disponibilitatea unui cod anume fără o verificare punctuală, așa că întrebăm întotdeauna specificațiile exacte înainte de ofertă. Pentru senzorii și piesele mai comune termenul poate fi 24–72 h din stoc, iar pentru sistemele centralizate sau senzorii speciali calculează 2–6 săptămâni la comandă. Trimite-ne tipul de gaz de detectat, rangeul de măsură necesar și tipul de ieșire dorit - 4-20mA sau Modbus - pentru o ofertă corectă. Nu oferim prețuri orientative fără cerere și nu confirmăm certificarea SIL fără documentația exactă a aplicației tale.`,
     limitation: `Nu efectuăm calibrarea sau certificarea SIL a detectoarelor Honeywell Analytics - acestea rămân în sarcina producătorului sau a unui laborator acreditat.`,
     sources: [
+      {"title":"Gas and Flame Detection - Honeywell","url":"https://automation.honeywell.com/us/en/products/sensing-solutions/gas-and-flame-detection","publisher":"Honeywell","accessed":"2026-09-22"},
       { title: 'Our History', url: 'https://www.honeywell.com/us/en/company/our-history', publisher: 'Honeywell International Inc.', accessed: '2026-09-22' },
       { title: 'About Honeywell Technologies: Building, Process & Industrial Automation', url: 'https://www.honeywell.com/us/en/company/about-us', publisher: 'Honeywell International Inc.', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Sensepoint XCD",
+        "description": "detector fix de gaz cu montaj universal"
+      },
+      {
+        "code": "Searchpoint Optima Plus",
+        "description": "detector punctual infraroșu pentru gaze inflamabile"
+      },
+      {
+        "code": "Searchline Excel Open Path",
+        "description": "detector de gaz cu cale optică deschisă"
+      },
+      {
+        "code": "Searchline Excel Edge",
+        "description": "detector de gaz cu cale deschisă, versiune compactă"
+      },
+      {
+        "code": "Searchline Excel Cross-Duct",
+        "description": "detector de gaz montat pe conductă de ventilație"
+      },
+      {
+        "code": "Searchline Excel Plus",
+        "description": "detector de gaz cu cale optică deschisă, versiune extinsă"
+      },
+      {
+        "code": "XNX Universal Transmitter",
+        "description": "transmițător universal pentru capete de detecție a gazului"
+      },
+      {
+        "code": "GasAlertMicroClip XL",
+        "description": "detector portabil de gaze multiple"
+      },
+      {
+        "code": "BW Solo",
+        "description": "detector portabil pentru un singur tip de gaz"
+      },
+      {
+        "code": "BW MCXL-XWHM-Y-NA",
+        "description": "detector portabil multigaz, configurație specifică"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între Sensepoint XCD și Searchpoint Optima Plus de la Honeywell?",
+        "a": "Sensepoint XCD este un detector fix cu senzor electrochimic sau catalitic, potrivit pentru o gamă largă de gaze toxice și inflamabile, în timp ce Searchpoint Optima Plus folosește tehnologie infraroșu punctuală, recomandată pentru gaze inflamabile în medii unde senzorii catalitici s-ar putea otrăvi mai ușor."
+      },
+      {
+        "q": "Ce este un transmițător universal XNX și la ce detectoare Honeywell se conectează?",
+        "a": "XNX Universal Transmitter este un modul central care preia semnalul de la diverse capete de detecție a gazului, electrochimice, catalitice sau infraroșu, și îl transmite mai departe către sistemul de control; este compatibil cu mai multe familii de senzori din portofoliul de detecție a gazelor."
+      },
+      {
+        "q": "Livrați detectoare de gaz Honeywell Analytics în România la comandă?",
+        "a": "Da, aducem detectoare fixe și portabile de gaz din portofoliul Honeywell Analytics la comandă, pe baza fișelor tehnice publice ale producătorului, fără a menține un stoc propriu permanent; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și configurație."
+      },
+      {
+        "q": "Ce diferență este între un detector portabil GasAlertMicroClip XL și unul BW Solo?",
+        "a": "GasAlertMicroClip XL este un detector portabil multigaz, capabil să monitorizeze simultan mai mulți parametri, în timp ce BW Solo este un detector cu un singur senzor, mai simplu și mai compact, gândit pentru monitorizarea unui singur pericol specific, precum hidrogenul sulfurat sau oxigenul."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -524,8 +1139,85 @@ Pentru protecție respiratorie oferim gama completă: măști filtrante FFP1/FFP
     infinitrade: `Echipamentele de protecție Honeywell Safety (mănuși, ochelari, harnașamente) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru cantitățile solicitate. Fără date proprii de stoc pentru toate mărimile și modelele, verificăm disponibilitatea reală înainte de a confirma un termen. Modelele curente din gama de mănuși și ochelari pot ajunge în 24–72 h din stoc, iar comenzile mari de harnașamente sau seriile speciale ajung de obicei în 2–6 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne modelul, mărimile necesare și cantitatea totală comandată. Evaluarea de risc la locul de muncă rămâne responsabilitatea angajatorului conform legislației - noi oferim echipamentul potrivit specificațiilor pe care ni le trimiți.`,
     limitation: `Nu realizăm evaluarea de risc la locul de muncă pentru echipamentele Honeywell Safety - aceasta rămâne responsabilitatea angajatorului conform legislației.`,
     sources: [
+      {"title":"Personal Protective Equipment - Honeywell","url":"https://automation.honeywell.com/us/en/pip-hsp","publisher":"Honeywell","accessed":"2026-09-22"},
       { title: 'Our History', url: 'https://www.honeywell.com/us/en/company/our-history', publisher: 'Honeywell International Inc.', accessed: '2026-09-22' },
       { title: 'About Honeywell Technologies: Building, Process & Industrial Automation', url: 'https://www.honeywell.com/us/en/company/about-us', publisher: 'Honeywell International Inc.', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Uvex Genesis",
+        "description": "ochelari de protecție cu design ergonomic"
+      },
+      {
+        "code": "Uvex Genesis X2",
+        "description": "ochelari de protecție cu lentilă curbată extinsă"
+      },
+      {
+        "code": "Uvex Genesis XC",
+        "description": "ochelari de protecție cu lentilă anti-condens"
+      },
+      {
+        "code": "Titan II Non-Stretch",
+        "description": "ham de siguranță anti-cădere fără elasticitate"
+      },
+      {
+        "code": "Titan Harness-Lanyard Combo",
+        "description": "set ham și lonjă anti-cădere pentru lucru la înălțime"
+      },
+      {
+        "code": "Titan II Pack Lanyard",
+        "description": "lonjă cu absorbție de șoc, tip pachet compact"
+      },
+      {
+        "code": "Pro-Hood Arc Flash",
+        "description": "glugă de protecție împotriva arcului electric"
+      },
+      {
+        "code": "AFHOOD20",
+        "description": "glugă de protecție pentru arc electric, nivel ridicat"
+      },
+      {
+        "code": "AFHOOD10",
+        "description": "glugă de protecție pentru arc electric, nivel de bază"
+      },
+      {
+        "code": "PRO-WEAR 100 cal/cm2",
+        "description": "kit complet de protecție la arc electric"
+      },
+      {
+        "code": "AS1200-CE",
+        "description": "vizieră de protecție facială pentru arc electric"
+      },
+      {
+        "code": "North Zone Hard Hat",
+        "description": "cască de protecție cu bor complet"
+      },
+      {
+        "code": "Arc Flash Coverall Kit",
+        "description": "combinezon de protecție împotriva arcului electric"
+      },
+      {
+        "code": "HN-1",
+        "description": "plasă de păr ignifugă pentru zone cu risc de arc"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între ochelarii Uvex Genesis și Uvex Genesis X2 de la Honeywell?",
+        "a": "Genesis, în varianta de bază, oferă o lentilă standard curbată pentru un câmp vizual larg, în timp ce Genesis X2 vine cu o lentilă extinsă lateral pentru protecție suplimentară a zonei temporale, fiind recomandată acolo unde riscul de particule laterale este mai ridicat, de exemplu la polizare sau tăiere."
+      },
+      {
+        "q": "La ce folosesc gluga AFHOOD20 și când aleg varianta AFHOOD10?",
+        "a": "AFHOOD20 este o glugă de protecție la arc electric cu un nivel de energie incidentă acoperit mai mare, folosită la lucrări cu risc ridicat, în timp ce AFHOOD10 acoperă un nivel de protecție mai scăzut, potrivit pentru operațiuni cu expunere redusă la arc electric conform evaluării de risc a locului de muncă."
+      },
+      {
+        "q": "Livrați echipamente de protecție Honeywell în România la comandă?",
+        "a": "Da, aducem ochelari, hamuri anti-cădere și echipamente de protecție la arc electric din portofoliul Honeywell la comandă, pe baza fișelor tehnice publice ale producătorului, fără gama pe raft ținut permanent; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și mărime."
+      },
+      {
+        "q": "Ce rol are lonja Titan II Pack Lanyard într-un sistem anti-cădere?",
+        "a": "Lonja Titan II Pack Lanyard absoarbe energia unei căderi prin desfacerea unui pachet de material cusut, reducând forța transmisă corpului utilizatorului; se folosește împreună cu un ham integral și un punct de ancorare certificat, fiind concepută pentru lucrul la înălțime în șantiere sau industrie."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -591,8 +1283,78 @@ Investim masiv în senzori inteligenți și IoT industrial. Senzorii noștri de 
     infinitrade: `Componentele hidraulice Hydac (acumulatoare, răcitoare, senzori de presiune) ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru presiunea și volumul cerut de aplicația ta. Fără date proprii de stoc pentru fiecare variantă, verificăm disponibilitatea exactă la fiecare cerere primită. Componentele standard din gamă pot fi livrate în 24–72 h din stoc, iar acumulatoarele sau senzorii cu specificații particulare ajung de regulă în 2–6 săptămâni la comandă. Pentru o ofertă corectă, trimite-ne presiunea de lucru, volumul necesar pentru acumulatoare sau rangeul de măsură pentru senzori, plus tipul de conexiune. Nu confirmăm prețuri fără o cerere punctuală și nu putem garanta un termen fix pentru variantele rar solicitate.`,
     limitation: `Nu confirmăm stocul exact pentru fiecare variantă de acumulator sau senzor Hydac fără o verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
+      {"title":"HYDAC - product portfolio","url":"https://www.hydac.com","publisher":"Hydac","accessed":"2026-09-22"},
+      {"title":"Hydraulic Accumulators - HYDAC","url":"https://www.hydac.com/shop/en/hydraulic-accumulators","publisher":"Hydac","accessed":"2026-09-22"},
       { title: 'Hydraulics, electronics & filters since 1963 | HYDAC', url: 'https://www.hydac.com', publisher: 'HYDAC International GmbH', accessed: '2026-09-22' },
       { title: 'The HYDAC Group – About us | HYDAC', url: 'https://www.hydac.com/en/company/', publisher: 'HYDAC International GmbH', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "HDA 4000",
+        "description": "traductor de presiune electronic pentru hidraulică"
+      },
+      {
+        "code": "HDA 4700",
+        "description": "traductor de presiune pentru zone cu risc de explozie"
+      },
+      {
+        "code": "HDA 4000-HC",
+        "description": "traductor de presiune cu detecție senzor tip HCSI"
+      },
+      {
+        "code": "HDA 4000-H",
+        "description": "traductor de presiune cu detecție senzor tip HSI"
+      },
+      {
+        "code": "SB330-1A1/112U-330A",
+        "description": "acumulator hidraulic cu membrană, configurație specifică"
+      },
+      {
+        "code": "SB330-32F1/112U-210C",
+        "description": "acumulator hidraulic cu membrană, variantă de volum mare"
+      },
+      {
+        "code": "SB330-10F1/112U-210C",
+        "description": "acumulator hidraulic cu membrană, variantă compactă"
+      },
+      {
+        "code": "EDS 4000",
+        "description": "presostat electronic pentru monitorizarea presiunii hidraulice"
+      },
+      {
+        "code": "EDS 410",
+        "description": "presostat electronic tip OEM pentru integrare în echipamente"
+      },
+      {
+        "code": "HPG 3000",
+        "description": "traductor portabil de presiune pentru diagnoză hidraulică"
+      },
+      {
+        "code": "OK-ELD",
+        "description": "răcitor de ulei cu ventilator electric"
+      },
+      {
+        "code": "CS 1500",
+        "description": "senzor pentru monitorizarea contaminării solide din ulei"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între traductoarele HDA 4000 și HDA 4700 de la Hydac?",
+        "a": "HDA 4000 este traductorul standard de presiune electronic pentru aplicații hidraulice obișnuite, în timp ce HDA 4700 este varianta certificată pentru zone cu atmosferă potențial explozivă, având o carcasă și un circuit electronic adaptate cerințelor de siguranță specifice mediilor cu risc de explozie."
+      },
+      {
+        "q": "Cum aleg acumulatorul hidraulic potrivit din seria SB330 Hydac?",
+        "a": "Alegerea unui acumulator din seria SB330 depinde de volumul necesar, presiunea de lucru a sistemului și tipul de racord de montaj, informații codificate direct în denumire, de exemplu SB330-32F1/112U-210C indică un volum mai mare față de varianta SB330-10F1/112U-210C; verificarea exactă se face cu fișa tehnică a modelului."
+      },
+      {
+        "q": "Livrați senzori și acumulatoare Hydac în România la comandă?",
+        "a": "Da, aducem traductoare de presiune, presostate și acumulatoare Hydac la comandă, pornind de la fișele tehnice publice ale producătorului, fără a menține un stoc propriu permanent; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și configurație electrică."
+      },
+      {
+        "q": "Ce rol are un presostat electronic precum EDS 4000?",
+        "a": "EDS 4000 monitorizează continuu presiunea dintr-un circuit hidraulic și transmite un semnal de comutare sau analogic către sistemul de control atunci când presiunea depășește sau scade sub un prag setat, fiind util pentru protecția pompelor, semnalizarea filtrelor colmatate sau controlul ciclurilor de lucru."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -658,8 +1420,73 @@ Inovăm constant - sisteme de monitorizare inteligentă a stării filtrelor (sen
     infinitrade: `Filtrele și unitățile de filtrare Hydac Filtration ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru gradul de filtrare și presiunea cerută de sistemul tău. Informațiile despre disponibilitate vin din surse publice ale producătorului și din verificarea punctuală pentru fiecare cerere primită. Elementele filtrante uzuale pot fi livrate în 24–72 h din stoc, în timp ce unitățile complete de filtrare offline sau separatoarele de apă ajung de obicei în 2–6 săptămâni la comandă. Pentru identificare corectă, trimite-ne codul elementului filtrant sau presiunea de lucru, gradul de filtrare dorit și tipul de conexiune necesar. Nu confirmăm termene sau prețuri fără să vedem cerința completă a aplicației.`,
     limitation: `Nu confirmăm stocul pentru fiecare element filtrant Hydac Filtration fără verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
+      {"title":"Filtration Technology - HYDAC","url":"https://www.hydac.com/shop/en/filtration-technology","publisher":"Hydac","accessed":"2026-09-22"},
       { title: 'Hydraulics, electronics & filters since 1963 | HYDAC', url: 'https://www.hydac.com', publisher: 'HYDAC International GmbH', accessed: '2026-09-22' },
       { title: 'The HYDAC Group – About us | HYDAC', url: 'https://www.hydac.com/en/company/', publisher: 'HYDAC International GmbH', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "RFBN/HC60DC10E1.1/12",
+        "description": "filtru de presiune în linie cu element de schimb"
+      },
+      {
+        "code": "RFBN/HC660DN10D1.0/16L-115",
+        "description": "filtru de presiune pentru debite mari"
+      },
+      {
+        "code": "RFBN/HC240DE10H1.1/12",
+        "description": "filtru de presiune cu carcasă din oțel"
+      },
+      {
+        "code": "RF BN/HC 30 B B 10 A 1.0",
+        "description": "filtru de presiune compact pentru debite reduse"
+      },
+      {
+        "code": "OLF 5",
+        "description": "unitate de filtrare offline pentru rezervoare mici"
+      },
+      {
+        "code": "OLF 15",
+        "description": "unitate de filtrare offline de capacitate medie"
+      },
+      {
+        "code": "OLF 30",
+        "description": "unitate de filtrare offline de capacitate medie-mare"
+      },
+      {
+        "code": "OLF 45",
+        "description": "unitate de filtrare offline de capacitate mare"
+      },
+      {
+        "code": "OLF 60",
+        "description": "unitate de filtrare offline cu capacitatea maximă din gamă"
+      },
+      {
+        "code": "OLFP",
+        "description": "unitate de filtrare offline cu pompă integrată"
+      },
+      {
+        "code": "CS 1500",
+        "description": "senzor pentru monitorizarea particulelor solide din ulei"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este o unitate de filtrare offline OLF de la Hydac Filtration?",
+        "a": "O unitate OLF este un sistem separat, montat lângă rezervorul hidraulic, care recirculă continuu o parte din ulei printr-un element filtrant fin, independent de circuitul principal al mașinii; astfel se menține un nivel de curățenie a fluidului mai constant, indiferent de sarcina sistemului principal."
+      },
+      {
+        "q": "Cum aleg dimensiunea corectă dintre unitățile OLF 15, 30, 45 și 60?",
+        "a": "Dimensiunea se alege în funcție de volumul rezervorului și de debitul de recirculare dorit: unitățile mai mici, precum OLF 15, sunt potrivite pentru rezervoare reduse, în timp ce OLF 45 sau OLF 60 acoperă volume mai mari sau necesități de curățare mai rapidă a uleiului."
+      },
+      {
+        "q": "Livrați filtre de presiune și unități offline Hydac Filtration în România?",
+        "a": "Da, aducem filtre de presiune din seria RFBN și unități de filtrare offline OLF la comandă, pornind de la datele publice ale producătorului, fără a ține un stoc propriu permanent; termenul obișnuit de aprovizionare este de 2-6 săptămâni la comandă, în funcție de model."
+      },
+      {
+        "q": "La ce ajută un senzor de contaminare precum CS 1500?",
+        "a": "Senzorul CS 1500 detectează particulele solide din uleiul hidraulic și transmite date despre nivelul de contaminare direct sistemului de monitorizare, permițând planificarea intervențiilor de mentenanță înainte ca murdăria din fluid să afecteze pompele, supapele sau alte componente sensibile ale instalației."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',

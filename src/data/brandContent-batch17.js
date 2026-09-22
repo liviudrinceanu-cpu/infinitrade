@@ -56,8 +56,77 @@ Corpurile se execută din oțel carbon, oțel inoxidabil austenitic sau aliaje s
     infinitrade: "Punem la dispoziție supape de siguranță LESER pentru rafinării, platforme și fabrici de proces din România — seria compactă 441, seria Full Nozzle 459, seria convențională 526/527 și variantele pilotate — aduse la comandă prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pe fiecare model și ne bazăm pe informațiile publice disponibile ale producătorului atunci când recomandăm o variantă. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de deschidere dorită și fluidul vehiculat prin conductă. Accesoriile și seturile de etanșare pentru revizie sunt de regulă disponibile în 24–72 h, iar supapele configurate special, cu certificare TÜV sau ASME, ajung în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma service în perioada de garanție a producătorului și nici teste de capacitate de evacuare pe standurile proprii LESER — acestea rămân în sarcina rețelei de service a fabricii.",
     sources: [
+      {"title":"LESER Homepage","url":"https://www.leser.com/en/","publisher":"LESER","accessed":"2026-09-22"},
       { title: "LESER – Safety valves for all industrial applications", url: "https://www.leser.com/en/", publisher: "LESER GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "LESER GmbH & Co. KG – site oficial", url: "https://www.leser.com/", publisher: "LESER GmbH & Co. KG", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "API 526",
+        "description": "Supapă de siguranță standardizată conform API 526"
+      },
+      {
+        "code": "High Efficiency POSV",
+        "description": "Supapă de siguranță pilotată pentru eficiență de proces"
+      },
+      {
+        "code": "Compact Performance",
+        "description": "Supapă de siguranță compactă, conexiuni variabile"
+      },
+      {
+        "code": "High Performance",
+        "description": "Supapă de siguranță pentru aplicații industriale generale"
+      },
+      {
+        "code": "Modulate Action",
+        "description": "Supapă de siguranță pentru aplicații cu lichide"
+      },
+      {
+        "code": "Critical Service",
+        "description": "Supapă de siguranță căptușită PTFE pentru medii corozive"
+      },
+      {
+        "code": "Type 483 Clean Service",
+        "description": "Supapă de siguranță pentru industria alimentară și farmaceutică"
+      },
+      {
+        "code": "S&R",
+        "description": "Supapă de siguranță pentru tehnica de încălzire"
+      },
+      {
+        "code": "SLS2",
+        "description": "Sistem suplimentar de încărcare pentru eficiență ridicată"
+      },
+      {
+        "code": "Change-over Valve",
+        "description": "Vană de comutare pentru disponibilitate ridicată a instalației"
+      },
+      {
+        "code": "Bursting Disc",
+        "description": "Disc de rupere ca protecție suplimentară la suprapresiune"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce supapă de siguranță LESER aleg pentru medii corozive?",
+        "a": "Seria Critical Service, cu căptușeală din PTFE, este recomandată pentru medii corozive unde materialele metalice standard s-ar deteriora rapid. Alegerea presiunii de deschidere și a diametrului conexiunii depinde de parametrii instalației și de debitul de descărcare necesar în caz de suprapresiune."
+      },
+      {
+        "q": "Ce diferență este între supapele LESER Compact Performance și High Performance?",
+        "a": "Compact Performance oferă un gabarit redus și conexiuni variabile, potrivit acolo unde spațiul de montaj este limitat. High Performance este gama standard pentru aplicații industriale generale, cu o plajă mai largă de dimensiuni și materiale disponibile pentru diverse medii de proces."
+      },
+      {
+        "q": "Livrați supape de siguranță LESER în România?",
+        "a": "Da, aducem la comandă supape de siguranță LESER pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de tip și de certificarea necesară. Recomandăm confirmarea presiunii de reglaj înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de supapă de siguranță LESER?",
+        "a": "Este util să precizați fluidul protejat, presiunea de deschidere dorită, diametrul conexiunilor de intrare și ieșire și standardul de certificare necesar (de exemplu API 526). Aceste detalii permit alegerea corectă între seriile disponibile la LESER."
+      },
+      {
+        "q": "Ce este discul de rupere (Bursting Disc) de la LESER?",
+        "a": "Este un dispozitiv de protecție la suprapresiune, folosit adesea în combinație cu o supapă de siguranță, pentru izolare suplimentară sau pentru situații unde o deschidere rapidă și completă este necesară. Este ales în funcție de presiunea de rupere calculată pentru instalație."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
@@ -181,8 +250,77 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
     infinitrade: "Asigurăm accesul la armături VAG pentru operatorii de apă și canalizare din România — robinetul cu excentricitate dublă EKN, robineții de aerisire PICO, vanele fluture și clapetele de reținere — comandate prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, ne ghidăm după informațiile publice disponibile ale producătorului pentru fiecare diametru și presiune nominală. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de lucru (PN) și tipul de acoperire cerut în caietul de sarcini. Diametrele uzuale pentru branșamente sunt de regulă disponibile în 24–72 h, iar armăturile de diametre mari sau cu acționare specială ajung în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma o disponibilitate garantată pentru toate combinațiile de diametru și presiune din gama DN40–DN4000 — armăturile mari rămân, de regulă, produse la comandă.",
     sources: [
+      {"title":"Products","url":"https://www.vag-group.com/en/products","publisher":"VAG","accessed":"2026-09-22"},
       { title: "VAG – The Valve Experts. Since 1872.", url: "https://www.vag-group.com", publisher: "VAG-Armaturen GmbH", accessed: "2026-09-22" },
       { title: "VAG Group – site oficial (EN)", url: "https://www.vag-group.com/en/", publisher: "VAG-Armaturen GmbH", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "EKN",
+        "description": "Robinet fluture cu excentricitate dublă pentru rețele de apă"
+      },
+      {
+        "code": "BETA 500",
+        "description": "Vană cu sertar și etanșare elastică"
+      },
+      {
+        "code": "MONO",
+        "description": "Vană cu sertar tip cuțit (knife gate)"
+      },
+      {
+        "code": "EKOplus",
+        "description": "Vană cu sertar cu etanșare elastică, generație compactă"
+      },
+      {
+        "code": "KFS",
+        "description": "Vană cu sertar cu etanșare metalică"
+      },
+      {
+        "code": "NOVA NIRO 365",
+        "description": "Hidrant tip coloană pentru rețele de apă"
+      },
+      {
+        "code": "RIKO",
+        "description": "Vană de control cu piston (plunger valve)"
+      },
+      {
+        "code": "DUOJET",
+        "description": "Ventil automat de aerisire pentru conducte de apă"
+      },
+      {
+        "code": "BEV",
+        "description": "Ventil automat de aerisire, variantă standard"
+      },
+      {
+        "code": "DURA",
+        "description": "Vană de control pentru reglarea debitului"
+      },
+      {
+        "code": "HYsec",
+        "description": "Unitate hidraulică de frânare și ridicare pentru vanele EKN"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce vană VAG aleg pentru o rețea municipală de apă potabilă?",
+        "a": "Robinetul fluture EKN, cu excentricitate dublă, este alegerea tipică pentru rețele municipale, datorită etanșării fiabile și durabilității ridicate la manevre repetate. Pentru izolare completă a unei secțiuni de conductă, o vană cu sertar din seria BETA 500 sau EKOplus este de obicei preferată."
+      },
+      {
+        "q": "Ce diferență este între vana VAG BETA 500 și EKOplus?",
+        "a": "Ambele sunt vane cu sertar cu etanșare elastică, dar EKOplus este generația mai compactă și mai ușoară, optimizată pentru instalare rapidă. BETA 500 este varianta consacrată, disponibilă într-o gamă mai largă de dimensiuni pentru rețele de apă și canalizare."
+      },
+      {
+        "q": "Livrați vane și hidranți VAG în România?",
+        "a": "Da, aducem la comandă vane și hidranți VAG pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de diametrul nominal și de presiunea de lucru. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de vană VAG?",
+        "a": "Este util să precizați diametrul nominal, presiunea nominală, tipul de conexiune (flanșă sau mufă) și mediul vehiculat prin conductă. Aceste detalii permit alegerea corectă între familiile EKN, BETA 500, EKOplus sau KFS din gama VAG."
+      },
+      {
+        "q": "Ce este ventilul automat de aerisire VAG DUOJET?",
+        "a": "Este un dispozitiv montat pe conductele de apă pentru evacuarea automată a aerului acumulat în timpul funcționării normale sau la umplerea conductei, prevenind problemele de curgere și zgomotele cauzate de pungile de aer din rețea."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
@@ -243,8 +381,113 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
     infinitrade: "Intermediem aprovizionarea cu robinete fluture, robinete cu bilă și actuatoare EBRO Armaturen pentru instalații de proces și sisteme HVAC industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma un nivel de stoc la fabrică pentru fiecare configurație și pornim de la sursele publice ale producătorului atunci când propunem un subansamblu robinet plus actuator. Pentru dimensionarea corectă, trimiteți-ne diametrul conductei, presiunea nominală și tipul de acționare dorit — manetă, pneumatic sau electric. Configurațiile standard, cu actuator pneumatic, sunt de regulă disponibile în 24–72 h, iar execuțiile cu inox integral, certificare alimentară sau ATEX ajung în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma service în garanția producătorului sau configurarea electronică a poziționerelor pe actuatoarele electrice — acestea rămân în sarcina rețelei tehnice EBRO.",
     sources: [
+      {"title":"Products","url":"https://www.ebro-armaturen.com/en/products/","publisher":"EBRO Armaturen","accessed":"2026-09-22"},
       { title: "About us – EBRO Armaturen", url: "https://www.ebro-armaturen.com/en/company/", publisher: "EBRO Armaturen GmbH", accessed: "2026-09-22" },
       { title: "History – EBRO Armaturen", url: "https://www.ebro-armaturen.com/en/company/history/", publisher: "EBRO Armaturen GmbH", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "Z 011-A",
+        "description": "Robinet fluture cu etanșare elastică, variantă standard"
+      },
+      {
+        "code": "Z 014-A",
+        "description": "Robinet fluture cu etanșare elastică, gabarit mărit"
+      },
+      {
+        "code": "F 012-A",
+        "description": "Robinet fluture cu flanșe integrate"
+      },
+      {
+        "code": "Z 411-A",
+        "description": "Robinet fluture pentru aplicații industriale de proces"
+      },
+      {
+        "code": "Z 611-A",
+        "description": "Robinet fluture pentru presiuni ridicate"
+      },
+      {
+        "code": "T 211-A",
+        "description": "Robinet fluture căptușit PTFE"
+      },
+      {
+        "code": "T 214-A",
+        "description": "Robinet fluture căptușit PTFE, gabarit mărit"
+      },
+      {
+        "code": "H 011",
+        "description": "Robinet fluture PTFE pentru medii chimice agresive"
+      },
+      {
+        "code": "HP 111",
+        "description": "Robinet fluture de înaltă performanță"
+      },
+      {
+        "code": "HP 114",
+        "description": "Robinet fluture de înaltă performanță, gabarit mărit"
+      },
+      {
+        "code": "WB",
+        "description": "Vană cu sertar tip cuțit (knife gate)"
+      },
+      {
+        "code": "WB 12",
+        "description": "Vană cu sertar tip cuțit, variantă extinsă"
+      },
+      {
+        "code": "HG",
+        "description": "Vană cu sertar tip cuțit pentru aplicații grele"
+      },
+      {
+        "code": "HX",
+        "description": "Vană cu sertar tip cuțit de gabarit mare"
+      },
+      {
+        "code": "RSK",
+        "description": "Clapetă de reținere pentru conducte industriale"
+      },
+      {
+        "code": "DC",
+        "description": "Clapetă de reținere cu disc dublu"
+      },
+      {
+        "code": "V-3MH",
+        "description": "Robinet cu bilă manual pentru aplicații industriale"
+      },
+      {
+        "code": "Q 011",
+        "description": "Robinet fluture pentru aplicații speciale"
+      },
+      {
+        "code": "EP3",
+        "description": "Element de control electric pentru automatizarea vanelor"
+      },
+      {
+        "code": "SBU-Basic",
+        "description": "Unitate de control pentru acționarea vanelor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce robinet fluture EBRO aleg pentru medii chimice agresive?",
+        "a": "Seria H 011 sau T 211-A, ambele căptușite cu PTFE, sunt recomandate pentru medii chimice agresive unde etanșarea elastică standard s-ar degrada rapid. Alegerea exactă depinde de temperatura de proces și de compatibilitatea chimică a fluidului vehiculat prin conductă."
+      },
+      {
+        "q": "Ce diferență este între vana EBRO WB și HG?",
+        "a": "WB este vana de bază tip cuțit, potrivită pentru aplicații standard de izolare pe linii de proces sau ape uzate. HG este varianta pentru aplicații grele, cu o construcție mai robustă, recomandată acolo unde solicitările mecanice sau abraziunea materialului vehiculat sunt mai ridicate."
+      },
+      {
+        "q": "Livrați robinete și vane EBRO Armaturen în România?",
+        "a": "Da, aducem la comandă robinete și vane EBRO Armaturen pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de diametrul nominal. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de robinet fluture EBRO?",
+        "a": "Este util să precizați diametrul nominal, presiunea nominală, tipul de acționare (manual, pneumatic sau electric) și mediul vehiculat prin conductă. Aceste detalii permit alegerea corectă între seriile Z, T, H sau HP din gama EBRO."
+      },
+      {
+        "q": "Ce este unitatea de control EBRO SBU-Basic?",
+        "a": "Este o unitate de control folosită pentru acționarea și monitorizarea vanelor industriale, oferind semnalizare de poziție și integrare cu sistemele de automatizare ale instalației. Este aleasă atunci când vana trebuie comandată de la distanță sau integrată într-un sistem SCADA."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
@@ -491,8 +734,113 @@ Materialele componentelor umede includ oțel inoxidabil pentru rezistență la e
     infinitrade: "Coordonăm aprovizionarea cu pompe de imersie Brinkmann Pumpen pentru mașini-unelte și instalații de prelucrare mecanică din România — seriile TTN și TTX, plus kituri de recondiționare — prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii de stoc pentru fiecare lungime de imersie și verificăm compatibilitatea în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a pompei, trimiteți-ne adâncimea rezervorului mașinii, presiunea necesară la sculă și tipul de lichid de răcire folosit. Modelele standard și piesele de uzură ajung de regulă în 24–72 h, util mai ales când o pompă defectă oprește o linie de producție, iar lungimile de imersie neuzuale, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma compatibilitatea exactă cu modele TTN/TTX foarte vechi, ieșite din catalogul curent, fără o schiță tehnică sau fotografie a plăcuței pompei existente.",
     sources: [
+      {"title":"Products","url":"https://www.brinkmannpumps.com/us/products/","publisher":"Brinkmann Pumpen","accessed":"2026-09-22"},
       { title: "History – BRINKMANN PUMPS", url: "https://www.brinkmannpumps.com/us/company/history", publisher: "K.H. Brinkmann GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Manufacturer of coolant pumps – BRINKMANN PUMPS", url: "https://www.brinkmannpumps.com/us/company/", publisher: "K.H. Brinkmann GmbH & Co. KG", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "TB",
+        "description": "Pompă de imersie de joasă presiune"
+      },
+      {
+        "code": "TA",
+        "description": "Pompă de imersie de joasă presiune, variantă compactă"
+      },
+      {
+        "code": "TE",
+        "description": "Pompă de imersie pentru lichide de răcire"
+      },
+      {
+        "code": "STE",
+        "description": "Pompă de imersie verticală, montaj pe suport"
+      },
+      {
+        "code": "TVG",
+        "description": "Pompă de imersie cu debit variabil"
+      },
+      {
+        "code": "HEF",
+        "description": "Pompă de imersie de joasă presiune pentru debit ridicat"
+      },
+      {
+        "code": "TL",
+        "description": "Pompă de imersie de lungime mărită"
+      },
+      {
+        "code": "STL",
+        "description": "Pompă de imersie de lungime mărită, montaj vertical"
+      },
+      {
+        "code": "SBA",
+        "description": "Pompă de imersie pentru aplicații de bază"
+      },
+      {
+        "code": "SBG",
+        "description": "Pompă de imersie pentru aplicații generale de proces"
+      },
+      {
+        "code": "TS",
+        "description": "Pompă de imersie de presiune medie"
+      },
+      {
+        "code": "TC",
+        "description": "Pompă de imersie de presiune medie și înaltă"
+      },
+      {
+        "code": "TH",
+        "description": "Pompă de imersie de înaltă presiune"
+      },
+      {
+        "code": "FH",
+        "description": "Pompă de imersie de înaltă presiune pentru procese speciale"
+      },
+      {
+        "code": "IH",
+        "description": "Pompă de imersie de înaltă presiune, variantă industrială"
+      },
+      {
+        "code": "BFS",
+        "description": "Pompă de imersie pentru manipularea șpanului"
+      },
+      {
+        "code": "SFL",
+        "description": "Pompă de imersie pentru transportul șpanului metalic"
+      },
+      {
+        "code": "SBF",
+        "description": "Pompă submersibilă pentru șpan și lichide de răcire"
+      },
+      {
+        "code": "KTF",
+        "description": "Pompă de imersie miniaturală din plastic"
+      },
+      {
+        "code": "BMK",
+        "description": "Pompă miniaturală pentru debite mici"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă Brinkmann aleg pentru evacuarea lichidului de răcire cu șpan?",
+        "a": "Seria BFS sau SFL este dedicată manipulării lichidului de răcire încărcat cu șpan metalic, fiind construită pentru rezistență la particule abrazive. Alegerea variantei exacte depinde de debitul necesar și de dimensiunea particulelor din lichidul de proces."
+      },
+      {
+        "q": "Ce diferență este între pompele Brinkmann seria TS și TH?",
+        "a": "TS este o pompă de imersie de presiune medie, potrivită pentru aplicații standard de alimentare cu lichid. TH este varianta de înaltă presiune, recomandată pentru instalații unde este nevoie de o presiune de refulare mai mare, de exemplu la sisteme de răcire cu presiune ridicată."
+      },
+      {
+        "q": "Livrați pompe Brinkmann în România?",
+        "a": "Da, aducem la comandă pompe Brinkmann pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de lungimea de imersie necesară. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă de imersie Brinkmann?",
+        "a": "Este util să precizați lungimea de imersie necesară, debitul și presiunea dorite, tipul lichidului vehiculat și dacă acesta conține particule solide. Aceste detalii permit alegerea corectă între familiile TB, TS, TH sau BFS din gama Brinkmann."
+      },
+      {
+        "q": "Ce este pompa miniaturală Brinkmann seria KTF?",
+        "a": "Este o pompă de imersie de dimensiuni reduse, construită din plastic, folosită pentru debite mici la mașini-unelte compacte sau echipamente de laborator. Este aleasă acolo unde spațiul de montaj este limitat și debitul necesar este redus."
+      }
     ],
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
@@ -986,8 +1334,85 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
     infinitrade: "Punem la dispoziție schimbătoare de căldură Kelvion pentru industria energetică, chimică și alimentară din România — schimbătoare cu plăci și garnituri, tubulare shell-and-tube, sisteme de răcire cu aer și piese de schimb — prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii de stoc pentru fiecare model, inclusiv cele moștenite din gama GEA, și verificăm compatibilitatea în informațiile publice disponibile ale producătorului. Pentru retehnologizări, trimiteți-ne plăcuța de fabricație sau dimensiunile plăcilor existente. Piesele de schimb uzuale ajung de regulă în 24–72 h, iar schimbătoarele complete, dimensionate pentru o aplicație nouă, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma calculul termic sau recalcularea presiunii admise pentru vase moștenite din gama GEA fără plăcuța de fabricație originală — aceasta rămâne o etapă separată de inginerie.",
     sources: [
+      {"title":"Brazed Plate Heat Exchangers","url":"https://www.kelvion.com/products/plate-heat-exchangers/brazed-plate-heat-exchangers/","publisher":"Kelvion","accessed":"2026-09-22"},
       { title: "About Us | Kelvion", url: "https://www.kelvion.com/company/", publisher: "Kelvion Holding GmbH", accessed: "2026-09-22" },
       { title: "Kelvion – site oficial", url: "https://www.kelvion.com", publisher: "Kelvion Holding GmbH", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "GVT",
+        "description": "Schimbător brazat certificat pentru apă potabilă"
+      },
+      {
+        "code": "GBH",
+        "description": "Schimbător brazat compact pentru aplicații generale"
+      },
+      {
+        "code": "GK",
+        "description": "Schimbător brazat cu eficiență mărită și volum redus"
+      },
+      {
+        "code": "GWH",
+        "description": "Schimbător brazat robust pentru presiune ridicată"
+      },
+      {
+        "code": "GVH-HP",
+        "description": "Schimbător brazat fără metale neferoase, presiune ridicată"
+      },
+      {
+        "code": "GVH",
+        "description": "Schimbător brazat compact fără metale neferoase"
+      },
+      {
+        "code": "GBE-GKE",
+        "description": "Schimbător brazat modular cu eficiență ridicată"
+      },
+      {
+        "code": "GBH-HP",
+        "description": "Schimbător brazat pentru CO2 transcritic până la 140 bar"
+      },
+      {
+        "code": "TD",
+        "description": "Schimbător brazat robust cu flexibilitate ridicată"
+      },
+      {
+        "code": "GML",
+        "description": "Schimbător brazat compact de înaltă presiune"
+      },
+      {
+        "code": "GB-DW",
+        "description": "Schimbător brazat cu perete dublu de siguranță"
+      },
+      {
+        "code": "GNS",
+        "description": "Schimbător brazat cu rezistență ridicată la coroziune"
+      },
+      {
+        "code": "GBS",
+        "description": "Schimbător brazat cu cadru solid, flexibilitate ridicată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce schimbător Kelvion aleg pentru o instalație cu apă potabilă?",
+        "a": "Seria GVT este certificată DVGW pentru contact cu apa potabilă, fiind alegerea tipică pentru instalații de preparare apă caldă menajeră. Dimensionarea exactă depinde de debitul necesar și de diferența de temperatură dintre agentul primar și cel secundar."
+      },
+      {
+        "q": "Ce diferență este între schimbătoarele Kelvion GVH și GVH-HP?",
+        "a": "GVH este varianta compactă standard, fără metale neferoase, potrivită pentru presiuni de lucru uzuale. GVH-HP este varianta pentru presiuni ridicate, recomandată în instalații unde presiunea de proces depășește limitele acceptate de modelul standard."
+      },
+      {
+        "q": "Livrați schimbătoare de căldură Kelvion în România?",
+        "a": "Da, aducem la comandă schimbătoare Kelvion pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de puterea termică necesară. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de schimbător de căldură Kelvion?",
+        "a": "Este util să precizați puterea termică necesară, temperaturile de intrare și ieșire ale celor două agenți, presiunea de lucru și tipul fluidelor vehiculate. Aceste detalii permit alegerea corectă între seriile brazate din gama Kelvion."
+      },
+      {
+        "q": "Ce este schimbătorul Kelvion seria GB-DW cu perete dublu?",
+        "a": "Este un schimbător brazat cu construcție de siguranță, având un perete dublu între cele două circuite, folosit acolo unde amestecul accidental al celor două fluide ar fi inacceptabil, de exemplu în instalații cu apă potabilă sau industria alimentară."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
@@ -1108,8 +1533,82 @@ Materialele acoperă oțel inoxidabil austenitic pentru majoritatea aplicațiilo
     infinitrade: "Facilităm achiziția de schimbătoare de căldură Funke pentru industria energetică, navală și chimică din România — schimbătoare cu plăci și garnituri FP, schimbătoare cu plăci sudate și schimbătoare tubulare FRG — prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pentru fiecare tehnologie și pornim calculul termic de la informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne debitele, temperaturile de intrare și ieșire și pierderea de presiune admisă. Piesele de schimb, plăci și garnituri pentru modelele uzuale, ajung de regulă în 24–72 h, iar schimbătoarele complete, dimensionate pentru un proiect nou, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem efectua recalcularea termică fără datele complete de proces transmise de client și nici service sub garanția producătorului — acestea rămân la Funke.",
     sources: [
+      {"title":"Plate Heat Exchangers","url":"https://www.funke.de/en/products/plate-heat-exchangers/","publisher":"Funke","accessed":"2026-09-22"},
+      {"title":"Shell-and-Tube Heat Exchangers","url":"https://www.funke.de/en/products/shell-and-tube-heat-exchangers/","publisher":"Funke","accessed":"2026-09-22"},
       { title: "About us | FUNKE", url: "https://www.funke.de/en/company/", publisher: "Funke Wärmeaustauscher Apparatebau GmbH", accessed: "2026-09-22" },
       { title: "Funke – site oficial", url: "https://www.funke.de", publisher: "Funke Wärmeaustauscher Apparatebau GmbH", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "FP",
+        "description": "Schimbător cu plăci și garnituri, seria standard"
+      },
+      {
+        "code": "FPX",
+        "description": "Schimbător cu plăci pentru diferențe mici de temperatură"
+      },
+      {
+        "code": "FPDW",
+        "description": "Schimbător cu plăci și garnituri de siguranță"
+      },
+      {
+        "code": "TPL",
+        "description": "Schimbător brazat universal pentru hidraulică și răcire motor"
+      },
+      {
+        "code": "GPL",
+        "description": "Schimbător brazat pentru încălzire și ventilație"
+      },
+      {
+        "code": "NPL",
+        "description": "Schimbător brazat pentru aplicații de încălzire"
+      },
+      {
+        "code": "BCF",
+        "description": "Schimbător tubular pentru aplicații industriale"
+      },
+      {
+        "code": "CCF",
+        "description": "Schimbător tubular cu manta pentru proces"
+      },
+      {
+        "code": "SSCF",
+        "description": "Schimbător tubular din oțel inoxidabil"
+      },
+      {
+        "code": "TDW",
+        "description": "Schimbător tubular cu perete dublu de siguranță"
+      },
+      {
+        "code": "UNIVEX",
+        "description": "Schimbător tubular universal pentru aplicații de proces"
+      },
+      {
+        "code": "WRA",
+        "description": "Schimbător tubular custom tip TEMA M"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce schimbător Funke aleg pentru o aplicație cu diferență mică de temperatură?",
+        "a": "Seria FPX este optimizată pentru diferențe mici de temperatură logaritmică medie (LMTD) și pentru presiuni de lucru ridicate, fiind alegerea potrivită acolo unde schimbătoarele standard FP nu ating eficiența necesară. Dimensionarea exactă depinde de debitele și temperaturile ambelor circuite."
+      },
+      {
+        "q": "Ce diferență este între schimbătoarele Funke FP și FPDW?",
+        "a": "FP este seria standard cu plăci și garnituri, pentru aplicații generale de încălzire sau răcire. FPDW este varianta de siguranță, cu perete dublu între plăci, folosită acolo unde amestecul celor două fluide ar reprezenta un risc, de exemplu în instalații cu agenți frigorifici sau apă potabilă."
+      },
+      {
+        "q": "Livrați schimbătoare de căldură Funke în România?",
+        "a": "Da, aducem la comandă schimbătoare Funke pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de tip și de puterea termică solicitată. Recomandăm confirmarea seriei exacte înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de schimbător tubular Funke?",
+        "a": "Este util să precizați puterea termică necesară, presiunea și temperatura de lucru pe ambele circuite, precum și tipul fluidelor vehiculate. Aceste detalii permit alegerea corectă între seriile tubulare BCF, CCF sau UNIVEX din gama Funke."
+      },
+      {
+        "q": "Ce este schimbătorul brazat Funke seria TPL?",
+        "a": "Este un schimbător brazat universal, folosit frecvent la răcirea uleiului hidraulic sau a lichidului de răcire al motoarelor industriale. Este ales pentru gabaritul compact și pentru faptul că nu necesită garnituri, reducând riscul de scurgeri la presiuni ridicate."
+      }
     ],
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",

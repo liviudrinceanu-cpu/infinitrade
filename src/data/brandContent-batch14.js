@@ -54,10 +54,115 @@ ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de elec
     ],
     infinitrade: `La InfiniTrade aducem pompele dozatoare ProMinent și accesoriile aferente pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model. Ca formulă generală a firmei, produsele deja pregătite pot ajunge în 24-72 h, iar seriile Gamma, Smart Digital sau Bellozon comandate special durează 2-6 săptămâni. Pentru o ofertă corectă, trimite-ne codul pompei sau al controlerului, debitul și presiunea necesară și aplicația (apă potabilă, industrial, pharma); nu publicăm prețuri, fiecare cerere primește cotație individuală. Te ajutăm la alegerea variantei potrivite și la organizarea transportului către instalația ta.`,
     sources: [
+      {"title":"ProMinent Product Catalogue 2020 Vol. 1 — Metering Pumps (pompe dozatoare)","url":"https://www.prominent.com/resources/Catalogue/English/9300/Metering-Pumps-Components-ProMinent-Product-Catalogue-2020-Volume-1.pdf","publisher":"ProMinent","accessed":"2026-09-22"},
       { title: 'ProMinent – site oficial', url: 'https://www.prominent.com/en', publisher: 'ProMinent GmbH', accessed: '2026-09-22' },
       { title: 'Prominent (Unternehmen) – Wikipedia', url: 'https://de.wikipedia.org/wiki/Prominent_(Unternehmen)', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma acoperirea service-ului în garanția producătorului pentru fiecare serie de pompe și nici configurarea software specifică fiecărei instalații.',
+    productCodes: [
+      {
+        "code": "beta b",
+        "description": "Pompă dozatoare cu membrană acționată solenoidal"
+      },
+      {
+        "code": "gamma/ X",
+        "description": "Pompă dozatoare solenoidală cu reglare digitală a debitului"
+      },
+      {
+        "code": "gamma/ XL",
+        "description": "Pompă dozatoare solenoidală de capacitate mărită"
+      },
+      {
+        "code": "alpha",
+        "description": "Pompă dozatoare cu membrană acționată de motor"
+      },
+      {
+        "code": "Vario C",
+        "description": "Pompă dozatoare cu motor și reglare continuă a cursei"
+      },
+      {
+        "code": "Sigma/ 1",
+        "description": "Pompă dozatoare cu motor, tip de bază sau control"
+      },
+      {
+        "code": "Sigma/ 2",
+        "description": "Pompă dozatoare cu motor, capacitate medie"
+      },
+      {
+        "code": "Sigma/ 3",
+        "description": "Pompă dozatoare cu motor, capacitate ridicată"
+      },
+      {
+        "code": "DULCO flex",
+        "description": "Pompă dozatoare peristaltică pentru fluide vâscoase"
+      },
+      {
+        "code": "DULCO flex Control DFXa",
+        "description": "Pompă peristaltică cu control digital, debit redus"
+      },
+      {
+        "code": "DULCO flex Control DFYa",
+        "description": "Pompă peristaltică cu control digital, debit ridicat"
+      },
+      {
+        "code": "ProMinent EXtronic",
+        "description": "Pompă dozatoare cu membrană pentru zone cu risc de explozie"
+      },
+      {
+        "code": "Makro TZ",
+        "description": "Pompă dozatoare cu membrană și piston, capacitate mare"
+      },
+      {
+        "code": "Makro/ 5",
+        "description": "Pompă dozatoare cu membrană și piston, generație compactă"
+      },
+      {
+        "code": "Hydro/ 2",
+        "description": "Pompă dozatoare cu membrană acționată hidraulic"
+      },
+      {
+        "code": "Hydro/ 3",
+        "description": "Pompă dozatoare cu membrană hidraulică, capacitate medie"
+      },
+      {
+        "code": "Hydro/ 4",
+        "description": "Pompă dozatoare cu membrană hidraulică, capacitate mare"
+      },
+      {
+        "code": "Orlita Evolution",
+        "description": "Pompă dozatoare cu piston sau membrană hidraulică pentru proces"
+      },
+      {
+        "code": "Meta",
+        "description": "Pompă dozatoare cu piston pentru dozare de precizie"
+      },
+      {
+        "code": "Spectra",
+        "description": "Pompă dozatoare cu șurub excentric pentru fluide vâscoase"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă dozatoare ProMinent aleg pentru o soluție chimică agresivă?",
+        "a": "Pentru substanțe chimice agresive, seria ProMinent EXtronic sau pompele hidraulice Orlita Evolution sunt alegerile tipice, ambele proiectate pentru presiuni și medii dificile. Materialul capului de dozare trebuie ales în funcție de compatibilitatea chimică a substanței dozate, verificată în fișa tehnică a fiecărui model."
+      },
+      {
+        "q": "Ce diferență este între pompa gamma/X și Sigma/2 la ProMinent?",
+        "a": "gamma/X este o pompă solenoidală, potrivită pentru debite mici și medii cu reglare digitală simplă. Sigma/2 este o pompă cu motor, recomandată pentru debite mai mari și dozare continuă de lungă durată, cu o precizie superioară la presiuni de contrapresiune ridicate."
+      },
+      {
+        "q": "Livrați pompe dozatoare ProMinent în România?",
+        "a": "Da, aducem la comandă pompe ProMinent pe baza cataloagelor publice ale producătorului, fără gama pe raft permanent. Livrarea se încadrează de regulă în 2-6 săptămâni de la comandă, în funcție de model și de accesoriile solicitate. Recomandăm confirmarea seriei exacte înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă ProMinent?",
+        "a": "Este util să precizați substanța dozată, debitul necesar, presiunea de contrapresiune din instalație și materialul preferat pentru capul de dozare. Aceste date permit alegerea corectă între familiile solenoidale, cu motor sau hidraulice din gama ProMinent."
+      },
+      {
+        "q": "Ce este seria DULCO flex de la ProMinent?",
+        "a": "Este o familie de pompe peristaltice, potrivite pentru fluide vâscoase sau cu particule în suspensie, unde membrana clasică s-ar uza rapid. Variantele DFXa și DFYa din familia DULCO flex Control adaugă reglare digitală a debitului pentru aplicații cu precizie mai mare."
+      }
+    ],
     evidenceClass: "gsc-only",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
@@ -118,10 +223,80 @@ Britanicii au investit masiv în digitalizare - au lansat platforma Renold Smart
     ],
     infinitrade: `Aducem lanțuri Renold și cuplaje Hi-Tec sau Omega pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem date proprii de stoc pentru fiecare serie și verificăm disponibilitatea direct la producător la fiecare cerere. Ca formulă generală a firmei, articolele deja pregătite se livrează în 24-72 h, iar lanțurile speciale sau atașamentele custom comandate din fabrică durează 2-6 săptămâni. Pentru o cotație corectă, spune-ne seria lanțului, pasul, lungimea și tipul de atașament de care ai nevoie; nu afișăm prețuri, fiecare comandă primește ofertă separată. Echipa noastră te ajută la calculul lanțului potrivit pentru aplicația ta.`,
     sources: [
+      {"title":"General Transmission Chain","url":"https://www.renold.com/products/industrial-transmission-chain/general-transmission-chain/","publisher":"Renold","accessed":"2026-09-22"},
+      {"title":"RBI Hi-Tec Industrial Couplings","url":"https://www.renold.com/media/1432477/renold-hi-tec-rbi-usa-brochure.pdf","publisher":"Renold","accessed":"2026-09-22"},
       { title: 'Renold plc – site oficial', url: 'https://www.renold.com/', publisher: 'Renold plc', accessed: '2026-09-22' },
       { title: 'Renold – Wikipedia', url: 'https://en.wikipedia.org/wiki/Renold', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma disponibilitate neîntreruptă pentru toate variantele de lanț sau pentru atașamentele custom; verificăm fiecare comandă la producător.',
+    productCodes: [
+      {
+        "code": "Renold Synergy",
+        "description": "Lanț de transmisie cu rezistență ridicată la uzură și oboseală"
+      },
+      {
+        "code": "Renold Roller Chain",
+        "description": "Lanț de transmisie standard cu role"
+      },
+      {
+        "code": "Renold A&S",
+        "description": "Lanț cu role pentru utilizare generală"
+      },
+      {
+        "code": "Renold SD",
+        "description": "Lanț de transmisie de duritate standard"
+      },
+      {
+        "code": "Renold Inverted Tooth Chain",
+        "description": "Lanț cu dinți inversați pentru transmisii silențioase"
+      },
+      {
+        "code": "Renold Conveyor Chain",
+        "description": "Lanț pentru transportoare industriale"
+      },
+      {
+        "code": "Renold Leaf Chain",
+        "description": "Lanț tip leaf pentru aplicații de ridicare"
+      },
+      {
+        "code": "Renold Cycle Chain",
+        "description": "Lanț dedicat aplicațiilor de tip bicicletă"
+      },
+      {
+        "code": "Renold Hi-Tec RBI",
+        "description": "Cuplaj elastomeric cu compresie de cauciuc pentru cuplu ridicat"
+      },
+      {
+        "code": "Renold PM Coupling",
+        "description": "Cuplaj flexibil pentru aliniere aproximativă a arborilor"
+      },
+      {
+        "code": "Renold Sprockets",
+        "description": "Roți dințate pentru lanțurile de transmisie Renold"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce lanț Renold aleg pentru o aplicație cu uzură ridicată?",
+        "a": "Renold Synergy este seria recomandată pentru aplicații cu solicitări mari de uzură și oboseală, fiind proiectată special pentru o durată de viață extinsă față de lanțul standard. Alegerea pasului și a lățimii lanțului depinde de puterea transmisă și de turația roții dințate."
+      },
+      {
+        "q": "Ce diferență este între lanțul Renold Synergy și cel standard SD?",
+        "a": "Renold Synergy este optimizat pentru rezistență la uzură și oboseală în aplicații solicitante, cu o durată de viață mai mare la aceleași dimensiuni. Renold SD este varianta de duritate standard, potrivită pentru aplicații generale unde nu sunt necesare performanțe extinse la solicitări repetate."
+      },
+      {
+        "q": "Livrați lanțuri și cuplaje Renold în România?",
+        "a": "Da, aducem la comandă lanțuri și cuplaje Renold pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de tip și de lungimea necesară. Confirmarea pasului exact al lanțului este recomandată înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de lanț de transmisie Renold?",
+        "a": "Este util să menționați pasul lanțului, numărul de zale sau lungimea necesară, puterea transmisă și turația arborelui. Pentru cuplaje, este necesar diametrul arborilor și cuplul de transmis, pentru alegerea corectă între variantele Hi-Tec sau PM din gama Renold."
+      },
+      {
+        "q": "Ce este cuplajul Renold Hi-Tec RBI?",
+        "a": "Este un cuplaj elastomeric bazat pe compresia unui element de cauciuc, folosit pentru transmiterea unui cuplu ridicat cu amortizarea vibrațiilor și a șocurilor între arbori. Este potrivit pentru aplicații industriale grele unde alinierea perfectă a arborilor este dificil de menținut."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
@@ -182,10 +357,92 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
     ],
     infinitrade: `Prin InfiniTrade comandăm lagăre Link-Belt, cuplaje Omega/Addax și lanțuri Rex de la Regal Rexnord pentru clienții industriali din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile despre gamă provin din surse publice ale producătorului, fără acces la date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, reperele deja pregătite ajung în 24-72 h, iar cele comandate special (lagăre custom, cuplaje pentru momente mari) durează 2-6 săptămâni. Trimite-ne codul piesei sau desenul tehnic, sarcina și turația aplicației pentru o cotație corectă; nu publicăm prețuri fixe, fiecare cerere e evaluată individual. Te ajutăm să identifici echivalentul potrivit chiar dacă nu ai codul exact Rexnord.`,
     sources: [
+      {"title":"PB22400 Link-Belt Pillow Block Spherical Roller Bearings","url":"https://www.rexnord.com/products/bearings/link-belt-spherical-roller-bearings/solid-housed-pillow-blocks/pb22400","publisher":"Rexnord","accessed":"2026-09-22"},
+      {"title":"Couplings - Process & Motion Control","url":"https://www.rexnord.com/products-services/process-motion-control/couplings","publisher":"Rexnord","accessed":"2026-09-22"},
       { title: 'Rexnord – Wikipedia', url: 'https://en.wikipedia.org/wiki/Rexnord', publisher: 'Wikipedia', accessed: '2026-09-22' },
       { title: 'Regal Rexnord – site corporativ', url: 'https://www.regalrexnord.com', publisher: 'Regal Rexnord Corporation', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma acoperirea completă de service în garanția producătorului pentru fiecare sub-gamă Regal Rexnord.',
+    productCodes: [
+      {
+        "code": "PB22400",
+        "description": "Lagăr Link-Belt cu carcasă solidă, pillow block"
+      },
+      {
+        "code": "PB22500",
+        "description": "Lagăr Link-Belt cu carcasă solidă, gabarit mărit"
+      },
+      {
+        "code": "PEB22400",
+        "description": "Lagăr Link-Belt cu carcasă solidă, variantă etanșată"
+      },
+      {
+        "code": "PLB6800",
+        "description": "Lagăr Link-Belt cu carcasă despicată, pillow block"
+      },
+      {
+        "code": "PLB6900",
+        "description": "Lagăr Link-Belt cu carcasă despicată, gabarit mărit"
+      },
+      {
+        "code": "BPLB6800",
+        "description": "Lagăr Link-Belt cu carcasă despicată, variantă consolidată"
+      },
+      {
+        "code": "PB22428H",
+        "description": "Lagăr Link-Belt sferic, montaj tip pillow block"
+      },
+      {
+        "code": "PB22443H",
+        "description": "Lagăr Link-Belt sferic, diametru interior 2 11/16 țoli"
+      },
+      {
+        "code": "Falk Steelflex",
+        "description": "Cuplaj cu grilă metalică pentru cuplu ridicat"
+      },
+      {
+        "code": "Rexnord Addax",
+        "description": "Cuplaj elastomeric pentru aplicații industriale generale"
+      },
+      {
+        "code": "Rexnord Omega",
+        "description": "Cuplaj elastomeric cu compensare de dezaliniere"
+      },
+      {
+        "code": "Rexnord Wrapflex",
+        "description": "Cuplaj elastomeric înfășurat pentru amortizarea vibrațiilor"
+      },
+      {
+        "code": "Falk Lifelign",
+        "description": "Cuplaj cu dantură curbată, interschimbabil cu alte mărci"
+      },
+      {
+        "code": "Rexnord Tollok",
+        "description": "Sistem de fixare rigidă pentru arbori și butuci"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce lagăr Rexnord Link-Belt aleg pentru montare pillow block?",
+        "a": "Familia PB22400 sau PB22500 acoperă lagărele sferice cu carcasă solidă, tip pillow block, folosite frecvent pe arbori orizontali în transportoare și ventilatoare. Alegerea între cele două depinde de diametrul arborelui și de sarcina radială suportată de rulment."
+      },
+      {
+        "q": "Ce diferență este între cuplajul Rexnord Omega și Falk Steelflex?",
+        "a": "Rexnord Omega este un cuplaj elastomeric, cu un element de cauciuc care amortizează șocurile și compensează dezalinierea ușoară a arborilor. Falk Steelflex folosește o grilă metalică flexibilă, potrivită pentru cupluri mai mari și temperaturi de funcționare mai ridicate decât cuplajele elastomerice."
+      },
+      {
+        "q": "Livrați lagăre și cuplaje Rexnord în România?",
+        "a": "Da, aducem la comandă lagăre și cuplaje Rexnord pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Așteptați un termen de 2-6 săptămâni de la comandă, în funcție de model. Recomandăm indicarea codului complet de pe lagărul existent."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de lagăr Rexnord Link-Belt?",
+        "a": "Este util să precizați diametrul interior al arborelui, tipul de montare (carcasă solidă sau despicată) și sarcina aproximativă suportată. Codul complet al lagărului existent, dacă este vizibil pe carcasă, permite identificarea rapidă a echivalentului corect din gama Link-Belt."
+      },
+      {
+        "q": "Ce este cuplajul Rexnord Wrapflex?",
+        "a": "Este un cuplaj elastomeric la care elementul flexibil este înfășurat între cele două jumătăți metalice, oferind amortizare bună a vibrațiilor și toleranță la dezalinierea axială sau unghiulară a arborilor, fiind folosit frecvent la pompe și ventilatoare industriale."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [
@@ -249,10 +506,75 @@ Nemții au investit masiv în digitalizare și IoT - platforma Rittal IoT Interf
     ],
     infinitrade: `La InfiniTrade furnizăm dulapuri Rittal (VX25, TS 8) și sistemele lor de climatizare pentru tablouri electrice din România, prin canale de aprovizionare din Uniunea Europeană. Ce putem și ce nu putem confirma ține de fișele tehnice publice ale producătorului, fără date proprii despre stocul fiecărei dimensiuni. Ca formulă generală a firmei, configurațiile standard deja pregătite se livrează în 24-72 h, iar cele custom (dimensiuni speciale, climatizare dedicată) durează 2-6 săptămâni din fabrică. Pentru o ofertă corectă, trimite-ne dimensiunea dulapului, puterea disipată și accesoriile dorite; nu lucrăm cu prețuri de listă, fiecare configurație primește cotație separată. Te ajutăm la sizing-ul climatizării folosind datele tehnice ale producătorului.`,
     sources: [
+      {"title":"Rittal Homepage","url":"https://www.rittal.com/com-en/","publisher":"Rittal","accessed":"2026-09-22"},
       { title: 'Rittal – Wikipedia', url: 'https://en.wikipedia.org/wiki/Rittal', publisher: 'Wikipedia', accessed: '2026-09-22' },
       { title: 'Rittal – site oficial', url: 'https://www.rittal.com', publisher: 'Rittal GmbH & Co. KG', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma configurarea software (Therm, Eplan) ca serviciu inclus și nici stocul permanent pentru toate dimensiunile de dulap.',
+    productCodes: [
+      {
+        "code": "VX25",
+        "description": "Dulap modular cu sistem de asamblare rapidă"
+      },
+      {
+        "code": "TopTherm",
+        "description": "Unitate de climatizare pentru dulapuri electrice"
+      },
+      {
+        "code": "VX25 TopTherm Chiller",
+        "description": "Chiller pentru răcirea proceselor și echipamentelor"
+      },
+      {
+        "code": "Blue e+",
+        "description": "Unitate de climatizare cu eficiență energetică ridicată"
+      },
+      {
+        "code": "Blue e+ S",
+        "description": "Unitate de climatizare compactă, putere 300-1000 W"
+      },
+      {
+        "code": "RiLineX",
+        "description": "Sistem de bare de distribuție cu siguranțe certificate"
+      },
+      {
+        "code": "Rittal ePOCKET",
+        "description": "Soluție software pentru scheme de cablare digitale"
+      },
+      {
+        "code": "TX CableNet",
+        "description": "Sistem de management al cablurilor pentru dulapuri"
+      },
+      {
+        "code": "RiMatrix NG",
+        "description": "Platformă de infrastructură IT de generație nouă"
+      },
+      {
+        "code": "RAS",
+        "description": "Sisteme automatizate pentru procese de prelucrare a dulapurilor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce dulap Rittal aleg pentru un tablou electric industrial?",
+        "a": "Seria VX25 este alegerea standard pentru tablouri electrice industriale, datorită sistemului de asamblare rapidă și compatibilității cu accesorii precum bare de distribuție RiLineX sau unități de climatizare Blue e+. Dimensiunea exactă depinde de numărul de echipamente montate în interior."
+      },
+      {
+        "q": "Ce diferență este între Blue e+ și Blue e+ S la Rittal?",
+        "a": "Blue e+ este familia de unități de climatizare cu eficiență energetică ridicată pentru puteri variate, în timp ce Blue e+ S este varianta compactă, dedicată puterilor mici, între 300 și 1000 W, potrivită pentru dulapuri de dimensiuni reduse cu spațiu limitat de montaj."
+      },
+      {
+        "q": "Livrați dulapuri și sisteme de climatizare Rittal în România?",
+        "a": "Da, aducem la comandă dulapuri și sisteme de climatizare Rittal pe baza informațiilor publice ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de configurație. Recomandăm precizarea seriei exacte înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de dulap Rittal VX25?",
+        "a": "Este util să menționați dimensiunile dulapului (înălțime, lățime, adâncime), gradul de protecție necesar și dacă este nevoie de climatizare activă sau pasivă. Aceste detalii permit alegerea corectă a accesoriilor compatibile, precum barele RiLineX sau unitățile Blue e+."
+      },
+      {
+        "q": "Ce este platforma RiMatrix NG de la Rittal?",
+        "a": "Este o platformă de infrastructură IT de generație nouă, gândită pentru centre de date și camere tehnice, care integrează rack-uri, distribuție electrică și management al cablurilor într-un concept unitar, orientat spre scalabilitate și eficiență energetică pe termen lung."
+      }
+    ],
     evidenceClass: "history-only",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
@@ -319,10 +641,95 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
     ],
     infinitrade: `Prin InfiniTrade comandăm echipamente Rockwell Automation (Allen-Bradley) - PLC-uri CompactLogix/ControlLogix, variatoare PowerFlex, HMI PanelView - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Ne bazăm pe informațiile publice disponibile de la producător, fără date proprii de stoc pentru fiecare referință. Ca formulă generală a firmei, articolele deja pregătite ajung în 24-72 h, iar configurațiile complexe (șasiuri ControlLogix complete, variatoare mari, sisteme safety) comandate din fabrică durează 2-6 săptămâni. Pentru o cotație corectă, trimite-ne codul complet al produsului, cantitatea și, dacă e cazul, schema aplicației; nu publicăm prețuri, fiecare comandă e evaluată separat. Te ajutăm să identifici componenta potrivită din gama Allen-Bradley.`,
     sources: [
+      {"title":"Programmable Controllers","url":"https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley/programmable-controllers.html","publisher":"Rockwell Automation","accessed":"2026-09-22"},
       { title: 'Rockwell Automation – About Us', url: 'https://www.rockwellautomation.com/en-us/company/about-us.html', publisher: 'Rockwell Automation, Inc.', accessed: '2026-09-22' },
       { title: 'Rockwell Automation – Our History', url: 'https://www.rockwellautomation.com/en-us/company/about-us/our-history.html', publisher: 'Rockwell Automation, Inc.', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma programarea sau configurarea software Studio 5000 ca serviciu inclus, nici stocul permanent pentru toate modelele PLC.',
+    productCodes: [
+      {
+        "code": "ControlLogix 5590",
+        "description": "Controler PLC de gamă mare, șasiu 1756"
+      },
+      {
+        "code": "ControlLogix 5580",
+        "description": "Controler PLC de gamă mare, generație anterioară"
+      },
+      {
+        "code": "ControlLogix 5570",
+        "description": "Controler PLC de gamă mare, generație mai veche"
+      },
+      {
+        "code": "CompactLogix 5480",
+        "description": "Controler PLC compact, șasiu 5069"
+      },
+      {
+        "code": "CompactLogix 5390",
+        "description": "Controler PLC compact, șasiu 5039"
+      },
+      {
+        "code": "CompactLogix 5380",
+        "description": "Controler PLC compact, șasiu 5069"
+      },
+      {
+        "code": "Micro870",
+        "description": "Controler PLC pentru mașini mici, seria 2080"
+      },
+      {
+        "code": "Micro850",
+        "description": "Controler PLC pentru mașini mici, cu extindere I/O"
+      },
+      {
+        "code": "Micro820",
+        "description": "Controler PLC compact pentru aplicații de bază"
+      },
+      {
+        "code": "Micro810",
+        "description": "Controler PLC de intrare, fără extindere I/O"
+      },
+      {
+        "code": "SmartGuard 600",
+        "description": "Controler de siguranță, șasiu 1752"
+      },
+      {
+        "code": "SLC 500",
+        "description": "Controler PLC de generație mai veche, șasiu 1747"
+      },
+      {
+        "code": "MicroLogix 1400",
+        "description": "Controler PLC compact, șasiu 1766"
+      },
+      {
+        "code": "MicroLogix 1200",
+        "description": "Controler PLC compact, generație anterioară"
+      },
+      {
+        "code": "SoftLogix",
+        "description": "Controler PLC bazat pe software, șasiu 1789"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce PLC Rockwell Automation aleg pentru o aplicație mică, fără șasiu?",
+        "a": "Familia Micro800, cu modelele Micro810, Micro820, Micro850 și Micro870, este gândită pentru aplicații mici și mijlocii, fără șasiu modular clasic. Alegerea între modele depinde de numărul de intrări/ieșiri necesare și de posibilitatea de extindere ulterioară cu module suplimentare."
+      },
+      {
+        "q": "Ce diferență este între CompactLogix 5380 și ControlLogix 5580?",
+        "a": "CompactLogix 5380 este un controler compact, pe șasiu 5069, potrivit pentru mașini și linii de dimensiuni medii. ControlLogix 5580 este un controler de gamă mare, pe șasiu 1756, folosit pentru procese complexe cu multe module I/O și cerințe ridicate de putere de procesare."
+      },
+      {
+        "q": "Livrați automate programabile Rockwell Automation în România?",
+        "a": "Da, aducem la comandă echipamente Rockwell Automation pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de firmware-ul solicitat. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de PLC Rockwell Automation?",
+        "a": "Este util să precizați numărul de intrări/ieșiri necesare, tipul de comunicație folosit în instalație și dacă aplicația necesită funcții de siguranță integrate. Codul controlerului existent, dacă este disponibil, ajută la identificarea rapidă a echivalentului sau upgrade-ului corect."
+      },
+      {
+        "q": "Ce este platforma Micro800 de la Rockwell Automation?",
+        "a": "Este o familie de controlere compacte, fără șasiu modular, gândită pentru mașini mici și mijlocii cu buget și spațiu de montaj limitate. Modulele de extindere din seria 2080 permit adăugarea de intrări/ieșiri suplimentare fără schimbarea controlerului de bază."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
@@ -662,10 +1069,79 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
     ],
     infinitrade: `La InfiniTrade furnizăm echipamente electrice Siemens - întrerupătoare 5SL, contactoare SIRIUS, protecții motor 3RV, tablouri SIVACON - pentru instalatori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din fișa de brand provin din surse publice ale producătorului, fără date proprii despre stocul fiecărei referințe. Ca formulă generală a firmei, componentele uzuale deja pregătite ajung în 24-72 h, iar tablourile SIVACON sau configurațiile complexe comandate din fabrică durează 2-6 săptămâni. Pentru o ofertă corectă, trimite-ne curentul nominal, caracteristica dorită (B/C/D) și schema unifilară dacă există; nu publicăm prețuri de listă, fiecare comandă primește cotație separată. Te ajutăm la verificarea selectivității protecțiilor pentru tabloul tău.`,
     sources: [
+      {"title":"Industrial Controls","url":"https://www.siemens.com/global/en/products/automation/industrial-controls.html","publisher":"Siemens","accessed":"2026-09-22"},
       { title: 'Siemens AG – About', url: 'https://www.siemens.com/global/en/company/about.html', publisher: 'Siemens AG', accessed: '2026-09-22' },
       { title: 'Siemens – Wikipedia', url: 'https://en.wikipedia.org/wiki/Siemens', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma configurarea software (LV Configurator, TIP) ca serviciu inclus, nici stocul permanent pentru toate seriile SIVACON.',
+    productCodes: [
+      {
+        "code": "3RV2",
+        "description": "Disjunctor de protecție motor pentru pornire directă"
+      },
+      {
+        "code": "3RV29",
+        "description": "Sistem de alimentare prin bare pentru distribuție de putere"
+      },
+      {
+        "code": "3RC7",
+        "description": "Modul de conectare inteligent pentru contactoare"
+      },
+      {
+        "code": "3RA8",
+        "description": "Combinație de pornire inteligentă pentru motoare"
+      },
+      {
+        "code": "3RA2",
+        "description": "Combinație de pornire fără siguranțe pentru motoare"
+      },
+      {
+        "code": "3RA6",
+        "description": "Starter compact pentru motoare de putere mică"
+      },
+      {
+        "code": "3RA23",
+        "description": "Ansamblu de contactoare pentru inversare de sens"
+      },
+      {
+        "code": "3RT1",
+        "description": "Contactor de putere pentru motoare până la 335 kW"
+      },
+      {
+        "code": "3RT2",
+        "description": "Contactor electromecanic de uz general"
+      },
+      {
+        "code": "3RU2",
+        "description": "Releu termic de protecție la suprasarcină"
+      },
+      {
+        "code": "3TF6",
+        "description": "Contactor de putere pentru motoare de gabarit mare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce contactor Siemens aleg pentru pornirea unui motor electric?",
+        "a": "Familia SIRIUS 3RT2 acoperă contactoarele electromecanice de uz general, alese în funcție de puterea motorului și de tensiunea bobinei de comandă. Pentru motoare de putere mare, seria 3RT1 sau 3TF6 acoperă game de curent superioare, folosite frecvent la aplicații industriale grele."
+      },
+      {
+        "q": "Ce diferență este între 3RA2 și 3RA8 la combinațiile de pornire Siemens?",
+        "a": "3RA2 este o combinație de pornire fără siguranțe, formată din disjunctor și contactor montate compact. 3RA8 adaugă funcții inteligente de comunicare și diagnosticare, utile în instalații unde starea motorului trebuie monitorizată de la distanță prin rețeaua de automatizare."
+      },
+      {
+        "q": "Livrați contactoare și disjunctoare Siemens în România?",
+        "a": "Da, aducem la comandă componente Siemens SIRIUS pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. În funcție de model, termenul uzual de livrare este de 2-6 săptămâni la comandă. Recomandăm confirmarea codului complet al referinței înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de contactor Siemens SIRIUS?",
+        "a": "Este util să precizați puterea motorului comandat, tensiunea bobinei de comandă și dacă este nevoie de protecție termică integrată. Codul complet al contactorului existent, dacă este vizibil pe etichetă, permite identificarea rapidă a echivalentului corect din gama SIRIUS."
+      },
+      {
+        "q": "Ce este releul termic Siemens seria 3RU2?",
+        "a": "Este un releu de protecție la suprasarcină, montat direct pe contactor, care întrerupe alimentarea motorului atunci când curentul depășește valoarea reglată pentru o durată prelungită. Este folosit frecvent împreună cu contactoarele 3RT pentru protecția completă a motoarelor electrice."
+      }
+    ],
     evidenceClass: "gsc-only",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]

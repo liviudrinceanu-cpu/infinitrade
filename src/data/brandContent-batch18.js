@@ -364,10 +364,84 @@ Ceea ce face Bürkert relevant pentru integratorii de sisteme e modularitatea: v
     ],
     infinitrade: `Electrovalvele, valvele de proces cu diafragmă și debitmetrele Bürkert vin la noi prin canale de aprovizionare din UE; nu cunoaștem stocul intern al fabricii din Ingelfingen, așa că lucrăm cu informațiile publice disponibile de la producător și le verificăm pentru fiecare cerere înainte de ofertă. Pentru electrovalvele din seria 6014 și accesoriile obișnuite, termenul orientativ e 24-72h din stoc; pentru valve cu poziționer digital, bus de teren sau materiale speciale de corp, aducem la comandă în 2-6 săptămâni. Spuneți-ne fluidul de lucru, presiunea, materialul de corp dorit (PVC, polipropilenă sau inox) și protocolul de comunicație folosit, ca să propunem configurația corectă. Nu dăm un preț fără aceste detalii tehnice.`,
     sources: [
+      {"title":"Type 6014","url":"https://www.burkert.com/en/type/6014","publisher":"Bürkert","accessed":"2026-09-22"},
+      {"title":"Bürkert Homepage","url":"https://www.burkert.com/en","publisher":"Bürkert","accessed":"2026-09-22"},
       { title: "Bürkert Fluid Control Systems | Valve Engineering & Systems", url: "https://www.burkert.com", publisher: "Bürkert", accessed: "2026-09-22" },
       { title: "Bürkert Fluid Control Systems | Valve Engineering & Systems", url: "https://www.burkert.com/en", publisher: "Bürkert", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al Bürkert pentru insulele de valve pe bus de teren sau pentru materialele speciale de corp și nu configurăm software-ul de automatizare al clientului.",
+    productCodes: [
+      {
+        "code": "Type 6014",
+        "description": "Electrovalvă cu piston 3/2 căi, acțiune directă"
+      },
+      {
+        "code": "Type 6027",
+        "description": "Electrovalvă cu piston pentru comutare de proces"
+      },
+      {
+        "code": "Type 2103",
+        "description": "Valvă de proces și control pentru medii industriale"
+      },
+      {
+        "code": "Type 8652",
+        "description": "Interfață electropneumatică pentru controlul proceselor"
+      },
+      {
+        "code": "Type 8098",
+        "description": "Senzor și transmițător pentru monitorizare proces"
+      },
+      {
+        "code": "Type 6712",
+        "description": "Pompă micro-fluidică pentru dozare de precizie"
+      },
+      {
+        "code": "Type 8741",
+        "description": "Regulator de debit masic pentru gaze"
+      },
+      {
+        "code": "Type 2875",
+        "description": "Valvă proporțională pentru reglare fină de debit"
+      },
+      {
+        "code": "Type 6732",
+        "description": "Electrovalvă cu diafragmă 2/2 căi, tip Whisper"
+      },
+      {
+        "code": "Type 3360",
+        "description": "Valvă electromotorică pentru reglare de proces"
+      },
+      {
+        "code": "Type 8691",
+        "description": "Modul de comunicație pentru integrare DeltaV"
+      },
+      {
+        "code": "Type BBS03",
+        "description": "Componentă complementară pentru sisteme de automatizare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce electrovalvă Bürkert aleg pentru comutare rapidă de proces?",
+        "a": "Type 6014 este o electrovalvă cu piston, cu acțiune directă, potrivită pentru comutare rapidă la debite mici și medii. Pentru diametre mai mari sau presiuni diferențiale mai ridicate, Type 6027 sau variantele cu servocomandă din gama Bürkert sunt mai potrivite."
+      },
+      {
+        "q": "Ce este regulatorul de debit masic Bürkert Type 8741?",
+        "a": "Este un dispozitiv folosit pentru măsurarea și reglarea precisă a debitului de gaz într-o instalație de proces, adesea integrat cu un sistem de control central. Este ales acolo unde debitul trebuie menținut constant indiferent de variațiile de presiune din amonte."
+      },
+      {
+        "q": "Livrați electrovalve și senzori Bürkert în România?",
+        "a": "Da, aducem la comandă componente Bürkert pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de tip și de configurație. Recomandăm confirmarea codului de tip exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de electrovalvă Bürkert?",
+        "a": "Este util să precizați diametrul nominal, tensiunea bobinei, tipul de fluid vehiculat și presiunea diferențială din instalație. Aceste detalii permit alegerea corectă între tipurile 6014, 6027 sau variantele proporționale din gama Bürkert."
+      },
+      {
+        "q": "Ce este valva proporțională Bürkert Type 2875?",
+        "a": "Este o valvă folosită pentru reglarea fină a debitului sau a presiunii, cu o deschidere variabilă controlată electronic, spre deosebire de o electrovalvă simplă cu doar două poziții. Este aleasă acolo unde procesul necesită un control continuu, nu doar deschis/închis."
+      }
+    ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -545,9 +619,78 @@ Element esențial al oricărei bucle moderne de control, poziționerele digitale
     ],
     infinitrade: `Robineții de control Fisher, regulatoarele de presiune și poziționerele FIELDVUE le procurăm prin canale de aprovizionare din UE, pornind de la surse publice ale producătorului Emerson — fără date proprii de stoc pentru fiecare configurație din gamă. Pentru regulatoarele de presiune uzuale din seria EZR, orientarea e 24-72h din stoc; pentru robineți de control inginerie la comandă sau poziționere cu protocol specific (HART, Foundation Fieldbus), termenul e de 2-6 săptămâni la comandă. Pentru dimensionarea corectă (Cv-ul robinetului, trimul anti-cavitație sau anti-zgomot), trimiteți-ne debitul, presiunea diferențială și fluidul de proces. Nu oferim un preț orientativ înainte de a primi aceste condiții reale de funcționare.`,
     sources: [
+      {"title":"Fisher","url":"https://www.emerson.com/en-us/automation/fisher","publisher":"Emerson (Fisher)","accessed":"2026-09-22"},
       { title: "Fisher", url: "https://www.emerson.com/en-us/automation/fisher", publisher: "Emerson", accessed: "2026-09-22" }
     ],
     limitation: "Nu am reușit să confirmăm din a doua sursă independentă anul exact al înființării Fisher; nu putem confirma stocul permanent al Emerson pentru poziționere cu protocoale speciale și nu efectuăm intervenții acoperite de garanția producătorului.",
+    productCodes: [
+      {
+        "code": "DVC7K",
+        "description": "Poziționer digital FIELDVUE pentru robineți de control"
+      },
+      {
+        "code": "DPC2K",
+        "description": "Controler digital de proces FIELDVUE"
+      },
+      {
+        "code": "FIELDVUE 4400",
+        "description": "Transmițător digital de poziție"
+      },
+      {
+        "code": "MR95",
+        "description": "Regulator de presiune pentru gaz"
+      },
+      {
+        "code": "EZH",
+        "description": "Regulator de presiune pilot-operat, seria EZH"
+      },
+      {
+        "code": "L2t",
+        "description": "Controler de nivel lichid"
+      },
+      {
+        "code": "Type C471",
+        "description": "Robinet intern cu evacuare tip jet"
+      },
+      {
+        "code": "easy-Drive 200R",
+        "description": "Servomotor electric pentru robineți de control"
+      },
+      {
+        "code": "119EZ",
+        "description": "Valvă de gaz combustibil pentru arzătoare industriale"
+      },
+      {
+        "code": "Whisper NXG",
+        "description": "Garnitură internă cu zgomot redus pentru robineți rotativi"
+      },
+      {
+        "code": "Whisper NXV",
+        "description": "Garnitură internă cu zgomot redus, variantă alternativă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce poziționer Fisher aleg pentru un robinet de control cu comunicație digitală?",
+        "a": "DVC7K din gama FIELDVUE este alegerea tipică pentru integrare digitală, oferind diagnosticare avansată și comunicație cu sistemul de control al procesului. Alegerea variantei exacte depinde de protocolul de comunicație folosit în instalație, HART sau Fieldbus."
+      },
+      {
+        "q": "Ce este garnitura internă Fisher Whisper NXG?",
+        "a": "Este o garnitură internă specială pentru robineți de control rotativi, gândită pentru reducerea zgomotului generat de curgerea fluidului la presiuni diferențiale ridicate. Este aleasă acolo unde nivelul de zgomot al instalației trebuie limitat sub o valoare impusă."
+      },
+      {
+        "q": "Livrați robineți și poziționere Fisher în România?",
+        "a": "Da, aducem la comandă componente Fisher pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de opțiunile solicitate. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de robinet de control Fisher?",
+        "a": "Este util să precizați diametrul nominal, presiunea diferențială de proces, fluidul vehiculat și tipul de poziționer dorit. Aceste detalii permit alegerea corectă între seriile de robineți liniari sau rotativi și poziționerele FIELDVUE compatibile."
+      },
+      {
+        "q": "Ce este regulatorul de presiune Fisher seria EZH?",
+        "a": "Este un regulator de presiune pilot-operat, folosit frecvent pe rețele de gaz pentru menținerea unei presiuni constante la ieșire, indiferent de variațiile debitului sau ale presiunii din amonte. Este ales în funcție de presiunea de intrare și de debitul maxim necesar."
+      }
+    ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -723,10 +866,95 @@ Pentru industria de proces din România — rafinării, centrale termice, indust
     ],
     infinitrade: `Garniturile KLINGERsil și PTFE expandat, robineții cu piston și indicatoarele de nivel le procurăm prin canale de aprovizionare din UE, folosind informațiile publice disponibile de la producător — fără acces la stocul central al grupului KLINGER. Pentru coli de garnitură în dimensiuni uzuale, orientarea generală e 24-72h din stoc; pentru robineți cu piston, indicatoare de nivel sau garnituri decupate pe desen tehnic, termenul e de 2-6 săptămâni la comandă. Ca să alegem materialul de etanșare potrivit, trimiteți-ne presiunea de lucru, temperatura maximă și fluidul din aplicație (abur, ulei termic sau chimicale agresive). Nu propunem un preț fără specificația tehnică completă a flanșei sau a robinetului de izolare.`,
     sources: [
+      {"title":"Products","url":"https://www.klinger.co.at/en/products/","publisher":"KLINGER","accessed":"2026-09-22"},
       { title: "At a glance - KLINGER Dichtungstechnik", url: "https://www.klinger.co.at/en/company/", publisher: "KLINGER Dichtungstechnik", accessed: "2026-09-22" },
       { title: "KLINGER Dichtungstechnik Gumpoldskirchen - KLINGER Dichtungstechnik", url: "https://www.klinger.co.at/en/", publisher: "KLINGER Dichtungstechnik", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al KLINGER pentru garnituri custom pe desen tehnic sau pentru robineții cu piston de presiune foarte înaltă și nu efectuăm intervenții acoperite de garanția producătorului.",
+    productCodes: [
+      {
+        "code": "KLINGERSIL C-4400",
+        "description": "Garnitură din fibre comprimate pentru presiune medie"
+      },
+      {
+        "code": "KLINGERSIL C-4409",
+        "description": "Garnitură din fibre comprimate pentru aplicații generale"
+      },
+      {
+        "code": "KLINGERSIL C-4430",
+        "description": "Garnitură din fibre comprimate rezistentă la ulei"
+      },
+      {
+        "code": "KLINGERSIL C-4500",
+        "description": "Garnitură din fibre comprimate pentru temperatură ridicată"
+      },
+      {
+        "code": "KLINGERSIL C-8200",
+        "description": "Garnitură din fibre comprimate pentru abur și apă"
+      },
+      {
+        "code": "KLINGER Quantum",
+        "description": "Garnitură fără azbest de generație nouă"
+      },
+      {
+        "code": "KLINGER top-sil ML1",
+        "description": "Garnitură din fibre comprimate cu inserție metalică"
+      },
+      {
+        "code": "KLINGER top-graph 2000",
+        "description": "Garnitură din grafit comprimat pentru etanșări industriale"
+      },
+      {
+        "code": "KLINGER top-chem 2000",
+        "description": "Garnitură din PTFE expandat pentru medii chimice"
+      },
+      {
+        "code": "KLINGER top-chem 2003",
+        "description": "Garnitură din PTFE expandat, variantă îmbunătățită"
+      },
+      {
+        "code": "KLINGER top-chem 2005",
+        "description": "Garnitură din PTFE expandat pentru flanșe cu suprafață dificilă"
+      },
+      {
+        "code": "KLINGER soft-chem",
+        "description": "Garnitură moale din PTFE expandat pentru presiune joasă"
+      },
+      {
+        "code": "KLINGER Graphite laminate SLS",
+        "description": "Garnitură laminată din grafit cu inserție metalică"
+      },
+      {
+        "code": "KLINGER Graphite laminate PSM",
+        "description": "Garnitură laminată din grafit, variantă perforată"
+      },
+      {
+        "code": "KLINGER Milam PSS",
+        "description": "Garnitură laminată din mică pentru temperatură ridicată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce garnitură KLINGER aleg pentru o flanșă expusă la abur?",
+        "a": "KLINGERSIL C-8200 este seria recomandată pentru abur și apă la temperatură ridicată, oferind o etanșare fiabilă pe flanșe standard industriale. Alegerea grosimii exacte depinde de presiunea de lucru și de starea suprafeței flanșei."
+      },
+      {
+        "q": "Ce diferență este între garniturile KLINGER top-chem 2000 și top-graph 2000?",
+        "a": "top-chem 2000 este din PTFE expandat, potrivit pentru medii chimice agresive unde grafitul nu ar rezista. top-graph 2000 este din grafit comprimat, recomandat pentru temperaturi ridicate și cicluri termice repetate, unde rezistența la temperatură este prioritară."
+      },
+      {
+        "q": "Livrați garnituri KLINGER în România?",
+        "a": "Da, aducem la comandă garnituri KLINGER pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de material și de dimensiunea flanșei. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de garnitură KLINGER?",
+        "a": "Este util să precizați diametrul nominal și presiunea nominală a flanșei, fluidul vehiculat, temperatura de lucru și grosimea dorită a garniturii. Aceste detalii permit alegerea corectă între seriile KLINGERSIL, top-chem sau graphite laminate."
+      },
+      {
+        "q": "Ce este garnitura KLINGER Quantum?",
+        "a": "Este o garnitură fără azbest de generație nouă, dezvoltată ca înlocuitor pentru materialele clasice pe bază de fibre, oferind un echilibru între rezistență mecanică și etanșeitate pe o gamă largă de medii industriale și temperaturi de lucru."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -785,10 +1013,83 @@ Membrana dublă cu monitorizare a spargerii, standard pe majoritatea pompelor LE
     ],
     infinitrade: `Pompele dozatoare cu membrană LEWA din gamele ecoflow și ecodos, plus pompele hidraulice seria LDC, le aducem prin canale de aprovizionare din UE; nu avem date proprii despre stocul fabricii din Leonberg, așa că pornim de la surse publice ale producătorului pentru fiecare cap de dozare. Fiind echipamente de precizie configurate pe aplicație, termenul standard rămâne 2-6 săptămâni la comandă; pentru membrane și supape de schimb ale unităților deja instalate, orientarea e 24-72h din stoc. Pentru dimensionarea capului de dozare, avem nevoie de chimicalul dozat, debitul necesar și presiunea de refulare din procesul dumneavoastră. Nu transmitem un preț estimativ înainte de a primi fișa tehnică a chimicalului și condițiile reale de lucru.`,
     sources: [
+      {"title":"LEWA Homepage","url":"https://www.lewa.com/en","publisher":"LEWA","accessed":"2026-09-22"},
       { title: "LEWA: Premier Dosing Pump Solutions for Unmatched Precision & Efficiency | LEWA", url: "https://www.lewa.com/en", publisher: "LEWA", accessed: "2026-09-22" },
       { title: "Technologies | LEWA", url: "https://www.lewa.com/en/technologies/", publisher: "LEWA", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al LEWA pentru capete de dozare speciale la presiuni de peste 1.000 bar și nu efectuăm intervenții acoperite de garanția producătorului pe pompele deja montate.",
+    productCodes: [
+      {
+        "code": "ecoflow LDH Boxer",
+        "description": "Pompă dozatoare cu membrană hidraulică, capacitate mare"
+      },
+      {
+        "code": "MAH 4",
+        "description": "Cap de dozare micro-pentru debite foarte mici"
+      },
+      {
+        "code": "MBH 6",
+        "description": "Cap de dozare micro cu membrană, capacitate medie"
+      },
+      {
+        "code": "ecoflow LDG",
+        "description": "Pompă de proces cu membrană hidraulică"
+      },
+      {
+        "code": "Triplex G3E",
+        "description": "Pompă de proces cu diafragmă, trei capete"
+      },
+      {
+        "code": "ecosmart LCC",
+        "description": "Pompă dozatoare cu cap din PVC"
+      },
+      {
+        "code": "ecoflow",
+        "description": "Familie de pompe dozatoare cu membrană hidraulică"
+      },
+      {
+        "code": "ecoSmart",
+        "description": "Familie de pompe dozatoare cu membrană, gamă medie"
+      },
+      {
+        "code": "ecodos",
+        "description": "Pompă dozatoare mecanică compactă"
+      },
+      {
+        "code": "Triplex",
+        "description": "Pompă de proces cu trei capete diafragmă"
+      },
+      {
+        "code": "FC Laboratory Pump",
+        "description": "Pompă dozatoare de laborator pentru debite mici"
+      },
+      {
+        "code": "Micro-Metering Pump M",
+        "description": "Pompă de dozare micro pentru precizie ridicată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă LEWA aleg pentru dozare de mare precizie la debite mici?",
+        "a": "Familia de pompe micro-metering, cu capete MAH 4 sau MBH 6, este dedicată debitelor foarte mici cu precizie ridicată, folosită frecvent în laboratoare sau în procese cu dozare fină. Alegerea capului depinde de debitul minim și maxim necesar aplicației."
+      },
+      {
+        "q": "Ce diferență este între pompele LEWA ecoflow și ecosmart?",
+        "a": "ecoflow este gama de pompe dozatoare cu membrană hidraulică, pentru debite și presiuni mai mari, cu o precizie ridicată pe termen lung. ecosmart este o gamă mai compactă, cu cap disponibil și din PVC, potrivită pentru aplicații mai simple sau bugete mai reduse."
+      },
+      {
+        "q": "Livrați pompe dozatoare LEWA în România?",
+        "a": "Da, aducem la comandă pompe LEWA pe baza informațiilor publice de pe pagina producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de capul de dozare ales. Recomandăm confirmarea seriei exacte înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă LEWA?",
+        "a": "Este util să precizați substanța dozată, debitul necesar, presiunea de contrapresiune din instalație și materialul dorit pentru capul de dozare. Aceste detalii permit alegerea corectă între familiile ecoflow, ecosmart sau Triplex din gama LEWA."
+      },
+      {
+        "q": "Ce este pompa de proces LEWA Triplex G3E?",
+        "a": "Este o pompă de proces cu diafragmă și trei capete de dozare, folosită pentru debite mai mari și aplicații industriale continue, unde fiabilitatea pe termen lung este esențială. Este aleasă acolo unde o singură membrană nu ar acoperi debitul necesar."
+      }
+    ],
     evidenceClass: "zero-evidence",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -907,9 +1208,82 @@ Completează oferta seria de regulatoare și senzori DULCOMETER pentru măsurare
     ],
     infinitrade: `Pentru pompele dozatoare ProMinent (gamma/X, Beta, Sigma), sistemele de dezinfecție și regulatoarele DULCOMETER, ne bazăm pe surse publice ale producătorului și pe canale de aprovizionare din UE — nu avem o legătură directă cu stocul central german, deci verificăm disponibilitatea pentru fiecare cerere. Pentru pompele solenoidale uzuale, orientarea e 24-72h din stoc; pentru sisteme complete de dezinfecție sau configurații Sigma la comandă, termenul e de 2-6 săptămâni. Pentru dimensionarea corectă, trimiteți-ne debitul de apă tratat, concentrația necesară a reactivului și tipul de chimical dozat (clor, acid sau floculant). Prețul îl calculăm după ce primim aceste date de proces, nu înainte.`,
     sources: [
+      {"title":"Metering Pumps Components ProMinent Product Catalogue 2020 Volume 1","url":"https://www.prominent.com/resources/Catalogue/English/9300/Metering-Pumps-Components-ProMinent-Product-Catalogue-2020-Volume-1.pdf","publisher":"ProMinent","accessed":"2026-09-22"},
       { title: "Experts in Metering Technology and Water Treatment - ProMinent", url: "https://www.prominent.com", publisher: "ProMinent GmbH", accessed: "2026-09-22" }
     ],
     limitation: "Nu am reușit să confirmăm dintr-o a doua sursă independentă anul exact al înființării ProMinent și nu putem confirma stocul permanent pentru sistemele de electroliză sau Bello Zon.",
+    productCodes: [
+      {
+        "code": "Orlita MF",
+        "description": "Pompă dozatoare cu piston și membrană hidraulică metalică"
+      },
+      {
+        "code": "Orlita MH",
+        "description": "Pompă dozatoare cu membrană hidraulică metalică"
+      },
+      {
+        "code": "Orlita PS",
+        "description": "Pompă dozatoare cu piston pentru presiuni ridicate"
+      },
+      {
+        "code": "Orlita DR",
+        "description": "Pompă dozatoare cu piston pentru dozare de precizie"
+      },
+      {
+        "code": "Evolution mikro EMFa",
+        "description": "Pompă dozatoare hidraulică de dimensiuni reduse"
+      },
+      {
+        "code": "Evolution mikro EMHa",
+        "description": "Pompă dozatoare hidraulică micro, variantă metalică"
+      },
+      {
+        "code": "DULCOTrans",
+        "description": "Pompă pentru transferul de substanțe chimice din butoi"
+      },
+      {
+        "code": "von Taine",
+        "description": "Pompă centrifugă pentru transfer de fluide chimice"
+      },
+      {
+        "code": "Duodos",
+        "description": "Pompă cu diafragmă acționată pneumatic"
+      },
+      {
+        "code": "ROTADOS",
+        "description": "Pompă rotativă cu lobi pentru dozare"
+      },
+      {
+        "code": "Hydro/2 API 675",
+        "description": "Pompă dozatoare hidraulică conformă API 675"
+      },
+      {
+        "code": "Hydro/3 API 675",
+        "description": "Pompă dozatoare hidraulică conformă API 675, capacitate medie"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă ProMinent aleg pentru transferul chimicalelor dintr-un butoi?",
+        "a": "DULCOTrans este pompa dedicată transferului de substanțe chimice direct din butoaie sau containere, evitând manipularea manuală a fluidului. Alegerea materialului capului de pompă depinde de compatibilitatea chimică a substanței transferate."
+      },
+      {
+        "q": "Ce este pompa ProMinent conformă API 675?",
+        "a": "Seriile Hydro/2 și Hydro/3 în variantă API 675 sunt pompe dozatoare hidraulice construite conform standardului internațional pentru pompe de proces din industria petrolieră și chimică, unde fiabilitatea și trasabilitatea documentației sunt esențiale."
+      },
+      {
+        "q": "Livrați pompe ProMinent în România?",
+        "a": "Da, aducem la comandă pompe ProMinent pe baza cataloagelor publice ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de serie și de certificările solicitate. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă dozatoare ProMinent?",
+        "a": "Este util să precizați substanța dozată, debitul și presiunea necesare, precum și dacă instalația necesită conformitate API 675 sau certificări specifice de siguranță. Aceste detalii permit alegerea corectă între gamele Orlita, Hydro sau DULCOTrans."
+      },
+      {
+        "q": "Ce este pompa rotativă ProMinent ROTADOS?",
+        "a": "Este o pompă rotativă cu lobi, folosită pentru dozarea unor fluide vâscoase sau cu conținut de particule, acolo unde pompele cu membrană clasice nu fac față. Este aleasă în funcție de vâscozitatea fluidului și de debitul continuu necesar procesului."
+      }
+    ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -1088,10 +1462,91 @@ Pentru operatorii de stații de epurare, instalații de biogaz și ferme mari di
     ],
     infinitrade: `Pompele cu lobi Vogelsang din seriile VX și IQ/QJ, împreună cu maceratoarele RotaCut și XRipper, le aducem prin canale de aprovizionare din UE, pe baza informațiilor publice disponibile de la producător — fără date proprii despre stocul fabricii din nord-vestul Germaniei. Pentru lobi, elastomeri și cuțite de tocare de schimb, orientarea generală e 24-72h din stoc; pentru pompe și maceratoare complete, termenul standard e de 2-6 săptămâni la comandă. Pentru dimensionare, trimiteți-ne compoziția reală a materialului pompat (conținut de solide, fibre lungi, textile), debitul necesar și presiunea de refulare. Nu discutăm preț înainte de a avea aceste informații despre aplicație.`,
     sources: [
+      {"title":"Products","url":"https://www.vogelsang.info/en/products/","publisher":"Vogelsang","accessed":"2026-09-22"},
       { title: "From Local Pioneer to Global Leader: The Vogelsang Journey | Vogelsang", url: "https://www.vogelsang.info/en/company/", publisher: "Vogelsang GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Your partner for highly-engineered and service friendly equipment | Vogelsang", url: "https://www.vogelsang.info", publisher: "Vogelsang GmbH & Co. KG", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al Vogelsang pentru toate dimensiunile de maceratoare submersibile și nu efectuăm intervenții acoperite de garanția producătorului pe echipamentele deja montate.",
+    productCodes: [
+      {
+        "code": "EP series",
+        "description": "Pompă cu lobi rotativi pentru aplicații agricole"
+      },
+      {
+        "code": "FX series",
+        "description": "Pompă cu lobi rotativi pentru aplicații industriale"
+      },
+      {
+        "code": "IQ series",
+        "description": "Pompă cu lobi rotativi standard"
+      },
+      {
+        "code": "LoadMaster",
+        "description": "Pompă cu lobi rotativi de capacitate mărită"
+      },
+      {
+        "code": "R series",
+        "description": "Pompă cu lobi rotativi, gamă compactă"
+      },
+      {
+        "code": "VX series",
+        "description": "Pompă cu lobi rotativi pentru debite mari"
+      },
+      {
+        "code": "VY series",
+        "description": "Pompă cu lobi rotativi, variantă extinsă"
+      },
+      {
+        "code": "CC series",
+        "description": "Pompă cu cavitate progresivă"
+      },
+      {
+        "code": "HiCone",
+        "description": "Pompă cu cavitate progresivă cu con dublu"
+      },
+      {
+        "code": "ProCap T",
+        "description": "Pompă cu cavitate progresivă pentru debite constante"
+      },
+      {
+        "code": "BioCut",
+        "description": "Sistem de tocare pentru instalații de biogaz"
+      },
+      {
+        "code": "RotaCut",
+        "description": "Macerator în linie pentru tocarea solidelor"
+      },
+      {
+        "code": "XRipper",
+        "description": "Macerator submersibil pentru stații de pompare"
+      },
+      {
+        "code": "RedUnit",
+        "description": "Tocător de solide pentru protecția pompelor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă Vogelsang aleg pentru vehicularea nămolului cu solide?",
+        "a": "Seria VX sau IQ, cu lobi rotativi, este alegerea tipică pentru nămol cu conținut de solide, oferind o construcție robustă la uzură abrazivă. Pentru solide mari care ar putea bloca pompa, un macerator RotaCut sau RedUnit montat în amonte reduce riscul de înfundare."
+      },
+      {
+        "q": "Ce este maceratorul Vogelsang XRipper?",
+        "a": "Este un macerator submersibil, montat direct în stațiile de pompare, folosit pentru tocarea materialelor fibroase sau solide înainte ca acestea să ajungă la pompă. Este ales acolo unde apa uzată conține frecvent textile sau alte materiale ce pot bloca echipamentele din aval."
+      },
+      {
+        "q": "Livrați pompe și maceratoare Vogelsang în România?",
+        "a": "Da, aducem la comandă echipamente Vogelsang pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Timpul de livrare uzual este de 2-6 săptămâni din momentul comenzii, în funcție de model. Recomandăm confirmarea seriei exacte înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă cu lobi Vogelsang?",
+        "a": "Este util să precizați tipul fluidului vehiculat, conținutul de solide, debitul și presiunea necesare instalației. Aceste detalii permit alegerea corectă între seriile IQ, VX sau FX din gama Vogelsang de pompe cu lobi rotativi."
+      },
+      {
+        "q": "Ce este sistemul Vogelsang BioCut pentru biogaz?",
+        "a": "Este un sistem de tocare a substratului folosit în instalațiile de biogaz, care mărunțește materialul organic înainte de introducerea în digestor, îmbunătățind eficiența procesului de fermentare și reducând riscul de blocaje în conductele instalației."
+      }
+    ],
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]

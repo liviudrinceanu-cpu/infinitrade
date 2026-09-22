@@ -59,8 +59,109 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
     infinitrade: `Pentru rulmenții FAG lucrăm din surse publice ale producătorului și nu avem un stoc propriu documentat pentru fiecare cod din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, putem asigura 24-72 h din stoc pentru codurile cele mai cerute, restul gamei (rulmenți oscilanți, conici, axiali de dimensiuni speciale) intrând pe fluxul obișnuit de 2-6 săptămâni la comandă. Ca să dăm un răspuns exact, avem nevoie de codul complet al rulmentului sau de dimensiunile arborelui/alezajului și de aplicația vizată. Fără aceste detalii nu putem confirma disponibilitatea sau un termen ferm.`,
     limitation: 'Nu putem confirma service în perioada de garanție a producătorului, o legătură contractuală directă cu Schaeffler sau acoperirea prin stoc propriu a întregii game de rulmenți FAG.',
     sources: [
+      {"title":"Deep Groove Ball Bearings FAG Generation C Single row","url":"https://www.schaeffler.com/remotemedien/media/_shared_media/08_media_library/01_publications/schaeffler_2/tpi/downloads_8/tpi_165_de_en.pdf","publisher":"Schaeffler","accessed":"2026-09-22"},
       { title: 'Schaeffler Worldwide', url: 'https://www.schaeffler.com/en/', publisher: 'Schaeffler AG', accessed: '2026-09-22' },
       { title: 'Schaeffler Group', url: 'https://en.wikipedia.org/wiki/Schaeffler_Group', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "629-C",
+        "description": "Rulment rigid cu bile seria 60, format miniatural"
+      },
+      {
+        "code": "6000-C",
+        "description": "Rulment rigid cu bile seria 60, generatie C, zgomot redus"
+      },
+      {
+        "code": "6001-C",
+        "description": "Rulment rigid cu bile seria 60, frecare redusa"
+      },
+      {
+        "code": "6002-C",
+        "description": "Rulment rigid cu bile seria 60, pentru scule electrice"
+      },
+      {
+        "code": "6004-C",
+        "description": "Rulment rigid cu bile seria 60, pentru ventilatoare"
+      },
+      {
+        "code": "6200-C",
+        "description": "Rulment rigid cu bile seria 62, generatie C"
+      },
+      {
+        "code": "6201-C",
+        "description": "Rulment rigid cu bile seria 62, masini electrice"
+      },
+      {
+        "code": "6202-C",
+        "description": "Rulment rigid cu bile seria 62, zgomot redus"
+      },
+      {
+        "code": "6204-C",
+        "description": "Rulment rigid cu bile seria 62, uz general"
+      },
+      {
+        "code": "6205-C",
+        "description": "Rulment rigid cu bile seria 62, dimensiune frecvent folosita"
+      },
+      {
+        "code": "6206-C",
+        "description": "Rulment rigid cu bile seria 62, aplicatii cu ventilatoare"
+      },
+      {
+        "code": "6207-C",
+        "description": "Rulment rigid cu bile seria 62, echipamente industriale"
+      },
+      {
+        "code": "6208-C",
+        "description": "Rulment rigid cu bile seria 62, sarcini radiale și axiale"
+      },
+      {
+        "code": "6209-C",
+        "description": "Rulment rigid cu bile seria 62, motoare electrice industriale"
+      },
+      {
+        "code": "6210-C",
+        "description": "Rulment rigid cu bile seria 62, uz industrial general"
+      },
+      {
+        "code": "6301-C",
+        "description": "Rulment rigid cu bile seria 63, constructie mai robusta"
+      },
+      {
+        "code": "6305-C",
+        "description": "Rulment rigid cu bile seria 63, sarcini mai mari"
+      },
+      {
+        "code": "6306-C",
+        "description": "Rulment rigid cu bile seria 63, aplicatii industriale medii"
+      },
+      {
+        "code": "6307-C",
+        "description": "Rulment rigid cu bile seria 63, sarcina medie-mare"
+      },
+      {
+        "code": "6308-C",
+        "description": "Rulment rigid cu bile seria 63, uz industrial greu"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc codul unui rulment FAG, de exemplu 6205-C?",
+        "a": "Codul indică tipul și dimensiunea: cifra 6 arată că este un rulment rigid cu bile, a doua cifră reprezintă seria de dimensiuni (0 pentru seria 60, 2 pentru seria 62, 3 pentru seria 63), iar cifrele următoare codifică alezajul. Sufixul C arată că rulmentul aparține generației C, optimizată pentru zgomot și frecare reduse, conform documentației Schaeffler."
+      },
+      {
+        "q": "Ce diferență este între seria 62 și seria 63 la rulmentii FAG?",
+        "a": "Seria 62 este o construcție ușoară până la medie, potrivită pentru motoare electrice și ventilatoare, în timp ce seria 63 are o secțiune mai groasă și suportă sarcini radiale mai mari, fiind recomandată pentru echipamente industriale mai solicitate. Ambele apar în documentația FAG Generation C pentru rulmenti rigizi cu bile într-un rând."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de rulmenti FAG?",
+        "a": "Pentru o ofertă corectă este util codul complet marcat pe rulment (de exemplu 6206-C), cantitatea necesară, precizia cerută dacă este cazul, și eventualele variante de etanșare (2Z, 2HRS, 2ELS sau 2BRS) menționate în documentația Schaeffler. Cu aceste informații putem identifica rapid echivalentul corect și putem estima termenul de aprovizionare."
+      },
+      {
+        "q": "Livrați rulmenti FAG în România?",
+        "a": "Da, aducem rulmentii FAG la comandă, pornind de la codurile publicate în documentația oficială Schaeffler, fără a deține stoc propriu constant pentru fiecare dimensiune. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de seria aleasă, de varianta de etanșare și de disponibilitatea la producător a codului exact solicitat."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -127,8 +228,118 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
     infinitrade: `Pentru filtrele Filtrec ne bazăm pe informațiile publice disponibile la producător, fără date proprii de stoc pentru fiecare finețe și dimensiune din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană – ca regulă generală a firmei, elementele filtrante cele mai cerute pot fi asigurate în 24-72 h din stoc, iar restul configurațiilor (carcase HP, RHR/DHR, breather-e speciale) intră pe fluxul de 2-6 săptămâni la comandă. Pentru un răspuns corect trimite-ne codul Filtrec exact sau codul echivalent Parker/Hydac/Bosch pe care vrei să-l înlocuiești, plus finețea și debitul aplicației. Fără aceste date nu putem confirma echivalența sau termenul de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor fineților și dimensiunilor de elemente filtrante Filtrec și nici testarea beta ratio pe loc – aceasta rămâne un serviciu al producătorului.',
     sources: [
+      {"title":"Hydraulic Filters","url":"https://www.filtrec.com/hydraulic-filters/","publisher":"Filtrec","accessed":"2026-09-22"},
+      {"title":"Products","url":"https://www.filtrec.com/products/","publisher":"Filtrec","accessed":"2026-09-22"},
       { title: 'FILTREC S.p.A. – About Us', url: 'https://www.filtrec.com/about/', publisher: 'FILTREC S.p.A.', accessed: '2026-09-22' },
       { title: 'FILTREC S.p.A.', url: 'https://www.filtrec.com/', publisher: 'FILTREC S.p.A.', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "FAP A5",
+        "description": "Filtru de joasa presiune, maxim 24 bar, conexiune G 1 1/4 toli"
+      },
+      {
+        "code": "FAP A4",
+        "description": "Filtru de joasa presiune similar seriei A5, 24 bar maxim"
+      },
+      {
+        "code": "FH700",
+        "description": "Filtru de înaltă presiune până la 700 bar"
+      },
+      {
+        "code": "FH420-XD",
+        "description": "Filtru de presiune medie-înaltă, până la 420 bar, rezistență extinsă la oboseală"
+      },
+      {
+        "code": "FH420",
+        "description": "Filtru de presiune standard, până la 420 bar"
+      },
+      {
+        "code": "FH320",
+        "description": "Filtru de presiune, 320 bar, conexiuni multiple"
+      },
+      {
+        "code": "FH323-324",
+        "description": "Filtru de presiune compact, 320 bar, conexiune G 1/2-1 tol"
+      },
+      {
+        "code": "FH250",
+        "description": "Filtru de presiune pentru debite mai mici"
+      },
+      {
+        "code": "FH100",
+        "description": "Filtru de presiune de capacitate redusa"
+      },
+      {
+        "code": "KH420",
+        "description": "Filtru tip tank-top, până la 420 bar, cupă din oțel carbon"
+      },
+      {
+        "code": "KRT",
+        "description": "Filtru de joasă presiune pentru aerisire, 8 bar maxim, aluminiu"
+      },
+      {
+        "code": "FR6",
+        "description": "Filtru de retur pentru protectia fluxului"
+      },
+      {
+        "code": "FRT",
+        "description": "Filtru de retur montat pe capacul rezervorului"
+      },
+      {
+        "code": "FCR7F",
+        "description": "Filtru de retur tip cartus"
+      },
+      {
+        "code": "FVR7F",
+        "description": "Filtru de retur cu configuratie ventilata"
+      },
+      {
+        "code": "FA2",
+        "description": "Element de filtrare pentru linia de retur"
+      },
+      {
+        "code": "FS7",
+        "description": "Filtru de aspiratie cu montare laterala pe rezervor"
+      },
+      {
+        "code": "FS5",
+        "description": "Filtru de aspiratie pentru protectia liniei de aspiratie"
+      },
+      {
+        "code": "FS1",
+        "description": "Sorb de aspiratie montat direct pe linia de aspiratie"
+      },
+      {
+        "code": "FHT",
+        "description": "Filtru combinat pentru retur și aspirație"
+      },
+      {
+        "code": "Absolute Beta",
+        "description": "Media filtranta cu eficienta beta ridicata pentru particule fine"
+      },
+      {
+        "code": "Syn Media",
+        "description": "Media filtranta din fibra sintetica pentru filtrele Filtrec"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce filtre de presiune oferă Filtrec pentru peste 400 bar?",
+        "a": "Pentru presiuni ridicate, Filtrec oferă seriile FH420 și FH420-XD, ambele rezistând până la 420 bar, precum și seria FH700, capabilă să funcționeze până la 700 bar cu o rezistență la oboseală de 10 la puterea 6 cicluri. Alegerea potrivită depinde de presiunea reală de lucru și de spațiul disponibil pentru montaj."
+      },
+      {
+        "q": "Care este diferența dintre un filtru de retur și unul de aspirație Filtrec?",
+        "a": "Filtrele de retur, precum FRT sau FR6, protejeaza rezervorul de particulele aduse de uleiul care revine din circuit, în timp ce filtrele de aspirație, cum sunt FS5 sau FS1, opresc impuritatile mari înainte că fluidul să între în pompă. Seria FHT combină ambele funcții într-un singur corp de filtrare Filtrec."
+      },
+      {
+        "q": "Ce inseamna Absolute Beta la filtrele Filtrec?",
+        "a": "Absolute Beta este denumirea mediei filtrante cu eficiență beta ridicată, folosită în elementele Filtrec pentru a reține particule fine într-un mod constant, indiferent de variațiile de debit sau de presiune din sistem. Se folosește alături de medii precum Syn Media, dedicată fibrelor sintetice pentru aplicații cu cerințe de curățenie mai stricte."
+      },
+      {
+        "q": "Livrați filtre Filtrec în România?",
+        "a": "Da, aducem elementele și filtrele Filtrec la comandă, pe baza cataloagelor publice ale producătorului, fără gama pe raft menținut în depozit. Termenul uzual este de 2-6 săptămâni la comandă, în funcție de seria aleasă, de presiunea de lucru necesară și de disponibilitatea codului exact la fabrica producătorului."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -195,8 +406,79 @@ Investim constant în conformitate – toate releele Finder au certificări UL, 
     infinitrade: `Ce putem și ce nu putem confirma pentru Finder: lucrăm din cataloagele publice ale producătorului și nu ținem un stoc propriu documentat pentru fiecare serie de relee sau temporizatoare. Aprovizionarea se face prin canale din Uniunea Europeană – ca formulare generală a firmei, seriile cele mai comune pot fi asigurate în 24-72 h din stoc, restul gamei (contactoare, relee de interfață speciale) urmând fluxul de 2-6 săptămâni la comandă. Ca să-ți dăm un răspuns exact, trimite-ne codul complet al releului sau temporizatorului (serie, tensiune bobină, tip contact) și cantitatea dorită. Fără aceste informații nu putem confirma disponibilitatea sau termenul de livrare.`,
     limitation: 'Nu putem confirma o legătură contractuală directă cu Finder și nici acoperirea prin stoc propriu a tuturor seriilor de relee și temporizatoare.',
     sources: [
+      {"title":"55 Series - Miniature General Purpose Relays 7-10A","url":"https://www.findernet.com/en/worldwide/series/55-series-miniature-general-purpose-relays-7-10a/","publisher":"Finder","accessed":"2026-09-22"},
+      {"title":"38 Series - Relay Interface Modules","url":"https://www.findernet.com/en/usa/series/38-series-relay-interface-modules-emr-or-ssr-0-1-2-6-8a/","publisher":"Finder","accessed":"2026-09-22"},
+      {"title":"39 Series - MasterINTERFACE Relay Interface Modules","url":"https://www.findernet.com/en/usa/series/39-series-masterinterface-relay-interface-modules-emr-or-ssr-0-1-6a/","publisher":"Finder","accessed":"2026-09-22"},
       { title: 'Finder – First steps', url: 'https://www.findernet.com/en/worldwide/about-us/first-steps/', publisher: 'Finder S.p.A.', accessed: '2026-09-22' },
       { title: 'Finder – Company', url: 'https://www.findernet.com/en/worldwide/about-us/company/', publisher: 'Finder S.p.A.', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "22 Series",
+        "description": "Contactoare modulare, 25-32-40-63 A, pentru tablouri electrice"
+      },
+      {
+        "code": "38 Series",
+        "description": "Module releu de interfata (EMR sau SSR), 0,1-16 A"
+      },
+      {
+        "code": "39 Series",
+        "description": "Module MasterINTERFACE, releu de interfață EMR sau SSR până la 6 A"
+      },
+      {
+        "code": "39.80",
+        "description": "Modul MasterTIMER cu iesire SSR din seria 39"
+      },
+      {
+        "code": "55 Series",
+        "description": "Relee miniaturale de uz general, 7-10 A"
+      },
+      {
+        "code": "55.34",
+        "description": "Releu de uz general 7 A din seria 55"
+      },
+      {
+        "code": "56 Series",
+        "description": "Relee de putere miniaturale, 12 A"
+      },
+      {
+        "code": "7S Series",
+        "description": "Module releu cu contacte ghidate fortat, 6-10 A"
+      },
+      {
+        "code": "7L Series",
+        "description": "Lampi LED de panou pentru tablouri electrice"
+      },
+      {
+        "code": "85 Series",
+        "description": "Familie de relee compatibila cu soclurile din seria 94"
+      },
+      {
+        "code": "94 Series",
+        "description": "Socluri pentru relee din seriile 55 și 85"
+      },
+      {
+        "code": "9D Series",
+        "description": "Cleme de curent ridicat pentru distribuția în tablouri"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce inseamna seria 55 la releele Finder?",
+        "a": "Seria 55 cuprinde relee miniaturale de uz general, cu curent nominal între 7 și 10 A, folosite frecvent în automatizări pentru jaluzele, obloane sau alte circuite de comandă. Tipul 55.34 este un exemplu concret din aceasta familie, montat de obicei pe soclurile din seria 94, conform documentației Finder."
+      },
+      {
+        "q": "Care e diferența dintre seria 38 și seria 39 la Finder?",
+        "a": "Ambele sunt module de interfață cu releu, însă seria 38 acoperă un interval de curent de la 0,1 până la 16 A, în timp ce seria 39, numită MasterINTERFACE, oferă funcții suplimentare precum temporizare integrată prin tipuri ca 39.80. Alegerea depinde de curentul comutat și de nevoia de funcții de timer încorporate."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de relee Finder?",
+        "a": "Pentru o ofertă rapidă sunt utile codul complet al tipului dorit (de exemplu 55.34 sau 38 Series), tensiunea bobinei, numărul de contacte și soclul folosit, dacă este cazul din seria 94. Cu aceste detalii putem căuta echivalentul corect în documentația publică a producătorului și estima termenul de livrare."
+      },
+      {
+        "q": "Livrați relee și temporizatoare Finder în România?",
+        "a": "Da, aducem produsele Finder la comandă, pe baza seriilor publicate în documentația oficială a producătorului, fără a menține stoc propriu constant pentru fiecare tip. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de tipul exact solicitat, de tensiunea bobinei și de disponibilitatea la fabrica a codului ales."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -263,8 +545,114 @@ Am investit masiv în siguranță – toate multimetrele au protecție CAT III/C
     infinitrade: `Pentru instrumentele Fluke lucrăm din informațiile publice ale producătorului și fără date proprii de stoc pentru fiecare model din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei putem asigura 24-72 h din stoc pentru modelele cele mai cerute (multimetre, clești ampermetrici), restul gamei – termoviziune, megaohmetre, analizoare de calitate a energiei – intrând pe fluxul de 2-6 săptămâni la comandă. Pentru un răspuns exact avem nevoie de modelul dorit și de aplicația de măsurare (CAT III/CAT IV, True-RMS sau nu). Dacă nu ne dai aceste informații, nu putem stabili corect disponibilitatea sau termenul de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor Fluke și nici calibrarea NIST-trasabilă pe loc – aceasta se face la laboratoare de calibrare separate.',
     sources: [
+      {"title":"Clamp Meters","url":"https://www.fluke.com/en-us/products/electrical-testing/clamp-meters","publisher":"Fluke","accessed":"2026-09-22"},
+      {"title":"Multimeters","url":"https://www.fluke.com/en-us/products/electrical-testing/multimeters","publisher":"Fluke","accessed":"2026-09-22"},
       { title: 'Fluke – About us', url: 'https://www.fluke.com/en-us/support/about-us', publisher: 'Fluke Corporation', accessed: '2026-09-22' },
       { title: 'Fluke Corporation', url: 'https://en.wikipedia.org/wiki/Fluke_Corporation', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "87V",
+        "description": "Multimetru industrial True-RMS de referinta"
+      },
+      {
+        "code": "117",
+        "description": "Multimetru compact pentru electricieni, fără risc de arc electric"
+      },
+      {
+        "code": "179",
+        "description": "Multimetru True-RMS pentru masuratori electrice generale"
+      },
+      {
+        "code": "302+",
+        "description": "Cleste ampermetric compact, CAT III, până la 400 A"
+      },
+      {
+        "code": "301D",
+        "description": "Cleste ampermetric cu falca subtire pentru spatii inguste"
+      },
+      {
+        "code": "393 FC",
+        "description": "Cleste ampermetric solar, CAT III 1500 V, pentru instalații fotovoltaice"
+      },
+      {
+        "code": "377 FC",
+        "description": "Cleste ampermetric cu măsurare tensiune și curent, compatibil iFlex"
+      },
+      {
+        "code": "378 FC",
+        "description": "Cleste ampermetric fără contact pentru tensiune, cu sonda iFlex"
+      },
+      {
+        "code": "376 FC",
+        "description": "Cleste ampermetric industrial cu sonda iFlex pentru curenti mari"
+      },
+      {
+        "code": "325",
+        "description": "Cleste ampermetric pentru curent AC/DC până la 400 A"
+      },
+      {
+        "code": "381",
+        "description": "Cleste ampermetric cu afișaj la distanța și sonda iFlex"
+      },
+      {
+        "code": "902 FC",
+        "description": "Cleste ampermetric True-RMS dedicat aplicatiilor HVAC"
+      },
+      {
+        "code": "368 FC",
+        "description": "Cleste ampermetric pentru detectarea curentilor de scurgere"
+      },
+      {
+        "code": "369 FC",
+        "description": "Cleste ampermetric pentru curenti de scurgere cu trend wireless"
+      },
+      {
+        "code": "355",
+        "description": "Cleste ampermetric de mare capacitate, până la 2000 A"
+      },
+      {
+        "code": "375 FC",
+        "description": "Cleste ampermetric wireless pentru curenti foarte mici"
+      },
+      {
+        "code": "374 FC",
+        "description": "Cleste ampermetric avansat compatibil Fluke Connect"
+      },
+      {
+        "code": "323",
+        "description": "Cleste ampermetric True-RMS pentru curent AC/DC"
+      },
+      {
+        "code": "773",
+        "description": "Miliampermetru de proces cu sursa de semnal 4-20 mA"
+      },
+      {
+        "code": "772",
+        "description": "Miliampermetru pentru măsurarea semnalelor fără întreruperea buclei"
+      },
+      {
+        "code": "771",
+        "description": "Miliampermetru pentru semnale 4-20 mA în circuit"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între multimetrele Fluke 87V și 117?",
+        "a": "Fluke 87V este multimetrul industrial de referință, cu funcții extinse de măsurare și rezoluție ridicată, potrivit pentru diagnoza complexă. Fluke 117 este un model mai compact, gândit pentru electricieni, cu funcție de detecție fără contact a tensiunii și dimensiuni reduse pentru lucrul în tablouri electrice aglomerate, conform paginilor oficiale ale producătorului."
+      },
+      {
+        "q": "Ce cleste ampermetric Fluke recomandati pentru curenti foarte mari?",
+        "a": "Pentru curenți de până la 2000 A, seria Fluke 355 este opțiunea dedicată măsurătorilor de mare capacitate AC/DC. Pentru aplicații industriale obișnuite, modele precum 376 FC sau 377 FC, compatibile cu sonda iFlex, acoperă intervale mai uzuale de curent, conform specificațiilor publicate de producător pe paginile de produs."
+      },
+      {
+        "q": "Ce sunt modulele wireless Fluke seria a3000 FC?",
+        "a": "Modulele a3000 FC, a3001 FC, a3002 FC, a3003 FC și a3004 FC sunt clesti de curent wireless compatibili cu sistemul Fluke Connect, permitand transmiterea datelor către un afișaj la distanța fără cabluri între senzor și aparat. Se folosesc alături de multimetre sau clesti compatibili pentru măsurători sigure la distanța."
+      },
+      {
+        "q": "Livrați aparate Fluke în România?",
+        "a": "Da, aducem aparatele Fluke la comandă, pe baza gamei oficiale publicate de producător, fără a păstra stoc propriu constant pentru fiecare model. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model, de accesoriile solicitate și de disponibilitatea codului exact la nivelul producătorului."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -331,8 +719,90 @@ Am investit enorm în cercetare – dezvoltăm benzi cu rezistență la tăiere 
     infinitrade: `Pentru benzile și curelele Forbo Siegling lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare țesătură și acoperire din gamă – majoritatea comenzilor sunt confecții la dimensiune. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, benzile pe rolă în dimensiuni comune pot ajunge în 24-72 h din stoc, în timp ce banda sudată la dimensiune sau curelele speciale (Extremultus, Tangential) intră pe fluxul de 2-6 săptămâni la comandă. Pentru un calcul corect trimite-ne lățimea, lungimea, tipul de țesătură/acoperire dorit și greutatea transportată. Nu putem estima rezistența necesară sau confirma un termen de livrare fără aceste date.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor lățimilor și acoperirilor Siegling și nici sudarea la fața locului pentru toate tipurile de bandă – unele configurații necesită echipament de producător.',
     sources: [
+      {"title":"Siegling Transilon Belts: Efficient Conveying and Processing","url":"https://www.forbo.com/movement/en-gl/products/conveyor-belts/siegling-transilon/pmjqhv","publisher":"Forbo Movement Systems","accessed":"2026-09-22"},
+      {"title":"Siegling belting - conveyor belts for food industry","url":"https://www.forbo.com/media/document/bbdb2f8d-76b0-49b6-91d3-e524143fed31","publisher":"Forbo Siegling","accessed":"2026-09-22"},
       { title: 'Forbo Movement Systems – Siegling', url: 'https://www.forbo.com/movement/en-gl/', publisher: 'Forbo Siegling GmbH', accessed: '2026-09-22' },
       { title: 'Forbo Group', url: 'https://www.forbo.com/', publisher: 'Forbo Holding AG', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Transilon E",
+        "description": "Cod pentru banda cu insertie textila din poliester"
+      },
+      {
+        "code": "Transilon EL",
+        "description": "Cod pentru banda cu insertie de poliester elastic"
+      },
+      {
+        "code": "Transilon NOVO",
+        "description": "Cod pentru banda cu insertie din pasla de poliester"
+      },
+      {
+        "code": "Transilon RE",
+        "description": "Cod pentru banda cu insertie din poliester reciclat"
+      },
+      {
+        "code": "Transilon U",
+        "description": "Cod pentru acoperire din poliuretan"
+      },
+      {
+        "code": "Transilon V",
+        "description": "Cod pentru acoperire din PVC"
+      },
+      {
+        "code": "Transilon LG",
+        "description": "Cod pentru suprafata cu caneluri longitudinale"
+      },
+      {
+        "code": "Transilon MT",
+        "description": "Cod pentru suprafata mata a benzii"
+      },
+      {
+        "code": "Transilon STR",
+        "description": "Cod pentru textura normala a suprafetei"
+      },
+      {
+        "code": "Transilon AR",
+        "description": "Cod pentru suprafata rugoasa, tip rough-top"
+      },
+      {
+        "code": "Transilon GSTR",
+        "description": "Cod pentru textura grosiera a suprafetei"
+      },
+      {
+        "code": "Transilon AMP",
+        "description": "Cod pentru banda AmpMiser, cu economie de energie"
+      },
+      {
+        "code": "Transilon S",
+        "description": "Cod pentru banda cu nivel de zgomot foarte redus"
+      },
+      {
+        "code": "Transilon FR",
+        "description": "Cod pentru banda cu proprietati ignifuge"
+      },
+      {
+        "code": "Transilon HC",
+        "description": "Cod pentru bandă cu conductivitate electrică ridicată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc codul unei benzi Forbo Siegling Transilon?",
+        "a": "Codul Transilon combină litere pentru tipul de inserție textila (E pentru poliester, EL pentru poliester elastic, RE pentru poliester reciclat), literă pentru acoperire (U pentru poliuretan, V pentru PVC) și un sufix pentru textura suprafeței, precum STR, LG sau AR. Sufixe suplimentare, că AMP sau FR, indică proprietati speciale, precum economia de energie sau rezistență la foc."
+      },
+      {
+        "q": "Ce diferență este între acoperirea U și V la benzile Forbo Siegling?",
+        "a": "Litera U marchează o acoperire din poliuretan, potrivită pentru rezistență la abraziune și la multe tipuri de uleiuri, în timp ce litera V indică o acoperire din PVC, adesea preferată pentru costuri mai reduse și flexibilitate. Alegerea corectă depinde de condițiile de lucru și de materialul transportat pe banda respectivă."
+      },
+      {
+        "q": "Ce este seria Prolink de la Forbo Siegling?",
+        "a": "Prolink este gama de benzi modulare din plastic cu zale (interlock) produsă de Siegling, gândită pentru rezistență și durabilitate în aplicații industriale solicitante. Materialele, formele modulelor, pasul și tiparele de suprafață pot fi adaptate aplicației, conform informațiilor publicate de Forbo pe paginile oficiale de produs."
+      },
+      {
+        "q": "Livrați benzi Forbo Siegling în România?",
+        "a": "Da, aducem benzile Transilon și Prolink la comandă, pornind de la codificarea publică folosită de Forbo Siegling în documentația oficială, fără gama pe raft menținut permanent. Termenul uzual este de 2-6 săptămâni la comandă, în funcție de lățimea benzii, de tipul de acoperire ales și de disponibilitatea la producător."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -400,8 +870,118 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
     infinitrade: `Pentru garniturile și simering-urile Freudenberg pornim de la datele publice ale producătorului – fără date proprii de stoc pentru fiecare dimensiune și material din gamă (NBR, VITON, EPDM, Silicone, PTFE). Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile ISO 3601 și simering-urile auto cele mai comune pot fi asigurate în 24-72 h din stoc, restul combinațiilor material/dimensiune urmând fluxul de 2-6 săptămâni la comandă. Pentru identificare corectă avem nevoie de diametrul interior, diametrul exterior, înălțimea și fluidul de lucru. Fără aceste date nu putem confirma codul exact sau termenul de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor combinațiilor de dimensiuni și materiale Freudenberg și nici o formă de distribuție agreată cu producătorul.',
     sources: [
+      {"title":"O-Rings","url":"https://products.fst.com/global/en/categories/o-rings","publisher":"Freudenberg Sealing Technologies","accessed":"2026-09-22"},
+      {"title":"Radial Shaft Seals / Simmerring","url":"https://products.fst.com/global/en/categories/radial-shaft-seals","publisher":"Freudenberg Sealing Technologies","accessed":"2026-09-22"},
       { title: 'Freudenberg – About us', url: 'https://www.freudenberg.com/en/company/about-us', publisher: 'Freudenberg Group', accessed: '2026-09-22' },
       { title: 'Freudenberg – History', url: 'https://www.freudenberg.com/en/company/history', publisher: 'Freudenberg Group', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "OR",
+        "description": "Cod pentru O-ring standard Freudenberg"
+      },
+      {
+        "code": "OR-PU",
+        "description": "Cod pentru O-ring din poliuretan"
+      },
+      {
+        "code": "ORSZ Simriz",
+        "description": "Cod pentru O-ring din FFKM Simriz, rezistent chimic"
+      },
+      {
+        "code": "OR BIB",
+        "description": "Cod pentru O-ring ambalat individual (bag in bag)"
+      },
+      {
+        "code": "OR DHH",
+        "description": "Cod pentru O-ring standard Dichtomatik"
+      },
+      {
+        "code": "OR ENCAP",
+        "description": "Cod pentru O-ring incapsulat"
+      },
+      {
+        "code": "KIT DHH",
+        "description": "Set de O-ringuri, cabluri și X-ringuri Dichtomatik"
+      },
+      {
+        "code": "BA",
+        "description": "Simering radial simplu, tip DIN 3760"
+      },
+      {
+        "code": "BASL",
+        "description": "Simering radial BA cu varianta de buza de etansare"
+      },
+      {
+        "code": "BABSL",
+        "description": "Simering radial cu arc, combină design BA și BSL"
+      },
+      {
+        "code": "BAUM",
+        "description": "Simering radial cu design de baza Simmerring"
+      },
+      {
+        "code": "BAUMRF",
+        "description": "Simering radial cu elemente de rigidizare suplimentare"
+      },
+      {
+        "code": "BAUMSL",
+        "description": "Simering radial cu configuratie speciala de etansare"
+      },
+      {
+        "code": "B1",
+        "description": "Simering radial tip B1 standard"
+      },
+      {
+        "code": "B1SL",
+        "description": "Simering radial B1 cu varianta de buza"
+      },
+      {
+        "code": "B1OF",
+        "description": "Simering radial B1 cu functie overflow"
+      },
+      {
+        "code": "B2",
+        "description": "Simering radial tip B2 alternativ"
+      },
+      {
+        "code": "B2SL",
+        "description": "Simering radial B2 cu modificare a buzei"
+      },
+      {
+        "code": "B2PT",
+        "description": "Simering radial B2 cu tehnologie de protectie"
+      },
+      {
+        "code": "BAOF",
+        "description": "Simering radial BA cu functie de preaplin"
+      },
+      {
+        "code": "MSS1",
+        "description": "Sistem modular de simeringuri radiale"
+      },
+      {
+        "code": "PSS",
+        "description": "Simering radial Premium Sine Seal, performanta ridicata"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce tipuri de simeringuri Freudenberg exista pentru arbori rotativi?",
+        "a": "Familia Simmerring de la Freudenberg acoperă mai multe designuri, de la varianta simplă BA, la cele cu buză suplimentară BASL sau B1SL, până la BABSL, care combină arcul cu buză de etanșare, toate conforme standardului DIN 3760. Există și sisteme modulare, precum MSS1, pentru situații unde dimensiunile standard nu se potrivesc."
+      },
+      {
+        "q": "Ce diferență este între un O-ring standard și unul Simriz de la Freudenberg?",
+        "a": "Un O-ring standard, cu codul OR, este potrivit pentru etansari statice în condiții uzuale de temperatură și chimicale, în timp ce variantă ORSZ din material FFKM Simriz rezistă la temperaturi și agenti chimici mult mai severi, fiind recomandată pentru aplicații industriale critice. Alegerea depinde de mediul de lucru și de fluidul vehiculat."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de garnituri Freudenberg?",
+        "a": "Pentru o identificare corectă este util codul complet (de exemplu BABSL sau OR-PU), dimensiunile arborelui și ale locașului, materialul preferat și condițiile de temperatură și presiune ale aplicației. Cu aceste date putem căuta echivalentul potrivit în cataloagele publice Freudenberg și estima termenul de aprovizionare pentru garnitura cerută."
+      },
+      {
+        "q": "Livrați garnituri Freudenberg în România?",
+        "a": "Da, aducem simeringurile și O-ringurile Freudenberg la comandă, pornind de la codurile publicate în catalogul oficial al producătorului, fără a menține stoc propriu în depozit. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de dimensiune, de material și de disponibilitatea codului exact la fabrica producătorului."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -468,8 +1048,90 @@ Investim masiv în testare – fieture furtun presiune înaltă trece prin test 
     infinitrade: `Lucrăm cu produsele Gates din informațiile publice ale producătorului, fără date proprii de stoc pentru fiecare profil de curea sau furtun din gamă. Aprovizionarea se face prin canale din Uniunea Europeană: ca formulare generală a firmei, curelele și kiturile de distribuție cele mai cerute pot fi asigurate în 24-72 h din stoc, iar furtunurile hidraulice pe dimensiuni speciale sau curelele industriale mai puțin comune intră pe fluxul de 2-6 săptămâni la comandă. Pentru un răspuns exact avem nevoie de codul cureii/furtunului sau, pentru kituri auto, de marca, modelul și motorizarea. Fără codul exact riscăm să propunem un termen de livrare care nu se confirmă la comandă.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor profilelor Gates și nici testarea burst la presiune – aceasta rămâne un proces al producătorului.',
     sources: [
+      {"title":"Power Transmission","url":"https://www.gates.com/us/en/power-transmission.html","publisher":"Gates Corporation","accessed":"2026-09-22"},
+      {"title":"Synchronous Belts","url":"https://www.gates.com/us/en/power-transmission/synchronous-belts.html","publisher":"Gates Corporation","accessed":"2026-09-22"},
       { title: 'Gates – About us', url: 'https://www.gates.com/us/en/about-us.html', publisher: 'Gates Corporation', accessed: '2026-09-22' },
       { title: 'Gates Corporation', url: 'https://en.wikipedia.org/wiki/Gates_Corporation', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Micro-V",
+        "description": "Curea serpentina cu caneluri multiple pentru transmisie auto"
+      },
+      {
+        "code": "Hi-Power II PowerBand",
+        "description": "Curea trapezoidala legata (banded), pentru transmisii industriale"
+      },
+      {
+        "code": "Hi-Power II Dubl-V",
+        "description": "Curea trapezoidala dubla fata, pentru transmisii cu doua directii"
+      },
+      {
+        "code": "MegaTech II",
+        "description": "Furtun hidraulic cu impletitura de sarma, presiune ridicata"
+      },
+      {
+        "code": "MegaSys Premium",
+        "description": "Gama premium de furtunuri hidraulice pentru utilaje grele"
+      },
+      {
+        "code": "MegaSys MXT",
+        "description": "Furtun hidraulic premium cu greutate redusa"
+      },
+      {
+        "code": "Poly Chain",
+        "description": "Curea sincrona din poliuretan, rezistență la coroziune și întindere"
+      },
+      {
+        "code": "PowerGrip GT2",
+        "description": "Curea sincrona twin power, cu dinti pe ambele fete"
+      },
+      {
+        "code": "PowerGrip GT3",
+        "description": "Curea sincrona pentru distribuție și transmisii industriale"
+      },
+      {
+        "code": "PowerGrip GT4",
+        "description": "Curea sincrona de generatie mai noua, performanta imbunatatita"
+      },
+      {
+        "code": "G-Force",
+        "description": "Curea de transmisie pentru vehicule recreationale"
+      },
+      {
+        "code": "Round Belts",
+        "description": "Curea rotunda pentru transmisii cu role mici"
+      },
+      {
+        "code": "Truck Belts",
+        "description": "Curea de transmisie dedicată camioanelor și utilajelor grele"
+      },
+      {
+        "code": "Variable Speed",
+        "description": "Curea pentru transmisii cu viteza variabila"
+      },
+      {
+        "code": "TPU Synchro-Clean",
+        "description": "Curea sincrona din poliuretan pentru industria alimentara"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între curelele Gates PowerGrip GT3 și GT4?",
+        "a": "Ambele sunt curele sincrone din familia PowerGrip, însă GT4 este generația mai nouă, dezvoltată pentru performanță îmbunătățită față de GT3 în aceleași aplicații de transmisie industrială sau de distribuție auto. Alegerea între ele depinde de recomandarea constructorului echipamentului și de disponibilitatea dimensiunii cerute în catalogul producătorului."
+      },
+      {
+        "q": "Ce este seria MegaSys de la Gates?",
+        "a": "MegaSys este gama premium de furtunuri hidraulice Gates, gândită pentru presiuni ridicate și condiții solicitante întâlnite la utilaje de construcții și echipamente industriale grele. Varianta MXT aduce o greutate mai redusă față de furtunurile clasice, facilitând montajul, conform materialelor publicate de producător pe paginile oficiale de produs."
+      },
+      {
+        "q": "Ce curea de transmisie Gates recomandati pentru industria alimentara?",
+        "a": "Pentru aplicații din industria alimentară, Gates oferă curele sincrone TPU Synchro-Clean, fabricate din poliuretan și gândite pentru curățare ușoară și conformitate cu cerințele de igienă din procesare. Pentru transmisii industriale generale, familia Poly Chain, tot din poliuretan, oferă rezistență la coroziune și la întindere pe termen lung."
+      },
+      {
+        "q": "Livrați curele și furtunuri Gates în România?",
+        "a": "Da, aducem curelele și furtunurile Gates la comandă, pe baza gamei oficiale publicate de producător, fără a păstra stoc propriu constant pentru fiecare cod. Termenul uzual este de 2-6 săptămâni la comandă, în funcție de tipul de curea sau furtun, de lungimea cerută și de disponibilitatea la producător."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -536,8 +1198,97 @@ Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala
     infinitrade: `Pentru sculele Gedore ne bazăm pe cataloagele publice ale producătorului, fără date proprii de stoc pentru fiecare dimensiune și serie din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile de chei și tubulare cele mai cerute pot fi asigurate în 24-72 h din stoc, iar chei dinamometrice, truse complete sau dimensiuni speciale intră pe fluxul de 2-6 săptămâni la comandă. Pentru un răspuns exact spune-ne dimensiunea, seria (fixă/inelată/tubulară) și tipul de antrenare de care ai nevoie. Lipsa acestor detalii ne împiedică să confirmăm disponibilitatea reală sau un termen corect de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor seriilor Gedore și nici condițiile exacte ale garanției pe viață a producătorului – acestea se verifică direct cu Gedore.',
     sources: [
+      {"title":"Spanners Catalogue 2017","url":"https://us.gedore.com/fileadmin/Kataloge/EN/116_151_05_Spanners_2017_EN.pdf","publisher":"Gedore","accessed":"2026-09-22"},
       { title: 'Gedore', url: 'https://gedore.com', publisher: 'GEDORE Werkzeugfabrik GmbH & Co. KG', accessed: '2026-09-22' },
       { title: 'Gedore', url: 'https://en.wikipedia.org/wiki/Gedore', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Gedore 1 B",
+        "description": "Cheie combinată cu gură deschisă subțire și inel UD"
+      },
+      {
+        "code": "Gedore 7",
+        "description": "Cheie combinata usoara, cu tija tubulara ergonomica"
+      },
+      {
+        "code": "Gedore 7 XL",
+        "description": "Cheie combinata cu tija extra lunga pentru zone adanci"
+      },
+      {
+        "code": "Gedore 7 R",
+        "description": "Cheie combinata cu clichet, cap plat reversibil"
+      },
+      {
+        "code": "Gedore 7 UR",
+        "description": "Cheie combinată cu clichet reversibil și inel decalat"
+      },
+      {
+        "code": "Gedore 2",
+        "description": "Cheie inelara dubla cu inele adanc offset"
+      },
+      {
+        "code": "Gedore 2 B",
+        "description": "Cheie inelara dubla, model scurt cu offset redus"
+      },
+      {
+        "code": "Gedore 4",
+        "description": "Cheie inelara dubla, model drept"
+      },
+      {
+        "code": "Gedore 4 R",
+        "description": "Cheie inelara dubla cu clichet, unghi de lucru 6-7 grade"
+      },
+      {
+        "code": "Gedore TX 4",
+        "description": "Cheie inelara dubla pentru capete de surub TORX"
+      },
+      {
+        "code": "Gedore 6",
+        "description": "Cheie fixă cu falci precis rectificate și tijă subțire"
+      },
+      {
+        "code": "Gedore 8",
+        "description": "Cheie fixă dublă, miniatură, cu falci la 15 și 75 grade"
+      },
+      {
+        "code": "Gedore 894",
+        "description": "Cheie fixa simpla cu finisaj fosfatat manganos"
+      },
+      {
+        "code": "Gedore 895",
+        "description": "Cheie fixa dubla, neagra, uz profesional"
+      },
+      {
+        "code": "Gedore 60 CP/P/S",
+        "description": "Cheie reglabila, model suedez"
+      },
+      {
+        "code": "Gedore 304",
+        "description": "Cheie inelară în formă de semilună pentru spații înguste"
+      },
+      {
+        "code": "Gedore 400",
+        "description": "Cheie pentru piulițe de conducte hidraulice și de frână"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între cheile Gedore seria 7 și seria 7 R?",
+        "a": "Seria 7 este o cheie combinată ușoară, cu tijă tubulară pentru o manevrare ergonomică, în timp ce seria 7 R adaugă un mecanism cu clichet, cu cap plat reversibil, util când spațiul de rotire este limitat. Varianta 7 UR merge mai departe, oferind un inel decalat pentru acces și mai bun în zone strânse."
+      },
+      {
+        "q": "Pentru ce se foloseste cheia Gedore TX 4?",
+        "a": "Cheia inelară dublă TX 4 este gândită pentru capete de șurub TORX care ies deasupra suprafeței, situație în care o cheie inelară obișnuită nu ar prinde profilul corect. Face parte din familia de chei inelare duble Gedore, alături de modelele 2, 2 B, 4 și 4 R, cu forme diferite de decalaj."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de scule Gedore?",
+        "a": "Pentru o ofertă rapidă sunt utile codul seriei dorite (de exemplu 7 R sau 894), dimensiunea în milimetri sau țoli, și dacă este nevoie de o trusă completă sau de piese individuale. Cu aceste informații putem verifica echivalentul corect în gama oficială Gedore și estima termenul de aprovizionare pentru comanda dumneavoastră."
+      },
+      {
+        "q": "Livrați scule Gedore în România?",
+        "a": "Da, aducem sculele Gedore la comandă, pornind de la seriile publicate în catalogul oficial al producătorului, fără a păstra un stoc propriu pentru fiecare dimensiune. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de seria aleasă, de dimensiune și de disponibilitatea codului exact la producător."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -604,8 +1355,85 @@ Investim masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comuni
     infinitrade: `Pentru pompele dozatoare Grundfos lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model și configurație. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, pompele DDA/DDC uzuale pot fi asigurate în 24-72 h din stoc, iar sistemele mai complexe (DME de capacitate mare, SMART Digital, configurații custom) intră pe fluxul de 2-6 săptămâni la comandă, fiind adesea fabricate la comandă. Pentru un calcul corect avem nevoie de debitul necesar, concentrația/tipul de chimical dozat și presiunea sistemului. Fără acest calcul preliminar nu putem propune un model potrivit sau un termen realist de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor de pompe dozatoare Grundfos și nici programarea de la distanță a controllerelor SMART Digital fără un contract tehnic separat.',
     sources: [
+      {"title":"SMART Digital - Breaking the barriers of dosing (Grundfos Dosing and Disinfection)","url":"https://portals.grundfos.com/content/dam/local/en-gb/catalogues/March%2021%20CAT5%20v4%2021_01_21.pdf","publisher":"Grundfos","accessed":"2026-09-22"},
       { title: 'Grundfos – About us', url: 'https://www.grundfos.com/about-us', publisher: 'Grundfos Holding A/S', accessed: '2026-09-22' },
       { title: 'Grundfos', url: 'https://www.grundfos.com/', publisher: 'Grundfos Holding A/S', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "DDA FCM",
+        "description": "Pompă dozatoare cu motor pas cu pas, debit și presiune monitorizate"
+      },
+      {
+        "code": "DDA FC",
+        "description": "Pompă dozatoare cu motor pas cu pas și control de debit"
+      },
+      {
+        "code": "DDA AR",
+        "description": "Pompa dozatoare cu motor pas cu pas, varianta de baza"
+      },
+      {
+        "code": "DDC A",
+        "description": "Pompa dozatoare compacta cu control manual al vitezei"
+      },
+      {
+        "code": "DDC AR",
+        "description": "Pompa dozatoare compacta cu intrare pentru semnal analogic"
+      },
+      {
+        "code": "DDE B",
+        "description": "Pompă dozatoare de bază cu control manual și mod puls"
+      },
+      {
+        "code": "DDE P",
+        "description": "Pompa dozatoare cu functie de puls pentru dozare proportionala"
+      },
+      {
+        "code": "DDE PR",
+        "description": "Pompă dozatoare cu releu și funcție de puls"
+      },
+      {
+        "code": "DME AR",
+        "description": "Pompă dozatoare cu motor DC fără perii, reglaj continuu al capacității"
+      },
+      {
+        "code": "DME AP",
+        "description": "Pompă dozatoare cu comunicare PROFIBUS pentru control în rețea"
+      },
+      {
+        "code": "DMX",
+        "description": "Pompa dozatoare cu diafragma actionata mecanic, 1,6-765 l/h"
+      },
+      {
+        "code": "DMH 25x",
+        "description": "Pompă dozatoare cu piston-diafragmă hidraulică, până la 200 bar"
+      },
+      {
+        "code": "DMH 28x",
+        "description": "Pompa dozatoare cu piston-diafragma hidraulica, varianta robusta"
+      },
+      {
+        "code": "DDI",
+        "description": "Pompa dozatoare cu diafragma pentru dozare digitala"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între pompele dozatoare Grundfos DDA și DME?",
+        "a": "Familia DDA folosește un motor pas cu pas și acoperă debite mai mici, de la 0 la 30 sau 200 l/h în funcție de variantă, în timp ce DME folosește un motor DC fără perii și acoperă debite mai mari, între 375 și 940 l/h, cu reglaj continuu al capacității direct de pe ecran. Alegerea depinde de debitul necesar în procesul dumneavoastră."
+      },
+      {
+        "q": "Ce este pompa Grundfos DMX și când se folosește?",
+        "a": "DMX este o pompă dozatoare cu diafragmă acționată mecanic, disponibilă în 11 mărimi preselectate, acoperind un interval larg de debit, de la 1,6 până la 765 l/h, cu reglaj manual al cursei în raport 10 la 1. Este potrivită pentru aplicații industriale unde se cere o construcție robustă și un cost mai redus față de pompele digitale."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de pompe dozatoare Grundfos?",
+        "a": "Pentru o ofertă corectă sunt necesare debitul dorit în l/h, presiunea de refulare, tipul de substanță dozată și materialul de contact preferat pentru capul de dozare. Cu aceste date putem identifica familia potrivită, DDA, DDC, DDE, DME sau DMX, în cataloagele publice ale producătorului și estima termenul de livrare pentru comandă."
+      },
+      {
+        "q": "Livrați pompe dozatoare Grundfos în România?",
+        "a": "Da, aducem pompele dozatoare Grundfos la comandă, pe baza cataloagelor oficiale publicate de producător, fără a menține stoc propriu pentru fiecare model. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de debitul necesar, de materialele cerute și de disponibilitatea modelului exact la producător."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -672,8 +1500,93 @@ Investim masiv în IoT – toate pompele noi au conectivitate cloud, raportare c
     infinitrade: `Pentru pompele Grundfos HVAC lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model din gamă. Aprovizionarea se face prin canale din Uniunea Europeană: ca formulare generală a firmei, modelele rezidențiale uzuale (ALPHA3, UPS, SCALA2) pot fi asigurate în 24-72 h din stoc, iar modelele industriale mari (MAGNA3, TPE) sau configurațiile speciale intră pe fluxul de 2-6 săptămâni la comandă. Pentru un calcul corect avem nevoie de puterea termică instalată, înălțimea de pompare necesară și tipul de sistem (rezidențial, comercial, industrial). Fără acești parametri riscăm să recomandăm un model nepotrivit sau un termen de livrare incorect.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor Grundfos HVAC și nici service în perioada de garanție a producătorului fără un contract tehnic separat.',
     sources: [
+      {"title":"Grundfos Price List CAT1","url":"https://portals.grundfos.com/content/dam/local/en-gb/catalogues/March%2021%20CAT1%20v2_12_01_21.pdf","publisher":"Grundfos","accessed":"2026-09-22"},
       { title: 'Grundfos – About us', url: 'https://www.grundfos.com/about-us', publisher: 'Grundfos Holding A/S', accessed: '2026-09-22' },
       { title: 'Grundfos', url: 'https://www.grundfos.com/', publisher: 'Grundfos Holding A/S', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "ALPHA3",
+        "description": "Pompa de circulatie casnica, eficienta energetica ridicata"
+      },
+      {
+        "code": "ALPHA1",
+        "description": "Pompa de circulatie casnica, model de baza"
+      },
+      {
+        "code": "UPS3",
+        "description": "Pompă de circulație casnică pentru încălzire și apă caldă"
+      },
+      {
+        "code": "UPS2",
+        "description": "Pompa de circulatie casnica, generatie anterioara UPS3"
+      },
+      {
+        "code": "MAGNA1",
+        "description": "Pompa de circulatie comerciala cu turatie variabila"
+      },
+      {
+        "code": "MAGNA3",
+        "description": "Pompă de circulație comercială cu rotor din compozit și senzor DeltaP/T"
+      },
+      {
+        "code": "TP",
+        "description": "Pompă în linie cu turație fixă pentru apă caldă menajera"
+      },
+      {
+        "code": "TPD",
+        "description": "Pompă în linie cu două capete, turație fixă"
+      },
+      {
+        "code": "TPE",
+        "description": "Pompă în linie cu turație variabilă și motor de eficiență ridicată"
+      },
+      {
+        "code": "TPED",
+        "description": "Pompă în linie cu două capete și turație variabilă"
+      },
+      {
+        "code": "TPE2",
+        "description": "Pompă în linie cu turație variabilă, generația 2"
+      },
+      {
+        "code": "TPE2 D",
+        "description": "Pompă în linie cu două capete, generația 2, turație variabilă"
+      },
+      {
+        "code": "TPE3",
+        "description": "Pompă în linie cu senzor încorporat de presiune diferențială și temperatură"
+      },
+      {
+        "code": "TPE3 D",
+        "description": "Pompă în linie cu două capete și senzor DP+T încorporat"
+      },
+      {
+        "code": "SCALA2",
+        "description": "Hidrofor compact pentru presiune constantă în locuințe"
+      },
+      {
+        "code": "CUE",
+        "description": "Convertizor de frecventa cu filtru RFI pentru pompe Grundfos"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între pompele de circulație Grundfos ALPHA3 și MAGNA3?",
+        "a": "ALPHA3 este gândită pentru instalații casnice de încălzire, cu eficiență energetică ridicată și montaj simplu, în timp ce MAGNA3 este o pompă comercială cu turație variabilă, cu rotor din compozit și senzor integrat de presiune diferențială și temperatură, potrivită pentru clădiri mai mari. Alegerea depinde de mărimea instalației și de debitul necesar."
+      },
+      {
+        "q": "Ce înseamnă codurile TPE2 și TPE3 la pompele Grundfos?",
+        "a": "Ambele sunt pompe în linie cu turație variabilă, însă TPE3 aduce un senzor încorporat de presiune diferențială și temperatură pentru control în buclă închisă, spre deosebire de TPE2, care poate avea traductor de presiune opțional. Variantele cu D la final, precum TPE2 D sau TPE3 D, au două capete de pompare montate împreună."
+      },
+      {
+        "q": "Ce este hidroforul Grundfos SCALA2?",
+        "a": "SCALA2 este un hidrofor compact, gândit pentru locuințe, care menține o presiune constantă a apei chiar și la deschiderea mai multor puncte de consum simultan. Se montează ușor datorită dimensiunilor reduse și funcționează împreună cu alte echipamente Grundfos din gama domestică, precum pompele ALPHA3, conform materialelor publicate de producător."
+      },
+      {
+        "q": "Livrați pompe Grundfos pentru HVAC în România?",
+        "a": "Da, aducem pompele de circulație și în linie Grundfos la comandă, pe baza gamei oficiale publicate de producător, fără a menține stoc propriu constant. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model, de turație fixă sau variabilă cerută și de disponibilitatea codului exact la producător."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',

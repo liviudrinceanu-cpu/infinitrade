@@ -63,10 +63,103 @@ Ceea ce diferențiază Siemens de competiție e profunzimea gamei: SITRANS F (de
 
     infinitrade: `La Infinitrade aducem instrumentație Siemens SITRANS (debitimetre, traductoare de presiune, senzori de nivel, analizoare de proces) prin canalele noastre de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fabricii și lucrăm cu informațiile publice disponibile ale producătorului pentru specificații și termene. Ca formulare generală a firmei, livrarea poate fi de 24–72 h din stoc pentru articolele deja pregătite în lanțul nostru sau de 2–6 săptămâni la comandă pentru restul gamei, fără să promitem un anumit cod ca fiind în stoc înainte de confirmare. Pentru o ofertă corectă, trimite-ne codul SITRANS, protocolul de comunicare necesar (HART, PROFIBUS, PROFINET) și parametrii de proces. Revenim cu disponibilitate reală și timp de livrare confirmat de furnizor.`,
     sources: [
+      {"title":"Flow Measurement","url":"https://www.siemens.com/global/en/products/automation/process-instrumentation/flow-measurement.html","publisher":"Siemens","accessed":"2026-09-22"},
       { title: 'Company development | Siemens', url: 'https://www.siemens.com/global/en/company/about/history/company/1847-1865.html', publisher: 'Siemens AG', accessed: '2026-09-22' },
       { title: 'Siemens', url: 'https://en.wikipedia.org/wiki/Siemens', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma stocul permanent local pentru fiecare cod SITRANS și nu oferim configurarea software SIMATIC PCS 7 sau service în perioada de garanție a producătorului.',
+    productCodes: [
+      {
+        "code": "SITRANS FMT020",
+        "description": "Traductor electromagnetic de debit de înaltă performanță"
+      },
+      {
+        "code": "SITRANS FMS100",
+        "description": "Senzor electromagnetic de debit pentru aplicații industriale"
+      },
+      {
+        "code": "SITRANS FMS300",
+        "description": "Senzor electromagnetic de debit pentru procese"
+      },
+      {
+        "code": "SITRANS FMS500",
+        "description": "Senzor electromagnetic de debit pentru apă și ape uzate"
+      },
+      {
+        "code": "SITRANS FM MAG 6000",
+        "description": "Traductor electromagnetic de debit de precizie ridicată"
+      },
+      {
+        "code": "SITRANS FM MAG 1100",
+        "description": "Senzor electromagnetic compact tip wafer"
+      },
+      {
+        "code": "SITRANS FM MAG 3100",
+        "description": "Senzor electromagnetic sudat, robust"
+      },
+      {
+        "code": "SITRANS FM MAG 8000",
+        "description": "Debitmetru electromagnetic alimentat cu baterie"
+      },
+      {
+        "code": "SITRANS FM100",
+        "description": "Debitmetru electromagnetic compact"
+      },
+      {
+        "code": "SITRANS FVA250",
+        "description": "Debitmetru cu arie variabilă"
+      },
+      {
+        "code": "SITRANS FUE950",
+        "description": "Calculator de energie termică"
+      },
+      {
+        "code": "SITRANS FS120",
+        "description": "Debitmetru inline pentru aplicații cu apă"
+      },
+      {
+        "code": "SITRANS FS130",
+        "description": "Debitmetru inline de gamă superioară"
+      },
+      {
+        "code": "SITRANS FS220",
+        "description": "Debitmetru clamp-on standard"
+      },
+      {
+        "code": "SITRANS FS230",
+        "description": "Debitmetru clamp-on de gamă superioară"
+      },
+      {
+        "code": "SITRANS FS290",
+        "description": "Debitmetru clamp-on portabil"
+      },
+      {
+        "code": "SITRANS FST070",
+        "description": "Debitmetru clamp-on cu integrare SIMATIC I/O"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce debitmetru Siemens aleg pentru o conductă cu apă industrială?",
+        "a": "Pentru debit permanent instalat pe conductă, seria SITRANS FMS100 sau FMS500 este alegerea tipică, ambele fiind senzori electromagnetici dedicați aplicațiilor cu apă. Pentru măsurare temporară fără tăierea conductei, un debitmetru clamp-on din seria SITRANS FS este mai potrivit."
+      },
+      {
+        "q": "Care e diferența dintre SITRANS FS220 și FS230 la debitmetrele clamp-on Siemens?",
+        "a": "FS220 este varianta standard, potrivită pentru majoritatea aplicațiilor uzuale de măsurare a debitului fără contact cu fluidul. FS230 este varianta de gamă superioară, cu precizie mai mare și funcții suplimentare de diagnosticare, recomandată pentru aplicații de proces mai pretențioase."
+      },
+      {
+        "q": "Livrați debitmetre Siemens SITRANS în România?",
+        "a": "Da, aducem la comandă debitmetre SITRANS pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de diametrul nominal necesar. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de debitmetru Siemens SITRANS?",
+        "a": "Este util să precizați diametrul conductei, tipul fluidului măsurat, presiunea și temperatura de lucru, precum și dacă este nevoie de montare permanentă sau de tip clamp-on. Aceste detalii permit alegerea corectă între familiile electromagnetice sau cu ultrasunete din gama SITRANS."
+      },
+      {
+        "q": "Ce este debitmetrul portabil SITRANS FS290?",
+        "a": "Este un debitmetru clamp-on portabil, folosit pentru măsurători temporare de debit fără a întrerupe funcționarea conductei sau a tăia țeava. Este util pentru verificări punctuale, audituri energetice sau diagnosticarea unor instalații unde nu există un debitmetru permanent montat."
+      }
+    ],
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
     evidenceClass: 'gsc-only'
@@ -209,10 +302,87 @@ Dar SMC nu e doar despre catalog imens - e și despre inovație continuă. Au fo
 
     infinitrade: `Distribuim componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe cataloagele și configuratorul online publicate de producător pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 2–6 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimite-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
     sources: [
+      {"title":"SMC Corporation Homepage","url":"https://www.smcworld.com/en-jp/","publisher":"SMC Corporation","accessed":"2026-09-22"},
       { title: 'SMC Corporation – site oficial', url: 'https://www.smcworld.com/', publisher: 'SMC Corporation', accessed: '2026-09-22' },
       { title: 'SMC Corporation', url: 'https://en.wikipedia.org/wiki/SMC_Corporation', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma disponibilitatea permanentă în stoc pentru fiecare cod din catalogul SMC și nu oferim configurarea software a controlerelor de fieldbus asociate valvelor.',
+    productCodes: [
+      {
+        "code": "NMG-E",
+        "description": "Generator de azot pentru aplicații industriale"
+      },
+      {
+        "code": "ZXPE5-X3",
+        "description": "Pompă de vid compactă"
+      },
+      {
+        "code": "ZS-37-A-X592/X593",
+        "description": "Adaptor de alimentare cu conector M12"
+      },
+      {
+        "code": "ZP3M",
+        "description": "Ventuză de vacuum cu suprafață antiderapantă"
+      },
+      {
+        "code": "EXW1",
+        "description": "Sistem de comunicație wireless pentru automatizare"
+      },
+      {
+        "code": "EX600",
+        "description": "Sistem fieldbus de siguranță pentru comunicație"
+      },
+      {
+        "code": "VHA200-C06-X410",
+        "description": "Valvă cu bilă cu 3 căi"
+      },
+      {
+        "code": "JSXZ-X300",
+        "description": "Electrovalvă cu 2 căi cu rezistență îmbunătățită la apă"
+      },
+      {
+        "code": "CQE",
+        "description": "Cilindru compact cu forță mărită"
+      },
+      {
+        "code": "HF2B-TU",
+        "description": "Furtun din poliuretan pentru aer comprimat"
+      },
+      {
+        "code": "ZSE20",
+        "description": "Presostat digital pentru monitorizarea vidului"
+      },
+      {
+        "code": "JSXH-X2",
+        "description": "Electrovalvă cu 2 căi pentru apă la presiune ridicată"
+      },
+      {
+        "code": "VBA",
+        "description": "Regulator de presiune tip booster"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce cilindru SMC aleg pentru un spațiu de montaj redus?",
+        "a": "Seria CQE, un cilindru compact cu forță mărită față de gabaritul standard, este potrivită acolo unde spațiul de montaj este limitat, dar este nevoie de o forță suplimentară pe cursă. Alegerea diametrului exact depinde de sarcina de mișcat și de cursa necesară."
+      },
+      {
+        "q": "Ce este sistemul fieldbus EX600 de la SMC?",
+        "a": "Este un sistem de comunicație fieldbus cu funcții de siguranță integrate, folosit pentru conectarea insulelor de valve și a modulelor de intrare/ieșire la rețeaua de automatizare a mașinii. Permite reducerea cablajului și diagnosticarea centralizată a stării componentelor pneumatice."
+      },
+      {
+        "q": "Livrați cilindri și valve SMC în România?",
+        "a": "Da, aducem la comandă componente SMC pe baza informațiilor publice de pe pagina producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de configurație. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de cilindru pneumatic SMC?",
+        "a": "Este util să precizați diametrul pistonului, cursa necesară, tipul de montare și presiunea de lucru a instalației. Dacă aveți codul complet de pe cilindrul existent, identificarea echivalentului corect din gama SMC se face mult mai rapid și cu precizie mai mare."
+      },
+      {
+        "q": "Ce este ventuza de vacuum SMC seria ZP3M?",
+        "a": "Este o ventuză de vacuum cu suprafață antiderapantă, folosită la manipularea pieselor cu robotul sau la sisteme de ridicare pneumatică. Alegerea diametrului ventuzei depinde de greutatea piesei manipulate și de forma suprafeței de contact cu materialul ridicat."
+      }
+    ],
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
     evidenceClass: 'gsc-only'
@@ -428,10 +598,80 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
 
     infinitrade: `Distribuim componente TE Connectivity (conectori industriali, relee, senzori de presiune, conectori board-to-board) aduse la comandă prin canalele de aprovizionare din UE cu care colaborăm. Fără acces la datele interne de stoc ale producătorului, lucrăm cu fișele tehnice și informațiile publice disponibile pe platformele TE. Ca regulă generală a firmei, unele referințe pot ajunge în 24–72 h din stoc din lanțul nostru, dar majoritatea comenzilor speciale necesită 2–6 săptămâni la comandă, fără garanție pentru o referință anume înainte de confirmare. Pentru o cotație corectă avem nevoie de codul de parte TE, mediul de utilizare și protocolul de comunicare (dacă e cazul). Revenim cu disponibilitate reală și termen confirmat de furnizor.`,
     sources: [
+      {"title":"Connectors","url":"https://www.te.com/en/products/connectors.html","publisher":"TE Connectivity","accessed":"2026-09-22"},
+      {"title":"Pressure Sensors","url":"https://www.te.com/en/products/sensors/pressure-sensors.html","publisher":"TE Connectivity","accessed":"2026-09-22"},
       { title: 'Learn about TE Connectivity | TE Connectivity', url: 'https://www.te.com/en/about-te.html', publisher: 'TE Connectivity', accessed: '2026-09-22' },
       { title: 'TE Connectivity - Investor Relations', url: 'https://investors.te.com/', publisher: 'TE Connectivity', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma stocul permanent pentru fiecare din sutele de mii de referințe TE Connectivity și nu oferim configurarea software a echipamentelor care integrează aceste componente.',
+    productCodes: [
+      {
+        "code": "M12 X-coded",
+        "description": "Conector industrial M12 pentru transfer de date 10 Gb/s"
+      },
+      {
+        "code": "M8/M12 Connector System",
+        "description": "Sistem de conectori pentru automatizare industrială"
+      },
+      {
+        "code": "RJ45",
+        "description": "Conector Ethernet pentru montare pe placă"
+      },
+      {
+        "code": "STRADA Whisper",
+        "description": "Conector de backplane pentru sisteme de mare viteză"
+      },
+      {
+        "code": "DEUTSCH DMC-M Series",
+        "description": "Conector industrial de uz greu pentru vibrații"
+      },
+      {
+        "code": "AMPMODU",
+        "description": "Interconectare modulară placă-la-placă și fir-la-placă"
+      },
+      {
+        "code": "NECTOR",
+        "description": "Sistem de cablare modulară pentru instalații electrice"
+      },
+      {
+        "code": "zSFP+",
+        "description": "Interconectare pluggable de mare viteză 28/56 Gbps"
+      },
+      {
+        "code": "QSFP",
+        "description": "Familie de interconectări pluggable de mare viteză"
+      },
+      {
+        "code": "LCEDI",
+        "description": "Conector pentru semnal video de joasă tensiune"
+      },
+      {
+        "code": "8XH Series",
+        "description": "Senzor de presiune de precizie ridicată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce conector TE Connectivity aleg pentru un senzor industrial cu cablu?",
+        "a": "Familia M12, în varianta X-coded pentru viteze de până la 10 Gb/s, este alegerea standard pentru conectarea senzorilor și actuatoarelor la nivel de mașină. Alegerea codării (A, B, D sau X) depinde de tipul semnalului transmis, date sau alimentare."
+      },
+      {
+        "q": "Ce este senzorul de presiune TE Connectivity seria 8XH?",
+        "a": "Este o familie de senzori de presiune de precizie ridicată, folosită acolo unde este nevoie de o măsurare stabilă pe termen lung în aplicații industriale sau de proces. Alegerea variantei exacte depinde de domeniul de presiune și de tipul de ieșire electrică necesar."
+      },
+      {
+        "q": "Livrați conectori TE Connectivity în România?",
+        "a": "Da, aducem la comandă conectori TE Connectivity pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de referință. Recomandăm confirmarea codului complet înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de conector M12 TE Connectivity?",
+        "a": "Este util să precizați numărul de contacte, codarea conectorului (A, B, D sau X), tipul de montare (pe cablu sau pe aparat) și lungimea cablului dorită. Aceste detalii permit alegerea corectă între variantele disponibile în familia M12."
+      },
+      {
+        "q": "Ce este conectorul DEUTSCH DMC-M de la TE Connectivity?",
+        "a": "Este un conector industrial de uz greu, folosit în medii cu vibrații și solicitări mecanice ridicate, inclusiv aplicații aerospațiale. Este ales atunci când conectorii standard M12 nu oferă rezistența mecanică sau etanșarea necesară condițiilor de operare."
+      }
+    ],
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat (Schaffhausen, Elveția → Galway, Irlanda, sediu operațional Berwyn PA)' }],
     evidenceClass: 'transactional'
@@ -501,10 +741,80 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
 
     infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe informațiile publice ale producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 2–6 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, spune-ne ce parametru vrei să măsori, precizia cerută și domeniul de măsurare. Îți confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
     sources: [
+      {"title":"Height Gauges","url":"https://www.tesatechnology.com/en-us/products/height-gauges","publisher":"Tesa Technology","accessed":"2026-09-22"},
+      {"title":"Calipers","url":"https://www.tesatechnology.com/en-us/products/calipers","publisher":"Tesa Technology","accessed":"2026-09-22"},
       { title: 'Company', url: 'https://www.tesatechnology.com/en-us/company', publisher: 'Tesa Technology (Hexagon)', accessed: '2026-09-22' },
       { title: 'Tesa Technology', url: 'https://www.tesatechnology.com/', publisher: 'Tesa Technology (Hexagon)', accessed: '2026-09-22' }
     ],
     limitation: 'Nu efectuăm noi calibrarea metrologică certificată METAS a instrumentelor Tesa și nu putem confirma stocul permanent pentru fiecare model din gamă.',
+    productCodes: [
+      {
+        "code": "TESA-HITE",
+        "description": "Coloană de măsurat manuală 1D cu panou digital"
+      },
+      {
+        "code": "TESA µ-HITE",
+        "description": "Coloană de măsurat compactă, curs 100 mm"
+      },
+      {
+        "code": "MICRO-HITE",
+        "description": "Coloană de măsurat de precizie pentru atelier și laborator"
+      },
+      {
+        "code": "MICRO-HITE+M",
+        "description": "Coloană de măsurat motorizată de înaltă precizie"
+      },
+      {
+        "code": "TESA-HITE MAGNA",
+        "description": "Coloană de măsurat manuală pentru condiții dificile"
+      },
+      {
+        "code": "TWIN-CAL 150",
+        "description": "Șubler universal cu rolă de reglaj fin"
+      },
+      {
+        "code": "TWIN-CAL IP67",
+        "description": "Șubler digital universal cu transmitere de date"
+      },
+      {
+        "code": "TWIN-CAL IP40",
+        "description": "Șubler digital universal cu opțiune de transmitere date"
+      },
+      {
+        "code": "TESA-CAL IP67",
+        "description": "Șubler digital universal fără transmitere de date"
+      },
+      {
+        "code": "DIALTRONIC COMPACT",
+        "description": "Comparator digital compact pentru control dimensional"
+      },
+      {
+        "code": "DIALTRONIC EASY",
+        "description": "Comparator digital cu funcții esențiale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce coloană de măsurat Tesa aleg pentru control dimensional în laborator?",
+        "a": "MICRO-HITE este alegerea tipică pentru laborator, oferind precizie ridicată pentru măsurători repetate în condiții controlate. Pentru producție de serie, unde măsurătorile trebuie repetate rapid, varianta motorizată MICRO-HITE+M reduce timpul de operare și erorile de citire manuală."
+      },
+      {
+        "q": "Ce diferență este între șublerul Tesa TWIN-CAL și TESA-CAL?",
+        "a": "TWIN-CAL este seria universală cu variante IP40 și IP67, gândită pentru condiții de atelier cu praf sau lichide de răcire. TESA-CAL IP67 este o variantă digitală etanșă fără funcție de transmitere a datelor, potrivită pentru citiri simple fără conectare la un sistem de colectare a datelor."
+      },
+      {
+        "q": "Livrați instrumente de măsură Tesa în România?",
+        "a": "Da, aducem la comandă instrumente de măsură Tesa pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Livrarea durează de regulă 2-6 săptămâni de la plasarea comenzii, în funcție de model. Recomandăm confirmarea codului exact al instrumentului dorit înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de coloană de măsurat Tesa?",
+        "a": "Este util să precizați cursa de măsurare necesară, gradul de precizie dorit și dacă aplicația necesită o variantă motorizată sau manuală. Aceste detalii permit alegerea corectă între familiile TESA-HITE, MICRO-HITE și TESA-HITE MAGNA."
+      },
+      {
+        "q": "Ce este comparatorul digital Tesa seria DIALTRONIC?",
+        "a": "Este o familie de comparatoare digitale pentru control dimensional, disponibilă în variante compacte sau cu funcții esențiale, folosite frecvent pe standuri de control sau pentru verificarea rapidă a toleranțelor pieselor prelucrate."
+      }
+    ],
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
     evidenceClass: 'zero-evidence'

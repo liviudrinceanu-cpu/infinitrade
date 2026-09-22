@@ -60,8 +60,77 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
     infinitrade: `La Infinitrade lucrăm fără date proprii de stoc pentru gama 3M Safety și aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere simple din portofoliu, precum măști sau dopuri antifonice, putem oferi uneori 24-72 h din stoc, în funcție de disponibilitatea reală de moment, iar pentru restul gamei termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem un anumit produs în stoc înainte de a verifica disponibilitatea la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul sau referința 3M, cantitatea necesară și termenul dorit, iar noi confirmăm disponibilitatea și data reală de livrare înainte de a plasa comanda.`,
     limitation: `Nu putem confirma sau efectua service în perioada de garanție a producătorului pentru echipamentele 3M Safety - acesta rămâne responsabilitatea rețelei 3M.`,
     sources: [
+      {"title":"3M Disposable Respirators","url":"https://www.3m.com/3M/en_US/p/c/ppe/respiratory-protection/disposable/","publisher":"3M","accessed":"2026-09-22"},
       { title: "Explore 3M's Rich History: Innovation Through the Years", url: 'https://www.3m.com/3M/en_US/company-us/about-3m/history/', publisher: '3M Company', accessed: '2026-09-22' },
       { title: '3M Science. Applied to Life. 3M United States', url: 'https://www.3m.com/', publisher: '3M Company', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "8577",
+        "description": "Masca de protectie respiratorie P95 cu carbon activ"
+      },
+      {
+        "code": "8210",
+        "description": "Masca de protectie respiratorie N95, uz general"
+      },
+      {
+        "code": "9210+",
+        "description": "Masca de protectie respiratorie N95, seria Aura"
+      },
+      {
+        "code": "1860",
+        "description": "Masca de protectie respiratorie N95 pentru mediul medical"
+      },
+      {
+        "code": "9105",
+        "description": "Masca de protectie respiratorie N95, pliabila, seria VFlex"
+      },
+      {
+        "code": "1804",
+        "description": "Masca de protectie respiratorie N95 medicala, pliabila"
+      },
+      {
+        "code": "1870+",
+        "description": "Masca de protectie respiratorie N95, Aura pentru medical"
+      },
+      {
+        "code": "9205+",
+        "description": "Masca de protectie respiratorie N95, Aura uz general"
+      },
+      {
+        "code": "8200",
+        "description": "Masca de protectie respiratorie pentru particule fine"
+      },
+      {
+        "code": "8515",
+        "description": "Masca de protectie respiratorie pentru lucrari de sudura"
+      },
+      {
+        "code": "03201",
+        "description": "Mască de protecție respiratorie pentru șlefuire și praf"
+      },
+      {
+        "code": "8511",
+        "description": "Masca de protectie respiratorie cu valva de exhalare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între mastile 3M seria Aura și mastile clasice pliabile?",
+        "a": "Mastile 3M din seria Aura, precum 9210+ sau 1870+, au trei panouri care se așează pe față și reduc spațiul mort din interior, oferind un confort mai bun la purtare îndelungată. Mastile clasice, precum 8210, sunt cupe rigide, potrivite pentru medii industriale unde forma stabilă contează mai mult decât pliabilitatea pentru transport."
+      },
+      {
+        "q": "Ce masca 3M este potrivita pentru lucrari de sudura?",
+        "a": "Pentru sudura, modelul 8515 este gândit special, cu un strat suplimentar pentru particulele generate de procesul de sudare și o valvă de exhalare care reduce acumularea de căldură sub masca. Alegerea finală depinde și de tipul de metal sudat și de ventilatia spatiului de lucru."
+      },
+      {
+        "q": "Livrează 3M echipamente de protecție respiratorie în România?",
+        "a": "Da, produsele 3M ajung la comandă conform cataloagelor publice ale producătorului, fără un stoc propriu ținut în depozit. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de cantitatea cerută, iar pentru comenzi mari perioada poate varia."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de măști de protecție 3M?",
+        "a": "Precizati nivelul de protecție necesar (N95 sau P95), tipul de particule sau vapori de la locul de munca, dacă este nevoie de valvă de exhalare pentru confort termic și numărul estimat de bucati pe luna. Cu aceste date recomandăm modelul 3M potrivit din gamă disponibilă."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -133,8 +202,73 @@ Tablourile System pro E power modular permit configurații nelimitate - am reali
     infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al componentelor ABB Electrification și aducem tablourile și aparatajul la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru componente uzuale, precum contactoare sau relee termice, putem confirma uneori 24-72 h din stoc, iar pentru tablouri configurate sau aparataj mai complex termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de proiect. Nu facem promisiuni ferme de livrare fără o verificare prealabilă la furnizor. Pentru o ofertă corectă, trimiteți-ne schema unifilară sau lista de aparataj, curenții nominali necesari și termenul dorit — vă răspundem cu disponibilitatea reală confirmată înainte de comandă.`,
     limitation: `Nu putem confirma configurarea avansată a trip unit-urilor Ekip sau integrarea SCADA la fața locului - acestea necesită suport tehnic direct de la ABB sau un integrator certificat.`,
     sources: [
+      {"title":"Circuit Breakers","url":"https://new.abb.com/low-voltage/products/circuit-breakers","publisher":"ABB","accessed":"2026-09-22"},
       { title: 'ABB Group | Helping industries outrun – leaner and cleaner | ABB', url: 'https://www.abb.com', publisher: 'ABB Ltd', accessed: '2026-09-22' },
       { title: 'About ABB | ABB', url: 'https://www.abb.com/global/en/company/about', publisher: 'ABB Ltd', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "Emax 3",
+        "description": "Disjunctor de aer de generație nouă"
+      },
+      {
+        "code": "Emax 2",
+        "description": "Disjunctor de aer pentru curenți până la 6300A"
+      },
+      {
+        "code": "FORMULA",
+        "description": "Disjunctor în carcasă turnată până la 630A"
+      },
+      {
+        "code": "Tmax T",
+        "description": "Disjunctor în carcasă turnată, 320A până la 3200A"
+      },
+      {
+        "code": "Tmax XT",
+        "description": "Disjunctor în carcasă turnată de înaltă performanță"
+      },
+      {
+        "code": "Tmax PV",
+        "description": "Disjunctor pentru aplicații fotovoltaice de curent continuu"
+      },
+      {
+        "code": "SACE Infinitus",
+        "description": "Disjunctor în carcasă turnată, 320A până la 3200A"
+      },
+      {
+        "code": "Ekip UP",
+        "description": "Unitate digitală de protecție pentru joasă tensiune"
+      },
+      {
+        "code": "SACE Emax",
+        "description": "Disjunctor de aer de generație anterioară"
+      },
+      {
+        "code": "Megamax",
+        "description": "Disjunctor de aer, generație veche, cu kit de retrofit"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce disjunctor ABB aleg pentru un tablou electric industrial de putere mare?",
+        "a": "Seria Emax 2 sau Emax 3 acoperă curenți mari, până la 6300A, fiind alegerea tipică pentru tablourile principale de distribuție ale unei hale industriale. Pentru circuite secundare cu curenți mai mici, un disjunctor în carcasă turnată din seria Tmax T este suficient."
+      },
+      {
+        "q": "Ce diferență este între disjunctoarele ABB Tmax T și Tmax PV?",
+        "a": "Tmax T este seria standard de disjunctoare în carcasă turnată pentru circuite de curent alternativ. Tmax PV este varianta special adaptată pentru curent continuu, folosită la protecția instalațiilor fotovoltaice, unde arcul electric la deconectare se comportă diferit față de curentul alternativ."
+      },
+      {
+        "q": "Livrați disjunctoare ABB în România?",
+        "a": "Da, aducem la comandă disjunctoare ABB pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de curentul nominal și de accesoriile solicitate. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de disjunctor ABB?",
+        "a": "Este util să precizați curentul nominal necesar, tensiunea de lucru, tipul rețelei (curent alternativ sau continuu) și dacă este nevoie de unitate digitală de protecție Ekip. Aceste detalii permit alegerea corectă între seriile Tmax, Emax sau SACE Infinitus."
+      },
+      {
+        "q": "Ce este unitatea digitală ABB Ekip UP?",
+        "a": "Este o unitate electronică de protecție și monitorizare pentru disjunctoarele de joasă tensiune, care oferă măsurători precise de curent și tensiune, precum și funcții de comunicație cu sistemul de automatizare al clădirii sau al fabricii."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -206,8 +340,78 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
     infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama ABB Measurement & Analytics și aducem instrumentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru transmițătoare și recordere din gama standard putem confirma uneori 24-72 h din stoc, iar pentru debitmetre sau analizoare configurate individual termenul obișnuit este de 2-6 săptămâni la comandă, cu calibrare inclusă. Nu putem confirma un termen exact înainte de a verifica disponibilitatea reală la furnizor pentru specificațiile dumneavoastră. Pentru o ofertă corectă, trimiteți-ne tipul de instrument, gama de măsurare necesară, conexiunea de proces și protocolul de comunicare dorit, iar noi revenim cu disponibilitate și termen confirmate.`,
     limitation: `Nu putem confirma stocul permanent pentru fiecare variantă de debitmetru sau analizor configurat - fiecare comandă depinde de disponibilitatea reală la producător.`,
     sources: [
-      { title: 'ABB Group | Helping industries outrun – leaner and cleaner | ABB', url: 'https://www.abb.com', publisher: 'ABB Ltd', accessed: '2026-09-22' },
+      {"title":"Flow measurement products","url":"https://new.abb.com/products/measurement-products/flow","publisher":"ABB","accessed":"2026-09-22"},
+      {"title":"Analytical measurement products","url":"https://new.abb.com/products/measurement-products/analytical","publisher":"ABB","accessed":"2026-09-22"},
+      { title: 'ABB Group — pagina principală (instrumentație)', url: 'https://www.abb.com', publisher: 'ABB Ltd', accessed: '2026-09-22' },
       { title: 'About ABB | ABB', url: 'https://www.abb.com/global/en/company/about', publisher: 'ABB Ltd', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "FMT200",
+        "description": "Debitmetru masic termic pentru gaze industriale"
+      },
+      {
+        "code": "FMT400",
+        "description": "Debitmetru masic termic, versiune de proces avansata"
+      },
+      {
+        "code": "FEW400",
+        "description": "Debitmetru electromagnetic pentru apă și fluide conductive"
+      },
+      {
+        "code": "FCD450",
+        "description": "Debitmetru masic Coriolis pentru fluide dense"
+      },
+      {
+        "code": "FCB400",
+        "description": "Debitmetru masic Coriolis compact pentru debite mici"
+      },
+      {
+        "code": "FEP630",
+        "description": "Debitmetru electromagnetic pentru procese industriale generale"
+      },
+      {
+        "code": "FSS4x0",
+        "description": "Debitmetru cu vortex pentru abur și gaze"
+      },
+      {
+        "code": "FSV4x0",
+        "description": "Debitmetru vortex, versiune extinsa pentru procese"
+      },
+      {
+        "code": "ACF5000 LCS",
+        "description": "Analizor de gaze continuu pentru monitorizarea emisiilor"
+      },
+      {
+        "code": "500 X-D",
+        "description": "Senzor de pH și ORP pentru procese industriale"
+      },
+      {
+        "code": "GCP100",
+        "description": "Cromatograf de gaze pentru analiza de proces"
+      },
+      {
+        "code": "GLA533",
+        "description": "Analizor laser de gaze pentru gaz natural"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între debitmetrele ABB FEW400 și FEP630?",
+        "a": "Ambele sunt debitmetre electromagnetice, dar FEP630 este gândit pentru aplicații industriale generale cu cerințe variate de precizie, în timp ce FEW400 este orientat spre măsurarea apei și a fluidelor conductive în aplicații de proces și utilități. Alegerea finală depinde de fluidul măsurat, presiunea de lucru și conexiunea de proces disponibilă."
+      },
+      {
+        "q": "Când aleg un debitmetru Coriolis ABB în locul unuia electromagnetic?",
+        "a": "Un debitmetru Coriolis ABB, precum FCD450 sau FCB400, este necesar când fluidul nu este suficient de conductiv pentru un debitmetru electromagnetic sau când aveți nevoie și de densitate ori concentrație, nu doar de debit volumic. Pentru apă curată sau soluții apoase conductive, un debitmetru electromagnetic ABB este de obicei suficient."
+      },
+      {
+        "q": "Livrează ABB instrumente de măsurare a proceselor în România?",
+        "a": "Da, instrumentele ABB sunt aduse la comandă pe baza fișelor publice ale producătorului, fără un stoc propriu declarat pe site. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de opțiunile de comunicație cerute, iar pentru variante certificate special poate dura mai mult."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de analizor de gaze ABB?",
+        "a": "Trimiteti componentii de gaz pe care doriti să îi măsurați, domeniul de concentrație așteptat, temperatură și presiunea gazului la punctul de prelevare și tipul de ieșire de semnal necesar. Cu aceste informații recomandăm variantă potrivită, de exemplu ACF5000 LCS pentru emisii sau GCP100 pentru analiza de proces."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -276,8 +480,77 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
     infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent pentru fiecare reper din catalogul Airtac și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile cele mai comune putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni speciale sau configurații custom termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem disponibilitate imediată fără o verificare prealabilă a furnizorului pentru comanda dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul de produs Airtac, diametrul și cursa dorite, cantitatea necesară și termenul la care aveți nevoie de componente — confirmăm disponibilitatea reală înainte de comandă.`,
     limitation: `Nu putem confirma disponibilitatea constantă pentru fiecare dintre miile de repere din catalogul Airtac - aceasta variază de la un model la altul.`,
     sources: [
+      {"title":"Airtac International Group","url":"https://us-en.airtac.com/","publisher":"Airtac","accessed":"2026-09-22"},
       { title: 'AirTAC International Group', url: 'https://us-en.airtac.com/', publisher: 'Airtac International Group', accessed: '2026-09-22' },
       { title: 'AirTAC International Group - About Us', url: 'https://us-en.airtac.com/about-us', publisher: 'Airtac International Group', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "4STA",
+        "description": "Valva pneumatica 3/2 cai, actionare manuala sau mecanica"
+      },
+      {
+        "code": "4SA",
+        "description": "Valvă pneumatică 5/2 și 5/3 căi"
+      },
+      {
+        "code": "4STV",
+        "description": "Electrovalva pneumatica 3/2 cai"
+      },
+      {
+        "code": "4SV",
+        "description": "Electrovalvă pneumatică 5/2 și 5/3 căi"
+      },
+      {
+        "code": "7SA",
+        "description": "Valvă pneumatică 5/2 și 5/3 căi, debit mare"
+      },
+      {
+        "code": "7SV",
+        "description": "Electrovalvă pneumatică 5/2 și 5/3 căi, debit mare"
+      },
+      {
+        "code": "GA",
+        "description": "Unitate de tratare a aerului comprimat, seria GA"
+      },
+      {
+        "code": "GP",
+        "description": "Unitate de tratare a aerului comprimat, seria GP"
+      },
+      {
+        "code": "LSQH",
+        "description": "Ghidaj liniar cu bile în cutie"
+      },
+      {
+        "code": "LSH",
+        "description": "Ghidaj liniar standard cu autolubrifiere"
+      },
+      {
+        "code": "LSD",
+        "description": "Ghidaj liniar standard cu autolubrifiere, varianta D"
+      },
+      {
+        "code": "LRW",
+        "description": "Ghidaj liniar miniatural, versiune latita"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între valvele Airtac seria 4S și seria 7S?",
+        "a": "Ambele familii oferă electrovalve și valve pneumatice cu 5/2 sau 5/3 căi, dar seria 7S este dimensionată pentru debite mai mari decât seria 4S, fiind potrivită la cilindri cu diametru mare sau la curse rapide. Seria 4S rămâne soluția obișnuită pentru automatizări pneumatice de dimensiuni medii."
+      },
+      {
+        "q": "Ce rol are o unitate de tratare aer Airtac, de exemplu seria GA?",
+        "a": "O unitate de tratare aer, precum seria GA sau GP de la Airtac, combină de obicei filtrul, regulatorul de presiune și lubrificatorul într-un singur ansamblu montat inaintea componentelor pneumatice. Rolul ei este să curete aerul comprimat de impuritati și umiditate și să mentina o presiune constantă de lucru."
+      },
+      {
+        "q": "Livrează Airtac componente pneumatice în România?",
+        "a": "Da, componentele Airtac sunt aduse la comandă conform cataloagelor publice ale producătorului, fără un stoc propriu menținut local. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de serie și de cantitatea comandată, iar pentru piese speciale poate dura ceva mai mult."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă de ghidaje liniare Airtac?",
+        "a": "Trimiteti lățimea șinei sau a caruciorului, lungimea cursei necesare, sarcina aplicată și dacă aveți nevoie de o variantă autolubrifianta precum seria LSH sau de una miniaturală precum seria LRW. Cu aceste date identificăm ghidajul Airtac potrivit pentru aplicația dumneavoastră."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -417,8 +690,101 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
     infinitrade: `La Infinitrade nu dispunem de date proprii despre stocul permanent al componentelor Armstrong și aducem oalele de condens și echipamentele conexe la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere standard putem confirma uneori 24-72 h din stoc, iar pentru separatoare mari sau configurații de presiune înaltă termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem un termen fix fără o confirmare prealabilă din partea furnizorului. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, presiunea și temperatura de lucru, precum și capacitatea de evacuare condens necesară — vă răspundem cu disponibilitatea și termenul real confirmate.`,
     limitation: `Nu efectuăm noi service în perioada de garanție a producătorului pentru oalele de condens Armstrong - acesta rămâne responsabilitatea rețelei Armstrong International.`,
     sources: [
+      {"title":"Products","url":"https://www.armstronginternational.com/products","publisher":"Armstrong International","accessed":"2026-09-22"},
       { title: 'About Us | Armstrong | Americas', url: 'https://www.armstronginternational.com/about', publisher: 'Armstrong International', accessed: '2026-09-22' },
       { title: 'Experience Matters | Armstrong | Americas', url: 'https://www.armstronginternational.com/', publisher: 'Armstrong International', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "AB-3000",
+        "description": "Oala de condens bimetalică pentru condiții de supraîncălzire"
+      },
+      {
+        "code": "SH-1600",
+        "description": "Oala de condens bimetalica din seria superheat"
+      },
+      {
+        "code": "CD-3300",
+        "description": "Oala de condens cu disc controlat, din inox"
+      },
+      {
+        "code": "CD-4080",
+        "description": "Oala de condens cu disc pentru presiune ridicată"
+      },
+      {
+        "code": "FT-4000",
+        "description": "Oala de condens cu plutitor și termostat incorporat"
+      },
+      {
+        "code": "GD-30",
+        "description": "Regulator de presiune cu acțiune directă pentru abur"
+      },
+      {
+        "code": "GP-2000",
+        "description": "Regulator de presiune cu pilot extern și diafragmă"
+      },
+      {
+        "code": "ACV",
+        "description": "Ventil de control pentru abur și fluide industriale"
+      },
+      {
+        "code": "Python 1500",
+        "description": "Ventil de control de precizie pentru procese termice"
+      },
+      {
+        "code": "SAGE UMT",
+        "description": "Tester ultrasonic portabil pentru verificarea oalelor de condens"
+      },
+      {
+        "code": "AIM",
+        "description": "Monitor acustic wireless pentru retele de abur"
+      },
+      {
+        "code": "Accelabar",
+        "description": "Element de masurare debit cu presiune diferentiala integrata"
+      },
+      {
+        "code": "Verabar",
+        "description": "Senzor de debit cu profil mediu pentru conducte"
+      },
+      {
+        "code": "4200",
+        "description": "Pompa electrică de condensat pentru retur spre cazăn"
+      },
+      {
+        "code": "PT-300",
+        "description": "Pompa mecanică acționată cu abur, fără alimentare electrică"
+      },
+      {
+        "code": "OB-2000",
+        "description": "Regulator de temperatura cu diafragma pentru schimbatoare de caldura"
+      },
+      {
+        "code": "TVS 800",
+        "description": "Statie de valve pentru grupuri de oale de condens"
+      },
+      {
+        "code": "The Brain",
+        "description": "Centru digital de amestec pentru apa calda sanitara"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg oala de condens Armstrong potrivita pentru linia mea de abur?",
+        "a": "Alegerea corectă începe de la presiunea de lucru, debitul de condens și tipul aplicației: seriile cu cupolă inversată rezistă bine la contrapresiune, cele cu disc controlat sunt compacte și ușoare, iar cele cu plutitor și termostat gestionează sarcini variabile fără pierderi de abur viu. Trimiteti presiunea amonte-aval, debitul estimat și diametrul conductei pentru a identifica seria și dimensiunea corecte."
+      },
+      {
+        "q": "Ce documente trimit pentru o oferta pentru echipamente Armstrong?",
+        "a": "Pentru o ofertă completă este nevoie de codul sau seria de pe eticheta echipamentului existent, presiunea și temperatura de lucru, debitul de condens sau abur și diametrul racordurilor. Dacă înlocuiți un model montat deja, o fotografie a plăcuței tehnice accelerează identificarea variantei corecte de înlocuire, inclusiv pentru accesorii precum garnituri sau seturi de mențenanta."
+      },
+      {
+        "q": "Livrați echipamente Armstrong în România?",
+        "a": "Comenzile pentru echipamente Armstrong International ajung în România prin aprovizionare la cerere: pornim de la cataloagele și fișele tehnice publicate de producător, nu de la un stoc propriu pe care să îl gestionăm local. În mod obișnuit, o oală de condens sau un regulator standard poate fi adus în 2-6 săptămâni la comandă, termenul final depinzând de serie și de cantitatea comandată."
+      },
+      {
+        "q": "Care e diferența dintre o oală de condens cu disc și una cu plutitor?",
+        "a": "Oala cu disc controlat, precum seria CD, folosește un singur disc mobil care se deschide și se închide în funcție de presiunea diferențială, fiind compactă și rezistentă la lovituri de berbec. Oala cu plutitor și termostat, precum seria FT, evacuează condensul continuu prin plutitor și elimină aerul printr-un element termostatic, potrivită pentru sarcini variabile și debite mari."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -487,7 +853,81 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
     infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama Atos de hidraulică industrială și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru valve și cilindri din dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru sisteme integrate cu controllere electronice termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de configurație. Nu avem cum să confirmăm un termen exact fără verificarea disponibilității reale la furnizor. Pentru o ofertă corectă, trimiteți-ne presiunea de lucru, debitul necesar și tipul de control dorit (proporțional sau on/off), iar noi revenim cu termenul confirmat.`,
     limitation: `Nu putem oferi configurarea avansată a controllerelor E-ME sau tuning PID la fața locului - acestea necesită suport tehnic direct de la Atos.`,
     sources: [
+      {"title":"Product range overview","url":"https://www.atos.com/range-overview","publisher":"Atos S.p.A.","accessed":"2026-09-22"},
+      {"title":"Industrial Directional On-off Valves","url":"https://www.atos.com/en-it/Products/Industrial/On-off-valves/c/IN_C003","publisher":"Atos S.p.A.","accessed":"2026-09-22"},
       { title: 'Atos S.p.A. - Electrohydraulics', url: 'https://www.atos.com', publisher: 'Atos S.p.A.', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "Proportional valves",
+        "description": "Valve hidraulice proporționale pentru control fin de presiune și debit"
+      },
+      {
+        "code": "Axis and p/Q controls",
+        "description": "Controlere electronice pentru axe și reglaje de presiune-debit"
+      },
+      {
+        "code": "On-off valves",
+        "description": "Valve hidraulice de tip tot-sau-nimic pentru comutare directa"
+      },
+      {
+        "code": "Cylinders and servocylinders",
+        "description": "Cilindri hidraulici standard și servocilindri de precizie"
+      },
+      {
+        "code": "Pumps and servopumps",
+        "description": "Pompe hidraulice cu debit fix și servopompe cu debit variabil"
+      },
+      {
+        "code": "Filters",
+        "description": "Filtre hidraulice pentru linia de presiune și retur"
+      },
+      {
+        "code": "Power units",
+        "description": "Grupuri hidraulice complete cu pompă, motor și rezervor"
+      },
+      {
+        "code": "Blocks",
+        "description": "Blocuri hidraulice modulare pentru montaj compact de valve"
+      },
+      {
+        "code": "Subplates",
+        "description": "Placi de baza pentru montarea valvelor pe circuit"
+      },
+      {
+        "code": "Electronic drivers",
+        "description": "Module electronice de comandă pentru valve proporționale și servovalve"
+      },
+      {
+        "code": "ISO cartridges",
+        "description": "Cartuse hidraulice cu montaj conform standardelor ISO"
+      },
+      {
+        "code": "Directional solenoid valves",
+        "description": "Valve direcționale cu acționare solenoidală și conectori DIN sau Deutsch"
+      },
+      {
+        "code": "Screw-in cartridge valves",
+        "description": "Valve cartus cu montaj infiletat, până la 1 5/16 țoli"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce game de valve hidraulice Atos sunt disponibile pentru control proportional?",
+        "a": "Atos produce valve proporționale pentru reglarea fină a presiunii și debitului, alături de controlere electronice dedicate pentru axe și bucle presiune-debit. Gama acoperă de la valve simple, cu comandă directă, până la variante pilotate, pentru aplicații industriale cu cerințe ridicate de precizie. Alegerea corectă depinde de presiunea maximă de lucru, debitul necesar și tipul de semnal de comandă disponibil în instalație."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă pentru o valvă Atos de înlocuire?",
+        "a": "Pentru o ofertă corectă aveți nevoie de codul complet de pe eticheta valvei existente, presiunea maximă de lucru, debitul nominal și tipul de conector electric (DIN, AMP sau Deutsch). Dacă eticheta nu mai este lizibilă, o fotografie clară a valvei montate, împreună cu dimensiunile de racordare, ne ajută să identificăm familia și varianta compatibilă din portofoliul Atos."
+      },
+      {
+        "q": "Livrați echipamente hidraulice Atos în România?",
+        "a": "Nu ținem valve sau pompe Atos pe raft; fiecare comandă este plasată după confirmarea codului și a specificațiilor din documentația oficială a producătorului italian. Un interval realist pentru primirea mărfii este de 2-6 săptămâni la comandă, în funcție de cât de personalizată este configurația cerută și de volumul de producție curent al fabricii."
+      },
+      {
+        "q": "Ce diferență este între o pompă și o servopompă în gama Atos?",
+        "a": "Pompa standard livrează un debit fix sau reglabil manual, potrivit pentru aplicații cu cerințe constante de presiune și debit. Servopompa integrează un sistem de reglare electronică în buclă închisă, care ajustează automat debitul în funcție de semnalul de comandă, fiind aleasă pentru linii cu cicluri variabile și nevoie de răspuns rapid la schimbări de sarcină."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -628,8 +1068,109 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
     infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Badger Meter și aducem debitmetrele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni mari sau sisteme AMR/AMI complete termenul obișnuit este de 2-6 săptămâni la comandă, cu certificare de billing inclusă. Nu deținem date proprii despre stocul permanent al fiecărei dimensiuni DN. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, tehnologia dorită (electromagnetic, ultrasonic sau turbină) și dacă aveți nevoie de certificare MID pentru facturare, iar noi revenim cu termenul confirmat de furnizor.`,
     limitation: `Nu putem confirma disponibilitatea permanentă a fiecărei dimensiuni DN sau configurații AMR/AMI - fiecare comandă depinde de stocul real al furnizorului la momentul cererii.`,
     sources: [
+      {"title":"Badger Meter - Flow Measurement & Water Solutions","url":"https://www.badgermeter.com/","publisher":"Badger Meter, Inc.","accessed":"2026-09-22"},
       { title: 'Badger Meter | Water Metering Technology & Flow Solutions', url: 'https://www.badgermeter.com/', publisher: 'Badger Meter, Inc.', accessed: '2026-09-22' },
       { title: 'Browse All Products | Badger Meter', url: 'https://www.badgermeter.com/products/', publisher: 'Badger Meter, Inc.', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "ModMAG",
+        "description": "Debitmetre electromagnetice pentru apă și fluide conductive"
+      },
+      {
+        "code": "E-Series",
+        "description": "Debitmetru ultrasonic pentru masurarea debitului de apa"
+      },
+      {
+        "code": "Dynasonics",
+        "description": "Debitmetru ultrasonic cu montaj clamp-on, fără tăiere conductă"
+      },
+      {
+        "code": "Recordall",
+        "description": "Contoare de apa cu disc nutant pentru retele urbane"
+      },
+      {
+        "code": "Vortex",
+        "description": "Debitmetru cu vârtejuri pentru abur și gaze industriale"
+      },
+      {
+        "code": "Preso",
+        "description": "Debitmetru cu presiune diferențială pentru conducte industriale"
+      },
+      {
+        "code": "Blancett",
+        "description": "Debitmetru cu turbina pentru fluide curate cu vascozitate mica"
+      },
+      {
+        "code": "Hedland",
+        "description": "Debitmetru cu arie variabila pentru vizualizare directa a debitului"
+      },
+      {
+        "code": "Industrial Oval Gear (IOG)",
+        "description": "Debitmetru cu roti ovale pentru fluide vascoase"
+      },
+      {
+        "code": "SmartLevel Sewer",
+        "description": "Sistem de monitorizare nivel pentru retele de canalizare"
+      },
+      {
+        "code": "SmartLevel Surface",
+        "description": "Monitorizare nivel pentru ape de suprafata, cu alimentare solara"
+      },
+      {
+        "code": "SubSonic",
+        "description": "Senzor dual de nivel cu presiune și ultrasunete pentru camine"
+      },
+      {
+        "code": "PIPEMINDER-ONE",
+        "description": "Senzor pentru detectarea tranzitoriilor și scurgerilor din rețea"
+      },
+      {
+        "code": "HPR-32A",
+        "description": "Înregistrator de presiune pentru hidranti"
+      },
+      {
+        "code": "Ru-35",
+        "description": "Unitate de telemetrie submersibila pentru retele de apa"
+      },
+      {
+        "code": "ORION Cellular",
+        "description": "Modul AMI cu retea celulara pentru citire de la distanta"
+      },
+      {
+        "code": "MetriNet",
+        "description": "Stație multiparametru pentru monitorizarea calității apei"
+      },
+      {
+        "code": "spectro::lyser V3",
+        "description": "Sonda spectrometrica pentru analiza continua a apei"
+      },
+      {
+        "code": "Q46P",
+        "description": "Monitor de pH pentru procese industriale și apă"
+      },
+      {
+        "code": "con::cube",
+        "description": "Terminal IoT pentru monitorizarea calității apei în rețea"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce debitmetre Badger Meter sunt potrivite pentru masurarea apei industriale?",
+        "a": "Pentru apă industrială, gamele ModMAG (electromagnetic), Dynasonics (ultrasonic clamp-on) și Recordall (cu disc nutant) acoperă cele mai multe aplicații de facturare și proces. Alegerea depinde de diametrul conductei, conductivitatea fluidului și dacă instalația permite montaj cu tăiere în conductă sau necesită montaj exterior, fără oprirea fluxului, așa cum permit variantele clamp-on."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă pentru un debitmetru Badger Meter?",
+        "a": "Diametrul nominal al conductei, tipul de fluid măsurat, presiunea și temperatura de lucru, plus formatul de ieșire dorit (impuls, 4-20mA sau protocol digital) sunt informațiile de bază pentru o ofertă. Pentru înlocuiri, codul de pe eticheta echipamentului montat deja scurtează mult identificarea variantei potrivite din portofoliul Badger Meter."
+      },
+      {
+        "q": "Livrați produse Badger Meter în România?",
+        "a": "Fiecare debitmetru sau senzor Badger Meter comandat prin noi pornește de la specificațiile publice ale producătorului american, nu dintr-un depozit local pe care îl administrăm noi. Clienții primesc de regulă mărfă în 2-6 săptămâni la comandă, în funcție de tipul de fluid măsurat, diametrul necesar și complexitatea modulelor de telemetrie asociate."
+      },
+      {
+        "q": "Ce diferență este între un debitmetru electromagnetic și unul ultrasonic Dynasonics?",
+        "a": "Debitmetrul electromagnetic, precum ModMAG, măsoară direct fluide conductive electric și necesită montaj în linie, cu tăierea conductei. Debitmetrul ultrasonic Dynasonics folosește senzori clamp-on montați pe exteriorul tevii, potriviti și pentru fluide neconductive, fără oprirea instalației; precizia poate varia însă în funcție de grosimea peretelui și de puritatea fluidului măsurat."
+      }
     ],
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
@@ -699,7 +1240,81 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
     infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent al senzorilor Baumer și aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard, precum cei inductivi sau de presiune, putem confirma uneori 24-72 h din stoc, iar pentru encodere absolute, vision sau configurații speciale termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor. Pentru o ofertă corectă, trimiteți-ne tipul de senzor, distanța sau presiunea de măsurare necesară și interfața de comunicare dorită (IO-Link, analogic), iar noi confirmăm termenul real înainte de comandă.`,
     limitation: `Nu putem oferi configurarea avansată a senzorilor vision VeriSens pentru aplicații specifice de inspecție - aceasta necesită suport tehnic dedicat.`,
     sources: [
+      {"title":"Baumer USA","url":"https://www.baumer.com/us/en","publisher":"Baumer Group","accessed":"2026-09-22"},
+      {"title":"EAM580","url":"https://www.baumer.com/us/en/product-overview/rotary-encoders-angle-sensors/industrial-encoders-absolute/eam580/c/14160","publisher":"Baumer Group","accessed":"2026-09-22"},
       { title: 'Baumer - Passion for Sensors | Baumer USA', url: 'https://www.baumer.com/us/en', publisher: 'Baumer Group', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "HS35",
+        "description": "Encoder incremental consolidat pentru medii cu suprasarcini mecanice"
+      },
+      {
+        "code": "UF300",
+        "description": "Senzor ultrasonic compact cu distanta de masurare de 3 metri"
+      },
+      {
+        "code": "OM60",
+        "description": "Senzor laser de distanta cu precizie ridicata"
+      },
+      {
+        "code": "VeriSens",
+        "description": "Senzor de viziune pentru inspectie și ghidare robotică"
+      },
+      {
+        "code": "IDC",
+        "description": "Cititor multicod pentru identificare 1D și 2D"
+      },
+      {
+        "code": "AlphaProx",
+        "description": "Senzor inductiv de distanta pentru masurare de precizie"
+      },
+      {
+        "code": "EAM580-B EtherCAT",
+        "description": "Encoder absolut industrial cu interfata EtherCAT"
+      },
+      {
+        "code": "EAM580-B SSI",
+        "description": "Encoder absolut industrial cu iesire SSI"
+      },
+      {
+        "code": "EAM580-B CANopen",
+        "description": "Encoder absolut industrial cu protocol CANopen"
+      },
+      {
+        "code": "EAM580-SC CANopen",
+        "description": "Encoder absolut compact cu iesire CANopen"
+      },
+      {
+        "code": "EAM580R-K Analog",
+        "description": "Encoder absolut fără rulmenți, ieșire analogică"
+      },
+      {
+        "code": "EAM580R-B Analog",
+        "description": "Encoder absolut fără rulmenți, varianta B, analogic"
+      },
+      {
+        "code": "EAM580R-SC Analog",
+        "description": "Encoder absolut fără rulmenți, varianta SC, analogic"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce tipuri de encodere Baumer sunt disponibile pentru automatizari industriale?",
+        "a": "Baumer oferă encodere absolute din familia EAM580, disponibile cu ieșiri EtherCAT, SSI, CANopen sau analogice, plus variante fără rulmenți (EAM580R) pentru montaj direct pe ax. Selectia corectă depinde de protocolul de comunicație folosit de automat, de rezoluția necesară și de condițiile de montaj, inclusiv spațiul disponibil și tipul de cuplaj mecanic."
+      },
+      {
+        "q": "Ce date trimit pentru o oferta pentru un senzor Baumer de inlocuire?",
+        "a": "Codul de pe eticheta senzorului sau encoderului existent rămâne cea mai rapidă cale spre o ofertă corectă; adăugati tensiunea de alimentare, tipul de ieșire (analogică, digitală sau de rețea) și distanța ori rază de detectie cerută de aplicație. Pentru encodere, spuneti-ne și tipul de cuplaj mecanic folosit, ca să evităm o variantă incompatibilă mecanic."
+      },
+      {
+        "q": "Livrați senzori Baumer în România?",
+        "a": "Pentru senzorii și encoderele Baumer nu operăm un stoc propriu vizibil clienților; procesam fiecare cerere pornind de la cataloagele tehnice publicate de producătorul elvețian. Timpul de așteptare uzual este de 2-6 săptămâni la comandă, variind în funcție de rezoluția encoderului, lungimea cablului sau tipul de ieșire electrică solicitat."
+      },
+      {
+        "q": "Care e diferența dintre un senzor inductiv AlphaProx și unul cu factor 1?",
+        "a": "Senzorul inductiv standard AlphaProx are o distanță de comutare care variază în funcție de tipul de metal detectat, fiind mai economic pentru aplicații generale. Un senzor cu factor 1 menține aceeași distanță de detecție indiferent de material, util acolo unde linia de producție folosește alternativ oțel, aluminiu sau alamă și precizia trebuie să rămână constantă."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',

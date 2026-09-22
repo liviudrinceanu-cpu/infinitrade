@@ -59,8 +59,73 @@ Am livrat soluții de transmisie pentru mașini de ambalare, pompe industriale, 
     infinitrade: `Lucrăm din surse publice ale producătorului și spunem clar ce putem și ce nu putem confirma despre stocul curent de curele Continental. Nu avem date proprii despre ce anume se află pe stoc la un moment dat, dar aducem gama de curele V, dințate și Poly-V la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, lucrăm cu 24-72 h pentru comenzile onorate din aprovizionarea curentă și cu 2-6 săptămâni la comandă pentru restul gamei. Pentru o ofertă corectă, trimite-ne codul de profil (de exemplu SPA, HTD 8M) și lungimea exactă necesară - revenim rapid cu preț și termen confirmat.`,
     limitation: 'Nu putem confirma operațiuni de vulcanizare la cald sau jonctionare pe loc pentru curele speciale - livrăm produsul, nu service-ul de montaj.',
     sources: [
+      {"title":"Drive Belts – Power Transmission Industrial Applications","url":"https://www.continental-industry.com/en/solutions/power-transmission/industrial-applications/drive-belts","publisher":"Continental AG (ContiTech)","accessed":"2026-09-22"},
       { title: 'History - Continental AG', url: 'https://www.continental.com/en/company/history/', publisher: 'Continental AG', accessed: '2026-09-22' },
       { title: 'Home | Continental - Continental AG', url: 'https://www.continental.com/en/', publisher: 'Continental AG', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "V-Belts Wrapped",
+        "description": "Curea trapezoidala infasurata pentru transmisii cu alunecare admisa"
+      },
+      {
+        "code": "V-Belts Raw-Edge",
+        "description": "Curea trapezoidala cu margine bruta pentru aderenta sporita"
+      },
+      {
+        "code": "V-Belts Variable-Speed",
+        "description": "Curea trapezoidala pentru transmisii cu viteza variabila"
+      },
+      {
+        "code": "Synchronous Belts Rubber",
+        "description": "Gama de curele dintate din cauciuc pentru precizie ridicata"
+      },
+      {
+        "code": "Synchronous Belt PU",
+        "description": "Curele dințate din poliuretan pentru aplicații industriale diverse"
+      },
+      {
+        "code": "Multi V-Belts",
+        "description": "Curele Multi-V pentru transmisii cu role de diametru mic"
+      },
+      {
+        "code": "Conti Polyflat",
+        "description": "Curea plata pentru transmisii compacte cu role de diametru redus"
+      },
+      {
+        "code": "Conti Synchrotwin",
+        "description": "Curea dintata dubla pentru transmisii compacte cu contrarotatie"
+      },
+      {
+        "code": "Conti Synchromotion",
+        "description": "Curea dintata cu autoaliniere pentru functionare silentioasa"
+      },
+      {
+        "code": "Conti SilentSync",
+        "description": "Curea dintata performanta cu conductivitate electrica imbunatatita"
+      },
+      {
+        "code": "ROTAFRIX",
+        "description": "Inele și roți de frictiune pentru transport și antrenare tamburi"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între o curea Continental V-Belt Wrapped și Raw-Edge?",
+        "a": "Varianta Wrapped are un înveliș textil complet peste corpul curelei și este potrivită pentru transmisii standard, unde protecția mecanică contează mai mult decât aderență maximă. Varianta Raw-Edge lasă marginile curelei neinvelite, ceea ce crește aderența pe roată și permite transmiterea unei puteri mai mari la aceeași lățime. Alegerea depinde de puterea de transmis, de diametrul roților și de condițiile de mediu din instalație."
+      },
+      {
+        "q": "Ce este seria Conti Synchrotwin de la Continental?",
+        "a": "Conti Synchrotwin este o curea dintata dublă, cu dinti pe ambele fete, folosită în transmisii compacte unde este nevoie de contrarotatie între doi arbori fără roți intermediare suplimentare. Este o soluție potrivită pentru mașini cu spațiu limitat de montaj, unde o transmisie clasică cu două curele separate nu incape. Alegerea profilului și a latimii se face în funcție de puterea și turația arborilor din aplicația Continental vizata."
+      },
+      {
+        "q": "Livrați curele Continental în România la comandă?",
+        "a": "Curelele Continental ajung la client prin comandă punctuală, pornind de la fișele tehnice oficiale ale producătorului, fără un stoc de rezervă păstrat permanent în depozit propriu. Termenul obișnuit este 2-6 săptămâni la comandă, în funcție de profil și de lungimea necesară. Pentru o ofertă rapidă recomandăm să transmiteți seria, profilul și lungimea de referință a curelei existente."
+      },
+      {
+        "q": "Ce trebuie să masor înainte de a cere o ofertă pentru o curea Continental?",
+        "a": "Aveți nevoie de profilul curelei, de exemplu trapezoidal clasic sau dintat, de lungimea exterioara sau de numărul de dinti, și de lățimea sectiunii transversale masurata pe curea uzată sau pe desenul tehnic al mașinii. Este util să menționați și puterea motorului și turația de lucru, pentru a confirmă că profilul ales suportă sarcină. Cu aceste date identificăm variantă Continental echivalentă din gamă actuală."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -127,8 +192,101 @@ Am instalat peste 2 milioane de sisteme VRV în lume - de la birouri mici la aer
     infinitrade: `Nu avem date proprii de stoc pentru echipamentele Daikin și ne bazăm pe informațiile publice ale producătorului atunci când descriem gama VRV, chillere și unități de tratare a aerului. Aducem sistemele Daikin la comandă prin canale de aprovizionare din Uniunea Europeană, iar ca reper general al firmei termenele cu care lucrăm sunt 24-72 h pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau pentru proiecte mai mari. Pentru o ofertă, trimite-ne codul modelului, capacitatea necesară (kW) și adresa proiectului, iar noi verificăm disponibilitatea reală la furnizor și revenim cu preț și termen.`,
     limitation: 'Nu oferim configurare software BMS sau punere în funcțiune a sistemelor VRV - acestea rămân în sarcina instalatorului autorizat sau a producătorului.',
     sources: [
+      {"title":"Product Group Overview – Daikin Europe","url":"https://www.daikin.eu/en_us/product-group.html","publisher":"Daikin Industries","accessed":"2026-09-22"},
       { title: 'About Daikin | Daikin Global', url: 'https://www.daikin.com/about', publisher: 'Daikin Industries, Ltd.', accessed: '2026-09-22' },
       { title: 'Corporate Data | Corporate Information | Daikin Global', url: 'https://www.daikin.com/corporate/overview/summary/data', publisher: 'Daikin Industries, Ltd.', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Sky Air",
+        "description": "Sistem de climatizare pentru clădiri mici și mijlocii"
+      },
+      {
+        "code": "VRV",
+        "description": "Solutie de climatizare pentru cladiri de orice dimensiune"
+      },
+      {
+        "code": "Chillere Daikin",
+        "description": "Răcitoare răcite cu apă sau cu aer pentru confort și procese"
+      },
+      {
+        "code": "Unitati de Tratare Aer",
+        "description": "Unități eficiente energetic pentru ventilație și confort interior"
+      },
+      {
+        "code": "Rooftop Daikin",
+        "description": "Solutie compacta de tip plug and play cu componente pre-conectate"
+      },
+      {
+        "code": "Fan Coils Daikin",
+        "description": "Ventiloconvectoare cu tehnologie inverter pentru confort permanent"
+      },
+      {
+        "code": "Centrale Termice pe Gaz",
+        "description": "Centrale termice în condensație eficiente pentru renovări"
+      },
+      {
+        "code": "Pompe Caldura Apa Menajera",
+        "description": "Sistem eficient energetic pentru prepararea apei calde menajere"
+      },
+      {
+        "code": "Daikin Altherma HPC",
+        "description": "Convector cu pompa de caldura ce inlocuieste radiatoarele clasice"
+      },
+      {
+        "code": "Sisteme de Control Daikin",
+        "description": "Control local sau management multi-zonă pentru clădiri"
+      },
+      {
+        "code": "Ventilatie Daikin",
+        "description": "Sisteme de recuperare de căldură și unități mari de tratare aer"
+      },
+      {
+        "code": "Purificatoare de Aer Daikin",
+        "description": "Dispozitive pentru aer interior mai curat și mai sănătos"
+      },
+      {
+        "code": "Biddle Air Curtains",
+        "description": "Perdele de aer pentru reducerea pierderilor de caldura la usi"
+      },
+      {
+        "code": "Refrigerare Comerciala Daikin",
+        "description": "Soluții de răcire pentru lanțul alimentar, de la fermă la raft"
+      },
+      {
+        "code": "Refrigerare Transport Daikin Zanotti",
+        "description": "Răcire pentru dube, camioane și remorci frigorifice"
+      },
+      {
+        "code": "Pompe de Caldura Aer-Aer",
+        "description": "Sisteme ce folosesc energia aerului exterior pentru încălzire și răcire"
+      },
+      {
+        "code": "Daikin Altherma Temperatura Joasa",
+        "description": "Sistem aer-apa pentru încălzire, răcire și apă caldă menajera"
+      },
+      {
+        "code": "Daikin Altherma Temperatura Inalta",
+        "description": "Înlocuire directă pentru sisteme vechi de încălzire pe combustibil"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între Daikin VRV și Sky Air?",
+        "a": "VRV este o soluție de climatizare cu debit de agent frigorific variabil, potrivită pentru clădiri mari sau mici cu multe zone independente și cerințe de control fin. Sky Air este gândit pentru clădiri de dimensiuni mici și mijlocii, cu un număr mai redus de unități interioare pe sistem și o configurație mai simplă. Alegerea între cele două depinde de suprafața clădirii, de numărul de zone și de bugetul disponibil pentru instalație."
+      },
+      {
+        "q": "Ce este Daikin Altherma și pentru ce se folosește?",
+        "a": "Daikin Altherma este familia de pompe de căldură aer-apa a producătorului, folosită pentru încălzire, răcire și preparare de apă caldă menajera în locuințe și clădiri comerciale. Există variante de temperatură joasă, medie și înaltă, alese în funcție de tipul de emitenti din instalație, calorifere clasice sau încălzire în pardoseala. Varianta HPC este un convector ce se conectează direct la o instalație de încălzire în pardoseala existentă."
+      },
+      {
+        "q": "Livrați sisteme Daikin în România la comandă?",
+        "a": "Sistemele Daikin sunt aduse pe bază de comandă, conform gamelor publicate de producător, fără un inventar propriu păstrat în avans. Termenul obișnuit este 2-6 săptămâni la comandă, în funcție de model și de capacitatea solicitată. Pentru o estimare corectă vă recomandăm să ne trimiteti tipul clădirii, suprafața de climatizat și numărul de zone dorite."
+      },
+      {
+        "q": "Ce date trebuie să trimit pentru o ofertă pentru un sistem Daikin VRV?",
+        "a": "Este util să transmiteți suprafața totală și numărul de încăperi de climatizat, tipul clădirii, rezidențială sau comercială, și numărul aproximativ de unități interioare dorite. Ajută și informații despre orientarea clădirii, izolația termică și dacă există deja o instalație de climatizare de înlocuit. Cu aceste detalii putem propune o configurație Daikin VRV sau Sky Air potrivită necesităților dumneavoastră."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -263,8 +421,85 @@ Producem peste 200 de tipuri de scule electrice, toate testate în condiții ext
     infinitrade: `Pentru DeWalt lucrăm din surse publice ale producătorului, fără date proprii despre stocul intern al fiecărui model de sculă. Aducem sculele DeWalt (bormasini, polizoare, ferăstraie, seturi cu baterii) la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, termenele uzuale sunt 24-72 h pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau pentru accesorii mai puțin comune. Pentru o ofertă, trimite-ne codul exact al modelului (de exemplu DCD996 sau DCG414) și configurația dorită (baterii, valiză, accesorii) - revenim cu preț și termen confirmat.`,
     limitation: 'Nu putem confirma acoperirea service-ului în garanția producătorului pentru fiecare model DeWalt - livrăm scula conform comenzii, nu intervenția de service.',
     sources: [
+      {"title":"Power Tools","url":"https://www.dewalt.com/products/power-tools","publisher":"DeWalt","accessed":"2026-09-22"},
       { title: 'DEWALT® Official Site | GUARANTEED TOUGH® Since 1924', url: 'https://www.dewalt.com/', publisher: 'DEWALT (Stanley Black & Decker, Inc.)', accessed: '2026-09-22' },
       { title: 'DeWalt', url: 'https://en.wikipedia.org/wiki/DeWalt', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "DCS587X1",
+        "description": "Ferăstrău circular tip worm-drive, 60V, fără perii"
+      },
+      {
+        "code": "DCW230B",
+        "description": "Șlefuitor orbital 20V, disc 6 țoli"
+      },
+      {
+        "code": "DCW211B",
+        "description": "Șlefuitor orbital 20V, disc 5 țoli"
+      },
+      {
+        "code": "DCD801B",
+        "description": "Mașină de găurit-înșurubat 20V, fără perii"
+      },
+      {
+        "code": "DCS359B",
+        "description": "Unealtă multifuncțională oscilantă 20V"
+      },
+      {
+        "code": "DCPS966B",
+        "description": "Ciocan demolator cu acumulator, coadă hexagonală"
+      },
+      {
+        "code": "DCF622P2",
+        "description": "Șurubelniță cu cuplu ajustabil VERSA-CLUTCH"
+      },
+      {
+        "code": "DCS525ST",
+        "description": "Ferăstrău tip track-saw 20V, cu șină de ghidare"
+      },
+      {
+        "code": "DCF514B",
+        "description": "Clichet cu impact ATOMIC 20V, fără perii"
+      },
+      {
+        "code": "DCF520B",
+        "description": "Clichet cu impact 20V, cap sigilat, fără perii"
+      },
+      {
+        "code": "DCF891QQ1",
+        "description": "Cheie cu impact 20V, cuplu mediu, fără perii"
+      },
+      {
+        "code": "DCN910B",
+        "description": "Capsator pneumatic-electric 20V, colier din plastic"
+      },
+      {
+        "code": "DCN210E1",
+        "description": "Pistol de bătut cuie 20V, calibru 18"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce mașină de găurit DeWalt aleg pentru lucrări generale de atelier?",
+        "a": "DCD801B, cu motor fără perii pe platforma 20V MAX, este alegerea tipică pentru găurire și înșurubare generală, oferind autonomie bună și greutate redusă. Pentru găurire în beton sau materiale dure, un model cu percuție din aceeași platformă este mai potrivit."
+      },
+      {
+        "q": "Ce diferență este între ferăstraiele DeWalt DCS525ST și DCS587X1?",
+        "a": "DCS525ST este un ferăstrău tip track-saw, folosit pentru tăieri drepte de precizie cu ajutorul unei șine de ghidare, pe platforma 20V. DCS587X1 este un ferăstrău circular tip worm-drive pe platforma 60V, cu putere mai mare, potrivit pentru tăieri grele pe șantier."
+      },
+      {
+        "q": "Livrați scule DeWalt în România?",
+        "a": "Da, aducem la comandă scule DeWalt pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de configurația setului. Recomandăm confirmarea codului exact al modelului dorit înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de sculă electrică DeWalt?",
+        "a": "Este util să precizați platforma de acumulatori folosită (de exemplu 20V MAX sau 60V), dacă doriți doar unealta sau un kit complet cu acumulator și încărcător, și aplicația principală vizată. Aceste detalii permit alegerea corectă a modelului potrivit."
+      },
+      {
+        "q": "Ce este cheia cu impact DeWalt DCF891QQ1?",
+        "a": "Este o cheie cu impact pe platforma 20V MAX, cu motor fără perii și cuplu mediu, folosită pentru înșurubarea și deșurubarea rapidă a piulițelor și șuruburilor la lucrări mecanice sau de asamblare, fără efortul unei chei manuale cu cuplu ridicat."
+      }
     ],
     evidenceClass: 'history-only',
     lastVerified: '2026-09-22',
@@ -331,8 +566,70 @@ Aparatele noastre de respirat cu aer comprimat (SCBA) echipează pompierii din t
     infinitrade: `Nu deținem date proprii de stoc pentru gama Dräger și ne ghidăm după informațiile publice ale producătorului atunci când descriem detectoarele de gaz și aparatele de respirat. Aducem produsele Dräger la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau echipamente speciale. Pentru o ofertă, trimite-ne codul exact al produsului (de exemplu X-am 8000 sau Pac 8000), gazele de detectat și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu efectuăm noi calibrarea sau service-ul în garanția producătorului pentru aparatele de respirat sau detectoarele Dräger.',
     sources: [
+      {"title":"Industrial Gas Detectors – Draeger Safety","url":"https://www.draeger.com/en-us_us/Safety/Gas-Detectors","publisher":"Drägerwerk AG & Co. KGaA","accessed":"2026-09-22"},
+      {"title":"Gas Detection Products Overview","url":"https://www.draeger.com/en_corp/products/gas-detection","publisher":"Drägerwerk AG & Co. KGaA","accessed":"2026-09-22"},
       { title: 'Company Profile | Dräger', url: 'https://www.draeger.com/en_corp/company', publisher: 'Drägerwerk AG & Co. KGaA', accessed: '2026-09-22' },
       { title: 'Gas Detection | Dräger', url: 'https://www.draeger.com/en_corp/products/gas-detection', publisher: 'Drägerwerk AG & Co. KGaA', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "X-am 3500",
+        "description": "Detector portabil multi-gaz pentru intervenții de pompieri și salvare"
+      },
+      {
+        "code": "X-am 8000",
+        "description": "Detector portabil pentru până la șapte gaze plus oxigen"
+      },
+      {
+        "code": "Pac 6000",
+        "description": "Detector portabil monogaz din seria Pac pentru monitorizare personala"
+      },
+      {
+        "code": "Pac 6500",
+        "description": "Detector portabil monogaz, varianta din seria Pac"
+      },
+      {
+        "code": "Pac 8000",
+        "description": "Detector portabil monogaz cu senzor interschimbabil"
+      },
+      {
+        "code": "Pac 8500",
+        "description": "Detector portabil monogaz din seria Pac pentru aplicații industriale"
+      },
+      {
+        "code": "X-pid 9500",
+        "description": "Detector portabil PID pentru substante toxice selective"
+      },
+      {
+        "code": "Polytron 8100",
+        "description": "Transmitator fix de gaz pentru monitorizarea locurilor de productie"
+      },
+      {
+        "code": "Regard 3900",
+        "description": "Panou de control simplu pentru sisteme fixe de detectie gaz"
+      },
+      {
+        "code": "Regard 7000",
+        "description": "Sistem de control complet pentru detectie gaz, compatibil multi-vendor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între Drager Pac 6000 și Pac 8000?",
+        "a": "Ambele sunt detectoare portabile monogaz din seria Pac, gandite pentru monitorizarea personala a expunerii la un singur tip de gaz. Pac 8000 este pozitionat ca variantă mai avansata, cu senzor interschimbabil si optiuni suplimentare de configurare fata de Pac 6000, orientat spre utilizare simpla si robusta. Alegerea corecta depinde de gazul monitorizat, de mediul de lucru si de cerintele interne de mentenanta a senzorilor."
+      },
+      {
+        "q": "Ce este sistemul Drager Regard 7000?",
+        "a": "Regard 7000 este un sistem de control pentru detectia fixă de gaz, folosit pentru a centraliza semnalele de la mai mulți senzori și a reduce alarmele false în instalații industriale. Poate funcționa împreună cu detectoare Drager și, în anumite configurații, cu echipamente de la alți producători conectate în aceeași rețea. Este potrivit pentru facilități unde se monitorizează simultan mai multe puncte de risc de gaz."
+      },
+      {
+        "q": "Livrați detectoare de gaz Drager în România la comandă?",
+        "a": "Echipamentele Drager sunt procurate individual, după confirmarea specificațiilor din documentația oficială a producătorului, fără un stoc intern menținut constant. Termenul obișnuit este 2-6 săptămâni la comandă, în funcție de model și de disponibilitatea din rețeaua Drager. Pentru un răspuns rapid este util să menționați gazul de detectat și mediul de utilizare, industrial sau intervenție."
+      },
+      {
+        "q": "Ce trebuie să specific pentru o ofertă pentru un detector Drager?",
+        "a": "Indicați tipul de gaz sau gazele de detectat, mediul de utilizare, spațiu închis, industrial sau intervenție de urgență, și dacă este nevoie de un detector portabil sau de un sistem fix cu transmitator. Ajută și informații despre certificările necesare pentru zona de lucru și despre numărul de puncte de monitorizare dorite. Cu aceste detalii identificăm modelul Drager potrivit din gama X-am, Pac sau Polytron."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -399,8 +696,75 @@ Manometrele noastre sunt peste tot: de la măsurare presiune în conducte de ap�
     infinitrade: `Spunem deschis ce putem și ce nu putem confirma despre disponibilitatea reală a fiecărui produs Dwyer înainte de a promite un termen. Aducem instrumentele Dwyer (manometre, transmițătoare, debitmetre, presostate) la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau modele speciale. Pentru o ofertă, trimite-ne seria exactă a produsului (de exemplu Magnehelic 2000 sau seria 628), gama de măsurare necesară și conexiunea de proces - revenim cu preț și termen confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru sub-gama de instrumente digitale Dwyer, doar termenul de aducere la comandă.',
     sources: [
+      {"title":"Pressure Category – DwyerOmega","url":"https://www.dwyeromega.com/en-us/pressure/c/pressure","publisher":"Dwyer Instruments (DwyerOmega)","accessed":"2026-09-22"},
+      {"title":"Gauges & Manometers Category – DwyerOmega","url":"https://www.dwyeromega.com/en-us/pressure/c/gauges-manometers","publisher":"Dwyer Instruments (DwyerOmega)","accessed":"2026-09-22"},
+      {"title":"Pressure Switches Category – DwyerOmega","url":"https://www.dwyeromega.com/en-us/pressure/c/pressure-switches","publisher":"Dwyer Instruments (DwyerOmega)","accessed":"2026-09-22"},
       { title: 'About Us', url: 'https://www.dwyeromega.com/en-us/about-us', publisher: 'Dwyer Instruments, LLC d/b/a DwyerOmega', accessed: '2026-09-22' },
       { title: 'Contact Us', url: 'https://www.dwyeromega.com/en-us/contact-us', publisher: 'Dwyer Instruments, LLC d/b/a DwyerOmega', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Room Pressure Monitors",
+        "description": "Monitoare de presiune statică pentru camere și spații controlate"
+      },
+      {
+        "code": "Pressure Switches",
+        "description": "Dispozitive de comutare la atingerea unui prag de presiune"
+      },
+      {
+        "code": "Differential Pressure Switches",
+        "description": "Presostate diferentiale ce actioneaza la un punct de referinta stabilit"
+      },
+      {
+        "code": "Controllers & Regulators",
+        "description": "Produse ce regleaza presiunea sau convertesc semnale de control"
+      },
+      {
+        "code": "Sensors & Transmitters",
+        "description": "Traductoare de presiune diferențială pentru măsurare de proces"
+      },
+      {
+        "code": "Gauges & Manometers",
+        "description": "Manometre și aparate digitale pentru măsurarea presiunii"
+      },
+      {
+        "code": "Pressure Gauges",
+        "description": "Indicatoare vizuale de presiune pentru game diverse de măsurare"
+      },
+      {
+        "code": "Differential Pressure Gauges",
+        "description": "Manometre pentru masurarea presiunii diferentiale de joasa valoare"
+      },
+      {
+        "code": "Digital Pressure Gauges",
+        "description": "Indicatoare electronice de presiune cu afisaj digital"
+      },
+      {
+        "code": "Differential Pressure Digital Gauges",
+        "description": "Manometre digitale ce combina masurarea diferentiala cu afisaj electronic"
+      },
+      {
+        "code": "Pressure Accessories",
+        "description": "Tuburi, fitinguri, robineti și accesorii de montaj pentru presiune"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între un manometru Dwyer și un presostat diferențial Dwyer?",
+        "a": "Manometrul Dwyer oferă o citire continuă a valorii presiunii, utilă pentru monitorizare vizuala directă pe un cadran sau un afișaj digital. Presostatul diferențial nu afișează neaparat o valoare, ci actioneaza un contact electric atunci când diferență de presiune dintre două puncte depaseste sau scade sub un prag stabilit. Alegerea depinde dacă aveți nevoie doar de citire sau și de o acțiune automată declansata de sistem."
+      },
+      {
+        "q": "Ce gama de produse Dwyer acopera monitorizarea presiunii camerei?",
+        "a": "Gama Room Pressure Monitors acoperă instrumente pentru presiunea statică din camere și spații controlate, folosite frecvent în laboratoare, farmaceutic și spații curate unde diferența de presiune față de zonele adiacente trebuie menținută constantă. Aceste monitoare pot fi combinate cu alarme și ieșiri pentru sisteme de management al clădirii. Selectarea modelului potrivit depinde de precizia cerută și de intervalul de presiune monitorizat."
+      },
+      {
+        "q": "Livrați instrumente Dwyer în România la comandă?",
+        "a": "Instrumentele Dwyer sunt comandate punctual pentru fiecare proiect, folosind informațiile publicate de producător, fără un stoc propriu păstrat în depozit. Termenul obișnuit este 2-6 săptămâni la comandă, în funcție de model și de cantitate. Pentru o ofertă rapidă recomandăm să menționați tipul de măsurare, domeniul de presiune și tipul de ieșire electrică dorit."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă pentru un traductor de presiune Dwyer?",
+        "a": "Aveți nevoie să precizați domeniul de presiune de măsurat, tipul de mediu, aer, gaz sau lichid, și tipul de semnal de ieșire dorit, de exemplu 4-20 mA sau 0-10 V. Este util să menționați și tipul de racord de proces și mediul de instalare, interior sau exterior, expus la condiții dure. Cu aceste detalii identificăm varianta Dwyer potrivită din gama de senzori și transmitatoare."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -467,8 +831,86 @@ Producem în 30 de fabrici din Europa, America și Asia, cu controale calitate s
     infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe surse publice ale producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimite-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare software sau punere în funcțiune pentru drive-urile și UPS-urile Eaton - acestea rămân la instalator sau la producător.',
     sources: [
+      {"title":"Electrical Circuit Protection – Product Overview","url":"https://www.eaton.com/us/en-us/products/electrical-circuit-protection.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
+      {"title":"Circuit Breakers – Eaton Electrical","url":"https://www.eaton.com/us/en-us/products/electrical-circuit-protection/circuit-breakers.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
       { title: 'About us | Power management company | Eaton', url: 'https://www.eaton.com/us/en-us/company/about-us.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' },
       { title: 'Electrical, Industrial, Aerospace Products | Eaton', url: 'https://www.eaton.com/us/en-us/products.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "BR Two-Pole GFCI",
+        "description": "Intrerupator rezidential cu protectie diferentiala pentru 240V"
+      },
+      {
+        "code": "Magnum PXR",
+        "description": "Intrerupator de capacitate mare cu unitate de declansare avansata"
+      },
+      {
+        "code": "Power Defense",
+        "description": "Gama de intrerupatoare de tip carcasa turnata pentru protectie generala"
+      },
+      {
+        "code": "Molded Case Circuit Breakers (MCCB)",
+        "description": "Întrerupătoare de tip carcasă turnată pentru distribuție electrică"
+      },
+      {
+        "code": "Residential Circuit Breakers",
+        "description": "Întrerupătoare pentru instalații electrice rezidențiale"
+      },
+      {
+        "code": "Classified Circuit Breakers",
+        "description": "Întrerupătoare compatibile pentru înlocuire în tablouri existente"
+      },
+      {
+        "code": "Low Voltage Air Circuit Breakers",
+        "description": "Întrerupătoare de joasă tensiune cu stingere în aer"
+      },
+      {
+        "code": "Medium-Voltage Vacuum Breakers",
+        "description": "Intrerupatoare cu vid pentru retele de medie tensiune"
+      },
+      {
+        "code": "Fuses and Fuse Holders",
+        "description": "Siguranțe fuzibile și suporturi pentru protecția circuitelor"
+      },
+      {
+        "code": "Hydraulic-Magnetic Breaker (HMCB)",
+        "description": "Intrerupator cu tehnologie hidraulic-magnetica pentru protectie dedicata"
+      },
+      {
+        "code": "Protective Relays & Predictive Devices",
+        "description": "Relee ce detectează condiții nesigure și declanșează întreruperea"
+      },
+      {
+        "code": "Surge Protection AEGIS DIN Rail",
+        "description": "Protectie la supratensiune montata pe sina DIN"
+      },
+      {
+        "code": "Switches and Disconnects",
+        "description": "Dispozitive de comutare pentru izolarea și controlul circuitelor"
+      },
+      {
+        "code": "Vacuum Interrupters",
+        "description": "Componente de întrerupere cu vid pentru aplicații de comutație"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între întrerupătoarele Eaton Power Defense și Magnum PXR?",
+        "a": "Power Defense este o gamă de întrerupătoare de tip carcasă turnată, gândită pentru protecție generală în instalații comerciale și industriale de capacitate medie. Magnum PXR este poziționat pentru capacități mai mari, cu o unitate de declanșare avansată ce oferă opțiuni suplimentare de setare și monitorizare a parametrilor de rețea. Alegerea depinde de curentul nominal necesar și de nivelul de monitorizare dorit pentru tabloul electric Eaton."
+      },
+      {
+        "q": "Ce este un intrerupator Eaton HMCB?",
+        "a": "HMCB este un întrerupător cu tehnologie hidraulic-magnetică, o alternativă la soluțiile termic-magnetice clasice, folosită frecvent pentru protecția unor circuite speciale unde precizia declanșării la un curent stabilit este importantă. Această tehnologie oferă o comportare mai stabilă la variații de temperatură ambientală față de unele soluții termice. Este utilizată în echipamente unde producătorul cere acest tip specific de protecție."
+      },
+      {
+        "q": "Livrați echipamente electrice Eaton în România la comandă?",
+        "a": "Componentele Eaton sunt aduse pe bază de comandă fermă, plecând de la cataloagele oficiale ale producătorului, fără un depozit propriu constituit dinainte. Termenul obișnuit este 2-6 săptămâni la comandă, în funcție de familie de produs și de cantitate. Pentru o ofertă rapidă recomandăm să transmiteți curentul nominal, tensiunea de lucru și tipul de tablou în care se montează echipamentul."
+      },
+      {
+        "q": "Ce date trebuie să trimit pentru o ofertă pentru un întrerupător Eaton?",
+        "a": "Este necesar să precizați curentul nominal, tensiunea nominală a rețelei și numărul de poli al întrerupătorului, precum și tipul de instalație, rezidențială, comercială sau industrială. Ajută și informații despre spațiul disponibil în tabloul electric și despre eventuale cerințe de monitorizare sau comunicare digitală. Cu aceste detalii identificăm familia Eaton potrivită, de exemplu Power Defense sau Magnum PXR."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -535,8 +977,95 @@ Avem peste 60 de ani de experiență în filtrare industrială: de la vopsele ș
     infinitrade: `Pentru divizia Eaton Filtration lucrăm din surse publice ale producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimite-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru sacii și cartușele consumabile din gama Eaton Filtration, doar termenul de aducere la comandă.',
     sources: [
+      {"title":"Filtration Products Catalog – Eaton","url":"https://www.eaton.com/us/en-us/catalog/filtration.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
+      {"title":"Filter Bags – Eaton Filtration Media","url":"https://www.eaton.com/us/en-us/products/filtration-solutions/filter-media/filter-bags.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
+      {"title":"Filtration Solutions Overview – Eaton","url":"https://www.eaton.com/us/en-us/products/filtration-solutions.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
       { title: 'Filter media for efficient and reliable filtration | Eaton', url: 'https://www.eaton.com/us/en-us/catalog/filtration.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' },
       { title: 'About us | Power management company | Eaton', url: 'https://www.eaton.com/us/en-us/company/about-us.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Capsules",
+        "description": "Capsule de filtrare pentru volume mici și aplicații de laborator"
+      },
+      {
+        "code": "Filter Bags",
+        "description": "Saci filtranti pentru filtrare lichidă în linie industrială"
+      },
+      {
+        "code": "Filter Cartridges",
+        "description": "Cartuse filtrante pentru pre-filtrare și filtrare cu membrană"
+      },
+      {
+        "code": "Filter Sheets",
+        "description": "Foi filtrante pentru clarificarea lichidelor de proces"
+      },
+      {
+        "code": "Hydraulic and Lubrication Elements",
+        "description": "Elemente filtrante pentru uleiuri hidraulice și de ungere"
+      },
+      {
+        "code": "Stacked Disc Cartridges",
+        "description": "Cartuse din discuri suprapuse pentru filtrare de proces"
+      },
+      {
+        "code": "Standard Needlefelt & Mesh Bags",
+        "description": "Saci filtranti cu etansare de inalta performanta, sudati sau cusuti"
+      },
+      {
+        "code": "Extended Life Needlefelt Filter Bags",
+        "description": "Saci filtranti cu capacitate de retinere marita fata de gama standard"
+      },
+      {
+        "code": "Food Grade Filter Bags",
+        "description": "Saci filtranti conformi pentru industria alimentară și farmaceutică"
+      },
+      {
+        "code": "High Efficiency Filter Bags",
+        "description": "Saci filtranti pentru retinerea particulelor fine din lichide"
+      },
+      {
+        "code": "Polypropylene Filter Bags",
+        "description": "Saci filtranti din polipropilena pentru aplicații chimice uzuale"
+      },
+      {
+        "code": "PET Filter Bags",
+        "description": "Saci filtranti din poliester pentru rezistenta chimica sporita"
+      },
+      {
+        "code": "Nylon Filter Bags",
+        "description": "Saci filtranti din nailon pentru filtrare generala de proces"
+      },
+      {
+        "code": "PTFE Filter Bags",
+        "description": "Saci filtranti din PTFE pentru medii chimice agresive"
+      },
+      {
+        "code": "PEEK Filter Bags",
+        "description": "Saci filtranti din PEEK pentru temperaturi de proces ridicate"
+      },
+      {
+        "code": "Meta-Aramid Filter Bags",
+        "description": "Saci filtranti rezistenți la temperaturi înalte în gaze fierbinți"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între sacii filtranti Eaton din polipropilena și cei din PTFE?",
+        "a": "Sacii din polipropilena sunt o soluție economică pentru filtrarea generală de proces și rezistă bine la o gamă largă de medii chimice uzuale întâlnite în industrie. Sacii din PTFE sunt destinați mediilor chimice agresive și temperaturilor mai ridicate, unde polipropilena s-ar degrada în timp. Alegerea corectă depinde de compatibilitatea chimică a lichidului filtrat și de temperatura de lucru din instalația dumneavoastră."
+      },
+      {
+        "q": "Ce sunt sacii filtranti Eaton Extended Life Needlefelt?",
+        "a": "Sunt saci filtranti cu o capacitate de reținere a impurităților mărită față de sacii standard din pâslă, ceea ce le prelungește durata de utilizare în aceleași condiții de proces. Sunt recomandați pentru aplicații din tratarea apei, industria chimică și petrochimică, unde schimbarea frecventă a sacilor filtranti ar crește timpul de oprire a instalației. Alegerea gradului de filtrare se face în funcție de dimensiunea particulelor de reținut."
+      },
+      {
+        "q": "Livrați elemente filtrante Eaton în România la comandă?",
+        "a": "Elementele filtrante Eaton sunt procurate la cerere, conform fișelor publicate de producător, fără stoc de rezervă menținut în depozit propriu. Termenul obișnuit este 2-6 săptămâni la comandă, în funcție de tip și de cantitatea solicitată. Pentru o ofertă rapidă este util să transmiteți materialul, dimensiunea și gradul de filtrare al elementului folosit în prezent."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă pentru un cartus filtrant Eaton?",
+        "a": "Indicați tipul de lichid filtrat, gradul de filtrare necesar în microni, dimensiunile carcasei existente și materialul cerut de compatibilitatea chimică a procesului. Ajută și informații despre debitul de proces și despre frecvența actuală de schimbare a elementelor filtrante folosite. Cu aceste detalii identificăm varianta Eaton potrivită, de exemplu din gama de cartuse sau de saci filtranti."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -603,8 +1132,86 @@ Sistemul nostru de valve electrohidraulice permite control milimetric al poziți
     infinitrade: `Nu putem confirma stocul exact pentru fiecare componentă Eaton Hydraulics și lucrăm din informațiile publice ale producătorului atunci când descriem pompele Vickers, motoarele Char-Lynn, valvele și cilindrii din gamă. Aducem componentele hidraulice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru pompe mari sau configurații speciale de valve. Pentru o ofertă, trimite-ne parametrii circuitului hidraulic (debit, presiune, cursă) sau codul exact al piesei - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu efectuăm noi reparații sau recondiționare a pompelor și motoarelor hidraulice Eaton - service-ul rămâne în sarcina producătorului sau a unui atelier specializat.',
     sources: [
+      {"title":"Vickers Filtration Master Catalogue","url":"https://www.eaton.com/content/dam/eaton/products/filtration-solutions/filter-systems-and-strainers/filters-and-strainers/hydraulic-lubrication-filters/vickers/Eaton-Vickers-Brochure-US-LowRes.pdf","publisher":"Eaton","accessed":"2026-09-22"},
+      {"title":"Products | Eaton","url":"https://www.eaton.com/us/en-us/products.html","publisher":"Eaton","accessed":"2026-09-22"},
       { title: 'About us | Power management company | Eaton', url: 'https://www.eaton.com/us/en-us/company/about-us.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' },
       { title: 'Electrical, Industrial, Aerospace Products | Eaton', url: 'https://www.eaton.com/us/en-us/products.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "BR110",
+        "description": "Breather cu filtrare umiditate și particule din aer"
+      },
+      {
+        "code": "BR210",
+        "description": "Breather Dirt-gate pentru retinerea particulelor din aerul admis"
+      },
+      {
+        "code": "MBR110",
+        "description": "Breather mobil cu filtrare umiditate pentru utilaje mobile"
+      },
+      {
+        "code": "MBR120",
+        "description": "Varianta Mobile-gate pentru filtrarea aerului de admisie mobil"
+      },
+      {
+        "code": "HV3R",
+        "description": "Filtru de retur cu debit maxim 280 l/min"
+      },
+      {
+        "code": "HF4RT",
+        "description": "Filtru montat în rezervor cu debit maxim 568 l/min"
+      },
+      {
+        "code": "OF3",
+        "description": "Sorb de aspiratie cu sita inox de 149 microni"
+      },
+      {
+        "code": "OFRS 15",
+        "description": "Filtru spin-on cu debit maxim 60 l/min"
+      },
+      {
+        "code": "HS22",
+        "description": "Filtru spin-on dublu cu debit maxim 450 l/min"
+      },
+      {
+        "code": "ECF",
+        "description": "Filtru de presiune compact pentru 207 bar"
+      },
+      {
+        "code": "HF2P",
+        "description": "Filtru de presiune din familia Vickers de înaltă presiune"
+      },
+      {
+        "code": "MF2P",
+        "description": "Varianta compacta a filtrului de presiune seria HF"
+      },
+      {
+        "code": "HF4P",
+        "description": "Filtru de presiune cu capacitate extinsă până la 570 l/min"
+      },
+      {
+        "code": "HF3P",
+        "description": "Filtru de presiune intermediar din gama Vickers Eaton"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce serii de filtre hidraulice Eaton Vickers sunt disponibile?",
+        "a": "Gama Vickers de la Eaton acoperă filtre de retur precum HV3R, filtre montate pe rezervor precum HF4RT, filtre spin-on OFRS 15 și HS22, filtre de presiune din familia HF2P, HF3P și HF4P, plus sorburi de aspirație OF3 și breathere BR110 și MBR110. Codurile provin din catalogul Vickers Filtration publicat de producător."
+      },
+      {
+        "q": "Cum aleg între un breather BR110 și unul MBR110 de la Eaton?",
+        "a": "Diferența ține de aplicație: BR110 este gândit pentru rezervoare hidraulice stationare și reține umiditatea și particulele din aerul admis, în timp ce MBR110 este varianta Mobile-gate, adaptată vibrațiilor și condițiilor întâlnite pe utilaje mobile. Ambele coduri apar în catalogul Vickers Filtration publicat de Eaton, alături de variantele BR210 și MBR120."
+      },
+      {
+        "q": "Ce presiune suporta filtrele de presiune Eaton seria HF?",
+        "a": "Filtrele de presiune din familia HF, respectiv HF2P, HF3P și HF4P, suportă în general între 275 și 420 bar, în funcție de model și de elementul filtrant ales, conform broșurii Vickers Filtration. Alegerea corectă depinde de debitul instalației dumneavoastră și de nivelul de contaminare țintă pentru fluidul hidraulic."
+      },
+      {
+        "q": "Livrați filtre Eaton Vickers în România?",
+        "a": "Da, aducem la comandă coduri Eaton Vickers pe baza informațiilor publice din catalogul Vickers Filtration al producătorului, fără a ține stoc propriu permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de disponibilitatea codului exact și de confirmarea specificațiilor tehnice cerute de aplicația dumneavoastră hidraulică."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -671,8 +1278,95 @@ Sistemul DeltaV DCS e vârful de lance în control de proces: redundanță compl
     infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim informațiile publice disponibile de la producător atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, trimite-ne datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare sau programare software pentru sistemele DeltaV sau valvele Fisher - acestea rămân în sarcina integratorului sau a producătorului.',
     sources: [
+      {"title":"Fisher easy-e ED Control Valve","url":"https://www.emerson.com/en/final-control/products/fisher-ed","publisher":"Emerson","accessed":"2026-09-22"},
+      {"title":"Rosemount 3051 Pressure Transmitter Family","url":"https://www.emerson.com/en/measurement-instrumentation/products/rosemount-3051-pressure-transmitter-family","publisher":"Emerson","accessed":"2026-09-22"},
+      {"title":"Rosemount 8700M Magnetic Flow Meter Platform","url":"https://www.emerson.com/documents/automation/product-data-sheet-rosemount-8700m-magnetic-flow-meter-platform-en-176006.pdf","publisher":"Emerson","accessed":"2026-09-22"},
       { title: 'About Us', url: 'https://www.emerson.com/en-us/about-us', publisher: 'Emerson Electric Co.', accessed: '2026-09-22' },
       { title: 'Corporate', url: 'https://www.emerson.com/en-us', publisher: 'Emerson Electric Co.', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Rosemount 3051 Coplanar",
+        "description": "Transmitor de presiune cu montaj Coplanar direct pe proces"
+      },
+      {
+        "code": "Rosemount 3051 In-Line",
+        "description": "Transmitor de presiune optimizat pentru montaj direct pe conductă"
+      },
+      {
+        "code": "Rosemount 3051 Level",
+        "description": "Configuratie a transmitorului 3051 pentru masurarea nivelului"
+      },
+      {
+        "code": "Rosemount 3051 Annubar",
+        "description": "Varianta 3051 pentru masurarea debitului cu element Annubar"
+      },
+      {
+        "code": "Rosemount 3051 Compact Orifice",
+        "description": "Element primar de debit integrat cu transmitorul 3051"
+      },
+      {
+        "code": "Rosemount 3051 Integral Orifice",
+        "description": "Varianta cu orificiu integral pentru masurarea debitului"
+      },
+      {
+        "code": "Rosemount 3051 Hygienic",
+        "description": "Transmitor 3051 adaptat aplicatiilor din industria alimentara"
+      },
+      {
+        "code": "Rosemount 2051",
+        "description": "Transmitor de presiune alternativ, cu stabilitate declarata pe termen lung"
+      },
+      {
+        "code": "Rosemount 8700 Series",
+        "description": "Sistem de debitmetrie magnetica pentru lichide conductive"
+      },
+      {
+        "code": "Rosemount 8700M",
+        "description": "Platforma de debitmetru magnetic modular Rosemount"
+      },
+      {
+        "code": "Rosemount 8705",
+        "description": "Senzor de debitmetru magnetic cu flanse"
+      },
+      {
+        "code": "Fisher easy-e ED",
+        "description": "Valva de control cu corp glob din seria easy-e"
+      },
+      {
+        "code": "Fisher easy-e EAD",
+        "description": "Varianta easy-e cu acționare pentru aplicații specifice de control"
+      },
+      {
+        "code": "Fisher easy-e ET",
+        "description": "Valvă de control easy-e pentru aplicații de proces"
+      },
+      {
+        "code": "Fisher easy-e EWD-1",
+        "description": "Valva de control easy-e cu design compact"
+      },
+      {
+        "code": "Fisher EW Series (EWD/EWS/EWT)",
+        "description": "Valve de control cu tijă culisantă până la NPS 12x8"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce transmitoare de presiune Rosemount oferă Emerson pentru montaj direct pe conductă?",
+        "a": "Pentru montaj direct pe proces, familia Rosemount 3051 include variantele In-Line și Coplanar, alături de configurații dedicate pentru nivel, debit prin element Annubar sau orificiu integral, și o versiune Hygienic pentru industria alimentară. Rosemount 2051 este opțiunea alternativă, cu stabilitate declarată pe termen mai lung, conform paginilor oficiale Emerson."
+      },
+      {
+        "q": "Care este diferența dintre valvele Fisher easy-e ED și EWD?",
+        "a": "Seria easy-e ED este o valvă de control cu corp glob pentru aplicații generale de proces, în timp ce familia EW (EWD, EWS, EWT) folosește tijă culisantă și acoperă dimensiuni extinse, până la NPS 12x8, conform bulletinului tehnic al producătorului. Alegerea între ele depinde de presiunea de lucru și de tipul de acționare necesar."
+      },
+      {
+        "q": "Ce este platforma Rosemount 8700M de la Emerson?",
+        "a": "Rosemount 8700M este platforma de debitmetrie magnetică a Emerson, folosită pentru măsurarea debitului lichidelor conductive electric în industrie, cu senzori precum seria 8705 cu flanse. Aducem codurile de pe aceasta platformă la comandă, pe baza fișelor tehnice publice ale producătorului, fără date proprii de stoc pentru fiecare model."
+      },
+      {
+        "q": "Livrați echipamente Emerson Rosemount și Fisher în România?",
+        "a": "Da, codurile Emerson menționate se aduc la comandă, în bază specificațiilor publice din documentația producătorului, fără gama pe raft deținut în depozit. Termenul uzual este de 2-6 săptămâni la comandă, în funcție de model, de configurația cerută și de confirmarea disponibilitatii transmitorului sau valvei alese pentru aplicația dumneavoastră industrială."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',

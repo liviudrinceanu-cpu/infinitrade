@@ -59,8 +59,90 @@ Clienții noștri din automotive, packaging, semiconductor și logistică aleg B
     infinitrade: `Pentru automatizarea Beckhoff (PLC, EtherCAT, servo AM8000) lucrăm din surse publice ale producătorului și nu avem un centru propriu de stoc pentru fiecare cod din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană: ca regulă generală a firmei putem asigura 24-72 h din stoc pentru poziții frecvente, restul gamei intrând pe fluxul obișnuit de 2-6 săptămâni la comandă. Pentru un răspuns corect avem nevoie de codul exact al modulului sau drive-ului, cantitatea și aplicația vizată. Fără aceste detalii nu putem confirma un termen ferm de livrare.`,
     limitation: 'Nu putem confirma service în perioada de garanție a producătorului și nici configurare software TwinCAT la distanță fără un contract tehnic separat.',
     sources: [
+      {"title":"EtherCAT Terminals","url":"https://www.beckhoff.com/en-en/products/i-o/ethercat-terminals/","publisher":"Beckhoff Automation GmbH","accessed":"2026-09-22"},
+      {"title":"Products","url":"https://www.beckhoff.com/en-en/products/","publisher":"Beckhoff Automation GmbH","accessed":"2026-09-22"},
       { title: 'Company | Beckhoff Worldwide', url: 'https://www.beckhoff.com/en-en/company/', publisher: 'Beckhoff Automation', accessed: '2026-09-22' },
       { title: 'Beckhoff Worldwide', url: 'https://www.beckhoff.com/en-en/', publisher: 'Beckhoff Automation', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "EK/EC1xxx",
+        "description": "Cuplaje pentru legătura între fieldbus și terminale EtherCAT"
+      },
+      {
+        "code": "BK1xx0",
+        "description": "Cuplaj bus pentru conectarea terminalelor la retea fieldbus"
+      },
+      {
+        "code": "EL/ED1xxx",
+        "description": "Terminale de intrare digitala pentru semnale binare"
+      },
+      {
+        "code": "EL/ED2xxx",
+        "description": "Terminale de iesire digitala pentru semnale binare"
+      },
+      {
+        "code": "EL/ED3xxx",
+        "description": "Terminale de intrare analogică pentru tensiune, curent și temperatură"
+      },
+      {
+        "code": "EL/ED4xxx",
+        "description": "Terminale de ieșire analogică în standard 0-10V sau 4-20mA"
+      },
+      {
+        "code": "EL/ED5xxx",
+        "description": "Terminale pentru encodere absolute și incrementale"
+      },
+      {
+        "code": "EL/ED6xxx",
+        "description": "Terminale gateway între diferite sisteme de comunicație"
+      },
+      {
+        "code": "EL/ED/ELM7xxx",
+        "description": "Terminale pentru conectarea directă a motoarelor și drive-urilor"
+      },
+      {
+        "code": "EL/ED9xxx",
+        "description": "Terminale de alimentare, siguranță și filtrare pentru sistem"
+      },
+      {
+        "code": "ELMxxxx",
+        "description": "Terminale pentru achizitie de date de inalta performanta"
+      },
+      {
+        "code": "ELXxxxx",
+        "description": "Terminale cu conexiuni intrinsec sigure pentru zone explozive"
+      },
+      {
+        "code": "ELx9xx",
+        "description": "Terminale de siguranta cu tehnologie TwinSAFE integrata"
+      },
+      {
+        "code": "CX5000",
+        "description": "Seria de PC-uri industriale embedded pentru automatizare"
+      },
+      {
+        "code": "AM8000",
+        "description": "Seria de servomotoare pentru aplicații de mișcare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg terminalele EtherCAT Beckhoff potrivite pentru un proiect nou?",
+        "a": "Alegerea pornește de la tipul de semnal: intrare-ieșire digitală folosește seriile EL1xxx/EL2xxx, semnalele analogice de tensiune, curent sau temperatură folosesc EL3xxx/EL4xxx, iar encoderele se conectează prin EL5xxx. Pentru zone cu risc de explozie există seria ELXxxxx, iar aplicațiile de siguranță funcțională folosesc terminale ELx9xx cu tehnologie TwinSAFE integrată în sistem."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă pentru module Beckhoff de automatizare?",
+        "a": "Numărul exact al terminalului sau al modulului cerut (de exemplu EL1008 sau CX5020), numărul de canale necesare, tipul de semnal și protocolul de rețea din instalație sunt suficiente pentru o ofertă. La servomotoare și drive-uri, mai spuneti-ne cuplul necesar și tipul de feedback, pentru o potrivire corectă cu automatul existent."
+      },
+      {
+        "q": "Livrați componente Beckhoff în România?",
+        "a": "Terminalele și automatele Beckhoff ajung la client exclusiv la comandă, plecând de la documentația tehnică publică a producătorului german, fără un stoc intern pe care să îl ținem evidență. Perioada tipică până la livrare este de 2-6 săptămâni la comandă, în funcție de tipul de modul, cantitate și programul curent de fabricație."
+      },
+      {
+        "q": "Ce diferență este între un cuplaj EK1xxx și un controller CX Beckhoff?",
+        "a": "Cuplajul din seria EK1xxx conectează un rack de terminale EtherCAT la un automat programabil extern, fără logică proprie de control. Controllerul CX din seria CX5000 este un PC industrial complet, care rulează direct TwinCAT și poate controla singur terminalele conectate, fiind ales atunci când aplicația are nevoie de procesare locală fără un PLC separat."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -128,8 +210,74 @@ Clienții din oil&gas, chimie, marine și metalurgie aleg Boll & Kirch pentru fi
     infinitrade: `La filtrele Boll & Kirch ne ghidăm după informațiile publice disponibile de la producător, nu după evidențe interne de stoc pe fiecare model. Elementele filtrante și sistemele automate ajung la comandă prin canale de aprovizionare din Uniunea Europeană, de regulă în 2-6 săptămâni; câteva repere circulă mai des și pot ajunge în 24-72 h din stoc. Pentru o ofertă corectă spuneți-ne tipul de filtrare dorit (backwash, duplex, inline), diametrul nominal și presiunea de lucru. Pe modele mai vechi sau scoase din producție, confirmarea poate dura suplimentar.`,
     limitation: 'Nu putem confirma disponibilitatea imediată a fiecărui model de element filtrant și nici service în garanția producătorului fără validare directă cu Boll & Kirch.',
     sources: [
+      {"title":"BOLLFILTER","url":"https://www.bollfilter.com","publisher":"Boll & Kirch Filterbau GmbH","accessed":"2026-09-22"},
+      {"title":"BOLLFILTER Automatic Type 6.18","url":"https://www.bollfilter.com/filters/detail/bollfilter-automatic-type-618-welded-backwashing-filter-self-cleaning-strainer-for-water","publisher":"Boll & Kirch Filterbau GmbH","accessed":"2026-09-22"},
       { title: 'History | BOLLFILTER', url: 'https://www.bollfilter.com/company/about-us/history', publisher: 'Boll & Kirch Filterbau GmbH', accessed: '2026-09-22' },
       { title: 'Industrial Filter Manufacturer | Bollfilter', url: 'https://www.bollfilter.com', publisher: 'Boll & Kirch Filterbau GmbH', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Type 6.18",
+        "description": "Filtru automat autocuratator cu spalare inversa pentru apa"
+      },
+      {
+        "code": "Type 6.18.2",
+        "description": "Filtru automat pentru funcționare grea, oțel sudat"
+      },
+      {
+        "code": "Type 6.18.3C",
+        "description": "Filtru automat cu control electronic pentru spalare"
+      },
+      {
+        "code": "Automatic Backwash Filter",
+        "description": "Filtru automat cu curatare proprie pentru linii continue"
+      },
+      {
+        "code": "Duplex Filter",
+        "description": "Filtru dublu cu doua linii pentru functionare neintrerupta"
+      },
+      {
+        "code": "Simplex Filter",
+        "description": "Filtru simplu, compact, pentru linii cu o singura ramura"
+      },
+      {
+        "code": "FineFilter Tubular Plants",
+        "description": "Statie de filtrare fina cu membrane tubulare"
+      },
+      {
+        "code": "FineFilter Flatsheet Plants",
+        "description": "Statie de filtrare fina cu membrane plane"
+      },
+      {
+        "code": "Reverse Osmosis",
+        "description": "Unitate de filtrare fină pentru desalinizare și purificare apă"
+      },
+      {
+        "code": "Plate Membranes",
+        "description": "Membrane plane pentru filtrare fină în stații industriale"
+      },
+      {
+        "code": "Tubular Membranes",
+        "description": "Membrane tubulare pentru filtrare fina de proces"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce filtre Bollfilter sunt potrivite pentru linii de apă de răcire?",
+        "a": "Pentru apă de răcire și linii continue, seria Automatic Type 6.18 oferă spălare inversă automată, fără oprirea fluxului, iar variantele Duplex permit comutarea între două linii pentru mențenanta fără întrerupere. Alegerea între modelele automate și cele simplex sau duplex depinde de debitul instalației, gradul de filtrare cerut și dacă procesul admite opriri scurte pentru curățare manuală."
+      },
+      {
+        "q": "Ce date trimit pentru o oferta pentru un filtru Bollfilter de inlocuire?",
+        "a": "Tipul și dimensiunea de pe plăcuța filtrului existent, debitul nominal al liniei, presiunea de lucru și gradul de filtrare în microni formeaza bază unei oferte corecte. Pentru statiile FineFilter cu membrane, spuneti-ne și tipul de fluid și temperatură de proces, că să alegem între membrană tubulară și cea plana."
+      },
+      {
+        "q": "Livrați filtre Boll & Kirch în România?",
+        "a": "Filtrele Boll & Kirch sunt aduse în România exclusiv pe bază de comandă fermă, după consultarea fișelor tehnice pe care producătorul german le publică pentru fiecare tip. Estimarea uzuală pentru primirea unui filtru automat sau a unei stații FineFilter este de 2-6 săptămâni la comandă, în funcție de material și de dimensiune."
+      },
+      {
+        "q": "Ce diferență este între un filtru Bollfilter simplex și unul duplex?",
+        "a": "Filtrul simplex are o singură carcasă și o singură linie de filtrare, ceea ce înseamnă oprirea fluxului la curățare sau schimbarea elementului filtrant. Filtrul duplex are două carcase montate în paralel, astfel încât operatorul comută manual pe a doua linie în timp ce curață sau înlocuiește elementul din prima, menținând procesul în funcțiune fără întrerupere."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -197,8 +345,78 @@ Profesioniștii aleg Bosch Professional pentru fiabilitate dovedită - șurubeln
     infinitrade: `Portofoliul Bosch Professional e foarte larg, așa că preferăm să spunem clar ce putem și ce nu putem confirma înainte de comandă. Aprovizionarea se face prin canale de aprovizionare din Uniunea Europeană, iar ca regulă generală unele modele curente pot ajunge în 24-72 h din stoc, în timp ce restul gamei urmează fluxul normal de 2-6 săptămâni. Trimiteți-ne codul mașinii sau al setului, accesoriile dorite și cantitatea - verificăm disponibilitatea reală la furnizor înainte de a stabili prețul și termenul. La seturi promoționale sau ediții limitate, disponibilitatea diferă adesea de catalogul standard.`,
     limitation: 'Nu putem confirma reparații în garanția producătorului fără trecerea prin rețeaua de service Bosch și nici disponibilitatea exactă a seturilor promoționale.',
     sources: [
+      {"title":"GBH 18V-26 Cordless Rotary Hammer with SDS plus","url":"https://www.bosch-professional.com/gb/en/products/gbh-18v-26-0611909000","publisher":"Robert Bosch Power Tools GmbH","accessed":"2026-09-22"},
+      {"title":"GWS 18V-10 Cordless Angle Grinder","url":"https://www.bosch-professional.com/gb/en/products/gws-18v-10-06019J4000","publisher":"Robert Bosch Power Tools GmbH","accessed":"2026-09-22"},
       { title: 'Company | Bosch Global', url: 'https://www.bosch.com/company/', publisher: 'Robert Bosch GmbH', accessed: '2026-09-22' },
       { title: 'Bosch Global', url: 'https://www.bosch.com/', publisher: 'Robert Bosch GmbH', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "GBH 18V-26",
+        "description": "Ciocan rotopercutor pe acumulator cu prindere SDS-plus"
+      },
+      {
+        "code": "GBH 18V-26 D",
+        "description": "Ciocan rotopercutor cu display și prindere SDS-plus"
+      },
+      {
+        "code": "GBH 18V-26F",
+        "description": "Ciocan rotopercutor cu funcție de percuție fără impact"
+      },
+      {
+        "code": "GWS 18V-10",
+        "description": "Polizor unghiular pe acumulator, diametru compact"
+      },
+      {
+        "code": "GWS 18V-10 PC",
+        "description": "Polizor unghiular cu protecție fără cheie"
+      },
+      {
+        "code": "GWS 18V-8",
+        "description": "Polizor unghiular compact pe acumulator"
+      },
+      {
+        "code": "GWS 18V-10 PSC",
+        "description": "Polizor unghiular cu protecție și mâner paddle"
+      },
+      {
+        "code": "GWS 18V-10 P",
+        "description": "Polizor unghiular cu maner paddle pe acumulator"
+      },
+      {
+        "code": "GWS 18V-11 S",
+        "description": "Polizor unghiular cu pornire lină și acumulator"
+      },
+      {
+        "code": "GWS 18V-15 C",
+        "description": "Polizor unghiular de 125 mm cu conectivitate"
+      },
+      {
+        "code": "GWS 18V-15 SC",
+        "description": "Polizor unghiular de 125 mm cu conectivitate și protecție"
+      },
+      {
+        "code": "GSB 18V-21",
+        "description": "Masina combinata (bormasina-surubelnita cu percutie) pe acumulator"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce ciocan rotopercutor Bosch Professional aleg pentru găuri în beton?",
+        "a": "Pentru găuri în beton și zidărie cu prindere SDS-plus, seria GBH 18V-26 oferă un echilibru bun între putere și greutate pe acumulator, iar varianta GBH 18V-26 D adaugă un display cu informații despre modul de lucru și uzura periilor. Alegerea între variante depinde de diametrul maxim de găurire necesar și de preferința pentru afișaj digital sau control simplu."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă pentru scule Bosch Professional?",
+        "a": "Denumirea exactă a modelului scrisă pe cutie sau pe eticheta mașinii (de exemplu GWS 18V-10 sau GSB 18V-21), plus tipul de acumulator deja folosit în flota, sunt suficiente pentru o ofertă rapidă. Menționati și dacă aveți nevoie doar de corpul mașinii sau de kit complet cu încarcător și acumulatori."
+      },
+      {
+        "q": "Livrați scule Bosch Professional în România?",
+        "a": "Sculele Bosch Professional intră în România pe bază de comandă, pornind de la fișele publice de produs pe care producătorul le pune la dispoziție pentru fiecare model. În funcție de disponibilitatea la fabrică și de varianta cerută, un interval realist de așteptare este de 2-6 săptămâni la comandă pentru ciocane rotopercutoare, polizoare sau mașini combinate."
+      },
+      {
+        "q": "Ce diferență este între un polizor Bosch GWS 18V-10 și unul GWS 18V-15 C?",
+        "a": "Modelul GWS 18V-10 este gândit pentru discuri de 100-115 mm și lucrari ușoare spre medii de debitare sau șlefuire. Varianta GWS 18V-15 C folosește discuri de 125 mm, are o putere mai mare și adaugă conectivitate pentru monitorizarea utilizarii, fiind potrivită pentru sarcini mai grele sau utilizare intensiva pe santier."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -266,8 +484,78 @@ Clienții din industria auto și packaging aleg B&R pentru Total Cost of Ownersh
     infinitrade: `Componentele B&R (module X20, drive-uri ACOPOS, panouri Power Panel) intră la noi prin canale de aprovizionare din Uniunea Europeană, fără un stoc propriu evidențiat pe fiecare referință. Ne bazăm pe surse publice ale producătorului: termenul uzual e de 2-6 săptămâni la comandă, iar pentru câteva module cerute des putem asigura 24-72 h din stoc ca regulă generală. Avem nevoie de referința exactă, tensiunea de alimentare și interfața de comunicație dorită pentru a confirma compatibilitatea. Pe arhitecturi cu mai multe module, trimiteți și schema aplicației - reduce riscul unei comenzi greșite.`,
     limitation: 'Nu putem confirma programarea aplicației Automation Studio a clientului și nici disponibilitatea garantată a fiecărui modul X20 sau drive ACOPOS.',
     sources: [
+      {"title":"X20 System","url":"https://www.br-automation.com/en-us/products/io-systems/x20-system/","publisher":"B&R Industrial Automation (ABB)","accessed":"2026-09-22"},
+      {"title":"X20DI9372","url":"https://www.br-automation.com/en-us/products/io-systems/x20-system/digital-inputs/x20di9372/","publisher":"B&R Industrial Automation (ABB)","accessed":"2026-09-22"},
       { title: 'About us | B&R Industrial Automation', url: 'https://www.br-automation.com/en-us/about-us/', publisher: 'B&R Industrial Automation', accessed: '2026-09-22' },
       { title: 'Industrial automation | B&R Industrial Automation', url: 'https://www.br-automation.com', publisher: 'B&R Industrial Automation', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "X20DI9372",
+        "description": "Modul de intrari digitale pentru sistemul X20"
+      },
+      {
+        "code": "X20DI9371",
+        "description": "Modul de intrari digitale, varianta pentru sistemul X20"
+      },
+      {
+        "code": "X20DI2372",
+        "description": "Modul de intrari digitale cu 2 canale pentru X20"
+      },
+      {
+        "code": "X20DI4371",
+        "description": "Modul de intrari digitale cu 4 canale pentru X20"
+      },
+      {
+        "code": "X20DI6371",
+        "description": "Modul de intrari digitale cu 6 canale pentru X20"
+      },
+      {
+        "code": "X20DI4375",
+        "description": "Modul de intrari digitale cu 4 canale, varianta 375"
+      },
+      {
+        "code": "X20DI8371",
+        "description": "Modul de intrari digitale cu 8 canale pentru X20"
+      },
+      {
+        "code": "X20DI6373",
+        "description": "Modul de intrari digitale cu 6 canale, varianta 373"
+      },
+      {
+        "code": "X20AI4622",
+        "description": "Modul de intrari analogice cu 4 canale pentru X20"
+      },
+      {
+        "code": "Compact-S PLC",
+        "description": "Automat programabil ultra-compact, doar 37,5 mm latime"
+      },
+      {
+        "code": "X20 Edge",
+        "description": "Controller de margine cu OPC UA peste TSN"
+      },
+      {
+        "code": "Power Panel",
+        "description": "Serie de panouri HMI pentru interfata operator"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce module de intrari digitale BR sunt disponibile pentru sistemul X20?",
+        "a": "Sistemul X20 BR oferă module de intrări digitale în variante cu 2, 4, 6 sau 8 canale, precum X20DI2372, X20DI4371, X20DI6371 sau X20DI8371, alese în funcție de numărul de semnale binare din mașină. Lățimea modulului și tipul de conector (cu șuruburi sau tip push-in) influențează și ele alegerea variantei potrivite pentru panoul electric existent."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă pentru module BR Automation?",
+        "a": "Codul de pe modulul existent (de exemplu X20DI9372), numărul de canale necesare, tensiunea semnalului și tipul de montaj pe sina DIN din dulap sunt punctul de plecare pentru orice ofertă. Pentru panouri HMI, spuneti-ne dimensiunea ecranului dorită și numărul de intrari-iesiri integrate necesare aplicației."
+      },
+      {
+        "q": "Livrați componente de automatizare BR în România?",
+        "a": "Modulele și automatele BR Automation nu stau pe stoc la noi; le comandăm pe baza codurilor și specificațiilor publicate de producător pentru fiecare familie X20 sau HMI. Un termen rezonabil de așteptare este de 2-6 săptămâni la comandă, în funcție de numărul de canale, tensiunea de lucru și volumul comenzii."
+      },
+      {
+        "q": "Ce diferență este între un automat Compact-S și un controller X20 Edge?",
+        "a": "Automatul Compact-S este un PLC ultra-compact, cu doar 37,5 mm lățime împreună cu sursa de alimentare, potrivit pentru mașini mici cu spațiu redus în dulap. Controllerul X20 Edge adaugă suport pentru OPC UA peste TSN și stocare internă pe unitate flash, fiind ales pentru aplicații care trebuie să colecteze și să transmită date către sisteme de nivel superior."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -335,8 +623,78 @@ Clienții din construcții și OEM aleg Bucher pentru robusteț elvețiană dove
     infinitrade: `Pompele, valvele și motoarele Bucher Hydraulics vin la comandă prin canale de aprovizionare din Uniunea Europeană; lucrăm din surse publice ale producătorului, fără date proprii despre stocul fiecărei variante. Termenul obișnuit este de 2-6 săptămâni, iar pentru piese uzuale de schimb putem oferi ocazional 24-72 h din stoc, ca regulă generală, nu ca promisiune pe un cod anume. Trimiteți-ne codul complet sau parametrii tehnici (presiune, debit, tip de montaj) ca să confirmăm compatibilitatea cu utilajul dumneavoastră. Piesele custom sau ieșite din fabricație necesită verificare suplimentară direct la producător.`,
     limitation: 'Nu putem confirma re-lapping sau reparații de precizie pe pompă fără evaluarea directă a piesei și nici disponibilitatea garantată pentru fiecare cod.',
     sources: [
+      {"title":"Pumps","url":"https://www.bucherhydraulics.com/en/products/pumps-and-motors/pumps/","publisher":"Bucher Hydraulics AG","accessed":"2026-09-22"},
+      {"title":"Products","url":"https://www.bucherhydraulics.com/en/products/","publisher":"Bucher Hydraulics AG","accessed":"2026-09-22"},
       { title: 'Locations', url: 'https://www.bucherhydraulics.com/en/company/locations/', publisher: 'Bucher Hydraulics', accessed: '2026-09-22' },
       { title: 'Bucher Hydraulics', url: 'https://www.bucherhydraulics.com/en/company/', publisher: 'Bucher Hydraulics', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "AP",
+        "description": "Pompe cu roți dințate exterioare pentru aplicații standard"
+      },
+      {
+        "code": "QX",
+        "description": "Pompa cu roți dințate interioare, până la 400 bar"
+      },
+      {
+        "code": "QXEH",
+        "description": "Pompa cu roti dintate interioare pentru turatii variabile dinamice"
+      },
+      {
+        "code": "QYEH",
+        "description": "Pompa cu zgomot redus și eficiență ridicată"
+      },
+      {
+        "code": "QXEHX",
+        "description": "Pompa cu roti dintate interioare pentru turatii foarte mari"
+      },
+      {
+        "code": "QXV",
+        "description": "Pompa cu roti dintate interioare pentru fluide cu vascozitate mica"
+      },
+      {
+        "code": "QXP",
+        "description": "Pompa de dozare pentru productia de poliuretan"
+      },
+      {
+        "code": "QXM",
+        "description": "Pompa-motor pentru funcționare în mai multe cadrane"
+      },
+      {
+        "code": "QXEM",
+        "description": "Pompa-motor dinamică pentru aplicații multi-cadran"
+      },
+      {
+        "code": "AX",
+        "description": "Pompa cu pistoane axiale"
+      },
+      {
+        "code": "Power Units",
+        "description": "Grupuri hidraulice complete, gata de montaj"
+      },
+      {
+        "code": "System Solutions",
+        "description": "Ansambluri hidraulice integrate proiectate pentru aplicatia clientului"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompe Bucher Hydraulics se folosesc pentru presiuni ridicate?",
+        "a": "Pentru presiuni de până la 400 bar, seria QX de pompe cu roți dințate interioare este alegerea de bază, cu variante precum QXEH pentru turații variabile dinamice și QXEHX pentru turații foarte ridicate. Pompele cu pistoane axiale din seria AX se folosesc atunci când aplicația are nevoie de debit reglabil și eficiență mai mare la sarcini variabile."
+      },
+      {
+        "q": "Ce date trimit pentru o oferta pentru o pompa Bucher de inlocuire?",
+        "a": "Turația de lucru, presiunea maximă admisă și tipul de fluid hidraulic folosit în instalație, alături de codul de pe plăcuta pompei existente, sunt datele minime pentru o ofertă. La pompele-motor din seriile QXM sau QXEM, precizati și dacă aplicația funcționează în mai multe cadrane."
+      },
+      {
+        "q": "Livrați pompe Bucher Hydraulics în România?",
+        "a": "Pompele și grupurile hidraulice Bucher Hydraulics vin în România strict la comandă, după identificarea variantei corecte în documentația tehnică pe care producătorul elvețian o publică online. Clienții trebuie să se aștepte la un interval de aproximativ 2-6 săptămâni la comandă, în funcție de presiunea de lucru și de tipul de fluid folosit."
+      },
+      {
+        "q": "Ce diferență este între pompele QX și QXV din gama Bucher?",
+        "a": "Pompă QX este variantă de bază cu roți dințate interioare, gândită că soluție universală pentru presiuni de până la 400 bar în aplicații industriale obișnuite. Varianta QXV este optimizată pentru fluide cu vâscozitate mică, precum uleiuri ușoare sau combustibili, menținând eficiență volumetrica acolo unde o pompă standard ar pierde randament din cauza scaparilor interne."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -404,8 +762,69 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate complet
     infinitrade: `Pentru senzorii și valvele Bürkert lucrăm după informațiile publice disponibile de la producător, nu după un stoc intern documentat pe fiecare tip. Produsele ajung prin canale de aprovizionare din Uniunea Europeană, de regulă în 2-6 săptămâni la comandă; câteva tipuri cerute frecvent pot ajunge și în 24-72 h din stoc. Spuneți-ne parametrul măsurat (debit, presiune, temperatură), domeniul de lucru și conexiunea de proces, ca să identificăm varianta potrivită. Variantele cu certificare hygienic-design sau calibrare extinsă cer, de regulă, mai mult timp de confirmare.`,
     limitation: 'Nu putem confirma o calibrare ISO 17025 proprie și nici disponibilitatea garantată pentru fiecare variantă de senzor Bürkert.',
     sources: [
-      { title: 'Bürkert Fluid Control Systems | Valve Engineering & Systems', url: 'https://www.burkert.com', publisher: 'Bürkert Fluid Control Systems', accessed: '2026-09-22' },
+      {"title":"Products","url":"https://www.burkert.com/en/products","publisher":"Burkert Fluid Control Systems","accessed":"2026-09-22"},
+      { title: 'Bürkert Fluid Control Systems — senzori și sisteme (pagina principală)', url: 'https://www.burkert.com', publisher: 'Bürkert Fluid Control Systems', accessed: '2026-09-22' },
       { title: 'Bürkert', url: 'https://en.wikipedia.org/wiki/B%C3%BCrkert', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Type 6027",
+        "description": "Electrovalvă pentru aplicații generale de automatizare fluide"
+      },
+      {
+        "code": "Type 2103",
+        "description": "Valva de proces cu actionare pneumatica sau electromotoare"
+      },
+      {
+        "code": "Type 3360",
+        "description": "Valva electromotoare cu instalare simplă și control modern"
+      },
+      {
+        "code": "Type 8652",
+        "description": "Insulă de valve și interfață de proces pentru automatizare"
+      },
+      {
+        "code": "Type 8098",
+        "description": "Traductor și controler cu conexiuni multiple pentru senzori"
+      },
+      {
+        "code": "Type 6712",
+        "description": "Pompa de microfluidica pentru dozare de precizie"
+      },
+      {
+        "code": "Type 8741",
+        "description": "Debitmetru masic pentru gaze și lichide, cu controler integrat"
+      },
+      {
+        "code": "Type 2875",
+        "description": "Valva proportionala cu actionare electromagnetica sau electromotoare"
+      },
+      {
+        "code": "Type 10",
+        "description": "Modul de comunicație industrială pentru Profinet și EtherNet/IP"
+      },
+      {
+        "code": "Type BBS03",
+        "description": "Cilindru pneumatic și conectori push-in pentru accesorii"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce valve Burkert sunt potrivite pentru controlul proceselor cu fluide?",
+        "a": "Pentru control de proces, seria Type 2103 oferă valve cu acționare pneumatică sau electromotoare pentru sarcini generale, iar Type 2875 acoperă aplicațiile care cer reglaj proporțional fin de debit sau presiune. Alegerea între variante depinde de tipul de fluid, presiunea de lucru și dacă instalația are deja aer comprimat disponibil pentru acționare pneumatică."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă pentru o valvă Burkert de înlocuire?",
+        "a": "Tipul complet marcat pe valvă (de exemplu Type 6027 sau Type 8652), presiunea și temperatura de lucru, tipul de fluid și tensiunea de comandă din instalație sunt suficiente pentru o ofertă. La debitmetrele masice din seria Type 8741, spuneti-ne și ce gaz sau lichid măsurați, pentru calibrarea corectă."
+      },
+      {
+        "q": "Livrați echipamente Burkert în România?",
+        "a": "Valvele și debitmetrele masice Burkert sunt procesate de noi doar la cerere, pornind de la fișele tehnice pe care producătorul german le face publice pentru fiecare tip. Termenul obișnuit până la sosirea mărfii este de 2-6 săptămâni la comandă, în funcție de configurația electrică și de tipul de fluid controlat."
+      },
+      {
+        "q": "Ce diferență este între o valvă Burkert cu acționare pneumatică și una electromotoare?",
+        "a": "Valva cu acționare pneumatică, precum varianta de bază Type 2103, folosește aer comprimat pentru a deschide sau închide obturatorul, fiind rapidă și simplă acolo unde aerul este deja disponibil în instalație. Varianta electromotoare integrează un motor electric pentru poziționare, utilă când nu există rețea de aer comprimat sau când procesul cere control fin de poziție intermediară."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -473,8 +892,98 @@ Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitate 
     infinitrade: `Componentele Caleffi - vase de expansiune, grupuri Hydrolink, separatoare Discaldirt - intră la noi prin canale de aprovizionare din Uniunea Europeană. Nu avem un depozit propriu documentat pe fiecare model, așa că spunem clar ce putem și ce nu putem confirma înainte de a da un termen: de regulă 2-6 săptămâni la comandă, cu excepția câtorva dimensiuni uzuale unde putem asigura 24-72 h din stoc. Pentru o recomandare corectă avem nevoie de diametru, presiune nominală și tipul instalației (încălzire sau apă rece). Configurațiile Hydrolink personalizate depășesc, de regulă, termenul standard.`,
     limitation: 'Nu putem confirma dimensionarea finală a sistemului fără datele complete ale instalației și nici disponibilitatea garantată pentru fiecare dimensiune de vas.',
     sources: [
+      {"title":"Caleffi Home – Featured Products","url":"https://www.caleffi.com/en-us","publisher":"Caleffi S.p.A.","accessed":"2026-09-22"},
+      {"title":"Caleffi Products – Category Overview","url":"https://www.caleffi.com/en-us/products","publisher":"Caleffi S.p.A.","accessed":"2026-09-22"},
       { title: 'Caleffi Hydronic Solutions | Caleffi S.p.a.', url: 'https://www.caleffi.com', publisher: 'Caleffi S.p.A.', accessed: '2026-09-22' },
       { title: 'Headquarters | Caleffi S.p.a.', url: 'https://www.caleffi.com/en-us/contacts/headquarters', publisher: 'Caleffi S.p.A.', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Seria 145",
+        "description": "Vană de control cu presiune independență pentru rețele comerciale"
+      },
+      {
+        "code": "Seria 3040",
+        "description": "Supapa Vacu-Stop pentru eliminarea vidului din instalatiile termice"
+      },
+      {
+        "code": "Seria 536",
+        "description": "Reductor de presiune PresCal HP cu debit marit"
+      },
+      {
+        "code": "LEGIOMIX evo 6003",
+        "description": "Vană digitală de amestec pentru controlul legionelozei în rețea"
+      },
+      {
+        "code": "Separatoare hidraulice",
+        "description": "Familie de separatoare hidraulice pentru instalații cu circuite multiple"
+      },
+      {
+        "code": "Separatoare aer și murdărie",
+        "description": "Dezaeratoare și separatoare de impuritati cu aerisire automată"
+      },
+      {
+        "code": "Robineti termostatici radiator",
+        "description": "Robineti și capete termostatice pentru reglarea temperaturii pe calorifer"
+      },
+      {
+        "code": "Vane de zonare și kituri control",
+        "description": "Vane de zona cu actuator și kituri pentru ventiloconvectoare"
+      },
+      {
+        "code": "Distribuitoare și stații de amestec",
+        "description": "Colectoare de distribuție și stații de amestec pentru încălzire"
+      },
+      {
+        "code": "Grupuri de umplere și kituri cazane",
+        "description": "Ansambluri de umplere automată și accesorii pentru montaj cazăn"
+      },
+      {
+        "code": "Vane de amestecare",
+        "description": "Vane termostatice de amestec pentru apă caldă și încălzire"
+      },
+      {
+        "code": "Vane de echilibrare",
+        "description": "Vane pentru echilibrarea hidraulică a rețelelor de distribuție"
+      },
+      {
+        "code": "Reductoare de presiune",
+        "description": "Familie de reductoare de presiune pentru rețele de apă"
+      },
+      {
+        "code": "Dispozitive antiretur și siguranță",
+        "description": "Supape de sens unic și dispozitive de siguranță hidraulică"
+      },
+      {
+        "code": "Componente regenerabile și contorizare",
+        "description": "Accesorii pentru instalații solare termice și contorizare a energiei"
+      },
+      {
+        "code": "Componente și kituri speciale",
+        "description": "Game de componente dedicate aplicațiilor speciale din instalații"
+      },
+      {
+        "code": "Fitinguri",
+        "description": "Familie de fitinguri și racorduri pentru montaj hidraulic"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce inseamna codul de serie de la Caleffi, de exemplu Seria 145?",
+        "a": "Codul de serie arată familia de produs și varianta constructivă din catalogul oficial al producătorului. Seria 145 desemnează o vană de control cu presiune independență pentru rețele comerciale, iar cifrele următoare din cod indică de regulă dimensiunea sau tipul de racord montat pe corpul valvei. Pentru comenzi fără erori recomandăm transmiterea codului complet așa cum apare în fișa tehnică descărcată de pe site-ul Caleffi, împreună cu diametrul nominal necesar."
+      },
+      {
+        "q": "Ce diferență este între Seria 536 și alte reductoare de presiune?",
+        "a": "Seria 536, cunoscută ca PresCal HP, este un reductor de presiune cu debit mărit față de gamele standard, potrivit pentru instalații cu consum ridicat de apă. Diferența față de alte reductoare din gamă constă în capacitatea de trecere mai mare la aceeași presiune de ieșire reglată. Alegerea variantei potrivite depinde de diametrul conductei și de debitul de vârf estimat, iar aceste detalii pot fi verificate în fișa tehnică oficială înainte de a solicita o ofertă."
+      },
+      {
+        "q": "Livrați produse Caleffi în România la comandă?",
+        "a": "Da, aducem echipamente Caleffi la comandă pornind de la gama oficială a producătorului, fără să menținem un stoc propriu constituit în avans. Lucrăm după fișele tehnice publice ale Caleffi și după cererea dumneavoastră de ofertă, iar termenul obișnuit este 2-6 săptămâni la comandă, în funcție de disponibilitatea din rețeaua de distribuție a producătorului. Recomandăm includerea codului de serie exact și a cantității în solicitare."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă pentru un separator hidraulic Caleffi?",
+        "a": "Pentru o ofertă corectă trimiteti diametrul nominal al conductei, debitul maxim al instalației și numărul de circuite secundare conectate la separator. Este util să menționați tipul de instalație, de exemplu încălzire în pardoseala sau radiatoare, precum și dacă este nevoie de variantă cu vas de expansiune integrat. Cu aceste date putem identifică variantă din gamă Caleffi cea mai apropiată de cerință dumneavoastră și pregatim rapid un răspuns."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -609,8 +1118,70 @@ Clienții corporate și facility managers aleg Carrier pentru Total Cost of Owne
     infinitrade: `Echipamentele Carrier - chillere, unități rooftop, AHU - sunt de regulă proiecte cu configurație individuală, nu articole de stoc; nu avem date proprii de disponibilitate pentru fiecare model. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană, cu termen obișnuit 2-6 săptămâni la comandă, iar doar pe piesele de schimb uzuale putem asigura, uneori, 24-72 h din stoc. Trimiteți-ne capacitatea necesară, tipul de aplicație și condițiile locului de montaj, ca să pregătim o selecție tehnică potrivită. La sisteme mari, termenul final se confirmă direct cu producătorul, după validarea configurației.`,
     limitation: 'Nu putem confirma disponibilitatea garantată a echipamentelor sau pieselor critice și nici commissioning direct de tehnicieni Carrier fără contract separat.',
     sources: [
+      {"title":"Water-Cooled Chillers – Carrier Commercial","url":"https://carrier.com/commercial/en/us/products/chillers-components/water-cooled-chillers","publisher":"Carrier Global Corporation","accessed":"2026-09-22"},
+      {"title":"Commercial HVAC Products Overview","url":"https://www.carrier.com/commercial/en/us/products/","publisher":"Carrier Global Corporation","accessed":"2026-09-22"},
       { title: 'Intelligent Climate and Energy Solutions | Carrier', url: 'https://www.carrier.com/', publisher: 'Carrier', accessed: '2026-09-22' },
       { title: 'Carrier Global', url: 'https://en.wikipedia.org/wiki/Carrier_Global', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "19MV",
+        "description": "Răcitor centrifugal cu compresor în două trepte economizate"
+      },
+      {
+        "code": "19DV",
+        "description": "Racitor centrifugal cu agent frigorific de potential scazut de incalzire globala"
+      },
+      {
+        "code": "19XR",
+        "description": "Racitor centrifugal semi-ermetic de mare capacitate"
+      },
+      {
+        "code": "23XRV",
+        "description": "Răcitor cu compresor elicoidal și turație variabilă"
+      },
+      {
+        "code": "30HX",
+        "description": "Răcitor elicoidal de interior cu design fără condensator propriu"
+      },
+      {
+        "code": "30MP",
+        "description": "Racitor scroll racit cu apa, cu agent frigorific R-32"
+      },
+      {
+        "code": "17DA",
+        "description": "Racitor centrifugal de mare capacitate pentru tonaje foarte mari"
+      },
+      {
+        "code": "AquaEdge",
+        "description": "Gama de răcitoare centrifugale și elicoidale cu control avansat"
+      },
+      {
+        "code": "AquaForce",
+        "description": "Serie de racitoare elicoidale de interior din portofoliul Carrier"
+      },
+      {
+        "code": "AquaSnap",
+        "description": "Serie de racitoare scroll racite cu apa, de tip compact"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între răcitorul Carrier 19XR și 23XRV?",
+        "a": "19XR este un răcitor centrifugal semi-ermetic de mare capacitate, potrivit pentru clădiri și procese cu sarcini termice ridicate și relativ constante. 23XRV folosește un compresor elicoidal cu turație variabilă, optimizat pentru eficiență la sarcină parțială și pentru instalații cu variații frecvente ale cererii de răcire. Alegerea corectă depinde de tonajul necesar, de profilul de sarcină al clădirii și de spațiul disponibil în centrala termică."
+      },
+      {
+        "q": "Ce inseamna denumirea AquaSnap la Carrier?",
+        "a": "AquaSnap este numele unei serii de răcitoare Carrier, nu un cod de model unic, și acoperă în prezent unități scroll răcite cu apă precum modelul 30MP. Denumirea de serie grupează produse cu principii constructive și domenii de aplicare asemănătoare, în timp ce codul numeric de după denumire identifică exact modelul și capacitatea. La solicitarea unei oferte pentru Carrier este util să menționați atât seria, cât și codul numeric."
+      },
+      {
+        "q": "Livrați echipamente Carrier în România la comandă?",
+        "a": "Comandăm unitățile Carrier pe baza specificațiilor primite de la client, sprijinindu-ne exclusiv pe documentația publică a producătorului, fără depozit propriu de utilaje păstrat în avans. Termenul uzual este 2-6 săptămâni la comandă, în funcție de model și de disponibilitatea din rețeaua Carrier. Vă recomandăm să ne trimiteti codul echipamentului și capacitatea necesară pentru un răspuns rapid și corect."
+      },
+      {
+        "q": "Ce date trebuie să trimit pentru o ofertă pentru un chiller Carrier?",
+        "a": "Pentru o ofertă corectă este nevoie de capacitatea de răcire necesară în tone frigorifice sau kW, tipul de agent frigorific acceptat și spațiul disponibil pentru instalare, interior sau exterior. Ajută și informații despre sursă de răcire, aer sau apă, precum și despre profilul de sarcină al clădirii, constantă sau variabilă. Cu aceste detalii identificăm varianta Carrier potrivită, de exemplu din familia AquaEdge sau AquaForce."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -678,8 +1249,69 @@ Clienții din automotive, aerospace și machining aleg Castrol pentru Total Flui
     infinitrade: `Lubrifianții Castrol - emulsii Hysol, uleiuri Alpha, unsori Molub-Alloy - ne parvin prin canale de aprovizionare din Uniunea Europeană; ne ghidăm după informațiile publice disponibile de la producător, nu după un stoc propriu documentat. Termenul obișnuit e de 2-6 săptămâni la comandă; pe ambalajele uzuale (bidoane, butoaie) putem asigura, ca regulă generală, 24-72 h din stoc. Spuneți-ne tipul de lubrifiant, vâscozitatea și ambalajul dorit, ca să verificăm disponibilitatea reală înainte de confirmare. Pentru volume mari sau formule speciale, verificarea la producător poate dura mai mult decât intervalul obișnuit.`,
     limitation: 'Nu putem confirma analiza Labcheck ca serviciu propriu și nici disponibilitatea garantată pentru fiecare tip și ambalaj de lubrifiant.',
     sources: [
+      {"title":"Industrial Brands Overview – Castrol USA","url":"https://www.castrol.com/en_us/united-states/home/products/our-brands/industrial.html","publisher":"Castrol (BP p.l.c.)","accessed":"2026-09-22"},
       { title: 'Castrol heritage - 125 years forwards | Home', url: 'https://www.castrol.com/en/global/corporate/about-castrol/our-heritage.html', publisher: 'Castrol (BP)', accessed: '2026-09-22' },
       { title: 'Home', url: 'https://www.castrol.com', publisher: 'Castrol (BP)', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Castrol Alusol",
+        "description": "Fluide de așchiere solubile și semi-solubile pentru aliaje de aluminiu"
+      },
+      {
+        "code": "Castrol Brayco",
+        "description": "Uleiuri și unsori de înaltă performanță pentru medii extreme"
+      },
+      {
+        "code": "Castrol Hysol",
+        "description": "Fluide de aschiere solubile pentru prelucrarea metalelor feroase"
+      },
+      {
+        "code": "Castrol Optigear",
+        "description": "Uleiuri de transmisie pentru reducerea frecării și creșterea eficienței"
+      },
+      {
+        "code": "Castrol Molub-Alloy",
+        "description": "Unsori industriale cu solide pentru sarcini grele și temperaturi ridicate"
+      },
+      {
+        "code": "Castrol Syntilo",
+        "description": "Fluide sintetice de așchiere și rectificare pentru durata sculei"
+      },
+      {
+        "code": "Castrol Tribol",
+        "description": "Lubrifiant industrial adaptat la condiții de funcționare variabile"
+      },
+      {
+        "code": "Castrol Techniclean XBC",
+        "description": "Fluid industrial de curatare pentru procese de prelucrare a metalelor"
+      },
+      {
+        "code": "Castrol XBB Technology",
+        "description": "Formulare de fluid de așchiere fără aditivi chimici tradiționali"
+      },
+      {
+        "code": "Castrol Iloform CFX",
+        "description": "Familie de fluide pentru formarea metalelor din gama industriala"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între Castrol Hysol și Castrol Alusol?",
+        "a": "Castrol Hysol este o gamă de fluide de așchiere solubile formulate pentru prelucrarea metalelor feroase, în timp ce Castrol Alusol este destinat special aliajelor de aluminiu, mai sensibile la coroziune și la depuneri. Alegerea depinde de materialul prelucrat în atelier și de tipul de operație, strunjire, frezare sau rectificare. Vă recomandăm să verificați fișa tehnică a fiecărui produs Castrol înainte de a schimba fluidul folosit în mașină."
+      },
+      {
+        "q": "Ce este Castrol Optigear și pentru ce se folosește?",
+        "a": "Castrol Optigear este o gamă de uleiuri de transmisie destinate reducerii frecării și cresterii eficienței energetice în reductoare și angrenaje industriale. Este potrivit pentru echipamente supuse la sarcini variabile, unde protecția impotriva uzurii și stabilitatea la temperaturi ridicate contează pentru durata de funcționare. Selectarea gradului de vâscozitate corect se face în funcție de tipul reductorului și de recomandarile producătorului utilajului."
+      },
+      {
+        "q": "Livrați lubrifianți Castrol în România la comandă?",
+        "a": "Procurăm lubrifianții Castrol la cerere, în funcție de fișele tehnice publicate oficial de producător, fără să menținem un stoc constituit în avans. Termenul obișnuit este 2-6 săptămâni la comandă, în funcție de produs și de cantitatea solicitată din rețeaua Castrol. Pentru un răspuns rapid recomandăm să transmiteți denumirea exactă a produsului și volumul necesar."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă de lubrifiant Castrol?",
+        "a": "Pentru o ofertă corectă indicati tipul de echipament sau de operație, materialul prelucrat dacă este vorba de un fluid de așchiere, și gradul de vâscozitate cerut de producătorul utilajului. Este util să menționați și condițiile de mediu, temperatură de funcționare și volumul aproximativ necesar. Cu aceste detalii identificăm gamă Castrol potrivită, de exemplu Hysol, Alusol sau Optigear."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
