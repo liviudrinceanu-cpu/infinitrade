@@ -3,7 +3,7 @@ export const brandContentBatch13 = {
     founded: 1933,
     headquarters: 'Kyoto, Japonia',
     employees: '28,000+',
-    overview: `Omron Corporation s-a născut în 1933 ca un mic atelier de reparații electrice în Kyoto și s-a transformat într-unul dintre gigantii mondiali ai automatizărilor industriale. Filozofia lor "Sensing & Control + Think" se traduce practic în echipamente care nu doar execută comenzi, ci anticipează probleme și optimizează procese în timp real. Am văzut linii de producție întregi transformate după implementarea PLC-urilor Sysmac - de la cicluri de producție mai scurte cu 30% la rata de defecte sub 0,1%. Nu vorbim aici de simple controlere programabile, ci de sisteme integrate care combină logica avansată cu viziune artificială, roboți colaborativi și interfețe HMI intuitive.
+    overview: `Omron Corporation s-a născut în 1933 ca un mic atelier de reparații electrice în Kyoto și s-a transformat într-unul dintre gigantii mondiali ai automatizărilor industriale. Filozofia lor "Sensing & Control + Think" se traduce practic în echipamente care nu doar execută comenzi, ci anticipează probleme și optimizează procese în timp real. Se întâlnesc linii de producție întregi transformate după implementarea PLC-urilor Sysmac - de la cicluri de producție mai scurte cu 30% la rata de defecte sub 0,1%. Nu vorbim aici de simple controlere programabile, ci de sisteme integrate care combină logica avansată cu viziune artificială, roboți colaborativi și interfețe HMI intuitive.
 
 Ce ne-a impresionat cel mai mult la Omron e capacitatea lor de a simplifica complexitatea. Un servo drive seria 1S se configurează în câteva minute prin NFC de pe telefon, fără cabluri speciale sau software complicat. Senzorii de viziune FH combină viteza de procesare de milisecunde cu precizie micrometrică și configurare prin wizard vizual. Când ai nevoie să detectezi 15 tipuri diferite de defecte pe o linie ce rulează la 200 buc/min, îți dai seama că tehnologia Omron nu e doar avansată - e și accesibilă. Roboții colaborativi TM salvează spațiu, se programează prin învățare directă și lucrează alături de operatori fără garduri de protecție. E automatizare inteligentă pentru sectorul productiv real, nu concepte futuriste pentru laboratoare.
 
@@ -23,7 +23,7 @@ Din 1933 până azi, Omron a livrat peste 200 milioane de relee, 100 milioane de
       },
       {
         name: 'Servo Drives & Motors seria 1S/G5',
-        description: 'Sistemele servo Omron combină dinamică excepțională cu simplitate la configurare. Seria 1S revoluționează setup-ul: conectare prin NFC de pe smartphone, autotuning în câteva secunde, feedback absolut fără baterie. Densitate de curent record - drive 200W mai mic decât o carte. G5 Series pentru aplicații industriale solicitante: până la 7kW, encoder 23-bit, compensare vibratii și rezonanță automată. Advanced One-Touch Tuning ajustează parametrii servoului după caracteristicile mecanice reale, fără oscilații sau overshoot. Safety functions integrate (STO, SS1, SS2) conform EN 61800-5-2. Comunicație directă prin EtherCAT, Mechatrolink-III sau pulse train clasic. Am văzut mașini de ambalare ce ating 800 cicluri/min cu precizie ±0.01mm repetabilitate. Eficiență energetică ridicată - regenerare înapoi în rețea la frânare.'
+        description: 'Sistemele servo Omron combină dinamică excepțională cu simplitate la configurare. Seria 1S revoluționează setup-ul: conectare prin NFC de pe smartphone, autotuning în câteva secunde, feedback absolut fără baterie. Densitate de curent record - drive 200W mai mic decât o carte. G5 Series pentru aplicații industriale solicitante: până la 7kW, encoder 23-bit, compensare vibratii și rezonanță automată. Advanced One-Touch Tuning ajustează parametrii servoului după caracteristicile mecanice reale, fără oscilații sau overshoot. Safety functions integrate (STO, SS1, SS2) conform EN 61800-5-2. Comunicație directă prin EtherCAT, Mechatrolink-III sau pulse train clasic. Se întâlnesc mașini de ambalare ce ating 800 cicluri/min cu precizie ±0.01mm repetabilitate. Eficiență energetică ridicată - regenerare înapoi în rețea la frânare.'
       },
       {
         name: 'Senzori viziune FH/FZ Series',
@@ -56,16 +56,22 @@ Din 1933 până azi, Omron a livrat peste 200 milioane de relee, 100 milioane de
       'semiconductor',
       'textile'
     ],
-    infinitrade: `La InfiniTrade furnizăm gama completă Omron pentru automatizări industriale - de la PLC-uri Sysmac și servo drive-uri până la senzori de viziune și roboți colaborativi. Avem în stoc sau aducem rapid componentele de care ai nevoie pentru upgrade-uri sau proiecte noi. Echipa noastră tehnică din Timișoara oferă suport la configurare, programare și integrare - fie că e vorba de o simplă înlocuire de senzor sau de o linie de producție automată de la zero. Livrăm rapid (24-72h în România) și oferim consultanță tehnică pentru dimensionarea corectă a sistemului.
-
-Colaborăm cu integratori, producători și service-uri de întreținere care caută calitate și performanță dovedite în teren. Experiența ne-a arătat că Omron oferă cel mai bun raport între performanță, fiabilitate și cost total de operare. Contactează-ne pentru oferte personalizate, demonstrații la fața locului sau training pentru echipa ta.`
+    sources: [
+      { title: 'History | Corporate Profile | OMRON Global', url: 'https://www.omron.com/global/en/about/corporate/history/', publisher: 'OMRON Corporation', accessed: '2026-09-22' },
+      { title: 'Corporate Profile | OMRON Global', url: 'https://www.omron.com/global/en/about/corporate/', publisher: 'OMRON Corporation', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma disponibilitatea permanentă pe stoc pentru fiecare model din gama Omron și nu oferim programarea avansată PLCnext sau configurarea software Sysmac ca serviciu inclus.',
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    infinitrade: `La automatizări Omron, lucrăm din surse publice ale producătorului și vă spunem clar: nu ținem evidențe proprii despre ce anume avem fizic pe stoc în orice moment. Componentele pe care le deținem local pleacă, de regulă, în 24-72 de ore; restul gamei Omron - PLC-uri Sysmac, servo drive-uri, senzori de viziune, roboți TM - le aducem la comandă prin canalele noastre de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni. Ca să vă răspundem exact, trimiteți-ne codul complet al produsului, cantitatea și aplicația în care va fi folosit. Nu promitem un termen mai scurt fără o verificare reală în avans.`
   },
 
   'optibelt': {
     founded: 1872,
     headquarters: 'Höxter, Germania',
     employees: '2,000+',
-    overview: `Optibelt produce curele de transmisie de aproape 150 de ani și continuă să stabilească standardele industriei în Europa. Ce a început ca o fabrică de curele din piele în 1872 s-a transformat într-un gigant tehnologic specializat în curele V, sincrone, plate și speciale pentru aplicații industriale extreme. Când spunem "germană până-n măduva oaselor", ne referim la precizie dimensională de ±0.2mm, materiale premium și teste de rezistență care depășesc cu mult standardele ISO. Am văzut curele Optibelt RED POWER III să ruleze 3 ani non-stop pe compresoare industriale fără uzură vizibilă - performanță greu de egalat.
+    overview: `Optibelt produce curele de transmisie de aproape 150 de ani și continuă să stabilească standardele industriei în Europa. Ce a început ca o fabrică de curele din piele în 1872 s-a transformat într-un gigant tehnologic specializat în curele V, sincrone, plate și speciale pentru aplicații industriale extreme. Când spunem "germană până-n măduva oaselor", ne referim la precizie dimensională de ±0.2mm, materiale premium și teste de rezistență care depășesc cu mult standardele ISO. Se întâlnesc curele Optibelt RED POWER III să ruleze 3 ani non-stop pe compresoare industriale fără uzură vizibilă - performanță greu de egalat.
 
 Tehnologia lor BLUE POWER și RED POWER combină corzi sintetice de rezistență ridicată cu compuși elastomerici avansați. Rezultatul: curele care suportă temperaturi -40°C până +100°C, rezistă la ulei, ozon și substanțe chimice, și transmit putere cu randament peste 98%. OMEGA-HP sunt curele sincrone cu dinți hi-torque pentru transmisii precise în mașini-unelte CNC. RB SUPER X-POWER sunt curele plate aramide pentru logistică și transport. Optibelt nu vinde doar curele - oferă soluții complete de transmisie mecanică cu software de calcul, roți de curea și service predictiv prin monitorizare cu ultrasunete.
 
@@ -93,7 +99,7 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc peste 15 milioane
       },
       {
         name: 'Curele speciale RB AGRO',
-        description: 'Gama dedicată utilajelor agricole și construcțiilor. Profil Special RB (Raw Edge Belt) cu suprafață brută pentru aderență maximă în condiții umede și prăfuite. Cord poliester rezistent la șocuri și sarcini variabile. Acoperire antistatic și oleo-rezistentă. Profile clasice HI/HJ/HK/HL pentru combine, balotiere, prese. Temperature extremă: -40°C iarna până +80°C în compartimente motor vară. Rezistență UV superioară - nu se degradează la soare. Am echipat combine ce rulează 500h/sezon timp de 5 sezoane fără schimbare curele. Protecție la praf și particule abrazive prin structura cord închis. Montaj rapid în câmp cu scule standard. Lungimi ajustate la dimensiuni utilaje. Compatibilitate roți originale John Deere, Case, Claas, New Holland. Disponibile cu ghidaj lateral sau varianta centrată. Stoc permanent dimensiuni populare pentru înlocuire urgentă în sezon.'
+        description: 'Gama dedicată utilajelor agricole și construcțiilor. Profil Special RB (Raw Edge Belt) cu suprafață brută pentru aderență maximă în condiții umede și prăfuite. Cord poliester rezistent la șocuri și sarcini variabile. Acoperire antistatic și oleo-rezistentă. Profile clasice HI/HJ/HK/HL pentru combine, balotiere, prese. Temperature extremă: -40°C iarna până +80°C în compartimente motor vară. Rezistență UV superioară - nu se degradează la soare. Am echipat combine ce rulează 500h/sezon timp de 5 sezoane fără schimbare curele. Protecție la praf și particule abrazive prin structura cord închis. Montaj rapid în câmp cu scule standard. Lungimi ajustate la dimensiuni utilaje. Compatibilitate roți originale John Deere, Case, Claas, New Holland. Disponibile cu ghidaj lateral sau varianta centrată. Recomandăm comandarea din timp a dimensiunilor populare pentru a evita întreruperi în sezonul agricol.'
       }
     ],
     certifications: [
@@ -118,22 +124,28 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc peste 15 milioane
       'wood-processing',
       'textile'
     ],
-    infinitrade: `Furnizăm curele Optibelt pentru toate aplicațiile industriale - de la profile clasice V până la curele sincrone de precizie și soluții speciale pentru agregate grele. Stocul nostru din Timișoara include dimensiunile populare RED POWER III și OMEGA, iar pentru profile speciale sau lungimi custom aducem rapid din Germania. Calculăm transmisiile folosind software-ul Optibelt și recomandăm soluția optimă pentru fiecare aplicație. Livrăm în 24-72h în România, cu suport tehnic pentru montaj corect și aliniament roți.
-
-Experiența ne arată că investiția în curele premium se recuperează prin eliminarea opririlor neprogramate și costuri reduse de întreținere. Dacă ai utilaje critice unde o curea ruptă costă mii de euro pe oră downtime, Optibelt e alegerea naturală. Contactează-ne pentru recomandări tehnice și oferte.`
+    sources: [
+      { title: 'Optibelt – Arntz Optibelt Group', url: 'https://www.optibelt.com/en/', publisher: 'Arntz Optibelt Group', accessed: '2026-09-22' },
+      { title: 'Optibelt Group – Company', url: 'https://www.optibelt.com/en/company/optibelt-group.html', publisher: 'Arntz Optibelt Group', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem garanta disponibilitate permanentă pe stoc pentru toate profilele și lungimile Optibelt, iar recalcularea tehnică a transmisiilor complexe rămâne responsabilitatea inginerului de proiect.',
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    infinitrade: `Pentru curelele Optibelt, informațiile publice disponibile de la producător stau la baza recomandărilor noastre, nu un stoc propriu pe care să-l putem garanta oricând. Ca regulă generală a firmei, ceea ce avem fizic ajunge la client în 24-72 de ore, iar profilele speciale sau lungimile la comandă vin prin canalele de aprovizionare din UE în aproximativ 2-6 săptămâni. Pentru o estimare corectă, avem nevoie de profilul curelei, dimensiunile roților și puterea transmisă. Nu confirmăm în avans o anumită referință ca fiind disponibilă imediat, dar verificăm rapid și revenim cu un termen realist pentru comanda dumneavoastră.`
   },
 
   'pall': {
     founded: 1946,
     headquarters: 'Port Washington, New York, SUA',
     employees: '11,000+',
-    overview: `Pall Corporation (acum parte din Danaher Corporation din 2015) este lider mondial în tehnologii de filtrare, separare și purificare. Fondată în 1946 de Dr. David Pall, compania a revoluționat filtrarea industrială prin introducerea primului filtru metalic sinterizat pentru avioane militare. Astăzi Pall dezvoltă soluții de filtrare pentru industrii critice: biofarmaceutice, microelectronică, apă ultra-pură, alimentar-băuturi, aerospațial și energie. Când produci medicamente injectabile sau chipuri cu tranzistori de 5nm, nu poți face compromisuri la puritatea mediilor - și aici Pall stabilește standardele.
+    overview: `Pall Corporation (acum parte din Danaher Corporation din 2015) este unul dintre furnizorii globali de top în tehnologii de filtrare, separare și purificare. Fondată în 1946 de Dr. David Pall, compania a revoluționat filtrarea industrială prin introducerea primului filtru metalic sinterizat pentru avioane militare. Astăzi Pall dezvoltă soluții de filtrare pentru industrii critice: biofarmaceutice, microelectronică, apă ultra-pură, alimentar-băuturi, aerospațial și energie. Când produci medicamente injectabile sau chipuri cu tranzistori de 5nm, nu poți face compromisuri la puritatea mediilor - și aici Pall stabilește standardele.
 
-Tehnologia lor de membrane și media filtrante acoperă gamă completă: microfiltrare (0.1-10 μm), ultrafiltrare (0.001-0.1 μm), nanofiltrare și osmoză inversă. Filtrele Pall Supor retin bacterii cu eficiență 99.9999% fără să afecteze fluxul. Supracap combină adsorpție cu filtrare pentru eliminare virusuri și endotoxine din produse biologice. Am văzut instalații de apă ultra-pură pentru semiconductori unde Pall garantează sub 1 ppb particule organice - niveluri greu de măsurat, darămite de atins. Separatoarele lor de ulei-apă recuperează 99.9% din uleiul dispersat din apele industriale, transformând un poluant într-o resursă valorificabilă.
+Tehnologia lor de membrane și media filtrante acoperă gamă completă: microfiltrare (0.1-10 μm), ultrafiltrare (0.001-0.1 μm), nanofiltrare și osmoză inversă. Filtrele Pall Supor retin bacterii cu eficiență 99.9999% fără să afecteze fluxul. Supracap combină adsorpție cu filtrare pentru eliminare virusuri și endotoxine din produse biologice. Se întâlnesc instalații de apă ultra-pură pentru semiconductori unde Pall garantează sub 1 ppb particule organice - niveluri greu de măsurat, darămite de atins. Separatoarele lor de ulei-apă recuperează 99.9% din uleiul dispersat din apele industriale, transformând un poluant într-o resursă valorificabilă.
 
 Pall investește masiv în R&D - peste 400 brevete active și colaborări cu universitățile de top. Facilități de producție în SUA, Europa și Asia asigură supply chain global cu standarde uniforme. FDA, EMA și autoritățile din farma din peste 50 țări au aprobat sistemele Pall pentru producție medicamente critice. Certificări ISO 9001, ISO 13485 (medical), ISO 14001. Noi distribuim Pall pentru că fiabilitatea lor în aplicații critice e dovedită: zero contaminări, batch-uri uniforme, validare completă și suport tehnic de excepție.`,
     whyChoose: [
-      'Lider mondial în filtrare pentru aplicații critice (farma, semiconductori)',
+      'Portofoliu amplu de filtrare pentru aplicații critice (farma, semiconductori)',
       'Membrane Supor și Supracap cu performanță validată FDA/EMA',
       'Sisteme complete de purificare apă (RO, EDI, UV, ultrafiltrare)',
       'Tehnologie separare ulei-apă cu recuperare peste 99%',
@@ -180,18 +192,24 @@ Pall investește masiv în R&D - peste 400 brevete active și colaborări cu uni
       'power-generation',
       'municipal-water'
     ],
-    infinitrade: `La InfiniTrade furnizăm filtre și sisteme Pall pentru aplicații industriale critice - de la cartuși sterile pentru farma până la separatoare ulei-apă și sisteme de purificare. Lucrăm cu producători, laboratoare și instalații care au cerințe stricte de puritate și trebuie să respecte standarde FDA, GMP sau ISO 14644. Oferim consultanță pentru selectarea corectă a tipului de filtru, dimensionarea sistemelor și validarea conformității. Livrăm rapid componentele din stoc Pall Europa și asigurăm suport tehnic pentru instalare și calificare.
-
-Experiența ne arată că în aplicațiile critice nu există loc pentru improvizație - filtrarea trebuie să fie reproductibilă, validabilă și susținută de documentație completă. Pall oferă exact asta. Contactează-ne pentru specificații detaliate, protocol validare sau sisteme turnkey.`
+    sources: [
+      { title: 'About Pall Corporation | Global Leaders in Filtration & Purification Solutions', url: 'https://www.pall.com/en/about-pall.html', publisher: 'Pall Corporation (Danaher)', accessed: '2026-09-22' },
+      { title: 'Pall Corporation', url: 'https://en.wikipedia.org/wiki/Pall_Corporation', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu efectuăm validare IQ/OQ/PQ sau service acoperit de garanția producătorului pentru sistemele Pall și nu confirmăm disponibilitate permanentă pe stoc pentru toate cartușele de filtrare.',
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    infinitrade: `Pentru filtrele și sistemele Pall, plecăm de la ce putem și ce nu putem confirma: nu avem acces la datele interne de stoc ale producătorului și nu validăm noi înșine conformitatea GMP a instalațiilor. Componentele fizice disponibile la noi pleacă în 24-72 de ore, iar cartușele sau sistemele specifice vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 2-6 săptămâni. Pentru un răspuns concret, trimiteți-ne codul cartușului sau specificația tehnică a aplicației (debit, presiune, cerințe de puritate). Confirmăm disponibilitatea reală după verificare, nu înainte.`
   },
 
   'parker-filtration': {
     founded: 1917,
-    headquarters: 'Cleveland, Ohio, SUA',
+    headquarters: 'Mayfield Heights, Ohio, SUA',
     employees: '58,000+ (Parker Hannifin total)',
     overview: `Parker Hannifin este gigantul american al tehnologiilor de mișcare și control, iar divizia Filtration reprezintă una dintre cele mai complete oferte de filtre industriale din lume. Fondată în 1917, compania a evoluat de la simple fittings hidraulice la sisteme integrate de filtrare pentru hidraulică, pneumatică, proces, combustibili și lubrifianți. Când vorbim de Parker Filtration, ne referim la peste 100 de ani de experiență în protejarea echipamentelor scumpe de contaminanți - de la particule solide și apă la varnish și produse de oxidare.
 
-Tehnologia lor de filtrare acoperă toate nevoile industriale: filtre Beta-rated pentru hidraulică (β > 1000 la dimensiuni țintă), separatoare coalescentă pentru aer comprimat (puncte rouă până la -70°C), filtre absolute pentru gaze de proces, sisteme de purificare ulei offline și cartuși high-flow pentru aplicații marine și mobile. Filtrix hIPleated folosește media microfiber cu capacitate de retenție 3x mai mare decât filtrele celulozice clasice. Zander combină filtrare cu adsorbție pentru eliminare vapori ulei din aer comprimat până la <0.003 mg/m³. Am văzut sisteme hidraulice de 500 kW rula 15 ani fără schimb pompă sau valve doar pentru că filtrarea Parker menținea uleiul sub ISO 4406 14/12/9.
+Tehnologia lor de filtrare acoperă toate nevoile industriale: filtre Beta-rated pentru hidraulică (β > 1000 la dimensiuni țintă), separatoare coalescentă pentru aer comprimat (puncte rouă până la -70°C), filtre absolute pentru gaze de proces, sisteme de purificare ulei offline și cartuși high-flow pentru aplicații marine și mobile. Filtrix hIPleated folosește media microfiber cu capacitate de retenție 3x mai mare decât filtrele celulozice clasice. Zander combină filtrare cu adsorbție pentru eliminare vapori ulei din aer comprimat până la <0.003 mg/m³. Se întâlnesc sisteme hidraulice de 500 kW rula 15 ani fără schimb pompă sau valve doar pentru că filtrarea Parker menținea uleiul sub ISO 4406 14/12/9.
 
 Parker investește continuu în R&D - facilitățile lor de testare din SUA și Germania simulează conditii extreme pentru validare produse. Certificări ISO 9001, ISO 14001, plus homologări specifice maritime (DNV, ABS), aeronautice (FAA) și automotive (OEM major). Prezență globală în 50+ țări asigură suport local și delivery rapid. Noi distribuim Parker Filtration pentru că oferă cel mai complet ecosistem: filtre pentru orice aplicație, accesorii compatibile, software de monitoring (PEMIS) și training tehnic avansat.`,
     whyChoose: [
@@ -242,22 +260,28 @@ Parker investește continuu în R&D - facilitățile lor de testare din SUA și 
       'automotive',
       'aerospace'
     ],
-    infinitrade: `Furnizăm filtre Parker pentru sisteme hidraulice, pneumatice și de proces - de la elemente standard până la separatoare specializate și sisteme de purificare ulei. Stocul nostru din Timișoara include filtrele populare seria 9xx și Zander, iar pentru dimensiuni speciale sau cantități mari aducem rapid din rețeaua Parker. Oferim cross-reference pentru înlocuirea filtrelor OEM cu echivalente Parker de calitate superioară la preț competitiv. Livrăm în 24-72h și asigurăm suport tehnic pentru selectarea corectă a clasei de filtrare.
-
-Experiența ne arată că filtrarea corectă prelungește viața componentelor scumpe (pompe, valve, cilindri) cu 3-5x și reduce semnificativ downtimele. Investiția în filtre Parker se recuperează rapid prin economii la mentenanță. Contactează-ne pentru recomandări tehnice sau programe de monitoring preventiv.`
+    sources: [
+      { title: 'Parker-Hannifin', url: 'https://en.wikipedia.org/wiki/Parker_Hannifin', publisher: 'Wikipedia', accessed: '2026-09-22' },
+      { title: 'About Parker | Parker US', url: 'https://www.parker.com/us/en/about-parker.html', publisher: 'Parker Hannifin Corporation', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma disponibilitate permanentă pe stoc pentru întreaga gamă Parker Filtration și nu oferim service acoperit de garanția producătorului pentru sistemele hidraulice complexe.',
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat' }],
+    infinitrade: `Pentru filtrarea Parker, pornim fără date proprii de stoc actualizate în timp real pentru fiecare cod din catalog. Elementele pe care le avem fizic în acest moment pleacă spre client în 24-72 de ore; restul seriei 9xx, Zander sau RACOR ajunge prin canalele noastre de aprovizionare din UE, de regulă în 2-6 săptămâni. Ca să vă putem oferi un termen corect, avem nevoie de codul complet al filtrului sau de specificațiile sistemului (presiune, debit, clasa de filtrare). Nu facem promisiuni de livrare fără să verificăm întâi disponibilitatea reală la furnizor.`
   },
 
   'pepperl-fuchs': {
     founded: 1945,
     headquarters: 'Mannheim, Germania',
     employees: '6,800+',
-    overview: `Pepperl+Fuchs este pionierul tehnologiilor de automatizare pentru zone explozive și lider mondial în senzori industriali inteligenti. Fondată în 1945 în Germania, compania a dezvoltat primul senzor de proximitate cu protecție intrinsec sigură pentru zone ATEX - tehnologie care a revoluționat automatizarea în industria chimică, petrochimică și minieră. Astăzi P+F oferă un ecosistem complet: senzori inductivi/capacitivi/optici, bariere și izolatoare Ex, sisteme de identificare RFID, tehnologie IO-Link și soluții Industrie 4.0. Când automatizezi o platformă offshore sau o rafinărie, componentele P+F sunt adesea singura opțiune certificată pentru zone 0/1/2 gaz și 20/21/22 praf.
+    overview: `Pepperl+Fuchs este pionierul tehnologiilor de automatizare pentru zone explozive și unul dintre furnizorii de top în senzori industriali inteligenți. Fondată în 1945 în Germania, compania a dezvoltat primul senzor de proximitate cu protecție intrinsec sigură pentru zone ATEX - tehnologie care a revoluționat automatizarea în industria chimică, petrochimică și minieră. Astăzi P+F oferă un ecosistem complet: senzori inductivi/capacitivi/optici, bariere și izolatoare Ex, sisteme de identificare RFID, tehnologie IO-Link și soluții Industrie 4.0. Când automatizezi o platformă offshore sau o rafinărie, componentele P+F sunt adesea singura opțiune certificată pentru zone 0/1/2 gaz și 20/21/22 praf.
 
 Tehnologia lor Ex (explosion protection) acoperă toate conceptele: intrinsec sigur (ia/ib), non-incendive (nA/nC), încapsulare (m/o), pressurizare (p) și siguranță crescută (e). Barierele Zener și izolatoarele galvanice permit conectarea senzorilor/actuatorilor din zona periculoasă la PLC-uri din zona sigură cu protecție certificată TÜV, FM, CSA, IECEx. Senzorii inductivi F/V/S acoperă game de detecție 1-60mm cu hysteresis sub 1% și rezistență la câmpuri magnetice externe. Sistemele de viziune industrială VOS detectează 3D pentru robotică sau verifică 100% calitate produse pe linii rapide. RFID-urile UHF citesc sute de tag-uri simultan pentru tracking asset-uri sau piese în producție.
 
 P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare la Mannheim și Singapore pentru validare Ex și medii extreme. Peste 6,000 brevete active și certificări în 40+ țări. Gama lor se extinde de la senzori simpli de câțiva euro până la sisteme process automation de sute de mii euro pentru rafinate și platforms offshore. Noi distribuim Pepperl+Fuchs pentru că oferă soluția certificată pentru orice aplicație - fie că e zonă sigură sau ATEX Zona 0, fie că vorbim de tracking asset-uri sau vision inspection.`,
     whyChoose: [
-      'Lider mondial în echipamente pentru zone explozive (ATEX/IECEx)',
+      'Portofoliu amplu de echipamente pentru zone explozive (ATEX/IECEx)',
       'Gamă completă senzori inductivi/capacitivi/optici IO-Link',
       'Bariere și izolatoare Ex pentru conectare safe area - hazardous area',
       'Sisteme RFID UHF pentru tracking industrial',
@@ -304,9 +328,15 @@ P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare
       'water-treatment',
       'aerospace'
     ],
-    infinitrade: `La InfiniTrade furnizăm senzori și echipamente Pepperl+Fuchs pentru automatizări industriale - de la senzori clasici până la soluții Ex pentru zone ATEX și sisteme RFID/viziune. Oferim consultanță pentru selectarea corectă a echipamentelor în funcție de clasificare zonă (ATEX/IECEx) și cerințe aplicație. Stocul din Timișoara include senzorii populari și barierele standard, iar pentru sisteme complexe RFID sau viziune coordonăm cu specialiștii P+F pentru configurare optimă. Livrăm rapid (24-72h) și asigurăm suport tehnic pentru instalare conformă.
-
-Experiența ne arată că în zone clasificate ATEX nu există loc pentru improvizație - fiecare componentă trebuie certificată și documentată complet. Pepperl+Fuchs oferă portofoliul cel mai complet pentru astfel de aplicații. Contactează-ne pentru specificații detaliate și recomandări conforme cu normele în vigoare.`
+    sources: [
+      { title: 'Welcome to Pepperl+Fuchs Corporate Website', url: 'https://www.pepperl-fuchs.com/global/en/index.htm', publisher: 'Pepperl+Fuchs SE', accessed: '2026-09-22' },
+      { title: 'Pepperl+Fuchs', url: 'https://en.wikipedia.org/wiki/Pepperl%2BFuchs', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu efectuăm certificarea sau recalificarea echipamentelor Pepperl+Fuchs pentru zone ATEX/IECEx și nu confirmăm disponibilitate permanentă pe stoc pentru toate variantele de senzori Ex.',
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    infinitrade: `Pentru echipamentele Pepperl+Fuchs, folosim informațiile publice disponibile ale producătorului și nu deținem un sistem propriu de urmărire a stocului în timp real. Ce avem fizic pleacă, ca regulă generală, în 24-72 de ore; senzorii, barierele sau sistemele RFID mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, în circa 2-6 săptămâni. Pentru zone clasificate ATEX/IECEx, trimiteți-ne clasificarea zonei, tipul de protecție necesar și codul echipamentului. Verificăm disponibilitatea reală înainte de a confirma orice termen și nu facem recomandări fără aceste detalii.`
   },
 
   'permatex': {
@@ -315,7 +345,7 @@ Experiența ne arată că în zone clasificate ATEX nu există loc pentru improv
     employees: '300+',
     overview: `Permatex produce adezivi, etanșanți și produse chimice pentru mentenanță de peste 115 ani și e brandul de încredere al mecanicilor auto, tehnicians industriali și service-urilor de întreținere din întreaga lume. Ce a început ca o mică companie de shellac pentru cauciuc în 1909 s-a transformat în liderul pieței nord-americane de specialty chemicals pentru automotive aftermarket și industrial MRO. Dacă ai schimbat vreodată o garnitură motor sau ai reparat un filet stricat, probabil ai folosit Permatex - Ultra Blue RTV, Threadlocker, Anti-Seize sau Form-A-Gasket. Produsele lor rezolvă probleme practice: scurgeri de ulei, filete slăbite, coroziune, vibratii, contact metal-metal.
 
-Gama Permatex acoperă toate nevoile de mentenanță: etanșanți RTV siliconic (albastru, roșu, negru - rezistență până la 315°C), adezivi anaerobi pentru filete (low/medium/high strength), paste anti-seize (cupru, nichel, ceramic - previne gripare la temperaturi până la 1650°C), adezivi structural (epoxy bi-component, cyanoacrilat), produse curățare (brake cleaner, carb cleaner, degresant), tratamente suprafețe (rust converter, copper spray). The Right Stuff e etanșantul lor magic pentru garnituri motor - înlocuiește garnitura clasică cu o aplicație uniformă care nu curge și polimerizează în prezenţa umidităţii. Loctite (parte din Henkel) poate fi mai known global, dar Permatex domină piața US prin calitate consistentă și preț corect.
+Gama Permatex acoperă toate nevoile de mentenanță: etanșanți RTV siliconic (albastru, roșu, negru - rezistență până la 315°C), adezivi anaerobi pentru filete (low/medium/high strength), paste anti-seize (cupru, nichel, ceramic - previne gripare la temperaturi până la 1650°C), adezivi structural (epoxy bi-component, cyanoacrilat), produse curățare (brake cleaner, carb cleaner, degresant), tratamente suprafețe (rust converter, copper spray). The Right Stuff e etanșantul lor magic pentru garnituri motor - înlocuiește garnitura clasică cu o aplicație uniformă care nu curge și polimerizează în prezența umidității. Loctite (parte din Henkel) poate fi mai known global, dar Permatex domină piața US prin calitate consistentă și preț corect.
 
 Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calității și inovație rapidă bazată pe feedback real din service-uri. Permatex colaborează cu OEM auto majori pentru validare produse în condiții extreme. Când General Motors sau Ford certificate un produs Permatex pentru dealer network, știi că vorbim de top tier. Noi distribuim Permatex pentru că rezolvă probleme practice rapid și fiabil - un tub de Ultra Copper costă €8 și salvează o garnitură custom de €50 care ar veni în 2 săptămâni.`,
     whyChoose: [
@@ -366,9 +396,15 @@ Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calit�
       'hvac',
       'oil-gas'
     ],
-    infinitrade: `Furnizăm gama Permatex pentru service-uri auto, întreținere industrială și aplicații MRO - de la etanșanți RTV și threadlocker-e până la paste anti-seize și produse de curățare. Stocul nostru din Timișoara include produsele populare (Ultra Blue, Threadlocker Blue/Red, Copper Anti-Seize, The Right Stuff) pentru livrare imediată. Aducem rapid și produsele specializate pentru aplicații specific. Oferim suport tehnic pentru selectarea produsului potrivit fiecărei aplicații - temperatura, tipul fluidelor, necesitatea de desfacere ulterioară.
-
-Experiența ne arată că produsele Permatex oferă cel mai bun raport calitate/preț pentru mentenanță - un tub rezolvă problema instant și costă fracțiune din piesa de schimb sau downtimele. Dacă rulezi service auto sau ai echipă de întreținere industrială, Permatex trebuie să fie în toolbox. Contactează-ne pentru recomandări sau oferte volume.`
+    sources: [
+      { title: 'Permatex — Automotive Sealants & Repair Products', url: 'https://www.permatex.com/', publisher: 'Permatex, Inc.', accessed: '2026-09-22' },
+      { title: 'About Permatex', url: 'https://www.permatex.com/about/', publisher: 'Permatex, Inc.', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma disponibilitate permanentă pe stoc pentru fiecare variantă de ambalare Permatex și nu oferim consultanță de aplicare acoperită de garanția producătorului.',
+    evidenceClass: 'zero-evidence',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    infinitrade: `Pentru gama Permatex, nu avem date proprii de stoc valabile pentru fiecare ambalaj sau variantă de produs din catalog. Produsele pe care le deținem fizic pleacă în 24-72 de ore, iar variantele mai rar cerute ajung prin canalele noastre de aprovizionare din UE, de obicei în 2-6 săptămâni. Pentru o recomandare corectă, spuneți-ne aplicația exactă (tipul de îmbinare, temperatura de lucru, fluidul cu care intră în contact) și cantitatea dorită. Confirmăm disponibilitatea reală după verificare, nu promitem livrare imediată doar pentru că produsul apare în catalogul general Permatex.`
   },
 
   'phoenix': {
@@ -377,7 +413,7 @@ Experiența ne arată că produsele Permatex oferă cel mai bun raport calitate/
     employees: '20,000+',
     overview: `Phoenix Contact GmbH & Co. KG este gigantul german al conexiunilor electrice industriale și automatizărilor, fondat în 1923 în Blomberg. Cu peste 100 de ani experiență, compania a evoluat de la simple cleme și conectori la furnizor complet de soluții pentru Industrie 4.0: relee inteligente, alimentatoare switching, controlere PLCnext, protecții supratensiune, IoT gateways. Când construiești un panou electric industrial sau automatizezi o linie de producție, există șanse mari să folosești componente Phoenix Contact - fie că e vorba de o simplă bornă sau de un sistem complet de control distribuit. Calitatea germană se traduce în conexiuni fiabile care rezistă 30+ ani în medii industriale dure.
 
-Tehnologia lor PLCnext combină PLC clasic cu ecosistem deschis Linux și suport pentru limbaje de programare moderne (C++, C#, Python, IEC 61131-3). Poți rula AI/ML algorithms direct pe controler sau integrează Node-RED pentru dashboards custom. Relee RIFLINE asigură separare galvanică și switching până la 16A cu indicator LED status și test button. Alimentatoarele QUINT Power oferă eficiență >95%, power boost pentru porniri grele și signalizare preventivă înainte de fail. Protecțiile supratensiune FLT/TT protejează echipamentele de lovituri fulger și transiente de rețea conform EN 61643-11. Am văzut panouri cu Phoenix Contact în fabrici ce rulează 24/7 de 20+ ani fără înlocuiri - investiția inițială mai mare se amortizează prin zero mentenanță.
+Tehnologia lor PLCnext combină PLC clasic cu ecosistem deschis Linux și suport pentru limbaje de programare moderne (C++, C#, Python, IEC 61131-3). Poți rula AI/ML algorithms direct pe controler sau integrează Node-RED pentru dashboards custom. Relee RIFLINE asigură separare galvanică și switching până la 16A cu indicator LED status și test button. Alimentatoarele QUINT Power oferă eficiență >95%, power boost pentru porniri grele și signalizare preventivă înainte de fail. Protecțiile supratensiune FLT/TT protejează echipamentele de lovituri fulger și transiente de rețea conform EN 61643-11. Se întâlnesc panouri cu Phoenix Contact în fabrici ce rulează 24/7 de 20+ ani fără înlocuiri - investiția inițială mai mare se amortizează prin zero mentenanță.
 
 Prezența globală în peste 100 țări și 50+ facilități de producție asigură availability și suport local. Phoenix Contact investește 8% din cifra de afacari în R&D - focus pe digitalizare, energie regenerabilă, electromobilitate. Certificări complete: ISO 9001, ISO 14001, ATEX, UL, CSA, certificare hardware/software conform IEC 61508 pentru funcții safety. Noi distribuim Phoenix Contact pentru că oferă soluția completă și integrată - de la alimentare și protecție până la control și comunicație IoT - totul din aceeași sursă cu compatibilitate garantată.`,
     whyChoose: [
@@ -428,9 +464,15 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
       'renewable-energy',
       'water-treatment'
     ],
-    infinitrade: `La InfiniTrade furnizăm produsele Phoenix Contact pentru automatizări industriale - de la relee și alimentatoare până la controlere PLCnext și soluții IoT. Stocul nostru din Timișoara include componentele populare (relee PLC-RSC, alimentatoare QUINT, protecții supratensiune) pentru livrare rapidă 24-72h. Pentru controlere PLCnext și sisteme complexe coordonăm cu inginerii Phoenix Contact pentru configurare optimă. Oferim suport tehnic pentru dimensionarea corectă a alimentatoarelor, selectarea protecțiilor și programare PLCnext.
-
-Experiența noastră arată că investiția în componente Phoenix Contact se amortizează prin fiabilitate pe termen lung și costuri reduse de întreținere. Dacă construiești panouri electrice sau automatizări critice, Phoenix Contact oferă ecosistemul complet cu compatibilitate garantată. Contactează-ne pentru recomandări tehnice și oferte personalizate.`
+    sources: [
+      { title: 'Phoenix Contact', url: 'https://en.wikipedia.org/wiki/Phoenix_Contact', publisher: 'Wikipedia', accessed: '2026-09-22' },
+      { title: 'Phoenix Contact USA', url: 'https://www.phoenixcontact.com/en-us/', publisher: 'Phoenix Contact GmbH & Co. KG', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu confirmăm disponibilitate permanentă pe stoc pentru toate referințele Phoenix Contact și nu efectuăm programarea PLCnext ca serviciu de configurare software.',
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    infinitrade: `Pentru componentele Phoenix Contact, plecăm de la ce putem și ce nu putem confirma despre stocul real: nu avem vizibilitate directă asupra depozitelor producătorului. Piesele pe care le avem fizic pleacă în 24-72 de ore; relee, alimentatoare QUINT sau controlere PLCnext mai puțin comune vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 2-6 săptămâni. Pentru un termen exact, trimiteți-ne codul complet al articolului și cantitatea necesară. Nu confirmăm disponibilitate imediată fără o verificare prealabilă la sursă, indiferent cât de comun pare produsul.`
   },
 
   'phoenix-contact': {
@@ -439,7 +481,7 @@ Experiența noastră arată că investiția în componente Phoenix Contact se am
     employees: '20,000+',
     overview: `Phoenix Contact e sinonim cu conexiuni electrice industriale de cea mai înaltă calitate și inovație continuă în tehnologia de conectare. Fondată în 1923, compania a revoluționat panoul electric industrial prin introducerea primelor borniere modulare cu șurub și, mai târziu, a tehnologiei push-in care elimină înșurubarea. Astăzi Phoenix Contact produce cea mai largă gamă de componente pentru conexiuni industriale: borniere pentru toate aplicațiile (putere, semnal, feed-through, disconnect, fuse-holder), conectori industriali M8/M12/M23 pentru fieldbus și senzori, cabluri pre-fabricate, sisteme de marcare și etichetare. Când construiești un panou electric conform IEC 61439, șansele sunt că jumătate din componente vor fi Phoenix Contact.
 
-Tehnologia CLIPLINE stabilește standardul pentru borniere feed-through - contact arc spring-loaded care menține presiune constantă pe conductor eliminând deșurubarea din vibrații. Push-in technology permite inserție conductori rigizi fără scule - economie 50% timp la wiring. Borniere multi-nivel (2,3,4 nivele) economisesc spațiu panou - o bornă de 6mm lățime poate conecta 4 circuite separate. Surge protection terminals integrate varistori în bornă standard - protecție supratensiune fără componente extra. Disconnect terminals cu lever permit deconectare rapidă circuit fără deșurubat fire. Connectorii M12 X-coded pentru 10 Gigabit Ethernet în fieldbus, T-coded pentru DC power până la 16A, L-coded pentru PROFINET. Catalogul Phoenix depășește 50,000 SKU-uri - există soluție pentru orice aplicație.
+Tehnologia CLIPLINE stabilește standardul pentru borniere feed-through - contact arc spring-loaded care menține presiune constantă pe conductor eliminând deșurubarea din vibrații. Push-in technology permite inserție conductori rigizi fără scule - economie 50% timp la wiring. Borniere multi-nivel (2,3,4 nivele) economisesc spațiu panou - o bornă de 6mm lățime poate conecta 4 circuite separate. Surge protection terminals integrate varistori în bornă standard - protecție supratensiune fără componente extra. Disconnect terminals cu lever permit deconectare rapidă circuit fără deșurubat fire. Connectorii M12 X-coded pentru 10 Gigabit Ethernet în fieldbus, T-coded pentru DC power până la 16A, L-coded pentru PROFINET. Catalogul Phoenix acoperă o gamă foarte largă de componente - există soluție pentru orice aplicație.
 
 Cu 18 facilități de producție în Europa, Asia și America și peste 60 de filiale, Phoenix Contact asigură disponibilitate globală și suport tehnic local. Certificări complete: UL, CSA, DNV, ABS, ATEX, IECEx, GOST. Software-ul CLIP-PROJECT permite design automatizat panou electric - importă lista fire, software-ul generează layout borniere, liste comenzi, etichete și documentație. Noi distribuim Phoenix Contact pentru că oferă calitate germană dovedită și ecosistem complet pentru orice panou electric - de la o bornieră simplă la sisteme complete de cablare prefabricată.`,
     whyChoose: [
@@ -490,9 +532,15 @@ Cu 18 facilități de producție în Europa, Asia și America și peste 60 de fi
       'building-automation',
       'water-treatment'
     ],
-    infinitrade: `Furnizăm borniere și conectori Phoenix Contact pentru constructori de panouri, integratori și departamente de întreținere - de la borniere CLIPLINE standard până la conectori M12 specializați și sisteme complete de etichetare. Stocul nostru din Timișoara include tipurile populare PT 2.5, PT 4, borniere multi-level și conectori fieldbus pentru livrare rapidă. Pentru proiecte mari de panouri oferim consultanță layout și acces la software-ul CLIP-PROJECT pentru design automatizat. Livrăm în 24-72h componentele standard și coordonăm rapid pentru cantități mari sau configurații speciale.
-
-Experiența ne arată că timpul economisit la wiring cu tehnologia push-in Phoenix Contact se amortizează imediat la primul panou - fără înșurubări, fără pierdere strângere din vibrații, fără re-work. Dacă construiești panouri conform IEC 61439 sau ai mentenanță intensivă, Phoenix Contact e investiția corectă. Contactează-ne pentru recomandări tehnice și oferte volume.`
+    sources: [
+      { title: 'Phoenix Contact', url: 'https://en.wikipedia.org/wiki/Phoenix_Contact', publisher: 'Wikipedia', accessed: '2026-09-22' },
+      { title: 'Phoenix Contact USA', url: 'https://www.phoenixcontact.com/en-us/', publisher: 'Phoenix Contact GmbH & Co. KG', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem garanta disponibilitate permanentă pe stoc pentru întreaga gamă de borniere și conectori Phoenix Contact, iar service-ul acoperit de garanția producătorului rămâne responsabilitatea acestuia.',
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    infinitrade: `Pentru borniere și conectori Phoenix Contact, lucrăm din informațiile publice disponibile ale producătorului, nu dintr-un sistem intern de gestiune a stocului actualizat live. Referințele pe care le deținem fizic pleacă în 24-72 de ore, iar tipurile de bornă mai puțin cerute sau conectorii M12 specializați ajung prin canalele noastre de aprovizionare din UE în aproximativ 2-6 săptămâni. Pentru un răspuns rapid și corect, trimiteți-ne codul CLIPLINE sau seria conectorului, plus cantitatea necesară. Nu estimăm termene fără să verificăm întâi disponibilitatea reală, chiar dacă referința pare una standard din catalog.`
   },
 
   'pilz': {
@@ -505,7 +553,7 @@ Tehnologia PNOZ acoperă toate funcțiile de siguranță: monitorizare emergency
 
 Cu peste 40 filiale globale și prezență în 70+ țări, Pilz asigură suport tehnic local și training certificat conform standardelor de siguranță. Certificări TÜV pentru toate produsele safety conform IEC 61508, ISO 13849, IEC 62061. Software gratuit PAScal pentru calculul Performance Level și dimensionarea corectă a sistemului safety. Noi distribuim Pilz pentru că siguranța nu acceptă compromisuri - componentele lor sunt validate, documentate complet și acceptate de inspectorii de muncă din toată lumea.`,
     whyChoose: [
-      'Lider mondial în safety automation cu peste 75 ani experiență',
+      'Peste 75 de ani de experiență în safety automation',
       'Relee safety PNOZ certificate SIL3/PLe conform EN ISO 13849-1',
       'Light curtains PSENopt și safety scanners PSENscan pentru robotică',
       'Controlere safety PNOZmulti și PLC PSS4000 cu logică programabilă',
@@ -552,14 +600,20 @@ Cu peste 40 filiale globale și prezență în 70+ țări, Pilz asigură suport 
       'metalworking',
       'logistics'
     ],
-    infinitrade: `La InfiniTrade furnizăm componente Pilz pentru automatizări safety - de la relee PNOZ și controlere PNOZmulti până la light curtains PSENopt și safety scanners. Oferim consultanță pentru dimensionarea corectă a sistemului safety conform EN ISO 13849-1 și calculul Performance Level necesar. Stocul din Timișoara include relee populare PNOZ X pentru livrare rapidă, iar pentru sisteme complexe (PNOZmulti, PSENscan) coordonăm cu inginerii Pilz pentru configurare și validare. Livrăm în 24-72h componentele standard și asigurăm documentație completă pentru inspectorii ITM.
-
-Experiența ne arată că investiția în safety Pilz previne accidente și asigură conformitate cu legislația - un sistem safety corect dimensionat protejează operatorii și elimină riscul de amenzi sau oprire producție. Contactează-ne pentru audit safety gratuit și recomandări conforme cu standardele în vigoare.`
+    sources: [
+      { title: 'About us – Leaders in safe automation - Pilz INT', url: 'https://www.pilz.com/en-INT/company', publisher: 'Pilz GmbH & Co. KG', accessed: '2026-09-22' },
+      { title: 'Company History - Pilz INT', url: 'https://www.pilz.com/en-INT/company/history', publisher: 'Pilz GmbH & Co. KG', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu efectuăm calculul oficial al Performance Level sau validarea de siguranță ca serviciu propriu și nu confirmăm disponibilitate permanentă pe stoc pentru toate componentele PNOZ.',
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    infinitrade: `Pentru echipamentele de siguranță Pilz, pornim de la surse publice ale producătorului și nu deținem noi calculul oficial de Performance Level pentru mașina dumneavoastră. Componentele fizice disponibile la noi pleacă în 24-72 de ore; relee PNOZ, light curtains sau scannere mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, de regulă în 2-6 săptămâni. Pentru o ofertă corectă, trimiteți-ne categoria de siguranță necesară, tipul aplicației și codul componentei dacă îl aveți deja. Verificăm disponibilitatea reală înainte de a confirma un termen, mai ales pentru sistemele complexe PNOZmulti sau PSENscan.`
   },
 
   'pneumax': {
     founded: 1976,
-    headquarters: 'Brescia, Italia',
+    headquarters: 'Lurano (Bergamo), Italia',
     employees: '500+',
     overview: `Pneumax S.p.A. este producător italian de componente pneumatice cu focalizare pe calitate, inovație și flexibilitate. Fondată în 1976 în Brescia, compania a crescut de la un atelier de prelucrare mecanică la unul dintre furnizorii europeni de top pentru cilindri pneumatici, valve, FRL-uri (Filter-Regulator-Lubricator) și accesorii. Filosofia Pneumax e simplă: oferă calitate italiană la prețuri competitive și răspunde rapid la cerințe custom - de la cilindri cu curse speciale până la manifolduri valve configure la comandă. Când ai nevoie de 50 cilindri Ø40 cu cursă 380mm livrați în 3 zile, Pneumax livrează. Flexibility și customer service sunt punctele lor forte.
 
@@ -614,8 +668,14 @@ Cu facilități de producție în Italia și distribution în 60+ țări, Pneuma
       'plastic-processing',
       'metalworking'
     ],
-    infinitrade: `Furnizăm componente pneumatice Pneumax pentru automatizări industriale - de la cilindri ISO și valve până la insule fieldbus și accesorii. Stocul nostru din Timișoara include cilindrii și valvele populare pentru livrare rapidă 24-72h. Pentru configurații custom (curse speciale, manifolduri la comandă) coordonăm direct cu fabrica Pneumax din Italia - lead-time 2-3 săptămâni pentru majority special requests. Oferim suport tehnic pentru dimensionarea cilindrilor (forță necesară, viteză, consum aer) și selectarea valvelor potrivite.
-
-Experiența ne arată că Pneumax oferă cel mai bun raport calitate/preț pentru aplicații industriale standard - calitate europeană la cost semnificativ mai mic decât brandurile premium. Dacă construiești mașini sau ai mentenanță intensivă, Pneumax e alegerea smart. Contactează-ne pentru recomandări tehnice și oferte volume.`
+    sources: [
+      { title: 'Pneumax Group | Company', url: 'https://pneumaxspa.com/en/company/', publisher: 'Pneumax S.p.A.', accessed: '2026-09-22' },
+      { title: 'Pneumax Company Profile', url: 'https://pneumaxspa.com/repository/ebook/EN/COMPANY-PROFILE-EN/index.html', publisher: 'Pneumax S.p.A.', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma disponibilitate permanentă pe stoc pentru curse și configurații custom Pneumax, iar producția pieselor speciale depinde de programul fabricii din Italia.',
+    evidenceClass: 'history-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat' }],
+    infinitrade: `Pentru pneumatica Pneumax, nu avem niciun fapt propriu verificat despre stocul exact al fabricii din Italia la un moment dat. Cilindrii și valvele standard pe care le deținem fizic pleacă în 24-72 de ore; configurațiile custom (curse speciale, manifolduri la comandă) ajung prin canalele noastre de aprovizionare din UE, de obicei în 2-6 săptămâni. Pentru un termen realist, trimiteți-ne diametrul și cursa cilindrului sau schema manifoldului dorit, împreună cu cantitatea necesară. Nu promitem livrare rapidă pentru configurații speciale fără să confirmăm întâi disponibilitatea la fabrică.`
   }
 };

@@ -2,7 +2,7 @@
  * src/data/brandsExtension.js — GENERATED FILE. Do not hand-edit.
  *
  * Regenerate with:  node scripts/build-brands-extension.mjs
- * Source: .planning/brands-500/brands-new-confirmed.json (474 brands, wave 2026-09)
+ * Source: .planning/brands-500/brands-new-confirmed.json (726 brands, wave 2026-09)
  *
  * Program "Branduri-500" (owner decision D-2026-09-21, see
  * .planning/brands-500/SUPERPROMPT.md): brands added on top of the original
@@ -42,6 +42,17 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "AuCom",
+      "slug": "aucom",
+      "country": "Noua Zeelandă",
+      "description": "Softstartere de joasă și medie tensiune pentru motoare electrice",
+      "featured": false,
+      "officialUrl": "https://www.aucom.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Danfoss"
+    },
+    {
       "name": "Autonics",
       "slug": "autonics",
       "country": "Coreea de Sud",
@@ -64,6 +75,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Siemens"
     },
     {
+      "name": "Benshaw",
+      "slug": "benshaw",
+      "country": "SUA",
+      "description": "Softstartere și convertizoare de frecvență de joasă/medie tensiune",
+      "featured": false,
+      "officialUrl": "https://www.benshaw.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Danfoss"
+    },
+    {
       "name": "Carlo Gavazzi",
       "slug": "carlo-gavazzi",
       "country": "Elveția",
@@ -73,6 +95,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Finder"
+    },
+    {
+      "name": "Circutor",
+      "slug": "circutor",
+      "country": "Spania",
+      "description": "Softstartere și echipamente electrice de eficiență energetică",
+      "featured": false,
+      "officialUrl": "https://www.circutor.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Danfoss"
     },
     {
       "name": "Dataforth",
@@ -229,6 +262,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Omron"
     },
     {
+      "name": "Inovance",
+      "slug": "inovance",
+      "country": "China",
+      "description": "Convertizoare de frecvență și servodrivere pentru automatizări",
+      "featured": false,
+      "officialUrl": "https://www.inovance.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Danfoss"
+    },
+    {
       "name": "INVT",
       "slug": "invt",
       "country": "China",
@@ -372,6 +416,17 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "Power Electronics",
+      "slug": "power-electronics",
+      "country": "Spania",
+      "description": "Convertizoare de frecvență industriale de joasă și medie tensiune",
+      "featured": false,
+      "officialUrl": "https://www.power-electronics.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Danfoss"
+    },
+    {
       "name": "Red Lion Controls",
       "slug": "red-lion-controls",
       "country": "SUA",
@@ -394,6 +449,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Pilz"
     },
     {
+      "name": "Santerno",
+      "slug": "santerno",
+      "country": "Italia",
+      "description": "Invertoare industriale pentru control de motoare și sisteme fotovoltaice",
+      "featured": false,
+      "officialUrl": "http://www.enertronicasanterno.it/?lang=en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Danfoss"
+    },
+    {
       "name": "Schmersal",
       "slug": "schmersal",
       "country": "Germania",
@@ -405,6 +471,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Pilz"
     },
     {
+      "name": "Sevcon",
+      "slug": "sevcon",
+      "country": "Marea Britanie",
+      "description": "Controlere de motor CA și CC pentru vehicule electrice industriale",
+      "featured": false,
+      "officialUrl": "https://www.sevcon.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
       "name": "Siko",
       "slug": "siko",
       "country": "Germania",
@@ -414,6 +491,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "complementary"
+    },
+    {
+      "name": "Solcon-IGEL",
+      "slug": "solcon-igel",
+      "country": "Israel",
+      "description": "Softstartere de joasă și medie tensiune pentru motoare",
+      "featured": false,
+      "officialUrl": "https://solconigel.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Danfoss"
+    },
+    {
+      "name": "Sprint Electric",
+      "slug": "sprint-electric",
+      "country": "Marea Britanie",
+      "description": "Regulatoare și convertizoare digitale pentru motoare de curent continuu",
+      "featured": false,
+      "officialUrl": "https://www.sprint-electric.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Danfoss"
     },
     {
       "name": "TR Electronic",
@@ -436,6 +535,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Siemens"
+    },
+    {
+      "name": "Veichi",
+      "slug": "veichi",
+      "country": "China",
+      "description": "Convertizoare de frecvență de joasă și medie tensiune",
+      "featured": false,
+      "officialUrl": "https://www.veichi.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Danfoss"
     },
     {
       "name": "Weintek",
@@ -469,6 +579,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Phoenix Contact"
+    },
+    {
+      "name": "Zapi Group",
+      "slug": "zapi-group",
+      "country": "Italia",
+      "description": "Controlere electronice pentru motoare electrice și vehicule industriale",
+      "featured": false,
+      "officialUrl": "https://www.zapigroup.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
     }
   ],
   "componente-mecanice": [
@@ -559,6 +680,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Bonfiglioli"
+    },
+    {
+      "name": "Benzlers",
+      "slug": "benzlers",
+      "country": "Suedia",
+      "description": "Reductoare industriale și cuplaje pentru transmisii de putere",
+      "featured": false,
+      "officialUrl": "https://benzlers.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Flender"
     },
     {
       "name": "Bishop-Wisecarver",
@@ -715,6 +847,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Bonfiglioli"
     },
     {
+      "name": "Elecon",
+      "slug": "elecon",
+      "country": "India",
+      "description": "Reductoare industriale și transmisii mecanice de putere",
+      "featured": false,
+      "officialUrl": "https://www.elecon.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Flender"
+    },
+    {
       "name": "Elesa+Ganter",
       "slug": "elesa-ganter",
       "country": "Italy",
@@ -724,6 +867,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Norelem"
+    },
+    {
+      "name": "Exlar",
+      "slug": "exlar",
+      "country": "SUA",
+      "description": "Actuatoare liniare electromecanice cu șurub cu role/bile",
+      "featured": false,
+      "officialUrl": "https://www.exlar.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Thomson Industries"
     },
     {
       "name": "Fabreeka",
@@ -759,6 +913,17 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Fluiten",
+      "slug": "fluiten",
+      "country": "Italia",
+      "description": "Etanșări mecanice interne și externe pentru pompe industriale",
+      "featured": false,
+      "officialUrl": "https://fluiten.com/it/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:John Crane"
+    },
+    {
       "name": "Franke GmbH",
       "slug": "franke-gmbh",
       "country": "Germany",
@@ -779,6 +944,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Klinger"
+    },
+    {
+      "name": "Frizlen",
+      "slug": "frizlen",
+      "country": "Germania",
+      "description": "Rezistențe de frânare și de sarcină pentru sisteme de acționare",
+      "featured": false,
+      "officialUrl": "https://www.frizlen.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
     },
     {
       "name": "FYH",
@@ -847,6 +1023,17 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Haacon",
+      "slug": "haacon",
+      "country": "Germania",
+      "description": "Cricuri mecanice și tehnică de ridicare pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.haacon.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Thomson Industries"
+    },
+    {
       "name": "Halder",
       "slug": "halder",
       "country": "Germany",
@@ -858,6 +1045,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Norelem"
     },
     {
+      "name": "Harmonic Drive",
+      "slug": "harmonic-drive",
+      "country": "Germania",
+      "description": "Reductoare armonice de precizie pentru sisteme servo",
+      "featured": false,
+      "officialUrl": "https://www.harmonicdrive.de/en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Wittenstein alpha"
+    },
+    {
       "name": "HepcoMotion",
       "slug": "hepcomotion",
       "country": "UK",
@@ -867,6 +1065,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:THK"
+    },
+    {
+      "name": "Huhnseal",
+      "slug": "huhnseal",
+      "country": "Suedia",
+      "description": "Etanșări mecanice cu cartuș pentru echipamente rotative",
+      "featured": false,
+      "officialUrl": "https://www.huhnseal.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:EagleBurgmann"
+    },
+    {
+      "name": "Hutchinson",
+      "slug": "hutchinson",
+      "country": "FR",
+      "description": "Garnituri, curele si componente anti-vibratie industriale",
+      "featured": false,
+      "officialUrl": "https://www.hutchinson.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "old-site-listed"
     },
     {
       "name": "IKO",
@@ -1023,6 +1243,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Norelem"
     },
     {
+      "name": "Kumera",
+      "slug": "kumera",
+      "country": "Finlanda",
+      "description": "Reductoare industriale de mare putere, construcție personalizată",
+      "featured": false,
+      "officialUrl": "https://www.kumera.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Flender"
+    },
+    {
       "name": "Lesjöfors",
       "slug": "lesjofors",
       "country": "Sweden",
@@ -1032,6 +1263,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "convergent"
+    },
+    {
+      "name": "LinMot",
+      "slug": "linmot",
+      "country": "Elveția",
+      "description": "Motoare liniare pentru poziționare dinamică de precizie",
+      "featured": false,
+      "officialUrl": "https://www.linmot.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Thomson Industries"
     },
     {
       "name": "Mayr",
@@ -1232,6 +1474,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Tsubaki"
     },
     {
+      "name": "Pintsch Bubenzer",
+      "slug": "pintsch-bubenzer",
+      "country": "Germania/Suedia",
+      "description": "Frâne industriale pentru poduri rulante, macarale și mori",
+      "featured": false,
+      "officialUrl": "https://www.dellnerbubenzer.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Mayr"
+    },
+    {
       "name": "PMI",
       "slug": "pmi",
       "country": "Taiwan",
@@ -1263,6 +1516,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "convergent"
+    },
+    {
+      "name": "Radicon",
+      "slug": "radicon",
+      "country": "Marea Britanie",
+      "description": "Reductoare și motoreductoare industriale",
+      "featured": false,
+      "officialUrl": "https://radicon.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Flender"
     },
     {
       "name": "RBC Bearings",
@@ -1298,6 +1562,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Renold"
     },
     {
+      "name": "Renk",
+      "slug": "renk",
+      "country": "Germania",
+      "description": "Reductoare industriale de mare putere și cuplaje de transmisie",
+      "featured": false,
+      "officialUrl": "https://www.renk.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Flender"
+    },
+    {
       "name": "Ringfeder",
       "slug": "ringfeder",
       "country": "Germany",
@@ -1307,6 +1582,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:KTR"
+    },
+    {
+      "name": "Ringspann",
+      "slug": "ringspann",
+      "country": "Germania",
+      "description": "Roți libere, frâne industriale și cuplaje de arbori",
+      "featured": false,
+      "officialUrl": "https://www.ringspann.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Mayr"
     },
     {
       "name": "RK Rose+Krieger",
@@ -1340,6 +1626,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Bosch Rexroth"
+    },
+    {
+      "name": "Roten",
+      "slug": "roten",
+      "country": "Italia",
+      "description": "Etanșări mecanice cu arc simplu sau multiplu pentru pompe",
+      "featured": false,
+      "officialUrl": "https://roten-seals.com/company/?lang=en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:AESSEAL"
     },
     {
       "name": "Rothe Erde",
@@ -1395,6 +1692,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Tsubaki"
+    },
+    {
+      "name": "Servomech",
+      "slug": "servomech",
+      "country": "Italia",
+      "description": "Martinete mecanice și actuatoare liniare cu șurub trapezoidal/cu bile",
+      "featured": false,
+      "officialUrl": "https://servomech.com/it/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Thomson Industries"
     },
     {
       "name": "SFS",
@@ -1496,6 +1804,17 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "Tandler",
+      "slug": "tandler",
+      "country": "Germania",
+      "description": "Reductoare conice și servo-reductoare de precizie",
+      "featured": false,
+      "officialUrl": "https://www.tandler.de",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Flender"
+    },
+    {
       "name": "TBI Motion",
       "slug": "tbi-motion",
       "country": "Taiwan",
@@ -1573,6 +1892,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Bonfiglioli"
     },
     {
+      "name": "Vulcan Seals",
+      "slug": "vulcan-seals",
+      "country": "Marea Britanie",
+      "description": "Etanșări mecanice, garnituri de presetupă și inele încapsulate",
+      "featured": false,
+      "officialUrl": "https://www.vulcanseals.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Chesterton"
+    },
+    {
       "name": "Warner Electric",
       "slug": "warner-electric",
       "country": "SUA",
@@ -1626,6 +1956,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:SKF"
+    },
+    {
+      "name": "Zollern",
+      "slug": "zollern",
+      "country": "Germania",
+      "description": "Reductoare industriale și sisteme de lagăre hidrostatice",
+      "featured": false,
+      "officialUrl": "https://www.zollern.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Flender"
     }
   ],
   "echipamente-auxiliare": [
@@ -1663,6 +2004,17 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Hamworthy",
+      "slug": "hamworthy",
+      "country": "Marea Britanie",
+      "description": "Sisteme de pompare și tratare a apelor uzate pentru nave",
+      "featured": false,
+      "officialUrl": "https://www.hamworthy.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
       "name": "Kessel",
       "slug": "kessel",
       "country": "Germania",
@@ -1672,6 +2024,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "complementary"
+    },
+    {
+      "name": "REMBE",
+      "slug": "rembe",
+      "country": "Germania",
+      "description": "Discuri de rupere și sisteme de protecție la explozie",
+      "featured": false,
+      "officialUrl": "https://rembe.de",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
     },
     {
       "name": "STAHL CraneSystems",
@@ -2327,6 +2690,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Trane"
     },
     {
+      "name": "Baltur",
+      "slug": "baltur",
+      "country": "Italia",
+      "description": "Arzatoare industriale pentru cazane si instalatii termice",
+      "featured": false,
+      "officialUrl": "https://www.baltur.com/it/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Spirax Sarco Thermal"
+    },
+    {
       "name": "Chromalox",
       "slug": "chromalox",
       "country": "SUA",
@@ -2402,6 +2776,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Trane"
+    },
+    {
+      "name": "Weishaupt",
+      "slug": "weishaupt",
+      "country": "Germania",
+      "description": "Arzatoare industriale pe gaz si motorina pentru cazane",
+      "featured": false,
+      "officialUrl": "https://weishaupt.de",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Spirax Sarco Thermal"
     }
   ],
   "filtre-consumabile": [
@@ -2672,6 +3057,17 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "CIMCOOL",
+      "slug": "cimcool",
+      "country": "SUA",
+      "description": "Fluide de racire si emulsii pentru prelucrarea metalelor",
+      "featured": false,
+      "officialUrl": "https://cimcool.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
+    },
+    {
       "name": "Fuchs Lubricants",
       "slug": "fuchs-lubricants",
       "country": "Germania",
@@ -2806,6 +3202,28 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Bodine Electric",
+      "slug": "bodine-electric",
+      "country": "SUA",
+      "description": "Motoreductoare de fracțiune HP și motoare CC, CA și BLDC",
+      "featured": false,
+      "officialUrl": "https://www.bodine-electric.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Baldor"
+    },
+    {
+      "name": "Cemp",
+      "slug": "cemp",
+      "country": "Italia",
+      "description": "Motoare electrice antideflagrante IEC pentru zone cu risc de explozie",
+      "featured": false,
+      "officialUrl": "https://www.cemp-international.it",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
       "name": "Crouzet",
       "slug": "crouzet",
       "country": "Franța",
@@ -2817,6 +3235,72 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "Elprom Harmanli",
+      "slug": "elprom-harmanli",
+      "country": "Bulgaria",
+      "description": "Motoare electrice asincrone IEC, trifazate și monofazate",
+      "featured": false,
+      "officialUrl": "https://www.elprommotors.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "EMG Elettromeccanica",
+      "slug": "emg-elettromeccanica",
+      "country": "Italia",
+      "description": "Motoare electrice trifazate IE3 de eficiență ridicată",
+      "featured": false,
+      "officialUrl": "http://www.emgelettromeccanica.it",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "Felm",
+      "slug": "felm",
+      "country": "Italia",
+      "description": "Motoare electrice asincrone trifazate pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.felm.it",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "Groschopp",
+      "slug": "groschopp",
+      "country": "SUA",
+      "description": "Motoare de fracțiune HP și motoreductoare CC, CA și BLDC",
+      "featured": false,
+      "officialUrl": "https://www.groschopp.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Baldor"
+    },
+    {
+      "name": "Hitachi Industrial Equipment Systems",
+      "slug": "hitachi-industrial-equipment-systems",
+      "country": "Japonia",
+      "description": "Motoare electrice industriale de eficiență ridicată",
+      "featured": false,
+      "officialUrl": "https://www.hitachi-ies.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "Hoyer Motors",
+      "slug": "hoyer-motors",
+      "country": "Danemarca",
+      "description": "Motoare electrice marine și industriale de uz general",
+      "featured": false,
+      "officialUrl": "https://hoyermotors.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Leroy Somer"
+    },
+    {
       "name": "HSD",
       "slug": "hsd",
       "country": "Italia",
@@ -2825,6 +3309,17 @@ export const BRANDS_EXTENSION = {
       "officialUrl": "https://www.hsd.it",
       "wave": "2026-09",
       "signal": "ro",
+      "relation": "convergent"
+    },
+    {
+      "name": "Italvibras",
+      "slug": "italvibras",
+      "country": "Italia",
+      "description": "Vibromotoare electrice pentru buncăre, site și transportoare vibrante",
+      "featured": false,
+      "officialUrl": "https://www.italvibras.it",
+      "wave": "2026-09",
+      "signal": "intl",
       "relation": "convergent"
     },
     {
@@ -2839,6 +3334,28 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Kollmorgen"
     },
     {
+      "name": "Mecc Alte",
+      "slug": "mecc-alte",
+      "country": "Italia",
+      "description": "Alternatoare industriale pentru grupuri electrogene",
+      "featured": false,
+      "officialUrl": "https://www.meccalte.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Leroy Somer"
+    },
+    {
+      "name": "Menzel Elektromotoren",
+      "slug": "menzel-elektromotoren",
+      "country": "Germania",
+      "description": "Motoare electrice industriale de joasă și medie tensiune",
+      "featured": false,
+      "officialUrl": "https://www.menzel-motors.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
       "name": "Nanotec",
       "slug": "nanotec",
       "country": "Germania",
@@ -2848,6 +3365,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Kollmorgen"
+    },
+    {
+      "name": "Neri Motori",
+      "slug": "neri-motori",
+      "country": "Italia",
+      "description": "Motoare electrice asincrone trifazate pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.nerimotori.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "OLI Vibrators",
+      "slug": "oli-vibrators",
+      "country": "Italia",
+      "description": "Vibromotoare electrice și pneumatice pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.olivibra.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
     },
     {
       "name": "Oriental Motor",
@@ -2894,6 +3433,28 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Kollmorgen"
     },
     {
+      "name": "Seipee",
+      "slug": "seipee",
+      "country": "Italia",
+      "description": "Motoare electrice industriale de înaltă eficiență",
+      "featured": false,
+      "officialUrl": "https://www.seipee.it",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "Toshiba International Corporation",
+      "slug": "toshiba-international-corporation",
+      "country": "Japonia/SUA",
+      "description": "Motoare electrice industriale și convertizoare de frecvență",
+      "featured": false,
+      "officialUrl": "https://www.toshiba.com/tic/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
       "name": "Van der Graaf",
       "slug": "van-der-graaf",
       "country": "Canada",
@@ -2903,9 +3464,53 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "convergent"
+    },
+    {
+      "name": "Volt Motor",
+      "slug": "volt-motor",
+      "country": "Turcia",
+      "description": "Motoare electrice industriale trifazate de uz general",
+      "featured": false,
+      "officialUrl": "https://voltmotor.com.tr/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "Wölfer Motoren",
+      "slug": "wolfer-motoren",
+      "country": "Germania",
+      "description": "Motoare electrice speciale pentru aplicații industriale",
+      "featured": false,
+      "officialUrl": "https://www.woelfer-motoren.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ABB"
     }
   ],
   "pompe-industriale": [
+    {
+      "name": "A.R. Wilfley & Sons",
+      "slug": "a-r-wilfley-sons",
+      "country": "Statele Unite",
+      "description": "Pompe centrifuge robuste pentru nămol și fluide chimice",
+      "featured": false,
+      "officialUrl": "https://www.wilfley.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Weir Minerals"
+    },
+    {
+      "name": "All-Flo Pump",
+      "slug": "all-flo-pump",
+      "country": "Statele Unite",
+      "description": "Pompe pneumatice cu diafragmă dublă pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.psgdover.com/all-flo",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Wilden"
+    },
     {
       "name": "Ampco Pumps",
       "slug": "ampco-pumps",
@@ -2940,6 +3545,39 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Almatec"
     },
     {
+      "name": "Azcue",
+      "slug": "azcue",
+      "country": "Spania",
+      "description": "Pompe centrifuge marine, industriale și pentru incendiu",
+      "featured": false,
+      "officialUrl": "https://www.azcuepumps.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Desmi"
+    },
+    {
+      "name": "Barmesa Pumps",
+      "slug": "barmesa-pumps",
+      "country": "Statele Unite",
+      "description": "Pompe centrifuge multietajate și submersibile pentru drenaj",
+      "featured": false,
+      "officialUrl": "https://www.barmesapumps.com/US/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Franklin Electric"
+    },
+    {
+      "name": "Blacoh Industries",
+      "slug": "blacoh-industries",
+      "country": "Statele Unite",
+      "description": "Amortizoare de pulsații și supape de siguranță pentru pompe",
+      "featured": false,
+      "officialUrl": "https://www.blacoh.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Blue-White Industries",
       "slug": "blue-white-industries",
       "country": "SUA",
@@ -2949,6 +3587,39 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:ProMinent"
+    },
+    {
+      "name": "Bombas Hasa",
+      "slug": "bombas-hasa",
+      "country": "Spania",
+      "description": "Pompe submersibile și stații de pompare pentru apă",
+      "featured": false,
+      "officialUrl": "https://www.bombashasa.com/es/bombas-de-agua/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Pedrollo"
+    },
+    {
+      "name": "Bombas Ideal",
+      "slug": "bombas-ideal",
+      "country": "Spania",
+      "description": "Pompe orizontale, verticale, submersibile și pentru incendiu",
+      "featured": false,
+      "officialUrl": "https://www.bombasideal.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Calpeda"
+    },
+    {
+      "name": "Bominox",
+      "slug": "bominox",
+      "country": "Belgia",
+      "description": "Pompe centrifuge sanitare din inox pentru industria alimentară",
+      "featured": false,
+      "officialUrl": "https://www.bominox.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Ampco Pumps"
     },
     {
       "name": "Börger",
@@ -2995,12 +3666,67 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Blackmer"
     },
     {
+      "name": "CP Pumpen",
+      "slug": "cp-pumpen",
+      "country": "Elveția",
+      "description": "Pompe centrifuge etanșe cu cuplaj magnetic pentru fluide dificile",
+      "featured": false,
+      "officialUrl": "https://www.cp-pumps.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Hermetic-Pumpen"
+    },
+    {
+      "name": "CRI Pumps",
+      "slug": "cri-pumps",
+      "country": "India",
+      "description": "Pompe industriale, agricole și submersibile de mare capacitate",
+      "featured": false,
+      "officialUrl": "https://www.crigroups.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Franklin Electric"
+    },
+    {
+      "name": "CSF Inox",
+      "slug": "csf-inox",
+      "country": "Italia",
+      "description": "Pompe centrifuge și volumetrice din inox pentru industria alimentară",
+      "featured": false,
+      "officialUrl": "https://www.csf.it/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Fristam Pumpen"
+    },
+    {
+      "name": "Darley (W.S. Darley & Co)",
+      "slug": "darley",
+      "country": "Statele Unite",
+      "description": "Pompe și echipamente pentru autospeciale de intervenție",
+      "featured": false,
+      "officialUrl": "https://www.darley.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Debem",
       "slug": "debem",
       "country": "Italia",
       "description": "Pompe pneumatice cu membrană pentru industrie și chimie",
       "featured": false,
       "officialUrl": "https://www.debem.com/it/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Wilden"
+    },
+    {
+      "name": "Dellmeco",
+      "slug": "dellmeco",
+      "country": "Polonia",
+      "description": "Pompe cu diafragmă acționate pneumatic sau electromecanic",
+      "featured": false,
+      "officialUrl": "https://www.dellmeco.com",
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Wilden"
@@ -3017,12 +3743,34 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Flowserve"
     },
     {
+      "name": "Dickow Pumpen",
+      "slug": "dickow-pumpen",
+      "country": "Germania",
+      "description": "Pompe centrifuge etanșe cu cuplaj magnetic pentru chimie",
+      "featured": false,
+      "officialUrl": "https://www.dickow.de",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Hermetic-Pumpen"
+    },
+    {
       "name": "Dosatron",
       "slug": "dosatron",
       "country": "Franța",
       "description": "Pompe dozatoare hidraulice, fără energie electrică",
       "featured": false,
       "officialUrl": "https://www.dosatron.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ProMinent"
+    },
+    {
+      "name": "Doseuro",
+      "slug": "doseuro",
+      "country": "Italia",
+      "description": "Pompe dozatoare mecanice și instalații de dozare industrială",
+      "featured": false,
+      "officialUrl": "https://www.doseuro.com",
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:ProMinent"
@@ -3037,6 +3785,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:KSB"
+    },
+    {
+      "name": "Emec",
+      "slug": "emec",
+      "country": "Italia",
+      "description": "Pompe dozatoare pentru produse chimice și tratarea apei",
+      "featured": false,
+      "officialUrl": "https://www.emec.it",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:ProMinent"
+    },
+    {
+      "name": "Etatron",
+      "slug": "etatron",
+      "country": "Italia",
+      "description": "Pompe dozatoare electromagnetice pentru tratarea apei",
+      "featured": false,
+      "officialUrl": "https://www.etatron.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:ProMinent"
     },
     {
       "name": "Faggiolati Pumps",
@@ -3059,6 +3829,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Netzsch"
+    },
+    {
+      "name": "Finish Thompson",
+      "slug": "finish-thompson",
+      "country": "Statele Unite",
+      "description": "Pompe ermetice din plastic pentru transfer de fluide corozive",
+      "featured": false,
+      "officialUrl": "https://www.finishthompson.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Iwaki"
+    },
+    {
+      "name": "Fluimac",
+      "slug": "fluimac",
+      "country": "Italia",
+      "description": "Pompe pneumatice cu diafragmă pentru lichide agresive",
+      "featured": false,
+      "officialUrl": "https://www.fluimac.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Debem"
     },
     {
       "name": "Franklin Electric",
@@ -3127,6 +3919,39 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Flowserve"
     },
     {
+      "name": "Gruppo Aturia",
+      "slug": "gruppo-aturia",
+      "country": "Italia",
+      "description": "Pompe centrifuge industriale pentru apă, petrol și gaze",
+      "featured": false,
+      "officialUrl": "https://www.gruppoaturia.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Ebara"
+    },
+    {
+      "name": "Gusher Pumps",
+      "slug": "gusher-pumps",
+      "country": "Statele Unite",
+      "description": "Pompe centrifuge orizontale, verticale și submersibile industriale",
+      "featured": false,
+      "officialUrl": "https://www.gusher.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Griswold Pump"
+    },
+    {
+      "name": "HCP Pumps",
+      "slug": "hcp-pumps",
+      "country": "Taiwan",
+      "description": "Pompe submersibile pentru drenaj, ape uzate și epuismente",
+      "featured": false,
+      "officialUrl": "https://www.hcppump.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Tsurumi"
+    },
+    {
       "name": "HERMETIC-Pumpen",
       "slug": "hermetic-pumpen",
       "country": "Germania",
@@ -3160,6 +3985,50 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Jung Pumpen"
     },
     {
+      "name": "Houttuin",
+      "slug": "houttuin",
+      "country": "Țările de Jos",
+      "description": "Pompe cu doi șuruburi pentru transfer de fluide vâscoase",
+      "featured": false,
+      "officialUrl": "https://pumps.circor.com/houttuin",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Allweiler"
+    },
+    {
+      "name": "Injecta",
+      "slug": "injecta",
+      "country": "Italia",
+      "description": "Pompe dozatoare electromagnetice și cu piston pentru dozare",
+      "featured": false,
+      "officialUrl": "https://www.injecta.eu/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ProMinent"
+    },
+    {
+      "name": "Iron Pump",
+      "slug": "iron-pump",
+      "country": "Danemarca",
+      "description": "Pompe cu roți dințate pentru aplicații marine și industriale",
+      "featured": false,
+      "officialUrl": "https://ironpump.com/about-us",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Allweiler"
+    },
+    {
+      "name": "Kirloskar Brothers",
+      "slug": "kirloskar-brothers",
+      "country": "India",
+      "description": "Pompe pentru stingere incendii, presurizare HVAC și epuisment",
+      "featured": false,
+      "officialUrl": "https://www.kirloskarpumps.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:KSB"
+    },
+    {
       "name": "Klaus Union",
       "slug": "klaus-union",
       "country": "Germania",
@@ -3180,6 +4049,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Allweiler"
+    },
+    {
+      "name": "Landia",
+      "slug": "landia",
+      "country": "Danemarca",
+      "description": "Pompe tocătoare și mixere submersibile pentru ape uzate și biogaz",
+      "featured": false,
+      "officialUrl": "https://www.landia.dk",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Flygt"
     },
     {
       "name": "Landustrie",
@@ -3204,6 +4084,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Becker"
     },
     {
+      "name": "Liberty Pumps",
+      "slug": "liberty-pumps",
+      "country": "Statele Unite",
+      "description": "Pompe submersibile pentru ape uzate și fose septice",
+      "featured": false,
+      "officialUrl": "https://www.libertypumps.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Zenit"
+    },
+    {
       "name": "Liquiflo",
       "slug": "liquiflo",
       "country": "SUA",
@@ -3215,6 +4106,50 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Netzsch"
     },
     {
+      "name": "Lorentz",
+      "slug": "lorentz",
+      "country": "Germania",
+      "description": "Pompe de apă alimentate solar pentru irigații și alimentare",
+      "featured": false,
+      "officialUrl": "https://www.lorentz.de",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
+      "name": "Magnatex Pumps",
+      "slug": "magnatex-pumps",
+      "country": "Statele Unite",
+      "description": "Pompe centrifuge cu cuplaj magnetic pentru industria de proces",
+      "featured": false,
+      "officialUrl": "https://www.magnatexpumps.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Hermetic-Pumpen"
+    },
+    {
+      "name": "March Pump",
+      "slug": "march-pump",
+      "country": "Statele Unite",
+      "description": "Pompe centrifuge fără etanșare cu cuplaj magnetic",
+      "featured": false,
+      "officialUrl": "https://www.marchpump.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Micropump"
+    },
+    {
+      "name": "Matra",
+      "slug": "matra",
+      "country": "Italia",
+      "description": "Electropompe de suprafață, submersibile și grupuri de presurizare",
+      "featured": false,
+      "officialUrl": "https://www.matra.it/en/company/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Calpeda"
+    },
+    {
       "name": "Micropump",
       "slug": "micropump",
       "country": "SUA",
@@ -3224,6 +4159,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Iwaki"
+    },
+    {
+      "name": "Mouvex",
+      "slug": "mouvex",
+      "country": "Franța",
+      "description": "Pompe cu disc excentric fără etanșare pentru fluide sensibile",
+      "featured": false,
+      "officialUrl": "https://www.mouvex.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Bornemann"
+    },
+    {
+      "name": "MP Pumps",
+      "slug": "mp-pumps",
+      "country": "Statele Unite",
+      "description": "Pompe centrifuge autoamorsante pentru marină și industrie",
+      "featured": false,
+      "officialUrl": "https://www.mppumps.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Gorman-Rupp"
     },
     {
       "name": "Munsch Chemie-Pumpen",
@@ -3248,6 +4205,28 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:ProMinent"
     },
     {
+      "name": "Nikkiso",
+      "slug": "nikkiso",
+      "country": "Japonia",
+      "description": "Pompe centrifuge ermetice și criogenice pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.nikkiso.com/products/pump/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Sundyne"
+    },
+    {
+      "name": "OBL",
+      "slug": "obl",
+      "country": "Franța",
+      "description": "Pompe dozatoare pentru tratarea apei și piscine industriale",
+      "featured": false,
+      "officialUrl": "https://www.obl.fr",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:ProMinent"
+    },
+    {
       "name": "Pfeiffer Vacuum",
       "slug": "pfeiffer-vacuum",
       "country": "Germania",
@@ -3257,6 +4236,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Becker"
+    },
+    {
+      "name": "Ponndorf",
+      "slug": "ponndorf",
+      "country": "Germania",
+      "description": "Pompe peristaltice cu furtun pentru fluide vâscoase",
+      "featured": false,
+      "officialUrl": "https://www.ponndorf.de",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Watson-Marlow"
     },
     {
       "name": "Pulsafeeder",
@@ -3270,6 +4260,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:ProMinent"
     },
     {
+      "name": "Quattroflow",
+      "slug": "quattroflow",
+      "country": "Germania",
+      "description": "Pompe cu patru pistoane cu diafragmă pentru industria biofarma",
+      "featured": false,
+      "officialUrl": "https://www.cpc-bio.com/products-overview/pumps/technologies/four-piston-diaphragm-pumps-quattroflow",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Almatec"
+    },
+    {
       "name": "Richter Chemie-Technik",
       "slug": "richter-chemie-technik",
       "country": "Germania",
@@ -3279,6 +4280,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Netzsch"
+    },
+    {
+      "name": "Roto Pumps",
+      "slug": "roto-pumps",
+      "country": "India",
+      "description": "Pompe volumetrice cu cavitate progresivă pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.rotopumps.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Seepex"
     },
     {
       "name": "Ruhrpumpen",
@@ -3303,6 +4315,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Calpeda"
     },
     {
+      "name": "Savino Barbera",
+      "slug": "savino-barbera",
+      "country": "Italia",
+      "description": "Pompe și agitatoare chimice rezistente la coroziune",
+      "featured": false,
+      "officialUrl": "https://www.savinobarbera.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Argal"
+    },
+    {
       "name": "SEKO",
       "slug": "seko",
       "country": "Italia",
@@ -3314,12 +4337,89 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:ProMinent"
     },
     {
+      "name": "Selwood",
+      "slug": "selwood",
+      "country": "Marea Britanie",
+      "description": "Pompe mobile de epuisment și agregate pentru șantiere",
+      "featured": false,
+      "officialUrl": "https://www.workdry.com/selwood",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Xylem"
+    },
+    {
+      "name": "Sera",
+      "slug": "sera",
+      "country": "Germania",
+      "description": "Pompe dozatoare și compresoare pentru gaze și lichide",
+      "featured": false,
+      "officialUrl": "https://www.sera-web.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ProMinent"
+    },
+    {
+      "name": "Serfilco",
+      "slug": "serfilco",
+      "country": "Statele Unite",
+      "description": "Pompe și sisteme de filtrare pentru lichide industriale",
+      "featured": false,
+      "officialUrl": "https://www.serfilco.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Sigma Group",
+      "slug": "sigma-group",
+      "country": "Cehia",
+      "description": "Pompe centrifuge industriale cu tradiție din 1868",
+      "featured": false,
+      "officialUrl": "https://www.sigmagroup.cz/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:KSB"
+    },
+    {
+      "name": "Speroni",
+      "slug": "speroni",
+      "country": "Italia",
+      "description": "Electropompe și grupuri de presurizare pentru aplicații industriale",
+      "featured": false,
+      "officialUrl": "https://www.speroni.it/en/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Pedrollo"
+    },
+    {
       "name": "SPP Pumps",
       "slug": "spp-pumps",
       "country": "Marea Britanie",
       "description": "Pompe centrifuge industriale și sisteme de stins incendiu",
       "featured": false,
       "officialUrl": "https://www.spppumps.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:KSB"
+    },
+    {
+      "name": "Stenner",
+      "slug": "stenner",
+      "country": "Statele Unite",
+      "description": "Pompe peristaltice de dozare pentru tratarea apei",
+      "featured": false,
+      "officialUrl": "https://www.stenner.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ProMinent"
+    },
+    {
+      "name": "Summit Pump",
+      "slug": "summit-pump",
+      "country": "Statele Unite",
+      "description": "Pompe de proces ANSI și pompe pentru nămol industrial",
+      "featured": false,
+      "officialUrl": "https://www.summitpump.com",
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:KSB"
@@ -3347,6 +4447,50 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Ebara"
     },
     {
+      "name": "Tuthill",
+      "slug": "tuthill",
+      "country": "Statele Unite",
+      "description": "Pompe cu roți dințate pentru transferul fluidelor industriale",
+      "featured": false,
+      "officialUrl": "https://www.tuthill.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Viking Pump"
+    },
+    {
+      "name": "Vacuubrand",
+      "slug": "vacuubrand",
+      "country": "Germania",
+      "description": "Pompe de vid cu diafragmă, paletă rotativă și șurub",
+      "featured": false,
+      "officialUrl": "https://www.vacuubrand.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Busch Vacuum Solutions"
+    },
+    {
+      "name": "Vanton Pump",
+      "slug": "vanton-pump",
+      "country": "Statele Unite",
+      "description": "Pompe termoplastice pentru chimicale corozive și abrazive",
+      "featured": false,
+      "officialUrl": "https://www.vanton.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Argal"
+    },
+    {
+      "name": "Varisco",
+      "slug": "varisco",
+      "country": "Italia",
+      "description": "Pompe autoamorsante și agregate mobile pentru epuismente",
+      "featured": false,
+      "officialUrl": "https://www.variscopumps.com/en-int/about-us",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Gorman-Rupp"
+    },
+    {
       "name": "Walchem",
       "slug": "walchem",
       "country": "SUA",
@@ -3358,6 +4502,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:ProMinent"
     },
     {
+      "name": "Walrus Pump",
+      "slug": "walrus-pump",
+      "country": "Taiwan",
+      "description": "Pompe pneumatice cu diafragmă și pompe magnetice industriale",
+      "featured": false,
+      "officialUrl": "https://www.walruspump.com/en/about.html",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Wilden"
+    },
+    {
       "name": "Wanner Engineering",
       "slug": "wanner-engineering",
       "country": "SUA",
@@ -3367,9 +4522,130 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Wilden"
+    },
+    {
+      "name": "Waterous",
+      "slug": "waterous",
+      "country": "Statele Unite",
+      "description": "Pompe montate pe vehicule și sisteme de stingere a incendiilor",
+      "featured": false,
+      "officialUrl": "https://www.waterousco.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Weir Minerals",
+      "slug": "weir-minerals",
+      "country": "Marea Britanie",
+      "description": "Pompe centrifuge pentru transportul suspensiilor abrazive",
+      "featured": false,
+      "officialUrl": "https://www.global.weir/minerals/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:KSB"
+    },
+    {
+      "name": "WPIL",
+      "slug": "wpil",
+      "country": "India",
+      "description": "Pompe verticale, submersibile, de drenaj și pentru incendiu",
+      "featured": false,
+      "officialUrl": "https://www.wpil.co.in",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Ruhrpumpen"
+    },
+    {
+      "name": "Zehnder Pumpen",
+      "slug": "zehnder-pumpen",
+      "country": "Germania",
+      "description": "Stații de pompare și sisteme de ridicare pentru ape uzate",
+      "featured": false,
+      "officialUrl": "https://www.zehnder-pumpen.de",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Kessel"
+    },
+    {
+      "name": "Zoeller Pump Company",
+      "slug": "zoeller-pump-company",
+      "country": "Statele Unite",
+      "description": "Pompe pentru ape uzate, fose septice și epuisment",
+      "featured": false,
+      "officialUrl": "https://www.zoellerpumps.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Homa Pumpenfabrik"
     }
   ],
   "robineti-industriali": [
+    {
+      "name": "Air Torque",
+      "slug": "air-torque",
+      "country": "Italia",
+      "description": "Actuatoare pneumatice pentru automatizarea robineților industriali",
+      "featured": false,
+      "officialUrl": "https://airtorque.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Rotork"
+    },
+    {
+      "name": "Alfa Valvole",
+      "slug": "alfa-valvole",
+      "country": "IT",
+      "description": "Robineți sferici din alamă și inox pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.alfavalvole.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Cimberio"
+    },
+    {
+      "name": "ARIS Stellantriebe",
+      "slug": "aris-stellantriebe",
+      "country": "DE",
+      "description": "Actuatoare electrice și pneumatice pentru robineți",
+      "featured": false,
+      "officialUrl": "https://stellantriebe.de/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Auma"
+    },
+    {
+      "name": "AS-Schneider",
+      "slug": "as-schneider",
+      "country": "DE",
+      "description": "Robineți de instrumentație și manifolduri pentru procese industriale",
+      "featured": false,
+      "officialUrl": "https://www.as-schneider.com/us/en/Products-Services/Instrumentation-Valves-and-Manifolds.html",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Swagelok"
+    },
+    {
+      "name": "Asahi/America",
+      "slug": "asahi-america",
+      "country": "US",
+      "description": "Robineți termoplastici rezistenți la coroziune",
+      "featured": false,
+      "officialUrl": "https://www.asahi-america.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Cepex"
+    },
+    {
+      "name": "ASV Stübbe",
+      "slug": "asv-stubbe",
+      "country": "DE",
+      "description": "Robineți industriali din material plastic pentru medii agresive",
+      "featured": false,
+      "officialUrl": "https://stuebbe.com/en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Praher"
+    },
     {
       "name": "Bardiani Valvole",
       "slug": "bardiani-valvole",
@@ -3380,6 +4656,94 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Inoxpa"
+    },
+    {
+      "name": "Belman",
+      "slug": "belman",
+      "country": "DK",
+      "description": "Burdufuri metalice și compensatoare de dilatare industriale",
+      "featured": false,
+      "officialUrl": "https://www.belman.dk",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Witzenmann"
+    },
+    {
+      "name": "Bonney Forge",
+      "slug": "bonney-forge",
+      "country": "US",
+      "description": "Robineți și fitinguri forjate/turnate din oțel",
+      "featured": false,
+      "officialUrl": "https://www.bonneyforge.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Powell Valves"
+    },
+    {
+      "name": "Bopp & Reuther",
+      "slug": "bopp-reuther",
+      "country": "DE",
+      "description": "Supape de siguranță pentru aplicații industriale critice",
+      "featured": false,
+      "officialUrl": "https://processautomation.imiplc.com/about-us/brands/imi-bopp-and-reuther",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Leser"
+    },
+    {
+      "name": "Brandoni",
+      "slug": "brandoni",
+      "country": "IT",
+      "description": "Robineți din fontă și bronz pentru gaz și apă",
+      "featured": false,
+      "officialUrl": "https://www.brandonivalves.it",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Cimberio"
+    },
+    {
+      "name": "Broen",
+      "slug": "broen",
+      "country": "DK",
+      "description": "Robineți sferici pentru apă, gaz și termoficare",
+      "featured": false,
+      "officialUrl": "https://www.broen.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:AVK"
+    },
+    {
+      "name": "Cashco",
+      "slug": "cashco",
+      "country": "US",
+      "description": "Regulatoare de presiune industriale și robineți de control",
+      "featured": false,
+      "officialUrl": "https://www.cashco.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Samson"
+    },
+    {
+      "name": "Cepex",
+      "slug": "cepex",
+      "country": "ES",
+      "description": "Robineți și fitinguri termoplastice pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.cepex.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Praher"
+    },
+    {
+      "name": "Circle Seal Controls",
+      "slug": "circle-seal-controls",
+      "country": "US",
+      "description": "Supape de reținere și de reglare a presiunii pentru medii critice",
+      "featured": false,
+      "officialUrl": "https://circleseal.circor.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Farris Engineering"
     },
     {
       "name": "Cla-Val",
@@ -3393,6 +4757,28 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Bermad"
     },
     {
+      "name": "Conex Bänninger",
+      "slug": "conex-banninger",
+      "country": "UK",
+      "description": "Fitinguri și robineți pentru instalații, climatizare și refrigerare",
+      "featured": false,
+      "officialUrl": "https://www.conexbanninger.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
+      "name": "Continental Disc Corporation",
+      "slug": "continental-disc-corporation",
+      "country": "US",
+      "description": "Discuri de rupere pentru protecția la suprapresiune industrială",
+      "featured": false,
+      "officialUrl": "https://www.contdisc.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:OsecoElfab"
+    },
+    {
       "name": "Definox",
       "slug": "definox",
       "country": "Franța",
@@ -3404,6 +4790,270 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Inoxpa"
     },
     {
+      "name": "Donadon SDD",
+      "slug": "donadon-sdd",
+      "country": "IT",
+      "description": "Discuri de rupere personalizate pentru protecția la suprapresiune",
+      "featured": false,
+      "officialUrl": "https://www.donadonsdd.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:OsecoElfab"
+    },
+    {
+      "name": "Düker",
+      "slug": "duker",
+      "country": "DE",
+      "description": "Robineți și fitinguri din fontă pentru rețele de apă",
+      "featured": false,
+      "officialUrl": "https://www.dueker.de",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:VAG"
+    },
+    {
+      "name": "Dungs",
+      "slug": "dungs",
+      "country": "Germania",
+      "description": "Electrovalve și robineți de siguranță pentru instalații de gaz",
+      "featured": false,
+      "officialUrl": "https://dungs.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Bürkert"
+    },
+    {
+      "name": "Effebi",
+      "slug": "effebi",
+      "country": "IT",
+      "description": "Robineți sferici din alamă pentru instalații și industrie",
+      "featured": false,
+      "officialUrl": "https://www.effebi.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Giacomini"
+    },
+    {
+      "name": "Erhard",
+      "slug": "erhard",
+      "country": "DE",
+      "description": "Robineți fluture și sertar pentru rețele de apă",
+      "featured": false,
+      "officialUrl": "https://www.erhard.de/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:VAG"
+    },
+    {
+      "name": "FAR Rubinetterie",
+      "slug": "far-rubinetterie",
+      "country": "IT",
+      "description": "Robineți pentru radiatoare și distribuitoare de încălzire",
+      "featured": false,
+      "officialUrl": "https://far.eu/index_en.php",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Giacomini"
+    },
+    {
+      "name": "Farris Engineering",
+      "slug": "farris-engineering",
+      "country": "US",
+      "description": "Supape de siguranță cu resort pentru protecție la suprapresiune",
+      "featured": false,
+      "officialUrl": "https://valves.curtisswright.com/en-us/Farris",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Leser"
+    },
+    {
+      "name": "Forbes Marshall",
+      "slug": "forbes-marshall",
+      "country": "IN",
+      "description": "Oale de condens și soluții de eficiență pentru abur",
+      "featured": false,
+      "officialUrl": "https://www.forbesmarshall.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Spirax Sarco"
+    },
+    {
+      "name": "Fromme Armaturen",
+      "slug": "fromme-armaturen",
+      "country": "DE",
+      "description": "Robineți industriali din oțel turnat și inox",
+      "featured": false,
+      "officialUrl": "https://frommefm.de",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
+      "name": "Giacomini",
+      "slug": "giacomini",
+      "country": "IT",
+      "description": "Robineți și componente pentru climatizare și distribuție apă",
+      "featured": false,
+      "officialUrl": "https://www.giacomini.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Oventrop"
+    },
+    {
+      "name": "GOK",
+      "slug": "gok",
+      "country": "DE",
+      "description": "Regulatoare de presiune și robineți pentru gaz lichefiat",
+      "featured": false,
+      "officialUrl": "https://www.gok.de",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Rego"
+    },
+    {
+      "name": "Ham-Let",
+      "slug": "ham-let",
+      "country": "IL",
+      "description": "Robineți și fitinguri de instrumentație ultra-curate",
+      "featured": false,
+      "officialUrl": "https://www.ham-let.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Swagelok"
+    },
+    {
+      "name": "Hayward Flow Control",
+      "slug": "hayward-flow-control",
+      "country": "US",
+      "description": "Robineți termoplastici și strainere pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.haywardflowcontrol.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Asahi/America"
+    },
+    {
+      "name": "Herose",
+      "slug": "herose",
+      "country": "Germania",
+      "description": "Supape de siguranță și robineți pentru gaze industriale",
+      "featured": false,
+      "officialUrl": "https://herose.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Leser"
+    },
+    {
+      "name": "Hoke",
+      "slug": "hoke",
+      "country": "US",
+      "description": "Robineți și fitinguri de instrumentație pentru aplicații de precizie",
+      "featured": false,
+      "officialUrl": "https://hoke.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Swagelok"
+    },
+    {
+      "name": "Hopkinsons",
+      "slug": "hopkinsons",
+      "country": "UK",
+      "description": "Robineți de control și izolare pentru presiuni ridicate",
+      "featured": false,
+      "officialUrl": "https://www.trilliumflow.com/brands/hopkinsons/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:KSB"
+    },
+    {
+      "name": "Hy-Lok",
+      "slug": "hy-lok",
+      "country": "KR",
+      "description": "Robineți și fitinguri de instrumentație pentru sisteme fluidice",
+      "featured": false,
+      "officialUrl": "https://www.hy-lok.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Swagelok"
+    },
+    {
+      "name": "IMI Herion",
+      "slug": "imi-herion",
+      "country": "DE",
+      "description": "Electrovalve de proces pentru automatizare industrială",
+      "featured": false,
+      "officialUrl": "https://processautomation.imiplc.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ASCO"
+    },
+    {
+      "name": "IMI PBM",
+      "slug": "imi-pbm",
+      "country": "US",
+      "description": "Robineți sferici industriali pentru servicii severe",
+      "featured": false,
+      "officialUrl": "https://www.pbmvalve.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Cameron"
+    },
+    {
+      "name": "Itap",
+      "slug": "itap",
+      "country": "IT",
+      "description": "Robineți, fitinguri și colectoare pentru instalații termice",
+      "featured": false,
+      "officialUrl": "https://www.itap.it",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Giacomini"
+    },
+    {
+      "name": "JCM Industries",
+      "slug": "jcm-industries",
+      "country": "US",
+      "description": "Fitinguri și coliere de reparație pentru conducte",
+      "featured": false,
+      "officialUrl": "https://www.jcmindustries.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Krausz Industries"
+    },
+    {
+      "name": "Kinetrol",
+      "slug": "kinetrol",
+      "country": "Marea Britanie",
+      "description": "Actuatoare rotative pneumatice cu palete pentru robineți",
+      "featured": false,
+      "officialUrl": "https://kinetrol.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Rotork"
+    },
+    {
+      "name": "KOSO",
+      "slug": "koso",
+      "country": "JP",
+      "description": "Robineți de control pentru procese industriale",
+      "featured": false,
+      "officialUrl": "https://www.koso.co.jp/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Samson"
+    },
+    {
+      "name": "Krausz Industries",
+      "slug": "krausz-industries",
+      "country": "IL",
+      "description": "Cuplaje și coliere de reparație pentru conducte de apă",
+      "featured": false,
+      "officialUrl": "https://www.krausz.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
       "name": "Madas",
       "slug": "madas",
       "country": "Italia",
@@ -3413,6 +5063,83 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Bürkert"
+    },
+    {
+      "name": "Metraflex",
+      "slug": "metraflex",
+      "country": "US",
+      "description": "Compensatoare de dilatare și conectori flexibili pentru pompe",
+      "featured": false,
+      "officialUrl": "https://www.metraflex.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Witzenmann"
+    },
+    {
+      "name": "Milwaukee Valve",
+      "slug": "milwaukee-valve",
+      "country": "US",
+      "description": "Robineți industriali sertar, glob și fluture",
+      "featured": false,
+      "officialUrl": "https://www.milwaukeevalve.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:NIBCO"
+    },
+    {
+      "name": "Miyawaki",
+      "slug": "miyawaki",
+      "country": "JP",
+      "description": "Oale de condens și accesorii pentru sisteme cu abur",
+      "featured": false,
+      "officialUrl": "https://www.miyawaki-inc.com/en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Spirax Sarco"
+    },
+    {
+      "name": "Naval",
+      "slug": "naval",
+      "country": "FI",
+      "description": "Robineți sferici și fluture pentru rețele de termoficare",
+      "featured": false,
+      "officialUrl": "https://www.kaehler-armaturen.de/en/miscellaneous/brands/naval/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:AVK"
+    },
+    {
+      "name": "Neway Valve",
+      "slug": "neway-valve",
+      "country": "CN",
+      "description": "Robineți sertar, sferici și fluture pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.newayvalve.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Powell Valves"
+    },
+    {
+      "name": "Newco",
+      "slug": "newco",
+      "country": "US",
+      "description": "Robineți sertar, glob și de reținere din oțel turnat",
+      "featured": false,
+      "officialUrl": "https://www.newmansvalves.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Bonney Forge"
+    },
+    {
+      "name": "NIBCO",
+      "slug": "nibco",
+      "country": "US",
+      "description": "Robineți și fitinguri pentru instalații industriale",
+      "featured": false,
+      "officialUrl": "https://www.nibco.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Zurn"
     },
     {
       "name": "OMAL",
@@ -3437,6 +5164,39 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:DeZURIK"
     },
     {
+      "name": "OsecoElfab",
+      "slug": "osecoelfab",
+      "country": "US",
+      "description": "Discuri de rupere și panouri antiexplozie pentru protecția la suprapresiune",
+      "featured": false,
+      "officialUrl": "https://www.osecoelfab.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
+      "name": "Pekos",
+      "slug": "pekos",
+      "country": "ES",
+      "description": "Robineți sferici pentru industria navală și petrochimică",
+      "featured": false,
+      "officialUrl": "https://www.pekos.es",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Cimberio"
+    },
+    {
+      "name": "Pettinaroli",
+      "slug": "pettinaroli",
+      "country": "IT",
+      "description": "Robineți de echilibrare și robineți pentru gaz",
+      "featured": false,
+      "officialUrl": "https://www.pettinaroli.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Giacomini"
+    },
+    {
       "name": "Pietro Fiorentini",
       "slug": "pietro-fiorentini",
       "country": "Italia",
@@ -3448,6 +5208,83 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Samson"
     },
     {
+      "name": "Powell Valves",
+      "slug": "powell-valves",
+      "country": "US",
+      "description": "Robineți industriali sertar, glob și de reținere",
+      "featured": false,
+      "officialUrl": "https://www.powellvalves.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:KSB"
+    },
+    {
+      "name": "Praher",
+      "slug": "praher",
+      "country": "AT",
+      "description": "Robineți sferici și filtre din PVC, PP și PVDF",
+      "featured": false,
+      "officialUrl": "https://www.praher-plastics.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Cepex"
+    },
+    {
+      "name": "Proco Products",
+      "slug": "proco-products",
+      "country": "US",
+      "description": "Compensatoare de cauciuc și robineți de reținere din cauciuc",
+      "featured": false,
+      "officialUrl": "https://www.procoproducts.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Metraflex"
+    },
+    {
+      "name": "RBM",
+      "slug": "rbm",
+      "country": "IT",
+      "description": "Robineți și componente pentru încălzire și climatizare",
+      "featured": false,
+      "officialUrl": "https://rbm.eu/en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Giacomini"
+    },
+    {
+      "name": "Regada",
+      "slug": "regada",
+      "country": "SK",
+      "description": "Actuatoare electrice și robineți pentru automatizare industrială",
+      "featured": false,
+      "officialUrl": "https://www.regada.sk/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Auma"
+    },
+    {
+      "name": "RegO",
+      "slug": "rego",
+      "country": "US",
+      "description": "Robineți și regulatoare de presiune pentru GPL și amoniac",
+      "featured": false,
+      "officialUrl": "https://www.regoproducts.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:GOK"
+    },
+    {
+      "name": "Rotarex",
+      "slug": "rotarex",
+      "country": "LU",
+      "description": "Robineți pentru butelii de gaz și regulatoare de presiune",
+      "featured": false,
+      "officialUrl": "https://www.rotarex.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
       "name": "Rotex Automation",
       "slug": "rotex-automation",
       "country": "India",
@@ -3457,6 +5294,303 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Rotork"
+    },
+    {
+      "name": "Safi",
+      "slug": "safi",
+      "country": "FR",
+      "description": "Robineți din plastic rezistenți la coroziune pentru chimie",
+      "featured": false,
+      "officialUrl": "https://www.safi-valves.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Praher"
+    },
+    {
+      "name": "Saint-Gobain PAM",
+      "slug": "saint-gobain-pam",
+      "country": "FR",
+      "description": "Robineți și conducte din fontă ductilă pentru apă",
+      "featured": false,
+      "officialUrl": "https://www.pamline.com/fr-fr",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:VAG"
+    },
+    {
+      "name": "Sarasin-RSBD",
+      "slug": "sarasin-rsbd",
+      "country": "FR",
+      "description": "Supape de siguranță cu resort pentru petrochimie și energie",
+      "featured": false,
+      "officialUrl": "https://www.trilliumflow.com/brands/sarasin-rsbd/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Leser"
+    },
+    {
+      "name": "Schiebel Antriebstechnik",
+      "slug": "schiebel-antriebstechnik",
+      "country": "AT",
+      "description": "Actuatoare electrice cu revenire pe arc pentru robineți",
+      "featured": false,
+      "officialUrl": "https://schiebel-actuators.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Auma"
+    },
+    {
+      "name": "Schubert & Salzer",
+      "slug": "schubert-salzer",
+      "country": "DE",
+      "description": "Robineți de control cu tehnologie disc rotativ pentru proces",
+      "featured": false,
+      "officialUrl": "https://www.schubert-salzer.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Samson"
+    },
+    {
+      "name": "Senior Flexonics",
+      "slug": "senior-flexonics",
+      "country": "UK",
+      "description": "Burdufuri metalice și furtunuri flexibile pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.seniorflexonics.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Witzenmann"
+    },
+    {
+      "name": "Sipos Aktorik",
+      "slug": "sipos-aktorik",
+      "country": "DE",
+      "description": "Actuatoare electrice pentru robineți industriali",
+      "featured": false,
+      "officialUrl": "https://www.sipos.de/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Auma"
+    },
+    {
+      "name": "Sistag",
+      "slug": "sistag",
+      "country": "CH",
+      "description": "Robineți cu sertar tip cuțit pentru izolare industrială",
+      "featured": false,
+      "officialUrl": "https://www.sistag.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Stafsjö"
+    },
+    {
+      "name": "Stafsjö",
+      "slug": "stafsjo",
+      "country": "SE",
+      "description": "Robineți cu sertar tip cuțit pentru industrie grea",
+      "featured": false,
+      "officialUrl": "https://www.stafsjo.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Sistag"
+    },
+    {
+      "name": "Steel & O'Brien Manufacturing",
+      "slug": "steel-o-brien-manufacturing",
+      "country": "US",
+      "description": "Robineți și fitinguri din inox pentru industria alimentară",
+      "featured": false,
+      "officialUrl": "https://www.steelobrien.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
+      "name": "Stenflex",
+      "slug": "stenflex",
+      "country": "DE",
+      "description": "Compensatoare de cauciuc și oțel pentru conducte industriale",
+      "featured": false,
+      "officialUrl": "https://www.stenflex.de",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Witzenmann"
+    },
+    {
+      "name": "Swagelok",
+      "slug": "swagelok",
+      "country": "US",
+      "description": "Fitinguri și robineți de instrumentație pentru sisteme fluidice",
+      "featured": false,
+      "officialUrl": "https://www.swagelok.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Parker Hannifin"
+    },
+    {
+      "name": "Tectubi Raccordi",
+      "slug": "tectubi-raccordi",
+      "country": "IT",
+      "description": "Fitinguri sudate din oțel pentru conducte industriale",
+      "featured": false,
+      "officialUrl": "https://www.tectubi.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
+      "name": "Teddington Engineered Solutions",
+      "slug": "teddington-engineered-solutions",
+      "country": "UK",
+      "description": "Burdufuri metalice și compensatoare de dilatare industriale",
+      "featured": false,
+      "officialUrl": "https://www.tes.uk.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Witzenmann"
+    },
+    {
+      "name": "Tiemme",
+      "slug": "tiemme",
+      "country": "IT",
+      "description": "Robineți și fitinguri pentru instalații termice și sanitare",
+      "featured": false,
+      "officialUrl": "https://www.tiemme.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Giacomini"
+    },
+    {
+      "name": "Tyco",
+      "slug": "tyco",
+      "country": "US",
+      "description": "Robineți și sprinklere pentru sisteme de protecție la incendiu",
+      "featured": false,
+      "officialUrl": "https://www.tyco-fire.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
+      "name": "Univer",
+      "slug": "univer",
+      "country": "IT",
+      "description": "Electrovalve și componente pneumatice pentru automatizare",
+      "featured": false,
+      "officialUrl": "https://www.univer-group.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Camozzi"
+    },
+    {
+      "name": "Val-Matic",
+      "slug": "val-matic",
+      "country": "US",
+      "description": "Robineți fluture, de reținere și de aerisire pentru apă",
+      "featured": false,
+      "officialUrl": "https://www.valmatic.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:AVK"
+    },
+    {
+      "name": "Valcor Engineering",
+      "slug": "valcor-engineering",
+      "country": "US",
+      "description": "Electrovalve de proces pentru aplicații industriale critice",
+      "featured": false,
+      "officialUrl": "https://www.valcor.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:ASCO"
+    },
+    {
+      "name": "Valpres",
+      "slug": "valpres",
+      "country": "IT",
+      "description": "Robineți sferici și de control din oțel și aliaje speciale",
+      "featured": false,
+      "officialUrl": "https://www.valpres.it/en/home",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Cimberio"
+    },
+    {
+      "name": "Valsteam ADCA",
+      "slug": "valsteam-adca",
+      "country": "PT",
+      "description": "Oale de condens, regulatoare de presiune și robineți pentru abur",
+      "featured": false,
+      "officialUrl": "https://www.valsteam.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Spirax Sarco"
+    },
+    {
+      "name": "Vexve",
+      "slug": "vexve",
+      "country": "FI",
+      "description": "Robineți pentru rețele de termoficare și distribuție gaz",
+      "featured": false,
+      "officialUrl": "https://www.vexve.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:AVK"
+    },
+    {
+      "name": "Viega",
+      "slug": "viega",
+      "country": "DE",
+      "description": "Fitinguri de presare și sisteme de conducte pentru instalații",
+      "featured": false,
+      "officialUrl": "https://www.viega.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
+      "name": "Vir Valvoindustria",
+      "slug": "vir-valvoindustria",
+      "country": "IT",
+      "description": "Robineți sferici și fluture pentru instalații industriale",
+      "featured": false,
+      "officialUrl": "https://www.vironline.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Cimberio"
+    },
+    {
+      "name": "Warex Valve",
+      "slug": "warex-valve",
+      "country": "DE",
+      "description": "Robineți fluture și ecluze rotative pentru materiale în vrac",
+      "featured": false,
+      "officialUrl": "https://www.warex-valve.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
+    },
+    {
+      "name": "Yoshitake",
+      "slug": "yoshitake",
+      "country": "JP",
+      "description": "Robineți de reglare, oale de condens și supape de siguranță",
+      "featured": false,
+      "officialUrl": "https://www.yoshitake.co.jp/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Spirax Sarco"
+    },
+    {
+      "name": "Zurn",
+      "slug": "zurn",
+      "country": "US",
+      "description": "Robineți și echipamente de control pentru instalații",
+      "featured": false,
+      "officialUrl": "https://www.zurn.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Watts"
     }
   ],
   "scule-instrumente": [
@@ -3505,6 +5639,17 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Bessey",
+      "slug": "bessey",
+      "country": "Germania",
+      "description": "Cleme si dispozitive de fixare pentru ateliere industriale",
+      "featured": false,
+      "officialUrl": "https://bessey.de",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
+    },
+    {
       "name": "Beta Utensili",
       "slug": "beta-utensili",
       "country": "Italia",
@@ -3514,6 +5659,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Stahlwille"
+    },
+    {
+      "name": "Cebora",
+      "slug": "cebora",
+      "country": "Italia",
+      "description": "Aparate de sudura si taiere italiene pentru industrie",
+      "featured": false,
+      "officialUrl": "https://cebora.it",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
     },
     {
       "name": "Chauvin Arnoux",
@@ -3538,6 +5694,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Ingersoll Rand"
     },
     {
+      "name": "Cofra",
+      "slug": "cofra",
+      "country": "Italia",
+      "description": "Incaltaminte de protectie pentru mediul industrial",
+      "featured": false,
+      "officialUrl": "https://cofra.it",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:MSA Safety"
+    },
+    {
       "name": "Delta Plus",
       "slug": "delta-plus",
       "country": "Franta",
@@ -3549,6 +5716,39 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Honeywell Safety"
     },
     {
+      "name": "ESAB",
+      "slug": "esab",
+      "country": "Suedia/SUA",
+      "description": "Aparate de sudura si materiale de adaos pentru industrie",
+      "featured": false,
+      "officialUrl": "https://esab.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
+    },
+    {
+      "name": "EWM",
+      "slug": "ewm",
+      "country": "Germania",
+      "description": "Aparate de sudura germane pentru aplicatii industriale exigente",
+      "featured": false,
+      "officialUrl": "https://www.ewm-group.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
+    },
+    {
+      "name": "Facom",
+      "slug": "facom",
+      "country": "Franta",
+      "description": "Scule de mana profesionale franceze pentru mentenanta industriala",
+      "featured": false,
+      "officialUrl": "https://facom.fr",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Stahlwille"
+    },
+    {
       "name": "FARO Technologies",
       "slug": "faro-technologies",
       "country": "USA",
@@ -3558,6 +5758,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Mitutoyo"
+    },
+    {
+      "name": "Fein",
+      "slug": "fein",
+      "country": "Germania",
+      "description": "Scule electrice de precizie pentru prelucrarea metalului",
+      "featured": false,
+      "officialUrl": "https://fein.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Bosch Professional"
+    },
+    {
+      "name": "Festool",
+      "slug": "festool",
+      "country": "Germania",
+      "description": "Scule electrice profesionale pentru prelucrare de precizie",
+      "featured": false,
+      "officialUrl": "https://festool.de",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Bosch Professional"
     },
     {
       "name": "FLIR",
@@ -3580,6 +5802,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Fluke"
+    },
+    {
+      "name": "Hazet",
+      "slug": "hazet",
+      "country": "Germania",
+      "description": "Trusa de scule si chei profesionale pentru service industrial",
+      "featured": false,
+      "officialUrl": "https://hazet.de",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Stahlwille"
     },
     {
       "name": "Hexagon Manufacturing Intelligence",
@@ -3615,6 +5848,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Fluke"
     },
     {
+      "name": "Hypertherm",
+      "slug": "hypertherm",
+      "country": "SUA",
+      "description": "Sisteme de taiere cu plasma pentru metal si constructii metalice",
+      "featured": false,
+      "officialUrl": "https://hypertherm.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
+    },
+    {
       "name": "Insize",
       "slug": "insize",
       "country": "China",
@@ -3637,6 +5881,28 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Stahlwille"
     },
     {
+      "name": "JSP",
+      "slug": "jsp",
+      "country": "Marea Britanie",
+      "description": "Casti de protectie si echipament respirator pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.jspsafety.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:MSA Safety"
+    },
+    {
+      "name": "Kemppi",
+      "slug": "kemppi",
+      "country": "Finlanda",
+      "description": "Aparate de sudura finlandeze pentru industrie si service",
+      "featured": false,
+      "officialUrl": "https://kemppi.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
+    },
+    {
       "name": "Keysight Technologies",
       "slug": "keysight-technologies",
       "country": "USA",
@@ -3646,6 +5912,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Fluke"
+    },
+    {
+      "name": "Klein Tools",
+      "slug": "klein-tools",
+      "country": "SUA",
+      "description": "Scule de mana pentru electricieni si instalatii industriale",
+      "featured": false,
+      "officialUrl": "https://www.kleintools.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
     },
     {
       "name": "Klingspor",
@@ -3703,6 +5980,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Fluke"
     },
     {
+      "name": "Metabo",
+      "slug": "metabo",
+      "country": "Germania",
+      "description": "Scule electrice industriale pentru metal si constructii",
+      "featured": false,
+      "officialUrl": "https://www.metabo.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Bosch Professional"
+    },
+    {
       "name": "Metrel",
       "slug": "metrel",
       "country": "Slovenia",
@@ -3712,6 +6000,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Fluke"
+    },
+    {
+      "name": "Migatronic",
+      "slug": "migatronic",
+      "country": "Danemarca",
+      "description": "Aparate de sudura daneze pentru productie si mentenanta",
+      "featured": false,
+      "officialUrl": "https://migatronic.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
+    },
+    {
+      "name": "Milwaukee Tool",
+      "slug": "milwaukee-tool",
+      "country": "SUA",
+      "description": "Scule electrice profesionale cu acumulator pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.milwaukeetool.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Makita"
     },
     {
       "name": "Newtons4th",
@@ -3747,6 +6057,17 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Portwest",
+      "slug": "portwest",
+      "country": "Irlanda",
+      "description": "Imbracaminte si echipament de protectie pentru muncitori industriali",
+      "featured": false,
+      "officialUrl": "https://portwest.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:MSA Safety"
+    },
+    {
       "name": "Renishaw",
       "slug": "renishaw",
       "country": "UK",
@@ -3780,6 +6101,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Fluke"
     },
     {
+      "name": "Starrett",
+      "slug": "starrett",
+      "country": "SUA",
+      "description": "Instrumente de masurare de precizie pentru control industrial",
+      "featured": false,
+      "officialUrl": "https://www.starrett.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Mitutoyo"
+    },
+    {
       "name": "Taylor Hobson",
       "slug": "taylor-hobson",
       "country": "UK",
@@ -3789,6 +6121,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Mitutoyo"
+    },
+    {
+      "name": "Telwin",
+      "slug": "telwin",
+      "country": "Italia",
+      "description": "Aparate de sudura si incarcatoare baterii pentru service industrial",
+      "featured": false,
+      "officialUrl": "https://www.telwin.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
     },
     {
       "name": "Tyrolit",
@@ -3969,6 +6312,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:WIKA"
     },
     {
+      "name": "BEI Sensors",
+      "slug": "bei-sensors",
+      "country": "SUA",
+      "description": "Encodere optice și magnetice, senzori de poziție Hall",
+      "featured": false,
+      "officialUrl": "https://www.beisensors.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Kübler"
+    },
+    {
       "name": "Brainchild Electronic",
       "slug": "brainchild-electronic",
       "country": "Taiwan",
@@ -4055,6 +6409,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Baumer"
+    },
+    {
+      "name": "Dynapar",
+      "slug": "dynapar",
+      "country": "SUA",
+      "description": "Encodere rotative și rezolvere pentru control de mișcare",
+      "featured": false,
+      "officialUrl": "https://www.dynapar.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Kübler"
     },
     {
       "name": "ENOTEC",
@@ -4211,6 +6576,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Burster"
     },
     {
+      "name": "Hohner Automation",
+      "slug": "hohner-automation",
+      "country": "Spania",
+      "description": "Encodere incrementale și absolute pentru aplicații industriale",
+      "featured": false,
+      "officialUrl": "https://www.encoderhohner.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Kübler"
+    },
+    {
       "name": "HT Hydrotechnik",
       "slug": "ht-hydrotechnik",
       "country": "Germany",
@@ -4308,6 +6684,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:HBM"
+    },
+    {
+      "name": "Leine & Linde",
+      "slug": "leine-linde",
+      "country": "Suedia",
+      "description": "Encodere rotative robuste pentru medii industriale dure",
+      "featured": false,
+      "officialUrl": "https://www.leinelinde.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Heidenhain"
     },
     {
       "name": "Leitenberger",
@@ -4497,6 +6884,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:HBM"
     },
     {
+      "name": "Scancon",
+      "slug": "scancon",
+      "country": "Danemarca",
+      "description": "Encodere rotative pentru medii industriale exigente",
+      "featured": false,
+      "officialUrl": "https://www.scancon.dk",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Kübler"
+    },
+    {
       "name": "Seneca",
       "slug": "seneca",
       "country": "Italy",
@@ -4640,6 +7038,17 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Wachendorff",
+      "slug": "wachendorff",
+      "country": "Germania",
+      "description": "Encodere rotative incrementale și absolute pentru automatizări",
+      "featured": false,
+      "officialUrl": "https://www.wachendorff-automation.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Kübler"
+    },
+    {
       "name": "Watlow",
       "slug": "watlow",
       "country": "USA",
@@ -4651,6 +7060,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Jumo"
     },
     {
+      "name": "Weber Sensors",
+      "slug": "weber-sensors",
+      "country": "Germany",
+      "description": "Senzori de nivel cu vibratie si comutatoare pentru lichide",
+      "featured": false,
+      "officialUrl": "https://webersensors.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Vega"
+    },
+    {
       "name": "Wilcoxon Sensing Technologies",
       "slug": "wilcoxon-sensing-technologies",
       "country": "USA",
@@ -4660,6 +7080,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:SKF"
+    },
+    {
+      "name": "Williamson",
+      "slug": "williamson",
+      "country": "US",
+      "description": "Pirometre si senzori de temperatura in infrarosu",
+      "featured": false,
+      "officialUrl": "https://www.williamsonir.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "old-site-listed"
     },
     {
       "name": "Winters Instruments",
@@ -4706,6 +7137,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Ziehl Abegg"
+    },
+    {
+      "name": "Systemair",
+      "slug": "systemair",
+      "country": "Suedia",
+      "description": "Ventilatoare industriale si sisteme de ventilatie pentru cladiri si productie",
+      "featured": false,
+      "officialUrl": "https://systemair.com",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Ziehl Abegg"
     }
   ],
   "componente-hidraulice-pneumatice": [
@@ -4721,6 +7163,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Camozzi"
     },
     {
+      "name": "Airpot",
+      "slug": "airpot",
+      "country": "USA",
+      "description": "Cilindri pneumatici cu frecare redusă de precizie",
+      "featured": false,
+      "officialUrl": "https://www.airpot.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Festo"
+    },
+    {
       "name": "AKG Group",
       "slug": "akg-group",
       "country": "Germania",
@@ -4730,6 +7183,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Kelvion"
+    },
+    {
+      "name": "Annovi Reverberi",
+      "slug": "annovi-reverberi",
+      "country": "Italy",
+      "description": "Pompe cu piston de înaltă presiune pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.annovireverberi.it/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
     },
     {
       "name": "Anver",
@@ -4752,6 +7216,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Hydac"
+    },
+    {
+      "name": "Bezares",
+      "slug": "bezares",
+      "country": "Spain",
+      "description": "Prize de putere și pompe hidraulice pentru hidraulica mobilă",
+      "featured": false,
+      "officialUrl": "https://bezares.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Bondioli & Pavesi"
     },
     {
       "name": "Bondioli & Pavesi",
@@ -4787,6 +7262,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Parker Hannifin"
     },
     {
+      "name": "Ceme",
+      "slug": "ceme",
+      "country": "Italy",
+      "description": "Electrovalve și pompe cu solenoid pentru fluide industriale",
+      "featured": false,
+      "officialUrl": "https://www.cemegroup.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Bürkert"
+    },
+    {
       "name": "Chelic",
       "slug": "chelic",
       "country": "Taiwan",
@@ -4807,6 +7293,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:SMC"
+    },
+    {
+      "name": "Clippard",
+      "slug": "clippard",
+      "country": "USA",
+      "description": "Valve și cilindri pneumatici miniaturali de precizie",
+      "featured": false,
+      "officialUrl": "https://www.clippard.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Festo"
+    },
+    {
+      "name": "Comet",
+      "slug": "comet",
+      "country": "Italy",
+      "description": "Pompe cu piston de înaltă presiune pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.comet-spa.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "convergent"
     },
     {
       "name": "Concentric AB",
@@ -4831,6 +7339,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Bosch Rexroth"
     },
     {
+      "name": "Coremo Ocmea",
+      "slug": "coremo-ocmea",
+      "country": "Italy",
+      "description": "Frâne și ambreiaje industriale cu acționare hidropneumatică",
+      "featured": false,
+      "officialUrl": "https://coremo.com/en/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
       "name": "Coval",
       "slug": "coval",
       "country": "Franța",
@@ -4851,6 +7370,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "convergent"
+    },
+    {
+      "name": "Dictator",
+      "slug": "dictator",
+      "country": "Germany",
+      "description": "Amortizoare hidraulice și arcuri cu gaz pentru uși industriale",
+      "featured": false,
+      "officialUrl": "https://www.dictator.de/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
     },
     {
       "name": "Dixon Valve",
@@ -4908,6 +7438,28 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Kelvion"
     },
     {
+      "name": "Faster",
+      "slug": "faster",
+      "country": "Italy",
+      "description": "Cuple rapide hidraulice pentru echipamente mobile și industrie",
+      "featured": false,
+      "officialUrl": "https://www.fastercouplings.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:CEJN"
+    },
+    {
+      "name": "Gemels",
+      "slug": "gemels",
+      "country": "Italy",
+      "description": "Robinete cu bilă și cuple rapide pentru hidraulică",
+      "featured": false,
+      "officialUrl": "https://www.gemels.it/en/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:CEJN"
+    },
+    {
       "name": "Gimatic",
       "slug": "gimatic",
       "country": "Italia",
@@ -4917,6 +7469,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Vuototecnica"
+    },
+    {
+      "name": "Groeneveld-BEKA",
+      "slug": "groeneveld-beka",
+      "country": "Netherlands",
+      "description": "Sisteme automate de ungere centralizată pentru utilaje",
+      "featured": false,
+      "officialUrl": "https://www.groeneveld-beka.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:DropsA"
+    },
+    {
+      "name": "Hansa-Flex",
+      "slug": "hansa-flex",
+      "country": "Germany",
+      "description": "Furtunuri hidraulice și fitinguri cu service de sertizare",
+      "featured": false,
+      "officialUrl": "https://www.hansa-flex.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Hydac"
     },
     {
       "name": "Hoerbiger",
@@ -4996,6 +7570,39 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Bucher Hydraulics"
     },
     {
+      "name": "Interpump Group",
+      "slug": "interpump-group",
+      "country": "Italy",
+      "description": "Pompe de înaltă presiune și componente pentru hidraulica mobilă",
+      "featured": false,
+      "officialUrl": "https://www.interpumpgroup.it/en",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Bondioli & Pavesi"
+    },
+    {
+      "name": "Kastas",
+      "slug": "kastas",
+      "country": "Turkey",
+      "description": "Simeringuri și etanșări pentru cilindri hidraulici",
+      "featured": false,
+      "officialUrl": "https://www.kastas.com/en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Freudenberg"
+    },
+    {
+      "name": "Kawasaki Precision Machinery",
+      "slug": "kawasaki-precision-machinery",
+      "country": "Japan",
+      "description": "Pompe și motoare hidraulice cu piston axial pentru utilaje",
+      "featured": false,
+      "officialUrl": "https://www.kawasakihydraulics.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Bosch Rexroth"
+    },
+    {
       "name": "Koganei",
       "slug": "koganei",
       "country": "Japonia",
@@ -5005,6 +7612,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:SMC"
+    },
+    {
+      "name": "KYB Corporation",
+      "slug": "kyb-corporation",
+      "country": "Japan",
+      "description": "Pompe cu palete și cilindri hidraulici pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.kyb.co.jp/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Parker"
     },
     {
       "name": "Linde Hydraulics",
@@ -5029,6 +7647,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:SKF Lubrication"
     },
     {
+      "name": "Mac Valves",
+      "slug": "mac-valves",
+      "country": "USA",
+      "description": "Valve pneumatice industriale pentru automatizare",
+      "featured": false,
+      "officialUrl": "https://macvalves.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Festo"
+    },
+    {
       "name": "Manuli Hydraulics",
       "slug": "manuli-hydraulics",
       "country": "Italia",
@@ -5038,6 +7667,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Gates"
+    },
+    {
+      "name": "Maximator",
+      "slug": "maximator",
+      "country": "DE",
+      "description": "Pompe si amplificatoare de presiune inalta hidraulice/pneumatice",
+      "featured": false,
+      "officialUrl": "https://www.maximator.de",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "old-site-listed"
+    },
+    {
+      "name": "Meclube",
+      "slug": "meclube",
+      "country": "Italy",
+      "description": "Echipamente de ungere centralizată pentru utilaje industriale",
+      "featured": false,
+      "officialUrl": "https://www.meclube.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:DropsA"
     },
     {
       "name": "Mindman",
@@ -5060,6 +7711,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Parker Hannifin"
+    },
+    {
+      "name": "ODE",
+      "slug": "ode",
+      "country": "Italy",
+      "description": "Electrovalve cu solenoid pentru fluide și pompe industriale",
+      "featured": false,
+      "officialUrl": "https://ode.it/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Bürkert"
+    },
+    {
+      "name": "Oleodinamica Marchesini",
+      "slug": "oleodinamica-marchesini",
+      "country": "Italy",
+      "description": "Valve hidraulice cu cartuș și distribuitoare pentru mobile",
+      "featured": false,
+      "officialUrl": "https://www.groupmarchesini.com/en/brands/oleodinamica-marchesini/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Atos"
     },
     {
       "name": "Perma-tec",
@@ -5106,6 +7779,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Vuototecnica"
     },
     {
+      "name": "Piusi",
+      "slug": "piusi",
+      "country": "Italy",
+      "description": "Pompe și echipamente de transfer combustibil și ulei",
+      "featured": false,
+      "officialUrl": "https://www.piusi.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
       "name": "Poclain Hydraulics",
       "slug": "poclain-hydraulics",
       "country": "Franța",
@@ -5137,6 +7821,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "convergent"
+    },
+    {
+      "name": "Ross Controls",
+      "slug": "ross-controls",
+      "country": "USA",
+      "description": "Valve pneumatice și hidraulice de siguranță pentru mașini",
+      "featured": false,
+      "officialUrl": "https://www.rosscontrols.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Festo"
+    },
+    {
+      "name": "Salami",
+      "slug": "salami",
+      "country": "Italy",
+      "description": "Pompe cu roți dințate, motoare și valve hidraulice pentru mobile",
+      "featured": false,
+      "officialUrl": "https://www.salamihydraulics.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Casappa"
     },
     {
       "name": "Schmalz",
@@ -5172,6 +7878,28 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:SKF Lubrication"
     },
     {
+      "name": "Stäubli Fluid Connectors",
+      "slug": "staubli-fluid-connectors",
+      "country": "Switzerland",
+      "description": "Cuple rapide hidraulice și pneumatice pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.staubli.com/global/en/fluid-connectors.html",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:CEJN"
+    },
+    {
+      "name": "Stucchi",
+      "slug": "stucchi",
+      "country": "Italy",
+      "description": "Cuple rapide hidraulice pentru utilaje și instalații industriale",
+      "featured": false,
+      "officialUrl": "https://www.stucchigroup.com/en/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:CEJN"
+    },
+    {
       "name": "SUCO",
       "slug": "suco",
       "country": "Germania",
@@ -5181,6 +7909,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:IFM"
+    },
+    {
+      "name": "Sunfab",
+      "slug": "sunfab",
+      "country": "Sweden",
+      "description": "Pompe și motoare hidraulice tip gerotor pentru hidraulica mobilă",
+      "featured": false,
+      "officialUrl": "https://www.sunfab.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Casappa"
     },
     {
       "name": "Trico Corporation",
@@ -5203,6 +7942,28 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "convergent"
+    },
+    {
+      "name": "Vaccon",
+      "slug": "vaccon",
+      "country": "USA",
+      "description": "Generatoare de vid tehnic pentru automatizare industrială",
+      "featured": false,
+      "officialUrl": "https://www.vaccon.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Schmalz"
+    },
+    {
+      "name": "Veljan",
+      "slug": "veljan",
+      "country": "India",
+      "description": "Pompe hidraulice cu roți dințate și cu palete industriale",
+      "featured": false,
+      "officialUrl": "https://www.veljan.in/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Casappa"
     },
     {
       "name": "Voss Fluid",
@@ -5236,6 +7997,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Parker Hannifin"
+    },
+    {
+      "name": "Wandfluh",
+      "slug": "wandfluh",
+      "country": "Switzerland",
+      "description": "Distribuitoare și valve hidraulice proporționale industriale",
+      "featured": false,
+      "officialUrl": "https://www.wandfluh.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:Atos"
     },
     {
       "name": "Weber-Hydraulik",

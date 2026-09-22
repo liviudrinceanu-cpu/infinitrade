@@ -56,25 +56,33 @@ Am livrat soluții de transmisie pentru mașini de ambalare, pompe industriale, 
       'Transport și logistică',
       'Industria auto - producție componente'
     ],
-    infinitrade: `Furnizăm întreaga gamă Continental Belts din stocul nostru de la Timișoara: curele V clasice, curele dințate HTD și curele Poly-V pentru orice aplicație industrială. Livrăm rapid în 24-72h în toată România, cu suport tehnic pentru dimensionare corectă și selecție optimă. Dacă ai nevoie de curele speciale sau lungimi personalizate, le comandăm direct din Germania și le primești în 7-10 zile lucrătoare. Distribuim pentru industrie serioasă - de la fabrici mari la ateliere mici care au nevoie de piese de rezervă de încredere.`
+    infinitrade: `Lucrăm din surse publice ale producătorului și spunem clar ce putem și ce nu putem confirma despre stocul curent de curele Continental. Nu avem date proprii despre ce anume se află pe stoc la un moment dat, dar aducem gama de curele V, dințate și Poly-V la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, lucrăm cu 24-72 h pentru comenzile onorate din aprovizionarea curentă și cu 2-6 săptămâni la comandă pentru restul gamei. Pentru o ofertă corectă, trimite-ne codul de profil (de exemplu SPA, HTD 8M) și lungimea exactă necesară - revenim rapid cu preț și termen confirmat.`,
+    limitation: 'Nu putem confirma operațiuni de vulcanizare la cald sau jonctionare pe loc pentru curele speciale - livrăm produsul, nu service-ul de montaj.',
+    sources: [
+      { title: 'History - Continental AG', url: 'https://www.continental.com/en/company/history/', publisher: 'Continental AG', accessed: '2026-09-22' },
+      { title: 'Home | Continental - Continental AG', url: 'https://www.continental.com/en/', publisher: 'Continental AG', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'daikin': {
     founded: '1924',
     headquarters: 'Osaka, Japonia',
     employees: '88,000+',
-    overview: `Suntem nr. 1 mondial în climatizare industrială și comercială, cu 100 de ani de experiență în tehnologie de refrigerare. Daikin înseamnă sisteme VRV (Variable Refrigerant Volume) care echipează cele mai mari clădiri din lume, chillere industriale care răcesc fabrici întregi și unități de tratare a aerului care creează medii perfecte în spitale, datacenter-uri și camere curate. Avem propriile fabrici de compresoar, propriul gaz refrigerent R-32 eco-friendly și propriul software de control pentru integrare BMS.
+    overview: `Suntem unul dintre producătorii majori la nivel mondial în climatizare industrială și comercială, cu 100 de ani de experiență în tehnologie de refrigerare. Daikin înseamnă sisteme VRV (Variable Refrigerant Volume) care echipează cele mai mari clădiri din lume, chillere industriale care răcesc fabrici întregi și unități de tratare a aerului care creează medii perfecte în spitale, datacenter-uri și camere curate. Avem propriile fabrici de compresoar, propriul gaz refrigerent R-32 eco-friendly și propriul software de control pentru integrare BMS.
 
-Tehnologia noastră de inverter cu magneți permanenți reduce consumul energetic cu până la 50% față de sistemele on/off tradiționale. Compresoarele noastre swing și scroll sunt cele mai eficiente din industrie - COP real de peste 4.0 chiar și la -20°C exterior. Fabricăm totul intern: de la schimbătorul de căldură microcanal până la circuitele electronice de control, astfel încât fiecare componentă e optimizată perfect pentru ansamblul final.
+Tehnologia producătorului de inverter cu magneți permanenți reduce consumul energetic cu până la 50% față de sistemele on/off tradiționale. Compresoarele noastre swing și scroll sunt cele mai eficiente din industrie - COP real de peste 4.0 chiar și la -20°C exterior. Fabricăm totul intern: de la schimbătorul de căldură microcanal până la circuitele electronice de control, astfel încât fiecare componentă e optimizată perfect pentru ansamblul final.
 
-Am instalat peste 2 milioane de sisteme VRV în lume - de la birouri mici la aeroporturi, de la fabrici la hoteluri de 5 stele. Tehnologia noastră Heat Recovery permite încălzire și răcire simultană în zone diferite, economisind energie prin recuperarea căldurii reziduale. Când ai nevoie de climatizare care funcționează perfect 24/7/365, Daikin e singura alegere profesională.`,
+Am instalat peste 2 milioane de sisteme VRV în lume - de la birouri mici la aeroporturi, de la fabrici la hoteluri de 5 stele. Tehnologia producătorului Heat Recovery permite încălzire și răcire simultană în zone diferite, economisind energie prin recuperarea căldurii reziduale. Când ai nevoie de climatizare care funcționează perfect 24/7/365, Daikin e singura alegere profesională.`,
     whyChoose: [
       'Tehnologie VRV originală - Inventatorii sistemelor cu refrigerent variabil din 1982, peste 40 de ani de evoluție continuă și brevete exclusive',
       'Eficiență SEER > 7.0 - Cele mai eficiente sisteme din industrie, clasa A+++ eficiență energetică, economii de 30-50% la energie electrică',
       'Funcționare la -25°C exterior - Tehnologie Hot Gas Injection pentru încălzire în iernile severe, capacitate 100% chiar și la -20°C',
       'Control inteligent BMS - Integrare completă în sisteme Building Management prin Modbus, BACnet, LonWorks sau cloud Daikin',
       'Fiabilitate industrială 20+ ani - Compresoar cu rulmenți ceramici și magneți neodim, testate pentru 100,000 ore de funcționare continuă',
-      'Service rapid și piese de schimb - Rețea națională de service tehnic, stoc permanent de piese în România, intervenție în 24h'
+      'Service rapid și piese de schimb - Rețea de service tehnic și acces la piese de schimb Daikin, cu coordonare promptă pentru intervenții'
     ],
     keyProducts: [
       {
@@ -83,7 +91,7 @@ Am instalat peste 2 milioane de sisteme VRV în lume - de la birouri mici la aer
       },
       {
         name: 'Chillere Răcite cu Aer EWAQ-TZ',
-        description: `Chillerele noastre răcite cu aer sunt perfecte pentru aplicații industriale unde nu ai turn de răcire sau nu vrei să te complici cu apă: capacități de la 50 kW până la 1400 kW răcire, versiuni reversibile cu pompă de căldură pentru încălzire iarna, compresoar scroll Daikin Swing cu eficiență record. Configurație modulară - dacă ai nevoie de 300 kW, pui 3 module de 100 kW care pot funcționa independent pentru redundanță. Control microprocesor cu touchscreen color, comunicație serială pentru supraveghere de la distanță, alarme predictive care îți spun când să faci service înainte să se strice ceva. Le folosim pentru răcire proces în fabrici, climatizare datacenter, aplicații spitale și farmaceutice unde fiabilitatea e vitală.`
+        description: `Chillerele producătorului răcite cu aer sunt perfecte pentru aplicații industriale unde nu ai turn de răcire sau nu vrei să te complici cu apă: capacități de la 50 kW până la 1400 kW răcire, versiuni reversibile cu pompă de căldură pentru încălzire iarna, compresoar scroll Daikin Swing cu eficiență record. Configurație modulară - dacă ai nevoie de 300 kW, pui 3 module de 100 kW care pot funcționa independent pentru redundanță. Control microprocesor cu touchscreen color, comunicație serială pentru supraveghere de la distanță, alarme predictive care îți spun când să faci service înainte să se strice ceva. Le folosim pentru răcire proces în fabrici, climatizare datacenter, aplicații spitale și farmaceutice unde fiabilitatea e vitală.`
       },
       {
         name: 'Unități de Tratare Aer MODULAR L',
@@ -116,20 +124,28 @@ Am instalat peste 2 milioane de sisteme VRV în lume - de la birouri mici la aer
       'Aeroporturi și stații',
       'Industria farmaceutică'
     ],
-    infinitrade: `Furnizăm sisteme Daikin VRV, chillere industriale și unități de tratare aer pentru proiecte comerciale și industriale din România. Din depozitul nostru de la Timișoara livrăm rapid unitățile standard Sky Air și VRV compact, iar pentru proiecte mari comandăm direct din Europa cu livrare în 2-3 săptămâni. Oferim suport tehnic complet pentru dimensionare, selectare echipamente și configurare sisteme complexe. Distribuim pentru instalatori profesioniști care lucrează la proiecte serioase - de la birouri mici la fabrici mari care au nevoie de climatizare industrială de încredere.`
+    infinitrade: `Nu avem date proprii de stoc pentru echipamentele Daikin și ne bazăm pe informațiile publice ale producătorului atunci când descriem gama VRV, chillere și unități de tratare a aerului. Aducem sistemele Daikin la comandă prin canale de aprovizionare din Uniunea Europeană, iar ca reper general al firmei termenele cu care lucrăm sunt 24-72 h pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau pentru proiecte mai mari. Pentru o ofertă, trimite-ne codul modelului, capacitatea necesară (kW) și adresa proiectului, iar noi verificăm disponibilitatea reală la furnizor și revenim cu preț și termen.`,
+    limitation: 'Nu oferim configurare software BMS sau punere în funcțiune a sistemelor VRV - acestea rămân în sarcina instalatorului autorizat sau a producătorului.',
+    sources: [
+      { title: 'About Daikin | Daikin Global', url: 'https://www.daikin.com/about', publisher: 'Daikin Industries, Ltd.', accessed: '2026-09-22' },
+      { title: 'Corporate Data | Corporate Information | Daikin Global', url: 'https://www.daikin.com/corporate/overview/summary/data', publisher: 'Daikin Industries, Ltd.', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'dehn': {
     founded: '1910',
     headquarters: 'Neumarkt, Germania',
     employees: '2,000+',
-    overview: `De peste 110 ani, DEHN protejează clădiri, instalații industriale și rețele electrice împotriva trăsnetului și supratensiunilor. Suntem specialiști în paratrăsnete active și pasive, descărcătoare de supratensiune pentru toate nivelurile de tensiune și sisteme complete de protecție împotriva efectelor electromagnetice (LEMP). Tehnologia noastră germană înseamnă produse testate în laboratorul propriu cu generatoare de impulsuri de până la 400 kA - cel mai mare laborator privat de testare trăsnet din lume.
+    overview: `De peste 110 ani, DEHN protejează clădiri, instalații industriale și rețele electrice împotriva trăsnetului și supratensiunilor. Suntem specialiști în paratrăsnete active și pasive, descărcătoare de supratensiune pentru toate nivelurile de tensiune și sisteme complete de protecție împotriva efectelor electromagnetice (LEMP). Tehnologia producătorului germană înseamnă produse testate în laboratorul propriu cu generatoare de impulsuri de până la 400 kA, conform informațiilor publicate de producător.
 
-Fiecare descărcător DEHN e proiectat pentru milioane de operații de comutație și mii de impulsuri de trăsnet pe durata de viață. Folosim tehnologie sparkgap cu gaz, varistoare oxid metalic de înaltă energie și diode supresor ultrarapide - toate combinate în sisteme în cascadă pentru protecție integrală de la linia de medie tensiune până la prize 230V. Produsele noastre protejează turbine eoliene, stații fotovoltaice, rețele telecom, datacenter-uri și fabrici din toată lumea.
+Fiecare descărcător DEHN e proiectat pentru milioane de operații de comutație și mii de impulsuri de trăsnet pe durata de viață. Folosim tehnologie sparkgap cu gaz, varistoare oxid metalic de înaltă energie și diode supresor ultrarapide - toate combinate în sisteme în cascadă pentru protecție integrală de la linia de medie tensiune până la prize 230V. Produsele DEHN protejează turbine eoliene, stații fotovoltaice, rețele telecom, datacenter-uri și fabrici din toată lumea.
 
 Am dezvoltat conceptul de protecție împotriva trăsnetului în zone cu risc de explozie (ATEX) și soluții speciale pentru rețele IT medicale unde siguranța pacientului e prioritate zero. Când instalația ta trebuie să funcționeze chiar și după trăsnet direct de 200 kA, ai nevoie de protecție DEHN.`,
     whyChoose: [
-      'Laborator propriu de testare 400 kA - Cel mai mare laborator privat din lume pentru simulare trăsnet, fiecare produs testat la limite extreme',
+      'Laborator propriu de testare 400 kA - Laborator privat de simulare trăsnet la capacitate ridicată, conform datelor DEHN, fiecare produs testat la limite extreme',
       'Tehnologie DEHNventil Modular - Descărcătoare modulare combinabile pentru orice nivel de protecție, de la LPZ 0 la LPZ 3',
       'Protecție în cascadă completă - Sisteme coordinate de la tabloul general 400V până la echipamentele sensibile 24V DC',
       'Fiabilitate 99.99% - Guaranteed uptime pentru instalații critice, testate conform IEC 61643-11 la impulsuri repetitive',
@@ -176,14 +192,22 @@ Am dezvoltat conceptul de protecție împotriva trăsnetului în zone cu risc de
       'Industria alimentară',
       'Utilități (apă, canalizare, energie)'
     ],
-    infinitrade: `Furnizăm întreaga gamă DEHN de descărcătoare și sisteme de protecție antitrăsnet pentru instalații industriale și comerciale. Din stocul de la Timișoara livrăm rapid descărcătoarele standard DEHNguard și DEHNventil pentru tablouri electrice, iar pentru proiecte mari cu paratrăsnete active sau sisteme complexe comandăm direct din Germania. Distribuim pentru electricieni profesioniști și integratori care instalează protecție serioasă - de la fabrici la clădiri de birouri, de la stații fotovoltaice la rețele de telecomunicații.`
+    infinitrade: `Folosim informațiile publice disponibile de la DEHN, fără date proprii de stoc pe care să le promitem pentru descărcătoare sau paratrăsnete. Aducem gama DEHN de protecție la supratensiuni la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul produselor sau configurațiilor speciale. Pentru o ofertă corectă, trimite-ne codul exact al produsului (de exemplu DEHNguard sau DEHNventil), tensiunea nominală a rețelei și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
+    limitation: 'Nu putem garanta disponibilitate continuă pentru întreaga gamă DEHN și nici service în garanția producătorului pentru paratrăsnete active.',
+    sources: [
+      { title: 'Lightning protection, surge protection, safety equipment | DEHN', url: 'https://www.dehn-international.com/en', publisher: 'DEHN SE', accessed: '2026-09-22' },
+      { title: 'Lightning protection, surge protection, safety equipment | DEHN', url: 'https://www.dehn.com', publisher: 'DEHN SE', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'dewalt': {
     founded: '1924',
     headquarters: 'Towson, Maryland, SUA',
     employees: '100,000+ (Stanley Black & Decker)',
-    overview: `De 100 de ani, DeWalt înseamnă scule profesionale pentru șantiere, ateliere și fabrici unde munca grea e norma. Suntem brandului galben-negru pe care îl vezi peste tot unde se construiește serios: bormasini cu percuție cu 1200W putere, polizoare unghiulare care mănâncă metal 10 ore pe zi, fierăstraie circulare care taie grinzi ca prin unt. Tehnologia noastră brushless (fără perii) înseamnă motoare electrice cu magneți permanenți care durează de 3-4 ori mai mult decât motoarele clasice cu perii de cărbune.
+    overview: `De 100 de ani, DeWalt înseamnă scule profesionale pentru șantiere, ateliere și fabrici unde munca grea e norma. Suntem brandului galben-negru pe care îl vezi peste tot unde se construiește serios: bormasini cu percuție cu 1200W putere, polizoare unghiulare care mănâncă metal 10 ore pe zi, fierăstraie circulare care taie grinzi ca prin unt. Tehnologia producătorului brushless (fără perii) înseamnă motoare electrice cu magneți permanenți care durează de 3-4 ori mai mult decât motoarele clasice cu perii de cărbune.
 
 Sistemul nostru de baterii XR FlexVolt e revoluționar: aceeași baterie comută automat între 18V pentru scule mici și 54V pentru scule mari de șantier. Înseamnă că un instalator poate avea toată trusa alimentată de același tip de acumulator - de la șurubelniță impact la ferăstrău pendular, de la polizor la lanternă. Baterii litiu-ion cu celule Samsung/LG de înaltă calitate, 2-12 Ah capacitate, sute de cicluri de încărcare.
 
@@ -236,14 +260,22 @@ Producem peste 200 de tipuri de scule electrice, toate testate în condiții ext
       'Demolări și renovări',
       'Producție componente industriale'
     ],
-    infinitrade: `Furnizăm scule profesionale DeWalt pentru contractori, instalatori și ateliere din toată România. Din depozitul de la Timișoara livrăm rapid bormasini, polizoare, ferăstraie circulare și seturi combo cu baterii și încărcătoare. Distribuim doar pentru profesioniști - nu retail, nu bricolaj, doar scule pentru muncă grea zilnică pe șantier. Avem centru de service DeWalt la Timișoara pentru reparații în garanție sau post-garanție. Livrare 24-72h în toată țara, cu factura și garanție 3 ani. Când ai nevoie de scule care nu se strică, vii la noi.`
+    infinitrade: `Pentru DeWalt lucrăm din surse publice ale producătorului, fără date proprii despre stocul intern al fiecărui model de sculă. Aducem sculele DeWalt (bormasini, polizoare, ferăstraie, seturi cu baterii) la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, termenele uzuale sunt 24-72 h pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau pentru accesorii mai puțin comune. Pentru o ofertă, trimite-ne codul exact al modelului (de exemplu DCD996 sau DCG414) și configurația dorită (baterii, valiză, accesorii) - revenim cu preț și termen confirmat.`,
+    limitation: 'Nu putem confirma acoperirea service-ului în garanția producătorului pentru fiecare model DeWalt - livrăm scula conform comenzii, nu intervenția de service.',
+    sources: [
+      { title: 'DEWALT® Official Site | GUARANTEED TOUGH® Since 1924', url: 'https://www.dewalt.com/', publisher: 'DEWALT (Stanley Black & Decker, Inc.)', accessed: '2026-09-22' },
+      { title: 'DeWalt', url: 'https://en.wikipedia.org/wiki/DeWalt', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'history-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'drager': {
     founded: '1889',
     headquarters: 'Lübeck, Germania',
     employees: '15,000+',
-    overview: `De peste 135 de ani, Dräger salvează vieți prin tehnologie de detectare gaze și echipamente de protecție respiratorie. Suntem producătorul nr. 1 european de detectoare portabile multi-gaz, aparate de respirat autonome pentru pompieri și mineri, măști de protecție pentru industria chimică și sisteme fixe de monitorizare atmosferă în spații confinate. Tehnologia noastră de senzori electrochimici, infraroșu și catalitici e folosită în peste 190 de țări - de la rafinării petroliere la mine, de la laboratoare la tuneluri metrou.
+    overview: `De peste 135 de ani, Dräger salvează vieți prin tehnologie de detectare gaze și echipamente de protecție respiratorie. Suntem unul dintre producătorii europeni de referință pentru detectoare portabile multi-gaz, aparate de respirat autonome pentru pompieri și mineri, măști de protecție pentru industria chimică și sisteme fixe de monitorizare atmosferă în spații confinate. Tehnologia producătorului de senzori electrochimici, infraroșu și catalitici e folosită în peste 190 de țări - de la rafinării petroliere la mine, de la laboratoare la tuneluri metrou.
 
 Fiecare detector Dräger e calibrat individual în fabrică și testat în cameră de gaze reale înainte de expediție. Senzorii noștri electrochimici durează 2-4 ani în funcție de expunere, senzorii IR (infraroșu) pentru CO₂ și hidrocarburi nu necesită calibrare frecventă și durează peste 5 ani. Alarme acustice de 90 dB(A) și LED-uri vizibile din toate direcțiile, rezistență la șocuri conform IP67/IP68, funcționare -40°C până la +55°C.
 
@@ -271,7 +303,7 @@ Aparatele noastre de respirat cu aer comprimat (SCBA) echipează pompierii din t
       },
       {
         name: 'Detector Portabil Pac 8000 Single Gas',
-        description: `Când ai nevoie de detector simplu și robust pentru un singur gaz, Pac 8000 e soluția perfectă: versiuni disponibile pentru CO, H₂S, O₂, SO₂, Cl₂, NO₂, sensor electrochimic Dräger XXS cu durată 2+ ani, alarmă 90 dB + LED roșu intermitent, ecran LCD cu cifre mari 15mm vizibile și cu ochelari de protecție, baterie AA standard (2 bucăți) pentru 2 ani funcționare continuă - cel mai ieftin cost pe zi din industrie. Carcasă IP68 rezistentă la apă și praf, greutate doar 100g, clip de centură robust. OV-Chip (OverView Chip) stochează toate datele de calibrare și alarme - le transferi pe PC prin docking station USB. Ideal pentru workers singuri în spații confinate, întreținere industrială, echipe service utilități. Nu are pomă, doar difuzie naturală - deci trebuie purtat la nivelul zonei de respirație. Calibrare o dată la 6-12 luni.`
+        description: `Când ai nevoie de detector simplu și robust pentru un singur gaz, Pac 8000 e soluția perfectă: versiuni disponibile pentru CO, H₂S, O₂, SO₂, Cl₂, NO₂, sensor electrochimic Dräger XXS cu durată 2+ ani, alarmă 90 dB + LED roșu intermitent, ecran LCD cu cifre mari 15mm vizibile și cu ochelari de protecție, baterie AA standard (2 bucăți) pentru 2 ani funcționare continuă, cu un cost de operare redus pe durata de viață a bateriei. Carcasă IP68 rezistentă la apă și praf, greutate doar 100g, clip de centură robust. OV-Chip (OverView Chip) stochează toate datele de calibrare și alarme - le transferi pe PC prin docking station USB. Ideal pentru workers singuri în spații confinate, întreținere industrială, echipe service utilități. Nu are pomă, doar difuzie naturală - deci trebuie purtat la nivelul zonei de respirație. Calibrare o dată la 6-12 luni.`
       }
     ],
     certifications: [
@@ -296,7 +328,15 @@ Aparatele noastre de respirat cu aer comprimat (SCBA) echipează pompierii din t
       'Spații confinate și rezervoare',
       'Producție energie (centrale)'
     ],
-    infinitrade: `Furnizăm detectoare de gaze Dräger și aparate de respirat pentru industrie și servicii de urgență. Din depozitul de la Timișoara livrăm rapid detectoarele portabile Pac 8000 și X-am 8000, iar pentru sisteme fixe Regard sau aparate SCBA comandăm direct din Germania cu livrare în 2-3 săptămâni. Oferim service tehnic Dräger cu calibrare gaze etalon certificate și certificat de calibrare traceable. Distribuim pentru industrie chimică, rafinării, utilități și echipe de intervenție care au nevoie de echipamente de salvare vieți - nu jucării, ci tehnologie care funcționează când contează.`
+    infinitrade: `Nu deținem date proprii de stoc pentru gama Dräger și ne ghidăm după informațiile publice ale producătorului atunci când descriem detectoarele de gaz și aparatele de respirat. Aducem produsele Dräger la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau echipamente speciale. Pentru o ofertă, trimite-ne codul exact al produsului (de exemplu X-am 8000 sau Pac 8000), gazele de detectat și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
+    limitation: 'Nu efectuăm noi calibrarea sau service-ul în garanția producătorului pentru aparatele de respirat sau detectoarele Dräger.',
+    sources: [
+      { title: 'Company Profile | Dräger', url: 'https://www.draeger.com/en_corp/company', publisher: 'Drägerwerk AG & Co. KGaA', accessed: '2026-09-22' },
+      { title: 'Gas Detection | Dräger', url: 'https://www.draeger.com/en_corp/products/gas-detection', publisher: 'Drägerwerk AG & Co. KGaA', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'dwyer': {
@@ -305,7 +345,7 @@ Aparatele noastre de respirat cu aer comprimat (SCBA) echipează pompierii din t
     employees: '500+',
     overview: `De 90+ ani, Dwyer Instruments fabrică instrumentele de măsurare și control care țin industria în parametri: manometre mecanice și digitale, debitimetre pentru aer/apă/gaz, presostatul pentru HVAC și proces industrial, transmițătoare 4-20mA pentru integrare în sisteme de automatizare. Suntem specialiști în low-cost high-reliability - instrumente simple, robuste, care merg ani de zile fără calibrare și fără probleme. Producem în SUA peste 4000 de variante de produse pentru aplicații de la HVAC commercial până la controlul proceselor chimice.
 
-Tehnologia noastră Magnehelic de măsurare presiune diferențială prin magnet e standard în industrie de 70 de ani: fără electricitate, fără baterii, doar un ac magnetic care urmărește presiunea prin diafragmă. Simplu, fiabil, ieftin. Avem și instrumente digitale cu precizie ±0.25% FS, transmițătoare 4-20mA cu certificare SIL pentru aplicații critice, debitimetre turbină cu acuratețe ±0.5% pentru măsurare fiscală.
+Tehnologia producătorului Magnehelic de măsurare presiune diferențială prin magnet e standard în industrie de 70 de ani: fără electricitate, fără baterii, doar un ac magnetic care urmărește presiunea prin diafragmă. Simplu, fiabil, ieftin. Avem și instrumente digitale cu precizie ±0.25% FS, transmițătoare 4-20mA cu certificare SIL pentru aplicații critice, debitimetre turbină cu acuratețe ±0.5% pentru măsurare fiscală.
 
 Manometrele noastre sunt peste tot: de la măsurare presiune în conducte de apă până la monitorizare filtre în camere curate, de la verificare debit ventilatoare până la control presiune în reactoare chimice. Când ai nevoie de un instrument care pur și simplu merge fără să te complice, Dwyer e alegerea evidență.`,
     whyChoose: [
@@ -356,16 +396,24 @@ Manometrele noastre sunt peste tot: de la măsurare presiune în conducte de ap�
       'Industria hârtiei',
       'OEM echipamente industriale'
     ],
-    infinitrade: `Furnizăm instrumente de măsurare Dwyer pentru aplicații HVAC și proces industrial: manometre Magnehelic, transmițătoare presiune, debitimetre și presostatul. Din depozitul de la Timișoara livrăm rapid modelele standard pentru ventilație și climatizare, iar pentru instrumente speciale de proces (presiuni mari, temperaturi extreme) comandăm direct din SUA cu livrare în 3-4 săptămâni. Distribuim pentru instalatori HVAC, integratori de automatizări și ingineri de proces care au nevoie de instrumente fiabile la preț corect. Support tehnic pentru selecție și dimensionare disponibil gratuit.`
+    infinitrade: `Spunem deschis ce putem și ce nu putem confirma despre disponibilitatea reală a fiecărui produs Dwyer înainte de a promite un termen. Aducem instrumentele Dwyer (manometre, transmițătoare, debitmetre, presostate) la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau modele speciale. Pentru o ofertă, trimite-ne seria exactă a produsului (de exemplu Magnehelic 2000 sau seria 628), gama de măsurare necesară și conexiunea de proces - revenim cu preț și termen confirmat.`,
+    limitation: 'Nu putem garanta disponibilitate continuă pentru sub-gama de instrumente digitale Dwyer, doar termenul de aducere la comandă.',
+    sources: [
+      { title: 'About Us', url: 'https://www.dwyeromega.com/en-us/about-us', publisher: 'Dwyer Instruments, LLC d/b/a DwyerOmega', accessed: '2026-09-22' },
+      { title: 'Contact Us', url: 'https://www.dwyeromega.com/en-us/contact-us', publisher: 'Dwyer Instruments, LLC d/b/a DwyerOmega', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'eaton': {
     founded: '1911',
     headquarters: 'Dublin, Irlanda',
     employees: '85,000+',
-    overview: `Eaton e unul dintre cei mai mari producători mondiali de echipamente electrice de distribuție și protecție: întrerupătoare automate de la 6A până la 6300A, contactoare și relee termice pentru protecție motoare, UPS-uri de la 500VA la 1.5MW, tablouri electrice prefabricate, drive-uri cu frecvență variabilă pentru control motoare. Cu peste 110 ani de experiență, produsele noastre Eaton (fostele branduri Moeller, Cutler-Hammer, Holec) echipează distribuțiile electrice din fabrici, clădiri comerciale, datacentre și infrastructură critică din toată lumea.
+    overview: `Eaton e unul dintre cei mai mari producători mondiali de echipamente electrice de distribuție și protecție: întrerupătoare automate de la 6A până la 6300A, contactoare și relee termice pentru protecție motoare, UPS-uri de la 500VA la 1.5MW, tablouri electrice prefabricate, drive-uri cu frecvență variabilă pentru control motoare. Cu peste 110 ani de experiență, produsele producătorului Eaton (fostele branduri Moeller, Cutler-Hammer, Holec) echipează distribuțiile electrice din fabrici, clădiri comerciale, datacentre și infrastructură critică din toată lumea.
 
-Tehnologia noastră de protecție diferențială AFDD (Arc Fault Detection Device) detectează arcurile electrice periculoase care pot cauza incendii - obligatorii în noile instalații rezidențiale din Europa. Întrerupătoarele automate compacte xEffect au putere de rupere 50kA în carcasă de doar 18mm lățime per pol, economisind spațiu în tablouri. Sistemul nostru de management energetic Power Xpert permite monitorizare consumuri în timp real și optimizare costuri energie.
+Tehnologia producătorului de protecție diferențială AFDD (Arc Fault Detection Device) detectează arcurile electrice periculoase care pot cauza incendii - obligatorii în noile instalații rezidențiale din Europa. Întrerupătoarele automate compacte xEffect au putere de rupere 50kA în carcasă de doar 18mm lățime per pol, economisind spațiu în tablouri. Sistemul nostru de management energetic Power Xpert permite monitorizare consumuri în timp real și optimizare costuri energie.
 
 Producem în 30 de fabrici din Europa, America și Asia, cu controale calitate stricte la fiecare pas. Când proiectezi o instalație electrică care trebuie să funcționeze fără probleme 20-30 de ani, când ai nevoie de piese de schimb garantate și documentație tehnică completă, alegi Eaton și dormi liniștit.`,
     whyChoose: [
@@ -416,14 +464,22 @@ Producem în 30 de fabrici din Europa, America și Asia, cu controale calitate s
       'Industria alimentară',
       'OEM - constructori de mașini'
     ],
-    infinitrade: `Furnizăm echipamente electrice Eaton pentru distribuții de joasă tensiune și automatizări industriale: întrerupătoare automate, contactoare, UPS-uri, drive-uri VFD și tablouri electrice. Din depozitul de la Timișoara livrăm rapid produsele standard (întrerupătoare modulare, contactoare până la 100A, UPS-uri sub 3kVA), iar pentru echipamente mari sau configurații speciale comandăm direct din Europa cu termen 2-3 săptămâni. Distribuim pentru electricteni, integratori și OEM-uri care construiesc tablouri electrice și mașini industriale. Support tehnic pentru dimensionare și selecție produse disponibil gratuit - trimite schema unifilară și îți spunem exact ce ai nevoie.`
+    infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe surse publice ale producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimite-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
+    limitation: 'Nu oferim configurare software sau punere în funcțiune pentru drive-urile și UPS-urile Eaton - acestea rămân la instalator sau la producător.',
+    sources: [
+      { title: 'About us | Power management company | Eaton', url: 'https://www.eaton.com/us/en-us/company/about-us.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' },
+      { title: 'Electrical, Industrial, Aerospace Products | Eaton', url: 'https://www.eaton.com/us/en-us/products.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'eaton-filtration': {
     founded: '1963',
     headquarters: 'Tinton Falls, New Jersey, SUA',
     employees: '85,000+ (Eaton Corporation)',
-    overview: `Divizia Eaton Filtration (fostă Hayward Filtration, apoi Strainrite) produce sisteme de filtrare industrială pentru lichide și gaze: filtre cu sac pentru debite mari și particule 1-200 microni, filtre cu cartuș pentru aplicații fine sub 1 micron, filtre automate backwash pentru procesare continuă fără opriri. Tehnologia noastră acoperă de la filtrare grosieră apă de proces (500 microni) până la filtrare ultra-fină pentru industria farmaceutică (0.2 microni absoluți), de la debite mici de 1 m³/h până la instalații industriale de 1000+ m³/h.
+    overview: `Divizia Eaton Filtration (fostă Hayward Filtration, apoi Strainrite) produce sisteme de filtrare industrială pentru lichide și gaze: filtre cu sac pentru debite mari și particule 1-200 microni, filtre cu cartuș pentru aplicații fine sub 1 micron, filtre automate backwash pentru procesare continuă fără opriri. Tehnologia producătorului acoperă de la filtrare grosieră apă de proces (500 microni) până la filtrare ultra-fină pentru industria farmaceutică (0.2 microni absoluți), de la debite mici de 1 m³/h până la instalații industriale de 1000+ m³/h.
 
 Corpurile noastre de filtru sunt construite din oțel carbon vopsit, inox 304/316L sau materiale speciale (Hastelloy, titanium) pentru lichide corosive. Presiuni de lucru până la 40 bar, temperaturi de la -20°C până la +200°C, conexiuni flanșate sau filetate de la DN25 până la DN600. Sacii de filtrare sunt disponibili în polyester, polypropylene, nylon, PTFE - fiecare material optimizat pentru anumit tip de lichid și particule.
 
@@ -476,7 +532,15 @@ Avem peste 60 de ani de experiență în filtrare industrială: de la vopsele ș
       'Rafinării petrol',
       'Industria cosmetică'
     ],
-    infinitrade: `Furnizăm sisteme de filtrare industrială Eaton pentru lichide și gaze: filtre cu sac, filtre cu cartuș, filtre automate și filtre magnetice. Din depozitul de la Timișoara livrăm rapid corpurile de filtre standard inox și sacii/cartușele consumabile, iar pentru sisteme mari customizate (filtre automate backwash, instalații multi-corp) comandăm din Europa sau SUA cu livrare în 4-6 săptămâni. Distribuim pentru industria chimică, alimentară, farmaceutică și fabrici care au nevoie de filtrare profesională - nu improvizații, ci sisteme inginere calculate pentru procesul tău specific. Consultanță tehnică gratuită pentru dimensionare și selecție produse.`
+    infinitrade: `Pentru divizia Eaton Filtration lucrăm din surse publice ale producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimite-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
+    limitation: 'Nu putem garanta disponibilitate continuă pentru sacii și cartușele consumabile din gama Eaton Filtration, doar termenul de aducere la comandă.',
+    sources: [
+      { title: 'Filter media for efficient and reliable filtration | Eaton', url: 'https://www.eaton.com/us/en-us/catalog/filtration.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' },
+      { title: 'About us | Power management company | Eaton', url: 'https://www.eaton.com/us/en-us/company/about-us.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'eaton-hydraulics': {
@@ -485,7 +549,7 @@ Avem peste 60 de ani de experiență în filtrare industrială: de la vopsele ș
     employees: '85,000+ (Eaton Corporation)',
     overview: `Divizia Eaton Hydraulics produce componente hidraulice industriale și mobile de înaltă performanță: pompe cu pistoane axiale de la 5 cc/rev până la 250 cc/rev, motoare hidraulice pentru tracțiune și antrenare, valve de control proporțional și direcțional, cilindri hidraulici de la 25mm până la 500mm diametru piston. Moștenirea noastră include brandurile legendare Vickers, Char-Lynn, Aeroquip - nume care înseamnă fiabilitate în hidraulică de peste 100 de ani.
 
-Tehnologia noastră de pompe cu displacement variabil permite controlul precis al vitezei și cuplului fără pierderi energetice - eficiență peste 93% la presiuni de lucru de 350-420 bar. Pompele Vickers PVH sunt standard în prese hidraulice, mașini de injecție plastic, excavatoare și utilaje agricole. Motoarele noastre cu pistoane radiale Char-Lynn oferă cuplu enorm la viteză mică - perfecte pentru antrenare directă roți sau șenile fără cutie de viteze.
+Tehnologia producătorului de pompe cu displacement variabil permite controlul precis al vitezei și cuplului fără pierderi energetice - eficiență peste 93% la presiuni de lucru de 350-420 bar. Pompele Vickers PVH sunt standard în prese hidraulice, mașini de injecție plastic, excavatoare și utilaje agricole. Motoarele noastre cu pistoane radiale Char-Lynn oferă cuplu enorm la viteză mică - perfecte pentru antrenare directă roți sau șenile fără cutie de viteze.
 
 Sistemul nostru de valve electrohidraulice permite control milimetric al poziției cilindrilor prin feedback loop și servo-valve: răspuns sub 10ms, histereza sub 0.1%, repetabilitate poziționare ±0.05mm. Când construiești o mașină care trebuie să funcționeze 10,000 ore pe an în condiții grele, când precizia hidraulică face diferența între profit și pierdere, alegi Eaton Hydraulics.`,
     whyChoose: [
@@ -536,7 +600,15 @@ Sistemul nostru de valve electrohidraulice permite control milimetric al poziți
       'Naval și offshore',
       'Aviație - sisteme hidraulice aeronave'
     ],
-    infinitrade: `Furnizăm componente hidraulice Eaton pentru aplicații industriale și mobile: pompe Vickers, motoare Char-Lynn, valve proporțional și cilindri hidraulici. Din depozitul de la Timișoara livrăm rapid piesele standard (cilindri welded până la Ø200mm, valve mici, motoare compacte), iar pentru pompe mari PVH sau configurații customizate de valve comandăm direct din SUA/Europa cu livrare în 6-8 săptămâni. Distribuim pentru constructori de mașini mobile (excavatoare, platforme, utilaje agricole) și integratori de sisteme hidraulice industriale. Consultanță tehnică pentru dimensionare circuite hidraulice disponibilă - trimite schema și parametrii și îți calculăm pompele/cilindrii/valve necesare.`
+    infinitrade: `Nu putem confirma stocul exact pentru fiecare componentă Eaton Hydraulics și lucrăm din informațiile publice ale producătorului atunci când descriem pompele Vickers, motoarele Char-Lynn, valvele și cilindrii din gamă. Aducem componentele hidraulice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru pompe mari sau configurații speciale de valve. Pentru o ofertă, trimite-ne parametrii circuitului hidraulic (debit, presiune, cursă) sau codul exact al piesei - revenim cu preț și termen de livrare confirmat.`,
+    limitation: 'Nu efectuăm noi reparații sau recondiționare a pompelor și motoarelor hidraulice Eaton - service-ul rămâne în sarcina producătorului sau a unui atelier specializat.',
+    sources: [
+      { title: 'About us | Power management company | Eaton', url: 'https://www.eaton.com/us/en-us/company/about-us.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' },
+      { title: 'Electrical, Industrial, Aerospace Products | Eaton', url: 'https://www.eaton.com/us/en-us/products.html', publisher: 'Eaton Corporation plc', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'emerson': {
@@ -545,7 +617,7 @@ Sistemul nostru de valve electrohidraulice permite control milimetric al poziți
     employees: '86,000+',
     overview: `Emerson e unul dintre giganții mondiali în tehnologie de automatizare industrială și control de proces: sisteme DCS (Distributed Control Systems) DeltaV pentru rafinării și chimie, transmițătoare inteligente Rosemount pentru presiune/temperatură/debit, valve de control Fisher cu actuatoare pneumatice și electrice, analizoare de proces pentru gaze și lichide, sisteme SCADA și software de optimizare proces. Cu peste 130 de ani în industrie, tehnologia Emerson echipează peste 60% din rafinăriile mondiale și fabricile chimice mari.
 
-Tehnologia noastră PlantWeb permite digitalizarea completă a instalațiilor industriale: fiecare transmițător, valvă și analizor comunică prin HART, Foundation Fieldbus sau WirelessHART direct cu sistemul de control. Diagnostic predictiv integrat în fiecare instrument alertează operatorii înainte ca echipamentul să se defecteze - reducere downtime neplanificat cu 30-50%. Valve de control Fisher sunt celebrate pentru fiabilitate: peste 1 milion de cicluri fără service, etanșeitate clasă VI conform ANSI/FCI, dimensiuni de la DN15 până la DN600.
+Tehnologia producătorului PlantWeb permite digitalizarea completă a instalațiilor industriale: fiecare transmițător, valvă și analizor comunică prin HART, Foundation Fieldbus sau WirelessHART direct cu sistemul de control. Diagnostic predictiv integrat în fiecare instrument alertează operatorii înainte ca echipamentul să se defecteze - reducere downtime neplanificat cu 30-50%. Valve de control Fisher sunt celebrate pentru fiabilitate: peste 1 milion de cicluri fără service, etanșeitate clasă VI conform ANSI/FCI, dimensiuni de la DN15 până la DN600.
 
 Sistemul DeltaV DCS e vârful de lance în control de proces: redundanță completă (controllere duble, rețele duale, servere fail-over), scalabilitate de la 50 până la 25,000 I/O points, interfață operator modernă touch cu grafice HD, integrare nativă sisteme de siguranță SIS (Safety Instrumented Systems) conform IEC 61511. Când procesul tău nu poate sta nicio secundă și când calitatea produsului depinde de control precis, Emerson e standard în industrie.`,
     whyChoose: [
@@ -596,6 +668,14 @@ Sistemul DeltaV DCS e vârful de lance în control de proces: redundanță compl
       'Life sciences - biotehnologie',
       'Metals & mining - siderurgie'
     ],
-    infinitrade: `Furnizăm instrumente și sisteme de automatizare Emerson pentru industria de proces: transmițătoare Rosemount, valve Fisher, sisteme DCS DeltaV și software de management asset. Din depozitul de la Timișoara livrăm rapid transmițătoarele standard 3051 și valve mici de control, iar pentru proiecte mari (sisteme DCS, valve mari customizate, analizoare de proces) colaborăm cu Emerson România pentru ofertare și livrare în 8-12 săptămâni. Distribuim pentru EPC contractors, integratori de sisteme și departamente de inginerie din rafinării, chimie și pharma. Support tehnic pentru dimensionare valve și selectare instrumente disponibil - trimite datele de proces (fluid, presiune, temperatură, debit) și îți recomandăm configurația optimă.`
+    infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim informațiile publice disponibile de la producător atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, trimite-ne datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului - revenim cu preț și termen de livrare confirmat.`,
+    limitation: 'Nu oferim configurare sau programare software pentru sistemele DeltaV sau valvele Fisher - acestea rămân în sarcina integratorului sau a producătorului.',
+    sources: [
+      { title: 'About Us', url: 'https://www.emerson.com/en-us/about-us', publisher: 'Emerson Electric Co.', accessed: '2026-09-22' },
+      { title: 'Corporate', url: 'https://www.emerson.com/en-us', publisher: 'Emerson Electric Co.', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   }
 };

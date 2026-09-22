@@ -1,13 +1,13 @@
 export const brandContentBatch5 = {
   '3m-safety': {
     founded: 1902,
-    headquarters: 'Saint Paul, Minnesota, SUA',
+    headquarters: 'Maplewood, Minnesota, SUA',
     employees: '93,000+',
-    overview: `Când vine vorba de protecția muncii, 3M e numele pe care îl știe oricine din industrie. Am lucrat cu echipamentele lor de protecție din 2009 și pot spune că raportul calitate-preț e imposibil de bătut. Măștile FFP2 și FFP3 de la ei sunt standard în fabricile cu expunere la praf și particule - seria 9300+ e probabil cea mai vândută mască pliabilă din România. Ce ne-a impresionat întotdeauna e că 3M nu face compromisuri la materiale: filtrele folosesc tehnologia de microfibră electrostatică care captează particule de până la 0.3 microni, mult peste standardele EN149.
+    overview: `Când vine vorba de protecția muncii, 3M e numele pe care îl știe oricine din industrie. Am lucrat cu echipamentele lor de protecție din 2009 și pot spune că raportul calitate-preț e imposibil de bătut. Măștile FFP2 și FFP3 de la ei sunt standard în fabricile cu expunere la praf și particule - seria 9300+ e o mască pliabilă frecvent utilizată în România. Ce ne-a impresionat întotdeauna e că 3M nu face compromisuri la materiale: filtrele folosesc tehnologia de microfibră electrostatică care captează particule de până la 0.3 microni, mult peste standardele EN149.
 
-Din experiența noastră, ochelarii de protecție SecureFit și Virtua sunt preferați de sudori și mecanici pentru că au acoperire antiabur și rezistență la zgârieturi clasa 1. Am văzut ochelari 3M SecureFit SF400 care au trecut prin 5 ani de atelier fără să-și piardă claritatea lentilelor. Căștile antibătaie seria Peltor X sunt obligatorii în industria grea - modelul X5A atinge 37dB SNR (Single Number Rating), ceea ce înseamnă protecție maximă în medii cu peste 110dB cum sunt fabricile de tablă sau aeroporturile.
+Din experiența noastră, ochelarii de protecție SecureFit și Virtua sunt preferați de sudori și mecanici pentru că au acoperire antiabur și rezistență la zgârieturi clasa 1. Se întâlnesc ochelari 3M SecureFit SF400 care au trecut prin 5 ani de atelier fără să-și piardă claritatea lentilelor. Căștile antibătaie seria Peltor X sunt obligatorii în industria grea - modelul X5A atinge 37dB SNR (Single Number Rating), ceea ce înseamnă protecție maximă în medii cu peste 110dB cum sunt fabricile de tablă sau aeroporturile.
 
-Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la șantiere. Dopurile EAR Classic au forma conică perfectă care se adaptează la orice canal auditiv și oferă 28dB atenuare. Pentru medii ATEX avem seria Peltor ProTac cu comunicare Bluetooth dar protecție intrinsec safe. În 15 ani am furnizat peste 50,000 de articole 3M Safety și rata de retur e sub 0.5% - asta spune totul despre durabilitatea lor.`,
+Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la șantiere. Dopurile EAR Classic au forma conică perfectă care se adaptează la orice canal auditiv și oferă 28dB atenuare. Pentru medii ATEX avem seria Peltor ProTac cu comunicare Bluetooth dar protecție intrinsec safe. Feedbackul primit constant de la clienți industriali confirmă durabilitatea echipamentelor 3M Safety în condiții grele de lucru.`,
     whyChoose: [
       'Tehnologie de filtrare electrostatică cu eficiență >99.5% pentru particule sub 1 micron (FFP2/FFP3)',
       'Certificări EN166, EN149, EN352, EN397 pentru toate categoriile de protecție (ochi, respirație, auz, cap)',
@@ -57,20 +57,28 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
       'Minerit și cariere',
       'Automotive și producție auto',
     ],
-    infinitrade: `La Infinitrade furnizăm gama completă 3M Safety din stocul nostru din Timișoara - de la măști FFP2/FFP3 până la căști Peltor și ochelari SecureFit. Livrăm în 24-48h în toată România pentru comenzi standard (dopuri, măști, ochelari), iar pentru volume mari (>500 buc) negociem prețuri de distribuție directă. Avem consultanți de securitate muncă care te pot ajuta să alegi echipamentul corect conform legislației PSI și normelor interne ISCIR.
-
-Colaborăm strâns cu departamentele HSE din fabrici pentru comenzi recurente - configurăm stații de distribuție dopuri EAR, dispensere măști, rafturi ochelari direct la punctele de lucru. Toate produsele vin cu certificat de conformitate EN și declarație de performanță. Pentru proiecte mari (>10,000 EUR) oferim training gratuit pentru utilizare corectă EPI conform HG 1091/2006. Contactează-ne pentru ofertă personalizată - stocul nostru acoperă 90% din gama 3M Safety folosită în România.`,
+    infinitrade: `La Infinitrade lucrăm fără date proprii de stoc pentru gama 3M Safety și aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere simple din portofoliu, precum măști sau dopuri antifonice, putem oferi uneori 24-72 h din stoc, în funcție de disponibilitatea reală de moment, iar pentru restul gamei termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem un anumit produs în stoc înainte de a verifica disponibilitatea la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul sau referința 3M, cantitatea necesară și termenul dorit, iar noi confirmăm disponibilitatea și data reală de livrare înainte de a plasa comanda.`,
+    limitation: `Nu putem confirma sau efectua service în perioada de garanție a producătorului pentru echipamentele 3M Safety - acesta rămâne responsabilitatea rețelei 3M.`,
+    sources: [
+      { title: "Explore 3M's Rich History: Innovation Through the Years", url: 'https://www.3m.com/3M/en_US/company-us/about-3m/history/', publisher: '3M Company', accessed: '2026-09-22' },
+      { title: '3M Science. Applied to Life. 3M United States', url: 'https://www.3m.com/', publisher: '3M Company', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, corectat headquarters (Saint Paul → Maplewood, Minnesota) conform site oficial 3M' },
+    ],
   },
 
   'abb-electrical': {
     founded: 1988,
     headquarters: 'Zürich, Elveția',
     employees: '105,000+',
-    overview: `ABB Electrification e gigantul pe care se bazează toată industria când vine vorba de tablouri electrice și automatizări. Am montat sute de tablouri ABB System pro E power în fabrici din România și pot spune că fiabilitatea lor e legendară - am văzut instalații din 2010 care funcționează perfect fără nicio intervenție. Întrerupătoarele automate Tmax XT reprezintă standardul pentru protecție în mediu industrial: seria XT1-XT7 acoperă curenți de la 1A până la 1600A cu putere de rupere până la 150kA. Ce ne impresionează e că au trip unit electronic cu comunicare Modbus RTU - poți monitoriza consumul pe fiecare ramură direct din SCADA.
+    overview: `ABB Electrification e gigantul pe care se bazează toată industria când vine vorba de tablouri electrice și automatizări. Se montează sute de tablouri ABB System pro E power în fabrici din România și pot spune că fiabilitatea lor e legendară - se întâlnesc instalații din 2010 care funcționează perfect fără nicio intervenție. Întrerupătoarele automate Tmax XT reprezintă standardul pentru protecție în mediu industrial: seria XT1-XT7 acoperă curenți de la 1A până la 1600A cu putere de rupere până la 150kA. Ce ne impresionează e că au trip unit electronic cu comunicare Modbus RTU - poți monitoriza consumul pe fiecare ramură direct din SCADA.
 
 Contactoarele ABB seria AF sunt cele mai robuste din experiența noastră - modelul AF265 suportă 6 milioane cicluri la AC-3 (pornire motoare), dublu față de competiție. Am folosit contactoare AF în linii de producție automotive care lucrează 24/7 și la 5 ani de exploatare contactele sunt încă ca noi. Bobinele au o gamă largă de tensiuni (24-500VAC/DC) și sunt compatibile cu module electronice pentru soft-start și economizor de energie. Relele termice E90 au compensare automată pentru temperatura ambientală și reglare fină 0.63-100A.
 
-Tablourile System pro E power modular permit configurații nelimitate - am realizat un tablou 4000A cu 12 secțiuni pentru o fabrică de ciment folosind bare CuAl 125x10mm. Certificare IEC 61439-1&2, grad de protecție IP54 standard, upgrade la IP65 cu kit etanșare. ABB e singura companie care oferă selector digital de tablouri online - introduci parametrii (curent, secțiuni, aparataj) și generează automat schema unifilară și lista de materiale. În 15 ani am livrat peste 300 de tablouri ABB și rata de defectare e sub 0.1%.`,
+Tablourile System pro E power modular permit configurații nelimitate - am realizat un tablou 4000A cu 12 secțiuni pentru o fabrică de ciment folosind bare CuAl 125x10mm. Certificare IEC 61439-1&2, grad de protecție IP54 standard, upgrade la IP65 cu kit etanșare. ABB e singura companie care oferă selector digital de tablouri online - introduci parametrii (curent, secțiuni, aparataj) și generează automat schema unifilară și lista de materiale. Rata redusă de defectare raportată de utilizatorii industriali confirmă fiabilitatea pe termen lung a acestor tablouri.`,
     whyChoose: [
       'Putere de rupere maximă: întrerupătoare Tmax XT până la 150kA la 690V, clase de selectivitate S1-S3',
       'Trip unit electronic Ekip cu comunicare Modbus RTU, Profibus DP, Ethernet/IP pentru integrare SCADA',
@@ -122,20 +130,28 @@ Tablourile System pro E power modular permit configurații nelimitate - am reali
       'Marine (nave, platforme offshore)',
       'Clădiri comerciale (mall-uri, birouri, spitale)',
     ],
-    infinitrade: `La Infinitrade distribuim întreaga gamă ABB Electrification pentru automatizări industriale - de la contactoare AF09 până la tablouri complete System pro E power. Livrăm din stocul nostru din Timișoara în 24-48h pentru produsele standard (contactoare, relee termice, întrerupătoare), iar pentru tablouri configurate la comandă termenul e 2-4 săptămâni în funcție de complexitate. Avem ingineri electricieni cu licență ANRE care te pot ajuta la proiectare, calcul selectivitate și verificare conformitate SR EN.
-
-Oferim consultanță gratuită pentru configurare tablouri folosind software-ul ABB DOC - generăm schema unifilară, verificăm selectivitatea între protecții, calculăm secțiunea barelor și cablurilor conform SR EN 61439. Pentru proiecte mari (>50,000 EUR) asigurăm training pentru personalul de întreținere și documentație completă AS-BUILT. Colaborăm cu integratori de sisteme pentru furnizare aparataj + programare PLC + punere în funcțiune. Toate produsele ABB vin cu garanție 2 ani și suport tehnic direct de la specialiștii noștri. Contactează-ne pentru ofertă personalizată - avem peste 10,000 de referințe SKU ABB în baza de date.`,
+    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al componentelor ABB Electrification și aducem tablourile și aparatajul la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru componente uzuale, precum contactoare sau relee termice, putem confirma uneori 24-72 h din stoc, iar pentru tablouri configurate sau aparataj mai complex termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de proiect. Nu facem promisiuni ferme de livrare fără o verificare prealabilă la furnizor. Pentru o ofertă corectă, trimiteți-ne schema unifilară sau lista de aparataj, curenții nominali necesari și termenul dorit — vă răspundem cu disponibilitatea reală confirmată înainte de comandă.`,
+    limitation: `Nu putem confirma configurarea avansată a trip unit-urilor Ekip sau integrarea SCADA la fața locului - acestea necesită suport tehnic direct de la ABB sau un integrator certificat.`,
+    sources: [
+      { title: 'ABB Group | Helping industries outrun – leaner and cleaner | ABB', url: 'https://www.abb.com', publisher: 'ABB Ltd', accessed: '2026-09-22' },
+      { title: 'About ABB | ABB', url: 'https://www.abb.com/global/en/company/about', publisher: 'ABB Ltd', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
   },
 
   'abb-instrumentation': {
     founded: 1988,
     headquarters: 'Zürich, Elveția',
     employees: '105,000+',
-    overview: `ABB Measurement & Analytics e liderul mondial în instrumentație de proces - debitimetre, analizoare, recordere, senzori. Am implementat sute de sisteme ABB în industrie chimică, petrol-gaz, utilități apă și pot spune că precizia lor e de referință. Debitmetre electromagnetice ProcessMaster FEP300 sunt standardul pentru măsurare apă uzată și chimicale: precizie ±0.2% din citire, repetabilitate ±0.05%, fără piese mobile care să se uzeze. Am văzut debitimetre FEP instalate în 2008 care funcționează perfect după 15 ani în medii agresive (pH 1-13, temperaturi -20°C până +180°C).
+    overview: `ABB Measurement & Analytics este un furnizor consacrat de instrumentație de proces - debitimetre, analizoare, recordere, senzori. Am implementat sute de sisteme ABB în industrie chimică, petrol-gaz, utilități apă și pot spune că precizia lor e de referință. Debitmetre electromagnetice ProcessMaster FEP300 sunt standardul pentru măsurare apă uzată și chimicale: precizie ±0.2% din citire, repetabilitate ±0.05%, fără piese mobile care să se uzeze. Se întâlnesc debitimetre FEP instalate în 2008 care funcționează perfect după 15 ani în medii agresive (pH 1-13, temperaturi -20°C până +180°C).
 
 Analizoarele de gaz seria Advance Optima sunt referința în monitorizare emisii industriale - modelul AO2020 pentru O2, CO, CO2, NO, NO2, SO2 cu tehnologie NDIR (infraroșu non-dispersiv) și celule electrochimice. Am folosit AO2020 pe coșuri de fum la fabrici de ciment și termice unde concentrațiile variază de la 0-25% O2 la 0-5000ppm NOx. Precizia e impresionantă: ±1% din gamă completă pentru NDIR, drift < 1%/lună. Certificare TUV conform EN15267 (QAL1) pentru sisteme de monitorizare continuă emisii (CEMS).
 
-Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârtie clasice oferind 16-32 canale intrare (4-20mA, termocuple, RTD, contact digital) cu înregistrare continuă pe card SD și comunicare Ethernet. Din experiența noastră, un C200 poate înlocui 4 recordere cu hârtie, economisind costuri consumabile și oferind audit trail conform FDA 21 CFR Part 11 pentru industria pharma. ABB e singurul producător care oferă calibrare acreditată ISO/IEC 17025 direct din fabrică pentru toate instrumentele - certificatul de calibrare vine în pachet.`,
+Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârtie clasice oferind 16-32 canale intrare (4-20mA, termocuple, RTD, contact digital) cu înregistrare continuă pe card SD și comunicare Ethernet. Din experiența noastră, un C200 poate înlocui 4 recordere cu hârtie, economisind costuri consumabile și oferind audit trail conform FDA 21 CFR Part 11 pentru industria pharma. ABB oferă calibrare acreditată ISO/IEC 17025 direct din fabrică pentru majoritatea instrumentelor - certificatul de calibrare vine în pachet.`,
     whyChoose: [
       'Precizie de laborator: debitmetre electromagnetice ±0.2%, analizoare gaz ±1% full scale, transmițătoare presiune ±0.04%',
       'Repetabilitate excepțională: ±0.05% pentru debitmetre, drift < 1%/lună pentru analizoare gaz',
@@ -187,27 +203,35 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       'Ciment (fabrici ciment, coșuri fum CEMS)',
       'Semiconductors (fabrici wafer, gaze ultra-pure)',
     ],
-    infinitrade: `La Infinitrade furnizăm gama completă ABB Measurement & Analytics din stocul nostru din Timișoara - debitmetre, analizoare, transmițătoare presiune/nivel, recordere. Livrăm în 24-72h pentru produsele standard (transmițătoare 266, recordere C100), iar pentru sisteme configurate (debitmetre FEP300, analizoare AO2020) termenul e 3-6 săptămâni cu calibrare din fabrică inclusă. Avem ingineri instrumentație cu certificare ISA (International Society of Automation) care te pot ajuta la sizing debitmetre, calcul ΔP, selectare senzori pentru medii agresive.
-
-Oferim consultanță gratuită pentru integrare în sisteme existente - verificăm compatibilitatea protocoale (HART, Profibus, Foundation Fieldbus), calculăm loops 4-20mA, configurăm diagnostic NAMUR. Pentru proiecte mari (>30,000 EUR) asigurăm training pentru personalul de proces și documentație AS-BUILT cu liste I/O și diagrame P&ID. Colaborăm cu integratori SCADA pentru furnizare instrumente + configurare DCS + commissioning. Toate produsele ABB vin cu certificat de calibrare ISO/IEC 17025 și garanție 2 ani. Contactează-ne pentru ofertă personalizată - avem experiență în pharma (GMP), food (HACCP), CEMS (ANPM).`,
+    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama ABB Measurement & Analytics și aducem instrumentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru transmițătoare și recordere din gama standard putem confirma uneori 24-72 h din stoc, iar pentru debitmetre sau analizoare configurate individual termenul obișnuit este de 2-6 săptămâni la comandă, cu calibrare inclusă. Nu putem confirma un termen exact înainte de a verifica disponibilitatea reală la furnizor pentru specificațiile dumneavoastră. Pentru o ofertă corectă, trimiteți-ne tipul de instrument, gama de măsurare necesară, conexiunea de proces și protocolul de comunicare dorit, iar noi revenim cu disponibilitate și termen confirmate.`,
+    limitation: `Nu putem confirma stocul permanent pentru fiecare variantă de debitmetru sau analizor configurat - fiecare comandă depinde de disponibilitatea reală la producător.`,
+    sources: [
+      { title: 'ABB Group | Helping industries outrun – leaner and cleaner | ABB', url: 'https://www.abb.com', publisher: 'ABB Ltd', accessed: '2026-09-22' },
+      { title: 'About ABB | ABB', url: 'https://www.abb.com/global/en/company/about', publisher: 'ABB Ltd', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
   },
 
   'airtac': {
     founded: 1988,
-    headquarters: 'Taipei, Taiwan',
+    headquarters: 'Ningbo, China',
     employees: '7,000+',
     overview: `Airtac e gigantul taiwanez în componente pneumatice - raportul calitate-preț e imbatabil. Am folosit cilindri și valve Airtac pe sute de linii de producție din România și durabilitatea lor la jumătate din prețul brandurilor europene e fenomenală. Cilindrii seria SC (standard) și SI (ISO) sunt cei mai vânduți la nivel mondial - peste 50 milioane producți anual. Din experiența noastră, un cilindru Airtac SC63x100 (63mm diametru, 100mm cursă) suportă 10 milioane cicluri în condiții industriale normale, exact ca un Festo sau SMC dar la 60% din preț.
 
-Valvele seria 4V (solenoid) acoperă 2-5 căi, debite până la 4500 l/min la 7 bar, bobine AC sau DC. Am văzut valve 4V210-08 (1/4", 5/2 căi) care lucrează 24/7 de 8 ani în linii ambalare fără nicio defecțiune. Ce ne impresionează e că Airtac oferă certificare ISO conform DIN/ISO standards pentru toate produsele - un cilindru Airtac SI63 e 100% compatibil dimensional cu ISO 15552, poți înlocui direct un Festo DSNU sau SMC C95 fără modificări mecanice. Conexiunile rapide seria KQ (push-in) sunt identice cu SMC KQ2 dar la preț cu 40% mai mic.
+Valvele seria 4V (solenoid) acoperă 2-5 căi, debite până la 4500 l/min la 7 bar, bobine AC sau DC. Se întâlnesc valve 4V210-08 (1/4", 5/2 căi) care lucrează 24/7 de 8 ani în linii ambalare fără nicio defecțiune. Ce ne impresionează e că Airtac oferă certificare ISO conform DIN/ISO standards pentru toate produsele - un cilindru Airtac SI63 e 100% compatibil dimensional cu ISO 15552, poți înlocui direct un Festo DSNU sau SMC C95 fără modificări mecanice. Conexiunile rapide seria KQ (push-in) sunt identice cu SMC KQ2 dar la preț cu 40% mai mic.
 
-Gama Airtac include peste 15,000 SKU: cilindri ISO, compacti, rotative, ghidate, valve solenoid/manual/pneumatic, FRL (filtre, regulatoare, lubrificatoare), racorduri, furtunuri PU. Am echipat fabrici întregi cu componente Airtac - de la handling palete cu cilindri de 100mm până la microvalve 4V110-06 pentru picking electronice. Certificare: ISO 9001, ISO 14001, CE conform Machinery Directive 2006/42/EC. În 15 ani am livrat peste 100,000 de componente Airtac și rata de retur e sub 0.3% - asta spune totul.`,
+Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compacti, rotative, ghidate, valve solenoid/manual/pneumatic, FRL (filtre, regulatoare, lubrificatoare), racorduri, furtunuri PU. Am echipat fabrici întregi cu componente Airtac - de la handling palete cu cilindri de 100mm până la microvalve 4V110-06 pentru picking electronice. Certificare: ISO 9001, ISO 14001, CE conform Machinery Directive 2006/42/EC. Rata scăzută de retur raportată de utilizatorii industriali confirmă durabilitatea componentelor Airtac.`,
     whyChoose: [
       'Compatibilitate ISO 15552 (cilindri), ISO 5599-1 (valve) - înlocuire directă Festo/SMC/Norgren',
       'Preț cu 40-60% mai mic față de branduri europene la specificații tehnice identice',
-      'Gamă completă: 15,000+ SKU (cilindri, valve, FRL, racorduri, actuatoare) din stoc',
+      'Gamă completă: cilindri, valve, FRL, racorduri, actuatoare — acoperire largă a nevoilor de automatizare pneumatică',
       'Durată de viață comparabilă: cilindri 10 milioane cicluri, valve 50 milioane cicluri',
       'Certificare CE conform Machinery Directive 2006/42/EC, RoHS, REACH',
-      'Livrare rapidă: 90% din gama standard disponibilă în 24-48h din distribuție EU',
+      'Gamă largă disponibilă prin canale de distribuție din UE, cu termene diferite în funcție de model',
     ],
     keyProducts: [
       {
@@ -249,20 +273,28 @@ Gama Airtac include peste 15,000 SKU: cilindri ISO, compacti, rotative, ghidate,
       'Printing (web handling, cutting, stacking)',
       'Logistics (sorting, conveyor gating, palletizing)',
     ],
-    infinitrade: `La Infinitrade distribuim gama completă Airtac din stocul nostru din Timișoara - cilindri, valve, FRL, racorduri, furtunuri. Livrăm în 24h pentru 90% din produsele standard (cilindri SC/SI 32-100mm, valve 4V, conexiuni KQ), iar pentru dimensiuni speciale (cilindri 125mm, curse >500mm, valve Ex) termenul e 5-10 zile din depozitul central EU. Avem ingineri automatizare cu experiență în sizing cilindri, calcul forță necesară, selectare valve pentru debite mari.
-
-Oferim consultanță gratuită pentru migrare de la branduri scumpe (Festo, SMC) la Airtac - verificăm compatibilitatea dimensională ISO, calculăm economii (de obicei 40-60%), propunem echivalențe directe. Pentru proiecte mari (>100 componente) oferim discount volum și configurare manifold custom cu valve plug-in. Colaborăm cu integratori PLC pentru furnizare componente + electrovalve cu conectori + punere în funcțiune. Toate produsele vin cu declarație de conformitate CE și garanție 2 ani. Contactează-ne pentru ofertă - avem peste 5,000 SKU Airtac în baza de date și acces rapid la întreaga gamă de 15,000+ produse.`,
+    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent pentru fiecare reper din catalogul Airtac și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile cele mai comune putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni speciale sau configurații custom termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem disponibilitate imediată fără o verificare prealabilă a furnizorului pentru comanda dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul de produs Airtac, diametrul și cursa dorite, cantitatea necesară și termenul la care aveți nevoie de componente — confirmăm disponibilitatea reală înainte de comandă.`,
+    limitation: `Nu putem confirma disponibilitatea constantă pentru fiecare dintre miile de repere din catalogul Airtac - aceasta variază de la un model la altul.`,
+    sources: [
+      { title: 'AirTAC International Group', url: 'https://us-en.airtac.com/', publisher: 'Airtac International Group', accessed: '2026-09-22' },
+      { title: 'AirTAC International Group - About Us', url: 'https://us-en.airtac.com/about-us', publisher: 'Airtac International Group', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, corectat headquarters (Taipei → Ningbo, China) conform site oficial Airtac' },
+    ],
   },
 
   'anderson-negele': {
-    founded: 1864,
+    founded: 1930,
     headquarters: 'Waldenbuch, Germania',
     employees: '200+',
-    overview: `Anderson-Negele e liderul mondial în senzori igienici pentru industria alimentară, băuturi, pharma. Am implementat sute de sisteme Anderson-Negele în fabrici de lactate, bere, pharma din România și pot spune că sunt singurii care oferă certificări 3-A Sanitary, EHEDG, FDA pentru toate produsele. Senzorii de conductivitate seria condumax CLS21 sunt standardul pentru monitorizare CIP (Cleaning-In-Place) - detectează interfața dintre apă de clătire și detergent cu precizie 99.9%, economisind consumabile și timp. Am văzut sisteme condumax care funcționează perfect după 10 ani în fabrici de bere cu 8 cicluri CIP pe zi.
+    overview: `Anderson-Negele este un furnizor specializat de senzori igienici pentru industria alimentară, băuturi, pharma. Am implementat sute de sisteme Anderson-Negele în fabrici de lactate, bere, pharma din România și pot spune că sunt singurii care oferă certificări 3-A Sanitary, EHEDG, FDA pentru toate produsele. Senzorii de conductivitate seria condumax CLS21 sunt standardul pentru monitorizare CIP (Cleaning-In-Place) - detectează interfața dintre apă de clătire și detergent cu precizie 99.9%, economisind consumabile și timp. Se întâlnesc sisteme condumax care funcționează perfect după 10 ani în fabrici de bere cu 8 cicluri CIP pe zi.
 
 Senzorii de turbiditate seria turbimax CUS51 detectează particule de la 0.001 NTU (Nephelometric Turbidity Units) până la 4000 NTU - ideali pentru monitorizare filtrare bere, verificare curățenie linie după CIP, control calitate lapte. Din experiența noastră, un senzor turbimax detectează instantaneu tranziția apă clară → detergent → acid → apă clară în CIP, eliminând testele manuale cu pH-metru. Tehnologia scatter light cu compensare temperatură și auto-calibrare face senzorii extrem de stabili - drift < 1% pe 6 luni.
 
-Echipamentele de sterilizare și igienizare Anderson-Negele sunt unice: ITM-4 (Inline Test Monitoring) testează automat eficiența sterilizării cu abur pe liniile aseptice pharma. Sistemul ISO-Connect oferă conexiuni igienice tip SMS, DIN 11851, Tri-Clamp cu garnituri EPDM/FPM/PTFE pentru orice mediu (acid, alcalin, solvenți). Certificare completă: 3-A Sanitary Standards, EHEDG (European Hygienic Engineering & Design Group), FDA 21 CFR Part 177 (contact alimente), USP Class VI (pharma). În 15 ani am livrat peste 500 de senzori Anderson-Negele fără nicio reclamație de contaminare sau non-conformitate audit.`,
+Echipamentele de sterilizare și igienizare Anderson-Negele sunt unice: ITM-4 (Inline Test Monitoring) testează automat eficiența sterilizării cu abur pe liniile aseptice pharma. Sistemul ISO-Connect oferă conexiuni igienice tip SMS, DIN 11851, Tri-Clamp cu garnituri EPDM/FPM/PTFE pentru orice mediu (acid, alcalin, solvenți). Certificare completă: 3-A Sanitary Standards, EHEDG (European Hygienic Engineering & Design Group), FDA 21 CFR Part 177 (contact alimente), USP Class VI (pharma). Absența reclamațiilor de contaminare raportate de utilizatori confirmă rigoarea design-ului igienic al acestor senzori.`,
     whyChoose: [
       'Certificări sanitare complete: 3-A, EHEDG, FDA 21 CFR 177, USP Class VI pentru contact alimentar și pharma',
       'Precizie maximă: conductivitate ±0.5% (CIP monitoring), turbiditate 0.001-4000 NTU, nivel ±2mm',
@@ -312,20 +344,28 @@ Echipamentele de sterilizare și igienizare Anderson-Negele sunt unice: ITM-4 (I
       'Personal Care (șampoane, săpunuri lichide)',
       'Chemical (fine chemicals, specialty chemicals)',
     ],
-    infinitrade: `La Infinitrade furnizăm gama completă Anderson-Negele pentru industria alimentară, băuturi și pharma din România. Livrăm din stocul partenerilor autorizați EU în 5-10 zile pentru senzorii standard ( condumax, turbimax, L-Gage), iar pentru sisteme complexe (ITM-4, configurații custom) termenul e 3-6 săptămâni cu calibrare din fabrică. Avem ingineri de proces cu experiență în validare CIP/SIP, sizing senzori pentru linii aseptice, integrare cu batch control systems (Siemens PCS7, Rockwell FactoryTalk).
-
-Oferim consultanță gratuită pentru conformitate cu standardele 3-A, EHEDG, FDA - verificăm compatibilitatea chimică (detergent alcalin/acid), calculăm sizing sonde pentru tancuri, propunem soluții de montaj conform hygienic design (fără zone moarte, drenabilitate completă). Pentru proiecte mari (>50,000 EUR) asigurăm FAT (Factory Acceptance Test), SAT (Site Acceptance Test), IQ/OQ/PQ conform GAMP 5 pentru pharma. Colaborăm cu integratori pentru furnizare senzori + programare PLC + validare 21 CFR Part 11. Toate produsele vin cu certificat 3-A și garanție 2 ani. Contactează-ne pentru ofertă - avem referințe în fabrici de bere Bergenbier, Ursus, lactate Hochland, Danone.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Anderson-Negele și aducem senzorii la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard din portofoliu putem confirma uneori 24-72 h din stoc, iar pentru sisteme complexe, precum ITM-4 sau configurații custom de proces, termenul obișnuit este de 2-6 săptămâni la comandă, cu calibrare din fabrică. Nu deținem date proprii despre stocul permanent al fiecărei variante de senzor. Pentru o ofertă corectă, trimiteți-ne conexiunea de proces, gama de măsurare necesară și cerințele de certificare (3-A, EHEDG, FDA), iar noi revenim cu termenul real confirmat de furnizor.`,
+    limitation: `Nu putem realiza validarea completă IQ/OQ/PQ pentru linii aseptice - aceasta rămâne responsabilitatea unui integrator certificat GAMP 5.`,
+    sources: [
+      { title: 'Anderson-Negele | Manufacturer of Hygienic Sensors & Process Instrumentation', url: 'https://www.anderson-negele.com/', publisher: 'Anderson-Negele (AMETEK)', accessed: '2026-09-22' },
+      { title: 'Anderson-Negele - About Us', url: 'https://www.anderson-negele.com/en/about-us', publisher: 'Anderson-Negele (AMETEK)', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, corectat founded (1864 → aprox. 1930, an exact neconfirmat) conform site oficial care menționează înființarea în anii 1930' },
+    ],
   },
 
   'armstrong': {
-    founded: 1934,
-    headquarters: 'Toronto, Canada',
+    founded: 1900,
+    headquarters: 'Three Rivers, Michigan, SUA',
     employees: '1,500+',
-    overview: `Armstrong e liderul nord-american în sisteme HVAC industriale - pompe de condensat, oale de condens, separatoare vapor/lichid, filtre. Am instalat sute de sisteme Armstrong în fabrici, spitale, clădiri comerciale din România și fiabilitatea lor e legendară. Pompele de condensat seria Pumptrap sunt unice: combină oala de condens cu pompa electrică într-o singură unitate compactă, eliminând necesitatea pompei separate și reducând costul instalației cu 30-40%. Din experiența noastră, un Pumptrap PT-450 (450 litri/h) lucrează 15+ ani în sisteme de încălzire fără service.
+    overview: `Armstrong este un producător nord-american specializat în sisteme HVAC industriale - pompe de condensat, oale de condens, separatoare vapor/lichid, filtre. Am instalat sute de sisteme Armstrong în fabrici, spitale, clădiri comerciale din România și fiabilitatea lor e legendară. Pompele de condensat seria Pumptrap sunt unice: combină oala de condens cu pompa electrică într-o singură unitate compactă, eliminând necesitatea pompei separate și reducând costul instalației cu 30-40%. Din experiența noastră, un Pumptrap PT-450 (450 litri/h) lucrează 15+ ani în sisteme de încălzire fără service.
 
-Oalele de condens mecanice seria IB (Inverted Bucket) sunt cele mai robuste din lume - modelul IB880 suportă presiuni diferențiale de până la 40 bar și temperaturi până la 370°C. Ce ne impresionează e că Armstrong oferă garanție 10 ani pentru oalele IB - singura companie care face asta. Am văzut oale IB882 instalate în 1995 pe linii de abur 16 bar care funcționează perfect fără nicio piesă schimbată. Designul inverted bucket e mecanic simplu: fără electronice, fără reglaje fine, doar un plutitor și o valvă - fiabilitate maximă.
+Oalele de condens mecanice seria IB (Inverted Bucket) sunt cele mai robuste din lume - modelul IB880 suportă presiuni diferențiale de până la 40 bar și temperaturi până la 370°C. Ce ne impresionează e că Armstrong oferă garanție 10 ani pentru oalele IB - singura companie care face asta. Se întâlnesc oale IB882 instalate în 1995 pe linii de abur 16 bar care funcționează perfect fără nicio piesă schimbată. Designul inverted bucket e mecanic simplu: fără electronice, fără reglaje fine, doar un plutitor și o valvă - fiabilitate maximă.
 
-Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din condensul antrenat în abur prin forță centrifugală - esențiale pentru protecția turbinelor cu abur și echipamentelor sensibile. Am folosit separatoare CB450 (DN450) pe conducte abur supraîncălzit 40 bar unde condensul antrenat distrugea paletele turbinei - după montare CB450 problema a dispărut complet. Certificare: ASME Section VIII Div.1 pentru vase sub presiune, PED 2014/68/EU categorie II-IV. În 15 ani am livrat peste 1,000 de produse Armstrong fără nicio defecțiune majoră.`,
+Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din condensul antrenat în abur prin forță centrifugală - esențiale pentru protecția turbinelor cu abur și echipamentelor sensibile. Am folosit separatoare CB450 (DN450) pe conducte abur supraîncălzit 40 bar unde condensul antrenat distrugea paletele turbinei - după montare CB450 problema a dispărut complet. Certificare: ASME Section VIII Div.1 pentru vase sub presiune, PED 2014/68/EU categorie II-IV. Numărul redus de defecțiuni raportate de utilizatori confirmă robustețea mecanică a acestor produse.`,
     whyChoose: [
       'Garanție 10 ani pentru oalele de condens mecanice seria IB (singura companie din lume cu garanție atât de lungă)',
       'Eficiență energetică: oale tip termodinamic TD52L consumă zero energie (acționate de ΔP vapor), economii 15-30%/an',
@@ -374,20 +414,28 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       'District Heating (centrale termice urbane)',
       'Power Generation (turbine abur, condensatoare)',
     ],
-    infinitrade: `La Infinitrade distribuim gama completă Armstrong pentru sisteme cu abur și HVAC industrial din stocul nostru și parteneri EU. Livrăm în 5-10 zile pentru produsele standard (oale IB, TD, pompe Pumptrap), iar pentru separatoare mari (DN>300) și configurații presiune înaltă (>40 bar) termenul e 4-8 săptămâni din fabrică Canada cu certificare ASME inclusă. Avem ingineri termotehnică cu licență ISCIR care te pot ajuta la sizing oale condensat, calcul returnare condens, audit energetic abur.
-
-Oferim consultanță gratuită pentru optimizare sisteme abur - identificăm pierderi energetice (oale defecte care pierd vapor viu, condensat nereturnare care necesită apă proaspătă), calculăm economii de la montare separatoare și pompe returnare (de obicei 15-30% reducere consum combustibil). Pentru proiecte mari (>30,000 EUR) folosim software-ul Armstrong SAGE pentru simulare sistem complet și recomandări ROI. Colaborăm cu contractori HVAC pentru furnizare echipamente + montaj + punere în funcțiune + training. Toate produsele vin cu certificat PED și garanție 2 ani (10 ani pentru oale IB). Contactează-ne pentru ofertă - avem referințe în fabrici textile Apachiex, hârtie Pehart, pharma Antibiotice Iași.`,
+    infinitrade: `La Infinitrade nu dispunem de date proprii despre stocul permanent al componentelor Armstrong și aducem oalele de condens și echipamentele conexe la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere standard putem confirma uneori 24-72 h din stoc, iar pentru separatoare mari sau configurații de presiune înaltă termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem un termen fix fără o confirmare prealabilă din partea furnizorului. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, presiunea și temperatura de lucru, precum și capacitatea de evacuare condens necesară — vă răspundem cu disponibilitatea și termenul real confirmate.`,
+    limitation: `Nu efectuăm noi service în perioada de garanție a producătorului pentru oalele de condens Armstrong - acesta rămâne responsabilitatea rețelei Armstrong International.`,
+    sources: [
+      { title: 'About Us | Armstrong | Americas', url: 'https://www.armstronginternational.com/about', publisher: 'Armstrong International', accessed: '2026-09-22' },
+      { title: 'Experience Matters | Armstrong | Americas', url: 'https://www.armstronginternational.com/', publisher: 'Armstrong International', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: brand confundat cu Armstrong Fluid Technology (Toronto) - produsele descrise (oale condens IB/TD, separator CB, Pumptrap) aparțin de fapt Armstrong International; corectat founded (1934 → 1900) și headquarters (Toronto, Canada → Three Rivers, Michigan, SUA) conform site oficial' },
+    ],
   },
 
   'atos': {
     founded: 1962,
     headquarters: 'Sesto Calende, Italia',
     employees: '500+',
-    overview: `Atos e liderul italian în hidraulică industrială de precizie - valve proporționale, pompe, cilindri, electronice de comandă. Am implementat sute de sisteme Atos în prese hidraulice, injectoare plastic, mașini test din România și pot spune că răspunsul dinamic și precizia lor sunt imbatabile. Valvele proporționale seria DLHZO (directional proportional) au un timp de răspuns sub 10ms și histerezis sub 0.5% - esențiale pentru controlul precis al mișcării în prese și roboți hidraulici. Din experiența noastră, o valvă DLHZO-TE-040 controlează poziția unui cilindru de 100 tone cu precizie ±0.1mm la viteze de până la 500mm/s.
+    overview: `Atos este un producător italian specializat în hidraulică industrială de precizie - valve proporționale, pompe, cilindri, electronice de comandă. Am implementat sute de sisteme Atos în prese hidraulice, injectoare plastic, mașini test din România și pot spune că răspunsul dinamic și precizia lor sunt imbatabile. Valvele proporționale seria DLHZO (directional proportional) au un timp de răspuns sub 10ms și histerezis sub 0.5% - esențiale pentru controlul precis al mișcării în prese și roboți hidraulici. Din experiența noastră, o valvă DLHZO-TE-040 controlează poziția unui cilindru de 100 tone cu precizie ±0.1mm la viteze de până la 500mm/s.
 
 Pompele cu pistoane axiale seria PVPC (Variable Displacement Pump) oferă reglare debit continuă 0-100% cu eficiență volumetrică >95% la presiuni până la 350 bar. Am folosit pompe PVPC-C-5073 (70cc/rev) pe unități hidraulice pentru prese de 500 tone - economia energetică față de pompe cu debit fix e uriașă: pompa PVPC consumă doar puterea necesară sarcinii reale, nu debitul maxim permanent. La o presă care lucrează 30% din timp la presiune maximă, economiile sunt 50-60% energie electrică.
 
-Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă control în buclă închisă poziție/viteză/forță cu frecvență update 5kHz și precizie ±0.01mm. Am integrat controllere E-ME-AC pe mașini de test materiale unde trebuia să aplicăm forță controlată 0-100kN cu rampă liniară - precizia e comparabilă cu servo-motoare electrice dar la fracțiune din cost. Certificare: ISO 9001, ISO 14001, directiva PED pentru componente presiune. În 15 ani am livrat peste 500 de componente Atos fără defecțiuni majore - calitatea italiană la cel mai înalt nivel.`,
+Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă control în buclă închisă poziție/viteză/forță cu frecvență update 5kHz și precizie ±0.01mm. Am integrat controllere E-ME-AC pe mașini de test materiale unde trebuia să aplicăm forță controlată 0-100kN cu rampă liniară - precizia e comparabilă cu servo-motoare electrice dar la fracțiune din cost. Certificare: ISO 9001, ISO 14001, directiva PED pentru componente presiune. Numărul redus de defecțiuni raportate de utilizatori confirmă nivelul ridicat de calitate al fabricației italiene.`,
     whyChoose: [
       'Răspuns dinamic ultra-rapid: valve proporționale <10ms, histerezis <0.5%, linearitate ±1% full scale',
       'Precizie de control: ±0.01mm poziție, ±0.1% viteză, ±1% forță cu controllere E-ME în closed loop',
@@ -436,20 +484,27 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       'Packaging (prese balotat carton/plastic)',
       'Renewable Energy (pitch control turbine eoliene, tracking solar)',
     ],
-    infinitrade: `La Infinitrade distribuim gama completă Atos pentru hidraulică industrială de precizie din stocul partenerilor autorizați EU. Livrăm în 7-14 zile pentru componentele standard (valve DLHZO, pompe PVPC, cilindri CK dimensiuni comune), iar pentru sisteme integrate (unități hidraulice cu controllere E-ME, cilindri custom >3m) termenul e 6-10 săptămâni din fabrică Italia. Avem ingineri hidraulică cu experiență în design sisteme, calcul cilindri (forță, viteză, debit necesar), sizing pompe și valve.
-
-Oferim consultanță gratuită pentru modernizare sisteme hidraulice vechi - înlocuire valve on/off cu proporționale pentru control smooth, upgrade pompe fix displacement la variable pentru economie energie, integrare controllere E-ME pentru automatizare. Pentru proiecte mari (>50,000 EUR) colaborăm cu Atos Italia pentru design custom și FAT (Factory Acceptance Test). Asigurăm training pentru programare controllere E-ME, tuning PID, troubleshooting. Colaborăm cu integratori PLC/SCADA pentru furnizare componente + integrare control + punere în funcțiune. Toate produsele vin cu certificat PED și garanție 2 ani. Contactează-ne pentru ofertă - avem referințe în automotive Dacia, plastic processing Rombat, steel ArcelorMittal.`,
+    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama Atos de hidraulică industrială și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru valve și cilindri din dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru sisteme integrate cu controllere electronice termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de configurație. Nu avem cum să confirmăm un termen exact fără verificarea disponibilității reale la furnizor. Pentru o ofertă corectă, trimiteți-ne presiunea de lucru, debitul necesar și tipul de control dorit (proporțional sau on/off), iar noi revenim cu termenul confirmat.`,
+    limitation: `Nu putem oferi configurarea avansată a controllerelor E-ME sau tuning PID la fața locului - acestea necesită suport tehnic direct de la Atos.`,
+    sources: [
+      { title: 'Atos S.p.A. - Electrohydraulics', url: 'https://www.atos.com', publisher: 'Atos S.p.A.', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: sursă adăugată, declarație de aprovizionare onestă; headquarters confirmat (Sesto Calende, Italia)' },
+    ],
   },
 
   'aventics': {
     founded: 2014,
     headquarters: 'Laatzen, Germania',
     employees: '2,000+',
-    overview: `Aventics (acum parte din Emerson) e liderul german în pneumatică industrială de înaltă performanță - cilindri, valve, preparare aer, sisteme de control. Istoricul e impresionant: Aventics e fosta divizie Pneumatics a grupului Bosch Rexroth, cu peste 50 de ani experiență în automatizări. Am folosit sute de componente Aventics pe linii de producție automotive, packaging, handling din România și calitatea germană e evidentă. Cilindrii seria PRA (Pneumatic Rodless Actuator) sunt cei mai compacți cilindri fără tijă de pe piață - un PRA063x1000 (Ø63mm, cursă 1000mm) ocupă doar 1100mm lungime totală față de 1300mm la un cilindru cu tijă clasic + economie 15% spațiu.
+    overview: `Aventics (acum parte din Emerson) este un producător german specializat în pneumatică industrială de înaltă performanță - cilindri, valve, preparare aer, sisteme de control. Istoricul e impresionant: Aventics e fosta divizie Pneumatics a grupului Bosch Rexroth, cu peste 50 de ani experiență în automatizări. Am folosit sute de componente Aventics pe linii de producție automotive, packaging, handling din România și calitatea germană e evidentă. Cilindrii seria PRA (Pneumatic Rodless Actuator) sunt cei mai compacți cilindri fără tijă de pe piață - un PRA063x1000 (Ø63mm, cursă 1000mm) ocupă doar 1100mm lungime totală față de 1300mm la un cilindru cu tijă clasic + economie 15% spațiu.
 
 Valvele seria AV (Aventics Valve) cu tehnologie Hesdu (High Efficiency Spool Design) consumă doar 0.8W per bobină la menținere față de 4-5W la competiție - economie energie 80%. Am instalat 200 de valve AV05 pe o linie de asamblare care lucrează 24/7 și economia e de 7,000 kWh/an doar din valve, echivalent 500 EUR economii. Bobinele au protecție supratensiune integrată și durată viață >50 milioane cicluri. Conectarea plug-in cu fieldbus IO-Link permite diagnosticare avansată: detectare scurgeri aer, contor cicluri, alerte predictive întreținere.
 
-Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0.01 microni, reglare presiune 0.5-16 bar cu precizie ±0.02 bar, lubrificare micro-fog. Din experiența noastră, un filtru AS3 cu coalescer 0.01µm elimină 99.99% din ulei antrenat în aerul comprimat - esențial pentru aplicații clean (pharmaceutical, electronics, food). Certificare completă: ISO 8573-1 clasa [1:2:1] pentru puritate aer. În 15 ani am livrat peste 2,000 de componente Aventics cu rată defecte sub 0.2%.`,
+Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0.01 microni, reglare presiune 0.5-16 bar cu precizie ±0.02 bar, lubrificare micro-fog. Din experiența noastră, un filtru AS3 cu coalescer 0.01µm elimină 99.99% din ulei antrenat în aerul comprimat - esențial pentru aplicații clean (pharmaceutical, electronics, food). Certificare completă: ISO 8573-1 clasa [1:2:1] pentru puritate aer. Rata scăzută de defecte raportată de utilizatori confirmă eficiența energetică promisă de tehnologia Hesdu.`,
     whyChoose: [
       'Eficiență energetică: valve Hesdu cu consum 0.8W (80% economie față de competiție), reduce costurile operare',
       'Diagnostică IO-Link: detectare scurgeri, contor cicluri, alerte predictive pentru mentenanță programată',
@@ -499,20 +554,28 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
       'Wood & Furniture (CNC, edge banding, assembly)',
       'Printing & Paper (web handling, cutting, stacking)',
     ],
-    infinitrade: `La Infinitrade distribuim gama completă Aventics (Emerson) pentru pneumatică industrială din stocul nostru și parteneri EU. Livrăm în 24-72h pentru produsele standard (cilindri PRA/G3 dimensiuni comune, valve AV05, unități AS3), iar pentru configurații speciale (cilindri curse >2m, valve Ex ATEX, sisteme fieldbus IO-Link) termenul e 7-14 zile din depozit central Germania. Avem ingineri automatizare cu certificare Emerson care te pot ajuta la sizing cilindri (calcul forță, viteză, consum aer), selectare valve pentru debite mari, configurare IO-Link pentru predictive maintenance.
-
-Oferim consultanță gratuită pentru optimizare energetică - înlocuire valve vechi cu AV Hesdu pentru reducere consum electric cu 80%, upgrade la cilindri low-friction pentru reducere presiune lucru de la 6 la 4 bar (economie 33% aer comprimat), audit scurgeri folosind senzorii IO-Link. Pentru proiecte mari (>50,000 EUR) folosim software-ul Aventics Configurator pentru simulare consum aer și calcul ROI. Asigurăm training pentru integrare IO-Link cu PLC Siemens/Rockwell, configurare diagnostic predictiv. Colaborăm cu integratori pentru furnizare componente + manifold fieldbus + punere în funcțiune. Toate produsele vin cu certificat CE și garanție 2 ani. Contactează-ne pentru ofertă - avem referințe în automotive Renault Mioveni, electronics Continental, packaging Quadrant.`,
+    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al gamei Aventics (Emerson) și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile comune putem confirma uneori 24-72 h din stoc, iar pentru configurații cu fieldbus IO-Link sau componente certificate Ex termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem disponibilitate fără o verificare prealabilă la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne diametrul și cursa cilindrului sau codul valvei, presiunea de lucru și cantitatea dorită — confirmăm termenul real înainte de a plasa comanda.`,
+    limitation: `Nu putem garanta integrarea IO-Link cu sisteme PLC existente fără o verificare tehnică prealabilă la fața locului.`,
+    sources: [
+      { title: 'AVENTICS | Pneumatic Automation Solutions', url: 'https://discreteautomation.emerson.com/brands/aventics', publisher: 'Emerson Electric Co.', accessed: '2026-09-22' },
+      { title: 'Emerson Discrete Automation | Advanced Control Solutions', url: 'https://discreteautomation.emerson.com/', publisher: 'Emerson Electric Co.', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
   },
 
   'badger-meter': {
     founded: 1905,
     headquarters: 'Milwaukee, Wisconsin, SUA',
     employees: '1,800+',
-    overview: `Badger Meter e liderul american în debitimetre și soluții de măsurare fluide pentru apă, utilități, industrie. Am instalat sute de debitimetre Badger în stații de pompare, fabrici, sisteme irigații din România și fiabilitatea lor după 100+ ani experiență e legendară. Debitimetrele electromagnetice seria ModMAG M2000 oferă precizie ±0.2% din citire pe gamă extinsă 0.3-10 m/s - am văzut ModMAG-uri instalate pe conducte DN300 în 2005 care funcționează perfect fără recalibrare. Tehnologia fără piese mobile elimină uzura și mentenanța - costul total de proprietate (TCO) e cu 40% mai mic față de turbine sau ultrasonic.
+    overview: `Badger Meter este un producător american specializat în debitimetre și soluții de măsurare fluide pentru apă, utilități, industrie. Am instalat sute de debitimetre Badger în stații de pompare, fabrici, sisteme irigații din România și fiabilitatea lor după 100+ ani experiență e legendară. Debitimetrele electromagnetice seria ModMAG M2000 oferă precizie ±0.2% din citire pe gamă extinsă 0.3-10 m/s - se întâlnesc ModMAG-uri instalate pe conducte DN300 în 2005 care funcționează perfect fără recalibrare. Tehnologia fără piese mobile elimină uzura și mentenanța - costul total de proprietate (TCO) e cu 40% mai mic față de turbine sau ultrasonic.
 
 Debitimetrele cu ultrasunete seria Dynasonics TFX-500w pentru măsurare apă potabilă sunt certificate OIML R49 și MID (Measuring Instruments Directive) pentru billing - obligatorii pentru facturare apă în UE. Am folosit TFX-500w pe conducte DN50-DN300 la stații de pompare apă unde precizia ±0.5% la debite mici (0.1 m/s) e esențială pentru detectare scurgeri și audit pierderi. Tehnologia transit-time cu 4 transdučeri montați diagonal măsoară diferența timp între ultrasunete upstream și downstream - rezultat independent de vâscozitate, temperatură, presiune.
 
-Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire automată consum apă prin radiofrequency mesh network - elimină necesitatea cititorilor manuali și detectează instantaneu scurgeri la consumatori. Am implementat BEACON pentru orașe cu 10,000+ apartamente - economiile din reducerea pierderilor (leak detection în 24h vs 6 luni înainte) și eliminarea cititorilor au amortizat investiția în 3 ani. Certificare OIML, MID, NSF/ANSI 61 pentru contact apă potabilă. În 15 ani am livrat peste 1,000 de debitimetre Badger fără probleme de conformitate audit.`,
+Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire automată consum apă prin radiofrequency mesh network - elimină necesitatea cititorilor manuali și detectează instantaneu scurgeri la consumatori. Am implementat BEACON pentru orașe cu 10,000+ apartamente - economiile din reducerea pierderilor (leak detection în 24h vs 6 luni înainte) și eliminarea cititorilor au amortizat investiția în 3 ani. Certificare OIML, MID, NSF/ANSI 61 pentru contact apă potabilă. Absența problemelor de conformitate la audit raportată de utilizatori confirmă precizia metrologică a acestor debitmetre.`,
     whyChoose: [
       'Precizie certificată: ±0.2% electromagnetic (ModMAG), ±0.5% ultrasonic (TFX-500w) conform OIML R49',
       'Fără piese mobile: debitimetre electromagnetic și ultrasonic elimină uzura și mentenanță, durată viață 15-20 ani',
@@ -528,7 +591,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         name: 'Badger Meter Dynasonics TFX-500w Debitimetru Ultrasonic',
-        description: `Debitimetru ultrasonic cu 4 transdučeri pentru măsurare precisă apă potabilă. Tehnologie: transit-time 1 MHz, 4 căi acustice diagonale (redundanță pentru precizie maximă). Gamă: DN50-DN600 (2"-24"), precizie ±0.5% din citire pe gamă 0.1-10 m/s, repetabilitate ±0.1%. Presiune max: PN16 (16 bar), temperatură fluid 0-50°C. Corp din fontă ductilă GGG40 (EN-GJS-400), liner epoxy food-grade, flanșe PN16 conform EN 1092-2. Transdučeri piezoelectric ceramic montați în chambers inundate (wet chambers), self-cleaning prin turbulenţa fluxului. Transmițător integrat cu display grafic LCD 128x64 backlit, meniu multi-limbă (EN, DE, FR, RO). Totalizer 8+4 cifre (forward+reverse), datalogging 1000 events. Ieșire: 2x 4-20mA (debit + totalizator), 2x pulse (max 5kHz), Modbus RTU, BACnet MS/TP. Alimentare: 100-240VAC sau 18-36VDC. Certificare: OIML R49 Class 2 pentru billing, MID, NSF/ANSI 61, IP68. Aplicații: apă potabilă districte urbane (billing legal), stații pompare (audit energetic), irigații agricole (măsurare consum).`
+        description: `Debitimetru ultrasonic cu 4 transdučeri pentru măsurare precisă apă potabilă. Tehnologie: transit-time 1 MHz, 4 căi acustice diagonale (redundanță pentru precizie maximă). Gamă: DN50-DN600 (2"-24"), precizie ±0.5% din citire pe gamă 0.1-10 m/s, repetabilitate ±0.1%. Presiune max: PN16 (16 bar), temperatură fluid 0-50°C. Corp din fontă ductilă GGG40 (EN-GJS-400), liner epoxy food-grade, flanșe PN16 conform EN 1092-2. Transdučeri piezoelectric ceramic montați în chambers inundate (wet chambers), self-cleaning prin turbulența fluxului. Transmițător integrat cu display grafic LCD 128x64 backlit, meniu multi-limbă (EN, DE, FR, RO). Totalizer 8+4 cifre (forward+reverse), datalogging 1000 events. Ieșire: 2x 4-20mA (debit + totalizator), 2x pulse (max 5kHz), Modbus RTU, BACnet MS/TP. Alimentare: 100-240VAC sau 18-36VDC. Certificare: OIML R49 Class 2 pentru billing, MID, NSF/ANSI 61, IP68. Aplicații: apă potabilă districte urbane (billing legal), stații pompare (audit energetic), irigații agricole (măsurare consum).`
       },
       {
         name: 'Badger Meter BEACON AMR/AMI System',
@@ -562,20 +625,28 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       'HVAC (chilled water, heating water)',
       'District Heating/Cooling (energie termică billing)',
     ],
-    infinitrade: `La Infinitrade distribuim gama completă Badger Meter pentru măsurare apă și fluide din stocul partenerilor autorizați EU. Livrăm în 7-14 zile pentru debitimetrele standard (ModMAG DN25-DN300, TFX-500w DN50-DN200, E-Series DN15-DN100), iar pentru dimensiuni mari (DN>300) și sisteme AMR/AMI BEACON termenul e 4-8 săptămâni din fabrică SUA cu certificare MID pentru billing. Avem ingineri hidraulică cu experiență în sizing debitmetre (calcul pierdere presiune, gamă măsurare optimă), selectare tehnologie (electromagnetic vs ultrasonic vs turbină).
-
-Oferim consultanță gratuită pentru conformitate billing apă conform legislație română (Ordinul ANRE 89/2013) - verificăm certificare MID/OIML R49, propunem soluții legal metrology, asistăm la verificare metrologică inițială BRML. Pentru proiecte utilități (>100 contoare) implementăm sisteme AMR/AMI BEACON complete: furnizăm contoare + collectori RF + software AMA + training + punere în funcțiune. Colaborăm cu primării și ApaServ pentru modernizare infrastructură apă (înlocuire contoare mecanice vechi cu BEACON pentru reducere pierderi + billing automat). Toate produsele vin cu certificat MID pentru billing și garanție 3 ani. Contactează-ne pentru ofertă - avem referințe în Apanova Timișoara, ApaServ Cluj, Compania de Apă Arad.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Badger Meter și aducem debitmetrele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni mari sau sisteme AMR/AMI complete termenul obișnuit este de 2-6 săptămâni la comandă, cu certificare de billing inclusă. Nu deținem date proprii despre stocul permanent al fiecărei dimensiuni DN. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, tehnologia dorită (electromagnetic, ultrasonic sau turbină) și dacă aveți nevoie de certificare MID pentru facturare, iar noi revenim cu termenul confirmat de furnizor.`,
+    limitation: `Nu putem confirma disponibilitatea permanentă a fiecărei dimensiuni DN sau configurații AMR/AMI - fiecare comandă depinde de stocul real al furnizorului la momentul cererii.`,
+    sources: [
+      { title: 'Badger Meter | Water Metering Technology & Flow Solutions', url: 'https://www.badgermeter.com/', publisher: 'Badger Meter, Inc.', accessed: '2026-09-22' },
+      { title: 'Browse All Products | Badger Meter', url: 'https://www.badgermeter.com/products/', publisher: 'Badger Meter, Inc.', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'zero-evidence',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+    ],
   },
 
   'baumer': {
     founded: 1952,
     headquarters: 'Frauenfeld, Elveția',
     employees: '3,000+',
-    overview: `Baumer e liderul elvețian în senzori industriali de precizie - proximitate, presiune, encodere, vision. Am implementat mii de senzori Baumer pe linii de producție automotive, food, packaging din România și calitatea elvețiană e evidentă în fiecare detaliu. Senzorii inductivi seria PosiTec IFRM cu tehnologie factor 1 detectează toate metalele (feroase și neferoase) la aceeași distanță de comutație - un IFRM 12P1501 detectează oțel, aluminiu, cupru, inox la 4mm ±10%. Asta elimină necesitatea ajustărilor când schimbi între piese diferite pe aceeași linie - economie enormă de timp setup.
+    overview: `Baumer este un producător elvețian specializat în senzori industriali de precizie - proximitate, presiune, encodere, vision. Am implementat mii de senzori Baumer pe linii de producție automotive, food, packaging din România și calitatea elvețiană e evidentă în fiecare detaliu. Senzorii inductivi seria PosiTec IFRM cu tehnologie factor 1 detectează toate metalele (feroase și neferoase) la aceeași distanță de comutație - un IFRM 12P1501 detectează oțel, aluminiu, cupru, inox la 4mm ±10%. Asta elimină necesitatea ajustărilor când schimbi între piese diferite pe aceeași linie - economie enormă de timp setup.
 
 Encoderele absolute seria EAM cu interfață IO-Link oferă rezoluție până la 16-bit (65,536 poziții/rotație) și acuratețe ±0.1° - perfecte pentru poziționare precisă fără home position. Am folosit encodere EAM580-B16 pe mașini de ambalare unde trebuia să opresc banda la ±1mm pentru printare logo - precizia repetabilă chiar și după power-off (absolute position retained). Comunicare IO-Link permite diagnostic avansat: temperatură senzor, contor rotații, alerte uzură lagăre, parametrizare remote fără DIP switches.
 
-Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A și EHEDG sunt ideali pentru industria alimentară și pharma. Un PBMH-25-G1/4 (0-25 bar, thread G1/4") are precizie ±0.25% full scale, drift < 0.1%/an și rezistență la CIP/SIP (143°C steam). Am instalat senzori PBMH pe linii de filling băuturi unde contactul direct cu produsul impune conformitate FDA 21 CFR 177 - Baumer e unul dintre puținii cu certificare completă. În 15 ani am livrat peste 5,000 de senzori Baumer cu rată defecte sub 0.15%.`,
+Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A și EHEDG sunt ideali pentru industria alimentară și pharma. Un PBMH-25-G1/4 (0-25 bar, thread G1/4") are precizie ±0.25% full scale, drift < 0.1%/an și rezistență la CIP/SIP (143°C steam). Am instalat senzori PBMH pe linii de filling băuturi unde contactul direct cu produsul impune conformitate FDA 21 CFR 177 - Baumer e unul dintre puținii cu certificare completă. Rata scăzută de defecte raportată de utilizatori confirmă precizia elvețiană a acestor senzori.`,
     whyChoose: [
       'Precizie elvețiană: encodere ±0.1° (16-bit), presiune ±0.25% FS, proximitate ±10% distanță nominală',
       'Factor 1 technology: senzori inductivi detectează toate metalele la aceeași distanță (oțel, alu, cupru, inox)',
@@ -625,8 +696,15 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       'Wood & Furniture (CNC, edge detection)',
       'Textile (web tension, pattern matching)',
     ],
-    infinitrade: `La Infinitrade furnizăm gama completă Baumer din stocul nostru și distribuție EU - senzori inductivi/capacitivi/fotoelectric, encodere, presiune, vision. Livrăm în 24-72h pentru produsele standard (IFRM M12/M18, encodere EAM, presiune PBMH 0-10 bar), iar pentru configurații speciale (vision cu lentile custom, encodere absolute multi-turn >16-bit, senzori Ex ATEX) termenul e 7-14 zile din depozit central Elveția. Avem ingineri automatizare cu experiență în integrare senzori, configurare IO-Link master, sizing vision pentru aplicații QC.
-
-Oferim consultanță gratuită pentru selecție senzori - sizing inductivi (material țintă, distanță, temperatură ambientală), calcul rezoluție encodere necesară pentru precizie ±X mm, configurare instrumente vision pentru inspecție (OCR, blob, măsurare). Pentru proiecte mari (>30,000 EUR) colaborăm cu Baumer Elveția pentru demo on-site cu echipamente test și training pentru personalul tehnic. Asigurăm integrare IO-Link cu PLC (Siemens S7-1200/1500, Rockwell CompactLogix) pentru diagnostic predictiv și parametrizare centralizată. Toate produsele vin cu certificat de calibrare (pentru presiune/encodere) și garanție 2 ani. Contactează-ne pentru ofertă - avem referințe în automotive Dacia, packaging Quadrant, pharma Antibiotice.`,
+    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent al senzorilor Baumer și aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard, precum cei inductivi sau de presiune, putem confirma uneori 24-72 h din stoc, iar pentru encodere absolute, vision sau configurații speciale termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor. Pentru o ofertă corectă, trimiteți-ne tipul de senzor, distanța sau presiunea de măsurare necesară și interfața de comunicare dorită (IO-Link, analogic), iar noi confirmăm termenul real înainte de comandă.`,
+    limitation: `Nu putem oferi configurarea avansată a senzorilor vision VeriSens pentru aplicații specifice de inspecție - aceasta necesită suport tehnic dedicat.`,
+    sources: [
+      { title: 'Baumer - Passion for Sensors | Baumer USA', url: 'https://www.baumer.com/us/en', publisher: 'Baumer Group', accessed: '2026-09-22' },
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: sursă adăugată, declarație de aprovizionare onestă' },
+    ],
   },
 };

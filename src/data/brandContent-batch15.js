@@ -3,9 +3,9 @@ export const brandContentBatch15 = {
     founded: 1847,
     headquarters: 'München, Germania',
     employees: '293,000+ (Group)',
-    overview: `Siemens Instrumentation face parte din divizia Process Automation a gigantului tehnologic german și reprezintă poate cea mai completă gamă de instrumentație de proces din lume. De la senzori simpli de temperatură până la analizoare sofisticate de gaze și lichide, SITRANS e numele care apare în specificațiile celor mai exigente proiecte industriale. Nu vorbim doar de precizie - vorbim de robusteţe în condiții extreme, de diagnosticare inteligentă și de integrare perfectă în ecosistemele digitale moderne.
+    overview: `Siemens Instrumentation face parte din divizia Process Automation a gigantului tehnologic german și reprezintă una dintre cele mai complete game de instrumentație de proces din industrie. De la senzori simpli de temperatură până la analizoare sofisticate de gaze și lichide, SITRANS e numele care apare în specificațiile celor mai exigente proiecte industriale. Nu vorbim doar de precizie - vorbim de robustețe în condiții extreme, de diagnosticare inteligentă și de integrare perfectă în ecosistemele digitale moderne.
 
-Am lucrat cu instrumentație Siemens în diverse configurații - de la debitimetre electromagnetice în instalaţii de tratare a apei până la traductoare de presiune în reactoare chimice - și de fiecare dată ne-a impresionat gândirea de ansamblu. Nu cumperi doar un senzor, cumperi un nod inteligent în rețeaua ta industrială, capabil să comunice diagnostic, să compenseze automat erori și să ofere date de încredere pentru controlul de proces. Protocolele HART, PROFIBUS, PROFINET sunt suportate nativ, iar platforma SIMATIC PCS 7 unifică totul într-o singură interfață.
+Am lucrat cu instrumentație Siemens în diverse configurații - de la debitimetre electromagnetice în instalații de tratare a apei până la traductoare de presiune în reactoare chimice - și de fiecare dată ne-a impresionat gândirea de ansamblu. Nu cumperi doar un senzor, cumperi un nod inteligent în rețeaua ta industrială, capabil să comunice diagnostic, să compenseze automat erori și să ofere date de încredere pentru controlul de proces. Protocolele HART, PROFIBUS, PROFINET sunt suportate nativ, iar platforma SIMATIC PCS 7 unifică totul într-o singură interfață.
 
 Ceea ce diferențiază Siemens de competiție e profunzimea gamei: SITRANS F (debitimetre cu ultrasunete, electromagnetic, masic Coriolis, vortex, termic), SITRANS P (traductoare de presiune absolută/relativă/diferențială până la 1000 bar), SITRANS L (nivel radar, ultrasonic, cu ghidaj de undă), SITRANS T (temperatură RTD și termocuple), plus seria de analizoare SITRANS C (oxigen dizolvat, pH/redox, conductivitate, turbiditate). Toate proiectate să funcționeze 20+ ani în condiții industriale grele, cu aprovizionare garantată de piese de schimb și backward compatibility impecabilă.`,
 
@@ -61,18 +61,26 @@ Ceea ce diferențiază Siemens de competiție e profunzimea gamei: SITRANS F (de
       'HVAC și district heating'
     ],
 
-    infinitrade: `La Infinitrade furnizăm instrumentația Siemens SITRANS pentru proiecte industriale complexe în toată România, cu focalizare pe zona de vest (Timișoara, Arad, Reșița). Avem experiență în specificarea corectă a instrumentelor (parametri de proces, material wetted parts, conexiuni, protocol comunicare), configurare HART/PROFIBUS, integrare în sistemele de control existente și punere în funcțiune la fața locului. Livrăm debitimetre, traductoare de presiune, senzori de nivel și analizoare de proces din stocurile Siemens Europa, cu timpi de 2-4 săptămâni pentru configurații standard și 6-10 săptămâni pentru special orders. Oferim suport tehnic pre-sales (sizing calculators, loop diagrams, specificații tehnice) și post-sales (programare, calibrare la fața locului, training pentru personal de întreținere). Contactează-ne pentru un audit al sistemului tău de instrumentație și o propunere de modernizare cu tehnologie Siemens.`
+    infinitrade: `La Infinitrade aducem instrumentație Siemens SITRANS (debitimetre, traductoare de presiune, senzori de nivel, analizoare de proces) prin canalele noastre de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fabricii și lucrăm cu informațiile publice disponibile ale producătorului pentru specificații și termene. Ca formulare generală a firmei, livrarea poate fi de 24–72 h din stoc pentru articolele deja pregătite în lanțul nostru sau de 2–6 săptămâni la comandă pentru restul gamei, fără să promitem un anumit cod ca fiind în stoc înainte de confirmare. Pentru o ofertă corectă, trimite-ne codul SITRANS, protocolul de comunicare necesar (HART, PROFIBUS, PROFINET) și parametrii de proces. Revenim cu disponibilitate reală și timp de livrare confirmat de furnizor.`,
+    sources: [
+      { title: 'Company development | Siemens', url: 'https://www.siemens.com/global/en/company/about/history/company/1847-1865.html', publisher: 'Siemens AG', accessed: '2026-09-22' },
+      { title: 'Siemens', url: 'https://en.wikipedia.org/wiki/Siemens', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma stocul permanent local pentru fiecare cod SITRANS și nu oferim configurarea software SIMATIC PCS 7 sau service în perioada de garanție a producătorului.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    evidenceClass: 'gsc-only'
   },
 
   'skf-lubrication': {
     founded: 1907,
     headquarters: 'Göteborg, Suedia',
     employees: '44,000+',
-    overview: `SKF e renumit pentru rulmenți, dar puțină lume știe că suedezii au și cea mai sofisticată divizie de sisteme de ungere din lume. SKF Lubrication Systems produce de la simple pompe manuale de gresat până la sisteme complet automatizate care monitorizează, dozează și distribuie lubrifiant către sute de puncte simultan, în funcție de temperatură, viteză, sarcină. E diferența dintre a unge "cam o dată pe lună când ne gândim" și a avea un program precis, controlat electronic, care maximizează durata de viață a echipamentelor și minimizează consumul de lubrifiant.
+    overview: `SKF e renumit pentru rulmenți, dar puțină lume știe că suedezii au și una dintre cele mai sofisticate divizii de sisteme de ungere din industrie. SKF Lubrication Systems produce de la simple pompe manuale de gresat până la sisteme complet automatizate care monitorizează, dozează și distribuie lubrifiant către sute de puncte simultan, în funcție de temperatură, viteză, sarcină. E diferența dintre a unge "cam o dată pe lună când ne gândim" și a avea un program precis, controlat electronic, care maximizează durata de viață a echipamentelor și minimizează consumul de lubrifiant.
 
-Am montat sisteme SKF Lincoln (achiziționat de SKF în 1997) pe linii de producție unde ungerea manuală era imposibilă (zone fierbinți, înalte, periculoase) și rezultatele au fost spectaculoase: reducere 50-70% a defecțiunilor la rulmenți, scădere 30-40% consum de unsoare (datorită dozării precise), creștere semnificativă uptime. Sistemele progresive SKF distribuie cantități exacte de lubrifiant la fiecare punct în ordine secvențială, cu feedback vizual și electric că fiecare ciclu s-a completat corect. Controllerul electronic SKF Pulse monitorizeză presiune, număr de cicluri, alerte pentru rezervor gol sau linie blocată.
+Se montează sisteme SKF Lincoln (achiziționat de SKF în 1997) pe linii de producție unde ungerea manuală era imposibilă (zone fierbinți, înalte, periculoase) și rezultatele au fost spectaculoase: reducere 50-70% a defecțiunilor la rulmenți, scădere 30-40% consum de unsoare (datorită dozării precise), creștere semnificativă uptime. Sistemele progresive SKF distribuie cantități exacte de lubrifiant la fiecare punct în ordine secvențială, cu feedback vizual și electric că fiecare ciclu s-a completat corect. Controllerul electronic SKF Pulse monitorizeză presiune, număr de cicluri, alerte pentru rezervor gol sau linie blocată.
 
-Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (pistoale de gresat, pompe cu pârghie, pompe cu picior), cartușe pre-umplute, unsori și uleiuri premium LGMT/LGHP/LGWA dezvoltate în laboratoarele proprii pentru rulmenți în condiții extreme. Plus divizia SKF Reliability Systems care oferă consultanță pentru optimizarea programului de lubrifiere - nu vinzi doar echipament, vinzi expertise acumulat în 117 ani de experiență cu tribologie.`,
+Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (pistoale de gresat, pompe cu pârghie, pompe cu picior), cartușe pre-umplute, unsori și uleiuri premium LGMT/LGHP/LGWA dezvoltate în laboratoarele proprii pentru rulmenți în condiții extreme. Plus divizia SKF Reliability Systems care oferă consultanță pentru optimizarea programului de lubrifiere - nu vinzi doar echipament, vinzi expertise acumulat în peste un secol de experiență cu tribologie.`,
 
     whyChoose: [
       'Expertiza tribologică unică - SKF înțelege rulmenții mai bine decât oricine, deci știe exact cum să-i ungă optim',
@@ -98,7 +106,7 @@ Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (p
       },
       {
         name: 'Lubrifianți SKF LGMT/LGHP/LGWA',
-        description: `Nu are sens să ai cel mai bun sistem de ungere dacă lubrifiantul e mediocru. SKF produce unsori și uleiuri special formulate pentru rulmenți în condiții extreme. Seria LGMT (multi-purpose) acoperă -40°C până +120°C, excelentă rezistență la apă, protecție anti-coroziune, NLGI 2/3. LGHP (high performance) pentru temperaturi înalte până +150°C (rulmenți la cuptoare, uscătoare) cu bază syntetică și aditivi EP (extreme pressure). LGWA (wide temperature) pentru Arctic și aplicații criogenice -50°C până +110°C. LGWM (wide temperature, medium) optimizată pentru viteze mari (rulmenți electromotoare, pompe centrifugale) până 15,000 rpm. LGHQ pentru industria alimentară (certificare NSF H1, inodoră, insipidă, non-toxică). Uleiuri SKF LGEN pentru circulație (turbine, reductoare mari) cu aditivi anti-uzură AW și extreme pressure EP. Toate testate extensiv în laboratoarele SKF ERC (Engineering Research Center) Olanda și validate pe milioane de rulmenți în aplicații reale. Disponibile în cartușe 400g pre-umplute pentru sisteme automate sau butoaie 180kg pentru umplere rezervoare mari.`
+        description: `Chiar și un sistem de ungere foarte performant nu ajută dacă lubrifiantul e mediocru. SKF produce unsori și uleiuri special formulate pentru rulmenți în condiții extreme. Seria LGMT (multi-purpose) acoperă -40°C până +120°C, excelentă rezistență la apă, protecție anti-coroziune, NLGI 2/3. LGHP (high performance) pentru temperaturi înalte până +150°C (rulmenți la cuptoare, uscătoare) cu bază syntetică și aditivi EP (extreme pressure). LGWA (wide temperature) pentru Arctic și aplicații criogenice -50°C până +110°C. LGWM (wide temperature, medium) optimizată pentru viteze mari (rulmenți electromotoare, pompe centrifugale) până 15,000 rpm. LGHQ pentru industria alimentară (certificare NSF H1, inodoră, insipidă, non-toxică). Uleiuri SKF LGEN pentru circulație (turbine, reductoare mari) cu aditivi anti-uzură AW și extreme pressure EP. Toate testate extensiv în laboratoarele SKF ERC (Engineering Research Center) Olanda și validate pe milioane de rulmenți în aplicații reale. Disponibile în cartușe 400g pre-umplute pentru sisteme automate sau butoaie 180kg pentru umplere rezervoare mari.`
       }
     ],
 
@@ -126,21 +134,29 @@ Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (p
       'Transport (vagoane feroviare, conveioare aeroporturi)'
     ],
 
-    infinitrade: `Furnizăm sisteme de ungere SKF Lincoln și lubrifianți SKF pentru întreținerea preventivă optimă a echipamentelor industriale din Banat și vestul României. Oferim consultanță pentru analiza nevoilor de ungere (audit la fața locului, identificare puncte critice, calcul cantități și intervale optime), proiectare sistem complet (alegere tip sistem, dimensionare pompă și rezervor, rutare tubulații, specificare injectoare), instalare și punere în funcțiune (montaj mecanic, conectare electrică, programare controler, training echipă de mentenanță). Livrăm din stocurile SKF Europa în 1-3 săptămâni pentru configurații standard, 4-8 săptămâni pentru sisteme customizate. Avem parteneriat cu SKF România pentru suport tehnic avansat și acces rapid la piese de schimb (pompe, distributoare, injectoare, tubulație). Contactează-ne pentru un audit gratuit al sistemului tău actual de ungere și o propunere de optimizare.`
+    infinitrade: `Furnizăm sisteme de ungere SKF Lincoln și lubrifianți SKF prin canalele de aprovizionare pe care le avem în Uniunea Europeană. Nu avem acces la datele interne de stoc ale fabricii, așa că lucrăm din surse publice ale producătorului pentru cataloage și fișe tehnice. Ca formulare generală, reușim uneori livrarea în 24–72 h din stoc pentru componente uzuale ale lanțului nostru, iar pentru restul configurațiilor termenul este de 2–6 săptămâni la comandă, fără garanție implicită pentru un anumit produs. Ca să pregătim o ofertă corectă, avem nevoie de tipul de sistem (progresiv, dual-line, single-line), numărul de puncte de ungere și tipul de lubrifiant folosit. Îți trimitem propunerea tehnică după ce confirmăm disponibilitatea la furnizor.`,
+    sources: [
+      { title: 'About SKF', url: 'https://www.skf.com/group/about-skf', publisher: 'SKF Group', accessed: '2026-09-22' },
+      { title: 'SKF', url: 'https://en.wikipedia.org/wiki/SKF', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu oferim noi service în garanția producătorului pentru controllerele electronice SKF și nu putem confirma stocul permanent pentru fiecare componentă din gama de sisteme de ungere.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    evidenceClass: 'gsc-only'
   },
 
   'smc': {
     founded: 1959,
     headquarters: 'Tokyo, Japonia',
     employees: '21,000+',
-    overview: `SMC Corporation e liderul mondial absolut în pneumatică industrială, cu o cotă de piață de ~30% global și o gamă de peste 12,000 de serii standard de produse (dacă numeri toate variantele ajungi la milioane de SKU-uri). De la cel mai simplu cilindru pneumatic până la sisteme complete de control cu valve proporționale, senzori integrați și comunicare IO-Link, SMC are soluția. Nu întâmplător japonezii au fost pionieri ai filozofiei "just in time" și "lean manufacturing" - produsele lor sunt proiectate pentru fiabilitate extremă, modularitate perfectă și cost total de ownership minim.
+    overview: `SMC Corporation este unul dintre cei mai mari producători de pneumatică industrială la nivel mondial, cu o gamă de peste 12.000 de serii standard de produse (dacă numeri toate variantele ajungi la milioane de coduri). De la cel mai simplu cilindru pneumatic până la sisteme complete de control cu valve proporționale, senzori integrați și comunicare IO-Link, SMC are soluția. Nu întâmplător japonezii au fost pionieri ai filozofiei "just in time" și "lean manufacturing" - produsele lor sunt proiectate pentru fiabilitate extremă, modularitate perfectă și cost total de ownership minim.
 
-Am lucrat cu componente SMC în zeci de automatizări - linii de ambalare, roboți pick-and-place, sisteme de prelucrare CNC, prese - și de fiecare dată am apreciat gândirea de ansamblu: cilindrii au montaj standardizat ISO, valvele au conectică comună, senzorii se prind direct pe cilindru fără suporți suplimentari, furtunurile și fitingurile se montează rapid fără scule (one-touch). Timpul de asamblare se reduce dramatic, iar când vine mentenanța schimbi componenta defectă în minute fără opriri lungi ale producției.
+Am lucrat cu componente SMC în zeci de automatizări - linii de ambalare, roboți pick-and-place, sisteme de prelucrare CNC, prese - și de fiecare dată se apreciază gândirea de ansamblu: cilindrii au montaj standardizat ISO, valvele au conectică comună, senzorii se prind direct pe cilindru fără suporți suplimentari, furtunurile și fitingurile se montează rapid fără scule (one-touch). Timpul de asamblare se reduce dramatic, iar când vine mentenanța schimbi componenta defectă în minute fără opriri lungi ale producției.
 
-Dar SMC nu e doar despre catalog imens - e și despre inovație continuă. Au fost primii cu valve pe bus de teren (DeviceNet, PROFIBUS, EtherCAT), primii cu cilindri fără tije cu magnet dublu pentru pozitionare precisă, primii cu valve proporționale digitale pentru controlul fin al presiunii și debitului. Iar rețeaua de distribuție SMC acoperă întreaga lume - oriunde ai fi, ai acces rapid la produse și suport tehnic local. În România lucrăm cu gama completă SMC, cu stoc local și ingineri de aplicații care te ajută să alegi configurația optimă.`,
+Dar SMC nu e doar despre catalog imens - e și despre inovație continuă. Au fost primii cu valve pe bus de teren (DeviceNet, PROFIBUS, EtherCAT), primii cu cilindri fără tije cu magnet dublu pentru pozitionare precisă, primii cu valve proporționale digitale pentru controlul fin al presiunii și debitului. Iar rețeaua de distribuție SMC acoperă întreaga lume - oriunde ai fi, ai acces rapid la produse și suport tehnic local. În România lucrăm cu gama completă SMC, cu ingineri de aplicații care te ajută să alegi configurația optimă.`,
 
     whyChoose: [
-      'Cea mai completă gamă de pneumatică din lume - dacă există o aplicație, SMC are soluția standard',
+      'Gamă foarte completă de pneumatică - dacă există o aplicație, SMC are de regulă o soluție standard',
       'Fiabilitate japoneză legendară - MTBF (mean time between failures) printre cele mai bune din industrie',
       'Standardizare și modularitate perfectă - înlocuirea componentelor e simplă și rapidă, fără improvizații',
       'Timp de livrare foarte scurt - stocuri locale în Europa, plus configurator online care livrează cod comandă imediat',
@@ -191,7 +207,15 @@ Dar SMC nu e doar despre catalog imens - e și despre inovație continuă. Au fo
       'Wood & Furniture (presare, șlefuire, vopsire)'
     ],
 
-    infinitrade: `Distribuim componente pneumatice SMC pentru automatizările industriale din vestul României, cu focalizare pe Timișoara și județele Timiș, Arad, Caraș-Severin. Oferim consultanță pentru alegerea componentelor optime (calcul forță cilindri, dimensionare valve, sizing unități FRL), configurare sisteme complete (manifold valve cu fieldbus, cilindri cu senzori integrați, grippere customizate), și suport la punere în funcțiune. Livrăm din stocurile SMC Europa în 3-7 zile lucrătoare pentru articole standard, 2-4 săptămâni pentru configurații speciale. Avem acces la întreaga bibliotecă CAD 3D SMC (STEP, IGES, Parasolid) pentru integrare în proiectele tale și la software-urile de sizing SMC (cilindri, valve, FRL) pentru dimensionare corectă. Contactează-ne cu schemele pneumatice sau o descriere a aplicației pentru o cotație detaliată și recomandări de optimizare cost/performanță.`
+    infinitrade: `Distribuim componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe cataloagele și configuratorul online publicate de producător pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 2–6 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimite-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
+    sources: [
+      { title: 'SMC Corporation – site oficial', url: 'https://www.smcworld.com/', publisher: 'SMC Corporation', accessed: '2026-09-22' },
+      { title: 'SMC Corporation', url: 'https://en.wikipedia.org/wiki/SMC_Corporation', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma disponibilitatea permanentă în stoc pentru fiecare cod din catalogul SMC și nu oferim configurarea software a controlerelor de fieldbus asociate valvelor.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    evidenceClass: 'gsc-only'
   },
 
   'spirax-sarco-thermal': {
@@ -216,7 +240,7 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
     keyProducts: [
       {
         name: 'Oale de Condens (Steam Traps) - Seria TD/FT/BK',
-        description: `Oalele de condens Spirax Sarco evacuează condensul format în sistemele de abur menținând aburul live în sistem - esențial pentru eficiență și siguranță. Seria TD (termodinamic) cu disc din inox - cel mai robust design, funcționează în orice poziție, rezistent la water hammer și frost, ideal pentru linii de distributie și echipamente generale. Presiune până la 70 bar, temperatură până la 500°C, mentenanță zero timp de 10+ ani. Seria FT (float trap) cu plutitor sferical din inox - evacuare continuă condens la formarea lui, perfect pentru schimbătoare de căldură și drip legs unde volumul de condens e mare. Capacitate mare de evacuare (până la 20,000 kg/h), backup termic integrat pentru protecție anti-îngheț. Seria BK (balanced pressure) cu capsula bimetalică - răspuns rapid la variații temperatură, excelent pentru echipamente cu start/stop frecvent (autoclav, presă, uscător batch). Toate disponibile cu racord filetat BSP/NPT sau flanșat PN16/40, material corp din fontă, oțel carbon sau inox 316L pentru aplicații agresive. Testare 100% în fabrică, marking PED pentru presiune ridicată.`
+        description: `Oalele de condens Spirax Sarco evacuează condensul format în sistemele de abur menținând aburul live în sistem - esențial pentru eficiență și siguranță. Seria TD (termodinamic) cu disc din inox - design robust, funcționează în orice poziție, rezistent la water hammer și frost, ideal pentru linii de distributie și echipamente generale. Presiune până la 70 bar, temperatură până la 500°C, mentenanță zero timp de 10+ ani. Seria FT (float trap) cu plutitor sferical din inox - evacuare continuă condens la formarea lui, perfect pentru schimbătoare de căldură și drip legs unde volumul de condens e mare. Capacitate mare de evacuare (până la 20,000 kg/h), backup termic integrat pentru protecție anti-îngheț. Seria BK (balanced pressure) cu capsula bimetalică - răspuns rapid la variații temperatură, excelent pentru echipamente cu start/stop frecvent (autoclav, presă, uscător batch). Toate disponibile cu racord filetat BSP/NPT sau flanșat PN16/40, material corp din fontă, oțel carbon sau inox 316L pentru aplicații agresive. Testare 100% în fabrică, marking PED pentru presiune ridicată.`
       },
       {
         name: 'Regulatoare de Presiune Abur - Seria 25P/DP',
@@ -224,7 +248,7 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
       },
       {
         name: 'Schimbătoare de Căldură cu Plăci - Seria EasiHeat',
-        description: `Schimbătoarele cu plăci Spirax EasiHeat transferă căldura de la abur către apă sau alte lichide cu eficiență excepțională (peste 95%) datorită suprafeței mari de schimb în volum compact și turbulenței ridicate în canalele plăcilor. Construcție: cadru din oțel carbon vopsit, plăci din inox AISI 316L presate cu profil chevron pentru turbulenţă maximă, garnituri din NBR sau EPDM funcție de aplicație. Modele de la 0.1 m² (puteri termice 10 kW) până la 1000 m² (50 MW) prin adăugare plăci. Aburul condensează pe o parte a plăcilor, cedând căldura latentă la temperatură constantă - ideal pentru încălzire uniformă. Aplicații: încălzire apă caldă menajeră (ACM) în spitale/hoteluri, încălzire agent termic în procese industriale, pasteurizare/sterilizare în food & beverage. Avantaje față de schimbătoarele tubulare: compactitate (volum 5x mai mic), eficiență superioară (approach temperature 1-2°C), ușurință mentenanță (desfaci șuruburile cadrului și cureți plăcile), extensibilitate (adaugi plăci pentru putere mai mare). Control automat prin valvă modulantă pe abur pilot-controlată de senzor temperatură downstream.`
+        description: `Schimbătoarele cu plăci Spirax EasiHeat transferă căldura de la abur către apă sau alte lichide cu eficiență excepțională (peste 95%) datorită suprafeței mari de schimb în volum compact și turbulenței ridicate în canalele plăcilor. Construcție: cadru din oțel carbon vopsit, plăci din inox AISI 316L presate cu profil chevron pentru turbulență maximă, garnituri din NBR sau EPDM funcție de aplicație. Modele de la 0.1 m² (puteri termice 10 kW) până la 1000 m² (50 MW) prin adăugare plăci. Aburul condensează pe o parte a plăcilor, cedând căldura latentă la temperatură constantă - ideal pentru încălzire uniformă. Aplicații: încălzire apă caldă menajeră (ACM) în spitale/hoteluri, încălzire agent termic în procese industriale, pasteurizare/sterilizare în food & beverage. Avantaje față de schimbătoarele tubulare: compactitate (volum 5x mai mic), eficiență superioară (approach temperature 1-2°C), ușurință mentenanță (desfaci șuruburile cadrului și cureți plăcile), extensibilitate (adaugi plăci pentru putere mai mare). Control automat prin valvă modulantă pe abur pilot-controlată de senzor temperatură downstream.`
       },
       {
         name: 'Separatoare de Condens și Filtre - Seria Spiratec',
@@ -256,7 +280,15 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
       'Automotive (prelucrare suprafețe, vopsire)'
     ],
 
-    infinitrade: `Furnizăm echipamente Spirax Sarco pentru sistemele de abur industrial din vestul României, cu specializare în optimizarea eficienței energetice și reducerea costurilor de operare. Oferim consultanță completă: audit energetic al sistemului de abur (identificare pierderi, trapele defecte, subdimensionări), calcul economii potențiale și ROI, proiectare soluții optime (selecție steam traps, regulatoare presiune, schimbătoare căldură), instalare și punere în funcțiune. Livrăm din stocurile Spirax Sarco Europa în 1-2 săptămâni pentru produse standard, 3-6 săptămâni pentru configurații customizate. Avem acces la software-urile Spirax (STAPS pentru sizing steam traps, COMPASS pentru sizing regulatoare și valve) și la biblioteca tehnică completă. Colaborăm cu inginerii Spirax Sarco România pentru aplicații complexe și training la fața locului. Contactează-ne pentru un audit gratuit al sistemului tău de abur și o propunere de optimizare cu echipamente Spirax Sarco.`
+    infinitrade: `Aducem echipamente Spirax Sarco (oale de condens, regulatoare de presiune, schimbătoare de căldură) prin canalele de aprovizionare din spațiul UE cu care lucrăm. Nu putem confirma stocul intern al producătorului, așa că ne raportăm la informațiile publice disponibile din documentația tehnică Spirax Sarco. Ca regulă generală, unele repere ajung în 24–72 h din stoc atunci când sunt deja în lanțul nostru, iar restul configurațiilor se livrează în 2–6 săptămâni la comandă, fără să garantăm disponibilitatea unui model anume dinainte. Pentru o propunere corectă avem nevoie de presiunea și debitul de abur, temperatura de lucru și tipul aplicației (schimbător, reducție presiune, evacuare condens). Revenim cu termenul confirmat de furnizor și specificațiile complete.`,
+    sources: [
+      { title: 'Spirax Sarco – Global', url: 'https://www.spiraxsarco.com/global/en', publisher: 'Spirax Sarco', accessed: '2026-09-22' },
+      { title: 'Spirax-Sarco Engineering', url: 'https://en.wikipedia.org/wiki/Spirax-Sarco_Engineering', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu oferim noi auditul energetic certificat direct de producător și nu putem confirma stocul permanent pentru fiecare model de oală de condens sau regulator.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    evidenceClass: 'gsc-only'
   },
 
   'stahlwille': {
@@ -321,24 +353,32 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
       'General industrial maintenance (atât fabricație cât și service)'
     ],
 
-    infinitrade: `Furnizăm scule Stahlwille pentru industrie și service profesional în vestul României. Oferim consultanță pentru alegerea sculelor optime funcție de aplicație (cuplu necesar, acces spațial, frecvență utilizare), configurare seturi complete (workshop toolkits customizate pentru nevoile specifice), training pentru utilizarea corectă a cheilor dinamometrice și managementul calibrării. Livrăm din distribuitorii autorizați Stahlwille Europa în 1-2 săptămâni pentru articole din catalog, 3-4 săptămâni pentru set-uri customizate. Oferim acces la serviciile de recalibrare Stahlwille (laboratoare DKD-acreditate în Germania) pentru menținerea conformității ISO și a garanției. Contactează-ne pentru o evaluare a nevoilor tale de scule și o propunere Stahlwille adaptată bugetului și cerințelor de calitate.`
+    infinitrade: `Furnizăm scule Stahlwille (chei dinamometrice, tubulare, chei inelare, biți) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu deținem date proprii despre stocul central al producătorului și folosim informațiile publice din catalogul Stahlwille pentru coduri și game de cuplu. Ca formulare generală a firmei, anumite articole pot fi livrate în 24–72 h din stoc dacă se află deja în lanțul nostru, iar celelalte configurații ajung în 2–6 săptămâni la comandă. Pentru o ofertă utilă, trimite-ne seria dorită, gama de cuplu necesară și tipul de cap (pătrat, inelar, tubular). Confirmăm disponibilitatea reală înainte de a trimite propunerea finală.`,
+    sources: [
+      { title: 'STAHLWILLE', url: 'https://stahlwille.com/de_de', publisher: 'Stahlwille Eduard Wille GmbH & Co. KG', accessed: '2026-09-22' },
+      { title: 'Stahlwille', url: 'https://en.wikipedia.org/wiki/Stahlwille', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu efectuăm noi recalibrarea DKD/DAkkS a sculelor Stahlwille și nu putem confirma stocul permanent pentru fiecare referință din gamă.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    evidenceClass: 'zero-evidence'
   },
 
   'te-connectivity': {
     founded: 1941,
-    headquarters: 'Schaffhausen, Elveția',
+    headquarters: 'Galway, Irlanda (operațional: Berwyn, Pennsylvania, SUA)',
     employees: '85,000+',
-    overview: `TE Connectivity (fost Tyco Electronics, desprins din Tyco International în 2007) e gigantul discret care face posibilă conectivitatea din aproape orice echipament electronic modern - de la conectori miniaturizați în smartphone-uri până la relee industriale de 500A în panouri electrice, de la senzori de presiune automotive până la antene 5G. Cu peste 500,000 de SKU-uri în catalog și fabricație în 140+ de locații la nivel global, TE e probabil cel mai mare producător de componente de conectivitate din lume (peste $16 miliarde cifră de afaceri anuală).
+    overview: `TE Connectivity (fost Tyco Electronics, desprins din Tyco International în 2007) e gigantul discret care face posibilă conectivitatea din aproape orice echipament electronic modern - de la conectori miniaturizați în smartphone-uri până la relee industriale de 500A în panouri electrice, de la senzori de presiune automotive până la antene 5G. Cu un portofoliu foarte extins de componente în catalog și fabricație în peste 140 de locații la nivel global, TE este unul dintre cei mai mari producători de componente de conectivitate din lume.
 
 Am integrat produse TE în zeci de proiecte - de la conectori Micro-MaTch pe plăcile PCB în aparatură medicală, până la relee Kilovac în panouri de comandă industriale, până la senzori M12 pe mașini CNC. Ceea ce impresionează e consistența calității: designurile sunt robuste, materialele premium (contacte aurite pentru rezistență la coroziune minimă, izolatoare din polimeri high-performance), testarea severă (cicluri mecanice, șocuri termice, vibrații, rezistență la chimicale). TE nu face compromisuri - un conector ratet poate însemna recall de milioane de automobile sau failure într-un sateli la 36,000 km altitudine.
 
-Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionieri ai conectorilor circular M8/M12 pentru senzori industriali, ai conectorilor hermetic sealed pentru aerospace/defense, ai senzorilor MEMS de presiune și accelerație. Investesc masiv în R&D (peste $700 milioane anual) pentru tehnologii next-gen: conectori high-speed pentru 112 Gbps datacom, senzori LiDAR pentru vehicule autonome, antene mmWave pentru 5G. Și suportul tehnic e impresionant: biblioteca online cu modele 3D CAD, drawings, specificații, application notes pentru fiecare produs.`,
+Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionieri ai conectorilor circular M8/M12 pentru senzori industriali, ai conectorilor hermetic sealed pentru aerospace/defense, ai senzorilor MEMS de presiune și accelerație. Investesc masiv în R&D pentru tehnologii next-gen: conectori high-speed pentru 112 Gbps datacom, senzori LiDAR pentru vehicule autonome, antene mmWave pentru 5G. Și suportul tehnic e impresionant: biblioteca online cu modele 3D CAD, drawings, specificații, application notes pentru fiecare produs.`,
 
     whyChoose: [
-      'Portofoliu de produse imens - peste 500,000 SKU-uri acoperă practic orice nevoie de conectivitate',
+      'Portofoliu de produse foarte extins - acoperă practic orice nevoie de conectivitate, de la conectori miniaturizați până la relee industriale mari',
       'Calitate și fiabilitate dovedite - produse testate riguros conform standarde automotive/aerospace/militare',
       'Inovație tehnologică continuă - investiții masive în R&D pentru tehnologii de vârf',
-      'Distribuție globală - disponibilitate rapidă prin rețea de distribuitori autorizați worldwide',
+      'Distribuție globală - disponibilitate rapidă prin rețea de distribuitori worldwide',
       'Suport tehnic excelent - ingineri de aplicații, biblioteci CAD, tooluri de selecție online',
       'Certificări complete - automotive (AEC-Q), aerospace (AS), militare (MIL-SPEC), industriale (UL/CE/CSA)'
     ],
@@ -386,7 +426,15 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       'Marine (conectori waterproof, corrosion-resistant)'
     ],
 
-    infinitrade: `Distribuim componente TE Connectivity pentru proiecte de automatizare industrială și fabricație de echipamente din vestul României. Oferim consultanță pentru selecția componentelor optime (conectori funcție de mediu și protocol de comunicare, relee dimensionate pentru sarcină și durată de viață, senzori calibrați pentru aplicația specifică), suport tehnic pre-sales (drawings, CAD models, application notes), stoc local pentru articole de volum și comandă rapidă din distribuitorii TE Europa pentru referințe speciale (lead-time 2-4 săptămâni). Avem acces la toolurile online TE (Product Information Management, 3D models, compliance documents) și la suportul tehnic al reprezentanței TE România. Contactează-ne cu specificațiile proiectului tău sau o listă de componente necesare pentru o cotație detaliată și recomandări de optimizare.`
+    infinitrade: `Distribuim componente TE Connectivity (conectori industriali, relee, senzori de presiune, conectori board-to-board) aduse la comandă prin canalele de aprovizionare din UE cu care colaborăm. Fără acces la datele interne de stoc ale producătorului, lucrăm cu fișele tehnice și informațiile publice disponibile pe platformele TE. Ca regulă generală a firmei, unele referințe pot ajunge în 24–72 h din stoc din lanțul nostru, dar majoritatea comenzilor speciale necesită 2–6 săptămâni la comandă, fără garanție pentru o referință anume înainte de confirmare. Pentru o cotație corectă avem nevoie de codul de parte TE, mediul de utilizare și protocolul de comunicare (dacă e cazul). Revenim cu disponibilitate reală și termen confirmat de furnizor.`,
+    sources: [
+      { title: 'Learn about TE Connectivity | TE Connectivity', url: 'https://www.te.com/en/about-te.html', publisher: 'TE Connectivity', accessed: '2026-09-22' },
+      { title: 'TE Connectivity - Investor Relations', url: 'https://investors.te.com/', publisher: 'TE Connectivity', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma stocul permanent pentru fiecare din sutele de mii de referințe TE Connectivity și nu oferim configurarea software a echipamentelor care integrează aceste componente.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat (Schaffhausen, Elveția → Galway, Irlanda, sediu operațional Berwyn PA)' }],
+    evidenceClass: 'transactional'
   },
 
   'tesa': {
@@ -451,7 +499,15 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
       'Metrology labs (laboratoare de calibrare, institute naționale)'
     ],
 
-    infinitrade: `Furnizăm instrumente de măsurare Tesa pentru departamentele de control calitate și laboratoarele de metrologie din vestul României. Oferim consultanță pentru selecția instrumentelor optime funcție de cerințele de măsurare (precizie, domeniu, tip parametru), configurare sisteme complete (coloane de măsurat + software Reflex pentru SPC), training pentru utilizare corectă și interpretare rezultate, servicii de calibrare periodică prin laboratoare acreditate cu certificate trasabile. Livrăm din distribuitorii Tesa Europa în 2-4 săptămâni pentru instrumente standard, 4-8 săptămâni pentru configurații customizate. Oferim demo la fața locului cu instrumente din portofoliu pentru testare în condițiile reale de producție. Contactează-ne cu specificațiile pieselor de măsurat și cerințele de precizie pentru o propunere tehnică detaliată și o demonstrație gratuită.`
+    infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe informațiile publice ale producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 2–6 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, spune-ne ce parametru vrei să măsori, precizia cerută și domeniul de măsurare. Îți confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
+    sources: [
+      { title: 'Company', url: 'https://www.tesatechnology.com/en-us/company', publisher: 'Tesa Technology (Hexagon)', accessed: '2026-09-22' },
+      { title: 'Tesa Technology', url: 'https://www.tesatechnology.com/', publisher: 'Tesa Technology (Hexagon)', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu efectuăm noi calibrarea metrologică certificată METAS a instrumentelor Tesa și nu putem confirma stocul permanent pentru fiecare model din gamă.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    evidenceClass: 'zero-evidence'
   },
 
   'testo': {
@@ -460,7 +516,7 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
     employees: '3,900+',
     overview: `Testo e specialistul german în instrumente de măsurare portabile pentru tehnicienii HVAC, inginerii de proces, auditorii energetici și profesioniștii din food safety. De la simple termometre digitale până la camere termografice sofisticate, de la analizoare de gaze de ardere până la data loggere wireless pentru monitoringul temperaturilor în depozite frigorifice - dacă ai nevoie să măsori temperatură, umiditate, presiune, viteză aer, CO2, CO sau alți parametri în teren, Testo are soluția rugged, precisă și ușor de folosit.
 
-Am lucrat cu instrumentele Testo în diverse aplicații - analizoare de combustie pentru reglaj arzătoare, termo-anemometre pentru balansare sisteme de ventilație, termo-higrometre pentru validare camere curate pharma, data loggere pentru monitorizare HACCP în restaurante. Ceea ce ne-a impresionat constant e combinația de robustețe (supraviețuiesc în ghiozdanul tehnicienului și în medii industriale grele), acuratețe (senzori de calitate, calibrare trasabilă) și user experience excelent (interfață intuitivă, display clar chiar în soare, conectivitate smartphone prin Bluetooth pentru rapoarte instant).
+Am lucrat cu instrumentele Testo în diverse aplicații - analizoare de combustie pentru reglaj arzătoare, termo-anemometre pentru balansare sisteme de ventilație, termo-higrometre pentru validare camere curate pharma, data loggere pentru monitorizare HACCP în restaurante. Ceea ce ne-a impresionat constant e combinația de robustețe (supraviețuiesc în ghiozdanul tehnicianului și în medii industriale grele), acuratețe (senzori de calitate, calibrare trasabilă) și user experience excelent (interfață intuitivă, display clar chiar în soare, conectivitate smartphone prin Bluetooth pentru rapoarte instant).
 
 Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Testo Smart Probes pentru configurare instrumente și vizualizare măsurători pe smartphone/tablet, platforma Testo Cloud pentru stocare și analiză date în timp real (perfect pentru monitoringul 24/7 al depozitelor frigorifice sau camerelor curate), software-uri dedicate pentru industrii specifice (testo IRSoft pentru analiza imaginilor termografice, testo EasyClimate pentru sizing sisteme HVAC). Totul proiectat să simplifice munca tehnicianului și să genereze rapoarte profesionale pentru clienți în câteva click-uri.`,
 
@@ -516,21 +572,29 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
       'Retail (supermarketuri - monitorizare lăzi frigorifice)'
     ],
 
-    infinitrade: `Furnizăm instrumente de măsurare Testo pentru tehnicienii HVAC, auditorii energetici și departamentele de quality assurance din vestul României. Oferim consultanță pentru alegerea instrumentelor optime funcție de aplicație (tipuri de măsurători, gamă, precizie necesară), training pentru utilizare corectă și interpretare rezultate, configurare sisteme de monitoring continuous (WiFi loggere + testo Cloud pentru HACCP/GxP). Livrăm din stocul Testo România în 3-5 zile lucrătoare pentru produse standard, 2-3 săptămâni pentru configurații speciale. Oferim servicii de calibrare periodică prin laboratorul autorizat Testo cu certificate DKD/ISO 17025 pentru menținerea acurateții și conformității. Demo la fața locului disponibil pentru clienți corporate. Contactează-ne cu descrierea aplicației pentru o recomandare tehnică și o cotație detaliată.`
+    infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la informațiile publice din fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 2–6 săptămâni la comandă. Pentru o cotație utilă, spune-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
+    sources: [
+      { title: 'Testo – professional measurement technology', url: 'https://www.testo.com/en/', publisher: 'Testo SE & Co. KGaA', accessed: '2026-09-22' },
+      { title: 'Testo SE & Co. KGaA', url: 'https://en.wikipedia.org/wiki/Testo_SE_%26_Co._KGaA', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu oferim noi calibrarea DKD/DAkkS a instrumentelor Testo și nu putem confirma stocul permanent pentru fiecare model din portofoliu.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    evidenceClass: 'transactional'
   },
 
   'timken': {
     founded: 1899,
     headquarters: 'North Canton, Ohio, SUA',
     employees: '19,000+',
-    overview: `The Timken Company e unul dintre producătorii legendari de rulmenți din lume, cu o specializare unică în rulmenți conici (tapered roller bearings) - domeniu unde sunt lideri mondiali incontestabili. Dar Timken nu e doar rulmenți - au și divizii de power transmission (lanțuri, curele, cuplate, reductoare dobândite prin achiziții Drives, Philadelphia Gear, Cone Drive), bearing steel (Timken Steel) și chiar aerospace bearings pentru aviație militară/civilă. Cu peste 125 ani de istorie, americanii au acumulat o expertise în tribologie și metallurgie care îi face indispensabili în aplicații heavy-duty: mining, oil & gas, wind energy, rail, heavy trucks.
+    overview: `The Timken Company e unul dintre producătorii legendari de rulmenți din lume, cu o specializare unică în rulmenți conici (tapered roller bearings) - domeniu unde au o poziție de top la nivel global. Dar Timken nu e doar rulmenți - au și divizii de power transmission (lanțuri, curele, cuplate, reductoare dobândite prin achiziții Drives, Philadelphia Gear, Cone Drive), bearing steel (Timken Steel) și chiar aerospace bearings pentru aviație militară/civilă. Cu peste 125 ani de istorie, americanii au acumulat o expertise în tribologie și metallurgie care îi face indispensabili în aplicații heavy-duty: mining, oil & gas, wind energy, rail, heavy trucks.
 
 Am lucrat cu rulmenți Timken în aplicații grele - reductoare pentru macarale, roți excavatoare, arbori principali turbine eoliene - și diferența față de rulmenți generic e enormă. Rulmenții conici Timken suportă sarcini combinate (radială + axială) cu capacitate de încărcare superioară datorită designului geometric optimizat: ruloul conic și inelul interior/exterior sunt proiectate astfel încât toate liniile de contact să converge într-un singur punct pe axa rulmentului - rezultă distribuție uniformă a sarcinii și uzură minimă. Plus calitatea oțelului: Timken controlează întregul proces de la topire (clean steel cu incluziuni minime) până la tratament termic precis pentru duritate optimă 58-64 HRC.
 
 Dar Timken nu vinde doar componente - oferă engineering services complete: calcul durată de viață L10 în condițiile reale de operare, recomandări de montaj și lubrifiere pentru maximizare performanță, training pentru personal de mentenanță, analiză vibrațiilor și investigație defecțiuni. Au chiar laboratoare de testare în North Canton unde pot simula condiții extreme și valida soluții customizate pentru aplicații critice. Investiție pentru decenii de funcționare fără probleme.`,
 
     whyChoose: [
-      'Lideri mondiali în rulmenți conici - expertise unică acumulată în 125+ ani de inovație continuă',
+      'Expertiză de top în rulmenți conici - acumulată în peste un secol de inovație continuă',
       'Calitate oțel superioară - Timken Steel controlează metalurgia de la topire pentru puritate maximă',
       'Capacitate de încărcare excepțională - design geometric optimizat pentru sarcini combinate mari',
       'Durată de viață prelungită - L10 life superior competiției datorită calității materialelor și prelucrării',
@@ -581,21 +645,29 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       'Marine (propeller shafts, rudder bearings)'
     ],
 
-    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken pentru aplicații industriale heavy-duty din vestul României. Oferim consultanță tehnică pentru selecția rulmenților optimi (calcul bearing life L10 funcție de sarcină și viteză, recomandări de montaj și lubrifiere pentru maximizare durată de viață), identificare înlocuitori pentru rulmenți uzați (cross-reference după dimensiuni sau cod vechi), suport la troubleshooting probleme (analiză defecțiuni premature, vibrații, zgomot). Livrăm din distribuitorii autorizați Timken Europa în 1-3 săptămâni pentru dimensiuni standard, 4-10 săptămâni pentru rulmenți mari sau configurații speciale. Avem acces la cataloagele tehnice complete Timken (interchange, engineering data, mounting instructions) și la suportul inginerilor Timken România pentru aplicații complexe. Contactează-ne cu specificațiile aplicației (sarcină, viteză, mediu) sau codurile rulmenților existenți pentru o cotație și recomandări de optimizare.`
+    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu cataloagele tehnice publice ale producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 2–6 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o cotație corectă trimite-ne codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
+    sources: [
+      { title: 'Advanced Motion Technology Solutions | The Timken Company', url: 'https://www.timken.com/', publisher: 'The Timken Company', accessed: '2026-09-22' },
+      { title: 'Timken Company', url: 'https://en.wikipedia.org/wiki/Timken_Company', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma stocul permanent pentru rulmenți de dimensiuni mari sau configurații speciale și nu oferim noi serviciile de proiectare custom ale reductoarelor Philadelphia Gear.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    evidenceClass: 'transactional'
   },
 
   'trane': {
     founded: 1885,
-    headquarters: 'Davidson, North Carolina, SUA (parte din Trane Technologies)',
+    headquarters: 'Swords, Irlanda (sediul Trane Technologies; sediul american: Davidson, Carolina de Nord, SUA)',
     employees: '37,000+ (Trane Technologies)',
     overview: `Trane e unul dintre giganții mondiali în sisteme HVAC (Heating, Ventilation, Air Conditioning) pentru aplicații comerciale și industriale. De la chillere centrifugale de câteva megawați pentru clădiri înalte, până la unități de tratare aer (AHU) customizate pentru camere curate pharma, până la pompe de căldură industriale pentru recuperare energie - americanii au soluții pentru orice provocare termică. În 2020 Trane s-a unit cu Ingersoll Rand Climate (care includea și branduri ca Thermo King) formând Trane Technologies, dar brandul Trane a rămas în prim-plan pentru HVAC comercial/industrial.
 
-Am proiectat și integrat echipamente Trane în diverse aplicații - chillere cu compresor centrifugal pentru clădiri de birouri, rooftop package units pentru magazine retail, unități de tratare aer pentru spitale - și de fiecare dată am apreciat inginerirea robustă și fiabilitatea long-term. Compresoarele centrifugale Trane folosesc tehnologie de vârf (magnetic bearings fără ungere, variable speed drive pentru eficiență parțială superioară), automatizarea Tracer Summit permite controlul și monitorizarea întregii clădiri dintr-o singură interfață, iar service-ul Trane România oferă contracte de mentenanță predictivă care prelungesc dramatic durata de viață a echipamentului.
+Se proiectează și se integrează echipamente Trane în diverse aplicații - chillere cu compresor centrifugal pentru clădiri de birouri, rooftop package units pentru magazine retail, unități de tratare aer pentru spitale - și de fiecare dată se apreciază inginerirea robustă și fiabilitatea long-term. Compresoarele centrifugale Trane folosesc tehnologie de vârf (magnetic bearings fără ungere, variable speed drive pentru eficiență parțială superioară), automatizarea Tracer Summit permite controlul și monitorizarea întregii clădiri dintr-o singură interfață, iar service-ul Trane România oferă contracte de mentenanță predictivă care prelungesc dramatic durata de viață a echipamentului.
 
 Dar Trane nu e doar about hardware - oferă și servicii de energy audit, building optimization (analiza consumurilor și propuneri retrofit pentru economii 20-40%), BMS integration (integrare în sisteme BACnet, Modbus, LonWorks), chiar ESCO (Energy Service Company) unde Trane finanțează modernizarea și se recuperează din economiile de energie generate. Investiția Trane nu e doar în echipament - e în eficiență pe 15-20 ani cu suport continuu.`,
 
     whyChoose: [
-      'Lider mondial în chillere centrifugale - tehnologie de vârf cu magnetic bearings și compresie fără ungere',
+      'Tehnologie de top în chillere centrifugale - magnetic bearings și compresie fără ungere pentru eficiență ridicată',
       'Eficiență energetică superioară - IPLV (Integrated Part Load Value) excepțional datorită VSD și multiple stagii',
       'Fiabilitate și durată de viață lungă - MTBF printre cele mai bune din industrie, contracte service 20+ ani',
       'Automatizare inteligentă - platforma Tracer pentru control, monitoring și optimizare clădiri',
@@ -646,6 +718,14 @@ Dar Trane nu e doar about hardware - oferă și servicii de energy audit, buildi
       'Food production (zone aseptice, depozite refrigerate)'
     ],
 
-    infinitrade: `Furnizăm echipamente HVAC Trane pentru proiecte comerciale și industriale din vestul României, cu focalizare pe Timișoara și orașele din zona Banatului. Oferim consultanță completă: calcul necesar termic și frigorific (heating/cooling load), sizing echipamente optime (chillere, AHU, rooftops), proiectare sisteme de distribuție (duct, pipe) și automatizare, integrare în BMS existent. Colaborăm cu Trane România pentru acces la cataloagele complete (selection software Trace 3D Plus pentru simulare energetică clădiri), suport tehnic pre-sales și configurare echipamente customizate. Livrăm în 4-12 săptămâni funcție de configurație (rooftops standard vs AHU custom-built). Oferim contracte service și mentenanță predictivă prin partenerii autorizați Trane. Contactează-ne cu planurile clădirii și cerințele de confort/calitate aer pentru un studiu de fezabilitate și o propunere tehnică-comercială detaliată.`
+    infinitrade: `Aducem echipamente HVAC Trane (chillere, rooftop units, unități de tratare aer, pompe de căldură) prin canalele de aprovizionare din UE cu care lucrăm în mod obișnuit. Nu deținem date proprii despre stocul fabricilor Trane și ne bazăm pe informațiile publice ale producătorului pentru selecție și dimensionare. Ca formulare generală a firmei, unele accesorii sau piese uzuale pot ajunge în 24–72 h din stoc din lanțul nostru, dar echipamentele AHU custom sau chillerele mari se livrează în 2–6 săptămâni la comandă, funcție de configurație. Pentru un studiu corect trimite-ne necesarul termic/frigorific, suprafața sau volumul spațiului și cerințele de calitate a aerului. Revenim cu o propunere tehnică și termenul confirmat de furnizor.`,
+    sources: [
+      { title: 'Trane Technologies | A Leader in Climate and Sustainability', url: 'https://www.tranetechnologies.com/', publisher: 'Trane Technologies', accessed: '2026-09-22' },
+      { title: 'Trane Technologies', url: 'https://en.wikipedia.org/wiki/Trane_Technologies', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    limitation: 'Nu putem confirma stocul permanent pentru echipamente AHU custom-built și nu oferim noi contractele de service la fața locului ale Trane.',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat (Davidson, NC, SUA → Swords, Irlanda, sediu Trane Technologies)' }],
+    evidenceClass: 'transactional'
   }
 }

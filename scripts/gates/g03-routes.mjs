@@ -35,7 +35,7 @@
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 
-const BASELINE_EXPECTED_ROUTES = '825/406'; // Branduri-500 v1: 757 brands + 68 other (incl. /brand index) = 825 prerendered; 825 - 45 - 374 noindex (474 extension brands minus 100 with wave-1 content) = 406 in sitemap (was 350/305 after F2)
+const BASELINE_EXPECTED_ROUTES = '1077/505'; // Branduri-500 v2: 1009 brands + 68 other = 1077 prerendered; 1077 - 45 - (726-212+? ) noindex = 505 in sitemap (was 825/406 after v1)
 
 export async function run(ctx) {
   const ledgerPath = path.join(ctx.repoRoot, 'scripts', 'gates', 'ledger.mjs');

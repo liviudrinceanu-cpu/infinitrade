@@ -3,7 +3,7 @@ export const brandContentBatch6 = {
     founded: 1980,
     headquarters: 'Verl, Germania',
     employees: '5000+',
-    overview: `Beckhoff a revolutionat automatizarea industrială prin introducerea conceptului de PC-based Control în 1986. Astăzi furnizăm soluții complete de automatizare bazate pe PC pentru fabrici din toată lumea - de la linii de producție auto până la instalații de procesare farmaceutică. Tehnologia noastră TwinCAT transformă orice PC industrial într-un PLC multi-core performant, capabil să controleze mii de axe servo simultan cu precizie de microsecunde.
+    overview: `Beckhoff a revolutionat automatizarea industrială prin introducerea conceptului de PC-based Control în 1986. Astăzi furnizăm soluții complete de automatizare bazate pe PC pentru fabrici din toată lumea - de la linii de producție auto până la instalații de procesare farmaceutică. Tehnologia producătorului TwinCAT transformă orice PC industrial într-un PLC multi-core performant, capabil să controleze mii de axe servo simultan cu precizie de microsecunde.
 
 Portfolio-ul nostru acoperă întregul lanț de automatizare: PLC-uri modulare CX și CP, terminale I/O EtherCAT ultra-rapide (cycle time până la 100 μs), servo drive-uri AMP8000 cu sincronizare multi-axă perfectă, și motoare servo AM8000 fără mentenanță. Tehnologia EtherCAT pe care am dezvoltat-o a devenit standard industrial deschis - peste 5000 de producători o integrează în echipamentele lor.
 
@@ -56,16 +56,24 @@ Clienții noștri din automotive, packaging, semiconductor și logistică aleg B
       'Printing - Flexo, offset, digital, label printing',
       'Test & Measurement - Dynamic testing, HIL simulation'
     ],
-    infinitrade: `Furnizăm gama completă Beckhoff din depozitul nostru Timișoara - PLC-uri CX/CP, terminale I/O EtherCAT, servo drive-uri și motoare AM8000. Livrăm în 24-72h la nivel național componente standard, iar pentru proiecte complexe oferim consultanță tehnică (sizing motion, configurare TwinCAT, programming support). Echipa noastră a implementat soluții Beckhoff în fabrici locale de automotive și packaging - înțelegem specificul aplicațiilor din România. Oferim training TwinCAT 3 pentru inginerii clienților și suport post-vânzare rapid (înlocuiri, troubleshooting remote). Prețuri competitive prin contracte-cadru directe cu Beckhoff Germania.`
+    infinitrade: `Pentru automatizarea Beckhoff (PLC, EtherCAT, servo AM8000) lucrăm din surse publice ale producătorului și nu avem un centru propriu de stoc pentru fiecare cod din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană: ca regulă generală a firmei putem asigura 24-72 h din stoc pentru poziții frecvente, restul gamei intrând pe fluxul obișnuit de 2-6 săptămâni la comandă. Pentru un răspuns corect avem nevoie de codul exact al modulului sau drive-ului, cantitatea și aplicația vizată. Fără aceste detalii nu putem confirma un termen ferm de livrare.`,
+    limitation: 'Nu putem confirma service în perioada de garanție a producătorului și nici configurare software TwinCAT la distanță fără un contract tehnic separat.',
+    sources: [
+      { title: 'Company | Beckhoff Worldwide', url: 'https://www.beckhoff.com/en-en/company/', publisher: 'Beckhoff Automation', accessed: '2026-09-22' },
+      { title: 'Beckhoff Worldwide', url: 'https://www.beckhoff.com/en-en/', publisher: 'Beckhoff Automation', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'boll-kirch': {
-    founded: 1946,
-    headquarters: 'Steinbach, Germania',
+    founded: 1950,
+    headquarters: 'Kerpen, Germania',
     employees: '300+',
-    overview: `Boll & Kirch suntem specialiști în filtrare automată de fluide industriale de peste 75 de ani. Am inventat primul filtru automat automat backwash în anii '50 și de atunci am furnizat peste 300.000 de sisteme în 80 de țări. Expertiza noastră se concentrează pe eliminarea solidelor din lichide și gaze în procese continue - de la filtrare apă de răcire în centrale electrice (10.000 m³/h) până la protecție ugere fine în injecție plastice (3 μm).
+    overview: `Boll & Kirch suntem specialiști în filtrare automată de fluide industriale de peste 75 de ani. Producătorul a inventat primul filtru automat automat backwash în anii '50 și de atunci am furnizat peste 300.000 de sisteme în 80 de țări. Expertiza noastră se concentrează pe eliminarea solidelor din lichide și gaze în procese continue - de la filtrare apă de răcire în centrale electrice (10.000 m³/h) până la protecție ugere fine în injecție plastice (3 μm).
 
-Tehnologia noastră de bază este filtrarea cu backwash automat - elemente filtrante metalice (wedge wire, sinter, mesh) se curăță periodic invers cu fluid propriu fără oprire proces. Sistemele Bollfilter funcționează 24/7 ani întregi fără intervenție manuală - senzori diferențiali de presiune (ΔP) detectează colmatarea și declanșează automat secvența de curățare. În funcție de aplicație, oferim backwash mecanic (disc raclor rotativ), hidraulic (jet reversal), sau pneumatic (air pulse).
+Tehnologia producătorului de bază este filtrarea cu backwash automat - elemente filtrante metalice (wedge wire, sinter, mesh) se curăță periodic invers cu fluid propriu fără oprire proces. Sistemele Bollfilter funcționează 24/7 ani întregi fără intervenție manuală - senzori diferențiali de presiune (ΔP) detectează colmatarea și declanșează automat secvența de curățare. În funcție de aplicație, oferim backwash mecanic (disc raclor rotativ), hidraulic (jet reversal), sau pneumatic (air pulse).
 
 Clienții din oil&gas, chimie, marine și metalurgie aleg Boll & Kirch pentru fiabilitate în condiții extreme - filtre care lucrează la 400°C, 400 bar, fluide corozive (acizi, baze, solventi), sau medii explozive (ATEX Zone 1). Materialele noastre (Hastelloy, Duplex, Titanium) rezistă unde filtrele standard eșuează în luni.`,
     whyChoose: [
@@ -117,14 +125,22 @@ Clienții din oil&gas, chimie, marine și metalurgie aleg Boll & Kirch pentru fi
       'Mining - Mine water, slurry, tailings',
       'Municipal - Drinking water intake, wastewater tertiary'
     ],
-    infinitrade: `Distribuim filtrele Boll & Kirch pentru clienții industriali din România - de la filtre simple inline 1.15 pentru protecție echipamente până la sisteme automate complexe 6.18 pentru debite mari. Oferim consultanță engineering pentru sizing corect (calculăm surface area necesară pe baza particulelor și debit) și recomandăm tipul de backwash optim (mecanic vs hidraulic). Din depozit Timișoara livrăm rapid elemente de schimb și piese service (garnituri, senzori ΔP, valve). Pentru proiecte custom (materiale speciale, certificate ASME/ATEX) comunicăm direct cu engineering Germania și coordonăm livrarea. Suport tehnic post-instalare inclus - troubleshooting frecvență backwash, optimizare parametri PLC.`
+    infinitrade: `La filtrele Boll & Kirch ne ghidăm după informațiile publice disponibile de la producător, nu după evidențe interne de stoc pe fiecare model. Elementele filtrante și sistemele automate ajung la comandă prin canale de aprovizionare din Uniunea Europeană, de regulă în 2-6 săptămâni; câteva repere circulă mai des și pot ajunge în 24-72 h din stoc. Pentru o ofertă corectă spuneți-ne tipul de filtrare dorit (backwash, duplex, inline), diametrul nominal și presiunea de lucru. Pe modele mai vechi sau scoase din producție, confirmarea poate dura suplimentar.`,
+    limitation: 'Nu putem confirma disponibilitatea imediată a fiecărui model de element filtrant și nici service în garanția producătorului fără validare directă cu Boll & Kirch.',
+    sources: [
+      { title: 'History | BOLLFILTER', url: 'https://www.bollfilter.com/company/about-us/history', publisher: 'Boll & Kirch Filterbau GmbH', accessed: '2026-09-22' },
+      { title: 'Industrial Filter Manufacturer | Bollfilter', url: 'https://www.bollfilter.com', publisher: 'Boll & Kirch Filterbau GmbH', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, founded 1946→1950 și headquarters Steinbach→Kerpen corectate conform site-ului oficial' }]
   },
 
   'bosch-professional': {
     founded: 1886,
     headquarters: 'Stuttgart, Germania',
     employees: '400000+ (divizia Tools)',
-    overview: `Bosch Professional suntem lider mondial în scule electrice profesionale de peste 135 de ani - de la prima mașină de găurit electrică din 1932 până la sistemele moderne 18V brushless de astăzi. Furnizăm peste 200 de milioane de scule anual către meseriaşi, contractori și industrie în 150 de țări. Filosofia noastră: durabilitate extremă, ergonomie superioară și productivitate maximă - sculele noastre funcționează 8-12 ore zilnic ani întregi pe șantiere și în fabrici.
+    overview: `Bosch Professional suntem unul dintre principalii producători de scule electrice profesionale de peste 135 de ani - de la prima mașină de găurit electrică din 1932 până la sistemele moderne 18V brushless de astăzi. Furnizăm peste 200 de milioane de scule anual către meseriași, contractori și industrie în 150 de țări. Filosofia noastră: durabilitate extremă, ergonomie superioară și productivitate maximă - sculele noastre funcționează 8-12 ore zilnic ani întregi pe șantiere și în fabrici.
 
 Gama noastră acoperă tot ce înseamnă scule electrice profesionale: bormasini cu percutie și rotopercutoare (GBH series), polizoare unghiulare (GWS), șurubelnițe cu impact (GDX), ferăstraie circulare și pendulare (GKS/GST), niveluri laser rotative, aspiratoare industriale. Tehnologia brushless ProCORE18V oferă 57% mai multă autonomie decât generația anterioară - bateri 8.0Ah ProCORE alimentează rotopercutoare GBH 18V-26 pentru 780 găuri ∅10mm în beton fără reîncărcare.
 
@@ -178,14 +194,22 @@ Profesioniștii aleg Bosch Professional pentru fiabilitate dovedită - șurubeln
       'Demolition - Demolare controlată, dezmembrări',
       'Concrete - Tăiere, carotare, ancorări beton'
     ],
-    infinitrade: `Furnizăm gama completă Bosch Professional din stoc Timișoara - scule electrice, accesorii, baterii și încărcătoare. Livrăm în 24h la nivel național către firme de construcții, contractori și service-uri industriale. Oferim demonstrații tehnice la cerere (aducem sculele la client pentru teste reale) și consultanță pentru fleet management (alegerea gamei optime pentru echipe mari). Deservim clienții corporate cu prețuri volum și garanție extinsă 3+2 ani prin contracte service. Piese de schimb și reparații prin rețeaua de service Bosch - mandrină uzată, switch defect, baterie degradată se rezolvă rapid fără așteptare săptămâni la import.`
+    infinitrade: `Portofoliul Bosch Professional e foarte larg, așa că preferăm să spunem clar ce putem și ce nu putem confirma înainte de comandă. Aprovizionarea se face prin canale de aprovizionare din Uniunea Europeană, iar ca regulă generală unele modele curente pot ajunge în 24-72 h din stoc, în timp ce restul gamei urmează fluxul normal de 2-6 săptămâni. Trimiteți-ne codul mașinii sau al setului, accesoriile dorite și cantitatea - verificăm disponibilitatea reală la furnizor înainte de a stabili prețul și termenul. La seturi promoționale sau ediții limitate, disponibilitatea diferă adesea de catalogul standard.`,
+    limitation: 'Nu putem confirma reparații în garanția producătorului fără trecerea prin rețeaua de service Bosch și nici disponibilitatea exactă a seturilor promoționale.',
+    sources: [
+      { title: 'Company | Bosch Global', url: 'https://www.bosch.com/company/', publisher: 'Robert Bosch GmbH', accessed: '2026-09-22' },
+      { title: 'Bosch Global', url: 'https://www.bosch.com/', publisher: 'Robert Bosch GmbH', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'br-automation': {
     founded: 1979,
     headquarters: 'Eggelsberg, Austria',
     employees: '3000+',
-    overview: `B&R Automation (achiziționat de ABB în 2017, dar păstrând brandul) suntem pionieri în automatizare industrială integrată - am inventat POWERLINK în 2001, prima rețea Ethernet real-time open source. Astăzi furnizăm soluții complete de automatizare pentru producători OEM și end-users în automotive, packaging, plastics și semiconductors. Filozofia noastră: un singur software (Automation Studio) controlează PLC, motion, viziune, safety și robotică - inginerii configurează întreaga mașină din același IDE.
+    overview: `B&R Automation (achiziționat de ABB în 2017, dar păstrând brandul) suntem pionieri în automatizare industrială integrată - producătorul a inventat POWERLINK în 2001, prima rețea Ethernet real-time open source. Astăzi furnizăm soluții complete de automatizare pentru producători OEM și end-users în automotive, packaging, plastics și semiconductors. Filozofia noastră: un singur software (Automation Studio) controlează PLC, motion, viziune, safety și robotică - inginerii configurează întreaga mașină din același IDE.
 
 Portfolio-ul nostru acoperă toate componentele unei linii automatizate: PLC-uri modulare X20 și compacte APC (Automation PC cu Intel Core), servo drive-uri ACOPOS P3 regenerative, motoare sincrone 8LS și ACOPOSmotor integrate (motor+drive într-o carcasă), paneluri HMI Power Panel rezistive/capacitive până la 24", sisteme safety openSAFETY certificate SIL3. Tehnologia POWERLINK conectează toate acestea la 100 Mbps cu cycle time 200 μs și jitter <1 μs - sincronizare perfectă pe 100 de axe simultan.
 
@@ -239,7 +263,15 @@ Clienții din industria auto și packaging aleg B&R pentru Total Cost of Ownersh
       'Textile - Weaving, knitting, non-woven',
       'Wood & Furniture - Sawmills, edge banding, CNC routing'
     ],
-    infinitrade: `Furnizăm componentele B&R Automation pentru integratori și OEM-uri din România - PLC-uri X20, drive-uri ACOPOS, panouri HMI Power Panel. Oferim consultanță arhitectură automatizare (sizing corect, selecție module optime) și training Automation Studio pentru inginerii clienților. Din depozitul Timișoara livrăm rapid CPU-uri și module I/O standard, iar pentru proiecte mari coordonăm cu ABB România configurația și prețurile volum. Suport tehnic inclus: troubleshooting POWERLINK, optimizare programe motion, integrare safety. Echipa noastră a implementat soluții B&R în fabrici locale automotive și packaging - înțelegem specificul aplicațiilor.`
+    infinitrade: `Componentele B&R (module X20, drive-uri ACOPOS, panouri Power Panel) intră la noi prin canale de aprovizionare din Uniunea Europeană, fără un stoc propriu evidențiat pe fiecare referință. Ne bazăm pe surse publice ale producătorului: termenul uzual e de 2-6 săptămâni la comandă, iar pentru câteva module cerute des putem asigura 24-72 h din stoc ca regulă generală. Avem nevoie de referința exactă, tensiunea de alimentare și interfața de comunicație dorită pentru a confirma compatibilitatea. Pe arhitecturi cu mai multe module, trimiteți și schema aplicației - reduce riscul unei comenzi greșite.`,
+    limitation: 'Nu putem confirma programarea aplicației Automation Studio a clientului și nici disponibilitatea garantată a fiecărui modul X20 sau drive ACOPOS.',
+    sources: [
+      { title: 'About us | B&R Industrial Automation', url: 'https://www.br-automation.com/en-us/about-us/', publisher: 'B&R Industrial Automation', accessed: '2026-09-22' },
+      { title: 'Industrial automation | B&R Industrial Automation', url: 'https://www.br-automation.com', publisher: 'B&R Industrial Automation', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'bucher-hydraulics': {
@@ -248,16 +280,16 @@ Clienții din industria auto și packaging aleg B&R pentru Total Cost of Ownersh
     employees: '3500+',
     overview: `Bucher Hydraulics furnizăm sisteme hidraulice complete de peste 100 de ani - de la pompe și motoare până la valve, cilindri și electronice de control. Expertiza noastră se împarte în două divizii: Mobile Hydraulics (echipamente construcții, agricole, mining) și Industrial Hydraulics (presă, injecție, machine tools). Anual producem 1.5 milioane pompe și motoare în fabrici din Elveția, Germania, SUA, China și India.
 
-Tehnologia noastră de bază sunt pompele cu pistoane axiale - seria QX oferă presiuni până la 500 bar cu eficiență volumetrică >98% și durată peste 20.000 ore. Pentru aplicații mobile dezvoltăm valve directionale compacte rezistente la șocuri și vibrații (testare 100g acceleration), iar pentru industrial producem power units complet integrate (motor electric + pompă + rezervor + filtrare + cooling). Inovația noastră Vario-X permite ajustarea debitului pompei proporțional cu sarcina - economie combustibil de 30-40% în excavatoare și încărcătoare.
+Tehnologia producătorului de bază sunt pompele cu pistoane axiale - seria QX oferă presiuni până la 500 bar cu eficiență volumetrică >98% și durată peste 20.000 ore. Pentru aplicații mobile dezvoltăm valve directionale compacte rezistente la șocuri și vibrații (testare 100g acceleration), iar pentru industrial producem power units complet integrate (motor electric + pompă + rezervor + filtrare + cooling). Inovația noastră Vario-X permite ajustarea debitului pompei proporțional cu sarcina - economie combustibil de 30-40% în excavatoare și încărcătoare.
 
-Clienții din construcții și OEM aleg Bucher pentru robusteț elvețiană dovedită - pompele noastre funcționează în deșertul Sahara la +50°C și în Siberia la -40°C fără pierdere performanță. Serviciul global cu 30 Centre Tehnice asigură livrări rapide piese și reparații - downtime minim pentru utilaje critice.`,
+Clienții din construcții și OEM aleg Bucher pentru robusteț elvețiană dovedită - pompele producătorului funcționează în deșertul Sahara la +50°C și în Siberia la -40°C fără pierdere performanță. Serviciul global cu 30 Centre Tehnice asigură livrări rapide piese și reparații - downtime minim pentru utilaje critice.`,
     whyChoose: [
       'Pompe QX pistoane axiale - 500 bar presiune, 98% eficiență, 20.000h durată',
       'Vario-X displacement control - Economie combustibil 30-40% load sensing',
       'Valve mobile rezistente - 100g shock resistance, IP67, -40°C to +80°C',
       'Power units custom - Design engineering integrat motor/pompă/cooling',
       'Electronice CAN/IoT - AX controllers PDM-ready, diagnostic remote',
-      'Service global - 30 centre tehnice, piese în 24-48h worldwide'
+      'Service global - 30 centre tehnice, piese disponibile rapid la nivel mondial'
     ],
     keyProducts: [
       {
@@ -300,14 +332,22 @@ Clienții din construcții și OEM aleg Bucher pentru robusteț elvețiană dove
       'Recycling - Baler, shredder, compactor',
       'Aerial Platforms - Scissor lift, boom lift, truck-mount'
     ],
-    infinitrade: `Distribuim componentele Bucher Hydraulics pentru OEM-uri și service-uri hidraulice din România - pompe QX, valve DDPC, power units AX, motoare M. Oferim consultanță engineering pentru sizing corect (calculăm presiuni, debite, putere necesară) și selectăm componente optime pentru aplicație. Din depozitul Timișoara livrăm rapid piese standard și consumabile (garnituri, filtre, fittinguri). Pentru proiecte custom (power unit la specificație, integrare electronice CAN) coordonăm cu engineering Elveția și gestionăm livrarea. Service post-vânzare: diagnosticare defecțiuni, înlocuire garnituri, reparații pompe (re-lapping pistoane/cilindru). Stoc permanent filtre hidraulice originale Bucher - protecția sistemului începe cu filtrare corectă.`
+    infinitrade: `Pompele, valvele și motoarele Bucher Hydraulics vin la comandă prin canale de aprovizionare din Uniunea Europeană; lucrăm din surse publice ale producătorului, fără date proprii despre stocul fiecărei variante. Termenul obișnuit este de 2-6 săptămâni, iar pentru piese uzuale de schimb putem oferi ocazional 24-72 h din stoc, ca regulă generală, nu ca promisiune pe un cod anume. Trimiteți-ne codul complet sau parametrii tehnici (presiune, debit, tip de montaj) ca să confirmăm compatibilitatea cu utilajul dumneavoastră. Piesele custom sau ieșite din fabricație necesită verificare suplimentară direct la producător.`,
+    limitation: 'Nu putem confirma re-lapping sau reparații de precizie pe pompă fără evaluarea directă a piesei și nici disponibilitatea garantată pentru fiecare cod.',
+    sources: [
+      { title: 'Locations', url: 'https://www.bucherhydraulics.com/en/company/locations/', publisher: 'Bucher Hydraulics', accessed: '2026-09-22' },
+      { title: 'Bucher Hydraulics', url: 'https://www.bucherhydraulics.com/en/company/', publisher: 'Bucher Hydraulics', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'burkert-sensors': {
     founded: 1946,
     headquarters: 'Ingelfingen, Germania',
     employees: '3200+',
-    overview: `Bürkert suntem lider mondial în tehnologii de măsurare, control și reglare pentru fluide și gaze - de la valve solenoid simple până la sisteme complete process control cu IoT. În 75 de ani am furnizat peste 100 milioane componente în 150 de țări, acoperind industrii de la pharmaceutical până la semiconductor. Filosofia noastră: soluții integrate - un singur partener livrează valve, senzori, controlere și software analiză.
+    overview: `Bürkert suntem un furnizor global de tehnologii de măsurare, control și reglare pentru fluide și gaze - de la valve solenoid simple până la sisteme complete process control cu IoT. În 75 de ani am furnizat peste 100 milioane componente în 150 de țări, acoperind industrii de la pharmaceutical până la semiconductor. Filosofia noastră: soluții integrate - un singur partener livrează valve, senzori, controlere și software analiză.
 
 Expertiza noastră în senzori acoperă toate parametrii fluide: debit (thermal mass, electromagnetic, ultrasonic, Coriolis), presiune (piezoresistive, capacitive), temperatură (Pt100, termocuple), conductivitate, pH, turbiditate. Transmițătoarele noastre Type 8400 oferă precizie ±0.5% cu stabilitate long-term (drift <0.1%/an) esențială în pharma și food. Pentru aplicații critice dezvoltăm senzori hygiene design cu certificare 3A/EHEDG - suprafețe electropolished fără dead zones, sterilizare SIP 140°C.
 
@@ -361,7 +401,15 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate complet
       'Power Generation - Cooling water, steam, chemical dosing',
       'Automotive - Paint mixing, cooling circuits, testing'
     ],
-    infinitrade: `Furnizăm senzorii și controlerele Bürkert pentru industriile food, pharma și chimie din România - debit, presiune, temperatură, pH, conductivitate. Oferim consultanță aplicație (selectăm tipul senzor optim pentru fluid/proces) și sizing (range, conexiuni, certificări necesare). Din depozitul Timișoara livrăm modele standard în 24-48h, iar pentru configurații custom (material special, calibrare extended range) comunicăm cu Germania și coordonăm. Servicii incluse: calibrare periodică ISO 17025 (re-certificare anuală pentru pharma), troubleshooting (drift investigation), training operare sisteme 8905. Stoc garnituri și piese contact pentru mentenanță preventivă.`
+    infinitrade: `Pentru senzorii și valvele Bürkert lucrăm după informațiile publice disponibile de la producător, nu după un stoc intern documentat pe fiecare tip. Produsele ajung prin canale de aprovizionare din Uniunea Europeană, de regulă în 2-6 săptămâni la comandă; câteva tipuri cerute frecvent pot ajunge și în 24-72 h din stoc. Spuneți-ne parametrul măsurat (debit, presiune, temperatură), domeniul de lucru și conexiunea de proces, ca să identificăm varianta potrivită. Variantele cu certificare hygienic-design sau calibrare extinsă cer, de regulă, mai mult timp de confirmare.`,
+    limitation: 'Nu putem confirma o calibrare ISO 17025 proprie și nici disponibilitatea garantată pentru fiecare variantă de senzor Bürkert.',
+    sources: [
+      { title: 'Bürkert Fluid Control Systems | Valve Engineering & Systems', url: 'https://www.burkert.com', publisher: 'Bürkert Fluid Control Systems', accessed: '2026-09-22' },
+      { title: 'Bürkert', url: 'https://en.wikipedia.org/wiki/B%C3%BCrkert', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'caleffi-thermal': {
@@ -370,7 +418,7 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate complet
     employees: '1400+',
     overview: `Caleffi producem componente termice și hidronice pentru instalații HVAC de peste 60 de ani - de la vase de expansiune până la grupuri de pompare complexe. Anual fabricăm 15 milioane componente în facilitățile din Italia, exportate în 80 de țări. Expertiza noastră acoperă întregul circuit termic: expansiune (vase membrane), siguranță (supape presiune/temperatură), echilibrare (valve termostatice, presiune diferențială), separare (separatoare aer/particule), control (mixing valves, actuatoare).
 
-Tehnologia noastră de vârf sunt vasele de expansiune seria DISCAL - membrane EPDM/Butyl rezistente 100°C, pre-încărcare azot precisă ±0.1 bar, certificate PED pentru presiuni până 10 bar. Pentru instalații mari dezvoltăm grupuri pompare Hydrolink - modul compact integrează pompe, valve, senzori și controller într-o singură bază plug&play, reducând timpul instalare cu 70%. Separatoarele noastre de aer Discaldirt combină deaeration (elimină oxigen coroziv) cu filtrarea particulelor magnetice (oxidul fier din țevi vechi).
+Tehnologia producătorului de vârf sunt vasele de expansiune seria DISCAL - membrane EPDM/Butyl rezistente 100°C, pre-încărcare azot precisă ±0.1 bar, certificate PED pentru presiuni până 10 bar. Pentru instalații mari dezvoltăm grupuri pompare Hydrolink - modul compact integrează pompe, valve, senzori și controller într-o singură bază plug&play, reducând timpul instalare cu 70%. Separatoarele noastre de aer Discaldirt combină deaeration (elimină oxigen coroziv) cu filtrarea particulelor magnetice (oxidul fier din țevi vechi).
 
 Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitate garantată - toate componentele sunt testate împreună în configurații sistem real (nu doar individual). Software-ul nostru gratuit HVAC Solutions dimensionează automat vase, pompe și valve pe baza planurilor clădirii - elimină erorile de calcul manual și optimizează consumul energetic.`,
     whyChoose: [
@@ -422,16 +470,24 @@ Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitate 
       'Horticulture - Sere încălzite, agricultura controlată',
       'Swimming Pools - Încălzire apă bazin, dehumidification'
     ],
-    infinitrade: `Distribuim componentele Caleffi pentru instalatorii și proiectanții HVAC din România - vase de expansiune DISCAL, grupuri pompare Hydrolink, separatoare Discaldirt, valve mixing. Oferim consultanță dimensionare sistem (calculăm volume vase, putere pompe, Kvs valve) folosind software Caleffi HVAC Solutions gratuit. Din depozitul Timișoara livrăm rapid componentele standard (vase 18-200L, valve DN20-32) în 24h. Pentru proiecte mari (grupuri pompare custom, vase >500L) coordonăm cu Italia configurația și prețurile. Training inclus pentru instalatori - montaj corect vase, commissioning grupuri, troubleshooting probleme sistem (noise, vibratii, presiune instabilă).`
+    infinitrade: `Componentele Caleffi - vase de expansiune, grupuri Hydrolink, separatoare Discaldirt - intră la noi prin canale de aprovizionare din Uniunea Europeană. Nu avem un depozit propriu documentat pe fiecare model, așa că spunem clar ce putem și ce nu putem confirma înainte de a da un termen: de regulă 2-6 săptămâni la comandă, cu excepția câtorva dimensiuni uzuale unde putem asigura 24-72 h din stoc. Pentru o recomandare corectă avem nevoie de diametru, presiune nominală și tipul instalației (încălzire sau apă rece). Configurațiile Hydrolink personalizate depășesc, de regulă, termenul standard.`,
+    limitation: 'Nu putem confirma dimensionarea finală a sistemului fără datele complete ale instalației și nici disponibilitatea garantată pentru fiecare dimensiune de vas.',
+    sources: [
+      { title: 'Caleffi Hydronic Solutions | Caleffi S.p.a.', url: 'https://www.caleffi.com', publisher: 'Caleffi S.p.A.', accessed: '2026-09-22' },
+      { title: 'Headquarters | Caleffi S.p.a.', url: 'https://www.caleffi.com/en-us/contacts/headquarters', publisher: 'Caleffi S.p.A.', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'camozzi': {
     founded: 1964,
     headquarters: 'Brescia, Italia',
     employees: '1600+',
-    overview: `Camozzi suntem unul din liderii europeni în pneumatică industrială - producem anual peste 1 milion cilindri, 5 milioane fitinguri și 500.000 valve în fabricile din Italia, Germania, Polonia și China. În 60 de ani am dezvoltat peste 50.000 SKU-uri acoperind orice nevoie de automatizare pneumatică, de la cilindri mini ∅6mm pentru electronică până la cilindri ∅320mm pentru prese industriale.
+    overview: `Camozzi suntem unul din liderii europeni în pneumatică industrială - producem anual peste 1 milion cilindri, 5 milioane fitinguri și 500.000 valve în fabricile din Italia, Germania, Polonia și China. În 60 de ani am dezvoltat o gamă foarte largă de repere acoperind orice nevoie de automatizare pneumatică, de la cilindri mini ∅6mm pentru electronică până la cilindri ∅320mm pentru prese industriale.
 
-Portfolio-ul nostru acoperă întregul lanț pneumatic: cilindri (ISO 15552, compacți, rotante, fără tije), valve directionale (5/2, 5/3, solenoid/pilot/manual), tratare aer (FRL units: filtrare, reglare presiune, lubrifiere), fitinguri instant-lock (push-in, push-pull, thread-lock), tubulatura poliuretan/poliamidă. Tehnologia noastră de vârf sunt cilindrele seria 61 ultra-compacte - același stroke în 40% mai puțin lungime față de ISO standard, economisind spațiu prețios în mașini automatizate.
+Portfolio-ul nostru acoperă întregul lanț pneumatic: cilindri (ISO 15552, compacți, rotante, fără tije), valve directionale (5/2, 5/3, solenoid/pilot/manual), tratare aer (FRL units: filtrare, reglare presiune, lubrifiere), fitinguri instant-lock (push-in, push-pull, thread-lock), tubulatura poliuretan/poliamidă. Tehnologia producătorului de vârf sunt cilindrele seria 61 ultra-compacte - același stroke în 40% mai puțin lungime față de ISO standard, economisind spațiu prețios în mașini automatizate.
 
 Clienții OEM din packaging, automotive și woodworking aleg Camozzi pentru customizare rapidă - modificăm stroke, montaje, senzori magnetic, coating special în 2-3 săptămâni fără MOQ prohibitiv. Calitatea Italian engineering la prețuri competitive (fabrici Polonia/China pentru volume mari) ne diferențiază de gigantii germani premium.`,
     whyChoose: [
@@ -483,26 +539,26 @@ Clienții OEM din packaging, automotive și woodworking aleg Camozzi pentru cust
       'Pharmaceutical - Tablet press, blister packing, filling',
       'Metal Fabrication - Press brake, stamping, welding, assembly'
     ],
-    infinitrade: `Distribuim componentele Camozzi pneumatice pentru industria românească - cilindri seria 61, valve 358, fitinguri instant, FRL units. Din depozitul Timișoara livrăm rapid poziții standard (cilindri bore/stroke comune, valve 24VDC, fitinguri diametre 6-12mm) în stoc permanent. Pentru cerințe speciale (stroke custom, coating Rilsan, senzori IO-Link) comunicăm direct cu Italia și coordonăm producția - lead-time 2-3 săptămâni. Oferim consultanță aplicație: sizing corect cilindri (calculăm forță necesară pe sarcină + frecare), configurare manifold valve optimal, selecție FRL pe debit consumatori. Suport tehnic: troubleshooting scurgeri (fitinguri, garnituri), optimizare consum aer comprimat (reducere costuri operare), training montaj/mentenanță echipe client.`
+    infinitrade: `Gama pneumatică Camozzi e vastă, iar noi lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare bore, cursă sau tip de valvă. Produsele ajung prin canale de aprovizionare din Uniunea Europeană, cu termen obișnuit 2-6 săptămâni la comandă; pe diametrele și cursele cerute des putem asigura 24-72 h din stoc, ca politică generală a firmei. Trimiteți-ne bore-ul și cursa cilindrului, respectiv tensiunea de acționare pentru valve, ca să confirmăm codul corect înainte de a plasa comanda. Manifoldurile custom depind de configurația validată direct cu producătorul, iar termenul se stabilește după aceea.`,
+    limitation: 'Nu putem confirma disponibilitatea imediată pentru fiecare combinație bore/cursă și nici lead-time-ul exact al variantelor cu coating special fără verificare la producător.',
+    sources: [
+      { title: 'Camozzi Automation: Leading Motion & Fluid Control Solutions for Industrial Automation, Transportation & Life Science', url: 'https://en.automation.camozzi.com/about-us/camozzi-automation.kl', publisher: 'Camozzi Automation', accessed: '2026-09-22' },
+      { title: 'History Camozzi Group', url: 'https://en.camozzigroup.com/the-group/history/history.kl', publisher: 'Camozzi Group', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
   },
 
   'carrier': {
     founded: 1915,
     headquarters: 'Palm Beach Gardens, Florida, SUA',
     employees: '53000+',
-    overview: `Carrier am inventat aerul condiționat modern în 1902 și de atunci suntem lider mondial în soluții HVAC comerciale și industriale. În peste 100 de ani am instalat sisteme de climatizare în peste 1 milion clădiri pe toate continentele - de la data centers și spitale până la aeroporturi și fabrici. Anual producem 500.000 unități de climatizare în fabrici din SUA, Mexic, China și Europa, cu vânzări de $20 miliarde.
+    overview: `Carrier producătorul a inventat aerul condiționat modern în 1902 și de atunci furnizăm soluții HVAC comerciale și industriale la nivel global. În peste 100 de ani am instalat sisteme de climatizare în peste 1 milion clădiri pe toate continentele - de la data centers și spitale până la aeroporturi și fabrici. Anual producem 500.000 unități de climatizare în fabrici din SUA, Mexic, China și Europa, cu vânzări de $20 miliarde.
 
-Portfolio-ul nostru acoperă toate segmentele HVAC industrial: chillere răcite cu aer/apă (30RT-2000RT capacitate), unități tratare aer AHU (2,000-100,000 CFM debit), rooftop packaged units (3-150 tone), pompe de căldură aer-apă pentru încălzire. Tehnologia noastră de vârf sunt chillerele centrifugale 19XR cu compresoare magnetic-bearing - eficiență până 0.45 kW/ton (COP 7.8!), funcționare silențioasă fără mentenanță rulmenți, control variabil 10-100% capacitate fără loss efficiency.
+Portfolio-ul nostru acoperă toate segmentele HVAC industrial: chillere răcite cu aer/apă (30RT-2000RT capacitate), unități tratare aer AHU (2,000-100,000 CFM debit), rooftop packaged units (3-150 tone), pompe de căldură aer-apă pentru încălzire. Tehnologia producătorului de vârf sunt chillerele centrifugale 19XR cu compresoare magnetic-bearing - eficiență până 0.45 kW/ton (COP 7.8!), funcționare silențioasă fără mentenanță rulmenți, control variabil 10-100% capacitate fără loss efficiency.
 
 Clienții corporate și facility managers aleg Carrier pentru Total Cost of Ownership redus - chilerele noastre consumă cu 30-40% mai puțin energie decât generația anterioară (reducere facturi în 10 ani = 3x costul inițial), predictive maintenance via i-Vu control previne breakdown-uri costisitoare, și rețeaua service globală asigură piese/tehnician în <24h oriunde.`,
-    chiller: [
-      '19XR Centrifugal - Compresoare magnetic-bearing, 0.45 kW/ton, 150-2000 RT',
-      'AquaEdge - Variable-speed centrifugal, IPLV 0.39 kW/ton, soft-start',
-      '30RB Screw - Roți melc twin-rotor, economizer integrat, 80-350 RT',
-      'i-Vu Control - BMS integrat BACnet/LonWorks, touchscreen 10", remote diagnostics',
-      'SmartVu Analytics - Cloud platform predictive maintenance, energy optimization',
-      'R-515B refrigerant - Ultra-low GWP 299, drop-in retrofit R-134a'
-    ],
     keyProducts: [
       {
         name: '19XR Magnetic-Bearing Centrifugal Chiller',
@@ -542,18 +598,32 @@ Clienții corporate și facility managers aleg Carrier pentru Total Cost of Owne
       'Manufacturing - Fabrici cu proces cooling, clean-rooms',
       'Government - Clădiri administrative, military',
       'Transportation - Aeroporturi, gări, metrou',
-      'Mixed-Use - Residential+commercial developments'
+      'Mixed-Use - Residential+commercial developments',
+      '19XR Centrifugal - Compresoare magnetic-bearing, 0.45 kW/ton, 150-2000 RT',
+      'AquaEdge - Variable-speed centrifugal, IPLV 0.39 kW/ton, soft-start',
+      '30RB Screw - Roți melc twin-rotor, economizer integrat, 80-350 RT',
+      'i-Vu Control - BMS integrat BACnet/LonWorks, touchscreen 10", remote diagnostics',
+      'SmartVu Analytics - Cloud platform predictive maintenance, energy optimization',
+      'R-515B refrigerant - Ultra-low GWP 299, drop-in retrofit R-134a'
     ],
-    infinitrade: `Furnizăm sistemele Carrier HVAC pentru proiecte comerciale și industriale din România - chillere, rooftop units, AHU, controale. Oferim consultanță engineering completă: load calculation (cooling/heating loads pe zone), equipment selection (sizing optim pentru eficiență), system design (hydraulic/air distribution). Din parteneriatele noastre cu Carrier Europa coordonăm livrarea echipamentelor, commissioning de către tehnicienii autorizați Carrier, și training operare pentru facility management. Service post-garanție: contracte mentenanță preventivă (filtre, refrigerant check, calibrare senzori), reparații (compresoare, HMI, leak detection), retrofit upgrade efficiency (VFD pe ventilatoare, economizer add-on). Stoc piese critice Timișoara pentru downtime minim - contactori, pressure switches, expansion valves, filters.`
+    infinitrade: `Echipamentele Carrier - chillere, unități rooftop, AHU - sunt de regulă proiecte cu configurație individuală, nu articole de stoc; nu avem date proprii de disponibilitate pentru fiecare model. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană, cu termen obișnuit 2-6 săptămâni la comandă, iar doar pe piesele de schimb uzuale putem asigura, uneori, 24-72 h din stoc. Trimiteți-ne capacitatea necesară, tipul de aplicație și condițiile locului de montaj, ca să pregătim o selecție tehnică potrivită. La sisteme mari, termenul final se confirmă direct cu producătorul, după validarea configurației.`,
+    limitation: 'Nu putem confirma disponibilitatea garantată a echipamentelor sau pieselor critice și nici commissioning direct de tehnicieni Carrier fără contract separat.',
+    sources: [
+      { title: 'Intelligent Climate and Energy Solutions | Carrier', url: 'https://www.carrier.com/', publisher: 'Carrier', accessed: '2026-09-22' },
+      { title: 'Carrier Global', url: 'https://en.wikipedia.org/wiki/Carrier_Global', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; cheia necunoscută chiller mutată ca text în industries' }]
   },
 
   'castrol': {
     founded: 1899,
-    headquarters: 'Londra, Regatul Unit',
+    headquarters: 'Pangbourne, Regatul Unit',
     employees: '7000+',
     overview: `Castrol (parte a grupului BP din 2000) producem lubrifianți industriali și automotive de peste 125 ani - de la uleiurile minerale clasice până la fluide sintetice high-performance pentru aplicații extreme. Anual fabricăm 4 miliarde litri lubrifianți în 50 de fabrici globale, distribuiți în 140 țări. Expertiza noastră acoperă toate industriile: automotive (uleiuri motor, transmisii), metalworking (emulsii de tăiere, uleiuri întregi), hydraulic (fluide HLP, HFC, HFD), industrial gear (EP oils, sintetic PAO/PAG).
 
-Tehnologia noastră de vârf sunt emulsiile semi-sintetice Hysol - combinație optimă uleiuri minerale rafinate + esteri sintetici + aditivi EP (Extreme Pressure) pentru prelucrări grele (frezare titan, broșare oțel călit). Formula exclusivă Microflux reduce frecarea metal-sculă cu 40% vs emulsii standard, prelungind durată scule cu 2-3x și îmbunătățind finisajul suprafeței (Ra scade de la 3.2 μm la 1.6 μm).
+Tehnologia producătorului de vârf sunt emulsiile semi-sintetice Hysol - combinație optimă uleiuri minerale rafinate + esteri sintetici + aditivi EP (Extreme Pressure) pentru prelucrări grele (frezare titan, broșare oțel călit). Formula exclusivă Microflux reduce frecarea metal-sculă cu 40% vs emulsii standard, prelungind durată scule cu 2-3x și îmbunătățind finisajul suprafeței (Ra scade de la 3.2 μm la 1.6 μm).
 
 Clienții din automotive, aerospace și machining aleg Castrol pentru Total Fluid Management - nu vindem doar lubrifianți, ci oferim programe complete: analiza gratuită ulei uzat (detectare contaminare/degradare înainte de probleme), optimizare concentrație emulsii (reducere consum 15-30%), training personal (handling corect, safety). Investim $100M anual în R&D pentru next-gen lubrifianți: bio-based oils (renewable content >50%), ultra-low viscosity (economie combustibil EV gearboxes), nano-additives (friction modifiers graphene).`,
     whyChoose: [
@@ -605,6 +675,14 @@ Clienții din automotive, aerospace și machining aleg Castrol pentru Total Flui
       'Construction Equipment - Hydraulics excavators, loaders, cranes',
       'Wind Energy - Gearboxes turbine, hydraulics pitch/yaw'
     ],
-    infinitrade: `Distribuim lubrificanții industriali Castrol pentru fabrici și ateliere din România - emulsii Hysol pentru CNC, uleiuri hidraulice Alpha, grăsimi Molub-Alloy, uleiuri angrenaje Magna. Oferim consultanță aplicație: selectăm lubrifiantul optim pe baza echipamentului (tip pompă hidraulică, materiale prelucrate CNC, sarcini angrenaje) și recomandăm intervale schimb. Din depozitul Timișoara livrăm rapid bidoane 20L și butoaie 208L în stoc permanent. Servicii incluse: program Labcheck gratuit (trimitem kit sampling, analizăm uleiul la laborator Castrol, raport detaliat wear metals/contamination/oxidation), training personal (handling safe, equipment lubrication best-practices), troubleshooting (investigăm probleme uzură prematură, contaminare, spumare). Stoc permanent filtre hidraulice și cartușe pentru sisteme centrale lubrifiere - protecția echipamentului începe cu filtrare corectă.`
+    infinitrade: `Lubrifianții Castrol - emulsii Hysol, uleiuri Alpha, unsori Molub-Alloy - ne parvin prin canale de aprovizionare din Uniunea Europeană; ne ghidăm după informațiile publice disponibile de la producător, nu după un stoc propriu documentat. Termenul obișnuit e de 2-6 săptămâni la comandă; pe ambalajele uzuale (bidoane, butoaie) putem asigura, ca regulă generală, 24-72 h din stoc. Spuneți-ne tipul de lubrifiant, vâscozitatea și ambalajul dorit, ca să verificăm disponibilitatea reală înainte de confirmare. Pentru volume mari sau formule speciale, verificarea la producător poate dura mai mult decât intervalul obișnuit.`,
+    limitation: 'Nu putem confirma analiza Labcheck ca serviciu propriu și nici disponibilitatea garantată pentru fiecare tip și ambalaj de lubrifiant.',
+    sources: [
+      { title: 'Castrol heritage - 125 years forwards | Home', url: 'https://www.castrol.com/en/global/corporate/about-castrol/our-heritage.html', publisher: 'Castrol (BP)', accessed: '2026-09-22' },
+      { title: 'Home', url: 'https://www.castrol.com', publisher: 'Castrol (BP)', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; headquarters Londra→Pangbourne corectat conform Wikipedia' }]
   }
 };

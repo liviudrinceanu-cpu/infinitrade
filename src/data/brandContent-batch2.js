@@ -17,13 +17,13 @@ Am început să lucrăm cu echipamente Danfoss acum aproape 15 ani, când un cli
 
 Gama lor de produse e impresionantă, dar noi ne concentrăm pe ceea ce se cere cel mai mult în România: supape de control (presiune, temperatură, debit), invertoare pentru motoare și pompe, compresoare pentru refrigerare comercială, și schimbătoare de căldură. În industria alimentară din zona Timișoara, de exemplu, supapele termostatice Danfoss sunt standard pentru orice sistem de răcire profesional. În construcții, invertoarelor lor pentru instalații HVAC le merge excelent – vorbim de clădiri de birouri care au redus costurile cu climatizarea cu peste 40%.
 
-Suntem furnizori pentru piața românească și ținem stoc la echipamentele cele mai solicitate. Pentru comenzi speciale sau proiecte mari (de exemplu, am avut o rafinărie din Ploiești care avea nevoie de 50 de supape de siguranță customizate), coordonăm direct cu fabrica din Danemarca. Timpul de livrare variază – stocul local vine în 2-3 zile, comenzile speciale pot dura 4-6 săptămâni, depinde de complexitate. Dar merită așteptarea când vorbim de echipament care o să funcționeze fără probleme 15-20 de ani.`,
+Suntem furnizori pentru piața din România și aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss cerute de clienți. Pentru proiecte mari sau supape de siguranță customizate coordonăm direct cu fabrica din Danemarca, iar termenul depinde de complexitatea comenzii. Merită așteptarea când vorbim de echipament care funcționează fără probleme 15-20 de ani.`,
     whyChoose: [
-      'Lider mondial în eficiență energetică – reduceri de 20-40% la consumul electric',
+      'Tehnologie recunoscută global în eficiență energetică – reduceri de 20-40% la consumul electric',
       'Tehnologie daneză precisă pentru control automat în industrie',
       'Gamă completă: de la supape simple la sisteme integrate de management energetic',
       'Durabilitate extremă – echipamentele funcționează 15-20 ani fără service major',
-      'Stoc permanent în România la produsele cele mai solicitate + comenzi directe din fabrică'
+      'Aprovizionare din UE pentru produsele cele mai solicitate + comenzi directe din fabrică'
     ],
     keyProducts: [
       {
@@ -40,7 +40,7 @@ Suntem furnizori pentru piața românească și ținem stoc la echipamentele cel
       },
       {
         name: 'Schimbătoare de căldură cu plăci',
-        description: `Schimbătoarele cu plăci brazate Danfoss (seria XB) sunt compacte, eficiente, și rezistente la presiuni mari. Le folosim în sisteme de încălzire în pardoseală, răcire cu glicol, recuperare căldură din procese industriale. Transferul termic e mult superior față de schimbătoarele tubulare clasice – ocupă mai puțin spațiu și costă mai puțin la întreținere. Avem în stoc dimensiuni standard, pentru aplicații speciale comandăm custom (calculul termic îl facem noi sau cu inginerii lor, depinde de complexitate).`
+        description: `Schimbătoarele cu plăci brazate Danfoss (seria XB) sunt compacte, eficiente, și rezistente la presiuni mari. Le folosim în sisteme de încălzire în pardoseală, răcire cu glicol, recuperare căldură din procese industriale. Transferul termic e mult superior față de schimbătoarele tubulare clasice – ocupă mai puțin spațiu și costă mai puțin la întreținere. Dimensiunile standard sunt disponibile la comandă, iar pentru aplicații speciale comandăm custom (calculul termic îl facem noi sau cu inginerii lor, depinde de complexitate).`
       }
     ],
     certifications: [
@@ -62,9 +62,17 @@ Suntem furnizori pentru piața românească și ținem stoc la echipamentele cel
       'Energii regenerabile (pompe căldură, solar termic)',
       'Automotive și producție industrială'
     ],
-    infinitrade: `Furnizăm echipamente Danfoss în România de peste 15 ani și avem stoc permanent la produsele cele mai solicitate: supape de control și reglare, invertoare VLT pentru motoare industriale, compresoare refrigerare comercială, schimbătoare de căldură cu plăci. Pentru proiecte mari sau echipamente specializate (de exemplu, sisteme complete de management energetic pentru fabrici), coordonăm comenzi directe din Danemarca cu suport tehnic complet.
-
-Ceea ce ne diferențiază e că nu doar livram echipamentul – oferim consultanță tehnică reală. Dacă ai nevoie de o supapă de control pentru proces chimic sau vrei să optimizezi consumul energetic al unei stații de pompare cu invertoare, vorbești direct cu inginerii noștri care au experiență hands-on cu produsele Danfoss. Le-au instalat, le-au parametrizat, le-au întreținut. Asta face diferența între "ai cumpărat o supapă" și "ai o instalație care funcționează optim 20 de ani". Suntem în Ghiroda, lângă Timișoara, dar livram în toată România. Proiectele mari le susținem și cu training pentru personalul tău de întreținere – merită investiția.`
+    infinitrade: `Pentru echipamente Danfoss lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii despre stocul din fabrică. Aducem la comandă, prin canale de aprovizionare din UE, supape de control, invertoare VLT, compresoare pentru refrigerare comercială și schimbătoare de căldură cu plăci. Pentru reperele cele mai cerute putem oferi uneori 24–72 h din stoc, dar termenul obișnuit pentru comenzi este 2–6 săptămâni, în funcție de disponibilitatea la fabrică. Ca să pregătim o ofertă corectă, trimiteți-ne codul complet al produsului, cantitatea și, dacă există, fișa tehnică sau desenul aplicației. Nu lucrăm cu prețuri publicate și nu confirmăm stoc înainte de a verifica direct la sursă.`,
+    limitation: 'Nu putem garanta disponibilitate neîntreruptă în stoc pentru toate reperele Danfoss, iar service-ul în perioada de garanție a producătorului se face exclusiv prin rețeaua Danfoss.',
+    sources: [
+      { title: 'Our journey to engineering a better future | Danfoss', url: 'https://www.danfoss.com/en/about-danfoss/company/history/', publisher: 'Danfoss', accessed: '2026-09-22' },
+      { title: 'About Danfoss - Engineering since 1933 | Danfoss', url: 'https://www.danfoss.com/en/about-danfoss/', publisher: 'Danfoss', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'spirax-sarco': {
@@ -79,11 +87,11 @@ Am început să lucrăm cu echipamentele lor acum vreo 12 ani când o fabrică t
 
 Punem la dispoziție gama lor completă pentru piața românească: trape de condensat (termodinamice, bimetalice, cu plutitor), supape de reglare presiune și temperatură, separatoare, filtre, prize de abur, sisteme de dezaerare, pompare condensat. Pentru proiecte mari coordonăm cu fabrica din UK – am avut cazuri unde inginerii Spirax Sarco au venit în România să facă audit energetic gratuit și să dimensioneze sistemul exact. Asta oferă un producător serios care știe că economia de energie justifică investiția inițială.`,
     whyChoose: [
-      'Lider mondial absolut în managementul aburului industrial – 135+ ani specializare',
+      'Specialist recunoscut global în managementul aburului industrial – 135+ ani de activitate în domeniu',
       'Reduceri de energie 25-45% prin optimizarea sistemelor de abur și recuperare condensat',
       'Produse testate extrem: presiuni până 100 bar, temperaturi până 400°C',
       'Consultanță tehnică gratuită pentru proiecte mari – audit energetic inclus',
-      'Furnizăm în România cu stoc permanent + suport tehnic local complet'
+      'Furnizăm în România prin aprovizionare din UE + suport tehnic local complet'
     ],
     keyProducts: [
       {
@@ -123,9 +131,17 @@ Punem la dispoziție gama lor completă pentru piața românească: trape de con
       'Centrale termice și cogenerare',
       'Prelucrarea cauciucului și maselor plastice'
     ],
-    infinitrade: `Suntem furnizori pentru produsele Spirax Sarco în România de peste 12 ani și punem la dispoziție întreaga gamă: trape de condensat (termodinamice, bimetalice, cu plutitor), supape de reglare presiune și temperatură, separatoare, filtre, sisteme de recuperare condensat, prize de abur, dezaeratoare. Avem stoc permanent în Ghiroda la produsele standard și coordonăm comenzi directe din UK pentru sisteme complexe sau proiecte mari.
-
-Ceea ce apreciem la Spirax Sarco (și clienții noștri confirm asta) e că nu vând doar echipament – oferă know-how. Pentru proiecte mari (de exemplu, o fabrică nouă care construiește sistem de abur de la zero), inginerii lor fac audit gratuit, calculează dimensionarea exactă, identifică potențialul de economisire energie. Am avut cazuri unde clientul credea că are nevoie de un cazan mai mare, dar după analiza Spirax Sarco s-a dovedit că doar optimizarea sistemului existent (trape noi, recuperare condensat, izolații) rezolva problema și economisea 60,000 euro investiție. Asta înseamnă expertiză reală, nu doar vânzări. Livram în toată România, proiectele mari le susținem și cu training pentru personalul de operare și întreținere.`
+    infinitrade: `Pentru echipamentele Spirax Sarco ne bazăm pe informațiile publice disponibile de la producător și pe fișele tehnice oficiale, fără acces la stocurile lor interne. Aducem la comandă, prin canale de aprovizionare din UE, trape de condensat, supape de reglare presiune și temperatură, separatoare și sisteme de recuperare a condensatului. La unele repere uzuale putem asigura 24–72 h din stoc, însă termenul standard pentru comenzi rămâne 2–6 săptămâni, în funcție de fabrică. Pentru o ofertă corectă avem nevoie de codul produsului, parametrii de presiune și temperatură ai instalației și cantitatea dorită. Nu publicăm prețuri și nu promitem un termen anume fără o verificare prealabilă la sursă.`,
+    limitation: 'Nu oferim configurare software pentru echipamentele digitale din gama Spirax Sarco și nu putem garanta disponibilitate neîntreruptă în stoc pentru toate reperele.',
+    sources: [
+      { title: 'Looking for Spirax Sarco products and services?', url: 'https://www.spiraxsarco.com/about-us', publisher: 'Spirax Sarco', accessed: '2026-09-22' },
+      { title: 'Spirax-Sarco Engineering', url: 'https://en.wikipedia.org/wiki/Spirax-Sarco_Engineering', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'ari-armaturen': {
@@ -138,7 +154,7 @@ Am început să distribuim echipamente ARI acum vreo 10 ani când un client din 
 
 Gama lor de produse e vastă, dar noi ne concentrăm pe ceea ce se cere cel mai mult în România: supape cu glob (control și închidere), supape cu bilă, supape de siguranță (vapori, lichide, gaze), supape de reținere, supape fluture, și armături speciale PTFE-lined pentru industria chimică. În rafinăriile din Ploiești și Constanța, de exemplu, supapele de siguranță ARI sunt standard pentru protecția echipamentelor sub presiune – certificate TÜV, calibrate la fabrică, cu documentație completă pentru ISCIR. În industria alimentară, supapele inox ARI din seria sanitară (design igienizabil, fără zone moarte) sunt preferate pentru linii de procesare lapte, suc, bere.
 
-Distribuim pentru piața românească și ținem stoc la dimensiunile și materialele cele mai solicitate (DN15-DN100, oțel carbon, inox 316L). Pentru aplicații speciale (de exemplu, am avut o fabrică de vopsele care avea nevoie de supape Hastelloy pentru acizi concentrați) coordonăm comenzi directe din fabrică – timpul de livrare e 6-10 săptămâni, dar primești exact ce îți trebuie, cu certificat material și calibrare de la producător.`,
+Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materialele cele mai solicitate (DN15-DN100, oțel carbon, inox 316L). Pentru aplicații speciale cu materiale exotice, precum Hastelloy pentru acizi concentrați, coordonăm comenzi directe din fabrică, iar termenul depinde de complexitate; primești exact ce îți trebuie, cu certificat material și calibrare de la producător.`,
     whyChoose: [
       'Calitate germană autentică – inginerie precisă, materiale premium, finisaj impecabil',
       'Specializare în industrii grele: chimică, petrochimică, energetică, offshore',
@@ -185,16 +201,24 @@ Distribuim pentru piața românească și ținem stoc la dimensiunile și materi
       'Industria hârtiei și celulozei',
       'Naval și offshore (platforme petroliere, nave tankere)'
     ],
-    infinitrade: `Furnizăm armături industriale ARI în România de peste 10 ani și avem stoc permanent în Ghiroda la produsele cele mai solicitate: supape cu glob DN15-DN100 (oțel carbon și inox 316L), supape de siguranță pentru vapori și lichide (calibrate și certificate TÜV), supape cu bilă PTFE-lined pentru industria chimică, supape fluture DN50-DN300 pentru aplicații industriale generale. Pentru proiecte mari sau aplicații speciale (materiale exotice, diametri mari, certificări custom) coordonăm comenzi directe din Germania.
-
-Ceea ce ne place la ARI e că nu fac compromisuri la calitate. Asta se vede în detalii: suprafețele de etanșare rectificate la toleranțe strânse, garniturile din materiale premium (PTFE virgin, grafit expandat flexibil), filetele prelucrate precis. Când instalezi o supapă ARI, știi că o să meargă fără probleme mulți ani. Livram în toată România, pentru proiecte complexe oferim consultanță tehnică completă (selecție material, dimensionare, conformitate cu standarde ISCIR). Dacă ai instalație cu medii agresive sau parametri extremi (presiune mare, temperaturi înalte/joase, fluide toxice), merită să vorbim – experiența noastră cu produsele ARI te poate economisi bani și probleme pe termen lung.`
+    infinitrade: `Pentru armăturile ARI Armaturen folosim surse publice ale producătorului și documentația tehnică oficială, fără date proprii despre stocul din fabrică. Aducem la comandă, prin canale de aprovizionare din UE, supape cu glob, supape de siguranță, armături PTFE-lined și supape fluture, în diverse diametre și materiale. Pentru unele dimensiuni standard putem oferi 24–72 h din stoc, dar comenzile cu materiale sau certificări speciale au un termen de 2–6 săptămâni. Ca să pregătim o ofertă, trimiteți-ne diametrul nominal, presiunea de lucru, materialul dorit și, dacă e cazul, fluidul vehiculat. Nu lucrăm cu liste de prețuri publice și nu confirmăm disponibilitatea unui reper fără verificare la fabrică.`,
+    limitation: 'Nu putem garanta disponibilitate neîntreruptă în stoc pentru toate dimensiunile și materialele din gama ARI Armaturen, iar service-ul în perioada de garanție rămâne în sarcina producătorului.',
+    sources: [
+      { title: 'ARI® at a glance | ARI®', url: 'https://www.ari-armaturen.com/en/company', publisher: 'ARI-Armaturen GmbH & Co. KG', accessed: '2026-09-22' },
+      { title: 'Home page – ARI-Armaturen GmbH & Co. KG | ARI®', url: 'https://www.ari-armaturen.com/en/', publisher: 'ARI-Armaturen GmbH & Co. KG', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'alfa-laval': {
     founded: 1883,
     headquarters: 'Lund, Suedia',
     employees: '~20,500',
-    overview: `Alfa Laval e unul dintre brandurile pe care le admiri pentru longevitate și inovație constantă. Fondată în 1883 în Stockholm de Gustaf de Laval (da, același care a inventat turbina de abur), compania a început cu separatoare centrifugale pentru lapte. Astăzi, 140+ ani mai târziu, sunt lider mondial în transfer termic, separare și manevrare fluide – trei domenii vitale pentru industria globală. Peste 20,000 de angajați, prezență în 100+ țări, și un portofoliu de brevete impresionant (în special la schimbătoarele de căldură cu plăci, unde practic au inventat tehnologia în forma modernă).
+    overview: `Alfa Laval e unul dintre brandurile pe care le admiri pentru longevitate și inovație constantă. Fondată în 1883 în Stockholm de Gustaf de Laval (da, același care a inventat turbina de abur), compania a început cu separatoare centrifugale pentru lapte. Astăzi, 140+ ani mai târziu, sunt unul dintre principalii producători globali de echipamente pentru transfer termic, separare și manevrare fluide – trei domenii vitale pentru industria globală. Peste 20,000 de angajați, prezență în 100+ țări, și un portofoliu de brevete impresionant (în special la schimbătoarele de căldură cu plăci, unde practic au inventat tehnologia în forma modernă).
 
 Am început să lucrăm cu echipamente Alfa Laval acum vreo 14 ani când un client din industria alimentară căuta schimbătoare de căldură pentru pasteurizare lapte. De atunci, am furnizat sisteme în toată România – de la schimbătoare simple gasketed (cu garnituri demontabile) până la unități brazate compacte pentru refrigerare și schimbătoare toate-sudate pentru aplicații critice în petrochimie. Ce ne-a impresionat dintotdeauna? Eficiența transferului termic. Un schimbător Alfa Laval cu plăci ocupă 1/5 din spațiul unui schimbător tubular clasic cu aceeași capacitate termică, și are randament termic cu 15-20% mai mare. Nu-i de mirare că industria alimentară globală merge aproape exclusiv pe tehnologia lor.
 
@@ -202,7 +226,7 @@ Am început să lucrăm cu echipamente Alfa Laval acum vreo 14 ani când un clie
 
 Distribuim întreaga gamă pentru piața românească: schimbătoare cu plăci gasketed (demontabile pentru curățare), schimbătoare brazate (compacte, fără garnituri, pentru refrigerare), schimbătoare toate-sudate (pentru presiuni mari sau fluide agresive), schimbătoare tubulare (când ai particule solide în fluid), separatoare centrifugale, decantoare. Pentru proiecte mari (de exemplu, o nouă fabrică de lapte cu linie completă de procesare termică) colaborăm direct cu inginerii Alfa Laval pentru dimensionare exactă – ei au software specializat care calculează precis suprafața de schimb, căderea de presiune, temperatura de ieșire. Merită investiția de timp pentru că un schimbător subdimensionat nu atinge parametrii, iar unul supradimensionat costă inutil.`,
     whyChoose: [
-      'Lider mondial în tehnologia schimbătoarelor de căldură cu plăci – pionieri și inovatori',
+      'Producător de referință în tehnologia schimbătoarelor de căldură cu plăci – pionieri și inovatori',
       'Eficiență energetică superioară: 15-25% mai puțin consum vs. tehnologii clasice',
       'Design compact – economisești spațiu dramatic (până la 80% față de tubulare)',
       'Gamă completă: de la mini schimbătoare brazate până la sisteme industriale uriașe',
@@ -251,16 +275,24 @@ Distribuim întreaga gamă pentru piața românească: schimbătoare cu plăci g
       'Automotive (răcitoare procese, recuperare solvenți)',
       'Tratarea apei (desalinizare, epurare industrială)'
     ],
-    infinitrade: `Suntem furnizori pentru echipamentele Alfa Laval în România de peste 14 ani și distribuim întreaga gamă de produse pentru transfer termic și separare: schimbătoare cu plăci gasketed (seria M și T), schimbătoare brazate compacte (seria CB), schimbătoare toate-sudate (Compabloc), schimbătoare tubulare, separatoare centrifugale, decantoare, sisteme complete de pasteurizare și sterilizare. Avem stoc permanent în Ghiroda la modelele standard de schimbătoare brazate și gasketed, pentru sisteme mari coordonăm comenzi directe din Suedia cu suport tehnic complet.
-
-Ceea ce diferențiază Alfa Laval de restul pieței e know-how-ul acumulat în 140 ani. Când lucrezi cu ei, nu cumperi doar un schimbător de căldură – primești calculele termohidraulice exacte, dimensionarea precisă pentru aplicația ta specifică, recomandări de materiale și garnituri pentru fluidele tale. Am avut proiecte unde clientul credea că are nevoie de un schimbător de 200 m², iar după calculele Alfa Laval s-a dovedit că 120 m² sunt suficienți (economisind 15,000 euro). Asta înseamnă expertiză reală. Livram în toată România, pentru proiecte mari oferim training pentru personalul de operare și întreținere (cum se demontează, cum se curăță, cum se reasambează corect). Investiția într-un schimbător Alfa Laval se recuperează prin economii de energie în 2-4 ani de obicei.`
+    infinitrade: `Pentru echipamentele Alfa Laval ne ghidăm după surse publice ale producătorului și cataloagele tehnice oficiale, fără acces la datele lor interne de stoc. Aducem la comandă, prin canale de aprovizionare din UE, schimbătoare de căldură cu plăci gasketed, schimbătoare brazate, unități toate-sudate și separatoare centrifugale. Pentru modelele standard putem asigura uneori 24–72 h din stoc, iar pentru restul comenzilor termenul obișnuit este 2–6 săptămâni, în funcție de configurație. Pentru o ofertă corectă avem nevoie de debitul, temperaturile de intrare/ieșire și fluidele implicate în aplicația dumneavoastră. Nu publicăm prețuri și nu garantăm un termen anume fără confirmare din partea fabricii.`,
+    limitation: 'Nu oferim service în perioada de garanție a producătorului pentru schimbătoarele Alfa Laval și nu putem garanta disponibilitate neîntreruptă în stoc pentru toate modelele.',
+    sources: [
+      { title: 'About us | Alfa Laval', url: 'https://www.alfalaval.com/about-us/', publisher: 'Alfa Laval', accessed: '2026-09-22' },
+      { title: 'Heat transfer, Separation, Fluid handling | Alfa Laval', url: 'https://www.alfalaval.com/', publisher: 'Alfa Laval', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'transactional',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+    ]
   },
 
   'parker-hannifin': {
     founded: 1917,
-    headquarters: 'Cleveland, Ohio, SUA',
+    headquarters: 'Mayfield Heights, Ohio, SUA',
     employees: '~55,000',
-    overview: `Parker Hannifin e gigantul absolut al tehnologiilor de mișcare și control – cel mai mare producător diversificat din lume în domeniul hidraulicii, pneumaticii, electromechanicii și filtrării. Fondată în 1917 de Arthur Parker în Cleveland (Ohio), a crescut organic și prin achiziții strategice până a devenit o corporație de peste 55,000 de angajați prezentă în toate sectoarele industriale majore: aerospace, automotive, construcții, agricultură, industrie, naval, oil & gas. Când spui "Parker", orice inginer din lume știe despre ce e vorba – calitate americană, inovație continuă, disponibilitate globală.
+    overview: `Parker Hannifin e unul dintre cei mai mari producători diversificați din lume în domeniul hidraulicii, pneumaticii, electromecanicii și filtrării. Fondată în 1917 de Arthur Parker în Cleveland (Ohio), a crescut organic și prin achiziții strategice până a devenit o corporație de peste 55,000 de angajați prezentă în toate sectoarele industriale majore: aerospace, automotive, construcții, agricultură, industrie, naval, oil & gas. Când spui "Parker", orice inginer din lume știe despre ce e vorba – calitate americană, inovație continuă, disponibilitate globală.
 
 Am început să distribuim produse Parker acum vreo 16 ani când un client din industria construcțiilor metalice căuta cilindri hidraulici pentru prese. De atunci, am furnizat sisteme complete Parker în România – de la componente hidraulice simple (furtunuri, fitinguri, distribuitoare) până la sisteme integrate complexe (unități hidraulice complete pentru utilaje industriale, sisteme de filtrare pentru centrale electrice). Ce ne-a impresionat dintotdeauna la Parker? Consistența calității. Când cumperi un cilindru Parker fabricat în SUA, Germania, sau China – calitatea e identică. Au standarde globale stricte și le respectă peste tot.
 
@@ -268,11 +300,11 @@ Am început să distribuim produse Parker acum vreo 16 ani când un client din i
 
 Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne concentrăm pe ceea ce se cere cel mai mult în România: cilindri hidraulici (standard și custom), pompe hidraulice (cu piston, cu palete, cu roți dințate), distribuitoare hidraulice (secționale pentru utilaje mobile, monoblock pentru mașini staționare), furtunuri și fitinguri (joasă până înaltă presiune), filtre (hidraulice, pneumatice, pentru procese), componente pneumatice (cilindri, distribuitoare, FRL-uri). Pentru aplicații speciale (aerospace, sisteme cu presiuni extreme peste 500 bar, temperaturi criogenice) coordonăm cu diviziile specializate Parker – au expertiza pentru orice.`,
     whyChoose: [
-      'Cel mai mare producător mondial de tehnologii mișcare și control – 100+ ani experiență',
+      'Producător global de top în tehnologii de mișcare și control – 100+ ani de activitate',
       'Gamă completă: hidraulică, pneumatică, electromecanică, filtrare – totul de la un brand',
       'Calitate globală consistentă – standarde identice în toate fabricile din lume',
       'Disponibilitate excepțională – peste 13,000 de distribuitori și service centers global',
-      'Furnizăm în România cu stoc permanent la produse standard + acces la gama completă Parker'
+      'Furnizăm în România prin aprovizionare din UE la produse standard + acces la gama completă Parker'
     ],
     keyProducts: [
       {
@@ -322,8 +354,16 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       'Alimentară și farmaceutică (filtrare procese, sisteme pneumatice)',
       'Siderurgie și minerit (utilaje grele, sisteme transportoare)'
     ],
-    infinitrade: `Distribuim produse Parker Hannifin în România de peste 16 ani și avem stoc permanent în Ghiroda la componentele cele mai solicitate: cilindri hidraulici standard (seria 2H, 3L), pompe cu roți dințate (seria PGP), distribuitoare secționale pentru utilaje mobile (seria PVG), furtunuri și fitinguri hidraulice (toate gradele de presiune), filtre hidraulice (presiune, retur, aspirație). Pentru sisteme complexe sau produse specializate (pompe cu piston cu debit variabil, distribuitoare proporționale cu control electronic, sisteme complete), coordonăm comenzi directe din fabricile Parker (SUA, Germania, Italia) cu suport tehnic complet.
-
-Ceea ce apreciem la Parker (și clienții confirmă) e că au soluții pentru absolut orice aplicație – de la un cilindru simplu pentru o presă de atelier până la sisteme hidraulice integrate pentru utilaje de milioane de euro. Și, foarte important, disponibilitatea pieselor de schimb e excepțională – garnituri, filtre, componente de uzură sunt în stoc permanent global, le primești în câteva zile. Asta înseamnă downtime minim pentru utilajele tale. Livram în toată România, pentru proiecte mari oferim consultanță tehnică (dimensionare sisteme, selecție componente, calcule hidraulice) și training pentru personalul de întreținere. Dacă ai un sistem hidraulic sau pneumatic care dă probleme, merită să vorbim – experiența noastră cu produsele Parker poate identifica soluții rapide și durabile.`
+    infinitrade: `Pentru produsele Parker Hannifin lucrăm cu informațiile publice disponibile de la producător și cu fișele tehnice oficiale, fără date proprii despre disponibilitatea din fabricile lor. Aducem la comandă, prin canale de aprovizionare din UE, cilindri hidraulici, pompe, distribuitoare, furtunuri și fitinguri, precum și filtre hidraulice și pneumatice. La reperele standard putem oferi câteodată 24–72 h din stoc, însă termenul obișnuit pentru comenzi este 2–6 săptămâni, în funcție de complexitate. Pentru o ofertă corectă trimiteți-ne codul de produs, presiunea de lucru și dimensiunile necesare. Nu publicăm prețuri și nu confirmăm un anumit reper ca fiind gata de livrare fără o verificare prealabilă la fabrică.`,
+    limitation: 'Nu putem garanta disponibilitate neîntreruptă în stoc pentru întreaga gamă Parker Hannifin și nu oferim configurare software pentru componentele electronice sau proporționale ale sistemelor lor.',
+    sources: [
+      { title: 'About Parker | Parker US', url: 'https://www.parker.com/us/en/about-parker.html', publisher: 'Parker Hannifin', accessed: '2026-09-22' },
+      { title: 'Parker Hannifin', url: 'https://en.wikipedia.org/wiki/Parker_Hannifin', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    evidenceClass: 'gsc-only',
+    lastVerified: '2026-09-22',
+    changelog: [
+      { date: '2026-09-22', note: 'reparație: headquarters corectat (Cleveland, Ohio → Mayfield Heights, Ohio), surse adăugate, declarație de aprovizionare onestă' }
+    ]
   }
 };
