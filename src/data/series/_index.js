@@ -10,8 +10,17 @@ import { series as linak } from './linak';
 import { series as becker } from './becker';
 import { series as ktr } from './ktr';
 import { series as burster } from './burster';
+import { series as atos } from './atos';
+import { series as deublin } from './deublin';
+import { series as gestra } from './gestra';
+import { series as keller } from './keller';
+import { series as kern } from './kern';
+import { series as lowara } from './lowara';
+import { series as mankenberg } from './mankenberg';
+import { series as victaulic } from './victaulic';
+import { series as walvoil } from './walvoil';
 
-export const seriesIndex = [...sew, ...ariArmaturen, ...wika, ...euchner, ...leser, ...linak, ...becker, ...ktr, ...burster];
+export const seriesIndex = [...sew, ...ariArmaturen, ...wika, ...euchner, ...leser, ...linak, ...becker, ...ktr, ...burster, ...atos, ...deublin, ...gestra, ...keller, ...kern, ...lowara, ...mankenberg, ...victaulic, ...walvoil];
 
 export function getSeries(brandSlug, seriesSlug) {
   return seriesIndex.find((s) => s.brand === brandSlug && s.slug === seriesSlug) || null;

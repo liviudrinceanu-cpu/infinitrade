@@ -87,6 +87,108 @@ export const series = [
       }
     ],
     "dateModified": "2026-09-23"
+  },
+  {
+    "brand": "ktr",
+    "demandBrandKey": "ktr",
+    "family": "componente mecanice",
+    "slug": "bowex-fle-pa",
+    "name": "BoWex® FLE-PA",
+    "oneLine": "Cuplaj cu flanșă rigid la torsiune KTR, cu montaj axial, pentru motoare termice și pompe cu piston.",
+    "lifecycle": "activ",
+    "lifecycleNote": "Instrucțiunile de montaj KTR-N 40117 pentru FLE-PA/FLE-PAC au ediția din 6 septembrie 2018, iar familia rămâne listată în cataloagele curente de cuplaje cu flanșă ale KTR.",
+    "intro": "BoWex® FLE-PA este un cuplaj cu flanșă rigid la torsiune, gândit să compenseze dezalinierile dintre arbori apărute din toleranțe de fabricație sau dilatare termică. Gama acoperă mărimile 48 până la 125 (și variantele „T”, cu inserție elastică suplimentară), cu alezaje între 13 și 50 mm și cuplu nominal de la 240 Nm la mărimea 48 până la peste 10.000 Nm la mărimea 125. Codul de mărime, de exemplu BoWex 65 FLE-PA, se citește direct din tabelul de flanșe SAE al producătorului, alături de diametrul de alezaj necesar pentru arborele motorului.\n\nCuplajele din gama FLE-PA le aducem la comandă din Uniunea Europeană, în 2–6 săptămâni, fără stoc propriu și fără preț public. Pentru ofertă, clientul trimite mărimea cuplajului (sau diametrul de alezaj și flanșa SAE existentă), tipul de motor sau pompă antrenată și turația de lucru. Verificăm compatibilitatea în catalogul curent al producătorului înainte de a confirma oferta.",
+    "models": [
+      {
+        "code": "BoWex 65 FLE-PA",
+        "note": "mărimea cerută de client, alezaj intermediar în gama seriei"
+      },
+      {
+        "code": "BoWex FLE-PA 48",
+        "note": "cuplu nominal-maxim 240–600 Nm, alezaj max. 20 mm"
+      },
+      {
+        "code": "BoWex FLE-PA T 65",
+        "note": "variantă cu inserție elastică suplimentară"
+      },
+      {
+        "code": "BoWex FLE-PA 100",
+        "note": "flanșă SAE 10\", frecvent la pompe cu piston"
+      },
+      {
+        "code": "BoWex FLE-PA T 125",
+        "note": "cuplu nominal-maxim 4.250–10.700 Nm"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Cuplu nominal-maxim, gamă completă",
+        "value": "240 – 10.700",
+        "unit": "Nm"
+      },
+      {
+        "label": "Alezaj",
+        "value": "13 – 50",
+        "unit": "mm"
+      },
+      {
+        "label": "Deplasare axială admisă",
+        "value": "±1 – ±3",
+        "unit": "mm"
+      },
+      {
+        "label": "Deplasare radială admisă",
+        "value": "0,3 – 0,5",
+        "unit": "mm"
+      },
+      {
+        "label": "Deplasare unghiulară admisă",
+        "value": "±0,3 – ±0,9",
+        "unit": "°"
+      },
+      {
+        "label": "Greutate",
+        "value": "0,79 – 19,73",
+        "unit": "kg"
+      },
+      {
+        "label": "Temperatură de funcționare",
+        "value": "până la +60",
+        "unit": "°C"
+      }
+    ],
+    "applications": [
+      "motoare diesel Perkins, Kubota, Caterpillar, Cummins, John Deere, DEUTZ",
+      "pompe cu piston antrenate de motor termic",
+      "compresoare cu piston"
+    ],
+    "accessories": [],
+    "faq": [
+      {
+        "q": "Ce informații sunt necesare pentru o ofertă la BoWex FLE-PA?",
+        "a": "Mărimea cuplajului (de exemplu 65 sau 100), diametrul de alezaj pe partea de motor și pe partea antrenată, tipul de flanșă SAE existentă și turația nominală de lucru. Aceste date confirmă potrivirea mecanică înainte de comandă."
+      },
+      {
+        "q": "Ce nu putem confirma pentru această serie?",
+        "a": "Nu calculăm noi valoarea de cuplu admisă pentru fiecare combinație motor-pompă cu vibrații ciclice; producătorul recomandă un calcul separat de vibrație torsională pentru astfel de aplicații, pe care îl semnalăm clientului."
+      }
+    ],
+    "limitation": "Nu efectuăm calculul de vibrație torsională recomandat de producător pentru montaje cu solicitare ciclică; livrăm cuplajul cu documentația tehnică aferentă.",
+    "sources": [
+      {
+        "title": "BoWex® Fle-pa Torsionally rigid flange couplings",
+        "url": "https://www.ktr.com/fileadmin/ktr/media/Tools_Downloads/kataloge/05_flange_couplings_BoWex_FLE-PA_PAC.pdf",
+        "publisher": "KTR Systems",
+        "accessed": "2026-09-23"
+      },
+      {
+        "title": "BoWex® FLE-PA / FLE-PAC Operating/Assembly instructions",
+        "url": "https://www.ktr.com/dam/jcr:9f519d47-7b85-4b04-a039-3094fd78b592/40117EN000000.PDF",
+        "publisher": "KTR Systems",
+        "accessed": "2026-09-23"
+      }
+    ],
+    "dateModified": "2026-09-23"
   }
 ];
 export default series;

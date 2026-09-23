@@ -1906,6 +1906,117 @@ Informațiile de mai sus provin din documentația publică a producătorilor, ci
     featured: false,
     sources: [{"title":"Bourdon Tube Pressure Gauge, Models 232.50 / 233.50","url":"https://www.wika.com/en-en/232_50_233_50.WIKA","publisher":"WIKA","accessed":"2026-09-23"},{"title":"Digital Pressure Gauge CPG1500","url":"https://www.wika.com/en-en/cpg1500.WIKA","publisher":"WIKA","accessed":"2026-09-23"},{"title":"Pressure measurement instruments - product overview","url":"https://www.wika.com/en-en/pressure.WIKA","publisher":"WIKA","accessed":"2026-09-23"},{"title":"Field instruments overview - Pressure","url":"https://www.endress.com/en/field-instruments-overview/pressure","publisher":"Endress+Hauser","accessed":"2026-09-23"},{"title":"Products overview","url":"https://keller-pressure.com/en/products","publisher":"KELLER Druckmesstechnik","accessed":"2026-09-23"},{"title":"Pressure Transducers","url":"https://keller-pressure.com/en/products/pressure-transducers","publisher":"KELLER Druckmesstechnik","accessed":"2026-09-23"},{"title":"Pressure Transmitters","url":"https://keller-pressure.com/en/products/pressure-transmitters","publisher":"KELLER Druckmesstechnik","accessed":"2026-09-23"}],
   },
+  {
+    id: 21,
+    slug: "festo-vs-smc-vs-camozzi-pneumatica",
+    title: "Festo, SMC sau Camozzi: ce alegi la cilindri și distribuitoare?",
+    shortTitle: "Festo vs SMC vs Camozzi",
+    excerpt: "Comparăm cilindri, distribuitoare și unități de tratare a aerului de la Festo, SMC și Camozzi: game reale, parametri din surse și scenarii de alegere.",
+    content: `
+Pentru cilindri pneumatici conform ISO 15552, Festo (seria **DSBC**) și Camozzi (seriile **62** și **63**) acoperă direct standardul, cu diametre între 32 și 125 mm. Dacă spațiul de montaj e limitat, seria compactă **CQ2** de la SMC acoperă diametre de la 12 mm în sus, dar fără pretenția de compatibilitate ISO 15552. Pentru distribuitoare electropneumatice, Festo publică date tehnice detaliate pentru terminalele **VUVG/VTUG**; la SMC și Camozzi, gama de distribuitoare există, dar cu parametri numerici mai puțini confirmați acum din surse oficiale. Alegerea depinde de standardul cerut la cilindru, de spațiul disponibil și de ecosistemul de distribuitoare deja instalat.
+
+## Ce compară acest ghid
+
+Acest ghid compară gamele Festo, SMC și Camozzi de componente pneumatice, cilindri, distribuitoare și unități de tratare a aerului, pe criterii verificabile din documentația oficială a fiecărui producător:
+
+- gama de serii disponibile și tipul constructiv (cilindru ISO, cilindru compact, distribuitor, unitate FRL);
+- plajele de parametri din sursă (diametru, cursă, presiune de lucru, debit);
+- standardele aplicate explicit (de exemplu ISO 15552);
+- materialele și opțiunile constructive (amortizare, tije, garnituri);
+- ecosistemul și compatibilitatea (tensiuni de comandă, conexiuni de aer);
+- disponibilitatea documentației tehnice, utilă pentru specificarea în Uniunea Europeană.
+
+Nu comparăm prețuri, stocuri sau termene de livrare, informații care nu apar uniform în cataloagele tehnice publice.
+
+## Festo: ce oferă concret
+
+Festo publică documentație tehnică detaliată pentru seria de cilindri standardizați **DSBC**, construită conform ISO 15552. Gama citită acum acoperă diametre de 32, 40, 50, 63 și 80 mm, cu curse disponibile între 20 și 500 mm, în trepte standardizate. Tubul cilindrului este din profil de aluminiu anodizat, iar capacele sunt din aluminiu turnat și acoperit; amortizarea se face pneumatic, fie reglabilă la ambele capete (varianta PPV), fie autoreglabilă (PPS).
+
+Pentru distribuție, Festo documentează terminalele de valve **VUVG** și **VTUG**, disponibile în lățimi constructive de 10, 14 și 18 mm, cu configurații de la 3/2 căi până la 5/3 căi. Debitul crește de la 130-330 l/min la mărimea 10, până la 800-1200 l/min la mărimea 18, iar presiunea de lucru admisă merge de la 1,5 la 10 bar, cu variantă de vid documentată până la -0,9 bar. Comanda electrică standard citită în sursă este pe 24 V c.c.
+
+DSBC și VUVG/VTUG au sens pentru linii unde se cere conformitate ISO 15552 clară la cilindru și configurare modulară la distribuitor. Vezi gama completă [Festo](/brand/festo).
+
+## SMC: ce oferă concret
+
+Din documentația tehnică citită acum, seria de cilindri compacți **CQ2** de la SMC acoperă diametre de la 12 la 100 mm, cu curse standard între 5 și 100 mm, variabile în funcție de diametru. Presiunea maximă de lucru admisă este de 1,0 MPa (aproximativ 10 bar), cu un minim de 0,1 MPa, iar presiunea de probă ajunge la 1,5 MPa. Cilindrul poate fi montat pe partea tijei, pe partea capului sau prin orificii de trecere, iar porturile de admisie variază de la M5x0,8 la 3/8", în funcție de diametru.
+
+Pagina oficială de prezentare a gamei SMC listează, pe lângă actuatoare (cilindri liniari, ghidați, rotativi, fără tijă), categorii de distribuitoare (pilotate, cu acționare directă, pneumatice, mecanice) și echipamente de linie de aer (filtre, regulatoare, lubrifiatoare, uscătoare), fără parametri numerici confirmați acum pentru o serie anume de distribuitor.
+
+**CQ2** are sens acolo unde spațiul de montaj este restrâns și diametrul cerut se încadrează sub 100 mm; pentru cilindri cu conformitate ISO 15552 explicită, verificăm împreună o altă serie din gama SMC. Vezi gama completă [SMC](/brand/smc).
+
+## Camozzi: ce oferă concret
+
+Camozzi documentează două serii de cilindri conforme ISO 15552, compatibile și cu standardul mai vechi DIN/ISO 6431/VDMA 24562: **Seria 62** și **Seria 63**, ambele cu tub din profil de aluminiu anodizat. Seria 63 acoperă diametre de 32 până la 125 mm și curse de la 10 la 2500 mm, cu presiune de lucru între 1 și 10 bar (până la 0,1 bar pentru varianta cu frecare redusă). Seria 62 acoperă diametre de 32 până la 100 mm, aceeași plajă de curse și presiune. Tija este din oțel AISI 420B cromat, cu variantă din inox AISI 304 pentru Seria 63; poziția pistonului se detectează magnetic, prin senzori de proximitate.
+
+Pentru tratarea aerului, **Seria MX** acoperă unități FRL (filtru, regulator, lubrifiator) asamblate, cu conexiuni G3/8, G1/2 sau G3/4 pentru modulul MX2 și G3/4 sau G1 pentru MX3, configurabile cu module suplimentare precum robinet de izolare sau supapă de pornire lentă.
+
+Seria 62/63 are sens ca alternativă directă la un cilindru ISO deja montat, iar Seria MX acoperă tratarea aerului din jurul instalației. Vezi gama completă [Camozzi](/brand/camozzi).
+
+## Tabel comparativ
+
+| Criteriu | Festo | SMC | Camozzi |
+|---|---|---|---|
+| Serie documentată (cilindri) | DSBC | CQ2 | Seria 62 / Seria 63 |
+| Standard aplicat la cilindri | ISO 15552 | nespecificat în sursă (cilindru compact CQ2) | ISO 15552, compatibil DIN/ISO 6431 |
+| Domeniu diametre cilindri | 32-80 mm | 12-100 mm | 32-125 mm (Seria 63) |
+| Cursă maximă documentată | 500 mm | 100 mm | 2500 mm |
+| Presiune de lucru cilindri | nespecificat în sursă | 0,1-1,0 MPa | 1-10 bar |
+| Serie distribuitoare documentată | VUVG / VTUG | nespecificat în sursă | nespecificat în sursă |
+| Presiune de lucru distribuitoare | 1,5-10 bar | nespecificat în sursă | nespecificat în sursă |
+| Tratare aer documentată | nespecificat în sursă | nespecificat în sursă | Seria MX (FRL), G3/8-G1 |
+
+## Când alegi fiecare brand
+
+Pentru o instalație nouă cu cerință explicită de cilindru ISO 15552, Festo **DSBC** sau Camozzi **Seria 62/63** sunt documentate direct pe acest standard, cu Camozzi acoperind și diametre mai mari (125 mm) și curse mai lungi (2500 mm) în Seria 63.
+
+Pentru o înlocuire 1:1 a unui cilindru ISO existent, verificăm codul de tip montat și îl comparăm cu gama DSBC sau Seria 62/63; interschimbabilitatea depinde de cotele exacte, nu doar de conformitatea la standard.
+
+Pentru spațiu de montaj redus sau un cilindru de dimensiune mică, seria **CQ2** de la SMC acoperă diametre de la 12 mm, acolo unde nu e cerută explicit forma standardizată ISO 15552.
+
+Pentru un ecosistem existent cu distribuitoare Festo, terminalele **VUVG/VTUG** sunt documentate modular, cu variante de lățime și configurație de căi; integrarea într-o instalație deja pe echipamente Festo e mai directă.
+
+Pentru mediu ATEX sau alte zone cu cerințe speciale de siguranță, din paginile citite acum nu am confirmat parametrii de certificare pentru niciunul dintre cele trei branduri, așa că verificăm direct cu producătorul înainte de a propune o serie.
+
+## Ce trebuie să trimiți pentru o ofertă
+
+- codul de tip complet al cilindrului sau distribuitorului existent, dacă e o înlocuire;
+- diametrul, cursa și tipul de amortizare dorite;
+- standardul aplicabil (de exemplu ISO 15552) și cerințele de mediu (temperatură, praf, ATEX);
+- presiunea de lucru disponibilă în instalație;
+- tensiunea de comandă pentru distribuitoare (de exemplu 24 V c.c.);
+- cantitatea necesară și dacă proiectul e unic sau recurent.
+
+## Întrebări frecvente
+
+### Ce diametru de cilindru aleg pentru o aplicație standard?
+
+Diametrul se stabilește din forța necesară și presiunea de lucru disponibilă, nu din brandul preferat. Festo **DSBC** și Camozzi **Seria 62/63** documentează diametre între 32 și 125 mm pentru cilindri ISO 15552; SMC **CQ2** acoperă zona compactă, de la 12 mm, pentru spații reduse. Verificăm împreună calculul de forță înainte de a alege seria.
+
+### Pot înlocui un cilindru Festo cu unul Camozzi?
+
+Depinde de cotele exacte de montare, nu doar de standardul aplicat. **DSBC** (Festo) și **Seria 62/63** (Camozzi) sunt construite pe ISO 15552, ceea ce ajută la interschimbabilitatea dimensională, dar cursa, filetul tijei și poziția porturilor trebuie verificate pe codul de tip existent înainte de comandă.
+
+### Ce tensiune de comandă folosesc distribuitoarele electropneumatice?
+
+Terminalele **VUVG/VTUG** de la Festo documentează comandă standard pe 24 V c.c. Pentru SMC și Camozzi, tensiunea exactă depinde de seria aleasă și trebuie confirmată pe fișa tehnică a produsului specific, informație pe care o verificăm la cererea de ofertă.
+
+### Care e termenul de livrare pentru aceste componente?
+
+Componentele pneumatice de la Festo, SMC și Camozzi nu se țin în stoc pentru toată gama; le aducem la comandă prin canale din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni, în funcție de serie și disponibilitatea la producător.
+
+Informațiile de mai sus provin din documentația tehnică publică a Festo, SMC și Camozzi, citită la data de 23 septembrie 2026; parametrii exacți pot varia între variantele de execuție și trebuie confirmați pe codul de tip complet înainte de comandă. Lucrăm cu gama acestor producători și putem oferta cilindri, distribuitoare și unități de tratare a aerului din seriile menționate, dar nu ținem pe raftntru toată gama și nu suntem distribuitor autorizat al niciunuia dintre ei; aducem produsele la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni.
+`,
+    author: "Echipa Tehnica Infinitrade",
+    authorId: "echipa-tehnica",
+    date: "2026-09-23",
+    dateModified: "2026-09-23",
+    readTime: "7 min",
+    category: "Comparatii",
+    tags: ["cilindri pneumatici","distribuitoare pneumatice","ISO 15552","Festo","SMC","Camozzi"],
+    image: "/blog/festo-vs-smc-vs-camozzi-pneumatica.jpg",
+    featured: false,
+    sources: [{"title":"Standards-based cylinder DSBC, ISO 15552 (documentation)","url":"https://media.festo.com/media/237352_documentation.pdf","publisher":"Festo","accessed":"2026-09-23"},{"title":"Solenoid valves VUVG / valve terminals VTUG (documentation)","url":"https://www.festo.com/media/catalog/203917_documentation.pdf","publisher":"Festo","accessed":"2026-09-23"},{"title":"Compact Cylinder CQ2, bore 12-100 mm (catalogue)","url":"https://static.smc.eu/pdf/10-11-CQ2_EU.pdf","publisher":"SMC","accessed":"2026-09-23"},{"title":"SMC Europe, product range overview","url":"https://www.smc.eu/en-eu","publisher":"SMC","accessed":"2026-09-23"},{"title":"Cylinders ISO 15552, Series 63 (catalogue)","url":"https://media.camozzi.com/pdf/63-ISO-ENG.pdf","publisher":"Camozzi","accessed":"2026-09-23"},{"title":"Series 62 cylinders, aluminium profile (catalogue)","url":"https://media.camozzi.com/pdf/RUS.1.1.26.pdf","publisher":"Camozzi","accessed":"2026-09-23"},{"title":"Series MX, assembled FRL air treatment unit (product page)","url":"https://shop.camozzi.com/store/camozzi/nz/en/air-treatment/series-mx/p/sub-series-mx-assembled-frl-assembled-group-000009","publisher":"Camozzi","accessed":"2026-09-23"}],
+  },
 ];
 
 export const blogCategories = [

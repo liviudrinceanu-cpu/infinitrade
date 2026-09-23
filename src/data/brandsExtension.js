@@ -2,7 +2,7 @@
  * src/data/brandsExtension.js — GENERATED FILE. Do not hand-edit.
  *
  * Regenerate with:  node scripts/build-brands-extension.mjs
- * Source: .planning/brands-500/brands-new-confirmed.json (726 brands, wave 2026-09)
+ * Source: .planning/brands-500/brands-new-confirmed.json (734 brands, wave 2026-09)
  *
  * Program "Branduri-500" (owner decision D-2026-09-21, see
  * .planning/brands-500/SUPERPROMPT.md): brands added on top of the original
@@ -128,6 +128,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Kollmorgen"
+    },
+    {
+      "name": "EUCHNER",
+      "slug": "euchner",
+      "country": "Germania",
+      "description": "Sisteme de siguranță pentru mașini: interblocări de uși, comutatoare de siguranță",
+      "featured": false,
+      "officialUrl": "https://www.euchner.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
     },
     {
       "name": "Exor International",
@@ -334,6 +345,17 @@ export const BRANDS_EXTENSION = {
       "description": "Encodere rotative și traductoare de poziție pentru motoare",
       "featured": false,
       "officialUrl": "https://www.lika.it",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "LINAK",
+      "slug": "linak",
+      "country": "Danemarca",
+      "description": "Actuatoare liniare electrice și sisteme de reglare",
+      "featured": false,
+      "officialUrl": "https://www.linak.com/",
       "wave": "2026-09",
       "signal": "ro",
       "relation": "complementary"
@@ -825,6 +847,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Bonfiglioli"
     },
     {
+      "name": "Deublin",
+      "slug": "deublin",
+      "country": "SUA",
+      "description": "Racorduri rotative pentru apă, ulei, aer și abur",
+      "featured": false,
+      "officialUrl": "https://www.deublin.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
       "name": "EagleBurgmann",
       "slug": "eagleburgmann",
       "country": "Germania",
@@ -1241,6 +1274,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Norelem"
+    },
+    {
+      "name": "KTR",
+      "slug": "ktr",
+      "country": "Germania",
+      "description": "Cuplaje elastice, limitatoare de cuplu și sisteme de răcire hidraulică",
+      "featured": false,
+      "officialUrl": "https://www.ktr.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
     },
     {
       "name": "Kumera",
@@ -5538,6 +5582,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:AVK"
     },
     {
+      "name": "Victaulic",
+      "slug": "victaulic",
+      "country": "SUA",
+      "description": "Cuplaje canelate, robineți fluture și fitinguri pentru țevi",
+      "featured": false,
+      "officialUrl": "https://www.victaulic.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
       "name": "Viega",
       "slug": "viega",
       "country": "DE",
@@ -6356,6 +6411,17 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "burster",
+      "slug": "burster",
+      "country": "Germania",
+      "description": "Senzori de forță, cuplu și presiune, instrumente de măsură",
+      "featured": false,
+      "officialUrl": "https://www.burster.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
       "name": "Cognex",
       "slug": "cognex",
       "country": "USA",
@@ -6662,6 +6728,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Krohne"
+    },
+    {
+      "name": "KERN",
+      "slug": "kern",
+      "country": "Germania",
+      "description": "Balanțe de laborator și industriale, greutăți etalon",
+      "featured": false,
+      "officialUrl": "https://www.kern-sohn.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
     },
     {
       "name": "Klay Instruments",
@@ -7997,6 +8074,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Parker Hannifin"
+    },
+    {
+      "name": "Walvoil",
+      "slug": "walvoil",
+      "country": "Italia",
+      "description": "Distribuitoare hidraulice și componente pentru utilaje mobile",
+      "featured": false,
+      "officialUrl": "https://www.walvoil.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
     },
     {
       "name": "Wandfluh",
