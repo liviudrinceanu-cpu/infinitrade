@@ -139,13 +139,13 @@ export default async function SeriesPage({ params }) {
             {s.applications && s.applications.length > 0 && (
               <>
                 <h3>Unde se folosește</h3>
-                <ul className={styles.list}>{s.applications.map((a) => <li key={a}>{a}</li>)}</ul>
+                <ul className={styles.list}>{s.applications.map((a, i) => { const t = typeof a === 'string' ? a : (a && (a.name || a.code)) || ''; return <li key={i}>{t}</li>; })}</ul>
               </>
             )}
             {s.accessories && s.accessories.length > 0 && (
               <>
                 <h3>Accesorii și opțiuni menționate de producător</h3>
-                <ul className={styles.list}>{s.accessories.map((a) => <li key={a}>{a}</li>)}</ul>
+                <ul className={styles.list}>{s.accessories.map((a, i) => { const t = typeof a === 'string' ? a : (a && (a.code ? a.code + (a.note ? ' — ' + a.note : '') : a.name)) || ''; return <li key={i}>{t}</li>; })}</ul>
               </>
             )}
           </div>
