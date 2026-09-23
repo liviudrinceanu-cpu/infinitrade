@@ -82,6 +82,114 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
     // 2026-09-22 (A5 repair pass) since it only states what we cannot
     // confirm/provide, which is not the same as an invented `ownFact`.
     limitation: 'Nu putem confirma sau efectua intervenții de service în perioada de garanție a producătorului fără avizul prealabil al Grundfos, și nu configurăm platformele software Grundfos GO sau Machine Cloud.',
+    productCodes: [
+      {
+        "code": "ALPHA",
+        "description": "Circulator casnic cu turație variabilă pentru încălzire și climatizare"
+      },
+      {
+        "code": "ALPHA2",
+        "description": "Unealta mobilă pentru echilibrarea hidraulică a radiatoarelor"
+      },
+      {
+        "code": "AP",
+        "description": "Pompă submersibilă pentru ape uzate și apă subterană"
+      },
+      {
+        "code": "CM/CME",
+        "description": "Pompă orizontală end-suction compactă și silențioasă"
+      },
+      {
+        "code": "CMB/CMBE",
+        "description": "Set compact de presurizare pentru alimentare cu apa"
+      },
+      {
+        "code": "CONLIFT1",
+        "description": "Pompa pentru evacuarea condensului din centrale termice"
+      },
+      {
+        "code": "DP",
+        "description": "Pompă submersibilă de drenaj, putere până la 2,6 kW"
+      },
+      {
+        "code": "DWK",
+        "description": "Pompă de epuizment pentru șantiere și utilizare industrială"
+      },
+      {
+        "code": "MAGNA",
+        "description": "Circulator pentru sisteme de încălzire și răcire din clădiri"
+      },
+      {
+        "code": "MULTILIFT",
+        "description": "Statie compacta de pompare pentru ape uzate menajere"
+      },
+      {
+        "code": "SB/SBA",
+        "description": "Pompa submersibila multietajata pentru hidrofor casnic"
+      },
+      {
+        "code": "SCALA",
+        "description": "Sistem compact all-in-one de presurizare a apei"
+      },
+      {
+        "code": "SE/SL",
+        "description": "Pompa submersibila pentru canalizare, mai multe game de putere"
+      },
+      {
+        "code": "SOLOLIFT2",
+        "description": "Stație de ridicare automată, compactă și ușor de instalat"
+      },
+      {
+        "code": "SP",
+        "description": "Pompa submersibila din inox pentru put forat"
+      },
+      {
+        "code": "SQ",
+        "description": "Pompa submersibila compacta pentru apa subterana din locuinte"
+      },
+      {
+        "code": "SQE",
+        "description": "Varianta SQ cu presiune constanta reglabila electronic"
+      },
+      {
+        "code": "TP/TPE",
+        "description": "Pompă în linie monobloc pentru circuite industriale"
+      },
+      {
+        "code": "UNILIFT AP",
+        "description": "Pompa submersibila pentru ape uzate, gama Unilift"
+      },
+      {
+        "code": "UNILIFT KP",
+        "description": "Pompa submersibila compacta din inox pentru apa curata"
+      },
+      {
+        "code": "UP/UPS Series 100",
+        "description": "Circulator clasic cu una sau trei viteze fixe"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc codul unei pompe Grundfos, de exemplu SQE sau CMBE?",
+        "a": "Literele arată construcția: S înseamnă submersibilă, iar Q este seria compactă pentru apă subterană; E marchează electronică ce menține presiunea constantă. La CMBE, B arată că pompa face parte dintr-un set de boostare cu rezervor. Pentru confirmarea exactă a variantei folosim întotdeauna plăcuța de identificare de pe pompa și fișa tehnică publicată de Grundfos, nu doar codul scurt transmis verbal."
+      },
+      {
+        "q": "Livrați pompe Grundfos în România?",
+        "a": "Da, aducem la comandă modele din gamele CR, SP, MAGNA sau SCALA, pe baza codului exact cerut de client. Nu ținem această gamă pe raft și ne bazăm pe datele publice de disponibilitate ale producătorului; termenul uzual este de 2-6 săptămâni la comandă. Recomandăm transmiterea codului complet de pe eticheta pompei sau din schema instalației, pentru a evita confuzia între variante apropiate ale aceleiași serii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la o pompă Grundfos?",
+        "a": "Trimiteti codul complet de pe eticheta pompei, debitul și înălțimea de pompare necesare, temperatura lichidului și tipul aplicației: apă curată, uzată sau industrială. Dacă pompa este deja montată, o fotografie a plăcuței de identificare ajută la identificarea corectă a seriei, a puterii motorului și a variantei electrice, evitând confuzia dintre modele din aceeași familie."
+      },
+      {
+        "q": "Ce diferență este între seriile SB/SBA și SQ la Grundfos?",
+        "a": "SB/SBA sunt pompe submersibile multietajate montate lângă rezervorul hidrofor, potrivite pentru presurizarea apei într-o locuință. SQ este introdusă direct în put sau foraj și alimentează gospodăria cu apă subterană de la adâncime. Alegerea corectă depinde de sursa de apă disponibilă și de adâncimea forajului, nu doar de debitul dorit de beneficiar."
+      },
+      {
+        "q": "Ce echivalent Grundfos exista pentru un circulator vechi neetichetat?",
+        "a": "Când codul original nu se mai citește, comparăm distanța dintre flanse, diametrul racordului și curba de presiune-debit cu gamele actuale MAGNA sau ALPHA din documentația oficială. Un desen cotat sau câteva fotografii clare ale corpului pompei ajută mult identificarea. Confirmarea finală se face doar după verificarea parametrilor hidraulici reali ai instalației, nu doar după aspectul exterior al pompei."
+      }
+    ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
@@ -89,6 +197,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
     ],
     sources: [
+      {"title":"Grundfos Product Selection – Products","url":"https://product-selection.grundfos.com/products","publisher":"Grundfos","accessed":"2026-09-22"},
       {
         title: 'About us | Grundfos',
         url: 'https://www.grundfos.com/about-us',
@@ -172,12 +281,109 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
     infinitrade: `Aducem produsele KSB către România prin canalele de aprovizionare din Uniunea Europeană ale producătorului. Nu avem date proprii despre stocul fabricii din Frankenthal, deci confirmăm disponibilitatea exactă înainte de a stabili un termen. Pentru piese standard din familia Etanorm, uneori putem oferi 24–72 h din stoc dacă articolul e deja recepționat de furnizorul nostru; în rest, estimăm 2–6 săptămâni la comandă pentru pompe sau robinete fabricate special. Pentru un calcul corect trimiteți-ne debitul, presiunea, temperatura fluidului și materialul dorit pentru corpul pompei. Nu putem confirma teste sau configurări software specifice fără implicarea directă a departamentului tehnic KSB, însă vă ajutăm cu dimensionarea inițială și cu urmărirea comenzii.`,
 
     limitation: 'Nu putem confirma teste de material sau configurări software specifice pentru automatizările KSB, iar service-ul în perioada de garanție rămâne la decizia producătorului.',
+    productCodes: [
+      {
+        "code": "Etanorm",
+        "description": "Pompa monobloc cu voluta, montaj orizontal, back pull-out"
+      },
+      {
+        "code": "Etaline",
+        "description": "Pompă în linie cu arbore rigid și turație variabilă"
+      },
+      {
+        "code": "Etabloc",
+        "description": "Pompa monobloc cu invertor de frecventa integrat"
+      },
+      {
+        "code": "Etachrom",
+        "description": "Pompă cu motor cu reluctanță sincronă, fără magneti"
+      },
+      {
+        "code": "Movitec",
+        "description": "Pompă multietajată în construcție inelară pentru presiune înaltă"
+      },
+      {
+        "code": "Amarex",
+        "description": "Pompa submersibila verticala pentru instalare umeda"
+      },
+      {
+        "code": "Sewatec",
+        "description": "Pompă cu volută pentru aplicații de canalizare"
+      },
+      {
+        "code": "Omega",
+        "description": "Pompa cu voluta axial divizata, rotor cu dubla intrare"
+      },
+      {
+        "code": "Multitec",
+        "description": "Pompă multietajată în construcție inelară, montaj orizontal sau vertical"
+      },
+      {
+        "code": "Ameline",
+        "description": "Pompă cu elice orizontală și motor submersibil"
+      },
+      {
+        "code": "CPK/CPKN",
+        "description": "Pompa cu voluta radial divizata, constructie back pull-out"
+      },
+      {
+        "code": "MegaCPK",
+        "description": "Versiune extinsă a CPK, capacitate și materiale suplimentare"
+      },
+      {
+        "code": "BOA",
+        "description": "Ventil cu sertar drept pentru instalații HVAC"
+      },
+      {
+        "code": "BOAX",
+        "description": "Vana fluture cu disc centrat, etansare elastomer sau plastic"
+      },
+      {
+        "code": "DANAIS",
+        "description": "Vană fluture cu dublu decentraj pentru aplicații industriale"
+      },
+      {
+        "code": "ISORIA",
+        "description": "Vana fluture cu disc centrat, mai multe configuratii de corp"
+      },
+      {
+        "code": "NORI",
+        "description": "Vane cu sertar drept, clapete și sorburi industriale"
+      },
+      {
+        "code": "ECOLINE",
+        "description": "Vane cu bilă și vane cu sertar după standard ANSI/ASME"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce inseamna literele din codul unei pompe KSB, de exemplu Etanorm G?",
+        "a": "Numele de bază arată familia constructivă, iar sufixele indică varianta: materialul carcasei, tipul de etanșare sau montajul back pull-out. La Etanorm G, sufixul marchează o execuție specială față de modelul standard din catalog. Pentru identificarea completă verificăm întotdeauna denumirea tipărită pe plăcuța pompei împreună cu fișa tehnică publicată de KSB, nu doar litera finală."
+      },
+      {
+        "q": "Livrează KSB în România prin comandă?",
+        "a": "Aducem la comandă pompe și vane din gamele Etanorm, Sewatec, Amarex sau Multitec, pe bază codului confirmat de client. Nu avem această gamă pe raft, ne raportăm la informațiile publice ale producătorului, iar termenul obișnuit este de 2-6 săptămâni la comandă. Este utilă transmiterea codului exact de pe pompă existentă pentru a gasi variantă compatibilă."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de pompă KSB?",
+        "a": "Aveți nevoie să menționați denumirea completă a modelului, debitul și înălțimea de pompare cerute, temperatura și tipul lichidului vehiculat, plus materialul de construcție dorit. O fotografie a plăcuței de identificare de pe pompa existentă face identificarea mult mai rapidă, mai ales când echipamentul este mai vechi și codul original nu mai este complet lizibil."
+      },
+      {
+        "q": "Ce diferență există între KSB Etanorm și Etaline?",
+        "a": "Etanorm este o pompă monobloc clasică, montată pe un postament separat, potrivită pentru majoritatea aplicațiilor industriale generale. Etaline are o construcție în linie, cu racorduri de aspirație și refulare pe aceeași axă, ceea ce reduce spațiul de montaj în centrale termice sau stații compacte. Alegerea depinde de configurația conductelor și de spațiul disponibil în instalație."
+      },
+      {
+        "q": "Cum gasesc o vana KSB echivalenta pentru o instalatie mai veche?",
+        "a": "Comparăm diametrul nominal, presiunea de lucru și tipul de etanșare cu gamele actuale BOA, BOAX sau ISORIA din documentația oficială. Un desen cotat al flanselor și o descriere a mediului vehiculat ajută mult la încadrarea corectă. Confirmarea finală se face după verificarea parametrilor reali ai conductei, nu doar după aspectul general al vanei existente."
+      }
+    ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
       { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
     ],
     sources: [
+      {"title":"KSB product catalogue for efficient pumps & valves","url":"https://www.ksb.com/en-sk/product/product-catalogue","publisher":"KSB","accessed":"2026-09-22"},
       {
         title: 'Company | KSB',
         url: 'https://www.ksb.com/en-global/company',
@@ -255,12 +461,117 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
     infinitrade: `Comandăm produse Wilo prin lanțul de aprovizionare european al producătorului, fără un depozit propriu dedicat acestui brand. Nu putem confirma în timp real stocul central Wilo, așa că verificăm fiecare cerere înainte de a promite o dată. Pentru pompele de circulație uzuale (seria Stratos) livrarea poate ajunge la 24–72 h din stoc atunci când piesa e deja în rețeaua noastră, iar pentru sisteme mai mari precum CronoLine sau EMUport calculăm 2–6 săptămâni la comandă. Ca să vă facem o propunere, spuneți-ne debitul și înălțimea de pompare necesare, tipul instalației și diametrul racordului. Nu putem garanta intervenții în perioada de garanție a producătorului fără avizul acestuia, dar vă sprijinim cu alegerea modelului potrivit.`,
 
     limitation: 'Nu putem confirma intervenții de service în perioada de garanție a producătorului și nu configurăm de la distanță aplicația Wilo-Assistant sau conectivitatea Modbus/BACnet a pompelor.',
+    productCodes: [
+      {
+        "code": "Stratos MAXO",
+        "description": "Circulator rotor umed cu reglare automata a diferentei de presiune"
+      },
+      {
+        "code": "Stratos MAXO-D",
+        "description": "Varianta dubla a Stratos MAXO pentru redundanta"
+      },
+      {
+        "code": "Stratos MAXO-Z",
+        "description": "Varianta pentru recirculare apa calda menajera"
+      },
+      {
+        "code": "Stratos GIGA",
+        "description": "Circulator de mare putere pentru clădiri și industrie"
+      },
+      {
+        "code": "Stratos GIGA2.0-I",
+        "description": "Circulator în linie, generația a doua, putere mare"
+      },
+      {
+        "code": "TOP-S",
+        "description": "Circulator clasic cu mai multe trepte de turatie"
+      },
+      {
+        "code": "VeroLine-IPL",
+        "description": "Pompă în linie cu racord filetat sau flanșat"
+      },
+      {
+        "code": "CronoLine-IL",
+        "description": "Pompă în linie pentru circuite industriale"
+      },
+      {
+        "code": "CronoNorm-NL",
+        "description": "Pompa end-suction normalizata pentru industrie"
+      },
+      {
+        "code": "Helix EXCEL",
+        "description": "Pompa verticala multietajata de mare eficienta"
+      },
+      {
+        "code": "Helix V",
+        "description": "Pompa verticala multietajata pentru presurizare"
+      },
+      {
+        "code": "MVI",
+        "description": "Pompă verticală multietajată în construcție inox"
+      },
+      {
+        "code": "SiBooster EXCEL",
+        "description": "Sistem de presurizare cu una sau mai multe pompe"
+      },
+      {
+        "code": "Actun ZETOS",
+        "description": "Pompa pentru foraj de mare adancime"
+      },
+      {
+        "code": "Sub TWI 4",
+        "description": "Pompa submersibila de foraj, diametru 4 toli"
+      },
+      {
+        "code": "Sub TWU 4",
+        "description": "Pompa submersibila de foraj, gama TWU"
+      },
+      {
+        "code": "Rexa PRO",
+        "description": "Pompa submersibila pentru ape uzate cu impeler liber"
+      },
+      {
+        "code": "Rexa SUPRA",
+        "description": "Pompa submersibila compacta pentru ape reziduale"
+      },
+      {
+        "code": "Rexa NORM",
+        "description": "Pompa submersibila normalizata pentru statii de pompare"
+      },
+      {
+        "code": "EMU TR",
+        "description": "Pompă submersibilă de mixare și recirculare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc denumirea unei pompe Wilo, de exemplu Stratos MAXO-D?",
+        "a": "Numele familiei arată functia de bază, iar sufixul descrie variantă constructivă: D înseamnă montaj dublu pentru redundantă, iar Z marchează folosirea la recirculare de apă caldă menajera. Pentru puterea și dimensiunile exacte verificăm întotdeauna fișa tehnică Wilo corespunzătoare gamei respective, deoarece același nume de bază poate acoperi mai multe trepte de putere și diametre de racord."
+      },
+      {
+        "q": "Aduceți pompe Wilo la comandă în România?",
+        "a": "Da, aducem la comandă modele din gamele Stratos, Helix, CronoLine sau Rexa, după codul exact transmis de client. Nu avem această gamă pe raft și urmarim informațiile publicate de Wilo despre disponibilitate; termenul obișnuit este de 2-6 săptămâni. Este de ajutor să trimiteti fotografia plăcuței pompei existente pentru identificarea corectă a variantei și a puterii motorului."
+      },
+      {
+        "q": "Ce date sunt necesare pentru o oferta la o pompa Wilo?",
+        "a": "Este nevoie de denumirea completă a modelului, debitul și înălțimea de pompare, temperatura mediului vehiculat și tensiunea de alimentare disponibilă. Pentru circulatoare, adăugați diametrul racordului și distanța dintre flanse. Când pompa este deja montată, o fotografie clară a etichetei de pe carcasă reduce mult riscul de a alege o variantă greșită din aceeași familie Wilo."
+      },
+      {
+        "q": "Care e diferența dintre Wilo Stratos MAXO și TOP-S?",
+        "a": "Stratos MAXO este un circulator electronic cu reglare automată a diferenței de presiune și consum redus de energie, potrivit pentru clădiri moderne. TOP-S este o gamă clasică, cu trepte fixe de turație, mai simplă și des întâlnită în instalații mai vechi. Alegerea depinde de cerințele de eficiență energetică și de tipul controlerului deja existent în instalație."
+      },
+      {
+        "q": "Cum gasesc un inlocuitor Wilo pentru o pompa submersibila veche?",
+        "a": "Comparăm diametrul corpului pompei, adâncimea de montaj și curba debit-presiune cu gamele actuale Sub TWI, Rexa sau Actun din documentația producătorului. O fotografie a plăcuței și o descriere a forajului sau bazinului ajută mult identificarea. Confirmarea finală ține cont de parametrii reali ai instalației, nu doar de dimensiunea aproximativă a pompei scoase din put."
+      }
+    ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
       { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
     ],
     sources: [
+      {"title":"Products | Wilo USA","url":"https://wilo.com/us/en_us/Products/","publisher":"Wilo","accessed":"2026-09-22"},
       {
         title: 'Wilo Group',
         url: 'https://wilo-group.com/en/index.html',
@@ -339,12 +650,73 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
     infinitrade: `Livrăm echipamente Siemens către clienții din România prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul Siemens, care este foarte extins, astfel încât fiecare comandă pornește de la o verificare reală a disponibilității. Motoarele și convertizoarele din seriile de bază pot ajunge în 24–72 h din stoc atunci când referința e deja la furnizor, în timp ce pentru configurații personalizate de automatizare calculăm 2–6 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de codul produsului, puterea motorului sau modelul convertizorului, tensiunea de alimentare și aplicația vizată. Nu putem asigura programarea completă a unui sistem SCADA fără o discuție tehnică prealabilă, dar vă ajutăm cu selecția componentelor și cu plasarea comenzii.`,
 
     limitation: 'Nu putem asigura programarea completă a unui sistem SCADA sau service-ul în perioada de garanție a producătorului fără o discuție tehnică prealabilă cu Siemens.',
+    productCodes: [
+      {
+        "code": "SIMATIC S7-1200 G2",
+        "description": "PLC compact de generatie noua pentru automatizari mici"
+      },
+      {
+        "code": "SIMATIC S7-1500",
+        "description": "Controler principal pentru performanță ridicată în automatizare"
+      },
+      {
+        "code": "SIMATIC S7-1500S",
+        "description": "Controler software pentru PC-uri industriale"
+      },
+      {
+        "code": "SIMATIC S7-1500V",
+        "description": "PLC virtual integrat în platforma Industrial Edge"
+      },
+      {
+        "code": "SIMATIC S7-1500 R/H CPU",
+        "description": "CPU redundanta pentru disponibilitate ridicata a instalatiei"
+      },
+      {
+        "code": "SIMATIC S7-300",
+        "description": "Controler modular, compact, folosit pe scara larga"
+      },
+      {
+        "code": "SIMATIC S7-400",
+        "description": "Controler de proces pentru sarcini cu volum mare de date"
+      },
+      {
+        "code": "SIMATIC ET 200",
+        "description": "Periferie descentralizata pentru configuratii centralizate sau distribuite"
+      },
+      {
+        "code": "TIA Portal",
+        "description": "Set de instrumente pentru configurare și programare automatizări"
+      },
+      {
+        "code": "SIMATIC Field PG",
+        "description": "Laptop mobil pentru lucru în câmp, cu software preinstalat"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc denumirea unui automat programabil Siemens, de exemplu S7-1500 R/H?",
+        "a": "Familia S7 arată linia de controlere, iar cifrele indică nivelul de performanță: 1200 pentru aplicații mici, 1500 pentru performanță ridicată. Sufixul R/H marchează o variantă redundantă, gândită pentru disponibilitate mare a procesului. Pentru identificarea exactă a modelului și a firmware-ului compatibil verificăm întotdeauna documentația oficială Siemens, nu doar codul scurt de pe eticheta."
+      },
+      {
+        "q": "Livrați echipamente Siemens în România la comandă?",
+        "a": "Da, aducem la comandă module din gamele SIMATIC S7-1200, S7-1500 sau ET 200, pe bază referintei exacte cerute de client. Nu ținem această gamă pe raft, iar informațiile de disponibilitate provin din surse publice ale producătorului; termenul obișnuit este de 2-6 săptămâni la comandă. Este util să trimiteti codul complet de comandă de pe eticheta modulului existent."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la un PLC Siemens?",
+        "a": "Aveți nevoie să precizați seria dorită, S7-1200 sau S7-1500, numărul și tipul modulelor de intrare-ieșire, tensiunea de alimentare și versiunea de firmware necesară pentru compatibilitate cu proiectul TIA Portal existent. Dacă înlocuiți un echipament, o fotografie a etichetei CPU reduce riscul de a comanda o variantă incompatibilă cu programul deja scris."
+      },
+      {
+        "q": "Ce diferență este între Siemens S7-1200 și S7-1500?",
+        "a": "S7-1200 este gândit pentru automatizări mici și medii, cu un număr limitat de module și o viteză de procesare moderată. S7-1500 oferă performanță mai mare, diagnosticare extinsă și suport pentru aplicații complexe cu multe axe sau bucle de reglare. Alegerea depinde de dimensiunea procesului controlat și de cerințele de siguranță ale instalației."
+      }
+    ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
       { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
     ],
     sources: [
+      {"title":"SIMATIC industrial automation systems","url":"https://www.siemens.com/en-us/products/simatic/","publisher":"Siemens","accessed":"2026-09-22"},
       {
         title: 'Company history | Siemens',
         url: 'https://www.siemens.com/global/en/company/about/history.html',
@@ -431,12 +803,74 @@ Un lucru pe care ABB îl face excepțional e platforma ABB Ability — cloud IoT
     infinitrade: `Aducem echipamente ABB pentru automatizări și acționări prin furnizori din Uniunea Europeană, fără stoc propriu permanent pentru această gamă. Nu avem surse proprii despre stocul central ABB, așa că orice termen se confirmă înainte de a fi transmis clientului. Pentru motoare și drive-uri din seriile curente putem oferi uneori 24–72 h din stoc dacă piesa e deja recepționată, iar pentru echipamente cu configurație specială estimăm 2–6 săptămâni la comandă. Pentru a pregăti o ofertă, trimiteți-ne puterea și turația motorului, tipul aplicației și protocolul de comunicație dorit. Nu putem confirma programarea platformei ABB Ability sau service-ul în garanție fără implicarea producătorului, dar vă asistăm cu dimensionarea și urmărirea livrării.`,
 
     limitation: 'Nu putem confirma configurarea platformei ABB Ability sau intervențiile de service în perioada de garanție a producătorului fără implicarea directă a ABB.',
+    productCodes: [
+      {
+        "code": "ACS880 multidrives",
+        "description": "Convertizor de frecvență industrial, putere până la 6000 kW"
+      },
+      {
+        "code": "ACS880 single drives",
+        "description": "Convertizor de frecventa industrial pentru motoare individuale"
+      },
+      {
+        "code": "ACS580",
+        "description": "Convertizor de frecventa de uz general pentru industrie"
+      },
+      {
+        "code": "ACS580-01",
+        "description": "Convertizor ACS580 în carcasă de perete"
+      },
+      {
+        "code": "ACS580-04",
+        "description": "Convertizor ACS580 în varianta de montaj specific"
+      },
+      {
+        "code": "ACS580-07",
+        "description": "Convertizor ACS580 în dulap, pentru puteri mai mari"
+      },
+      {
+        "code": "IE5 SynRM",
+        "description": "Motor cu reluctanta sincrona de eficienta ultra ridicata"
+      },
+      {
+        "code": "IE6 SynRM",
+        "description": "Motor cu reluctanta sincrona de eficienta maxima, generatie noua"
+      },
+      {
+        "code": "LV Titanium VSM",
+        "description": "Platforma de motor cu turatie variabila, eficienta IE5"
+      },
+      {
+        "code": "General Performance motors",
+        "description": "Gamă de motoare de uz general pentru aplicații industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc codul unui convertizor ABB, de exemplu ACS580-01?",
+        "a": "Numărul de familie arată gama, 580 fiind seria de uz general, iar sufixul descrie construcția: 01 pentru montaj pe perete, 07 pentru varianta în dulap la puteri mai mari. Pentru puterea exactă în kW și tensiunea de alimentare consultăm întotdeauna fișa tehnică ABB corespunzătoare codului complet, deoarece aceeași familie acoperă mai multe trepte de putere."
+      },
+      {
+        "q": "Aduceți produse ABB în România la comandă?",
+        "a": "Da, aducem la comandă convertizoare din gamă ACS580 sau ACS880 și motoare din gamele IE5 SynRM, pe bază codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului, iar termenul obișnuit este de 2-6 săptămâni la comandă. Recomandăm transmiterea codului complet de pe eticheta echipamentului existent."
+      },
+      {
+        "q": "Ce date trimit pentru o oferta la un motor ABB?",
+        "a": "Este nevoie de puterea în kW, turația nominală, clasa de eficiență dorită, tipul de montaj și tensiunea de alimentare disponibilă în instalație. Dacă înlocuiți un motor existent, o fotografie a plăcuței de identificare ajută la încadrarea corectă în gama IE3, IE4 sau IE5 SynRM, evitând o comandă cu dimensiuni de talpă incompatibile."
+      },
+      {
+        "q": "Ce diferență este între ABB ACS580 și ACS880?",
+        "a": "ACS580 este o gamă de uz general, gândită pentru aplicații industriale obișnuite cu configurare simplificata. ACS880 oferă funcții avansate de control și module suplimentare, fiind potrivit pentru aplicații complexe cu cerințe ridicate de precizie sau redundantă. Alegerea depinde de complexitatea procesului și de nevoia de funcții extinse de automatizare."
+      }
+    ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
       { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
     ],
     sources: [
+      {"title":"ACS880 multidrives | ABB","url":"https://www.abb.com/global/en/areas/motion/drives/low-voltage-ac-drives/industrial-drives/acs880-multidrives","publisher":"ABB","accessed":"2026-09-22"},
+      {"title":"IEC low voltage motors | ABB","url":"https://www.abb.com/global/en/areas/motion/motors-generators/low-voltage-motors/iec-low-voltage-motors","publisher":"ABB","accessed":"2026-09-22"},
       {
         title: 'About ABB',
         url: 'https://www.abb.com/global/en/company/about',

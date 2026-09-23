@@ -60,8 +60,77 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
     infinitrade: `Lucrăm cu informațiile tehnice publicate de Mitsubishi Electric și spunem deschis ce putem și ce nu putem confirma fără o discuție tehnică prealabilă, mai ales pentru configurarea software a automatelor. Nu avem un stoc afișat public pentru fiecare PLC, servo-drive sau variator, dar aducem echipamentele solicitate prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru codurile curente sau în 2-6 săptămâni la comandă pentru configurațiile speciale. Pentru o ofertă corectă, trimite-ne referința exactă a produsului, cantitatea și aplicația vizată – automatizare, motion control sau interfață HMI. Revenim cu un termen realist după ce verificăm disponibilitatea la furnizor.`,
     limitation: 'Nu putem confirma configurarea sau parametrizarea software (GX Works, GT Designer) pentru instalația ta fără o discuție tehnică prealabilă, și nici service-ul în garanția producătorului.',
     sources: [
+      {"title":"Products - Mitsubishi Electric Factory Automation","url":"https://www.mitsubishielectric.com/fa/products/index.html","publisher":"Mitsubishi Electric","accessed":"2026-09-22"},
       { title: 'MITSUBISHI ELECTRIC Global website', url: 'https://www.mitsubishielectric.com/en/index.html', publisher: 'Mitsubishi Electric Corporation', accessed: '2026-09-22' },
       { title: 'Mitsubishi Electric', url: 'https://en.wikipedia.org/wiki/Mitsubishi_Electric', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "MELSEC iQ-R",
+        "description": "gama de automate programabile de inalta performanta"
+      },
+      {
+        "code": "MELSEC iQ-F",
+        "description": "gama de automate programabile compacte"
+      },
+      {
+        "code": "MELSEC-Q",
+        "description": "gama de automate programabile modulare"
+      },
+      {
+        "code": "MELSEC-L",
+        "description": "gama de automate programabile de nivel mediu"
+      },
+      {
+        "code": "MELSEC-F",
+        "description": "gama de automate programabile de baza"
+      },
+      {
+        "code": "MELSEC-QS/WS",
+        "description": "automate programabile pentru aplicații de siguranță"
+      },
+      {
+        "code": "MELSERVO MR-J5",
+        "description": "sistem de servomotoare și servoamplificatoare de generație nouă"
+      },
+      {
+        "code": "FR-A800",
+        "description": "convertizor de frecventa de inalta performanta pentru industrie"
+      },
+      {
+        "code": "FR-A800-E",
+        "description": "varianta europeana a convertizorului de frecventa FR-A800"
+      },
+      {
+        "code": "FR-E800",
+        "description": "convertizor de frecvență compact pentru aplicații generale"
+      },
+      {
+        "code": "GOT2000",
+        "description": "gama de panouri operator (HMI) grafice"
+      },
+      {
+        "code": "CC-Link IE TSN",
+        "description": "rețea industrială pentru comunicație între automate, drive-uri și HMI"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între automatele Mitsubishi Electric MELSEC iQ-R și MELSEC iQ-F?",
+        "a": "MELSEC iQ-R este gama de nivel înalt, cu procesare rapidă și module extinse, potrivită pentru aplicații complexe cu multe intrări și ieșiri. MELSEC iQ-F este o gamă compactă, gândită pentru mașini mai mici sau aplicații unde spațiul din tablou este limitat. Alegerea depinde de numărul de puncte de intrare-ieșire și de complexitatea programului de automatizare."
+      },
+      {
+        "q": "Livrați automate și convertizoare Mitsubishi Electric în România?",
+        "a": "Da, aducem la comandă automate programabile, servomotoare și convertizoare de frecvență din gamele MELSEC, MELSERVO și FR-A800, pe baza codului confirmat de client. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul uzual este de 2-6 săptămâni. Codul complet de pe eticheta echipamentului grăbește identificarea."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de convertizor de frecvență Mitsubishi Electric?",
+        "a": "Precizati puterea motorului comandat, tensiunea de alimentare, tipul de sarcină (constantă sau variabilă) și dacă este nevoie de comunicație prin rețea industrială precum CC-Link IE TSN. Pentru înlocuirea unui convertizor existent, codul complet de pe placuta acestuia ajută la identificarea rapidă a variantei echivalente din gama FR-A800 sau FR-E800."
+      },
+      {
+        "q": "Ce este un panou operator GOT2000 de la Mitsubishi Electric și la ce se conectează?",
+        "a": "GOT2000 este o gamă de panouri operator grafice care afișează starea unei mașini și permit operatorului să transmită comenzi către automatul programabil. Se conectează de obicei la automate din gama MELSEC prin rețele precum CC-Link IE TSN sau Ethernet industrial. Alegerea mărimii ecranului depinde de complexitatea interfeței și de spațiul disponibil pe tablou."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -131,8 +200,110 @@ Ce apreciem cel mai mult e consistența calității - fiecare instrument vine cu
     infinitrade: `Folosim informațiile tehnice publicate de Mitutoyo și precizăm clar ce putem și ce nu putem confirma direct, în special pentru calibrare și service. Nu ținem un stoc afișat public pentru fiecare instrument de măsură, dar aducem șublerele, micrometrele sau componentele pentru CMM solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru instrumentele uzuale sau în 2-6 săptămâni la comandă pentru echipamente complexe. Pentru o ofertă corectă, spune-ne ce instrument cauți, intervalul de măsurare necesar și precizia cerută de aplicația ta. Termenul real de livrare vine după ce verificăm disponibilitatea la furnizor.`,
     limitation: 'Nu putem confirma calibrarea sau service-ul instrumentelor Mitutoyo aflate în garanția producătorului fără verificare directă la un centru autorizat de recalibrare.',
     sources: [
+      {"title":"B-1 Small Tool Instruments — Micrometers, Micrometer Heads","url":"https://www.mitutoyo.com/webfoo/wp-content/uploads/B_section.pdf","publisher":"Mitutoyo","accessed":"2026-09-22"},
+      {"title":"D-1 Small Tool Instruments — Calipers, Height Gages, Depth Gages","url":"https://www.mitutoyo.com/webfoo/wp-content/uploads/D_section.pdf","publisher":"Mitutoyo","accessed":"2026-09-22"},
       { title: 'Mitutoyo America Corporation | Precision Metrology Solutions', url: 'https://www.mitutoyo.com/', publisher: 'Mitutoyo Corporation', accessed: '2026-09-22' },
       { title: 'Mitutoyo', url: 'https://en.wikipedia.org/wiki/Mitutoyo', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Seria 101",
+        "description": "micrometru de exterior cu finisaj satin crom și cadru conic"
+      },
+      {
+        "code": "Seria 103",
+        "description": "micrometru de exterior standard cu opritor tip clichet"
+      },
+      {
+        "code": "Seria 104",
+        "description": "micrometru de exterior cu nicovale interschimbabile pentru domeniu extins"
+      },
+      {
+        "code": "Seria 105",
+        "description": "micrometru cu inele de extensie pentru măsurare până la 2000 mm"
+      },
+      {
+        "code": "Seria 107",
+        "description": "micrometru cu comparator și declanșator pentru verificare merge/nu merge"
+      },
+      {
+        "code": "Seria 111",
+        "description": "micrometru pentru caneluri, cu suprafețe de măsurare de dimensiune mică"
+      },
+      {
+        "code": "Seria 113",
+        "description": "micrometru limită cu praguri superior și inferior reglabile"
+      },
+      {
+        "code": "Seria 227",
+        "description": "micrometru digital ABSOLUTE cu forță de măsurare reglabilă"
+      },
+      {
+        "code": "Seria 293",
+        "description": "linia digitală de micrometre, cu variante coolant-proof și QuantuMike"
+      },
+      {
+        "code": "Seria 314",
+        "description": "micrometru digital cu nicovală V pentru scule așchietoare"
+      },
+      {
+        "code": "Seria 331",
+        "description": "micrometru digital pentru caneluri și vârf, protecție IP65"
+      },
+      {
+        "code": "Seria 340",
+        "description": "micrometru digital de exterior cu nicovale interschimbabile, protecție IP65"
+      },
+      {
+        "code": "Seria 395",
+        "description": "micrometru digital pentru țevi și suprafață sferică, protecție IP65"
+      },
+      {
+        "code": "Seria 500",
+        "description": "subler digital ABSOLUTE, variante solare și rezistente la lichid de răcire"
+      },
+      {
+        "code": "Seria 505",
+        "description": "subler cu ceas mecanic, gradație de 0,01 sau 0,02 mm"
+      },
+      {
+        "code": "Seria 530",
+        "description": "subler vernier standard, opțional cu fălci din carbură"
+      },
+      {
+        "code": "Seria 550",
+        "description": "subler digimatic ABSOLUTE cu fălci tip nib"
+      },
+      {
+        "code": "Seria 573",
+        "description": "subler digimatic ABSOLUTE în configurații speciale: offset, adâncime, țeavă"
+      },
+      {
+        "code": "Seria 700",
+        "description": "subler digital MyCAL-Lite pentru aplicații de uz general"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg seria corectă de micrometru Mitutoyo pentru piesa mea?",
+        "a": "Alegerea depinde de forma piesei și de domeniul de măsurare: seria 293 acoperă micrometrele digitale de uz general, seria 314 este gândită pentru scule așchietoare cu nicovală V, iar seria 395 pentru țevi și suprafețe sferice. Pentru piese cu caneluri sau puncte fine se potrivesc seriile 111 și 112. Trimiteți-ne desenul sau tipul suprafeței de măsurat și vă recomandăm seria potrivită din catalogul producătorului."
+      },
+      {
+        "q": "Ce diferență este între seria 227 și seria 293 la micrometrele digitale Mitutoyo?",
+        "a": "Seria 227 este o linie ABSOLUTE cu forță de măsurare reglabilă, utilă pentru materiale moi sau piese care se pot deforma la o apăsare constantă. Seria 293 este linia digitală generalistă a producătorului, cu variante coolant-proof și modelul QuantuMike pentru mediu industrial umed sau cu așchii. Ambele păstrează originea la oprire, fără resetare la repornire."
+      },
+      {
+        "q": "Livrați produse Mitutoyo în România?",
+        "a": "Da, aducem produsele Mitutoyo la comandă, identificate după seria sau codul indicat în catalogul oficial al producătorului. Fără date proprii de stoc pe site, livrarea durează de regulă 2–6 săptămâni la comandă — depinde de configurația exactă (fălci, protecție IP65, ieșire de date) și de disponibilitatea acelei variante la fabrică."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă de instrument Mitutoyo?",
+        "a": "Cel mai util este seria sau codul exact, dacă îl cunoașteți, plus domeniul de măsurare, gradația dorită și tipul de fălci sau nicovală necesar. Dacă nu știți seria, descrieți piesa și condițiile de lucru (umiditate, așchii, spațiu de acces) și identificăm varianta corespunzătoare din indexul oficial al producătorului înainte de a pregăti oferta."
+      },
+      {
+        "q": "Ce înseamnă IP65 la un instrument Mitutoyo?",
+        "a": "IP65 arată că instrumentul este protejat împotriva prafului și a jeturilor de apă din orice direcție, util pe mașini-unelte unde ajung lichid de răcire și șpan. La Mitutoyo, seriile 331, 340 și 395 au această protecție, spre deosebire de micrometrele mecanice clasice din seriile 101–116, care nu sunt etanșe."
+      }
     ],
     evidenceClass: 'history-only',
     lastVerified: '2026-09-22',
@@ -202,8 +373,95 @@ Ce ne impresionează e investiția lor în R&D - laborator tribologie unde teste
     infinitrade: `Lucrăm cu fișele tehnice publice ale producătorului Mobil (ExxonMobil) și spunem clar ce putem și ce nu putem confirma pentru fiecare aplicație, mai ales compatibilitatea cu echipamentul tău. Nu deținem un stoc afișat public pentru fiecare ambalaj, dar aducem lubrifianții Mobil solicitați prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru gramajele uzuale sau în 2-6 săptămâni la comandă pentru butoaie ori formule speciale. Pentru o ofertă corectă, trimite-ne tipul de echipament, temperatura de lucru și vâscozitatea recomandată de producătorul utilajului. Verificăm disponibilitatea reală la furnizor înainte să confirmăm termenul de livrare.`,
     limitation: 'Nu putem confirma stocul permanent pentru fiecare gramaj sau ambalaj Mobil și nici compatibilitatea exactă cu un echipament anume fără specificațiile lui tehnice.',
     sources: [
+      {"title":"Mobil SHC Rarus Series","url":"https://www.mobil.com/en/lubricants/for-businesses/industrial/lubricants/product-series/mobil-shc-rarus-series","publisher":"ExxonMobil","accessed":"2026-09-22"},
+      {"title":"Mobil SHC Gear Series","url":"https://www.mobil.com/en/lubricants/for-businesses/industrial/lubricants/product-series/mobil-shc-gear-series","publisher":"ExxonMobil","accessed":"2026-09-22"},
+      {"title":"Mobilith SHC Series","url":"https://www.mobil.com/en/lubricants/for-businesses/industrial/lubricants/product-series/mobilith-shc-series","publisher":"ExxonMobil","accessed":"2026-09-22"},
       { title: 'ExxonMobil – Corporate website', url: 'https://corporate.exxonmobil.com/', publisher: 'ExxonMobil Corporation', accessed: '2026-09-22' },
       { title: 'ExxonMobil', url: 'https://en.wikipedia.org/wiki/ExxonMobil', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Mobil SHC Rarus 32",
+        "description": "ulei sintetic pentru compresoare cu șurub și cu palete, ISO 32"
+      },
+      {
+        "code": "Mobil SHC Rarus 46",
+        "description": "ulei sintetic pentru compresoare cu șurub și cu palete, ISO 46"
+      },
+      {
+        "code": "Mobil SHC Rarus 68",
+        "description": "ulei sintetic pentru compresoare cu șurub și cu palete, ISO 68"
+      },
+      {
+        "code": "Mobil SHC Gear 150",
+        "description": "ulei sintetic pentru angrenaje închise, ISO 150"
+      },
+      {
+        "code": "Mobil SHC Gear 220",
+        "description": "ulei sintetic pentru angrenaje închise, aprobat pentru cutii de roți motorizate"
+      },
+      {
+        "code": "Mobil SHC Gear 320",
+        "description": "ulei sintetic pentru angrenaje industriale general folosit, ISO 320"
+      },
+      {
+        "code": "Mobil SHC Gear 460",
+        "description": "ulei sintetic pentru angrenaje la temperaturi ridicate, ISO 460"
+      },
+      {
+        "code": "Mobil SHC Gear 680",
+        "description": "ulei sintetic pentru angrenaje în regim de exploatare severă, ISO 680"
+      },
+      {
+        "code": "Mobil SHC Gear 1000",
+        "description": "ulei sintetic pentru angrenaje industriale de mare vâscozitate, ISO 1000"
+      },
+      {
+        "code": "Mobilith SHC 007",
+        "description": "unsoare NLGI 00 pentru carcase de angrenaje la temperaturi ridicate"
+      },
+      {
+        "code": "Mobilith SHC 100",
+        "description": "unsoare NLGI 2 pentru motoare electrice și viteze ridicate"
+      },
+      {
+        "code": "Mobilith SHC 220",
+        "description": "unsoare NLGI 2 pentru aplicații auto și industriale grele"
+      },
+      {
+        "code": "Mobilith SHC 221",
+        "description": "unsoare NLGI 1 pentru sisteme centralizate de gresare"
+      },
+      {
+        "code": "Mobilith SHC 460",
+        "description": "unsoare NLGI 1.5 pentru aplicații industriale și marine grele"
+      },
+      {
+        "code": "Mobilith SHC 1500",
+        "description": "unsoare NLGI 1.5 pentru rulmenți lenți, sarcini mari și temperatură ridicată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce vâscozitate Mobil SHC Rarus aleg pentru un compresor cu șurub?",
+        "a": "Alegerea depinde de presiunea de refulare și de temperatura de lucru: Mobil SHC Rarus 32 acoperă vâscozitatea ISO 32, Rarus 46 vâscozitatea ISO 46, iar Rarus 68 vâscozitatea ISO 68, toate gândite pentru compresoare cu șurub și cu palete. Verificați manualul compresorului pentru vâscozitatea recomandată de producătorul echipamentului și compatibilitatea cu garniturile existente înainte de schimbarea uleiului."
+      },
+      {
+        "q": "Care e diferența dintre Mobil SHC Gear 220 și Mobilith SHC 220?",
+        "a": "Mobil SHC Gear 220 este un ulei sintetic pentru angrenaje închise, cu protecție la micro-pitting la sarcini și temperaturi ridicate în industrii precum hârtia, oțelul sau cimentul. Mobilith SHC 220 este o unsoare NLGI 2 cu aceeași bază sintetică, destinată rulmenților și aplicațiilor auto-industriale grele, nu angrenajelor deschise care cer ulei lichid. Alegerea corectă ține de tipul componentei, nu doar de cifra din denumire."
+      },
+      {
+        "q": "Livrați lubrifianți Mobil Industrial în România?",
+        "a": "Da, gamele Mobil Industrial ajung la comandă, pornind de la codul de vâscozitate sau gradul NLGI cerut, preluat din fișele publicate de producător. Site-ul nu arată un stoc propriu; orientativ, așteptați 2–6 săptămâni la comandă, în funcție de tipul ambalajului (bidon, butoi, vrac) și de cantitatea solicitată pentru gradul respectiv."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de ulei sau unsoare Mobil?",
+        "a": "Cel mai important este codul exact al produsului (de exemplu Mobil SHC Gear 320 sau Mobilith SHC 460), cantitatea și tipul ambalajului dorit. Dacă nu cunoașteți codul, spuneți-ne tipul echipamentului (compresor, angrenaj, rulment) și condițiile de temperatură și sarcină, iar noi identificăm gradul corespunzător din seriile publicate de producător înainte de a pregăti oferta."
+      },
+      {
+        "q": "Ce înseamnă gradul NLGI la unsorile Mobilith SHC?",
+        "a": "NLGI arată consistența unsorii, de la 00 (aproape fluidă, ca la Mobilith SHC 007) până la 2 (semi-solidă, ca la Mobilith SHC 100 sau 220). Un NLGI mai mic curge mai ușor spre lagăre greu accesibile prin sisteme centralizate, iar unul mai mare rămâne pe loc la sarcini mari și viteze reduse, cum e cazul unsorii Mobilith SHC 1500."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -273,8 +531,74 @@ Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele m
     infinitrade: `Pornim de la surse publice ale producătorului Moog și spunem deschis ce putem și ce nu putem confirma din capacitate proprie, mai ales pentru configurațiile custom. Nu avem un stoc afișat public pentru servo-valve sau controllere, dar aducem componentele Moog solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 2-6 săptămâni la comandă, iar pentru accesorii uzuale uneori și în 24-72 h din stoc. Pentru o ofertă corectă, trimite-ne specificațiile tehnice complete ale valvei sau sistemului hidraulic – presiune, debit, tip de semnal de comandă. Revenim cu un termen realist doar după ce confirmăm disponibilitatea direct la furnizor.`,
     limitation: 'Nu putem confirma termenele de livrare pentru configurațiile custom Moog și nici service-ul în garanția producătorului, care se face prin canalele oficiale ale fabricantului.',
     sources: [
+      {"title":"Direct Drive Analog Control Servo Valves D633 Size 03 and D634 Catalog","url":"https://www.moog.com/content/dam/moog/literature/products/servovalves/industrial/flow-control/analog/Moog-ServoValves-%20D633-D634-Catalog-en.pdf","publisher":"Moog Inc.","accessed":"2026-09-22"},
+      {"title":"Radial Piston Pump RKP — Modular Design Catalog","url":"https://www.moog.com/content/dam/moog/literature/products/pumps/rkp/Moog-Pumps-RKP-Catalog-en.pdf","publisher":"Moog Inc.","accessed":"2026-09-22"},
       { title: 'Moog Inc. – Shaping the way our world moves', url: 'https://www.moog.com/', publisher: 'Moog Inc.', accessed: '2026-09-22' },
       { title: 'Moog Inc.', url: 'https://en.wikipedia.org/wiki/Moog_Inc.', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "D633",
+        "description": "supapă servo cu acționare directă, ISO 4401 mărime 03, debit 40 l/min"
+      },
+      {
+        "code": "D634",
+        "description": "supapă servo cu acționare directă, ISO 4401 mărime 05, debit 100 l/min"
+      },
+      {
+        "code": "RKP19",
+        "description": "pompă cu pistoane radiale, cilindree 19 cm3/rotație"
+      },
+      {
+        "code": "RKP32",
+        "description": "pompă cu pistoane radiale, cilindree 32 cm3/rotație"
+      },
+      {
+        "code": "RKP45",
+        "description": "pompă cu pistoane radiale, cilindree 45 cm3/rotație"
+      },
+      {
+        "code": "RKP63",
+        "description": "pompă cu pistoane radiale, cilindree 63 cm3/rotație"
+      },
+      {
+        "code": "RKP80",
+        "description": "pompă cu pistoane radiale, cilindree 80 cm3/rotație"
+      },
+      {
+        "code": "RKP100",
+        "description": "pompă cu pistoane radiale, cilindree 100 cm3/rotație"
+      },
+      {
+        "code": "RKP140",
+        "description": "pompă cu pistoane radiale, cilindree 140 cm3/rotație"
+      },
+      {
+        "code": "RKP250",
+        "description": "pompă cu pistoane radiale, cilindree 250 cm3/rotație, debit maxim circa 400 l/min"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce debit are o supapă servo Moog D634 față de D633?",
+        "a": "Supapa Moog D634 are un debit nominal de până la 100 l/min la o cădere de presiune de 35 bar, cu un debit maxim de 180 l/min, construită pe mărimea ISO 4401 05 (NG10). D633 este mai mică, mărime 03 (NG6), cu debit nominal de 40 l/min și maxim 75 l/min. Alegerea depinde de debitul necesar pe actuatorul controlat."
+      },
+      {
+        "q": "Cum aleg mărimea pompei Moog RKP pentru un sistem hidraulic?",
+        "a": "Alegerea pompei Moog RKP depinde de cilindreea necesară pe rotație: gama pornește de la RKP19 (19 cm3/rotație) și urcă până la RKP250 (250 cm3/rotație, cu debit maxim în jur de 400 l/min). Calculați debitul cerut de actuatoare la turația motorului disponibil și alegeți cilindreea imediat superioară, lăsând o rezervă pentru pierderile volumetrice."
+      },
+      {
+        "q": "Livrați supape și pompe Moog în România?",
+        "a": "Da, componentele Moog (supape, pompe) se aduc la comandă, pe baza codului exact de serie găsit în documentația producătorului. Nu publicăm cifre de stoc propriu; ca reper, socotiți 2–6 săptămâni la comandă, variabil după configurația electronică sau mecanică cerută pentru fiecare supapă ori pompă în parte."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de supapă Moog?",
+        "a": "Cel mai util este codul complet al supapei sau pompei, dacă îl aveți de pe eticheta echipamentului existent, plus presiunea de lucru și debitul necesar. Dacă schimbați o piesă defectă, o fotografie a plăcuței de identificare Moog ajută la găsirea variantei exacte în cataloagele producătorului, inclusiv opțiunile de semnal electric disponibile pentru acea serie."
+      },
+      {
+        "q": "Ce înseamnă acționare directă la o supapă servo Moog?",
+        "a": "Acționare directă înseamnă că motorul cu forță electromagnetică mișcă direct sertarul supapei, fără etajul hidraulic de pilotaj folosit la supapele clasice în două etaje. La seriile Moog D633 și D634 asta reduce timpul de răspuns, cu un timp de treaptă de 12, respectiv 20 milisecunde, și simplifică întreținerea prin eliminarea filtrului suplimentar de pilotaj."
+      }
     ],
     evidenceClass: 'history-only',
     lastVerified: '2026-09-22',
@@ -344,8 +668,86 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
     infinitrade: `Folosim informațiile tehnice publicate de MP Filtri și explicăm clar ce putem și ce nu putem confirma noi, în special pentru senzorii de monitorizare online. Nu ținem un stoc afișat public pentru fiecare finețe de filtrare, dar aducem filtrele și strecurătoarele MP Filtri prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 2-6 săptămâni la comandă pentru sisteme de monitorizare. Pentru o ofertă corectă, trimite-ne debitul, presiunea de lucru și finețea de filtrare necesară aplicației tale. Confirmăm termenul după verificarea disponibilității reale la furnizor.`,
     limitation: 'Nu putem confirma stocul permanent pentru fiecare finețe de filtrare MP Filtri și nici configurarea senzorilor de particule pentru sistemul tău fără o discuție tehnică prealabilă.',
     sources: [
+      {"title":"FHP Series — Return Line Filters","url":"https://www.mpfiltri.com/FilesProdotti/FHPEN.pdf","publisher":"MP Filtri","accessed":"2026-09-22"},
+      {"title":"MP Filtri — Hydraulic Filtration","url":"https://www.mpfiltri.com/en","publisher":"MP Filtri","accessed":"2026-09-22"},
       { title: 'MP Filtri – Official website', url: 'https://www.mpfiltri.com/', publisher: 'MP Filtri S.p.A.', accessed: '2026-09-22' },
       { title: 'MP Filtri', url: 'https://en.wikipedia.org/wiki/MP_Filtri', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "FHP010",
+        "description": "filtru de linie de retur, dimensiune 010"
+      },
+      {
+        "code": "FHP011",
+        "description": "filtru de linie de retur, dimensiune 011"
+      },
+      {
+        "code": "FHP065",
+        "description": "filtru de linie de retur, dimensiune 065"
+      },
+      {
+        "code": "FHP135",
+        "description": "filtru de linie de retur, dimensiune 135"
+      },
+      {
+        "code": "FHP350",
+        "description": "filtru de linie de retur, dimensiune 350"
+      },
+      {
+        "code": "FHP351",
+        "description": "filtru de linie de retur, dimensiune 351"
+      },
+      {
+        "code": "FHP500",
+        "description": "filtru de linie de retur, dimensiune 500"
+      },
+      {
+        "code": "A03",
+        "description": "element filtrant din microfibră anorganică, 3 microni"
+      },
+      {
+        "code": "A06",
+        "description": "element filtrant din microfibră anorganică, 6 microni"
+      },
+      {
+        "code": "A10",
+        "description": "element filtrant din microfibră anorganică, 10 microni"
+      },
+      {
+        "code": "A16",
+        "description": "element filtrant din microfibră anorganică, 16 microni"
+      },
+      {
+        "code": "A25",
+        "description": "element filtrant din microfibră anorganică, 25 microni"
+      },
+      {
+        "code": "M25",
+        "description": "element filtrant din plasă metalică, 25 microni, spălabil"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce cod FHP aleg pentru un filtru de retur MP Filtri?",
+        "a": "Alegerea dimensiunii FHP depinde de debitul liniei de retur din centrala hidraulică: seria pornește de la FHP010, pentru debite mici, și urcă până la FHP500, pentru instalații mari. Verificați debitul maxim al pompei și alegeți o dimensiune FHP care să mențină o cădere de presiune redusă pe element, conform fișei tehnice publicate de producător."
+      },
+      {
+        "q": "Ce înseamnă codurile A03, A06 sau M25 la filtrele MP Filtri?",
+        "a": "Codurile A03, A06, A10, A16 și A25 arată gradul de filtrare în microni al elementului din microfibră anorganică, de la cel mai fin (3 microni) la cel mai permisiv (25 microni). M25 este o variantă cu plasă metalică de 25 microni, spălabilă și mai rezistentă mecanic, folosită unde elementul din microfibră s-ar deteriora la șocuri de presiune."
+      },
+      {
+        "q": "Livrați filtre MP Filtri în România?",
+        "a": "Da, filtrele MP Filtri se aduc la comandă, pornind de la codul de dimensiune și gradul de filtrare cerut pentru instalația dumneavoastră. Fără un stoc propriu afișat public, calculați orientativ 2–6 săptămâni la comandă, în funcție de tipul de valvă și de pragul de presiune ales pentru element."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de filtru MP Filtri?",
+        "a": "Cel mai util este codul complet al filtrului existent, dacă îl puteți citi pe corpul carcasei, sau cel puțin dimensiunea liniei de retur și gradul de filtrare dorit. Dacă schimbați doar elementul, precizați lungimea și tipul de valvă (cu sau fără bypass) pentru a identifica varianta corectă din seria FHP a producătorului."
+      },
+      {
+        "q": "Care e diferența dintre elementul A10 și M25 la seria FHP?",
+        "a": "Elementul A10 este din microfibră anorganică și reține particule de la 10 microni, oferind o filtrare mai fină dar cu o durată de viață mai scurtă între schimburi. M25 este o plasă metalică de 25 microni, mai permisivă, dar spălabilă și reutilizabilă, potrivită pentru aplicații cu contaminare grosieră sau cicluri de întreținere mai rare."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -415,8 +817,74 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
     infinitrade: `Lucrăm cu informațiile publicate de MSA Safety și spunem clar ce putem și ce nu putem confirma direct, mai ales pentru calibrarea detectoarelor de gaz. Nu avem un stoc afișat public pentru fiecare echipament, dar aducem detectoarele, căștile sau harnașamentele MSA prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru produsele curente sau în 2-6 săptămâni la comandă pentru configurații speciale. Pentru o ofertă corectă, trimite-ne modelul exact, gazele de detectat sau standardul de protecție cerut de aplicația ta. Confirmăm termenul după ce verificăm disponibilitatea reală la furnizor.`,
     limitation: 'Nu putem confirma calibrarea sau service-ul echipamentelor MSA aflate în garanția producătorului fără verificare directă la un centru autorizat.',
     sources: [
+      {"title":"ALTAIR Family Gas Detectors","url":"https://us.msasafety.com/altair-family-gas-detectors?locale=en","publisher":"MSA Safety","accessed":"2026-09-22"},
+      {"title":"ULTIMA X5000 Gas Monitor","url":"https://us.msasafety.com/fixed-gas-%26-flame-detection/gas-detectors/ultima%C3%82%C2%AE-x5000-gas-monitor/p/000070001800001133?locale=en","publisher":"MSA Safety","accessed":"2026-09-22"},
       { title: 'MSA Safety | Global', url: 'https://www.msasafety.com/en-US/', publisher: 'MSA Safety Incorporated', accessed: '2026-09-22' },
       { title: 'MSA Safety', url: 'https://en.wikipedia.org/wiki/MSA_Safety', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "ALTAIR",
+        "description": "detector de un singur gaz, fără mentenanță, senzori CO, H2S sau O2"
+      },
+      {
+        "code": "ALTAIR PRO",
+        "description": "detector durabil de un singur gaz, cu ecran LCD iluminat"
+      },
+      {
+        "code": "ALTAIR 2X",
+        "description": "detector de unul sau două gaze cu tehnologie senzor XCell"
+      },
+      {
+        "code": "ALTAIR 2XP",
+        "description": "variantă ALTAIR 2X cu test bump integrat pentru hidrogen sulfurat"
+      },
+      {
+        "code": "ALTAIR 4X",
+        "description": "detector multigaz compact pentru LEL, oxigen, CO și H2S, senzori pe 4 ani"
+      },
+      {
+        "code": "ALTAIR 4XR",
+        "description": "detector multigaz cu sesizare în timp real și conectivitate la aplicație"
+      },
+      {
+        "code": "ALTAIR 5X Wireless",
+        "description": "detector multigaz pentru până la șase gaze, cu pompă și Bluetooth"
+      },
+      {
+        "code": "GALAXY GX2",
+        "description": "sistem automat de calibrare și testare pentru detectoarele ALTAIR"
+      },
+      {
+        "code": "MSA Link Pro",
+        "description": "software de management al flotei de detectoare de gaz"
+      },
+      {
+        "code": "ULTIMA X5000",
+        "description": "monitor fix de gaz cu ecran OLED și schimbare rapidă a senzorului"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între ALTAIR 4X și ALTAIR 4XR de la MSA?",
+        "a": "ALTAIR 4X este detectorul multigaz de bază al gamei, cu senzori pentru LEL, oxigen, monoxid de carbon și hidrogen sulfurat, cu o durată de viață a senzorilor de patru ani. ALTAIR 4XR adaugă sesizare în timp real, conectivitate la o aplicație mobilă și o carcasă mai rezistentă la șocuri, fiind gândit pentru medii unde viteza de reacție la o alarmă contează cel mai mult."
+      },
+      {
+        "q": "Cât timp funcționează senzorii unui detector MSA ALTAIR?",
+        "a": "Depinde de model: seria ALTAIR clasică folosește senzori patentați cu o durată declarată de peste doi ani, în timp ce ALTAIR 4X ajunge la patru ani pentru senzorii principali. Durata reală scade în medii cu concentrații mari de gaz sau expunere frecventă, motiv pentru care producătorul recomandă verificări periodice cu un sistem de calibrare precum GALAXY GX2."
+      },
+      {
+        "q": "Livrați detectoare de gaze MSA Safety în România?",
+        "a": "Da, detectoarele MSA Safety ajung la comandă, pe baza modelului exact (ALTAIR, seria 4X sau 5X, ULTIMA X5000) identificat din fișele producătorului. Fără stoc propriu vizibil pe site, termenul de așteptare tipic e 2–6 săptămâni la comandă, în funcție de combinația de senzori și accesoriile de calibrare cerute."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de detector MSA?",
+        "a": "Cel mai util este modelul exact și combinația de senzori de care aveți nevoie (LEL, O2, CO, H2S sau altele), plus dacă doriți varianta wireless sau cu pompă integrată. Pentru echipamente fixe precizați și tipul de montaj și interfața de ieșire dorită, astfel încât să identificăm varianta corectă din gama MSA înainte de a trimite oferta."
+      },
+      {
+        "q": "Ce face un ULTIMA X5000 diferit față de un detector portabil MSA?",
+        "a": "ULTIMA X5000 este un monitor fix, montat permanent într-o zonă cu risc de gaz, cu ecran OLED, tehnologie TruCal și posibilitatea de a schimba senzorul fără scule, prin sistemul SafeSwap. Detectoarele portabile precum ALTAIR sunt purtate de o persoană și dau alarmă individuală, în timp ce un monitor fix se conectează de obicei la un sistem central de avertizare."
+      }
     ],
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
@@ -486,8 +954,109 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
     infinitrade: `Pornim de la surse publice ale producătorului Murrelektronik și spunem deschis ce putem și ce nu putem confirma din capacitate proprie, mai ales pentru configurarea software a rețelei tale. Nu deținem un stoc afișat public pentru fiecare conector sau modul I/O, dar aducem componentele Murrelektronik prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru cablurile și conectorii uzuali sau în 2-6 săptămâni la comandă pentru module configurate special. Pentru o ofertă corectă, trimite-ne codul componentei, lungimea cablului sau protocolul de comunicare folosit. Verificăm disponibilitatea reală înainte de a confirma un termen ferm.`,
     limitation: 'Nu putem confirma configurarea software a modulelor I/O Murrelektronik pentru rețeaua ta fără o discuție tehnică prealabilă, și nici stocul permanent pentru fiecare cod de cablu.',
     sources: [
+      {"title":"General Catalog — I/O Systems, Interfaces, Connection Technology","url":"https://www.murrelektronik.com/fileadmin/user_upload/Headquarter_en_DE/Downloads/General_Catalog/Murrelektronik_General-catalog_EN.pdf","publisher":"Murrelektronik","accessed":"2026-09-22"},
       { title: 'Murrelektronik – Official website', url: 'https://www.murrelektronik.com/', publisher: 'Murrelektronik GmbH', accessed: '2026-09-22' },
       { title: 'Murrelektronik', url: 'https://de.wikipedia.org/wiki/Murrelektronik', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Emparro",
+        "description": "sursă de alimentare comutată, variante monofazate și trifazate"
+      },
+      {
+        "code": "Emparro HD",
+        "description": "sursă de alimentare robustă pentru medii industriale dure"
+      },
+      {
+        "code": "Emparro67",
+        "description": "sursă de alimentare cu protecție IP67"
+      },
+      {
+        "code": "Evolution",
+        "description": "sursă de alimentare trifazată pentru instalații industriale"
+      },
+      {
+        "code": "Eco-Rail-2",
+        "description": "sursă de alimentare monofazată, montaj pe șină"
+      },
+      {
+        "code": "Picco",
+        "description": "sursă de alimentare compactă pentru spații reduse"
+      },
+      {
+        "code": "MICO",
+        "description": "modul inteligent de distribuție și protecție a alimentării"
+      },
+      {
+        "code": "Mico Pro",
+        "description": "variantă avansată MICO, cu variante fix, flex, PM și PD"
+      },
+      {
+        "code": "M8",
+        "description": "conector rotund cu filet M8, pentru semnal"
+      },
+      {
+        "code": "M12",
+        "description": "conector rotund cu filet M12, variante metal și plastic"
+      },
+      {
+        "code": "M23",
+        "description": "conector rotund cu filet M23, pentru curenți mai mari"
+      },
+      {
+        "code": "Cube20",
+        "description": "sistem modular de intrări/ieșiri pentru automatizări"
+      },
+      {
+        "code": "Cube67",
+        "description": "modul de intrări/ieșiri cu opt canale pe conector M12"
+      },
+      {
+        "code": "Impact67",
+        "description": "sistem de intrări/ieșiri în carcasă cu protecție IP67"
+      },
+      {
+        "code": "SOLID67",
+        "description": "modul de intrări/ieșiri în variantă solidă, protecție IP67"
+      },
+      {
+        "code": "MVK Metal",
+        "description": "conector modular montat în carcasă metalică"
+      },
+      {
+        "code": "Modlink Vario",
+        "description": "sistem modular de conectare pentru panouri de mașini"
+      },
+      {
+        "code": "Modlink Heavy",
+        "description": "conector modular de mare capacitate pentru curenți ridicați"
+      },
+      {
+        "code": "MASI",
+        "description": "tehnologie de instalare rapidă pentru dulapuri de comandă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între conectorii M12 și M23 de la Murr Elektronik?",
+        "a": "M12 este conectorul rotund cel mai folosit în automatizări, disponibil în variante metalice și din plastic, pentru semnal și pentru alimentare. M23 este mai mare și acoperă curenți și numere de pini superioare, folosit la motoare sau echipamente cu putere mai mare. Alegerea depinde de curentul nominal necesar și de spațiul de montaj disponibil pe echipament."
+      },
+      {
+        "q": "Ce este sistemul Cube67 de la Murr Elektronik și când îl aleg?",
+        "a": "Cube67 este un sistem modular de intrări/ieșiri cu opt canale pe conector M12, gândit pentru mașini unde modulele trebuie distribuite direct lângă senzori și actuatoare, nu centralizate într-un dulap. Se alege în locul unui sistem centralizat clasic atunci când lungimea cablajului contează sau când mașina are zone greu accesibile pentru un dulap electric unic."
+      },
+      {
+        "q": "Livrați produse Murr Elektronik în România?",
+        "a": "Da, componentele Murr Elektronik ajung la comandă, plecând de la codul de serie (M12, Cube67, Emparro etc.) din catalogul general al producătorului. Nu avem un stoc propriu afișat; ca reper, e nevoie de 2–6 săptămâni la comandă, funcție de varianta de conector sau de puterea sursei cerute."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de conectori sau surse Murr Elektronik?",
+        "a": "Cel mai util este codul complet de pe conector sau sursă, dacă îl aveți, plus numărul de pini sau puterea necesară. Dacă înlocuiți o piesă existentă, o fotografie a etichetei ajută la identificarea variantei exacte din seriile Murr Elektronik, inclusiv lungimea de cablu sau tipul de montaj (drept sau unghi) necesar pentru aplicația dumneavoastră."
+      },
+      {
+        "q": "Ce înseamnă protecția IP67 la Impact67 sau Emparro67?",
+        "a": "IP67 înseamnă protecție completă împotriva prafului și rezistență la imersie temporară în apă, ceea ce permite montarea produsului direct pe mașină, în afara dulapului electric. Seriile Emparro67 și Impact67 folosesc această protecție pentru a putea fi instalate lângă senzori, în medii cu umezeală sau particule, fără carcasă suplimentară de protecție."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -557,8 +1126,113 @@ Ce ne impresionează e atenția la detalii operaționale - mașini spălat cu sq
     infinitrade: `Folosim informațiile publicate de Nilfisk și spunem clar ce putem și ce nu putem confirma direct, în special pentru service și piese de schimb. Nu ținem un stoc afișat public pentru fiecare echipament de curățenie, dar aducem aspiratoarele, mașinile de spălat pardoseli sau echipamentele de presiune Nilfisk prin canale de aprovizionare din Uniunea Europeană, de obicei în 2-6 săptămâni la comandă, iar unele consumabile uneori și în 24-72 h din stoc. Pentru o ofertă corectă, trimite-ne suprafața de curățat, tipul pardoselii și frecvența de utilizare dorită. Îți spunem termenul concret abia după ce verificăm stocul la furnizor.`,
     limitation: 'Nu putem confirma service-ul în garanția producătorului pentru echipamentele Nilfisk și nici stocul permanent pentru fiecare model din gama profesională.',
     sources: [
+      {"title":"Nilfisk Product Range 2023","url":"https://www.nilfisk.com/media/bkedsbxi/n202_0378_v1_mini-catalogue-2023-7259_a4_en-uk_low-1.pdf","publisher":"Nilfisk","accessed":"2026-09-22"},
       { title: 'Nilfisk United States', url: 'https://www.nilfisk.com/en-us/', publisher: 'Nilfisk A/S', accessed: '2026-09-22' },
       { title: 'Nilfisk', url: 'https://en.wikipedia.org/wiki/Nilfisk', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "VP300",
+        "description": "aspirator uscat comercial pentru curățenie de zi cu zi"
+      },
+      {
+        "code": "VP600",
+        "description": "aspirator uscat comercial cu caracteristici flexibile"
+      },
+      {
+        "code": "ATTIX 30",
+        "description": "aspirator umed-uscat industrial, silențios"
+      },
+      {
+        "code": "ATTIX 50",
+        "description": "aspirator umed-uscat cu putere de aspirație superioară"
+      },
+      {
+        "code": "ATTIX 9",
+        "description": "aspirator umed-uscat industrial cu două motoare"
+      },
+      {
+        "code": "VHS120",
+        "description": "aspirator umed-uscat monofazat, cel mai compact din gamă"
+      },
+      {
+        "code": "SC250",
+        "description": "mașină de spălat-uscat pardoseala, tip walk-behind"
+      },
+      {
+        "code": "SC401",
+        "description": "mașină de spălat-uscat pardoseala cu performanță constantă"
+      },
+      {
+        "code": "SC500",
+        "description": "mașină de spălat-uscat pardoseala, cost de operare redus"
+      },
+      {
+        "code": "SC1500",
+        "description": "mașină de spălat-uscat pardoseala, tip stand-on"
+      },
+      {
+        "code": "SC3500",
+        "description": "mașină de spălat-uscat pardoseala pentru suprafețe medii"
+      },
+      {
+        "code": "SC6500",
+        "description": "mașină de spălat-uscat pardoseala pentru suprafețe extinse"
+      },
+      {
+        "code": "SC8000",
+        "description": "mașină de spălat-uscat pardoseala cu cel mai lat disc de periere"
+      },
+      {
+        "code": "SW900",
+        "description": "mașină de măturat cu performanță ridicată de curățare"
+      },
+      {
+        "code": "SW4000",
+        "description": "mașină de măturat cu costuri operaționale reduse"
+      },
+      {
+        "code": "SR1601",
+        "description": "mașină de măturat tip ride-on, avansată tehnic"
+      },
+      {
+        "code": "MC5M",
+        "description": "aparat de spălat cu presiune, apă rece"
+      },
+      {
+        "code": "MC7P",
+        "description": "aparat de spălat cu presiune, apă rece, uz profesional"
+      },
+      {
+        "code": "MH5M",
+        "description": "aparat de spălat cu presiune, apă caldă"
+      },
+      {
+        "code": "MH7P",
+        "description": "aparat de spălat cu presiune, apă caldă, uz profesional"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seria SC500 și SC1500 de la Nilfisk?",
+        "a": "SC500 este o mașină de spălat-uscat tip walk-behind, gândită pentru suprafețe mici și medii la un cost de operare redus. SC1500 este un model stand-on, cu operatorul urcat pe platformă, potrivit pentru suprafețe mai mari unde mersul continuu în spatele mașinii ar încetini curățenia. Alegerea depinde în principal de metrii pătrați curățați pe schimb."
+      },
+      {
+        "q": "Ce aspirator industrial Nilfisk aleg pentru praf periculos?",
+        "a": "Pentru praf periculos sau zone cu cerințe de etanșeitate ridicată, gama industrială Nilfisk oferă modele aprobate pentru zone cu risc de explozie, din familia IVB. Pentru curățenie industrială obișnuită, fără zonă clasificată, seriile ATTIX (30, 50, 9) acoperă majoritatea aplicațiilor cu praf și lichide combinate, la costuri și greutăți mai reduse."
+      },
+      {
+        "q": "Livrați echipamente de curățenie Nilfisk în România?",
+        "a": "Da, echipamentele Nilfisk se aduc la comandă, plecând de la codul de model găsit în catalogul de produse al producătorului. Nu avem un stoc propriu afișat public; termenul obișnuit e de 2–6 săptămâni la comandă, în funcție de tensiune, tipul de perii și accesoriile cerute pentru mașina aleasă."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de mașină de spălat pardoseala Nilfisk?",
+        "a": "Cel mai util este suprafața curățată pe schimb, tipul de pardoseală și dacă aveți nevoie de model walk-behind, stand-on sau ride-on. Pentru un aparat de spălat cu presiune, precizați dacă aveți nevoie de apă caldă (seria MH) sau rece (seria MC) și presiunea de lucru dorită, pentru a identifica varianta Nilfisk corectă."
+      },
+      {
+        "q": "Care e diferența dintre un aparat MC și unul MH la Nilfisk?",
+        "a": "Seria MC folosește apă rece, potrivită pentru curățare generală și degresare ușoară, în timp ce seria MH încălzește apa, ceea ce ajută la îndepărtarea grăsimilor și uleiurilor grele din industria alimentară sau auto. Numărul care urmează literei arată clasa de putere a aparatului, de la modele compacte până la variante profesionale de mare capacitate."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -628,7 +1302,105 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
     infinitrade: `Lucrăm cu informațiile publicate de Norgren și spunem deschis ce putem și ce nu putem confirma direct, mai ales pentru configurațiile electronice de control. Nu avem un stoc afișat public pentru fiecare cilindru sau valvă, dar aducem componentele pneumatice Norgren prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru piesele standard sau în 2-6 săptămâni la comandă pentru manifolduri și configurații custom. Pentru o ofertă corectă, trimite-ne diametrul cilindrului, cursa necesară și presiunea de lucru a sistemului tău. Confirmăm termenul după ce verificăm disponibilitatea la furnizor.`,
     limitation: 'Nu putem confirma stocul permanent pentru fiecare configurație Norgren și nici service-ul în garanția producătorului, care rămâne responsabilitatea rețelei oficiale a fabricantului.',
     sources: [
+      {"title":"KIP Valve Products","url":"https://cdn.norgren.com/pdf/KIP%20Valve%20Products.pdf","publisher":"IMI Norgren","accessed":"2026-09-22"},
+      {"title":"Solenoid Valves 5020, 5022, 5023, 5025, 85020","url":"https://cdn.norgren.com/pdf/Solenoid_Valves_5020%205022_5023_5025_85020.pdf","publisher":"IMI Norgren","accessed":"2026-09-22"},
       { title: 'Norgren – Official website', url: 'https://www.norgren.com/en/', publisher: 'Norgren (IMI plc)', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Series 1",
+        "description": "supapă solenoid de uz general, Cv între 0,035 și 0,290"
+      },
+      {
+        "code": "Series 2",
+        "description": "supapă solenoid cu wattaj redus, Cv între 0,035 și 0,290"
+      },
+      {
+        "code": "Series 3",
+        "description": "supapă solenoid cu capacitate mai mare, orificii 3/32–1/4\""
+      },
+      {
+        "code": "Series 6",
+        "description": "supapă solenoid de presiune înaltă, până la 1200 psi"
+      },
+      {
+        "code": "Series 9",
+        "description": "supapă solenoid compactă, 0,65 W, compatibilă cu vid"
+      },
+      {
+        "code": "Q2 Quick-Connect",
+        "description": "supapă cu corp din plastic și fitinguri push-to-connect, certificată NSF"
+      },
+      {
+        "code": "Isolation Valves",
+        "description": "variante cu diafragmă etanșă pentru medii corozive, pe seriile 1, 2, 6, 9"
+      },
+      {
+        "code": "5020-1",
+        "description": "supapă solenoid cu conector seria 280, configurație N/O"
+      },
+      {
+        "code": "5020-4",
+        "description": "supapă solenoid cu terminale inelare, configurație N/O"
+      },
+      {
+        "code": "5020-20A",
+        "description": "supapă solenoid cu 2 diode și protecție evacuare, N/C"
+      },
+      {
+        "code": "5020-21A",
+        "description": "supapă solenoid cu 2 diode, configurație N/O"
+      },
+      {
+        "code": "5020-23A",
+        "description": "supapă solenoid cu rezistor, configurație N/O"
+      },
+      {
+        "code": "5022-106",
+        "description": "supapă solenoid cu diodă, intrare 1/4\"-18, N/C"
+      },
+      {
+        "code": "5023-1",
+        "description": "supapă solenoid cu fire libere, intrare 1/4\"-18, N/O"
+      },
+      {
+        "code": "5025-1",
+        "description": "supapă solenoid cu diodă, conector Weather Pack, N/C"
+      },
+      {
+        "code": "5025-4",
+        "description": "supapă solenoid cu diodă și suport superior, N/O"
+      },
+      {
+        "code": "85020-0",
+        "description": "supapă solenoid cu accesorii de montaj, fire libere, N/O"
+      },
+      {
+        "code": "85020-1",
+        "description": "supapă solenoid cu accesorii de montaj, conector seria 280"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seria 1 și seria 6 la supapele Norgren?",
+        "a": "Seria 1 este gama de bază, cu un coeficient Cv între 0,035 și 0,290 și presiune diferențială maximă de 800 psi, potrivită pentru aplicații generale. Seria 6 este varianta de vârf, cu presiune maximă de 1200 psi și un domeniu mai larg de orificii, de la 1/32 până la 3/8 inch, pentru aplicații care cer debit sau presiune mai mari."
+      },
+      {
+        "q": "Cum citesc codul unei supape solenoid Norgren, de exemplu 5020-21A?",
+        "a": "Codul 5020-21A arată familia de bază (5020), urmată de o cifră care descrie configurația electrică sau mecanică și, uneori, o literă pentru varianta specifică. La acest model, sufixul indică o supapă cu două diode de protecție și configurație normal-deschisă (N/O). Verificați întotdeauna codul complet de pe corpul supapei înainte de a comanda o piesă de schimb."
+      },
+      {
+        "q": "Livrați supape Norgren în România?",
+        "a": "Da, supapele Norgren ajung la comandă, identificate după codul complet (serie plus sufix) din documentația tehnică a producătorului. Fără un stoc propriu vizibil pe site, calculați orientativ 2–6 săptămâni la comandă, în funcție de configurația electrică, tipul de conector și presiunea de lucru cerută."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de supapă Norgren?",
+        "a": "Cel mai util este codul complet de pe eticheta supapei existente, inclusiv sufixul cu litere, deoarece acesta descrie configurația electrică și tipul de conector. Dacă nu aveți codul, precizați presiunea de lucru, tipul fluidului și dacă aveți nevoie de configurație normal-deschisă sau normal-închisă, pentru a identifica varianta Norgren potrivită."
+      },
+      {
+        "q": "Ce este o supapă Norgren cu izolare (Isolation Valve)?",
+        "a": "O supapă Norgren cu izolare folosește o diafragmă care separă mecanismul intern de fluidul controlat, creând o barieră uscată între componentele electrice și mediul de lucru. Variantele de izolare există pentru seriile 1, 2, 6 și 9 și sunt recomandate pentru medii corozive sau unde contactul fluidului cu piesele metalice interne ar reduce durata de viață a supapei."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
@@ -698,8 +1470,105 @@ Ce ne impresionează e atenția la detalii manufacturing - toleranțe strânse a
     infinitrade: `Pornim de la surse publice ale producătorului NSK și spunem clar ce putem și ce nu putem confirma pentru aplicații critice, mai ales la rulmenții de precizie. Nu deținem un stoc afișat public pentru fiecare cod de rulment, dar aducem rulmenții și ghidajele liniare NSK prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 2-6 săptămâni la comandă pentru variantele de precizie superioară. Pentru o ofertă corectă, trimite-ne codul rulmentului, diametrul interior și viteza de rotație necesară aplicației tale. Verificăm disponibilitatea reală înainte de a confirma termenul de livrare.`,
     limitation: 'Nu putem confirma stocul permanent pentru fiecare cod de rulment NSK și nici sub-gama de rulmenți ceramici hibrizi, disponibilă de regulă doar la comandă specială.',
     sources: [
+      {"title":"Deep Groove Ball Bearings for Peak Performance of Machinery and Equipment","url":"https://www.nsk.com/content/dam/nsk/am/en_us/documents/bearings-americas/Deep-Groove-Ball-Bearings.pdf","publisher":"NSK","accessed":"2026-09-22"},
       { title: 'NSK Global', url: 'https://www.nsk.com/', publisher: 'NSK Ltd.', accessed: '2026-09-22' },
       { title: 'NSK Ltd.', url: 'https://en.wikipedia.org/wiki/NSK_Ltd.', publisher: 'Wikipedia', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "Seria 68",
+        "description": "rulment cu bile, secțiune ultra-subțire"
+      },
+      {
+        "code": "Seria 69",
+        "description": "rulment cu bile, secțiune extra-subțire"
+      },
+      {
+        "code": "Seria 160",
+        "description": "rulment cu bile, secțiune subțire"
+      },
+      {
+        "code": "Seria 60",
+        "description": "rulment cu bile, seria extra-ușoară"
+      },
+      {
+        "code": "Seria 62",
+        "description": "rulment cu bile, seria ușoară"
+      },
+      {
+        "code": "Seria 63",
+        "description": "rulment cu bile, seria medie"
+      },
+      {
+        "code": "Seria BL2",
+        "description": "rulment tip maximum, seria ușoară"
+      },
+      {
+        "code": "Seria BL3",
+        "description": "rulment tip maximum, seria medie"
+      },
+      {
+        "code": "Sufix Z",
+        "description": "ecran metalic fără contact, montat pe o singură parte"
+      },
+      {
+        "code": "Sufix ZZ",
+        "description": "ecran metalic fără contact, montat pe ambele părți"
+      },
+      {
+        "code": "Sufix V",
+        "description": "etanșare fără contact, montată pe o singură parte"
+      },
+      {
+        "code": "Sufix VV",
+        "description": "etanșare fără contact, montată pe ambele părți"
+      },
+      {
+        "code": "Sufix DW",
+        "description": "etanșare cu contact ușor, pe o singură parte"
+      },
+      {
+        "code": "Sufix DDW",
+        "description": "etanșare cu contact ușor, pe ambele părți"
+      },
+      {
+        "code": "Sufix DU",
+        "description": "etanșare cu contact, pe o singură parte"
+      },
+      {
+        "code": "Sufix DDU",
+        "description": "etanșare cu contact, pe ambele părți"
+      },
+      {
+        "code": "Sufix M",
+        "description": "colivie din alamă prelucrată"
+      },
+      {
+        "code": "Sufix T1X",
+        "description": "colivie din rășină poliamidică"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă sufixul ZZ la un rulment NSK?",
+        "a": "Sufixul ZZ arată că rulmentul are ecrane metalice fără contact montate pe ambele părți, care țin praful și impuritățile mari departe de bile, dar nu sigilează complet interiorul ca o etanșare cu contact. Se folosește acolo unde mediul e relativ curat, iar frecarea suplimentară a unei etanșări de cauciuc nu este dorită, de exemplu la turații mari."
+      },
+      {
+        "q": "Care e diferența dintre seria 62 și seria 63 la rulmenții NSK?",
+        "a": "Cifra din seria unui rulment NSK arată raportul dintre diametrul exterior și cel interior, nu calitatea produsului. Seria 62 este seria ușoară, cu pereți mai subțiri și gabarit exterior mai mic la același alezaj, în timp ce seria 63 este seria medie, cu pereți mai groși și capacitate de sarcină mai mare pentru același alezaj."
+      },
+      {
+        "q": "Livrați rulmenți NSK în România?",
+        "a": "Da, rulmenții NSK ajung la comandă, identificați după codul complet de serie și sufixele de etanșare sau colivie din documentația producătorului. Nu publicăm un stoc propriu pe site; orientativ, e vorba de 2–6 săptămâni la comandă, în funcție de disponibilitatea exactă a variantei alese la fabrică."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de rulment NSK?",
+        "a": "Cel mai util este codul complet de pe rulmentul existent, inclusiv sufixele de etanșare (Z, ZZ, V, VV, DDU) și de colivie, dacă sunt vizibile. Dacă rulmentul e greu de citit, precizați alezajul, diametrul exterior și lățimea măsurate direct, iar noi identificăm seria NSK corespunzătoare din tabelele dimensionale ale producătorului."
+      },
+      {
+        "q": "Ce diferență este între etanșarea DDU și ecranul ZZ la NSK?",
+        "a": "DDU este o etanșare de cauciuc cu contact direct pe bila interioară, montată pe ambele părți, care oprește aproape complet praful și umezeala, cu prețul unei frecări ușor mai mari. ZZ folosește ecrane metalice fără contact, cu frecare mai mică, dar protecție mai slabă la particule fine sau la stropire cu lichide."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',

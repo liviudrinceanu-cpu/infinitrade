@@ -373,6 +373,23 @@ export default async function BlogArticlePage({ params }) {
               {renderContent(article.content)}
             </div>
 
+            {/* D-2026-09-23: comparative guides cite the manufacturer pages they
+                were written from (same sources[] contract as brand pages). */}
+            {Array.isArray(article.sources) && article.sources.length > 0 && (
+              <section className={styles.content} aria-labelledby="surse-heading">
+                <h2 id="surse-heading">De unde sunt datele din acest ghid?</h2>
+                <p>Informațiile provin din paginile publice ale producătorilor, citite la data indicată. Nu conțin prețuri sau date de stoc.</p>
+                <ul>
+                  {article.sources.map((src, i) => (
+                    <li key={i}>
+                      <a href={src.url} target="_blank" rel="noopener noreferrer nofollow">{src.title}</a>
+                      {' '}— {src.publisher}, accesat {src.accessed}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
             <footer className={styles.footer}>
               <div className={styles.tags}>
                 <span className={styles.tagsLabel}>Etichete:</span>

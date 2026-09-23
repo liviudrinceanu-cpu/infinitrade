@@ -401,6 +401,39 @@ export default function BrandPageClient({ brand, allCategories, brandContent, se
               </section>
             )}
 
+            {/* B-15 (D-2026-09-22) - Ce coduri și serii <Brand> sunt cerute frecvent?
+                `productCodes` = [{ code, description }] copied from the
+                manufacturer's public catalogue by the content writer. It is an
+                identification aid for the customer (what to put in the RFQ),
+                NOT a stock list - the lead says so explicitly (owner rule #6). */}
+            {Array.isArray(brandContent.productCodes) && brandContent.productCodes.length > 0 && (
+              <section className={styles.aboutSection}>
+                <div className={styles.container}>
+                  <h2 className={styles.richSectionTitle}>Ce coduri și serii {brand.name} sunt cerute frecvent?</h2>
+                  <p className={styles.sectionLead}>
+                    Denumiri de serie și coduri de tip {brand.name} preluate din catalogul public al producătorului,
+                    ca reper pentru identificare — nu o listă de stoc. Trimite-ne codul complet de pe plăcuța
+                    echipamentului și primești ofertă pentru modelul exact sau pentru un echivalent.
+                  </p>
+                  <div className={styles.codesTableWrap}>
+                    <table className={styles.codesTable}>
+                      <thead>
+                        <tr><th scope="col">Cod / serie</th><th scope="col">Ce este</th></tr>
+                      </thead>
+                      <tbody>
+                        {brandContent.productCodes.map((item, i) => (
+                          <tr key={i}>
+                            <td><code>{item.code}</code></td>
+                            <td>{item.description}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </section>
+            )}
+
             {/* B-09 - Ce nu putem furniza de la <Brand>? - requires
                 `limitation` (F3-03). Rendering nothing rather than inventing
                 a limitation, per heading-phrasings.md B-09. */}
@@ -466,6 +499,24 @@ export default function BrandPageClient({ brand, allCategories, brandContent, se
                       Solicită Ofertă
                       <ArrowRight size={18} />
                     </Link>
+                  </div>
+                </div>
+              </section>
+            )}
+            {/* B-16 (D-2026-09-22) - Întrebări frecvente despre <Brand> -
+                `faq` = [{ q, a }], mirrored 1:1 by the FAQPage node in
+                src/lib/schema/brand.js (same data, never two literals). */}
+            {Array.isArray(brandContent.faq) && brandContent.faq.length > 0 && (
+              <section className={styles.aboutSection}>
+                <div className={styles.container}>
+                  <h2 className={styles.richSectionTitle}>Întrebări frecvente despre {brand.name}</h2>
+                  <div className={styles.faqList}>
+                    {brandContent.faq.map((item, i) => (
+                      <div key={i} className={styles.faqItem}>
+                        <h3 className={styles.faqQuestion}>{item.q}</h3>
+                        <p className={styles.faqAnswer}>{item.a}</p>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </section>

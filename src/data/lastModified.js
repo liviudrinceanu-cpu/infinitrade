@@ -14,7 +14,7 @@ export const lastModified = {
   home: '2026-02-14', // src/app/page.js
   contact: '2026-03-02', // src/app/contact/page.js
   despreNoi: '2026-02-13', // src/app/despre-noi/page.js
-  blog: '2026-02-14', // src/app/blog/page.js (index; individual articles use their own dates)
+  blog: '2026-09-23', // src/app/blog/page.js (index; individual articles use their own dates)
   studiiDeCaz: '2026-02-14', // src/app/studii-de-caz/page.js (index; individual case studies use caseStudies date below)
   industrii: '2026-02-14', // src/app/industrii/page.js (index; individual industry pages use industries date below)
   faq: '2026-02-14', // src/app/faq/page.js

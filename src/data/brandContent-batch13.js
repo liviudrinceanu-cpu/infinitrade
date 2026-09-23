@@ -57,10 +57,116 @@ Din 1933 până azi, Omron a livrat peste 200 milioane de relee, 100 milioane de
       'textile'
     ],
     sources: [
+      {"title":"Machine Automation Controller NJ/NX Series Brochure","url":"https://files.omron.eu/downloads/latest/brochure/en/p089_nj_nx_series_brochure_en.pdf?v=1772066349","publisher":"Omron","accessed":"2026-09-22"},
+      {"title":"G-Series Servo Drive Datasheet (R88D-G)","url":"https://files.omron.eu/downloads/latest/datasheet/en/i108e_r88d-g_g-series_servo_drive_datasheet_en.pdf?v=1","publisher":"Omron","accessed":"2026-09-22"},
       { title: 'History | Corporate Profile | OMRON Global', url: 'https://www.omron.com/global/en/about/corporate/history/', publisher: 'OMRON Corporation', accessed: '2026-09-22' },
       { title: 'Corporate Profile | OMRON Global', url: 'https://www.omron.com/global/en/about/corporate/', publisher: 'OMRON Corporation', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma disponibilitatea permanentă pe stoc pentru fiecare model din gama Omron și nu oferim programarea avansată PLCnext sau configurarea software Sysmac ca serviciu inclus.',
+    productCodes: [
+      {
+        "code": "NX701",
+        "description": "controler NX pentru control de mare viteză și precizie, până la 256 axe"
+      },
+      {
+        "code": "NX502",
+        "description": "controler NX cu suport pentru mai multe rețele EtherNet/IP"
+      },
+      {
+        "code": "NX102",
+        "description": "controler NX compact, până la 8 axe de mișcare"
+      },
+      {
+        "code": "NX1P2",
+        "description": "controler NX compact, până la 4 axe de mișcare și I/O încorporat"
+      },
+      {
+        "code": "NJ501",
+        "description": "controler NJ pentru control de mare viteză, până la 64 axe"
+      },
+      {
+        "code": "NJ501-R",
+        "description": "variantă NJ501 cu integrare robot"
+      },
+      {
+        "code": "NJ301",
+        "description": "controler NJ pentru mașini mici, până la 8 axe"
+      },
+      {
+        "code": "NJ101",
+        "description": "controler NJ pentru mașini simple, până la 2 axe de mișcare"
+      },
+      {
+        "code": "R88D-GN01H-ML2",
+        "description": "servo-drive G-series 100 W, comunicație MECHATROLINK-II"
+      },
+      {
+        "code": "R88D-GN04H-ML2",
+        "description": "servo-drive G-series 400 W, comunicație MECHATROLINK-II"
+      },
+      {
+        "code": "R88D-GN10H-ML2",
+        "description": "servo-drive G-series 1,0 kW, comunicație MECHATROLINK-II"
+      },
+      {
+        "code": "R88D-GN15H-ML2",
+        "description": "servo-drive G-series 1,5 kW, comunicație MECHATROLINK-II"
+      },
+      {
+        "code": "R88D-GT01H",
+        "description": "servo-drive G-series 100 W, semnal analogic/puls"
+      },
+      {
+        "code": "R88D-GT04H",
+        "description": "servo-drive G-series 400 W, semnal analogic/puls"
+      },
+      {
+        "code": "R88D-GT10H",
+        "description": "servo-drive G-series 1,0 kW, semnal analogic/puls"
+      },
+      {
+        "code": "R88M-G05030",
+        "description": "servomotor cilindric G-series, 50 W, 3000 rpm"
+      },
+      {
+        "code": "R88M-G20030",
+        "description": "servomotor cilindric G-series, 200 W, 3000 rpm"
+      },
+      {
+        "code": "R88M-G75030",
+        "description": "servomotor cilindric G-series, 750 W, 3000 rpm"
+      },
+      {
+        "code": "R88M-G1K030T",
+        "description": "servomotor cilindric G-series, 1000 W, 3000 rpm"
+      },
+      {
+        "code": "R88M-GP40030",
+        "description": "servomotor plat G-series, 400 W, 3000 rpm"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între controlerul Omron NJ501 și NX701?",
+        "a": "NJ501 este un controler din familia mai veche NJ, capabil să controleze până la 64 de axe de mișcare cu viteză și precizie ridicate, disponibil și în variantă cu integrare robot (NJ501-R). NX701 este controlerul din generația NX, cu suport pentru până la 256 de axe și integrare mai strânsă cu rețelele EtherNet/IP, recomandat pentru mașini mari sau linii cu multe axe sincronizate."
+      },
+      {
+        "q": "Cum aleg servo-drive-ul Omron potrivit pentru un motor R88M-G?",
+        "a": "Alegerea depinde de puterea motorului: seria R88M-G acoperă de la 50 W până la 1,5 kW, iar fiecare motor are un servo-drive corespondent din seria R88D-G, disponibil în variantă cu comunicație MECHATROLINK-II (R88D-GN) sau cu semnal analogic/puls (R88D-GT). Verificați puterea și cuplul necesar pe axă, apoi alegeți perechea motor-drive cu aceeași putere nominală din tabelul producătorului."
+      },
+      {
+        "q": "Livrați automatizări Omron în România?",
+        "a": "Da, echipamentele Omron ajung la comandă, pe baza codului complet de controler, servo sau senzor identificat din documentația producătorului. Fără un stoc propriu afișat, termenul tipic este 2–6 săptămâni la comandă, variabil după configurația de axe sau de comunicație cerută pentru proiectul dumneavoastră."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de controler sau servo Omron?",
+        "a": "Cel mai util este codul complet al controlerului sau al perechii motor-drive, dacă îl aveți de pe o mașină existentă, plus numărul de axe controlate și tipul de rețea folosit (EtherCAT, EtherNet/IP). Pentru un proiect nou, precizați puterea motoarelor și cerințele de sincronizare, iar noi identificăm seria Omron potrivită din cataloagele oficiale."
+      },
+      {
+        "q": "Ce înseamnă seria G la servomotoarele Omron?",
+        "a": "Litera G din seria de servomotoare Omron (R88M-G) marchează generația G, o gamă de motoare cilindrice și plate cu puteri de la 50 W la 1,5 kW, gândite pentru control de poziție și viteză de precizie medie-înaltă. Fiecare motor din serie are un servo-drive dedicat, disponibil cu comunicație MECHATROLINK-II sau cu semnal analogic clasic."
+      }
+    ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
@@ -125,10 +231,107 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc peste 15 milioane
       'textile'
     ],
     sources: [
+      {"title":"Optibelt Power Transmission Product Range Belts","url":"https://www.optibelt.com/fileadmin/pdf/kataloge/Optibelt-Power-Transmission-product-range-belts.pdf","publisher":"Optibelt","accessed":"2026-09-22"},
       { title: 'Optibelt – Arntz Optibelt Group', url: 'https://www.optibelt.com/en/', publisher: 'Arntz Optibelt Group', accessed: '2026-09-22' },
       { title: 'Optibelt Group – Company', url: 'https://www.optibelt.com/en/company/optibelt-group.html', publisher: 'Arntz Optibelt Group', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem garanta disponibilitate permanentă pe stoc pentru toate profilele și lungimile Optibelt, iar recalcularea tehnică a transmisiilor complexe rămâne responsabilitatea inginerului de proiect.',
+    productCodes: [
+      {
+        "code": "RED POWER 3",
+        "description": "curea trapezoidală cu profil ranforsat, putere transmisă sporită"
+      },
+      {
+        "code": "BLUE POWER",
+        "description": "curea trapezoidală pentru transmisii de uz general"
+      },
+      {
+        "code": "SUPER X-POWER",
+        "description": "curea trapezoidală dințată pentru randament ridicat"
+      },
+      {
+        "code": "SUPER TX",
+        "description": "curea trapezoidală dințată, variantă îmbunătățită"
+      },
+      {
+        "code": "VARIO POWER",
+        "description": "curea trapezoidală cu profil variabil"
+      },
+      {
+        "code": "OMEGA",
+        "description": "curea dințată din cloropren pentru transmisii sincrone"
+      },
+      {
+        "code": "OMEGA HP",
+        "description": "curea dințată din cloropren, de mare putere"
+      },
+      {
+        "code": "OMEGA HL",
+        "description": "curea dințată cu profil pentru sarcini ușoare"
+      },
+      {
+        "code": "OMEGA FAN POWER",
+        "description": "curea dințată pentru acționarea ventilatoarelor"
+      },
+      {
+        "code": "ZR",
+        "description": "curea dințată cu profil ZR"
+      },
+      {
+        "code": "ALPHA POWER",
+        "description": "curea dințată din poliuretan"
+      },
+      {
+        "code": "ALPHA TORQUE",
+        "description": "curea dințată din poliuretan pentru cuplu ridicat"
+      },
+      {
+        "code": "ALPHA FLEX",
+        "description": "curea dințată din poliuretan, variantă flexibilă"
+      },
+      {
+        "code": "RB",
+        "description": "curea nervurată (ribbed) pentru transmisii cu spațiu redus"
+      },
+      {
+        "code": "DK",
+        "description": "curea trapezoidală dublă"
+      },
+      {
+        "code": "KK",
+        "description": "curea trapezoidală din poliuretan"
+      },
+      {
+        "code": "OPTIMAT OE",
+        "description": "curea specială pentru aplicații industriale dedicate"
+      },
+      {
+        "code": "LB",
+        "description": "curea tip link, segmentată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între RED POWER 3 și BLUE POWER la Optibelt?",
+        "a": "RED POWER 3 este o curea trapezoidală cu profil ranforsat, gândită pentru transmisii puternic solicitate, unde producătorul indică o creștere a puterii transmise față de o curea standard. BLUE POWER este varianta pentru transmisii de uz general, fără solicitări extreme de sarcină sau temperatură. Alegerea depinde de puterea motorului și de factorul de serviciu al aplicației."
+      },
+      {
+        "q": "Ce curea Optibelt aleg pentru o transmisie cu cuplu variabil?",
+        "a": "Pentru cuplu variabil sau șocuri de sarcină, seriile dințate din poliuretan ALPHA TORQUE sau ALPHA FLEX transmit mișcarea fără alunecare și tolerează mai bine variațiile bruște decât o curea trapezoidală clasică. Pentru transmisii mai simple, cu sarcină relativ constantă, o curea trapezoidală din seria SUPER X-POWER sau VARIO POWER poate fi suficientă și mai ușor de întreținut."
+      },
+      {
+        "q": "Livrați curele Optibelt în România?",
+        "a": "Da, curelele Optibelt se aduc la comandă, pe baza codului de profil și a lungimii găsite în catalogul de produse al producătorului. Nu avem un stoc propriu afișat pe site; ca durată orientativă, socotiți 2–6 săptămâni la comandă, în funcție de profilul exact și lungimea cerută pentru transmisia dumneavoastră."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de curea Optibelt?",
+        "a": "Cel mai util este codul complet al curelei existente (profil și lungime), dacă îl puteți citi pe curea sau pe fișa utilajului. Dacă nu aveți codul, măsurați distanța dintre axe, diametrele roților și puterea motorului, iar noi identificăm profilul Optibelt corespunzător din tabelele de selecție ale producătorului înainte de a pregăti oferta."
+      },
+      {
+        "q": "Ce este o curea dințată OMEGA HP de la Optibelt?",
+        "a": "OMEGA HP este o curea dințată din cloropren de mare putere, folosită la transmisii sincrone unde alunecarea nu este acceptabilă, precum axe de comandă sau utilaje de precizie. Față de varianta de bază OMEGA, HP tolerează sarcini și viteze mai mari, păstrând avantajul unei transmisii fără întindere suplimentară pe durata funcționării."
+      }
+    ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
@@ -193,10 +396,88 @@ Pall investește masiv în R&D - peste 400 brevete active și colaborări cu uni
       'municipal-water'
     ],
     sources: [
+      {"title":"Ultipor III Filter Elements — Lube and Hydraulic Pleated Filter Elements","url":"https://shop.pall.com/us/en/products/filter-cartridges/lube-hydraulic-pleated-filter-elements/ultipor-iii-filter-elements","publisher":"Pall Corporation","accessed":"2026-09-22"},
+      {"title":"Supor Membrane — Filter Media Datasheet","url":"https://www.pall.com/content/dam/pall/food-beverage/literature-library/non-gated/datasheet/FBDSSUPOREN.pdf","publisher":"Pall Corporation","accessed":"2026-09-22"},
       { title: 'About Pall Corporation | Global Leaders in Filtration & Purification Solutions', url: 'https://www.pall.com/en/about-pall.html', publisher: 'Pall Corporation (Danaher)', accessed: '2026-09-22' },
       { title: 'Pall Corporation', url: 'https://en.wikipedia.org/wiki/Pall_Corporation', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu efectuăm validare IQ/OQ/PQ sau service acoperit de garanția producătorului pentru sistemele Pall și nu confirmăm disponibilitate permanentă pe stoc pentru toate cartușele de filtrare.',
+    productCodes: [
+      {
+        "code": "HC9604",
+        "description": "element filtrant Ultipor III, seria de dimensiune 9604"
+      },
+      {
+        "code": "HC0101",
+        "description": "element filtrant Ultipor III, seria de dimensiune 0101"
+      },
+      {
+        "code": "HC2225",
+        "description": "element filtrant Ultipor III, seria de dimensiune 2225"
+      },
+      {
+        "code": "HC2253",
+        "description": "element filtrant Ultipor III, seria de dimensiune 2253"
+      },
+      {
+        "code": "H9604FKNUYUR",
+        "description": "cod complet element Ultipor III, raport Beta 1000"
+      },
+      {
+        "code": "HC0101FKN18HY533",
+        "description": "cod complet element Ultipor III, raport Beta 1000"
+      },
+      {
+        "code": "HC0101FKZ36H",
+        "description": "cod complet element Ultipor III, raport Beta 1000"
+      },
+      {
+        "code": "HC2225FKS19Z",
+        "description": "cod complet element Ultipor III, raport Beta 1000"
+      },
+      {
+        "code": "HC2253FKS16H",
+        "description": "cod complet element Ultipor III, raport Beta 1000"
+      },
+      {
+        "code": "HC2253FKN8H",
+        "description": "cod complet element Ultipor III, raport Beta 1000"
+      },
+      {
+        "code": "HTRA",
+        "description": "membrană Supor, reținere fină la 0,2 microni"
+      },
+      {
+        "code": "LTRA",
+        "description": "membrană Supor, reținere la 0,2 microni"
+      },
+      {
+        "code": "HTRB",
+        "description": "membrană Supor, reținere la 0,45 microni"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă ratingul Beta 1000 la filtrele Pall Ultipor III?",
+        "a": "Beta 1000 arată eficiența de reținere a elementului: la acel raport, un filtru reține 999 din 1000 de particule de dimensiunea specificată care trec prin el, ceea ce înseamnă o eficiență de aproximativ 99,9%. La elementele Ultipor III, producătorul indică rapoarte Beta 1000 pentru mai multe praguri de microni, în funcție de tipul mediului filtrant ales."
+      },
+      {
+        "q": "Ce diferență este între membranele Supor HTRA și HTRB de la Pall?",
+        "a": "HTRA este o membrană Supor de înaltă eficiență pentru reținerea coloizilor fini la 0,2 microni, în timp ce LTRA acoperă tot pragul de 0,2 microni dar cu o construcție diferită. HTRB este pragul mai permisiv, de 0,45 microni, potrivit unde o filtrare foarte fină nu este necesară. Codul complet al cartușului combină lungimea, acest cod de reținere și tipul de adaptor."
+      },
+      {
+        "q": "Livrați filtre Pall în România?",
+        "a": "Da, elementele filtrante Pall ajung la comandă, identificate după codul complet (lungime, cod de reținere, tip adaptor) din fișele tehnice ale producătorului. Fără stoc propriu afișat pe site, termenul orientativ este 2–6 săptămâni la comandă, în funcție de disponibilitatea exactă a variantei la producător."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de element filtrant Pall?",
+        "a": "Cel mai util este codul complet de pe elementul filtrant existent, deoarece acesta include lungimea, pragul de filtrare și tipul de adaptor. Dacă nu aveți codul, precizați dimensiunile carcasei filtrului și tipul de fluid filtrat (apă, hidraulică, gaz), iar noi identificăm varianta Pall corespunzătoare din structura de comandă a producătorului."
+      },
+      {
+        "q": "Cum citesc codul unui element Ultipor III, de exemplu HC2253FKS16H?",
+        "a": "Codul HC2253FKS16H combină seria de dimensiune (HC2253), litera care indică materialul filtrant, un cod pentru pragul de reținere și o cifră legată de configurația garniturilor. Structura exactă variază între familii de produse Pall, motiv pentru care recomandăm trimiterea codului complet, nu doar a seriei de bază, pentru identificarea corectă a piesei de schimb."
+      }
+    ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
@@ -261,10 +542,131 @@ Parker investește continuu în R&D - facilitățile lor de testare din SUA și 
       'aerospace'
     ],
     sources: [
+      {"title":"Hydraulic and Lube Filtration Products Catalogue 2300-14-USA","url":"https://www.parker.com/content/dam/parker/lam/catalogs/pdf/3---filtra%C3%A7%C3%A3o/2---hidr%C3%A1ulica/2300-14-USA%20Hydraulic%20and%20Lube%20Filtration%20Products.pdf","publisher":"Parker Hannifin","accessed":"2026-09-22"},
       { title: 'Parker-Hannifin', url: 'https://en.wikipedia.org/wiki/Parker_Hannifin', publisher: 'Wikipedia', accessed: '2026-09-22' },
       { title: 'About Parker | Parker US', url: 'https://www.parker.com/us/en/about-parker.html', publisher: 'Parker Hannifin Corporation', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma disponibilitate permanentă pe stoc pentru întreaga gamă Parker Filtration și nu oferim service acoperit de garanția producătorului pentru sistemele hidraulice complexe.',
+    productCodes: [
+      {
+        "code": "12AT/50AT Series",
+        "description": "Filtre hidraulice spin-on pentru linia de joasă presiune"
+      },
+      {
+        "code": "PT Series",
+        "description": "Filtru tank-top montat pe capacul rezervorului hidraulic"
+      },
+      {
+        "code": "KLT/KLS Series",
+        "description": "Filtru tank-top pentru linia de retur cu debit mare"
+      },
+      {
+        "code": "Moduflow Plus Series",
+        "description": "Filtru modular in-line, retur sau configurație duplex"
+      },
+      {
+        "code": "Moduflow TFP Series",
+        "description": "Filtru tank-top compact din gama Moduflow"
+      },
+      {
+        "code": "RF7 Series",
+        "description": "Filtru tank-top de retur pentru presiune joasă"
+      },
+      {
+        "code": "BGT Series",
+        "description": "Filtru tank-top de retur cu flux ridicat"
+      },
+      {
+        "code": "12CS/50CS Series",
+        "description": "Filtru in-line pentru presiune medie hidraulică"
+      },
+      {
+        "code": "IL8 Series",
+        "description": "Filtru in-line disponibil în variantă duplex sau quadplex"
+      },
+      {
+        "code": "CN Series",
+        "description": "Filtru hidraulic in-line pentru presiune medie"
+      },
+      {
+        "code": "MPD/MPDH Series",
+        "description": "Filtru duplex de presiune medie, comutare fără oprire"
+      },
+      {
+        "code": "15P/30P Series",
+        "description": "Filtru in-line de înaltă presiune, opțiune duplex"
+      },
+      {
+        "code": "50P/50PR Series",
+        "description": "Filtru in-line de înaltă presiune cu flux invers"
+      },
+      {
+        "code": "100P Series",
+        "description": "Filtru in-line pentru presiune hidraulică foarte ridicată"
+      },
+      {
+        "code": "WPF Series",
+        "description": "Filtru in-line montat pe manifold hidraulic"
+      },
+      {
+        "code": "12S Series",
+        "description": "Filtru in-line de înaltă presiune"
+      },
+      {
+        "code": "5MFP/10MFP Filter Cart",
+        "description": "Cărucior mobil de filtrare pentru transferul uleiului"
+      },
+      {
+        "code": "Guardian Portable Transfer Unit",
+        "description": "Unitate portabilă pentru transfer și filtrare ulei"
+      },
+      {
+        "code": "PVS Series",
+        "description": "Sistem portabil de purificare a uleiului hidraulic"
+      },
+      {
+        "code": "SMR Series",
+        "description": "Sistem staționar de purificare a uleiului"
+      },
+      {
+        "code": "SOS System",
+        "description": "Sistem staționar offline pentru filtrare continuă"
+      },
+      {
+        "code": "Icount BS",
+        "description": "Analizor de particule de bancă, pentru probe de laborator"
+      },
+      {
+        "code": "Icount PD",
+        "description": "Contor de particule pentru monitorizare online a fluidului"
+      },
+      {
+        "code": "Par-Test",
+        "description": "Serviciu de analiză de laborator a fluidului hidraulic"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce serie Parker aleg pentru un filtru tank-top de retur?",
+        "a": "Seria PT sau KLT/KLS acoperă montarea pe capacul rezervorului, pe linia de retur de joasă presiune. PT oferă un element de schimb rapid pentru debite mai mici, iar KLT/KLS este dimensionată pentru debite mai mari direct în rezervor. Alegerea corectă depinde de debitul maxim al circuitului și de spațiul disponibil pe capac."
+      },
+      {
+        "q": "Care e diferența dintre seria IL8 și seria CN la filtrele Parker?",
+        "a": "IL8 este o serie in-line disponibilă și în configurație duplex sau quadplex, ceea ce permite schimbarea elementului filtrant fără oprirea instalației. CN este o serie in-line simplă, fără comutare, pentru presiune medie. IL8 se recomandă acolo unde oprirea liniei hidraulice nu este acceptabilă."
+      },
+      {
+        "q": "Livrați filtre Parker Filtration în România?",
+        "a": "Da, aducem la comandă filtre Parker Filtration pe baza cataloagelor publice ale producătorului, fără date proprii de stoc. Termenul orientativ este de 2-6 săptămâni la comandă, în funcție de seria aleasă și de disponibilitatea la producător. Vă rugăm să confirmați codul exact al filtrului dorit înainte de a plasa comanda."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de filtru hidraulic Parker?",
+        "a": "Este util să indicați seria filtrului, de exemplu PT, IL8 sau 15P/30P, presiunea de lucru și debitul necesar al circuitului, plus tipul elementului filtrant dorit. Dacă aveți codul complet de pe filtrul existent sau din documentația echipamentului, oferta poate fi pregătită mai rapid și cu precizie mai mare."
+      },
+      {
+        "q": "Cât durează livrarea unui filtru Parker la comandă?",
+        "a": "Termenul depinde de serie și de disponibilitatea la producător, orientativ 2-6 săptămâni la comandă, fără date proprii de stoc. Filtrele din seriile de bază, precum PT sau 12CS/50CS, tind să fie disponibile mai repede decât sistemele speciale de înaltă presiune sau unitățile portabile de purificare."
+      }
+    ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat' }],
@@ -329,10 +731,75 @@ P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare
       'aerospace'
     ],
     sources: [
+      {"title":"Inductive sensor NBB4-12GM75-US","url":"https://www.pepperl-fuchs.com/en-us/products-gp25581/37571","publisher":"Pepperl+Fuchs","accessed":"2026-09-22"},
       { title: 'Welcome to Pepperl+Fuchs Corporate Website', url: 'https://www.pepperl-fuchs.com/global/en/index.htm', publisher: 'Pepperl+Fuchs SE', accessed: '2026-09-22' },
       { title: 'Pepperl+Fuchs', url: 'https://en.wikipedia.org/wiki/Pepperl%2BFuchs', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu efectuăm certificarea sau recalificarea echipamentelor Pepperl+Fuchs pentru zone ATEX/IECEx și nu confirmăm disponibilitate permanentă pe stoc pentru toate variantele de senzori Ex.',
+    productCodes: [
+      {
+        "code": "NBB4-12GM75-US",
+        "description": "Senzor inductiv cilindric cu montare nerasantă"
+      },
+      {
+        "code": "NBB5-18GM60-I",
+        "description": "Senzor inductiv analogic pentru poziționare fină"
+      },
+      {
+        "code": "NBB2-V3-E2",
+        "description": "Senzor inductiv miniatural pentru spații restrânse"
+      },
+      {
+        "code": "NBB10-30GM50-E3-V1",
+        "description": "Senzor inductiv cu carcasă filetată și ieșire DC"
+      },
+      {
+        "code": "NBB20-L2-E2-V1",
+        "description": "Senzor inductiv cu carcasă dreptunghiulară pentru montaj lateral"
+      },
+      {
+        "code": "NBB20-U1-E2",
+        "description": "Senzor inductiv de gabarit mare pentru detecție la distanță"
+      },
+      {
+        "code": "NBB1,5-8GM40-Z0",
+        "description": "Senzor inductiv subminiatural cu distanță redusă de comutare"
+      },
+      {
+        "code": "NBB4-F1-US",
+        "description": "Senzor inductiv cu carcasă plată pentru spații reduse"
+      },
+      {
+        "code": "NBB2-8GH20-E2-V3",
+        "description": "Senzor inductiv scurt cu filet metric M8"
+      },
+      {
+        "code": "NBB10-30GM50-E2",
+        "description": "Senzor inductiv standard pentru automatizări industriale generale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul unui senzor inductiv Pepperl+Fuchs seria NBB?",
+        "a": "Codul indică gabaritul filetului, distanța nominală de comutare, forma carcasei și tipul ieșirii electrice. De exemplu NBB4-12GM75-US descrie un senzor cu diametru de 4 mm, distanță de 12 mm, carcasă filetată metrică și ieșire specifică. Structura este comună întregii serii, cu variații pentru montare rasantă sau nerasantă."
+      },
+      {
+        "q": "Ce distanță de detecție are seria NBB de la Pepperl+Fuchs?",
+        "a": "Distanța variază după model, de la câțiva milimetri la senzorii subminiaturali, precum NBB1,5-8GM40-Z0, până la peste 20 mm la variantele de gabarit mare precum NBB20-U1-E2. Distanța exactă depinde de diametrul carcasei, de tipul montării și de materialul țintei detectate."
+      },
+      {
+        "q": "Livrați senzori Pepperl+Fuchs în România?",
+        "a": "Da, aducem la comandă senzori Pepperl+Fuchs pe baza informațiilor publice de pe pagina producătorului, fără gama pe raft permanent. Livrarea se face de regulă în 2-6 săptămâni de la comandă, în funcție de model. Recomandăm confirmarea codului exact al senzorului înainte de comandă, pentru evitarea neconcordanțelor de montaj."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de senzor inductiv Pepperl+Fuchs?",
+        "a": "Ajută să precizați diametrul carcasei, distanța de comutare dorită, tipul de montare (rasant sau nerasant) și tensiunea de alimentare disponibilă în panou. Codul complet al senzorului existent, dacă îl aveți, permite identificarea rapidă a echivalentului corect din gama NBB."
+      },
+      {
+        "q": "Care e diferența dintre variantele -E2 și -E3 la seria NBB?",
+        "a": "Sufixul indică varianta constructivă a ieșirii electrice și a circuitului intern al senzorului, cu diferențe de protecție la scurtcircuit sau la inversarea polarității, în funcție de generația senzorului. Alegerea corectă depinde de cerințele specifice ale automatului programabil la care se conectează senzorul."
+      }
+    ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
@@ -397,10 +864,91 @@ Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calit�
       'oil-gas'
     ],
     sources: [
+      {"title":"Permatex Products","url":"https://www.permatex.com/products/","publisher":"Permatex","accessed":"2026-09-22"},
       { title: 'Permatex — Automotive Sealants & Repair Products', url: 'https://www.permatex.com/', publisher: 'Permatex, Inc.', accessed: '2026-09-22' },
       { title: 'About Permatex', url: 'https://www.permatex.com/about/', publisher: 'Permatex, Inc.', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma disponibilitate permanentă pe stoc pentru fiecare variantă de ambalare Permatex și nu oferim consultanță de aplicare acoperită de garanția producătorului.',
+    productCodes: [
+      {
+        "code": "The Right Stuff Rapid Cure Red",
+        "description": "Garnitură lichidă rapidă, rezistență ridicată la temperatură"
+      },
+      {
+        "code": "The Right Stuff Rapid Cure Blue",
+        "description": "Garnitură lichidă rapidă, rezistență medie la solicitări"
+      },
+      {
+        "code": "The Right Stuff Rapid Cure Orange",
+        "description": "Garnitură lichidă rapidă, tip demontabil, rezistență ridicată"
+      },
+      {
+        "code": "Threadlocker Orange Gel HS",
+        "description": "Gel de fixare filete, rezistență mare, demontabil"
+      },
+      {
+        "code": "Ultra Copper RTV",
+        "description": "Silicon RTV rezistent la ulei și temperatură ridicată"
+      },
+      {
+        "code": "Black Cut Gasket Coating 80012",
+        "description": "Vopsea de etanșare pentru garnituri tăiate, negru"
+      },
+      {
+        "code": "Grey Cut Gasket Coating 80013",
+        "description": "Vopsea de etanșare pentru garnituri tăiate, gri"
+      },
+      {
+        "code": "Red Cut Gasket Coating 80014",
+        "description": "Vopsea de etanșare pentru garnituri tăiate, roșu"
+      },
+      {
+        "code": "Silicone Brake Parts Lubricant",
+        "description": "Lubrifiant siliconic pentru piese de frână"
+      },
+      {
+        "code": "O-Ring Lubricant",
+        "description": "Lubrifiant dedicat pentru montarea garniturilor O-ring"
+      },
+      {
+        "code": "Spark Plug Grease 85189",
+        "description": "Vaselină dielectrică pentru fișele bujiilor"
+      },
+      {
+        "code": "Muffler Repair Kit Heavy Duty",
+        "description": "Kit de reparație toba de eșapament, temperatură ridicată"
+      },
+      {
+        "code": "Head Gasket Repair Stop Leak",
+        "description": "Soluție de etanșare pentru scurgeri la garnitura chiulasei"
+      },
+      {
+        "code": "5 Minute Epoxy 10500",
+        "description": "Adeziv epoxidic bicomponent cu întărire rapidă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce produs Permatex aleg pentru etanșarea unei flanșe de motor?",
+        "a": "Pentru flanșe cu joc mic și rezistență ridicată la temperatură, The Right Stuff Rapid Cure Red sau Ultra Copper RTV sunt alegerile tipice, ambele înlocuind garniturile clasice de hârtie. Alegerea între cele două depinde de temperatura maximă de funcționare și de expunerea la ulei a suprafeței etanșate."
+      },
+      {
+        "q": "Care e diferența dintre Threadlocker Red și Blue de la Permatex?",
+        "a": "Varianta roșie oferă o fixare permanentă, greu de demontat fără încălzire, recomandată pentru șuruburi care nu se mai scot. Varianta albastră oferă o fixare de rezistență medie, demontabilă cu scule obișnuite, potrivită pentru piese ce necesită întreținere periodică sau reglaje repetate."
+      },
+      {
+        "q": "Livrați produse Permatex în România?",
+        "a": "Da, aducem la comandă produse Permatex pe baza listei publice de pe pagina producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de produs și de cantitatea solicitată. Vă rugăm să confirmați denumirea exactă a produsului dorit înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o comandă de garnituri lichide Permatex?",
+        "a": "Este util să menționați tipul suprafeței de etanșat, temperatura maximă de funcționare și expunerea la fluide (ulei, combustibil sau apă). Aceste detalii permit identificarea corectă între variantele RTV, gel de fixare filete sau vopsea de etanșare pentru garnituri tăiate din gama Permatex."
+      },
+      {
+        "q": "Cât timp durează întărirea unui silicon RTV Permatex?",
+        "a": "Timpul de întărire variază după produs; variantele „Rapid Cure” ating rezistență la manipulare în câteva minute, în timp ce siliconul RTV standard, precum Ultra Copper, necesită de obicei câteva ore pentru o etanșare completă la temperatură ridicată și presiune de ulei."
+      }
+    ],
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
@@ -465,10 +1013,80 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
       'water-treatment'
     ],
     sources: [
+      {"title":"PLC-RSC- 24DC/21 - Relay module - 2966171","url":"https://www.phoenixcontact.com/en-us/products/relay-module-plc-rsc-24dc21-2966171","publisher":"Phoenix Contact","accessed":"2026-09-22"},
+      {"title":"QUINT-PS/1AC/24DC/40 - Power supply","url":"https://www.phoenixcontact.com/en-us/products/power-supply-quint-ps1ac24dc40-2866789","publisher":"Phoenix Contact","accessed":"2026-09-22"},
       { title: 'Phoenix Contact', url: 'https://en.wikipedia.org/wiki/Phoenix_Contact', publisher: 'Wikipedia', accessed: '2026-09-22' },
       { title: 'Phoenix Contact USA', url: 'https://www.phoenixcontact.com/en-us/', publisher: 'Phoenix Contact GmbH & Co. KG', accessed: '2026-09-22' }
     ],
     limitation: 'Nu confirmăm disponibilitate permanentă pe stoc pentru toate referințele Phoenix Contact și nu efectuăm programarea PLCnext ca serviciu de configurare software.',
+    productCodes: [
+      {
+        "code": "PLC-RSC- 12DC/21-21",
+        "description": "Releu de interfață 12V DC, două contacte"
+      },
+      {
+        "code": "PLC-RSC- 24UC/21",
+        "description": "Releu de interfață universal AC/DC 24V"
+      },
+      {
+        "code": "PLC-RSC- 60DC/21",
+        "description": "Releu de interfață pentru tensiune de comandă 60V DC"
+      },
+      {
+        "code": "PLC-RSC-230UC/21",
+        "description": "Releu de interfață universal pentru 230V AC/DC"
+      },
+      {
+        "code": "PLC-RSC- 24DC/21-21",
+        "description": "Releu de interfață 24V DC, patru contacte"
+      },
+      {
+        "code": "PLC-RSC- 24DC/ 1/SEN",
+        "description": "Releu de interfață cu funcție de semnalizare"
+      },
+      {
+        "code": "PLC-RSC- 24DC/21AU",
+        "description": "Releu de interfață 24V DC, variantă auxiliară"
+      },
+      {
+        "code": "PLC-RSC- 24DC/21",
+        "description": "Releu de interfață standard 24V DC, două contacte"
+      },
+      {
+        "code": "PLC-RSC- 5DC/21",
+        "description": "Releu de interfață pentru tensiune joasă 5V DC"
+      },
+      {
+        "code": "QUINT-PS/1AC/24DC/40",
+        "description": "Alimentator industrial 24V DC, curent nominal 40A"
+      },
+      {
+        "code": "QUINT-PS/1AC/24DC/20",
+        "description": "Alimentator industrial 24V DC, curent nominal 20A"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este un releu PLC-RSC de la Phoenix?",
+        "a": "Este un releu de interfață montat pe șină DIN, folosit pentru izolarea galvanică între automatul programabil și circuitul de forță, cu tensiuni de comandă de la 5V la 230V. Seria acoperă variante cu unul până la patru contacte, alese în funcție de câți actuatori trebuie comandați simultan."
+      },
+      {
+        "q": "Ce curent suportă alimentatorul QUINT-PS de la Phoenix?",
+        "a": "Familia QUINT-PS acoperă mai multe trepte de curent nominal la ieșirea de 24V DC, de exemplu 20A sau 40A pentru modelele din seria 1AC/24DC. Alegerea depinde de consumul total al sarcinilor conectate în panou și de marja de siguranță dorită la dimensionare."
+      },
+      {
+        "q": "Livrați relee și alimentatoare Phoenix în România?",
+        "a": "Da, aducem la comandă componente Phoenix pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de cantitate. Confirmarea codului exact înainte de comandă evită întârzierile de identificare."
+      },
+      {
+        "q": "Ce trimit pentru o ofertă de relee interfață Phoenix?",
+        "a": "Este util să indicați tensiunea de comandă (de exemplu 24V DC sau 230V AC/DC), numărul de contacte necesare și dacă este nevoie de funcție suplimentară de semnalizare. Codul releului existent, dacă îl aveți la îndemână, grăbește identificarea echivalentului corect."
+      },
+      {
+        "q": "Care e diferența dintre PLC-RSC 24DC/21 și 24DC/21HC?",
+        "a": "Diferența ține de varianta constructivă și de capacitatea de comutare a contactelor, seriile cu sufix suplimentar fiind gândite pentru sarcini sau condiții de montaj specifice. Recomandăm verificarea fișei tehnice a fiecărui cod înainte de înlocuirea unui releu existent din panou."
+      }
+    ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
@@ -533,10 +1151,76 @@ Cu 18 facilități de producție în Europa, Asia și America și peste 60 de fi
       'water-treatment'
     ],
     sources: [
+      {"title":"SACC-M12-SET/2,5-3,5 - Connector - 1436505","url":"https://www.phoenixcontact.com/en-us/products/seal-sacc-m12-set25-35-1436505","publisher":"Phoenix Contact","accessed":"2026-09-22"},
+      {"title":"PT 2,5 - Feed-through terminal block - 3209510","url":"https://www.phoenixcontact.com/en-us/products/feed-through-terminal-block-pt-25-3209510","publisher":"Phoenix Contact","accessed":"2026-09-22"},
       { title: 'Phoenix Contact', url: 'https://en.wikipedia.org/wiki/Phoenix_Contact', publisher: 'Wikipedia', accessed: '2026-09-22' },
       { title: 'Phoenix Contact USA', url: 'https://www.phoenixcontact.com/en-us/', publisher: 'Phoenix Contact GmbH & Co. KG', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem garanta disponibilitate permanentă pe stoc pentru întreaga gamă de borniere și conectori Phoenix Contact, iar service-ul acoperit de garanția producătorului rămâne responsabilitatea acestuia.',
+    productCodes: [
+      {
+        "code": "PT 2,5",
+        "description": "Clemă de trecere seria CLIPLINE pentru șină DIN"
+      },
+      {
+        "code": "SACC-M12-SET/2,5-3,5",
+        "description": "Set conector M12 cu garnitură de etanșare"
+      },
+      {
+        "code": "SACC-M12FS-4PL M",
+        "description": "Conector M12 pe partea de cablu, 4 pini"
+      },
+      {
+        "code": "SACC-M12-FRONTNUT HA",
+        "description": "Piuliță frontală de fixare pentru conector M12"
+      },
+      {
+        "code": "SACC-E-M12MS-5CON-M12 PSCUP",
+        "description": "Conector circular M12 pe partea de aparat, 5 contacte"
+      },
+      {
+        "code": "SACC-M12 PLUG PRESS",
+        "description": "Carcasă cu șurub pentru conector M12"
+      },
+      {
+        "code": "SACC-DSI-MS-8CON-M12 SCO",
+        "description": "Conector de aparat cu montare posterioară, 8 contacte"
+      },
+      {
+        "code": "SACC-DSI-MS-12CON-M12 SCO SH",
+        "description": "Conector de aparat ecranat, 12 contacte"
+      },
+      {
+        "code": "SACC-DSI-MS-17CON-M12 SCO",
+        "description": "Conector de aparat cu montare posterioară, 17 contacte"
+      },
+      {
+        "code": "SACC-DSI-MS-12CON-M12 SCO",
+        "description": "Conector de aparat cu montare posterioară, 12 contacte"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce reprezintă codul unui conector SACC de la Phoenix Contact?",
+        "a": "Codul indică tipul montării (pe cablu sau pe aparat), numărul de contacte și varianta constructivă a conectorului circular M12. De exemplu SACC-DSI-MS-12CON-M12 SCO descrie o variantă cu montare posterioară și 12 contacte, folosită frecvent la conectarea senzorilor industriali."
+      },
+      {
+        "q": "Ce serie de cleme aleg pentru un tablou electric Phoenix Contact?",
+        "a": "Seria PT din gama CLIPLINE este alegerea standard pentru cleme de trecere montate pe șină DIN, disponibilă în mai multe secțiuni de conductor. Pentru aplicații cu niveluri multiple sau conductoare de secțiune mare, există variante dedicate din aceeași familie de borne."
+      },
+      {
+        "q": "Livrați conectori și cleme Phoenix Contact în România?",
+        "a": "Da, aducem la comandă conectori și cleme Phoenix Contact pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă. Recomandăm indicarea codului complet pentru evitarea confuziilor între variantele foarte apropiate ca denumire."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de conectori M12 Phoenix Contact?",
+        "a": "Este util să precizați numărul de contacte, tipul de montare (pe cablu sau pe aparat), dacă este necesară ecranare și tipul filetului de fixare. Aceste detalii permit alegerea corectă între variantele din familia SACC, care diferă mult în funcție de aplicație."
+      },
+      {
+        "q": "Care e diferența dintre SACC-DSI-MS-8CON și SACC-DSI-MS-12CON?",
+        "a": "Diferența principală este numărul de contacte disponibile în conector, 8 față de 12, ceea ce determină câte semnale sau linii de alimentare pot fi transmise printr-un singur cablu. Alegerea depinde de câte semnale trebuie conectate la senzorul sau modulul respectiv."
+      }
+    ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
@@ -601,10 +1285,96 @@ Cu peste 40 filiale globale și prezență în 70+ țări, Pilz asigură suport 
       'logistics'
     ],
     sources: [
+      {"title":"Safety relays PNOZ X","url":"https://www.pilz.com/en-US/products/relay-modules/safety-relays-protection-relays/pnoz-x-safety-relays","publisher":"Pilz","accessed":"2026-09-22"},
+      {"title":"E-STOP relay / emergency stop relay PNOZsigma","url":"https://www.pilz.com/en-US/products/relay-modules/safety-relays-protection-relays/pnozsigma-safety-relays","publisher":"Pilz","accessed":"2026-09-22"},
       { title: 'About us – Leaders in safe automation - Pilz INT', url: 'https://www.pilz.com/en-INT/company', publisher: 'Pilz GmbH & Co. KG', accessed: '2026-09-22' },
       { title: 'Company History - Pilz INT', url: 'https://www.pilz.com/en-INT/company/history', publisher: 'Pilz GmbH & Co. KG', accessed: '2026-09-22' }
     ],
     limitation: 'Nu efectuăm calculul oficial al Performance Level sau validarea de siguranță ca serviciu propriu și nu confirmăm disponibilitate permanentă pe stoc pentru toate componentele PNOZ.',
+    productCodes: [
+      {
+        "code": "PNOZ X1",
+        "description": "Releu de siguranță compact pentru buton de urgență"
+      },
+      {
+        "code": "PNOZ X2",
+        "description": "Releu de siguranță pentru monitorizare poartă de protecție"
+      },
+      {
+        "code": "PNOZ X3",
+        "description": "Releu de siguranță cu funcție de temporizare"
+      },
+      {
+        "code": "PNOZ X4",
+        "description": "Modul de extindere contacte pentru seria PNOZ X"
+      },
+      {
+        "code": "PMUT X1P",
+        "description": "Releu de siguranță pentru funcția de mascare a senzorilor"
+      },
+      {
+        "code": "PSWZ X1P",
+        "description": "Releu de siguranță pentru monitorizare oprire și tensiune"
+      },
+      {
+        "code": "PNOZ s1",
+        "description": "Releu modular de siguranță pentru circuit oprire de urgență"
+      },
+      {
+        "code": "PNOZ s3",
+        "description": "Releu modular de siguranță pentru poartă de protecție"
+      },
+      {
+        "code": "PNOZ s4",
+        "description": "Releu modular de siguranță cu contacte suplimentare"
+      },
+      {
+        "code": "PNOZ s4.1",
+        "description": "Variantă a releului modular PNOZ s4"
+      },
+      {
+        "code": "PNOZ s5",
+        "description": "Releu modular de siguranță cu funcție de temporizare"
+      },
+      {
+        "code": "PNOZ s6",
+        "description": "Releu modular pentru monitorizarea comenzii bimanuale"
+      },
+      {
+        "code": "PNOZ s7",
+        "description": "Modul de extindere contacte pentru seria PNOZsigma"
+      },
+      {
+        "code": "PNOZ s9",
+        "description": "Releu modular de siguranță cu temporizare la oprire"
+      },
+      {
+        "code": "PNOZ s20",
+        "description": "Modul de extindere contacte de capacitate mărită"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seria PNOZ X și PNOZsigma de la Pilz?",
+        "a": "PNOZ X este seria clasică, cu carcasă de 22,5 până la 90 mm și un număr fix de contacte pe fiecare model. PNOZsigma este generația modulară mai compactă, unde funcțiile se combină prin adăugarea de module de extindere, ceea ce reduce spațiul ocupat în tabloul electric."
+      },
+      {
+        "q": "Ce releu de siguranță Pilz aleg pentru monitorizarea unui buton de urgență?",
+        "a": "PNOZ X1 sau PNOZ s1 sunt alegerile tipice pentru un circuit simplu de oprire de urgență, ambele oferind monitorizare cu unul sau două canale. Alegerea între seria X și seria s depinde de spațiul disponibil în tablou și de nevoia de extindere ulterioară cu module suplimentare."
+      },
+      {
+        "q": "Livrați relee de siguranță Pilz în România?",
+        "a": "Da, aducem la comandă relee de siguranță Pilz pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Contați pe un termen de livrare de 2-6 săptămâni de la comandă, variabil în funcție de model. Recomandăm confirmarea codului exact al releului existent înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de relee Pilz PNOZ?",
+        "a": "Este util să menționați funcția de siguranță necesară (oprire de urgență, poartă de protecție sau comandă bimanuală), numărul de canale și dacă este nevoie de temporizare. Codul complet al releului existent, dacă este disponibil, ajută la identificarea rapidă a echivalentului corect."
+      },
+      {
+        "q": "Câte funcții de siguranță acoperă un releu Pilz PNOZ X?",
+        "a": "Modelele din seria PNOZ X acoperă de regulă o singură funcție de siguranță pe releu, de la două la opt contacte, în funcție de variantă. Pentru mai multe funcții combinate în același dispozitiv, seria modulară PNOZsigma permite adăugarea de module suplimentare pe același releu de bază."
+      }
+    ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
@@ -669,10 +1439,80 @@ Cu facilități de producție în Italia și distribution în 60+ țări, Pneuma
       'metalworking'
     ],
     sources: [
+      {"title":"Series 2400 Line-Flat-VDMA","url":"https://pneumaxspa.com/en/products/series-2400-line-flat-vdma/","publisher":"Pneumax","accessed":"2026-09-22"},
+      {"title":"Series 2600 Line-Flat-VDMA","url":"https://pneumaxspa.com/en/products/series-2600-line-flat-vdma/","publisher":"Pneumax","accessed":"2026-09-22"},
       { title: 'Pneumax Group | Company', url: 'https://pneumaxspa.com/en/company/', publisher: 'Pneumax S.p.A.', accessed: '2026-09-22' },
       { title: 'Pneumax Company Profile', url: 'https://pneumaxspa.com/repository/ebook/EN/COMPANY-PROFILE-EN/index.html', publisher: 'Pneumax S.p.A.', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma disponibilitate permanentă pe stoc pentru curse și configurații custom Pneumax, iar producția pieselor speciale depinde de programul fabricii din Italia.',
+    productCodes: [
+      {
+        "code": "300 Series",
+        "description": "Componente pneumatice pentru automatizare de bază"
+      },
+      {
+        "code": "1800 Series",
+        "description": "Cilindri electrici cu control de poziție"
+      },
+      {
+        "code": "2400 Series",
+        "description": "Distribuitoare 5/2 tip Line-Flat cu montare VDMA"
+      },
+      {
+        "code": "2600 Series",
+        "description": "Distribuitoare tip Line-Flat cu montare VDMA, gabarit mărit"
+      },
+      {
+        "code": "3000 Series",
+        "description": "Cilindri și microcilindri pneumatici linia Steel Line"
+      },
+      {
+        "code": "3100 Series",
+        "description": "Distribuitor pneumatic cu tijă de comandă 10 mm"
+      },
+      {
+        "code": "3400 Series",
+        "description": "Distribuitor pneumatic cu tijă de comandă 15,5 mm"
+      },
+      {
+        "code": "F300 Series",
+        "description": "Componente pentru controlul fluidelor industriale"
+      },
+      {
+        "code": "PVF Series",
+        "description": "Valve pentru controlul fluidelor de proces"
+      },
+      {
+        "code": "PVA Series",
+        "description": "Valve acționate pneumatic pentru controlul fluidelor"
+      },
+      {
+        "code": "Safeline",
+        "description": "Electrovalve de siguranță pentru oprirea aerului comprimat"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce serie Pneumax aleg pentru un cilindru compact ISO 15552?",
+        "a": "Gama de cilindri și microcilindri Steel Line, din seria 3000, acoperă dimensiunile standard ISO 15552 folosite frecvent în automatizarea industrială. Alegerea diametrului și a cursei depinde de forța necesară și de spațiul de montaj disponibil pe mașină."
+      },
+      {
+        "q": "Ce este seria Line-Flat-VDMA de la Pneumax?",
+        "a": "Este o familie de distribuitoare pneumatice cu montare conform standardului VDMA, disponibilă în mai multe gabarite, precum seria 2400 și seria 2600. Forma plată permite montarea pe insule de valve compacte, cu conectare electrică integrată sau prin fieldbus."
+      },
+      {
+        "q": "Livrați cilindri și valve Pneumax în România?",
+        "a": "Da, aducem la comandă componente Pneumax pe baza cataloagelor publice ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de serie și de configurație. Confirmarea codului complet înainte de comandă reduce riscul de eroare."
+      },
+      {
+        "q": "Ce trimit pentru o ofertă de cilindru pneumatic Pneumax?",
+        "a": "Este util să precizați diametrul pistonului, cursa dorită, tipul de fixare și presiunea de lucru din instalație. Dacă aveți codul complet al cilindrului existent, identificarea echivalentului corect din seria 3000 sau 1800 se face mult mai rapid."
+      },
+      {
+        "q": "Care e diferența dintre seria 2400 și seria 2600 la Pneumax?",
+        "a": "Ambele sunt distribuitoare Line-Flat cu montare VDMA, dar diferă prin gabarit și prin debitul nominal de aer pe care îl pot comuta. Seria 2600 acoperă un debit mai mare, recomandat pentru actuatoare pneumatice de dimensiuni superioare celor deservite de seria 2400."
+      }
+    ],
     evidenceClass: 'history-only',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat' }],

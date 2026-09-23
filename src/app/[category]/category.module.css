@@ -976,3 +976,19 @@
 .updatedLine strong {
   color: var(--gray-700);
 }
+
+/* C: A–Z brand index (D-2026-09-22) */
+.azWrap { margin-top: 40px; padding-top: 28px; border-top: 1px solid #e5e7eb; }
+.azTitle { font-size: 22px; font-weight: 700; color: #0f172a; margin: 0 0 8px; }
+.azLead { color: #475569; margin: 0 0 16px; max-width: 760px; }
+.azNav { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.azNavItem { display: inline-block; min-width: 34px; text-align: center; padding: 6px 8px; border: 1px solid #e5e7eb; border-radius: 8px; font-weight: 600; color: #063c69; text-decoration: none; background: #fff; }
+.azNavItem:hover { background: #f1f5f9; }
+.azGroup { display: grid; grid-template-columns: 48px 1fr; gap: 12px; padding: 12px 0; border-bottom: 1px solid #f1f5f9; scroll-margin-top: 90px; }
+.azLetter { font-size: 22px; font-weight: 800; color: #94a3b8; line-height: 1; }
+.azList { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.azList li { margin: 0; }
+.azLink { color: #334155; text-decoration: none; }
+.azLinkRich { color: #063c69; font-weight: 600; text-decoration: none; }
+.azLink:hover, .azLinkRich:hover { text-decoration: underline; }
+@media (max-width: 640px) { .azGroup { grid-template-columns: 36px 1fr; } .azTitle { font-size: 18px; } }

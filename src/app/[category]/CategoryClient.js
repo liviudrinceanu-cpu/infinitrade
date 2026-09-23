@@ -4,6 +4,8 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone, Send, Plus, ShoppingCart } from 'lucide-react';
 import { allCategoriesUnified as categories } from '@/data/allBrandsIndex';
+import { hasBrandContent } from '@/data/brandContent';
+import { getBrandDemand } from '@/data/brandDemand';
 import { getCategoryFaq } from '@/data/categoryFaq';
 import { lastModified } from '@/data/lastModified';
 import entityFacts from '@/data/entityFacts.json';
@@ -239,6 +241,22 @@ export default function CategoryClient({ category }) {
   const headings = CATEGORY_HEADINGS[category.slug] || {};
   const featuredBrands = (category.brands || []).filter((b) => b.featured);
   const brandCount = (category.brands || []).length;
+  // D-2026-09-22 (C): with 1009 brands the flat grid no longer scales. Brands
+  // with a sourced content page come first (featured, then by Romanian search
+  // demand — ordering only, never a rendered figure); at most TOP_CARDS get a
+  // card, every brand gets a link in the A–Z list below (indexed or not: the
+  // page exists and is crawlable via follow).
+  const TOP_CARDS = 24;
+  const rankedBrands = [...(category.brands || [])]
+    .map((b) => ({ ...b, simpleSlug: toSimpleSlug(b.slug) }))
+    .map((b) => ({ ...b, hasContent: hasBrandContent(b.simpleSlug), demand: getBrandDemand(b.simpleSlug) }))
+    .sort((a, b) => (Number(b.featured) - Number(a.featured)) || (Number(b.hasContent) - Number(a.hasContent)) || (b.demand - a.demand) || a.name.localeCompare(b.name, 'ro'));
+  const topBrands = rankedBrands.slice(0, TOP_CARDS);
+  const azGroups = rankedBrands
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name, 'ro'))
+    .reduce((acc, b) => { const k = /^[0-9]/.test(b.name) ? '0–9' : b.name.charAt(0).toUpperCase(); (acc[k] = acc[k] || []).push(b); return acc; }, {});
+  const azKeys = Object.keys(azGroups).sort((a, b) => a.localeCompare(b, 'ro'));
   const productTypeCount = (category.productTypes || []).length;
   const expertFaqs = getCategoryFaq(category.slug);
   // C-03's answer-first sentence borrows the category's own first expert FAQ
@@ -337,7 +355,7 @@ export default function CategoryClient({ category }) {
           </div>
 
           <div className={styles.brandsGrid}>
-            {category.brands.map((brand, index) => (
+            {topBrands.map((brand, index) => (
               <div
                 key={brand.name}
                 className={`${styles.brandCard} ${brand.featured ? styles.brandFeatured : ''} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${brandsVisible ? 'is-visible' : ''}`}
@@ -372,6 +390,34 @@ export default function CategoryClient({ category }) {
               </div>
             ))}
           </div>
+
+          {rankedBrands.length > topBrands.length && (
+            <div className={styles.azWrap}>
+              <h3 className={styles.azTitle}>Toate cele {brandCount} de mărci de {category.name.toLowerCase()}, de la A la Z</h3>
+              <p className={styles.azLead}>
+                Mărcile marcate cu ● au pagină cu game, coduri și surse verificate; celelalte au deocamdată fișa din catalog și pot fi ofertate la comandă.
+              </p>
+              <nav className={styles.azNav} aria-label="Index alfabetic mărci">
+                {azKeys.map((k) => (
+                  <a key={k} href={`#marci-${k === '0–9' ? '0-9' : k}`} className={styles.azNavItem}>{k}</a>
+                ))}
+              </nav>
+              {azKeys.map((k) => (
+                <div key={k} id={`marci-${k === '0–9' ? '0-9' : k}`} className={styles.azGroup}>
+                  <span className={styles.azLetter}>{k}</span>
+                  <ul className={styles.azList}>
+                    {azGroups[k].map((b) => (
+                      <li key={b.simpleSlug}>
+                        <Link href={`/brand/${b.simpleSlug}`} className={b.hasContent ? styles.azLinkRich : styles.azLink}>
+                          {b.hasContent ? '● ' : ''}{b.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 

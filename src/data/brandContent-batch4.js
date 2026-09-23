@@ -113,8 +113,105 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
     infinitrade: `Pentru SEW-Eurodrive pornim de la datele publicate de producător și de la ce putem verifica direct la cerere — nu avem date proprii despre stocul real al fiecărei configurații posibile. Motoreductoarele și accesoriile ajung prin canale de aprovizionare din Uniunea Europeană: pentru dimensiunile cerute frecvent putem oferi, ca regulă generală a firmei, uneori 24–72 h din stoc, fără să promitem asta pentru un cod anume, iar restul configurațiilor se aduc la comandă în 2–6 săptămâni. Ca să pregătim o ofertă corectă, avem nevoie de tipul reductorului sau motorului, raportul de transmisie și tensiunea de alimentare dorită. Revenim cu termenul real de livrare și configurația potrivită pentru aplicația ta.`,
     limitation: `Nu putem confirma punerea în funcțiune sau intervențiile acoperite de garanția producătorului pentru fiecare configurație SEW-Eurodrive și nu oferim noi training la fața locului; aceste servicii rămân în sarcina rețelei tehnice a producătorului.`,
     sources: [
+      {"title":"Helical and Bevel-Helical Gear Units X.. Series","url":"https://download.sew-eurodrive.com/download/pdf/16931211.pdf","publisher":"SEW-EURODRIVE","accessed":"2026-09-22"},
       { title: 'Corporate Website | SEW-EURODRIVE', url: 'https://www.sew-eurodrive.com/', publisher: 'SEW-EURODRIVE GmbH & Co KG', accessed: '2026-09-22' },
       { title: 'Corporate Website | SEW-EURODRIVE', url: 'https://www.sew-eurodrive.com/en_us/index.html', publisher: 'SEW-EURODRIVE GmbH & Co KG', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "X3KS190/B",
+        "description": "Exemplu de reductor de pe eticheta, seria X"
+      },
+      {
+        "code": "X.F..",
+        "description": "Familia de reductoare helicoidale, seria X"
+      },
+      {
+        "code": "X.K..",
+        "description": "Familia de reductoare helicoidal-conice, seria X"
+      },
+      {
+        "code": "X.T..",
+        "description": "Familia de reductoare helicoidal-conice, varianta T"
+      },
+      {
+        "code": "X2F",
+        "description": "Reductor helicoidal în două trepte, seria X"
+      },
+      {
+        "code": "X3F",
+        "description": "Reductor helicoidal în trei trepte, seria X"
+      },
+      {
+        "code": "X4F",
+        "description": "Reductor helicoidal în patru trepte, seria X"
+      },
+      {
+        "code": "X2K",
+        "description": "Reductor helicoidal-conic în două trepte, seria X"
+      },
+      {
+        "code": "X3K",
+        "description": "Reductor helicoidal-conic în trei trepte, seria X"
+      },
+      {
+        "code": "X4K",
+        "description": "Reductor helicoidal-conic în patru trepte, seria X"
+      },
+      {
+        "code": "X3T",
+        "description": "Reductor helicoidal-conic în trei trepte, varianta T"
+      },
+      {
+        "code": "X4T",
+        "description": "Reductor helicoidal-conic în patru trepte, varianta T"
+      },
+      {
+        "code": "FC",
+        "description": "Cuplaj cu flansa pentru reductoarele SEW seria X"
+      },
+      {
+        "code": "OWC",
+        "description": "Racitor ulei-apa pentru reductoare industriale"
+      },
+      {
+        "code": "OWP",
+        "description": "Pompa de răcire cu apă pentru reductoare"
+      },
+      {
+        "code": "OAC",
+        "description": "Racitor ulei-aer pentru reductoare industriale"
+      },
+      {
+        "code": "OAP",
+        "description": "Pompa de răcire cu aer pentru reductoare"
+      },
+      {
+        "code": "ONP",
+        "description": "Pompa de ulei actionata de motor separat"
+      },
+      {
+        "code": "SEP",
+        "description": "Pompa de ulei montata pe capatul arborelui"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc codul unui reductor SEW, de exemplu X3KS190/B?",
+        "a": "X arată familia constructivă, 3 numărul de trepte, K tipul helicoidal-conic, următoarele cifre mărimea carcasei, iar litera de final variantele de montaj sau opțiuni suplimentare. Recomandăm să trimiteti fotografia plăcuței complete a reductorului SEW, deoarece unele cifre depind de raportul de transmisie ales la fabricație."
+      },
+      {
+        "q": "Ce diferență este între reductoarele SEW seria F și seria K?",
+        "a": "Seria F este pur helicoidală, cu axele de intrare și ieșire paralele, în timp ce seria K este helicoidal-conică, cu ieșirea perpendiculară pe motor, utilă când spațiul de montaj impune o schimbare de direcție. Numărul de trepte, 2, 3 sau 4, se alege în funcție de raportul de reducere necesar."
+      },
+      {
+        "q": "Livrați reductoare SEW în România?",
+        "a": "Da, reductoarele SEW ajung la comandă pe baza cataloagelor publice ale producătorului, fără un stoc propriu gestionat de noi. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de mărime și opțiuni de montaj, iar pentru configurații nestandard perioada poate crește."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de reductor SEW echivalent?",
+        "a": "Trimiteti plăcuța completă a reductorului existent, cu tipul, mărimea carcasei și raportul de transmisie, sau, dacă lipsește, puterea motorului, turația de ieșire dorită și cuplul necesar la arbore. Aceste date permit identificarea variantei corecte din familia X sau dintr-o serie mai veche compatibilă."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -175,8 +272,137 @@ La Infinitrade furnizăm gama completă Becker pentru industriile românești: d
     infinitrade: `Pentru pompele și suflantele Becker nu dispunem de date proprii despre stocul fiecărui model și pornim de la fișele tehnice publicate de producător. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: modelele cerute des pot fi disponibile, ca formulare generală a firmei, uneori în 24–72 h din stoc, iar configurațiile speciale se aduc la comandă în 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de aplicație (vid sau presiune), debitul necesar și presiunea finală dorită. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru cererea ta, fără promisiuni pe care nu le putem susține.`,
     limitation: `Nu putem confirma disponibilitatea unei sub-game complete (de exemplu toate variantele seriei O) fără verificare punctuală la producător și nu oferim noi intervenții acoperite de garanția producătorului.`,
     sources: [
+      {"title":"Vacuum Pump & Compressor Series","url":"https://www.becker-international.com/uk/products/pump-series.htm","publisher":"Becker","accessed":"2026-09-22"},
       { title: 'Vakuumpumpen Hersteller Becker » Pumpen vom Pioneer', url: 'https://www.becker-international.com/en/company/', publisher: 'Gebr. Becker GmbH', accessed: '2026-09-22' },
       { title: 'Vakuumpumpen Hersteller Becker » Pumpen vom Pioneer', url: 'https://www.becker-international.com/de/de/unternehmen/', publisher: 'Gebr. Becker GmbH', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "VT",
+        "description": "Pompa de vid cu palete rotative, fără ulei"
+      },
+      {
+        "code": "VX",
+        "description": "Pompa de vid cu palete rotative, capacitate medie"
+      },
+      {
+        "code": "KVT",
+        "description": "Pompa de vid cu palete rotative, capacitate mare"
+      },
+      {
+        "code": "KVX",
+        "description": "Pompa de vid cu palete rotative, varianta KVX"
+      },
+      {
+        "code": "VARIAIR KVT",
+        "description": "Pompa de vid cu turatie variabila, seria KVT"
+      },
+      {
+        "code": "VARIAIR KVX",
+        "description": "Pompa de vid cu turatie variabila, seria KVX"
+      },
+      {
+        "code": "VTLF",
+        "description": "Pompa de vid cu palete rotative, cadru mare"
+      },
+      {
+        "code": "VXLF",
+        "description": "Pompa de vid cu palete rotative, cadru mare, varianta X"
+      },
+      {
+        "code": "VARIAIR VTLF",
+        "description": "Pompa de vid cu turatie variabila, cadru mare"
+      },
+      {
+        "code": "VARIAIR VXLF",
+        "description": "Pompa de vid cu turatie variabila, cadru mare, varianta X"
+      },
+      {
+        "code": "O series",
+        "description": "Pompa de vid cu palete rotative, ungere cu ulei"
+      },
+      {
+        "code": "U series",
+        "description": "Pompa de vid cu ulei pentru debite mari"
+      },
+      {
+        "code": "VARIAIR U",
+        "description": "Pompa de vid cu ulei și turație variabilă"
+      },
+      {
+        "code": "O2-PACK",
+        "description": "Sistem de vid cu ulei, configuratie compacta"
+      },
+      {
+        "code": "U4",
+        "description": "Pompa de vid cu ulei, seria mare U4"
+      },
+      {
+        "code": "VADS",
+        "description": "Pompa de vid cu surub pentru debite foarte mari"
+      },
+      {
+        "code": "BCV",
+        "description": "Pompa de vid cu gheare, fără ulei"
+      },
+      {
+        "code": "VARIAIR BCV",
+        "description": "Pompa de vid cu gheare și turație variabilă"
+      },
+      {
+        "code": "RBP",
+        "description": "Suflanta Roots pentru amplificarea debitului de vid"
+      },
+      {
+        "code": "VASF",
+        "description": "Suflanta cu canal lateral, versiune de baza"
+      },
+      {
+        "code": "SV",
+        "description": "Suflanta cu canal lateral pentru debite variate"
+      },
+      {
+        "code": "VARIAIR SV",
+        "description": "Suflantă cu canal lateral și turație variabilă"
+      },
+      {
+        "code": "DT",
+        "description": "Compresor cu palete rotative, fără ulei"
+      },
+      {
+        "code": "KDT",
+        "description": "Compresor cu palete rotative, capacitate mare"
+      },
+      {
+        "code": "DTLF",
+        "description": "Compresor cu palete rotative, cadru mare"
+      },
+      {
+        "code": "BCP",
+        "description": "Compresor cu gheare, fără ulei"
+      },
+      {
+        "code": "DVT",
+        "description": "Unitate combinată de presiune și vid pentru aplicații duale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între pompele Becker seria VT și seria U?",
+        "a": "Seria VT este o pompă cu palete rotative fără ulei, potrivită pentru aplicații unde produsul nu trebuie contaminat, în timp ce seria U folosește ungere cu ulei și acoperă debite mai mari, fiind preferată în ambalare sau în linii industriale cu funcționare continuă. Alegerea depinde de curatenia cerută și de debitul necesar."
+      },
+      {
+        "q": "Ce inseamna prefixul VARIAIR la o pompa Becker?",
+        "a": "Prefixul VARIAIR indică versiunea cu turație variabilă a pompei de bază, de exemplu VARIAIR KVT sau VARIAIR SV, care reglează automat debitul în funcție de consum și reduce energia folosită față de o pompă cu turație fixă. Este utilă mai ales când cererea de vid sau aer variază mult în timpul zilei."
+      },
+      {
+        "q": "Livrează Becker pompe de vid în România?",
+        "a": "Da, pompele Becker sunt aduse la comandă pe baza cataloagelor publice ale producătorului, fără un stoc propriu menținut de noi. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de serie și de opțiunile solicitate, iar pentru sisteme complete perioada poate fi mai lungă."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă de pompă de vid Becker echivalentă?",
+        "a": "Trimiteti debitul necesar în metri cubi pe oră, nivelul de vid sau presiunea de lucru dorită, tipul de aplicație (ambalare, transport pneumatic, aspirație centralizată) și dacă este necesară o versiune fără ulei. Cu aceste date identificăm seria potrivită din gama Becker, de la VT până la VADS."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -237,8 +463,81 @@ La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial
     infinitrade: `La cererile pentru Donaldson pornim de la fișele publicate de producător și îți spunem clar ce putem și ce nu putem confirma despre un anumit filtru înainte de comandă. Colectoarele de praf, filtrele de aer comprimat și cele hidraulice ajung prin canale de aprovizionare din Uniunea Europeană: consumabilele uzuale pot fi, ca formulare generală a firmei, disponibile uneori în 24–72 h din stoc, iar echipamentele complete se aduc la comandă în 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de codul filtrului sau al cartușului, aplicația (praf, aer comprimat, hidraulică) și debitul de proces. Revenim cu disponibilitatea reală și configurația recomandată pentru instalația ta.`,
     limitation: `Nu putem confirma acoperirea în garanția producătorului pentru fiecare echipament instalat de client și nu configurăm noi softul de monitorizare al sistemelor Torit; pentru aceste cazuri recomandăm suportul direct al Donaldson.`,
     sources: [
+      {"title":"Industrial Dust, Fume & Mist Collection Products","url":"https://www.donaldson.com/en-us/industrial-dust-fume-mist/products/","publisher":"Donaldson","accessed":"2026-09-22"},
       { title: 'Engine and Industrial Air, Oil and Liquid Filtration | Donaldson Company, Inc.', url: 'https://www.donaldson.com/en-us/about-us/', publisher: 'Donaldson Company, Inc.', accessed: '2026-09-22' },
       { title: 'Engine and Industrial Air, Oil and Liquid Filtration | Donaldson Company, Inc.', url: 'https://www.donaldson.com/en-us/', publisher: 'Donaldson Company, Inc.', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "PowerCore",
+        "description": "Colector de praf cu filtre compacte de mare eficienta"
+      },
+      {
+        "code": "Downflo Evolution",
+        "description": "Colector de praf cu cartuse, generatie imbunatatita"
+      },
+      {
+        "code": "Downflo Workstation",
+        "description": "Colector de praf pentru posturi individuale de lucru"
+      },
+      {
+        "code": "Downflo Ambient",
+        "description": "Colector de praf pentru filtrarea aerului ambiental"
+      },
+      {
+        "code": "DFPRE",
+        "description": "Colector de praf preasamblat, versiune Downflo Evolution"
+      },
+      {
+        "code": "Dalamatic",
+        "description": "Colector de praf tip baghouse cu saci filtranti"
+      },
+      {
+        "code": "RF Series",
+        "description": "Colector de praf tip baghouse, seria RF"
+      },
+      {
+        "code": "LP Series",
+        "description": "Colector de praf tip baghouse, seria LP"
+      },
+      {
+        "code": "IRD Series",
+        "description": "Colector de praf tip baghouse, seria IRD"
+      },
+      {
+        "code": "DB800",
+        "description": "Banca de lucru cu absorbtie descendenta a prafului"
+      },
+      {
+        "code": "DCE 100",
+        "description": "Colector de praf cu cartuse, seria DCE 100"
+      },
+      {
+        "code": "TD Series",
+        "description": "Colector de praf cu cartuse, seria TD"
+      },
+      {
+        "code": "Vibra Shake",
+        "description": "Sistem de curatare prin vibratie pentru cartuse filtrante"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între colectoarele Donaldson PowerCore și Downflo?",
+        "a": "PowerCore folosește filtre compacte cu suprafață mare într-un spațiu redus, potrivit unde locul de montaj este limitat, în timp ce familia Downflo, cu variantele Evolution, Workstation și Ambient, acoperă aplicații mai clasice de captare a prafului la nivel de post de lucru sau de hală. Alegerea depinde de spațiul disponibil și de volumul de aer procesat."
+      },
+      {
+        "q": "Cum aleg între un colector Donaldson tip baghouse și unul cu cartușe?",
+        "a": "Colectoarele tip baghouse, precum seriile RF, LP sau IRD, folosesc saci filtranți și sunt potrivite pentru volume mari de praf abraziv, în timp ce colectoarele cu cartușe, precum DCE 100 sau TD Series, oferă suprafață de filtrare mai mare într-un gabarit redus. Tipul de praf și volumul de aer decid varianta corectă."
+      },
+      {
+        "q": "Livrează Donaldson sisteme de filtrare industrială în România?",
+        "a": "Da, sistemele Donaldson se aduc la comandă folosind informațiile publicate de producător, fără un stoc propriu deținut de noi. Termenul obișnuit este de 2-6 săptămâni la comandă, funcție de configurație și accesorii, iar pentru instalații complete de filtrare durata poate crește."
+      },
+      {
+        "q": "Ce date trebuie să trimit pentru o ofertă de colector de praf Donaldson?",
+        "a": "Trimiteti tipul și sursa prafului generat, volumul de aer de procesat în metri cubi pe oră, spațiul disponibil pentru montaj și dacă aveți nevoie de o soluție mobilă sau fixă. Cu aceste informații identificăm gama potrivită, de la PowerCore la Downflo sau la un colector tip baghouse."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
@@ -303,8 +602,113 @@ Noi la Infinitrade punem la dispoziție gama de pompe Ebara pentru aplicații in
     infinitrade: `Pentru pompele Ebara lucrăm cu informațiile publice disponibile despre gamă și cu ce ne confirmă producătorul la cerere, fără date proprii despre stocul fiecărei serii. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: pentru modelele cerute des putem avea, ca formulare generală a firmei, uneori 24–72 h din stoc, iar restul gamei se aduce la comandă în 2–6 săptămâni. Pentru o selecție corectă avem nevoie de debitul necesar, înălțimea de pompare (presiunea) și tipul aplicației — apă potabilă, ape uzate, incendiu sau proces industrial. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru proiectul tău.`,
     limitation: `Nu putem confirma menținerea unei sub-game complete de pompe vacuum pentru semiconductori în portofoliul local și nu oferim noi punerea în funcțiune sau intervenții acoperite de garanția producătorului pentru aceste sisteme.`,
     sources: [
+      {"title":"Products","url":"https://www.pumpsebara.com/products","publisher":"Ebara","accessed":"2026-09-22"},
       { title: 'EBARA CORPORATION', url: 'https://www.ebara.com/', publisher: 'EBARA Corporation', accessed: '2026-09-22' },
       { title: 'Company Overview | EBARA CORPORATION', url: 'https://www.ebara.com/global-en/corporate/outline/', publisher: 'EBARA Corporation', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "3U",
+        "description": "Pompă centrifugală de suprafață pentru uz general"
+      },
+      {
+        "code": "C/E (BB1)",
+        "description": "Pompă centrifugală de proces cu carcasă axială"
+      },
+      {
+        "code": "CDU/2CDU",
+        "description": "Pompă centrifugală multietajată orizontală"
+      },
+      {
+        "code": "CDX/2CDX",
+        "description": "Pompă centrifugală multietajată din inox"
+      },
+      {
+        "code": "DGUII/DGFU",
+        "description": "Pompă submersibilă cu tocător pentru ape uzate"
+      },
+      {
+        "code": "DKEU/DKEXU",
+        "description": "Pompă submersibilă pentru drenaj cu solide"
+      },
+      {
+        "code": "DLFU",
+        "description": "Pompă submersibilă pentru drenaj de mare capacitate"
+      },
+      {
+        "code": "DMLEU",
+        "description": "Pompă submersibilă multietajată pentru drenaj"
+      },
+      {
+        "code": "DSU/DSHU",
+        "description": "Pompă submersibilă pentru ape uzate menajere"
+      },
+      {
+        "code": "DVFU",
+        "description": "Pompă submersibilă vortex pentru solide"
+      },
+      {
+        "code": "DWO",
+        "description": "Pompă submersibilă de drenaj, gamă compactă"
+      },
+      {
+        "code": "DWU/DWXU",
+        "description": "Pompă submersibilă de drenaj pentru uz general"
+      },
+      {
+        "code": "EBG/EBHG",
+        "description": "Pompă submersibilă pentru foraje de mică adâncime"
+      },
+      {
+        "code": "GSU",
+        "description": "Pompă submersibilă pentru puțuri"
+      },
+      {
+        "code": "VL",
+        "description": "Pompă verticală de linie pentru circulație"
+      },
+      {
+        "code": "VS (VS3)",
+        "description": "Pompă centrifugală verticală de proces"
+      },
+      {
+        "code": "SP/SPD (BB3)",
+        "description": "Pompă centrifugală de proces multietajată axială"
+      },
+      {
+        "code": "VY/VYD/VZ (VS1)",
+        "description": "Pompă verticală suspendată pentru proces"
+      },
+      {
+        "code": "JEU",
+        "description": "Pompă de suprafață cu jet pentru presurizare"
+      },
+      {
+        "code": "EVMSU",
+        "description": "Pompă multietajată verticală din inox"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă Ebara aleg pentru evacuarea apelor uzate menajere?",
+        "a": "Seria DSU/DSHU este dedicată apelor uzate menajere, oferind un rotor capabil să vehiculeze solide de dimensiuni mici fără înfundare. Pentru ape uzate cu solide mai mari sau materiale fibroase, o pompă cu tocător din seria DGUII este mai potrivită."
+      },
+      {
+        "q": "Ce diferență este între pompele Ebara CDU și CDX?",
+        "a": "CDU este o pompă multietajată orizontală din construcție standard, potrivită pentru majoritatea aplicațiilor industriale. CDX este varianta din oțel inoxidabil, recomandată pentru apă cu conținut de cloruri sau alte medii unde rezistența la coroziune este esențială."
+      },
+      {
+        "q": "Livrați pompe Ebara în România?",
+        "a": "Da, aducem la comandă pompe Ebara pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de materialul dorit. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă submersibilă Ebara?",
+        "a": "Este util să precizați adâncimea de imersie, debitul și înălțimea de pompare necesare, precum și dacă apa vehiculată conține solide sau materiale abrazive. Aceste detalii permit alegerea corectă între seriile DSU, DGUII sau DVFU din gama Ebara."
+      },
+      {
+        "q": "Ce este pompa Ebara seria VS3?",
+        "a": "Este o pompă centrifugală verticală de proces, folosită frecvent la vehicularea unor fluide industriale unde montajul vertical economisește spațiul de amplasare. Este aleasă în funcție de debit, presiune și de compatibilitatea materialului cu fluidul de proces."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',

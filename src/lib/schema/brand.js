@@ -23,6 +23,19 @@
 // via `getBrandUpdatedDate()` instead of reading `lastModified.brands`
 // directly, so it stays identical to the visible "Actualizat:" line.
 import { getBrandUpdatedDate } from '@/data/lastModified';
+import { EXTENSION_BY_SLUG } from '@/data/brandsExtension';
+
+// D-2026-09-22: `sameAs` for the Brand node = the manufacturer's official
+// site (brandsExtension.officialUrl for the +726 brands; for the 283 base
+// brands the origin of the first cited manufacturer source). Never a
+// distributor/marketplace URL — sources[] are official sites by contract.
+function officialSameAs(brand, brandContent) {
+  const ext = EXTENSION_BY_SLUG[brand.simpleSlug];
+  if (ext && /^https?:\/\//.test(ext.officialUrl || '')) return ext.officialUrl;
+  const first = Array.isArray(brandContent?.sources) ? brandContent.sources.find((x) => /^https?:\/\//.test(x?.url || '')) : null;
+  if (!first) return null;
+  try { return new URL(first.url).origin + '/'; } catch { return null; }
+}
 
 export function buildBrandJsonLd(brand, config, brandContent) {
   const primaryCategory = brand.categories[0];
@@ -32,6 +45,16 @@ export function buildBrandJsonLd(brand, config, brandContent) {
       name: `${product.name} ${brand.name}`,
     }))
   );
+
+  const sameAs = officialSameAs(brand, brandContent);
+  const brandNode = {
+    '@type': 'Brand',
+    '@id': `${config.site.url}/brand/${brand.simpleSlug}#brand`,
+    name: brand.name,
+    ...(sameAs ? { sameAs: [sameAs] } : {}),
+  };
+  const faq = Array.isArray(brandContent?.faq) ? brandContent.faq.filter((f) => f && f.q && f.a) : [];
+  const codes = Array.isArray(brandContent?.productCodes) ? brandContent.productCodes.filter((c) => c && c.code) : [];
 
   return {
     '@context': 'https://schema.org',
@@ -65,7 +88,9 @@ export function buildBrandJsonLd(brand, config, brandContent) {
         url: `${config.site.url}/brand/${brand.simpleSlug}`,
         name: brand.name,
         dateModified: getBrandUpdatedDate(brandContent),
+        about: { '@id': brandNode['@id'] },
       },
+      brandNode,
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
@@ -101,6 +126,32 @@ export function buildBrandJsonLd(brand, config, brandContent) {
           url: `${config.site.url}/brand/${brand.simpleSlug}`,
         })),
       },
+      // B-15: series/type designations from the manufacturer's catalogue —
+      // plain ListItem names, no Product/Offer (owner decision 6).
+      ...(codes.length
+        ? [{
+            '@type': 'ItemList',
+            name: `Coduri și serii ${brand.name} cerute frecvent`,
+            numberOfItems: codes.length,
+            itemListElement: codes.map((c, index) => ({
+              '@type': 'ListItem',
+              position: index + 1,
+              name: c.description ? `${c.code} — ${c.description}` : c.code,
+            })),
+          }]
+        : []),
+      // B-16: FAQPage mirrors the visible "Întrebări frecvente" block 1:1.
+      ...(faq.length
+        ? [{
+            '@type': 'FAQPage',
+            '@id': `${config.site.url}/brand/${brand.simpleSlug}#faq`,
+            mainEntity: faq.map((f) => ({
+              '@type': 'Question',
+              name: f.q,
+              acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+          }]
+        : []),
     ],
   };
 }
