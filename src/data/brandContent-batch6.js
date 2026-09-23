@@ -1051,8 +1051,93 @@ Clienții OEM din packaging, automotive și woodworking aleg Camozzi pentru cust
     infinitrade: `Gama pneumatică Camozzi e vastă, iar noi lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare bore, cursă sau tip de valvă. Produsele ajung prin canale de aprovizionare din Uniunea Europeană, cu termen obișnuit 2-6 săptămâni la comandă; pe diametrele și cursele cerute des putem asigura 24-72 h din stoc, ca politică generală a firmei. Trimiteți-ne bore-ul și cursa cilindrului, respectiv tensiunea de acționare pentru valve, ca să confirmăm codul corect înainte de a plasa comanda. Manifoldurile custom depind de configurația validată direct cu producătorul, iar termenul se stabilește după aceea.`,
     limitation: 'Nu putem confirma disponibilitatea imediată pentru fiecare combinație bore/cursă și nici lead-time-ul exact al variantelor cu coating special fără verificare la producător.',
     sources: [
+      {"title":"Valves and solenoid valves - series 3","url":"https://media.camozzi.com/pdf/3-ENG.pdf","publisher":"Camozzi","accessed":"2026-09-23"},
       { title: 'Camozzi Automation: Leading Motion & Fluid Control Solutions for Industrial Automation, Transportation & Life Science', url: 'https://en.automation.camozzi.com/about-us/camozzi-automation.kl', publisher: 'Camozzi Automation', accessed: '2026-09-22' },
       { title: 'History Camozzi Group', url: 'https://en.camozzigroup.com/the-group/history/history.kl', publisher: 'Camozzi Group', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "338",
+        "description": "Electrovalvă 3/2 NC monostabilă cu revenire pe arc, G1/8"
+      },
+      {
+        "code": "348",
+        "description": "Electrovalvă 3/2 NO monostabilă cu revenire pe arc, G1/8"
+      },
+      {
+        "code": "334",
+        "description": "Electrovalvă 3/2 NC monostabilă cu revenire pe arc, G1/4"
+      },
+      {
+        "code": "344",
+        "description": "Electrovalvă 3/2 NO monostabilă cu revenire pe arc, G1/4"
+      },
+      {
+        "code": "358",
+        "description": "Electrovalvă 5/2 pentru comanda cilindrilor cu dublu efect, G1/8"
+      },
+      {
+        "code": "354",
+        "description": "Electrovalvă 5/2 pentru acționarea cilindrilor cu dublu efect, G1/4"
+      },
+      {
+        "code": "368",
+        "description": "Electrovalvă 5/3 cu centre închise (CC), G1/8"
+      },
+      {
+        "code": "378",
+        "description": "Electrovalvă 5/3 cu centre deschise (CO), G1/8"
+      },
+      {
+        "code": "388",
+        "description": "Electrovalvă 5/3 cu centre presurizate (CP), G1/8"
+      },
+      {
+        "code": "364",
+        "description": "Electrovalvă 5/3 configurație centre închise, G1/4"
+      },
+      {
+        "code": "374",
+        "description": "Electrovalvă 5/3 configurație centre deschise, G1/4"
+      },
+      {
+        "code": "384",
+        "description": "Electrovalvă 5/3 configurație centre presurizate, G1/4"
+      },
+      {
+        "code": "338D",
+        "description": "Dublă electrovalvă, două supape 3/2 în același corp, G1/8"
+      },
+      {
+        "code": "334D",
+        "description": "Dublă electrovalvă, două supape 3/2 în același corp, G1/4"
+      },
+      {
+        "code": "398D",
+        "description": "Dublă electrovalvă cu configurație mixtă NC/NO"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce electrovalvă Camozzi aleg pentru comanda unui cilindru cu dublu efect?",
+        "a": "Pentru cilindri cu dublu efect, seria 358 (conexiune G1/8) sau seria 354 (conexiune G1/4) din gama Camozzi Seria 3 sunt configurațiile 5/2 potrivite pentru acest tip de acționare. Alegerea între cele două depinde de dimensiunea filetului de conectare necesară pe instalația dumneavoastră și de debitul de aer solicitat de cilindru."
+      },
+      {
+        "q": "Ce diferență este între electrovalvele Camozzi cu centre închise, deschise și presurizate?",
+        "a": "Seriile 368/364 au centre închise (CC), blocând ambele părți ale actuatorului în poziția neutră. Seriile 378/374 au centre deschise (CO), permițând evacuarea liberă a aerului din ambele camere. Seriile 388/384 au centre presurizate (CP), menținând presiune pe ambele părți în poziția de mijloc, utilă la anumite aplicații de poziționare."
+      },
+      {
+        "q": "Livrați electrovalve Camozzi în România?",
+        "a": "Da, aducem electrovalve din gama Camozzi Seria 3 la comandă, conform cataloagelor publice ale producătorului; nu ținem această gamă pe raft. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de codul exact și de configurația dorită. Recomandăm confirmarea codului complet, inclusiv varianta de filet, înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de electrovalvă Camozzi?",
+        "a": "Este util să precizați funcția dorită (3/2, 5/2 sau 5/3), tipul de centru pentru configurațiile 5/3, dimensiunea filetului de conectare și tipul de comandă (electrică, manuală sau pneumatică). Aceste detalii permit identificarea rapidă a codului corect din gama Seria 3 Camozzi pentru aplicația dumneavoastră."
+      },
+      {
+        "q": "Ce înseamnă codul 338D la o electrovalvă Camozzi?",
+        "a": "Sufixul D indică o configurație dublă, cu două supape 3/2 integrate în același corp de valvă, utilă atunci când o singură poziție de montaj trebuie să controleze două circuite independente. Este o soluție compactă pentru aplicații unde spațiul de montaj pe placa de bază este limitat."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',

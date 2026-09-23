@@ -229,10 +229,133 @@ Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (p
 
     infinitrade: `Furnizăm sisteme de ungere SKF Lincoln și lubrifianți SKF prin canalele de aprovizionare pe care le avem în Uniunea Europeană. Nu avem acces la datele interne de stoc ale fabricii, așa că lucrăm din surse publice ale producătorului pentru cataloage și fișe tehnice. Ca formulare generală, reușim uneori livrarea în 24–72 h din stoc pentru componente uzuale ale lanțului nostru, iar pentru restul configurațiilor termenul este de 2–6 săptămâni la comandă, fără garanție implicită pentru un anumit produs. Ca să pregătim o ofertă corectă, avem nevoie de tipul de sistem (progresiv, dual-line, single-line), numărul de puncte de ungere și tipul de lubrifiant folosit. Îți trimitem propunerea tehnică după ce confirmăm disponibilitatea la furnizor.`,
     sources: [
+      {"title":"Product catalogue 2025 - Multi-line automatic lubrication systems","url":"https://cdn.skfmediahub.skf.com/api/public/0901d1968065a461/pdf_preview_medium/0901d1968065a461_pdf_preview_medium.pdf","publisher":"SKF","accessed":"2026-09-23"},
+      {"title":"Lincoln Spray systems, chain lubrication and specialty systems","url":"https://cdn.skfmediahub.skf.com/api/public/0901d196802d235a/pdf_preview_medium/0901d196802d235a_pdf_preview_medium.pdf","publisher":"SKF","accessed":"2026-09-23"},
+      {"title":"Improve fleet reliability with SKF and Lincoln automatic lubrication systems","url":"https://cdn.skfmediahub.skf.com/api/public/0901d1968034153f/pdf_preview_medium/0901d1968034153f_pdf_preview_medium.pdf","publisher":"SKF","accessed":"2026-09-23"},
       { title: 'About SKF', url: 'https://www.skf.com/group/about-skf', publisher: 'SKF Group', accessed: '2026-09-22' },
       { title: 'SKF', url: 'https://en.wikipedia.org/wiki/SKF', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu oferim noi service în garanția producătorului pentru controllerele electronice SKF și nu putem confirma stocul permanent pentru fiecare componentă din gama de sisteme de ungere.',
+    productCodes: [
+      {
+        "code": "MonoFlex",
+        "description": "Sistem de ungere pe linie unică, pentru lagăre de rotație și role"
+      },
+      {
+        "code": "Centro-Matic",
+        "description": "Sistem pe linie unică, cu necesar reglabil individual la fiecare punct"
+      },
+      {
+        "code": "ProFlex",
+        "description": "Sistem progresiv cu doze frecvente și măsurate de unsoare"
+      },
+      {
+        "code": "MultiFlex",
+        "description": "Sistem de ungere automată progresivă cu linii multiple"
+      },
+      {
+        "code": "Quicklub",
+        "description": "Sistem progresiv cu volume presetate de ungere, pentru aplicații de rotație"
+      },
+      {
+        "code": "DuoFlex",
+        "description": "Sistem cu două linii principale alimentate alternativ, pentru medii dificile"
+      },
+      {
+        "code": "Helios",
+        "description": "Sistem cu două linii pentru multe puncte, pe distanțe extinse"
+      },
+      {
+        "code": "Lincoln Lubrication Pinion LP2",
+        "description": "Pinion de ungere montat la inelul de rotație"
+      },
+      {
+        "code": "SP/G",
+        "description": "Pompă cu piston acționată rotativ, raport intern fix 33:1"
+      },
+      {
+        "code": "OCL-M",
+        "description": "Sistem de ungere pentru lanțuri, cu pompă cu piston și perii"
+      },
+      {
+        "code": "RA...U",
+        "description": "Pompă cu piston radial modulară, cu 1-20 ieșiri"
+      },
+      {
+        "code": "JM",
+        "description": "Pompă cu came de înaltă presiune, până la 600 bar"
+      },
+      {
+        "code": "PDYY/PDYC/PDYS",
+        "description": "Pompe pentru ungerea cilindrilor la motoare navale în doi timpi"
+      },
+      {
+        "code": "PC",
+        "description": "Pompă modulară navală cu 1-28 ieșiri și reducere prin angrenaj"
+      },
+      {
+        "code": "RA 20/45",
+        "description": "Pompă modulară cu piston radial, pentru unsori NLGI 2"
+      },
+      {
+        "code": "P 205",
+        "description": "Pompă multi-linie cu până la 5 elemente"
+      },
+      {
+        "code": "P 212",
+        "description": "Pompă de înaltă presiune cu până la 12 elemente"
+      },
+      {
+        "code": "P 215",
+        "description": "Pompă de înaltă presiune cu până la 15 elemente"
+      },
+      {
+        "code": "FB-XL",
+        "description": "Pompă rezistentă la vibrații, 1-24 ieșiri, ulei și unsori rigide"
+      },
+      {
+        "code": "P 230",
+        "description": "Pompă derivată din P 215, cu până la 30 de elemente"
+      },
+      {
+        "code": "LMC 301",
+        "description": "Controler modular extensibil cu afișaj LCD pentru mai multe pompe"
+      },
+      {
+        "code": "EOS",
+        "description": "Sistem pe linie unică pentru lanțuri lente, alimentare 12/24 VDC"
+      },
+      {
+        "code": "Quicklub 203",
+        "description": "Sistem progresiv pentru unsoare sau ulei la lanțuri mici"
+      },
+      {
+        "code": "Cobra 1X",
+        "description": "Unitate de dozare pentru lanțuri de transportor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce sistem de ungere SKF/Lincoln aleg pentru lagăre de rotație pe o macara?",
+        "a": "Pentru lagăre de rotație și role expuse la sarcini variabile, sistemul pe linie unică MonoFlex este soluția economică standard. Pentru aplicații mai solicitante, cu multe puncte de ungere pe o macara, un sistem progresiv precum Quicklub sau ProFlex oferă doze mai precise și control mai bun al fiecărui punct."
+      },
+      {
+        "q": "Ce diferență este între sistemele SKF DuoFlex și Helios?",
+        "a": "DuoFlex funcționează cu două linii principale alimentate alternativ cu lubrifiant, fiind recomandat pentru condiții dificile, precum aplicațiile offshore. Helios este de asemenea un sistem cu două linii, dar este orientat spre instalații cu foarte multe puncte de ungere distribuite pe distanțe mari, unde presiunea trebuie menținută constantă pe traseu lung."
+      },
+      {
+        "q": "Livrați sisteme de lubrifiere SKF Lincoln în România?",
+        "a": "Da, aducem pompe și sisteme de ungere SKF Lincoln la comandă, conform cataloagelor publice ale producătorului, fără stoc propriu ținut pe aceste coduri. Termenul uzual este de 2-6 săptămâni la comandă, în funcție de componentă și de configurația pompei. Recomandăm confirmarea codului exact al pompei sau sistemului ales."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de sistem de ungere automată SKF?",
+        "a": "Este util să precizați numărul de puncte de ungere, distanța dintre acestea, tipul de lubrifiant folosit (ulei sau unsoare, și clasa NLGI dacă este cazul) și dacă aplicația necesită o pompă cu montaj pe utilaj sau un sistem centralizat. Aceste date orientează alegerea între gamele progresive sau pe linie unică."
+      },
+      {
+        "q": "Ce este pompa SKF Lincoln seria P 215?",
+        "a": "Este o pompă de înaltă presiune pentru sisteme multi-linie, cu până la 15 elemente de pompare disponibile în dimensiuni diferite, livrată cu motor sau cu capăt de ax liber. Este folosită la mașini cu un consum ridicat de lubrifiant, unde un singur post central trebuie să deservească multe puncte simultan."
+      }
+    ],
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
     evidenceClass: 'gsc-only'
@@ -452,10 +575,128 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
 
     infinitrade: `Aducem echipamente Spirax Sarco (oale de condens, regulatoare de presiune, schimbătoare de căldură) prin canalele de aprovizionare din spațiul UE cu care lucrăm. Nu putem confirma stocul intern al producătorului, așa că ne raportăm la informațiile publice disponibile din documentația tehnică Spirax Sarco. Ca regulă generală, unele repere ajung în 24–72 h din stoc atunci când sunt deja în lanțul nostru, iar restul configurațiilor se livrează în 2–6 săptămâni la comandă, fără să garantăm disponibilitatea unui model anume dinainte. Pentru o propunere corectă avem nevoie de presiunea și debitul de abur, temperatura de lucru și tipul aplicației (schimbător, reducție presiune, evacuare condens). Revenim cu termenul confirmat de furnizor și specificațiile complete.`,
     sources: [
+      {"title":"Thermodynamic Steam Traps","url":"https://www.spiraxsarco.com/global/en-US/products/steam-traps/thermodynamic-steam-traps","publisher":"Spirax Sarco","accessed":"2026-09-23"},
+      {"title":"Float and Thermostatic Steam Traps","url":"https://www.spiraxsarco.com/global/en-US/products/steam-traps/float-and-thermostatic-steam-traps","publisher":"Spirax Sarco","accessed":"2026-09-23"},
       { title: 'Spirax Sarco – Global', url: 'https://www.spiraxsarco.com/global/en', publisher: 'Spirax Sarco', accessed: '2026-09-22' },
       { title: 'Spirax-Sarco Engineering', url: 'https://en.wikipedia.org/wiki/Spirax-Sarco_Engineering', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu oferim noi auditul energetic certificat direct de producător și nu putem confirma stocul permanent pentru fiecare model de oală de condens sau regulator.',
+    productCodes: [
+      {
+        "code": "TD42L",
+        "description": "Oală de condens termodinamică, dimensiune mică, variantă standard"
+      },
+      {
+        "code": "TD42H",
+        "description": "Oală de condens termodinamică, variantă de presiune mai înaltă"
+      },
+      {
+        "code": "TD52",
+        "description": "Oală de condens termodinamică cu construcție standard"
+      },
+      {
+        "code": "TD62LM",
+        "description": "Oală de condens termodinamică cu scaun înlocuibil, flanșată"
+      },
+      {
+        "code": "TD62M",
+        "description": "Oală de condens termodinamică cu scaun înlocuibil, filetată sau sudată"
+      },
+      {
+        "code": "TD120M",
+        "description": "Oală de condens termodinamică de înaltă presiune, cu scaun înlocuibil"
+      },
+      {
+        "code": "TDC46M",
+        "description": "Oală de condens termodinamică din oțel carbon, cu scaun mentenabil"
+      },
+      {
+        "code": "TDS46M",
+        "description": "Oală de condens termodinamică din oțel inoxidabil, cu scaun mentenabil"
+      },
+      {
+        "code": "TDA52",
+        "description": "Variantă de drenaj lichid pe bază termodinamică"
+      },
+      {
+        "code": "TDT",
+        "description": "Capcană termodinamică pentru aplicații de însoțire termică (tracer)"
+      },
+      {
+        "code": "BTD52L",
+        "description": "Oală de condens termodinamică pentru industria alimentară"
+      },
+      {
+        "code": "UTD42L",
+        "description": "Oală de condens termodinamică universală, variantă mică"
+      },
+      {
+        "code": "UTD52",
+        "description": "Oală de condens termodinamică universală, serie standard"
+      },
+      {
+        "code": "FT15",
+        "description": "Oală de condens cu flotor și termostat, din fontă"
+      },
+      {
+        "code": "FT30",
+        "description": "Oală de condens cu flotor și termostat, din fontă, dimensiune medie"
+      },
+      {
+        "code": "FT75",
+        "description": "Oală de condens cu flotor și termostat, din fontă, capacitate mare"
+      },
+      {
+        "code": "FT450",
+        "description": "Oală de condens din oțel turnat, DN80/DN100"
+      },
+      {
+        "code": "FT46",
+        "description": "Oală de condens cu flotor din oțel inoxidabil, DN15-DN50"
+      },
+      {
+        "code": "FTC23",
+        "description": "Oală de condens cu flotor din oțel carbon, pentru presiune înaltă"
+      },
+      {
+        "code": "FTS14",
+        "description": "Oală de condens cu flotor din oțel inoxidabil austenitic"
+      },
+      {
+        "code": "FTS300",
+        "description": "Oală de condens mare din oțel inoxidabil"
+      },
+      {
+        "code": "IFT14",
+        "description": "Oală de condens cu flotor și senzor Spiratec integrat"
+      },
+      {
+        "code": "UFT32",
+        "description": "Oală de condens cu flotor sigilată, din oțel inoxidabil"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce oală de condens Spirax Sarco aleg pentru o linie de abur de presiune medie?",
+        "a": "Pentru presiuni medii pe o linie standard de abur, seria termodinamică TD52 sau TD62M acoperă majoritatea aplicațiilor industriale curente. Pentru presiuni mai ridicate, unde este necesar un scaun înlocuibil rezistent la uzură, modelul TD120M este alegerea potrivită datorită construcției sale de înaltă presiune."
+      },
+      {
+        "q": "Ce diferență este între oalele de condens Spirax Sarco cu flotor și cele termodinamice?",
+        "a": "Oalele cu flotor și termostat, precum seria FT, evacuează condensul continuu pe măsură ce se formează, fiind potrivite acolo unde debitul de condens variază des. Oalele termodinamice, precum seria TD, funcționează cu un singur disc mobil și sunt mai compacte, recomandate pentru linii de abur unde spațiul de montaj este limitat."
+      },
+      {
+        "q": "Livrați oale de condens Spirax Sarco în România?",
+        "a": "Da, aducem oale de condens Spirax Sarco la comandă, conform gamelor publicate oficial de producător, fără să ținem aceste coduri pe stoc propriu. Termenul obișnuit de livrare este 2-6 săptămâni, în funcție de model și de materialul corpului. Recomandăm confirmarea codului exact, inclusiv presiunea de lucru, înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de oală de condens Spirax Sarco?",
+        "a": "Este util să precizați presiunea de lucru a instalației, materialul dorit pentru corpul oalei (fontă, oțel carbon sau inox), debitul de condens estimat și tipul conexiunii (flanșată, filetată sau sudată). Aceste detalii permit alegerea corectă între seriile TD, FT sau variantele speciale precum FTC sau UFT."
+      },
+      {
+        "q": "Ce este oala de condens Spirax Sarco tip IFT14?",
+        "a": "Este o oală de condens cu flotor care integrează un senzor Spiratec, folosit pentru monitorizarea funcționării oalei și detectarea pierderilor de abur sau a blocajelor. Este utilă în instalații unde funcționarea corectă a fiecărei oale de condens trebuie verificată fără intervenție manuală constantă pe teren."
+      }
+    ],
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
     evidenceClass: 'gsc-only'
@@ -957,10 +1198,115 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
 
     infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu cataloagele tehnice publice ale producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 2–6 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o cotație corectă trimite-ne codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
     sources: [
+      {"title":"Timken Tapered Roller Bearing Catalog","url":"https://www.timken.com/wp-content/uploads/2022/11/Timken-Tapered-Roller-Bearing-Catalog_10481.pdf","publisher":"Timken","accessed":"2026-09-23"},
       { title: 'Advanced Motion Technology Solutions | The Timken Company', url: 'https://www.timken.com/', publisher: 'The Timken Company', accessed: '2026-09-22' },
       { title: 'Timken Company', url: 'https://en.wikipedia.org/wiki/Timken_Company', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma stocul permanent pentru rulmenți de dimensiuni mari sau configurații speciale și nu oferim noi serviciile de proiectare custom ale reductoarelor Philadelphia Gear.',
+    productCodes: [
+      {
+        "code": "TS",
+        "description": "Rulment conic cu un rând, cușcă din tablă sau bolțuri"
+      },
+      {
+        "code": "TSF",
+        "description": "Rulment conic cu un rând și inel exterior flanșat"
+      },
+      {
+        "code": "TSL",
+        "description": "Rulment conic cu un rând și etanșare DUO-FACE Plus"
+      },
+      {
+        "code": "TDO",
+        "description": "Rulment conic cu două rânduri, inel exterior dintr-o bucată"
+      },
+      {
+        "code": "TDI",
+        "description": "Rulment conic cu două rânduri și inel interior dublu"
+      },
+      {
+        "code": "TDIT",
+        "description": "Rulment conic cu inel interior dublu și alezaj conic"
+      },
+      {
+        "code": "TNA",
+        "description": "Ansamblu conic neajustabil pentru montaj rapid în bloc"
+      },
+      {
+        "code": "TNASW",
+        "description": "Ansamblu conic neajustabil cu canale pentru ungere"
+      },
+      {
+        "code": "TNASWE",
+        "description": "Ansamblu conic neajustabil cu canale de ungere și flanșă extinsă"
+      },
+      {
+        "code": "2TS-IM",
+        "description": "Ansamblu cu două rulmente conice, montaj indirect"
+      },
+      {
+        "code": "2TS-DM",
+        "description": "Ansamblu cu două rulmente conice, montaj direct"
+      },
+      {
+        "code": "2S",
+        "description": "Ansamblu cu două rulmente conice și distanțier cu inel de siguranță"
+      },
+      {
+        "code": "SR",
+        "description": "Ansamblu de rulmenți conici tip SET-RIGHT, pentru reglaj rapid al jocului"
+      },
+      {
+        "code": "TTHD",
+        "description": "Rulment axial cu role conice, execuție grea"
+      },
+      {
+        "code": "TTHDFL",
+        "description": "Rulment axial cu role conice și cale de rulare plată"
+      },
+      {
+        "code": "TTVS",
+        "description": "Rulment axial cu role conice, cale autoaliniantă"
+      },
+      {
+        "code": "TTSP",
+        "description": "Rulment axial cu role conice, execuție ușoară, cu cușcă"
+      },
+      {
+        "code": "TTC",
+        "description": "Rulment axial cu role conice, configurație standard cu cușcă"
+      },
+      {
+        "code": "TTCS",
+        "description": "Rulment axial cu role conice, variantă de cușcă separată"
+      },
+      {
+        "code": "TTCL",
+        "description": "Rulment axial cu role conice, variantă cu cale lungă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce rulment conic Timken aleg pentru sarcini radiale și axiale combinate?",
+        "a": "Familia TS este punctul de plecare pentru montaje generale cu sarcini combinate, într-un singur rând de role. Pentru sarcini mai mari sau montaje care cer rigiditate sporită, o variantă cu două rânduri precum TDO sau un ansamblu tip 2TS oferă capacitate portantă superioară pe același ax."
+      },
+      {
+        "q": "Ce diferență este între rulmenții Timken TS și TDO?",
+        "a": "TS este un rulment conic clasic cu un singur rând de role, potrivit pentru majoritatea aplicațiilor industriale cu sarcină moderată. TDO are două rânduri de role și un inel exterior dintr-o singură bucată, fiind ales atunci când spațiul axial este limitat, dar sarcina impune o rigiditate mai mare."
+      },
+      {
+        "q": "Livrați rulmenți Timken în România?",
+        "a": "Da, comandăm rulmenți Timken pornind de la fișele publice de produs ale producătorului, fără evidențe interne de stoc pe gama completă. Perioada uzuală este de 2-6 săptămâni de la confirmarea comenzii, în funcție de dimensiune și de disponibilitatea la fabrică. Codul exact al rulmentului trebuie confirmat înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de rulment conic Timken?",
+        "a": "Ajută să indicați diametrul alezajului, diametrul exterior și lățimea rulmentului, sarcina estimată și tipul montajului (simplu, dublu sau ansamblu preajustat). Aceste date permit alegerea între o construcție cu un rând, precum TS, sau un ansamblu cu două rânduri, precum 2TS-IM ori 2TS-DM."
+      },
+      {
+        "q": "Ce este ansamblul Timken tip SET-RIGHT (SR)?",
+        "a": "Este un ansamblu de doi rulmenți conici livrat preajustat din fabrică pentru un anumit joc axial, gândit să reducă timpul de montaj la utilizator. Elimină reglajele manuale ale jocului pe care le presupune un montaj clasic cu piese individuale, fiind util în producția de serie."
+      }
+    ],
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
     evidenceClass: 'transactional'
@@ -1030,10 +1376,100 @@ Dar Trane nu e doar about hardware - oferă și servicii de energy audit, buildi
 
     infinitrade: `Aducem echipamente HVAC Trane (chillere, rooftop units, unități de tratare aer, pompe de căldură) prin canalele de aprovizionare din UE cu care lucrăm în mod obișnuit. Nu deținem date proprii despre stocul fabricilor Trane și ne bazăm pe informațiile publice ale producătorului pentru selecție și dimensionare. Ca formulare generală a firmei, unele accesorii sau piese uzuale pot ajunge în 24–72 h din stoc din lanțul nostru, dar echipamentele AHU custom sau chillerele mari se livrează în 2–6 săptămâni la comandă, funcție de configurație. Pentru un studiu corect trimite-ne necesarul termic/frigorific, suprafața sau volumul spațiului și cerințele de calitate a aerului. Revenim cu o propunere tehnică și termenul confirmat de furnizor.`,
     sources: [
+      {"title":"CenTraVac Water-cooled Chillers Product Catalog","url":"https://elibrary.tranetechnologies.com/public/commercial-hvac/Literature/Product%20Catalog/CTV-PRC021G-EN_12202024.pdf","publisher":"Trane Technologies","accessed":"2026-09-23"},
+      {"title":"Voyager I Rooftop Units Catalog","url":"https://www.trane.com/content/dam/Trane/Commercial/EMEIA/sales-offices/Turkey/Urunler%20ve%20Sistemler/Product/Voyager%20I-CATALOG-Cooling_Gas%20Fired.pdf","publisher":"Trane Technologies","accessed":"2026-09-23"},
       { title: 'Trane Technologies | A Leader in Climate and Sustainability', url: 'https://www.tranetechnologies.com/', publisher: 'Trane Technologies', accessed: '2026-09-22' },
       { title: 'Trane Technologies', url: 'https://en.wikipedia.org/wiki/Trane_Technologies', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma stocul permanent pentru echipamente AHU custom-built și nu oferim noi contractele de service la fața locului ale Trane.',
+    productCodes: [
+      {
+        "code": "CVHE",
+        "description": "Chiller centrifugal CenTraVac, o singură incintă, capacitate mică-medie"
+      },
+      {
+        "code": "CVHF",
+        "description": "Chiller centrifugal CenTraVac, generație EarthWise, capacitate medie"
+      },
+      {
+        "code": "CVHG",
+        "description": "Chiller centrifugal CenTraVac, o singură incintă, capacitate mare"
+      },
+      {
+        "code": "CDHF",
+        "description": "Chiller centrifugal CenTraVac Duplex, două circuite, capacitate medie"
+      },
+      {
+        "code": "CDHG",
+        "description": "Chiller centrifugal CenTraVac Duplex, două circuite, capacitate mare"
+      },
+      {
+        "code": "CVHH",
+        "description": "Chiller centrifugal CenTraVac de medie tensiune, seria E"
+      },
+      {
+        "code": "CDHH",
+        "description": "Chiller centrifugal CenTraVac Duplex de medie tensiune, seria E"
+      },
+      {
+        "code": "TSD060",
+        "description": "Rooftop Voyager pe răcire, montaj vertical, treaptă de capacitate 60"
+      },
+      {
+        "code": "TSD090",
+        "description": "Rooftop Voyager pe răcire, montaj vertical, treaptă de capacitate 90"
+      },
+      {
+        "code": "TSD120",
+        "description": "Rooftop Voyager pe răcire, montaj vertical, treaptă de capacitate 120"
+      },
+      {
+        "code": "TSH060",
+        "description": "Rooftop Voyager pe răcire, montaj orizontal, treaptă de capacitate 60"
+      },
+      {
+        "code": "TSH090",
+        "description": "Rooftop Voyager pe răcire, montaj orizontal, treaptă de capacitate 90"
+      },
+      {
+        "code": "WSD060",
+        "description": "Rooftop Voyager cu pompă de căldură, montaj vertical, treaptă 60"
+      },
+      {
+        "code": "WSH060",
+        "description": "Rooftop Voyager cu pompă de căldură, montaj orizontal, treaptă 60"
+      },
+      {
+        "code": "YSD060",
+        "description": "Rooftop Voyager cu încălzire pe gaz, montaj vertical, treaptă 60"
+      },
+      {
+        "code": "YSH060",
+        "description": "Rooftop Voyager cu încălzire pe gaz, montaj orizontal, treaptă 60"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce chiller Trane CenTraVac se potrivește pentru o clădire de birouri de capacitate medie?",
+        "a": "Un model din familia CVHF, cu o singură incintă și capacitate medie, acoperă majoritatea clădirilor comerciale obișnuite. Pentru sarcini termice mai mari sau pentru redundanță operațională, varianta Duplex CDHF, cu două circuite frigorifice independente, permite funcționarea parțială chiar dacă un circuit este oprit pentru mentenanță."
+      },
+      {
+        "q": "Ce diferență este între unitățile rooftop Trane Voyager cu cod TSD și TSH?",
+        "a": "Ambele coduri desemnează aceeași treaptă de capacitate pe funcția de răcire, însă diferă prin orientarea montajului pe acoperiș: TSD este gândită pentru instalare cu racorduri verticale, iar TSH pentru instalare cu racorduri orizontale. Alegerea depinde de configurația canalelor de aer din clădire."
+      },
+      {
+        "q": "Livrați echipamente Trane în România?",
+        "a": "Da, comandăm chillere și unități rooftop Trane pe baza cataloagelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru gama completă. Termenul obișnuit este 2-6 săptămâni la comandă, în funcție de model și de opțiunile solicitate, iar codul unității trebuie confirmat înaintea plasării comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de rooftop Trane Voyager?",
+        "a": "Sunt utile capacitatea de răcire necesară, tipul de încălzire dorit (electrică, pe gaz sau pompă de căldură) și orientarea de montaj pe acoperiș. Din aceste elemente rezultă familia potrivită dintre TSD/TSH pentru răcire simplă, WSD/WSH cu pompă de căldură sau YSD/YSH cu ardere pe gaz."
+      },
+      {
+        "q": "Ce înseamnă seriile Trane CDHF și CDHG la chillerele CenTraVac?",
+        "a": "Ambele sunt variante Duplex, cu două circuite frigorifice separate în aceeași carcasă, ceea ce oferă o rezervă de funcționare parțială la o eventuală defecțiune. CDHF acoperă treapta de capacitate medie a gamei, iar CDHG este destinată proiectelor cu necesar de răcire mai ridicat."
+      }
+    ],
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat (Davidson, NC, SUA → Swords, Irlanda, sediu Trane Technologies)' }],
     evidenceClass: 'transactional'

@@ -188,8 +188,69 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
     infinitrade: "Aducem echipamente GESTRA pentru gestionarea aburului și condensului — oale de condens cu plutitor și termodinamice, senzori de nivel NRG și sisteme de golire continuă și discontinuă — către centrale termice și fabrici de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii despre stocul fabricii și verificăm fiecare model potrivit în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a oalei compatibile, trimiteți-ne debitul de condens, presiunea de lucru și modelul montat deja pe conductă, dacă îl cunoașteți. Oalele de condens și piesele de uzură uzuale ajung de regulă în 24–72 h, iar sistemele de control de nivel sau de golire completă, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma configurarea software a monitorizării digitale sau service în garanția producătorului — pentru acestea recomandăm contactarea rețelei GESTRA/Flowserve.",
     sources: [
+      {"title":"Steam Traps | GESTRA | USA","url":"https://www.gestra.com/global/en-US/products/steam-traps","publisher":"GESTRA","accessed":"2026-09-23"},
       { title: "Welcome to GESTRA | Engineering steam performance", url: "https://www.gestra.com", publisher: "GESTRA GmbH (Flowserve)", accessed: "2026-09-22" },
       { title: "GESTRA – site oficial (EN)", url: "https://www.gestra.com/en", publisher: "GESTRA GmbH (Flowserve)", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "AK",
+        "description": "Oală de condens automată pentru evacuare aer și condens la pornire"
+      },
+      {
+        "code": "BK",
+        "description": "Oală de condens bimetalică pentru abur supraîncălzit și trasee de încălzire"
+      },
+      {
+        "code": "DK",
+        "description": "Oală de condens termodinamică compactă pentru sarcini termice cu variații mici"
+      },
+      {
+        "code": "GMF",
+        "description": "Sistem de manifold pentru distribuția aburului și colectarea condensului"
+      },
+      {
+        "code": "MK",
+        "description": "Oală de condens cu membrană pentru abur saturat și trasee de încălzire"
+      },
+      {
+        "code": "SMK",
+        "description": "Oală de condens termostatică pentru aplicații sterile din industria farmaceutică"
+      },
+      {
+        "code": "UNA",
+        "description": "Oală de condens cu plutitor pentru schimbătoare de căldură reglate cu abur"
+      },
+      {
+        "code": "UNA 25-PK-PS",
+        "description": "Oală de condens cu plutitor și funcție de pompare pentru sarcini variabile"
+      },
+      {
+        "code": "VK",
+        "description": "Sistem de monitorizare vizuală sau electronică a oalelor de condens"
+      },
+      {
+        "code": "VKP",
+        "description": "Echipament de testare a oalelor de condens pentru reducerea pierderilor de abur"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce oală de condens GESTRA aleg pentru abur saturat cu variații mici de sarcină?",
+        "a": "Seria DK, de tip termodinamic, este recomandată pentru procese de încălzire cu fluctuații reduse ale sarcinii termice, fiind compactă și ușor de întreținut. Pentru sarcini mai variabile sau capacități mai mari de condens, o oală cu membrană din seria MK sau una cu plutitor din seria UNA este mai potrivită."
+      },
+      {
+        "q": "Ce diferență este între oalele de condens GESTRA UNA și MK?",
+        "a": "UNA folosește un plutitor care urmărește nivelul condensului și se deschide continuu, fiind potrivită pentru schimbătoare de căldură cu sarcini mari și variabile. MK este o oală termostatică cu membrană, care lucrează ciclic și este recomandată pentru abur saturat, trasee de încălzire și aplicații unde spațiul de montaj este redus."
+      },
+      {
+        "q": "Livrați oale de condens GESTRA în România?",
+        "a": "Da, aducem oalele de condens GESTRA la comandă, pornind strict de la paginile publice de produs ale producătorului; nu păstrăm o gamă proprie pe raft. În mod obișnuit durează 2-6 săptămâni la comandă, funcție de model și de presiunea de lucru specificată. Recomandăm confirmarea codului exact al seriei înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de oală de condens GESTRA?",
+        "a": "Este util să precizați presiunea aburului, debitul de condens estimat și tipul aplicației (încălzire, sterilizare sau proces industrial general). Aceste detalii permit alegerea corectă între o oală cu plutitor din seria UNA, una termodinamică din seria DK sau o variantă sterilă din seria SMK pentru aplicații farmaceutice."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
@@ -549,8 +610,109 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
     infinitrade: "Facilităm achiziția de sisteme de conducte, robineți și fitinguri GF Piping Systems — PVC-U, PP, PE și PVDF, robineți cu diafragmă și cu bilă, plus sistemul preizolat COOL-FIT — pentru stații de tratare a apei și instalații chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare diametru și verificăm compatibilitatea materialului în informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne fluidul vehiculat, presiunea și temperatura de lucru. Diametrele și fitingurile uzuale din PVC-U și PP sunt de regulă disponibile în 24–72 h, iar configurațiile cu robineți automatizați sau senzori Signet integrați ajung în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma o disponibilitate garantată pe întreaga gamă de diametre și materiale, nici service de sudură pe șantier — acestea rămân la latitudinea rețelei tehnice GF.",
     sources: [
+      {"title":"Product catalogue Valves and Measurement Portfolio","url":"https://www.gfps.com/content/dam/gfps/com/product-ranges/en/gfps-00049-product-range-valves-and-measurement-en.pdf","publisher":"GF Piping Systems","accessed":"2026-09-23"},
       { title: "Georg Fischer Ltd – Corporate site", url: "https://www.georgfischer.com", publisher: "Georg Fischer AG", accessed: "2026-09-22" },
       { title: "GF Piping Systems", url: "https://www.gfps.com", publisher: "Georg Fischer AG (GF Piping Systems)", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "Type 375",
+        "description": "Robinet cu bilă manual din PVC-U, gamă de bază"
+      },
+      {
+        "code": "Type 546 Pro",
+        "description": "Robinet cu bilă pe toată gama, DN10 până la DN100"
+      },
+      {
+        "code": "Type 546 Pro P",
+        "description": "Robinet cu bilă Type 546 cu acționare pneumatică"
+      },
+      {
+        "code": "Type 546 Pro E-127",
+        "description": "Robinet cu bilă cu acționare electrică și actuator EA15"
+      },
+      {
+        "code": "Type 543 Pro",
+        "description": "Robinet cu bilă cu trei căi pentru amestec sau distribuție"
+      },
+      {
+        "code": "Type 522",
+        "description": "Robinet cu bilă de laborator, dimensiune minimă DN6"
+      },
+      {
+        "code": "Type 565",
+        "description": "Robinet fluture cu etanșare elastomerică pentru apă, DN50-DN300"
+      },
+      {
+        "code": "Type 567",
+        "description": "Robinet fluture cu excentricitate dublă pentru medii chimice"
+      },
+      {
+        "code": "Type 578",
+        "description": "Robinet fluture cu excentricitate dublă, variantă compactă"
+      },
+      {
+        "code": "Type 514",
+        "description": "Robinet cu diafragmă pentru aplicații curente, DN15-DN50"
+      },
+      {
+        "code": "Type 515",
+        "description": "Robinet cu diafragmă pentru aplicații solicitante, DN15-DN50"
+      },
+      {
+        "code": "Type 517/317",
+        "description": "Robinet cu diafragmă versatil, DN15-DN150"
+      },
+      {
+        "code": "DIASTAR Six",
+        "description": "Robinet cu diafragmă pentru presiuni de până la 6 bar"
+      },
+      {
+        "code": "DIASTAR Ten",
+        "description": "Robinet cu diafragmă pneumatic pentru presiuni de până la 10 bar"
+      },
+      {
+        "code": "Type 561/562",
+        "description": "Clapetă de reținere, DN10-DN100"
+      },
+      {
+        "code": "Type 369",
+        "description": "Clapetă de reținere tip wafer, DN32-DN300"
+      },
+      {
+        "code": "Type 2551",
+        "description": "Traductor de debit electromagnetic de inserție"
+      },
+      {
+        "code": "Type 2581",
+        "description": "Debitmetru cu bloc integral, tip FlowtraMag"
+      },
+      {
+        "code": "Type 2291",
+        "description": "Traductor de nivel cu radar ghidat"
+      },
+      {
+        "code": "Type 2298",
+        "description": "Traductor de nivel cu radar fără contact"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce robinet cu bilă din plastic Georg Fischer aleg pentru o linie chimică?",
+        "a": "Robinetul Type 546 Pro este varianta completă pe întreaga gamă, de la DN10 la DN100, potrivit pentru majoritatea aplicațiilor cu apă și substanțe chimice compatibile cu PVC-U sau PP. Pentru amestec sau distribuție cu mai multe porturi, robinetul Type 543 Pro cu trei căi este soluția potrivită, iar pentru acționare automată există variantele Pro P și Pro E."
+      },
+      {
+        "q": "Ce diferență este între robinetele fluture Georg Fischer Type 565 și Type 567?",
+        "a": "Type 565 are etanșare elastomerică și este destinat aplicațiilor cu apă, acoperind diametre de la DN50 la DN300. Type 567 folosește o construcție cu excentricitate dublă, recomandată pentru manipularea substanțelor chimice agresive, cu un domeniu extins de la DN50 până la DN600 și o durată de viață mai mare a garniturii."
+      },
+      {
+        "q": "Livrați robinete și instrumentație de proces Georg Fischer în România?",
+        "a": "Da, produsele Georg Fischer (GF Piping Systems) se aduc la comandă, respectând paginile publice ale producătorului, fără un stoc propriu constituit dinainte. Perioada tipică este de 2-6 săptămâni la comandă, în funcție de tipul robinetului, materialul dorit și acționarea aleasă. Recomandăm confirmarea tipului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de robinet Georg Fischer?",
+        "a": "Este util să precizați diametrul nominal, materialul conductei (PVC-U, PP sau PE), presiunea de lucru și tipul de acționare dorit (manuală, pneumatică sau electrică). Pentru instrumentația de proces, contează și tipul de semnal de ieșire necesar, precum și mediul măsurat, pentru alegerea corectă a senzorului Georg Fischer."
+      }
     ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
@@ -613,8 +775,98 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
     infinitrade: "Sprijinim proiectele din industria farmaceutică, biotehnologică și alimentară din România cu robineți cu membrană GEMÜ — seria 550 din plastic și seria 600 din inox, plus actuatoarele pneumatice și electronica de proces asociată — comandate prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii de stoc pe fiecare configurație și ne raportăm la informațiile publice disponibile ale producătorului pentru materialul membranei și finisajul de suprafață. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, fluidul vehiculat și cerințele de validare ale proiectului. Robinetele și actuatoarele din configurațiile standard ajung de regulă în 24–72 h, iar componentele cu certificări speciale sau execuțiile single-use SUMONDO, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem emite documentație de validare proprie pentru proiectele farmaceutice și nici garanta o disponibilitate constantă pe execuțiile SUMONDO — acestea depind de comanda către producător.",
     sources: [
+      {"title":"Diaphragm valves","url":"https://www.gemu-group.com/en-us/products/valve-technology/diaphragm-valves","publisher":"GEMÜ","accessed":"2026-09-23"},
+      {"title":"Ball valves","url":"https://www.gemu-group.com/en-us/products/valve-technology/ball-valves","publisher":"GEMÜ","accessed":"2026-09-23"},
       { title: "GEMÜ Group – Innovative control technology", url: "https://www.gemu-group.com", publisher: "GEMÜ Gebr. Müller Apparatebau GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "GEMÜ Group (EN_INT)", url: "https://www.gemu-group.com/en_INT", publisher: "GEMÜ Gebr. Müller Apparatebau GmbH & Co. KG", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "629",
+        "description": "Robinet cu membrană electric acționat, oțel inoxidabil, capete sudate"
+      },
+      {
+        "code": "639",
+        "description": "Robinet cu membrană electric acționat, racord sanitar pentru sterilitate"
+      },
+      {
+        "code": "R639",
+        "description": "Robinet cu membrană electric acționat, corp din plastic, racord sanitar"
+      },
+      {
+        "code": "R629",
+        "description": "Robinet cu membrană electric acționat, corp din plastic, racorduri filetate"
+      },
+      {
+        "code": "638",
+        "description": "Robinet cu membrană electric acționat, racord cu flanșă și roată manuală"
+      },
+      {
+        "code": "628",
+        "description": "Robinet cu membrană electric acționat, flanșă și roată manuală, gamă industrială"
+      },
+      {
+        "code": "R649",
+        "description": "Robinet cu membrană automatizat cu feedback de poziție, racorduri filetate"
+      },
+      {
+        "code": "C67",
+        "description": "Robinet cu membrană manual din plastic de înaltă puritate, racord clemă"
+      },
+      {
+        "code": "BB06",
+        "description": "Robinet cu bilă compact cu flanșă din metal"
+      },
+      {
+        "code": "BB02",
+        "description": "Robinet cu bilă din metal în trei piese, montaj facil"
+      },
+      {
+        "code": "BB0F",
+        "description": "Robinet cu bilă cu flanșă din metal, rezistent la foc"
+      },
+      {
+        "code": "BB07",
+        "description": "Robinet cu bilă în trei căi din metal, bilă tip T sau L"
+      },
+      {
+        "code": "BB04",
+        "description": "Robinet cu bilă sanitar pentru aplicații igienice"
+      },
+      {
+        "code": "717",
+        "description": "Robinet cu bilă ușor din plastic, execuție dreaptă sau multi-cale"
+      },
+      {
+        "code": "B54",
+        "description": "Robinet cu bilă electric acționat, oțel inoxidabil, capete sudate"
+      },
+      {
+        "code": "B56",
+        "description": "Robinet cu bilă electric acționat, variantă compactă cu flanșă"
+      },
+      {
+        "code": "B22",
+        "description": "Robinet cu bilă manual din oțel inoxidabil, racord filetat mamă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce robinet cu membrană GEMÜ aleg pentru o aplicație sterilă din industria farmaceutică?",
+        "a": "Robinetul GEMÜ 639, cu racord sanitar din oțel inoxidabil, este potrivit pentru aplicații sterile din industria farmaceutică și biotehnologie. Dacă este nevoie de un corp din plastic pentru medii chimice sau tratarea apei, varianta R639 oferă o construcție echivalentă din material plastic, păstrând același tip de racord sanitar."
+      },
+      {
+        "q": "Ce diferență este între robinetele cu bilă GEMÜ BB02 și BB06?",
+        "a": "BB02 este un robinet cu bilă din metal, construit din trei piese, gândit pentru un montaj și o întreținere ușoară pe linie. BB06 este varianta compactă cu flanșă, potrivită acolo unde spațiul de montaj este limitat, iar demontarea corpului pentru curățare este mai puțin frecventă."
+      },
+      {
+        "q": "Livrați robinete GEMÜ în România?",
+        "a": "Da, robinetele GEMÜ ajung la noi prin comandă, plecând de la paginile publice de produs ale producătorului, fără o gamă proprie ținută pe raft. De regulă sunt necesare 2-6 săptămâni la comandă, în funcție de materialul corpului, tipul de acționare și racordul dorit. Recomandăm confirmarea codului exact al modelului înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de robinet cu membrană GEMÜ?",
+        "a": "Este util să precizați diametrul nominal, materialul corpului (metal sau plastic), tipul racordului (filetat, cu flanșă sau sanitar) și modul de acționare dorit (manual, electric sau pneumatic). Aceste detalii permit alegerea corectă între variantele GEMÜ 629, 639 sau R639, în funcție de tipul de racord necesar."
+      }
     ],
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
@@ -674,8 +926,109 @@ Circulatoarele Ecocirc, cu motor cu rotor umed și reglare electronică a turaț
     infinitrade: "Aducem în România pompe Lowara pentru presurizare, irigații și gestionarea apei uzate — seria e-SV verticală multietajată, pompele centrifuge monobloc CO, submersibilele pentru ape uzate și circulatoarele Ecocirc — prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare model și verificăm disponibilitatea reală în informațiile publice disponibile ale producătorului, parte a grupului Xylem. Pentru dimensionarea corectă, trimiteți-ne debitul necesar, înălțimea de pompare și, dacă înlocuiți o pompă veche, dimensiunile flanșei existente. Modelele uzuale din gamă sunt de regulă disponibile în 24–72 h, iar configurațiile cu convertizor de frecvență integrat sau materiale speciale ajung în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma service sub garanția producătorului sau rebobinarea motoarelor — acestea rămân în sarcina rețelei tehnice Xylem/Lowara.",
     sources: [
+      {"title":"Lowara Product Guide","url":"https://www.xylem.com/siteassets/brand/lowara/resources/brochure/xylem---pump-selection-guide.pdf","publisher":"Xylem / Lowara","accessed":"2026-09-23"},
       { title: "Lowara – Pumping and Circulating Solutions | Xylem", url: "https://www.xylem.com/en-uk/brand/lowara/", publisher: "Xylem Inc.", accessed: "2026-09-22" },
       { title: "Lowara – site oficial (redirect Xylem)", url: "https://www.lowara.com", publisher: "Xylem Inc.", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "e-SV",
+        "description": "Pompă verticală multietajată neautoamorsantă, înălțime de pompare până la 330 m"
+      },
+      {
+        "code": "e-HM",
+        "description": "Pompă multietajată orizontală in-line pentru presurizare și alimentare cu apă"
+      },
+      {
+        "code": "e-HME",
+        "description": "Variantă inteligentă cu motor IE5 și control integrat al turației"
+      },
+      {
+        "code": "CO",
+        "description": "Pompă centrifugală monobloc cu rotor deschis pentru medii cu solide"
+      },
+      {
+        "code": "CEA",
+        "description": "Pompă monobloc din inox cu un singur rotor pentru uz general"
+      },
+      {
+        "code": "CA",
+        "description": "Pompă monobloc din inox cu două rotoare pentru înălțimi mai mari"
+      },
+      {
+        "code": "eNSC",
+        "description": "Pompă centrifugală monobloc modulară cu configurare flexibilă"
+      },
+      {
+        "code": "eSH",
+        "description": "Pompă monobloc din inox cu rotor închis pentru circulație caldă și rece"
+      },
+      {
+        "code": "SHO",
+        "description": "Variantă cu rotor deschis a pompei eSH, pentru solide mici în suspensie"
+      },
+      {
+        "code": "DOC",
+        "description": "Pompă submersibilă compactă pentru drenaj de apă curată și menajeră"
+      },
+      {
+        "code": "DIWA",
+        "description": "Pompă submersibilă cu rotor deschis pentru ape uzate murdare"
+      },
+      {
+        "code": "DOMO",
+        "description": "Pompă submersibilă pentru ape uzate cu rotor de tip canal"
+      },
+      {
+        "code": "DOMO GRI",
+        "description": "Pompă submersibilă cu tocător pentru canalizare menajeră cu solide"
+      },
+      {
+        "code": "GL/GLV",
+        "description": "Pompă submersibilă mare pentru ape uzate, cu variantă vortex"
+      },
+      {
+        "code": "DL/DLV",
+        "description": "Pompă submersibilă pentru ape uzate cu manipulare îmbunătățită a solidelor"
+      },
+      {
+        "code": "SCUBA",
+        "description": "Pompă submersibilă multietajată pentru apă curată și presurizare"
+      },
+      {
+        "code": "e-GS",
+        "description": "Pompă submersibilă de foraj de 4 țoli, rezistentă la abraziune"
+      },
+      {
+        "code": "ecocirc XL/XLplus",
+        "description": "Circulator comercial cu rotor umed și comutație electronică"
+      },
+      {
+        "code": "ecocirc Premium",
+        "description": "Circulator pentru încălzire cu motor sferic fără ax"
+      },
+      {
+        "code": "ecocirc Pro",
+        "description": "Circulator pentru apă caldă menajeră cu aerisire automată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă Lowara aleg pentru presurizare cu înălțime mare de pompare?",
+        "a": "Seria e-SV, o pompă verticală multietajată neautoamorsantă, acoperă înălțimi de pompare de până la 330 de metri și este potrivită pentru instalații de presurizare industrială. Pentru debite mai mici și montaj compact în linie, o pompă din seria e-HM sau varianta inteligentă e-HME, cu motor de eficiență ridicată, este de asemenea o opțiune."
+      },
+      {
+        "q": "Ce diferență este între pompele Lowara DOMO și DIWA?",
+        "a": "DOMO este o pompă submersibilă pentru ape uzate cu rotor de tip canal, potrivită pentru instalații casnice și stații mici de pompare. DIWA folosește un rotor deschis, recomandat pentru ape uzate murdare cu conținut mai mare de solide, unde riscul de înfundare este mai ridicat. Pentru solide fibroase, varianta cu tocător DOMO GRI este mai potrivită."
+      },
+      {
+        "q": "Livrați pompe Lowara în România?",
+        "a": "Da, pompele Lowara se aduc la comandă direct pe baza paginilor publice de produs ale producătorului, fără stoc propriu menținut în depozit. Termenul standard este de 2-6 săptămâni la comandă, potrivit modelului și configurației motorului solicitate. Recomandăm confirmarea codului exact al pompei înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă submersibilă Lowara?",
+        "a": "Este util să precizați debitul și înălțimea de pompare necesare, adâncimea de imersie și dacă apa vehiculată conține solide sau materiale abrazive. Aceste detalii permit alegerea corectă între seriile DOC, DIWA sau DOMO din gama Lowara de pompe pentru drenaj și ape uzate."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
@@ -900,8 +1253,72 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
     infinitrade: "Gestionăm comenzile pentru regulatoare de presiune, temperatură și debit Mankenberg destinate rețelelor de abur și instalațiilor de proces din România, aduse prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem modelul potrivit pornind de la informațiile publice disponibile ale producătorului pentru fiecare combinație de presiune de intrare și ieșire. Pentru o selecție corectă, trimiteți-ne presiunea de intrare, presiunea sau debitul dorit la ieșire și fluidul vehiculat. Modelele standard din bronz și alamă ajung de regulă în 24–72 h, iar execuțiile din inox sau cele pentru game speciale de presiune, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma o calibrare specială pentru medii neuzuale (de exemplu criogenice) fără confirmarea prealabilă din partea producătorului — aceasta rămâne o etapă separată de proiectare.",
     sources: [
+      {"title":"Pressure reducer product overview","url":"https://www.mankenberg.com/en/pressure-reducer/products","publisher":"Mankenberg","accessed":"2026-09-23"},
+      {"title":"Pressure reducer DM 462","url":"https://www.mankenberg.com/en/pressure-reducer/dm-462","publisher":"Mankenberg","accessed":"2026-09-23"},
+      {"title":"Pressure reducer DM 510, 514","url":"https://www.mankenberg.com/en/pressure-reducer/dm-510","publisher":"Mankenberg","accessed":"2026-09-23"},
+      {"title":"Pressure reducer DM 755","url":"https://www.mankenberg.com/en/pressure-reducer/dm-755","publisher":"Mankenberg","accessed":"2026-09-23"},
       { title: "Mankenberg – home page", url: "https://www.mankenberg.com/", publisher: "Mankenberg GmbH", accessed: "2026-09-22" },
       { title: "Mankenberg.de (redirect către mankenberg.com)", url: "https://www.mankenberg.de", publisher: "Mankenberg GmbH", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "DM 401",
+        "description": "Reductor de presiune cu acțiune automată pentru rețele industriale generale"
+      },
+      {
+        "code": "DM 502",
+        "description": "Reductor de presiune cu acțiune automată din gama standard"
+      },
+      {
+        "code": "DM 505",
+        "description": "Reductor de presiune cu acțiune automată pentru linii de proces"
+      },
+      {
+        "code": "DM 555",
+        "description": "Stație de reducere a presiunii pentru furnizori de apă potabilă"
+      },
+      {
+        "code": "DM 701",
+        "description": "Robinet pentru presiuni de intrare înalte la debite mici"
+      },
+      {
+        "code": "DM 762",
+        "description": "Reductor de presiune pentru aplicații cu presiune de intrare ridicată"
+      },
+      {
+        "code": "DM 462",
+        "description": "Reductor de presiune cu dublă sesizare din inox, aplicații igienice, DN25-80"
+      },
+      {
+        "code": "DM 510",
+        "description": "Reductor pentru presiuni de intrare foarte înalte, debite mici și medii, PN16-320"
+      },
+      {
+        "code": "DM 514",
+        "description": "Variantă înrudită a reductorului DM 510 pentru presiuni foarte înalte"
+      },
+      {
+        "code": "DM 755",
+        "description": "Reductor de presiune pentru presiuni de ieșire foarte mici, reglaj de tip milibar"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce reductor de presiune Mankenberg aleg pentru o aplicație igienică din industria alimentară?",
+        "a": "Reductorul DM 462, executat din oțel inoxidabil cu dublă sesizare, este destinat aplicațiilor igienice din industria alimentară și farmaceutică, acoperind un domeniu de DN25 până la DN80. Pentru presiuni de ieșire foarte mici, sub un bar, varianta DM 755, cu reglaj de tip milibar, oferă un control mai fin al presiunii din aval."
+      },
+      {
+        "q": "Ce diferență este între reductoarele de presiune Mankenberg DM 510 și DM 514?",
+        "a": "DM 510 este un reductor pentru presiuni de intrare foarte ridicate, până la 320 de bari, cu presiune de ieșire reglabilă între 2 și 160 de bari, potrivit pentru debite mici și medii. DM 514 este o variantă înrudită din aceeași gamă constructivă, destinată tot presiunilor foarte înalte, cu principii similare de reglare prin membrană, piston sau burduf."
+      },
+      {
+        "q": "Livrați reductoare de presiune Mankenberg în România?",
+        "a": "Da, reductoarele de presiune Mankenberg vin la comandă, urmând paginile publice de produs ale producătorului, fără o gamă proprie păstrată pe stoc. Livrarea durează în general 2-6 săptămâni la comandă, în funcție de model și de materialul solicitat pentru corpul valvei. Recomandăm confirmarea codului exact al seriei DM înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de reductor de presiune Mankenberg?",
+        "a": "Este util să precizați presiunea de intrare și cea de ieșire dorită, debitul necesar și diametrul nominal al racordului. Pentru aplicații igienice sau alimentare, contează și materialul de execuție solicitat, elemente care permit alegerea corectă între seriile DM 401, DM 462 sau DM 510 din gama Mankenberg."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
@@ -1087,8 +1504,109 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
     infinitrade: "Realizăm aprovizionarea cu robinete de reglare, actuatoare și poziționeri SAMSON — robinetul Tip 3241, actuatoarele seria 240/250, poziționerul digital Tip 3730 și regulatoarele auto-acționate seria 42 — pentru rafinării și instalații de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem acces la stocul intern al fabricii și pornim de la informațiile publice disponibile ale producătorului pentru fiecare caracteristică de reglare. Pentru o specificație corectă, trimiteți-ne datele de proces — presiune diferențială, debit și fluidul vehiculat. Componentele standard ajung de regulă în 24–72 h, iar ansamblurile complete robinet-actuator-poziționer, configurate pentru aplicația specifică, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma configurarea firmware a poziționerelor pe protocoale Fieldbus/HART sau documentația de certificare SIL — acestea rămân în sarcina departamentului tehnic al proiectului și al producătorului.",
     sources: [
+      {"title":"SAMSON Product Range Product Catalog","url":"https://www.samsongroup.com/document/k00200en.pdf","publisher":"SAMSON AG","accessed":"2026-09-23"},
       { title: "Samson AG", url: "https://en.wikipedia.org/wiki/Samson_AG", publisher: "Wikipedia", accessed: "2026-09-22" },
       { title: "SAMSON AG • SAMSON (pagină oficială, indexată)", url: "https://www.samsongroup.com/en/company/", publisher: "SAMSON AG", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "Type 3241",
+        "description": "Robinet de reglare cu corp glob pentru procese industriale, DN15-300"
+      },
+      {
+        "code": "Type 3244",
+        "description": "Robinet de reglare cu trei căi pentru amestec sau distribuție"
+      },
+      {
+        "code": "Type 3256",
+        "description": "Robinet de reglare unghiular pentru racordarea conductelor verticale și orizontale"
+      },
+      {
+        "code": "Type 3251",
+        "description": "Robinet de reglare cu corp glob din seria 250, presiuni mari"
+      },
+      {
+        "code": "Type 3254",
+        "description": "Robinet de reglare cu corp glob și ghidaj suplimentar al tijei"
+      },
+      {
+        "code": "Type 3281",
+        "description": "Robinet de condiționare abur, reduce simultan presiunea și temperatura"
+      },
+      {
+        "code": "Type 3351",
+        "description": "Robinet de închidere etanșă pentru lichide, gaze și abur"
+      },
+      {
+        "code": "Type 3321",
+        "description": "Robinet de reglare cu corp glob și actuator pneumatic sau electric"
+      },
+      {
+        "code": "Type 3323",
+        "description": "Robinet de reglare cu trei căi și actuator pneumatic sau electric"
+      },
+      {
+        "code": "Type 3310",
+        "description": "Robinet cu bilă segmentată cu cuplu de acționare redus"
+      },
+      {
+        "code": "Type 3331",
+        "description": "Robinet fluture pentru reglare și închidere"
+      },
+      {
+        "code": "Type 3277",
+        "description": "Actuator pneumatic cu montare directă a poziționerului și limitatorului de cursă"
+      },
+      {
+        "code": "Type 3271",
+        "description": "Actuator pneumatic cu membrană rulantă și arcuri"
+      },
+      {
+        "code": "Type 3730-3",
+        "description": "Poziționer electropneumatic inteligent cu protocol HART"
+      },
+      {
+        "code": "Type 3731-3",
+        "description": "Poziționer electropneumatic inteligent, variantă compactă cu HART"
+      },
+      {
+        "code": "Type 3730-4",
+        "description": "Poziționer inteligent cu comunicație PROFIBUS PA"
+      },
+      {
+        "code": "Type 42-36",
+        "description": "Regulator autonom de debit constant"
+      },
+      {
+        "code": "Type 42-24",
+        "description": "Regulator autonom de presiune diferențială cu element de închidere"
+      },
+      {
+        "code": "Type 44-2",
+        "description": "Robinet reductor de presiune cu acționare automată"
+      },
+      {
+        "code": "Type 44-4",
+        "description": "Robinet de siguranță pentru suprapresiune cu acționare automată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce robinet de reglare SAMSON aleg pentru un proces industrial de temperatură ridicată?",
+        "a": "Robinetul cu corp glob Tip 3241 acoperă un domeniu larg de temperaturi, de la -196°C până la +450°C, și diametre nominale de la DN15 la DN300, fiind alegerea tipică pentru procese industriale generale. Pentru amestec sau distribuție pe mai multe direcții, robinetul cu trei căi Tip 3244 este soluția potrivită."
+      },
+      {
+        "q": "Ce diferență este între poziționerele SAMSON Tip 3730-3 și Tip 3730-4?",
+        "a": "Tip 3730-3 este un poziționer electropneumatic inteligent care comunică prin protocolul HART, folosit frecvent în instalații cu sisteme de control bazate pe semnal analogic 4-20 mA. Tip 3730-4 oferă în schimb comunicație digitală prin PROFIBUS PA, potrivită pentru instalații care rulează integral pe magistrală de teren."
+      },
+      {
+        "q": "Livrați robinete de reglare SAMSON în România?",
+        "a": "Da, robinetele și accesoriile SAMSON se aduc la comandă, conform paginilor publice de produs ale producătorului, fără o gamă proprie disponibilă din start. Timpul necesar este de obicei 2-6 săptămâni la comandă, în funcție de tipul robinetului, actuatorul ales și poziționerul solicitat. Recomandăm confirmarea exactă a tipului înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de robinet de reglare SAMSON?",
+        "a": "Este util să precizați diametrul nominal, presiunea și temperatura de lucru, mediul vehiculat și tipul de acționare dorit (pneumatică sau electrică). Pentru bucla de control, contează și dacă este nevoie de un poziționer inteligent din seria 3730, cu protocol HART, PROFIBUS sau FOUNDATION Fieldbus."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
@@ -1149,8 +1667,101 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
     infinitrade: "Ne ocupăm de comenzile de pompe NETZSCH pentru transportul fluidelor vâscoase, cu solide sau abrazive — gama NEMO cu șurub excentric, pompele rotative cu lobi TORNADO și pompele multi-șurub NOTOS — din stații de epurare și procese chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii de stoc pentru fiecare familie de pompă și verificăm materialele potrivite în informațiile publice disponibile ale producătorului. Pentru selecția corectă, trimiteți-ne caracteristicile fluidului vehiculat — vâscozitate, conținut de solide, temperatură. Piesele de uzură pentru modelele uzuale ajung de regulă în 24–72 h, iar pompele complete sau configurațiile cu alimentare forțată, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma compunerea unor elastomeri speciali, la comandă, fără avizul tehnic al producătorului și nici service sub garanție direct din partea noastră.",
     sources: [
+      {"title":"NEMO Progressing Cavity Pumps","url":"https://pumps-systems.netzsch.com/en/products-and-accessories/nemo-progressing-cavity-pumps","publisher":"NETZSCH","accessed":"2026-09-23"},
       { title: "Who we are - NETZSCH Group", url: "https://www.netzsch.com/en/company/", publisher: "NETZSCH Gruppe", accessed: "2026-09-22" },
       { title: "NETZSCH Group – site oficial", url: "https://www.netzsch.com", publisher: "NETZSCH Gruppe", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "NEMO FSIP",
+        "description": "Pompă cu șurub excentric cu schimbare de rotor fără cuplu inițial"
+      },
+      {
+        "code": "NEMO BY",
+        "description": "Pompă cu șurub excentric în design bloc pentru dozare industrială"
+      },
+      {
+        "code": "NEMO SY",
+        "description": "Pompă cu șurub excentric pe lagăr, presiuni de refulare până la 72 bar"
+      },
+      {
+        "code": "NEMO C.Pro",
+        "description": "Pompă de dozare din material sintetic, rotație reversibilă pentru chimicale"
+      },
+      {
+        "code": "NEMO BH",
+        "description": "Pompă igienică compactă în design bloc, cu opțiune de încălzire"
+      },
+      {
+        "code": "NEMO BH Mini",
+        "description": "Variantă miniaturală a pompei igienice BH, aceeași precizie de dozare"
+      },
+      {
+        "code": "NEMO SH Plus",
+        "description": "Pompă igienică pe lagăr, cu tijă flexibilă fără întreținere"
+      },
+      {
+        "code": "NEMO SA",
+        "description": "Pompă aseptică cu etanșare dublă ermetică, compatibilă CIP/SIP"
+      },
+      {
+        "code": "NEMO BO/SO",
+        "description": "Pompă tip pâlnie pentru tăierea și transportul particulelor mari"
+      },
+      {
+        "code": "NEMO BO/BS",
+        "description": "Pompă tip pâlnie în construcție bloc pentru medii sfărâmicioase"
+      },
+      {
+        "code": "NEMO BF",
+        "description": "Pompă tip pâlnie cu șnec de alimentare pentru medii vâscoase"
+      },
+      {
+        "code": "NEMO BF aBP-Module",
+        "description": "Variantă a pompei BF pentru medii predispuse la formarea de punți"
+      },
+      {
+        "code": "NEMO B.Max",
+        "description": "Pompă de amestecare pentru biogaz și aplicații de mediu"
+      },
+      {
+        "code": "NEMO BT",
+        "description": "Pompă imersabilă montată pe suport sau flanșă pentru spații înguste"
+      },
+      {
+        "code": "NEMO Multiphase",
+        "description": "Pompă pentru fluide multifazice din producția de petrol și gaze"
+      },
+      {
+        "code": "NEMO L.Cap",
+        "description": "Variantă pentru medii cu nisip și gaz din industria petrolieră"
+      },
+      {
+        "code": "NEMO MY",
+        "description": "Pompă cu cuplaj magnetic, etanșare ermetică fără scurgeri"
+      },
+      {
+        "code": "PCP Pump System",
+        "description": "Sistem complet cu pompă cu șurub excentric pentru eficiență ridicată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă NETZSCH NEMO aleg pentru dozarea unor medii chimice agresive?",
+        "a": "Pompa NEMO C.Pro, realizată dintr-un material sintetic rezistent și cu rotație reversibilă, este construită special pentru transportul acizilor și bazelor greu de manipulat cu materiale metalice. Pentru dozare de precizie în aplicații igienice, varianta NEMO BH, cu design compact în bloc, este de asemenea o opțiune potrivită."
+      },
+      {
+        "q": "Ce diferență este între pompele NETZSCH NEMO BY și NEMO SY?",
+        "a": "NEMO BY are un design bloc, cu motorul montat direct pe capătul pompei, potrivit pentru transportul și dozarea precisă a diverselor medii industriale. NEMO SY folosește o construcție pe lagăr, cu ax liber, care permite presiuni de refulare de până la 72 de bari, utilă în aplicații mai solicitante."
+      },
+      {
+        "q": "Livrați pompe NETZSCH în România?",
+        "a": "Da, pompele NETZSCH din gama NEMO se aduc la comandă, pe baza paginilor publice de produs ale producătorului, fără o gamă proprie păstrată în depozit. Perioada obișnuită ajunge la 2-6 săptămâni la comandă, în funcție de model și de materialul rotorului sau statorului ales. Recomandăm confirmarea codului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă NETZSCH NEMO?",
+        "a": "Este util să precizați tipul mediului vehiculat, debitul și presiunea de refulare necesare, precum și dacă aplicația este igienică, aseptică sau industrială standard. Aceste detalii permit alegerea corectă între variantele NEMO BY, NEMO BH sau NEMO SA din gama NETZSCH."
+      }
     ],
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
@@ -1212,8 +1823,105 @@ Această gamă completă — de la suflanta Roots simplă și robustă, până l
     infinitrade: "Asistăm proiectele industriale din România cu suflante și compresoare Aerzen — suflante Roots Delta Blower, variantele hibride Delta Hybrid, compresoare cu șurub Delta Screw și suflante turbo Delta Turbo — comandate prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii despre stocul fabricii pentru fiecare tehnologie și alegem soluția potrivită pornind de la informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne presiunea, debitul de aer necesar și profilul de sarcină al aplicației. Piesele de uzură și componentele de mentenanță pentru modelele uzuale ajung de regulă în 24–72 h, iar echipamentele complete sau configurațiile speciale, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma configurarea electronicii de control a rulmenților magnetici de pe gama Delta Turbo fără intervenția tehnicienilor Aerzen.",
     sources: [
+      {"title":"Rotary Lobe Compressors Delta Hybrid","url":"https://www.aerzen.com/product/screw-blowers-delta-hybrid","publisher":"Aerzener Maschinenfabrik (Aerzen)","accessed":"2026-09-23"},
       { title: "Blowers, Compressors & Turbos – Made by AERZEN", url: "https://www.aerzen.com", publisher: "Aerzener Maschinenfabrik GmbH", accessed: "2026-09-22" },
       { title: "AERZEN – site oficial (EN)", url: "https://www.aerzen.com/en/company/aerzen-group.html", publisher: "Aerzener Maschinenfabrik GmbH", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "D12H",
+        "description": "Suflantă Delta Hybrid de înaltă presiune, 670 m³/h la 1500 mbar"
+      },
+      {
+        "code": "D12S",
+        "description": "Suflantă Delta Hybrid standard, 690 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D13S",
+        "description": "Suflantă Delta Hybrid, generație nouă, 775 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D17S",
+        "description": "Suflantă Delta Hybrid, generație nouă, 1010 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D24H",
+        "description": "Suflantă Delta Hybrid de înaltă presiune, 1370 m³/h la 1500 mbar"
+      },
+      {
+        "code": "D24S",
+        "description": "Suflantă Delta Hybrid standard, 1390 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D25S",
+        "description": "Suflantă Delta Hybrid, generație nouă, 1440 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D30S",
+        "description": "Suflantă Delta Hybrid, generație nouă, 1780 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D36H",
+        "description": "Suflantă Delta Hybrid de înaltă presiune, 1900 m³/h la 1500 mbar"
+      },
+      {
+        "code": "D36S",
+        "description": "Suflantă Delta Hybrid standard, 2150 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D52S",
+        "description": "Suflantă Delta Hybrid standard, 3120 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D62H",
+        "description": "Suflantă Delta Hybrid de înaltă presiune, 3400 m³/h la 1500 mbar"
+      },
+      {
+        "code": "D62S",
+        "description": "Suflantă Delta Hybrid standard, 3500 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D76H",
+        "description": "Suflantă Delta Hybrid de înaltă presiune, 4440 m³/h la 1500 mbar"
+      },
+      {
+        "code": "D76S",
+        "description": "Suflantă Delta Hybrid standard, 4550 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D98H",
+        "description": "Suflantă Delta Hybrid de înaltă presiune, 5600 m³/h la 1500 mbar"
+      },
+      {
+        "code": "D98S",
+        "description": "Suflantă Delta Hybrid standard, 5800 m³/h la 1000 mbar"
+      },
+      {
+        "code": "D152H",
+        "description": "Suflantă Delta Hybrid de înaltă presiune, 8700 m³/h la 1500 mbar"
+      },
+      {
+        "code": "D152S",
+        "description": "Suflantă Delta Hybrid standard, 8900 m³/h la 1000 mbar"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce suflantă Aerzener Delta Hybrid aleg pentru un debit de aproximativ 3500 m³/h?",
+        "a": "Modelul D62S din gama Aerzener Delta Hybrid acoperă un debit de circa 3500 m³/h la o presiune de lucru de 1000 mbar, fiind potrivit pentru aplicații standard de aerare sau transport pneumatic. Dacă este nevoie de o presiune mai ridicată, de până la 1500 mbar, la un debit apropiat, varianta D62H este alegerea corespunzătoare."
+      },
+      {
+        "q": "Ce diferență este între suflantele Aerzener Delta Hybrid cu terminația H și cea cu terminația S?",
+        "a": "Terminația S indică varianta standard, care funcționează la o presiune de refulare de până la 1000 mbar, acoperind majoritatea aplicațiilor industriale obișnuite. Terminația H marchează varianta de înaltă presiune, capabilă să lucreze până la 1500 mbar, recomandată pentru procese care necesită o presiune mai mare, cum ar fi transportul pneumatic pe distanțe lungi."
+      },
+      {
+        "q": "Livrați suflante Aerzener în România?",
+        "a": "Da, suflantele Aerzener din gama Delta Hybrid se aduc la comandă, respectând paginile publice de produs ale producătorului, fără o gamă proprie ținută în stoc. În general durează 2-6 săptămâni la comandă, în funcție de dimensiunea suflantei și de configurația de acționare aleasă. Recomandăm confirmarea modelului exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de suflantă Aerzener Delta Hybrid?",
+        "a": "Este util să precizați debitul de aer necesar, presiunea de lucru dorită și altitudinea sau temperatura mediului de instalare. Aceste detalii permit alegerea corectă a dimensiunii, de la modelul compact D12 până la modelul mare D152, în varianta standard S sau de înaltă presiune H."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
@@ -1472,8 +2180,80 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
     infinitrade: "Aducem la comandă schimbătoare de căldură brazate SWEP pentru pompe de căldură, climatizare industrială și instalații de proces din România — de la modelele compacte B8/B10 până la cele industriale B120/B220 — prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem numărul de plăci potrivit pornind de la informațiile publice disponibile ale producătorului, parte a grupului Dover. Pentru dimensionarea corectă, trimiteți-ne debitele, temperaturile de lucru și pierderea de presiune admisă. Modelele standard din gamă ajung de regulă în 24–72 h, iar configurațiile cu brazare din nichel sau dimensionarea pentru proiecte industriale mari, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma o disponibilitate constantă pentru fiecare combinație de model și număr de plăci — dimensionarea exactă depinde de calculul termic transmis de producător.",
     sources: [
+      {"title":"B120T","url":"https://www.swep.net/products/b120t","publisher":"SWEP","accessed":"2026-09-23"},
+      {"title":"B26","url":"https://www.swep.net/products/b26","publisher":"SWEP","accessed":"2026-09-23"},
+      {"title":"B60","url":"https://www.swep.net/products/b60","publisher":"SWEP","accessed":"2026-09-23"},
+      {"title":"B18","url":"https://www.swep.net/products/b18","publisher":"SWEP","accessed":"2026-09-23"},
       { title: "About SWEP", url: "https://www.swep.net/about-swep/", publisher: "SWEP International AB (Dover Corporation)", accessed: "2026-09-22" },
       { title: "SWEP – site oficial", url: "https://www.swep.net", publisher: "SWEP International AB (Dover Corporation)", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "B3",
+        "description": "Schimbător brazat compact pentru debite mici și spațiu foarte limitat"
+      },
+      {
+        "code": "B5",
+        "description": "Schimbător brazat compact pentru sisteme reduse de răcire cu ulei și apă"
+      },
+      {
+        "code": "B16",
+        "description": "Schimbător pentru sisteme monofazice: puncte termice, circuite de calorifere, apă caldă menajeră"
+      },
+      {
+        "code": "B18",
+        "description": "Schimbător pentru CO2 transcritic până la 140 bar, refrigerare și pompe de căldură"
+      },
+      {
+        "code": "B26",
+        "description": "Schimbător cu canale AsyMatrix, transfer termic eficient și cădere de presiune redusă pentru pompe de căldură"
+      },
+      {
+        "code": "B28",
+        "description": "Schimbător monofazic pentru încălzire centralizată, circuite de calorifere și apă caldă menajeră"
+      },
+      {
+        "code": "B30",
+        "description": "Schimbător asimetric pentru aplicații gaz-lichid, preluare de debite din fluxuri principale"
+      },
+      {
+        "code": "B60",
+        "description": "Schimbător asimetric pentru gaz și lichid cu debite foarte diferite între cele două medii"
+      },
+      {
+        "code": "B120T",
+        "description": "Schimbător pentru aplicații termice industriale apă-apă, răcitoare de ulei și condensator în climatizare"
+      },
+      {
+        "code": "B220",
+        "description": "Schimbător compact pentru încălzirea apei menajere, răcire de ulei și încălzire spații"
+      },
+      {
+        "code": "B427",
+        "description": "Schimbător cu patru tipuri de plăci și racorduri de 4 țoli pentru debite mari de apă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce schimbător de căldură SWEP aleg pentru o instalație cu debite mici și spațiu redus?",
+        "a": "Seriile B3 și B5 sunt gândite pentru debite mici și montaj în spații foarte restrânse, fiind potrivite la răcirea de ulei sau apă în instalații compacte. Pentru un raport cost-performanță diferit la debite mici, seria B26 cu canale AsyMatrix oferă transfer termic ridicat cu o cădere de presiune redusă, utilă în pompele de căldură."
+      },
+      {
+        "q": "Ce diferență este între schimbătoarele SWEP B60 și B30?",
+        "a": "B60 folosește un design de plăci asimetric optimizat pentru situații în care cele două medii circulă cu debite foarte diferite, tipic la aplicații gaz-lichid. B30 este de asemenea o construcție asimetrică, dar orientată spre preluarea unor fluxuri secundare dintr-un curent principal, precum răcirea gazului de aspirație la chillere sau răcirea aerului de admisie la motoare."
+      },
+      {
+        "q": "Livrați schimbătoare de căldură SWEP în România?",
+        "a": "Da, aducem la comandă schimbătoare SWEP pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de conexiunile solicitate. Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de schimbător de căldură SWEP?",
+        "a": "Este util să precizați cele două medii vehiculate, debitele și temperaturile de intrare și ieșire dorite, precum și presiunea maximă de lucru. Aceste date permit alegerea corectă între o serie standard precum B16 sau B28 și una specializată, cum ar fi B18 pentru aplicații cu CO2 transcritic."
+      },
+      {
+        "q": "Ce este seria SWEP B18 pentru CO2?",
+        "a": "Este o serie de schimbătoare brazate concepute pentru presiuni ridicate, până la 140 bar, specifice sistemelor cu CO2 transcritic. Se regăsește frecvent în instalații de refrigerare și pompe de căldură, inclusiv în lanțul frigorific din comerț, în transportul frigorific și în recuperarea de căldură."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",

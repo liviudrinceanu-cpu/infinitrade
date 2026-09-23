@@ -32,11 +32,106 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
     ],
     infinitrade: `Lucrăm cu gama DAB prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici italiene: spunem clar, înainte de ofertă, ce putem confirma din cataloagele producătorului și ce rămâne de verificat punctual. Termenul orientativ pentru o comandă este de 2-6 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă, clientul ne transmite tipul de aplicație (circulație, presurizare, drenaj), debitul și înălțimea de pompare necesare, plus diametrul racordurilor existente. Nu confirmăm disponibilitate garantată pentru fiecare model din gamă și recomandăm verificarea termenului exact la momentul comenzii.`,
     limitation: "Nu putem confirma stocuri locale pentru fiecare model DAB și nu oferim configurare software pentru sistemele electronice de presurizare fără suport direct de la producător.",
+    productCodes: [
+      {
+        "code": "NOVA 180/200/300/600",
+        "description": "pompă submersibilă multifuncțională, debit 1-16 m³/h, până la 10,2 m"
+      },
+      {
+        "code": "NOVA UP 300/600",
+        "description": "variantă cu flotor automat, debit 1-15 m³/h, până la 10 m"
+      },
+      {
+        "code": "NOVA UP MAE 300/600",
+        "description": "variantă cu flotor mecanic extern, debit 1-15 m³/h"
+      },
+      {
+        "code": "VERTY NOVA 200/400",
+        "description": "pompă submersibilă verticală, debit 1-10 m³/h, până la 9 m"
+      },
+      {
+        "code": "FEKA 300/600",
+        "description": "pompă submersibilă pentru ape uzate, debit 1-16 m³/h"
+      },
+      {
+        "code": "FEKA BVP 700/750",
+        "description": "pompă cu tocător pentru ape reziduale, debit 1-18 m³/h"
+      },
+      {
+        "code": "FEKA VS 550/750/1000/1200",
+        "description": "gamă submersibilă cu vortex, debit 0-32 m³/h, până la 14 m"
+      },
+      {
+        "code": "FEKA VS GRINDER 1000",
+        "description": "variantă cu tocător, debit 0-14,4 m³/h, până la 25 m"
+      },
+      {
+        "code": "FEKA FX V 20/25",
+        "description": "pompă submersibilă industrială cu rotor vortex, debit până la 62,8 m³/h"
+      },
+      {
+        "code": "FEKA FX C 20/25",
+        "description": "variantă cu rotor canal, debit până la 78,9 m³/h"
+      },
+      {
+        "code": "DRENAG 1000/1200",
+        "description": "pompă de drenaj pentru apă curată, debit 3-28 m³/h"
+      },
+      {
+        "code": "GRINDER FX 15",
+        "description": "pompă cu tocător industrial, debit până la 23,8 m³/h"
+      },
+      {
+        "code": "EsyBox Pop",
+        "description": "sistem electronic de presurizare, debit 3,9 m³/h, înălțime 32 m, 6 bar"
+      },
+      {
+        "code": "Evosta 3",
+        "description": "pompă de circulație electronică pentru încălzire, cu sistem anti-blocare"
+      },
+      {
+        "code": "Evosta 2",
+        "description": "circulator electronic cu consum redus de energie"
+      },
+      {
+        "code": "Evosta 2 San",
+        "description": "variantă cu corp din bronz, pentru apă caldă menajeră"
+      },
+      {
+        "code": "Evosta 2 Sol",
+        "description": "variantă dedicată sistemelor solare termice"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile Feka și Nova de la DAB?",
+        "a": "Seria Nova este gândită pentru apă curată sau ușor încărcată, cu debite de la 1 până la 16 m³/h, potrivită pentru drenaj menajer. Seria Feka acoperă ape uzate și reziduale, unele variante, precum Feka VS Grinder sau Feka BVP, având rotor cu tocător pentru solide, cu debite ce pot ajunge la 32 m³/h și înălțimi de pompare mai mari, până la 25 m. Alegerea depinde de tipul de fluid vehiculat."
+      },
+      {
+        "q": "Cum aleg dimensiunea corectă a unei pompe submersibile DAB pentru drenaj?",
+        "a": "Selecția pornește de la debitul necesar (m³/h) și înălțimea de pompare (m) cerută de instalație, comparate cu curbele modelelor Nova, Drenag sau Feka. Contează și tipul de fluid: apă curată pentru Nova sau Drenag, respectiv ape cu solide pentru Feka Grinder. Diametrul particulelor admise și adâncimea de montaj influențează și ele alegerea corpului pompei."
+      },
+      {
+        "q": "Ce este sistemul EsyBox Pop de la DAB?",
+        "a": "EsyBox Pop este un sistem electronic de presurizare compact, cu debit de 3,9 m³/h și înălțime de pompare de 32 m, potrivit pentru case unifamiliale sau aplicații rezidențiale mici. Include control electronic al presiunii și protecție la funcționare în gol, conform fișei tehnice publicate de producător."
+      },
+      {
+        "q": "Livrați pompe DAB în România?",
+        "a": "Da, aducem la comandă modele din gamele Nova, Feka, Drenag și Evosta prezentate mai sus, conform cataloagelor publice ale producătorului; nu păstrăm aceste pompe pe raft ca stoc propriu. Termenul uzual este de 2-6 săptămâni, în funcție de model și disponibilitate. Pentru o ofertă, trimiteți debitul necesar, înălțimea de pompare și tipul de fluid vehiculat."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de pompă DAB Feka Grinder?",
+        "a": "Este nevoie de debitul dorit, înălțimea totală de pompare, diametrul conductei de refulare și caracteristicile fluidului, apă uzată, cu sau fără solide, dimensiunea maximă a particulelor. Aceste date permit alegerea corectă între variantele Feka VS, Feka BVP sau Feka VS Grinder și evită supradimensionarea sau uzura prematură a tocătorului."
+      }
+    ],
     evidenceClass: "zero-evidence",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Submersible Pumps Catalogue","url":"https://www.dabpumps.com/sites/default/files/catalogs/07_60171427_SUBMERSIBLE%20PUMPS_TC_ENG.pdf","publisher":"DAB Pumps","accessed":"2026-09-23"},
+      {"title":"EsyBox Pop","url":"https://www.dabpumps.com/en/products/multistage-centrifugal-and-self-priming-pumps/automatic-booster-system-with-variable_frequency_drive/esybox_pop","publisher":"DAB Pumps","accessed":"2026-09-23"},
+      {"title":"Evosta","url":"https://evosta.dabpumps.com/","publisher":"DAB Pumps","accessed":"2026-09-23"},
       { title: "Water management company", url: "https://company.dabpumps.com/en/company", publisher: "DAB Pumps", accessed: "2026-09-22" },
       { title: "Products | DAB Pumps", url: "https://www.dabpumps.com/en/products", publisher: "DAB Pumps", accessed: "2026-09-22" }
     ],
@@ -459,11 +554,98 @@ Pentru instalații industriale din România — rafinării, chimie, tratare apă
     ],
     infinitrade: `Instrumentele Honeywell Process Solutions le aducem la comandă prin distribuție europeană, fără date proprii despre stocul fiecărei uzine a producătorului — ne bazăm pe fișele tehnice publice pentru parametrii fiecărui transmiter. Termenul orientativ de livrare la comandă este de 2-6 săptămâni, în funcție de model și de certificările solicitate (SIL, ATEX). Pentru o ofertă corectă avem nevoie de tipul de măsurătoare (presiune sau temperatură), domeniul de proces și dacă instalația necesită certificare pentru zone explozive. Nu confirmăm disponibilitate imediată pentru variantele cu certificări speciale.`,
     limitation: "Nu oferim configurare sau punere în funcțiune pentru sistemul Experion PKS, care necesită suport tehnic direct de la producător.",
+    productCodes: [
+      {
+        "code": "SmartLine STF700",
+        "description": "transmiter de presiune cu montare pe flanșă, familia ST700"
+      },
+      {
+        "code": "SmartLine ST700",
+        "description": "transmiter de presiune cu montare încastrată, familia ST700"
+      },
+      {
+        "code": "SmartLine STR700",
+        "description": "transmiter cu etanșare la distanță, familia ST700"
+      },
+      {
+        "code": "SmartLine STD700",
+        "description": "transmiter de presiune diferențială, familia ST700"
+      },
+      {
+        "code": "SmartLine STA700",
+        "description": "transmiter de presiune absolută, familia ST700"
+      },
+      {
+        "code": "SmartLine STG700",
+        "description": "transmiter de presiune manometrică, familia ST700"
+      },
+      {
+        "code": "SmartLine STT650",
+        "description": "transmiter de temperatură montat pe șină DIN"
+      },
+      {
+        "code": "SmartLine STT700",
+        "description": "transmiter de temperatură, înlocuitor direct pentru STT250"
+      },
+      {
+        "code": "SmartLine STT750",
+        "description": "transmiter de temperatură pentru control și siguranță"
+      },
+      {
+        "code": "SmartLine STT850",
+        "description": "transmiter de temperatură de înaltă performanță, variații mari de temperatură"
+      },
+      {
+        "code": "SmartLine STG830/STG83L",
+        "description": "transmiter de presiune manometrică, interval 0-3,5 bar"
+      },
+      {
+        "code": "SmartLine STG840/STG84L",
+        "description": "transmiter de presiune manometrică, interval 0-35 bar"
+      },
+      {
+        "code": "SmartLine STG870/STG87L",
+        "description": "transmiter de presiune manometrică, interval 0-210 bar"
+      },
+      {
+        "code": "SmartLine STG88L",
+        "description": "transmiter de presiune manometrică, interval 0-415 bar"
+      },
+      {
+        "code": "SmartLine STG89L",
+        "description": "transmiter de presiune manometrică, interval 0-690 bar"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență există între seriile SmartLine ST700 și ST800 de la Honeywell?",
+        "a": "Familia ST700 acoperă transmitere de presiune standard, manometrică, diferențială, absolută și cu flanșă, fiind gândită ca înlocuitor cost-eficient pentru instalații existente. Seria ST800, prin modelele STG830 până la STG89L, oferă intervale de măsurare mai largi, de la 0-3,5 bar până la 0-690 bar, și o acuratețe de până la 0,0375% din interval, pentru aplicații cu cerințe superioare de precizie."
+      },
+      {
+        "q": "Cum aleg transmiterul de temperatură SmartLine potrivit?",
+        "a": "Alegerea depinde de nivelul de performanță cerut: STT650 este varianta montată pe șină DIN pentru panouri de control, STT700 înlocuiește direct vechiul model STT250 în aplicații uzuale, STT750 acoperă control și siguranță pe scară largă, iar STT850 oferă acuratețea totală instalată cea mai ridicată dintre cele patru, pentru variații mari de temperatură ambientală. Verificați și tipul de senzor și semnalul de ieșire necesar."
+      },
+      {
+        "q": "Ce interval de măsurare are transmiterul Honeywell STG89L?",
+        "a": "STG89L acoperă un interval de presiune de la 0 până la 10.000 psi, respectiv 0-690 bar, fiind cea mai robustă variantă din familia STG800 pentru aplicații de presiune foarte ridicată. Acuratețea standard este de până la 0,0375% din interval, cu opțiune de 0,025% pentru aplicații ce necesită precizie sporită."
+      },
+      {
+        "q": "Livrați transmitere Honeywell SmartLine în România?",
+        "a": "Da, aducem la comandă transmitere din familiile SmartLine ST700, ST800 și STT prezentate mai sus, conform fișelor tehnice publice ale producătorului; nu păstrăm aceste instrumente pe raft ca stoc propriu. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model. Pentru o ofertă corectă, precizați tipul de măsurare, intervalul și semnalul de ieșire dorit."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de transmiter de presiune SmartLine?",
+        "a": "Aveți nevoie să menționați tipul de măsurare, manometrică, diferențială sau absolută, intervalul de presiune necesar, fluidul vehiculat, tipul de racord de proces și semnalul de ieșire dorit, analogic sau digital. Aceste detalii permit alegerea corectă între familiile ST700 și ST800 și evită supra- sau subdimensionarea instrumentului."
+      }
+    ],
     evidenceClass: "gsc-only",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"SmartLine ST700 Pressure Transmitters","url":"https://process.honeywell.com/us/en/products/field-instruments/pressure-transmitters/smartline-st700-pressure-transmitters","publisher":"Honeywell","accessed":"2026-09-23"},
+      {"title":"SmartLine Temperature Transmitters","url":"https://process.honeywell.com/us/en/products/field-instruments/temperature-transmitters/smartline-temperature-transmitters","publisher":"Honeywell","accessed":"2026-09-23"},
+      {"title":"SmartLine STG800 Gauge Pressure","url":"https://process.honeywell.com/us/en/products/field-instruments/pressure-transmitters/smartline-st800-pressure-transmitters/smartline-stg800-gauge-pressure","publisher":"Honeywell","accessed":"2026-09-23"},
       { title: "Honeywell Process Solutions", url: "https://process.honeywell.com/", publisher: "Honeywell", accessed: "2026-09-22" },
       { title: "SmartLine STT850", url: "https://process.honeywell.com/us/en/products/field-instruments/temperature-transmitters/smartline-temperature-transmitters/smartline-stt850", publisher: "Honeywell", accessed: "2026-09-22" },
       { title: "Gauge Pressure Transmitters - SmartLine STG700", url: "https://process.honeywell.com/us/en/products/field-instruments/pressure-transmitters/smartline-st700-pressure-transmitters/gauge-pressure-transmitters-smartline-stg700", publisher: "Honeywell", accessed: "2026-09-22" }
@@ -502,11 +684,101 @@ Pentru fabricile din România cu linii de producție, benzi transportoare sau ut
     ],
     infinitrade: `Motoreductoarele Bonfiglioli ajung la comandă prin filialele europene ale grupului, fără date proprii despre stocul din Calderara di Reno — spunem clar ce putem confirma din configuratoarele publice ale producătorului. Termenul orientativ de livrare la comandă este de 2-6 săptămâni, în funcție de configurația exactă (raport de reducere, montaj, motor asociat). Pentru o ofertă corectă avem nevoie de puterea motorului, turația de intrare și ieșire, cuplul de sarcină și tipul de montaj dorit. Nu confirmăm disponibilitate imediată pentru configurațiile speciale sau pentru cutiile planetare de precizie ridicată.`,
     limitation: "Nu oferim proiectare de sistem de acționare completă și nu putem confirma stocuri locale pentru configurațiile speciale de reductor.",
+    productCodes: [
+      {
+        "code": "300M 300",
+        "description": "motoreductor planetar seria 300M, cuplu maxim 2.400 Nm"
+      },
+      {
+        "code": "300M 305",
+        "description": "motoreductor planetar seria 300M, cuplu maxim 8.800 Nm"
+      },
+      {
+        "code": "300M 310M",
+        "description": "motoreductor planetar seria 300M, cuplu maxim 47.600 Nm"
+      },
+      {
+        "code": "300M 315M",
+        "description": "motoreductor planetar seria 300M, cuplu maxim 135.000 Nm"
+      },
+      {
+        "code": "300M 319",
+        "description": "motoreductor planetar seria 300M, cuplu maxim 680.000 Nm"
+      },
+      {
+        "code": "300M 325",
+        "description": "motoreductor planetar seria 300M, cuplu maxim 2.000.000 Nm"
+      },
+      {
+        "code": "3/H Series",
+        "description": "cutie de viteze unghiulară din seria 3/H"
+      },
+      {
+        "code": "3/V Series",
+        "description": "cutie de viteze unghiulară planetar-melc din seria 3/V"
+      },
+      {
+        "code": "HDP Series",
+        "description": "reductor cu axe paralele din seria HDP"
+      },
+      {
+        "code": "A Series",
+        "description": "cutie de viteze unghiulară elicoidal-conică din seria A"
+      },
+      {
+        "code": "F Series",
+        "description": "reductor cu axe paralele din seria F"
+      },
+      {
+        "code": "C Series",
+        "description": "unitate in-line din seria C"
+      },
+      {
+        "code": "Active Cube ACU 210",
+        "description": "invertor premium, putere 0,25-9,2 kW, alimentare 200-240 V"
+      },
+      {
+        "code": "Active Cube ACU 410",
+        "description": "invertor premium, putere 0,25-400 kW, alimentare 360-480 V"
+      },
+      {
+        "code": "Active Cube ACU 510",
+        "description": "invertor premium, putere 160-400 kW, alimentare 525 V"
+      },
+      {
+        "code": "Active Cube ACU 610",
+        "description": "invertor premium, putere 160-400 kW, alimentare 690 V"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce cuplu maxim acoperă motoreductoarele planetare Bonfiglioli seria 300M?",
+        "a": "Seria 300M acoperă un interval foarte larg, de la 2.400 Nm la modelul 300, până la 2.000.000 Nm la modelul 325, ceea ce permite alegerea unei singure familii constructive pentru aplicații mici și pentru instalații grele, precum mixere industriale sau utilaje miniere. Selecția exactă a mărimii ține cont de cuplul de pornire, factorul de serviciu și viteza de intrare necesară aplicației."
+      },
+      {
+        "q": "Care este diferența dintre invertoarele Bonfiglioli Active Cube ACU 210 și ACU 410?",
+        "a": "ACU 210 acoperă puteri mici, între 0,25 și 9,2 kW, la alimentare monofazată sau trifazată de 200-240 V, potrivit pentru mașini compacte. ACU 410 urcă până la 400 kW, la 360-480 V trifazat, fiind gândit pentru acționări industriale de putere mare; ambele modele pot fi conectate în paralel pentru a atinge până la 1.200 kW."
+      },
+      {
+        "q": "Ce diferență există între seriile de reductoare A și F de la Bonfiglioli?",
+        "a": "Seria A este o cutie de viteze unghiulară elicoidal-conică, potrivită acolo unde axul de ieșire trebuie orientat la 90 de grade față de motor. Seria F este un reductor cu axe paralele, recomandat când intrarea și ieșirea trebuie să rămână coaxiale sau paralele, cu gabarit mai redus pe înălțime. Alegerea depinde de configurația mecanică disponibilă."
+      },
+      {
+        "q": "Livrați reductoare și invertoare Bonfiglioli în România?",
+        "a": "Da, aducem la comandă modele din seriile 300M, HDP, A, F și Active Cube prezentate mai sus, conform cataloagelor publice ale producătorului; nu păstrăm aceste echipamente pe raft ca stoc propriu. Termenul obișnuit este de 2-6 săptămâni, în funcție de mărime și disponibilitatea din fabrică. Pentru o ofertă, transmiteți cuplul sau puterea necesară și tipul de montaj."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de motoreductor Bonfiglioli?",
+        "a": "Este util să precizați cuplul de ieșire necesar, turația de intrare și de ieșire, factorul de serviciu, orientarea axului, paralelă, unghiulară sau in-line, și tipul motorului electric asociat. Aceste date permit alegerea corectă între seriile 300M, HDP, A, F sau C și evită o dimensionare greșită a reductorului."
+      }
+    ],
     evidenceClass: "zero-evidence",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Active Cube Series","url":"https://www.bonfiglioli.com/international/en/product/active-cube-series_inverters-servo-drives_premium-inverters","publisher":"Bonfiglioli","accessed":"2026-09-23"},
+      {"title":"300M Series Industrial Planetary Gearmotors","url":"https://www.bonfiglioli.com/usa/en/product/300m-series_industrial-heavy-duty-geared-products_planetary-geared-units","publisher":"Bonfiglioli","accessed":"2026-09-23"},
       { title: "Bonfiglioli International", url: "https://www.bonfiglioli.com/international/", publisher: "Bonfiglioli", accessed: "2026-09-22" },
       { title: "History", url: "https://www.bonfiglioli.com/international/en/company-about/history", publisher: "Bonfiglioli", accessed: "2026-09-22" }
     ],
@@ -921,11 +1193,89 @@ Pentru fabricile din România cu nevoie de aer comprimat industrial general, ser
     ],
     infinitrade: `Compresoarele Ingersoll Rand le aducem la comandă prin canale din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici a grupului — spunem din capul locului ce putem confirma din informațiile publice ale producătorului. Termenul orientativ de livrare la comandă este de 2-6 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și tipul de compresor dorit (cu sau fără ulei). Nu confirmăm disponibilitate imediată și nici parametrii tehnici exacți fără verificare directă la producător.`,
     limitation: "Nu am putut confirma parametrii tehnici detaliați (putere, presiune, debit) pentru fiecare model din seria R, din cauza accesului limitat la paginile de produs ale producătorului, și recomandăm verificarea lor la momentul ofertei.",
+    productCodes: [
+      {
+        "code": "SSR Two-Stage 75-350 kW",
+        "description": "compresor cu șurub în două trepte, economie de energie de 15%"
+      },
+      {
+        "code": "UP6 5-15 HP",
+        "description": "compresor compact cu șurub, putere 5-15 CP, presiune 125-150 psig"
+      },
+      {
+        "code": "R-Series 47-75 kW",
+        "description": "compresor cu șurub cu ungere în ulei, putere 47-75 kW"
+      },
+      {
+        "code": "R-Series 37-45 kW",
+        "description": "compresor cu șurub, putere 37-45 kW (49-60 CP)"
+      },
+      {
+        "code": "NG R-Series 23-29 kW",
+        "description": "generație nouă, compresor cu șurub, putere 23-29 kW"
+      },
+      {
+        "code": "NG R-Series 55-75 kW",
+        "description": "generație nouă, compresor cu șurub, putere 55-75 kW"
+      },
+      {
+        "code": "R 4-11 kW",
+        "description": "compresor compact cu șurub pentru ateliere mici"
+      },
+      {
+        "code": "NG R-Series 30-45 kW",
+        "description": "generație nouă, compresor cu șurub, putere 30-45 kW"
+      },
+      {
+        "code": "NG R-Series 45-75 kW VSD HRM",
+        "description": "variantă cu turație variabilă și recuperare de căldură"
+      },
+      {
+        "code": "RS 30-37 kW",
+        "description": "compresor cu șurub seria RS, putere 30-37 kW"
+      },
+      {
+        "code": "NG R-Series 15-22 kW",
+        "description": "generație nouă, compresor cu șurub, putere 15-22 kW"
+      },
+      {
+        "code": "NG RS 15-22 kW",
+        "description": "variantă fiabilă seria RS, putere 15-22 kW"
+      },
+      {
+        "code": "Evolution 15-22 kW",
+        "description": "compresor cu șurub seria Evolution, putere 15-22 kW"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile R și NG R-Series de la Ingersoll Rand?",
+        "a": "Seria R este linia clasică de compresoare cu șurub, disponibilă în trepte de putere de la 4 kW până la 75 kW pentru majoritatea aplicațiilor industriale uzuale. NG R-Series reprezintă generația nouă, cu aceleași game de putere, dar cu îmbunătățiri la eficiența energetică, controlul digital și, la unele variante, opțiunea de turație variabilă și recuperare de căldură. Alegerea depinde de bugetul de energie disponibil."
+      },
+      {
+        "q": "Ce avantaj oferă compresorul Ingersoll Rand SSR în două trepte?",
+        "a": "Compresorul SSR cu două trepte, disponibil între 75 și 350 kW, reduce consumul de energie cu până la 15% față de un compresor cu o singură treaptă, datorită angrenajului integral și rotoarelor de precizie. Este echipat cu controler Intellisys pentru monitorizare și diagnoză, iar intervalul de schimbare a lichidului de răcire ajunge la 8.000 de ore sau 2 ani."
+      },
+      {
+        "q": "Cât aer produce un compresor UP6 de la Ingersoll Rand?",
+        "a": "Seria UP6 acoperă puteri între 5 și 15 CP, cu presiune de lucru între 125 și 150 psig, fiind gândită pentru ateliere mici și medii unde spațiul la sol contează. Designul compact, cu răcitor combinat montat pe acoperiș, reduce zgomotul și permite instalarea aproape de zona de lucru, iar opțiunea Total Air System adaugă uscare și filtrare a aerului."
+      },
+      {
+        "q": "Livrați compresoare Ingersoll Rand în România?",
+        "a": "Da, aducem la comandă modele din seriile R, NG R-Series, RS, Evolution, UP6 și SSR prezentate mai sus, conform paginilor tehnice publice ale producătorului; nu păstrăm aceste compresoare pe raft ca stoc propriu. Termenul obișnuit este de 2-6 săptămâni, în funcție de model. Pentru o ofertă, transmiteți puterea necesară, presiunea de lucru și tipul de aplicație."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de compresor cu șurub?",
+        "a": "Este util să menționați puterea necesară în kW sau CP, presiunea de lucru dorită, debitul de aer estimat pentru instalație și dacă aveți nevoie de turație variabilă sau recuperare de căldură. Aceste informații permit alegerea corectă între seriile R, NG R-Series, RS sau SSR, evitând un compresor supradimensionat sau insuficient pentru consumul real."
+      }
+    ],
     evidenceClass: "gsc-only",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"SSR Two-Stage 75-350 kW Rotary Screw Compressor","url":"https://www.ingersollrand.com/en-lac/products/air-compressors/oil-flooded-rotary-air-compressors/ssr-two-stage-75-350-kw-100-500-hp/","publisher":"Ingersoll Rand","accessed":"2026-09-23"},
+      {"title":"UP6 5-15 HP Oil-Flooded Rotary Screw Compressors","url":"https://www.ingersollrand.com/en-us/products/air-compressors/oil-flooded-rotary-air-compressors/up6-5-15-hp/","publisher":"Ingersoll Rand","accessed":"2026-09-23"},
       { title: "Ingersoll Rand India", url: "https://www.ingersollrand.com/en-in", publisher: "Ingersoll Rand", accessed: "2026-09-22" },
       { title: "Air Compressors", url: "https://www.ingersollrand.com/en-in/products/air-compressors", publisher: "Ingersoll Rand", accessed: "2026-09-22" },
       { title: "Oil-Flooded Rotary Air Compressors", url: "https://www.ingersollrand.com/en-in/products/air-compressors/oil-flooded-rotary-air-compressors", publisher: "Ingersoll Rand", accessed: "2026-09-22" }
@@ -963,11 +1313,125 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
     ],
     infinitrade: `Filtrele Mahle ajung la comandă prin distribuția europeană a producătorului german, fără date proprii despre stocul fiecărei uzine — lucrăm cu ce confirmă cataloagele publice ale producătorului pentru identificarea filtrului corect. Termenul orientativ de livrare la comandă este de 2-6 săptămâni, în funcție de tipul de filtru și de cantitatea comandată. Pentru o ofertă corectă avem nevoie de modelul motorului sau al utilajului, codul original al filtrului dacă e cunoscut și cantitatea necesară. Nu confirmăm disponibilitate imediată pentru fiecare cod de filtru din gama Mahle.`,
     limitation: "Nu putem confirma echivalențe exacte cu codurile altor producători de filtre și recomandăm verificarea codului original înainte de comandă.",
+    productCodes: [
+      {
+        "code": "LX 75",
+        "description": "filtru de aer pentru motociclete și ATV-uri"
+      },
+      {
+        "code": "LX 194",
+        "description": "filtru de aer pentru motociclete, aplicații multiple"
+      },
+      {
+        "code": "LX 578",
+        "description": "filtru de aer pentru motociclete, gamă powersports"
+      },
+      {
+        "code": "LX 718",
+        "description": "filtru de aer pentru motociclete și scutere"
+      },
+      {
+        "code": "LX 820",
+        "description": "filtru de aer pentru motociclete, catalog powersports"
+      },
+      {
+        "code": "LX 984/2",
+        "description": "filtru de aer, variantă pereche pentru motociclete"
+      },
+      {
+        "code": "LX 1293",
+        "description": "filtru de aer pentru motociclete de generație mai nouă"
+      },
+      {
+        "code": "LX 1710",
+        "description": "filtru de aer pentru motociclete, aplicații ATV"
+      },
+      {
+        "code": "LX 1892",
+        "description": "filtru de aer pentru motociclete, model mai recent"
+      },
+      {
+        "code": "LX 3013",
+        "description": "filtru de aer pentru motociclete, ultimul cod din gamă"
+      },
+      {
+        "code": "OC 5",
+        "description": "filtru de ulei tip spin-on pentru motociclete"
+      },
+      {
+        "code": "OC 91",
+        "description": "filtru de ulei spin-on, aplicații powersports"
+      },
+      {
+        "code": "OC 306",
+        "description": "filtru de ulei spin-on pentru motociclete și ATV-uri"
+      },
+      {
+        "code": "OC 575",
+        "description": "filtru de ulei spin-on, gamă extinsă de aplicații"
+      },
+      {
+        "code": "OX 36D",
+        "description": "filtru de ulei tip cartuș pentru motociclete"
+      },
+      {
+        "code": "OX 119",
+        "description": "filtru de ulei tip cartuș, aplicații multiple"
+      },
+      {
+        "code": "OX 410",
+        "description": "filtru de ulei tip cartuș pentru motociclete recente"
+      },
+      {
+        "code": "OX 793",
+        "description": "filtru de ulei tip cartuș, ultimul cod din catalog"
+      },
+      {
+        "code": "KL 145",
+        "description": "filtru de combustibil pentru motociclete și ATV-uri"
+      },
+      {
+        "code": "KL 97",
+        "description": "filtru de combustibil, aplicație powersports"
+      },
+      {
+        "code": "ATX 250",
+        "description": "unitate de service pentru spălarea transmisiilor automate"
+      },
+      {
+        "code": "ATX 280",
+        "description": "unitate de spălare pentru transmisii, capacitate mai mare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între filtrele de ulei Mahle OC și OX?",
+        "a": "Seria OC este formată din filtre spin-on complete, cu carcasă metalică inclusă, montate direct pe motor prin filetul standard. Seria OX cuprinde filtre tip cartuș, element de filtrare fără carcasă exterioară, folosite acolo unde motorul are un corp de filtru reutilizabil integrat. Alegerea corectă depinde de tipul de montaj prevăzut de constructorul motorului, nu doar de dimensiune."
+      },
+      {
+        "q": "Cum găsesc codul corect de filtru Mahle pentru motocicleta mea?",
+        "a": "Codul depinde de marcă, model și an de fabricație; catalogul Mahle pentru powersports listează coduri precum LX pentru filtre de aer, OC/OX pentru ulei și KL pentru combustibil, fiecare acoperind mai multe aplicații. Recomandăm verificarea codului exact în catalogul tehnic public al producătorului sau prin numărul de identificare al vehiculului, înainte de a plasa comanda."
+      },
+      {
+        "q": "Ce este tehnologia CareMetix de la filtrele de habitaclu Mahle?",
+        "a": "CareMetix este un filtru de habitaclu cu tehnologie S5, format din cinci straturi ce rețin mirosuri, amoniac și compuși de sulf, polen și alergeni, funingine și particule fine, mucegai și, printr-un strat cu acoperire antibacteriană, bacterii. Este gândit pentru vehicule unde calitatea aerului din habitaclu contează, fiind disponibil în variante specifice fiecărui model de mașină."
+      },
+      {
+        "q": "Livrați filtre Mahle în România?",
+        "a": "Da, aducem la comandă filtre din gamele LX, OC, OX, KL și CareMetix prezentate mai sus, conform cataloagelor publice ale producătorului; nu păstrăm aceste filtre pe raft ca stoc propriu. Termenul obișnuit este de 2-6 săptămâni, în funcție de cod și disponibilitate. Pentru o comandă corectă, transmiteți codul exact sau datele complete ale vehiculului."
+      },
+      {
+        "q": "Ce este unitatea Mahle ATX pentru transmisii automate?",
+        "a": "ATX 250 și ATX 280 sunt unități de service pentru schimbul și spălarea fluidului din transmisiile automate, folosite în ateliere pentru a înlocui uleiul vechi fără a lăsa reziduuri în circuit. Diferența dintre cele două modele constă în capacitatea de fluid procesată, ATX 280 fiind varianta cu capacitate mai mare."
+      }
+    ],
     evidenceClass: "transactional",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Powersports Filter Catalog FI-70-15","url":"https://www.mahle-aftermarket.com/media/local-media-north-america/pdfs-&-thumbnails/catalogs-and-literature/filters/fi-70-15_powersports_filter_catalog.pdf","publisher":"MAHLE Aftermarket","accessed":"2026-09-23"},
+      {"title":"CareMetix","url":"https://www.caremetix.mahle.com/","publisher":"MAHLE Aftermarket","accessed":"2026-09-23"},
       { title: "MAHLE Group", url: "https://www.mahle.com", publisher: "MAHLE GmbH", accessed: "2026-09-22" },
       { title: "MAHLE Filter Systems North America", url: "https://www.mahle.com/en/about-mahle/locations/2224.jsp", publisher: "MAHLE GmbH", accessed: "2026-09-22" },
       { title: "Filters | MAHLE Aftermarket Europe", url: "https://www.mahle-aftermarket.com/eu/en/products/filters/", publisher: "MAHLE Aftermarket", accessed: "2026-09-22" }

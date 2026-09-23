@@ -209,10 +209,76 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
     ],
     infinitrade: "Pentru Tsubaki, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi înșine pentru fiecare comandă — nu avem un inventar propriu verificat pentru toate variantele de lanț. Aducem lanțurile Tsubaki (RS, Lambda, Neptune) la comandă prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru variantele pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru restul gamei sau pentru roți dințate speciale. Pentru o ofertă corectă, trimiteți-ne pasul lanțului, tipul (simplex, duplex sau triplex), lungimea sau numărul de zale, și aplicația (transmisie sau manipulare materiale). Nu lucrăm cu prețuri afișate public și nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor.",
     sources: [
+      {"title":"RS roller chain product page","url":"https://tsubakimoto.com/power-transmission/drive-chain/standard/roller-chain/rs/","publisher":"Tsubakimoto Chain","accessed":"2026-09-23"},
+      {"title":"Low-noise chain product page","url":"https://tsubakimoto.com/power-transmission/drive-chain/corrosion-resistant/low-noise","publisher":"Tsubakimoto Chain","accessed":"2026-09-23"},
       { title: "About Tsubaki | TSUBAKIMOTO CHAIN GROUP", url: "https://www.tsubakimoto.com/company/", publisher: "Tsubakimoto Chain Co.", accessed: "2026-09-22" },
       { title: "Tsubakimoto Chain", url: "https://en.wikipedia.org/wiki/Tsubakimoto_Chain", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
     limitation: "Nu confirmăm stocul exact pentru fiecare pas sau variantă de lanț fără o verificare punctuală, și nu executăm montaj sau configurare a sistemelor de manipulare materiale.",
+    productCodes: [
+      {
+        "code": "RS40",
+        "description": "Lanț cu role, pas mic, uz general, standard ISO A"
+      },
+      {
+        "code": "RS60",
+        "description": "Lanț cu role, pas mediu, transmisie industrială standard"
+      },
+      {
+        "code": "RS80",
+        "description": "Lanț cu role, pas mediu-mare, sarcini industriale curente"
+      },
+      {
+        "code": "RS100",
+        "description": "Lanț cu role, pas mare, capacitate de tracțiune ridicată"
+      },
+      {
+        "code": "RS140",
+        "description": "Lanț cu role, pas foarte mare, sarcini de tracțiune grele"
+      },
+      {
+        "code": "RS240",
+        "description": "Lanț cu role, pasul superior din gama standard RS"
+      },
+      {
+        "code": "RS40-SNS-1",
+        "description": "Lanț cu role cu zgomot redus, un rând, pas mic"
+      },
+      {
+        "code": "RS50-SNS-1",
+        "description": "Lanț cu role cu zgomot redus, un rând, pas mediu"
+      },
+      {
+        "code": "RS60-SNS-1",
+        "description": "Lanț cu role cu zgomot redus, un rând, pas mediu-mare"
+      },
+      {
+        "code": "RS80-SNS-1",
+        "description": "Lanț cu role cu zgomot redus, un rând, pas mare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce lanț Tsubaki aleg pentru o transmisie unde zgomotul de funcționare contează?",
+        "a": "Seria SNS, precum RS60-SNS-1, folosește o construcție cu bucșă plină gândită să reducă zgomotul față de un lanț clasic cu role, la același pas de montare. Rămâne compatibilă cu pinioanele standard pentru pasul respectiv, deci înlocuiește direct un lanț RS obișnuit din aceeași gamă dimensională."
+      },
+      {
+        "q": "Ce diferență este între lanțurile Tsubaki RS80 și RS80-SNS-1?",
+        "a": "RS80 este lanțul standard cu role din gama Tsubaki pentru pasul respectiv, folosit pe scară largă în transmisiile industriale. RS80-SNS-1 are aceeași geometrie de bază, dar o construcție cu bucșă plină cu durată de viață mai mare la uzură și un nivel de zgomot mai scăzut în funcționare continuă."
+      },
+      {
+        "q": "Livrați lanțuri Tsubaki în România?",
+        "a": "Da, aducem lanțuri Tsubaki la comandă pe baza fișelor tehnice publicate de producător, fără stocuri proprii menținute pe întreaga gamă. Termenul tipic este de 2-6 săptămâni, în funcție de pas, de lungime și de numărul de rânduri solicitate. Recomandăm confirmarea exactă a codului înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de lanț cu role Tsubaki?",
+        "a": "Este util să precizați pasul lanțului, numărul de zale sau lungimea dorită, numărul de rânduri și dacă aplicația necesită varianta cu zgomot redus din seria SNS. Aceste detalii permit identificarea corectă a codului, de exemplu RS60 pentru varianta standard sau RS60-SNS-1 pentru cea silențioasă."
+      },
+      {
+        "q": "Ce înseamnă pasul unui lanț din seria Tsubaki RS?",
+        "a": "Pasul este distanța dintre centrele a două zale consecutive și determină compatibilitatea lanțului cu un anumit pinion. Codul RS este urmat de un număr care crește odată cu pasul: un RS40 are pas mic și este potrivit pentru sarcini reduse, iar un RS240 are un pas mult mai mare, pentru sarcini de tracțiune grele."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
@@ -280,9 +346,75 @@ Turck nu vinde doar componente — oferă soluții complete. Ai nevoie să conec
     ],
     infinitrade: "Cu Turck, plecăm de la informațiile publice disponibile despre producător, completate cu ce putem verifica noi la momentul cererii; nu deținem un inventar propriu documentat pentru toate familiile de senzori. Comandăm senzorii inductivi, sistemele RFID BL ident sau modulele I/O prin canale de aprovizionare europene, cu 24-72 h din stoc pentru referințele confirmate deja și 2-6 săptămâni la comandă pentru rest. Ca să răspundem rapid, avem nevoie de codul exact al senzorului sau de tipul, distanța de sensing, tensiunea și tipul de ieșire, plus cantitatea și protocolul de comunicație folosit (Profinet, EtherNet/IP, Modbus). Nu includem prețuri în acest text, iar pentru integrarea în proiecte mari recomandăm o discuție tehnică punctuală înainte de comandă.",
     sources: [
+      {"title":"Inductive Sensors","url":"https://www.turck.com/de/en/shop/sensors/inductive-sensors","publisher":"Turck","accessed":"2026-09-23"},
+      {"title":"Pressure Sensors","url":"https://www.turck.com/de/en/shop/sensors/pressure-sensors","publisher":"Turck","accessed":"2026-09-23"},
       { title: "Turck", url: "https://en.wikipedia.org/wiki/Turck", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma configurarea software sau parametrizarea IO-Link a senzorilor înainte de livrare, și nu garantăm un inventar constant pentru toate familiile de produse.",
+    productCodes: [
+      {
+        "code": "BI2-Q10S-Y1X",
+        "description": "Senzor inductiv de proximitate, carcasă pătrată, distanță de comutare 2 mm"
+      },
+      {
+        "code": "BI5-G18SK-AP6X",
+        "description": "Senzor inductiv de proximitate, filet G18, distanță de comutare 5 mm"
+      },
+      {
+        "code": "BI5-M18-AN6X-H1141",
+        "description": "Senzor inductiv de proximitate, filet M18, ieșire NPN"
+      },
+      {
+        "code": "BI4U-EM12WD-AP6X-H1141",
+        "description": "Senzor inductiv ultra-plat, pentru montaj îngropat în metal"
+      },
+      {
+        "code": "BI4U-M12-AP6X-H1141",
+        "description": "Senzor inductiv de proximitate, filet M12, ieșire PNP"
+      },
+      {
+        "code": "BI8-M18-AP6X-H1141",
+        "description": "Senzor inductiv de proximitate, filet M18, distanță de comutare 8 mm"
+      },
+      {
+        "code": "PS510-100-02-LI2UPN8-H1141",
+        "description": "Traductor de presiune, domeniu până la 100 bar, ieșire PNP"
+      },
+      {
+        "code": "PS510-250-03-2UPN8-H1141",
+        "description": "Traductor de presiune, domeniu până la 250 bar, ieșire PNP"
+      },
+      {
+        "code": "PS510-400-04-2UPN8-H1141",
+        "description": "Traductor de presiune, domeniu până la 400 bar, ieșire PNP"
+      },
+      {
+        "code": "PS510-10V-05-LI2UPN8-H1141",
+        "description": "Traductor de presiune cu ieșire analogică de 0-10V"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce senzor Turck aleg pentru montaj îngropat în metal?",
+        "a": "Seria BI4U, precum BI4U-EM12WD-AP6X-H1141, este construită special pentru montaj complet îngropat în material metalic, fără câmp electromagnetic lateral care să interfereze cu piese apropiate. Un senzor standard neîngropabil ar avea distanța de comutare redusă sau ar declanșa fals dacă este montat la fel de aproape de metal."
+      },
+      {
+        "q": "Ce diferență este între senzorii Turck BI5-M18-AN6X-H1141 și BI8-M18-AP6X-H1141?",
+        "a": "Ambii au filet M18, dar diferă prin distanța nominală de comutare, 5 mm la primul și 8 mm la al doilea, precum și prin tipul ieșirii, NPN respectiv PNP. Alegerea între ei depinde de logica automatului programabil folosit și de distanța reală până la ținta detectată."
+      },
+      {
+        "q": "Livrați senzori Turck în România?",
+        "a": "Da, aducem senzori și traductoare Turck la comandă, pe baza fișelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru întreaga gamă. Termenul obișnuit este 2-6 săptămâni, în funcție de model și cantitate. Recomandăm confirmarea codului complet, inclusiv sufixele, înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de traductor de presiune Turck?",
+        "a": "Ajută să precizați domeniul de presiune necesar, tipul ieșirii (comutată sau analogică 0-10V), filetul de montare și mediul măsurat. Aceste detalii permit alegerea corectă între variantele PS510 disponibile, de exemplu 100, 250 sau 400 bar, cu ieșire PNP sau analogică."
+      },
+      {
+        "q": "Ce înseamnă codificarea unui senzor Turck de tip BI?",
+        "a": "Prefixul BI marchează un senzor inductiv de proximitate; cifra care urmează indică distanța nominală de comutare în milimetri, iar restul codului descrie forma carcasei, filetul de montare și tipul ieșirii electrice. De exemplu, BI8 are o distanță nominală de 8 mm, mai mare decât BI5."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: sursă oficială turck.com inaccesibilă (429 repetat la 3 încercări), folosit Wikipedia pentru confirmarea founded/headquarters; declarație de aprovizionare onestă" }
@@ -494,10 +626,76 @@ Dar Wago nu e doar borniere — au dezvoltat o gamă completă de automatizări 
     ],
     infinitrade: "Pentru Wago, ne ghidăm după ce putem confirma noi la fiecare comandă și după surse publice ale producătorului, fără un inventar propriu documentat pentru toată gama de borniere și module I/O. Produsele Wago ajung la noi la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h din stoc pentru referințele pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru restul gamei sau configurațiile de proiect. Pentru o ofertă corectă trimiteți secțiunea cablului sau codul bornierei, protocolul de bus folosit (Profinet, EtherNet/IP, Modbus), numărul de canale necesare și cantitatea. Nu afișăm prețuri aici, iar pentru module safety sau PLC-uri seria 750 recomandăm o verificare tehnică înainte de a confirma un termen.",
     sources: [
+      {"title":"Controller PFC200 (750-8212)","url":"https://www.wago.com/us/controllers-bus-couplers-i-o/controller-pfc200/p/750-8212","publisher":"Wago","accessed":"2026-09-23"},
+      {"title":"TOPJOB S double-deck terminal block (2002-2201)","url":"https://www.wago.com/us/rail-chassis-terminal-blocks/topjobs-double-deck-terminal-block/p/2002-2201","publisher":"Wago","accessed":"2026-09-23"},
       { title: "Our Company | WAGO", url: "https://www.wago.com/global/company", publisher: "WAGO GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "WAGO | Reliable Solutions for Many Sectors and Industries | WAGO", url: "https://www.wago.com/global", publisher: "WAGO GmbH & Co. KG", accessed: "2026-09-22" }
     ],
     limitation: "Nu confirmăm programarea sau configurarea PLC-urilor seria 750 în CODESYS ca serviciu inclus, și nu garantăm un inventar constant pentru toate modulele I/O.",
+    productCodes: [
+      {
+        "code": "750-8202",
+        "description": "Controler PFC200 cu Ethernet și interfață RS-232/RS-485"
+      },
+      {
+        "code": "750-8210",
+        "description": "Controler PFC200, variantă cu opțiuni de comunicație extinse"
+      },
+      {
+        "code": "750-8208",
+        "description": "Controler PFC200, variantă compactă pentru automatizare de proces"
+      },
+      {
+        "code": "750-8212",
+        "description": "Controler PFC200 generația a doua, 2x Ethernet, RS-232/RS-485"
+      },
+      {
+        "code": "750-8216/025-001",
+        "description": "Controler PFC200, variantă cu configurație de firmware specifică"
+      },
+      {
+        "code": "750-8202/025-002",
+        "description": "Controler PFC200, variantă cu configurație software particularizată"
+      },
+      {
+        "code": "750-8212/040-010",
+        "description": "Controler PFC200 generația a doua, configurație particularizată"
+      },
+      {
+        "code": "750-8202/000-012",
+        "description": "Controler PFC200, variantă FG2 pentru automatizarea clădirilor"
+      },
+      {
+        "code": "2002-2201",
+        "description": "Bornă TOPJOB S cu două etaje, montaj pe șină, gri"
+      },
+      {
+        "code": "2002-2202",
+        "description": "Bornă TOPJOB S cu două etaje, variantă cu conexiune alternativă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce controler WAGO PFC200 aleg pentru o automatizare cu două rețele Ethernet separate?",
+        "a": "Modelul 750-8212, de generația a doua, are două porturi Ethernet și interfață serială RS-232/RS-485, potrivit pentru separarea rețelei de proces de cea de supraveghere. Pentru cerințe suplimentare de firmware sau software, variante particularizate precum 750-8212/040-010 acoperă configurații specifice de proiect."
+      },
+      {
+        "q": "Ce diferență este între bornele WAGO TOPJOB S 2002-2201 și 2002-2202?",
+        "a": "Ambele sunt borne cu două etaje din seria TOPJOB S, montate pe șină, cu aceeași lățime de 5,2 mm și culoare gri. Diferența constă în modul de conexiune al conductorului la fiecare etaj, ceea ce influențează alegerea în funcție de tipul de cablu și de accesul dorit la punctul de testare."
+      },
+      {
+        "q": "Livrați echipamente WAGO în România?",
+        "a": "Da, aducem controlere și borne WAGO la comandă, pe baza fișelor de produs publicate de producător, fără evidențe proprii de stoc pentru întreaga gamă. Termenul uzual este de 2-6 săptămâni, în funcție de model și de cantitate. Recomandăm confirmarea codului exact, inclusiv sufixele de configurație, înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de controler WAGO PFC200?",
+        "a": "Sunt utile numărul și tipul de interfețe de comunicație necesare, protocolul de automatizare folosit și dacă este nevoie de o configurație particularizată de firmware. Aceste detalii permit alegerea între un model de bază, precum 750-8202, sau o variantă particularizată de proiect."
+      },
+      {
+        "q": "Ce este seria WAGO TOPJOB S de borne cu arc?",
+        "a": "Este o gamă de borne de conexiune cu arc, montate pe șină, gândite pentru conectare rapidă a conductorului fără scule speciale de strângere. Variantele cu două sau trei etaje, precum 2002-2201, economisesc spațiu în tabloul electric față de bornele cu un singur etaj pentru același număr de circuite."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
@@ -565,10 +763,95 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
     ],
     infinitrade: "La Weidmüller, pornim de la informațiile publice disponibile despre producător și de la ce putem verifica noi direct, fără un inventar propriu documentat pentru fiecare secțiune de bornieră. Aducem bornierele seria W, conectorii industriali și accesoriile de marcare prin canale de aprovizionare din UE — 24-72 h din stoc pentru pozițiile deja confirmate, 2-6 săptămâni la comandă pentru rest. Pentru o cotație corectă avem nevoie de secțiunea de cablu în mm², tipul de conexiune (șurub, arc sau push-in), numărul de poziții și, dacă e cazul, cerințele de marcare. Nu comunicăm prețuri în acest text, iar pentru proiectarea completă a unui tablou recomandăm o discuție tehnică separată înainte de comandă.",
     sources: [
+      {"title":"North America Industrial Connectivity Short Form Catalog","url":"https://assets.dam.weidmueller.com/assets/api/59dd8219-ca9b-4232-ada4-757f8f82f5df/Original/WeidmullerInc_Cat10_ShortFormCatalog.pdf","publisher":"Weidmüller","accessed":"2026-09-23"},
       { title: "Company - Weidmüller as a partner at eye level", url: "https://www.weidmueller.com/int/company/index.jsp", publisher: "Weidmüller Interface GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Weidmüller: Smart Industrial Connectivity from Detmold with Love", url: "https://www.weidmueller.com/int/index.jsp", publisher: "Weidmüller Interface GmbH & Co. KG", accessed: "2026-09-22" }
     ],
     limitation: "Nu oferim proiectarea completă a tabloului electric ca serviciu inclus (doar consultanță punctuală), și nu confirmăm stocul fiecărei secțiuni de bornieră fără o verificare directă.",
+    productCodes: [
+      {
+        "code": "P-Series",
+        "description": "Bornă de conexiune cu arc, tip push-in, montaj rapid"
+      },
+      {
+        "code": "I-Series",
+        "description": "Bornă de conexiune cu tehnologie IDC, fără dezizolare prealabilă"
+      },
+      {
+        "code": "W-Series",
+        "description": "Bornă de conexiune cu șurub, execuție de bază"
+      },
+      {
+        "code": "Z-Series",
+        "description": "Bornă de conexiune cu clemă de tensiune"
+      },
+      {
+        "code": "WMF Series",
+        "description": "Bornă de conexiune cu șurub, variantă modulară extinsă"
+      },
+      {
+        "code": "SAK Series",
+        "description": "Bornă de conexiune cu șurub, execuție industrială clasică"
+      },
+      {
+        "code": "RockStar",
+        "description": "Conector industrial modular pentru sarcini grele"
+      },
+      {
+        "code": "connectPower",
+        "description": "Sistem de conectori pentru distribuția energiei electrice în tablou"
+      },
+      {
+        "code": "SteadyTEC",
+        "description": "Conector Ethernet industrial cu fixare rapidă a cablului"
+      },
+      {
+        "code": "MultiCard",
+        "description": "Sistem de cartele pentru marcarea bornelor și a cablurilor"
+      },
+      {
+        "code": "MCP Plotter",
+        "description": "Sistem de printare prin plotter pentru marcaje personalizate"
+      },
+      {
+        "code": "PrintJet ADVANCED",
+        "description": "Imprimantă color pentru etichete și marcaje industriale"
+      },
+      {
+        "code": "Stripax",
+        "description": "Sculă manuală pentru tăiat, dezizolat și sertizat mufe terminale"
+      },
+      {
+        "code": "Stripax 2.5",
+        "description": "Sculă manuală 3-în-1, pentru tăiat, dezizolat și sertizat"
+      },
+      {
+        "code": "PZ 6 Roto L",
+        "description": "Clește de sertizat pentru mufe terminale de cablu"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce bornă Weidmüller aleg pentru montaj rapid fără strângere manuală cu șurubelnița?",
+        "a": "Seria P, cu conexiune tip push-in, permite introducerea directă a conductorului rigid fără vreo unealtă, fiind mai rapidă la montaj în serie. Dacă este nevoie de o forță de strângere mai mare pentru conductoare flexibile groase, o bornă din seria W, cu șurub, rămâne alegerea clasică."
+      },
+      {
+        "q": "Ce diferență este între bornele Weidmüller din seria W și seria Z?",
+        "a": "Seria W folosește un șurub pentru strângerea directă a conductorului în bornă, fiind construcția clasică pentru multe tablouri electrice. Seria Z se bazează pe o clemă de tensiune care apasă conductorul prin arc metalic, reducând nevoia de reverificare periodică a cuplului de strângere din cauza relaxării materialului."
+      },
+      {
+        "q": "Livrați borne și conectori Weidmüller în România?",
+        "a": "Da, comandăm borne, conectori și scule Weidmüller pe baza cataloagelor publice ale producătorului, fără stoc propriu menținut pe toată gama. Perioada obișnuită este de 2-6 săptămâni de la confirmare, în funcție de serie și de cantitate. Codul exact al variantei trebuie confirmat înaintea plasării comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de conector industrial Weidmüller RockStar?",
+        "a": "Este util să precizați numărul de poli necesar, curentul și tensiunea de lucru, precum și dacă aplicația cere protecție la praf și umiditate ridicată. Aceste elemente determină configurația modulară potrivită din gama RockStar, ținând cont de mediul de instalare al echipamentului."
+      },
+      {
+        "q": "Ce este scula Weidmüller Stripax?",
+        "a": "Este o sculă manuală care taie conductorul la lungimea dorită, îl dezizolă și sertizează mufa terminală într-o singură operație, fără schimbarea uneltei între pași. Varianta Stripax 2.5 adaugă și funcția combinată într-un format mai compact, util la lucrul repetitiv în tablouri electrice."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
@@ -636,10 +919,96 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
     ],
     infinitrade: "Pentru gama electronică Weidmüller — alimentatoare, protecții la supratensiuni, convertoare de semnal — folosim ce putem confirma punctual și informațiile publice disponibile despre producător; nu avem un inventar propriu pentru fiecare putere sau variantă de alimentator. Aducem produsele prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h din stoc acolo unde avem deja confirmare și 2-6 săptămâni la comandă pentru rest. Ca să pregătim rapid o ofertă, trimiteți puterea sau curentul alimentatorului dorit, tensiunea de ieșire, tipul de protecție necesar (linii AC, DC sau de semnal) și cantitatea. Nu includem prețuri aici, iar pentru monitorizarea curenților trifazați sau releele de siguranță SIL recomandăm o verificare tehnică înainte de a stabili termenul final.",
     sources: [
+      {"title":"PRO MAX 480W 24V 20A","url":"https://eshop.weidmueller.com/en/pro-max-480w-24v-20a/p/1478140000","publisher":"Weidmüller","accessed":"2026-09-23"},
+      {"title":"VPU II 2 PV 600V DC","url":"https://eshop.weidmueller.com/en/vpu-ii-2-pv-600v-dc/p/1351340000","publisher":"Weidmüller","accessed":"2026-09-23"},
       { title: "Company - Weidmüller as a partner at eye level", url: "https://www.weidmueller.com/int/company/index.jsp", publisher: "Weidmüller Interface GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Weidmüller: Smart Industrial Connectivity from Detmold with Love", url: "https://www.weidmueller.com/int/index.jsp", publisher: "Weidmüller Interface GmbH & Co. KG", accessed: "2026-09-22" }
     ],
     limitation: "Nu confirmăm configurarea avansată a releelor programabile ca serviciu inclus, și nu garantăm un inventar constant pentru fiecare putere de alimentator.",
+    productCodes: [
+      {
+        "code": "VPU II 2 PV 600V DC",
+        "description": "Descărcător de supratensiune fotovoltaic, tip 2, 600V DC"
+      },
+      {
+        "code": "VPU II 3 R PV 1000V DC",
+        "description": "Descărcător de supratensiune fotovoltaic, tip 2, 1000V DC, cu contact la distanță"
+      },
+      {
+        "code": "VPU III R 24V/4KV AC/DC",
+        "description": "Descărcător de supratensiune tip 3 pentru echipamente terminale, 24V"
+      },
+      {
+        "code": "VPU III R 12V/4KV AC/DC",
+        "description": "Descărcător de supratensiune tip 3 pentru echipamente terminale, 12V"
+      },
+      {
+        "code": "VPU II 2 PV 1000V DC",
+        "description": "Descărcător de supratensiune fotovoltaic, tip 2, 1000V DC"
+      },
+      {
+        "code": "PRO ECO 120W 24V 5A",
+        "description": "Alimentator în comutație, putere 120W, ieșire 24V/5A"
+      },
+      {
+        "code": "PRO ECO 120W 24V 5A II",
+        "description": "Alimentator în comutație, 120W, generația a doua"
+      },
+      {
+        "code": "PRO ECO 480W 24V 20A",
+        "description": "Alimentator în comutație, putere 480W, ieșire 24V/20A"
+      },
+      {
+        "code": "PRO TOP1 480W 24V 20A",
+        "description": "Alimentator în comutație de performanță, 480W, ieșire 24V/20A"
+      },
+      {
+        "code": "PRO MAX 480W 24V 20A",
+        "description": "Alimentator în comutație de putere mare, 480W, 24V/20A"
+      },
+      {
+        "code": "PRO MAX 240W 24V 10A",
+        "description": "Alimentator în comutație, putere 240W, ieșire 24V/10A"
+      },
+      {
+        "code": "PRO MAX 180W 24V 7,5A",
+        "description": "Alimentator în comutație, putere 180W, ieșire 24V/7,5A"
+      },
+      {
+        "code": "PRO MAX 960W 24V 40A",
+        "description": "Alimentator în comutație de putere foarte mare, 960W"
+      },
+      {
+        "code": "PRO MAX 120W 24V 5A",
+        "description": "Alimentator în comutație compact, putere 120W, ieșire 24V/5A"
+      },
+      {
+        "code": "PRO ECO 240W 24V 10A",
+        "description": "Alimentator în comutație, putere 240W, ieșire 24V/10A"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce alimentator Weidmüller aleg pentru un tablou cu o sarcină de 20A la 24V?",
+        "a": "Un model din familia PRO MAX, precum PRO MAX 480W 24V 20A, acoperă direct acest curent la tensiunea de 24V continuu, cu rezervă de putere pentru vârfuri scurte de pornire. Pentru sarcini mai mici, variantele de 120W sau 240W din aceeași familie evită supradimensionarea inutilă a alimentatorului."
+      },
+      {
+        "q": "Ce diferență este între alimentatoarele Weidmüller PRO ECO și PRO MAX?",
+        "a": "PRO ECO acoperă necesarul curent de putere la un preț de listă mai accesibil, fiind gândit pentru aplicații standard fără cerințe speciale. PRO MAX oferă rezervă suplimentară de putere și funcții extinse de diagnoză, recomandat acolo unde alimentarea trebuie să suporte vârfuri de sarcină sau condiții de mediu mai dificile."
+      },
+      {
+        "q": "Livrați alimentatoare și protecții la supratensiune Weidmüller în România?",
+        "a": "Da, comandăm alimentatoare PRO și descărcătoare VPU Weidmüller pe baza fișelor publice de produs, fără stoc propriu menținut pe întreaga gamă. Termenul obișnuit este de 2-6 săptămâni de la confirmarea comenzii, în funcție de putere și de cantitate, iar codul exact trebuie verificat înainte de a comanda."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de protecție la supratensiune Weidmüller VPU?",
+        "a": "Ajută să precizați tensiunea nominală a instalației, dacă aplicația este fotovoltaică sau de rețea standard, și tipul de protecție necesar conform normativului electric al proiectului. Aceste detalii determină alegerea corectă între variante precum VPU II pentru linia principală și VPU III R pentru echipamentul terminal."
+      },
+      {
+        "q": "Ce înseamnă tipul 2 și tipul 3 la descărcătoarele Weidmüller VPU?",
+        "a": "Tipul 2, prezent la seria VPU II, protejează la nivelul tabloului de distribuție împotriva supratensiunilor induse în rețea. Tipul 3, folosit la VPU III R, se montează aproape de echipamentul final, pentru o protecție suplimentară fină, acolo unde distanța de cablu față de protecția principală de tip 2 este mare."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
@@ -706,10 +1075,83 @@ Portofoliul Wera nu e vast, e concentrat — fac câteva lucruri excepțional de
     ],
     infinitrade: "Pentru Wera, mergem după ce putem confirma la momentul cererii și după surse publice ale producătorului, fără un inventar propriu documentat pentru fiecare set sau dimensiune. Șurubelnițele, biții și cheile Wera ajung la comandă prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru seturile pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru comenzile speciale sau seturile Tool-Check personalizate. Pentru o ofertă corectă spuneți-ne dimensiunea sau codul sculei, tipul de cap (Phillips, Pozidriv, Torx sau Hex), și dacă aveți nevoie de un set complet sau de bucăți individuale. Nu publicăm prețuri și nu promitem un termen fix înainte de a verifica disponibilitatea reală a modelului cerut.",
     sources: [
+      {"title":"Screwdrivers","url":"https://www.wera.de/en/tools/tool-types/screwdriver/screwdrivers","publisher":"Wera","accessed":"2026-09-23"},
       { title: "Wera Tools | Official Site", url: "https://weratool.com/", publisher: "Wera Werk Hermann Werner GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Wera Tools", url: "https://en.wikipedia.org/wiki/Wera_Tools", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
     limitation: "Nu oferim service sau reparații ale sculelor în garanția producătorului, și nu confirmăm disponibilitatea fiecărui set Tool-Check fără o verificare punctuală.",
+    productCodes: [
+      {
+        "code": "334",
+        "description": "Șurubelniță Kraftform Plus pentru șuruburi cu cap crestat"
+      },
+      {
+        "code": "335",
+        "description": "Șurubelniță Kraftform Plus, lamă lungă, cap crestat"
+      },
+      {
+        "code": "350 PH",
+        "description": "Șurubelniță Kraftform Plus pentru șuruburi cu cap Phillips"
+      },
+      {
+        "code": "352",
+        "description": "Șurubelniță Kraftform Plus cu vârf hexagonal interior"
+      },
+      {
+        "code": "354",
+        "description": "Șurubelniță Kraftform Plus, lamă lungă, vârf hexagonal interior"
+      },
+      {
+        "code": "355 PZ",
+        "description": "Șurubelniță Kraftform Plus pentru șuruburi cu cap Pozidriv"
+      },
+      {
+        "code": "367",
+        "description": "Șurubelniță Kraftform Plus pentru șuruburi cu cap TORX"
+      },
+      {
+        "code": "368",
+        "description": "Șurubelniță Kraftform Plus cu vârf pătrat"
+      },
+      {
+        "code": "391",
+        "description": "Șurubelniță Kraftform Plus pentru coliere de furtun"
+      },
+      {
+        "code": "395 HO",
+        "description": "Cheie tubulară Kraftform Plus pentru piulițe hexagonale"
+      },
+      {
+        "code": "338",
+        "description": "Sculă de acționare Kraftform pentru borne de conexiune"
+      },
+      {
+        "code": "327",
+        "description": "Suport Kraftform pentru supape"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce șurubelniță Wera aleg pentru șuruburi cu cap TORX?",
+        "a": "Modelul 367 din seria Kraftform Plus este destinat direct șuruburilor cu profil TORX, cu vârful potrivit ferm în canelurile stelate ale capului. Pentru șuruburi cu profil TORX cu gaură de siguranță, este nevoie de o variantă cu vârf perforat, diferită de codul standard 367."
+      },
+      {
+        "q": "Ce diferență este între șurubelnițele Wera 350 PH și 355 PZ?",
+        "a": "350 PH are vârf Phillips, cu profil în cruce simplu, iar 355 PZ are vârf Pozidriv, cu caneluri suplimentare care reduc alunecarea sub cuplu mare. Confuzia dintre cele două profile duce frecvent la uzura prematură a capului șurubului sau a vârfului șurubelniței dacă se folosește codul greșit."
+      },
+      {
+        "q": "Livrați scule Wera în România?",
+        "a": "Da, aducem șurubelnițe și seturi Wera la comandă, pe baza fișelor de produs publicate de producător, fără stoc propriu pe întreaga gamă de coduri. Perioada tipică este de 2-6 săptămâni, în funcție de model și de cantitatea comandată. Recomandăm confirmarea codului exact al variantei dorite."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de set de șurubelnițe Wera Kraftform?",
+        "a": "Este util să precizați profilele de șurub folosite frecvent în atelier (crestat, Phillips, Pozidriv, hexagonal sau TORX) și dacă preferați un set în geantă sau șurubelnițe individuale. Aceste detalii permit compunerea unei oferte din codurile potrivite din seria Kraftform Plus 300."
+      },
+      {
+        "q": "Ce este mânerul Kraftform Plus de la Wera?",
+        "a": "Este mânerul multi-component folosit la majoritatea șurubelnițelor Wera din seria 300, gândit să transmită cuplu mai mare cu efort de prindere mai mic. Zonele moi de pe suprafață oferă aderență la strângere, iar forma este aceeași pentru toate profilele de vârf din gamă, de la crestat la TORX."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
@@ -777,10 +1219,80 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
     ],
     infinitrade: "La Wilo, plecăm de la informațiile publice disponibile despre producător și de la ce putem verifica noi pentru fiecare cerere, fără un inventar propriu documentat pe toată gama de pompe. Aducem pompele Stratos PICO, Star-RS, sistemele Comfort și Star-Z prin canale de aprovizionare din Uniunea Europeană — 24-72 h din stoc pentru modelele confirmate deja, 2-6 săptămâni la comandă pentru rest. Pentru o cotație corectă avem nevoie de racordul dorit (G1, G1¼ sau flanșă DN), puterea sau debitul necesar, și dacă înlocuiți o pompă existentă sau proiectați o instalație nouă. Nu comunicăm prețuri în acest text, iar pentru sistemele de presiune constantă sau proiectele HVAC mai mari recomandăm o discuție tehnică înainte de a confirma termenul.",
     sources: [
+      {"title":"Wilo-Star-Z","url":"https://wilo.com/gb/en/Products/en/products-expertise/wilo-star-z","publisher":"Wilo","accessed":"2026-09-23"},
+      {"title":"Stratos PICO 25/0,5-8-130","url":"https://wilo.com/gb/en/Products/en/products/stratos-pico_id331/4244398","publisher":"Wilo","accessed":"2026-09-23"},
       { title: "The Wilo Group | Intelligent water technology worldwide | Wilo", url: "https://wilo-group.com/en/", publisher: "WILO SE", accessed: "2026-09-22" },
       { title: "Countries", url: "https://wilo.com/en/Company/Profile/Company-headquarters/Dortmund/", publisher: "WILO SE", accessed: "2026-09-22" }
     ],
     limitation: "Nu oferim service în garanția producătorului pentru pompele Wilo, și nu confirmăm disponibilitatea fiecărui model fără o verificare directă la sursă.",
+    productCodes: [
+      {
+        "code": "Stratos PICO 30/0,5-6",
+        "description": "Pompă de circulație cu turație variabilă, articol 4244400"
+      },
+      {
+        "code": "Stratos PICO 25/0,5-8-130",
+        "description": "Pompă de circulație cu turație variabilă, articol 4244398"
+      },
+      {
+        "code": "Star-Z 20/1",
+        "description": "Pompă de recirculare apă caldă, turație constantă, articol 4028111"
+      },
+      {
+        "code": "Star-Z 20/4-3",
+        "description": "Pompă de recirculare apă caldă, 3 trepte, articol 4081193"
+      },
+      {
+        "code": "Star-Z 20/5-3",
+        "description": "Pompă de recirculare apă caldă, 3 trepte, articol 4081198"
+      },
+      {
+        "code": "Star-Z 20/7-3",
+        "description": "Pompă de recirculare apă caldă, 3 trepte, articol 4081203"
+      },
+      {
+        "code": "Star-Z 25/2",
+        "description": "Pompă de recirculare apă caldă, racord G 1½, articol 4029062"
+      },
+      {
+        "code": "Star-Z 25/6-3",
+        "description": "Pompă de recirculare apă caldă, racord G 1½, 3 trepte"
+      },
+      {
+        "code": "Stratos GIGA2.0",
+        "description": "Pompă de circulație de mare capacitate pentru clădiri"
+      },
+      {
+        "code": "Stratos MAXO",
+        "description": "Pompă de circulație de generație nouă, cu reglaj electronic"
+      },
+      {
+        "code": "Yonos PICO",
+        "description": "Pompă de circulație compactă pentru instalații rezidențiale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă Wilo aleg pentru recircularea apei calde menajere într-o clădire de locuințe?",
+        "a": "Familia Star-Z, de exemplu Star-Z 20/1, este dedicată recirculării apei calde menajere pe conducte cu diametru mic. Pentru instalații cu mai multe coloane sau necesar variabil, o variantă cu trei trepte de turație, precum Star-Z 20/4-3, permite ajustarea debitului fără schimbarea pompei."
+      },
+      {
+        "q": "Ce diferență este între pompele Wilo Star-Z 20/1 și Star-Z 20/4-3?",
+        "a": "Star-Z 20/1 funcționează la o singură turație fixă, fiind cea mai simplă variantă din gamă pentru instalații mici cu debit constant. Star-Z 20/4-3 are trei trepte de turație selectabile manual, utile atunci când debitul necesar pe coloana de recirculare variază între sezonul rece și cel cald."
+      },
+      {
+        "q": "Livrați pompe Wilo în România?",
+        "a": "Da, aducem pompe de circulație Wilo la comandă, pe baza fișelor tehnice publicate de producător, fără stoc propriu menținut pe toată gama. Termenul obișnuit este de 2-6 săptămâni, în funcție de model și de racordul necesar. Recomandăm confirmarea articolului exact înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă de circulație Wilo?",
+        "a": "Ajută să precizați aplicația (încălzire sau recirculare apă caldă menajeră), diametrul racordului, lungimea între flanșe și dacă este nevoie de turație variabilă sau de trepte fixe de viteză. Aceste elemente permit alegerea corectă între o pompă din familia Stratos PICO sau una din familia Star-Z."
+      },
+      {
+        "q": "Ce este pompa Wilo Stratos PICO?",
+        "a": "Este o pompă de circulație cu turație electronic variabilă, folosită la instalații de încălzire unde debitul necesar variază în funcție de sarcina termică a clădirii. Reglajul automat reduce consumul de energie electrică față de o pompă cu turație fixă, care funcționează constant la puterea maximă indiferent de cerere."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
@@ -919,10 +1431,111 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
     ],
     infinitrade: "Cu Yokogawa, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi la fiecare cerere, fără un inventar propriu pentru instrumentația de proces sau sistemele DCS. Coordonăm livrarea prin canale de aprovizionare din Europa, cu termene tipice de 2-6 săptămâni la comandă pentru instrumentație standard și mult mai lungi pentru proiecte DCS complete, unde recomandăm mereu o verificare punctuală a termenului. Pentru o ofertă corectă avem nevoie de tipul de transmițător sau analizor dorit, gama de măsurare, presiunea și temperatura de proces, și dacă produsul face parte dintr-un proiect DCS mai amplu. Nu publicăm prețuri, iar pentru sisteme critice de siguranță recomandăm confirmarea specificațiilor direct cu documentația tehnică a producătorului.",
     sources: [
+      {"title":"Pressure Transmitters - Pressure Transducers","url":"https://www.yokogawa.com/us/solutions/products-and-services/measurement/field-instruments-products/pressure-transmitters/","publisher":"Yokogawa","accessed":"2026-09-23"},
       { title: "Corporate History | Yokogawa Electric Corporation", url: "https://www.yokogawa.com/about/company-overview/corporate-history/", publisher: "Yokogawa Electric Corporation", accessed: "2026-09-22" },
       { title: "Yokogawa Electric Corporation", url: "https://www.yokogawa.com/", publisher: "Yokogawa Electric Corporation", accessed: "2026-09-22" }
     ],
     limitation: "Nu oferim punere în funcțiune sau service pentru sistemele DCS ca serviciu inclus, și nu confirmăm termenele de livrare pentru proiecte complexe fără o verificare directă la producător.",
+    productCodes: [
+      {
+        "code": "EJA110E",
+        "description": "Traductor de presiune diferențială cu montare tradițională pe proces"
+      },
+      {
+        "code": "EJX110A",
+        "description": "Traductor de presiune diferențială, generație DPharp mai nouă"
+      },
+      {
+        "code": "EJA130E",
+        "description": "Traductor de presiune diferențială din seria EJA"
+      },
+      {
+        "code": "EJX130A",
+        "description": "Variantă din seria EJX a traductorului EJA130E"
+      },
+      {
+        "code": "EJA430E",
+        "description": "Traductor standard de presiune manometrică"
+      },
+      {
+        "code": "EJX430A",
+        "description": "Variantă din seria EJX a traductorului de presiune manometrică"
+      },
+      {
+        "code": "EJA440E",
+        "description": "Traductor de presiune manometrică din seria EJA"
+      },
+      {
+        "code": "EJX440A",
+        "description": "Variantă din seria EJX a traductorului EJA440E"
+      },
+      {
+        "code": "EJA530E",
+        "description": "Traductor tradițional de presiune manometrică cu montare in-line"
+      },
+      {
+        "code": "EJX530A",
+        "description": "Traductor de presiune manometrică cu montare in-line, seria EJX"
+      },
+      {
+        "code": "EJX630A",
+        "description": "Model avansat de traductor de presiune manometrică"
+      },
+      {
+        "code": "EJA310E",
+        "description": "Traductor de presiune absolută din seria EJA"
+      },
+      {
+        "code": "EJX310A",
+        "description": "Variantă din seria EJX a traductorului de presiune absolută"
+      },
+      {
+        "code": "EJA510E",
+        "description": "Traductor de presiune absolută cu montare in-line"
+      },
+      {
+        "code": "EJX510A",
+        "description": "Traductor de presiune absolută cu montare in-line, seria EJX"
+      },
+      {
+        "code": "EJX610A",
+        "description": "Model avansat de traductor de presiune absolută"
+      },
+      {
+        "code": "EJX910A",
+        "description": "Traductor multivariabil pentru presiune diferențială, statică și temperatură"
+      },
+      {
+        "code": "EJX930A",
+        "description": "Variantă a traductorului multivariabil EJX910A"
+      },
+      {
+        "code": "EJA115E",
+        "description": "Traductor cu orificiu integrat pentru debite mici"
+      },
+      {
+        "code": "EJX115A",
+        "description": "Variantă din seria EJX a traductorului cu orificiu integrat"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce traductor de presiune Yokogawa aleg pentru presiune diferențială?",
+        "a": "Seria EJA-E, cu modele precum EJA110E și EJA130E, acoperă aplicațiile standard de presiune diferențială cu montare clasică pe proces. Pentru o generație mai nouă a senzorului DPharp, cu stabilitate și precizie îmbunătățite, varianta EJX110A sau EJX130A din seria EJX oferă aceleași dimensiuni de montare, fiind interschimbabilă mecanic cu seria mai veche."
+      },
+      {
+        "q": "Ce diferență este între traductoarele Yokogawa EJA și EJX?",
+        "a": "Seria EJA reprezintă generația tradițională de traductoare DPharp, cu o gamă largă de modele consacrate pentru presiune diferențială, manometrică și absolută. Seria EJX este generația mai nouă, cu un senzor de siliciu rezonant îmbunătățit, precizie mai bună și opțiuni suplimentare precum comunicația wireless sau ieșirea multivariabilă, păstrând aceleași dimensiuni de racordare ca EJA."
+      },
+      {
+        "q": "Livrați traductoare de presiune Yokogawa în România?",
+        "a": "Da, traductoarele Yokogawa nu se află pe stoc propriu; le aducem la comandă, pe baza paginilor publice de produs ale producătorului, fără evidențe interne de disponibilitate. Termenul uzual variază între 2-6 săptămâni la comandă, în funcție de model, de opțiunile de comunicație și de certificările solicitate. Recomandăm confirmarea exactă a codului înainte de a plasa comanda."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă de traductor Yokogawa?",
+        "a": "Este util să precizați tipul de măsurare dorit (diferențială, manometrică sau absolută), limita superioară a intervalului de măsură și tipul de proces racordat. De asemenea, contează dacă este nevoie de certificare pentru zone explozive, de protocol de comunicație HART sau Fieldbus și de materialul umezit de proces, pentru alegerea corectă a modelului Yokogawa potrivit."
+      }
+    ],
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }

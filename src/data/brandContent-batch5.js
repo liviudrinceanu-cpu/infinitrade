@@ -620,8 +620,97 @@ Echipamentele de sterilizare și igienizare Anderson-Negele sunt unice: ITM-4 (I
     infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Anderson-Negele și aducem senzorii la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard din portofoliu putem confirma uneori 24-72 h din stoc, iar pentru sisteme complexe, precum ITM-4 sau configurații custom de proces, termenul obișnuit este de 2-6 săptămâni la comandă, cu calibrare din fabrică. Nu deținem date proprii despre stocul permanent al fiecărei variante de senzor. Pentru o ofertă corectă, trimiteți-ne conexiunea de proces, gama de măsurare necesară și cerințele de certificare (3-A, EHEDG, FDA), iar noi revenim cu termenul real confirmat de furnizor.`,
     limitation: `Nu putem realiza validarea completă IQ/OQ/PQ pentru linii aseptice - aceasta rămâne responsabilitatea unui integrator certificat GAMP 5.`,
     sources: [
+      {"title":"Continuous Level Sensors","url":"https://www.anderson-negele.com/continuous-level-sensors","publisher":"Anderson-Negele","accessed":"2026-09-23"},
       { title: 'Anderson-Negele | Manufacturer of Hygienic Sensors & Process Instrumentation', url: 'https://www.anderson-negele.com/', publisher: 'Anderson-Negele (AMETEK)', accessed: '2026-09-22' },
       { title: 'Anderson-Negele - About Us', url: 'https://www.anderson-negele.com/en/about-us', publisher: 'Anderson-Negele (AMETEK)', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "L3",
+        "description": "Senzor de nivel și presiune cu precizie ridicată"
+      },
+      {
+        "code": "SL",
+        "description": "Traductor hidrostatic de nivel cu dublă membrană, grad de inventar"
+      },
+      {
+        "code": "D3",
+        "description": "Senzor de presiune diferențială și nivel"
+      },
+      {
+        "code": "D3P",
+        "description": "Variantă farmaceutică a senzorului D3, pentru aplicații de înaltă exigență"
+      },
+      {
+        "code": "NSL-F",
+        "description": "Senzor potențiometric pentru monitorizare continuă de nivel"
+      },
+      {
+        "code": "NSL-M",
+        "description": "Senzor potențiometric miniatural, soluție compactă pentru temperatură înaltă"
+      },
+      {
+        "code": "HB",
+        "description": "Senzor cu dublă membrană de grad control, pentru bazine de pasteurizare"
+      },
+      {
+        "code": "SX",
+        "description": "Traductor hidrostatic farmaceutic pentru măsurarea nivelului lichidelor"
+      },
+      {
+        "code": "LD",
+        "description": "Senzor igienic montat superior, pentru acces limitat pe partea inferioară"
+      },
+      {
+        "code": "LA",
+        "description": "Variantă farmaceutică a senzorului de nivel montat superior LD"
+      },
+      {
+        "code": "LD3",
+        "description": "Celulă de cântărire pentru sisteme de detecție a nivelului"
+      },
+      {
+        "code": "LD3xi",
+        "description": "Celulă de cântărire, variantă din gama LD3"
+      },
+      {
+        "code": "LD3xiC",
+        "description": "Celulă de cântărire, variantă compactă din gama LD3"
+      },
+      {
+        "code": "LD360s",
+        "description": "Celulă de cântărire pentru monitorizarea nivelului prin greutate"
+      },
+      {
+        "code": "TC1",
+        "description": "Celulă de tensiune pentru soluții alternative de detecție a nivelului"
+      },
+      {
+        "code": "TC2",
+        "description": "Celulă de tensiune, variantă din gama TC pentru nivel"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce senzor Anderson-Negele aleg pentru nivel continuu într-un tanc igienic?",
+        "a": "Pentru măsurarea continuă a nivelului în tancuri igienice, traductorul hidrostatic SL sau senzorul de presiune și nivel L3 sunt variantele obișnuite, ambele adaptate industriei alimentare. Pentru aplicații farmaceutice cu cerințe suplimentare de curățare, varianta D3P sau senzorul de nivel montat superior LA sunt mai potrivite datorită construcției lor sanitare."
+      },
+      {
+        "q": "Ce diferență este între senzorii Anderson-Negele NSL-F și NSL-M?",
+        "a": "NSL-F este un senzor potențiometric standard pentru monitorizare continuă de nivel, folosit pe o gamă largă de rezervoare industriale. NSL-M este versiunea miniaturală a aceleiași tehnologii, gândită pentru spații de montaj restrânse și temperaturi ridicate, acolo unde varianta standard nu se poate instala fizic pe echipament."
+      },
+      {
+        "q": "Livrați senzori Anderson-Negele în România?",
+        "a": "Da, aducem senzori Anderson-Negele la comandă, conform paginilor publice de produs ale producătorului, fără date proprii despre stocul disponibil. Termenul obișnuit este de 2-6 săptămâni, în funcție de model și de opțiunile de conexiune de proces solicitate. Recomandăm confirmarea codului exact înainte de a trimite comanda fermă către noi."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de senzor de nivel Anderson-Negele?",
+        "a": "Este util să precizați tipul mediului măsurat, intervalul de nivel dorit, conexiunea de proces existentă pe rezervor și dacă aplicația este alimentară, farmaceutică sau industrială generală. Aceste detalii permit orientarea corectă între gamele L3, SL, D3 sau variantele farmaceutice precum D3P și SX."
+      },
+      {
+        "q": "Ce este senzorul Anderson-Negele tip HB?",
+        "a": "Este un senzor cu dublă membrană de grad control, folosit în special în bazinele de echilibrare pentru pasteurizare, unde este nevoie de o monitorizare fiabilă a nivelului lichidului în procesul termic. Construcția sa este gândită pentru mediul umed și solicitant specific liniilor de procesare a lactatelor și băuturilor."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
