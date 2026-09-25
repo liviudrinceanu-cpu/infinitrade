@@ -31,11 +31,97 @@ Pentru piața din România, seriile Unitronics au sens la constructorii de utila
     ],
     infinitrade: `Pentru Unitronics lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe seriile UniStream, Vision, Samba sau Jazz — spunem clar ce putem și ce nu putem confirma înainte de ofertă. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, în funcție de model. Pentru o ofertă corectă avem nevoie de seria exactă, mărimea ecranului, numărul de intrări/ieșiri și, dacă e cazul, protocolul de comunicație necesar. Nu promitem disponibilitate permanentă din stoc pe nicio serie — fiecare comandă se confirmă cu disponibilitatea reală de la furnizor.`,
     limitation: "Nu putem confirma programarea sau punerea în funcțiune a aplicațiilor UniLogic — acestea rămân în sarcina integratorului sau a clientului final.",
+    productCodes: [
+      {
+        "code": "Vision1210",
+        "description": "ecran tactil color de 12,1 inch, PLC+HMI integrat, până la 1000 intrări/ieșiri"
+      },
+      {
+        "code": "Vision1040",
+        "description": "ecran tactil color de 10,4 inch cu tastatură, până la 1000 intrări/ieșiri"
+      },
+      {
+        "code": "Vision700",
+        "description": "ecran tactil color de 7 inch, PLC+HMI integrat, până la 1000 intrări/ieșiri"
+      },
+      {
+        "code": "Vision570",
+        "description": "ecran tactil color de 5,7 inch, până la 1000 intrări/ieșiri"
+      },
+      {
+        "code": "Vision560",
+        "description": "ecran tactil color de 5,7 inch cu tastatură, până la 1000 intrări/ieșiri"
+      },
+      {
+        "code": "Vision430",
+        "description": "ecran tactil color de 4,3 inch cu tastatură, până la 512 intrări/ieșiri"
+      },
+      {
+        "code": "Vision350",
+        "description": "ecran tactil color de 3,5 inch cu tastatură, până la 512 intrări/ieșiri"
+      },
+      {
+        "code": "Vision130",
+        "description": "display grafic alb-negru cu tastatură, până la 256 intrări/ieșiri"
+      },
+      {
+        "code": "Vision530",
+        "description": "ecran tactil alb-negru de 5,7 inch, până la 316 intrări/ieșiri"
+      },
+      {
+        "code": "Vision120",
+        "description": "display grafic monocrom cu tastatură, până la 256 intrări/ieșiri"
+      },
+      {
+        "code": "Vision290",
+        "description": "ecran tactil grafic alb-negru de 5,7 inch, până la 316 intrări/ieșiri"
+      },
+      {
+        "code": "UniStream 7″ Built-in",
+        "description": "PLC și HMI integrate într-o singură unitate, ecran de 7 inch"
+      },
+      {
+        "code": "UniStream 10.1″ Built-in",
+        "description": "unitate PLC+HMI încorporată, ecran de 10,1 inch, pentru mașini complexe"
+      },
+      {
+        "code": "UniStream 15.6″ Built-in",
+        "description": "unitate încorporată de top din gama UniStream, ecran de 15,6 inch"
+      },
+      {
+        "code": "Samba 7″",
+        "description": "PLC+HMI compact pentru aplicații OEM mici, ecran de 7 inch"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile Vision Enhanced și Vision Standard la Unitronics?",
+        "a": "Seria Vision Enhanced (Vision1210, Vision1040, Vision700, Vision570, Vision560, Vision430, Vision350, Vision130) oferă ecrane tactile color de la 2,4 până la 12,1 inch și suportă până la 1000 de intrări/ieșiri prin module de extensie. Seria Vision Standard (Vision530, Vision290, Vision120) folosește ecrane alb-negru, cu suport de până la 316 intrări/ieșiri, fiind gândită pentru aplicații mai simple unde costul contează mai mult decât rezoluția ecranului."
+      },
+      {
+        "q": "Cum aleg ecranul potrivit dintre modelele Unitronics Vision pentru mașina mea?",
+        "a": "Alegerea pornește de la spațiul disponibil pe panoul mașinii și de la numărul de intrări/ieșiri necesar: modelele mici, precum Vision130 sau Vision120, au ecrane de 2,4 inch și acoperă până la 256 de puncte, în timp ce Vision1210 ajunge la 12,1 inch și 1000 de puncte. Contează și dacă aveți nevoie de tastatură fizică lângă ecranul tactil, opțiune disponibilă la mai multe modele din serie."
+      },
+      {
+        "q": "Ce este seria UniStream de la Unitronics?",
+        "a": "UniStream este platforma PLC+HMI de vârf a producătorului, cu unități încorporate având ecrane de la 7 până la 15,6 inch și variante modulare separate pentru montaj flexibil pe panou. Este gândită pentru mașini complexe și proiecte OEM avansate, unde este nevoie de putere de procesare mai mare și de opțiuni de comunicație extinse față de gamele Vision sau Samba."
+      },
+      {
+        "q": "Livrați automate Unitronics în România?",
+        "a": "Da, aducem la comandă module din seriile Vision, UniStream și Samba prezentate mai sus, pornind de la fișele tehnice publicate de producător; nu ținem aceste automate pe raft ca stoc propriu. Așteptarea obișnuită este de 2-6 săptămâni, în funcție de modelul ales. Pentru o ofertă corectă, transmiteți numărul de intrări/ieșiri necesar și dimensiunea ecranului dorită."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de PLC Unitronics?",
+        "a": "Este util să precizați numărul de intrări și ieșiri digitale sau analogice necesare, dimensiunea ecranului dorită, dacă aveți nevoie de tastatură fizică și tipul de comunicație folosit în instalație, Ethernet, RS232 sau CANbus. Aceste date permit alegerea corectă între seriile Vision, UniStream și Samba, evitând un model subdimensionat sau cu funcții inutile pentru aplicația dumneavoastră."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Unitronics — Homepage","url":"https://www.unitronicsplc.com/","publisher":"Unitronics","accessed":"2026-09-25"},
+      {"title":"Programmable Controllers – Vision Series","url":"https://www.unitronicsplc.com/programmable-controllers-vision-series/","publisher":"Unitronics","accessed":"2026-09-25"},
       { title: "Unitronics — PLC+HMI All-in-One Controllers", url: "https://www.unitronicsplc.com/", publisher: "Unitronics", accessed: "2026-09-22" },
       { title: "About Us — Unitronics", url: "https://www.unitronicsplc.com/about-us/", publisher: "Unitronics", accessed: "2026-09-22" },
     ],
@@ -75,11 +161,77 @@ Pentru România, Gefran are sens la liniile de extrudere plastic, mașini mobile
     ],
     infinitrade: `Pentru Gefran ne bazăm pe informațiile de pe site-ul producătorului și pe fișele tehnice publice ale seriilor de senzori și regulatoare — fără date proprii de stoc pentru această gamă. Aducem senzorii, regulatoarele și modulele G-Mation la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de codul produsului sau, dacă nu-l aveți, de parametrii aplicației: tipul de măsurare, plaja de lucru și dacă e nevoie de certificare ATEX. Nu ținem disponibilitate permanentă din stoc pe nicio serie Gefran.`,
     limitation: "Nu putem confirma configurarea software a platformei G-Mation sau a platformei IoT MAX — acestea necesită suport direct de la producător sau integrator.",
+    productCodes: [
+      {
+        "code": "TPLA",
+        "description": "senzor de presiune relativă sau absolută pentru presiuni joase, tehnologie piezorezistivă"
+      },
+      {
+        "code": "HWJ",
+        "description": "traductor de presiune pentru topituri, ieșire digitală Hart Protocol"
+      },
+      {
+        "code": "HMJ",
+        "description": "traductor de presiune pentru topituri, certificare Exd, ATEX și IECEx"
+      },
+      {
+        "code": "K3",
+        "description": "senzor de presiune pentru medii cu sodiu-potasiu (NaK), ieșire în mV/V"
+      },
+      {
+        "code": "KM",
+        "description": "traductor de presiune ultracompact pentru aplicații industriale generale"
+      },
+      {
+        "code": "KM RAIL",
+        "description": "variantă ultracompactă a traductorului de presiune, dedicată aplicațiilor feroviare"
+      },
+      {
+        "code": "TPS",
+        "description": "traductor de presiune de înaltă precizie, ieșire în mV/V"
+      },
+      {
+        "code": "KS-I",
+        "description": "traductor de presiune compact, ieșire digitală IO-Link"
+      },
+      {
+        "code": "KS",
+        "description": "traductor de presiune compact, certificare SIL2, ieșire în tensiune sau curent"
+      },
+      {
+        "code": "TK",
+        "description": "traductor de presiune de uz general, ieșire în tensiune sau curent"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile de traductoare Gefran KM și KS?",
+        "a": "KM este gama ultracompactă de traductoare de presiune, gândită pentru aplicații industriale generale unde spațiul de montaj este redus, inclusiv o variantă KM RAIL dedicată materialului rulant feroviar. KS păstrează un format compact, dar adaugă certificare SIL2 și opțiunea de ieșire digitală IO-Link prin varianta KS-I, fiind potrivită acolo unde este nevoie de un nivel suplimentar de siguranță funcțională sau de integrare digitală."
+      },
+      {
+        "q": "Ce este traductorul de presiune Gefran K3?",
+        "a": "K3 este un senzor dedicat măsurării presiunii în medii cu sodiu-potasiu (NaK), folosit tipic în circuite de răcire cu metale lichide, cu ieșire în mV/V. Este construit pentru condiții speciale de temperatură și compatibilitate chimică, diferit de traductoarele industriale standard din gama KM sau KS, care acoperă aer, apă sau uleiuri hidraulice."
+      },
+      {
+        "q": "Cum aleg între traductoarele HWJ și HMJ pentru topituri de polimeri?",
+        "a": "Ambele familii sunt gândite pentru măsurarea presiunii în topituri de material plastic, cu certificări pentru zone cu risc de explozie (Exd, ATEX, IECEx), diferența constând în protocolul de comunicație folosit. HWJ oferă ieșire digitală prin protocolul Hart, utilă acolo unde instalația are deja o rețea Hart, în timp ce HMJ este orientat spre integrare directă cu electronica de control a extruderului."
+      },
+      {
+        "q": "Livrați senzori de presiune Gefran în România?",
+        "a": "Da, aducem la comandă traductoarele de presiune din gama descrisă, plecând de la fișele tehnice publice ale Gefran; acești senzori nu se află în mod curent pe raftul propriu. Livrarea durează în mod uzual 2-6 săptămâni, funcție de model și de certificările solicitate. Pentru o ofertă, transmiteți intervalul de presiune și fluidul măsurat."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de traductor de presiune Gefran?",
+        "a": "Aveți nevoie să precizați intervalul de presiune necesar, tipul de fluid măsurat, temperatura de lucru și semnalul de ieșire dorit, în tensiune, curent sau digital IO-Link. Aceste informații permit alegerea corectă între familiile TK, KS, KM sau TPS și evită o dimensionare greșită a senzorului pentru aplicația dumneavoastră industrială."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Pressure Sensors","url":"https://www.gefran.com/en/products/sensors/pressure-sensors","publisher":"Gefran","accessed":"2026-09-25"},
+      {"title":"Position Sensors","url":"https://www.gefran.com/en/products/position-sensors","publisher":"Gefran","accessed":"2026-09-25"},
       { title: "Gefran — Sensors, Drives, Controllers", url: "https://www.gefran.com", publisher: "Gefran S.p.A.", accessed: "2026-09-22" },
       { title: "Certifications — Gefran", url: "https://www.gefran.com/en/certifications", publisher: "Gefran S.p.A.", accessed: "2026-09-22" },
     ],
@@ -193,11 +345,96 @@ Pentru România, unde Noark are deja o filială la București, gama are sens la 
     ],
     infinitrade: `Pentru Noark Electric lucrăm din informațiile publice ale producătorului și din prezentarea filialei din România — fără date proprii de stoc pe seriile de întreruptoare sau contactoare. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de model și cantitate. Pentru o ofertă corectă avem nevoie de curentul nominal, numărul de poli, tipul de montaj și, la întreruptoarele automate, tipul de unitate de declanșare dorit. Nu promitem disponibilitate permanentă din stoc pe nicio serie.`,
     limitation: "Nu putem confirma compatibilitatea exactă de selectivitate între seriile Noark și aparatajul deja instalat de alți producători fără o verificare tehnică punctuală.",
+    productCodes: [
+      {
+        "code": "Ex9A16N 3P D/O 630A",
+        "description": "întreruptor automat în aer, execuție debroșabilă, 3 poli, 630 A"
+      },
+      {
+        "code": "Ex9A16N 3P D/O 800A",
+        "description": "3 poli, execuție debroșabilă, curent nominal 800 A"
+      },
+      {
+        "code": "Ex9A16N 3P D/O 1000A",
+        "description": "3 poli, execuție debroșabilă, curent nominal 1000 A"
+      },
+      {
+        "code": "Ex9A16N 3P D/O 1250A",
+        "description": "3 poli, execuție debroșabilă, curent nominal 1250 A"
+      },
+      {
+        "code": "Ex9A16N 3P D/O 1600A",
+        "description": "3 poli, execuție debroșabilă, curent nominal 1600 A"
+      },
+      {
+        "code": "Ex9A16N 3P F 630A",
+        "description": "3 poli, montaj fix, curent nominal 630 A"
+      },
+      {
+        "code": "Ex9A16N 3P F 800A",
+        "description": "3 poli, montaj fix, curent nominal 800 A"
+      },
+      {
+        "code": "Ex9A16N 3P F 1000A",
+        "description": "3 poli, montaj fix, curent nominal 1000 A"
+      },
+      {
+        "code": "Ex9A16N 3P F 1250A",
+        "description": "3 poli, montaj fix, curent nominal 1250 A"
+      },
+      {
+        "code": "Ex9A16N 3P F 1600A",
+        "description": "3 poli, montaj fix, curent nominal 1600 A"
+      },
+      {
+        "code": "Ex9A16N 4P D/O 630A",
+        "description": "4 poli, execuție debroșabilă, curent nominal 630 A"
+      },
+      {
+        "code": "Ex9A16N 4P D/O 800A",
+        "description": "4 poli, execuție debroșabilă, curent nominal 800 A"
+      },
+      {
+        "code": "Ex9A16N 4P D/O 1000A",
+        "description": "4 poli, execuție debroșabilă, curent nominal 1000 A"
+      },
+      {
+        "code": "Ex9A16N 4P D/O 1250A",
+        "description": "4 poli, execuție debroșabilă, curent nominal 1250 A"
+      },
+      {
+        "code": "Ex9A16N 4P D/O 1600A",
+        "description": "4 poli, execuție debroșabilă, curent nominal 1600 A"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă „D/O” la întreruptoarele Noark Ex9A16N?",
+        "a": "D/O este abrevierea pentru execuția debroșabilă, variantă la care blocul de contacte poate fi scos din carcasa fixă pentru mentenanță sau testare, fără a demonta cablurile de putere din tablou. Varianta marcată „F” este cu montaj fix, unde întreruptorul rămâne permanent conectat în tabloul electric. Alegerea depinde de cerințele de mentenanță ale instalației și de bugetul disponibil pentru tabloul de distribuție."
+      },
+      {
+        "q": "Ce curenți nominali acoperă seria Ex9A16N de la Noark Electric?",
+        "a": "Seria Ex9A16N este disponibilă în trepte de 630, 800, 1000, 1250 și 1600 A, atât în variantă cu 3 poli, cât și cu 4 poli, iar execuția poate fi fixă sau debroșabilă. Alegerea treptei de curent depinde de sarcina totală a tabloului electric și de coeficientul de simultaneitate calculat la proiectare."
+      },
+      {
+        "q": "Câți poli are nevoie un întreruptor automat în aer pentru un tablou trifazat cu nul?",
+        "a": "Pentru un tablou trifazat cu distribuție pe nul este necesară varianta cu 4 poli, care întrerupe și conductorul de nul, spre deosebire de varianta cu 3 poli, folosită acolo unde nulul nu trebuie secționat. Seria Ex9A16N oferă ambele configurații, în aceleași trepte de curent, de la 630 la 1600 A."
+      },
+      {
+        "q": "Livrați întreruptoare Noark Electric în România?",
+        "a": "Da, procurăm la cerere întreruptoarele Ex9A16N prezentate mai sus, plecând de la cataloagele tehnice publicate de Noark Electric; gama nu este menținută permanent în depozitul propriu. Așteptați, de regulă, 2-6 săptămâni de la plasarea comenzii, în funcție de configurația aleasă. Pentru o ofertă corectă, precizați curentul și numărul de poli necesar."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de întreruptor automat în aer Noark?",
+        "a": "Este util să precizați curentul nominal necesar, numărul de poli, 3 sau 4, tipul de execuție dorit, fixă sau debroșabilă, și puterea de scurtcircuit estimată a instalației. Aceste date permit alegerea corectă a modelului din seria Ex9A16N și evită o dimensionare greșită a protecției tabloului electric."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Întreruptoare automate în aer Ex9A16N","url":"https://noark-electric.ro/ro/catalog/air_circuit_breakers","publisher":"Noark Electric","accessed":"2026-09-25"},
       { title: "Întreruptoare automate în aer — catalog Noark", url: "https://noark-electric.ro/ro/catalog/air_circuit_breakers", publisher: "Noark Electric România", accessed: "2026-09-22" },
       { title: "Noark Electric România — inovație, fiabilitate și performanță", url: "https://www.revistaconstructiilor.eu/index.php/2025/12/08/noark-electric-romania-inovatie-fiabilitate-si-performanta-in-fiecare-proiect/", publisher: "Revista Construcțiilor", accessed: "2026-09-22" },
     ],
@@ -233,11 +470,76 @@ Pentru România, cablurile Belden au sens la instalații industriale unde rețea
     ],
     infinitrade: `Pentru Belden lucrăm din fișele publice ale producătorului privind familiile de cabluri și echipamente de rețea — fără date proprii de stoc, din cauza numărului mare de variante de cablu existente. Aducem cablurile și echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de lungime. Pentru o ofertă corectă avem nevoie de categoria de cablu sau codul de produs, lungimea necesară și mediul de instalare. Nu promitem disponibilitate permanentă din stoc pe nicio referință.`,
     limitation: "Nu putem confirma echivalențe de compatibilitate cu echipamente active de la alți producători fără verificare tehnică punctuală a instalației.",
+    productCodes: [
+      {
+        "code": "BOBCAT",
+        "description": "switch industrial compact de nouă generație, gestionat, pentru montaj pe șină DIN"
+      },
+      {
+        "code": "RSP",
+        "description": "switch industrial gestionat, seria Rail Switch Power, montaj compact pe șină DIN"
+      },
+      {
+        "code": "RSPS",
+        "description": "variantă „smart” a seriei RSP, switch gestionat pentru șină DIN"
+      },
+      {
+        "code": "RSPE",
+        "description": "variantă extinsă a seriei RSP, switch industrial gestionat compact"
+      },
+      {
+        "code": "RSPM",
+        "description": "modul switch pentru seria RSP, montaj pe șină DIN"
+      },
+      {
+        "code": "OCTOPUS",
+        "description": "switch industrial cu protecție IP65/IP67, pentru medii dure fără dulap"
+      },
+      {
+        "code": "OS20",
+        "description": "switch modular OCTOPUS II, configurație de bază pentru rețele industriale"
+      },
+      {
+        "code": "OS24",
+        "description": "switch modular OCTOPUS II, variantă cu porturi suplimentare"
+      },
+      {
+        "code": "OS30",
+        "description": "switch modular OCTOPUS II, capacitate extinsă de porturi"
+      },
+      {
+        "code": "OS34",
+        "description": "switch modular OCTOPUS II, varianta cu numărul maxim de porturi din familie"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este seria de switch-uri Belden RSP/RSPS/RSPE?",
+        "a": "RSP, RSPS și RSPE formează o familie de switch-uri industriale gestionate, compacte, montate pe șină DIN, gândite pentru rețele Ethernet în medii de producție. RSP este varianta de bază, RSPS adaugă funcții „smart” suplimentare pentru diagnosticare și management, iar RSPE reprezintă versiunea extinsă, cu opțiuni mai largi de configurare a porturilor și a protocoalelor de rețea."
+      },
+      {
+        "q": "Ce diferență este între switch-urile OCTOPUS și seria OS de la Belden?",
+        "a": "OCTOPUS este familia de switch-uri cu protecție IP65/IP67, montate direct pe echipament, fără a necesita un dulap electric suplimentar, potrivite pentru medii cu praf sau umiditate ridicată. Seria OS (OS20, OS24, OS30, OS34) reprezintă generația OCTOPUS II, modulară, cu variante ce diferă prin numărul de porturi disponibile, permițând extinderea rețelei fără a schimba tot echipamentul."
+      },
+      {
+        "q": "Ce este switch-ul Belden BOBCAT?",
+        "a": "BOBCAT este un switch industrial compact de nouă generație, gestionat, gândit pentru montaj pe șină DIN în tablouri cu spațiu limitat. Face parte din portofoliul de rețelistică industrială al Belden, alături de familiile RSP și OCTOPUS, fiind orientat spre instalații unde gabaritul redus contează la fel de mult ca funcțiile de gestionare a rețelei."
+      },
+      {
+        "q": "Livrați echipamente de rețea Belden în România?",
+        "a": "Da, comandăm echipamentele din familiile RSP, RSPS, RSPE, RSPM, OCTOPUS, seria OS și BOBCAT enumerate mai sus, folosind cataloagele publice Belden; nu este vorba despre echipamente păstrate curent la noi pe raft. Livrarea are loc, în general, în 2-6 săptămâni de la comandă, funcție de configurație."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de switch industrial Belden?",
+        "a": "Este util să menționați numărul de porturi Ethernet necesare, gradul de protecție IP cerut de mediul de instalare, dacă aveți nevoie de montaj pe șină DIN sau direct pe echipament și protocoalele de rețea folosite. Aceste detalii permit alegerea corectă între familiile RSP, OCTOPUS sau BOBCAT, evitând un switch nepotrivit pentru condițiile de lucru."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Belden — Homepage","url":"https://www.belden.com/","publisher":"Belden","accessed":"2026-09-25"},
       { title: "Belden — Industrial Networking and Connectivity", url: "https://www.belden.com/", publisher: "Belden Inc.", accessed: "2026-09-22" },
       { title: "About Us — Belden", url: "https://www.belden.com/about-us", publisher: "Belden Inc.", accessed: "2026-09-22" },
     ],
@@ -271,11 +573,76 @@ Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierel
     ],
     infinitrade: `Pentru WD-40 lucrăm din informațiile publice ale producătorului privind cele două linii, Multi-Use și Specialist — fără date proprii de stoc, pentru că produsele de consum tehnic circulă prin canale de distribuție cu rotație rapidă. Aducem sprayurile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru cantități mai mari sau produse din gama Specialist mai puțin uzuale. Pentru o ofertă corectă avem nevoie de produsul exact dorit, formatul și cantitatea. Nu promitem disponibilitate permanentă din stoc — verificăm disponibilitatea la fiecare comandă.`,
     limitation: "Nu putem confirma compoziția chimică exactă sau fișele de siguranță ale produselor fără a le prelua direct de la producător pentru fiecare comandă.",
+    productCodes: [
+      {
+        "code": "WD-40 Multi-Use Product",
+        "description": "spray lubrifiant multifuncțional, formula originală, pentru degripare și protecție anticorozivă"
+      },
+      {
+        "code": "WD-40 Smart Straw",
+        "description": "doză cu paiul integrat, pentru aplicare de precizie"
+      },
+      {
+        "code": "WD-40 Flexible",
+        "description": "doză cu tub flexibil articulat, pentru zone greu accesibile"
+      },
+      {
+        "code": "WD-40 Multi-Use Product 5/25 litri",
+        "description": "ambalaj de volum mare pentru uz industrial sau de atelier"
+      },
+      {
+        "code": "WD-40 Specialist Dry Lubricant",
+        "description": "lubrifiant uscat cu particule PTFE, pentru uzură redusă la frecare"
+      },
+      {
+        "code": "WD-40 Specialist Penetrant Spray",
+        "description": "spray penetrant pentru deblocarea rapidă a pieselor înțepenite sau ruginite"
+      },
+      {
+        "code": "WD-40 Specialist Silicone Lubricant",
+        "description": "lubrifiant siliconic pentru echipamente ce lucrează la presiune ridicată"
+      },
+      {
+        "code": "WD-40 Specialist White Lithium Grease",
+        "description": "vaselină albă pe bază de litiu, pentru contact metal pe metal"
+      },
+      {
+        "code": "WD-40 Specialist Fast-Acting Degreaser",
+        "description": "degresant pe bază de solvent, cu acțiune rapidă asupra uleiurilor și murdăriei"
+      },
+      {
+        "code": "WD-40 Specialist Contact Cleaner",
+        "description": "spray de curățare neconductiv, pentru componente electrice sensibile"
+      }
+    ],
+    faq: [
+      {
+        "q": "Care este diferența dintre WD-40 Multi-Use Product și gama WD-40 Specialist?",
+        "a": "WD-40 Multi-Use Product este formula universală, gândită pentru degripare, lubrifiere ușoară, protecție anticorozivă și îndepărtarea umidității, potrivită pentru majoritatea sarcinilor casnice și industriale ușoare. Gama WD-40 Specialist cuprinde produse dedicate unei singure sarcini, precum degresarea rapidă, lubrifierea uscată cu PTFE sau curățarea contactelor electrice, oferind performanță superioară acolo unde formula universală nu este suficient de țintită."
+      },
+      {
+        "q": "Ce este WD-40 Smart Straw și cum diferă de doza clasică?",
+        "a": "Smart Straw este un capac cu paiul de aplicare integrat, care poate fi pliat pentru pulverizare largă sau extins pentru un jet precis direct pe piesa vizată, fără a mai căuta un pai separat. Este util atunci când trebuie să ajungeți în spații înguste, precum balamale sau mecanisme de blocare, unde precizia aplicării contează mai mult decât acoperirea unei suprafețe mari."
+      },
+      {
+        "q": "Când folosesc WD-40 Specialist Dry Lubricant în loc de formula clasică?",
+        "a": "Dry Lubricant este recomandat acolo unde un lubrifiant lichid clasic ar atrage praf sau murdărie, de exemplu la balamale expuse sau mecanisme din exterior, datorită particulelor de PTFE care lasă o peliculă uscată la contact. Formula clasică Multi-Use rămâne opțiunea potrivită pentru degripare rapidă sau protecție anticorozivă pe termen scurt, unde reziduul uscat nu este o cerință."
+      },
+      {
+        "q": "Livrați produse WD-40 în România?",
+        "a": "Da, aducem la comandă produsele WD-40 Multi-Use și Specialist enumerate mai sus, respectând fișele publice ale producătorului; nu deținem aceste produse ca inventar permanent pe raft. De obicei, aprovizionarea durează 2-6 săptămâni, în funcție de format și de cantitatea comandată."
+      },
+      {
+        "q": "Ce trebuie să știu înainte de a comanda produse din gama WD-40 Specialist?",
+        "a": "Este util să identificați exact sarcina vizată, degresare, lubrifiere uscată, protecție siliconică sau curățare de contacte electrice, deoarece fiecare produs din gama Specialist este formulat pentru un singur tip de aplicație. Verificați și compatibilitatea cu materialele plastice sau vopsite ale echipamentului, informație disponibilă în fișele tehnice publice ale producătorului, înainte de a plasa comanda."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Produse WD-40","url":"https://wd40.ro/produse/","publisher":"WD-40 Company","accessed":"2026-09-25"},
       { title: "WD-40 România — produse și tutoriale", url: "https://wd40.ro/", publisher: "WD-40 (site regional)", accessed: "2026-09-22" },
       { title: "WD-40 Company — Our Brands", url: "https://www.wd40company.com/", publisher: "WD-40 Company", accessed: "2026-09-22" },
     ],
@@ -311,11 +678,105 @@ Pentru România, componentele Rulmeca au sens la benzile transportoare din miner
     ],
     infinitrade: `La Rulmeca pornim de la ce spune site-ul producătorului despre motoarele tambur, role și componentele de bandă — nu avem date proprii de stoc pe această gamă, pentru că majoritatea componentelor se dimensionează pe aplicație. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de dimensiune. Pentru o ofertă corectă avem nevoie de diametrul tamburului sau rolei, lățimea benzii, sarcina de transportat și viteza dorită. Nu promitem disponibilitate permanentă din stoc pe nicio componentă.`,
     limitation: "Nu putem confirma dimensionarea finală a unui motor tambur fără datele complete ale transportorului — lungime, înclinare și tip de material transportat.",
+    productCodes: [
+      {
+        "code": "138LS",
+        "description": "motor tambur compact pentru bulk handling ușor, seria LS de mică putere"
+      },
+      {
+        "code": "165LS",
+        "description": "motor tambur compact, potrivit pentru agricultură ușoară și manipulare de vrac"
+      },
+      {
+        "code": "220M",
+        "description": "motor tambur de putere medie pentru aplicații de manipulare de vrac"
+      },
+      {
+        "code": "220H",
+        "description": "motor tambur de putere mare din familia 220, uz industrial greu"
+      },
+      {
+        "code": "320L",
+        "description": "motor tambur ușor din familia 320, pentru sarcini reduse"
+      },
+      {
+        "code": "320M",
+        "description": "motor tambur de putere medie din familia 320"
+      },
+      {
+        "code": "320H",
+        "description": "motor tambur de putere mare din familia 320, uz industrial greu"
+      },
+      {
+        "code": "400M",
+        "description": "motor tambur de putere medie din familia 400"
+      },
+      {
+        "code": "400H",
+        "description": "motor tambur de putere mare din familia 400, aplicații grele"
+      },
+      {
+        "code": "500H",
+        "description": "motor tambur de putere mare din familia 500, pentru sarcini intense"
+      },
+      {
+        "code": "630M",
+        "description": "motor tambur de putere medie din familia 630"
+      },
+      {
+        "code": "630H",
+        "description": "motor tambur pentru condiții de lucru dure și extreme din familia 630"
+      },
+      {
+        "code": "800M",
+        "description": "motor tambur de putere medie din familia 800"
+      },
+      {
+        "code": "800H",
+        "description": "motor tambur de putere mare din familia 800, uz industrial greu"
+      },
+      {
+        "code": "800HD",
+        "description": "motor tambur, variantă „heavy duty” din familia 800"
+      },
+      {
+        "code": "1000H",
+        "description": "motor tambur de mare putere, interval 160-250 kW, familia 1000"
+      },
+      {
+        "code": "1000HD",
+        "description": "motor tambur, variantă „heavy duty” a familiei 1000, 160-250 kW"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între motoarele tambur Rulmeca seria M și seria H?",
+        "a": "Sufixul M desemnează varianta de putere medie dintr-o familie de diametru, precum 320M sau 630M, potrivită pentru benzi transportoare cu sarcină moderată. Sufixul H marchează varianta de putere mare a aceleiași familii de diametru, gândită pentru aplicații de manipulare de vrac cu solicitări mai ridicate, cum ar fi cariere sau minerit de suprafață, unde cuplul de pornire trebuie să fie superior."
+      },
+      {
+        "q": "Ce înseamnă „HD” la motoarele tambur Rulmeca din familia 800 și 1000?",
+        "a": "HD indică varianta „heavy duty” a familiei respective, construită pentru cele mai solicitante condiții de funcționare continuă, cu componente interne dimensionate pentru un număr mai mare de ore de operare fără întreținere. Familia 1000H/1000HD acoperă un interval de putere de 160 până la 250 kW, fiind printre cele mai puternice motoare tambur din portofoliul producătorului."
+      },
+      {
+        "q": "Cum aleg diametrul corect al unui motor tambur Rulmeca pentru banda mea transportoare?",
+        "a": "Alegerea diametrului depinde de lățimea benzii, de tensiunea necesară pentru antrenare și de puterea de acționare calculată pentru sarcina transportată, de la familiile mici precum 138LS sau 165LS, până la 800 sau 1000 pentru instalații grele. Este important să verificați și viteza benzii, deoarece un diametru prea mic poate limita puterea transmisibilă la tamburul de acționare."
+      },
+      {
+        "q": "Livrați motoare tambur Rulmeca în România?",
+        "a": "Da, procurăm la comandă motoarele tambur Rulmeca din gamele prezentate mai sus, conform cataloagelor tehnice publicate de producător; dimensiunile mari nu sunt păstrate curent în depozit propriu. Așteptarea tipică este între 2 și 6 săptămâni, în funcție de diametrul și puterea alese."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de motor tambur Rulmeca?",
+        "a": "Este necesar să precizați lățimea benzii transportoare, viteza de rulare, puterea de acționare estimată și tipul de material transportat, deoarece acestea influențează direct diametrul și familia de motor tambur recomandată. Menționați și dacă aplicația necesită o variantă de uz greu, H sau HD, sau este suficientă varianta standard de putere medie."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Motorized Pulleys","url":"https://www.rulmeca.com/en/motorized-pulleys/22/pc","publisher":"Rulmeca","accessed":"2026-09-25"},
+      {"title":"Products","url":"https://www.rulmeca.com/en/products","publisher":"Rulmeca","accessed":"2026-09-25"},
       { title: "Rulmeca — Conveyor Components", url: "https://www.rulmeca.com", publisher: "Rulmeca Group", accessed: "2026-09-22" },
       { title: "Contacts — Rulmeca", url: "https://www.rulmeca.com/en/contacts", publisher: "Rulmeca Group", accessed: "2026-09-22" },
     ],
@@ -355,11 +816,113 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
     ],
     infinitrade: `Pentru OMAL ne bazăm pe informațiile publice ale producătorului privind gamele de robineți și actuatoare — fără date proprii de stoc, pentru că majoritatea ansamblurilor se configurează pe diametru, presiune și tip de acționare. Aducem robineții și actuatoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de configurație. Pentru o ofertă corectă avem nevoie de diametrul robinetului, presiunea nominală, materialul dorit și tipul de actuator. Nu promitem disponibilitate permanentă din stoc pe nicio configurație.`,
     limitation: "Nu putem confirma timpul exact de livrare pentru configurații speciale de actuator-robinet fără o cerere de ofertă punctuală la producător.",
+    productCodes: [
+      {
+        "code": "H2 INVICTUS",
+        "description": "robinet cu bilă pentru hidrogen la presiune înaltă, PN 700"
+      },
+      {
+        "code": "MAGNUM",
+        "description": "robinet cu bilă wafer/split wafer, oțel carbon sau inox, PN 16-100"
+      },
+      {
+        "code": "THOR",
+        "description": "robinet cu bilă split body, variante până la ANSI 900-1500"
+      },
+      {
+        "code": "PROCHEMIE 60",
+        "description": "robinet cu bilă split body din inox, PN 16-40"
+      },
+      {
+        "code": "HERCULES",
+        "description": "robinet cu bilă de înaltă presiune și ciclicitate ridicată, până la PN 500"
+      },
+      {
+        "code": "KRATOS",
+        "description": "robinet cu bilă cu ciclicitate ridicată, până la DN 600"
+      },
+      {
+        "code": "SUPREME TRUNNION",
+        "description": "robinet cu bilă cu montare pe pivot, pentru presiuni și diametre mari"
+      },
+      {
+        "code": "ITEM 100",
+        "description": "robinet cu bilă din alamă, gamă standard"
+      },
+      {
+        "code": "ITEM 101",
+        "description": "robinet cu bilă din alamă, variantă din gama standard"
+      },
+      {
+        "code": "ITEM 216",
+        "description": "robinet cu bilă din fontă, gamă standard"
+      },
+      {
+        "code": "ITEM 400",
+        "description": "robinet cu bilă din oțel inoxidabil, gamă standard"
+      },
+      {
+        "code": "ITEM 541",
+        "description": "robinet cu bilă din oțel carbon, gamă standard"
+      },
+      {
+        "code": "ITEM 615",
+        "description": "robinet cu bilă din PVC, gamă standard"
+      },
+      {
+        "code": "DA",
+        "description": "actuator pneumatic cu dublă acțiune"
+      },
+      {
+        "code": "SR",
+        "description": "actuator pneumatic cu revenire pe arc"
+      },
+      {
+        "code": "AE",
+        "description": "actuator electric on-off pentru robinete și clapete"
+      },
+      {
+        "code": "AM",
+        "description": "actuator electric modulant pentru control continuu de poziție"
+      },
+      {
+        "code": "EA",
+        "description": "actuator electric on-off, gamă compactă"
+      },
+      {
+        "code": "EF 25-250",
+        "description": "actuator electric, gamă de cuplu între 25 și 250 Nm"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile de robineți OMAL MAGNUM și KRATOS?",
+        "a": "MAGNUM este o gamă de robineți cu bilă în execuție wafer sau split wafer, disponibilă în oțel carbon și inox, acoperind presiuni de la PN 16 până la PN 100. KRATOS este orientat spre aplicații cu ciclicitate ridicată, unde robinetul este acționat frecvent, fiind disponibil în dimensiuni de până la DN 600 și în variante non-autolubrifiante pentru medii fără lubrifiere naturală."
+      },
+      {
+        "q": "Ce înseamnă actuatoarele OMAL de tip DA și SR?",
+        "a": "DA înseamnă „double acting”, actuator pneumatic cu dublă acțiune, care folosește aer comprimat atât pentru deschidere, cât și pentru închidere. SR înseamnă „spring return”, actuator cu revenire pe arc, care închide sau deschide automat robinetul printr-un arc intern în cazul pierderii aerului comprimat, opțiune preferată acolo unde poziția de siguranță trebuie garantată."
+      },
+      {
+        "q": "Care este diferența dintre actuatoarele electrice OMAL AE și AM?",
+        "a": "AE este un actuator electric de tip on-off, care mută robinetul doar între poziția complet deschisă și complet închisă, potrivit pentru aplicații simple de izolare. AM este actuatorul modulant, capabil să poziționeze robinetul în orice punct intermediar între 0 și 100%, fiind ales acolo unde procesul necesită reglare fină a debitului, nu doar oprire sau pornire."
+      },
+      {
+        "q": "Livrați robineți și actuatoare OMAL în România?",
+        "a": "Da, comandăm robineții și actuatoarele OMAL din seriile prezentate mai sus, urmând documentația tehnică publicată de producător; această gamă nu este ținută curent pe rafturile noastre. Livrarea se face uzual în 2-6 săptămâni, în funcție de dimensiunea și materialul solicitate."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de robinet cu bilă OMAL?",
+        "a": "Este util să precizați diametrul nominal (DN), presiunea nominală (PN) sau clasa ANSI, materialul de construcție dorit, oțel carbon, inox sau alamă, și tipul de acționare, manuală, pneumatică sau electrică. Aceste informații permit alegerea corectă între seriile MAGNUM, THOR, KRATOS sau gama ITEM și evită o dimensionare greșită a robinetului pentru aplicația dumneavoastră."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Ball Valves","url":"https://www.omal.com/en/products/ball-valves/","publisher":"OMAL","accessed":"2026-09-25"},
+      {"title":"Products","url":"https://www.omal.com/en/products.html","publisher":"OMAL","accessed":"2026-09-25"},
       { title: "OMAL — Ball Valves and Actuators", url: "https://www.omal.com/en/", publisher: "OMAL S.p.A.", accessed: "2026-09-22" },
       { title: "Quality — OMAL", url: "https://www.omal.com/en/quality.html", publisher: "OMAL S.p.A.", accessed: "2026-09-22" },
     ],
@@ -435,11 +998,80 @@ Pentru România, gama Beta are sens la ateliere de reparații auto, întreținer
     ],
     infinitrade: `Pentru Beta Utensili lucrăm din informațiile publice ale producătorului privind gama de scule — fără date proprii de stoc, având în vedere catalogul de peste 16.000 de referințe. Aducem sculele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare pentru referințele mai puțin uzuale. Pentru o ofertă corectă avem nevoie de codul de produs sau, dacă nu-l aveți, de tipul de sculă și parametrii necesari. Nu promitem disponibilitate permanentă din stoc pe niciun cod din catalog.`,
     limitation: "Nu putem confirma disponibilitatea serviciului de etalonare pentru chei dinamometrice direct la noi — acesta rămâne un serviciu oferit de producător sau de laboratoare autorizate.",
+    productCodes: [
+      {
+        "code": "605BC/15",
+        "description": "cheie dinamometrică cu cap reversibil, din gama de chei dinamometrice și multiplicatoare"
+      },
+      {
+        "code": "666",
+        "description": "multiplicator de cuplu din gama de chei dinamometrice Beta"
+      },
+      {
+        "code": "910A",
+        "description": "cheie tubulară din gama de accesorii pentru montaj și demontaj"
+      },
+      {
+        "code": "920A",
+        "description": "cheie de manevră, variantă A din gama de chei de manevră"
+      },
+      {
+        "code": "920B",
+        "description": "cheie de manevră, variantă B din aceeași gamă"
+      },
+      {
+        "code": "920PE",
+        "description": "cheie de manevră, variantă PE, cu mâner ergonomic"
+      },
+      {
+        "code": "42",
+        "description": "cheie combinată din gama de scule de bază Beta"
+      },
+      {
+        "code": "RSC55",
+        "description": "mobilier modular de atelier, linia Racing Modular System"
+      },
+      {
+        "code": "RSC50 2.0",
+        "description": "linie de mobilier modular de atelier, generația a doua"
+      },
+      {
+        "code": "C45PRO 2.0",
+        "description": "linie profesională de mobilier de atelier, generația a doua"
+      },
+      {
+        "code": "RSC39",
+        "description": "cărucior de scule din linia RSC, format compact"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între liniile de mobilier de atelier Beta RSC55 și C45PRO 2.0?",
+        "a": "RSC55 face parte din linia „Racing Modular System”, cu un design orientat spre personalizare vizuală și configurare modulară a sertarelor și dulapurilor. C45PRO 2.0 este linia profesională standard, gândită pentru robustețe și utilizare intensivă zilnică în ateliere, cu accent pe funcționalitate mai degrabă decât pe elementele de design. Ambele linii dispun de configurator 3D pentru personalizarea configurației finale."
+      },
+      {
+        "q": "Ce este multiplicatorul de cuplu Beta 666?",
+        "a": "Modelul 666 este un multiplicator de cuplu folosit împreună cu o cheie dinamometrică pentru a atinge valori de strângere mult peste capacitatea manuală normală, util la asamblări industriale grele, precum flanșe sau șuruburi de fundație. Face parte din gama de chei dinamometrice și multiplicatoare Beta, alături de modele precum 605BC/15."
+      },
+      {
+        "q": "Ce diferență este între cheile de manevră Beta 920A, 920B și 920PE?",
+        "a": "Cele trei variante aparțin aceleiași familii de chei de manevră, diferența constând în principal în forma mânerului și în opțiunile ergonomice: 920PE adaugă un mâner cu înveliș confortabil pentru utilizare prelungită, în timp ce 920A și 920B acoperă configurații de bază ale aceleiași game. Alegerea depinde de preferința utilizatorului și de tipul de lucrare efectuată."
+      },
+      {
+        "q": "Livrați scule Beta Utensili în România?",
+        "a": "Da, aducem la comandă sculele Beta din gamele enumerate mai sus, urmărind cataloagele tehnice ale producătorului; nu păstrăm aceste unelte ca stoc propriu pe rafturile magazinului. De regulă, livrarea durează 2-6 săptămâni, în funcție de model și de disponibilitatea din fabrică."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de sculărie Beta?",
+        "a": "Este util să precizați tipul exact de sculă dorită, cheie dinamometrică, tubulară sau de manevră, intervalul de cuplu necesar dacă este cazul, și dacă solicitarea include și mobilier de atelier din liniile RSC sau C45PRO. Aceste detalii permit pregătirea unei oferte corecte, adaptate configurației dorite de client."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Beta Tools — Homepage","url":"https://www.beta-tools.com/en_INT/","publisher":"Beta Utensili","accessed":"2026-09-25"},
       { title: "Beta Utensili — Professional Tools", url: "https://www.beta-tools.com", publisher: "Beta Utensili S.p.A.", accessed: "2026-09-22" },
       { title: "Despre noi — Scule Beta România", url: "https://www.scule-beta.ro/info/despre-noi", publisher: "Scule Beta România", accessed: "2026-09-22" },
     ],
@@ -519,11 +1151,97 @@ Pentru România, traductoarele BD Sensors au sens la stațiile de tratare a apei
     ],
     infinitrade: `Gama de traductoare BD Sensors o cunoaștem din surse publice ale producătorului, fără date proprii de stoc pe modelele individuale. Aducem traductoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de model și tip de ieșire. Pentru o ofertă corectă avem nevoie de plaja de măsură necesară, tipul de ieșire (analogică sau digitală, cu protocolul dorit) și, la sonde, adâncimea sau lungimea de cablu. Nu promitem disponibilitate permanentă din stoc pe niciun model.`,
     limitation: "Nu putem confirma certificatul de calibrare individual pentru fiecare traductor fără să-l solicităm punctual de la producător pentru lotul comandat.",
+    productCodes: [
+      {
+        "code": "DMP 331",
+        "description": "traductor de presiune, interval 0...100 mbar până la 0...60 bar"
+      },
+      {
+        "code": "DMP 333",
+        "description": "traductor de presiune, interval 0...100 bar până la 0...600 bar"
+      },
+      {
+        "code": "DMP 334",
+        "description": "traductor de presiune de înaltă presiune, 0...600 până la 0...2200 bar"
+      },
+      {
+        "code": "DMP 335",
+        "description": "traductor de presiune, interval 0...16 bar până la 0...600 bar"
+      },
+      {
+        "code": "DMP 336",
+        "description": "traductor de presiune, interval 0...16 până la 0...1000 bar"
+      },
+      {
+        "code": "DMP 339",
+        "description": "traductor de presiune, interval 0...60 bar până la 0...600 bar"
+      },
+      {
+        "code": "DMP 320",
+        "description": "traductor de presiune, interval 0...100 mbar până la 0...600 bar"
+      },
+      {
+        "code": "DMP 321",
+        "description": "traductor de presiune compact, interval 0...100 mbar până la 0...600 bar"
+      },
+      {
+        "code": "DMK 331",
+        "description": "traductor de presiune ceramic, interval 0...400 mbar până la 0...600 bar"
+      },
+      {
+        "code": "DMK 351",
+        "description": "traductor de presiune ceramic, interval 0...40 mbar până la 0...20 bar"
+      },
+      {
+        "code": "DMK 387",
+        "description": "traductor de presiune pentru presiuni mici și înălțimi de umplere"
+      },
+      {
+        "code": "DMP 343",
+        "description": "traductor de presiune de joasă presiune, 0...10 mbar până la 0...1000 mbar"
+      },
+      {
+        "code": "DMP 457",
+        "description": "traductor de presiune, interval 0...100 mbar până la 0...600 bar"
+      },
+      {
+        "code": "DMK 457",
+        "description": "traductor de presiune ceramic, interval 0...400 mbar până la 0...600 bar"
+      },
+      {
+        "code": "DMK 458",
+        "description": "traductor de presiune ceramic, interval 0...40 mbar până la 0...20 bar"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între traductoarele BD Sensors DMP și DMK?",
+        "a": "Seria DMP folosește o celulă de măsură cu element metalic, de regulă oțel inoxidabil, potrivită pentru presiuni mari și medii agresive. Seria DMK se bazează pe o celulă ceramică, mai rezistentă la coroziune și la vârfuri de presiune, dar de regulă limitată la intervale mai joase, precum DMK 351 sau DMK 458, între 0...40 mbar și 0...20 bar."
+      },
+      {
+        "q": "Ce interval de presiune acoperă traductorul BD Sensors DMP 334?",
+        "a": "DMP 334 acoperă un interval de la 0...600 bar până la 0...2200 bar, fiind una dintre cele mai robuste variante din gama DMP, destinată aplicațiilor cu presiuni foarte ridicate, precum presele hidraulice sau echipamentele de testare industrială. Pentru presiuni mai joase, gama DMP oferă variante precum DMP 320 sau DMP 331, cu intervale începând de la 100 mbar."
+      },
+      {
+        "q": "Ce este traductorul BD Sensors DMK 387?",
+        "a": "DMK 387 este un traductor de presiune dedicat măsurării presiunilor mici din sisteme și înălțimilor de umplere din rezervoare, cu interval între 0...100 mbar și 0...40 bar. Folosește o celulă ceramică, potrivită pentru medii unde rezistența la coroziune contează mai mult decât presiunea maximă suportată."
+      },
+      {
+        "q": "Livrați traductoare BD Sensors în România?",
+        "a": "Da, procurăm la comandă traductoarele BD Sensors din seriile DMP și DMK prezentate mai sus, plecând de la fișele tehnice publice ale producătorului; gama nu este menținută în stoc propriu la noi. Livrarea necesită, în majoritatea cazurilor, 2-6 săptămâni, în funcție de modelul ales și de certificarea cerută."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de traductor de presiune BD Sensors?",
+        "a": "Menționați presiunea maximă de lucru așteptată, natura fluidului măsurat, temperatura mediului de instalare și forma semnalului de ieșire dorit, analogic sau digital. Cu aceste detalii se poate recomanda corect fie o variantă din seria DMP, cu celulă metalică, fie una din seria DMK, cu celulă ceramică, potrivită mediului dumneavoastră de lucru."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Pressure Transmitter","url":"https://www.bdsensors.de/en/pressure/pressure-transmitter","publisher":"BD Sensors","accessed":"2026-09-25"},
+      {"title":"BD Sensors — Homepage","url":"https://www.bdsensors.de/en/","publisher":"BD Sensors","accessed":"2026-09-25"},
       { title: "BD Sensors — Pressure and Level Transmitters", url: "https://www.bdsensors.de/", publisher: "BD Sensors GmbH", accessed: "2026-09-22" },
       { title: "Company — BD Sensors", url: "https://www.bdsensors.de/en/company/", publisher: "BD Sensors GmbH", accessed: "2026-09-22" },
     ],

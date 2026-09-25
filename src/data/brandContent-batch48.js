@@ -32,11 +32,80 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
     certifications: ["IEC 61850-3 — pentru echipamente de rețea în substații electrice", "IEEE 1613 — imunitate electromagnetică pentru medii de substație", "EN 50155 — pentru echipamente electronice montate pe vehicule feroviare", "ATEX — variante pentru zone cu risc de explozie"],
     infinitrade: `Pentru Moxa lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii de stoc pe fiecare cod — vă spunem clar ce putem și ce nu putem confirma înainte de a trimite o ofertă. Aducem echipamentele de rețea Moxa la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru fiecare model. Ca să pregătim o ofertă corectă, trimiteți-ne codul exact al produsului sau, dacă nu îl aveți, numărul de porturi și interfața dorită, certificările necesare și cantitatea.`,
     limitation: "Nu confirmăm disponibilitatea în timp real a fiecărui cod Moxa și nu oferim configurare software proprietară pentru switch-uri gestionate.",
+    productCodes: [
+      {
+        "code": "EDS-405A",
+        "description": "Switch Ethernet gestionat, nivel de intrare, 5 porturi"
+      },
+      {
+        "code": "EDS-408A",
+        "description": "Switch Ethernet gestionat, nivel de intrare, 8 porturi"
+      },
+      {
+        "code": "EDS-505A",
+        "description": "Switch Ethernet industrial gestionat cu 5 porturi"
+      },
+      {
+        "code": "EDS-508A",
+        "description": "Switch Ethernet industrial gestionat cu 8 porturi"
+      },
+      {
+        "code": "EDS-510A",
+        "description": "Switch Gigabit gestionat, 7 porturi plus 3 porturi Gigabit"
+      },
+      {
+        "code": "EDS-516A",
+        "description": "Switch Ethernet industrial gestionat cu 16 porturi"
+      },
+      {
+        "code": "EDS-518A",
+        "description": "Switch Gigabit gestionat, 16 porturi plus 2 porturi Gigabit"
+      },
+      {
+        "code": "EDS-510E",
+        "description": "Switch Gigabit gestionat, 7 porturi plus 3 Gigabit, variantă E"
+      },
+      {
+        "code": "EDS-518E",
+        "description": "Switch Gigabit gestionat, 14 porturi plus 4 porturi Gigabit"
+      },
+      {
+        "code": "EDS-528E",
+        "description": "Switch Gigabit gestionat, 24 porturi plus 4 porturi Gigabit"
+      },
+      {
+        "code": "EDS-P506E",
+        "description": "Switch Gigabit gestionat cu alimentare PoE+, 4 plus 2 porturi"
+      },
+      {
+        "code": "EDS-P510A",
+        "description": "Switch Gigabit gestionat cu alimentare PoE+, 8 plus 2 porturi"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între switch-urile Moxa seria EDS-510A și EDS-510E?",
+        "a": "Ambele modele au aceeași configurație de porturi, șapte plus trei Gigabit, dar variantele diferă prin funcțiile software și opțiunile de management incluse din fabrică, seria E acoperind cerințe suplimentare de rețea industrială. Alegerea între cele două depinde de protocoalele de management deja folosite în rețea și de nivelul de redundanță necesar la nivel de switch."
+      },
+      {
+        "q": "Livrați echipamente Moxa în România la comandă?",
+        "a": "Echipamentele Moxa cerute punctual se comandă direct pe baza codului EDS confirmat cu clientul; nu constituie un stoc menținut permanent la noi, iar termenul mediu este de 2-6 săptămâni. Ne raportăm la fișele tehnice publice ale producătorului pentru a stabili numărul exact de porturi și variantele de alimentare disponibile pentru fiecare model."
+      },
+      {
+        "q": "Ce switch Moxa aleg pentru alimentare PoE+ a camerelor IP?",
+        "a": "Pentru alimentarea camerelor IP, seriile EDS-P506E și EDS-P510A oferă porturi Gigabit cu suport PoE+, diferența fiind numărul total de porturi disponibile, patru plus două, respectiv opt plus două. Alegerea depinde de numărul de camere sau puncte de acces care trebuie alimentate din același switch, precum și de puterea totală solicitată de fiecare dispozitiv conectat."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la un switch industrial Moxa?",
+        "a": "Precizați numărul de porturi necesar, dacă este nevoie de viteză Gigabit pe toate porturile sau doar pe uplink, și dacă anumite porturi trebuie să livreze alimentare PoE către camere sau puncte de acces. Menționați și condițiile de temperatură din tablou, deoarece unele variante industriale au domenii extinse de funcționare față de modelele standard."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"EDS Layer 2 Managed Ethernet Switches","url":"https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/layer-2-managed-switches","publisher":"Moxa Inc.","accessed":"2026-09-25"},
       { title: "Moxa - Your Trusted Partner in Automation", url: "https://www.moxa.com/en/", publisher: "Moxa Inc.", accessed: "2026-09-22" },
       { title: "Industrial Network Infrastructure - Ethernet Switches", url: "https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches", publisher: "Moxa Inc.", accessed: "2026-09-22" },
       { title: "Serial Device Servers", url: "https://www.moxa.com/en/products/industrial-edge-connectivity/serial-device-servers", publisher: "Moxa Inc.", accessed: "2026-09-22" }
@@ -115,11 +184,96 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
     ],
     infinitrade: `Pentru Aignep, informațiile publice disponibile pe site-ul producătorului sunt principala noastră sursă — nu avem date proprii de stoc pentru fiecare cod din gama de fitinguri și valve. Aducem componentele Aignep la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru toate diametrele și variantele. Pentru o ofertă rapidă, trimiteți-ne codul exact al fitingului sau valvei, sau, dacă nu-l aveți, diametrul tubului, tipul de filet și presiunea de lucru. Nu publicăm prețuri fără verificare punctuală la furnizor, iar pentru cantități mari confirmăm disponibilitatea înainte de a promite un termen.`,
     limitation: "Nu putem confirma compatibilitatea exactă între toate variantele de fitinguri Aignep și componente de la alți producători fără specificațiile tehnice complete ale instalației clientului.",
+    productCodes: [
+      {
+        "code": "50000 Red",
+        "description": "Fitinguri push-in seria roșie, execuție standard din tehnopolimer"
+      },
+      {
+        "code": "50000 Black",
+        "description": "Fitinguri push-in seria neagră, execuție standard din tehnopolimer"
+      },
+      {
+        "code": "55000",
+        "description": "Fitinguri push-in din materiale tehnopolimerice pentru uz general"
+      },
+      {
+        "code": "56000",
+        "description": "Fitinguri push-in tehnopolimerice miniaturale, gabarit redus"
+      },
+      {
+        "code": "57000",
+        "description": "Fitinguri push-in cu bucșă metalică de strângere"
+      },
+      {
+        "code": "40000V",
+        "description": "Fitinguri metalice push-in cu garnitură FKM pentru etanșare"
+      },
+      {
+        "code": "53000X",
+        "description": "Fitinguri push-in din PPSU cu componente din inox 316L"
+      },
+      {
+        "code": "53000",
+        "description": "Fitinguri push-in din PPSU cu componente din alamă CW510L"
+      },
+      {
+        "code": "59000",
+        "description": "Fitinguri push-in certificate pentru apă potabilă"
+      },
+      {
+        "code": "70000",
+        "description": "Fitinguri push-in certificate pentru contact cu alimente"
+      },
+      {
+        "code": "SPRINGFIT",
+        "description": "Fitinguri push-in din tehnopolimer certificat pentru alimente"
+      },
+      {
+        "code": "60000",
+        "description": "Fitinguri push-in din oțel inoxidabil pentru medii dure"
+      },
+      {
+        "code": "85000",
+        "description": "Fitinguri push-in tehnopolimerice pentru tuburi dimensionate în țoli"
+      },
+      {
+        "code": "89000",
+        "description": "Fitinguri push-in cu bucșă metalică pentru tuburi dimensionate în țoli"
+      },
+      {
+        "code": "58000",
+        "description": "Fitinguri push-in pentru aplicații de înaltă presiune"
+      },
+      {
+        "code": "84000H MIST FIT",
+        "description": "Fitinguri push-in dedicate sistemelor de micro-pulverizare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile Aignep 50000 și 57000?",
+        "a": "Seria 50000 folosește o construcție integral din tehnopolimer, disponibilă în variantele roșie și neagră, potrivită pentru aer comprimat la presiuni obișnuite. Seria 57000 adaugă o bucșă metalică de strângere pe corpul fitingului, oferind o fixare mai sigură a tubului în aplicații cu vibrații sau solicitări mecanice mai mari. Selecția depinde de mediul de lucru și de riscul de desprindere accidentală a tubului."
+      },
+      {
+        "q": "Livrați fitinguri Aignep în România la comandă?",
+        "a": "Fitingurile Aignep din seriile menționate se aduc la comandă către fabrică, fără a fi păstrate pe raft; intervalul obișnuit rămâne de 2-6 săptămâni. Ne ghidăm după codurile de serie publicate de producător pentru confirmarea diametrului de tub, a filetului și a materialului corpului. Transmiterea codului complet reduce riscul de a primi o variantă incompatibilă cu instalația existentă."
+      },
+      {
+        "q": "Ce serie Aignep aleg pentru o instalație de apă potabilă?",
+        "a": "Pentru contactul cu apa potabilă, seria 59000 este certificată special pentru acest scop, iar seria 70000 acoperă mai larg aplicațiile alimentare. Varianta SPRINGFIT oferă aceleași certificări alimentare într-un tehnopolimer dedicat, potrivit pentru instalații ușoare. Alegerea corectă depinde de temperatura fluidului, de presiunea de lucru și de reglementările locale aplicabile echipamentului final."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la un fiting Aignep?",
+        "a": "Este necesar diametrul exterior al tubului, tipul de filet și pasul acestuia, materialul dorit pentru corp, tehnopolimer, inox sau alamă, și presiunea maximă de lucru din instalație. Pentru aplicații alimentare sau cu apă potabilă, menționați și acest lucru explicit. Aceste date permit încadrarea rapidă în seria corectă dintre variantele apropiate ca aspect exterior."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Push-In Fittings – Aignep","url":"https://b2b.aignep.com/eng/Push-In-Fittings","publisher":"Aignep S.p.A.","accessed":"2026-09-25"},
       { title: "Aignep - Componenti per automazione pneumatica e gestione fluidi", url: "https://www.aignep.com", publisher: "Aignep S.p.A.", accessed: "2026-09-22" },
       { title: "Products - Aignep", url: "https://www.aignep.com/en/products", publisher: "Aignep S.p.A.", accessed: "2026-09-22" },
       { title: "Company - Aignep", url: "https://www.aignep.com/en/company", publisher: "Aignep S.p.A.", accessed: "2026-09-22" }
@@ -155,11 +309,84 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     ],
     infinitrade: `Pentru Elesa+Ganter nu avem date proprii de stoc pe fiecare cod din catalog — lucrăm din surse publice ale producătorului și confirmăm disponibilitatea specifică înainte de a oferta. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru întreaga gamă de mânere și elemente standard. Pentru o ofertă rapidă, trimiteți codul de catalog al piesei sau, dacă nu-l știți, tipul de element (mâner, buton, element de indexare), dimensiunea filetului și materialul preferat. Nu publicăm prețuri fără o verificare punctuală la furnizor.`,
     limitation: "Nu putem confirma disponibilitatea unei variante de culoare sau finisaj anume din catalogul Elesa+Ganter fără o interogare punctuală la furnizor, gama fiind foarte extinsă.",
+    productCodes: [
+      {
+        "code": "GN 823",
+        "description": "Elemente de indexare cu bilă retractabilă pentru poziționare rapidă"
+      },
+      {
+        "code": "GN 210",
+        "description": "Manete pentru schimbarea vitezelor și acționări mecanice similare"
+      },
+      {
+        "code": "GN 62444",
+        "description": "Presetupe pentru cabluri, fixare și etanșare la trecerea prin panou"
+      },
+      {
+        "code": "GN 876",
+        "description": "Cleme de fixare rapidă cu strângere excentrică"
+      },
+      {
+        "code": "GN 318",
+        "description": "Chei cu clichet pentru strângere manuală rapidă"
+      },
+      {
+        "code": "GN 439.5",
+        "description": "Picioare de nivelare din oțel inoxidabil pentru echipamente"
+      },
+      {
+        "code": "DT.464",
+        "description": "Buton striat pentru prindere și reglaj manual"
+      },
+      {
+        "code": "DT.653-AV",
+        "description": "Buton striat cu manetă rabatabilă, execuție antivibrație"
+      },
+      {
+        "code": "CFM-TR",
+        "description": "Balama cu deschidere mare pentru panouri și uși tehnice"
+      },
+      {
+        "code": "AVC",
+        "description": "Izolator antivibrație din cauciuc și cablu de oțel"
+      },
+      {
+        "code": "FH.1/2",
+        "description": "Sistem modular de lubrifiere pentru puncte multiple"
+      },
+      {
+        "code": "FHB",
+        "description": "Suport magnetic pentru fixarea temporară a echipamentelor"
+      },
+      {
+        "code": "DIN 3015",
+        "description": "Cleme pentru tuburi și furtunuri conform standardului DIN 3015"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul GN de pe un element Elesa+Ganter?",
+        "a": "Prefixul GN identifică un standard constructiv comun mai multor producători, iar numărul care urmează arată forma și funcția reperului: de exemplu, GN 823 este un element de indexare cu bilă, iar GN 876 este o clemă cu strângere excentrică. Cifrele suplimentare din cod, precum GN 439.5, marchează o variantă de material sau finisaj. Confirmarea exactă se face pe baza desenului tehnic sau a fișei publicate de Elesa+Ganter."
+      },
+      {
+        "q": "Livrați repere Elesa+Ganter în România la comandă?",
+        "a": "Reperele Elesa+Ganter ajung la noi prin comandă dedicată, plecând de la codul GN confirmat cu clientul; nu avem această gamă pe raft, iar termenul este de obicei 2-6 săptămâni. Ne bazăm pe cataloagele tehnice publice ale producătorului pentru identificarea variantei exacte de dimensiune și material. Un desen cotat sau codul complet de pe piesa existentă grăbește mult procesul."
+      },
+      {
+        "q": "Ce diferență este între un element de indexare și o clemă de fixare Elesa+Ganter?",
+        "a": "Un element de indexare, precum GN 823, blochează o poziție prin introducerea unui bolț sau a unei bile într-un locaș, fiind folosit la reglaje repetitive de mașină. O clemă de fixare, precum GN 876, strânge două piese printr-o mișcare excentrică de pârghie, fără să indexeze o poziție anume. Alegerea depinde dacă aplicația necesită repoziționare exactă sau doar o fixare temporară rapidă."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă la un reper Elesa+Ganter?",
+        "a": "Transmiteți codul complet GN sau DT de pe piesa existentă, dimensiunile principale de montaj și materialul dorit, oțel, inox sau plastic tehnic. Dacă piesa nu mai are etichetă, o fotografie clară cu o riglă alături ajută la estimarea diametrului și a filetului. Aceste elemente permit identificarea rapidă a variantei corecte dintr-o familie cu multe execuții asemănătoare."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Elesa+Ganter – Standard Machine Elements","url":"https://www.elesa-ganter.com","publisher":"Elesa+Ganter","accessed":"2026-09-25"},
       { title: "Elesa+Ganter - Standard Machine Elements", url: "https://www.elesa-ganter.com/", publisher: "Elesa+Ganter", accessed: "2026-09-22" },
       { title: "Elesa - Product Catalog and Distributor Network", url: "https://www.elesa.com", publisher: "Elesa S.p.A.", accessed: "2026-09-22" }
     ],
@@ -197,11 +424,89 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
     certifications: ["ISO 9001 — management al calității", "ISO 14001 — management de mediu", "ISO 13485:2016 — pentru producția de componente destinate dispozitivelor medicale"],
     infinitrade: `Pentru Lesjöfors nu deținem date proprii de stoc pentru fiecare cod de arc din catalog — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea exactă o verificăm punctual, la cerere. Aducem arcurile Lesjöfors la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea specificațiilor, fără disponibilitate permanentă din stoc pentru fiecare dimensiune. Pentru o ofertă corectă, trimiteți desenul tehnic al arcului sau, minimal, diametrul sârmei, numărul de spire, cursa și forța necesară. Nu lucrăm cu prețuri publice fixe — fiecare comandă se cotează pe baza specificației tehnice primite.`,
     limitation: "Nu putem confirma un termen de livrare pentru un arc complet nou-proiectat înainte ca fabrica să valideze fezabilitatea tehnică a desenului trimis de client.",
+    productCodes: [
+      {
+        "code": "Compression Springs",
+        "description": "Arcuri elicoidale de compresie, gamă standard din familia Coil Springs"
+      },
+      {
+        "code": "Extension Springs",
+        "description": "Arcuri elicoidale de extensie cu cârlige, familia Coil Springs"
+      },
+      {
+        "code": "Torsion Springs",
+        "description": "Arcuri elicoidale de torsiune pentru cupluri de revenire"
+      },
+      {
+        "code": "Wave Springs",
+        "description": "Arcuri disc tip undă, spațiu axial redus față de arcurile clasice"
+      },
+      {
+        "code": "Wire Forms",
+        "description": "Repere formate din sârmă, geometrii personalizate pentru clienți"
+      },
+      {
+        "code": "Wire Rings",
+        "description": "Inele din sârmă pentru fixare și retenție mecanică"
+      },
+      {
+        "code": "Garter Springs",
+        "description": "Arcuri tip cordon, montate circular pentru etanșări și role"
+      },
+      {
+        "code": "Torsion Bar Springs",
+        "description": "Bare de torsiune pentru suspensii și mecanisme de reglare"
+      },
+      {
+        "code": "Constant Force Springs",
+        "description": "Arcuri plate cu forță constantă pe toată cursa de derulare"
+      },
+      {
+        "code": "Power Springs",
+        "description": "Arcuri plate de putere pentru mecanisme de rebobinare"
+      },
+      {
+        "code": "Spiral Torsion Springs",
+        "description": "Arcuri plate spirale de torsiune pentru cuplu de revenire"
+      },
+      {
+        "code": "NitroSprings",
+        "description": "Arcuri cu gaz din gama NitroSprings, forță reglabilă pe cursă"
+      },
+      {
+        "code": "Stainless Steel Gas Springs",
+        "description": "Arcuri cu gaz din inox pentru medii corozive sau igienice"
+      },
+      {
+        "code": "Disc Springs",
+        "description": "Arcuri disc din gama de piese presate și ștanțate"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce tip de arc Lesjöfors aleg pentru o forță constantă pe toată cursa?",
+        "a": "Pentru o forță aproape constantă pe toată lungimea de derulare, familia Constant Force Springs este potrivă, fiind folosită la mecanisme de contragreutate sau la sisteme de rulare a cablurilor. Dacă este nevoie doar de rebobinare, Power Springs oferă o soluție mai compactă. Alegerea corectă ține cont de cursa totală, de spațiul de montaj disponibil și de numărul de cicluri de lucru estimat pe durata de viață."
+      },
+      {
+        "q": "Aduceți la comandă arcuri Lesjöfors în România?",
+        "a": "Arcurile Lesjöfors din gamele indicate se procură la comandă, potrivit informațiilor publice ale producătorului; nu avem raft propriu pentru această categorie, timpul fiind de 2-6 săptămâni. Pentru identificare, ne bazăm pe parametrii tehnici transmiși de client, nu pe un cod comercial unic, deoarece multe arcuri sunt realizate pe dimensiuni specifice aplicației."
+      },
+      {
+        "q": "Ce diferență este între arcurile cu gaz NitroSprings și cele clasice de compresie Lesjöfors?",
+        "a": "NitroSprings sunt arcuri cu gaz presurizat, care oferă o forță aproape constantă pe cursă și o mișcare amortizată, fiind folosite la capace, scaune sau echipamente reglabile. Arcurile clasice de compresie sunt elicoidale metalice, cu forța proporțională cu deformarea, potrivite pentru suspensii sau mecanisme simple de revenire. Selecția depinde de tipul de mișcare dorit și de spațiul de montaj din produsul final."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la un arc Lesjöfors?",
+        "a": "Sunt necesare diametrul sârmei sau al arcului, lungimea liberă, numărul de spire și forța dorită la o anumită cursă de comprimare sau extensie. Pentru arcuri cu gaz, adăugați cursa totală și forța la capătul deschis. Un desen tehnic sau un eșantion al piesei existente reduce mult riscul de a alege dimensiuni greșite dintr-o gamă foarte variată de execuții."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Coil Springs and Wire Forms","url":"https://www.lesjofors.com/en/products/coil-springs-and-wire-forms/","publisher":"Lesjöfors AB","accessed":"2026-09-25"},
+      {"title":"Lesjöfors – Products","url":"https://www.lesjofors.com/en","publisher":"Lesjöfors AB","accessed":"2026-09-25"},
       { title: "Lesjöfors - Springs for every industry", url: "https://www.lesjofors.com/en", publisher: "Lesjöfors AB", accessed: "2026-09-22" },
       { title: "Our History - Lesjöfors", url: "https://www.lesjofors.com/en/about-us/history/", publisher: "Lesjöfors AB", accessed: "2026-09-22" }
     ],
@@ -237,11 +542,89 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
     ],
     infinitrade: `Pentru OBO Bettermann nu avem date proprii de stoc pentru fiecare cod din gamă — informațiile despre produse provin din surse publice ale producătorului, iar disponibilitatea o verificăm punctual pentru fiecare comandă. Aducem produsele OBO Bettermann la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru toate dimensiunile de jgheab sau tipurile de descărcător. Pentru o ofertă rapidă, trimiteți codul exact al produsului sau, dacă nu-l aveți, tipul de sistem (jgheab, descărcător, protecție la foc), dimensiunile necesare și lungimea traseului. Nu publicăm prețuri fără verificare la furnizor.`,
     limitation: "Nu proiectăm scheme complete de protecție la trăsnet sau supratensiune pentru clădiri — livrăm componentele OBO Bettermann conform unui proiect deja stabilit de un inginer autorizat.",
+    productCodes: [
+      {
+        "code": "V50",
+        "description": "Descărcător combinat de tip 1+2 pentru protecție la supratensiuni"
+      },
+      {
+        "code": "V50, 3-polig+NPE 280 V",
+        "description": "Variantă trifazată cu nul și PE, tensiune nominală 280 V"
+      },
+      {
+        "code": "V50, 2-polig+NPE 280 V",
+        "description": "Variantă bifazată cu nul și PE, tensiune nominală 280 V"
+      },
+      {
+        "code": "V50, 1-polig+NPE 280 V",
+        "description": "Variantă monofazată cu nul și PE, tensiune nominală 280 V"
+      },
+      {
+        "code": "PV-Kombiableiter V50, 600 V DC",
+        "description": "Descărcător combinat pentru instalații fotovoltaice, curent continuu 600 V"
+      },
+      {
+        "code": "V25-B+C, 0-450 PV",
+        "description": "Descărcător tip 1+2 dedicat aplicațiilor fotovoltaice"
+      },
+      {
+        "code": "V20",
+        "description": "Descărcător de supratensiune tip 2 pentru tablouri de distribuție"
+      },
+      {
+        "code": "V10 Compact 2.0",
+        "description": "Descărcător compact tip 2, format redus pentru spații înguste"
+      },
+      {
+        "code": "MCF Compact 75/200",
+        "description": "Dispozitiv de protecție la supratensiuni în carcasă compactă"
+      },
+      {
+        "code": "MCF-NAR",
+        "description": "Descărcător combinat pentru protecție la trăsnet și supratensiuni"
+      },
+      {
+        "code": "RKS-Magic 60 FS",
+        "description": "Jgheab metalic pentru cabluri, oțel zincat la rece, lățime 60 mm"
+      },
+      {
+        "code": "RKS-Magic 60 A2",
+        "description": "Jgheab pentru cabluri din oțel inoxidabil, finisaj brut"
+      },
+      {
+        "code": "RKS-Magic 60 FT",
+        "description": "Jgheab pentru cabluri, oțel zincat termic prin imersie la cald"
+      },
+      {
+        "code": "GR-Magic 55 FT",
+        "description": "Jgheab din plasă pentru cabluri cu sistem de fixare MagicFix"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este descărcătorul V50 de la OBO Bettermann?",
+        "a": "V50 este un descărcător combinat de tip 1+2 din gama OBO Bettermann, folosit la intrarea în tabloul electric pentru a limita atât curenții de trăsnet, cât și supratensiunile de comutație. Există în variante mono-, bi- și trifazate cu nul și PE, la 280 V, plus o versiune dedicată instalațiilor fotovoltaice de 600 V curent continuu. Alegerea variantei depinde de schema de împământare și de tensiunea rețelei."
+      },
+      {
+        "q": "Ce diferență există între jgheabul RKS-Magic 60 FS și cel FT?",
+        "a": "Diferența constă în tratamentul de suprafață al oțelului: FS este zincat la rece, potrivit pentru interior, iar FT este zincat termic prin imersie la cald, cu rezistență mai bună la coroziune pentru montaj exterior sau industrial. Ambele fac parte din familia RKS-Magic, cu lățime de 60 mm și sistem de îmbinare fără șuruburi. Alegerea corectă ține cont de mediul de instalare."
+      },
+      {
+        "q": "Livrați jgheaburi și descărcătoare OBO Bettermann în România?",
+        "a": "Da, aducem la comandă gamele OBO Bettermann prezentate mai sus, iar așteptarea până la livrare este în mod normal 2-6 săptămâni, ținând cont de model și de programul fabricii. Nu ținem aceste articole pe raft, iar informațiile despre coduri și caracteristici provin din materialele publice ale producătorului, fără date proprii despre stoc. Vă recomandăm să confirmați codul exact înainte de comandă."
+      },
+      {
+        "q": "Cum aleg între V20 și V25-B+C pentru protecția fotovoltaică?",
+        "a": "V20 este un descărcător de tip 2 pentru tablourile electrice generale, în timp ce V25-B+C combină funcțiile de tip 1 și tip 2 și este gândit special pentru intrarea în instalațiile fotovoltaice, la tensiuni de până la 450 V. Dacă panourile solare sunt expuse riscului direct de trăsnet, varianta V25-B+C oferă protecție mai completă decât un simplu descărcător de tip 2."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"OBO Bettermann homepage","url":"https://www.obo.de/en","publisher":"OBO Bettermann","accessed":"2026-09-25"},
+      {"title":"Überspannungsschutz - Produkte","url":"https://www.obo.de/de-de/produkte/ueberspannungsschutz","publisher":"OBO Bettermann","accessed":"2026-09-25"},
       { title: "OBO Bettermann - Home", url: "https://obo.de/en/", publisher: "OBO Bettermann", accessed: "2026-09-22" },
       { title: "OBO Bettermann - Products overview", url: "https://obo.de/en", publisher: "OBO Bettermann", accessed: "2026-09-22" }
     ],
@@ -277,11 +660,88 @@ Pentru piața din România, LS Electric are sens la tablouri electrice și panou
     ],
     infinitrade: `Pentru LS Electric lucrăm din surse publice ale producătorului, fără date proprii de stoc pe fiecare cod de întrerupător sau invertor — vă spunem clar ce putem și ce nu putem confirma la momentul cererii. Aducem echipamentele LS Electric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru toată gama. Pentru o ofertă corectă, trimiteți codul exact al produsului sau, dacă nu-l aveți, curentul nominal, tensiunea de lucru și tipul de echipament necesar (întrerupător, contactor, invertor). Nu publicăm prețuri fără o verificare punctuală de disponibilitate.`,
     limitation: "Nu confirmăm compatibilitatea directă a echipamentelor LS Electric cu tablouri deja proiectate pentru alt producător fără o verificare tehnică punctuală a schemei electrice.",
+    productCodes: [
+      {
+        "code": "ABS33c",
+        "description": "Întrerupător automat compact Metasol MCCB, cadru redus 30-250 A"
+      },
+      {
+        "code": "ABN52c",
+        "description": "Întrerupător automat Metasol MCCB, capacitate de rupere normală"
+      },
+      {
+        "code": "ABS52c",
+        "description": "Întrerupător automat Metasol MCCB, capacitate de rupere standard"
+      },
+      {
+        "code": "ABH52c",
+        "description": "Întrerupător automat Metasol MCCB, capacitate de rupere ridicată"
+      },
+      {
+        "code": "ABN102c",
+        "description": "Întrerupător automat Metasol MCCB, cadru 100 A, rupere normală"
+      },
+      {
+        "code": "ABS102c",
+        "description": "Întrerupător automat Metasol MCCB, cadru 100 A, rupere standard"
+      },
+      {
+        "code": "ABH102c",
+        "description": "Întrerupător automat Metasol MCCB, cadru 100 A, rupere ridicată"
+      },
+      {
+        "code": "ABN202c",
+        "description": "Întrerupător automat Metasol MCCB, cadru 200 A, rupere normală"
+      },
+      {
+        "code": "ABS402c",
+        "description": "Întrerupător automat Metasol MCCB, cadru mare 400-800 A"
+      },
+      {
+        "code": "ABL402c",
+        "description": "Întrerupător automat Metasol MCCB, capacitate de rupere redusă, cadru mare"
+      },
+      {
+        "code": "EBS33c",
+        "description": "Întrerupător diferențial Metasol ELCB, protecție la curent rezidual"
+      },
+      {
+        "code": "EBN52c",
+        "description": "Întrerupător diferențial Metasol ELCB, capacitate de rupere normală"
+      },
+      {
+        "code": "EBH53c",
+        "description": "Întrerupător diferențial Metasol ELCB, capacitate de rupere ridicată"
+      },
+      {
+        "code": "EBN403c",
+        "description": "Întrerupător diferențial Metasol ELCB, cadru mare 400-800 A"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc codul unui întrerupător Metasol de la LS Electric?",
+        "a": "Codul Metasol arată familia constructivă și capacitatea de rupere: prefixul AB este pentru întrerupătoare automate în carcasă turnată, iar EB pentru variantele cu protecție diferențială. Litera din mijloc indică nivelul de rupere - N pentru normal, S pentru standard, H pentru ridicat și L pentru redus - iar cifrele care urmează arată cadrul, exprimat aproximativ în amperi. Sufixul „c\" marchează seria curentă din catalogul LS Electric."
+      },
+      {
+        "q": "Ce diferență este între seria ABN și seria ABH la Metasol?",
+        "a": "Diferența ține de capacitatea de rupere la scurtcircuit: seria ABN acoperă aplicațiile obișnuite, cu o capacitate normală, în timp ce seria ABH este construită pentru capacități de rupere ridicate, recomandate acolo unde curenții de defect pot fi mari, de exemplu lângă transformatoare sau tablouri principale. Ambele păstrează aceleași dimensiuni de montaj în cadrul aceluiași grup de curent, ceea ce simplifică înlocuirea."
+      },
+      {
+        "q": "Livrați întrerupătoare Metasol LS Electric în România?",
+        "a": "Da, aducem la comandă modelele Metasol descrise mai sus; clientul trebuie să aibă în vedere un interval de 2-6 săptămâni până la livrare, în funcție de cadrul ales. Nu ținem aceste întrerupătoare pe raft; descrierile și codurile provin din manualul tehnic public al producătorului, fără evidențe proprii de stoc. Recomandăm confirmarea codului exact și a tensiunii de lucru înainte de a plasa comanda."
+      },
+      {
+        "q": "Ce înseamnă litera c de la finalul codului Metasol?",
+        "a": "Litera c de la finalul codurilor precum ABS33c sau EBN52c marchează varianta curentă de fabricație a familiei Metasol, care poate diferi ușor de versiunile mai vechi în privința accesoriilor disponibile sau a dimensiunilor terminalelor. La comandă, este util să menționați exact acest sufix, alături de curentul nominal dorit, pentru a evita confuzia cu serii mai vechi ale aceluiași întrerupător."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Metasol MCCB-ELCB Technical Manual","url":"https://www.ls-electric.com/upload/customer/download/1213/Metasol_MCCB-ELCB_Technical%20Manual_E.pdf","publisher":"LS Electric","accessed":"2026-09-25"},
       { title: "LS ELECTRIC - Global Smart Energy Solutions", url: "https://www.ls-electric.com/", publisher: "LS Electric Co., Ltd.", accessed: "2026-09-22" },
       { title: "LS Electric", url: "https://en.wikipedia.org/wiki/LS_Electric", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
@@ -317,11 +777,76 @@ Pentru piața din România, HSD are sens la retehnologizarea sau completarea uno
     certifications: ["ISO 9001:2015 — deținută din 1996", "ISO 14001:2015 — management de mediu", "ISO 45001:2018 — sănătate și securitate ocupațională"],
     infinitrade: `Pentru HSD nu avem date proprii de stoc pe fiecare model de electrospindle — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea exactă se confirmă punctual, per comandă. Aducem electrospindle-uri HSD la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea specificațiilor, fără disponibilitate permanentă din stoc pentru fiecare model. Pentru o ofertă corectă, trimiteți-ne modelul exact al electrospindle-ului sau, dacă nu-l cunoașteți, mașina pe care se montează și aplicația (metal, compozit, automotive). Nu publicăm prețuri fără o verificare punctuală de disponibilitate la furnizor.`,
     limitation: "Nu oferim service în perioada de garanție a producătorului pentru electrospindle-urile HSD — acesta rămâne în sarcina rețelei oficiale de service a grupului Biesse.",
+    productCodes: [
+      {
+        "code": "ES1000",
+        "description": "Electrospindel ATC pentru centre de prelucrare verticale, frezare și strunjire metal"
+      },
+      {
+        "code": "ES1020",
+        "description": "Electrospindel din familia ATC pentru prelucrarea metalelor"
+      },
+      {
+        "code": "ES505",
+        "description": "Electrospindel pentru aplicații din industria auto, putere și precizie ridicată"
+      },
+      {
+        "code": "ES920",
+        "description": "Electrospindel pentru prelucrarea materialelor compozite"
+      },
+      {
+        "code": "ES510",
+        "description": "Electrospindel cu schimbare automată a sculei pentru prelucrare industrială"
+      },
+      {
+        "code": "ES951",
+        "description": "Electrospindel ATC din gama HSD pentru operații de prelucrare industrială"
+      },
+      {
+        "code": "ES950",
+        "description": "Electrospindel ATC pentru centre de prelucrare cu schimbare automată a sculei"
+      },
+      {
+        "code": "ES779",
+        "description": "Electrospindel ATC din familia HSD pentru prelucrare industrială"
+      },
+      {
+        "code": "ES796",
+        "description": "Electrospindel ATC pentru operații de frezare industrială"
+      },
+      {
+        "code": "ES10 Line",
+        "description": "Familie de electrospindele ATC pentru prelucrarea metalelor"
+      },
+      {
+        "code": "HST610 DS",
+        "description": "Cap de prelucrare din gama HSD pentru mașini-unelte industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este un electrospindel ES1000 de la HSD?",
+        "a": "ES1000 face parte din familia de electrospindele ATC ale HSD, dedicate centrelor de prelucrare verticale pentru frezare și, în anumite configurații, pentru operații de strunjire pe piese metalice. Electrospindelul integrează sistemul de schimbare automată a sculei, ceea ce reduce timpii morți în producția de serie. Alegerea între modelele din gama ES depinde de turația maximă necesară și de tipul de material prelucrat."
+      },
+      {
+        "q": "Ce diferență este între electrospindelele ES505 și ES920?",
+        "a": "ES505 este orientat spre aplicații din industria auto, unde contează combinația de putere și precizie la viteze mari de prelucrare, în timp ce ES920 este construit pentru prelucrarea materialelor compozite, unde vibrațiile și degajarea de căldură trebuie controlate diferit față de metal. Ambele fac parte din familia de electrospindele ATC ale producătorului, dar diferă prin turație, răcire și tipul de mandrină recomandat."
+      },
+      {
+        "q": "Livrați electrospindele HSD în România?",
+        "a": "Da, aducem la comandă electrospindelele HSD prezentate în paginile de produs; livrarea ajunge de regulă la 2-6 săptămâni de la confirmarea comenzii, în funcție de complexitatea electrospindelului. Nu ținem aceste componente pe raft, iar informațiile despre coduri provin direct de pe site-ul oficial al producătorului, fără date interne despre stoc. Vă rugăm să trimiteți codul exact al electrospindelului și seria mașinii pe care va fi montat."
+      },
+      {
+        "q": "Ce înseamnă sufixul DS la modelul HST610 DS?",
+        "a": "Sufixul DS de la HST610 DS indică o variantă specifică a capului de prelucrare din gama HSD, gândită pentru anumite configurații de montaj pe mașini-unelte industriale. Detaliile tehnice exacte, precum unghiurile de lucru sau tipul de acționare, se regăsesc în fișa tehnică a producătorului și diferă de variantele fără acest sufix. Recomandăm verificarea compatibilității cu mașina existentă înainte de a trimite cererea de ofertă."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"HSD Mechatronics homepage","url":"https://www.hsdmechatronics.com/en/","publisher":"HSD Mechatronics","accessed":"2026-09-25"},
       { title: "HSD Mechatronics - Home", url: "https://www.hsdmechatronics.com/it/", publisher: "HSD Mechatronics S.p.A.", accessed: "2026-09-22" },
       { title: "HSD Mechatronics - Company", url: "https://www.hsdmechatronics.com/en/", publisher: "HSD Mechatronics S.p.A.", accessed: "2026-09-22" }
     ],
@@ -358,11 +883,97 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
     ],
     infinitrade: `Pentru Metabo nu avem date proprii de stoc pe fiecare cod de sculă — lucrăm din surse publice ale producătorului și confirmăm disponibilitatea la furnizor înainte de a oferta. Aducem sculele Metabo la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare model și capacitate de acumulator. Pentru o ofertă rapidă, trimiteți codul exact al sculei sau, dacă nu-l aveți, tipul de sculă, puterea sau capacitatea acumulatorului dorită și aplicația (metal, construcții, lemn). Nu publicăm prețuri fără verificare punctuală de disponibilitate.`,
     limitation: "Nu oferim service în garanția producătorului pentru sculele Metabo — intervențiile acoperite de garanție se rezolvă prin rețeaua de service a producătorului din România.",
+    productCodes: [
+      {
+        "code": "BS 18 LTX-3 BL Q I Metal – 603180840",
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, mandrină metalică, variantă Q"
+      },
+      {
+        "code": "BS 18 LTX-3 BL I Metal – 603181840",
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, mandrină metalică, fără mandrină rapidă Q"
+      },
+      {
+        "code": "BS 18 LTX-3 BL Q I – 603184840",
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, variantă Q, cutie de transport"
+      },
+      {
+        "code": "BS 18 LTX-3 BL Q I – 603184850",
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, variantă Q, fără acumulator inclus"
+      },
+      {
+        "code": "BS 18 LTX BL I – 602358840",
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, motor brushless, cutie de transport"
+      },
+      {
+        "code": "BS 18 LTX BL I – 602358850",
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, motor brushless, fără acumulator"
+      },
+      {
+        "code": "BS 18 LT BL Q – 602334890",
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, variantă Q de bază"
+      },
+      {
+        "code": "BS 18 LT BL – 602325890",
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, model de bază, cutie de transport"
+      },
+      {
+        "code": "SB 18 LTX-3 BL Q I – 603185840",
+        "description": "Mașină de găurit cu percuție cu acumulator 18V, motor brushless, variantă Q"
+      },
+      {
+        "code": "SB 18 LTX-3 BL Q I – 603185850",
+        "description": "Mașină de găurit cu percuție cu acumulator 18V, variantă Q, fără acumulator"
+      },
+      {
+        "code": "SB 18 LTX BL I – 602360520",
+        "description": "Mașină de găurit cu percuție cu acumulator 18V, motor brushless, cutie inclusă"
+      },
+      {
+        "code": "SB 18 LTX BL I – 602360840",
+        "description": "Mașină de găurit cu percuție cu acumulator 18V, motor brushless, cutie de transport"
+      },
+      {
+        "code": "SB 18 LTX BL I – 602360850",
+        "description": "Mașină de găurit cu percuție cu acumulator 18V, motor brushless, fără acumulator"
+      },
+      {
+        "code": "SB 18 LT BL – 602316520",
+        "description": "Mașină de găurit cu percuție cu acumulator 18V, cutie de transport inclusă"
+      },
+      {
+        "code": "SB 18 LT BL – 602316890",
+        "description": "Mașină de găurit cu percuție cu acumulator 18V, fără acumulator inclus"
+      },
+      {
+        "code": "PowerMaxx SB 12 BL – 601077890",
+        "description": "Mașină de găurit cu percuție compactă cu acumulator 12V, seria PowerMaxx"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul BS 18 LTX-3 BL Q I la Metabo?",
+        "a": "În codurile Metabo, BS indică o mașină de găurit-înșurubat, cifra 18 arată platforma de tensiune de 18 V, LTX marchează seria de acumulatori Li-Ion de performanță, iar BL indică motorul fără perii (brushless). Sufixele Q și I descriu variante de livrare, precum mandrina cu schimbare rapidă sau prezența unei genți ori cutii de transport. Numărul din final este articolul exact folosit la comandă."
+      },
+      {
+        "q": "Ce diferență este între seria BS și seria SB la Metabo?",
+        "a": "Seria BS cuprinde mașinile de găurit-înșurubat simple, fără funcție de percuție, potrivite pentru înșurubare și găurire în lemn sau metal. Seria SB adaugă mecanismul de percuție, util la găurirea în zidărie sau beton ușor. Ambele familii folosesc aceeași platformă de acumulatori de 18 V din sistemul Cordless Alliance System, astfel încât bateriile pot fi partajate între scule din cele două serii."
+      },
+      {
+        "q": "Livrați scule Metabo cu acumulator în România?",
+        "a": "Da, aducem la comandă modelele Metabo prezentate mai sus; durata de așteptare acoperă de obicei 2-6 săptămâni, în funcție de configurația exactă aleasă. Nu ținem aceste scule pe raft; codurile și descrierile provin din paginile publice de produs ale Metabo, fără evidențe proprii despre disponibilitate. Când trimiteți cererea de ofertă, spuneți-ne dacă doriți varianta cu acumulator și încărcător sau doar corpul mașinii."
+      },
+      {
+        "q": "Ce reprezintă numărul de articol de lângă fiecare model Metabo?",
+        "a": "Numărul de articol, format din nouă cifre, identifică exact varianta de vânzare a sculei - cu sau fără acumulatori, cu o anumită capacitate a bateriei sau cu o cutie de transport inclusă. Două scule cu același nume comercial, precum BS 18 LTX BL I, pot avea numere de articol diferite dacă se livrează cu accesorii diferite. Verificarea acestui număr evită confuziile la comandă."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Cordless drill / drivers","url":"https://www.metabo.com/us/enus/tools/cordless-tools/screwing-drilling-chiseling-stirring/cordless-drill-drivers/","publisher":"Metabo","accessed":"2026-09-25"},
+      {"title":"Cordless hammer drills","url":"https://www.metabo.com/us/enus/tools/cordless-tools/screwing-drilling-chiseling-stirring/cordless-hammer-drills/","publisher":"Metabo","accessed":"2026-09-25"},
       { title: "Metabo - Power Tools for Professionals", url: "https://www.metabo.com", publisher: "Metabowerke GmbH", accessed: "2026-09-22" },
       { title: "Metabo US - Professional Power Tools", url: "https://www.metabo.com/en-us/", publisher: "Metabowerke GmbH", accessed: "2026-09-22" }
     ],
@@ -399,11 +1010,93 @@ Pentru piața din România, Klein Tools are sens la echipe de electricieni, firm
     ],
     infinitrade: `Pentru Klein Tools nu avem date proprii de stoc pe fiecare cod de sculă — informațiile despre gamă provin din surse publice ale producătorului, iar disponibilitatea o confirmăm la cerere. Aducem scule Klein Tools la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare model. Pentru o ofertă rapidă, trimiteți codul exact al sculei sau, dacă nu-l aveți, tipul de sculă și aplicația (tăiere, dezizolare, seturi complete). Prețul îl stabilim abia după ce confirmăm la furnizor disponibilitatea exactă a modelului cerut.`,
     limitation: "Nu confirmăm existența unei rețele de service a producătorului Klein Tools în România — scule cu defect de fabricație se tratează prin politica de garanție, verificată punctual la comandă.",
+    productCodes: [
+      {
+        "code": "D50510BS",
+        "description": "Clește pompă cu ajustare rapidă, fălci drepte, 10 inci"
+      },
+      {
+        "code": "D50512BS",
+        "description": "Clește pompă cu ajustare rapidă, fălci drepte, 12 inci"
+      },
+      {
+        "code": "D5052BSKIT",
+        "description": "Set de două clești pompă cu ajustare rapidă, fălci drepte"
+      },
+      {
+        "code": "D5057BS",
+        "description": "Clește pompă cu ajustare rapidă, fălci drepte, 7 inci"
+      },
+      {
+        "code": "J200028250",
+        "description": "Clește diagonal de tăiere, ediție aniversară 250, 8 inci"
+      },
+      {
+        "code": "J20009NE250",
+        "description": "Clește tip lineman Journeyman, ediție aniversară 250, 9 inci"
+      },
+      {
+        "code": "D2286",
+        "description": "Clește diagonal de tăiere, leverage ridicat, 6 inci"
+      },
+      {
+        "code": "D20007CST1",
+        "description": "Clește pentru fierari, tăiere robustă, 9 inci"
+      },
+      {
+        "code": "73066",
+        "description": "Clește universal interschimbabil pentru inele de siguranță, 6 în 1"
+      },
+      {
+        "code": "D5052BKIT",
+        "description": "Set de două clești pompă cu ajustare rapidă Klaw"
+      },
+      {
+        "code": "D5053BKIT",
+        "description": "Set de trei clești pompă cu ajustare rapidă Klaw"
+      },
+      {
+        "code": "D5053KIT",
+        "description": "Set clasic de trei clești pompă Klaw"
+      },
+      {
+        "code": "D5057B",
+        "description": "Clește pompă cu ajustare rapidă Klaw, 7 inci"
+      },
+      {
+        "code": "38600",
+        "description": "Clește-clemă cu fălci curbe, cu blocare, 5 inci"
+      },
+      {
+        "code": "38621",
+        "description": "Clește-clemă tip C cu fălci pivotante, cu blocare, 9 inci"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg dimensiunea corectă la clești de la Klein Tools?",
+        "a": "Dimensiunea unui clește Klein Tools, exprimată în inci în numele produsului, se referă la lungimea totală a sculei, nu la deschiderea fălcilor. Un clește de 7 inci este potrivit pentru spații înguste și lucru de precizie, în timp ce un model de 10-12 inci oferă mai multă forță pentru piese groase. Pentru electricieni, modelele de 9 inci tip lineman sunt un compromis obișnuit între forță și manevrabilitate."
+      },
+      {
+        "q": "Ce diferență este între seria D50510BS și seria D5057BS?",
+        "a": "Ambele fac parte din familia de clești pompă cu ajustare rapidă Klaw, cu fălci drepte, dar diferă prin lungime: D5057BS are 7 inci, iar D50510BS are 10 inci. Modelul mai scurt este mai ușor de manevrat în spații strânse, în timp ce cel mai lung oferă un braț de forță mai mare pentru piese de diametru mare. Ambele acceptă aceleași accesorii de schimbare a fălcilor."
+      },
+      {
+        "q": "Livrați scule Klein Tools în România?",
+        "a": "Da, aducem la comandă modelele Klein Tools listate mai sus; termenul standard este de 2-6 săptămâni, stabilit după verificarea stocului la producător. Nu ținem aceste scule pe raft; codurile provin din catalogul public de pe site-ul oficial Klein Tools, fără date proprii despre stoc. Recomandăm menționarea codului exact la solicitarea de ofertă, deoarece diferențele dintre variante pot fi subtile."
+      },
+      {
+        "q": "Ce înseamnă codul J20009NE250 la un clește Klein Tools?",
+        "a": "Codul J20009NE250 identifică o ediție aniversară a clestelui Journeyman tip lineman, de 9 inci, din gama Klein Tools. Litera J marchează seria Journeyman, cifrele indică dimensiunea, iar sufixul 250 face referire la ediția specială de 250 de ani a companiei. Funcțional, clestele păstrează caracteristicile modelului standard de 9 inci, diferența fiind mai ales de finisaj și marcaj."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Pliers catalog","url":"https://www.kleintools.com/catalog/pliers","publisher":"Klein Tools","accessed":"2026-09-25"},
+      {"title":"Product catalog","url":"https://www.kleintools.com/catalog","publisher":"Klein Tools","accessed":"2026-09-25"},
       { title: "Klein Tools - Professional Hand Tools", url: "https://www.kleintools.com", publisher: "Klein Tools, Inc.", accessed: "2026-09-22" },
       { title: "Klein Tools", url: "https://en.wikipedia.org/wiki/Klein_Tools", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
@@ -440,11 +1133,84 @@ Pentru piața din România, Hypertherm are sens la ateliere de fabricație metal
     ],
     infinitrade: `Pentru Hypertherm nu avem date proprii de stoc pe fiecare cod de consumabil sau sistem — lucrăm din surse publice ale producătorului și confirmăm disponibilitatea la furnizor înainte de a oferta. Aducem sisteme și consumabile Hypertherm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru sisteme complete, fără disponibilitate permanentă din stoc pentru fiecare cod. Pentru o ofertă rapidă, trimiteți codul exact al piesei sau, dacă nu-l aveți, modelul sistemului de tăiere deținut și grosimea materialului tăiat. Prețul final se comunică doar după verificarea disponibilității reale a codului la furnizor.`,
     limitation: "Nu oferim configurare software proprietară pentru comenzile CNC EDGE Connect sau integrarea completă a sistemului de tăiere pe o linie automatizată — aceasta rămâne în sarcina integratorului de sistem.",
+    productCodes: [
+      {
+        "code": "Powermax30 AIR",
+        "description": "Sistem portabil de tăiere cu plasmă, alimentat cu aer comprimat"
+      },
+      {
+        "code": "Powermax30 XP",
+        "description": "Sistem de tăiere cu plasmă pentru uz ocazional, portabil"
+      },
+      {
+        "code": "Powermax33 XP",
+        "description": "Sistem de tăiere cu plasmă, putere ușor superioară modelului 30 XP"
+      },
+      {
+        "code": "Powermax45 SYNC",
+        "description": "Sistem de tăiere cu plasmă cu torță și consolă sincronizate"
+      },
+      {
+        "code": "Powermax45 XP",
+        "description": "Sistem de tăiere cu plasmă, generația anterioară seriei SYNC"
+      },
+      {
+        "code": "Powermax65",
+        "description": "Sistem de tăiere cu plasmă pentru grosimi mai mari de material"
+      },
+      {
+        "code": "Powermax900",
+        "description": "Sistem de tăiere cu plasmă industrial, capacitate ridicată"
+      },
+      {
+        "code": "XPR460",
+        "description": "Sistem de tăiere cu plasmă cu tehnologie X-Definition, capacitate mare"
+      },
+      {
+        "code": "XPR300",
+        "description": "Sistem de tăiere cu plasmă cu tehnologie X-Definition, capacitate medie"
+      },
+      {
+        "code": "XPR170",
+        "description": "Sistem de tăiere cu plasmă cu tehnologie X-Definition, capacitate redusă"
+      },
+      {
+        "code": "HPR130XD",
+        "description": "Sistem de tăiere cu plasmă HyPerformance, tehnologie XD"
+      },
+      {
+        "code": "HPR260XD",
+        "description": "Sistem de tăiere cu plasmă HyPerformance, capacitate mai mare, tehnologie XD"
+      },
+      {
+        "code": "MAXPRO200",
+        "description": "Sistem de tăiere și găurire cu plasmă pentru uz industrial"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seria Powermax și seria XPR de la Hypertherm?",
+        "a": "Seria Powermax de la Hypertherm este gândită pentru ateliere mici și mijlocii, cu sisteme portabile alimentate manual sau montate pe mese de tăiere ușoare. Seria XPR, cu tehnologie X-Definition, este destinată tăierii mecanizate industriale de mare precizie, pe grosimi mari de material și în volume ridicate de producție. Complexitatea instalării și cerințele de întreținere cresc semnificativ de la Powermax la XPR."
+      },
+      {
+        "q": "Ce înseamnă XD în codul HPR130XD?",
+        "a": "Sufixul XD din HPR130XD marchează o versiune actualizată a sistemului HyPerformance, cu o tehnologie de consumabile care prelungește durata de viață a duzei și electrodului față de generația anterioară. Numărul 130 indică aproximativ capacitatea curentului de tăiere. Sistemele HPR sunt folosite mai ales în tăierea mecanizată de precizie, unde calitatea muchiei tăiate contează la fel de mult ca viteza."
+      },
+      {
+        "q": "Livrați sisteme de tăiere cu plasmă Hypertherm în România?",
+        "a": "Da, aducem la comandă sistemele Hypertherm menționate mai sus; livrarea se întinde, în majoritatea cazurilor, pe 2-6 săptămâni, potrivit configurației sistemului comandat. Nu ținem aceste echipamente pe raft; descrierile modelelor se bazează pe pagina publică de produse a producătorului, fără evidențe proprii despre stocurile disponibile. Spuneți-ne grosimea și tipul de material pe care doriți să îl tăiați, pentru o ofertă corectă."
+      },
+      {
+        "q": "Ce este sistemul MAXPRO200 de la Hypertherm?",
+        "a": "MAXPRO200 este un sistem de tăiere și găurire cu plasmă orientat spre aplicații industriale, unde se cere atât viteză de tăiere, cât și capacitate de a găuri direct în tablă groasă fără operații suplimentare. Este poziționat între gamele Powermax portabile și sistemele XPR de mare capacitate, oferind un compromis pentru ateliere de fabricație medie. Alegerea corectă depinde de grosimea materialelor procesate."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://hypertherm.com/en/products/","publisher":"Hypertherm","accessed":"2026-09-25"},
       { title: "Hypertherm - Plasma Cutting Systems", url: "https://hypertherm.com", publisher: "Hypertherm, Inc.", accessed: "2026-09-22" },
       { title: "Hypertherm", url: "https://en.wikipedia.org/wiki/Hypertherm", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
@@ -481,11 +1247,76 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
     certifications: ["ISO 9001 — management al calității", "ISO 14001 — management de mediu", "ISO 45001 — sănătate și securitate ocupațională", "ATEX Quality Assurance — pentru echipamente în zone cu risc de explozie"],
     infinitrade: `Pentru FAFNIR nu avem date proprii de stoc pe fiecare senzor sau sistem din gamă — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o confirmăm punctual la furnizor. Aducem echipamentele FAFNIR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru fiecare model de senzor. Pentru o ofertă corectă, trimiteți tipul de rezervor, adâncimea sau înălțimea acestuia și fluidul monitorizat, sau codul exact al senzorului dacă îl cunoașteți. Prețul final îl transmitem după ce verificăm punctual la furnizor stocul disponibil pentru senzorul cerut.`,
     limitation: "Nu oferim integrarea software completă a sistemului COMS cu platforme terțe de gestiune a stocurilor — aceasta necesită suport tehnic direct de la producător pentru fiecare caz.",
+    productCodes: [
+      {
+        "code": "VISY-X",
+        "description": "Sistem electronic de măsurare a nivelului în rezervoare de combustibil"
+      },
+      {
+        "code": "VISY-Stick Flex",
+        "description": "Sondă flexibilă de nivel pentru rezervoare de combustibil"
+      },
+      {
+        "code": "VISY-TD",
+        "description": "Afișaj pentru șoferul cisternei la livrarea combustibilului"
+      },
+      {
+        "code": "VISY-Stick-Reed",
+        "description": "Sondă de nivel cu senzori tip reed pentru rezervoare"
+      },
+      {
+        "code": "SECON-X",
+        "description": "Detector de scurgeri cu monitorizare criptată în timp real"
+      },
+      {
+        "code": "COMS",
+        "description": "Sistem de măsurare continuă a nivelului pentru separatoare de ulei"
+      },
+      {
+        "code": "VAPORIX",
+        "description": "Sistem pentru conformitatea cu reglementările de recuperare a vaporilor"
+      },
+      {
+        "code": "O2-PID",
+        "description": "Senzor pentru monitorizarea calității aerului la stațiile de carburant"
+      },
+      {
+        "code": "TORRIX",
+        "description": "Senzor de nivel personalizabil pentru aplicații speciale de proces"
+      },
+      {
+        "code": "LS 300",
+        "description": "Sistem de prevenire a supraumplerii pentru rezervoare"
+      },
+      {
+        "code": "LS 500",
+        "description": "Sistem de prevenire a supraumplerii, variantă complementară seriei LS 300"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este sistemul VISY-X de la FAFNIR?",
+        "a": "VISY-X este un sistem electronic de măsurare a nivelului de combustibil în rezervoarele stațiilor de distribuție, parte din platforma de gestiune a tancurilor produsă de FAFNIR. Sistemul poate fi completat cu sonde precum VISY-Stick Flex sau variante cu senzori reed, în funcție de geometria rezervorului și de precizia dorită. Este utilizat frecvent împreună cu module de detecție a scurgerilor din aceeași familie de produse."
+      },
+      {
+        "q": "Ce diferență este între SECON-X și sistemul COMS de la FAFNIR?",
+        "a": "SECON-X este un detector de scurgeri cu transmisie criptată a datelor, gândit pentru monitorizarea permanentă a rezervoarelor subterane și a conductelor asociate. COMS este, în schimb, un sistem de măsurare continuă a nivelului dedicat separatoarelor de ulei, unde interesează mai degrabă cantitatea de hidrocarburi acumulată decât o eventuală scurgere. Cele două rezolvă probleme diferite și pot funcționa în paralel."
+      },
+      {
+        "q": "Livrați echipamente FAFNIR de monitorizare a rezervoarelor în România?",
+        "a": "Da, aducem la comandă echipamentele FAFNIR prezentate mai sus; de la confirmarea comenzii trec în mod uzual 2-6 săptămâni, în funcție de complexitatea sistemului ales. Nu ținem aceste sisteme pe raft; informațiile despre produse provin de pe pagina oficială a producătorului, fără date proprii despre disponibilitate. Spuneți-ne tipul rezervorului și dacă aveți nevoie și de senzori de scurgere, atunci când cereți o ofertă."
+      },
+      {
+        "q": "Ce rol are sistemul VAPORIX în stațiile de carburant?",
+        "a": "VAPORIX ajută stațiile de distribuție să respecte reglementările privind recuperarea vaporilor de combustibil eliberați în timpul alimentării rezervoarelor auto sau al descărcării cisternelor. Sistemul se integrează de obicei cu restul echipamentelor de monitorizare FAFNIR, precum sondele de nivel și detectoarele de scurgeri, pentru a oferi o imagine completă asupra stației. Cerințele exacte variază în funcție de legislația locală de mediu."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"FAFNIR GmbH homepage","url":"https://www.fafnir.com","publisher":"FAFNIR GmbH","accessed":"2026-09-25"},
       { title: "FAFNIR - Level Measurement and Leak Detection", url: "https://www.fafnir.com", publisher: "FAFNIR GmbH", accessed: "2026-09-22" },
       { title: "Company History - FAFNIR", url: "https://www.fafnir.com/company/company-history", publisher: "FAFNIR GmbH", accessed: "2026-09-22" }
     ],
@@ -521,11 +1352,72 @@ Pentru piața din România, INOR are sens la instalații de proces din chimie, p
     certifications: ["ATEX — pentru instalații cu risc de explozie", "SIL2 — nivel de integritate de siguranță", "Compatibil HART 7", "Certificat FM — pentru piețele SUA și Canada"],
     infinitrade: `Pentru INOR nu avem date proprii de stoc pe fiecare model de transmițător — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o confirmăm la cerere, per comandă. Aducem transmițătoarele INOR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare variantă. Pentru o ofertă corectă, trimiteți codul exact al transmițătorului sau, dacă nu-l aveți, tipul de senzor conectat, dacă aveți nevoie de conectivitate wireless și certificările necesare pentru zona de instalare. Comunicăm prețul doar după ce confirmăm la furnizor disponibilitatea exactă a transmițătorului cerut.`,
     limitation: "Nu confirmăm compatibilitatea directă a transmițătoarelor INOR cu sisteme SCADA deja instalate fără o verificare tehnică punctuală a protocolului de comunicare folosit.",
+    productCodes: [
+      {
+        "code": "APAQ C130",
+        "description": "Transmițător de temperatură montat pe cap, carcasă tip C"
+      },
+      {
+        "code": "APAQ R130",
+        "description": "Transmițător de temperatură montat pe șină, carcasă tip R"
+      },
+      {
+        "code": "IPAQ R530",
+        "description": "Transmițător universal de proces montat pe șină"
+      },
+      {
+        "code": "IPAQ C310RTD",
+        "description": "Transmițător de temperatură pentru senzori RTD, montaj pe cap"
+      },
+      {
+        "code": "IPAQ C530",
+        "description": "Transmițător universal de proces, montaj pe cap de senzor"
+      },
+      {
+        "code": "IPAQ C330",
+        "description": "Transmițător de temperatură compact, montaj pe cap de senzor"
+      },
+      {
+        "code": "IPAQ R330",
+        "description": "Transmițător de temperatură compact, montaj pe șină DIN"
+      },
+      {
+        "code": "IPAQ C202",
+        "description": "Transmițător de temperatură de bază, montaj pe cap de senzor"
+      },
+      {
+        "code": "IPAQ C520",
+        "description": "Transmițător universal de proces, variantă montată pe cap"
+      },
+      {
+        "code": "IPAQ R520",
+        "description": "Transmițător universal de proces, variantă montată pe șină"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între transmițătoarele IPAQ seria C și seria R de la INOR?",
+        "a": "La INOR, litera C din codul unui transmițător, precum IPAQ C530, arată o variantă montată direct pe capul senzorului, într-o cutie de conexiuni. Litera R, ca la IPAQ R530, indică o variantă montată pe șină DIN, în tabloul electric, la distanță de senzor. Funcțional, ambele pot procesa aceleași tipuri de semnal, dar alegerea depinde de spațiul disponibil și de lungimea cablului până la senzor."
+      },
+      {
+        "q": "Ce reprezintă seria APAQ la INOR?",
+        "a": "Seria APAQ reunește transmițătoare de temperatură cu funcții de bază de la INOR, disponibile atât în variantă montată pe cap (APAQ C130), cât și pe șină (APAQ R130). Sunt gândite pentru aplicații unde nu este nevoie de configurare avansată sau de comunicație digitală complexă, ci de o conversie simplă și fiabilă a semnalului de la senzor la un semnal standard, ușor de citit de automat."
+      },
+      {
+        "q": "Livrați transmițătoare INOR în România?",
+        "a": "Da, aducem la comandă transmițătoarele INOR prezentate mai sus; clienții trebuie să aștepte, de obicei, 2-6 săptămâni, în funcție de tipul transmițătorului solicitat. Nu ținem aceste transmițătoare pe raft; codurile și parametrii se bazează pe fișele tehnice publice ale producătorului, fără evidențe proprii legate de stocuri. Când trimiteți solicitarea, spuneți-ne tipul de senzor folosit și tipul de montaj dorit."
+      },
+      {
+        "q": "Ce date sunt necesare pentru o ofertă la un transmițător IPAQ?",
+        "a": "Pentru o ofertă corectă la un transmițător IPAQ, este util să trimiteți tipul de senzor conectat (de exemplu RTD sau termocuplu), domeniul de temperatură sau presiune de măsurat, tipul de montaj dorit - pe cap de senzor sau pe șină DIN - și eventualele cerințe de certificare pentru zone cu risc de explozie. Aceste detalii permit alegerea corectă între seriile APAQ și IPAQ."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://www.inor.com/products/","publisher":"INOR","accessed":"2026-09-25"},
       { title: "INOR - Temperature Transmitters", url: "https://www.inor.com", publisher: "INOR Process Automation AB", accessed: "2026-09-22" },
       { title: "Products - INOR", url: "https://www.inor.com/products/", publisher: "INOR Process Automation AB", accessed: "2026-09-22" }
     ],

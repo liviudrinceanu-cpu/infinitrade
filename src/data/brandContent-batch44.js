@@ -33,11 +33,92 @@ Pentru un integrator sau o hală de producție din România, INVT înseamnă o a
     ],
     infinitrade: `Lucrăm din surse publice ale producătorului și din fișele tehnice publicate de INVT, fără date proprii de stoc pentru gama chineză de convertizoare. Aducem convertizoarele INVT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, tensiunea de alimentare, tipul de sarcină și, dacă e cazul, cerințele de comunicație (Modbus, encoder). Nu promitem disponibilitate permanentă din stoc pentru nicio serie GD, iar pentru aplicațiile critice recomandăm verificarea compatibilității înainte de comandă.`,
     limitation: "Nu putem confirma disponibilitatea service-ului local în garanție al producătorului și nici stocul permanent pentru seriile dedicate (GD100-PV, GD350-19), care se aduc strict la comandă.",
+    productCodes: [
+      {
+        "code": "GD290",
+        "description": "Convertizor de frecvență multifuncțional de joasă tensiune, uz general"
+      },
+      {
+        "code": "GD28",
+        "description": "Convertizor de frecvență flexibil de uz general"
+      },
+      {
+        "code": "GD20",
+        "description": "Convertizor de frecvență cu control vectorial în buclă deschisă"
+      },
+      {
+        "code": "GD20-EU",
+        "description": "Variantă regională a convertizorului GD20 pentru piața europeană"
+      },
+      {
+        "code": "GD20-UL",
+        "description": "Variantă a convertizorului GD20 cu certificare UL"
+      },
+      {
+        "code": "GD20-LA",
+        "description": "Convertizor vectorial de uz general pentru piața Americii Latine"
+      },
+      {
+        "code": "GD270",
+        "description": "Convertizor de frecvență dedicat aplicațiilor de pompe și ventilatoare"
+      },
+      {
+        "code": "GD27",
+        "description": "Convertizor de frecvență inteligent, gamă compactă"
+      },
+      {
+        "code": "GD200A",
+        "description": "Convertizor de frecvență de uz general, gamă extinsă"
+      },
+      {
+        "code": "GD880",
+        "description": "Convertizor de frecvență de înaltă performanță pentru aplicații de inginerie"
+      },
+      {
+        "code": "GD350",
+        "description": "Convertizor de frecvență de înaltă performanță cu protecție IP55"
+      },
+      {
+        "code": "GD350A",
+        "description": "Convertizor de frecvență multifuncțional de înaltă performanță"
+      },
+      {
+        "code": "GD350-UL",
+        "description": "Convertizor de frecvență GD350 cu certificare UL"
+      },
+      {
+        "code": "GD600",
+        "description": "Convertizor de frecvență de înaltă performanță pentru acționare multi-motor"
+      },
+      {
+        "code": "GD800 Pro",
+        "description": "Convertizor de frecvență de inginerie pentru aplicații complexe"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce convertizor de frecvență INVT aleg pentru o pompă sau un ventilator?",
+        "a": "Convertizorul GD270 este dedicat aplicațiilor de pompe și ventilatoare, cu funcții specifice pentru acest tip de sarcină, precum controlul presiunii constante. Pentru un buget mai redus sau aplicații mai simple, convertizorul GD20, cu control vectorial în buclă deschisă, acoperă și el nevoile de bază ale unei pompe centrifuge standard."
+      },
+      {
+        "q": "Ce diferență este între convertizoarele INVT GD350 și GD880?",
+        "a": "GD350 este un convertizor de înaltă performanță cu grad de protecție IP55, potrivit pentru montaj în medii cu praf sau umezeală, fără dulap suplimentar. GD880 este orientat spre aplicații de inginerie mai solicitante, cu funcții avansate de control, recomandat pentru utilaje complexe precum benzi transportoare grele sau instalații miniere."
+      },
+      {
+        "q": "Livrați convertizoare INVT în România?",
+        "a": "Da, convertizoarele INVT se aduc la comandă, pe baza gamei publicate de producător, fără un stoc propriu constituit pentru această marcă. Perioada obișnuită este de 2-6 săptămâni, în funcție de puterea aleasă și de varianta regională a modelului. Recomandăm confirmarea codului exact al seriei GD înainte de a plasa comanda."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de convertizor INVT?",
+        "a": "Este util să precizați puterea motorului acționat, tensiunea de alimentare disponibilă și tipul de sarcină (pompă, ventilator, bandă sau aplicație de ridicare). Aceste detalii permit alegerea corectă între gamele de bază GD20, cele de înaltă performanță GD350 sau GD880, ori variantele regionale certificate UL din portofoliul INVT."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Low Voltage AC Drives","url":"https://www.invt.com/low-voltage-drives","publisher":"INVT Electric","accessed":"2026-09-25"},
       { title: "INVT Electric - Products Center (Variable Frequency Drives)", url: "https://www.invt.com/products", publisher: "INVT Electric Co., Ltd.", accessed: "2026-09-22" },
       { title: "INVT Electric - About Us", url: "https://www.invt.com/about-us", publisher: "INVT Electric Co., Ltd.", accessed: "2026-09-22" },
     ],
@@ -71,11 +152,76 @@ Pentru instalatorii și proiectanții din România, cuplajele Straub sunt utile 
     ],
     infinitrade: `Spunem clar ce putem și ce nu putem confirma: parametrii tehnici pentru cuplajele Straub vin din catalogul oficial al producătorului elvețian, iar disponibilitatea exactă a fiecărui diametru o verificăm abia la cerere, fără date proprii de stoc. Aducem cuplaje Straub la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Pentru o ofertă corectă avem nevoie de diametrul exterior real al conductei, materialul acesteia și presiunea de lucru. Nu promitem disponibilitate permanentă din stoc pentru toate diametrele din gamă, mai ales pentru cele mari, de peste 400 mm.`,
     limitation: "Nu putem confirma stocul permanent pentru diametrele mari (peste 400 mm) și nici configurațiile speciale pentru medii chimice agresive, care necesită verificare directă cu producătorul.",
+    productCodes: [
+      {
+        "code": "STRAUB-GRIP",
+        "description": "Cuplaj cu prindere axială pentru țevi cu diametrul între 25 și 711 mm"
+      },
+      {
+        "code": "STRAUB-GRIP FF",
+        "description": "Variantă cu flanșe a cuplajului cu prindere axială STRAUB-GRIP"
+      },
+      {
+        "code": "STRAUB-METAL-GRIP",
+        "description": "Cuplaj metalic cu prindere axială pentru diametre între 30 și 609 mm"
+      },
+      {
+        "code": "STRAUB-METAL-GRIP FF",
+        "description": "Variantă cu flanșe a cuplajului metalic cu prindere axială"
+      },
+      {
+        "code": "STRAUB-PLAST-GRIP",
+        "description": "Cuplaj cu prindere axială și corp realizat din material plastic"
+      },
+      {
+        "code": "STRAUB-COMBI-GRIP",
+        "description": "Cuplaj cu prindere axială pentru capete de conductă cu diametre diferite"
+      },
+      {
+        "code": "STRAUB-FLEX",
+        "description": "Cuplaj flexibil fără prindere axială, pentru îmbinări fără tensiuni mecanice"
+      },
+      {
+        "code": "STRAUB-OPEN-FLEX",
+        "description": "Cuplaj flexibil cu construcție deschisă pentru diametre foarte mari"
+      },
+      {
+        "code": "STRAUB-STEP-FLEX",
+        "description": "Cuplaj flexibil pentru trecerea între două diametre de conductă diferite"
+      },
+      {
+        "code": "STRAUB-SQUARE-FLEX",
+        "description": "Cuplaj flexibil pentru tubulatură pătrată, cu secțiuni de 60 până la 100 mm"
+      },
+      {
+        "code": "STRAUB-REP-FLEX",
+        "description": "Cuplaj flexibil folosit pentru repararea rapidă a conductelor deteriorate"
+      },
+      {
+        "code": "STRAUB-CLAMP",
+        "description": "Colier de tip clemă, disponibil în variantă dintr-o bucată sau din două bucăți"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între cuplajele STRAUB-GRIP și STRAUB-FLEX?",
+        "a": "STRAUB-GRIP face parte din familia cu prindere axială, adică fixează cele două capete de conductă și preia forțele longitudinale din presiune sau vibrații. STRAUB-FLEX este un cuplaj fără prindere axială, gândit pentru îmbinări care trebuie să rămână libere din punct de vedere mecanic, fără să transmită tensiuni suplimentare între segmente. Alegerea corectă ține de faptul dacă respectiva conductă mai are alt punct de fixare capabil să preia forța axială."
+      },
+      {
+        "q": "Livrați cuplaje STRAUB în România?",
+        "a": "Da, aducem la comandă cuplaje din gamele STRAUB-GRIP, STRAUB-METAL-GRIP sau STRAUB-FLEX, pornind de la diametrul exact al conductei existente. Această gamă de cuplaje nu se află pe stocul propriu; o aducem la comandă, iar timpul obișnuit așteptat este de două până la șase săptămâni, conform informațiilor publice ale producătorului. Recomandăm transmiterea diametrului exterior măsurat direct pe conductă, deoarece multe variante acoperă intervale apropiate de diametru."
+      },
+      {
+        "q": "Ce informații sunt necesare pentru o ofertă de cuplaj STRAUB?",
+        "a": "Este necesar diametrul exterior exact al conductei, măsurat cu o riglă sau o bandă metrică, precum și materialul și grosimea peretelui țevii. Pentru cuplajele cu prindere axială contează și presiunea de lucru a instalației, iar pentru variantele flexibile este util de știut dacă cele două capete au deja alt punct de fixare. O fotografie a zonei de îmbinare ajută la alegerea rapidă a modelului potrivit."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"STRAUB Pipe Couplings","url":"https://www.straub.ch/en/straub-pipe-couplings","publisher":"STRAUB","accessed":"2026-09-25"},
       { title: "STRAUB Pipe Couplings - Product Overview", url: "https://www.straub.ch/en/straub-pipe-couplings", publisher: "STRAUB Werke AG", accessed: "2026-09-22" },
       { title: "STRAUB Werke AG - Company", url: "https://www.straub.ch/en/company", publisher: "STRAUB Werke AG", accessed: "2026-09-22" },
     ],
@@ -110,11 +256,88 @@ Pentru integratorii români de linii automatizate, componentele Güdel sunt rele
     ],
     infinitrade: `Nu deținem date proprii despre stocul componentelor Güdel; ne bazăm pe informațiile publice disponibile pe site-ul producătorului elvețian pentru parametrii tehnici ai fiecărei serii. Aducem la comandă axe liniare, cremaliere și reductoare Güdel prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de sarcina utilă, cursele necesare pe fiecare axă și, pentru reductoare, cuplul și turația de lucru. Nu promitem disponibilitate permanentă din stoc — majoritatea componentelor Güdel se fabrică sau se configurează la comandă, în funcție de proiect.`,
     limitation: "Nu putem confirma termene de livrare mai scurte pentru sistemele TrackMotion configurate pe proiect, nici integrarea software proprietară a controlerelor de mișcare Güdel.",
+    productCodes: [
+      {
+        "code": "TrackMotion Floor (TMF)",
+        "description": "Șină de sol pentru deplasarea robotului industrial, montaj direct pe pardoseală"
+      },
+      {
+        "code": "TMF pentru BiW",
+        "description": "Variantă a șinei de sol TMF adaptată liniilor de caroserie auto"
+      },
+      {
+        "code": "TrackMotion Precision (TMP)",
+        "description": "Șină de sol de înaltă precizie pentru poziționarea robotului"
+      },
+      {
+        "code": "TrackMotion Overhead (TMO)",
+        "description": "Șină suspendată de tavan pentru deplasarea robotului industrial"
+      },
+      {
+        "code": "TrackMotion Vertical (TMV)",
+        "description": "Ax vertical suplimentar pentru extinderea cursei robotului pe verticală"
+      },
+      {
+        "code": "CoboMover Floor (CMF)",
+        "description": "Șină de sol destinată deplasării roboților colaborativi"
+      },
+      {
+        "code": "CoboMover Overhead (CMO)",
+        "description": "Șină suspendată de tavan pentru roboți colaborativi"
+      },
+      {
+        "code": "Portal liniar 1 ax (EP)",
+        "description": "Portal cu un singur ax, gamă largă de sarcini utile"
+      },
+      {
+        "code": "Portal liniar 2 axe (ZP)",
+        "description": "Portal cu două axe pentru mișcare precisă și silențioasă"
+      },
+      {
+        "code": "Portal liniar 3 axe (CP)",
+        "description": "Portal cu trei axe pentru aplicații variate de automatizare"
+      },
+      {
+        "code": "Portal liniar 3 axe (FP)",
+        "description": "Portal de mari dimensiuni pentru sarcini grele pe suprafețe întinse"
+      },
+      {
+        "code": "Reductoare Güdel",
+        "description": "Reductoare unghiulare și planetare de precizie pentru acționarea axelor"
+      },
+      {
+        "code": "Ghidaje liniare Güdel",
+        "description": "Ghidaje liniare pentru sarcini grele sau medii, integrate în porticuri"
+      },
+      {
+        "code": "Cremaliere și pinioane",
+        "description": "Sistem cremalieră-pinion pentru acționarea axelor liniare de cursă mare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între șinele Güdel TMF și TMO?",
+        "a": "TMF este o șină montată pe pardoseală, folosită atunci când robotul trebuie să se deplaseze de-a lungul unei linii de producție la nivelul solului. TMO este varianta suspendată de tavan, aleasă când spațiul de la sol este limitat sau trebuie păstrat liber pentru alte utilaje. Ambele extind cursa robotului industrial dincolo de raza normală de lucru a brațului, dar diferă prin modul de montaj și prin structura de susținere necesară."
+      },
+      {
+        "q": "Livrați echipamente Güdel în România?",
+        "a": "Da, aducem la comandă șine TrackMotion, porticuri liniare EP, ZP, CP sau FP și componente precum cremaliere sau ghidaje, pe baza codului de proiect furnizat de Güdel. Nu păstrăm în depozit componentele Güdel, ci le comandăm punctual, iar durata orientativă anunțată public de producător se situează undeva între două și șase săptămâni. Este utilă transmiterea specificației tehnice complete a axei sau portalului dorit."
+      },
+      {
+        "q": "Ce date trebuie furnizate pentru o ofertă de portal liniar Güdel?",
+        "a": "Sunt necesare cursele dorite pe fiecare axă, sarcina utilă de transportat și viteza sau accelerația impusă de aplicație. Contează și tipul de montaj disponibil în hală, spațiul liber pe verticală și dacă portalul trebuie integrat cu un robot existent sau cu un sistem de control nou. Un desen de ansamblu al zonei de lucru ajută la dimensionarea corectă a structurii."
+      },
+      {
+        "q": "Ce este tehnologia CoboMover de la Güdel?",
+        "a": "CoboMover este familia de șine liniare Güdel gândită special pentru roboți colaborativi, disponibilă atât în variantă de sol, cât și suspendată de tavan. Extinde raza de acțiune a robotului colaborativ păstrând principiile de siguranță specifice acestui tip de robot, fără a necesita îngrădiri suplimentare ample. Este utilizată acolo unde spațiul de lucru trebuie împărțit cu operatori umani în aceeași zonă."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Güdel – Products","url":"https://www.gudel.com/products","publisher":"Güdel","accessed":"2026-09-25"},
       { title: "Güdel - Home", url: "https://www.gudel.com", publisher: "Güdel Group AG", accessed: "2026-09-22" },
       { title: "Güdel - Products", url: "https://www.gudel.com/products", publisher: "Güdel Group AG", accessed: "2026-09-22" },
     ],
@@ -148,11 +371,96 @@ Pentru panourile electrice și dulapurile de automatizare din România, sursele 
     ],
     infinitrade: `Fără date proprii de stoc pentru sursele TDK-Lambda — lucrăm din fișele tehnice publice ale producătorului japonez pentru a stabili seria potrivită fiecărui proiect. Aducem sursele TDK-Lambda la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de puterea necesară, tensiunea de ieșire, tipul de montaj (șină DIN standard sau profil redus) și, dacă e cazul, cerința de certificare pentru zone cu risc de explozie. Nu promitem disponibilitate permanentă din stoc pentru variantele speciale sau pentru puterile mari din seria trifazată.`,
     limitation: "Nu putem confirma stocul permanent pentru variantele certificate Ex (DRF/HL) și nici compatibilitatea directă cu firmware-ul de monitorizare al altor branduri de tablouri electrice.",
+    productCodes: [
+      {
+        "code": "DRB",
+        "description": "Sursă de alimentare pe șină DIN, ieșire unică, până la 480 W"
+      },
+      {
+        "code": "DRB 3 Phase",
+        "description": "Variantă trifazată a seriei DRB pentru puteri mai mari pe șină DIN"
+      },
+      {
+        "code": "DRL",
+        "description": "Sursă de alimentare pe șină DIN, profil redus, până la 100 W"
+      },
+      {
+        "code": "DRF",
+        "description": "Sursă de alimentare pe șină DIN cu randament ridicat, până la 960 W"
+      },
+      {
+        "code": "DRF-HL",
+        "description": "Variantă a seriei DRF certificată pentru zone cu risc de explozie"
+      },
+      {
+        "code": "HWS",
+        "description": "Sursă de alimentare industrială de uz general, între 15 și 1560 W"
+      },
+      {
+        "code": "RWS-B",
+        "description": "Sursă de alimentare de uz general și medical, între 50 și 1500 W"
+      },
+      {
+        "code": "CUS",
+        "description": "Familie de surse de alimentare pentru echipamente medicale și industriale"
+      },
+      {
+        "code": "GUS",
+        "description": "Sursă de alimentare industrială compactă, între 350 și 1000 W"
+      },
+      {
+        "code": "Vega",
+        "description": "Sursă de alimentare modulară industrială, între 300 și 900 W"
+      },
+      {
+        "code": "DDSM",
+        "description": "Convertizor DC-DC izolat pe șină DIN, între 120 și 240 W"
+      },
+      {
+        "code": "i7A",
+        "description": "Convertizor DC-DC neizolat de tip buck, între 400 și 1000 W"
+      },
+      {
+        "code": "i9C",
+        "description": "Convertizor DC-DC neizolat de tip buck-boost, până la 1500 W"
+      },
+      {
+        "code": "EDC",
+        "description": "Convertizor DC-DC programabil cu curent și tensiune constantă, până la 3 kW"
+      },
+      {
+        "code": "GENESYS+",
+        "description": "Sursă de alimentare programabilă de laborator, de la 1 la 22,5 kW"
+      },
+      {
+        "code": "Z+",
+        "description": "Sursă de alimentare programabilă de bancă sau rack, între 200 și 800 W"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între sursele TDK-Lambda DRB și DRF?",
+        "a": "DRB este o gamă de bază de surse pe șină DIN, cu ieșire unică și puteri de până la 480 W, potrivită pentru automatizări industriale obișnuite. DRF adaugă un randament mai ridicat și acoperă puteri mai mari, până la 960 W, existând și varianta DRF-HL certificată pentru zone cu atmosfere potențial explozive. Alegerea depinde de puterea necesară în tablou și de existența unei cerințe de certificare pentru mediu periculos."
+      },
+      {
+        "q": "Livrați surse de alimentare TDK-Lambda în România?",
+        "a": "Da, aducem la comandă surse din gamele DRB, DRF, HWS sau GENESYS+, precum și convertizoare DC-DC precum DDSM sau i7A, pe baza codului complet de catalog. Sursele TDK-Lambda ajung la noi prin comandă directă, fără stoc propriu ținut permanent; termenul anunțat public variază, de obicei, între două și șase săptămâni. Recomandăm confirmarea tensiunii de intrare și de ieșire înainte de solicitarea ofertei."
+      },
+      {
+        "q": "Cum aleg convertizorul DC-DC potrivit dintr-o gamă TDK-Lambda?",
+        "a": "Pornim de la tensiunea de intrare disponibilă în sistem, tensiunea de ieșire necesară și puterea maximă cerută de sarcină, deoarece fiecare familie acoperă intervale diferite de putere. Contează și dacă este nevoie de izolare galvanică între intrare și ieșire, criteriu care separă seriile izolate precum DDSM de cele neizolate precum i7A sau i9C. Montajul, pe șină DIN sau pe placă, influențează și el alegerea gamei potrivite."
+      },
+      {
+        "q": "Ce înseamnă seria GENESYS+ de la TDK-Lambda?",
+        "a": "GENESYS+ este familia de surse de alimentare programabile de putere mare, folosită în laboratoare și în testarea echipamentelor, cu puteri publicate de producător între aproximativ 1 și 22,5 kW. Permite reglarea tensiunii și curentului de ieșire prin panou local sau prin interfețe de comunicație la distanță. Este o alegere folosită acolo unde o sursă fixă de alimentare nu acoperă variația de sarcină necesară în teste."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"TDK-Lambda EMEA – Products","url":"https://www.emea.lambda.tdk.com/uk/products/","publisher":"TDK-Lambda","accessed":"2026-09-25"},
       { title: "TDK-Lambda EMEA - Products", url: "https://www.emea.lambda.tdk.com/uk/products/", publisher: "TDK-Lambda (TDK Corporation)", accessed: "2026-09-22" },
       { title: "TDK-Lambda UK", url: "https://www.emea.lambda.tdk.com/uk", publisher: "TDK-Lambda (TDK Corporation)", accessed: "2026-09-22" },
     ],
@@ -187,11 +495,76 @@ Pentru instalatorii și proiectanții electrici din România, Gewiss e relevant 
     ],
     infinitrade: `Ce putem și ce nu putem confirma ținem separat: parametrii tehnici ai aparatajului Gewiss vin din catalogul oficial al producătorului italian, iar disponibilitatea fiecărui cod o verificăm punctual, fără date proprii de stoc. Aducem aparatajul Gewiss la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de codul de produs sau de parametrii electrici (curent nominal, tensiune, tip de protecție) și de cantitatea necesară. Nu promitem disponibilitate permanentă din stoc, mai ales pentru tablourile configurate pe măsură.`,
     limitation: "Nu putem confirma configurarea software a sistemelor smart home/building Gewiss și nici stocul permanent pentru tablourile QDX/CVX configurate special pentru un proiect.",
+    productCodes: [
+      {
+        "code": "90 MCB",
+        "description": "Întrerupător automat modular din seria 90, protecție la suprasarcină"
+      },
+      {
+        "code": "90 RCD",
+        "description": "Întrerupător diferențial modular din seria 90, protecție la curent rezidual"
+      },
+      {
+        "code": "90 ReStart",
+        "description": "Dispozitiv de reanclanșare automată pentru întrerupătoarele modulare din seria 90"
+      },
+      {
+        "code": "MSX",
+        "description": "Întrerupător automat în carcasă turnată, pentru curenți nominali mari"
+      },
+      {
+        "code": "MSS",
+        "description": "Întrerupător automat în carcasă turnată, variantă din gama MSX"
+      },
+      {
+        "code": "QDX",
+        "description": "Tablou de distribuție modular pentru instalații electrice industriale și terțiare"
+      },
+      {
+        "code": "CVX",
+        "description": "Tablou de distribuție de putere pentru instalații electrice de dimensiuni mari"
+      },
+      {
+        "code": "IEC 309",
+        "description": "Priză și fișă industrială conform standardului IEC 309, variante interblocate"
+      },
+      {
+        "code": "90 AM",
+        "description": "Accesoriu modular auxiliar pentru dispozitivele din seria 90"
+      },
+      {
+        "code": "90 PV",
+        "description": "Accesoriu modular pentru instalații fotovoltaice din seria 90"
+      },
+      {
+        "code": "68 Q-MC",
+        "description": "Piedestal pentru distribuția energiei electrice în spații exterioare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între întrerupătoarele Gewiss MSX și MSS?",
+        "a": "MSX și MSS fac parte din aceeași familie de întrerupătoare automate în carcasă turnată, folosite pentru curenți nominali mari în tablourile electrice industriale. Diferențele dintre cele două variante țin de gama de curenți acoperită și de opțiunile de accesorii disponibile pentru fiecare model. Alegerea corectă se face pornind de la curentul nominal necesar în instalație și de la tipul de protecție impus de proiectul electric."
+      },
+      {
+        "q": "Livrați echipamente Gewiss în România?",
+        "a": "Da, aducem la comandă produse din seria 90, întrerupătoare MSX sau MSS, tablouri QDX și CVX, precum și prize industriale IEC 309, pe baza codului exact de catalog. Pentru produsele Gewiss nu menținem un stoc fix pe raft, aducerea se face la comandă, iar intervalul indicativ merge de la două până la șase săptămâni. Recomandăm menționarea curentului nominal și a tensiunii de lucru pentru identificarea corectă a produsului."
+      },
+      {
+        "q": "Ce parametri sunt necesari pentru o ofertă de tablou electric Gewiss?",
+        "a": "Este utilă puterea totală instalată sau curentul nominal necesar, numărul de circuite plecate din tablou și tipul de montaj, aparent sau îngropat. Contează și gradul de protecție cerut de mediul de instalare, precum și dacă tabloul trebuie să includă protecție diferențială pentru fiecare circuit în parte. O schemă electrică, chiar și simplificată, grăbește pregătirea unei oferte corecte."
+      },
+      {
+        "q": "Ce este funcția ReStart la întrerupătoarele Gewiss seria 90?",
+        "a": "ReStart este un dispozitiv de reanclanșare automată montat pe întrerupătoarele modulare din seria 90, care încearcă repornirea circuitului după o declanșare, în anumite condiții predefinite. Este util în instalații greu accesibile sau la distanță, unde o resetare manuală imediată nu este mereu posibilă. Funcționarea rămâne condiționată de tipul de defect detectat, pentru a evita reanclanșarea în cazul unui scurtcircuit persistent."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Gewiss – Home","url":"https://www.gewiss.com/ww/en/products","publisher":"Gewiss","accessed":"2026-09-25"},
       { title: "Gewiss - Home", url: "https://www.gewiss.com/", publisher: "Gewiss S.p.A.", accessed: "2026-09-22" },
       { title: "Gewiss International", url: "https://www.gewiss.com", publisher: "Gewiss S.p.A.", accessed: "2026-09-22" },
     ],
@@ -225,11 +598,81 @@ Pentru fabricile din România cu proces continuu — industrie alimentară, text
     ],
     infinitrade: `Nu ținem produse Ferroli pe stoc propriu; informațiile despre gama de generatoare de abur vin din surse publice ale producătorului italian. Aducem generatoare VAPOPREX la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare — pentru echipamente de capacitate mare, termenul poate fi mai lung, se confirmă punctual. Pentru o ofertă corectă avem nevoie de capacitatea de abur necesară (kg/h), presiunea de lucru și tipul de combustibil disponibil pe amplasament. Nu promitem disponibilitate permanentă din stoc pentru niciuna dintre variantele VAPOPREX.`,
     limitation: "Nu putem confirma termenul de livrare pentru generatoare de abur de capacitate mare configurate special și nici service-ul în garanția producătorului pentru instalarea și punerea în funcțiune.",
+    productCodes: [
+      {
+        "code": "VAPOPREX 3GN",
+        "description": "Generator de abur cu trei drumuri de fum, 1600-25000 kg/h, 12 bar"
+      },
+      {
+        "code": "VAPOPREX HVP",
+        "description": "Generator de abur de presiune medie, 1500-5000 kg/h, 12 bar"
+      },
+      {
+        "code": "VAPOPREX LVP",
+        "description": "Generator de abur de joasă presiune, 1500-4000 kg/h, 1 bar"
+      },
+      {
+        "code": "VP 3G",
+        "description": "Generator de abur din gama industrială Ferroli, presiune medie"
+      },
+      {
+        "code": "FHFp",
+        "description": "Cazan cu ulei diatermic pentru încălzirea industrială a proceselor de producție"
+      },
+      {
+        "code": "ELICOIL NO",
+        "description": "Încălzitor cu ulei diatermic, construcție cu serpentină elicoidală"
+      },
+      {
+        "code": "Colector de abur",
+        "description": "Colector pentru distribuția aburului către mai mulți consumatori din instalație"
+      },
+      {
+        "code": "Supraîncălzitor de abur",
+        "description": "Echipament pentru ridicarea temperaturii aburului saturat produs de cazan"
+      },
+      {
+        "code": "Cazane cu apă supraîncălzită",
+        "description": "Cazane pentru producerea apei calde la temperaturi peste punctul de fierbere"
+      },
+      {
+        "code": "Cazane cu apă caldă industriale",
+        "description": "Cazane pentru încălzirea proceselor industriale cu apă caldă sub presiune"
+      },
+      {
+        "code": "Preparatoare de apă caldă",
+        "description": "Echipamente pentru prepararea apei calde menajere sau tehnologice"
+      },
+      {
+        "code": "Module termice",
+        "description": "Module compacte pentru producerea agentului termic în aplicații industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între generatoarele Ferroli VAPOPREX HVP și VAPOPREX LVP?",
+        "a": "VAPOPREX HVP este un generator de abur de presiune medie, proiectat pentru o presiune de lucru de până la 12 bar și capacități între 1500 și 5000 kg de abur pe oră. VAPOPREX LVP funcționează la joasă presiune, până la 1 bar, fiind potrivit pentru procese care nu necesită abur la presiune ridicată. Alegerea între cele două depinde direct de cerința de presiune a instalației industriale deservite."
+      },
+      {
+        "q": "Livrați generatoare de abur Ferroli în România?",
+        "a": "Da, aducem la comandă generatoare din gama VAPOPREX, precum și cazane cu ulei diatermic sau cu apă caldă industrială, pe baza codului sau modelului solicitat. Cazanele și generatoarele Ferroli se comandă punctual, fără a fi păstrate în depozit propriu, iar așteptarea uzuală anunțată de producător este cuprinsă între două și șase săptămâni. Menționarea capacității dorite, exprimată în kilograme de abur pe oră, grăbește pregătirea unei oferte corecte."
+      },
+      {
+        "q": "Ce date sunt utile pentru o ofertă de cazan industrial Ferroli?",
+        "a": "Contează capacitatea necesară, exprimată în kilograme de abur pe oră sau în putere termică, presiunea de lucru cerută de proces și tipul de combustibil disponibil, gaz sau motorină. Este utilă și informația despre spațiul disponibil pentru instalare și despre coșul de evacuare existent, dacă echipamentul înlocuiește un cazan mai vechi. Aceste date permit alegerea corectă între gamele de presiune medie sau joasă."
+      },
+      {
+        "q": "Ce este un cazan cu ulei diatermic precum FHFp?",
+        "a": "Un cazan cu ulei diatermic încălzește un fluid termic special, în locul apei sau aburului, folosit apoi pentru transferul de căldură către procesele industriale. Modelul FHFp face parte din gama Ferroli de echipamente cu ulei diatermic, alături de variante precum ELICOIL NO, cu construcție pe bază de serpentină. Aceste sisteme funcționează de obicei în circuit închis, la presiuni mai reduse decât cazanele de abur."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Ferroli – Cazane de abur","url":"https://www.ferroli.com/ro/products/cazane-de-abur","publisher":"Ferroli","accessed":"2026-09-25"},
+      {"title":"Ferroli Group","url":"https://www.ferroligroup.com/en","publisher":"Ferroli","accessed":"2026-09-25"},
       { title: "Ferroli Group - Company Profile", url: "https://www.ferroligroup.com/en", publisher: "Ferroli S.p.A.", accessed: "2026-09-22" },
       { title: "Ferroli România - Cazane de Abur (VAPOPREX)", url: "https://www.ferroli.com/ro/products/cazane-de-abur", publisher: "Ferroli S.p.A.", accessed: "2026-09-22" },
     ],
@@ -264,11 +707,93 @@ Pentru echipele de mentenanță din România, Interflon e relevant acolo unde in
     ],
     infinitrade: `Fără date proprii despre volumele de stoc Interflon — ne ghidăm după fișele tehnice publicate de producătorul olandez pentru a recomanda produsul potrivit fiecărei aplicații. Aducem uleiuri și unsori Interflon la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Pentru o ofertă corectă avem nevoie de tipul de echipament, condițiile de lucru (temperatură, expunere la apă) și, dacă e cazul, cerința de grad alimentar. Nu promitem disponibilitate permanentă din stoc pentru toate ambalajele și vâscozitățile din gamă.`,
     limitation: "Nu putem confirma disponibilitatea permanentă a tuturor ambalajelor (bidon, butoi, cartuș) pentru fiecare produs și nici programele de consultanță de lubrifiere oferite direct de producător.",
+    productCodes: [
+      {
+        "code": "Fin Super",
+        "description": "Lubrifiant uscat, aditivat cu particule MicPol, peliculă subțire de protecție"
+      },
+      {
+        "code": "Fin Grease",
+        "description": "Unsoare multifuncțională sub formă de aerosol, cu certificare alimentară"
+      },
+      {
+        "code": "Food Grease",
+        "description": "Unsoare multifuncțională cu certificare alimentară, pentru echipamente din industria alimentară"
+      },
+      {
+        "code": "Ulei Hidraulic",
+        "description": "Ulei hidraulic disponibil în vâscozități ISO VG 32, 46 și 68"
+      },
+      {
+        "code": "Ulei pentru Transmisii",
+        "description": "Ulei pentru angrenaje și cutii de viteze, vâscozități ISO VG 100 până la 680"
+      },
+      {
+        "code": "Ulei Pneumatic",
+        "description": "Ulei pentru unelte și echipamente acționate cu aer comprimat"
+      },
+      {
+        "code": "Ulei Sigur pentru Alimente",
+        "description": "Ulei cu certificare NSF, pentru utilizare în industria alimentară"
+      },
+      {
+        "code": "Ulei Uscat Spray",
+        "description": "Lubrifiant sub formă de spray, pentru lanțuri și piese mobile"
+      },
+      {
+        "code": "Unsoare Temperaturi Înalte",
+        "description": "Unsoare formulată pentru funcționare la temperaturi ridicate de lucru"
+      },
+      {
+        "code": "Unsoare Rezistentă la Apă",
+        "description": "Unsoare cu rezistență ridicată la spălare și la umiditate"
+      },
+      {
+        "code": "Unsoare Temperaturi Joase",
+        "description": "Unsoare formulată pentru funcționare la temperaturi scăzute de lucru"
+      },
+      {
+        "code": "Unsoare Presiune Înaltă",
+        "description": "Unsoare pentru lagăre și componente supuse unor sarcini ridicate"
+      },
+      {
+        "code": "Unsoare de Asamblare",
+        "description": "Unsoare folosită la montajul componentelor mecanice pentru protecție și lubrifiere"
+      },
+      {
+        "code": "Interflon Lube EPR",
+        "description": "Lubrifiant destinat ungerii joncțiunilor de șină la calea ferată"
+      },
+      {
+        "code": "OilSafe",
+        "description": "Sistem de identificare și manipulare standardizată a lubrifianților în depozit"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între Fin Super și Fin Grease de la Interflon?",
+        "a": "Fin Super este un lubrifiant uscat sub formă de spray, care lasă o peliculă subțire de protecție și este folosit pe lanțuri sau mecanisme greu accesibile. Fin Grease este o unsoare multifuncțională, tot sub formă de aerosol, potrivită pentru lagăre și componente care necesită o peliculă mai groasă și rezistență mai mare la spălare. Ambele produse folosesc tehnologia de particule MicPol dezvoltată de Interflon pentru reducerea frecării."
+      },
+      {
+        "q": "Livrați lubrifianți Interflon în România?",
+        "a": "Da, aducem la comandă produse din gama Interflon, de la uleiuri hidraulice și pentru transmisii, până la unsori multifuncționale precum Fin Grease sau Food Grease. Lubrifianții Interflon nu sunt ținuți permanent pe raft la noi, ci sunt aduși la cerere, cu un termen orientativ de aproximativ două până la șase săptămâni. Recomandăm precizarea aplicației exacte, deoarece unele variante au certificare specifică pentru industria alimentară."
+      },
+      {
+        "q": "Ce este certificarea pentru industria alimentară la unsorile Interflon?",
+        "a": "Anumite produse Interflon, precum Food Grease sau uleiurile sigure pentru alimente, sunt formulate și certificate pentru utilizare în zone unde există risc de contact accidental cu produsele alimentare. Această certificare este emisă de organisme independente specializate în siguranța alimentară și se aplică unei părți din gama de uleiuri și unsori a producătorului. Fișa tehnică a fiecărui produs indică exact tipul de certificare deținut."
+      },
+      {
+        "q": "Ce informații ajută la pregătirea unei oferte de unsoare Interflon?",
+        "a": "Este utilă informația despre tipul de lagăr sau mecanism lubrifiat, intervalul de temperatură de funcționare și dacă echipamentul este expus la apă sau la spălări frecvente. Contează și dacă aplicația impune o certificare alimentară, situație în care recomandăm produse precum Food Grease din gama Interflon. Cantitatea aproximativă necesară ajută la alegerea formatului potrivit de ambalare."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Interflon – Products","url":"https://interflon.com/products","publisher":"Interflon","accessed":"2026-09-25"},
+      {"title":"Interflon – Oils","url":"https://interflon.com/products/oils","publisher":"Interflon","accessed":"2026-09-25"},
       { title: "Interflon - Products Overview", url: "https://interflon.com/products", publisher: "Interflon", accessed: "2026-09-22" },
       { title: "Interflon - Oils", url: "https://interflon.com/products/oils", publisher: "Interflon", accessed: "2026-09-22" },
     ],
@@ -303,11 +828,80 @@ Pentru integratorii români de echipamente compacte — mașini medicale, sistem
     ],
     infinitrade: `Spunem deschis ce putem și ce nu putem confirma pentru motoarele Crouzet: parametrii electrici și mecanici sunt din catalogul oficial al producătorului francez, iar stocul exact se verifică la fiecare comandă, fără date proprii de disponibilitate. Aducem motoarele Crouzet la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de motor (brush sau brushless), cuplul și turația necesare, tensiunea de alimentare și, dacă e cazul, cerința de certificare specifică industriei. Nu promitem disponibilitate permanentă din stoc pentru variantele programabile configurate special.`,
     limitation: "Nu putem confirma programarea software a motoarelor SMi21/SMi22 pentru aplicația finală a clientului și nici stocul permanent pentru variantele certificate aerospațial sau feroviar.",
+    productCodes: [
+      {
+        "code": "Hall Effect 57mm",
+        "description": "Motor brushless cu senzor Hall, putere între 45 și 200 W"
+      },
+      {
+        "code": "TNi21",
+        "description": "Motor brushless cu control integrat de viteză și cuplu, cadru 57 mm"
+      },
+      {
+        "code": "SMi21",
+        "description": "Motor brushless programabil cu encoder integrat de 4096 puncte, cadru 57 mm"
+      },
+      {
+        "code": "SMi22",
+        "description": "Motor brushless programabil, cadru 75 mm, cu comunicație CANopen"
+      },
+      {
+        "code": "DC 32mm Industrial",
+        "description": "Motor DC cu perii, compact, putere între 0,9 și 9 W"
+      },
+      {
+        "code": "DC 42mm Industrial",
+        "description": "Motor DC cu perii de uz general, putere între 9 și 33 W"
+      },
+      {
+        "code": "DC 63mm Industrial",
+        "description": "Motor DC cu perii, cuplu ridicat, putere între 27 și 95 W"
+      },
+      {
+        "code": "DC 42mm Low Noise",
+        "description": "Motor DC cu funcționare silențioasă, la 35 dBA, protecție IP65"
+      },
+      {
+        "code": "DC 63mm Low Noise",
+        "description": "Motor DC silențios, durată de funcționare de până la 5000 de ore"
+      },
+      {
+        "code": "Reductoare Crouzet",
+        "description": "Reductoare cu axe paralele, planetare sau melcate pentru motoarele DC"
+      },
+      {
+        "code": "Frâne electromagnetice",
+        "description": "Frâne electromagnetice de reținere pentru motoarele Crouzet"
+      },
+      {
+        "code": "Encodere integrate",
+        "description": "Encodere cu rezoluție de 4096 puncte, integrabile pe motoarele Crouzet"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între motoarele Crouzet SMi21 și SMi22?",
+        "a": "SMi21 are un cadru de 57 mm și acoperă puteri între 66 și 150 W, cu encoder integrat de 4096 de puncte și posibilitate de programare prin software dedicat. SMi22 folosește un cadru mai mare, de 75 mm, ajungând la puteri de până la 600 W și adăugând comunicație CANopen pentru integrarea în rețele de automatizare. Alegerea depinde de cuplul necesar și de tipul de rețea de control folosit."
+      },
+      {
+        "q": "Livrați motoare Crouzet în România?",
+        "a": "Da, aducem la comandă motoare brushless și motoare DC cu perii din gama Crouzet, de la seria Hall Effect până la variantele programabile SMi21 și SMi22. Motoarele Crouzet nu fac parte din stocul nostru curent; le procurăm la comandă, iar durata tipică menționată public este între două și șase săptămâni. Este utilă precizarea puterii, turației și tipului de flanșă necesar pentru montaj."
+      },
+      {
+        "q": "Ce trebuie menționat pentru o ofertă de motor Crouzet?",
+        "a": "Sunt necesare puterea sau cuplul necesar aplicației, tensiunea de alimentare disponibilă și turația de lucru dorită, precum și tipul de montaj sau flanșă existent pe echipament. Dacă este nevoie de poziționare precisă, contează și dacă se dorește un encoder integrat sau o frână electromagnetică de reținere. Aceste informații permit alegerea între motoarele brushless și cele cu perii din gama Crouzet."
+      },
+      {
+        "q": "Ce înseamnă seria Low Noise la motoarele DC Crouzet?",
+        "a": "Seria Low Noise cuprinde motoare DC cu perii, construite cu contacte auto-curățătoare și un nivel de zgomot redus, în jur de 35 dBA la varianta de 42 mm. Sunt disponibile în cadre de 42 și 63 mm, cu protecție IP65 și durate de funcționare extinse față de motoarele DC standard din gamă. Sunt alese pentru echipamente amplasate în spații unde zgomotul de funcționare contează."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Crouzet – DC Motors","url":"https://www.crouzet.com/products/dc-motors","publisher":"Crouzet","accessed":"2026-09-25"},
       { title: "Crouzet - About Us", url: "https://www.crouzet.com/about-us", publisher: "Crouzet SAS", accessed: "2026-09-22" },
       { title: "Crouzet - DC Motors", url: "https://www.crouzet.com/products/dc-motors", publisher: "Crouzet SAS", accessed: "2026-09-22" },
     ],
@@ -343,11 +937,76 @@ Pentru laboratoarele de testare și producătorii de electronice din România, R
     ],
     infinitrade: `Nu avem date proprii de stoc pentru aparatura Rohde & Schwarz; ne bazăm pe informațiile publice disponibile pe site-ul producătorului german pentru a identifica seria potrivită. Aducem aparatura Rohde & Schwarz la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (osciloscop, analizor de spectru, testare EMC), domeniul de frecvență necesar și, dacă e cazul, standardul de certificare vizat. Nu promitem disponibilitate permanentă din stoc, mai ales pentru instrumentele configurate cu opțiuni software specifice.`,
     limitation: "Nu putem confirma calibrarea metrologică acreditată local și nici configurarea software avansată a instrumentelor pentru aplicații de testare specifice clientului.",
+    productCodes: [
+      {
+        "code": "MXO 3",
+        "description": "Osciloscop compact cu 4 sau 8 canale, echilibrat între performanță și preț"
+      },
+      {
+        "code": "MXO 4",
+        "description": "Osciloscop din generația nouă, cu ecran mare și interfață tactilă"
+      },
+      {
+        "code": "FSW",
+        "description": "Analizor de semnal și spectru de clasă înaltă, pentru aplicații RF avansate"
+      },
+      {
+        "code": "SMW200A",
+        "description": "Generator de semnal vectorial pentru testarea sistemelor de comunicații"
+      },
+      {
+        "code": "Amplificatoare RF",
+        "description": "Amplificatoare de putere pentru aplicații RF și de microunde"
+      },
+      {
+        "code": "Echipamente de testare EMC",
+        "description": "Echipamente pentru testarea imunității și emisiilor electromagnetice ale produselor"
+      },
+      {
+        "code": "Testare rețele mobile",
+        "description": "Echipamente pentru testarea rețelelor mobile pe întregul ciclu de viață"
+      },
+      {
+        "code": "Sisteme de testare antene",
+        "description": "Camere și sisteme pentru testarea antenelor over-the-air"
+      },
+      {
+        "code": "Surse de alimentare de laborator",
+        "description": "Surse de alimentare pentru aplicații educaționale și de producție"
+      },
+      {
+        "code": "Wattmetre RF",
+        "description": "Instrumente de măsurare a puterii pentru semnale RF și de microunde"
+      },
+      {
+        "code": "Testere dispozitive wireless",
+        "description": "Echipamente pentru testarea RF, protocol și conformitate a dispozitivelor wireless"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între osciloscoapele Rohde & Schwarz MXO 3 și MXO 4?",
+        "a": "MXO 3 este gândit ca o soluție compactă, disponibilă în variante cu 4 sau 8 canale, orientată spre un raport bun între performanță și preț. MXO 4 face parte din generația mai nouă de osciloscoape ale producătorului, cu un ecran mai mare și o interfață tactilă gândită pentru diagnosticarea rapidă a semnalelor. Alegerea între cele două depinde de numărul de canale necesar și de bugetul disponibil pentru proiect."
+      },
+      {
+        "q": "Livrați echipamente de măsură Rohde & Schwarz în România?",
+        "a": "Da, aducem la comandă osciloscoape din gama MXO, analizoare de semnal și spectru din familia FSW, precum și generatoare de semnal precum SMW200A, pe baza codului exact solicitat. Instrumentele Rohde & Schwarz sunt procurate la cerere, fără a fi depozitate în avans; termenul obișnuit comunicat public se întinde pe două până la șase săptămâni. Recomandăm precizarea benzii de frecvență și a numărului de canale necesare."
+      },
+      {
+        "q": "Ce detalii sunt necesare pentru o ofertă de analizor de spectru?",
+        "a": "Contează banda de frecvență necesară aplicației, rezoluția și sensibilitatea dorite, precum și dacă analizorul trebuie să acopere și funcții de analiză vectorială a semnalului. Este utilă și informația despre standardul de comunicație testat, dacă este cazul, deoarece unele configurații FSW includ opțiuni software dedicate. Aceste detalii permit alegerea corectă a modelului și a opțiunilor necesare."
+      },
+      {
+        "q": "Ce este un generator de semnal vectorial precum SMW200A de la Rohde & Schwarz?",
+        "a": "Un generator de semnal vectorial produce forme de undă complexe, modulate digital, folosite pentru testarea receptoarelor și a sistemelor de comunicații fără fir. SMW200A acoperă o gamă largă de standarde de modulație și este folosit atât în dezvoltare, cât și în producția de echipamente radio. Se deosebește de un generator analog simplu prin capacitatea de a genera semnale complexe, apropiate de condițiile reale de funcționare."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Rohde & Schwarz – Test and Measurement","url":"https://www.rohde-schwarz.com/products/test-and-measurement","publisher":"Rohde & Schwarz","accessed":"2026-09-25"},
       { title: "Rohde & Schwarz - Home", url: "https://www.rohde-schwarz.com", publisher: "Rohde & Schwarz GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Rohde & Schwarz", url: "https://en.wikipedia.org/wiki/Rohde_%26_Schwarz", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -384,11 +1043,84 @@ Pentru echipele de mentenanță din România, camerele FLIR sunt relevante la in
     ],
     infinitrade: `Fără date proprii de stoc pentru camerele FLIR — verificăm disponibilitatea la fiecare cerere, pe baza informațiilor publice ale producătorului. Aducem camerele FLIR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (inspecție portabilă, detecție gaze sau monitorizare fixă), rezoluția termică necesară și domeniul de temperatură de măsurat. Nu promitem disponibilitate permanentă din stoc pentru modelele din seriile mai specializate, precum cele de detecție a gazelor.`,
     limitation: "Nu putem confirma calibrarea metrologică locală și nici service-ul în garanția producătorului pentru camerele de termoviziune FLIR aduse prin canale de aprovizionare din UE.",
+    productCodes: [
+      {
+        "code": "iXX Series",
+        "description": "Cameră termică pentru inspecții, controlată prin aplicație mobilă"
+      },
+      {
+        "code": "T Series",
+        "description": "Cameră termică profesională pentru inspecții industriale de precizie"
+      },
+      {
+        "code": "Exx Series",
+        "description": "Cameră termică portabilă complet echipată, pentru diverse bugete"
+      },
+      {
+        "code": "Ex Pro Series",
+        "description": "Cameră termică cu rezoluție de 320 x 240 și imagine MSX"
+      },
+      {
+        "code": "Si2 Series",
+        "description": "Cameră de imagistică acustică pentru detectarea scurgerilor de aer comprimat"
+      },
+      {
+        "code": "Si2X Series",
+        "description": "Cameră acustică certificată ATEX, pentru scurgeri de gaz și descărcări parțiale"
+      },
+      {
+        "code": "Si1-LD",
+        "description": "Cameră acustică pentru localizarea scurgerilor din sisteme de aer comprimat"
+      },
+      {
+        "code": "G306",
+        "description": "Cameră pentru imagistica optică a gazelor, dedicată hexafluorurii de sulf"
+      },
+      {
+        "code": "G346",
+        "description": "Cameră pentru imagistica optică a gazelor, dedicată monoxidului de carbon"
+      },
+      {
+        "code": "G304",
+        "description": "Cameră pentru imagistica optică a gazelor, dedicată hidrofluorocarburilor"
+      },
+      {
+        "code": "Assetlink",
+        "description": "Platformă software pentru organizarea activelor și generarea automată de rapoarte"
+      },
+      {
+        "code": "Ignite",
+        "description": "Serviciu cloud pentru stocarea imaginilor termice și generarea de rapoarte"
+      },
+      {
+        "code": "Thermal Studio Suite",
+        "description": "Software desktop pentru analiza și raportarea imaginilor termice"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între camerele FLIR Si2 și Si2X?",
+        "a": "Si2 este o cameră de imagistică acustică folosită pentru localizarea scurgerilor din sistemele de aer comprimat, într-un mediu industrial obișnuit. Si2X adaugă certificare ATEX, fiind gândită pentru zone cu risc de explozie, unde poate detecta și scurgeri de gaz sau descărcări parțiale, pe lângă scurgerile de aer comprimat. Alegerea dintre cele două depinde de clasificarea zonei în care va fi folosit echipamentul."
+      },
+      {
+        "q": "Livrați camere termice FLIR în România?",
+        "a": "Da, aducem la comandă camere termice din gamele iXX, T Series sau Exx, precum și camere pentru imagistica gazelor din seria G, pe baza modelului exact solicitat. Camerele FLIR ajung la comandă, noi nepăstrând un stoc pregătit dinainte, iar orizontul uzual de așteptare, conform surselor publice, este de două-șase săptămâni. Recomandăm precizarea aplicației, inspecție electrică, mecanică sau detecție de gaze, pentru recomandarea modelului potrivit."
+      },
+      {
+        "q": "Ce date contează pentru o ofertă de cameră termică FLIR?",
+        "a": "Contează tipul de inspecție dorit, electrică, mecanică sau de clădiri, distanța obișnuită față de obiectul măsurat și dacă este necesară rezoluția termică ridicată pentru detalii fine. Este util de menționat dacă echipamentul va fi folosit și pentru raportare automată sau integrare cu un software de gestiune a activelor precum Assetlink. Aceste informații ajută la alegerea între gamele iXX, T Series sau Exx."
+      },
+      {
+        "q": "Ce diferență este între camerele FLIR din seria G pentru detecția gazelor?",
+        "a": "Modelele G306, G346 și G304 din seria G sunt camere pentru imagistica optică a gazelor, fiecare optimizată pentru un tip diferit de gaz țintă, precum hexafluorura de sulf, monoxidul de carbon sau hidrofluorocarburile. Diferența principală dintre ele ține de sensibilitatea spectrală a senzorului, calibrată pentru gazul respectiv, nu de construcția generală a camerei. Alegerea corectă depinde de gazul pe care instalația trebuie să îl monitorizeze."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"FLIR – Industrial Products","url":"https://www.flir.com/browse/industrial/","publisher":"FLIR (Teledyne FLIR)","accessed":"2026-09-25"},
       { title: "Teledyne FLIR - Home", url: "https://www.flir.com", publisher: "Teledyne FLIR LLC", accessed: "2026-09-22" },
       { title: "FLIR Systems", url: "https://en.wikipedia.org/wiki/FLIR_Systems", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -420,11 +1152,77 @@ Pentru instalațiile industriale de risc ridicat din România — depozite de co
     ],
     infinitrade: `Nu deținem surse proprii de stoc pentru detectoarele Spectrex; lucrăm din surse publice ale producătorului, parte azi din portofoliul Emerson. Aducem detectoarele Spectrex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de risc de acoperit (flacără sau gaz), dimensiunea și configurația zonei protejate. Nu promitem disponibilitate permanentă din stoc — sistemele de detecție cu rază deschisă se configurează de regulă pe proiect, în funcție de amplasament.`,
     limitation: "Nu putem confirma certificările specifice de zonă explozivă (ATEX, FM, CSA) pentru fiecare model fără verificare directă cu producătorul și nici punerea în funcțiune pe amplasament.",
+    productCodes: [
+      {
+        "code": "20/20Q",
+        "description": "Detector de flacără din gama compactă Spectrex 20/20"
+      },
+      {
+        "code": "20/20MI",
+        "description": "Detector de flacără triplu IR, în variantă miniaturală"
+      },
+      {
+        "code": "20/20MPI",
+        "description": "Detector de flacără triplu IR, pentru aplicații comerciale"
+      },
+      {
+        "code": "20/20ML",
+        "description": "Detector de flacără miniatural UV/IR pentru spații reduse"
+      },
+      {
+        "code": "40/40D",
+        "description": "Detector de flacără multi-spectru din platforma QuadSense, detecție la distanță mare"
+      },
+      {
+        "code": "40/40DI",
+        "description": "Detector de flacără triplu IR din platforma QuadSense, pentru hidrocarburi și hidrogen"
+      },
+      {
+        "code": "40/40DUV",
+        "description": "Detector de flacără UV/IR ultrarapid, pentru scenarii de incendiu complexe"
+      },
+      {
+        "code": "40/40C",
+        "description": "Detector de flacără SharpEye compact, pentru spații cu montaj limitat"
+      },
+      {
+        "code": "40/40C-L4B",
+        "description": "Detector de flacără UV/IR integrat, din familia SharpEye 40/40"
+      },
+      {
+        "code": "Detectoare de gaze Spectrex",
+        "description": "Gamă de detectoare pentru gaze inflamabile și toxice"
+      },
+      {
+        "code": "Soluții de stingere Spectrex",
+        "description": "Sisteme de stingere integrate cu detecția de flacără și gaze"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între detectoarele Spectrex 40/40DI și 40/40DUV?",
+        "a": "40/40DI este un detector triplu IR din platforma QuadSense, orientat spre detecția incendiilor cu hidrocarburi sau hidrogen în rafinării și instalații petrochimice. 40/40DUV combină detecția UV cu cea IR pentru un răspuns foarte rapid, potrivit scenariilor complexe, cu amestecuri de combustibili sau radiație de fond ridicată. Alegerea între cele două depinde de tipul de combustibil prezent și de viteza de răspuns cerută de proiect."
+      },
+      {
+        "q": "Livrați detectoare de flacără Spectrex în România?",
+        "a": "Da, aducem la comandă detectoare din gamele 20/20 și 40/40 SharpEye, pe baza codului exact de model publicat de Emerson pentru linia Spectrex. Detectoarele Spectrex nu sunt ținute pe stoc la noi; sunt comandate individual, cu un termen estimat, pe baza informațiilor publice, de două până la șase săptămâni. Recomandăm precizarea zonei de instalare și a clasificării de siguranță impuse de proiect."
+      },
+      {
+        "q": "Ce informații sunt cerute pentru o ofertă de detector Spectrex?",
+        "a": "Sunt necesare tipul de combustibil sau proces monitorizat, distanța de detecție dorită și clasificarea zonei periculoase în care va fi montat echipamentul. Contează și dacă instalația necesită integrare cu un sistem existent de detecție și stingere sau funcționare independentă. Aceste informații ajută la alegerea între familiile 20/20 și 40/40 din gama Spectrex, în funcție de riscul specific al procesului."
+      },
+      {
+        "q": "Ce este platforma QuadSense de la Spectrex?",
+        "a": "QuadSense este platforma de detecție multi-spectru folosită de seria 40/40D de la Spectrex, gândită pentru acoperire mare și răspuns rapid în aplicații industriale cu risc ridicat. Combină mai multe canale de detecție pentru a reduce alarmele false, comparativ cu detectoarele cu un singur tip de senzor. Este recomandată pentru zone unde falsele alarme ar opri inutil un proces de producție costisitor."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Spectrex – Emerson Measurement & Instrumentation","url":"https://www.emerson.com/en/measurement-instrumentation/spectrex","publisher":"Emerson (Spectrex)","accessed":"2026-09-25"},
+      {"title":"Spectrex 40/40 Series Flame Detector","url":"https://www.emerson.com/en/measurement-instrumentation/products/spectrex-40-40-series-flame-detector","publisher":"Emerson (Spectrex)","accessed":"2026-09-25"},
       { title: "Spectrex - Emerson Measurement Instrumentation", url: "https://www.emerson.com/en/measurement-instrumentation/spectrex", publisher: "Emerson Electric Co.", accessed: "2026-09-22" },
       { title: "Emerson Measurement Instrumentation", url: "https://www.emerson.com/en/measurement-instrumentation", publisher: "Emerson Electric Co.", accessed: "2026-09-22" },
     ],
@@ -461,11 +1259,92 @@ Pentru laboratoarele de testare și liniile de producție din România, produsel
     ],
     infinitrade: `Ce putem și ce nu putem confirma pentru gama HBM ținem transparent: parametrii tehnici vin din catalogul producătorului german, iar stocul exact se verifică punctual, fără date proprii de disponibilitate. Aducem traductoarele HBM la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de traductor (celulă de sarcină, cuplu, extensometru), capacitatea/sarcina maximă și, pentru sistemele de achiziție, numărul de canale necesare. Nu promitem disponibilitate permanentă din stoc pentru sistemele configurate cu software de analiză specific.`,
     limitation: "Nu putem confirma configurarea software a sistemelor de achiziție QuantumX/MGCplus pentru aplicația finală a clientului și nici calibrarea metrologică acreditată local pentru traductoarele livrate.",
+    productCodes: [
+      {
+        "code": "QuantumX",
+        "description": "Sistem universal de achiziție de date pentru măsurări multicanal"
+      },
+      {
+        "code": "SomatXR",
+        "description": "Sistem de achiziție de date robust, pentru medii dure de testare"
+      },
+      {
+        "code": "MGCplus",
+        "description": "Sistem de achiziție de date cu un număr mare de canale"
+      },
+      {
+        "code": "Genesis HighSpeed",
+        "description": "Sistem de achiziție de date de mare viteză, tip recorder tranzitoriu"
+      },
+      {
+        "code": "PMX",
+        "description": "Sistem industrial de achiziție de date pentru aplicații de tip IoT"
+      },
+      {
+        "code": "Celule de sarcină Single Point",
+        "description": "Celule de sarcină pentru construcția platformelor de cântărire"
+      },
+      {
+        "code": "Celule de sarcină Beam",
+        "description": "Celule de sarcină cu încovoiere, pentru aplicații de cântărire"
+      },
+      {
+        "code": "Celule de sarcină digitale",
+        "description": "Celule de sarcină digitale, folosite în sistemele de verificare a greutății"
+      },
+      {
+        "code": "Mărci tensometrice",
+        "description": "Mărci tensometrice pentru analiza tensiunilor mecanice și fabricarea traductoarelor"
+      },
+      {
+        "code": "Traductoare de cuplu",
+        "description": "Traductoare pentru măsurarea cuplului, inclusiv variante multi-axiale"
+      },
+      {
+        "code": "MCS10",
+        "description": "Traductor de forță cu măsurare pe mai multe axe"
+      },
+      {
+        "code": "catman",
+        "description": "Software universal pentru achiziția și analiza datelor de măsură"
+      },
+      {
+        "code": "catman Enterprise",
+        "description": "Versiune a software-ului catman pentru monitorizare cu multe canale"
+      },
+      {
+        "code": "DMP41",
+        "description": "Amplificator de precizie pentru măsurători cu mărci tensometrice"
+      },
+      {
+        "code": "ClipX",
+        "description": "Modul de condiționare a semnalului pentru traductoare industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între sistemele HBM QuantumX și SomatXR?",
+        "a": "QuantumX este un sistem de achiziție de date universal, folosit în laboratoare și bancuri de testare pentru măsurări multicanal de precizie. SomatXR este construit pentru medii dure, cu vibrații, praf sau variații mari de temperatură, fiind folosit adesea în testări pe teren sau la bordul vehiculelor. Alegerea între cele două depinde de condițiile de mediu în care se face măsurătoarea, nu doar de numărul de canale necesar."
+      },
+      {
+        "q": "Livrați traductoare și sisteme HBM în România?",
+        "a": "Da, aducem la comandă celule de sarcină, traductoare de cuplu și sisteme de achiziție de date din gama HBM, cunoscută azi și sub brandul HBK, pe baza codului exact solicitat. Traductoarele și sistemele HBM sunt aduse la comandă, fără stoc propriu menținut; intervalul tipic semnalat public de producător este de două-șase săptămâni. Recomandăm precizarea capacității nominale necesare pentru celula de sarcină sau traductor."
+      },
+      {
+        "q": "Ce trebuie comunicat pentru o ofertă de celulă de sarcină HBM?",
+        "a": "Este necesară capacitatea nominală dorită, tipul constructiv preferat, single point sau beam, și mediul de montaj, interior sau exterior expus la umiditate. Contează și dacă celula va fi integrată într-un cântar existent sau într-o instalație nouă, precum și clasa de precizie cerută de aplicație. Aceste detalii permit alegerea corectă din gama de celule de sarcină disponibilă."
+      },
+      {
+        "q": "Ce este software-ul catman de la HBM?",
+        "a": "catman este software-ul universal folosit pentru configurarea sistemelor de achiziție de date HBM, vizualizarea semnalelor în timp real și analiza ulterioară a rezultatelor măsurătorilor. Există și o variantă Enterprise, orientată spre monitorizare continuă cu un număr mare de canale, folosită adesea în testări de durată sau monitorizare structurală. Ambele variante se folosesc împreună cu echipamente precum QuantumX sau MGCplus."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"HBM – Home","url":"https://www.hbm.com/en/","publisher":"HBM (HBK)","accessed":"2026-09-25"},
       { title: "HBM - Home", url: "https://www.hbm.com/en/", publisher: "Hottinger Brüel & Kjær (HBK)", accessed: "2026-09-22" },
       { title: "HBK - About HBK", url: "https://www.hbkworld.com", publisher: "Hottinger Brüel & Kjær (HBK)", accessed: "2026-09-22" },
     ],

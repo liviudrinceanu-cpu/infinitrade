@@ -163,7 +163,7 @@ Pentru industria chimică, alimentară sau farmaceutică din România, Tapflo î
       "FDA — conformitate pentru materiale în contact cu alimente",
       "USP Class VI — compatibilitate materiale plastice/elastomeri",
       "3-A — standard sanitar american",
-      "ATEX — variante pentru zone cu risc de explozie",
+      "ATEX — execuții Tapflo pentru zone cu risc de explozie",
       "API 610 — aplicații petrochimice",
       "ISO 9001:2015 — proces de producție certificat de TÜV NORD"
     ],

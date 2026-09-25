@@ -34,7 +34,9 @@ export async function generateMetadata({ params }) {
   const r = resolve(brandSlug, seriesSlug);
   if (!r) return { title: 'Serie negăsită' };
   const { series: s, brand } = r;
-  const title = `${s.name} ${brand.name} — coduri, specificații, ofertă | Infinitrade`;
+  // D-2026-09-25: some series names already carry the brand ("EUCHNER MGB") — don't repeat it.
+  const displayName = s.name.toLowerCase().includes(brand.name.toLowerCase()) ? s.name : `${s.name} ${brand.name}`;
+  const title = `${displayName} — coduri, specificații, ofertă | Infinitrade`;
   const description = `${s.oneLine} Coduri de tip, parametri din documentația ${brand.name} și ce trebuie să trimiți pentru o ofertă. Cere ofertă.`.slice(0, 158);
   const url = `${config.site.url}/brand/${brandSlug}/${seriesSlug}`;
   return {
@@ -59,7 +61,7 @@ export default async function SeriesPage({ params }) {
     '@context': 'https://schema.org',
     '@graph': [
       {
-        '@type': 'WebPage', '@id': url, url, name: `${s.name} ${brand.name}`, inLanguage: 'ro', dateModified: s.dateModified,
+        '@type': 'WebPage', '@id': url, url, name: displayName, inLanguage: 'ro', dateModified: s.dateModified,
         isPartOf: { '@id': `${config.site.url}/#website` },
       },
       {

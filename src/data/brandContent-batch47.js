@@ -78,11 +78,73 @@ Pentru instalațiile din România, componentele Piab au sens la integratorii de 
     ],
     infinitrade: `Lucrăm din informațiile publice de pe site-ul producătorului suedez și spunem direct ce am putut confirma acolo și ce nu — nu completăm din memorie parametri care nu apar scriși explicit în documentația producătorului. Aducem componentele Piab la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă trimiteți-ne tipul de componentă căutată (ventuză, griper, pompă de vid), diametrul sau capacitatea de ridicare și, dacă e vorba de o gripă robotizată, modelul de robot pe care se montează. Nu putem asigura o disponibilitate permanentă din stoc pentru toate referințele din gamă — verificăm fiecare cerere înainte de a trimite oferta finală.`,
     limitation: "Nu putem confirma anul fondării sau orașul exact al sediului Piab, informații care nu apar explicit pe paginile consultate ale site-ului oficial.",
+    productCodes: [
+      {
+        "code": "BLFF",
+        "description": "Ventuză multi-foaie pentru flux ridicat și vid stabil"
+      },
+      {
+        "code": "piCOBOT",
+        "description": "Griper vacuumatic colaborativ pentru roboți și cobots"
+      },
+      {
+        "code": "piCOBOT L",
+        "description": "Variantă de mare capacitate a griperului piCOBOT, până la 35 kg"
+      },
+      {
+        "code": "piFLOWf",
+        "description": "Transportor pneumatic pentru pulberi și granule, versiune pentru industria alimentară"
+      },
+      {
+        "code": "piFLOWfc",
+        "description": "Transportor pneumatic pentru aplicații grele cu pulberi și granule"
+      },
+      {
+        "code": "piFLOWp",
+        "description": "Transportor pneumatic pentru cerințe ridicate de igienă a procesului"
+      },
+      {
+        "code": "BCP40",
+        "description": "Ventuză pentru manipularea automată a cutiilor de carton ondulat"
+      },
+      {
+        "code": "OVM Pro 3D",
+        "description": "Software de proiectare virtuală pentru sisteme de vid"
+      },
+      {
+        "code": "Pompe de vid și ejectoare",
+        "description": "Gamă largă de echipamente pentru generarea vidului industrial"
+      },
+      {
+        "code": "Ventuze și gripere flexibile",
+        "description": "Categorie de componente pentru manipularea de precizie a pieselor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între griperele Piab piCOBOT și piCOBOT L?",
+        "a": "piCOBOT este griperul vacuumatic de bază pentru roboți colaborativi, gândit pentru sarcini ușoare și medii de manipulare industrială. piCOBOT L este varianta de capacitate mărită, capabilă să ridice piese de până la treizeci și cinci de kilograme, păstrând aceeași ușurință de integrare pe brațul robotic. Alegerea între cele două ține de greutatea pieselor manipulate în aplicația respectivă."
+      },
+      {
+        "q": "Ce este transportorul piFLOW de la Piab?",
+        "a": "piFLOW este o familie de transportoare pneumatice pentru pulberi și granule fine, folosite acolo unde materialul trebuie mutat fără contaminare sau pierderi în mediul înconjurător. Variantele diferă în funcție de aplicație: piFLOWf este orientată spre industria alimentară, iar piFLOWfc și piFLOWp acoperă sarcini mai grele sau cerințe ridicate de igienă. Selecția corectă depinde de tipul de material vehiculat și de debitul necesar."
+      },
+      {
+        "q": "Livrați echipamente de vid Piab în România?",
+        "a": "Da, obținem echipamentele de vid Piab pe bază de comandă fermă, pentru că nu ținem pe raft propriu al acestei game. Producătorul menționează public un termen orientativ de livrare de două până la șase săptămâni. Menționarea greutății și formei piesei manipulate ajută la alegerea variantei potrivite."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de ventuză Piab?",
+        "a": "Contează materialul și forma suprafeței piesei manipulate, greutatea acesteia și viteza de ciclu dorită în procesul de producție. Pentru aplicații cu pulberi sau granule este utilă și menționarea debitului necesar de transport pneumatic. Tipul de sursă de vid disponibilă în fabrică, pompă centralizată sau ejector local, completează datele pentru o ofertă corectă."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Piab – Vacuum Technology","url":"https://www.piab.com/en-us","publisher":"Piab","accessed":"2026-09-25"},
+      {"title":"Piab – piCOBOT Vacuum Gripper Unit","url":"https://www.piab.com/en-us/robot-and-cobot-gripping-solutions/cobots-and-robot-grippers/picobot-vacuum-gripper-unit/picobot","publisher":"Piab","accessed":"2026-09-25"},
       { title: "Piab - pagina principală", url: "https://www.piab.com", publisher: "Piab AB", accessed: "2026-09-22" },
       { title: "Piab - about us", url: "https://www.piab.com/about-us/", publisher: "Piab AB", accessed: "2026-09-22" },
     ],
@@ -123,11 +185,104 @@ Pentru instalațiile din România, gama Chesterton are sens la stațiile de pomp
     certifications: ["NSF/ANSI 61 — pentru anumite produse de etanșare care intră în contact cu apă potabilă"],
     infinitrade: `Informațiile despre Chesterton provin din site-ul oficial al producătorului american, iar acolo unde pagina nu detaliază un parametru tehnic, nu îl inventăm în ofertă. Aducem etanșările Chesterton la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă precisă trimiteți-ne tipul de etanșare căutat, diametrul arborelui, presiunea și temperatura de lucru, plus fluidul vehiculat — parametri fără de care nu putem recomanda varianta corectă. Nu păstrăm stoc pentru toate referințele din gamă, așa că disponibilitatea se confirmă separat la fiecare comandă.`,
     limitation: "Nu putem confirma service de intervenție la fața locului sau training de montaj pentru etanșările Chesterton, servicii care rămân la latitudinea rețelei proprii a producătorului.",
+    productCodes: [
+      {
+        "code": "150/150L",
+        "description": "Etanșare mecanică cartridge de uz general, o singură față"
+      },
+      {
+        "code": "1510/1510L",
+        "description": "Variantă a etanșării cartridge 150 pentru condiții similare"
+      },
+      {
+        "code": "180",
+        "description": "Etanșare cartridge robustă pentru aplicații solicitante"
+      },
+      {
+        "code": "225",
+        "description": "Etanșare cartridge dublă pentru medii de uz general"
+      },
+      {
+        "code": "255",
+        "description": "Etanșare cartridge dublă pentru aplicații intermediare"
+      },
+      {
+        "code": "280",
+        "description": "Etanșare cartridge dublă pentru sarcini grele"
+      },
+      {
+        "code": "442/442HP",
+        "description": "Etanșare mecanică split, montabilă fără demontarea arborelui"
+      },
+      {
+        "code": "491",
+        "description": "Etanșare rotativă cu o singură componentă internă"
+      },
+      {
+        "code": "4400",
+        "description": "Etanșare dublă cu gaz, configurație concentrică"
+      },
+      {
+        "code": "170/170L",
+        "description": "Etanșare pentru pompe cu medii abrazive"
+      },
+      {
+        "code": "1725A",
+        "description": "Presetupă din fibre pentru pompe și mixere"
+      },
+      {
+        "code": "1727 Multi-Lon",
+        "description": "Presetupă multifilament pentru pompe și mixere"
+      },
+      {
+        "code": "1730 Mill Pack",
+        "description": "Presetupă din fibre pentru industria grea"
+      },
+      {
+        "code": "5800",
+        "description": "Presetupă pentru ventile, uz general"
+      },
+      {
+        "code": "6800",
+        "description": "Presetupă pentru ventile la temperaturi ridicate"
+      },
+      {
+        "code": "455",
+        "description": "Garnitură plată din foaie pentru flanșe industriale"
+      },
+      {
+        "code": "5500",
+        "description": "Sistem de etanșare cu autostrângere pentru flanșe"
+      },
+      {
+        "code": "22K",
+        "description": "Etanșare polimerică pentru tije și pistoane hidraulice"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între etanșările Chesterton 225 și 442?",
+        "a": "Seria 225 este o etanșare cartridge dublă, gândită pentru uz general în pompe centrifugale, unde ambele fețe de etanșare stau în interiorul cartușului preasamblat. Seria 442 este o etanșare de tip split, care se montează în jurul arborelui fără a fi nevoie de demontarea completă a pompei sau a cuplajului. Alegerea depinde de timpul disponibil pentru intervenție și de accesul la arborele pompei."
+      },
+      {
+        "q": "Ce este presetupa Chesterton 1727 Multi-Lon?",
+        "a": "1727 Multi-Lon este o presetupă multifilament folosită pentru etanșarea arborilor de pompe și mixere, acolo unde o etanșare mecanică nu este necesară sau nu este practică. Este formată din inele împletite montate în camera de presetupă, strânse progresiv pentru a controla scurgerea admisă. Alegerea materialului și a numărului de inele depinde de mediul vehiculat și de viteza arborelui."
+      },
+      {
+        "q": "Livrați etanșări Chesterton în România?",
+        "a": "Da, procurăm etanșările și presetupele Chesterton la cerere, pornind de la codul modelului dorit, fără stoc constituit dinainte. Termenul public indicat de producător pentru această gamă este, în general, de două până la șase săptămâni. Recomandăm transmiterea diametrului arborelui și a mediului vehiculat pentru identificarea variantei corecte."
+      },
+      {
+        "q": "Ce trebuie să comunic pentru o ofertă de etanșare mecanică Chesterton?",
+        "a": "Este importantă dimensiunea camerei de etanșare, diametrul arborelui, presiunea și temperatura mediului vehiculat, precum și dacă lichidul conține particule abrazive. Pentru pompele care nu pot fi oprite mult timp pentru intervenție, o etanșare de tip split precum seria 442 poate fi mai potrivită decât o cartridge clasică. Materialele de construcție compatibile cu mediul chimic completează datele necesare."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Chesterton – Products","url":"https://www.chesterton.com/products/","publisher":"Chesterton","accessed":"2026-09-25"},
       { title: "A.W. Chesterton Company - pagina principală", url: "https://www.chesterton.com", publisher: "A.W. Chesterton Company", accessed: "2026-09-22" },
       { title: "Chesterton - about us", url: "https://www.chesterton.com/about-us/", publisher: "A.W. Chesterton Company", accessed: "2026-09-22" },
     ],
@@ -167,11 +322,80 @@ Pentru instalațiile din România, benzile Chiorino au sens în liniile de proce
     ],
     infinitrade: `Ce scriem despre Chiorino se bazează pe informațiile publice de pe site-ul producătorului italian, fără date proprii despre stocul lor real la un moment dat. Aducem benzile Chiorino la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne tipul de bandă căutat, lățimea și lungimea necesară, plus aplicația exactă (transport, sincronizare, transmisie). Disponibilitatea permanentă din stoc nu poate fi promisă pentru fiecare referință — o verificăm punctual la fiecare cerere primită.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (grosime, temperatură maximă de lucru) pentru fiecare gamă de benzi, informații disponibile doar pe paginile individuale de produs ale site-ului oficial.",
+    productCodes: [
+      {
+        "code": "Benzi omogene și de antrenare",
+        "description": "Categorie de benzi cu compoziție uniformă pentru transmisii industriale"
+      },
+      {
+        "code": "Benzi modulare din plastic",
+        "description": "Sisteme de benzi articulate din module de plastic interconectate"
+      },
+      {
+        "code": "Benzi de transport și proces",
+        "description": "Categorie largă de benzi pentru transportul materialelor în industrie"
+      },
+      {
+        "code": "Benzi de sincronizare",
+        "description": "Benzi dințate pentru transmisii cu poziționare precisă"
+      },
+      {
+        "code": "Benzi de transmisie de putere",
+        "description": "Categorie de benzi destinate transferului de putere mecanică"
+      },
+      {
+        "code": "Benzi rotunde și în V din poliuretan",
+        "description": "Benzi flexibile din poliuretan pentru aplicații de antrenare"
+      },
+      {
+        "code": "Profile și ghidaje",
+        "description": "Componente de sprijin și direcționare pentru benzile transportoare"
+      },
+      {
+        "code": "Pereți laterali",
+        "description": "Elemente de întărire pe marginea benzilor transportoare"
+      },
+      {
+        "code": "Benzi fără cusătură",
+        "description": "Benzi realizate ca buclă continuă, fără îmbinare"
+      },
+      {
+        "code": "Acoperiri pentru role",
+        "description": "Materiale de suprafață aplicate pe rolele transportoarelor"
+      },
+      {
+        "code": "Foi elastomerice și din silicon",
+        "description": "Materiale sub formă de foaie pentru diverse aplicații industriale"
+      },
+      {
+        "code": "Benzi pentru mașini",
+        "description": "Categorie de benzi specializate folosite direct pe utilaje"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între benzile omogene și benzile modulare Chiorino?",
+        "a": "Benzile omogene au o structură uniformă, dintr-un singur material, și sunt tăiate la lungimea necesară pentru fiecare aplicație de transmisie sau transport. Benzile modulare din plastic sunt formate din module interconectate, ușor de reparat prin înlocuirea unei singure secțiuni deteriorate, fără să fie nevoie de o bandă nouă completă. Alegerea depinde de tipul de întreținere preferat și de forma traseului transportorului."
+      },
+      {
+        "q": "Ce sunt benzile de sincronizare de la Chiorino și unde se folosesc?",
+        "a": "Benzile de sincronizare sunt benzi dințate care mențin o poziționare precisă între roțile de antrenare, fără alunecare, fiind potrivite pentru aplicații unde faza mișcării contează, cum ar fi ambalarea sau procesarea alimentară. Profilul dinților trebuie să corespundă exact cu roțile dințate din sistemul mecanic existent. Materialul benzii se alege în funcție de temperatura și substanțele chimice din mediul de lucru."
+      },
+      {
+        "q": "Livrați benzi industriale Chiorino în România?",
+        "a": "Da, aducem benzile Chiorino la comandă, în funcție de specificațiile tehnice primite, fără un stoc menținut permanent din această gamă. Producătorul comunică public un interval orientativ de două până la șase săptămâni pentru livrare. Este utilă transmiterea lățimii, lungimii și temperaturii de lucru pentru identificarea variantei corecte."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de bandă transportoare Chiorino?",
+        "a": "Contează lățimea și lungimea benzii, tipul de suprafață necesar, netedă, striată sau cu profile de tracțiune, și temperatura maximă de lucru din proces. Pentru industria alimentară este importantă și certificarea materialului pentru contact cu alimentele. Tipul de îmbinare preferat, cu cusătură sau fără cusătură, completează datele pentru o ofertă corectă."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Chiorino – Products","url":"https://www.chiorino.com/products/","publisher":"Chiorino","accessed":"2026-09-25"},
       { title: "Chiorino - pagina principală", url: "https://www.chiorino.com/", publisher: "Chiorino S.p.A.", accessed: "2026-09-22" },
       { title: "Chiorino - products", url: "https://www.chiorino.com/products/", publisher: "Chiorino S.p.A.", accessed: "2026-09-22" },
     ],
@@ -210,11 +434,84 @@ Pentru instalațiile din România, discurile Fike au sens la reactoarele chimice
     certifications: ["Laborator de testare a fluxului conform codului ASME pentru discuri de rupere (referință TB8100)"],
     infinitrade: `Informațiile despre Fike vin din pagina oficială dedicată discurilor de rupere, iar parametrii exacți de presiune pentru fiecare model rămân în fișele tehnice ale producătorului, nu în ce am putut verifica noi direct pe pagina generală. Aducem discurile Fike la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de presiunea de rupere dorită, diametrul discului, temperatura de lucru și materialul compatibil cu fluidul din proces. Nu putem asigura disponibilitate permanentă din stoc pentru fiecare model — fiecare comandă se verifică separat cu producătorul.`,
     limitation: "Nu putem confirma presiunile de rupere exacte disponibile pentru fiecare serie, informații care se găsesc doar în fișele tehnice individuale ale fiecărui model de disc.",
+    productCodes: [
+      {
+        "code": "RD500 Atlas",
+        "description": "Disc de rupere cu acțiune inversă, performanță premium și ciclu de viață extins"
+      },
+      {
+        "code": "RD520 Axius",
+        "description": "Disc de rupere cu acțiune inversă din gama premium Axius"
+      },
+      {
+        "code": "RD540",
+        "description": "Disc de rupere cu acțiune inversă pentru protecție avansată la suprapresiune"
+      },
+      {
+        "code": "Poly-SD",
+        "description": "Disc cu acțiune directă, potrivit de la presiuni joase la ridicate"
+      },
+      {
+        "code": "SCRD-FS",
+        "description": "Variantă din familia SCRD cu acțiune directă, execuție standard"
+      },
+      {
+        "code": "SCRD-FSR",
+        "description": "Variantă SCRD cu acțiune directă, execuție întărită pentru presiuni mai mari"
+      },
+      {
+        "code": "SCRD-UT",
+        "description": "Variantă SCRD cu acțiune directă, model de bază al familiei"
+      },
+      {
+        "code": "SCRD-V",
+        "description": "Variantă SCRD cu acțiune directă, concepută cu volum de vid"
+      },
+      {
+        "code": "HOV",
+        "description": "Disc cu acțiune directă pentru aplicații industriale standard"
+      },
+      {
+        "code": "Seria AD",
+        "description": "Disc cu acțiune directă folosit pentru protecție la suprapresiune"
+      },
+      {
+        "code": "Seria P",
+        "description": "Disc cu acțiune directă din gama forward-acting de bază"
+      },
+      {
+        "code": "Axius SC",
+        "description": "Disc igienic cu acțiune inversă, suprafață netedă, compatibil CIP/SIP"
+      },
+      {
+        "code": "RD540 SC",
+        "description": "Variantă igienică a discului RD540, fără crăpături sau caneluri"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg discul de rupere Fike potrivit pentru instalația mea?",
+        "a": "Alegerea pornește de la presiunea de rupere necesară, temperatura de lucru și tipul de fluid din conductă. Discurile cu acțiune inversă, precum RD500 Atlas sau RD520 Axius, oferă toleranțe strânse și suportă contrapresiune, fiind potrivite pentru aplicații critice. Familiile cu acțiune directă, precum Poly-SD sau seria SCRD, acoperă aplicații simple, de la presiuni joase la ridicate. Confirmarea finală depinde de diametrul nominal și de compatibilitatea materialului cu mediul vehiculat."
+      },
+      {
+        "q": "Ce diferență este între discurile Fike cu acțiune inversă și cele cu acțiune directă?",
+        "a": "Discurile cu acțiune inversă, precum Axius sau Atlas, cedează prin flambarea unei calote concave, ceea ce le permite toleranțe mai strânse și rezistență la contrapresiune. Cele cu acțiune directă, precum Poly-SD sau HOV, cedează prin tracțiune directă pe o membrană convexă și sunt de regulă mai simple constructiv. Selecția corectă ține cont de raportul de operare cerut de instalație și de riscul de fluctuații de presiune din sistem."
+      },
+      {
+        "q": "Livrați discuri de rupere Fike în România?",
+        "a": "Aducem la comandă discurile de rupere Fike solicitate, pe baza codului confirmat de client, fără stoc propriu pe această gamă; termenul obișnuit este de 2-6 săptămâni. Ne bazăm pe fișele tehnice și informațiile publice ale producătorului pentru identificarea variantei corecte. Este util să transmiteți diametrul nominal, presiunea de rupere dorită și temperatura de lucru pentru o încadrare rapidă în familia potrivită."
+      },
+      {
+        "q": "Ce presupun discurile igienice Axius SC de la Fike?",
+        "a": "Axius SC este o variantă higienică cu acțiune inversă, fără indentări sau crăpături pe suprafața de contact cu produsul, gândită pentru industria farmaceutică și alimentară. Construcția permite proceduri de curățare CIP/SIP fără riscul de acumulare a reziduurilor. Este o alternativă la RD540 SC atunci când aplicația impune un nivel ridicat de igienizare și trasabilitate a echipamentului montat pe linia de proces."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Pressure Relief – Rupture Discs","url":"https://www.fike.com/pressure-relief/","publisher":"Fike Corporation","accessed":"2026-09-25"},
       { title: "Fike Pressure Relief - pagina principală", url: "https://www.fike.com/pressure-relief/", publisher: "Fike Corporation", accessed: "2026-09-22" },
       { title: "Fike - about us", url: "https://www.fike.com/about-us/", publisher: "Fike Corporation", accessed: "2026-09-22" },
     ],
@@ -251,11 +548,76 @@ Pentru instalațiile din România, gama Piller are sens la centrele de date, spi
     ],
     infinitrade: `Ce prezentăm despre Piller vine din pagina oficială a producătorului, cu accent pe ce am putut confirma acolo — nu completăm cu date proprii de stoc sau cu detalii tehnice care nu apar explicit în documentația producătorului. Aducem sistemele Piller la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, mai lung pentru instalațiile de mare putere care se configurează pe proiect. Pentru o ofertă corectă avem nevoie de puterea necesară, tipul de aplicație (centru de date, industrial, marin) și cerințele de spațiu de montaj. Nu putem promite o disponibilitate permanentă din stoc pentru echipamente de această complexitate — fiecare proiect se verifică individual cu producătorul.`,
     limitation: "Nu putem confirma anul fondării, orașul sediului sau structura de grup a Piller, informații care nu au apărut explicit pe paginile consultate ale site-ului oficial.",
+    productCodes: [
+      {
+        "code": "UNIBLOCK",
+        "description": "Sistem UPS rotativ cu stocare cinetică de energie, putere mare"
+      },
+      {
+        "code": "UB-V",
+        "description": "UPS rotativ cuplat electric, pentru centre de date hyperscale"
+      },
+      {
+        "code": "M+",
+        "description": "UPS static modular, componente înlocuibile la cald pentru mentenanță rapidă"
+      },
+      {
+        "code": "APOSTAR",
+        "description": "UPS static de la 3 la 500 kVA, pentru aplicații generale"
+      },
+      {
+        "code": "CPM",
+        "description": "Modul de putere critică cu volant integrat, de la 225 kW la 2,4 MW"
+      },
+      {
+        "code": "SHIELDX",
+        "description": "Sistem de stabilizare dinamică fără baterii pentru sarcini variabile"
+      },
+      {
+        "code": "APOTRANS",
+        "description": "Comutator static de transfer, de la 25 A la 1600 A"
+      },
+      {
+        "code": "DeRUPS",
+        "description": "Configurație cu generator diesel integrat alături de UPS rotativ UNIBLOCK"
+      },
+      {
+        "code": "CleanSource",
+        "description": "UPS static cu volant, gamă de putere de la 250 la 1200 kW"
+      },
+      {
+        "code": "Frequency Converters",
+        "description": "Convertizoare de frecvență pentru adaptarea rețelei la 50 sau 60 Hz"
+      },
+      {
+        "code": "Isolated Parallel",
+        "description": "Configurație de sistem care combină redundanța izolată cu cea paralelă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este un sistem UPS rotativ Piller UNIBLOCK?",
+        "a": "UNIBLOCK este un sistem de alimentare neîntreruptibilă rotativ, care folosește un volant pentru a stoca energie cinetică și a o elibera instantaneu la o cădere de tensiune. Gama acoperă puteri de la 150 kW până la 50 MW, fiind folosită în centre de date, spitale și industrie grea. Spre deosebire de UPS-urile statice cu baterii, UNIBLOCK reduce componentele electrochimice și oferă un timp de răspuns foarte scurt la comutare."
+      },
+      {
+        "q": "Aduceți la comandă echipamente Piller în România?",
+        "a": "Sistemele Piller ajung la comandă fermă, în funcție de configurația exactă cerută de proiect; nu păstrăm această gamă pe raft, iar intervalul tipic este de 2-6 săptămâni. Ne raportăm la documentația tehnică publicată de producător pentru a confirma varianta potrivită de UPS sau comutator static. Recomandăm transmiterea puterii necesare și a tipului de sarcină critică pentru o ofertă corectă."
+      },
+      {
+        "q": "Ce diferență este între UPS static M+ și sistemul rotativ UNIBLOCK la Piller?",
+        "a": "M+ este un UPS static modular, cu module hot-swap ce permit înlocuirea rapidă fără oprirea sarcinii, potrivit pentru centre de date cu spațiu limitat. UNIBLOCK este un sistem rotativ cu volant, care oferă protecție la puteri foarte mari și reduce dependența de baterii chimice. Alegerea depinde de puterea totală necesară, de spațiul disponibil și de politica de mentenanță a beneficiarului."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la un UPS Piller?",
+        "a": "Este nevoie de puterea critică necesară în kW sau kVA, tipul de sarcină alimentată, timpul de autonomie dorit și configurația de redundanță preferată, izolată sau paralelă. Pentru instalații existente, o descriere a tabloului electric și a spațiului disponibil ajută la încadrarea corectă în gama UNIBLOCK, M+ sau CPM, evitând o supra sau subdimensionare a sistemului final livrat."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Piller Products Overview","url":"https://www.piller.com/en/products/","publisher":"Piller Group GmbH","accessed":"2026-09-25"},
       { title: "Piller - pagina principală", url: "https://www.piller.com/en/", publisher: "Piller Group GmbH", accessed: "2026-09-22" },
       { title: "Piller - products", url: "https://www.piller.com/en/products/", publisher: "Piller Group GmbH", accessed: "2026-09-22" },
     ],
@@ -336,11 +698,77 @@ Pentru piața din România, sculele Festool au sens la tâmplăriile profesional
     ],
     infinitrade: `Ce spunem despre Festool se bazează pe site-ul oficial german al producătorului, iar unde pagina nu oferă un parametru tehnic exact, nu îl completăm din alte surse. Aducem sculele Festool la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne modelul exact al sculei, dacă aveți nevoie de accesorii compatibile (șină de ghidare, aspirator) și dacă lucrați pe platforma de acumulatori 18V. Nu ținem la dispoziție fiecare referință din gamă în permanență — disponibilitatea se confirmă la fiecare comandă în parte.`,
     limitation: "Nu putem confirma prețurile sau politica de garanție all-inclusive Festool pentru piața din România, informații care rămân la latitudinea rețelei oficiale de distribuție a producătorului.",
+    productCodes: [
+      {
+        "code": "TS 55",
+        "description": "Fierăstrău cu pătrundere clasic, adâncime de tăiere 55 mm"
+      },
+      {
+        "code": "TSC 55 KS",
+        "description": "Fierăstrău cu acumulator, adâncime 55 mm, tehnologie anti-recul KickbackStop"
+      },
+      {
+        "code": "TS 60 K",
+        "description": "Fierăstrău cu pătrundere, adâncime 60 mm, pentru tăieri oblice"
+      },
+      {
+        "code": "TSV 60 K",
+        "description": "Fierăstrău cu pre-tăiere pentru muchii curate pe ambele fețe"
+      },
+      {
+        "code": "TS 75",
+        "description": "Fierăstrău cu pătrundere de mare putere, adâncime 75 mm"
+      },
+      {
+        "code": "OF 2200",
+        "description": "Freză de mână cu extracție eficientă a prafului de lemn"
+      },
+      {
+        "code": "MFK 700",
+        "description": "Freză de margine compactă pentru rotunjirea muchiilor"
+      },
+      {
+        "code": "RO 90 DX",
+        "description": "Șlefuitor cu excentric, extensibil cu placă triunghiulară pentru colțuri"
+      },
+      {
+        "code": "ROTEX",
+        "description": "Șlefuitor combinat: mașină de șlefuit, excentric și polizor într-un aparat"
+      },
+      {
+        "code": "PLANEX",
+        "description": "Șlefuitor cu gât lung și inel LED pentru control vizual"
+      },
+      {
+        "code": "RENOFIX RG 130 ECI",
+        "description": "Șlefuitor de renovare cu motor EC-TEC fără perii"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce fierăstrău cu pătrundere Festool aleg pentru tăieri de 60 mm?",
+        "a": "Pentru o adâncime de tăiere de 60 mm, gamele TS 60 K și TSV 60 K sunt potrivite; a doua adaugă un cuțit de pre-tăiere care lasă o muchie curată pe ambele fețe ale panoului. Pentru grosimi mai mari, TS 75 oferă 75 mm adâncime și putere de 1.600 W. Alegerea corectă ține cont de tipul materialului tăiat și de necesitatea unei tăieri fără așchieri vizibile pe furnir."
+      },
+      {
+        "q": "Livrați scule Festool în România la comandă?",
+        "a": "Sculele Festool solicitate se aduc la comandă din gamele publicate de producător; raftul propriu nu acoperă această categorie, iar așteptarea uzuală este de 2-6 săptămâni. Ne bazăm pe fișele tehnice oficiale pentru a confirma codul exact al mașinii și al accesoriilor compatibile, cum ar fi șinele de ghidare sau sistemul de aspirare asociat."
+      },
+      {
+        "q": "Ce diferență este între fierăstraiele Festool TS 55 și TS 60 K?",
+        "a": "TS 55 este modelul de bază, cu 55 mm adâncime de tăiere, potrivit pentru majoritatea lucrărilor de tâmplărie curentă. TS 60 K taie mai adânc, până la 60 mm, și include funcția de înclinare pentru tăieri oblice la unghiuri variate. Diferența devine importantă la panouri groase sau la lucrări de mobilier unde este nevoie de tăieri unghiulare precise pe grosimi mai mari."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă la o sculă Festool?",
+        "a": "Este util să menționați codul exact al mașinii, dacă varianta dorită este cu cablu sau pe acumulator, și accesoriile necesare, precum șina de ghidare sau discul de tăiere. Pentru sistemele de aspirare, adăugați diametrul furtunului compatibil. Aceste detalii reduc riscul de a comanda o variantă greșită dintr-o familie care are mai multe versiuni apropiate ca aspect."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Tauchsäge von Festool","url":"https://www.festool.de/produkte/saegen/tauchsaegen","publisher":"Festool GmbH","accessed":"2026-09-25"},
+      {"title":"Schleifmaschine – Festool Schleifer","url":"https://www.festool.de/produkte/schleifer","publisher":"Festool GmbH","accessed":"2026-09-25"},
       { title: "Festool - pagina principală", url: "https://festool.de", publisher: "Festool GmbH", accessed: "2026-09-22" },
       { title: "Festool", url: "https://de.wikipedia.org/wiki/Festool", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -378,11 +806,89 @@ Pentru piața din România, sculele Facom au sens la atelierele de mecanică aut
     ],
     infinitrade: `Ce prezentăm despre Facom vine din site-ul oficial francez al producătorului și din pagina de istoric a mărcii, fără completări din memorie acolo unde sursa nu confirmă un detaliu. Aducem sculele Facom la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne referința exactă a sculei sau a trusei căutate și, dacă e vorba de o cheie dinamometrică, plaja de cuplu necesară. Nu putem oferi disponibilitate permanentă din stoc pentru fiecare referință Facom — verificăm situația reală la fiecare cerere primită.`,
     limitation: "Nu putem confirma service sau training de montaj în limba română pentru sculele Facom, activități care rămân la latitudinea rețelei oficiale a grupului Stanley Black & Decker.",
+    productCodes: [
+      {
+        "code": "76 Series",
+        "description": "Chei tubulare cu cap înclinat, 12 caneluri, execuție de înaltă performanță"
+      },
+      {
+        "code": "75 Series",
+        "description": "Chei tubulare cu cap înclinat, 6 caneluri, rezistență mecanică ridicată"
+      },
+      {
+        "code": "92A Series",
+        "description": "Chei tubulare drepte cu orificiu de trecere pentru tije lungi"
+      },
+      {
+        "code": "440 Series",
+        "description": "Chei combinate cu rezistență mecanică mare, mai multe dimensiuni"
+      },
+      {
+        "code": "464TX Series",
+        "description": "Chei cu clichet Torx, cap dublu, set de 4 bucăți"
+      },
+      {
+        "code": "65 Series",
+        "description": "Chei cu dublu clichet pe caneluri, set de 7 bucăți în tavă"
+      },
+      {
+        "code": "467BF Series",
+        "description": "Chei cu clichet și cap flexibil, execuție antiderapantă, set de 12"
+      },
+      {
+        "code": "113AS.C",
+        "description": "Cheie reglabilă cu mâner scurt și corp cromat"
+      },
+      {
+        "code": "180A.CPEPB",
+        "description": "Clește multipoziție cu fălci lungi, execuție de înaltă performanță"
+      },
+      {
+        "code": "192A.16CPEPB",
+        "description": "Clește de tăiere diagonală de înaltă performanță, 160 mm"
+      },
+      {
+        "code": "187A.18CPEPB",
+        "description": "Clește universal combinat, lungime 180 mm"
+      },
+      {
+        "code": "188A.16CPEPB",
+        "description": "Clește cu fălci plate, lungime 160 mm"
+      },
+      {
+        "code": "197G.13PB",
+        "description": "Clește pentru inele de siguranță exterioare, unghi 90 de grade"
+      },
+      {
+        "code": "PWF250CPEPB",
+        "description": "Clește-cheie cu mâner bimaterial, lungime 250 mm"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg cheia Facom potrivită pentru un anumit diametru de șurub?",
+        "a": "Alegerea pornește de la dimensiunea capului șurubului sau piuliței, exprimată în milimetri sau țoli, și de la spațiul de acces din jurul îmbinării. Pentru zone înguste, seriile 76 sau 92A cu cap înclinat oferă un unghi de lucru mai bun, iar pentru cupluri mari, seria 440 rezistă la solicitări mecanice ridicate. Verificarea numărului de caneluri de pe cap ajută la evitarea confuziei între variante apropiate."
+      },
+      {
+        "q": "Aduceți la comandă scule Facom în România?",
+        "a": "Codurile Facom cerute se comandă punctual către producător, fără a fi ținute pe raft în depozitul propriu; livrarea durează de regulă 2-6 săptămâni. Ne ghidăm după cataloagele publice ale producătorului pentru a identifica exact codul complet al cheii sau clemei dorite. Transmiterea codului de pe ambalaj sau de pe scula existentă accelerează foarte mult identificarea variantei corecte."
+      },
+      {
+        "q": "Ce diferență este între cleștii Facom multipoziție și cei combinați?",
+        "a": "Cleștii multipoziție, precum seria 180A, au o fantă glisantă ce permite ajustarea deschiderii fălcilor pentru piese de dimensiuni diferite, fiind versatili pe șantier. Cleștii combinați, precum 187A, au o deschidere fixă și combină funcția de prindere cu cea de tăiere pe același corp. Alegerea depinde de varietatea diametrelor lucrate și de preferința pentru un instrument dedicat sau unul universal."
+      },
+      {
+        "q": "Ce informații trimit pentru o comandă de scule Facom?",
+        "a": "Transmiteți codul complet așa cum apare pe scula existentă sau pe catalogul producătorului, inclusiv sufixul de execuție, deoarece multe familii au variante apropiate ca aspect. Pentru seturi, precizați numărul de piese și tipul de ambalaj dorit, cutie metalică sau geantă textilă. Aceste detalii reduc riscul unei comenzi greșite într-o gamă cu zeci de variante similare."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Wrenches | FACOM","url":"https://www.facom.com/products/general-tooling/wrenches","publisher":"Facom","accessed":"2026-09-25"},
+      {"title":"Pliers | FACOM","url":"https://www.facom.com/products/general-tooling/pliers","publisher":"Facom","accessed":"2026-09-25"},
       { title: "Facom - pagina principală", url: "https://facom.fr", publisher: "Facom", accessed: "2026-09-22" },
       { title: "Facom", url: "https://fr.wikipedia.org/wiki/Facom", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],

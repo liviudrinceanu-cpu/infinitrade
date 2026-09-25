@@ -31,11 +31,108 @@ Pentru România, Heidenhain înseamnă acces la traductoare pentru retrofit-uri 
     certifications: ["ISO 9001", "ISO 14001", "ISO/IEC 27001:2022", "ISO 45001"],
     infinitrade: `Pentru Heidenhain lucrăm din surse publice ale producătorului și din canale de distribuție din UE — nu dispunem de stoc propriu și spunem direct ce putem și ce nu putem confirma înainte de ofertare. Aducem la comandă encodere, palpoare și componente de comandă numerică prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, în funcție de model și disponibilitatea la producător. Pentru o ofertă corectă, clientul trebuie să ne trimită codul complet al produsului (dacă îl are de pe traductorul existent) sau, în lipsa lui, tipul mașinii, lungimea de măsurare sau diametrul de montaj și interfața electrică dorită. Nu promitem disponibilitate permanentă din stoc pentru niciun model — fiecare cerere se verifică individual la producător înainte de a confirma termenul de livrare.`,
     limitation: "Nu putem confirma programarea sau punerea în funcțiune software a comenzilor CNC TNC — aceasta rămâne în sarcina integratorului de mașină sau a service-ului autorizat de producător.",
+    productCodes: [
+      {
+        "code": "LC 100",
+        "description": "Encoder liniar închis (sigilat) pentru mașini-unelte"
+      },
+      {
+        "code": "LC 200",
+        "description": "Encoder liniar închis, variantă din aceeași familie"
+      },
+      {
+        "code": "LC 400",
+        "description": "Encoder liniar închis pentru curse mai lungi"
+      },
+      {
+        "code": "LS 100",
+        "description": "Encoder liniar închis, seria de bază"
+      },
+      {
+        "code": "LS 400",
+        "description": "Encoder liniar închis pentru curse extinse"
+      },
+      {
+        "code": "LIC 4100",
+        "description": "Encoder liniar deschis (expus) de precizie"
+      },
+      {
+        "code": "LIC 3100",
+        "description": "Encoder liniar deschis, variantă intermediară"
+      },
+      {
+        "code": "LIC 2100",
+        "description": "Encoder liniar deschis, variantă de bază a seriei LIC"
+      },
+      {
+        "code": "LIP 200",
+        "description": "Encoder liniar deschis pentru aplicații de precizie ridicată"
+      },
+      {
+        "code": "LIDA 400",
+        "description": "Encoder liniar deschis pentru mașini de dimensiuni mari"
+      },
+      {
+        "code": "LIDA 200",
+        "description": "Encoder liniar deschis, variantă compactă a seriei LIDA"
+      },
+      {
+        "code": "RCN 2001/5001",
+        "description": "Encoder unghiular cu rulment integrat"
+      },
+      {
+        "code": "RCN 8001",
+        "description": "Encoder unghiular cu rulment integrat, precizie ridicată"
+      },
+      {
+        "code": "ECN 2000",
+        "description": "Encoder unghiular absolut cu rulment integrat"
+      },
+      {
+        "code": "ROC 2000",
+        "description": "Encoder unghiular incremental cu rulment integrat"
+      },
+      {
+        "code": "ROD 200",
+        "description": "Encoder rotativ incremental cu rulment integrat"
+      },
+      {
+        "code": "TNC7",
+        "description": "Comandă numerică CNC, generația cea mai recentă"
+      },
+      {
+        "code": "TNC 640",
+        "description": "Comandă numerică CNC de înaltă performanță"
+      },
+      {
+        "code": "TNC 320",
+        "description": "Comandă numerică CNC de gamă medie"
+      },
+      {
+        "code": "TS 460",
+        "description": "Palpator pentru măsurarea piesei pe mașina-unealtă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg între un encoder liniar închis și unul deschis la Heidenhain?",
+        "a": "Encoderele închise, precum seria LC sau LS, au o carcasă sigilată care le protejează de praf, șpan și lichide de răcire, fiind potrivite pentru mediul dur din atelier. Encoderele deschise, cum sunt LIC sau LIDA, oferă precizie mai mare și viteze de deplasare superioare, dar necesită o instalare mai atentă și un mediu mai curat pe mașină."
+      },
+      {
+        "q": "Ce diferență este între comenzile Heidenhain TNC 320 și TNC 640?",
+        "a": "TNC 320 este o comandă numerică de gamă medie, gândită pentru mașini-unelte simple sau cu axe puține, în timp ce TNC 640 oferă performanță mai ridicată, suport pentru mai multe axe simultane și funcții avansate de programare conversațională. Alegerea depinde de complexitatea pieselor și de tipul mașinii pe care se montează comanda."
+      },
+      {
+        "q": "Livrați encodere și comenzi Heidenhain în România?",
+        "a": "Da, encoderele și comenzile Heidenhain ajung la comandă, de regulă în 2-6 săptămâni, pentru că nu este o gamă ținută pe raft, având în vedere numărul mare de variante de rezoluție și lungime de măsurare. Pentru o ofertă corectă avem nevoie de tipul mașinii, cursa necesară și interfața electrică dorită."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"HEIDENHAIN - Products","url":"https://www.heidenhain.com/products","publisher":"DR. JOHANNES HEIDENHAIN GmbH","accessed":"2026-09-25"},
       { title: "HEIDENHAIN — Home", url: "https://www.heidenhain.com", publisher: "Dr. Johannes Heidenhain GmbH", accessed: "2026-09-22" },
       { title: "HEIDENHAIN — The Company", url: "https://www.heidenhain.com/company", publisher: "Dr. Johannes Heidenhain GmbH", accessed: "2026-09-22" },
     ],
@@ -72,11 +169,80 @@ Pentru piața din România, SUCO este relevant pentru instalații hidraulice mob
     certifications: ["ISO 9001:2015", "ATEX (pentru variantele destinate zonelor cu risc de explozie)"],
     infinitrade: `Nu avem date proprii de stoc pentru gama SUCO și lucrăm cu informațiile publice ale producătorului atunci când pregătim o ofertă. Aducem presostate și senzori de presiune SUCO prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă, în funcție de model. Pentru o ofertă rapidă și corectă, clientul ne trimite codul complet al produsului sau, dacă nu îl are, plaja de presiune necesară, tipul de racord de proces și tensiunea/tipul de ieșire electrică. Nu promitem disponibilitate permanentă din stoc pentru modelele SUCO — verificăm fiecare comandă individual înainte de confirmare, pentru a evita termene nerealiste.`,
     limitation: "Nu putem confirma integrarea sau configurarea software a variantelor electronice cu magistrale de comunicație specifice — recomandăm verificarea compatibilității cu automatul programabil existent înainte de comandă.",
+    productCodes: [
+      {
+        "code": "Presostat hex 24 cu conector integrat",
+        "description": "Comutator de presiune NC/NO cu conector integrat, cheie hex 24"
+      },
+      {
+        "code": "Presostat hex 24/27 precablat",
+        "description": "Comutator de presiune precablat, disponibil în variante hex 24 sau hex 27"
+      },
+      {
+        "code": "Presostat pentru vid",
+        "description": "Comutator cu rezistență ridicată la suprapresiune, pentru aplicații de vid"
+      },
+      {
+        "code": "Presostat hex 27 cu conector integrat",
+        "description": "Comutator de presiune cu contact comutator și conector integrat, cheie hex 27"
+      },
+      {
+        "code": "Presostat PLUS",
+        "description": "Presostat cu conector integrat și funcții suplimentare față de seria standard"
+      },
+      {
+        "code": "Presostat hex 24 standard",
+        "description": "Comutator de presiune NC/NO fără conector integrat, cheie hex 24"
+      },
+      {
+        "code": "Presostat 30 A/F",
+        "description": "Comutator de presiune cu contacte din argint, cheie 30 A/F"
+      },
+      {
+        "code": "Presostat hex 27 standard",
+        "description": "Comutator de presiune cu contact comutator, cheie hex 27, fără conector"
+      },
+      {
+        "code": "Presostat ATEX seria 0342/0343",
+        "description": "Presostat antiexploziv cu conector integrat, pentru zone cu risc"
+      },
+      {
+        "code": "Presostat electronic",
+        "description": "Comutator electronic de presiune, pentru integrare în sisteme automatizate"
+      },
+      {
+        "code": "Transmițător de presiune",
+        "description": "Traductor electronic care convertește presiunea măsurată într-un semnal electric"
+      },
+      {
+        "code": "Senzor de presiune",
+        "description": "Element de măsurare a presiunii, integrat în circuitul de control"
+      },
+      {
+        "code": "Ambreiaj centrifugal",
+        "description": "Cuplaj centrifugal folosit pentru transmiterea controlată a mișcării mecanice"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între un presostat SUCO hex 24 și unul hex 27?",
+        "a": "Diferența constă în mărimea cheii de montaj și, implicit, în gabaritul carcasei: hex 24 este varianta mai compactă, potrivită pentru spații înguste, în timp ce hex 27 permite un contact comutator (CO) și, în anumite variante, presiuni de lucru mai mari. Alegerea depinde de spațiul disponibil pe echipament și de tipul de contact electric necesar în circuit."
+      },
+      {
+        "q": "Ce este seria ATEX 0342/0343 de la SUCO?",
+        "a": "Seria ATEX 0342/0343 este gama de presostate SUCO certificate pentru utilizare în zone cu risc de explozie, cu conector integrat și construcție adaptată cerințelor de siguranță din industria de proces. Se folosește acolo unde echipamentul standard nu poate fi montat din motive de certificare, cum ar fi instalațiile din industria chimică sau petrolieră."
+      },
+      {
+        "q": "Livrați presostate SUCO în România?",
+        "a": "Da, presostatele SUCO se aduc la comandă direct din gama producătorului, orientativ în 2-6 săptămâni, fără această gamă ținută pe raft, din cauza numărului mare de variante de presiune și conectare. Pentru o ofertă corectă avem nevoie de domeniul de presiune, tipul de conector electric și dacă aplicația necesită certificare ATEX."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"SUCO - Mechanical Pressure Switches","url":"https://www.suco.de/en/pressure-monitoring/mechanical-pressure-switches","publisher":"SUCO Robert Scheuffele GmbH & Co. KG","accessed":"2026-09-25"},
       { title: "SUCO — Home", url: "https://www.suco.de", publisher: "SUCO Robert Scheuffele GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "SUCO — Company (EN)", url: "https://www.suco.de/en/", publisher: "SUCO Robert Scheuffele GmbH & Co. KG", accessed: "2026-09-22" },
     ],
@@ -113,11 +279,85 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
     ],
     infinitrade: `La Stabilus mergem strict pe ce publică producătorul — nu avem date proprii de stoc și spunem clar ce putem confirma din gamă. Aducem arcuri cu gaz, amortizoare și sisteme Powerise prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă. Pentru ofertă, clientul trimite codul de pe arcul existent (dacă e piesă de schimb) sau forța, cursa și tipul de capete de prindere pentru o aplicație nouă. Nu promitem disponibilitate permanentă din stoc — fiecare configurație se verifică individual înainte de confirmare.`,
     limitation: "Nu putem confirma configurarea electronică a sistemelor Industrial Powerise Smart (parametrizare CAN bus) — aceasta rămâne în sarcina integratorului sau a service-ului tehnic al producătorului.",
+    productCodes: [
+      {
+        "code": "LIFT-O-MAT PTL",
+        "description": "Arc cu gaz cu blocare mecanică în poziție comprimată"
+      },
+      {
+        "code": "LIFT-O-MAT FR",
+        "description": "Arc cu gaz cu poziționare continuă, fără blocaj separat"
+      },
+      {
+        "code": "INTER-STOP",
+        "description": "Arc cu gaz cu valvă integrată pentru oprire în orice poziție"
+      },
+      {
+        "code": "HYDRO-LIFT",
+        "description": "Arc cu gaz cu poziționare continuă și funcție de susținere"
+      },
+      {
+        "code": "STAB-O-SHOC HD 15",
+        "description": "Amortizor cu forțe mici de amortizare, dependent de poziție"
+      },
+      {
+        "code": "STAB-O-SHOC GD 15",
+        "description": "Amortizor cu forță suplimentară de extensie, forțe mici"
+      },
+      {
+        "code": "STAB-O-SHOC GD 15 SP",
+        "description": "Amortizor fără cursă liberă, funcționează în ambele direcții"
+      },
+      {
+        "code": "STAB-O-SHOC HD 24/29",
+        "description": "Amortizor pentru forțe mari de amortizare, dependent de poziție"
+      },
+      {
+        "code": "STAB-O-SHOC GD 24/29",
+        "description": "Amortizor cu piston separator, forțe mari, tensiune și compresie"
+      },
+      {
+        "code": "STAB-O-SHOC GD 24/29 SP",
+        "description": "Amortizor cu piston separator, fără cursă liberă"
+      },
+      {
+        "code": "STAB-O-SHOC HD 24/29 BV",
+        "description": "Amortizor de vibrații pentru montaj vertical, forțe mari"
+      },
+      {
+        "code": "STAB-O-SHOC HD 24/29MB",
+        "description": "Amortizor de vibrații cu supapă de fund și diafragmă"
+      },
+      {
+        "code": "STAB-O-SHOC TA",
+        "description": "Amortizor de vibrații compact, pentru orice poziție de montaj"
+      },
+      {
+        "code": "POWERISE",
+        "description": "Sistem electromecanic pentru deschiderea automată a hayonului sau capotei"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între un arc cu gaz Stabilus și un amortizor Stab-O-Shoc?",
+        "a": "Arcul cu gaz din familia Lift-O-Mat susține și mișcă o componentă, precum un capac sau o ușă, folosind presiunea gazului din interior, în timp ce un amortizor Stab-O-Shoc controlează viteza de mișcare a unei piese fără a o susține activ. Multe aplicații combină ambele funcții, un arc care ridică și un amortizor care reduce viteza la finalul cursei."
+      },
+      {
+        "q": "Ce este sistemul Powerise de la Stabilus?",
+        "a": "Powerise este sistemul electromecanic al producătorului, folosit pentru deschiderea și închiderea automată a hayonului sau a capotei la autovehicule, dar și în aplicații industriale unde este nevoie de mișcare motorizată controlată. Înlocuiește arcul cu gaz clasic acolo unde se dorește acționare de la distanță sau oprire în orice poziție intermediară."
+      },
+      {
+        "q": "Livrați arcuri cu gaz și amortizoare Stabilus în România?",
+        "a": "Da, arcurile cu gaz și amortizoarele Stabilus ajung la comandă în aproximativ 2-6 săptămâni, deoarece nu este o gamă păstrată pe raft, având în vedere numărul mare de forțe și lungimi disponibile. Pentru o ofertă corectă avem nevoie de forța necesară, cursa de lucru și punctele de prindere ale aplicației dumneavoastră."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Stabilus - Lift-O-Mat Gas Springs","url":"https://www.stabilus.com/products/gas-springs/lift-o-mat","publisher":"Stabilus","accessed":"2026-09-25"},
+      {"title":"Stabilus - Stab-O-Shoc Hydraulic Dampers","url":"https://www.stabilus.com/products/hydraulic-dampers/stab-o-shoc","publisher":"Stabilus","accessed":"2026-09-25"},
       { title: "Stabilus — Company", url: "https://www.stabilus.com/company", publisher: "Stabilus SE", accessed: "2026-09-22" },
       { title: "Stabilus — Lift-O-Mat", url: "https://www.stabilus.com/products/gas-springs/lift-o-mat", publisher: "Stabilus SE", accessed: "2026-09-22" },
       { title: "Stabilus — Stab-O-Shoc", url: "https://www.stabilus.com/products/hydraulic-dampers/stab-o-shoc", publisher: "Stabilus SE", accessed: "2026-09-22" },
@@ -153,11 +393,124 @@ Pentru România, Böllhoff e relevant pentru producătorii din automotive, const
     ],
     infinitrade: `Pentru Böllhoff nu avem date proprii de stoc și lucrăm din informațiile publice ale producătorului atunci când pregătim o ofertă — spunem direct clientului ce am verificat pe site și ce rămâne de confirmat la comandă. Aducem organe de fixare și inserturi Böllhoff prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită desenul tehnic al asamblării sau codul produsului, materialul componentelor de îmbinat și cantitatea necesară. Nu promitem disponibilitate permanentă din stoc pentru gama Böllhoff — verificăm fiecare cerere individual la producător înainte de a confirma un termen.`,
     limitation: "Nu putem furniza sau implementa direct sistemul de logistică Kanban al Böllhoff — aceasta presupune un contract de furnizare pe termen lung direct cu producătorul sau distribuitorul său regional.",
+    productCodes: [
+      {
+        "code": "HELICOIL",
+        "description": "Insert filetat pentru repararea sau consolidarea găurilor filetate în metal"
+      },
+      {
+        "code": "RIPP LOCK",
+        "description": "Șaibă autoblocantă cu suprafață nervurată"
+      },
+      {
+        "code": "RIVNUT",
+        "description": "Nit-piuliță oarbă din oțel inoxidabil"
+      },
+      {
+        "code": "RIVSTUD",
+        "description": "Nit-prezon orb pentru fixare pe o singură față"
+      },
+      {
+        "code": "RIVSET",
+        "description": "Tehnologie de nituire prin auto-perforare, fără găurire prealabilă"
+      },
+      {
+        "code": "AMTEC",
+        "description": "Inserturi filetate și șuruburi pentru materiale plastice"
+      },
+      {
+        "code": "SEAL LOCK",
+        "description": "Piuliță de etanșare cu proprietăți de blocare"
+      },
+      {
+        "code": "FLEXITOL",
+        "description": "Sistem de compensare a toleranțelor între componente asamblate"
+      },
+      {
+        "code": "KAPTI",
+        "description": "Nit-piuliță presată și elemente funcționale asociate"
+      },
+      {
+        "code": "KOBSERT",
+        "description": "Insert filetat pentru metale"
+      },
+      {
+        "code": "NORMACLAMP TORRO",
+        "description": "Colier de furtun cu domeniu larg de strângere"
+      },
+      {
+        "code": "ONSERT",
+        "description": "Tehnologie de fixare prin lipire adezivă"
+      },
+      {
+        "code": "PARRYPLUG",
+        "description": "Element de protecție împotriva manipulării neautorizate"
+      },
+      {
+        "code": "QUICK FLOW Plus",
+        "description": "Șurub pentru tablă subțire"
+      },
+      {
+        "code": "QUICKLOC",
+        "description": "Sistem de fixare cu eliberare rapidă"
+      },
+      {
+        "code": "RIVQUICK",
+        "description": "Nit orb pentru asamblări rapide"
+      },
+      {
+        "code": "RIVTAC",
+        "description": "Element de îmbinare la viteză mare"
+      },
+      {
+        "code": "SITEC",
+        "description": "Element de decuplare pentru vibrații și zgomot"
+      },
+      {
+        "code": "SNAPLOC",
+        "description": "Conexiune de decuplare de tip plug-in"
+      },
+      {
+        "code": "SPREDLOC",
+        "description": "Sistem de ancorare prin expandare, accesibil dintr-o singură parte"
+      },
+      {
+        "code": "TEPRO",
+        "description": "Piese tehnice personalizate din plastic sau soluții hibride"
+      },
+      {
+        "code": "U-NUT",
+        "description": "Piuliță autoblocantă pentru asamblări metalice ușoare"
+      },
+      {
+        "code": "WELTAC",
+        "description": "Element de fixare pentru sudare prin rezistență"
+      },
+      {
+        "code": "SEALING PLUG",
+        "description": "Dop orb pentru închiderea găurilor, în mai multe configurații"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este sistemul SPREDLOC de la Böllhoff?",
+        "a": "SPREDLOC este soluția Böllhoff de ancorare prin expandare, accesibilă dintr-o singură parte a materialului, folosită acolo unde partea opusă a piesei nu poate fi atinsă în timpul montajului. Se folosește frecvent la structuri ușoare sau la panouri unde găurirea completă nu este posibilă sau dorită, oferind o fixare stabilă fără acces pe ambele fețe."
+      },
+      {
+        "q": "Ce diferență este între RIVNUT și RIVSTUD la Böllhoff?",
+        "a": "RIVNUT este o nit-piuliță oarbă, care creează un filet intern într-o gaură, în timp ce RIVSTUD este un nit-prezon, care oferă un filet exterior montat tot printr-o singură față a materialului. Alegerea depinde de tipul componentei care trebuie fixată ulterior, cu șurub sau cu piuliță, și de spațiul de acces disponibil."
+      },
+      {
+        "q": "Livrați elemente de fixare Böllhoff în România?",
+        "a": "Da, elementele de fixare Böllhoff se comandă din gama oficială, cu un termen estimat de 2-6 săptămâni, fără gamă ținută pe raft, având în vedere numărul foarte mare de variante și dimensiuni. Pentru o ofertă corectă avem nevoie de materialul de bază, grosimea piesei și sarcina pe care trebuie să o preia îmbinarea."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Böllhoff - Special Fasteners","url":"https://www.boellhoff.com/gb-en/products/special-fasteners/","publisher":"Böllhoff Group","accessed":"2026-09-25"},
       { title: "Böllhoff — Home (Germany)", url: "https://www.boellhoff.com/", publisher: "Böllhoff Verbindungstechnik GmbH", accessed: "2026-09-22" },
       { title: "Böllhoff — Home", url: "https://www.boellhoff.com", publisher: "Böllhoff Verbindungstechnik GmbH", accessed: "2026-09-22" },
     ],
@@ -194,11 +547,69 @@ Pentru România, Gerb e relevant pentru proiecte de fundații de mașini rotativ
     ],
     infinitrade: `Pentru Gerb ne bazăm pe informațiile publice de pe site-ul producătorului — nu avem date proprii de stoc, iar pentru un sistem de izolare antivibrații dimensionarea se face oricum individual, pe proiect. Aducem componente Gerb (arcuri elastice, amortizoare vâscoase, elemente Novodamp®) prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă, după confirmarea specificațiilor tehnice. Pentru o ofertă corectă, clientul trebuie să trimită datele dinamice ale mașinii sau structurii (masă, frecvență, sarcină) și tipul de aplicație vizat. Nu promitem disponibilitate permanentă din stoc pentru componentele Gerb — fiecare proiect se verifică individual cu producătorul înainte de confirmarea termenului.`,
     limitation: "Nu putem realiza direct proiectarea sau calculul dinamic al soluției de izolare — aceasta rămâne serviciul de inginerie oferit de departamentul tehnic al producătorului, pe baza datelor structurii clientului.",
+    productCodes: [
+      {
+        "code": "Element elastic cu arc din oțel",
+        "description": "Element de izolare vibratorie cu arcuri elicoidale din oțel"
+      },
+      {
+        "code": "Viscodamper",
+        "description": "Amortizor vâscos pentru disiparea energiei vibratorii prin rezistență fluidă"
+      },
+      {
+        "code": "Masă acordată (Tuned Mass Damper)",
+        "description": "Sistem dinamic de reducere a vibrațiilor structurale"
+      },
+      {
+        "code": "Novodamp",
+        "description": "Material din poliuretan cu celule închise, pentru izolare vibratorie"
+      },
+      {
+        "code": "Element elastic pretensionat",
+        "description": "Arc comprimat hidraulic la o înălțime prestabilită, fixat cu buloane"
+      },
+      {
+        "code": "Element pretensionat cu amortizor",
+        "description": "Variantă pretensionată cu amortizor integrat"
+      },
+      {
+        "code": "Element elastic nepretensionat",
+        "description": "Arc elicoidal simplu, fără pretensionare hidraulică"
+      },
+      {
+        "code": "Element nepretensionat cu amortizor",
+        "description": "Variantă nepretensionată cu amortizor integrat"
+      },
+      {
+        "code": "Unitate de arc tip standard",
+        "description": "Element elastic din gama standard a producătorului"
+      },
+      {
+        "code": "Element elastic tip deschis",
+        "description": "Element elastic proiectat pentru sarcini de până la 17 kN"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între un element elastic Gerb pretensionat și unul nepretensionat?",
+        "a": "Elementul pretensionat este comprimat hidraulic până la o înălțime sau sarcină planificată și fixat cu buloane de pretensionare, ceea ce reduce mișcarea inițială la punerea în funcțiune. Elementul nepretensionat este format din plăci de sarcină și arcuri elicoidale montate liber între ele, fiind mai simplu constructiv și potrivit pentru sarcini unde precizia inițială de poziționare contează mai puțin."
+      },
+      {
+        "q": "Ce este un Viscodamper de la Gerb?",
+        "a": "Viscodamper este amortizorul vâscos al producătorului, folosit pentru a disipa energia vibrațiilor prin rezistența unui fluid intern, adesea combinat cu elemente elastice cu arc pentru izolarea completă a unei mașini sau structuri. Se alege atunci când amortizarea suplimentară este necesară pe lângă simpla izolare oferită de arcurile elicoidale."
+      },
+      {
+        "q": "Livrați elemente antivibrante Gerb în România?",
+        "a": "Da, elementele antivibrante Gerb ajung la comandă, orientativ în 2-6 săptămâni, întrucât nu este o gamă păstrată pe raft, fiecare proiect având sarcini și frecvențe proprii de calcul. Pentru o ofertă corectă avem nevoie de sarcina statică pe element, frecvența de excitație și spațiul disponibil pentru montaj."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"GERB - Product Groups","url":"https://www.gerb.com/productgroups","publisher":"GERB Schwingungsisolierungen","accessed":"2026-09-25"},
+      {"title":"GERB - Helical Steel Spring Elements","url":"https://www.gerb.com/helical-steel-spring-elements/","publisher":"GERB Schwingungsisolierungen","accessed":"2026-09-25"},
       { title: "GERB — Home", url: "https://www.gerb.com/", publisher: "GERB Schwingungsisolierungen GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "GERB — About GERB", url: "https://www.gerb.com/about-gerb", publisher: "GERB Schwingungsisolierungen GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "GERB — Product groups", url: "https://www.gerb.com/productgroups", publisher: "GERB Schwingungsisolierungen GmbH & Co. KG", accessed: "2026-09-22" },
@@ -235,11 +646,108 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
     ],
     infinitrade: `Pentru RAFI mergem pe informațiile publice ale producătorului, fără date proprii de stoc — spunem clar clientului ce am confirmat pe site și ce rămâne de verificat la comandă. Aducem componente RAFI (butoane, taste, module HMI) prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită codul componentei existente sau, pentru un panou nou, funcțiile de control necesare, dimensiunea disponibilă și tipul de mediu de lucru (praf, umiditate, vibrații). Nu promitem disponibilitate permanentă din stoc pentru gama RAFI — fiecare cerere se verifică individual înainte de confirmarea termenului.`,
     limitation: "Nu putem confirma programarea firmware a modulelor HMI complexe (FLEXSCAPE, GLASSCAPE) — configurarea software rămâne în sarcina integratorului sau a suportului tehnic al producătorului.",
+    productCodes: [
+      {
+        "code": "FLEXSCAPE",
+        "description": "platformă HMI modulară, configurabilă pentru panouri de comandă"
+      },
+      {
+        "code": "GLASSCAPE",
+        "description": "platformă HMI cu suprafață din sticlă, aspect premium"
+      },
+      {
+        "code": "JOYSCAPE",
+        "description": "joystick industrial modular integrat în platforma HMI"
+      },
+      {
+        "code": "Linear Joystick",
+        "description": "joystick cu mișcare liniară, pentru comenzi de translație"
+      },
+      {
+        "code": "Steering Stick",
+        "description": "manetă de direcție tip joystick, pentru vehicule speciale"
+      },
+      {
+        "code": "Safety Touch",
+        "description": "ecran tactil cu funcții de siguranță pentru comenzi critice"
+      },
+      {
+        "code": "Smart Encoder",
+        "description": "encoder rotativ cu funcții programabile pentru panouri HMI"
+      },
+      {
+        "code": "Standard Keypads and Encoder",
+        "description": "tastaturi standard cu encoder rotativ integrat"
+      },
+      {
+        "code": "Autonomy Kit",
+        "description": "modul destinat integrării funcțiilor de conducere autonomă"
+      },
+      {
+        "code": "ECU",
+        "description": "unitate electronică de control pentru platformele HMI"
+      },
+      {
+        "code": "Extended Display Link",
+        "description": "soluție pentru conectarea unui afișaj suplimentar la distanță"
+      },
+      {
+        "code": "E-BOX Family",
+        "description": "familie de carcase electronice pentru integrarea componentelor"
+      },
+      {
+        "code": "LUMOTAST",
+        "description": "taste luminoase pentru panouri de comandă"
+      },
+      {
+        "code": "RAFIX",
+        "description": "sistem modular de montaj pentru comutatoare și lămpi de semnalizare"
+      },
+      {
+        "code": "RAMO",
+        "description": "familie de comutatoare rotative RAFI"
+      },
+      {
+        "code": "Signal Lamps",
+        "description": "lămpi de semnalizare pentru panouri de control"
+      },
+      {
+        "code": "MICON",
+        "description": "taste tactile miniaturale pentru control de precizie"
+      },
+      {
+        "code": "RACON",
+        "description": "taste tactile robuste pentru medii industriale dure"
+      },
+      {
+        "code": "M12",
+        "description": "conector industrial standard pentru cablare rapidă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este platforma HMI FLEXSCAPE de la RAFI?",
+        "a": "FLEXSCAPE este platforma modulară de operare RAFI, gândită pentru a combina taste, encodere și ecrane tactile într-un singur panou de comandă configurabil. Producătorul o construiește astfel încât elementele individuale, de la taste luminoase LUMOTAST până la encodere rotative, să poată fi combinate după nevoile aplicației finale. Se regăsește adesea în utilaje de construcții și mașini agricole, acolo unde operatorul are nevoie de control intuitiv într-un spațiu redus."
+      },
+      {
+        "q": "Ce diferență este între JOYSCAPE și Steering Stick la RAFI?",
+        "a": "JOYSCAPE este un joystick modular integrat direct în platforma HMI, potrivit pentru comenzi complexe combinate cu alte elemente tactile, în timp ce Steering Stick este o manetă dedicată funcției de direcție, folosită tipic la vehicule speciale unde înlocuiește volanul clasic. Ambele aparțin familiei de joystick-uri industriale RAFI, dar diferă prin locul de montaj și prin funcția principală pe care o îndeplinesc în cabina operatorului."
+      },
+      {
+        "q": "Livrați componente RAFI în România?",
+        "a": "Da, componentele RAFI ajung la noi abia după ce lansați comanda, iar timpul obișnuit de așteptare este de 2-6 săptămâni, întrucât gama nu stă pe raft în depozit. Pentru o ofertă corectă avem nevoie de familia de produs dorită, FLEXSCAPE, GLASSCAPE sau o componentă individuală precum RAFIX ori LUMOTAST, plus aplicația exactă în care va fi montată."
+      },
+      {
+        "q": "Ce sunt tastele tactile MICON și RACON de la RAFI?",
+        "a": "MICON este familia de taste tactile miniaturale RAFI, gândită pentru panouri compacte unde spațiul disponibil este limitat, în timp ce RACON este varianta robustă, construită pentru medii industriale dure, cu expunere la praf, vibrații sau umiditate. Alegerea între cele două depinde de condițiile de mediu din aplicație și de densitatea de taste necesară pe panoul de comandă."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"RAFI - Products","url":"https://www.rafi-group.com/en/","publisher":"RAFI GmbH & Co. KG","accessed":"2026-09-25"},
       { title: "RAFI Group — Home", url: "https://www.rafi-group.com/en/", publisher: "RAFI GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "RAFI Group — Home (root)", url: "https://www.rafi-group.com/", publisher: "RAFI GmbH & Co. KG", accessed: "2026-09-22" },
     ],
@@ -274,11 +782,73 @@ Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine indu
     ],
     infinitrade: `Pentru CJC nu deținem date proprii de stoc și lucrăm cu informațiile disponibile public pe site-ul producătorului la pregătirea unei oferte. Aducem unități de filtrare offline CJC prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă, în funcție de model și configurație. Pentru o ofertă corectă, clientul trebuie să trimită tipul de ulei filtrat, volumul instalației și tipul de contaminant vizat (particule, apă, vernice sau aciditate) — ideal însoțit de o analiză recentă de ulei. Nu promitem disponibilitate permanentă din stoc pentru unitățile CJC — verificăm fiecare configurație individual înainte de confirmarea termenului de livrare.`,
     limitation: "Nu putem efectua analiza de laborator a uleiului client pentru determinarea gradului de contaminare — aceasta trebuie realizată separat, de un laborator specializat, înainte de dimensionarea unității de filtrare.",
+    productCodes: [
+      {
+        "code": "HDU 15/25",
+        "description": "unitate compactă de filtrare fină pentru sisteme hidraulice mici"
+      },
+      {
+        "code": "HDU 15/50",
+        "description": "unitate compactă cu capacitate mărită pentru sisteme hidraulice medii"
+      },
+      {
+        "code": "HDU 27/27",
+        "description": "unitate cu capacitate mare de reținere a impurităților"
+      },
+      {
+        "code": "HDU 27/54",
+        "description": "unitate destinată sistemelor hidraulice și de ungere de dimensiuni medii"
+      },
+      {
+        "code": "HDU 27/108",
+        "description": "unitate pentru sisteme hidraulice, de ungere și răcire de mari dimensiuni"
+      },
+      {
+        "code": "HDU 427",
+        "description": "filtru fin offline compact, pentru instalații fără spațiu pentru unități multiple"
+      },
+      {
+        "code": "Fine Filter Units",
+        "description": "categorie de unități pentru îndepărtarea particulelor fine din ulei"
+      },
+      {
+        "code": "Water Removal Units",
+        "description": "unități dedicate îndepărtării apei din uleiul de proces"
+      },
+      {
+        "code": "Varnish Removal Units",
+        "description": "unități pentru îndepărtarea depunerilor de lac din ulei"
+      },
+      {
+        "code": "Removing Acidity Units",
+        "description": "unități destinate reducerii acidității uleiului industrial"
+      },
+      {
+        "code": "Filter Inserts",
+        "description": "cartușe de filtrare folosite în unitățile CJC"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este unitatea CJC HDU 27/108?",
+        "a": "HDU 27/108 este unitatea de filtrare fină din gama CJC dedicată sistemelor hidraulice, de ungere și de răcire de dimensiuni mari, acolo unde volumul de ulei procesat este ridicat. Funcționează prin trecerea uleiului printr-un cartuș filtrant fin, care reține particulele solide fără a afecta aditivii din ulei. Se alege în funcție de debitul instalației și de nivelul de contaminare estimat al sistemului."
+      },
+      {
+        "q": "Ce diferență este între unitățile CJC pentru apă și cele pentru lac?",
+        "a": "Unitățile de îndepărtare a apei extrag umiditatea liberă și dizolvată din ulei, prevenind coroziunea și degradarea aditivilor, în timp ce unitățile pentru lac rețin depunerile fine care se formează prin oxidarea uleiului în timp. Cele două tipuri se aleg în funcție de problema dominantă identificată în analiza uleiului din sistemul hidraulic sau de ungere."
+      },
+      {
+        "q": "Livrați unități de filtrare CJC în România?",
+        "a": "Da, procurăm unitățile CJC exclusiv pe bază de comandă fermă, cu un timp de așteptare tipic între 2 și 6 săptămâni, fiindcă nu avem exemplare expuse din această gamă. Pentru o ofertă corectă spuneți-ne tipul de contaminant vizat, apă, particule sau lac, debitul sistemului și volumul total de ulei din instalație."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"C.C.JENSEN Oil Filtration for Reliable Operations","url":"https://www.ccjensen.com/","publisher":"C.C.Jensen A/S","accessed":"2026-09-25"},
+      {"title":"CJC Particle Removal Units | Oil Filtration Systems","url":"https://www.ccjensen.com/products-and-services/products/particle-removal-units","publisher":"C.C.Jensen A/S","accessed":"2026-09-25"},
       { title: "C.C.JENSEN — Home", url: "https://www.ccjensen.com", publisher: "C.C.JENSEN A/S", accessed: "2026-09-22" },
       { title: "C.C.JENSEN — Home (EN)", url: "https://www.ccjensen.com/en", publisher: "C.C.JENSEN A/S", accessed: "2026-09-22" },
     ],
@@ -311,11 +881,69 @@ Pentru România, Pfeiffer Vacuum e relevant pentru laboratoare de cercetare, uni
     ],
     infinitrade: `Pentru Pfeiffer Vacuum nu avem date proprii de stoc și lucrăm din surse publice ale producătorului atunci când pregătim o ofertă, mai ales pentru că modelul potrivit depinde de parametrii exacți de proces. Aducem pompe și componente de vid Pfeiffer Vacuum prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită codul modelului existent (dacă e vorba de o piesă de schimb) sau, pentru o instalație nouă, presiunea de lucru țintă, volumul incintei de vidat și tipul de gaz vehiculat. Nu promitem disponibilitate permanentă din stoc pentru gama Pfeiffer Vacuum — fiecare cerere se verifică individual la producător înainte de confirmarea termenului.`,
     limitation: "Nu am putut confirma de pe site numele exacte ale seriilor de pompe turbomoleculare și paramentrii lor tehnici (debit de pompare, vid limită) — pentru configurația exactă recomandăm consultarea directă a documentației tehnice a producătorului înainte de comandă.",
+    productCodes: [
+      {
+        "code": "HiPace 80",
+        "description": "pompă turbomoleculară cu rulment hibrid, gamă compactă"
+      },
+      {
+        "code": "HiPace 300",
+        "description": "pompă turbomoleculară cu rulment hibrid, capacitate medie"
+      },
+      {
+        "code": "HiPace 700",
+        "description": "pompă turbomoleculară cu rulment hibrid, capacitate ridicată"
+      },
+      {
+        "code": "HiPace 300 M",
+        "description": "pompă turbomoleculară cu levitație magnetică pe 5 axe"
+      },
+      {
+        "code": "HiScroll",
+        "description": "pompă cu șurub tip scroll, funcționare fără ulei"
+      },
+      {
+        "code": "HiScroll 18",
+        "description": "variantă a pompei scroll, folosită ca pompă de preveid"
+      },
+      {
+        "code": "HiCube Pro",
+        "description": "stație de pompare turbomoleculară modulară, gamă Pro"
+      },
+      {
+        "code": "HiCube 700 H Pro",
+        "description": "stație de pompare cu flanșă DN 160 CF-F"
+      },
+      {
+        "code": "HiCube Neo",
+        "description": "generație nouă de stații de pompare turbomoleculară"
+      },
+      {
+        "code": "MVP 010-3 DC",
+        "description": "pompă cu diafragmă, alimentare 24 V DC"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este pompa Pfeiffer Vacuum HiPace 300 M?",
+        "a": "HiPace 300 M este pompa turbomoleculară din gama Pfeiffer Vacuum care folosește levitație magnetică pe cinci axe în locul rulmenților clasici, eliminând contactul mecanic dintre rotor și stator. Această construcție reduce vibrațiile transmise camerei de vid și prelungește intervalul dintre operațiile de mentenanță, fiind potrivită pentru aplicații de cercetare sau procese sensibile la particule generate prin uzură mecanică."
+      },
+      {
+        "q": "Ce diferență este între o stație HiCube Pro și una HiCube Neo de la Pfeiffer Vacuum?",
+        "a": "HiCube Pro este generația consacrată de stații de pompare turbomoleculară, construită în jurul unei pompe HiPace și a unei pompe de preveid tip scroll, precum HiScroll. HiCube Neo este generația mai recentă a aceleiași idei, cu îmbunătățiri de control și integrare electronică, gândită pentru laboratoare care doresc o interfață mai modernă de operare fără a schimba principiul de funcționare al stației."
+      },
+      {
+        "q": "Livrați pompe Pfeiffer Vacuum în România?",
+        "a": "Da, pompele Pfeiffer Vacuum se comandă punctual din fabrică, sosind de obicei în 2-6 săptămâni, deoarece magazinul nostru nu expune fizic această gamă pe rafturi. Pentru o ofertă corectă avem nevoie de presiunea finală necesară, debitul de pompare dorit și tipul de aplicație, cercetare, semiconductori sau industrie generală."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Turbopumps - Pfeiffer Vacuum","url":"https://www.pfeiffer-vacuum.com/en/products/vacuum-generation/turbopumps/","publisher":"Pfeiffer Vacuum GmbH","accessed":"2026-09-25"},
+      {"title":"Products - Pfeiffer Vacuum","url":"https://www.pfeiffer-vacuum.com/en/products/","publisher":"Pfeiffer Vacuum GmbH","accessed":"2026-09-25"},
       { title: "Pfeiffer Vacuum — Home", url: "https://www.pfeiffer-vacuum.com/en/", publisher: "Pfeiffer Vacuum GmbH", accessed: "2026-09-22" },
       { title: "Pfeiffer Vacuum — Products", url: "https://www.pfeiffer-vacuum.com/en/products", publisher: "Pfeiffer Vacuum GmbH", accessed: "2026-09-22" },
     ],
@@ -351,11 +979,101 @@ Pentru România, Telwin e relevant pentru ateliere de sudură industrială, serv
     ],
     infinitrade: `Pentru Telwin nu dispunem de stoc propriu și lucrăm din informațiile disponibile pe site-ul producătorului atunci când pregătim o ofertă. Aducem aparate de sudură, sisteme de tăiere cu plasmă și încărcătoare Telwin prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită tipul de proces de sudură necesar (MIG/MAG, TIG, plasmă), grosimea materialului de lucru sau, pentru încărcătoare, tipul de baterii deservite și curentul de pornire dorit. Nu promitem disponibilitate permanentă din stoc pentru gama Telwin — verificăm fiecare model individual înainte de confirmarea termenului de livrare.`,
     limitation: "Nu putem prelua reparațiile în garanția producătorului pentru echipamentele Telwin — acestea rămân în sarcina rețelei tehnice desemnate de producător.",
+    productCodes: [
+      {
+        "code": "Supermig 350i",
+        "description": "sudură MIG/MAG din seria Supermig i"
+      },
+      {
+        "code": "Supermig 505i XD Pulse",
+        "description": "sudură MIG/MAG cu funcție puls, seria Supermig i XD"
+      },
+      {
+        "code": "Mastermig 405i",
+        "description": "sudură MIG/MAG din seria Mastermig i"
+      },
+      {
+        "code": "Linear 530 HD",
+        "description": "sudură MIG/MAG din seria Linear i, capacitate HD"
+      },
+      {
+        "code": "Technomig 241 Wave",
+        "description": "sudură MIG/MAG dual synergic, undă controlată"
+      },
+      {
+        "code": "Bimax 140i Synergic",
+        "description": "sudură MIG/MAG sinergică, gamă de intrare"
+      },
+      {
+        "code": "Superior TIG 422 Wave",
+        "description": "sudură TIG din seria Superior, funcție de undă"
+      },
+      {
+        "code": "Technology TIG 238 XT",
+        "description": "sudură TIG din seria Technology, variantă XT"
+      },
+      {
+        "code": "Supertig 302 AC-DC",
+        "description": "sudură TIG curent alternativ și continuu"
+      },
+      {
+        "code": "Superior Plasma 100",
+        "description": "tăiere cu plasmă din seria Superior Plasma"
+      },
+      {
+        "code": "Plasma XT",
+        "description": "sistem de tăiere cu plasmă din seria XT"
+      },
+      {
+        "code": "T-Charge 20 Evo",
+        "description": "încărcător de baterie din seria T-Charge"
+      },
+      {
+        "code": "Doctor Charge 155 Connect",
+        "description": "încărcător de baterie cu conectivitate din seria Doctor Charge"
+      },
+      {
+        "code": "Drive Pro 12/24",
+        "description": "dispozitiv de pornire auto pentru 12 și 24 V"
+      },
+      {
+        "code": "Startzilla XT",
+        "description": "dispozitiv de pornire auto compact"
+      },
+      {
+        "code": "Inductor 6000 Aqua",
+        "description": "sistem de încălzire prin inducție, răcit cu lichid"
+      },
+      {
+        "code": "Advance 227 XT",
+        "description": "sudură multiproces din seria Advance XT"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este seria Supermig i de la Telwin?",
+        "a": "Supermig i este seria de sudură MIG/MAG Telwin orientată spre utilizare industrială intensivă, cu modele precum Supermig 350i pentru puteri medii și Supermig 505i XD Pulse pentru aplicații care necesită funcție puls și control avansat al arcului. Seria acoperă un interval larg de curenți de sudare, fiind construită pentru ateliere unde echipamentul funcționează multe ore pe zi fără pauze lungi."
+      },
+      {
+        "q": "Ce diferență este între Superior TIG 422 Wave și Technology TIG 238 XT la Telwin?",
+        "a": "Superior TIG 422 Wave face parte din seria Superior, cu funcție de undă pentru controlul fin al arcului la sudarea TIG, potrivită pentru piese subțiri sau materiale sensibile la căldură. Technology TIG 238 XT aparține unei serii de gamă medie, gândită pentru lucrări generale de atelier, fără complexitatea funcțiilor avansate din seria Superior. Alegerea depinde de tipul de material și de precizia necesară la cusătură."
+      },
+      {
+        "q": "Livrați echipamente de sudură Telwin în România?",
+        "a": "Da, echipamentele Telwin se procură la cerere direct din catalogul producătorului, termenul uzual fiind de 2-6 săptămâni, gama nefiind păstrată permanent în showroom. Pentru o ofertă corectă avem nevoie de procedeul de sudare dorit, grosimea materialului și dacă echipamentul va fi folosit trifazat sau monofazat."
+      },
+      {
+        "q": "Ce este sistemul de încălzire Inductor 6000 Aqua de la Telwin?",
+        "a": "Inductor 6000 Aqua este sistemul de încălzire prin inducție al Telwin, răcit cu lichid, folosit pentru dezmontarea pieselor ruginite sau blocate fără flacără deschisă, o metodă frecventă în atelierele auto. Căldura este generată direct în piesa metalică prin câmp electromagnetic, ceea ce reduce riscul de deteriorare a componentelor din jur față de o lampă cu gaz clasică."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Telwin - Welding Machines","url":"https://www.telwin.com/en/products/welding-machines","publisher":"Telwin S.p.A.","accessed":"2026-09-25"},
+      {"title":"Telwin - Products","url":"https://www.telwin.com/en/products","publisher":"Telwin S.p.A.","accessed":"2026-09-25"},
       { title: "Telwin — Home", url: "https://www.telwin.com", publisher: "Telwin S.p.A.", accessed: "2026-09-22" },
       { title: "Tools Store — pagina de produse Telwin (magazin românesc)", url: "https://www.tools.store.ro/producator/telwin.html", publisher: "Tools Store", accessed: "2026-09-22" },
     ],
@@ -391,11 +1109,112 @@ Pentru România, Cofra e relevantă pentru companii din producție industrială,
     certifications: ["ISO 9001 (certificat de Bureau Veritas)"],
     infinitrade: `Pentru Cofra nu dispunem de stoc propriu pe fiecare mărime și model — lucrăm din informațiile publice ale producătorului și confirmăm disponibilitatea exactă la momentul comenzii. Aducem încălțăminte de protecție Cofra prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă pentru cantități organizate pe mărimi. Pentru o ofertă corectă, clientul trebuie să trimită lista de mărimi necesare, linia de produs dorită (sau clasa de protecție cerută: impact, perforare, amortizare) și cantitatea totală. Nu promitem disponibilitate permanentă din stoc pentru gama Cofra — verificăm fiecare comandă pe mărimi înainte de a confirma termenul.`,
     limitation: "Nu putem confirma disponibilitatea imediată pe toate mărimile și lățimile de la fiecare linie de produs — aceasta depinde de stocul curent al producătorului la momentul comenzii.",
+    productCodes: [
+      {
+        "code": "VANTREK ESD S3S",
+        "description": "încălțăminte de protecție cu talpă ESD, clasa S3S"
+      },
+      {
+        "code": "BRAVIX ESD S3S",
+        "description": "încălțăminte de protecție ESD, clasa S3S"
+      },
+      {
+        "code": "FIX ESD S3S",
+        "description": "încălțăminte de protecție ESD, clasa S3S"
+      },
+      {
+        "code": "EMISSION ESD S1",
+        "description": "încălțăminte de protecție ESD, clasa S1"
+      },
+      {
+        "code": "SPRINT S1",
+        "description": "încălțăminte de protecție clasa S1"
+      },
+      {
+        "code": "FREJUS S7S",
+        "description": "cizmă de protecție clasa S7S, rezistentă la apă"
+      },
+      {
+        "code": "PATHWAY ESD S7S",
+        "description": "cizmă de protecție ESD, clasa S7S"
+      },
+      {
+        "code": "CERMIS S7S",
+        "description": "cizmă de protecție clasa S7S"
+      },
+      {
+        "code": "CLOUDY S7S",
+        "description": "cizmă de protecție clasa S7S"
+      },
+      {
+        "code": "TEMPLET ESD S3S",
+        "description": "încălțăminte de protecție ESD, clasa S3S"
+      },
+      {
+        "code": "COVERAGE S3S",
+        "description": "încălțăminte de protecție clasa S3S"
+      },
+      {
+        "code": "BARRIER S1",
+        "description": "încălțăminte de protecție clasa S1, uz general"
+      },
+      {
+        "code": "GLOBET S1",
+        "description": "încălțăminte de protecție clasa S1"
+      },
+      {
+        "code": "INTERVAL S3S",
+        "description": "încălțăminte de protecție clasa S3S"
+      },
+      {
+        "code": "HACK ESD S3S",
+        "description": "încălțăminte de protecție ESD, clasa S3S"
+      },
+      {
+        "code": "TEMPEST RED S5",
+        "description": "cizmă de protecție clasa S5"
+      },
+      {
+        "code": "LIGHT WHITE S5S",
+        "description": "încălțăminte de protecție clasa S5S, culoare deschisă"
+      },
+      {
+        "code": "PIRENEI S7S",
+        "description": "cizmă de protecție clasa S7S"
+      },
+      {
+        "code": "NOZZLE ESD S3S",
+        "description": "încălțăminte de protecție ESD, clasa S3S"
+      },
+      {
+        "code": "MALMO ESD S3S",
+        "description": "încălțăminte de protecție ESD, clasa S3S"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă clasificarea S3S la încălțămintea Cofra?",
+        "a": "Clasificarea S3S arată nivelul de protecție conform standardului european pentru încălțăminte de siguranță: bombeu rezistent la impact, talpă antiperforație și rezistență la apă a feței exterioare, plus talpă cu striații pentru aderență. Modele Cofra precum Vantrek ESD S3S sau Templet ESD S3S adaugă și proprietăți antistatice ESD, utile în medii unde acumularea de electricitate statică trebuie controlată, cum ar fi liniile de asamblare electronică."
+      },
+      {
+        "q": "Ce diferență este între o încălțăminte Cofra ESD și una fără ESD?",
+        "a": "Varianta ESD, precum Fix ESD S3S sau Nozzle ESD S3S, este construită să disipeze controlat electricitatea statică acumulată de purtător, protejând componentele electronice sensibile din mediul de lucru. Modelele fără ESD, precum Barrier S1 sau Globet S1, nu au această proprietate și sunt potrivite pentru activități generale unde riscul electrostatic nu este relevant, dar unde protecția mecanică rămâne necesară."
+      },
+      {
+        "q": "Livrați încălțăminte de protecție Cofra în România?",
+        "a": "Da, aducem modelele Cofra individual, în funcție de mărimea și clasa solicitată, cu un interval tipic de livrare de 2-6 săptămâni, fără stoc pregătit anticipat. Pentru o ofertă corectă avem nevoie de clasa de protecție necesară, mărimea și dacă este necesară proprietatea antistatică ESD."
+      },
+      {
+        "q": "Ce diferență este între clasele S1 și S7S la Cofra?",
+        "a": "Clasa S1 oferă protecție de bază, cu bombeu rezistent la impact și absorbție a energiei la călcâi, potrivită pentru medii uscate de interior. Clasa S7S adaugă rezistență la apă a întregii cizme și protecție suplimentară la perforație, fiind gândită pentru activități în exterior sau pe teren umed, așa cum arată modelele Frejus S7S sau Cermis S7S din gama Cofra."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Cofra","url":"https://cofra.it/en/","publisher":"Cofra S.r.l.","accessed":"2026-09-25"},
       { title: "Cofra — Home", url: "https://cofra.it", publisher: "Cofra S.r.l.", accessed: "2026-09-22" },
       { title: "Cofra — Home (EN)", url: "https://cofra.it/en", publisher: "Cofra S.r.l.", accessed: "2026-09-22" },
     ],
@@ -430,11 +1249,81 @@ Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producăt
     ],
     infinitrade: `Pentru Renishaw lucrăm din informațiile publice ale producătorului, fără date proprii de stoc, și spunem clar clientului ce am confirmat pe site și ce rămâne de verificat la comandă. Aducem palpoare CMM și encodere Renishaw prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită modelul mașinii CMM sau al mașinii-unelte existente, tipul de palpor sau encoder necesar și lungimea de măsurare sau gradul de protecție cerut. Nu promitem disponibilitate permanentă din stoc pentru gama Renishaw — fiecare cerere se verifică individual la producător înainte de confirmarea termenului.`,
     limitation: "Nu putem confirma configurarea software a sistemelor CMM sau a sistemului Equator™ — integrarea și calibrarea software rămân în sarcina integratorului sau a suportului tehnic al producătorului.",
+    productCodes: [
+      {
+        "code": "TP20",
+        "description": "palpator cu schimbare de module pentru mașini-unelte CNC"
+      },
+      {
+        "code": "TP200",
+        "description": "palpator cu schimbare de module, tehnologie mărci tensometrice"
+      },
+      {
+        "code": "TP6",
+        "description": "palpator cinematic cu montare pe filet M8"
+      },
+      {
+        "code": "TP6A",
+        "description": "palpator cinematic cu montare tip autojoint"
+      },
+      {
+        "code": "TP7M",
+        "description": "palpator cu mărci tensometrice, montare tip autojoint"
+      },
+      {
+        "code": "PH20",
+        "description": "cap de palpare motorizat cu palpator TP20 integrat"
+      },
+      {
+        "code": "RMP24-micro",
+        "description": "palpator cu transmisie radio, diametru 24 mm, pentru piese miniaturale"
+      },
+      {
+        "code": "RMP400",
+        "description": "palpator cu transmisie radio, diametru 40 mm"
+      },
+      {
+        "code": "RMP600",
+        "description": "palpator cu transmisie radio, diametru 63 mm"
+      },
+      {
+        "code": "OMP400",
+        "description": "palpator cu transmisie optică, diametru 40 mm"
+      },
+      {
+        "code": "OMP600",
+        "description": "palpator cu transmisie optică, diametru 63 mm"
+      },
+      {
+        "code": "MP250",
+        "description": "palpator cu fir, diametru 25 mm, pentru rectificare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între palpatorii Renishaw RMP400 și OMP400?",
+        "a": "RMP400 transmite semnalul de declanșare prin radio, ceea ce îi oferă o rază de operare de până la 15 metri și îl face potrivit pentru mașini mari sau celule cu mai multe posturi de lucru. OMP400 folosește transmisie optică cu infraroșu, cu o rază mai redusă, de până la 5 metri, dar cu un cost tipic mai scăzut. Ambele au diametrul de 40 mm și repetabilitate unidirecțională de 0,25 µm."
+      },
+      {
+        "q": "Ce este capul de palpare PH20 de la Renishaw?",
+        "a": "PH20 este un cap de palpare motorizat Renishaw care integrează palpatorul TP20 și permite reorientarea rapidă a direcției de palpare fără mișcarea axelor mașinii-unelte, reducând timpul de măsurare a pieselor complexe. Este folosit tipic pe centre de prelucrare unde se cere măsurare frecventă a pieselor direct pe mașină, între operațiile de prelucrare, fără a demonta piesa de pe masă."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de palpatoare Renishaw?",
+        "a": "Renishaw aduce aceste componente strict la cerere, printr-o comandă separată pentru fiecare proiect, iar durata obișnuită până la sosire este de 2-6 săptămâni. Avem nevoie de tipul mașinii pe care se montează palpatorul, fie mașină-unealtă CNC, fie mașină de măsurat în coordonate, diametrul de montaj disponibil și metoda de transmisie preferată, radio, optică sau cu fir."
+      },
+      {
+        "q": "Ce diferență este între TP20 și TP200 la Renishaw?",
+        "a": "TP20 este un palpator cinematic cu schimbare de module, unde diferitele stiluri de palpare se montează și demontează manual sau automat pe același corp de bază. TP200 folosește tehnologie cu mărci tensometrice în locul principiului cinematic clasic, oferind o repetabilitate mai constantă pe toate direcțiile de măsurare. Alegerea depinde de precizia cerută de aplicație și de tipul de piese măsurate."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Renishaw: TP20","url":"https://www.renishaw.com/en/tp20--6670","publisher":"Renishaw plc","accessed":"2026-09-25"},
+      {"title":"Renishaw: High-accuracy touch probes for CNC machines","url":"https://www.renishaw.com/en/omp400-high-accuracy-machine-probe--6089","publisher":"Renishaw plc","accessed":"2026-09-25"},
       { title: "Renishaw — Home", url: "https://www.renishaw.com/", publisher: "Renishaw plc", accessed: "2026-09-22" },
       { title: "Renishaw — Home (root)", url: "https://www.renishaw.com", publisher: "Renishaw plc", accessed: "2026-09-22" },
     ],
@@ -471,11 +1360,106 @@ Pentru România, Anton Paar e relevant pentru laboratoare de control al calită�
     ],
     infinitrade: `Pentru Anton Paar nu dispunem de stoc propriu și lucrăm din informațiile publice ale producătorului atunci când pregătim o ofertă — spunem clar clientului ce am confirmat pe site și ce rămâne de verificat la comandă. Aducem instrumente Anton Paar (densimetre, reometre, senzori de proces) prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită tipul de instrument dorit, fluidul sau materialul măsurat și dacă aplicația e de laborator sau montaj inline pe linia de producție. Nu promitem disponibilitate permanentă din stoc pentru gama Anton Paar — fiecare cerere se verifică individual la producător înainte de confirmarea termenului de livrare.`,
     limitation: "Nu putem confirma calibrarea sau validarea software a instrumentelor de precizie (reometre, senzori inline) — acestea rămân servicii oferite de rețeaua tehnică a producătorului, conform cerințelor de integritate a datelor.",
+    productCodes: [
+      {
+        "code": "DMA 35",
+        "description": "densimetru portabil pentru măsurare rapidă în teren"
+      },
+      {
+        "code": "DMA 35 Basic",
+        "description": "densimetru portabil, versiune de bază"
+      },
+      {
+        "code": "DMA 4200 M",
+        "description": "densimetru de banc pentru laborator"
+      },
+      {
+        "code": "DMA 6002 Sound Velocity",
+        "description": "densimetru cu măsurare simultană a vitezei sunetului"
+      },
+      {
+        "code": "DMA HPM",
+        "description": "celulă de măsurare externă pentru densitate la presiune înaltă"
+      },
+      {
+        "code": "EasyDens",
+        "description": "densimetru inteligent, conectare prin telefon mobil"
+      },
+      {
+        "code": "Ultratap",
+        "description": "tester de densitate aparentă prin tasare"
+      },
+      {
+        "code": "Ultrapyc",
+        "description": "picnometru cu gaz pentru densitatea solidelor și semisolidelor"
+      },
+      {
+        "code": "MCR 503",
+        "description": "reometru modular compact cu zonă de măsurare deschisă"
+      },
+      {
+        "code": "MCR 703",
+        "description": "reometru avansat din gama modulară compactă"
+      },
+      {
+        "code": "RheolabQC",
+        "description": "reometru rotațional pentru control de calitate"
+      },
+      {
+        "code": "SmartMelt 73",
+        "description": "reometru pentru topituri de polimeri"
+      },
+      {
+        "code": "SmartMelt 303",
+        "description": "reometru pentru topituri de polimeri, variantă din serie"
+      },
+      {
+        "code": "SmartPave",
+        "description": "reometru cu forfecare dinamică pentru bitum și asfalt"
+      },
+      {
+        "code": "DSR 502",
+        "description": "cap de măsurare pentru reometrul cu forfecare dinamică"
+      },
+      {
+        "code": "FRS 1600",
+        "description": "vâscozimetru și reometru pentru temperaturi înalte"
+      },
+      {
+        "code": "FRS 1800",
+        "description": "vâscozimetru și reometru pentru temperaturi înalte, variantă din serie"
+      },
+      {
+        "code": "HTR 7000",
+        "description": "sistem automat pentru flux de lucru la reometrie"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este densimetrul Anton Paar EasyDens?",
+        "a": "EasyDens este densimetrul inteligent al Anton Paar, gândit pentru măsurători rapide de densitate direct la locul de producție, cu transferul rezultatelor către un telefon mobil printr-o aplicație dedicată. Este folosit frecvent în industria băuturilor, unde operatorii verifică densitatea unui lichid fără a avea nevoie de un laborator complet echipat, păstrând totuși un nivel de precizie potrivit pentru controlul de proces curent."
+      },
+      {
+        "q": "Ce diferență este între reometrele Anton Paar MCR 503 și MCR 703?",
+        "a": "MCR 503 este un reometru modular compact cu zonă de măsurare deschisă, gândit pentru flexibilitate în configurarea geometriilor de măsurare, în timp ce MCR 703 aparține unei generații mai avansate din aceeași familie, cu performanțe superioare pentru aplicații de cercetare complexă. Ambele fac parte din platforma modulară Anton Paar și acceptă accesorii interschimbabile pentru diferite tipuri de teste reologice."
+      },
+      {
+        "q": "Livrați instrumente Anton Paar în România?",
+        "a": "Da, instrumentele Anton Paar sunt comandate individual pentru fiecare client, sosirea lor durând în mod normal 2-6 săptămâni, gama nefiind ținută în magazin. Pentru o ofertă corectă avem nevoie de tipul de măsurătoare dorită, densitate, vâscozitate sau comportament reologic, și de domeniul de temperatură sau presiune de lucru."
+      },
+      {
+        "q": "Ce este picnometrul Ultrapyc de la Anton Paar?",
+        "a": "Ultrapyc este picnometrul cu gaz al Anton Paar, folosit pentru determinarea densității reale a solidelor și semisolidelor prin deplasare de gaz, o metodă mai precisă decât metodele bazate pe imersie în lichid pentru materiale poroase. Se folosește în laboratoare de cercetare a materialelor, farmaceutic sau al pulberilor industriale, acolo unde porozitatea probei ar denatura rezultatul unei măsurători clasice."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Anton Paar - Products","url":"https://www.anton-paar.com/corp-en/products/","publisher":"Anton Paar GmbH","accessed":"2026-09-25"},
+      {"title":"Density meters - Anton Paar","url":"https://www.anton-paar.com/corp-en/products/group/density-meters/","publisher":"Anton Paar GmbH","accessed":"2026-09-25"},
+      {"title":"Rheometers - Anton Paar","url":"https://www.anton-paar.com/corp-en/products/group/rheometer/","publisher":"Anton Paar GmbH","accessed":"2026-09-25"},
       { title: "Anton Paar — Home", url: "https://www.anton-paar.com/corp-en/", publisher: "Anton Paar GmbH", accessed: "2026-09-22" },
       { title: "Anton Paar — Wikipedia", url: "https://en.wikipedia.org/wiki/Anton_Paar", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],

@@ -35,11 +35,92 @@ Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite
     certifications: ["ATEX 2014/34/UE — pentru gama de dispozitive certificate în zone cu risc de explozie"],
     infinitrade: `Aducem componente Schmersal la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Nu depăstrăm stoc propriu pentru gama Schmersal și nu promitem disponibilitate permanentă. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau, dacă nu-l cunoașteți, de tipul de apărător și nivelul de performanță de siguranță cerut de analiza de risc. Datele tehnice provin din surse publice ale producătorului.`,
     limitation: "Nu putem confirma disponibilitatea unei piese anume fără verificare punctuală la furnizor și nu oferim servicii de programare a controlerelor de siguranță software-configurabile.",
+    productCodes: [
+      {
+        "code": "AZ215",
+        "description": "Întrerupător de siguranță cu acționare separată, carcasă compactă"
+      },
+      {
+        "code": "AZ216",
+        "description": "Variantă a seriei AZ215 cu funcție suplimentară de blocare"
+      },
+      {
+        "code": "AZ315",
+        "description": "Întrerupător de siguranță cu acționare laterală, carcasă din policarbonat"
+      },
+      {
+        "code": "AZ316",
+        "description": "Variantă a seriei AZ315 cu contacte suplimentare de semnalizare"
+      },
+      {
+        "code": "AZM150",
+        "description": "Blocare de siguranță cu solenoid și forță de reținere ridicată"
+      },
+      {
+        "code": "BNS",
+        "description": "Întrerupător de siguranță cu acționare separată, gamă compactă și robustă"
+      },
+      {
+        "code": "SLC440COM",
+        "description": "Perdea optică de siguranță cu comunicare integrată pe magistrală"
+      },
+      {
+        "code": "SLG440COM",
+        "description": "Grilaj optic de siguranță cu comunicare integrată pe magistrală"
+      },
+      {
+        "code": "SLC/SLG440 Ex",
+        "description": "Variantă antiex a perdelelor și grilajelor optice pentru zone cu risc de explozie"
+      },
+      {
+        "code": "BDF20",
+        "description": "Panou de comandă pentru semnalizare și diagnoză a sistemelor de siguranță"
+      },
+      {
+        "code": "SD Gateway",
+        "description": "Modul gateway pentru integrarea rețelelor de siguranță pe magistrala de teren"
+      },
+      {
+        "code": "PROTECT SRB",
+        "description": "Releu de siguranță modular pentru monitorizarea circuitelor de oprire de urgență"
+      },
+      {
+        "code": "SFB",
+        "description": "Cutie de conectare rapidă pentru cablarea senzorilor de siguranță"
+      },
+      {
+        "code": "DHS",
+        "description": "Sistem de mâner pentru uși cu funcție integrată de blocare"
+      },
+      {
+        "code": "AM-T100",
+        "description": "Cameră cu tehnologie time-of-flight pentru monitorizarea zonelor de siguranță"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între întrerupătoarele Schmersal seria AZ215 și AZ315?",
+        "a": "AZ215 folosește o cheie de acționare separată, potrivită pentru uși culisante sau detașabile, în timp ce AZ315 are o construcție cu acționare laterală și carcasă din policarbonat, adaptată mediilor cu praf sau umiditate. Ambele fac parte din familia de întrerupătoare de siguranță fără contact fizic direct între cheie și mecanismul de blocare. Alegerea depinde de tipul ușii de protecție, de direcția de acționare disponibilă și de cerințele de nivel de performanță al funcției de siguranță."
+      },
+      {
+        "q": "Cum aleg un gateway SD potrivit pentru un sistem Schmersal?",
+        "a": "Alegerea pornește de la protocolul de rețea folosit deja în automatizare, deoarece gateway-ul SD traduce semnalele dispozitivelor de siguranță Schmersal către magistrala de teren a fabricii. Contează numărul de dispozitive de conectat, tipul de întrerupătoare și senzori din instalație, precum și dacă se dorește diagnoză extinsă la nivel de bit. Recomandăm consultarea fișei tehnice publicate de Schmersal pentru compatibilitatea exactă cu automatul programabil folosit."
+      },
+      {
+        "q": "Livrați echipamente de siguranță Schmersal în România?",
+        "a": "Da, aducem la comandă întrerupătoare, blocări cu solenoid și perdele optice din portofoliul Schmersal, pornind de la codul exact al produsului. Nu ținem această gamă pe raft, iar termenul obișnuit este de două până la șase săptămâni, în funcție de disponibilitatea publicată de producător. Recomandăm transmiterea codului complet și, dacă este posibil, o poză cu eticheta echipamentului existent pentru identificare corectă."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă la un întrerupător de siguranță?",
+        "a": "Este nevoie de codul complet al produsului de pe carcasă sau din schema electrică, tensiunea și tipul contactelor necesare, precum și categoria de siguranță cerută de aplicație. Dacă echipamentul este deja montat, o fotografie clară a plăcuței de identificare ajută la evitarea confuziei între variantele apropiate din aceeași familie. Menționarea standardului de siguranță aplicabil instalației grăbește pregătirea ofertei corecte."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Schmersal – Products","url":"https://www.schmersal.com/en/products/","publisher":"Schmersal","accessed":"2026-09-25"},
       { title: "Schmersal — pagina principală (EN)", url: "https://www.schmersal.com/en/", publisher: "K.A. Schmersal GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Schmersal — istoricul companiei", url: "https://www.schmersal.com/en/company/history/", publisher: "K.A. Schmersal GmbH & Co. KG", accessed: "2026-09-22" }
     ]
@@ -77,11 +158,80 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
     ],
     infinitrade: `Nu păstrăm stoc propriu de reductoare pentru gama Wittenstein alpha — vă aducem produsul prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Avem nevoie de cuplul aplicației, raportul de transmisie dorit și orientarea axelor pentru o ofertă corectă. Informațiile tehnice provin din surse publice ale producătorului, verificate în această sesiune.`,
     limitation: "Nu putem confirma disponibilitate permanentă din stoc pentru o mărime anume de reductor și nu oferim service în perioada de garanție a producătorului pentru unitățile deja montate de alt furnizor.",
+    productCodes: [
+      {
+        "code": "RP+",
+        "description": "Reductor planetar cu flanșă de ieșire, pentru forțe axiale și radiale mari"
+      },
+      {
+        "code": "XP+",
+        "description": "Reductor planetar cu densitate mare de putere pentru spații compacte"
+      },
+      {
+        "code": "TP+",
+        "description": "Reductor planetar compact cu rigiditate torsională ridicată și flanșă de ieșire"
+      },
+      {
+        "code": "SP+",
+        "description": "Reductor planetar pentru precizie mare de poziționare și dinamică ridicată"
+      },
+      {
+        "code": "NP",
+        "description": "Reductor planetar din gama economică, cu variantă mare de rapoarte"
+      },
+      {
+        "code": "NTP",
+        "description": "Variantă a seriei economice NP cu opțiuni speciale de fixare"
+      },
+      {
+        "code": "NPR",
+        "description": "Variantă unghiulară din familia economică de reductoare planetare NP"
+      },
+      {
+        "code": "NPS",
+        "description": "Variantă cu ax de ieșire din familia economică de reductoare NP"
+      },
+      {
+        "code": "NPL",
+        "description": "Variantă cu flanșă prelungită din familia economică de reductoare NP"
+      },
+      {
+        "code": "NPT",
+        "description": "Variantă cu ax filetat din familia economică de reductoare NP"
+      },
+      {
+        "code": "Galaxie G",
+        "description": "Reductor planetar fără joc, pentru productivitate și calitate ridicată a procesului"
+      },
+      {
+        "code": "CP",
+        "description": "Reductor planetar de bază, soluție economică cu personalizare extinsă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între reductoarele Wittenstein alpha TP+ și SP+?",
+        "a": "TP+ pune accent pe rigiditate torsională ridicată și cuplu mare la ieșire, potrivit pentru axe care preiau sarcini variabile. SP+ este optimizat pentru precizie de poziționare și dinamică ridicată, folosit acolo unde repetabilitatea mișcării contează mai mult decât cuplul maxim. Alegerea între cele două ține de aplicație: manipulare grea versus mișcare rapidă și repetitivă cu toleranțe strânse la sarcini axiale și radiale."
+      },
+      {
+        "q": "Cum aleg reductorul planetar Wittenstein alpha potrivit pentru un servomotor?",
+        "a": "Pornim de la cuplul nominal și de vârf cerut de aplicație, raportul de transmisie necesar și tipul de montaj al motorului, apoi verificăm compatibilitatea flanșei cu servomotorul existent. Jocul unghiular admis diferențiază gamele: Galaxie G pentru aplicații fără joc, RP+ și TP+ pentru sarcini mari, NP pentru soluții economice. Datele exacte de interfață mecanică se confirmă din cataloagele publice ale producătorului."
+      },
+      {
+        "q": "Livrați reductoare Wittenstein alpha în România?",
+        "a": "Da, aducem la comandă reductoare planetare din gamele RP+, TP+, SP+, NP sau Galaxie G, în funcție de codul exact solicitat. Nu avem raft propriu pentru această gamă, iar orientarea de livrare publicată de producător este de aproximativ două până la șase săptămâni. Este utilă transmiterea desenului de interfață mecanică sau a codului complet de pe reductorul existent."
+      },
+      {
+        "q": "Ce este tehnologia Galaxie G de la Wittenstein alpha?",
+        "a": "Galaxie G este o construcție planetară fără joc unghiular, bazată pe un principiu constructiv diferit de reductoarele planetare clasice cu roți dințate în cascadă. Este destinată aplicațiilor unde precizia de poziționare și repetabilitatea mișcării trebuie menținute constant, chiar la sarcini axiale ridicate. Gama acoperă rapoarte de transmisie și cupluri publicate de producător pentru diverse dimensiuni de servomotoare."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"WITTENSTEIN alpha – Servo Gearboxes","url":"https://www.wittenstein-group.com/en-us/products/servo-gearboxes/","publisher":"Wittenstein","accessed":"2026-09-25"},
       { title: "Wittenstein group — prezentare produse (SUA/global)", url: "https://www.wittenstein-group.com/en-us/products/servo-gearboxes/", publisher: "WITTENSTEIN SE", accessed: "2026-09-22" },
       { title: "Wittenstein — prezența în România", url: "https://www.wittenstein-group.com/int-en/romania", publisher: "WITTENSTEIN SE", accessed: "2026-09-22" }
     ]
@@ -285,11 +435,97 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
     ],
     infinitrade: `Furnizăm produse Sika prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă pentru cantitățile care depășesc stocul curent de la distribuitorii locali. Nu avem date proprii despre stocul disponibil la un moment dat în depozitele din România — verificăm punctual disponibilitatea înainte de a confirma o cantitate și un termen. Pentru o ofertă corectă avem nevoie de suprafața sau volumul lucrării, tipul de substrat și condițiile de expunere (chimică, mecanică, termică) ale aplicației. Informațiile despre gamă provin din surse publice ale producătorului și din prezentarea Sika România, verificate în această sesiune.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unor cantități mari fără verificare la depozitul local și nu oferim consultanță de aplicare pe șantier ca serviciu separat.",
+    productCodes: [
+      {
+        "code": "Sikaflex",
+        "description": "Adeziv-etanșant elastic pentru îmbinări industriale și structurale"
+      },
+      {
+        "code": "Sikadur",
+        "description": "Sistem epoxidic pentru reparații și ranforsarea structurală a betonului"
+      },
+      {
+        "code": "Sikafloor",
+        "description": "Pardoseală industrială rezistentă la trafic greu și agenți chimici"
+      },
+      {
+        "code": "SikaBond",
+        "description": "Adeziv de construcție pentru lipirea elementelor structurale și a pardoselilor"
+      },
+      {
+        "code": "Sika CarboDur",
+        "description": "Lamele din fibră de carbon pentru ranforsarea elementelor de beton"
+      },
+      {
+        "code": "Sika AnchorFix",
+        "description": "Ancoră chimică pentru fixarea elementelor structurale în beton și zidărie"
+      },
+      {
+        "code": "Sikagard-850",
+        "description": "Acoperire de protecție decorativă pentru suprafețe de beton"
+      },
+      {
+        "code": "Sikagard-5500",
+        "description": "Sistem de acoperire protectoare pentru pardoseli și pereți industriali"
+      },
+      {
+        "code": "SikaWall 6400 Essential",
+        "description": "Sistem de finisare și protecție pentru pereți industriali"
+      },
+      {
+        "code": "Purform",
+        "description": "Platformă tehnologică poliuretanică folosită în adezivi și etanșanți"
+      },
+      {
+        "code": "SikaProof A+",
+        "description": "Membrană de hidroizolație pre-aplicată direct pe cofraj, cu aderență la beton"
+      },
+      {
+        "code": "SikaProof",
+        "description": "Membrană de hidroizolație pentru fundații și structuri îngropate"
+      },
+      {
+        "code": "Sikaplan WP/WT",
+        "description": "Membrană sintetică pentru hidroizolația acoperișurilor industriale"
+      },
+      {
+        "code": "Sikaplan 1650",
+        "description": "Membrană de hidroizolație pe bază de PVC pentru acoperișuri"
+      },
+      {
+        "code": "Sikaplan 1651/1652/1653",
+        "description": "Variante de membrană sintetică pentru acoperișuri industriale plate"
+      },
+      {
+        "code": "Sika Bentoshield",
+        "description": "Membrană autovindecătoare pe bază de bentonită, pentru hidroizolația fundațiilor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între Sikaflex și SikaBond pentru lipirea elementelor de construcție?",
+        "a": "Sikaflex este un adeziv-etanșant elastic, folosit acolo unde îmbinarea trebuie să preia mișcări și vibrații, de exemplu la panouri sau elemente metalice. SikaBond este orientat spre lipirea rigidă a elementelor structurale sau a pardoselilor, unde deformarea admisă este mult mai mică. Alegerea corectă depinde de tipul materialelor îmbinate și de solicitările mecanice așteptate pe durata de viață a construcției."
+      },
+      {
+        "q": "Livrați produse Sika în România la comandă?",
+        "a": "Da, aducem la comandă produse din gamele Sikaflex, Sikadur, Sikafloor sau membranele Sikaplan, pe baza codului exact al produsului dorit. Nu ținem această gamă pe raft; orientarea publică de disponibilitate a producătorului este de câteva săptămâni, de regulă între două și șase. Fișa tehnică a produsului ajută la confirmarea compatibilității cu suportul existent."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de membrană Sikaplan?",
+        "a": "Este utilă suprafața aproximativă de acoperit, tipul suportului pe care se montează membrana și dacă acoperișul este plat sau înclinat. Contează și dacă se dorește o variantă expusă direct la intemperii sau protejată cu balast, deoarece influențează grosimea și varianta de membrană recomandată. Menționarea condițiilor climatice locale ajută la alegerea corectă din gama Sikaplan."
+      },
+      {
+        "q": "Ce este tehnologia Purform folosită de Sika în adezivi?",
+        "a": "Purform este o platformă de formulare poliuretanică dezvoltată de Sika, folosită la o parte din adezivii și etanșanții din portofoliu pentru a îmbunătăți performanța și comportamentul la aplicare. Nu este un produs de sine stătător, ci o tehnologie internă regăsită în specificațiile mai multor produse din gamă. Detaliile exacte de compoziție rămân publicate doar în fișele tehnice ale fiecărui produs."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Sika România – Despre noi","url":"https://rou.sika.com/ro/despre-noi/sika-romania.html","publisher":"Sika","accessed":"2026-09-25"},
+      {"title":"Sika – Waterproofing","url":"https://gbr.sika.com/en/construction/waterproofing.html","publisher":"Sika","accessed":"2026-09-25"},
       { title: "Sika România — despre Sika Romania", url: "https://rou.sika.com/ro/despre-noi/sika-romania.html", publisher: "Sika Services AG", accessed: "2026-09-22" },
       { title: "Sika AG", url: "https://en.wikipedia.org/wiki/Sika_AG", publisher: "Wikipedia", accessed: "2026-09-22" }
     ]
@@ -325,11 +561,80 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
     certifications: ["ISO 9001 — management al calității", "ISO 14001 — management de mediu"],
     infinitrade: `Nu păstrăm stoc propriu de motoare Oriental Motor — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de mișcare dorită (poziționare sau rotație continuă), cuplul necesar, viteza de lucru și dacă aplicația cere feedback de poziție prin encoder. Fără date proprii de stoc pentru această gamă, verificăm disponibilitatea la fiecare cerere înainte de a confirma un termen ferm. Informațiile tehnice generale provin din site-ul producătorului, accesat în această sesiune de lucru, iar pentru dimensionarea exactă a motorului recomandăm o discuție tehnică prealabilă.`,
     limitation: "Nu putem confirma anul fondării sau sediul central exact al companiei, pentru că nu au fost vizibile pe paginile accesate, și nu oferim programarea controlerelor motoarelor ca serviciu.",
+    productCodes: [
+      {
+        "code": "αSTEP",
+        "description": "Motor step-servo cu control în buclă închisă și feedback de poziție"
+      },
+      {
+        "code": "PKP",
+        "description": "Motor pas cu pas de uz general pentru automatizări industriale"
+      },
+      {
+        "code": "CVK/SC",
+        "description": "Motor pas cu pas cu control de viteză integrat"
+      },
+      {
+        "code": "OVR",
+        "description": "Robot industrial în variantă SCARA, articulată sau carteziană"
+      },
+      {
+        "code": "MRC",
+        "description": "Controler dedicat pentru roboții industriali din gama Oriental Motor"
+      },
+      {
+        "code": "BLV",
+        "description": "Motor brushless DC pentru cupluri mari la turații reduse"
+      },
+      {
+        "code": "EAS/AR",
+        "description": "Actuator liniar cu ghidaj tip slider pentru poziționare precisă"
+      },
+      {
+        "code": "DRLII",
+        "description": "Actuator liniar rotativ compact pentru mișcări combinate"
+      },
+      {
+        "code": "EH",
+        "description": "Gripper electric pentru manipularea și prinderea pieselor"
+      },
+      {
+        "code": "EZS",
+        "description": "Actuator electric cilindric compact pentru curse scurte de poziționare"
+      },
+      {
+        "code": "DGII",
+        "description": "Masă rotativă goală acționată de motor pas cu pas în buclă închisă"
+      },
+      {
+        "code": "BL",
+        "description": "Motor brushless DC de uz general pentru echipamente industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între motoarele Oriental Motor αSTEP și PKP?",
+        "a": "αSTEP este un motor step-servo cu buclă închisă, care corectează automat abaterile de poziție și menține cuplul chiar la sarcini variabile. PKP este un motor pas cu pas clasic, în buclă deschisă, potrivit pentru aplicații unde poziționarea nu necesită feedback continuu. Alegerea depinde de precizia cerută de aplicație și de riscul de pierdere a pașilor la sarcini neregulate sau șocuri mecanice."
+      },
+      {
+        "q": "Livrați motoare Oriental Motor în România la comandă?",
+        "a": "Da, aducem la comandă motoare și actuatoare din gamele αSTEP, PKP, BLV sau EAS/AR, în funcție de codul complet solicitat de client. Nu avem raft propriu pentru această gamă, iar termenul orientativ de aprovizionare publicat este de două până la șase săptămâni. Recomandăm transmiterea codului de pe eticheta motorului sau din documentația echipamentului existent."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la un actuator Oriental Motor?",
+        "a": "Sunt necesare cursa de lucru dorită, sarcina transportată și viteza de deplasare cerută de aplicație, precum și tipul de montaj disponibil pe echipament. Dacă actuatorul înlocuiește un model existent, codul complet sau dimensiunile de interfață mecanică ajută la identificarea variantei echivalente. Menționarea mediului de lucru, cu praf sau umiditate, influențează alegerea gradului de protecție potrivit."
+      },
+      {
+        "q": "Ce este seria DGII de la Oriental Motor?",
+        "a": "DGII este o masă rotativă goală, acționată de un motor pas cu pas cu buclă închisă, folosită pentru poziționarea pieselor pe o axă rotativă în celule de asamblare sau inspecție. Deschiderea centrală permite trecerea cablurilor sau a altor componente prin masă. Rapoartele de reducere și cuplurile disponibile variază în funcție de dimensiunea aleasă din catalogul producătorului."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Oriental Motor – Products","url":"https://www.orientalmotor.com/products/index.html","publisher":"Oriental Motor","accessed":"2026-09-25"},
       { title: "Oriental Motor U.S.A. Corp. — pagina principală", url: "https://www.orientalmotor.com", publisher: "Oriental Motor U.S.A. Corp.", accessed: "2026-09-22" },
       { title: "Oriental Motor — prezentare produse", url: "https://www.orientalmotor.com/products/index.html", publisher: "Oriental Motor U.S.A. Corp.", accessed: "2026-09-22" }
     ]
@@ -366,11 +671,72 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
     ],
     infinitrade: `Aducem echipament uvex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru cantități mai mari decât stocul curent al distribuitorilor locali. Pentru o ofertă corectă avem nevoie de mărimile necesare, clasele de protecție cerute (de exemplu FFP2 sau S3) și numărul de bucăți per categorie de echipament. Nu depăstrăm stoc propriu pentru toată gama și nu promitem disponibilitate permanentă pe fiecare mărime — verificăm punctual înainte de confirmare. Datele despre produse provin din surse publice ale producătorului, accesate în această sesiune de lucru.`,
     limitation: "Nu putem confirma toate certificările specifice fiecărui produs fără fișa tehnică individuală și nu oferim personalizare cu însemne proprii ca serviciu direct.",
+    productCodes: [
+      {
+        "code": "uvex pheos",
+        "description": "Ochelari de protecție cu design ergonomic și câmp vizual larg"
+      },
+      {
+        "code": "uvex ultrashield",
+        "description": "Ochelari de protecție cu tratament anti-zgâriere și anti-aburire de lungă durată"
+      },
+      {
+        "code": "uvex phynomic",
+        "description": "Mănuși de protecție la tăiere, subțiri și cu aderență ridicată"
+      },
+      {
+        "code": "uvex profi pure",
+        "description": "Mănuși din nitril fără pulbere pentru manipulare de precizie"
+      },
+      {
+        "code": "uvex 1 x craft",
+        "description": "Încălțăminte de protecție ușoară pentru șantier și lucrări de construcții"
+      },
+      {
+        "code": "uvex 1 sport",
+        "description": "Încălțăminte de protecție cu design de tip pantof sportiv"
+      },
+      {
+        "code": "uvex 3 asphaltpro",
+        "description": "Încălțăminte de protecție rezistentă la căldură pentru lucrări cu asfalt"
+      },
+      {
+        "code": "uvex silv-Air",
+        "description": "Mască de protecție respiratorie disponibilă în clasele FFP1, FFP2 și FFP3"
+      },
+      {
+        "code": "uvex i-works",
+        "description": "Configurator online pentru selecția ochelarilor de protecție potriviți postului de lucru"
+      },
+      {
+        "code": "uvex UV-400",
+        "description": "Filtru de protecție împotriva radiației ultraviolete pentru lentilele de protecție"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între ochelarii uvex pheos și uvex ultrashield?",
+        "a": "uvex pheos pune accent pe un design ergonomic și un câmp vizual larg, potrivit pentru purtare îndelungată în timpul zilei de lucru. uvex ultrashield adaugă un tratament de lentilă cu durabilitate mărită la zgâriere și aburire, util în medii cu variații de temperatură sau umiditate. Alegerea între cele două ține de condițiile concrete de lucru și de durata purtării continue a ochelarilor."
+      },
+      {
+        "q": "Livrați echipamente de protecție uvex în România?",
+        "a": "Da, aducem la comandă ochelari, mănuși și încălțăminte de protecție din gama uvex, pornind de la codul sau denumirea exactă a produsului. Nu ținem această gamă pe raft, iar orientarea de disponibilitate publicată de producător este de aproximativ două până la șase săptămâni. Recomandăm precizarea mărimii și a standardului de protecție cerut de fișa postului."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o comandă de mănuși uvex phynomic?",
+        "a": "Este necesară mărimea mâinii conform standardului folosit de uvex, precum și tipul de risc mecanic prezent la locul de muncă: tăiere, abraziune sau perforare. Dacă mănușile sunt folosite lângă ulei sau alte substanțe, menționați și acest lucru, deoarece influențează varianta de acoperire recomandată. Cantitatea estimată ajută la stabilirea unui termen realist de aprovizionare."
+      },
+      {
+        "q": "Ce clase de protecție respiratorie are masca uvex silv-Air?",
+        "a": "Masca uvex silv-Air este disponibilă în clasele FFP1, FFP2 și FFP3, fiecare corespunzând unui nivel diferit de filtrare a particulelor din aer. Alegerea clasei potrivite depinde de tipul și concentrația de praf sau aerosoli prezenți la locul de muncă, stabilite de obicei prin evaluarea de risc a angajatorului. Confortul la purtare variază între modele, în funcție de forma măștii."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"uvex safety România","url":"https://www.uvex-safety.ro/ro/","publisher":"uvex","accessed":"2026-09-25"},
       { title: "Uvex Safety România — pagina principală", url: "https://www.uvex-safety.ro/ro/", publisher: "Uvex Arbeitsschutz GmbH", accessed: "2026-09-22" },
       { title: "Uvex Group — despre companie", url: "https://www.uvex-group.com/en/company/", publisher: "Uvex Winter Holding GmbH & Co. KG", accessed: "2026-09-22" }
     ]
@@ -407,11 +773,92 @@ Pentru laboratoarele de proiectare electronică și centrele de testare din Rom�
     ],
     infinitrade: `Nu păstrăm stoc propriu de osciloscoape Keysight — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de banda de frecvență necesară, numărul de canale (analogice și digitale) și dacă aplicația cere funcții suplimentare precum analiza de protocol. Informația de disponibilitate depinde de producător la momentul comenzii — surse indisponibile pentru stoc local nu ne permit să promitem un termen mai scurt decât cel orientativ. Parametrii tehnici din acest text provin din site-ul producătorului, verificat în această sesiune de lucru.`,
     limitation: "Nu putem confirma configurația software exactă (licențe, opțiuni de analiză) fără o discuție tehnică prealabilă și nu oferim calibrare metrologică ca serviciu propriu.",
+    productCodes: [
+      {
+        "code": "InfiniiVision",
+        "description": "Familie de osciloscoape de nivel introductiv și mediu"
+      },
+      {
+        "code": "Infiniium",
+        "description": "Familie de osciloscoape de înaltă performanță pentru laborator"
+      },
+      {
+        "code": "XR1",
+        "description": "Clasă de osciloscop din gama Essential, cu funcții de bază"
+      },
+      {
+        "code": "XR2",
+        "description": "Clasă de osciloscop din gama Essential, cu funcții suplimentare de analiză"
+      },
+      {
+        "code": "XR3",
+        "description": "Clasă superioară a gamei Essential, cu lățime de bandă mai mare"
+      },
+      {
+        "code": "XR4",
+        "description": "Clasă de osciloscop din gama Advanced"
+      },
+      {
+        "code": "XR5",
+        "description": "Clasă superioară a gamei Advanced, cu performanță crescută de eșantionare"
+      },
+      {
+        "code": "XR6",
+        "description": "Clasă de osciloscop din gama Expert"
+      },
+      {
+        "code": "XR8",
+        "description": "Clasă de osciloscop din gama Pro, cu procesare multicore pe 12 biți"
+      },
+      {
+        "code": "XR9",
+        "description": "Clasă superioară a gamei Pro, pentru cele mai exigente aplicații"
+      },
+      {
+        "code": "MSOX6004A",
+        "description": "Osciloscop cu semnal mixt din clasa Advanced, exemplu de model"
+      },
+      {
+        "code": "MXR054B",
+        "description": "Osciloscop din clasa Expert, exemplu de model de catalog"
+      },
+      {
+        "code": "MXR258A",
+        "description": "Osciloscop din clasa Expert, model cu lățime de bandă extinsă"
+      },
+      {
+        "code": "UXR0504B",
+        "description": "Osciloscop din clasa Pro, model de catalog cu patru canale"
+      },
+      {
+        "code": "UXR0702B",
+        "description": "Osciloscop din clasa Pro, model de catalog cu două canale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între gamele Essential și Advanced la osciloscoapele Keysight?",
+        "a": "Gama Essential, cu clasele XR1 până la XR3, acoperă nevoile de bază de vizualizare și măsurare a semnalelor, la un buget mai redus. Gama Advanced, cu clasele XR4 și XR5, adaugă lățime de bandă mai mare și funcții de analiză suplimentare, utile în depanarea unor semnale mai complexe. Alegerea corectă depinde de tipul de semnale măsurate și de bugetul disponibil pentru echipament."
+      },
+      {
+        "q": "Livrați osciloscoape Keysight Technologies în România?",
+        "a": "Da, aducem la comandă osciloscoape din gamele InfiniiVision și Infiniium, pe baza modelului exact solicitat de client. Nu avem raft propriu pentru această gamă, iar termenul obișnuit de aprovizionare publicat este de câteva săptămâni, între două și șase. Este utilă precizarea numărului de canale și a lățimii de bandă necesare aplicației."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la un osciloscop Keysight?",
+        "a": "Sunt necesare numărul de canale, lățimea de bandă minimă cerută de semnalele măsurate și tipul de aplicație: dezvoltare, producție sau service. Dacă osciloscopul înlocuiește un model existent, codul complet ajută la găsirea unui echivalent din gama actuală. Menționarea accesoriilor dorite, precum sonde specifice, evită corespondența ulterioară pentru completarea comenzii."
+      },
+      {
+        "q": "Ce înseamnă clasele XR de la osciloscoapele Keysight?",
+        "a": "Clasele XR, de la XR1 la XR9, grupează osciloscoapele Keysight după nivelul de performanță, de la Essential la Pro, indiferent de familia InfiniiVision sau Infiniium din care fac parte. Cu cât numărul clasei este mai mare, cu atât cresc de regulă lățimea de bandă și viteza de eșantionare disponibilă. Alegerea clasei potrivite pornește de la caracteristicile semnalului care trebuie măsurat."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Keysight – Oscilloscopes","url":"https://www.keysight.com/us/en/products/oscilloscopes.html","publisher":"Keysight Technologies","accessed":"2026-09-25"},
       { title: "Keysight — osciloscoape", url: "https://www.keysight.com/us/en/products/oscilloscopes.html", publisher: "Keysight Technologies, Inc.", accessed: "2026-09-22" },
       { title: "Keysight", url: "https://en.wikipedia.org/wiki/Keysight", publisher: "Wikipedia", accessed: "2026-09-22" }
     ]
@@ -448,11 +895,84 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
     ],
     infinitrade: `Aducem senzori di-soric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de tipul de material detectat, distanța de detecție necesară și tipul de montaj (pe linie, în tub sau pe ghidaj). Nu deținem produse pe stoc propriu pentru această gamă și nu promitem o cantitate disponibilă imediat — verificăm la fiecare cerere înainte de confirmare. Informațiile tehnice din acest text provin din site-ul producătorului, accesat în această sesiune, iar pentru un caz special de montaj recomandăm discutarea aplicației exacte înainte de a alege modelul.`,
     limitation: "Nu putem confirma compatibilitatea electrică exactă cu un controler existent fără fișa tehnică a instalației și nu oferim programarea software-ului de viziune ca serviciu separat.",
+    productCodes: [
+      {
+        "code": "IRSD",
+        "description": "Senzor inductiv inelar pentru detecția obiectelor metalice pe linii de producție"
+      },
+      {
+        "code": "INS Standard",
+        "description": "Senzor inductiv de proximitate în variantă standard"
+      },
+      {
+        "code": "INSM Standard Miniature",
+        "description": "Senzor inductiv miniatural pentru spații de montaj restrânse"
+      },
+      {
+        "code": "O-21 Miniature",
+        "description": "Senzor fotoelectric miniatural cu barieră optică"
+      },
+      {
+        "code": "US-M18",
+        "description": "Senzor cu ultrasunete de generația a doua, cu interfață IO-Link"
+      },
+      {
+        "code": "KGUTI",
+        "description": "Senzor capacitiv pentru detecția etichetelor, cu interfață IO-Link"
+      },
+      {
+        "code": "KNS Extended",
+        "description": "Senzor capacitiv de proximitate cu rază extinsă de detecție și IO-Link"
+      },
+      {
+        "code": "KSS",
+        "description": "Senzor capacitiv pentru etichete, model din gama istorică di-soric"
+      },
+      {
+        "code": "CS-60",
+        "description": "Senzor de viziune pentru inspecție și control de calitate"
+      },
+      {
+        "code": "CS-50",
+        "description": "Senzor de viziune compact pentru sarcini simple de detecție"
+      },
+      {
+        "code": "PS-30",
+        "description": "Senzor optoelectronic de profil cu scanare de tip linie laser"
+      },
+      {
+        "code": "LAT-52/LVHT-52",
+        "description": "Senzor de distanță cu laser, cu interfață IO-Link"
+      },
+      {
+        "code": "OGWSD/OGWTI",
+        "description": "Barieră optică tip cadru, cu interfață IO-Link"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între senzorii di-soric INS Standard și INSM Standard Miniature?",
+        "a": "INS Standard este un senzor inductiv de proximitate în dimensiune obișnuită, potrivit pentru montaje unde spațiul nu este o restricție. INSM Standard Miniature oferă aceeași funcție de detecție, dar într-o carcasă miniaturală, gândită pentru zone de montaj foarte înguste din interiorul mașinilor. Alegerea depinde de spațiul disponibil și de distanța de comutare cerută de aplicație."
+      },
+      {
+        "q": "Livrați senzori di-soric în România la comandă?",
+        "a": "Da, aducem la comandă senzori inductivi, optici, capacitivi și cu ultrasunete din gama di-soric, pe baza codului exact al produsului. Nu ținem această gamă pe raft, iar termenul orientativ publicat de producător este de două până la șase săptămâni. Recomandăm transmiterea codului complet de pe eticheta senzorului existent pentru identificare corectă."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă la un senzor di-soric?",
+        "a": "Sunt necesare distanța de comutare dorită, tipul de obiect detectat și tensiunea de alimentare disponibilă în instalație, precum și tipul conectorului folosit. Dacă senzorul înlocuiește un model existent, o fotografie a corpului și a codului de pe carcasă ajută la identificarea variantei echivalente actuale. Menționarea mediului de lucru, cu praf sau umiditate, influențează gradul de protecție necesar."
+      },
+      {
+        "q": "Ce este interfața IO-Link folosită la senzorii di-soric?",
+        "a": "IO-Link este un protocol de comunicare punct la punct care permite senzorului să transmită, pe lângă semnalul de comutare, informații suplimentare precum valori măsurate, parametri de configurare și diagnoză de funcționare. Modelele di-soric cu IO-Link, precum US-M18 sau LAT-52, pot fi parametrizate de la distanță prin automat, fără reglaje manuale pe senzor. Este utilă mai ales în linii cu multe puncte de detecție."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"di-soric – Company","url":"https://www.di-soric.com/int-en/company","publisher":"di-soric","accessed":"2026-09-25"},
       { title: "di-soric — prezența în România", url: "https://www.di-soric.com/int-en/international/international/europe/romania", publisher: "di-soric GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "di-soric — compania", url: "https://www.di-soric.com/int-en/company", publisher: "di-soric GmbH & Co. KG", accessed: "2026-09-22" }
     ]
@@ -491,11 +1011,77 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
     certifications: ["ISO 9001:2015 — pentru operațiunile de service ale entității din România"],
     infinitrade: `Furnizăm instrumente Hanna Instruments prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru echipamentele care depășesc stocul curent al entității din România. Pentru o ofertă corectă avem nevoie de parametrii de măsurat, domeniul de valori necesar și dacă instrumentul va fi folosit pe teren sau montat permanent în proces. Surse publice ale producătorului confirmă gama de produse și prezența locală din 2006, dar nu avem date proprii despre stocul exact disponibil la un moment dat — verificăm punctual la fiecare cerere. Datele din acest text au fost verificate direct pe site-ul entității din România.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unui model specific fără verificare punctuală și nu oferim calibrare metrologică acreditată ca serviciu propriu.",
+    productCodes: [
+      {
+        "code": "HI98190",
+        "description": "pH-metru și ORP-metru portabil de nivel profesional"
+      },
+      {
+        "code": "HI2020",
+        "description": "Multiparametru edge cu electrozi digitali interschimbabili"
+      },
+      {
+        "code": "HI98594",
+        "description": "Multiparametru portabil pentru oxigen dizolvat, cu conexiune Bluetooth"
+      },
+      {
+        "code": "HI6553-02",
+        "description": "Multiparametru modular de laborator pentru mai mulți parametri de calitate a apei"
+      },
+      {
+        "code": "BL136",
+        "description": "Controler automat de piscină cu funcție de electroliză salină"
+      },
+      {
+        "code": "BL131",
+        "description": "Controler pentru piscine și spa, cu monitorizare de bază a parametrilor"
+      },
+      {
+        "code": "BL132",
+        "description": "Controler pentru piscine și spa, variantă cu funcții suplimentare de reglaj"
+      },
+      {
+        "code": "HI935005",
+        "description": "Electrod de pH compatibil cu gama de testere Hanna Instruments"
+      },
+      {
+        "code": "HI9828",
+        "description": "Instrument multiparametru portabil pentru măsurători de teren"
+      },
+      {
+        "code": "HI9819X",
+        "description": "Tester portabil multiparametru din gama Hanna Instruments"
+      },
+      {
+        "code": "HI9814",
+        "description": "Tester pH, conductivitate și TDS, variantă GroLine pentru agricultură"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între multiparametrele Hanna Instruments HI9828 și HI98594?",
+        "a": "HI9828 este un instrument multiparametru de teren, gândit pentru măsurători ample la fața locului, în ape de suprafață sau industriale. HI98594 este orientat în special spre măsurarea oxigenului dizolvat, cu transmitere Bluetooth către un dispozitiv mobil pentru citirea rapidă a valorilor. Alegerea depinde de numărul de parametri urmăriți simultan și de contextul de utilizare, laborator sau teren."
+      },
+      {
+        "q": "Livrați instrumente Hanna Instruments în România la comandă?",
+        "a": "Da, aducem la comandă pH-metre, multiparametre și controlere de piscină din gama Hanna Instruments, pe baza codului exact solicitat. Nu avem raft propriu pentru această gamă, iar orientarea publică de disponibilitate este de aproximativ două până la șase săptămâni. Recomandăm precizarea codului complet și a electrodului dorit pentru compatibilitate corectă."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă la un controler de piscină Hanna?",
+        "a": "Este utilă precizarea volumului bazinului, dacă tratamentul dorit este pe bază de clor sau electroliză salină, precum și dacă se dorește monitorizare suplimentară de pH și temperatură. Contează și dacă piscina este publică sau privată, deoarece influențează frecvența de mentenanță recomandată a electrozilor. Aceste detalii ajută la alegerea între BL131, BL132 sau BL136."
+      },
+      {
+        "q": "Ce este seria GroLine de la Hanna Instruments?",
+        "a": "GroLine este o linie de testere și electrozi Hanna Instruments adaptată aplicațiilor din agricultură, cu electrozi mai robuști pentru soluții nutritive și substraturi de cultură. Modelul HI9814 din această gamă măsoară pH, conductivitate și solide dizolvate total, util în hidroponică sau sere. Electrozii dedicați reduc înfundarea rapidă întâlnită la testerele generale în soluții cu multe particule."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Hanna Instruments România","url":"https://www.hannainst.ro","publisher":"Hanna Instruments","accessed":"2026-09-25"},
+      {"title":"Hanna Instruments – pH-metre","url":"https://www.hannainst.ro/ph-metre","publisher":"Hanna Instruments","accessed":"2026-09-25"},
       { title: "Hanna Instruments România — pagina principală", url: "https://www.hannainst.ro", publisher: "Hanna Instruments Service S.R.L.", accessed: "2026-09-22" },
       { title: "Hanna Instruments — despre noi", url: "https://www.hannainst.ro/despre-noi", publisher: "Hanna Instruments Service S.R.L.", accessed: "2026-09-22" }
     ]

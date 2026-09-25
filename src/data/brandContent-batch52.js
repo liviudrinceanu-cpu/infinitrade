@@ -30,11 +30,100 @@ Pentru piața din România, Milesight are sens acolo unde monitorizarea la dista
     ],
     infinitrade: `Pentru senzorii și gateway-urile Milesight lucrăm cu gama prin canale de aprovizionare din Uniunea Europeană și aducem produsele la comandă, cu termen orientativ de 2-6 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că vă rugăm să ne trimiteți codul exact al modelului (de exemplu seria UG, AM sau EM300) și, dacă e cazul, banda de frecvență LoRaWAN folosită în regiunea dumneavoastră. Precizăm ce putem și ce nu putem confirma: informațiile tehnice de mai sus provin din surse publice ale producătorului, fără date proprii despre stocuri sau termene de livrare ale distribuitorilor locali.`,
     limitation: "Nu putem confirma acoperirea exactă a rețelei LoRaWAN publice din România și nici disponibilitatea locală de configurare a platformei cloud Milesight.",
+    productCodes: [
+      {
+        "code": "UG65",
+        "description": "gateway LoRaWAN pentru interior"
+      },
+      {
+        "code": "UG67",
+        "description": "gateway LoRaWAN pentru exterior"
+      },
+      {
+        "code": "UG56",
+        "description": "gateway LoRaWAN industrial"
+      },
+      {
+        "code": "UG63",
+        "description": "gateway LoRaWAN de dimensiuni reduse"
+      },
+      {
+        "code": "SG50",
+        "description": "gateway LoRaWAN solar, consum foarte redus"
+      },
+      {
+        "code": "UR35",
+        "description": "router industrial din seria Pro"
+      },
+      {
+        "code": "UR75",
+        "description": "router industrial cu conectivitate 5G"
+      },
+      {
+        "code": "UR32",
+        "description": "router industrial din seria Pro, model de bază"
+      },
+      {
+        "code": "UR41",
+        "description": "router industrial din seria Mini"
+      },
+      {
+        "code": "AM103",
+        "description": "senzor de calitate a aerului cu 3 parametri măsurați"
+      },
+      {
+        "code": "AM102",
+        "description": "senzor de calitate a aerului cu 2 parametri măsurați"
+      },
+      {
+        "code": "AM300",
+        "description": "senzor de calitate a aerului, gamă completă de parametri"
+      },
+      {
+        "code": "EM300-TH",
+        "description": "senzor de temperatură și umiditate"
+      },
+      {
+        "code": "EM300-MCS",
+        "description": "senzor magnetic pentru contact ușă/fereastră"
+      },
+      {
+        "code": "EM400-UDL",
+        "description": "senzor cu ultrasunete pentru distanță și nivel"
+      },
+      {
+        "code": "EM500-CO2",
+        "description": "senzor de dioxid de carbon"
+      },
+      {
+        "code": "EM500-PT100",
+        "description": "senzor de temperatură cu sondă PT100"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între gateway-urile Milesight UG65 și UG67?",
+        "a": "UG65 este gateway-ul LoRaWAN Milesight destinat montării în interior, potrivit pentru clădiri, depozite sau hale de producție cu acoperiș care nu expune echipamentul la intemperii. UG67 este varianta pentru exterior, cu o carcasă rezistentă la umiditate și temperaturi extreme, folosită tipic pe stâlpi sau clădiri pentru acoperirea unor zone urbane sau agricole întinse. Ambele susțin conectarea unui număr mare de senzori LoRaWAN simultan."
+      },
+      {
+        "q": "Ce măsoară senzorul Milesight AM103?",
+        "a": "AM103 este un senzor de calitate a aerului cu trei parametri măsurați simultan, folosit frecvent în birouri, săli de clasă sau spații comerciale pentru monitorizarea condițiilor din interior. Datele sunt transmise prin rețeaua LoRaWAN către o platformă de management, unde pot declanșa alerte automate atunci când un parametru depășește un prag stabilit de utilizator, fără a fi nevoie de cablare suplimentară în încăpere."
+      },
+      {
+        "q": "Livrați echipamente Milesight în România?",
+        "a": "Da, dispozitivele Milesight se aduc special pentru fiecare comandă, intervalul obișnuit fiind de 2-6 săptămâni, pentru că nu depozităm această gamă la sediu. Pentru o ofertă corectă avem nevoie de aplicația exactă dorită, numărul de senzori din rețea și dacă este necesară conectivitate 5G pentru routerul industrial."
+      },
+      {
+        "q": "Ce este routerul Milesight UR75?",
+        "a": "UR75 este routerul industrial Milesight echipat cu conectivitate 5G, gândit pentru aplicații unde lățimea de bandă mare sau latența redusă contează, de exemplu monitorizare video la distanță sau transfer de date în timp real. Face parte din aceeași familie ca routerele UR35 și UR32, dar aduce un upgrade de generație pentru rețelele mobile mai noi, păstrând aceleași opțiuni de management centralizat."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Milesight - IoT","url":"https://www.milesight.com/","publisher":"Xiamen Milesight IoT Co., Ltd.","accessed":"2026-09-25"},
       { title: "Milesight – IoT Sensors, Gateways and AI Cameras", url: "https://www.milesight.com/", publisher: "Milesight Technology Co., Ltd.", accessed: "2026-09-22" },
       { title: "Milesight – hartă site (sitemap index)", url: "https://www.milesight.com/sitemap.xml", publisher: "Milesight Technology Co., Ltd.", accessed: "2026-09-22" },
     ],
@@ -68,11 +157,72 @@ Pentru fabricile din România, DESTACO are sens la liniile de sudură auto, celu
     ],
     infinitrade: `La comenzi pentru clemele, griperele sau indexatoarele DESTACO trecem prin canalele de aprovizionare din Uniunea Europeană; orientativ, o comandă durează 2-6 săptămâni până la livrare. Brandul nu are la noi disponibilitate permanentă din stoc, motiv pentru care avem nevoie de seria exactă, dimensiunea și cursa mecanismului înainte să pregătim o ofertă. Menționăm transparent ce putem și ce nu putem confirma: conținutul tehnic de mai sus se bazează pe surse publice ale producătorului DESTACO, fără acces intern la stocurile reale ale rețelei Stabilus.`,
     limitation: "Nu putem confirma disponibilitatea locală de service în garanție pentru componentele electrice eRDH, care necesită de regulă intervenție prin rețeaua Stabilus.",
+    productCodes: [
+      {
+        "code": "8800 Series",
+        "description": "cleme pneumatice cu braț articulat"
+      },
+      {
+        "code": "96W Series",
+        "description": "pachete electrice cu bolț de acționare"
+      },
+      {
+        "code": "98W Series",
+        "description": "unități electrice cu pivot de acționare"
+      },
+      {
+        "code": "DPS Series",
+        "description": "gripere pentru manipularea sacilor și ambalajelor flexibile"
+      },
+      {
+        "code": "uRDH Series",
+        "description": "gripere pneumatice paralele"
+      },
+      {
+        "code": "eRDH Series",
+        "description": "gripere electrice paralele"
+      },
+      {
+        "code": "84AF2 Series",
+        "description": "gripere cu came pentru table metalice"
+      },
+      {
+        "code": "87R-1 Series",
+        "description": "masă rotativă de indexare pneumatică"
+      },
+      {
+        "code": "601 RDM",
+        "description": "indexator rotativ mecanic"
+      },
+      {
+        "code": "TC1 Series",
+        "description": "schimbător de scule manual pentru roboți"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între gripele Destaco uRDH și eRDH?",
+        "a": "Seria uRDH este acționată pneumatic, folosind aer comprimat pentru deschiderea și închiderea bacurilor paralele, fiind potrivită acolo unde celula robotizată are deja o rețea de aer disponibilă. Seria eRDH este acționată electric, cu servomotor integrat, oferind control mai fin al forței de prindere și posibilitatea de a regla poziția fără reglaje pneumatice suplimentare. Alegerea depinde de infrastructura existentă în celula de producție."
+      },
+      {
+        "q": "Ce este clema pneumatică Destaco din seria 8800?",
+        "a": "Seria 8800 este familia de cleme pneumatice cu braț articulat Destaco, folosită pentru fixarea rapidă a pieselor în dispozitive de sudură, asamblare sau verificare, fără intervenție manuală repetată a operatorului. Brațul se blochează mecanic în poziție închisă, astfel încât presiunea aerului nu trebuie menținută constant pentru a păstra piesa fixată, ceea ce reduce consumul de aer comprimat pe durata ciclului de lucru."
+      },
+      {
+        "q": "Livrați echipamente Destaco în România?",
+        "a": "Da, componentele Destaco sunt comandate una câte una din fabrică, ajungând de regulă în 2-6 săptămâni, fără o rezervă fizică ținută la noi. Pentru o ofertă corectă avem nevoie de forța de prindere sau de fixare necesară, cursa de deschidere dorită și tipul de acționare, pneumatică sau electrică."
+      },
+      {
+        "q": "Ce este schimbătorul de scule TC1 de la Destaco?",
+        "a": "TC1 este schimbătorul de scule manual din gama Destaco, folosit pentru a cupla și decupla rapid diverse efectoare finale de pe un braț robotic, fără a opri complet linia de producție pentru schimbarea sculei. Este util în celule flexibile unde același robot trebuie să alterneze între mai multe operații, cum ar fi prinderea, găurirea sau sudarea, în funcție de piesa procesată."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"DESTACO - Products","url":"https://www.destaco.com","publisher":"DESTACO","accessed":"2026-09-25"},
       { title: "DESTACO – Workholding, Gripping and Automation Solutions", url: "https://www.destaco.com", publisher: "DESTACO (Stabilus Group)", accessed: "2026-09-22" },
       { title: "DESTACO – hartă site (sitemap index)", url: "https://www.destaco.com/sitemap.xml", publisher: "DESTACO (Stabilus Group)", accessed: "2026-09-22" },
     ],
@@ -106,11 +256,80 @@ Pentru instalațiile din România, iwis are sens la liniile de ambalare și tran
     ],
     infinitrade: `Comenzile pentru lanțuri și componente iwis intră pe fluxul nostru obișnuit de aprovizionare din Uniunea Europeană, cu un termen de livrare orientativ de 2-6 săptămâni. Fără date proprii despre stocurile reale ale producătorului, vă rugăm să ne trimiteți pasul lanțului, numărul de zale și tipul de bucșă (standard sau b.dry) — abia atunci putem confirma disponibilitatea și termenul exact. Restul informațiilor tehnice de mai sus provin din surse publice ale producătorului iwis, accesate direct pe site-ul oficial.`,
     limitation: "Nu putem confirma echivalența exactă între pasul lanțurilor iwis și cel al lanțurilor deja montate pe utilajul dumneavoastră fără codul complet de comandă.",
+    productCodes: [
+      {
+        "code": "06B-2 MEGAlife",
+        "description": "lanț cu role fără întreținere, placă laterală dreaptă"
+      },
+      {
+        "code": "08B-1 MEGAlife",
+        "description": "lanț cu role fără întreținere, pas 08B, simplu"
+      },
+      {
+        "code": "08B-2 MEGAlife",
+        "description": "lanț cu role fără întreținere, pas 08B, dublu"
+      },
+      {
+        "code": "10B-2 MEGAlife",
+        "description": "lanț cu role fără întreținere, pas 10B, dublu"
+      },
+      {
+        "code": "12B-1 MEGAlife",
+        "description": "lanț cu role fără întreținere, pas 12B, simplu"
+      },
+      {
+        "code": "16B-1 MEGAlife",
+        "description": "lanț cu role fără întreținere, pas 16B, simplu"
+      },
+      {
+        "code": "40-1 MEGAlife",
+        "description": "lanț cu role fără întreținere, pas american 40, simplu"
+      },
+      {
+        "code": "MEGAlife 20B",
+        "description": "lanț cu role fără întreținere, pas 20B"
+      },
+      {
+        "code": "MEGAlife 24B",
+        "description": "lanț cu role fără întreținere, pas 24B"
+      },
+      {
+        "code": "MEGAlife 50",
+        "description": "lanț cu role fără întreținere, pas american 50"
+      },
+      {
+        "code": "MEGAlife 60",
+        "description": "lanț cu role fără întreținere, pas american 60"
+      },
+      {
+        "code": "MEGAlife 80",
+        "description": "lanț cu role fără întreținere, pas american 80"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul unui lanț iwis MEGAlife, de exemplu 08B-2?",
+        "a": "Numărul dinaintea literei indică pasul lanțului conform standardului european, în acest caz 08B, iar cifra de după arată numărul de rânduri de role, unde 1 este simplu și 2 este dublu. Seria MEGAlife adaugă un tratament special care elimină nevoia de ungere periodică, spre deosebire de un lanț standard cu role, care necesită lubrifiere regulată pentru a evita uzura prematură a bolțurilor și bucșelor."
+      },
+      {
+        "q": "Ce diferență este între lanțurile iwis MEGAlife 08B-1 și 08B-2?",
+        "a": "Ambele au același pas, 08B, dar 08B-1 are un singur rând de role, potrivit pentru sarcini moderate, în timp ce 08B-2 are două rânduri de role, dublând practic capacitatea de transmitere a forței pe același ax. Alegerea depinde de puterea care trebuie transmisă și de spațiul disponibil pentru montarea lanțului pe roțile dințate ale transmisiei."
+      },
+      {
+        "q": "Livrați lanțuri iwis în România?",
+        "a": "Da, lanțurile iwis se procură strict la cerere, sosirea fiind estimată la 2-6 săptămâni, întrucât nu ținem pe raft fizic pregătit din timp pentru această serie. Pentru o ofertă corectă avem nevoie de pasul lanțului, numărul de rânduri de role și lungimea totală necesară pentru transmisia dumneavoastră."
+      },
+      {
+        "q": "Ce avantaj au lanțurile iwis MEGAlife față de un lanț standard?",
+        "a": "Lanțurile din seria MEGAlife folosesc un tratament intern care reduce semnificativ frecarea dintre bolț și bucșă, eliminând nevoia de ungere periodică pe durata de viață a lanțului. Acest lucru este util în special în instalații greu accesibile pentru mentenanță sau în medii unde lubrifiantul ar putea contamina produsul procesat, cum ar fi liniile din industria alimentară sau de ambalare."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"MEGAlife roller chains category","url":"https://www.iwis.com/en-en/products-services/megalife-roller-chains~c24","publisher":"iwis antriebssysteme GmbH","accessed":"2026-09-25"},
       { title: "iwis – Precision Chains, Sprockets and Lubrication Systems", url: "https://www.iwis.com/", publisher: "iwis antriebssysteme GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "iwis – hartă site (sitemap index)", url: "https://www.iwis.com/sitemap.xml", publisher: "iwis antriebssysteme GmbH & Co. KG", accessed: "2026-09-22" },
     ],
@@ -145,11 +364,77 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
     ],
     infinitrade: `Ghidajele liniare și rulmenții IKO ajung la client prin canale de aprovizionare europene, la un termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma spunem direct: nu avem disponibilitate permanentă din stoc pentru acest brand, iar datele tehnice folosite mai sus provin din surse publice ale producătorului IKO/Nippon Thompson. Pentru o ofertă corectă avem nevoie de codul complet al produsului — seria, dimensiunea și clasa de precizie cerută.`,
     limitation: "Nu putem confirma echivalența directă între clasa de precizie IKO și cea a ghidajelor deja montate pe mașina dumneavoastră fără codul complet de produs.",
+    productCodes: [
+      {
+        "code": "LWH",
+        "description": "ghidaj liniar cu bile, seria H, montare cu șuruburi prin placă"
+      },
+      {
+        "code": "LWHT",
+        "description": "ghidaj liniar cu bile, seria H, variantă cu flanșă"
+      },
+      {
+        "code": "LWHD",
+        "description": "ghidaj liniar cu bile, seria H, variantă compactă"
+      },
+      {
+        "code": "LWHS",
+        "description": "ghidaj liniar cu bile, seria H, variantă cu șină îngustă"
+      },
+      {
+        "code": "LWHG",
+        "description": "ghidaj liniar cu bile, seria H, cu joc reglabil"
+      },
+      {
+        "code": "LWHY",
+        "description": "ghidaj liniar cu bile, seria H, variantă specială de fixare"
+      },
+      {
+        "code": "MH",
+        "description": "bloc de ghidare miniatural, seria H"
+      },
+      {
+        "code": "MHG",
+        "description": "bloc de ghidare miniatural, seria H, cu joc reglabil"
+      },
+      {
+        "code": "MHT",
+        "description": "bloc de ghidare miniatural, seria H, variantă cu flanșă"
+      },
+      {
+        "code": "MHD",
+        "description": "bloc de ghidare miniatural, seria H, variantă compactă"
+      },
+      {
+        "code": "MHS",
+        "description": "bloc de ghidare miniatural, seria H, variantă cu șină îngustă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între ghidajele liniare IKO din seria H și seria E?",
+        "a": "Seria Linear Way H oferă o gamă largă de lățimi de șină, de la variante miniaturale până la modele de 65 mm, fiind gândită pentru aplicații generale de poziționare de precizie. Seria Linear Way E are un profil mai subțire, potrivit pentru echipamente unde înălțimea disponibilă de montaj este limitată, cum ar fi anumite mașini de măsurare sau echipamente electronice compacte."
+      },
+      {
+        "q": "Ce este blocul de ghidare miniatural MH de la IKO?",
+        "a": "MH este blocul de ghidare miniatural din seria Linear Way H, gândit pentru aplicații unde spațiul de montaj este foarte redus, cum ar fi echipamente electronice sau instrumente de laborator. Variantele cu flanșă, precum MHT, sau cu joc reglabil, precum MHG, permit adaptarea la diverse moduri de fixare fără a schimba principiul constructiv al blocului de bază. Alegerea depinde de spațiul disponibil și de metoda de prindere pe structura echipamentului."
+      },
+      {
+        "q": "Livrați ghidaje IKO în România?",
+        "a": "Da, ghidajele și blocurile IKO se aduc pe bază de comandă individuală, timpul de așteptare fiind de obicei 2-6 săptămâni, gama nefiind expusă fizic la noi. Pentru o ofertă corectă avem nevoie de lățimea șinei de ghidare, dimensiunea blocului dorit și precizia clasei necesare pentru aplicația dumneavoastră."
+      },
+      {
+        "q": "Ce variante are seria LWH de la IKO?",
+        "a": "Seria LWH include variante precum LWHT, cu flanșă pentru montare prin partea superioară, LWHD, mai compactă, LWHS, cu șină îngustă, și LWHG, cu joc reglabil între bilă și șină pentru ajustarea preciziei de rulare. Fiecare variantă răspunde unei constrângeri diferite de montaj, cum ar fi orientarea șuruburilor sau spațiul lateral disponibil pe structura mașinii."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Linear Way H Series | IKO NIPPON THOMPSON","url":"https://www.ikont.co.jp/eg/product/chocudo/tou10.html","publisher":"IKO NIPPON THOMPSON CO., LTD.","accessed":"2026-09-25"},
+      {"title":"IKO - Products","url":"https://www.ikont.eu/en/products/","publisher":"IKO NIPPON THOMPSON CO., LTD.","accessed":"2026-09-25"},
       { title: "IKO International – Linear Motion, Rotary Motion and Plain Bearings", url: "https://www.ikont.com/", publisher: "IKO International, Inc. (Nippon Thompson)", accessed: "2026-09-22" },
       { title: "IKO Europe – Company", url: "https://www.ikont.eu/en/company/", publisher: "Nippon Thompson Europe B.V.", accessed: "2026-09-22" },
     ],
@@ -183,11 +468,76 @@ Pentru ateliere și linii de producție din România, KIPP are sens la proiectar
     ],
     infinitrade: `Pentru elementele standard și sistemele de fixare KIPP, comanda trece prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni. Informațiile publicate aici vin din surse publice ale producătorului KIPP, fără date proprii despre stocurile reale ale distribuției. Vă rugăm să ne trimiteți codul de catalog exact, inclusiv dimensiunea și materialul, pentru o ofertă pe care o putem confirma punctual.`,
     limitation: "Nu putem confirma disponibilitatea locală de configurare CAD personalizată pentru elementele KIPP, serviciu oferit de regulă direct de producător.",
+    productCodes: [
+      {
+        "code": "FEATUREgrip",
+        "description": "linie de mânere ajustabile cu strat exterior tehnopolimeric"
+      },
+      {
+        "code": "NATUREgrip",
+        "description": "linie de mânere ajustabile din material regenerabil"
+      },
+      {
+        "code": "Hydraulic",
+        "description": "categorie de elemente de acționare hidraulică"
+      },
+      {
+        "code": "Pneumatic",
+        "description": "categorie de elemente de acționare pneumatică"
+      },
+      {
+        "code": "Detectable",
+        "description": "categorie de componente detectabile pentru industria alimentară"
+      },
+      {
+        "code": "Hygienic",
+        "description": "categorie de componente igienice pentru medii curate"
+      },
+      {
+        "code": "K0338",
+        "description": "bolț de indexare cu fantă de blocare, oțel călit"
+      },
+      {
+        "code": "K0339",
+        "description": "bolț de indexare fără fantă de blocare, oțel inoxidabil călit"
+      },
+      {
+        "code": "K0632-D",
+        "description": "bolț de indexare din oțel inoxidabil cu mâner tip ciupercă"
+      },
+      {
+        "code": "K2550",
+        "description": "clemă de fixare cu împingere"
+      },
+      {
+        "code": "K2551",
+        "description": "clemă de fixare cu împingere, variantă din aceeași serie"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între liniile Kipp FEATUREgrip și NATUREgrip?",
+        "a": "FEATUREgrip este linia de mânere ajustabile Kipp cu strat exterior din tehnopolimer, gândită pentru un aspect modern și o priză fermă în medii industriale obișnuite. NATUREgrip folosește un material cu conținut regenerabil pentru stratul exterior, păstrând aceleași dimensiuni și tip de filet ca linia standard, dar cu un impact redus asupra resurselor folosite la fabricare. Alegerea între cele două ține mai degrabă de preferința de material decât de funcția mecanică."
+      },
+      {
+        "q": "Cum aleg bolțul de indexare Kipp potrivit, K0338 sau K0339?",
+        "a": "K0338 este un bolț de indexare cu fantă de blocare, disponibil în oțel călit sau inoxidabil, potrivit acolo unde bolțul trebuie menținut retras pe durata unei operații. K0339 nu are fantă de blocare, fiind gândit pentru aplicații unde bolțul revine automat în poziție de blocare imediat ce este eliberat, fără a rămâne retras. Alegerea depinde de secvența de lucru a dispozitivului pe care se montează bolțul."
+      },
+      {
+        "q": "Livrați elemente de fixare Kipp în România?",
+        "a": "Da, piesele Kipp ajung după plasarea comenzii, durata medie fiind de 2-6 săptămâni, deoarece nu ținem pe raft fizic pentru o gamă atât de variată. Precizați tipul de filet sau diametrul de montaj, materialul dorit, oțel sau inoxidabil, și funcția exactă a componentei în ansamblu pentru o ofertă corectă."
+      },
+      {
+        "q": "Ce sunt clemele de fixare K2550 și K2551 de la Kipp?",
+        "a": "K2550 și K2551 sunt cleme de fixare cu împingere din gama Kipp, folosite pentru strângerea rapidă a pieselor pe un dispozitiv sau o masă de lucru, fără a necesita chei sau scule suplimentare pentru acționare. Diferența dintre cele două ține de dimensiunea și forța de strângere disponibilă, alegerea fiind determinată de greutatea și geometria piesei care trebuie fixată pe durata prelucrării."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"KIPP USA - Products","url":"https://www.kippusa.com/","publisher":"HEINRICH KIPP WERK GmbH & Co. KG","accessed":"2026-09-25"},
       { title: "KIPP USA – Standard Elements, Clamping Technology and Operating Parts", url: "https://www.kippusa.com/", publisher: "NK North America Inc. (KIPP)", accessed: "2026-09-22" },
       { title: "KIPP USA – hartă site (sitemap index)", url: "https://www.kippusa.com/sitemap.xml", publisher: "NK North America Inc. (KIPP)", accessed: "2026-09-22" },
     ],
@@ -220,11 +570,89 @@ Pentru instalațiile industriale din România, segmentul relevant din gama Prysm
     ],
     infinitrade: `Cablurile Prysmian relevante pentru instalații industriale se aduc la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni. Nu avem disponibilitate permanentă din stoc pentru acest brand — secțiunea cablului, tipul de izolație și lungimea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele tehnice de mai sus provin din surse publice ale producătorului Prysmian, fără acces la stocurile reale ale distribuitorilor regionali.`,
     limitation: "Nu putem confirma disponibilitatea locală a variantelor de cabluri submarine sau de înaltă tensiune HVDC, rezervate proiectelor mari coordonate direct cu producătorul.",
+    productCodes: [
+      {
+        "code": "Sirocco",
+        "description": "cablu cu fibră optică de tip microduct pentru instalare prin suflare"
+      },
+      {
+        "code": "Afumex 750",
+        "description": "cablu cu emisie redusă de fum și halogen zero"
+      },
+      {
+        "code": "Afumex Green",
+        "description": "cablu ecologic pentru clădiri, cu emisie redusă de fum"
+      },
+      {
+        "code": "AFUMEX shipboard cables",
+        "description": "familie de cabluri cu emisie redusă de fum pentru nave"
+      },
+      {
+        "code": "AFUMEX NAU shipboard cables",
+        "description": "variantă a familiei Afumex pentru cabluri navale"
+      },
+      {
+        "code": "TEMAR shipboard cables",
+        "description": "familie de cabluri pentru instalații navale"
+      },
+      {
+        "code": "PRYSMIAN VG navy cables",
+        "description": "familie de cabluri destinate aplicațiilor navale militare"
+      },
+      {
+        "code": "PRYSMIAN navy cables",
+        "description": "familie de cabluri pentru aplicații navale"
+      },
+      {
+        "code": "FG7R",
+        "description": "cablu de energie cu izolație din cauciuc reticulat"
+      },
+      {
+        "code": "FG7OR",
+        "description": "cablu de energie cu manta din poliolefină, fără halogen"
+      },
+      {
+        "code": "AFUMEX 90 PLUS FG17",
+        "description": "cablu cu rezistență la foc, tensiune 450/750 V"
+      },
+      {
+        "code": "H07RN-F",
+        "description": "cablu flexibil din cauciuc, rezistent la ulei și flacără"
+      },
+      {
+        "code": "N2XH-O",
+        "description": "cablu de energie fără halogen, tensiune 0,6/1 kV"
+      },
+      {
+        "code": "N2XH-J",
+        "description": "cablu de energie fără halogen cu conductor de protecție, 0,6/1 kV"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este cablul Prysmian H07RN-F?",
+        "a": "H07RN-F este un cablu flexibil din cauciuc, cu tensiune nominală de 450/750 V, rezistent la ulei, la abraziune și la contactul ocazional cu flacăra, folosit frecvent pe șantiere sau pentru alimentarea echipamentelor mobile expuse condițiilor grele. Izolația din cauciuc îi oferă o flexibilitate mai mare decât un cablu cu izolație PVC clasică, ceea ce îl face potrivit pentru instalații temporare care se mută des."
+      },
+      {
+        "q": "Ce diferență este între cablurile Prysmian N2XH-O și N2XH-J?",
+        "a": "N2XH-O este un cablu de energie fără halogen, cu tensiune de lucru 0,6/1 kV, fără conductor separat de protecție, folosit acolo unde împământarea este asigurată prin alte mijloace ale instalației. N2XH-J include un conductor de protecție integrat, colorat galben-verde, potrivit pentru circuite unde acest conductor trebuie să facă parte fizic din cablu. Ambele au manta fără halogen, cu emisie redusă de fum în caz de incendiu."
+      },
+      {
+        "q": "Livrați cabluri Prysmian în România?",
+        "a": "Da, cablurile Prysmian se comandă punctual pentru fiecare proiect, livrarea estimată fiind de 2-6 săptămâni, fără o rezervă permanentă a acestei game păstrată la noi. Pentru o ofertă corectă avem nevoie de tensiunea nominală necesară, secțiunea conductorului și tipul de manta dorit, standard, fără halogen sau rezistentă la foc."
+      },
+      {
+        "q": "Ce este cablul cu fibră optică Sirocco de la Prysmian?",
+        "a": "Sirocco este cablul cu fibră optică de tip microduct al Prysmian, gândit pentru instalare prin suflare cu aer comprimat în microtuburi deja montate, o metodă rapidă folosită la extinderea rețelelor de telecomunicații. Construcția ușoară a cablului reduce frecarea în timpul instalării, permițând distanțe mai mari de suflare între două puncte de acces față de un cablu de fibră optică convențional."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"AFUMEX shipboard cables","url":"https://www.prysmian.com/en/afumex-shipboard-cables","publisher":"Prysmian Group","accessed":"2026-09-25"},
+      {"title":"Prysmian - Products","url":"https://www.prysmian.com/en","publisher":"Prysmian Group","accessed":"2026-09-25"},
       { title: "Prysmian Group – Cables and Systems for Energy and Telecom", url: "https://www.prysmian.com/en", publisher: "Prysmian S.p.A.", accessed: "2026-09-22" },
       { title: "Prysmian – hartă site (sitemap index)", url: "https://www.prysmian.com/sitemap.xml", publisher: "Prysmian S.p.A.", accessed: "2026-09-22" },
     ],
@@ -258,11 +686,81 @@ Pentru instalațiile din România, Cintropur are sens la surse proprii de apă (
     ],
     infinitrade: `Filtrele și sterilizatoarele UV Cintropur intră pe fluxul de aprovizionare din Uniunea Europeană, cu un termen orientativ de livrare de 2-6 săptămâni. Fără date proprii despre stocurile producătorului sau ale distribuitorilor locali, avem nevoie de debitul instalației și de modelul exact al carcasei sau lămpii UV ca să pregătim o ofertă. Informațiile de mai sus provin din surse publice ale producătorului Cintropur/Airwatec.`,
     limitation: "Nu putem confirma compatibilitatea exactă a cartușelor de schimb cu instalații mai vechi Cintropur fără modelul precis al carcasei.",
+    productCodes: [
+      {
+        "code": "NW 18",
+        "description": "Filtru mecanic cu vană centrifugă, dimensiune compactă pentru debite mici"
+      },
+      {
+        "code": "NW 25 3/4\"",
+        "description": "Filtru cu cartuș, racord de trei sferturi de țol"
+      },
+      {
+        "code": "NW 25 1\"",
+        "description": "Filtru cu cartuș, racord de un țol"
+      },
+      {
+        "code": "NW 25 TE",
+        "description": "Filtru cu etapă suplimentară de cărbune activ sau polifosfat"
+      },
+      {
+        "code": "NW 25 DUO 3/4\"+1\"",
+        "description": "Două carcase de filtrare montate în serie, racorduri combinate"
+      },
+      {
+        "code": "NW 25 DUO-CTN 3/4\"+1\"",
+        "description": "Variantă DUO cu tratament prin cărbune activ și polifosfat"
+      },
+      {
+        "code": "NW 32 1 1/4\"",
+        "description": "Filtru cu racord de un țol și un sfert, debit mai mare"
+      },
+      {
+        "code": "SL 160",
+        "description": "Filtru compact cu manșon filtrant, debit până la trei metri cubi pe oră"
+      },
+      {
+        "code": "SL 240",
+        "description": "Filtru cu manșon filtrant, capacitate superioară față de SL 160"
+      },
+      {
+        "code": "SL 240 TRIO-CTN 3/4\"",
+        "description": "Trei etape de filtrare cu tratament cărbune activ și polifosfat"
+      },
+      {
+        "code": "NW 800",
+        "description": "Model de capacitate mare, debit de vârf de treizeci și doi de metri cubi pe oră"
+      },
+      {
+        "code": "Manșon filtrant NW25/SL240",
+        "description": "Piesă de schimb pentru carcasele din seriile NW25 și SL240"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între filtrele Cintropur NW 25 și SL 160?",
+        "a": "Diferența principală ține de tipul cartușului: seria NW folosește un cartuș rigid, în timp ce SL 160 funcționează cu un manșon filtrant textil, mai flexibil la debite mici. NW 25 acoperă racorduri de trei sferturi și un țol, iar SL 160 este gândit ca model compact, cu un debit de până la trei metri cubi pe oră, potrivit pentru instalații casnice cu consum redus."
+      },
+      {
+        "q": "Cum aleg diametrul de racord potrivit pentru un filtru Cintropur?",
+        "a": "Alegerea pornește de la debitul maxim al instalației și diametrul conductei existente: pentru debite mici se potrivește NW 25 cu racord de trei sferturi sau un țol, iar pentru debite mai mari se recomandă NW 32 sau NW 800. Este util să cunoașteți și presiunea de lucru din rețea, pentru ca modulul de filtrare ales să nu limiteze debitul disponibil în locuință sau fermă."
+      },
+      {
+        "q": "Livrați filtre Cintropur în România?",
+        "a": "Da, filtrele Cintropur ajung la comandă în aproximativ 2-6 săptămâni, deoarece nu păstrăm această gamă montată pe raft, ci o comandăm punctual conform seriei confirmate de dumneavoastră. Pentru o ofertă corectă avem nevoie de debitul instalației, diametrul conductei și tipul de tratament dorit, mecanic, cu cărbune activ sau cu polifosfat."
+      },
+      {
+        "q": "Ce înseamnă varianta CTN la un filtru Cintropur?",
+        "a": "CTN marchează prezența unei etape suplimentare de tratament, cu cărbune activ sau polifosfat, alături de filtrarea mecanică standard. Modelele DUO-CTN și TRIO-CTN combină astfel două sau trei etape într-o singură carcasă, utile atunci când apa are gust sau miros nedorit ori un nivel de duritate care justifică adăugarea polifosfatului direct în linia de filtrare."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Cintropur - Home","url":"https://www.cintropur.com/en/","publisher":"Cintropur","accessed":"2026-09-25"},
+      {"title":"Cintropur - Products","url":"https://www.cintropur.com/en/products/","publisher":"Cintropur","accessed":"2026-09-25"},
       { title: "Cintropur – Water Filtration Systems", url: "https://www.cintropur.com/en/", publisher: "Airwatec (marca Cintropur)", accessed: "2026-09-22" },
       { title: "Cintropur – About Us", url: "https://www.cintropur.com/en/about-us", publisher: "Airwatec (marca Cintropur)", accessed: "2026-09-22" },
     ],
@@ -300,11 +798,72 @@ Pentru industria din România, Argal are sens la manipularea de acizi, vopsele, 
     ],
     infinitrade: `Pompele Argal ajung la client prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Nu deținem disponibilitate permanentă din stoc pentru acest brand, deci avem nevoie de fluidul pompat, debitul dorit și materialul de contact pentru a stabili configurația potrivită direct cu producătorul. Ce putem și ce nu putem confirma: conținutul tehnic de mai sus vine din surse publice ale producătorului Argal.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a membranelor Argal cu fiecare fluid specific fără fișa de securitate a produsului dumneavoastră.",
+    productCodes: [
+      {
+        "code": "QUANTUM-S (DQS)",
+        "description": "Pompă cu membrană din PTFE ultra-pur, pentru industria semiconductorilor"
+      },
+      {
+        "code": "ASTRAevo (DDE)",
+        "description": "Pompă cu membrană de la un sfert de țol la două țoli"
+      },
+      {
+        "code": "QUANTUM (DDQ)",
+        "description": "Pompă cu membrană integral din PTFE, pentru tratarea apei și substanțe chimice"
+      },
+      {
+        "code": "MISTRAL (DDM)",
+        "description": "Pompă cu membrană de trei sau patru țoli, din inox sau polietilenă"
+      },
+      {
+        "code": "ASTRAevo FOOD",
+        "description": "Pompă cu membrană din inox 316L, pentru alimentar și farmaceutic"
+      },
+      {
+        "code": "ARGALined",
+        "description": "Pompă centrifugă cu antrenare magnetică, căptușită în ETFE sau polipropilenă"
+      },
+      {
+        "code": "SATURNevo (ZGS/ZMS/ZCS)",
+        "description": "Pompă centrifugă din fibră de sticlă, până la 1350 metri cubi pe oră"
+      },
+      {
+        "code": "ROUTE (TMR/ZMR)",
+        "description": "Pompă centrifugă cu funcționare continuă, variantă mecanică sau magnetică"
+      },
+      {
+        "code": "SATURNsump (KGS)",
+        "description": "Pompă centrifugă verticală din fibră de sticlă, până la 900 metri cubi pe oră"
+      },
+      {
+        "code": "K2 (KGK)",
+        "description": "Pompă centrifugă verticală din polipropilenă sau PVDF, până la 275 metri cubi pe oră"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între pompele Argal ASTRAevo și QUANTUM?",
+        "a": "ASTRAevo acoperă un interval larg de dimensiuni, de la un sfert de țol la două țoli, și se produce din mai multe materiale, inclusiv aluminiu și inox, în timp ce QUANTUM este realizată integral din PTFE pur, gândită special pentru medii chimice agresive sau apă de proces unde contaminarea cu alte materiale nu este acceptată. Alegerea depinde de fluidul vehiculat și de compatibilitatea chimică necesară."
+      },
+      {
+        "q": "Pentru ce aplicații se folosește pompa Argal MISTRAL?",
+        "a": "MISTRAL este o pompă cu membrană de capacitate mare, disponibilă în variante de trei sau patru țoli, construită din inox sau polietilenă de înaltă densitate, potrivită pentru instalații offshore și procese chimice cu debite ridicate. Este recomandată acolo unde pompele mai mici din gama ASTRAevo sau QUANTUM nu ar face față volumului de lichid vehiculat."
+      },
+      {
+        "q": "Livrați pompe Argal în România?",
+        "a": "Da, pompele Argal se aduc punctual din gama oficială a producătorului, cu un termen orientativ de 2-6 săptămâni, fiindcă varietatea mare de materiale și dimensiuni nu permite un stoc propriu constant pe raft. Pentru o ofertă avem nevoie de debitul dorit, presiunea de lucru și tipul de fluid vehiculat, pentru a recomanda modelul potrivit."
+      },
+      {
+        "q": "Cum aleg pompa centrifugă Argal potrivită pentru instalația mea?",
+        "a": "Selecția pornește de la debitul necesar și înălțimea de pompare: SATURNevo acoperă debite mari, până la 1350 metri cubi pe oră, ROUTE este gândită pentru funcționare continuă, iar K2 și SATURNsump sunt pompe verticale pentru montaj de cuvă. Materialul carcasei, fibră de sticlă, polipropilenă sau PVDF, se alege în funcție de agresivitatea chimică a lichidului."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Argal - Home","url":"https://www.argal.it","publisher":"Argal","accessed":"2026-09-25"},
       { title: "Argal – Pompe Pneumatiche a Membrana e Centrifughe", url: "https://www.argal.it", publisher: "Argal S.r.l.", accessed: "2026-09-22" },
       { title: "Argal – argal.it (gama de produse)", url: "https://argal.it", publisher: "Argal S.r.l.", accessed: "2026-09-22" },
     ],
@@ -338,11 +897,84 @@ Pentru atelierele și constructorii metalici din România, ESAB are sens la sudu
     ],
     infinitrade: `Echipamentele și consumabilele ESAB se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni de la confirmare. Fără date proprii despre stocurile reale ale producătorului sau ale distribuitorilor regionali, avem nevoie de codul exact al modelului — sau, pentru consumabile, de diametrul sârmei și tipul de gaz de protecție — pentru o ofertă verificabilă. Informațiile din această pagină provin din surse publice ale producătorului ESAB, accesate direct pe site-ul oficial.`,
     limitation: "Nu putem confirma echivalența directă între consumabilul ESAB și cel deja calificat în procedura dumneavoastră de sudare (WPS) fără verificarea codului exact.",
+    productCodes: [
+      {
+        "code": "Warrior Edge CX System",
+        "description": "Sistem de sudură multi-proces din gama Warrior"
+      },
+      {
+        "code": "Renegade VOLT EMP 200i",
+        "description": "Aparat de sudură cu electrod învelit, capacitate 200 amperi"
+      },
+      {
+        "code": "Rebel",
+        "description": "Familie de aparate de sudură multi-proces, portabile"
+      },
+      {
+        "code": "Ruffian ES-150G EDW",
+        "description": "Sudor acționat de motor, ieșire de 150 amperi"
+      },
+      {
+        "code": "Ruffian EMP 270G EDW",
+        "description": "Sudor acționat de motor, ieșire de 270 amperi"
+      },
+      {
+        "code": "Sentinel A60",
+        "description": "Mască de sudură cu filtru automat la întunecare"
+      },
+      {
+        "code": "Precision 130 Plasma System",
+        "description": "Sistem de tăiere cu plasmă din gama Precision"
+      },
+      {
+        "code": "Tweco Fusion 180 MIG Gun",
+        "description": "Pistolet MIG standard, capacitate 180 amperi"
+      },
+      {
+        "code": "Tweco Fusion 250 MIG Gun",
+        "description": "Pistolet MIG standard, capacitate 250 amperi"
+      },
+      {
+        "code": "Tweco Centrovac",
+        "description": "Pistolet MIG cu extracție de fum integrată"
+      },
+      {
+        "code": "Tweco Elite 250 MIG Gun",
+        "description": "Pistolet MIG din gama Elite, capacitate 250 amperi"
+      },
+      {
+        "code": "Tweco Elite 350 MIG Gun",
+        "description": "Pistolet MIG din gama Elite, capacitate 350 amperi"
+      },
+      {
+        "code": "Tweco Elite 450 MIG Gun",
+        "description": "Pistolet MIG din gama Elite, capacitate 450 amperi"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce aparate de sudură multi-proces oferă ESAB?",
+        "a": "ESAB produce mai multe familii de aparate multi-proces, printre care Warrior Edge CX System și seria Rebel, capabile de sudură MIG, TIG și cu electrod învelit în cadrul aceluiași echipament. Pentru lucrări de teren, gama include și sudoare acționate de motor, precum Ruffian ES-150G EDW și Ruffian EMP 270G EDW, utile acolo unde nu există alimentare electrică disponibilă."
+      },
+      {
+        "q": "Ce este pistoletul Tweco Centrovac de la ESAB?",
+        "a": "Tweco Centrovac este un pistolet MIG cu sistem de extracție a fumului integrat direct în capul pistoletului, gândit pentru reducerea expunerii sudorului la particule și gaze rezultate din procesul de sudare. Este util în special în spații închise sau cu ventilație limitată, unde extracția clasică montată pe hotă nu acoperă suficient zona de lucru."
+      },
+      {
+        "q": "Livrați echipamente ESAB de sudură în România?",
+        "a": "Da, echipamentele ESAB pot fi comandate punctual, cu un termen tipic de 2-6 săptămâni, deoarece nu menținem întreaga gamă depozitată permanent pe raft. Pentru o ofertă corectă avem nevoie de procesul de sudare dorit, MIG, TIG sau electrod învelit, curentul necesar și dacă echipamentul va fi folosit manual sau montat pe un post fix."
+      },
+      {
+        "q": "Ce diferență este între pistoletele Tweco Elite 250 și Elite 450?",
+        "a": "Diferența constă în capacitatea de curent suportată: Elite 250 acoperă lucrări ușoare și medii, până la 250 amperi, în timp ce Elite 450 este gândit pentru sarcini grele, cu curenți de sudare de până la 450 amperi. Ambele fac parte din aceeași gamă Elite și folosesc consumabile compatibile, doar dimensionate diferit pentru curentul suportat."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"ESAB - Equipment","url":"https://esab.com/na/en_us/equipment/","publisher":"ESAB","accessed":"2026-09-25"},
       { title: "ESAB – Welding and Cutting Equipment and Consumables", url: "https://esab.com", publisher: "ESAB Corporation", accessed: "2026-09-22" },
       { title: "ESAB North America – About Us", url: "https://esab.com/na/en_us/about-us/", publisher: "ESAB Corporation", accessed: "2026-09-22" },
     ],
@@ -376,11 +1008,76 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
     ],
     infinitrade: `Comenzile pentru echipamentul de protecție JSP trec prin canale de aprovizionare din Uniunea Europeană, la un termen orientativ de 2-6 săptămâni. Marca nu are la noi disponibilitate permanentă din stoc, iar mărimea, standardul cerut (EN 397 sau EN 12492) și cantitatea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele de mai sus provin din surse publice ale producătorului JSP.`,
     limitation: "Nu putem confirma clasa de filtru respirator potrivită pentru contaminantul dumneavoastră specific fără fișa de securitate a substanței din mediul de lucru.",
+    productCodes: [
+      {
+        "code": "Force8",
+        "description": "Gamă de măști pentru protecție respiratorie și filtre asociate"
+      },
+      {
+        "code": "Thermex Goggles",
+        "description": "Ochelari de protecție cu tratament anti-aburire"
+      },
+      {
+        "code": "EVOGuard",
+        "description": "Gamă de căști de protecție industrială"
+      },
+      {
+        "code": "EVO Vista",
+        "description": "Cască industrială cu vizor integrat"
+      },
+      {
+        "code": "EVO5 DualSwitch",
+        "description": "Cască industrială cu sistem de ventilație reglabil"
+      },
+      {
+        "code": "Hardcap Aerolite",
+        "description": "Cască industrială ușoară, din gama Hardcap"
+      },
+      {
+        "code": "Sonis",
+        "description": "Gamă de antifoane pentru protecție auditivă"
+      },
+      {
+        "code": "Ridgeback Speed Ramps",
+        "description": "Rampe de reducere a vitezei pentru managementul traficului"
+      },
+      {
+        "code": "ARC170-00C-700",
+        "description": "Cască EVO AlTA Skyworker cu vizibilitate ridicată, culoare galben"
+      },
+      {
+        "code": "BPT170-011-000",
+        "description": "Geantă de centură Force8 pentru filtre de mască"
+      },
+      {
+        "code": "BTB000-000-100",
+        "description": "Cutie de depozitare pentru echipamente de protecție JSP"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce cască de protecție recomandă JSP pentru lucrul la înălțime?",
+        "a": "Pentru lucrul la înălțime, JSP oferă căști precum EVO Vista, cu vizor integrat pentru protecție facială suplimentară, și modelul ARC170-00C-700 din gama EVO AlTA Skyworker, gândit cu vizibilitate ridicată și sistem de reglare cu rotiță. Alegerea depinde de riscurile specifice de pe șantier, prezența particulelor în aer și necesitatea de atașare a altor echipamente pe cască."
+      },
+      {
+        "q": "Ce este sistemul Force8 de la JSP?",
+        "a": "Force8 este gama de măști de protecție respiratorie a JSP, folosită împreună cu filtre dedicate pentru particule, gaze sau vapori, în funcție de riscul din mediul de lucru. Producătorul oferă și accesorii precum geanta de centură BPT170-011-000, gândită pentru transportul filtrelor de rezervă direct la locul de muncă, fără a fi nevoie de revenire la vestiar."
+      },
+      {
+        "q": "Livrați echipamente de protecție JSP în România?",
+        "a": "Da, echipamentele JSP se procură la cerere, cu un termen uzual de 2 până la 6 săptămâni, fiindcă gama de protecție nu este ținută integral pe raft din cauza numărului mare de mărimi și variante. Pentru o comandă corectă indicați tipul de protecție necesar, cască, ochelari sau mască, standardul EN aplicabil și numărul de utilizatori pentru care faceți achiziția."
+      },
+      {
+        "q": "Ce diferență este între gama EVOGuard și Hardcap Aerolite de la JSP?",
+        "a": "EVOGuard este o gamă mai amplă de căști industriale, cu variante precum EVO Vista sau EVO5 DualSwitch, orientată spre confort și ventilație reglabilă, în timp ce Hardcap Aerolite pune accent pe greutatea redusă a căștii pentru purtare pe durata întregii zile de lucru. Ambele game respectă cerințele de protecție a capului pentru mediul industrial."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"JSP Safety - Home","url":"https://www.jspsafety.com/","publisher":"JSP","accessed":"2026-09-25"},
       { title: "JSP – Head, Respiratory and Traffic Safety Solutions", url: "https://www.jspsafety.com", publisher: "JSP Limited", accessed: "2026-09-22" },
       { title: "JSP Safety (jspsafety.com)", url: "https://jspsafety.com", publisher: "JSP Limited", accessed: "2026-09-22" },
     ],
@@ -454,11 +1151,74 @@ Pentru instalațiile industriale din România, Ashcroft are sens la măsurarea p
     ],
     infinitrade: `Manometrele și traductoarele Ashcroft se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că avem nevoie de domeniul de măsură, tipul de racord și materialul de contact pentru o ofertă corectă. Ce putem și ce nu putem confirma: datele tehnice folosite aici provin din surse publice ale producătorului Ashcroft.`,
     limitation: "Nu putem confirma compatibilitatea materialului de contact cu fluidul dumneavoastră fără specificarea exactă a presiunii, temperaturii și mediului de lucru.",
+    productCodes: [
+      {
+        "code": "1009",
+        "description": "Manometru din oțel inoxidabil, diametre de cadran 2,5 și 3,5 țoli"
+      },
+      {
+        "code": "1279 Duragauge",
+        "description": "Manometru industrial de uz general din seria Duragauge"
+      },
+      {
+        "code": "1377",
+        "description": "Manometru industrial din seria Duragauge"
+      },
+      {
+        "code": "1379",
+        "description": "Manometru industrial din seria Duragauge"
+      },
+      {
+        "code": "2462 Duragauge",
+        "description": "Manometru industrial din seria Duragauge"
+      },
+      {
+        "code": "XLdp",
+        "description": "Traductor de presiune diferențială"
+      },
+      {
+        "code": "DXLdp",
+        "description": "Transmițător de presiune diferențială, variantă digitală"
+      },
+      {
+        "code": "IXLdp",
+        "description": "Traductor de presiune diferențială, variantă industrială"
+      },
+      {
+        "code": "RXLdp",
+        "description": "Traductor de presiune diferențială, variantă robustă"
+      },
+      {
+        "code": "CXLdp",
+        "description": "Traductor de presiune diferențială, variantă compactă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce manometru recomandă Ashcroft pentru uz industrial general?",
+        "a": "Pentru uz general, Ashcroft recomandă seria Duragauge, cu modele precum 1279, 1377, 1379 sau 2462, construite pentru rezistență la vibrații și condiții de proces solicitante. Modelul 1009, disponibil cu cadran de 2,5 sau 3,5 țoli din oțel inoxidabil, este potrivit pentru aplicații unde se cere o citire clară și o construcție compactă în spații restrânse."
+      },
+      {
+        "q": "Ce diferență este între seriile XLdp și DXLdp de la Ashcroft?",
+        "a": "XLdp este traductorul de bază pentru măsurarea presiunii diferențiale, în timp ce DXLdp adaugă o componentă digitală, utilă acolo unde se dorește un semnal de ieșire configurabil sau afișaj local direct pe echipament. Variantele IXLdp, RXLdp și CXLdp completează familia cu opțiuni industriale, robuste, respectiv compacte, pentru aceeași funcție de bază."
+      },
+      {
+        "q": "Livrați instrumente de presiune Ashcroft în România?",
+        "a": "Da, instrumentele Ashcroft ajung pe bază de comandă fermă, într-un termen care variază între 2 și 6 săptămâni, pentru că nu depozităm permanent întreaga gamă de manometre și traductoare. Pentru o ofertă corectă avem nevoie de domeniul de presiune dorit, tipul de racord, diametrul cadranului și dacă aplicația necesită o variantă rezistentă la vibrații sau șocuri de presiune."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă de manometru Ashcroft?",
+        "a": "Pentru o ofertă corectă avem nevoie de domeniul de presiune măsurat, tipul de fluid din instalație, diametrul cadranului dorit, tipul de racord filetat și materialul de contact cu fluidul, oțel inoxidabil sau alt aliaj. Dacă aplicația implică vibrații, șocuri de presiune sau temperaturi ridicate, menționați acest lucru pentru alegerea variantei potrivite din seria Duragauge."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Ashcroft - Products","url":"https://www.ashcroft.com/products/","publisher":"Ashcroft","accessed":"2026-09-25"},
+      {"title":"1279 Pressure Gauge","url":"https://www.ashcroft.com/products/pressure/pressure-gauges/1279-pressure-gauge/","publisher":"Ashcroft","accessed":"2026-09-25"},
+      {"title":"XLdp Differential Pressure Transducer","url":"https://www.ashcroft.com/products/pressure/pressure-sensors/xldp-differential-pressure-transducer/","publisher":"Ashcroft","accessed":"2026-09-25"},
       { title: "Ashcroft – Pressure and Temperature Instrumentation", url: "https://www.ashcroft.com/", publisher: "Ashcroft Inc.", accessed: "2026-09-22" },
       { title: "Ashcroft – hartă site (sitemap index)", url: "https://www.ashcroft.com/sitemap.xml", publisher: "Ashcroft Inc.", accessed: "2026-09-22" },
     ],

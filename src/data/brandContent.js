@@ -172,6 +172,32 @@ import { brandContentBatch77 } from './brandContent-batch77';
 import { brandContentBatch78 } from './brandContent-batch78';
 import { brandContentBatch79 } from './brandContent-batch79';
 import { brandContentBatch80 } from './brandContent-batch80';
+import { brandContentBatch81 } from './brandContent-batch81';
+import { brandContentBatch82 } from './brandContent-batch82';
+import { brandContentBatch83 } from './brandContent-batch83';
+import { brandContentBatch84 } from './brandContent-batch84';
+import { brandContentBatch85 } from './brandContent-batch85';
+import { brandContentBatch86 } from './brandContent-batch86';
+import { brandContentBatch87 } from './brandContent-batch87';
+import { brandContentBatch88 } from './brandContent-batch88';
+import { brandContentBatch89 } from './brandContent-batch89';
+import { brandContentBatch90 } from './brandContent-batch90';
+import { brandContentBatch91 } from './brandContent-batch91';
+import { brandContentBatch92 } from './brandContent-batch92';
+import { brandContentBatch93 } from './brandContent-batch93';
+import { brandContentBatch94 } from './brandContent-batch94';
+import { brandContentBatch95 } from './brandContent-batch95';
+import { brandContentBatch96 } from './brandContent-batch96';
+import { brandContentBatch97 } from './brandContent-batch97';
+import { brandContentBatch98 } from './brandContent-batch98';
+import { brandContentBatch99 } from './brandContent-batch99';
+import { brandContentBatch100 } from './brandContent-batch100';
+import { brandContentBatch101 } from './brandContent-batch101';
+import { brandContentBatch102 } from './brandContent-batch102';
+import { brandContentBatch103 } from './brandContent-batch103';
+import { brandContentBatch104 } from './brandContent-batch104';
+import { brandContentBatch105 } from './brandContent-batch105';
+import { brandContentBatch106 } from './brandContent-batch106';
 
 // Merge all batches into single object
 export const brandContent = {
@@ -255,6 +281,32 @@ export const brandContent = {
   ...brandContentBatch78,
   ...brandContentBatch79,
   ...brandContentBatch80,
+  ...brandContentBatch81,
+  ...brandContentBatch82,
+  ...brandContentBatch83,
+  ...brandContentBatch84,
+  ...brandContentBatch85,
+  ...brandContentBatch86,
+  ...brandContentBatch87,
+  ...brandContentBatch88,
+  ...brandContentBatch89,
+  ...brandContentBatch90,
+  ...brandContentBatch91,
+  ...brandContentBatch92,
+  ...brandContentBatch93,
+  ...brandContentBatch94,
+  ...brandContentBatch95,
+  ...brandContentBatch96,
+  ...brandContentBatch97,
+  ...brandContentBatch98,
+  ...brandContentBatch99,
+  ...brandContentBatch100,
+  ...brandContentBatch101,
+  ...brandContentBatch102,
+  ...brandContentBatch103,
+  ...brandContentBatch104,
+  ...brandContentBatch105,
+  ...brandContentBatch106,
 };
 
 /**
