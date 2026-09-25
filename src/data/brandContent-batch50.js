@@ -391,11 +391,81 @@ Pentru fabricile din România cu producție de serie — auto, electrocasnice, m
     ],
     infinitrade: `La Bossard mergem tot pe surse publice ale producătorului, fără date proprii de stoc pe acest brand — spunem direct unde se opresc informațiile noastre față de ce cunoaște fabricantul. Reperele de fixare se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, iar pentru cantități mari termenul poate varia după disponibilitatea la producător. Pentru ofertă avem nevoie de desenul tehnic sau codul reperului, materialul dorit și cantitatea estimată lunar. Nu promitem disponibilitate permanentă din stoc pentru repere nestandard sau personalizate.`,
     limitation: "Nu putem oferi serviciul de inginerie a asamblării la fața locului, disponibil direct prin echipele tehnice ale producătorului.",
+    productCodes: [
+      {
+        "code": "Standard Fastening Elements",
+        "description": "Gamă largă de șuruburi, piulițe și șaibe conform standardelor DIN și ISO"
+      },
+      {
+        "code": "Direct Assembly Screws",
+        "description": "Șuruburi pentru asamblare directă fără elemente de fixare suplimentare"
+      },
+      {
+        "code": "Securing and Anti-Loosening Elements",
+        "description": "Elemente pentru prevenirea desfacerii accidentale a îmbinărilor filetate"
+      },
+      {
+        "code": "Clamping and Positioning Elements",
+        "description": "Elemente pentru fixarea și poziționarea precisă a componentelor mecanice"
+      },
+      {
+        "code": "Anchorage Systems",
+        "description": "Sisteme de ancorare pentru fixarea în beton sau zidărie"
+      },
+      {
+        "code": "Clinching Technology",
+        "description": "Tehnologie de fixare a elementelor filetate prin presare directă în tablă"
+      },
+      {
+        "code": "Rivet Technology",
+        "description": "Nituri și sisteme de nituire pentru asamblarea tablelor subțiri"
+      },
+      {
+        "code": "Threaded Inserts",
+        "description": "Inserții filetate pentru materiale moi sau componente din plastic"
+      },
+      {
+        "code": "Clip Fasteners",
+        "description": "Cleme și cliputi de fixare rapidă pentru panouri și cabluri"
+      },
+      {
+        "code": "Welding Technology",
+        "description": "Elemente de fixare sudabile pentru asamblare pe structuri metalice"
+      },
+      {
+        "code": "Electrical Products",
+        "description": "Componente pentru conexiuni electrice și legare la masă"
+      },
+      {
+        "code": "Sealing Technology",
+        "description": "Soluții de etanșare pentru îmbinări filetate și carcase"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce oferă Bossard în gama Standard Fastening Elements?",
+        "a": "Gama Standard Fastening Elements de la Bossard acoperă șuruburi, piulițe, șaibe și alte elemente de fixare produse conform standardelor DIN și ISO, folosite în majoritatea aplicațiilor mecanice generale. Bossard completează acest fond standard cu elemente tehnice speciale, dezvoltate pentru asamblări cu cerințe mai ridicate de rezistență sau etanșare. Alegerea variantei potrivite depinde de materialul îmbinat, de sarcina aplicată și de mediul de funcționare al ansamblului."
+      },
+      {
+        "q": "Comandați elemente de fixare Bossard pentru livrare în România?",
+        "a": "Da, comandăm pentru client șuruburi, piulițe și sisteme speciale din gamele Bossard, pe baza referinței standard sau tehnice confirmate. Gama nu se regăsește pe raftul propriu; comanda se onorează conform disponibilității publicate de Bossard, într-un interval obișnuit de 2-6 săptămâni. Este util să transmiteți dimensiunea, clasa de rezistență și materialul dorit pentru elementul căutat."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la elemente de fixare Bossard?",
+        "a": "Aveți nevoie să precizați dimensiunea filetului, lungimea, clasa de rezistență, materialul și tipul de acoperire dorit pentru elementul de fixare căutat. Pentru aplicații speciale, precum inserțiile filetate sau sistemele de ancorare, adăugați și tipul materialului de bază în care se montează piesa. O schiță sau o fotografie a îmbinării existente ajută la alegerea corectă din gama Bossard disponibilă."
+      },
+      {
+        "q": "Ce diferență este între Clinching Technology și Rivet Technology la Bossard?",
+        "a": "Clinching Technology presează un element filetat direct în tablă, fără a fi nevoie de gaură pretăiată sau de un al doilea component pe partea opusă. Rivet Technology folosește nituri pentru a îmbina table subțiri sau pentru a fixa elemente suplimentare, adesea acolo unde sudura nu este posibilă. Alegerea depinde de grosimea materialului, de accesul disponibil pe ambele fețe și de cerințele de rezistență ale asamblării."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Product Solutions | Bossard","url":"https://www.bossard.com/global-en/product-solutions/","publisher":"Bossard","accessed":"2026-09-26"},
+      {"title":"Product Categories and Brands | Bossard","url":"https://www.bossard.com/global-en/product-solutions/product-categories-and-brands/","publisher":"Bossard","accessed":"2026-09-26"},
       { title: "Bossard America", url: "https://www.bossard.com/", publisher: "Bossard Group", accessed: "2026-09-22" },
       { title: "Bossard Group (Wikipedia)", url: "https://en.wikipedia.org/wiki/Bossard_Group", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -1106,11 +1176,85 @@ Pentru ateliere de producție și mentenanță din România cu sudare frecventă
     ],
     infinitrade: `Pentru Migatronic nu avem istoric propriu de livrări și lucrăm din informațiile publice de pe site-ul producătorului danez — spunem deschis ce putem și ce nu putem confirma pentru fiecare model. Aparatele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de procesul de sudare dorit (MIG/MAG, TIG, MMA sau plasmă), curentul necesar și tipul de alimentare electrică disponibil la punctul de lucru. Nu promitem disponibilitate permanentă din stoc pentru fiecare model — depinde de configurație și de producător.`,
     limitation: "Nu putem confirma acoperirea garanției extinse pe transformator pentru aparate aduse prin canale de aprovizionare din afara rețelei oficiale a producătorului.",
+    productCodes: [
+      {
+        "code": "Sigma Core",
+        "description": "Aparat de sudură MIG/MAG sinergic din gama profesională Migatronic"
+      },
+      {
+        "code": "CenTIG PRO",
+        "description": "Cel mai nou aparat de sudură TIG din gama CenTIG"
+      },
+      {
+        "code": "CenTIG 200",
+        "description": "Aparat de sudură TIG monofazat, compact, pentru mai multe niveluri de experiență"
+      },
+      {
+        "code": "CenTIG 300 DC",
+        "description": "Aparat de sudură TIG trifazat de 300 A, printre cele mai ușoare din categorie"
+      },
+      {
+        "code": "Pi Plasma",
+        "description": "Gama de aparate Migatronic pentru sudare cu plasmă"
+      },
+      {
+        "code": "Operator",
+        "description": "Echipament de protecție pentru sudor, din gama nouă Migatronic"
+      },
+      {
+        "code": "Operator Flip-Up",
+        "description": "Variantă cu vizor rabatabil a echipamentului de protecție Operator"
+      },
+      {
+        "code": "Scout",
+        "description": "Echipament auxiliar din gama de accesorii pentru sudare Migatronic"
+      },
+      {
+        "code": "PowerArc",
+        "description": "Funcție de control al arcului de sudură pentru stabilitate ridicată"
+      },
+      {
+        "code": "PowerArc Pulse",
+        "description": "Variantă avansată a funcției PowerArc, cu impulsuri de curent controlate"
+      },
+      {
+        "code": "DUO Plus",
+        "description": "Funcție pentru operare cu doi electrozi sau proces dublu de sudare"
+      },
+      {
+        "code": "Intelligent Arc Control (IAC)",
+        "description": "Sistem de control inteligent al arcului de sudură Migatronic"
+      },
+      {
+        "code": "Intelligent Gas Control (IGC)",
+        "description": "Sistem de control inteligent al debitului de gaz de protecție"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între aparatele Migatronic CenTIG PRO și CenTIG 200?",
+        "a": "CenTIG PRO este gândit pentru utilizare profesională intensivă, cu funcții suplimentare de reglaj fin al arcului de sudură. CenTIG 200 este un aparat monofazat mai compact, potrivit pentru ateliere mici sau lucrări ocazionale, păstrând totuși precizia caracteristică gamei CenTIG de la Migatronic. Alegerea corectă depinde de volumul de lucru zilnic și de tensiunea de alimentare disponibilă la locul de montaj."
+      },
+      {
+        "q": "Se pot comanda aparate de sudură Migatronic pentru livrare în România?",
+        "a": "Da, livrăm la comandă aparate din gamele Sigma Core, CenTIG și Pi Plasma, pe baza codului confirmat de client din documentația oficială Migatronic. Nu menținem această gamă pe raft; ne ghidăm după disponibilitatea anunțată public de Migatronic, iar termenul uzual este de 2-6 săptămâni. Vă rugăm să transmiteți denumirea completă a modelului dorit."
+      },
+      {
+        "q": "Ce date sunt necesare atunci când solicit o ofertă pentru un aparat de sudură Migatronic?",
+        "a": "Este nevoie de procesul de sudare dorit, MIG/MAG, TIG sau MMA, curentul maxim necesar, tensiunea de alimentare disponibilă și tipul de material sudat. Dacă echipamentul înlocuiește un aparat existent, denumirea completă de pe plăcuța acestuia ajută la găsirea unui model echivalent din gama actuală Migatronic, fie Sigma Core, fie o variantă CenTIG mai recentă."
+      },
+      {
+        "q": "Ce este funcția Migatronic PowerArc Pulse?",
+        "a": "Este o funcție de control al arcului care livrează curent în impulsuri controlate, reducând stropii și îmbunătățind aspectul cusăturii la sudarea MIG/MAG. Se folosește frecvent pe materiale subțiri sau acolo unde aspectul estetic al sudurii contează. Setările exacte depind de grosimea materialului și de tipul de gaz de protecție folosit, verificate în manualul aparatului Migatronic."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"MIG/MAG Welding | Migatronic","url":"https://www.migatronic.com/en/products-and-solutions/migmag/","publisher":"Migatronic","accessed":"2026-09-26"},
+      {"title":"Welding Machines | Migatronic","url":"https://www.migatronic.com/en/products-and-solutions/welding-machines/","publisher":"Migatronic","accessed":"2026-09-26"},
       { title: "Migatronic A/S – Welding Equipment", url: "https://migatronic.com", publisher: "Migatronic A/S", accessed: "2026-09-22" },
       { title: "Migatronic – Home (EN)", url: "https://migatronic.com/en/", publisher: "Migatronic A/S", accessed: "2026-09-22" },
     ],
@@ -1144,11 +1288,86 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
     ],
     infinitrade: `Pentru Zebra Technologies nu avem date proprii de stoc și lucrăm din informațiile publice ale producătorului — spunem direct ce putem și ce nu putem confirma pentru fiecare echipament. Scannerele, imprimantele și terminalele mobile se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul echipamentului dorit, volumul de utilizare zilnic și mediul de operare (depozit, producție, exterior). Nu putem asigura disponibilitate permanentă din stoc pentru toate modelele din gamă — depinde de configurație și de producător.`,
     limitation: "Nu putem furniza licențierea și configurarea software-ului Zebra DNA la nivel de flotă — aceasta rămâne un serviciu separat, de regulă contractat direct sau printr-un integrator de software.",
+    productCodes: [
+      {
+        "code": "MP6000",
+        "description": "Cititor bioptic multi-plan pentru case de marcat, citește coduri 1D și 2D"
+      },
+      {
+        "code": "MC9300",
+        "description": "Calculator mobil de mână pentru depozite și utilizare în exterior"
+      },
+      {
+        "code": "VC8300",
+        "description": "Calculator montat pe vehicul pentru operațiuni în depozit"
+      },
+      {
+        "code": "TC52x-HC",
+        "description": "Calculator mobil de mână dedicat personalului medical"
+      },
+      {
+        "code": "FXR90 5G RFID Reader",
+        "description": "Cititor RFID fix cu conectivitate 5G pentru infrastructură industrială"
+      },
+      {
+        "code": "ET4 Series",
+        "description": "Tabletă industrială robustă cu conectivitate și captare rapidă de date"
+      },
+      {
+        "code": "ET401",
+        "description": "Tabletă de 8 inch din gama ET4, cu scanner integrat"
+      },
+      {
+        "code": "ET4-HC Series",
+        "description": "Tabletă industrială dedicată mediului medical, rezistentă la dezinfectanți"
+      },
+      {
+        "code": "ET4X-HC",
+        "description": "Variantă albă a tabletei ET4-HC pentru utilizare medicală"
+      },
+      {
+        "code": "ET6 Series",
+        "description": "Tabletă robustă cu opțiuni Android sau Windows pentru teren și depozit"
+      },
+      {
+        "code": "ET6X",
+        "description": "Model specific din gama de tablete industriale ET6"
+      },
+      {
+        "code": "ET8 Series",
+        "description": "Tabletă 2-in-1 subțire cu ecran mare pentru utilizare Windows"
+      },
+      {
+        "code": "ET8X",
+        "description": "Model specific din gama de tablete industriale ET8"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între tabletele Zebra ET4, ET6 și ET8?",
+        "a": "Seria ET4 este gândită pentru operațiuni de bază, cu ecran mai mic și greutate redusă. Seria ET6 oferă mai multă putere de procesare și rezistență, potrivită pentru teren și depozit, cu opțiuni Android sau Windows. Seria ET8 este orientată spre productivitate de birou mobil, cu ecran mare într-un format 2-in-1 subțire pentru Windows. Alegerea depinde de mediul de lucru și de aplicațiile software necesare."
+      },
+      {
+        "q": "Puteți aduce echipamente Zebra la comandă pentru clienți din România?",
+        "a": "Da, procurăm la comandă cititoare de coduri, calculatoare mobile și tablete din gamele Zebra, precum MC9300, VC8300 sau seria ET, pe baza codului confirmat de client. Această gamă nu este ținută pe raft; urmărim datele publice ale Zebra privind disponibilitatea, iar livrarea se face de regulă în 2-6 săptămâni."
+      },
+      {
+        "q": "Ce trebuie să precizez atunci când cer o ofertă pentru un calculator mobil Zebra?",
+        "a": "Aveți nevoie să precizați mediul de utilizare, depozit, teren sau spațiu medical, sistemul de operare dorit, tipul de scanare necesar și eventualele accesorii, precum stații de andocare sau baterii suplimentare. Dacă înlocuiți un echipament existent, modelul exact de pe eticheta acestuia ajută la alegerea variantei compatibile din gama Zebra actuală."
+      },
+      {
+        "q": "Ce este cititorul Zebra FXR90 5G RFID Reader?",
+        "a": "Este un cititor RFID fix, parte din infrastructura Zebra pentru citirea automată a etichetelor în depozite sau linii de producție, cu conectivitate 5G pentru transmiterea rapidă a datelor. Se folosește adesea împreună cu antene RAIN RFID pentru acoperirea unor zone extinse de urmărire a stocurilor. Configurația exactă depinde de suprafața și de numărul de puncte de citire necesare."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Mobile Computers | Zebra","url":"https://www.zebra.com/us/en/products/mobile-computers.html","publisher":"Zebra Technologies","accessed":"2026-09-26"},
+      {"title":"Tablets | Zebra","url":"https://www.zebra.com/us/en/products/tablets.html","publisher":"Zebra Technologies","accessed":"2026-09-26"},
+      {"title":"Scanners | Zebra","url":"https://www.zebra.com/us/en/products/scanners.html","publisher":"Zebra Technologies","accessed":"2026-09-26"},
       { title: "Zebra Technologies – About Zebra", url: "https://www.zebra.com/us/en/about-zebra.html", publisher: "Zebra Technologies Corporation", accessed: "2026-09-22" },
       { title: "Zebra Technologies (Wikipedia)", url: "https://en.wikipedia.org/wiki/Zebra_Technologies", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],

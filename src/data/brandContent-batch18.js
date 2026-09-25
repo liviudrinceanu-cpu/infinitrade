@@ -1141,9 +1141,99 @@ O linie mai puțin cunoscută publicului larg, dar esențială pentru industria 
     ],
     infinitrade: `Site-ul oficial al producătorului ne-a blocat accesul automat la verificare, așa că pentru suflantele Roots, suflantele cu șurub și compresoarele Gardner Denver ne bazăm pe surse publice ale producătorului și pe canale de aprovizionare din UE, confirmând disponibilitatea reală pentru fiecare cerere primită. Pentru filtre, curele și alte piese de uzură curente, reperul e 24-72h din stoc; pentru unități complete sau execuții ATEX de putere mare, termenul standard e de 2-6 săptămâni la comandă. Spuneți-ne debitul și presiunea diferențială necesară, plus dacă aveți nevoie de aer fără ulei, ca să recomandăm tehnologia Roots sau cu șurub potrivită aplicației. Prețul îl calculăm doar după ce avem aceste date de proces.`,
     sources: [
+      {"title":"Gardner Denver - sitemap produse (en-us)","url":"https://www.gardnerdenver.com/sitemap/en-us.xml","publisher":"Gardner Denver Holdings, Inc.","accessed":"2026-09-26"},
+      {"title":"Gardner Denver - Blowers","url":"https://www.gardnerdenver.com/en-us/blowers","publisher":"Gardner Denver Holdings, Inc.","accessed":"2026-09-26"},
       { title: "Gardner Denver", url: "https://en.wikipedia.org/wiki/Gardner_Denver", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
     limitation: "Nu am putut accesa direct site-urile producătorului (gardnerdenver.com, ingersollrand.com) pentru a confirma stocul curent; nu efectuăm intervenții acoperite de garanția producătorului pe echipamentele deja instalate.",
+    productCodes: [
+      {
+        "code": "Sutorbilt Legend",
+        "description": "Suflantă cu lobi drepți, gamă standard pentru aer de proces"
+      },
+      {
+        "code": "Sutorbilt Legend DSL",
+        "description": "Variantă a suflantei Sutorbilt cu tăierea directă a lobilor"
+      },
+      {
+        "code": "Sutorbilt 8000 Series",
+        "description": "Suflantă cu lobi drepți pentru debite și presiuni mai mari"
+      },
+      {
+        "code": "Duroflow Series",
+        "description": "Suflantă cu lobi drepți, alternativă la gama Sutorbilt"
+      },
+      {
+        "code": "Duroflow 4506",
+        "description": "Suflantă compactă pentru aplicații mobile de transport pneumatic"
+      },
+      {
+        "code": "Duroflow 4509",
+        "description": "Suflantă pentru transport pneumatic de vrac, capacitate medie"
+      },
+      {
+        "code": "Duroflow 4512",
+        "description": "Suflantă pentru transport pneumatic de vrac, capacitate ridicată"
+      },
+      {
+        "code": "CycloBlower",
+        "description": "Suflantă cu șurub elicoidal, gamă industrială de bază"
+      },
+      {
+        "code": "CycloBlower HE",
+        "description": "Suflantă cu șurub elicoidal, variantă de eficiență ridicată"
+      },
+      {
+        "code": "CycloBlower VHX",
+        "description": "Suflantă cu șurub elicoidal pentru presiuni mai ridicate"
+      },
+      {
+        "code": "Electra-Saver Series",
+        "description": "Compresor cu șurub lubrifiat cu ulei, gamă clasică"
+      },
+      {
+        "code": "Electra-Saver G2 Series",
+        "description": "Compresor cu șurub lubrifiat, generație G2 actualizată"
+      },
+      {
+        "code": "Electra-Saver II G2 Series",
+        "description": "Compresor cu șurub lubrifiat, variantă extinsă a seriei G2"
+      },
+      {
+        "code": "EnviroAire VS 15/22",
+        "description": "Compresor fără ulei cu șurub, în puteri de 15-22 kW"
+      },
+      {
+        "code": "EnviroAire S Series",
+        "description": "Compresor fără ulei, gamă standard pentru aer curat"
+      },
+      {
+        "code": "EnviroAire ES Series",
+        "description": "Compresor fără ulei, variantă cu eficiență energetică sporită"
+      },
+      {
+        "code": "EnviroAire T/TVS Series",
+        "description": "Compresor fără ulei în două trepte, pentru presiune ridicată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între Sutorbilt Legend și CycloBlower la Gardner Denver?",
+        "a": "Sutorbilt Legend este o suflantă clasică cu lobi drepți, potrivită pentru presiuni moderate și aplicații consacrate de aer de proces, în timp ce CycloBlower folosește un rotor elicoidal care reduce pulsațiile și poate acoperi presiuni mai ridicate cu un nivel de zgomot adesea mai scăzut. Alegerea ține de presiunea necesară și de sensibilitatea aplicației la pulsații."
+      },
+      {
+        "q": "Aduceți suflante și compresoare Gardner Denver în România?",
+        "a": "Da, echipamentele Gardner Denver se aduc la comandă direct pe baza cerințelor tehnice primite, fără o gamă completă păstrată pe stoc local; termenul de livrare variază după model și opțiuni. Pentru o ofertă corectă trimiteți debitul, presiunea de lucru și, dacă aveți deja un model existent de înlocuit, codul de pe plăcuța motorului."
+      },
+      {
+        "q": "Ce date sunt utile pentru o ofertă de compresor Gardner Denver?",
+        "a": "Sunt necesare presiunea de lucru dorită, debitul de aer, precum și dacă aplicația cere aer fără ulei, seria EnviroAire, sau acceptă ulei lubrifiant, seria Electra-Saver, plus condițiile din hala de producție - temperatură, altitudine. Cu aceste date se poate recomanda rapid seria Gardner Denver potrivită."
+      },
+      {
+        "q": "Ce înseamnă seriile G2 la compresoarele Electra-Saver?",
+        "a": "G2 marchează o generație actualizată a compresorului Electra-Saver, cu îmbunătățiri față de seria inițială; Electra-Saver II G2 extinde această actualizare pe o plajă mai largă de puteri. Practic, dacă înlocuiți un compresor mai vechi, seria G2 este varianta curentă recomandată de producător pentru aceeași categorie de putere."
+      }
+    ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]

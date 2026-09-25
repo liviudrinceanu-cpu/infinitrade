@@ -1237,10 +1237,76 @@ SICK a investit masiv în digitalizare - platforma SICK AppSpace permite program
     ],
     infinitrade: `Prin InfiniTrade comandăm senzori și sisteme SICK - fotoelectrici, laser, scannere de siguranță - pentru automatizări industriale din România, prin canale de aprovizionare din Uniunea Europeană. Datele tehnice de mai sus provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, senzorii uzuali deja pregătiți se livrează în 24-72 h, iar echipamentele complexe (scannere safety, camere inteligente) comandate din fabrică durează 2-6 săptămâni. Pentru o cotație corectă, trimite-ne codul senzorului, aplicația și mediul de lucru (temperatură, praf, umiditate); nu afișăm prețuri fixe, fiecare cerere e evaluată individual. Te ajutăm să identifici senzorul potrivit chiar dacă nu ai codul exact SICK.`,
     sources: [
+      {"title":"SICK - sitemap oficial de produse (US/EN)","url":"https://www.sick.com/us/en/sitemaps/PRODUCT-en-USD-us.xml","publisher":"SICK AG","accessed":"2026-09-26"},
+      {"title":"SICK - sitemap categorii de produse (US/EN)","url":"https://www.sick.com/us/en/sitemaps/CATEGORY-en-USD-us-0.xml","publisher":"SICK AG","accessed":"2026-09-26"},
       { title: 'Sick AG – Wikipedia', url: 'https://en.wikipedia.org/wiki/Sick_AG', publisher: 'Wikipedia', accessed: '2026-09-22' },
       { title: 'SICK – site oficial', url: 'https://www.sick.com', publisher: 'SICK AG', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma calibrarea sau configurarea software AppSpace ca serviciu inclus și nici stocul permanent pentru toată gama de senzori.',
+    productCodes: [
+      {
+        "code": "A3M60",
+        "description": "Encoder absolut multitură cu carcasă compactă din aluminiu pentru automatizare"
+      },
+      {
+        "code": "ARS60",
+        "description": "Encoder absolut rotativ cu ax plin pentru poziționare de precizie"
+      },
+      {
+        "code": "HIGHLINE",
+        "description": "Traductor de deplasare cu cablu pentru curse lungi în medii solicitante"
+      },
+      {
+        "code": "ECOLINE",
+        "description": "Traductor de deplasare cu cablu, variantă simplificată pentru aplicații generale"
+      },
+      {
+        "code": "KH53",
+        "description": "Encoder liniar magnetic pentru măsurare de poziție pe curse scurte"
+      },
+      {
+        "code": "TTK70",
+        "description": "Sistem de măsurare liniară incrementală pentru axe de mașini-unelte"
+      },
+      {
+        "code": "INSPECTOR",
+        "description": "Cameră de viziune industrială compactă pentru inspecție și control de calitate"
+      },
+      {
+        "code": "AOS101",
+        "description": "Senzor LIDAR pentru detecție de obiecte în exterior"
+      },
+      {
+        "code": "AOS102",
+        "description": "Senzor LIDAR din familia AOS, pentru monitorizarea zonelor exterioare"
+      },
+      {
+        "code": "AOS103",
+        "description": "Senzor LIDAR pentru aplicații outdoor de detecție la distanță"
+      },
+      {
+        "code": "AOS104",
+        "description": "Senzor LIDAR, variantă din gama AOS pentru scanare exterioară"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul de tip la encoderele SICK, de exemplu A3M60?",
+        "a": "Codul indică familia și seria produsului: A3M60 este un encoder absolut multitură cu ieșire pe magistrală industrială, iar restul denumirii diferențiază rezoluția și tipul de interfață. Pentru montaj pe axul unei mașini se verifică diametrul arborelui și protocolul de comunicație cerut de automatizarea existentă, detalii disponibile în fișele tehnice publicate de producător pe pagina oficială."
+      },
+      {
+        "q": "Livrează SICK senzori și encodere în România?",
+        "a": "Da, gama SICK ajunge în România prin comandă, fără o cantitate păstrată local pentru toate modelele; termenul obișnuit este de câteva săptămâni, în funcție de model și de disponibilitatea din fabrică. Pentru o ofertă corectă trimiteți codul exact de pe eticheta produsului sau, dacă lipsește, descrieți aplicația - tip mașină, semnal necesar, mediu de montaj - astfel încât echivalentul potrivit din portofoliul SICK să fie identificat rapid."
+      },
+      {
+        "q": "Ce diferență este între traductoarele HIGHLINE și ECOLINE la SICK?",
+        "a": "HIGHLINE este construit pentru curse lungi și condiții industriale solicitante, cu un tambur de cablu mai robust, în timp ce ECOLINE acoperă același principiu de măsurare într-o variantă mai simplă, potrivită aplicațiilor generale unde bugetul contează mai mult decât cursa maximă disponibilă. Alegerea între cele două ține de lungimea de măsurat și de mediul de lucru."
+      },
+      {
+        "q": "Ce informații sunt necesare pentru o ofertă de senzori SICK?",
+        "a": "Pentru o ofertă corectă e nevoie de codul complet de pe eticheta produsului sau, dacă nu mai este vizibil, de tipul senzorului, distanța de detecție necesară, tensiunea de alimentare și tipul de ieșire (PNP, NPN sau analogică). Fotografii cu eticheta și cu locul de montaj ajută la identificarea rapidă a echivalentului corect din gama SICK."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]

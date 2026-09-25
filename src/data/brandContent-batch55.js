@@ -405,11 +405,77 @@ Pentru industria chimică și de procesare din România, Husky rămâne o soluț
     ],
     infinitrade: `Echipamentele Graco le aducem la comandă prin rețeaua europeană a producătorului, fără date proprii despre disponibilitatea imediată a fiecărui model din seria Husky. Ne bazăm pe cataloagele tehnice publice ale producătorului pentru parametrii de debit și compatibilitate chimică, iar termenul orientativ de livrare la comandă este de 2-6 săptămâni. Pentru o ofertă corectă avem nevoie de tipul de fluid transportat, vâscozitatea aproximativă și dacă e necesară certificarea ATEX. Nu putem confirma stocuri locale pentru fiecare variantă de etanșare sau material de contact cu fluidul.`,
     limitation: "Nu oferim configurare software pentru sistemele electronice de dozare Graco și nu putem confirma disponibilitatea imediată a fiecărei variante de etanșare din gamă.",
+    productCodes: [
+      {
+        "code": "Husky 205",
+        "description": "Pompă pneumatică cu diafragmă, capacitate mică pentru transfer general"
+      },
+      {
+        "code": "Husky 515",
+        "description": "Pompă pneumatică cu diafragmă, gamă compactă pentru fluide ușoare"
+      },
+      {
+        "code": "Husky 716",
+        "description": "Pompă pneumatică cu diafragmă, capacitate medie pentru uz industrial"
+      },
+      {
+        "code": "Husky 1050",
+        "description": "Pompă pneumatică cu diafragmă pentru aplicații intermitente cu costuri reduse"
+      },
+      {
+        "code": "Husky 1590",
+        "description": "Pompă pneumatică cu diafragmă pentru funcționare continuă sau debit lent"
+      },
+      {
+        "code": "Husky 2150",
+        "description": "Pompă pneumatică cu diafragmă, capacitate ridicată pentru volum mare de transfer"
+      },
+      {
+        "code": "Husky 15120",
+        "description": "Pompă pneumatică cu diafragmă, capacitate foarte mare pentru medii corozive"
+      },
+      {
+        "code": "ChemSafe 1040",
+        "description": "Pompă cu corp complet încapsulat, pentru acizi puternic corozivi"
+      },
+      {
+        "code": "QuantM H80",
+        "description": "Pompă electrică cu diafragmă, serie de capacitate medie"
+      },
+      {
+        "code": "QuantM I80",
+        "description": "Pompă electrică cu diafragmă, serie orientată spre eficiență energetică"
+      },
+      {
+        "code": "E-Flo DCI",
+        "description": "Pompă electrică cu piston, pentru transfer controlat de fluide"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între Husky 1050 și Husky 1590 la Graco?",
+        "a": "Husky 1050 este gândită pentru aplicații intermitente, cu un ciclu de pompare mai rapid și costuri mai reduse, în timp ce Husky 1590 este potrivită pentru funcționare continuă sau pentru situațiile unde este nevoie de o pompă mai lentă și mai constantă. Volumul per ciclu este mai mare la 1590, deci sunt necesare mai puține cicluri pentru același debit."
+      },
+      {
+        "q": "Livrați pompe Graco Husky în România?",
+        "a": "Da, pompele pneumatice Graco din gama Husky se aduc la comandă, fără o cantitate ținută pe raft pentru fiecare model; timpul de livrare depinde de configurație - material corp, garnituri, bile. Pentru o ofertă corectă trimiteți fluidul vehiculat, debitul dorit și presiunea de aer comprimat disponibilă la instalația dumneavoastră."
+      },
+      {
+        "q": "Ce detalii contează pentru o ofertă de pompă Graco?",
+        "a": "Cele mai utile informații sunt tipul de fluid pompat, inclusiv vâscozitatea și eventualii solizi, debitul necesar, presiunea de aer comprimat disponibilă și materialele compatibile chimic - polipropilenă, PVDF sau Hastelloy pentru medii corozive. Cu aceste date se poate identifica rapid varianta Husky sau ChemSafe potrivită."
+      },
+      {
+        "q": "Ce este pompa ChemSafe 1040 de la Graco?",
+        "a": "Este o pompă cu corp complet încapsulat, gândită pentru vehicularea acizilor puternic corozivi, disponibilă în variante din PTFE sau polipropilenă în funcție de temperatura de lucru. Se folosește acolo unde o scurgere accidentală ar fi periculoasă, iar încapsularea suplimentară oferă un nivel extra de siguranță față de o pompă standard."
+      }
+    ],
     evidenceClass: "history-only",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Graco - How to Select the Correct Husky Pump","url":"https://www.graco.com/gb/en/in-plant-manufacturing/solutions/articles/how-to-select-the-correct-husky-pump.html","publisher":"Graco Inc.","accessed":"2026-09-26"},
+      {"title":"Graco - sitemap produse in-plant manufacturing (us/en)","url":"https://www.graco.com/us/en/sitemap-2.xml","publisher":"Graco Inc.","accessed":"2026-09-26"},
       { title: "About Graco", url: "https://www.graco.com/us/en/about-us.html", publisher: "Graco Inc.", accessed: "2026-09-22" },
       { title: "How to select the correct Husky pump", url: "https://www.graco.com/gb/en/in-plant-manufacturing/solutions/articles/how-to-select-the-correct-husky-pump.html", publisher: "Graco Inc.", accessed: "2026-09-22" },
       { title: "Graco (fluid handling)", url: "https://en.wikipedia.org/wiki/Graco_(fluid_handling)", publisher: "Wikipedia", accessed: "2026-09-22" }

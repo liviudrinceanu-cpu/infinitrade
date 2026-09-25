@@ -414,11 +414,92 @@ Pentru piața din România, ETI are sens la tablourile electrice noi sau moderni
     ],
     infinitrade: `Pentru ETI lucrăm din informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pe această gamă. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru siguranțe și descărcătoare, clientul trebuie să ne trimită curentul nominal, tensiunea de lucru (AC sau DC) și, la instalațiile fotovoltaice, tensiunea maximă a sistemului. Nu promitem disponibilitate permanentă din stoc pe niciun cod ETI și nu confirmăm un termen mai scurt fără o verificare punctuală la furnizor.`,
     limitation: "Nu putem confirma anul exact al fondării companiei din surse oficiale și nu oferim configurarea software a stațiilor de încărcare ETICHARGE.",
+    productCodes: [
+      {
+        "code": "ASTI",
+        "description": "Familie de întrerupătoare automate modulare și separatoare"
+      },
+      {
+        "code": "ETIBOX",
+        "description": "Familie de tablouri și cutii de distribuție electrică"
+      },
+      {
+        "code": "ETIBREAK",
+        "description": "Familie de întrerupătoare de sarcină compacte"
+      },
+      {
+        "code": "ETICHARGE",
+        "description": "Familie de stații de încărcare pentru vehicule electrice"
+      },
+      {
+        "code": "ETICEE",
+        "description": "Familie de conectori și prize industriale"
+      },
+      {
+        "code": "ETICON",
+        "description": "Familie de contactoare și relee de protecție a motoarelor"
+      },
+      {
+        "code": "ETICONNECT",
+        "description": "Familie de cleme de conexiune pentru șină DIN"
+      },
+      {
+        "code": "ETIMETER",
+        "description": "Familie de aparate de măsură și monitorizare a energiei"
+      },
+      {
+        "code": "ETIPOWER",
+        "description": "Familie de separatoare de sarcină de mare capacitate"
+      },
+      {
+        "code": "ETIREL",
+        "description": "Familie de relee de automatizare, semnalizare și monitorizare"
+      },
+      {
+        "code": "ETISIG",
+        "description": "Familie de butoane de comandă și indicatoare de semnalizare"
+      },
+      {
+        "code": "ETISWITCH",
+        "description": "Familie de comutatoare modulare și compacte"
+      },
+      {
+        "code": "ETITEC",
+        "description": "Familie de descărcătoare de supratensiune"
+      },
+      {
+        "code": "ETITRAFO",
+        "description": "Familie de transformatoare și surse de alimentare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce reprezintă familia ETIBREAK din gama ETI?",
+        "a": "ETIBREAK este familia de întrerupătoare de sarcină compacte din portofoliul producătorului sloven ETI, folosite pentru secționarea circuitelor de joasă tensiune în tablouri electrice. Variantele diferă prin curentul nominal și numărul de poli, iar alegerea corectă depinde de puterea instalată și de spațiul disponibil în tabloul de distribuție."
+      },
+      {
+        "q": "Ce echivalent are seria ASTI de la ETI pentru protecția circuitelor?",
+        "a": "Seria ASTI cuprinde întrerupătoare automate modulare și separatoare folosite pentru protecția circuitelor la supracurent și scurtcircuit, similar ca funcție cu alte familii de disjunctoare modulare de pe piață. Echivalentul exact se stabilește comparând curentul nominal, curba de declanșare și puterea de rupere din fișa tehnică a produsului dorit."
+      },
+      {
+        "q": "Ce se completează într-o solicitare de ofertă pentru produse ETI Elektroelement?",
+        "a": "Avem nevoie de codul familiei dorite, de exemplu ASTI, ETIBREAK sau ETITRAFO, împreună cu curentul nominal, tensiunea de lucru și numărul de poli sau module necesare. Aceste informații permit identificarea variantei corecte în catalogul producătorului și confirmarea disponibilității pentru configurația solicitată."
+      },
+      {
+        "q": "Livrați produse ETI în România?",
+        "a": "Produsele ETI ajung la noi pe bază de comandă transmisă către producător, cu un termen orientativ de 2–6 săptămâni; gama nu este păstrată pe raft, deoarece fiecare familie, de la ASTI la ETITRAFO, are numeroase variante de curent și configurație."
+      },
+      {
+        "q": "Ce diferență este între ETICON și ETIREL în gama ETI?",
+        "a": "ETICON reunește contactoare și relee de protecție folosite pentru pornirea și oprirea motoarelor electrice, în timp ce ETIREL cuprinde relee de automatizare, semnalizare și monitorizare pentru diverse funcții din tabloul electric. Alegerea între cele două familii depinde de rolul exact din schema electrică, comandă de motor sau monitorizare de parametri."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sitemap produse ETI (eti.si)","url":"https://www.eti.si/sitemap.xml","publisher":"ETI Elektroelement","accessed":"2026-09-26"},
       { title: "ETI — despre companie", url: "https://www.eti.si", publisher: "ETI Elektroelement d.o.o.", accessed: "2026-09-22" },
       { title: "Etigroup România — produse și servicii", url: "https://www.etigroup.ro/produse-si-servicii", publisher: "ETI Elektroelement d.o.o.", accessed: "2026-09-22" }
     ],
@@ -623,11 +704,100 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
     ],
     infinitrade: `Pe SEKO lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pentru pompele și panourile din gamă. Pompele și panourile SEKO le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită debitul necesar, presiunea de refulare, substanța chimică dozată și, dacă are deja o pompă instalată, modelul acesteia. Nu promitem disponibilitate permanentă din stoc pe niciun model SEKO și nu confirmăm compatibilitatea chimică a unui cap de pompă fără verificare punctuală la producător.`,
     limitation: "Nu putem confirma anul exact al fondării sau orașul sediului central din sursele accesate și nu oferim programarea de la distanță a panourilor Kontrol sau Pooldose.",
+    productCodes: [
+      {
+        "code": "Tekna Series",
+        "description": "Familie de pompe dozatoare cu membrană pentru tratarea apei"
+      },
+      {
+        "code": "Arkad J0700",
+        "description": "Pompă peristaltică din seria Arkad, debit mare"
+      },
+      {
+        "code": "Arkad J0400",
+        "description": "Pompă peristaltică din seria Arkad"
+      },
+      {
+        "code": "Arkad J0250",
+        "description": "Pompă peristaltică din seria Arkad"
+      },
+      {
+        "code": "Arkad J0170",
+        "description": "Pompă peristaltică din seria Arkad, debit redus"
+      },
+      {
+        "code": "Arkad J0120",
+        "description": "Pompă peristaltică din seria Arkad"
+      },
+      {
+        "code": "Arkad Damper JD400",
+        "description": "Modul damper pentru pompa Arkad J0400"
+      },
+      {
+        "code": "Waredose 20 Kompact",
+        "description": "Unitate compactă de dozare pentru tratarea apei"
+      },
+      {
+        "code": "Waredose 30 Kompact",
+        "description": "Unitate compactă de dozare, variantă de capacitate mai mare"
+      },
+      {
+        "code": "Spring MS1-AVS",
+        "description": "Pompă dozatoare cu motor pas cu pas din seria Spring"
+      },
+      {
+        "code": "Proflex",
+        "description": "Pompă dozatoare cu membrană pentru aplicații de proces"
+      },
+      {
+        "code": "Draindose Kompact",
+        "description": "Unitate compactă de dozare pentru sisteme de scurgere"
+      },
+      {
+        "code": "DD1",
+        "description": "Pompă dozatoare digitală de mică capacitate"
+      },
+      {
+        "code": "Polycendos",
+        "description": "Sistem de dozare pentru polielectroliți"
+      },
+      {
+        "code": "Kontrol 42",
+        "description": "Panou de control pentru tratarea apei de răcire"
+      },
+      {
+        "code": "Pooldose Panel pH/ORP",
+        "description": "Panou de control pH și ORP pentru piscine"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este seria Arkad de la SEKO și pentru ce se folosește?",
+        "a": "Seria Arkad reunește pompe peristaltice SEKO destinate dozării de reactivi chimici în tratarea apei, disponibile în mai multe trepte de debit, de la variante compacte până la modele de capacitate mare precum J0700. Alegerea modelului potrivit depinde de debitul necesar și de presiunea din instalație."
+      },
+      {
+        "q": "Ce diferență este între Tekna Series și Waredose la SEKO?",
+        "a": "Tekna Series este o familie de pompe dozatoare cu membrană folosite pentru dozare chimică de precizie, în timp ce Waredose este o unitate compactă care integrează pompa, rezervorul și accesoriile de control într-un singur ansamblu. Waredose se recomandă atunci când spațiul de montaj este limitat, iar Tekna oferă flexibilitate mai mare de configurare."
+      },
+      {
+        "q": "Ce trebuie precizat atunci când cereți o ofertă pentru echipamente SEKO?",
+        "a": "Avem nevoie de tipul de substanță dozată, debitul și presiunea necesare, precum și de spațiul disponibil pentru montaj. Cu aceste date putem indica familia potrivită, Tekna, Arkad sau Waredose, urmând ca oferta finală să fie confirmată pe baza fișelor tehnice publicate de SEKO."
+      },
+      {
+        "q": "Livrați echipamente SEKO în România?",
+        "a": "Echipamentele SEKO se comandă direct de la producător, cu un interval tipic de 2–6 săptămâni până la sosire; gama nu este ținută pe raft, întrucât fiecare familie de pompe are numeroase variante de debit."
+      },
+      {
+        "q": "Ce rol are panoul Kontrol 42 de la SEKO?",
+        "a": "Panoul Kontrol 42 este destinat monitorizării și controlului tratamentului apei de răcire, gestionând parametri precum conductivitatea și dozarea de reactivi în circuitul de răcire industrial. Este folosit adesea împreună cu pompe din seria Tekna sau Arkad pentru a forma un sistem complet de tratare a apei."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sitemap produse SEKO","url":"https://www.seko.com/sitemap.xml","publisher":"SEKO","accessed":"2026-09-26"},
       { title: "SEKO — Tekna Series", url: "https://www.seko.com/product/view/tekna-series", publisher: "SEKO", accessed: "2026-09-22" },
       { title: "SEKO România — pagina principală", url: "https://www.seko.com/ro", publisher: "SEKO", accessed: "2026-09-22" }
     ],
@@ -1012,11 +1182,108 @@ Pentru piața din România, Crowcon are sens la instalațiile din petrol și gaz
     ],
     infinitrade: `Pe Crowcon lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe detectoarele din gamă. Detectoarele ajung la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul sau tipurile de gaze de detectat, dacă are nevoie de detector portabil sau fix și clasificarea zonei de instalare (dacă e cazul, zonă cu risc de explozie). Nu promitem disponibilitate permanentă din stoc pe niciun model Crowcon și nu efectuăm noi înșine calibrarea periodică a senzorilor.`,
     limitation: "Nu efectuăm calibrarea periodică a senzorilor Crowcon și nu putem confirma din surse publice orașul exact al sediului central sau anul precis al fondării companiei.",
+    productCodes: [
+      {
+        "code": "Xgard",
+        "description": "Detector fix de gaz cu montaj pe perete"
+      },
+      {
+        "code": "Xgard Bright",
+        "description": "Detector fix de gaz cu afișaj îmbunătățit"
+      },
+      {
+        "code": "XgardIQ",
+        "description": "Detector fix de gaz cu comunicare digitală"
+      },
+      {
+        "code": "Gasman",
+        "description": "Detector portabil de gaz cu un singur senzor"
+      },
+      {
+        "code": "T4",
+        "description": "Detector portabil multigaz cu patru senzori"
+      },
+      {
+        "code": "T4x",
+        "description": "Detector portabil multigaz, versiune extinsă a seriei T4"
+      },
+      {
+        "code": "Tetra 3",
+        "description": "Detector portabil multigaz cu senzor de oxigen"
+      },
+      {
+        "code": "IR Plus",
+        "description": "Detector fix cu senzor infraroșu pentru gaze inflamabile"
+      },
+      {
+        "code": "Gas-Pro",
+        "description": "Detector portabil multigaz de uz general"
+      },
+      {
+        "code": "Gas-Pro IR",
+        "description": "Detector portabil cu senzor infraroșu pentru gaze inflamabile"
+      },
+      {
+        "code": "Gas-Pro TK",
+        "description": "Detector portabil pentru confinarea spațiilor înguste"
+      },
+      {
+        "code": "Gas-Pro PID",
+        "description": "Detector portabil cu senzor de fotoionizare pentru compuși organici volatili"
+      },
+      {
+        "code": "Vortex",
+        "description": "Controler pentru sisteme de detecție a gazelor"
+      },
+      {
+        "code": "Vortex FP",
+        "description": "Controler de detecție a gazelor cu funcții extinse"
+      },
+      {
+        "code": "MultiScan S2",
+        "description": "Controler central pentru detectoare fixe de gaz"
+      },
+      {
+        "code": "MultiScan Med",
+        "description": "Controler central pentru detectoare fixe, versiune pentru instalații medii"
+      },
+      {
+        "code": "FGard IR3",
+        "description": "Detector de flacără cu senzor infraroșu triplu"
+      },
+      {
+        "code": "DetectiveIQ",
+        "description": "Software de gestionare a datelor de detecție a gazelor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între detectorul T4 și T4x de la Crowcon?",
+        "a": "Detectorul T4 este un aparat portabil cu patru senzori de gaz folosit pentru controlul atmosferei înainte de intrarea în spații închise, în timp ce T4x este o variantă extinsă a aceleiași platforme, cu opțiuni suplimentare de senzori și conectivitate. Alegerea între cele două depinde de gazele care trebuie monitorizate simultan."
+      },
+      {
+        "q": "Ce este seria Xgard de la Crowcon Detection Instruments?",
+        "a": "Xgard este familia de detectoare fixe de gaz Crowcon, montate pe perete și conectate la un controler central, folosite pentru monitorizarea continuă a atmosferei în zone industriale. Variantele Xgard și Xgard Bright diferă prin tipul de afișaj și opțiunile de comunicare disponibile pentru integrarea în sistemul de siguranță al instalației."
+      },
+      {
+        "q": "Ce elemente sunt necesare pentru a primi o ofertă de detectoare Crowcon?",
+        "a": "Avem nevoie de tipul de gaz sau gaze de detectat, mediul de instalare, fix sau portabil, și numărul de puncte de măsurare necesare. Pe baza acestor informații putem recomanda familia potrivită, Xgard pentru instalare fixă sau Gas-Pro și T4 pentru utilizare portabilă, urmând confirmarea pe fișele tehnice ale producătorului."
+      },
+      {
+        "q": "Livrați detectoare Crowcon în România?",
+        "a": "Detectoarele Crowcon nu sunt ținute pe raft la noi, ci se aduc la comandă, într-un interval obișnuit de 2–6 săptămâni, dat fiind numărul mare de modele fixe și portabile din portofoliu."
+      },
+      {
+        "q": "Ce rol are controlerul Vortex în sistemul de detecție Crowcon?",
+        "a": "Controlerul Vortex centralizează semnalele de la mai multe detectoare fixe de gaz, precum cele din seria Xgard, și gestionează alarmele și releele de acționare din instalație. Varianta Vortex FP adaugă funcții suplimentare de configurare, fiind utilă în instalații industriale cu un număr mare de puncte de detecție."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sitemap produse Crowcon (products-sitemap.xml)","url":"https://www.crowcon.com/products-sitemap.xml","publisher":"Crowcon Detection Instruments","accessed":"2026-09-26"},
       { title: "Crowcon — pagina principală", url: "https://www.crowcon.com", publisher: "Crowcon Detection Instruments Ltd", accessed: "2026-09-22" },
       { title: "Crowcon — produse", url: "https://www.crowcon.com/products/", publisher: "Crowcon Detection Instruments Ltd", accessed: "2026-09-22" }
     ],

@@ -29,11 +29,81 @@ Pentru piața din România, gama are sens acolo unde un tablou trebuie completat
     ],
     infinitrade: `Pentru Carlo Gavazzi lucrăm din surse publice ale producătorului și din ce am putut verifica direct pe site — nu avem date proprii de stoc pentru această gamă. Aducem senzori, relee statice și contoare de energie la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al produsului sau, dacă nu îl are, parametrii funcționali: tipul senzorului, curentul de sarcină al releului sau tipul de rețea pentru contor. Nu putem confirma disponibilitate permanentă din stoc pentru toate referințele din catalog.`,
     limitation: "Nu putem confirma service sau calibrare în garanția producătorului pentru relee și contoare — acestea rămân în sarcina rețelei Carlo Gavazzi.",
+    productCodes: [
+      {
+        "code": "PD30ETBI20BPM5IO",
+        "description": "Senzor fotoelectric cu comunicație IO-Link"
+      },
+      {
+        "code": "NRGC-EIP",
+        "description": "Controler pentru lanț de bus NRG cu interfață EtherNet/IP"
+      },
+      {
+        "code": "EM540DINAV23XS1PFA",
+        "description": "Analizor de energie trifazat pentru montaj pe șină DIN"
+      },
+      {
+        "code": "UA30ASD30BPM1IO",
+        "description": "Senzor ultrasonic cu reflexie difuză și comunicație IO-Link"
+      },
+      {
+        "code": "RSGT4025E0V10C",
+        "description": "Starter lin (soft starter) pentru motoare de inducție"
+      },
+      {
+        "code": "CA30EAF16BPM1IO",
+        "description": "Senzor capacitiv de proximitate cu comunicație IO-Link"
+      },
+      {
+        "code": "Frequency Drives",
+        "description": "Convertizoare de frecvență pentru controlul motoarelor trifazate"
+      },
+      {
+        "code": "Scroll Compressor Soft Starters",
+        "description": "Starter lin dedicat pornirii compresoarelor de tip scroll"
+      },
+      {
+        "code": "General Purpose Soft Starters",
+        "description": "Starter lin pentru pornirea graduală a motoarelor de uz general"
+      },
+      {
+        "code": "Motor Reversing Relays",
+        "description": "Releu pentru inversarea sensului de rotație al motorului"
+      },
+      {
+        "code": "Multi-load Metering",
+        "description": "Contor de energie pentru monitorizarea simultană a mai multor sarcini"
+      },
+      {
+        "code": "All-in-One IoT Meters",
+        "description": "Contor de energie cu conectivitate IoT integrată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul lung al unui senzor Carlo Gavazzi, de exemplu PD30ETBI20BPM5IO?",
+        "a": "Codul complet descrie fiecare caracteristică a senzorului: seria, dimensiunea carcasei, tipul de detecție, distanța de comutare, tipul de ieșire și prezența comunicației IO-Link. Pentru un senzor precum PD30ETBI20BPM5IO, literele arată o construcție fotoelectrică cu ieșire digitală și interfață IO-Link pentru integrare în sisteme moderne de automatizare. Confirmarea completă a parametrilor se face din fișa tehnică Carlo Gavazzi, nu doar din codul scurt vorbit."
+      },
+      {
+        "q": "Procurați senzori și relee Carlo Gavazzi pentru livrare în România?",
+        "a": "Da, punem la dispoziție prin comandă senzori, relee și analizoare de energie din gamele Carlo Gavazzi, pe baza codului complet confirmat de client. Produsele din această gamă nu sunt ținute pe raft; ne raportăm la disponibilitatea publică anunțată de Carlo Gavazzi, iar termenul obișnuit este de 2-6 săptămâni."
+      },
+      {
+        "q": "Ce date sunt utile pentru o ofertă la un starter lin Carlo Gavazzi?",
+        "a": "Este nevoie de puterea motorului în kW, tensiunea de alimentare, curentul nominal și tipul aplicației, pornire generală sau compresor de tip scroll. Dacă înlocuiți un starter existent, codul complet de pe carcasă, precum cel din familia RSGT, ajută la identificarea rapidă a variantei echivalente din gama actuală Carlo Gavazzi."
+      },
+      {
+        "q": "Ce diferență este între un senzor Carlo Gavazzi cu și fără IO-Link?",
+        "a": "Un senzor fără IO-Link, precum unele variante din familia CA30, transmite doar un semnal simplu de comutare către automat. Un senzor cu IO-Link, precum PD30ETBI20BPM5IO sau UA30ASD30BPM1IO, poate trimite valori măsurate, parametri de configurare și diagnosticare printr-o singură conexiune digitală. Alegerea depinde de nevoia de monitorizare avansată a instalației, nu doar de simpla detectare a unui obiect."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sensors | Carlo Gavazzi Automation","url":"https://www.gavazziautomation.com/en-global/products/sensors","publisher":"Carlo Gavazzi","accessed":"2026-09-26"},
+      {"title":"Carlo Gavazzi Automation Components homepage","url":"https://www.gavazziautomation.com/","publisher":"Carlo Gavazzi","accessed":"2026-09-26"},
       { title: "Carlo Gavazzi — sensors, monitoring relays, energy management", url: "https://www.carlogavazzi.com/", publisher: "Carlo Gavazzi", accessed: "2026-09-22" },
       { title: "Carlo Gavazzi — Automation Components, prezentare grup", url: "https://www.carlogavazzi.com/", publisher: "Carlo Gavazzi", accessed: "2026-09-22" },
     ],
@@ -565,11 +635,84 @@ Pentru România, gama Hoffman are sens la tablouri electrice industriale, stați
     ],
     infinitrade: `Pentru Hoffman lucrăm din informațiile publice ale grupului nVent — nu avem date proprii de stoc pentru gama americană de carcase. Aducem carcase, console și cutii de joncțiune la comandă, prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită dimensiunile interioare necesare, materialul dorit (oțel, inox, nemetalic) și standardul cerut de proiect (IP, NEMA sau UL). Nu putem confirma disponibilitate permanentă din stoc pentru fiecare dimensiune sau configurație din catalog.`,
     limitation: "Nu putem confirma personalizarea decupajelor sau vopsirea specială a carcaselor — acestea depind de opțiunile fabricii și de cantitatea comandată.",
+    productCodes: [
+      {
+        "code": "EV Charging Inverter Enclosures",
+        "description": "Carcase Hoffman dedicate invertoarelor pentru stații de încărcare electrică"
+      },
+      {
+        "code": "Mild Steel Enclosures",
+        "description": "Carcase din oțel carbon pentru aplicații industriale generale"
+      },
+      {
+        "code": "Stainless Steel Enclosures",
+        "description": "Carcase din oțel inoxidabil pentru medii corozive sau igienice"
+      },
+      {
+        "code": "Wall-Mounted Enclosures",
+        "description": "Carcase montate pe perete pentru tablouri de comandă"
+      },
+      {
+        "code": "Free-Standing Enclosures",
+        "description": "Carcase autoportante pentru echipamente electrice de dimensiuni mari"
+      },
+      {
+        "code": "Consoles",
+        "description": "Console de comandă pentru operarea echipamentelor industriale"
+      },
+      {
+        "code": "Non-Metallic Enclosures",
+        "description": "Carcase din materiale nemetalice pentru medii speciale"
+      },
+      {
+        "code": "Junction and Terminal Boxes",
+        "description": "Cutii de joncțiune și borne pentru conexiuni electrice"
+      },
+      {
+        "code": "Outdoor Enclosures",
+        "description": "Carcase destinate montajului în exterior, rezistente la intemperii"
+      },
+      {
+        "code": "EMC Enclosures",
+        "description": "Carcase cu ecranare împotriva interferențelor electromagnetice"
+      },
+      {
+        "code": "Hazardous Locations Enclosures",
+        "description": "Carcase pentru zone cu risc de explozie"
+      },
+      {
+        "code": "Seismic Design Enclosures",
+        "description": "Carcase proiectate pentru rezistență la mișcări seismice"
+      },
+      {
+        "code": "Hygienic Design Enclosures",
+        "description": "Carcase cu design igienic pentru industria alimentară"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între carcasele nVent Hoffman Wall-Mounted și Free-Standing?",
+        "a": "Carcasele Wall-Mounted se montează direct pe perete și sunt potrivite pentru tablouri de comandă de dimensiuni mici sau medii, acolo unde spațiul de podea este limitat. Carcasele Free-Standing sunt autoportante, gândite pentru echipamente electrice mai mari sau pentru instalații cu multe module, montate direct pe pardoseala halei. Alegerea depinde de spațiul disponibil și de greutatea totală a echipamentului instalat."
+      },
+      {
+        "q": "Asigurați livrarea carcaselor nVent Hoffman pentru proiecte din România?",
+        "a": "Da, procurăm la comandă carcase din gamele nVent Hoffman, pentru montaj pe perete, autoportante sau destinate zonelor cu risc de explozie, pe baza specificațiilor confirmate de client. Nu păstrăm aceste carcase pe raft; ne informăm din materialele publice ale nVent despre disponibilitate, iar termenul obișnuit rămâne de 2-6 săptămâni."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă la o carcasă nVent Hoffman?",
+        "a": "Aveți nevoie să precizați dimensiunile interioare necesare, materialul dorit, oțel carbon sau inoxidabil, gradul de protecție IP cerut și mediul de instalare, interior, exterior sau zonă cu risc de explozie. Dacă este nevoie de răcire activă sau de ecranare EMC, menționați și acest lucru pentru alegerea corectă din gama Hoffman."
+      },
+      {
+        "q": "Ce sunt carcasele Hygienic Design de la nVent Hoffman?",
+        "a": "Sunt carcase proiectate pentru industria alimentară și farmaceutică, cu suprafețe netede, colțuri rotunjite și îmbinări care limitează acumularea de reziduuri, pentru a facilita curățarea și dezinfectarea frecventă. Se folosesc adesea în zone unde igiena strictă a echipamentelor este obligatorie prin norme de producție. Materialul și gradul de etanșare exact se stabilesc în funcție de procesul specific al clientului."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Hoffman Enclosures | nVent","url":"https://www.nvent.com/en-us/hoffman","publisher":"nVent","accessed":"2026-09-26"},
       { title: "nVent HOFFMAN — Enclosures, Consoles, Cable and Climate Control", url: "https://www.nvent.com/en-us/hoffman", publisher: "nVent Electric plc", accessed: "2026-09-22" },
       { title: "nVent Electric — Connect and protect", url: "https://www.nvent.com/en-us", publisher: "nVent Electric plc", accessed: "2026-09-22" },
     ],
@@ -602,11 +745,77 @@ Pentru România, gama Molykote are sens la mentenanța echipamentelor industrial
     ],
     infinitrade: `Pentru Molykote lucrăm din surse publice ale producătorului — fără date proprii de stoc pentru gama completă de unsori și paste. Aducem unsorile și pastele Molykote la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al produsului sau, dacă nu îl are, temperatura de lucru, tipul de contact (lagăr, filet, angrenaj) și materialele implicate. Nu putem confirma disponibilitate permanentă din stoc pentru toate referințele din portofoliul DuPont.`,
     limitation: "Nu putem confirma compatibilitatea unui lubrifiant Molykote cu o specificație tehnică exactă a unui echipament — aceasta trebuie verificată de client în fișa tehnică a producătorului echipamentului.",
+    productCodes: [
+      {
+        "code": "G-0060 FM",
+        "description": "Unsoare industrială din gama Molykote, promovată pentru aplicații speciale"
+      },
+      {
+        "code": "HP-300",
+        "description": "Unsoare Molykote aprobată pentru utilizare în medii bogate în oxigen"
+      },
+      {
+        "code": "G-8101",
+        "description": "Unsoare Molykote aprobată pentru pompe, vane și compresoare cu oxigen"
+      },
+      {
+        "code": "G-5133",
+        "description": "Unsoare Molykote pentru interval larg de temperatură, fără etichetă de pericol"
+      },
+      {
+        "code": "AS-880N",
+        "description": "Unsoare Molykote din gama de aplicații speciale"
+      },
+      {
+        "code": "Anti-friction Coatings",
+        "description": "Acoperiri anti-fricțiune Molykote pentru reducerea uzurii componentelor"
+      },
+      {
+        "code": "Compounds",
+        "description": "Compuși Molykote pentru etanșare și lubrifiere de lungă durată"
+      },
+      {
+        "code": "Dispersions and Aerosols",
+        "description": "Dispersii și aerosoli Molykote pentru aplicare rapidă a lubrifiantului"
+      },
+      {
+        "code": "Greases",
+        "description": "Gamă largă de unsori industriale Molykote pentru diverse aplicații"
+      },
+      {
+        "code": "Oils and Fluids",
+        "description": "Uleiuri și fluide Molykote pentru lubrifiere industrială"
+      },
+      {
+        "code": "Anti-Seize Pastes",
+        "description": "Paste anti-gripare Molykote pentru prevenirea coroziunii la asamblare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este unsoarea Molykote HP-300?",
+        "a": "Este o unsoare din gama Molykote testată și aprobată pentru utilizare în medii bogate în oxigen, precum pompe, vane și compresoare unde riscul de aprindere trebuie controlat strict. Alături de G-8101, face parte din categoria produselor Molykote certificate pentru astfel de aplicații critice. Alegerea exactă a variantei depinde de temperatura de lucru și de presiunea din instalație, verificate în fișa tehnică."
+      },
+      {
+        "q": "Livrați produse Molykote pentru clienți din România, la comandă?",
+        "a": "Da, aducem la comandă unsori, paste și acoperiri din gamele Molykote, pe baza codului confirmat de client, conform materialelor publicate de producător. Nu păstrăm această gamă pe raft; disponibilitatea se verifică direct din materialele publice ale producătorului, iar termenul obișnuit rămâne de 2-6 săptămâni. Recomandăm transmiterea codului complet al produsului, de exemplu G-5133 sau HP-300."
+      },
+      {
+        "q": "Ce detalii sunt necesare pentru o ofertă la un lubrifiant Molykote?",
+        "a": "Este nevoie de tipul aplicației, lagăr, angrenaj, îmbinare filetată sau componentă din plastic, temperatura de funcționare și dacă instalația vine în contact cu oxigen sau alimente. Pentru paste anti-gripare, menționați și materialele îmbinate, pentru a evita reacții chimice nedorite între suprafețe. Aceste detalii ajută la alegerea corectă din gama Molykote."
+      },
+      {
+        "q": "Ce diferență este între unsorile Molykote și pastele anti-gripare Molykote?",
+        "a": "Unsorile Molykote sunt gândite pentru lubrifierea continuă a componentelor în mișcare, precum lagăre sau angrenaje, reducând frecarea pe termen lung. Pastele anti-gripare se aplică la asamblare, pe filete sau îmbinări expuse la temperaturi ridicate, pentru a preveni griparea și a facilita demontarea ulterioară. Alegerea depinde de faptul dacă piesa se mișcă în funcționare sau rămâne fixă după montaj."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"MOLYKOTE® Brand | DuPont","url":"https://www.dupont.com/molykote.html","publisher":"DuPont (Molykote)","accessed":"2026-09-26"},
+      {"title":"MOLYKOTE® Greases","url":"https://www.dupont.com/molykote/greases.html","publisher":"DuPont (Molykote)","accessed":"2026-09-26"},
       { title: "MOLYKOTE — Specialty Lubricants", url: "https://www.dupont.com/brands/molykote.html", publisher: "DuPont", accessed: "2026-09-22" },
       { title: "DuPont — Advanced Solutions for Healthcare, Water and Industrial Markets", url: "https://www.dupont.com", publisher: "DuPont", accessed: "2026-09-22" },
     ],

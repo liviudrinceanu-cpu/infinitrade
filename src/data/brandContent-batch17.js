@@ -1441,8 +1441,85 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
     infinitrade: "Organizăm aprovizionarea cu pompe cu șurub excentric SEEPEX — seriile bloc BN, seriile cu tijă de conectare BT și variantele igienice pentru industria alimentară — pentru stații de epurare și procese chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de disponibilitate pe fiecare material de rotor și stator și verificăm opțiunile în informațiile publice disponibile ale producătorului. Pentru selecția corectă, trimiteți-ne fluidul vehiculat, debitul necesar și presiunea de refulare cerută de instalație. Piesele de uzură pentru modelele uzuale — statoare, rotoare, garnituri — ajung de regulă în 24–72 h, iar pompele complete sau configurațiile speciale, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma retrofit-ul tehnologiei Smart Conveying Technology pe pompe foarte vechi fără verificarea directă a modelului existent de către producător.",
     sources: [
+      {"title":"SEEPEX - Products","url":"https://www.seepex.com/en/products/","publisher":"SEEPEX GmbH","accessed":"2026-09-26"},
       { title: "About SEEPEX (pagină oficială, indexată)", url: "https://www.seepex.com/en/company/about-seepex/", publisher: "SEEPEX GmbH", accessed: "2026-09-22" },
       { title: "History of seepex Progressive Cavity Pumps", url: "https://hnpapu.com/info-detail/history-of-seepex-progressive-cavity-pumps", publisher: "HNP Mikrosysteme GmbH", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "Seria N",
+        "description": "Pompă elicoidală de bază, platformă standard pentru majoritatea aplicațiilor industriale"
+      },
+      {
+        "code": "BN",
+        "description": "Pompă cu design bloc, montaj compact pentru spații reduse"
+      },
+      {
+        "code": "BNM",
+        "description": "Pompă de capacitate mare cu mentenanță din poziție, fără demontare completă"
+      },
+      {
+        "code": "SJA",
+        "description": "Variantă cu acces rapid la rotor și stator pentru service"
+      },
+      {
+        "code": "NS",
+        "description": "Pompă cu ax liber, pentru cuplare la acționări deja existente"
+      },
+      {
+        "code": "BNA",
+        "description": "Pompă conformă API 676, pentru aplicații industriale reglementate"
+      },
+      {
+        "code": "SCT",
+        "description": "Pompă cu schimbare rapidă a rotorului și statorului, fără scoaterea conductelor"
+      },
+      {
+        "code": "Seria E",
+        "description": "Pompă semi-submersibilă, pentru montaj parțial în bazin sau rezervor"
+      },
+      {
+        "code": "Seria W",
+        "description": "Pompă tip wobble, cu construcție compactă și economică"
+      },
+      {
+        "code": "Seria T",
+        "description": "Pompă cu pâlnie deschisă, pentru descărcarea nămolului"
+      },
+      {
+        "code": "BT",
+        "description": "Variantă cu pâlnie deschisă și configurație de alimentare adaptată"
+      },
+      {
+        "code": "CS",
+        "description": "Pompă pentru aplicații alimentare și igienice, cu certificări specifice"
+      },
+      {
+        "code": "Seria D",
+        "description": "Pompă de dozare pentru debite mici și precise"
+      },
+      {
+        "code": "BF",
+        "description": "Pompă adaptată aplicațiilor din producția de baterii"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între pompele SEEPEX seria BN și seria BT?",
+        "a": "Seria BN este o pompă cu design bloc, compactă și potrivită montajelor cu spațiu limitat, în timp ce seria BT folosește o pâlnie deschisă gândită pentru materiale vâscoase sau cu conținut de solide care trebuie alimentate gravitațional. Practic, alegerea depinde de cum ajunge produsul la pompă: prin conductă presurizată sau prin cădere liberă."
+      },
+      {
+        "q": "Ce înseamnă tehnologia SCT la pompele SEEPEX?",
+        "a": "SCT este soluția SEEPEX care permite înlocuirea rotorului și statorului fără a demonta conductele de aspirație sau refulare, ceea ce reduce timpul de oprire la mentenanță. Este utilă mai ales acolo unde pompa funcționează continuu și fiecare oră de oprire costă producție, nu doar piesele de schimb necesare intervenției."
+      },
+      {
+        "q": "Livrați pompe SEEPEX în România?",
+        "a": "Da, pompele elicoidale SEEPEX ajung în România prin comandă directă către producător, fără o gamă păstrată permanent pe stoc local; termenele variază după model și configurație. Pentru o ofertă utilă trimiteți debitul necesar, presiunea de refulare, tipul de fluid vehiculat și, dacă există, codul complet al pompei pe care o înlocuiți."
+      },
+      {
+        "q": "Ce date contează cel mai mult pentru o ofertă de pompă SEEPEX?",
+        "a": "Cel mai util este codul complet al pompei, de pe plăcuța de fabricație, sau, dacă nu aveți acces la el, tipul de fluid vehiculat, debitul și presiunea dorite, plus temperatura de lucru din instalație. Aceste date permit identificarea rapidă a seriei potrivite dintre variantele BN, BT, CS sau D."
+      }
     ],
     evidenceClass: "zero-evidence",
     lastVerified: "2026-09-22",
@@ -1981,8 +2058,85 @@ Materialele și execuțiile constructive urmează standardele consacrate ale ind
     infinitrade: "Susținem proiectele din România cu suflante, compresoare și pompe de vid Robuschi — suflante Roots seria RBS, compresoare cu șurub Robox și pompe de vid rotative RVS — aduse prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare execuție și verificăm cerințele de puritate a aerului în informațiile publice disponibile ale producătorului, parte a grupului Ingersoll Rand. Pentru o ofertă corectă, trimiteți-ne presiunea, vidul sau debitul necesar aplicației. Piesele de uzură pentru modelele uzuale ajung de regulă în 24–72 h, iar echipamentele complete sau pachetele insonorizate cu automatizare integrată, în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma service sub garanția Ingersoll Rand/Robuschi și nici o disponibilitate constantă pe toate execuțiile Robox fără ulei — acestea rămân la latitudinea rețelei producătorului.",
     sources: [
+      {"title":"Robuschi - Products","url":"https://www.robuschi.com/en/products/","publisher":"Robuschi S.p.A.","accessed":"2026-09-26"},
       { title: "Tailored Blowers and Compressors | Ingersoll Rand", url: "https://www.ingersollrand.com/en-gb/eto/engineered-solutions/engineered-to-order-blowers-compressors/", publisher: "Ingersoll Rand Inc.", accessed: "2026-09-22" },
       { title: "About Us - Our History, Values & Innovation | Robuschi (pagină oficială, indexată)", url: "https://www.robuschi.com/en/about-us/", publisher: "Robuschi S.p.A. (Ingersoll Rand)", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "RBS",
+        "description": "Suflantă cu lobi rotativi, gamă de bază pentru aer și vid"
+      },
+      {
+        "code": "CRBS",
+        "description": "Unitate compactă tip masă, cu suflantă cu lobi rotativi"
+      },
+      {
+        "code": "GRBS",
+        "description": "Variantă a unității compacte cu suflantă cu lobi rotativi"
+      },
+      {
+        "code": "RB-DV",
+        "description": "Suflantă de vid staționară, cu lobi rotativi"
+      },
+      {
+        "code": "TRB-DV",
+        "description": "Pachet mobil de vid, cu suflantă cu lobi rotativi"
+      },
+      {
+        "code": "RBS AV",
+        "description": "Suflantă cu lobi rotativi pentru nivel de vid mai avansat"
+      },
+      {
+        "code": "Robox Screw",
+        "description": "Suflantă sau compresor cu șurub, în variante de joasă și medie presiune"
+      },
+      {
+        "code": "RVS",
+        "description": "Pompă de vid cu inel lichid, gamă de bază"
+      },
+      {
+        "code": "RVS Monoblock",
+        "description": "Pompă de vid cu inel lichid, construcție integrată motor-pompă"
+      },
+      {
+        "code": "LRVS",
+        "description": "Pachet de pompă de vid cu inel lichid"
+      },
+      {
+        "code": "CRVS",
+        "description": "Variantă compactă de pachet cu pompă de vid cu inel lichid"
+      },
+      {
+        "code": "KRVS",
+        "description": "Unitate de pompă de vid cu inel lichid"
+      },
+      {
+        "code": "Robox Turbo",
+        "description": "Suflantă tip turbo din gama Robox"
+      },
+      {
+        "code": "Robox Connect 2.0",
+        "description": "Sistem digital de control și monitorizare pentru suflante conectate"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între gama Robuschi RBS și Robox Screw?",
+        "a": "RBS este o suflantă clasică cu lobi rotativi, potrivită pentru presiuni moderate și aplicații consacrate, în timp ce Robox Screw folosește tehnologie cu șurub și acoperă game mai largi de presiune, adesea cu un consum energetic mai bun la sarcină parțială. Alegerea corectă depinde de presiunea de lucru și de cât de variabil este debitul cerut de proces."
+      },
+      {
+        "q": "Livrați suflante Robuschi în România?",
+        "a": "Da, suflantele și pompele de vid Robuschi se aduc la comandă pe baza cererilor primite, fără un stoc local permanent pentru toată gama; termenul depinde de model și de configurația cerută - motor, acustică, automatizare. Pentru o ofertă corectă trimiteți debitul necesar, presiunea diferențială și mediul vehiculat, aer curat sau gaz de proces."
+      },
+      {
+        "q": "Ce informații ajută la o ofertă de suflantă Robuschi?",
+        "a": "Aveți nevoie să precizați debitul volumic necesar, presiunea sau vacuumul cerut de proces, temperatura mediului vehiculat și dacă instalația trebuie insonorizată sau automatizată. Codul exact al unui echipament existent, dacă îl aveți, scurtează mult timpul necesar identificării seriei Robuschi echivalente pentru aplicația dumneavoastră."
+      },
+      {
+        "q": "Ce este Robox Connect 2.0 la suflantele Robuschi?",
+        "a": "Este un sistem digital de control și monitorizare montat pe unitățile din gama Robox, care urmărește parametrii de funcționare și poate semnala abateri înainte ca acestea să devină opriri neplanificate. Se adresează în special instalațiilor unde o suflantă oprită afectează direct un flux de producție continuu și costisitor."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",

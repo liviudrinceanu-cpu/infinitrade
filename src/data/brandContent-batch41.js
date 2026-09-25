@@ -154,11 +154,89 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
     ],
     infinitrade: `Convertizoarele și echipamentele de acționare Fuji Electric le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Lucrăm din surse publice ale producătorului pentru descrierea gamei, fără date proprii de stoc pentru piața locală — vă rugăm să ne trimiteți puterea și tensiunea motorului acționat, tipul de sarcină și eventualele cerințe de comunicație pe bus de câmp, ca să identificăm modelul potrivit. Nu promitem disponibilitate permanentă pe stoc pentru toate variantele din gamă.`,
     limitation: "Nu putem confirma dacă un model anume are distribuție directă și termene mai scurte în Europa față de altele din gamă, fără verificare punctuală la producător.",
+    productCodes: [
+      {
+        "code": "FRENIC-Mini",
+        "description": "convertizor de frecvență compact pentru aplicații de putere mică"
+      },
+      {
+        "code": "FRENIC-Ace",
+        "description": "convertizor de frecvență de uz general, gamă discontinuată"
+      },
+      {
+        "code": "FRENIC-ACE E3",
+        "description": "convertizor de frecvență de uz general, generație mai nouă"
+      },
+      {
+        "code": "FRENIC-Eco",
+        "description": "convertizor de frecvență orientat spre eficiență energetică"
+      },
+      {
+        "code": "FRENIC-Lift LM3",
+        "description": "convertizor de frecvență dedicat aplicațiilor de lift"
+      },
+      {
+        "code": "FRENIC-Lift LM3U",
+        "description": "convertizor de frecvență pentru lift, variantă cu funcții extinse"
+      },
+      {
+        "code": "FRENIC-Lift LLM3U",
+        "description": "convertizor de frecvență pentru lift, variantă de putere mai mare"
+      },
+      {
+        "code": "FRENIC-VPF3",
+        "description": "convertizor de frecvență pentru pompe și ventilatoare"
+      },
+      {
+        "code": "FRENIC-Mega",
+        "description": "convertizor de frecvență de uz general, gamă discontinuată"
+      },
+      {
+        "code": "FRENIC-GS",
+        "description": "convertizor de frecvență de viteză ajustabilă pentru aplicații industriale"
+      },
+      {
+        "code": "FRENIC-4800",
+        "description": "convertizor de frecvență de viteză ajustabilă pentru puteri mari"
+      },
+      {
+        "code": "ALPHA7",
+        "description": "sistem servo pentru control de mișcare de precizie"
+      },
+      {
+        "code": "ALPHA7S",
+        "description": "sistem servo compact pentru control de mișcare"
+      },
+      {
+        "code": "MOLTRA",
+        "description": "transformator turnat în rășină pentru distribuție electrică"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între FRENIC-Mini și FRENIC-Eco de la Fuji Electric?",
+        "a": "FRENIC-Mini este un convertizor de frecvență compact, gândit pentru aplicații de putere mică și spații reduse de montaj, în timp ce FRENIC-Eco este orientat spre eficiență energetică în aplicații industriale de putere medie. Alegerea depinde de puterea motorului controlat și de spațiul disponibil în tabloul electric al instalației."
+      },
+      {
+        "q": "Ce este seria ALPHA7 de la Fuji Electric?",
+        "a": "ALPHA7 este o familie de sisteme servo destinate controlului de mișcare de precizie, folosite acolo unde poziționarea și viteza trebuie reglate fin, de exemplu la mașini de ambalat sau linii de asamblare. Varianta ALPHA7S este compactă, potrivită pentru spații reduse, păstrând aceleași principii de control ca varianta standard."
+      },
+      {
+        "q": "Livrați echipamentele Fuji Electric în România?",
+        "a": "Da, convertizoarele de frecvență și sistemele servo Fuji Electric pot fi aduse la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–6 săptămâni, în funcție de model. Recomandăm confirmarea codului exact, deoarece unele serii au fost înlocuite de generații mai noi cu denumiri apropiate."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă pe un convertizor Fuji Electric?",
+        "a": "Trimiteți puterea motorului controlat, tensiunea de alimentare și tipul aplicației — pompă, ventilator, lift sau uz general — pentru a identifica seria FRENIC potrivită. Aceste detalii sunt necesare deoarece gama Fuji Electric include variante dedicate, precum FRENIC-VPF3 pentru pompe și ventilatoare sau FRENIC-Lift pentru aplicații de lift."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sitemap CMS","url":"https://www.fujielectric.com/sitemap_cms_all.xml","publisher":"Fuji Electric","accessed":"2026-09-26"},
+      {"title":"Products","url":"https://www.fujielectric.com/products/","publisher":"Fuji Electric","accessed":"2026-09-26"},
       { title: "Fuji Electric — Global Website", url: "https://www.fujielectric.com", publisher: "Fuji Electric Co., Ltd.", accessed: "2026-09-22" },
       { title: "Fuji Electric — Products", url: "https://www.fujielectric.com/products/", publisher: "Fuji Electric Co., Ltd.", accessed: "2026-09-22" },
       { title: "Fuji Electric — Company Profile (Wikipedia)", url: "https://en.wikipedia.org/wiki/Fuji_Electric", publisher: "Wikipedia", accessed: "2026-09-22" }

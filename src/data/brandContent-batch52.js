@@ -1111,11 +1111,89 @@ Pentru producătorii din România cu control dimensional propriu, gama Hexagon M
     ],
     infinitrade: `Sistemele de metrologie Hexagon Manufacturing Intelligence se aduc la comandă prin canale de aprovizionare din Uniunea Europeană; orientativ, termenul e de 2-6 săptămâni, cu mențiunea că sistemele CMM complete se configurează punctual direct cu producătorul. Fără date proprii despre stocurile reale ale acestui brand, avem nevoie de aplicația exactă — dimensiunea piesei, toleranța cerută — pentru a direcționa corect cererea dumneavoastră. Informațiile tehnice de mai sus provin din surse publice ale producătorului, respectiv Hexagon AB.`,
     limitation: "Nu putem confirma compatibilitatea software-ului de metrologie cu formatele CAD proprii ale clientului fără o verificare punctuală.",
+    productCodes: [
+      {
+        "code": "MAESTRO",
+        "description": "CMM all-digital de nouă generație, cu identificare automată a senzorilor"
+      },
+      {
+        "code": "Leica Absolute Tracker ATS800",
+        "description": "Tracker laser cu scanare integrată pentru automatizare completă"
+      },
+      {
+        "code": "ATLASCAN Max",
+        "description": "Scanner 3D portabil cu conectivitate wireless"
+      },
+      {
+        "code": "MARVELSCAN",
+        "description": "Scanner de mână cu fotogrammetrie, fără ținte, pentru măsurare wireless"
+      },
+      {
+        "code": "Q-DAS qs-STAT",
+        "description": "Software de analiză statistică pentru capabilitatea proceselor, conform ISO 22514-2"
+      },
+      {
+        "code": "Geomagic Design X",
+        "description": "Software de inginerie inversă pentru crearea modelelor CAD din scanare 3D"
+      },
+      {
+        "code": "Inspire",
+        "description": "Software de inspecție pentru aplicații portabile de palpare și scanare"
+      },
+      {
+        "code": "OPTIV S 4.4.3",
+        "description": "CMM optic de nouă generație"
+      },
+      {
+        "code": "NCSIMUL",
+        "description": "Instrument de verificare și optimizare a programelor CNC"
+      },
+      {
+        "code": "Bridge CMMs",
+        "description": "Mașini de măsurat tip pod, configurabile pentru diverse aplicații"
+      },
+      {
+        "code": "Multisensor and Optical CMMs",
+        "description": "Sisteme care combină palparea tactilă cu măsurarea optică fără contact"
+      },
+      {
+        "code": "Gantry CMMs",
+        "description": "Mașini de măsurat tip portal, pentru inspecția pieselor de mari dimensiuni"
+      },
+      {
+        "code": "Horizontal Arm CMMs",
+        "description": "Mașini de măsurat cu braț orizontal, pentru piese mari din tablă"
+      },
+      {
+        "code": "Shop Floor CMMs",
+        "description": "Echipamente de măsurare pentru condiții dure de hală de producție"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între Bridge CMMs și Gantry CMMs la Hexagon Manufacturing Intelligence?",
+        "a": "Bridge CMMs au o construcție tip pod, potrivită pentru piese de dimensiuni medii măsurate în laborator sau în celule de producție. Gantry CMMs folosesc o structură tip portal, capabilă să acopere volume mult mai mari, fiind montate direct pe hala de producție pentru inspecția pieselor voluminoase. Alegerea depinde de dimensiunea pieselor și de spațiul disponibil pentru instalarea mașinii de măsurat."
+      },
+      {
+        "q": "Furnizați echipamente Hexagon Manufacturing Intelligence la comandă în România?",
+        "a": "Da, aducem la comandă mașini de măsurat, scanere și software din gamele MAESTRO, ATLASCAN sau Geomagic, pe baza referinței confirmate de client. Nu depozităm această gamă pe raft; disponibilitatea se confirmă din sursele publice ale producătorului, iar durata tipică este de 2-6 săptămâni."
+      },
+      {
+        "q": "Ce parametri trimit pentru a primi o ofertă la un sistem de măsurare Hexagon?",
+        "a": "Aveți nevoie să precizați dimensiunile pieselor măsurate, toleranțele cerute, tipul de măsurare, tactilă, optică sau prin scanare, și mediul în care va fi instalat echipamentul, laborator sau hală de producție. Dacă aplicația necesită și software de raportare statistică, menționați și acest lucru pentru alegerea corectă a pachetului Hexagon."
+      },
+      {
+        "q": "Ce este scanerul Hexagon MARVELSCAN?",
+        "a": "Este un scanner 3D de mână care folosește fotogrammetrie pentru a se orienta în spațiu fără ținte lipite pe piesă, oferind libertate de mișcare în timpul măsurării wireless. Se folosește pentru controlul dimensional al pieselor complexe sau pentru inginerie inversă, alături de software precum Geomagic Design X. Precizia rezultatului depinde de calibrarea scanerului și de condițiile de iluminare din zona de lucru."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Hexagon Manufacturing Intelligence | Hexagon","url":"https://hexagon.com/company/divisions/manufacturing-intelligence","publisher":"Hexagon","accessed":"2026-09-26"},
+      {"title":"Coordinate Measuring Machines | Hexagon","url":"https://hexagon.com/products/product-groups/measurement-inspection-hardware/coordinate-measuring-machines","publisher":"Hexagon","accessed":"2026-09-26"},
       { title: "Hexagon Manufacturing Intelligence – Metrology and Manufacturing Solutions", url: "https://www.hexagonmi.com", publisher: "Hexagon Manufacturing Intelligence (Hexagon AB)", accessed: "2026-09-22" },
       { title: "Hexagon – Manufacturing Intelligence Division", url: "https://hexagon.com/company/divisions/manufacturing-intelligence", publisher: "Hexagon AB", accessed: "2026-09-22" },
     ],

@@ -145,11 +145,82 @@ Pentru fabricile din România cu mașini de import care trebuie integrate în re
     ],
     infinitrade: `Aducem module Anybus, Ewon și Ixxat la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Spunem deschis ce putem și ce nu putem confirma despre gama HMS Networks, fără date proprii de stoc pentru niciun model. Pentru ofertă avem nevoie de codul exact al modulului sau, dacă nu-l aveți, de protocolul de comunicație existent pe mașină și protocolul cerut de sistemul clientului. Nu configurăm accesul de la distanță prin Ewon sau parametrizarea rețelei — livrăm hardware-ul, punerea în funcțiune rămâne responsabilitatea integratorului.`,
     limitation: "Nu configurăm rețeaua de acces la distanță (Ewon) și nu confirmăm compatibilitatea cu automate specifice fără codul exact de comandă.",
+    productCodes: [
+      {
+        "code": "Anybus CompactCom",
+        "description": "modul embedat pentru conectivitate multi-protocol în echipamente industriale"
+      },
+      {
+        "code": "Anybus Communicator",
+        "description": "gateway pentru integrarea rapidă a echipamentelor vechi în rețele industriale"
+      },
+      {
+        "code": "Anybus X-gateway",
+        "description": "gateway pentru conversia între două protocoale de automatizare industrială"
+      },
+      {
+        "code": "Anybus Wireless Solutions",
+        "description": "soluții wireless pentru conectarea dispozitivelor de automatizare"
+      },
+      {
+        "code": "Anybus Edge",
+        "description": "dispozitiv edge pentru colectarea și transmiterea datelor din fabrică"
+      },
+      {
+        "code": "Anybus Diagnostics",
+        "description": "produse pentru diagnosticarea rețelelor industriale de comunicație"
+      },
+      {
+        "code": "Ewon Cosy",
+        "description": "router industrial compact pentru acces securizat la distanță"
+      },
+      {
+        "code": "Ewon Flexy",
+        "description": "gateway modular pentru conectivitate și acces la distanță"
+      },
+      {
+        "code": "Ewon Edge",
+        "description": "soluție edge pentru colectarea datelor din instalații industriale"
+      },
+      {
+        "code": "Ewon Netbiter",
+        "description": "sistem de monitorizare și telemetrie a echipamentelor la distanță"
+      },
+      {
+        "code": "Netbiter EC360W",
+        "description": "unitate de telemetrie wireless pentru monitorizarea echipamentelor izolate"
+      },
+      {
+        "code": "Ixxat PC-interfaces",
+        "description": "interfețe PC pentru rețele CAN și Ethernet industrial"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între gateway-urile Anybus și routerele Ewon de la HMS Networks?",
+        "a": "Anybus este linia HMS Networks dedicată interconectării echipamentelor prin conversie de protocol, cu modele precum Communicator sau X-gateway, în timp ce Ewon acoperă accesul securizat la distanță și telemetria, prin Cosy, Flexy și Netbiter. Ambele familii aparțin aceluiași producător și pot fi folosite împreună într-o arhitectură industrială, gateway-ul asigurând interoperabilitatea locală, iar routerul conexiunea spre exterior."
+      },
+      {
+        "q": "Ce este Ewon Netbiter și pentru ce se folosește?",
+        "a": "Netbiter este familia HMS Networks pentru monitorizare și telemetrie la distanță, cu unitatea EC360W folosită pentru citirea senzorilor și parametrilor unor echipamente aflate în locații fără personal permanent. Datele culese ajung într-un portal dedicat, util pentru mentenanță predictivă și supravegherea instalațiilor răspândite geografic, fără vizite frecvente la fața locului."
+      },
+      {
+        "q": "Livrați produsele HMS Networks în România?",
+        "a": "Da, gateway-urile și routerele HMS Networks pot fi aduse la comandă prin canalele producătorului; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–6 săptămâni, în funcție de model și disponibilitate. Recomandăm confirmarea codului exact al produsului dorit înainte de comandă, pentru a evita incompatibilități cu protocolul industrial folosit la interconectare."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă pe un gateway Anybus?",
+        "a": "Trimiteți modelul exact, de pildă Anybus X-gateway sau Communicator, protocoalele industriale care trebuie interconectate și tipul rețelei de destinație. Aceste detalii permit identificarea variantei potrivite din gamă, întrucât fiecare model acoperă o combinație specifică de protocoale, iar o alegere greșită poate impune ulterior înlocuirea echipamentului deja montat în instalație."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://www.hms-networks.com/products","publisher":"HMS Networks","accessed":"2026-09-26"},
+      {"title":"Products","url":"https://www.anybus.com/products","publisher":"HMS Networks (Anybus)","accessed":"2026-09-26"},
+      {"title":"Products","url":"https://www.ewon.biz/products","publisher":"HMS Networks (Ewon)","accessed":"2026-09-26"},
       { title: "HMS Networks - Industrial ICT", url: "https://www.hms-networks.com/", publisher: "HMS Networks AB", accessed: "2026-09-22" },
       { title: "HMS Networks - About Us", url: "https://www.hms-networks.com/about-us", publisher: "HMS Networks AB", accessed: "2026-09-22" }
     ],
@@ -769,11 +840,112 @@ Pentru fabricile din România din industria alimentară, energetică sau de proc
     ],
     infinitrade: `Ce putem și ce nu putem confirma despre gama Weicon rămâne transparent, fără promisiuni de disponibilitate permanentă din stoc pe niciun produs. Aducem produsele Weicon la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru cantități mai mari; pentru produse curente de mentenanță, termenele pot fi uneori mai scurte, dar nu le confirmăm decât după verificarea disponibilității. Pentru ofertă avem nevoie de aplicația exactă (ce se lipește, etanșează sau lubrifiază), condițiile de temperatură și dacă e necesară o aprobare specifică (contact alimentar, gaz, apă potabilă). Fără date proprii despre stocul curent al fiecărui ambalaj, verificăm disponibilitatea la fiecare cerere.`,
     limitation: "Nu recomandăm produsul fără să cunoaștem aplicația exactă și nu confirmăm disponibilitate permanentă din stoc pentru ambalajele mai puțin uzuale.",
+    productCodes: [
+      {
+        "code": "Repair Stick Aluminium",
+        "description": "chit epoxidic în formă de baton pentru reparații rapide pe aluminiu"
+      },
+      {
+        "code": "Silicone Spray",
+        "description": "spray siliconic pentru lubrifiere și protecție a suprafețelor din plastic și cauciuc"
+      },
+      {
+        "code": "Zinc Spray",
+        "description": "spray cu zinc pentru protecția anticorozivă a suprafețelor metalice"
+      },
+      {
+        "code": "Epoxy Minute Adhesive",
+        "description": "adeziv epoxidic bicomponent cu priză rapidă"
+      },
+      {
+        "code": "Brushable Liquid Zinc Paint",
+        "description": "vopsea lichidă cu zinc, aplicabilă cu pensula, pentru protecție anticorozivă"
+      },
+      {
+        "code": "Corro-Protection",
+        "description": "spray de protecție împotriva coroziunii pentru piese metalice"
+      },
+      {
+        "code": "PTFE-Spray",
+        "description": "spray uscat pe bază de PTFE pentru lubrifiere fără urme grase"
+      },
+      {
+        "code": "Mould Release Agent",
+        "description": "agent de decofrare pentru forme și matrițe"
+      },
+      {
+        "code": "Fitting Spray",
+        "description": "spray de montaj pentru piese și garnituri sub presiune"
+      },
+      {
+        "code": "Threadlocking Varnish",
+        "description": "lac de asigurare a filetelor, disponibil în variante de rezistență"
+      },
+      {
+        "code": "Multi-Foam",
+        "description": "spumă de curățare universală pentru suprafețe tehnice"
+      },
+      {
+        "code": "Allround Sealing Spray",
+        "description": "spray de etanșare universală pentru diverse materiale"
+      },
+      {
+        "code": "Rust Protection 2000 PLUS",
+        "description": "spray de protecție anticorozivă pe termen lung"
+      },
+      {
+        "code": "W 44 T Multi-Spray",
+        "description": "spray multifuncțional de lubrifiere, curățare și protecție"
+      },
+      {
+        "code": "Rust Converter",
+        "description": "convertor de rugină aplicabil direct pe suprafețe corodate"
+      },
+      {
+        "code": "GMK 2410 Contact Adhesive",
+        "description": "adeziv de contact pentru materiale diverse, cu priză puternică"
+      },
+      {
+        "code": "Electro Contact Cleaner",
+        "description": "spray pentru curățarea contactelor electrice și electronice"
+      },
+      {
+        "code": "Adhesive Spray extra strong",
+        "description": "spray adeziv cu rezistență ridicată pentru lipire temporară sau permanentă"
+      },
+      {
+        "code": "Surface Cleaner",
+        "description": "spray pentru degresarea și curățarea suprafețelor înainte de lipire"
+      },
+      {
+        "code": "Cable Stripper No. 4-16",
+        "description": "unealtă manuală pentru dezizolarea cablurilor cu secțiune 4–16 mm²"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este W 44 T Multi-Spray de la Weicon și când se folosește?",
+        "a": "Este un spray multifuncțional din gama Weicon, folosit pentru lubrifiere, curățare și protecție anticorozivă a pieselor metalice și mecanismelor. Se aplică pe balamale, lanțuri, filete sau contacte expuse la umezeală, formând o peliculă protectoare care reduce frecarea și previne ruginirea, potrivit pentru întreținere generală în ateliere și instalații industriale."
+      },
+      {
+        "q": "Care este diferența dintre Zinc Spray și Brushable Liquid Zinc Paint de la Weicon?",
+        "a": "Zinc Spray se pulverizează pentru un strat subțire de protecție anticorozivă, potrivit pentru suprafețe mari sau greu accesibile, în timp ce Brushable Liquid Zinc Paint se aplică cu pensula și permite un strat mai gros, controlat, util la reparații locale sau retușuri unde precizia contează mai mult decât viteza de aplicare."
+      },
+      {
+        "q": "Livrați produsele Weicon în România?",
+        "a": "Da, produsele chimice tehnice Weicon pot fi aduse la comandă; nu ținem această gamă pe raft, iar timpul de aprovizionare este de regulă 2–6 săptămâni, în funcție de referință și cantitate. Recomandăm precizarea exactă a denumirii produsului și a ambalajului dorit pentru a evita confuziile între variante asemănătoare din catalog."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă pe adezivi Weicon?",
+        "a": "Precizați denumirea exactă a produsului, de exemplu Epoxy Minute Adhesive sau GMK 2410 Contact Adhesive, materialele care trebuie lipite și cantitatea necesară. Aceste informații permit alegerea corectă a formulei, deoarece adezivii Weicon diferă ca timp de priză și rezistență în funcție de substrat, iar o alegere greșită poate compromite îmbinarea."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://www.weicon.de/en/products/","publisher":"Weicon","accessed":"2026-09-26"},
       { title: "Weicon România", url: "https://www.weicon.ro", publisher: "Weicon România", accessed: "2026-09-22" },
       { title: "Bitmi - Produse Weicon", url: "https://www.bitmi.ro/produse/weicon", publisher: "Bitmi", accessed: "2026-09-22" }
     ],
@@ -1074,11 +1246,120 @@ Pentru electricienii și echipele de mentenanță din România care fac verific�
     ],
     infinitrade: `Nu depăstrăm stoc propriu de aparate Chauvin Arnoux și pornim mereu de la surse publice ale producătorului pentru descrierile tehnice de mai sus. Aducem aparate Chauvin Arnoux la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul de măsurătoare necesară (izolație, priză de pământ, calitatea energiei) și dacă instalația verificată e clasificată ATEX. Nu facem calibrarea sau verificarea metrologică a aparatelor — acestea se fac prin laboratoare acreditate, separat de livrarea echipamentului.`,
     limitation: "Nu facem calibrarea sau verificarea metrologică periodică a aparatelor și nu confirmăm disponibilitate permanentă din stoc pe variantele ATEX.",
+    productCodes: [
+      {
+        "code": "MTX 3297Ex",
+        "description": "multimetru digital antideflagrant, pentru zone cu risc de explozie"
+      },
+      {
+        "code": "MTX 3291",
+        "description": "multimetru digital TRMS de bancă/mână, curent alternativ și continuu"
+      },
+      {
+        "code": "MTX 3290",
+        "description": "multimetru digital TRMS pentru măsurători industriale generale"
+      },
+      {
+        "code": "MTX 204",
+        "description": "multimetru digital TRMS compact"
+      },
+      {
+        "code": "MTX 203",
+        "description": "multimetru digital TRMS pentru uz curent"
+      },
+      {
+        "code": "MTX 202",
+        "description": "multimetru digital TRMS de bază"
+      },
+      {
+        "code": "MX 5060",
+        "description": "multimetru de bancă pentru laborator"
+      },
+      {
+        "code": "MX 5006",
+        "description": "multimetru de bancă pentru măsurători de precizie"
+      },
+      {
+        "code": "F407",
+        "description": "clește multimetru TRMS curent alternativ și continuu"
+      },
+      {
+        "code": "F607",
+        "description": "clește multimetru TRMS pentru măsurători electrice curente"
+      },
+      {
+        "code": "F604",
+        "description": "clește multimetru TRMS compact"
+      },
+      {
+        "code": "F606",
+        "description": "clește multimetru TRMS pentru instalații electrice"
+      },
+      {
+        "code": "F404",
+        "description": "clește multimetru TRMS de uz general"
+      },
+      {
+        "code": "F406",
+        "description": "clește multimetru TRMS curent alternativ și continuu"
+      },
+      {
+        "code": "F205",
+        "description": "clește multimetru TRMS compact pentru curent alternativ și continuu"
+      },
+      {
+        "code": "F402",
+        "description": "clește multimetru TRMS pentru curent alternativ"
+      },
+      {
+        "code": "F203",
+        "description": "clește multimetru TRMS pentru curent alternativ și continuu"
+      },
+      {
+        "code": "F201",
+        "description": "clește multimetru pentru curent alternativ, uz de bază"
+      },
+      {
+        "code": "CA 6652",
+        "description": "adaptor pentru testarea stațiilor de încărcare a vehiculelor electrice"
+      },
+      {
+        "code": "CA 8345",
+        "description": "analizor trifazat de putere și calitate a energiei, clasa A"
+      },
+      {
+        "code": "FTV 500",
+        "description": "tester pentru instalații fotovoltaice"
+      },
+      {
+        "code": "CA 6611",
+        "description": "tester pentru sens de fază și rotație a motoarelor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seria MTX și seria F la Chauvin Arnoux?",
+        "a": "Seria MTX cuprinde multimetre digitale de mână sau de bancă, folosite pentru măsurători punctuale de tensiune, curent și rezistență, în timp ce seria F reunește clești multimetru, potriviți pentru citirea curentului fără întreruperea circuitului. Alegerea depinde de tipul măsurătorii: contact direct cu firul pentru MTX sau prindere în jurul conductorului pentru F."
+      },
+      {
+        "q": "Ce face testerul CA 6611 de la Chauvin Arnoux?",
+        "a": "CA 6611 verifică sensul de rotație al fazelor și al motoarelor trifazate înainte de punerea în funcțiune a unui echipament, evitând conectarea greșită care ar roti motorul invers. Este util la punerea în funcțiune a instalațiilor electrice noi sau după intervenții de mentenanță, unde ordinea fazelor trebuie confirmată rapid, fără demontare."
+      },
+      {
+        "q": "Livrați aparatele Chauvin Arnoux în România?",
+        "a": "Da, multimetrele și analizoarele Chauvin Arnoux pot fi aduse la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–6 săptămâni, în funcție de model și accesoriile solicitate. Recomandăm confirmarea codului exact, întrucât unele serii au variante apropiate ca denumire, dar cu funcții diferite."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă pe un multimetru Chauvin Arnoux?",
+        "a": "Trimiteți codul exact dorit, de exemplu MTX 3290 sau F407, tipul de măsurători necesare — curent, tensiune sau izolație — și dacă este nevoie de certificare pentru zone cu risc, precum modelul MTX 3297Ex. Aceste detalii permit alegerea corectă din gama Chauvin Arnoux, care acoperă atât uz general, cât și aplicații speciale."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sitemap produse (EN)","url":"https://www.chauvin-arnoux.com/en/sitemap/sitemap_chauvin-arnoux_en.xml","publisher":"Chauvin Arnoux","accessed":"2026-09-26"},
       { title: "Chauvin Arnoux", url: "https://www.chauvin-arnoux.com", publisher: "Chauvin Arnoux Group", accessed: "2026-09-22" },
       { title: "ARC - Chauvin Arnoux", url: "https://www.arc.ro/chauvin-arnoux", publisher: "ARC", accessed: "2026-09-22" }
     ],
@@ -1218,11 +1499,100 @@ Pentru laboratoarele și instalațiile pilot din România din chimie, semiconduc
     ],
     infinitrade: `La Bronkhorst nu avem date proprii de stoc și pornim de la surse publice ale producătorului la fiecare solicitare de ofertă. Aducem instrumente Bronkhorst la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de fluidul măsurat (gaz, lichid sau vapori), domeniul de debit necesar și presiunea de lucru a instalației. Nu facem integrarea instrumentului în sistemul de automatizare al clientului — livrăm instrumentul conform specificațiilor primite, integrarea rămâne responsabilitatea integratorului de proces.`,
     limitation: "Nu facem integrarea instrumentului în sistemul de automatizare și nu confirmăm disponibilitate permanentă din stoc pentru modelele de debit foarte mic.",
+    productCodes: [
+      {
+        "code": "EL-FLOW Base",
+        "description": "debitmetru/controler masic termic de gaz, variantă de bază"
+      },
+      {
+        "code": "EL-FLOW Prestige",
+        "description": "debitmetru/controler masic termic de gaz de înaltă precizie"
+      },
+      {
+        "code": "EL-FLOW Select",
+        "description": "debitmetru/controler masic termic de gaz cu funcții selectabile"
+      },
+      {
+        "code": "EX-FLOW",
+        "description": "debitmetru/controler masic de gaz certificat pentru zone Ex"
+      },
+      {
+        "code": "FLEXI-FLOW Compact",
+        "description": "instrument compact pentru debit de gaz, montaj flexibil"
+      },
+      {
+        "code": "IN-FLOW",
+        "description": "debitmetru/controler masic de gaz pentru debite industriale mai mari"
+      },
+      {
+        "code": "IQ+FLOW",
+        "description": "debitmetru/controler masic de gaz cu electronică integrată"
+      },
+      {
+        "code": "Mass-Stream",
+        "description": "debitmetru/controler masic de gaz pentru aplicații OEM"
+      },
+      {
+        "code": "Mass-View",
+        "description": "indicator/debitmetru masic de gaz pentru citire locală"
+      },
+      {
+        "code": "mini CORI-FLOW",
+        "description": "debitmetru/controler masic Coriolis compact pentru lichide și gaze"
+      },
+      {
+        "code": "CORI-FLOW",
+        "description": "debitmetru/controler masic Coriolis pentru debite mai mari"
+      },
+      {
+        "code": "ES-FLOW",
+        "description": "debitmetru masic Coriolis pentru aplicații speciale de lichid"
+      },
+      {
+        "code": "Liqui-Flow",
+        "description": "debitmetru/controler masic termic pentru lichide"
+      },
+      {
+        "code": "Liqui-View Base",
+        "description": "indicator de debit de lichid, variantă de bază"
+      },
+      {
+        "code": "Mag-View",
+        "description": "debitmetru electromagnetic pentru lichide conductive"
+      },
+      {
+        "code": "EL-PRESS",
+        "description": "controler electronic de presiune pentru gaze"
+      },
+      {
+        "code": "IN-PRESS",
+        "description": "controler de presiune pentru debite/volume industriale mai mari"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între EL-FLOW și mini CORI-FLOW de la Bronkhorst?",
+        "a": "EL-FLOW folosește tehnologie termică pentru măsurarea debitului de gaz, potrivită pentru gaze curate la presiuni moderate, în timp ce mini CORI-FLOW se bazează pe principiul Coriolis și poate măsura direct masa, indiferent de tipul de fluid, gaz sau lichid. Coriolis este preferat când compoziția fluidului variază sau când precizia independentă de densitate contează mai mult."
+      },
+      {
+        "q": "Ce este seria IN-FLOW de la Bronkhorst?",
+        "a": "IN-FLOW este o familie de debitmetre și controlere masice de gaz dedicate debitelor industriale mai mari decât cele acoperite de EL-FLOW, păstrând principiul de măsurare termică. Se folosește în linii de producție și instalații unde volumele de gaz depășesc plaja tipică de laborator, menținând totuși precizia necesară pentru controlul proceselor."
+      },
+      {
+        "q": "Livrați instrumentele Bronkhorst în România?",
+        "a": "Da, debitmetrele și controlerele Bronkhorst pot fi aduse la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–6 săptămâni, în funcție de model și configurație. Recomandăm precizarea fluidului măsurat și a plajei de debit dorite, pentru alegerea variantei potrivite din catalog."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă pe un debitmetru Bronkhorst?",
+        "a": "Trimiteți tipul de fluid măsurat (gaz sau lichid), plaja de debit necesară, presiunea de lucru și dacă este nevoie de certificare pentru zone Ex, precum la seria EX-FLOW. Aceste informații permit alegerea corectă între tehnologia termică și cea Coriolis, întrucât fiecare familie Bronkhorst acoperă alte condiții de proces."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sitemap produse","url":"https://www.bronkhorst.com/sitemap.xml","publisher":"Bronkhorst","accessed":"2026-09-26"},
       { title: "Bronkhorst - Mass Flow Meters and Controllers", url: "https://www.bronkhorst.com/", publisher: "Bronkhorst High-Tech B.V.", accessed: "2026-09-22" },
       { title: "TDR - Bronkhorst", url: "https://tdr.ro/brand/8-bronkhorst", publisher: "TDR", accessed: "2026-09-22" }
     ],
