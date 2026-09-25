@@ -53,6 +53,7 @@ export default async function SeriesPage({ params }) {
   const r = resolve(brandSlug, seriesSlug);
   if (!r) notFound();
   const { series: s, brand } = r;
+  const displayName = s.name.toLowerCase().includes(brand.name.toLowerCase()) ? s.name : `${s.name} ${brand.name}`;
   const category = brand.categories[0];
   const siblings = getSeriesForBrand(brandSlug).filter((x) => x.slug !== s.slug);
   const url = `${config.site.url}/brand/${brandSlug}/${seriesSlug}`;
