@@ -353,8 +353,105 @@ Am dezvoltat conceptul de protecție împotriva trăsnetului în zone cu risc de
     infinitrade: `Folosim informațiile publice disponibile de la DEHN, fără date proprii de stoc pe care să le promitem pentru descărcătoare sau paratrăsnete. Aducem gama DEHN de protecție la supratensiuni la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-6 săptămâni la comandă pentru restul produselor sau configurațiilor speciale. Pentru o ofertă corectă, trimite-ne codul exact al produsului (de exemplu DEHNguard sau DEHNventil), tensiunea nominală a rețelei și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru întreaga gamă DEHN și nici service în garanția producătorului pentru paratrăsnete active.',
     sources: [
+      {"title":"Type 2 Surge Arresters","url":"https://www.dehn-international.com/store/h/en-DE/H680/type-2-surge-arresters","publisher":"DEHN","accessed":"2026-09-23"},
       { title: 'Lightning protection, surge protection, safety equipment | DEHN', url: 'https://www.dehn-international.com/en', publisher: 'DEHN SE', accessed: '2026-09-22' },
       { title: 'Lightning protection, surge protection, safety equipment | DEHN', url: 'https://www.dehn.com', publisher: 'DEHN SE', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "DEHNguard modular ACI",
+        "description": "Descărcător modular cu tehnologie avansată de întrerupere a circuitului"
+      },
+      {
+        "code": "DEHNguard SE CI",
+        "description": "Descărcător industrial cu siguranță de rezervă integrată, 400/690V"
+      },
+      {
+        "code": "DEHNguard modular",
+        "description": "Descărcător modular multipolar de linie roșie pentru instalații de consum"
+      },
+      {
+        "code": "DEHNguard S",
+        "description": "Descărcător unipolar modular pentru protecția instalațiilor de joasă tensiune"
+      },
+      {
+        "code": "DEHNguard S ... VA",
+        "description": "Descărcător unipolar cu varistor și eclator, fără curent de fugă"
+      },
+      {
+        "code": "DEHNguard SE H ... FM",
+        "description": "Descărcător unipolar cu semnalizare timpurie de avarie"
+      },
+      {
+        "code": "DEHNcord",
+        "description": "Descărcător cu monitorizare și dispozitiv de deconectare, uni-, bi- sau tripolar"
+      },
+      {
+        "code": "DEHNgap C S",
+        "description": "Descărcător N-PE recomandat pentru rețele de tip TT"
+      },
+      {
+        "code": "DEHNguard ME/SE DC (FM)",
+        "description": "Descărcător combinat pentru instalații de curent continuu"
+      },
+      {
+        "code": "DEHNcube EMOB",
+        "description": "Protecție multipolară integrată în cutie de joncțiune pentru wallbox"
+      },
+      {
+        "code": "DEHNcube PV",
+        "description": "Descărcător pentru sisteme fotovoltaice cu grad de protecție IP65"
+      },
+      {
+        "code": "DEHNguard modular YPV ... FM",
+        "description": "Descărcător modular fotovoltaic pentru sisteme până la 1500V"
+      },
+      {
+        "code": "DEHNguard modular (Y)PV SCI",
+        "description": "Descărcător preconectat pentru sisteme fotovoltaice până la 1200V"
+      },
+      {
+        "code": "DEHNguard modular E (Y)PV SCI 1500",
+        "description": "Descărcător modular fotovoltaic pentru sisteme până la 1500V"
+      },
+      {
+        "code": "DEHNguard YPV SCI compact",
+        "description": "Descărcător compact pentru sisteme fotovoltaice până la 1000V"
+      },
+      {
+        "code": "DEHNguard PCB",
+        "description": "Bază unipolară pentru modulele de protecție DEHNguard"
+      },
+      {
+        "code": "DEHNguard 1000",
+        "description": "Descărcător compact unipolar pentru tensiuni continue de până la 1000V"
+      },
+      {
+        "code": "DEHNduo",
+        "description": "Familie de produse pentru supratensiuni tranzitorii și permanente"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce descărcător DEHN aleg pentru protecția unui tablou electric general?",
+        "a": "Pentru tabloul general de distribuție, seria DEHNguard modular este soluția standard de protecție Tip 2, cu design multipolar adaptat instalațiilor de consum. Dacă este necesară o siguranță de rezervă integrată pentru rețele de 400/690V, varianta DEHNguard SE CI combină ambele funcții într-un singur component compact."
+      },
+      {
+        "q": "Ce diferență este între DEHNguard S și DEHNguard S ... VA?",
+        "a": "DEHNguard S este un descărcător unipolar standard bazat pe varistor, pentru protecția instalațiilor de consum de joasă tensiune. Varianta VA combină un varistor cu un eclator, eliminând curentul de fugă permanent, ceea ce o face potrivită pentru rețele sensibile la acest tip de scurgere continuă de curent."
+      },
+      {
+        "q": "Livrați descărcătoare DEHN în România?",
+        "a": "Da, aducem descărcătoare DEHN la comandă, pe baza gamelor publicate oficial de producător, fără să păstrăm stoc propriu pe aceste coduri. Timpul de livrare tipic este de 2-6 săptămâni, în funcție de model și de disponibilitatea din fabrică. Vă recomandăm să confirmați codul exact al variantei dorite înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de protecție la supratensiuni DEHN?",
+        "a": "Este important să menționați tipul rețelei (TT, TN sau IT), tensiunea nominală a instalației și dacă protecția este destinată unui sistem fotovoltaic, unei stații de încărcare sau unui tablou electric obișnuit. Pe baza acestor date se poate recomanda seria potrivită, de exemplu DEHNguard modular sau variantele dedicate PV."
+      },
+      {
+        "q": "Ce este descărcătorul DEHNcube PV?",
+        "a": "Este un descărcător pentru sisteme fotovoltaice, integrat într-o cutie de joncțiune cu grad de protecție IP65, echipat cu dispozitiv de comutare în trei trepte pentru curent continuu, adecvat pentru instalații solare expuse la intemperii unde este necesară o soluție compactă și etanșă."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',

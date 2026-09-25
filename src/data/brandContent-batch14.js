@@ -792,10 +792,103 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
     ],
     infinitrade: `La InfiniTrade aducem echipamente Schneider Electric din divizia industrială - PLC-uri Modicon, variatoare Altivar, HMI Harmony - pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii despre stocul fiecărui model. Ca formulă generală a firmei, produsele deja pregătite se livrează în 24-72 h, iar configurațiile speciale (redundanță M580, Altivar Process, sisteme Tesys island) durează 2-6 săptămâni la comandă. Pentru o ofertă corectă, transmite-ne referința produsului, puterea necesară și tipul de comunicație folosit; nu afișăm prețuri fixe, fiecare cerere primește cotație individuală. Echipa noastră te ajută la alegerea modelului potrivit pentru aplicația ta.`,
     sources: [
+      {"title":"Altivar soft starters and variable speed drives for industry","url":"https://www.se.com/us/en/work/products/master-ranges/altivar/","publisher":"Schneider Electric","accessed":"2026-09-23"},
       { title: 'Schneider Electric – Company Profile', url: 'https://www.se.com/ww/en/about-us/company-profile/', publisher: 'Schneider Electric SE', accessed: '2026-09-22' },
       { title: 'Schneider Electric – Wikipedia', url: 'https://en.wikipedia.org/wiki/Schneider_Electric', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma configurarea completă EcoStruxure Machine Expert ca serviciu inclus și nici disponibilitatea permanentă pentru toate variantele Modicon.',
+    productCodes: [
+      {
+        "code": "ATV600",
+        "description": "Variator de frecvență pentru pompe, ventilatoare sau compresoare până la 2600 kW"
+      },
+      {
+        "code": "ATV900",
+        "description": "Variator de frecvență pentru transportoare, macarale sau mori până la 2600 kW"
+      },
+      {
+        "code": "ATV6000",
+        "description": "Variator de medie tensiune, capacitate până la 20 MW"
+      },
+      {
+        "code": "ATV6100",
+        "description": "Variator compact pentru aplicații generale până la 8880 kW"
+      },
+      {
+        "code": "ATV320",
+        "description": "Variator inteligent, putere de la 0,18 la 22 kW"
+      },
+      {
+        "code": "ATV340",
+        "description": "Variator pregătit pentru IoT, aplicații de siguranță și sarcină grea"
+      },
+      {
+        "code": "Altivar 12",
+        "description": "Variator pentru echipamente comerciale, de la 0,18 la 4 kW"
+      },
+      {
+        "code": "ATH200",
+        "description": "Variator pentru aplicații HVAC simple și compacte"
+      },
+      {
+        "code": "Altivar 212",
+        "description": "Variator dedicat aplicațiilor HVAC, de la 0,75 la 75 kW"
+      },
+      {
+        "code": "ATV350",
+        "description": "Variator de frecvență din gama Altivar Machine"
+      },
+      {
+        "code": "ATS130",
+        "description": "Soft starter pentru mașini simple, de la 11 la 55 kW"
+      },
+      {
+        "code": "ATS430",
+        "description": "Soft starter pentru mașini standard din industrie"
+      },
+      {
+        "code": "ATS480",
+        "description": "Soft starter pentru procese și infrastructuri, de la 4 la 900 kW"
+      },
+      {
+        "code": "ATS490",
+        "description": "Soft starter din gama Altivar pentru aplicații industriale"
+      },
+      {
+        "code": "Altistart 22",
+        "description": "Soft starter all-in-one pentru motoare electrice, până la 400 kW"
+      },
+      {
+        "code": "Altistart 01",
+        "description": "Soft starter pentru mașini simple, de la 0,37 la 15 kW"
+      },
+      {
+        "code": "Altistart 48",
+        "description": "Soft starter din gama Altistart pentru motoare electrice mari"
+      }
+    ],
+    faq: [
+      {
+        "q": "Care este variatorul de frecvență Schneider Electric potrivit pentru o pompă industrială de putere mare?",
+        "a": "Gama Altivar Process, cu modelele ATV600 și ATV900, acoperă puteri de până la 2600 kW și este construită special pentru pompe, ventilatoare, transportoare sau mori. Pentru aplicații de putere mai mică, sub 22 kW, un model din familia Altivar Machine ATV320 acoperă majoritatea nevoilor curente ale unei hale industriale."
+      },
+      {
+        "q": "Ce diferență este între un soft starter Altistart și un variator Altivar?",
+        "a": "Un soft starter din gama Altistart, precum ATS480, controlează doar pornirea și oprirea lină a motorului, limitând curentul de pornire fără a regla viteza în timpul funcționării. Un variator Altivar controlează continuu turația motorului pe tot parcursul funcționării, fiind necesar acolo unde procesul cere ajustarea vitezei în timp real."
+      },
+      {
+        "q": "Livrați variatoare de frecvență Schneider Electric în România?",
+        "a": "Da, aducem variatoare Altivar și softstartere Altistart la comandă, pornind de la gamele publicate de producător, fără stoc propriu ținut permanent pe aceste coduri. Termenul de livrare este de regulă 2-6 săptămâni, în funcție de putere și de opțiunile de comunicație solicitate. Confirmați referința exactă înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de variator de frecvență Altivar?",
+        "a": "Este necesar să precizați puterea motorului acționat, tensiunea de alimentare disponibilă, tipul aplicației (pompă, ventilator, transportor) și dacă este nevoie de funcții suplimentare de siguranță sau de comunicație în rețea. Pe baza acestor date se poate recomanda gama Altivar Machine, Process sau HVAC potrivită."
+      },
+      {
+        "q": "Ce este variatorul Schneider Electric ATH200?",
+        "a": "Este un variator dedicat aplicațiilor HVAC simple, construit compact pentru echipamente de climatizare cu puteri între 0,37 și 22 kW. Este folosit frecvent la ventilatoare și pompe din instalațiile de climatizare ale clădirilor, unde spațiul de montaj în tabloul electric este limitat."
+      }
+    ],
     evidenceClass: "gsc-only",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
@@ -858,10 +951,91 @@ Austriecii au investit în dezvoltarea produselor eco-friendly - contactoare cu 
     ],
     infinitrade: `Prin InfiniTrade furnizăm componente electrice Schrack - relee LZX, contactoare LST, protecții modulare - pentru instalatori și integratori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din această pagină provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, articolele deja pregătite ajung în 24-72 h, iar comenzile mari sau produsele mai puțin uzuale durează 2-6 săptămâni. Pentru o cotație corectă, spune-ne codul produsului, cantitatea și tensiunea de lucru necesară; nu publicăm prețuri de listă, fiecare comandă primește ofertă separată. Te ajutăm la alegerea variantei potrivite pentru tabloul tău electric.`,
     sources: [
+      {"title":"Relay Catalogue","url":"https://image.schrack.com/produktkataloge/w_k-relay-e9.pdf","publisher":"Schrack Technik","accessed":"2026-09-23"},
       { title: 'Schrack Technik – site oficial', url: 'https://www.schrack.com/', publisher: 'Schrack Technik GmbH', accessed: '2026-09-22' },
       { title: 'Schrack Technik – Wikipedia', url: 'https://de.wikipedia.org/wiki/Schrack_Technik', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma disponibilitate neîntreruptă pentru gama completă Schrack și nici acoperirea directă de service a producătorului.',
+    productCodes: [
+      {
+        "code": "SNR",
+        "description": "Releu compact cu soclu pe șină DIN, 1 contact comutator, 6A"
+      },
+      {
+        "code": "RT1",
+        "description": "Releu de putere unipolar 12/16A cu bobină de curent continuu sau alternativ"
+      },
+      {
+        "code": "RT1 INRUSH",
+        "description": "Releu de putere pentru curenți de pornire de până la 80A"
+      },
+      {
+        "code": "RTI",
+        "description": "Releu cu contact de pre-închidere din tungsten pentru vârfuri de până la 165A"
+      },
+      {
+        "code": "RT2",
+        "description": "Releu de putere bipolar 8A cu 2 contacte comutatoare"
+      },
+      {
+        "code": "XT",
+        "description": "Releu interfață tip fișă, unipolar 16A sau bipolar 8A"
+      },
+      {
+        "code": "PT",
+        "description": "Releu miniatural cu 2, 3 sau 4 poli"
+      },
+      {
+        "code": "MT",
+        "description": "Releu multimod cu 2 sau 3 poli și buton de test integrat"
+      },
+      {
+        "code": "RM",
+        "description": "Familie de relee de putere, variante de la RM2 la RM8 și RMD"
+      },
+      {
+        "code": "PE",
+        "description": "Releu pentru circuite imprimate, aplicații de electronică industrială"
+      },
+      {
+        "code": "RY II",
+        "description": "Releu pentru circuite imprimate, folosit în control industrial"
+      },
+      {
+        "code": "RZ",
+        "description": "Releu pentru circuite imprimate, utilizat în automatizări"
+      },
+      {
+        "code": "SR2Z",
+        "description": "Releu de siguranță cu contacte ghidate forțat, pentru macarale și utilaje"
+      },
+      {
+        "code": "SR6Z",
+        "description": "Releu de siguranță cu contacte ghidate forțat, variantă extinsă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce releu Schrack aleg pentru un circuit cu curenți mari de pornire?",
+        "a": "Pentru sarcini cu vârfuri mari de curent la conectare, seria RT1 INRUSH acoperă curenți de până la 80A, iar releul RTI, cu contact de pre-închidere din tungsten, susține vârfuri de până la 165A. Alegerea între cele două depinde de valoarea exactă a curentului de pornire al sarcinii conectate."
+      },
+      {
+        "q": "Ce diferență este între releele Schrack seria PT și seria MT?",
+        "a": "Seria PT este un releu miniatural disponibil în configurații de 2, 3 sau 4 poli, cu terminale pentru lipire sau soclu. Seria MT adaugă un buton de test integrat și indicatoare mecanice sau electrice opționale, fiind utilă acolo unde starea releului trebuie verificată vizual direct pe panou, fără instrumente suplimentare."
+      },
+      {
+        "q": "Livrați relee Schrack în România?",
+        "a": "Da, aducem relee și contactoare Schrack la comandă, conform gamei publicate de producător, fără să ținem aceste coduri pe stoc propriu permanent. Termenul obișnuit de livrare este 2-6 săptămâni, în funcție de model și de cantitate. Vă recomandăm să confirmați numărul exact al variantei înainte de a plasa comanda."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de relee Schrack?",
+        "a": "Este util să precizați tensiunea și tipul bobinei (curent continuu sau alternativ), numărul de poli necesari, curentul comutat de contacte și dacă aplicația implică siguranță funcțională, unde sunt necesare contacte ghidate forțat din seria SR2Z sau SR6Z. Aceste date permit alegerea corectă a modelului."
+      },
+      {
+        "q": "Ce este releul de putere Schrack seria RM?",
+        "a": "Este o familie de relee de putere cu mai multe variante, de la RM2 la RM8, plus modelul RMD, acoperind configurații diferite până la 30A și o capacitate de comutare de până la 7500VA, folosite frecvent în tablouri de comandă industrială pentru sarcini mai mari decât cele gestionate de releele miniaturale."
+      }
+    ],
     evidenceClass: "zero-evidence",
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
@@ -924,10 +1098,76 @@ Shell oferă și servicii digitale - platforma LubeAnalyst pentru monitorizare c
     ],
     infinitrade: `La InfiniTrade aducem lubrifianți Shell - Tellus, Omala, Gadus - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Recomandările de mai sus se bazează pe fișele tehnice publice ale producătorului; nu avem date proprii despre stocul fiecărui ambalaj. Ca formulă generală a firmei, ambalajele uzuale deja pregătite ajung în 24-72 h, iar comenzile mari (IBC, cisternă) sau produsele speciale durează 2-6 săptămâni. Pentru o ofertă corectă, trimite-ne tipul de echipament, viscozitatea recomandată de producător și cantitatea dorită; nu publicăm prețuri, fiecare comandă primește cotație individuală. Te putem ajuta să identifici echivalentul Shell pentru specificația cerută de utilajul tău.`,
     sources: [
+      {"title":"Shell Omala S2 GX 220 Technical Data Sheet","url":"https://www.shell.us/content/dam/shell/assets/en/united-states/documents/9a662cdb-2db3-49ea-a13d-5fc7b9d76aef%20(1).pdf","publisher":"Shell","accessed":"2026-09-23"},
+      {"title":"Shell Tellus S2 VX 22 Technical Data Sheet","url":"https://www.shell-livedocs.com/data/published/en-US/e7f45df0-f041-4a0f-83c9-ee72e2c0dbc4.pdf","publisher":"Shell","accessed":"2026-09-23"},
       { title: 'Shell plc – Wikipedia', url: 'https://en.wikipedia.org/wiki/Shell_plc', publisher: 'Wikipedia', accessed: '2026-09-22' },
       { title: 'Shell Lubricants for Business', url: 'https://www.shell.com/business-customers/lubricants-for-business.html', publisher: 'Shell plc', accessed: '2026-09-22' }
     ],
     limitation: 'Nu putem confirma un program complet de analiză ulei ca serviciu inclus în fiecare comandă și nici stocul permanent pentru toate ambalajele.',
+    productCodes: [
+      {
+        "code": "Tellus S2 M 68",
+        "description": "Ulei hidraulic industrial ISO 68 cu protecție bună la uzură"
+      },
+      {
+        "code": "Tellus S3 M 68",
+        "description": "Ulei hidraulic ISO 68 fără zinc, pentru servicii de uzură severă"
+      },
+      {
+        "code": "Tellus S4 VE 68",
+        "description": "Ulei hidraulic sintetic ISO 68 pe bază GTL, plajă termică largă"
+      },
+      {
+        "code": "Tellus S2 VX 15",
+        "description": "Fluid hidraulic ISO VG 15 pentru sisteme mobile și de precizie"
+      },
+      {
+        "code": "Tellus S2 VX 22",
+        "description": "Fluid hidraulic ISO VG 22 pentru sisteme hidraulice mobile și marine"
+      },
+      {
+        "code": "Omala S2 G 220",
+        "description": "Ulei pentru angrenaje industriale ISO 220, cu presiune extremă"
+      },
+      {
+        "code": "Omala S2 GX 150",
+        "description": "Ulei pentru angrenaje industriale ISO 150, protecție contra micropitting"
+      },
+      {
+        "code": "Omala S2 GX 220",
+        "description": "Ulei pentru angrenaje ISO 220, pentru angrenaje elicoidale și planetare"
+      },
+      {
+        "code": "Omala S4 WE 460",
+        "description": "Ulei sintetic pentru angrenaje melcate industriale grele, ISO 460"
+      },
+      {
+        "code": "Gadus S2 V220 2",
+        "description": "Unsoare industrială și auto pe bază de ulei mineral rafinat"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce ulei hidraulic Shell aleg pentru un sistem hidraulic mobil expus la variații de temperatură?",
+        "a": "Gama Tellus S2 VX, disponibilă în grade precum VX 15 sau VX 22, are un indice de vâscozitate ridicat și este recomandată pentru echipamente mobile expuse la temperaturi variabile, precum utilaje de construcții. Pentru sisteme industriale staționare fără cerințe termice extreme, gradele standard Tellus S2 M sunt suficiente."
+      },
+      {
+        "q": "Ce diferență este între uleiurile Shell Omala S2 G și S2 GX?",
+        "a": "Omala S2 G este uleiul de bază pentru angrenaje industriale grele, cu proprietăți standard de protecție la presiune extremă. Omala S2 GX adaugă o protecție suplimentară împotriva micropitting-ului și oxidării, fiind recomandat pentru angrenaje elicoidale sau planetare puternic încărcate, unde durata de exploatare a dinților este critică."
+      },
+      {
+        "q": "Livrați uleiuri industriale Shell în România?",
+        "a": "Da, aducem uleiuri Shell din gamele Tellus, Omala și Gadus la comandă, pe baza fișelor tehnice publice ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de gradul de vâscozitate și de ambalajul solicitat. Confirmați gradul exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de ulei industrial Shell?",
+        "a": "Este util să menționați tipul echipamentului (hidraulic, angrenaj sau lagăr), gradul de vâscozitate ISO recomandat de producătorul utilajului și cantitatea necesară. Aceste detalii permit identificarea corectă a variantei potrivite din gama Tellus pentru sisteme hidraulice sau din gama Omala pentru angrenaje industriale."
+      },
+      {
+        "q": "Ce este unsoarea Shell Gadus S2 V220 2?",
+        "a": "Este o unsoare pe bază de ulei mineral rafinat, cu punct de picurare de aproximativ 180°C, folosită atât în aplicații auto, cât și industriale generale, pentru lagăre și componente expuse la sarcini moderate, acolo unde este nevoie de o lubrifiere semi-solidă stabilă la temperatura ambientală."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [

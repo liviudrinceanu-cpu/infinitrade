@@ -52,10 +52,94 @@ Completează gama pompele centrifugale de proces seria NM/NTT, construite după 
     ],
     infinitrade: `Pentru pompele Allweiler cu șurub și cu cavitate progresivă, lucrăm din surse publice ale producătorului și prin canale de aprovizionare din UE — vă spunem clar ce putem și ce nu putem confirma înainte de a pregăti o ofertă. Pentru rotoare, statoare și etanșări mecanice, orientarea noastră generală e de 24-72h din stoc pentru piesele cel mai des cerute; pentru pompe complete, configurate pe debit și compatibilitate chimică, termenul standard e de 2-6 săptămâni la comandă. Ca să pregătim o ofertă corectă avem nevoie de seria pompei sau numărul de fabricație, vâscozitatea reală a fluidului și presiunea de lucru dorită. Nu lucrăm cu prețuri de catalog fără o cerere punctuală, deoarece fiecare configurație tehnică se calculează separat, în funcție de disponibilitatea reală din rețeaua europeană a producătorului.`,
     sources: [
+      {"title":"ALLWEILER Pumps | Industrial Pump Solutions | CIRCOR","url":"https://pumps.circor.com/allweiler","publisher":"CIRCOR","accessed":"2026-09-23"},
+      {"title":"ALLHEAT Series","url":"https://pumps.circor.com/products/pumps/centrifugal-pumps/allweiler-allheat-series","publisher":"CIRCOR","accessed":"2026-09-23"},
+      {"title":"NT Pump Family","url":"https://pumps.circor.com/products/pumps/centrifugal-pumps/allweiler-nt-pump-family","publisher":"CIRCOR","accessed":"2026-09-23"},
+      {"title":"ALLFUEL Series","url":"https://pumps.circor.com/products/pumps/three-screw/allweiler-allfuel-series","publisher":"CIRCOR","accessed":"2026-09-23"},
       { title: "ALLWEILER Pumps | Industrial Pump Solutions | CIRCOR", url: "https://pumps.circor.com/allweiler", publisher: "CIRCOR", accessed: "2026-09-22" },
       { title: "Allweiler | CIRCOR", url: "https://www.circorpt.com/allweiler", publisher: "CIRCOR", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul real al fabricii Allweiler și nici disponibilitatea service-ului în garanția producătorului pentru piese specifice; oferim informațiile pe care le avem la momentul cererii.",
+    productCodes: [
+      {
+        "code": "SNA",
+        "description": "Pompă cu trei șuruburi pentru ulei lubrifiant, conform standardului API 676"
+      },
+      {
+        "code": "IMO AB E4",
+        "description": "Pompă cu trei șuruburi pentru aplicații hidraulice până la 250 bari"
+      },
+      {
+        "code": "Optifix",
+        "description": "Pompă cu cavitate progresivă cu demontare și montare rapidă pentru mentenanță"
+      },
+      {
+        "code": "Houttuin Multiphase MPP",
+        "description": "Pompă cu două șuruburi pentru transport multifazic în industria petrolului și gazelor"
+      },
+      {
+        "code": "EMTEC-C",
+        "description": "Pompă cu trei șuruburi pentru lichide de răcire la prelucrarea metalelor"
+      },
+      {
+        "code": "ALLHEAT",
+        "description": "Pompă centrifugală pentru fluide termice, ulei sintetic până la 400°C"
+      },
+      {
+        "code": "ALLFUEL",
+        "description": "Pompă cu trei șuruburi pentru transferul combustibilului și uleiului, până la 40 bari"
+      },
+      {
+        "code": "ALLMARINE",
+        "description": "Pompă centrifugală navală pentru balast, santină, apă de incendiu și răcire"
+      },
+      {
+        "code": "ALLCHEM",
+        "description": "Pompă centrifugală monoetajată pentru medii chimice agresive sau cu solide"
+      },
+      {
+        "code": "ALLPRO",
+        "description": "Pompă axială cu elice pentru debite mari la presiune joasă"
+      },
+      {
+        "code": "L-LV",
+        "description": "Pompă centrifugală multietajată de înaltă presiune, orizontală sau verticală"
+      },
+      {
+        "code": "NT",
+        "description": "Pompă centrifugală orizontală cu carcasă în voliută conform DIN EN 733"
+      },
+      {
+        "code": "NB",
+        "description": "Pompă centrifugală tip bloc pentru montaj orizontal sau vertical"
+      },
+      {
+        "code": "NI",
+        "description": "Pompă centrifugală in-line, montaj pe conductă cu picioare opționale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă Allweiler aleg pentru transferul de combustibil pe o navă?",
+        "a": "Seria ALLFUEL este construită special pentru transferul uleiului de combustie, al uleiului lubrifiant și al celui hidraulic, fiind folosită frecvent ca pompă de transfer sau de alimentare a arzătoarelor, la presiuni de până la 40 bari. Pentru circulația apei de răcire sau a apei de incendiu la bordul navelor, seria ALLMARINE este alegerea potrivită."
+      },
+      {
+        "q": "Ce diferență este între seriile Allweiler NT și NI?",
+        "a": "NT este o pompă centrifugală orizontală cu carcasă în voliută, construită conform DIN EN 733, potrivită pentru instalații industriale generale. NI este varianta in-line, montată direct pe conductă, cu picioare de sprijin opționale, utilă atunci când spațiul din jurul conductei este limitat."
+      },
+      {
+        "q": "Livrați pompe Allweiler în România?",
+        "a": "Da, aducem la comandă pompe Allweiler pe baza paginilor publice de produs ale producătorului CIRCOR, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de materialul de construcție ales. Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă Allweiler?",
+        "a": "Este util să precizați fluidul vehiculat, debitul și presiunea necesară, precum și temperatura de lucru și dacă mediul conține solide sau este coroziv. Aceste date permit alegerea corectă între o serie chimică precum ALLCHEM, o serie pentru fluide termice precum ALLHEAT sau o pompă cu șurub din familia Optifix."
+      },
+      {
+        "q": "Ce este pompa Allweiler cu cavitate progresivă Optifix?",
+        "a": "Este o pompă cu cavitate progresivă gândită pentru demontarea și montarea rapidă a rotorului și statorului, ceea ce reduce timpul de mentenanță. Este potrivită pentru o gamă largă de fluide, de la cele vâscoase la cele cu conținut de particule, în aplicații industriale variate."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -115,10 +199,82 @@ Pentru o companie de utilități sau un constructor de rețele din România, AVK
     ],
     infinitrade: `Lucrăm din surse publice ale producătorului AVK și prin canale de aprovizionare din UE pentru vane cu sertar, vane fluture, hidranți și vane de aer — fără date proprii despre stocul fabricii, așa că vă transmitem exact ce am reușit să confirmăm până în momentul ofertei. Pentru componente uzuale de racord și piese de schimb, termenul orientativ e de 24-72h din stoc; pentru diametre și configurații de proiect, aducem la comandă în 2-6 săptămâni. Vă rugăm să ne trimiteți diametrul nominal, presiunea nominală și tipul de rețea (apă, canalizare sau gaz), plus, dacă e cazul, caietul de sarcini pentru licitație. Nu includem prețuri în discuția inițială, pentru că fiecare cerere depinde de disponibilitatea reală din lanțul european de distribuție al producătorului.`,
     sources: [
+      {"title":"AVK Swing Check Valve Resilient Seated 41-21-001","url":"https://files.avkvalves.com/updated-ftp/downloads/41-21-001_avkcms_en%202303_431542.pdf","publisher":"AVK","accessed":"2026-09-23"},
+      {"title":"Air Valve 851-40-001","url":"https://www.avkvalves.com/en/product-finder/air-valves/air-valves/851-40-001","publisher":"AVK","accessed":"2026-09-23"},
+      {"title":"Knife Gate Valve 779-65-001","url":"https://files.avkvalves.com/updated-ftp/downloads/779-65-001_avk084_en%202313_512066.pdf","publisher":"AVK","accessed":"2026-09-23"},
+      {"title":"Double Eccentric Butterfly Valve 756-100-771","url":"https://www.avkvalves.eu/en/product-finder/butterfly-valves/double-eccentric-butterfly-valves-resilient-seated/756-100-771","publisher":"AVK International","accessed":"2026-09-23"},
       { title: "Quality valve solutions for drinking water, wastewater, gas supply and fire protection", url: "https://www.avkvalves.com", publisher: "AVK Group", accessed: "2026-09-22" },
       { title: "Celebrating 80 years of the AVK Group", url: "https://www.avkvalves.com/en/news/about-our-business/celebrating-80-years-of-the-avk-group", publisher: "AVK Group", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul curent al producătorului pentru diametre mari sau execuții speciale de vane și nu oferim service în garanția AVK; verificăm disponibilitatea reală doar la cererea punctuală a clientului.",
+    productCodes: [
+      {
+        "code": "41-21-001",
+        "description": "Supapă de reținere fluture, cu scaun elastic, pentru pompare apă potabilă și uzată"
+      },
+      {
+        "code": "851-40-001",
+        "description": "Ventil de aerisire cu dublu orificiu și triplă acțiune pentru conducte"
+      },
+      {
+        "code": "45-59-020",
+        "description": "Vană de sertar cu construcție conform standardelor americane, corp din fontă ductilă"
+      },
+      {
+        "code": "6133-61-001",
+        "description": "Vană de sertar cu etanșare metalică, PN64, pentru apă și industrie"
+      },
+      {
+        "code": "27-00-001",
+        "description": "Hidrant subteran tip american, 250 PSI, cu flanșă de protecție la impact"
+      },
+      {
+        "code": "779-65-001",
+        "description": "Vană tip cuțit, bidirecțională, pentru nămoluri abrazive și industrii grele"
+      },
+      {
+        "code": "29-26-001",
+        "description": "Vană de izolare tip sandwich, cu trecere liberă, pentru rețele de apă"
+      },
+      {
+        "code": "55-30-021",
+        "description": "Vană de sertar cu scaun elastic, flanșată, conform EN 558-2"
+      },
+      {
+        "code": "02-20-042",
+        "description": "Vană de sertar cu scaun elastic, flanșată, pentru apă potabilă și uzată"
+      },
+      {
+        "code": "756-100-771",
+        "description": "Vană fluture cu excentricitate dublă, PN25, cu reductor etanș IP67"
+      },
+      {
+        "code": "756-230-001",
+        "description": "Vană fluture cu excentricitate dublă, conform EN 593, pentru apă și apă uzată"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce vană AVK aleg pentru izolarea unei conducte de apă potabilă?",
+        "a": "Pentru izolare pe rețele de apă potabilă, vanele de sertar cu scaun elastic din seriile 02-20-042 sau 55-30-021 sunt varianta uzuală, cu etanșare pe cauciuc EPDM aprobat pentru apă potabilă. Pentru diametre mari sau presiuni ridicate, o vană cu etanșare metalică precum 6133-61-001 oferă o soluție mai robustă la temperaturi și presiuni mai mari."
+      },
+      {
+        "q": "Ce diferență este între vanele fluture AVK 756-100-771 și 756-230-001?",
+        "a": "756-100-771 este o vană fluture cu excentricitate dublă, cu reductor cu etanșare IP67, la presiunea PN25. 756-230-001 este construită conform standardului EN 593 și este destinată lichidelor neutre, precum apa potabilă sau apa uzată tratată, fără solide sau impurități fibroase, la temperaturi de până la 70 de grade."
+      },
+      {
+        "q": "Livrați vane și hidranți AVK în România?",
+        "a": "Da, aducem la comandă produse AVK pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de diametrul nominal, de presiunea de lucru și de materialul de etanșare solicitat. Recomandăm confirmarea exactă a codului înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de vană AVK?",
+        "a": "Este util să precizați diametrul nominal, presiunea nominală, tipul de capete de racordare, flanșate sau alt tip, și fluidul vehiculat, inclusiv dacă acesta conține solide. Aceste detalii permit alegerea corectă între o vană de sertar, o vană fluture sau o vană tip cuțit din gama AVK."
+      },
+      {
+        "q": "Ce este hidrantul AVK 27-00-001?",
+        "a": "Este un hidrant subteran de tip american, cu flanșă de protecție la impact pentru reparare rapidă după o coliziune, avizat pentru presiunea de 250 PSI. Este construit din fontă ductilă cu ventil principal încapsulat în EPDM și este folosit în infrastructura de protecție la incendiu stradală."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
@@ -180,10 +336,99 @@ Pentru un proiectant sau un integrator de sisteme HVAC din România, gama Belimo
     ],
     infinitrade: `Ne bazăm pe informațiile publice disponibile de la Belimo și pe canale de aprovizionare din UE pentru actuatoare de clapete de aer, actuatoare liniare și robinete caracterizate CCV — nu deținem date proprii despre stocul central al fabricii, așa că verificăm disponibilitatea la fiecare cerere. Pentru modelele NM, LM și CCV standard, orientarea noastră e de 24-72h din stoc; pentru configurații cu poziționer digital sau seria Energy Valve, termenul devine 2-6 săptămâni la comandă. Pentru o ofertă utilă, spuneți-ne cuplul sau forța necesară, tensiunea de alimentare și protocolul de comunicație folosit în instalație (0-10V, MP-Bus, Modbus sau BACnet). Nu discutăm prețuri fără aceste detalii, pentru că fiecare actuator se alege pe măsura clapetei sau robinetului deservit.`,
     sources: [
+      {"title":"2026 Product Overview","url":"https://www.belimo.com/mam/americas/marketing_communication/brochures/product_overview.pdf","publisher":"Belimo","accessed":"2026-09-23"},
       { title: "Home | Belimo", url: "https://www.belimo.com", publisher: "Belimo Holding AG", accessed: "2026-09-22" },
       { title: "40 Years of Belimo", url: "https://www.belimo.com/mam/corporate-communications/pictures-graphics/history/40_years_belimo.pdf", publisher: "Belimo Holding AG", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al Belimo pentru variantele Energy Valve sau execuțiile ATEX și nu oferim configurare software proprie pentru integrarea în BMS-uri terțe.",
+    productCodes: [
+      {
+        "code": "NM",
+        "description": "Actuator rotativ non-fail-safe, 10 Nm, pentru clapete VAV și de reglaj"
+      },
+      {
+        "code": "LM",
+        "description": "Actuator rotativ non-fail-safe, 5 Nm, pentru clapete de dimensiuni mai mici"
+      },
+      {
+        "code": "AM",
+        "description": "Actuator rotativ non-fail-safe, 20 Nm, pentru aplicații standard de reglaj"
+      },
+      {
+        "code": "GM",
+        "description": "Actuator rotativ non-fail-safe, 40 Nm, cuplu mediu-mare pentru clapete"
+      },
+      {
+        "code": "PM",
+        "description": "Actuator rotativ non-fail-safe, 160 Nm, cuplu maxim pentru clapete mari"
+      },
+      {
+        "code": "AH",
+        "description": "Actuator liniar non-fail-safe, 450 N, pentru robinete cu cursă mare"
+      },
+      {
+        "code": "LH",
+        "description": "Actuator liniar non-fail-safe, 150 N, cu mai multe opțiuni de cursă"
+      },
+      {
+        "code": "NF",
+        "description": "Actuator cu revenire mecanică pe eșec, pentru clapete de foc și fum"
+      },
+      {
+        "code": "FSAF",
+        "description": "Actuator dedicat pentru clapete de fum și evacuare fum, listat UL 555S"
+      },
+      {
+        "code": "Energy Valve",
+        "description": "Robinet cu presiune independentă și monitorizare energetică Delta T, conectivitate cloud"
+      },
+      {
+        "code": "CCV",
+        "description": "Robinet caracterizat cu bilă autocurățare, montaj pe două sau trei căi"
+      },
+      {
+        "code": "HTCCV",
+        "description": "Robinet caracterizat pentru abur de joasă presiune și apă caldă la temperatură ridicată"
+      },
+      {
+        "code": "QCV",
+        "description": "Robinet de zonă cu debit reglabil și caracteristică de curgere procentual egală"
+      },
+      {
+        "code": "EPIV",
+        "description": "Robinet electronic cu presiune independentă, reglare debit și poziție cu semnal de feedback"
+      },
+      {
+        "code": "NMV",
+        "description": "Actuator compact VAV cu senzor de presiune integrat pentru debit constant"
+      },
+      {
+        "code": "ECON-ZIP-BASE",
+        "description": "Modul de bază pentru economizor de aer cu tehnologie brevetată ZIP"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce actuator Belimo aleg pentru o clapetă de aer de dimensiuni mari?",
+        "a": "Pentru clapete mari, actuatoarele rotative din familia PM oferă cuplul maxim din gamă, de până la 160 Nm, fiind alegerea tipică pentru clapete de dimensiuni mari sau grele. Pentru clapete de dimensiuni medii, familiile GM sau AM, cu cupluri de 40, respectiv 20 Nm, acoperă majoritatea aplicațiilor standard de reglaj din instalațiile de ventilație."
+      },
+      {
+        "q": "Ce diferență este între robinetele Belimo CCV și Energy Valve?",
+        "a": "CCV este un robinet caracterizat cu bilă autocurățare, disponibil pe două sau trei căi, folosit pentru reglarea debitului la baterii de încălzire sau răcire. Energy Valve adaugă funcția de presiune independentă și un modul de monitorizare energetică de tip Delta T, cu conectivitate în cloud, util atunci când se dorește și măsurarea energiei transferate."
+      },
+      {
+        "q": "Livrați actuatoare și robinete Belimo în România?",
+        "a": "Da, aducem la comandă actuatoare și robinete Belimo pe baza documentației publice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de cuplul sau debitul necesar și de tipul de conexiune. Recomandăm confirmarea exactă a codului de model înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de actuator Belimo?",
+        "a": "Este util să precizați tipul de mișcare necesară, rotativă sau liniară, cuplul sau forța cerută, tensiunea de alimentare disponibilă și dacă este nevoie de funcție de revenire pe eșec. Aceste detalii permit alegerea corectă între familiile NM, LM sau variantele dedicate clapetelor de foc și fum."
+      },
+      {
+        "q": "Ce este actuatorul Belimo FSAF pentru clapete de fum?",
+        "a": "Este un actuator electronic cu revenire pe eșec, dedicat clapetelor de fum și de evacuare a fumului, listat conform standardului UL 555S pentru siguranța la incendiu. Este folosit acolo unde reglementările impun testare periodică și acționare garantată în caz de pierdere a alimentării electrice."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -301,10 +546,83 @@ Un avantaj practic pentru un integrator de sisteme e gama proprie de servomotoar
     ],
     infinitrade: `Robineții fluture și cu bilă Bray, împreună cu servomotoarele Bray Controls, îi aducem prin canale de aprovizionare din UE; nu dispunem de o legătură directă cu stocul fabricii, deci lucrăm din informațiile publice disponibile de la producător și le confirmăm punctual pentru fiecare cerere. Pentru manșoane, garnituri și piese de racord uzuale, reperul e 24-72h din stoc; pentru ansambluri robinet-actuator motorizate sau diametre mari, termenul e de 2-6 săptămâni la comandă. Trimiteți-ne diametrul, presiunea nominală, materialul dorit pentru manșon sau scaun și temperatura fluidului, ca să putem propune varianta tehnică potrivită. Certificatele de material și fișele tehnice pentru licitații le pregătim după ce avem specificația completă, fără să discutăm preț înainte de asta.`,
     sources: [
+      {"title":"Butterfly Valves","url":"https://www.bray.com/butterfly-valves","publisher":"Bray","accessed":"2026-09-23"},
       { title: "Bray International, Inc.", url: "https://www.bray.com", publisher: "Bray International", accessed: "2026-09-22" },
       { title: "About Bray: Quality, History, Careers | Bray", url: "https://www.bray.com/about", publisher: "Bray International", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al Bray pentru diametre foarte mari sau execuții triplu excentrice speciale și nu efectuăm intervenții acoperite de garanția producătorului pentru servomotoarele deja instalate.",
+    productCodes: [
+      {
+        "code": "3W/3L",
+        "description": "Vană fluture cu scaun elastic, variantă economică pentru presiuni joase"
+      },
+      {
+        "code": "30/31",
+        "description": "Vană fluture cu scaun elastic pentru utilizare generală industrială"
+      },
+      {
+        "code": "McCannalok",
+        "description": "Vană fluture de înaltă performanță pentru control abur și ulei"
+      },
+      {
+        "code": "Tri Lok",
+        "description": "Vană fluture cu triplă excentricitate, etanșare metalică pentru gaz și GNL"
+      },
+      {
+        "code": "31H",
+        "description": "Vană fluture cu scaun elastic, variantă specializată a seriei 31"
+      },
+      {
+        "code": "32/33",
+        "description": "Vană fluture cu scaun elastic pentru debite medii"
+      },
+      {
+        "code": "35/36",
+        "description": "Vană fluture cu scaun elastic de dimensiuni mai mari"
+      },
+      {
+        "code": "36H",
+        "description": "Vană fluture cu scaun elastic, construcție pentru uz greu"
+      },
+      {
+        "code": "20/21",
+        "description": "Vană fluture cu scaun elastic, gamă de intrare, cost redus"
+      },
+      {
+        "code": "McCannalok Metal Seated",
+        "description": "Vană fluture de înaltă performanță cu scaun metalic"
+      },
+      {
+        "code": "22/23",
+        "description": "Vană fluture căptușită cu PTFE pentru rezistență chimică"
+      },
+      {
+        "code": "Acris 24/25",
+        "description": "Vană fluture căptușită cu PFA pentru fluide corozive"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce vană fluture Bray aleg pentru aplicații cu gaz sau GNL la presiune mare?",
+        "a": "Pentru servicii severe cu gaz, petrol sau GNL, seria Tri Lok, cu triplă excentricitate și etanșare metal pe metal, este construită pentru etanșare fără frecare pe toată durata de viață. Pentru control de abur sau ulei la temperaturi ridicate, seria McCannalok oferă o performanță similară, dar cu o construcție dedicată acestor medii."
+      },
+      {
+        "q": "Ce diferență este între vanele fluture Bray seria 30/31 și seria 35/36?",
+        "a": "Seria 30/31 este o vană fluture cu scaun elastic pentru utilizare generală, acoperind dimensiuni și presiuni obișnuite din instalațiile industriale. Seria 35/36 folosește aceeași tehnologie de etanșare elastică, dar este dimensionată pentru diametre mai mari, unde este nevoie de o construcție mai robustă."
+      },
+      {
+        "q": "Livrați vane fluture Bray în România?",
+        "a": "Da, aducem la comandă vane fluture Bray pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de seria aleasă, de diametru și de tipul de acționare dorit. Recomandăm confirmarea exactă a codului seriei înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de vană fluture Bray?",
+        "a": "Este util să precizați diametrul nominal, presiunea de lucru, fluidul vehiculat și temperatura maximă, precum și dacă este nevoie de acționare manuală, electrică sau pneumatică. Aceste detalii permit alegerea corectă între o vană cu scaun elastic din seria 30/31 și o vană cu etanșare metalică din seria Tri Lok."
+      },
+      {
+        "q": "Ce este vana Bray Acris seria 24/25?",
+        "a": "Este o vană fluture căptușită cu PFA, gândită pentru vehicularea fluidelor corozive unde materialele metalice obișnuite s-ar degrada rapid. Se folosește frecvent în industria chimică sau de procesare, acolo unde rezistența chimică a suprafeței interioare este mai importantă decât presiunea sau temperatura maximă suportată."
+      }
+    ],
     evidenceClass: "zero-evidence",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -557,10 +875,86 @@ Pentru un integrator sau un operator de instalații criogenice sau petrochimice 
     ],
     infinitrade: `Robineții cu bilă și fluture END-Armaturen pentru servicii criogenice, presiune înaltă sau medii corozive îi comandăm prin canale de aprovizionare din UE, pe baza surselor publice ale producătorului — fără date proprii despre stocul de fabrică pentru execuțiile speciale. Fiind produse calificate pe aplicație, termenul standard e de 2-6 săptămâni la comandă; doar pentru accesorii uzuale de instrumentație putem oferi 24-72h din stoc, ca formulare generală, fără garanția unui produs anume disponibil. Avem nevoie de fluidul de proces, temperatura minimă și maximă de lucru, presiunea nominală și clasa de etanșare cerută, ca să transmitem specificația corectă spre configurare. Nu discutăm preț înainte de a primi aceste date tehnice complete.`,
     sources: [
+      {"title":"Ball Valves","url":"https://shop.end.de/en/valves/ball-valves","publisher":"END-Armaturen","accessed":"2026-09-23"},
+      {"title":"Ball valve ZA310062","url":"https://shop.end.de/en/za310062","publisher":"END-Armaturen","accessed":"2026-09-23"},
+      {"title":"Butterfly valve WA534009","url":"https://shop.end.de/en/wa534009","publisher":"END-Armaturen","accessed":"2026-09-23"},
+      {"title":"Needle valve AC101023","url":"https://shop.end.de/en/ac101023","publisher":"END-Armaturen","accessed":"2026-09-23"},
       { title: "Find valves in Shop: Manufacturer and supplier for industrial valves", url: "https://www.end.de/en/", publisher: "END-Armaturen GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Industrial valves made in Germany | END-Armaturen GmbH & Co. KG", url: "https://www.end.de/en/industrial-valves/", publisher: "END-Armaturen GmbH & Co. KG", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al producătorului pentru execuțiile criogenice sau de presiune înaltă și nu efectuăm intervenții acoperite de garanția producătorului pe robineții deja montați.",
+    productCodes: [
+      {
+        "code": "ZA310062",
+        "description": "Vană cu bilă DN15, PN64, inox cu etanșare PTFE-FKM, capete de sudură"
+      },
+      {
+        "code": "WA534009",
+        "description": "Vană fluture DN80, PN10/16, corp fontă cu etanșare EPDM, montaj ISO5211"
+      },
+      {
+        "code": "AC101023",
+        "description": "Vană cu ac de 1/2 țol, PN100, corp din alamă, pentru reglaj fin"
+      },
+      {
+        "code": "ZE311062",
+        "description": "Vană cu bilă DN15, PN64, inox cu etanșare PTFE, trecere integrală"
+      },
+      {
+        "code": "MP311005",
+        "description": "Vană cu bilă DN32, PN40, inox cu etanșare PTFE-FKM, montaj ISO5211"
+      },
+      {
+        "code": "MP311007",
+        "description": "Vană cu bilă DN50, PN40, inox cu etanșare PTFE-FKM, montaj ISO5211"
+      },
+      {
+        "code": "WA532009",
+        "description": "Vană fluture DN80, PN10/16, corp fontă cu etanșare NBR și disc inox"
+      },
+      {
+        "code": "WA532008",
+        "description": "Vană fluture DN65, PN10/16, corp fontă cu etanșare NBR și disc inox"
+      },
+      {
+        "code": "WM534013",
+        "description": "Vană fluture tip LUG DN200, PN16, corp fontă cu etanșare EPDM"
+      },
+      {
+        "code": "WM552014",
+        "description": "Vană fluture tip LUG DN250, PN16, corp și disc din fontă, etanșare NBR"
+      },
+      {
+        "code": "FS400309",
+        "description": "Set de montaj DN80, PN16, inox pentru vane cu bilă compacte tip VK/ZK/WK/MK"
+      },
+      {
+        "code": "AC301002",
+        "description": "Vană cu ac DN15, flanșată, PN40, inox cu etanșare PTFE"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce vană cu bilă END-Armaturen aleg pentru presiune mare la diametre mici?",
+        "a": "Pentru presiuni mari pe diametre mici, vanele cu bilă din inox seria ZA, precum ZA310062, cu etanșare PTFE-FKM și capete de sudură, acoperă presiuni de până la PN64. Pentru trecere integrală fără îngustarea secțiunii, varianta ZE, precum ZE311062, este alegerea potrivită pentru instalații unde pierderea de presiune trebuie minimizată."
+      },
+      {
+        "q": "Ce diferență este între vanele fluture END-Armaturen WA532009 și WM534013?",
+        "a": "WA532009 este o vană fluture wafer, montată între flanșe, cu corp din fontă, etanșare NBR și disc din inox, la DN80. WM534013 este o variantă tip LUG, cu găuri filetate proprii care permit demontarea unei ramuri a conductei fără a deschide întregul tronson, utilă la lucrări de mentenanță parțială."
+      },
+      {
+        "q": "Livrați vane END-Armaturen în România?",
+        "a": "Da, aducem la comandă vane END-Armaturen pe baza magazinului online public al producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de diametrul nominal, materialul de etanșare și tipul de capete de racordare. Recomandăm confirmarea exactă a codului articolului înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de vană END-Armaturen?",
+        "a": "Este util să precizați diametrul nominal, presiunea nominală, tipul de capete, sudură, flanșă sau filet, și materialul de etanșare dorit, PTFE, FKM, NBR sau EPDM. Aceste detalii permit identificarea codului exact de articol, precum ZA310062 sau WA534009, direct din catalogul producătorului."
+      },
+      {
+        "q": "Ce este vana cu ac END-Armaturen AC101023?",
+        "a": "Este o vană cu ac de 1/2 țol, din alamă, cu presiune nominală de 100 bar, folosită pentru reglarea fină a debitului în instalații de instrumentație sau linii auxiliare. Construcția cu ac permite o strangulare precisă a curgerii, spre deosebire de o vană cu bilă, care are doar funcție de închidere totală sau deschidere totală."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -807,9 +1201,79 @@ Un segment mai puțin vizibil, dar tehnic foarte solicitant, e gama de robineți
     ],
     infinitrade: `Pentru robineții cu bilă, sertar, ventil și fluture KITZ, lucrăm din informațiile publice disponibile de la producător și prin canale de aprovizionare din UE — nu cunoaștem stocul propriu al fabricii din Japonia, deci verificăm disponibilitatea reală înainte de fiecare ofertă. Pentru dimensiunile și clasele de presiune uzuale, termenul standard e de 2-6 săptămâni la comandă; pentru accesorii mici de instrumentație putem oferi 24-72h din stoc, ca formulare generală a firmei. Avem nevoie de standardul de proiectare (JIS sau ANSI), diametrul nominal, clasa de presiune și materialul de corp dorit, ca să pregătim o ofertă corectă pentru caietul dumneavoastră de sarcini. Documentația tehnică o transmitem după ce confirmăm configurația exactă.`,
     sources: [
+      {"title":"Ball Valves","url":"https://www.kitz.com/en/product/ball/","publisher":"KITZ","accessed":"2026-09-23"},
+      {"title":"Ductile Valves","url":"https://www.kitz.com/en/product/ductile/","publisher":"KITZ","accessed":"2026-09-23"},
       { title: "KITZ' Statement of Corporate Mission", url: "https://www.kitz.com", publisher: "KITZ Corporation", accessed: "2026-09-22" }
     ],
     limitation: "Nu am reușit să confirmăm dintr-o a doua sursă independentă anul înființării KITZ (site-ul kitz.co.jp blochează accesul automat) și nu putem confirma stocul permanent pentru robineții de înaltă puritate.",
+    productCodes: [
+      {
+        "code": "TDZ",
+        "description": "Vană cu bilă flotantă conform ISO17292 și API608 pentru servicii industriale severe"
+      },
+      {
+        "code": "UTDZ",
+        "description": "Vană cu bilă flotantă din inox pentru temperaturi joase până la -104°C"
+      },
+      {
+        "code": "Lambda Port",
+        "description": "Vană cu bilă cu scaun metalic pentru pastă de hârtie și nămoluri"
+      },
+      {
+        "code": "Filltite",
+        "description": "Vană cu bilă cu scaun moale rezistent la temperaturi de până la 300°C"
+      },
+      {
+        "code": "Carbotite",
+        "description": "Vană cu bilă cu scaun metalic pentru temperaturi de până la 500°C"
+      },
+      {
+        "code": "Metaball",
+        "description": "Vană cu bilă din inox sau oțel carbon pentru pulberi și fluide vâscoase"
+      },
+      {
+        "code": "DJ",
+        "description": "Vană fluture din fontă ductilă cu gamă extinsă de dimensiuni"
+      },
+      {
+        "code": "HRDJ",
+        "description": "Vană fluture cu rangeabilitate ridicată 160:1 pentru reglaj de precizie"
+      },
+      {
+        "code": "HB",
+        "description": "Vană fluture cu dublă excentricitate și scaun RPTFE pentru curgere bidirecțională"
+      },
+      {
+        "code": "Trunnion Mounted Ball Valves",
+        "description": "Vană cu bilă tip trunion, construcție în trei piese, conform ASME/API"
+      },
+      {
+        "code": "Compact Ball Valves",
+        "description": "Vană cu bilă compactă din bronz, alamă sau inox cu acționare electrică/pneumatică"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce vană cu bilă KITZ aleg pentru temperaturi foarte joase?",
+        "a": "Pentru temperaturi criogenice, seria UTDZ, din inox, este construită pentru funcționare la temperaturi de până la -104°C, fiind alegerea tipică pentru gaze lichefiate. Pentru servicii industriale generale la temperaturi obișnuite, seria TDZ, conformă cu ISO17292 și API608, acoperă majoritatea aplicațiilor cu bilă flotantă."
+      },
+      {
+        "q": "Ce diferență este între vanele KITZ Filltite și Carbotite?",
+        "a": "Filltite este o vană cu bilă cu scaun moale, pe bază de material carbonic, potrivită pentru temperaturi de până la 300°C. Carbotite folosește un scaun metalic, capabil să reziste la temperaturi de până la 500°C, fiind alegerea potrivită atunci când temperatura mediului depășește limita scaunelor moi."
+      },
+      {
+        "q": "Livrați vane KITZ în România?",
+        "a": "Da, aducem la comandă vane KITZ pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de serie, de materialul corpului și de tipul de scaun solicitat. Recomandăm confirmarea exactă a codului seriei înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de vană KITZ?",
+        "a": "Este util să precizați tipul de vană dorit, cu bilă sau fluture, materialul corpului, temperatura maximă de lucru și dacă mediul conține solide sau este abraziv. Aceste detalii permit alegerea corectă între o serie standard precum TDZ și una specializată, precum Metaball sau Carbotite."
+      },
+      {
+        "q": "Ce este vana fluture KITZ seria HRDJ?",
+        "a": "Este o vană fluture din fontă ductilă cu rangeabilitate ridicată, de 160 la 1, ceea ce permite un control fin al debitului chiar și la deschideri mici. Este folosită acolo unde este nevoie atât de funcția de închidere, cât și de o reglare precisă a curgerii pe o gamă largă de debite."
+      }
+    ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -1146,10 +1610,107 @@ Legătura strânsă cu Valmet, un furnizor major de tehnologie pentru industria 
     ],
     infinitrade: `Robineții cu bilă segmentată, robineții fluture Neldisc și robineții trunion Neles îi procurăm prin canale de aprovizionare din UE, plecând de la surse publice ale producătorului Valmet Flow Control — fără date proprii despre stocul fabricii din Finlanda. Pentru configurațiile și dimensiunile uzuale, termenul rămâne 2-6 săptămâni la comandă; pentru accesorii mici de poziționare putem oferi 24-72h din stoc, ca reper general al firmei. Pentru calculul de dimensionare (Cv-ul robinetului), trimiteți-ne debitul de proces, presiunea diferențială și conținutul de solide sau fibre din fluid. Documentația tehnică pentru licitații o pregătim după ce confirmăm configurația exactă cu gama producătorului, fără să discutăm preț mai devreme.`,
     sources: [
+      {"title":"Neles product and service offering","url":"https://www.valmet.com/flowcontrol/brands/neles/","publisher":"Valmet","accessed":"2026-09-23"},
       { title: "We are a global leader in flow control solutions and services.", url: "https://www.valmet.com/flowcontrol/", publisher: "Valmet", accessed: "2026-09-22" },
       { title: "About Valmet", url: "https://www.valmet.com/about-us/valmet-in-brief/", publisher: "Valmet", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al Valmet Flow Control pentru diametre mari de robineți trunion și nu efectuăm intervenții acoperite de garanția producătorului pe robineții deja instalați.",
+    productCodes: [
+      {
+        "code": "Neldisc L6",
+        "description": "Vană fluture cu triplă excentricitate, clasa ASME 600, etanșare metal pe metal"
+      },
+      {
+        "code": "R-Series",
+        "description": "Vană segment de mare performanță, de la 1 țol până la 32 țoli"
+      },
+      {
+        "code": "R2",
+        "description": "Vană segment cu profil V pentru control fin al debitului"
+      },
+      {
+        "code": "RA-series",
+        "description": "Vană segment cu profil V pentru aplicații de control industrial"
+      },
+      {
+        "code": "Series X",
+        "description": "Vană cu bilă trunion modulară, montaj pe conductă cu design flexibil"
+      },
+      {
+        "code": "Easyflow",
+        "description": "Vană cu bilă compactă pentru aplicații generale de proces"
+      },
+      {
+        "code": "FC/FG Series",
+        "description": "Vană rotativă excentrică cu con pentru control general și aplicații pretențioase"
+      },
+      {
+        "code": "PZ Series",
+        "description": "Vană de capsare pentru deschiderea și închiderea automată a digestoarelor"
+      },
+      {
+        "code": "N1 Series",
+        "description": "Actuator pneumatic robust cu tijă internă pentru medii dure"
+      },
+      {
+        "code": "B1 Series",
+        "description": "Actuator pneumatic cu piston pentru control modulant sau tot-nimic"
+      },
+      {
+        "code": "VB Series",
+        "description": "Actuator liniar cu piston pentru forțe medii spre mari"
+      },
+      {
+        "code": "VD Series",
+        "description": "Actuator liniar cu diafragmă și revenire pe arc pentru forțe mici-medii"
+      },
+      {
+        "code": "M-Series",
+        "description": "Actuator manual cu roată și reductor melcat, randament ridicat"
+      },
+      {
+        "code": "NDX",
+        "description": "Poziționer digital de nouă generație, compatibil cu orice marcă de vană"
+      },
+      {
+        "code": "ND9000",
+        "description": "Poziționer inteligent cu diagnosticare avansată pentru mentenanță predictivă"
+      },
+      {
+        "code": "VG9000",
+        "description": "Solenoid de siguranță inteligent cu testare parțială a cursei"
+      },
+      {
+        "code": "SG9000",
+        "description": "Controler inteligent pentru vane tot-nimic, cicluri de comutare intense"
+      },
+      {
+        "code": "NE700/NP700",
+        "description": "Poziționer robust cu repetabilitate ridicată pentru vane rotative sau liniare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce vană Neles aleg pentru control de precizie la debite variabile?",
+        "a": "Pentru control de precizie, seria de vane segment R-Series acoperă un domeniu larg de diametre, de la un țol până la 32 de țoli, fiind potrivită pentru lichide, gaze, vapori și nămoluri. Pentru medii cu solide sau vâscozitate ridicată, seria RA, cu profil V, oferă o caracteristică de curgere mai liniară pe întreg domeniul de deschidere."
+      },
+      {
+        "q": "Ce diferență este între actuatoarele Neles N1 Series și B1 Series?",
+        "a": "N1 Series este un actuator tip Scotch Yoke, cu mecanism de tijă internă, construit pentru medii dure și solicitări mari de cuplu. B1 Series este un actuator cu piston de tip sfert de rotație, potrivit atât pentru control modulant, cât și pentru aplicații de tip tot-sau-nimic, unde forțele necesare sunt mai moderate."
+      },
+      {
+        "q": "Livrați vane și actuatoare Neles în România?",
+        "a": "Da, aducem la comandă vane și actuatoare Neles pe baza paginilor publice de produs ale producătorului Valmet, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de seria aleasă și de tipul de poziționer solicitat. Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de vană Neles?",
+        "a": "Este util să precizați tipul de vană dorit, cu bilă, segment sau fluture, diametrul nominal, presiunea și temperatura de lucru, precum și dacă este nevoie de poziționer digital. Aceste detalii permit alegerea corectă între o vană din seria R și un poziționer precum NDX sau ND9000."
+      },
+      {
+        "q": "Ce este poziționerul Neles ND9000?",
+        "a": "Este un poziționer inteligent pentru vane, cu funcții avansate de diagnosticare, folosit pentru optimizarea performanței și pentru mentenanța predictivă a buclelor de control. Se montează pe actuatoare rotative sau liniare și poate fi integrat în sisteme de automatizare pentru monitorizarea continuă a stării vanei."
+      }
+    ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -1342,10 +1903,84 @@ Pentru procese chimice și industria hârtiei, pompele Sulzer seria AHLSTAR (fos
     ],
     infinitrade: `Pentru pompele de proces API 610 și pompele submersibile ABS Sulzer, lucrăm din informațiile publice disponibile de la producător și prin canale de aprovizionare din UE — fără date proprii despre stocul intern al fabricilor Sulzer. Pentru rotoare, etanșări mecanice și lagăre ale pompelor ABS deja instalate, orientarea generală e 24-72h din stoc; pentru pompe și unități noi, termenul standard e de 2-6 săptămâni la comandă. Pentru dimensionare corectă, avem nevoie de curba reală de sistem (debit, înălțime de pompare), fluidul vehiculat și materialul de construcție dorit. Nu propunem un preț fără aceste condiții reale de funcționare din aplicația dumneavoastră.`,
     sources: [
+      {"title":"Products","url":"https://www.sulzer.com/en/products","publisher":"Sulzer","accessed":"2026-09-23"},
+      {"title":"Submersible sewage pump type ABS XFP","url":"https://www.sulzer.com/en/shared/products/submersible-sewage-pump-type-abs-xfp","publisher":"Sulzer","accessed":"2026-09-23"},
       { title: "Home | Sulzer", url: "https://www.sulzer.com", publisher: "Sulzer", accessed: "2026-09-22" },
       { title: "About us | Sulzer", url: "https://www.sulzer.com/en/about-us", publisher: "Sulzer", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al Sulzer pentru pompe API 610 multietajate mari și nu efectuăm intervenții acoperite de garanția producătorului pe pompele ABS deja montate.",
+    productCodes: [
+      {
+        "code": "Muffin Monster",
+        "description": "Tocător de solide pentru canalizare și nămol, montat pe conductă"
+      },
+      {
+        "code": "Channel Monster",
+        "description": "Tocător de solide pentru canale deschise de apă uzată"
+      },
+      {
+        "code": "HST",
+        "description": "Suflantă pentru aerarea economică a apelor uzate"
+      },
+      {
+        "code": "SALOMIX",
+        "description": "Sistem de management pentru turnuri de răcire"
+      },
+      {
+        "code": "MC",
+        "description": "Echipamente pentru consistență medie în procesarea celulozei"
+      },
+      {
+        "code": "Nordic Water",
+        "description": "Echipamente pentru sitare, sedimentare și filtrare a apei"
+      },
+      {
+        "code": "ISO 5199",
+        "description": "Pompă centrifugală cu aspirație axială și carcasă în consolă"
+      },
+      {
+        "code": "GSG",
+        "description": "Pompă tip butoi cu difuzor pentru montaj între lagăre"
+      },
+      {
+        "code": "SJD-CEP",
+        "description": "Pompă verticală suspendată pentru vehicularea condensatului"
+      },
+      {
+        "code": "SIL",
+        "description": "Pompă centrifugală verticală în linie de înaltă eficiență"
+      },
+      {
+        "code": "XJ",
+        "description": "Pompă submersibilă pentru epuismente și drenaj"
+      },
+      {
+        "code": "ABS XFP",
+        "description": "Pompă submersibilă pentru ape uzate cu solide, motoare IE3"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pompă Sulzer aleg pentru ape uzate cu solide și materiale fibroase?",
+        "a": "Pompa submersibilă ABS XFP este construită special pentru ape uzate cu solide și materiale fibroase, folosind rotoare de tip ContraBlock Evo și motoare de eficiență ridicată IE3, disponibilă în puteri de până la 550 kW. Pentru tocarea prealabilă a solidelor înainte de pompare, un tocător din familia Muffin Monster montat pe conductă reduce riscul de înfundare."
+      },
+      {
+        "q": "Ce diferență este între pompele Sulzer GSG și SJD-CEP?",
+        "a": "GSG este o pompă tip butoi cu difuzor, gândită pentru montaj între lagăre la debite și presiuni mari în aplicații industriale. SJD-CEP este o pompă verticală suspendată, folosită de obicei pentru vehicularea condensatului, unde montajul vertical economisește spațiul din sala de pompe."
+      },
+      {
+        "q": "Livrați pompe Sulzer în România?",
+        "a": "Da, aducem la comandă pompe Sulzer pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model, de puterea motorului și de materialul rotorului. Recomandăm confirmarea exactă a tipului de pompă înainte de plasarea comenzii."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de pompă Sulzer?",
+        "a": "Este util să precizați fluidul vehiculat, debitul și înălțimea de pompare necesară, precum și dacă apa conține solide sau fibre. Aceste date permit alegerea corectă între o pompă submersibilă din seria ABS XFP și o pompă centrifugală standard din seria ISO 5199."
+      },
+      {
+        "q": "Ce este tocătorul Sulzer Channel Monster?",
+        "a": "Este un tocător de solide destinat canalelor deschise de apă uzată, folosit pentru reducerea dimensiunii materialelor solide și fibroase înainte ca acestea să ajungă la pompe sau la treptele următoare de tratare. Este o alternativă la modelul Muffin Monster, montat pe conductă, atunci când instalația are un canal deschis."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
@@ -1403,10 +2038,120 @@ Un aspect practic important e modelul de consum: furtunurile Verderprene și tub
     ],
     infinitrade: `Pompele peristaltice Verderflex și pompele cu diafragmă Verderair le procurăm prin canale de aprovizionare din UE, plecând de la surse publice ale producătorului — nu avem acces la stocul central al grupului Verder pentru fiecare dimensiune de furtun sau tub. Pentru furtunurile și tuburile de schimb, principala piesă de uzură, orientarea generală e 24-72h din stoc; pentru unități complete de pompă, termenul e de 2-6 săptămâni la comandă. Ca să identificăm furtunul sau tubul potrivit, avem nevoie de modelul pompei instalate, diametrul furtunului și fluidul vehiculat (abraziv, vâscos sau sensibil la contaminare). Nu comunicăm un preț fără aceste detalii tehnice confirmate.`,
     sources: [
+      {"title":"Verderflex Rapide Peristaltic Pumps","url":"https://www.verderliquids.com/int/en/verderflex/verderflex-rapide-peristaltic-pumps/","publisher":"Verder Liquids","accessed":"2026-09-23"},
+      {"title":"Verderair Diaphragm Pumps","url":"https://www.verderliquids.com/int/en/verderair/","publisher":"Verder Liquids","accessed":"2026-09-23"},
       { title: "Verder Group: Enabling Progress. To the Benefit of Many.", url: "https://www.verder.com", publisher: "Verder Group", accessed: "2026-09-22" },
       { title: "Company - Verder", url: "https://www.verder.com/company/", publisher: "Verder Group", accessed: "2026-09-22" }
     ],
     limitation: "Nu putem confirma stocul permanent al Verder pentru toate diametrele de furtun Verderprene și nu efectuăm intervenții acoperite de garanția producătorului pe pompele deja instalate.",
+    productCodes: [
+      {
+        "code": "Rapide R2S",
+        "description": "pompă peristaltică compactă, debit maxim 93,6 l/h, 2 bar"
+      },
+      {
+        "code": "Rapide R3",
+        "description": "debit maxim 230 l/h, presiune maximă 2 bar"
+      },
+      {
+        "code": "Rapide R3DC",
+        "description": "variantă cu motor curent continuu, debit 3,4 l/min"
+      },
+      {
+        "code": "Rapide R3S",
+        "description": "debit maxim 189 l/h, tub până la 9,6 mm"
+      },
+      {
+        "code": "Rapide R5000",
+        "description": "debit maxim 365 l/h, tub până la 9,6 mm"
+      },
+      {
+        "code": "Rapide R6",
+        "description": "debit maxim 380 l/h, tub până la 12,7 mm"
+      },
+      {
+        "code": "Rapide R7S",
+        "description": "debit maxim 375 l/h, tub până la 15,9 mm"
+      },
+      {
+        "code": "Rapide R8",
+        "description": "debit maxim 470 l/h, tub până la 12,7 mm"
+      },
+      {
+        "code": "Rapide R12",
+        "description": "debit maxim 840 l/h, tub până la 15,9 mm"
+      },
+      {
+        "code": "Rapide R17S",
+        "description": "debit maxim 1020 l/h, tub până la 19 mm"
+      },
+      {
+        "code": "Verderair VA",
+        "description": "pompă cu diafragmă pneumatică, debit maxim 1200 l/min, 8,6 bar"
+      },
+      {
+        "code": "Verderair PURE",
+        "description": "variantă pentru chimicale agresive, debit maxim 660 l/min"
+      },
+      {
+        "code": "Verderair e-PURE",
+        "description": "variantă cu acționare electrică, debit maxim 100 l/min"
+      },
+      {
+        "code": "Verderair HC-PURE",
+        "description": "design igienic, debit maxim 465 l/min"
+      },
+      {
+        "code": "Verderair HI-CLEAN AODD",
+        "description": "variantă igienică cu aer comprimat, debit maxim 870 l/min"
+      },
+      {
+        "code": "Verderair EODD a doua generație",
+        "description": "acționare electrică, debit maxim 454 l/min"
+      },
+      {
+        "code": "Verderair HI-CLEAN EODD",
+        "description": "variantă igienică electrică, debit maxim 378 l/min"
+      },
+      {
+        "code": "Verderair CONT-EX",
+        "description": "polietilenă conductivă, certificare ATEX, debit maxim 105 l/min"
+      },
+      {
+        "code": "Verderair HP",
+        "description": "seria de înaltă presiune, presiune maximă 17,2 bar"
+      },
+      {
+        "code": "Verderair Split Manifold",
+        "description": "design cu port dublu, debit 2x30 l/min"
+      },
+      {
+        "code": "Verderair Drum Pumps",
+        "description": "pentru golire de butoaie, debit maxim 61 l/min"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență există între seriile Verderflex Rapide și Dura?",
+        "a": "Rapide este gama compactă pentru debite mici și presiune joasă (max. 2 bar), potrivită pentru dozare simplă în laborator sau linii industriale ușoare. Dura acoperă debite mai mari și presiuni superioare, fiind construită pentru funcționare continuă în aplicații grele, cu carcasă robustă și tuburi de uzură dedicate. Alegerea depinde de debitul necesar, vâscozitatea fluidului și regimul de lucru, intermitent sau non-stop."
+      },
+      {
+        "q": "Cum aleg dimensiunea corectă a unei pompe Verderair cu diafragmă?",
+        "a": "Selecția pornește de la debitul și presiunea necesare aplicației: seria VA standard acoperă până la 1200 l/min și 8,6 bar, în timp ce PURE și HC-PURE sunt gândite pentru fluide agresive sau igienice, cu debite mai mici. Contează și materialul de construcție, metalic sau nemetalic, în funcție de compatibilitatea chimică a fluidului vehiculat, plus tipul de acționare, pneumatică sau electrică EODD."
+      },
+      {
+        "q": "Ce tuburi sunt compatibile cu pompele Rapide?",
+        "a": "Pompele Rapide funcționează cu tuburi Verderprene sau alte elastomere compatibile, cu diametre cuprinse între 8 și 19 mm, în funcție de model, de la R2S la R17S. Alegerea tubului ține cont de rezistența chimică la fluidul pompat, de presiunea de lucru și de durata de viață dorită; producătorul recomandă verificarea tabelului de compatibilitate chimică înainte de comandă."
+      },
+      {
+        "q": "Livrați pompe Verder în România?",
+        "a": "Da, aducem la comandă modele din gamele Verderflex și Verderair descrise mai sus, pe baza fișelor tehnice publice ale producătorului; nu ținem aceste game pe raft ca stoc propriu. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și disponibilitatea din fabrică. Pentru o ofertă corectă, transmiteți debitul, presiunea și fluidul vehiculat."
+      },
+      {
+        "q": "Ce informații trebuie să trimit pentru o ofertă de pompă peristaltică Verderflex?",
+        "a": "Aveți nevoie să precizați debitul dorit, presiunea maximă de lucru, tipul și vâscozitatea fluidului, temperatura de operare și dacă aplicația necesită funcționare continuă sau intermitentă. Aceste date permit alegerea între seriile Rapide, Dura, Vantage sau Smart și a materialului de tub potrivit, evitând uzura prematură sau debitul insuficient."
+      }
+    ],
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]

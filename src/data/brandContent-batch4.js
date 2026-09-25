@@ -51,8 +51,93 @@ Noi la Infinitrade distribuim gama industrială Schneider Electric pentru automa
     infinitrade: `La Infinitrade lucrăm cu informațiile publice ale Schneider Electric și nu deținem date proprii de stoc pentru fiecare cod din gama industrială — verificăm disponibilitatea reală înainte să confirmăm un termen. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană: componentele uzuale ajung, ca formulare generală a firmei, de regulă în 24–72 h din stoc, iar restul gamei se aduce la comandă în 2–6 săptămâni, în funcție de producător. Pentru o ofertă corectă, trimite-ne codul complet al produsului (de exemplu o referință Modicon, Altivar sau Acti9), cantitatea necesară și termenul dorit. Revenim cu disponibilitatea confirmată și un preț calculat pentru cererea ta, fără presupuneri.`,
     limitation: `Nu putem confirma acoperirea automată în garanția producătorului pentru toate echipamentele Schneider Electric și nu realizăm noi configurarea software a modulelor EcoStruxure; pentru aceste situații recomandăm contactul direct cu producătorul.`,
     sources: [
+      {"title":"Modicon master range","url":"https://www.se.com/ww/en/work/products/master-ranges/modicon/","publisher":"Schneider Electric","accessed":"2026-09-23"},
       { title: 'History of our company, brand and innovation | Schneider Electric', url: 'https://www.se.com/ww/en/about-us/company-profile/history/schneider-electric-history/', publisher: 'Schneider Electric', accessed: '2026-09-22' },
       { title: 'Schneider Electric Global | Your Energy Technology Partner', url: 'https://www.se.com/ww/en/about-us/', publisher: 'Schneider Electric', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "M221",
+        "description": "PLC compact pentru arhitecturi cu cablare fixă"
+      },
+      {
+        "code": "M241",
+        "description": "PLC pentru aplicații ce cer performanță de calcul ridicată"
+      },
+      {
+        "code": "M251",
+        "description": "PLC pentru arhitecturi modulare și distribuite"
+      },
+      {
+        "code": "M262",
+        "description": "Controler logic și de mișcare pregătit pentru conectivitate IIoT"
+      },
+      {
+        "code": "M258",
+        "description": "PLC cu capacitate de la 42 la 2400 intrări-ieșiri"
+      },
+      {
+        "code": "LMC058",
+        "description": "Controler de mișcare pentru axe coordonate și interpolate"
+      },
+      {
+        "code": "PacDrive 3 LMC Eco",
+        "description": "Controler de mișcare pentru linii cu până la 130 axe"
+      },
+      {
+        "code": "PacDrive 3 LMC Pro",
+        "description": "Controler de mișcare pentru mașini centrate pe mișcare"
+      },
+      {
+        "code": "M340",
+        "description": "PAC de gamă medie pentru control de proces industrial"
+      },
+      {
+        "code": "M580",
+        "description": "PAC cu Ethernet integrat pentru proces și funcții de siguranță"
+      },
+      {
+        "code": "Modicon MCM",
+        "description": "Controler modular de siguranță din gama Modicon"
+      },
+      {
+        "code": "Zelio Logic SR2",
+        "description": "Releu programabil pentru automatizări simple, 10 până la 40 I/O"
+      },
+      {
+        "code": "Zelio Logic SR3",
+        "description": "Releu programabil pentru automatizări simple, generație extinsă"
+      },
+      {
+        "code": "Modicon M171",
+        "description": "Controler pentru aplicații HVAC și de pompare"
+      },
+      {
+        "code": "Modicon M172",
+        "description": "Controler pentru aplicații HVAC și de pompare, variantă extinsă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce automat programabil Schneider Electric aleg pentru o linie de producție de complexitate medie?",
+        "a": "Modicon M340 este alegerea tipică pentru control de proces industrial de complexitate medie, cu arhitectură modulară și module de intrare-ieșire dedicate. Pentru aplicații care necesită Ethernet integrat, redundanță și funcții de siguranță, seria M580 oferă un nivel superior de disponibilitate. Alegerea corectă depinde de numărul de puncte I/O și de cerințele de comunicație ale instalației."
+      },
+      {
+        "q": "Ce diferență este între Modicon M221 și M241?",
+        "a": "M221 este un controler compact, gândit pentru arhitecturi cu cablare fixă și cerințe simple de automatizare. M241 se adresează aplicațiilor unde performanța de calcul contează mai mult, oferind capacitate de procesare superioară și mai multe opțiuni de comunicație. Alegerea între cele două depinde de complexitatea programului și de numărul de axe controlate."
+      },
+      {
+        "q": "Livrați automate Modicon în România?",
+        "a": "Da, aducem controlere Modicon la comandă, pornind de la gamele publicate de Schneider Electric, fără a ține un stoc propriu pe aceste referințe. Termenul uzual este de 2-6 săptămâni la comandă, în funcție de model și de disponibilitatea la producător. Recomandăm verificarea referinței exacte a modulului înainte de a trimite comanda fermă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de automat programabil Schneider Electric?",
+        "a": "Este utilă precizarea numărului de intrări și ieșiri necesare, a protocolului de comunicație folosit în instalație și dacă aplicația implică funcții de siguranță sau mișcare coordonată. Aceste elemente permit orientarea către gama Modicon M221, M241 sau M580, în funcție de complexitatea reală a proiectului dumneavoastră de automatizare."
+      },
+      {
+        "q": "Ce este controlerul Modicon M262?",
+        "a": "Este un controler logic și de mișcare pregătit pentru conectivitate IIoT, folosit la mașini de performanță ce combină logica secvențială cu mișcarea sincronizată a mai multor axe. Este potrivit acolo unde se cere integrare rapidă cu sisteme de monitorizare la distanță și schimb de date către nivelul superior de control."
+      }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
