@@ -32,11 +32,85 @@ Pentru integratorii din România care lucrează cu automate de mai mulți produc
     ],
     infinitrade: `Aducem panouri Weintek la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Lucrăm din surse publice ale producătorului, fără acces la stocuri interne Weintek în acest moment, așa că nu promitem disponibilitate permanentă pe niciun model din gamă. Pentru o ofertă corectă avem nevoie de codul exact al panoului sau, dacă nu-l cunoașteți, de diagonala dorită, tensiunea de alimentare și tipul de automat cu care trebuie să comunice. Nu configurăm proiectul HMI pentru client — livrăm hardware-ul, iar programarea rămâne în sarcina integratorului sau a echipei tehnice a beneficiarului.`,
     limitation: "Nu oferim configurare software a proiectului HMI și nu confirmăm disponibilitate permanentă din stoc pentru niciun model din gama cMT.",
+    productCodes: [
+      {
+        "code": "cMT2058XH",
+        "description": "panou HMI compact seria cMT X, diagonală 4,3 inch, ecran WVA"
+      },
+      {
+        "code": "cMT2078X",
+        "description": "panou HMI seria cMT X, diagonală 7 inch, ecran TFT"
+      },
+      {
+        "code": "cMT3072XH3",
+        "description": "panou HMI seria cMT X, diagonală 7 inch, ecran WVA"
+      },
+      {
+        "code": "cMT2108X2",
+        "description": "panou HMI seria cMT X, diagonală 10,1 inch, ecran WVA"
+      },
+      {
+        "code": "cMT3102X",
+        "description": "panou HMI seria cMT X, diagonală 10,1 inch, linia 3000, ecran WVA"
+      },
+      {
+        "code": "cMT2102X",
+        "description": "panou HMI seria cMT X, diagonală 10,1 inch, linia 2000, ecran WVA"
+      },
+      {
+        "code": "cMT3106XM",
+        "description": "panou HMI portabil handheld, diagonală 10,1 inch, ecran WVA"
+      },
+      {
+        "code": "cMT2166X",
+        "description": "panou HMI seria cMT X, diagonală 15,6 inch, ecran WVA"
+      },
+      {
+        "code": "cMT2168X",
+        "description": "panou HMI seria cMT X, diagonală 15,6 inch, model 2168, ecran WVA"
+      },
+      {
+        "code": "cMT3162X",
+        "description": "panou HMI seria cMT X, diagonală 15,6 inch, linia 3000, ecran WVA"
+      },
+      {
+        "code": "cMT3218XP",
+        "description": "panou HMI seria cMT X, diagonală 21,5 inch, ecran WVA"
+      },
+      {
+        "code": "cMT-FHDX-820(W)",
+        "description": "web panel HTML5 fără CPU propriu, ieșire video prin HDMI"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce dimensiuni de ecran are gama cMT X de la Weintek?",
+        "a": "Gama cMT X acoperă diagonale de la 4,3 inch, la modelul cMT2058XH, până la 21,5 inch, la cMT3218XP, cu variante intermediare la 7, 10,1 și 15,6 inch precum cMT2078X, cMT3102X sau cMT3162X. Majoritatea modelelor folosesc panouri WVA pentru unghi larg de vizualizare, cu excepția lui cMT2078X, care are ecran TFT. Alegerea diagonalei potrivite depinde de spațiul disponibil pe ușa dulapului electric și de complexitatea interfeței de operare necesare."
+      },
+      {
+        "q": "Ce este panoul cMT-FHDX-820 de la Weintek?",
+        "a": "Este un web panel HTML5 fără procesor propriu de rulare, care afișează proiectul printr-un browser și transmite imaginea printr-o ieșire video HDMI către un monitor extern. Este util acolo unde se dorește un ecran suplimentar sincronizat cu un panou cMT principal, fără a mai instala un al doilea controller separat. Depinde întotdeauna de un panou cMT gazdă aflat în aceeași rețea locală."
+      },
+      {
+        "q": "Ce diferență există între modelele cMT2102X și cMT3102X?",
+        "a": "Ambele au diagonala de 10,1 inch și ecran WVA, dar aparțin unor linii diferite ale familiei cMT X, cu poziționare și set de funcții distincte în cataloagele producătorului. cMT3106XM, tot pe 10,1 inch, este varianta portabilă handheld, gândită pentru operare mobilă lângă utilaj, spre deosebire de montarea fixă pe ușa panoului electric specifică celorlalte două modele."
+      },
+      {
+        "q": "Livrați panouri HMI Weintek în România?",
+        "a": "Da, aducem la comandă modele din gama cMT X prezentată mai sus, pe baza cataloagelor publice ale producătorului, fără să ținem această gamă pe raftul propriu. Perioada obișnuită este de 2-6 săptămâni la comandă, în funcție de model și disponibilitatea din fabrică. Pentru o ofertă corectă, transmiteți diagonala dorită, rezoluția și tipul de proiect software folosit, EasyBuilder Pro sau EasyBuilder X."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de panou HMI cMT?",
+        "a": "Este util să precizați diagonala ecranului dorită, tipul de montaj, fix pe ușa dulapului sau portabil handheld, protocolul de comunicație cu automatul programabil folosit și dacă aveți nevoie de conectare la platforma Weincloud pentru acces la distanță. Aceste detalii permit alegerea corectă între variantele Advance, Standard sau Basic ale seriei cMT X."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"HMI Products","url":"https://www.weintek.com/globalw/product.aspx","publisher":"Weintek","accessed":"2026-09-25"},
+      {"title":"cMT Series","url":"https://www.weintek.com/globalw/Product_cMT_series.aspx","publisher":"Weintek","accessed":"2026-09-25"},
       { title: "Weintek - HMI Touch Panels", url: "https://www.weintek.com/", publisher: "Weintek Labs., Inc.", accessed: "2026-09-22" },
       { title: "Weintek România - produse și contact", url: "https://weintek.ro/", publisher: "Weintek România", accessed: "2026-09-22" }
     ],
@@ -114,11 +188,140 @@ Pentru integratorii din România care echipează axe de servoacționare pe mași
     ],
     infinitrade: `Aducem reductoare Neugart la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Informațiile tehnice de mai sus vin din surse publice ale producătorului, nu din testări proprii, așa că nu confirmăm performanța unui model anume în afara datelor publicate. Pentru ofertă avem nevoie de cuplul necesar, raportul de reducere dorit, backlash-ul maxim admis și tipul de motor la care se montează reductorul. Nu ținem disponibilitate permanentă din stoc pe nicio combinație cuplu-raport și nu facem dimensionarea completă a axei — oferim reductorul cerut, calculul de sarcină rămâne la proiectantul mașinii.`,
     limitation: "Nu facem dimensionarea completă a axei de servoacționare și nu confirmăm disponibilitate permanentă din stoc pentru combinațiile cuplu-raport mai puțin uzuale.",
+    productCodes: [
+      {
+        "code": "PLE",
+        "description": "reductor planetar coaxial economic, cuplu 5-800 Nm, protecție IP54"
+      },
+      {
+        "code": "PLQE",
+        "description": "reductor planetar unghiular economic, cuplu 5-260 Nm, mărimi 40-120"
+      },
+      {
+        "code": "PLPE",
+        "description": "reductor planetar coaxial, cuplu 5-460 Nm, forțe radiale/axiale ridicate"
+      },
+      {
+        "code": "PLHE",
+        "description": "reductor planetar etanș, protecție IP65, cuplu 15-260 Nm"
+      },
+      {
+        "code": "PLFE",
+        "description": "reductor planetar cu ieșire pe flanșă, cuplu 5-260 Nm"
+      },
+      {
+        "code": "PFHE",
+        "description": "reductor planetar unghiular etanș, protecție IP65, cuplu 15-260 Nm"
+      },
+      {
+        "code": "WPLE",
+        "description": "reductor planetar economic cu joc redus, cuplu 5-260 Nm, 11-28 minute de arc"
+      },
+      {
+        "code": "WPLQE",
+        "description": "reductor planetar unghiular etanș cu joc redus, cuplu 14-260 Nm"
+      },
+      {
+        "code": "WPLPE",
+        "description": "reductor planetar coaxial cu joc redus, cuplu 5-195 Nm"
+      },
+      {
+        "code": "WPLHE",
+        "description": "reductor planetar etanș cu joc redus, protecție IP65, cuplu 14-260 Nm"
+      },
+      {
+        "code": "WPLFE",
+        "description": "reductor planetar cu flanșă și joc redus, cuplu 14-260 Nm"
+      },
+      {
+        "code": "PSNpro",
+        "description": "reductor planetar elicoidal de precizie, cuplu 14-1800 Nm, 1-8 minute de arc"
+      },
+      {
+        "code": "PSFNpro",
+        "description": "reductor planetar de precizie cu flanșă, cuplu 14-1800 Nm"
+      },
+      {
+        "code": "PSBNpro",
+        "description": "reductor planetar de precizie cu angrenaj conic, cuplu 14-830 Nm, IP65"
+      },
+      {
+        "code": "PSN",
+        "description": "reductor planetar elicoidal de precizie standard, cuplu 14-950 Nm"
+      },
+      {
+        "code": "PSFN",
+        "description": "reductor planetar de precizie cu flanșă, cuplu 14-950 Nm"
+      },
+      {
+        "code": "PSBN",
+        "description": "reductor planetar de precizie cu angrenaj conic, cuplu 14-470 Nm"
+      },
+      {
+        "code": "WPLN",
+        "description": "reductor planetar coaxial cu joc foarte redus, cuplu 22-800 Nm, 0-5 minute de arc"
+      },
+      {
+        "code": "WPSFN",
+        "description": "reductor planetar cu flanșă și joc redus, cuplu 22-620 Nm"
+      },
+      {
+        "code": "WGN",
+        "description": "reductor planetar unghiular de precizie, cuplu 22-320 Nm, joc fix 5 minute de arc"
+      },
+      {
+        "code": "PLN",
+        "description": "reductor planetar coaxial de precizie, cuplu ridicat 27-1800 Nm"
+      },
+      {
+        "code": "PLFN",
+        "description": "reductor planetar cu flanșă, cuplu ridicat 27-1800 Nm"
+      },
+      {
+        "code": "NGV",
+        "description": "reductor planetar cu design igienic, pentru industria alimentară, cuplu 18-260 Nm"
+      },
+      {
+        "code": "HLAE",
+        "description": "reductor planetar pentru echipamente de manipulare, protecție IP69K, cuplu 15-171 Nm"
+      },
+      {
+        "code": "NDF",
+        "description": "reductor planetar pentru roboți delta, cuplu 180-530 Nm, joc 1 minut de arc"
+      },
+      {
+        "code": "NDFC",
+        "description": "reductor planetar compact pentru roboți delta, cuplu 32-330 Nm"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între liniile Economy și Precision la Neugart?",
+        "a": "Linia Economy, cu seriile PLE, PLQE, PLPE, PLHE și PLFE, acoperă cupluri între 5 și 800 Nm, fiind gândită pentru aplicații standard fără cerințe stricte de joc unghiular. Linia Precision, prin seriile PSNpro, PSFNpro sau PLN, urcă până la 1800 Nm și oferă joc unghiular controlat, de la 1 la 8 minute de arc, pentru axe de poziționare unde repetabilitatea contează mult. Variantele cu prefix W din ambele linii adaugă un joc suplimentar redus."
+      },
+      {
+        "q": "Ce cuplu maxim oferă reductoarele planetare Neugart din seria PSNpro?",
+        "a": "Seria PSNpro acoperă un interval de cuplu între 14 și 1800 Nm, în funcție de mărimea carcasei, cuprinsă între 55 și 190 mm, cu joc unghiular de doar 1 până la 8 minute de arc. Este o construcție elicoidală de înaltă precizie, recomandată pentru axe de robotică sau mașini-unelte unde poziționarea repetabilă este esențială. Varianta PSFNpro adaugă o ieșire cu flanșă pentru montaj direct pe echipament."
+      },
+      {
+        "q": "Ce reductor Neugart este potrivit pentru roboți delta?",
+        "a": "Pentru roboți delta, Neugart oferă seriile NDF și NDFC. NDF acoperă cupluri între 180 și 530 Nm, cu joc unghiular de 1 minut de arc, la mărimi de carcasă de 90 și 110 mm. NDFC este varianta compactă, cu cupluri între 32 și 330 Nm și joc unghiular între 1 și 5 minute de arc, potrivită acolo unde spațiul de montaj disponibil este limitat."
+      },
+      {
+        "q": "Livrați reductoare planetare Neugart în România?",
+        "a": "Da, aducem la comandă modele din liniile Economy, Precision și seriile speciale NGV, HLAE, NDF prezentate mai sus, pe baza cataloagelor tehnice publice ale producătorului, gamă pe care nu o ținem pe raft. Termenul uzual este de 2-6 săptămâni, în funcție de mărime și configurație solicitată. Pentru o ofertă corectă, transmiteți cuplul necesar, turația de intrare și jocul unghiular admis de aplicație."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de reductor planetar Neugart?",
+        "a": "Aveți nevoie să precizați cuplul de ieșire necesar, raportul de reducere dorit, turația de intrare a motorului, jocul unghiular maxim admis și dacă aplicația cere protecție IP65 sau IP69K. Aceste date permit alegerea corectă între liniile Economy și Precision și evită o dimensionare greșită a reductorului ales pentru instalație."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products Overview","url":"https://www.neugart.com/en/products","publisher":"Neugart","accessed":"2026-09-25"},
       { title: "Neugart - Planetary Gearboxes", url: "https://www.neugart.com", publisher: "Neugart GmbH", accessed: "2026-09-22" },
       { title: "Neugart - Products", url: "https://www.neugart.com/en/products", publisher: "Neugart GmbH", accessed: "2026-09-22" },
       { title: "Neugart - Company", url: "https://www.neugart.com/en/company", publisher: "Neugart GmbH", accessed: "2026-09-22" }
@@ -157,11 +360,89 @@ Pentru fabricile din România cu linii de transport, macarale sau instalații de
     ],
     infinitrade: `Nu dispunem de stoc propriu de motoreductoare Bauer și lucrăm exclusiv din surse publice ale producătorului pentru specificațiile de mai sus, la fiecare cerere de ofertă. Aducem unități la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, raportul de reducere dorit, tipul de montaj (elicoidal, pe arbore, conic sau melcat) și dacă aplicația cere protecție IP68 sau conformitate HACCP. Nu facem calculul de sarcină al instalației complete — livrăm motoreductorul conform specificațiilor primite de la client.`,
     limitation: "Nu facem calculul de sarcină al instalației complete și nu confirmăm disponibilitate permanentă pentru variantele submersibile IP68.",
+    productCodes: [
+      {
+        "code": "BG Series",
+        "description": "motoreductor elicoidal, familia de bază Bauer Gear Motor"
+      },
+      {
+        "code": "BF Series",
+        "description": "motoreductor cu montaj pe arbore, tip shaft-mounted"
+      },
+      {
+        "code": "BK Series",
+        "description": "motoreductor conic (bevel), pentru schimbarea direcției axului de ieșire"
+      },
+      {
+        "code": "BS Series",
+        "description": "motoreductor melcat (worm), pentru rapoarte mari de reducere"
+      },
+      {
+        "code": "BM Series",
+        "description": "motoreductor monorail, pentru sisteme de transport suspendat"
+      },
+      {
+        "code": "IE3 Premium Efficiency",
+        "description": "motor electric cu clasă de eficiență energetică IE3"
+      },
+      {
+        "code": "IE5 PM Synchronous",
+        "description": "motor sincron cu magneți permanenți, eficiență energetică IE5"
+      },
+      {
+        "code": "IE5 PM Synchronous Hazardous",
+        "description": "variantă IE5 PM pentru zone cu risc de explozie"
+      },
+      {
+        "code": "HiflexDRIVE",
+        "description": "platformă modulară de acționare, configurabilă pentru aplicații variate"
+      },
+      {
+        "code": "AsepticDRIVE",
+        "description": "motoreductor cu design igienic, pentru industria alimentară și băuturi"
+      },
+      {
+        "code": "Submersible Solutions",
+        "description": "motoreductoare cu protecție IP68, pentru funcționare complet submersă"
+      },
+      {
+        "code": "EtaK 2.0",
+        "description": "soluție de acționare descentralizată, cu variator de turație integrat"
+      },
+      {
+        "code": "C Adapter Motor Connection",
+        "description": "adaptor pentru conectarea reductorului la motoare electrice standard"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile BG și BF de la Bauer Gear Motor?",
+        "a": "BG este familia de motoreductoare elicoidale, cu montaj pe suport propriu, potrivită pentru majoritatea aplicațiilor industriale standard. BF este varianta cu montaj direct pe arborele mașinii antrenate, tip shaft-mounted, care elimină nevoia unui cuplaj separat și reduce spațiul necesar la instalare. Alegerea între cele două depinde de configurația mecanică a utilajului și de spațiul disponibil în jurul axului de antrenare."
+      },
+      {
+        "q": "Ce este soluția HiflexDRIVE de la Bauer Gear Motor?",
+        "a": "HiflexDRIVE este o platformă modulară de acționare ce combină reductorul, motorul și, opțional, un variator de turație, într-o singură unitate configurabilă. Este disponibilă și în variante Aseptic sau din oțel inoxidabil, pentru medii unde igiena sau rezistența la coroziune contează, precum industria alimentară sau farmaceutică. Configurația exactă se stabilește pornind de la cuplul necesar și de la mediul de lucru al instalației."
+      },
+      {
+        "q": "Ce sunt motoreductoarele Submersible Solutions de la Bauer?",
+        "a": "Sunt motoreductoare cu protecție IP68, gândite pentru funcționare complet submersă, disponibile în variante constructive BG, BF, BK sau BS, în funcție de tipul de transmisie necesar aplicației. Sunt folosite acolo unde echipamentul trebuie să opereze permanent sau intermitent sub apă, de exemplu în stații de epurare sau instalații piscicole industriale."
+      },
+      {
+        "q": "Livrați motoreductoare Bauer în România?",
+        "a": "Da, aducem la comandă modele din seriile BG, BF, BK, BS și BM, precum și soluțiile HiflexDRIVE și Submersible descrise mai sus, pe baza cataloagelor publice ale producătorului; nu păstrăm această gamă pe raft ca stoc propriu. Termenul obișnuit este de 2-6 săptămâni, în funcție de configurația comandată. Pentru o ofertă, transmiteți cuplul necesar, turația și tipul de montaj dorit."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de motoreductor Bauer?",
+        "a": "Este util să precizați cuplul de ieșire necesar, puterea motorului, turația de intrare și de ieșire, tipul de montaj, pe arbore sau pe suport propriu, și dacă aplicația necesită protecție IP68 sau clasă de eficiență IE5. Aceste informații permit alegerea corectă între seriile BG, BF, BK, BS sau BM disponibile."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products Overview","url":"https://www.bauergears.com/products","publisher":"Bauer Gear Motor","accessed":"2026-09-25"},
+      {"title":"Geared Motors","url":"https://www.bauergears.com/products/geared-motors","publisher":"Bauer Gear Motor","accessed":"2026-09-25"},
       { title: "Bauer Gear Motor - Geared Motors", url: "https://www.bauergears.com", publisher: "Bauer Gear Motor GmbH", accessed: "2026-09-22" },
       { title: "Enapart - Bauer", url: "https://www.enapart.ro/brands/bauer", publisher: "Enapart", accessed: "2026-09-22" }
     ],
@@ -197,11 +478,136 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
     ],
     infinitrade: `Fără date proprii despre disponibilitatea imediată a fiecărui model Riello, mergem pe surse publice ale producătorului pentru specificațiile de mai sus și verificăm la fiecare cerere. Aducem UPS-uri Riello la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Pentru ofertă avem nevoie de puterea necesară în kVA, numărul de faze (monofazat sau trifazat), autonomia dorită pe baterie și dacă instalația cere redundanță. Nu facem proiectarea electrică a sălii tehnice și nu confirmăm disponibilitate permanentă din stoc pe modelele de putere mare — acestea se aduc de regulă la comandă fermă.`,
     limitation: "Nu facem proiectarea electrică a sălii tehnice și nu confirmăm disponibilitate permanentă din stoc pentru modelele trifazate de putere mare.",
+    productCodes: [
+      {
+        "code": "Sentinel Pro2",
+        "description": "UPS on-line/line-interactive, putere 700-3000 VA"
+      },
+      {
+        "code": "Sentinel Rack",
+        "description": "UPS on-line pentru montare în rack, putere 1,5-3 kVA"
+      },
+      {
+        "code": "Sentinel Dual2",
+        "description": "UPS on-line cu dublă conversie, putere 1000-3000 VA"
+      },
+      {
+        "code": "Sentinel Dual SDU",
+        "description": "UPS on-line, putere 4-10 kVA"
+      },
+      {
+        "code": "Sentinel Tower",
+        "description": "UPS on-line tip tower, putere 5-10 kVA"
+      },
+      {
+        "code": "Sentryum",
+        "description": "UPS on-line modular, putere 10-120 kVA"
+      },
+      {
+        "code": "Sentryum Rack",
+        "description": "variantă Sentryum pentru montare în rack, putere 20-160 kVA"
+      },
+      {
+        "code": "Multi Sentry",
+        "description": "UPS on-line pentru puteri mari, 160-200 kVA"
+      },
+      {
+        "code": "Multi Power",
+        "description": "UPS on-line industrial, putere 45-294 kVA"
+      },
+      {
+        "code": "Multi Power2",
+        "description": "UPS on-line modular de generație nouă, putere 120-600 kVA"
+      },
+      {
+        "code": "Multi Power2 Scalable",
+        "description": "variantă extensibilă prin module în paralel, putere 1000-1600 kVA"
+      },
+      {
+        "code": "Master MPS",
+        "description": "UPS on-line industrial, putere 10-200 kVA"
+      },
+      {
+        "code": "NextEnergy NXE",
+        "description": "UPS on-line de mare putere, 250-800 kVA"
+      },
+      {
+        "code": "Master HP UL",
+        "description": "UPS on-line certificat UL, putere 65-500 kVA"
+      },
+      {
+        "code": "Master HE",
+        "description": "UPS on-line de eficiență ridicată, putere 100-800 kVA"
+      },
+      {
+        "code": "Master HP",
+        "description": "UPS on-line de putere mare, 100-600 kVA"
+      },
+      {
+        "code": "Master Industrial",
+        "description": "UPS on-line pentru medii industriale, putere 30-80 kVA"
+      },
+      {
+        "code": "Master FC400",
+        "description": "UPS on-line industrial, putere 30-125 kVA"
+      },
+      {
+        "code": "Net Power",
+        "description": "UPS line-interactive, putere 600-2000 VA"
+      },
+      {
+        "code": "Vision",
+        "description": "UPS line-interactive, putere 800-2000 VA"
+      },
+      {
+        "code": "Vision Rack",
+        "description": "variantă Vision pentru montare în rack, putere 800-1100 VA"
+      },
+      {
+        "code": "Vision Dual",
+        "description": "UPS line-interactive cu dublă conversie, putere 1,1-3 kVA"
+      },
+      {
+        "code": "iPlug",
+        "description": "UPS de tip VFD, putere 600-800 VA"
+      },
+      {
+        "code": "iDialog",
+        "description": "UPS de tip VFD, putere 400-1600 VA"
+      },
+      {
+        "code": "iDialog Rack",
+        "description": "variantă iDialog pentru montare în rack, putere 600-1200 VA"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între UPS-urile Riello UPS Sentinel Pro2 și Sentinel Dual2?",
+        "a": "Sentinel Pro2 acoperă puteri între 700 și 3000 VA, cu topologie line-interactive sau on-line, potrivit pentru stații de lucru și servere mici. Sentinel Dual2, în aceeași plajă de putere, adaugă dublă conversie completă și tehnologie online adevărată, recomandată acolo unde sarcina este mai sensibilă la variații de tensiune sau frecvență din rețea. Diferența principală dintre cele două constă în topologie și nivelul de protecție oferit."
+      },
+      {
+        "q": "Ce putere acoperă gama Riello UPS Multi Power2?",
+        "a": "Multi Power2 acoperă puteri între 120 și 600 kVA, iar varianta Scalable urcă până la 1600 kVA prin conectarea mai multor module în paralel. Este o arhitectură modulară, gândită pentru centre de date sau clădiri industriale unde sarcina electrică poate crește în timp, permițând extinderea capacității fără a înlocui întregul sistem existent."
+      },
+      {
+        "q": "Ce UPS este potrivit pentru un centru de date de putere mare?",
+        "a": "Pentru puteri mari, gamele NextEnergy NXE, între 250 și 800 kVA, și Master HE, între 100 și 800 kVA, sunt construite pentru funcționare continuă în centre de date, cu eficiență ridicată în modul online. Master HP UL, disponibil între 65 și 500 kVA, este certificat pentru piața nord-americană. Alegerea depinde de puterea totală instalată și de nivelul de redundanță dorit pentru instalație."
+      },
+      {
+        "q": "Livrați UPS-uri Riello UPS în România?",
+        "a": "Da, aducem la comandă modele din gamele Sentinel, Sentryum, Multi Power2, Master și NextEnergy prezentate mai sus, conform cataloagelor publice ale producătorului; gama nu se află pe raftul propriu, ci se aduce punctual. Termenul uzual este de 2-6 săptămâni, în funcție de putere și configurație. Pentru o ofertă corectă, transmiteți puterea necesară în kVA și tipul de sarcină conectată."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de UPS industrial?",
+        "a": "Este necesar să precizați puterea totală a sarcinii în kVA sau kW, autonomia dorită la baterie, tipul de topologie preferat, online sau line-interactive, și dacă instalația necesită montare în rack sau tip tower. Aceste informații permit alegerea corectă între gamele Sentinel, Sentryum sau Multi Power2 potrivite proiectului."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://www.riello-ups.com/products","publisher":"Riello UPS","accessed":"2026-09-25"},
       { title: "Riello UPS - Company", url: "https://www.riello-ups.com/", publisher: "RPS SpA", accessed: "2026-09-22" },
       { title: "Riello UPS România - Produse", url: "https://www.riello-ups.ro/products/1-ups", publisher: "Riello UPS România", accessed: "2026-09-22" }
     ],
@@ -241,11 +647,92 @@ Pentru proiectele din România unde tabloul electric trebuie echipat rapid și l
     ],
     infinitrade: `Recunoaștem clar: nu dispunem de stoc propriu de componente CHINT, doar surse publice ale producătorului pentru parametrii tehnici de mai sus. Aducem componente și tablouri echipate cu CHINT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Pentru ofertă avem nevoie de curentul nominal, tensiunea de lucru, numărul de poli și dacă produsul trebuie să fie certificat IEC sau UL, în funcție de piața de destinație. Nu facem proiectarea tabloului electric complet — livrăm componentele conform listei de material primite de la proiectant sau electrician.`,
     limitation: "Nu facem proiectarea tabloului electric și nu confirmăm disponibilitate permanentă din stoc pentru componentele de medie tensiune sau transformatoarele mari.",
+    productCodes: [
+      {
+        "code": "NC1",
+        "description": "contactor de curent alternativ, seria de bază CHINT"
+      },
+      {
+        "code": "NXB-63",
+        "description": "întrerupător automat modular (MCB), curent nominal până la 63 A"
+      },
+      {
+        "code": "NB1-63",
+        "description": "întrerupător automat modular, seria NB1, curent până la 63 A"
+      },
+      {
+        "code": "B1 Series UL489",
+        "description": "întrerupător automat modular, certificat UL489, pentru piața nord-americană"
+      },
+      {
+        "code": "B1B UL489 SC",
+        "description": "variantă de întrerupător modular UL489 cu clasificare suplimentară SC"
+      },
+      {
+        "code": "B1E UL1077",
+        "description": "întrerupător automat modular, certificat UL1077"
+      },
+      {
+        "code": "B2 Series UL489",
+        "description": "a doua generație de întrerupătoare modulare, certificate UL489"
+      },
+      {
+        "code": "Ex9BP UL1077",
+        "description": "întrerupător automat modular din seria Ex9BP, certificat UL1077"
+      },
+      {
+        "code": "NM8N",
+        "description": "întrerupător automat în carcasă turnată (MCCB)"
+      },
+      {
+        "code": "NXA Series",
+        "description": "întrerupător de aer (ACB) din seria NXA"
+      },
+      {
+        "code": "9FP Fuse Set",
+        "description": "set de siguranțe fuzibile industriale, seria 9FP"
+      },
+      {
+        "code": "CBA Busbar",
+        "description": "sistem de bare colectoare (busbar) pentru tablouri electrice"
+      },
+      {
+        "code": "F30 Series Fuse Holder",
+        "description": "suport pentru siguranțe fuzibile, seria F30"
+      },
+      {
+        "code": "U4 Surge Protective Device",
+        "description": "dispozitiv de protecție la supratensiuni, seria U4"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între întrerupătoarele CHINT NXB-63 și NB1-63?",
+        "a": "Ambele sunt întrerupătoare automate modulare (MCB) cu curent nominal până la 63 A, dar aparțin unor serii constructive diferite, cu curbe de declanșare și caracteristici de întrerupere adaptate diverselor cerințe de instalație. Verificarea fișei tehnice a fiecărei serii, a curentului de scurtcircuit admis și a curbei de declanșare este recomandată înainte de alegerea finală pentru un tablou electric."
+      },
+      {
+        "q": "Ce este contactorul CHINT seria NC1?",
+        "a": "NC1 este seria de bază de contactoare de curent alternativ din gama CHINT, folosită pentru comanda motoarelor electrice și a altor sarcini industriale similare. Este disponibil în mai multe mărimi, în funcție de curentul nominal al sarcinii comandate, și se integrează în tablouri electrice alături de întrerupătoare din seriile NXB sau NM8N."
+      },
+      {
+        "q": "Ce este un întrerupător de aer (ACB) din seria NXA?",
+        "a": "NXA este seria CHINT de întrerupătoare de aer, folosite pentru protecția și comanda circuitelor electrice de putere mare, la nivelul tablourilor generale de distribuție. Comparativ cu întrerupătoarele modulare sau cele în carcasă turnată, seria NXA acoperă curenți nominali mai mari, fiind potrivită pentru intrarea principală a unui tablou electric industrial de dimensiuni mari."
+      },
+      {
+        "q": "Livrați echipamente electrice CHINT în România?",
+        "a": "Da, aducem la comandă produse din seriile NC1, NXB, NM8N, NXA și accesoriile aferente prezentate mai sus, conform cataloagelor publice ale producătorului; această gamă nu este ținută pe raft, ci este adusă la solicitare. Termenul obișnuit este de 2-6 săptămâni, în funcție de model și cantitatea comandată. Pentru o ofertă, transmiteți curentul nominal necesar și tipul de aplicație."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de întrerupător automat CHINT?",
+        "a": "Este util să precizați curentul nominal necesar, numărul de poli, curba de declanșare dorită și tensiunea nominală a instalației electrice. Aceste informații permit alegerea corectă între seriile NXB, NB1, NM8N sau NXA, evitând o dimensionare greșită a protecției electrice pentru circuitul respectiv."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Low Voltage Products","url":"https://www.chintglobal.com/global/en/products/low-voltage.html","publisher":"CHINT Global","accessed":"2026-09-25"},
       { title: "CHINT Global", url: "https://www.chintglobal.com/", publisher: "Chint Group", accessed: "2026-09-22" },
       { title: "CHINT - Low Voltage Products", url: "https://www.chintglobal.com/global/en/products/low-voltage.html", publisher: "Chint Group", accessed: "2026-09-22" },
       { title: "Chint Group", url: "https://en.wikipedia.org/wiki/Chint_Group", publisher: "Wikipedia", accessed: "2026-09-22" }
@@ -367,11 +854,149 @@ Pentru operatorii de rețele de gaz și instalatorii de branșamente din Români
     ],
     infinitrade: `La regulatoarele Pietro Fiorentini nu avem date proprii de stoc, ne bazăm pe surse publice ale producătorului pentru fiecare specificație tehnică prezentată aici. Aducem regulatoare și contoare la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau, dacă nu-l aveți, de presiunea de intrare/ieșire, debitul necesar și tipul de instalație (branșament, stație de reglare sau contorizare). Nu facem proiectarea stației de reglare-măsurare — livrăm echipamentul, proiectul tehnic rămâne responsabilitatea proiectantului autorizat.`,
     limitation: "Nu facem proiectarea stației de reglare-măsurare și nu confirmăm disponibilitate permanentă din stoc pentru codurile de produs mai puțin uzuale.",
+    productCodes: [
+      {
+        "code": "Aperflux 101",
+        "description": "regulator de presiune pilotat, treaptă medie-înaltă presiune"
+      },
+      {
+        "code": "Aperflux 851",
+        "description": "regulator de presiune pilotat, familia Aperflux, presiune mai ridicată"
+      },
+      {
+        "code": "ASX 176",
+        "description": "regulator de presiune cu acțiune directă, medie-înaltă presiune"
+      },
+      {
+        "code": "Dixi AP",
+        "description": "regulator de presiune pilotat, treaptă medie-înaltă presiune"
+      },
+      {
+        "code": "Reflux 819",
+        "description": "regulator de presiune pilotat, treaptă medie-înaltă presiune"
+      },
+      {
+        "code": "Terval AP",
+        "description": "regulator de presiune pilotat, treaptă medie-înaltă presiune"
+      },
+      {
+        "code": "ATF",
+        "description": "regulator de presiune cu acțiune directă, medie-înaltă presiune"
+      },
+      {
+        "code": "Dival 160 AP",
+        "description": "regulator de presiune cu acțiune directă, medie-înaltă presiune"
+      },
+      {
+        "code": "FT 518",
+        "description": "regulator de presiune cu acțiune directă"
+      },
+      {
+        "code": "Staflux 185",
+        "description": "regulator de presiune cu acțiune directă, familia Staflux"
+      },
+      {
+        "code": "Aperval 101",
+        "description": "regulator de presiune pilotat, treaptă medie-joasă presiune"
+      },
+      {
+        "code": "Reval 182",
+        "description": "regulator de presiune pilotat, treaptă medie-joasă presiune"
+      },
+      {
+        "code": "Terval/A",
+        "description": "regulator de presiune pilotat, familia Terval, variantă A"
+      },
+      {
+        "code": "Terval/R",
+        "description": "regulator de presiune pilotat, familia Terval, variantă R"
+      },
+      {
+        "code": "Cirval",
+        "description": "regulator de presiune cu acțiune directă, treaptă medie-joasă"
+      },
+      {
+        "code": "Dival 500",
+        "description": "regulator cu acțiune directă, DN 1x1 inch, ieșire 13-2500 mbar"
+      },
+      {
+        "code": "Dival 600",
+        "description": "regulator cu acțiune directă, familia Dival, treaptă medie-joasă"
+      },
+      {
+        "code": "Dival 700",
+        "description": "regulator cu acțiune directă, familia Dival, treaptă medie-joasă"
+      },
+      {
+        "code": "Dival SQD-1",
+        "description": "regulator compact cu acțiune directă, familia Dival"
+      },
+      {
+        "code": "Norval",
+        "description": "regulator de presiune cu acțiune directă, treaptă medie-joasă"
+      },
+      {
+        "code": "FE 515",
+        "description": "regulator de presiune cu acțiune directă, treaptă joasă presiune"
+      },
+      {
+        "code": "HP 100",
+        "description": "regulator de presiune cu acțiune directă, treaptă joasă presiune"
+      },
+      {
+        "code": "Goval",
+        "description": "guvernor de presiune pentru stații de reglare gaz"
+      },
+      {
+        "code": "RCS 201",
+        "description": "guvernor de presiune, familia RCS"
+      },
+      {
+        "code": "MM",
+        "description": "contor de gaz cu diafragmă"
+      },
+      {
+        "code": "RS 2.0",
+        "description": "contor de gaz cu diafragmă, generație recentă"
+      },
+      {
+        "code": "HM",
+        "description": "contor de gaz inteligent (smart meter)"
+      },
+      {
+        "code": "FioSonic",
+        "description": "debitmetru cu ultrasunete pentru gaz, uz industrial"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între regulatoarele Pietro Fiorentini Dival 500 și Dival 600?",
+        "a": "Dival 500 este un regulator cu acțiune directă pentru presiune medie-joasă, cu racorduri DN 1x1 sau 1x1 1/2 inch și presiune de ieșire reglabilă între 13 și 2500 mbar, în funcție de variantă. Dival 600 aparține aceleiași familii constructive, dar acoperă un debit sau un domeniu de aplicație diferit, conform fișei tehnice a producătorului. Alegerea între cele două ține cont de debitul necesar și de presiunea de intrare disponibilă la stație."
+      },
+      {
+        "q": "Ce este regulatorul Pietro Fiorentini Aperflux 101?",
+        "a": "Aperflux 101 este un regulator de presiune pilotat, folosit pe trepte de presiune medie și înaltă în stațiile de reglare a gazelor naturale. Funcționează cu un pilot separat care comandă deschiderea supapei principale, oferind o reglare fină a presiunii de ieșire chiar și la variații mari ale debitului. Este parte din aceeași familie constructivă cu Aperflux 851, destinat treptelor de presiune mai ridicate."
+      },
+      {
+        "q": "Ce diferență există între regulatoarele cu acțiune directă și cele pilotate?",
+        "a": "Regulatoarele cu acțiune directă, precum ATF, Dival sau Cirval, folosesc diferența de presiune de pe membrană pentru a poziționa supapa, fiind soluții simple și robuste pentru debite mici și medii. Regulatoarele pilotate, precum Aperflux, Dixi AP sau Terval AP, adaugă un pilot separat care crește precizia reglării, fiind recomandate acolo unde variațiile de debit sau cerințele de precizie sunt mai ridicate."
+      },
+      {
+        "q": "Livrați regulatoare de presiune Pietro Fiorentini în România?",
+        "a": "Da, aducem la comandă regulatoare din familiile Aperflux, Dival, Terval și Reflux prezentate mai sus, pe baza cataloagelor publice ale producătorului; gama nu este ținută pe raft ca stoc propriu. Termenul obișnuit este de 2-6 săptămâni, în funcție de model și presiunea de lucru solicitată. Pentru o ofertă corectă, transmiteți presiunea de intrare și de ieșire, debitul necesar și dimensiunea racordului."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de regulator de gaz Pietro Fiorentini?",
+        "a": "Este necesar să precizați presiunea de intrare disponibilă, presiunea de ieșire dorită, debitul maxim de gaz vehiculat și dimensiunea racordurilor de conductă. Aceste date permit alegerea corectă între variantele cu acțiune directă, precum Dival sau Cirval, și cele pilotate, precum Aperflux sau Terval, evitând o dimensionare greșită a stației de reglare."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://www.fiorentini.com/en/products/","publisher":"Pietro Fiorentini","accessed":"2026-09-25"},
+      {"title":"Dival 500","url":"https://www.fiorentini.com/en/product/dival-500/","publisher":"Pietro Fiorentini","accessed":"2026-09-25"},
       { title: "Pietro Fiorentini", url: "https://www.fiorentini.com/en/", publisher: "Pietro Fiorentini S.p.A.", accessed: "2026-09-22" },
       { title: "Pietro Fiorentini - About Us", url: "https://www.fiorentini.com/en/about-us/", publisher: "Pietro Fiorentini S.p.A.", accessed: "2026-09-22" }
     ],
@@ -488,11 +1113,77 @@ Pentru laboratoarele și liniile de producție din România care au nevoie de c�
     ],
     infinitrade: `Fără date proprii despre stocul curent Radwag, verificăm disponibilitatea la fiecare cerere prin surse publice ale producătorului pentru specificațiile de mai sus. Aducem balanțe Radwag la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de capacitatea maximă necesară, precizia de citire cerută (în grame sau miligrame) și aplicația exactă — laborator, producție sau control de preambalate. Nu facem verificarea metrologică inițială (RSL) a balanței — aceasta se face prin organisme de metrologie legală, separat de livrare.`,
     limitation: "Nu facem verificarea metrologică legală (RSL) a balanței și nu confirmăm disponibilitate permanentă din stoc pentru modelele de precizie mai puțin uzuale.",
+    productCodes: [
+      {
+        "code": "XA 220.4Y",
+        "description": "balanță analitică, capacitate 220 g"
+      },
+      {
+        "code": "XA 220.5Y.A",
+        "description": "balanță analitică, capacitate 220 g, citire 0,1 mg"
+      },
+      {
+        "code": "XA 310.5Y.A",
+        "description": "balanță analitică, capacitate 310 g, citire 0,1 mg"
+      },
+      {
+        "code": "XA 320.5Y.A",
+        "description": "balanță analitică, capacitate 320 g, citire 0,05 mg"
+      },
+      {
+        "code": "XA 120/250.5Y.A",
+        "description": "balanță analitică cu două domenii, 120/250 g, citire 0,01/0,1 mg"
+      },
+      {
+        "code": "XA 5Y-A",
+        "description": "balanță analitică, seria XA 5Y"
+      },
+      {
+        "code": "XA 4Y",
+        "description": "serie de balanțe analitice de laborator"
+      },
+      {
+        "code": "XA 4Y PLUS",
+        "description": "variantă îmbunătățită a seriei de balanțe XA 4Y"
+      },
+      {
+        "code": "AS X7",
+        "description": "balanță analitică pentru aplicații farmaceutice și biotehnologie"
+      },
+      {
+        "code": "PS 5100.5Y",
+        "description": "balanță de precizie, capacitate 5,1 kg, citire 1 mg"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între balanțele Radwag XA 220.4Y și XA 220.5Y.A?",
+        "a": "Ambele au aceeași capacitate de 220 g, dar aparțin unor generații diferite ale seriei XA: 5Y.A oferă o citibilitate de 0,1 mg și funcții suplimentare de interfață, în timp ce 4Y este generația anterioară, cu o dotare mai simplă. Alegerea depinde de precizia cerută de aplicația de laborator și de bugetul disponibil pentru echipament."
+      },
+      {
+        "q": "Ce este balanța Radwag AS X7?",
+        "a": "AS X7 este o balanță analitică din gama dedicată aplicațiilor farmaceutice și de biotehnologie, gândită pentru laboratoare unde trasabilitatea și repetabilitatea măsurătorilor sunt esențiale. Aparține unei familii separate de seria XA generalistă, cu funcții software orientate spre conformitate și validarea proceselor de cântărire din laborator."
+      },
+      {
+        "q": "Cât cântărește și ce citibilitate are balanța de precizie PS 5100.5Y?",
+        "a": "PS 5100.5Y are o capacitate maximă de 5,1 kg și o citibilitate de 1 mg, fiind o balanță de precizie potrivită pentru cântăriri de laborator unde nu este nevoie de rezoluția unei balanțe analitice complete. Aparține seriei PS, distinctă de seria analitică XA, orientată spre capacități mai mari de cântărire."
+      },
+      {
+        "q": "Livrați balanțe de laborator Radwag în România?",
+        "a": "Da, aducem la comandă balanțe din seriile XA, AS X7 și PS descrise anterior, conform fișelor tehnice publicate de producător, fără să păstrăm aceste modele pe raftul propriu. Termenul obișnuit este de 2-6 săptămâni, în funcție de model și disponibilitatea din fabrică. Pentru o ofertă corectă, transmiteți capacitatea și citibilitatea necesare aplicației dumneavoastră."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de balanță analitică Radwag?",
+        "a": "Este util să precizați capacitatea maximă necesară, citibilitatea dorită, dacă aplicația cere unul sau două domenii de cântărire și tipul de mediu de lucru, laborator standard sau farmaceutic. Aceste informații permit alegerea corectă între seriile XA, AS X7 sau PS, evitând o balanță supra- sau subdimensionată pentru sarcina cerută."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Analytical Balances","url":"https://radwag.com/en/analytical-balances","publisher":"Radwag","accessed":"2026-09-25"},
+      {"title":"Precision Balances","url":"https://radwag.com/en/precision-balances","publisher":"Radwag","accessed":"2026-09-25"},
       { title: "Radwag - Analytical Balances", url: "https://radwag.com/en/analytical-balances", publisher: "Radwag", accessed: "2026-09-22" },
       { title: "Sartorom - Radwag", url: "https://www.sartorom.ro/en/produs/balanta-analitica-as-220-r2-plus-radwag/", publisher: "Sartorom", accessed: "2026-09-22" }
     ],

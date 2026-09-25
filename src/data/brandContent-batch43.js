@@ -29,11 +29,104 @@ Pentru piața din România, KEB are sens la retehnologizarea liniilor cu motoare
     ],
     infinitrade: `Lucrăm cu informațiile publice disponibile pe site-ul producătorului pentru gama KEB și nu avem date proprii de stoc pentru convertizoare, motoare sau frâne din acest portofoliu. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă, clientul trebuie să ne trimită codul exact al convertizorului sau motorului, puterea și tensiunea de alimentare, plus aplicația vizată — informații fără de care nu putem confirma disponibilitatea la producător. Nu promitem disponibilitate permanentă din stoc pentru niciun cod din gamă.`,
     limitation: "Nu putem confirma service în garanția producătorului sau configurarea software-ului proprietar COMBIVERT fără implicarea directă a KEB.",
+    productCodes: [
+      {
+        "code": "COMBIVERT F6",
+        "description": "Convertizor de frecvență complet pentru control general de mișcare"
+      },
+      {
+        "code": "COMBIVERT G6",
+        "description": "Invertor de frecvență pentru aplicații standard de acționare"
+      },
+      {
+        "code": "COMBIVERT S6",
+        "description": "Servo-convertizor pentru bucle de control de mare precizie"
+      },
+      {
+        "code": "COMBIVERT R6",
+        "description": "Modul de alimentare și regenerare a energiei de frânare"
+      },
+      {
+        "code": "COMBIVERT P6",
+        "description": "Convertizor dedicat acționării de pas la turbine eoliene"
+      },
+      {
+        "code": "COMBIVERT T6 APD",
+        "description": "Sistem de invertor modular pentru aplicații multi-ax"
+      },
+      {
+        "code": "COMBIVERT F5-AIC",
+        "description": "Convertizor activ de rețea din generația anterioară F5"
+      },
+      {
+        "code": "COMBISTOP 08",
+        "description": "Frână cu arc, dimensiune mini, pentru motoare mici"
+      },
+      {
+        "code": "COMBISTOP 28",
+        "description": "Frână cu arc etanșată pentru medii cu praf sau umezeală"
+      },
+      {
+        "code": "COMBISTOP 38",
+        "description": "Frână cu arc standard pentru acționări industriale uzuale"
+      },
+      {
+        "code": "COMBISTOP 38D",
+        "description": "Variantă cu disc dublu a frânei 38, cuplu mărit"
+      },
+      {
+        "code": "COMBISTOP S1",
+        "description": "Frână de reținere de înaltă performanță"
+      },
+      {
+        "code": "COMBIPERM P1",
+        "description": "Frână cu magnet permanent, execuție standard"
+      },
+      {
+        "code": "COMBIPERM P2",
+        "description": "Frână cu magnet permanent de înaltă performanță"
+      },
+      {
+        "code": "COMBIPERM PC",
+        "description": "Cuplaj cu magnet permanent"
+      },
+      {
+        "code": "COMBINORM B",
+        "description": "Frână electromagnetică pentru acționări generale"
+      },
+      {
+        "code": "COMBINORM C",
+        "description": "Cuplaj electromagnetic pentru transmiterea controlată a mișcării"
+      },
+      {
+        "code": "COMBIBOX",
+        "description": "Combinație compactă cuplaj-frână electromagnetică într-o singură carcasă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce convertizor de frecvență KEB aleg pentru control vectorial de motor?",
+        "a": "Seria COMBIVERT F6 acoperă aplicațiile generale de control de mișcare, cu reglare vectorială și moduri flexibile de operare pentru acționări industriale complexe. Pentru sarcini cu cerințe dinamice mai mari, precum poziționare de precizie sau sincronizare de axe, servo-convertizorul COMBIVERT S6 oferă timpi de răspuns mai rapizi și bucle de curent mai stricte, păstrând aceeași platformă software COMBIVIS pentru parametrizare."
+      },
+      {
+        "q": "Ce diferență este între seriile KEB COMBIVERT F6 și G6?",
+        "a": "COMBIVERT F6 este un controler de acționare complet, cu funcții avansate de control vectorial și interfețe multiple pentru automatizare complexă. COMBIVERT G6 este gândit ca invertor de frecvență de uz general, orientat spre aplicații standard de pompe, ventilatoare și benzi transportoare, unde nu este nevoie de toate funcțiile avansate ale seriei F6."
+      },
+      {
+        "q": "Livrați convertizoare de frecvență KEB în România?",
+        "a": "Da, produsele KEB Automation ajung la clienți prin comandă, plecând de la cataloagele publice ale producătorului, întrucât nu ținem această gamă pe raft. De regulă sunt necesare 2-6 săptămâni de la confirmarea comenzii, în funcție de model și de opțiunile de comunicație alese. Recomandăm verificarea codului exact COMBIVERT înainte de a trimite cererea de ofertă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de convertizor KEB?",
+        "a": "Este util să precizați puterea motorului acționat, tensiunea de alimentare și tipul de aplicație (pompă, ventilator, bandă sau axă de poziționare). Pentru frânele și cuplajele din gama COMBISTOP sau COMBIPERM, contează și cuplul necesar și diametrul arborelui, elemente care permit alegerea corectă a modelului KEB potrivit pentru instalația dumneavoastră."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"KEB Automation - Products","url":"https://www.keb-automation.com/en","publisher":"KEB Automation","accessed":"2026-09-25"},
       { title: "KEB Automation - pagina companiei (DE)", url: "https://www.keb-automation.com/de", publisher: "KEB Automation KG", accessed: "2026-09-22" },
       { title: "KEB Automation - pagina companiei (EN)", url: "https://www.keb-automation.com/en", publisher: "KEB Automation KG", accessed: "2026-09-22" },
     ],
@@ -68,11 +161,102 @@ Pentru instalațiile din România, gama Tramec are sens la benzi transportoare, 
     ],
     infinitrade: `Ce scriem despre Tramec vine din surse publice ale producătorului, verificate direct pe site-ul companiei; nu dispunem de stoc propriu și nu deținem date interne despre disponibilitatea fiecărui model. Aducem reductoarele la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de raportul de reducere, cuplul de ieșire, tipul de montaj și, dacă e cazul, cerința ATEX. Stocul permanent nu e ceva ce putem asigura pentru variantele planetare de precizie, configurate de regulă la cerere.`,
     limitation: "Nu putem confirma termene de livrare pentru variantele ATEX cu configurație specială, care depind de disponibilitatea la fabrica din Italia.",
+    productCodes: [
+      {
+        "code": "Serie X",
+        "description": "Reductor melcat standard, putere 0,06-9,2 kW, raport 5-100"
+      },
+      {
+        "code": "Serie XN-KN",
+        "description": "Reductor melcat cu flanșă NEMA pentru piața americană"
+      },
+      {
+        "code": "Serie K",
+        "description": "Reductor melcat cu arbore de ieșire gol"
+      },
+      {
+        "code": "Serie H",
+        "description": "Reductor melcat cu dublă treaptă, raport de reducere 30-400"
+      },
+      {
+        "code": "Serie XX-KX-KK",
+        "description": "Reductor melcat combinat, raport de reducere 150-10000"
+      },
+      {
+        "code": "Serie SFK-SRK-BFK-BRK",
+        "description": "Reductor melcat linia TLS, cu flanșă sau arbore plin"
+      },
+      {
+        "code": "Serie SCFK-SCRK-BCFK-BCRK",
+        "description": "Reductor melcat combinat linia TLS, raport foarte mare"
+      },
+      {
+        "code": "Serie VM",
+        "description": "Reductor melcat cu arbore de ieșire dublu"
+      },
+      {
+        "code": "Serie T",
+        "description": "Reductor cu ax ortogonal, roți conico-elicoidale, până la 137 kW"
+      },
+      {
+        "code": "Serie Z",
+        "description": "Reductor cu axe paralele, roți elicoidale, până la 270 kW"
+      },
+      {
+        "code": "Serie P",
+        "description": "Reductor pendular elicoidal pentru montare pe arbore"
+      },
+      {
+        "code": "Serie MA",
+        "description": "Reductor pendular conico-elicoidal pentru montare pe arbore"
+      },
+      {
+        "code": "Serie R",
+        "description": "Reductor unghiular conico-elicoidal, putere 0,75-90 kW"
+      },
+      {
+        "code": "Serie L",
+        "description": "Reductor unghiular conico-elicoidal, variantă din gama R"
+      },
+      {
+        "code": "Serie RL",
+        "description": "Reductor unghiular ușor, putere 0,14-6,5 kW"
+      },
+      {
+        "code": "Serie N",
+        "description": "Variator mecanic de turație pentru linii de producție"
+      },
+      {
+        "code": "Serie UDL",
+        "description": "Variator mecanic de turație, putere 0,18-4 kW"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce reductor Tramec aleg pentru un raport de reducere foarte mare?",
+        "a": "Seria XX-KX-KK combină două trepte melcate și acoperă rapoarte de reducere de la 150 până la 10000, fiind potrivită pentru mecanisme lente de poziționare sau macarale. Pentru rapoarte mai mici, până la 100, o singură treaptă din seria X sau K acoperă majoritatea aplicațiilor industriale curente, cu un gabarit mai redus."
+      },
+      {
+        "q": "Ce diferență este între reductoarele Tramec T și Z?",
+        "a": "Seria T este un reductor cu ax ortogonal, cu roți dințate conico-elicoidale, potrivit acolo unde motorul trebuie montat perpendicular pe axul de ieșire. Seria Z folosește angrenaje elicoidale paralele, cu axul de ieșire pe aceeași linie cu motorul, recomandată pentru puteri mari, până la 270 kW, și cupluri ridicate."
+      },
+      {
+        "q": "Livrați reductoare Tramec în România?",
+        "a": "Da, reductoarele Tramec sunt aduse la comandă direct din gama publicată de producător, fără o linie proprie păstrată în depozit. Timpul obișnuit este între 2 și 6 săptămâni, în funcție de mărimea carcasei și de raportul de reducere ales. Vă recomandăm să confirmați seria exactă înainte de a solicita oferta."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de reductor Tramec?",
+        "a": "Este util să menționați cuplul de ieșire necesar, raportul de reducere dorit și turația motorului de antrenare. Pentru montaj, contează și orientarea axului (paralel sau ortogonal) și tipul de fixare, elemente care determină alegerea corectă între seriile X, T, Z sau P din gama Tramec."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Tramec - Home","url":"https://www.tramec.it","publisher":"Tramec","accessed":"2026-09-25"},
+      {"title":"Riduttori a vite senza fine","url":"https://www.tramec.it/it/serie/riduttori-a-vite-senza-fine","publisher":"Tramec","accessed":"2026-09-25"},
+      {"title":"Riduttori ad ingranaggi ortogonali e paralleli","url":"https://www.tramec.it/it/serie/riduttori-ad-ingranaggi-ortogonali-paralleli","publisher":"Tramec","accessed":"2026-09-25"},
       { title: "Tramec - sito aziendale", url: "https://www.tramec.it", publisher: "Tramec S.p.A.", accessed: "2026-09-22" },
       { title: "Tramec - company website (EN)", url: "https://www.tramec.it/en/", publisher: "Tramec S.p.A.", accessed: "2026-09-22" },
     ],
@@ -110,11 +294,113 @@ Pentru România, Kinex are sens acolo unde se caută o soluție de înlocuire pe
     ],
     infinitrade: `Facem oferta pe baza informațiilor publice disponibile pe site-ul Kinex, fără date proprii de stoc pentru codurile din gama lor de rulmenți. Aducem rulmenții la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă rapidă, clientul trebuie să ne trimită codul rulmentului existent sau dimensiunile exacte (diametru interior, exterior, lățime) și, dacă e relevant, aplicația feroviară sau industrială vizată. Nu promitem disponibilitate permanentă din stoc pentru dimensiunile mai puțin uzuale.`,
     limitation: "Nu putem confirma disponibilitatea imediată a componentelor de inginerie fabricate la cerere pentru clienți OEM, care depind de programul de producție al fabricii.",
+    productCodes: [
+      {
+        "code": "Rulmenți radiali cu bile",
+        "description": "Rulment cu bile pe un rând, pentru sarcini radiale și axiale ușoare"
+      },
+      {
+        "code": "Rulmenți cu contact unghiular simplu",
+        "description": "Rulment cu bile cu contact unghiular pe un singur rând"
+      },
+      {
+        "code": "Rulmenți cu contact unghiular dublu",
+        "description": "Rulment cu bile cu contact unghiular pe două rânduri, pentru sarcini combinate"
+      },
+      {
+        "code": "Rulmenți oscilanți cu bile",
+        "description": "Rulment cu bile pe două rânduri, cu autoaliniere la dezaxări unghiulare"
+      },
+      {
+        "code": "Rulmenți axiali cu bile simpli",
+        "description": "Rulment axial cu bile cu sens unic de încărcare"
+      },
+      {
+        "code": "Rulmenți axiali cu bile dubli",
+        "description": "Rulment axial cu bile pentru încărcare în ambele sensuri"
+      },
+      {
+        "code": "Rulmenți cilindrici cu role",
+        "description": "Rulment cu role cilindrice pe un rând, pentru sarcini radiale mari"
+      },
+      {
+        "code": "Rulmenți oscilanți cu role",
+        "description": "Rulment cu role butoi pe două rânduri, tolerant la dezaxări"
+      },
+      {
+        "code": "Rulmenți conici cu role",
+        "description": "Rulment cu role conice pe un rând, pentru sarcini radiale și axiale"
+      },
+      {
+        "code": "Rulmenți axiali cu role cilindrice",
+        "description": "Rulment axial cu role cilindrice pentru sarcini axiale mari"
+      },
+      {
+        "code": "Rulmenți axiali oscilanți cu role",
+        "description": "Rulment axial cu role butoi, pentru sarcini axiale la turații moderate"
+      },
+      {
+        "code": "Rulmenți cu ace cu inel interior",
+        "description": "Rulment cu ace, cu inel interior, pentru gabarit radial redus"
+      },
+      {
+        "code": "Rulmenți cu ace fără inel interior",
+        "description": "Rulment cu ace fără inel interior, montat direct pe arbore"
+      },
+      {
+        "code": "NNF50",
+        "description": "Rulment cilindric cu role pline, două rânduri, rigiditate radială mare"
+      },
+      {
+        "code": "SL04",
+        "description": "Rulment cilindric cu role pline, două rânduri, gamă alternativă la NNF50"
+      },
+      {
+        "code": "Rulmenți oscilanți radiali cu alunecare",
+        "description": "Rulment radial cu alunecare, autoaliniere pentru dezaxări unghiulare mari"
+      },
+      {
+        "code": "UC200",
+        "description": "Unitate de rulment în carcasă cu inel exterior sferic"
+      },
+      {
+        "code": "UA200",
+        "description": "Unitate de rulment în carcasă, variantă din seria de bază"
+      },
+      {
+        "code": "UE200",
+        "description": "Unitate de rulment în carcasă cu talpă ovală de montaj"
+      },
+      {
+        "code": "UD200",
+        "description": "Unitate de rulment în carcasă tip flanșă rotundă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce tip de rulment Kinex aleg pentru sarcini radiale și axiale combinate?",
+        "a": "Rulmenții conici cu role, pe un singur rând, sunt construiți special pentru a prelua simultan sarcini radiale și axiale, fiind frecvent montați în perechi pentru rigiditate suplimentară. Dacă aveți nevoie doar de o componentă compactă pentru sarcini axiale pure, un rulment axial cu bile din gama Kinex este suficient."
+      },
+      {
+        "q": "Ce diferență este între unitățile Kinex UC200 și UE200?",
+        "a": "UC200 este o unitate cu rulment în carcasă și inel exterior sferic, potrivită pentru montaj general pe structuri metalice. UE200 folosește o carcasă cu talpă ovală, gândită pentru fixare pe o suprafață plană unde spațiul de montaj este mai limitat, păstrând același principiu de autoaliniere a rulmentului."
+      },
+      {
+        "q": "Livrați rulmenți Kinex în România?",
+        "a": "Da, rulmenții Kinex Bearings sunt aduși la comandă pornind de la gama publicată de producător, deoarece nu menținem un stoc propriu pentru această marcă. Termenul obișnuit este de aproximativ 2-6 săptămâni, în funcție de tipul rulmentului și de disponibilitatea dimensiunii solicitate. Recomandăm confirmarea diametrului interior exact înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de rulment Kinex?",
+        "a": "Este util să precizați diametrul interior și exterior al rulmentului, lățimea și tipul de sarcină dominantă (radială, axială sau combinată). Pentru unitățile în carcasă, contează și tipul de fixare dorit, elemente care permit alegerea corectă între gama UC200, UA200 sau UE200 din portofoliul Kinex."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Kinex Bearings - Home","url":"https://www.kinex.sk/","publisher":"Kinex Bearings","accessed":"2026-09-25"},
+      {"title":"Products","url":"https://www.kinex.sk/products/","publisher":"Kinex Bearings","accessed":"2026-09-25"},
       { title: "Kinex Bearings - despre companie", url: "https://www.kinex.sk/", publisher: "KINEX BEARINGS, a.s.", accessed: "2026-09-22" },
       { title: "Kinex Bearings - distribuitori România", url: "https://www.kinex.sk/distributors/romania/", publisher: "KINEX BEARINGS, a.s.", accessed: "2026-09-22" },
     ],
@@ -189,11 +475,73 @@ Pentru România, igus are filială proprie (igus.ro) și are sens la roboți, ax
     ],
     infinitrade: `Datele despre igus prezentate aici vin din surse publice ale producătorului și din filiala română a companiei; nu dispunem de stoc propriu pentru codurile din gamele chainflex, iglidur sau drylin. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru configurare corectă, clientul trebuie să ne trimită parametrii mecanici ai aplicației — cursă, sarcină, viteză, mediu de lucru — pentru ca sistemul indicat să corespundă solicitării reale. Nu promitem disponibilitate permanentă din stoc pentru toate lungimile și diametrele din catalog.`,
     limitation: "Nu putem confirma configurarea sistemelor de monitorizare digitală (senzori de uzură conectați) fără implicarea directă a igus.",
+    productCodes: [
+      {
+        "code": "e-chain",
+        "description": "Lanț port-cablu din plastic pentru protejarea cablurilor în mișcare"
+      },
+      {
+        "code": "chainflex",
+        "description": "Cablu flexibil rezistent la mișcare continuă, pentru lanțul port-cablu"
+      },
+      {
+        "code": "iglidur",
+        "description": "Bucșă și rulment din plastic, funcționare fără lubrifiere"
+      },
+      {
+        "code": "drylin",
+        "description": "Ghidaj liniar din plastic sau hibrid, fără lubrifiere"
+      },
+      {
+        "code": "dryspin",
+        "description": "Șurub cu bile din plastic pentru mecanisme de translație"
+      },
+      {
+        "code": "readycable",
+        "description": "Cablu preasamblat cu conectori, gata de montare în lanțul port-cablu"
+      },
+      {
+        "code": "readychain",
+        "description": "Lanț port-cablu preasamblat cu cabluri, gata de instalare"
+      },
+      {
+        "code": "triflex",
+        "description": "Pachet de cabluri multi-ax pentru brațe de robot"
+      },
+      {
+        "code": "igubal",
+        "description": "Rulment cu autoaliniere din plastic, fără întreținere"
+      },
+      {
+        "code": "xiros",
+        "description": "Rulment cu bile din plastic, rezistent la coroziune"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce lanț port-cablu Igus aleg pentru o aplicație cu curse lungi?",
+        "a": "Familia e-chain acoperă atât aplicații compacte, cu înălțimi interioare de câțiva milimetri, cât și lanțuri robuste pentru curse lungi și sarcini grele, în funcție de seria aleasă. Pentru mișcări cu întindere pe distanțe mari, de peste o mie de metri, varianta cu role de sprijin din aceeași familie reduce frecarea și uzura lanțului."
+      },
+      {
+        "q": "Ce diferență este între rulmenții Igus iglidur și drylin?",
+        "a": "Iglidur este o gamă de bucșe și rulmenți din plastic, gândiți pentru mișcare de rotație sau alunecare fără lubrifiere pe un arbore existent. Drylin este un sistem complet de ghidaj liniar, care include șina și căruciorul, folosit acolo unde este nevoie de deplasare liniară ghidată, nu doar de o simplă bucșă de alunecare."
+      },
+      {
+        "q": "Livrați produse Igus în România?",
+        "a": "Da, componentele Igus se aduc la comandă, pe baza cataloagelor publice ale producătorului, fără o gamă proprie păstrată în stoc. Termenul obișnuit este de 2-6 săptămâni, în funcție de familia de produs și de configurația exactă solicitată. Recomandăm confirmarea denumirii complete a seriei înainte de a plasa comanda."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de lanț port-cablu Igus?",
+        "a": "Este util să precizați lungimea cursei, raza de îndoire disponibilă și numărul și diametrul cablurilor care trebuie ghidate în interior. Pentru rulmenți sau ghidaje liniare, contează sarcina aplicată și viteza de deplasare, elemente care permit alegerea corectă între gamele iglidur, drylin sau e-chain de la Igus."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"igus - Product Categories","url":"https://www.igus.com","publisher":"igus","accessed":"2026-09-25"},
+      {"title":"e-chain Cable Carriers","url":"https://www.igus.com/cable-carriers","publisher":"igus","accessed":"2026-09-25"},
       { title: "igus România - motion plastics", url: "https://www.igus.ro/", publisher: "igus GmbH", accessed: "2026-09-22" },
       { title: "igus - despre companie", url: "https://www.igus.com/company", publisher: "igus GmbH", accessed: "2026-09-22" },
     ],
@@ -227,11 +575,100 @@ Pentru instalatorii și proiectanții din România, Riello are sens la înlocuir
     ],
     infinitrade: `Nu deținem date proprii de stoc pentru arzătoarele și generatoarele termice Riello; informațiile din această pagină provin din site-ul producătorului, inclusiv secțiunea dedicată pieței din România. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil sau de instalație și cazanul pe care se montează arzătorul. Nu promitem disponibilitate permanentă din stoc pentru toate variantele din gama industrială.`,
     limitation: "Nu putem confirma punerea în funcțiune sau service-ul în garanția producătorului, care rămân în sarcina rețelei tehnice proprii Riello.",
+    productCodes: [
+      {
+        "code": "RS 25÷35",
+        "description": "Arzător pe gaz cu emisii reduse de NOx, putere mică"
+      },
+      {
+        "code": "RS 45÷55",
+        "description": "Arzător pe gaz cu emisii reduse de NOx, gamă mică-medie"
+      },
+      {
+        "code": "RS 68÷200",
+        "description": "Arzător pe gaz monobloc pentru puteri medii"
+      },
+      {
+        "code": "RS 310÷610",
+        "description": "Arzător pe gaz monobloc pentru puteri industriale mari"
+      },
+      {
+        "code": "RS 810",
+        "description": "Arzător pe gaz de mare putere din gama RS"
+      },
+      {
+        "code": "RS 1000÷1200",
+        "description": "Arzător pe gaz industrial de foarte mare putere"
+      },
+      {
+        "code": "RS 1300÷2000",
+        "description": "Arzător pe gaz din gama superioară RS, putere foarte mare"
+      },
+      {
+        "code": "RS 68÷200 EV ULX",
+        "description": "Arzător pe gaz cu emisii ultra-reduse de NOx"
+      },
+      {
+        "code": "RS 310÷610 EV ULX",
+        "description": "Variantă ultra-low NOx a arzătorului RS 310-610"
+      },
+      {
+        "code": "RS 1000÷1200 EV FGR",
+        "description": "Arzător pe gaz cu recirculare de gaze arse pentru NOx redus"
+      },
+      {
+        "code": "RX 18÷36",
+        "description": "Arzător cu premixare pe gaz, emisii reduse, putere mică"
+      },
+      {
+        "code": "RX 180÷360",
+        "description": "Arzător cu premixare pe gaz, ultra-low NOx, putere medie"
+      },
+      {
+        "code": "RX 1500 S/E",
+        "description": "Arzător cu premixare pe gaz, ultra-low NOx, putere mare"
+      },
+      {
+        "code": "Gulliver BS",
+        "description": "Arzător compact pe gaz pentru centrale termice mici"
+      },
+      {
+        "code": "RL 22÷42",
+        "description": "Arzător pe combustibil lichid pentru puteri mici-medii"
+      },
+      {
+        "code": "PRESS GV",
+        "description": "Arzător pe gaz din gama PRESS pentru instalații industriale"
+      },
+      {
+        "code": "RLS 28÷50",
+        "description": "Arzător mixt gaz-combustibil lichid pentru puteri mici"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce arzător Riello aleg pentru o instalație industrială de putere mare?",
+        "a": "Gama RS, monobloc pe gaz, acoperă puteri de la câteva zeci de kilowați până la valori foarte mari în seria RS 1300÷2000, fiind potrivită pentru cazane industriale mari. Pentru cerințe stricte de emisii, varianta ULX din aceeași gamă reduce suplimentar nivelul de NOx, fără a schimba gabaritul de montaj al arzătorului."
+      },
+      {
+        "q": "Ce diferență este între arzătoarele Riello RS și RX?",
+        "a": "Seria RS este un arzător monobloc pe gaz cu tehnologie clasică de ardere, disponibil pe o gamă largă de puteri industriale. Seria RX folosește tehnologia de premixare, cu emisii de NOx mult mai reduse din construcție, fiind recomandată acolo unde normele locale de mediu impun limite stricte, la puteri similare cu cele ale seriei RS."
+      },
+      {
+        "q": "Livrați arzătoare Riello în România?",
+        "a": "Da, arzătoarele Riello vin la comandă, respectând gama publicată de producător, întrucât nu ținem această categorie de echipamente pe stoc propriu. De regulă durează 2-6 săptămâni, în funcție de puterea arzătorului și de combustibilul folosit (gaz, lichid sau mixt). Recomandăm confirmarea codului complet al modelului înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de arzător Riello?",
+        "a": "Este util să precizați puterea termică necesară a cazanului, tipul de combustibil disponibil și cerințele locale privind emisiile de NOx. Pentru instalații existente, contează și diametrul racordului de montare, detalii care permit alegerea corectă între gamele RS, RX sau RLS din portofoliul Riello."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Burners - Product Range","url":"https://www.riello.com/international/products/burners","publisher":"Riello","accessed":"2026-09-25"},
       { title: "Riello - global website", url: "https://www.riello.com", publisher: "Riello S.p.A.", accessed: "2026-09-22" },
       { title: "Riello România", url: "https://www.riello.com/romania", publisher: "Riello S.p.A.", accessed: "2026-09-22" },
       { title: "Riello (azienda) - Wikipedia", url: "https://it.wikipedia.org/wiki/Riello_(azienda)", publisher: "Wikipedia", accessed: "2026-09-22" },
@@ -266,11 +703,112 @@ Pentru România, gama OKS are sens la mentenanța preventivă a utilajelor indus
     ],
     infinitrade: `Informația despre OKS din această pagină e disponibilă public pe site-ul producătorului și pe cel al echipei locale din România; nu dispunem de stoc propriu pentru codurile numerotate din gama de unsori sau paste. Ca la orice comandă din import, livrarea se face prin canale de aprovizionare din UE și durează în mod orientativ 2-6 săptămâni din momentul confirmării. Pentru o ofertă potrivită, clientul trebuie să ne spună componenta de lubrifiat, materialele în contact și intervalul de temperatură de lucru. Nu promitem disponibilitate permanentă din stoc pentru toate cele peste 150 de coduri din gamă.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a fiecărui produs cu elastomeri sau plastice specifice fără fișa tehnică a produsului respectiv.",
+    productCodes: [
+      {
+        "code": "OKS 30",
+        "description": "Aditiv activ pe bază de MoS2 pentru uleiuri și unsori"
+      },
+      {
+        "code": "OKS 100",
+        "description": "Pulbere de MoS2 cu puritate ridicată"
+      },
+      {
+        "code": "OKS 110",
+        "description": "Pulbere de MoS2 micronizată pentru aplicare fină"
+      },
+      {
+        "code": "OKS 111",
+        "description": "Pulbere de MoS2 micronizată, variantă spray"
+      },
+      {
+        "code": "OKS 200",
+        "description": "Pastă de montaj pe bază de MoS2 pentru asamblare"
+      },
+      {
+        "code": "OKS 210",
+        "description": "Pastă pentru șuruburi la temperaturi înalte, pentru oțeluri aliate"
+      },
+      {
+        "code": "OKS 217",
+        "description": "Pastă pentru temperaturi înalte, cu puritate ridicată"
+      },
+      {
+        "code": "OKS 220",
+        "description": "Pastă rapidă cu MoS2 pentru lubrifiere temporară la montaj"
+      },
+      {
+        "code": "OKS 221",
+        "description": "Pastă rapidă cu MoS2, variantă spray"
+      },
+      {
+        "code": "OKS 230",
+        "description": "Pastă cu MoS2 pentru temperaturi înalte"
+      },
+      {
+        "code": "OKS 235",
+        "description": "Pastă de aluminiu anti-gripare pentru asamblări la temperaturi mari"
+      },
+      {
+        "code": "OKS 240",
+        "description": "Pastă de cupru pentru asamblări expuse la căldură"
+      },
+      {
+        "code": "OKS 241",
+        "description": "Pastă de cupru, variantă spray, pentru asamblare"
+      },
+      {
+        "code": "OKS 245",
+        "description": "Pastă de cupru cu protecție anticorozivă ridicată"
+      },
+      {
+        "code": "OKS 250",
+        "description": "Pastă albă universală, fără conținut metalic"
+      },
+      {
+        "code": "OKS 252",
+        "description": "Pastă albă pentru temperaturi înalte, compatibilă cu industria alimentară"
+      },
+      {
+        "code": "OKS 255",
+        "description": "Pastă ceramică de asamblare pentru sarcini foarte mari"
+      },
+      {
+        "code": "OKS 260",
+        "description": "Pastă albă de montaj pentru filete și îmbinări"
+      },
+      {
+        "code": "OKS 265",
+        "description": "Pastă specială pentru bacurile mandrinelor"
+      },
+      {
+        "code": "OKS 270",
+        "description": "Pastă albă tip unsoare pentru asamblare generală"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce pastă de asamblare OKS aleg pentru șuruburi din oțel inoxidabil?",
+        "a": "Pasta OKS 210 este formulată special pentru asamblarea șuruburilor din oțeluri înalt aliate, prevenind griparea la strângere și la demontare ulterioară. Dacă este nevoie de o variantă fără metale grele, pentru medii sensibile, pasta albă OKS 250 oferă o protecție similară împotriva griparii, fără particule metalice în compoziție."
+      },
+      {
+        "q": "Ce diferență este între pastele OKS 240 și OKS 245?",
+        "a": "OKS 240 este o pastă de cupru destinată asamblărilor expuse la temperaturi ridicate, prevenind griparea filetelor și a îmbinărilor metalice. OKS 245 folosește o formulă similară pe bază de cupru, dar cu protecție anticorozivă suplimentară, recomandată pentru componente expuse la umezeală sau la agenți corozivi din mediul industrial."
+      },
+      {
+        "q": "Livrați produse OKS Spezialschmierstoffe în România?",
+        "a": "Da, produsele OKS ajung la comandă, plecând de la gama publicată de producător, deoarece nu păstrăm această categorie de lubrifianți pe raft. Timpul necesar este de aproximativ 2-6 săptămâni, în funcție de produsul ales și de ambalajul solicitat (tub, cutie sau spray). Recomandăm confirmarea codului exact OKS înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de lubrifiant OKS?",
+        "a": "Este util să precizați tipul aplicației (asamblare, protecție anticorozivă sau lubrifiere permanentă), materialul pieselor tratate și temperatura maximă de funcționare. Aceste detalii permit alegerea corectă între pastele metalice precum OKS 240, variantele fără metale precum OKS 250 sau unsorile speciale din gama OKS 400."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://www.oks-germany.com/en/products/","publisher":"OKS Spezialschmierstoffe GmbH","accessed":"2026-09-25"},
       { title: "OKS Romania - lubrifianti speciali", url: "https://www.oks-romania.ro/", publisher: "OKS Spezialschmierstoffe GmbH", accessed: "2026-09-22" },
       { title: "OKS Germany - about us", url: "https://www.oks-germany.com/en/", publisher: "OKS Spezialschmierstoffe GmbH", accessed: "2026-09-22" },
     ],
@@ -305,11 +843,80 @@ Pentru România, gama Maxon are sens la echipamente de laborator, aparatură med
     ],
     infinitrade: `Prezentăm aici informații publice ale producătorului Maxon; nu deținem date proprii de stoc pentru motoarele DC, BLDC sau reductoarele din gama lor. Comanda ajunge prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni până la livrare. Pentru o configurare corectă, clientul trebuie să ne transmită tensiunea de alimentare, turația și cuplul necesare, plus spațiul de montaj disponibil. Nu promitem disponibilitate permanentă din stoc pentru variantele de motor cu dimensiuni foarte mici, folosite frecvent în aplicații medicale.`,
     limitation: "Nu putem confirma configurarea electronică a sistemelor de control asociate motoarelor BLDC fără specificațiile complete ale aplicației clientului.",
+    productCodes: [
+      {
+        "code": "ECX SPEED",
+        "description": "Motor BLDC de mare viteză, diametru 4-22 mm, putere 0,5-120 W"
+      },
+      {
+        "code": "ECX PRIME",
+        "description": "Motor BLDC de uz general, diametru 6-30 mm, putere 1,6-180 W"
+      },
+      {
+        "code": "ECX TORQUE",
+        "description": "Motor BLDC de cuplu ridicat, diametru 22 mm, putere 30-45 W"
+      },
+      {
+        "code": "IDX Motor",
+        "description": "Motor integrat cu electronică încorporată, secțiune pătrată 56-70 mm"
+      },
+      {
+        "code": "ECX FLAT",
+        "description": "Motor BLDC plat, diametru 22-42 mm, putere 4,5-150 W"
+      },
+      {
+        "code": "EC",
+        "description": "Motor BLDC clasic, diametru 22 mm, putere 80-400 W"
+      },
+      {
+        "code": "EC-max",
+        "description": "Motor BLDC de cost redus, diametru 16-22 mm, putere 5-120 W"
+      },
+      {
+        "code": "EC-4pole",
+        "description": "Motor BLDC cu patru poli, diametru 32 mm, putere 90-480 W"
+      },
+      {
+        "code": "EC-i",
+        "description": "Motor BLDC de mare putere, diametru 30-52 mm, putere 20-800 W"
+      },
+      {
+        "code": "EC flat",
+        "description": "Motor BLDC plat de diametru mare, 60-90 mm, putere până la 600 W"
+      },
+      {
+        "code": "EC frameless HT",
+        "description": "Motor BLDC fără carcasă, cuplu ridicat, diametru 60-90 mm"
+      },
+      {
+        "code": "EC frameless DT",
+        "description": "Motor BLDC fără carcasă, cuplu dublu, diametru 42-90 mm"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce motor BLDC Maxon aleg pentru o putere de aproximativ 100 W?",
+        "a": "Motorul EC-max, cu diametru între 16 și 22 mm, acoperă puteri de până la 120 W și este o soluție economică pentru aplicații generale de acționare. Pentru cupluri mai mari la aceeași gamă de putere, motorul ECX SPEED, orientat spre viteze ridicate, sau EC-4pole, cu construcție pe patru poli, sunt alternative din gama Maxon."
+      },
+      {
+        "q": "Ce diferență este între motoarele Maxon EC și EC-i?",
+        "a": "Motorul EC are un diametru fix de 22 mm și acoperă puteri între 80 și 400 W, fiind o construcție consacrată pentru acționări de precizie. Motorul EC-i oferă un domeniu mai larg de diametre, între 30 și 52 mm, și puteri de până la 800 W, fiind alegerea pentru aplicații care necesită cuplu sau putere suplimentară."
+      },
+      {
+        "q": "Livrați motoare Maxon în România?",
+        "a": "Da, motoarele Maxon se aduc la comandă, în baza cataloagelor publice ale producătorului, fără un stoc propriu constituit pentru această marcă. Perioada obișnuită este de 2-6 săptămâni, în funcție de model și de eventualele opțiuni de encoder sau reductor atașate. Recomandăm confirmarea diametrului și a puterii exacte înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de motor Maxon?",
+        "a": "Este util să precizați puterea sau cuplul necesar, turația de lucru și tensiunea de alimentare disponibilă. Dacă este nevoie de un reductor sau un senzor de poziție atașat, contează și raportul de reducere dorit, elemente care permit alegerea corectă între seriile EC, ECX sau EC-i din gama Maxon."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Brushless DC motors","url":"https://www.maxongroup.com/en/drives-and-systems/brushless-dc-motors","publisher":"maxon","accessed":"2026-09-25"},
       { title: "maxon group - precision drives", url: "https://www.maxongroup.com", publisher: "maxon international ag", accessed: "2026-09-22" },
       { title: "maxon group - homepage", url: "https://www.maxongroup.com/en/", publisher: "maxon international ag", accessed: "2026-09-22" },
     ],
@@ -348,11 +955,104 @@ Pentru România, gama Tyrolit are sens în construcții, industria auto și cea 
     ],
     infinitrade: `Ce publicăm despre Tyrolit vine din surse publice ale producătorului; nu avem date proprii de stoc pentru discurile din seriile SECUR, CENTURIA, COLUMBIA sau CSS. Aducem discurile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne transmită diametrul discului, materialul procesat și mașina pe care se montează. Nu promitem disponibilitate permanentă din stoc pentru variantele de precizie cu nucleu CBN.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (turație maximă, grosime) pentru fiecare variantă de disc fără fișa tehnică specifică a codului comandat.",
+    productCodes: [
+      {
+        "code": "SECUR",
+        "description": "Disc de debitare pentru operații generale de tăiere"
+      },
+      {
+        "code": "SECUR EASY CUT",
+        "description": "Disc de debitare pentru oțeluri cu tensiuni interne ridicate"
+      },
+      {
+        "code": "SECUR SUPER THIN",
+        "description": "Disc de debitare ultra-subțire pentru tăieri de precizie"
+      },
+      {
+        "code": "SECUR-EXTRA",
+        "description": "Disc de debitare cu performanță ridicată din gama SECUR"
+      },
+      {
+        "code": "SECUR LAB",
+        "description": "Disc de debitare pentru pregătirea probelor metalografice"
+      },
+      {
+        "code": "FOCUR-EXTRA",
+        "description": "Disc diamantat pentru debitarea fontei"
+      },
+      {
+        "code": "FOCUR SA",
+        "description": "Sculă diamantată pentru curățarea automată a pieselor turnate"
+      },
+      {
+        "code": "CENTURIA",
+        "description": "Disc de polizare cu liant rezinoid pentru rectificare plană laterală"
+      },
+      {
+        "code": "COLUMBIA",
+        "description": "Disc de rectificare cu liant ceramic pentru rectificare interioară cilindrică"
+      },
+      {
+        "code": "CSS CENTERLESS",
+        "description": "Disc de rectificare fără centre pentru bare cilindrice"
+      },
+      {
+        "code": "CSS REGULATOR",
+        "description": "Disc regulator elastic pentru rectificarea fără centre"
+      },
+      {
+        "code": "CSS ULTRA",
+        "description": "Disc ceramic convențional de înaltă performanță pentru rectificare"
+      },
+      {
+        "code": "CSS WIRE ROLL",
+        "description": "Rolă din carbură de wolfram pentru laminarea sârmei"
+      },
+      {
+        "code": "CSS ROLL STAR",
+        "description": "Soluție de rectificare pentru cilindri de laminare"
+      },
+      {
+        "code": "GENIS 2 CF",
+        "description": "Disc CBN cu liant vitrificat și miez compozit pentru rectificare de precizie"
+      },
+      {
+        "code": "SOLOTEC",
+        "description": "Disc de rectificare pentru carburi metalice și cermet"
+      },
+      {
+        "code": "STRATO ULTRA",
+        "description": "Disc de rectificare pentru rectificare plană și de tip creep feed"
+      },
+      {
+        "code": "VIPER ULTRA",
+        "description": "Disc de rectificare pentru rectificare plană la viteză mare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce disc de debitare Tyrolit aleg pentru oțeluri cu tensiuni interne mari?",
+        "a": "Discul SECUR EASY CUT este conceput special pentru tăierea oțelurilor predispuse la fisurare din cauza tensiunilor interne, reducând riscul de deformare a piesei în timpul debitării. Pentru tăieri foarte subțiri, cu pierdere minimă de material, varianta SECUR SUPER THIN din aceeași gamă oferă o lățime de tăiere redusă, păstrând o durată de viață bună a discului."
+      },
+      {
+        "q": "Ce diferență este între discurile Tyrolit CENTURIA și COLUMBIA?",
+        "a": "CENTURIA este un disc de rectificare cu liant rezinoid, folosit pentru rectificarea plană laterală a suprafețelor. COLUMBIA are un liant vitrificat și este destinat rectificării cilindrice interioare, unde este nevoie de o muchie de tăiere mai dură și de o precizie dimensională ridicată pe alezaje."
+      },
+      {
+        "q": "Livrați discuri Tyrolit în România?",
+        "a": "Da, discurile Tyrolit ajung la comandă, conform gamei publicate de producător, fără un stoc propriu menținut pentru această categorie. Termenul uzual este de 2-6 săptămâni, în funcție de dimensiunea discului și de tipul de liant solicitat. Recomandăm confirmarea dimensiunilor exacte (diametru, grosime, alezaj) înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de disc Tyrolit?",
+        "a": "Este util să precizați materialul prelucrat, dimensiunile discului (diametru exterior, grosime și alezaj) și tipul de mașină pe care va fi montat. Pentru rectificare de precizie, contează și toleranța dimensională cerută, detalii care permit alegerea corectă între gamele CENTURIA, COLUMBIA sau GENIS 2 CF de la Tyrolit."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://www.tyrolit.com/en/products","publisher":"Tyrolit","accessed":"2026-09-25"},
       { title: "Tyrolit - grinding, cutting, drilling tools", url: "https://www.tyrolit.com", publisher: "Tyrolit", accessed: "2026-09-22" },
       { title: "Tyrolit - products", url: "https://www.tyrolit.com/en/products", publisher: "Tyrolit", accessed: "2026-09-22" },
       { title: "Tyrolit - Wikipedia", url: "https://en.wikipedia.org/wiki/Tyrolit", publisher: "Wikipedia", accessed: "2026-09-22" },
@@ -387,11 +1087,93 @@ Pentru România, gama Hioki are sens la laboratoare de metrologie electrică, me
     ],
     infinitrade: `Datele despre Hioki din această pagină provin din surse publice ale producătorului; nu depăstrăm stoc propriu pentru instrumentele din gama lor de măsurare. Livrarea se organizează prin canale de aprovizionare din UE, iar termenul obișnuit până la sosirea comenzii e de 2-6 săptămâni. Pentru o ofertă potrivită, clientul trebuie să ne indice mărimea măsurată (curent, tensiune, izolație), plaja de măsurare necesară și dacă are nevoie de calibrare cu certificat. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din catalogul producătorului.`,
     limitation: "Nu putem confirma calibrarea cu certificat acreditat RENAR pentru instrumentele Hioki, serviciu care depinde de laboratoare terțe specializate.",
+    productCodes: [
+      {
+        "code": "CM4375-90",
+        "description": "Clește ampermetric AC/DC pentru curenți de până la 1000 A"
+      },
+      {
+        "code": "CM4373-90",
+        "description": "Clește ampermetric AC/DC cu domeniu 600/2000 A"
+      },
+      {
+        "code": "CM4371-50",
+        "description": "Clește ampermetric AC/DC cu domeniu 20/600 A"
+      },
+      {
+        "code": "3287",
+        "description": "Clește ampermetric AC/DC cu domeniu 10/100 A"
+      },
+      {
+        "code": "3288",
+        "description": "Clește ampermetric AC/DC cu domeniu 100/1000 A"
+      },
+      {
+        "code": "CM7290",
+        "description": "Unitate de afișaj pentru clești ampermetrici"
+      },
+      {
+        "code": "LR5051",
+        "description": "Data logger de tip clește pentru curent, portabil"
+      },
+      {
+        "code": "LR8513",
+        "description": "Data logger wireless de tip clește pentru curent"
+      },
+      {
+        "code": "FA1823",
+        "description": "Tester cu sondă mobilă, patru brațe, două sus și două jos"
+      },
+      {
+        "code": "FA1815-20",
+        "description": "Tester cu sondă mobilă, patru brațe, viteză maximă 100 puncte pe secundă"
+      },
+      {
+        "code": "FA1813",
+        "description": "Tester cu sondă mobilă, patru brațe, viteză maximă 76 puncte pe secundă"
+      },
+      {
+        "code": "FA1816",
+        "description": "Tester cu sondă mobilă, două brațe, viteză maximă 100 puncte pe secundă"
+      },
+      {
+        "code": "FA1817",
+        "description": "Tester cu sondă mobilă, patru brațe, viteză maximă 67 puncte pe secundă"
+      },
+      {
+        "code": "FA1811",
+        "description": "Tester cu sondă mobilă, două brațe, pentru plăci de dimensiuni mici"
+      },
+      {
+        "code": "FA1283",
+        "description": "Tester cu sondă mobilă, patru brațe, viteză maximă 100 puncte pe secundă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce clește ampermetric Hioki aleg pentru curenți de peste 500 A?",
+        "a": "Modelul CM4373-90 acoperă un domeniu de măsură de 600 până la 2000 A în curent alternativ și continuu, fiind potrivit pentru tablouri electrice industriale cu sarcini mari. Pentru curenți și mai mari, de până la 1000 A pe un singur domeniu simplu de utilizat, clestele CM4375-90 este o alternativă din aceeași gamă Hioki."
+      },
+      {
+        "q": "Ce diferență este între testerele cu sondă mobilă Hioki FA1816 și FA1817?",
+        "a": "FA1816 folosește două brațe de sondare și atinge o viteză maximă de testare de 100 de puncte pe secundă, fiind orientat spre plăci mai simple. FA1817 are patru brațe de sondare, ceea ce permite accesul simultan pe mai multe zone ale plăcii, dar cu o viteză maximă mai redusă, de 67 de puncte pe secundă."
+      },
+      {
+        "q": "Livrați instrumente Hioki în România?",
+        "a": "Da, instrumentele Hioki se aduc la comandă, pornind de la cataloagele publice ale producătorului, fără o gamă proprie ținută pe stoc. De regulă este nevoie de 2-6 săptămâni, în funcție de model și de accesoriile solicitate (sonde, cabluri sau software). Confirmați codul exact al modelului Hioki înainte de a comanda."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de instrument de măsură Hioki?",
+        "a": "Este util să precizați domeniul de curent sau tensiune necesar, tipul de semnal măsurat (AC, DC sau ambele) și dacă este nevoie de înregistrare de date pe termen lung. Pentru testarea plăcilor electronice, contează și numărul de puncte de test, elemente care permit alegerea corectă între gamele CM, LR sau FA de la Hioki."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"AC/DC Clamp Meters","url":"https://www.hioki.com/us-en/products/clamp-meters/ac-dc-clamp","publisher":"Hioki","accessed":"2026-09-25"},
+      {"title":"Flying Probe Testers","url":"https://www.hioki.com/us-en/products/bare-board/flying-probe","publisher":"Hioki","accessed":"2026-09-25"},
       { title: "Hioki - electrical test and measuring instruments", url: "https://www.hioki.com", publisher: "Hioki E.E. Corporation", accessed: "2026-09-22" },
       { title: "Hioki - corporate profile", url: "https://www.hioki.com/en/corporate/", publisher: "Hioki E.E. Corporation", accessed: "2026-09-22" },
     ],
@@ -428,11 +1210,105 @@ Pentru România, gama Trafag are sens la echipamente hidraulice industriale, mat
     ],
     infinitrade: `Ce publicăm despre Trafag e disponibil public pe site-ul producătorului; nu depăstrăm stoc propriu pentru senzorii din seriile de presiune, temperatură sau densitate gaz. Senzorii ajung la comandă printr-un lanț de aprovizionare din UE, iar termenul de așteptare orientativ e de 2-6 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită plaja de măsurare necesară, mediul de lucru și tipul de ieșire electrică dorit. Nu promitem disponibilitate permanentă din stoc pentru variantele feroviare sau pentru hidrogen, cu producție la cerere.`,
     limitation: "Nu putem confirma anul fondării companiei sau numărul exact de angajați, informații care nu apar clar pe paginile accesate.",
+    productCodes: [
+      {
+        "code": "NAI 8273",
+        "description": "Traductor de presiune relativă cu interfață IO-Link"
+      },
+      {
+        "code": "FPI 8237",
+        "description": "Traductor cu membrană rasă și IO-Link, pentru medii vâscoase"
+      },
+      {
+        "code": "FPT 8236",
+        "description": "Traductor cu membrană rasă, presiune relativă, pentru medii cu solide"
+      },
+      {
+        "code": "NHT 8250",
+        "description": "Traductor de presiune relativă compatibil cu hidrogen"
+      },
+      {
+        "code": "NAT 8252",
+        "description": "Traductor de presiune relativă pentru aplicații industriale generale"
+      },
+      {
+        "code": "NAH 8254",
+        "description": "Traductor de presiune relativă de uz general"
+      },
+      {
+        "code": "NAE 8256",
+        "description": "Traductor de presiune relativă pentru aplicații navale"
+      },
+      {
+        "code": "NAR 8258",
+        "description": "Traductor de presiune relativă pentru material rulant feroviar"
+      },
+      {
+        "code": "NPN 8264",
+        "description": "Traductor miniatural de presiune relativă, tip Picotrans"
+      },
+      {
+        "code": "CMP 8271",
+        "description": "Traductor miniatural de presiune cu comunicație CANopen"
+      },
+      {
+        "code": "EPR 8283",
+        "description": "Traductor de presiune relativă pentru aplicații feroviare"
+      },
+      {
+        "code": "EPI 8287",
+        "description": "Traductor de presiune relativă pentru aplicații industriale"
+      },
+      {
+        "code": "404/414",
+        "description": "Presostat cu contact electric din seria 404/414"
+      },
+      {
+        "code": "409/419",
+        "description": "Presostat cu contact electric din seria 409/419"
+      },
+      {
+        "code": "410/412",
+        "description": "Presostat cu contact electric din seria 410/412"
+      },
+      {
+        "code": "8719",
+        "description": "Monitor de densitate a gazului SF6 cu contacte de comutare"
+      },
+      {
+        "code": "8729",
+        "description": "Monitor hibrid de densitate SF6 cu contacte și ieșire de curent"
+      },
+      {
+        "code": "8739",
+        "description": "Monitor hibrid de densitate SF6 cu contacte și ieșire Modbus"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce traductor de presiune Trafag aleg pentru o aplicație feroviară?",
+        "a": "Traductorul NAR 8258 este dezvoltat special pentru materialul rulant feroviar, cu rezistență la vibrații și la variațiile de temperatură specifice acestui domeniu. Pentru aplicații navale similare ca solicitare mecanică, dar în alt mediu, traductorul NAE 8256 din aceeași familie constructivă acoperă cerințele specifice sectorului naval."
+      },
+      {
+        "q": "Ce diferență este între monitoarele de gaz SF6 Trafag 8719 și 8729?",
+        "a": "Monitorul 8719 oferă doar contacte de comutare pentru semnalizarea pragurilor de densitate a gazului SF6 din echipamentele de medie și înaltă tensiune. Monitorul 8729 adaugă, pe lângă contactele de comutare, o ieșire analogică de curent, utilă atunci când sistemul de control necesită o citire continuă a densității gazului, nu doar o alarmă."
+      },
+      {
+        "q": "Livrați traductoare Trafag în România?",
+        "a": "Da, traductoarele și presostatele Trafag ajung la comandă, pe baza gamei publicate de producător, fără o rezervă proprie păstrată pe stoc. Termenul obișnuit variază între 2 și 6 săptămâni, în funcție de domeniul de presiune și de tipul de conexiune electrică solicitat. Recomandăm confirmarea codului complet al seriei înainte de comandă."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de traductor Trafag?",
+        "a": "Este util să precizați domeniul de presiune măsurat, tipul de semnal de ieșire dorit (analogic, IO-Link sau CANopen) și mediul de proces vehiculat. Pentru monitoarele de gaz SF6, contează și tipul de ieșire necesar (contacte, curent sau Modbus), detalii care permit alegerea corectă a modelului Trafag potrivit."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Products","url":"https://www.trafag.com/en/products","publisher":"Trafag","accessed":"2026-09-25"},
+      {"title":"Pressure Transmitters","url":"https://www.trafag.com/en/products/pressure-transmitters/","publisher":"Trafag","accessed":"2026-09-25"},
       { title: "Trafag - pressure and temperature sensors", url: "https://www.trafag.com/en/", publisher: "Trafag AG", accessed: "2026-09-22" },
       { title: "Trafag - products", url: "https://www.trafag.com/en/products", publisher: "Trafag AG", accessed: "2026-09-22" },
     ],
@@ -466,11 +1342,97 @@ Pentru România, gama Hach are sens la stații de tratare a apei potabile și uz
     ],
     infinitrade: `Informațiile despre Hach din această pagină vin din surse publice ale producătorului; nu avem date proprii de stoc pentru instrumentele sau reactivii din gama lor. Instrumentele și reactivii ajung la noi prin canale de aprovizionare din UE, cu un termen de așteptare orientativ de 2-6 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită parametrii de analizat, plaja de concentrație așteptată și dacă are nevoie de monitorizare on-line sau doar de instrument de laborator. Nu promitem disponibilitate permanentă din stoc pentru reactivii cu termen de valabilitate limitat.`,
     limitation: "Nu putem confirma disponibilitatea imediată a reactivilor TNTPlus cu termen de valabilitate scurt, care depinde de rotația stocului la nivel european.",
+    productCodes: [
+      {
+        "code": "DR1900",
+        "description": "Spectrofotometru portabil, domeniu de lungimi de undă 340-800 nm"
+      },
+      {
+        "code": "DR4900",
+        "description": "Spectrofotometru de laborator cu ecran tactil de 10 țoli"
+      },
+      {
+        "code": "DR6000",
+        "description": "Spectrofotometru UV-VIZ de banc, scanare rapidă a lungimii de undă"
+      },
+      {
+        "code": "DR900",
+        "description": "Colorimetru de banc pentru analiza parametrilor de apă"
+      },
+      {
+        "code": "DR300",
+        "description": "Colorimetru portabil pentru un singur parametru de apă"
+      },
+      {
+        "code": "Solitax sc Sensors",
+        "description": "Senzor optic pentru turbiditate și solide în suspensie"
+      },
+      {
+        "code": "TSS Titanium sc",
+        "description": "Senzor de solide suspendate totale din titan"
+      },
+      {
+        "code": "TSS EX1 sc",
+        "description": "Senzor de solide suspendate totale pentru medii dificile"
+      },
+      {
+        "code": "HQ4100",
+        "description": "Multimetru portabil cu un canal de măsură"
+      },
+      {
+        "code": "HQ4200",
+        "description": "Multimetru portabil cu două canale de măsură"
+      },
+      {
+        "code": "HQ4300",
+        "description": "Multimetru portabil cu trei canale de măsură"
+      },
+      {
+        "code": "HQ2100",
+        "description": "Multimetru portabil compact cu un canal de măsură"
+      },
+      {
+        "code": "HQ2200",
+        "description": "Multimetru portabil compact cu două canale de măsură"
+      },
+      {
+        "code": "HQ1110",
+        "description": "Electrod pentru măsurarea pH-ului și ORP"
+      },
+      {
+        "code": "HQ1140",
+        "description": "Electrod pentru măsurarea conductivității și TDS"
+      },
+      {
+        "code": "HQ1130",
+        "description": "Electrod pentru măsurarea oxigenului dizolvat"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce spectrofotometru Hach aleg pentru măsurători de teren?",
+        "a": "Modelul DR1900, portabil și ușor, acoperă un domeniu de lungimi de undă între 340 și 800 nm și susține un număr mare de metode de testare, fiind potrivit pentru măsurători directe pe teren. Pentru analize de laborator cu volum mare de probe, spectrofotometrul de banc DR4900, cu ecran tactil, oferă un flux de lucru mai rapid."
+      },
+      {
+        "q": "Ce diferență este între multimetrele Hach HQ4200 și HQ4300?",
+        "a": "HQ4200 are două canale de măsură, permițând conectarea simultană a doi electrozi diferiți, de exemplu pentru pH și conductivitate. HQ4300 extinde acest lucru la trei canale, util atunci când este nevoie și de un al treilea parametru, precum oxigenul dizolvat, măsurat simultan cu celelalte două, fără a schimba electrozii în timpul testării."
+      },
+      {
+        "q": "Livrați instrumente Hach în România?",
+        "a": "Da, instrumentele Hach ajung la comandă, conform gamei publicate de producător, fără o rezervă proprie păstrată pe stoc pentru această marcă. Timpul obișnuit este de 2-6 săptămâni, în funcție de model și de electrozii sau senzorii solicitați suplimentar. Recomandăm confirmarea codului exact al modelului înainte de a trimite comanda."
+      },
+      {
+        "q": "Ce informații trimit pentru o ofertă de instrument Hach?",
+        "a": "Este util să precizați parametrul de apă analizat (turbiditate, solide suspendate, pH sau altul), locul de utilizare (laborator, teren sau proces continuu) și numărul de canale de măsură dorit. Aceste detalii permit alegerea corectă între gamele DR, HQ sau senzorii on-line Solitax de la Hach."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Spectrophotometers","url":"https://www.hach.com/products/lab-instruments/spectrophotometers","publisher":"Hach","accessed":"2026-09-25"},
+      {"title":"HQ Portable Meters","url":"https://www.hach.com/products/lab-meters-and-probes/hqd-meters-intellical-probes/hq-portable","publisher":"Hach","accessed":"2026-09-25"},
       { title: "Hach - water quality analysis", url: "https://www.hach.com", publisher: "Hach Company", accessed: "2026-09-22" },
       { title: "Hach Company - Wikipedia", url: "https://en.wikipedia.org/wiki/Hach_Company", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],

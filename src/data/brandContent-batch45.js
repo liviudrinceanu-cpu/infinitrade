@@ -31,11 +31,84 @@ Pentru piața din România, IDEC are sens acolo unde se retehnologizează un pan
     ],
     infinitrade: `Pentru IDEC lucrăm din surse publice ale producătorului, fără date proprii de stoc — aducem componentele la comandă prin rețele de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru butoane, relee și lămpi, clientul trebuie să ne trimită codul de pe etichetă sau, dacă nu îl are, tensiunea de lucru și funcția din schema electrică. Pentru panourile HMI, avem nevoie de dimensiunea ecranului și dacă e necesară varianta cu PLC integrat. Nu promitem disponibilitate permanentă din stoc pe niciun cod IDEC.`,
     limitation: "Nu putem confirma existența unei rețele proprii de intervenție tehnică IDEC în România și nu configurăm programele PLC integrate în panourile HMI din gama FT2J.",
+    productCodes: [
+      {
+        "code": "FT2J",
+        "description": "Panou HMI de 7 inch cu PLC integrat și I/O extensibile"
+      },
+      {
+        "code": "HG2J",
+        "description": "Panou HMI cu ecran tactil capacitiv proiectat, 7 inch"
+      },
+      {
+        "code": "HG5G",
+        "description": "Panou HMI de 15 inch pentru interfețe complexe de operare"
+      },
+      {
+        "code": "SE2L",
+        "description": "Scaner de siguranță cu laser, pentru zone de lucru cu roboți"
+      },
+      {
+        "code": "HW Series",
+        "description": "Butoane și lămpi de semnalizare de 22 mm, uz industrial greu"
+      },
+      {
+        "code": "Automate programabile IDEC",
+        "description": "Familie de automate programabile pentru automatizări de mici și medii dimensiuni"
+      },
+      {
+        "code": "Dispozitive Ethernet industrial",
+        "description": "Echipamente de rețea Ethernet pentru comunicație industrială"
+      },
+      {
+        "code": "Relee și temporizatoare IDEC",
+        "description": "Relee și temporizatoare modulare pentru circuite de comandă"
+      },
+      {
+        "code": "Protectoare de circuit IDEC",
+        "description": "Dispozitive de protecție a circuitelor, alternativă la siguranțele clasice"
+      },
+      {
+        "code": "Dispozitive de conectare IDEC",
+        "description": "Cleme și dispozitive pentru conectarea rapidă a cablurilor"
+      },
+      {
+        "code": "Corpuri de iluminat cu LED",
+        "description": "Corpuri de iluminat industrial cu tehnologie LED"
+      },
+      {
+        "code": "Surse de alimentare IDEC",
+        "description": "Surse de alimentare pentru automatizări industriale"
+      },
+      {
+        "code": "Sisteme AUTO-ID/RFID",
+        "description": "Sisteme de identificare automată prin coduri sau etichete RFID"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între panourile HMI IDEC FT2J și HG2J?",
+        "a": "FT2J combină funcția de HMI cu un controler PLC integrat, fiind gândit ca soluție completă acolo unde se dorește un singur dispozitiv pentru control și afișare. HG2J este un panou HMI cu ecran tactil capacitiv, orientat spre aplicații unde controlul se face printr-un automat separat, deja existent în instalație. Alegerea dintre cele două depinde de faptul dacă este nevoie de PLC integrat sau nu."
+      },
+      {
+        "q": "Livrați panouri HMI și scanere de siguranță IDEC în România?",
+        "a": "Da, aducem la comandă panouri HMI din gamele FT2J, HG2J sau HG5G, scanere de siguranță SE2L și butoane industriale seria HW, pe baza codului exact al producătorului. Panourile și componentele IDEC nu se găsesc pe stoc la noi, fiind comandate special, cu un termen uzual, conform surselor oficiale, de două până la șase săptămâni. Vă rugăm să menționați dimensiunea ecranului dorită și tipul de comunicație necesar cu automatul existent."
+      },
+      {
+        "q": "Ce elemente sunt necesare pentru o ofertă de panou HMI IDEC?",
+        "a": "Contează dimensiunea ecranului dorită, tipul de protocol de comunicație folosit de automatul existent și dacă este necesar un PLC integrat sau doar funcția de afișare și comandă. Este utilă și informația despre mediul de montaj, temperatură și umiditate, pentru alegerea gradului de protecție potrivit al panoului. Aceste detalii permit selectarea corectă între gamele FT2J, HG2J și HG5G."
+      },
+      {
+        "q": "Ce este scanerul de siguranță SE2L de la IDEC?",
+        "a": "SE2L este un scaner de siguranță cu laser, folosit pentru monitorizarea zonelor de lucru din jurul roboților sau al altor echipamente cu mișcare periculoasă. Detectează prezența unei persoane într-o zonă definită și poate opri sau limita mișcarea echipamentului supravegheat, contribuind la reducerea riscului de accidentare. Este folosit adesea în medii cu spațiu limitat, unde barierele fizice clasice sunt greu de montat."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"IDEC – Home (EU)","url":"https://www.idec.com/en-eu","publisher":"IDEC Corporation","accessed":"2026-09-25"},
       { title: "IDEC Corporation — EU site", url: "https://www.idec.com/en-eu", publisher: "IDEC Corporation", accessed: "2026-09-22" },
       { title: "IDEC Corporation", url: "https://en.wikipedia.org/wiki/IDEC_Corporation", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
@@ -71,11 +144,80 @@ Pentru instalațiile din România, STM înseamnă acces la reductoare de uz gene
     ],
     infinitrade: `Pe STM lucrăm cu informațiile publice de pe site-ul producătorului — nu dispunem de stoc propriu pe această gamă și spunem deschis ce putem și ce nu putem confirma până la verificarea punctuală a codului cerut. Reductoarele și motoreductoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul constructiv dorit (R, U, RR, CR sau altul), raportul de reducere, puterea motorului și poziția de montaj pe utilaj. Nu promitem disponibilitate permanentă din stoc și nu confirmăm disponibilitatea unui cod anume fără să o verificăm în prealabil la sursă.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unui reductor STM anume fără verificare punctuală la sursă și nu oferim service de recondiționare pentru unități STM aflate deja în exploatare.",
+    productCodes: [
+      {
+        "code": "Seria R",
+        "description": "Reductor melcat rotund, cu limitator de cuplu opțional"
+      },
+      {
+        "code": "Seria U",
+        "description": "Reductor melcat pătrat, variantă compactă din gama standard"
+      },
+      {
+        "code": "Seria RR",
+        "description": "Reductor melcat combinat, cu etaj suplimentar de reducere"
+      },
+      {
+        "code": "Seria CR",
+        "description": "Reductor melcat cu pre-cuplare de tip angrenaj"
+      },
+      {
+        "code": "Pre-cuplare CAM",
+        "description": "Pre-cuplare disponibilă pentru reductoarele din seriile R și U"
+      },
+      {
+        "code": "Pre-cuplare CBN",
+        "description": "Variantă alternativă de pre-cuplare pentru seriile R și U"
+      },
+      {
+        "code": "Seria W",
+        "description": "Reductor melcat pătrat din gama de import STM"
+      },
+      {
+        "code": "Seria WMF",
+        "description": "Variator mecanic de turație pentru reglarea continuă a vitezei"
+      },
+      {
+        "code": "Seria Z",
+        "description": "Reductor unghiular pentru schimbarea direcției axului de ieșire"
+      },
+      {
+        "code": "Seria ZL",
+        "description": "Reductor unghiular în variantă ușoară, mai compactă"
+      },
+      {
+        "code": "Reductoare coaxiale High Tech",
+        "description": "Reductoare coaxiale din gama High Tech pentru aplicații de precizie"
+      },
+      {
+        "code": "Motoreductoare electronice",
+        "description": "Motoare electrice și variatoare electronice din gama Electronic STM"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între reductoarele STM SpA seria R și seria U?",
+        "a": "Seria R are o construcție rotundă, folosită frecvent acolo unde montajul trebuie făcut într-un spațiu cilindric sau unde se dorește un limitator de cuplu opțional. Seria U are o construcție pătrată, cu o formă a carcasei diferită, care poate influența modul de fixare pe structura echipamentului acționat. Alegerea între cele două ține în principal de configurația de montaj disponibilă și de accesoriile dorite."
+      },
+      {
+        "q": "Livrați reductoare STM SpA în România?",
+        "a": "Da, aducem la comandă reductoare melcate din seriile R, U, RR sau CR, precum și reductoare unghiulare Z și ZL, pe baza codului complet de catalog al producătorului. Reductoarele STM SpA se aduc exclusiv la comandă, fără depozitare prealabilă din partea noastră, iar durata anunțată public variază între două și șase săptămâni. Recomandăm precizarea raportului de reducere și a poziției de montaj dorite."
+      },
+      {
+        "q": "Ce date sunt necesare pentru o ofertă de reductor STM SpA?",
+        "a": "Sunt necesare raportul de reducere dorit, cuplul de ieșire cerut de aplicație și poziția de montaj, orizontală sau verticală, a reductorului. Contează și dacă este nevoie de o pre-cuplare, precum CAM sau CBN, pentru conectarea la un motor electric standard deja existent în instalație. Aceste date permit alegerea corectă între seriile R, U, RR și CR, în funcție de sarcina transmisă."
+      },
+      {
+        "q": "Ce este variatorul mecanic din seria WMF de la STM SpA?",
+        "a": "Variatorul mecanic WMF permite reglarea continuă a turației de ieșire, fără trepte fixe, folosind un mecanism mecanic intern în locul unui convertizor electronic de frecvență. Este util acolo unde viteza unui transportor sau a unei linii trebuie ajustată frecvent, direct de la un buton sau manetă locală. Face parte din gama standard STM, alături de reductoarele melcate și unghiulare."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"STM SpA – Prodotti Standard","url":"https://www.stmspa.com/it/prodotti/standard-ln-3","publisher":"STM SpA","accessed":"2026-09-25"},
       { title: "STM SpA — Chi siamo", url: "https://www.stmspa.com/it/chi-siamo-pa-37", publisher: "STM SpA", accessed: "2026-09-22" },
       { title: "STM SpA — Prodotti, linea Standard", url: "https://www.stmspa.com/it/prodotti/standard-ln-3", publisher: "STM SpA", accessed: "2026-09-22" },
       { title: "STM SpA — pagina principală", url: "https://www.stmspa.com", publisher: "STM SpA", accessed: "2026-09-22" }
@@ -150,11 +292,93 @@ Pentru instalațiile din România, Socomec are sens la sălile de servere, staț
     ],
     infinitrade: `Pe Socomec lucrăm din surse publice ale producătorului și de pe pagina locală în limba română, fără date proprii de stoc pentru unitățile UPS sau echipamentele de comutare. Aducem produsele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă pe un UPS, clientul trebuie să ne trimită puterea sarcinii critice în kVA, autonomia dorită și tipul de baterie preferat (plumb sau litiu-ion); pentru echipamente de comutare, curentul nominal și tensiunea de lucru din tablou. Nu promitem disponibilitate permanentă din stoc și nu confirmăm un termen mai scurt fără verificare punctuală la furnizor.`,
     limitation: "Nu oferim configurarea software a sistemelor de monitorizare Socomec și nu putem confirma o listă completă de certificări specifice fiecărui model de UPS din surse publice.",
+    productCodes: [
+      {
+        "code": "NETYS RT4",
+        "description": "Familie de UPS rack/tower monofazate, cu variante compatibile baterii litiu"
+      },
+      {
+        "code": "NETYS RT",
+        "description": "UPS rack/tower de la 1 la 10 kVA pentru echipamente IT"
+      },
+      {
+        "code": "DELPHYS XM",
+        "description": "UPS modular trifazat de mare putere, pentru centre de date"
+      },
+      {
+        "code": "DELPHYS MX Elite+",
+        "description": "UPS trifazat pentru sarcini critice industriale de putere medie-mare"
+      },
+      {
+        "code": "MODULYS GP4",
+        "description": "UPS modular trifazat cu gateway dedicat pentru baterii litiu"
+      },
+      {
+        "code": "MODULYS GP",
+        "description": "UPS modular trifazat, generația anterioară compatibilă cu baterii litiu"
+      },
+      {
+        "code": "COUNTIS P0x",
+        "description": "Contor de energie monofazat pentru circuite secundare"
+      },
+      {
+        "code": "COUNTIS P1x",
+        "description": "Contor de energie trifazat pentru monitorizarea consumului pe tablou"
+      },
+      {
+        "code": "COUNTIS P3x",
+        "description": "Contor de energie trifazat cu ieșire de comunicație pentru citire de la distanță"
+      },
+      {
+        "code": "COUNTIS P4x",
+        "description": "Contor de energie trifazat de precizie ridicată pentru facturare"
+      },
+      {
+        "code": "COUNTIS P43-DC",
+        "description": "Contor de energie dedicat circuitelor de curent continuu"
+      },
+      {
+        "code": "NRT4-LI-B010",
+        "description": "Cabinet de baterii litiu pentru UPS NETYS RT4, montaj în rack 1U"
+      },
+      {
+        "code": "NRT4-LI-B030",
+        "description": "Variantă de cabinet de baterii litiu pentru UPS NETYS RT4"
+      },
+      {
+        "code": "DMX L ION",
+        "description": "Baterie litiu montată în cabinet dedicat pentru UPS DMX"
+      },
+      {
+        "code": "U4-OP-LIB-ADC",
+        "description": "Modul gateway pentru interfațarea bateriilor litiu la UPS MODULYS GP4 sau GP"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile Socomec NETYS RT și NETYS RT4?",
+        "a": "NETYS RT acoperă puteri de la 1 la 10 kVA și folosește acumulatori standard cu plumb-acid, potriviți pentru servere și echipamente de rețea obișnuite. NETYS RT4 este generația mai recentă, disponibilă și în variantă compatibilă cu cabinete de baterii litiu, ceea ce reduce spațiul ocupat și greutatea instalației. Alegerea depinde de spațiul disponibil în rack și de bugetul alocat tipului de baterie dorit."
+      },
+      {
+        "q": "Livrați UPS Socomec în România la comandă?",
+        "a": "Da, aducem la comandă UPS-uri din gamele NETYS, MODULYS și DELPHYS, pornind de la codul exact al modelului dorit. Nu ținem această gamă pe raft, iar reperul de aprovizionare menționat public de producător este de câteva săptămâni, undeva între două și șase. Este util să precizați puterea necesară în kVA și dacă instalația impune baterii litiu sau acumulatori clasici."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă la un UPS Socomec DELPHYS?",
+        "a": "Sunt necesare puterea aparentă cerută în kVA sau kW, autonomia dorită la baterie și configurația de alimentare, monofazată sau trifazată. Contează și spațiul disponibil pentru instalare, deoarece DELPHYS XM și DELPHYS MX Elite+ diferă ca gabarit și mod de montare în sala tehnică. Menționarea sarcinilor critice conectate ajută la dimensionarea corectă a modelului recomandat."
+      },
+      {
+        "q": "Ce este seria COUNTIS de la Socomec?",
+        "a": "COUNTIS este seria de contoare de energie electrică Socomec, disponibilă în variante monofazate și trifazate, precum P0x, P1x, P3x și P4x. Aceste contoare se montează pe tablourile electrice pentru a măsura consumul pe circuite individuale, util în subcontorizare sau facturare internă. Modelul P43-DC este dedicat măsurării pe circuite de curent continuu, de exemplu în instalații fotovoltaice."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Socomec – NETYS RT4 cu baterie Li-Ion","url":"https://www.socomec.ro/ro/p/ups-cu-baterie-li-ion","publisher":"Socomec","accessed":"2026-09-25"},
+      {"title":"Socomec România","url":"https://www.socomec.ro/ro","publisher":"Socomec","accessed":"2026-09-25"},
       { title: "Socomec România — UPS cu baterie Li-Ion", url: "https://www.socomec.ro/ro/p/ups-cu-baterie-li-ion", publisher: "Socomec", accessed: "2026-09-22" },
       { title: "Socomec", url: "https://fr.wikipedia.org/wiki/Socomec", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
@@ -267,11 +491,104 @@ Pentru piața din România, FUCHS are sens la mentenanța preventivă a echipame
     ],
     infinitrade: `Pe FUCHS lucrăm din informațiile publice ale producătorului, inclusiv pagina locală în limba română, fără date proprii de stoc pe fiecare cod de produs. Uleiurile și unsorile se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare — pentru cantități mici de produse curente, verificăm punctual dacă există disponibilitate mai rapidă la furnizor. Pentru o ofertă corectă, clientul trebuie să ne trimită linia de produs sau codul exact, cantitatea necesară și, dacă nu cunoaște codul, aplicația (tip echipament, temperatură de lucru, sarcină). Nu promitem disponibilitate permanentă din stoc și nu facem recomandări tehnice fără aceste date.`,
     limitation: "Nu oferim consultanță de analiză a uleiului uzat (tribologie) și nu putem confirma o listă completă de certificări specifice fiecărei linii de produs din sursele publice accesate.",
+    productCodes: [
+      {
+        "code": "RENOLIN",
+        "description": "Gamă de uleiuri hidraulice și industriale pentru echipamente de producție"
+      },
+      {
+        "code": "RENOLIT",
+        "description": "Gamă de unsori consistente pentru rulmenți și lagăre industriale"
+      },
+      {
+        "code": "CASSIDA",
+        "description": "Lubrifianți destinați industriei alimentare și a băuturilor"
+      },
+      {
+        "code": "CEPLATTYN",
+        "description": "Lubrifianți pentru angrenaje deschise și cabluri metalice"
+      },
+      {
+        "code": "TITAN",
+        "description": "Gamă de uleiuri de motor pentru automobile și utilaje"
+      },
+      {
+        "code": "ECOCOOL",
+        "description": "Lichide de răcire și ungere pentru prelucrarea metalelor prin așchiere"
+      },
+      {
+        "code": "ECOCUT",
+        "description": "Uleiuri de tăiere pentru operațiuni de prelucrare a metalelor"
+      },
+      {
+        "code": "ANTICORIT",
+        "description": "Produse pentru protecția anticorozivă a pieselor metalice"
+      },
+      {
+        "code": "GLEITMO",
+        "description": "Lubrifianți speciali folosiți la asamblarea și montajul componentelor"
+      },
+      {
+        "code": "LAGERMEISTER",
+        "description": "Unsori dedicate lagărelor de rulare la turații ridicate"
+      },
+      {
+        "code": "MAINTAIN",
+        "description": "Gamă de produse pentru întreținerea și mentenanța echipamentelor industriale"
+      },
+      {
+        "code": "PENTOSIN",
+        "description": "Fluide pentru transmisii și sisteme hidraulice din industria auto"
+      },
+      {
+        "code": "PLANTO",
+        "description": "Lubrifianți biodegradabili pentru aplicații cu impact ecologic redus"
+      },
+      {
+        "code": "RENISO",
+        "description": "Uleiuri dedicate compresoarelor din instalațiile frigorifice și de climatizare"
+      },
+      {
+        "code": "STABYL",
+        "description": "Unsori speciale pentru aplicații industriale specifice"
+      },
+      {
+        "code": "VITROLIS",
+        "description": "Lubrifianți dedicați proceselor din industria sticlei"
+      },
+      {
+        "code": "WISURA",
+        "description": "Fluide de răcire solubile pentru prelucrarea metalelor"
+      },
+      {
+        "code": "AGRIFARM",
+        "description": "Lubrifianți dedicați utilajelor și echipamentelor agricole"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între gamele Fuchs RENOLIN și RENISO?",
+        "a": "RENOLIN cuprinde uleiuri hidraulice și industriale, folosite în general la sisteme de transmisie a puterii hidraulice din utilaje și linii de producție. RENISO este dedicat compresoarelor din instalațiile frigorifice și de climatizare, formulat pentru compatibilitate cu agenții frigorifici uzuali. Alegerea corectă depinde de tipul echipamentului deservit, hidraulic sau frigorific, și de recomandarea producătorului acestuia."
+      },
+      {
+        "q": "Livrați lubrifianți Fuchs Lubricants în România la comandă?",
+        "a": "Da, aducem la comandă uleiuri și unsori din gamele Fuchs precum RENOLIN, RENOLIT, TITAN sau CASSIDA, pe baza denumirii exacte a produsului dorit. Nu avem raft propriu pentru această gamă, iar orientarea de aprovizionare comunicată public de producător este de aproximativ două până la șase săptămâni. Este util să precizați echipamentul deservit și fișa tehnică a produsului înlocuit."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de ulei industrial Fuchs?",
+        "a": "Sunt necesare tipul de echipament lubrifiat, clasa de vâscozitate recomandată de producătorul utilajului și cantitatea aproximativă necesară pentru completare sau schimb integral. Dacă mediul de lucru implică contact cu alimente sau temperaturi extreme, menționați acest lucru, deoarece influențează alegerea între gamele CASSIDA, RENISO sau alte linii specializate. Fișa tehnică a echipamentului grăbește identificarea produsului potrivit."
+      },
+      {
+        "q": "Ce este gama CASSIDA de la Fuchs?",
+        "a": "CASSIDA este gama de lubrifianți Fuchs formulată pentru industria alimentară și a băuturilor, unde există risc de contact accidental cu produsul finit. Include uleiuri hidraulice, unsori și fluide de proces adaptate cerințelor de igienă din liniile de ambalare și producție. Alegerea variantei potrivite ține de tipul echipamentului și de cerințele specifice ale liniei de fabricație."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Fuchs România – Produse","url":"https://www.fuchs.com/ro/ro/produse/","publisher":"Fuchs Lubricants","accessed":"2026-09-25"},
       { title: "FUCHS România — pagina principală", url: "https://www.fuchs.com/ro/ro/", publisher: "FUCHS", accessed: "2026-09-22" },
       { title: "Fuchs Petrolub", url: "https://en.wikipedia.org/wiki/Fuchs_Petrolub", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
@@ -346,11 +663,92 @@ Pentru piața din România, Metrel are sens la firmele de electricieni autoriza�
     ],
     infinitrade: `Pe Metrel lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe aparatele din gamă. Aducem testerele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită modelul dorit sau, dacă nu îl cunoaște, tipul de verificări pe care vrea să le facă (instalații electrice, PAT, calitate a energiei) și normativul aplicabil. Nu promitem disponibilitate permanentă din stoc pe niciun model Metrel și nu oferim calibrarea sau etalonarea aparatelor deja aflate în dotarea clientului.`,
     limitation: "Nu efectuăm noi înșine calibrarea sau etalonarea metrologică a aparatelor Metrel și nu putem confirma anul exact al fondării companiei din sursele accesate.",
+    productCodes: [
+      {
+        "code": "MI 3155 EurotestXD",
+        "description": "Tester multifuncțional pentru instalații electrice, cu funcții avansate de măsurare"
+      },
+      {
+        "code": "MI 3152 EurotestXC",
+        "description": "Tester multifuncțional compact pentru verificarea instalațiilor electrice"
+      },
+      {
+        "code": "MI 3152H EurotestXC 2,5 kV",
+        "description": "Variantă EurotestXC cu test de izolație la tensiune ridicată"
+      },
+      {
+        "code": "MI 3136 EurotestCOMBO XC",
+        "description": "Tester combinat pentru instalații electrice și dispozitive diferențiale"
+      },
+      {
+        "code": "MI 3107 EurotestEASI Touch",
+        "description": "Tester multifuncțional cu ecran tactil pentru instalații electrice"
+      },
+      {
+        "code": "MI 3102H BT EurotestXE 2,5 kV",
+        "description": "Tester cu Bluetooth și test de izolație la tensiune ridicată"
+      },
+      {
+        "code": "MI 3102 BT EurotestXE",
+        "description": "Tester multifuncțional cu conexiune Bluetooth pentru instalații electrice"
+      },
+      {
+        "code": "MI 3100 SE EurotestEASI",
+        "description": "Tester multifuncțional de bază pentru verificarea instalațiilor electrice"
+      },
+      {
+        "code": "MI 3125 BT EurotestCOMBO",
+        "description": "Tester combinat cu Bluetooth pentru instalații și protecție diferențială"
+      },
+      {
+        "code": "MI 3125 EurotestCOMBO",
+        "description": "Tester combinat pentru instalații electrice și dispozitive de protecție"
+      },
+      {
+        "code": "MI 3116 PV Analyser XA",
+        "description": "Analizor dedicat testării instalațiilor fotovoltaice"
+      },
+      {
+        "code": "MI 3365 OmegaEE XD",
+        "description": "Tester PAT pentru verificarea siguranței echipamentelor electrice portabile"
+      },
+      {
+        "code": "MI 6601 MediTest",
+        "description": "Tester pentru verificarea siguranței echipamentelor medicale"
+      },
+      {
+        "code": "MI 2992 Power Analyser",
+        "description": "Analizor de calitate a energiei electrice, clasă A"
+      },
+      {
+        "code": "MI 2892 Power Master",
+        "description": "Analizor multifuncțional de calitate a energiei electrice"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între testerele Metrel MI 3155 EurotestXD și MI 3107 EurotestEASI Touch?",
+        "a": "MI 3155 EurotestXD face parte din gama superioară, cu funcții extinse de măsurare și memorie mare pentru rapoarte complexe de verificare. MI 3107 EurotestEASI Touch adaugă un ecran tactil pentru navigare mai rapidă în meniuri, păstrând majoritatea funcțiilor de bază pentru verificarea instalațiilor electrice. Alegerea între cele două ține de complexitatea instalațiilor testate zilnic și de bugetul disponibil pentru echipament."
+      },
+      {
+        "q": "Livrați aparate de măsură Metrel în România?",
+        "a": "Da, aducem la comandă tester multifuncționale, analizoare de rețea și tester PAT din portofoliul Metrel, pornind de la codul exact solicitat. Nu avem raft propriu pentru această gamă; orientarea de aprovizionare publicată de producător este de aproximativ două până la șase săptămâni. Recomandăm precizarea standardului de verificare aplicabil și a accesoriilor necesare, precum sonde sau adaptoare specifice."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă la un tester Metrel?",
+        "a": "Este util să menționați tipul de verificare dorit, instalații electrice, echipamente sau panouri fotovoltaice, deoarece fiecare direcție are o gamă proprie de tester. Contează și dacă este necesară conexiunea Bluetooth pentru transfer rapid de date sau integrarea cu Metrel Cloud pentru gestionarea rapoartelor. Standardul local de verificare aplicabil instalației ajută la alegerea modelului potrivit."
+      },
+      {
+        "q": "Ce este seria Power Master de la Metrel?",
+        "a": "Power Master, cunoscut și ca MI 2892, este un analizor de calitate a energiei electrice folosit pentru monitorizarea parametrilor rețelei pe perioade extinse. Măsoară armonici, dezechilibre de tensiune și alte fenomene care afectează echipamentele conectate la rețea. Este util în audituri energetice sau în identificarea cauzelor unor defecțiuni recurente ale echipamentelor industriale sensibile la calitatea alimentării."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Metrel – Test and Measurement Instruments","url":"https://www.metrel.si","publisher":"Metrel","accessed":"2026-09-25"},
       { title: "Metrel — pagina principală", url: "https://www.metrel.si", publisher: "Metrel d.o.o.", accessed: "2026-09-22" },
       { title: "Distek — pagina de brand METREL", url: "https://www.distek.ro/ro/Brand/METREL-1251", publisher: "Distek", accessed: "2026-09-22" }
     ],
@@ -385,11 +783,81 @@ Pentru piața din România, Delta Plus are sens la firmele de construcții, ener
     ],
     infinitrade: `Pe Delta Plus lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe fiecare referință de produs. Echipamentul se aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii — pentru cantități mari, verificăm punctual disponibilitatea pe mărimi la furnizor. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul de EIP necesar, mărimile pentru fiecare persoană și riscurile identificate la locul de muncă. Nu promitem disponibilitate permanentă din stoc pe nicio referință Delta Plus și nu facem evaluarea de risc a locului de muncă în locul clientului.`,
     limitation: "Nu efectuăm evaluarea de risc la locul de muncă pentru alegerea EIP-ului potrivit și nu putem confirma anul exact al fondării companiei din sursele accesate.",
+    productCodes: [
+      {
+        "code": "ALTILIGNE",
+        "description": "Sistem de linie de viață orizontală pentru protecție anticădere colectivă"
+      },
+      {
+        "code": "ALTIRAIL",
+        "description": "Sistem de șină orizontală pentru ancorarea echipamentului anticădere"
+      },
+      {
+        "code": "ALTIRAIL LR",
+        "description": "Variantă cu rază lungă a șinei orizontale ALTIRAIL"
+      },
+      {
+        "code": "BATILIGNE",
+        "description": "Sistem de linie de viață orizontală pentru acoperișuri și fațade"
+      },
+      {
+        "code": "Combirail",
+        "description": "Sistem combinat de șină pentru protecție anticădere la mai mulți utilizatori"
+      },
+      {
+        "code": "LADDERAIL",
+        "description": "Sistem de șină verticală pentru scări fixe"
+      },
+      {
+        "code": "VERTILIGNE",
+        "description": "Sistem de linie de viață verticală pentru urcarea pe scări sau structuri"
+      },
+      {
+        "code": "VERTIRAIL",
+        "description": "Sistem de șină verticală pentru protecție anticădere la urcare"
+      },
+      {
+        "code": "ALTIFIX",
+        "description": "Punct de ancorare fix pentru echipamente de protecție anticădere"
+      },
+      {
+        "code": "PST",
+        "description": "Soluție standard de protecție anticădere pentru lucrări la înălțime"
+      },
+      {
+        "code": "VECTALADDER",
+        "description": "Scară protejată cu colivie pentru accesul vertical în siguranță"
+      },
+      {
+        "code": "Donna S3S",
+        "description": "Model de încălțăminte de protecție dedicat femeilor, clasă S3S"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între sistemele Delta Plus VERTILIGNE și VERTIRAIL?",
+        "a": "VERTILIGNE este o linie de viață verticală flexibilă, montată de-a lungul scărilor sau structurilor fixe pentru asigurarea utilizatorului la urcare. VERTIRAIL folosește o șină rigidă în locul cablului, ceea ce oferă un ghidaj mai stabil și reduce oscilația echipamentului de ancorare pe traseele lungi. Alegerea depinde de înălțimea structurii, de frecvența de utilizare și de bugetul disponibil pentru montaj."
+      },
+      {
+        "q": "Livrați echipamente de protecție Delta Plus în România?",
+        "a": "Da, aducem la comandă sisteme anticădere, căști, mănuși și încălțăminte de protecție din portofoliul Delta Plus, pe baza referinței exacte solicitate. Nu ținem această gamă pe raft, iar termenul orientativ comunicat public de producător este de două până la șase săptămâni. Este util să precizați mărimea, standardul de protecție cerut și tipul de risc prezent la locul de muncă."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă la un sistem anticădere Delta Plus?",
+        "a": "Sunt necesare tipul de structură pe care se montează sistemul, acoperiș, fațadă sau scară fixă, precum și numărul de utilizatori simultani prevăzuți. Contează și lungimea traseului de parcurs, deoarece aceasta influențează alegerea între o linie flexibilă precum VERTILIGNE și o șină rigidă precum VERTIRAIL. Un plan sau o schiță a zonei de lucru ajută la dimensionarea corectă a instalației."
+      },
+      {
+        "q": "Ce este modelul Donna de la Delta Plus?",
+        "a": "Donna este un model de încălțăminte de protecție din gama Delta Plus, gândit special pentru conformația piciorului feminin, în clasa de protecție S3S. Oferă rezistență la impact și perforare, alături de o talpă antiderapantă potrivită pentru șantiere sau spații industriale umede. Mărimile disponibile acoperă intervalul specific liniei dedicate femeilor din portofoliul de încălțăminte al producătorului."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Delta Plus – Homepage","url":"https://www.deltaplus.eu/en","publisher":"Delta Plus","accessed":"2026-09-25"},
+      {"title":"Delta Plus – Our company","url":"https://www.deltaplus.eu/en/our-company","publisher":"Delta Plus","accessed":"2026-09-25"},
       { title: "Delta Plus — pagina principală", url: "https://www.deltaplus.eu", publisher: "Delta Plus Group", accessed: "2026-09-22" },
       { title: "Delta Plus — Our Company", url: "https://www.deltaplus.eu/en/our-company", publisher: "Delta Plus Group", accessed: "2026-09-22" }
     ],
@@ -424,11 +892,93 @@ Pentru piața din România, Sewerin are sens la operatorii de rețele de gaz și
     ],
     infinitrade: `Pe Sewerin lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe aparatele din gamă. Aparatele ajung la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul de detecție necesară (gaz sau apă), tipul de rețea inspectată și, dacă are deja un aparat, modelul acestuia pentru compatibilitate de accesorii. Nu promitem disponibilitate permanentă din stoc pe niciun model Sewerin și nu efectuăm noi înșine calibrarea metrologică a aparatelor.`,
     limitation: "Nu efectuăm calibrarea metrologică a aparatelor Sewerin și nu putem confirma o listă completă a certificărilor specifice fiecărui model din sursele publice accesate.",
+    productCodes: [
+      {
+        "code": "SR-LD 800",
+        "description": "Detector de metan cu rază de acțiune de până la 200 de metri"
+      },
+      {
+        "code": "SR-LD 200",
+        "description": "Detector portabil de metan din gama SR-LD"
+      },
+      {
+        "code": "VARIOTEC 400 EX",
+        "description": "Aparat universal de măsură a gazelor pentru zone cu risc de explozie"
+      },
+      {
+        "code": "VARIOTEC 460 EX",
+        "description": "Variantă a seriei VARIOTEC cu funcții suplimentare de măsurare"
+      },
+      {
+        "code": "VARIOTEC 480 EX",
+        "description": "Aparat de măsură a gazelor din gama superioară VARIOTEC"
+      },
+      {
+        "code": "LaserGasPatroller LGP 800",
+        "description": "Detector laser de scurgeri de gaz de la distanță"
+      },
+      {
+        "code": "LaserGasPatroller LGP 900",
+        "description": "Variantă a detectorului laser LaserGasPatroller cu sensibilitate suplimentară"
+      },
+      {
+        "code": "PORTAFID M3-K",
+        "description": "Detector portabil de gaze combustibile cu senzor cu ionizare de flacără"
+      },
+      {
+        "code": "EX-TEC SNOOPER 4",
+        "description": "Detector de scurgeri de gaz pentru inspecții de rutină"
+      },
+      {
+        "code": "SNOOPER mini",
+        "description": "Detector compact de scurgeri de gaz pentru verificări rapide"
+      },
+      {
+        "code": "EX-TEC PM 580",
+        "description": "Aparat combinat pentru detecția, avertizarea și măsurarea gazelor"
+      },
+      {
+        "code": "EX-TEC HS 680",
+        "description": "Aparat universal de măsură a gazelor pentru multiple aplicații"
+      },
+      {
+        "code": "AQUAPHON A 200",
+        "description": "Detector acustic de scurgeri de apă pentru rețele îngropate"
+      },
+      {
+        "code": "AQUAPHON A 150",
+        "description": "Detector acustic de scurgeri de apă, variantă de bază"
+      },
+      {
+        "code": "Multitec 560",
+        "description": "Aparat portabil pentru analiza gazelor de proces"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între detectoarele Sewerin VARIOTEC 400 EX și VARIOTEC 480 EX?",
+        "a": "VARIOTEC 400 EX este un aparat universal de măsură a gazelor pentru aplicații curente în zone cu risc de explozie, acoperind principalele gaze întâlnite pe teren. VARIOTEC 480 EX face parte din gama superioară, cu senzori suplimentari și funcții extinse de înregistrare a datelor pentru rapoarte detaliate. Alegerea depinde de numărul de gaze de monitorizat simultan și de nivelul de documentare cerut."
+      },
+      {
+        "q": "Livrați echipamente Sewerin de detecție a gazelor în România?",
+        "a": "Da, aducem la comandă detectoare de metan, aparate universale de gaz și instrumente de detecție a scurgerilor din gama Sewerin, pe baza codului exact dorit. Nu ținem această gamă pe raft, iar reperul de livrare comunicat public de producător este de câteva săptămâni, între două și șase. Este util să menționați tipul de gaz vizat și mediul de lucru al aplicației."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă la un detector de scurgeri Sewerin?",
+        "a": "Sunt necesare tipul de rețea verificată, apă sau gaz, materialul conductelor și adâncimea aproximativă de îngropare a acestora. Contează și mediul de lucru, urban aglomerat sau zonă deschisă, deoarece influențează sensibilitatea și tipul de senzor recomandat, acustic sau cu laser. Menționarea frecvenței de utilizare ajută la alegerea între un model de bază și unul din gama superioară."
+      },
+      {
+        "q": "Ce este seria AQUAPHON de la Sewerin?",
+        "a": "AQUAPHON este seria de detectoare acustice de scurgeri de apă Sewerin, folosită pentru localizarea pierderilor din rețelele de apă îngropate, fără săpături exploratorii. Modelele A 150 și A 200 diferă prin numărul de funcții și prin nivelul de filtrare a zgomotului de fond captat de microfoane. Sunt folosite frecvent de operatorii de apă pentru reducerea pierderilor din rețea."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sewerin – Homepage","url":"https://www.sewerin.com","publisher":"Sewerin","accessed":"2026-09-25"},
+      {"title":"Sewerin – Gas detection devices","url":"https://www.sewerin.com/en/products/gas/gas-detection-devices","publisher":"Sewerin","accessed":"2026-09-25"},
       { title: "Sewerin — pagina principală", url: "https://www.sewerin.com", publisher: "Hermann Sewerin GmbH", accessed: "2026-09-22" },
       { title: "Sewerin — istoricul companiei", url: "https://www.sewerin.com/en/company/history", publisher: "Hermann Sewerin GmbH", accessed: "2026-09-22" }
     ],

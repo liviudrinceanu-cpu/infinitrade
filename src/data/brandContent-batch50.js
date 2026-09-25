@@ -31,11 +31,112 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
     ],
     infinitrade: `Pentru Hirschmann lucrăm din surse publice ale producătorului și din documentația tehnică disponibilă online — nu avem un istoric de livrări proprii pentru acest brand și spunem direct ce putem și ce nu putem confirma din experiență proprie. Switch-urile și routerele Hirschmann le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de codul exact al switch-ului sau routerului, numărul de porturi și tipul de conexiune (cupru/fibră). Nu promitem disponibilitate permanentă din stoc pe această gamă — fiecare comandă se configurează după cerințele proiectului.`,
     limitation: "Nu putem confirma disponibilitatea configurațiilor de securitate cibernetică specifice fiecărui firmware fără o cerere tehnică detaliată transmisă direct la producător.",
+    productCodes: [
+      {
+        "code": "BXS",
+        "description": "Switch industrial nemanaged din familia BOBCAT, carcasă compactă"
+      },
+      {
+        "code": "BXP",
+        "description": "Switch industrial cu performanță extinsă din familia BOBCAT"
+      },
+      {
+        "code": "BRP",
+        "description": "Switch industrial de șină DIN cu performanță ridicată, familia BOBCAT"
+      },
+      {
+        "code": "BRS20",
+        "description": "Switch industrial de șină DIN, familia BOBCAT, variantă de bază"
+      },
+      {
+        "code": "BRS40",
+        "description": "Switch industrial de șină DIN, familia BOBCAT, variantă cu mai multe porturi"
+      },
+      {
+        "code": "GRS103",
+        "description": "Switch industrial gestionat din familia GREYHOUND, model compact"
+      },
+      {
+        "code": "GRS105",
+        "description": "Switch industrial gestionat din familia GREYHOUND cu porturi suplimentare"
+      },
+      {
+        "code": "GRS1020",
+        "description": "Switch industrial gestionat din familia GREYHOUND, variantă cu redundanță"
+      },
+      {
+        "code": "GRS1030",
+        "description": "Switch industrial gestionat din familia GREYHOUND pentru rețele extinse"
+      },
+      {
+        "code": "GRS1040",
+        "description": "Switch industrial gestionat din familia GREYHOUND cu porturi fibră optică"
+      },
+      {
+        "code": "GRS2000",
+        "description": "Switch industrial gestionat de nivel superior din familia GREYHOUND"
+      },
+      {
+        "code": "EAGLE20",
+        "description": "Router de securitate industrial cu suport SHDSL, familia EAGLE"
+      },
+      {
+        "code": "EAGLE30",
+        "description": "Router de securitate industrial cu suport SHDSL, familia EAGLE"
+      },
+      {
+        "code": "EAGLE40-03",
+        "description": "Firewall industrial din familia EAGLE40, variantă cu 3 porturi"
+      },
+      {
+        "code": "EAGLE40-07",
+        "description": "Firewall industrial din familia EAGLE40, variantă cu 7 porturi"
+      },
+      {
+        "code": "EAGLE One",
+        "description": "Router de securitate industrial compact din familia EAGLE"
+      },
+      {
+        "code": "BAT450-F",
+        "description": "Punct de acces wireless industrial cu antenă externă, familia BAT"
+      },
+      {
+        "code": "BAT867-F",
+        "description": "Punct de acces wireless industrial de mare viteză, familia BAT"
+      },
+      {
+        "code": "BATOne",
+        "description": "Punct de acces wireless industrial compact din familia BAT"
+      },
+      {
+        "code": "LRS30",
+        "description": "Switch industrial de rețea din familia Lemur Rail Switch"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între switch-urile Hirschmann din familia BOBCAT și cele din familia GREYHOUND?",
+        "a": "Familia BOBCAT, cu modelele BXS, BXP, BRP și BRS, acoperă switch-uri industriale simple sau cu performanță medie, potrivite pentru rețele de dimensiuni reduse spre medii. Familia GREYHOUND, cu seriile GRS103 până la GRS2000, oferă funcții avansate de gestiune, redundanță de rețea și, la modelele superioare, porturi de fibră optică. Alegerea depinde de dimensiunea rețelei, de nevoia de gestiune la distanță și de mediul de instalare, cu praf, vibrații sau temperaturi extreme."
+      },
+      {
+        "q": "Ce rol are un router EAGLE de la Hirschmann într-o rețea industrială?",
+        "a": "Routerele din familia EAGLE, precum EAGLE20, EAGLE30 sau EAGLE One, separă segmente de rețea și filtrează traficul pentru a proteja echipamentele industriale de acces neautorizat sau de perturbări din alte zone ale fabricii. Modelele EAGLE40 adaugă funcții suplimentare de firewall și pot fi configurate cu un număr diferit de porturi, precum variantele 03 sau 07. Alegerea corectă ține de topologia rețelei și de numărul de segmente care trebuie separate."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de echipamente de rețea Hirschmann?",
+        "a": "Este utilă lista codurilor exacte dorite, de exemplu GRS1030 pentru un switch gestionat sau BAT867-F pentru un punct de acces wireless, împreună cu numărul de unități necesare. Dacă echipamentul înlocuiește unul existent, o fotografie a plăcuței de identificare ajută la evitarea confuziei între variantele apropiate din aceeași familie. Menționarea topologiei rețelei și a protocoalelor folosite grăbește pregătirea unei oferte corecte."
+      },
+      {
+        "q": "Livrați echipamente de rețea Hirschmann în România?",
+        "a": "Da, aducem la comandă switch-uri din familiile BOBCAT și GREYHOUND, routere EAGLE și puncte de acces BAT, pe baza codului exact solicitat. Nu ținem această gamă pe raft, iar orientarea de livrare publicată de producător se situează, de regulă, între două și șase săptămâni. Recomandăm confirmarea codului complet al modelului înainte de trimiterea cererii de ofertă."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Hirschmann Automation and Control – Documentation","url":"https://www.doc.hirschmann.com/index.html","publisher":"Hirschmann","accessed":"2026-09-25"},
       { title: "Hirschmann Automation and Control – documentație produse", url: "https://www.doc.hirschmann.com/index.html", publisher: "Hirschmann Automation and Control GmbH", accessed: "2026-09-22" },
       { title: "Hirschmann Automation and Control (Wikipedia, ediția germană)", url: "https://de.wikipedia.org/wiki/Hirschmann_Automation_and_Control", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -71,11 +172,81 @@ Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează
     ],
     infinitrade: `La Schmalz nu avem un istoric propriu de livrări și spunem asta direct — informațiile tehnice de mai sus vin din surse publice ale producătorului, nu din verificări proprii pe teren. Componentele se aduc la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-6 săptămâni din momentul confirmării comenzii. Pentru o ofertă corectă avem nevoie de tipul piesei manipulate, greutatea, materialul suprafeței și presiunea de aer comprimat disponibilă la punctul de montaj. Nu putem promite disponibilitate permanentă din stoc pentru fiecare configurație de ventuză sau generator — depinde de model și de furnizor.`,
     limitation: "Nu putem confirma termenele de livrare specifice fiecărui model de generator de vid fără o cerere de ofertă transmisă direct la producător.",
+    productCodes: [
+      {
+        "code": "SCPSi",
+        "description": "Ejector compact cu funcție IO-Link din gama de generatoare de vid"
+      },
+      {
+        "code": "SCPSc",
+        "description": "Ejector compact cu afișaj cu 7 segmente din gama de generatoare de vid"
+      },
+      {
+        "code": "SCPSi-L",
+        "description": "Variantă alungită a ejectorului compact SCPSi din gama de generatoare de vid"
+      },
+      {
+        "code": "VacuMaster",
+        "description": "Dispozitiv de ridicare pe vid pentru manipulare manuală a sarcinilor"
+      },
+      {
+        "code": "Vacuum Tube Lifter",
+        "description": "Sistem de ridicare cu tub de vid pentru manipulare manuală"
+      },
+      {
+        "code": "Smart Hoist",
+        "description": "Dispozitiv de ridicare inteligent pentru manipulare asistată a sarcinilor"
+      },
+      {
+        "code": "Vacuum Clamping Technology",
+        "description": "Sistem de fixare pe vid pentru prelucrarea pieselor pe mașini-unelte"
+      },
+      {
+        "code": "Vacuum Grippers",
+        "description": "Sisteme de prindere pe vid pentru automatizarea manipulării pieselor"
+      },
+      {
+        "code": "Vacuum Generators",
+        "description": "Generatoare de vid pentru alimentarea sistemelor de prindere"
+      },
+      {
+        "code": "Switches and System Monitoring",
+        "description": "Elemente de comutare și monitorizare pentru sistemele de vid"
+      },
+      {
+        "code": "Crane Systems and Jib Cranes",
+        "description": "Sisteme de macarale și braț articulat pentru manipulare manuală pe vid"
+      },
+      {
+        "code": "Portable Conveyor Systems",
+        "description": "Sisteme portabile de transport pentru manipularea sarcinilor pe distanțe scurte"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între ejectoarele Schmalz SCPSi și SCPSc?",
+        "a": "SCPSi este un ejector compact cu funcție IO-Link, care permite citirea și configurarea parametrilor direct din rețeaua de automatizare a fabricii. SCPSc folosește un afișaj local cu 7 segmente pentru citirea rapidă a valorilor de vid, fără a fi nevoie de conectare la o rețea industrială. Alegerea între cele două depinde de nivelul de integrare digitală dorit în instalația de manipulare pe vid."
+      },
+      {
+        "q": "Ce este un VacuMaster de la Schmalz și când se folosește?",
+        "a": "VacuMaster este un dispozitiv de ridicare pe vid folosit pentru manipularea manuală a plăcilor, panourilor sau altor obiecte cu suprafață netedă, fără cârlige sau chingi. Operatorul controlează prinderea și eliberarea sarcinii direct de la un mâner, reducând efortul fizic la ridicarea repetitivă a pieselor grele. Aparatul completează sistemele fixe de prindere pe vid din gama Schmalz, destinate liniilor automatizate."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de generator de vid Schmalz?",
+        "a": "Este necesar debitul de aer disponibil în instalație, presiunea de alimentare și dacă se dorește o variantă cu afișaj local, SCPSc, sau cu funcție IO-Link, SCPSi. Contează și tipul de piesă manipulată, deoarece influențează alegerea ventuzelor sau a sistemului de prindere asociat generatorului. Aceste informații permit identificarea rapidă a variantei potrivite din gama de vid a producătorului."
+      },
+      {
+        "q": "Livrați echipamente de vid Schmalz în România?",
+        "a": "Da, aducem la comandă generatoare de vid, sisteme de prindere și dispozitive de ridicare precum VacuMaster din portofoliul Schmalz, pe baza codului exact solicitat. Această gamă se comandă special, fără a fi ținută curent pe raft, termenul orientativ publicat de producător fiind de două-șase săptămâni. Recomandăm descrierea aplicației și a tipului de piesă manipulată pentru o ofertă corectă."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Schmalz – Vacuum Technology for Automation","url":"https://www.schmalz.com/en-us/","publisher":"Schmalz","accessed":"2026-09-25"},
+      {"title":"Schmalz – Compact Ejectors SCPSc / SCPSi","url":"https://www.schmalz.com/en/vacuum-technology-for-automation/vacuum-components/vacuum-generators/compact-ejectors/compact-ejectors-scps-scpsi-307842/","publisher":"Schmalz","accessed":"2026-09-25"},
       { title: "Schmalz – Vacuum Technology for Automation", url: "https://www.schmalz.com", publisher: "J. Schmalz GmbH", accessed: "2026-09-22" },
       { title: "J. Schmalz GmbH (Wikipedia)", url: "https://en.wikipedia.org/wiki/J._Schmalz_GmbH", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -109,11 +280,85 @@ Pentru transportatorii și constructorii din România, Hyva înseamnă piese de 
     ],
     infinitrade: `Pentru Hyva nu avem istoric de livrări proprii și spunem clar ce putem și ce nu putem confirma — datele tehnice de mai sus vin din informațiile publice disponibile pe site-ul producătorului. Cilindrii și componentele hidraulice se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru identificarea piesei corecte, avem nevoie de modelul vehiculului sau utilajului, cursa cilindrului sau capacitatea macaralei și, dacă e posibil, codul original al piesei. Nu putem asigura disponibilitate permanentă din stoc pentru toate variantele de cilindri — depinde de model și de sursă.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui cilindru cu un șasiu specific fără numărul de identificare al vehiculului sau desenul tehnic original.",
+    productCodes: [
+      {
+        "code": "FC A137-4-04980-004-K1050",
+        "description": "Cilindru telescopic frontal pentru basculantă, cod complet de identificare"
+      },
+      {
+        "code": "FC A191-4-05460-000-K0343",
+        "description": "Cilindru telescopic frontal pentru basculantă, variantă standard"
+      },
+      {
+        "code": "FC A7-5-278-K41-HD",
+        "description": "Cilindru telescopic frontal, variantă de rezistență sporită HD"
+      },
+      {
+        "code": "FC A129-3-03845-000-K0343-HD",
+        "description": "Cilindru telescopic frontal, variantă de rezistență sporită HD"
+      },
+      {
+        "code": "FC A5-3-147-K13",
+        "description": "Cilindru telescopic frontal pentru basculante de dimensiuni reduse"
+      },
+      {
+        "code": "FC A7-4-178-K13-HD2",
+        "description": "Cilindru telescopic frontal, variantă întărită HD2"
+      },
+      {
+        "code": "FC A6-4-197-K13",
+        "description": "Cilindru telescopic frontal pentru basculante de capacitate medie"
+      },
+      {
+        "code": "FC A191-4-05460-000-K0343-HC",
+        "description": "Cilindru telescopic frontal, variantă cu capac exterior HC"
+      },
+      {
+        "code": "FC A8-5-376-K19",
+        "description": "Cilindru telescopic frontal pentru basculante de capacitate mare"
+      },
+      {
+        "code": "FC Heavy Duty",
+        "description": "Gamă de cilindri telescopici frontali pentru basculante de peste 100 tone"
+      },
+      {
+        "code": "Hyva Digital Tipping Solutions",
+        "description": "Sistem digital de monitorizare a operațiunilor de basculare"
+      },
+      {
+        "code": "KENNIS e-Power rolloader",
+        "description": "Macara hidraulică electrică pentru încărcare de tip rolloader"
+      },
+      {
+        "code": "Amco Veba Marine Cranes",
+        "description": "Macarale hidraulice pentru aplicații navale și marine"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul complet al unui cilindru telescopic Hyva, de exemplu FC A137-4-04980-004-K1050?",
+        "a": "Codul unui cilindru telescopic Hyva din familia FC descrie, printr-o succesiune de litere și cifre, seria constructivă, numărul de trepte, cursa și varianta de fixare a cilindrului respectiv. Fiecare segment al codului corespunde unui parametru tehnic specific, publicat în documentația producătorului pentru identificarea exactă a piesei de schimb. La comandarea unui cilindru de schimb este esențial codul complet, nu doar seria FC, pentru a evita o piesă incompatibilă."
+      },
+      {
+        "q": "Ce diferență este între cilindrii Hyva FC standard și varianta Heavy Duty?",
+        "a": "Cilindrii FC standard acoperă basculante cu diametre ale primei trepte între 110 și 226 mm, pentru capacități obișnuite de transport rutier. Varianta FC Heavy Duty este construită pentru capete de tip drept și pentru o greutate de basculare de peste 100 de tone, folosită la vehicule de mare tonaj. Alegerea între cele două depinde de sarcina utilă a basculantei și de tipul de headboard folosit."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de cilindru telescopic Hyva?",
+        "a": "Este necesar codul complet de pe cilindrul existent, vizibil de obicei pe o plăcuță metalică, deoarece variantele din familia FC diferă prin curse și diametre apropiate, greu de distins vizual. Dacă plăcuța lipsește, ajută dimensiunile principale, numărul de trepte și tipul de basculantă pe care este montat cilindrul. Aceste detalii permit identificarea corectă a piesei înainte de trimiterea unei oferte."
+      },
+      {
+        "q": "Livrați cilindri și macarale Hyva în România?",
+        "a": "Da, aducem la comandă cilindri telescopici din familia FC, precum și macarale hidraulice din gamele KENNIS sau Amco Veba, pe baza codului exact solicitat. Această gamă nu este ținută pe raft, iar orientarea de livrare publicată de producător este, în general, între două și șase săptămâni. Recomandăm transmiterea codului complet al cilindrului sau al modelului de macara pentru o identificare corectă."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Hyva – Homepage","url":"https://www.hyva.com/en/","publisher":"Hyva","accessed":"2026-09-25"},
+      {"title":"Hyva – Front-End Cylinders","url":"https://www.hyva.com/en/solutions/tipping-systems/front-end-cylinders/","publisher":"Hyva","accessed":"2026-09-25"},
       { title: "Hyva – Telescopic Cylinders and Tipping Solutions", url: "https://www.hyva.com", publisher: "Hyva Group", accessed: "2026-09-22" },
       { title: "Hyva – About Us", url: "https://www.hyva.com/en/about-us", publisher: "Hyva Group", accessed: "2026-09-22" },
     ],
@@ -181,11 +426,84 @@ Pentru ateliere de mentenanță și producători de dispozitive din România, Ha
     ],
     infinitrade: `Pentru Halder nu avem date proprii de stoc și spunem asta deschis — informațiile de mai sus provin din pagina oficială a producătorului, fără verificare suplimentară în teren. Elementele standard se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, iar pentru cantități mici uneori termenul poate fi mai scurt, în funcție de disponibilitatea la distribuitorii europeni. Pentru ofertă avem nevoie de codul reperului sau desenul tehnic, materialul dorit și cantitatea. Nu putem asigura disponibilitate permanentă din stoc pentru toate variantele de bolțuri sau mânere.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui bolț de indexare cu un dispozitiv existent fără desenul tehnic sau codul original al piesei montate.",
+    productCodes: [
+      {
+        "code": "Index Plungers",
+        "description": "Bolțuri de indexare cu resort, pentru poziționarea rapidă a dispozitivelor"
+      },
+      {
+        "code": "Spring Plungers",
+        "description": "Bolțuri cu resort și bilă, pentru fixare ușoară cu forță reglabilă"
+      },
+      {
+        "code": "Locating Pins",
+        "description": "Bolțuri de centrare cu capăt sferic sau în trepte pentru dispozitive"
+      },
+      {
+        "code": "Threaded Lifting Pins PLUS",
+        "description": "Bolțuri filetate de ridicare, cu autoblocare și opțiune RFID"
+      },
+      {
+        "code": "Quick Clamping Pins",
+        "description": "Bolțuri de fixare rapidă pentru montaj și demontaj frecvent"
+      },
+      {
+        "code": "Fork Heads",
+        "description": "Cap furcă conform DIN 71752, pentru articulații de fixare"
+      },
+      {
+        "code": "Ball Lock Pins",
+        "description": "Bolțuri cu blocare prin bile, pentru aplicații aeronautice conform standardelor NAS și MS"
+      },
+      {
+        "code": "Warning Streamers",
+        "description": "Fanion de avertizare conform NAS 1756, pentru bolțuri de siguranță"
+      },
+      {
+        "code": "SIMPLEX Mallets",
+        "description": "Ciocan cu cap dublu SIMPLEX, din fontă sau aliaj ușor"
+      },
+      {
+        "code": "SUPERCRAFT Mallets",
+        "description": "Ciocan cu cap dublu SUPERCRAFT, carcasă din aluminiu"
+      },
+      {
+        "code": "BASEPLEX Mallets",
+        "description": "Ciocan cu cap dublu din gama BASEPLEX, pentru uz general"
+      },
+      {
+        "code": "FERROPLEX Combi Hammer",
+        "description": "Ciocan combinat FERROPLEX, cu cap metalic și cap moale"
+      },
+      {
+        "code": "Zero-Point Clamping Systems",
+        "description": "Sistem de fixare cu punct zero pentru schimbarea rapidă a paletelor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între bolțurile de indexare și bolțurile cu resort de la Halder?",
+        "a": "Bolțurile de indexare permit blocarea și deblocarea unei poziții printr-o mișcare de tragere sau rotire a mânerului, fiind folosite acolo unde poziția trebuie schimbată des și rapid. Bolțurile cu resort, numite și Spring Plungers, folosesc o bilă sau un vârf împins de un arc pentru a menține o poziție cu o forță reglabilă, fără mecanism de rotire. Alegerea depinde de frecvența schimbării poziției și de forța de reținere necesară în aplicația respectivă."
+      },
+      {
+        "q": "Ce este un sistem de fixare cu punct zero de la Halder?",
+        "a": "Un sistem de fixare cu punct zero permite montarea și demontarea rapidă a unei palete sau a unui dispozitiv pe mașina-unealtă, păstrând aceeași poziție de referință de fiecare dată. Acest lucru reduce timpul de pregătire între operații și elimină nevoia de realiniere manuală după fiecare schimbare de piesă sau dispozitiv. Sistemele din această categorie se folosesc frecvent în prelucrarea prin așchiere, la schimbări dese de serie."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de bolțuri sau ciocane Halder?",
+        "a": "Pentru bolțuri este utilă categoria dorită, indexare, resort sau centrare, diametrul tijei și lungimea totală, iar pentru aplicații aeronautice se menționează standardul NAS sau MS aplicabil. Pentru ciocane contează gama, SIMPLEX, SUPERCRAFT sau BASEPLEX, precum și greutatea capului dorită pentru lucrul respectiv. Aceste detalii permit alegerea rapidă a variantei potrivite din catalogul producătorului."
+      },
+      {
+        "q": "Livrați scule și elemente de fixare Halder în România?",
+        "a": "Da, aducem la comandă bolțuri de indexare, elemente de fixare și ciocane din gamele SIMPLEX sau SUPERCRAFT, din portofoliul Halder, pe baza codului dorit. Nu ținem această gamă pe raft; aducem elementele de fixare și sculele dorite la comandă, într-un termen public de două până la șase săptămâni. Recomandăm precizarea dimensiunilor exacte și a standardului aplicabil pentru o ofertă corectă."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Halder – Homepage","url":"https://www.halder.com/","publisher":"Halder","accessed":"2026-09-25"},
       { title: "Erwin Halder KG – Elemente standard de mașini", url: "https://www.halder.com/", publisher: "Erwin Halder KG", accessed: "2026-09-22" },
       { title: "Halder – hartă site (sitemap index)", url: "https://www.halder.com/sitemap.xml", publisher: "Erwin Halder KG", accessed: "2026-09-22" },
     ],
@@ -218,11 +536,89 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
     ],
     infinitrade: `La Roxtec nu avem istoric propriu de livrări și spunem direct ce putem și ce nu putem confirma — informațiile tehnice de mai sus vin din surse publice ale producătorului suedez. Cadrele și modulele de etanșare se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de numărul și diametrele cablurilor sau țevilor, tipul peretelui sau plăcii de trecere și clasa de protecție necesară (foc, apă, gaz). Nu putem promite disponibilitate permanentă din stoc pentru toate dimensiunile de module.`,
     limitation: "Nu putem realiza noi înșine dimensionarea în software-ul Transit Designer al producătorului — rămâne un serviciu oferit direct de echipa tehnică Roxtec.",
+    productCodes: [
+      {
+        "code": "RM 15",
+        "description": "Modul Multidiameter pentru cablu sau țeavă cu diametru exterior 3-11 mm"
+      },
+      {
+        "code": "RM 15W40",
+        "description": "Modul cu trei intrări, pentru diametre între 3,5 și 10,5 mm"
+      },
+      {
+        "code": "RM 20",
+        "description": "Modul de etanșare pentru diametre exterioare de 4-14,5 mm"
+      },
+      {
+        "code": "RM 20W40",
+        "description": "Variantă cu două intrări, interval util 3,5-16,5 mm"
+      },
+      {
+        "code": "RM 30",
+        "description": "Modul cu o singură intrare, acoperă 10-25 mm diametru"
+      },
+      {
+        "code": "RM 40",
+        "description": "Modul standard, plajă de lucru 21,5-34,5 mm"
+      },
+      {
+        "code": "RM 40 10-32",
+        "description": "Variantă cu interval extins, 9,5-32,5 mm diametru exterior"
+      },
+      {
+        "code": "RM 40H80",
+        "description": "Versiune cu înălțime dublă, aceeași plajă ca RM 40"
+      },
+      {
+        "code": "RM 60",
+        "description": "Modul pentru cabluri sau țevi de 28-54 mm"
+      },
+      {
+        "code": "RM 60 24-54",
+        "description": "Variantă cu limită inferioară mai mică, 24-54 mm"
+      },
+      {
+        "code": "RM 80",
+        "description": "Modul de capacitate mare, diametru exterior 48-71 mm"
+      },
+      {
+        "code": "RM 60 WOC",
+        "description": "Modul fără miez detașabil, pentru cabluri deja montate, 28-54 mm"
+      },
+      {
+        "code": "RM 80 WOC",
+        "description": "Variantă fără miez central, potrivită pentru retrofit, 48-71 mm"
+      },
+      {
+        "code": "RM 120 WOC",
+        "description": "Modulul cu diametrul cel mai încăpător fără miez, 67,5-99 mm"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum aleg modulul Roxtec potrivit pentru diametrul cablului meu?",
+        "a": "Alegerea se face după diametrul exterior real al cablului sau țevii, nu după denumirea comercială a acestuia: fiecare cod RM acoperă un interval precis, de exemplu RM 40 pentru 21,5-34,5 mm sau RM 60 pentru 28-54 mm. Modulul se poate ajusta prin îndepărtarea straturilor interioare, astfel încât un singur cod de bază poate acoperi mai multe diametre apropiate din aceeași familie."
+      },
+      {
+        "q": "Ce înseamnă varianta WOC la modulele Roxtec?",
+        "a": "WOC vine de la without core, adică modulul nu are miezul central detașabil și se montează direct peste cablul sau țeava deja instalată. Este util la lucrări de retrofit, unde cablul trece deja prin perete și nu mai poate fi tăiat sau scos din poziție. Codurile RM 60 WOC, RM 80 WOC și RM 120 WOC acoperă diametre mari, de la 24 până la 99 mm."
+      },
+      {
+        "q": "Livrați module Roxtec în România?",
+        "a": "Da, aducem seria Roxtec la comandă direct din gama oficială, de regulă în 2-6 săptămâni, pentru că nu ținem această gamă pe raft. Pentru o ofertă corectă avem nevoie de diametrul exterior exact al cablului sau țevii, tipul de perete ori cadru folosit și numărul de intrări necesare, ca să confirmăm codul RM potrivit înainte de comandă."
+      },
+      {
+        "q": "Ce diferență este între RM 40 și RM 40 10-32?",
+        "a": "Diferența constă în intervalul de diametru acoperit: RM 40 standard este gândit pentru 21,5-34,5 mm, în timp ce RM 40 10-32 extinde plaja utilă spre valori mai mici, până la 9,5 mm, fiind mai flexibil când diametrul cablului nu este cunoscut cu precizie la momentul comenzii. Ambele module aparțin aceluiași sistem Multidiameter și se montează în aceleași cadre Roxtec."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Roxtec RM module with Multidiameter","url":"https://www.roxtec.com/us/products/system-components/sealing-components/roxtec-rm-module-with-multidiameter/","publisher":"Roxtec","accessed":"2026-09-25"},
+      {"title":"Roxtec - Products","url":"https://www.roxtec.com/en/products/","publisher":"Roxtec","accessed":"2026-09-25"},
       { title: "Roxtec International AB – Home", url: "https://www.roxtec.com/en/", publisher: "Roxtec International AB", accessed: "2026-09-22" },
       { title: "Roxtec (Wikipedia)", url: "https://en.wikipedia.org/wiki/Roxtec", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -255,11 +651,84 @@ Pentru clădiri din România fără acces la gaz la conductă sau pentru instala
     ],
     infinitrade: `Pentru Arca Caldaie nu avem date proprii de stoc și lucrăm din informațiile publice de pe site-ul producătorului italian — spunem direct ce putem și ce nu putem confirma pentru fiecare model. Cazanele și componentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de puterea necesară, tipul de combustibil disponibil și dacă instalația e nouă sau înlocuiește un cazan existent. Nu promitem disponibilitate permanentă din stoc pentru fiecare model — depinde de gamă și de sezon.`,
     limitation: "Nu putem confirma disponibilitatea pieselor de schimb pe termen lung pentru modele mai vechi, scoase între timp din fabricația curentă a producătorului.",
+    productCodes: [
+      {
+        "code": "Pixel MX",
+        "description": "Cazan mural pe gaz din gama actuală a producătorului"
+      },
+      {
+        "code": "Pixelfast MX",
+        "description": "Cazan mural pe gaz, versiune performantă a gamei Pixel"
+      },
+      {
+        "code": "Cazan pe biomasă cu Biovoltaico",
+        "description": "Combină arderea lemn sau peleți cu integrare fotovoltaică"
+      },
+      {
+        "code": "Sobă pe peleți cu aer cald",
+        "description": "Unitate de încălzire pe bază de peleți, cu ventilare aer cald"
+      },
+      {
+        "code": "Generator de aer cald pe biomasă",
+        "description": "Echipament pentru încălzirea spațiilor mari cu combustibil solid"
+      },
+      {
+        "code": "Sistem hibrid cazan și fotovoltaic",
+        "description": "Combină un cazan pe gaz cu panouri solare fotovoltaice"
+      },
+      {
+        "code": "Sistema SUN",
+        "description": "Sistem hibrid cu integrare solară pentru producerea agentului termic"
+      },
+      {
+        "code": "Cazan din oțel",
+        "description": "Cazan industrial din oțel, pentru instalații de dimensiuni mai mari"
+      },
+      {
+        "code": "Climatizare cu pompă de căldură",
+        "description": "Echipament pentru răcire și încălzire cu pompă de căldură"
+      },
+      {
+        "code": "Panou solar termic",
+        "description": "Colector solar pentru producerea apei calde menajere"
+      },
+      {
+        "code": "Încălzire în pardoseală radiantă",
+        "description": "Sistem de distribuție a căldurii prin pardoseală"
+      },
+      {
+        "code": "Boiler pentru apă caldă menajeră",
+        "description": "Unitate dedicată producerii apei calde de consum"
+      },
+      {
+        "code": "Rezervor de acumulare",
+        "description": "Rezervor tampon pentru sisteme termice combinate"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce tipuri de cazane produce Arca Caldaie?",
+        "a": "Arca Caldaie produce cazane murale pe gaz din gama Pixel, cazane pe biomasă cu lemn sau peleți, sisteme hibride care combină un cazan cu panouri fotovoltaice și cazane industriale din oțel pentru instalații de dimensiuni mai mari. Gama include și boilere, rezervoare de acumulare și sisteme de climatizare cu pompă de căldură pentru proiecte complete de încălzire."
+      },
+      {
+        "q": "Ce este sistemul hibrid Sistema SUN de la Arca Caldaie?",
+        "a": "Sistema SUN este soluția hibridă a producătorului care integrează un cazan cu tehnologie solară fotovoltaică, reducând consumul de combustibil clasic prin folosirea energiei captate de panouri. Este gândit pentru locuințe unde se dorește o sursă suplimentară de energie alături de cazanul pe gaz sau biomasă, fără a înlocui complet sistemul clasic de încălzire."
+      },
+      {
+        "q": "Livrați echipamente Arca Caldaie în România?",
+        "a": "Da, echipamentele Arca Caldaie ajung la comandă în circa 2-6 săptămâni; nu păstrăm această gamă pe raft, ci o aducem punctual pentru fiecare proiect, pe baza modelului exact solicitat din catalogul producătorului. Vă recomandăm să indicați puterea termică necesară și tipul de combustibil dorit, gaz, biomasă sau sistem hibrid, pentru o ofertă corectă."
+      },
+      {
+        "q": "Ce diferență este între un cazan pe gaz și un sistem hibrid la Arca Caldaie?",
+        "a": "Cazanul pe gaz din gama Pixel sau Pixelfast produce agent termic exclusiv prin arderea gazului metan, în timp ce sistemul hibrid combină acest cazan cu panouri fotovoltaice care alimentează o parte din consumul electric al instalației. Alegerea depinde de bugetul disponibil, de expunerea solară a clădirii și de obiectivul de reducere a facturii la energie."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Arca Caldaie","url":"https://www.arcacaldaie.com/","publisher":"Arca Caldaie","accessed":"2026-09-25"},
       { title: "Arca Caldaie – Prodotti", url: "https://www.arcacaldaie.com", publisher: "Arca Caldaie S.r.l.", accessed: "2026-09-22" },
       { title: "Arca Caldaie – Distribuție în România", url: "https://www.arcacaldaie.com/importatori-oficiali-romania", publisher: "Arca Caldaie S.r.l.", accessed: "2026-09-22" },
     ],
@@ -292,11 +761,80 @@ Pentru procesatorii din România din lactate, băuturi sau industria farmaceutic
     ],
     infinitrade: `Pentru GEA nu avem date proprii de stoc pe partea de pompe și lucrăm din informațiile publice ale producătorului — spunem deschis ce putem și ce nu putem confirma pentru fiecare model. Pompele și componentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul fluidului pompat, debitul și presiunea necesară, plus cerințele de curățare CIP dacă e cazul. Nu putem asigura disponibilitate permanentă din stoc pentru toate modelele din gama GEA — depinde de configurație și de producție.`,
     limitation: "Nu putem confirma configurațiile exacte de etanșare igienică disponibile pentru fiecare model fără o cerere tehnică transmisă direct la producător.",
+    productCodes: [
+      {
+        "code": "LVP1",
+        "description": "Pompă de vid tip jet, funcționează fără abur ca mediu motor"
+      },
+      {
+        "code": "GEA Hilge NOVATWIN+",
+        "description": "Pompă cu șurub dublu, cu consum energetic redus"
+      },
+      {
+        "code": "Aseptic Pigging System",
+        "description": "Recuperează produsul rămas pe conductă cu aer steril comprimat"
+      },
+      {
+        "code": "Aseptomag GD",
+        "description": "Supapă de contrapresiune cu burduf din oțel inoxidabil"
+      },
+      {
+        "code": "BUCK AC",
+        "description": "Supapă pentru transfer de pulberi, rezistentă la solvenți"
+      },
+      {
+        "code": "Aseptomag AV",
+        "description": "Supapă aseptică, cu proceduri de mentenanță documentate"
+      },
+      {
+        "code": "Pompe centrifuge igienice",
+        "description": "Pompe pentru aplicații sanitare din industria alimentară"
+      },
+      {
+        "code": "Pompe cu piston de înaltă presiune",
+        "description": "Echipamente pentru presiuni ridicate de proces"
+      },
+      {
+        "code": "Pompe cu jet de aer",
+        "description": "Folosite pentru generarea de vid în procese industriale"
+      },
+      {
+        "code": "Pompe igienice",
+        "description": "Categorie de pompe destinate aplicațiilor sanitare"
+      },
+      {
+        "code": "Supape și componente igienice",
+        "description": "Echipamente pentru manipularea lichidelor în industria alimentară"
+      },
+      {
+        "code": "Supape și componente aseptice",
+        "description": "Echipamente pentru procesarea aseptică a lichidelor"
+      },
+      {
+        "code": "Supape și ecluze pentru pulberi",
+        "description": "Echipamente pentru manipularea materialelor pulverulente"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este pompa GEA Hilge NOVATWIN+?",
+        "a": "GEA Hilge NOVATWIN+ este o pompă cu șurub dublu, regândită pentru un consum energetic redus față de generația anterioară, fiind folosită la pomparea produselor din industria alimentară și farmaceutică. Funcționează fără contact metalic între șuruburi, ceea ce reduce uzura, iar geometria internă este optimizată pentru eficiență hidraulică ridicată la debite variabile."
+      },
+      {
+        "q": "Ce diferență este între o supapă Aseptomag GD și una Aseptomag AV?",
+        "a": "Aseptomag GD este o supapă de contrapresiune cu burduf din oțel inoxidabil, folosită pentru menținerea unei presiuni constante pe linie, în timp ce Aseptomag AV este o supapă aseptică generală, cu proceduri de întreținere documentate, potrivită pentru control de flux în sisteme sterile. Alegerea depinde de funcția exactă necesară în schema de proces."
+      },
+      {
+        "q": "Livrați pompe și supape GEA în România?",
+        "a": "Da, aducem componentele GEA la comandă, orientativ în 2-6 săptămâni, întrucât gama nu este ținută pe raft din cauza numărului mare de variante tehnice. Pentru o ofertă corectă avem nevoie de tipul de fluid procesat, debitul și presiunea de lucru dorite, precum și aplicația exactă, alimentară, farmaceutică sau industrială."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"GEA - Pumps, Valves & Flow Components","url":"https://www.gea.com/en/products/pumps-valves-flow-components/","publisher":"GEA Group","accessed":"2026-09-25"},
       { title: "GEA – Company Website", url: "https://www.gea.com", publisher: "GEA Group AG", accessed: "2026-09-22" },
       { title: "GEA – Pumps, Valves and Flow Components", url: "https://www.gea.com/en/products/pumps-valves-flow-components/", publisher: "GEA Group AG", accessed: "2026-09-22" },
       { title: "GEA Group (Wikipedia)", url: "https://en.wikipedia.org/wiki/GEA_Group", publisher: "Wikipedia", accessed: "2026-09-22" },
@@ -331,11 +869,96 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
     ],
     infinitrade: `Pentru Fein nu avem istoric propriu de vânzări și lucrăm din informațiile publice de pe site-ul producătorului — spunem clar ce putem și ce nu putem confirma pentru fiecare model de sculă. Sculele Fein se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de modelul exact sau aplicația dorită (găurire, tăiere, șlefuire), plus tipul de alimentare preferat. Nu promitem disponibilitate permanentă din stoc pentru fiecare referință — depinde de gamă și de perioada anului.`,
     limitation: "Nu putem confirma acoperirea garanției extinse FEIN PLUS pentru scule aduse prin canale de aprovizionare din afara rețelei oficiale de vânzare a producătorului.",
+    productCodes: [
+      {
+        "code": "MULTIMASTER",
+        "description": "Sistem de scule oscilante pentru lucrări de interior și renovare"
+      },
+      {
+        "code": "MULTIMASTER AUTOMOTIVE",
+        "description": "Variantă a sculei oscilante adaptată lucrărilor din domeniul auto"
+      },
+      {
+        "code": "Mașini de găurit/înșurubat cu acumulator",
+        "description": "Scule portabile pentru prelucrarea metalului pe șantier"
+      },
+      {
+        "code": "Cheie de impact cu acumulator 3/4in",
+        "description": "Echipament de mare cuplu pentru strângeri grele"
+      },
+      {
+        "code": "Mașini de găurit electrice",
+        "description": "Scule cu cablu pentru găurire în metal"
+      },
+      {
+        "code": "FEIN AccuTec",
+        "description": "Linie de scule de găurit de precizie"
+      },
+      {
+        "code": "Filetatoare",
+        "description": "Scule pentru filetare pe metal"
+      },
+      {
+        "code": "Polizoare unghiulare",
+        "description": "Scule pentru șlefuire și debitare, diametre 4-1/2 până la 6 inch"
+      },
+      {
+        "code": "Polizoare drepte",
+        "description": "Scule mici de precizie pentru șlefuire"
+      },
+      {
+        "code": "Slugger by FEIN",
+        "description": "Mașini de găurit magnetice, capacitate până la 4-5/16 inch"
+      },
+      {
+        "code": "Seria Endurance",
+        "description": "Mașini de găurit magnetice de nivel de bază"
+      },
+      {
+        "code": "Seria Compact",
+        "description": "Mașini de găurit magnetice portabile"
+      },
+      {
+        "code": "Seria Universal",
+        "description": "Mașini de găurit magnetice versatile"
+      },
+      {
+        "code": "Seria Automatic",
+        "description": "Mașini de găurit magnetice cu avans automat"
+      },
+      {
+        "code": "Fierăstraie pentru metal",
+        "description": "Echipamente de precizie pentru tăierea metalului"
+      },
+      {
+        "code": "Nibblere pentru tablă",
+        "description": "Scule pentru decupaje precise în tablă subțire"
+      },
+      {
+        "code": "FEIN VersaMAG",
+        "description": "Sistem de fixare magnetică permanentă"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este scula oscilantă MultiMaster de la Fein?",
+        "a": "MultiMaster este sistemul de scule oscilante Fein folosit la tăiere, șlefuire și îndepărtarea materialelor în spații înguste, tipic la lucrări de renovare interioară. Capul oscilant permite schimbarea rapidă a accesoriilor, iar varianta MultiMaster Automotive este adaptată specific lucrărilor din domeniul auto, cum ar fi îndepărtarea garniturilor sau a foliilor de protecție."
+      },
+      {
+        "q": "Ce diferență este între mașinile de găurit magnetice Endurance și Universal?",
+        "a": "Seria Endurance este gândită ca variantă de bază pentru găurire magnetică, cu funcții esențiale și cost redus, în timp ce seria Universal oferă o gamă mai largă de puteri și accesorii, potrivită pentru aplicații variate pe șantier sau în atelier. Seria Automatic adaugă avans automat al burghiului, utilă la găuri repetitive de aceeași dimensiune."
+      },
+      {
+        "q": "Livrați scule Fein în România?",
+        "a": "Da, sculele Fein comandate ajung în aproximativ 2-6 săptămâni de la confirmare, deoarece gama nu este păstrată pe raft din cauza numărului mare de variante și accesorii. Este util să precizați aplicația exactă, metal, lemn sau lucrări auto, și tipul de acumulator sau alimentare dorit, pentru a recomanda modelul potrivit."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"FEIN - Products","url":"https://fein.com/en_us/products/","publisher":"C. & E. Fein GmbH","accessed":"2026-09-25"},
       { title: "FEIN – Premium Power Tools", url: "https://fein.com", publisher: "C. & E. Fein GmbH", accessed: "2026-09-22" },
       { title: "FEIN – Product Lines", url: "https://fein.com/en_us/products/", publisher: "C. & E. Fein GmbH", accessed: "2026-09-22" },
     ],
@@ -369,11 +992,88 @@ Pentru ateliere de producție și control calitate din România care au nevoie d
     ],
     infinitrade: `Pentru Insize nu avem date proprii de stoc și lucrăm din informațiile publice ale producătorului — spunem direct ce putem și ce nu putem confirma pentru fiecare instrument. Instrumentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul instrumentului dorit, domeniul de măsurare și clasa de precizie necesară. Nu putem asigura disponibilitate permanentă din stoc pentru fiecare model din gamă — depinde de instrument și de cantitate.`,
     limitation: "Nu putem furniza certificate de etalonare proprii pentru instrumentele Insize — clientul trebuie să apeleze la un laborator de metrologie acreditat pentru etalonare periodică.",
+    productCodes: [
+      {
+        "code": "DEM-S100",
+        "description": "Microscop desktop cu filament de tungsten pentru mărire electronică"
+      },
+      {
+        "code": "2266",
+        "description": "Instrument de măsurare a diametrului exterior la etanșări"
+      },
+      {
+        "code": "8507",
+        "description": "Cântar platformă cu numărare, pentru aplicații industriale"
+      },
+      {
+        "code": "8506",
+        "description": "Cântar platformă de înaltă precizie pentru laborator"
+      },
+      {
+        "code": "HDT-HV410/HV450",
+        "description": "Durometru digital motorizat Vickers pentru testarea durității"
+      },
+      {
+        "code": "PSM-S01/S02",
+        "description": "Polarimetru de tensiuni pentru sticle din PET"
+      },
+      {
+        "code": "4768",
+        "description": "Comparator de concentricitate pentru măsurarea bătăii radiale"
+      },
+      {
+        "code": "TSB-S32",
+        "description": "Nivelă digitală pentru unghiuri și planeitate"
+      },
+      {
+        "code": "9658-RM30",
+        "description": "Tester digital de rezistență electrică continuă"
+      },
+      {
+        "code": "9436-CW20/CW04",
+        "description": "Calibrator pentru palpatoare liniare"
+      },
+      {
+        "code": "9409-WF04",
+        "description": "Calibrator pentru afișaje de comparatoare pneumatice"
+      },
+      {
+        "code": "2338/2228",
+        "description": "Comparator de alezaj cu ceas indicator, mâner scurt"
+      },
+      {
+        "code": "5325-VM100/VM200",
+        "description": "Microscop cu zoom motorizat, tip de bază"
+      },
+      {
+        "code": "2199-1/1WL",
+        "description": "Nivelă digitală pe două axe cu giroscop pentru unghiuri"
+      },
+      {
+        "code": "RBT-ISU01",
+        "description": "Sistem automat cu ultrasunete pentru măsurarea grosimii materialelor"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce instrumente de măsurare produce Insize?",
+        "a": "Insize produce o gamă largă de instrumente de măsurare de precizie, de la șublere și micrometre digitale, la durometre precum HDT-HV410/HV450, comparatoare de concentricitate cum este modelul 4768 și sisteme de măsurare optică sau cu ultrasunete, cum este RBT-ISU01. Multe modele au variante motorizate sau digitale pentru citire directă a valorilor."
+      },
+      {
+        "q": "Cum aleg durometrul Insize potrivit pentru piesele mele?",
+        "a": "Alegerea depinde de scara de duritate necesară și de dimensiunea piesei testate: modelul HDT-HV410/HV450 este un durometru Vickers motorizat, potrivit pentru laboratoare care testează serii de piese metalice, oferind citire automată și repetabilitate ridicată. Pentru piese mari sau geometrii neobișnuite, verificați spațiul de lucru disponibil sub cap înainte de a alege modelul exact."
+      },
+      {
+        "q": "Livrați instrumente Insize în România?",
+        "a": "Da, instrumentele Insize se aduc la comandă din catalogul oficial, cu un termen tipic de 2-6 săptămâni, fără gamă păstrată pe raft în magazin. Pentru o ofertă corectă avem nevoie de codul exact al modelului sau de aplicația de măsurare dorită, domeniul de măsură și clasa de precizie cerută."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"INSIZE - Product","url":"https://www.insize.com/product","publisher":"Insize","accessed":"2026-09-25"},
       { title: "INSIZE – Precision Measuring Instruments", url: "https://www.insize.com", publisher: "Insize Co., Ltd.", accessed: "2026-09-22" },
       { title: "INSIZE – About Us", url: "https://www.insize.com/about-us", publisher: "Insize Co., Ltd.", accessed: "2026-09-22" },
     ],
@@ -481,11 +1181,93 @@ Pentru clădiri comerciale, hale industriale și depozite din România cu cerin�
     certifications: [ "AMCA Certified Ratings Programme", "Eurovent Certified Performance", "HVI Certified Ratings Programme" ],
     infinitrade: `Pentru Systemair nu avem istoric propriu de livrări și lucrăm din informațiile publice ale producătorului — spunem clar ce putem și ce nu putem confirma pentru fiecare model de ventilator sau unitate de tratare aer. Echipamentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de debitul de aer necesar, presiunea disponibilă în instalație și dacă aplicația e industrială, comercială sau rezidențială. Nu promitem disponibilitate permanentă din stoc pentru fiecare unitate configurată — depinde de model și de opțiunile alese.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unităților de tratare aer configurate special, care se fabrică la comandă în funcție de proiect.",
+    productCodes: [
+      {
+        "code": "SAVE",
+        "description": "Unitate de ventilație rezidențială pentru aer proaspăt"
+      },
+      {
+        "code": "Topvex",
+        "description": "Unitate compactă predefinită de tratare a aerului"
+      },
+      {
+        "code": "Topvex TRHP",
+        "description": "Unitate compactă predefinită cu pompă de căldură integrată"
+      },
+      {
+        "code": "Geniox",
+        "description": "Unitate modulară de tratare a aerului, gama principală"
+      },
+      {
+        "code": "Geniox Core",
+        "description": "Unitate modulară compactă, cu livrare rapidă"
+      },
+      {
+        "code": "Geniox Go",
+        "description": "Unitate modulară preconfigurată, flexibilă pentru proiecte variate"
+      },
+      {
+        "code": "Geniox HP DFN",
+        "description": "Unitate modulară cu pompă de căldură integrată"
+      },
+      {
+        "code": "KA",
+        "description": "Unitate modulară de tratare a aerului pentru aplicații personalizate"
+      },
+      {
+        "code": "AXC",
+        "description": "Ventilator axial de presiune medie"
+      },
+      {
+        "code": "AXC-EC",
+        "description": "Ventilator axial cu motor EC, eficiență ridicată IE5"
+      },
+      {
+        "code": "AXC-G",
+        "description": "Ventilator axial de înaltă presiune pentru garaje"
+      },
+      {
+        "code": "AXC(B)",
+        "description": "Ventilator axial pentru evacuare de fum"
+      },
+      {
+        "code": "AXC(B)-G",
+        "description": "Ventilator axial de înaltă presiune pentru evacuare fum, garaje"
+      },
+      {
+        "code": "AXC(F)-G",
+        "description": "Ventilator axial de înaltă presiune pentru evacuare fum industrial"
+      },
+      {
+        "code": "AXC-EX",
+        "description": "Ventilator axial antiexplozie pentru atmosfere speciale"
+      },
+      {
+        "code": "AXCBF",
+        "description": "Ventilator axial bifurcat pentru evacuare la temperaturi ridicate"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între gama Geniox și Geniox Core la Systemair?",
+        "a": "Geniox este gama modulară principală Systemair, gândită pentru proiecte personalizate cu multe opțiuni de configurare, în timp ce Geniox Core este o variantă mai compactă, cu termen de livrare mai scurt și configurație predefinită pentru cazuri uzuale. Geniox HP DFN adaugă o pompă de căldură integrată pentru recuperare energetică suplimentară."
+      },
+      {
+        "q": "Ce este ventilatorul axial AXC-EC de la Systemair?",
+        "a": "AXC-EC este un ventilator axial echipat cu motor EC de eficiență ridicată, clasa IE5 conform IEC 60034-30-2, disponibil cu puteri de până la 15 kW. Este gândit pentru aplicații unde reglarea turației și consumul energetic redus contează, spre deosebire de varianta AXC standard, cu motor asincron clasic."
+      },
+      {
+        "q": "Livrați unități Systemair în România?",
+        "a": "Da, unitățile Systemair solicitate se comandă din gama producătorului, cu termen orientativ de 2-6 săptămâni, fără această gamă păstrată pe raft. Pentru o ofertă corectă avem nevoie de debitul de aer necesar, aplicația exactă, rezidențială sau industrială, și dacă este nevoie de recuperare de căldură."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Systemair - Air Handling Units","url":"https://www.systemair.com/en/products/air-handling-units/","publisher":"Systemair","accessed":"2026-09-25"},
+      {"title":"Systemair - AXC Axial Fans","url":"https://www.systemair.com/en/products/fans/axial-fans/axc","publisher":"Systemair","accessed":"2026-09-25"},
       { title: "Systemair – Home", url: "https://www.systemair.com/", publisher: "Systemair AB", accessed: "2026-09-22" },
       { title: "Systemair – Products", url: "https://www.systemair.com/en/products/", publisher: "Systemair AB", accessed: "2026-09-22" },
     ],

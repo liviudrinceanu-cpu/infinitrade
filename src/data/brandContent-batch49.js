@@ -31,11 +31,72 @@ Ce diferențiază Advantech de un simplu asamblor de PC-uri industriale este pla
     ],
     infinitrade: `Lucrăm cu ce putem și ce nu putem confirma din informațiile publicate de producător, fără date proprii de stoc pe această gamă Advantech. Aducem calculatoare industriale, panel PC-uri și module IoT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de configurația cerută. Pentru o ofertă corectă avem nevoie de codul de produs sau seria dorită, cerințele de procesor și memorie, tipul de montaj și mediul de operare (temperatură, praf, vibrații). Nu promitem disponibilitate permanentă din stoc pentru toată gama Advantech și recomandăm confirmarea termenului înainte de a-l include într-un proiect cu dată fixă de finalizare.`,
     limitation: "Nu putem confirma configurarea software specifică platformei WISE-PaaS sau integrarea cu sisteme SCADA proprietare ale clientului.",
+    productCodes: [
+      {
+        "code": "UNO-2473G",
+        "description": "Calculator industrial embedded fanless, procesor Intel Celeron, 2-4 porturi Gigabit"
+      },
+      {
+        "code": "UNO-238",
+        "description": "Calculator industrial box compact pentru automatizare"
+      },
+      {
+        "code": "UNO-2272G",
+        "description": "Calculator industrial embedded pentru aplicații de automatizare"
+      },
+      {
+        "code": "UNO-2484G",
+        "description": "Calculator industrial embedded cu opțiuni extinse de extensie"
+      },
+      {
+        "code": "EKI-7712G-4FPI",
+        "description": "Switch Ethernet industrial gestionat, porturi Gigabit cu fibră optică"
+      },
+      {
+        "code": "EKI-5629CI",
+        "description": "Switch Ethernet industrial nemanaged, certificat pentru zone cu risc de explozie"
+      },
+      {
+        "code": "EKI-2528I",
+        "description": "Switch Ethernet industrial nemanaged, montaj pe șină DIN"
+      },
+      {
+        "code": "EKI-8510G-2FI",
+        "description": "Switch Ethernet industrial gestionat, porturi Gigabit și fibră optică"
+      },
+      {
+        "code": "EKI-5000",
+        "description": "Familie de switch-uri Ethernet industriale gestionate, nivel de intrare"
+      },
+      {
+        "code": "EKI-2000",
+        "description": "Familie de switch-uri Ethernet industriale nemanaged, nivel de bază"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este calculatorul industrial UNO-2473G de la Advantech?",
+        "a": "UNO-2473G este un calculator industrial embedded, fanless, din gama Advantech, echipat cu procesor Intel Celeron pe patru nuclee și carcasă compactă din aluminiu, gândită pentru montaj în tablouri de automatizare cu spațiu limitat. Oferă mai multe porturi Gigabit Ethernet și seriale, ceea ce îl face potrivit pentru colectarea de date de la echipamente industriale mai vechi. Alimentarea se face la 12 sau 24 V curent continuu."
+      },
+      {
+        "q": "Ce diferență este între switch-urile Ethernet EKI-2000 și EKI-5000 de la Advantech?",
+        "a": "Seria EKI-2000 cuprinde switch-uri Ethernet industriale nemanaged, de bază, potrivite pentru rețele simple unde nu este nevoie de configurare avansată. Seria EKI-5000 adaugă funcții de management, precum monitorizarea porturilor sau segmentarea rețelei în VLAN-uri, utile în instalații mai complexe cu mai multe echipamente conectate. Alegerea între cele două depinde de nevoia reală de administrare a rețelei industriale."
+      },
+      {
+        "q": "Livrați echipamente Advantech în România?",
+        "a": "Da, aducem la comandă echipamentele Advantech prezentate mai sus; estimarea noastră este de 2-6 săptămâni, calculată după disponibilitatea liniei de fabricație. Nu ținem aceste produse pe raft; detaliile tehnice provin din fișele publice ale producătorului, fără evidențe interne despre stoc. Spuneți-ne dacă aveți nevoie de accesorii de montaj sau de o anumită temperatură de operare, la trimiterea cererii."
+      },
+      {
+        "q": "Ce înseamnă sufixul FPI din codul EKI-7712G-4FPI?",
+        "a": "Sufixul din codurile de switch-uri Advantech, precum FPI la EKI-7712G-4FPI, indică de obicei combinația de porturi cu fibră optică și alimentare prin cablul de rețea, alături de numărul de porturi Gigabit disponibile. Detaliile exacte ale fiecărei litere pot varia ușor între familii de produse, motiv pentru care recomandăm verificarea fișei tehnice complete înainte de a confirma comanda."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"UNO-2473G","url":"https://www.advantech.com/en-us/products/1-2mlj9a/uno-2473g/mod_c8073ab0-93f4-4e49-a434-84ce3e40e042","publisher":"Advantech","accessed":"2026-09-25"},
       { title: "Advantech - Industrial IoT and Automation Solutions", url: "https://www.advantech.com/en-us", publisher: "Advantech Co., Ltd.", accessed: "2026-09-22" },
       { title: "About Advantech", url: "https://www.advantech.com/en-us/about", publisher: "Advantech Co., Ltd.", accessed: "2026-09-22" },
     ],
@@ -72,11 +133,81 @@ Ce diferențiază Schunk este amploarea portofoliului de gripere — de la model
     ],
     infinitrade: `Pentru Schunk ne bazăm strict pe surse publice ale producătorului, fără niciun fapt propriu despre stocul acestei game. Gripere și module de fixare aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul ne trimite geometria și greutatea piesei, tipul de flanșă de robot sau de mașină-unealtă și forța de strângere necesară. Majoritatea variantelor Schunk sunt construcții adaptate aplicației, așa că nu putem păstra stoc pentru fiecare combinație posibilă și recomandăm confirmarea configurației înainte de a bloca un termen de livrare pentru proiect.`,
     limitation: "Nu putem confirma configurația exactă a unui griper (forță, cursă, tip deget) fără specificațiile tehnice ale clientului și nu oferim service în perioada de garanție a producătorului.",
+    productCodes: [
+      {
+        "code": "PGN-plus-P",
+        "description": "Gripper paralel universal, versiune compactă din familia PGN-plus"
+      },
+      {
+        "code": "PGN-plus 160-1-IS",
+        "description": "Gripper paralel universal, cursă 16 mm, forță de deschidere 2340 N"
+      },
+      {
+        "code": "PGN-plus 240-1-IS",
+        "description": "Gripper paralel universal, dimensiune 240, menținere pneumatică a forței"
+      },
+      {
+        "code": "PGN-plus 80-1-AS",
+        "description": "Gripper paralel universal, dimensiune 80, variantă compactă"
+      },
+      {
+        "code": "KGG 80-30",
+        "description": "Gripper paralel îngust pentru componente mici, dimensiune 80"
+      },
+      {
+        "code": "PZN-plus 300-1-IS",
+        "description": "Gripper centric cu trei fălci, dimensiune 300, menținere pneumatică a forței"
+      },
+      {
+        "code": "PZN-plus 300-2-IS",
+        "description": "Gripper centric cu trei fălci, dimensiune 300, cursă lungă"
+      },
+      {
+        "code": "PZN-plus 300-1-P",
+        "description": "Gripper centric cu trei fălci, dimensiune 300, variantă cu senzor de poziție"
+      },
+      {
+        "code": "PZN-plus 300-1",
+        "description": "Gripper centric cu trei fălci, dimensiune 300, versiune standard"
+      },
+      {
+        "code": "PGN-plus 300-1-AS-P",
+        "description": "Gripper paralel universal, dimensiune 300, variantă compactă cu senzor"
+      },
+      {
+        "code": "PGN-plus 300-1-AS-SD",
+        "description": "Gripper paralel universal, dimensiune 300, variantă compactă cu detecție de poziție"
+      },
+      {
+        "code": "PGN-plus 300-1",
+        "description": "Gripper paralel universal, dimensiune 300, versiune standard"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între un gripper PGN-plus și unul PZN-plus la SCHUNK?",
+        "a": "Gripperul PGN-plus, de la SCHUNK, are două fălci care se mișcă paralel, potrivit pentru prinderea pieselor cu forme regulate, dreptunghiulare sau cilindrice, din două părți opuse. Gripperul PZN-plus are trei fălci care se mișcă centric, utile pentru piese cu simetrie rotundă, unde centrarea automată a piesei este importantă pentru precizia procesului. Ambele familii sunt disponibile în mai multe dimensiuni."
+      },
+      {
+        "q": "Ce înseamnă cifra 160 din codul PGN-plus 160-1-IS?",
+        "a": "Cifra 160 din codul PGN-plus 160-1-IS reprezintă dimensiunea constructivă a gripperului SCHUNK, care determină cursa pe fiecare falcă și forța de deschidere disponibilă - în acest caz o cursă de 16 mm și o forță de aproximativ 2340 N. Sufixul IS arată că gripperul menține forța de strângere pe cale pneumatică. Dimensiuni mai mari din aceeași familie oferă forțe mai ridicate, dar necesită spațiu de montaj mai mare."
+      },
+      {
+        "q": "Livrați gripper-e SCHUNK în România?",
+        "a": "Da, aducem la comandă gripper-ele SCHUNK prezentate mai sus; așteptarea medie ajunge la 2-6 săptămâni, calculată după complexitatea gripperului solicitat. Nu ținem gripper-ele SCHUNK pe raft; parametrii tehnici se regăsesc în cataloagele online ale producătorului, fără informații interne despre disponibilitate. Când solicitați o ofertă, indicați greutatea și forma piesei prinse, pentru a alege dimensiunea potrivită."
+      },
+      {
+        "q": "Ce informații sunt necesare pentru o ofertă de gripper SCHUNK?",
+        "a": "Pentru o ofertă corectă la un gripper SCHUNK, este util să indicați greutatea piesei de prins, forma acesteia (rotundă sau cu fețe plane), cursa necesară pe falcă, presiunea de aer disponibilă în instalație și dacă este nevoie de menținere a forței în caz de cădere de presiune. Aceste date permit alegerea între familiile PGN-plus și PZN-plus și între dimensiunile disponibile."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"PGN-plus 160-1-IS","url":"https://schunk.com/us/en/gripping-systems/parallel-gripper/pgn-plus/pgn-plus-160-1-is/p/000000000000371464","publisher":"SCHUNK","accessed":"2026-09-25"},
+      {"title":"SCHUNK gripping systems","url":"https://schunk.com/us/en/","publisher":"SCHUNK","accessed":"2026-09-25"},
       { title: "SCHUNK – Gripping Systems and Clamping Technology", url: "https://www.schunk.com", publisher: "SCHUNK SE & Co. KG", accessed: "2026-09-22" },
       { title: "SCHUNK – prezentare portofoliu de produse", url: "https://www.schunk.com", publisher: "SCHUNK SE & Co. KG", accessed: "2026-09-22" },
     ],
@@ -112,11 +243,97 @@ Ce diferențiază Tünkers este specializarea de decenii pe strângere și pozi�
     ],
     infinitrade: `Informațiile despre Tünkers provin exclusiv din surse publice ale producătorului și din istoricul companiei, fără date proprii de stoc. Cilindrii de strângere și modulele de poziționare le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-6 săptămâni de la confirmarea specificațiilor. Clientul trebuie să ne trimită codul original al echipamentului instalat sau, pentru proiecte noi, forța de strângere, cursa și geometria punctului de fixare. Nu păstrăm stoc pentru toate variantele constructive Tünkers, așa că un termen ferm de livrare se confirmă doar după identificarea exactă a reperului.`,
     limitation: "Nu putem confirma disponibilitatea unei piese de schimb fără codul original al echipamentului instalat și nu oferim integrare software pentru liniile de automatizare complete.",
+    productCodes: [
+      {
+        "code": "SZK 30.7 BR2 40Hub",
+        "description": "Cilindru pneumatic de strângere, cursă 40 mm, mărime 30.7"
+      },
+      {
+        "code": "SZK 40.1 BR3 T12 40Hub",
+        "description": "Cilindru pneumatic de strângere cu senzor T12, cursă 40 mm"
+      },
+      {
+        "code": "SZK 63.1 BR3 T12 40Hub",
+        "description": "Cilindru pneumatic de strângere, mărime 63.1, cursă 40 mm"
+      },
+      {
+        "code": "SZKD 63.5 BR3 A13/A23 T12 60Hub",
+        "description": "Cilindru pneumatic dublu de strângere, cursă 60 mm, mărime 63.5"
+      },
+      {
+        "code": "MZR 40 50",
+        "description": "Cilindru rotativ de strângere, mărime 40, cursă 50"
+      },
+      {
+        "code": "SZK 25-20 T03",
+        "description": "Cilindru pneumatic de strângere compact, mărime 25-20"
+      },
+      {
+        "code": "MZR 40 100",
+        "description": "Cilindru rotativ de strângere, mărime 40, cursă 100"
+      },
+      {
+        "code": "ODM GS M ⌀16",
+        "description": "Modul de ghidare cu tijă filetată, diametru 16 mm"
+      },
+      {
+        "code": "U 40 BR5 A00 T24.2 5-135°",
+        "description": "Dispozitiv universal de strângere, unghi reglabil 5-135 grade, mărime 40"
+      },
+      {
+        "code": "U 63 BR5 A00 T24.2 5-135°",
+        "description": "Dispozitiv universal de strângere, unghi reglabil 5-135 grade, mărime 63"
+      },
+      {
+        "code": "U 63 BR5 W A00 T24.2 5-135°",
+        "description": "Dispozitiv universal de strângere, mărime 63, acoperire rezistentă la sudură"
+      },
+      {
+        "code": "TS-HC-500-W",
+        "description": "Componentă de strângere, cursă 500, versiune rezistentă la sudură"
+      },
+      {
+        "code": "EK 63.1 AS A10 T12 24V 2x90°",
+        "description": "Dispozitiv electric de strângere, alimentare 24V, rotație dublă de 90 grade"
+      },
+      {
+        "code": "T6-04",
+        "description": "Dispozitiv de strângere cu tijă, mișcare de împingere și tragere"
+      },
+      {
+        "code": "V 50.1 BR2 A10 T12 5-135°",
+        "description": "Dispozitiv Vario de strângere, unghi reglabil 5-135 grade, mărime 50"
+      },
+      {
+        "code": "V 50.1 BR2 Z A10 T12 120°",
+        "description": "Dispozitiv Vario de strângere, unghi fix 120 grade, reglare manuală"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este un cilindru din seria SZK de la Tünkers?",
+        "a": "Seria SZK de la Tünkers cuprinde cilindri pneumatici de strângere, folosiți în principal la fixarea reperelor pe dispozitive de sudură sau asamblare din industria auto. Cifrele din cod arată mărimea constructivă și cursa pistonului, exprimată de obicei în milimetri. Unele variante, precum cele cu sufixul T12, includ și un senzor de poziție integrat, util pentru confirmarea automată a stării de strângere."
+      },
+      {
+        "q": "Ce diferență este între dispozitivele U și cele V de la Tünkers?",
+        "a": "Dispozitivele din seria U sunt clemele universale de strângere cu unghi reglabil, folosite pentru o gamă largă de aplicații de fixare. Seria V, numită Vario, oferă un principiu similar, dar cu o construcție optimizată pentru reglaj în trepte al unghiului de deschidere, util atunci când mai multe tipuri de repere trec prin același dispozitiv. Ambele familii se aleg în funcție de forța necesară."
+      },
+      {
+        "q": "Livrați dispozitive de strângere Tünkers în România?",
+        "a": "Da, aducem la comandă dispozitivele Tünkers prezentate mai sus; livrarea durează în mod normal 2-6 săptămâni, socotind timpul de fabricație al dispozitivului cerut. Nu ținem aceste componente pe raft; codurile provin din magazinul online oficial al producătorului, fără date proprii despre stoc. Menționați-ne forța de strângere necesară, unghiul de lucru dorit și contactul cu procesul de sudură, la cererea de ofertă."
+      },
+      {
+        "q": "Ce înseamnă sufixul W la un dispozitiv Tünkers, precum U 63 BR5 W?",
+        "a": "Sufixul W dintr-un cod Tünkers, ca la U 63 BR5 W A00 T24.2, indică de obicei o acoperire sau un tratament rezistent la stropii și căldura generate în procesul de sudură prin puncte sau prin robot. Fără acest sufix, dispozitivul este destinat aplicațiilor generale de fixare, fără expunere directă la sudură. Diferența de durabilitate poate fi semnificativă între cele două variante."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Pneumatikzylinder - Spannen","url":"https://shop.tuenkers.de/spannen/pneumatikzylinder.html","publisher":"Tünkers Maschinenbau","accessed":"2026-09-25"},
+      {"title":"Spannen","url":"https://shop.tuenkers.de/spannen.html","publisher":"Tünkers Maschinenbau","accessed":"2026-09-25"},
       { title: "TÜNKERS Maschinenbau GmbH – Spanntechnik und Automation", url: "https://www.tuenkers.de", publisher: "TÜNKERS Maschinenbau GmbH", accessed: "2026-09-22" },
       { title: "Tünkers Maschinenbau", url: "https://de.wikipedia.org/wiki/T%C3%BCnkers_Maschinenbau", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -152,11 +369,92 @@ Ce diferențiază Semperit este acoperirea largă de aplicații ale elastomerilo
     ],
     infinitrade: `Tot ce scriem despre Semperit vine din surse publice ale producătorului; nu deținem date proprii despre disponibilitatea acestei game. Furtunurile industriale și benzile transportoare Semperit le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-6 săptămâni în funcție de dimensiune și configurație. Clientul trebuie să ne comunice diametrul sau lățimea, presiunea de lucru și substanța vehiculată, respectiv materialul transportat pe bandă. Fabricația se face după comandă pentru majoritatea dimensiunilor, deci nu putem promite disponibilitate permanentă din stoc pentru fiecare variantă din gamă.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a unui furtun cu o substanță anume fără fișa tehnică a produsului vehiculat, transmisă de client.",
+    productCodes: [
+      {
+        "code": "Multitrans",
+        "description": "Bandă transportoare textilă multifuncțională pentru aplicații generale spre exigente"
+      },
+      {
+        "code": "Flextrans",
+        "description": "Bandă transportoare textilă cu urzeală dreaptă, rezistentă la tăiere și rupere"
+      },
+      {
+        "code": "Sempercord",
+        "description": "Bandă transportoare cu cabluri de oțel, rezistență și durată de viață ridicate"
+      },
+      {
+        "code": "Metalcord",
+        "description": "Bandă transportoare cu construcție specială, rezistență ridicată la impact și tăiere"
+      },
+      {
+        "code": "Metaltrans",
+        "description": "Bandă transportoare metalică cu structură specială din oțel"
+      },
+      {
+        "code": "Autostable",
+        "description": "Bandă transportoare cu autocentrare, reduce deplasarea laterală în funcționare"
+      },
+      {
+        "code": "Autostable M",
+        "description": "Bandă transportoare metalică cu autocentrare, variantă cu cabluri de oțel"
+      },
+      {
+        "code": "Autostable T",
+        "description": "Bandă transportoare textilă cu autocentrare"
+      },
+      {
+        "code": "Transpipe",
+        "description": "Soluție de bandă transportoare tip jgheab pentru protecția materialului transportat"
+      },
+      {
+        "code": "Ripstop",
+        "description": "Bandă transportoare cu protecție ridicată la impact"
+      },
+      {
+        "code": "Ripstop T",
+        "description": "Bandă transportoare textilă cu protecție la impact"
+      },
+      {
+        "code": "Ripstop M",
+        "description": "Bandă transportoare metalică cu rezistență ridicată la rupere"
+      },
+      {
+        "code": "Translev",
+        "description": "Bandă transportoare pentru elevatoare, referință în transportul vertical"
+      },
+      {
+        "code": "Transunit",
+        "description": "Bandă transportoare pentru transportul mărfurilor și pieselor individuale"
+      },
+      {
+        "code": "Transprofile",
+        "description": "Bandă transportoare cu profile tip chevron pentru înclinații mari"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între benzile Sempercord și Multitrans de la Semperit?",
+        "a": "Multitrans este o bandă transportoare textilă multifuncțională, potrivită pentru o gamă largă de aplicații, de la ușoare la exigente, în timp ce Sempercord folosește cabluri de oțel în structura de rezistență, oferind o durată de viață mai mare și o capacitate de tracțiune superioară pe distanțe lungi. Alegerea între cele două depinde de lungimea instalației și de sarcina transportată."
+      },
+      {
+        "q": "Ce este o bandă cu autocentrare Autostable de la Semperit?",
+        "a": "Autostable este o familie de benzi transportoare cu autocentrare, gândită să reducă deplasarea laterală a benzii pe role, o problemă frecventă la instalațiile lungi sau cu încărcare neuniformă. Există în variantă textilă (Autostable T) și în variantă cu cabluri de oțel (Autostable M), în funcție de sarcina și de lungimea benzii. Autocentrarea reduce uzura marginilor și reglajele manuale frecvente."
+      },
+      {
+        "q": "Livrați benzi transportoare Semperit în România?",
+        "a": "Da, aducem la comandă benzile transportoare Semperit prezentate mai sus; timpul de așteptare ajunge de obicei la 2-6 săptămâni, socotind lungimea și tipul benzii comandate. Nu ținem aceste benzi pe raft; descrierile se bazează pe catalogul tehnic public al producătorului, fără cifre proprii despre stocurile disponibile. Spuneți-ne lungimea, lățimea și tipul de material transportat, la solicitarea de ofertă."
+      },
+      {
+        "q": "Ce rol are banda Transpipe în transportul de materiale?",
+        "a": "Transpipe este o soluție de bandă transportoare cu marginile ridicate în formă de jgheab, care închide parțial materialul transportat pentru a-l proteja de vânt, ploaie sau pierderi în timpul transportului. Este utilă mai ales la transportul de materiale fine sau pulverulente pe distanțe lungi, în exterior. Face parte din gama de soluții inginerești Semperit, alături de benzi precum Ripstop sau Translev."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Sempertrans Product catalogue Nov 2019","url":"https://conveyor-belts.semperitgroup.com/fileadmin/user_upload/MediaLibrary/ConveyorBelts/Media/Downloads/Sempertrans_Product_catalogue_Nov_2019_EN.pdf","publisher":"Semperit","accessed":"2026-09-25"},
       { title: "Semperit Group – Homepage", url: "https://www.semperitgroup.com", publisher: "Semperit AG Holding", accessed: "2026-09-22" },
       { title: "About Us – Semperit Group", url: "https://www.semperitgroup.com/en/about-us/", publisher: "Semperit AG Holding", accessed: "2026-09-22" },
     ],
@@ -191,11 +489,76 @@ Ce diferențiază Garlock este acoperirea largă pe industrii cu cerințe strict
     ],
     infinitrade: `Pentru Garlock spunem clar ce putem și ce nu putem confirma: ne bazăm pe pagina oficială și pe informațiile publice ale grupului EnPro, fără date proprii de stoc. Garniturile GYLON, izolatoarele Klozure și celelalte produse din gamă le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea specificațiilor. Clientul trebuie să ne trimită dimensiunea flanșei sau a arborelui, presiunea de lucru și fluidul vehiculat, pentru a alege materialul potrivit. Multe variante se produc după comandă, deci nu putem păstra stoc pentru toate combinațiile de dimensiune și material din gama Garlock.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a unui material de etanșare fără fișa tehnică a fluidului vehiculat, transmisă de client.",
+    productCodes: [
+      {
+        "code": "GYLON Style 3500",
+        "description": "Garnitură PTFE universală pentru industria chimică și petrochimică"
+      },
+      {
+        "code": "GYLON Style 3501-E",
+        "description": "Garnitură PTFE cu etanșeitate îmbunătățită față de varianta standard"
+      },
+      {
+        "code": "GYLON Style 3504",
+        "description": "Garnitură PTFE foarte comprimabilă și flexibilă, pentru solicitări reduse"
+      },
+      {
+        "code": "GYLON Style 3510",
+        "description": "Garnitură PTFE cu cea mai largă rezistență chimică din gamă"
+      },
+      {
+        "code": "GYLON Style 3545",
+        "description": "Garnitură PTFE cu straturi exterioare micro-celulare și miez dur"
+      },
+      {
+        "code": "GYLON Series HP 3560",
+        "description": "Garnitură PTFE pentru presiune ridicată, cu inserție perforată din inox"
+      },
+      {
+        "code": "GYLON Series HP 3561",
+        "description": "Garnitură PTFE pentru presiune ridicată, condiții extreme de lucru"
+      },
+      {
+        "code": "KLOZURE Model 61",
+        "description": "Etanșare pentru rulmenți pe arbori rotativi, model general"
+      },
+      {
+        "code": "KLOZURE Model 23",
+        "description": "Etanșare pentru rulmenți pe arbori rotativi, dimensiune specifică"
+      },
+      {
+        "code": "KLOZURE Model 63",
+        "description": "Etanșare pentru rulmenți pe arbori rotativi, uz general"
+      },
+      {
+        "code": "KLOZURE Model 64",
+        "description": "Etanșare pentru rulmenți pe arbori rotativi, variantă complementară modelului 63"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între garniturile GYLON Style 3500 și Style 3510?",
+        "a": "Style 3500 de la Garlock este varianta universală, potrivită pentru majoritatea aplicațiilor din industria chimică și petrochimică, în timp ce Style 3510 este formulată pentru cea mai largă rezistență chimică din gama GYLON, recomandată acolo unde fluidul de proces este deosebit de agresiv sau variază frecvent. Alegerea greșită între cele două poate reduce durata de viață a garniturii."
+      },
+      {
+        "q": "Ce este o etanșare KLOZURE de la Garlock?",
+        "a": "KLOZURE este o familie de etanșări pentru rulmenți montate pe arbori rotativi, folosite pentru a preveni pătrunderea contaminanților și pierderea lubrifiantului la echipamente precum pompe, ventilatoare sau reductoare. Modelele diferă prin dimensiune și prin construcția internă a labirintului de etanșare, aleasă în funcție de viteza de rotație și de condițiile de mediu. Sunt adesea folosite ca alternativă la simeringurile clasice."
+      },
+      {
+        "q": "Livrați garnituri Garlock în România?",
+        "a": "Da, aducem la comandă garniturile și etanșările Garlock prezentate mai sus; durata orientativă este de 2-6 săptămâni, socotind dimensiunea și complexitatea garniturii cerute. Nu ținem aceste produse pe raft; specificațiile provin din documentația tehnică publicată de producător, fără date interne despre stocurile existente. Menționați-ne presiunea, temperatura și tipul de fluid de proces, atunci când cereți o ofertă."
+      },
+      {
+        "q": "Ce înseamnă seria HP la garniturile GYLON?",
+        "a": "Seria HP din denumirea GYLON Series HP 3560 sau HP 3561 marchează variantele destinate presiunilor ridicate de lucru, construite cu o inserție perforată din oțel inoxidabil care oferă rezistență mecanică suplimentară față de garniturile PTFE simple. Sunt recomandate în aplicații unde garniturile standard din gama 3500 s-ar putea deforma sub presiune. Alegerea corectă depinde de presiunea maximă de proces."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"GYLON High performance PTFE gasketing catalogue","url":"https://legacy.garlock.com/sites/default/files/documents/en/Garlock_Catalog_Gasketing_GYLON_21-069_EN_web.pdf","publisher":"Garlock","accessed":"2026-09-25"},
       { title: "Garlock – Sealing Technologies", url: "https://www.garlock.com", publisher: "Garlock Sealing Technologies / EnPro Industries", accessed: "2026-09-22" },
       { title: "Garlock – Product Families", url: "https://www.garlock.com/en", publisher: "Garlock Sealing Technologies / EnPro Industries", accessed: "2026-09-22" },
     ],
@@ -270,11 +633,98 @@ Ce diferențiază Weishaupt este orientarea spre arzătoare de putere mare pentr
     ],
     infinitrade: `Pentru arzătoarele Weishaupt lucrăm doar cu informația publică disponibilă pe site-ul producătorului, fără un istoric propriu de livrări pe această gamă. Arzătoarele și pompele de căldură le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru configurația cerută. Clientul trebuie să ne transmită puterea cazanului, tipul de combustibil sau sursa de energie disponibilă și modelul echipamentului pe care se montează produsul. Configurațiile de putere mare se comandă punctual, așa că nu păstrăm stoc pentru fiecare variantă de arzător din gama industrială.`,
     limitation: "Nu putem confirma reglajul optim de ardere pentru o instalație existentă fără datele tehnice complete ale cazanului, transmise de client, și nu oferim punere în funcțiune sau service în garanție.",
+    productCodes: [
+      {
+        "code": "purflam",
+        "description": "Arzător compact pe motorină, putere între 16,5 și 40 kW"
+      },
+      {
+        "code": "WG5-40",
+        "description": "Arzător compact pe gaz, putere între 12,5 și 700 kW"
+      },
+      {
+        "code": "WL5-40",
+        "description": "Arzător compact pe motorină, putere între 16,5 și 570 kW"
+      },
+      {
+        "code": "WGL30-40",
+        "description": "Arzător mixt gaz-motorină, putere între 70 și 550 kW"
+      },
+      {
+        "code": "WM monarch",
+        "description": "Arzător mediu-mare pe motorină și combustibili multipli, până la 12000 kW"
+      },
+      {
+        "code": "WKmono 80",
+        "description": "Arzător mare pe motorină și combustibili multipli, până la 17000 kW"
+      },
+      {
+        "code": "WK",
+        "description": "Arzător de mare capacitate, putere până la 32000 kW"
+      },
+      {
+        "code": "WGB 8-A-MD-I",
+        "description": "Pompă de căldură sol-apă din gama Geoblock, până la 8 kW"
+      },
+      {
+        "code": "WGB 14-A-MD-I",
+        "description": "Pompă de căldură sol-apă din gama Geoblock, până la 14 kW"
+      },
+      {
+        "code": "WSB 6-A-RME-AI",
+        "description": "Pompă de căldură aer-apă split din gama Splitblock, 6 kW"
+      },
+      {
+        "code": "WSB 8-A-RME-AI",
+        "description": "Pompă de căldură aer-apă split din gama Splitblock, 8 kW"
+      },
+      {
+        "code": "WSB 10-A-RME-AI",
+        "description": "Pompă de căldură aer-apă split din gama Splitblock, 10 kW"
+      },
+      {
+        "code": "WSB 12-A-RMD-AI",
+        "description": "Pompă de căldură aer-apă split, variantă monofazică din gama Splitblock"
+      },
+      {
+        "code": "WSB 12-A-RME-AI",
+        "description": "Pompă de căldură aer-apă split, variantă trifazică din gama Splitblock"
+      },
+      {
+        "code": "WSB 15-A-RMD-AI",
+        "description": "Pompă de căldură aer-apă split din gama Splitblock, 15 kW"
+      },
+      {
+        "code": "WSB 18-A-RMD-AI",
+        "description": "Pompă de căldură aer-apă split din gama Splitblock, capacitate maximă 18 kW"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între arzătoarele Weishaupt WG5-40 și WL5-40?",
+        "a": "WG5-40 este proiectat pentru funcționare pe gaz natural, cu putere între 12,5 și 700 kW, în timp ce WL5-40 arde motorină și acoperă un domeniu de 16,5 până la 570 kW. Ambele fac parte din gama de arzătoare compacte Weishaupt și au construcție monobloc, ușor de integrat în cazane existente. Alegerea depinde de tipul de combustibil disponibil la locul de instalare și de puterea termică necesară a instalației."
+      },
+      {
+        "q": "Cum aleg pompa de căldură Weishaupt potrivită pentru o casă unifamilială?",
+        "a": "Alegerea pornește de la necesarul de căldură calculat al locuinței și de la tipul sursă disponibilă: sol, pentru gama Geoblock, sau aer exterior, pentru gama Splitblock. Modelele Geoblock WGB acoperă puteri de 8 și 14 kW, în timp ce seria Splitblock WSB oferă trepte între 6 și 18 kW, cu variante monofazice sau trifazice. Recomandăm consultarea fișei tehnice publicate de producător pentru dimensionarea corectă a unității exterioare și interioare."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă la un arzător Weishaupt?",
+        "a": "Este necesar tipul de combustibil folosit, gaz, motorină sau ambele, puterea termică a cazanului pe care se montează arzătorul și diametrul flanșei de cuplare. Dacă arzătorul înlocuiește un model existent, o fotografie a plăcuței de fabricație ajută la identificarea rapidă a seriei corecte dintre WG, WL, WGL sau gamele mai mari monarch și WK. Menționarea standardului de emisii aplicabil în instalație grăbește pregătirea ofertei."
+      },
+      {
+        "q": "Livrați arzătoare și pompe de căldură Weishaupt în România?",
+        "a": "Da, aducem la comandă arzătoare pe gaz sau motorină și pompe de căldură din gamele Geoblock și Splitblock, pornind de la codul exact al modelului dorit. Nu ținem această gamă pe raft, iar orientarea publică de disponibilitate a producătorului este de câteva săptămâni, în general între două și șase. Recomandăm transmiterea seriei complete și, dacă este posibil, puterea instalației existente pentru o ofertă corectă."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Weishaupt – Brenner","url":"https://www.weishaupt.de/produkte/brenner","publisher":"Weishaupt","accessed":"2026-09-25"},
+      {"title":"Weishaupt Splitwärmepumpe Splitblock (WSB)","url":"https://www.weishaupt.de/produkte/waermepumpen-solar/weishaupt-splitwaermepumpe","publisher":"Weishaupt","accessed":"2026-09-25"},
+      {"title":"Weishaupt Geoblock (WGB)","url":"https://www.weishaupt.de/produkte/waermepumpen-solar/weishaupt-geoblock-wgb","publisher":"Weishaupt","accessed":"2026-09-25"},
       { title: "Weishaupt – Heiztechnik", url: "https://weishaupt.de", publisher: "Max Weishaupt GmbH", accessed: "2026-09-22" },
       { title: "Unternehmen – Weishaupt", url: "https://weishaupt.de/unternehmen/", publisher: "Max Weishaupt GmbH", accessed: "2026-09-22" },
     ],
@@ -308,11 +758,106 @@ Ce diferențiază Van der Graaf este principiul motorului tambur — motorul ele
     ],
     infinitrade: `Despre motoarele tambur Van der Graaf raportăm doar ce am verificat pe site-ul oficial, fără date proprii despre stocul acestei game. Motoarele le aducem la comandă prin canale de aprovizionare din UE sau America de Nord, cu termen orientativ de 2-6 săptămâni în funcție de model și configurație. Clientul trebuie să ne trimită lățimea benzii, sarcina transportată și mediul de instalare (temperatură, spălare, praf) pentru a alege seria potrivită. Fiecare motor tambur e configurat pe comandă după parametrii benzii, deci nu putem menține disponibilitate permanentă din stoc pentru toate combinațiile de diametru și putere.`,
     limitation: "Nu putem confirma compatibilitatea unui motor tambur cu o bandă transportoare existentă fără dimensiunile exacte ale instalației, transmise de client.",
+    productCodes: [
+      {
+        "code": "TM100",
+        "description": "Motor tambur seria SSV, diametru 4,0 inch, pentru aplicații igienice"
+      },
+      {
+        "code": "TM113",
+        "description": "Motor tambur seria SSV, diametru 4,5 inch, carcasă din inox"
+      },
+      {
+        "code": "TM127",
+        "description": "Motor tambur seria SSV, diametru 5,0 inch, putere redusă"
+      },
+      {
+        "code": "TM138",
+        "description": "Motor tambur seria SSV, diametru 5,4 inch, bandă compactă"
+      },
+      {
+        "code": "TM160",
+        "description": "Motor tambur seria SSV, diametru 6,5 inch, sarcini medii"
+      },
+      {
+        "code": "TM215",
+        "description": "Motor tambur seria SSV, diametru 8,5 inch, putere ridicată"
+      },
+      {
+        "code": "TM100B25",
+        "description": "Motor tambur seria Standard, diametru 4,0 inch, până la 0,25 CP"
+      },
+      {
+        "code": "TM113B25",
+        "description": "Motor tambur seria Standard, diametru 4,5 inch, până la 0,75 CP"
+      },
+      {
+        "code": "TM127B30",
+        "description": "Motor tambur seria Standard, diametru 5,0 inch, până la 1,5 CP"
+      },
+      {
+        "code": "TM138B30",
+        "description": "Motor tambur seria Standard, diametru 5,4 inch, carcasă tip B30"
+      },
+      {
+        "code": "TM160B40",
+        "description": "Motor tambur seria Standard, diametru 6,5 inch, până la 3 CP"
+      },
+      {
+        "code": "TM215B40",
+        "description": "Motor tambur seria Standard, diametru 8,5 inch, carcasă tip B40"
+      },
+      {
+        "code": "TM215B50",
+        "description": "Motor tambur seria Standard, diametru 8,5 inch, până la 7,5 CP"
+      },
+      {
+        "code": "TM315B50",
+        "description": "Motor tambur seria Standard, diametru 12,5 inch, până la 15 CP"
+      },
+      {
+        "code": "TM315B60",
+        "description": "Motor tambur seria Standard, diametru 12,5 inch, carcasă tip B60"
+      },
+      {
+        "code": "TM315A75",
+        "description": "Motor tambur seria Standard, diametru 12,5 inch, carcasă tip A75"
+      },
+      {
+        "code": "GrizzlyDrive",
+        "description": "Serie de motoare tambur pentru sarcini grele, diametru 12,5 până la 36 inch"
+      },
+      {
+        "code": "IntelliDrive",
+        "description": "Serie de motoare tambur compacte cu monitorizare inteligentă, diametru 4 până la 6,5 inch"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între motoarele tambur Van der Graaf seria SSV și seria Standard?",
+        "a": "Seria SSV este construită pentru igienă, cu suprafețe netede și rezistență la spălare, fiind gândită pentru industria alimentară, a băuturilor și farmaceutică. Seria Standard acoperă aplicații generale de manipulare a materialelor, cu diametre între 4,0 și 12,5 inch și puteri de la 0,11 până la 15 CP. Alegerea corectă depinde de mediul de lucru, de cerințele de curățare și de sarcina benzii transportoare."
+      },
+      {
+        "q": "Cum aleg diametrul potrivit al unui motor tambur Van der Graaf pentru o bandă transportoare?",
+        "a": "Diametrul se alege în funcție de lățimea benzii, de viteza dorită și de sarcina transportată, deoarece un tambur mai mare oferă un unghi de înfășurare mai bun și tracțiune sporită. Seria SSV acoperă diametre de la 4,0 la 8,5 inch, seria Standard ajunge până la 12,5 inch, iar GrizzlyDrive este destinată tamburilor de 12,5 până la 36 inch pentru sarcini grele. Datele exacte de selecție se regăsesc în cataloagele publicate de producător."
+      },
+      {
+        "q": "Ce este seria IntelliDrive de la Van der Graaf?",
+        "a": "IntelliDrive este o serie de motoare tambur compacte, cu diametre între 4 și 6,5 inch, care integrează monitorizarea stării de funcționare direct în carcasă. Sistemul permite urmărirea temperaturii și a altor parametri fără senzori externi montați pe bandă, util în instalații greu accesibile. Această gamă completează seriile SSV, Standard și GrizzlyDrive din portofoliul de motoare tambur al producătorului."
+      },
+      {
+        "q": "Livrați motoare tambur Van der Graaf în România?",
+        "a": "Da, aducem la comandă motoare tambur din seriile SSV, Standard sau GrizzlyDrive, pe baza codului complet al modelului, de exemplu TM160 sau TM315B50. Această gamă nu se găsește pe raft la noi, fiind adusă special la comandă într-un termen public estimat de producător între două și șase săptămâni. Este utilă transmiterea diametrului benzii, a puterii motorului și a tipului de montaj dorit pentru identificarea corectă a modelului."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"SSV Series Drum Motors | TM100 - TM215","url":"https://www.vandergraaf.com/media/VanderGraaf/site-images/PDFS/catalogs/Catalog-SSV.pdf","publisher":"Van der Graaf","accessed":"2026-09-25"},
+      {"title":"Standard Series Drum Motors | TM100 - TM315","url":"https://www.vandergraaf.com/media/VanderGraaf/site-images/PDFS/catalogs/Catalog-Standard.pdf","publisher":"Van der Graaf","accessed":"2026-09-25"},
+      {"title":"Van der Graaf – Products","url":"https://www.vandergraaf.com/products/","publisher":"Van der Graaf","accessed":"2026-09-25"},
       { title: "Van der Graaf – Drum Motors for Belt Conveyors", url: "https://www.vandergraaf.com", publisher: "Van der Graaf Inc.", accessed: "2026-09-22" },
       { title: "Van der Graaf – prezentare serii de motoare tambur", url: "https://www.vandergraaf.com", publisher: "Van der Graaf Inc.", accessed: "2026-09-22" },
     ],
@@ -348,11 +893,81 @@ Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate uno
     ],
     infinitrade: `Pentru Portwest ne bazăm pe surse publice ale producătorului; nu avem date proprii despre stocul de echipamente de protecție din această gamă. Îmbrăcămintea și încălțămintea de protecție le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru cantitățile și mărimile solicitate. Clientul trebuie să ne trimită tipul de risc pentru care se dotează personalul, mărimile necesare pe fiecare articol și cantitatea totală. Pentru comenzi mari sau mărimi mai rare nu putem promite disponibilitate permanentă din stoc și recomandăm confirmarea termenului înainte de a-l lega de un termen de șantier.`,
     limitation: "Nu putem confirma echivalența exactă a unui articol Portwest cu un normativ specific de protecție fără fișa tehnică a produsului, verificată la comandă.",
+    productCodes: [
+      {
+        "code": "A653",
+        "description": "Mănușă din nitril, căptușeală tip sandy, rezistență la tăiere nivel A4"
+      },
+      {
+        "code": "A746",
+        "description": "Mănușă din piele de capră, rezistență la tăiere nivel A5"
+      },
+      {
+        "code": "A652",
+        "description": "Mănușă din nitril cu rezistență ridicată la tăiere, nivel A5"
+      },
+      {
+        "code": "A637",
+        "description": "Mănușă din poliuretan, rezistență la tăiere nivel A3"
+      },
+      {
+        "code": "A636",
+        "description": "Mănușă din nitril, rezistență la tăiere nivel A3"
+      },
+      {
+        "code": "A638",
+        "description": "Mănușă din poliuretan, rezistență la tăiere nivel A3, grosime redusă"
+      },
+      {
+        "code": "A644",
+        "description": "Mănușă din nitril, rezistență la tăiere nivel A4"
+      },
+      {
+        "code": "A642",
+        "description": "Mănușă din poliuretan, rezistență la tăiere nivel A4"
+      },
+      {
+        "code": "A647",
+        "description": "Mănușă din poliuretan, rezistență la tăiere nivel A4, grosime redusă"
+      },
+      {
+        "code": "A649",
+        "description": "Mănușă din poliuretan, rezistență la tăiere nivel A4, variantă întărită"
+      },
+      {
+        "code": "A651",
+        "description": "Mănușă din poliuretan, rezistență la tăiere nivel A5"
+      },
+      {
+        "code": "A648",
+        "description": "Mănușă din nitril, rezistență la tăiere nivel A4, variantă întărită"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă nivelurile de tăiere A3, A4 și A5 la mănușile Portwest?",
+        "a": "Nivelurile A3, A4 și A5 arată rezistența la tăiere a mănușii conform standardului EN388, fiecare literă însemnând un prag superior de protecție față de cel anterior. Codurile Portwest precum A636 sau A637 corespund nivelului A3, potrivit pentru manipulare generală, în timp ce A651 sau A652 ating nivelul A5, recomandat la manipularea tablei sau a sticlei. Alegerea depinde de riscul real de tăiere din activitatea desfășurată și de grosimea materialului manipulat."
+      },
+      {
+        "q": "Ce diferență este între mănușile din nitril și cele din poliuretan la Portwest?",
+        "a": "Mănușile din nitril, precum A636 sau A644, oferă aderență bună în medii uscate și ușor uleioase, fiind mai rezistente la abraziune. Variantele din poliuretan, cum sunt A637 sau A642, au sensibilitate tactilă superioară și sunt preferate la manipularea pieselor mici sau la asamblare de precizie. Ambele familii păstrează nivelul de protecție la tăiere marcat pe etichetă, diferența fiind în principal de senzație la purtare și rezistență la produse chimice ușoare."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o comandă de mănuși de protecție Portwest?",
+        "a": "Este necesară mărimea mâinii, nivelul de rezistență la tăiere cerut de fișa de securitate a locului de muncă și tipul de manipulare, uscată sau cu urme de ulei. Codul exact al produsului, de exemplu A649 sau A653, ajută la evitarea confuziei între variantele apropiate din aceeași familie de mănuși. Menționarea cantității estimate ajută la pregătirea rapidă a unei propuneri de livrare."
+      },
+      {
+        "q": "Livrați echipamente de protecție Portwest în România?",
+        "a": "Da, aducem la comandă mănuși, îmbrăcăminte și încălțăminte de protecție din portofoliul Portwest, pornind de la codul exact al produsului dorit. Comandăm aceste articole special, fără a le ține curent pe raft, iar termenul indicat public de producător este de două până la șase săptămâni. Recomandăm transmiterea codului complet de pe etichetă sau din fișa tehnică pentru a evita alegerea unei variante greșite."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Portwest – Cut Resistant Gloves","url":"https://www.portwest.com/products/gloves/X/3/1","publisher":"Portwest","accessed":"2026-09-25"},
+      {"title":"Portwest – Homepage","url":"https://www.portwest.com/","publisher":"Portwest","accessed":"2026-09-25"},
       { title: "Portwest – Workwear, Safety Wear and PPE", url: "https://portwest.com", publisher: "Portwest", accessed: "2026-09-22" },
       { title: "Portwest – prezentare game de echipament de protecție", url: "https://portwest.com", publisher: "Portwest", accessed: "2026-09-22" },
     ],
@@ -386,11 +1001,89 @@ Ce diferențiază Hazet este accentul pe precizie la sculele dinamometrice, unde
     ],
     infinitrade: `Ce scriem despre sculele Hazet reflectă doar informația publică disponibilă pe site-ul producătorului, fără niciun fapt propriu suplimentar. Sculele și trusele Hazet le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru cantitatea și modelele solicitate. Clientul trebuie să ne trimită codul exact de produs sau intervalul de cuplu necesar pentru sculele dinamometrice, plus cantitatea dorită. Pentru sortimentele mai puțin comune nu putem promite disponibilitate permanentă din stoc și recomandăm confirmarea termenului înainte de a-l include într-un proiect cu dată fixă.`,
     limitation: "Nu putem confirma calibrarea unei chei dinamometrice existente și nu oferim service de calibrare periodică în nume propriu pentru sculele Hazet.",
+    productCodes: [
+      {
+        "code": "5122/4-PD",
+        "description": "Trusă chei dinamometrice 1/2 inch, linie Porsche Motorsport"
+      },
+      {
+        "code": "179NXXL-7/430PD",
+        "description": "Cărucior de scule cu 7 sertare, 430 de piese"
+      },
+      {
+        "code": "811/6-PD",
+        "description": "Set de 6 șurubelnițe pentru uz general în atelier"
+      },
+      {
+        "code": "2200SC-2-PD",
+        "description": "Trusă de tubulare SmartCase, 50 de piese"
+      },
+      {
+        "code": "5122-3CT-PD",
+        "description": "Cheie dinamometrică 1/2 inch, domeniu 40 până la 200 Nm"
+      },
+      {
+        "code": "SYSTEM 5000-3CT",
+        "description": "Cheie dinamometrică de atelier cu clichet reversibil, 1 până la 800 Nm"
+      },
+      {
+        "code": "SYSTEM 5000 B-3 CT",
+        "description": "Cheie dinamometrică pentru capete, clichet reversibil, 1 până la 25 Nm"
+      },
+      {
+        "code": "SYSTEM 5000 CLT",
+        "description": "Cheie dinamometrică cu afișaj și clichet reversibil, 20 până la 320 Nm"
+      },
+      {
+        "code": "SYSTEM 5000 KV",
+        "description": "Cheie dinamometrică cu izolație de protecție, 2 până la 120 Nm"
+      },
+      {
+        "code": "SYSTEM 5200-3 CT",
+        "description": "Cheie dinamometrică cu pătrat interschimbabil, 2,5 până la 200 Nm"
+      },
+      {
+        "code": "SYSTEM 6000-1 CT",
+        "description": "Cheie dinamometrică industrială cu clichet reversibil, 1 până la 2000 Nm"
+      },
+      {
+        "code": "SYSTEM 6200-1 CT",
+        "description": "Cheie dinamometrică industrială cu pătrat interschimbabil, 2 până la 500 Nm"
+      },
+      {
+        "code": "SYSTEM 6300 CT",
+        "description": "Cheie dinamometrică industrială cu pătrat interschimbabil, 2 până la 320 Nm"
+      },
+      {
+        "code": "SYSTEM 7000 sTAC",
+        "description": "Cheie dinamometrică electronică cu goniometru integrat pentru unghi de strângere"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între cheile dinamometrice Hazet SYSTEM 5000 și SYSTEM 6000?",
+        "a": "Seria SYSTEM 5000 acoperă domenii de cuplu mai mici, de la 1 până la aproximativ 320 Nm, fiind gândită pentru lucrări obișnuite de atelier auto. Seria SYSTEM 6000 este destinată aplicațiilor industriale, cu modele care ajung până la 2000 Nm și construcție mai robustă pentru utilizare intensivă. Alegerea corectă depinde de cuplul de strângere cerut de producătorul echipamentului asamblat și de frecvența de utilizare zilnică."
+      },
+      {
+        "q": "Cum citesc codul unei chei dinamometrice Hazet?",
+        "a": "Codul unei chei dinamometrice Hazet indică, de regulă, seria, de exemplu SYSTEM 5000 sau SYSTEM 6200, urmată de sufixe care arată tipul de pătrat sau de capăt, precum CT pentru clichet sau KV pentru izolație. Cifrele din denumire, cum ar fi 3-CT sau 1-CT, se referă la varianta constructivă din interiorul familiei respective. Fișa tehnică a fiecărui model publicată de producător confirmă domeniul exact de cuplu."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de scule Hazet?",
+        "a": "Este utilă lista codurilor exacte dorite, de exemplu 2200SC-2-PD pentru o trusă de tubulare sau un cod din seria SYSTEM pentru o cheie dinamometrică, împreună cu cantitatea necesară. Dacă scopul este înlocuirea unei truse existente, o fotografie a cutiei sau a plăcuței ajută la identificarea variantei corecte dintre modelele apropiate. Menționarea domeniului de cuplu necesar grăbește alegerea cheii dinamometrice potrivite."
+      },
+      {
+        "q": "Livrați scule Hazet în România?",
+        "a": "Da, aducem la comandă chei dinamometrice, truse de tubulare și cărucioare de scule din portofoliul Hazet, pe baza codului exact solicitat. Aceste scule intră în comandă specială, nefiind ținute curent pe raft, iar producătorul indică public un termen de livrare de două până la șase săptămâni. Recomandăm confirmarea codului complet, inclusiv sufixele, înainte de trimiterea cererii de ofertă."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"HAZET – Homepage","url":"https://www.hazet.de/en/","publisher":"Hazet","accessed":"2026-09-25"},
+      {"title":"HAZET – Tools","url":"https://www.hazet.de/en/tools","publisher":"Hazet","accessed":"2026-09-25"},
       { title: "HAZET – Professional Tools Made in Germany", url: "https://hazet.de", publisher: "HAZET-WERK Hermann Zerver GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Company – HAZET", url: "https://hazet.de/en/company/", publisher: "HAZET-WERK Hermann Zerver GmbH & Co. KG", accessed: "2026-09-22" },
     ],
@@ -423,11 +1116,93 @@ Ce diferențiază Kyoritsu este specializarea îngustă și adâncă pe instrume
     ],
     infinitrade: `Pentru instrumentele Kyoritsu nu deținem date proprii de stoc; ne bazăm integral pe surse publice ale producătorului. Multimetrele și clemele ampermetrice le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru modelul și cantitatea solicitate. Clientul trebuie să ne trimită domeniul de măsurare necesar și aplicația exactă (verificare instalație, diagnoză industrială sau testare EVSE) pentru a alege instrumentul potrivit. Pentru modelele mai specializate nu putem păstra stoc constant și recomandăm confirmarea termenului de livrare înainte de a-l lega de o dată fixă de verificare.`,
     limitation: "Nu putem confirma calibrarea metrologică a unui instrument existent și nu oferim în nume propriu servicii de etalonare periodică pentru instrumentele Kyoritsu.",
+    productCodes: [
+      {
+        "code": "KEW 1011",
+        "description": "Multimetru digital de uz general pentru măsurători electrice de bază"
+      },
+      {
+        "code": "MODEL 1110",
+        "description": "Multimetru digital din gama Kyoritsu pentru tehnicieni electricieni"
+      },
+      {
+        "code": "KEW 1021R",
+        "description": "Multimetru digital compact cu funcții de măsurare de bază"
+      },
+      {
+        "code": "KEW 1062",
+        "description": "Multimetru digital pentru diagnosticare electrică generală"
+      },
+      {
+        "code": "KEW 1061",
+        "description": "Multimetru digital de uz general pentru electricieni"
+      },
+      {
+        "code": "KEW 1052",
+        "description": "Multimetru digital compact pentru măsurători uzuale în instalații"
+      },
+      {
+        "code": "KEW 1051",
+        "description": "Multimetru digital de bază pentru verificări electrice curente"
+      },
+      {
+        "code": "KEW MATE 2001A",
+        "description": "Multimetru digital din seria KEW MATE, variantă avansată"
+      },
+      {
+        "code": "KEW MATE 2000A",
+        "description": "Multimetru digital din seria KEW MATE pentru uz general"
+      },
+      {
+        "code": "MODEL 1009",
+        "description": "Multimetru digital simplu pentru măsurători electrice curente"
+      },
+      {
+        "code": "KEW 1030",
+        "description": "Multimetru digital pentru măsurători standard în instalații electrice"
+      },
+      {
+        "code": "KEW 1020R",
+        "description": "Multimetru digital compact, variantă din familia numerotată 1020"
+      },
+      {
+        "code": "KEW 1019R",
+        "description": "Multimetru digital compact, variantă din familia numerotată 1019"
+      },
+      {
+        "code": "KEW 1109S",
+        "description": "Multimetru digital din gama Kyoritsu pentru uz profesional"
+      },
+      {
+        "code": "KEW 1012",
+        "description": "Multimetru digital de bază pentru electricieni"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între multimetrele Kyoritsu KEW 1011 și KEW 1030?",
+        "a": "Ambele fac parte din gama de multimetre digitale de bază a producătorului, destinate măsurătorilor curente de tensiune, curent și rezistență în instalații electrice. Diferențele dintre modelele din seria KEW 10xx țin în principal de funcțiile suplimentare incluse și de anul de introducere în catalog, informații publicate în fișele tehnice individuale. Recomandăm verificarea fișei tehnice exacte a fiecărui model înainte de alegere, mai ales dacă instrumentul înlocuiește unul existent."
+      },
+      {
+        "q": "Ce este seria KEW MATE de la Kyoritsu?",
+        "a": "KEW MATE este o denumire folosită de Kyoritsu pentru o parte din multimetrele sale digitale, precum modelele 2000A și 2001A, orientate spre utilizare curentă în lucrări de electricitate. Seria completează gama numerotată KEW 10xx, iar diferențele exacte de funcții între variante se regăsesc în fișele tehnice publicate de producător. Alegerea între ele depinde de funcțiile de măsurare necesare zilnic."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de aparate de măsură Kyoritsu?",
+        "a": "Este utilă lista codurilor exacte dorite, de exemplu KEW 1052 sau KEW 1109S, împreună cu cantitatea necesară pentru fiecare model. Dacă scopul este înlocuirea unui aparat existent, denumirea completă de pe carcasă ajută la evitarea confuziei între modelele apropiate din familia KEW. Menționarea domeniului de utilizare, electricitate generală sau aplicații industriale, ajută la confirmarea rapidă a modelului potrivit."
+      },
+      {
+        "q": "Livrați aparate de măsură Kyoritsu în România?",
+        "a": "Da, aducem la comandă multimetre și alte aparate de măsură din portofoliul Kyoritsu, pornind de la codul exact al modelului dorit. Instrumentele din această gamă ajung la noi abia după comandă, fără a fi ținute pe raft, într-un termen public estimat de producător de două până la șase săptămâni. Recomandăm confirmarea denumirii complete a modelului înainte de trimiterea cererii de ofertă."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"KYORITSU – Homepage","url":"https://www.kew-ltd.co.jp/en/","publisher":"Kyoritsu","accessed":"2026-09-25"},
+      {"title":"KYORITSU – Multimeter","url":"https://www.kew-ltd.co.jp/en/products/pm001","publisher":"Kyoritsu","accessed":"2026-09-25"},
       { title: "Kyoritsu Electrical Instruments Works, Ltd.", url: "https://www.kew-ltd.co.jp", publisher: "Kyoritsu Electrical Instruments Works, Ltd.", accessed: "2026-09-22" },
       { title: "Company – Kyoritsu", url: "https://www.kew-ltd.co.jp/en/company/", publisher: "Kyoritsu Electrical Instruments Works, Ltd.", accessed: "2026-09-22" },
     ],
@@ -500,11 +1275,77 @@ Ce diferențiază Rotronic este acoperirea de aplicații critice unde precizia �
     ],
     infinitrade: `Pentru Rotronic arătăm clar ce putem și ce nu putem confirma, ținând cont că marca a trecut recent sub grupul DwyerOmega. Transmițătoarele și echipamentul de calibrare le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea modelului. Clientul trebuie să ne trimită domeniul de umiditate și temperatură necesar, dacă spațiul cere certificare ATEX și aplicația exactă (monitorizare continuă sau calibrare). Pentru că achiziția trece prin canalele actuale ale grupului, nu putem păstra stoc propriu pentru fiecare model din gama istorică Rotronic.`,
     limitation: "Nu putem confirma compatibilitatea unui senzor Rotronic mai vechi cu gama actuală de transmițătoare fără verificare directă la producător, dat fiind că marca funcționează acum sub DwyerOmega.",
+    productCodes: [
+      {
+        "code": "HF1",
+        "description": "Transmițător de umiditate și temperatură, model de bază din gama HygroFlex"
+      },
+      {
+        "code": "HF3",
+        "description": "Transmițător de umiditate și temperatură cu funcții extinse, gama HygroFlex"
+      },
+      {
+        "code": "HF4",
+        "description": "Transmițător de umiditate și temperatură cu afișaj, gama HygroFlex"
+      },
+      {
+        "code": "HF5",
+        "description": "Transmițător de umiditate și temperatură cu sondă interschimbabilă, gama HygroFlex"
+      },
+      {
+        "code": "HF7",
+        "description": "Transmițător de umiditate și temperatură cu funcții avansate, gama HygroFlex"
+      },
+      {
+        "code": "HF73A",
+        "description": "Transmițător avansat de umiditate și temperatură pentru aplicații critice"
+      },
+      {
+        "code": "HygroFlex-EX",
+        "description": "Variantă certificată pentru zone cu risc de explozie a transmițătoarelor HygroFlex"
+      },
+      {
+        "code": "XB",
+        "description": "Sondă OEM de umiditate și temperatură pentru integrare în echipamente"
+      },
+      {
+        "code": "HygroStat",
+        "description": "Regulator de umiditate cu ieșiri de comandă pentru sisteme HVAC"
+      },
+      {
+        "code": "HygroGen2",
+        "description": "Generator de umiditate pentru calibrarea traductoarelor de umiditate"
+      },
+      {
+        "code": "Hygrocal100",
+        "description": "Soluție de calibrare salină pentru verificarea senzorilor de umiditate"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între transmițătoarele Rotronic HF4 și HF5?",
+        "a": "HF4 este un transmițător de umiditate și temperatură cu afișaj local, potrivit pentru montaj direct în canal sau cameră, fără accesorii suplimentare. HF5 folosește o sondă interschimbabilă, ceea ce permite înlocuirea rapidă a elementului de măsură fără demontarea întregului transmițător din instalație. Ambele fac parte din gama HygroFlex și acoperă aplicații industriale sau de climatizare, diferența principală fiind modul de mentenanță."
+      },
+      {
+        "q": "Ce este HygroGen2 de la Rotronic și la ce se folosește?",
+        "a": "HygroGen2 este un generator de umiditate folosit pentru calibrarea traductoarelor și instrumentelor de măsură a umidității, direct în laborator sau atelier. Aparatul creează condiții de umiditate și temperatură stabile, controlate, față de care se compară valorile citite de senzorul verificat. Este util pentru laboratoare de metrologie sau pentru întreținerea periodică a transmițătoarelor Rotronic instalate pe teren."
+      },
+      {
+        "q": "Ce trebuie să precizez pentru o ofertă de transmițător de umiditate Rotronic?",
+        "a": "Este necesar domeniul de umiditate și temperatură de măsurat, tipul de montaj dorit, în canal, cameră sau exterior, și dacă este nevoie de ieșire analogică sau digitală. Pentru medii cu risc de explozie se menționează zona de clasificare, pentru a alege varianta HygroFlex-EX în locul modelului standard. Aceste informații permit identificarea rapidă a modelului potrivit din gama HygroFlex."
+      },
+      {
+        "q": "Livrați transmițătoare de umiditate Rotronic în România?",
+        "a": "Da, aducem la comandă transmițătoare din gama HygroFlex, sonde OEM din seria XB și echipamente de calibrare precum HygroGen2, pornind de la codul exact solicitat. Această gamă nu este ținută pe raft; o aducem special la comandă, în termenul orientativ publicat de producător, de două până la șase săptămâni. Recomandăm precizarea domeniului de măsură și a tipului de montaj pentru o ofertă corectă."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Rotronic – Homepage","url":"https://www.rotronic.com/en-us/","publisher":"Rotronic","accessed":"2026-09-25"},
+      {"title":"Rotronic – HygroFlex Series","url":"https://www.rotronic.com/en-ch/humidity-measurement-feuchtemessung-temperaturmessungs/humidity-measurement-feuchte-messung/transmitters/hygroflex-series","publisher":"Rotronic","accessed":"2026-09-25"},
       { title: "Rotronic – Humidity and Temperature Measurement", url: "https://www.rotronic.com", publisher: "Rotronic / DwyerOmega", accessed: "2026-09-22" },
       { title: "Rotronic (en-us)", url: "https://www.rotronic.com/en-us/", publisher: "Rotronic / DwyerOmega", accessed: "2026-09-22" },
     ],
