@@ -27,9 +27,9 @@
     "status": "OWNER_CONFIRM",
     "publicCrossCheck": "ONRC/Termene bilanț — the only entity number a third party can contradict"
   },
-  "brandCount": 1017,
+  "brandCount": 1075,
   "brandCountDerivedFrom": "allBrandsUnified.length (src/data/allBrandsIndex.js)",
-  "brandCountAfterMerges": 1017,
+  "brandCountAfterMerges": 1075,
   "brandCountPhrase": "branduri cu pagină proprie pe site",
   "leadTimePhrases": [
     "24–72 h din stoc",
