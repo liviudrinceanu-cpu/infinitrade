@@ -6,11 +6,12 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
 import { caseStudies, getCaseStudy, getRelatedCaseStudies } from '@/data/caseStudies';
 import {
-  Factory, Clock, Calendar, Zap, TrendingUp, CheckCircle,
-  ArrowRight, Quote, Target, Wrench, BarChart3, Users
+  Factory, Zap, TrendingUp, CheckCircle,
+  ArrowRight, Target, Wrench, BarChart3, Users
 } from 'lucide-react';
 import { safeJsonLd } from '@/lib/utils';
 import { sanitizeContentHtml } from '@/lib/sanitize';
+import { lastModified } from '@/data/lastModified';
 import styles from './case-study.module.css';
 
 // Generate static params for all case studies
@@ -32,12 +33,10 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const title = `${caseStudy.shortTitle} | Studiu de Caz`;
-  // Truncate excerpt to 140 chars to leave room for brand mention
-  const shortExcerpt = caseStudy.excerpt.length > 140
-    ? caseStudy.excerpt.substring(0, 137) + '...'
-    : caseStudy.excerpt;
-  const description = shortExcerpt;
+  // v18: guides, not case studies; the excerpt is written at 140–160
+  // characters, so it is used whole (no mid-word "..." truncation).
+  const title = { absolute: `${caseStudy.shortTitle}: ghid de aplicație | Infinitrade` };
+  const description = caseStudy.excerpt;
 
   return {
     title,
@@ -47,7 +46,7 @@ export async function generateMetadata({ params }) {
       ...caseStudy.brands.map(b => `${b.toLowerCase()} romania`),
       ...caseStudy.products.map(p => p.toLowerCase()),
       caseStudy.industry.toLowerCase(),
-      'studiu de caz',
+      'ghid de aplicație',
       'proiect industrial',
     ],
     openGraph: {
@@ -84,8 +83,8 @@ function generateCaseStudyJsonLd(caseStudy) {
         '@id': `${config.site.url}/studii-de-caz/${caseStudy.slug}#article`,
         headline: caseStudy.title,
         description: caseStudy.excerpt,
-        datePublished: caseStudy.date || `${caseStudy.year}-01-15`,
-        dateModified: '2026-01-22',
+        datePublished: '2026-01-24',
+        dateModified: lastModified.caseStudies,
         author: {
           '@type': 'Organization',
           name: 'Infinitrade Romania',
@@ -104,7 +103,7 @@ function generateCaseStudyJsonLd(caseStudy) {
           '@id': `${config.site.url}/studii-de-caz/${caseStudy.slug}`,
         },
         image: `${config.site.url}/logo-header.png`,
-        articleSection: 'Studii de Caz',
+        articleSection: 'Ghiduri de aplicație',
         inLanguage: 'ro-RO',
         keywords: caseStudy.tags.join(', '),
         about: [
@@ -116,39 +115,6 @@ function generateCaseStudyJsonLd(caseStudy) {
             '@type': 'Thing',
             name: cat,
           })),
-        ],
-      },
-      // HowTo schema for the implementation
-      {
-        '@type': 'HowTo',
-        name: `Implementare: ${caseStudy.shortTitle}`,
-        description: caseStudy.excerpt,
-        totalTime: `P${parseInt(caseStudy.duration)}M`,
-        tool: caseStudy.products.map(product => ({
-          '@type': 'HowToTool',
-          name: product,
-        })),
-        step: [
-          {
-            '@type': 'HowToStep',
-            name: 'Analiza si Proiectare',
-            text: 'Audit detaliat al sistemului existent si proiectare solutie optimizata',
-          },
-          {
-            '@type': 'HowToStep',
-            name: 'Furnizare Echipamente',
-            text: `Livrare echipamente: ${caseStudy.brands.join(', ')}`,
-          },
-          {
-            '@type': 'HowToStep',
-            name: 'Instalare si Punere in Functiune',
-            text: 'Montaj profesional si testare completa',
-          },
-          {
-            '@type': 'HowToStep',
-            name: 'Optimizare si Training',
-            text: 'Fine-tuning parametri si instruire personal',
-          },
         ],
       },
       // BreadcrumbList
@@ -315,45 +281,13 @@ export default async function CaseStudyPage({ params }) {
                 </Link>
                 <span className={styles.metaDivider}>•</span>
                 <span className={styles.metaItem}>
-                  <Clock size={14} />
-                  {caseStudy.duration}
-                </span>
-                <span className={styles.metaDivider}>•</span>
-                <span className={styles.metaItem}>
-                  <Calendar size={14} />
-                  {caseStudy.year}
+                  Ghid de aplicație
                 </span>
               </div>
 
               <h1>{caseStudy.title}</h1>
               <p className={styles.heroExcerpt}>{caseStudy.excerpt}</p>
 
-              {/* Results Highlights */}
-              <div className={styles.resultsHighlight}>
-                {Object.entries(caseStudy.results).map(([key, value]) => (
-                  <div key={key} className={styles.resultCard}>
-                    <span className={styles.resultValue}>{value}</span>
-                    <span className={styles.resultLabel}>
-                      {key === 'energySaving' ? 'Economie Energie' :
-                       key === 'efficiency' ? 'Creștere Eficiență' :
-                       key === 'reliability' ? 'Fiabilitate' :
-                       key === 'availability' ? 'Disponibilitate' :
-                       key === 'productivity' ? 'Productivitate' :
-                       key === 'quality' ? 'Calitate' :
-                       key === 'payback' ? 'Perioada Recuperare' :
-                       key === 'roi' ? 'ROI' :
-                       key === 'co2Reduction' ? 'Reducere CO2' :
-                       key === 'capacity' ? 'Capacitate' :
-                       key === 'compliance' ? 'Conformitate' :
-                       key === 'heatRecovery' ? 'Recuperare Căldură' :
-                       key === 'emissions' ? 'Emisii' :
-                       key === 'airQuality' ? 'Calitate Aer' :
-                       key === 'maintenance' ? 'Cost Mentenanță' :
-                       key}
-                    </span>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
         </section>
@@ -362,8 +296,8 @@ export default async function CaseStudyPage({ params }) {
         <section className={styles.brandsSection}>
           <div className={styles.container}>
             <div className={styles.brandsHeader}>
-              <h2>Echipamente Utilizate</h2>
-              <p>Branduri de top pentru rezultate garantate</p>
+              <h2>Ce branduri se folosesc în această aplicație?</h2>
+              <p>Producătorii ale căror game le ofertăm pentru acest tip de proiect</p>
             </div>
             <div className={styles.brandsGrid}>
               {caseStudy.brands.map((brand, index) => (
@@ -398,7 +332,7 @@ export default async function CaseStudyPage({ params }) {
             <div className={styles.sectionIcon}>
               <Target size={24} />
             </div>
-            <h2>Provocarea</h2>
+            <h2>Care sunt problemele tipice?</h2>
             <div className={styles.contentBody}>
               {renderContent(caseStudy.challenge)}
             </div>
@@ -411,14 +345,14 @@ export default async function CaseStudyPage({ params }) {
             <div className={styles.sectionIcon}>
               <Wrench size={24} />
             </div>
-            <h2>Soluția Implementată</h2>
+            <h2>Ce soluție tehnică recomandăm?</h2>
             <div className={styles.contentBody}>
               {renderContent(caseStudy.solution)}
             </div>
 
             {/* Products Grid */}
             <div className={styles.productsUsed}>
-              <h3>Tipuri de Produse Furnizate:</h3>
+              <h3>Tipuri de produse pe care le ofertăm:</h3>
               <div className={styles.productsTags}>
                 {caseStudy.products.map(product => (
                   <span key={product} className={styles.productTag}>
@@ -437,7 +371,7 @@ export default async function CaseStudyPage({ params }) {
             <div className={styles.sectionIcon}>
               <Users size={24} />
             </div>
-            <h2>Implementare</h2>
+            <h2>Cum se desfășoară implementarea?</h2>
             <div className={styles.contentBody}>
               {renderContent(caseStudy.implementation)}
             </div>
@@ -450,28 +384,14 @@ export default async function CaseStudyPage({ params }) {
             <div className={styles.sectionIcon}>
               <BarChart3 size={24} />
             </div>
-            <h2>Rezultate Măsurate</h2>
+            <h2>Ce indicatori merită urmăriți?</h2>
             <div className={styles.contentBody}>
               {renderContent(caseStudy.results_detailed)}
             </div>
           </div>
         </section>
 
-        {/* Testimonial Section */}
-        <section className={styles.testimonialSection}>
-          <div className={styles.container}>
-            <div className={styles.testimonialCard}>
-              <Quote size={32} className={styles.quoteIcon} />
-              <blockquote>
-                "{caseStudy.testimonialQuote}"
-              </blockquote>
-              <cite>— {caseStudy.testimonialIndustry}</cite>
-              <p className={styles.confidentialNote}>
-                * Din motive de confidențialitate, nu putem divulga numele companiei
-              </p>
-            </div>
-          </div>
-        </section>
+        {/* v18: no testimonial — the quotes had no source (removed). */}
 
         {/* Tags Section */}
         <section className={styles.tagsSection}>

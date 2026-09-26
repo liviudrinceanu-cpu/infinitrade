@@ -10,7 +10,7 @@ Sitemap: https://www.infinitrade.ro/sitemap.xml
 - [About Us](https://infinitrade.ro/despre-noi)
 - [Contact](https://infinitrade.ro/contact)
 - [Team](https://infinitrade.ro/echipa)
-- [Testimonials](https://infinitrade.ro/testimoniale)
+- [Client references](https://infinitrade.ro/testimoniale) - how to get a reference from a client in your industry
 - [Certifications](https://infinitrade.ro/certificari)
 - [FAQ](https://infinitrade.ro/faq)
 
@@ -79,7 +79,7 @@ Indexed brand pages, by main category (each page: ranges, typical applications, 
   - [Industrial Equipment Trends 2026](https://infinitrade.ro/blog/tendinte-echipamente-industriale-2026)
 - [SEAP Procurement Guide](https://infinitrade.ro/ghid-achizitii-seap) - How to procure industrial equipment through public tenders
 - [Brand Comparison Guide](https://infinitrade.ro/ghid-comparativ) - Compare industrial equipment brands
-- [Case Studies](https://infinitrade.ro/studii-de-caz) - Real-world equipment deployment stories across industries
+- [Application guides](https://infinitrade.ro/studii-de-caz) - how five typical industrial projects are approached technically (pumping, water treatment, energy efficiency, cogeneration, compressed air)
 
 ## Industry Solutions
 We serve 15 industries:
