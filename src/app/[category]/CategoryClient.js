@@ -358,6 +358,11 @@ export default function CategoryClient({ category }) {
               <a href="#branduri" className={styles.ctaSecondary}>
                 Vezi Branduri
               </a>
+              {rankedBrands.length > topBrands.length && (
+                <a href="#toate-marcile" className={styles.ctaSecondary}>
+                  Toate mărcile A–Z
+                </a>
+              )}
             </div>
           </div>
         </div>
@@ -415,7 +420,7 @@ export default function CategoryClient({ category }) {
           </div>
 
           {rankedBrands.length > topBrands.length && (
-            <div className={styles.azWrap}>
+            <div className={styles.azWrap} id="toate-marcile">
               <h3 className={styles.azTitle}>Toate cele {brandCount} de mărci de {category.name.toLowerCase()}, de la A la Z</h3>
               <p className={styles.azLead}>
                 Mărcile marcate cu ● au pagină cu game, coduri și surse verificate; celelalte au deocamdată fișa din catalog și pot fi ofertate la comandă.

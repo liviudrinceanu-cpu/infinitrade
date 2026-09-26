@@ -38,23 +38,16 @@ export async function generateMetadata({ params }) {
     .slice(0, 6).map(b => b.name).join(', ');
   const productTypeNames = category.productTypes.map(p => p.name).slice(0, 5).join(', ');
 
-  // Shorten title to stay under 70 chars total
-  // Use short names for long categories to fit "| Infinitrade" suffix (14 chars)
-  const shortNames = {
-    'suflante-ventilatoare': 'Suflante Industriale',
-    'schimbatoare-caldura': 'Schimbătoare Căldură',
-    'motoare-electrice': 'Motoare Electrice',
-    'echipamente-electrice': 'Echipamente Electrice',
-    'echipamente-auxiliare': 'Echipamente Auxiliare',
-    'lubrifianti-chimice': 'Lubrifianți Chimice',
-    'scule-instrumente': 'Scule Măsură',
-    'componente-mecanice': 'Componente Mecanice',
-    'filtre-consumabile': 'Filtre Industriale',
-    'componente-hidraulice-pneumatice': 'Hidraulică Pneumatică',
-    'aparate-masura-testare': 'Aparate Măsură Testare',
-  };
-  const displayName = shortNames[category.slug] || category.name;
-  const title = displayName;
+  // v15 (D-2026-09-26): the page title is the curated `metaTitle` from the
+  // data file (≤ 62 characters: category + "Furnizor SEAP" + two or three
+  // headline brands), rendered as an absolute title so the root layout
+  // template does not append " | Infinitrade Romania" and push it past the
+  // width Google shows. The site name still reaches the SERP through the
+  // WebSite JSON-LD in the root layout. Before v15 the title was only the
+  // short category name and the stored metaTitle was never rendered.
+  const title = category.metaTitle && category.metaTitle.length <= 62
+    ? { absolute: category.metaTitle }
+    : category.name;
   // Use metaDescription from data (already optimized for length) instead of dynamic description
   const description = category.metaDescription;
 
@@ -62,8 +55,8 @@ export async function generateMetadata({ params }) {
     title,
     description,
     openGraph: {
-      title: `${category.name} | Distribuitor Romania | Infinitrade`,
-      description: `Distribuitor ${category.name.toLowerCase()} în România. Branduri: ${brandNames}. ${category.stats.products} produse disponibile. Livrare 24-72h.`,
+      title: `${category.name} | Furnizor România | Infinitrade`,
+      description: `Furnizor de ${category.name.toLowerCase()} în România. Branduri: ${brandNames}. Ofertă pe cod de produs, livrare la comandă.`,
       url: `${config.site.url}/${category.slug}`,
       siteName: 'Infinitrade Romania',
       locale: 'ro_RO',
@@ -71,8 +64,8 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${category.name} | Distribuitor`,
-      description: `Distribuitor ${category.name.toLowerCase()} în România. ${category.stats.brands} branduri premium.`,
+      title: `${category.name} | Furnizor România | Infinitrade`,
+      description: `Furnizor de ${category.name.toLowerCase()} în România. Branduri: ${brandNames}.`,
     },
     alternates: {
       canonical: `${config.site.url}/${category.slug}`,
