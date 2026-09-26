@@ -37,7 +37,7 @@ const faqData = [
     questions: [
       {
         q: 'Cât durează livrarea?',
-        a: 'Ce avem în stoc: 24-72h în toată România. Ce trebuie comandat de la producător: 2-6 săptămâni, depinde de ce e. Pentru urgențe de producție, sună-ne direct - găsim soluție, fie din stocul altui distribuitor, fie cu livrare expres.'
+        a: 'Ce avem în stoc: 24-72h în toată România. Ce trebuie comandat de la producător: 2-4 săptămâni, depinde de ce e. Pentru urgențe de producție, sună-ne direct - găsim soluție, fie din stocul altui distribuitor, fie cu livrare expres.'
       },
       {
         q: 'Livrați pe șantier sau direct în fabrică?',

@@ -63,7 +63,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trimiteți pentru o ofertă de ulei hidraulic și cât durează livrarea?",
-        "a": "Gradul de vâscozitate ISO VG necesar, cantitatea, tipul de bază preferat și, dacă e cazul, uleiul folosit anterior. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător, mai rapidă pentru gradele uzuale de vâscozitate."
+        "a": "Gradul de vâscozitate ISO VG necesar, cantitatea, tipul de bază preferat și, dacă e cazul, uleiul folosit anterior. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, mai rapidă pentru gradele uzuale de vâscozitate."
       },
       {
         "q": "Pot fi amestecate două uleiuri hidraulice diferite în același sistem?",
@@ -137,7 +137,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de unsori industriale?",
-        "a": "Tipul de echipament uns, temperatura de lucru, prezența apei în mediu și unsoarea folosită anterior, dacă este cunoscută, sunt suficiente pentru o recomandare corectă. Termenul de livrare, orientativ 2-6 săptămâni, se confirmă abia după plasarea comenzii, în funcție de producător."
+        "a": "Tipul de echipament uns, temperatura de lucru, prezența apei în mediu și unsoarea folosită anterior, dacă este cunoscută, sunt suficiente pentru o recomandare corectă. Termenul de livrare, orientativ 2-4 săptămâni, se confirmă abia după plasarea comenzii, în funcție de producător."
       },
       {
         "q": "Se pot amesteca două unsori diferite la relubrifiere?",
@@ -211,7 +211,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de ulei de transmisie și cât durează livrarea?",
-        "a": "Sunt necesare tipul reductorului sau clasa de vâscozitate, tipul de angrenaj și cantitatea necesară. Termenul de livrare este la comandă, orientativ 2-6 săptămâni, mai scurt pentru clasele de vâscozitate uzuale, disponibile la mai mulți producători de lubrifianți industriali."
+        "a": "Sunt necesare tipul reductorului sau clasa de vâscozitate, tipul de angrenaj și cantitatea necesară. Termenul de livrare este la comandă, orientativ 2-4 săptămâni, mai scurt pentru clasele de vâscozitate uzuale, disponibile la mai mulți producători de lubrifianți industriali."
       },
       {
         "q": "Se pot amesteca între ele două uleiuri de transmisie diferite?",
@@ -284,7 +284,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de adezivi industriali și cât durează livrarea?",
-        "a": "Sunt necesare materialele îmbinate, tipul de solicitare, mediul de funcționare și cantitatea dorită. Livrarea se confirmă la comandă, orientativ 2-6 săptămâni, în funcție de producător, deși pentru acest tip de produs numărul de branduri disponibile este mai limitat."
+        "a": "Sunt necesare materialele îmbinate, tipul de solicitare, mediul de funcționare și cantitatea dorită. Livrarea se confirmă la comandă, orientativ 2-4 săptămâni, în funcție de producător, deși pentru acest tip de produs numărul de branduri disponibile este mai limitat."
       },
       {
         "q": "Cât timp se pot păstra adezivii industriali înainte de utilizare?",
@@ -431,7 +431,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru ofertă și cât durează livrarea unui fluid de răcire?",
-        "a": "Sunt necesare tipul de prelucrare, materialul prelucrat, tipul de sistem (individual sau centralizat) și, dacă se cunoaște, duritatea apei locale. Livrarea se face la comandă, orientativ în 2–6 săptămâni, în funcție de producător și de cantitatea comandată."
+        "a": "Sunt necesare tipul de prelucrare, materialul prelucrat, tipul de sistem (individual sau centralizat) și, dacă se cunoaște, duritatea apei locale. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător și de cantitatea comandată."
       },
       {
         "q": "De ce miroase urât emulsia de răcire după câteva săptămâni de utilizare?",

@@ -57,7 +57,7 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       'Material Handling - conveyors, sortare automată, AS/RS, AGV',
       'Textile - mașini țesut, colorare, finisare cu control tensiune și sincronizare'
     ],
-    infinitrade: `Lucrăm cu informațiile tehnice publicate de Mitsubishi Electric și spunem deschis ce putem și ce nu putem confirma fără o discuție tehnică prealabilă, mai ales pentru configurarea software a automatelor. Nu avem un stoc afișat public pentru fiecare PLC, servo-drive sau variator, dar aducem echipamentele solicitate prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru codurile curente sau în 2-6 săptămâni la comandă pentru configurațiile speciale. Pentru o ofertă corectă, trimite-ne referința exactă a produsului, cantitatea și aplicația vizată – automatizare, motion control sau interfață HMI. Revenim cu un termen realist după ce verificăm disponibilitatea la furnizor.`,
+    infinitrade: `Lucrăm cu informațiile tehnice publicate de Mitsubishi Electric și spunem deschis ce putem și ce nu putem confirma fără o discuție tehnică prealabilă, mai ales pentru configurarea software a automatelor. Nu avem un stoc afișat public pentru fiecare PLC, servo-drive sau variator, dar aducem echipamentele solicitate prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru codurile curente sau în 2-4 săptămâni la comandă pentru configurațiile speciale. Pentru o ofertă corectă, trimite-ne referința exactă a produsului, cantitatea și aplicația vizată – automatizare, motion control sau interfață HMI. Revenim cu un termen realist după ce verificăm disponibilitatea la furnizor.`,
     limitation: 'Nu putem confirma configurarea sau parametrizarea software (GX Works, GT Designer) pentru instalația ta fără o discuție tehnică prealabilă, și nici service-ul în garanția producătorului.',
     sources: [
       {"title":"Products - Mitsubishi Electric Factory Automation","url":"https://www.mitsubishielectric.com/fa/products/index.html","publisher":"Mitsubishi Electric","accessed":"2026-09-22"},
@@ -121,7 +121,7 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       },
       {
         "q": "Livrați automate și convertizoare Mitsubishi Electric în România?",
-        "a": "Da, aducem la comandă automate programabile, servomotoare și convertizoare de frecvență din gamele MELSEC, MELSERVO și FR-A800, pe baza codului confirmat de client. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul uzual este de 2-6 săptămâni. Codul complet de pe eticheta echipamentului grăbește identificarea."
+        "a": "Da, aducem la comandă automate programabile, servomotoare și convertizoare de frecvență din gamele MELSEC, MELSERVO și FR-A800, pe baza codului confirmat de client. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul uzual este de 2-4 săptămâni. Codul complet de pe eticheta echipamentului grăbește identificarea."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de convertizor de frecvență Mitsubishi Electric?",
@@ -197,7 +197,7 @@ Ce apreciem cel mai mult e consistența calității - fiecare instrument vine cu
       'Quality Control Labs - departamente QC care validează procese producție',
       'Education - institute tehnice și universități pentru training metrologie'
     ],
-    infinitrade: `Folosim informațiile tehnice publicate de Mitutoyo și precizăm clar ce putem și ce nu putem confirma direct, în special pentru calibrare și service. Nu ținem un stoc afișat public pentru fiecare instrument de măsură, dar aducem șublerele, micrometrele sau componentele pentru CMM solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru instrumentele uzuale sau în 2-6 săptămâni la comandă pentru echipamente complexe. Pentru o ofertă corectă, spune-ne ce instrument cauți, intervalul de măsurare necesar și precizia cerută de aplicația ta. Termenul real de livrare vine după ce verificăm disponibilitatea la furnizor.`,
+    infinitrade: `Folosim informațiile tehnice publicate de Mitutoyo și precizăm clar ce putem și ce nu putem confirma direct, în special pentru calibrare și service. Nu ținem un stoc afișat public pentru fiecare instrument de măsură, dar aducem șublerele, micrometrele sau componentele pentru CMM solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru instrumentele uzuale sau în 2-4 săptămâni la comandă pentru echipamente complexe. Pentru o ofertă corectă, spune-ne ce instrument cauți, intervalul de măsurare necesar și precizia cerută de aplicația ta. Termenul real de livrare vine după ce verificăm disponibilitatea la furnizor.`,
     limitation: 'Nu putem confirma calibrarea sau service-ul instrumentelor Mitutoyo aflate în garanția producătorului fără verificare directă la un centru autorizat de recalibrare.',
     sources: [
       {"title":"B-1 Small Tool Instruments — Micrometers, Micrometer Heads","url":"https://www.mitutoyo.com/webfoo/wp-content/uploads/B_section.pdf","publisher":"Mitutoyo","accessed":"2026-09-22"},
@@ -294,7 +294,7 @@ Ce apreciem cel mai mult e consistența calității - fiecare instrument vine cu
       },
       {
         "q": "Livrați produse Mitutoyo în România?",
-        "a": "Da, aducem produsele Mitutoyo la comandă, identificate după seria sau codul indicat în catalogul oficial al producătorului. Fără date proprii de stoc pe site, livrarea durează de regulă 2–6 săptămâni la comandă — depinde de configurația exactă (fălci, protecție IP65, ieșire de date) și de disponibilitatea acelei variante la fabrică."
+        "a": "Da, aducem produsele Mitutoyo la comandă, identificate după seria sau codul indicat în catalogul oficial al producătorului. Fără date proprii de stoc pe site, livrarea durează de regulă 2–4 săptămâni la comandă — depinde de configurația exactă (fălci, protecție IP65, ieșire de date) și de disponibilitatea acelei variante la fabrică."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de instrument Mitutoyo?",
@@ -370,7 +370,7 @@ Ce ne impresionează e investiția lor în R&D - laborator tribologie unde teste
       'Marine - propulsion systems, deck machinery, hydraulics în mediu salin coroziv',
       'Automotive Manufacturing - linii asamblare, roboti sudură, paint shop hydraulics'
     ],
-    infinitrade: `Lucrăm cu fișele tehnice publice ale producătorului Mobil (ExxonMobil) și spunem clar ce putem și ce nu putem confirma pentru fiecare aplicație, mai ales compatibilitatea cu echipamentul tău. Nu deținem un stoc afișat public pentru fiecare ambalaj, dar aducem lubrifianții Mobil solicitați prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru gramajele uzuale sau în 2-6 săptămâni la comandă pentru butoaie ori formule speciale. Pentru o ofertă corectă, trimite-ne tipul de echipament, temperatura de lucru și vâscozitatea recomandată de producătorul utilajului. Verificăm disponibilitatea reală la furnizor înainte să confirmăm termenul de livrare.`,
+    infinitrade: `Lucrăm cu fișele tehnice publice ale producătorului Mobil (ExxonMobil) și spunem clar ce putem și ce nu putem confirma pentru fiecare aplicație, mai ales compatibilitatea cu echipamentul tău. Nu deținem un stoc afișat public pentru fiecare ambalaj, dar aducem lubrifianții Mobil solicitați prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru gramajele uzuale sau în 2-4 săptămâni la comandă pentru butoaie ori formule speciale. Pentru o ofertă corectă, trimite-ne tipul de echipament, temperatura de lucru și vâscozitatea recomandată de producătorul utilajului. Verificăm disponibilitatea reală la furnizor înainte să confirmăm termenul de livrare.`,
     limitation: 'Nu putem confirma stocul permanent pentru fiecare gramaj sau ambalaj Mobil și nici compatibilitatea exactă cu un echipament anume fără specificațiile lui tehnice.',
     sources: [
       {"title":"Mobil SHC Rarus Series","url":"https://www.mobil.com/en/lubricants/for-businesses/industrial/lubricants/product-series/mobil-shc-rarus-series","publisher":"ExxonMobil","accessed":"2026-09-22"},
@@ -452,7 +452,7 @@ Ce ne impresionează e investiția lor în R&D - laborator tribologie unde teste
       },
       {
         "q": "Livrați lubrifianți Mobil Industrial în România?",
-        "a": "Da, gamele Mobil Industrial ajung la comandă, pornind de la codul de vâscozitate sau gradul NLGI cerut, preluat din fișele publicate de producător. Site-ul nu arată un stoc propriu; orientativ, așteptați 2–6 săptămâni la comandă, în funcție de tipul ambalajului (bidon, butoi, vrac) și de cantitatea solicitată pentru gradul respectiv."
+        "a": "Da, gamele Mobil Industrial ajung la comandă, pornind de la codul de vâscozitate sau gradul NLGI cerut, preluat din fișele publicate de producător. Site-ul nu arată un stoc propriu; orientativ, așteptați 2–4 săptămâni la comandă, în funcție de tipul ambalajului (bidon, butoi, vrac) și de cantitatea solicitată pentru gradul respectiv."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de ulei sau unsoare Mobil?",
@@ -528,7 +528,7 @@ Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele m
       'Marine - stabilizatori fin motion, steering gear heavy ships, submarine control surfaces',
       'Entertainment - theme park rides motion platforms, special effects movie studios'
     ],
-    infinitrade: `Pornim de la surse publice ale producătorului Moog și spunem deschis ce putem și ce nu putem confirma din capacitate proprie, mai ales pentru configurațiile custom. Nu avem un stoc afișat public pentru servo-valve sau controllere, dar aducem componentele Moog solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 2-6 săptămâni la comandă, iar pentru accesorii uzuale uneori și în 24-72 h din stoc. Pentru o ofertă corectă, trimite-ne specificațiile tehnice complete ale valvei sau sistemului hidraulic – presiune, debit, tip de semnal de comandă. Revenim cu un termen realist doar după ce confirmăm disponibilitatea direct la furnizor.`,
+    infinitrade: `Pornim de la surse publice ale producătorului Moog și spunem deschis ce putem și ce nu putem confirma din capacitate proprie, mai ales pentru configurațiile custom. Nu avem un stoc afișat public pentru servo-valve sau controllere, dar aducem componentele Moog solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 2-4 săptămâni la comandă, iar pentru accesorii uzuale uneori și în 24-72 h din stoc. Pentru o ofertă corectă, trimite-ne specificațiile tehnice complete ale valvei sau sistemului hidraulic – presiune, debit, tip de semnal de comandă. Revenim cu un termen realist doar după ce confirmăm disponibilitatea direct la furnizor.`,
     limitation: 'Nu putem confirma termenele de livrare pentru configurațiile custom Moog și nici service-ul în garanția producătorului, care se face prin canalele oficiale ale fabricantului.',
     sources: [
       {"title":"Direct Drive Analog Control Servo Valves D633 Size 03 and D634 Catalog","url":"https://www.moog.com/content/dam/moog/literature/products/servovalves/industrial/flow-control/analog/Moog-ServoValves-%20D633-D634-Catalog-en.pdf","publisher":"Moog Inc.","accessed":"2026-09-22"},
@@ -589,7 +589,7 @@ Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele m
       },
       {
         "q": "Livrați supape și pompe Moog în România?",
-        "a": "Da, componentele Moog (supape, pompe) se aduc la comandă, pe baza codului exact de serie găsit în documentația producătorului. Nu publicăm cifre de stoc propriu; ca reper, socotiți 2–6 săptămâni la comandă, variabil după configurația electronică sau mecanică cerută pentru fiecare supapă ori pompă în parte."
+        "a": "Da, componentele Moog (supape, pompe) se aduc la comandă, pe baza codului exact de serie găsit în documentația producătorului. Nu publicăm cifre de stoc propriu; ca reper, socotiți 2–4 săptămâni la comandă, variabil după configurația electronică sau mecanică cerută pentru fiecare supapă ori pompă în parte."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de supapă Moog?",
@@ -665,7 +665,7 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
       'Machine Tools - prese hidraulice, CNC machining centers, grinding machines',
       'Material Handling - elevators, conveyors, AGV cu hidraulică frecvent ciclată'
     ],
-    infinitrade: `Folosim informațiile tehnice publicate de MP Filtri și explicăm clar ce putem și ce nu putem confirma noi, în special pentru senzorii de monitorizare online. Nu ținem un stoc afișat public pentru fiecare finețe de filtrare, dar aducem filtrele și strecurătoarele MP Filtri prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 2-6 săptămâni la comandă pentru sisteme de monitorizare. Pentru o ofertă corectă, trimite-ne debitul, presiunea de lucru și finețea de filtrare necesară aplicației tale. Confirmăm termenul după verificarea disponibilității reale la furnizor.`,
+    infinitrade: `Folosim informațiile tehnice publicate de MP Filtri și explicăm clar ce putem și ce nu putem confirma noi, în special pentru senzorii de monitorizare online. Nu ținem un stoc afișat public pentru fiecare finețe de filtrare, dar aducem filtrele și strecurătoarele MP Filtri prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 2-4 săptămâni la comandă pentru sisteme de monitorizare. Pentru o ofertă corectă, trimite-ne debitul, presiunea de lucru și finețea de filtrare necesară aplicației tale. Confirmăm termenul după verificarea disponibilității reale la furnizor.`,
     limitation: 'Nu putem confirma stocul permanent pentru fiecare finețe de filtrare MP Filtri și nici configurarea senzorilor de particule pentru sistemul tău fără o discuție tehnică prealabilă.',
     sources: [
       {"title":"FHP Series — Return Line Filters","url":"https://www.mpfiltri.com/FilesProdotti/FHPEN.pdf","publisher":"MP Filtri","accessed":"2026-09-22"},
@@ -738,7 +738,7 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
       },
       {
         "q": "Livrați filtre MP Filtri în România?",
-        "a": "Da, filtrele MP Filtri se aduc la comandă, pornind de la codul de dimensiune și gradul de filtrare cerut pentru instalația dumneavoastră. Fără un stoc propriu afișat public, calculați orientativ 2–6 săptămâni la comandă, în funcție de tipul de valvă și de pragul de presiune ales pentru element."
+        "a": "Da, filtrele MP Filtri se aduc la comandă, pornind de la codul de dimensiune și gradul de filtrare cerut pentru instalația dumneavoastră. Fără un stoc propriu afișat public, calculați orientativ 2–4 săptămâni la comandă, în funcție de tipul de valvă și de pragul de presiune ales pentru element."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de filtru MP Filtri?",
@@ -814,7 +814,7 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
       'Maritime - tank cleaning pe tankers, engine room, ballast spaces confined',
       'Pharmaceutical - clean rooms, solvent handling, reactor maintenance'
     ],
-    infinitrade: `Lucrăm cu informațiile publicate de MSA Safety și spunem clar ce putem și ce nu putem confirma direct, mai ales pentru calibrarea detectoarelor de gaz. Nu avem un stoc afișat public pentru fiecare echipament, dar aducem detectoarele, căștile sau harnașamentele MSA prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru produsele curente sau în 2-6 săptămâni la comandă pentru configurații speciale. Pentru o ofertă corectă, trimite-ne modelul exact, gazele de detectat sau standardul de protecție cerut de aplicația ta. Confirmăm termenul după ce verificăm disponibilitatea reală la furnizor.`,
+    infinitrade: `Lucrăm cu informațiile publicate de MSA Safety și spunem clar ce putem și ce nu putem confirma direct, mai ales pentru calibrarea detectoarelor de gaz. Nu avem un stoc afișat public pentru fiecare echipament, dar aducem detectoarele, căștile sau harnașamentele MSA prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru produsele curente sau în 2-4 săptămâni la comandă pentru configurații speciale. Pentru o ofertă corectă, trimite-ne modelul exact, gazele de detectat sau standardul de protecție cerut de aplicația ta. Confirmăm termenul după ce verificăm disponibilitatea reală la furnizor.`,
     limitation: 'Nu putem confirma calibrarea sau service-ul echipamentelor MSA aflate în garanția producătorului fără verificare directă la un centru autorizat.',
     sources: [
       {"title":"ALTAIR Family Gas Detectors","url":"https://us.msasafety.com/altair-family-gas-detectors?locale=en","publisher":"MSA Safety","accessed":"2026-09-22"},
@@ -875,7 +875,7 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
       },
       {
         "q": "Livrați detectoare de gaze MSA Safety în România?",
-        "a": "Da, detectoarele MSA Safety ajung la comandă, pe baza modelului exact (ALTAIR, seria 4X sau 5X, ULTIMA X5000) identificat din fișele producătorului. Fără stoc propriu vizibil pe site, termenul de așteptare tipic e 2–6 săptămâni la comandă, în funcție de combinația de senzori și accesoriile de calibrare cerute."
+        "a": "Da, detectoarele MSA Safety ajung la comandă, pe baza modelului exact (ALTAIR, seria 4X sau 5X, ULTIMA X5000) identificat din fișele producătorului. Fără stoc propriu vizibil pe site, termenul de așteptare tipic e 2–4 săptămâni la comandă, în funcție de combinația de senzori și accesoriile de calibrare cerute."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de detector MSA?",
@@ -951,7 +951,7 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
       'Transportation - railway signaling, metro, tram cu certificări EN 50121',
       'Building Automation - HVAC, lighting, access control cu PoE și BACnet/IP'
     ],
-    infinitrade: `Pornim de la surse publice ale producătorului Murrelektronik și spunem deschis ce putem și ce nu putem confirma din capacitate proprie, mai ales pentru configurarea software a rețelei tale. Nu deținem un stoc afișat public pentru fiecare conector sau modul I/O, dar aducem componentele Murrelektronik prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru cablurile și conectorii uzuali sau în 2-6 săptămâni la comandă pentru module configurate special. Pentru o ofertă corectă, trimite-ne codul componentei, lungimea cablului sau protocolul de comunicare folosit. Verificăm disponibilitatea reală înainte de a confirma un termen ferm.`,
+    infinitrade: `Pornim de la surse publice ale producătorului Murrelektronik și spunem deschis ce putem și ce nu putem confirma din capacitate proprie, mai ales pentru configurarea software a rețelei tale. Nu deținem un stoc afișat public pentru fiecare conector sau modul I/O, dar aducem componentele Murrelektronik prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru cablurile și conectorii uzuali sau în 2-4 săptămâni la comandă pentru module configurate special. Pentru o ofertă corectă, trimite-ne codul componentei, lungimea cablului sau protocolul de comunicare folosit. Verificăm disponibilitatea reală înainte de a confirma un termen ferm.`,
     limitation: 'Nu putem confirma configurarea software a modulelor I/O Murrelektronik pentru rețeaua ta fără o discuție tehnică prealabilă, și nici stocul permanent pentru fiecare cod de cablu.',
     sources: [
       {"title":"General Catalog — I/O Systems, Interfaces, Connection Technology","url":"https://www.murrelektronik.com/fileadmin/user_upload/Headquarter_en_DE/Downloads/General_Catalog/Murrelektronik_General-catalog_EN.pdf","publisher":"Murrelektronik","accessed":"2026-09-22"},
@@ -1047,7 +1047,7 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
       },
       {
         "q": "Livrați produse Murr Elektronik în România?",
-        "a": "Da, componentele Murr Elektronik ajung la comandă, plecând de la codul de serie (M12, Cube67, Emparro etc.) din catalogul general al producătorului. Nu avem un stoc propriu afișat; ca reper, e nevoie de 2–6 săptămâni la comandă, funcție de varianta de conector sau de puterea sursei cerute."
+        "a": "Da, componentele Murr Elektronik ajung la comandă, plecând de la codul de serie (M12, Cube67, Emparro etc.) din catalogul general al producătorului. Nu avem un stoc propriu afișat; ca reper, e nevoie de 2–4 săptămâni la comandă, funcție de varianta de conector sau de puterea sursei cerute."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de conectori sau surse Murr Elektronik?",
@@ -1123,7 +1123,7 @@ Ce ne impresionează e atenția la detalii operaționale - mașini spălat cu sq
       'Automotive - service centers, dealerships, wash bays cu degresare și cleaning echipamente',
       'Pharmaceuticals - clean rooms, production floors cu particulate control strict'
     ],
-    infinitrade: `Folosim informațiile publicate de Nilfisk și spunem clar ce putem și ce nu putem confirma direct, în special pentru service și piese de schimb. Nu ținem un stoc afișat public pentru fiecare echipament de curățenie, dar aducem aspiratoarele, mașinile de spălat pardoseli sau echipamentele de presiune Nilfisk prin canale de aprovizionare din Uniunea Europeană, de obicei în 2-6 săptămâni la comandă, iar unele consumabile uneori și în 24-72 h din stoc. Pentru o ofertă corectă, trimite-ne suprafața de curățat, tipul pardoselii și frecvența de utilizare dorită. Îți spunem termenul concret abia după ce verificăm stocul la furnizor.`,
+    infinitrade: `Folosim informațiile publicate de Nilfisk și spunem clar ce putem și ce nu putem confirma direct, în special pentru service și piese de schimb. Nu ținem un stoc afișat public pentru fiecare echipament de curățenie, dar aducem aspiratoarele, mașinile de spălat pardoseli sau echipamentele de presiune Nilfisk prin canale de aprovizionare din Uniunea Europeană, de obicei în 2-4 săptămâni la comandă, iar unele consumabile uneori și în 24-72 h din stoc. Pentru o ofertă corectă, trimite-ne suprafața de curățat, tipul pardoselii și frecvența de utilizare dorită. Îți spunem termenul concret abia după ce verificăm stocul la furnizor.`,
     limitation: 'Nu putem confirma service-ul în garanția producătorului pentru echipamentele Nilfisk și nici stocul permanent pentru fiecare model din gama profesională.',
     sources: [
       {"title":"Nilfisk Product Range 2023","url":"https://www.nilfisk.com/media/bkedsbxi/n202_0378_v1_mini-catalogue-2023-7259_a4_en-uk_low-1.pdf","publisher":"Nilfisk","accessed":"2026-09-22"},
@@ -1223,7 +1223,7 @@ Ce ne impresionează e atenția la detalii operaționale - mașini spălat cu sq
       },
       {
         "q": "Livrați echipamente de curățenie Nilfisk în România?",
-        "a": "Da, echipamentele Nilfisk se aduc la comandă, plecând de la codul de model găsit în catalogul de produse al producătorului. Nu avem un stoc propriu afișat public; termenul obișnuit e de 2–6 săptămâni la comandă, în funcție de tensiune, tipul de perii și accesoriile cerute pentru mașina aleasă."
+        "a": "Da, echipamentele Nilfisk se aduc la comandă, plecând de la codul de model găsit în catalogul de produse al producătorului. Nu avem un stoc propriu afișat public; termenul obișnuit e de 2–4 săptămâni la comandă, în funcție de tensiune, tipul de perii și accesoriile cerute pentru mașina aleasă."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de mașină de spălat pardoseala Nilfisk?",
@@ -1299,7 +1299,7 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
       'Textile - mașini țesut, colorare, finisare cu valve și cilindri în mediu umed',
       'Energy - wind turbines (pitch, yaw), hydropower (governors) cu actuatoare heavy-duty'
     ],
-    infinitrade: `Lucrăm cu informațiile publicate de Norgren și spunem deschis ce putem și ce nu putem confirma direct, mai ales pentru configurațiile electronice de control. Nu avem un stoc afișat public pentru fiecare cilindru sau valvă, dar aducem componentele pneumatice Norgren prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru piesele standard sau în 2-6 săptămâni la comandă pentru manifolduri și configurații custom. Pentru o ofertă corectă, trimite-ne diametrul cilindrului, cursa necesară și presiunea de lucru a sistemului tău. Confirmăm termenul după ce verificăm disponibilitatea la furnizor.`,
+    infinitrade: `Lucrăm cu informațiile publicate de Norgren și spunem deschis ce putem și ce nu putem confirma direct, mai ales pentru configurațiile electronice de control. Nu avem un stoc afișat public pentru fiecare cilindru sau valvă, dar aducem componentele pneumatice Norgren prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru piesele standard sau în 2-4 săptămâni la comandă pentru manifolduri și configurații custom. Pentru o ofertă corectă, trimite-ne diametrul cilindrului, cursa necesară și presiunea de lucru a sistemului tău. Confirmăm termenul după ce verificăm disponibilitatea la furnizor.`,
     limitation: 'Nu putem confirma stocul permanent pentru fiecare configurație Norgren și nici service-ul în garanția producătorului, care rămâne responsabilitatea rețelei oficiale a fabricantului.',
     sources: [
       {"title":"KIP Valve Products","url":"https://cdn.norgren.com/pdf/KIP%20Valve%20Products.pdf","publisher":"IMI Norgren","accessed":"2026-09-22"},
@@ -1391,7 +1391,7 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
       },
       {
         "q": "Livrați supape Norgren în România?",
-        "a": "Da, supapele Norgren ajung la comandă, identificate după codul complet (serie plus sufix) din documentația tehnică a producătorului. Fără un stoc propriu vizibil pe site, calculați orientativ 2–6 săptămâni la comandă, în funcție de configurația electrică, tipul de conector și presiunea de lucru cerută."
+        "a": "Da, supapele Norgren ajung la comandă, identificate după codul complet (serie plus sufix) din documentația tehnică a producătorului. Fără un stoc propriu vizibil pe site, calculați orientativ 2–4 săptămâni la comandă, în funcție de configurația electrică, tipul de conector și presiunea de lucru cerută."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de supapă Norgren?",
@@ -1467,7 +1467,7 @@ Ce ne impresionează e atenția la detalii manufacturing - toleranțe strânse a
       'Pumps & Compressors - industriale și HVAC cu bearings pentru high-speed și load variabil',
       'Railway - wheel bearings, traction motors, suspension cu shock și vibration extreme'
     ],
-    infinitrade: `Pornim de la surse publice ale producătorului NSK și spunem clar ce putem și ce nu putem confirma pentru aplicații critice, mai ales la rulmenții de precizie. Nu deținem un stoc afișat public pentru fiecare cod de rulment, dar aducem rulmenții și ghidajele liniare NSK prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 2-6 săptămâni la comandă pentru variantele de precizie superioară. Pentru o ofertă corectă, trimite-ne codul rulmentului, diametrul interior și viteza de rotație necesară aplicației tale. Verificăm disponibilitatea reală înainte de a confirma termenul de livrare.`,
+    infinitrade: `Pornim de la surse publice ale producătorului NSK și spunem clar ce putem și ce nu putem confirma pentru aplicații critice, mai ales la rulmenții de precizie. Nu deținem un stoc afișat public pentru fiecare cod de rulment, dar aducem rulmenții și ghidajele liniare NSK prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 2-4 săptămâni la comandă pentru variantele de precizie superioară. Pentru o ofertă corectă, trimite-ne codul rulmentului, diametrul interior și viteza de rotație necesară aplicației tale. Verificăm disponibilitatea reală înainte de a confirma termenul de livrare.`,
     limitation: 'Nu putem confirma stocul permanent pentru fiecare cod de rulment NSK și nici sub-gama de rulmenți ceramici hibrizi, disponibilă de regulă doar la comandă specială.',
     sources: [
       {"title":"Deep Groove Ball Bearings for Peak Performance of Machinery and Equipment","url":"https://www.nsk.com/content/dam/nsk/am/en_us/documents/bearings-americas/Deep-Groove-Ball-Bearings.pdf","publisher":"NSK","accessed":"2026-09-22"},
@@ -1559,7 +1559,7 @@ Ce ne impresionează e atenția la detalii manufacturing - toleranțe strânse a
       },
       {
         "q": "Livrați rulmenți NSK în România?",
-        "a": "Da, rulmenții NSK ajung la comandă, identificați după codul complet de serie și sufixele de etanșare sau colivie din documentația producătorului. Nu publicăm un stoc propriu pe site; orientativ, e vorba de 2–6 săptămâni la comandă, în funcție de disponibilitatea exactă a variantei alese la fabrică."
+        "a": "Da, rulmenții NSK ajung la comandă, identificați după codul complet de serie și sufixele de etanșare sau colivie din documentația producătorului. Nu publicăm un stoc propriu pe site; orientativ, e vorba de 2–4 săptămâni la comandă, în funcție de disponibilitatea exactă a variantei alese la fabrică."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de rulment NSK?",

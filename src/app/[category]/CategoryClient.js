@@ -169,7 +169,9 @@ const MOBILE_US_LINKS = 15;
 // v16: `view` is computed on the server (src/data/categoryView.js) — this
 // client component imports no brand data of its own.
 export default function CategoryClient({ category, view, related = { industries: [], articles: [] } }) {
-  const [heroRef, heroVisible] = useIntersectionObserver();
+  // v17: the hero is rendered visible (no scroll-reveal) — it is the LCP
+  // element, and hiding it until hydration pushed LCP past 2.5 s on mobile.
+  const [heroRef] = useIntersectionObserver();
   const [brandsRef, brandsVisible] = useIntersectionObserver();
   const [typesRef, typesVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
@@ -272,9 +274,7 @@ export default function CategoryClient({ category, view, related = { industries:
       <section className={styles.hero} style={{ background: category.gradient }} ref={heroRef}>
         <div className={styles.heroOverlay} />
         <div className={styles.heroContainer}>
-          <div
-            className={`animate-fade-up ${heroVisible ? 'is-visible' : ''}`}
-          >
+          <div>
             <h1 className={styles.heroTitle}>{category.name}</h1>
             <p className={styles.heroTagline}>{category.tagline}</p>
 

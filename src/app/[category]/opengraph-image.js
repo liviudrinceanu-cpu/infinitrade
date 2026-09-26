@@ -1,5 +1,6 @@
 import { ImageResponse } from 'next/og';
 import { categories } from '@/data/products';
+import { HEADER_CATEGORY_MENUS } from '@/data/headerMenus';
 
 export const runtime = 'edge';
 export const alt = 'Infinitrade Romania - Echipamente Industriale';
@@ -107,15 +108,15 @@ export default async function Image({ params }) {
         >
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: 48, fontWeight: 700, color: '#0990DB' }}>
-              {category.stats.brands}
+              {HEADER_CATEGORY_MENUS[`/${category.slug}`]?.brandCount ?? category.stats.brands}
             </span>
             <span style={{ fontSize: 18, color: '#64748b' }}>Branduri</span>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: 48, fontWeight: 700, color: '#0990DB' }}>
-              {category.stats.products}
+              {(category.productTypes || []).length}
             </span>
-            <span style={{ fontSize: 18, color: '#64748b' }}>Produse</span>
+            <span style={{ fontSize: 18, color: '#64748b' }}>Tipuri de produse</span>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: 48, fontWeight: 700, color: '#0990DB' }}>

@@ -57,7 +57,7 @@ Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru 
       "Alimentar și farmaceutic — etanșări sanitare conforme FDA",
       "Industria hârtiei și celulozei — cilindri și garnituri pentru mașini de hârtie"
     ],
-    infinitrade: "La Infinitrade lucrăm cu informațiile publice disponibile despre Trelleborg și cu ce putem confirma direct la fiecare cerere; nu avem un inventar propriu verificat pentru toată gama de o-ring-uri și garnituri radiale. Aducem produsele Trelleborg la comandă prin canale de aprovizionare din Uniunea Europeană, iar pentru materialele și dimensiunile pe care le avem deja confirmate lucrăm de regulă în 24-72 h din stoc; pentru restul gamei, calculăm 2-6 săptămâni la comandă. Ca să pregătim o ofertă corectă, avem nevoie de codul produsului sau dimensiunea exactă, materialul dorit (NBR, FKM, EPDM, PTFE), cantitatea și aplicația în care se montează garnitura. Nu comunicăm prețuri fără o cerere punctuală, iar pentru piese critice recomandăm confirmarea specificațiilor tehnice direct cu documentația producătorului.",
+    infinitrade: "La Infinitrade lucrăm cu informațiile publice disponibile despre Trelleborg și cu ce putem confirma direct la fiecare cerere; nu avem un inventar propriu verificat pentru toată gama de o-ring-uri și garnituri radiale. Aducem produsele Trelleborg la comandă prin canale de aprovizionare din Uniunea Europeană, iar pentru materialele și dimensiunile pe care le avem deja confirmate lucrăm de regulă în 24-72 h din stoc; pentru restul gamei, calculăm 2-4 săptămâni la comandă. Ca să pregătim o ofertă corectă, avem nevoie de codul produsului sau dimensiunea exactă, materialul dorit (NBR, FKM, EPDM, PTFE), cantitatea și aplicația în care se montează garnitura. Nu comunicăm prețuri fără o cerere punctuală, iar pentru piese critice recomandăm confirmarea specificațiilor tehnice direct cu documentația producătorului.",
     sources: [
       {"title":"Seals - Products and Solutions","url":"https://www.trelleborg.com/en/seals/products-and-solutions","publisher":"Trelleborg","accessed":"2026-09-22"},
       {"title":"O-Rings","url":"https://www.trelleborg.com/en/seals/products-and-solutions/o-rings","publisher":"Trelleborg","accessed":"2026-09-22"},
@@ -130,7 +130,7 @@ Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru 
       },
       {
         "q": "Livrați garnituri Trelleborg în România?",
-        "a": "Da, aducem la comandă garnituri Trelleborg pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de material și de dimensiune. Recomandăm confirmarea diametrului exact înainte de comandă."
+        "a": "Da, aducem la comandă garnituri Trelleborg pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de material și de dimensiune. Recomandăm confirmarea diametrului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de garnitură Trelleborg?",
@@ -207,7 +207,7 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
       "Construcții și heavy machinery — excavatoare, macarale, utilaje de terasament",
       "Procesare metal — linii de tablă, vopsitorii, tratamente termice"
     ],
-    infinitrade: "Pentru Tsubaki, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi înșine pentru fiecare comandă — nu avem un inventar propriu verificat pentru toate variantele de lanț. Aducem lanțurile Tsubaki (RS, Lambda, Neptune) la comandă prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru variantele pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru restul gamei sau pentru roți dințate speciale. Pentru o ofertă corectă, trimiteți-ne pasul lanțului, tipul (simplex, duplex sau triplex), lungimea sau numărul de zale, și aplicația (transmisie sau manipulare materiale). Nu lucrăm cu prețuri afișate public și nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor.",
+    infinitrade: "Pentru Tsubaki, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi înșine pentru fiecare comandă — nu avem un inventar propriu verificat pentru toate variantele de lanț. Aducem lanțurile Tsubaki (RS, Lambda, Neptune) la comandă prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru variantele pe care le avem deja confirmate și 2-4 săptămâni la comandă pentru restul gamei sau pentru roți dințate speciale. Pentru o ofertă corectă, trimiteți-ne pasul lanțului, tipul (simplex, duplex sau triplex), lungimea sau numărul de zale, și aplicația (transmisie sau manipulare materiale). Nu lucrăm cu prețuri afișate public și nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor.",
     sources: [
       {"title":"RS roller chain product page","url":"https://tsubakimoto.com/power-transmission/drive-chain/standard/roller-chain/rs/","publisher":"Tsubakimoto Chain","accessed":"2026-09-23"},
       {"title":"Low-noise chain product page","url":"https://tsubakimoto.com/power-transmission/drive-chain/corrosion-resistant/low-noise","publisher":"Tsubakimoto Chain","accessed":"2026-09-23"},
@@ -268,7 +268,7 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
       },
       {
         "q": "Livrați lanțuri Tsubaki în România?",
-        "a": "Da, aducem lanțuri Tsubaki la comandă pe baza fișelor tehnice publicate de producător, fără stocuri proprii menținute pe întreaga gamă. Termenul tipic este de 2-6 săptămâni, în funcție de pas, de lungime și de numărul de rânduri solicitate. Recomandăm confirmarea exactă a codului înainte de plasarea comenzii."
+        "a": "Da, aducem lanțuri Tsubaki la comandă pe baza fișelor tehnice publicate de producător, fără stocuri proprii menținute pe întreaga gamă. Termenul tipic este de 2-4 săptămâni, în funcție de pas, de lungime și de numărul de rânduri solicitate. Recomandăm confirmarea exactă a codului înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de lanț cu role Tsubaki?",
@@ -344,7 +344,7 @@ Turck nu vinde doar componente — oferă soluții complete. Ai nevoie să conec
       "Semiconductor și electronică — senzori de precizie pentru pick-and-place",
       "Energie regenerabilă — senzori pentru turbine eoliene și sisteme fotovoltaice"
     ],
-    infinitrade: "Cu Turck, plecăm de la informațiile publice disponibile despre producător, completate cu ce putem verifica noi la momentul cererii; nu deținem un inventar propriu documentat pentru toate familiile de senzori. Comandăm senzorii inductivi, sistemele RFID BL ident sau modulele I/O prin canale de aprovizionare europene, cu 24-72 h din stoc pentru referințele confirmate deja și 2-6 săptămâni la comandă pentru rest. Ca să răspundem rapid, avem nevoie de codul exact al senzorului sau de tipul, distanța de sensing, tensiunea și tipul de ieșire, plus cantitatea și protocolul de comunicație folosit (Profinet, EtherNet/IP, Modbus). Nu includem prețuri în acest text, iar pentru integrarea în proiecte mari recomandăm o discuție tehnică punctuală înainte de comandă.",
+    infinitrade: "Cu Turck, plecăm de la informațiile publice disponibile despre producător, completate cu ce putem verifica noi la momentul cererii; nu deținem un inventar propriu documentat pentru toate familiile de senzori. Comandăm senzorii inductivi, sistemele RFID BL ident sau modulele I/O prin canale de aprovizionare europene, cu 24-72 h din stoc pentru referințele confirmate deja și 2-4 săptămâni la comandă pentru rest. Ca să răspundem rapid, avem nevoie de codul exact al senzorului sau de tipul, distanța de sensing, tensiunea și tipul de ieșire, plus cantitatea și protocolul de comunicație folosit (Profinet, EtherNet/IP, Modbus). Nu includem prețuri în acest text, iar pentru integrarea în proiecte mari recomandăm o discuție tehnică punctuală înainte de comandă.",
     sources: [
       {"title":"Inductive Sensors","url":"https://www.turck.com/de/en/shop/sensors/inductive-sensors","publisher":"Turck","accessed":"2026-09-23"},
       {"title":"Pressure Sensors","url":"https://www.turck.com/de/en/shop/sensors/pressure-sensors","publisher":"Turck","accessed":"2026-09-23"},
@@ -404,7 +404,7 @@ Turck nu vinde doar componente — oferă soluții complete. Ai nevoie să conec
       },
       {
         "q": "Livrați senzori Turck în România?",
-        "a": "Da, aducem senzori și traductoare Turck la comandă, pe baza fișelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru întreaga gamă. Termenul obișnuit este 2-6 săptămâni, în funcție de model și cantitate. Recomandăm confirmarea codului complet, inclusiv sufixele, înainte de plasarea comenzii."
+        "a": "Da, aducem senzori și traductoare Turck la comandă, pe baza fișelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru întreaga gamă. Termenul obișnuit este 2-4 săptămâni, în funcție de model și cantitate. Recomandăm confirmarea codului complet, inclusiv sufixele, înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de traductor de presiune Turck?",
@@ -480,7 +480,7 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
       "Pulp & paper — tancuri de pastă, clarificatoare, rezervoare de chimicale",
       "Metal processing — emulsii de răcire, baze, acizi pentru decapare"
     ],
-    infinitrade: "La Vega, lucrăm cu ce putem confirma direct pentru fiecare cerere și cu informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare model. Aducem senzorii VEGAPULS, VEGAFLEX, VEGASON și VEGABAR la comandă prin canale de aprovizionare din UE — 24-72 h din stoc pentru variantele pe care le avem deja confirmate, altfel 2-6 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de tehnologia dorită (radar, ultrasonic, capacitiv sau presiune), gama de măsurare, tipul de material (lichid, pastă sau solid) și presiunea sau temperatura de proces. Nu publicăm prețuri și nu confirmăm un termen exact înainte să verificăm disponibilitatea la sursă pentru configurația cerută.",
+    infinitrade: "La Vega, lucrăm cu ce putem confirma direct pentru fiecare cerere și cu informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare model. Aducem senzorii VEGAPULS, VEGAFLEX, VEGASON și VEGABAR la comandă prin canale de aprovizionare din UE — 24-72 h din stoc pentru variantele pe care le avem deja confirmate, altfel 2-4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de tehnologia dorită (radar, ultrasonic, capacitiv sau presiune), gama de măsurare, tipul de material (lichid, pastă sau solid) și presiunea sau temperatura de proces. Nu publicăm prețuri și nu confirmăm un termen exact înainte să verificăm disponibilitatea la sursă pentru configurația cerută.",
     sources: [
       {"title":"Radar Level Sensors","url":"https://www.vega.com/en-us/products/product-catalog/level/radar","publisher":"VEGA","accessed":"2026-09-22"},
       { title: "VEGA Grieshaber KG - Company | VEGA", url: "https://www.vega.com/en-us/company", publisher: "VEGA Grieshaber KG", accessed: "2026-09-22" },
@@ -548,7 +548,7 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
       },
       {
         "q": "Livrați senzori de nivel VEGA în România?",
-        "a": "Da, aducem la comandă senzori VEGA pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de opțiunile de proces alese. Recomandăm confirmarea variantei exacte înainte de comandă."
+        "a": "Da, aducem la comandă senzori VEGA pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de opțiunile de proces alese. Recomandăm confirmarea variantei exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de senzor radar VEGA?",
@@ -624,7 +624,7 @@ Dar Wago nu e doar borniere — au dezvoltat o gamă completă de automatizări 
       "Mining — utilaje mobile, conexiuni rezistente la șocuri și praf",
       "Machine building — mașini-unelte, ambalare, textile, print"
     ],
-    infinitrade: "Pentru Wago, ne ghidăm după ce putem confirma noi la fiecare comandă și după surse publice ale producătorului, fără un inventar propriu documentat pentru toată gama de borniere și module I/O. Produsele Wago ajung la noi la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h din stoc pentru referințele pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru restul gamei sau configurațiile de proiect. Pentru o ofertă corectă trimiteți secțiunea cablului sau codul bornierei, protocolul de bus folosit (Profinet, EtherNet/IP, Modbus), numărul de canale necesare și cantitatea. Nu afișăm prețuri aici, iar pentru module safety sau PLC-uri seria 750 recomandăm o verificare tehnică înainte de a confirma un termen.",
+    infinitrade: "Pentru Wago, ne ghidăm după ce putem confirma noi la fiecare comandă și după surse publice ale producătorului, fără un inventar propriu documentat pentru toată gama de borniere și module I/O. Produsele Wago ajung la noi la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h din stoc pentru referințele pe care le avem deja confirmate și 2-4 săptămâni la comandă pentru restul gamei sau configurațiile de proiect. Pentru o ofertă corectă trimiteți secțiunea cablului sau codul bornierei, protocolul de bus folosit (Profinet, EtherNet/IP, Modbus), numărul de canale necesare și cantitatea. Nu afișăm prețuri aici, iar pentru module safety sau PLC-uri seria 750 recomandăm o verificare tehnică înainte de a confirma un termen.",
     sources: [
       {"title":"Controller PFC200 (750-8212)","url":"https://www.wago.com/us/controllers-bus-couplers-i-o/controller-pfc200/p/750-8212","publisher":"Wago","accessed":"2026-09-23"},
       {"title":"TOPJOB S double-deck terminal block (2002-2201)","url":"https://www.wago.com/us/rail-chassis-terminal-blocks/topjobs-double-deck-terminal-block/p/2002-2201","publisher":"Wago","accessed":"2026-09-23"},
@@ -685,7 +685,7 @@ Dar Wago nu e doar borniere — au dezvoltat o gamă completă de automatizări 
       },
       {
         "q": "Livrați echipamente WAGO în România?",
-        "a": "Da, aducem controlere și borne WAGO la comandă, pe baza fișelor de produs publicate de producător, fără evidențe proprii de stoc pentru întreaga gamă. Termenul uzual este de 2-6 săptămâni, în funcție de model și de cantitate. Recomandăm confirmarea codului exact, inclusiv sufixele de configurație, înainte de comandă."
+        "a": "Da, aducem controlere și borne WAGO la comandă, pe baza fișelor de produs publicate de producător, fără evidențe proprii de stoc pentru întreaga gamă. Termenul uzual este de 2-4 săptămâni, în funcție de model și de cantitate. Recomandăm confirmarea codului exact, inclusiv sufixele de configurație, înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de controler WAGO PFC200?",
@@ -761,7 +761,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       "Alimentar și pharma — conexiuni rezistente la spălare, certificări FDA",
       "Mining — utilaje grele, rezistență la șocuri, praf, umiditate"
     ],
-    infinitrade: "La Weidmüller, pornim de la informațiile publice disponibile despre producător și de la ce putem verifica noi direct, fără un inventar propriu documentat pentru fiecare secțiune de bornieră. Aducem bornierele seria W, conectorii industriali și accesoriile de marcare prin canale de aprovizionare din UE — 24-72 h din stoc pentru pozițiile deja confirmate, 2-6 săptămâni la comandă pentru rest. Pentru o cotație corectă avem nevoie de secțiunea de cablu în mm², tipul de conexiune (șurub, arc sau push-in), numărul de poziții și, dacă e cazul, cerințele de marcare. Nu comunicăm prețuri în acest text, iar pentru proiectarea completă a unui tablou recomandăm o discuție tehnică separată înainte de comandă.",
+    infinitrade: "La Weidmüller, pornim de la informațiile publice disponibile despre producător și de la ce putem verifica noi direct, fără un inventar propriu documentat pentru fiecare secțiune de bornieră. Aducem bornierele seria W, conectorii industriali și accesoriile de marcare prin canale de aprovizionare din UE — 24-72 h din stoc pentru pozițiile deja confirmate, 2-4 săptămâni la comandă pentru rest. Pentru o cotație corectă avem nevoie de secțiunea de cablu în mm², tipul de conexiune (șurub, arc sau push-in), numărul de poziții și, dacă e cazul, cerințele de marcare. Nu comunicăm prețuri în acest text, iar pentru proiectarea completă a unui tablou recomandăm o discuție tehnică separată înainte de comandă.",
     sources: [
       {"title":"North America Industrial Connectivity Short Form Catalog","url":"https://assets.dam.weidmueller.com/assets/api/59dd8219-ca9b-4232-ada4-757f8f82f5df/Original/WeidmullerInc_Cat10_ShortFormCatalog.pdf","publisher":"Weidmüller","accessed":"2026-09-23"},
       { title: "Company - Weidmüller as a partner at eye level", url: "https://www.weidmueller.com/int/company/index.jsp", publisher: "Weidmüller Interface GmbH & Co. KG", accessed: "2026-09-22" },
@@ -841,7 +841,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       },
       {
         "q": "Livrați borne și conectori Weidmüller în România?",
-        "a": "Da, comandăm borne, conectori și scule Weidmüller pe baza cataloagelor publice ale producătorului, fără stoc propriu menținut pe toată gama. Perioada obișnuită este de 2-6 săptămâni de la confirmare, în funcție de serie și de cantitate. Codul exact al variantei trebuie confirmat înaintea plasării comenzii."
+        "a": "Da, comandăm borne, conectori și scule Weidmüller pe baza cataloagelor publice ale producătorului, fără stoc propriu menținut pe toată gama. Perioada obișnuită este de 2-4 săptămâni de la confirmare, în funcție de serie și de cantitate. Codul exact al variantei trebuie confirmat înaintea plasării comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de conector industrial Weidmüller RockStar?",
@@ -917,7 +917,7 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
       "Mining — utilaje grele, rezistență la șocuri, praf, temperaturi extreme",
       "Alimentar și pharma — alimentări pentru zone curate, certificări FDA"
     ],
-    infinitrade: "Pentru gama electronică Weidmüller — alimentatoare, protecții la supratensiuni, convertoare de semnal — folosim ce putem confirma punctual și informațiile publice disponibile despre producător; nu avem un inventar propriu pentru fiecare putere sau variantă de alimentator. Aducem produsele prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h din stoc acolo unde avem deja confirmare și 2-6 săptămâni la comandă pentru rest. Ca să pregătim rapid o ofertă, trimiteți puterea sau curentul alimentatorului dorit, tensiunea de ieșire, tipul de protecție necesar (linii AC, DC sau de semnal) și cantitatea. Nu includem prețuri aici, iar pentru monitorizarea curenților trifazați sau releele de siguranță SIL recomandăm o verificare tehnică înainte de a stabili termenul final.",
+    infinitrade: "Pentru gama electronică Weidmüller — alimentatoare, protecții la supratensiuni, convertoare de semnal — folosim ce putem confirma punctual și informațiile publice disponibile despre producător; nu avem un inventar propriu pentru fiecare putere sau variantă de alimentator. Aducem produsele prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h din stoc acolo unde avem deja confirmare și 2-4 săptămâni la comandă pentru rest. Ca să pregătim rapid o ofertă, trimiteți puterea sau curentul alimentatorului dorit, tensiunea de ieșire, tipul de protecție necesar (linii AC, DC sau de semnal) și cantitatea. Nu includem prețuri aici, iar pentru monitorizarea curenților trifazați sau releele de siguranță SIL recomandăm o verificare tehnică înainte de a stabili termenul final.",
     sources: [
       {"title":"PRO MAX 480W 24V 20A","url":"https://eshop.weidmueller.com/en/pro-max-480w-24v-20a/p/1478140000","publisher":"Weidmüller","accessed":"2026-09-23"},
       {"title":"VPU II 2 PV 600V DC","url":"https://eshop.weidmueller.com/en/vpu-ii-2-pv-600v-dc/p/1351340000","publisher":"Weidmüller","accessed":"2026-09-23"},
@@ -998,7 +998,7 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
       },
       {
         "q": "Livrați alimentatoare și protecții la supratensiune Weidmüller în România?",
-        "a": "Da, comandăm alimentatoare PRO și descărcătoare VPU Weidmüller pe baza fișelor publice de produs, fără stoc propriu menținut pe întreaga gamă. Termenul obișnuit este de 2-6 săptămâni de la confirmarea comenzii, în funcție de putere și de cantitate, iar codul exact trebuie verificat înainte de a comanda."
+        "a": "Da, comandăm alimentatoare PRO și descărcătoare VPU Weidmüller pe baza fișelor publice de produs, fără stoc propriu menținut pe întreaga gamă. Termenul obișnuit este de 2-4 săptămâni de la confirmarea comenzii, în funcție de putere și de cantitate, iar codul exact trebuie verificat înainte de a comanda."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de protecție la supratensiune Weidmüller VPU?",
@@ -1073,7 +1073,7 @@ Portofoliul Wera nu e vast, e concentrat — fac câteva lucruri excepțional de
       "DIY profesionist — pasionați de bricolaj care vor scule premium",
       "Service & mentenanță generală — orice industrie cu echipamente mecanice"
     ],
-    infinitrade: "Pentru Wera, mergem după ce putem confirma la momentul cererii și după surse publice ale producătorului, fără un inventar propriu documentat pentru fiecare set sau dimensiune. Șurubelnițele, biții și cheile Wera ajung la comandă prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru seturile pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru comenzile speciale sau seturile Tool-Check personalizate. Pentru o ofertă corectă spuneți-ne dimensiunea sau codul sculei, tipul de cap (Phillips, Pozidriv, Torx sau Hex), și dacă aveți nevoie de un set complet sau de bucăți individuale. Nu publicăm prețuri și nu promitem un termen fix înainte de a verifica disponibilitatea reală a modelului cerut.",
+    infinitrade: "Pentru Wera, mergem după ce putem confirma la momentul cererii și după surse publice ale producătorului, fără un inventar propriu documentat pentru fiecare set sau dimensiune. Șurubelnițele, biții și cheile Wera ajung la comandă prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru seturile pe care le avem deja confirmate și 2-4 săptămâni la comandă pentru comenzile speciale sau seturile Tool-Check personalizate. Pentru o ofertă corectă spuneți-ne dimensiunea sau codul sculei, tipul de cap (Phillips, Pozidriv, Torx sau Hex), și dacă aveți nevoie de un set complet sau de bucăți individuale. Nu publicăm prețuri și nu promitem un termen fix înainte de a verifica disponibilitatea reală a modelului cerut.",
     sources: [
       {"title":"Screwdrivers","url":"https://www.wera.de/en/tools/tool-types/screwdriver/screwdrivers","publisher":"Wera","accessed":"2026-09-23"},
       { title: "Wera Tools | Official Site", url: "https://weratool.com/", publisher: "Wera Werk Hermann Werner GmbH & Co. KG", accessed: "2026-09-22" },
@@ -1141,7 +1141,7 @@ Portofoliul Wera nu e vast, e concentrat — fac câteva lucruri excepțional de
       },
       {
         "q": "Livrați scule Wera în România?",
-        "a": "Da, aducem șurubelnițe și seturi Wera la comandă, pe baza fișelor de produs publicate de producător, fără stoc propriu pe întreaga gamă de coduri. Perioada tipică este de 2-6 săptămâni, în funcție de model și de cantitatea comandată. Recomandăm confirmarea codului exact al variantei dorite."
+        "a": "Da, aducem șurubelnițe și seturi Wera la comandă, pe baza fișelor de produs publicate de producător, fără stoc propriu pe întreaga gamă de coduri. Perioada tipică este de 2-4 săptămâni, în funcție de model și de cantitatea comandată. Recomandăm confirmarea codului exact al variantei dorite."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de set de șurubelnițe Wera Kraftform?",
@@ -1217,7 +1217,7 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
       "District heating — stații de transfer termic în sisteme de termoficare",
       "Sisteme geotermale — pompe pentru bucle închise cu glicol (ground source heat pumps)"
     ],
-    infinitrade: "La Wilo, plecăm de la informațiile publice disponibile despre producător și de la ce putem verifica noi pentru fiecare cerere, fără un inventar propriu documentat pe toată gama de pompe. Aducem pompele Stratos PICO, Star-RS, sistemele Comfort și Star-Z prin canale de aprovizionare din Uniunea Europeană — 24-72 h din stoc pentru modelele confirmate deja, 2-6 săptămâni la comandă pentru rest. Pentru o cotație corectă avem nevoie de racordul dorit (G1, G1¼ sau flanșă DN), puterea sau debitul necesar, și dacă înlocuiți o pompă existentă sau proiectați o instalație nouă. Nu comunicăm prețuri în acest text, iar pentru sistemele de presiune constantă sau proiectele HVAC mai mari recomandăm o discuție tehnică înainte de a confirma termenul.",
+    infinitrade: "La Wilo, plecăm de la informațiile publice disponibile despre producător și de la ce putem verifica noi pentru fiecare cerere, fără un inventar propriu documentat pe toată gama de pompe. Aducem pompele Stratos PICO, Star-RS, sistemele Comfort și Star-Z prin canale de aprovizionare din Uniunea Europeană — 24-72 h din stoc pentru modelele confirmate deja, 2-4 săptămâni la comandă pentru rest. Pentru o cotație corectă avem nevoie de racordul dorit (G1, G1¼ sau flanșă DN), puterea sau debitul necesar, și dacă înlocuiți o pompă existentă sau proiectați o instalație nouă. Nu comunicăm prețuri în acest text, iar pentru sistemele de presiune constantă sau proiectele HVAC mai mari recomandăm o discuție tehnică înainte de a confirma termenul.",
     sources: [
       {"title":"Wilo-Star-Z","url":"https://wilo.com/gb/en/Products/en/products-expertise/wilo-star-z","publisher":"Wilo","accessed":"2026-09-23"},
       {"title":"Stratos PICO 25/0,5-8-130","url":"https://wilo.com/gb/en/Products/en/products/stratos-pico_id331/4244398","publisher":"Wilo","accessed":"2026-09-23"},
@@ -1282,7 +1282,7 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
       },
       {
         "q": "Livrați pompe Wilo în România?",
-        "a": "Da, aducem pompe de circulație Wilo la comandă, pe baza fișelor tehnice publicate de producător, fără stoc propriu menținut pe toată gama. Termenul obișnuit este de 2-6 săptămâni, în funcție de model și de racordul necesar. Recomandăm confirmarea articolului exact înainte de plasarea comenzii."
+        "a": "Da, aducem pompe de circulație Wilo la comandă, pe baza fișelor tehnice publicate de producător, fără stoc propriu menținut pe toată gama. Termenul obișnuit este de 2-4 săptămâni, în funcție de model și de racordul necesar. Recomandăm confirmarea articolului exact înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă de circulație Wilo?",
@@ -1358,7 +1358,7 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
       "Agricol — reparații utilaje, mentenanță tractoare (lubrifianți, degripare, protecție)",
       "Transport și logistică — mentenanță flote auto, camioane, remorci"
     ],
-    infinitrade: "Pentru produsele chimice Würth, folosim ce putem confirma direct la cerere și informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare tip de spray sau adeziv. Comandăm produsele prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru cele pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru comenzile mai mari sau produsele mai puțin uzuale. Pentru o ofertă corectă, spuneți-ne tipul de produs (lubrifiant, degresant, adeziv sau protecție anti-coroziune), ambalajul dorit (spray, tub sau bidon) și cantitatea necesară. Nu afișăm prețuri aici, iar pentru consumul recurent sau soluțiile de organizare cu rack-uri și dispensere recomandăm o discuție separată de aprovizionare.",
+    infinitrade: "Pentru produsele chimice Würth, folosim ce putem confirma direct la cerere și informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare tip de spray sau adeziv. Comandăm produsele prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru cele pe care le avem deja confirmate și 2-4 săptămâni la comandă pentru comenzile mai mari sau produsele mai puțin uzuale. Pentru o ofertă corectă, spuneți-ne tipul de produs (lubrifiant, degresant, adeziv sau protecție anti-coroziune), ambalajul dorit (spray, tub sau bidon) și cantitatea necesară. Nu afișăm prețuri aici, iar pentru consumul recurent sau soluțiile de organizare cu rack-uri și dispensere recomandăm o discuție separată de aprovizionare.",
     sources: [
       {"title":"Produse chimice Würth","url":"https://www.wuerth.ro/produse-chimice/","publisher":"Würth România","accessed":"2026-09-26"},
       {"title":"HHS 2000 500 ml (vaselina spray)","url":"https://www.wuerth.ro/produse-chimice/lubrifianti-vaseline/hhs-2000-500-ml-00893-106.html","publisher":"Würth România","accessed":"2026-09-26"},
@@ -1424,7 +1424,7 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
       },
       {
         "q": "Aduceți produse chimice Würth la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă produse din gamele HHS, WIT sau spray-urile de întreținere, pe baza codului confirmat din catalogul oficial Würth. Nu ținem produsele chimice Würth pe raft în mod permanent; ne bazăm pe informațiile publice ale producătorului, iar termenul de livrare este de regulă 2-6 săptămâni. Este util să ne trimiteți fotografia codului de pe ambalaj."
+        "a": "Da, aducem la comandă produse din gamele HHS, WIT sau spray-urile de întreținere, pe baza codului confirmat din catalogul oficial Würth. Nu ținem produsele chimice Würth pe raft în mod permanent; ne bazăm pe informațiile publice ale producătorului, iar termenul de livrare este de regulă 2-4 săptămâni. Este util să ne trimiteți fotografia codului de pe ambalaj."
       },
       {
         "q": "Ce diferență este între HHS 2000 și HHS 5000 de la Würth?",
@@ -1496,7 +1496,7 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
       "Apă și ape uzate — SCADA pentru stații de tratare, controlul calității apei",
       "Mining — procesare minerale, flotație, control pH și densitate"
     ],
-    infinitrade: "Cu Yokogawa, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi la fiecare cerere, fără un inventar propriu pentru instrumentația de proces sau sistemele DCS. Coordonăm livrarea prin canale de aprovizionare din Europa, cu termene tipice de 2-6 săptămâni la comandă pentru instrumentație standard și mult mai lungi pentru proiecte DCS complete, unde recomandăm mereu o verificare punctuală a termenului. Pentru o ofertă corectă avem nevoie de tipul de transmițător sau analizor dorit, gama de măsurare, presiunea și temperatura de proces, și dacă produsul face parte dintr-un proiect DCS mai amplu. Nu publicăm prețuri, iar pentru sisteme critice de siguranță recomandăm confirmarea specificațiilor direct cu documentația tehnică a producătorului.",
+    infinitrade: "Cu Yokogawa, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi la fiecare cerere, fără un inventar propriu pentru instrumentația de proces sau sistemele DCS. Coordonăm livrarea prin canale de aprovizionare din Europa, cu termene tipice de 2-4 săptămâni la comandă pentru instrumentație standard și mult mai lungi pentru proiecte DCS complete, unde recomandăm mereu o verificare punctuală a termenului. Pentru o ofertă corectă avem nevoie de tipul de transmițător sau analizor dorit, gama de măsurare, presiunea și temperatura de proces, și dacă produsul face parte dintr-un proiect DCS mai amplu. Nu publicăm prețuri, iar pentru sisteme critice de siguranță recomandăm confirmarea specificațiilor direct cu documentația tehnică a producătorului.",
     sources: [
       {"title":"Pressure Transmitters - Pressure Transducers","url":"https://www.yokogawa.com/us/solutions/products-and-services/measurement/field-instruments-products/pressure-transmitters/","publisher":"Yokogawa","accessed":"2026-09-23"},
       { title: "Corporate History | Yokogawa Electric Corporation", url: "https://www.yokogawa.com/about/company-overview/corporate-history/", publisher: "Yokogawa Electric Corporation", accessed: "2026-09-22" },
@@ -1596,7 +1596,7 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
       },
       {
         "q": "Livrați traductoare de presiune Yokogawa în România?",
-        "a": "Da, traductoarele Yokogawa nu se află pe stoc propriu; le aducem la comandă, pe baza paginilor publice de produs ale producătorului, fără evidențe interne de disponibilitate. Termenul uzual variază între 2-6 săptămâni la comandă, în funcție de model, de opțiunile de comunicație și de certificările solicitate. Recomandăm confirmarea exactă a codului înainte de a plasa comanda."
+        "a": "Da, traductoarele Yokogawa nu se află pe stoc propriu; le aducem la comandă, pe baza paginilor publice de produs ale producătorului, fără evidențe interne de disponibilitate. Termenul uzual variază între 2-4 săptămâni la comandă, în funcție de model, de opțiunile de comunicație și de certificările solicitate. Recomandăm confirmarea exactă a codului înainte de a plasa comanda."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de traductor Yokogawa?",

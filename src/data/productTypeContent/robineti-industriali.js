@@ -64,7 +64,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trebuie trimise pentru o ofertă de robineți cu bilă industriali?",
-        "a": "Diametrul nominal, clasa de presiune, fluidul vehiculat, temperatura de lucru, tipul de conexiune și modul de acționare dorit; dacă este o înlocuire, codul de pe plăcuța robinetului existent scurtează mult identificarea. Termenul de livrare se confirmă la comandă, de regulă între 2 și 6 săptămâni, în funcție de producătorul ales."
+        "a": "Diametrul nominal, clasa de presiune, fluidul vehiculat, temperatura de lucru, tipul de conexiune și modul de acționare dorit; dacă este o înlocuire, codul de pe plăcuța robinetului existent scurtează mult identificarea. Termenul de livrare se confirmă la comandă, de regulă între 2 și 4 săptămâni, în funcție de producătorul ales."
       },
       {
         "q": "Ce trebuie verificat înainte de a monta un robinet cu bilă pe o linie cu fluid abraziv?",
@@ -138,7 +138,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trebuie trimise pentru o ofertă de robineți fluture industriali și în cât timp se livrează?",
-        "a": "Sunt necesare DN, PN, fluidul și temperatura de lucru, tipul de etanșare și de acționare, plus cantitatea. Termenul de livrare este la comandă, orientativ 2-6 săptămâni, în funcție de producător și de disponibilitatea variantei constructive alese."
+        "a": "Sunt necesare DN, PN, fluidul și temperatura de lucru, tipul de etanșare și de acționare, plus cantitatea. Termenul de livrare este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de disponibilitatea variantei constructive alese."
       },
       {
         "q": "Cât de des trebuie verificată garnitura unui robinet fluture industrial?",
@@ -211,7 +211,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de supapă de siguranță industrială și cât durează livrarea?",
-        "a": "Trebuie transmise presiunea maximă admisă a echipamentului, tipul de fluid, diametrul racordului și materialul dorit. Livrarea se confirmă la comandă, de regulă în 2-6 săptămâni, în funcție de producător și de necesitatea unei certificări speciale."
+        "a": "Trebuie transmise presiunea maximă admisă a echipamentului, tipul de fluid, diametrul racordului și materialul dorit. Livrarea se confirmă la comandă, de regulă în 2-4 săptămâni, în funcție de producător și de necesitatea unei certificări speciale."
       },
       {
         "q": "Cât de des trebuie verificată o supapă de siguranță industrială?",
@@ -358,7 +358,7 @@ export const productTypes = [
       },
       {
         "q": "Ce date trimitem pentru ofertă și cât durează livrarea unui robinet de reglare?",
-        "a": "Sunt necesare parametrul reglat, fluidul, presiunea și temperatura de lucru, presiunea diferențială, DN/PN și tipul semnalului de comandă. Livrarea se face la comandă, orientativ în 2–6 săptămâni, în funcție de producător, mărime și dacă actuatorul necesită certificare ATEX."
+        "a": "Sunt necesare parametrul reglat, fluidul, presiunea și temperatura de lucru, presiunea diferențială, DN/PN și tipul semnalului de comandă. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător, mărime și dacă actuatorul necesită certificare ATEX."
       },
       {
         "q": "Se poate monta un pozitioner digital pe orice robinet de reglare?",
@@ -436,7 +436,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de clapetă de reținere și în cât timp se livrează?",
-        "a": "Diametrul nominal, clasa de presiune, fluidul și poziția de montaj sunt suficiente pentru o propunere tehnică. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător și de materialul solicitat."
+        "a": "Diametrul nominal, clasa de presiune, fluidul și poziția de montaj sunt suficiente pentru o propunere tehnică. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de materialul solicitat."
       },
       {
         "q": "Cât de des trebuie verificată o clapetă de reținere industrială?",

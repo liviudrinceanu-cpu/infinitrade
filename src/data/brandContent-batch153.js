@@ -31,7 +31,7 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
       "Termografie industrială — etalonarea camerelor de termoviziune cu surse de corp negru",
     ],
     certifications: ["ISO 9001 (AFAQ) — sistem de management al calității", "Acreditări COFRAC pe temperatură, electricitate-magnetism și timp-frecvență pentru laboratorul propriu"],
-    infinitrade: `Pentru AOIP lucrăm doar cu surse publice ale producătorului; nu avem confirmare proprie despre ritmul de producție din Franța, doar ce arată site-ul oficial. Putem aduce la comandă instrumente din seriile CALYS, OM, MilliK/MicroK și din familiile de surse de corp negru, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă, trimiteți codul exact al modelului, domeniul de măsură necesar și, dacă e cazul, cerința de certificat de etalonare.`,
+    infinitrade: `Pentru AOIP lucrăm doar cu surse publice ale producătorului; nu avem confirmare proprie despre ritmul de producție din Franța, doar ce arată site-ul oficial. Putem aduce la comandă instrumente din seriile CALYS, OM, MilliK/MicroK și din familiile de surse de corp negru, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă, trimiteți codul exact al modelului, domeniul de măsură necesar și, dacă e cazul, cerința de certificat de etalonare.`,
     limitation: "Nu emitem noi certificate de etalonare acreditate pentru instrumentele AOIP — acestea se obțin, la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "CALYS 150", description: "Calibrator multifuncțional de câmp cu documentare și termometru integrat" },
@@ -65,7 +65,7 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
     faq: [
       { q: "Ce produce AOIP?", a: "AOIP fabrică instrumentație de măsură și control — calibratoare multifuncționale, micro-ohmetre, termometre de referință, surse de corp negru și instrumente cu infraroșu — plus o linie separată de pornitoare pentru motoare electrice de mare putere. E o companie franceză, cu sediul la Ris-Orangis, activă din 1896 și acreditată COFRAC pe mai multe domenii de metrologie." },
       { q: "Cum aleg micro-ohmetrul AOIP potrivit pentru verificarea contactelor?", a: "Alegerea depinde de curentul de test: pentru verificări de teren, seriile OM 16/OM 17 lucrează la 10 A, iar pentru măsurători de laborator cu acuratețe mai mare, OM 21 și OM 22 ajung la 0,03%. Trimiteți-ne curentul dorit și dacă preferați varianta portabilă sau de bancă." },
-      { q: "Livrați instrumente AOIP în România și cât durează?", a: "Aducem la comandă din gama AOIP prin canale de aprovizionare din Uniunea Europeană; termenul orientativ e de 2-6 săptămâni, în funcție de confirmarea producătorului pentru modelul cerut. Fiecare aplicație cere o configurație diferită, așa că nu ținem produse pe raft." },
+      { q: "Livrați instrumente AOIP în România și cât durează?", a: "Aducem la comandă din gama AOIP prin canale de aprovizionare din Uniunea Europeană; termenul orientativ e de 2-4 săptămâni, în funcție de confirmarea producătorului pentru modelul cerut. Fiecare aplicație cere o configurație diferită, așa că nu ținem produse pe raft." },
       { q: "Ce trebuie să trimit pentru o ofertă de calibrator CALYS?", a: "Precizați tipurile de semnal pe care vreți să le calibrați (curent, tensiune, termocuplu, RTD, presiune), dacă preferați o variantă de câmp sau de laborator și dacă aveți nevoie de certificat de etalonare la livrare." },
       { q: "Ce acoperă sursele de corp negru AOIP față de alți producători?", a: "Familiile Medusa, Pegasus, Gemini și Saturn Cyclop acoperă împreună -10°C până la 1300°C, un interval comparabil cu ofertele Fluke Calibration sau Isotech; diferența ține de combinația cu blocurile uscate și sondele de referință din aceeași gamă." },
     ],
@@ -104,7 +104,7 @@ Pentru piața din România, C-Logic înseamnă acces la unelte de test electric 
       "Construcții — localizarea traseelor de cablu ascunse înainte de renovare",
       "Electricieni profesioniști — unelte de test zilnic de bază",
     ],
-    infinitrade: `Pentru C-Logic ne bazăm exclusiv pe informația publică disponibilă pe site-ul producătorului, fără date proprii despre volumul din spatele gamei. Putem aduce la comandă multimetre, clești ampermetrici, testere de tensiune și detectoare de cabluri din gama C-Logic, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni. Pentru ofertă, aveți nevoie să transmiteți codul exact al modelului dorit și cantitatea.`,
+    infinitrade: `Pentru C-Logic ne bazăm exclusiv pe informația publică disponibilă pe site-ul producătorului, fără date proprii despre volumul din spatele gamei. Putem aduce la comandă multimetre, clești ampermetrici, testere de tensiune și detectoare de cabluri din gama C-Logic, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni. Pentru ofertă, aveți nevoie să transmiteți codul exact al modelului dorit și cantitatea.`,
     limitation: "Nu putem confirma sediul central sau anul înființării mărcii C-Logic din informațiile publicate pe site-ul oficial.",
     productCodes: [
       { code: "C-LOGIC 3200", description: "Multimetru digital de mână pentru măsurători electrice de bază" },
@@ -127,7 +127,7 @@ Pentru piața din România, C-Logic înseamnă acces la unelte de test electric 
     faq: [
       { q: "Ce produce C-Logic?", a: "C-Logic produce unelte de test electric pentru electricieni și utilizatori casnici: multimetre digitale, clești ampermetrici, testere de tensiune și detectoare de cabluri ascunse, plus câteva instrumente de măsură a mediului precum temperatura și umiditatea." },
       { q: "Ce diferență e între C-LOGIC 380, 380UK și 380US?", a: "Toate trei sunt detectoare de cabluri din aceeași serie, diferența fiind adaptarea la standardele locale de fișă electrică — varianta UK pentru instalații britanice și varianta US pentru prizele nord-americane, restul funcțiilor de localizare a cablului rămânând identice." },
-      { q: "Livrați testere C-Logic în România?", a: "Da, aducem la comandă din gama C-Logic prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de disponibilitatea modelului la producător." },
+      { q: "Livrați testere C-Logic în România?", a: "Da, aducem la comandă din gama C-Logic prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmare, în funcție de disponibilitatea modelului la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de multimetru C-Logic?", a: "Trimiteți codul exact al modelului (de exemplu C-LOGIC 3200 sau C-LOGIC 520) și cantitatea dorită; pentru clești ampermetrici precizați dacă aveți nevoie de măsurare AC, DC sau ambele." },
     ],
     evidenceClass: "market-signal-ro",
@@ -168,7 +168,7 @@ Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și ec
       "Centrale electrice — verificare periodică a sistemelor de protecție prin relee",
     ],
     certifications: ["ISO 9001 — sistem de management al calității", "Marcaj CE pe toate produsele"],
-    infinitrade: `Spunem clar ce putem și ce nu putem confirma despre EuroSMC: descriem gama exact așa cum apare pe site-ul producătorului din Madrid, fără informații interne despre ritmul de fabricație. Putem aduce la comandă echipamente din seriile Quasar, Mentor-12, PME și PRIME, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni. Pentru ofertă, trimiteți tipul de relee sau întreruptoare testate și numărul de canale necesare.`,
+    infinitrade: `Spunem clar ce putem și ce nu putem confirma despre EuroSMC: descriem gama exact așa cum apare pe site-ul producătorului din Madrid, fără informații interne despre ritmul de fabricație. Putem aduce la comandă echipamente din seriile Quasar, Mentor-12, PME și PRIME, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni. Pentru ofertă, trimiteți tipul de relee sau întreruptoare testate și numărul de canale necesare.`,
     limitation: "Nu oferim etalonare sau service în garanția producătorului pentru echipamentele EuroSMC — certificatele de calibrare se obțin, la cerere, de la producător sau un laborator acreditat.",
     productCodes: [
       { code: "Quasar", description: "Tester trifazat portabil 300V/60A, 19 kg" },
@@ -193,7 +193,7 @@ Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și ec
     faq: [
       { q: "Ce produce EuroSMC?", a: "EuroSMC produce echipamente electronice de testare pentru protecția electrică: injecție primară de curent pentru întreruptoare, injecție secundară trifazată pentru relee de protecție, micro-ohmetre dinamice și instrumente de monitorizare GOOSE/IEC 61850. Compania e spaniolă, cu sediul la Madrid, activă din 1986." },
       { q: "Ce diferență e între Quasar și Mentor-12?", a: "Quasar e un tester trifazat portabil de 19 kg pentru teste de teren la un singur releu, în timp ce Mentor-12 permite testarea simultană a două relee trifazate, util la stații cu volum mare de comisionare unde timpul contează." },
-      { q: "Livrați echipamente EuroSMC în România?", a: "Da, aducem la comandă din gama EuroSMC prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmarea producătorului pentru modelul cerut." },
+      { q: "Livrați echipamente EuroSMC în România?", a: "Da, aducem la comandă din gama EuroSMC prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmarea producătorului pentru modelul cerut." },
       { q: "Ce trebuie să trimit pentru o ofertă de tester EuroSMC?", a: "Precizați tipul de echipament testat (releu, întreruptor), tensiunea și curentul nominal ale instalației și dacă aveți nevoie de funcție de cronometrare sau doar de injecție de semnal." },
     ],
     evidenceClass: "market-signal-ro",
@@ -235,7 +235,7 @@ Pentru România, gama se adresează laboratoarelor de testare din automotive, fe
       "Cercetare și dezvoltare — bancuri de testare programabile pentru laboratoare",
       "Producție și automatizare — testare de serie a modulelor electronice",
     ],
-    infinitrade: `Pentru Hoecherl & Hackl folosim doar informația disponibilă public pe site-ul producătorului din Konzell, fără date interne despre producția din Germania. Putem aduce la comandă sarcini electronice din seriile TRL, PLI, HES, ACL, PMLA și surse Cortex/Titan, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni. Pentru ofertă, trimiteți puterea, tensiunea și curentul de test necesare, plus numărul de canale dorit.`,
+    infinitrade: `Pentru Hoecherl & Hackl folosim doar informația disponibilă public pe site-ul producătorului din Konzell, fără date interne despre producția din Germania. Putem aduce la comandă sarcini electronice din seriile TRL, PLI, HES, ACL, PMLA și surse Cortex/Titan, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni. Pentru ofertă, trimiteți puterea, tensiunea și curentul de test necesare, plus numărul de canale dorit.`,
     limitation: "Nu oferim configurare software proprietară sau service în garanția producătorului pentru sarcinile Hoecherl & Hackl — acestea rămân în sarcina producătorului sau a unui integrator autorizat de acesta.",
     productCodes: [
       { code: "TRL Series", description: "Sarcină DC mobilă regenerativă, 1000 W, până la 1200 V, 60 A" },
@@ -255,7 +255,7 @@ Pentru România, gama se adresează laboratoarelor de testare din automotive, fe
     faq: [
       { q: "Ce produce Hoecherl & Hackl?", a: "Hoecherl & Hackl produce sarcini electronice programabile (DC și AC) și surse de alimentare programabile pentru testarea bateriilor, invertoarelor și surselor de alimentare industriale. Compania e germană, cu sediul la Konzell, activă de aproape 40 de ani." },
       { q: "Cum aleg sarcina electronică Hoecherl & Hackl potrivită?", a: "Alegerea depinde de puterea, tensiunea și curentul maxim al dispozitivului testat: pentru puteri mici de laborator merge seria TRL sau PLA, iar pentru teste industriale de putere mare, seriile PLI sau HES. Trimiteți-ne aceste trei valori pentru o recomandare." },
-      { q: "Livrați sarcini electronice Hoecherl & Hackl în România?", a: "Da, aducem la comandă din gama Hoecherl & Hackl prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmarea configurației dorite de producător." },
+      { q: "Livrați sarcini electronice Hoecherl & Hackl în România?", a: "Da, aducem la comandă din gama Hoecherl & Hackl prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației dorite de producător." },
       { q: "Ce echivalent are seria PMLA de la Hoecherl & Hackl?", a: "PMLA oferă până la 72 de canale independente într-un rack de 19″, o densitate comparabilă cu soluțiile multi-canal de la Chroma sau EA Elektro-Automatik, utilă la testarea paralelă a mai multor celule de baterie în producția de serie." },
     ],
     evidenceClass: "market-signal-ro",
@@ -292,7 +292,7 @@ Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/
       "Diagnoză de calitate a energiei — înregistrare de măsurători pe teren cu multimetrele grafice",
       "Industrie — verificări rapide de semnal cu funcție de osciloscop integrat",
     ],
-    infinitrade: `Nu deținem date proprii despre volumele Multimetrix din Franța, ci descriem gama exact așa cum o prezintă Chauvin Arnoux pe site-ul oficial. Putem aduce la comandă multimetre din seriile CA 5273/5275/5277, CA 5292/5293, HandScope CA 922/942 și modelele portabile CA 702/703, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni. Pentru ofertă, trimiteți codul exact al modelului și dacă aveți nevoie de accesorii (clește, sonde de temperatură).`,
+    infinitrade: `Nu deținem date proprii despre volumele Multimetrix din Franța, ci descriem gama exact așa cum o prezintă Chauvin Arnoux pe site-ul oficial. Putem aduce la comandă multimetre din seriile CA 5273/5275/5277, CA 5292/5293, HandScope CA 922/942 și modelele portabile CA 702/703, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni. Pentru ofertă, trimiteți codul exact al modelului și dacă aveți nevoie de accesorii (clește, sonde de temperatură).`,
     limitation: "Nu putem confirma o certificare specifică ISO pentru marca Multimetrix separat de grupul Chauvin Arnoux, deoarece pagina de brand nu o menționează explicit.",
     productCodes: [
       { code: "CA 5292", description: "Multimetru grafic TRMS, 100.000 puncte, IP67, CAT IV" },
@@ -314,7 +314,7 @@ Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/
     faq: [
       { q: "Ce produce Multimetrix?", a: "Multimetrix produce multimetre digitale și analogice, clești multimetrice și controlere pentru siguranța instalațiilor electrice. Este o marcă a grupului francez Chauvin Arnoux, poziționată la un nivel de preț mai accesibil în cadrul aceluiași grup." },
       { q: "Ce diferență e între multimetrele Multimetrix CA 5273 și CA 5292?", a: "CA 5273 are două afișaje de 6000 de puncte fiecare și e gândit pentru măsurători curente de tensiune, curent și temperatură, în timp ce CA 5292 e un multimetru grafic de 100.000 de puncte cu înregistrare de date pe USB, potrivit pentru diagnoză de calitate a energiei pe termen mai lung." },
-      { q: "Livrați multimetre Multimetrix în România?", a: "Da, aducem la comandă din gama Multimetrix prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmarea modelului de către producător." },
+      { q: "Livrați multimetre Multimetrix în România?", a: "Da, aducem la comandă din gama Multimetrix prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmarea modelului de către producător." },
       { q: "Ce categorie de siguranță (CAT) au multimetrele Multimetrix?", a: "Majoritatea modelelor numerice sunt certificate 600V CAT IV, potrivite pentru lucru la originea instalației de joasă tensiune, iar modelele HandScope cu funcție de osciloscop sunt certificate 600V CAT III." },
     ],
     evidenceClass: "market-signal-ro",
@@ -355,7 +355,7 @@ Pentru România, gama Pfiffner e relevantă pentru operatorii de rețea și util
       "Energie regenerabilă — instrumentație de măsură pentru parcuri eoliene și solare conectate la rețea",
       "Căi ferate — transformatoare de măsură pentru instalații de tracțiune",
     ],
-    infinitrade: `Descriem gama Pfiffner strict din ce arată site-ul grupului; nu ținem produse pe raft, aducem la comandă transformatoare de măsură, seturi CITAS/VITAS și echipamente de testare din portofoliul Pfiffner, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni. Pentru ofertă, trimiteți clasa de tensiune, clasa de precizie necesară și mediul de instalare al transformatorului.`,
+    infinitrade: `Descriem gama Pfiffner strict din ce arată site-ul grupului; nu ținem produse pe raft, aducem la comandă transformatoare de măsură, seturi CITAS/VITAS și echipamente de testare din portofoliul Pfiffner, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni. Pentru ofertă, trimiteți clasa de tensiune, clasa de precizie necesară și mediul de instalare al transformatorului.`,
     limitation: "Nu oferim etalonare sau service de punere în funcțiune pentru echipamentele Pfiffner — acestea rămân în sarcina producătorului sau a unui integrator certificat de rețea.",
     productCodes: [
       { code: "2771 CITAS", description: "Set de analiză pentru transformatoare de curent instalate" },
@@ -372,7 +372,7 @@ Pentru România, gama Pfiffner e relevantă pentru operatorii de rețea și util
     faq: [
       { q: "Ce produce Pfiffner?", a: "Pfiffner produce transformatoare de măsură de curent și tensiune, sisteme de bare colectoare, echipamente de testare de înaltă tensiune și deconectoare, printr-un grup elvețian activ din 1927 care reunește mai multe divizii istorice precum Moser Glaser și Haefely." },
       { q: "Ce sunt seturile CITAS și VITAS de la Pfiffner?", a: "CITAS și VITAS sunt echipamente portabile pentru testarea în teren a transformatoarelor de curent, respectiv de tensiune, deja montate în substație, folosite la comisionare și la verificările periodice de mentenanță ale operatorilor de rețea." },
-      { q: "Livrați transformatoare de măsură Pfiffner în România?", a: "Aducem la comandă din gama Pfiffner prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmarea clasei de tensiune și de precizie de către producător." },
+      { q: "Livrați transformatoare de măsură Pfiffner în România?", a: "Aducem la comandă din gama Pfiffner prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmarea clasei de tensiune și de precizie de către producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de transformator de măsură Pfiffner?", a: "Precizați clasa de tensiune a instalației, clasa de precizie cerută, tipul (curent sau tensiune) și dacă montajul este de interior sau de exterior, astfel încât să identificăm varianta potrivită din catalog." },
     ],
     evidenceClass: "market-signal-ro",
@@ -412,7 +412,7 @@ Pentru România, gama Tabor se adresează în principal laboratoarelor de cercet
       "Cercetare cuantică — surse de semnal pentru calcul și senzori cuantici",
       "Industrie și energie — instrumentație de test pentru sisteme de putere",
     ],
-    infinitrade: `Niciun fapt propriu nu apare aici despre Tabor, doar ce confirmă site-ul producătorului din Israel. Putem aduce la comandă generatoare din seriile Proteus, Lucid și LSX, amplificatoare de semnal și șasiuri PXIe, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni. Pentru ofertă, trimiteți banda de frecvență necesară, numărul de canale și tipul de șasiu (dacă e cazul).`,
+    infinitrade: `Niciun fapt propriu nu apare aici despre Tabor, doar ce confirmă site-ul producătorului din Israel. Putem aduce la comandă generatoare din seriile Proteus, Lucid și LSX, amplificatoare de semnal și șasiuri PXIe, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni. Pentru ofertă, trimiteți banda de frecvență necesară, numărul de canale și tipul de șasiu (dacă e cazul).`,
     limitation: "Nu oferim programare sau integrare software proprietară pentru instrumentele Tabor — configurarea aplicațiilor de test rămâne în sarcina clientului sau a producătorului.",
     productCodes: [
       { code: "Proteus AWG", description: "Generator de undă arbitrară de mare viteză cu procesare de semnal" },
@@ -432,7 +432,7 @@ Pentru România, gama Tabor se adresează în principal laboratoarelor de cercet
     faq: [
       { q: "Ce produce Tabor?", a: "Tabor produce instrumentație de semnal pentru laboratoare de RF și microunde: generatoare de undă arbitrară, generatoare RF/microunde, amplificatoare de semnal și radiouri definite prin software pentru teste radar. Compania e israeliană, cu sediul la Nesher, activă din 1971." },
       { q: "Ce diferență e între seriile Lucid și LSX de la Tabor?", a: "Lucid e o serie de generatoare RF/microunde de bandă largă (3, 6 sau 12 GHz), gândită pentru semnal stabil pe o gamă mare de frecvențe, în timp ce LSX e specializată pe comutare ultra-rapidă de frecvență, sub 10 µs, pentru teste de agilitate în frecvență." },
-      { q: "Livrați generatoare de semnal Tabor în România?", a: "Aducem la comandă din gama Tabor prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmarea configurației de către producător." },
+      { q: "Livrați generatoare de semnal Tabor în România?", a: "Aducem la comandă din gama Tabor prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației de către producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de generator Tabor?", a: "Precizați banda de frecvență necesară, numărul de canale, dacă aveți nevoie de variantă desktop, benchtop sau modul PXIe și, dacă e cazul, tipul de șasiu în care trebuie integrat modulul." },
     ],
     evidenceClass: "market-signal-ro",

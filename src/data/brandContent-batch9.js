@@ -53,7 +53,7 @@ La fiecare proiect căutăm eficiența maximă - benzi care rulează 24/7 fără
       'Recyclare - sortare deșeuri, transport PET, hârtie, metale',
       'E-commerce - benzi pentru centre fulfillment, pick & pack, shipping'
     ],
-    infinitrade: `Pentru gama Habasit de benzi transportoare și curele de proces, la InfiniTrade lucrăm fără date proprii de stoc pentru fiecare cod - aducem produsele la comandă prin canale de aprovizionare din UE. Componentele uzuale din gamă pot ajunge la tine în 24–72 h din stoc, în timp ce benzile speciale sau dimensiunile custom ajung de regulă în 2–6 săptămâni la comandă. Ca să pregătim o ofertă corectă, trimite-ne lățimea și lungimea benzii, tipul de suprafață și aplicația exactă - linie de îmbuteliere, sortare sau transport paleți. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de disponibilitatea reală verificată la momentul comenzii. Pentru configurațiile complexe recomandăm o discuție tehnică înainte de a confirma comanda.`,
+    infinitrade: `Pentru gama Habasit de benzi transportoare și curele de proces, la InfiniTrade lucrăm fără date proprii de stoc pentru fiecare cod - aducem produsele la comandă prin canale de aprovizionare din UE. Componentele uzuale din gamă pot ajunge la tine în 24–72 h din stoc, în timp ce benzile speciale sau dimensiunile custom ajung de regulă în 2–4 săptămâni la comandă. Ca să pregătim o ofertă corectă, trimite-ne lățimea și lungimea benzii, tipul de suprafață și aplicația exactă - linie de îmbuteliere, sortare sau transport paleți. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de disponibilitatea reală verificată la momentul comenzii. Pentru configurațiile complexe recomandăm o discuție tehnică înainte de a confirma comanda.`,
     limitation: `Nu putem confirma stocul exact pentru fiecare cod de bandă sau curea Habasit fără o verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"Products - Habasit conveyor and processing belts","url":"https://www.habasit.com/en/products","publisher":"Habasit","accessed":"2026-09-22"},
@@ -170,7 +170,7 @@ La fiecare proiect căutăm eficiența maximă - benzi care rulează 24/7 fără
       },
       {
         "q": "Livrați benzi transportoare Habasit în România?",
-        "a": "Da, aducem benzi transportoare și module Habasit la comandă din surse publice ale producătorului, fără a menține un stoc propriu permanent; termenul uzual este de 2-6 săptămâni la comandă, în funcție de serie, lățime și disponibilitatea materialului la fabrică."
+        "a": "Da, aducem benzi transportoare și module Habasit la comandă din surse publice ale producătorului, fără a menține un stoc propriu permanent; termenul uzual este de 2-4 săptămâni la comandă, în funcție de serie, lățime și disponibilitatea materialului la fabrică."
       },
       {
         "q": "Ce tip de bandă modulară aleg pentru transport pe curbe?",
@@ -238,7 +238,7 @@ Filosofia noastră e simplitate și fiabilitate. Întreruptoarele automate au in
       'Transport public - protecții pentru stații metrou, tramvai, sisteme semnalizare',
       'Spații publice - parcări, zone pietonale, iluminat stradal'
     ],
-    infinitrade: `Gama Hager de aparataj electric și tablouri de distribuție ajunge la clienții InfiniTrade prin canale de aprovizionare din UE; fără date proprii de stoc pentru fiecare referință, verificăm disponibilitatea la fiecare cerere primită. Componentele uzuale (întreruptoare automate, diferențiale) pot fi livrate în 24–72 h din stoc, iar tablourile configurate sau seriile speciale ajung de obicei în 2–6 săptămâni la comandă. Pentru o ofertă corectă, spune-ne curba de declanșare, curentul nominal, numărul de module necesar și tensiunea de lucru a instalației. Nu lucrăm cu prețuri publicate și nu confirmăm un termen fix înainte de a verifica stocul exact al furnizorului pentru codul cerut.`,
+    infinitrade: `Gama Hager de aparataj electric și tablouri de distribuție ajunge la clienții InfiniTrade prin canale de aprovizionare din UE; fără date proprii de stoc pentru fiecare referință, verificăm disponibilitatea la fiecare cerere primită. Componentele uzuale (întreruptoare automate, diferențiale) pot fi livrate în 24–72 h din stoc, iar tablourile configurate sau seriile speciale ajung de obicei în 2–4 săptămâni la comandă. Pentru o ofertă corectă, spune-ne curba de declanșare, curentul nominal, numărul de module necesar și tensiunea de lucru a instalației. Nu lucrăm cu prețuri publicate și nu confirmăm un termen fix înainte de a verifica stocul exact al furnizorului pentru codul cerut.`,
     limitation: `Nu oferim configurare software pentru sistemele smart building Hager și nu confirmăm stocul pentru toate variantele de tablouri fără verificare punctuală.`,
     sources: [
       {"title":"Hager Romania","url":"https://hager.com/ro","publisher":"Hager","accessed":"2026-09-22"},
@@ -331,7 +331,7 @@ Filosofia noastră e simplitate și fiabilitate. Întreruptoarele automate au in
       },
       {
         "q": "Livrați componente Hager pentru tablouri electrice în România?",
-        "a": "Da, aducem întrerupătoare, blocuri diferențiale și accesorii Hager la comandă, pe baza informațiilor publice din cataloagele producătorului, fără a ține stoc propriu constant; timpul obișnuit de aprovizionare este de 2-6 săptămâni la comandă, în funcție de model și cantitate."
+        "a": "Da, aducem întrerupătoare, blocuri diferențiale și accesorii Hager la comandă, pe baza informațiilor publice din cataloagele producătorului, fără a ține stoc propriu constant; timpul obișnuit de aprovizionare este de 2-4 săptămâni la comandă, în funcție de model și cantitate."
       },
       {
         "q": "La ce folosesc blocurile de protecție diferențială precum BD426?",
@@ -399,7 +399,7 @@ Pentru Industrie 4.0 am dezvoltat ecosistemul MICA - Mini Computer pentru aplica
       'Apărare - vehicule militare, sisteme comunicații, echipamente câmp',
       'Logistică - sortare colete, tracking RFID, sisteme warehouse management'
     ],
-    infinitrade: `Nu avem informații proprii despre stocul exact al fiecărui conector Harting, așa că ne bazăm pe surse publice ale producătorului și pe verificarea directă la fiecare cerere primită. Aducem conectorii Han, switch-urile Ethernet industriale și componentele RFID prin canale de aprovizionare din UE. Variantele standard pot fi disponibile în 24–72 h din stoc, iar configurațiile custom (inserții speciale, protecție IP69K) ajung de regulă în 2–6 săptămâni la comandă. Trimite-ne codul complet al conectorului sau, dacă nu îl ai, numărul de pini, tipul de inserție și gradul de protecție necesar, ca să evităm confuziile de compatibilitate. Nu confirmăm prețuri fără o cerere punctuală și nu garantăm termenul pentru referințele rar solicitate.`,
+    infinitrade: `Nu avem informații proprii despre stocul exact al fiecărui conector Harting, așa că ne bazăm pe surse publice ale producătorului și pe verificarea directă la fiecare cerere primită. Aducem conectorii Han, switch-urile Ethernet industriale și componentele RFID prin canale de aprovizionare din UE. Variantele standard pot fi disponibile în 24–72 h din stoc, iar configurațiile custom (inserții speciale, protecție IP69K) ajung de regulă în 2–4 săptămâni la comandă. Trimite-ne codul complet al conectorului sau, dacă nu îl ai, numărul de pini, tipul de inserție și gradul de protecție necesar, ca să evităm confuziile de compatibilitate. Nu confirmăm prețuri fără o cerere punctuală și nu garantăm termenul pentru referințele rar solicitate.`,
     limitation: `Nu confirmăm disponibilitatea pentru toate combinațiile de inserții Han fără verificare punctuală și nu oferim service în garanția producătorului pentru echipamentele Harting.`,
     sources: [
       {"title":"HARTING Technology Group","url":"https://www.harting.com/en-gb","publisher":"HARTING","accessed":"2026-09-22"},
@@ -500,7 +500,7 @@ Pentru Industrie 4.0 am dezvoltat ecosistemul MICA - Mini Computer pentru aplica
       },
       {
         "q": "Livrați conectori industriali Harting pentru automatizări în România?",
-        "a": "Da, aducem conectori și accesorii Harting la comandă, pe baza cataloagelor și fișelor tehnice publice ale producătorului, fără gama pe raft ținut permanent; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de serie, configurația de contacte și cantitatea solicitată."
+        "a": "Da, aducem conectori și accesorii Harting la comandă, pe baza cataloagelor și fișelor tehnice publice ale producătorului, fără gama pe raft ținut permanent; termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de serie, configurația de contacte și cantitatea solicitată."
       },
       {
         "q": "Ce este un conector Han-Yellock și când se folosește?",
@@ -568,7 +568,7 @@ Investim masiv în cercetare - laborator propriu de testare cu echipamente de ul
       'Water treatment - stații epurare, pompare, sisteme de filtrare',
       'Mining - echipamente extractive, transportoare, sisteme ventilație'
     ],
-    infinitrade: `Cablurile Helukabel ajung la clienții InfiniTrade prin canale de aprovizionare din UE, tăiate la metrul solicitat - fără date proprii de stoc pentru fiecare secțiune sau tip de manta, verificăm disponibilitatea reală înainte de a promite un termen. Pentru cablurile din gama standard (comandă, semnal) termenul uzual e 24–72 h din stoc, iar pentru cablurile speciale (lanț portcablu, temperaturi extreme) calculează 2–6 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne tipul de cablu, secțiunea conductorilor, numărul de fire și lungimea necesară. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de cantitate și disponibilitatea reală la momentul comenzii.`,
+    infinitrade: `Cablurile Helukabel ajung la clienții InfiniTrade prin canale de aprovizionare din UE, tăiate la metrul solicitat - fără date proprii de stoc pentru fiecare secțiune sau tip de manta, verificăm disponibilitatea reală înainte de a promite un termen. Pentru cablurile din gama standard (comandă, semnal) termenul uzual e 24–72 h din stoc, iar pentru cablurile speciale (lanț portcablu, temperaturi extreme) calculează 2–4 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne tipul de cablu, secțiunea conductorilor, numărul de fire și lungimea necesară. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de cantitate și disponibilitatea reală la momentul comenzii.`,
     limitation: `Nu putem confirma stocul exact pentru fiecare secțiune și tip de manta din portofoliul Helukabel fără o verificare punctuală la comandă.`,
     sources: [
       {"title":"JZ-500 / OZ-500 datasheet","url":"https://assets-cdn.helukabel.com/suppliers/Helukabel/documents/db/HELUKABEL_M10001_EN_GB.pdf","publisher":"Helukabel","accessed":"2026-09-22"},
@@ -627,7 +627,7 @@ Investim masiv în cercetare - laborator propriu de testare cu echipamente de ul
       },
       {
         "q": "Livrați cabluri industriale Helukabel în România la comandă?",
-        "a": "Da, aducem cabluri Helukabel la comandă, pe baza fișelor tehnice și cataloagelor publice ale producătorului, fără a menține stoc propriu constant; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de secțiune, lungimea de tăiere și disponibilitatea la fabricant."
+        "a": "Da, aducem cabluri Helukabel la comandă, pe baza fișelor tehnice și cataloagelor publice ale producătorului, fără a menține stoc propriu constant; termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de secțiune, lungimea de tăiere și disponibilitatea la fabricant."
       },
       {
         "q": "Ce este un cablu HELUKAT și pentru ce se folosește?",
@@ -695,7 +695,7 @@ Investim masiv în R&D - laborator de testare cu benzi de simulare condiții rea
       'Forestry - harvester-e, forwardere, măcinătoare, transportoare',
       'Material handling - stivuitoare, reach stackers, telescopice'
     ],
-    infinitrade: `Filtrele Hengst (ulei, hidraulice, separatoare apă-combustibil) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru codul exact cerut - fără date proprii de stoc pentru fiecare cod OEM. Informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o verificăm punctual pentru fiecare cerere. Codurile mai căutate pot ajunge în 24–72 h din stoc, dar pentru filtrele rare sau seriile speciale termenul e de regulă 2–6 săptămâni la comandă. Pentru identificarea corectă, trimite-ne codul echipamentului - motor, generator sau pompă - sau codul OEM al filtrului vechi, plus cantitatea necesară. Nu confirmăm compatibilitatea sau termenul fără să vedem specificațiile complete ale aplicației tale.`,
+    infinitrade: `Filtrele Hengst (ulei, hidraulice, separatoare apă-combustibil) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru codul exact cerut - fără date proprii de stoc pentru fiecare cod OEM. Informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o verificăm punctual pentru fiecare cerere. Codurile mai căutate pot ajunge în 24–72 h din stoc, dar pentru filtrele rare sau seriile speciale termenul e de regulă 2–4 săptămâni la comandă. Pentru identificarea corectă, trimite-ne codul echipamentului - motor, generator sau pompă - sau codul OEM al filtrului vechi, plus cantitatea necesară. Nu confirmăm compatibilitatea sau termenul fără să vedem specificațiile complete ale aplicației tale.`,
     limitation: `Nu confirmăm compatibilitatea unui filtru Hengst cu un anumit echipament fără codul OEM exact și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"Products - Hengst Filtration","url":"https://www.hengst.com/en/products/","publisher":"Hengst Filtration","accessed":"2026-09-22"},
@@ -780,7 +780,7 @@ Investim masiv în R&D - laborator de testare cu benzi de simulare condiții rea
       },
       {
         "q": "Livrați filtre hidraulice Hengst pentru utilaje industriale în România?",
-        "a": "Da, aducem elemente filtrante Hengst la comandă, pornind de la fișele tehnice publice ale producătorului, fără a păstra un stoc propriu constant; termenul de livrare uzual este de 2-6 săptămâni la comandă, în funcție de tipul elementului și disponibilitatea la fabrică."
+        "a": "Da, aducem elemente filtrante Hengst la comandă, pornind de la fișele tehnice publice ale producătorului, fără a păstra un stoc propriu constant; termenul de livrare uzual este de 2-4 săptămâni la comandă, în funcție de tipul elementului și disponibilitatea la fabrică."
       },
       {
         "q": "Ce diferență există între elementele tip 6 și tip 18 la Hengst?",
@@ -848,7 +848,7 @@ Investim enorm în inovație. Centrul nostru de cercetare din Liechtenstein test
       'Electricieni - instalații electrice rezidențiale/industriale',
       'Renovări - retrofit clădiri istorice, modernizări'
     ],
-    infinitrade: `Sculele și sistemele de ancoraj Hilti ajung la InfiniTrade prin canale de aprovizionare din UE - fără un stoc propriu care să acopere toată gama, verificăm disponibilitatea înainte de fiecare confirmare. Pentru specificațiile tehnice ne bazăm pe informațiile publice disponibile ale producătorului. Accesoriile și consumabilele uzuale (burghie, cartușe de rășină) pot fi livrate în 24–72 h din stoc, iar sculele sau kiturile mai specializate ajung de obicei în 2–6 săptămâni la comandă. Pentru o ofertă corectă, spune-ne modelul exact, tensiunea bateriei dacă e cazul, și aplicația - tipul de material și diametrul de găurire. Nu emitem prețuri fără o cerere concretă și nu promitem termene fixe pentru modelele rar cerute.`,
+    infinitrade: `Sculele și sistemele de ancoraj Hilti ajung la InfiniTrade prin canale de aprovizionare din UE - fără un stoc propriu care să acopere toată gama, verificăm disponibilitatea înainte de fiecare confirmare. Pentru specificațiile tehnice ne bazăm pe informațiile publice disponibile ale producătorului. Accesoriile și consumabilele uzuale (burghie, cartușe de rășină) pot fi livrate în 24–72 h din stoc, iar sculele sau kiturile mai specializate ajung de obicei în 2–4 săptămâni la comandă. Pentru o ofertă corectă, spune-ne modelul exact, tensiunea bateriei dacă e cazul, și aplicația - tipul de material și diametrul de găurire. Nu emitem prețuri fără o cerere concretă și nu promitem termene fixe pentru modelele rar cerute.`,
     limitation: `Nu oferim service în garanția producătorului pentru sculele Hilti și nu confirmăm stocul exact al fiecărui model fără verificare punctuală.`,
     sources: [
       {"title":"Chemical anchors - Hilti USA","url":"https://www.hilti.com/c/CLS_FASTENER_7135/CLS_CHEMICAL_ANCHORS_7135","publisher":"Hilti","accessed":"2026-09-22"},
@@ -940,7 +940,7 @@ Investim enorm în inovație. Centrul nostru de cercetare din Liechtenstein test
       },
       {
         "q": "Livrați ancore chimice și scule Hilti în România la comandă?",
-        "a": "Da, aducem produse Hilti precum mortare de ancorare și ciocane rotopercutoare la comandă, pe baza fișelor tehnice publice ale producătorului, fără a menține stoc propriu constant; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și cantitate."
+        "a": "Da, aducem produse Hilti precum mortare de ancorare și ciocane rotopercutoare la comandă, pe baza fișelor tehnice publice ale producătorului, fără a menține stoc propriu constant; termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și cantitate."
       },
       {
         "q": "Ce este sistemul Kwik-X și cum diferă de un mortar injectabil clasic?",
@@ -1008,7 +1008,7 @@ Investim masiv în cercetare - laborator de calibrare cu gaze certificate, camer
       'Food & beverage - fermentare CO2, refrigerare NH3, spații confinate',
       'Marine - transport gaz lichefiat (LNG/LPG), spații cargo, engine rooms'
     ],
-    infinitrade: `Detectoarele de gaz Honeywell Analytics ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru gazul și rangeul de măsură cerut. Nu putem confirma disponibilitatea unui cod anume fără o verificare punctuală, așa că întrebăm întotdeauna specificațiile exacte înainte de ofertă. Pentru senzorii și piesele mai comune termenul poate fi 24–72 h din stoc, iar pentru sistemele centralizate sau senzorii speciali calculează 2–6 săptămâni la comandă. Trimite-ne tipul de gaz de detectat, rangeul de măsură necesar și tipul de ieșire dorit - 4-20mA sau Modbus - pentru o ofertă corectă. Nu oferim prețuri orientative fără cerere și nu confirmăm certificarea SIL fără documentația exactă a aplicației tale.`,
+    infinitrade: `Detectoarele de gaz Honeywell Analytics ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru gazul și rangeul de măsură cerut. Nu putem confirma disponibilitatea unui cod anume fără o verificare punctuală, așa că întrebăm întotdeauna specificațiile exacte înainte de ofertă. Pentru senzorii și piesele mai comune termenul poate fi 24–72 h din stoc, iar pentru sistemele centralizate sau senzorii speciali calculează 2–4 săptămâni la comandă. Trimite-ne tipul de gaz de detectat, rangeul de măsură necesar și tipul de ieșire dorit - 4-20mA sau Modbus - pentru o ofertă corectă. Nu oferim prețuri orientative fără cerere și nu confirmăm certificarea SIL fără documentația exactă a aplicației tale.`,
     limitation: `Nu efectuăm calibrarea sau certificarea SIL a detectoarelor Honeywell Analytics - acestea rămân în sarcina producătorului sau a unui laborator acreditat.`,
     sources: [
       {"title":"Gas and Flame Detection - Honeywell","url":"https://automation.honeywell.com/us/en/products/sensing-solutions/gas-and-flame-detection","publisher":"Honeywell","accessed":"2026-09-22"},
@@ -1068,7 +1068,7 @@ Investim masiv în cercetare - laborator de calibrare cu gaze certificate, camer
       },
       {
         "q": "Livrați detectoare de gaz Honeywell Analytics în România la comandă?",
-        "a": "Da, aducem detectoare fixe și portabile de gaz din portofoliul Honeywell Analytics la comandă, pe baza fișelor tehnice publice ale producătorului, fără a menține un stoc propriu permanent; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și configurație."
+        "a": "Da, aducem detectoare fixe și portabile de gaz din portofoliul Honeywell Analytics la comandă, pe baza fișelor tehnice publice ale producătorului, fără a menține un stoc propriu permanent; termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și configurație."
       },
       {
         "q": "Ce diferență este între un detector portabil GasAlertMicroClip XL și unul BW Solo?",
@@ -1136,7 +1136,7 @@ Pentru protecție respiratorie oferim gama completă: măști filtrante FFP1/FFP
       'Forestry - protecție tăiere motofierăstrău, harnașamente, ochelari anti-impact',
       'Curățenie industrială - mănuși chimicale, protecție respiratorie, combinezoane'
     ],
-    infinitrade: `Echipamentele de protecție Honeywell Safety (mănuși, ochelari, harnașamente) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru cantitățile solicitate. Fără date proprii de stoc pentru toate mărimile și modelele, verificăm disponibilitatea reală înainte de a confirma un termen. Modelele curente din gama de mănuși și ochelari pot ajunge în 24–72 h din stoc, iar comenzile mari de harnașamente sau seriile speciale ajung de obicei în 2–6 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne modelul, mărimile necesare și cantitatea totală comandată. Evaluarea de risc la locul de muncă rămâne responsabilitatea angajatorului conform legislației - noi oferim echipamentul potrivit specificațiilor pe care ni le trimiți.`,
+    infinitrade: `Echipamentele de protecție Honeywell Safety (mănuși, ochelari, harnașamente) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru cantitățile solicitate. Fără date proprii de stoc pentru toate mărimile și modelele, verificăm disponibilitatea reală înainte de a confirma un termen. Modelele curente din gama de mănuși și ochelari pot ajunge în 24–72 h din stoc, iar comenzile mari de harnașamente sau seriile speciale ajung de obicei în 2–4 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne modelul, mărimile necesare și cantitatea totală comandată. Evaluarea de risc la locul de muncă rămâne responsabilitatea angajatorului conform legislației - noi oferim echipamentul potrivit specificațiilor pe care ni le trimiți.`,
     limitation: `Nu realizăm evaluarea de risc la locul de muncă pentru echipamentele Honeywell Safety - aceasta rămâne responsabilitatea angajatorului conform legislației.`,
     sources: [
       {"title":"Personal Protective Equipment - Honeywell","url":"https://automation.honeywell.com/us/en/pip-hsp","publisher":"Honeywell","accessed":"2026-09-22"},
@@ -1212,7 +1212,7 @@ Pentru protecție respiratorie oferim gama completă: măști filtrante FFP1/FFP
       },
       {
         "q": "Livrați echipamente de protecție Honeywell în România la comandă?",
-        "a": "Da, aducem ochelari, hamuri anti-cădere și echipamente de protecție la arc electric din portofoliul Honeywell la comandă, pe baza fișelor tehnice publice ale producătorului, fără gama pe raft ținut permanent; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și mărime."
+        "a": "Da, aducem ochelari, hamuri anti-cădere și echipamente de protecție la arc electric din portofoliul Honeywell la comandă, pe baza fișelor tehnice publice ale producătorului, fără gama pe raft ținut permanent; termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și mărime."
       },
       {
         "q": "Ce rol are lonja Titan II Pack Lanyard într-un sistem anti-cădere?",
@@ -1280,7 +1280,7 @@ Investim masiv în senzori inteligenți și IoT industrial. Senzorii noștri de 
       'Renewable energy - wind turbines, wave energy, hydro power',
       'Test benches - simulare încărcări, teste de rezistență, validare componente'
     ],
-    infinitrade: `Componentele hidraulice Hydac (acumulatoare, răcitoare, senzori de presiune) ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru presiunea și volumul cerut de aplicația ta. Fără date proprii de stoc pentru fiecare variantă, verificăm disponibilitatea exactă la fiecare cerere primită. Componentele standard din gamă pot fi livrate în 24–72 h din stoc, iar acumulatoarele sau senzorii cu specificații particulare ajung de regulă în 2–6 săptămâni la comandă. Pentru o ofertă corectă, trimite-ne presiunea de lucru, volumul necesar pentru acumulatoare sau rangeul de măsură pentru senzori, plus tipul de conexiune. Nu confirmăm prețuri fără o cerere punctuală și nu putem garanta un termen fix pentru variantele rar solicitate.`,
+    infinitrade: `Componentele hidraulice Hydac (acumulatoare, răcitoare, senzori de presiune) ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru presiunea și volumul cerut de aplicația ta. Fără date proprii de stoc pentru fiecare variantă, verificăm disponibilitatea exactă la fiecare cerere primită. Componentele standard din gamă pot fi livrate în 24–72 h din stoc, iar acumulatoarele sau senzorii cu specificații particulare ajung de regulă în 2–4 săptămâni la comandă. Pentru o ofertă corectă, trimite-ne presiunea de lucru, volumul necesar pentru acumulatoare sau rangeul de măsură pentru senzori, plus tipul de conexiune. Nu confirmăm prețuri fără o cerere punctuală și nu putem garanta un termen fix pentru variantele rar solicitate.`,
     limitation: `Nu confirmăm stocul exact pentru fiecare variantă de acumulator sau senzor Hydac fără o verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"HYDAC - product portfolio","url":"https://www.hydac.com","publisher":"Hydac","accessed":"2026-09-22"},
@@ -1349,7 +1349,7 @@ Investim masiv în senzori inteligenți și IoT industrial. Senzorii noștri de 
       },
       {
         "q": "Livrați senzori și acumulatoare Hydac în România la comandă?",
-        "a": "Da, aducem traductoare de presiune, presostate și acumulatoare Hydac la comandă, pornind de la fișele tehnice publice ale producătorului, fără a menține un stoc propriu permanent; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și configurație electrică."
+        "a": "Da, aducem traductoare de presiune, presostate și acumulatoare Hydac la comandă, pornind de la fișele tehnice publice ale producătorului, fără a menține un stoc propriu permanent; termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și configurație electrică."
       },
       {
         "q": "Ce rol are un presostat electronic precum EDS 4000?",
@@ -1417,7 +1417,7 @@ Inovăm constant - sisteme de monitorizare inteligentă a stării filtrelor (sen
       'Paper mills - prese, calendre, sisteme acționare (filtrare + separare apă)',
       'Plastic injection - mașini de injecție (protecție valve proporționale)'
     ],
-    infinitrade: `Filtrele și unitățile de filtrare Hydac Filtration ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru gradul de filtrare și presiunea cerută de sistemul tău. Informațiile despre disponibilitate vin din surse publice ale producătorului și din verificarea punctuală pentru fiecare cerere primită. Elementele filtrante uzuale pot fi livrate în 24–72 h din stoc, în timp ce unitățile complete de filtrare offline sau separatoarele de apă ajung de obicei în 2–6 săptămâni la comandă. Pentru identificare corectă, trimite-ne codul elementului filtrant sau presiunea de lucru, gradul de filtrare dorit și tipul de conexiune necesar. Nu confirmăm termene sau prețuri fără să vedem cerința completă a aplicației.`,
+    infinitrade: `Filtrele și unitățile de filtrare Hydac Filtration ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru gradul de filtrare și presiunea cerută de sistemul tău. Informațiile despre disponibilitate vin din surse publice ale producătorului și din verificarea punctuală pentru fiecare cerere primită. Elementele filtrante uzuale pot fi livrate în 24–72 h din stoc, în timp ce unitățile complete de filtrare offline sau separatoarele de apă ajung de obicei în 2–4 săptămâni la comandă. Pentru identificare corectă, trimite-ne codul elementului filtrant sau presiunea de lucru, gradul de filtrare dorit și tipul de conexiune necesar. Nu confirmăm termene sau prețuri fără să vedem cerința completă a aplicației.`,
     limitation: `Nu confirmăm stocul pentru fiecare element filtrant Hydac Filtration fără verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"Filtration Technology - HYDAC","url":"https://www.hydac.com/shop/en/filtration-technology","publisher":"Hydac","accessed":"2026-09-22"},
@@ -1481,7 +1481,7 @@ Inovăm constant - sisteme de monitorizare inteligentă a stării filtrelor (sen
       },
       {
         "q": "Livrați filtre de presiune și unități offline Hydac Filtration în România?",
-        "a": "Da, aducem filtre de presiune din seria RFBN și unități de filtrare offline OLF la comandă, pornind de la datele publice ale producătorului, fără a ține un stoc propriu permanent; termenul obișnuit de aprovizionare este de 2-6 săptămâni la comandă, în funcție de model."
+        "a": "Da, aducem filtre de presiune din seria RFBN și unități de filtrare offline OLF la comandă, pornind de la datele publice ale producătorului, fără a ține un stoc propriu permanent; termenul obișnuit de aprovizionare este de 2-4 săptămâni la comandă, în funcție de model."
       },
       {
         "q": "La ce ajută un senzor de contaminare precum CS 1500?",

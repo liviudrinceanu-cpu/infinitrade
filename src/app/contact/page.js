@@ -32,7 +32,9 @@ const brandCategorySlugs = (slug) => {
 };
 
 export default function ContactPage() {
-  const [heroRef, heroVisible] = useIntersectionObserver();
+  // v17: the hero is rendered visible (no scroll-reveal) — it is the LCP
+  // element, and hiding it until hydration pushed LCP past 2.5 s on mobile.
+  const [heroRef] = useIntersectionObserver();
   const [formRef, formVisible] = useIntersectionObserver();
   const [infoRef, infoVisible] = useIntersectionObserver();
   const [mapRef, mapVisible] = useIntersectionObserver();
@@ -198,9 +200,7 @@ export default function ContactPage() {
         {/* Hero */}
         <section className={styles.hero} ref={heroRef}>
           <div className={styles.container}>
-            <div
-              className={`animate-fade-up ${heroVisible ? 'is-visible' : ''}`}
-            >
+            <div>
               <h1 className={styles.title}>Contactează-ne</h1>
               <p className={styles.subtitle}>
                 Echipa noastră este pregătită să te ajute cu orice întrebare.

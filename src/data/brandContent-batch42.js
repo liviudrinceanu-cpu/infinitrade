@@ -33,7 +33,7 @@ Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite
       "Energie regenerabilă — protecție la nacele de turbine eoliene"
     ],
     certifications: ["ATEX 2014/34/UE — pentru gama de dispozitive certificate în zone cu risc de explozie"],
-    infinitrade: `Aducem componente Schmersal la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Nu depăstrăm stoc propriu pentru gama Schmersal și nu promitem disponibilitate permanentă. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau, dacă nu-l cunoașteți, de tipul de apărător și nivelul de performanță de siguranță cerut de analiza de risc. Datele tehnice provin din surse publice ale producătorului.`,
+    infinitrade: `Aducem componente Schmersal la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Nu depăstrăm stoc propriu pentru gama Schmersal și nu promitem disponibilitate permanentă. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau, dacă nu-l cunoașteți, de tipul de apărător și nivelul de performanță de siguranță cerut de analiza de risc. Datele tehnice provin din surse publice ale producătorului.`,
     limitation: "Nu putem confirma disponibilitatea unei piese anume fără verificare punctuală la furnizor și nu oferim servicii de programare a controlerelor de siguranță software-configurabile.",
     productCodes: [
       {
@@ -108,7 +108,7 @@ Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite
       },
       {
         "q": "Livrați echipamente de siguranță Schmersal în România?",
-        "a": "Da, aducem la comandă întrerupătoare, blocări cu solenoid și perdele optice din portofoliul Schmersal, pornind de la codul exact al produsului. Nu ținem această gamă pe raft, iar termenul obișnuit este de două până la șase săptămâni, în funcție de disponibilitatea publicată de producător. Recomandăm transmiterea codului complet și, dacă este posibil, o poză cu eticheta echipamentului existent pentru identificare corectă."
+        "a": "Da, aducem la comandă întrerupătoare, blocări cu solenoid și perdele optice din portofoliul Schmersal, pornind de la codul exact al produsului. Nu ținem această gamă pe raft, iar termenul obișnuit este de două până la patru săptămâni, în funcție de disponibilitatea publicată de producător. Recomandăm transmiterea codului complet și, dacă este posibil, o poză cu eticheta echipamentului existent pentru identificare corectă."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un întrerupător de siguranță?",
@@ -156,7 +156,7 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
       "Tehnologie medicală — echipamente cu cerințe stricte de repetabilitate",
       "Producția de baterii — linii de asamblare automatizate"
     ],
-    infinitrade: `Nu păstrăm stoc propriu de reductoare pentru gama Wittenstein alpha — vă aducem produsul prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Avem nevoie de cuplul aplicației, raportul de transmisie dorit și orientarea axelor pentru o ofertă corectă. Informațiile tehnice provin din surse publice ale producătorului, verificate în această sesiune.`,
+    infinitrade: `Nu păstrăm stoc propriu de reductoare pentru gama Wittenstein alpha — vă aducem produsul prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Avem nevoie de cuplul aplicației, raportul de transmisie dorit și orientarea axelor pentru o ofertă corectă. Informațiile tehnice provin din surse publice ale producătorului, verificate în această sesiune.`,
     limitation: "Nu putem confirma disponibilitate permanentă din stoc pentru o mărime anume de reductor și nu oferim service în perioada de garanție a producătorului pentru unitățile deja montate de alt furnizor.",
     productCodes: [
       {
@@ -219,7 +219,7 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
       },
       {
         "q": "Livrați reductoare Wittenstein alpha în România?",
-        "a": "Da, aducem la comandă reductoare planetare din gamele RP+, TP+, SP+, NP sau Galaxie G, în funcție de codul exact solicitat. Nu avem raft propriu pentru această gamă, iar orientarea de livrare publicată de producător este de aproximativ două până la șase săptămâni. Este utilă transmiterea desenului de interfață mecanică sau a codului complet de pe reductorul existent."
+        "a": "Da, aducem la comandă reductoare planetare din gamele RP+, TP+, SP+, NP sau Galaxie G, în funcție de codul exact solicitat. Nu avem raft propriu pentru această gamă, iar orientarea de livrare publicată de producător este de aproximativ două până la patru săptămâni. Este utilă transmiterea desenului de interfață mecanică sau a codului complet de pe reductorul existent."
       },
       {
         "q": "Ce este tehnologia Galaxie G de la Wittenstein alpha?",
@@ -267,7 +267,7 @@ Pentru fabricile din România cu echipamente rotative solicitate — reductoare,
       "Mașini-unelte — susținerea axelor de poziționare cu șurub cu bile",
       "Climatizare industrială — rulmenți pentru compresoare și ventilatoare"
     ],
-    infinitrade: `Pentru rulmenții NACHI aducem produsul la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii — nu depăstrăm stoc propriu și nu promitem disponibilitate permanentă pentru fiecare cod. Ca să dăm o ofertă corectă avem nevoie de codul exact al rulmentului sau, dacă nu-l cunoașteți, de diametrul interior, exterior, lățimea și tipul de sarcină (radială, axială sau combinată) al aplicației. Datele din acest text provin din surse publice ale producătorului, accesate în această sesiune de lucru; pentru compatibilitate exactă cu un arbore existent, recomandăm verificarea desenului tehnic al mașinii înainte de comandă.`,
+    infinitrade: `Pentru rulmenții NACHI aducem produsul la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii — nu depăstrăm stoc propriu și nu promitem disponibilitate permanentă pentru fiecare cod. Ca să dăm o ofertă corectă avem nevoie de codul exact al rulmentului sau, dacă nu-l cunoașteți, de diametrul interior, exterior, lățimea și tipul de sarcină (radială, axială sau combinată) al aplicației. Datele din acest text provin din surse publice ale producătorului, accesate în această sesiune de lucru; pentru compatibilitate exactă cu un arbore existent, recomandăm verificarea desenului tehnic al mașinii înainte de comandă.`,
     limitation: "Nu putem confirma echivalența exactă cu un cod concurent fără verificare punctuală și nu ținem disponibilitate permanentă din stoc pentru mărimile mai puțin uzuale din gamă.",
     productCodes: [
       {
@@ -330,7 +330,7 @@ Pentru fabricile din România cu echipamente rotative solicitate — reductoare,
       },
       {
         "q": "Livrați rulmenți NACHI în România?",
-        "a": "Da, rulmenții NACHI pot fi aduși la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–6 săptămâni, în funcție de dimensiune și disponibilitate. Recomandăm confirmarea codului complet al rulmentului, inclusiv seria și varianta constructivă, pentru a evita confuziile între tipuri asemănătoare din catalogul producătorului."
+        "a": "Da, rulmenții NACHI pot fi aduși la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–4 săptămâni, în funcție de dimensiune și disponibilitate. Recomandăm confirmarea codului complet al rulmentului, inclusiv seria și varianta constructivă, pentru a evita confuziile între tipuri asemănătoare din catalogul producătorului."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă pe rulmenți NACHI?",
@@ -379,7 +379,7 @@ Pentru fabricile din România cu automatizare industrială — PLC-uri, SCADA, l
       "Transport — sisteme certificate pentru medii feroviare (EN 50121)"
     ],
     certifications: ["EN 50121 — compatibilitate electromagnetică pentru aplicații feroviare", "EN 50171 — sisteme centrale de alimentare de siguranță"],
-    infinitrade: `Aducem echipamente Vertiv la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare — nu păstrăm stoc propriu de UPS-uri industriale și nu promitem o cantitate disponibilă imediat. Pentru o ofertă corectă avem nevoie de puterea necesară în kVA, tensiunea de rețea, timpul de autonomie dorit pe baterie și condițiile de mediu din hală (temperatură, praf, umiditate). Parametrii tehnici din acest text provin din surse publice ale producătorului, verificate în această sesiune; pentru configurația exactă de baterii și autonomie recomandăm o discuție tehnică înainte de comandă, pentru că dimensionarea depinde direct de sarcina reală protejată.`,
+    infinitrade: `Aducem echipamente Vertiv la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare — nu păstrăm stoc propriu de UPS-uri industriale și nu promitem o cantitate disponibilă imediat. Pentru o ofertă corectă avem nevoie de puterea necesară în kVA, tensiunea de rețea, timpul de autonomie dorit pe baterie și condițiile de mediu din hală (temperatură, praf, umiditate). Parametrii tehnici din acest text provin din surse publice ale producătorului, verificate în această sesiune; pentru configurația exactă de baterii și autonomie recomandăm o discuție tehnică înainte de comandă, pentru că dimensionarea depinde direct de sarcina reală protejată.`,
     limitation: "Nu putem confirma disponibilitate permanentă din stoc pentru o putere anume de UPS și nu oferim service în garanția producătorului pentru unități instalate deja de alt furnizor.",
     productCodes: [
       {
@@ -450,7 +450,7 @@ Pentru fabricile din România cu automatizare industrială — PLC-uri, SCADA, l
       },
       {
         "q": "Livrați echipamente Vertiv în România?",
-        "a": "Echipamentele Vertiv, inclusiv seriile Liebert de UPS și răcire, se aduc la comandă direct din portofoliul producătorului, cu un termen estimat de 2–6 săptămâni, gama nefiind păstrată pe raft dat fiind numărul mare de puteri și configurații."
+        "a": "Echipamentele Vertiv, inclusiv seriile Liebert de UPS și răcire, se aduc la comandă direct din portofoliul producătorului, cu un termen estimat de 2–4 săptămâni, gama nefiind păstrată pe raft dat fiind numărul mare de puteri și configurații."
       },
       {
         "q": "Ce rol are sistemul Liebert CRV în infrastructura Vertiv pentru centre de date?",
@@ -498,7 +498,7 @@ Pentru instalațiile industriale din România, gama de siguranțe și dispozitiv
       "Telecomunicații — protecție la supratensiune pentru echipamente de rețea",
       "Echipamente mobile pe baterii — gestionarea și protecția pachetelor de acumulatori"
     ],
-    infinitrade: `Pentru componentele Littelfuse nu păstrăm stoc propriu — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Ca să pregătim o ofertă corectă avem nevoie de codul exact al produsului sau, în lipsa lui, de curentul nominal, tensiunea de lucru și tipul de montaj cerut de aplicație. Ce putem și ce nu putem confirma ține de disponibilitatea la producător la momentul comenzii — nu promitem o cantitate rezervată în avans fără verificare punctuală. Datele tehnice generale din acest text provin din surse publice ale producătorului, verificate în această sesiune.`,
+    infinitrade: `Pentru componentele Littelfuse nu păstrăm stoc propriu — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Ca să pregătim o ofertă corectă avem nevoie de codul exact al produsului sau, în lipsa lui, de curentul nominal, tensiunea de lucru și tipul de montaj cerut de aplicație. Ce putem și ce nu putem confirma ține de disponibilitatea la producător la momentul comenzii — nu promitem o cantitate rezervată în avans fără verificare punctuală. Datele tehnice generale din acest text provin din surse publice ale producătorului, verificate în această sesiune.`,
     limitation: "Nu putem confirma echivalența directă cu un cod de la alt producător fără verificare punctuală și nu ținem disponibilitate permanentă din stoc pentru siguranțele mai puțin uzuale din gamă.",
     productCodes: [
       {
@@ -577,7 +577,7 @@ Pentru instalațiile industriale din România, gama de siguranțe și dispozitiv
       },
       {
         "q": "Livrați componente Littelfuse în România?",
-        "a": "Comenzile pentru componente Littelfuse ajung de la producător în aproximativ 2–6 săptămâni, iar noi nu ținem această gamă pe raft, dat fiind numărul mare de variante de siguranțe și diode disponibile în catalog."
+        "a": "Comenzile pentru componente Littelfuse ajung de la producător în aproximativ 2–4 săptămâni, iar noi nu ținem această gamă pe raft, dat fiind numărul mare de variante de siguranțe și diode disponibile în catalog."
       },
       {
         "q": "Care e diferența dintre o diodă TVS și un varistor din gama Littelfuse?",
@@ -624,7 +624,7 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
       "Autorități locale — centrale termice pentru clădiri publice și rețele urbane",
       "Producție cu consum mare de energie — cogenerare electrică și termică simultană"
     ],
-    infinitrade: `Nu depăstrăm stoc propriu de cazane Viessmann — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, valabil pentru unități configurate pe proiect. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil disponibil pe amplasament și dacă instalația actuală funcționează cu apă caldă sau abur. Informațiile publice disponibile despre gama Vitomax provin din site-ul producătorului, verificat în această sesiune de lucru; pentru un proiect de retehnologizare recomandăm o discuție tehnică prealabilă, pentru că dimensionarea corectă depinde de profilul real de consum al fabricii, nu doar de puterea instalată actuală.`,
+    infinitrade: `Nu depăstrăm stoc propriu de cazane Viessmann — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, valabil pentru unități configurate pe proiect. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil disponibil pe amplasament și dacă instalația actuală funcționează cu apă caldă sau abur. Informațiile publice disponibile despre gama Vitomax provin din site-ul producătorului, verificat în această sesiune de lucru; pentru un proiect de retehnologizare recomandăm o discuție tehnică prealabilă, pentru că dimensionarea corectă depinde de profilul real de consum al fabricii, nu doar de puterea instalată actuală.`,
     limitation: "Nu putem confirma termene de livrare mai scurte pentru unități configurate special pe proiect și nu oferim service în garanția producătorului pentru instalații puse în funcțiune de alt furnizor.",
     productCodes: [
       {
@@ -715,7 +715,7 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
       },
       {
         "q": "Livrați echipamente Viessmann în România?",
-        "a": "Pentru echipamentele Viessmann lucrăm exclusiv la comandă, într-un interval estimat de 2–6 săptămâni stabilit după confirmarea seriei alese; nu ținem această gamă pe raft, având în vedere multitudinea de puteri și configurații publicate de producător."
+        "a": "Pentru echipamentele Viessmann lucrăm exclusiv la comandă, într-un interval estimat de 2–4 săptămâni stabilit după confirmarea seriei alese; nu ținem această gamă pe raft, având în vedere multitudinea de puteri și configurații publicate de producător."
       },
       {
         "q": "Ce este un boiler din seria Vitocell și cum aleg modelul potrivit?",
@@ -763,7 +763,7 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
       "Infrastructură — consolidarea structurilor de beton cu fibre de carbon",
       "Logistică și depozitare — membrane de acoperiș pentru hale mari"
     ],
-    infinitrade: `Furnizăm produse Sika prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la comandă pentru cantitățile care depășesc stocul curent de la distribuitorii locali. Nu avem date proprii despre stocul disponibil la un moment dat în depozitele din România — verificăm punctual disponibilitatea înainte de a confirma o cantitate și un termen. Pentru o ofertă corectă avem nevoie de suprafața sau volumul lucrării, tipul de substrat și condițiile de expunere (chimică, mecanică, termică) ale aplicației. Informațiile despre gamă provin din surse publice ale producătorului și din prezentarea Sika România, verificate în această sesiune.`,
+    infinitrade: `Furnizăm produse Sika prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă pentru cantitățile care depășesc stocul curent de la distribuitorii locali. Nu avem date proprii despre stocul disponibil la un moment dat în depozitele din România — verificăm punctual disponibilitatea înainte de a confirma o cantitate și un termen. Pentru o ofertă corectă avem nevoie de suprafața sau volumul lucrării, tipul de substrat și condițiile de expunere (chimică, mecanică, termică) ale aplicației. Informațiile despre gamă provin din surse publice ale producătorului și din prezentarea Sika România, verificate în această sesiune.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unor cantități mari fără verificare la depozitul local și nu oferim consultanță de aplicare pe șantier ca serviciu separat.",
     productCodes: [
       {
@@ -889,7 +889,7 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
       "Industria alimentară — dozatoare și mese rotative cu poziționare repetabilă"
     ],
     certifications: ["ISO 9001 — management al calității", "ISO 14001 — management de mediu"],
-    infinitrade: `Nu păstrăm stoc propriu de motoare Oriental Motor — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de mișcare dorită (poziționare sau rotație continuă), cuplul necesar, viteza de lucru și dacă aplicația cere feedback de poziție prin encoder. Fără date proprii de stoc pentru această gamă, verificăm disponibilitatea la fiecare cerere înainte de a confirma un termen ferm. Informațiile tehnice generale provin din site-ul producătorului, accesat în această sesiune de lucru, iar pentru dimensionarea exactă a motorului recomandăm o discuție tehnică prealabilă.`,
+    infinitrade: `Nu păstrăm stoc propriu de motoare Oriental Motor — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de mișcare dorită (poziționare sau rotație continuă), cuplul necesar, viteza de lucru și dacă aplicația cere feedback de poziție prin encoder. Fără date proprii de stoc pentru această gamă, verificăm disponibilitatea la fiecare cerere înainte de a confirma un termen ferm. Informațiile tehnice generale provin din site-ul producătorului, accesat în această sesiune de lucru, iar pentru dimensionarea exactă a motorului recomandăm o discuție tehnică prealabilă.`,
     limitation: "Nu putem confirma anul fondării sau sediul central exact al companiei, pentru că nu au fost vizibile pe paginile accesate, și nu oferim programarea controlerelor motoarelor ca serviciu.",
     productCodes: [
       {
@@ -948,7 +948,7 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
       },
       {
         "q": "Livrați motoare Oriental Motor în România la comandă?",
-        "a": "Da, aducem la comandă motoare și actuatoare din gamele αSTEP, PKP, BLV sau EAS/AR, în funcție de codul complet solicitat de client. Nu avem raft propriu pentru această gamă, iar termenul orientativ de aprovizionare publicat este de două până la șase săptămâni. Recomandăm transmiterea codului de pe eticheta motorului sau din documentația echipamentului existent."
+        "a": "Da, aducem la comandă motoare și actuatoare din gamele αSTEP, PKP, BLV sau EAS/AR, în funcție de codul complet solicitat de client. Nu avem raft propriu pentru această gamă, iar termenul orientativ de aprovizionare publicat este de două până la patru săptămâni. Recomandăm transmiterea codului de pe eticheta motorului sau din documentația echipamentului existent."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un actuator Oriental Motor?",
@@ -999,7 +999,7 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
       "Silvicultură — echipament de protecție pentru lucrul cu unelte tăioase",
       "Industria chimică — mănuși și protecție respiratorie rezistente chimic"
     ],
-    infinitrade: `Aducem echipament uvex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru cantități mai mari decât stocul curent al distribuitorilor locali. Pentru o ofertă corectă avem nevoie de mărimile necesare, clasele de protecție cerute (de exemplu FFP2 sau S3) și numărul de bucăți per categorie de echipament. Nu depăstrăm stoc propriu pentru toată gama și nu promitem disponibilitate permanentă pe fiecare mărime — verificăm punctual înainte de confirmare. Datele despre produse provin din surse publice ale producătorului, accesate în această sesiune de lucru.`,
+    infinitrade: `Aducem echipament uvex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru cantități mai mari decât stocul curent al distribuitorilor locali. Pentru o ofertă corectă avem nevoie de mărimile necesare, clasele de protecție cerute (de exemplu FFP2 sau S3) și numărul de bucăți per categorie de echipament. Nu depăstrăm stoc propriu pentru toată gama și nu promitem disponibilitate permanentă pe fiecare mărime — verificăm punctual înainte de confirmare. Datele despre produse provin din surse publice ale producătorului, accesate în această sesiune de lucru.`,
     limitation: "Nu putem confirma toate certificările specifice fiecărui produs fără fișa tehnică individuală și nu oferim personalizare cu însemne proprii ca serviciu direct.",
     productCodes: [
       {
@@ -1050,7 +1050,7 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
       },
       {
         "q": "Livrați echipamente de protecție uvex în România?",
-        "a": "Da, aducem la comandă ochelari, mănuși și încălțăminte de protecție din gama uvex, pornind de la codul sau denumirea exactă a produsului. Nu ținem această gamă pe raft, iar orientarea de disponibilitate publicată de producător este de aproximativ două până la șase săptămâni. Recomandăm precizarea mărimii și a standardului de protecție cerut de fișa postului."
+        "a": "Da, aducem la comandă ochelari, mănuși și încălțăminte de protecție din gama uvex, pornind de la codul sau denumirea exactă a produsului. Nu ținem această gamă pe raft, iar orientarea de disponibilitate publicată de producător este de aproximativ două până la patru săptămâni. Recomandăm precizarea mărimii și a standardului de protecție cerut de fișa postului."
       },
       {
         "q": "Ce trebuie să precizez pentru o comandă de mănuși uvex phynomic?",
@@ -1101,7 +1101,7 @@ Pentru laboratoarele de proiectare electronică și centrele de testare din Rom�
       "Automotive — validare de electronică de putere și sisteme de încărcare EV",
       "Centre de date — testare de infrastructură de rețea de mare viteză"
     ],
-    infinitrade: `Nu păstrăm stoc propriu de osciloscoape Keysight — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de banda de frecvență necesară, numărul de canale (analogice și digitale) și dacă aplicația cere funcții suplimentare precum analiza de protocol. Informația de disponibilitate depinde de producător la momentul comenzii — surse indisponibile pentru stoc local nu ne permit să promitem un termen mai scurt decât cel orientativ. Parametrii tehnici din acest text provin din site-ul producătorului, verificat în această sesiune de lucru.`,
+    infinitrade: `Nu păstrăm stoc propriu de osciloscoape Keysight — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de banda de frecvență necesară, numărul de canale (analogice și digitale) și dacă aplicația cere funcții suplimentare precum analiza de protocol. Informația de disponibilitate depinde de producător la momentul comenzii — surse indisponibile pentru stoc local nu ne permit să promitem un termen mai scurt decât cel orientativ. Parametrii tehnici din acest text provin din site-ul producătorului, verificat în această sesiune de lucru.`,
     limitation: "Nu putem confirma configurația software exactă (licențe, opțiuni de analiză) fără o discuție tehnică prealabilă și nu oferim calibrare metrologică ca serviciu propriu.",
     productCodes: [
       {
@@ -1223,7 +1223,7 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
       "Electronică — senzori optici miniaturali pentru piese mici",
       "Prelucrarea metalelor — senzori inelari pentru piese cilindrice pe linie"
     ],
-    infinitrade: `Aducem senzori di-soric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de tipul de material detectat, distanța de detecție necesară și tipul de montaj (pe linie, în tub sau pe ghidaj). Nu deținem produse pe stoc propriu pentru această gamă și nu promitem o cantitate disponibilă imediat — verificăm la fiecare cerere înainte de confirmare. Informațiile tehnice din acest text provin din site-ul producătorului, accesat în această sesiune, iar pentru un caz special de montaj recomandăm discutarea aplicației exacte înainte de a alege modelul.`,
+    infinitrade: `Aducem senzori di-soric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de tipul de material detectat, distanța de detecție necesară și tipul de montaj (pe linie, în tub sau pe ghidaj). Nu deținem produse pe stoc propriu pentru această gamă și nu promitem o cantitate disponibilă imediat — verificăm la fiecare cerere înainte de confirmare. Informațiile tehnice din acest text provin din site-ul producătorului, accesat în această sesiune, iar pentru un caz special de montaj recomandăm discutarea aplicației exacte înainte de a alege modelul.`,
     limitation: "Nu putem confirma compatibilitatea electrică exactă cu un controler existent fără fișa tehnică a instalației și nu oferim programarea software-ului de viziune ca serviciu separat.",
     productCodes: [
       {
@@ -1286,7 +1286,7 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
       },
       {
         "q": "Livrați senzori di-soric în România la comandă?",
-        "a": "Da, aducem la comandă senzori inductivi, optici, capacitivi și cu ultrasunete din gama di-soric, pe baza codului exact al produsului. Nu ținem această gamă pe raft, iar termenul orientativ publicat de producător este de două până la șase săptămâni. Recomandăm transmiterea codului complet de pe eticheta senzorului existent pentru identificare corectă."
+        "a": "Da, aducem la comandă senzori inductivi, optici, capacitivi și cu ultrasunete din gama di-soric, pe baza codului exact al produsului. Nu ținem această gamă pe raft, iar termenul orientativ publicat de producător este de două până la patru săptămâni. Recomandăm transmiterea codului complet de pe eticheta senzorului existent pentru identificare corectă."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un senzor di-soric?",
@@ -1339,7 +1339,7 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       "Piscine și SPA industriale sau hoteliere — dozare automată de chimicale"
     ],
     certifications: ["ISO 9001:2015 — pentru operațiunile de service ale entității din România"],
-    infinitrade: `Furnizăm instrumente Hanna Instruments prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru echipamentele care depășesc stocul curent al entității din România. Pentru o ofertă corectă avem nevoie de parametrii de măsurat, domeniul de valori necesar și dacă instrumentul va fi folosit pe teren sau montat permanent în proces. Surse publice ale producătorului confirmă gama de produse și prezența locală din 2006, dar nu avem date proprii despre stocul exact disponibil la un moment dat — verificăm punctual la fiecare cerere. Datele din acest text au fost verificate direct pe site-ul entității din România.`,
+    infinitrade: `Furnizăm instrumente Hanna Instruments prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru echipamentele care depășesc stocul curent al entității din România. Pentru o ofertă corectă avem nevoie de parametrii de măsurat, domeniul de valori necesar și dacă instrumentul va fi folosit pe teren sau montat permanent în proces. Surse publice ale producătorului confirmă gama de produse și prezența locală din 2006, dar nu avem date proprii despre stocul exact disponibil la un moment dat — verificăm punctual la fiecare cerere. Datele din acest text au fost verificate direct pe site-ul entității din România.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unui model specific fără verificare punctuală și nu oferim calibrare metrologică acreditată ca serviciu propriu.",
     productCodes: [
       {
@@ -1394,7 +1394,7 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       },
       {
         "q": "Livrați instrumente Hanna Instruments în România la comandă?",
-        "a": "Da, aducem la comandă pH-metre, multiparametre și controlere de piscină din gama Hanna Instruments, pe baza codului exact solicitat. Nu avem raft propriu pentru această gamă, iar orientarea publică de disponibilitate este de aproximativ două până la șase săptămâni. Recomandăm precizarea codului complet și a electrodului dorit pentru compatibilitate corectă."
+        "a": "Da, aducem la comandă pH-metre, multiparametre și controlere de piscină din gama Hanna Instruments, pe baza codului exact solicitat. Nu avem raft propriu pentru această gamă, iar orientarea publică de disponibilitate este de aproximativ două până la patru săptămâni. Recomandăm precizarea codului complet și a electrodului dorit pentru compatibilitate corectă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă la un controler de piscină Hanna?",
@@ -1445,7 +1445,7 @@ Pentru fabricile din România cu tablouri electrice, dulapuri de automatizare sa
       "Electronică — răcire directă a componentelor și surselor de alimentare",
       "Instalații cu spațiu de montaj limitat — suflante tangențiale pentru uscare și climatizare"
     ],
-    infinitrade: `Aducem ventilatoare ebm-papst la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de debitul de aer necesar, presiunea statică a sistemului, spațiul de montaj disponibil și dacă preferați tehnologie AC sau EC. Informația a fost verificată pe site-ul producătorului, dar sursa e limitată în privința parametrilor tehnici exacți per model — pentru un debit sau o presiune precisă recomandăm confirmarea directă pe fișa tehnică a modelului ales înainte de comandă. Nu păstrăm stoc propriu și nu promitem o cantitate disponibilă imediat pentru fiecare dimensiune din gamă.`,
+    infinitrade: `Aducem ventilatoare ebm-papst la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de debitul de aer necesar, presiunea statică a sistemului, spațiul de montaj disponibil și dacă preferați tehnologie AC sau EC. Informația a fost verificată pe site-ul producătorului, dar sursa e limitată în privința parametrilor tehnici exacți per model — pentru un debit sau o presiune precisă recomandăm confirmarea directă pe fișa tehnică a modelului ales înainte de comandă. Nu păstrăm stoc propriu și nu promitem o cantitate disponibilă imediat pentru fiecare dimensiune din gamă.`,
     limitation: "Nu putem confirma orașul exact al sediului central sau certificările specifice ale companiei, pentru că nu au fost vizibile pe paginile accesate în această sesiune.",
     productCodes: [
       {
@@ -1524,7 +1524,7 @@ Pentru fabricile din România cu tablouri electrice, dulapuri de automatizare sa
       },
       {
         "q": "Livrați ventilatoare ebm-papst în România?",
-        "a": "Ventilatoarele și motoarele ebm-papst se aduc la comandă, termenul uzual fiind de 2–6 săptămâni de la confirmare, iar această gamă nu este ținută pe raft, din cauza numărului mare de combinații de dimensiune și tensiune existente."
+        "a": "Ventilatoarele și motoarele ebm-papst se aduc la comandă, termenul uzual fiind de 2–4 săptămâni de la confirmare, iar această gamă nu este ținută pe raft, din cauza numărului mare de combinații de dimensiune și tensiune existente."
       },
       {
         "q": "Ce rol are un motor EC cu rotor exterior în ventilatoarele ebm-papst?",

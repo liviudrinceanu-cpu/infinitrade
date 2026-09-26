@@ -68,7 +68,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de echipamente de protecție și cât durează livrarea?",
-        "a": "Riscul specific identificat, numărul de persoane și mărimile necesare. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător, uneori mai rapidă pentru echipamentele de bază disponibile la mai mulți producători."
+        "a": "Riscul specific identificat, numărul de persoane și mărimile necesare. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, uneori mai rapidă pentru echipamentele de bază disponibile la mai mulți producători."
       },
       {
         "q": "Cum se știe când trebuie înlocuit un echipament de protecție respiratorie?",
@@ -142,7 +142,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de echipament de curățenie industrială și cât durează livrarea?",
-        "a": "Sunt necesare tipul de reziduu de curățat, suprafața sau volumul aproximativ și dacă există risc de pulberi combustibile. Livrarea depinde de model și de producător, orientativ 2-6 săptămâni, calculată de la data comenzii."
+        "a": "Sunt necesare tipul de reziduu de curățat, suprafața sau volumul aproximativ și dacă există risc de pulberi combustibile. Livrarea depinde de model și de producător, orientativ 2-4 săptămâni, calculată de la data comenzii."
       },
       {
         "q": "Ce întreținere cere un aspirator industrial folosit zilnic?",
@@ -214,7 +214,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trimiteți pentru o ofertă de sistem de dozare și cât durează livrarea?",
-        "a": "Sunt necesare substanța dozată, debitul necesar, modul de control dorit și volumul de rezervor preferat. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător, mai rapidă pentru configurațiile standard cu pompă și rezervor separate montate pe cadru."
+        "a": "Sunt necesare substanța dozată, debitul necesar, modul de control dorit și volumul de rezervor preferat. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, mai rapidă pentru configurațiile standard cu pompă și rezervor separate montate pe cadru."
       },
       {
         "q": "Poate fi integrat un sistem de dozare cu un senzor de pH sau clor existent?",
@@ -288,7 +288,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de rezervoare industriale?",
-        "a": "Produsul stocat, capacitatea dorită, forma preferată și eventualele cerințe legale aplicabile sunt datele esențiale pentru o ofertă corectă; accesoriile dorite se menționează separat. La plasarea comenzii se confirmă și termenul de livrare, orientativ 2-6 săptămâni, în funcție de producător și capacitate."
+        "a": "Produsul stocat, capacitatea dorită, forma preferată și eventualele cerințe legale aplicabile sunt datele esențiale pentru o ofertă corectă; accesoriile dorite se menționează separat. La plasarea comenzii se confirmă și termenul de livrare, orientativ 2-4 săptămâni, în funcție de producător și capacitate."
       },
       {
         "q": "Ce trebuie verificat înainte de a stoca un produs chimic nou în rezervoare industriale existente?",
@@ -362,7 +362,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de agitatoare industriale și cât durează livrarea?",
-        "a": "Sunt necesare volumul rezervorului, fluidul procesat, scopul agitării și tipul de montaj dorit. Termenul de livrare pentru agitatoare industriale este la comandă, orientativ 2-6 săptămâni, în funcție de configurația axului și a paletelor alese pentru aplicație."
+        "a": "Sunt necesare volumul rezervorului, fluidul procesat, scopul agitării și tipul de montaj dorit. Termenul de livrare pentru agitatoare industriale este la comandă, orientativ 2-4 săptămâni, în funcție de configurația axului și a paletelor alese pentru aplicație."
       },
       {
         "q": "Ce întreținere are nevoie un agitator industrial montat pe un rezervor deschis?",
@@ -435,7 +435,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de echipamente de laborator și cât durează livrarea?",
-        "a": "Sunt necesare tipul de măsurătoare sau test, domeniul de măsurare și precizia cerută. Livrarea se confirmă la comandă, orientativ 2-6 săptămâni, în funcție de producător, iar pentru acest tip numărul de branduri disponibile este redus, cererile fiind tratate individual."
+        "a": "Sunt necesare tipul de măsurătoare sau test, domeniul de măsurare și precizia cerută. Livrarea se confirmă la comandă, orientativ 2-4 săptămâni, în funcție de producător, iar pentru acest tip numărul de branduri disponibile este redus, cererile fiind tratate individual."
       },
       {
         "q": "Cât de des trebuie calibrate echipamentele de laborator industrial?",

@@ -27,7 +27,7 @@ Pentru un inginer de proiect din România, Swagelok înseamnă piese compatibile
       "Energie și hidrogen — linii de combustibil și alimentare cu gaz",
       "Industria alimentară — transfer de fluide în circuite igienice"
     ],
-    infinitrade: `Furnizăm fitinguri de tub, robineți și regulatoare Swagelok pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă și nu promitem disponibilitate imediată pentru fiecare cod. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, în funcție de confirmarea distribuției europene. Pentru o ofertă corectă avem nevoie de codul exact al fitingului sau robinetului, diametrul de tub, materialul și presiunea de lucru; la regulatoare, și domeniul de reglaj dorit. Nu confirmăm compatibilitatea cu fitinguri de la alți producători fără specificația completă din partea clientului.`,
+    infinitrade: `Furnizăm fitinguri de tub, robineți și regulatoare Swagelok pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă și nu promitem disponibilitate imediată pentru fiecare cod. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, în funcție de confirmarea distribuției europene. Pentru o ofertă corectă avem nevoie de codul exact al fitingului sau robinetului, diametrul de tub, materialul și presiunea de lucru; la regulatoare, și domeniul de reglaj dorit. Nu confirmăm compatibilitatea cu fitinguri de la alți producători fără specificația completă din partea clientului.`,
     limitation: "Nu putem confirma disponibilitatea fiecărui cod din catalogul Swagelok fără o interogare punctuală la furnizorul european.",
     productCodes: [
       { code: "VCR", description: "Fiting cu garnitură metalică pentru etanșare de puritate ridicată" },
@@ -54,7 +54,7 @@ Pentru un inginer de proiect din România, Swagelok înseamnă piese compatibile
     faq: [
       { q: "Ce produce Swagelok?", a: "Swagelok fabrică fitinguri de tub, robineți, regulatoare de presiune și furtunuri pentru sisteme fluidice industriale și de laborator. Gama acoperă de la instrumentație de proces obișnuită până la linii de vid sau de puritate ridicată pentru semiconductori. Noi putem oferta din catalogul curent, pe bază de cod exact." },
       { q: "Cum aleg fitingul Swagelok corect după cod?", a: "Aveți nevoie de codul complet de pe fiting sau ambalaj, diametrul de tub în inch sau mm și materialul — inox, alamă sau oțel carbon. Trimiteți-ne aceste date sau o fotografie clară a marcajului, iar noi identificăm referința exactă din catalog înainte de a face oferta." },
-      { q: "Livrați produse Swagelok în România și cât durează?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, în funcție de disponibilitatea la distribuitorul european și de complexitatea comenzii. Pentru coduri uzuale din gama de fitinguri, termenul poate fi mai scurt." },
+      { q: "Livrați produse Swagelok în România și cât durează?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, în funcție de disponibilitatea la distribuitorul european și de complexitatea comenzii. Pentru coduri uzuale din gama de fitinguri, termenul poate fi mai scurt." },
       { q: "Ce trebuie să trimit pentru o ofertă de robinet cu ac?", a: "Trimiteți seria dorită, de exemplu Sno-Trik, diametrul de conexiune, presiunea maximă de lucru și fluidul vehiculat. Dacă aveți deja un robinet montat, o fotografie a marcajului de pe corp ne ajută să confirmăm codul exact fără ambiguitate." }
     ],
     evidenceClass: "market-signal-intl",
@@ -91,7 +91,7 @@ Pentru instalații din rafinării, platforme sau linii chimice unde spațiul de 
       "Petrol și gaze — linii de gaz comprimat de mare presiune",
       "Combustibili alternativi — echipamente de testare și panouri OEM"
     ],
-    infinitrade: `Aducem robineți și fitinguri Hoke prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem această gamă pe raft, ci o comandăm punctual pentru fiecare proiect. Termenul orientativ e de 2–6 săptămâni, în funcție de confirmarea disponibilității la nivel european pentru codul cerut. Pentru ofertă avem nevoie de codul exact de pe fiting sau robinet, diametrul liniei, materialul și presiunea maximă de lucru. La sistemele CT76 precizați și dacă e nevoie de varianta cu transmițător digital, ca să evităm o configurație incompletă la livrare.`,
+    infinitrade: `Aducem robineți și fitinguri Hoke prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem această gamă pe raft, ci o comandăm punctual pentru fiecare proiect. Termenul orientativ e de 2–4 săptămâni, în funcție de confirmarea disponibilității la nivel european pentru codul cerut. Pentru ofertă avem nevoie de codul exact de pe fiting sau robinet, diametrul liniei, materialul și presiunea maximă de lucru. La sistemele CT76 precizați și dacă e nevoie de varianta cu transmițător digital, ca să evităm o configurație incompletă la livrare.`,
     limitation: "Nu putem confirma echivalența directă între codurile Hoke și cele ale altor producători de instrumentație fără specificația tehnică completă a clientului.",
     productCodes: [
       { code: "Gyrolok", description: "Fiting de tub cu compresie, presiune standard de proces" },
@@ -114,7 +114,7 @@ Pentru instalații din rafinării, platforme sau linii chimice unde spațiul de 
     faq: [
       { q: "Ce fabrică Hoke?", a: "Hoke produce robineți cu bilă, cu ac și de măsurare, plus fitinguri de tub tip compresie pentru instrumentație de diametru mic, sub eticheta Crane Instrumentation & Sampling. Gama țintește panouri de proces, linii de eșantionare și echipamente de testare la presiuni ridicate." },
       { q: "Ce este seria Gyrolok de la Hoke?", a: "Gyrolok e sistemul de fitinguri cu compresie pentru tuburi metalice de diametru mic, cu variantă standard și variantă MP care ajunge la 15.000 psi. Se cere codul exact, diametrul de tub și materialul pentru identificarea corectă a piesei." },
-      { q: "Livrați robineți Hoke în România?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, în funcție de confirmarea codului cerut la nivel european. Nu ținem această gamă pe raft." },
+      { q: "Livrați robineți Hoke în România?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, în funcție de confirmarea codului cerut la nivel european. Nu ținem această gamă pe raft." },
       { q: "Ce trebuie să trimit pentru o ofertă de robinet CT76?", a: "Precizați configurația dorită — două sau trei căi, cu sau fără referință atmosferică — plus presiunea de lucru și dacă aveți nevoie de transmițătorul digital DMT 2000 integrat în sistem." }
     ],
     evidenceClass: "market-signal-intl",
@@ -152,7 +152,7 @@ Pentru instalatori și proiectanți din România, Conex Bänninger e relevant la
       "Energie solară termică — seria Press Solar",
       "Gaze medicale — fitinguri dedicate liniilor de spital"
     ],
-    infinitrade: `Aducem fitinguri Conex Bänninger la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — fără date proprii de stoc pe această gamă. Termenul orientativ e de 2–6 săptămâni, dependent de seria cerută și de disponibilitatea la distribuitorul european. Pentru ofertă avem nevoie de seria exactă (Press, MaxiPro sau ‹A› Press), diametrul fitingului, materialul de bază al țevii și aplicația — apă, gaz sau agent frigorific. Nu confirmăm compatibilitatea cu scule de presare de la alți producători fără specificația tehnică a clientului.`,
+    infinitrade: `Aducem fitinguri Conex Bänninger la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — fără date proprii de stoc pe această gamă. Termenul orientativ e de 2–4 săptămâni, dependent de seria cerută și de disponibilitatea la distribuitorul european. Pentru ofertă avem nevoie de seria exactă (Press, MaxiPro sau ‹A› Press), diametrul fitingului, materialul de bază al țevii și aplicația — apă, gaz sau agent frigorific. Nu confirmăm compatibilitatea cu scule de presare de la alți producători fără specificația tehnică a clientului.`,
     limitation: "Nu putem confirma disponibilitatea imediată a fiecărei variante de diametru din seria MaxiPro fără interogare punctuală la distribuitor.",
     productCodes: [
       { code: "B Press", description: "Fiting de presare standard pentru cupru" },
@@ -179,7 +179,7 @@ Pentru instalatori și proiectanți din România, Conex Bänninger e relevant la
     faq: [
       { q: "Ce fabrică Conex Bänninger?", a: "Conex Bänninger produce fitinguri de presare, lipire, filetate și cu compresie din cupru și inox, pentru instalații sanitare, de încălzire, climatizare și refrigerare. Marca >B< acoperă majoritatea seriilor, iar ‹A› Press e dedicată variantelor din inox." },
       { q: "Ce diferență e între seriile B Press și MaxiPro de la Conex Bänninger?", a: "B Press e sistemul general de presare pentru apă, gaz și încălzire, în timp ce MaxiPro e dedicat exclusiv climatizării și refrigerării, cu diametre de până la 2 1/8 inch pentru instalații comerciale." },
-      { q: "Livrați fitinguri Conex Bänninger în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, în funcție de seria și diametrul cerut. Această gamă nu stă pe raftul nostru — o aducem la comandă." },
+      { q: "Livrați fitinguri Conex Bänninger în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, în funcție de seria și diametrul cerut. Această gamă nu stă pe raftul nostru — o aducem la comandă." },
       { q: "Ce trebuie să precizez pentru o ofertă de fitinguri de presare?", a: "Seria exactă, diametrul fitingului, materialul țevii pe care se montează și aplicația — apă potabilă, gaz sau agent frigorific — ca să identificăm varianta corectă din catalog." }
     ],
     evidenceClass: "market-signal-intl",
@@ -215,7 +215,7 @@ Pentru operatorii de apă și antreprenorii din România, Krausz oferă o soluț
       "Antreprenori de infrastructură — intervenții rapide la avarii",
       "Operatori de utilități — mentenanță preventivă pe rețele vechi"
     ],
-    infinitrade: `Aducem cuplaje și coliere Krausz la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice de pe site-ul producătorului — fără stoc propriu pe această gamă. Termenul orientativ e de 2–6 săptămâni, mai scurt pentru diametrele curente din seria EZ-MAX. Pentru ofertă avem nevoie de diametrul exterior real al conductei (măsurat, nu doar cel nominal), materialul conductei și tipul intervenției — reparație punctuală sau conectare de tronson nou. La rețele cu istoricul materialului incert, recomandăm măsurarea directă înainte de comandă.`,
+    infinitrade: `Aducem cuplaje și coliere Krausz la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice de pe site-ul producătorului — fără stoc propriu pe această gamă. Termenul orientativ e de 2–4 săptămâni, mai scurt pentru diametrele curente din seria EZ-MAX. Pentru ofertă avem nevoie de diametrul exterior real al conductei (măsurat, nu doar cel nominal), materialul conductei și tipul intervenției — reparație punctuală sau conectare de tronson nou. La rețele cu istoricul materialului incert, recomandăm măsurarea directă înainte de comandă.`,
     limitation: "Nu putem confirma acoperirea exactă de diametru pentru fiecare variantă fără specificația tehnică a conductei existente pe teren.",
     productCodes: [
       { code: "HYMAX Coupling", description: "Cuplaj cu gamă largă de diametru pentru reparație" },
@@ -233,7 +233,7 @@ Pentru operatorii de apă și antreprenorii din România, Krausz oferă o soluț
     faq: [
       { q: "Ce produce Krausz Industries?", a: "Krausz Industries fabrică cuplaje și coliere de reparație pentru conducte de apă și apă uzată, sub mărcile HYMAX și EZ-MAX. Produsele acoperă un interval de diametre exterioare cu o singură referință, utile la rețele cu conducte de vârste diferite." },
       { q: "Cum aleg cuplajul HYMAX potrivit?", a: "Aveți nevoie de diametrul exterior real al conductei, măsurat pe teren, nu doar cel nominal din proiect, plus materialul conductei. Pe baza acestor date identificăm varianta din gama HYMAX care acoperă intervalul respectiv." },
-      { q: "Livrați produse Krausz Industries în România?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, mai scurt pentru diametrele curente din seria EZ-MAX. Nu ținem această gamă pe raft." },
+      { q: "Livrați produse Krausz Industries în România?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, mai scurt pentru diametrele curente din seria EZ-MAX. Nu ținem această gamă pe raft." },
       { q: "Ce echivalent are gama HYMAX față de alte cuplaje cu gamă largă?", a: "Din categoria cuplajelor cu gamă largă pentru apă, HYMAX se compară cu produse similare de la JCM Industries, diferența ținând de designul garniturii și de numărul exact de variante de diametru per produs." }
     ],
     evidenceClass: "market-signal-intl",
@@ -269,7 +269,7 @@ Pentru operatorii de rețele și antreprenorii din România, JCM oferă o soluț
       "Antreprenori de rețele — intervenții pe conducte de diametru neobișnuit",
       "Operatori de utilități — mentenanță pe conducte vechi din fontă"
     ],
-    infinitrade: `Aducem fitinguri JCM la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă foarte largă de diametre. Termenul orientativ e de 2–6 săptămâni, în funcție de diametru și de materialul conductei pe care se montează fitingul. Pentru ofertă avem nevoie de diametrul exterior real, materialul conductei (fontă, PVC, PEID sau oțel) și tipul intervenției — reparație, conectare sau bratanșament. La diametre neobișnuite recomandăm o măsurătoare directă înainte de a plasa comanda.`,
+    infinitrade: `Aducem fitinguri JCM la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă foarte largă de diametre. Termenul orientativ e de 2–4 săptămâni, în funcție de diametru și de materialul conductei pe care se montează fitingul. Pentru ofertă avem nevoie de diametrul exterior real, materialul conductei (fontă, PVC, PEID sau oțel) și tipul intervenției — reparație, conectare sau bratanșament. La diametre neobișnuite recomandăm o măsurătoare directă înainte de a plasa comanda.`,
     limitation: "Nu putem confirma disponibilitatea fiecărui model din gama inginerească la cerere fără o cerere tehnică punctuală la producător.",
     productCodes: [
       { code: "Model 101", description: "Colier universal cu bandă unică pentru reparație" },
@@ -296,7 +296,7 @@ Pentru operatorii de rețele și antreprenorii din România, JCM oferă o soluț
     faq: [
       { q: "Ce fabrică JCM Industries?", a: "JCM Industries produce coliere de reparație, cuplaje de conectare și șei de racordare pentru conducte de apă și apă uzată, pe diametre de la 1/2 inch la 144 inch și peste, în fontă, PVC, PEID sau oțel." },
       { q: "Cum aleg colierul de reparație JCM potrivit?", a: "Trimiteți diametrul exterior real al conductei, măsurat pe teren, materialul conductei și lungimea zonei deteriorate. Pe baza acestor date identificăm modelul din gama de coliere sau manșoane care acoperă intervalul respectiv." },
-      { q: "Livrați fitinguri JCM Industries în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, în funcție de diametru și material. Gama vine la comandă; nu o ținem pe raft." },
+      { q: "Livrați fitinguri JCM Industries în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, în funcție de diametru și material. Gama vine la comandă; nu o ținem pe raft." },
       { q: "Ce echivalent are gama JCM față de cuplajele Krausz?", a: "În categoria fitingurilor de reparație pentru apă, JCM se compară cu Krausz Industries; diferența ține de structura numerotării modelelor și de gama de fitinguri inginerești disponibile la cerere pentru diametre nestandard." }
     ],
     evidenceClass: "market-signal-intl",
@@ -336,7 +336,7 @@ Pentru proiectanții și instalatorii din România, Metraflex e util la clădiri
       "Protecție la incendiu — componente pentru rețele sub presiune"
     ],
     certifications: [ "UL — compensatoare pentru sisteme VRF certificate la 700 PSI/300°F" ],
-    infinitrade: `Furnizăm compensatoare și racorduri flexibile Metraflex pe baza informațiilor publice ale producătorului, aducându-le la comandă prin canale de aprovizionare din UE — fără stoc propriu pe această gamă. Termenul orientativ e de 2–6 săptămâni, în funcție de model și diametru. Pentru ofertă avem nevoie de modelul exact (de exemplu MetraLoop sau MetraGator), diametrul conductei, presiunea și temperatura de lucru. La sistemele VRF precizați și dacă e necesară certificarea UL, ca să confirmăm varianta potrivită din gamă.`,
+    infinitrade: `Furnizăm compensatoare și racorduri flexibile Metraflex pe baza informațiilor publice ale producătorului, aducându-le la comandă prin canale de aprovizionare din UE — fără stoc propriu pe această gamă. Termenul orientativ e de 2–4 săptămâni, în funcție de model și diametru. Pentru ofertă avem nevoie de modelul exact (de exemplu MetraLoop sau MetraGator), diametrul conductei, presiunea și temperatura de lucru. La sistemele VRF precizați și dacă e necesară certificarea UL, ca să confirmăm varianta potrivită din gamă.`,
     limitation: "Nu putem confirma disponibilitatea imediată a fiecărui model din cele peste o sută de referințe listate în catalogul Metraflex.",
     productCodes: [
       { code: "MetraLoop", description: "Racord flexibil din cupru pentru sisteme VRF" },
@@ -363,7 +363,7 @@ Pentru proiectanții și instalatorii din România, Metraflex e util la clădiri
     faq: [
       { q: "Ce produce Metraflex?", a: "Metraflex fabrică compensatoare de dilatare, racorduri flexibile pentru pompe și sisteme VRF, sorburi și robinete de reținere silențioase pentru instalații comerciale de conducte, din 1958, cu sediul lângă Chicago." },
       { q: "Ce este MetraLoop de la Metraflex?", a: "MetraLoop e un racord flexibil din cupru montat între unitatea exterioară a unui sistem VRF și rețeaua de distribuție a agentului frigorific, absorbind vibrația compresorului fără să transmită zgomot în structura clădirii." },
-      { q: "Livrați produse Metraflex în România?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, în funcție de model și diametru. Nu ținem această gamă pe raft." },
+      { q: "Livrați produse Metraflex în România?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, în funcție de model și diametru. Nu ținem această gamă pe raft." },
       { q: "Ce trebuie să trimit pentru o ofertă de compensator Metraflex?", a: "Modelul dorit, diametrul conductei, presiunea și temperatura maximă de lucru, plus tipul de mișcare pe care trebuie să o absoarbă compensatorul — axială, laterală sau seismică." }
     ],
     evidenceClass: "market-signal-intl",
@@ -401,7 +401,7 @@ Pentru operatorii de stații de epurare și instalatorii din România, Proco e r
       "Chimie — compensatoare din PTFE pentru fluide agresive",
       "Marina și instalații industriale — furtunuri flexibile din inox"
     ],
-    infinitrade: `Aducem compensatoare și robinete de reținere Proco la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice de pe site-ul producătorului — fără date proprii de stoc pe această gamă. Termenul orientativ e de 2–6 săptămâni, în funcție de stilul și materialul cerut. Pentru ofertă avem nevoie de stilul exact (de exemplu ProFlex 710 sau seria 230), diametrul conexiunii, presiunea de lucru și fluidul vehiculat, mai ales dacă e vorba de un mediu chimic agresiv care cere varianta din PTFE.`,
+    infinitrade: `Aducem compensatoare și robinete de reținere Proco la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice de pe site-ul producătorului — fără date proprii de stoc pe această gamă. Termenul orientativ e de 2–4 săptămâni, în funcție de stilul și materialul cerut. Pentru ofertă avem nevoie de stilul exact (de exemplu ProFlex 710 sau seria 230), diametrul conexiunii, presiunea de lucru și fluidul vehiculat, mai ales dacă e vorba de un mediu chimic agresiv care cere varianta din PTFE.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a unui compensator cu un fluid specific fără fișa tehnică de material trimisă de client.",
     productCodes: [
       { code: "ProFlex 710", description: "Robinet de reținere duckbill flanșat" },
@@ -426,7 +426,7 @@ Pentru operatorii de stații de epurare și instalatorii din România, Proco e r
     faq: [
       { q: "Ce produce Proco Products?", a: "Proco Products fabrică robinete de reținere duckbill din cauciuc, fără piese mobile, și compensatoare de dilatare din cauciuc, inox sau PTFE, pentru instalații de apă, epurare și proces industrial." },
       { q: "Cum funcționează robinetul de reținere ProFlex?", a: "Corpul de cauciuc se deschide sub presiunea fluidului care curge și se închide singur prin elasticitatea proprie, fără arc sau clapetă articulată. Nu are piese mobile care să se poată bloca sau uza mecanic." },
-      { q: "Livrați produse Proco Products în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, în funcție de stilul și materialul cerut. Nu păstrăm pe raft repere din această gamă; le aducem la cerere." },
+      { q: "Livrați produse Proco Products în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, în funcție de stilul și materialul cerut. Nu păstrăm pe raft repere din această gamă; le aducem la cerere." },
       { q: "Ce trebuie să trimit pentru o ofertă de compensator din cauciuc?", a: "Diametrul conexiunii, presiunea și temperatura maximă de lucru, fluidul vehiculat și tipul de mișcare de absorbit — axială, laterală sau torsională — ca să identificăm seria potrivită." }
     ],
     evidenceClass: "market-signal-intl",
@@ -464,7 +464,7 @@ Pentru integratori și proiectanți din România care lucrează la instalații d
       "Medical — bobine de răcire și asamblări speciale",
       "Industrie generală — furtunuri corugate și burdufuri de compensare"
     ],
-    infinitrade: `Aducem componente Senior Flexonics la comandă, din surse publice ale producătorului, fără date proprii de stoc pe acest brand, întrucât fiecare piesă e proiectată pe specificația proiectului, nu cumpărată dintr-un catalog standard. Termenul depinde de complexitatea proiectării și poate depăși intervalul orientativ de 2–6 săptămâni valabil pentru produse de catalog. Pentru o discuție inițială avem nevoie de desenul tehnic sau parametrii aplicației — presiune, temperatură, fluid vehiculat și spațiul de montaj disponibil — pe care le transmitem mai departe producătorului pentru o evaluare de fezabilitate.`,
+    infinitrade: `Aducem componente Senior Flexonics la comandă, din surse publice ale producătorului, fără date proprii de stoc pe acest brand, întrucât fiecare piesă e proiectată pe specificația proiectului, nu cumpărată dintr-un catalog standard. Termenul depinde de complexitatea proiectării și poate depăși intervalul orientativ de 2–4 săptămâni valabil pentru produse de catalog. Pentru o discuție inițială avem nevoie de desenul tehnic sau parametrii aplicației — presiune, temperatură, fluid vehiculat și spațiul de montaj disponibil — pe care le transmitem mai departe producătorului pentru o evaluare de fezabilitate.`,
     limitation: "Nu putem oferi un termen de livrare fix înainte de finalizarea proiectării, întrucât fiecare componentă Senior Flexonics e realizată pe specificație individuală.",
     productCodes: [
       { code: "EGR Cooler", description: "Schimbător de căldură pentru recircularea gazelor de eșapament" },
@@ -486,7 +486,7 @@ Pentru integratori și proiectanți din România care lucrează la instalații d
       { q: "Ce produce Senior Flexonics?", a: "Senior Flexonics fabrică burdufuri metalice, furtunuri corugate și schimbătoare de căldură pentru gestiune termică, proiectate pe specificația clientului, pentru auto, energie, hidrogen și aplicații industriale, ca parte a grupului Senior plc." },
       { q: "Livrează Senior Flexonics produse standard de catalog?", a: "Nu, majoritatea componentelor sunt proiectate și fabricate pe specificația fiecărui proiect, nu vândute ca model fix de catalog. Termenul de livrare depinde de faza de proiectare, care se stabilește după evaluarea cerinței tehnice." },
       { q: "Ce trebuie să trimit pentru o cerere de ofertă Senior Flexonics?", a: "Desenul tehnic, dacă există, sau parametrii aplicației — presiune, temperatură, fluid vehiculat și spațiul disponibil de montaj — astfel încât producătorul să poată evalua fezabilitatea proiectării componentei." },
-      { q: "Puteți aduce componente Senior Flexonics în România?", a: "Da, transmitem cererea către canalele de aprovizionare din UE, dar termenul nu se încadrează întotdeauna în intervalul orientativ de 2–6 săptămâni valabil pentru produse standard, din cauza etapei de proiectare individuală." }
+      { q: "Puteți aduce componente Senior Flexonics în România?", a: "Da, transmitem cererea către canalele de aprovizionare din UE, dar termenul nu se încadrează întotdeauna în intervalul orientativ de 2–4 săptămâni valabil pentru produse standard, din cauza etapei de proiectare individuală." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
@@ -522,7 +522,7 @@ Pentru instalațiile industriale din România cu bucle de automatizare pe presiu
       "Energie — robinete de control pentru circuite termice",
       "Apă și epurare — reglaj de debit pe stații de tratare"
     ],
-    infinitrade: `Aducem robinete de control și accesorii KOSO la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — fără stoc propriu pe această gamă de automatizare. Termenul orientativ e de 2–6 săptămâni, mai lung pentru configurațiile complete robinet-actuator-poziționer care necesită confirmare tehnică de la producător. Pentru ofertă avem nevoie de tipul de robinet, diametrul liniei, presiunea de lucru, tipul de semnal de comandă disponibil și dacă instalația se află într-o zonă cu risc de explozie.`,
+    infinitrade: `Aducem robinete de control și accesorii KOSO la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — fără stoc propriu pe această gamă de automatizare. Termenul orientativ e de 2–4 săptămâni, mai lung pentru configurațiile complete robinet-actuator-poziționer care necesită confirmare tehnică de la producător. Pentru ofertă avem nevoie de tipul de robinet, diametrul liniei, presiunea de lucru, tipul de semnal de comandă disponibil și dacă instalația se află într-o zonă cu risc de explozie.`,
     limitation: "Nu putem confirma compatibilitatea unui poziționer KOSO cu un sistem de automatizare existent de la alt producător fără specificația completă a buclei de control.",
     productCodes: [
       { code: "Model 500M", description: "Robinet de control tip glob" },
@@ -546,7 +546,7 @@ Pentru instalațiile industriale din România cu bucle de automatizare pe presiu
     faq: [
       { q: "Ce produce grupul KOSO?", a: "KOSO fabrică robinete de control tip glob, sertar, bilă și fluture, complet echipate cu actuatoare și poziționere pentru automatizarea proceselor industriale, cu sediul în Tokyo și producție distribuită în mai multe regiuni." },
       { q: "Ce diferență e între poziționerele KGP5000 și KGP2000 de la KOSO?", a: "KGP5000 e certificat pentru protecție antiexplozivă, iar KGP2000 folosește principiul siguranței intrinseci; alegerea depinde de clasificarea zonei cu risc de explozie din instalația unde se montează robinetul." },
-      { q: "Livrați robinete KOSO în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, mai lung pentru configurațiile complete cu actuator și poziționer care necesită confirmare tehnică." },
+      { q: "Livrați robinete KOSO în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, mai lung pentru configurațiile complete cu actuator și poziționer care necesită confirmare tehnică." },
       { q: "Ce trebuie să trimit pentru o ofertă de robinet de control KOSO?", a: "Tipul de robinet dorit, diametrul liniei, presiunea și temperatura de lucru, tipul de semnal de comandă disponibil (pneumatic sau electric) și clasificarea zonei, dacă instalația e cu risc de explozie." }
     ],
     evidenceClass: "market-signal-intl",
@@ -586,7 +586,7 @@ Pentru operatorii de apă și proiectanții din România, Val-Matic e relevant l
       "Mining și industrie grea — izolare pe conducte de diametru mare"
     ],
     certifications: [ "ISO 9001:2015 — management al calității pentru proiectare și fabricație" ],
-    infinitrade: `Aducem robinete Val-Matic la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă. Termenul orientativ e de 2–6 săptămâni, în funcție de diametru și de tipul robinetului cerut. Pentru ofertă avem nevoie de tipul de robinet (aerisire, reținere, bilă sau fluture), diametrul conductei, presiunea de lucru și, la robinetele de reținere, frecvența de pornire-oprire a pompei din amonte, ca să recomandăm varianta anti-lovitură de berbec potrivită.`,
+    infinitrade: `Aducem robinete Val-Matic la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă. Termenul orientativ e de 2–4 săptămâni, în funcție de diametru și de tipul robinetului cerut. Pentru ofertă avem nevoie de tipul de robinet (aerisire, reținere, bilă sau fluture), diametrul conductei, presiunea de lucru și, la robinetele de reținere, frecvența de pornire-oprire a pompei din amonte, ca să recomandăm varianta anti-lovitură de berbec potrivită.`,
     limitation: "Nu putem confirma compatibilitatea unui robinet Val-Matic cu un sistem de acționare de la alt producător fără specificația tehnică completă a instalației.",
     productCodes: [
       { code: "Swing Check", description: "Robinet de reținere cu clapetă articulată" },
@@ -607,7 +607,7 @@ Pentru operatorii de apă și proiectanții din România, Val-Matic e relevant l
     faq: [
       { q: "Ce produce Val-Matic?", a: "Val-Matic fabrică robinete de aerisire, de reținere, cu bilă și fluture pentru rețele municipale de apă și aplicații industriale, cu certificare ISO 9001:2015 și sediul lângă Chicago, din 1966." },
       { q: "Ce robinet Val-Matic previne lovitura de berbec la o stație de pompare?", a: "Gama de robinete de reținere Swing-Flex și Surgebuster e gândită special pentru închidere rapidă, înainte de inversarea completă a curgerii, reducând lovitura de berbec la pompele cu porniri și opriri frecvente." },
-      { q: "Livrați robinete Val-Matic în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, în funcție de diametru și tipul robinetului. Pentru această gamă lucrăm la comandă, fără raft propriu." },
+      { q: "Livrați robinete Val-Matic în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, în funcție de diametru și tipul robinetului. Pentru această gamă lucrăm la comandă, fără raft propriu." },
       { q: "Ce trebuie să trimit pentru o ofertă de robinet de reținere Val-Matic?", a: "Diametrul conductei, presiunea de lucru și frecvența de pornire-oprire a pompei din amonte, ca să recomandăm varianta anti-lovitură de berbec potrivită pentru aplicația dumneavoastră, plus materialul preferat al corpului." }
     ],
     evidenceClass: "market-signal-intl",
@@ -647,7 +647,7 @@ Pentru instalațiile petrochimice și industriale din România, Powell oferă o 
       "Producție de energie — robinete pentru circuite de proces termic"
     ],
     certifications: [ "ISO 9001 — management al calității pe toate unitățile de producție" ],
-    infinitrade: `Aducem robinete Powell la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă industrială. Termenul orientativ e de 2–6 săptămâni, mai lung pentru diametre mari sau variante cu sigiliu de presiune care necesită confirmare de fabricație. Pentru ofertă avem nevoie de tipul de robinet, standardul API aplicabil, diametrul, clasa de presiune și materialul cerut de specificația proiectului dumneavoastră.`,
+    infinitrade: `Aducem robinete Powell la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă industrială. Termenul orientativ e de 2–4 săptămâni, mai lung pentru diametre mari sau variante cu sigiliu de presiune care necesită confirmare de fabricație. Pentru ofertă avem nevoie de tipul de robinet, standardul API aplicabil, diametrul, clasa de presiune și materialul cerut de specificația proiectului dumneavoastră.`,
     limitation: "Nu putem confirma termenul de fabricație pentru variantele cu sigiliu de presiune sau criogenice fără o cerere tehnică punctuală la producător.",
     productCodes: [
       { code: "API 600 Cast Steel Gate Valve", description: "Robinet sertar din oțel turnat pentru presiune ridicată" },
@@ -668,7 +668,7 @@ Pentru instalațiile petrochimice și industriale din România, Powell oferă o 
     faq: [
       { q: "Ce produce Powell Valves?", a: "Powell Valves fabrică robinete sertar, glob, de reținere, fluture și cu bilă pentru instalații industriale și petrochimice, pe standarde API, cu certificare ISO 9001 și istoric de fabricație din 1846." },
       { q: "Ce înseamnă un robinet Powell conform API 600?", a: "API 600 e standardul pentru robinete sertar din oțel turnat destinate presiunilor și temperaturilor ridicate din rafinării; Powell oferă atât varianta standard, cât și varianta cu sigiliu de presiune pentru diametre mari." },
-      { q: "Livrați robinete Powell Valves în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–6 săptămâni, mai lung pentru diametre mari sau variante cu sigiliu de presiune. Reperele din gamă se aduc la comandă, nu de pe raft." },
+      { q: "Livrați robinete Powell Valves în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, mai lung pentru diametre mari sau variante cu sigiliu de presiune. Reperele din gamă se aduc la comandă, nu de pe raft." },
       { q: "Ce trebuie să trimit pentru o ofertă de robinet Powell?", a: "Tipul de robinet, standardul API aplicabil din specificația proiectului, diametrul, clasa de presiune și materialul cerut, plus temperatura de lucru dacă e vorba de o aplicație criogenică sau la temperatură ridicată." }
     ],
     evidenceClass: "market-signal-intl",

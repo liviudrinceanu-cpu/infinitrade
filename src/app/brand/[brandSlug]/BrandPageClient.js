@@ -10,6 +10,7 @@ import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { getBrandUpdatedDate } from '@/data/lastModified';
 import entityFacts from '@/data/entityFacts.json';
+import { CATEGORY_LEAD_TIME } from '@/data/leadTimes';
 import styles from './brand.module.css';
 
 
@@ -30,12 +31,13 @@ function firstSentence(text) {
 }
 
 const SOURCING_STATEMENT = entityFacts.boilerplate.find((b) => b.id === 'sourcing-statement')?.template
-  || 'Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 2–6 săptămâni.';
+  || 'Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 2–4 săptămâni din fabrică (execuțiile OEM sau personalizate pot dura mai mult, termenul exact îl confirmăm în ofertă).';
 const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
-const LEAD_TIME_TO_ORDER = entityFacts.leadTimePhrases?.[1] || '2–6 săptămâni la comandă';
 
 export default function BrandPageClient({ brand, relatedByCategory = {}, brandContent, seriesPages = [] }) {
-  const [heroRef, heroVisible] = useIntersectionObserver();
+  // v17: the hero is rendered visible (no scroll-reveal) — it is the LCP
+  // element, and hiding it until hydration pushed LCP past 2.5 s on mobile.
+  const [heroRef] = useIntersectionObserver();
   const [productsRef, productsVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
   const [addedAnimation, setAddedAnimation] = useState(null);
@@ -96,9 +98,7 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
               currentPage={brand.name}
               variant="light"
             />
-            <div
-              className={`animate-fade-up ${heroVisible ? 'is-visible' : ''}`}
-            >
+            <div>
 
               <h1 className={styles.heroTitle}>
                 {brand.name}
@@ -254,9 +254,11 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
         <section className={styles.aboutSection}>
           <div className={styles.container}>
             <h2 className={styles.richSectionTitle}>Cât durează livrarea la {brand.name}?</h2>
+            {/* v17 (D-2026-09-26): same three-tier wording as the category
+                pages (src/data/leadTimes.js, owner decision). */}
             <p className={styles.sectionLead}>
-              Pentru produsele {brand.name}, termenul orientativ este {LEAD_TIME_TO_ORDER} pentru
-              comenzi de fabrică, respectiv {LEAD_TIME_FROM_STOCK} pentru reperele aflate deja pe stoc.
+              Pentru produsele {brand.name}: {CATEGORY_LEAD_TIME.stock.charAt(0).toLowerCase() + CATEGORY_LEAD_TIME.stock.slice(1)}{' '}
+              {CATEGORY_LEAD_TIME.factory} {CATEGORY_LEAD_TIME.special}
             </p>
           </div>
         </section>
@@ -532,8 +534,8 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
                       <span className={styles.statLabel}>Branduri</span>
                     </div>
                     <div className={styles.statCard}>
-                      <span className={styles.statValue}>{category.stats?.products || '500+'}</span>
-                      <span className={styles.statLabel}>Produse</span>
+                      <span className={styles.statValue}>{(category.productTypes || []).length}</span>
+                      <span className={styles.statLabel}>Tipuri de produse</span>
                     </div>
                     <div className={styles.statCard}>
                       <span className={styles.statValue}>15+</span>

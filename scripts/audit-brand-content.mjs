@@ -101,7 +101,9 @@ const FORBIDDEN = [
 ];
 
 // Owner rule #6 — the only delivery/stock copy allowed without a stock.tsv row.
-const ALLOWED_LEADTIME = [/24\s*[–-]\s*72\s*h/i, /2\s*[–-]\s*6\s*săptămâni/i];
+// v17 (D-2026-09-26, owner): factory lead time 2–4 weeks; OEM / custom
+// execution may exceed 4 weeks (confirmed in the offer).
+const ALLOWED_LEADTIME = [/24\s*[–-]\s*72\s*h/i, /2\s*[–-]\s*4\s*săptămâni/i, /(depăși|peste)\s*4\s*săptămâni/i];
 const STOCK_CLAIM = /(stoc permanent|avem (în )?stoc|ținem (în )?stoc|stoc constant|livrare (în|din) (24|48)\s*h|disponibil imediat|livrăm în 24)/i;
 
 // Entity-consistency killer: the page speaks in the manufacturer's voice.
@@ -265,7 +267,7 @@ for (const [slug, c] of Object.entries(brandContent)) {
     const allowed = ALLOWED_LEADTIME.some((re) => re.test(s));
     const codeCited = [...s.matchAll(/\b[A-Z0-9][A-Z0-9./-]{4,}\b/g)].some((x) => stockCodes.has(x[0].toUpperCase()));
     if (!allowed && !(backed && codeCited)) {
-      report('B4', 'BLOCKER', slug, `stock/delivery promise not backed by stock.tsv and outside the allowed "24–72h din stoc / 2–6 săptămâni la comandă" copy: "${m[0]}"`, s.slice(Math.max(0, m.index - 60), m.index + 100).trim());
+      report('B4', 'BLOCKER', slug, `stock/delivery promise not backed by stock.tsv and outside the allowed "24–72h din stoc / 2–4 săptămâni la comandă" copy: "${m[0]}"`, s.slice(Math.max(0, m.index - 60), m.index + 100).trim());
     }
   }
 }

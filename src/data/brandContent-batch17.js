@@ -53,7 +53,7 @@ Corpurile se execută din oțel carbon, oțel inoxidabil austenitic sau aliaje s
       "TÜV — verificare independentă a presiunii de deschidere și a capacității de evacuare",
       "API 526 — conformitate dimensională a orificiilor pentru interschimbabilitate în rafinării"
     ],
-    infinitrade: "Punem la dispoziție supape de siguranță LESER pentru rafinării, platforme și fabrici de proces din România — seria compactă 441, seria Full Nozzle 459, seria convențională 526/527 și variantele pilotate — aduse la comandă prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pe fiecare model și ne bazăm pe informațiile publice disponibile ale producătorului atunci când recomandăm o variantă. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de deschidere dorită și fluidul vehiculat prin conductă. Accesoriile și seturile de etanșare pentru revizie sunt de regulă disponibile în 24–72 h, iar supapele configurate special, cu certificare TÜV sau ASME, ajung în 2–6 săptămâni la comandă.",
+    infinitrade: "Punem la dispoziție supape de siguranță LESER pentru rafinării, platforme și fabrici de proces din România — seria compactă 441, seria Full Nozzle 459, seria convențională 526/527 și variantele pilotate — aduse la comandă prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pe fiecare model și ne bazăm pe informațiile publice disponibile ale producătorului atunci când recomandăm o variantă. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de deschidere dorită și fluidul vehiculat prin conductă. Accesoriile și seturile de etanșare pentru revizie sunt de regulă disponibile în 24–72 h, iar supapele configurate special, cu certificare TÜV sau ASME, ajung în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma service în perioada de garanție a producătorului și nici teste de capacitate de evacuare pe standurile proprii LESER — acestea rămân în sarcina rețelei de service a fabricii.",
     sources: [
       {"title":"LESER Homepage","url":"https://www.leser.com/en/","publisher":"LESER","accessed":"2026-09-22"},
@@ -117,7 +117,7 @@ Corpurile se execută din oțel carbon, oțel inoxidabil austenitic sau aliaje s
       },
       {
         "q": "Livrați supape de siguranță LESER în România?",
-        "a": "Da, aducem la comandă supape de siguranță LESER pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de tip și de certificarea necesară. Recomandăm confirmarea presiunii de reglaj înainte de comandă."
+        "a": "Da, aducem la comandă supape de siguranță LESER pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de tip și de certificarea necesară. Recomandăm confirmarea presiunii de reglaj înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de supapă de siguranță LESER?",
@@ -185,7 +185,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
       "ATEX — variante certificate pentru zone cu risc de explozie",
       "TÜV — verificare independentă a componentelor critice de siguranță"
     ],
-    infinitrade: "Aducem echipamente GESTRA pentru gestionarea aburului și condensului — oale de condens cu plutitor și termodinamice, senzori de nivel NRG și sisteme de golire continuă și discontinuă — către centrale termice și fabrici de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii despre stocul fabricii și verificăm fiecare model potrivit în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a oalei compatibile, trimiteți-ne debitul de condens, presiunea de lucru și modelul montat deja pe conductă, dacă îl cunoașteți. Oalele de condens și piesele de uzură uzuale ajung de regulă în 24–72 h, iar sistemele de control de nivel sau de golire completă, în 2–6 săptămâni la comandă.",
+    infinitrade: "Aducem echipamente GESTRA pentru gestionarea aburului și condensului — oale de condens cu plutitor și termodinamice, senzori de nivel NRG și sisteme de golire continuă și discontinuă — către centrale termice și fabrici de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii despre stocul fabricii și verificăm fiecare model potrivit în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a oalei compatibile, trimiteți-ne debitul de condens, presiunea de lucru și modelul montat deja pe conductă, dacă îl cunoașteți. Oalele de condens și piesele de uzură uzuale ajung de regulă în 24–72 h, iar sistemele de control de nivel sau de golire completă, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma configurarea software a monitorizării digitale sau service în garanția producătorului — pentru acestea recomandăm contactarea rețelei GESTRA/Flowserve.",
     sources: [
       {"title":"Steam Traps | GESTRA | USA","url":"https://www.gestra.com/global/en-US/products/steam-traps","publisher":"GESTRA","accessed":"2026-09-23"},
@@ -245,7 +245,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
       },
       {
         "q": "Livrați oale de condens GESTRA în România?",
-        "a": "Da, aducem oalele de condens GESTRA la comandă, pornind strict de la paginile publice de produs ale producătorului; nu păstrăm o gamă proprie pe raft. În mod obișnuit durează 2-6 săptămâni la comandă, funcție de model și de presiunea de lucru specificată. Recomandăm confirmarea codului exact al seriei înainte de comandă."
+        "a": "Da, aducem oalele de condens GESTRA la comandă, pornind strict de la paginile publice de produs ale producătorului; nu păstrăm o gamă proprie pe raft. În mod obișnuit durează 2-4 săptămâni la comandă, funcție de model și de presiunea de lucru specificată. Recomandăm confirmarea codului exact al seriei înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de oală de condens GESTRA?",
@@ -308,7 +308,7 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       "EN 1074 / EN 1092 — conformitate dimensională și funcțională pentru armături de rețea",
       "Materiale certificate pentru contact cu apa potabilă conform normelor europene"
     ],
-    infinitrade: "Asigurăm accesul la armături VAG pentru operatorii de apă și canalizare din România — robinetul cu excentricitate dublă EKN, robineții de aerisire PICO, vanele fluture și clapetele de reținere — comandate prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, ne ghidăm după informațiile publice disponibile ale producătorului pentru fiecare diametru și presiune nominală. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de lucru (PN) și tipul de acoperire cerut în caietul de sarcini. Diametrele uzuale pentru branșamente sunt de regulă disponibile în 24–72 h, iar armăturile de diametre mari sau cu acționare specială ajung în 2–6 săptămâni la comandă.",
+    infinitrade: "Asigurăm accesul la armături VAG pentru operatorii de apă și canalizare din România — robinetul cu excentricitate dublă EKN, robineții de aerisire PICO, vanele fluture și clapetele de reținere — comandate prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, ne ghidăm după informațiile publice disponibile ale producătorului pentru fiecare diametru și presiune nominală. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de lucru (PN) și tipul de acoperire cerut în caietul de sarcini. Diametrele uzuale pentru branșamente sunt de regulă disponibile în 24–72 h, iar armăturile de diametre mari sau cu acționare specială ajung în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma o disponibilitate garantată pentru toate combinațiile de diametru și presiune din gama DN40–DN4000 — armăturile mari rămân, de regulă, produse la comandă.",
     sources: [
       {"title":"Products","url":"https://www.vag-group.com/en/products","publisher":"VAG","accessed":"2026-09-22"},
@@ -372,7 +372,7 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       },
       {
         "q": "Livrați vane și hidranți VAG în România?",
-        "a": "Da, aducem la comandă vane și hidranți VAG pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de diametrul nominal și de presiunea de lucru. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă vane și hidranți VAG pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de diametrul nominal și de presiunea de lucru. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de vană VAG?",
@@ -439,7 +439,7 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       "ISO 9001 — management al calității pentru proiectarea și producția robinetelor fluture și a actuatoarelor",
       "Materiale certificate pentru contact alimentar pe execuțiile dedicate industriei alimentare"
     ],
-    infinitrade: "Intermediem aprovizionarea cu robinete fluture, robinete cu bilă și actuatoare EBRO Armaturen pentru instalații de proces și sisteme HVAC industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma un nivel de stoc la fabrică pentru fiecare configurație și pornim de la sursele publice ale producătorului atunci când propunem un subansamblu robinet plus actuator. Pentru dimensionarea corectă, trimiteți-ne diametrul conductei, presiunea nominală și tipul de acționare dorit — manetă, pneumatic sau electric. Configurațiile standard, cu actuator pneumatic, sunt de regulă disponibile în 24–72 h, iar execuțiile cu inox integral, certificare alimentară sau ATEX ajung în 2–6 săptămâni la comandă.",
+    infinitrade: "Intermediem aprovizionarea cu robinete fluture, robinete cu bilă și actuatoare EBRO Armaturen pentru instalații de proces și sisteme HVAC industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma un nivel de stoc la fabrică pentru fiecare configurație și pornim de la sursele publice ale producătorului atunci când propunem un subansamblu robinet plus actuator. Pentru dimensionarea corectă, trimiteți-ne diametrul conductei, presiunea nominală și tipul de acționare dorit — manetă, pneumatic sau electric. Configurațiile standard, cu actuator pneumatic, sunt de regulă disponibile în 24–72 h, iar execuțiile cu inox integral, certificare alimentară sau ATEX ajung în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma service în garanția producătorului sau configurarea electronică a poziționerelor pe actuatoarele electrice — acestea rămân în sarcina rețelei tehnice EBRO.",
     sources: [
       {"title":"Products","url":"https://www.ebro-armaturen.com/en/products/","publisher":"EBRO Armaturen","accessed":"2026-09-22"},
@@ -539,7 +539,7 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "q": "Livrați robinete și vane EBRO Armaturen în România?",
-        "a": "Da, aducem la comandă robinete și vane EBRO Armaturen pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de diametrul nominal. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă robinete și vane EBRO Armaturen pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de diametrul nominal. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de robinet fluture EBRO?",
@@ -607,7 +607,7 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
       "FDA — materiale plastice aprobate pentru contact cu produse alimentare și farmaceutice",
       "ISO 14001 — management de mediu pentru fabricile de sisteme de conducte din plastic"
     ],
-    infinitrade: "Facilităm achiziția de sisteme de conducte, robineți și fitinguri GF Piping Systems — PVC-U, PP, PE și PVDF, robineți cu diafragmă și cu bilă, plus sistemul preizolat COOL-FIT — pentru stații de tratare a apei și instalații chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare diametru și verificăm compatibilitatea materialului în informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne fluidul vehiculat, presiunea și temperatura de lucru. Diametrele și fitingurile uzuale din PVC-U și PP sunt de regulă disponibile în 24–72 h, iar configurațiile cu robineți automatizați sau senzori Signet integrați ajung în 2–6 săptămâni la comandă.",
+    infinitrade: "Facilităm achiziția de sisteme de conducte, robineți și fitinguri GF Piping Systems — PVC-U, PP, PE și PVDF, robineți cu diafragmă și cu bilă, plus sistemul preizolat COOL-FIT — pentru stații de tratare a apei și instalații chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare diametru și verificăm compatibilitatea materialului în informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne fluidul vehiculat, presiunea și temperatura de lucru. Diametrele și fitingurile uzuale din PVC-U și PP sunt de regulă disponibile în 24–72 h, iar configurațiile cu robineți automatizați sau senzori Signet integrați ajung în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma o disponibilitate garantată pe întreaga gamă de diametre și materiale, nici service de sudură pe șantier — acestea rămân la latitudinea rețelei tehnice GF.",
     sources: [
       {"title":"Product catalogue Valves and Measurement Portfolio","url":"https://www.gfps.com/content/dam/gfps/com/product-ranges/en/gfps-00049-product-range-valves-and-measurement-en.pdf","publisher":"GF Piping Systems","accessed":"2026-09-23"},
@@ -707,7 +707,7 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
       },
       {
         "q": "Livrați robinete și instrumentație de proces Georg Fischer în România?",
-        "a": "Da, produsele Georg Fischer (GF Piping Systems) se aduc la comandă, respectând paginile publice ale producătorului, fără un stoc propriu constituit dinainte. Perioada tipică este de 2-6 săptămâni la comandă, în funcție de tipul robinetului, materialul dorit și acționarea aleasă. Recomandăm confirmarea tipului exact înainte de comandă."
+        "a": "Da, produsele Georg Fischer (GF Piping Systems) se aduc la comandă, respectând paginile publice ale producătorului, fără un stoc propriu constituit dinainte. Perioada tipică este de 2-4 săptămâni la comandă, în funcție de tipul robinetului, materialul dorit și acționarea aleasă. Recomandăm confirmarea tipului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de robinet Georg Fischer?",
@@ -772,7 +772,7 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
       "ATEX — actuatoare pneumatice certificate pentru montaj în zone cu risc de explozie",
       "3-A Sanitary Standards — conformitate pentru echipamente din industria alimentară din SUA"
     ],
-    infinitrade: "Sprijinim proiectele din industria farmaceutică, biotehnologică și alimentară din România cu robineți cu membrană GEMÜ — seria 550 din plastic și seria 600 din inox, plus actuatoarele pneumatice și electronica de proces asociată — comandate prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii de stoc pe fiecare configurație și ne raportăm la informațiile publice disponibile ale producătorului pentru materialul membranei și finisajul de suprafață. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, fluidul vehiculat și cerințele de validare ale proiectului. Robinetele și actuatoarele din configurațiile standard ajung de regulă în 24–72 h, iar componentele cu certificări speciale sau execuțiile single-use SUMONDO, în 2–6 săptămâni la comandă.",
+    infinitrade: "Sprijinim proiectele din industria farmaceutică, biotehnologică și alimentară din România cu robineți cu membrană GEMÜ — seria 550 din plastic și seria 600 din inox, plus actuatoarele pneumatice și electronica de proces asociată — comandate prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii de stoc pe fiecare configurație și ne raportăm la informațiile publice disponibile ale producătorului pentru materialul membranei și finisajul de suprafață. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, fluidul vehiculat și cerințele de validare ale proiectului. Robinetele și actuatoarele din configurațiile standard ajung de regulă în 24–72 h, iar componentele cu certificări speciale sau execuțiile single-use SUMONDO, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem emite documentație de validare proprie pentru proiectele farmaceutice și nici garanta o disponibilitate constantă pe execuțiile SUMONDO — acestea depind de comanda către producător.",
     sources: [
       {"title":"Diaphragm valves","url":"https://www.gemu-group.com/en-us/products/valve-technology/diaphragm-valves","publisher":"GEMÜ","accessed":"2026-09-23"},
@@ -861,7 +861,7 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
       },
       {
         "q": "Livrați robinete GEMÜ în România?",
-        "a": "Da, robinetele GEMÜ ajung la noi prin comandă, plecând de la paginile publice de produs ale producătorului, fără o gamă proprie ținută pe raft. De regulă sunt necesare 2-6 săptămâni la comandă, în funcție de materialul corpului, tipul de acționare și racordul dorit. Recomandăm confirmarea codului exact al modelului înainte de comandă."
+        "a": "Da, robinetele GEMÜ ajung la noi prin comandă, plecând de la paginile publice de produs ale producătorului, fără o gamă proprie ținută pe raft. De regulă sunt necesare 2-4 săptămâni la comandă, în funcție de materialul corpului, tipul de acționare și racordul dorit. Recomandăm confirmarea codului exact al modelului înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de robinet cu membrană GEMÜ?",
@@ -923,7 +923,7 @@ Circulatoarele Ecocirc, cu motor cu rotor umed și reglare electronică a turaț
       "Motoare clasa IE3 — conformitate cu reglementările europene de eficiență energetică",
       "WRAS — componente certificate pentru contact cu apă potabilă pe modelele dedicate"
     ],
-    infinitrade: "Aducem în România pompe Lowara pentru presurizare, irigații și gestionarea apei uzate — seria e-SV verticală multietajată, pompele centrifuge monobloc CO, submersibilele pentru ape uzate și circulatoarele Ecocirc — prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare model și verificăm disponibilitatea reală în informațiile publice disponibile ale producătorului, parte a grupului Xylem. Pentru dimensionarea corectă, trimiteți-ne debitul necesar, înălțimea de pompare și, dacă înlocuiți o pompă veche, dimensiunile flanșei existente. Modelele uzuale din gamă sunt de regulă disponibile în 24–72 h, iar configurațiile cu convertizor de frecvență integrat sau materiale speciale ajung în 2–6 săptămâni la comandă.",
+    infinitrade: "Aducem în România pompe Lowara pentru presurizare, irigații și gestionarea apei uzate — seria e-SV verticală multietajată, pompele centrifuge monobloc CO, submersibilele pentru ape uzate și circulatoarele Ecocirc — prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare model și verificăm disponibilitatea reală în informațiile publice disponibile ale producătorului, parte a grupului Xylem. Pentru dimensionarea corectă, trimiteți-ne debitul necesar, înălțimea de pompare și, dacă înlocuiți o pompă veche, dimensiunile flanșei existente. Modelele uzuale din gamă sunt de regulă disponibile în 24–72 h, iar configurațiile cu convertizor de frecvență integrat sau materiale speciale ajung în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma service sub garanția producătorului sau rebobinarea motoarelor — acestea rămân în sarcina rețelei tehnice Xylem/Lowara.",
     sources: [
       {"title":"Lowara Product Guide","url":"https://www.xylem.com/siteassets/brand/lowara/resources/brochure/xylem---pump-selection-guide.pdf","publisher":"Xylem / Lowara","accessed":"2026-09-23"},
@@ -1023,7 +1023,7 @@ Circulatoarele Ecocirc, cu motor cu rotor umed și reglare electronică a turaț
       },
       {
         "q": "Livrați pompe Lowara în România?",
-        "a": "Da, pompele Lowara se aduc la comandă direct pe baza paginilor publice de produs ale producătorului, fără stoc propriu menținut în depozit. Termenul standard este de 2-6 săptămâni la comandă, potrivit modelului și configurației motorului solicitate. Recomandăm confirmarea codului exact al pompei înainte de comandă."
+        "a": "Da, pompele Lowara se aduc la comandă direct pe baza paginilor publice de produs ale producătorului, fără stoc propriu menținut în depozit. Termenul standard este de 2-4 săptămâni la comandă, potrivit modelului și configurației motorului solicitate. Recomandăm confirmarea codului exact al pompei înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă submersibilă Lowara?",
@@ -1084,7 +1084,7 @@ Materialele componentelor umede includ oțel inoxidabil pentru rezistență la e
       "ISO 9001 — management al calității pentru proiectarea și producția pompelor de imersie industriale",
       "IP68 — protecție la imersie completă pentru motoarele etanșe din gamă"
     ],
-    infinitrade: "Coordonăm aprovizionarea cu pompe de imersie Brinkmann Pumpen pentru mașini-unelte și instalații de prelucrare mecanică din România — seriile TTN și TTX, plus kituri de recondiționare — prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii de stoc pentru fiecare lungime de imersie și verificăm compatibilitatea în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a pompei, trimiteți-ne adâncimea rezervorului mașinii, presiunea necesară la sculă și tipul de lichid de răcire folosit. Modelele standard și piesele de uzură ajung de regulă în 24–72 h, util mai ales când o pompă defectă oprește o linie de producție, iar lungimile de imersie neuzuale, în 2–6 săptămâni la comandă.",
+    infinitrade: "Coordonăm aprovizionarea cu pompe de imersie Brinkmann Pumpen pentru mașini-unelte și instalații de prelucrare mecanică din România — seriile TTN și TTX, plus kituri de recondiționare — prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii de stoc pentru fiecare lungime de imersie și verificăm compatibilitatea în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a pompei, trimiteți-ne adâncimea rezervorului mașinii, presiunea necesară la sculă și tipul de lichid de răcire folosit. Modelele standard și piesele de uzură ajung de regulă în 24–72 h, util mai ales când o pompă defectă oprește o linie de producție, iar lungimile de imersie neuzuale, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma compatibilitatea exactă cu modele TTN/TTX foarte vechi, ieșite din catalogul curent, fără o schiță tehnică sau fotografie a plăcuței pompei existente.",
     sources: [
       {"title":"Products","url":"https://www.brinkmannpumps.com/us/products/","publisher":"Brinkmann Pumpen","accessed":"2026-09-22"},
@@ -1184,7 +1184,7 @@ Materialele componentelor umede includ oțel inoxidabil pentru rezistență la e
       },
       {
         "q": "Livrați pompe Brinkmann în România?",
-        "a": "Da, aducem la comandă pompe Brinkmann pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de lungimea de imersie necesară. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă pompe Brinkmann pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de lungimea de imersie necesară. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă de imersie Brinkmann?",
@@ -1250,7 +1250,7 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
       "ISO 9001 — management al calității pentru proiectarea și producția regulatoarelor auto-acționate",
       "Materiale certificate pentru contact cu apa potabilă pe execuțiile dedicate"
     ],
-    infinitrade: "Gestionăm comenzile pentru regulatoare de presiune, temperatură și debit Mankenberg destinate rețelelor de abur și instalațiilor de proces din România, aduse prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem modelul potrivit pornind de la informațiile publice disponibile ale producătorului pentru fiecare combinație de presiune de intrare și ieșire. Pentru o selecție corectă, trimiteți-ne presiunea de intrare, presiunea sau debitul dorit la ieșire și fluidul vehiculat. Modelele standard din bronz și alamă ajung de regulă în 24–72 h, iar execuțiile din inox sau cele pentru game speciale de presiune, în 2–6 săptămâni la comandă.",
+    infinitrade: "Gestionăm comenzile pentru regulatoare de presiune, temperatură și debit Mankenberg destinate rețelelor de abur și instalațiilor de proces din România, aduse prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem modelul potrivit pornind de la informațiile publice disponibile ale producătorului pentru fiecare combinație de presiune de intrare și ieșire. Pentru o selecție corectă, trimiteți-ne presiunea de intrare, presiunea sau debitul dorit la ieșire și fluidul vehiculat. Modelele standard din bronz și alamă ajung de regulă în 24–72 h, iar execuțiile din inox sau cele pentru game speciale de presiune, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma o calibrare specială pentru medii neuzuale (de exemplu criogenice) fără confirmarea prealabilă din partea producătorului — aceasta rămâne o etapă separată de proiectare.",
     sources: [
       {"title":"Pressure reducer product overview","url":"https://www.mankenberg.com/en/pressure-reducer/products","publisher":"Mankenberg","accessed":"2026-09-23"},
@@ -1313,7 +1313,7 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
       },
       {
         "q": "Livrați reductoare de presiune Mankenberg în România?",
-        "a": "Da, reductoarele de presiune Mankenberg vin la comandă, urmând paginile publice de produs ale producătorului, fără o gamă proprie păstrată pe stoc. Livrarea durează în general 2-6 săptămâni la comandă, în funcție de model și de materialul solicitat pentru corpul valvei. Recomandăm confirmarea codului exact al seriei DM înainte de comandă."
+        "a": "Da, reductoarele de presiune Mankenberg vin la comandă, urmând paginile publice de produs ale producătorului, fără o gamă proprie păstrată pe stoc. Livrarea durează în general 2-4 săptămâni la comandă, în funcție de model și de materialul solicitat pentru corpul valvei. Recomandăm confirmarea codului exact al seriei DM înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de reductor de presiune Mankenberg?",
@@ -1375,7 +1375,7 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
       "ISO 9001 — management al calității pentru proiectarea și producția suflantelor cu canal lateral",
       "ATEX — execuții de suflantă cu canal lateral disponibile pentru zone cu risc de explozie"
     ],
-    infinitrade: "Preluăm comenzi pentru suflante și compresoare cu canal lateral FPZ — seria monostadială K, variantele bistadiale de presiune ridicată și execuțiile pentru temperatură sau medii corozive — destinate stațiilor de epurare și instalațiilor industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma o disponibilitate constantă pe stoc pentru fiecare configurație și verificăm dimensionarea în informațiile publice disponibile ale producătorului. Pentru o ofertă corectă, trimiteți-ne debitul de aer și presiunea sau vidul necesar aplicației. Modelele standard sunt de regulă disponibile în 24–72 h, iar pachetele complete cu incintă insonorizată și automatizare integrată ajung în 2–6 săptămâni la comandă.",
+    infinitrade: "Preluăm comenzi pentru suflante și compresoare cu canal lateral FPZ — seria monostadială K, variantele bistadiale de presiune ridicată și execuțiile pentru temperatură sau medii corozive — destinate stațiilor de epurare și instalațiilor industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma o disponibilitate constantă pe stoc pentru fiecare configurație și verificăm dimensionarea în informațiile publice disponibile ale producătorului. Pentru o ofertă corectă, trimiteți-ne debitul de aer și presiunea sau vidul necesar aplicației. Modelele standard sunt de regulă disponibile în 24–72 h, iar pachetele complete cu incintă insonorizată și automatizare integrată ajung în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma programarea convertizorului de frecvență pe pachetele automatizate fără specificațiile exacte ale procesului — aceasta se stabilește împreună cu inginerul de proiect.",
     sources: [
       {"title":"FPZ - Side channel blowers","url":"https://www.fpz.com/wp-content/uploads/2024/01/FPZ_Flyer-Light_EN.pdf","publisher":"FPZ","accessed":"2026-09-26"},
@@ -1440,7 +1440,7 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
       },
       {
         "q": "Livrați suflante FPZ la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă suflante cu canal lateral din gamele MS, MD, TS, TD sau K, pe baza modelului confirmat din documentația oficială FPZ. Nu păstrăm suflantele FPZ pe stoc propriu; le procurăm punctual, cu un termen tipic de 2-6 săptămâni. Recomandăm transmiterea debitului și presiunii necesare pentru identificarea corectă a modelului."
+        "a": "Da, aducem la comandă suflante cu canal lateral din gamele MS, MD, TS, TD sau K, pe baza modelului confirmat din documentația oficială FPZ. Nu păstrăm suflantele FPZ pe stoc propriu; le procurăm punctual, cu un termen tipic de 2-4 săptămâni. Recomandăm transmiterea debitului și presiunii necesare pentru identificarea corectă a modelului."
       },
       {
         "q": "Ce informații sunt necesare pentru o cerere de ofertă la o suflantă FPZ?",
@@ -1508,7 +1508,7 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
       "ATEX — execuții de pompă cu șurub excentric disponibile pentru zone cu risc de explozie",
       "EHEDG / FDA — rotor, stator și elastomeri certificați pentru contact alimentar pe execuțiile igienice"
     ],
-    infinitrade: "Organizăm aprovizionarea cu pompe cu șurub excentric SEEPEX — seriile bloc BN, seriile cu tijă de conectare BT și variantele igienice pentru industria alimentară — pentru stații de epurare și procese chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de disponibilitate pe fiecare material de rotor și stator și verificăm opțiunile în informațiile publice disponibile ale producătorului. Pentru selecția corectă, trimiteți-ne fluidul vehiculat, debitul necesar și presiunea de refulare cerută de instalație. Piesele de uzură pentru modelele uzuale — statoare, rotoare, garnituri — ajung de regulă în 24–72 h, iar pompele complete sau configurațiile speciale, în 2–6 săptămâni la comandă.",
+    infinitrade: "Organizăm aprovizionarea cu pompe cu șurub excentric SEEPEX — seriile bloc BN, seriile cu tijă de conectare BT și variantele igienice pentru industria alimentară — pentru stații de epurare și procese chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de disponibilitate pe fiecare material de rotor și stator și verificăm opțiunile în informațiile publice disponibile ale producătorului. Pentru selecția corectă, trimiteți-ne fluidul vehiculat, debitul necesar și presiunea de refulare cerută de instalație. Piesele de uzură pentru modelele uzuale — statoare, rotoare, garnituri — ajung de regulă în 24–72 h, iar pompele complete sau configurațiile speciale, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma retrofit-ul tehnologiei Smart Conveying Technology pe pompe foarte vechi fără verificarea directă a modelului existent de către producător.",
     sources: [
       {"title":"SEEPEX - Products","url":"https://www.seepex.com/en/products/","publisher":"SEEPEX GmbH","accessed":"2026-09-26"},
@@ -1648,7 +1648,7 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
       "SIL 2/3 — certificare funcțională de siguranță conform IEC 61508 pentru bucle critice",
       "ISO 9001 — management al calității pentru proiectarea și producția robinetelor de reglare și actuatoarelor"
     ],
-    infinitrade: "Realizăm aprovizionarea cu robinete de reglare, actuatoare și poziționeri SAMSON — robinetul Tip 3241, actuatoarele seria 240/250, poziționerul digital Tip 3730 și regulatoarele auto-acționate seria 42 — pentru rafinării și instalații de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem acces la stocul intern al fabricii și pornim de la informațiile publice disponibile ale producătorului pentru fiecare caracteristică de reglare. Pentru o specificație corectă, trimiteți-ne datele de proces — presiune diferențială, debit și fluidul vehiculat. Componentele standard ajung de regulă în 24–72 h, iar ansamblurile complete robinet-actuator-poziționer, configurate pentru aplicația specifică, în 2–6 săptămâni la comandă.",
+    infinitrade: "Realizăm aprovizionarea cu robinete de reglare, actuatoare și poziționeri SAMSON — robinetul Tip 3241, actuatoarele seria 240/250, poziționerul digital Tip 3730 și regulatoarele auto-acționate seria 42 — pentru rafinării și instalații de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem acces la stocul intern al fabricii și pornim de la informațiile publice disponibile ale producătorului pentru fiecare caracteristică de reglare. Pentru o specificație corectă, trimiteți-ne datele de proces — presiune diferențială, debit și fluidul vehiculat. Componentele standard ajung de regulă în 24–72 h, iar ansamblurile complete robinet-actuator-poziționer, configurate pentru aplicația specifică, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma configurarea firmware a poziționerelor pe protocoale Fieldbus/HART sau documentația de certificare SIL — acestea rămân în sarcina departamentului tehnic al proiectului și al producătorului.",
     sources: [
       {"title":"SAMSON Product Range Product Catalog","url":"https://www.samsongroup.com/document/k00200en.pdf","publisher":"SAMSON AG","accessed":"2026-09-23"},
@@ -1748,7 +1748,7 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
       },
       {
         "q": "Livrați robinete de reglare SAMSON în România?",
-        "a": "Da, robinetele și accesoriile SAMSON se aduc la comandă, conform paginilor publice de produs ale producătorului, fără o gamă proprie disponibilă din start. Timpul necesar este de obicei 2-6 săptămâni la comandă, în funcție de tipul robinetului, actuatorul ales și poziționerul solicitat. Recomandăm confirmarea exactă a tipului înainte de comandă."
+        "a": "Da, robinetele și accesoriile SAMSON se aduc la comandă, conform paginilor publice de produs ale producătorului, fără o gamă proprie disponibilă din start. Timpul necesar este de obicei 2-4 săptămâni la comandă, în funcție de tipul robinetului, actuatorul ales și poziționerul solicitat. Recomandăm confirmarea exactă a tipului înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de robinet de reglare SAMSON?",
@@ -1811,7 +1811,7 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
       "ATEX — execuții ale pompelor NEMO și TORNADO disponibile pentru zone cu risc de explozie",
       "EHEDG / FDA — materiale ale pompelor NEMO certificate pentru contact alimentar pe execuțiile igienice"
     ],
-    infinitrade: "Ne ocupăm de comenzile de pompe NETZSCH pentru transportul fluidelor vâscoase, cu solide sau abrazive — gama NEMO cu șurub excentric, pompele rotative cu lobi TORNADO și pompele multi-șurub NOTOS — din stații de epurare și procese chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii de stoc pentru fiecare familie de pompă și verificăm materialele potrivite în informațiile publice disponibile ale producătorului. Pentru selecția corectă, trimiteți-ne caracteristicile fluidului vehiculat — vâscozitate, conținut de solide, temperatură. Piesele de uzură pentru modelele uzuale ajung de regulă în 24–72 h, iar pompele complete sau configurațiile cu alimentare forțată, în 2–6 săptămâni la comandă.",
+    infinitrade: "Ne ocupăm de comenzile de pompe NETZSCH pentru transportul fluidelor vâscoase, cu solide sau abrazive — gama NEMO cu șurub excentric, pompele rotative cu lobi TORNADO și pompele multi-șurub NOTOS — din stații de epurare și procese chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii de stoc pentru fiecare familie de pompă și verificăm materialele potrivite în informațiile publice disponibile ale producătorului. Pentru selecția corectă, trimiteți-ne caracteristicile fluidului vehiculat — vâscozitate, conținut de solide, temperatură. Piesele de uzură pentru modelele uzuale ajung de regulă în 24–72 h, iar pompele complete sau configurațiile cu alimentare forțată, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma compunerea unor elastomeri speciali, la comandă, fără avizul tehnic al producătorului și nici service sub garanție direct din partea noastră.",
     sources: [
       {"title":"NEMO Progressing Cavity Pumps","url":"https://pumps-systems.netzsch.com/en/products-and-accessories/nemo-progressing-cavity-pumps","publisher":"NETZSCH","accessed":"2026-09-23"},
@@ -1903,7 +1903,7 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
       },
       {
         "q": "Livrați pompe NETZSCH în România?",
-        "a": "Da, pompele NETZSCH din gama NEMO se aduc la comandă, pe baza paginilor publice de produs ale producătorului, fără o gamă proprie păstrată în depozit. Perioada obișnuită ajunge la 2-6 săptămâni la comandă, în funcție de model și de materialul rotorului sau statorului ales. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, pompele NETZSCH din gama NEMO se aduc la comandă, pe baza paginilor publice de produs ale producătorului, fără o gamă proprie păstrată în depozit. Perioada obișnuită ajunge la 2-4 săptămâni la comandă, în funcție de model și de materialul rotorului sau statorului ales. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă NETZSCH NEMO?",
@@ -1967,7 +1967,7 @@ Această gamă completă — de la suflanta Roots simplă și robustă, până l
       "ATEX — execuții ale suflantelor și compresoarelor disponibile pentru zone cu risc de explozie",
       "ISO 14001 — management de mediu pentru fabricile de suflante și compresoare"
     ],
-    infinitrade: "Asistăm proiectele industriale din România cu suflante și compresoare Aerzen — suflante Roots Delta Blower, variantele hibride Delta Hybrid, compresoare cu șurub Delta Screw și suflante turbo Delta Turbo — comandate prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii despre stocul fabricii pentru fiecare tehnologie și alegem soluția potrivită pornind de la informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne presiunea, debitul de aer necesar și profilul de sarcină al aplicației. Piesele de uzură și componentele de mentenanță pentru modelele uzuale ajung de regulă în 24–72 h, iar echipamentele complete sau configurațiile speciale, în 2–6 săptămâni la comandă.",
+    infinitrade: "Asistăm proiectele industriale din România cu suflante și compresoare Aerzen — suflante Roots Delta Blower, variantele hibride Delta Hybrid, compresoare cu șurub Delta Screw și suflante turbo Delta Turbo — comandate prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii despre stocul fabricii pentru fiecare tehnologie și alegem soluția potrivită pornind de la informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne presiunea, debitul de aer necesar și profilul de sarcină al aplicației. Piesele de uzură și componentele de mentenanță pentru modelele uzuale ajung de regulă în 24–72 h, iar echipamentele complete sau configurațiile speciale, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma configurarea electronicii de control a rulmenților magnetici de pe gama Delta Turbo fără intervenția tehnicienilor Aerzen.",
     sources: [
       {"title":"Rotary Lobe Compressors Delta Hybrid","url":"https://www.aerzen.com/product/screw-blowers-delta-hybrid","publisher":"Aerzener Maschinenfabrik (Aerzen)","accessed":"2026-09-23"},
@@ -2063,7 +2063,7 @@ Această gamă completă — de la suflanta Roots simplă și robustă, până l
       },
       {
         "q": "Livrați suflante Aerzener în România?",
-        "a": "Da, suflantele Aerzener din gama Delta Hybrid se aduc la comandă, respectând paginile publice de produs ale producătorului, fără o gamă proprie ținută în stoc. În general durează 2-6 săptămâni la comandă, în funcție de dimensiunea suflantei și de configurația de acționare aleasă. Recomandăm confirmarea modelului exact înainte de comandă."
+        "a": "Da, suflantele Aerzener din gama Delta Hybrid se aduc la comandă, respectând paginile publice de produs ale producătorului, fără o gamă proprie ținută în stoc. În general durează 2-4 săptămâni la comandă, în funcție de dimensiunea suflantei și de configurația de acționare aleasă. Recomandăm confirmarea modelului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de suflantă Aerzener Delta Hybrid?",
@@ -2125,7 +2125,7 @@ Materialele și execuțiile constructive urmează standardele consacrate ale ind
       "CE — marcaj de conformitate pentru suflantele și compresoarele Robuschi vândute în Uniunea Europeană",
       "ATEX — execuții ale suflantelor Roots și compresoarelor Robox disponibile pentru zone cu risc de explozie"
     ],
-    infinitrade: "Susținem proiectele din România cu suflante, compresoare și pompe de vid Robuschi — suflante Roots seria RBS, compresoare cu șurub Robox și pompe de vid rotative RVS — aduse prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare execuție și verificăm cerințele de puritate a aerului în informațiile publice disponibile ale producătorului, parte a grupului Ingersoll Rand. Pentru o ofertă corectă, trimiteți-ne presiunea, vidul sau debitul necesar aplicației. Piesele de uzură pentru modelele uzuale ajung de regulă în 24–72 h, iar echipamentele complete sau pachetele insonorizate cu automatizare integrată, în 2–6 săptămâni la comandă.",
+    infinitrade: "Susținem proiectele din România cu suflante, compresoare și pompe de vid Robuschi — suflante Roots seria RBS, compresoare cu șurub Robox și pompe de vid rotative RVS — aduse prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare execuție și verificăm cerințele de puritate a aerului în informațiile publice disponibile ale producătorului, parte a grupului Ingersoll Rand. Pentru o ofertă corectă, trimiteți-ne presiunea, vidul sau debitul necesar aplicației. Piesele de uzură pentru modelele uzuale ajung de regulă în 24–72 h, iar echipamentele complete sau pachetele insonorizate cu automatizare integrată, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma service sub garanția Ingersoll Rand/Robuschi și nici o disponibilitate constantă pe toate execuțiile Robox fără ulei — acestea rămân la latitudinea rețelei producătorului.",
     sources: [
       {"title":"Robuschi - Products","url":"https://www.robuschi.com/en/products/","publisher":"Robuschi S.p.A.","accessed":"2026-09-26"},
@@ -2263,7 +2263,7 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
       "PED 2014/68/UE — conformitate pentru schimbătoarele de căldură ca echipamente sub presiune",
       "ASME — certificare acceptată pentru schimbătoare de căldură destinate pieței nord-americane"
     ],
-    infinitrade: "Punem la dispoziție schimbătoare de căldură Kelvion pentru industria energetică, chimică și alimentară din România — schimbătoare cu plăci și garnituri, tubulare shell-and-tube, sisteme de răcire cu aer și piese de schimb — prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii de stoc pentru fiecare model, inclusiv cele moștenite din gama GEA, și verificăm compatibilitatea în informațiile publice disponibile ale producătorului. Pentru retehnologizări, trimiteți-ne plăcuța de fabricație sau dimensiunile plăcilor existente. Piesele de schimb uzuale ajung de regulă în 24–72 h, iar schimbătoarele complete, dimensionate pentru o aplicație nouă, în 2–6 săptămâni la comandă.",
+    infinitrade: "Punem la dispoziție schimbătoare de căldură Kelvion pentru industria energetică, chimică și alimentară din România — schimbătoare cu plăci și garnituri, tubulare shell-and-tube, sisteme de răcire cu aer și piese de schimb — prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii de stoc pentru fiecare model, inclusiv cele moștenite din gama GEA, și verificăm compatibilitatea în informațiile publice disponibile ale producătorului. Pentru retehnologizări, trimiteți-ne plăcuța de fabricație sau dimensiunile plăcilor existente. Piesele de schimb uzuale ajung de regulă în 24–72 h, iar schimbătoarele complete, dimensionate pentru o aplicație nouă, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma calculul termic sau recalcularea presiunii admise pentru vase moștenite din gama GEA fără plăcuța de fabricație originală — aceasta rămâne o etapă separată de inginerie.",
     sources: [
       {"title":"Brazed Plate Heat Exchangers","url":"https://www.kelvion.com/products/plate-heat-exchangers/brazed-plate-heat-exchangers/","publisher":"Kelvion","accessed":"2026-09-22"},
@@ -2335,7 +2335,7 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
       },
       {
         "q": "Livrați schimbătoare de căldură Kelvion în România?",
-        "a": "Da, aducem la comandă schimbătoare Kelvion pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de puterea termică necesară. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă schimbătoare Kelvion pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de puterea termică necesară. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de schimbător de căldură Kelvion?",
@@ -2401,7 +2401,7 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
       "PED 2014/68/UE — conformitate pentru schimbătoarele brazate ca echipamente sub presiune",
       "CE — marcaj de conformitate pentru schimbătoarele de căldură brazate vândute în Uniunea Europeană"
     ],
-    infinitrade: "Aducem la comandă schimbătoare de căldură brazate SWEP pentru pompe de căldură, climatizare industrială și instalații de proces din România — de la modelele compacte B8/B10 până la cele industriale B120/B220 — prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem numărul de plăci potrivit pornind de la informațiile publice disponibile ale producătorului, parte a grupului Dover. Pentru dimensionarea corectă, trimiteți-ne debitele, temperaturile de lucru și pierderea de presiune admisă. Modelele standard din gamă ajung de regulă în 24–72 h, iar configurațiile cu brazare din nichel sau dimensionarea pentru proiecte industriale mari, în 2–6 săptămâni la comandă.",
+    infinitrade: "Aducem la comandă schimbătoare de căldură brazate SWEP pentru pompe de căldură, climatizare industrială și instalații de proces din România — de la modelele compacte B8/B10 până la cele industriale B120/B220 — prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem numărul de plăci potrivit pornind de la informațiile publice disponibile ale producătorului, parte a grupului Dover. Pentru dimensionarea corectă, trimiteți-ne debitele, temperaturile de lucru și pierderea de presiune admisă. Modelele standard din gamă ajung de regulă în 24–72 h, iar configurațiile cu brazare din nichel sau dimensionarea pentru proiecte industriale mari, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem confirma o disponibilitate constantă pentru fiecare combinație de model și număr de plăci — dimensionarea exactă depinde de calculul termic transmis de producător.",
     sources: [
       {"title":"B120T","url":"https://www.swep.net/products/b120t","publisher":"SWEP","accessed":"2026-09-23"},
@@ -2468,7 +2468,7 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
       },
       {
         "q": "Livrați schimbătoare de căldură SWEP în România?",
-        "a": "Da, aducem la comandă schimbătoare SWEP pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de conexiunile solicitate. Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă schimbătoare SWEP pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de conexiunile solicitate. Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de schimbător de căldură SWEP?",
@@ -2534,7 +2534,7 @@ Materialele acoperă oțel inoxidabil austenitic pentru majoritatea aplicațiilo
       "PED 2014/68/UE — conformitate pentru schimbătoarele de căldură cu plăci și tubulare ca echipamente sub presiune",
       "CE — marcaj de conformitate pentru schimbătoarele de căldură cu plăci și tubulare vândute în Uniunea Europeană"
     ],
-    infinitrade: "Facilităm achiziția de schimbătoare de căldură Funke pentru industria energetică, navală și chimică din România — schimbătoare cu plăci și garnituri FP, schimbătoare cu plăci sudate și schimbătoare tubulare FRG — prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pentru fiecare tehnologie și pornim calculul termic de la informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne debitele, temperaturile de intrare și ieșire și pierderea de presiune admisă. Piesele de schimb, plăci și garnituri pentru modelele uzuale, ajung de regulă în 24–72 h, iar schimbătoarele complete, dimensionate pentru un proiect nou, în 2–6 săptămâni la comandă.",
+    infinitrade: "Facilităm achiziția de schimbătoare de căldură Funke pentru industria energetică, navală și chimică din România — schimbătoare cu plăci și garnituri FP, schimbătoare cu plăci sudate și schimbătoare tubulare FRG — prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pentru fiecare tehnologie și pornim calculul termic de la informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne debitele, temperaturile de intrare și ieșire și pierderea de presiune admisă. Piesele de schimb, plăci și garnituri pentru modelele uzuale, ajung de regulă în 24–72 h, iar schimbătoarele complete, dimensionate pentru un proiect nou, în 2–4 săptămâni la comandă.",
     limitation: "Nu putem efectua recalcularea termică fără datele complete de proces transmise de client și nici service sub garanția producătorului — acestea rămân la Funke.",
     sources: [
       {"title":"Plate Heat Exchangers","url":"https://www.funke.de/en/products/plate-heat-exchangers/","publisher":"Funke","accessed":"2026-09-22"},
@@ -2603,7 +2603,7 @@ Materialele acoperă oțel inoxidabil austenitic pentru majoritatea aplicațiilo
       },
       {
         "q": "Livrați schimbătoare de căldură Funke în România?",
-        "a": "Da, aducem la comandă schimbătoare Funke pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de tip și de puterea termică solicitată. Recomandăm confirmarea seriei exacte înainte de comandă."
+        "a": "Da, aducem la comandă schimbătoare Funke pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de tip și de puterea termică solicitată. Recomandăm confirmarea seriei exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de schimbător tubular Funke?",

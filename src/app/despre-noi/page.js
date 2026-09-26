@@ -9,7 +9,9 @@ import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './despre.module.css';
 
 export default function DesprePage() {
-  const [heroRef, heroVisible] = useIntersectionObserver();
+  // v17: the hero is rendered visible (no scroll-reveal) — it is the LCP
+  // element, and hiding it until hydration pushed LCP past 2.5 s on mobile.
+  const [heroRef] = useIntersectionObserver();
   const [statsRef, statsVisible] = useIntersectionObserver();
   const [aboutRef, aboutVisible] = useIntersectionObserver();
   const [industriesRef, industriesVisible] = useIntersectionObserver();
@@ -32,7 +34,7 @@ export default function DesprePage() {
           <div className={styles.heroBackground} />
           <div className={styles.heroContainer}>
             <div
-              className={`${styles.heroContent} animate-fade-up ${heroVisible ? 'is-visible' : ''}`}
+              className={styles.heroContent}
             >
               <h1>Despre Infinitrade Romania</h1>
               <p className={styles.heroTagline}>{companyInfo.tagline}</p>

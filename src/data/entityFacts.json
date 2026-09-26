@@ -33,7 +33,7 @@
   "brandCountPhrase": "branduri cu pagină proprie pe site",
   "leadTimePhrases": [
     "24–72 h din stoc",
-    "2–6 săptămâni la comandă"
+    "2–4 săptămâni la comandă"
   ],
   "certifications": [
     {
@@ -61,12 +61,12 @@
   "boilerplate": [
     {
       "id": "sourcing-statement",
-      "template": "Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 2–6 săptămâni.",
+      "template": "Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 2–4 săptămâni din fabrică (execuțiile OEM sau personalizate pot dura mai mult, termenul exact îl confirmăm în ofertă).",
       "placeholders": [
         "Brand"
       ],
       "mandatedOn": "gsc-only + zero-evidence pages (88+47 pages, D-AEO A4) — verbatim except the brand name",
-      "source": "decisions-coverage-aeo.md §A4"
+      "source": "decisions-coverage-aeo.md §A4 · v17 (owner decision 26.09): 2–6 → 2–4 săptămâni + OEM/custom clause"
     },
     {
       "id": "role-byline",
@@ -88,7 +88,7 @@
     },
     {
       "id": "delivery-to-order",
-      "template": "2–6 săptămâni la comandă",
+      "template": "2–4 săptămâni la comandă",
       "placeholders": [],
       "mandatedOn": "every page quoting the to-order lead time",
       "source": "leadTimePhrases[1]"
