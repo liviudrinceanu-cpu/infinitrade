@@ -30,7 +30,7 @@ Pentru instalatori și integratori OEM din România, Bonomi înseamnă o gamă s
       "Construcții navale — fitinguri și robineți rezistenți la coroziune pentru instalații de la bord",
       "Energie — componente hidraulice pentru aplicații industriale de proces"
     ],
-    infinitrade: `Aducem robineți Bonomi la comandă prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fiecărei fabrici din grup. Pentru robinetele curente din seriile SUPER-SFER și EURO-SFER lucrăm cu gama producătorului și livrăm în termen orientativ de 2-6 săptămâni de la comandă, în funcție de model și disponibilitate. Pentru ofertă corectă, clientul trebuie să ne transmită diametrul racordului, tipul de filet și dacă aplicația este pe apă, gaz sau alt fluid. Nu promitem disponibilitate din depozit pentru fiecare cod din gamă și recomandăm confirmarea termenului exact înainte de emiterea comenzii ferme.`,
+    infinitrade: `Aducem robineți Bonomi la comandă prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fiecărei fabrici din grup. Pentru robinetele curente din seriile SUPER-SFER și EURO-SFER lucrăm cu gama producătorului și livrăm în termen orientativ de 2-4 săptămâni de la comandă, în funcție de model și disponibilitate. Pentru ofertă corectă, clientul trebuie să ne transmită diametrul racordului, tipul de filet și dacă aplicația este pe apă, gaz sau alt fluid. Nu promitem disponibilitate din depozit pentru fiecare cod din gamă și recomandăm confirmarea termenului exact înainte de emiterea comenzii ferme.`,
     limitation: "Nu putem confirma disponibilitate imediată garantată pentru fiecare cod Bonomi și nu preluăm intervenții de service acoperite de garanția producătorului fără acordul direct al acestuia.",
     productCodes: [
       { code: "161N", description: "Robinet cu bilă alamă, corp scurt, mâner fluture" },
@@ -55,7 +55,7 @@ Pentru instalatori și integratori OEM din România, Bonomi înseamnă o gamă s
     faq: [
       { q: "Ce produce Bonomi?", a: "Bonomi este un producător italian de robineți cu bilă din alamă și inox, robineți fluture și fitinguri din alamă, cupru, bronz și oțel, pentru instalații de apă, gaz și aplicații industriale, cu sediul la Gussago, lângă Brescia, în Italia." },
       { q: "Cum aleg un robinet Bonomi după cod?", a: "Verificați seria (SUPER-SFER, EURO-SFER, FULL-SFER sau MINI-SFER), diametrul racordului și tipul de filet, apoi confirmați dacă aplicația necesită varianta Lead Free pentru apă potabilă; trimiteți-ne aceste date pentru a identifica exact codul potrivit." },
-      { q: "Livrați robineți Bonomi în România și cât durează?", a: "Aducem robineții Bonomi la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de model și de confirmarea producătorului; nu promitem disponibilitate din depozit pentru fiecare cod din gamă." },
+      { q: "Livrați robineți Bonomi în România și cât durează?", a: "Aducem robineții Bonomi la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de model și de confirmarea producătorului; nu promitem disponibilitate din depozit pentru fiecare cod din gamă." },
       { q: "Ce trebuie să trimit pentru o ofertă de robineți Bonomi?", a: "Transmiteți diametrul racordului, tipul de filet la fiecare capăt, fluidul vehiculat (apă sau gaz) și, dacă e cazul, cerința de conformitate Lead Free pentru apă potabilă; pe baza acestor date vă recomandăm codul Bonomi potrivit." }
     ],
     evidenceClass: "gsc-only",
@@ -97,7 +97,7 @@ Pentru operatorii de apă și constructorii de rețele din România, Hawle înse
       "Construcții de infrastructură — șei de racordare pentru conducte noi sau existente",
       "Industrie — armături pentru rețele de apă de proces la platforme industriale"
     ],
-    infinitrade: `Furnizăm armături Hawle pentru rețele de apă la comandă, prin canale de aprovizionare din Uniunea Europeană; ce putem și ce nu putem confirma ține de disponibilitatea la partenerul de distribuție, nu de un stoc propriu. Termenul orientativ pentru o comandă este de 2-6 săptămâni, în funcție de referință și de confirmarea distribuitorului. Pentru o ofertă exactă, clientul trebuie să ne transmită diametrul conductei, materialul acesteia (PEHD, fontă, oțel) și tipul de racord dorit — filetat, cu flanșă sau cu mufă. Nu promitem disponibilitate din depozit pentru fiecare cod din portofoliul de peste 13.000 de coduri de produs.`,
+    infinitrade: `Furnizăm armături Hawle pentru rețele de apă la comandă, prin canale de aprovizionare din Uniunea Europeană; ce putem și ce nu putem confirma ține de disponibilitatea la partenerul de distribuție, nu de un stoc propriu. Termenul orientativ pentru o comandă este de 2-4 săptămâni, în funcție de referință și de confirmarea distribuitorului. Pentru o ofertă exactă, clientul trebuie să ne transmită diametrul conductei, materialul acesteia (PEHD, fontă, oțel) și tipul de racord dorit — filetat, cu flanșă sau cu mufă. Nu promitem disponibilitate din depozit pentru fiecare cod din portofoliul de peste 13.000 de coduri de produs.`,
     limitation: "Nu putem confirma disponibilitate imediată garantată pentru fiecare cod din portofoliul Hawle și nu configurăm sistemul de monitorizare Hawle.live fără suport direct de la producător.",
     productCodes: [
       { code: "2500", description: "Robinet de serviciu cu filet interior" },
@@ -121,7 +121,7 @@ Pentru operatorii de apă și constructorii de rețele din România, Hawle înse
       { q: "Ce produce Hawle?", a: "Hawle este un producător austriac de armături pentru rețele de apă potabilă — robineți de racord, vane de sertar, șei de racordare și hidranți de incendiu — cu sediul la Vöcklabruck, activ din 1948." },
       { q: "Cum aleg un robinet Hawle după cod?", a: "Verificați seria (2810/2811/2812 pentru robineți ZAK, E3 pentru vane de sertar, H4 pentru hidranți), apoi diametrul conductei și tipul de racord de ieșire; trimiteți-ne aceste date pentru identificarea codului Hawle potrivit." },
       { q: "Ce echivalent are seria H4 de la Hawle?", a: "Seria H4 este gama proprie Hawle de hidranți de incendiu supraterani, inclusiv variantele cu ruptură controlată la impact; alte branduri europene, precum AVK sau Vonroll, au game similare, dar cu coduri proprii, necomparabile direct." },
-      { q: "Livrați armături Hawle în România și cât durează?", a: "Aducem armăturile Hawle la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de referință și de confirmarea distribuitorului; nu promitem disponibilitate din depozit pentru fiecare cod." }
+      { q: "Livrați armături Hawle în România și cât durează?", a: "Aducem armăturile Hawle la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de referință și de confirmarea distribuitorului; nu promitem disponibilitate din depozit pentru fiecare cod." }
     ],
     evidenceClass: "transactional",
     tier: 3,
@@ -161,7 +161,7 @@ Pentru proiectanții și instalatorii din România, Oventrop înseamnă module d
       "Energie solară termică — stații Regusol pentru instalații cu panouri solare",
       "Smart Building — automatizare și monitorizare a circuitelor de încălzire"
     ],
-    infinitrade: `Furnizăm gama Oventrop de echilibrare hidronică și stații compacte pentru încălzire, din surse publice ale producătorului, fără date proprii despre stocul central al fabricii. Termenul orientativ pentru o comandă este de 2-6 săptămâni, în funcție de model și de confirmarea din partea rețelei de distribuție europene. Pentru o ofertă corectă, clientul trebuie să ne transmită debitul de proiect al fiecărui circuit, temperatura agentului termic și tipul de racord (filetat sau cu flanșă). Nu promitem disponibilitate imediată pentru fiecare cod din gamă și recomandăm confirmarea termenului exact la momentul comenzii.`,
+    infinitrade: `Furnizăm gama Oventrop de echilibrare hidronică și stații compacte pentru încălzire, din surse publice ale producătorului, fără date proprii despre stocul central al fabricii. Termenul orientativ pentru o comandă este de 2-4 săptămâni, în funcție de model și de confirmarea din partea rețelei de distribuție europene. Pentru o ofertă corectă, clientul trebuie să ne transmită debitul de proiect al fiecărui circuit, temperatura agentului termic și tipul de racord (filetat sau cu flanșă). Nu promitem disponibilitate imediată pentru fiecare cod din gamă și recomandăm confirmarea termenului exact la momentul comenzii.`,
     limitation: "Nu putem confirma configurarea software a sistemelor Smart Building Oventrop și nici disponibilitate imediată garantată pentru fiecare cod din gama de echilibrare.",
     productCodes: [
       { code: "Regumat", description: "Stație compactă pentru circuit de încălzire, cu pompă integrată" },
@@ -184,7 +184,7 @@ Pentru proiectanții și instalatorii din România, Oventrop înseamnă module d
       { q: "Ce produce Oventrop?", a: "Oventrop este un producător german de tehnică de reglare pentru încălzire, răcire și apă potabilă — stații compacte, robineți de echilibrare hidronică și robineți cu bilă — activ din 1851." },
       { q: "Cum aleg o stație Oventrop după cod?", a: "Verificați familia potrivită aplicației — Regumat pentru circuit de încălzire, Regudis sau Regumaq X pentru apă caldă menajeră, HydroControl pentru echilibrare — apoi trimiteți-ne debitul de proiect și temperatura agentului termic pentru selecția din gama Oventrop." },
       { q: "Ce echivalent are gama HydroControl de la Oventrop?", a: "HydroControl este robinetul de echilibrare propriu Oventrop, cu scală de citire directă; branduri precum Danfoss sau IMI Hydronic au game similare de echilibrare, dar cu scale și coduri proprii, necomparabile direct." },
-      { q: "Livrați produse Oventrop în România și cât durează?", a: "Aducem gama Oventrop la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de model și de confirmarea distribuitorului local." }
+      { q: "Livrați produse Oventrop în România și cât durează?", a: "Aducem gama Oventrop la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de model și de confirmarea distribuitorului local." }
     ],
     evidenceClass: "transactional",
     tier: 3,
@@ -223,7 +223,7 @@ Pentru instalatorii și proiectanții din România, Watts înseamnă acces la br
       "Infrastructură exterioară — topire a zăpezii pe rampe și trotuare cu SunTouch",
       "Instalații de irigații — prevenitoare de reflux pentru protecția rețelei publice"
     ],
-    infinitrade: `Lucrăm cu gama Watts prin canale de aprovizionare din Uniunea Europeană, cu informațiile publice disponibile pe site-urile mărcilor din grup (Watts, AERCO, FEBCO, BLÜCHER), fără date proprii despre stocul fiecărei fabrici. Termenul orientativ pentru o comandă este de 2-6 săptămâni, în funcție de brand și de disponibilitatea la partenerii europeni. Pentru o ofertă corectă, clientul trebuie să ne transmită brandul și seria exactă, diametrul racordului și aplicația (plumbing, prevenire reflux, drenaj sau HVAC). Nu promitem disponibilitate din depozit pentru fiecare referință din portofoliul de branduri Watts.`,
+    infinitrade: `Lucrăm cu gama Watts prin canale de aprovizionare din Uniunea Europeană, cu informațiile publice disponibile pe site-urile mărcilor din grup (Watts, AERCO, FEBCO, BLÜCHER), fără date proprii despre stocul fiecărei fabrici. Termenul orientativ pentru o comandă este de 2-4 săptămâni, în funcție de brand și de disponibilitatea la partenerii europeni. Pentru o ofertă corectă, clientul trebuie să ne transmită brandul și seria exactă, diametrul racordului și aplicația (plumbing, prevenire reflux, drenaj sau HVAC). Nu promitem disponibilitate din depozit pentru fiecare referință din portofoliul de branduri Watts.`,
     limitation: "Nu putem confirma disponibilitate garantată pentru fiecare brand din portofoliul Watts (AERCO, BLÜCHER, FEBCO, tekmar, SunTouch) și nu oferim configurare software pentru sistemele de control tekmar.",
     productCodes: [
       { code: "Intelliflow", description: "Sistem de control automat al debitului pentru plumbing" },
@@ -242,7 +242,7 @@ Pentru instalatorii și proiectanții din România, Watts înseamnă acces la br
       { q: "Ce produce Watts?", a: "Watts este un grup american de tehnologii pentru apă, cu branduri specializate pe plumbing, prevenirea refluxului, tratarea calității apei, drenaj și echipamente HVAC/apă caldă, printre care AERCO, FEBCO și BLÜCHER." },
       { q: "Cum aleg un produs Watts după brand?", a: "Identificați mai întâi nișa (plumbing, prevenire reflux, drenaj sau HVAC), apoi brandul din grup potrivit — FEBCO pentru prevenitoare de reflux, AERCO pentru cazane, BLÜCHER pentru drenaj — și trimiteți-ne diametrul și aplicația exactă pentru o ofertă Watts." },
       { q: "Ce echivalent are FEBCO de la Watts?", a: "FEBCO este linia proprie Watts de prevenitoare de reflux; branduri precum Honeywell sau Caleffi au game similare pentru protecția rețelei de apă potabilă, dar cu certificări și coduri proprii, necomparabile direct." },
-      { q: "Livrați produse Watts în România și cât durează?", a: "Aducem componentele Watts la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de brand și model; nu promitem disponibilitate din depozit pentru fiecare referință." }
+      { q: "Livrați produse Watts în România și cât durează?", a: "Aducem componentele Watts la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de brand și model; nu promitem disponibilitate din depozit pentru fiecare referință." }
     ],
     evidenceClass: "transactional",
     tier: 3,
@@ -281,7 +281,7 @@ Pentru integratorii de automatizări din România, ASCO înseamnă o gamă de el
       "Sănătate — componente de control al fluidelor pentru echipamente medicale",
       "Apă și ape uzate — electrovalve pentru automatizarea stațiilor de tratare"
     ],
-    infinitrade: `Furnizăm electrovalve ASCO la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fiecărui depozit Emerson. Termenul orientativ pentru o comandă este de 2-6 săptămâni, în funcție de serie și de confirmarea distribuitorului. Pentru o ofertă corectă, clientul trebuie să ne transmită seria exactă (de exemplu 8210 sau 8262), diametrul portului, mediul vehiculat și presiunea de lucru. Nu promitem disponibilitate din depozit pentru fiecare cod din catalogul de peste 50.000 de coduri de produs.`,
+    infinitrade: `Furnizăm electrovalve ASCO la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fiecărui depozit Emerson. Termenul orientativ pentru o comandă este de 2-4 săptămâni, în funcție de serie și de confirmarea distribuitorului. Pentru o ofertă corectă, clientul trebuie să ne transmită seria exactă (de exemplu 8210 sau 8262), diametrul portului, mediul vehiculat și presiunea de lucru. Nu promitem disponibilitate din depozit pentru fiecare cod din catalogul de peste 50.000 de coduri de produs.`,
     limitation: "Nu putem confirma disponibilitate imediată garantată pentru fiecare referință ASCO din catalogul Emerson și nu oferim configurare software pentru sistemele de automatizare asociate.",
     productCodes: [
       { code: "8210B020", description: "Electrovalvă 1/4\", serie generală, garnitură NBR" },
@@ -301,7 +301,7 @@ Pentru integratorii de automatizări din România, ASCO înseamnă o gamă de el
       { q: "Ce produce ASCO?", a: "ASCO produce electrovalve și componente de control al fluidelor — electrovalve cu acționare directă, valve de oprire combustibil, valve cu clapetă și valve pentru colectoare de praf — ca parte a diviziei Discrete Automation din Emerson." },
       { q: "Cum aleg o electrovalvă ASCO după serie?", a: "Verificați seria (210/8210 pentru servicii generale, 262/263 pentru presiuni mai mari sau medii speciale precum abur ori criogenice), apoi diametrul portului și mediul vehiculat; trimiteți-ne aceste date pentru identificarea codului ASCO exact." },
       { q: "Ce echivalent are seria 8210 de la ASCO?", a: "Seria 8210 (210) este gama proprie ASCO de electrovalve economice pentru servicii generale; branduri precum Burkert sau Parker au game similare de electrovalve cu acționare directă, dar cu coduri proprii, necomparabile direct." },
-      { q: "Livrați electrovalve ASCO în România și cât durează?", a: "Aducem electrovalvele ASCO la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de serie și de confirmarea distribuitorului Emerson, fără garanția unei disponibilități imediate garantat." }
+      { q: "Livrați electrovalve ASCO în România și cât durează?", a: "Aducem electrovalvele ASCO la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de serie și de confirmarea distribuitorului Emerson, fără garanția unei disponibilități imediate garantat." }
     ],
     evidenceClass: "zero-evidence",
     tier: 3,
@@ -342,7 +342,7 @@ Pentru instalatorii și dezvoltatorii din România, Armatura Kraków înseamnă 
       "Construcții — dezvoltatori care echipează unități locative noi",
       "Comerț — baterii pentru spații sanitare din clădiri de birouri"
     ],
-    infinitrade: `Aducem baterii și radiatoare Armatura Kraków la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fabricii din Kraków. La bateriile și radiatoarele Armatura termenul orientativ este 2-6 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă, clientul trebuie să ne transmită codul exact al produsului sau denumirea seriei (Moza, Duero, ADR), plus cantitatea necesară pentru proiect. Nu promitem disponibilitate din depozit pentru fiecare cod din gamă și recomandăm confirmarea termenului la momentul comenzii.`,
+    infinitrade: `Aducem baterii și radiatoare Armatura Kraków la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fabricii din Kraków. La bateriile și radiatoarele Armatura termenul orientativ este 2-4 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă, clientul trebuie să ne transmită codul exact al produsului sau denumirea seriei (Moza, Duero, ADR), plus cantitatea necesară pentru proiect. Nu promitem disponibilitate din depozit pentru fiecare cod din gamă și recomandăm confirmarea termenului la momentul comenzii.`,
     limitation: "Pentru Armatura Kraków nu confirmăm disponibilitate imediată garantată pe fiecare cod și nu preluăm intervenții de service acoperite de garanția producătorului fără acordul acestuia.",
     productCodes: [
       { code: "5042-813-22", description: "Baterie baie Moza 316L, inox rezistent la coroziune" },
@@ -362,7 +362,7 @@ Pentru instalatorii și dezvoltatorii din România, Armatura Kraków înseamnă 
       { q: "Ce produce Armatura Kraków?", a: "Armatura Kraków (KFA Armatura) produce baterii de baie și bucătărie, robineți cu bilă și radiatoare din aluminiu pentru instalații de încălzire, cu sediul la Kraków, activ din 1922." },
       { q: "Cum aleg o baterie Armatura Kraków după cod?", a: "Verificați seria (Moza 316L, Malaga, Logon, Otava sau Duero), apoi codul numeric complet de pe etichetă sau din catalog; trimiteți-ne acest cod pentru a confirma exact varianta de finisaj și configurația de montaj." },
       { q: "Ce echivalent are seria Moza 316L de la Armatura Kraków?", a: "Moza 316L este gama proprie de baterii din inox rezistent la coroziune; branduri precum Ferro sau Kludi au variante similare din inox, dar cu coduri și finisaje proprii, necomparabile direct." },
-      { q: "Livrați produse Armatura Kraków în România și cât durează?", a: "Aducem baterii și radiatoare Armatura Kraków la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de model și de confirmarea distribuitorului local." }
+      { q: "Livrați produse Armatura Kraków în România și cât durează?", a: "Aducem baterii și radiatoare Armatura Kraków la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de model și de confirmarea distribuitorului local." }
     ],
     evidenceClass: "gsc-only",
     tier: 3,
@@ -402,7 +402,7 @@ Pentru proiectele industriale din România, Valvitalia înseamnă acces la o gam
       "Construcții civile — fitinguri și flanșe pentru instalații de infrastructură",
       "Protecție la incendiu — sisteme dedicate pentru instalații industriale"
     ],
-    infinitrade: `Furnizăm valve Valvitalia la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fiecărei fabrici din grup. Termenul orientativ pentru o comandă este de 2-6 săptămâni, în funcție de familie și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă, clientul trebuie să ne transmită tipul de valvă, diametrul, presiunea nominală și materialul dorit (oțel carbon, inox sau material special). Nu promitem disponibilitate din depozit pentru nicio familie din gama Valvitalia.`,
+    infinitrade: `Furnizăm valve Valvitalia la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fiecărei fabrici din grup. Termenul orientativ pentru o comandă este de 2-4 săptămâni, în funcție de familie și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă, clientul trebuie să ne transmită tipul de valvă, diametrul, presiunea nominală și materialul dorit (oțel carbon, inox sau material special). Nu promitem disponibilitate din depozit pentru nicio familie din gama Valvitalia.`,
     limitation: "Nu putem confirma termenele de fabricație pentru comenzi speciale Valvitalia și nu oferim service la fața locului fără acordul direct al producătorului.",
     productCodes: [
       { code: "Valve cu bilă", description: "Valve pentru izolare rapidă a fluidelor de proces" },
@@ -421,7 +421,7 @@ Pentru proiectele industriale din România, Valvitalia înseamnă acces la o gam
       { q: "Ce produce Valvitalia?", a: "Valvitalia este un grup italian care produce valve cu bilă, sertar și fluture, actuatoare, fitinguri, sisteme de măsurare și filtrare a gazului și echipamente de protecție la incendiu, cu sediul la Rivanazzano Terme." },
       { q: "Cum aleg o valvă Valvitalia potrivită?", a: "Precizați tipul de valvă (bilă, sertar, ventil sau reținere), diametrul conductei, presiunea de proiect și materialul necesar (oțel carbon, inox sau material special); trimiteți-ne aceste date pentru identificarea familiei potrivite din gama Valvitalia." },
       { q: "Ce echivalent are gama Vitas de la Valvitalia?", a: "Vitas este brandul din grupul Valvitalia dedicat valvelor de sertar, ventil și reținere de dimensiuni mari; branduri precum Orion sau Cimberio au game similare pentru Oil&Gas, dar cu materiale și coduri proprii." },
-      { q: "Livrați valve Valvitalia în România și cât durează?", a: "Aducem valvele Valvitalia la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de familie și de confirmarea producătorului; nu promitem disponibilitate din depozit." }
+      { q: "Livrați valve Valvitalia în România și cât durează?", a: "Aducem valvele Valvitalia la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de familie și de confirmarea producătorului; nu promitem disponibilitate din depozit." }
     ],
     evidenceClass: "gsc-only",
     tier: 3,
@@ -461,7 +461,7 @@ Pentru proiectele din energie și petrochimie din România, Orion înseamnă val
       "Energie — sisteme HIPPS pentru protecția instalațiilor la suprapresiune",
       "Industrie chimică — valve de reținere și izolare pentru linii de proces"
     ],
-    infinitrade: `Aducem valve Orion la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fabricii din Trieste. Termenul orientativ pentru o comandă este de 2-6 săptămâni, în funcție de familie și de complexitatea comenzii. Pentru o ofertă corectă, clientul trebuie să ne transmită tipul de valvă, standardul API sau BS aplicabil, diametrul, clasa de presiune și materialul dorit. Nu promitem disponibilitate din depozit pentru nicio familie din gama Orion.`,
+    infinitrade: `Aducem valve Orion la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fabricii din Trieste. Termenul orientativ pentru o comandă este de 2-4 săptămâni, în funcție de familie și de complexitatea comenzii. Pentru o ofertă corectă, clientul trebuie să ne transmită tipul de valvă, standardul API sau BS aplicabil, diametrul, clasa de presiune și materialul dorit. Nu promitem disponibilitate din depozit pentru nicio familie din gama Orion.`,
     limitation: "Nu putem confirma termenele de fabricație pentru valve criogenice sau HIPPS produse la comandă specială și nu oferim testare la fața locului fără acordul producătorului.",
     productCodes: [
       { code: "Gate Valves API 600", description: "Valve cu sertar pentru izolare completă a conductei" },
@@ -481,7 +481,7 @@ Pentru proiectele din energie și petrochimie din România, Orion înseamnă val
       { q: "Ce produce Orion?", a: "Orion produce valve industriale din oțel — cu sertar, ventil, bilă cu tijă ascendentă și de reținere, plus valve speciale criogenice și pentru alchilare — cu fabrica la Trieste, Italia." },
       { q: "Cum aleg o valvă Orion după standard?", a: "Identificați standardul cerut de proiect (API 600 pentru sertar, BS 1873 pentru ventil, API 594 pentru reținere), apoi diametrul și clasa de presiune; trimiteți-ne aceste date pentru selecția corectă din gama Orion." },
       { q: "Ce echivalent are sistemul HIPPS de la Orion?", a: "HIPPS este sistemul propriu Orion de protecție la suprapresiune; alți producători de valve pentru Oil&Gas, precum Valvitalia, au sisteme similare de protecție, dar cu configurații și coduri proprii, necomparabile direct." },
-      { q: "Livrați valve Orion în România și cât durează?", a: "Aducem valvele Orion la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de familie și de complexitatea comenzii; nu promitem disponibilitate din depozit." }
+      { q: "Livrați valve Orion în România și cât durează?", a: "Aducem valvele Orion la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de familie și de complexitatea comenzii; nu promitem disponibilitate din depozit." }
     ],
     evidenceClass: "transactional",
     tier: 3,
@@ -521,7 +521,7 @@ Pentru instalatorii industriali din România, TTV înseamnă robineți fluture c
       "Chimie și petrochimie — robineți triplu excentrici pentru etanșare fără scurgeri",
       "Petrol și gaze — robineți fluture pentru conducte de diametru mare"
     ],
-    infinitrade: `Furnizăm robineți fluture TTV la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fabricii din Leganés. Termenul orientativ pentru o comandă este de 2-6 săptămâni, în funcție de diametru și de complexitatea comenzii. Pentru o ofertă corectă, clientul trebuie să ne transmită tipul constructiv (concentric, dublu sau triplu excentric), diametrul, clasa de presiune și materialul dorit. Nu promitem disponibilitate din depozit pentru nicio familie din gama TTV.`,
+    infinitrade: `Furnizăm robineți fluture TTV la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fabricii din Leganés. Termenul orientativ pentru o comandă este de 2-4 săptămâni, în funcție de diametru și de complexitatea comenzii. Pentru o ofertă corectă, clientul trebuie să ne transmită tipul constructiv (concentric, dublu sau triplu excentric), diametrul, clasa de presiune și materialul dorit. Nu promitem disponibilitate din depozit pentru nicio familie din gama TTV.`,
     limitation: "Nu putem confirma termenele de fabricație pentru diametre foarte mari sau materiale speciale TTV și nu oferim testare hidraulică la fața locului.",
     productCodes: [
       { code: "Concentric Wafer", description: "Robinet fluture concentric, montaj între flanșe" },
@@ -542,7 +542,7 @@ Pentru instalatorii industriali din România, TTV înseamnă robineți fluture c
       { q: "Ce produce TTV?", a: "TTV Válvulas produce robineți fluture industriali — concentrici, dublu excentrici și triplu excentrici — plus valve cu sertar, cu sediul la Leganés, lângă Madrid, în Spania." },
       { q: "Cum aleg un robinet fluture TTV după tip?", a: "Stabiliți întâi tipul constructiv (concentric pentru presiuni moderate, dublu sau triplu excentric pentru etanșare superioară), apoi diametrul, clasa de presiune și materialul; trimiteți-ne aceste date pentru selecția corectă din gama TTV." },
       { q: "Ce echivalent are seria Colossus de la TTV?", a: "Colossus este gama proprie TTV de robineți fluture dublu și triplu excentrici; branduri precum InterApp sau Valvitalia au game similare de robineți excentrici, dar cu coduri și materiale proprii, necomparabile direct." },
-      { q: "Livrați robineți TTV în România și cât durează?", a: "Aducem robineții fluture TTV la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de diametru și de complexitatea comenzii, fără garanția unei disponibilități imediate garantat." }
+      { q: "Livrați robineți TTV în România și cât durează?", a: "Aducem robineții fluture TTV la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de diametru și de complexitatea comenzii, fără garanția unei disponibilități imediate garantat." }
     ],
     evidenceClass: "history-only",
     tier: 3,
@@ -583,7 +583,7 @@ Pentru instalatorii din România, Cimberio înseamnă un sistem de conectare pri
       "Renovări și retrofit — sistem de conectare prin presare pentru montaj rapid",
       "Climatizare — componente pentru instalații de încălzire centrală"
     ],
-    infinitrade: `Aducem armături Cimberio la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fabricii din San Maurizio d'Opaglio. Termenul orientativ este de 2-6 săptămâni de la confirmarea comenzii, în funcție de codul cerut și de stocul partenerilor din UE la momentul respectiv. Pentru o ofertă corectă, clientul trebuie să ne transmită codul exact (de exemplu 1220NL sau 778PV), diametrul conductei și tipul de sistem de conectare folosit. Nu promitem disponibilitate din depozit pentru fiecare cod din gamă.`,
+    infinitrade: `Aducem armături Cimberio la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fabricii din San Maurizio d'Opaglio. Termenul orientativ este de 2-4 săptămâni de la confirmarea comenzii, în funcție de codul cerut și de stocul partenerilor din UE la momentul respectiv. Pentru o ofertă corectă, clientul trebuie să ne transmită codul exact (de exemplu 1220NL sau 778PV), diametrul conductei și tipul de sistem de conectare folosit. Nu promitem disponibilitate din depozit pentru fiecare cod din gamă.`,
     limitation: "Pentru Cimberio nu confirmăm disponibilitate imediată garantată pe fiecare cod din gamă, iar service-ul în perioada de garanție rămâne condiționat de acordul direct al producătorului.",
     productCodes: [
       { code: "1220NL", description: "Robinet cu bilă full-port, conectare CimPress" },
@@ -606,7 +606,7 @@ Pentru instalatorii din România, Cimberio înseamnă un sistem de conectare pri
       { q: "Ce produce Cimberio?", a: "Cimberio produce armături termohidraulice — robineți cu bilă din seria CimPress, valve de sertar, valve de echilibrare termostatică și robineți de gaz — cu sediul la San Maurizio d'Opaglio, Italia." },
       { q: "Cum aleg un robinet Cimberio după cod?", a: "Verificați dacă instalația folosește conectare prin presare CimPress, filetare sau sistem NIBCO/PEX, apoi diametrul conductei; trimiteți-ne codul de pe robinet sau aceste date pentru identificarea variantei exacte din gama Cimberio." },
       { q: "Ce echivalent are sistemul CimPress de la Cimberio?", a: "CimPress este sistemul propriu Cimberio de conectare prin presare; branduri precum Caleffi sau Watts au sisteme similare de montaj rapid, dar cu fitinguri și unelte de presare proprii, necompatibile direct." },
-      { q: "Livrați armături Cimberio în România și cât durează?", a: "Aducem armăturile Cimberio la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni, în funcție de model și de confirmarea distribuitorului, fără garanția unei disponibilități imediate garantat." }
+      { q: "Livrați armături Cimberio în România și cât durează?", a: "Aducem armăturile Cimberio la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni, în funcție de model și de confirmarea distribuitorului, fără garanția unei disponibilități imediate garantat." }
     ],
     evidenceClass: "history-only",
     tier: 3,

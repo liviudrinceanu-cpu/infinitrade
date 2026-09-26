@@ -137,7 +137,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru ofertă și cât durează livrarea unei scule pneumatice?",
-        "a": "Sunt necesare tipul de operație, cuplul sau forța necesară, presiunea și debitul de aer disponibile, plus frecvența de utilizare. Livrarea se face la comandă, orientativ în 2–6 săptămâni, în funcție de producător și de modelul solicitat."
+        "a": "Sunt necesare tipul de operație, cuplul sau forța necesară, presiunea și debitul de aer disponibile, plus frecvența de utilizare. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător și de modelul solicitat."
       },
       {
         "q": "De ce scade performanța unei scule pneumatice deși compresorul pare suficient?",
@@ -215,7 +215,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de instrumente de măsură dimensională și cât durează livrarea?",
-        "a": "Domeniul de măsură necesar, tipul de instrument dorit și necesitatea unui certificat de calibrare. Livrarea este la comandă, orientativ 2-6 săptămâni, termenul putând fi mai scurt pentru instrumentele simple, produse de mai mulți fabricanți."
+        "a": "Domeniul de măsură necesar, tipul de instrument dorit și necesitatea unui certificat de calibrare. Livrarea este la comandă, orientativ 2-4 săptămâni, termenul putând fi mai scurt pentru instrumentele simple, produse de mai mulți fabricanți."
       },
       {
         "q": "Cât de des trebuie etalonat un instrument de măsură dimensională?",
@@ -289,7 +289,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de echipament de testare și cât durează livrarea?",
-        "a": "Sunt necesare tipul de măsurare dorit, clasa de siguranță electrică cerută și mediul de utilizare. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de model și de producătorul ales."
+        "a": "Sunt necesare tipul de măsurare dorit, clasa de siguranță electrică cerută și mediul de utilizare. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de model și de producătorul ales."
       },
       {
         "q": "Cât de des trebuie calibrat un echipament de testare electrică?",
@@ -361,7 +361,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trimiteți pentru o ofertă de scule de mână și cât durează livrarea?",
-        "a": "Tipul de scule necesare, standardul de antrenare, cantitatea și dacă este vorba de un set complet sau de completare a unui set existent. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător, mai rapidă pentru sculele din gama standard."
+        "a": "Tipul de scule necesare, standardul de antrenare, cantitatea și dacă este vorba de un set complet sau de completare a unui set existent. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, mai rapidă pentru sculele din gama standard."
       },
       {
         "q": "Cât de des trebuie verificată calibrarea unei chei dinamometrice?",
@@ -435,7 +435,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de echipamente pentru sudură?",
-        "a": "Procedeul dorit, materialul și grosimea sudate, curentul maxim necesar și sursa de alimentare disponibilă sunt suficiente pentru o ofertă corectă; dacă e nevoie și de accesorii, se menționează separat. Livrarea depinde de producător și se confirmă la comandă, orientativ în 2-6 săptămâni."
+        "a": "Procedeul dorit, materialul și grosimea sudate, curentul maxim necesar și sursa de alimentare disponibilă sunt suficiente pentru o ofertă corectă; dacă e nevoie și de accesorii, se menționează separat. Livrarea depinde de producător și se confirmă la comandă, orientativ în 2-4 săptămâni."
       },
       {
         "q": "Ce piese de uzură trebuie ținute la îndemână pentru un echipament de sudură MIG?",

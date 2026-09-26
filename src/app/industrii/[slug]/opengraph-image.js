@@ -16,8 +16,9 @@ export default async function Image({ params }) {
 
   const name = industry?.name || 'Industrie';
   const applications = industry?.applications?.slice(0, 4) || [];
-  const projects = industry?.stats?.projects || '200+';
-  const experience = industry?.stats?.experience || '15+ ani';
+  // v17: counts derived from the industry data (the old stats had no source).
+  const projects = String(industry?.equipment?.length || '');
+  const experience = String(industry?.brands?.length || '');
 
   return new ImageResponse(
     (
@@ -137,7 +138,7 @@ export default async function Image({ params }) {
                 {projects}
               </span>
               <span style={{ color: '#64748b', fontSize: '18px' }}>
-                Proiecte Realizate
+                Tipuri de echipamente
               </span>
             </div>
             <div
@@ -150,7 +151,7 @@ export default async function Image({ params }) {
                 {experience}
               </span>
               <span style={{ color: '#64748b', fontSize: '18px' }}>
-                Experiență
+                Branduri recomandate
               </span>
             </div>
           </div>

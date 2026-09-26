@@ -240,7 +240,7 @@ export default async function ProductTypePage({ params }) {
               {content.whatToSend.map((w) => <li key={w}>{w}</li>)}
             </ul>
             <p className={base.sectionNote}>
-              Aducem la comandă, prin canalele de aprovizionare ale producătorului; termen orientativ 2–6 săptămâni, în funcție de confirmarea fabricii.
+              Aducem la comandă, prin canalele de aprovizionare ale producătorului; termen orientativ 2–4 săptămâni, în funcție de confirmarea fabricii.
             </p>
             <Link href="/contact" className={base.ctaButton}>Cere ofertă</Link>
           </div>

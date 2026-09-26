@@ -76,7 +76,7 @@ export function buildSharedPrefix() {
     'Owner decisions 1-9 (b3/CTX.md): never claim "distribuitor autorizat/oficial/exclusiv",',
     '"partener oficial", "reprezentanta", "service autorizat"; use "furnizam / livram / putem',
     'oferta / lucram cu gama"; never state prices, stock or delivery beyond 24-72h din stoc /',
-    '2-6 saptamani la comanda plus real stock.tsv rows; never invent client names, contacts,',
+    '2-4 saptamani la comanda (OEM/custom may exceed 4) plus real stock.tsv rows; never invent client names, contacts,',
     'emails, phones, CUI, or re-identifying combinations; never delete/rename an indexed URL.',
     'Per page, verify: answer-first opening (the page answers the buyer question in its first',
     '~60 words, before any company narrative); no OEM-marketing-copy paraphrase; specs plausible',

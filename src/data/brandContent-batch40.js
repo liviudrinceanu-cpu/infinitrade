@@ -29,7 +29,7 @@ Pentru piața din România, seriile Unitronics au sens la constructorii de utila
       "Auto și componente — mașini dedicate de producție și testare",
       "Centre de date — soluții de monitorizare și control pentru sisteme de răcire",
     ],
-    infinitrade: `Pentru Unitronics lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe seriile UniStream, Vision, Samba sau Jazz — spunem clar ce putem și ce nu putem confirma înainte de ofertă. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, în funcție de model. Pentru o ofertă corectă avem nevoie de seria exactă, mărimea ecranului, numărul de intrări/ieșiri și, dacă e cazul, protocolul de comunicație necesar. Nu promitem disponibilitate permanentă din stoc pe nicio serie — fiecare comandă se confirmă cu disponibilitatea reală de la furnizor.`,
+    infinitrade: `Pentru Unitronics lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe seriile UniStream, Vision, Samba sau Jazz — spunem clar ce putem și ce nu putem confirma înainte de ofertă. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de model. Pentru o ofertă corectă avem nevoie de seria exactă, mărimea ecranului, numărul de intrări/ieșiri și, dacă e cazul, protocolul de comunicație necesar. Nu promitem disponibilitate permanentă din stoc pe nicio serie — fiecare comandă se confirmă cu disponibilitatea reală de la furnizor.`,
     limitation: "Nu putem confirma programarea sau punerea în funcțiune a aplicațiilor UniLogic — acestea rămân în sarcina integratorului sau a clientului final.",
     productCodes: [
       {
@@ -108,7 +108,7 @@ Pentru piața din România, seriile Unitronics au sens la constructorii de utila
       },
       {
         "q": "Livrați automate Unitronics în România?",
-        "a": "Da, aducem la comandă module din seriile Vision, UniStream și Samba prezentate mai sus, pornind de la fișele tehnice publicate de producător; nu ținem aceste automate pe raft ca stoc propriu. Așteptarea obișnuită este de 2-6 săptămâni, în funcție de modelul ales. Pentru o ofertă corectă, transmiteți numărul de intrări/ieșiri necesar și dimensiunea ecranului dorită."
+        "a": "Da, aducem la comandă module din seriile Vision, UniStream și Samba prezentate mai sus, pornind de la fișele tehnice publicate de producător; nu ținem aceste automate pe raft ca stoc propriu. Așteptarea obișnuită este de 2-4 săptămâni, în funcție de modelul ales. Pentru o ofertă corectă, transmiteți numărul de intrări/ieșiri necesar și dimensiunea ecranului dorită."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de PLC Unitronics?",
@@ -159,7 +159,7 @@ Pentru România, Gefran are sens la liniile de extrudere plastic, mașini mobile
       "SIL2/PL d — siguranță funcțională pentru senzorii cu fir tras GSH-S/GSH-A",
       "ATEX, IECEx, NEPSIEx — variante certificate pentru zone cu risc de explozie",
     ],
-    infinitrade: `Pentru Gefran ne bazăm pe informațiile de pe site-ul producătorului și pe fișele tehnice publice ale seriilor de senzori și regulatoare — fără date proprii de stoc pentru această gamă. Aducem senzorii, regulatoarele și modulele G-Mation la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de codul produsului sau, dacă nu-l aveți, de parametrii aplicației: tipul de măsurare, plaja de lucru și dacă e nevoie de certificare ATEX. Nu ținem disponibilitate permanentă din stoc pe nicio serie Gefran.`,
+    infinitrade: `Pentru Gefran ne bazăm pe informațiile de pe site-ul producătorului și pe fișele tehnice publice ale seriilor de senzori și regulatoare — fără date proprii de stoc pentru această gamă. Aducem senzorii, regulatoarele și modulele G-Mation la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de codul produsului sau, dacă nu-l aveți, de parametrii aplicației: tipul de măsurare, plaja de lucru și dacă e nevoie de certificare ATEX. Nu ținem disponibilitate permanentă din stoc pe nicio serie Gefran.`,
     limitation: "Nu putem confirma configurarea software a platformei G-Mation sau a platformei IoT MAX — acestea necesită suport direct de la producător sau integrator.",
     productCodes: [
       {
@@ -218,7 +218,7 @@ Pentru România, Gefran are sens la liniile de extrudere plastic, mașini mobile
       },
       {
         "q": "Livrați senzori de presiune Gefran în România?",
-        "a": "Da, aducem la comandă traductoarele de presiune din gama descrisă, plecând de la fișele tehnice publice ale Gefran; acești senzori nu se află în mod curent pe raftul propriu. Livrarea durează în mod uzual 2-6 săptămâni, funcție de model și de certificările solicitate. Pentru o ofertă, transmiteți intervalul de presiune și fluidul măsurat."
+        "a": "Da, aducem la comandă traductoarele de presiune din gama descrisă, plecând de la fișele tehnice publice ale Gefran; acești senzori nu se află în mod curent pe raftul propriu. Livrarea durează în mod uzual 2-4 săptămâni, funcție de model și de certificările solicitate. Pentru o ofertă, transmiteți intervalul de presiune și fluidul măsurat."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de traductor de presiune Gefran?",
@@ -265,7 +265,7 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
       "Aviație — componente de precizie pentru sisteme mecanice",
       "Industrie alimentară — rulmenți pentru linii de procesare",
     ],
-    infinitrade: `Pentru NTN și NTN-SNR lucrăm din informațiile publice de pe site-ul producătorului și din istoricul companiei disponibil public — nu avem date proprii de stoc pentru această gamă și spunem deschis când o informație tehnică nu poate fi confirmată direct de noi. Aducem rulmenții, modulele liniare și componentele auto la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru ofertă avem nevoie de codul exact al rulmentului sau componentei; dacă nu-l aveți, trimiteți dimensiunile arborelui, tipul de sarcină și aplicația. Nu promitem disponibilitate permanentă din stoc — fiecare cod se verifică la comandă.`,
+    infinitrade: `Pentru NTN și NTN-SNR lucrăm din informațiile publice de pe site-ul producătorului și din istoricul companiei disponibil public — nu avem date proprii de stoc pentru această gamă și spunem deschis când o informație tehnică nu poate fi confirmată direct de noi. Aducem rulmenții, modulele liniare și componentele auto la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru ofertă avem nevoie de codul exact al rulmentului sau componentei; dacă nu-l aveți, trimiteți dimensiunile arborelui, tipul de sarcină și aplicația. Nu promitem disponibilitate permanentă din stoc — fiecare cod se verifică la comandă.`,
     limitation: "Nu putem confirma echivalențe exacte cu coduri de la alți producători de rulmenți fără verificare tehnică punctuală pe fiecare aplicație.",
     productCodes: [
       {
@@ -324,7 +324,7 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
       },
       {
         "q": "Livrați rulmenți NTN la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă rulmenți și unități de rulment din gamele 6200, 6300 sau seria Ultra-Class de tip UCP, pe baza codului complet confirmat din catalogul oficial NTN. Nu păstrăm rulmenții NTN pe raft ca stoc curent; îi aducem la comandă, de regulă în 2-6 săptămâni. Recomandăm transmiterea codului complet ștanțat pe inelul exterior."
+        "a": "Da, aducem la comandă rulmenți și unități de rulment din gamele 6200, 6300 sau seria Ultra-Class de tip UCP, pe baza codului complet confirmat din catalogul oficial NTN. Nu păstrăm rulmenții NTN pe raft ca stoc curent; îi aducem la comandă, de regulă în 2-4 săptămâni. Recomandăm transmiterea codului complet ștanțat pe inelul exterior."
       },
       {
         "q": "Ce este unitatea de rulment NTN UCP206?",
@@ -374,7 +374,7 @@ Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimen
       "Industrie generală — benzi Rapplon pentru transport greu",
       "Logistică și manipulare materiale — benzi modulare cu drenaj pentru curbe",
     ],
-    infinitrade: `Pentru Ammeraal Beltech pornim de la informațiile publice ale producătorului privind structurile de bandă disponibile — fără date proprii de stoc pe această gamă, pentru că fiecare bandă se confecționează sau se taie la dimensiunea liniei clientului. Aducem benzile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de lățimea și lungimea benzii, tipul de transportor, viteza de lucru și tipul de produs transportat. Nu promitem disponibilitate permanentă din stoc pe nicio structură de bandă.`,
+    infinitrade: `Pentru Ammeraal Beltech pornim de la informațiile publice ale producătorului privind structurile de bandă disponibile — fără date proprii de stoc pe această gamă, pentru că fiecare bandă se confecționează sau se taie la dimensiunea liniei clientului. Aducem benzile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de lățimea și lungimea benzii, tipul de transportor, viteza de lucru și tipul de produs transportat. Nu promitem disponibilitate permanentă din stoc pe nicio structură de bandă.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unei structuri anume de bandă fără verificare punctuală la producător pentru dimensiunea cerută.",
     productCodes: [
       {
@@ -433,7 +433,7 @@ Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimen
       },
       {
         "q": "Livrați curele Ammeraal Beltech în România?",
-        "a": "Curelele Ammeraal Beltech nu sunt ținute pe raft la noi; le aducem la comandă direct din gama producătorului, de regulă în 2–6 săptămâni, având în vedere numărul mare de materiale și lățimi disponibile în catalog."
+        "a": "Curelele Ammeraal Beltech nu sunt ținute pe raft la noi; le aducem la comandă direct din gama producătorului, de regulă în 2–4 săptămâni, având în vedere numărul mare de materiale și lățimi disponibile în catalog."
       },
       {
         "q": "Ce este banda Solicord și pentru ce se folosește?",
@@ -478,7 +478,7 @@ Pentru România, unde Noark are deja o filială la București, gama are sens la 
       "Proiecte fotovoltaice — echipamente de protecție și distribuție",
       "Sănătate și educație — tablouri electrice pentru clădiri publice",
     ],
-    infinitrade: `Pentru Noark Electric lucrăm din informațiile publice ale producătorului și din prezentarea filialei din România — fără date proprii de stoc pe seriile de întreruptoare sau contactoare. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de model și cantitate. Pentru o ofertă corectă avem nevoie de curentul nominal, numărul de poli, tipul de montaj și, la întreruptoarele automate, tipul de unitate de declanșare dorit. Nu promitem disponibilitate permanentă din stoc pe nicio serie.`,
+    infinitrade: `Pentru Noark Electric lucrăm din informațiile publice ale producătorului și din prezentarea filialei din România — fără date proprii de stoc pe seriile de întreruptoare sau contactoare. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare, în funcție de model și cantitate. Pentru o ofertă corectă avem nevoie de curentul nominal, numărul de poli, tipul de montaj și, la întreruptoarele automate, tipul de unitate de declanșare dorit. Nu promitem disponibilitate permanentă din stoc pe nicio serie.`,
     limitation: "Nu putem confirma compatibilitatea exactă de selectivitate între seriile Noark și aparatajul deja instalat de alți producători fără o verificare tehnică punctuală.",
     productCodes: [
       {
@@ -557,7 +557,7 @@ Pentru România, unde Noark are deja o filială la București, gama are sens la 
       },
       {
         "q": "Livrați întreruptoare Noark Electric în România?",
-        "a": "Da, procurăm la cerere întreruptoarele Ex9A16N prezentate mai sus, plecând de la cataloagele tehnice publicate de Noark Electric; gama nu este menținută permanent în depozitul propriu. Așteptați, de regulă, 2-6 săptămâni de la plasarea comenzii, în funcție de configurația aleasă. Pentru o ofertă corectă, precizați curentul și numărul de poli necesar."
+        "a": "Da, procurăm la cerere întreruptoarele Ex9A16N prezentate mai sus, plecând de la cataloagele tehnice publicate de Noark Electric; gama nu este menținută permanent în depozitul propriu. Așteptați, de regulă, 2-4 săptămâni de la plasarea comenzii, în funcție de configurația aleasă. Pentru o ofertă corectă, precizați curentul și numărul de poli necesar."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de întreruptor automat în aer Noark?",
@@ -603,7 +603,7 @@ Pentru România, cablurile Belden au sens la instalații industriale unde rețea
       "Transport și logistică — rețele de comunicație pentru infrastructură",
       "Sănătate — cablare de date pentru echipamente medicale conectate",
     ],
-    infinitrade: `Pentru Belden lucrăm din fișele publice ale producătorului privind familiile de cabluri și echipamente de rețea — fără date proprii de stoc, din cauza numărului mare de variante de cablu existente. Aducem cablurile și echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de lungime. Pentru o ofertă corectă avem nevoie de categoria de cablu sau codul de produs, lungimea necesară și mediul de instalare. Nu promitem disponibilitate permanentă din stoc pe nicio referință.`,
+    infinitrade: `Pentru Belden lucrăm din fișele publice ale producătorului privind familiile de cabluri și echipamente de rețea — fără date proprii de stoc, din cauza numărului mare de variante de cablu existente. Aducem cablurile și echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare, în funcție de lungime. Pentru o ofertă corectă avem nevoie de categoria de cablu sau codul de produs, lungimea necesară și mediul de instalare. Nu promitem disponibilitate permanentă din stoc pe nicio referință.`,
     limitation: "Nu putem confirma echivalențe de compatibilitate cu echipamente active de la alți producători fără verificare tehnică punctuală a instalației.",
     productCodes: [
       {
@@ -662,7 +662,7 @@ Pentru România, cablurile Belden au sens la instalații industriale unde rețea
       },
       {
         "q": "Livrați echipamente de rețea Belden în România?",
-        "a": "Da, comandăm echipamentele din familiile RSP, RSPS, RSPE, RSPM, OCTOPUS, seria OS și BOBCAT enumerate mai sus, folosind cataloagele publice Belden; nu este vorba despre echipamente păstrate curent la noi pe raft. Livrarea are loc, în general, în 2-6 săptămâni de la comandă, funcție de configurație."
+        "a": "Da, comandăm echipamentele din familiile RSP, RSPS, RSPE, RSPM, OCTOPUS, seria OS și BOBCAT enumerate mai sus, folosind cataloagele publice Belden; nu este vorba despre echipamente păstrate curent la noi pe raft. Livrarea are loc, în general, în 2-4 săptămâni de la comandă, funcție de configurație."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de switch industrial Belden?",
@@ -706,7 +706,7 @@ Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierel
       "Ateliere mecanice — întreținere curentă a uneltelor și utilajelor",
       "Electric și electronic — curățare contacte cu spray dedicat din gama Specialist",
     ],
-    infinitrade: `Pentru WD-40 lucrăm din informațiile publice ale producătorului privind cele două linii, Multi-Use și Specialist — fără date proprii de stoc, pentru că produsele de consum tehnic circulă prin canale de distribuție cu rotație rapidă. Aducem sprayurile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru cantități mai mari sau produse din gama Specialist mai puțin uzuale. Pentru o ofertă corectă avem nevoie de produsul exact dorit, formatul și cantitatea. Nu promitem disponibilitate permanentă din stoc — verificăm disponibilitatea la fiecare comandă.`,
+    infinitrade: `Pentru WD-40 lucrăm din informațiile publice ale producătorului privind cele două linii, Multi-Use și Specialist — fără date proprii de stoc, pentru că produsele de consum tehnic circulă prin canale de distribuție cu rotație rapidă. Aducem sprayurile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru cantități mai mari sau produse din gama Specialist mai puțin uzuale. Pentru o ofertă corectă avem nevoie de produsul exact dorit, formatul și cantitatea. Nu promitem disponibilitate permanentă din stoc — verificăm disponibilitatea la fiecare comandă.`,
     limitation: "Nu putem confirma compoziția chimică exactă sau fișele de siguranță ale produselor fără a le prelua direct de la producător pentru fiecare comandă.",
     productCodes: [
       {
@@ -765,7 +765,7 @@ Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierel
       },
       {
         "q": "Livrați produse WD-40 în România?",
-        "a": "Da, aducem la comandă produsele WD-40 Multi-Use și Specialist enumerate mai sus, respectând fișele publice ale producătorului; nu deținem aceste produse ca inventar permanent pe raft. De obicei, aprovizionarea durează 2-6 săptămâni, în funcție de format și de cantitatea comandată."
+        "a": "Da, aducem la comandă produsele WD-40 Multi-Use și Specialist enumerate mai sus, respectând fișele publice ale producătorului; nu deținem aceste produse ca inventar permanent pe raft. De obicei, aprovizionarea durează 2-4 săptămâni, în funcție de format și de cantitatea comandată."
       },
       {
         "q": "Ce trebuie să știu înainte de a comanda produse din gama WD-40 Specialist?",
@@ -811,7 +811,7 @@ Pentru România, componentele Rulmeca au sens la benzile transportoare din miner
       "Reciclare — componente pentru linii de sortare cu bandă",
       "Logistică și e-commerce — role motorizate pentru linii de unit handling",
     ],
-    infinitrade: `La Rulmeca pornim de la ce spune site-ul producătorului despre motoarele tambur, role și componentele de bandă — nu avem date proprii de stoc pe această gamă, pentru că majoritatea componentelor se dimensionează pe aplicație. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de dimensiune. Pentru o ofertă corectă avem nevoie de diametrul tamburului sau rolei, lățimea benzii, sarcina de transportat și viteza dorită. Nu promitem disponibilitate permanentă din stoc pe nicio componentă.`,
+    infinitrade: `La Rulmeca pornim de la ce spune site-ul producătorului despre motoarele tambur, role și componentele de bandă — nu avem date proprii de stoc pe această gamă, pentru că majoritatea componentelor se dimensionează pe aplicație. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare, în funcție de dimensiune. Pentru o ofertă corectă avem nevoie de diametrul tamburului sau rolei, lățimea benzii, sarcina de transportat și viteza dorită. Nu promitem disponibilitate permanentă din stoc pe nicio componentă.`,
     limitation: "Nu putem confirma dimensionarea finală a unui motor tambur fără datele complete ale transportorului — lungime, înclinare și tip de material transportat.",
     productCodes: [
       {
@@ -898,7 +898,7 @@ Pentru România, componentele Rulmeca au sens la benzile transportoare din miner
       },
       {
         "q": "Livrați motoare tambur Rulmeca în România?",
-        "a": "Da, procurăm la comandă motoarele tambur Rulmeca din gamele prezentate mai sus, conform cataloagelor tehnice publicate de producător; dimensiunile mari nu sunt păstrate curent în depozit propriu. Așteptarea tipică este între 2 și 6 săptămâni, în funcție de diametrul și puterea alese."
+        "a": "Da, procurăm la comandă motoarele tambur Rulmeca din gamele prezentate mai sus, conform cataloagelor tehnice publicate de producător; dimensiunile mari nu sunt păstrate curent în depozit propriu. Așteptarea tipică este între 2 și 4 săptămâni, în funcție de diametrul și puterea alese."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de motor tambur Rulmeca?",
@@ -949,7 +949,7 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
       "ISO 9001 — certificat din 1992, actualizat la versiunea 2015",
       "AD2000 — pentru echipamente sub presiune",
     ],
-    infinitrade: `Pentru OMAL ne bazăm pe informațiile publice ale producătorului privind gamele de robineți și actuatoare — fără date proprii de stoc, pentru că majoritatea ansamblurilor se configurează pe diametru, presiune și tip de acționare. Aducem robineții și actuatoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de configurație. Pentru o ofertă corectă avem nevoie de diametrul robinetului, presiunea nominală, materialul dorit și tipul de actuator. Nu promitem disponibilitate permanentă din stoc pe nicio configurație.`,
+    infinitrade: `Pentru OMAL ne bazăm pe informațiile publice ale producătorului privind gamele de robineți și actuatoare — fără date proprii de stoc, pentru că majoritatea ansamblurilor se configurează pe diametru, presiune și tip de acționare. Aducem robineții și actuatoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare, în funcție de configurație. Pentru o ofertă corectă avem nevoie de diametrul robinetului, presiunea nominală, materialul dorit și tipul de actuator. Nu promitem disponibilitate permanentă din stoc pe nicio configurație.`,
     limitation: "Nu putem confirma timpul exact de livrare pentru configurații speciale de actuator-robinet fără o cerere de ofertă punctuală la producător.",
     productCodes: [
       {
@@ -1044,7 +1044,7 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
       },
       {
         "q": "Livrați robineți și actuatoare OMAL în România?",
-        "a": "Da, comandăm robineții și actuatoarele OMAL din seriile prezentate mai sus, urmând documentația tehnică publicată de producător; această gamă nu este ținută curent pe rafturile noastre. Livrarea se face uzual în 2-6 săptămâni, în funcție de dimensiunea și materialul solicitate."
+        "a": "Da, comandăm robineții și actuatoarele OMAL din seriile prezentate mai sus, urmând documentația tehnică publicată de producător; această gamă nu este ținută curent pe rafturile noastre. Livrarea se face uzual în 2-4 săptămâni, în funcție de dimensiunea și materialul solicitate."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de robinet cu bilă OMAL?",
@@ -1092,7 +1092,7 @@ Pentru România, sculele Knipex au sens la electricieni, instalatori și atelier
       "Electronică — clești de precizie pentru cablaj fin",
       "Ateliere auto — clești pentru prindere și tăiere în spații restrânse",
     ],
-    infinitrade: `Pentru Knipex lucrăm din informațiile publice despre companie și gama de produse — fără date proprii de stoc pe modelele individuale de clești, pentru că gama depășește 900 de variante. Aducem clești Knipex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare pentru modelele mai puțin uzuale. Pentru o ofertă corectă avem nevoie de tipul exact de clește, lungimea dorită și dacă e nevoie de mâner izolat. Nu promitem disponibilitate permanentă din stoc pe fiecare model.`,
+    infinitrade: `Pentru Knipex lucrăm din informațiile publice despre companie și gama de produse — fără date proprii de stoc pe modelele individuale de clești, pentru că gama depășește 900 de variante. Aducem clești Knipex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare pentru modelele mai puțin uzuale. Pentru o ofertă corectă avem nevoie de tipul exact de clește, lungimea dorită și dacă e nevoie de mâner izolat. Nu promitem disponibilitate permanentă din stoc pe fiecare model.`,
     limitation: "Nu putem confirma codul exact de produs pentru fiecare din cele peste 900 de variante fără o cerere punctuală, model cu model.",
     productCodes: [
       {
@@ -1167,7 +1167,7 @@ Pentru România, sculele Knipex au sens la electricieni, instalatori și atelier
       },
       {
         "q": "Livrați scule Knipex în România?",
-        "a": "Sculele Knipex se aduc la comandă direct din catalogul producătorului, într-un termen orientativ de 2–6 săptămâni de la confirmare, întrucât nu păstrăm pe raft o gamă atât de variată de clești și seturi."
+        "a": "Sculele Knipex se aduc la comandă direct din catalogul producătorului, într-un termen orientativ de 2–4 săptămâni de la confirmare, întrucât nu păstrăm pe raft o gamă atât de variată de clești și seturi."
       },
       {
         "q": "Ce conține un set de scule izolate Knipex precum 98 99 12?",
@@ -1212,7 +1212,7 @@ Pentru România, gama Beta are sens la ateliere de reparații auto, întreținer
       "Artizanat și mecanică generală — scule de mână de uz zilnic",
       "Motorsport — scule testate în condiții de uz intens la echipe de competiție",
     ],
-    infinitrade: `Pentru Beta Utensili lucrăm din informațiile publice ale producătorului privind gama de scule — fără date proprii de stoc, având în vedere catalogul de peste 16.000 de referințe. Aducem sculele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare pentru referințele mai puțin uzuale. Pentru o ofertă corectă avem nevoie de codul de produs sau, dacă nu-l aveți, de tipul de sculă și parametrii necesari. Nu promitem disponibilitate permanentă din stoc pe niciun cod din catalog.`,
+    infinitrade: `Pentru Beta Utensili lucrăm din informațiile publice ale producătorului privind gama de scule — fără date proprii de stoc, având în vedere catalogul de peste 16.000 de referințe. Aducem sculele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare pentru referințele mai puțin uzuale. Pentru o ofertă corectă avem nevoie de codul de produs sau, dacă nu-l aveți, de tipul de sculă și parametrii necesari. Nu promitem disponibilitate permanentă din stoc pe niciun cod din catalog.`,
     limitation: "Nu putem confirma disponibilitatea serviciului de etalonare pentru chei dinamometrice direct la noi — acesta rămâne un serviciu oferit de producător sau de laboratoare autorizate.",
     productCodes: [
       {
@@ -1275,7 +1275,7 @@ Pentru România, gama Beta are sens la ateliere de reparații auto, întreținer
       },
       {
         "q": "Livrați scule Beta Utensili în România?",
-        "a": "Da, aducem la comandă sculele Beta din gamele enumerate mai sus, urmărind cataloagele tehnice ale producătorului; nu păstrăm aceste unelte ca stoc propriu pe rafturile magazinului. De regulă, livrarea durează 2-6 săptămâni, în funcție de model și de disponibilitatea din fabrică."
+        "a": "Da, aducem la comandă sculele Beta din gamele enumerate mai sus, urmărind cataloagele tehnice ale producătorului; nu păstrăm aceste unelte ca stoc propriu pe rafturile magazinului. De regulă, livrarea durează 2-4 săptămâni, în funcție de model și de disponibilitatea din fabrică."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de sculărie Beta?",
@@ -1321,7 +1321,7 @@ Pentru România, senzorii PCB au sens la programele de mentenanță predictivă 
       "Auto — teste de vibrații pe componente și subansamble",
       "Alimentar și băuturi — monitorizare vibrații pe linii de producție",
     ],
-    infinitrade: `Informațiile despre accelerometrele și traductoarele PCB Piezotronics vin din surse publice ale producătorului — nu păstrăm stoc propriu pe această gamă, pentru că majoritatea senzorilor se aleg pe aplicație specifică. Aducem senzorii la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de model. Pentru o ofertă corectă avem nevoie de plaja de măsură (frecvență, accelerație, presiune sau forță), tipul de montaj și temperatura de lucru a aplicației. Nu promitem disponibilitate permanentă din stoc pe niciun model de senzor.`,
+    infinitrade: `Informațiile despre accelerometrele și traductoarele PCB Piezotronics vin din surse publice ale producătorului — nu păstrăm stoc propriu pe această gamă, pentru că majoritatea senzorilor se aleg pe aplicație specifică. Aducem senzorii la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare, în funcție de model. Pentru o ofertă corectă avem nevoie de plaja de măsură (frecvență, accelerație, presiune sau forță), tipul de montaj și temperatura de lucru a aplicației. Nu promitem disponibilitate permanentă din stoc pe niciun model de senzor.`,
     limitation: "Nu putem confirma calibrarea individuală a fiecărui senzor fără certificatul de calibrare emis direct de producător pentru lotul comandat.",
     productCodes: [
       {
@@ -1384,7 +1384,7 @@ Pentru România, senzorii PCB au sens la programele de mentenanță predictivă 
       },
       {
         "q": "Livrați accelerometre PCB Piezotronics în România?",
-        "a": "Accelerometrele PCB Piezotronics ajung la noi pe bază de comandă transmisă către producător, cu un termen mediu de 2–6 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de variante de sensibilitate și montaj."
+        "a": "Accelerometrele PCB Piezotronics ajung la noi pe bază de comandă transmisă către producător, cu un termen mediu de 2–4 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de variante de sensibilitate și montaj."
       },
       {
         "q": "Ce este accelerometrul triaxial miniatural 356A4X de la PCB Piezotronics?",
@@ -1435,7 +1435,7 @@ Pentru România, traductoarele BD Sensors au sens la stațiile de tratare a apei
     certifications: [
       "Laborator de calibrare presiune acreditat DAkkS, pentru game de până la 800 bar",
     ],
-    infinitrade: `Gama de traductoare BD Sensors o cunoaștem din surse publice ale producătorului, fără date proprii de stoc pe modelele individuale. Aducem traductoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de model și tip de ieșire. Pentru o ofertă corectă avem nevoie de plaja de măsură necesară, tipul de ieșire (analogică sau digitală, cu protocolul dorit) și, la sonde, adâncimea sau lungimea de cablu. Nu promitem disponibilitate permanentă din stoc pe niciun model.`,
+    infinitrade: `Gama de traductoare BD Sensors o cunoaștem din surse publice ale producătorului, fără date proprii de stoc pe modelele individuale. Aducem traductoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare, în funcție de model și tip de ieșire. Pentru o ofertă corectă avem nevoie de plaja de măsură necesară, tipul de ieșire (analogică sau digitală, cu protocolul dorit) și, la sonde, adâncimea sau lungimea de cablu. Nu promitem disponibilitate permanentă din stoc pe niciun model.`,
     limitation: "Nu putem confirma certificatul de calibrare individual pentru fiecare traductor fără să-l solicităm punctual de la producător pentru lotul comandat.",
     productCodes: [
       {
@@ -1514,7 +1514,7 @@ Pentru România, traductoarele BD Sensors au sens la stațiile de tratare a apei
       },
       {
         "q": "Livrați traductoare BD Sensors în România?",
-        "a": "Da, procurăm la comandă traductoarele BD Sensors din seriile DMP și DMK prezentate mai sus, plecând de la fișele tehnice publice ale producătorului; gama nu este menținută în stoc propriu la noi. Livrarea necesită, în majoritatea cazurilor, 2-6 săptămâni, în funcție de modelul ales și de certificarea cerută."
+        "a": "Da, procurăm la comandă traductoarele BD Sensors din seriile DMP și DMK prezentate mai sus, plecând de la fișele tehnice publice ale producătorului; gama nu este menținută în stoc propriu la noi. Livrarea necesită, în majoritatea cazurilor, 2-4 săptămâni, în funcție de modelul ales și de certificarea cerută."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de traductor de presiune BD Sensors?",

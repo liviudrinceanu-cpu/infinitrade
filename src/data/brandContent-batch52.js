@@ -28,7 +28,7 @@ Pentru piața din România, Milesight are sens acolo unde monitorizarea la dista
       "Agricultură — monitorizare irigație și condiții de mediu pe teren întins",
       "Depozite și hale de producție — senzori de temperatură și distanță fără cablare",
     ],
-    infinitrade: `Pentru senzorii și gateway-urile Milesight lucrăm cu gama prin canale de aprovizionare din Uniunea Europeană și aducem produsele la comandă, cu termen orientativ de 2-6 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că vă rugăm să ne trimiteți codul exact al modelului (de exemplu seria UG, AM sau EM300) și, dacă e cazul, banda de frecvență LoRaWAN folosită în regiunea dumneavoastră. Precizăm ce putem și ce nu putem confirma: informațiile tehnice de mai sus provin din surse publice ale producătorului, fără date proprii despre stocuri sau termene de livrare ale distribuitorilor locali.`,
+    infinitrade: `Pentru senzorii și gateway-urile Milesight lucrăm cu gama prin canale de aprovizionare din Uniunea Europeană și aducem produsele la comandă, cu termen orientativ de 2-4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că vă rugăm să ne trimiteți codul exact al modelului (de exemplu seria UG, AM sau EM300) și, dacă e cazul, banda de frecvență LoRaWAN folosită în regiunea dumneavoastră. Precizăm ce putem și ce nu putem confirma: informațiile tehnice de mai sus provin din surse publice ale producătorului, fără date proprii despre stocuri sau termene de livrare ale distribuitorilor locali.`,
     limitation: "Nu putem confirma acoperirea exactă a rețelei LoRaWAN publice din România și nici disponibilitatea locală de configurare a platformei cloud Milesight.",
     productCodes: [
       {
@@ -111,7 +111,7 @@ Pentru piața din România, Milesight are sens acolo unde monitorizarea la dista
       },
       {
         "q": "Livrați echipamente Milesight în România?",
-        "a": "Da, dispozitivele Milesight se aduc special pentru fiecare comandă, intervalul obișnuit fiind de 2-6 săptămâni, pentru că nu depozităm această gamă la sediu. Pentru o ofertă corectă avem nevoie de aplicația exactă dorită, numărul de senzori din rețea și dacă este necesară conectivitate 5G pentru routerul industrial."
+        "a": "Da, dispozitivele Milesight se aduc special pentru fiecare comandă, intervalul obișnuit fiind de 2-4 săptămâni, pentru că nu depozităm această gamă la sediu. Pentru o ofertă corectă avem nevoie de aplicația exactă dorită, numărul de senzori din rețea și dacă este necesară conectivitate 5G pentru routerul industrial."
       },
       {
         "q": "Ce este routerul Milesight UR75?",
@@ -155,7 +155,7 @@ Pentru fabricile din România, DESTACO are sens la liniile de sudură auto, celu
       "Prelucrare metalică — strângere piese pe mese de mașini-unelte",
       "Electronice — poziționare de precizie la asamblarea componentelor mici",
     ],
-    infinitrade: `La comenzi pentru clemele, griperele sau indexatoarele DESTACO trecem prin canalele de aprovizionare din Uniunea Europeană; orientativ, o comandă durează 2-6 săptămâni până la livrare. Brandul nu are la noi disponibilitate permanentă din stoc, motiv pentru care avem nevoie de seria exactă, dimensiunea și cursa mecanismului înainte să pregătim o ofertă. Menționăm transparent ce putem și ce nu putem confirma: conținutul tehnic de mai sus se bazează pe surse publice ale producătorului DESTACO, fără acces intern la stocurile reale ale rețelei Stabilus.`,
+    infinitrade: `La comenzi pentru clemele, griperele sau indexatoarele DESTACO trecem prin canalele de aprovizionare din Uniunea Europeană; orientativ, o comandă durează 2-4 săptămâni până la livrare. Brandul nu are la noi disponibilitate permanentă din stoc, motiv pentru care avem nevoie de seria exactă, dimensiunea și cursa mecanismului înainte să pregătim o ofertă. Menționăm transparent ce putem și ce nu putem confirma: conținutul tehnic de mai sus se bazează pe surse publice ale producătorului DESTACO, fără acces intern la stocurile reale ale rețelei Stabilus.`,
     limitation: "Nu putem confirma disponibilitatea locală de service în garanție pentru componentele electrice eRDH, care necesită de regulă intervenție prin rețeaua Stabilus.",
     productCodes: [
       {
@@ -210,7 +210,7 @@ Pentru fabricile din România, DESTACO are sens la liniile de sudură auto, celu
       },
       {
         "q": "Livrați echipamente Destaco în România?",
-        "a": "Da, componentele Destaco sunt comandate una câte una din fabrică, ajungând de regulă în 2-6 săptămâni, fără o rezervă fizică ținută la noi. Pentru o ofertă corectă avem nevoie de forța de prindere sau de fixare necesară, cursa de deschidere dorită și tipul de acționare, pneumatică sau electrică."
+        "a": "Da, componentele Destaco sunt comandate una câte una din fabrică, ajungând de regulă în 2-4 săptămâni, fără o rezervă fizică ținută la noi. Pentru o ofertă corectă avem nevoie de forța de prindere sau de fixare necesară, cursa de deschidere dorită și tipul de acționare, pneumatică sau electrică."
       },
       {
         "q": "Ce este schimbătorul de scule TC1 de la Destaco?",
@@ -254,7 +254,7 @@ Pentru instalațiile din România, iwis are sens la liniile de ambalare și tran
       "Ciment și agregate — lanțuri rezistente la abraziune și praf",
       "Agricultură — transmisii pentru utilaje de recoltat și procesat",
     ],
-    infinitrade: `Comenzile pentru lanțuri și componente iwis intră pe fluxul nostru obișnuit de aprovizionare din Uniunea Europeană, cu un termen de livrare orientativ de 2-6 săptămâni. Fără date proprii despre stocurile reale ale producătorului, vă rugăm să ne trimiteți pasul lanțului, numărul de zale și tipul de bucșă (standard sau b.dry) — abia atunci putem confirma disponibilitatea și termenul exact. Restul informațiilor tehnice de mai sus provin din surse publice ale producătorului iwis, accesate direct pe site-ul oficial.`,
+    infinitrade: `Comenzile pentru lanțuri și componente iwis intră pe fluxul nostru obișnuit de aprovizionare din Uniunea Europeană, cu un termen de livrare orientativ de 2-4 săptămâni. Fără date proprii despre stocurile reale ale producătorului, vă rugăm să ne trimiteți pasul lanțului, numărul de zale și tipul de bucșă (standard sau b.dry) — abia atunci putem confirma disponibilitatea și termenul exact. Restul informațiilor tehnice de mai sus provin din surse publice ale producătorului iwis, accesate direct pe site-ul oficial.`,
     limitation: "Nu putem confirma echivalența exactă între pasul lanțurilor iwis și cel al lanțurilor deja montate pe utilajul dumneavoastră fără codul complet de comandă.",
     productCodes: [
       {
@@ -317,7 +317,7 @@ Pentru instalațiile din România, iwis are sens la liniile de ambalare și tran
       },
       {
         "q": "Livrați lanțuri iwis în România?",
-        "a": "Da, lanțurile iwis se procură strict la cerere, sosirea fiind estimată la 2-6 săptămâni, întrucât nu ținem pe raft fizic pregătit din timp pentru această serie. Pentru o ofertă corectă avem nevoie de pasul lanțului, numărul de rânduri de role și lungimea totală necesară pentru transmisia dumneavoastră."
+        "a": "Da, lanțurile iwis se procură strict la cerere, sosirea fiind estimată la 2-4 săptămâni, întrucât nu ținem pe raft fizic pregătit din timp pentru această serie. Pentru o ofertă corectă avem nevoie de pasul lanțului, numărul de rânduri de role și lungimea totală necesară pentru transmisia dumneavoastră."
       },
       {
         "q": "Ce avantaj au lanțurile iwis MEGAlife față de un lanț standard?",
@@ -362,7 +362,7 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
       "Logistică și ambalaje — ghidaje pentru sisteme de manipulare",
       "Industria alimentară — rulmenți pentru echipamente de procesare",
     ],
-    infinitrade: `Ghidajele liniare și rulmenții IKO ajung la client prin canale de aprovizionare europene, la un termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma spunem direct: nu avem disponibilitate permanentă din stoc pentru acest brand, iar datele tehnice folosite mai sus provin din surse publice ale producătorului IKO/Nippon Thompson. Pentru o ofertă corectă avem nevoie de codul complet al produsului — seria, dimensiunea și clasa de precizie cerută.`,
+    infinitrade: `Ghidajele liniare și rulmenții IKO ajung la client prin canale de aprovizionare europene, la un termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma spunem direct: nu avem disponibilitate permanentă din stoc pentru acest brand, iar datele tehnice folosite mai sus provin din surse publice ale producătorului IKO/Nippon Thompson. Pentru o ofertă corectă avem nevoie de codul complet al produsului — seria, dimensiunea și clasa de precizie cerută.`,
     limitation: "Nu putem confirma echivalența directă între clasa de precizie IKO și cea a ghidajelor deja montate pe mașina dumneavoastră fără codul complet de produs.",
     productCodes: [
       {
@@ -421,7 +421,7 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
       },
       {
         "q": "Livrați ghidaje IKO în România?",
-        "a": "Da, ghidajele și blocurile IKO se aduc pe bază de comandă individuală, timpul de așteptare fiind de obicei 2-6 săptămâni, gama nefiind expusă fizic la noi. Pentru o ofertă corectă avem nevoie de lățimea șinei de ghidare, dimensiunea blocului dorit și precizia clasei necesare pentru aplicația dumneavoastră."
+        "a": "Da, ghidajele și blocurile IKO se aduc pe bază de comandă individuală, timpul de așteptare fiind de obicei 2-4 săptămâni, gama nefiind expusă fizic la noi. Pentru o ofertă corectă avem nevoie de lățimea șinei de ghidare, dimensiunea blocului dorit și precizia clasei necesare pentru aplicația dumneavoastră."
       },
       {
         "q": "Ce variante are seria LWH de la IKO?",
@@ -466,7 +466,7 @@ Pentru ateliere și linii de producție din România, KIPP are sens la proiectar
       "Construcții de instalații — bolțuri de indexare și componente de reglaj",
       "Metalurgie — arcuri cu gaz pentru dispozitive grele",
     ],
-    infinitrade: `Pentru elementele standard și sistemele de fixare KIPP, comanda trece prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni. Informațiile publicate aici vin din surse publice ale producătorului KIPP, fără date proprii despre stocurile reale ale distribuției. Vă rugăm să ne trimiteți codul de catalog exact, inclusiv dimensiunea și materialul, pentru o ofertă pe care o putem confirma punctual.`,
+    infinitrade: `Pentru elementele standard și sistemele de fixare KIPP, comanda trece prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni. Informațiile publicate aici vin din surse publice ale producătorului KIPP, fără date proprii despre stocurile reale ale distribuției. Vă rugăm să ne trimiteți codul de catalog exact, inclusiv dimensiunea și materialul, pentru o ofertă pe care o putem confirma punctual.`,
     limitation: "Nu putem confirma disponibilitatea locală de configurare CAD personalizată pentru elementele KIPP, serviciu oferit de regulă direct de producător.",
     productCodes: [
       {
@@ -525,7 +525,7 @@ Pentru ateliere și linii de producție din România, KIPP are sens la proiectar
       },
       {
         "q": "Livrați elemente de fixare Kipp în România?",
-        "a": "Da, piesele Kipp ajung după plasarea comenzii, durata medie fiind de 2-6 săptămâni, deoarece nu ținem pe raft fizic pentru o gamă atât de variată. Precizați tipul de filet sau diametrul de montaj, materialul dorit, oțel sau inoxidabil, și funcția exactă a componentei în ansamblu pentru o ofertă corectă."
+        "a": "Da, piesele Kipp ajung după plasarea comenzii, durata medie fiind de 2-4 săptămâni, deoarece nu ținem pe raft fizic pentru o gamă atât de variată. Precizați tipul de filet sau diametrul de montaj, materialul dorit, oțel sau inoxidabil, și funcția exactă a componentei în ansamblu pentru o ofertă corectă."
       },
       {
         "q": "Ce sunt clemele de fixare K2550 și K2551 de la Kipp?",
@@ -568,7 +568,7 @@ Pentru instalațiile industriale din România, segmentul relevant din gama Prysm
       "Construcții — cabluri electrice pentru clădiri și infrastructură",
       "Telecomunicații — fibră optică și cabluri de rețea pentru centre de date",
     ],
-    infinitrade: `Cablurile Prysmian relevante pentru instalații industriale se aduc la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni. Nu avem disponibilitate permanentă din stoc pentru acest brand — secțiunea cablului, tipul de izolație și lungimea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele tehnice de mai sus provin din surse publice ale producătorului Prysmian, fără acces la stocurile reale ale distribuitorilor regionali.`,
+    infinitrade: `Cablurile Prysmian relevante pentru instalații industriale se aduc la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni. Nu avem disponibilitate permanentă din stoc pentru acest brand — secțiunea cablului, tipul de izolație și lungimea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele tehnice de mai sus provin din surse publice ale producătorului Prysmian, fără acces la stocurile reale ale distribuitorilor regionali.`,
     limitation: "Nu putem confirma disponibilitatea locală a variantelor de cabluri submarine sau de înaltă tensiune HVDC, rezervate proiectelor mari coordonate direct cu producătorul.",
     productCodes: [
       {
@@ -639,7 +639,7 @@ Pentru instalațiile industriale din România, segmentul relevant din gama Prysm
       },
       {
         "q": "Livrați cabluri Prysmian în România?",
-        "a": "Da, cablurile Prysmian se comandă punctual pentru fiecare proiect, livrarea estimată fiind de 2-6 săptămâni, fără o rezervă permanentă a acestei game păstrată la noi. Pentru o ofertă corectă avem nevoie de tensiunea nominală necesară, secțiunea conductorului și tipul de manta dorit, standard, fără halogen sau rezistentă la foc."
+        "a": "Da, cablurile Prysmian se comandă punctual pentru fiecare proiect, livrarea estimată fiind de 2-4 săptămâni, fără o rezervă permanentă a acestei game păstrată la noi. Pentru o ofertă corectă avem nevoie de tensiunea nominală necesară, secțiunea conductorului și tipul de manta dorit, standard, fără halogen sau rezistentă la foc."
       },
       {
         "q": "Ce este cablul cu fibră optică Sirocco de la Prysmian?",
@@ -684,7 +684,7 @@ Pentru instalațiile din România, Cintropur are sens la surse proprii de apă (
       "Industria alimentară — pretratare mecanică a apei înainte de alte trepte",
       "Sisteme colective — filtrare și dezinfecție UV pentru clădiri cu surse proprii",
     ],
-    infinitrade: `Filtrele și sterilizatoarele UV Cintropur intră pe fluxul de aprovizionare din Uniunea Europeană, cu un termen orientativ de livrare de 2-6 săptămâni. Fără date proprii despre stocurile producătorului sau ale distribuitorilor locali, avem nevoie de debitul instalației și de modelul exact al carcasei sau lămpii UV ca să pregătim o ofertă. Informațiile de mai sus provin din surse publice ale producătorului Cintropur/Airwatec.`,
+    infinitrade: `Filtrele și sterilizatoarele UV Cintropur intră pe fluxul de aprovizionare din Uniunea Europeană, cu un termen orientativ de livrare de 2-4 săptămâni. Fără date proprii despre stocurile producătorului sau ale distribuitorilor locali, avem nevoie de debitul instalației și de modelul exact al carcasei sau lămpii UV ca să pregătim o ofertă. Informațiile de mai sus provin din surse publice ale producătorului Cintropur/Airwatec.`,
     limitation: "Nu putem confirma compatibilitatea exactă a cartușelor de schimb cu instalații mai vechi Cintropur fără modelul precis al carcasei.",
     productCodes: [
       {
@@ -747,7 +747,7 @@ Pentru instalațiile din România, Cintropur are sens la surse proprii de apă (
       },
       {
         "q": "Livrați filtre Cintropur în România?",
-        "a": "Da, filtrele Cintropur ajung la comandă în aproximativ 2-6 săptămâni, deoarece nu păstrăm această gamă montată pe raft, ci o comandăm punctual conform seriei confirmate de dumneavoastră. Pentru o ofertă corectă avem nevoie de debitul instalației, diametrul conductei și tipul de tratament dorit, mecanic, cu cărbune activ sau cu polifosfat."
+        "a": "Da, filtrele Cintropur ajung la comandă în aproximativ 2-4 săptămâni, deoarece nu păstrăm această gamă montată pe raft, ci o comandăm punctual conform seriei confirmate de dumneavoastră. Pentru o ofertă corectă avem nevoie de debitul instalației, diametrul conductei și tipul de tratament dorit, mecanic, cu cărbune activ sau cu polifosfat."
       },
       {
         "q": "Ce înseamnă varianta CTN la un filtru Cintropur?",
@@ -796,7 +796,7 @@ Pentru industria din România, Argal are sens la manipularea de acizi, vopsele, 
       "Cosmetice și farmaceutice — transfer de fluide sensibile la contaminare",
       "Aplicații offshore — pompe rezistente la apă de mare",
     ],
-    infinitrade: `Pompele Argal ajung la client prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Nu deținem disponibilitate permanentă din stoc pentru acest brand, deci avem nevoie de fluidul pompat, debitul dorit și materialul de contact pentru a stabili configurația potrivită direct cu producătorul. Ce putem și ce nu putem confirma: conținutul tehnic de mai sus vine din surse publice ale producătorului Argal.`,
+    infinitrade: `Pompele Argal ajung la client prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Nu deținem disponibilitate permanentă din stoc pentru acest brand, deci avem nevoie de fluidul pompat, debitul dorit și materialul de contact pentru a stabili configurația potrivită direct cu producătorul. Ce putem și ce nu putem confirma: conținutul tehnic de mai sus vine din surse publice ale producătorului Argal.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a membranelor Argal cu fiecare fluid specific fără fișa de securitate a produsului dumneavoastră.",
     productCodes: [
       {
@@ -851,7 +851,7 @@ Pentru industria din România, Argal are sens la manipularea de acizi, vopsele, 
       },
       {
         "q": "Livrați pompe Argal în România?",
-        "a": "Da, pompele Argal se aduc punctual din gama oficială a producătorului, cu un termen orientativ de 2-6 săptămâni, fiindcă varietatea mare de materiale și dimensiuni nu permite un stoc propriu constant pe raft. Pentru o ofertă avem nevoie de debitul dorit, presiunea de lucru și tipul de fluid vehiculat, pentru a recomanda modelul potrivit."
+        "a": "Da, pompele Argal se aduc punctual din gama oficială a producătorului, cu un termen orientativ de 2-4 săptămâni, fiindcă varietatea mare de materiale și dimensiuni nu permite un stoc propriu constant pe raft. Pentru o ofertă avem nevoie de debitul dorit, presiunea de lucru și tipul de fluid vehiculat, pentru a recomanda modelul potrivit."
       },
       {
         "q": "Cum aleg pompa centrifugă Argal potrivită pentru instalația mea?",
@@ -895,7 +895,7 @@ Pentru atelierele și constructorii metalici din România, ESAB are sens la sudu
       "Petrochimie — sudură conducte și rezervoare rezistente la coroziune",
       "Mentenanță industrială — hardfacing pentru piese supuse abraziunii",
     ],
-    infinitrade: `Echipamentele și consumabilele ESAB se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni de la confirmare. Fără date proprii despre stocurile reale ale producătorului sau ale distribuitorilor regionali, avem nevoie de codul exact al modelului — sau, pentru consumabile, de diametrul sârmei și tipul de gaz de protecție — pentru o ofertă verificabilă. Informațiile din această pagină provin din surse publice ale producătorului ESAB, accesate direct pe site-ul oficial.`,
+    infinitrade: `Echipamentele și consumabilele ESAB se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmare. Fără date proprii despre stocurile reale ale producătorului sau ale distribuitorilor regionali, avem nevoie de codul exact al modelului — sau, pentru consumabile, de diametrul sârmei și tipul de gaz de protecție — pentru o ofertă verificabilă. Informațiile din această pagină provin din surse publice ale producătorului ESAB, accesate direct pe site-ul oficial.`,
     limitation: "Nu putem confirma echivalența directă între consumabilul ESAB și cel deja calificat în procedura dumneavoastră de sudare (WPS) fără verificarea codului exact.",
     productCodes: [
       {
@@ -962,7 +962,7 @@ Pentru atelierele și constructorii metalici din România, ESAB are sens la sudu
       },
       {
         "q": "Livrați echipamente ESAB de sudură în România?",
-        "a": "Da, echipamentele ESAB pot fi comandate punctual, cu un termen tipic de 2-6 săptămâni, deoarece nu menținem întreaga gamă depozitată permanent pe raft. Pentru o ofertă corectă avem nevoie de procesul de sudare dorit, MIG, TIG sau electrod învelit, curentul necesar și dacă echipamentul va fi folosit manual sau montat pe un post fix."
+        "a": "Da, echipamentele ESAB pot fi comandate punctual, cu un termen tipic de 2-4 săptămâni, deoarece nu menținem întreaga gamă depozitată permanent pe raft. Pentru o ofertă corectă avem nevoie de procesul de sudare dorit, MIG, TIG sau electrod învelit, curentul necesar și dacă echipamentul va fi folosit manual sau montat pe un post fix."
       },
       {
         "q": "Ce diferență este între pistoletele Tweco Elite 250 și Elite 450?",
@@ -1006,7 +1006,7 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
       "Industrie grea — protecție respiratorie pentru medii cu praf sau particule",
       "Management de trafic rutier — bariere și semnalizare pentru șantiere",
     ],
-    infinitrade: `Comenzile pentru echipamentul de protecție JSP trec prin canale de aprovizionare din Uniunea Europeană, la un termen orientativ de 2-6 săptămâni. Marca nu are la noi disponibilitate permanentă din stoc, iar mărimea, standardul cerut (EN 397 sau EN 12492) și cantitatea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele de mai sus provin din surse publice ale producătorului JSP.`,
+    infinitrade: `Comenzile pentru echipamentul de protecție JSP trec prin canale de aprovizionare din Uniunea Europeană, la un termen orientativ de 2-4 săptămâni. Marca nu are la noi disponibilitate permanentă din stoc, iar mărimea, standardul cerut (EN 397 sau EN 12492) și cantitatea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele de mai sus provin din surse publice ale producătorului JSP.`,
     limitation: "Nu putem confirma clasa de filtru respirator potrivită pentru contaminantul dumneavoastră specific fără fișa de securitate a substanței din mediul de lucru.",
     productCodes: [
       {
@@ -1065,7 +1065,7 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
       },
       {
         "q": "Livrați echipamente de protecție JSP în România?",
-        "a": "Da, echipamentele JSP se procură la cerere, cu un termen uzual de 2 până la 6 săptămâni, fiindcă gama de protecție nu este ținută integral pe raft din cauza numărului mare de mărimi și variante. Pentru o comandă corectă indicați tipul de protecție necesar, cască, ochelari sau mască, standardul EN aplicabil și numărul de utilizatori pentru care faceți achiziția."
+        "a": "Da, echipamentele JSP se procură la cerere, cu un termen uzual de 2 până la 4 săptămâni, fiindcă gama de protecție nu este ținută integral pe raft din cauza numărului mare de mărimi și variante. Pentru o comandă corectă indicați tipul de protecție necesar, cască, ochelari sau mască, standardul EN aplicabil și numărul de utilizatori pentru care faceți achiziția."
       },
       {
         "q": "Ce diferență este între gama EVOGuard și Hardcap Aerolite de la JSP?",
@@ -1109,7 +1109,7 @@ Pentru producătorii din România cu control dimensional propriu, gama Hexagon M
       "Electronice — măsurare de precizie a componentelor mici",
       "Industrie grea — inspecție piese turnate sau sudate de dimensiuni mari",
     ],
-    infinitrade: `Sistemele de metrologie Hexagon Manufacturing Intelligence se aduc la comandă prin canale de aprovizionare din Uniunea Europeană; orientativ, termenul e de 2-6 săptămâni, cu mențiunea că sistemele CMM complete se configurează punctual direct cu producătorul. Fără date proprii despre stocurile reale ale acestui brand, avem nevoie de aplicația exactă — dimensiunea piesei, toleranța cerută — pentru a direcționa corect cererea dumneavoastră. Informațiile tehnice de mai sus provin din surse publice ale producătorului, respectiv Hexagon AB.`,
+    infinitrade: `Sistemele de metrologie Hexagon Manufacturing Intelligence se aduc la comandă prin canale de aprovizionare din Uniunea Europeană; orientativ, termenul e de 2-4 săptămâni, cu mențiunea că sistemele CMM complete se configurează punctual direct cu producătorul. Fără date proprii despre stocurile reale ale acestui brand, avem nevoie de aplicația exactă — dimensiunea piesei, toleranța cerută — pentru a direcționa corect cererea dumneavoastră. Informațiile tehnice de mai sus provin din surse publice ale producătorului, respectiv Hexagon AB.`,
     limitation: "Nu putem confirma compatibilitatea software-ului de metrologie cu formatele CAD proprii ale clientului fără o verificare punctuală.",
     productCodes: [
       {
@@ -1176,7 +1176,7 @@ Pentru producătorii din România cu control dimensional propriu, gama Hexagon M
       },
       {
         "q": "Furnizați echipamente Hexagon Manufacturing Intelligence la comandă în România?",
-        "a": "Da, aducem la comandă mașini de măsurat, scanere și software din gamele MAESTRO, ATLASCAN sau Geomagic, pe baza referinței confirmate de client. Nu depozităm această gamă pe raft; disponibilitatea se confirmă din sursele publice ale producătorului, iar durata tipică este de 2-6 săptămâni."
+        "a": "Da, aducem la comandă mașini de măsurat, scanere și software din gamele MAESTRO, ATLASCAN sau Geomagic, pe baza referinței confirmate de client. Nu depozităm această gamă pe raft; disponibilitatea se confirmă din sursele publice ale producătorului, iar durata tipică este de 2-4 săptămâni."
       },
       {
         "q": "Ce parametri trimit pentru a primi o ofertă la un sistem de măsurare Hexagon?",
@@ -1227,7 +1227,7 @@ Pentru instalațiile industriale din România, Ashcroft are sens la măsurarea p
       "Industria alimentară — instrumente igienice pentru linii de proces",
       "HVAC și refrigerare — manometre și senzori pentru sisteme de climatizare",
     ],
-    infinitrade: `Manometrele și traductoarele Ashcroft se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că avem nevoie de domeniul de măsură, tipul de racord și materialul de contact pentru o ofertă corectă. Ce putem și ce nu putem confirma: datele tehnice folosite aici provin din surse publice ale producătorului Ashcroft.`,
+    infinitrade: `Manometrele și traductoarele Ashcroft se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că avem nevoie de domeniul de măsură, tipul de racord și materialul de contact pentru o ofertă corectă. Ce putem și ce nu putem confirma: datele tehnice folosite aici provin din surse publice ale producătorului Ashcroft.`,
     limitation: "Nu putem confirma compatibilitatea materialului de contact cu fluidul dumneavoastră fără specificarea exactă a presiunii, temperaturii și mediului de lucru.",
     productCodes: [
       {
@@ -1282,7 +1282,7 @@ Pentru instalațiile industriale din România, Ashcroft are sens la măsurarea p
       },
       {
         "q": "Livrați instrumente de presiune Ashcroft în România?",
-        "a": "Da, instrumentele Ashcroft ajung pe bază de comandă fermă, într-un termen care variază între 2 și 6 săptămâni, pentru că nu depozităm permanent întreaga gamă de manometre și traductoare. Pentru o ofertă corectă avem nevoie de domeniul de presiune dorit, tipul de racord, diametrul cadranului și dacă aplicația necesită o variantă rezistentă la vibrații sau șocuri de presiune."
+        "a": "Da, instrumentele Ashcroft ajung pe bază de comandă fermă, într-un termen care variază între 2 și 4 săptămâni, pentru că nu depozităm permanent întreaga gamă de manometre și traductoare. Pentru o ofertă corectă avem nevoie de domeniul de presiune dorit, tipul de racord, diametrul cadranului și dacă aplicația necesită o variantă rezistentă la vibrații sau șocuri de presiune."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de manometru Ashcroft?",

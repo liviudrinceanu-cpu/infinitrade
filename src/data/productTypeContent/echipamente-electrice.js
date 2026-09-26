@@ -64,7 +64,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de întrerupătoare automate și cât durează livrarea?",
-        "a": "Sunt necesare curentul nominal, tensiunea de lucru, tipul sarcinii protejate și capacitatea de rupere estimată. Termenul de livrare a întrerupătoarelor automate este la comandă, orientativ 2-6 săptămâni, mai scurt pentru curenții și curbele uzuale, deja disponibile la majoritatea producătorilor."
+        "a": "Sunt necesare curentul nominal, tensiunea de lucru, tipul sarcinii protejate și capacitatea de rupere estimată. Termenul de livrare a întrerupătoarelor automate este la comandă, orientativ 2-4 săptămâni, mai scurt pentru curenții și curbele uzuale, deja disponibile la majoritatea producătorilor."
       },
       {
         "q": "Un întrerupător automat poate înlocui un dispozitiv diferențial de protecție a persoanelor?",
@@ -137,7 +137,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de contactoare și relee industriale și cât durează livrarea?",
-        "a": "Sunt necesare curentul sarcinii comandate, tensiunea bobinei de comandă, categoria de utilizare și numărul de contacte auxiliare dorite. Livrarea se confirmă la comandă, de regulă în 2-6 săptămâni, în funcție de producător, de cantitatea comandată și de disponibilitatea din fabrică."
+        "a": "Sunt necesare curentul sarcinii comandate, tensiunea bobinei de comandă, categoria de utilizare și numărul de contacte auxiliare dorite. Livrarea se confirmă la comandă, de regulă în 2-4 săptămâni, în funcție de producător, de cantitatea comandată și de disponibilitatea din fabrică."
       },
       {
         "q": "Ce compatibilitate trebuie verificată între un contactor nou și tabloul electric existent?",
@@ -284,7 +284,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru ofertă și cât durează livrarea unor tablouri electrice?",
-        "a": "Sunt necesare schema electrică sau descrierea funcțională, puterea totală și curenții pe circuite, mediul de montaj și gradul IP dorit. Livrarea se face la comandă, orientativ în 2–6 săptămâni, în funcție de complexitatea tabloului și de disponibilitatea componentelor comandate."
+        "a": "Sunt necesare schema electrică sau descrierea funcțională, puterea totală și curenții pe circuite, mediul de montaj și gradul IP dorit. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de complexitatea tabloului și de disponibilitatea componentelor comandate."
       },
       {
         "q": "Se poate extinde ulterior un tablou electric deja instalat?",
@@ -362,7 +362,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de cablu industrial și cât durează livrarea?",
-        "a": "Tipul de aplicație, secțiunea sau curentul nominal, numărul de fire și lungimea necesară. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător și de tipul de manta solicitat."
+        "a": "Tipul de aplicație, secțiunea sau curentul nominal, numărul de fire și lungimea necesară. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de tipul de manta solicitat."
       },
       {
         "q": "Un cablu de comandă obișnuit poate fi montat lângă un convertizor de frecvență?",
@@ -436,7 +436,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de componente de protecție și cât durează livrarea?",
-        "a": "Sunt necesare curentul nominal, tipul de rețea, tipul de defect vizat și, dacă există, curentul de scurtcircuit prezumat. Termenul de livrare este la comandă, orientativ 2-6 săptămâni, în funcție de tip și de producătorul ales."
+        "a": "Sunt necesare curentul nominal, tipul de rețea, tipul de defect vizat și, dacă există, curentul de scurtcircuit prezumat. Termenul de livrare este la comandă, orientativ 2-4 săptămâni, în funcție de tip și de producătorul ales."
       },
       {
         "q": "Cât de des trebuie testate protecțiile diferențiale dintr-o instalație industrială?",

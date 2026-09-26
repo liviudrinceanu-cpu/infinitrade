@@ -29,7 +29,7 @@ Pentru un integrator sau un producător din România, Busch Vacuum Solutions în
       "Energie regenerabilă — producție celule solare",
       "Sănătate — echipamente medicale cu vid controlat"
     ],
-    infinitrade: `Furnizăm pompe de vid Busch pe baza informațiilor publice ale producătorului — nu avem date proprii despre stocurile lor și nu promitem disponibilitate permanentă pe raft pentru niciun model. Aducem pompele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de familia aleasă și de confirmarea din fabrică. Pentru o ofertă corectă avem nevoie de debitul necesar (m³/h), dacă aplicația cere execuție uscată sau lubrifiată și dacă există risc de explozie în zona de montaj. Recomandăm și verificarea compatibilității cu instalația existentă înainte de comandă, mai ales la înlocuirea unei pompe mai vechi.`,
+    infinitrade: `Furnizăm pompe de vid Busch pe baza informațiilor publice ale producătorului — nu avem date proprii despre stocurile lor și nu promitem disponibilitate permanentă pe raft pentru niciun model. Aducem pompele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de familia aleasă și de confirmarea din fabrică. Pentru o ofertă corectă avem nevoie de debitul necesar (m³/h), dacă aplicația cere execuție uscată sau lubrifiată și dacă există risc de explozie în zona de montaj. Recomandăm și verificarea compatibilității cu instalația existentă înainte de comandă, mai ales la înlocuirea unei pompe mai vechi.`,
     limitation: "Nu putem confirma termenul exact de livrare pentru piese de schimb specifice unei pompe R5 mai vechi fără seria completă a echipamentului.",
     productCodes: [
       { code: "R5 RA 0025/0040 F", description: "pompă cu palete industrială, debit mediu-mare" },
@@ -47,7 +47,7 @@ Pentru un integrator sau un producător din România, Busch Vacuum Solutions în
     faq: [
       { q: "Ce produce Busch Vacuum Solutions?", a: "Busch Vacuum Solutions produce pompe de vid, suflante și compresoare pentru industrie, cu game care merg de la pompe rotative cu palete lubrifiate (seria R5) până la pompe uscate cu gheare pentru procese unde urmele de ulei nu sunt acceptate. Sunt folosite în ambalare, transport pneumatic, semiconductori și farmaceutic." },
       { q: "Ce diferență e între o pompă R5 lubrifiată și una uscată Busch Vacuum Solutions?", a: "Pompa R5 lubrifiată folosește ulei pentru etanșare și răcire, are cost inițial mai mic și mentenanță programată prin schimb de ulei. Varianta uscată nu intră în contact cu ulei, fiind preferată acolo unde produsul procesat nu trebuie contaminat, de exemplu în ambalarea alimentelor, cu costuri de întreținere diferite." },
-      { q: "Livrați pompe în România și în cât timp?", a: "Da, aducem pompe Busch la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de model și de confirmarea disponibilității din fabrică. Nu ținem această gamă pe raft, așa că termenul exact se confirmă după plasarea comenzii pe codul specific." },
+      { q: "Livrați pompe în România și în cât timp?", a: "Da, aducem pompe Busch la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de model și de confirmarea disponibilității din fabrică. Nu ținem această gamă pe raft, așa că termenul exact se confirmă după plasarea comenzii pe codul specific." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă de vid Busch Vacuum Solutions?", a: "Ai nevoie să ne spui debitul necesar în m³/h, nivelul de vid final dorit, dacă procesul acceptă contact cu ulei sau impune pompă uscată, și dacă zona de montaj are risc de explozie. Cu aceste date verificăm modelul potrivit din gama Busch și termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -86,7 +86,7 @@ Pentru un operator de stație de epurare sau o instalație de biogaz din Români
       "Marină și offshore — aplicații de pompare industrială la bordul navelor",
       "Protecție civilă — echipamente mobile pentru situații de urgență"
     ],
-    infinitrade: `Aducem pompe cu lobi Börger prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-6 săptămâni. Ne bazăm strict pe ce publică producătorul pe site-ul oficial — fără date proprii de stoc și fără promisiuni de disponibilitate imediată pentru niciun model din gamă. Pentru o ofertă avem nevoie de tipul de fluid pompat, conținutul aproximativ de solide sau fibre și debitul dorit. Recomandăm, acolo unde e posibil, și o probă din fluidul real, pentru a evita o alegere greșită de material la nivelul lobilor sau al carcasei.`,
+    infinitrade: `Aducem pompe cu lobi Börger prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-4 săptămâni. Ne bazăm strict pe ce publică producătorul pe site-ul oficial — fără date proprii de stoc și fără promisiuni de disponibilitate imediată pentru niciun model din gamă. Pentru o ofertă avem nevoie de tipul de fluid pompat, conținutul aproximativ de solide sau fibre și debitul dorit. Recomandăm, acolo unde e posibil, și o probă din fluidul real, pentru a evita o alegere greșită de material la nivelul lobilor sau al carcasei.`,
     limitation: "Nu putem confirma dimensiunile exacte de racordare pentru o pompă BLUEline Legend mai veche fără seria de fabricație a echipamentului instalat.",
     productCodes: [
       { code: "AN 040", description: "pompă cu lobi, debit max. 20 m3/h" },
@@ -103,7 +103,7 @@ Pentru un operator de stație de epurare sau o instalație de biogaz din Români
     faq: [
       { q: "Ce produce Börger?", a: "Börger produce pompe cu lobi rotativi, folosite pentru transferul fluidelor vâscoase, cu conținut de fibre sau solide — nămol, dejecții animale, substrat de biogaz. Gama principală include seriile BLUEline Nova și BLUEline Legend, plus variante scufundate pentru montaj direct în bazin." },
       { q: "Cum aleg dimensiunea corectă dintr-o pompă Börger BLUEline Nova?", a: "Trebuie să știi debitul necesar și presiunea de refulare cerută de instalație; seria Nova e împărțită în clasele AN, PN și QN, fiecare acoperind un interval de debit diferit. Trimite-ne aceste date, împreună cu tipul de fluid, și verificăm clasa potrivită din gamă." },
-      { q: "Livrați pompe Börger în România și cât durează?", a: "Da, aducem pompe Börger la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Nu ținem pe raft niciun model, deci confirmăm termenul exact după ce primim specificațiile tehnice ale aplicației." },
+      { q: "Livrați pompe Börger în România și cât durează?", a: "Da, aducem pompe Börger la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Nu ținem pe raft niciun model, deci confirmăm termenul exact după ce primim specificațiile tehnice ale aplicației." },
       { q: "Ce echivalent Börger există pentru o pompă cu lobi Vogelsang?", a: "Ambele branduri acoperă segmentul pompelor cu lobi pentru nămol și biogaz, cu game comparabile de debit și presiune. Pentru un echivalent corect avem nevoie de datele tehnice ale pompei actuale — debit, presiune, dimensiune de racord — pe care le comparăm cu gama Börger disponibilă." },
     ],
     evidenceClass: "market-signal-intl",
@@ -144,7 +144,7 @@ Pentru un operator de stație GPL sau un integrator de instalații de îmbutelie
       "Transport — descărcare vagoane cisternă și autocisterne cu gaze lichefiate",
       "Aviație — sisteme de transfer pentru combustibili speciali lichefiați"
     ],
-    infinitrade: `Furnizăm pompe și compresoare Corken pentru gaze petroliere lichefiate pe baza informațiilor publicate de producător — nu deținem date proprii despre stocul lor și nu promitem disponibilitate imediată pentru niciun model. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, confirmat după verificarea disponibilității în fabrică. Pentru o ofertă avem nevoie de tipul de gaz lichefiat vehiculat, debitul și presiunea diferențială necesară, plus tipul de montaj dorit.`,
+    infinitrade: `Furnizăm pompe și compresoare Corken pentru gaze petroliere lichefiate pe baza informațiilor publicate de producător — nu deținem date proprii despre stocul lor și nu promitem disponibilitate imediată pentru niciun model. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, confirmat după verificarea disponibilității în fabrică. Pentru o ofertă avem nevoie de tipul de gaz lichefiat vehiculat, debitul și presiunea diferențială necesară, plus tipul de montaj dorit.`,
     limitation: "Nu putem confirma certificarea UL pentru fiecare configurație individuală de sistem fără specificațiile exacte transmise de client.",
     productCodes: [
       { code: "DL 10", description: "pompă turbină montată pe motor, dimensiune mică" },
@@ -171,7 +171,7 @@ Pentru un operator de stație GPL sau un integrator de instalații de îmbutelie
     faq: [
       { q: "Ce produce Corken?", a: "Corken produce pompe și compresoare pentru gaze petroliere lichefiate — propan, butan, amoniac agricol — cu game de pompe turbină (DL, F), pompe cu palete Coro-Vane și sisteme dedicate descărcării vagoanelor cisternă. Sunt folosite la stații de îmbuteliere și terminale de distribuție GPL." },
       { q: "Cum aleg dimensiunea corectă la o pompă turbină Corken?", a: "Trebuie să știi debitul necesar în gpm, presiunea diferențială cerută de instalație și dacă preferi montaj direct pe motor (familia DL) sau pe cadru cu cuplaj (familia F). Trimite-ne aceste date, împreună cu tipul de gaz lichefiat, și verificăm dimensiunea potrivită din gamă." },
-      { q: "Livrați pompe Corken în România și cât durează?", a: "Da, aducem pompe și compresoare Corken la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, confirmat după verificarea în fabrică. Nu ținem această gamă pe raft, deci termenul exact depinde de modelul ales și de disponibilitatea la producător." },
+      { q: "Livrați pompe Corken în România și cât durează?", a: "Da, aducem pompe și compresoare Corken la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, confirmat după verificarea în fabrică. Nu ținem această gamă pe raft, deci termenul exact depinde de modelul ales și de disponibilitatea la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Corken pentru GPL?", a: "Ai nevoie să ne transmiți tipul exact de gaz lichefiat vehiculat, debitul dorit, presiunea diferențială a instalației și tipul de montaj preferat. Cu aceste informații identificăm modelul potrivit din familiile DL sau F și confirmăm termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -210,7 +210,7 @@ Pentru un șantier naval, un operator portuar sau un integrator industrial din R
       "Acvacultură — sisteme de tratare UV a apei în fermele piscicole",
       "Apărare — echipamente de pompare pentru nave militare"
     ],
-    infinitrade: `Aducem pompe DESMI — atât gama industrială ROTAN, cât și pompele marine — prin canale de aprovizionare din UE, la comandă. Nu avem date proprii de stoc pentru acest brand și nu promitem disponibilitate imediată; ne bazăm exclusiv pe ce publică producătorul despre gama sa. Termenul orientativ de livrare e de 2-6 săptămâni, în funcție de model și de confirmarea din fabrică daneză. Pentru o ofertă avem nevoie de tipul de fluid vehiculat, viscozitatea aproximativă, debitul și presiunea necesară, iar pentru aplicații navale și de tipul instalației de la bord.`,
+    infinitrade: `Aducem pompe DESMI — atât gama industrială ROTAN, cât și pompele marine — prin canale de aprovizionare din UE, la comandă. Nu avem date proprii de stoc pentru acest brand și nu promitem disponibilitate imediată; ne bazăm exclusiv pe ce publică producătorul despre gama sa. Termenul orientativ de livrare e de 2-4 săptămâni, în funcție de model și de confirmarea din fabrică daneză. Pentru o ofertă avem nevoie de tipul de fluid vehiculat, viscozitatea aproximativă, debitul și presiunea necesară, iar pentru aplicații navale și de tipul instalației de la bord.`,
     limitation: "Nu putem confirma compatibilitatea directă cu o instalație navală existentă fără planurile tehnice ale sistemului respectiv.",
     productCodes: [
       { code: "ROTAN GP 26", description: "pompă cu roți dințate interne, dimensiune mică" },
@@ -231,7 +231,7 @@ Pentru un șantier naval, un operator portuar sau un integrator industrial din R
     faq: [
       { q: "Ce produce DESMI?", a: "DESMI produce pompe industriale și marine — pompe cu roți dințate interne ROTAN pentru transfer de ulei și fluide de proces, pompe cu șurub triplu pentru combustibil naval, plus sisteme complete de tratare a apei de balast și stins incendii pentru nave." },
       { q: "Cum aleg dimensiunea corectă la o pompă ROTAN DESMI?", a: "Trebuie să știi viscozitatea fluidului, debitul necesar și presiunea de lucru a instalației; seria GP acoperă debite de până la 50 m³/h, iar celelalte tipuri (CHD, PD, HD, ED, CD) sunt gândite pentru cerințe speciale de presiune sau temperatură. Trimite-ne aceste date pentru verificare." },
-      { q: "Livrați pompe DESMI în România și cât durează?", a: "Da, aducem pompe DESMI la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Nu ținem această gamă pe raft, așa că termenul exact se confirmă după plasarea comenzii pe modelul ales." },
+      { q: "Livrați pompe DESMI în România și cât durează?", a: "Da, aducem pompe DESMI la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Nu ținem această gamă pe raft, așa că termenul exact se confirmă după plasarea comenzii pe modelul ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă marină DESMI?", a: "Ai nevoie să precizezi tipul de fluid vehiculat (combustibil, ulei de ungere, apă de balast), debitul necesar la bord și, dacă e cazul, tipul instalației navale existente. Cu aceste date verificăm modelul potrivit din gama DESMI." },
     ],
     evidenceClass: "market-signal-intl",
@@ -271,7 +271,7 @@ Pentru un operator din chimie, galvanizare sau industrie alimentară din Români
       "Automotive și metalurgie — transfer lichide de proces industrial",
       "Petrol și gaze — pompare fluide corozive în instalații de proces"
     ],
-    infinitrade: `Aducem pompe Debem la comandă prin canale de aprovizionare din UE, pe baza informațiilor publicate de producător — nu avem date proprii de stoc pentru acest brand. Termenul orientativ de livrare e de 2-6 săptămâni, confirmat după verificarea disponibilității în fabrica din Italia; nu ținem pompe Debem pe raft în mod curent. Pentru o ofertă avem nevoie de tipul de fluid pompat, compatibilitatea chimică necesară pentru membrană sau piesele umede, debitul dorit și, dacă e cazul, dacă zona de montaj impune certificare ATEX.`,
+    infinitrade: `Aducem pompe Debem la comandă prin canale de aprovizionare din UE, pe baza informațiilor publicate de producător — nu avem date proprii de stoc pentru acest brand. Termenul orientativ de livrare e de 2-4 săptămâni, confirmat după verificarea disponibilității în fabrica din Italia; nu ținem pompe Debem pe raft în mod curent. Pentru o ofertă avem nevoie de tipul de fluid pompat, compatibilitatea chimică necesară pentru membrană sau piesele umede, debitul dorit și, dacă e cazul, dacă zona de montaj impune certificare ATEX.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui material de membrană cu un amestec chimic complex fără fișa tehnică de siguranță a fluidului.",
     productCodes: [
       { code: "CUBIC", description: "pompă pneumatică cu membrană, gamă compactă" },
@@ -288,7 +288,7 @@ Pentru un operator din chimie, galvanizare sau industrie alimentară din Români
     faq: [
       { q: "Ce produce Debem?", a: "Debem produce pompe pneumatice cu membrană dublă și pompe centrifuge cu cuplaj magnetic, folosite pentru fluide corozive, abrazive sau cu conținut de particule. Gama include familiile Boxer, Cubic și Fullflow, plus varianta Foodbaxer pentru contact alimentar și pompele magnetice DM/KM pentru chimicale." },
       { q: "Cum aleg o pompă cu membrană Debem după compatibilitatea chimică?", a: "Trebuie să ne trimiți tipul exact de fluid vehiculat, eventual fișa tehnică de siguranță, pentru a verifica ce material de membrană (de exemplu PTFE sau elastomeri) rezistă la contact prelungit. De asta depinde alegerea între familiile Boxer, Cubic sau Fullflow din gama Debem." },
-      { q: "Livrați pompe Debem în România și cât durează?", a: "Da, aducem pompe Debem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Nu ținem pe raft niciun model, deci confirmăm termenul exact după plasarea comenzii cu specificațiile tehnice ale aplicației." },
+      { q: "Livrați pompe Debem în România și cât durează?", a: "Da, aducem pompe Debem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Nu ținem pe raft niciun model, deci confirmăm termenul exact după plasarea comenzii cu specificațiile tehnice ale aplicației." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă centrifugă magnetică Debem?", a: "Ai nevoie să precizezi tipul de fluid, debitul și presiunea necesară, temperatura de lucru și materialele compatibile cu chimicalul vehiculat. Cu aceste date verificăm dacă seria DM sau KM se potrivește aplicației tale și confirmăm termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -327,7 +327,7 @@ Pentru un integrator industrial din România care lucrează cu fluide multifazic
       "Curățare industrială — sisteme de pompare pentru procese de curățare",
       "Apă și ape uzate — pompe centrifuge pentru instalații de tratare"
     ],
-    infinitrade: `Aducem pompe EDUR prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-6 săptămâni. Fiind un producător care configurează fiecare pompă pe aplicație, nu ținem această gamă pe raft din gama EDUR și nu deținem date proprii despre disponibilitatea din fabrică — lucrăm cu ce confirmă producătorul pentru fiecare cerere în parte. Pentru o ofertă avem nevoie de tipul de fluid (inclusiv procentul de gaz, dacă e cazul), debitul și presiunea necesară, plus temperatura de lucru a instalației. Recomandăm contactul direct cu echipa tehnică EDUR pentru aplicații neobișnuite.`,
+    infinitrade: `Aducem pompe EDUR prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-4 săptămâni. Fiind un producător care configurează fiecare pompă pe aplicație, nu ținem această gamă pe raft din gama EDUR și nu deținem date proprii despre disponibilitatea din fabrică — lucrăm cu ce confirmă producătorul pentru fiecare cerere în parte. Pentru o ofertă avem nevoie de tipul de fluid (inclusiv procentul de gaz, dacă e cazul), debitul și presiunea necesară, plus temperatura de lucru a instalației. Recomandăm contactul direct cu echipa tehnică EDUR pentru aplicații neobișnuite.`,
     limitation: "Nu putem confirma configurația exactă a unei pompe EDUR pentru o aplicație multifazică neobișnuită fără o cerere tehnică punctuală către producător.",
     productCodes: [
       { code: "PBU (familie multifază)", description: "pompă multifază, debit max. 60 m3/h" },
@@ -344,7 +344,7 @@ Pentru un integrator industrial din România care lucrează cu fluide multifazic
     faq: [
       { q: "Ce produce EDUR Pumpenfabrik?", a: "EDUR produce pompe centrifuge configurate pe cererea clientului, organizate în patru linii: Compact Line pentru pompe standard, Performance Line pentru multistadiu, Multiphase Line pentru amestecuri lichid-gaz și Mag Line cu cuplaj magnetic pentru medii periculoase." },
       { q: "Cum aleg o pompă multifază EDUR pentru fluidul meu?", a: "Trebuie să ne spui procentul aproximativ de gaz din amestec, debitul necesar și presiunea de lucru a instalației; seriile PBU și LBU acoperă amestecuri cu până la 30% gaz, la debite de până la 60 m³/h. Trimite-ne aceste date pentru verificarea configurației potrivite." },
-      { q: "Livrați pompe EDUR Pumpenfabrik în România și cât durează?", a: "Da, aducem pompe EDUR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de configurația cerută. Fiind pompe configurate pe aplicație, nu ținem această gamă pe raft, deci termenul exact se stabilește după transmiterea specificațiilor tehnice." },
+      { q: "Livrați pompe EDUR Pumpenfabrik în România și cât durează?", a: "Da, aducem pompe EDUR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de configurația cerută. Fiind pompe configurate pe aplicație, nu ținem această gamă pe raft, deci termenul exact se stabilește după transmiterea specificațiilor tehnice." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă EDUR pentru gaze lichefiate?", a: "Ai nevoie să precizezi tipul exact de gaz lichefiat vehiculat, debitul dorit, presiunea de lucru și temperatura instalației. Cu aceste date verificăm dacă seriile LB, NHKE sau S se potrivesc aplicației și confirmăm termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -382,7 +382,7 @@ Pentru un operator din minerit, tratarea apelor uzate sau industria chimică din
       "Tratarea apelor uzate — transport nămol de la stațiile de epurare",
       "Energie — aplicații industriale cu presiuni ridicate de lucru"
     ],
-    infinitrade: `Aducem pompe FELUWA prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-6 săptămâni pentru gama MULTISAFE standard. Nu deținem date proprii de stoc pentru acest brand — ne bazăm pe informațiile publice ale producătorului și pe confirmarea din fabrica germană pentru fiecare comandă. Pentru o ofertă avem nevoie de tipul de fluid transportat, conținutul de solide, debitul și presiunea de refulare necesară. Pentru varianta EcoTrans MULTISAFE, cu presiuni mai joase, termenul de livrare poate fi mai scurt, dar tot confirmat individual cu producătorul.`,
+    infinitrade: `Aducem pompe FELUWA prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-4 săptămâni pentru gama MULTISAFE standard. Nu deținem date proprii de stoc pentru acest brand — ne bazăm pe informațiile publice ale producătorului și pe confirmarea din fabrica germană pentru fiecare comandă. Pentru o ofertă avem nevoie de tipul de fluid transportat, conținutul de solide, debitul și presiunea de refulare necesară. Pentru varianta EcoTrans MULTISAFE, cu presiuni mai joase, termenul de livrare poate fi mai scurt, dar tot confirmat individual cu producătorul.`,
     limitation: "Nu putem confirma termenul exact de livrare pentru o configurație TGK sau QGK de mare capacitate fără specificațiile complete ale instalației.",
     productCodes: [
       { code: "SG 70-DS", description: "pompă simplex, putere mică" },
@@ -406,7 +406,7 @@ Pentru un operator din minerit, tratarea apelor uzate sau industria chimică din
     faq: [
       { q: "Ce produce FELUWA?", a: "FELUWA produce pompe cu membrană dublu-tub, gândite pentru fluide abrazive, agresive chimic sau toxice care ar distruge o pompă centrifugală obișnuită. Gama MULTISAFE acoperă execuții simplex, triplex și quintuplex, cu debite de până la 1.350 m³/h și presiuni de până la 350 bar." },
       { q: "Cum aleg execuția corectă la o pompă FELUWA MULTISAFE?", a: "Alegerea între simplex, triplex sau quintuplex depinde de debitul necesar și de uniformitatea dorită a fluxului; pentru capacități mari se recomandă execuții triplex sau quintuplex. Trimite-ne debitul, presiunea de refulare și conținutul de solide al fluidului pentru verificarea modelului potrivit." },
-      { q: "Livrați pompe FELUWA în România și cât durează?", a: "Da, aducem pompe FELUWA la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru gama MULTISAFE standard. Nu ținem această gamă pe raft, deci termenul exact se confirmă după transmiterea specificațiilor tehnice ale aplicației." },
+      { q: "Livrați pompe FELUWA în România și cât durează?", a: "Da, aducem pompe FELUWA la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru gama MULTISAFE standard. Nu ținem această gamă pe raft, deci termenul exact se confirmă după transmiterea specificațiilor tehnice ale aplicației." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă FELUWA pentru nămol minier?", a: "Ai nevoie să precizezi debitul dorit, presiunea de refulare, conținutul de solide și dimensiunea particulelor din nămol. Cu aceste date verificăm ce execuție din gama MULTISAFE (SG, TG/TGK sau QGK) se potrivește instalației tale." },
     ],
     evidenceClass: "market-signal-intl",
@@ -445,7 +445,7 @@ Pentru un operator de apă și canalizare sau un integrator industrial din Româ
       "Agricultură — drenaj și irigații cu pompe submersibile",
       "Construcții — epuisment și drenaj pe șantiere"
     ],
-    infinitrade: `Furnizăm pompe submersibile Faggiolati pe baza informațiilor publice ale producătorului — nu avem date proprii de stoc pentru acest brand și nu ținem produse Faggiolati pe raft în mod curent. Aducem pompele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, confirmat după verificarea disponibilității în fabrica italiană. Pentru o ofertă avem nevoie de puterea necesară, tipul de fluid pompat (cu sau fără solide/fibre), materialul dorit (fontă, bronz sau inox) și tipul de instalare. Recomandăm și precizarea adâncimii de montaj pentru dimensionarea cablului.`,
+    infinitrade: `Furnizăm pompe submersibile Faggiolati pe baza informațiilor publice ale producătorului — nu avem date proprii de stoc pentru acest brand și nu ținem produse Faggiolati pe raft în mod curent. Aducem pompele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, confirmat după verificarea disponibilității în fabrica italiană. Pentru o ofertă avem nevoie de puterea necesară, tipul de fluid pompat (cu sau fără solide/fibre), materialul dorit (fontă, bronz sau inox) și tipul de instalare. Recomandăm și precizarea adâncimii de montaj pentru dimensionarea cablului.`,
     limitation: "Nu putem confirma disponibilitatea unei configurații speciale de motor (voltaj sau frecvență neobișnuită) fără verificare punctuală la producător.",
     productCodes: [
       { code: "Pompe cu rotor vortex", description: "pentru fluide cu solide în suspensie" },
@@ -462,7 +462,7 @@ Pentru un operator de apă și canalizare sau un integrator industrial din Româ
     faq: [
       { q: "Ce produce Faggiolati Pumps?", a: "Faggiolati Pumps produce pompe submersibile electrice pentru ape uzate, drenaj și industrie, în puteri de la 0,5 kW la 350 kW, plus mixere și sisteme de aerare submersibile. Gama acoperă categorii hidraulice diferite — vortex, canal unic, tocător — pentru fluide cu sau fără solide." },
       { q: "Cum aleg materialul potrivit la o pompă Faggiolati?", a: "Fonta cenușie acoperă aplicațiile standard fără cerințe speciale de coroziune, bronzul marin e recomandat pentru apă de mare sau medii sărate, iar inoxul AISI 316 pentru fluide chimic agresive. Trimite-ne tipul de fluid și mediul de instalare pentru verificarea materialului potrivit." },
-      { q: "Livrați pompe Faggiolati Pumps în România și cât durează?", a: "Da, aducem pompe submersibile Faggiolati la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Nu ținem această gamă pe raft, deci termenul exact se confirmă după plasarea comenzii cu specificațiile tehnice ale aplicației." },
+      { q: "Livrați pompe Faggiolati Pumps în România și cât durează?", a: "Da, aducem pompe submersibile Faggiolati la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Nu ținem această gamă pe raft, deci termenul exact se confirmă după plasarea comenzii cu specificațiile tehnice ale aplicației." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă submersibilă Faggiolati?", a: "Ai nevoie să precizezi puterea necesară, tipul de fluid (cu sau fără solide), diametrul conductei de refulare, adâncimea de montaj și materialul dorit. Cu aceste date verificăm modelul potrivit din gama Faggiolati și confirmăm termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -502,7 +502,7 @@ Pentru un producător din industria alimentară, a băuturilor sau farmaceutică
       "Îngrijire personală și cosmetice — transfer produse vâscoase sanitare",
       "Industria cărnii și hranei pentru animale — transfer produse semi-lichide"
     ],
-    infinitrade: `Aducem pompe și mixere Fristam prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-6 săptămâni. Nu deținem date proprii despre stocul producătorului și nu ținem pompe Fristam pe raft în mod curent — lucrăm cu informațiile publice de pe site-ul oficial. Pentru o ofertă avem nevoie de tipul de fluid transportat, viscozitatea aproximativă, debitul dorit și dacă aplicația impune certificare pentru contact alimentar sau farmaceutic. Recomandăm și precizarea tipului de racorduri folosite în instalația existentă.`,
+    infinitrade: `Aducem pompe și mixere Fristam prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-4 săptămâni. Nu deținem date proprii despre stocul producătorului și nu ținem pompe Fristam pe raft în mod curent — lucrăm cu informațiile publice de pe site-ul oficial. Pentru o ofertă avem nevoie de tipul de fluid transportat, viscozitatea aproximativă, debitul dorit și dacă aplicația impune certificare pentru contact alimentar sau farmaceutic. Recomandăm și precizarea tipului de racorduri folosite în instalația existentă.`,
     limitation: "Nu putem confirma echivalența exactă cu o pompă sanitară concurentă instalată deja fără datele tehnice complete ale acesteia.",
     productCodes: [
       { code: "FP", description: "pompă centrifugă sanitară, uz general" },
@@ -519,7 +519,7 @@ Pentru un producător din industria alimentară, a băuturilor sau farmaceutică
     faq: [
       { q: "Ce produce Fristam Pumpen?", a: "Fristam Pumpen produce pompe centrifuge sanitare și mixere din oțel inoxidabil pentru industria alimentară, a băuturilor și farmaceutică. Gama acoperă mai multe principii de pompare — centrifugă, multistadiu, șurub dublu, lobi rotativi — plus mixere de forfecare și coloidale." },
       { q: "Cum aleg tipul potrivit de pompă Fristam pentru produsul meu?", a: "Depinde de viscozitatea produsului și de sensibilitatea acestuia la forfecare: pentru lichide subțiri se folosesc pompele centrifuge FP/FPH sau FM, iar pentru produse vâscoase precum iaurtul sau cremele se recomandă pompele cu șurub dublu FDS. Trimite-ne aceste date pentru verificare." },
-      { q: "Livrați pompe Fristam Pumpen în România și cât durează?", a: "Da, aducem pompe și mixere Fristam la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Fiindcă nu ținem pe raft fix din această gamă, confirmăm termenul real de îndată ce primim codul de model și cantitatea dorită." },
+      { q: "Livrați pompe Fristam Pumpen în România și cât durează?", a: "Da, aducem pompe și mixere Fristam la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Fiindcă nu ținem pe raft fix din această gamă, confirmăm termenul real de îndată ce primim codul de model și cantitatea dorită." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă sanitară Fristam?", a: "Ai nevoie să precizezi tipul de produs transportat, viscozitatea aproximativă, debitul necesar și dacă procesul impune certificare pentru contact alimentar sau farmaceutic. Cu aceste date verificăm modelul potrivit din gamă și confirmăm termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -558,7 +558,7 @@ Pentru un integrator de echipamente OEM sau un laborator din România, Gast Manu
       "Sănătate — aspirație medicală și echipamente dentare",
       "Industrial — automatizări și echipamente OEM cu necesar de vid sau aer"
     ],
-    infinitrade: `Furnizăm pompe și suflante Gast pe baza informațiilor publice ale producătorului — nu avem date proprii de stoc pentru acest brand. Aducem echipamentele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-6 săptămâni, confirmat după verificarea disponibilității la producător. Pentru o ofertă avem nevoie de tipul de aplicație (vid sau presiune), debitul de aer necesar și dacă procesul acceptă contact cu ulei. Nu ținem această gamă pe raft din gama Gast, așa că fiecare comandă se confirmă individual.`,
+    infinitrade: `Furnizăm pompe și suflante Gast pe baza informațiilor publice ale producătorului — nu avem date proprii de stoc pentru acest brand. Aducem echipamentele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-4 săptămâni, confirmat după verificarea disponibilității la producător. Pentru o ofertă avem nevoie de tipul de aplicație (vid sau presiune), debitul de aer necesar și dacă procesul acceptă contact cu ulei. Nu ținem această gamă pe raft din gama Gast, așa că fiecare comandă se confirmă individual.`,
     limitation: "Nu putem confirma disponibilitatea unei configurații speciale de voltaj sau frecvență a motorului fără verificare punctuală la producător.",
     productCodes: [
       { code: "0523 Series", description: "pompă cu palete lubrifiată, vid sau aer" },
@@ -577,7 +577,7 @@ Pentru un integrator de echipamente OEM sau un laborator din România, Gast Manu
     faq: [
       { q: "Ce produce Gast Manufacturing?", a: "Gast Manufacturing produce pompe de vid, compresoare de aer, motoare pneumatice și suflante regenerative pentru aplicații OEM, medicale, de laborator și industriale. Gama include grupa de pompe cu palete 0523-1023-1423 și familia de suflante Regenair R4-R9." },
       { q: "Ce diferență e între modelele 1023 și 1423 de la Gast?", a: "Modelul 1023 este lubrifiat cu ulei și dispune de suprimare internă a zgomotului, în timp ce modelul 1423 funcționează fără ulei, fiind preferat acolo unde contactul cu urme de ulei nu este acceptabil, de exemplu în anumite aplicații de laborator sau medicale." },
-      { q: "Livrați echipamente Gast Manufacturing în România și cât durează?", a: "Da, aducem pompe și suflante Gast la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-6 săptămâni. Confirmăm disponibilitatea exactă abia după ce primim modelul ales și cantitatea dorită, pentru că nu ținem pe raft fix din această gamă." },
+      { q: "Livrați echipamente Gast Manufacturing în România și cât durează?", a: "Da, aducem pompe și suflante Gast la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-4 săptămâni. Confirmăm disponibilitatea exactă abia după ce primim modelul ales și cantitatea dorită, pentru că nu ținem pe raft fix din această gamă." },
       { q: "Ce trebuie să trimit pentru o ofertă de suflantă Regenair Gast?", a: "Ai nevoie să precizezi dacă aplicația necesită presiune sau vid, debitul de aer dorit și tensiunea de alimentare disponibilă. Cu aceste date verificăm dimensiunea potrivită din familia R4-R9 și confirmăm termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -617,7 +617,7 @@ Pentru un operator de apă și canalizare sau un antreprenor de construcții din
       "Agricultură — irigații și transfer de apă la scară mare",
       "Stingere incendii — pompe pentru sisteme de apărare împotriva incendiilor"
     ],
-    infinitrade: `Aducem pompe Gorman-Rupp prin canale de aprovizionare din UE și SUA, la comandă, cu termen orientativ de 2-6 săptămâni. Nu deținem date proprii de stoc pentru acest brand — informațiile despre gamă provin exclusiv de pe site-ul oficial al producătorului, iar disponibilitatea exactă se confirmă abia după plasarea comenzii. Pentru o ofertă avem nevoie de dimensiunea racordului dorită, debitul și înălțimea de pompare necesară, plus tipul de solide sau fibre prezente în fluid. Pentru stațiile ReliaSource, recomandăm și transmiterea planului de amplasament.`,
+    infinitrade: `Aducem pompe Gorman-Rupp prin canale de aprovizionare din UE și SUA, la comandă, cu termen orientativ de 2-4 săptămâni. Nu deținem date proprii de stoc pentru acest brand — informațiile despre gamă provin exclusiv de pe site-ul oficial al producătorului, iar disponibilitatea exactă se confirmă abia după plasarea comenzii. Pentru o ofertă avem nevoie de dimensiunea racordului dorită, debitul și înălțimea de pompare necesară, plus tipul de solide sau fibre prezente în fluid. Pentru stațiile ReliaSource, recomandăm și transmiterea planului de amplasament.`,
     limitation: "Nu putem confirma configurația electrică exactă a unei stații ReliaSource fără cerințele complete ale rețelei locale de alimentare.",
     productCodes: [
       { code: "Super T Series 2\"", description: "pompă autoamorsantă, racord mic" },
@@ -635,7 +635,7 @@ Pentru un operator de apă și canalizare sau un antreprenor de construcții din
     faq: [
       { q: "Ce produce Gorman-Rupp?", a: "Gorman-Rupp produce pompe autoamorsante și sisteme de pompare pentru apă, ape uzate, construcții și industrie. Gama principală, Super T Series, e completată de sistemul Eradicator pentru materiale fibroase, familia PAH Series cu amorsare asistată și stațiile de pompare modulare ReliaSource." },
       { q: "Cum aleg dimensiunea potrivită la o pompă Gorman-Rupp Super T Series?", a: "Trebuie să știi debitul necesar și conținutul de solide al fluidului; seria acoperă șase dimensiuni de racord, de la 2 la 10 inch, cu debite de până la 3.400 gpm. Trimite-ne aceste date pentru identificarea dimensiunii potrivite din gamă." },
-      { q: "Livrați pompe Gorman-Rupp în România și cât durează?", a: "Da, aducem pompe Gorman-Rupp la comandă prin canale de aprovizionare din UE și SUA, cu termen orientativ de 2-6 săptămâni. Disponibilitatea exactă pe fiecare model se confirmă după ce primim dimensiunea racordului și cantitatea dorită." },
+      { q: "Livrați pompe Gorman-Rupp în România și cât durează?", a: "Da, aducem pompe Gorman-Rupp la comandă prin canale de aprovizionare din UE și SUA, cu termen orientativ de 2-4 săptămâni. Disponibilitatea exactă pe fiecare model se confirmă după ce primim dimensiunea racordului și cantitatea dorită." },
       { q: "Ce face sistemul Eradicator de la Gorman-Rupp?", a: "Eradicator este un sistem montat pe placa de uzură a pompelor Super T Series, cu dinți de ruptură care mărunțesc materialele fibroase — șervețele umede, textile, pungi — înainte ca acestea să ajungă la rotorul pompei, reducând riscul de blocare la stațiile de pompare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -680,7 +680,7 @@ Pentru un operator din chimie sau procesare industrială din România, Griswold 
       "Minerit — pompare fluide abrazive sau corozive",
       "Centre de date — sisteme de răcire cu lichid"
     ],
-    infinitrade: `Aducem pompe Griswold prin canale de aprovizionare din UE și SUA, la comandă, cu termen orientativ de 2-6 săptămâni. Nu deținem date proprii de stoc pentru acest brand — lucrăm cu ce publică oficial PSG/Dover despre gama 811 și seriile conexe, fără promisiuni de disponibilitate imediată. Pentru o ofertă avem nevoie de debitul și presiunea necesară, temperatura de lucru și materialul de construcție cerut de compatibilitatea chimică a fluidului. Pentru înlocuirea unei pompe existente, recomandăm și transmiterea dimensiunilor de montaj ale echipamentului actual.`,
+    infinitrade: `Aducem pompe Griswold prin canale de aprovizionare din UE și SUA, la comandă, cu termen orientativ de 2-4 săptămâni. Nu deținem date proprii de stoc pentru acest brand — lucrăm cu ce publică oficial PSG/Dover despre gama 811 și seriile conexe, fără promisiuni de disponibilitate imediată. Pentru o ofertă avem nevoie de debitul și presiunea necesară, temperatura de lucru și materialul de construcție cerut de compatibilitatea chimică a fluidului. Pentru înlocuirea unei pompe existente, recomandăm și transmiterea dimensiunilor de montaj ale echipamentului actual.`,
     limitation: "Nu putem confirma interschimbabilitatea exactă cu o pompă ANSI de altă marcă fără planurile dimensionale complete ale instalației existente.",
     productCodes: [
       { code: "811 ANSI Series", description: "pompă centrifugă de proces, standard ASME B73.1" },
@@ -699,7 +699,7 @@ Pentru un operator din chimie sau procesare industrială din România, Griswold 
     faq: [
       { q: "Ce produce Griswold Pump?", a: "Griswold produce pompe centrifuge de proces conform standardului ASME (ANSI) B73.1, în variante standard, autoamorsante (811SP) și close-coupled (811CC), plus seriile 850 și H pentru aplicații de apă. Sunt folosite în chimie, petrol și gaze, energie și procesare industrială." },
       { q: "Ce material aleg pentru o pompă Griswold 811 ANSI?", a: "Depinde de compatibilitatea chimică a fluidului: fonta ductilă acoperă aplicațiile standard, inoxul 316 rezistă la coroziune generală, iar Alloy 20 sau CD4MCuN sunt recomandate pentru medii puternic corozive. Trimite-ne tipul de fluid pentru verificarea materialului potrivit." },
-      { q: "Livrați pompe Griswold Pump în România și cât durează?", a: "Da, aducem pompe Griswold la comandă prin canale de aprovizionare din UE și SUA, cu termen orientativ de 2-6 săptămâni. Disponibilitatea exactă depinde de model și material, și se confirmă după plasarea comenzii cu specificațiile tehnice." },
+      { q: "Livrați pompe Griswold Pump în România și cât durează?", a: "Da, aducem pompe Griswold la comandă prin canale de aprovizionare din UE și SUA, cu termen orientativ de 2-4 săptămâni. Disponibilitatea exactă depinde de model și material, și se confirmă după plasarea comenzii cu specificațiile tehnice." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Griswold?", a: "Ai nevoie să precizezi debitul, presiunea necesară, temperatura de lucru și materialul de construcție cerut de fluidul vehiculat. Dacă înlocuiești o pompă existentă, trimite și dimensiunile ei de montaj pentru verificarea compatibilității cu gama Griswold 811 ANSI." },
     ],
     evidenceClass: "market-signal-intl",
@@ -743,7 +743,7 @@ Pentru un operator din chimie, energie sau industria frigului din România, HERM
       "Refrigerare — circuite de agent frigorific în instalații industriale",
       "Mobilitate — aplicații feroviare și navale cu cerințe de etanșeitate"
     ],
-    infinitrade: `Aducem pompe HERMETIC prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-6 săptămâni. Nu avem date proprii de stoc pentru acest brand — informațiile despre gamă provin din sursele publice ale producătorului, fără promisiuni de disponibilitate imediată pentru niciun model. Pentru o ofertă avem nevoie de tipul de fluid vehiculat, temperatura și presiunea de lucru, plus dacă instalația impune protecție la explozie. Pentru aplicații industriale complexe, recomandăm contactul direct cu echipa tehnică HERMETIC pentru configurarea corectă a pompei.`,
+    infinitrade: `Aducem pompe HERMETIC prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 2-4 săptămâni. Nu avem date proprii de stoc pentru acest brand — informațiile despre gamă provin din sursele publice ale producătorului, fără promisiuni de disponibilitate imediată pentru niciun model. Pentru o ofertă avem nevoie de tipul de fluid vehiculat, temperatura și presiunea de lucru, plus dacă instalația impune protecție la explozie. Pentru aplicații industriale complexe, recomandăm contactul direct cu echipa tehnică HERMETIC pentru configurarea corectă a pompei.`,
     limitation: "Nu putem confirma configurația exactă a unei pompe pentru o aplicație API 685 specifică fără fișa de date completă a procesului industrial.",
     productCodes: [
       { code: "CNF", description: "pompă cu motor înecat, monoetajată, refrigerare" },
@@ -760,7 +760,7 @@ Pentru un operator din chimie, energie sau industria frigului din România, HERM
     faq: [
       { q: "Ce produce HERMETIC-Pumpen?", a: "HERMETIC-Pumpen produce pompe fără etanșare mecanică — cu motor înecat sau cu cuplaj magnetic — plus pompe de vid cu inel lichid. Gama acoperă aplicații de la refrigerare industrială până la chimie și energie, unde o scurgere prin etanșare nu e acceptabilă." },
       { q: "Ce diferență e între o pompă CNF și una CAM de la HERMETIC-Pumpen?", a: "CNF este o pompă cu motor înecat monoetajată, cu debit de până la 85 m³/h, în timp ce CAM e multietajată și dezvoltă înălțimi de pompare mai mari, de până la 190 m, la un debit ceva mai redus. Alegerea depinde de presiunea necesară în circuitul de refrigerare." },
-      { q: "Livrați pompe HERMETIC în România și cât durează?", a: "Da, aducem pompe HERMETIC la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Nu ținem pe raft niciun model, iar termenul exact se confirmă după transmiterea specificațiilor complete ale aplicației." },
+      { q: "Livrați pompe HERMETIC în România și cât durează?", a: "Da, aducem pompe HERMETIC la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Nu ținem pe raft niciun model, iar termenul exact se confirmă după transmiterea specificațiilor complete ale aplicației." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă cu motor înecat HERMETIC?", a: "Ai nevoie să precizezi tipul de fluid vehiculat, temperatura și presiunea de lucru, debitul necesar și dacă instalația impune protecție la explozie sau conformitate API 685. Cu aceste date verificăm configurația potrivită din gama HERMETIC." },
     ],
     evidenceClass: "market-signal-intl",

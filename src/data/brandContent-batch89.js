@@ -34,7 +34,7 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
     certifications: [
       "TÜV Rheinland — conformitate cu Directiva Mașini și siguranță funcțională (2024)",
     ],
-    infinitrade: `Punem la dispoziție gama Estun de componente de acționare și roboți industriali pentru integratori din România. Ce putem și ce nu putem confirma: descrierile de mai sus vin din surse publice ale producătorului, fără date proprii despre stocul curent al fiecărui model. Comanda ajunge prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni la comandă, în funcție de fabrica din China. Pentru ofertă, spuneți-ne dacă aveți nevoie de o componentă individuală (servomotor, drive, invertor) sau de un robot complet cu accesorii; nu ținem gama Estun pe raft, fiecare comandă se aduce direct din canalul de aprovizionare confirmat de fabrică.`,
+    infinitrade: `Punem la dispoziție gama Estun de componente de acționare și roboți industriali pentru integratori din România. Ce putem și ce nu putem confirma: descrierile de mai sus vin din surse publice ale producătorului, fără date proprii despre stocul curent al fiecărui model. Comanda ajunge prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni la comandă, în funcție de fabrica din China. Pentru ofertă, spuneți-ne dacă aveți nevoie de o componentă individuală (servomotor, drive, invertor) sau de un robot complet cu accesorii; nu ținem gama Estun pe raft, fiecare comandă se aduce direct din canalul de aprovizionare confirmat de fabrică.`,
     limitation: "Nu putem confirma anul înființării sau numărul de angajați pentru Estun, informații care nu apar pe paginile oficiale consultate.",
     productCodes: [
       { code: "ER series", description: "roboți industriali rapizi și de mare precizie pentru linii complete" },
@@ -55,7 +55,7 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
     faq: [
       { q: "Ce produce Estun Automation?", a: "Estun Automation produce componente de motion control — servomotoare, servodrivere, invertoare și controlere de mișcare — și roboți industriali articulați din seriile ER și UNO, inclusiv variante colaborative, pentru linii de asamblare, sudură sau paletizare." },
       { q: "Cum aleg un robot Estun pentru linia mea?", a: "Alegerea depinde de aplicație (sudură, paletizare, asamblare), de sarcina utilă necesară și de raza de acțiune a robotului; recomandăm să ne trimiteți aceste date pentru a identifica seria potrivită din portofoliul ER sau UNO." },
-      { q: "Livrați echipamente Estun Automation în România și cât durează?", a: "Da, aducem componentele și roboții Estun la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni la comandă, în funcție de confirmarea fabricii din China." },
+      { q: "Livrați echipamente Estun Automation în România și cât durează?", a: "Da, aducem componentele și roboții Estun la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni la comandă, în funcție de confirmarea fabricii din China." },
       { q: "Ce trebuie să trimit pentru o ofertă de robot sau servomotor de la Estun Automation?", a: "Pentru un robot, trimiteți aplicația, sarcina utilă și raza de acțiune necesară; pentru componente de acționare, trimiteți puterea motorului sau modelul driverului dacă înlocuiți un echipament existent." },
     ],
     evidenceClass: "market-signal-intl",
@@ -98,7 +98,7 @@ Pentru integratorii și constructorii de mașini din România care vând utilaje
     certifications: [
       "IEC 62443-4-1:2018 — ciclu de dezvoltare securizată pentru produse conectate",
     ],
-    infinitrade: `Lucrăm cu gama Exor de HMI și IPC pentru integratori și constructori de mașini din România care au nevoie de panouri de operare fixe sau portabile și, opțional, de conectare la platforma CORVINA. Fără date proprii de stoc: ce scriem mai sus se bazează pe surse publice ale producătorului, verificate la data indicată. Livrarea se face la comandă, prin canale de aprovizionare din UE, într-un termen orientativ de 2-6 săptămâni, în funcție de confirmarea producătorului italian. Pentru o ofertă, trimiteți-ne modelul dorit din seria X sau eX200; nu ținem gama Exor pe raft, fiecare unitate se aduce la comandă din UE.`,
+    infinitrade: `Lucrăm cu gama Exor de HMI și IPC pentru integratori și constructori de mașini din România care au nevoie de panouri de operare fixe sau portabile și, opțional, de conectare la platforma CORVINA. Fără date proprii de stoc: ce scriem mai sus se bazează pe surse publice ale producătorului, verificate la data indicată. Livrarea se face la comandă, prin canale de aprovizionare din UE, într-un termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului italian. Pentru o ofertă, trimiteți-ne modelul dorit din seria X sau eX200; nu ținem gama Exor pe raft, fiecare unitate se aduce la comandă din UE.`,
     limitation: "Nu putem confirma configurarea de la distanță pentru platforma CORVINA fără o discuție tehnică prealabilă cu producătorul, pentru fiecare proiect de conectivitate.",
     productCodes: [
       { code: "X4", description: "HMI mobil compact din seria X, pentru operare portabilă la utilaj" },
@@ -119,7 +119,7 @@ Pentru integratorii și constructorii de mașini din România care vând utilaje
     faq: [
       { q: "Ce produce Exor International?", a: "Exor International produce panouri HMI fixe și portabile, calculatoare industriale (IPC), gateway-uri IoT și software de configurare JMobile, completate de platforma cloud CORVINA pentru monitorizarea de la distanță a mașinilor." },
       { q: "Care este diferența dintre seria X wired și wireless la Exor?", a: "Varianta wired se conectează prin cablu la sistemul de control și rămâne alimentată constant, în timp ce varianta wireless funcționează pe baterie și permite operatorului să se deplaseze liber în jurul utilajului." },
-      { q: "Livrați echipamente Exor International în România și cât durează?", a: "Da, aducem echipamentele Exor la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de disponibilitatea confirmată de producător pentru modelul ales." },
+      { q: "Livrați echipamente Exor International în România și cât durează?", a: "Da, aducem echipamentele Exor la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de disponibilitatea confirmată de producător pentru modelul ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de HMI Exor?", a: "Pentru o ofertă corectă, trimiteți modelul dorit (de exemplu X10 Wired sau eX200), dacă aveți nevoie de conectare la platforma CORVINA, și eventuale cerințe de protecție IP sau certificare de siguranță pentru zona de montaj." },
       { q: "Ce certificări de securitate cibernetică are Exor?", a: "Exor deține certificarea IEC 62443-4-1:2018 pentru ciclul de dezvoltare securizată a produselor, relevantă pentru rețele de automatizare unde clientul cere garanții privind vulnerabilitățile software ale echipamentelor conectate." },
     ],
@@ -163,7 +163,7 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
       "UL — certificare pentru piața nord-americană",
       "CE — conformitate cu directivele europene",
     ],
-    infinitrade: `Lucrăm cu gama Horner de controlere all-in-one pentru integratori din România care vor un PLC și un HMI într-o singură unitate, programate din Cscape. Nu avem date proprii de stoc pentru niciun model — ceea ce scriem se bazează pe informațiile publice ale producătorului, verificate la data indicată. Comandăm controlerele prin canale de aprovizionare din UE și livrăm în termen orientativ de 2-6 săptămâni. Pentru ofertă, trimiteți seria dorită (Canvas, XL Prime, Micro OCS sau RCC) și numărul de intrări/ieșiri necesar; nu ținem gama Horner pe raft, fiecare controler se aduce la comandă.`,
+    infinitrade: `Lucrăm cu gama Horner de controlere all-in-one pentru integratori din România care vor un PLC și un HMI într-o singură unitate, programate din Cscape. Nu avem date proprii de stoc pentru niciun model — ceea ce scriem se bazează pe informațiile publice ale producătorului, verificate la data indicată. Comandăm controlerele prin canale de aprovizionare din UE și livrăm în termen orientativ de 2-4 săptămâni. Pentru ofertă, trimiteți seria dorită (Canvas, XL Prime, Micro OCS sau RCC) și numărul de intrări/ieșiri necesar; nu ținem gama Horner pe raft, fiecare controler se aduce la comandă.`,
     limitation: "Nu putem confirma compatibilitatea exactă de migrare a programelor de pe modelele XL mai vechi (XL4, EXL6, EXLW, EXL10, XL15Plus, scoase din producție) fără o verificare tehnică punctuală.",
     productCodes: [
       { code: "Canvas 4", description: "controler all-in-one PLC/HMI compact, cu Cscape 10 și WebMI+" },
@@ -189,7 +189,7 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
     faq: [
       { q: "Ce produce Horner Automation?", a: "Horner Automation produce controlere all-in-one care integrează PLC-ul și interfața de operare HMI într-o singură unitate, programate cu software-ul gratuit Cscape, din seriile Canvas OCS, XL Prime OCS, Micro OCS și RCC." },
       { q: "Ce diferență e între seria Canvas și seria XL Prime la Horner?", a: "Canvas OCS este gama recomandată pentru proiecte noi, cu grafică modernă tactilă și acces de la distanță prin WebMI+, în timp ce XL Prime OCS aduce o arhitectură de procesor mai rapidă și memorie complet nevolatilă pentru aplicații cu cerințe mai mari de performanță." },
-      { q: "Livrați controlere Horner Automation în România și în cât timp?", a: "Da, aducem controlerele Horner la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de confirmarea producătorului pentru modelul ales." },
+      { q: "Livrați controlere Horner Automation în România și în cât timp?", a: "Da, aducem controlerele Horner la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru modelul ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de PLC Horner?", a: "Pentru o ofertă corectă trimiteți seria dorită (Canvas, XL Prime, Micro OCS sau RCC), numărul de intrări și ieșiri necesar și dacă aveți nevoie de acces de la distanță prin WebMI+ sau comunicare MQTT către un sistem SCADA." },
     ],
     evidenceClass: "market-signal-intl",
@@ -228,7 +228,7 @@ Pentru un integrator din România, Red Lion are sens acolo unde proiectul combin
       "Utilități (energie, apă-canal) — conectivitate pentru stații distribuite geografic",
       "Transport — colectare și transmitere de date de la echipamente mobile sau fixe",
     ],
-    infinitrade: `Lucrăm cu gama Red Lion de HMI-uri și controlere edge pentru proiecte din România care combină vizualizare locală cu transmiterea datelor către un sistem central. Nu deținem date proprii despre stocul fiecărui model; informațiile despre familiile de produse vin din surse publice ale producătorului și ale grupului HMS Networks. Echipamentele ajung la noi prin canale de aprovizionare din UE, cu un termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă, spuneți-ne familia dorită (FlexEdge, Graphite, CR sau G3) și numărul de I/O necesar; nu ținem gama Red Lion pe raft, fiecare echipament se aduce la comandă din UE.`,
+    infinitrade: `Lucrăm cu gama Red Lion de HMI-uri și controlere edge pentru proiecte din România care combină vizualizare locală cu transmiterea datelor către un sistem central. Nu deținem date proprii despre stocul fiecărui model; informațiile despre familiile de produse vin din surse publice ale producătorului și ale grupului HMS Networks. Echipamentele ajung la noi prin canale de aprovizionare din UE, cu un termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă, spuneți-ne familia dorită (FlexEdge, Graphite, CR sau G3) și numărul de I/O necesar; nu ținem gama Red Lion pe raft, fiecare echipament se aduce la comandă din UE.`,
     limitation: "Nu putem confirma compatibilitatea Crimson cu versiuni foarte vechi de HMI Red Lion fără o verificare punctuală a numărului de model instalat.",
     productCodes: [
       { code: "FlexEdge DA50", description: "controler edge FlexEdge, familie de dispozitive de acces la date industriale" },
@@ -251,7 +251,7 @@ Pentru un integrator din România, Red Lion are sens acolo unde proiectul combin
     faq: [
       { q: "Ce produce Red Lion Controls?", a: "Red Lion Controls produce controlere edge din familia FlexEdge, panouri HMI din familiile Graphite, CR și G3, module de intrare/ieșire E3 și stații de conversie de protocol, toate configurabile din software-ul propriu Crimson." },
       { q: "Cine deține acum Red Lion Controls?", a: "Din 2024, Red Lion Controls face parte din grupul suedez HMS Networks, care a preluat compania de la Spectris Group; gama de produse și software-ul Crimson au rămas neschimbate după achiziție." },
-      { q: "Livrați echipamente Red Lion în România și cât durează?", a: "Da, aducem echipamentele Red Lion la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de confirmarea producătorului pentru familia și modelul ales." },
+      { q: "Livrați echipamente Red Lion în România și cât durează?", a: "Da, aducem echipamentele Red Lion la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru familia și modelul ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de HMI sau controler Red Lion?", a: "Trimiteți familia dorită (FlexEdge, Graphite, CR sau G3), numărul de intrări/ieșiri necesar și dacă proiectul are nevoie de conversie de protocol prin Data Station Plus sau de module suplimentare E3 I/O." },
     ],
     evidenceClass: "market-signal-intl",
@@ -297,7 +297,7 @@ Pentru un proiect din România cu echipamente montate pe cale ferată, în staț
       "EN 50155 — echipamente electronice pentru vehicule feroviare",
       "Aprobări DNV — aplicații maritime și offshore",
     ],
-    infinitrade: `Furnizăm echipamente Westermo pentru instalații unde rețeaua trebuie să funcționeze în condiții de mediu dificile, fără mentenanță frecventă. Ce putem confirma vine din surse publice ale producătorului; nu avem date proprii despre stocul curent al fiecărui cod de switch sau router. Pentru Westermo, aprovizionarea se face din UE, la comandă, cu un interval orientativ de 2-6 săptămâni până la livrare, în funcție de model. Pentru ofertă, spuneți-ne numărul de porturi necesar și dacă instalația cere o certificare anume; nu ținem gama Westermo pe raft, fiecare switch sau router se aduce la comandă.`,
+    infinitrade: `Furnizăm echipamente Westermo pentru instalații unde rețeaua trebuie să funcționeze în condiții de mediu dificile, fără mentenanță frecventă. Ce putem confirma vine din surse publice ale producătorului; nu avem date proprii despre stocul curent al fiecărui cod de switch sau router. Pentru Westermo, aprovizionarea se face din UE, la comandă, cu un interval orientativ de 2-4 săptămâni până la livrare, în funcție de model. Pentru ofertă, spuneți-ne numărul de porturi necesar și dacă instalația cere o certificare anume; nu ținem gama Westermo pe raft, fiecare switch sau router se aduce la comandă.`,
     limitation: "Nu putem confirma compatibilitatea unui model Westermo mai vechi, scos din producție, cu firmware-ul actual fără o verificare punctuală a numărului exact de serie.",
     productCodes: [
       { code: "Lynx 3306-F2G-T4-LV Gen 2", description: "switch industrial cu 4 porturi 10/100 și 2 porturi SFP 1G" },
@@ -323,7 +323,7 @@ Pentru un proiect din România cu echipamente montate pe cale ferată, în staț
     faq: [
       { q: "Ce produce Westermo?", a: "Westermo produce switch-uri Ethernet și routere industriale pentru medii dure, din familii precum Lynx, Viper, Redfox și Ibex, cu plajă de temperatură extinsă și certificări pentru sectoare feroviar, energetic și maritim." },
       { q: "Cum aleg un switch Westermo după cod?", a: "Codul de model Westermo indică de obicei familia (de exemplu Lynx), numărul de porturi cuprivire și tipul de porturi SFP; spuneți-ne numărul de dispozitive de conectat și dacă aveți nevoie de PoE sau de fibră optică." },
-      { q: "Livrați switch-uri Westermo în România?", a: "Da, aducem echipamentele Westermo la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de confirmarea producătorului pentru modelul ales." },
+      { q: "Livrați switch-uri Westermo în România?", a: "Da, aducem echipamentele Westermo la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru modelul ales." },
       { q: "Ce certificări au switch-urile Westermo pentru aplicații feroviare?", a: "Modelele dedicate căilor ferate, precum Lynx-RB-FT3G-MV, au certificare IEC 61850-3 pentru echipamente de substație electrică și EN 50155 pentru electronica montată la bordul vehiculelor feroviare, conform datelor publicate de producător." },
     ],
     evidenceClass: "market-signal-intl",
@@ -367,7 +367,7 @@ Pentru piața din România, Concentric are sens pentru ateliere și integratori 
       "IATF 16949:2016 — management al calității specific industriei auto",
       "ISO 9001:2015 — management general al calității",
     ],
-    infinitrade: `Furnizăm componente Concentric AB pentru ateliere și integratori din România care deservesc flote de camioane, utilaje agricole sau de construcții. Informațiile tehnice de mai sus sunt din surse publice ale producătorului suedez; nu avem date proprii de stoc pentru un cod anume de pompă. Componentele ajung la comandă, prin canale de aprovizionare din UE, iar intervalul orientativ este de 2-6 săptămâni de la confirmarea fabricii. Pentru ofertă, trimiteți codul pompei sau componentei montate pe utilaj, sau tipul de utilaj și funcția componentei; nu ținem gama Concentric pe raft, fiecare componentă se aduce la comandă din UE.`,
+    infinitrade: `Furnizăm componente Concentric AB pentru ateliere și integratori din România care deservesc flote de camioane, utilaje agricole sau de construcții. Informațiile tehnice de mai sus sunt din surse publice ale producătorului suedez; nu avem date proprii de stoc pentru un cod anume de pompă. Componentele ajung la comandă, prin canale de aprovizionare din UE, iar intervalul orientativ este de 2-4 săptămâni de la confirmarea fabricii. Pentru ofertă, trimiteți codul pompei sau componentei montate pe utilaj, sau tipul de utilaj și funcția componentei; nu ținem gama Concentric pe raft, fiecare componentă se aduce la comandă din UE.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unei pompe Concentric cu un utilaj anume fără codul original al componentei montate.",
     productCodes: [
       { code: "Gear Pumps", description: "pompe hidraulice cu roți dințate pentru echipamente mobile și industriale" },
@@ -388,7 +388,7 @@ Pentru piața din România, Concentric are sens pentru ateliere și integratori 
     faq: [
       { q: "Ce produce Concentric AB?", a: "Concentric AB produce pompe hidraulice cu roți dințate, pompe de încărcare, motoare hidraulice, sisteme de acționare a ventilatoarelor de răcire și componente electrice precum pompe electrice de ulei și apă, pentru camioane, autobuze, utilaje agricole și de construcții." },
       { q: "Ce echivalent are o pompă Concentric la Bosch Rexroth?", a: "Concentric și Bosch Rexroth produc ambele pompe hidraulice cu roți dințate pentru utilaje mobile; echivalența exactă depinde de debit, presiune și tipul de montaj, verificate pe baza codului original al pompei montate pe utilaj." },
-      { q: "Livrați componente Concentric AB în România?", a: "Da, aducem componentele Concentric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de confirmarea producătorului pentru codul solicitat." },
+      { q: "Livrați componente Concentric AB în România?", a: "Da, aducem componentele Concentric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru codul solicitat." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Concentric?", a: "Trimiteți codul original al pompei sau componentei de pe utilaj; dacă nu îl aveți, spuneți-ne tipul utilajului, funcția componentei (ungere, răcire, direcție) și, dacă știți, debitul sau presiunea necesară." },
     ],
     evidenceClass: "market-signal-intl",
@@ -432,7 +432,7 @@ Pentru un integrator din România care asamblează utilaje mobile sau staționar
     certifications: [
       "DVGW / H2 Ready — variantă de racorduri de țeavă certificată pentru hidrogen",
     ],
-    infinitrade: `Furnizăm racorduri și linii hidraulice VOSS pentru integratori din România care asamblează utilaje mobile sau staționare. Ce nu putem confirma este stocul curent al unei referințe anume — datele tehnice de mai sus vin din surse publice ale producătorului german. Produsele le aducem la comandă din surse de aprovizionare situate în UE, cu un termen orientativ de 2-6 săptămâni, în funcție de disponibilitatea confirmată de fabrică. Pentru ofertă, trimiteți schema hidraulică sau codul racordului existent, diametrul și presiunea de lucru; nu ținem gama VOSS pe raft, fiecare racord se aduce la comandă din UE.`,
+    infinitrade: `Furnizăm racorduri și linii hidraulice VOSS pentru integratori din România care asamblează utilaje mobile sau staționare. Ce nu putem confirma este stocul curent al unei referințe anume — datele tehnice de mai sus vin din surse publice ale producătorului german. Produsele le aducem la comandă din surse de aprovizionare situate în UE, cu un termen orientativ de 2-4 săptămâni, în funcție de disponibilitatea confirmată de fabrică. Pentru ofertă, trimiteți schema hidraulică sau codul racordului existent, diametrul și presiunea de lucru; nu ținem gama VOSS pe raft, fiecare racord se aduce la comandă din UE.`,
     limitation: "Nu putem confirma disponibilitatea variantei H2 Ready pentru fiecare dimensiune de racord fără o verificare punctuală cu producătorul.",
     productCodes: [
       { code: "Ready-to-install lines", description: "linii hidraulice personalizate, gata de montat, livrate pre-asamblate" },
@@ -449,7 +449,7 @@ Pentru un integrator din România care asamblează utilaje mobile sau staționar
     faq: [
       { q: "Ce produce VOSS Fluid?", a: "VOSS Fluid produce racorduri și sisteme de conectare pentru circuite hidraulice — linii pre-asamblate, sistemul de conectare rapidă VOSS 232, racorduri de țeavă, module de management termic, supape și distribuitoare, pentru utilaje mobile, staționare și vehicule." },
       { q: "Ce este o linie hidraulică ready-to-install de la VOSS?", a: "Este o linie hidraulică proiectată și asamblată de VOSS conform schemei tehnice a clientului, livrată gata de montat pe utilaj, cu toate racordurile fixate și testate la presiune, fără asamblare manuală suplimentară la client." },
-      { q: "Livrați produse VOSS Fluid în România?", a: "Da, aducem produsele VOSS la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de confirmarea producătorului pentru referința solicitată." },
+      { q: "Livrați produse VOSS Fluid în România?", a: "Da, aducem produsele VOSS la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru referința solicitată." },
       { q: "Ce trebuie să trimit pentru o ofertă de racorduri VOSS?", a: "Trimiteți codul racordului existent sau schema hidraulică a instalației, diametrul conductei și presiunea de lucru; dacă proiectul implică hidrogen, menționați și această cerință pentru varianta H2 Ready." },
     ],
     evidenceClass: "market-signal-intl",
@@ -490,7 +490,7 @@ Pentru piața din România, Oleo are sens pentru operatori de porturi, oțelări
       "Depozitare — sisteme de absorbție a energiei pentru utilaje de manipulare",
       "Căi ferate — componente de cuplare și absorbție a impactului pentru vagoane și infrastructură",
     ],
-    infinitrade: `Furnizăm amortizoare industriale și componente feroviare Oleo pentru operatori din România din porturi, oțelării, depozite sau infrastructură de cale ferată. Informațiile de mai sus provin din surse publice ale producătorului britanic; fără date proprii de stoc pentru un cod anume. Amortizoarele și componentele feroviare se aduc la comandă, prin canale de aprovizionare din UE, cu un termen orientativ de 2-6 săptămâni, în funcție de confirmarea fabricii. Pentru ofertă, trimiteți aplicația exactă — tip de macara sau utilaj, energie de impact estimată, sau, pentru feroviar, tipul de vagon; nu ținem gama Oleo pe raft, fiecare amortizor sau componentă se aduce la comandă.`,
+    infinitrade: `Furnizăm amortizoare industriale și componente feroviare Oleo pentru operatori din România din porturi, oțelării, depozite sau infrastructură de cale ferată. Informațiile de mai sus provin din surse publice ale producătorului britanic; fără date proprii de stoc pentru un cod anume. Amortizoarele și componentele feroviare se aduc la comandă, prin canale de aprovizionare din UE, cu un termen orientativ de 2-4 săptămâni, în funcție de confirmarea fabricii. Pentru ofertă, trimiteți aplicația exactă — tip de macara sau utilaj, energie de impact estimată, sau, pentru feroviar, tipul de vagon; nu ținem gama Oleo pe raft, fiecare amortizor sau componentă se aduce la comandă.`,
     limitation: "Nu putem confirma capacitatea exactă de absorbție a energiei pentru un amortizor Oleo fără specificația completă a aplicației (masă, viteză de impact, cursă disponibilă).",
     productCodes: [
       { code: "Heavy Duty Range", description: "amortizoare industriale pentru condiții dificile, cadre de oțel, macarale de doc" },
@@ -507,7 +507,7 @@ Pentru piața din România, Oleo are sens pentru operatori de porturi, oțelări
     faq: [
       { q: "Ce produce Oleo International?", a: "Oleo International produce amortizoare industriale hidraulice pentru macarale și utilaje de manipulare, în game precum Heavy Duty și LDi, plus componente feroviare — opritoare de capăt de linie, tije de cuplare, tuburi de deformare și tampoane laterale pentru vagoane." },
       { q: "Ce diferență e între gama Heavy Duty și LDi la Oleo?", a: "Ambele folosesc același principiu hidraulic, dar gama Heavy Duty este dimensionată pentru energie de impact mare, tipică macaralelor de doc, în timp ce LDi este varianta mai ușoară, pentru utilaje sau linii cu cerințe de absorbție mai mici." },
-      { q: "Livrați produse Oleo International în România?", a: "Da, aducem amortizoarele și componentele feroviare Oleo la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de confirmarea producătorului." },
+      { q: "Livrați produse Oleo International în România?", a: "Da, aducem amortizoarele și componentele feroviare Oleo la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului." },
       { q: "Ce trebuie să trimit pentru o ofertă de amortizor Oleo?", a: "Trimiteți tipul de utilaj sau macara, energia de impact estimată sau greutatea și viteza obiectului care lovește amortizorul, iar pentru componente feroviare, tipul de vagon sau infrastructură vizată." },
     ],
     evidenceClass: "market-signal-intl",
@@ -551,7 +551,7 @@ Pentru un integrator sau un beneficiar din România cu o hală de producție, un
     certifications: [
       "ISO 9001:2015 — management al calității pentru fabricile grupului",
     ],
-    infinitrade: `Lucrăm cu brandurile Columbus McKinnon — Yale, Coffing, CM, Lodestar, STAHL CraneSystems, Duff-Norton și Magnetek — pentru beneficiari din România care au nevoie de palane, macarale sau componente electrice de control. Ce putem și ce nu putem confirma: categoriile de produse de mai sus provin din surse publice ale producătorului american; nu avem date proprii despre stocul unui model anume. Echipamentele ajung la comandă, prin canale de aprovizionare din UE, cu un termen orientativ de 2-6 săptămâni, în funcție de brandul și modelul solicitat. Pentru ofertă, trimiteți brandul și modelul exact de pe plăcuța echipamentului existent; nu ținem gama Columbus McKinnon pe raft.`,
+    infinitrade: `Lucrăm cu brandurile Columbus McKinnon — Yale, Coffing, CM, Lodestar, STAHL CraneSystems, Duff-Norton și Magnetek — pentru beneficiari din România care au nevoie de palane, macarale sau componente electrice de control. Ce putem și ce nu putem confirma: categoriile de produse de mai sus provin din surse publice ale producătorului american; nu avem date proprii despre stocul unui model anume. Echipamentele ajung la comandă, prin canale de aprovizionare din UE, cu un termen orientativ de 2-4 săptămâni, în funcție de brandul și modelul solicitat. Pentru ofertă, trimiteți brandul și modelul exact de pe plăcuța echipamentului existent; nu ținem gama Columbus McKinnon pe raft.`,
     limitation: "Nu putem confirma compatibilitatea unei piese de schimb cu un model foarte vechi din gama Yale, Coffing sau Lodestar fără numărul exact de plăcuță al echipamentului.",
     productCodes: [
       { code: "Yale", description: "brand de palane și dispozitive de ridicat din portofoliul Columbus McKinnon" },
@@ -575,7 +575,7 @@ Pentru un integrator sau un beneficiar din România cu o hală de producție, un
     faq: [
       { q: "Ce branduri deține Columbus McKinnon?", a: "Columbus McKinnon deține brandurile Yale, Coffing, CM și Lodestar pentru palane cu lanț, STAHL CraneSystems pentru macarale, Duff-Norton pentru actuatoare liniare și Magnetek pentru sisteme electrice de control ale echipamentelor de ridicat." },
       { q: "Cum aleg o palană de schimb dintr-un brand Columbus McKinnon?", a: "Cel mai sigur este să trimiteți brandul exact (Yale, Coffing, CM sau Lodestar) și numărul de model de pe plăcuța palanei existente; capacitatea de ridicare singură nu este suficientă pentru o potrivire corectă a pieselor de schimb." },
-      { q: "Livrați echipamente Columbus McKinnon în România?", a: "Da, aducem echipamentele Columbus McKinnon la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de confirmarea producătorului pentru brandul și modelul ales." },
+      { q: "Livrați echipamente Columbus McKinnon în România?", a: "Da, aducem echipamentele Columbus McKinnon la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru brandul și modelul ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de macara sau palană?", a: "Trimiteți capacitatea de ridicare necesară, tipul de structură disponibilă (portal, braț pivotant sau stație de lucru) și, dacă înlocuiți un echipament existent, brandul și modelul de pe plăcuța acestuia." },
     ],
     evidenceClass: "market-signal-intl",

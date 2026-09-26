@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
   }
 
   const title = `${brand.name} | Catalog Produse 2026 | Infinitrade`;
-  const description = `2026: Furnizăm echipamente ${brand.name} în România. Furnizor SEAP/SICAP. ${brand.description}. Livrare 24-72h.`;
+  const description = `2026: Furnizăm echipamente ${brand.name} în România. Furnizor SEAP/SICAP. ${brand.description}. Livrare 24–72 h din stoc.`;
 
   return {
     title,

@@ -64,7 +64,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de motor asincron și în cât timp se livrează?",
-        "a": "Sunt necesare puterea, turația, tensiunea de alimentare, clasa de protecție și tipul de montaj, plus plăcuța motorului înlocuit dacă există. Termenul de livrare este la comandă, de regulă între 2 și 6 săptămâni, în funcție de putere și de producătorul ales."
+        "a": "Sunt necesare puterea, turația, tensiunea de alimentare, clasa de protecție și tipul de montaj, plus plăcuța motorului înlocuit dacă există. Termenul de livrare este la comandă, de regulă între 2 și 4 săptămâni, în funcție de putere și de producătorul ales."
       },
       {
         "q": "Un motor asincron standard poate fi folosit cu un convertizor de frecvență?",
@@ -137,7 +137,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de motor ATEX și cât durează livrarea?",
-        "a": "Sunt necesare zona de clasificare, puterea, turația și tensiunea de alimentare, plus clasa de temperatură dacă e impusă de proiect. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător, deoarece motoarele certificate ATEX rareori se țin ca stoc standard."
+        "a": "Sunt necesare zona de clasificare, puterea, turația și tensiunea de alimentare, plus clasa de temperatură dacă e impusă de proiect. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, deoarece motoarele certificate ATEX rareori se țin ca stoc standard."
       },
       {
         "q": "Poate fi reparat local un motor ATEX defect sau trebuie înlocuit?",
@@ -211,7 +211,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de servomotoare industriale și cât durează livrarea?",
-        "a": "Cuplul necesar, viteza maximă, tensiunea de alimentare, protocolul de comunicație al driverului și tipul de flanșă pentru montaj sunt datele minime pentru o ofertă corectă. Livrarea nu este din stoc; se confirmă la comandă, orientativ în 2-6 săptămâni, în funcție de producător."
+        "a": "Cuplul necesar, viteza maximă, tensiunea de alimentare, protocolul de comunicație al driverului și tipul de flanșă pentru montaj sunt datele minime pentru o ofertă corectă. Livrarea nu este din stoc; se confirmă la comandă, orientativ în 2-4 săptămâni, în funcție de producător."
       },
       {
         "q": "Se pot integra servomotoare industriale noi cu un driver mai vechi din linia existentă?",
@@ -285,7 +285,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de motoreductoare industriale și cât durează livrarea?",
-        "a": "Sunt necesare cuplul sau puterea, turația de ieșire, tipul de sarcină și poziția de montaj dorită. Livrarea unui motoreductor industrial este la comandă, orientativ 2-6 săptămâni, în funcție de producător și de configurația exactă aleasă (raport de transmisie, poziție de montaj, clasă de protecție IP, tip de flanșă de ieșire)."
+        "a": "Sunt necesare cuplul sau puterea, turația de ieșire, tipul de sarcină și poziția de montaj dorită. Livrarea unui motoreductor industrial este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de configurația exactă aleasă (raport de transmisie, poziție de montaj, clasă de protecție IP, tip de flanșă de ieșire)."
       },
       {
         "q": "Se poate schimba doar motorul unui motoreductor industrial, fără reductorul?",
@@ -358,7 +358,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trebuie trimise pentru o ofertă de convertizor de frecvență industrial și cât durează livrarea?",
-        "a": "Sunt necesare puterea motorului, tensiunea de alimentare, tipul de aplicație, mediul de montaj și clasa de protecție dorită. Livrarea se stabilește la comandă, orientativ 2-6 săptămâni, în funcție de producător și de complexitatea opțiunilor de comunicare cerute."
+        "a": "Sunt necesare puterea motorului, tensiunea de alimentare, tipul de aplicație, mediul de montaj și clasa de protecție dorită. Livrarea se stabilește la comandă, orientativ 2-4 săptămâni, în funcție de producător și de complexitatea opțiunilor de comunicare cerute."
       },
       {
         "q": "Ce compatibilitate trebuie verificată între un convertizor de frecvență și motorul existent?",

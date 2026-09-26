@@ -31,7 +31,7 @@ Pentru piața din România, gama Associated Research are sens la producătorii �
       "Vehicule electrice — testare siguranță electrică pe componente de încărcare și baterii",
       "Electronică de larg consum — testare funcțională și de siguranță pe linii de producție"
     ],
-    infinitrade: `Putem aduce testerele Associated Research pentru laboratoarele și liniile de producție din România care au nevoie de verificare hipot, izolație sau legare la pământ conform standardelor de siguranță electrică. Nu ținem această gamă pe raft; aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, în funcție de model și configurație. Ce spunem despre gamă vine strict din surse publice ale producătorului, verificate în această sesiune — nu avem date proprii despre stocul sau termenele reale ale fabricii. Pentru o ofertă corectă avem nevoie de seria dorită, funcțiile de test necesare (hipot AC/DC, izolație, ground bond) și tensiunea maximă cerută de standardul aplicabil produsului dumneavoastră.`,
+    infinitrade: `Putem aduce testerele Associated Research pentru laboratoarele și liniile de producție din România care au nevoie de verificare hipot, izolație sau legare la pământ conform standardelor de siguranță electrică. Nu ținem această gamă pe raft; aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de model și configurație. Ce spunem despre gamă vine strict din surse publice ale producătorului, verificate în această sesiune — nu avem date proprii despre stocul sau termenele reale ale fabricii. Pentru o ofertă corectă avem nevoie de seria dorită, funcțiile de test necesare (hipot AC/DC, izolație, ground bond) și tensiunea maximă cerută de standardul aplicabil produsului dumneavoastră.`,
     limitation: "Nu putem confirma disponibilitatea pe stoc a unui model anume și nu oferim etalonarea aparatelor ca serviciu propriu.",
     productCodes: [
       { code: "Hypot 3805", description: "tester AC hipot 5 kVAC, 12 mA" },
@@ -56,7 +56,7 @@ Pentru piața din România, gama Associated Research are sens la producătorii �
     faq: [
       { q: "Ce produce Associated Research?", a: "Associated Research fabrică testere de siguranță electrică — rigiditate dielectrică AC/DC, rezistență de izolație, legare la pământ și curent de scurgere — folosite pe linii de producție și în laboratoare de certificare pentru a verifica un produs electric înainte de a fi pus pe piață." },
       { q: "Cum aleg un tester Hypot potrivit după cod?", a: "Codul indică tensiunea maximă și funcțiile disponibile: seria Hypot standard acoperă până la 5-6 kV, HypotMAX urcă la 20 kV, iar OMNIA II adaugă izolație și ground bond în același aparat. Alegerea depinde de tensiunea cerută de standardul de siguranță aplicabil produsului testat." },
-      { q: "Livrați echipamente Associated Research în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE. Termenul orientativ este de 2-6 săptămâni, în funcție de model și de confirmarea disponibilității de la producător; nu promitem disponibilitate din depozit pentru această gamă." },
+      { q: "Livrați echipamente Associated Research în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE. Termenul orientativ este de 2-4 săptămâni, în funcție de model și de confirmarea disponibilității de la producător; nu promitem disponibilitate din depozit pentru această gamă." },
       { q: "Ce trebuie să trimit pentru o ofertă Associated Research?", a: "Seria dorită (Hypot, HypotULTRA, HypotMAX, OMNIA II), funcțiile de test necesare și tensiunea maximă cerută de standardul aplicabil. Cu aceste date putem confirma modelul potrivit din gama producătorului și termenul realist de livrare." }
     ],
     evidenceClass: "market-signal-ro",
@@ -98,7 +98,7 @@ Pentru piața din România, gama Doble are sens la utilitățile de energie, ope
       "Producători de transformatoare — testare finală înainte de livrare",
       "Laboratoare de diagnostic electric — analize de gaze dizolvate și descărcări parțiale"
     ],
-    infinitrade: `Aducem echipamente Doble pentru operatorii de rețea și laboratoarele de diagnostic din România care fac mentenanță predictivă pe transformatoare, întrerupătoare și cabluri de înaltă tensiune. Gama nu se află pe stocul nostru; o aducem la comandă din surse europene, cu termen orientativ de 2-6 săptămâni la comandă, în funcție de model. Informațiile despre serii și parametri le-am verificat direct pe site-ul producătorului în această sesiune — nu deținem date proprii despre termenele reale de fabricație sau despre stocul central Doble. Pentru o ofertă avem nevoie de tipul de test dorit (DGA, tan delta, izolație, micro-ohm), tensiunea nominală a echipamentului testat și, dacă e cazul, modelul exact identificat pe placa producătorului.`,
+    infinitrade: `Aducem echipamente Doble pentru operatorii de rețea și laboratoarele de diagnostic din România care fac mentenanță predictivă pe transformatoare, întrerupătoare și cabluri de înaltă tensiune. Gama nu se află pe stocul nostru; o aducem la comandă din surse europene, cu termen orientativ de 2-4 săptămâni la comandă, în funcție de model. Informațiile despre serii și parametri le-am verificat direct pe site-ul producătorului în această sesiune — nu deținem date proprii despre termenele reale de fabricație sau despre stocul central Doble. Pentru o ofertă avem nevoie de tipul de test dorit (DGA, tan delta, izolație, micro-ohm), tensiunea nominală a echipamentului testat și, dacă e cazul, modelul exact identificat pe placa producătorului.`,
     limitation: "Nu oferim servicii de calibrare sau etalonare proprii pentru aceste instrumente; certificatele de etalonare rămân la cerere, de la producător sau un laborator acreditat.",
     productCodes: [
       { code: "Calisto R9", description: "monitor DGA cu întreținere redusă" },
@@ -122,7 +122,7 @@ Pentru piața din România, gama Doble are sens la utilitățile de energie, ope
     faq: [
       { q: "Ce produce Doble Engineering?", a: "Doble produce echipamente de diagnostic pentru rețele electrice — monitoare de gaze dizolvate (DGA) pentru transformatoare, testere hipot și de izolație, micro-ohmmetre pentru întrerupătoare și analizoare de raport de transformare, folosite de utilități și laboratoare de mentenanță predictivă." },
       { q: "Ce diferență e între modelele din seria Calisto de la Doble Engineering?", a: "Diferența e numărul de gaze monitorizate: Calisto H1 detectează doar hidrogen, Calisto HM adaugă umiditate, Calisto 5 acoperă cinci gaze de defect, iar Calisto 9 face o analiză completă plus umiditate. Alegerea depinde de criticitatea transformatorului monitorizat." },
-      { q: "Livrați echipamente Doble în România și cât durează?", a: "Da, la comandă, din surse de aprovizionare europene, cu termen orientativ de 2-6 săptămâni în funcție de model și de confirmarea producătorului; Această gamă nu stă pe raftul nostru — o aducem la comandă." },
+      { q: "Livrați echipamente Doble în România și cât durează?", a: "Da, la comandă, din surse de aprovizionare europene, cu termen orientativ de 2-4 săptămâni în funcție de model și de confirmarea producătorului; Această gamă nu stă pe raftul nostru — o aducem la comandă." },
       { q: "Ce trebuie să trimit pentru o ofertă de echipament Doble?", a: "Tipul de diagnostic dorit (DGA, tan delta, izolație, raport de transformare), tensiunea nominală a echipamentului testat și, dacă îl aveți, modelul exact. Cu aceste informații confirmăm varianta potrivită și termenul de livrare." }
     ],
     evidenceClass: "market-signal-ro",
@@ -164,7 +164,7 @@ Pentru piața din România, gama Hikmicro are sens la echipele de mentenanță e
       "HVAC — verificare izolații și scurgeri termice",
       "Utilități — monitorizare echipamente de rețea electrică"
     ],
-    infinitrade: `Putem aduce camere Hikmicro pentru echipele de mentenanță electrică și industrială din România care vor un instrument de termoviziune pentru inspecții de rutină. Nu avem raft propriu pe această gamă; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni. Datele de mai sus vin din informațiile publice disponibile pe site-ul producătorului, verificate în această sesiune — nu avem cifre proprii despre volumele de vânzări sau despre stocul central Hikmicro. Pentru o ofertă corectă avem nevoie de aplicația dorită (electric, mecanic, construcții), rezoluția termică minimă necesară și dacă e nevoie de funcția de imagistică acustică.`,
+    infinitrade: `Putem aduce camere Hikmicro pentru echipele de mentenanță electrică și industrială din România care vor un instrument de termoviziune pentru inspecții de rutină. Nu avem raft propriu pe această gamă; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Datele de mai sus vin din informațiile publice disponibile pe site-ul producătorului, verificate în această sesiune — nu avem cifre proprii despre volumele de vânzări sau despre stocul central Hikmicro. Pentru o ofertă corectă avem nevoie de aplicația dorită (electric, mecanic, construcții), rezoluția termică minimă necesară și dacă e nevoie de funcția de imagistică acustică.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unui model specific și nu oferim etalonare proprie a senzorilor termici.",
     productCodes: [
       { code: "Mini2", description: "cameră termică de buzunar, model de bază" },
@@ -184,7 +184,7 @@ Pentru piața din România, gama Hikmicro are sens la echipele de mentenanță e
     faq: [
       { q: "Ce produce Hikmicro?", a: "Hikmicro produce camere de termoviziune portabile și o cameră de imagistică acustică, folosite pentru inspecții electrice, mecanice, de construcții și HVAC. Seriile merg de la modele de buzunar (Mini) până la modele industriale de rezoluție ridicată (SP)." },
       { q: "Cum aleg o cameră Hikmicro potrivită?", a: "Alegerea depinde de aplicație: seria Mini sau Pocket pentru triaj rapid și portabilitate, seria G sau SP pentru inspecții industriale de precizie, iar AI56 pentru localizarea scăpărilor de gaz sau a descărcărilor parțiale fără contact direct." },
-      { q: "Livrați camere Hikmicro în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni în funcție de model; nu ținem această gamă pe raft propriu." },
+      { q: "Livrați camere Hikmicro în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de model; nu ținem această gamă pe raft propriu." },
       { q: "Ce trebuie să trimit pentru o ofertă Hikmicro?", a: "Aplicația dorită (electric, mecanic, construcții, HVAC), rezoluția termică minimă necesară și dacă aveți nevoie și de funcția de imagistică acustică. Cu aceste date confirmăm modelul potrivit din gama disponibilă." }
     ],
     evidenceClass: "market-signal-ro",
@@ -225,7 +225,7 @@ Pentru piața din România, gama AMETEK Programmable Power are sens la laboratoa
       "Centre de date — testare surse de alimentare la scară mare",
       "Semiconductori — teste funcționale cu surse programabile de precizie"
     ],
-    infinitrade: `Aducem echipamente AMETEK Programmable Power pentru laboratoarele din România care testează surse de alimentare, echipamente electronice sau baterii. Gama nu se află pe stocul propriu; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni la comandă, în funcție de configurație. Ce putem și ce nu putem confirma ține strict de informațiile publicate pe site-ul producătorului, verificate în această sesiune — nu avem acces la stocul central al fabricii din San Diego. Pentru o ofertă avem nevoie de tipul de sursă (AC, DC, sarcină electronică), puterea și tensiunea necesară și, dacă e cazul, standardul de compliance vizat.`,
+    infinitrade: `Aducem echipamente AMETEK Programmable Power pentru laboratoarele din România care testează surse de alimentare, echipamente electronice sau baterii. Gama nu se află pe stocul propriu; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni la comandă, în funcție de configurație. Ce putem și ce nu putem confirma ține strict de informațiile publicate pe site-ul producătorului, verificate în această sesiune — nu avem acces la stocul central al fabricii din San Diego. Pentru o ofertă avem nevoie de tipul de sursă (AC, DC, sarcină electronică), puterea și tensiunea necesară și, dacă e cazul, standardul de compliance vizat.`,
     limitation: "Nu putem confirma termenele exacte de producție pentru sistemele configurate la comandă și nu oferim etalonare proprie a echipamentelor.",
     productCodes: [
       { code: "Asterion AC", description: "sursă AC programabilă, 800 VA - 480 kVA" },
@@ -247,7 +247,7 @@ Pentru piața din România, gama AMETEK Programmable Power are sens la laboratoa
     faq: [
       { q: "Ce produce AMETEK Programmable Power?", a: "AMETEK Programmable Power produce surse de alimentare programabile AC și DC, sarcini electronice și sisteme de testare a bateriilor și a array-urilor solare, sub mărcile Sorensen, Elgar, California Instruments și VTI Instruments." },
       { q: "Cum aleg o sursă programabilă din gama AMETEK Programmable Power?", a: "Depinde de aplicație: pentru banc de laborator, seriile XDL, XEL, XPF, XPH sau XPL acoperă puteri mici și medii; pentru simulare de rețea sau alimentare industrială, seria Asterion sau sistemele Mi-BEAM/i-BEAM sunt potrivite la puteri mari." },
-      { q: "Livrați echipamente AMETEK Programmable Power în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni în funcție de configurație; nu ținem această gamă pe raft pe această gamă industrială." },
+      { q: "Livrați echipamente AMETEK Programmable Power în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de configurație; nu ținem această gamă pe raft pe această gamă industrială." },
       { q: "Ce trebuie să trimit pentru o ofertă AMETEK Programmable Power?", a: "Tipul de sursă dorit (AC, DC sau sarcină electronică), puterea și tensiunea necesară, plus standardul de compliance vizat, dacă testul urmărește o anumită normă electromagnetică. Cu aceste date identificăm rapid seria potrivită din gamă." }
     ],
     evidenceClass: "market-signal-ro",
@@ -292,7 +292,7 @@ Pentru piața din România, gama Kewtech are sens la electricienii autorizați �
       "Testare PAT — verificare periodică a aparatelor electrice portabile",
       "Mentenanță industrială — monitorizare calitate energie și curenți de scurgere"
     ],
-    infinitrade: `Putem aduce testere Kewtech pentru electricienii și firmele de mentenanță din România care lucrează după proceduri britanice sau deservesc instalații pe standard UK. Gama nu e ținută pe stoc; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni la comandă. Informațiile de mai sus sunt din surse publice ale producătorului, verificate în această sesiune — nu deținem date proprii despre stocul central Kewtech din UK. Pentru o ofertă corectă avem nevoie de tipul de test dorit (multifuncțional, PAT, EV, clește de curent) și de numărul de funcții necesare într-un singur aparat.`,
+    infinitrade: `Putem aduce testere Kewtech pentru electricienii și firmele de mentenanță din România care lucrează după proceduri britanice sau deservesc instalații pe standard UK. Gama nu e ținută pe stoc; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni la comandă. Informațiile de mai sus sunt din surse publice ale producătorului, verificate în această sesiune — nu deținem date proprii despre stocul central Kewtech din UK. Pentru o ofertă corectă avem nevoie de tipul de test dorit (multifuncțional, PAT, EV, clește de curent) și de numărul de funcții necesare într-un singur aparat.`,
     limitation: "Nu putem confirma disponibilitatea unui model exact pe stoc și nu oferim etalonare proprie a testerelor.",
     productCodes: [
       { code: "KT63DL", description: "tester multifuncțional 5-in-1" },
@@ -319,7 +319,7 @@ Pentru piața din România, gama Kewtech are sens la electricienii autorizați �
     faq: [
       { q: "Ce produce Kewtech?", a: "Kewtech produce testere pentru instalații electrice — multifuncționale, PAT, clești ampermetrici, multimetre și accesorii de izolare sigură — folosite de electricieni și firme de mentenanță, cu funcții dedicate recent pentru testarea stațiilor de încărcare EV." },
       { q: "Cum aleg un tester multifuncțional Kewtech potrivit?", a: "Numărul din denumire indică funcțiile incluse: KT63DL acoperă 5 funcții de bază, iar KT66DL/KT66EVA urcă la 12, inclusiv test EV. Alegerea depinde de câte teste separate vreți acoperite de un singur aparat." },
-      { q: "Livrați echipamente Kewtech în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni în funcție de model; nu ținem gama Kewtech pe raft propriu." },
+      { q: "Livrați echipamente Kewtech în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de model; nu ținem gama Kewtech pe raft propriu." },
       { q: "Ce trebuie să trimit pentru o ofertă Kewtech?", a: "Tipul de test dorit — multifuncțional, PAT, EV sau măsurare de curent — și numărul de funcții necesare într-un singur aparat. Cu aceste informații identificăm modelul potrivit din gama KT sau KEW." }
     ],
     evidenceClass: "market-signal-ro",
@@ -366,7 +366,7 @@ Pentru piața din România, gama Haefely are sens la producătorii de transforma
       "Operatori de rețea — diagnostic transformatoare și cabluri în exploatare",
       "Institute de cercetare — teste de impuls pentru studiul supratensiunilor"
     ],
-    infinitrade: `Aducem echipamente Haefely pentru laboratoarele de testare la înaltă tensiune și EMC din România, precum și pentru producătorii de transformatoare și cabluri care au nevoie de teste dielectrice de certificare. Gama nu e pe stoc; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni la comandă, în funcție de complexitatea sistemului. Informația publică disponibilă pe site-ul producătorului, verificată în această sesiune, stă la baza celor de mai sus — nu avem date proprii despre stocul central Haefely sau termenele reale de fabricație pentru sisteme complexe. Pentru o ofertă avem nevoie de tipul de test (impuls, DC, AC, EMC), tensiunea maximă necesară și standardul de referință al testului.`,
+    infinitrade: `Aducem echipamente Haefely pentru laboratoarele de testare la înaltă tensiune și EMC din România, precum și pentru producătorii de transformatoare și cabluri care au nevoie de teste dielectrice de certificare. Gama nu e pe stoc; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni la comandă, în funcție de complexitatea sistemului. Informația publică disponibilă pe site-ul producătorului, verificată în această sesiune, stă la baza celor de mai sus — nu avem date proprii despre stocul central Haefely sau termenele reale de fabricație pentru sisteme complexe. Pentru o ofertă avem nevoie de tipul de test (impuls, DC, AC, EMC), tensiunea maximă necesară și standardul de referință al testului.`,
     limitation: "Nu oferim etalonare proprie a instrumentelor; certificatele de etalonare rămân la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "SGVA", description: "generator impuls tensiune, 400-10.000 kV" },
@@ -392,7 +392,7 @@ Pentru piața din România, gama Haefely are sens la producătorii de transforma
     faq: [
       { q: "Ce produce Haefely?", a: "Haefely produce echipamente de testare la înaltă tensiune și EMC — generatoare de impuls, sisteme de testare DC și AC, instrumente de diagnostic pentru transformatoare și cabluri, precum și sisteme combinate de testare a compatibilității electromagnetice." },
       { q: "Ce diferență e între generatoarele de impuls Haefely SGVA, SGDA și SGSA?", a: "Diferă prin tensiunea maximă și mobilitate: SGVA acoperă 400-10.000 kV pe pernă de aer pentru laboratoare mari, SGDA merge până la 3.200 kV pe roți, iar SGSA e varianta compactă de 100-1.200 kV pentru spații mai mici." },
-      { q: "Livrați echipamente Haefely în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni în funcție de complexitatea sistemului; sistemele mari de testare la înaltă tensiune pot necesita configurare suplimentară." },
+      { q: "Livrați echipamente Haefely în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de complexitatea sistemului; sistemele mari de testare la înaltă tensiune pot necesita configurare suplimentară." },
       { q: "Ce trebuie să trimit pentru o ofertă Haefely?", a: "Tipul de test dorit (impuls, DC, AC sau EMC), tensiunea maximă necesară și standardul de referință al testului. Cu aceste date identificăm sistemul potrivit din gama producătorului." }
     ],
     evidenceClass: "market-signal-ro",
@@ -434,7 +434,7 @@ Pentru piața din România, gama Camille Bauer are sens la operatorii de rețea 
       "Clădiri și smart grid — contorizare cu transmisie de date la distanță",
       "Testare siguranță electrică — verificare instalații și stații de încărcare EV"
     ],
-    infinitrade: `Putem aduce aparate Camille Bauer pentru operatorii de rețea și instalatorii industriali din România care au nevoie de măsurare panou, monitorizare a calității energiei sau contorizare cu transmisie de date. Gama nu e ținută pe stoc; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni la comandă, în funcție de model. Ce am scris mai sus vine din surse publice ale producătorului și ale grupului GMC-Instruments, verificate în această sesiune — nu deținem date proprii despre stocul central sau termenele reale de fabricație. Pentru o ofertă avem nevoie de tipul de măsurare dorit (panou, calitate energie, contorizare), nivelul de tensiune al rețelei și, dacă e cazul, tipul de comunicație necesar pentru transmiterea datelor.`,
+    infinitrade: `Putem aduce aparate Camille Bauer pentru operatorii de rețea și instalatorii industriali din România care au nevoie de măsurare panou, monitorizare a calității energiei sau contorizare cu transmisie de date. Gama nu e ținută pe stoc; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni la comandă, în funcție de model. Ce am scris mai sus vine din surse publice ale producătorului și ale grupului GMC-Instruments, verificate în această sesiune — nu deținem date proprii despre stocul central sau termenele reale de fabricație. Pentru o ofertă avem nevoie de tipul de măsurare dorit (panou, calitate energie, contorizare), nivelul de tensiune al rețelei și, dacă e cazul, tipul de comunicație necesar pentru transmiterea datelor.`,
     limitation: "Nu oferim etalonare proprie a aparatelor de măsură; certificatele de etalonare rămân la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "LINAX PQ1000", description: "aparat măsură panou pentru rețea joasă tensiune" },
@@ -459,7 +459,7 @@ Pentru piața din România, gama Camille Bauer are sens la operatorii de rețea 
     faq: [
       { q: "Ce produce Camille Bauer?", a: "Camille Bauer produce aparate de măsură pentru energie electrică — aparate de măsură panou, contoare de energie, analizoare de calitate a energiei, senzori de poziție și echipamente de testare a siguranței electrice, folosite în distribuție, industrie și aeroporturi." },
       { q: "Ce diferență e între modelele LINAX PQ de la Camille Bauer?", a: "Diferența e nivelul de rețea și numărul de canale: PQ1000 e destinat aplicațiilor simple de joasă tensiune, PQ3000 și PQ5000 acoperă configurații mai complexe, iar PQ5000CL adaugă măsurare multicanal pentru rețele extinse." },
-      { q: "Livrați echipamente Camille Bauer în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni în funcție de model; nu ținem gama Camille Bauer pe raft propriu." },
+      { q: "Livrați echipamente Camille Bauer în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de model; nu ținem gama Camille Bauer pe raft propriu." },
       { q: "Ce trebuie să trimit pentru o ofertă Camille Bauer?", a: "Tipul de măsurare dorit (panou, calitate energie, contorizare), nivelul de tensiune al rețelei și tipul de comunicație necesar, dacă transmiteți datele la distanță. Cu aceste informații identificăm modelul potrivit." }
     ],
     evidenceClass: "market-signal-ro",

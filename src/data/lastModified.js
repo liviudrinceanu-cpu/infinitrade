@@ -17,11 +17,11 @@ export const lastModified = {
   blog: '2026-09-23', // src/app/blog/page.js (index; individual articles use their own dates)
   studiiDeCaz: '2026-02-14', // src/app/studii-de-caz/page.js (index; individual case studies use caseStudies date below)
   industrii: '2026-02-14', // src/app/industrii/page.js (index; individual industry pages use industries date below)
-  faq: '2026-02-14', // src/app/faq/page.js
+  faq: '2026-09-26', // src/app/faq/page.js
   certificari: '2026-02-14', // src/app/certificari/page.js
   testimoniale: '2026-02-14', // src/app/testimoniale/page.js
   ghidComparativ: '2026-02-14', // src/app/ghid-comparativ/page.js
-  ghidAchizitiiSeap: '2026-02-14', // src/app/ghid-achizitii-seap/page.js
+  ghidAchizitiiSeap: '2026-09-26', // src/app/ghid-achizitii-seap/page.js
   gdpr: '2026-02-14', // src/app/gdpr/page.js
   politicaConfidentialitate: '2026-02-14', // src/app/politica-confidentialitate/page.js
   politicaCookies: '2026-02-14', // src/app/politica-cookies/page.js
@@ -33,7 +33,7 @@ export const lastModified = {
   // that feed all pages in that group
   categories: '2026-09-26', // src/data/products.js + src/data/equipmentCategories.js
   brands: '2026-09-26', // src/data/allBrandsIndex.js + src/data/brandContent.js
-  industries: '2026-09-09', // src/data/industries.js
+  industries: '2026-09-26', // src/data/industries.js
   caseStudies: '2026-02-14', // src/data/caseStudies.js
 
   // Blog does NOT use this map - it already uses article.dateModified || article.date per article. Keep that logic.

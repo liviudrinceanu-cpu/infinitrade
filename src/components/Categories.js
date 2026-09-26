@@ -4,6 +4,9 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Droplets, Settings2, Zap, Thermometer, Wind, ArrowRight, Plus, Check } from 'lucide-react';
 import { categories } from '@/data/products';
+// v17: live brand counts (merged lists) instead of the hand-typed "51+";
+// product-type counts instead of the unsourced "2000+ produse".
+import { HEADER_CATEGORY_MENUS } from '@/data/headerMenus';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './Categories.module.css';
@@ -81,12 +84,12 @@ export default function Categories() {
                     {/* Stats */}
                     <div className={styles.cardStats}>
                       <div className={styles.cardStat}>
-                        <span className={styles.cardStatValue}>{category.stats.brands}</span>
+                        <span className={styles.cardStatValue}>{HEADER_CATEGORY_MENUS[`/${category.slug}`]?.brandCount ?? category.stats.brands}</span>
                         <span className={styles.cardStatLabel}>Branduri</span>
                       </div>
                       <div className={styles.cardStat}>
-                        <span className={styles.cardStatValue}>{category.stats.products}</span>
-                        <span className={styles.cardStatLabel}>Produse</span>
+                        <span className={styles.cardStatValue}>{(category.productTypes || []).length}</span>
+                        <span className={styles.cardStatLabel}>Tipuri de produse</span>
                       </div>
                       <div className={styles.cardStat}>
                         <span className={styles.cardStatValue}>{category.stats.delivery}</span>

@@ -37,7 +37,7 @@ Pentru integratorii din România, Mac Valves e o opțiune atunci când o linie d
       "Omologări pentru zone cu risc de explozie (ATEX, UL, CSA, FM)",
       "Marcaj CE pentru piața europeană"
     ],
-    infinitrade: `Furnizăm valve Mac Valves pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Seriile standard de comutare le aducem la comandă prin canale de aprovizionare din SUA sau prin rețeaua europeană a producătorului, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru garnituri și accesorii de montaj compatibile putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți codul complet al seriei existente sau, la o instalație nouă, tipul de acționare, valoarea Cv necesară și dimensiunea porturilor. Nu ținem gama Mac Valves pe raft; fiecare comandă pornește de la confirmarea producătorului.`,
+    infinitrade: `Furnizăm valve Mac Valves pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Seriile standard de comutare le aducem la comandă prin canale de aprovizionare din SUA sau prin rețeaua europeană a producătorului, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru garnituri și accesorii de montaj compatibile putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți codul complet al seriei existente sau, la o instalație nouă, tipul de acționare, valoarea Cv necesară și dimensiunea porturilor. Nu ținem gama Mac Valves pe raft; fiecare comandă pornește de la confirmarea producătorului.`,
     limitation: "Nu putem confirma disponibilitatea variantelor certificate Ex pentru fiecare serie fără seria exactă cerută de aplicație.",
     productCodes: [
       { code: "Seria 35", description: "Valvă 3 căi mică, Cv până la 1,2, porturi 1/8″-1/4″" },
@@ -68,7 +68,7 @@ Pentru integratorii din România, Mac Valves e o opțiune atunci când o linie d
       { q: "Ce produce Mac Valves?", a: "Mac Valves fabrică valve pneumatice de comutare cu acționare directă, pe 3 și 4 căi, plus module Pulse Valve pentru curățarea filtrelor din instalațiile de colectare a prafului. Gama acoperă Cv de la 0,03 până la peste 60, cu porturi de la M3 până la 2½″." },
       { q: "Cum aleg o valvă Mac Valves după cod?", a: "Porniți de la codul seriei de pe eticheta valvei existente sau de pe schema pneumatică a instalației; codul indică numărul de căi, gabaritul portului și tipul de acționare. Dacă înlocuiți o valvă, trimiteți-ne fotografia etichetei și dimensiunea portului." },
       { q: "Ce echivalent Mac Valves are o valvă directională Festo?", a: "Echivalența depinde de numărul de căi, valoarea Cv și dimensiunea portului, nu doar de gabaritul fizic; vă putem propune o serie Mac Valves apropiată dacă transmiteți parametrii valvei Festo existente." },
-      { q: "Livrați valve Mac Valves în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA sau din rețeaua europeană a producătorului; termenul orientativ e de 2-6 săptămâni, în funcție de confirmarea seriei și a disponibilității la fabrică." },
+      { q: "Livrați valve Mac Valves în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA sau din rețeaua europeană a producătorului; termenul orientativ e de 2-4 săptămâni, în funcție de confirmarea seriei și a disponibilității la fabrică." },
       { q: "Ce trebuie să trimit pentru o ofertă de valve Mac Valves?", a: "Codul complet al seriei existente sau, pentru o instalație nouă, numărul de căi necesar, valoarea Cv, dimensiunea porturilor și dacă aplicația cere certificare pentru zonă cu risc de explozie." }
     ],
     evidenceClass: "market-signal-intl",
@@ -111,7 +111,7 @@ Pentru fabricile din România cu prese mecanice, linii de ambalat sau celule rob
       "Medical — valve de comutare pentru echipamente de producție cu cerințe stricte de siguranță",
       "Prelucrarea metalelor — module de blocare pe prese și linii de tăiere"
     ],
-    infinitrade: `Aducem valve Ross Controls pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru acest brand. Valvele duble și modulele de izolare a energiei le comandăm prin canale de aprovizionare din SUA, cu termen orientativ de 2-6 săptămâni de la confirmarea seriei. Pentru garnituri și accesorii de montaj uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de seria exactă de pe eticheta valvei existente sau, la o instalație nouă, de tipul de aplicație (control presă, izolare energie) și dimensiunea porturilor. Nu ținem gama Ross Controls pe raft; comanda pornește de la confirmarea producătorului.`,
+    infinitrade: `Aducem valve Ross Controls pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru acest brand. Valvele duble și modulele de izolare a energiei le comandăm prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni de la confirmarea seriei. Pentru garnituri și accesorii de montaj uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de seria exactă de pe eticheta valvei existente sau, la o instalație nouă, de tipul de aplicație (control presă, izolare energie) și dimensiunea porturilor. Nu ținem gama Ross Controls pe raft; comanda pornește de la confirmarea producătorului.`,
     limitation: "Nu putem confirma echivalența funcțională exactă cu o valvă de siguranță deja instalată fără fișa tehnică a acesteia.",
     productCodes: [
       { code: "DM2C", description: "Valvă dublă monitorizată pentru control de presă" },
@@ -139,7 +139,7 @@ Pentru fabricile din România cu prese mecanice, linii de ambalat sau celule rob
       { q: "Ce produce Ross Controls?", a: "Ross Controls fabrică valve pneumatice de siguranță — în principal valve duble monitorizate pentru control de presă și module pentru izolarea energiei la mentenanță — plus valve directionale cu interfețe standardizate ISO și ANSI." },
       { q: "Cum aleg o valvă dublă Ross Controls după serie?", a: "Verificați codul de pe eticheta valvei existente (de exemplu DM2C, M35 sau SV27) și confirmarea de la producător privind aplicația de siguranță — control de presă sau izolare de energie — pentru care a fost proiectată." },
       { q: "Ce echivalent Ross Controls are o valvă de siguranță deja instalată?", a: "Depinde de tipul de monitorizare cerut (internă sau externă) și de dimensiunea porturilor; trimiteți fișa tehnică sau fotografia etichetei valvei existente ca să vă propunem seria Ross Controls potrivită." },
-      { q: "Livrați valve Ross Controls în România și în cât timp?", a: "Da, aducem valvele Ross Controls la comandă, prin canale de aprovizionare din SUA; termenul orientativ e de 2-6 săptămâni, în funcție de confirmarea seriei exacte și a disponibilității la producător." },
+      { q: "Livrați valve Ross Controls în România și în cât timp?", a: "Da, aducem valvele Ross Controls la comandă, prin canale de aprovizionare din SUA; termenul orientativ e de 2-4 săptămâni, în funcție de confirmarea seriei exacte și a disponibilității la producător." },
       { q: "Ce informații trebuie să trimit pentru ofertă la Ross Controls?", a: "Seria valvei existente de pe etichetă sau, pentru un proiect nou, tipul de aplicație de siguranță (control de presă sau izolare de energie), dimensiunea porturilor și dacă e nevoie de monitorizare externă a comutării." }
     ],
     evidenceClass: "market-signal-intl",
@@ -183,7 +183,7 @@ Pentru service-urile auto, fermele și firmele de curățenie industrială din R
       "Construcții — curățarea utilajelor și a suprafețelor de șantier",
       "Stingere incendii — pompe de presiune pentru echipamente mobile"
     ],
-    infinitrade: `Furnizăm pompe Comet pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Pompele triplex complete le aducem la comandă din Italia, cu termen orientativ de 2-6 săptămâni de la confirmarea seriei; pentru garnituri, supape și seturi de reparație uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți codul seriei de pe eticheta pompei existente sau, la o instalație nouă, debitul și presiunea de lucru dorite. Nu ținem gama Comet pe raft; unitățile complete ajung la comandă, pe baza seriei confirmate.`,
+    infinitrade: `Furnizăm pompe Comet pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Pompele triplex complete le aducem la comandă din Italia, cu termen orientativ de 2-4 săptămâni de la confirmarea seriei; pentru garnituri, supape și seturi de reparație uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți codul seriei de pe eticheta pompei existente sau, la o instalație nouă, debitul și presiunea de lucru dorite. Nu ținem gama Comet pe raft; unitățile complete ajung la comandă, pe baza seriei confirmate.`,
     limitation: "Nu putem confirma parametrii exacți de presiune și debit pentru fiecare variantă fără seria completă de pe eticheta pompei.",
     productCodes: [
       { code: "BWD-K", description: "Pompă triplex cu reducție, unitate de bază fixă" },
@@ -206,7 +206,7 @@ Pentru service-urile auto, fermele și firmele de curățenie industrială din R
       { q: "Ce produce Comet?", a: "Comet fabrică pompe cu piston de înaltă presiune, în principal pompe triplex, pentru echipamente de spălare industrială, mașini de curățat drumuri, instalații de pulverizare agricolă și sisteme fixe de spălătorie auto." },
       { q: "Cum aleg o pompă Comet după cod de serie?", a: "Verificați codul de pe plăcuța pompei existente (de exemplu ZW-K sau TW 500); codul indică gabaritul și dacă are reducție integrată. Dacă pompa e montată pe o mașină, transmiteți și modelul mașinii complete." },
       { q: "Ce echivalent Comet are o pompă triplex de altă marcă?", a: "Echivalența depinde de debit, presiunea de lucru și turația de antrenare, nu doar de gabaritul fizic al pompei; trimiteți plăcuța pompei existente ca să vă propunem seria Comet potrivită." },
-      { q: "Livrați pompe Comet în România și cât durează?", a: "Da, aducem pompele Comet la comandă din Italia; termenul orientativ e de 2-6 săptămâni, în funcție de disponibilitatea seriei exacte confirmate de producător și de complexitatea configurației cerute." },
+      { q: "Livrați pompe Comet în România și cât durează?", a: "Da, aducem pompele Comet la comandă din Italia; termenul orientativ e de 2-4 săptămâni, în funcție de disponibilitatea seriei exacte confirmate de producător și de complexitatea configurației cerute." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Comet?", a: "Codul seriei existente sau, pentru o instalație nouă, debitul necesar în litri pe minut, presiunea de lucru dorită și tipul de antrenare — motor termic sau electric." }
     ],
     evidenceClass: "market-signal-intl",
@@ -247,7 +247,7 @@ Pentru service-urile de echipamente de spălat și fermele din România care luc
       "Agricultură — pulverizatoare de presiune joasă pentru tratamente chimice",
       "Spălătorii auto — unități de presiune pentru sisteme fixe de spălare"
     ],
-    infinitrade: `Aducem pompe Annovi Reverberi pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru acest brand. Unitățile complete le comandăm din Italia, cu termen orientativ de 2-6 săptămâni de la confirmarea seriei; pentru garnituri și supape de schimb uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de codul de pe plăcuța pompei existente sau, la o instalație nouă, de presiunea și debitul dorite. Nu ținem gama Annovi Reverberi pe raft; comanda pornește de la confirmarea seriei la producător.`,
+    infinitrade: `Aducem pompe Annovi Reverberi pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru acest brand. Unitățile complete le comandăm din Italia, cu termen orientativ de 2-4 săptămâni de la confirmarea seriei; pentru garnituri și supape de schimb uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de codul de pe plăcuța pompei existente sau, la o instalație nouă, de presiunea și debitul dorite. Nu ținem gama Annovi Reverberi pe raft; comanda pornește de la confirmarea seriei la producător.`,
     limitation: "Nu putem confirma anul înființării sau sediul exact al companiei, informație care nu apare pe paginile consultate.",
     productCodes: [
       { code: "538", description: "Pompă cu piston, 400 bar, debit 20-40 l/min" },
@@ -265,7 +265,7 @@ Pentru service-urile de echipamente de spălat și fermele din România care luc
       { q: "Ce produce Annovi Reverberi?", a: "Annovi Reverberi fabrică pompe cu piston și diafragmă de înaltă presiune, cu game separate pentru agricultură, curățenie profesională și industrie, de la seria 538 la 400 bar până la seria CR de 1.000 bar." },
       { q: "Cum aleg o pompă Annovi Reverberi după cod?", a: "Verificați codul de pe plăcuța pompei existente, de exemplu JR, STP-I sau CR; codul indică materialul de construcție și presiunea maximă de lucru. Pentru echipamente montate, transmiteți și modelul mașinii." },
       { q: "Ce echivalent are seria JR de la Annovi Reverberi?", a: "Depinde de presiunea și debitul instalației existente; familia JR/JRA/JRS acoperă mai multe trepte de presiune, iar varianta M e dedicată pulverizării fine. Trimiteți plăcuța pompei ca să identificăm varianta potrivită." },
-      { q: "Livrați pompe Annovi Reverberi în România și cât durează?", a: "Da, aducem pompele Annovi Reverberi la comandă din Italia; termenul orientativ e de 2-6 săptămâni, în funcție de confirmarea seriei exacte și a disponibilității acesteia la producător." },
+      { q: "Livrați pompe Annovi Reverberi în România și cât durează?", a: "Da, aducem pompele Annovi Reverberi la comandă din Italia; termenul orientativ e de 2-4 săptămâni, în funcție de confirmarea seriei exacte și a disponibilității acesteia la producător." },
       { q: "Ce trebuie să trimit pentru ofertă la Annovi Reverberi?", a: "Codul pompei existente sau, pentru un proiect nou, presiunea de lucru necesară în bar, debitul dorit în litri pe minut și dacă aplicația cere variantă inox." }
     ],
     evidenceClass: "market-signal-intl",
@@ -313,7 +313,7 @@ Pentru atelierele de reparații hidraulice și producătorii de utilaje din Rom�
       "ISO 9001",
       "IATF 16949 (standard pentru industria auto)"
     ],
-    infinitrade: `Furnizăm garnituri Kastaș pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Seturile de etanșare standard le aducem la comandă din Turcia sau prin filiala europeană a producătorului, cu termen orientativ de 2-6 săptămâni; pentru profile uzuale de O-ring putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de diametrul tijei sau pistonului, cursa cilindrului și codul garniturii existente, dacă îl aveți. Nu ținem gama Kastaș pe raft; seturile complete ajung la comandă, pe baza dimensiunilor transmise.`,
+    infinitrade: `Furnizăm garnituri Kastaș pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Seturile de etanșare standard le aducem la comandă din Turcia sau prin filiala europeană a producătorului, cu termen orientativ de 2-4 săptămâni; pentru profile uzuale de O-ring putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de diametrul tijei sau pistonului, cursa cilindrului și codul garniturii existente, dacă îl aveți. Nu ținem gama Kastaș pe raft; seturile complete ajung la comandă, pe baza dimensiunilor transmise.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui profil de garnitură cu un cilindru existent fără desenul canalului sau codul original.",
     productCodes: [
       { code: "XT200", description: "Garnitură de tijă, profil dublu de ștergere" },
@@ -338,7 +338,7 @@ Pentru atelierele de reparații hidraulice și producătorii de utilaje din Rom�
       { q: "Ce produce Kastaș?", a: "Kastaș fabrică garnituri hidraulice și pneumatice — garnituri de tijă, garnituri de piston, O-ringuri și elemente de ștergere — pentru cilindri folosiți în utilaje de construcții, mașini agricole și prese industriale." },
       { q: "Cum aleg o garnitură Kastaș după cod?", a: "Codul (de exemplu K19 sau XT200) indică tipul garniturii — tijă sau piston — și profilul; aveți nevoie și de diametrul exact și de cursa cilindrului pentru a confirma compatibilitatea completă." },
       { q: "Ce echivalent Kastaș are o garnitură de la Freudenberg?", a: "Echivalența depinde de diametrul canalului, materialul necesar și presiunea de lucru, nu doar de cod; trimiteți desenul canalului sau garnitura veche ca eșantion pentru identificare precisă." },
-      { q: "Livrați garnituri Kastaș în România și în cât timp?", a: "Da, la comandă din Turcia sau prin filiala europeană a producătorului; termenul orientativ e de 2-6 săptămâni, cu variante uzuale de O-ring disponibile mai rapid din stoc de partener european." },
+      { q: "Livrați garnituri Kastaș în România și în cât timp?", a: "Da, la comandă din Turcia sau prin filiala europeană a producătorului; termenul orientativ e de 2-4 săptămâni, cu variante uzuale de O-ring disponibile mai rapid din stoc de partener european." },
       { q: "Ce trebuie să trimit pentru ofertă la garnituri Kastaș?", a: "Diametrul tijei sau pistonului, cursa cilindrului, presiunea de lucru, materialul dorit (dacă e cunoscut) și, dacă e posibil, codul garniturii vechi sau o fotografie clară a profilului acesteia." }
     ],
     evidenceClass: "market-signal-intl",
@@ -383,7 +383,7 @@ Pentru producătorii români de echipamente de laborator, dispozitive medicale s
     certifications: [
       "ISO 9001"
     ],
-    infinitrade: `Aducem componente Airpot pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Cilindrii Airpel și seturile piston-cilindru le comandăm din SUA, cu termen orientativ de 2-6 săptămâni de la confirmarea diametrului și cursei; pentru senzori de poziție compatibili putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți diametrul dorit, cursa necesară și dacă aplicația cere variantă single sau double-acting. Nu ținem gama Airpot pe raft; fiecare comandă pornește de la confirmarea specificațiilor.`,
+    infinitrade: `Aducem componente Airpot pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Cilindrii Airpel și seturile piston-cilindru le comandăm din SUA, cu termen orientativ de 2-4 săptămâni de la confirmarea diametrului și cursei; pentru senzori de poziție compatibili putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți diametrul dorit, cursa necesară și dacă aplicația cere variantă single sau double-acting. Nu ținem gama Airpot pe raft; fiecare comandă pornește de la confirmarea specificațiilor.`,
     limitation: "Nu putem confirma anul exact al înființării companiei Airpot Corporation, distinct de data invenției tehnologiei de bază.",
     productCodes: [
       { code: "2K56", description: "Set piston-cilindru, diametru 5,59 mm" },
@@ -411,7 +411,7 @@ Pentru producătorii români de echipamente de laborator, dispozitive medicale s
       { q: "Ce produce Airpot?", a: "Airpot fabrică cilindri pneumatici cu frecare redusă (familia Airpel), seturi piston-cilindru fără garnituri elastomerice și senzori de poziție, folosite pentru amortizare fină și poziționare de precizie." },
       { q: "Cum aleg un cilindru Airpot după cod?", a: "Codul indică familia (E, M, MP sau MAB) și diametrul în zecimi de milimetru sau sutimi de inch; aveți nevoie și de cursa necesară și de tipul de acționare, single sau double-acting." },
       { q: "Ce echivalent Airpot are un dashpot pneumatic standard?", a: "Depinde de diametrul cerut și de forța de frecare admisă pe toată cursa; un cilindru Airpel din familia 2K sau M poate înlocui un dashpot clasic dacă transmiteți diametrul și lungimea de cursă." },
-      { q: "Livrați cilindri Airpot în România și cât durează?", a: "Da, aducem componentele Airpot la comandă din SUA; termenul orientativ e de 2-6 săptămâni, în funcție de diametrul și configurația confirmate cu producătorul, plus timpul de transport." },
+      { q: "Livrați cilindri Airpot în România și cât durează?", a: "Da, aducem componentele Airpot la comandă din SUA; termenul orientativ e de 2-4 săptămâni, în funcție de diametrul și configurația confirmate cu producătorul, plus timpul de transport." },
       { q: "Ce trebuie să trimit pentru ofertă la Airpot?", a: "Diametrul dorit, cursa necesară, tipul de acționare (single sau double-acting), materialul de contact cu fluidul de lucru și, dacă aplicația o cere, necesitatea unui senzor de poziție integrat." }
     ],
     evidenceClass: "market-signal-intl",
@@ -455,7 +455,7 @@ Pentru instalatorii de uși automate, lifturi și sisteme antiefracție din Rom�
     certifications: [
       "DIN EN 14637 — sisteme de reținere a ușilor rezistente la foc"
     ],
-    infinitrade: `Furnizăm componente Dictator pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Amortizoarele și arcurile cu gaz standard le aducem la comandă din Germania, cu termen orientativ de 2-6 săptămâni de la confirmarea dimensiunilor; pentru accesorii de montaj uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de tipul de aplicație (ușă, poartă, capac), cursa necesară și greutatea elementului de mișcat. Nu ținem gama Dictator pe raft; comanda pornește de la confirmarea specificațiilor tehnice.`,
+    infinitrade: `Furnizăm componente Dictator pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Amortizoarele și arcurile cu gaz standard le aducem la comandă din Germania, cu termen orientativ de 2-4 săptămâni de la confirmarea dimensiunilor; pentru accesorii de montaj uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de tipul de aplicație (ușă, poartă, capac), cursa necesară și greutatea elementului de mișcat. Nu ținem gama Dictator pe raft; comanda pornește de la confirmarea specificațiilor tehnice.`,
     limitation: "Nu putem confirma coduri exacte de model pentru amortizoare sau arcuri cu gaz, deoarece pagina publică listează doar familiile de produs, nu nomenclatura completă.",
     productCodes: [
       { code: "Amortizor de capăt de cursă", description: "Amortizare hidraulică doar în ultima porțiune a cursei" },
@@ -475,7 +475,7 @@ Pentru instalatorii de uși automate, lifturi și sisteme antiefracție din Rom�
       { q: "Ce produce Dictator?", a: "Dictator fabrică amortizoare hidraulice, arcuri cu gaz și sisteme de reținere a ușilor rezistente la foc, pentru uși, porți, capace și panouri industriale, cu producție și pentru specificații personalizate de client." },
       { q: "Cum aleg un amortizor Dictator pentru o ușă grea?", a: "Aveți nevoie de greutatea ușii, cursa de deschidere și viteza dorită de închidere; pe baza acestor date producătorul recomandă un amortizor de capăt de cursă sau unul cu montaj fix, în funcție de aplicație." },
       { q: "Ce sisteme Dictator respectă standardul DIN EN 14637?", a: "Sistemele de reținere a ușilor rezistente la foc din gama Dictator sunt construite conform DIN EN 14637 și mențin ușa deschisă în regim normal, eliberând-o automat la detectarea incendiului." },
-      { q: "Livrați produse Dictator în România și cât durează?", a: "Da, aducem amortizoarele și arcurile cu gaz Dictator la comandă din Germania; termenul orientativ e de 2-6 săptămâni, în funcție de confirmarea dimensiunilor și a tipului exact de aplicație cu producătorul." },
+      { q: "Livrați produse Dictator în România și cât durează?", a: "Da, aducem amortizoarele și arcurile cu gaz Dictator la comandă din Germania; termenul orientativ e de 2-4 săptămâni, în funcție de confirmarea dimensiunilor și a tipului exact de aplicație cu producătorul." },
       { q: "Ce trebuie să trimit pentru ofertă la Dictator?", a: "Tipul de aplicație (ușă, poartă, capac), greutatea elementului de mișcat, cursa necesară și, pentru arcurile cu gaz, dacă e nevoie de blocare în poziție intermediară." }
     ],
     evidenceClass: "market-signal-intl",
@@ -518,7 +518,7 @@ Pentru service-urile auto, fermele mecanizate și firmele de închiriat utilaje 
       "Industrial — stații fixe de lubrifiere pentru linii de producție",
       "Minerit — echipamente de distribuție a unsorii pentru utilaje de mare capacitate"
     ],
-    infinitrade: `Aducem echipamente Meclube pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile de gresare și distribuție le comandăm din Italia, cu termen orientativ de 2-6 săptămâni de la confirmarea configurației; pentru furtunuri, pistoale și accesorii uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți tipul de fluid distribuit (unsoare, ulei, AdBlue), capacitatea rezervorului dorită și dacă echipamentul e fix sau mobil. Nu ținem gama Meclube pe raft; comanda pornește de la configurația confirmată.`,
+    infinitrade: `Aducem echipamente Meclube pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile de gresare și distribuție le comandăm din Italia, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației; pentru furtunuri, pistoale și accesorii uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți tipul de fluid distribuit (unsoare, ulei, AdBlue), capacitatea rezervorului dorită și dacă echipamentul e fix sau mobil. Nu ținem gama Meclube pe raft; comanda pornește de la configurația confirmată.`,
     limitation: "Nu putem confirma coduri exacte de model pentru echipamentele Meclube, deoarece pagina publică prezintă familii de produs, nu o listă completă de coduri.",
     productCodes: [
       { code: "Distribuție unsoare", description: "Sisteme pentru gresarea centralizată sau mobilă" },
@@ -538,7 +538,7 @@ Pentru service-urile auto, fermele mecanizate și firmele de închiriat utilaje 
       { q: "Ce produce Meclube?", a: "Meclube fabrică echipamente de lubrifiere centralizată — sisteme de distribuție a uleiului și unsorii, pompe pneumatice cu diafragmă — și echipamente electrice pentru distribuirea diesel, benzină și AdBlue, toate produse în Italia." },
       { q: "Cum aleg un echipament Meclube pentru atelierul meu?", a: "Depinde de fluidul distribuit (ulei, unsoare, AdBlue), de numărul de puncte de alimentare și de spațiul disponibil; pentru ateliere mici, seria Workshop Master oferă configurații compacte fără instalație fixă." },
       { q: "Ce diferență e între seriile de distribuție ulei și unsoare Meclube?", a: "Sistemele de ulei folosesc pistoale dozatoare pentru fluide mai puțin vâscoase, în timp ce cele de unsoare au pompe și accesorii dimensionate pentru vâscozitate mare, la presiuni mai ridicate de aplicare." },
-      { q: "Livrați echipamente Meclube în România și cât durează?", a: "Da, la comandă din Italia; termenul orientativ e de 2-6 săptămâni, în funcție de configurația confirmată — capacitate rezervor, tip de pompă și accesorii de aplicare." },
+      { q: "Livrați echipamente Meclube în România și cât durează?", a: "Da, la comandă din Italia; termenul orientativ e de 2-4 săptămâni, în funcție de configurația confirmată — capacitate rezervor, tip de pompă și accesorii de aplicare." },
       { q: "Ce trebuie să trimit pentru ofertă la Meclube?", a: "Tipul de fluid distribuit (unsoare, ulei, AdBlue), capacitatea rezervorului dorită, numărul de posturi de lucru necesare și dacă echipamentul trebuie să fie fix, montat pe perete, sau mobil pe roți." }
     ],
     evidenceClass: "market-signal-intl",
@@ -581,7 +581,7 @@ Pentru producătorii români de utilaje agricole, macarale mobile și echipament
       "Echipamente de construcții — motoare hidraulice pentru acționări rotative",
       "Macarale mobile — pompe de bază pentru circuite hidraulice de ridicare"
     ],
-    infinitrade: `Furnizăm pompe și motoare Sunfab pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard le aducem la comandă din Suedia sau prin filiala europeană a producătorului, cu termen orientativ de 2-6 săptămâni de la confirmarea codului; pentru garnituri și accesorii de montaj uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de codul complet al pompei sau motorului existent, sau, la o instalație nouă, de interfața de montaj (DIN, SAE, ISO) și sensul de rotație necesar. Nu ținem gama Sunfab pe raft; comanda pornește de la codul confirmat cu producătorul.`,
+    infinitrade: `Furnizăm pompe și motoare Sunfab pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard le aducem la comandă din Suedia sau prin filiala europeană a producătorului, cu termen orientativ de 2-4 săptămâni de la confirmarea codului; pentru garnituri și accesorii de montaj uzuale putem verifica variante cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, avem nevoie de codul complet al pompei sau motorului existent, sau, la o instalație nouă, de interfața de montaj (DIN, SAE, ISO) și sensul de rotație necesar. Nu ținem gama Sunfab pe raft; comanda pornește de la codul confirmat cu producătorul.`,
     limitation: "Nu putem confirma cilindree exactă sau turația maximă admisă pentru fiecare cod fără fișa tehnică transmisă de producător.",
     productCodes: [
       { code: "SAP/SAPT 012-130 DIN", description: "Pompă flux simplu, interfață DIN" },
@@ -606,7 +606,7 @@ Pentru producătorii români de utilaje agricole, macarale mobile și echipament
       { q: "Ce produce Sunfab?", a: "Sunfab fabrică pompe și motoare hidraulice tip gerotor pentru hidraulica mobilă, cu game de flux simplu, flux dublu și flux variabil, folosite pe utilaje agricole, macarale mobile și vehicule comerciale." },
       { q: "Cum aleg o pompă Sunfab după cod?", a: "Codul complet (de exemplu SCP 012-130 ISO) indică seria, cilindreea și interfața de montaj; dacă înlocuiți o pompă existentă, transmiteți codul de pe plăcuță sau, dacă lipsește, interfața de montaj și sensul de rotație." },
       { q: "Ce echivalent are seria SCPD de la Sunfab?", a: "Depinde de debitele necesare pe fiecare din cele două ieșiri și de interfața de montaj a pompei existente; familia SCPD/SLPD acoperă mai multe combinații de debit, cu variantă by-pass acolo unde e nevoie de protecție la suprapresiune." },
-      { q: "Livrați pompe Sunfab în România și cât durează?", a: "Da, la comandă din Suedia sau prin filiala europeană a producătorului; termenul orientativ e de 2-6 săptămâni, în funcție de codul confirmat și de disponibilitatea la fabrică." },
+      { q: "Livrați pompe Sunfab în România și cât durează?", a: "Da, la comandă din Suedia sau prin filiala europeană a producătorului; termenul orientativ e de 2-4 săptămâni, în funcție de codul confirmat și de disponibilitatea la fabrică." },
       { q: "Ce trebuie să trimit pentru ofertă la Sunfab?", a: "Codul complet al pompei sau motorului existent sau, pentru o instalație nouă, interfața de montaj dorită (DIN, SAE sau ISO), cilindreea necesară și sensul de rotație." }
     ],
     evidenceClass: "market-signal-intl",

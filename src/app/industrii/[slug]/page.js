@@ -5,9 +5,10 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
 import { industries, getIndustry } from '@/data/industries';
+import { CATEGORY_LEAD_TIME } from '@/data/leadTimes';
 import { getIndustryFaq } from '@/data/industryFaq';
 import { safeJsonLd } from '@/lib/utils';
-import { ArrowRight, CheckCircle, Building2, Users, Award, Phone, Factory, ChevronDown } from 'lucide-react';
+import { ArrowRight, CheckCircle, Building2, Truck, Award, Phone, Factory, ChevronDown } from 'lucide-react';
 import styles from './industry.module.css';
 import faqStyles from './faq.module.css';
 
@@ -222,21 +223,23 @@ export default async function IndustryPage({ params }) {
               </div>
               <h1>{industry.heroTitle}</h1>
               <p>{industry.heroDescription}</p>
+              {/* v17: counts derived from the industry's own data — the old
+                  projects / experience / satisfaction figures had no source. */}
               <div className={styles.heroStats}>
                 <div className={styles.stat}>
                   <Building2 size={20} />
-                  <span>{industry.stats.projects}</span>
-                  <small>Proiecte</small>
+                  <span>{industry.equipment.length}</span>
+                  <small>Tipuri de echipamente</small>
                 </div>
                 <div className={styles.stat}>
                   <Award size={20} />
-                  <span>{industry.stats.experience}</span>
-                  <small>Experienta</small>
+                  <span>{industry.brands.length}</span>
+                  <small>Branduri recomandate</small>
                 </div>
                 <div className={styles.stat}>
-                  <Users size={20} />
-                  <span>{industry.stats.satisfaction}</span>
-                  <small>Satisfactie</small>
+                  <Truck size={20} />
+                  <span>{CATEGORY_LEAD_TIME.headline}</span>
+                  <small>{CATEGORY_LEAD_TIME.headlineLabel}</small>
                 </div>
               </div>
             </div>
@@ -293,24 +296,8 @@ export default async function IndustryPage({ params }) {
           </div>
         </section>
 
-        {/* Clients */}
-        {industry.clients && industry.clients.length > 0 && (
-          <section className={styles.clientsSection}>
-            <div className={styles.container}>
-              <h2>Clienti din Sector</h2>
-              <p className={styles.sectionDescription}>
-                Companii de top care ne-au ales ca furnizor de echipamente industriale.
-              </p>
-              <div className={styles.clientsList}>
-                {industry.clients.map((client) => (
-                  <div key={client} className={styles.clientBadge}>
-                    {client}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+        {/* v17: the "Clienți din sector" block was removed — client names
+            are not published on the site (owner rule). */}
 
         {/* FAQ */}
         {faqs.length > 0 && (

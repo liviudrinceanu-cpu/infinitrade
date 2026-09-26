@@ -64,7 +64,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru ofertă și cât durează livrarea unui schimbător cu plăci brazate?",
-        "a": "Sunt necesare cele două fluide, debitele, temperaturile de intrare/ieșire dorite, presiunea de lucru și spațiul de montaj disponibil. Livrarea se face la comandă, orientativ în 2–6 săptămâni, în funcție de producător, de mărimea schimbătorului cerută și de materialul de brazare solicitat."
+        "a": "Sunt necesare cele două fluide, debitele, temperaturile de intrare/ieșire dorite, presiunea de lucru și spațiul de montaj disponibil. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător, de mărimea schimbătorului cerută și de materialul de brazare solicitat."
       },
       {
         "q": "Se poate curăța un schimbător cu plăci brazate fără să fie demontat?",
@@ -142,7 +142,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de schimbător cu plăci și cât durează livrarea?",
-        "a": "Fluidele, debitele și temperaturile de intrare/ieșire pentru ambele circuite, plus presiunea de lucru. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător și de complexitatea pachetului de plăci."
+        "a": "Fluidele, debitele și temperaturile de intrare/ieșire pentru ambele circuite, plus presiunea de lucru. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de complexitatea pachetului de plăci."
       },
       {
         "q": "Cât de des trebuie curățat mecanic un schimbător cu plăci demontabile?",
@@ -216,7 +216,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de schimbător tubular și cât durează livrarea?",
-        "a": "Sunt necesare datele fluidelor, presiunea și temperatura de lucru, materialul preferat și spațiul disponibil de montaj. Producția fiind adesea la comandă, termenul orientativ este de 2-6 săptămâni, în funcție de complexitatea constructivă și de producător."
+        "a": "Sunt necesare datele fluidelor, presiunea și temperatura de lucru, materialul preferat și spațiul disponibil de montaj. Producția fiind adesea la comandă, termenul orientativ este de 2-4 săptămâni, în funcție de complexitatea constructivă și de producător."
       },
       {
         "q": "Cât de des trebuie curățat un schimbător tubular industrial?",
@@ -289,7 +289,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trimiteți pentru o ofertă de răcitor de ulei industrial și cât durează livrarea?",
-        "a": "Aveți nevoie de puterea termică sau debitul și temperaturile de intrare/ieșire dorite, tipul de ulei, presiunea circuitului și mediul de răcire disponibil. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător și de configurație (aer sau apă)."
+        "a": "Aveți nevoie de puterea termică sau debitul și temperaturile de intrare/ieșire dorite, tipul de ulei, presiunea circuitului și mediul de răcire disponibil. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de configurație (aer sau apă)."
       },
       {
         "q": "Poate fi montat un răcitor de ulei pe o instalație hidraulică existentă fără modificări majore?",
@@ -363,7 +363,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de condensatoare industriale?",
-        "a": "Sarcina frigorifică sau puterea de condensare, agentul frigorific, tipul de răcire disponibil (aer sau apă) și spațiul de montaj sunt datele de bază pentru o ofertă corectă. La comandă se confirmă și termenul de livrare, orientativ 2-6 săptămâni, în funcție de configurația aleasă."
+        "a": "Sarcina frigorifică sau puterea de condensare, agentul frigorific, tipul de răcire disponibil (aer sau apă) și spațiul de montaj sunt datele de bază pentru o ofertă corectă. La comandă se confirmă și termenul de livrare, orientativ 2-4 săptămâni, în funcție de configurația aleasă."
       },
       {
         "q": "Cât de des trebuie curățate condensatoarele industriale răcite cu aer?",

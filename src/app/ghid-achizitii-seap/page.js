@@ -441,7 +441,7 @@ const seapFaqs = [
   },
   {
     q: 'Care este termenul de livrare pentru achiziții publice?',
-    a: 'Produse din stoc: 24-72h. Produse la comandă: 2-6 săptămâni, în funcție de producător. Pentru urgențe sau termene strânse, găsim soluții alternative sau livrare express.',
+    a: 'Produse din stoc: 24-72h. Produse la comandă: 2-4 săptămâni, în funcție de producător. Pentru urgențe sau termene strânse, găsim soluții alternative sau livrare express.',
   },
 ];
 

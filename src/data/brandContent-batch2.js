@@ -62,7 +62,7 @@ Suntem furnizori pentru piața din România și aducem la comandă, prin canale 
       'Energii regenerabile (pompe căldură, solar termic)',
       'Automotive și producție industrială'
     ],
-    infinitrade: `Pentru echipamente Danfoss lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii despre stocul din fabrică. Aducem la comandă, prin canale de aprovizionare din UE, supape de control, invertoare VLT, compresoare pentru refrigerare comercială și schimbătoare de căldură cu plăci. Pentru reperele cele mai cerute putem oferi uneori 24–72 h din stoc, dar termenul obișnuit pentru comenzi este 2–6 săptămâni, în funcție de disponibilitatea la fabrică. Ca să pregătim o ofertă corectă, trimiteți-ne codul complet al produsului, cantitatea și, dacă există, fișa tehnică sau desenul aplicației. Nu lucrăm cu prețuri publicate și nu confirmăm stoc înainte de a verifica direct la sursă.`,
+    infinitrade: `Pentru echipamente Danfoss lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii despre stocul din fabrică. Aducem la comandă, prin canale de aprovizionare din UE, supape de control, invertoare VLT, compresoare pentru refrigerare comercială și schimbătoare de căldură cu plăci. Pentru reperele cele mai cerute putem oferi uneori 24–72 h din stoc, dar termenul obișnuit pentru comenzi este 2–4 săptămâni, în funcție de disponibilitatea la fabrică. Ca să pregătim o ofertă corectă, trimiteți-ne codul complet al produsului, cantitatea și, dacă există, fișa tehnică sau desenul aplicației. Nu lucrăm cu prețuri publicate și nu confirmăm stoc înainte de a verifica direct la sursă.`,
     limitation: 'Nu putem garanta disponibilitate neîntreruptă în stoc pentru toate reperele Danfoss, iar service-ul în perioada de garanție a producătorului se face exclusiv prin rețeaua Danfoss.',
     sources: [
       {"title":"Danfoss Drives Product Overview","url":"https://files.danfoss.com/download/Drives/DKDDPB416A702_Product_Overview.pdf","publisher":"Danfoss","accessed":"2026-09-22"},
@@ -158,7 +158,7 @@ Suntem furnizori pentru piața din România și aducem la comandă, prin canale 
       },
       {
         "q": "Livrați produse Danfoss în România la comandă?",
-        "a": "Da, aducem la comandă convertizoare din gamă VLT și VACON, după codul confirmat de client din documentația Danfoss. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-6 săptămâni. Vă rugam să transmiteți codul complet de pe eticheta echipamentului pentru identificare corectă."
+        "a": "Da, aducem la comandă convertizoare din gamă VLT și VACON, după codul confirmat de client din documentația Danfoss. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni. Vă rugam să transmiteți codul complet de pe eticheta echipamentului pentru identificare corectă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă la un convertizor Danfoss?",
@@ -232,7 +232,7 @@ Punem la dispoziție gama lor completă pentru piața românească: trape de con
       'Centrale termice și cogenerare',
       'Prelucrarea cauciucului și maselor plastice'
     ],
-    infinitrade: `Pentru echipamentele Spirax Sarco ne bazăm pe informațiile publice disponibile de la producător și pe fișele tehnice oficiale, fără acces la stocurile lor interne. Aducem la comandă, prin canale de aprovizionare din UE, trape de condensat, supape de reglare presiune și temperatură, separatoare și sisteme de recuperare a condensatului. La unele repere uzuale putem asigura 24–72 h din stoc, însă termenul standard pentru comenzi rămâne 2–6 săptămâni, în funcție de fabrică. Pentru o ofertă corectă avem nevoie de codul produsului, parametrii de presiune și temperatură ai instalației și cantitatea dorită. Nu publicăm prețuri și nu promitem un termen anume fără o verificare prealabilă la sursă.`,
+    infinitrade: `Pentru echipamentele Spirax Sarco ne bazăm pe informațiile publice disponibile de la producător și pe fișele tehnice oficiale, fără acces la stocurile lor interne. Aducem la comandă, prin canale de aprovizionare din UE, trape de condensat, supape de reglare presiune și temperatură, separatoare și sisteme de recuperare a condensatului. La unele repere uzuale putem asigura 24–72 h din stoc, însă termenul standard pentru comenzi rămâne 2–4 săptămâni, în funcție de fabrică. Pentru o ofertă corectă avem nevoie de codul produsului, parametrii de presiune și temperatură ai instalației și cantitatea dorită. Nu publicăm prețuri și nu promitem un termen anume fără o verificare prealabilă la sursă.`,
     limitation: 'Nu oferim configurare software pentru echipamentele digitale din gama Spirax Sarco și nu putem garanta disponibilitate neîntreruptă în stoc pentru toate reperele.',
     sources: [
       {"title":"Thermodynamic Steam Traps | US | Spirax Sarco","url":"https://www.spiraxsarco.com/global/en-US/products/steam-traps/thermodynamic-steam-traps","publisher":"Spirax Sarco","accessed":"2026-09-22"},
@@ -308,7 +308,7 @@ Punem la dispoziție gama lor completă pentru piața românească: trape de con
       },
       {
         "q": "Livrați produse Spirax Sarco în România la comandă?",
-        "a": "Da, aducem la comandă purjoare și supape din gamele TD, TDC, TDS sau UTD, după codul confirmat de client din catalogul oficial. Nu ținem această gamă pe raft, informațiile despre disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-6 săptămâni la comandă. Recomandăm transmiterea codului exact de pe corpul purjorului existent."
+        "a": "Da, aducem la comandă purjoare și supape din gamele TD, TDC, TDS sau UTD, după codul confirmat de client din catalogul oficial. Nu ținem această gamă pe raft, informațiile despre disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni la comandă. Recomandăm transmiterea codului exact de pe corpul purjorului existent."
       },
       {
         "q": "Ce date trimit pentru o oferta la un purjor Spirax Sarco?",
@@ -383,7 +383,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       'Industria hârtiei și celulozei',
       'Naval și offshore (platforme petroliere, nave tankere)'
     ],
-    infinitrade: `Pentru armăturile ARI Armaturen folosim surse publice ale producătorului și documentația tehnică oficială, fără date proprii despre stocul din fabrică. Aducem la comandă, prin canale de aprovizionare din UE, supape cu glob, supape de siguranță, armături PTFE-lined și supape fluture, în diverse diametre și materiale. Pentru unele dimensiuni standard putem oferi 24–72 h din stoc, dar comenzile cu materiale sau certificări speciale au un termen de 2–6 săptămâni. Ca să pregătim o ofertă, trimiteți-ne diametrul nominal, presiunea de lucru, materialul dorit și, dacă e cazul, fluidul vehiculat. Nu lucrăm cu liste de prețuri publice și nu confirmăm disponibilitatea unui reper fără verificare la fabrică.`,
+    infinitrade: `Pentru armăturile ARI Armaturen folosim surse publice ale producătorului și documentația tehnică oficială, fără date proprii despre stocul din fabrică. Aducem la comandă, prin canale de aprovizionare din UE, supape cu glob, supape de siguranță, armături PTFE-lined și supape fluture, în diverse diametre și materiale. Pentru unele dimensiuni standard putem oferi 24–72 h din stoc, dar comenzile cu materiale sau certificări speciale au un termen de 2–4 săptămâni. Ca să pregătim o ofertă, trimiteți-ne diametrul nominal, presiunea de lucru, materialul dorit și, dacă e cazul, fluidul vehiculat. Nu lucrăm cu liste de prețuri publice și nu confirmăm disponibilitatea unui reper fără verificare la fabrică.`,
     limitation: 'Nu putem garanta disponibilitate neîntreruptă în stoc pentru toate dimensiunile și materialele din gama ARI Armaturen, iar service-ul în perioada de garanție rămâne în sarcina producătorului.',
     sources: [
       {"title":"ARI product diversity – Control, Steam trapping, Safety","url":"https://www.ari-armaturen.com/fileadmin/media/downloads/produktneuheiten/ACHEMA-News-Guide-EN-SC.pdf","publisher":"ARI Armaturen","accessed":"2026-09-22"},
@@ -467,7 +467,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "q": "Livrați produse ARI Armaturen în România la comandă?",
-        "a": "Da, aducem la comandă vane și purjoare din gamele ARI-FABA, ARI-ZETRIX, ARI-SAFE sau ARI-CONA, după codul confirmat de client. Nu avem această gamă pe raft, informațiile despre disponibilitate provin din documentația publică a producătorului, iar termenul obișnuit este de 2-6 săptămâni la comandă. Recomandăm transmiterea codului complet de pe corpul vanei existente."
+        "a": "Da, aducem la comandă vane și purjoare din gamele ARI-FABA, ARI-ZETRIX, ARI-SAFE sau ARI-CONA, după codul confirmat de client. Nu avem această gamă pe raft, informațiile despre disponibilitate provin din documentația publică a producătorului, iar termenul obișnuit este de 2-4 săptămâni la comandă. Recomandăm transmiterea codului complet de pe corpul vanei existente."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la o vană ARI Armaturen?",
@@ -546,7 +546,7 @@ Distribuim întreaga gamă pentru piața românească: schimbătoare cu plăci g
       'Automotive (răcitoare procese, recuperare solvenți)',
       'Tratarea apei (desalinizare, epurare industrială)'
     ],
-    infinitrade: `Pentru echipamentele Alfa Laval ne ghidăm după surse publice ale producătorului și cataloagele tehnice oficiale, fără acces la datele lor interne de stoc. Aducem la comandă, prin canale de aprovizionare din UE, schimbătoare de căldură cu plăci gasketed, schimbătoare brazate, unități toate-sudate și separatoare centrifugale. Pentru modelele standard putem asigura uneori 24–72 h din stoc, iar pentru restul comenzilor termenul obișnuit este 2–6 săptămâni, în funcție de configurație. Pentru o ofertă corectă avem nevoie de debitul, temperaturile de intrare/ieșire și fluidele implicate în aplicația dumneavoastră. Nu publicăm prețuri și nu garantăm un termen anume fără confirmare din partea fabricii.`,
+    infinitrade: `Pentru echipamentele Alfa Laval ne ghidăm după surse publice ale producătorului și cataloagele tehnice oficiale, fără acces la datele lor interne de stoc. Aducem la comandă, prin canale de aprovizionare din UE, schimbătoare de căldură cu plăci gasketed, schimbătoare brazate, unități toate-sudate și separatoare centrifugale. Pentru modelele standard putem asigura uneori 24–72 h din stoc, iar pentru restul comenzilor termenul obișnuit este 2–4 săptămâni, în funcție de configurație. Pentru o ofertă corectă avem nevoie de debitul, temperaturile de intrare/ieșire și fluidele implicate în aplicația dumneavoastră. Nu publicăm prețuri și nu garantăm un termen anume fără confirmare din partea fabricii.`,
     limitation: 'Nu oferim service în perioada de garanție a producătorului pentru schimbătoarele Alfa Laval și nu putem garanta disponibilitate neîntreruptă în stoc pentru toate modelele.',
     sources: [
       {"title":"Gasketed Plate Heat Exchangers | Alfa Laval Shop","url":"https://shop.alfalaval.com/en-us/gasketed-plate-heat-exchangers--2244334","publisher":"Alfa Laval","accessed":"2026-09-22"},
@@ -627,7 +627,7 @@ Distribuim întreaga gamă pentru piața românească: schimbătoare cu plăci g
       },
       {
         "q": "Livrează Alfa Laval schimbatoare de căldură în România la comandă?",
-        "a": "Da, aducem la comandă schimbatoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-6 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbatorului existent."
+        "a": "Da, aducem la comandă schimbatoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbatorului existent."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un schimbator Alfa Laval?",
@@ -711,7 +711,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       'Alimentară și farmaceutică (filtrare procese, sisteme pneumatice)',
       'Siderurgie și minerit (utilaje grele, sisteme transportoare)'
     ],
-    infinitrade: `Pentru produsele Parker Hannifin lucrăm cu informațiile publice disponibile de la producător și cu fișele tehnice oficiale, fără date proprii despre disponibilitatea din fabricile lor. Aducem la comandă, prin canale de aprovizionare din UE, cilindri hidraulici, pompe, distribuitoare, furtunuri și fitinguri, precum și filtre hidraulice și pneumatice. La reperele standard putem oferi câteodată 24–72 h din stoc, însă termenul obișnuit pentru comenzi este 2–6 săptămâni, în funcție de complexitate. Pentru o ofertă corectă trimiteți-ne codul de produs, presiunea de lucru și dimensiunile necesare. Nu publicăm prețuri și nu confirmăm un anumit reper ca fiind gata de livrare fără o verificare prealabilă la fabrică.`,
+    infinitrade: `Pentru produsele Parker Hannifin lucrăm cu informațiile publice disponibile de la producător și cu fișele tehnice oficiale, fără date proprii despre disponibilitatea din fabricile lor. Aducem la comandă, prin canale de aprovizionare din UE, cilindri hidraulici, pompe, distribuitoare, furtunuri și fitinguri, precum și filtre hidraulice și pneumatice. La reperele standard putem oferi câteodată 24–72 h din stoc, însă termenul obișnuit pentru comenzi este 2–4 săptămâni, în funcție de complexitate. Pentru o ofertă corectă trimiteți-ne codul de produs, presiunea de lucru și dimensiunile necesare. Nu publicăm prețuri și nu confirmăm un anumit reper ca fiind gata de livrare fără o verificare prealabilă la fabrică.`,
     limitation: 'Nu putem garanta disponibilitate neîntreruptă în stoc pentru întreaga gamă Parker Hannifin și nu oferim configurare software pentru componentele electronice sau proporționale ale sistemelor lor.',
     sources: [
       {"title":"Industrial Cylinder Products Catalog 0106-7","url":"https://www.parker.com/content/dam/Parker-com/Literature/Industrial-Cylinder/cylinder/cat/english/0106-7-Industrial-Cylinder-Products/0106-7_VH.pdf","publisher":"Parker Hannifin","accessed":"2026-09-22"},
@@ -796,7 +796,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "q": "Livrează Parker Hannifin cilindri în România la comandă?",
-        "a": "Da, aducem la comandă cilindri hidraulici și pneumatici din gamele 2H, 3H, 2A sau XFC, după codul confirmat de client din catalogul oficial. Pentru Parker Hannifin lucrăm exclusiv la comandă, cu disponibilitatea luată din datele publice ale producătorului; termenul obișnuit este 2-6 săptămâni. Codul complet de pe eticheta cilindrului grăbește identificarea."
+        "a": "Da, aducem la comandă cilindri hidraulici și pneumatici din gamele 2H, 3H, 2A sau XFC, după codul confirmat de client din catalogul oficial. Pentru Parker Hannifin lucrăm exclusiv la comandă, cu disponibilitatea luată din datele publice ale producătorului; termenul obișnuit este 2-4 săptămâni. Codul complet de pe eticheta cilindrului grăbește identificarea."
       },
       {
         "q": "Ce date trimit pentru o oferta la un cilindru Parker?",

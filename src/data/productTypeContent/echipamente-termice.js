@@ -64,7 +64,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de chillere industriale și cât durează livrarea?",
-        "a": "Sunt necesare puterea frigorifică sau sarcina termică, temperaturile de intrare și ieșire dorite și tipul de condensator preferat. Termenul de livrare pentru chillere industriale este la comandă, orientativ 2-6 săptămâni, mai lung pentru puteri mari sau configurații speciale."
+        "a": "Sunt necesare puterea frigorifică sau sarcina termică, temperaturile de intrare și ieșire dorite și tipul de condensator preferat. Termenul de livrare pentru chillere industriale este la comandă, orientativ 2-4 săptămâni, mai lung pentru puteri mari sau configurații speciale."
       },
       {
         "q": "Ce întreținere periodică are nevoie un chiller industrial pentru a funcționa eficient?",
@@ -137,7 +137,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de aeroterme industriale și cât durează livrarea?",
-        "a": "Sunt necesare volumul spațiului, nivelul de izolație, sursa de energie disponibilă și numărul de aeroterme estimat. Livrarea se stabilește la comandă, orientativ 2-6 săptămâni, în funcție de producător, chiar dacă numărul de branduri disponibile pentru acest tip este mai redus."
+        "a": "Sunt necesare volumul spațiului, nivelul de izolație, sursa de energie disponibilă și numărul de aeroterme estimat. Livrarea se stabilește la comandă, orientativ 2-4 săptămâni, în funcție de producător, chiar dacă numărul de branduri disponibile pentru acest tip este mai redus."
       },
       {
         "q": "Ce verificări periodice sunt necesare la o aerotermă industrială?",
@@ -284,7 +284,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru ofertă și cât durează livrarea unor arzătoare industriale?",
-        "a": "Sunt necesare puterea termică, tipul de cazan, combustibilul disponibil și modul de reglare dorit. Livrarea se face la comandă, orientativ în 2–6 săptămâni, în funcție de producător și de eventuala cerință de emisii reduse (NOx)."
+        "a": "Sunt necesare puterea termică, tipul de cazan, combustibilul disponibil și modul de reglare dorit. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător și de eventuala cerință de emisii reduse (NOx)."
       },
       {
         "q": "De ce oprește arzătorul cu eroare de flacără, deși pare că funcționează normal?",
@@ -362,7 +362,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de sistem de climatizare și cât durează livrarea?",
-        "a": "Suprafața și caracteristicile spațiului, numărul de zone dorite și aporturile interne de căldură. Livrarea este la comandă, orientativ 2-6 săptămâni, în funcție de producător și de complexitatea configurației VRF, dacă este cazul."
+        "a": "Suprafața și caracteristicile spațiului, numărul de zone dorite și aporturile interne de căldură. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de complexitatea configurației VRF, dacă este cazul."
       },
       {
         "q": "Se poate extinde ulterior un sistem VRF cu unități interioare suplimentare?",
@@ -436,7 +436,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de recuperator de căldură și cât durează livrarea?",
-        "a": "Sunt necesare debitele celor două fluxuri de aer, temperatura aerului evacuat și compoziția acestuia. Termenul de livrare este la comandă, orientativ 2-6 săptămâni, dependent de dimensiune și de producătorul ales."
+        "a": "Sunt necesare debitele celor două fluxuri de aer, temperatura aerului evacuat și compoziția acestuia. Termenul de livrare este la comandă, orientativ 2-4 săptămâni, dependent de dimensiune și de producătorul ales."
       },
       {
         "q": "Un recuperator de căldură poate fi montat pe o instalație de ventilație existentă?",

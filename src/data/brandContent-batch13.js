@@ -156,7 +156,7 @@ Din 1933 până azi, Omron a livrat peste 200 milioane de relee, 100 milioane de
       },
       {
         "q": "Livrați automatizări Omron în România?",
-        "a": "Da, echipamentele Omron ajung la comandă, pe baza codului complet de controler, servo sau senzor identificat din documentația producătorului. Fără un stoc propriu afișat, termenul tipic este 2–6 săptămâni la comandă, variabil după configurația de axe sau de comunicație cerută pentru proiectul dumneavoastră."
+        "a": "Da, echipamentele Omron ajung la comandă, pe baza codului complet de controler, servo sau senzor identificat din documentația producătorului. Fără un stoc propriu afișat, termenul tipic este 2–4 săptămâni la comandă, variabil după configurația de axe sau de comunicație cerută pentru proiectul dumneavoastră."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de controler sau servo Omron?",
@@ -170,7 +170,7 @@ Din 1933 până azi, Omron a livrat peste 200 milioane de relee, 100 milioane de
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
-    infinitrade: `La automatizări Omron, lucrăm din surse publice ale producătorului și vă spunem clar: nu ținem evidențe proprii despre ce anume avem fizic pe stoc în orice moment. Componentele pe care le deținem local pleacă, de regulă, în 24-72 de ore; restul gamei Omron - PLC-uri Sysmac, servo drive-uri, senzori de viziune, roboți TM - le aducem la comandă prin canalele noastre de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni. Ca să vă răspundem exact, trimiteți-ne codul complet al produsului, cantitatea și aplicația în care va fi folosit. Nu promitem un termen mai scurt fără o verificare reală în avans.`
+    infinitrade: `La automatizări Omron, lucrăm din surse publice ale producătorului și vă spunem clar: nu ținem evidențe proprii despre ce anume avem fizic pe stoc în orice moment. Componentele pe care le deținem local pleacă, de regulă, în 24-72 de ore; restul gamei Omron - PLC-uri Sysmac, servo drive-uri, senzori de viziune, roboți TM - le aducem la comandă prin canalele noastre de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni. Ca să vă răspundem exact, trimiteți-ne codul complet al produsului, cantitatea și aplicația în care va fi folosit. Nu promitem un termen mai scurt fără o verificare reală în avans.`
   },
 
   'optibelt': {
@@ -321,7 +321,7 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc peste 15 milioane
       },
       {
         "q": "Livrați curele Optibelt în România?",
-        "a": "Da, curelele Optibelt se aduc la comandă, pe baza codului de profil și a lungimii găsite în catalogul de produse al producătorului. Nu avem un stoc propriu afișat pe site; ca durată orientativă, socotiți 2–6 săptămâni la comandă, în funcție de profilul exact și lungimea cerută pentru transmisia dumneavoastră."
+        "a": "Da, curelele Optibelt se aduc la comandă, pe baza codului de profil și a lungimii găsite în catalogul de produse al producătorului. Nu avem un stoc propriu afișat pe site; ca durată orientativă, socotiți 2–4 săptămâni la comandă, în funcție de profilul exact și lungimea cerută pentru transmisia dumneavoastră."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de curea Optibelt?",
@@ -335,7 +335,7 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc peste 15 milioane
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
-    infinitrade: `Pentru curelele Optibelt, informațiile publice disponibile de la producător stau la baza recomandărilor noastre, nu un stoc propriu pe care să-l putem garanta oricând. Ca regulă generală a firmei, ceea ce avem fizic ajunge la client în 24-72 de ore, iar profilele speciale sau lungimile la comandă vin prin canalele de aprovizionare din UE în aproximativ 2-6 săptămâni. Pentru o estimare corectă, avem nevoie de profilul curelei, dimensiunile roților și puterea transmisă. Nu confirmăm în avans o anumită referință ca fiind disponibilă imediat, dar verificăm rapid și revenim cu un termen realist pentru comanda dumneavoastră.`
+    infinitrade: `Pentru curelele Optibelt, informațiile publice disponibile de la producător stau la baza recomandărilor noastre, nu un stoc propriu pe care să-l putem garanta oricând. Ca regulă generală a firmei, ceea ce avem fizic ajunge la client în 24-72 de ore, iar profilele speciale sau lungimile la comandă vin prin canalele de aprovizionare din UE în aproximativ 2-4 săptămâni. Pentru o estimare corectă, avem nevoie de profilul curelei, dimensiunile roților și puterea transmisă. Nu confirmăm în avans o anumită referință ca fiind disponibilă imediat, dar verificăm rapid și revenim cu un termen realist pentru comanda dumneavoastră.`
   },
 
   'pall': {
@@ -467,7 +467,7 @@ Pall investește masiv în R&D - peste 400 brevete active și colaborări cu uni
       },
       {
         "q": "Livrați filtre Pall în România?",
-        "a": "Da, elementele filtrante Pall ajung la comandă, identificate după codul complet (lungime, cod de reținere, tip adaptor) din fișele tehnice ale producătorului. Fără stoc propriu afișat pe site, termenul orientativ este 2–6 săptămâni la comandă, în funcție de disponibilitatea exactă a variantei la producător."
+        "a": "Da, elementele filtrante Pall ajung la comandă, identificate după codul complet (lungime, cod de reținere, tip adaptor) din fișele tehnice ale producătorului. Fără stoc propriu afișat pe site, termenul orientativ este 2–4 săptămâni la comandă, în funcție de disponibilitatea exactă a variantei la producător."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de element filtrant Pall?",
@@ -481,7 +481,7 @@ Pall investește masiv în R&D - peste 400 brevete active și colaborări cu uni
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
-    infinitrade: `Pentru filtrele și sistemele Pall, plecăm de la ce putem și ce nu putem confirma: nu avem acces la datele interne de stoc ale producătorului și nu validăm noi înșine conformitatea GMP a instalațiilor. Componentele fizice disponibile la noi pleacă în 24-72 de ore, iar cartușele sau sistemele specifice vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 2-6 săptămâni. Pentru un răspuns concret, trimiteți-ne codul cartușului sau specificația tehnică a aplicației (debit, presiune, cerințe de puritate). Confirmăm disponibilitatea reală după verificare, nu înainte.`
+    infinitrade: `Pentru filtrele și sistemele Pall, plecăm de la ce putem și ce nu putem confirma: nu avem acces la datele interne de stoc ale producătorului și nu validăm noi înșine conformitatea GMP a instalațiilor. Componentele fizice disponibile la noi pleacă în 24-72 de ore, iar cartușele sau sistemele specifice vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 2-4 săptămâni. Pentru un răspuns concret, trimiteți-ne codul cartușului sau specificația tehnică a aplicației (debit, presiune, cerințe de puritate). Confirmăm disponibilitatea reală după verificare, nu înainte.`
   },
 
   'parker-filtration': {
@@ -656,7 +656,7 @@ Parker investește continuu în R&D - facilitățile lor de testare din SUA și 
       },
       {
         "q": "Livrați filtre Parker Filtration în România?",
-        "a": "Da, aducem la comandă filtre Parker Filtration pe baza cataloagelor publice ale producătorului, fără date proprii de stoc. Termenul orientativ este de 2-6 săptămâni la comandă, în funcție de seria aleasă și de disponibilitatea la producător. Vă rugăm să confirmați codul exact al filtrului dorit înainte de a plasa comanda."
+        "a": "Da, aducem la comandă filtre Parker Filtration pe baza cataloagelor publice ale producătorului, fără date proprii de stoc. Termenul orientativ este de 2-4 săptămâni la comandă, în funcție de seria aleasă și de disponibilitatea la producător. Vă rugăm să confirmați codul exact al filtrului dorit înainte de a plasa comanda."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de filtru hidraulic Parker?",
@@ -664,13 +664,13 @@ Parker investește continuu în R&D - facilitățile lor de testare din SUA și 
       },
       {
         "q": "Cât durează livrarea unui filtru Parker la comandă?",
-        "a": "Termenul depinde de serie și de disponibilitatea la producător, orientativ 2-6 săptămâni la comandă, fără date proprii de stoc. Filtrele din seriile de bază, precum PT sau 12CS/50CS, tind să fie disponibile mai repede decât sistemele speciale de înaltă presiune sau unitățile portabile de purificare."
+        "a": "Termenul depinde de serie și de disponibilitatea la producător, orientativ 2-4 săptămâni la comandă, fără date proprii de stoc. Filtrele din seriile de bază, precum PT sau 12CS/50CS, tind să fie disponibile mai repede decât sistemele speciale de înaltă presiune sau unitățile portabile de purificare."
       }
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat' }],
-    infinitrade: `Pentru filtrarea Parker, pornim fără date proprii de stoc actualizate în timp real pentru fiecare cod din catalog. Elementele pe care le avem fizic în acest moment pleacă spre client în 24-72 de ore; restul seriei 9xx, Zander sau RACOR ajunge prin canalele noastre de aprovizionare din UE, de regulă în 2-6 săptămâni. Ca să vă putem oferi un termen corect, avem nevoie de codul complet al filtrului sau de specificațiile sistemului (presiune, debit, clasa de filtrare). Nu facem promisiuni de livrare fără să verificăm întâi disponibilitatea reală la furnizor.`
+    infinitrade: `Pentru filtrarea Parker, pornim fără date proprii de stoc actualizate în timp real pentru fiecare cod din catalog. Elementele pe care le avem fizic în acest moment pleacă spre client în 24-72 de ore; restul seriei 9xx, Zander sau RACOR ajunge prin canalele noastre de aprovizionare din UE, de regulă în 2-4 săptămâni. Ca să vă putem oferi un termen corect, avem nevoie de codul complet al filtrului sau de specificațiile sistemului (presiune, debit, clasa de filtrare). Nu facem promisiuni de livrare fără să verificăm întâi disponibilitatea reală la furnizor.`
   },
 
   'pepperl-fuchs': {
@@ -789,7 +789,7 @@ P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare
       },
       {
         "q": "Livrați senzori Pepperl+Fuchs în România?",
-        "a": "Da, aducem la comandă senzori Pepperl+Fuchs pe baza informațiilor publice de pe pagina producătorului, fără gama pe raft permanent. Livrarea se face de regulă în 2-6 săptămâni de la comandă, în funcție de model. Recomandăm confirmarea codului exact al senzorului înainte de comandă, pentru evitarea neconcordanțelor de montaj."
+        "a": "Da, aducem la comandă senzori Pepperl+Fuchs pe baza informațiilor publice de pe pagina producătorului, fără gama pe raft permanent. Livrarea se face de regulă în 2-4 săptămâni de la comandă, în funcție de model. Recomandăm confirmarea codului exact al senzorului înainte de comandă, pentru evitarea neconcordanțelor de montaj."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de senzor inductiv Pepperl+Fuchs?",
@@ -803,7 +803,7 @@ P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
-    infinitrade: `Pentru echipamentele Pepperl+Fuchs, folosim informațiile publice disponibile ale producătorului și nu deținem un sistem propriu de urmărire a stocului în timp real. Ce avem fizic pleacă, ca regulă generală, în 24-72 de ore; senzorii, barierele sau sistemele RFID mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, în circa 2-6 săptămâni. Pentru zone clasificate ATEX/IECEx, trimiteți-ne clasificarea zonei, tipul de protecție necesar și codul echipamentului. Verificăm disponibilitatea reală înainte de a confirma orice termen și nu facem recomandări fără aceste detalii.`
+    infinitrade: `Pentru echipamentele Pepperl+Fuchs, folosim informațiile publice disponibile ale producătorului și nu deținem un sistem propriu de urmărire a stocului în timp real. Ce avem fizic pleacă, ca regulă generală, în 24-72 de ore; senzorii, barierele sau sistemele RFID mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, în circa 2-4 săptămâni. Pentru zone clasificate ATEX/IECEx, trimiteți-ne clasificarea zonei, tipul de protecție necesar și codul echipamentului. Verificăm disponibilitatea reală înainte de a confirma orice termen și nu facem recomandări fără aceste detalii.`
   },
 
   'permatex': {
@@ -938,7 +938,7 @@ Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calit�
       },
       {
         "q": "Livrați produse Permatex în România?",
-        "a": "Da, aducem la comandă produse Permatex pe baza listei publice de pe pagina producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de produs și de cantitatea solicitată. Vă rugăm să confirmați denumirea exactă a produsului dorit înainte de comandă."
+        "a": "Da, aducem la comandă produse Permatex pe baza listei publice de pe pagina producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de produs și de cantitatea solicitată. Vă rugăm să confirmați denumirea exactă a produsului dorit înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o comandă de garnituri lichide Permatex?",
@@ -952,7 +952,7 @@ Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calit�
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
-    infinitrade: `Pentru gama Permatex, nu avem date proprii de stoc valabile pentru fiecare ambalaj sau variantă de produs din catalog. Produsele pe care le deținem fizic pleacă în 24-72 de ore, iar variantele mai rar cerute ajung prin canalele noastre de aprovizionare din UE, de obicei în 2-6 săptămâni. Pentru o recomandare corectă, spuneți-ne aplicația exactă (tipul de îmbinare, temperatura de lucru, fluidul cu care intră în contact) și cantitatea dorită. Confirmăm disponibilitatea reală după verificare, nu promitem livrare imediată doar pentru că produsul apare în catalogul general Permatex.`
+    infinitrade: `Pentru gama Permatex, nu avem date proprii de stoc valabile pentru fiecare ambalaj sau variantă de produs din catalog. Produsele pe care le deținem fizic pleacă în 24-72 de ore, iar variantele mai rar cerute ajung prin canalele noastre de aprovizionare din UE, de obicei în 2-4 săptămâni. Pentru o recomandare corectă, spuneți-ne aplicația exactă (tipul de îmbinare, temperatura de lucru, fluidul cu care intră în contact) și cantitatea dorită. Confirmăm disponibilitatea reală după verificare, nu promitem livrare imediată doar pentru că produsul apare în catalogul general Permatex.`
   },
 
   'phoenix': {
@@ -1076,7 +1076,7 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
       },
       {
         "q": "Livrați relee și alimentatoare Phoenix în România?",
-        "a": "Da, aducem la comandă componente Phoenix pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de cantitate. Confirmarea codului exact înainte de comandă evită întârzierile de identificare."
+        "a": "Da, aducem la comandă componente Phoenix pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de cantitate. Confirmarea codului exact înainte de comandă evită întârzierile de identificare."
       },
       {
         "q": "Ce trimit pentru o ofertă de relee interfață Phoenix?",
@@ -1090,7 +1090,7 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
-    infinitrade: `Pentru componentele Phoenix Contact, plecăm de la ce putem și ce nu putem confirma despre stocul real: nu avem vizibilitate directă asupra depozitelor producătorului. Piesele pe care le avem fizic pleacă în 24-72 de ore; relee, alimentatoare QUINT sau controlere PLCnext mai puțin comune vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 2-6 săptămâni. Pentru un termen exact, trimiteți-ne codul complet al articolului și cantitatea necesară. Nu confirmăm disponibilitate imediată fără o verificare prealabilă la sursă, indiferent cât de comun pare produsul.`
+    infinitrade: `Pentru componentele Phoenix Contact, plecăm de la ce putem și ce nu putem confirma despre stocul real: nu avem vizibilitate directă asupra depozitelor producătorului. Piesele pe care le avem fizic pleacă în 24-72 de ore; relee, alimentatoare QUINT sau controlere PLCnext mai puțin comune vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 2-4 săptămâni. Pentru un termen exact, trimiteți-ne codul complet al articolului și cantitatea necesară. Nu confirmăm disponibilitate imediată fără o verificare prealabilă la sursă, indiferent cât de comun pare produsul.`
   },
 
   'phoenix-contact': {
@@ -1210,7 +1210,7 @@ Cu 18 facilități de producție în Europa, Asia și America și peste 60 de fi
       },
       {
         "q": "Livrați conectori și cleme Phoenix Contact în România?",
-        "a": "Da, aducem la comandă conectori și cleme Phoenix Contact pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă. Recomandăm indicarea codului complet pentru evitarea confuziilor între variantele foarte apropiate ca denumire."
+        "a": "Da, aducem la comandă conectori și cleme Phoenix Contact pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-4 săptămâni la comandă. Recomandăm indicarea codului complet pentru evitarea confuziilor între variantele foarte apropiate ca denumire."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de conectori M12 Phoenix Contact?",
@@ -1224,7 +1224,7 @@ Cu 18 facilități de producție în Europa, Asia și America și peste 60 de fi
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
-    infinitrade: `Pentru borniere și conectori Phoenix Contact, lucrăm din informațiile publice disponibile ale producătorului, nu dintr-un sistem intern de gestiune a stocului actualizat live. Referințele pe care le deținem fizic pleacă în 24-72 de ore, iar tipurile de bornă mai puțin cerute sau conectorii M12 specializați ajung prin canalele noastre de aprovizionare din UE în aproximativ 2-6 săptămâni. Pentru un răspuns rapid și corect, trimiteți-ne codul CLIPLINE sau seria conectorului, plus cantitatea necesară. Nu estimăm termene fără să verificăm întâi disponibilitatea reală, chiar dacă referința pare una standard din catalog.`
+    infinitrade: `Pentru borniere și conectori Phoenix Contact, lucrăm din informațiile publice disponibile ale producătorului, nu dintr-un sistem intern de gestiune a stocului actualizat live. Referințele pe care le deținem fizic pleacă în 24-72 de ore, iar tipurile de bornă mai puțin cerute sau conectorii M12 specializați ajung prin canalele noastre de aprovizionare din UE în aproximativ 2-4 săptămâni. Pentru un răspuns rapid și corect, trimiteți-ne codul CLIPLINE sau seria conectorului, plus cantitatea necesară. Nu estimăm termene fără să verificăm întâi disponibilitatea reală, chiar dacă referința pare una standard din catalog.`
   },
 
   'pilz': {
@@ -1364,7 +1364,7 @@ Cu peste 40 filiale globale și prezență în 70+ țări, Pilz asigură suport 
       },
       {
         "q": "Livrați relee de siguranță Pilz în România?",
-        "a": "Da, aducem la comandă relee de siguranță Pilz pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Contați pe un termen de livrare de 2-6 săptămâni de la comandă, variabil în funcție de model. Recomandăm confirmarea codului exact al releului existent înainte de comandă."
+        "a": "Da, aducem la comandă relee de siguranță Pilz pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Contați pe un termen de livrare de 2-4 săptămâni de la comandă, variabil în funcție de model. Recomandăm confirmarea codului exact al releului existent înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de relee Pilz PNOZ?",
@@ -1378,7 +1378,7 @@ Cu peste 40 filiale globale și prezență în 70+ țări, Pilz asigură suport 
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
-    infinitrade: `Pentru echipamentele de siguranță Pilz, pornim de la surse publice ale producătorului și nu deținem noi calculul oficial de Performance Level pentru mașina dumneavoastră. Componentele fizice disponibile la noi pleacă în 24-72 de ore; relee PNOZ, light curtains sau scannere mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, de regulă în 2-6 săptămâni. Pentru o ofertă corectă, trimiteți-ne categoria de siguranță necesară, tipul aplicației și codul componentei dacă îl aveți deja. Verificăm disponibilitatea reală înainte de a confirma un termen, mai ales pentru sistemele complexe PNOZmulti sau PSENscan.`
+    infinitrade: `Pentru echipamentele de siguranță Pilz, pornim de la surse publice ale producătorului și nu deținem noi calculul oficial de Performance Level pentru mașina dumneavoastră. Componentele fizice disponibile la noi pleacă în 24-72 de ore; relee PNOZ, light curtains sau scannere mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, de regulă în 2-4 săptămâni. Pentru o ofertă corectă, trimiteți-ne categoria de siguranță necesară, tipul aplicației și codul componentei dacă îl aveți deja. Verificăm disponibilitatea reală înainte de a confirma un termen, mai ales pentru sistemele complexe PNOZmulti sau PSENscan.`
   },
 
   'pneumax': {
@@ -1502,7 +1502,7 @@ Cu facilități de producție în Italia și distribution în 60+ țări, Pneuma
       },
       {
         "q": "Livrați cilindri și valve Pneumax în România?",
-        "a": "Da, aducem la comandă componente Pneumax pe baza cataloagelor publice ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de serie și de configurație. Confirmarea codului complet înainte de comandă reduce riscul de eroare."
+        "a": "Da, aducem la comandă componente Pneumax pe baza cataloagelor publice ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de serie și de configurație. Confirmarea codului complet înainte de comandă reduce riscul de eroare."
       },
       {
         "q": "Ce trimit pentru o ofertă de cilindru pneumatic Pneumax?",
@@ -1516,6 +1516,6 @@ Cu facilități de producție în Italia și distribution în 60+ țări, Pneuma
     evidenceClass: 'history-only',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat' }],
-    infinitrade: `Pentru pneumatica Pneumax, nu avem niciun fapt propriu verificat despre stocul exact al fabricii din Italia la un moment dat. Cilindrii și valvele standard pe care le deținem fizic pleacă în 24-72 de ore; configurațiile custom (curse speciale, manifolduri la comandă) ajung prin canalele noastre de aprovizionare din UE, de obicei în 2-6 săptămâni. Pentru un termen realist, trimiteți-ne diametrul și cursa cilindrului sau schema manifoldului dorit, împreună cu cantitatea necesară. Nu promitem livrare rapidă pentru configurații speciale fără să confirmăm întâi disponibilitatea la fabrică.`
+    infinitrade: `Pentru pneumatica Pneumax, nu avem niciun fapt propriu verificat despre stocul exact al fabricii din Italia la un moment dat. Cilindrii și valvele standard pe care le deținem fizic pleacă în 24-72 de ore; configurațiile custom (curse speciale, manifolduri la comandă) ajung prin canalele noastre de aprovizionare din UE, de obicei în 2-4 săptămâni. Pentru un termen realist, trimiteți-ne diametrul și cursa cilindrului sau schema manifoldului dorit, împreună cu cantitatea necesară. Nu promitem livrare rapidă pentru configurații speciale fără să confirmăm întâi disponibilitatea la fabrică.`
   }
 };

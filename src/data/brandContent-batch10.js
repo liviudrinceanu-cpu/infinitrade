@@ -56,7 +56,7 @@ Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci 
       'Farmaceutică - senzori sanitari, trasabilitate, validare procese',
       'Machine Building - OEM solutions, integrare IO-Link, IIoT'
     ],
-    infinitrade: `Aducem în România senzorii și sistemele IO-Link IFM Electronic prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fizic disponibil la un moment dat, așa că lucrăm cu informațiile publice ale producătorului și cu disponibilitatea confirmată de furnizor înainte să dăm un termen. Ca regulă generală a firmei, produsele curente pot ajunge în 24–72 h din stoc, iar variantele speciale sau seturile complete IO-Link, la comandă, în 2–6 săptămâni. Trimite-ne codul exact al senzorului sau al modulului, tensiunea de alimentare și tipul de ieșire dorit, iar noi verificăm la furnizor termenul real și eventuale echivalențe. Configurarea avansată a platformei moneo pentru procesul tău rămâne în sarcina echipei tale tehnice sau a producătorului.`,
+    infinitrade: `Aducem în România senzorii și sistemele IO-Link IFM Electronic prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fizic disponibil la un moment dat, așa că lucrăm cu informațiile publice ale producătorului și cu disponibilitatea confirmată de furnizor înainte să dăm un termen. Ca regulă generală a firmei, produsele curente pot ajunge în 24–72 h din stoc, iar variantele speciale sau seturile complete IO-Link, la comandă, în 2–4 săptămâni. Trimite-ne codul exact al senzorului sau al modulului, tensiunea de alimentare și tipul de ieșire dorit, iar noi verificăm la furnizor termenul real și eventuale echivalențe. Configurarea avansată a platformei moneo pentru procesul tău rămâne în sarcina echipei tale tehnice sau a producătorului.`,
     sources: [
       {"title":"AL1350 - IO-Link master with IoT interface","url":"https://www.ifm.com/us/en/product/AL1350","publisher":"ifm electronic","accessed":"2026-09-22"},
       { title: 'ifm electronic - pagina oficială (sediu Essen)', url: 'https://www.ifm.com/de/en', publisher: 'ifm electronic gmbh', accessed: '2026-09-22' }
@@ -122,7 +122,7 @@ Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci 
       },
       {
         "q": "Livrați senzori și debitmetre IFM în România la comandă?",
-        "a": "Da, aducem senzori inductivi, traductoare de presiune și debitmetre IFM la comandă, pornind de la fișele tehnice publice ale producătorului, fără a menține un stoc propriu constant; termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și lungimea cablului."
+        "a": "Da, aducem senzori inductivi, traductoare de presiune și debitmetre IFM la comandă, pornind de la fișele tehnice publice ale producătorului, fără a menține un stoc propriu constant; termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și lungimea cablului."
       },
       {
         "q": "Ce diferență este între debitmetrele magnetic-inductive SM și cele cu vârtejuri SV?",
@@ -194,7 +194,7 @@ Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fieca
       'Aerospace - sisteme hidraulice aviație, teste componente',
       'Test Benches - standuri testare pompe, motoare, supape'
     ],
-    infinitrade: `Comandăm filtrele și elementele Internormen prin furnizori din Uniunea Europeană, fără să ținem evidențe proprii despre ce se află pe stoc în orice clipă. Ne bazăm pe surse publice ale producătorului și pe confirmarea furnizorului pentru fiecare cerere concretă. Ca formulare generală a firmei, piesele uzuale de filtrare ajung în 24–72 h din stoc, iar elementele speciale sau sistemele off-line complete, la comandă, în 2–6 săptămâni. Ca să îți dăm un răspuns exact, spune-ne modelul carcasei sau codul elementului filtrant, debitul instalației și clasa de filtrare dorită. Nu efectuăm noi analize de laborator ale uleiului; pentru acestea recomandăm un laborator acreditat sau contactul direct cu fabrica din Schmalkalden.`,
+    infinitrade: `Comandăm filtrele și elementele Internormen prin furnizori din Uniunea Europeană, fără să ținem evidențe proprii despre ce se află pe stoc în orice clipă. Ne bazăm pe surse publice ale producătorului și pe confirmarea furnizorului pentru fiecare cerere concretă. Ca formulare generală a firmei, piesele uzuale de filtrare ajung în 24–72 h din stoc, iar elementele speciale sau sistemele off-line complete, la comandă, în 2–4 săptămâni. Ca să îți dăm un răspuns exact, spune-ne modelul carcasei sau codul elementului filtrant, debitul instalației și clasa de filtrare dorită. Nu efectuăm noi analize de laborator ale uleiului; pentru acestea recomandăm un laborator acreditat sau contactul direct cu fabrica din Schmalkalden.`,
     sources: [
       {"title":"HP3 high-pressure carbon steel filters (420 bar)","url":"https://www.eaton.com/us/en-us/catalog/filters-strainers/hp3.html","publisher":"Eaton (Internormen)","accessed":"2026-09-22"},
       { title: 'Internormen Technology - pagina oficială', url: 'https://www.internormen.com/', publisher: 'Internormen Technology GmbH', accessed: '2026-09-22' }
@@ -252,7 +252,7 @@ Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fieca
       },
       {
         "q": "Livrați filtre hidraulice Internormen în România la comandă?",
-        "a": "Da, aducem filtre de presiune, aspirație și retur din gama Internormen la comandă, pornind de la fișele tehnice publice disponibile pentru aceste produse, fără a menține un stoc propriu constant; termenul obișnuit de aprovizionare este de 2-6 săptămâni la comandă, în funcție de model."
+        "a": "Da, aducem filtre de presiune, aspirație și retur din gama Internormen la comandă, pornind de la fișele tehnice publice disponibile pentru aceste produse, fără a menține un stoc propriu constant; termenul obișnuit de aprovizionare este de 2-4 săptămâni la comandă, în funcție de model."
       },
       {
         "q": "Ce înseamnă codul ASF/SS la un filtru de aspirație?",
@@ -324,7 +324,7 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       'Data Centers - UPS, transformatoare, panouri distribuție',
       'Water Treatment - pompe înaltă putere, suflante aer'
     ],
-    infinitrade: `Procurăm siguranțele Jean Müller prin lanțuri de aprovizionare din spațiul UE și nu avem un sistem propriu de evidență a stocului fizic în timp real. Informațiile despre calibre și caracteristici le preluăm din surse publice ale producătorului, iar disponibilitatea o confirmăm punctual la furnizor. Ca regulă generală a firmei, siguranțele NH și HRC uzuale pot ajunge în 24–72 h din stoc, în timp ce loturile mari sau calibrele rare intră pe flux de comandă cu termen de 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de curentul nominal, tensiunea instalației și numărul de bucăți. Nu calculăm noi selectivitatea instalației electrice, care rămâne responsabilitatea proiectantului.`,
+    infinitrade: `Procurăm siguranțele Jean Müller prin lanțuri de aprovizionare din spațiul UE și nu avem un sistem propriu de evidență a stocului fizic în timp real. Informațiile despre calibre și caracteristici le preluăm din surse publice ale producătorului, iar disponibilitatea o confirmăm punctual la furnizor. Ca regulă generală a firmei, siguranțele NH și HRC uzuale pot ajunge în 24–72 h din stoc, în timp ce loturile mari sau calibrele rare intră pe flux de comandă cu termen de 2–4 săptămâni. Pentru o ofertă corectă avem nevoie de curentul nominal, tensiunea instalației și numărul de bucăți. Nu calculăm noi selectivitatea instalației electrice, care rămâne responsabilitatea proiectantului.`,
     sources: [
       {"title":"Products - JEAN MÜLLER","url":"https://www.jeanmueller.com/products/","publisher":"Jean Mueller","accessed":"2026-09-22"},
       {"title":"NH strip type fuse switch disconnectors SL - JEAN MÜLLER","url":"https://www.jeanmueller.com/products/nh-strip-type-fuse-switch-disconnectors-sl/","publisher":"Jean Mueller","accessed":"2026-09-22"},
@@ -399,7 +399,7 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       },
       {
         "q": "Livrați separatoare cu siguranțe Jean Muller în România?",
-        "a": "Da, aducem la comandă separatoare din gamele SL, TOKEO sau SASILplus, pe baza codului confirmat de client. Nu avem această gamă pe raft și ne raportăm la informațiile publice ale producătorului; termenul obișnuit este de 2-6 săptămâni la comandă. Este util să trimiteti codul complet de pe eticheta separatorului existent, pentru a identifica exact varianta compatibilă cu instalația."
+        "a": "Da, aducem la comandă separatoare din gamele SL, TOKEO sau SASILplus, pe baza codului confirmat de client. Nu avem această gamă pe raft și ne raportăm la informațiile publice ale producătorului; termenul obișnuit este de 2-4 săptămâni la comandă. Este util să trimiteti codul complet de pe eticheta separatorului existent, pentru a identifica exact varianta compatibilă cu instalația."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de siguranțe NH?",
@@ -480,7 +480,7 @@ Ceea ce ne face preferați de inginerii de proces este versatilitatea: același 
       'Energy - biogas, biomass, solar thermal, CHP',
       'Environmental - monitorizare emisii, incineratoare, compostare'
     ],
-    infinitrade: `Aducem senzorii și regulatoarele JUMO din Fulda prin furnizori din Uniunea Europeană, fără evidență proprie a stocului disponibil în fiecare clipă. Datele tehnice pe care le folosim provin din surse publice ale producătorului, iar termenul real îl confirmăm după ce verificăm cererea la furnizor. Ca regulă generală a firmei, sondele și traductoarele obișnuite pot ajunge în 24–72 h din stoc, iar regulatoarele configurate special sau seturile pentru automatizare completă intră pe flux de comandă de 2–6 săptămâni. Spune-ne domeniul de măsură, tipul de ieșire și, dacă e cazul, standardul de calibrare cerut, ca să verificăm rapid opțiunile. Nu efectuăm noi calibrări acreditate DAkkS și nu configurăm software-ul platformelor AQUIS sau mTRON pentru procesul tău specific.`,
+    infinitrade: `Aducem senzorii și regulatoarele JUMO din Fulda prin furnizori din Uniunea Europeană, fără evidență proprie a stocului disponibil în fiecare clipă. Datele tehnice pe care le folosim provin din surse publice ale producătorului, iar termenul real îl confirmăm după ce verificăm cererea la furnizor. Ca regulă generală a firmei, sondele și traductoarele obișnuite pot ajunge în 24–72 h din stoc, iar regulatoarele configurate special sau seturile pentru automatizare completă intră pe flux de comandă de 2–4 săptămâni. Spune-ne domeniul de măsură, tipul de ieșire și, dacă e cazul, standardul de calibrare cerut, ca să verificăm rapid opțiunile. Nu efectuăm noi calibrări acreditate DAkkS și nu configurăm software-ul platformelor AQUIS sau mTRON pentru procesul tău specific.`,
     sources: [
       {"title":"JUMO dTRON 16.1 Microprocessor controller","url":"https://www.jumo.group/us/en/products/productdetails/703011","publisher":"JUMO","accessed":"2026-09-26"},
       {"title":"JUMO Group homepage (US)","url":"https://www.jumo.group/us/en/","publisher":"JUMO","accessed":"2026-09-26"},
@@ -535,7 +535,7 @@ Ceea ce ne face preferați de inginerii de proces este versatilitatea: același 
       },
       {
         "q": "Livrați regulatoare și senzori JUMO în România la comandă?",
-        "a": "Da, procurăm la comandă echipamente din familiile dTRON, IMAGO sau digiLine, pe baza codului confirmat din documentația oficială JUMO. Nu păstrăm în mod curent aceste aparate pe raft; aducem la comandă, cu un termen orientativ de 2-6 săptămâni. Recomandăm transmiterea numărului complet de tip de pe eticheta aparatului existent pentru identificarea corectă a variantei JUMO."
+        "a": "Da, procurăm la comandă echipamente din familiile dTRON, IMAGO sau digiLine, pe baza codului confirmat din documentația oficială JUMO. Nu păstrăm în mod curent aceste aparate pe raft; aducem la comandă, cu un termen orientativ de 2-4 săptămâni. Recomandăm transmiterea numărului complet de tip de pe eticheta aparatului existent pentru identificarea corectă a variantei JUMO."
       },
       {
         "q": "Ce date sunt utile pentru o ofertă la un senzor JUMO MAERA?",
@@ -611,7 +611,7 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
       'Construction - șantiere, echipamente murdare, betoane',
       'Agriculture - ferme, grajduri, tractoare, combine'
     ],
-    infinitrade: `Comandăm utilajele Kärcher Professional prin canale de aprovizionare din Uniunea Europeană, fără să deținem un stoc propriu garantat pentru fiecare model în orice moment. Specificațiile tehnice le luăm din surse publice ale producătorului, iar disponibilitatea concretă o verificăm la furnizor înainte să dăm un termen ferm. Ca formulare generală a firmei, echipamentele uzuale de curățenie pot ajunge în 24–72 h din stoc, iar liniile automatizate sau roboții de curățare intră pe comandă specială cu termen de 2–6 săptămâni. Pentru o ofertă corectă spune-ne suprafața de curățat, tipul de pardoseală și dacă ai nevoie de operator sau de soluție autonomă. Intervențiile care țin de garanția producătorului rămân în sarcina rețelei de service Kärcher.`,
+    infinitrade: `Comandăm utilajele Kärcher Professional prin canale de aprovizionare din Uniunea Europeană, fără să deținem un stoc propriu garantat pentru fiecare model în orice moment. Specificațiile tehnice le luăm din surse publice ale producătorului, iar disponibilitatea concretă o verificăm la furnizor înainte să dăm un termen ferm. Ca formulare generală a firmei, echipamentele uzuale de curățenie pot ajunge în 24–72 h din stoc, iar liniile automatizate sau roboții de curățare intră pe comandă specială cu termen de 2–4 săptămâni. Pentru o ofertă corectă spune-ne suprafața de curățat, tipul de pardoseală și dacă ai nevoie de operator sau de soluție autonomă. Intervențiile care țin de garanția producătorului rămân în sarcina rețelei de service Kärcher.`,
     sources: [
       {"title":"Industrial vacuum cleaners - Kärcher International","url":"https://www.kaercher.com/int/professional/industrial-vacuum-cleaners.html","publisher":"Karcher","accessed":"2026-09-22"},
       {"title":"Floor scrubbers / scrubber driers - Kärcher International","url":"https://www.kaercher.com/int/professional/floor-scrubbers-scrubber-driers.html","publisher":"Karcher","accessed":"2026-09-22"},
@@ -674,7 +674,7 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
       },
       {
         "q": "Livrați echipamente industriale Karcher în România la comandă?",
-        "a": "Da, aducem la comandă mașini de spălat pardoseli și aspiratoare industriale din gamele B, BR și IVR-L, pe baza codului confirmat de client. Nu ținem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul uzual este de 2-6 săptămâni. Recomandăm transmiterea codului exact al modelului cerut pentru evitarea confuziilor între variante."
+        "a": "Da, aducem la comandă mașini de spălat pardoseli și aspiratoare industriale din gamele B, BR și IVR-L, pe baza codului confirmat de client. Nu ținem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul uzual este de 2-4 săptămâni. Recomandăm transmiterea codului exact al modelului cerut pentru evitarea confuziilor între variante."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un aspirator industrial Karcher?",
@@ -750,7 +750,7 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       'Marine - balast, apă de mare, sisteme hidraulice navale',
       'Environmental - monitorizare poluare, managementul apelor'
     ],
-    infinitrade: `Procurăm traductoarele de presiune Keller din Winterthur prin furnizori din Uniunea Europeană și nu avem evidență proprie a stocului fizic pentru fiecare referință. Parametrii tehnici îi preluăm din surse publice ale producătorului elvețian, iar termenul concret îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, traductoarele standard pot ajunge în 24–72 h din stoc, iar variantele submersibile speciale sau seturile wireless intră pe flux de comandă de 2–6 săptămâni. Trimite-ne domeniul de presiune, tipul de mediu măsurat și lungimea de cablu necesară pentru o verificare rapidă. Nu emitem noi certificate proprii de calibrare; pentru recalibrare acreditată clientul apelează direct la laboratorul producătorului.`,
+    infinitrade: `Procurăm traductoarele de presiune Keller din Winterthur prin furnizori din Uniunea Europeană și nu avem evidență proprie a stocului fizic pentru fiecare referință. Parametrii tehnici îi preluăm din surse publice ale producătorului elvețian, iar termenul concret îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, traductoarele standard pot ajunge în 24–72 h din stoc, iar variantele submersibile speciale sau seturile wireless intră pe flux de comandă de 2–4 săptămâni. Trimite-ne domeniul de presiune, tipul de mediu măsurat și lungimea de cablu necesară pentru o verificare rapidă. Nu emitem noi certificate proprii de calibrare; pentru recalibrare acreditată clientul apelează direct la laboratorul producătorului.`,
     sources: [
       {"title":"Series 33X | KELLER Pressure","url":"https://keller-pressure.com/en/products/pressure-transmitters/standard-pressure-transmitters/series-33x","publisher":"Keller Pressure","accessed":"2026-09-22"},
       {"title":"Products overview | KELLER Pressure","url":"https://keller-pressure.com/en/products","publisher":"Keller Pressure","accessed":"2026-09-22"},
@@ -822,7 +822,7 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         "q": "Livrați traductoare de presiune Keller în România?",
-        "a": "Da, aducem la comandă traductoare din seriile 33X, PD-39X sau dataloggere DCX, pe baza codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-6 săptămâni la comandă. Transmiteti codul complet de pe eticheta pentru identificarea rapidă a variantei corecte."
+        "a": "Da, aducem la comandă traductoare din seriile 33X, PD-39X sau dataloggere DCX, pe baza codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni la comandă. Transmiteti codul complet de pe eticheta pentru identificarea rapidă a variantei corecte."
       },
       {
         "q": "Ce date trimit pentru o oferta de traductor Keller?",
@@ -899,7 +899,7 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       'Mining - excavatoare, crushers, transportoare, cilindri hidraulici',
       'Aerospace - actuatoare, pompe hidraulice, lagăre înaltă viteză'
     ],
-    infinitrade: `Aducem lubrifianții speciali Klüber prin canale de aprovizionare din Uniunea Europeană, fără să ținem un stoc propriu constant pentru fiecare formulare. Fișele tehnice pe care le folosim provin din surse publice ale producătorului german, iar cantitatea disponibilă efectiv o confirmăm la furnizor pentru fiecare comandă. Ca formulare generală a firmei, ambalajele uzuale (tuburi, bidoane) pot ajunge în 24–72 h din stoc, iar cantitățile mari sau formulările speciale intră pe flux de comandă de 2–6 săptămâni. Ca să te ajutăm corect, spune-ne temperatura de lucru, materialul elastomerilor din contact și dacă aplicația necesită certificare food-grade. Nu realizăm noi teste de compatibilitate în laborator propriu; pentru validări tehnice complexe recomandăm contactul direct cu specialiștii producătorului.`,
+    infinitrade: `Aducem lubrifianții speciali Klüber prin canale de aprovizionare din Uniunea Europeană, fără să ținem un stoc propriu constant pentru fiecare formulare. Fișele tehnice pe care le folosim provin din surse publice ale producătorului german, iar cantitatea disponibilă efectiv o confirmăm la furnizor pentru fiecare comandă. Ca formulare generală a firmei, ambalajele uzuale (tuburi, bidoane) pot ajunge în 24–72 h din stoc, iar cantitățile mari sau formulările speciale intră pe flux de comandă de 2–4 săptămâni. Ca să te ajutăm corect, spune-ne temperatura de lucru, materialul elastomerilor din contact și dacă aplicația necesită certificare food-grade. Nu realizăm noi teste de compatibilitate în laborator propriu; pentru validări tehnice complexe recomandăm contactul direct cu specialiștii producătorului.`,
     sources: [
       {"title":"Lubricating greases - Kluber Lubrication","url":"https://www.klueber.com/us/en/products-service/lubricants/lubricating-greases/","publisher":"Klueber Lubrication","accessed":"2026-09-22"},
       {"title":"Lubricating oils for compressors, hydraulics & more - Kluber Lubrication","url":"https://www.klueber.com/us/en/products-service/lubricants/lubricating-oils/","publisher":"Klueber Lubrication","accessed":"2026-09-22"},
@@ -974,7 +974,7 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       },
       {
         "q": "Livrați unsori și uleiuri Kluber în România?",
-        "a": "Da, aducem la comandă produse din gamele Klueberplex, Klubersynth sau Klueberfood, pe baza codului exact solicitat de client. Nu avem această gamă pe raft și ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-6 săptămâni la comandă. Transmiteti codul complet de pe fișa tehnică pentru a evita confuzia între variante apropiate."
+        "a": "Da, aducem la comandă produse din gamele Klueberplex, Klubersynth sau Klueberfood, pe baza codului exact solicitat de client. Nu avem această gamă pe raft și ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteti codul complet de pe fișa tehnică pentru a evita confuzia între variante apropiate."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de lubrifiant Klueber?",
@@ -1055,7 +1055,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       'HVAC - centrale termice, răcitoare, umidificare',
       'Environmental - monitorizare emisii, tratare ape uzate'
     ],
-    infinitrade: `Comandăm instrumentele Kobold Messring prin furnizori din spațiul UE și nu avem un sistem propriu care să arate stocul fizic exact în orice moment. Datele despre domenii de măsură și materiale le luăm din surse publice ale producătorului, iar disponibilitatea reală o verificăm punctual la furnizor. Ca regulă generală a firmei, rotametrele și switchurile uzuale pot ajunge în 24–72 h din stoc, în timp ce configurațiile speciale sau aparatele cu materiale rare intră pe flux de comandă de 2–6 săptămâni. Pentru o ofertă corectă avem nevoie de fluidul măsurat, domeniul de debit sau presiune și tipul de conexiune la proces. Recalibrarea acreditată și emiterea certificatelor oficiale rămân în sarcina laboratorului producătorului din Germania.`,
+    infinitrade: `Comandăm instrumentele Kobold Messring prin furnizori din spațiul UE și nu avem un sistem propriu care să arate stocul fizic exact în orice moment. Datele despre domenii de măsură și materiale le luăm din surse publice ale producătorului, iar disponibilitatea reală o verificăm punctual la furnizor. Ca regulă generală a firmei, rotametrele și switchurile uzuale pot ajunge în 24–72 h din stoc, în timp ce configurațiile speciale sau aparatele cu materiale rare intră pe flux de comandă de 2–4 săptămâni. Pentru o ofertă corectă avem nevoie de fluidul măsurat, domeniul de debit sau presiune și tipul de conexiune la proces. Recalibrarea acreditată și emiterea certificatelor oficiale rămân în sarcina laboratorului producătorului din Germania.`,
     sources: [
       {"title":"Products - Kobold","url":"https://www.kobold.com/en/products/","publisher":"Kobold","accessed":"2026-09-22"},
       { title: 'KOBOLD - Industrial Flow, Pressure, Level & Temperature Measurement Solutions', url: 'https://www.kobold.com/en', publisher: 'KOBOLD Messring GmbH', accessed: '2026-09-22' }
@@ -1129,7 +1129,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "q": "Livrați debitmetre și senzori Kobold în România?",
-        "a": "Da, aducem la comandă debitmetre, manometre digitale și senzori de temperatură din gamele DUK, MAN-LC sau MMA, pe baza codului confirmat de client. Nu ținem această gamă pe raft, iar informațiile de disponibilitate provin din surse publice ale producătorului; termenul uzual este de 2-6 săptămâni la comandă. Codul exact de pe eticheta scurtează mult identificarea variantei."
+        "a": "Da, aducem la comandă debitmetre, manometre digitale și senzori de temperatură din gamele DUK, MAN-LC sau MMA, pe baza codului confirmat de client. Nu ținem această gamă pe raft, iar informațiile de disponibilitate provin din surse publice ale producătorului; termenul uzual este de 2-4 săptămâni la comandă. Codul exact de pe eticheta scurtează mult identificarea variantei."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de debitmetru Kobold?",
@@ -1207,7 +1207,7 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       'HVAC - energie termică, răcire, încălzire districte',
       'Marine & Offshore - fuel consumption, ballast, cargo'
     ],
-    infinitrade: `Procurăm debitimetrele Krohne prin canale de aprovizionare din Uniunea Europeană, fără evidență proprie a stocului fizic disponibil pentru fiecare tehnologie de măsurare. Parametrii tehnici îi preluăm din surse publice ale producătorului, iar termenul real de livrare îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, debitimetrele electromagnetice sau vortex uzuale pot ajunge în 24–72 h din stoc, iar aparatele Coriolis sau ultrasonice configurate special intră pe flux de comandă de 2–6 săptămâni. Trimite-ne fluidul măsurat, diametrul conductei și domeniul de debit pentru o verificare rapidă a opțiunilor potrivite. Nu emitem noi calibrări acreditate DAkkS și nu facem punerea în funcțiune pentru aplicații de custody transfer fără implicarea directă a producătorului.`,
+    infinitrade: `Procurăm debitimetrele Krohne prin canale de aprovizionare din Uniunea Europeană, fără evidență proprie a stocului fizic disponibil pentru fiecare tehnologie de măsurare. Parametrii tehnici îi preluăm din surse publice ale producătorului, iar termenul real de livrare îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, debitimetrele electromagnetice sau vortex uzuale pot ajunge în 24–72 h din stoc, iar aparatele Coriolis sau ultrasonice configurate special intră pe flux de comandă de 2–4 săptămâni. Trimite-ne fluidul măsurat, diametrul conductei și domeniul de debit pentru o verificare rapidă a opțiunilor potrivite. Nu emitem noi calibrări acreditate DAkkS și nu facem punerea în funcțiune pentru aplicații de custody transfer fără implicarea directă a producătorului.`,
     sources: [
       {"title":"Flow measurement products - KROHNE","url":"https://www.krohne.com/en-us/products/flow-measurement","publisher":"Krohne","accessed":"2026-09-22"},
       { title: 'KROHNE USA - Home', url: 'https://www.krohne.com/en-us', publisher: 'KROHNE Messtechnik GmbH', accessed: '2026-09-22' },
@@ -1270,7 +1270,7 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       },
       {
         "q": "Livrați debitmetre electromagnetice Krohne în România?",
-        "a": "Da, aducem la comandă debitmetre din gamele OPTIFLUX, WATERFLUX și POWERFLUX, pe baza codului și diametrului confirmate de client. La KROHNE nu lucrăm de pe raft: ne raportăm la disponibilitatea publicată de producător, cu un termen obișnuit de 2-6 săptămâni de la comandă. Codul complet de pe eticheta grăbește identificarea variantei potrivite."
+        "a": "Da, aducem la comandă debitmetre din gamele OPTIFLUX, WATERFLUX și POWERFLUX, pe baza codului și diametrului confirmate de client. La KROHNE nu lucrăm de pe raft: ne raportăm la disponibilitatea publicată de producător, cu un termen obișnuit de 2-4 săptămâni de la comandă. Codul complet de pe eticheta grăbește identificarea variantei potrivite."
       },
       {
         "q": "Ce date trimit pentru o oferta de debitmetru Krohne?",
@@ -1348,7 +1348,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       'Mining - excavatoare, transportoare, macarale mobile',
       'Data Centers - rețele structurate, patch panels'
     ],
-    infinitrade: `Aducem cablurile și conectorii Lapp Group prin furnizori din Uniunea Europeană, fără un stoc propriu constant pentru fiecare secțiune sau lungime de cablu. Specificațiile tehnice provin din surse publice ale producătorului german, iar cantitatea disponibilă o confirmăm la furnizor pentru fiecare cerere. Ca formulare generală a firmei, rolele standard din gama ÖLFLEX sau UNITRONIC pot ajunge în 24–72 h din stoc, iar comenzile mari sau cablurile speciale pentru lanț purtător intră pe flux de comandă de 2–6 săptămâni. Spune-ne secțiunea necesară, numărul de fire și mediul de instalare (fix sau mobil) pentru o ofertă rapidă și corectă. Configurarea rețelelor industriale sau testele de compatibilitate EMI complexe rămân în sarcina echipei tale tehnice sau a producătorului.`,
+    infinitrade: `Aducem cablurile și conectorii Lapp Group prin furnizori din Uniunea Europeană, fără un stoc propriu constant pentru fiecare secțiune sau lungime de cablu. Specificațiile tehnice provin din surse publice ale producătorului german, iar cantitatea disponibilă o confirmăm la furnizor pentru fiecare cerere. Ca formulare generală a firmei, rolele standard din gama ÖLFLEX sau UNITRONIC pot ajunge în 24–72 h din stoc, iar comenzile mari sau cablurile speciale pentru lanț purtător intră pe flux de comandă de 2–4 săptămâni. Spune-ne secțiunea necesară, numărul de fire și mediul de instalare (fix sau mobil) pentru o ofertă rapidă și corectă. Configurarea rețelelor industriale sau testele de compatibilitate EMI complexe rămân în sarcina echipei tale tehnice sau a producătorului.`,
     sources: [
       {"title":"Cables and Wires - LAPP","url":"https://www.lapp.com/en_US/us/products/cables-and-wires/c/113879","publisher":"Lapp Group","accessed":"2026-09-22"},
       { title: 'LAPP - Company', url: 'https://www.lappgroup.com/company.html', publisher: 'Lapp Holding SE', accessed: '2026-09-22' },
@@ -1427,7 +1427,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "q": "Livrați cabluri și conectori Lapp în România?",
-        "a": "Da, aducem la comandă cabluri și accesorii din gamele OLFLEX, UNITRONIC, SKINTOP sau EPIC, pe baza codului confirmat de client. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul uzual este de 2-6 săptămâni la comandă. Codul complet de pe mantă cablului grăbește identificarea variantei corecte."
+        "a": "Da, aducem la comandă cabluri și accesorii din gamele OLFLEX, UNITRONIC, SKINTOP sau EPIC, pe baza codului confirmat de client. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Codul complet de pe mantă cablului grăbește identificarea variantei corecte."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de cablu Lapp?",

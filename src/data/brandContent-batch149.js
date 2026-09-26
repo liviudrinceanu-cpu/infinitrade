@@ -37,7 +37,7 @@ Pentru piața locală, gama are sens la producătorii și integratorii de echipa
       "Automatizare uși și porți — acționare liniară pentru porți industriale și uși de garaj",
       "Ambalare și procesare — acționări cu turație variabilă pentru linii compacte de producție",
     ],
-    infinitrade: `Pentru Hanning Elektro-Werke lucrăm strict din surse publice ale producătorului: paginile de produs pe diviziile hamotic și haflowtic, fără date proprii de stoc pentru un brand pe care nu l-am mai comercializat până acum. Aducem motoarele și pompele la comandă, prin canale de aprovizionare din spațiul UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea la fabrica producătorului. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al motorului sau pompei (ex. 307, DPO 20), tensiunea de alimentare și, dacă e cazul, desenul de montaj al echipamentului în care se integrează. Nu promitem disponibilitate din depozit pe niciun cod din gamă.`,
+    infinitrade: `Pentru Hanning Elektro-Werke lucrăm strict din surse publice ale producătorului: paginile de produs pe diviziile hamotic și haflowtic, fără date proprii de stoc pentru un brand pe care nu l-am mai comercializat până acum. Aducem motoarele și pompele la comandă, prin canale de aprovizionare din spațiul UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea la fabrica producătorului. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al motorului sau pompei (ex. 307, DPO 20), tensiunea de alimentare și, dacă e cazul, desenul de montaj al echipamentului în care se integrează. Nu promitem disponibilitate din depozit pe niciun cod din gamă.`,
     limitation:
       "Nu putem confirma coduri de model pentru diviziile haventic (ventilatoare) și hatronic (electronică de control), pentru care site-ul producătorului nu publică denumiri de produs.",
     productCodes: [
@@ -76,7 +76,7 @@ Pentru piața locală, gama are sens la producătorii și integratorii de echipa
       },
       {
         q: "Livrați motoare Hanning în România și în cât timp?",
-        a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni în funcție de confirmarea producătorului pentru codul cerut. Nu ținem aceste motoare pe stoc; termenul final depinde de disponibilitatea la fabrica din Germania sau la celelalte unități de producție.",
+        a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de confirmarea producătorului pentru codul cerut. Nu ținem aceste motoare pe stoc; termenul final depinde de disponibilitatea la fabrica din Germania sau la celelalte unități de producție.",
       },
     ],
     evidenceClass: "market-signal-intl",
@@ -132,7 +132,7 @@ Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțe
       "Porturi — acționări pentru echipamente de manipulare marfă",
       "Energie — generatoare și grupuri rotative de conversie",
     ],
-    infinitrade: `Pentru motoarele Menzel Elektromotoren mergem doar pe ce publică oficial producătorul pe site — plaje de putere, tensiune și scheme de răcire — fără date proprii de stoc, întrucât brandul nu a mai fost comercializat de noi. La un motor de peste 75 kW, aducerea la comandă e regula, cu termen orientativ de 2-6 săptămâni de la confirmarea specificațiilor la fabrica din Hennigsdorf; la puteri foarte mari, termenul real se stabilește abia după ce producătorul confirmă disponibilitatea. Pentru ofertă avem nevoie de puterea nominală, tensiunea de alimentare, schema de răcire dorită (IC) și tipul de rotor (scurtcircuit sau inele colectoare). Nu promitem disponibilitate din depozit pentru niciun cod din gamă — motoarele de această clasă se produc, de regulă, la comandă fermă.`,
+    infinitrade: `Pentru motoarele Menzel Elektromotoren mergem doar pe ce publică oficial producătorul pe site — plaje de putere, tensiune și scheme de răcire — fără date proprii de stoc, întrucât brandul nu a mai fost comercializat de noi. La un motor de peste 75 kW, aducerea la comandă e regula, cu termen orientativ de 2-4 săptămâni de la confirmarea specificațiilor la fabrica din Hennigsdorf; la puteri foarte mari, termenul real se stabilește abia după ce producătorul confirmă disponibilitatea. Pentru ofertă avem nevoie de puterea nominală, tensiunea de alimentare, schema de răcire dorită (IC) și tipul de rotor (scurtcircuit sau inele colectoare). Nu promitem disponibilitate din depozit pentru niciun cod din gamă — motoarele de această clasă se produc, de regulă, la comandă fermă.`,
     limitation:
       "Nu putem confirma disponibilitatea unor variante constructive foarte specifice (de exemplu combinații rare între schema de răcire și execuția antiex), care la Menzel se stabilesc individual, proiect cu proiect.",
     productCodes: [
@@ -170,7 +170,7 @@ Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțe
       },
       {
         q: "Livrați motoare Menzel în România și cât durează?",
-        a: "Da, aducem motoare Menzel la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea specificațiilor la fabrica producătorului. La puterile foarte mari, termenul se confirmă abia după ce producătorul verifică disponibilitatea componentelor.",
+        a: "Da, aducem motoare Menzel la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea specificațiilor la fabrica producătorului. La puterile foarte mari, termenul se confirmă abia după ce producătorul verifică disponibilitatea componentelor.",
       },
     ],
     evidenceClass: "market-signal-intl",
@@ -224,7 +224,7 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
       "Construcții — motoare pentru betoniere",
       "Industria generală — motoare AT pentru pompe, ventilatoare și benzi transportoare",
     ],
-    infinitrade: `La Elprom Harmanli nu avem date proprii de stoc, fiind un brand nou pentru noi — lucrăm cu ce confirmă producătorul pe paginile oficiale de produs, pentru fiecare familie de motor în parte. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, valabil atât pentru gama AT standard, cât și pentru variantele speciale de macara sau pompă submersibilă. Pentru ofertă, clientul trebuie să precizeze familia de motor (AT, macara, submersibil, PM), puterea, mărimea de carcasă dacă o cunoaște și tensiunea de alimentare. Nu ținem aceste motoare pe stoc; disponibilitatea reală se confirmă după verificarea la fabrica din Harmanli sau Plovdiv.`,
+    infinitrade: `La Elprom Harmanli nu avem date proprii de stoc, fiind un brand nou pentru noi — lucrăm cu ce confirmă producătorul pe paginile oficiale de produs, pentru fiecare familie de motor în parte. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, valabil atât pentru gama AT standard, cât și pentru variantele speciale de macara sau pompă submersibilă. Pentru ofertă, clientul trebuie să precizeze familia de motor (AT, macara, submersibil, PM), puterea, mărimea de carcasă dacă o cunoaște și tensiunea de alimentare. Nu ținem aceste motoare pe stoc; disponibilitatea reală se confirmă după verificarea la fabrica din Harmanli sau Plovdiv.`,
     limitation:
       "Nu putem confirma codurile exacte de mărime de carcasă (de exemplu AT 90S sau AT 100L) pentru fiecare combinație de putere și turație, pentru care producătorul publică doar cataloage descărcabile, nu tabele pe pagina web.",
     productCodes: [
@@ -262,7 +262,7 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
       },
       {
         q: "Livrați motoare Elprom în România și cât durează?",
-        a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea specificațiilor. Termenul final depinde de familia de motor cerută și de confirmarea de disponibilitate primită de la fabrica din Bulgaria.",
+        a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea specificațiilor. Termenul final depinde de familia de motor cerută și de confirmarea de disponibilitate primită de la fabrica din Bulgaria.",
       },
     ],
     evidenceClass: "market-signal-intl",
@@ -318,7 +318,7 @@ Pentru instalații din România — energie regenerabilă, industrie alimentară
       "Industrie alimentară — motoare standard seria C pentru linii de procesare",
       "Feroviar — motoare pentru aplicații specifice de tracțiune auxiliară",
     ],
-    infinitrade: `Pentru Electro Adda mergem pe informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc, brandul nefiind încă în portofoliul nostru curent. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni, atât pentru seria C din aluminiu, cât și pentru seria CS din oțel. Pentru ofertă, clientul trebuie să indice seria dorită (C, CS, CR, FE etc.), puterea, mărimea de carcasă și, dacă e cazul, cerința de certificare (ATEX, marin). Nu promitem disponibilitate din depozit — la puterile mari din seria CS, producția se face de regulă la comandă fermă, confirmată de fabrica din Italia.`,
+    infinitrade: `Pentru Electro Adda mergem pe informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc, brandul nefiind încă în portofoliul nostru curent. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, atât pentru seria C din aluminiu, cât și pentru seria CS din oțel. Pentru ofertă, clientul trebuie să indice seria dorită (C, CS, CR, FE etc.), puterea, mărimea de carcasă și, dacă e cazul, cerința de certificare (ATEX, marin). Nu promitem disponibilitate din depozit — la puterile mari din seria CS, producția se face de regulă la comandă fermă, confirmată de fabrica din Italia.`,
     limitation:
       "Nu putem confirma codurile exacte de mărime de carcasă pentru fiecare putere din seria C sau CS, pentru care producătorul trimite spre catalogul descărcabil, nu spre un tabel pe pagina web.",
     productCodes: [
@@ -351,7 +351,7 @@ Pentru instalații din România — energie regenerabilă, industrie alimentară
       },
       {
         q: "Livrați motoare Electro Adda în România și cât durează?",
-        a: "Da, aducem motoare Electro Adda la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea seriei și a mărimii de carcasă cerute. La seria CS, de putere mare, termenul se confirmă abia după verificarea disponibilității la fabrica din Italia.",
+        a: "Da, aducem motoare Electro Adda la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea seriei și a mărimii de carcasă cerute. La seria CS, de putere mare, termenul se confirmă abia după verificarea disponibilității la fabrica din Italia.",
       },
     ],
     evidenceClass: "market-signal-intl",
@@ -403,7 +403,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
       "Zone cu risc de explozie — motoare antiexplozive certificate EX",
       "Instalații de medie tensiune — motoare MV pentru puteri ridicate",
     ],
-    infinitrade: `La Hoyer Motors nu avem încă experiență proprie de livrare, așa că mergem exclusiv pe ce publică oficial producătorul despre clasele de eficiență și gamele disponibile, fără date proprii de stoc. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea clasei de eficiență și a puterii cerute. Pentru ofertă, clientul trebuie să precizeze clasa de eficiență dorită (IE1-IE4 sau PM IE5), puterea, tensiunea și, dacă e cazul, cerința de execuție marină sau antiex. Nu ținem această gamă pe raft; disponibilitatea reală se confirmă după verificarea la fabrica din Danemarca.`,
+    infinitrade: `La Hoyer Motors nu avem încă experiență proprie de livrare, așa că mergem exclusiv pe ce publică oficial producătorul despre clasele de eficiență și gamele disponibile, fără date proprii de stoc. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea clasei de eficiență și a puterii cerute. Pentru ofertă, clientul trebuie să precizeze clasa de eficiență dorită (IE1-IE4 sau PM IE5), puterea, tensiunea și, dacă e cazul, cerința de execuție marină sau antiex. Nu ținem această gamă pe raft; disponibilitatea reală se confirmă după verificarea la fabrica din Danemarca.`,
     limitation:
       "Nu putem confirma parametrii tehnici exacți (putere, turație, tensiune) pentru fiecare model din gamă, pentru care site-ul producătorului nu publică un tabel tehnic detaliat, ci trimite spre fișe descărcabile separate.",
     productCodes: [
@@ -433,7 +433,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
       },
       {
         q: "Livrați motoare Hoyer în România și cât durează?",
-        a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea clasei de eficiență și a puterii cerute. Nu ținem această gamă pe raft; termenul final depinde de disponibilitatea la fabrica din Danemarca.",
+        a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea clasei de eficiență și a puterii cerute. Nu ținem această gamă pe raft; termenul final depinde de disponibilitatea la fabrica din Danemarca.",
       },
     ],
     evidenceClass: "market-signal-intl",
@@ -486,7 +486,7 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
       "Energie solară — invertoare NEO-SOLAR pentru aplicații fotovoltaice",
       "Zone cu risc de explozie — motoare și invertoare certificate ATEX/IECEx",
     ],
-    infinitrade: `Pentru Motive lucrăm cu informațiile publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand, pe care nu l-am mai comercializat până acum. Aducem la comandă motoare, invertoare și reductoare, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea configurației cerute. Pentru ofertă, clientul trebuie să precizeze dacă are nevoie de motor, invertor, reductor sau de un set complet, familia dorită (DELPHI, NEO/NANO, ROBUS etc.) și, dacă aplicația o cere, certificarea ATEX/IECEx. Nu promitem disponibilitate din depozit pe niciuna dintre familii — configurațiile complete se confirmă, de regulă, direct cu fabrica din Italia.`,
+    infinitrade: `Pentru Motive lucrăm cu informațiile publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand, pe care nu l-am mai comercializat până acum. Aducem la comandă motoare, invertoare și reductoare, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației cerute. Pentru ofertă, clientul trebuie să precizeze dacă are nevoie de motor, invertor, reductor sau de un set complet, familia dorită (DELPHI, NEO/NANO, ROBUS etc.) și, dacă aplicația o cere, certificarea ATEX/IECEx. Nu promitem disponibilitate din depozit pe niciuna dintre familii — configurațiile complete se confirmă, de regulă, direct cu fabrica din Italia.`,
     limitation:
       "Nu putem confirma parametrii tehnici exacți (putere, cuplu, raport de reducere) pentru fiecare mărime din familiile de reductoare, pentru care producătorul publică fișe tehnice separate, necitate integral aici.",
     productCodes: [
@@ -527,7 +527,7 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
       },
       {
         q: "Livrați produse Motive în România și cât durează?",
-        a: "Da, aducem motoare, invertoare și reductoare Motive la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea configurației complete cerute de client. Nu ținem aceste produse pe raft propriu.",
+        a: "Da, aducem motoare, invertoare și reductoare Motive la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației complete cerute de client. Nu ținem aceste produse pe raft propriu.",
       },
     ],
     evidenceClass: "market-signal-intl",
@@ -581,7 +581,7 @@ Pentru instalații din România — centrale electrice, fabrici de ciment, rafin
       "Prelucrarea lemnului — motoare pentru ventilatoare și linii de procesare",
       "Rafinării — motoare de medie tensiune pentru pompe și compresoare",
     ],
-    infinitrade: `Pentru VYBO Electric nu avem date proprii de stoc — mergem pe informația publicată de producător despre plajele de putere și tensiune pentru fiecare serie, fiind un brand nou în oferta noastră. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea seriei și a puterii cerute; la puterile foarte mari din seria H27R, termenul real se stabilește după confirmarea disponibilității la fabrica din Slovacia. Pentru ofertă, clientul trebuie să trimită seria (H17RL, 3LC, H17R, H27R etc.), puterea, tensiunea de alimentare și tipul de rotor (scurtcircuit sau inele colectoare). Nu ținem această gamă pe raft; aducem la comandă fiecare motor confirmat de producător.`,
+    infinitrade: `Pentru VYBO Electric nu avem date proprii de stoc — mergem pe informația publicată de producător despre plajele de putere și tensiune pentru fiecare serie, fiind un brand nou în oferta noastră. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea seriei și a puterii cerute; la puterile foarte mari din seria H27R, termenul real se stabilește după confirmarea disponibilității la fabrica din Slovacia. Pentru ofertă, clientul trebuie să trimită seria (H17RL, 3LC, H17R, H27R etc.), puterea, tensiunea de alimentare și tipul de rotor (scurtcircuit sau inele colectoare). Nu ținem această gamă pe raft; aducem la comandă fiecare motor confirmat de producător.`,
     limitation:
       "Nu putem confirma anul înființării companiei, informație pe care site-ul oficial nu o publică explicit, și nici parametrii tehnici exacți pentru fiecare mărime intermediară din seriile de medie și înaltă tensiune.",
     productCodes: [
@@ -616,7 +616,7 @@ Pentru instalații din România — centrale electrice, fabrici de ciment, rafin
       },
       {
         q: "Livrați motoare VYBO în România și cât durează?",
-        a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea seriei și a puterii cerute. La motoarele de foarte mare putere, termenul final se confirmă abia după verificarea disponibilității la fabrica din Slovacia.",
+        a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea seriei și a puterii cerute. La motoarele de foarte mare putere, termenul final se confirmă abia după verificarea disponibilității la fabrica din Slovacia.",
       },
     ],
     evidenceClass: "market-signal-intl",

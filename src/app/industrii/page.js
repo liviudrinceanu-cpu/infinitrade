@@ -164,8 +164,8 @@ export default function IndustriiPage() {
                     ))}
                   </div>
                   <div className={styles.cardStats}>
-                    <span>{industry.stats.projects} Proiecte</span>
-                    <span>{industry.stats.experience} Experienta</span>
+                    <span>{industry.equipment.length} tipuri de echipamente</span>
+                    <span>{industry.brands.length} branduri</span>
                   </div>
                   <div className={styles.cardFooter}>
                     <span>Vezi detalii</span>

@@ -61,7 +61,7 @@ Ceea ce diferențiază Siemens de competiție e profunzimea gamei: SITRANS F (de
       'HVAC și district heating'
     ],
 
-    infinitrade: `La Infinitrade aducem instrumentație Siemens SITRANS (debitimetre, traductoare de presiune, senzori de nivel, analizoare de proces) prin canalele noastre de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fabricii și lucrăm cu informațiile publice disponibile ale producătorului pentru specificații și termene. Ca formulare generală a firmei, livrarea poate fi de 24–72 h din stoc pentru articolele deja pregătite în lanțul nostru sau de 2–6 săptămâni la comandă pentru restul gamei, fără să promitem un anumit cod ca fiind în stoc înainte de confirmare. Pentru o ofertă corectă, trimite-ne codul SITRANS, protocolul de comunicare necesar (HART, PROFIBUS, PROFINET) și parametrii de proces. Revenim cu disponibilitate reală și timp de livrare confirmat de furnizor.`,
+    infinitrade: `La Infinitrade aducem instrumentație Siemens SITRANS (debitimetre, traductoare de presiune, senzori de nivel, analizoare de proces) prin canalele noastre de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fabricii și lucrăm cu informațiile publice disponibile ale producătorului pentru specificații și termene. Ca formulare generală a firmei, livrarea poate fi de 24–72 h din stoc pentru articolele deja pregătite în lanțul nostru sau de 2–4 săptămâni la comandă pentru restul gamei, fără să promitem un anumit cod ca fiind în stoc înainte de confirmare. Pentru o ofertă corectă, trimite-ne codul SITRANS, protocolul de comunicare necesar (HART, PROFIBUS, PROFINET) și parametrii de proces. Revenim cu disponibilitate reală și timp de livrare confirmat de furnizor.`,
     sources: [
       {"title":"Flow Measurement","url":"https://www.siemens.com/global/en/products/automation/process-instrumentation/flow-measurement.html","publisher":"Siemens","accessed":"2026-09-22"},
       { title: 'Company development | Siemens', url: 'https://www.siemens.com/global/en/company/about/history/company/1847-1865.html', publisher: 'Siemens AG', accessed: '2026-09-22' },
@@ -149,7 +149,7 @@ Ceea ce diferențiază Siemens de competiție e profunzimea gamei: SITRANS F (de
       },
       {
         "q": "Livrați debitmetre Siemens SITRANS în România?",
-        "a": "Da, aducem la comandă debitmetre SITRANS pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de diametrul nominal necesar. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă debitmetre SITRANS pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de diametrul nominal necesar. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de debitmetru Siemens SITRANS?",
@@ -227,7 +227,7 @@ Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (p
       'Transport (vagoane feroviare, conveioare aeroporturi)'
     ],
 
-    infinitrade: `Furnizăm sisteme de ungere SKF Lincoln și lubrifianți SKF prin canalele de aprovizionare pe care le avem în Uniunea Europeană. Nu avem acces la datele interne de stoc ale fabricii, așa că lucrăm din surse publice ale producătorului pentru cataloage și fișe tehnice. Ca formulare generală, reușim uneori livrarea în 24–72 h din stoc pentru componente uzuale ale lanțului nostru, iar pentru restul configurațiilor termenul este de 2–6 săptămâni la comandă, fără garanție implicită pentru un anumit produs. Ca să pregătim o ofertă corectă, avem nevoie de tipul de sistem (progresiv, dual-line, single-line), numărul de puncte de ungere și tipul de lubrifiant folosit. Îți trimitem propunerea tehnică după ce confirmăm disponibilitatea la furnizor.`,
+    infinitrade: `Furnizăm sisteme de ungere SKF Lincoln și lubrifianți SKF prin canalele de aprovizionare pe care le avem în Uniunea Europeană. Nu avem acces la datele interne de stoc ale fabricii, așa că lucrăm din surse publice ale producătorului pentru cataloage și fișe tehnice. Ca formulare generală, reușim uneori livrarea în 24–72 h din stoc pentru componente uzuale ale lanțului nostru, iar pentru restul configurațiilor termenul este de 2–4 săptămâni la comandă, fără garanție implicită pentru un anumit produs. Ca să pregătim o ofertă corectă, avem nevoie de tipul de sistem (progresiv, dual-line, single-line), numărul de puncte de ungere și tipul de lubrifiant folosit. Îți trimitem propunerea tehnică după ce confirmăm disponibilitatea la furnizor.`,
     sources: [
       {"title":"Product catalogue 2025 - Multi-line automatic lubrication systems","url":"https://cdn.skfmediahub.skf.com/api/public/0901d1968065a461/pdf_preview_medium/0901d1968065a461_pdf_preview_medium.pdf","publisher":"SKF","accessed":"2026-09-23"},
       {"title":"Lincoln Spray systems, chain lubrication and specialty systems","url":"https://cdn.skfmediahub.skf.com/api/public/0901d196802d235a/pdf_preview_medium/0901d196802d235a_pdf_preview_medium.pdf","publisher":"SKF","accessed":"2026-09-23"},
@@ -345,7 +345,7 @@ Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (p
       },
       {
         "q": "Livrați sisteme de lubrifiere SKF Lincoln în România?",
-        "a": "Da, aducem pompe și sisteme de ungere SKF Lincoln la comandă, conform cataloagelor publice ale producătorului, fără stoc propriu ținut pe aceste coduri. Termenul uzual este de 2-6 săptămâni la comandă, în funcție de componentă și de configurația pompei. Recomandăm confirmarea codului exact al pompei sau sistemului ales."
+        "a": "Da, aducem pompe și sisteme de ungere SKF Lincoln la comandă, conform cataloagelor publice ale producătorului, fără stoc propriu ținut pe aceste coduri. Termenul uzual este de 2-4 săptămâni la comandă, în funcție de componentă și de configurația pompei. Recomandăm confirmarea codului exact al pompei sau sistemului ales."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de sistem de ungere automată SKF?",
@@ -423,7 +423,7 @@ Dar SMC nu e doar despre catalog imens - e și despre inovație continuă. Au fo
       'Wood & Furniture (presare, șlefuire, vopsire)'
     ],
 
-    infinitrade: `Distribuim componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe cataloagele și configuratorul online publicate de producător pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 2–6 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimite-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
+    infinitrade: `Distribuim componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe cataloagele și configuratorul online publicate de producător pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 2–4 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimite-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
     sources: [
       {"title":"SMC Corporation Homepage","url":"https://www.smcworld.com/en-jp/","publisher":"SMC Corporation","accessed":"2026-09-22"},
       { title: 'SMC Corporation – site oficial', url: 'https://www.smcworld.com/', publisher: 'SMC Corporation', accessed: '2026-09-22' },
@@ -495,7 +495,7 @@ Dar SMC nu e doar despre catalog imens - e și despre inovație continuă. Au fo
       },
       {
         "q": "Livrați cilindri și valve SMC în România?",
-        "a": "Da, aducem la comandă componente SMC pe baza informațiilor publice de pe pagina producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de model și de configurație. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă componente SMC pe baza informațiilor publice de pe pagina producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de configurație. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de cilindru pneumatic SMC?",
@@ -573,7 +573,7 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
       'Automotive (prelucrare suprafețe, vopsire)'
     ],
 
-    infinitrade: `Aducem echipamente Spirax Sarco (oale de condens, regulatoare de presiune, schimbătoare de căldură) prin canalele de aprovizionare din spațiul UE cu care lucrăm. Nu putem confirma stocul intern al producătorului, așa că ne raportăm la informațiile publice disponibile din documentația tehnică Spirax Sarco. Ca regulă generală, unele repere ajung în 24–72 h din stoc atunci când sunt deja în lanțul nostru, iar restul configurațiilor se livrează în 2–6 săptămâni la comandă, fără să garantăm disponibilitatea unui model anume dinainte. Pentru o propunere corectă avem nevoie de presiunea și debitul de abur, temperatura de lucru și tipul aplicației (schimbător, reducție presiune, evacuare condens). Revenim cu termenul confirmat de furnizor și specificațiile complete.`,
+    infinitrade: `Aducem echipamente Spirax Sarco (oale de condens, regulatoare de presiune, schimbătoare de căldură) prin canalele de aprovizionare din spațiul UE cu care lucrăm. Nu putem confirma stocul intern al producătorului, așa că ne raportăm la informațiile publice disponibile din documentația tehnică Spirax Sarco. Ca regulă generală, unele repere ajung în 24–72 h din stoc atunci când sunt deja în lanțul nostru, iar restul configurațiilor se livrează în 2–4 săptămâni la comandă, fără să garantăm disponibilitatea unui model anume dinainte. Pentru o propunere corectă avem nevoie de presiunea și debitul de abur, temperatura de lucru și tipul aplicației (schimbător, reducție presiune, evacuare condens). Revenim cu termenul confirmat de furnizor și specificațiile complete.`,
     sources: [
       {"title":"Thermodynamic Steam Traps","url":"https://www.spiraxsarco.com/global/en-US/products/steam-traps/thermodynamic-steam-traps","publisher":"Spirax Sarco","accessed":"2026-09-23"},
       {"title":"Float and Thermostatic Steam Traps","url":"https://www.spiraxsarco.com/global/en-US/products/steam-traps/float-and-thermostatic-steam-traps","publisher":"Spirax Sarco","accessed":"2026-09-23"},
@@ -686,7 +686,7 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
       },
       {
         "q": "Livrați oale de condens Spirax Sarco în România?",
-        "a": "Da, aducem oale de condens Spirax Sarco la comandă, conform gamelor publicate oficial de producător, fără să ținem aceste coduri pe stoc propriu. Termenul obișnuit de livrare este 2-6 săptămâni, în funcție de model și de materialul corpului. Recomandăm confirmarea codului exact, inclusiv presiunea de lucru, înainte de comandă."
+        "a": "Da, aducem oale de condens Spirax Sarco la comandă, conform gamelor publicate oficial de producător, fără să ținem aceste coduri pe stoc propriu. Termenul obișnuit de livrare este 2-4 săptămâni, în funcție de model și de materialul corpului. Recomandăm confirmarea codului exact, inclusiv presiunea de lucru, înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de oală de condens Spirax Sarco?",
@@ -764,7 +764,7 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
       'General industrial maintenance (atât fabricație cât și service)'
     ],
 
-    infinitrade: `Furnizăm scule Stahlwille (chei dinamometrice, tubulare, chei inelare, biți) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu deținem date proprii despre stocul central al producătorului și folosim informațiile publice din catalogul Stahlwille pentru coduri și game de cuplu. Ca formulare generală a firmei, anumite articole pot fi livrate în 24–72 h din stoc dacă se află deja în lanțul nostru, iar celelalte configurații ajung în 2–6 săptămâni la comandă. Pentru o ofertă utilă, trimite-ne seria dorită, gama de cuplu necesară și tipul de cap (pătrat, inelar, tubular). Confirmăm disponibilitatea reală înainte de a trimite propunerea finală.`,
+    infinitrade: `Furnizăm scule Stahlwille (chei dinamometrice, tubulare, chei inelare, biți) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu deținem date proprii despre stocul central al producătorului și folosim informațiile publice din catalogul Stahlwille pentru coduri și game de cuplu. Ca formulare generală a firmei, anumite articole pot fi livrate în 24–72 h din stoc dacă se află deja în lanțul nostru, iar celelalte configurații ajung în 2–4 săptămâni la comandă. Pentru o ofertă utilă, trimite-ne seria dorită, gama de cuplu necesară și tipul de cap (pătrat, inelar, tubular). Confirmăm disponibilitatea reală înainte de a trimite propunerea finală.`,
     sources: [
       {"title":"Stahlwille homepage","url":"https://stahlwille.com/de_de","publisher":"Stahlwille","accessed":"2026-09-26"},
       {"title":"Torque wrench MANOSKOP 730 Quick","url":"https://stahlwille.com/en_us/products/torque-tools/torque-wrenches-mechanical/torque-wrenches-mechanical-for-insert-tools/torque-wrench-manoskopr-730-quick-nm-ftlb/852078","publisher":"Stahlwille","accessed":"2026-09-26"},
@@ -828,7 +828,7 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
       },
       {
         "q": "Livrați scule Stahlwille la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă chei dinamometrice și scule din gama MANOSKOP, pe baza codului confirmat din catalogul oficial Stahlwille. Nu avem această gamă în stoc propriu; comandăm scula exactă la producător, iar termenul obișnuit este de 2-6 săptămâni. Recomandăm transmiterea codului complet de pe corpul sculei pentru identificarea corectă a variantei."
+        "a": "Da, aducem la comandă chei dinamometrice și scule din gama MANOSKOP, pe baza codului confirmat din catalogul oficial Stahlwille. Nu avem această gamă în stoc propriu; comandăm scula exactă la producător, iar termenul obișnuit este de 2-4 săptămâni. Recomandăm transmiterea codului complet de pe corpul sculei pentru identificarea corectă a variantei."
       },
       {
         "q": "Ce detalii sunt necesare pentru o ofertă la o cheie dinamometrică Stahlwille?",
@@ -904,7 +904,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       'Marine (conectori waterproof, corrosion-resistant)'
     ],
 
-    infinitrade: `Distribuim componente TE Connectivity (conectori industriali, relee, senzori de presiune, conectori board-to-board) aduse la comandă prin canalele de aprovizionare din UE cu care colaborăm. Fără acces la datele interne de stoc ale producătorului, lucrăm cu fișele tehnice și informațiile publice disponibile pe platformele TE. Ca regulă generală a firmei, unele referințe pot ajunge în 24–72 h din stoc din lanțul nostru, dar majoritatea comenzilor speciale necesită 2–6 săptămâni la comandă, fără garanție pentru o referință anume înainte de confirmare. Pentru o cotație corectă avem nevoie de codul de parte TE, mediul de utilizare și protocolul de comunicare (dacă e cazul). Revenim cu disponibilitate reală și termen confirmat de furnizor.`,
+    infinitrade: `Distribuim componente TE Connectivity (conectori industriali, relee, senzori de presiune, conectori board-to-board) aduse la comandă prin canalele de aprovizionare din UE cu care colaborăm. Fără acces la datele interne de stoc ale producătorului, lucrăm cu fișele tehnice și informațiile publice disponibile pe platformele TE. Ca regulă generală a firmei, unele referințe pot ajunge în 24–72 h din stoc din lanțul nostru, dar majoritatea comenzilor speciale necesită 2–4 săptămâni la comandă, fără garanție pentru o referință anume înainte de confirmare. Pentru o cotație corectă avem nevoie de codul de parte TE, mediul de utilizare și protocolul de comunicare (dacă e cazul). Revenim cu disponibilitate reală și termen confirmat de furnizor.`,
     sources: [
       {"title":"Connectors","url":"https://www.te.com/en/products/connectors.html","publisher":"TE Connectivity","accessed":"2026-09-22"},
       {"title":"Pressure Sensors","url":"https://www.te.com/en/products/sensors/pressure-sensors.html","publisher":"TE Connectivity","accessed":"2026-09-22"},
@@ -969,7 +969,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       },
       {
         "q": "Livrați conectori TE Connectivity în România?",
-        "a": "Da, aducem la comandă conectori TE Connectivity pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-6 săptămâni la comandă, în funcție de referință. Recomandăm confirmarea codului complet înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă conectori TE Connectivity pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de referință. Recomandăm confirmarea codului complet înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de conector M12 TE Connectivity?",
@@ -1047,7 +1047,7 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
       'Metrology labs (laboratoare de calibrare, institute naționale)'
     ],
 
-    infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe informațiile publice ale producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 2–6 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, spune-ne ce parametru vrei să măsori, precizia cerută și domeniul de măsurare. Îți confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
+    infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe informațiile publice ale producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 2–4 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, spune-ne ce parametru vrei să măsori, precizia cerută și domeniul de măsurare. Îți confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
     sources: [
       {"title":"Height Gauges","url":"https://www.tesatechnology.com/en-us/products/height-gauges","publisher":"Tesa Technology","accessed":"2026-09-22"},
       {"title":"Calipers","url":"https://www.tesatechnology.com/en-us/products/calipers","publisher":"Tesa Technology","accessed":"2026-09-22"},
@@ -1112,7 +1112,7 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
       },
       {
         "q": "Livrați instrumente de măsură Tesa în România?",
-        "a": "Da, aducem la comandă instrumente de măsură Tesa pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Livrarea durează de regulă 2-6 săptămâni de la plasarea comenzii, în funcție de model. Recomandăm confirmarea codului exact al instrumentului dorit înainte de comandă."
+        "a": "Da, aducem la comandă instrumente de măsură Tesa pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Livrarea durează de regulă 2-4 săptămâni de la plasarea comenzii, în funcție de model. Recomandăm confirmarea codului exact al instrumentului dorit înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de coloană de măsurat Tesa?",
@@ -1190,7 +1190,7 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
       'Retail (supermarketuri - monitorizare lăzi frigorifice)'
     ],
 
-    infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la informațiile publice din fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 2–6 săptămâni la comandă. Pentru o cotație utilă, spune-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
+    infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la informațiile publice din fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 2–4 săptămâni la comandă. Pentru o cotație utilă, spune-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
     sources: [
       {"title":"Testo - sitemap produse (en-US)","url":"https://www.testo.com/en-US/sitemap/product.xml","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
       {"title":"Testo - pagina oficială","url":"https://www.testo.com/","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
@@ -1345,7 +1345,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       'Marine (propeller shafts, rudder bearings)'
     ],
 
-    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu cataloagele tehnice publice ale producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 2–6 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o cotație corectă trimite-ne codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
+    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu cataloagele tehnice publice ale producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 2–4 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o cotație corectă trimite-ne codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
     sources: [
       {"title":"Timken Tapered Roller Bearing Catalog","url":"https://www.timken.com/wp-content/uploads/2022/11/Timken-Tapered-Roller-Bearing-Catalog_10481.pdf","publisher":"Timken","accessed":"2026-09-23"},
       { title: 'Advanced Motion Technology Solutions | The Timken Company', url: 'https://www.timken.com/', publisher: 'The Timken Company', accessed: '2026-09-22' },
@@ -1445,7 +1445,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "q": "Livrați rulmenți Timken în România?",
-        "a": "Da, comandăm rulmenți Timken pornind de la fișele publice de produs ale producătorului, fără evidențe interne de stoc pe gama completă. Perioada uzuală este de 2-6 săptămâni de la confirmarea comenzii, în funcție de dimensiune și de disponibilitatea la fabrică. Codul exact al rulmentului trebuie confirmat înainte de comandă."
+        "a": "Da, comandăm rulmenți Timken pornind de la fișele publice de produs ale producătorului, fără evidențe interne de stoc pe gama completă. Perioada uzuală este de 2-4 săptămâni de la confirmarea comenzii, în funcție de dimensiune și de disponibilitatea la fabrică. Codul exact al rulmentului trebuie confirmat înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de rulment conic Timken?",
@@ -1523,7 +1523,7 @@ Dar Trane nu e doar about hardware - oferă și servicii de energy audit, buildi
       'Food production (zone aseptice, depozite refrigerate)'
     ],
 
-    infinitrade: `Aducem echipamente HVAC Trane (chillere, rooftop units, unități de tratare aer, pompe de căldură) prin canalele de aprovizionare din UE cu care lucrăm în mod obișnuit. Nu deținem date proprii despre stocul fabricilor Trane și ne bazăm pe informațiile publice ale producătorului pentru selecție și dimensionare. Ca formulare generală a firmei, unele accesorii sau piese uzuale pot ajunge în 24–72 h din stoc din lanțul nostru, dar echipamentele AHU custom sau chillerele mari se livrează în 2–6 săptămâni la comandă, funcție de configurație. Pentru un studiu corect trimite-ne necesarul termic/frigorific, suprafața sau volumul spațiului și cerințele de calitate a aerului. Revenim cu o propunere tehnică și termenul confirmat de furnizor.`,
+    infinitrade: `Aducem echipamente HVAC Trane (chillere, rooftop units, unități de tratare aer, pompe de căldură) prin canalele de aprovizionare din UE cu care lucrăm în mod obișnuit. Nu deținem date proprii despre stocul fabricilor Trane și ne bazăm pe informațiile publice ale producătorului pentru selecție și dimensionare. Ca formulare generală a firmei, unele accesorii sau piese uzuale pot ajunge în 24–72 h din stoc din lanțul nostru, dar echipamentele AHU custom sau chillerele mari se livrează în 2–4 săptămâni la comandă, funcție de configurație. Pentru un studiu corect trimite-ne necesarul termic/frigorific, suprafața sau volumul spațiului și cerințele de calitate a aerului. Revenim cu o propunere tehnică și termenul confirmat de furnizor.`,
     sources: [
       {"title":"CenTraVac Water-cooled Chillers Product Catalog","url":"https://elibrary.tranetechnologies.com/public/commercial-hvac/Literature/Product%20Catalog/CTV-PRC021G-EN_12202024.pdf","publisher":"Trane Technologies","accessed":"2026-09-23"},
       {"title":"Voyager I Rooftop Units Catalog","url":"https://www.trane.com/content/dam/Trane/Commercial/EMEIA/sales-offices/Turkey/Urunler%20ve%20Sistemler/Product/Voyager%20I-CATALOG-Cooling_Gas%20Fired.pdf","publisher":"Trane Technologies","accessed":"2026-09-23"},
@@ -1608,7 +1608,7 @@ Dar Trane nu e doar about hardware - oferă și servicii de energy audit, buildi
       },
       {
         "q": "Livrați echipamente Trane în România?",
-        "a": "Da, comandăm chillere și unități rooftop Trane pe baza cataloagelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru gama completă. Termenul obișnuit este 2-6 săptămâni la comandă, în funcție de model și de opțiunile solicitate, iar codul unității trebuie confirmat înaintea plasării comenzii."
+        "a": "Da, comandăm chillere și unități rooftop Trane pe baza cataloagelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru gama completă. Termenul obișnuit este 2-4 săptămâni la comandă, în funcție de model și de opțiunile solicitate, iar codul unității trebuie confirmat înaintea plasării comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de rooftop Trane Voyager?",

@@ -28,8 +28,8 @@ Pentru instalațiile din România, gama Conval are sens acolo unde robinetele st
       "Marină/apărare — robinet de blowdown cazan pentru servicii navale",
       "Cercetare/laborator — robinete pentru linii criogenice",
     ],
-    infinitrade: `Spunem direct ce putem și ce nu putem confirma pentru Conval: dimensiunile, clasele de presiune și codurile Web Ref. vin din paginile oficiale citate mai jos, dar nu avem date proprii despre o rețea de distribuție în Europa — site-ul producătorului nu menționează una. Aducem robinetele Conval la comandă, prin import direct din SUA, cu termen orientativ de 2-6 săptămâni, în funcție de configurația exactă și de confirmarea producătorului. Pentru ofertă, trimiteți dimensiunea nominală, clasa de presiune ASME, materialul corpului și tipul de capete. Nu ținem această gamă pe raft — fiecare robinet e construit pe specificație.`,
-    limitation: "Nu putem confirma termene de livrare mai scurte de 2-6 săptămâni și nici disponibilitatea unei sub-game anume înainte de specificația tehnică completă.",
+    infinitrade: `Spunem direct ce putem și ce nu putem confirma pentru Conval: dimensiunile, clasele de presiune și codurile Web Ref. vin din paginile oficiale citate mai jos, dar nu avem date proprii despre o rețea de distribuție în Europa — site-ul producătorului nu menționează una. Aducem robinetele Conval la comandă, prin import direct din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de configurația exactă și de confirmarea producătorului. Pentru ofertă, trimiteți dimensiunea nominală, clasa de presiune ASME, materialul corpului și tipul de capete. Nu ținem această gamă pe raft — fiecare robinet e construit pe specificație.`,
+    limitation: "Nu putem confirma termene de livrare mai scurte de 2-4 săptămâni și nici disponibilitatea unei sub-game anume înainte de specificația tehnică completă.",
     productCodes: [
       { code: "Swivldisc Gate Valve", description: "robinet sertar, Class 900-2500, 1/2-4 țoli" },
       { code: "Clampseal Globe Valve", description: "robinet cu ventil, Class 900-4500, 1/2-4 țoli" },
@@ -47,8 +47,8 @@ Pentru instalațiile din România, gama Conval are sens acolo unde robinetele st
     faq: [
       { q: "Ce produce Conval?", a: "Conval fabrică robinete forjate din oțel pentru servicii severe — presiune și temperatură ridicate — sub formă de robinete sertar Swivldisc, robinete cu ventil Clampseal și supape de reținere piston-check tip Y sau unghiulare, în clase ASME de la 900 la 4500." },
       { q: "Cum aleg un robinet Conval după cod?", a: "Codul Web Ref. de pe site-ul producătorului indică o combinație fixă de dimensiune, clasă de presiune și coeficient de debit (Cv); pentru ofertă, trimiteți dimensiunea nominală, clasa ASME dorită și materialul corpului, iar noi identificăm modelul corespunzător din gama Conval." },
-      { q: "Se poate procura Conval în România/Europa?", a: "Da, dar nu printr-o filială locală — site-ul oficial Conval nu menționează o rețea de distribuție în Europa, așa că aducem robinetele la comandă prin import direct din SUA, cu termen orientativ de 2-6 săptămâni, în funcție de configurație și transport." },
-      { q: "Livrați robinete Conval în România și cât durează?", a: "Termenul orientativ este de 2-6 săptămâni la comandă, în funcție de confirmarea producătorului asupra configurației exacte — dimensiune, clasă de presiune, material — și de disponibilitatea la fabrica din SUA; nu ținem această gamă pe raft." },
+      { q: "Se poate procura Conval în România/Europa?", a: "Da, dar nu printr-o filială locală — site-ul oficial Conval nu menționează o rețea de distribuție în Europa, așa că aducem robinetele la comandă prin import direct din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de configurație și transport." },
+      { q: "Livrați robinete Conval în România și cât durează?", a: "Termenul orientativ este de 2-4 săptămâni la comandă, în funcție de confirmarea producătorului asupra configurației exacte — dimensiune, clasă de presiune, material — și de disponibilitatea la fabrica din SUA; nu ținem această gamă pe raft." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -88,7 +88,7 @@ Pentru piața din România, Channellock are sens acolo unde un atelier are nevoi
       "Electricitate — clești GS pentru tăiere și dezizolare de cabluri",
       "Agricultură — scule rezistente pentru mentenanță în teren",
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru Channellock: codurile de model și fabricarea integrală în SUA vin din surse publice ale producătorului, dar site-ul oficial nu menționează o rețea de distribuție proprie în Europa. Aducem sculele Channellock la comandă, prin import direct din SUA, cu termen orientativ de 2-6 săptămâni, în funcție de cantitate și de confirmarea disponibilității. Pentru ofertă, e nevoie de codul exact de model — de pe scula existentă sau din catalog — și cantitatea dorită. Nu ținem această gamă pe raft; lucrăm exclusiv la comandă.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru Channellock: codurile de model și fabricarea integrală în SUA vin din surse publice ale producătorului, dar site-ul oficial nu menționează o rețea de distribuție proprie în Europa. Aducem sculele Channellock la comandă, prin import direct din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de cantitate și de confirmarea disponibilității. Pentru ofertă, e nevoie de codul exact de model — de pe scula existentă sau din catalog — și cantitatea dorită. Nu ținem această gamă pe raft; lucrăm exclusiv la comandă.`,
     limitation: "Nu putem confirma dimensiunile exacte sau tipul de mâner pentru fiecare cod de model fără accesul la catalogul tehnic complet al producătorului.",
     productCodes: [
       { code: "612TD", description: "clește sudor cu cap îngust, gama profesională" },
@@ -110,7 +110,7 @@ Pentru piața din România, Channellock are sens acolo unde un atelier are nevoi
     faq: [
       { q: "Ce produce Channellock?", a: "Channellock fabrică scule de mână — clești limbă-și-canal, clești de prindere și tăiere din gama GS, chei reglabile și șurubelnițe de precizie — produse integral în Statele Unite, la Meadville, Pennsylvania, din 1886." },
       { q: "Cum aleg un clește Channellock după cod?", a: "Codul de model indică lungimea totală a sculei și tipul de mâner — neted, cu strat de cauciuc sau cu cuțit lateral; pentru alegerea corectă, comparați lungimea din catalog cu spațiul de lucru disponibil și tipul de piesă pe care urmează să o prindeți." },
-      { q: "Se poate procura Channellock în România/Europa?", a: "Da, dar nu printr-o filială locală — site-ul Channellock nu menționează o rețea de distribuție în Europa, așa că aducem sculele la comandă prin import direct din SUA, cu termen orientativ de 2-6 săptămâni, în funcție de cantitate." },
+      { q: "Se poate procura Channellock în România/Europa?", a: "Da, dar nu printr-o filială locală — site-ul Channellock nu menționează o rețea de distribuție în Europa, așa că aducem sculele la comandă prin import direct din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de cantitate." },
       { q: "Ce trebuie să trimit pentru o ofertă Channellock?", a: "Codul exact de model de pe scula existentă sau din catalogul producătorului, cantitatea dorită și, dacă e cazul, aplicația — electricitate, instalații, service auto — pentru a confirma varianta potrivită de mâner." },
     ],
     evidenceClass: "market-signal-intl",
@@ -150,7 +150,7 @@ Pentru România, IPS Corporation înseamnă acces la un sistem complet de sudare
       "Construcții industriale/infrastructură — conducte de proces din plastic",
       "Piscine și spa — cimenturi și primeri pentru circuite de filtrare",
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru Weld-On: fabrica europeană din Olanda, deschisă în 2025, apare în informațiile publice ale producătorului, dar site-ul oficial nu detaliază o rețea de vânzare pentru România. Aducem cimenturile și primerii Weld-On la comandă, prin canalele de aprovizionare disponibile, cu termen orientativ de 2-6 săptămâni, în funcție de cod și cantitate. Pentru ofertă, aveți nevoie de codul exact de produs, materialul conductei — PVC, CPVC sau ABS — și cantitatea. Nu ținem această gamă pe raft; fiecare comandă se confirmă în funcție de disponibilitatea codului la producător.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru Weld-On: fabrica europeană din Olanda, deschisă în 2025, apare în informațiile publice ale producătorului, dar site-ul oficial nu detaliază o rețea de vânzare pentru România. Aducem cimenturile și primerii Weld-On la comandă, prin canalele de aprovizionare disponibile, cu termen orientativ de 2-4 săptămâni, în funcție de cod și cantitate. Pentru ofertă, aveți nevoie de codul exact de produs, materialul conductei — PVC, CPVC sau ABS — și cantitatea. Nu ținem această gamă pe raft; fiecare comandă se confirmă în funcție de disponibilitatea codului la producător.`,
     limitation: "Nu putem confirma dacă fabrica din Olanda deservește deja piața din România sau doar rețeaua vest-europeană a producătorului.",
     productCodes: [
       { code: "705", description: "ciment PVC uz industrial și irigații" },
@@ -175,7 +175,7 @@ Pentru România, IPS Corporation înseamnă acces la un sistem complet de sudare
     faq: [
       { q: "Ce produce IPS Corporation / Weld-On?", a: "IPS Corporation fabrică, sub marca Weld-On, cimenturi solvente, primeri și curățitori pentru sudarea la rece a conductelor din PVC, CPVC și ABS, folosiți în instalații sanitare, irigații și construcții industriale, cu formulă brevetată încă din 1958." },
       { q: "Cum aleg cimentul Weld-On potrivit după cod?", a: "Alegerea depinde de materialul conductei — PVC, CPVC sau ABS — și de condițiile de aplicare; de exemplu 705 pentru uz industrial general pe PVC, 713/714 pentru CPVC sau 794 pentru tranziția ABS-PVC. Consultați fișa tehnică a codului pentru timpul de priză exact." },
-      { q: "Se poate procura Weld-On în România/Europa?", a: "Producătorul IPS Corporation a deschis în 2025 o fabrică în Olanda, dar site-ul oficial nu menționează o rețea de vânzare pentru România; aducem cimenturile la comandă, prin canale de aprovizionare disponibile, cu termen orientativ de 2-6 săptămâni." },
+      { q: "Se poate procura Weld-On în România/Europa?", a: "Producătorul IPS Corporation a deschis în 2025 o fabrică în Olanda, dar site-ul oficial nu menționează o rețea de vânzare pentru România; aducem cimenturile la comandă, prin canale de aprovizionare disponibile, cu termen orientativ de 2-4 săptămâni." },
       { q: "Ce trebuie să trimit pentru o ofertă Weld-On?", a: "Codul exact de produs — de pe eticheta cutiei existente sau din fișa tehnică —, materialul conductei și cantitatea necesară, pentru a confirma disponibilitatea și termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -215,7 +215,7 @@ Pentru piața din România, gama Sun Hydraulics are sens la utilaje mobile, echi
       "Construcții — supape pentru platforme de ridicat și braț hidraulic",
       "Silvicultură — valve counterbalance pentru utilaje forestiere cu braț articulat",
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru Sun Hydraulics: fabricile producătorului din Marea Britanie, Germania și Italia apar pe site-ul oficial, dar nu avem date proprii despre stocul disponibil la fiecare dintre ele, la un moment dat. Furnizăm valvele cartuș Sun Hydraulics la comandă, cu termen orientativ de 2-6 săptămâni, în funcție de codul de model și de confirmarea disponibilității la fabrica europeană relevantă. Pentru ofertă, trimiteți codul de model — de exemplu CBCA/LHN — sau parametrii funcționali: presiune, debit, tip de pilotare.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru Sun Hydraulics: fabricile producătorului din Marea Britanie, Germania și Italia apar pe site-ul oficial, dar nu avem date proprii despre stocul disponibil la fiecare dintre ele, la un moment dat. Furnizăm valvele cartuș Sun Hydraulics la comandă, cu termen orientativ de 2-4 săptămâni, în funcție de codul de model și de confirmarea disponibilității la fabrica europeană relevantă. Pentru ofertă, trimiteți codul de model — de exemplu CBCA/LHN — sau parametrii funcționali: presiune, debit, tip de pilotare.`,
     limitation: "Nu putem confirma stocul disponibil la fabricile europene ale producătorului pentru un cod anume, la un moment dat.",
     productCodes: [
       { code: "CAGL/LGN", description: "supapă counterbalance, raport pilotare standard" },
@@ -238,7 +238,7 @@ Pentru piața din România, gama Sun Hydraulics are sens la utilaje mobile, echi
     faq: [
       { q: "Ce produce Sun Hydraulics?", a: "Sun Hydraulics fabrică valve cartuș și manifolduri hidraulice — supape de blocare a sarcinii, de relief și direcționale — folosite în utilaje mobile, echipamente de ridicat și linii hidraulice staționare, cu fabrici proprii inclusiv în Europa." },
       { q: "Cum aleg o valvă Sun Hydraulics după cod?", a: "Codul de model, format din patru litere urmate de un al doilea grup — de exemplu CBCA/LHN —, indică funcția valvei și varianta constructivă; comparați funcția necesară cu parametrii de presiune și debit ai circuitului dumneavoastră pentru alegerea corectă." },
-      { q: "Se poate procura Sun Hydraulics în România/Europa?", a: "Da — producătorul are fabrici proprii în Marea Britanie, Germania și Italia, potrivit site-ului oficial, ceea ce înseamnă o rețea europeană deja existentă; aducem valvele la comandă, cu termen orientativ de 2-6 săptămâni." },
+      { q: "Se poate procura Sun Hydraulics în România/Europa?", a: "Da — producătorul are fabrici proprii în Marea Britanie, Germania și Italia, potrivit site-ului oficial, ceea ce înseamnă o rețea europeană deja existentă; aducem valvele la comandă, cu termen orientativ de 2-4 săptămâni." },
       { q: "Ce echivalent are o supapă counterbalance Sun Hydraulics?", a: "Fiecare cod — CBCA, CBGL, MWGA etc. — are un raport de pilotare și o variantă de sertar specifice; trimiteți codul existent sau parametrii de presiune și debit, iar noi verificăm varianta potrivită din gama curentă." },
     ],
     evidenceClass: "market-signal-intl",
@@ -278,7 +278,7 @@ Pentru piața din România, gama HydraForce are sens la utilaje mobile — agric
       "Silvicultură — valve direcționale pentru utilaje forestiere cu braț articulat",
       "Manipulare materiale — valve proporționale pentru control fin al mișcării",
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru HydraForce: integrarea din 2022 în rețeaua Bosch Rexroth și centrul tehnic din Italia apar pe site-ul oficial, dar nu știm dacă acesta deservește direct comenzile din România. Furnizăm valvele cartuș și modulele compacte HydraForce la comandă, prin canalele de aprovizionare din rețeaua Bosch Rexroth, cu termen orientativ de 2-6 săptămâni, în funcție de cod și cantitate. Pentru ofertă, trimiteți codul exact de model sau parametrii funcționali — presiune, debit, dimensiunea cavității. Nu ținem această gamă pe raft; fiecare comandă trece prin confirmarea codului la producător.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru HydraForce: integrarea din 2022 în rețeaua Bosch Rexroth și centrul tehnic din Italia apar pe site-ul oficial, dar nu știm dacă acesta deservește direct comenzile din România. Furnizăm valvele cartuș și modulele compacte HydraForce la comandă, prin canalele de aprovizionare din rețeaua Bosch Rexroth, cu termen orientativ de 2-4 săptămâni, în funcție de cod și cantitate. Pentru ofertă, trimiteți codul exact de model sau parametrii funcționali — presiune, debit, dimensiunea cavității. Nu ținem această gamă pe raft; fiecare comandă trece prin confirmarea codului la producător.`,
     limitation: "Nu putem confirma parametrii exacți de presiune și debit pentru fiecare cod fără fișa tehnică completă a valvei respective.",
     productCodes: [
       { code: "CV04-20", description: "valvă de control direcțional, cavitate mică" },
@@ -302,7 +302,7 @@ Pentru piața din România, gama HydraForce are sens la utilaje mobile — agric
     faq: [
       { q: "Ce produce HydraForce?", a: "HydraForce fabrică valve cartuș hidraulice și module compacte de putere pentru control direcțional, de presiune și de debit, folosite pe utilaje mobile din agricultură, construcții și silvicultură, fiind din 2022 parte din rețeaua globală Bosch Rexroth." },
       { q: "Cum aleg o valvă HydraForce după cod?", a: "Codul de model indică funcția — direcțională, presiune, debit, solenoid — și dimensiunea cavității; comparați debitul de vârf și presiunea maximă din circuitul dumneavoastră cu specificațiile din fișa tehnică a codului respectiv pentru alegerea corectă." },
-      { q: "Se poate procura HydraForce în România/Europa?", a: "Da, prin rețeaua Bosch Rexroth din care HydraForce face parte din 2022, cu un centru tehnic la Nonantola, Italia; aducem valvele la comandă, cu termen orientativ de 2-6 săptămâni, în funcție de cod și cantitate." },
+      { q: "Se poate procura HydraForce în România/Europa?", a: "Da, prin rețeaua Bosch Rexroth din care HydraForce face parte din 2022, cu un centru tehnic la Nonantola, Italia; aducem valvele la comandă, cu termen orientativ de 2-4 săptămâni, în funcție de cod și cantitate." },
       { q: "Ce trebuie să trimit pentru o ofertă HydraForce?", a: "Codul exact de model sau parametrii funcționali necesari — presiune de lucru, debit, dimensiunea cavității — pentru a identifica rapid varianta potrivită din gama curentă a producătorului." },
     ],
     evidenceClass: "market-signal-intl",
@@ -342,7 +342,7 @@ Pentru instalațiile din România, gama Fabco-Air are sens acolo unde spațiul d
       "Electronice/semiconductori — cilindri de precizie pentru manipulare de componente mici",
       "Logistică/depozitare — actuatoare pentru sisteme de sortare și paletizare",
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru Fabco-Air: relația de susținere tehnologică cu Festo (Germania) apare pe site-ul oficial, dar fără date proprii despre acoperirea europeană a rețelei de vânzare a acestuia. Furnizăm cilindrii Fabco-Air la comandă, prin import, cu termen orientativ de 2-6 săptămâni, în funcție de seria aleasă și de configurația exactă — diametru, cursă, tip de montaj. Pentru ofertă, trimiteți seria — Pancake II, F-Series, NFPA etc. —, diametrul și cursa dorită. Nu ținem această gamă pe raft; fiecare cilindru se configurează la comandă.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru Fabco-Air: relația de susținere tehnologică cu Festo (Germania) apare pe site-ul oficial, dar fără date proprii despre acoperirea europeană a rețelei de vânzare a acestuia. Furnizăm cilindrii Fabco-Air la comandă, prin import, cu termen orientativ de 2-4 săptămâni, în funcție de seria aleasă și de configurația exactă — diametru, cursă, tip de montaj. Pentru ofertă, trimiteți seria — Pancake II, F-Series, NFPA etc. —, diametrul și cursa dorită. Nu ținem această gamă pe raft; fiecare cilindru se configurează la comandă.`,
     limitation: "Nu putem confirma dacă rețeaua Festo din Europa gestionează și livrarea comenzilor Fabco-Air către România.",
     productCodes: [
       { code: "Pancake II 3/4 in", description: "cilindru profil plat, bore 3/4 țol" },
@@ -364,7 +364,7 @@ Pentru instalațiile din România, gama Fabco-Air are sens acolo unde spațiul d
     faq: [
       { q: "Ce produce Fabco-Air?", a: "Fabco-Air fabrică cilindri și actuatoare pneumatice — seria Pancake II cu profil plat, seria F cu cursă lungă și gama NFPA/FCQN interschimbabilă — pentru automatizare, ambalare și manipulare de materiale, activă din 1958 la Gainesville, Florida." },
       { q: "Cum aleg un cilindru Fabco-Air după serie?", a: "Alegerea depinde de spațiul de montaj disponibil și de cursa necesară — Pancake II pentru profil scurt și plat, F-Series pentru curse lungi într-un gabarit subțire, NFPA/FCQN pentru compatibilitate cu dimensiuni standard de la alți producători." },
-      { q: "Se poate procura Fabco-Air în România/Europa?", a: "Site-ul oficial nu menționează o rețea de distribuție proprie în Europa, dar producătorul are o relație de susținere tehnologică cu Festo (Germania); aducem cilindrii la comandă, prin import, cu termen orientativ de 2-6 săptămâni." },
+      { q: "Se poate procura Fabco-Air în România/Europa?", a: "Site-ul oficial nu menționează o rețea de distribuție proprie în Europa, dar producătorul are o relație de susținere tehnologică cu Festo (Germania); aducem cilindrii la comandă, prin import, cu termen orientativ de 2-4 săptămâni." },
       { q: "Ce trebuie să trimit pentru o ofertă Fabco-Air?", a: "Seria dorită — Pancake II, F-Series, NFPA etc. —, diametrul (bore), cursa și tipul de montaj, pentru a confirma configurația exactă și termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -404,7 +404,7 @@ Pentru piața din România, gama Whitmore are sens la echipamente de mentenanț�
       "Minerit — lubrifianți pentru glisierele draglinelor și cabluri de oțel",
       "Cale ferată — lubrifianți pentru curbe, macazuri și buza roții",
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru Whitmore: biroul din Dunstable, Marea Britanie, apare pe site-ul oficial, dar nu avem date proprii despre stocul disponibil acolo pentru fiecare produs. Furnizăm lubrifianții Whitmore la comandă, cu termen orientativ de 2-6 săptămâni, în funcție de produsul ales și de confirmarea disponibilității la producător sau la biroul din Marea Britanie. Pentru ofertă, trimiteți denumirea exactă a produsului sau aplicația — lanț, angrenaj deschis, cale ferată — și temperatura de lucru a echipamentului. Nu ținem această gamă pe raft; fiecare comandă depinde de disponibilitatea produsului la producător.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru Whitmore: biroul din Dunstable, Marea Britanie, apare pe site-ul oficial, dar nu avem date proprii despre stocul disponibil acolo pentru fiecare produs. Furnizăm lubrifianții Whitmore la comandă, cu termen orientativ de 2-4 săptămâni, în funcție de produsul ales și de confirmarea disponibilității la producător sau la biroul din Marea Britanie. Pentru ofertă, trimiteți denumirea exactă a produsului sau aplicația — lanț, angrenaj deschis, cale ferată — și temperatura de lucru a echipamentului. Nu ținem această gamă pe raft; fiecare comandă depinde de disponibilitatea produsului la producător.`,
     limitation: "Nu putem confirma dacă biroul din Marea Britanie deservește direct comenzile din România sau doar piața britanică.",
     productCodes: [
       { code: "Decathlon CCL", description: "lubrifiant sintetic pentru lanțuri, linii de vopsire electroforetică" },
@@ -425,7 +425,7 @@ Pentru piața din România, gama Whitmore are sens la echipamente de mentenanț�
     faq: [
       { q: "Ce produce Whitmore?", a: "Whitmore fabrică lubrifianți industriali pentru lanțuri, angrenaje deschise, cabluri de oțel și aplicații feroviare, folosiți în industrii grele precum oțelul, cimentul sau mineritul, cu activitate din 1893 la Rockwall, Texas." },
       { q: "Cum aleg un lubrifiant Whitmore potrivit?", a: "Alegerea depinde de aplicație — lanț, angrenaj deschis, cablu, cale ferată — și de temperatura de lucru a echipamentului; de exemplu Decathlon HTC pentru lanțuri la temperatură înaltă sau BioRail EP pentru curbe de cale ferată. Trimiteți parametrii echipamentului pentru confirmare." },
-      { q: "Se poate procura Whitmore în România/Europa?", a: "Da — producătorul are un birou propriu în Dunstable, Marea Britanie, potrivit site-ului oficial; aducem lubrifianții la comandă, cu termen orientativ de 2-6 săptămâni, în funcție de produs și cantitate." },
+      { q: "Se poate procura Whitmore în România/Europa?", a: "Da — producătorul are un birou propriu în Dunstable, Marea Britanie, potrivit site-ului oficial; aducem lubrifianții la comandă, cu termen orientativ de 2-4 săptămâni, în funcție de produs și cantitate." },
       { q: "Ce trebuie să trimit pentru o ofertă Whitmore?", a: "Denumirea exactă a produsului sau aplicația echipamentului — lanț, angrenaj deschis, cablu de oțel, cale ferată — și temperatura de lucru, pentru a confirma varianta potrivită din gamă." },
     ],
     evidenceClass: "market-signal-intl",
