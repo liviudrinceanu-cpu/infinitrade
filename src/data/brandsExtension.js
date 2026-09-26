@@ -2,7 +2,7 @@
  * src/data/brandsExtension.js — GENERATED FILE. Do not hand-edit.
  *
  * Regenerate with:  node scripts/build-brands-extension.mjs
- * Source: .planning/brands-500/brands-new-confirmed.json (803 brands, wave 2026-09)
+ * Source: .planning/brands-500/brands-new-confirmed.json (804 brands, wave 2026-09)
  *
  * Program "Branduri-500" (owner decision D-2026-09-21, see
  * .planning/brands-500/SUPERPROMPT.md): brands added on top of the original
@@ -1153,6 +1153,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:THK"
+    },
+    {
+      "name": "HIWIN",
+      "slug": "hiwin",
+      "country": "Taiwan",
+      "description": "Ghidaje liniare, șuruburi cu bile și module liniare pentru mașini-unelte și automatizări",
+      "featured": false,
+      "officialUrl": "https://www.hiwin.de/en/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
     },
     {
       "name": "Huhnseal",
