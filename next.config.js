@@ -69,10 +69,7 @@ const nextConfig = {
             key: 'X-Content-Type-Options',
             value: 'nosniff'
           },
-          {
-            key: 'X-XSS-Protection',
-            value: '1; mode=block'
-          },
+          // v20: X-XSS-Protection removed — obsolete, can introduce issues in old browsers; CSP covers XSS.
           {
             key: 'Referrer-Policy',
             value: 'strict-origin-when-cross-origin'

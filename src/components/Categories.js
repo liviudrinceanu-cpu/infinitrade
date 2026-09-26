@@ -120,8 +120,8 @@ export default function Categories() {
                           category: category.name,
                           url: `/${category.slug}`
                         })}
-                        title={isInCart(category.name) ? 'În cerere' : 'Adaugă la cerere'}
                         aria-label={isInCart(category.name) ? `${category.name} este în cerere` : `Adaugă ${category.name} la cerere`}
+                        title={isInCart(category.name) ? 'În cerere' : 'Adaugă la cerere'}
                       >
                         {isInCart(category.name) ? <Check size={18} /> : <Plus size={18} />}
                       </button>

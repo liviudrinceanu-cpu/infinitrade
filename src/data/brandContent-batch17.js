@@ -1386,7 +1386,7 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
     productCodes: [
       {
         "code": "MS",
-        "description": "Suflantă cu canal lateral, un rotor, un etaj, debit 55-1022 metri cubi pe ora"
+        "description": "Suflantă cu canal lateral, un rotor, un etaj, debit 55-1022 metri cubi pe oră"
       },
       {
         "code": "MD",
@@ -1430,13 +1430,13 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
       },
       {
         "code": "e11",
-        "description": "Suflantă FPZ de capacitate mare, peste 2000 metri cubi pe ora"
+        "description": "Suflantă FPZ de capacitate mare, peste 2000 metri cubi pe oră"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între seriile MS și TS de la FPZ?",
-        "a": "Seria MS are un singur rotor și un singur etaj de compresie, cu debite între 55 și 1022 metri cubi pe ora, în timp ce seria TS folosește două rotoare pe un singur etaj, ceea ce ridică semnificativ debitul, până la aproape 2000 metri cubi pe ora. Alegerea depinde de necesarul de aer al aplicației și de spațiul disponibil pentru montaj."
+        "a": "Seria MS are un singur rotor și un singur etaj de compresie, cu debite între 55 și 1022 metri cubi pe oră, în timp ce seria TS folosește două rotoare pe un singur etaj, ceea ce ridică semnificativ debitul, până la aproape 2000 metri cubi pe oră. Alegerea depinde de necesarul de aer al aplicației și de spațiul disponibil pentru montaj."
       },
       {
         "q": "Livrați suflante FPZ la comandă pentru clienți din România?",
@@ -1444,11 +1444,11 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
       },
       {
         "q": "Ce informații sunt necesare pentru o cerere de ofertă la o suflantă FPZ?",
-        "a": "Aveți nevoie de debitul de aer necesar în metri cubi pe ora, presiunea sau depresiunea de lucru dorită și tensiunea de alimentare disponibilă la locul de instalare. Pentru un utilaj deja montat, numărul de serie inscripționat pe carcasă ne ajută să găsim echivalentul potrivit, fie el MS, MD, TS sau TD."
+        "a": "Aveți nevoie de debitul de aer necesar în metri cubi pe oră, presiunea sau depresiunea de lucru dorită și tensiunea de alimentare disponibilă la locul de instalare. Pentru un utilaj deja montat, numărul de serie inscripționat pe carcasă ne ajută să găsim echivalentul potrivit, fie el MS, MD, TS sau TD."
       },
       {
         "q": "Ce este seria e11 de la FPZ?",
-        "a": "Seria e11 face parte din gama de suflante FPZ de capacitate mare, cu debite ce depășesc 2000 metri cubi pe ora, gândite pentru aplicații industriale cu necesar ridicat de aer. Se folosește de obicei în procese continue unde stabilitatea debitului este esențială. Confirmăm parametrii exacți pe baza fișei tehnice oficiale FPZ înainte de comandă."
+        "a": "Seria e11 face parte din gama de suflante FPZ de capacitate mare, cu debite ce depășesc 2000 metri cubi pe oră, gândite pentru aplicații industriale cu necesar ridicat de aer. Se folosește de obicei în procese continue unde stabilitatea debitului este esențială. Confirmăm parametrii exacți pe baza fișei tehnice oficiale FPZ înainte de comandă."
       }
     ],
     evidenceClass: "transactional",

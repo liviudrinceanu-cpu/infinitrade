@@ -3,11 +3,11 @@ export const brandContentBatch8 = {
     founded: 1883,
     headquarters: 'Herzogenaurach, Germania',
     employees: '83,000+',
-    overview: `De peste 140 de ani, FAG Schaeffler dezvoltă rulmenți industriali de precizie folosiți în aplicații critice din întreaga lume. Ce-am învățat noi lucrând cu aceste produse? Că diferența dintre un rulment obișnuit și unul FAG se simte imediat – în vibrațiile reduse, în temperatura mai scăzută de funcționare, în durata de viață dublată sau chiar triplată. Producem rulmenți radiali cu bile și cu role, rulmenți oscilanti (autoaliniatori), rulmenți axiali și soluții combinare pentru toate industriile grele.
+    overview: `De peste 140 de ani, FAG Schaeffler dezvoltă rulmenți industriali de precizie folosiți în aplicații critice din întreaga lume. Din experiența noastră cu aceste produse, diferența dintre un rulment obișnuit și unul FAG se simte imediat – în vibrațiile reduse, în temperatura mai scăzută de funcționare, în durata de viață dublată sau chiar triplată. Gama FAG Schaeffler include rulmenți radiali cu bile și cu role, rulmenți oscilanți (autoaliniatori), rulmenți axiali și soluții combinate pentru toate industriile grele.
 
-Portofoliul nostru acoperă de la rulmenți miniatură de câțiva milimetri (pentru medicală și robotică) până la lagăre uriașe de câteva tone (pentru turbine eoliene și laminoare). Tehnologia INA FAG combină experiența germană în metalurgie cu inovația în lubrifianți de lungă durată și sisteme de etanșare avansate. Fiecare rulment trece prin teste de durabilitate echivalente cu ani de funcționare reală, iar codificarea precisă FAG permite identificarea rapidă a înlocuitorilor.
+Portofoliul FAG Schaeffler acoperă de la rulmenți miniatură de câțiva milimetri (pentru medicală și robotică) până la lagăre uriașe de câteva tone (pentru turbine eoliene și laminoare). Tehnologia INA FAG combină experiența germană în metalurgie cu inovația în lubrifianți de lungă durată și sisteme de etanșare avansate. Fiecare rulment trece prin teste de durabilitate echivalente cu ani de funcționare reală, iar codificarea precisă FAG permite identificarea rapidă a înlocuitorilor.
 
-Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant la optimizarea geometriilor interne, la reducerea frecării prin micro-texturare și la sisteme de monitorizare integrată (senzori de vibrație și temperatură). Pentru industria auto dezvoltăm rulmenți pentru motoare electrice, pentru sectorul energetic creăm soluții pentru extreme (temperaturi de -40°C până la +200°C, viteze peste 30,000 rpm), iar pentru robotică oferim precizie de poziționare sub 5 microni.`,
+FAG Schaeffler investește constant în cercetare, cu optimizarea geometriilor interne, reducerea frecării prin micro-texturare și sisteme de monitorizare integrată (senzori de vibrație și temperatură). Pentru industria auto dezvoltă rulmenți pentru motoare electrice, pentru sectorul energetic oferă soluții pentru condiții extreme (temperaturi de -40°C până la +200°C, viteze peste 30,000 rpm), iar pentru robotică oferă precizie de poziționare sub 5 microni.`,
     whyChoose: [
       'Precizie de fabricație P5/ABEC-5 și P4/ABEC-7 standard – deviații sub 2 microni pentru aplicații critice',
       'Durată de viață L10 cu 30-50% mai mare decât standardele ISO – economii masive la mentenanță',
@@ -22,7 +22,7 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
         description: 'Sunt rulmenții universali pe care îi găsești în 80% din aplicațiile industriale – de la motoare electrice până la pompe și ventilatoare. Seria 6000 pentru dimenisuni mici (sub 30mm ax), seria 6200 pentru aplicații generale (30-100mm), seria 6300 pentru sarcini mai mari. Oferim variante cu protecții 2RS (etanșare cauciuc dublu pentru praf și umiditate), variante deschise pentru viteze mari, și versiuni 2Z (ecrane metalice pentru temperaturi peste 120°C). Viteze maxime până la 18,000 rpm pentru 6000, 12,000 rpm pentru 6200. Fiecare rulment vine pre-unset cu ARCANOL – rezistă 3-5 ani fără intervenție.'
       },
       {
-        name: 'Rulmenți oscilanti cu două rânduri de role FAG seria 222/223',
+        name: 'Rulmenți oscilanți cu două rânduri de role FAG seria 222/223',
         description: 'Când ai nevoie de capacitate mare de sarcină și ai și problema nealinierii arborilor, acești rulmenți sunt soluția. Cele două rânduri de role baril combinat cu calea exterioară sferică permit dezalinieri de până la 2-3 grade fără pierderi de performanță. Îi folosim în reducatoare grele, în lanțuri de acționare pentru benzi transportoare, în arbori lungi care lucrează la temperaturi variabile (unde dilatarea creează nealinieri). Capacitate de sarcină radială cu 40% mai mare decât rulmenții cu bile echivalenți, dar și posibilitate de a prelua sarcini axiale moderate. Temperatura de funcționare -40°C până la +200°C cu unsoarea corectă.'
       },
       {
@@ -70,11 +70,11 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
       },
       {
         "code": "6000-C",
-        "description": "Rulment rigid cu bile seria 60, generatie C, zgomot redus"
+        "description": "Rulment rigid cu bile seria 60, generație C, zgomot redus"
       },
       {
         "code": "6001-C",
-        "description": "Rulment rigid cu bile seria 60, frecare redusa"
+        "description": "Rulment rigid cu bile seria 60, frecare redusă"
       },
       {
         "code": "6002-C",
@@ -86,11 +86,11 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
       },
       {
         "code": "6200-C",
-        "description": "Rulment rigid cu bile seria 62, generatie C"
+        "description": "Rulment rigid cu bile seria 62, generație C"
       },
       {
         "code": "6201-C",
-        "description": "Rulment rigid cu bile seria 62, masini electrice"
+        "description": "Rulment rigid cu bile seria 62, mașini electrice"
       },
       {
         "code": "6202-C",
@@ -102,11 +102,11 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
       },
       {
         "code": "6205-C",
-        "description": "Rulment rigid cu bile seria 62, dimensiune frecvent folosita"
+        "description": "Rulment rigid cu bile seria 62, dimensiune frecvent folosită"
       },
       {
         "code": "6206-C",
-        "description": "Rulment rigid cu bile seria 62, aplicatii cu ventilatoare"
+        "description": "Rulment rigid cu bile seria 62, aplicații cu ventilatoare"
       },
       {
         "code": "6207-C",
@@ -126,7 +126,7 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
       },
       {
         "code": "6301-C",
-        "description": "Rulment rigid cu bile seria 63, constructie mai robusta"
+        "description": "Rulment rigid cu bile seria 63, construcție mai robustă"
       },
       {
         "code": "6305-C",
@@ -134,7 +134,7 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
       },
       {
         "code": "6306-C",
-        "description": "Rulment rigid cu bile seria 63, aplicatii industriale medii"
+        "description": "Rulment rigid cu bile seria 63, aplicații industriale medii"
       },
       {
         "code": "6307-C",
@@ -151,16 +151,16 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
         "a": "Codul indică tipul și dimensiunea: cifra 6 arată că este un rulment rigid cu bile, a doua cifră reprezintă seria de dimensiuni (0 pentru seria 60, 2 pentru seria 62, 3 pentru seria 63), iar cifrele următoare codifică alezajul. Sufixul C arată că rulmentul aparține generației C, optimizată pentru zgomot și frecare reduse, conform documentației Schaeffler."
       },
       {
-        "q": "Ce diferență este între seria 62 și seria 63 la rulmentii FAG?",
-        "a": "Seria 62 este o construcție ușoară până la medie, potrivită pentru motoare electrice și ventilatoare, în timp ce seria 63 are o secțiune mai groasă și suportă sarcini radiale mai mari, fiind recomandată pentru echipamente industriale mai solicitate. Ambele apar în documentația FAG Generation C pentru rulmenti rigizi cu bile într-un rând."
+        "q": "Ce diferență este între seria 62 și seria 63 la rulmenții FAG?",
+        "a": "Seria 62 este o construcție ușoară până la medie, potrivită pentru motoare electrice și ventilatoare, în timp ce seria 63 are o secțiune mai groasă și suportă sarcini radiale mai mari, fiind recomandată pentru echipamente industriale mai solicitate. Ambele apar în documentația FAG Generation C pentru rulmenți rigizi cu bile într-un rând."
       },
       {
-        "q": "Ce trebuie să trimit pentru o ofertă de rulmenti FAG?",
+        "q": "Ce trebuie să trimit pentru o ofertă de rulmenți FAG?",
         "a": "Pentru o ofertă corectă este util codul complet marcat pe rulment (de exemplu 6206-C), cantitatea necesară, precizia cerută dacă este cazul, și eventualele variante de etanșare (2Z, 2HRS, 2ELS sau 2BRS) menționate în documentația Schaeffler. Cu aceste informații putem identifica rapid echivalentul corect și putem estima termenul de aprovizionare."
       },
       {
-        "q": "Livrați rulmenti FAG în România?",
-        "a": "Da, aducem rulmentii FAG la comandă, pornind de la codurile publicate în documentația oficială Schaeffler, fără a deține stoc propriu constant pentru fiecare dimensiune. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de seria aleasă, de varianta de etanșare și de disponibilitatea la producător a codului exact solicitat."
+        "q": "Livrați rulmenți FAG în România?",
+        "a": "Da, aducem rulmenții FAG la comandă, pornind de la codurile publicate în documentația oficială Schaeffler, fără a deține stoc propriu constant pentru fiecare dimensiune. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de seria aleasă, de varianta de etanșare și de disponibilitatea la producător a codului exact solicitat."
       }
     ],
     evidenceClass: 'transactional',
@@ -172,11 +172,11 @@ Am investit masiv în cercetare – peste 2,500 de ingineri lucrează constant l
     founded: 1991,
     headquarters: 'Telgate (Bergamo), Italia',
     employees: '350+',
-    overview: `De peste trei decenii, Filtrec dezvoltă și produce filtre hidraulice și elemente filtrante pentru toate industriile care lucrează cu ulei sub presiune. Experiența noastră? Că filtrarea corectă face diferența dintre un sistem hidraulic care funcționează 20,000 de ore și unul care crapă la 5,000. Producem filtre de presiune (inline), filtre de retur (tank-mounted), filtre de aspirație, filtre de aerisire și breather-e, plus întreaga gamă de elemente filtrante înlocuibile.
+    overview: `De peste trei decenii, Filtrec dezvoltă și produce filtre hidraulice și elemente filtrante pentru toate industriile care lucrează cu ulei sub presiune. Din experiența noastră, filtrarea corectă face diferența dintre un sistem hidraulic care funcționează 20,000 de ore și unul care crapă la 5,000. Gama Filtrec include filtre de presiune (inline), filtre de retur (tank-mounted), filtre de aspirație, filtre de aerisire și breather-e, plus întreaga gamă de elemente filtrante înlocuibile.
 
-Tehnologia Filtrec combină media filtrare sintetică (microfibră de sticlă pentru filtrare fină sub 3 microni) cu construcție robustă din aluminiu sau oțel inoxidabil pentru presiuni până la 420 bar. Fiecare filtru vine cu indicator vizual de colmatare – știi exact când să schimbi elementul, nu lucrezi la ghici. Oferim și variante cu switch electric pentru alarmă/oprire automată când filtrul e înfundat. Gama acoperă de la filtre minuscule pentru sisteme mobile (2-5 l/min) până la baterii de filtrare pentru centrale hidraulice industriale (1,000+ l/min).
+Tehnologia Filtrec combină media filtrare sintetică (microfibră de sticlă pentru filtrare fină sub 3 microni) cu construcție robustă din aluminiu sau oțel inoxidabil pentru presiuni până la 420 bar. Fiecare filtru vine cu indicator vizual de colmatare – știi exact când să schimbi elementul, nu lucrezi la ghici. Filtrec oferă și variante cu switch electric pentru alarmă/oprire automată când filtrul e înfundat. Gama acoperă de la filtre minuscule pentru sisteme mobile (2-5 l/min) până la baterii de filtrare pentru centrale hidraulice industriale (1,000+ l/min).
 
-Am investit serios în testare – laborator propriu unde testăm beta ratio (eficiență de filtrare), rezistență la presiune ciclică (1 milion de cicluri), și compatibilitate cu toate tipurile de fluide hidraulice (minerale, HFC, HFD, biodegradabile). Pentru OEM-uri dezvoltăm soluții custom – filtre integrate în manifold-uri, sisteme compacte pentru spații restrânse, variante ATEX pentru medii explozive. Certificări complete ISO și conformitate cu toate standardele hidraulice europene.`,
+Filtrec investește constant în testare, cu laborator propriu unde testează beta ratio (eficiență de filtrare), rezistență la presiune ciclică (1 milion de cicluri), și compatibilitate cu toate tipurile de fluide hidraulice (minerale, HFC, HFD, biodegradabile). Pentru OEM-uri dezvoltă soluții custom – filtre integrate în manifold-uri, sisteme compacte pentru spații restrânse, variante ATEX pentru medii explozive. Certificări complete ISO și conformitate cu toate standardele hidraulice europene.`,
     whyChoose: [
       'Media de filtrare microfibră de sticlă – eficiență Beta 1000 la 3 microni (99.9% retenție)',
       'Presiuni de lucru până la 420 bar – filtre de presiune din oțel inoxidabil pentru hidraulică grea',
@@ -192,11 +192,11 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       },
       {
         name: 'Filtre de retur Filtrec seria RHR/DHR',
-        description: 'Montate pe rezervor, filtrează uleiul care se întoarce din circuit înainte să intre în tanc – elimină contaminarea generată de uzura componentelor. Seria RHR (Return High flow Return) pentru debite mari (până 800 l/min), seria DHR (Double Housing Return) pentru aplicații twin-filter cu schimbare la cald. Construcție din aluminiu anodizat sau fontă, presiune max 25 bar. Include bypass valve la 3.5 bar diferențial – dacă elementul se înfundă complet, uleiul trece oricum (protejeaza pompa de cavitație). Indicator vizual tricolor: verde = OK, galben = schimbă curând, roșu = schimbă urgent. Opțional switch magnetic pentru colectarea particulelor feromagnetice.'
+        description: 'Montate pe rezervor, filtrează uleiul care se întoarce din circuit înainte să intre în tanc – elimină contaminarea generată de uzura componentelor. Seria RHR (Return High flow Return) pentru debite mari (până 800 l/min), seria DHR (Double Housing Return) pentru aplicații twin-filter cu schimbare la cald. Construcție din aluminiu anodizat sau fontă, presiune max 25 bar. Include bypass valve la 3.5 bar diferențial – dacă elementul se înfundă complet, uleiul trece oricum (protejează pompa de cavitație). Indicator vizual tricolor: verde = OK, galben = schimbă curând, roșu = schimbă urgent. Opțional switch magnetic pentru colectarea particulelor feromagnetice.'
       },
       {
         name: 'Elemente filtrante Filtrec media microfibră de sticlă',
-        description: 'Inima sistemului – elementele înlocuibile care fac filtrarea efectivă. Producem în toate finețile: 3, 5, 10, 25 microni (absolut) și variante duo-fibre pentru filtrare progresivă (strat exterior 25µ + strat interior 5µ). Media microfibră de sticlă are suprafață activă cu 300% mai mare decât celuloza clasică – înseamnă capacitate de retenție mai mare și viață mai lungă. Schelet interior din plasă metalică inoxidabilă – nu se prăbușește la presiune mare. Capace terminate prin vulcanizare (nu lipite) – zero șanse de detașare. Compatibilitate 1:1 cu Parker, Hydac, Bosch Rexroth – codurile se mapează direct.'
+        description: 'Inima sistemului – elementele înlocuibile care fac filtrarea efectivă. Disponibile în toate finețile: 3, 5, 10, 25 microni (absolut) și variante duo-fibre pentru filtrare progresivă (strat exterior 25µ + strat interior 5µ). Media microfibră de sticlă are suprafață activă cu 300% mai mare decât celuloza clasică – înseamnă capacitate de retenție mai mare și viață mai lungă. Schelet interior din plasă metalică inoxidabilă – nu se prăbușește la presiune mare. Capace terminate prin vulcanizare (nu lipite) – zero șanse de detașare. Compatibilitate 1:1 cu Parker, Hydac, Bosch Rexroth – codurile se mapează direct.'
       },
       {
         name: 'Filtre de aerisire și breather-e Filtrec seria AHM',
@@ -236,11 +236,11 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
     productCodes: [
       {
         "code": "FAP A5",
-        "description": "Filtru de joasa presiune, maxim 24 bar, conexiune G 1 1/4 toli"
+        "description": "Filtru de joasă presiune, maxim 24 bar, conexiune G 1 1/4 țoli"
       },
       {
         "code": "FAP A4",
-        "description": "Filtru de joasa presiune similar seriei A5, 24 bar maxim"
+        "description": "Filtru de joasă presiune similar seriei A5, 24 bar maxim"
       },
       {
         "code": "FH700",
@@ -260,7 +260,7 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       },
       {
         "code": "FH323-324",
-        "description": "Filtru de presiune compact, 320 bar, conexiune G 1/2-1 tol"
+        "description": "Filtru de presiune compact, 320 bar, conexiune G 1/2-1 țol"
       },
       {
         "code": "FH250",
@@ -268,7 +268,7 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       },
       {
         "code": "FH100",
-        "description": "Filtru de presiune de capacitate redusa"
+        "description": "Filtru de presiune de capacitate redusă"
       },
       {
         "code": "KH420",
@@ -280,7 +280,7 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       },
       {
         "code": "FR6",
-        "description": "Filtru de retur pentru protectia fluxului"
+        "description": "Filtru de retur pentru protecția fluxului"
       },
       {
         "code": "FRT",
@@ -288,11 +288,11 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       },
       {
         "code": "FCR7F",
-        "description": "Filtru de retur tip cartus"
+        "description": "Filtru de retur tip cartuș"
       },
       {
         "code": "FVR7F",
-        "description": "Filtru de retur cu configuratie ventilata"
+        "description": "Filtru de retur cu configurație ventilată"
       },
       {
         "code": "FA2",
@@ -300,15 +300,15 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       },
       {
         "code": "FS7",
-        "description": "Filtru de aspiratie cu montare laterala pe rezervor"
+        "description": "Filtru de aspirație cu montare laterală pe rezervor"
       },
       {
         "code": "FS5",
-        "description": "Filtru de aspiratie pentru protectia liniei de aspiratie"
+        "description": "Filtru de aspirație pentru protecția liniei de aspirație"
       },
       {
         "code": "FS1",
-        "description": "Sorb de aspiratie montat direct pe linia de aspiratie"
+        "description": "Sorb de aspirație montat direct pe linia de aspirație"
       },
       {
         "code": "FHT",
@@ -316,11 +316,11 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       },
       {
         "code": "Absolute Beta",
-        "description": "Media filtranta cu eficienta beta ridicata pentru particule fine"
+        "description": "Media filtrantă cu eficiență beta ridicată pentru particule fine"
       },
       {
         "code": "Syn Media",
-        "description": "Media filtranta din fibra sintetica pentru filtrele Filtrec"
+        "description": "Media filtrantă din fibra sintetică pentru filtrele Filtrec"
       }
     ],
     faq: [
@@ -330,10 +330,10 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
       },
       {
         "q": "Care este diferența dintre un filtru de retur și unul de aspirație Filtrec?",
-        "a": "Filtrele de retur, precum FRT sau FR6, protejeaza rezervorul de particulele aduse de uleiul care revine din circuit, în timp ce filtrele de aspirație, cum sunt FS5 sau FS1, opresc impuritatile mari înainte că fluidul să între în pompă. Seria FHT combină ambele funcții într-un singur corp de filtrare Filtrec."
+        "a": "Filtrele de retur, precum FRT sau FR6, protejează rezervorul de particulele aduse de uleiul care revine din circuit, în timp ce filtrele de aspirație, cum sunt FS5 sau FS1, opresc impuritățile mari înainte că fluidul să între în pompă. Seria FHT combină ambele funcții într-un singur corp de filtrare Filtrec."
       },
       {
-        "q": "Ce inseamna Absolute Beta la filtrele Filtrec?",
+        "q": "Ce înseamnă Absolute Beta la filtrele Filtrec?",
         "a": "Absolute Beta este denumirea mediei filtrante cu eficiență beta ridicată, folosită în elementele Filtrec pentru a reține particule fine într-un mod constant, indiferent de variațiile de debit sau de presiune din sistem. Se folosește alături de medii precum Syn Media, dedicată fibrelor sintetice pentru aplicații cu cerințe de curățenie mai stricte."
       },
       {
@@ -350,11 +350,11 @@ Am investit serios în testare – laborator propriu unde testăm beta ratio (ef
     founded: 1954,
     headquarters: 'Almese (Torino), Italia',
     employees: '1,200+',
-    overview: `De 70 de ani, Finder produce relee electromagnetice, temporizatoare și contactoare modulare pentru automatizări industriale și instalații electrice. Experiența noastră cu produsele astea? Că un releu Finder trage 1 milion de comenzi fără probleme – acolo unde alte mărci crăpă la 300,000. Producem întreaga gamă – relee miniaturale (seria 34), relee industriale (seria 55/65), temporizatoare multifuncționale, relee de interfață, contactoare modulare, și sisteme de monitorizare trifazată.
+    overview: `De 70 de ani, Finder produce relee electromagnetice, temporizatoare și contactoare modulare pentru automatizări industriale și instalații electrice. Din experiența noastră cu aceste produse, un releu Finder trage 1 milion de comenzi fără probleme – acolo unde alte mărci crăpă la 300,000. Gama Finder include relee miniaturale (seria 34), relee industriale (seria 55/65), temporizatoare multifuncționale, relee de interfață, contactoare modulare, și sisteme de monitorizare trifazată.
 
-Tehnologia Finder combină contacte argintate masiv (nu placat subțire) cu mecanisme cu arc calibrate micrometric pentru durată de viață extremă. Toate releele trec prin 100% testare în fabrică – verificare rezistență bobină, forță contact, timp de comutare. Pentru aplicații critice oferim seria cu contacte AgSnO2 (argint-oxid de staniu) – rezistă la arcuri electrice puternice și la curenți mari de pornire. Gama de tensiuni de comandă acoperă tot – de la 6V DC până la 400V AC, plus variante universale AC/DC (detectare automată tip tensiune).
+Tehnologia Finder combină contacte argintate masiv (nu placat subțire) cu mecanisme cu arc calibrate micrometric pentru durată de viață extremă. Toate releele trec prin 100% testare în fabrică – verificare rezistență bobină, forță contact, timp de comutare. Pentru aplicații critice, Finder oferă seria cu contacte AgSnO2 (argint-oxid de staniu) – rezistă la arcuri electrice puternice și la curenți mari de pornire. Gama de tensiuni de comandă acoperă tot – de la 6V DC până la 400V AC, plus variante universale AC/DC (detectare automată tip tensiune).
 
-Investim constant în conformitate – toate releele Finder au certificări UL, CSA, GOST, CCC pentru export global. Dezvoltăm și soluții smart – relee WiFi/Bluetooth controlabile de la distanță, temporizatoare programabile prin NFC, sisteme de monitorizare cu afișaj grafic. Pentru instalatori electricieni oferim seria modulară DIN-rail – releele se montează în tablou ca și siguranțele automate, ocupă 1-2 module, se cablează rapid cu conectori detașabili.`,
+Finder investește constant în conformitate – toate releele au certificări UL, CSA, GOST, CCC pentru export global. Producătorul dezvoltă și soluții smart – relee WiFi/Bluetooth controlabile de la distanță, temporizatoare programabile prin NFC, sisteme de monitorizare cu afișaj grafic. Pentru instalatori electricieni, seria modulară DIN-rail se montează în tablou ca și siguranțele automate, ocupă 1-2 module, se cablează rapid cu conectori detașabili.`,
     whyChoose: [
       'Durată de viață mecanică 10 milioane operații – contacte argintate care nu se uzează',
       'Certificări universale UL/CSA/VDE/GOST – aprobat pentru export în toată lumea',
@@ -419,7 +419,7 @@ Investim constant în conformitate – toate releele Finder au certificări UL, 
       },
       {
         "code": "38 Series",
-        "description": "Module releu de interfata (EMR sau SSR), 0,1-16 A"
+        "description": "Module releu de interfață (EMR sau SSR), 0,1-16 A"
       },
       {
         "code": "39 Series",
@@ -427,7 +427,7 @@ Investim constant în conformitate – toate releele Finder au certificări UL, 
       },
       {
         "code": "39.80",
-        "description": "Modul MasterTIMER cu iesire SSR din seria 39"
+        "description": "Modul MasterTIMER cu ieșire SSR din seria 39"
       },
       {
         "code": "55 Series",
@@ -443,7 +443,7 @@ Investim constant în conformitate – toate releele Finder au certificări UL, 
       },
       {
         "code": "7S Series",
-        "description": "Module releu cu contacte ghidate fortat, 6-10 A"
+        "description": "Module releu cu contacte ghidate forțat, 6-10 A"
       },
       {
         "code": "7L Series",
@@ -451,7 +451,7 @@ Investim constant în conformitate – toate releele Finder au certificări UL, 
       },
       {
         "code": "85 Series",
-        "description": "Familie de relee compatibila cu soclurile din seria 94"
+        "description": "Familie de relee compatibilă cu soclurile din seria 94"
       },
       {
         "code": "94 Series",
@@ -464,8 +464,8 @@ Investim constant în conformitate – toate releele Finder au certificări UL, 
     ],
     faq: [
       {
-        "q": "Ce inseamna seria 55 la releele Finder?",
-        "a": "Seria 55 cuprinde relee miniaturale de uz general, cu curent nominal între 7 și 10 A, folosite frecvent în automatizări pentru jaluzele, obloane sau alte circuite de comandă. Tipul 55.34 este un exemplu concret din aceasta familie, montat de obicei pe soclurile din seria 94, conform documentației Finder."
+        "q": "Ce înseamnă seria 55 la releele Finder?",
+        "a": "Seria 55 cuprinde relee miniaturale de uz general, cu curent nominal între 7 și 10 A, folosite frecvent în automatizări pentru jaluzele, obloane sau alte circuite de comandă. Tipul 55.34 este un exemplu concret din această familie, montat de obicei pe soclurile din seria 94, conform documentației Finder."
       },
       {
         "q": "Care e diferența dintre seria 38 și seria 39 la Finder?",
@@ -489,11 +489,11 @@ Investim constant în conformitate – toate releele Finder au certificări UL, 
     founded: 1948,
     headquarters: 'Everett, Washington, SUA',
     employees: '3,000+',
-    overview: `De 75 de ani, Fluke produce instrumente de măsurare electrică robuste și precise, recunoscute la nivel global pentru fiabilitate în condiții de teren. Experiența noastră? Că un multimetru Fluke supraviețuiește căderilor, loviturilor, prafului, umezelii și abuzului din teren – acolo unde alte mărci se strică în 6 luni, Fluke funcționează 10-15 ani. Producem multimetre digitale (de la entry-level până la true-RMS industrial), clești ampermetrici, termometre IR și camere termoviziune, megaohmetre pentru izolație, osciloscoape portabile, analizoare de calitate energie, și detectoare de scurgeri electrice.
+    overview: `De 75 de ani, Fluke produce instrumente de măsurare electrică robuste și precise, recunoscute la nivel global pentru fiabilitate în condiții de teren. Din experiența noastră, un multimetru Fluke supraviețuiește căderilor, loviturilor, prafului, umezelii și abuzului din teren – acolo unde alte mărci se strică în 6 luni, Fluke funcționează 10-15 ani. Gama Fluke include multimetre digitale (de la entry-level până la true-RMS industrial), clești ampermetrici, termometre IR și camere termoviziune, megaohmetre pentru izolație, osciloscoape portabile, analizoare de calitate energie, și detectoare de scurgeri electrice.
 
-Tehnologia Fluke combină circuite analogice de precizie cu procesare digitală avansată – multimetrul 87V (unul dintre cele mai cunoscute modele ale gamei) are rezoluție 20,000 counts și acuratețe ±0.05% DC (incredibil pentru un aparat portabil). Toate instrumentele trec prin testare în condiții extreme – cădere de la 1 metru pe beton, funcționare la -20°C și +55°C, protecție IP67 (unele modele). Pentru termoviziune, Fluke folosește senzori VOx (vanadium oxide) microbolometer cu rezoluție până la 640x480 pixeli și sensibilitate termică 0.04°C – vezi diferențe minuscule de temperatură.
+Tehnologia Fluke combină circuite analogice de precizie cu procesare digitală avansată – multimetrul 87V (unul dintre cele mai cunoscute modele ale gamei) are rezoluție 20,000 counts și acuratețe ±0.05% DC (incredibil pentru un aparat portabil). Toate instrumentele trec prin testare în condiții extreme – cădere de la 1 metru pe beton, funcționare la -20°C și +55°C, protecție IP67 (unele modele). Pentru termoviziune, Fluke folosește senzori VOx (vanadium oxide) microbolometer cu rezoluție până la 640x480 pixeli și sensibilitate termică 0.04°C – diferențe minuscule de temperatură devin vizibile.
 
-Am investit masiv în siguranță – toate multimetrele au protecție CAT III/CAT IV (rezistă la spike-uri de 1000V în rețele industriale), fuzibile ceramice HRC pentru protecție la scurtcircuit, și design cu bariere interne care împiedică arcul electric să ajungă la operator. Pentru mentenanță predictivă dezvoltăm soluții wireless – termometre IR cu Bluetooth care trimit date în cloud, camere termoviziune cu raportare automată, și sisteme de monitorizare continuă pentru echipamente critice.`,
+Fluke investește masiv în siguranță – toate multimetrele au protecție CAT III/CAT IV (rezistă la spike-uri de 1000V în rețele industriale), fuzibile ceramice HRC pentru protecție la scurtcircuit, și design cu bariere interne care împiedică arcul electric să ajungă la operator. Pentru mentenanță predictivă, dezvoltă soluții wireless – termometre IR cu Bluetooth care trimit date în cloud, camere termoviziune cu raportare automată, și sisteme de monitorizare continuă pentru echipamente critice.`,
     whyChoose: [
       'Acuratețe de referință ±0.05% DC – standardul de aur pentru măsurători de precizie',
       'Protecție CAT IV 600V – rezistă la transienți periculoși în instalații industriale',
@@ -553,7 +553,7 @@ Am investit masiv în siguranță – toate multimetrele au protecție CAT III/C
     productCodes: [
       {
         "code": "87V",
-        "description": "Multimetru industrial True-RMS de referinta"
+        "description": "Multimetru industrial True-RMS de referință"
       },
       {
         "code": "117",
@@ -561,71 +561,71 @@ Am investit masiv în siguranță – toate multimetrele au protecție CAT III/C
       },
       {
         "code": "179",
-        "description": "Multimetru True-RMS pentru masuratori electrice generale"
+        "description": "Multimetru True-RMS pentru măsurători electrice generale"
       },
       {
         "code": "302+",
-        "description": "Cleste ampermetric compact, CAT III, până la 400 A"
+        "description": "Clește ampermetric compact, CAT III, până la 400 A"
       },
       {
         "code": "301D",
-        "description": "Cleste ampermetric cu falca subtire pentru spatii inguste"
+        "description": "Clește ampermetric cu falcă subțire pentru spații înguste"
       },
       {
         "code": "393 FC",
-        "description": "Cleste ampermetric solar, CAT III 1500 V, pentru instalații fotovoltaice"
+        "description": "Clește ampermetric solar, CAT III 1500 V, pentru instalații fotovoltaice"
       },
       {
         "code": "377 FC",
-        "description": "Cleste ampermetric cu măsurare tensiune și curent, compatibil iFlex"
+        "description": "Clește ampermetric cu măsurare tensiune și curent, compatibil iFlex"
       },
       {
         "code": "378 FC",
-        "description": "Cleste ampermetric fără contact pentru tensiune, cu sonda iFlex"
+        "description": "Clește ampermetric fără contact pentru tensiune, cu sonda iFlex"
       },
       {
         "code": "376 FC",
-        "description": "Cleste ampermetric industrial cu sonda iFlex pentru curenti mari"
+        "description": "Clește ampermetric industrial cu sondă iFlex pentru curenți mari"
       },
       {
         "code": "325",
-        "description": "Cleste ampermetric pentru curent AC/DC până la 400 A"
+        "description": "Clește ampermetric pentru curent AC/DC până la 400 A"
       },
       {
         "code": "381",
-        "description": "Cleste ampermetric cu afișaj la distanța și sonda iFlex"
+        "description": "Clește ampermetric cu afișaj la distanța și sonda iFlex"
       },
       {
         "code": "902 FC",
-        "description": "Cleste ampermetric True-RMS dedicat aplicatiilor HVAC"
+        "description": "Clește ampermetric True-RMS dedicat aplicațiilor HVAC"
       },
       {
         "code": "368 FC",
-        "description": "Cleste ampermetric pentru detectarea curentilor de scurgere"
+        "description": "Clește ampermetric pentru detectarea curenților de scurgere"
       },
       {
         "code": "369 FC",
-        "description": "Cleste ampermetric pentru curenti de scurgere cu trend wireless"
+        "description": "Clește ampermetric pentru curenți de scurgere cu trend wireless"
       },
       {
         "code": "355",
-        "description": "Cleste ampermetric de mare capacitate, până la 2000 A"
+        "description": "Clește ampermetric de mare capacitate, până la 2000 A"
       },
       {
         "code": "375 FC",
-        "description": "Cleste ampermetric wireless pentru curenti foarte mici"
+        "description": "Clește ampermetric wireless pentru curenți foarte mici"
       },
       {
         "code": "374 FC",
-        "description": "Cleste ampermetric avansat compatibil Fluke Connect"
+        "description": "Clește ampermetric avansat compatibil Fluke Connect"
       },
       {
         "code": "323",
-        "description": "Cleste ampermetric True-RMS pentru curent AC/DC"
+        "description": "Clește ampermetric True-RMS pentru curent AC/DC"
       },
       {
         "code": "773",
-        "description": "Miliampermetru de proces cu sursa de semnal 4-20 mA"
+        "description": "Miliampermetru de proces cu sursă de semnal 4-20 mA"
       },
       {
         "code": "772",
@@ -642,12 +642,12 @@ Am investit masiv în siguranță – toate multimetrele au protecție CAT III/C
         "a": "Fluke 87V este multimetrul industrial de referință, cu funcții extinse de măsurare și rezoluție ridicată, potrivit pentru diagnoza complexă. Fluke 117 este un model mai compact, gândit pentru electricieni, cu funcție de detecție fără contact a tensiunii și dimensiuni reduse pentru lucrul în tablouri electrice aglomerate, conform paginilor oficiale ale producătorului."
       },
       {
-        "q": "Ce cleste ampermetric Fluke recomandati pentru curenti foarte mari?",
+        "q": "Ce clește ampermetric Fluke recomandați pentru curenți foarte mari?",
         "a": "Pentru curenți de până la 2000 A, seria Fluke 355 este opțiunea dedicată măsurătorilor de mare capacitate AC/DC. Pentru aplicații industriale obișnuite, modele precum 376 FC sau 377 FC, compatibile cu sonda iFlex, acoperă intervale mai uzuale de curent, conform specificațiilor publicate de producător pe paginile de produs."
       },
       {
         "q": "Ce sunt modulele wireless Fluke seria a3000 FC?",
-        "a": "Modulele a3000 FC, a3001 FC, a3002 FC, a3003 FC și a3004 FC sunt clesti de curent wireless compatibili cu sistemul Fluke Connect, permitand transmiterea datelor către un afișaj la distanța fără cabluri între senzor și aparat. Se folosesc alături de multimetre sau clesti compatibili pentru măsurători sigure la distanța."
+        "a": "Modulele a3000 FC, a3001 FC, a3002 FC, a3003 FC și a3004 FC sunt clești de curent wireless compatibili cu sistemul Fluke Connect, permițând transmiterea datelor către un afișaj la distanța fără cabluri între senzor și aparat. Se folosesc alături de multimetre sau clești compatibili pentru măsurători sigure la distanța."
       },
       {
         "q": "Livrați aparate Fluke în România?",
@@ -663,14 +663,14 @@ Am investit masiv în siguranță – toate multimetrele au protecție CAT III/C
     founded: 1919,
     headquarters: 'Hannover, Germania',
     employees: '5,500+ (Forbo Group)',
-    overview: `De peste 100 de ani, Forbo Siegling produce benzi transportoare și curele de transmisie pentru toate industriile imaginabile. Experiența noastră cu produsele lor? Că o bandă Siegling correctă instalată și întreținută funcționează 8-10 ani fără înlocuire – economie uriașă față de produse ieftine care crapă la 18-24 luni. Producem benzi transportoare cu țesătură (polyester, aramid), benzi modulare din plastic, benzi cu acoperire specială (alimentară, antistatică, rezistentă la ulei), curele de proces pentru industrii specifice, și curele de transmisie cu profile (timing belts).
+    overview: `De peste 100 de ani, Forbo Siegling produce benzi transportoare și curele de transmisie pentru toate industriile imaginabile. Din experiența noastră cu aceste produse, o bandă Siegling corect instalată și întreținută funcționează 8-10 ani fără înlocuire – economie uriașă față de produse ieftine care crapă la 18-24 luni. Gama Forbo Siegling include benzi transportoare cu țesătură (polyester, aramid), benzi modulare din plastic, benzi cu acoperire specială (alimentară, antistatică, rezistentă la ulei), curele de proces pentru industrii specifice, și curele de transmisie cu profile (timing belts).
 
-Tehnologia Forbo Siegling combină țesături high-tech (polyester monofilament pentru stabilitate dimensională zero) cu compounduri de cauciuc sau TPU formulate special pentru fiecare aplicație. De exemplu, seria Transilon pentru industria alimentară are suprafață netedă FDA-aprobată care se spală ușor și nu absoarbe bacterii. Seria Extremultus pentru condiții extreme (temperaturi -50°C până +200°C, expunere chimicale agresive, abraziune severă). Toate benzile se pot comanda pre-fabricate la dimensiune sau pe role – le sudezi pe loc cu echipament termic special.
+Tehnologia Forbo Siegling combină țesături high-tech (polyester monofilament pentru stabilitate dimensională zero) cu compounduri de cauciuc sau TPU formulate special pentru fiecare aplicație. De exemplu, seria Transilon pentru industria alimentară are suprafață netedă FDA-aprobată care se spală ușor și nu absoarbe bacterii. Seria Extremultus e destinată condițiilor extreme (temperaturi -50°C până +200°C, expunere chimicale agresive, abraziune severă). Toate benzile se pot comanda pre-fabricate la dimensiune sau pe role – se sudează pe loc cu echipament termic special.
 
-Am investit enorm în cercetare – dezvoltăm benzi cu rezistență la tăiere (inserții Kevlar), benzi cu tracking precis (ghidaje integrate), benzi antistatice disipative pentru industria electronică (rezistență de suprafață controlată), și benzi cu profil special pentru urcări mari (chevron, cleat). Pentru industria auto producem curele de transmisie din Kevlar pentru CVT (continuously variable transmission). Certificări alimentare complete (FDA, EU 1935/2004) și certificări antiflacără (DIN 22102, ISO 340).`,
+Forbo Siegling investește constant în cercetare – dezvoltă benzi cu rezistență la tăiere (inserții Kevlar), benzi cu tracking precis (ghidaje integrate), benzi antistatice disipative pentru industria electronică (rezistență de suprafață controlată), și benzi cu profil special pentru urcări mari (chevron, cleat). Pentru industria auto, oferă curele de transmisie din Kevlar pentru CVT (continuously variable transmission). Certificări alimentare complete (FDA, EU 1935/2004) și certificări antiflacără (DIN 22102, ISO 340).`,
     whyChoose: [
       'Durată de viață 8-10 ani la aplicație corectă – țesătură polyester rezistentă la întindere și la oboseală',
-      'Stabilitate dimensională ±0.1% – benzile nu se întind în timp (critica pentru sincronizare linie)',
+      'Stabilitate dimensională ±0.1% – benzile nu se întind în timp (critică pentru sincronizare linie)',
       'Certificări alimentare complete FDA și EU – sigure pentru contact direct cu alimente',
       'Sudare termică simplă – nu ai nevoie de vulcanizare la cald sau cleme mecanice (reduc rezistența)',
       'Gama completă lățimi și lungimi – de la benzi înguste 10mm până la benzi late 3000mm',
@@ -727,19 +727,19 @@ Am investit enorm în cercetare – dezvoltăm benzi cu rezistență la tăiere 
     productCodes: [
       {
         "code": "Transilon E",
-        "description": "Cod pentru banda cu insertie textila din poliester"
+        "description": "Cod pentru bandă cu inserție textilă din poliester"
       },
       {
         "code": "Transilon EL",
-        "description": "Cod pentru banda cu insertie de poliester elastic"
+        "description": "Cod pentru bandă cu inserție de poliester elastic"
       },
       {
         "code": "Transilon NOVO",
-        "description": "Cod pentru banda cu insertie din pasla de poliester"
+        "description": "Cod pentru bandă cu inserție din pâslă de poliester"
       },
       {
         "code": "Transilon RE",
-        "description": "Cod pentru banda cu insertie din poliester reciclat"
+        "description": "Cod pentru bandă cu inserție din poliester reciclat"
       },
       {
         "code": "Transilon U",
@@ -751,35 +751,35 @@ Am investit enorm în cercetare – dezvoltăm benzi cu rezistență la tăiere 
       },
       {
         "code": "Transilon LG",
-        "description": "Cod pentru suprafata cu caneluri longitudinale"
+        "description": "Cod pentru suprafață cu caneluri longitudinale"
       },
       {
         "code": "Transilon MT",
-        "description": "Cod pentru suprafata mata a benzii"
+        "description": "Cod pentru suprafața mată a benzii"
       },
       {
         "code": "Transilon STR",
-        "description": "Cod pentru textura normala a suprafetei"
+        "description": "Cod pentru textura normală a suprafeței"
       },
       {
         "code": "Transilon AR",
-        "description": "Cod pentru suprafata rugoasa, tip rough-top"
+        "description": "Cod pentru suprafață rugoasă, tip rough-top"
       },
       {
         "code": "Transilon GSTR",
-        "description": "Cod pentru textura grosiera a suprafetei"
+        "description": "Cod pentru textura grosieră a suprafeței"
       },
       {
         "code": "Transilon AMP",
-        "description": "Cod pentru banda AmpMiser, cu economie de energie"
+        "description": "Cod pentru bandă AmpMiser, cu economie de energie"
       },
       {
         "code": "Transilon S",
-        "description": "Cod pentru banda cu nivel de zgomot foarte redus"
+        "description": "Cod pentru bandă cu nivel de zgomot foarte redus"
       },
       {
         "code": "Transilon FR",
-        "description": "Cod pentru banda cu proprietati ignifuge"
+        "description": "Cod pentru bandă cu proprietăți ignifuge"
       },
       {
         "code": "Transilon HC",
@@ -789,7 +789,7 @@ Am investit enorm în cercetare – dezvoltăm benzi cu rezistență la tăiere 
     faq: [
       {
         "q": "Cum citesc codul unei benzi Forbo Siegling Transilon?",
-        "a": "Codul Transilon combină litere pentru tipul de inserție textila (E pentru poliester, EL pentru poliester elastic, RE pentru poliester reciclat), literă pentru acoperire (U pentru poliuretan, V pentru PVC) și un sufix pentru textura suprafeței, precum STR, LG sau AR. Sufixe suplimentare, că AMP sau FR, indică proprietati speciale, precum economia de energie sau rezistență la foc."
+        "a": "Codul Transilon combină litere pentru tipul de inserție textilă (E pentru poliester, EL pentru poliester elastic, RE pentru poliester reciclat), literă pentru acoperire (U pentru poliuretan, V pentru PVC) și un sufix pentru textura suprafeței, precum STR, LG sau AR. Sufixe suplimentare, că AMP sau FR, indică proprietăți speciale, precum economia de energie sau rezistență la foc."
       },
       {
         "q": "Ce diferență este între acoperirea U și V la benzile Forbo Siegling?",
@@ -813,11 +813,11 @@ Am investit enorm în cercetare – dezvoltăm benzi cu rezistență la tăiere 
     founded: 1849,
     headquarters: 'Weinheim, Germania',
     employees: '51,000+',
-    overview: `De 175 de ani, Freudenberg Sealing Technologies (FST) produce garnituri, simering-uri, o-ring-uri și soluții de etanșare pentru toate industriile critice. Experiența noastră cu produsele lor? Că un simering Freudenberg montat corect ține 15,000-20,000 de ore – acolo unde copiile ieftine crapă la 3,000-5,000. Producem întreaga gamă – simering-uri radiale (RWDR/BABSL), o-ring-uri NBR/VITON/EPDM/Silicone, garnituri hidraulice (piston seals, rod seals, wiper seals), garnituri pneumatice, și soluții custom pentru OEM-uri.
+    overview: `De 175 de ani, Freudenberg Sealing Technologies (FST) produce garnituri, simering-uri, o-ring-uri și soluții de etanșare pentru toate industriile critice. Din experiența noastră cu aceste produse, un simering Freudenberg montat corect ține 15,000-20,000 de ore – acolo unde copiile ieftine crapă la 3,000-5,000. Gama Freudenberg include simering-uri radiale (RWDR/BABSL), o-ring-uri NBR/VITON/EPDM/Silicone, garnituri hidraulice (piston seals, rod seals, wiper seals), garnituri pneumatice, și soluții custom pentru OEM-uri.
 
-Tehnologia Freudenberg combină compounduri elastomerice formulate in-house (peste 1,000 de rețete diferite) cu geometrii de buză optimizate CFD pentru fricțiune minimă și etanșare maximă. De exemplu, simering-urile RWDR (Radial Shaft Seal Double Lip) au două buze – una de etanșare principală cu arc Garter pentru presiune constantă, și una secundară de protecție împotriva prafului. Pentru aplicații extreme, seria Merkel cu insertie PTFE rezistă la temperaturi -60°C până +200°C și la presiuni hidraulice de 400+ bar.
+Tehnologia Freudenberg combină compounduri elastomerice formulate in-house (peste 1,000 de rețete diferite) cu geometrii de buză optimizate CFD pentru fricțiune minimă și etanșare maximă. De exemplu, simering-urile RWDR (Radial Shaft Seal Double Lip) au două buze – una de etanșare principală cu arc Garter pentru presiune constantă, și una secundară de protecție împotriva prafului. Pentru aplicații extreme, seria Merkel cu inserție PTFE rezistă la temperaturi -60°C până +200°C și la presiuni hidraulice de 400+ bar.
 
-Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de testare accelerată în condiții extreme (temperatură, presiune ciclică, medii chimice). Pentru automotive dezvoltăm soluții pentru motoare hibride și electrice (compatibilitate cu fluide de răcire glicol), pentru energetică producem garnituri pentru turbine eoliene (rezistență la ger și sare marină), iar pentru industria alimentară oferim NBR și EPDM aprobate FDA. Certificări complete ISO și conformitate cu toate standardele internaționale (DIN, SAE, ISO).`,
+Freudenberg investește masiv în testare – fiecare compound nou trece prin 5,000+ ore de testare accelerată în condiții extreme (temperatură, presiune ciclică, medii chimice). Pentru automotive dezvoltă soluții pentru motoare hibride și electrice (compatibilitate cu fluide de răcire glicol), pentru energetică oferă garnituri pentru turbine eoliene (rezistență la ger și sare marină), iar pentru industria alimentară pune la dispoziție NBR și EPDM aprobate FDA. Certificări complete ISO și conformitate cu toate standardele internaționale (DIN, SAE, ISO).`,
     whyChoose: [
       'Compounduri proprietare – peste 1,000 de formulări elastomer optimizate pentru fiecare aplicație',
       'Durată de viață 15,000-20,000 ore la simering-uri auto/industriale (versus 5,000 ore generic)',
@@ -829,7 +829,7 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
     keyProducts: [
       {
         name: 'Simering-uri radiale Freudenberg RWDR (Radial Shaft Seal Double Lip)',
-        description: 'Simering-urile clasice pentru arbori rotitori – le găsești în motoare auto, pompe, reductoare, ventilatoare. Construcție: corp metalic din oțel zincat/inoxidabil, insertie cauciuc NBR/VITON vulcanizată pe corp, două buze de etanșare (principală + secundară anti-praf), arc Garter din inox pentru presiune constantă pe arbore. Dimensiuni de la 10mm diametru interior până la 600mm pentru aplicații industriale mari. NBR standard pentru temperaturi -40°C până +100°C (uleiuri minerale, grăsimi), VITON pentru temperaturi până +200°C și compatibilitate cu fluide agresive (acid, solvenți). Presiune maximă 0.5 bar pentru aplicații rotative (mai mult necesită garnituri mecanice). Viteza de alunecare până la 15 m/s (NBR) sau 20 m/s (VITON cu lubrifiere perfectă). Montaj: presare la rece în alezaj cu dispozitiv special (nu cu ciocanul!) și ungere buză înainte de pornire.'
+        description: 'Simering-urile clasice pentru arbori rotitori – le găsești în motoare auto, pompe, reductoare, ventilatoare. Construcție: corp metalic din oțel zincat/inoxidabil, inserție cauciuc NBR/VITON vulcanizată pe corp, două buze de etanșare (principală + secundară anti-praf), arc Garter din inox pentru presiune constantă pe arbore. Dimensiuni de la 10mm diametru interior până la 600mm pentru aplicații industriale mari. NBR standard pentru temperaturi -40°C până +100°C (uleiuri minerale, grăsimi), VITON pentru temperaturi până +200°C și compatibilitate cu fluide agresive (acid, solvenți). Presiune maximă 0.5 bar pentru aplicații rotative (mai mult necesită garnituri mecanice). Viteza de alunecare până la 15 m/s (NBR) sau 20 m/s (VITON cu lubrifiere perfectă). Montaj: presare la rece în alezaj cu dispozitiv special (nu cu ciocanul!) și ungere buză înainte de pornire.'
       },
       {
         name: 'O-ring-uri Freudenberg (toate materialele și dimensiuni)',
@@ -837,7 +837,7 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
       },
       {
         name: 'Garnituri hidraulice Merkel pentru cilindri (piston + tijă)',
-        description: 'Seria profesională pentru cilindri hidraulici industriali care lucrează la presiuni mari (200-400 bar) și cicluri intensive. Garnituri piston (dinamice): Merkel seria M cu buză dublă asimetrică + inel anti-extrusion PTFE – etanșează perfect și previne extrusion-ul la presiuni mari. Garnituri tijă (rod seals): Merkel seria P cu profil U și insertie PTFE – fricțiune minimă și uzură redusă. Wiper seals (raclori): Merkel seria W cu buză triplă – elimină contaminarea externă (praf, noroi) înainte să intre în cilindru. Materiale: poliuretan (PU) pentru majoritatea aplicațiilor -40°C/+100°C, PTFE pentru temperaturi mai mari -200°C/+200°C, NBR pentru compatibilitate cu fluide speciale. Montaj: kit complet pentru fiecare cilindru (piston seal + rod seal + wiper + backup rings + O-rings statice). Durată de viață 5,000-10,000 de ore la aplicare corectă.'
+        description: 'Seria profesională pentru cilindri hidraulici industriali care lucrează la presiuni mari (200-400 bar) și cicluri intensive. Garnituri piston (dinamice): Merkel seria M cu buză dublă asimetrică + inel anti-extrusion PTFE – etanșează perfect și previne extrusion-ul la presiuni mari. Garnituri tijă (rod seals): Merkel seria P cu profil U și inserție PTFE – fricțiune minimă și uzură redusă. Wiper seals (raclori): Merkel seria W cu buză triplă – elimină contaminarea externă (praf, noroi) înainte să intre în cilindru. Materiale: poliuretan (PU) pentru majoritatea aplicațiilor -40°C/+100°C, PTFE pentru temperaturi mai mari -200°C/+200°C, NBR pentru compatibilitate cu fluide speciale. Montaj: kit complet pentru fiecare cilindru (piston seal + rod seal + wiper + backup rings + O-rings statice). Durată de viață 5,000-10,000 de ore la aplicare corectă.'
       },
       {
         name: 'Garnituri pentru industria alimentară Freudenberg FDA/EU compliant',
@@ -910,7 +910,7 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
       },
       {
         "code": "BASL",
-        "description": "Simering radial BA cu varianta de buza de etansare"
+        "description": "Simering radial BA cu varianta de buză de etanșare"
       },
       {
         "code": "BABSL",
@@ -918,7 +918,7 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
       },
       {
         "code": "BAUM",
-        "description": "Simering radial cu design de baza Simmerring"
+        "description": "Simering radial cu design de bază Simmerring"
       },
       {
         "code": "BAUMRF",
@@ -926,7 +926,7 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
       },
       {
         "code": "BAUMSL",
-        "description": "Simering radial cu configuratie speciala de etansare"
+        "description": "Simering radial cu configurație specială de etanșare"
       },
       {
         "code": "B1",
@@ -934,11 +934,11 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
       },
       {
         "code": "B1SL",
-        "description": "Simering radial B1 cu varianta de buza"
+        "description": "Simering radial B1 cu varianta de buză"
       },
       {
         "code": "B1OF",
-        "description": "Simering radial B1 cu functie overflow"
+        "description": "Simering radial B1 cu funcție overflow"
       },
       {
         "code": "B2",
@@ -950,11 +950,11 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
       },
       {
         "code": "B2PT",
-        "description": "Simering radial B2 cu tehnologie de protectie"
+        "description": "Simering radial B2 cu tehnologie de protecție"
       },
       {
         "code": "BAOF",
-        "description": "Simering radial BA cu functie de preaplin"
+        "description": "Simering radial BA cu funcție de preaplin"
       },
       {
         "code": "MSS1",
@@ -962,17 +962,17 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
       },
       {
         "code": "PSS",
-        "description": "Simering radial Premium Sine Seal, performanta ridicata"
+        "description": "Simering radial Premium Sine Seal, performanță ridicată"
       }
     ],
     faq: [
       {
-        "q": "Ce tipuri de simeringuri Freudenberg exista pentru arbori rotativi?",
+        "q": "Ce tipuri de simeringuri Freudenberg există pentru arbori rotativi?",
         "a": "Familia Simmerring de la Freudenberg acoperă mai multe designuri, de la varianta simplă BA, la cele cu buză suplimentară BASL sau B1SL, până la BABSL, care combină arcul cu buză de etanșare, toate conforme standardului DIN 3760. Există și sisteme modulare, precum MSS1, pentru situații unde dimensiunile standard nu se potrivesc."
       },
       {
         "q": "Ce diferență este între un O-ring standard și unul Simriz de la Freudenberg?",
-        "a": "Un O-ring standard, cu codul OR, este potrivit pentru etansari statice în condiții uzuale de temperatură și chimicale, în timp ce variantă ORSZ din material FFKM Simriz rezistă la temperaturi și agenti chimici mult mai severi, fiind recomandată pentru aplicații industriale critice. Alegerea depinde de mediul de lucru și de fluidul vehiculat."
+        "a": "Un O-ring standard, cu codul OR, este potrivit pentru etanșări statice în condiții uzuale de temperatură și chimicale, în timp ce variantă ORSZ din material FFKM Simriz rezistă la temperaturi și agenți chimici mult mai severi, fiind recomandată pentru aplicații industriale critice. Alegerea depinde de mediul de lucru și de fluidul vehiculat."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de garnituri Freudenberg?",
@@ -992,11 +992,11 @@ Investim masiv în testare – fiecare compound nou trece prin 5,000+ ore de tes
     founded: 1911,
     headquarters: 'Denver, Colorado, SUA',
     employees: '15,000+',
-    overview: `De peste 110 ani, Gates produce curele de transmisie, furtunuri hidraulice și soluții de power transmission pentru automotive și industrie. Experiența noastră? Că o curea Gates PowerGrip montată și tensionată corect ține 50,000-100,000 km în aplicații auto și 15,000-30,000 ore în aplicații industriale – acolo unde copiile ieftine crapă la jumătate din timp. Producem curele trapezoidale (V-belts), curele late (wedge belts), curele sincrone (timing belts), curele poli-V, furtunuri hidraulice presiune înaltă (1SN/2SN/4SH până la 420 bar), și sisteme complete de distribuție auto (curea + role + pompă apă).
+    overview: `De peste 110 ani, Gates produce curele de transmisie, furtunuri hidraulice și soluții de power transmission pentru automotive și industrie. Din experiența noastră, o curea Gates PowerGrip montată și tensionată corect ține 50,000-100,000 km în aplicații auto și 15,000-30,000 ore în aplicații industriale – acolo unde copiile ieftine crapă la jumătate din timp. Gama Gates include curele trapezoidale (V-belts), curele late (wedge belts), curele sincrone (timing belts), curele poli-V, furtunuri hidraulice presiune înaltă (1SN/2SN/4SH până la 420 bar), și sisteme complete de distribuție auto (curea + role + pompă apă).
 
 Tehnologia Gates combină corzi de tracțiune din fibră de sticlă/aramid (Kevlar) cu compounduri de cauciuc sintetice formulate pentru rezistență la temperatură, ozon, și uzură. De exemplu, seria PowerGrip GT pentru curele sincrone are dinți cu profil curb optimizat CFD – reduce zgomotul cu 50% și crește transmisia de cuplu cu 30% față de profil trapezoidal clasic. Pentru hidraulică, seria MegaTuff acoperită cu cauciuc MSHA (Mine Safety and Health Administration) rezistă la abraziune extremă în minerit și construcții.
 
-Investim masiv în testare – fieture furtun presiune înaltă trece prin test la 4x presiunea nominală (burst test) înainte să fie certificat. Pentru automotive colaborăm cu toți OEM-urile majori – Toyota, VW, Ford, GM folosesc kituri Gates ca first-fit. Dezvoltăm soluții inovatoare – curele micro-V pentru sisteme FEAD (Front End Accessory Drive) cu șase-opt accesorii pe o singură curea, furtunuri hidraulice ultra-compacte pentru excavatoare, și sisteme de timing pentru motoare diesel euro 6 cu presiuni extreme.`,
+Gates investește masiv în testare – fiecare furtun presiune înaltă trece prin test la 4x presiunea nominală (burst test) înainte să fie certificat, iar pentru automotive furnizează kituri folosite ca echipare originală (first-fit) de constructori auto majori. Producătorul dezvoltă soluții inovatoare – curele micro-V pentru sisteme FEAD (Front End Accessory Drive) cu șase-opt accesorii pe o singură curea, furtunuri hidraulice ultra-compacte pentru excavatoare, și sisteme de timing pentru motoare diesel euro 6 cu presiuni extreme.`,
     whyChoose: [
       'Durată de viață dublă față de competiție – corzi Kevlar/fibră de sticlă nu se întind',
       'Sisteme complete timing pentru auto – curea + role + pompă apă + termostat într-un singur kit',
@@ -1008,7 +1008,7 @@ Investim masiv în testare – fieture furtun presiune înaltă trece prin test 
     keyProducts: [
       {
         name: 'Curele trapezoidale Gates Hi-Power II (wrapped V-belts)',
-        description: 'Curele clasice în V pentru transmisii industriale – le găsești în motoare electrice, pompe, ventilatoare, compresoare. Construcție: corzi polyester pre-întinse (nu se întind în timp) înglobate în cauciuc sintetic, acoperire textilă wrapper pentru protecție și grip. Profile standard: SPZ/SPA/SPB/SPC (metrică europeană) și 3V/5V/8V (inch americana). Temperatura de lucru -30°C până +80°C. Raportul de transmisie optim 1:1 până 1:7 (peste 1:7 eficiența scade). Tensionarea corectă e critică – prea slabă = alunecare și uzură rapidă, prea strânsă = sarcină pe lagăre și rupere prematură. Regula: deflexie 10-15mm la presiune medie pe distanța dintre axe. Durată de viață 15,000-25,000 ore la aplicare industrială corectă. Se montează pe fulie trapezoidală – nu încerca să pui curea nouă pe fulie uzată (alunecă instant).'
+        description: 'Curele clasice în V pentru transmisii industriale – le găsești în motoare electrice, pompe, ventilatoare, compresoare. Construcție: corzi polyester pre-întinse (nu se întind în timp) înglobate în cauciuc sintetic, acoperire textilă wrapper pentru protecție și grip. Profile standard: SPZ/SPA/SPB/SPC (metrică europeană) și 3V/5V/8V (inch americană). Temperatura de lucru -30°C până +80°C. Raportul de transmisie optim 1:1 până 1:7 (peste 1:7 eficiența scade). Tensionarea corectă e critică – prea slabă = alunecare și uzură rapidă, prea strânsă = sarcină pe lagăre și rupere prematură. Regula: deflexie 10-15mm la presiune medie pe distanța dintre axe. Durată de viață 15,000-25,000 ore la aplicare industrială corectă. Se montează pe fulie trapezoidală – nu încerca să pui curea nouă pe fulie uzată (alunecă instant).'
       },
       {
         name: 'Curele sincrone Gates PowerGrip GT3 (timing belts HTD)',
@@ -1035,7 +1035,7 @@ Investim masiv în testare – fieture furtun presiune înaltă trece prin test 
     ],
     industries: [
       'Automotive aftermarket – service-uri, distribuitori piese',
-      'Automotive OEM – furnizor first-fit VW, Ford, Toyota, GM',
+      'Automotive OEM – furnizor first-fit pentru constructori auto majori',
       'Agricultură – tractoare, combine, utilaje agricole',
       'Construcții – excavatoare, buldozere, macarale, compactoare',
       'Minerit – utilaje miniere, transportoare, drilling rigs',
@@ -1056,19 +1056,19 @@ Investim masiv în testare – fieture furtun presiune înaltă trece prin test 
     productCodes: [
       {
         "code": "Micro-V",
-        "description": "Curea serpentina cu caneluri multiple pentru transmisie auto"
+        "description": "Curea serpentină cu caneluri multiple pentru transmisie auto"
       },
       {
         "code": "Hi-Power II PowerBand",
-        "description": "Curea trapezoidala legata (banded), pentru transmisii industriale"
+        "description": "Curea trapezoidală legată (banded), pentru transmisii industriale"
       },
       {
         "code": "Hi-Power II Dubl-V",
-        "description": "Curea trapezoidala dubla fata, pentru transmisii cu doua directii"
+        "description": "Curea trapezoidală dublă față, pentru transmisii cu două direcții"
       },
       {
         "code": "MegaTech II",
-        "description": "Furtun hidraulic cu impletitura de sarma, presiune ridicata"
+        "description": "Furtun hidraulic cu împletitura de sârmă, presiune ridicată"
       },
       {
         "code": "MegaSys Premium",
@@ -1076,31 +1076,31 @@ Investim masiv în testare – fieture furtun presiune înaltă trece prin test 
       },
       {
         "code": "MegaSys MXT",
-        "description": "Furtun hidraulic premium cu greutate redusa"
+        "description": "Furtun hidraulic premium cu greutate redusă"
       },
       {
         "code": "Poly Chain",
-        "description": "Curea sincrona din poliuretan, rezistență la coroziune și întindere"
+        "description": "Curea sincronă din poliuretan, rezistență la coroziune și întindere"
       },
       {
         "code": "PowerGrip GT2",
-        "description": "Curea sincrona twin power, cu dinti pe ambele fete"
+        "description": "Curea sincronă twin power, cu dinți pe ambele fețe"
       },
       {
         "code": "PowerGrip GT3",
-        "description": "Curea sincrona pentru distribuție și transmisii industriale"
+        "description": "Curea sincronă pentru distribuție și transmisii industriale"
       },
       {
         "code": "PowerGrip GT4",
-        "description": "Curea sincrona de generatie mai noua, performanta imbunatatita"
+        "description": "Curea sincronă de generație mai nouă, performanță îmbunătățită"
       },
       {
         "code": "G-Force",
-        "description": "Curea de transmisie pentru vehicule recreationale"
+        "description": "Curea de transmisie pentru vehicule recreaționale"
       },
       {
         "code": "Round Belts",
-        "description": "Curea rotunda pentru transmisii cu role mici"
+        "description": "Curea rotundă pentru transmisii cu role mici"
       },
       {
         "code": "Truck Belts",
@@ -1108,11 +1108,11 @@ Investim masiv în testare – fieture furtun presiune înaltă trece prin test 
       },
       {
         "code": "Variable Speed",
-        "description": "Curea pentru transmisii cu viteza variabila"
+        "description": "Curea pentru transmisii cu viteză variabilă"
       },
       {
         "code": "TPU Synchro-Clean",
-        "description": "Curea sincrona din poliuretan pentru industria alimentara"
+        "description": "Curea sincronă din poliuretan pentru industria alimentară"
       }
     ],
     faq: [
@@ -1125,7 +1125,7 @@ Investim masiv în testare – fieture furtun presiune înaltă trece prin test 
         "a": "MegaSys este gama premium de furtunuri hidraulice Gates, gândită pentru presiuni ridicate și condiții solicitante întâlnite la utilaje de construcții și echipamente industriale grele. Varianta MXT aduce o greutate mai redusă față de furtunurile clasice, facilitând montajul, conform materialelor publicate de producător pe paginile oficiale de produs."
       },
       {
-        "q": "Ce curea de transmisie Gates recomandati pentru industria alimentara?",
+        "q": "Ce curea de transmisie Gates recomandați pentru industria alimentară?",
         "a": "Pentru aplicații din industria alimentară, Gates oferă curele sincrone TPU Synchro-Clean, fabricate din poliuretan și gândite pentru curățare ușoară și conformitate cu cerințele de igienă din procesare. Pentru transmisii industriale generale, familia Poly Chain, tot din poliuretan, oferă rezistență la coroziune și la întindere pe termen lung."
       },
       {
@@ -1142,11 +1142,11 @@ Investim masiv în testare – fieture furtun presiune înaltă trece prin test 
     founded: 1919,
     headquarters: 'Remscheid, Germania',
     employees: '2,500+',
-    overview: `De peste 100 de ani, Gedore produce scule profesionale de mână pentru industrie, automotive și aviație. Experiența noastră? Că o cheie Gedore nu se deformează, nu se crăpă, și nu alunecă de pe piuliță – acolo unde scule ieftine te lasă cu piulițe rotunjite și degete vânătaie. Producem întreaga gamă – chei fixe/inelate, chei reglabile, tubulare cu antrenare 1/4"/3/8"/1/2"/3/4"/1", scriezneci și pensete, ciocane și dornuri, chei dinamometrice, extractoare și scule speciale.
+    overview: `De peste 100 de ani, Gedore produce scule profesionale de mână pentru industrie, automotive și aviație. Din experiența noastră, o cheie Gedore nu se deformează, nu se crapă, și nu alunecă de pe piuliță – acolo unde scule ieftine lasă piulițe rotunjite și degete vânătate. Gama Gedore include chei fixe/inelate, chei reglabile, tubulare cu antrenare 1/4"/3/8"/1/2"/3/4"/1", șurubelnițe și pensete, ciocane și dornuri, chei dinamometrice, extractoare și scule speciale.
 
-Tehnologia Gedore combină oțel crom-vanadiu forjat la cald (nu turnat!) cu tratament termic precis – rezultă rezistență la tracțiune 1200-1400 N/mm² și duritate HRC 40-50. Suprafața cromată sau vopsită protejează împotriva coroziunii și oferă finish profesional. Toate sculele trec prin testare individuală – verificare dimensiuni, verificare cupluri, testare la sarcină extremă (150% din cuplu nominal). Pentru industria aviației producem scule calibrate cu certificat – fiecare piesă are serie unică trasabilă.
+Tehnologia Gedore combină oțel crom-vanadiu forjat la cald (nu turnat!) cu tratament termic precis – rezultă rezistență la tracțiune 1200-1400 N/mm² și duritate HRC 40-50. Suprafața cromată sau vopsită protejează împotriva coroziunii și oferă finish profesional. Toate sculele trec prin testare individuală – verificare dimensiuni, verificare cupluri, testare la sarcină extremă (150% din cuplu nominal). Pentru industria aviației, Gedore produce scule calibrate cu certificat – fiecare piesă are serie unică trasabilă.
 
-Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala mâinii cu 40% față de mânere metalice simple, cheile dinamometrice au mecanism clic auditiv+tactil pentru feedback instant la atingerea cuplului. Dezvoltăm și inovații – chei cu antrenare joker (combinare inelată + fixă cu mecanism clichet), tubulare impact pentru cheile pneumatice/electrice (rezistență la șocuri repetate), și sisteme modulare de stocare (organizare eficientă în cărucioare/panouri). Garanție pe viață pentru majoritatea sculelor (defecte de fabricație) – marca stă în spatele calității.`,
+Gedore investește constant în ergonomie – mânerele bi-material reduc oboseala mâinii față de mânere metalice simple, cheile dinamometrice au mecanism clic auditiv+tactil pentru feedback instant la atingerea cuplului. Producătorul dezvoltă și inovații – chei cu antrenare joker (combinare inelată + fixă cu mecanism clichet), tubulare impact pentru cheile pneumatice/electrice (rezistență la șocuri repetate), și sisteme modulare de stocare (organizare eficientă în cărucioare/panouri). Garanție pe viață pentru majoritatea sculelor (defecte de fabricație) – marca stă în spatele calității.`,
     whyChoose: [
       'Oțel crom-vanadiu forjat la cald – rezistență HRC 40-50, nu se deformează la cupluri mari',
       'Precizie geometrică ±0.1mm – cheia se montează perfect pe piuliță, zero joc lateral',
@@ -1209,15 +1209,15 @@ Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala
       },
       {
         "code": "Gedore 7",
-        "description": "Cheie combinata usoara, cu tija tubulara ergonomica"
+        "description": "Cheie combinată ușoară, cu tija tubulară ergonomică"
       },
       {
         "code": "Gedore 7 XL",
-        "description": "Cheie combinata cu tija extra lunga pentru zone adanci"
+        "description": "Cheie combinată cu tija extra lungă pentru zone adânci"
       },
       {
         "code": "Gedore 7 R",
-        "description": "Cheie combinata cu clichet, cap plat reversibil"
+        "description": "Cheie combinată cu clichet, cap plat reversibil"
       },
       {
         "code": "Gedore 7 UR",
@@ -1225,11 +1225,11 @@ Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala
       },
       {
         "code": "Gedore 2",
-        "description": "Cheie inelara dubla cu inele adanc offset"
+        "description": "Cheie inelară dublă cu inele adânc offset"
       },
       {
         "code": "Gedore 2 B",
-        "description": "Cheie inelara dubla, model scurt cu offset redus"
+        "description": "Cheie inelară dublă, model scurt cu offset redus"
       },
       {
         "code": "Gedore 4",
@@ -1237,11 +1237,11 @@ Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala
       },
       {
         "code": "Gedore 4 R",
-        "description": "Cheie inelara dubla cu clichet, unghi de lucru 6-7 grade"
+        "description": "Cheie inelară dublă cu clichet, unghi de lucru 6-7 grade"
       },
       {
         "code": "Gedore TX 4",
-        "description": "Cheie inelara dubla pentru capete de surub TORX"
+        "description": "Cheie inelară dublă pentru capete de șurub TORX"
       },
       {
         "code": "Gedore 6",
@@ -1253,7 +1253,7 @@ Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala
       },
       {
         "code": "Gedore 894",
-        "description": "Cheie fixa simpla cu finisaj fosfatat manganos"
+        "description": "Cheie fixă simplă cu finisaj fosfatat manganos"
       },
       {
         "code": "Gedore 895",
@@ -1278,7 +1278,7 @@ Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala
         "a": "Seria 7 este o cheie combinată ușoară, cu tijă tubulară pentru o manevrare ergonomică, în timp ce seria 7 R adaugă un mecanism cu clichet, cu cap plat reversibil, util când spațiul de rotire este limitat. Varianta 7 UR merge mai departe, oferind un inel decalat pentru acces și mai bun în zone strânse."
       },
       {
-        "q": "Pentru ce se foloseste cheia Gedore TX 4?",
+        "q": "Pentru ce se folosește cheia Gedore TX 4?",
         "a": "Cheia inelară dublă TX 4 este gândită pentru capete de șurub TORX care ies deasupra suprafeței, situație în care o cheie inelară obișnuită nu ar prinde profilul corect. Face parte din familia de chei inelare duble Gedore, alături de modelele 2, 2 B, 4 și 4 R, cu forme diferite de decalaj."
       },
       {
@@ -1299,11 +1299,11 @@ Investim constant în ergonomie – mânerele bi-material Gedore reduce oboseala
     founded: 1945,
     headquarters: 'Bjerringbro, Danemarca',
     employees: '19,000+',
-    overview: `De aproape 80 de ani, Grundfos produce pompe pentru toate aplicațiile imaginabile. Divizia Dosing dezvoltă pompe dozatoare de precizie pentru tratarea apei, procese chimice și industria farmaceutică. Experiența noastră? Că o pompă dozatoare Grundfos livrează exact cantitatea setată cu precizie ±1% pe perioade lungi – critic pentru procese unde supradozarea costă bani sau subdozarea compromite calitatea. Producem pompe dozatoare cu membrană (diaphragm metering pumps) cu antrenare electromecanic sau motor, pompe peristaltice pentru aplicații sanitare, și sisteme complete de dozare cu controller, senzori pH/redox, și mixere.
+    overview: `De aproape 80 de ani, Grundfos produce pompe pentru toate aplicațiile imaginabile. Divizia Dosing dezvoltă pompe dozatoare de precizie pentru tratarea apei, procese chimice și industria farmaceutică. Din experiența noastră, o pompă dozatoare Grundfos livrează exact cantitatea setată cu precizie ±1% pe perioade lungi – critic pentru procese unde supradozarea costă bani sau subdozarea compromite calitatea. Gama include pompe dozatoare cu membrană (diaphragm metering pumps) cu antrenare electromecanică sau cu motor, pompe peristaltice pentru aplicații sanitare, și sisteme complete de dozare cu controller, senzori pH/redox, și mixere.
 
-Tehnologia Grundfos combină motoare brushless EC cu mecanism membrană cu patentă – membrană multiplă PTFE/EPDM rezistentă la toate chimicalele, mecanism de antrenare cu came excentrică pentru precizie constantă, și valve ceramice/PTFE care nu se uzează. Debitele acoperă de la 0.1 litri/oră (micro-dozare lab) până la 1,000 litri/oră (dozare industrială), presiuni până la 20 bar. Pentru aplicații critice oferim pompe duplex/triplex – dacă una se defectează, cealaltă preia automat.
+Tehnologia Grundfos combină motoare brushless EC cu mecanism membrană cu brevet – membrană multiplă PTFE/EPDM rezistentă la toate chimicalele, mecanism de antrenare cu camă excentrică pentru precizie constantă, și valve ceramice/PTFE care nu se uzează. Debitele acoperă de la 0.1 litri/oră (micro-dozare lab) până la 1,000 litri/oră (dozare industrială), presiuni până la 20 bar. Pentru aplicații critice, gama include pompe duplex/triplex – dacă una se defectează, cealaltă preia automat.
 
-Investim masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comunicație wireless, și integrare cloud prin Grundfos GO. Monitorizezi debit real-time, primești alarme când nivelul chimical e jos sau când membrana necesită înlocuire, și poți controla de la distanță. Pentru tratarea apei dezvoltăm sisteme complete – pompă dozare clor + senzor clor rezidual + controller PID care ajustează automat dozarea în funcție de feedback. Certificări complete pentru apă potabilă (NSF-61, WRAS, ACS) și industria alimentară (FDA, 3A).`,
+Grundfos investește masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comunicație wireless, și integrare cloud prin Grundfos GO, permițând monitorizare debit real-time, alarme când nivelul chimical e jos sau când membrana necesită înlocuire, și control de la distanță. Pentru tratarea apei, producătorul dezvoltă sisteme complete – pompă dozare clor + senzor clor rezidual + controller PID care ajustează automat dozarea în funcție de feedback. Certificări complete pentru apă potabilă (NSF-61, WRAS, ACS) și industria alimentară (FDA, 3A).`,
     whyChoose: [
       'Precizie dozare ±1% – repetabilitate perfectă pe termen lung pentru procese critice',
       'Membrană PTFE/EPDM rezistentă universal – compatibilitate cu toate chimicalele (acizi, baze, oxizi)',
@@ -1370,15 +1370,15 @@ Investim masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comuni
       },
       {
         "code": "DDA AR",
-        "description": "Pompa dozatoare cu motor pas cu pas, varianta de baza"
+        "description": "Pompa dozatoare cu motor pas cu pas, varianta de bază"
       },
       {
         "code": "DDC A",
-        "description": "Pompa dozatoare compacta cu control manual al vitezei"
+        "description": "Pompa dozatoare compactă cu control manual al vitezei"
       },
       {
         "code": "DDC AR",
-        "description": "Pompa dozatoare compacta cu intrare pentru semnal analogic"
+        "description": "Pompa dozatoare compactă cu intrare pentru semnal analogic"
       },
       {
         "code": "DDE B",
@@ -1386,7 +1386,7 @@ Investim masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comuni
       },
       {
         "code": "DDE P",
-        "description": "Pompa dozatoare cu functie de puls pentru dozare proportionala"
+        "description": "Pompa dozatoare cu funcție de puls pentru dozare proporțională"
       },
       {
         "code": "DDE PR",
@@ -1402,7 +1402,7 @@ Investim masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comuni
       },
       {
         "code": "DMX",
-        "description": "Pompa dozatoare cu diafragma actionata mecanic, 1,6-765 l/h"
+        "description": "Pompa dozatoare cu diafragmă acționată mecanic, 1,6-765 l/h"
       },
       {
         "code": "DMH 25x",
@@ -1410,11 +1410,11 @@ Investim masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comuni
       },
       {
         "code": "DMH 28x",
-        "description": "Pompa dozatoare cu piston-diafragma hidraulica, varianta robusta"
+        "description": "Pompa dozatoare cu piston-diafragmă hidraulică, varianta robustă"
       },
       {
         "code": "DDI",
-        "description": "Pompa dozatoare cu diafragma pentru dozare digitala"
+        "description": "Pompa dozatoare cu diafragmă pentru dozare digitală"
       }
     ],
     faq: [
@@ -1444,11 +1444,11 @@ Investim masiv în conectivitate – toate pompele noi au Modbus RTU/TCP, comuni
     founded: 1945,
     headquarters: 'Bjerringbro, Danemarca',
     employees: '19,000+',
-    overview: `De aproape 80 de ani, Grundfos produce pompe de circulație pentru încălzire, climatizare și apă caldă menajeră. Experiența noastră? Că o pompă Grundfos ALPHA3 economisește 80% energie față de o pompă veche cu turație fixă – în 2-3 ani se amortizează doar din economii la curent. Producem pompe de circulație rezidențiale (ALPHA, UPS), pompe industriale HVAC (TPE, NBE, NKE), pompe pentru sisteme solare (SOLAR), pompe presiune (SCALA, CME), și sisteme de pompare twin/triplex cu redundanță.
+    overview: `De aproape 80 de ani, Grundfos produce pompe de circulație pentru încălzire, climatizare și apă caldă menajeră. Din experiența noastră, o pompă Grundfos ALPHA3 economisește 80% energie față de o pompă veche cu turație fixă – în 2-3 ani se amortizează doar din economii la curent. Gama include pompe de circulație rezidențiale (ALPHA, UPS), pompe industriale HVAC (TPE, NBE, NKE), pompe pentru sisteme solare (SOLAR), pompe presiune (SCALA, CME), și sisteme de pompare twin/triplex cu redundanță.
 
-Tehnologia Grundfos combină motoare ECM (Electronically Commutated Motor) cu eficiență 80%+ cu controlul automat AUTOADAPT – pompa detectează cererea sistemului și ajustează turația în timp real pentru a livra exact debitul necesar. Rezultat: consum electric scăzut cu 50-80% față de pompe vechi on/off. Seria ALPHA3 (una dintre cele mai răspândite pompe rezidențiale) are comunicație wireless – o configurezi de pe smartphone prin Grundfos GO. Pentru industrie, seria MAGNA3 oferă debite până 140 m³/h și înălțimi până 16 metri, cu twin-head pentru redundanță (dacă o pompă se defectează, cealaltă preia automat).
+Tehnologia Grundfos combină motoare ECM (Electronically Commutated Motor) cu eficiență 80%+ cu controlul automat AUTOADAPT – pompa detectează cererea sistemului și ajustează turația în timp real pentru a livra exact debitul necesar. Rezultat: consum electric scăzut cu 50-80% față de pompe vechi on/off. Seria ALPHA3 (una dintre cele mai răspândite pompe rezidențiale) are comunicație wireless – se configurează de pe smartphone prin Grundfos GO. Pentru industrie, seria MAGNA3 oferă debite până 140 m³/h și înălțimi până 16 metri, cu twin-head pentru redundanță (dacă o pompă se defectează, cealaltă preia automat).
 
-Investim masiv în IoT – toate pompele noi au conectivitate cloud, raportare consumuri, alarme predictive (de exemplu, alarmă cavitație înainte să se defecteze), și integrare în BMS prin Modbus/BACnet. Pentru centrale termice dezvoltăm pompe compacte pre-configurate – plug&play, instalator doar le conectează și pornește. Certificări complete ErP (Energy-related Products) – toate pompele HVAC respectă regulamentul UE 641/2009 cu EEI ≤ 0.23 (clasa A).`,
+Grundfos investește masiv în IoT – toate pompele noi au conectivitate cloud, raportare consumuri, alarme predictive (de exemplu, alarmă cavitație înainte să se defecteze), și integrare în BMS prin Modbus/BACnet. Pentru centrale termice, dezvoltă pompe compacte pre-configurate – plug&play, instalatorul doar le conectează și pornește. Certificări complete ErP (Energy-related Products) – toate pompele HVAC respectă regulamentul UE 641/2009 cu EEI ≤ 0.23 (clasa A).`,
     whyChoose: [
       'Economie 80% energie față de pompe fixe vechi – motor ECM + control AUTOADAPT',
       'Clasa energetică A (EEI ≤ 0.23) – conformitate ErP obligatorie UE din 2013',
@@ -1507,11 +1507,11 @@ Investim masiv în IoT – toate pompele noi au conectivitate cloud, raportare c
     productCodes: [
       {
         "code": "ALPHA3",
-        "description": "Pompa de circulatie casnica, eficienta energetica ridicata"
+        "description": "Pompa de circulație casnică, eficiență energetică ridicată"
       },
       {
         "code": "ALPHA1",
-        "description": "Pompa de circulatie casnica, model de baza"
+        "description": "Pompa de circulație casnică, model de bază"
       },
       {
         "code": "UPS3",
@@ -1519,11 +1519,11 @@ Investim masiv în IoT – toate pompele noi au conectivitate cloud, raportare c
       },
       {
         "code": "UPS2",
-        "description": "Pompa de circulatie casnica, generatie anterioara UPS3"
+        "description": "Pompa de circulație casnică, generație anterioară UPS3"
       },
       {
         "code": "MAGNA1",
-        "description": "Pompa de circulatie comerciala cu turatie variabila"
+        "description": "Pompa de circulație comercială cu turație variabilă"
       },
       {
         "code": "MAGNA3",
@@ -1567,7 +1567,7 @@ Investim masiv în IoT – toate pompele noi au conectivitate cloud, raportare c
       },
       {
         "code": "CUE",
-        "description": "Convertizor de frecventa cu filtru RFI pentru pompe Grundfos"
+        "description": "Convertizor de frecvență cu filtru RFI pentru pompe Grundfos"
       }
     ],
     faq: [

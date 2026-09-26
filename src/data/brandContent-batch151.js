@@ -86,7 +86,7 @@ Pentru o companie din România, Durex Industries înseamnă acces la încălzito
       { name: "Încălzitoare cu cartuș", description: "Rezistențe cilindrice montate în orificii forate, pentru încălzirea directă a matrițelor, plăcilor sau blocurilor metalice; varianta swaged suportă temperaturi ridicate și este dimensionată pe puterea și diametrul cerute de client." },
       { name: "Încălzitoare de circulație", description: "Cazane electrice pentru încălzirea lichidelor sau gazelor în circuit, cu ștampilă ASME „U” pentru presiuni de până la 3.000 psig și temperaturi de până la 1500°F, folosite în instalații de proces." },
       { name: "Elemente tubulare", description: "Rezistențe tubulare drepte sau formate, folosite ca elemente de încălzire pentru cuptoare, rezervoare sau linii de aer cald, cu temperaturi de lucru de peste 760°C." },
-      { name: "Încălzitoare flexibile și senzori de temperatură", description: "Încălzitoare flexibile din silicon, Kapton sau folie mica, plus senzori cu termocuplu sau RTD tip J și K, pentru monitorizarea temperaturii direct pe suprafața încălzită." },
+      { name: "Încălzitoare flexibile și senzori de temperatură", description: "Încălzitoare flexibile din silicon, Kapton sau folie mică, plus senzori cu termocuplu sau RTD tip J și K, pentru monitorizarea temperaturii direct pe suprafața încălzită." },
     ],
     certifications: ["ISO 9001 — companie certificată pentru managementul calității în fabricație"],
     industries: [

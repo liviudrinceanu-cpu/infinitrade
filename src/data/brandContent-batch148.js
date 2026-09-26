@@ -26,7 +26,7 @@ Pentru instalații din România unde spațiul de montaj e limitat sau precizia a
         description: "Familie de angrenaje liniare de precizie, cu module între 2 și 8 mm și forțe de avans între 3 și 124 kN, în funcție de serie. ZR e optimizată pentru viteză mare, ZTR pentru performanță ridicată, iar ZTRS pentru forța maximă, cu suport de lagăr înșurubat. Se folosesc la axele liniare ale mașinilor-unelte și roboților portal, unde cursa lungă contează mai mult decât la un șurub cu bile clasic.",
       },
       {
-        name: "Motoare Lean Seria LM cu Variatoare SC6/SI6",
+        name: "Motoare Lean Seria LM cu Variatoare SC6/ȘI6",
         description: "Servomotoare sincrone din clasa de eficiență IE5, cu cuplu nominal între 2,25 și 25,7 Nm, gândite să funcționeze fără traductor de poziție montat pe motor — poziția se determină prin cablul de putere, împreună cu variatoarele STÖBER SC6 sau SI6. Abaterea de turație rămâne sub 1%, iar precizia de poziționare la oprire e de circa ±1°. Clientul trebuie să precizeze cuplul de sarcină și variatorul existent în instalație.",
       },
     ],

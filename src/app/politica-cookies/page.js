@@ -9,13 +9,21 @@ export const metadata = {
   alternates: {
     canonical: `${config.site.url}/politica-cookies`,
   },
+  openGraph: {
+    title: 'Politica Cookies | Infinitrade Romania',
+    description: 'Informații despre utilizarea cookie-urilor pe acest site. Tipuri de cookies, scopuri și modul de gestionare a preferințelor tale.',
+    url: `${config.site.url}/politica-cookies`,
+    siteName: 'Infinitrade Romania',
+    locale: 'ro_RO',
+    type: 'website',
+  },
 };
 
 export default function CookiesPage() {
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
         <div className={styles.container}>
           <h1>Politica de Utilizare a Cookie-urilor</h1>
           <p className={styles.lastUpdated}>Ultima actualizare: Ianuarie 2026</p>

@@ -1043,7 +1043,7 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
     keyProducts: [
       {
         name: "Aparate MIG/MAG Seria XQ",
-        description: "Gama de vârf a producătorului pentru sudura MIG/MAG, folosită atât la service industrial, cât și la producție de serie mică sau medie. Pentru ofertă avem nevoie de materialul de sudat, grosimea pieselor și curentul de sudură necesar."
+        description: "Gama de vârf a producătorului pentru sudură MIG/MAG, folosită atât la service industrial, cât și la producție de serie mică sau medie. Pentru ofertă avem nevoie de materialul de sudat, grosimea pieselor și curentul de sudură necesar."
       },
       {
         name: "Aparate MIG/MAG Seria Picomig",

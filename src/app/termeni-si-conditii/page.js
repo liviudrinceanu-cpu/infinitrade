@@ -9,13 +9,21 @@ export const metadata = {
   alternates: {
     canonical: `${config.site.url}/termeni-si-conditii`,
   },
+  openGraph: {
+    title: 'Termeni și Condiții | Infinitrade Romania',
+    description: 'Termeni și condiții de utilizare a site-ului. Reguli privind comenzile, livrarea și garanția echipamentelor industriale.',
+    url: `${config.site.url}/termeni-si-conditii`,
+    siteName: 'Infinitrade Romania',
+    locale: 'ro_RO',
+    type: 'website',
+  },
 };
 
 export default function TermeniPage() {
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
         <div className={styles.container}>
           <h1>Termeni și Condiții</h1>
           <p className={styles.lastUpdated}>Ultima actualizare: Ianuarie 2026</p>

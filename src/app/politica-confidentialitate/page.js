@@ -9,13 +9,21 @@ export const metadata = {
   alternates: {
     canonical: `${config.site.url}/politica-confidentialitate`,
   },
+  openGraph: {
+    title: 'Politica de Confidențialitate | Infinitrade Romania',
+    description: 'Politica de confidențialitate și protecția datelor personale. Informații despre prelucrarea datelor conform GDPR.',
+    url: `${config.site.url}/politica-confidentialitate`,
+    siteName: 'Infinitrade Romania',
+    locale: 'ro_RO',
+    type: 'website',
+  },
 };
 
 export default function ConfidentialitatePage() {
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
         <div className={styles.container}>
           <h1>Politica de Confidențialitate</h1>
           <p className={styles.lastUpdated}>Ultima actualizare: Ianuarie 2026</p>

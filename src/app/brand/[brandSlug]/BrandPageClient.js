@@ -150,12 +150,12 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                   {isInCart(brand.name) ? (
                     <>
                       <Check size={18} />
-                      In Cerere
+                      În cerere
                     </>
                   ) : (
                     <>
                       <Plus size={18} />
-                      Adauga la Cerere
+                      Adaugă la cerere
                     </>
                   )}
                 </button>
@@ -340,6 +340,9 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                         </div>
                         <div className={styles.productCardActions}>
                           <button
+                            type="button"
+                            aria-label={isInCart(`${type.name} ${brand.name}`) ? `${type.name} ${brand.name} este în cerere` : `Adaugă ${type.name} ${brand.name} la cerere`}
+                            title={isInCart(`${type.name} ${brand.name}`) ? 'În cerere' : 'Adaugă la cerere'}
                             className={`${styles.addBtn} ${isInCart(`${type.name} ${brand.name}`) ? styles.inCart : ''} ${addedAnimation === `${type.name} ${brand.name}` ? styles.adding : ''}`}
                             onClick={() => handleAddToCart({
                               type: 'product',
@@ -583,6 +586,9 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                         </div>
                         <div className={styles.productCardActions}>
                           <button
+                            type="button"
+                            aria-label={isInCart(`${type.name} ${brand.name}`) ? `${type.name} ${brand.name} este în cerere` : `Adaugă ${type.name} ${brand.name} la cerere`}
+                            title={isInCart(`${type.name} ${brand.name}`) ? 'În cerere' : 'Adaugă la cerere'}
                             className={`${styles.addBtn} ${isInCart(`${type.name} ${brand.name}`) ? styles.inCart : ''} ${addedAnimation === `${type.name} ${brand.name}` ? styles.adding : ''}`}
                             onClick={() => handleAddToCart({
                               type: 'product',

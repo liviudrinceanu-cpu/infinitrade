@@ -28,18 +28,27 @@ export async function generateMetadata({ params }) {
 
   if (!article) {
     return {
-      title: 'Articol negasit | Blog Infinitrade',
-      description: 'Articolul cautat nu a fost gasit.',
+      title: { absolute: 'Articol negăsit | Infinitrade Romania' },
+      description: 'Articolul căutat nu a fost găsit.',
     };
   }
 
   // Truncate title to fit within 60 char limit (with template suffix)
   // Template adds " | Infinitrade Romania" (21 chars), so title should be max 39 chars
   const shortTitle = article.shortTitle || article.title.substring(0, 38);
+  // v20 (audit R2): meta description 110–160 characters without touching the
+  // article text — long excerpts are cut on a word boundary, short ones get
+  // a neutral suffix.
+  const metaDescription = (() => {
+    const ex = String(article.excerpt || '').trim();
+    if (ex.length > 160) return ex.slice(0, 157).replace(/[\s,;:–-]+\S*$/, '') + '…';
+    if (ex.length < 110) return `${ex.replace(/\.$/, '')}. Ghid tehnic Infinitrade pentru ingineri și achiziții.`.slice(0, 160);
+    return ex;
+  })();
 
   return {
     title: shortTitle,
-    description: article.excerpt,
+    description: metaDescription,
     authors: [{ name: 'Echipa tehnică Infinitrade' }],
     openGraph: {
       title: article.title,
@@ -402,10 +411,10 @@ export default async function BlogArticlePage({ params }) {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
-              <h2>Ai intrebari despre echipamente industriale?</h2>
-              <p>Echipa noastra tehnica iti ofera consultanta gratuita.</p>
+              <h2>Aveți întrebări despre echipamente industriale?</h2>
+              <p>Trimiteți-ne datele aplicației sau codul echipamentului; vă răspundem cu variantele compatibile și termenul de livrare.</p>
               <Link href="/contact" className={styles.ctaButton}>
-                Contacteaza-ne
+                Contactați-ne
               </Link>
             </div>
           </div>

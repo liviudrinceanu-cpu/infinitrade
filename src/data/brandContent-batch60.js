@@ -226,7 +226,7 @@ Pentru clienți din industria oțelului, minerit, marină sau chimie, Cantoni of
     keyProducts: [
       { name: "Motoare IE3 și IE4", description: "Motoare trifazate de eficiență premium (IE3) și ultra-premium (IE4), pentru instalații industriale unde costul energiei pe durata de viață a motorului depășește cu mult costul de achiziție." },
       { name: "Motoare antiexplozive (Flame Proof)", description: "Motoare certificate separat pentru aplicații chimice și pentru minerit, construite să reziste unei explozii interne fără să o transmită în exteriorul carcasei." },
-      { name: "Motoare de înaltă tensiune", description: "Motoare pentru alimentare de înaltă tensiune, în variante de eficiență standard și ridicată, pentru instalații industriale mari unde joasa tensiune nu mai e eficientă." },
+      { name: "Motoare de înaltă tensiune", description: "Motoare pentru alimentare de înaltă tensiune, în variante de eficiență standard și ridicată, pentru instalații industriale mari unde joasă tensiune nu mai e eficientă." },
       { name: "Motoare cu rotor bobinat (Slip Ring)", description: "Motoare cu inele colectoare pentru cuplu mare de pornire și posibilitatea reglării curentului prin reostat rotoric, folosite la utilaje cu inerție mare." }
     ],
     industries: [
@@ -355,7 +355,7 @@ Pentru clienți din industrie sau agricultură din România, Gamak înseamnă ac
     keyProducts: [
       { name: "Motoare asincrone trifazate seria AGM", description: "Motoare trifazate de joasă tensiune, mărimi de carcasă între 56 și 630, disponibile în variante standard pentru majoritatea aplicațiilor industriale generale." },
       { name: "Motoare antiexplozive (Ex-proof)", description: "Motoare certificate pentru zone cu risc de explozie, parte din gama de joasă tensiune Gamak, pentru instalații din industria chimică sau prelucrarea materialelor combustibile." },
-      { name: "Motoare de medie tensiune", description: "Motoare de medie tensiune între 150 și 3.000 kW, la mărimi de carcasă 315-630, pentru instalații industriale mari unde joasa tensiune nu mai e eficientă." },
+      { name: "Motoare de medie tensiune", description: "Motoare de medie tensiune între 150 și 3.000 kW, la mărimi de carcasă 315-630, pentru instalații industriale mari unde joasă tensiune nu mai e eficientă." },
       { name: "Motoare monofazate", description: "Motoare monofazate din gama de joasă tensiune, pentru aplicații de putere mai mică unde nu există alimentare trifazată disponibilă." }
     ],
     industries: [
@@ -381,7 +381,7 @@ Pentru clienți din industrie sau agricultură din România, Gamak înseamnă ac
       { code: "Medium Voltage Motors", description: "motoare de medie tensiune, 150-3.000 kW" }
     ],
     faq: [
-      { q: "Ce plajă de puteri acoperă Gamak?", a: "Gamak produce motoare de la 0,06 kW până la 4.000 kW, combinând joasa tensiune (mărimi de carcasă 56-630) cu media tensiune (150-3.000 kW, mărimi 315-630), plus generatoare eoliene de 5 MW." },
+      { q: "Ce plajă de puteri acoperă Gamak?", a: "Gamak produce motoare de la 0,06 kW până la 4.000 kW, combinând joasă tensiune (mărimi de carcasă 56-630) cu media tensiune (150-3.000 kW, mărimi 315-630), plus generatoare eoliene de 5 MW." },
       { q: "Are Gamak motoare pentru zone cu risc de explozie?", a: "Da, Gamak produce o linie de motoare antiexplozive (Ex-proof) în gama de joasă tensiune, alături de variante speciale pentru extracția fumului și pentru concasoare de piatră." },
       { q: "Livrați motoare Gamak în România și cât durează?", a: "Aducem motoare Gamak la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de tensiune și mărimea de carcasă." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor Gamak?", a: "Trimiteți puterea în kW, mărimea de carcasă dacă o cunoașteți, tensiunea de alimentare (joasă sau medie), numărul de poli și dacă aplicația necesită certificare antiexplozivă sau variantă specială." },

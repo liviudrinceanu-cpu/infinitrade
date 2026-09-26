@@ -9,13 +9,21 @@ export const metadata = {
   alternates: {
     canonical: `${config.site.url}/gdpr`,
   },
+  openGraph: {
+    title: 'GDPR - Protecția Datelor | Infinitrade Romania',
+    description: 'Informații GDPR și drepturile dumneavoastră conform Regulamentului (UE) 2016/679 privind protecția datelor personale.',
+    url: `${config.site.url}/gdpr`,
+    siteName: 'Infinitrade Romania',
+    locale: 'ro_RO',
+    type: 'website',
+  },
 };
 
 export default function GDPRPage() {
   return (
     <>
       <Header />
-      <main className={styles.main}>
+      <main id="main-content" className={styles.main}>
         <div className={styles.container}>
           <h1>GDPR - Protecția Datelor Personale</h1>
           <p className={styles.lastUpdated}>Ultima actualizare: Ianuarie 2026</p>

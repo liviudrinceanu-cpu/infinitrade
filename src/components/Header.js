@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 // Removed framer-motion - using CSS transitions for better performance (~30KB savings)
 import { Menu, X, ChevronDown, Phone, Mail, Clock, Search, ShoppingCart, Plus, Trash2 } from 'lucide-react';
-import { navigation, secondaryNavigation } from '@/data/products';
+import { navigation, secondaryNavigation } from '@/data/navigation';
 import { HEADER_CATEGORY_MENUS } from '@/data/headerMenus';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { debounce } from '@/lib/utils';
@@ -274,7 +274,7 @@ export default function Header() {
                               </Link>
                             </div>
                             <div className={styles.dropdownBrandsCol}>
-                              <span className={styles.dropdownLabel}>Branduri de top</span>
+                              <span className={styles.dropdownLabel}>Branduri principale</span>
                               <div className={styles.brandTags}>
                                 {menu.topBrands.map((brand) => (
                                   <Link

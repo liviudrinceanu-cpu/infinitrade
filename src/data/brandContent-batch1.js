@@ -26,7 +26,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
     keyProducts: [
       {
         name: 'CR/CRN (Pompe Centrifugale Multietajate)',
-        description: 'Seria CR e "calul de bătaie" al Grundfos pentru aplicații industriale. Pompe verticale multietajate din inox AISI 304/316, debite de la 1 la 125 m³/h, înălțimi de pompare până la 340 metri. Perfecte pentru: sisteme de boost în clădiri înalte, procese industriale, instalații de osmozare inversă, sisteme de stingere incendii. Varianta CRN (N = Normala) e standard pentru apă curată, varianta CRI (I = Inline) se montează direct pe țeavă fără flanșe. Rezistență chimică excelentă, silențioase, compacte. Sunt pompele pe care le vezi cel mai des în spitale, hoteluri, fabrici de băuturi.'
+        description: 'Seria CR e "calul de bătaie" al Grundfos pentru aplicații industriale. Pompe verticale multietajate din inox AISI 304/316, debite de la 1 la 125 m³/h, înălțimi de pompare până la 340 metri. Perfecte pentru: sisteme de boost în clădiri înalte, procese industriale, instalații de osmozare inversă, sisteme de stingere incendii. Varianta CRN (N = Normală) e standard pentru apă curată, varianta CRI (I = Inline) se montează direct pe țeavă fără flanșe. Rezistență chimică excelentă, silențioase, compacte. Sunt pompele pe care le vezi cel mai des în spitale, hoteluri, fabrici de băuturi.'
       },
       {
         name: 'SP/SQ (Pompe Submersibile pentru Puțuri)',
@@ -101,7 +101,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "code": "CMB/CMBE",
-        "description": "Set compact de presurizare pentru alimentare cu apa"
+        "description": "Set compact de presurizare pentru alimentare cu apă"
       },
       {
         "code": "CONLIFT1",
@@ -121,11 +121,11 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "code": "MULTILIFT",
-        "description": "Statie compacta de pompare pentru ape uzate menajere"
+        "description": "Stație compactă de pompare pentru ape uzate menajere"
       },
       {
         "code": "SB/SBA",
-        "description": "Pompa submersibila multietajata pentru hidrofor casnic"
+        "description": "Pompa submersibilă multietajată pentru hidrofor casnic"
       },
       {
         "code": "SCALA",
@@ -133,7 +133,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "code": "SE/SL",
-        "description": "Pompa submersibila pentru canalizare, mai multe game de putere"
+        "description": "Pompa submersibilă pentru canalizare, mai multe game de putere"
       },
       {
         "code": "SOLOLIFT2",
@@ -141,15 +141,15 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "code": "SP",
-        "description": "Pompa submersibila din inox pentru put forat"
+        "description": "Pompa submersibilă din inox pentru puț forat"
       },
       {
         "code": "SQ",
-        "description": "Pompa submersibila compacta pentru apa subterana din locuinte"
+        "description": "Pompa submersibilă compactă pentru apă subterană din locuințe"
       },
       {
         "code": "SQE",
-        "description": "Varianta SQ cu presiune constanta reglabila electronic"
+        "description": "Varianta SQ cu presiune constantă reglabilă electronic"
       },
       {
         "code": "TP/TPE",
@@ -157,11 +157,11 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "code": "UNILIFT AP",
-        "description": "Pompa submersibila pentru ape uzate, gama Unilift"
+        "description": "Pompa submersibilă pentru ape uzate, gama Unilift"
       },
       {
         "code": "UNILIFT KP",
-        "description": "Pompa submersibila compacta din inox pentru apa curata"
+        "description": "Pompa submersibilă compactă din inox pentru apă curată"
       },
       {
         "code": "UP/UPS Series 100",
@@ -183,10 +183,10 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "q": "Ce diferență este între seriile SB/SBA și SQ la Grundfos?",
-        "a": "SB/SBA sunt pompe submersibile multietajate montate lângă rezervorul hidrofor, potrivite pentru presurizarea apei într-o locuință. SQ este introdusă direct în put sau foraj și alimentează gospodăria cu apă subterană de la adâncime. Alegerea corectă depinde de sursa de apă disponibilă și de adâncimea forajului, nu doar de debitul dorit de beneficiar."
+        "a": "SB/SBA sunt pompe submersibile multietajate montate lângă rezervorul hidrofor, potrivite pentru presurizarea apei într-o locuință. SQ este introdusă direct în puț sau foraj și alimentează gospodăria cu apă subterană de la adâncime. Alegerea corectă depinde de sursa de apă disponibilă și de adâncimea forajului, nu doar de debitul dorit de beneficiar."
       },
       {
-        "q": "Ce echivalent Grundfos exista pentru un circulator vechi neetichetat?",
+        "q": "Ce echivalent Grundfos există pentru un circulator vechi neetichetat?",
         "a": "Când codul original nu se mai citește, comparăm distanța dintre flanse, diametrul racordului și curba de presiune-debit cu gamele actuale MAGNA sau ALPHA din documentația oficială. Un desen cotat sau câteva fotografii clare ale corpului pompei ajută mult identificarea. Confirmarea finală se face doar după verificarea parametrilor hidraulici reali ai instalației, nu doar după aspectul exterior al pompei."
       }
     ],
@@ -292,11 +292,11 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "code": "Etabloc",
-        "description": "Pompa monobloc cu invertor de frecventa integrat"
+        "description": "Pompa monobloc cu invertor de frecvență integrat"
       },
       {
         "code": "Etachrom",
-        "description": "Pompă cu motor cu reluctanță sincronă, fără magneti"
+        "description": "Pompă cu motor cu reluctanță sincronă, fără magneți"
       },
       {
         "code": "Movitec",
@@ -304,7 +304,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "code": "Amarex",
-        "description": "Pompa submersibila verticala pentru instalare umeda"
+        "description": "Pompa submersibilă verticală pentru instalare umedă"
       },
       {
         "code": "Sewatec",
@@ -312,7 +312,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "code": "Omega",
-        "description": "Pompa cu voluta axial divizata, rotor cu dubla intrare"
+        "description": "Pompa cu voluta axial divizată, rotor cu dublă intrare"
       },
       {
         "code": "Multitec",
@@ -324,7 +324,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "code": "CPK/CPKN",
-        "description": "Pompa cu voluta radial divizata, constructie back pull-out"
+        "description": "Pompa cu voluta radial divizată, construcție back pull-out"
       },
       {
         "code": "MegaCPK",
@@ -336,7 +336,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "code": "BOAX",
-        "description": "Vana fluture cu disc centrat, etansare elastomer sau plastic"
+        "description": "Vană fluture cu disc centrat, etanșare elastomer sau plastic"
       },
       {
         "code": "DANAIS",
@@ -344,7 +344,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "code": "ISORIA",
-        "description": "Vana fluture cu disc centrat, mai multe configuratii de corp"
+        "description": "Vană fluture cu disc centrat, mai multe configurații de corp"
       },
       {
         "code": "NORI",
@@ -357,7 +357,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
     ],
     faq: [
       {
-        "q": "Ce inseamna literele din codul unei pompe KSB, de exemplu Etanorm G?",
+        "q": "Ce înseamnă literele din codul unei pompe KSB, de exemplu Etanorm G?",
         "a": "Numele de bază arată familia constructivă, iar sufixele indică varianta: materialul carcasei, tipul de etanșare sau montajul back pull-out. La Etanorm G, sufixul marchează o execuție specială față de modelul standard din catalog. Pentru identificarea completă verificăm întotdeauna denumirea tipărită pe plăcuța pompei împreună cu fișa tehnică publicată de KSB, nu doar litera finală."
       },
       {
@@ -373,7 +373,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
         "a": "Etanorm este o pompă monobloc clasică, montată pe un postament separat, potrivită pentru majoritatea aplicațiilor industriale generale. Etaline are o construcție în linie, cu racorduri de aspirație și refulare pe aceeași axă, ceea ce reduce spațiul de montaj în centrale termice sau stații compacte. Alegerea depinde de configurația conductelor și de spațiul disponibil în instalație."
       },
       {
-        "q": "Cum gasesc o vana KSB echivalenta pentru o instalatie mai veche?",
+        "q": "Cum găsesc o vană KSB echivalentă pentru o instalație mai veche?",
         "a": "Comparăm diametrul nominal, presiunea de lucru și tipul de etanșare cu gamele actuale BOA, BOAX sau ISORIA din documentația oficială. Un desen cotat al flanselor și o descriere a mediului vehiculat ajută mult la încadrarea corectă. Confirmarea finală se face după verificarea parametrilor reali ai conductei, nu doar după aspectul general al vanei existente."
       }
     ],
@@ -406,7 +406,7 @@ Un alt punct forte e gama Wilo pentru drainage (drenaj și evacuare ape uzate). 
 Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetooth și aplicație Wilo-Assistant pentru configurare/diagnosticare de pe telefon. Modelele mai mari (CronoLine, VeroLine) au conectivitate Modbus/BACnet pentru integrare în BMS (Building Management Systems). Pentru un facility manager care administrează 10 clădiri, asta înseamnă că poate vedea toate pompele pe un dashboard central, poate detecta probleme înainte să apară defecțiuni, și poate optimiza consumul automat. Tehnologie de viitor, disponibilă azi.`,
 
     whyChoose: [
-      'Lider european în pompe pentru building services — peste 8,000 de angajați și prezență în 70+ țări',
+      'Producător european de referință în pompe pentru building services, cu prezență internațională',
       'Eficiență energetică record: seria Stratos MAXO cu IE5+ reduce consumul electric cu până la 80% față de pompele vechi',
       'Specializare în drainage și evacuare ape uzate: DrainLift, DrainBox, EMUport pentru subsoluri, băi, bucătării comerciale',
       'Integrare smart completă: aplicație Wilo-Assistant pentru configurare pe telefon, conectivitate Modbus/BACnet pentru BMS',
@@ -417,7 +417,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
     keyProducts: [
       {
         name: 'Stratos MAXO (Pompe de Circulație Ultra-Eficiente)',
-        description: 'Seria Stratos MAXO e "Rolls-Royce-ul" pompelor de circulație pentru instalații termice și de climatizare. Motor EC cu magneti permanenți, eficiență IE5+ (cea mai înaltă clasă din lume), consum electric cu 80% mai mic decât pompele clasice. Debite de la 2 la 140 m³/h, înălțimi de pompare până la 16 metri. Control inteligent cu 4 moduri de reglare: presiune constantă, presiune variabilă, temperatură diferențială, adaptare automată (Dynamic Adapt). Aplicații: sisteme de încălzire în clădiri comerciale/rezidențiale, sisteme de climatizare, districte termice mici și medii. Display TFT color, conectivitate Bluetooth + Wilo-Assistant app, diagnosticare avansată cu alerte predictive. Pentru un administrator de clădiri care vrea să reducă costurile cu energia, Stratos MAXO se amortizează în 2-3 ani doar din economiile la curent.'
+        description: 'Seria Stratos MAXO e "Rolls-Royce-ul" pompelor de circulație pentru instalații termice și de climatizare. Motor EC cu magneți permanenți, eficiență IE5+ (cea mai înaltă clasă din lume), consum electric cu 80% mai mic decât pompele clasice. Debite de la 2 la 140 m³/h, înălțimi de pompare până la 16 metri. Control inteligent cu 4 moduri de reglare: presiune constantă, presiune variabilă, temperatură diferențială, adaptare automată (Dynamic Adapt). Aplicații: sisteme de încălzire în clădiri comerciale/rezidențiale, sisteme de climatizare, districte termice mici și medii. Display TFT color, conectivitate Bluetooth + Wilo-Assistant app, diagnosticare avansată cu alerte predictive. Pentru un administrator de clădiri care vrea să reducă costurile cu energia, Stratos MAXO se amortizează în 2-3 ani doar din economiile la curent.'
       },
       {
         name: 'DrainLift / DrainBox (Stații de Pompare Ape Uzate)',
@@ -464,15 +464,15 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
     productCodes: [
       {
         "code": "Stratos MAXO",
-        "description": "Circulator rotor umed cu reglare automata a diferentei de presiune"
+        "description": "Circulator rotor umed cu reglare automată a diferenței de presiune"
       },
       {
         "code": "Stratos MAXO-D",
-        "description": "Varianta dubla a Stratos MAXO pentru redundanta"
+        "description": "Varianta dublă a Stratos MAXO pentru redundanță"
       },
       {
         "code": "Stratos MAXO-Z",
-        "description": "Varianta pentru recirculare apa calda menajera"
+        "description": "Varianta pentru recirculare apă caldă menajeră"
       },
       {
         "code": "Stratos GIGA",
@@ -484,7 +484,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       },
       {
         "code": "TOP-S",
-        "description": "Circulator clasic cu mai multe trepte de turatie"
+        "description": "Circulator clasic cu mai multe trepte de turație"
       },
       {
         "code": "VeroLine-IPL",
@@ -496,15 +496,15 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       },
       {
         "code": "CronoNorm-NL",
-        "description": "Pompa end-suction normalizata pentru industrie"
+        "description": "Pompa end-suction normalizată pentru industrie"
       },
       {
         "code": "Helix EXCEL",
-        "description": "Pompa verticala multietajata de mare eficienta"
+        "description": "Pompa verticală multietajată de mare eficiență"
       },
       {
         "code": "Helix V",
-        "description": "Pompa verticala multietajata pentru presurizare"
+        "description": "Pompa verticală multietajată pentru presurizare"
       },
       {
         "code": "MVI",
@@ -516,27 +516,27 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       },
       {
         "code": "Actun ZETOS",
-        "description": "Pompa pentru foraj de mare adancime"
+        "description": "Pompa pentru foraj de mare adâncime"
       },
       {
         "code": "Sub TWI 4",
-        "description": "Pompa submersibila de foraj, diametru 4 toli"
+        "description": "Pompa submersibilă de foraj, diametru 4 țoli"
       },
       {
         "code": "Sub TWU 4",
-        "description": "Pompa submersibila de foraj, gama TWU"
+        "description": "Pompa submersibilă de foraj, gama TWU"
       },
       {
         "code": "Rexa PRO",
-        "description": "Pompa submersibila pentru ape uzate cu impeler liber"
+        "description": "Pompa submersibilă pentru ape uzate cu impeler liber"
       },
       {
         "code": "Rexa SUPRA",
-        "description": "Pompa submersibila compacta pentru ape reziduale"
+        "description": "Pompa submersibilă compactă pentru ape reziduale"
       },
       {
         "code": "Rexa NORM",
-        "description": "Pompa submersibila normalizata pentru statii de pompare"
+        "description": "Pompa submersibilă normalizată pentru stații de pompare"
       },
       {
         "code": "EMU TR",
@@ -546,22 +546,22 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
     faq: [
       {
         "q": "Cum citesc denumirea unei pompe Wilo, de exemplu Stratos MAXO-D?",
-        "a": "Numele familiei arată functia de bază, iar sufixul descrie variantă constructivă: D înseamnă montaj dublu pentru redundantă, iar Z marchează folosirea la recirculare de apă caldă menajera. Pentru puterea și dimensiunile exacte verificăm întotdeauna fișa tehnică Wilo corespunzătoare gamei respective, deoarece același nume de bază poate acoperi mai multe trepte de putere și diametre de racord."
+        "a": "Numele familiei arată funcția de bază, iar sufixul descrie variantă constructivă: D înseamnă montaj dublu pentru redundantă, iar Z marchează folosirea la recirculare de apă caldă menajeră. Pentru puterea și dimensiunile exacte verificăm întotdeauna fișa tehnică Wilo corespunzătoare gamei respective, deoarece același nume de bază poate acoperi mai multe trepte de putere și diametre de racord."
       },
       {
         "q": "Aduceți pompe Wilo la comandă în România?",
-        "a": "Da, aducem la comandă modele din gamele Stratos, Helix, CronoLine sau Rexa, după codul exact transmis de client. Nu avem această gamă pe raft și urmarim informațiile publicate de Wilo despre disponibilitate; termenul obișnuit este de 2-4 săptămâni. Este de ajutor să trimiteti fotografia plăcuței pompei existente pentru identificarea corectă a variantei și a puterii motorului."
+        "a": "Da, aducem la comandă modele din gamele Stratos, Helix, CronoLine sau Rexa, după codul exact transmis de client. Nu avem această gamă pe raft și urmărim informațiile publicate de Wilo despre disponibilitate; termenul obișnuit este de 2-4 săptămâni. Este de ajutor să trimiteți fotografia plăcuței pompei existente pentru identificarea corectă a variantei și a puterii motorului."
       },
       {
-        "q": "Ce date sunt necesare pentru o oferta la o pompa Wilo?",
-        "a": "Este nevoie de denumirea completă a modelului, debitul și înălțimea de pompare, temperatura mediului vehiculat și tensiunea de alimentare disponibilă. Pentru circulatoare, adăugați diametrul racordului și distanța dintre flanse. Când pompa este deja montată, o fotografie clară a etichetei de pe carcasă reduce mult riscul de a alege o variantă greșită din aceeași familie Wilo."
+        "q": "Ce date sunt necesare pentru o ofertă la o pompă Wilo?",
+        "a": "Este nevoie de denumirea completă a modelului, debitul și înălțimea de pompare, temperatura mediului vehiculat și tensiunea de alimentare disponibilă. Pentru circulatoare, adăugați diametrul racordului și distanța dintre flanșe. Când pompa este deja montată, o fotografie clară a etichetei de pe carcasă reduce mult riscul de a alege o variantă greșită din aceeași familie Wilo."
       },
       {
         "q": "Care e diferența dintre Wilo Stratos MAXO și TOP-S?",
         "a": "Stratos MAXO este un circulator electronic cu reglare automată a diferenței de presiune și consum redus de energie, potrivit pentru clădiri moderne. TOP-S este o gamă clasică, cu trepte fixe de turație, mai simplă și des întâlnită în instalații mai vechi. Alegerea depinde de cerințele de eficiență energetică și de tipul controlerului deja existent în instalație."
       },
       {
-        "q": "Cum gasesc un inlocuitor Wilo pentru o pompa submersibila veche?",
+        "q": "Cum găsesc un înlocuitor Wilo pentru o pompă submersibilă veche?",
         "a": "Comparăm diametrul corpului pompei, adâncimea de montaj și curba debit-presiune cu gamele actuale Sub TWI, Rexa sau Actun din documentația producătorului. O fotografie a plăcuței și o descriere a forajului sau bazinului ajută mult identificarea. Confirmarea finală ține cont de parametrii reali ai instalației, nu doar de dimensiunea aproximativă a pompei scoase din put."
       }
     ],
@@ -594,7 +594,7 @@ Seria SINAMICS (convertizoare de frecvență) e la fel de impresionantă: de la 
 Un alt punct forte Siemens e integrarea completă: poți avea un sistem automatizat 100% Siemens — motor SIMOTICS + drive SINAMICS + PLC SIMATIC S7-1500 + HMI Comfort Panel + soft de programare TIA Portal + platformă cloud MindSphere pentru monitorizare. Totul comunică perfect, totul e certificat împreună, totul are garanție de la același producător. Pentru un integrator de sisteme, asta simplifică enorm proiectarea și punerea în funcțiune.`,
 
     whyChoose: [
-      'Lider global cu 303,000+ angajați și prezență în 190+ țări — când cumperi Siemens, cumperi fiabilitate germană de top',
+      'Producător global cu prezență internațională — când cumperi Siemens, cumperi fiabilitate germană de top',
       'Gamă completă motoare electrice SIMOTICS: de la 0.12 kW la 100,000+ kW, toate clasele de eficiență (IE2 până la IE5)',
       'Seria SINAMICS (drive-uri): de la micro-drive-uri pentru ventilatoare până la mega-drive-uri pentru laminoare și minerit',
       'Integrare totală în ecosistemul Siemens: TIA Portal pentru programare, SIMATIC PLC-uri, HMI Comfort Panels, cloud MindSphere',
@@ -653,7 +653,7 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
     productCodes: [
       {
         "code": "SIMATIC S7-1200 G2",
-        "description": "PLC compact de generatie noua pentru automatizari mici"
+        "description": "PLC compact de generație nouă pentru automatizări mici"
       },
       {
         "code": "SIMATIC S7-1500",
@@ -669,11 +669,11 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       },
       {
         "code": "SIMATIC S7-1500 R/H CPU",
-        "description": "CPU redundanta pentru disponibilitate ridicata a instalatiei"
+        "description": "CPU redundantă pentru disponibilitate ridicată a instalației"
       },
       {
         "code": "SIMATIC S7-300",
-        "description": "Controler modular, compact, folosit pe scara larga"
+        "description": "Controler modular, compact, folosit pe scară largă"
       },
       {
         "code": "SIMATIC S7-400",
@@ -681,7 +681,7 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       },
       {
         "code": "SIMATIC ET 200",
-        "description": "Periferie descentralizata pentru configuratii centralizate sau distribuite"
+        "description": "Periferie descentralizată pentru configurații centralizate sau distribuite"
       },
       {
         "code": "TIA Portal",
@@ -699,7 +699,7 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       },
       {
         "q": "Livrați echipamente Siemens în România la comandă?",
-        "a": "Da, aducem la comandă module din gamele SIMATIC S7-1200, S7-1500 sau ET 200, pe bază referintei exacte cerute de client. Nu ținem această gamă pe raft, iar informațiile de disponibilitate provin din surse publice ale producătorului; termenul obișnuit este de 2-4 săptămâni la comandă. Este util să trimiteti codul complet de comandă de pe eticheta modulului existent."
+        "a": "Da, aducem la comandă module din gamele SIMATIC S7-1200, S7-1500 sau ET 200, pe bază referinței exacte cerute de client. Nu ținem această gamă pe raft, iar informațiile de disponibilitate provin din surse publice ale producătorului; termenul obișnuit este de 2-4 săptămâni la comandă. Este util să trimiteți codul complet de comandă de pe eticheta modulului existent."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un PLC Siemens?",
@@ -747,7 +747,7 @@ Seria ACS (ABB Control Systems) pentru drive-uri e la fel de impresionantă: de 
 Un lucru pe care ABB îl face excepțional e platforma ABB Ability — cloud IoT pentru conectarea echipamentelor industriale. Poți avea un motor ABB + drive ACS880 + gateway ABB Ability, și vezi în timp real (de pe telefon sau laptop) ce viteză are motorul, cât curent consumă, ce temperatură are, și dacă sunt probleme iminente. Pentru o companie cu 50 de stații de pompare răspândite pe 100 km, asta înseamnă reducere dramatică a costurilor de mentenanță (mergi la fața locului doar când e cu adevărat nevoie).`,
 
     whyChoose: [
-      'Lider global cu peste 105,000 angajați și prezență în 100+ țări — know-how combinat de peste 130 de ani (ASEA + BBC)',
+      'Producător global cu prezență internațională — know-how combinat de peste 130 de ani (ASEA + BBC)',
       'Motoare electrice cu eficiența cea mai ridicată din lume: seria IE5 SynRM reduce consumul cu 20-30% față de IE3 standard',
       'Seria ACS (drive-uri): de la micro la mega (0.18 kW până la 100,000+ kW), control vectorial avansat, regenerare energie',
       'Soft-startere PSR/PST: protejează motoarele și rețeaua electrică, reduc curentul de pornire cu 70%, prelungesc viața motorului',
@@ -810,11 +810,11 @@ Un lucru pe care ABB îl face excepțional e platforma ABB Ability — cloud IoT
       },
       {
         "code": "ACS880 single drives",
-        "description": "Convertizor de frecventa industrial pentru motoare individuale"
+        "description": "Convertizor de frecvență industrial pentru motoare individuale"
       },
       {
         "code": "ACS580",
-        "description": "Convertizor de frecventa de uz general pentru industrie"
+        "description": "Convertizor de frecvență de uz general pentru industrie"
       },
       {
         "code": "ACS580-01",
@@ -830,15 +830,15 @@ Un lucru pe care ABB îl face excepțional e platforma ABB Ability — cloud IoT
       },
       {
         "code": "IE5 SynRM",
-        "description": "Motor cu reluctanta sincrona de eficienta ultra ridicata"
+        "description": "Motor cu reluctanță sincronă de eficiență ultra ridicată"
       },
       {
         "code": "IE6 SynRM",
-        "description": "Motor cu reluctanta sincrona de eficienta maxima, generatie noua"
+        "description": "Motor cu reluctanță sincronă de eficiență maximă, generație nouă"
       },
       {
         "code": "LV Titanium VSM",
-        "description": "Platforma de motor cu turatie variabila, eficienta IE5"
+        "description": "Platforma de motor cu turație variabilă, eficiență IE5"
       },
       {
         "code": "General Performance motors",
@@ -855,12 +855,12 @@ Un lucru pe care ABB îl face excepțional e platforma ABB Ability — cloud IoT
         "a": "Da, aducem la comandă convertizoare din gamă ACS580 sau ACS880 și motoare din gamele IE5 SynRM, pe bază codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni la comandă. Recomandăm transmiterea codului complet de pe eticheta echipamentului existent."
       },
       {
-        "q": "Ce date trimit pentru o oferta la un motor ABB?",
+        "q": "Ce date trimit pentru o ofertă la un motor ABB?",
         "a": "Este nevoie de puterea în kW, turația nominală, clasa de eficiență dorită, tipul de montaj și tensiunea de alimentare disponibilă în instalație. Dacă înlocuiți un motor existent, o fotografie a plăcuței de identificare ajută la încadrarea corectă în gama IE3, IE4 sau IE5 SynRM, evitând o comandă cu dimensiuni de talpă incompatibile."
       },
       {
         "q": "Ce diferență este între ABB ACS580 și ACS880?",
-        "a": "ACS580 este o gamă de uz general, gândită pentru aplicații industriale obișnuite cu configurare simplificata. ACS880 oferă funcții avansate de control și module suplimentare, fiind potrivit pentru aplicații complexe cu cerințe ridicate de precizie sau redundantă. Alegerea depinde de complexitatea procesului și de nevoia de funcții extinse de automatizare."
+        "a": "ACS580 este o gamă de uz general, gândită pentru aplicații industriale obișnuite cu configurare simplificată. ACS880 oferă funcții avansate de control și module suplimentare, fiind potrivit pentru aplicații complexe cu cerințe ridicate de precizie sau redundantă. Alegerea depinde de complexitatea procesului și de nevoia de funcții extinse de automatizare."
       }
     ],
     evidenceClass: 'gsc-only',

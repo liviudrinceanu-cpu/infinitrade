@@ -220,7 +220,7 @@ export const equipmentCategories = [
         applications: ['Instalații hidraulice', 'Rețele pneumatice', 'Utilaje mobile', 'Service și mentenanță']
       }
     ],
-    accessories: ['Filtre hidraulice și pneumatice', 'Acumulatoare hidraulice', 'Manometre și presostate', 'Tevi și țevi hidraulice', 'Unități de mentenanță FRL', 'Multiplicatori de presiune', 'Racorduri rapide'],
+    accessories: ['Filtre hidraulice și pneumatice', 'Acumulatoare hidraulice', 'Manometre și presostate', 'Țevi și furtunuri hidraulice', 'Unități de mentenanță FRL', 'Multiplicatori de presiune', 'Racorduri rapide'],
     services: ['Proiectare circuite hidraulice', 'Dimensionare componente', 'Punere în funcțiune sisteme', 'Training utilizatori', 'Mentenanță preventivă']
   },
   {

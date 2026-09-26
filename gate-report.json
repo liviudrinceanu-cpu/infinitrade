@@ -1,0 +1,1247 @@
+{
+  "generatedAt": "2026-09-26T23:18:29.172Z",
+  "batch": null,
+  "target": "/home/claude/infinitrade-build",
+  "summary": {
+    "total": 20,
+    "passed": 9,
+    "failed": 2,
+    "not_implemented": 2,
+    "errored": 4
+  },
+  "gates": [
+    {
+      "gate": "G1",
+      "status": "pass",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 0,
+      "meta": {
+        "categories": 16,
+        "brands": 1336,
+        "seriesFilesChecked": 20
+      }
+    },
+    {
+      "gate": "G2",
+      "status": "pass",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 0,
+      "meta": {
+        "brands": 1336,
+        "categories": 16,
+        "seriesFilesChecked": 20
+      }
+    },
+    {
+      "gate": "G3",
+      "status": "pass",
+      "type": "script",
+      "verified": "deploy",
+      "findingCount": 0,
+      "meta": {
+        "expect": "1529/1404",
+        "ledger": {
+          "brandRoutes": 1336,
+          "seriesRoutes": 22,
+          "productTypeRoutes": 95,
+          "accessoryRoutes": 0,
+          "otherRoutes": 76,
+          "prerendered": 1529,
+          "sitemap": 1404,
+          "breakdown": {
+            "otherRoutes": {
+              "static": 19,
+              "categories": 16,
+              "industries": 15,
+              "blog": 21,
+              "caseStudies": 5
+            },
+            "noindexBrands": 125
+          },
+          "notes": [
+            "plan-v2/coverage-policy.json not found under --corpus — skipped the 391-row cross-check.",
+            "src/data/accessories/ does not exist yet — accessoryRoutes = 0. Per decisions-architecture.md each ready category gets exactly one /<categorie>/accesorii-consumabile route."
+          ]
+        },
+        "notes": [
+          "plan-v2/coverage-policy.json not found under --corpus — skipped the 391-row cross-check.",
+          "src/data/accessories/ does not exist yet — accessoryRoutes = 0. Per decisions-architecture.md each ready category gets exactly one /<categorie>/accesorii-consumabile route."
+        ]
+      }
+    },
+    {
+      "gate": "G4",
+      "status": "pass",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 0,
+      "meta": {
+        "filesChecked": 227,
+        "candidateFiles": 227
+      }
+    },
+    {
+      "gate": "G5",
+      "status": "error",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 1
+    },
+    {
+      "gate": "G6",
+      "status": "fail",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 23,
+      "meta": {
+        "demandPath": null,
+        "gscPath": null,
+        "crosswalkPath": null,
+        "coveragePath": null,
+        "worklistPath": null,
+        "seriesChecked": 22,
+        "productTypesChecked": 0,
+        "measuredCeiling": null
+      }
+    },
+    {
+      "gate": "G7",
+      "status": "error",
+      "type": "script-model",
+      "verified": "cloud",
+      "findingCount": 1
+    },
+    {
+      "gate": "G8",
+      "status": "needs_model",
+      "type": "script-model",
+      "verified": "cloud",
+      "findingCount": 13,
+      "meta": {
+        "candidateCount": 13,
+        "strict": false
+      }
+    },
+    {
+      "gate": "G9",
+      "status": "needs_model",
+      "type": "script-model",
+      "verified": "cloud",
+      "findingCount": 36,
+      "meta": {
+        "candidateCount": 36,
+        "nameListSize": 0
+      }
+    },
+    {
+      "gate": "G10",
+      "status": "error",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 1
+    },
+    {
+      "gate": "G11",
+      "status": "pass",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 0,
+      "meta": {
+        "seriesChecked": 44,
+        "worklistPath": null,
+        "productTypesChecked": 0
+      }
+    },
+    {
+      "gate": "G12",
+      "status": "error",
+      "type": "script",
+      "verified": "deploy",
+      "findingCount": 1
+    },
+    {
+      "gate": "G13",
+      "status": "not_implemented",
+      "type": "script",
+      "verified": "deploy",
+      "findingCount": 1
+    },
+    {
+      "gate": "G14",
+      "status": "fail",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 51,
+      "meta": {
+        "factsPath": "/home/claude/infinitrade-build/src/data/entityFacts.json",
+        "allowListSize": 5,
+        "pagesChecked": 1228,
+        "candidateSentences": 55283,
+        "allowListedHits": 0,
+        "duplicateSentenceGroups": 51
+      }
+    },
+    {
+      "gate": "G15",
+      "status": "pass",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 0,
+      "meta": {
+        "filesScanned": [
+          "src/lib/schema/brand.js",
+          "src/lib/schema/category.js"
+        ]
+      }
+    },
+    {
+      "gate": "G16",
+      "status": "pass",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 0,
+      "meta": {
+        "newPageContentDirsChecked": [
+          "productTypeContent",
+          "series",
+          "accessories"
+        ],
+        "filesChecked": 37,
+        "candidatesChecked": 0
+      }
+    },
+    {
+      "gate": "G17",
+      "status": "not_implemented",
+      "type": "script",
+      "verified": "deploy",
+      "findingCount": 1
+    },
+    {
+      "gate": "G18",
+      "status": "pass",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 3,
+      "meta": {
+        "filesScanned": [
+          "src/app/[category]/CategoryClient.js",
+          "src/app/[category]/[type]/page.js",
+          "src/app/[category]/opengraph-image.js",
+          "src/app/[category]/page.js",
+          "src/app/blog/[slug]/opengraph-image.js",
+          "src/app/blog/[slug]/page.js",
+          "src/app/blog/page.js",
+          "src/app/brand/[brandSlug]/BrandPageClient.js",
+          "src/app/brand/[brandSlug]/[seriesSlug]/page.js",
+          "src/app/brand/[brandSlug]/opengraph-image.js",
+          "src/app/brand/[brandSlug]/page.js",
+          "src/app/brand/layout.js",
+          "src/app/brand/page.js",
+          "src/app/branduri-sua/page.js",
+          "src/app/certificari/page.js",
+          "src/app/contact/layout.js",
+          "src/app/contact/page.js",
+          "src/app/despre-noi/layout.js",
+          "src/app/despre-noi/page.js",
+          "src/app/echipa/layout.js",
+          "src/app/echipa/page.js",
+          "src/app/echipamente-diverse/page.js",
+          "src/app/error.js",
+          "src/app/faq/page.js",
+          "src/app/gdpr/page.js",
+          "src/app/ghid-achizitii-seap/page.js",
+          "src/app/ghid-comparativ/page.js",
+          "src/app/industrii/[slug]/opengraph-image.js",
+          "src/app/industrii/[slug]/page.js",
+          "src/app/industrii/page.js",
+          "src/app/layout.js",
+          "src/app/not-found.js",
+          "src/app/page.js",
+          "src/app/politica-confidentialitate/page.js",
+          "src/app/politica-cookies/page.js",
+          "src/app/sitemap.js",
+          "src/app/studii-de-caz/[slug]/opengraph-image.js",
+          "src/app/studii-de-caz/[slug]/page.js",
+          "src/app/studii-de-caz/page.js",
+          "src/app/termeni-si-conditii/page.js",
+          "src/app/testimoniale/page.js",
+          "src/components/AuthorBox.js",
+          "src/components/Breadcrumbs.js",
+          "src/components/Categories.js",
+          "src/components/ErrorBoundary.js",
+          "src/components/Features.js",
+          "src/components/Footer.js",
+          "src/components/Header.js",
+          "src/components/Hero.js",
+          "src/components/WebVitals.js",
+          "src/components/admin/SessionProvider.js",
+          "src/components/admin/Sidebar.js",
+          "src/components/admin/StatsCard.js",
+          "src/components/admin/StatusBadge.js"
+        ],
+        "routeCount": 1412
+      }
+    },
+    {
+      "gate": "G19",
+      "status": "pass",
+      "type": "script",
+      "verified": "cloud",
+      "findingCount": 0,
+      "meta": {
+        "factsPath": "/home/claude/infinitrade-build/src/data/entityFacts.json",
+        "filesScanned": 285,
+        "forbiddenValueHits": 0
+      }
+    },
+    {
+      "gate": "G20",
+      "status": "needs_model",
+      "type": "model",
+      "verified": "cloud",
+      "findingCount": 1,
+      "meta": {
+        "needs_model": true,
+        "calls": 0,
+        "batchSize": 10,
+        "pageCount": 0
+      }
+    }
+  ],
+  "findings": [
+    {
+      "gate": "G5",
+      "file": "research/series-sources.tsv",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G5: series-sources.tsv not found (looked under <target>/research/, <target>/, $ITR_CORPUS/research/)."
+    },
+    {
+      "gate": "G6",
+      "file": "-",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: demand-models.json not found (looked in <target>, <target>/plan-v2, $ITR_CORPUS/plan-v2)."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/ari-armaturen.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"ari-armaturen/faba-plus\" (family \"robineti/armaturi abur\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/ari-armaturen.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"ari-armaturen/predex\" (family \"robineti/armaturi abur\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/atos.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"atos/dhi\" (family \"hidraulică/pneumatică\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/becker.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"becker/vtlf\" (family \"suflante/compresoare/vid\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/burster.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"burster/8524\" (family \"senzori/instrumentație\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/deublin.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"deublin/1115\" (family \"componente mecanice\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/euchner.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"euchner/mgb\" (family \"siguranta masini (interblocari usi)\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/gestra.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"gestra/rk-86\" (family \"robineti/armaturi\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/hiwin.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"hiwin/hg\" (family \"componente mecanice\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/keller.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"keller/21y\" (family \"senzori/instrumentație\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/kern.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"kern/316\" (family \"senzori/instrumentație\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/ktr.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"ktr/rotex\" (family \"componente mecanice\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/ktr.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"ktr/bowex-fle-pa\" (family \"componente mecanice\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/leser.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"leser/type-526\" (family \"supape siguranta\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/linak.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"linak/la36\" (family \"automatizări/PLC\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/lowara.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"lowara/e-she\" (family \"pompe\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/mankenberg.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"mankenberg/eb-1-32\" (family \"armaturi/aerisitoare\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/sew.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"sew/movitrac-b-mc07b\" (family \"motoare/reductoare/convertizoare\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/victaulic.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"victaulic/style-743-744\" (family \"robineți/armături\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/walvoil.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"walvoil/dfe20\" (family \"hidraulică/pneumatică\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/wika.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"wika/232-50\" (family \"senzori/instrumentație\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G6",
+      "file": "src/data/series/wika.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G6: series \"wika/cpg1500\" (family \"senzori/instrumentație\") has no demand-models.json row for that brand+family and no GSC code-query impressions — insufficient evidence to exist."
+    },
+    {
+      "gate": "G7",
+      "file": "-",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G7: coverage-policy.json not found (looked in /home/claude/infinitrade-build/coverage-policy.json, /home/claude/infinitrade-build/plan-v2/coverage-policy.json, /home/claude/infinitrade-build/out/plan-v2/coverage-policy.json, /home/claude/b3/corpus/plan-v2/coverage-policy.json)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/blog.js",
+      "line": 1627,
+      "severity": "MAJOR",
+      "message": "G8 candidate (distribuitor-autorizat-oficial-exclusiv): \"distribuitor autorizat\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/blog.js",
+      "line": 1814,
+      "severity": "MAJOR",
+      "message": "G8 candidate (distribuitor-autorizat-oficial-exclusiv): \"distribuitor autorizat\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/blog.js",
+      "line": 1896,
+      "severity": "MAJOR",
+      "message": "G8 candidate (distribuitor-autorizat-oficial-exclusiv): \"distribuitor autorizat\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/blog.js",
+      "line": 2007,
+      "severity": "MAJOR",
+      "message": "G8 candidate (distribuitor-autorizat-oficial-exclusiv): \"distribuitor autorizat\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/brandContent-batch1.js",
+      "line": 2,
+      "severity": "MAJOR",
+      "message": "G8 candidate (distribuitor-autorizat-oficial-exclusiv): \"distribuitor oficial\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/brandContent-batch132.js",
+      "line": 32,
+      "severity": "MAJOR",
+      "message": "G8 candidate (reprezentanta): \"reprezentanții\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/brandContent-batch136.js",
+      "line": 142,
+      "severity": "MAJOR",
+      "message": "G8 candidate (reprezentanta): \"reprezentant\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/brandContent-batch137.js",
+      "line": 163,
+      "severity": "MAJOR",
+      "message": "G8 candidate (reprezentanta): \"reprezentant\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/brandContent-batch139.js",
+      "line": 289,
+      "severity": "MAJOR",
+      "message": "G8 candidate (reprezentanta): \"reprezentant\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/brandContent-batch14.js",
+      "line": 1059,
+      "severity": "MAJOR",
+      "message": "G8 candidate (distribuitor-autorizat-oficial-exclusiv): \"distribuitori autorizați\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/brandContent-batch17.js",
+      "line": 3,
+      "severity": "MAJOR",
+      "message": "G8 candidate (distribuitor-autorizat-oficial-exclusiv): \"distribuitor oficial\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/industryFaq.js",
+      "line": 6,
+      "severity": "MAJOR",
+      "message": "G8 candidate (distribuitor-autorizat-oficial-exclusiv): \"distribuitor autorizat\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G8",
+      "file": "src/data/industryFaq.js",
+      "line": 6,
+      "severity": "MAJOR",
+      "message": "G8 candidate (partener-oficial): \"partener oficial\" — needs model adjudication (context may be an honest disclaimer)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/data/company.js",
+      "line": 33,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"vanzari@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/data/company.js",
+      "line": 34,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/data/company.js",
+      "line": 46,
+      "severity": "MAJOR",
+      "message": "G9 candidate (ro-vat-number): \"RO26209397\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/data/company.js",
+      "line": 47,
+      "severity": "MAJOR",
+      "message": "G9 candidate (registry-number): \"J35/2901/2009\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/data/entityFacts.json",
+      "line": 14,
+      "severity": "MAJOR",
+      "message": "G9 candidate (ro-vat-number): \"RO26209397\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/[category]/CategoryClient.js",
+      "line": 698,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"email@companie.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/admin/echipa/page.js",
+      "line": 237,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"ion@infinitrade.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/admin/login/page.js",
+      "line": 71,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"admin@infinitrade.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/api/contact/route.js",
+      "line": 857,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"noreply@infinitrade.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/api/contact/route.js",
+      "line": 858,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"vanzari@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/api/contact/route.js",
+      "line": 858,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"liviu.drinceanu@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/certificari/page.js",
+      "line": 361,
+      "severity": "MAJOR",
+      "message": "G9 candidate (cui-cif-field): \"CUI\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/certificari/page.js",
+      "line": 361,
+      "severity": "MAJOR",
+      "message": "G9 candidate (ro-vat-number): \"RO26209397\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/certificari/page.js",
+      "line": 364,
+      "severity": "MAJOR",
+      "message": "G9 candidate (registry-number): \"J35/2901/2009\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/contact/page.js",
+      "line": 409,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"vanzari@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/contact/page.js",
+      "line": 410,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"vanzari@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/contact/page.js",
+      "line": 421,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/contact/page.js",
+      "line": 422,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/despre-noi/page.js",
+      "line": 193,
+      "severity": "MAJOR",
+      "message": "G9 candidate (cui-cif-field): \"CUI\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/faq/page.js",
+      "line": 90,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/gdpr/page.js",
+      "line": 113,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/gdpr/page.js",
+      "line": 146,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/ghid-achizitii-seap/page.js",
+      "line": 967,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"vanzari@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/layout.js",
+      "line": 111,
+      "severity": "MAJOR",
+      "message": "G9 candidate (ro-vat-number): \"RO26209397\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/politica-confidentialitate/page.js",
+      "line": 47,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/politica-confidentialitate/page.js",
+      "line": 130,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/politica-confidentialitate/page.js",
+      "line": 57,
+      "severity": "MAJOR",
+      "message": "G9 candidate (cui-cif-field): \"CUI\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/politica-cookies/page.js",
+      "line": 126,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/termeni-si-conditii/page.js",
+      "line": 133,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/termeni-si-conditii/page.js",
+      "line": 37,
+      "severity": "MAJOR",
+      "message": "G9 candidate (cui-cif-field): \"CUI\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/termeni-si-conditii/page.js",
+      "line": 37,
+      "severity": "MAJOR",
+      "message": "G9 candidate (ro-vat-number): \"RO26209397\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "src/app/termeni-si-conditii/page.js",
+      "line": 37,
+      "severity": "MAJOR",
+      "message": "G9 candidate (registry-number): \"J35/2901/2009\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "public/llms.txt",
+      "line": 129,
+      "severity": "MAJOR",
+      "message": "G9 candidate (email): \"secretariat@infinitrade-romania.ro\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "public/llms.txt",
+      "line": 115,
+      "severity": "MAJOR",
+      "message": "G9 candidate (cui-cif-field): \"CUI\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "public/llms.txt",
+      "line": 115,
+      "severity": "MAJOR",
+      "message": "G9 candidate (ro-vat-number): \"RO26209397\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G9",
+      "file": "public/llms.txt",
+      "line": 116,
+      "severity": "MAJOR",
+      "message": "G9 candidate (registry-number): \"J35/2901/2009\" — needs model adjudication (privacy hit: no retry, a confirmed hit discards the batch and the source is re-scrubbed)"
+    },
+    {
+      "gate": "G10",
+      "file": "-",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G10: coverage-policy.json not found (looked in /home/claude/infinitrade-build/coverage-policy.json, /home/claude/infinitrade-build/plan-v2/coverage-policy.json, /home/claude/infinitrade-build/out/plan-v2/coverage-policy.json, /home/claude/b3/corpus/plan-v2/coverage-policy.json)"
+    },
+    {
+      "gate": "G12",
+      "file": "-",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G12: gsc-reference json not found (looked in /home/claude/infinitrade-build/gsc-reference.json, /home/claude/infinitrade-build/gsc-reference-2026-09-07.json, /home/claude/infinitrade-build/plan-v2/checks/gsc-reference-2026-09-07.json, /home/claude/b3/out/plan-v2/checks/gsc-reference-2026-09-07.json, /home/claude/b3/corpus/plan-v2/checks/gsc-reference-2026-09-07.json)"
+    },
+    {
+      "gate": "G13",
+      "file": "-",
+      "line": null,
+      "severity": "INFO",
+      "message": "G13 (Build + exact route count) has no gate script yet at scripts/gates/g13-*.mjs — not implemented."
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (grundfos, wilo) and not in entityFacts.json.boilerplate: \"Debite de la 2 la 140 m³/h, înălțimi de pompare până la 16 metri.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (grundfos, wilo) and not in entityFacts.json.boilerplate: \"CE, ATEX (pentru pompe în zone cu risc de explozie)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 3 pages (abb, ksb, siemens) and not in entityFacts.json.boilerplate: \"CE, ATEX (pentru echipamente în zone cu risc de explozie)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (abb, siemens) and not in entityFacts.json.boilerplate: \"SIL 2 / SIL 3 (Safety Integrity Level pentru aplicații critice)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (abb, siemens) and not in entityFacts.json.boilerplate: \"Petrochimie și Rafinării (motoare și drive-uri pentru procese critice)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (abb, siemens) and not in entityFacts.json.boilerplate: \"Industrie Hârtie și Celuloză (drive-uri pentru mașini de hârtie)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (forbo-siegling, freudenberg) and not in entityFacts.json.boilerplate: \"EU 1935/2004 și EU 10/2011 – reglementări UE alimente\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 3 pages (moog, msa-safety, nilfisk) and not in entityFacts.json.boilerplate: \"ISO 14001:2015 - Management de Mediu producție și operații\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (parker-filtration, pneumax) and not in entityFacts.json.boilerplate: \"reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (rockwell-automation, sick) and not in entityFacts.json.boilerplate: \"CE marking - Conformitate produse pentru piața europeană (EMC, LVD)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (rockwell-automation, schneider) and not in entityFacts.json.boilerplate: \"ATEX - Variatori și PLC-uri pentru zone cu risc explozie\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (rockwell-automation, schneider) and not in entityFacts.json.boilerplate: \"IEC 61131-3 - Standard programare PLC (limbaje ladder, ST, FBD)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (schrack, siemens-electrical) and not in entityFacts.json.boilerplate: \"KEMA certification - Testare și certificare produse (laborator independent)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (trelleborg, wera) and not in entityFacts.json.boilerplate: \"REACH & RoHS — conformitate cu reglementările europene pentru substanțe chimice\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (avk, tsubaki) and not in entityFacts.json.boilerplate: \"ISO 14001 — management de mediu pentru procesele de producție\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (turck, wilo-hvac) and not in entityFacts.json.boilerplate: \"CE & UKCA — marcaj pentru echipamente vândute în UE și UK\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (wago, weidmuller-electric) and not in entityFacts.json.boilerplate: \"CE & UKCA — marcaj pentru produse vândute în UE și UK\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (wago, weidmuller) and not in entityFacts.json.boilerplate: \"UL & cUL — certificări pentru piața nord-americană (UL 1059, CSA C22.2)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (weidmuller, weidmuller-electric) and not in entityFacts.json.boilerplate: \"IECEx & ATEX — componente pentru zone cu risc de explozie\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (weidmuller, weidmuller-electric) and not in entityFacts.json.boilerplate: \"Company - Weidmüller as a partner at eye level\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 4 pages (allweiler, gestra, ktr, marelli) and not in entityFacts.json.boilerplate: \"ATEX — variante certificate pentru zone cu risc de explozie\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (fpz, robuschi) and not in entityFacts.json.boilerplate: \"Ambalare industrială — sisteme de vid pentru manipulare și fixare produse\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (aerzen, fpz) and not in entityFacts.json.boilerplate: \"Industria alimentară — aplicații cu cerințe de aer curat, fără ulei\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (netzsch, seepex) and not in entityFacts.json.boilerplate: \"Industria alimentară și a băuturilor — transport de produse vâscoase sau cu bucăți solide\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (aerzen, robuschi) and not in entityFacts.json.boilerplate: \"Transport pneumatic — vehicularea materialelor granulare pe distanțe lungi\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (funke, kelvion) and not in entityFacts.json.boilerplate: \"Industria chimică și petrochimică — schimbătoare de proces pentru medii agresive\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 3 pages (allweiler, neles, swep) and not in entityFacts.json.boilerplate: \"Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 4 pages (allweiler, apex-dynamics, meccanotecnica-umbra, sor-controls-group) and not in entityFacts.json.boilerplate: \"ISO 9001 — management al calității pentru proiectare și fabricație\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (avk, prominent) and not in entityFacts.json.boilerplate: \"WRAS — aprobare pentru contact cu apa potabilă (piața UK)\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 9 pages (belimo, burkert, fisher, lewa, neles, prominent, sulzer, verder, vogelsang) and not in entityFacts.json.boilerplate: \"ISO 9001 — management al calității pentru dezvoltare și fabricație\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 8 pages (bornemann, end, kitz, lewa, neles, prominent, sulzer, vogelsang) and not in entityFacts.json.boilerplate: \"ATEX — execuții certificate pentru zone cu risc de explozie\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (bray, kitz) and not in entityFacts.json.boilerplate: \"HVAC industrial — izolare pe circuite mari de agent termic\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (elmo, gardner-denver) and not in entityFacts.json.boilerplate: \"ATEX — execuții certificate pentru medii cu praf sau gaze combustibile\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 5 pages (crc-industries, igus, optris, prince, setra-systems) and not in entityFacts.json.boilerplate: \"Certificare ISO 9001:2015 pentru sistemul de management al calității\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (apex-dynamics, moxa) and not in entityFacts.json.boilerplate: \"ATEX — variante pentru zone cu risc de explozie\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (fluke-process-instruments, kamat) and not in entityFacts.json.boilerplate: \"Nu promitem disponibilitate din depozit pentru niciun model din gamă.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 3 pages (ariel, dynex, et-system) and not in entityFacts.json.boilerplate: \"ISO 9001:2015 — sistem de management al calității pentru proiectare și fabricație\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (fleetguard, hanning) and not in entityFacts.json.boilerplate: \"Nu promitem disponibilitate din depozit pe niciun cod din gamă.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 3 pages (continental-industrie, onda, piusi) and not in entityFacts.json.boilerplate: \"Nu promitem disponibilitate din depozit pe niciun model din gamă.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (holmbury, uni-t) and not in entityFacts.json.boilerplate: \"Certificări ISO 9001 și ISO 14001 pentru managementul calității și al mediului\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (homa-pumpenfabrik, westech) and not in entityFacts.json.boilerplate: \"Certificare ISO 9001 pentru procesul de proiectare și fabricație\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (conex-banninger, tempo) and not in entityFacts.json.boilerplate: \"Această gamă nu stă pe raftul nostru — o aducem la comandă.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (chroma, jcm-industries) and not in entityFacts.json.boilerplate: \"Gama vine la comandă; nu o ținem pe raft.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (safi, setra-systems) and not in entityFacts.json.boilerplate: \"Nu promitem disponibilitate din depozit pe nicio variantă din gamă.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (john-zink, zeeco) and not in entityFacts.json.boilerplate: \"Petrochimie — oxidatori termici pentru fluxuri cu compuși organici volatili\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (ajax-tocco, inductotherm) and not in entityFacts.json.boilerplate: \"linie de călire și revenire prin inducție pentru bare și țevi\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (asa-hydraulik, boge) and not in entityFacts.json.boilerplate: \"Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2–4 săptămâni, în funcție de serie și configurație.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (apex-dynamics, procon) and not in entityFacts.json.boilerplate: \"Nu promitem o disponibilitate permanentă și recomandăm confirmarea termenului real înainte de a-l transmite mai departe clientului final.\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (kocos, t-and-r-test-equipment) and not in entityFacts.json.boilerplate: \"Laboratoare PRAM — verificarea periodică a echipamentelor de protecție\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (tektronix, teledyne-lecroy) and not in entityFacts.json.boilerplate: \"Aerospațial și apărare — testare semnale digitale de mare viteză\""
+    },
+    {
+      "gate": "G14",
+      "file": "src/data/brandContent.js",
+      "line": null,
+      "severity": "BLOCKER",
+      "message": "G14: sentence repeated verbatim on 2 pages (doble, raytech) and not in entityFacts.json.boilerplate: \"Producători de transformatoare — testare finală înainte de livrare\""
+    },
+    {
+      "gate": "G17",
+      "file": "-",
+      "line": null,
+      "severity": "INFO",
+      "message": "G17 (Internal links resolve) has no gate script yet at scripts/gates/g17-*.mjs — not implemented."
+    },
+    {
+      "gate": "G18",
+      "file": "src/app/[category]/CategoryClient.js",
+      "line": 465,
+      "severity": "MINOR",
+      "message": "G18: internal href \"/branduri-sua#sua-${category.slug}\" has a dynamic segment outside the known route-family prefixes (/brand/, /blog/, /industrii/, /studii-de-caz/, or a bare \"/${slug}\") — not resolvable at source level, needs manual/model review."
+    },
+    {
+      "gate": "G18",
+      "file": "src/app/brand/[brandSlug]/[seriesSlug]/page.js",
+      "line": 109,
+      "severity": "MINOR",
+      "message": "G18: internal href \"/contact?brand=${encodeURIComponent(brand.name)}&serie=${encodeURIComponent(s.name)}\" has a dynamic segment outside the known route-family prefixes (/brand/, /blog/, /industrii/, /studii-de-caz/, or a bare \"/${slug}\") — not resolvable at source level, needs manual/model review."
+    },
+    {
+      "gate": "G18",
+      "file": "src/app/brand/[brandSlug]/[seriesSlug]/page.js",
+      "line": 199,
+      "severity": "MINOR",
+      "message": "G18: internal href \"/contact?brand=${encodeURIComponent(brand.name)}&serie=${encodeURIComponent(s.name)}\" has a dynamic segment outside the known route-family prefixes (/brand/, /blog/, /industrii/, /studii-de-caz/, or a bare \"/${slug}\") — not resolvable at source level, needs manual/model review."
+    },
+    {
+      "gate": "G20",
+      "file": "-",
+      "line": null,
+      "severity": "INFO",
+      "message": "G20: no pages supplied to review (pass ctx.pages — pages that already passed every script gate) — nothing batched."
+    }
+  ]
+}

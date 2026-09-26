@@ -2,16 +2,29 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { equipmentCategories as rawEquipmentCategories, equipmentBrandsTotal } from '@/data/equipmentCategories';
+import { equipmentCategories as rawEquipmentCategories } from '@/data/equipmentCategories';
 import { allCategoriesUnified } from '@/data/allBrandsIndex';
 
 // v14: render the merged categories (extension + secondary memberships), so a
 // category fed only by the extension shows its real brands and count.
 const equipmentCategories = rawEquipmentCategories.map((c) => allCategoriesUnified.find((u) => u.slug === c.slug) || c);
+// v20: distinct brands across the merged categories (the old equipmentBrandsTotal
+// counted only the hand-typed lists).
+const equipmentBrandsTotal = new Set(
+  equipmentCategories.flatMap((c) => c.brands.map((b) => String(b.name).toLowerCase()))
+).size;
 import { config } from '@/lib/config';
 import styles from './echipamente.module.css';
 
 export const metadata = {
+  openGraph: {
+    title: 'Echipamente Industriale Diverse | Infinitrade Romania',
+    description: 'Catalog de echipamente industriale pe categorii: automatizări, senzori, hidraulică, echipamente electrice, componente mecanice, filtre, scule. Furnizor SEAP.',
+    url: `${config.site.url}/echipamente-diverse`,
+    siteName: 'Infinitrade Romania',
+    locale: 'ro_RO',
+    type: 'website',
+  },
   title: 'Echipamente Industriale Diverse',
   description: 'Catalog complet echipamente industriale: automatizări, senzori, hidraulice, electrice, mecanice, filtre, scule, termice, lubrifianți. Furnizor SEAP.',
   keywords: [
@@ -61,7 +74,7 @@ export default function EchipamenteDiversePage() {
                 >
                   <div className={styles.categoryCardHeader} style={{ background: category.gradient }}>
                     <h2 className={styles.categoryName}>{category.name}</h2>
-                    <span className={styles.categoryBrandCount}>{category.stats.brands} branduri</span>
+                    <span className={styles.categoryBrandCount}>{category.brands.length} branduri</span>
                   </div>
                   <div className={styles.categoryCardBody}>
                     <p className={styles.categoryDescription}>{category.tagline}</p>

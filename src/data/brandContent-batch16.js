@@ -295,7 +295,7 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
 
 Ce apreciem la Turck e filozofia lor de "plug and work" — senzorii vin pre-configurați, conectarea e simplă (M8, M12, sau eurofast), iar integrarea în PLC sau DCS se face rapid prin profile device file (GSDML, EDS). Se montează senzori inductivi Turck pe linii de producție unde poziționarea exactă a pieselor era critică — repetabilitate de 0.01mm, fără drift termic, și LED-uri de status care fac diagnosticarea instantanee. Pentru aplicații RFID, sistemele Turck oferă rate de citire de 100% chiar și la viteze mari de bandă, eliminând erorile de tracking.
 
-Turck nu vinde doar componente — oferă soluții complete. Ai nevoie să conectezi 200 de senzori la un PLC Siemens? Turck are module I/O multiprotocol (Profinet, EtherNet/IP, Modbus TCP) care reduc drastic cablajul și costurile de instalare. Vrei să implementezi tracking complet al paletizilor într-un depozit automatizat? Sistemul BL ident RFID al Turck face exact asta, cu software de management inclus. Pentru industria românească, înseamnă acces la aceeași tehnologie folosită în fabricile Mercedes, BMW sau Bosch.`,
+Turck nu vinde doar componente — oferă soluții complete. Ai nevoie să conectezi 200 de senzori la un PLC industrial? Turck are module I/O multiprotocol (Profinet, EtherNet/IP, Modbus TCP) care reduc drastic cablajul și costurile de instalare. Vrei să implementezi tracking complet al paleților într-un depozit automatizat? Sistemul BL ident RFID al Turck face exact asta, cu software de management inclus. Pentru industria românească, înseamnă acces la aceeași tehnologie folosită în fabrici auto și industriale de top la nivel european.`,
     whyChoose: [
       "Producător important de senzori inductivi — gamă completă de la M5 până la M30, cu distanțe de sensing de la 1mm la 60mm",
       "Sisteme RFID robuste — citire sigură 100% la viteze de până la 10 m/s, perfect pentru tracking produse și paletizare",
@@ -307,7 +307,7 @@ Turck nu vinde doar componente — oferă soluții complete. Ai nevoie să conec
     keyProducts: [
       {
         name: "Senzori Inductivi de Proximitate",
-        description: "Gama completă de senzori inductivi pentru detectarea metalelor feroase și neferoase, în constructii cilindrică (M5, M8, M12, M18, M30) și rectangulară (Q20, Q40, Q80). Disponibili cu ieșire PNP, NPN sau curent continuu, în versiuni NO (normally open), NC (normally closed) sau comutabile. Distanțe de sensing de la 1mm (pentru M5) până la 60mm (pentru M30 și modele speciale cu factor 1). Constructie robustă din inox sau alamă cromată, cu protecție IP67/IP68/IP69K pentru medii umede sau cu jet de apă la presiune. Include și senzori cu factor 1 (detectează oțel și aluminiu la aceeași distanță) și senzori cu suprafață activă extinsă pentru detectarea prin pereți plastici sau lemnoși. Toți senzorii au LED de status vizibil 360° și rezistență la câmpuri magnetice externe."
+        description: "Gama completă de senzori inductivi pentru detectarea metalelor feroase și neferoase, în construcții cilindrică (M5, M8, M12, M18, M30) și rectangulară (Q20, Q40, Q80). Disponibili cu ieșire PNP, NPN sau curent continuu, în versiuni NO (normally open), NC (normally closed) sau comutabile. Distanțe de sensing de la 1mm (pentru M5) până la 60mm (pentru M30 și modele speciale cu factor 1). Construcție robustă din inox sau alamă cromată, cu protecție IP67/IP68/IP69K pentru medii umede sau cu jet de apă la presiune. Include și senzori cu factor 1 (detectează oțel și aluminiu la aceeași distanță) și senzori cu suprafață activă extinsă pentru detectarea prin pereți plastici sau lemnoși. Toți senzorii au LED de status vizibil 360° și rezistență la câmpuri magnetice externe."
       },
       {
         name: "Sisteme RFID Industriale (BL ident)",
@@ -319,7 +319,7 @@ Turck nu vinde doar componente — oferă soluții complete. Ai nevoie să conec
       },
       {
         name: "Senzori de Presiune și Temperatură",
-        description: "Senzori de presiune din inox pentru masurarea presiunii relative, absolute sau diferențiale în hidraulică, pneumatică și procese industriale. Gama de măsurare de la 0-1 bar până la 0-1000 bar, cu ieșire 4-20mA, 0-10V sau digitală (IO-Link). Acuratețe de până la ±0.25% FS, display LCD opțional pentru citire locală, și constructie IP67 cu conectori M12. Include și transmitatoare de temperatură cu sonde Pt100, Pt1000 sau termocuple tip K, J, T pentru măsurarea proceselor industriale între -200°C și +600°C. Toate senzorii sunt configurabili via IO-Link pentru setarea gamei, offset-ului și filtrării, fără necesitatea de a-i demonta sau recabla."
+        description: "Senzori de presiune din inox pentru măsurarea presiunii relative, absolute sau diferențiale în hidraulică, pneumatică și procese industriale. Gama de măsurare de la 0-1 bar până la 0-1000 bar, cu ieșire 4-20mA, 0-10V sau digitală (IO-Link). Acuratețe de până la ±0.25% FS, display LCD opțional pentru citire locală, și construcție IP67 cu conectori M12. Include și transmițătoare de temperatură cu sonde Pt100, Pt1000 sau termocuple tip K, J, T pentru măsurarea proceselor industriale între -200°C și +600°C. Toate senzorii sunt configurabili via IO-Link pentru setarea gamei, offset-ului și filtrării, fără necesitatea de a-i demonta sau recabla."
       }
     ],
     certifications: [
@@ -451,11 +451,11 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
       },
       {
         name: "Senzori Ultrasonici VEGASON",
-        description: "Măsurare nivel prin ultrasunete — senzorul emite o undă sonoră (frecvență 40-70 kHz) care se reflectă pe suprafața lichidului sau solidului și se măsoară timpul de întoarcere. Soluție cost-effective pentru majoritatea aplicațiilor cu lichide curate sau ușor murdare, și solide (cereale, plastic granulat, cărbune). Gama de măsurare de la 0.3m până la 15m pentru lichide și până la 70m pentru solide. Include compensare automată pentru temperatura și presiunea aerului, eliminând erorile cauzate de variațiile atmosferice. Montare simplă — se înșurubează pe un racord G1½ sau flansa DN50, fără contact cu materialul măsurat (non-intrusive). Afișaj grafic mare cu trend și diagnostic, configurare prin taste sau Bluetooth."
+        description: "Măsurare nivel prin ultrasunete — senzorul emite o undă sonoră (frecvență 40-70 kHz) care se reflectă pe suprafața lichidului sau solidului și se măsoară timpul de întoarcere. Soluție cost-effective pentru majoritatea aplicațiilor cu lichide curate sau ușor murdare, și solide (cereale, plastic granulat, cărbune). Gama de măsurare de la 0.3m până la 15m pentru lichide și până la 70m pentru solide. Include compensare automată pentru temperatura și presiunea aerului, eliminând erorile cauzate de variațiile atmosferice. Montare simplă — se înșurubează pe un racord G1½ sau flanșă DN50, fără contact cu materialul măsurat (non-intrusive). Afișaj grafic mare cu trend și diagnostic, configurare prin taste sau Bluetooth."
       },
       {
         name: "Senzori de Presiune VEGABAR",
-        description: "Transmitatoare de presiune din inox pentru măsurarea presiunii relative, absolute sau diferențiale în lichide, gaze și vapori. Gama de măsurare de la 0-0.1 bar până la 0-600 bar, cu celule de măsurare ceramică (pentru aplicații alimentare și pharma) sau metalică (pentru presiuni înalte și aplicații generale). Acuratețe de până la ±0.075% FS, stabilitate pe termen lung excepțională (drift < 0.1% pe an). Include și transmitatoare speciale pentru nivel hidrostatic — măsoară înălțimea lichidului dintr-un tanc pe baza presiunii coloanei de lichid. Perfect pentru ape uzate, rezervoare subterane, aplicații offshore. Certificări complete ATEX, SIL 2/3, și 3A Sanitary pentru food & beverage."
+        description: "Transmițătoare de presiune din inox pentru măsurarea presiunii relative, absolute sau diferențiale în lichide, gaze și vapori. Gama de măsurare de la 0-0.1 bar până la 0-600 bar, cu celule de măsurare ceramică (pentru aplicații alimentare și pharma) sau metalică (pentru presiuni înalte și aplicații generale). Acuratețe de până la ±0.075% FS, stabilitate pe termen lung excepțională (drift < 0.1% pe an). Include și transmițătoare speciale pentru nivel hidrostatic — măsoară înălțimea lichidului dintr-un tanc pe baza presiunii coloanei de lichid. Perfect pentru ape uzate, rezervoare subterane, aplicații offshore. Certificări complete ATEX, SIL 2/3, și 3A Sanitary pentru food & beverage."
       }
     ],
     certifications: [
@@ -575,7 +575,7 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
 
 Am trecut de la borniere clasice la Wago pe toate proiectele noi și diferența e vizibilă — timpul de cablare redus cu 40-50%, mai puține erori de strângere (cablu stricat sau contact slab), și fiabilitate pe termen lung fără mentenanță. Pe instalațiile cu cabluri de aluminiu (din ce în ce mai des folosite pentru costuri), Wago e obligatoriu — arcul menține presiune constantă chiar și când aluminiul "curge" în timp (fenomen de relaxare). Plus că testarea circuitelor e simplă — ridici pârghia portocalie, bagi un tester, verifici tensiunea, închizi pârghia — totul fără să deconectezi cablul.
 
-Dar Wago nu e doar borniere — au dezvoltat o gamă completă de automatizări industriale bazate pe aceeași filozofie de conexiune rapidă și sigură. Module I/O pentru bus de câmp (Profinet, EtherNet/IP, Modbus), PLC-uri compacte seria 750, relee și contactoare pentru control, și sisteme complete de management energetic. Pentru industria românească, Wago înseamnă acces la tehnologia folosită în fabricile Volkswagen, Siemens, sau pe platformele offshore din Marea Nordului — aceeași calitate, aceeași fiabilitate.`,
+Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări industriale bazate pe aceeași filozofie de conexiune rapidă și sigură. Module I/O pentru bus de câmp (Profinet, EtherNet/IP, Modbus), PLC-uri compacte seria 750, relee și contactoare pentru control, și sisteme complete de management energetic. Pentru industria românească, Wago înseamnă acces la tehnologia folosită în fabrici auto și industriale de top, precum și pe platformele offshore din Marea Nordului — aceeași calitate, aceeași fiabilitate.`,
     whyChoose: [
       "Inventatorul bornerelor cu arc — tehnologie brevetată CAGE CLAMP pentru conexiune sigură fără șuruburi",
       "Conexiune ultra-rapidă — montaj de 5 ori mai rapid decât borniere clasice cu șurub",
@@ -599,7 +599,7 @@ Dar Wago nu e doar borniere — au dezvoltat o gamă completă de automatizări 
       },
       {
         name: "Relee de Interfață și Module Safety",
-        description: "Relee de interfață (relay couplers) pentru izolarea între PLC și sarcini de putere — bobine 24VDC cu contacte 250VAC/6A pentru comanda contactoarelor, electrovalve, alarme. Disponibile simple (1 contact), duble (2 contacte), și cu LED de stare pentru diagnostic vizual. Include și module de siguranță funcțională conform SIL 3 / PLe — monitorizare buton de urgență, porti de siguranță, covoare de siguranță, cortine fotoelectrice, cu ieșiri sigure pentru oprirea controlată a mașinilor. Certificări TÜV pentru utilizare în sisteme critice de siguranță. Montare pe șină DIN alături de bornierele TOPJOB S pentru cablaj uniform și estetic."
+        description: "Relee de interfață (relay couplers) pentru izolarea între PLC și sarcini de putere — bobine 24VDC cu contacte 250VAC/6A pentru comanda contactoarelor, electrovalve, alarme. Disponibile simple (1 contact), duble (2 contacte), și cu LED de stare pentru diagnostic vizual. Include și module de siguranță funcțională conform SIL 3 / PLe — monitorizare buton de urgență, porți de siguranță, covoare de siguranță, cortine fotoelectrice, cu ieșiri sigure pentru oprirea controlată a mașinilor. Certificări TÜV pentru utilizare în sisteme critice de siguranță. Montare pe șină DIN alături de bornierele TOPJOB S pentru cablaj uniform și estetic."
       }
     ],
     certifications: [
@@ -618,9 +618,9 @@ Dar Wago nu e doar borniere — au dezvoltat o gamă completă de automatizări 
       "Alimentar și băuturi — conexiuni rezistente la spălare, module I/O pentru PLC",
       "Farmaceutică și chimică — zone ATEX, controlere pentru procese batch",
       "Energie — centrale termice, fotovoltaic, eolian, sisteme de management energetic",
-      "Naval și offshore — tablouri pentru medii saline, vibratii, certificări DNV",
+      "Naval și offshore — tablouri pentru medii saline, vibrații, certificări DNV",
       "Clădiri inteligente — automatizare HVAC, lighting, acces control",
-      "Transport feroviar — cablaj pentru trenuri și tram-uri, rezistență la vibratii",
+      "Transport feroviar — cablaj pentru trenuri și tram-uri, rezistență la vibrații",
       "Mining — utilaje mobile, conexiuni rezistente la șocuri și praf",
       "Machine building — mașini-unelte, ambalare, textile, print"
     ],
@@ -717,7 +717,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       "Peste 170 de ani de experiență — cel mai vechi producător de componente electrice industriale încă activ",
       "Sistem complet de conexiune — borniere, conectori, marcaje, scule — totul compatibil și standardizat",
       "Software gratuit de engineering — WMC Configurator pentru design, documentație, liste de materiale",
-      "Calitate germană constantă — toate componentele au același standard de fabricatie, eliminând incompatibilitățile",
+      "Calitate germană constantă — toate componentele au același standard de fabricație, eliminând incompatibilitățile",
       "Gamă vastă de borniere — de la 0.14mm² (semnale electronice) până la 300mm² (alimentări putere)",
       "Suport tehnic excelent — training, consultanță pentru design de dulapuri, asistență la punere în funcțiune"
     ],
@@ -728,7 +728,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       },
       {
         name: "Conectori Industriali (Industrial Connectors)",
-        description: "Gama completă de conectori pentru cablaj rapid și sigur — conectori rectangulari heavy-duty pentru cabluri multi-conductor (serii HDC, ROCKSTAR), conectori circulari M8/M12/M23 pentru senzori și actuatoare, conectori pentru bus de câmp (Profinet, EtherNet/IP, DeviceNet), și conectori modulare pentru aplicații custom. Constructie robustă IP65/IP67/IP68/IP69K, rezistență la vibratii conform IEC 60068-2-6, și contacte placare aur pentru fiabilitate pe termen lung. Include și conectori pentru putere mare (până la 830A), conectori cu contact de pământ prioritar (PE first-make/last-break), și conectori cu blocare prin șurub sau baionetă. Perfect pentru conectarea rapidă a panourilor mobile, robotilor, utilajelor modulare."
+        description: "Gama completă de conectori pentru cablaj rapid și sigur — conectori rectangulari heavy-duty pentru cabluri multi-conductor (serii HDC, ROCKSTAR), conectori circulari M8/M12/M23 pentru senzori și actuatoare, conectori pentru bus de câmp (Profinet, EtherNet/IP, DeviceNet), și conectori modulare pentru aplicații custom. Construcție robustă IP65/IP67/IP68/IP69K, rezistență la vibrații conform IEC 60068-2-6, și contacte placare aur pentru fiabilitate pe termen lung. Include și conectori pentru putere mare (până la 830A), conectori cu contact de pământ prioritar (PE first-make/last-break), și conectori cu blocare prin șurub sau baionetă. Perfect pentru conectarea rapidă a panourilor mobile, roboților, utilajelor modulare."
       },
       {
         name: "Sisteme de Marcare (Marking Systems)",
@@ -736,7 +736,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       },
       {
         name: "Scule de Sertizat și Decablare (Crimping Tools)",
-        description: "Clești de sertizat profisionali pentru papuci de cap de cablu (ferrule), papuci inelari, papuci furculiță, conectori izolați, și conectori neizolați. Gama include scule manuale (pentru producție mică), scule semi-automatice (cu magazie de papuci pentru productivitate mare), și scule pneumatice sau electrice pentru linii de producție. Fiecare unealtă are matrite calibrate și testate conform DIN 48083 pentru asigurarea sertizării corecte — nici prea slabă (papucul se desprinde), nici prea puternică (se taie conductorul). Include și scule de decablare (stripping tools) automate care taie izolatia la lungimea exactă fără să deterioreze conductorul."
+        description: "Clești de sertizat profisionali pentru papuci de cap de cablu (ferrule), papuci inelari, papuci furculiță, conectori izolați, și conectori neizolați. Gama include scule manuale (pentru producție mică), scule semi-automatice (cu magazie de papuci pentru productivitate mare), și scule pneumatice sau electrice pentru linii de producție. Fiecare unealtă are matrițe calibrate și testate conform DIN 48083 pentru asigurarea sertizării corecte — nici prea slabă (papucul se desprinde), nici prea puternică (se taie conductorul). Include și scule de decablare (stripping tools) automate care taie izolația la lungimea exactă fără să deterioreze conductorul."
       }
     ],
     certifications: [
@@ -884,7 +884,7 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
       },
       {
         name: "Module de Protecție la Supratensiuni (Surge Protection)",
-        description: "Dispozitive VPU (Voltage Protection Unit) pentru protejarea circuitelor de semnale și alimentare împotriva tranzitorilor de tensiune cauzați de descărcări atmosferice, comutatii de sarcini inductive, sau interferențe de rețea. Gama include protecții pentru alimentări AC 230V/400V (tip 1+2+3 conform EN 61643-11), protecții pentru circuite DC 24V/48V/110V, și protecții dedicate pentru linii de semnale 4-20mA, 0-10V, HART, Profibus, Ethernet. Tehnologie hybrid (spark gap + varistor + diode de suprimare) pentru răspuns ultra-rapid (<25ns) și capacitate mare de descarcare (până la 100kA per fază pentru tip 1). Montare pe șină DIN,Indicație vizuală și electrică a stării (OK/Fault), și posibilitate de înlocuire modul protecție fără decablare (plug-in cartridges)."
+        description: "Dispozitive VPU (Voltage Protection Unit) pentru protejarea circuitelor de semnale și alimentare împotriva tranzitorilor de tensiune cauzați de descărcări atmosferice, comutații de sarcini inductive, sau interferențe de rețea. Gama include protecții pentru alimentări AC 230V/400V (tip 1+2+3 conform EN 61643-11), protecții pentru circuite DC 24V/48V/110V, și protecții dedicate pentru linii de semnale 4-20mA, 0-10V, HART, Profibus, Ethernet. Tehnologie hybrid (spark gap + varistor + diode de suprimare) pentru răspuns ultra-rapid (<25ns) și capacitate mare de descărcare (până la 100kA per fază pentru tip 1). Montare pe șină DIN,Indicație vizuală și electrică a stării (OK/Fault), și posibilitate de înlocuire modul protecție fără decablare (plug-in cartridges)."
       },
       {
         name: "Convertoare de Semnal și Izolare (Signal Conditioners)",
@@ -911,7 +911,7 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
       "Energie regenerabilă — parcuri eoliene, centrale fotovoltaice, stocare energie",
       "Petrochimie — instalații ATEX, zone explozive, offshore platforms",
       "Transport feroviar — alimentare echipamente de bord, semnalizare, siguranță",
-      "Naval și offshore — echipamente pentru medii saline, vibratii, certificări maritime",
+      "Naval și offshore — echipamente pentru medii saline, vibrații, certificări maritime",
       "Clădiri inteligente — automatizare HVAC, lighting, management energetic",
       "Apă și ape uzate — stații de pompare, SCADA, monitorizare remote",
       "Mining — utilaje grele, rezistență la șocuri, praf, temperaturi extreme",
@@ -1171,7 +1171,7 @@ Am înlocuit sute de pompe vechi de circulație cu Wilo Stratos PICO și diferen
 Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (25-40 W consum) până la pompe triple pentru clădiri comerciale mari (racorduri DN80, debite de sute de m³/h). Include și pompe pentru apa de consum (booster systems pentru presiune constantă în clădiri înalte), pompe pentru recirculare apă caldă menajeră (comfort imediat la robinet), și pompe pentru sisteme geotermale (încălzire/răcire prin sondă). Pentru industria românească, Wilo înseamnă soluții dovedite în milioane de instalații globale — aceeași tehnologie care echipează clădirile Siemens, BMW, sau spitalele germane.`,
     whyChoose: [
       "Economii drastice de energie — motoare ECM cu consum redus cu 70-80% față de pompe clasice cu turație fixă",
-      "Reglare automată — ajustare dinamică a turatiei în funcție de nevoie, fără setări manuale",
+      "Reglare automată — ajustare dinamică a turației în funcție de nevoie, fără setări manuale",
       "Fiabilitate germană — MTBF ridicat, funcționare silențioasă, durată de viață de 15-20 ani",
       "Instalare simplă — dimensiuni standard (racorduri G1, G1¼, G1½, DN flanse), înlocuire directă",
       "Certificări complete — ErP 2015 (Energy-related Products Directive), certificări pentru apă potabilă",
@@ -1180,7 +1180,7 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
     keyProducts: [
       {
         name: "Pompe de Circulație Wilo-Stratos PICO (High Efficiency)",
-        description: "Seria Stratos PICO e standardul industriei pentru pompe de înaltă eficiență în încălzire rezidențială și comercială mică — consum de la 4W la 85W (în funcție de model și regim), clasă energetică A conform ErP 2015. Motor ECM (brushless DC) cu magneti permanenți și control electronic PWM pentru randament ridicat peste întreaga gamă de funcționare. Display LED color pentru setări și diagnostic — alegi modul de funcționare (presiune constantă, presiune variabilă, sau turație fixă), vezi consumul instantaneu, și verifici alerte. Racorduri filetate G1, G1¼, G1½ sau flanșe DN25-50, corp pompă din fontă sau inox (pentru sisteme cu apă potabilă). Funcții smart: auto-adapt (pompă învață rezistența sistemului și se optimizează), deaeration automat (elimină aerul captiv din instalație), și protecție anti-blocare (pornește periodic pompa dacă stă oprită luni de zile)."
+        description: "Seria Stratos PICO e standardul industriei pentru pompe de înaltă eficiență în încălzire rezidențială și comercială mică — consum de la 4W la 85W (în funcție de model și regim), clasă energetică A conform ErP 2015. Motor ECM (brushless DC) cu magneți permanenți și control electronic PWM pentru randament ridicat peste întreaga gamă de funcționare. Display LED color pentru setări și diagnostic — alegi modul de funcționare (presiune constantă, presiune variabilă, sau turație fixă), vezi consumul instantaneu, și verifici alerte. Racorduri filetate G1, G1¼, G1½ sau flanșe DN25-50, corp pompă din fontă sau inox (pentru sisteme cu apă potabilă). Funcții smart: auto-adapt (pompă învață rezistența sistemului și se optimizează), deaeration automat (elimină aerul captiv din instalație), și protecție anti-blocare (pornește periodic pompa dacă stă oprită luni de zile)."
       },
       {
         name: "Pompe de Circulație Clasice Wilo-Star-RS (Economy)",
@@ -1188,7 +1188,7 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
       },
       {
         name: "Sisteme de Presiune Constantă Wilo-Comfort (Booster)",
-        description: "Stații de pompare compacte pentru menținerea presiunii constante în rețelele de apă rece și caldă menajeră — ideal pentru clădiri cu mai multe etaje unde presiunea de la rețea nu ajunge uniform la toate nivelurile. Sistem complet integrat: 1-3 pompe centrifuge în paralel, rezervor de expansiune (hidrofor), senzori de presiune și debit, și controler electronic cu invertor pentru reglare continuă a turatiei. Funcționare automată — când cineva deschide un robinet, presiunea scade și pompa pornește imediat, accelerând până la restabilirea presiunii setate (tipic 3-4 bar). Când consumul e mic (un singur robinet), rulează o singură pompă; când e mare (mai multe dușuri simultan), pornesc și celelalte. Montare pe cadru compact cu racorduri de aspirație și refulare, zgomot redus (<43 dB), și protecție completă (run dry, suprasarcină, supraîncălzire)."
+        description: "Stații de pompare compacte pentru menținerea presiunii constante în rețelele de apă rece și caldă menajeră — ideal pentru clădiri cu mai multe etaje unde presiunea de la rețea nu ajunge uniform la toate nivelurile. Sistem complet integrat: 1-3 pompe centrifuge în paralel, rezervor de expansiune (hidrofor), senzori de presiune și debit, și controler electronic cu invertor pentru reglare continuă a turației. Funcționare automată — când cineva deschide un robinet, presiunea scade și pompa pornește imediat, accelerând până la restabilirea presiunii setate (tipic 3-4 bar). Când consumul e mic (un singur robinet), rulează o singură pompă; când e mare (mai multe dușuri simultan), pornesc și celelalte. Montare pe cadru compact cu racorduri de aspirație și refulare, zgomot redus (<43 dB), și protecție completă (run dry, suprasarcină, supraîncălzire)."
       },
       {
         name: "Pompe de Recirculare Apă Caldă Wilo-Star-Z (Comfort)",
@@ -1309,7 +1309,7 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
 
 Produsele Würth chimice se folosesc frecvent pe o gamă largă de aplicații — de la spray-uri degresante pentru curățarea pieselor înainte de vopsire, până la adezivi anaerobici pentru fixarea lagărelor, și paste anti-grippare pentru șuruburile din inox (ca să nu se sudeze prin coroziune galvanică). Unul dintre argumentele frecvent menționate de utilizatori este consistența între loturi — același lubrifiant sau același spray de curățare oferă performanță repetabilă, fără variații de la un lot la altul. Ambalajele sunt gândite pentru uz industrial greu — spray-uri cu valve robuste care nu se înfund, tuburi de adeziv cu duze de precizie, bidoane cu pompe dozatoare pentru ateliere.
 
-Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (spray-uri, paste, uleiuri), curățare (degresante, solutii de curățare frâne, sprayuri contact cleaner), protecție (vopsele spray, anti-coroziune, ceară protectoare), adezivi (cianoacrilat, anaerobic, epoxidic, MS-polymer), și produse auxiliare (spray de aer comprimat, detectoare scurgeri, spray-uri de marcare). Pentru industria românească, Würth înseamnă acces rapid la aceleași chimicale folosite în fabricile Mercedes, BMW, sau Bosch — aceeași calitate, aceeași documentație tehnică, aceeași consistență.`,
+Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (spray-uri, paste, uleiuri), curățare (degresante, solutii de curățare frâne, sprayuri contact cleaner), protecție (vopsele spray, anti-coroziune, ceară protectoare), adezivi (cianoacrilat, anaerobic, epoxidic, MS-polymer), și produse auxiliare (spray de aer comprimat, detectoare scurgeri, spray-uri de marcare). Pentru industria românească, Würth înseamnă acces rapid la aceleași chimicale folosite în fabrici auto și industriale de top — aceeași calitate, aceeași documentație tehnică, aceeași consistență.`,
     whyChoose: [
       "Gamă vastă — portofoliu foarte amplu de produse, acoperă practic orice nevoie de chimicale tehnice și consumabile",
       "Calitate germană constantă — produse testate riguros, performanță repetabilă, fără variații între loturi",
@@ -1321,7 +1321,7 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
     keyProducts: [
       {
         name: "Spray-uri Lubrifiere și Degripare",
-        description: "Gama completă de lubrifianți în spray pentru mentenanță industrială — HHS 2000 (lubrifiant sintetic cu aditivare EP pentru temperaturi -30°C până +250°C, aderă puternic pe suprafețe verticale), lubrifiant cu PTFE pentru reducerea frecării pe ghidaje și lanțuri, lubrifiant cu grafit pentru temperaturi extreme (până +600°C), și lubrifiant cu silicon pentru aplicații unde nu se acceptă pete (plastice, cauciuc). Include și spray-uri degripare (penetrating oil) — formula clasică cu solventi și uleiuri minerale pentru desfacerea șuruburilor și piulițelor ruginite, și versiuni biodegradabile pentru aplicații ecologice. Fiecare spray are valvă în 360° (funcționează și cu tubul în jos) și extensie subțire pentru locuri greu accesibile."
+        description: "Gama completă de lubrifianți în spray pentru mentenanță industrială — HHS 2000 (lubrifiant sintetic cu aditivare EP pentru temperaturi -30°C până +250°C, aderă puternic pe suprafețe verticale), lubrifiant cu PTFE pentru reducerea frecării pe ghidaje și lanțuri, lubrifiant cu grafit pentru temperaturi extreme (până +600°C), și lubrifiant cu silicon pentru aplicații unde nu se acceptă pete (plastice, cauciuc). Include și spray-uri degripare (penetrating oil) — formulă clasică cu solvenți și uleiuri minerale pentru desfacerea șuruburilor și piulițelor ruginite, și versiuni biodegradabile pentru aplicații ecologice. Fiecare spray are valvă în 360° (funcționează și cu tubul în jos) și extensie subțire pentru locuri greu accesibile."
       },
       {
         name: "Degresanți și Curățătoare Industriale",
@@ -1447,9 +1447,9 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
 
 Se întâlnesc sisteme Yokogawa în funcțiune pe instalații de proces continue unde downtime-ul costă milioane de dolari pe zi — rafinării, fabrici de etilen, centrale termice. Ceea ce iese în evidență e stabilitatea pe termen lung: transmitatoare care rulează 10-15 ani fără recalibrări, controlere care nu au nevoie de reboot, și sisteme DCS care au uptime de 99.99% an după an. Filosofia Yokogawa e "măsoară corect de prima dată, controlează cu precizie, și nu te opri niciodată" — un contrast puternic cu sistemele care necesită recalibrări frecvente sau au drift-uri neprevăzute.
 
-Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de la senzori și transmitatoare în câmp (presiune, temperatură, debit, nivel, analiză) până la controlere (PLC, DCS), sisteme SCADA, și software de optimizare proces. Pentru industria grea românească, Yokogawa înseamnă acces la aceeași tehnologie care echipează rafinăriile Shell, fabricile chimice SABIC, sau centralele nucleare din Japonia. Dacă procesul tău are valoare ridicată și nu-ți permiți surprize, Yokogawa e alegerea naturală.`,
+Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de la senzori și transmitatoare în câmp (presiune, temperatură, debit, nivel, analiză) până la controlere (PLC, DCS), sisteme SCADA, și software de optimizare proces. Pentru industria grea românească, Yokogawa înseamnă acces la aceeași tehnologie care echipează rafinării și fabrici chimice mari la nivel internațional. Dacă procesul tău are valoare ridicată și nu-ți permiți surprize, Yokogawa e o alegere solidă.`,
     whyChoose: [
-      "Precizie japoneză extremă — transmitatoare cu acuratețe de până la ±0.04%, stabilitate pe termen lung fără drift",
+      "Precizie japoneză extremă — transmițătoare cu acuratețe de până la ±0.04%, stabilitate pe termen lung fără drift",
       "Fiabilitate dovedită — sisteme DCS cu uptime >99.99%, instalații care rulează de 20-30 ani fără înlocuire",
       "Gamă completă de instrumentație — presiune, temperatură, debit, nivel, pH, analize gaze și lichide",
       "Sisteme DCS scalabile — de la instalații mici (50 puncte I/O) până la mega-rafinării (>100,000 puncte)",
@@ -1458,11 +1458,11 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
     ],
     keyProducts: [
       {
-        name: "Transmitatoare de Presiune EJA (High Performance)",
-        description: "Seria EJA (Yokogawa flagship) oferă transmitatoare de presiune cu capsule de măsurare rezonante (resonant sensor technology) — în loc să măsoare deformarea unei membrane prin strain gauge (tehnologie clasică), capsula EJA măsoară schimbarea frecvenței de rezonanță a unui cristal de siliciu. Rezultatul: acuratețe de ±0.04% până la ±0.1% FS, stabilitate pe 10 ani de ±0.1% (altele derivă cu 0.2-0.5% pe an), și imunitate completă la șocuri de presiune și temperatură. Disponibile pentru presiune diferențială (0.5 kPa până la 2 MPa), presiune absolută și relativa (0-10 MPa), și nivel hidrostatic. Ieșire 4-20mA cu HART, sau digitală FOUNDATION Fieldbus / Profibus PA. Constructie din inox 316L, certificări SIL 2, ATEX, și temperatura de proces de la -50°C până +400°C (cu separator de diafragmă)."
+        name: "Transmițătoare de Presiune EJA (High Performance)",
+        description: "Seria EJA (Yokogawa flagship) oferă transmițătoare de presiune cu capsule de măsurare rezonante (resonant sensor technology) — în loc să măsoare deformarea unei membrane prin strain gauge (tehnologie clasică), capsula EJA măsoară schimbarea frecvenței de rezonanță a unui cristal de siliciu. Rezultatul: acuratețe de ±0.04% până la ±0.1% FS, stabilitate pe 10 ani de ±0.1% (altele derivă cu 0.2-0.5% pe an), și imunitate completă la șocuri de presiune și temperatură. Disponibile pentru presiune diferențială (0.5 kPa până la 2 MPa), presiune absolută și relativă (0-10 MPa), și nivel hidrostatic. Ieșire 4-20mA cu HART, sau digitală FOUNDATION Fieldbus / Profibus PA. Construcție din inox 316L, certificări SIL 2, ATEX, și temperatura de proces de la -50°C până +400°C (cu separator de diafragmă)."
       },
       {
-        name: "Transmitatoare de Debit Vortex digitalYEWFLO",
+        name: "Transmițătoare de Debit Vortex digitalYEWFLO",
         description: "Debitmetre vortex (vortex shedding) pentru măsurarea debitului de lichide, gaze și vapori fără piese mobile — un obstacol (bluff body) plasat în curgere generează vortex-uri regulate (von Kármán vortex street), iar frecvența vortex-urilor e proporțională cu viteza fluidului. Seria digitalYEWFLO are senzori duali (două senzori independenți pentru redundanță și auto-diagnosticare), compensare automată pentru temperatura și presiunea fluidului (masa flow calculation), și acuratețe de ±0.75% pentru lichide și ±1% pentru gaze/vapori. Gama de măsurare de la DN15 până la DN300, temperatură de proces -200°C până +450°C, presiune până 63 bar. Ieșire 4-20mA + puls, sau digitală (HART, Fieldbus). Fără mentenanță — nu are piese mobile care să se uzeze, nu necesită recalibrări periodice."
       },
       {

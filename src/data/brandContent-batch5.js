@@ -67,43 +67,43 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
     productCodes: [
       {
         "code": "8577",
-        "description": "Masca de protectie respiratorie P95 cu carbon activ"
+        "description": "Mască de protecție respiratorie P95 cu carbon activ"
       },
       {
         "code": "8210",
-        "description": "Masca de protectie respiratorie N95, uz general"
+        "description": "Mască de protecție respiratorie N95, uz general"
       },
       {
         "code": "9210+",
-        "description": "Masca de protectie respiratorie N95, seria Aura"
+        "description": "Mască de protecție respiratorie N95, seria Aura"
       },
       {
         "code": "1860",
-        "description": "Masca de protectie respiratorie N95 pentru mediul medical"
+        "description": "Mască de protecție respiratorie N95 pentru mediul medical"
       },
       {
         "code": "9105",
-        "description": "Masca de protectie respiratorie N95, pliabila, seria VFlex"
+        "description": "Mască de protecție respiratorie N95, pliabilă, seria VFlex"
       },
       {
         "code": "1804",
-        "description": "Masca de protectie respiratorie N95 medicala, pliabila"
+        "description": "Mască de protecție respiratorie N95 medicală, pliabilă"
       },
       {
         "code": "1870+",
-        "description": "Masca de protectie respiratorie N95, Aura pentru medical"
+        "description": "Mască de protecție respiratorie N95, Aura pentru medical"
       },
       {
         "code": "9205+",
-        "description": "Masca de protectie respiratorie N95, Aura uz general"
+        "description": "Mască de protecție respiratorie N95, Aura uz general"
       },
       {
         "code": "8200",
-        "description": "Masca de protectie respiratorie pentru particule fine"
+        "description": "Mască de protecție respiratorie pentru particule fine"
       },
       {
         "code": "8515",
-        "description": "Masca de protectie respiratorie pentru lucrari de sudura"
+        "description": "Mască de protecție respiratorie pentru lucrări de sudură"
       },
       {
         "code": "03201",
@@ -111,7 +111,7 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
       },
       {
         "code": "8511",
-        "description": "Masca de protectie respiratorie cu valva de exhalare"
+        "description": "Mască de protecție respiratorie cu valva de exhalare"
       }
     ],
     faq: [
@@ -120,8 +120,8 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
         "a": "Mastile 3M din seria Aura, precum 9210+ sau 1870+, au trei panouri care se așează pe față și reduc spațiul mort din interior, oferind un confort mai bun la purtare îndelungată. Mastile clasice, precum 8210, sunt cupe rigide, potrivite pentru medii industriale unde forma stabilă contează mai mult decât pliabilitatea pentru transport."
       },
       {
-        "q": "Ce masca 3M este potrivita pentru lucrari de sudura?",
-        "a": "Pentru sudura, modelul 8515 este gândit special, cu un strat suplimentar pentru particulele generate de procesul de sudare și o valvă de exhalare care reduce acumularea de căldură sub masca. Alegerea finală depinde și de tipul de metal sudat și de ventilatia spatiului de lucru."
+        "q": "Ce masca 3M este potrivită pentru lucrări de sudură?",
+        "a": "Pentru sudura, modelul 8515 este gândit special, cu un strat suplimentar pentru particulele generate de procesul de sudare și o valvă de exhalare care reduce acumularea de căldură sub masca. Alegerea finală depinde și de tipul de metal sudat și de ventilația spațiului de lucru."
       },
       {
         "q": "Livrează 3M echipamente de protecție respiratorie în România?",
@@ -129,7 +129,7 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de măști de protecție 3M?",
-        "a": "Precizati nivelul de protecție necesar (N95 sau P95), tipul de particule sau vapori de la locul de munca, dacă este nevoie de valvă de exhalare pentru confort termic și numărul estimat de bucati pe luna. Cu aceste date recomandăm modelul 3M potrivit din gamă disponibilă."
+        "a": "Precizați nivelul de protecție necesar (N95 sau P95), tipul de particule sau vapori de la locul de muncă, dacă este nevoie de valvă de exhalare pentru confort termic și numărul estimat de bucăți pe lună. Cu aceste date recomandăm modelul 3M potrivit din gamă disponibilă."
       }
     ],
     evidenceClass: 'transactional',
@@ -352,7 +352,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       },
       {
         "code": "FMT400",
-        "description": "Debitmetru masic termic, versiune de proces avansata"
+        "description": "Debitmetru masic termic, versiune de proces avansată"
       },
       {
         "code": "FEW400",
@@ -376,7 +376,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       },
       {
         "code": "FSV4x0",
-        "description": "Debitmetru vortex, versiune extinsa pentru procese"
+        "description": "Debitmetru vortex, versiune extinsă pentru procese"
       },
       {
         "code": "ACF5000 LCS",
@@ -410,7 +410,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de analizor de gaze ABB?",
-        "a": "Trimiteti componentii de gaz pe care doriti să îi măsurați, domeniul de concentrație așteptat, temperatură și presiunea gazului la punctul de prelevare și tipul de ieșire de semnal necesar. Cu aceste informații recomandăm variantă potrivită, de exemplu ACF5000 LCS pentru emisii sau GCP100 pentru analiza de proces."
+        "a": "Trimiteți componenții de gaz pe care doriți să îi măsurați, domeniul de concentrație așteptat, temperatură și presiunea gazului la punctul de prelevare și tipul de ieșire de semnal necesar. Cu aceste informații recomandăm variantă potrivită, de exemplu ACF5000 LCS pentru emisii sau GCP100 pentru analiza de proces."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -487,7 +487,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
     productCodes: [
       {
         "code": "4STA",
-        "description": "Valva pneumatica 3/2 cai, actionare manuala sau mecanica"
+        "description": "Valvă pneumatică 3/2 căi, acționare manuală sau mecanică"
       },
       {
         "code": "4SA",
@@ -495,7 +495,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       },
       {
         "code": "4STV",
-        "description": "Electrovalva pneumatica 3/2 cai"
+        "description": "Electrovalvă pneumatică 3/2 căi"
       },
       {
         "code": "4SV",
@@ -541,7 +541,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       },
       {
         "q": "Ce rol are o unitate de tratare aer Airtac, de exemplu seria GA?",
-        "a": "O unitate de tratare aer, precum seria GA sau GP de la Airtac, combină de obicei filtrul, regulatorul de presiune și lubrificatorul într-un singur ansamblu montat inaintea componentelor pneumatice. Rolul ei este să curete aerul comprimat de impuritati și umiditate și să mentina o presiune constantă de lucru."
+        "a": "O unitate de tratare aer, precum seria GA sau GP de la Airtac, combină de obicei filtrul, regulatorul de presiune și lubrificatorul într-un singur ansamblu montat înaintea componentelor pneumatice. Rolul ei este să curețe aerul comprimat de impurități și umiditate și să mențină o presiune constantă de lucru."
       },
       {
         "q": "Livrează Airtac componente pneumatice în România?",
@@ -549,7 +549,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de ghidaje liniare Airtac?",
-        "a": "Trimiteti lățimea șinei sau a caruciorului, lungimea cursei necesare, sarcina aplicată și dacă aveți nevoie de o variantă autolubrifianta precum seria LSH sau de una miniaturală precum seria LRW. Cu aceste date identificăm ghidajul Airtac potrivit pentru aplicația dumneavoastră."
+        "a": "Trimiteți lățimea șinei sau a căruciorului, lungimea cursei necesare, sarcina aplicată și dacă aveți nevoie de o variantă autolubrifiantă precum seria LSH sau de una miniaturală precum seria LRW. Cu aceste date identificăm ghidajul Airtac potrivit pentru aplicația dumneavoastră."
       }
     ],
     evidenceClass: 'transactional',
@@ -790,7 +790,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "code": "SH-1600",
-        "description": "Oala de condens bimetalica din seria superheat"
+        "description": "Oala de condens bimetalică din seria superheat"
       },
       {
         "code": "CD-3300",
@@ -826,11 +826,11 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "code": "AIM",
-        "description": "Monitor acustic wireless pentru retele de abur"
+        "description": "Monitor acustic wireless pentru rețele de abur"
       },
       {
         "code": "Accelabar",
-        "description": "Element de masurare debit cu presiune diferentiala integrata"
+        "description": "Element de măsurare debit cu presiune diferențială integrată"
       },
       {
         "code": "Verabar",
@@ -846,24 +846,24 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "code": "OB-2000",
-        "description": "Regulator de temperatura cu diafragma pentru schimbatoare de caldura"
+        "description": "Regulator de temperatură cu diafragmă pentru schimbătoare de căldură"
       },
       {
         "code": "TVS 800",
-        "description": "Statie de valve pentru grupuri de oale de condens"
+        "description": "Stație de valve pentru grupuri de oale de condens"
       },
       {
         "code": "The Brain",
-        "description": "Centru digital de amestec pentru apa calda sanitara"
+        "description": "Centru digital de amestec pentru apă caldă sanitară"
       }
     ],
     faq: [
       {
-        "q": "Cum aleg oala de condens Armstrong potrivita pentru linia mea de abur?",
-        "a": "Alegerea corectă începe de la presiunea de lucru, debitul de condens și tipul aplicației: seriile cu cupolă inversată rezistă bine la contrapresiune, cele cu disc controlat sunt compacte și ușoare, iar cele cu plutitor și termostat gestionează sarcini variabile fără pierderi de abur viu. Trimiteti presiunea amonte-aval, debitul estimat și diametrul conductei pentru a identifica seria și dimensiunea corecte."
+        "q": "Cum aleg oala de condens Armstrong potrivită pentru linia mea de abur?",
+        "a": "Alegerea corectă începe de la presiunea de lucru, debitul de condens și tipul aplicației: seriile cu cupolă inversată rezistă bine la contrapresiune, cele cu disc controlat sunt compacte și ușoare, iar cele cu plutitor și termostat gestionează sarcini variabile fără pierderi de abur viu. Trimiteți presiunea amonte-aval, debitul estimat și diametrul conductei pentru a identifica seria și dimensiunea corecte."
       },
       {
-        "q": "Ce documente trimit pentru o oferta pentru echipamente Armstrong?",
+        "q": "Ce documente trimit pentru o ofertă pentru echipamente Armstrong?",
         "a": "Pentru o ofertă completă este nevoie de codul sau seria de pe eticheta echipamentului existent, presiunea și temperatura de lucru, debitul de condens sau abur și diametrul racordurilor. Dacă înlocuiți un model montat deja, o fotografie a plăcuței tehnice accelerează identificarea variantei corecte de înlocuire, inclusiv pentru accesorii precum garnituri sau seturi de mențenanta."
       },
       {
@@ -957,7 +957,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "code": "On-off valves",
-        "description": "Valve hidraulice de tip tot-sau-nimic pentru comutare directa"
+        "description": "Valve hidraulice de tip tot-sau-nimic pentru comutare directă"
       },
       {
         "code": "Cylinders and servocylinders",
@@ -981,7 +981,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "code": "Subplates",
-        "description": "Placi de baza pentru montarea valvelor pe circuit"
+        "description": "Placi de bază pentru montarea valvelor pe circuit"
       },
       {
         "code": "Electronic drivers",
@@ -989,7 +989,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "code": "ISO cartridges",
-        "description": "Cartuse hidraulice cu montaj conform standardelor ISO"
+        "description": "Cartușe hidraulice cu montaj conform standardelor ISO"
       },
       {
         "code": "Directional solenoid valves",
@@ -997,12 +997,12 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "code": "Screw-in cartridge valves",
-        "description": "Valve cartus cu montaj infiletat, până la 1 5/16 țoli"
+        "description": "Valve cartuș cu montaj înfiletat, până la 1 5/16 țoli"
       }
     ],
     faq: [
       {
-        "q": "Ce game de valve hidraulice Atos sunt disponibile pentru control proportional?",
+        "q": "Ce game de valve hidraulice Atos sunt disponibile pentru control proporțional?",
         "a": "Atos produce valve proporționale pentru reglarea fină a presiunii și debitului, alături de controlere electronice dedicate pentru axe și bucle presiune-debit. Gama acoperă de la valve simple, cu comandă directă, până la variante pilotate, pentru aplicații industriale cu cerințe ridicate de precizie. Alegerea corectă depinde de presiunea maximă de lucru, debitul necesar și tipul de semnal de comandă disponibil în instalație."
       },
       {
@@ -1231,7 +1231,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "E-Series",
-        "description": "Debitmetru ultrasonic pentru masurarea debitului de apa"
+        "description": "Debitmetru ultrasonic pentru măsurarea debitului de apă"
       },
       {
         "code": "Dynasonics",
@@ -1239,7 +1239,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "Recordall",
-        "description": "Contoare de apa cu disc nutant pentru retele urbane"
+        "description": "Contoare de apă cu disc nutant pentru rețele urbane"
       },
       {
         "code": "Vortex",
@@ -1251,23 +1251,23 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "Blancett",
-        "description": "Debitmetru cu turbina pentru fluide curate cu vascozitate mica"
+        "description": "Debitmetru cu turbină pentru fluide curate cu vâscozitate mică"
       },
       {
         "code": "Hedland",
-        "description": "Debitmetru cu arie variabila pentru vizualizare directa a debitului"
+        "description": "Debitmetru cu arie variabilă pentru vizualizare directă a debitului"
       },
       {
         "code": "Industrial Oval Gear (IOG)",
-        "description": "Debitmetru cu roti ovale pentru fluide vascoase"
+        "description": "Debitmetru cu roți ovale pentru fluide vâscoase"
       },
       {
         "code": "SmartLevel Sewer",
-        "description": "Sistem de monitorizare nivel pentru retele de canalizare"
+        "description": "Sistem de monitorizare nivel pentru rețele de canalizare"
       },
       {
         "code": "SmartLevel Surface",
-        "description": "Monitorizare nivel pentru ape de suprafata, cu alimentare solara"
+        "description": "Monitorizare nivel pentru ape de suprafață, cu alimentare solară"
       },
       {
         "code": "SubSonic",
@@ -1279,15 +1279,15 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "HPR-32A",
-        "description": "Înregistrator de presiune pentru hidranti"
+        "description": "Înregistrator de presiune pentru hidranți"
       },
       {
         "code": "Ru-35",
-        "description": "Unitate de telemetrie submersibila pentru retele de apa"
+        "description": "Unitate de telemetrie submersibilă pentru rețele de apă"
       },
       {
         "code": "ORION Cellular",
-        "description": "Modul AMI cu retea celulara pentru citire de la distanta"
+        "description": "Modul AMI cu rețea celulară pentru citire de la distanță"
       },
       {
         "code": "MetriNet",
@@ -1295,7 +1295,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "spectro::lyser V3",
-        "description": "Sonda spectrometrica pentru analiza continua a apei"
+        "description": "Sondă spectrometrică pentru analiza continuă a apei"
       },
       {
         "code": "Q46P",
@@ -1308,7 +1308,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
     ],
     faq: [
       {
-        "q": "Ce debitmetre Badger Meter sunt potrivite pentru masurarea apei industriale?",
+        "q": "Ce debitmetre Badger Meter sunt potrivite pentru măsurarea apei industriale?",
         "a": "Pentru apă industrială, gamele ModMAG (electromagnetic), Dynasonics (ultrasonic clamp-on) și Recordall (cu disc nutant) acoperă cele mai multe aplicații de facturare și proces. Alegerea depinde de diametrul conductei, conductivitatea fluidului și dacă instalația permite montaj cu tăiere în conductă sau necesită montaj exterior, fără oprirea fluxului, așa cum permit variantele clamp-on."
       },
       {
@@ -1321,7 +1321,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "q": "Ce diferență este între un debitmetru electromagnetic și unul ultrasonic Dynasonics?",
-        "a": "Debitmetrul electromagnetic, precum ModMAG, măsoară direct fluide conductive electric și necesită montaj în linie, cu tăierea conductei. Debitmetrul ultrasonic Dynasonics folosește senzori clamp-on montați pe exteriorul tevii, potriviti și pentru fluide neconductive, fără oprirea instalației; precizia poate varia însă în funcție de grosimea peretelui și de puritatea fluidului măsurat."
+        "a": "Debitmetrul electromagnetic, precum ModMAG, măsoară direct fluide conductive electric și necesită montaj în linie, cu tăierea conductei. Debitmetrul ultrasonic Dynasonics folosește senzori clamp-on montați pe exteriorul țevii, potriviți și pentru fluide neconductive, fără oprirea instalației; precizia poate varia însă în funcție de grosimea peretelui și de puritatea fluidului măsurat."
       }
     ],
     evidenceClass: 'zero-evidence',
@@ -1403,15 +1403,15 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       },
       {
         "code": "UF300",
-        "description": "Senzor ultrasonic compact cu distanta de masurare de 3 metri"
+        "description": "Senzor ultrasonic compact cu distanță de măsurare de 3 metri"
       },
       {
         "code": "OM60",
-        "description": "Senzor laser de distanta cu precizie ridicata"
+        "description": "Senzor laser de distanță cu precizie ridicată"
       },
       {
         "code": "VeriSens",
-        "description": "Senzor de viziune pentru inspectie și ghidare robotică"
+        "description": "Senzor de viziune pentru inspecție și ghidare robotică"
       },
       {
         "code": "IDC",
@@ -1419,15 +1419,15 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       },
       {
         "code": "AlphaProx",
-        "description": "Senzor inductiv de distanta pentru masurare de precizie"
+        "description": "Senzor inductiv de distanță pentru măsurare de precizie"
       },
       {
         "code": "EAM580-B EtherCAT",
-        "description": "Encoder absolut industrial cu interfata EtherCAT"
+        "description": "Encoder absolut industrial cu interfața EtherCAT"
       },
       {
         "code": "EAM580-B SSI",
-        "description": "Encoder absolut industrial cu iesire SSI"
+        "description": "Encoder absolut industrial cu ieșire SSI"
       },
       {
         "code": "EAM580-B CANopen",
@@ -1435,7 +1435,7 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       },
       {
         "code": "EAM580-SC CANopen",
-        "description": "Encoder absolut compact cu iesire CANopen"
+        "description": "Encoder absolut compact cu ieșire CANopen"
       },
       {
         "code": "EAM580R-K Analog",
@@ -1452,12 +1452,12 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
     ],
     faq: [
       {
-        "q": "Ce tipuri de encodere Baumer sunt disponibile pentru automatizari industriale?",
-        "a": "Baumer oferă encodere absolute din familia EAM580, disponibile cu ieșiri EtherCAT, SSI, CANopen sau analogice, plus variante fără rulmenți (EAM580R) pentru montaj direct pe ax. Selectia corectă depinde de protocolul de comunicație folosit de automat, de rezoluția necesară și de condițiile de montaj, inclusiv spațiul disponibil și tipul de cuplaj mecanic."
+        "q": "Ce tipuri de encodere Baumer sunt disponibile pentru automatizări industriale?",
+        "a": "Baumer oferă encodere absolute din familia EAM580, disponibile cu ieșiri EtherCAT, SSI, CANopen sau analogice, plus variante fără rulmenți (EAM580R) pentru montaj direct pe ax. Selecția corectă depinde de protocolul de comunicație folosit de automat, de rezoluția necesară și de condițiile de montaj, inclusiv spațiul disponibil și tipul de cuplaj mecanic."
       },
       {
-        "q": "Ce date trimit pentru o oferta pentru un senzor Baumer de inlocuire?",
-        "a": "Codul de pe eticheta senzorului sau encoderului existent rămâne cea mai rapidă cale spre o ofertă corectă; adăugati tensiunea de alimentare, tipul de ieșire (analogică, digitală sau de rețea) și distanța ori rază de detectie cerută de aplicație. Pentru encodere, spuneti-ne și tipul de cuplaj mecanic folosit, ca să evităm o variantă incompatibilă mecanic."
+        "q": "Ce date trimit pentru o ofertă pentru un senzor Baumer de înlocuire?",
+        "a": "Codul de pe eticheta senzorului sau encoderului existent rămâne cea mai rapidă cale spre o ofertă corectă; adăugați tensiunea de alimentare, tipul de ieșire (analogică, digitală sau de rețea) și distanța ori rază de detecție cerută de aplicație. Pentru encodere, spuneți-ne și tipul de cuplaj mecanic folosit, ca să evităm o variantă incompatibilă mecanic."
       },
       {
         "q": "Livrați senzori Baumer în România?",

@@ -3,9 +3,9 @@ export const brandContentBatch10 = {
     founded: 1969,
     headquarters: 'Essen, Germania',
     employees: '8,000+',
-    overview: `IFM Electronic este un producător german de senzori industriali și sisteme de automatizare, cu prezență internațională. De peste 50 de ani dezvoltăm și producem senzori inductivi, capacitivi, fotoelectrici, de presiune, temperatură și debit care setează standardele în industrie. Avem fabrici în Germania și centre de competență în toată lumea, cu peste 8,000 de specialiști dedicați inovației.
+    overview: `IFM Electronic este un producător german de senzori industriali și sisteme de automatizare, cu prezență internațională. De peste 50 de ani dezvoltă și produce senzori inductivi, capacitivi, fotoelectrici, de presiune, temperatură și debit care setează standardele în industrie. Fabricația e concentrată în Germania, cu centre de competență în toată lumea.
 
-Suntem pionieri ai tehnologiei IO-Link, care a revoluționat comunicarea între senzori și sisteme de control. Fiecare produs IFM este conceput pentru fiabilitate maximă în condiții extreme - temperaturi de la -40°C la +200°C, presiuni până la 1000 bar, vibrații și șocuri intense. Majoritatea senzorilonr noștri sunt construiți integral din inox 316L sau titan, cu clase de protecție IP68/IP69K pentru medii umede, prafuite sau corozive.
+IFM a fost printre pionierii tehnologiei IO-Link, care a revoluționat comunicarea între senzori și sisteme de control. Fiecare produs IFM este conceput pentru fiabilitate maximă în condiții extreme - temperaturi de la -40°C la +200°C, presiuni până la 1000 bar, vibrații și șocuri intense. Majoritatea senzorilor din gamă sunt construiți integral din inox 316L sau titan, cu clase de protecție IP68/IP69K pentru medii umede, prafuite sau corozive.
 
 Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci soluții complete de monitorizare și diagnostic predictiv. Platformele producătorului moneo și ecosys permit analiza în timp real a semnalelor de la sute de senzori, detectarea anomaliilor și planificarea întreținerii înainte ca defecțiunile să apară. Asta înseamnă costuri mai mici, timp de nefuncționare zero și eficiență crescută pentru clienții producătorului din automotive, food & beverage, logistică, chimie și energie.`,
     whyChoose: [
@@ -141,11 +141,11 @@ Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci 
     founded: 1957,
     headquarters: 'Schmalkalden, Germania',
     employees: '400+',
-    overview: `Internormen este specialist german în filtrare hidraulică de înaltă performanță pentru aplicații industriale și mobile. De peste 65 de ani producem filtre, elemente filtrante și sisteme complete de condiționare a uleiului hidraulic care protejează componentele scumpe - pompe, servomotoare, cilindri, distributoare - de uzura prematură cauzată de particule solide și apă. Fabrica noastră din Schmalkalden folosește tehnologii avansate de plisare și laminare pentru a obține suprafețe filtrante de până la 2 m² pe un element compact.
+    overview: `Internormen este specialist german în filtrare hidraulică de înaltă performanță pentru aplicații industriale și mobile. De peste 65 de ani produce filtre, elemente filtrante și sisteme complete de condiționare a uleiului hidraulic care protejează componentele scumpe - pompe, servomotoare, cilindri, distributoare - de uzura prematură cauzată de particule solide și apă. Fabrica din Schmalkalden folosește tehnologii avansate de plisare și laminare pentru a obține suprafețe filtrante de până la 2 m² pe un element compact.
 
-Filosofia noastră este simplă: un ulei curat înseamnă durată de viață dublată sau triplată pentru componentele hidraulice și timp de nefuncționare zero. De aceea toate filtrele au clase de filtrare certificate conform ISO 16889 (Beta ratio) - eficiența de filtrare este verificată în laboratoare independente. Folosim media filtrante sintetice borosilicate sau microfibră sticlă care rezistă la presiuni diferențiale de până la 210 bar și temperaturi de la -30°C la +110°C fără degradare.
+Filosofia Internormen este simplă: un ulei curat înseamnă durată de viață dublată sau triplată pentru componentele hidraulice și timp de nefuncționare zero. De aceea toate filtrele au clase de filtrare certificate conform ISO 16889 (Beta ratio) - eficiența de filtrare este verificată în laboratoare independente. Producătorul folosește medii filtrante sintetice borosilicate sau microfibră sticlă care rezistă la presiuni diferențiale de până la 210 bar și temperaturi de la -30°C la +110°C fără degradare.
 
-Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fiecare filtru Internormen să îndeplinească standardele stricte germane. Colaborăm direct cu producători de excavatoare, macarale, prese hidraulice, sisteme de injecție, turbine eoliene și centrale hidroelectrice. Oriunde găsești un sistem hidraulic de putere mare care trebuie să funcționeze fără eroare ani la rând, probabil vei găsi și un filtru Internormen.`,
+Internormen produce filtre care îndeplinesc standarde stricte germane și colaborează cu producători de excavatoare, macarale, prese hidraulice, sisteme de injecție, turbine eoliene și centrale hidroelectrice. Oriunde găsești un sistem hidraulic de putere mare care trebuie să funcționeze fără eroare ani la rând, probabil vei găsi și un filtru Internormen.`,
     whyChoose: [
       'Certificare Beta ratio conform ISO 16889 - eficiență filtrare verificată în laboratoare acreditate',
       'Media filtrante sintetice cu structură gradient - particulele mari la suprafață, fine în adâncime',
@@ -161,7 +161,7 @@ Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fieca
       },
       {
         name: 'Filtre retur/tanc seria RT/TF',
-        description: 'Gama noastră de filtre de retur și tanc acoperă debite de la 50 l/min la 3000 l/min, cu presiuni până la 25 bar. Construcție modulară permite montaj pe flansa tancului (top-mounted) sau pe conducta de retur (in-line). Media filtranta microfibră sticlă asigură eficiență Beta 200 la 10 µm - adică din 200 de particule de 10 µm, 199 sunt reținute. Scheletul metalic interior previne colapsul elementului chiar și la presiune diferențială 10 bar. Indicator mecanic cu semnal electric 24VDC/230VAC la 3 bar diferențial. Versiuni cu încălzitor integrat pentru porniri la temperaturi negative.'
+        description: 'Gama noastră de filtre de retur și tanc acoperă debite de la 50 l/min la 3000 l/min, cu presiuni până la 25 bar. Construcție modulară permite montaj pe flansa tancului (top-mounted) sau pe conducta de retur (in-line). Media filtrantă microfibră sticlă asigură eficiență Beta 200 la 10 µm - adică din 200 de particule de 10 µm, 199 sunt reținute. Scheletul metalic interior previne colapsul elementului chiar și la presiune diferențială 10 bar. Indicator mecanic cu semnal electric 24VDC/230VAC la 3 bar diferențial. Versiuni cu încălzitor integrat pentru porniri la temperaturi negative.'
       },
       {
         name: 'Filtre aspirație seria SG',
@@ -271,11 +271,11 @@ Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fieca
     founded: 1895,
     headquarters: 'Nürnberg, Germania',
     employees: '800+',
-    overview: `Jean Müller este producător german de siguranțe fuzibile de înaltă performanță pentru protecția instalațiilor electrice industriale. De peste 125 de ani fabricăm siguranțe tip NH (formă lamă) și HRC (High Rupturing Capacity) care protejează transformatoare, motoare, condensatoare, invertoare și cabluri electrice de scurtcircuite și suprasarcini. Fabrica noastră din Nürnberg produce anual milioane de siguranțe exportate în peste 80 de țări pe cinci continente.
+    overview: `Jean Müller este producător german de siguranțe fuzibile de înaltă performanță pentru protecția instalațiilor electrice industriale. De peste 125 de ani fabrică siguranțe tip NH (formă lamă) și HRC (High Rupturing Capacity) care protejează transformatoare, motoare, condensatoare, invertoare și cabluri electrice de scurtcircuite și suprasarcini. Fabrica din Nürnberg exportă siguranțe la nivel internațional.
 
-Tehnologia producătorului se bazează pe umplerea corpului ceramic cu nisip cuarțos calibrat care absoarbe energia arcului electric la întrerupere. Când curentul de scurtcircuit atinge 10-100 kA, firul fuzibil se topește în microsecunde, iar nisipul stinge arcul înainte ca acesta să distrugă echipamentele din aval. Testăm fiecare tip de siguranță în laboratorul nostru la curenti de scurtcircuit de până la 120 kA - mai mult decât vei găsi vreodată într-o instalație industrială normală.
+Tehnologia producătorului se bazează pe umplerea corpului ceramic cu nisip cuarțos calibrat care absoarbe energia arcului electric la întrerupere. Când curentul de scurtcircuit atinge 10-100 kA, firul fuzibil se topește în microsecunde, iar nisipul stinge arcul înainte ca acesta să distrugă echipamentele din aval. Fiecare tip de siguranță este testat de producător la curenți de scurtcircuit de până la 120 kA - mai mult decât vei găsi vreodată într-o instalație industrială normală.
 
-Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jean Müller fabricată astăzi are exact aceleași caracteristici I²t și caracteristică timp-curent ca una fabricată acum 20 de ani cu același cod. Asta înseamnă că poți completa un set vechi fără să recalculezi selectivitatea sau să schimbi întreaga instalație. Pentru electricieni și ingineri de mentenanță, asta înseamnă liniște și predictibilitate într-o lume în care echipamentele se schimbă constant.`,
+Ceea ce diferențiază Jean Müller este consecvența calității: fiecare siguranță fabricată astăzi are exact aceleași caracteristici I²t și caracteristică timp-curent ca una fabricată acum 20 de ani cu același cod. Asta înseamnă că poți completa un set vechi fără să recalculezi selectivitatea sau să schimbi întreaga instalație. Pentru electricieni și ingineri de mentenanță, asta înseamnă liniște și predictibilitate într-o lume în care echipamentele se schimbă constant.`,
     whyChoose: [
       'Poder de rupere 120 kA la 500V AC - protecție eficientă chiar lângă transformator sau generator',
       'Caracteristică I²t stabilă ±5% - selectivitate perfectă între siguranțe de diferite calibre',
@@ -295,7 +295,7 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       },
       {
         name: 'Siguranțe HRC 690V pentru industrie',
-        description: 'Linia noastră HRC (High Rupturing Capacity) pentru 690V AC este folosită în instalații industriale cu tensiune înaltă - transformatoare 20kV/690V, motoare 500kW+, convertoare frecvență mare putere. Poder de rupere 120 kA la 690V, caracteristici gG sau aM disponibile, calibre până la 1600A. Corp ceramic extra-gros (15mm grosime perete) rezistă la temperatura arcului de 20,000°C fără a crăpa. Capete cupru nichelate pentru medii corozive. Certificare UL/CSA pentru export SUA/Canada. Versiuni cu striker mecanic pentru actionare întreruptor auxiliar la topire.'
+        description: 'Linia noastră HRC (High Rupturing Capacity) pentru 690V AC este folosită în instalații industriale cu tensiune înaltă - transformatoare 20kV/690V, motoare 500kW+, convertoare frecvență mare putere. Poder de rupere 120 kA la 690V, caracteristici gG sau aM disponibile, calibre până la 1600A. Corp ceramic extra-gros (15mm grosime perete) rezistă la temperatura arcului de 20,000°C fără a crăpa. Capete cupru nichelate pentru medii corozive. Certificare UL/CSA pentru export SUA/Canada. Versiuni cu striker mecanic pentru acționare întreruptor auxiliar la topire.'
       },
       {
         name: 'Baze siguranțe NH cu separator',
@@ -357,11 +357,11 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       },
       {
         "code": "SL3-1000A",
-        "description": "separator de intrare cu interblocare mecanica pentru bare colectoare"
+        "description": "separator de intrare cu interblocare mecanică pentru bare colectoare"
       },
       {
         "code": "TOKEO",
-        "description": "separator-sigurante NH inteligent cu electronica de monitorizare integrata"
+        "description": "separator-siguranțe NH inteligent cu electronică de monitorizare integrată"
       },
       {
         "code": "KETO",
@@ -381,15 +381,15 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       },
       {
         "code": "NH00-NH3 baze",
-        "description": "baze de sigurante NH pentru montaj pe placa sau bara"
+        "description": "baze de siguranțe NH pentru montaj pe placă sau bară"
       },
       {
         "code": "PV",
-        "description": "siguranta dedicata protectiei sistemelor fotovoltaice de curent continuu"
+        "description": "siguranță dedicată protecției sistemelor fotovoltaice de curent continuu"
       },
       {
         "code": "aR semiconductor",
-        "description": "siguranta ultrarapida pentru protectia semiconductoarelor de putere"
+        "description": "siguranță ultrarapidă pentru protecția semiconductoarelor de putere"
       }
     ],
     faq: [
@@ -399,7 +399,7 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       },
       {
         "q": "Livrați separatoare cu siguranțe Jean Muller în România?",
-        "a": "Da, aducem la comandă separatoare din gamele SL, TOKEO sau SASILplus, pe baza codului confirmat de client. Nu avem această gamă pe raft și ne raportăm la informațiile publice ale producătorului; termenul obișnuit este de 2-4 săptămâni la comandă. Este util să trimiteti codul complet de pe eticheta separatorului existent, pentru a identifica exact varianta compatibilă cu instalația."
+        "a": "Da, aducem la comandă separatoare din gamele SL, TOKEO sau SASILplus, pe baza codului confirmat de client. Nu avem această gamă pe raft și ne raportăm la informațiile publice ale producătorului; termenul obișnuit este de 2-4 săptămâni la comandă. Este util să trimiteți codul complet de pe eticheta separatorului existent, pentru a identifica exact varianta compatibilă cu instalația."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de siguranțe NH?",
@@ -410,7 +410,7 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
         "a": "SL este seria clasică de separatoare cu siguranțe, disponibilă în mărimile 00 până la 3 și în versiuni pentru curenți mari de intrare. TOKEO adaugă electronica pentru monitorizarea stării instalației și semnalizarea eventualelor probleme, fiind gândit pentru aplicații unde se dorește supraveghere suplimentară. Alegerea depinde de complexitatea tabloului și de necesitatea unei monitorizări active."
       },
       {
-        "q": "Cum gasesc echivalentul unei baze de sigurante NH mai vechi de la Jean Muller?",
+        "q": "Cum găsesc echivalentul unei baze de siguranțe NH mai vechi de la Jean Muller?",
         "a": "Comparăm mărimea NH, distanța dintre borne și tipul de conexiune (placă sau bară colectoare) cu gamele actuale din documentația oficială a producătorului. O fotografie clară a bazei existente, împreună cu mărimea NH scrisă pe corp, este suficientă de obicei pentru identificare. Confirmarea finală se face după verificarea curentului nominal necesar în instalație."
       }
     ],
@@ -426,11 +426,11 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
     founded: 1948,
     headquarters: 'Fulda, Germania',
     employees: '2,300+',
-    overview: `JUMO (Fulda, Germania) este unul dintre producătorii importanți din Europa în tehnologia de măsurare și control pentru temperatură, presiune, nivel, debit, umiditate și pH. De peste 75 de ani dezvoltăm senzori industriali, regulatoare și sisteme de automatizare pentru industria de proces - chimie, farmaceutică, alimentară, energie, tratare apă. Cu 2,300 de angajați și 30 de filiale în lume, JUMO combină precizia germană cu inovația constantă.
+    overview: `JUMO (Fulda, Germania) este unul dintre producătorii importanți din Europa în tehnologia de măsurare și control pentru temperatură, presiune, nivel, debit, umiditate și pH. De peste 75 de ani dezvoltă senzori industriali, regulatoare și sisteme de automatizare pentru industria de proces - chimie, farmaceutică, alimentară, energie, tratare apă. JUMO combină precizia germană cu inovația constantă.
 
-Avem fabrici proprii în Germania unde producem sonde de temperatură Pt100/Pt1000 cu toleranță clasa A sau AA conform IEC 60751, traductoare de presiune ceramice cu acuratețe 0.25% FS, regulatoare PID multiloop cu algoritmi autotune. Fiecare produs JUMO este calibrat individual în laborator acreditat DAkkS/ISO 17025 și vine cu certificat de calibrare trasabil la standardele naționale germane. Pentru industria farmaceutică și alimentară oferim versiuni sanitare cu certificări FDA 21 CFR Part 11 și 3-A Sanitary Standards.
+Producția JUMO se face în fabrici proprii din Germania, unde sunt fabricate sonde de temperatură Pt100/Pt1000 cu toleranță clasa A sau AA conform IEC 60751, traductoare de presiune ceramice cu acuratețe 0.25% FS, regulatoare PID multiloop cu algoritmi autotune. Fiecare produs JUMO este calibrat individual în laborator acreditat DAkkS/ISO 17025 și vine cu certificat de calibrare trasabil la standardele naționale germane. Pentru industria farmaceutică și alimentară, JUMO oferă versiuni sanitare cu certificări FDA 21 CFR Part 11 și 3-A Sanitary Standards.
 
-Ceea ce ne face preferați de inginerii de proces este versatilitatea: același regulator JUMO poate controla temperatură, presiune, nivel sau pH doar schimbând senzorul și câțiva parametri software. Platformele producătorului mTRON și AQUIS permit automatizarea completă a proceselor complexe - de la fermentare bere la sterilizare autoclave, de la congelare blast-chiller la pasteurizare lapte. Integrare nativă PROFIBUS, PROFINET, Modbus și OPC UA facilitează conectarea la sisteme SCADA și MES.`,
+Ceea ce face JUMO preferat de inginerii de proces este versatilitatea: același regulator JUMO poate controla temperatură, presiune, nivel sau pH doar schimbând senzorul și câțiva parametri software. Platformele producătorului mTRON și AQUIS permit automatizarea completă a proceselor complexe - de la fermentare bere la sterilizare autoclave, de la congelare blast-chiller la pasteurizare lapte. Integrare nativă PROFIBUS, PROFINET, Modbus și OPC UA facilitează conectarea la sisteme SCADA și MES.`,
     whyChoose: [
       'Calibrare fabrică DAkkS/ISO 17025 - certificat trasabil inclus pentru fiecare senzor',
       'Sonde Pt100 clasa AA toleranță ±0.1°C la 0°C - precizie superioară pentru procese critice',
@@ -558,11 +558,11 @@ Ceea ce ne face preferați de inginerii de proces este versatilitatea: același 
     founded: 1935,
     headquarters: 'Winnenden, Germania',
     employees: '14,000+',
-    overview: `Kärcher este un producător german de echipamente de curățenie profesională și industrială, cu rețea de distribuție în peste 190 de țări. De peste 85 de ani dezvoltăm și producem mașini de spălat cu presiune, aspiratoare industriale, mașini de spălat pardoseli și sisteme complete de curățare pentru fabrici, depozite, parcări, aeroporturi și spații publice. Cu peste 14,000 de angajați și prezență în 190 de țări, Kärcher stabilește standardele în eficiență, durabilitate și sustenabilitate.
+    overview: `Kärcher este un producător german de echipamente de curățenie profesională și industrială, cu rețea de distribuție internațională. De peste 85 de ani dezvoltă și produce mașini de spălat cu presiune, aspiratoare industriale, mașini de spălat pardoseli și sisteme complete de curățare pentru fabrici, depozite, parcări, aeroporturi și spații publice. Kärcher stabilește standardele în eficiență, durabilitate și sustenabilitate.
 
-Gama noastră industrială începe de la mașini mobile pentru curățare zilnică și ajunge până la sisteme robotizate complet automatizate care curăță 10,000 m² pe oră fără operator. Folosim tehnologii brevitate precum iCapsol (spumă uscată cu consum 90% mai mic de apă), ec!iciency (motoare brushless care consumă cu 50% mai puțin curent) și KART (navigație laser autonomă). Fiecare mașină Kärcher Industrial este construită în fabricile producătorului din Germania pentru a rezista la utilizare intensivă 8-16 ore pe zi, 7 zile pe săptămână, ani la rând.
+Gama industrială Kärcher începe de la mașini mobile pentru curățare zilnică și ajunge până la sisteme robotizate complet automatizate care curăță suprafețe mari fără operator. Producătorul folosește tehnologii proprii precum iCapsol (spumă uscată cu consum redus de apă), ec!iciency (motoare brushless cu consum redus de curent) și KART (navigație laser autonomă). Fiecare mașină Kärcher Industrial este construită în fabricile producătorului din Germania pentru a rezista la utilizare intensivă 8-16 ore pe zi, 7 zile pe săptămână, ani la rând.
 
-Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 1,000 de brevete active pentru tehnologii de pulverizare, aspirare, filtrare și robotică. Toate produsele sunt testate în laboratoare proprii la zeci de mii de ore funcționare simulată înainte de lansare. Rezultatul: utilaje care își mențin performanța și eficiența chiar și după 10,000-15,000 ore de utilizare, cu costuri de mentenanță minime și timp de nefuncționare aproape zero.`,
+Kärcher investește constant în cercetare și dezvoltare, cu tehnologii proprii de pulverizare, aspirare, filtrare și robotică. Produsele sunt testate în laborator la zeci de mii de ore funcționare simulată înainte de lansare. Rezultatul: utilaje care își mențin performanța și eficiența chiar și după mii de ore de utilizare, cu costuri de mentenanță minime și timp de nefuncționare redus.`,
     whyChoose: [
       'Tehnologie ec!iciency - motoare brushless EC consumă cu 50% mai puțin decât motoare clasice AC',
       'Sistem iCapsol cu spumă uscată - curățare profundă cu 90% mai puțin apă decât spălare tradițională',
@@ -601,7 +601,7 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
     ],
     industries: [
       'Manufacturing - curățare hale producție, mașini CNC, benzi rulante',
-      'Logistics - depozite, centre distributie, rampe încărcare',
+      'Logistics - depozite, centre distribuție, rampe încărcare',
       'Automotive - service-uri, spălătorii camioane, hale vopsitorie',
       'Food & Beverage - curățare sanitară spații producție, ambalare',
       'Retail - hypermarket-uri, mall-uri, parcări subterane',
@@ -620,15 +620,15 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
     productCodes: [
       {
         "code": "K-Mop 46",
-        "description": "masina compacta de spalat pardoseli pentru spatii aglomerate"
+        "description": "mașină compactă de spălat pardoseli pentru spații aglomerate"
       },
       {
         "code": "B 80 W",
-        "description": "masina de spalat-aspirat pardoseli cu detectie automata a suprafetei"
+        "description": "mașină de spălat-aspirat pardoseli cu detecție automată a suprafeței"
       },
       {
         "code": "B 150 R Bp DOSE",
-        "description": "masina cu baterie pentru spalat pardoseli, dozare automata solutie"
+        "description": "mașină cu baterie pentru spălat pardoseli, dozare automată soluție"
       },
       {
         "code": "BR 45/22",
@@ -636,19 +636,19 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
       },
       {
         "code": "BR 35/12",
-        "description": "masina compacta de spalat pardoseli, latime lucru redusa"
+        "description": "mașină compactă de spălat pardoseli, lățime lucru redusă"
       },
       {
         "code": "BR 30/4",
-        "description": "masina manuala compacta pentru curatare pardoseli mici"
+        "description": "mașină manuală compactă pentru curățare pardoseli mici"
       },
       {
         "code": "B 40/10",
-        "description": "masina de spalat pardoseli cu rezervor de capacitate medie"
+        "description": "mașină de spălat pardoseli cu rezervor de capacitate medie"
       },
       {
         "code": "BD 38/12 FL",
-        "description": "masina cu freza pentru spalat pardoseli industriale"
+        "description": "mașină cu freză pentru spălat pardoseli industriale"
       },
       {
         "code": "IVR-L",
@@ -678,7 +678,7 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un aspirator industrial Karcher?",
-        "a": "Este nevoie de tipul materialului aspirat (praf, lichid sau ambele), clasa de praf cerută (L, M sau H), dacă zona este clasificata Atex și capacitatea rezervorului dorită. Pentru aplicații cu pulberi combustibile menționați explicit necesitatea certificarii pentru zona 22, deoarece aceasta schimbă seria recomandată din gamă IVR sau dedusteri."
+        "a": "Este nevoie de tipul materialului aspirat (praf, lichid sau ambele), clasa de praf cerută (L, M sau H), dacă zona este clasificată Atex și capacitatea rezervorului dorită. Pentru aplicații cu pulberi combustibile menționați explicit necesitatea certificării pentru zona 22, deoarece aceasta schimbă seria recomandată din gamă IVR sau dedusteri."
       },
       {
         "q": "Cum aleg între o mașină de spălat pardoseli cu baterie și una cu cablu la Karcher?",
@@ -697,11 +697,11 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
     founded: 1974,
     headquarters: 'Winterthur, Elveția',
     employees: '350+',
-    overview: `Keller este producător elvețian de traductoare și transmițătoare de presiune piezoresistive de înaltă precizie. De 50 de ani dezvoltăm senzori pentru măsurarea presiunii în aplicații industriale, hidrologie, geotehnică, automotive și aerospace unde precizia, stabilitatea pe termen lung și fiabilitatea sunt absolut critice. Fabrica noastră din Winterthur produce anual peste 200,000 de traductoare exportate în 80 de țări, fiecare calibrat individual și certificat.
+    overview: `Keller este producător elvețian de traductoare și transmițătoare de presiune piezoresistive de înaltă precizie. De 50 de ani dezvoltă senzori pentru măsurarea presiunii în aplicații industriale, hidrologie, geotehnică, automotive și aerospace unde precizia, stabilitatea pe termen lung și fiabilitatea sunt absolut critice. Fabrica din Winterthur exportă traductoare la nivel internațional, fiecare calibrat individual și certificat.
 
-Tehnologia producătorului se bazează pe celule piezoresistive cu membrană de silicone monocristalin pe care sunt difuzați rezistori Wheatstone. Când presiunea deformează membrana cu câțiva micrometri, rezistența electrică se modifică proporțional, generând un semnal electric precis și stabil. Compensăm temperatura folosind rezistori integrati pe același chip și algoritmi digitali care corectează derივarea termică până la ±0.05% FS pe întregul domeniu -40°C până +125°C.
+Tehnologia producătorului se bazează pe celule piezoresistive cu membrană de silicone monocristalin pe care sunt difuzați rezistori Wheatstone. Când presiunea deformează membrana cu câțiva micrometri, rezistența electrică se modifică proporțional, generând un semnal electric precis și stabil. Temperatura este compensată prin rezistori integrați pe același chip și algoritmi digitali care corectează deriva termică până la ±0.05% FS pe întregul domeniu -40°C până +125°C.
 
-Avem expertiză extinsă în aplicații extreme: traductoare submersibile până la 5,000 metri adâncime oceană, senzori pentru 700 bar presiune hidraulică în prese de forjare, transmițătoare wireless pentru monitorizare baraje cu autonomie 10 ani pe baterie. Colaborăm cu NASA pentru senzori aerospace, cu Schlumberger pentru sonde petroliere de 10 km adâncime și cu CERN pentru sisteme criogenice la -269°C. Dacă măsurarea trebuie să fie perfectă, alegi Keller.`,
+Keller are expertiză extinsă în aplicații extreme: traductoare submersibile până la 5,000 metri adâncime oceană, senzori pentru 700 bar presiune hidraulică în prese de forjare, transmițătoare wireless pentru monitorizare baraje cu autonomie 10 ani pe baterie, folosite în aerospațial, industria petrolieră și cercetare științifică. Dacă măsurarea trebuie să fie perfectă, alegi Keller.`,
     whyChoose: [
       'Acuratețe 0.05% FS - de 10 ori mai bună decât traductoare industriale standard',
       'Stabilitate pe termen lung <0.1% pe an - zero necesitate recalibrare anuală',
@@ -721,7 +721,7 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         name: 'Datalogger-uri wireless seria ARC/DCX',
-        description: 'Sistemele noastre de achiziție date wireless combină traductorul de presiune cu modul de transmisie LoRa, NB-IoT sau GSM. Înregistrare la interval configurabil 1 minut - 24 ore, memorie 10,000-50,000 înregistrări. Transmisie date prin radio la gateway (LoRa până 10 km în câmp deschis) sau direct în cloud prin celular. Alimentare baterie litiu 3.6V autonomie 5-10 ani în funcție de interval transmisie. Display e-ink pentru vizualizare locală fără consum. Aplicații: monitorizare nivel acvifere, presiune conducte distributie apă, deformare diguri și baraje, zăpadă pe acoperișuri.'
+        description: 'Sistemele noastre de achiziție date wireless combină traductorul de presiune cu modul de transmisie LoRa, NB-IoT sau GSM. Înregistrare la interval configurabil 1 minut - 24 ore, memorie 10,000-50,000 înregistrări. Transmisie date prin radio la gateway (LoRa până 10 km în câmp deschis) sau direct în cloud prin celular. Alimentare baterie litiu 3.6V autonomie 5-10 ani în funcție de interval transmisie. Display e-ink pentru vizualizare locală fără consum. Aplicații: monitorizare nivel acvifere, presiune conducte distribuție apă, deformare diguri și baraje, zăpadă pe acoperișuri.'
       },
       {
         name: 'Traductoare diferențiale seria PD-39X',
@@ -740,7 +740,7 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
     ],
     industries: [
       'Hydrology - monitorizare nivel acvifere, râuri, lacuri, fântâni',
-      'Water Supply - rețele distributie, rezervoare, stații pompare',
+      'Water Supply - rețele distribuție, rezervoare, stații pompare',
       'Oil & Gas - sonde producție, conducte transport, platforme offshore',
       'Geotechnical - monitorizare stabilitate versanți, tuneluri, baraje',
       'HVAC - control presiune, filtre, ventilatoare, camere curate',
@@ -768,11 +768,11 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         "code": "Series 35X",
-        "description": "traductor de presiune cu membrana frontala, variantă rasfrant"
+        "description": "traductor de presiune cu membrană frontală, variantă răsfrânt"
       },
       {
         "code": "Series 35HTCX",
-        "description": "traductor cu membrana frontala pentru temperaturi ridicate"
+        "description": "traductor cu membrană frontală pentru temperaturi ridicate"
       },
       {
         "code": "Series PD-33X",
@@ -784,7 +784,7 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         "code": "Series PD-39X-Ei",
-        "description": "traductor diferential cu certificare intrinsec sigura"
+        "description": "traductor diferențial cu certificare intrinsec sigură"
       },
       {
         "code": "Series 21Y",
@@ -808,7 +808,7 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         "code": "Series 36XW",
-        "description": "sonda de nivel submersibila pentru masurarea apei"
+        "description": "sondă de nivel submersibilă pentru măsurarea apei"
       },
       {
         "code": "DCX-22",
@@ -822,14 +822,14 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         "q": "Livrați traductoare de presiune Keller în România?",
-        "a": "Da, aducem la comandă traductoare din seriile 33X, PD-39X sau dataloggere DCX, pe baza codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni la comandă. Transmiteti codul complet de pe eticheta pentru identificarea rapidă a variantei corecte."
+        "a": "Da, aducem la comandă traductoare din seriile 33X, PD-39X sau dataloggere DCX, pe baza codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni la comandă. Transmiteți codul complet de pe eticheta pentru identificarea rapidă a variantei corecte."
       },
       {
-        "q": "Ce date trimit pentru o oferta de traductor Keller?",
-        "a": "Precizati domeniul de presiune necesar, tipul de mediu măsurat, temperatura de lucru, tipul de ieșire electrică (4-20 mA, RS485 sau tensiune) și dacă este nevoie de certificare pentru zone explozive. Dacă înlocuiți un traductor existent, codul complet de pe eticheta acestuia grăbește identificarea variantei echivalente din gama actuală."
+        "q": "Ce date trimit pentru o ofertă de traductor Keller?",
+        "a": "Precizați domeniul de presiune necesar, tipul de mediu măsurat, temperatura de lucru, tipul de ieșire electrică (4-20 mA, RS485 sau tensiune) și dacă este nevoie de certificare pentru zone explozive. Dacă înlocuiți un traductor existent, codul complet de pe eticheta acestuia grăbește identificarea variantei echivalente din gama actuală."
       },
       {
-        "q": "Ce este un traductor diferential precum Series PD-39X de la Keller?",
+        "q": "Ce este un traductor diferențial precum Series PD-39X de la Keller?",
         "a": "Un traductor diferențial măsoară diferența de presiune între două puncte ale unei instalații, utilă la filtre colmatate, debitmetre sau nivel în rezervoare închise. Seria PD-39X este gândită pentru aplicații industriale exigente, iar varianta PD-39X-Ei adaugă certificare intrinsec sigură pentru zone cu risc de explozie. Selectarea corectă ține cont de domeniul diferențial și de mediul de lucru."
       }
     ],
@@ -845,11 +845,11 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
     founded: 1929,
     headquarters: 'München, Germania',
     employees: '2,500+',
-    overview: `Klüber Lubrication este un producător german specializat în lubrifianți speciali de înaltă performanță pentru aplicații industriale extreme unde unsori și uleiuri convenționale eșuează. De peste 90 de ani dezvoltăm formulări unice pentru temperaturi de la -70°C până +1200°C, viteze de rotație de peste 100,000 rpm, vid înalt 10⁻⁹ mbar, radiații nucleare, compatibilitate oxigen pur, contactul cu alimente și medicamente. Cu peste 2,500 de specialiști în 270 de locații mondiale, Klüber combină chimia de vârf cu expertiză aplicativă profundă.
+    overview: `Klüber Lubrication este un producător german specializat în lubrifianți speciali de înaltă performanță pentru aplicații industriale extreme unde unsori și uleiuri convenționale eșuează. De peste 90 de ani dezvoltă formulări unice pentru temperaturi de la -70°C până +1200°C, viteze de rotație de peste 100,000 rpm, vid înalt 10⁻⁹ mbar, radiații nucleare, compatibilitate oxigen pur, contactul cu alimente și medicamente. Klüber combină chimia de vârf cu expertiză aplicativă profundă.
 
-Portofoliul nostru cuprinde peste 3,000 de formulări specializate: unsori sintetice pe bază PFPE sau PAO pentru temperaturi extreme, uleiuri de înaltă performanță pentru reductoare și lagăre, paste de asamblare, lubrifianți solizi MoS2 sau PTFE, fluide de răcire pentru prelucrări metalice. Fiecare produs Klüber este optimizat pentru o aplicație specifică și testat în laboratoarele noastre până la milioane de cicluri sau mii de ore funcționare înainte de lansare comercială.
+Portofoliul Klüber cuprinde formulări specializate: unsori sintetice pe bază PFPE sau PAO pentru temperaturi extreme, uleiuri de înaltă performanță pentru reductoare și lagăre, paste de asamblare, lubrifianți solizi MoS2 sau PTFE, fluide de răcire pentru prelucrări metalice. Fiecare produs Klüber este optimizat pentru o aplicație specifică și testat în laborator până la milioane de cicluri sau mii de ore funcționare înainte de lansare comercială.
 
-Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klüber, primești acces la o echipă de tribologi care analizează aplicația ta, testează compatibilitatea materialelor, calculează intervalul de reungere și monitorizează performanța în timp. Colaborăm cu BMW pentru unsori transmisii electrice, cu SKF pentru preungere lagăre, cu NASA pentru lubrifianți aerospace și cu Nestlé pentru unsori food-grade. Unde fiabilitatea contează mai mult decât prețul, alegi Klüber.`,
+Ceea ce diferențiază Klüber este suportul tehnic: când cumperi un lubrifiant Klüber, primești acces la o echipă de tribologi care analizează aplicația ta, testează compatibilitatea materialelor, calculează intervalul de reungere și monitorizează performanța în timp. Klüber furnizează unsori pentru transmisii electrice auto, lagăre industriale, aplicații aerospace și unsori food-grade pentru industria alimentară. Unde fiabilitatea contează mai mult decât prețul, alegi Klüber.`,
     whyChoose: [
       'Domeniu temperatură -70°C până +1200°C - unsori formulate pentru condiții de temperatură extremă',
       'Formulări sintetice PFPE - inerți chimic total, compatibili oxigen pur, nu ard, nu oxidează',
@@ -908,11 +908,11 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
     productCodes: [
       {
         "code": "Klueberplex BEM 41-141",
-        "description": "unsoare pe baza de litiu pentru rulmenti la turatii medii"
+        "description": "unsoare pe bază de litiu pentru rulmenți la turații medii"
       },
       {
         "code": "Klueberalfa BF 83-102",
-        "description": "unsoare fluorurata pentru medii chimic agresive"
+        "description": "unsoare fluorurată pentru medii chimic agresive"
       },
       {
         "code": "Klueberalfa RM 93-101",
@@ -920,19 +920,19 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       },
       {
         "code": "BARRIERTA L 55/2",
-        "description": "unsoare pe baza de PFPE pentru medii extreme"
+        "description": "unsoare pe bază de PFPE pentru medii extreme"
       },
       {
         "code": "BARRIERTA KM 192",
-        "description": "unsoare de bariera pentru contact cu chimicale agresive"
+        "description": "unsoare de barieră pentru contact cu chimicale agresive"
       },
       {
         "code": "Klubersynth BQP 72-82",
-        "description": "unsoare sintetica pentru rulmenti la turatii ridicate"
+        "description": "unsoare sintetică pentru rulmenți la turații ridicate"
       },
       {
         "code": "Klubersynth UH1 64-2403",
-        "description": "unsoare sintetica avizata pentru contact incidental cu alimente"
+        "description": "unsoare sintetică avizată pentru contact incidental cu alimente"
       },
       {
         "code": "Klueberfood NH1 94-301",
@@ -940,11 +940,11 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       },
       {
         "code": "Klueberfood NH1 94-6000",
-        "description": "unsoare food-grade cu vascozitate mai mare pentru sarcini medii"
+        "description": "unsoare food-grade cu vâscozitate mai mare pentru sarcini medii"
       },
       {
         "code": "ISOFLEX PDL 300 A",
-        "description": "unsoare de precizie pentru mecanisme fine și rulmenti mici"
+        "description": "unsoare de precizie pentru mecanisme fine și rulmenți mici"
       },
       {
         "code": "CENTOPLEX GLP 500",
@@ -964,29 +964,29 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       },
       {
         "code": "Klubertherm chain oil",
-        "description": "ulei pentru lanturi la temperaturi de lucru ridicate"
+        "description": "ulei pentru lanțuri la temperaturi de lucru ridicate"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între unsorile Kluber Klueberplex și Klubersynth?",
-        "a": "Klueberplex folosește de regulă un ulei de bază mineral sau semisintetic, potrivit pentru rulmenți la turații medii și sarcini uzuale. Klubersynth are ulei de bază sintetic, ceea ce îi oferă stabilitate mai buna la temperaturi ridicate și la turații mari, fiind recomandat în aplicații mai solicitante. Alegerea corectă depinde de turația, temperatură și sarcină din aplicația respectivă."
+        "a": "Klueberplex folosește de regulă un ulei de bază mineral sau semisintetic, potrivit pentru rulmenți la turații medii și sarcini uzuale. Klubersynth are ulei de bază sintetic, ceea ce îi oferă stabilitate mai bună la temperaturi ridicate și la turații mari, fiind recomandat în aplicații mai solicitante. Alegerea corectă depinde de turația, temperatură și sarcină din aplicația respectivă."
       },
       {
         "q": "Livrați unsori și uleiuri Kluber în România?",
-        "a": "Da, aducem la comandă produse din gamele Klueberplex, Klubersynth sau Klueberfood, pe baza codului exact solicitat de client. Nu avem această gamă pe raft și ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteti codul complet de pe fișa tehnică pentru a evita confuzia între variante apropiate."
+        "a": "Da, aducem la comandă produse din gamele Klueberplex, Klubersynth sau Klueberfood, pe baza codului exact solicitat de client. Nu avem această gamă pe raft și ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteți codul complet de pe fișa tehnică pentru a evita confuzia între variante apropiate."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de lubrifiant Klueber?",
-        "a": "Menționati aplicația exactă (rulment, angrenaj, lant sau compresor), domeniul de temperatură de funcționare, sarcină și turația, plus dacă este necesară o certificare pentru contact incidental cu alimente. Codul complet al produsului existent, dacă înlocuiți un lubrifiant deja folosit, ajută mult la identificarea variantei echivalente din gamă actuală Klueber."
+        "a": "Menționati aplicația exactă (rulment, angrenaj, lanț sau compresor), domeniul de temperatură de funcționare, sarcină și turația, plus dacă este necesară o certificare pentru contact incidental cu alimente. Codul complet al produsului existent, dacă înlocuiți un lubrifiant deja folosit, ajută mult la identificarea variantei echivalente din gamă actuală Klueber."
       },
       {
-        "q": "Ce inseamna certificarea alimentara la o unsoare Klueberfood?",
+        "q": "Ce înseamnă certificarea alimentara la o unsoare Klueberfood?",
         "a": "Gama Klueberfood este formulată pentru a fi folosită în zone unde există posibilitatea unui contact incidental cu produse alimentare, respectând cerințe specifice industriei alimentare și farmaceutice. Codurile NH1 94-301 și NH1 94-6000 diferă prin vâscozitate, fiind alese în funcție de sarcina mecanismului lubrifiat. Documentația oficială a producătorului confirmă domeniul exact de utilizare admis."
       },
       {
         "q": "Ce este unsoarea BARRIERTA de la Klueber și când se folosește?",
-        "a": "BARRIERTA este o gamă de unsori pe bază de PFPE, rezistente la atacul chimic al solventilor, acizilor sau bazelor, fiind folosite acolo unde lubrifianții uzuali s-ar degrada rapid. Variantele L 55/2 și KM 192 diferă prin consistenta și domeniul de temperatură recomandat. Alegerea corectă se face după fișa tehnică a mediului chimic prezent în instalație."
+        "a": "BARRIERTA este o gamă de unsori pe bază de PFPE, rezistente la atacul chimic al solvenților, acizilor sau bazelor, fiind folosite acolo unde lubrifianții uzuali s-ar degrada rapid. Variantele L 55/2 și KM 192 diferă prin consistența și domeniul de temperatură recomandat. Alegerea corectă se face după fișa tehnică a mediului chimic prezent în instalație."
       }
     ],
     evidenceClass: 'transactional',
@@ -1001,11 +1001,11 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
     founded: 1980,
     headquarters: 'Hofheim am Taunus, Germania',
     employees: '500+',
-    overview: `Kobold Messring este producător german de instrumentație industrială pentru măsurarea și controlul debitului, nivelului, presiunii și temperaturii. De peste 40 de ani dezvoltăm senzori și traductoare compacte, robuste și precise pentru aplicații de proces în chimie, petrochimie, farmaceutică, alimentară, tratare apă și automatizare industrială. Fabrica noastră din Hofheim produce anual peste 100,000 de aparate exportate în 60 de țări, fiecare calibrat individual și testat.
+    overview: `Kobold Messring este producător german de instrumentație industrială pentru măsurarea și controlul debitului, nivelului, presiunii și temperaturii. De peste 40 de ani dezvoltă senzori și traductoare compacte, robuste și precise pentru aplicații de proces în chimie, petrochimie, farmaceutică, alimentară, tratare apă și automatizare industrială. Fabrica din Hofheim exportă aparate la nivel internațional, fiecare calibrat individual și testat.
 
-Filosofia noastră este "Small Size - Big Performance": construim aparate compacte cu dimensiuni reduse care se încadrează în spații înguste dar oferă acuratețe și fiabilitate comparabile cu instrumentația de mari dimensiuni. De exemplu, debitimetrele noastre cu float variabil (rotametre) au lungime de 150-300mm și măsoară debite de la 0.025 l/h până la 4,000 l/h cu acuratețe 2.5% din valoarea măsurată. Switchurile de nivel cu float magnetic rezistă la 400°C și 400 bar presiune în carcasă de doar 1/2" diametru.
+Filosofia Kobold este "Small Size - Big Performance": aparate compacte, cu dimensiuni reduse, care se încadrează în spații înguste dar oferă acuratețe și fiabilitate comparabile cu instrumentația de mari dimensiuni. De exemplu, debitimetrele cu float variabil (rotametre) din gamă au lungime de 150-300mm și măsoară debite de la 0.025 l/h până la 4,000 l/h cu acuratețe 2.5% din valoarea măsurată. Switchurile de nivel cu float magnetic rezistă la 400°C și 400 bar presiune în carcasă de doar 1/2" diametru.
 
-Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilnic pentru a oferi clienților soluții personalizate. Oferim peste 10,000 de configurații standard plus posibilitatea customizare - alegeri de materiale (inox, Hastelloy, PTFE, PVDF), conexiuni proces, ieșiri semnal, limite alarmă. Integrare perfectă în sisteme de control Siemens, ABB, Schneider, Rockwell prin ieșiri 4-20mA, 0-10V, HART, PROFIBUS, Modbus.`,
+Kobold oferă o gamă largă de configurații standard plus posibilitatea de personalizare - alegeri de materiale (inox, Hastelloy, PTFE, PVDF), conexiuni proces, ieșiri semnal, limite alarmă. Integrarea în sisteme de control industriale se face prin ieșiri 4-20mA, 0-10V, HART, PROFIBUS, Modbus.`,
     whyChoose: [
       'Dimensiuni compacte - instrumentație completă în corpuri sub 200mm lungime',
       'Acuratețe 1-2.5% din valoare măsurată (nu FS!) - precizie reală pe întregul domeniu',
@@ -1067,7 +1067,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "MIM",
-        "description": "debitmetru magneto-inductiv din inox pentru intreg corpul"
+        "description": "debitmetru magneto-inductiv din inox pentru întreg corpul"
       },
       {
         "code": "MIK",
@@ -1075,11 +1075,11 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "DON-H",
-        "description": "debitmetru volumetric cu roti ovale pentru lichide vascoase"
+        "description": "debitmetru volumetric cu roți ovale pentru lichide vâscoase"
       },
       {
         "code": "DOE",
-        "description": "debitmetru volumetric cu roti ovale, gama compacta"
+        "description": "debitmetru volumetric cu roți ovale, gama compactă"
       },
       {
         "code": "DUC",
@@ -1087,7 +1087,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "PITe/UMF-2",
-        "description": "debitmetru magneto-inductiv tip insertie pentru conducte mari"
+        "description": "debitmetru magneto-inductiv tip inserție pentru conducte mari"
       },
       {
         "code": "KEC",
@@ -1099,7 +1099,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "MAN-LC",
-        "description": "manometru digital cu iesire IO-Link"
+        "description": "manometru digital cu ieșire IO-Link"
       },
       {
         "code": "ZOK",
@@ -1107,7 +1107,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "ZOE",
-        "description": "electronica de numarare pentru procese industriale"
+        "description": "electronică de numărare pentru procese industriale"
       },
       {
         "code": "TWC",
@@ -1119,7 +1119,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "MWD",
-        "description": "termorezistenta industriala pentru masurarea temperaturii"
+        "description": "termorezistență industrială pentru măsurarea temperaturii"
       }
     ],
     faq: [
@@ -1133,10 +1133,10 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "q": "Ce informații trimit pentru o ofertă de debitmetru Kobold?",
-        "a": "Este nevoie de tipul fluidului măsurat (lichid, gaz sau vascos), debitul minim și maxim așteptat, diametrul conductei, presiunea și temperatură de lucru, plus tipul de ieșire dorit, analogică sau IO-Link. Pentru montajul clamp-on menționați materialul și grosimea peretelui conductei, deoarece influențează direct alegerea corectă a modelului."
+        "a": "Este nevoie de tipul fluidului măsurat (lichid, gaz sau vâscos), debitul minim și maxim așteptat, diametrul conductei, presiunea și temperatură de lucru, plus tipul de ieșire dorit, analogică sau IO-Link. Pentru montajul clamp-on menționați materialul și grosimea peretelui conductei, deoarece influențează direct alegerea corectă a modelului."
       },
       {
-        "q": "Ce este un senzor de temperatura tip insertie MMA de la Kobold?",
+        "q": "Ce este un senzor de temperatură tip inserție MMA de la Kobold?",
         "a": "MMA este un senzor introdus direct în fluidul sau mediul măsurat, disponibil cu sau fără traductor de semnal integrat, potrivit pentru monitorizarea continuă a temperaturii în conducte sau rezervoare. Alegerea între varianta cu traductor și cea simplă depinde de sistemul de automatizare existent și de tipul de semnal acceptat de acesta."
       }
     ],
@@ -1152,11 +1152,11 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
     founded: 1921,
     headquarters: 'Duisburg, Germania',
     employees: '4,000+',
-    overview: `Krohne este un producător german specializat în debitimetre industriale de înaltă precizie, cu prezență în 100 de țări. De peste 100 de ani dezvoltăm și producem debitimetre electromagnete, Coriolis, ultrasonic, vortex și cu float variabil pentru măsurarea precisă a lichidelor, gazelor și aburului în aplicații de proces. Cu peste 4,000 de angajați în 100 de țări și 14 fabrici pe patru continente, Krohne combină expertiză seculară cu inovație constantă.
+    overview: `Krohne este un producător german specializat în debitimetre industriale de înaltă precizie, cu prezență internațională. De peste 100 de ani dezvoltă și produce debitimetre electromagnete, Coriolis, ultrasonic, vortex și cu float variabil pentru măsurarea precisă a lichidelor, gazelor și aburului în aplicații de proces. Krohne combină expertiză seculară cu inovație constantă.
 
-Portofoliul nostru acoperă debite de la 0.001 kg/h (dozare micro) până la 100,000 m³/h (conducte transport gaz), temperaturi de la -200°C (criogenic) până +400°C (abur supraîncălzit), presiuni de la vid înalt până la 400 bar. Fiecare debitimetru Krohne este calibrat în laboratoarele noastre acreditate ISO/IEC 17025 pe standuri specializate cu trasabilitate la standarde naționale germane (PTB). Certificatele de calibrare includ incertitudinea măsurată conform ghidului GUM.
+Portofoliul Krohne acoperă debite de la 0.001 kg/h (dozare micro) până la 100,000 m³/h (conducte transport gaz), temperaturi de la -200°C (criogenic) până +400°C (abur supraîncălzit), presiuni de la vid înalt până la 400 bar. Fiecare debitimetru Krohne este calibrat în laboratoare acreditate ISO/IEC 17025 pe standuri specializate cu trasabilitate la standarde naționale germane (PTB). Certificatele de calibrare includ incertitudinea măsurată conform ghidului GUM.
 
-Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezolvat peste un milion de aplicații complexe - de la măsurarea bitumenului la 180°C până la debit gaz natural la -40°C, de la pastă de celuloză cu 5% consistență până la acid sulfuric 98%. Colaborăm cu BASF, Shell, ExxonMobil, Nestlé, Coca-Cola pentru sisteme de măsurare critice unde precizia înseamnă profit sau pierdere de milioane de euro pe an. Dacă măsurarea debitului contează pentru procesul tău, alegi Krohne.`,
+Ceea ce diferențiază Krohne este expertiza aplicativă, acumulată din rezolvarea a numeroase aplicații complexe - de la măsurarea bitumenului la 180°C până la debit gaz natural la -40°C, de la pastă de celuloză cu 5% consistență până la acid sulfuric 98%. Krohne echipează sisteme de măsurare critice în industria chimică, petrolieră și alimentară, unde precizia debitului influențează direct costurile de proces. Dacă măsurarea debitului contează pentru procesul tău, alegi Krohne.`,
     whyChoose: [
       'Acuratețe 0.1-0.5% din valoare măsurată - printre cele mai bune din industrie',
       'Calibrare acreditată ISO 17025 - certificat trasabil PTB inclus la livrare',
@@ -1228,7 +1228,7 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       },
       {
         "code": "OPTIFLUX 4400",
-        "description": "debitmetru electromagnetic cu iesiri digitale extinse"
+        "description": "debitmetru electromagnetic cu ieșiri digitale extinse"
       },
       {
         "code": "OPTIFLUX 5100",
@@ -1236,19 +1236,19 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       },
       {
         "code": "WATERFLUX 3070",
-        "description": "debitmetru electromagnetic pentru retele de distributie a apei"
+        "description": "debitmetru electromagnetic pentru rețele de distribuție a apei"
       },
       {
         "code": "WATERFLUX 3100",
-        "description": "debitmetru electromagnetic pentru masurarea consumului de apa"
+        "description": "debitmetru electromagnetic pentru măsurarea consumului de apă"
       },
       {
         "code": "POWERFLUX 4300",
-        "description": "debitmetru electromagnetic pentru medii cu conductivitate scazuta"
+        "description": "debitmetru electromagnetic pentru medii cu conductivitate scăzută"
       },
       {
         "code": "POWERFLUX 5300",
-        "description": "debitmetru electromagnetic de inalta precizie pentru industrie"
+        "description": "debitmetru electromagnetic de înaltă precizie pentru industrie"
       },
       {
         "code": "ENVIROMAG",
@@ -1256,7 +1256,7 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       },
       {
         "code": "TIDALFLUX 2300",
-        "description": "debitmetru electromagnetic pentru conducte partial umplute"
+        "description": "debitmetru electromagnetic pentru conducte parțial umplute"
       },
       {
         "code": "AF-E 400",
@@ -1273,8 +1273,8 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
         "a": "Da, aducem la comandă debitmetre din gamele OPTIFLUX, WATERFLUX și POWERFLUX, pe baza codului și diametrului confirmate de client. La KROHNE nu lucrăm de pe raft: ne raportăm la disponibilitatea publicată de producător, cu un termen obișnuit de 2-4 săptămâni de la comandă. Codul complet de pe eticheta grăbește identificarea variantei potrivite."
       },
       {
-        "q": "Ce date trimit pentru o oferta de debitmetru Krohne?",
-        "a": "Precizati diametrul nominal al conductei, debitul minim și maxim, tipul fluidului și conductivitatea acestuia, presiunea și temperatura de lucru, precum și tipul de ieșire electrică dorit. Dacă înlocuiți un debitmetru existent, codul de pe placuta și diametrul flanșei ajută la identificarea rapidă a variantei echivalente din gama actuală."
+        "q": "Ce date trimit pentru o ofertă de debitmetru Krohne?",
+        "a": "Precizați diametrul nominal al conductei, debitul minim și maxim, tipul fluidului și conductivitatea acestuia, presiunea și temperatura de lucru, precum și tipul de ieșire electrică dorit. Dacă înlocuiți un debitmetru existent, codul de pe plăcuță și diametrul flanșei ajută la identificarea rapidă a variantei echivalente din gama actuală."
       },
       {
         "q": "Când se folosește debitmetrul TIDALFLUX în locul unui OPTIFLUX de la Krohne?",
@@ -1293,11 +1293,11 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
     founded: 1959,
     headquarters: 'Stuttgart, Germania',
     employees: '5,000+',
-    overview: `Lapp Group este un producător german de cabluri și sisteme de conectare pentru automatizare industrială, tehnologia de măsurare și control, robotică și energie. De peste 65 de ani dezvoltăm și producem cabluri de date, putere și control care conectează mașini, roboți și sisteme în fabricile inteligente de astăzi. Cu peste 5,000 de angajați în 80 de țări și 18 fabrici pe patru continente, Lapp combină inovația germană cu standardizare și disponibilitate globală.
+    overview: `Lapp Group este un producător german de cabluri și sisteme de conectare pentru automatizare industrială, tehnologia de măsurare și control, robotică și energie. De peste 65 de ani dezvoltă și produce cabluri de date, putere și control care conectează mașini, roboți și sisteme în fabricile inteligente de astăzi. Lapp combină inovația germană cu standardizare și disponibilitate globală.
 
-Brandul nostru iconic ÖLFLEX (cabluri flexibile rezistente la ulei) este folosit pe scară largă pentru conexiuni în mașini-unelte, roboți, transportoare și sisteme de automatizare. Gama UNITRONIC (cabluri de date industriale) asigură comunicație rapidă și fiabilă în rețele PROFIBUS, PROFINET, EtherCAT, Ethernet/IP, DeviceNet. ETHERLINE (cabluri Ethernet Industrial) suportă viteze de până la 10 Gigabit în medii cu vibrații, uleiuri, temperaturi extreme și interferențe electromagnetice puternice.
+Brandul iconic ÖLFLEX (cabluri flexibile rezistente la ulei) este folosit pe scară largă pentru conexiuni în mașini-unelte, roboți, transportoare și sisteme de automatizare. Gama UNITRONIC (cabluri de date industriale) asigură comunicație rapidă și fiabilă în rețele PROFIBUS, PROFINET, EtherCAT, Ethernet/IP, DeviceNet. ETHERLINE (cabluri Ethernet Industrial) suportă viteze de până la 10 Gigabit în medii cu vibrații, uleiuri, temperaturi extreme și interferențe electromagnetice puternice.
 
-Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții industriale reale: 10 milioane de cicluri flexiune pe lanț purtător, temperaturi de la -50°C până +180°C, rezistență la uleiuri minerale și sintetice, acizi, baze, ozoni UV, flacără conform IEC 60332. Testăm toate produsele în laboratoarele proprii certificate și colaborăm direct cu producători de mașini și roboți pentru a optimiza designul pentru aplicații specifice. Când cablul trebuie să reziste ani la rând fără eroare, alegi Lapp.`,
+Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții industriale reale: 10 milioane de cicluri flexiune pe lanț purtător, temperaturi de la -50°C până +180°C, rezistență la uleiuri minerale și sintetice, acizi, baze, ozoni UV, flacără conform IEC 60332. Producătorul testează toate produsele în laboratoare proprii certificate și colaborează direct cu producători de mașini și roboți pentru a optimiza designul pentru aplicații specifice. Când cablul trebuie să reziste ani la rând fără eroare, alegi Lapp.`,
     whyChoose: [
       'Rezistență flexiune 10 milioane cicluri - testate pe lanț purtător în laborator',
       'Temperatură -50°C până +180°C - pentru medii extreme industriale',
@@ -1317,7 +1317,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         name: 'Cabluri Ethernet ETHERLINE PN/CAT.6A',
-        description: 'Linia ETHERLINE acoperă toate vitezele Ethernet Industrial: 10/100 Mbit Fast Ethernet, Gigabit Ethernet, 10 Gigabit. Construcție speciala cu ecranare S/FTP (folie + împletitură per pereche + împletitură totală) asigură imunitate EMI perfectă lângă invertoare și motoare. Categorie 6A sau 7 conform ISO/IEC 11801, frecvență până 600 MHz. Versiuni pentru instalare fixă (CAT.6A FC) sau lanț purtător (CAT.6A Flex). Manta PUR rezistentă la hidroliza, uleiuri, UV. Temperatură -40°C până +80°C. Aplicații: PROFINET IRT, EtherCAT, Ethernet/IP, camere industriale, roboti.'
+        description: 'Linia ETHERLINE acoperă toate vitezele Ethernet Industrial: 10/100 Mbit Fast Ethernet, Gigabit Ethernet, 10 Gigabit. Construcție specială cu ecranare S/FTP (folie + împletitură per pereche + împletitură totală) asigură imunitate EMI perfectă lângă invertoare și motoare. Categorie 6A sau 7 conform ISO/IEC 11801, frecvență până 600 MHz. Versiuni pentru instalare fixă (CAT.6A FC) sau lanț purtător (CAT.6A Flex). Manta PUR rezistentă la hidroliză, uleiuri, UV. Temperatură -40°C până +80°C. Aplicații: PROFINET IRT, EtherCAT, Ethernet/IP, camere industriale, roboți.'
       },
       {
         name: 'Conectoare industriale EPIC',
@@ -1365,7 +1365,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "code": "OLFLEX CLASSIC FD 810",
-        "description": "cablu flexibil pentru lanturi porta-cablu, solicitare dinamica"
+        "description": "cablu flexibil pentru lanțuri porta-cablu, solicitare dinamică"
       },
       {
         "code": "OLFLEX ROBUST 210",
@@ -1385,7 +1385,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "code": "OLFLEX SOLAR XLS-R",
-        "description": "cablu solar cu rezistenta sporita la radiatii UV"
+        "description": "cablu solar cu rezistență sporită la radiații UV"
       },
       {
         "code": "ETHERLINE",
@@ -1393,7 +1393,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "code": "HITRONIC",
-        "description": "gama de cabluri din fibra optica industriala"
+        "description": "gama de cabluri din fibră optică industrială"
       },
       {
         "code": "UNITRONIC",
@@ -1413,7 +1413,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "code": "SILVYN",
-        "description": "gama de tuburi de protectie pentru cabluri"
+        "description": "gama de tuburi de protecție pentru cabluri"
       },
       {
         "code": "FLEXIMARK",
@@ -1431,7 +1431,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de cablu Lapp?",
-        "a": "Menționati numărul de conductori și sectiunea acestora, tensiunea de lucru, dacă este nevoie de ecranare, tipul de mediu (fix, mobil sau lant porta-cablu) și temperatură de funcționare. Pentru presetupe SKINTOP precizați diametrul cablului și tipul filetului, iar pentru cabluri solare menționați tensiunea sistemului fotovoltaic."
+        "a": "Menționați numărul de conductori și secțiunea acestora, tensiunea de lucru, dacă este nevoie de ecranare, tipul de mediu (fix, mobil sau lanț porta-cablu) și temperatură de funcționare. Pentru presetupe SKINTOP precizați diametrul cablului și tipul filetului, iar pentru cabluri solare menționați tensiunea sistemului fotovoltaic."
       },
       {
         "q": "Ce este o presetupă SKINTOP ST/STR de la Lapp și când se folosește?",

@@ -31,7 +31,7 @@ Noi la Infinitrade distribuim gama industrială Schneider Electric pentru automa
       },
       {
         name: 'Distribuție electrică (Compact NSX, Acti9)',
-        description: `Întreruptoare automate modulare și în carcasă pentru protecție și distribuție în tablouri electrice industriale. Seria Acti9 e standard pentru automatizări mici și medii, iar Compact NSX e ce folosești pentru curenti mari și aplicații critice. Declanșare electronică, comunicație Modbus — totul ce ai nevoie pentru un tablou modern care vorbește cu sistemul de supervizare.`,
+        description: `Întreruptoare automate modulare și în carcasă pentru protecție și distribuție în tablouri electrice industriale. Seria Acti9 e standard pentru automatizări mici și medii, iar Compact NSX e ce folosești pentru curenți mari și aplicații critice. Declanșare electronică, comunicație Modbus — totul ce ai nevoie pentru un tablou modern care vorbește cu sistemul de supervizare.`,
       },
     ],
     certifications: [
@@ -178,7 +178,7 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
       },
       {
         name: 'Servosisteme MOVIAXIS, MOVI-C',
-        description: `Servomotoare și controlere pentru aplicații cu precizie ridicată: pozitionare, sincronizare multi-axe, mișcări complexe. MOVI-C e platforma lor modulară care combină controlere, invertoare și safety într-un singur sistem. Perfect pentru mașini CNC, roboți industriali, mașini de ambalat high-speed. Nemții chiar au făcut treabă bună la capitolul sincronizare — se întâlnesc linii cu 12 axe sincronizate la fracțiune de milimetru.`,
+        description: `Servomotoare și controlere pentru aplicații cu precizie ridicată: poziționare, sincronizare multi-axe, mișcări complexe. MOVI-C e platforma lor modulară care combină controlere, invertoare și safety într-un singur sistem. Perfect pentru mașini CNC, roboți industriali, mașini de ambalat high-speed. Nemții chiar au făcut treabă bună la capitolul sincronizare — se întâlnesc linii cu 12 axe sincronizate la fracțiune de milimetru.`,
       },
     ],
     certifications: [
@@ -253,11 +253,11 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
       },
       {
         "code": "FC",
-        "description": "Cuplaj cu flansa pentru reductoarele SEW seria X"
+        "description": "Cuplaj cu flanșă pentru reductoarele SEW seria X"
       },
       {
         "code": "OWC",
-        "description": "Racitor ulei-apa pentru reductoare industriale"
+        "description": "Răcitor ulei-apă pentru reductoare industriale"
       },
       {
         "code": "OWP",
@@ -265,7 +265,7 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
       },
       {
         "code": "OAC",
-        "description": "Racitor ulei-aer pentru reductoare industriale"
+        "description": "Răcitor ulei-aer pentru reductoare industriale"
       },
       {
         "code": "OAP",
@@ -273,17 +273,17 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
       },
       {
         "code": "ONP",
-        "description": "Pompa de ulei actionata de motor separat"
+        "description": "Pompa de ulei acționată de motor separat"
       },
       {
         "code": "SEP",
-        "description": "Pompa de ulei montata pe capatul arborelui"
+        "description": "Pompa de ulei montată pe capătul arborelui"
       }
     ],
     faq: [
       {
         "q": "Cum citesc codul unui reductor SEW, de exemplu X3KS190/B?",
-        "a": "X arată familia constructivă, 3 numărul de trepte, K tipul helicoidal-conic, următoarele cifre mărimea carcasei, iar litera de final variantele de montaj sau opțiuni suplimentare. Recomandăm să trimiteti fotografia plăcuței complete a reductorului SEW, deoarece unele cifre depind de raportul de transmisie ales la fabricație."
+        "a": "X arată familia constructivă, 3 numărul de trepte, K tipul helicoidal-conic, următoarele cifre mărimea carcasei, iar litera de final variantele de montaj sau opțiuni suplimentare. Recomandăm să trimiteți fotografia plăcuței complete a reductorului SEW, deoarece unele cifre depind de raportul de transmisie ales la fabricație."
       },
       {
         "q": "Ce diferență este între reductoarele SEW seria F și seria K?",
@@ -295,7 +295,7 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de reductor SEW echivalent?",
-        "a": "Trimiteti plăcuța completă a reductorului existent, cu tipul, mărimea carcasei și raportul de transmisie, sau, dacă lipsește, puterea motorului, turația de ieșire dorită și cuplul necesar la arbore. Aceste date permit identificarea variantei corecte din familia X sau dintr-o serie mai veche compatibilă."
+        "a": "Trimiteți plăcuța completă a reductorului existent, cu tipul, mărimea carcasei și raportul de transmisie, sau, dacă lipsește, puterea motorului, turația de ieșire dorită și cuplul necesar la arbore. Aceste date permit identificarea variantei corecte din familia X sau dintr-o serie mai veche compatibilă."
       }
     ],
     evidenceClass: 'transactional',
@@ -380,11 +380,11 @@ La Infinitrade furnizăm gama completă Becker pentru industriile românești: d
       },
       {
         "code": "VARIAIR KVT",
-        "description": "Pompa de vid cu turatie variabila, seria KVT"
+        "description": "Pompa de vid cu turație variabilă, seria KVT"
       },
       {
         "code": "VARIAIR KVX",
-        "description": "Pompa de vid cu turatie variabila, seria KVX"
+        "description": "Pompa de vid cu turație variabilă, seria KVX"
       },
       {
         "code": "VTLF",
@@ -396,11 +396,11 @@ La Infinitrade furnizăm gama completă Becker pentru industriile românești: d
       },
       {
         "code": "VARIAIR VTLF",
-        "description": "Pompa de vid cu turatie variabila, cadru mare"
+        "description": "Pompa de vid cu turație variabilă, cadru mare"
       },
       {
         "code": "VARIAIR VXLF",
-        "description": "Pompa de vid cu turatie variabila, cadru mare, varianta X"
+        "description": "Pompa de vid cu turație variabilă, cadru mare, varianta X"
       },
       {
         "code": "O series",
@@ -416,7 +416,7 @@ La Infinitrade furnizăm gama completă Becker pentru industriile românești: d
       },
       {
         "code": "O2-PACK",
-        "description": "Sistem de vid cu ulei, configuratie compacta"
+        "description": "Sistem de vid cu ulei, configurație compactă"
       },
       {
         "code": "U4",
@@ -424,7 +424,7 @@ La Infinitrade furnizăm gama completă Becker pentru industriile românești: d
       },
       {
         "code": "VADS",
-        "description": "Pompa de vid cu surub pentru debite foarte mari"
+        "description": "Pompa de vid cu șurub pentru debite foarte mari"
       },
       {
         "code": "BCV",
@@ -440,7 +440,7 @@ La Infinitrade furnizăm gama completă Becker pentru industriile românești: d
       },
       {
         "code": "VASF",
-        "description": "Suflanta cu canal lateral, versiune de baza"
+        "description": "Suflantă cu canal lateral, versiune de bază"
       },
       {
         "code": "SV",
@@ -477,7 +477,7 @@ La Infinitrade furnizăm gama completă Becker pentru industriile românești: d
         "a": "Seria VT este o pompă cu palete rotative fără ulei, potrivită pentru aplicații unde produsul nu trebuie contaminat, în timp ce seria U folosește ungere cu ulei și acoperă debite mai mari, fiind preferată în ambalare sau în linii industriale cu funcționare continuă. Alegerea depinde de curatenia cerută și de debitul necesar."
       },
       {
-        "q": "Ce inseamna prefixul VARIAIR la o pompa Becker?",
+        "q": "Ce înseamnă prefixul VARIAIR la o pompă Becker?",
         "a": "Prefixul VARIAIR indică versiunea cu turație variabilă a pompei de bază, de exemplu VARIAIR KVT sau VARIAIR SV, care reglează automat debitul în funcție de consum și reduce energia folosită față de o pompă cu turație fixă. Este utilă mai ales când cererea de vid sau aer variază mult în timpul zilei."
       },
       {
@@ -486,7 +486,7 @@ La Infinitrade furnizăm gama completă Becker pentru industriile românești: d
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de pompă de vid Becker echivalentă?",
-        "a": "Trimiteti debitul necesar în metri cubi pe oră, nivelul de vid sau presiunea de lucru dorită, tipul de aplicație (ambalare, transport pneumatic, aspirație centralizată) și dacă este necesară o versiune fără ulei. Cu aceste date identificăm seria potrivită din gama Becker, de la VT până la VADS."
+        "a": "Trimiteți debitul necesar în metri cubi pe oră, nivelul de vid sau presiunea de lucru dorită, tipul de aplicație (ambalare, transport pneumatic, aspirație centralizată) și dacă este necesară o versiune fără ulei. Cu aceste date identificăm seria potrivită din gama Becker, de la VT până la VADS."
       }
     ],
     evidenceClass: 'transactional',
@@ -555,11 +555,11 @@ La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial
     productCodes: [
       {
         "code": "PowerCore",
-        "description": "Colector de praf cu filtre compacte de mare eficienta"
+        "description": "Colector de praf cu filtre compacte de mare eficiență"
       },
       {
         "code": "Downflo Evolution",
-        "description": "Colector de praf cu cartuse, generatie imbunatatita"
+        "description": "Colector de praf cu cartușe, generație îmbunătățită"
       },
       {
         "code": "Downflo Workstation",
@@ -575,7 +575,7 @@ La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial
       },
       {
         "code": "Dalamatic",
-        "description": "Colector de praf tip baghouse cu saci filtranti"
+        "description": "Colector de praf tip baghouse cu saci filtranți"
       },
       {
         "code": "RF Series",
@@ -591,19 +591,19 @@ La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial
       },
       {
         "code": "DB800",
-        "description": "Banca de lucru cu absorbtie descendenta a prafului"
+        "description": "Banca de lucru cu absorbție descendentă a prafului"
       },
       {
         "code": "DCE 100",
-        "description": "Colector de praf cu cartuse, seria DCE 100"
+        "description": "Colector de praf cu cartușe, seria DCE 100"
       },
       {
         "code": "TD Series",
-        "description": "Colector de praf cu cartuse, seria TD"
+        "description": "Colector de praf cu cartușe, seria TD"
       },
       {
         "code": "Vibra Shake",
-        "description": "Sistem de curatare prin vibratie pentru cartuse filtrante"
+        "description": "Sistem de curățare prin vibrație pentru cartușe filtrante"
       }
     ],
     faq: [
@@ -621,7 +621,7 @@ La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial
       },
       {
         "q": "Ce date trebuie să trimit pentru o ofertă de colector de praf Donaldson?",
-        "a": "Trimiteti tipul și sursa prafului generat, volumul de aer de procesat în metri cubi pe oră, spațiul disponibil pentru montaj și dacă aveți nevoie de o soluție mobilă sau fixă. Cu aceste informații identificăm gama potrivită, de la PowerCore la Downflo sau la un colector tip baghouse."
+        "a": "Trimiteți tipul și sursa prafului generat, volumul de aer de procesat în metri cubi pe oră, spațiul disponibil pentru montaj și dacă aveți nevoie de o soluție mobilă sau fixă. Cu aceste informații identificăm gama potrivită, de la PowerCore la Downflo sau la un colector tip baghouse."
       }
     ],
     evidenceClass: 'transactional',

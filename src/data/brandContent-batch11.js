@@ -31,7 +31,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         name: 'PDU-uri pentru Centre de Date',
-        description: 'Power Distribution Units de la Legrand sunt creier-ul distribuției electrice în centre de date. Modelele intelligent PDU au monitorizare per priză – măsori consumul fiecărui server în timp real cu precizie ±1%. Interfața SNMP permite integrare în sisteme de management și alerting automat când consumul depășește praguri setate. Constructia rack-mount 19" cu 0U lateral economisește spațiul prețios din rack, iar prizele C13/C19 sunt orientate perpendicular pentru cablu management optim. PDU-urile Legrand se folosesc frecvent în server rooms unde densitatea de putere ajunge la 10kW per rack – sistemele gestionează load balancing-ul automat între circuite.'
+        description: 'Power Distribution Units de la Legrand sunt creier-ul distribuției electrice în centre de date. Modelele intelligent PDU au monitorizare per priză – măsori consumul fiecărui server în timp real cu precizie ±1%. Interfața SNMP permite integrare în sisteme de management și alerting automat când consumul depășește praguri setate. Construcția rack-mount 19" cu 0U lateral economisește spațiul prețios din rack, iar prizele C13/C19 sunt orientate perpendicular pentru cablu management optim. PDU-urile Legrand se folosesc frecvent în server rooms unde densitatea de putere ajunge la 10kW per rack – sistemele gestionează load balancing-ul automat între circuite.'
       }
     ],
     certifications: [
@@ -72,7 +72,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR MULTIPLUG",
-        "description": "UPS compact tip priza multipla pentru echipamente mici"
+        "description": "UPS compact tip priză multiplă pentru echipamente mici"
       },
       {
         "code": "KEOR SP",
@@ -88,7 +88,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR PDU",
-        "description": "unitate de distributie a energiei pentru rack-uri de server"
+        "description": "unitate de distribuție a energiei pentru rack-uri de server"
       },
       {
         "code": "KEOR S",
@@ -104,15 +104,15 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR COMPACT",
-        "description": "UPS trifazat compact pentru spatii cu suprafata redusa"
+        "description": "UPS trifazat compact pentru spații cu suprafață redusă"
       },
       {
         "code": "KEOR T EVO",
-        "description": "UPS trifazat cu eficienta ridicata pentru centre de date"
+        "description": "UPS trifazat cu eficiență ridicată pentru centre de date"
       },
       {
         "code": "KEOR MP",
-        "description": "UPS trifazat modular pentru scalabilitate progresiva"
+        "description": "UPS trifazat modular pentru scalabilitate progresivă"
       },
       {
         "code": "KEOR HP",
@@ -120,7 +120,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR HPE",
-        "description": "UPS trifazat de mare putere, eficienta energetica sporita"
+        "description": "UPS trifazat de mare putere, eficiență energetică sporită"
       },
       {
         "code": "KEOR XPE",
@@ -132,7 +132,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR FLEX",
-        "description": "UPS trifazat flexibil pentru configuratii personalizate"
+        "description": "UPS trifazat flexibil pentru configurații personalizate"
       },
       {
         "code": "TriMOD",
@@ -146,11 +146,11 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "q": "Livrați UPS-uri Legrand în România?",
-        "a": "Da, aducem la comandă UPS-uri monofazate și trifazate din gamele KEOR și MEGALINE, pe baza codului și puterii confirmate de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteti puterea necesară în kVA pentru identificarea rapidă a variantei potrivite."
+        "a": "Da, aducem la comandă UPS-uri monofazate și trifazate din gamele KEOR și MEGALINE, pe baza codului și puterii confirmate de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteți puterea necesară în kVA pentru identificarea rapidă a variantei potrivite."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de UPS Legrand?",
-        "a": "Precizati puterea totală a echipamentelor protejate în kVA sau kW, autonomia dorită la baterie, dacă este necesar montaj în rack sau format turn, și dacă instalația este monofazata sau trifazata. Pentru centre de date menționați și necesitatea redundantei modulare, aceasta influentand alegerea între gamele KEOR MOD sau KEOR T EVO."
+        "a": "Precizați puterea totală a echipamentelor protejate în kVA sau kW, autonomia dorită la baterie, dacă este necesar montaj în rack sau format turn, și dacă instalația este monofazată sau trifazată. Pentru centre de date menționați și necesitatea redundanței modulare, aceasta influențând alegerea între gamele KEOR MOD sau KEOR T EVO."
       },
       {
         "q": "Ce este un UPS modular precum KEOR MOD de la Legrand și când se alege?",
@@ -229,19 +229,19 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
     productCodes: [
       {
         "code": "Loctite 221",
-        "description": "threadlocker mov de rezistenta mica pentru suruburi mici"
+        "description": "threadlocker mov de rezistență mică pentru șuruburi mici"
       },
       {
         "code": "Loctite 222",
-        "description": "threadlocker mov de rezistenta mica pentru elemente de fixare mici"
+        "description": "threadlocker mov de rezistență mică pentru elemente de fixare mici"
       },
       {
         "code": "Loctite 241",
-        "description": "threadlocker albastru de rezistenta medie, vascozitate redusa"
+        "description": "threadlocker albastru de rezistență medie, vâscozitate redusă"
       },
       {
         "code": "Loctite 242",
-        "description": "threadlocker albastru de rezistenta medie pentru suruburi mari"
+        "description": "threadlocker albastru de rezistență medie pentru șuruburi mari"
       },
       {
         "code": "Loctite 243",
@@ -249,11 +249,11 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       },
       {
         "code": "Loctite 245",
-        "description": "threadlocker albastru de rezistenta medie pentru filete mari"
+        "description": "threadlocker albastru de rezistență medie pentru filete mari"
       },
       {
         "code": "Loctite 246",
-        "description": "threadlocker albastru de rezistenta medie, rezistent la temperatura"
+        "description": "threadlocker albastru de rezistență medie, rezistent la temperatură"
       },
       {
         "code": "Loctite 248",
@@ -261,7 +261,7 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       },
       {
         "code": "Loctite 262",
-        "description": "threadlocker rosu de rezistenta mare pentru suruburi mari"
+        "description": "threadlocker roșu de rezistență mare pentru șuruburi mari"
       },
       {
         "code": "Loctite 268",
@@ -269,7 +269,7 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       },
       {
         "code": "Loctite 270",
-        "description": "threadlocker de rezistenta mare pentru asamblari metalice generale"
+        "description": "threadlocker de rezistență mare pentru asamblări metalice generale"
       },
       {
         "code": "Loctite 290",
@@ -277,21 +277,21 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       },
       {
         "code": "Loctite 2400",
-        "description": "threadlocker de rezistenta medie, eticheta alba"
+        "description": "threadlocker de rezistență medie, etichetă albă"
       }
     ],
     faq: [
       {
-        "q": "Cum aleg culoarea corecta a unui threadlocker Loctite pentru un surub?",
+        "q": "Cum aleg culoarea corectă a unui threadlocker Loctite pentru un șurub?",
         "a": "Culoarea indică rezistență la desfacere: mov pentru elemente mici cu rezistență redusă, albastru pentru rezistență medie și demontare ulterioară posibilă, iar roșu pentru rezistență mare, unde îmbinarea nu mai trebuie desfacută ușor. Loctite 243 este un albastru fără amorsă folosit frecvent, iar Loctite 262 este varianta roșie pentru șuruburi mai mari. Alegerea finală ține cont de diametrul filetului și de necesitatea unei demontări viitoare."
       },
       {
         "q": "Livrați produse Loctite în România?",
-        "a": "Da, aducem la comandă produse din gamele Loctite pentru fixare filete, etanșare și adezivi instant, pe bază codului confirmat de client. Produsele Loctite le aducem la comandă, pe baza disponibilității publicate de Henkel, de obicei în 2-4 săptămâni. Transmiteti codul exact de pe eticheta produsului dorit pentru identificare rapidă."
+        "a": "Da, aducem la comandă produse din gamele Loctite pentru fixare filete, etanșare și adezivi instant, pe bază codului confirmat de client. Produsele Loctite le aducem la comandă, pe baza disponibilității publicate de Henkel, de obicei în 2-4 săptămâni. Transmiteți codul exact de pe eticheta produsului dorit pentru identificare rapidă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de threadlocker Loctite?",
-        "a": "Menționati diametrul filetului, materialul suprafetelor (oțel, aluminiu sau alte metale), rezistență dorită la desfacere și dacă este nevoie de o variantă fără amorsă pentru metale pasivate precum zincul. Precizati și dacă îmbinarea trebuie să rămână demontabila ulterior, deoarece aceasta influențează alegerea între gamele de rezistență medie și mare."
+        "a": "Menționați diametrul filetului, materialul suprafețelor (oțel, aluminiu sau alte metale), rezistență dorită la desfacere și dacă este nevoie de o variantă fără amorsă pentru metale pasivate precum zincul. Precizați și dacă îmbinarea trebuie să rămână demontabilă ulterior, deoarece aceasta influențează alegerea între gamele de rezistență medie și mare."
       },
       {
         "q": "Ce diferență este între Loctite 243 și Loctite 270?",
@@ -373,27 +373,27 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       },
       {
         "code": "BFS",
-        "description": "gama de contactoare de siguranta"
+        "description": "gama de contactoare de siguranță"
       },
       {
         "code": "BG",
-        "description": "gama de contactoare de putere mica"
+        "description": "gama de contactoare de putere mică"
       },
       {
         "code": "RF9",
-        "description": "releu termic pentru curenti mici de protectie motor"
+        "description": "releu termic pentru curenți mici de protecție motor"
       },
       {
         "code": "RF38",
-        "description": "releu termic pentru curenti medii de protectie motor"
+        "description": "releu termic pentru curenți medii de protecție motor"
       },
       {
         "code": "RF82",
-        "description": "releu termic pentru curenti mari de protectie motor"
+        "description": "releu termic pentru curenți mari de protecție motor"
       },
       {
         "code": "RFE45",
-        "description": "releu termic electronic pentru protectie motor"
+        "description": "releu termic electronic pentru protecție motor"
       },
       {
         "code": "ADXN",
@@ -409,15 +409,15 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       },
       {
         "code": "SM1",
-        "description": "intrerupator de protectie motor, gama SM"
+        "description": "întrerupător de protecție motor, gama SM"
       },
       {
         "code": "SM3",
-        "description": "intrerupator de protectie motor, gama SM de curent mare"
+        "description": "întrerupător de protecție motor, gama SM de curent mare"
       },
       {
         "code": "GA",
-        "description": "separator de sarcina pentru comutarea circuitelor de putere"
+        "description": "separator de sarcină pentru comutarea circuitelor de putere"
       },
       {
         "code": "P5ME",
@@ -433,7 +433,7 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       },
       {
         "code": "KX",
-        "description": "gama de limitatoare de cursa"
+        "description": "gama de limitatoare de cursă"
       },
       {
         "code": "GX",
@@ -443,7 +443,7 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
     faq: [
       {
         "q": "Ce diferență este între contactoarele Lovato seria BF și releele termice seria RF?",
-        "a": "Contactoarele BF comută circuitul de alimentare al motorului la comandă operatorului sau a automatizarii, functionand că un întrerupător controlat electric. Releele termice RF se montează lângă contactor și intrerup alimentarea automat dacă motorul trage un curent peste limita admisă, protejand infasurarile. Impreuna formeaza un demaror clasic, iar dimensionarea corectă ține cont de curentul nominal al motorului."
+        "a": "Contactoarele BF comută circuitul de alimentare al motorului la comandă operatorului sau a automatizării, funcționând că un întrerupător controlat electric. Releele termice RF se montează lângă contactor și întrerup alimentarea automat dacă motorul trage un curent peste limita admisă, protejând înfășurările. Împreună formează un demaror clasic, iar dimensionarea corectă ține cont de curentul nominal al motorului."
       },
       {
         "q": "Livrați contactoare și automatizări Lovato în România?",
@@ -451,7 +451,7 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       },
       {
         "q": "Ce informații trimit pentru o ofertă de contactor Lovato?",
-        "a": "Precizati curentul nominal al motorului sau al sarcinii comandate, tensiunea bobinei de comandă, numărul de poli necesar și dacă este nevoie de contacte auxiliare suplimentare. Pentru relee termice menționați domeniul de curent de reglaj dorit, deoarece acesta trebuie să corespunda curentului nominal real al motorului protejat."
+        "a": "Precizați curentul nominal al motorului sau al sarcinii comandate, tensiunea bobinei de comandă, numărul de poli necesar și dacă este nevoie de contacte auxiliare suplimentare. Pentru relee termice menționați domeniul de curent de reglaj dorit, deoarece acesta trebuie să corespundă curentului nominal real al motorului protejat."
       },
       {
         "q": "Ce este un soft starter Lovato seria ADXN și când se folosește?",

@@ -55,7 +55,7 @@ Pentru o platformă industrială sau un centru de date din România, segmentul a
       { code: "SBE Container", description: "sistem de stocare a energiei containerizat, 200 kWh–1,7 MWh" },
       { code: "SBE Cabinet", description: "sistem BESS modular tip cabinet, 250 kWh–2 MWh" },
       { code: "SBE Block", description: "sistem BESS la scară industrială, 2,5–5 MWh" },
-      { code: "Generator Diesel Stationar 3.25MW", description: "generator diesel staționar de mare putere, motor 87,5 litri" },
+      { code: "Generator Diesel Staționar 3.25MW", description: "generator diesel staționar de mare putere, motor 87,5 litri" },
     ],
     faq: [
       { q: "Ce produce Generac Power Systems pentru aplicații industriale?", a: "Generac Power Systems produce comutatoare automate de transfer, sisteme de stocare a energiei pe bază de baterii și generatoare staționare de mare putere, alături de echipamente mobile precum generatoare, turnuri de iluminat și pompe. Segmentul industrial se adresează centrelor de date, spitalelor și facilităților de producție cu nevoi de alimentare de rezervă." },

@@ -78,11 +78,11 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "code": "VLT Refrigeration Drive FC 103",
-        "description": "Convertizor dedicat aplicatiilor de refrigerare comerciala"
+        "description": "Convertizor dedicat aplicațiilor de refrigerare comercială"
       },
       {
         "code": "VLT AutomationDrive FC 302",
-        "description": "Convertizor universal pentru automatizari industriale"
+        "description": "Convertizor universal pentru automatizări industriale"
       },
       {
         "code": "VLT AQUA Drive FC 202",
@@ -98,19 +98,19 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "code": "VLT Decentral Drive FCD 302",
-        "description": "Convertizor montat direct pe motor, constructie descentralizata"
+        "description": "Convertizor montat direct pe motor, construcție descentralizată"
       },
       {
         "code": "VLT DriveMotor FCP 106",
-        "description": "Motor cu convertizor integrat, constructie compacta"
+        "description": "Motor cu convertizor integrat, construcție compactă"
       },
       {
         "code": "VLT DriveMotor FCM 106",
-        "description": "Motor cu convertizor integrat pentru montaj pe masina"
+        "description": "Motor cu convertizor integrat pentru montaj pe mașina"
       },
       {
         "code": "VLT Integrated Servo Drive ISD 410",
-        "description": "Servo motor cu electronica de control integrata"
+        "description": "Servo motor cu electronică de control integrată"
       },
       {
         "code": "VLT Integrated Servo Drive ISD 510",
@@ -122,7 +122,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "code": "VLT Compact Starter MCD 201",
-        "description": "Soft-starter compact pentru motoare de putere mica"
+        "description": "Soft-starter compact pentru motoare de putere mică"
       },
       {
         "code": "VLT Soft Starter MCD 500",
@@ -142,11 +142,11 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "code": "VACON NXP Air Cooled",
-        "description": "Convertizor modular racit cu aer, pentru puteri mari"
+        "description": "Convertizor modular răcit cu aer, pentru puteri mari"
       },
       {
         "code": "VACON NXP Liquid Cooled Drive",
-        "description": "Convertizor modular racit cu lichid, pentru puteri mari"
+        "description": "Convertizor modular răcit cu lichid, pentru puteri mari"
       }
     ],
     faq: [
@@ -156,7 +156,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "q": "Livrați produse Danfoss în România la comandă?",
-        "a": "Da, aducem la comandă convertizoare din gamă VLT și VACON, după codul confirmat de client din documentația Danfoss. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni. Vă rugam să transmiteți codul complet de pe eticheta echipamentului pentru identificare corectă."
+        "a": "Da, aducem la comandă convertizoare din gamă VLT și VACON, după codul confirmat de client din documentația Danfoss. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni. Vă rugăm să transmiteți codul complet de pe eticheta echipamentului pentru identificare corectă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă la un convertizor Danfoss?",
@@ -250,11 +250,11 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         "code": "TD62LM",
-        "description": "Purjor termodinamic cu scaun inlocuibil"
+        "description": "Purjor termodinamic cu scaun înlocuibil"
       },
       {
         "code": "TD62M",
-        "description": "Purjor termodinamic cu scaun inlocuibil, varianta M"
+        "description": "Purjor termodinamic cu scaun înlocuibil, varianta M"
       },
       {
         "code": "TD120M",
@@ -278,7 +278,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         "code": "BTD52L",
-        "description": "Purjor termodinamic pentru industria alimentara"
+        "description": "Purjor termodinamic pentru industria alimentară"
       },
       {
         "code": "UTD52",
@@ -286,15 +286,15 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         "code": "UTD52L",
-        "description": "Purjor termodinamic universal, corp din bara"
+        "description": "Purjor termodinamic universal, corp din bară"
       },
       {
         "code": "UTD42L",
-        "description": "Purjor universal cu racord rotativ, presiune joasa"
+        "description": "Purjor universal cu racord rotativ, presiune joasă"
       },
       {
         "code": "UTD42H",
-        "description": "Purjor universal cu racord rotativ, presiune ridicata"
+        "description": "Purjor universal cu racord rotativ, presiune ridicată"
       }
     ],
     faq: [
@@ -307,12 +307,12 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
         "a": "Da, aducem la comandă purjoare și supape din gamele TD, TDC, TDS sau UTD, după codul confirmat de client din catalogul oficial. Nu ținem această gamă pe raft, informațiile despre disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni la comandă. Recomandăm transmiterea codului exact de pe corpul purjorului existent."
       },
       {
-        "q": "Ce date trimit pentru o oferta la un purjor Spirax Sarco?",
+        "q": "Ce date trimit pentru o ofertă la un purjor Spirax Sarco?",
         "a": "Aveți nevoie să precizați presiunea de lucru a liniei de abur, diametrul racordului, tipul de conexiune, filetată sau flanșată, și materialul corpului dorit, oțel carbon sau inox. Dacă înlocuiți un purjor existent, codul de pe corp sau o fotografie clară a acestuia ajută mult la identificarea variantei compatibile din gama actuală."
       },
       {
-        "q": "Ce inseamna litera M din codul unui purjor Spirax Sarco?",
-        "a": "Litera M indică o variantă cu scaun mentenabil, adica piesa internă de uzura poate fi inlocuita fără demontarea completă a corpului din conductă. Modelele fără M au de obicei o construcție mai compactă, gândită pentru înlocuire integrala la finalul duratei de viață. Alegerea depinde de politica de mențenanta a instalației și de accesul disponibil la punctul de montaj."
+        "q": "Ce înseamnă litera M din codul unui purjor Spirax Sarco?",
+        "a": "Litera M indică o variantă cu scaun mentenabil, adică piesa internă de uzură poate fi înlocuită fără demontarea completă a corpului din conductă. Modelele fără M au de obicei o construcție mai compactă, gândită pentru înlocuire integrală la finalul duratei de viață. Alegerea depinde de politica de mențenanta a instalației și de accesul disponibil la punctul de montaj."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -395,7 +395,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "code": "ARI-STOBU",
-        "description": "Vana de inchidere cu presetupa, presiune medie"
+        "description": "Vană de închidere cu presetupă, presiune medie"
       },
       {
         "code": "ARI-ZETRIX",
@@ -411,7 +411,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "code": "ARI-SAFE TCP",
-        "description": "Supapa de siguranta, varianta cu capac termic"
+        "description": "Supapă de siguranță, varianta cu capac termic"
       },
       {
         "code": "ARI-CONA",
@@ -427,7 +427,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "code": "ARI-CONA P",
-        "description": "Purjor cu pompa de condens integrata"
+        "description": "Purjor cu pompă de condens integrată"
       },
       {
         "code": "ARI-CONLIFT",
@@ -439,15 +439,15 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "code": "ARI-STEVI Smart",
-        "description": "Vana de control pentru reglaj de proces"
+        "description": "Vană de control pentru reglaj de proces"
       },
       {
         "code": "ARI-STEVI Vario",
-        "description": "Vana de control compacta, constructie variabila"
+        "description": "Vană de control compactă, construcție variabilă"
       },
       {
         "code": "ARI-STEVI Pro",
-        "description": "Vana de control de inalta performanta"
+        "description": "Vană de control de înaltă performanță"
       },
       {
         "code": "ARI-REYCO",
@@ -551,23 +551,23 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
     productCodes: [
       {
         "code": "M3",
-        "description": "Schimbator de caldura cu placi gasketed, dimensiune mica"
+        "description": "Schimbător de căldură cu plăci gasketed, dimensiune mică"
       },
       {
         "code": "M6-FM",
-        "description": "Schimbator de caldura cu placi, cadru montaj M6"
+        "description": "Schimbător de căldură cu plăci, cadru montaj M6"
       },
       {
         "code": "M6-FG",
-        "description": "Schimbator M6, varianta de cadru pentru presiune mare"
+        "description": "Schimbător M6, varianta de cadru pentru presiune mare"
       },
       {
         "code": "M6-FD",
-        "description": "Schimbator M6, varianta de cadru dubla"
+        "description": "Schimbător M6, varianta de cadru dublă"
       },
       {
         "code": "M6-M",
-        "description": "Placa simpla pentru schimbatorul M6"
+        "description": "Placa simplă pentru schimbătorul M6"
       },
       {
         "code": "M6-MX",
@@ -579,57 +579,57 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
       },
       {
         "code": "M6-MG",
-        "description": "Placa M6 Gemini, cu perete dublu de siguranta"
+        "description": "Placa M6 Gemini, cu perete dublu de siguranță"
       },
       {
         "code": "M15-FL",
-        "description": "Schimbator M15, cadru ușor pentru presiune joasă"
+        "description": "Schimbător M15, cadru ușor pentru presiune joasă"
       },
       {
         "code": "M15-FM",
-        "description": "Schimbator M15, cadru mediu"
+        "description": "Schimbător M15, cadru mediu"
       },
       {
         "code": "M15-FG",
-        "description": "Schimbator M15, cadru pentru presiune mare"
+        "description": "Schimbător M15, cadru pentru presiune mare"
       },
       {
         "code": "M15-FD",
-        "description": "Schimbator M15, cadru dublu"
+        "description": "Schimbător M15, cadru dublu"
       },
       {
         "code": "T6",
-        "description": "Schimbator de caldura cu placi, seria T"
+        "description": "Schimbător de căldură cu plăci, seria T"
       },
       {
         "code": "T10",
-        "description": "Schimbator de caldura cu placi, seria T, capacitate mai mare"
+        "description": "Schimbător de căldură cu plăci, seria T, capacitate mai mare"
       },
       {
         "code": "AC65",
-        "description": "Schimbator brazat pentru pompe de caldura de mare volum"
+        "description": "Schimbător brazat pentru pompe de căldură de mare volum"
       },
       {
         "code": "AC540",
-        "description": "Familie de schimbatoare brazate pentru agenti frigorifici cu GWP redus"
+        "description": "Familie de schimbătoare brazate pentru agenți frigorifici cu GWP redus"
       }
     ],
     faq: [
       {
-        "q": "Ce diferență este între schimbatoarele Alfa Laval M6 și M15?",
+        "q": "Ce diferență este între schimbătoarele Alfa Laval M6 și M15?",
         "a": "Ambele fac parte din gama gasketed a Alfa Laval, însă M15 este dimensionat pentru debite și suprafețe de transfer mai mari decât M6. Sufixele de cadru, FL, FM, FG sau FD, arată treapta de presiune admisă în construcția respectivă. Alegerea corectă depinde de debitul termic necesar și de presiunea maximă de lucru a instalației."
       },
       {
-        "q": "Livrează Alfa Laval schimbatoare de căldură în România la comandă?",
-        "a": "Da, aducem la comandă schimbatoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbatorului existent."
+        "q": "Livrează Alfa Laval schimbătoare de căldură în România la comandă?",
+        "a": "Da, aducem la comandă schimbătoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbatorului existent."
       },
       {
-        "q": "Ce trebuie să trimit pentru o ofertă la un schimbator Alfa Laval?",
-        "a": "Este nevoie de modelul exact, numărul de placi, tipul garniturii, materialul placilor și presiunea maximă de lucru a instalației. Dacă schimbatorul este deja montat, o fotografie a plăcuței de identificare cu seria și numărul de placi reduce mult riscul de a comandă o piesa incompatibilă cu pachetul existent."
+        "q": "Ce trebuie să trimit pentru o ofertă la un schimbător Alfa Laval?",
+        "a": "Este nevoie de modelul exact, numărul de placi, tipul garniturii, materialul placilor și presiunea maximă de lucru a instalației. Dacă schimbatorul este deja montat, o fotografie a plăcuței de identificare cu seria și numărul de placi reduce mult riscul de a comanda o piesă incompatibilă cu pachetul existent."
       },
       {
-        "q": "Ce inseamna sufixul MX la o placa Alfa Laval din seria M6?",
-        "a": "Sufixul MX arată că placa are un model de flux diagonal, diferit de placa simplă M6-M, ceea ce schimbă modul în care circulă agentul termic prin canale. Aceasta influențează performanța termică și pierderea de presiune a schimbatorului. Confirmarea variantei corecte se face pe baza codului complet de pe plăcuța, nu doar după aspectul general al plăcii."
+        "q": "Ce înseamnă sufixul MX la o placă Alfa Laval din seria M6?",
+        "a": "Sufixul MX arată că placa are un model de flux diagonal, diferit de placa simplă M6-M, ceea ce schimbă modul în care circulă agentul termic prin canale. Aceasta influențează performanța termică și pierderea de presiune a schimbătorului. Confirmarea variantei corecte se face pe baza codului complet de pe plăcuța, nu doar după aspectul general al plăcii."
       }
     ],
     evidenceClass: 'transactional',
@@ -724,7 +724,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series MA",
-        "description": "Cilindru pneumatic compact, montaj usor"
+        "description": "Cilindru pneumatic compact, montaj ușor"
       },
       {
         "code": "Series VE",
@@ -732,11 +732,11 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series SA",
-        "description": "Cilindru pneumatic standard, gama de baza"
+        "description": "Cilindru pneumatic standard, gama de bază"
       },
       {
         "code": "Series 3L",
-        "description": "Cilindru hidraulic usor, tija cu bare de tractiune"
+        "description": "Cilindru hidraulic ușor, tija cu bare de tracțiune"
       },
       {
         "code": "Series 2H",
@@ -752,7 +752,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series RDH",
-        "description": "Cilindru hidraulic de mare rezistenta"
+        "description": "Cilindru hidraulic de mare rezistență"
       },
       {
         "code": "Series 2AJ/2ANJ",
@@ -760,7 +760,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series CHD/CHE",
-        "description": "Cilindru hidraulic compact pentru spatii restranse"
+        "description": "Cilindru hidraulic compact pentru spații restrânse"
       },
       {
         "code": "Series HMI",
@@ -776,7 +776,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series HAS 500",
-        "description": "Actuator electromecanic de mare forta"
+        "description": "Actuator electromecanic de mare forță"
       },
       {
         "code": "Helac rotary actuators",
@@ -793,11 +793,11 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
         "a": "Da, aducem la comandă cilindri hidraulici și pneumatici din gamele 2H, 3H, 2A sau XFC, după codul confirmat de client din catalogul oficial. Pentru Parker Hannifin lucrăm exclusiv la comandă, cu disponibilitatea luată din datele publice ale producătorului; termenul obișnuit este 2-4 săptămâni. Codul complet de pe eticheta cilindrului grăbește identificarea."
       },
       {
-        "q": "Ce date trimit pentru o oferta la un cilindru Parker?",
+        "q": "Ce date trimit pentru o ofertă la un cilindru Parker?",
         "a": "Aveți nevoie să precizați alezajul și cursa cilindrului, presiunea de lucru, tipul de montaj, tijă simplă sau dublă și materialul de construcție dorit. Dacă înlocuiți un cilindru existent, o fotografie a plăcuței cu seria și dimensiunile ajută la identificarea rapidă a variantei compatibile din gamele 2H, 3H sau CHD."
       },
       {
-        "q": "Ce inseamna codul Series HAS 500 la Parker Hannifin?",
+        "q": "Ce înseamnă codul Series HAS 500 la Parker Hannifin?",
         "a": "Codul indică un actuator electromecanic din gamă de mare forța a Parker, folosit acolo unde este nevoie de poziționare precisă fără sistem hidraulic sau pneumatic separat. Cifra 500 arată încadrarea în familia de dimensiuni și forța a seriei respective. Confirmarea completă a parametrilor se face din fișa tehnică oficială, după codul complet transmis de producător."
       }
     ],
