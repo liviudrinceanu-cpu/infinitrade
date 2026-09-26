@@ -2,7 +2,7 @@
  * src/data/brandsExtension.js — GENERATED FILE. Do not hand-edit.
  *
  * Regenerate with:  node scripts/build-brands-extension.mjs
- * Source: .planning/brands-500/brands-new-confirmed.json (804 brands, wave 2026-09)
+ * Source: .planning/brands-500/brands-new-confirmed.json (969 brands, wave 2026-09)
  *
  * Program "Branduri-500" (owner decision D-2026-09-21, see
  * .planning/brands-500/SUPERPROMPT.md): brands added on top of the original
@@ -40,6 +40,38 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "complementary"
+    },
+    {
+      "name": "ATC Diversified Electronics",
+      "slug": "atc-diversified",
+      "country": "SUA",
+      "description": "ATC Diversified Electronics fabrică temporizatoare, relee de protecție motor și sisteme de monitorizare pentru echipamente industriale",
+      "featured": false,
+      "officialUrl": "https://www.atcdiversified.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "energie",
+        "apa"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
+      "name": "ATI Industrial Automation",
+      "slug": "ati",
+      "country": "SUA",
+      "description": "ATI Industrial Automation produce scule si accesorii pentru roboti industriali folositi in liniile auto",
+      "featured": false,
+      "officialUrl": "https://www.ati-ia.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "aerospatial"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "AuCom",
@@ -117,6 +149,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "complementary"
+    },
+    {
+      "name": "Deltrol Controls",
+      "slug": "deltrol-controls",
+      "country": "SUA",
+      "description": "Deltrol Controls (divizie a Deltrol Corp) produce solenoizi, relee și valve de dozare pentru HVAC, refrigerare comercială și echipamente de curățare",
+      "featured": false,
+      "officialUrl": "https://www.deltrol-controls.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "alimentar",
+        "chimie"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Elap",
@@ -383,6 +431,23 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "Macromatic",
+      "slug": "macromatic",
+      "country": "SUA",
+      "description": "Macromatic produce relee de temporizare, monitoare de fază și relee de nivel pentru panouri de automatizare",
+      "featured": false,
+      "officialUrl": "https://www.macromatic.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "energie",
+        "apa",
+        "chimie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "MEGMEET",
       "slug": "megmeet",
       "country": "China",
@@ -482,6 +547,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Danfoss"
     },
     {
+      "name": "ProSoft Technology",
+      "slug": "prosoft-technology",
+      "country": "SUA",
+      "description": "ProSoft Technology produce gateway-uri de comunicatie industriala pentru integrarea automatizarilor auto si petroliere",
+      "featured": false,
+      "officialUrl": "https://www.prosoft-technology.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "petrol-gaze"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Red Lion Controls",
       "slug": "red-lion-controls",
       "country": "SUA",
@@ -524,6 +605,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Pilz"
+    },
+    {
+      "name": "Schweitzer Engineering Laboratories",
+      "slug": "sel",
+      "country": "SUA",
+      "description": "Schweitzer Engineering Laboratories (SEL) produce relee de protecție și sisteme de automatizare a rețelei electrice",
+      "featured": false,
+      "officialUrl": "https://selinc.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "energie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Sevcon",
@@ -913,6 +1009,24 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "Dodge Industrial",
+      "slug": "dodge-industrial",
+      "country": "SUA",
+      "description": "Dodge Industrial produce lagare, reductoare si cuplaje mecanice pentru transmisii industriale, azi parte din RBC Bearings",
+      "featured": false,
+      "officialUrl": "https://www.dodgeindustrial.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit",
+        "automotive",
+        "alimentar",
+        "energie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "EagleBurgmann",
       "slug": "eagleburgmann",
       "country": "Germania",
@@ -1065,6 +1179,36 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Klinger"
+    },
+    {
+      "name": "Generac Power Systems",
+      "slug": "generac",
+      "country": "SUA",
+      "description": "Generac Power Systems produce generatoare staționare și sisteme de stocare a energiei pentru centre de date",
+      "featured": false,
+      "officialUrl": "https://www.generac.com/industrial",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "data-centere"
+      ],
+      "euAvailability": "medie"
+    },
+    {
+      "name": "General Kinematics",
+      "slug": "general-kinematics",
+      "country": "SUA",
+      "description": "General Kinematics produce echipamente vibratoare pentru cernere și manipularea minereurilor",
+      "featured": false,
+      "officialUrl": "https://www.generalkinematics.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit-ciment"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Gerb",
@@ -1353,6 +1497,21 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Norelem"
     },
     {
+      "name": "Koch-Glitsch",
+      "slug": "koch-glitsch",
+      "country": "SUA",
+      "description": "Koch-Glitsch produce taleruri, umpluturi și internale de coloană pentru distilare și separare în petrochimie",
+      "featured": false,
+      "officialUrl": "https://www.koch-glitsch.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrochimie-chimie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "KTR",
       "slug": "ktr",
       "country": "Germania",
@@ -1375,6 +1534,23 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Flender"
     },
     {
+      "name": "Lamons",
+      "slug": "lamons",
+      "country": "SUA",
+      "description": "Lamons produce garnituri, fixari si furtunuri metalice pentru industria energetica si chimica",
+      "featured": false,
+      "officialUrl": "https://www.lamons.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "energie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Lesjöfors",
       "slug": "lesjofors",
       "country": "Sweden",
@@ -1395,6 +1571,38 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Thomson Industries"
+    },
+    {
+      "name": "Magnaloy Coupling Company",
+      "slug": "magnaloy",
+      "country": "SUA",
+      "description": "Magnaloy (divizie a Douville Johnston Corporation) produce cuplaje flexibile, suporturi de pompă și accesorii hidraulice pentru transmisii mecanice",
+      "featured": false,
+      "officialUrl": "https://www.magnaloy.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "chimie",
+        "apa",
+        "alimentar"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
+      "name": "Martin Engineering",
+      "slug": "martin-engineering",
+      "country": "SUA",
+      "description": "Martin Engineering produce curățătoare de bandă și sisteme de control al prafului pentru transportoare din minerit și ciment",
+      "featured": false,
+      "officialUrl": "https://www.martin-eng.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit-ciment"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Mayr",
@@ -1628,6 +1836,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:THK"
     },
     {
+      "name": "Precision Associates",
+      "slug": "precision-associates",
+      "country": "SUA",
+      "description": "Precision Associates produce garnituri de cauciuc personalizate cu peste 1000 de formulari",
+      "featured": false,
+      "officialUrl": "https://www.precisionassoc.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "alimentar"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Precision Polymer Engineering",
       "slug": "precision-polymer-engineering",
       "country": "UK",
@@ -1802,6 +2026,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:THK"
+    },
+    {
+      "name": "Seals Eastern",
+      "slug": "seals-eastern",
+      "country": "SUA",
+      "description": "Seals Eastern produce garnituri si o-ringuri de cauciuc, fabricate integral in SUA",
+      "featured": false,
+      "officialUrl": "https://www.sealseastern.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "aerospatial"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Semperit",
@@ -2057,6 +2297,23 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Winsmith",
+      "slug": "winsmith",
+      "country": "SUA",
+      "description": "Winsmith (o afacere a HBD Industries) fabrică reductoare unghiulare, elicoidale și planetare pentru aplicații industriale grele",
+      "featured": false,
+      "officialUrl": "https://www.winsmith.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit",
+        "chimie",
+        "alimentar"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Wippermann",
       "slug": "wippermann",
       "country": "Germany",
@@ -2125,6 +2382,36 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Kaeser"
     },
     {
+      "name": "Aqua-Aerobic Systems",
+      "slug": "aqua-aerobic",
+      "country": "SUA",
+      "description": "Aqua-Aerobic Systems produce echipamente de aerare, filtrare cu membrane și tratare biologică a apelor uzate",
+      "featured": false,
+      "officialUrl": "https://www.aqua-aerobic.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa-ape-uzate"
+      ],
+      "euAvailability": "medie"
+    },
+    {
+      "name": "Binks",
+      "slug": "binks",
+      "country": "SUA",
+      "description": "Binks produce echipamente de pulverizare pentru vopsirea auto, alaturi de brandurile surori Ransburg si DeVilbiss",
+      "featured": false,
+      "officialUrl": "https://binks.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "BS&B Safety Systems",
       "slug": "bsb-safety-systems",
       "country": "SUA",
@@ -2145,6 +2432,38 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "complementary"
+    },
+    {
+      "name": "Cummins Inc",
+      "slug": "cummins",
+      "country": "SUA",
+      "description": "Cummins produce motoare diesel si sisteme de generare a energiei pentru vehicule comerciale si industrie",
+      "featured": false,
+      "officialUrl": "https://www.cummins.com/company",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "energie",
+        "data-centere"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "EDI (Environmental Dynamics International)",
+      "slug": "environmental-dynamics-international",
+      "country": "SUA",
+      "description": "EDI (Environmental Dynamics International) produce difuzoare cu bule fine și sisteme de aerare pentru epurarea biologică a apelor uzate",
+      "featured": false,
+      "officialUrl": "https://wastewater.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa-ape-uzate"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Fike",
@@ -2202,6 +2521,53 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "Nordson",
+      "slug": "nordson",
+      "country": "SUA",
+      "description": "Nordson produce sisteme de dozare a adezivilor folosite in productia de baterii EV si asamblare auto",
+      "featured": false,
+      "officialUrl": "https://www.nordson.com/en/about-us",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "OPW",
+      "slug": "opw",
+      "country": "SUA",
+      "description": "OPW (Dover) produce echipamente de manipulare a carburantilor: brate de incarcare, pistoale, sisteme pentru statii",
+      "featured": false,
+      "officialUrl": "https://www.opwglobal.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "Parkson Corporation",
+      "slug": "parkson",
+      "country": "SUA",
+      "description": "Parkson Corporation produce echipamente de sitare, aerare și clarificare pentru stații de epurare",
+      "featured": false,
+      "officialUrl": "https://www.parkson.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa-ape-uzate"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Pneumatech",
       "slug": "pneumatech",
       "country": "Belgia",
@@ -2235,6 +2601,21 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "WesTech Engineering",
+      "slug": "westech",
+      "country": "SUA",
+      "description": "WesTech Engineering produce clarificatoare și echipamente de filtrare pentru apă și ape uzate industriale",
+      "featured": false,
+      "officialUrl": "https://www.westechwater.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa-ape-uzate"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Witzenmann",
       "slug": "witzenmann",
       "country": "Germania",
@@ -2258,6 +2639,22 @@ export const BRANDS_EXTENSION = {
     }
   ],
   "echipamente-electrice": [
+    {
+      "name": "Adalet",
+      "slug": "adalet",
+      "country": "SUA",
+      "description": "Adalet produce carcase electrice antiex pentru medii periculoase din industria petroliera si chimica",
+      "featured": false,
+      "officialUrl": "https://www.adalet.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie"
+      ],
+      "euAvailability": "medie"
+    },
     {
       "name": "Amphenol",
       "slug": "amphenol",
@@ -2391,6 +2788,21 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Schneider Electric"
     },
     {
+      "name": "EnerSys",
+      "slug": "enersys",
+      "country": "SUA",
+      "description": "EnerSys produce baterii industriale și sisteme UPS pentru centre de date și aplicații critice",
+      "featured": false,
+      "officialUrl": "https://www.enersys.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "data-centere"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Escha",
       "slug": "escha",
       "country": "Germania",
@@ -2477,6 +2889,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Finder"
+    },
+    {
+      "name": "Hubbell Incorporated",
+      "slug": "hubbell",
+      "country": "SUA",
+      "description": "Hubbell Incorporated produce echipamente electrice, de iluminat și de infrastructură pentru utilități și industrie",
+      "featured": false,
+      "officialUrl": "https://www.hubbell.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "energie",
+        "apa"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Hummel",
@@ -2620,6 +3048,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Dehn"
+    },
+    {
+      "name": "Panduit",
+      "slug": "panduit",
+      "country": "SUA",
+      "description": "Panduit produce infrastructură de cablare, PDU-uri și conectivitate pentru centre de date",
+      "featured": false,
+      "officialUrl": "https://www.panduit.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "data-centere"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Patlite",
@@ -2866,6 +3309,21 @@ export const BRANDS_EXTENSION = {
   ],
   "echipamente-termice": [
     {
+      "name": "Ajax Tocco Magnethermic",
+      "slug": "ajax-tocco",
+      "country": "SUA",
+      "description": "Ajax Tocco Magnethermic produce echipamente de încălzire și topire prin inducție pentru prelucrarea metalelor",
+      "featured": false,
+      "officialUrl": "https://www.ajaxtocco.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "siderurgie-metalurgie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Arca Caldaie",
       "slug": "arca-caldaie",
       "country": "Italia",
@@ -2954,6 +3412,21 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Trane"
     },
     {
+      "name": "Gasbarre Products",
+      "slug": "gasbarre",
+      "country": "SUA",
+      "description": "Gasbarre Products produce prese de compactare și cuptoare de sinterizare pentru metalurgia pulberilor",
+      "featured": false,
+      "officialUrl": "https://www.gasbarre.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "siderurgie-metalurgie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "ICI Caldaie",
       "slug": "ici-caldaie",
       "country": "Italia",
@@ -2963,6 +3436,66 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Spirax Sarco Thermal"
+    },
+    {
+      "name": "Inductotherm Group",
+      "slug": "inductotherm",
+      "country": "SUA",
+      "description": "Inductotherm Group produce cuptoare de topire și încălzire prin inducție pentru metale",
+      "featured": false,
+      "officialUrl": "https://inductothermgroup.com/companies/inductotherm-corp/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "siderurgie-metalurgie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "John Zink",
+      "slug": "john-zink",
+      "country": "SUA",
+      "description": "John Zink produce arzătoare industriale, facle și oxidatoare termice pentru petrochimie și rafinare",
+      "featured": false,
+      "officialUrl": "https://www.johnzink.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrochimie-chimie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "Motivair",
+      "slug": "motivair",
+      "country": "SUA",
+      "description": "Motivair (achiziționat de Schneider Electric în 2025) produce unități de distribuție a răcirii lichide (CDU) pentru servere AI",
+      "featured": false,
+      "officialUrl": "https://www.motivaircorp.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "data-centere"
+      ],
+      "euAvailability": "medie"
+    },
+    {
+      "name": "Paul Mueller Company",
+      "slug": "paul-mueller",
+      "country": "SUA",
+      "description": "Paul Mueller Company produce rezervoare și echipamente de proces din inox pentru chimie, farma și alimentar",
+      "featured": false,
+      "officialUrl": "https://www.paulmueller.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrochimie-chimie"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Riello",
@@ -2987,6 +3520,23 @@ export const BRANDS_EXTENSION = {
       "relation": "old-site-listed"
     },
     {
+      "name": "Tempco Electric Heater Corporation",
+      "slug": "tempco",
+      "country": "SUA",
+      "description": "Tempco Electric Heater fabrică rezistențe electrice tip bandă, cartuș și tubulare, plus controlere de temperatură pentru procese industriale",
+      "featured": false,
+      "officialUrl": "https://www.tempco.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "chimie",
+        "alimentar",
+        "farma"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Termostroj",
       "slug": "termostroj",
       "country": "Croatia",
@@ -2996,6 +3546,23 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Spirax Sarco Thermal"
+    },
+    {
+      "name": "Thermon",
+      "slug": "thermon",
+      "country": "SUA",
+      "description": "Thermon produce sisteme de heat-tracing pentru mentinerea temperaturii in industria chimica si energetica",
+      "featured": false,
+      "officialUrl": "https://www.thermon.com/about-us/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "energie"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "TLV",
@@ -3029,6 +3596,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Spirax Sarco Thermal"
+    },
+    {
+      "name": "Zeeco",
+      "slug": "zeeco",
+      "country": "SUA",
+      "description": "Zeeco produce arzătoare industriale, facle și sisteme de combustie pentru rafinare și petrochimie",
+      "featured": false,
+      "officialUrl": "https://www.zeeco.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrochimie-chimie"
+      ],
+      "euAvailability": "usoara"
     }
   ],
   "filtre-consumabile": [
@@ -3053,6 +3635,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "complementary"
+    },
+    {
+      "name": "Atmus Filtration Technologies",
+      "slug": "atmus",
+      "country": "SUA",
+      "description": "Atmus Filtration Technologies (fost Cummins Filtration, brand Fleetguard) produce filtre pentru motoare si echipamente",
+      "featured": false,
+      "officialUrl": "https://www.atmus.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "energie"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "BEKO Technologies",
@@ -3110,6 +3708,21 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "Calgon Carbon Corporation",
+      "slug": "calgon-carbon",
+      "country": "SUA",
+      "description": "Calgon Carbon produce cărbune activ și sisteme de purificare pentru tratarea apei potabile și industriale",
+      "featured": false,
+      "officialUrl": "https://www.calgoncarbon.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa-ape-uzate"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Camfil",
       "slug": "camfil",
       "country": "Sweden",
@@ -3119,6 +3732,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Donaldson"
+    },
+    {
+      "name": "CECO Environmental",
+      "slug": "ceco-environmental",
+      "country": "SUA",
+      "description": "CECO Environmental produce sisteme de control al poluării aerului (scrubere, oxidatoare termice) pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.cecoenviro.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrochimie-chimie"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Cintropur",
@@ -3141,6 +3769,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Hydac Filtration"
+    },
+    {
+      "name": "Entegris",
+      "slug": "entegris",
+      "country": "SUA",
+      "description": "Entegris produce sisteme de control al contaminării și manipulare materiale pentru fabricile de semiconductori",
+      "featured": false,
+      "officialUrl": "https://www.entegris.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "semiconductori-electronica"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Eriez",
@@ -3231,6 +3874,21 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "Meissner Filtration Products",
+      "slug": "meissner",
+      "country": "SUA",
+      "description": "Meissner Filtration Products produce sisteme de filtrare și single-use pentru producția biofarmaceutică",
+      "featured": false,
+      "officialUrl": "https://www.meissner.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "farma-biotehnologie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Nederman",
       "slug": "nederman",
       "country": "Sweden",
@@ -3253,6 +3911,23 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Schroeder Industries",
+      "slug": "schroeder-industries",
+      "country": "SUA",
+      "description": "Schroeder Industries fabrică filtre hidraulice, elemente filtrante și sisteme de diagnoză a fluidelor pentru echipamente industriale",
+      "featured": false,
+      "officialUrl": "https://www.schroederindustries.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit",
+        "energie",
+        "petrol-gaze"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Stauff",
       "slug": "stauff",
       "country": "Germania",
@@ -3262,6 +3937,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Hydac Filtration"
+    },
+    {
+      "name": "The Hilliard Corporation",
+      "slug": "hilliard",
+      "country": "SUA",
+      "description": "The Hilliard Corporation (marca Hilco) produce filtre, ambreiaje cu fricțiune și sisteme de frânare pentru echipamente industriale grele",
+      "featured": false,
+      "officialUrl": "https://www.hilliardcorp.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit",
+        "energie"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Toray Membrane",
@@ -3354,6 +4045,24 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "CRC Industries",
+      "slug": "crc-industries",
+      "country": "SUA",
+      "description": "CRC Industries produce chimicale industriale (degresanti, spray-uri tehnice) pentru automotive si industrie",
+      "featured": false,
+      "officialUrl": "https://www.crcindustries.com/about-us/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "chimie",
+        "minerit",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Divinol",
       "slug": "divinol",
       "country": "Germania",
@@ -3420,6 +4129,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Klüber Lubrication"
     },
     {
+      "name": "IPS Corporation (Weld-On)",
+      "slug": "ips-corporation",
+      "country": "SUA",
+      "description": "IPS Corporation (marca Weld-On) produce cimenturi solvente și adezivi pentru sisteme de conducte din plastic",
+      "featured": false,
+      "officialUrl": "https://www.ipscorp.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa",
+        "chimie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "JAX",
       "slug": "jax",
       "country": "SUA",
@@ -3429,6 +4154,23 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Klüber Lubrication"
+    },
+    {
+      "name": "Lubriplate",
+      "slug": "lubriplate",
+      "country": "SUA",
+      "description": "Lubriplate fabrica unsori si lubrifianti industriali si auto de peste 150 de ani",
+      "featured": false,
+      "officialUrl": "https://www.lubriplate.com/About-Us",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "alimentar",
+        "chimie"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Molydal",
@@ -3464,6 +4206,21 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Klüber Lubrication"
     },
     {
+      "name": "Nalco Water (Ecolab)",
+      "slug": "nalco-water",
+      "country": "SUA",
+      "description": "Nalco Water (Ecolab) produce chimicale și sisteme de dozare pentru tratarea apei industriale",
+      "featured": false,
+      "officialUrl": "https://www.ecolab.com/nalco-water",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa-ape-uzate"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "OKS Spezialschmierstoffe",
       "slug": "oks-spezialschmierstoffe",
       "country": "Germania",
@@ -3484,6 +4241,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "complementary"
+    },
+    {
+      "name": "Royal Purple",
+      "slug": "royal-purple",
+      "country": "SUA",
+      "description": "Royal Purple produce uleiuri sintetice de motor si transmisie pentru auto si industrie",
+      "featured": false,
+      "officialUrl": "https://www.royalpurple.com/about-us/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "energie"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "SCIGRIP",
@@ -3552,6 +4325,22 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Whitmore Manufacturing",
+      "slug": "whitmore",
+      "country": "SUA",
+      "description": "Whitmore (CSW Industrials) produce lubrifianți industriali pentru lanțuri, reductoare și echipamente feroviare, cu birou propriu în Marea Britanie",
+      "featured": false,
+      "officialUrl": "https://www.whitmores.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "ZOK",
       "slug": "zok",
       "country": "US",
@@ -3598,6 +4387,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Kollmorgen"
     },
     {
+      "name": "Apex Dynamics",
+      "slug": "apex-dynamics",
+      "country": "SUA",
+      "description": "reductoare planetare de precizie (servoreductoare)",
+      "featured": false,
+      "officialUrl": "https://apexdynamicsusa.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Aviteq",
       "slug": "aviteq",
       "country": "Germania",
@@ -3620,6 +4420,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Baldor"
     },
     {
+      "name": "Brook Crompton",
+      "slug": "brook-crompton",
+      "country": "Marea Britanie",
+      "description": "motoare electrice de înaltă eficiență",
+      "featured": false,
+      "officialUrl": "https://www.brookcrompton.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Cemp",
       "slug": "cemp",
       "country": "Italia",
@@ -3631,6 +4442,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:ABB"
     },
     {
+      "name": "Control Techniques",
+      "slug": "control-techniques",
+      "country": "Marea Britanie",
+      "description": "convertizoare de frecvență (marcă Nidec)",
+      "featured": false,
+      "officialUrl": "https://moen.nidec.com/drives",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Crouzet",
       "slug": "crouzet",
       "country": "Franța",
@@ -3639,6 +4461,39 @@ export const BRANDS_EXTENSION = {
       "officialUrl": "https://www.crouzet.com",
       "wave": "2026-09",
       "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Dunkermotoren",
+      "slug": "dunkermotoren",
+      "country": "Germania",
+      "description": "motoare DC, BLDC și servomotoare liniare",
+      "featured": false,
+      "officialUrl": "https://www.dunkermotoren.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Electro Adda",
+      "slug": "electro-adda",
+      "country": "Italia",
+      "description": "motoare electrice asincrone",
+      "featured": false,
+      "officialUrl": "https://www.electroadda.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Elektrim Motors",
+      "slug": "elektrim",
+      "country": "SUA",
+      "description": "motoare AC monofazate și trifazate NEMA/IEC",
+      "featured": false,
+      "officialUrl": "https://www.elektrimmotors.com/",
+      "wave": "2026-09",
+      "signal": "intl",
       "relation": "complementary"
     },
     {
@@ -3653,6 +4508,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:ABB"
     },
     {
+      "name": "Elprom Harmanli",
+      "slug": "elprom",
+      "country": "Bulgaria",
+      "description": "motoare electrice asincrone AC, motoare speciale",
+      "featured": false,
+      "officialUrl": "https://www.elprommotors.com/en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "EMG Elettromeccanica",
       "slug": "emg-elettromeccanica",
       "country": "Italia",
@@ -3662,6 +4528,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "Faulhaber",
+      "slug": "faulhaber",
+      "country": "Germania",
+      "description": "micromotoare și sisteme de acționare de mare precizie",
+      "featured": false,
+      "officialUrl": "https://www.faulhaber.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
     },
     {
       "name": "Felm",
@@ -3697,6 +4574,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Baldor"
     },
     {
+      "name": "Hanning Elektro-Werke",
+      "slug": "hanning",
+      "country": "Germania",
+      "description": "motoare speciale și sisteme de acționare personalizate, pompe",
+      "featured": false,
+      "officialUrl": "https://www.hanning-hew.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Hitachi Industrial Equipment Systems",
       "slug": "hitachi-industrial-equipment-systems",
       "country": "Japonia",
@@ -3717,6 +4605,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Leroy Somer"
+    },
+    {
+      "name": "Hoyer Motors",
+      "slug": "hoyer",
+      "country": "Danemarca",
+      "description": "motoare electrice IEC, stoc mare disponibil",
+      "featured": false,
+      "officialUrl": "https://hoyermotors.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
     },
     {
       "name": "HSD",
@@ -3741,6 +4640,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:ATB"
     },
     {
+      "name": "Invertek Drives",
+      "slug": "invertek",
+      "country": "Marea Britanie",
+      "description": "convertizoare de frecvență, convertizoare de viteză variabilă",
+      "featured": false,
+      "officialUrl": "https://www.invertekdrives.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Italvibras",
       "slug": "italvibras",
       "country": "Italia",
@@ -3750,6 +4660,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "convergent"
+    },
+    {
+      "name": "Kollmorgen",
+      "slug": "kollmorgen",
+      "country": "SUA",
+      "description": "servomotoare, motoare pas cu pas, sisteme AGV",
+      "featured": false,
+      "officialUrl": "https://www.kollmorgen.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
     },
     {
       "name": "Maxon",
@@ -3783,6 +4704,50 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "Menzel Elektromotoren",
+      "slug": "menzel",
+      "country": "Germania",
+      "description": "motoare electrice mari AC/DC, până la 25 MW, pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.menzel-motors.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Motive",
+      "slug": "motive",
+      "country": "Italia",
+      "description": "motoare electrice industriale, reductoare mecanice, invertoare",
+      "featured": false,
+      "officialUrl": "https://www.motive.it/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Motovario",
+      "slug": "motovario",
+      "country": "Italia",
+      "description": "motoreductoare, motovariatoare, motoare electrice",
+      "featured": false,
+      "officialUrl": "https://www.motovario.com/eng/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Nabtesco",
+      "slug": "nabtesco",
+      "country": "Japonia",
+      "description": "reductoare de precizie (ex. seria RV)",
+      "featured": false,
+      "officialUrl": "https://www.nabtesco.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
     },
     {
       "name": "Nanotec",
@@ -3873,6 +4838,28 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:ABB"
     },
     {
+      "name": "STÖBER",
+      "slug": "stoeber",
+      "country": "Germania",
+      "description": "motoreductoare, servomotoare, sisteme de acționare",
+      "featured": false,
+      "officialUrl": "https://www.stoeber.de/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Tecnotrans",
+      "slug": "tecnotrans",
+      "country": "Spania",
+      "description": "motoreductoare industriale (marcă Tecnotrans Bonfiglioli)",
+      "featured": false,
+      "officialUrl": "https://www.bonfiglioli.com/spain/es/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Toshiba International Corporation",
       "slug": "toshiba-international-corporation",
       "country": "Japonia/SUA",
@@ -3906,6 +4893,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:ABB"
     },
     {
+      "name": "VYBO Electric",
+      "slug": "vybo",
+      "country": "Slovacia",
+      "description": "motoare electrice asincrone joasă/medie/înaltă tensiune, 30 kW–20.000 kW",
+      "featured": false,
+      "officialUrl": "https://www.vyboelectric.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Wölfer Motoren",
       "slug": "wolfer-motoren",
       "country": "Germania",
@@ -3915,6 +4913,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "Wolong",
+      "slug": "wolong",
+      "country": "China",
+      "description": "motoare electrice și sisteme de acționare (fost ATB)",
+      "featured": false,
+      "officialUrl": "https://www.wolong-electric.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
     }
   ],
   "pompe-industriale": [
@@ -4082,6 +5091,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Becker"
+    },
+    {
+      "name": "ChampionX",
+      "slug": "championx",
+      "country": "SUA",
+      "description": "ChampionX produce sisteme de pompare artificială și chimicale de producție pentru extracția petrolului (acum parte din SLB)",
+      "featured": false,
+      "officialUrl": "https://www.championx.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Corken",
@@ -4269,6 +5293,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Iwaki"
+    },
+    {
+      "name": "Fluid Metering Inc (FMI)",
+      "slug": "fmi",
+      "country": "SUA",
+      "description": "Fluid Metering Inc (FMI) produce pompe de dozare de precizie, de la nanolitri la litri, pentru laborator și proces",
+      "featured": false,
+      "officialUrl": "https://www.fluidmetering.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "farma",
+        "chimie"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Fluimac",
@@ -4590,6 +5630,23 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Iwaki"
     },
     {
+      "name": "Milton Roy",
+      "slug": "milton-roy",
+      "country": "SUA",
+      "description": "Milton Roy produce pompe dozatoare de precizie pentru tratarea apei, energie si chimie, parte din Ingersoll Rand",
+      "featured": false,
+      "officialUrl": "https://www.miltonroy.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "chimie",
+        "apa",
+        "minerit"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Mouvex",
       "slug": "mouvex",
       "country": "Franța",
@@ -4821,6 +5878,21 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:KSB"
     },
     {
+      "name": "Smith & Loveless",
+      "slug": "smith-loveless",
+      "country": "SUA",
+      "description": "Smith & Loveless produce stații compacte de pompare și tratare a apelor uzate",
+      "featured": false,
+      "officialUrl": "https://www.smithandloveless.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa-ape-uzate"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Speroni",
       "slug": "speroni",
       "country": "Italia",
@@ -4929,6 +6001,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Gorman-Rupp"
+    },
+    {
+      "name": "Vaughan Company",
+      "slug": "vaughan",
+      "country": "SUA",
+      "description": "Vaughan Company produce pompe tocătoare și sisteme de mixare pentru nămolul din apele uzate",
+      "featured": false,
+      "officialUrl": "https://www.chopperpumps.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa-ape-uzate"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Walchem",
@@ -5054,6 +6141,23 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Cimberio"
     },
     {
+      "name": "Anderson Greenwood",
+      "slug": "anderson-greenwood",
+      "country": "SUA",
+      "description": "Anderson Greenwood (Emerson) fabrica supape de siguranta pentru protectia la suprapresiune in petrol, gaze si chimie",
+      "featured": false,
+      "officialUrl": "https://www.emerson.com/en/final-control/brands/anderson-greenwood",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "ARIS Stellantriebe",
       "slug": "aris-stellantriebe",
       "country": "DE",
@@ -5098,6 +6202,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Praher"
     },
     {
+      "name": "Baker Hughes",
+      "slug": "baker-hughes",
+      "country": "SUA",
+      "description": "Baker Hughes produce echipamente pentru extractie, procesare si transport in industria petroliera si de gaze",
+      "featured": false,
+      "officialUrl": "https://www.bakerhughes.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Bardiani Valvole",
       "slug": "bardiani-valvole",
       "country": "Italia",
@@ -5129,6 +6249,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "complementary"
+    },
+    {
+      "name": "Bettis",
+      "slug": "bettis",
+      "country": "SUA",
+      "description": "Bettis (Emerson) produce actuatoare pentru automatizarea robinetelor in industria petroliera si petrochimica",
+      "featured": false,
+      "officialUrl": "https://www.emerson.com/en/final-control/brands/bettis",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "energie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Bonney Forge",
@@ -5230,6 +6366,21 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Farris Engineering"
     },
     {
+      "name": "CIRCOR International",
+      "slug": "circor",
+      "country": "SUA",
+      "description": "CIRCOR produce pompe și robineți pentru aplicații critice în petrol și gaze, industrial și aerospațial",
+      "featured": false,
+      "officialUrl": "https://www.circor.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Cla-Val",
       "slug": "cla-val",
       "country": "SUA",
@@ -5261,6 +6412,38 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:OsecoElfab"
+    },
+    {
+      "name": "Conval Inc",
+      "slug": "conval",
+      "country": "SUA",
+      "description": "Conval produce robineți forjați din oțel pentru servicii severe (presiune și temperatură ridicate) în centrale și rafinării",
+      "featured": false,
+      "officialUrl": "https://www.conval.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "energie",
+        "petrol-gaze"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
+      "name": "Cook Compression",
+      "slug": "cook-compression",
+      "country": "SUA",
+      "description": "Cook Compression (Dover) produce valve si componente pentru compresoare cu piston folosite in gaze naturale si rafinare",
+      "featured": false,
+      "officialUrl": "https://www.cookcompression.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Crosby",
@@ -5338,6 +6521,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "old-site-listed"
+    },
+    {
+      "name": "Enardo",
+      "slug": "enardo",
+      "country": "SUA",
+      "description": "Enardo (Emerson) produce supape de respiratie si opritoare de flacara pentru rezervoare din industria petroliera",
+      "featured": false,
+      "officialUrl": "https://www.emerson.com/en/final-control/brands/enardo",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Erhard",
@@ -5450,6 +6649,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Leser"
     },
     {
+      "name": "HIP (High Pressure Equipment Company)",
+      "slug": "hip",
+      "country": "SUA",
+      "description": "HIP produce robinete, fitinguri si reactoare de inalta presiune, azi parte din grupul Graco",
+      "featured": false,
+      "officialUrl": "https://www.highpressure.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Hoke",
       "slug": "hoke",
       "country": "US",
@@ -5527,6 +6742,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Krausz Industries"
     },
     {
+      "name": "Jomar Valve",
+      "slug": "jomar-valve",
+      "country": "SUA",
+      "description": "Jomar Valve produce robineți cu bilă, robineți fluture și sorburi pentru instalații industriale și sanitare",
+      "featured": false,
+      "officialUrl": "https://www.jomarvalve.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa",
+        "energie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Kinetrol",
       "slug": "kinetrol",
       "country": "Marea Britanie",
@@ -5569,6 +6800,23 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Bürkert"
+    },
+    {
+      "name": "Masoneilan",
+      "slug": "masoneilan",
+      "country": "SUA",
+      "description": "Masoneilan este brandul Baker Hughes pentru robinete de reglare folosite in rafinare, petrochimie si energie",
+      "featured": false,
+      "officialUrl": "https://valves.bakerhughes.com/masoneilan",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "energie",
+        "chimie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Metraflex",
@@ -5712,6 +6960,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Samson"
+    },
+    {
+      "name": "Plast-O-Matic Valves",
+      "slug": "plast-o-matic",
+      "country": "SUA",
+      "description": "Plast-O-Matic Valves fabrică robineți, supape de reținere și regulatoare din termoplastic pentru medii chimice corozive",
+      "featured": false,
+      "officialUrl": "https://www.plastomatic.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "chimie",
+        "apa"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Powell Valves",
@@ -5901,6 +7165,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Stafsjö"
     },
     {
+      "name": "Spears Manufacturing",
+      "slug": "spears",
+      "country": "SUA",
+      "description": "Spears Manufacturing produce fitinguri și robineți din PVC/CPVC pentru instalații industriale și sanitare",
+      "featured": false,
+      "officialUrl": "https://www.spearsmfg.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "apa",
+        "chimie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Stafsjö",
       "slug": "stafsjo",
       "country": "SE",
@@ -5943,6 +7223,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Parker Hannifin"
+    },
+    {
+      "name": "T.D. Williamson",
+      "slug": "td-williamson",
+      "country": "SUA",
+      "description": "T.D. Williamson produce echipamente de mentenanta a conductelor (hot-tapping, pigging) pentru petrol si gaze",
+      "featured": false,
+      "officialUrl": "https://www.tdwilliamson.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Tectubi Raccordi",
@@ -6099,6 +7394,22 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Weldbend",
+      "slug": "weldbend",
+      "country": "SUA",
+      "description": "Weldbend produce flanse si fitinguri sudate din otel carbon pentru industria petroliera si chimica",
+      "featured": false,
+      "officialUrl": "https://www.weldbend.com/about/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Yoshitake",
       "slug": "yoshitake",
       "country": "JP",
@@ -6211,6 +7522,21 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:MSA Safety"
     },
     {
+      "name": "Bug-O Systems",
+      "slug": "bug-o-systems",
+      "country": "SUA",
+      "description": "Bug-O Systems produce sisteme mecanizate de sudura si taiere folosite in constructii navale si structuri metalice",
+      "featured": false,
+      "officialUrl": "https://www.bugo.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "energie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "C.K Tools",
       "slug": "c-k-tools",
       "country": "Marea Britanie",
@@ -6222,6 +7548,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Knipex"
     },
     {
+      "name": "Carr Lane Manufacturing",
+      "slug": "carr-lane",
+      "country": "SUA",
+      "description": "Carr Lane Manufacturing produce componente de fixare pentru linii de asamblare auto si aerospatiale",
+      "featured": false,
+      "officialUrl": "https://www.carrlane.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "aerospatial"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Cebora",
       "slug": "cebora",
       "country": "Italia",
@@ -6231,6 +7573,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "convergent"
+    },
+    {
+      "name": "Channellock",
+      "slug": "channellock",
+      "country": "SUA",
+      "description": "Channellock produce clești, chei și scule de mână, fabricate integral în Statele Unite din 1886",
+      "featured": false,
+      "officialUrl": "https://www.channellock.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "energie"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Chauvin Arnoux",
@@ -6376,6 +7734,37 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Gleason Corporation",
+      "slug": "gleason",
+      "country": "SUA",
+      "description": "Gleason produce masini pentru fabricarea angrenajelor folosite in transmisiile auto",
+      "featured": false,
+      "officialUrl": "https://www.gleason.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "Greenlee",
+      "slug": "greenlee",
+      "country": "SUA",
+      "description": "Greenlee (Emerson) fabrica scule profesionale pentru instalatii electrice si mentenanta industriala",
+      "featured": false,
+      "officialUrl": "https://www.greenlee.com/us/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "GW Instek",
       "slug": "gw-instek",
       "country": "Taiwan",
@@ -6431,6 +7820,21 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Fluke"
     },
     {
+      "name": "Hobart Brothers",
+      "slug": "hobart",
+      "country": "SUA",
+      "description": "Hobart Brothers produce materiale de sudura folosite in fabricatie, transport si constructii grele",
+      "featured": false,
+      "officialUrl": "https://www.hobartbrothers.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "HT Italia",
       "slug": "ht-italia",
       "country": "Italy",
@@ -6440,6 +7844,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Fluke"
+    },
+    {
+      "name": "Hurco",
+      "slug": "hurco",
+      "country": "SUA",
+      "description": "Hurco produce masini de prelucrare CNC folosite in fabricatia de componente pentru industria auto",
+      "featured": false,
+      "officialUrl": "https://www.hurco.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Hypertherm",
@@ -6464,6 +7883,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Mitutoyo"
     },
     {
+      "name": "Instron",
+      "slug": "instron",
+      "country": "SUA",
+      "description": "Instron (ITW) produce echipamente de testare mecanica a materialelor folosite si in industria auto",
+      "featured": false,
+      "officialUrl": "https://www.instron.com/en-us/about-us",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "aerospatial"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Irwin Tools",
       "slug": "irwin-tools",
       "country": "SUA",
@@ -6473,6 +7908,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Stahlwille"
+    },
+    {
+      "name": "Jergens Inc",
+      "slug": "jergens",
+      "country": "SUA",
+      "description": "Jergens Inc produce sisteme de fixare si ridicare folosite in productia auto, aerospatiala si de dispozitive medicale",
+      "featured": false,
+      "officialUrl": "https://www.jergensinc.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "aerospatial"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Jokari",
@@ -6506,6 +7957,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "convergent"
+    },
+    {
+      "name": "Kennametal",
+      "slug": "kennametal",
+      "country": "SUA",
+      "description": "Kennametal produce scule de așchiere și componente rezistente la uzură pentru minerit și metalurgie",
+      "featured": false,
+      "officialUrl": "https://www.kennametal.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit-ciment"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Keysight Technologies",
@@ -6561,6 +8027,21 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Stahlwille"
+    },
+    {
+      "name": "Koike Aronson",
+      "slug": "koike",
+      "country": "SUA",
+      "description": "Koike Aronson produce masini de taiere si pozitionere de sudura pentru fabricatia metalica grea",
+      "featured": false,
+      "officialUrl": "https://www.koike.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "energie"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Kyoritsu",
@@ -6640,6 +8121,23 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Makita"
     },
     {
+      "name": "MTS Systems",
+      "slug": "mts",
+      "country": "SUA",
+      "description": "MTS Systems produce sisteme de testare pentru industria auto (vehicul complet, anvelope, amortizoare, baterii EV)",
+      "featured": false,
+      "officialUrl": "https://www.mts.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "aerospatial",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Newtons4th",
       "slug": "newtons4th",
       "country": "UK",
@@ -6715,6 +8213,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "convergent"
+    },
+    {
+      "name": "RIDGID",
+      "slug": "ridgid",
+      "country": "SUA",
+      "description": "RIDGID (Emerson) produce scule pentru filetare, taiere si inspectie conducte folosite in mentenanta industriala",
+      "featured": false,
+      "officialUrl": "https://www.ridgid.com/us/en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "petrol-gaze"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Rigol Technologies",
@@ -6816,6 +8330,22 @@ export const BRANDS_EXTENSION = {
       "relation": "convergent"
     },
     {
+      "name": "Thermwood",
+      "slug": "thermwood",
+      "country": "SUA",
+      "description": "Thermwood produce routere CNC si sisteme de printare 3D industriala folosite si in aerospatial si auto",
+      "featured": false,
+      "officialUrl": "https://www.thermwood.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "aerospatial"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Tone",
       "slug": "tone",
       "country": "Japonia",
@@ -6858,6 +8388,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Stahlwille"
+    },
+    {
+      "name": "Wright Tool",
+      "slug": "wright-tool",
+      "country": "SUA",
+      "description": "Wright Tool fabrică chei fixe, chei tubulare și scule de mână forjate, aproape integral în SUA",
+      "featured": false,
+      "officialUrl": "https://www.wrighttool.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "energie"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "ZEISS Industrial Metrology",
@@ -7258,6 +8804,23 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Dräger"
     },
     {
+      "name": "GP:50",
+      "slug": "gp-50",
+      "country": "SUA",
+      "description": "GP:50 produce traductoare de presiune personalizate pentru auto, aerospatial si petrol si gaze",
+      "featured": false,
+      "officialUrl": "https://www.gp50.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "aerospatial",
+        "petrol-gaze"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Hach",
       "slug": "hach",
       "country": "USA",
@@ -7379,6 +8942,23 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Krohne"
     },
     {
+      "name": "Kavlico",
+      "slug": "kavlico",
+      "country": "SUA",
+      "description": "Kavlico produce senzori de presiune si pozitie folositi in transport, energie si aerospatial",
+      "featured": false,
+      "officialUrl": "https://www.kavlico.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "aerospatial",
+        "energie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "KEM Küppers",
       "slug": "kem-kuppers",
       "country": "Germany",
@@ -7445,6 +9025,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:WIKA"
     },
     {
+      "name": "Marsh Bellofram",
+      "slug": "marsh-bellofram",
+      "country": "SUA",
+      "description": "Marsh Bellofram produce regulatoare de presiune si manometre industriale prin divizii precum BelGAS si Marsh Instruments",
+      "featured": false,
+      "officialUrl": "https://www.marshbellofram.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "aerospatial"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Metrix Instrument",
       "slug": "metrix-instrument",
       "country": "USA",
@@ -7478,6 +9074,23 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Endress+Hauser"
     },
     {
+      "name": "Micro Motion",
+      "slug": "micro-motion",
+      "country": "SUA",
+      "description": "Micro Motion (Emerson) este specializat in debitmetre Coriolis de mare precizie pentru industria de proces",
+      "featured": false,
+      "officialUrl": "https://www.emerson.com/en/measurement-instrumentation/micro-motion",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "alimentar"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Micro-Epsilon",
       "slug": "micro-epsilon",
       "country": "Germany",
@@ -7498,6 +9111,55 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:SKF"
+    },
+    {
+      "name": "MKS Instruments",
+      "slug": "mks-instruments",
+      "country": "SUA",
+      "description": "MKS Instruments produce instrumente de vid, debit și control de proces pentru semiconductori",
+      "featured": false,
+      "officialUrl": "https://www.mks.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "semiconductori-electronica"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "Moore Industries",
+      "slug": "moore-industries",
+      "country": "SUA",
+      "description": "Moore Industries produce instrumentatie de proces (izolatoare, convertoare) pentru industriile chimice si petroliere",
+      "featured": false,
+      "officialUrl": "https://www.miinet.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "apa"
+      ],
+      "euAvailability": "medie"
+    },
+    {
+      "name": "National Instruments (NI)",
+      "slug": "ni",
+      "country": "SUA",
+      "description": "National Instruments, azi parte din Emerson, produce platforme de test automatizat folosite si in industria auto",
+      "featured": false,
+      "officialUrl": "https://www.ni.com/en-us/about-ni.html",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "aerospatial",
+        "semiconductori"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Nokeval",
@@ -7542,6 +9204,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Krohne"
+    },
+    {
+      "name": "Palmer Wahl Instrumentation",
+      "slug": "palmer-wahl",
+      "country": "SUA",
+      "description": "Palmer Wahl, companie deținută de familie, fabrică termometre de proces, pirometre cu infraroșu și manometre pentru industrie",
+      "featured": false,
+      "officialUrl": "https://www.palmerwahl.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "chimie",
+        "energie"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "PCB Piezotronics",
@@ -7599,6 +9277,23 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Kübler"
     },
     {
+      "name": "Reotemp Instruments",
+      "slug": "reotemp",
+      "country": "SUA",
+      "description": "Reotemp Instruments produce termocuple, RTD-uri, traductoare de temperatură și presiune pentru instrumentație de proces",
+      "featured": false,
+      "officialUrl": "https://www.reotemp.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "chimie",
+        "petrol-gaze",
+        "apa"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Rittmeyer",
       "slug": "rittmeyer",
       "country": "Switzerland",
@@ -7619,6 +9314,23 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Dräger"
+    },
+    {
+      "name": "Rosemount",
+      "slug": "rosemount",
+      "country": "SUA",
+      "description": "Rosemount (Emerson) fabrica traductoare de presiune si instrumentatie de proces pentru industrii grele",
+      "featured": false,
+      "officialUrl": "https://www.emerson.com/en/measurement-instrumentation/catalog/pressure-measurement/pressure-transmitters",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "energie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Rotronic",
@@ -7654,6 +9366,21 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Kübler"
     },
     {
+      "name": "Scully Signal Company",
+      "slug": "scully",
+      "country": "SUA",
+      "description": "Scully Signal Company produce sisteme de siguranta pentru incarcarea si transportul carburantilor petroliere",
+      "featured": false,
+      "officialUrl": "https://www.scully.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Seneca",
       "slug": "seneca",
       "country": "Italy",
@@ -7685,6 +9412,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:HBM"
+    },
+    {
+      "name": "Setra Systems",
+      "slug": "setra-systems",
+      "country": "SUA",
+      "description": "Setra Systems produce traductoare de presiune de precizie pentru automatizari industriale si camere curate",
+      "featured": false,
+      "officialUrl": "https://www.setra.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "semiconductori",
+        "farma"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Sewerin",
@@ -7742,6 +9485,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:SKF"
     },
     {
+      "name": "Tel-Tru Manufacturing",
+      "slug": "tel-tru",
+      "country": "SUA",
+      "description": "Tel-Tru Manufacturing fabrică termometre industriale cu cadran, senzori RTD și calibratoare de temperatură",
+      "featured": false,
+      "officialUrl": "https://www.teltru.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "alimentar",
+        "chimie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Teledyne Gas and Flame Detection",
       "slug": "teledyne-gas-and-flame-detection",
       "country": "USA",
@@ -7762,6 +9521,39 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:WIKA"
+    },
+    {
+      "name": "Trerice (H.O. Trerice)",
+      "slug": "trerice",
+      "country": "SUA",
+      "description": "H.O. Trerice produce manometre si termometre industriale de peste 100 de ani",
+      "featured": false,
+      "officialUrl": "https://www.trerice.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "energie",
+        "chimie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
+      "name": "United Electric Controls",
+      "slug": "united-electric-controls",
+      "country": "SUA",
+      "description": "United Electric Controls fabrică comutatoare și transmițătoare de siguranță pentru presiune, temperatură și detecția gazelor",
+      "featured": false,
+      "officialUrl": "https://www.ueonline.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "energie"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Vaisala",
@@ -7830,6 +9622,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Vega"
     },
     {
+      "name": "Weiss Instruments",
+      "slug": "weiss",
+      "country": "SUA",
+      "description": "Weiss Instruments produce termometre bimetalice, manometre industriale și transmițătoare digitale pentru HVAC și refrigerare",
+      "featured": false,
+      "officialUrl": "https://www.weissinstruments.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "alimentar",
+        "energie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Wilcoxon Sensing Technologies",
       "slug": "wilcoxon-sensing-technologies",
       "country": "USA",
@@ -7887,6 +9695,77 @@ export const BRANDS_EXTENSION = {
   ],
   "suflante-ventilatoare": [
     {
+      "name": "Ariel Corporation",
+      "slug": "ariel",
+      "country": "SUA",
+      "description": "Ariel Corporation produce compresoare de gaz cu piston folosite in extractia si transportul gazelor naturale",
+      "featured": false,
+      "officialUrl": "https://www.arielcorp.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "energie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
+      "name": "BOGE",
+      "slug": "boge",
+      "country": "Germania",
+      "description": "compresoare cu șurub și piston, soluții de aer comprimat",
+      "featured": false,
+      "officialUrl": "https://www.boge.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Casals",
+      "slug": "casals",
+      "country": "Spania",
+      "description": "ventilatoare industriale și pentru ventilație domestică",
+      "featured": false,
+      "officialUrl": "https://www.casals.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Ceccato",
+      "slug": "ceccato",
+      "country": "Italia",
+      "description": "compresoare de aer cu șurub, cu piston, fără ulei",
+      "featured": false,
+      "officialUrl": "https://www.ceccato.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Comefri",
+      "slug": "comefri",
+      "country": "Italia",
+      "description": "ventilatoare centrifugale industriale",
+      "featured": false,
+      "officialUrl": "https://www.comefri.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Continental Industrie",
+      "slug": "continental-industrie",
+      "country": "Franța",
+      "description": "suflante centrifugale multietajate",
+      "featured": false,
+      "officialUrl": "https://www.continental-industrie.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "ebm-papst",
       "slug": "ebm-papst",
       "country": "Germania",
@@ -7898,6 +9777,131 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Ziehl Abegg"
     },
     {
+      "name": "Elmo Rietschle",
+      "slug": "elmo-rietschle",
+      "country": "Germania",
+      "description": "suflante cu canal lateral, pompe de vid, compresoare",
+      "featured": false,
+      "officialUrl": "https://www.elmorietschle.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Ferrari Ventilatori",
+      "slug": "ferrari-ventilatori",
+      "country": "Italia",
+      "description": "ventilatoare centrifugale și axiale industriale",
+      "featured": false,
+      "officialUrl": "https://www.ferrariventilatori.com/it-fe/azienda/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Helios Ventilatoren",
+      "slug": "helios",
+      "country": "Germania",
+      "description": "ventilatoare pentru locuințe, industrie și comerț",
+      "featured": false,
+      "officialUrl": "https://www.heliosventilatoren.de/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Howden",
+      "slug": "howden",
+      "country": "Marea Britanie",
+      "description": "compresoare, ventilatoare axiale, suflante centrifugale, echipamente de manipulare aer/gaz",
+      "featured": false,
+      "officialUrl": "https://www.howden.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Kongskilde",
+      "slug": "kongskilde",
+      "country": "Danemarca",
+      "description": "sisteme de transport pneumatic la comandă",
+      "featured": false,
+      "officialUrl": "https://www.kongskilde-industries.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Mapro",
+      "slug": "mapro",
+      "country": "Italia",
+      "description": "suflante și aspiratoare cu canal lateral, pompe de vid rotative cu palete",
+      "featured": false,
+      "officialUrl": "https://www.maproint.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Nicotra Gebhardt",
+      "slug": "nicotra-gebhardt",
+      "country": "Italia",
+      "description": "ventilatoare centrifugale, axiale și hibride pentru HVAC",
+      "featured": false,
+      "officialUrl": "https://www.nicotra-gebhardt.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Quincy Compressor",
+      "slug": "quincy-compressor",
+      "country": "SUA",
+      "description": "Quincy Compressor produce compresoare de aer industriale folosite in linii de productie auto si industrie generala",
+      "featured": false,
+      "officialUrl": "https://www.quincycompressor.com/about-us/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive"
+      ],
+      "euAvailability": "medie"
+    },
+    {
+      "name": "Rosenberg",
+      "slug": "rosenberg",
+      "country": "Germania",
+      "description": "ventilatoare EC, motoare cu rotor exterior reglabile, unități de ventilație",
+      "featured": false,
+      "officialUrl": "https://www.rosenberg-gmbh.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Sodeca",
+      "slug": "sodeca",
+      "country": "Spania",
+      "description": "ventilatoare industriale, evacuare fum, ventilație tuneluri",
+      "featured": false,
+      "officialUrl": "https://www.sodeca.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Soler & Palau",
+      "slug": "soler-palau",
+      "country": "Spania",
+      "description": "sisteme de ventilație, calitatea aerului interior",
+      "featured": false,
+      "officialUrl": "https://www.solerpalau.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Systemair",
       "slug": "systemair",
       "country": "Suedia",
@@ -7907,6 +9911,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Ziehl Abegg"
+    },
+    {
+      "name": "Witt & Sohn",
+      "slug": "witt-sohn",
+      "country": "Germania",
+      "description": "ventilatoare axiale și radiale industriale",
+      "featured": false,
+      "officialUrl": "https://www.wittfan.de/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
     }
   ],
   "componente-hidraulice-pneumatice": [
@@ -7986,6 +10001,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Bondioli & Pavesi"
+    },
+    {
+      "name": "Bimba",
+      "slug": "bimba",
+      "country": "SUA",
+      "description": "Bimba produce cilindri si actuatoare pneumatice folosite in automatizarea liniilor de productie",
+      "featured": false,
+      "officialUrl": "https://www.bimba.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "alimentar"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Birkosit",
@@ -8142,6 +10173,37 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Vuototecnica"
     },
     {
+      "name": "Cross Manufacturing (Hydraulics)",
+      "slug": "cross-manufacturing",
+      "country": "SUA",
+      "description": "Cross Manufacturing produce valve hidraulice, pompe cu roți dințate și cilindri hidraulici pentru agricultură și construcții",
+      "featured": false,
+      "officialUrl": "https://www.crossmfg.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit",
+        "energie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
+      "name": "Curtiss-Wright Corporation",
+      "slug": "curtiss-wright",
+      "country": "SUA",
+      "description": "Curtiss-Wright produce actuatoare, sisteme de control și componente critice pentru aerospațial, apărare și energie nucleară",
+      "featured": false,
+      "officialUrl": "https://www.curtisswright.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "aerospatial-aparare"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Destaco",
       "slug": "destaco",
       "country": "SUA",
@@ -8217,6 +10279,55 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Kelvion"
+    },
+    {
+      "name": "Enerpac",
+      "slug": "enerpac",
+      "country": "SUA",
+      "description": "Enerpac produce scule hidraulice (cricuri, cilindri, pompe) folosite in mentenanta industriala grea",
+      "featured": false,
+      "officialUrl": "https://www.enerpac.com/en-us/about-us",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "EXAIR Corporation",
+      "slug": "exair",
+      "country": "SUA",
+      "description": "EXAIR fabrică cuțite de aer, tuburi vortex și duze pneumatice pentru optimizarea consumului de aer comprimat",
+      "featured": false,
+      "officialUrl": "https://exair.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "alimentar",
+        "semiconductori"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
+      "name": "Fabco-Air",
+      "slug": "fabco-air",
+      "country": "SUA",
+      "description": "Fabco-Air produce cilindri pneumatici compacți (seria Pancake), fiind acum susținută tehnologic de Festo (Germania)",
+      "featured": false,
+      "officialUrl": "https://www.fabco-air.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "alimentar"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Faster",
@@ -8316,6 +10427,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Norgren"
+    },
+    {
+      "name": "HydraForce",
+      "slug": "hydraforce",
+      "country": "SUA",
+      "description": "HydraForce produce valve cartuș, manifolduri și controlere electronice hidraulice, fiind acum parte din rețeaua globală Bosch Rexroth",
+      "featured": false,
+      "officialUrl": "https://www.hydraforce.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit",
+        "energie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Hydro Leduc",
@@ -8615,6 +10742,22 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Bosch Rexroth"
     },
     {
+      "name": "Prince Manufacturing Corporation",
+      "slug": "prince",
+      "country": "SUA",
+      "description": "Prince Manufacturing (Prince Hydraulics) fabrică cilindri hidraulici, valve stivuibile și supape de control pentru utilaje mobile",
+      "featured": false,
+      "officialUrl": "https://www.princehyd.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit",
+        "energie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Rickmeier",
       "slug": "rickmeier",
       "country": "Germania",
@@ -8723,6 +10866,22 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:IFM"
+    },
+    {
+      "name": "Sun Hydraulics",
+      "slug": "sun-hydraulics",
+      "country": "SUA",
+      "description": "Sun Hydraulics (Helios Technologies) produce valve cartuș și manifolduri hidraulice, cu fabrici proprii în Marea Britanie, Germania și Italia",
+      "featured": false,
+      "officialUrl": "https://www.sunhydraulics.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "minerit",
+        "energie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Sunfab",
@@ -8870,6 +11029,35 @@ export const BRANDS_EXTENSION = {
   ],
   "schimbatoare-caldura": [
     {
+      "name": "API Heat Transfer",
+      "slug": "api-heat-transfer",
+      "country": "SUA",
+      "description": "API Heat Transfer produce schimbatoare de caldura personalizate pentru petrol si gaze, energie si alimentar",
+      "featured": false,
+      "officialUrl": "https://www.apiheattransfer.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "energie",
+        "alimentar",
+        "petrochimie-chimie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
+      "name": "API Schmidt-Bretten",
+      "slug": "api-schmidt-bretten",
+      "country": "Germania",
+      "description": "producător de schimbătoare de căldură cu plăci gasketate și sudate SIGMA",
+      "featured": false,
+      "officialUrl": "https://www.apischmidt-bretten.de/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "ARES",
       "slug": "ares",
       "country": "Turcia",
@@ -8881,6 +11069,142 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:SWEP"
     },
     {
+      "name": "ASA Hydraulik",
+      "slug": "asa-hydraulik",
+      "country": "Austria",
+      "description": "răcitoare ulei aer/apă, soluții hidraulice compacte",
+      "featured": false,
+      "officialUrl": "https://www.asahydraulik.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Chart Industries",
+      "slug": "chart-industries",
+      "country": "SUA",
+      "description": "Chart Industries produce echipamente criogenice si schimbatoare de caldura pentru gaze industriale si LNG",
+      "featured": false,
+      "officialUrl": "https://www.chartindustries.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "energie",
+        "chimie",
+        "petrol-gaze"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "Cipriani",
+      "slug": "cipriani",
+      "country": "Italia",
+      "description": "primul producător italian de schimbătoare de căldură cu plăci",
+      "featured": false,
+      "officialUrl": "https://www.cipriani-phe.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Fiorini Industries",
+      "slug": "fiorini",
+      "country": "Italia",
+      "description": "schimbătoare de căldură cu plăci, sisteme hidronice",
+      "featured": false,
+      "officialUrl": "https://www.fiorini-industries.com/en/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Graham Corporation",
+      "slug": "graham",
+      "country": "SUA",
+      "description": "Graham Corporation produce schimbătoare de căldură și pompe de vid pentru rafinare și petrochimie",
+      "featured": false,
+      "officialUrl": "https://www.graham-mfg.com",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrochimie-chimie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
+      "name": "Güntner",
+      "slug": "guentner",
+      "country": "Germania",
+      "description": "răcitoare de aer, condensatoare, dry coolers, gas coolers",
+      "featured": false,
+      "officialUrl": "https://guntner.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Hisaka",
+      "slug": "hisaka",
+      "country": "Japonia",
+      "description": "producător de schimbătoare de căldură, divizie dedicată în portofoliu",
+      "featured": false,
+      "officialUrl": "https://www.hisaka.co.jp/english/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "HRS Heat Exchangers",
+      "slug": "hrs",
+      "country": "Marea Britanie",
+      "description": "proiectare și fabricație de schimbătoare tubulare și scraped-surface",
+      "featured": false,
+      "officialUrl": "https://www.hrs-heatexchangers.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "LU-VE",
+      "slug": "lu-ve",
+      "country": "Italia",
+      "description": "răcitoare de aer, condensatoare, gas cooler, schimbătoare OEM pentru HVAC&R",
+      "featured": false,
+      "officialUrl": "https://lu-ve.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Modine",
+      "slug": "modine",
+      "country": "SUA",
+      "description": "Modine produce schimbatoare de caldura pentru automotive, vehicule comerciale si aplicatii industriale",
+      "featured": false,
+      "officialUrl": "https://www.modine.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
+      "name": "Onda",
+      "slug": "onda",
+      "country": "Italia",
+      "description": "schimbătoare de căldură cu aer, cu plăci brazate și demontabile",
+      "featured": false,
+      "officialUrl": "https://www.onda-it.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
       "name": "Sonflow",
       "slug": "sonflow",
       "country": "Danemarca",
@@ -8890,6 +11214,61 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:SWEP"
+    },
+    {
+      "name": "Thermofin",
+      "slug": "thermofin",
+      "country": "Germania",
+      "description": "vaporizatoare, condensatoare, răcitoare pentru instalații frigorifice și climatizare",
+      "featured": false,
+      "officialUrl": "https://www.thermofin.de/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Thermowave",
+      "slug": "thermowave",
+      "country": "Germania",
+      "description": "producător lider de schimbătoare de căldură cu plăci",
+      "featured": false,
+      "officialUrl": "https://www.thermowave.de/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Tranter",
+      "slug": "tranter",
+      "country": "SUA",
+      "description": "schimbătoare de căldură cu plăci gasketate, sudate și cu bloc sudat",
+      "featured": false,
+      "officialUrl": "https://www.tranter.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Universal Hydraulik",
+      "slug": "universal-hydraulik",
+      "country": "Germania",
+      "description": "sisteme hidraulice, sisteme de răcire, schimbătoare de căldură / răcitoare ulei",
+      "featured": false,
+      "officialUrl": "https://www.universalhydraulik.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
+    },
+    {
+      "name": "Vahterus",
+      "slug": "vahterus",
+      "country": "Finlanda",
+      "description": "inventator și pionier al schimbătoarelor Plate & Shell",
+      "featured": false,
+      "officialUrl": "https://vahterus.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary"
     }
   ]
 };

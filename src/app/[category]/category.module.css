@@ -1002,3 +1002,9 @@ a.applicationTag:hover {
 .azLinkRich { color: #063c69; font-weight: 600; text-decoration: none; }
 .azLink:hover, .azLinkRich:hover { text-decoration: underline; }
 @media (max-width: 640px) { .azGroup { grid-template-columns: 36px 1fr; } .azTitle { font-size: 18px; } }
+
+/* v12: US manufacturers block under the A–Z list */
+.usBlock { margin-top: 32px; padding: 20px 22px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; scroll-margin-top: 90px; }
+.usTitle { font-size: 18px; font-weight: 700; color: #0f172a; margin: 0 0 8px; }
+.usBlock .sectionLead { margin-bottom: 14px; }
+.usBlock .sectionLead a { color: inherit; text-decoration: underline; }

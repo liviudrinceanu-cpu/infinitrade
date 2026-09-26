@@ -403,6 +403,7 @@ export const navigation = [
       { name: 'Întrebări Frecvente', href: '/faq', description: 'Răspunsuri la întrebări comune' },
       { name: 'Industrii Deservite', href: '/industrii', description: 'Soluții pe verticale industriale' },
       { name: 'Ghid Comparativ', href: '/ghid-comparativ', description: 'Comparații branduri și produse' },
+      { name: 'Branduri din SUA', href: '/branduri-sua', description: 'Producători americani, import la comandă' },
       { name: 'Certificări', href: '/certificari', description: 'Autorizări și parteneri' },
       { name: 'Echipa Noastră', href: '/echipa', description: 'Specialiștii din spatele soluțiilor' },
     ]
@@ -428,6 +429,7 @@ export const secondaryNavigation = [
       { name: 'Echipamente Termice', href: '/echipamente-termice', description: 'Chillere, cazane, arzătoare' },
       { name: 'Lubrifianți și Chimice', href: '/lubrifianti-chimice', description: 'Uleiuri, unsori, adezivi' },
       { name: 'Echipamente Auxiliare', href: '/echipamente-auxiliare', description: 'Protecție, curățenie, dozare' },
+      { name: 'Branduri din SUA', href: '/branduri-sua', description: 'Producători americani, pe categorii și industrii' },
     ]
   },
   { name: 'Despre Noi', href: '/despre-noi' },

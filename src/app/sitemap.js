@@ -127,6 +127,14 @@ export default function sitemap() {
     priority: 0.8,
   };
 
+  // /branduri-sua hub (v12) — every US manufacturer, by category and industry
+  const usBrandsPage = {
+    url: `${BASE_URL}/branduri-sua`,
+    lastModified: lastModified.brands,
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  };
+
   // Category pages
   const categoryPages = categories.map((category) => ({
     url: `${BASE_URL}/${category.slug}`,
@@ -207,6 +215,7 @@ export default function sitemap() {
     ...staticPages,
     ...categoryPages,
     brandIndexPage,
+    usBrandsPage,
     ...brandPages,
     ...seriesPages,
     ...industryPages,

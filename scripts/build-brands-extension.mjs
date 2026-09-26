@@ -63,6 +63,11 @@ for (const r of rows) {
     wave: '2026-09',
     signal: r.signalClass === 'market-signal-ro' ? 'ro' : 'intl',
     relation: r.relation || null,
+    // v12 (D-2026-09-26, US wave): industries the manufacturer serves and how
+    // hard it is to source in Europe — used by the /branduri-sua hub and the
+    // category pages' "Branduri din SUA" block. Absent for earlier waves.
+    ...(Array.isArray(r.industries) && r.industries.length ? { industries: r.industries } : {}),
+    ...(r.euAvailability ? { euAvailability: r.euAvailability } : {}),
   });
 }
 if (errors.length) {

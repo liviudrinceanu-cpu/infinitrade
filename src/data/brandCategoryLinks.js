@@ -14,7 +14,7 @@
  * blocks list them. BRAND_PRODUCT_TYPES maps a brand to the product-type
  * slugs (from its categories' productTypes) it actually makes.
  *
- * 196 secondary memberships across 14 categories; 791 brands with product types.
+ * 199 secondary memberships across 14 categories; 893 brands with product types.
  */
 export const SECONDARY_CATEGORIES = {
   "pompe-industriale": [
@@ -213,7 +213,8 @@ export const SECONDARY_CATEGORIES = {
     "pneumatech",
     "pneumax",
     "trico-corporation",
-    "waircom"
+    "waircom",
+    "westech"
   ],
   "scule-instrumente": [
     "fluke",
@@ -234,6 +235,8 @@ export const SECONDARY_CATEGORIES = {
     "jsp",
     "kern",
     "landia",
+    "nalco-water",
+    "paul-mueller",
     "portwest",
     "radwag",
     "savino-barbera",
@@ -276,6 +279,9 @@ export const BRAND_PRODUCT_TYPES = {
   "ac-motoren": [
     "motoare-asincrone-industriale",
     "motoare-atex-industriale"
+  ],
+  "adalet": [
+    "protectii-electrice"
   ],
   "addinol": [
     "uleiuri-transmisie",
@@ -357,6 +363,9 @@ export const BRAND_PRODUCT_TYPES = {
   "ampco-pumps": [
     "pompe-centrifugale-industriale"
   ],
+  "anderson-greenwood": [
+    "supape-siguranta-industriale"
+  ],
   "anderson-negele": [
     "analizoare",
     "traductoare-nivel"
@@ -370,6 +379,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "ansell": [
     "protectie-munca"
+  ],
+  "api-heat-transfer": [
+    "schimbatoare-placi-demontabile-industriale"
   ],
   "applied-analytics": [
     "analizoare"
@@ -392,6 +404,9 @@ export const BRAND_PRODUCT_TYPES = {
     "robineti-fluture-industriali",
     "supape-siguranta-industriale",
     "robineti-reglare-industriali"
+  ],
+  "ariel": [
+    "compresoare-industriale"
   ],
   "aris-stellantriebe": [
     "actuatoare-electrice"
@@ -428,8 +443,17 @@ export const BRAND_PRODUCT_TYPES = {
     "robineti-reglare-industriali",
     "clapete-retinere-industriale"
   ],
+  "atc-diversified": [
+    "relee-industriale"
+  ],
+  "ati": [
+    "actuatoare-electrice"
+  ],
   "atlas-copco": [
     "compresoare-industriale"
+  ],
+  "atmus": [
+    "filtre-ulei"
   ],
   "atos": [
     "distribuitoare-hidraulice",
@@ -557,8 +581,17 @@ export const BRAND_PRODUCT_TYPES = {
     "scule-pneumatice",
     "scule-electrice"
   ],
+  "bettis": [
+    "robineti-reglare-industriali"
+  ],
   "bezares": [
     "pompe-hidraulice"
+  ],
+  "bimba": [
+    "cilindri-pneumatici"
+  ],
+  "binks": [
+    "sisteme-dozare"
   ],
   "birkosit": [
     "garnituri-simering"
@@ -660,6 +693,9 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-hidraulice",
     "distribuitoare-hidraulice"
   ],
+  "bug-o-systems": [
+    "echipamente-sudura"
+  ],
   "buhler-technologies": [
     "analizoare"
   ],
@@ -696,6 +732,9 @@ export const BRAND_PRODUCT_TYPES = {
     "robineti-reglare-industriali",
     "grupuri-pompare-industriale"
   ],
+  "calgon-carbon": [
+    "elemente-filtrante"
+  ],
   "calpeda": [
     "pompe-centrifugale-industriale"
   ],
@@ -715,6 +754,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "carlo-gavazzi": [
     "relee-industriale"
+  ],
+  "carr-lane": [
+    "scule-mana"
   ],
   "carrier": [
     "chillere-industriale",
@@ -740,6 +782,9 @@ export const BRAND_PRODUCT_TYPES = {
   "cebora": [
     "echipamente-sudura"
   ],
+  "ceco-environmental": [
+    "separatoare"
+  ],
   "cejn": [
     "furtunuri-racorduri"
   ],
@@ -758,6 +803,15 @@ export const BRAND_PRODUCT_TYPES = {
   "cepex": [
     "robineti-bila-industriali",
     "robineti-fluture-industriali"
+  ],
+  "championx": [
+    "pompe-dozatoare-industriale"
+  ],
+  "channellock": [
+    "scule-mana"
+  ],
+  "chart-industries": [
+    "schimbatoare-tubulare-industriale"
   ],
   "chauvin-arnoux": [
     "echipamente-testare"
@@ -802,6 +856,10 @@ export const BRAND_PRODUCT_TYPES = {
   "circle-seal-controls": [
     "robineti-reglare-industriali",
     "clapete-retinere-industriale",
+    "supape-siguranta-industriale"
+  ],
+  "circor": [
+    "robineti-reglare-industriali",
     "supape-siguranta-industriale"
   ],
   "circutor": [
@@ -851,6 +909,13 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-hidraulice",
     "distribuitoare-hidraulice"
   ],
+  "conval": [
+    "robineti-bila-industriali",
+    "robineti-reglare-industriali"
+  ],
+  "cook-compression": [
+    "clapete-retinere-industriale"
+  ],
   "corken": [
     "compresoare-industriale"
   ],
@@ -864,12 +929,19 @@ export const BRAND_PRODUCT_TYPES = {
   "crane": [
     "robineti-fluture-industriali"
   ],
+  "crc-industries": [
+    "spray-tehnice"
+  ],
   "cri-pumps": [
     "pompe-submersibile-industriale",
     "grupuri-pompare-industriale"
   ],
   "crosby": [
     "supape-siguranta-industriale"
+  ],
+  "cross-manufacturing": [
+    "cilindri-hidraulici",
+    "distribuitoare-hidraulice"
   ],
   "crouzet": [
     "servomotoare-industriale"
@@ -879,6 +951,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "csf-inox": [
     "pompe-centrifugale-industriale"
+  ],
+  "curtiss-wright": [
+    "cilindri-hidraulici"
   ],
   "dab": [
     "pompe-submersibile-industriale",
@@ -909,6 +984,9 @@ export const BRAND_PRODUCT_TYPES = {
   "delta-plus": [
     "protectie-munca"
   ],
+  "deltrol-controls": [
+    "relee-industriale"
+  ],
   "deublin": [
     "furtunuri-racorduri"
   ],
@@ -925,6 +1003,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "dixon-valve": [
     "furtunuri-racorduri"
+  ],
+  "dodge-industrial": [
+    "rulmenti-industriali"
   ],
   "doepke": [
     "protectii-electrice"
@@ -1057,6 +1138,9 @@ export const BRAND_PRODUCT_TYPES = {
   "emmegi": [
     "racitoare-ulei-industriale"
   ],
+  "enardo": [
+    "supape-siguranta-industriale"
+  ],
   "end": [
     "robineti-bila-industriali",
     "robineti-fluture-industriali",
@@ -1068,8 +1152,15 @@ export const BRAND_PRODUCT_TYPES = {
     "senzori-presiune",
     "analizoare"
   ],
+  "enerpac": [
+    "cilindri-hidraulici"
+  ],
   "enotec": [
     "analizoare"
+  ],
+  "entegris": [
+    "filtre-aer",
+    "elemente-filtrante"
   ],
   "erhard": [
     "robineti-fluture-industriali",
@@ -1106,11 +1197,17 @@ export const BRAND_PRODUCT_TYPES = {
   "ewm": [
     "echipamente-sudura"
   ],
+  "exair": [
+    "furtunuri-racorduri"
+  ],
   "exlar": [
     "actuatoare-electrice"
   ],
   "exor-international": [
     "hmi-panouri"
+  ],
+  "fabco-air": [
+    "cilindri-pneumatici"
   ],
   "facom": [
     "scule-mana"
@@ -1207,6 +1304,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "flux": [
     "pompe-surub-excentric-industriale"
+  ],
+  "fmi": [
+    "pompe-dozatoare-industriale"
   ],
   "forbes-marshall": [
     "oale-condens-industriale"
@@ -1333,6 +1433,9 @@ export const BRAND_PRODUCT_TYPES = {
   "gimatic": [
     "cilindri-pneumatici"
   ],
+  "gleason": [
+    "echipamente-testare"
+  ],
   "gmn": [
     "rulmenti-industriali",
     "cuplaje-mecanice",
@@ -1347,6 +1450,16 @@ export const BRAND_PRODUCT_TYPES = {
   "gorman-rupp": [
     "pompe-centrifugale-industriale",
     "grupuri-pompare-industriale"
+  ],
+  "gp-50": [
+    "senzori-presiune"
+  ],
+  "graham": [
+    "schimbatoare-tubulare-industriale",
+    "condensatoare-industriale"
+  ],
+  "greenlee": [
+    "scule-electrice"
   ],
   "griswold-pump": [
     "pompe-centrifugale-industriale"
@@ -1435,6 +1548,10 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-centrifugale-industriale",
     "pompe-submersibile-industriale"
   ],
+  "hilliard": [
+    "filtre-ulei",
+    "elemente-filtrante"
+  ],
   "hilti": [
     "scule-electrice"
   ],
@@ -1448,6 +1565,12 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "hioki": [
     "echipamente-testare"
+  ],
+  "hip": [
+    "robineti-bila-industriali"
+  ],
+  "hobart": [
+    "echipamente-sudura"
   ],
   "hoke": [
     "robineti-bila-industriali"
@@ -1490,11 +1613,18 @@ export const BRAND_PRODUCT_TYPES = {
   "ht-italia": [
     "echipamente-testare"
   ],
+  "hubbell": [
+    "tablouri-electrice",
+    "protectii-electrice"
+  ],
   "huhnseal": [
     "garnituri-simering"
   ],
   "humphrey-products": [
     "valve-pneumatice"
+  ],
+  "hurco": [
+    "echipamente-testare"
   ],
   "hutchinson": [
     "cuplaje-mecanice",
@@ -1512,6 +1642,9 @@ export const BRAND_PRODUCT_TYPES = {
   "hydac-filtration": [
     "filtre-hidraulice",
     "separatoare"
+  ],
+  "hydraforce": [
+    "distribuitoare-hidraulice"
   ],
   "hydro-leduc": [
     "pompe-hidraulice"
@@ -1588,6 +1721,9 @@ export const BRAND_PRODUCT_TYPES = {
   "insize": [
     "masura-dimensionala"
   ],
+  "instron": [
+    "echipamente-testare"
+  ],
   "intensiv-filter": [
     "elemente-filtrante"
   ],
@@ -1606,6 +1742,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "invt": [
     "convertizoare-frecventa-industriale"
+  ],
+  "ips-corporation": [
+    "adezivi-industriali"
   ],
   "irwin-tools": [
     "scule-mana"
@@ -1640,6 +1779,9 @@ export const BRAND_PRODUCT_TYPES = {
   "jean-muller": [
     "protectii-electrice"
   ],
+  "jergens": [
+    "scule-mana"
+  ],
   "john-crane": [
     "garnituri-simering",
     "cuplaje-mecanice"
@@ -1647,11 +1789,18 @@ export const BRAND_PRODUCT_TYPES = {
   "john-guest": [
     "furtunuri-racorduri"
   ],
+  "john-zink": [
+    "arzatoare"
+  ],
   "johnson-pump": [
     "pompe-centrifugale-industriale"
   ],
   "jokari": [
     "scule-mana"
+  ],
+  "jomar-valve": [
+    "robineti-bila-industriali",
+    "robineti-fluture-industriali"
   ],
   "jsp": [
     "protectie-munca"
@@ -1679,6 +1828,9 @@ export const BRAND_PRODUCT_TYPES = {
   "katronic": [
     "debitimetre"
   ],
+  "kavlico": [
+    "senzori-presiune"
+  ],
   "kawasaki-precision-machinery": [
     "pompe-hidraulice"
   ],
@@ -1703,6 +1855,9 @@ export const BRAND_PRODUCT_TYPES = {
   "kendrion": [
     "cuplaje-mecanice",
     "actuatoare-electrice"
+  ],
+  "kennametal": [
+    "scule-electrice"
   ],
   "kern": [
     "echipamente-laborator"
@@ -1762,6 +1917,9 @@ export const BRAND_PRODUCT_TYPES = {
     "compresoare-industriale",
     "actuatoare-electrice"
   ],
+  "koike": [
+    "echipamente-sudura"
+  ],
   "koso": [
     "robineti-reglare-industriali",
     "robineti-bila-industriali",
@@ -1790,6 +1948,9 @@ export const BRAND_PRODUCT_TYPES = {
   "lafert": [
     "servomotoare-industriale",
     "convertizoare-frecventa-industriale"
+  ],
+  "lamons": [
+    "garnituri-simering"
   ],
   "landia": [
     "pompe-submersibile-industriale",
@@ -1865,6 +2026,9 @@ export const BRAND_PRODUCT_TYPES = {
     "convertizoare-frecventa",
     "cabluri-industriale"
   ],
+  "lubriplate": [
+    "unsori-industriale"
+  ],
   "lutz": [
     "motoare-atex-industriale",
     "motoreductoare-industriale"
@@ -1872,9 +2036,15 @@ export const BRAND_PRODUCT_TYPES = {
   "mac-valves": [
     "valve-pneumatice"
   ],
+  "macromatic": [
+    "relee-industriale"
+  ],
   "madas": [
     "supape-siguranta-industriale",
     "robineti-reglare-industriali"
+  ],
+  "magnaloy": [
+    "cuplaje-mecanice"
   ],
   "magnatex-pumps": [
     "pompe-centrifugale-industriale"
@@ -1903,6 +2073,15 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "marelli": [
     "motoare-asincrone-industriale"
+  ],
+  "marsh-bellofram": [
+    "manometre"
+  ],
+  "martin-engineering": [
+    "benzi-transportoare"
+  ],
+  "masoneilan": [
+    "robineti-reglare-industriali"
   ],
   "matra": [
     "grupuri-pompare-industriale",
@@ -1936,6 +2115,10 @@ export const BRAND_PRODUCT_TYPES = {
     "convertizoare-frecventa-industriale",
     "echipamente-sudura"
   ],
+  "meissner": [
+    "filtre-hidraulice",
+    "elemente-filtrante"
+  ],
   "menzel-elektromotoren": [
     "motoare-asincrone-industriale",
     "motoare-atex-industriale"
@@ -1963,6 +2146,9 @@ export const BRAND_PRODUCT_TYPES = {
   "mgm": [
     "motoare-asincrone-industriale"
   ],
+  "micro-motion": [
+    "debitimetre"
+  ],
   "micropump": [
     "pompe-centrifugale-industriale"
   ],
@@ -1971,6 +2157,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "miki-pulley": [
     "cuplaje-mecanice"
+  ],
+  "milton-roy": [
+    "pompe-dozatoare-industriale"
   ],
   "milwaukee-tool": [
     "scule-electrice"
@@ -1996,10 +2185,17 @@ export const BRAND_PRODUCT_TYPES = {
     "oale-condens-industriale",
     "robineti-reglare-industriali"
   ],
+  "mks-instruments": [
+    "senzori-presiune",
+    "debitimetre"
+  ],
   "mobil-industrial": [
     "uleiuri-hidraulice",
     "unsori-industriale",
     "uleiuri-transmisie"
+  ],
+  "modine": [
+    "racitoare-ulei-industriale"
   ],
   "molydal": [
     "unsori-industriale",
@@ -2019,6 +2215,9 @@ export const BRAND_PRODUCT_TYPES = {
     "distribuitoare-hidraulice",
     "pompe-hidraulice"
   ],
+  "moore-industries": [
+    "traductoare-nivel"
+  ],
   "mouvex": [
     "compresoare-industriale"
   ],
@@ -2033,6 +2232,9 @@ export const BRAND_PRODUCT_TYPES = {
     "protectie-munca",
     "analizoare"
   ],
+  "mts": [
+    "echipamente-testare"
+  ],
   "munsch-chemie-pumpen": [
     "pompe-centrifugale-industriale"
   ],
@@ -2041,6 +2243,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "nachi": [
     "rulmenti-industriali"
+  ],
+  "nalco-water": [
+    "sisteme-dozare"
   ],
   "nanotec": [
     "servomotoare-industriale"
@@ -2069,6 +2274,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "nexans": [
     "cabluri-industriale"
+  ],
+  "ni": [
+    "analizoare"
   ],
   "nibco": [
     "clapete-retinere-industriale"
@@ -2109,6 +2317,9 @@ export const BRAND_PRODUCT_TYPES = {
   "nord": [
     "motoreductoare-industriale",
     "convertizoare-frecventa-industriale"
+  ],
+  "nordson": [
+    "sisteme-dozare"
   ],
   "norgren": [
     "cilindri-pneumatici",
@@ -2171,6 +2382,9 @@ export const BRAND_PRODUCT_TYPES = {
     "module-io",
     "plc-controllere"
   ],
+  "opw": [
+    "rezervoare-industriale"
+  ],
   "oriental-motor": [
     "servomotoare-industriale"
   ],
@@ -2195,8 +2409,16 @@ export const BRAND_PRODUCT_TYPES = {
     "elemente-filtrante",
     "separatoare"
   ],
+  "palmer-wahl": [
+    "senzori-temperatura",
+    "manometre"
+  ],
   "panasonic-motor-drive": [
     "servomotoare-industriale"
+  ],
+  "panduit": [
+    "cabluri-industriale",
+    "tablouri-electrice"
   ],
   "parker-filtration": [
     "filtre-hidraulice",
@@ -2211,6 +2433,9 @@ export const BRAND_PRODUCT_TYPES = {
     "furtunuri-racorduri",
     "filtre-hidraulice",
     "filtre-aer"
+  ],
+  "paul-mueller": [
+    "rezervoare-industriale"
   ],
   "pcb-piezotronics": [
     "senzori-presiune"
@@ -2262,6 +2487,10 @@ export const BRAND_PRODUCT_TYPES = {
     "relee-industriale",
     "plc-controllere"
   ],
+  "plast-o-matic": [
+    "robineti-bila-industriali",
+    "clapete-retinere-industriale"
+  ],
   "pneumatech": [
     "uscatoare-aer",
     "filtre-aer"
@@ -2289,8 +2518,15 @@ export const BRAND_PRODUCT_TYPES = {
     "robineti-fluture-industriali",
     "clapete-retinere-industriale"
   ],
+  "precision-associates": [
+    "garnituri-simering"
+  ],
   "precision-polymer-engineering": [
     "garnituri-simering"
+  ],
+  "prince": [
+    "cilindri-hidraulici",
+    "distribuitoare-hidraulice"
   ],
   "proco-products": [
     "clapete-retinere-industriale"
@@ -2302,12 +2538,18 @@ export const BRAND_PRODUCT_TYPES = {
     "sisteme-dozare",
     "analizoare"
   ],
+  "prosoft-technology": [
+    "module-io"
+  ],
   "prysmian-group": [
     "cabluri-industriale"
   ],
   "pulsafeeder": [
     "pompe-dozatoare-industriale",
     "pompe-centrifugale-industriale"
+  ],
+  "quincy-compressor": [
+    "compresoare-industriale"
   ],
   "r-w-antriebselemente": [
     "cuplaje-mecanice"
@@ -2366,6 +2608,10 @@ export const BRAND_PRODUCT_TYPES = {
     "lanturi-industriale",
     "cuplaje-mecanice"
   ],
+  "reotemp": [
+    "senzori-temperatura",
+    "manometre"
+  ],
   "rexnord": [
     "rulmenti-industriali",
     "cuplaje-mecanice",
@@ -2379,6 +2625,9 @@ export const BRAND_PRODUCT_TYPES = {
   "rickmeier": [
     "pompe-hidraulice",
     "distribuitoare-hidraulice"
+  ],
+  "ridgid": [
+    "scule-mana"
   ],
   "riello": [
     "arzatoare",
@@ -2424,6 +2673,9 @@ export const BRAND_PRODUCT_TYPES = {
   "rollon": [
     "actuatoare-electrice"
   ],
+  "rosemount": [
+    "senzori-presiune"
+  ],
   "ross-controls": [
     "valve-pneumatice"
   ],
@@ -2449,6 +2701,9 @@ export const BRAND_PRODUCT_TYPES = {
   "rovatti": [
     "pompe-centrifugale-industriale",
     "pompe-submersibile-industriale"
+  ],
+  "royal-purple": [
+    "uleiuri-transmisie"
   ],
   "rud-ketten": [
     "lanturi-industriale"
@@ -2522,6 +2777,10 @@ export const BRAND_PRODUCT_TYPES = {
     "intrerupatoare-automate",
     "protectii-electrice"
   ],
+  "schroeder-industries": [
+    "filtre-hidraulice",
+    "elemente-filtrante"
+  ],
   "schubert-salzer": [
     "robineti-reglare-industriali"
   ],
@@ -2530,6 +2789,12 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "scigrip": [
     "adezivi-industriali"
+  ],
+  "scully": [
+    "traductoare-nivel"
+  ],
+  "seals-eastern": [
+    "garnituri-simering"
   ],
   "seepex": [
     "pompe-surub-excentric-industriale"
@@ -2541,6 +2806,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "seko": [
     "pompe-dozatoare-industriale"
+  ],
+  "sel": [
+    "relee-industriale"
   ],
   "semperit": [
     "benzi-transportoare",
@@ -2560,6 +2828,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "servomech": [
     "actuatoare-electrice"
+  ],
+  "setra-systems": [
+    "senzori-presiune"
   ],
   "sew": [
     "motoreductoare-industriale",
@@ -2619,6 +2890,9 @@ export const BRAND_PRODUCT_TYPES = {
     "cilindri-pneumatici",
     "valve-pneumatice"
   ],
+  "smith-loveless": [
+    "grupuri-pompare-industriale"
+  ],
   "snap-on": [
     "scule-mana"
   ],
@@ -2642,6 +2916,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "soudal": [
     "adezivi-industriali"
+  ],
+  "spears": [
+    "robineti-bila-industriali"
   ],
   "spectrex": [
     "analizoare"
@@ -2716,6 +2993,9 @@ export const BRAND_PRODUCT_TYPES = {
   "summit-pump": [
     "pompe-centrifugale-industriale"
   ],
+  "sun-hydraulics": [
+    "distribuitoare-hidraulice"
+  ],
   "sundyne": [
     "pompe-centrifugale-industriale"
   ],
@@ -2736,6 +3016,9 @@ export const BRAND_PRODUCT_TYPES = {
   "tapflo": [
     "pompe-centrifugale-industriale"
   ],
+  "td-williamson": [
+    "clapete-retinere-industriale"
+  ],
   "te-connectivity": [
     "contactoare-relee",
     "senzori-presiune"
@@ -2747,11 +3030,17 @@ export const BRAND_PRODUCT_TYPES = {
     "motoare-monofazate-industriale",
     "motoare-asincrone-industriale"
   ],
+  "tel-tru": [
+    "senzori-temperatura"
+  ],
   "teledyne-gas-and-flame-detection": [
     "analizoare"
   ],
   "telwin": [
     "echipamente-sudura"
+  ],
+  "tempco": [
+    "arzatoare"
   ],
   "termostroj": [
     "cazane-industriale"
@@ -2763,6 +3052,12 @@ export const BRAND_PRODUCT_TYPES = {
     "analizoare",
     "senzori-temperatura",
     "manometre"
+  ],
+  "thermon": [
+    "arzatoare"
+  ],
+  "thermwood": [
+    "echipamente-testare"
   ],
   "thomson-industries": [
     "actuatoare-electrice"
@@ -2806,6 +3101,9 @@ export const BRAND_PRODUCT_TYPES = {
   "trelleborg": [
     "garnituri-simering"
   ],
+  "trerice": [
+    "manometre"
+  ],
   "trico-corporation": [
     "filtre-ulei"
   ],
@@ -2837,6 +3135,11 @@ export const BRAND_PRODUCT_TYPES = {
   "ufi-filters": [
     "filtre-ulei",
     "filtre-hidraulice"
+  ],
+  "united-electric-controls": [
+    "senzori-presiune",
+    "senzori-temperatura",
+    "analizoare"
   ],
   "unitronics": [
     "plc-controllere",
@@ -2895,6 +3198,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "varvel": [
     "motoreductoare-industriale"
+  ],
+  "vaughan": [
+    "pompe-submersibile-industriale"
   ],
   "vega": [
     "traductoare-nivel",
@@ -3019,8 +3325,22 @@ export const BRAND_PRODUCT_TYPES = {
   "weishaupt": [
     "arzatoare"
   ],
+  "weiss": [
+    "senzori-temperatura",
+    "manometre"
+  ],
+  "weldbend": [
+    "clapete-retinere-industriale"
+  ],
   "wera": [
     "scule-mana"
+  ],
+  "westech": [
+    "separatoare"
+  ],
+  "whitmore": [
+    "unsori-industriale",
+    "uleiuri-transmisie"
   ],
   "wieland-electric": [
     "relee-industriale"
@@ -3045,6 +3365,9 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-centrifugale-industriale",
     "grupuri-pompare-industriale"
   ],
+  "winsmith": [
+    "cuplaje-mecanice"
+  ],
   "winters-instruments": [
     "manometre"
   ],
@@ -3060,6 +3383,9 @@ export const BRAND_PRODUCT_TYPES = {
   "wpil": [
     "pompe-centrifugale-industriale",
     "pompe-submersibile-industriale"
+  ],
+  "wright-tool": [
+    "scule-mana"
   ],
   "wurth-chimice": [
     "spray-tehnice",
@@ -3087,6 +3413,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "zapi-group": [
     "module-io"
+  ],
+  "zeeco": [
+    "arzatoare"
   ],
   "zehnder-pumpen": [
     "pompe-submersibile-industriale"
