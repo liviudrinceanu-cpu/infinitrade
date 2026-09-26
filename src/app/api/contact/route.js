@@ -167,7 +167,8 @@ const contactSchema = z.object({
   email: z.string().email('Email invalid'),
   phone: z.string().max(20, 'Număr de telefon prea lung').optional(),
   company: z.string().max(200, 'Numele companiei este prea lung').optional(),
-  category: z.string().max(100).optional(),
+  category: z.string().max(500).optional(),
+  categorySlugs: z.array(z.string().max(60)).max(20).optional(), // v11: slugs of the checked categories
   message: z.string().min(10, 'Mesajul trebuie să aibă minim 10 caractere').max(5000, 'Mesajul este prea lung'),
   cartItems: z.array(z.object({
     type: z.string(),
@@ -581,7 +582,11 @@ function generateBasicAnalysis(formData) {
       'schimbatoare-caldura': { min: 1000, max: 15000 },
       'suflante-ventilatoare': { min: 1000, max: 12000 },
     };
-    const catPrices = categoryPrices[formData.category] || { min: 500, max: 5000 };
+    // v11: the form sends the checked categories as slugs (categorySlugs) and
+    // as a readable label (category); the first slug with a known range wins.
+    const slugs = Array.isArray(formData.categorySlugs) ? formData.categorySlugs : [formData.category];
+    const catKey = slugs.find((s) => categoryPrices[s]);
+    const catPrices = categoryPrices[catKey] || { min: 500, max: 5000 };
     totalMin = catPrices.min;
     totalMax = catPrices.max;
     products.push({ name: 'Produse din categoria selectată', min: catPrices.min, max: catPrices.max });

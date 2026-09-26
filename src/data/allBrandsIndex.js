@@ -10,15 +10,42 @@ import { NOINDEX_BRANDS } from './noindexBrands';
 // a dynamic `await import('./brandContent')` inside getBrandStats() instead.
 import { getBrandsWithContent } from './brandContent';
 import { BRANDS_EXTENSION, EXTENSION_BY_SLUG } from './brandsExtension';
+import { SECONDARY_CATEGORIES } from './brandCategoryLinks';
+import { getBrandDemand } from './brandDemand';
 
 // All 15 categories unified
 // Branduri-500 (D-2026-09-21): the generated extension (src/data/brandsExtension.js)
 // is appended per category here, so every consumer of allCategoriesUnified
 // (brand index, category pages, header, sitemap) sees one merged list.
-export const allCategoriesUnified = [...categories, ...equipmentCategories].map((category) => ({
+const primaryCategories = [...categories, ...equipmentCategories].map((category) => ({
   ...category,
   brands: [...category.brands, ...(BRANDS_EXTENSION[category.slug] || [])],
 }));
+
+// Branduri-500 v11 (D-2026-09-26): secondary category membership. A brand
+// keeps its single URL and its primary category (categories[0] on the brand
+// object, breadcrumbs, JSON-LD), but the categories it also manufactures for
+// (src/data/brandCategoryLinks.js, classified from the brand's own published
+// products) list it too — flagged `secondary: true`, slug = simple slug, so
+// category pages, the A–Z index, header dropdowns and related-brand blocks
+// see it. No new URL, no changed canonical.
+const primaryBrandBySlug = new Map();
+for (const category of primaryCategories) {
+  for (const brand of category.brands) {
+    const s = deriveSimpleSlug(brand.slug, category.slug);
+    if (!primaryBrandBySlug.has(s)) primaryBrandBySlug.set(s, { brand, categorySlug: category.slug });
+  }
+}
+export const allCategoriesUnified = primaryCategories.map((category) => {
+  const own = new Set(category.brands.map((b) => deriveSimpleSlug(b.slug, category.slug)));
+  const extra = (SECONDARY_CATEGORIES[category.slug] || [])
+    .filter((s) => primaryBrandBySlug.has(s) && !own.has(s))
+    .map((s) => {
+      const { brand, categorySlug } = primaryBrandBySlug.get(s);
+      return { ...brand, slug: s, featured: false, secondary: true, primaryCategory: categorySlug };
+    });
+  return extra.length ? { ...category, brands: [...category.brands, ...extra] } : category;
+});
 
 // Strip category prefix from old-style brand slugs to get simple slug
 // e.g. 'pompe-industriale-grundfos' -> 'grundfos'
@@ -70,8 +97,16 @@ export const DISPLAY_NAME_OVERRIDES = {
 function buildBrandIndex() {
   const brandMap = new Map(); // simpleSlug -> brand object
 
-  for (const category of allCategoriesUnified) {
+  // Two passes: primary memberships first, secondary ones (v11) after, so
+  // brand.categories[0] is always the primary category whatever the order of
+  // the categories themselves.
+  const passes = [
+    (b) => !b.secondary,
+    (b) => Boolean(b.secondary),
+  ];
+  for (const keep of passes) for (const category of allCategoriesUnified) {
     for (const brand of category.brands) {
+      if (!keep(brand)) continue;
       const simpleSlug = deriveSimpleSlug(brand.slug, category.slug);
 
       if (brandMap.has(simpleSlug)) {
@@ -91,6 +126,10 @@ function buildBrandIndex() {
         });
         // Keep featured if any category marks it featured
         if (brand.featured) existing.featured = true;
+      } else if (brand.secondary) {
+        // A secondary membership can only extend a brand that already exists
+        // (guarded in allCategoriesUnified above); never creates a brand.
+        continue;
       } else {
         // New brand entry
         brandMap.set(simpleSlug, {
@@ -152,7 +191,7 @@ export function getAllOriginalSlugs() {
   for (const category of allCategoriesUnified) {
     for (const brand of category.brands) {
       const simpleSlug = deriveSimpleSlug(brand.slug, category.slug);
-      if (brand.slug !== simpleSlug) {
+      if (!brand.secondary && brand.slug !== simpleSlug) {
         slugs.push({ original: brand.slug, simple: simpleSlug });
       }
     }
@@ -200,4 +239,23 @@ export function isBrandNoindex(simpleSlug, contentSlugs = null) {
     return !set.has(simpleSlug);
   }
   return false;
+}
+
+// v11 (D-2026-09-26): the brands a category surfaces first — in the header
+// dropdowns and anywhere a short list is needed. Same ordering rule as the
+// category page cards: featured, then brands with a sourced content page,
+// then Romanian search demand (ordering only, never a rendered figure),
+// then name. Secondary members are eligible like any other.
+export function getTopBrandsForCategory(categorySlug, limit = 10) {
+  const category = getCategoryBySlug(categorySlug);
+  if (!category) return [];
+  const contentSlugs = new Set(getBrandsWithContent());
+  return category.brands
+    .map((b) => {
+      const simpleSlug = deriveSimpleSlug(b.slug, category.slug);
+      return { simpleSlug, name: DISPLAY_NAME_OVERRIDES[simpleSlug] || b.name, featured: Boolean(b.featured), hasContent: contentSlugs.has(simpleSlug), demand: getBrandDemand(simpleSlug) };
+    })
+    .filter((b) => !isBrandNoindex(b.simpleSlug, contentSlugs))
+    .sort((a, b) => (Number(b.featured) - Number(a.featured)) || (Number(b.hasContent) - Number(a.hasContent)) || (b.demand - a.demand) || a.name.localeCompare(b.name, 'ro'))
+    .slice(0, limit);
 }

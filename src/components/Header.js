@@ -7,7 +7,7 @@ import Image from 'next/image';
 // Removed framer-motion - using CSS transitions for better performance (~30KB savings)
 import { Menu, X, ChevronDown, Phone, Mail, Clock, Search, ShoppingCart, Plus, Trash2 } from 'lucide-react';
 import { navigation, secondaryNavigation } from '@/data/products';
-import { allCategoriesUnified as categories, allBrandsUnified, getBrandByAnySlug } from '@/data/allBrandsIndex';
+import { allCategoriesUnified as categories, allBrandsUnified, getTopBrandsForCategory } from '@/data/allBrandsIndex';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { debounce } from '@/lib/utils';
 import styles from './Header.module.css';
@@ -51,6 +51,25 @@ const buildSearchIndex = () => {
 
 // Build once, reuse
 const searchIndex = buildSearchIndex();
+
+// v11 (D-2026-09-26): one dropdown per main category — its product types,
+// its 10 leading brands (same ordering rule as the category page) and a link
+// to the full A–Z list. Computed once at module load, never per render.
+const MAIN_CATEGORY_MENUS = Object.fromEntries(
+  navigation
+    .filter((item) => !item.isDropdown)
+    .map((item) => {
+      const category = categories.find((cat) => `/${cat.slug}` === item.href);
+      if (!category) return null;
+      return [item.href, {
+        category,
+        productTypes: (category.productTypes || []).slice(0, 6),
+        topBrands: getTopBrandsForCategory(category.slug, 10),
+        brandCount: (category.brands || []).length,
+      }];
+    })
+    .filter(Boolean)
+);
 
 export default function Header() {
   const router = useRouter();
@@ -252,42 +271,55 @@ export default function Header() {
                       </div>
                     )}
 
-                    {/* Dropdown for categories */}
-                    {isCategory && (
-                      <div
-                        className={`${styles.dropdown} ${activeDropdown === item.name ? styles.dropdownVisible : ''}`}
-                        onMouseEnter={() => setActiveDropdown(item.name)}
-                        onMouseLeave={() => setActiveDropdown(null)}
-                      >
-                        {categories
-                          .filter(cat => `/${cat.slug}` === item.href)
-                          .map(category => (
-                            <div key={category.id} className={styles.dropdownContent}>
-                              <div className={styles.dropdownMain}>
-                                <h4>{category.name}</h4>
-                                <p>{category.tagline}</p>
-                                <Link href={`/${category.slug}`} className={styles.dropdownCta}>
-                                  Vezi toate produsele →
-                                </Link>
-                              </div>
-                              <div className={styles.dropdownBrands}>
-                                <span className={styles.dropdownLabel}>Branduri populare:</span>
-                                <div className={styles.brandTags}>
-                                  {category.brands.filter(b => b.featured).slice(0, 4).map(brand => (
-                                    <Link
-                                      key={brand.slug}
-                                      href={`/brand/${getBrandByAnySlug(brand.slug)?.simpleSlug || brand.slug}`}
-                                      className={styles.brandTag}
-                                    >
-                                      {brand.name}
+                    {/* Dropdown for categories (v11): product types + top brands + all brands */}
+                    {isCategory && MAIN_CATEGORY_MENUS[item.href] && (() => {
+                      const menu = MAIN_CATEGORY_MENUS[item.href];
+                      const { category } = menu;
+                      return (
+                        <div
+                          className={`${styles.dropdown} ${styles.dropdownWide} ${activeDropdown === item.name ? styles.dropdownVisible : ''}`}
+                          onMouseEnter={() => setActiveDropdown(item.name)}
+                          onMouseLeave={() => setActiveDropdown(null)}
+                        >
+                          <div className={styles.dropdownColumns}>
+                            <div className={styles.dropdownMain}>
+                              <h4>{category.name}</h4>
+                              <p>{category.tagline}</p>
+                              <span className={styles.dropdownLabel}>Tipuri de produse</span>
+                              <ul className={styles.dropdownList}>
+                                {menu.productTypes.map((pt) => (
+                                  <li key={pt.slug}>
+                                    <Link href={`/${category.slug}#${pt.slug}`} className={styles.dropdownListLink}>
+                                      {pt.name}
                                     </Link>
-                                  ))}
-                                </div>
-                              </div>
+                                  </li>
+                                ))}
+                              </ul>
+                              <Link href={`/${category.slug}`} className={styles.dropdownCta}>
+                                Vezi toate produsele →
+                              </Link>
                             </div>
-                          ))}
-                      </div>
-                    )}
+                            <div className={styles.dropdownBrandsCol}>
+                              <span className={styles.dropdownLabel}>Branduri de top</span>
+                              <div className={styles.brandTags}>
+                                {menu.topBrands.map((brand) => (
+                                  <Link
+                                    key={brand.simpleSlug}
+                                    href={`/brand/${brand.simpleSlug}`}
+                                    className={styles.brandTag}
+                                  >
+                                    {brand.name}
+                                  </Link>
+                                ))}
+                              </div>
+                              <Link href={`/${category.slug}#branduri`} className={styles.dropdownAllBrands}>
+                                {`Toate cele ${menu.brandCount}${menu.brandCount >= 20 ? ' de' : ''} branduri →`}
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })()}
                   </div>
                 );
               })}
@@ -543,6 +575,37 @@ export default function Header() {
                     {child.name}
                   </Link>
                 ))}
+              </div>
+            ) : MAIN_CATEGORY_MENUS[item.href] ? (
+              /* v11: main category + its product types + top brands on mobile too */
+              <div key={item.name} className={styles.mobileDropdownGroup}>
+                <Link
+                  href={item.href}
+                  className={styles.mobileNavLink}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  tabIndex={isMobileMenuOpen ? 0 : -1}
+                >
+                  {item.name}
+                </Link>
+                {MAIN_CATEGORY_MENUS[item.href].productTypes.map((pt) => (
+                  <Link
+                    key={pt.slug}
+                    href={`${item.href}#${pt.slug}`}
+                    className={styles.mobileSubLink}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    tabIndex={isMobileMenuOpen ? 0 : -1}
+                  >
+                    {pt.name}
+                  </Link>
+                ))}
+                <Link
+                  href={`${item.href}#branduri`}
+                  className={styles.mobileSubLink}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  tabIndex={isMobileMenuOpen ? 0 : -1}
+                >
+                  {`Toate cele ${MAIN_CATEGORY_MENUS[item.href].brandCount}${MAIN_CATEGORY_MENUS[item.href].brandCount >= 20 ? ' de' : ''} branduri`}
+                </Link>
               </div>
             ) : (
               <Link
