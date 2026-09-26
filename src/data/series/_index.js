@@ -19,8 +19,9 @@ import { series as lowara } from './lowara';
 import { series as mankenberg } from './mankenberg';
 import { series as victaulic } from './victaulic';
 import { series as walvoil } from './walvoil';
+import { series as hiwin } from './hiwin';
 
-export const seriesIndex = [...sew, ...ariArmaturen, ...wika, ...euchner, ...leser, ...linak, ...becker, ...ktr, ...burster, ...atos, ...deublin, ...gestra, ...keller, ...kern, ...lowara, ...mankenberg, ...victaulic, ...walvoil];
+export const seriesIndex = [...sew, ...ariArmaturen, ...wika, ...euchner, ...leser, ...linak, ...becker, ...ktr, ...burster, ...atos, ...deublin, ...gestra, ...keller, ...kern, ...lowara, ...mankenberg, ...victaulic, ...walvoil, ...hiwin];
 
 export function getSeries(brandSlug, seriesSlug) {
   return seriesIndex.find((s) => s.brand === brandSlug && s.slug === seriesSlug) || null;
