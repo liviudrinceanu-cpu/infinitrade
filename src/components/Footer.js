@@ -1,4 +1,4 @@
-'use client';
+// v19: no state or handlers — a Server Component where the parent is one.
 
 import Link from 'next/link';
 import { Mail, MapPin, Clock, ArrowUpRight } from 'lucide-react';
@@ -110,6 +110,11 @@ export default function Footer() {
               <li>
                 <Link href="/studii-de-caz" className={styles.columnLink}>
                   Ghiduri de aplicație
+                </Link>
+              </li>
+              <li>
+                <Link href="/testimoniale" className={styles.columnLink}>
+                  Referințe clienți
                 </Link>
               </li>
               <li>

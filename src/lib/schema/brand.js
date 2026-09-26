@@ -59,29 +59,7 @@ export function buildBrandJsonLd(brand, config, brandContent) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      {
-        '@type': 'Organization',
-        '@id': `${config.site.url}/#organization`,
-        name: 'Infinitrade Romania',
-        url: config.site.url,
-        logo: `${config.site.url}/logo-header.png`,
-        description: 'Furnizor de echipamente industriale în România',
-        address: {
-          '@type': 'PostalAddress',
-          streetAddress: 'Calea Lugojului nr.47/B, Hala nr. 3',
-          addressLocality: 'Ghiroda',
-          addressRegion: 'Timis',
-          postalCode: '307200',
-          addressCountry: 'RO',
-        },
-        contactPoint: {
-          '@type': 'ContactPoint',
-          telephone: '+40 371 232 404',
-          contactType: 'sales',
-          areaServed: 'RO',
-          availableLanguage: ['Romanian', 'English'],
-        },
-      },
+      { '@type': 'Organization', '@id': `${config.site.url}/#organization` },
       {
         '@type': 'WebPage',
         '@id': `${config.site.url}/brand/${brand.simpleSlug}#webpage`,

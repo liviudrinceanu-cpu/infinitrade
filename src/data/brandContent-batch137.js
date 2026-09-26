@@ -343,7 +343,7 @@ Pentru un operator din România, cărbunele activ Calgon Carbon are sens la filt
       "Tratarea aerului industrial — îndepărtarea mercurului și a compușilor organici volatili"
     ],
     infinitrade: `Despre gama Calgon Carbon, informațiile pe care le folosim vin din surse publice ale producătorului, fără date proprii de stoc pentru cărbunele activ sau echipamentele asociate. Aducem la comandă cărbune activ granular FILTRASORB® sau CENTAUR® și sisteme de schimb ionic ISEP®, cu termen orientativ de 2–4 săptămâni la comandă, în funcție de confirmarea producătorului. Pentru o ofertă corectă avem nevoie de debitul de apă sau aer de tratat, parametrii de calitate ceruți și tipul de contaminant vizat. Nu promitem disponibilitate din depozit pentru niciun tip de cărbune activ din această gamă.`,
-    limitation: "Nu putem confirma programul exact de reactivare a cărbunelui uzat disponibil pentru un client din România.",
+    limitation: "Nu putem confirma programul exact de reactivare a cărbunelui uzat disponibil pentru o companie din România.",
     productCodes: [
       { code: "FILTRASORB®", description: "cărbune activ granular pentru tratarea apei municipale și industriale" },
       { code: "CENTAUR®", description: "cărbune activ catalitic pentru tratare combinată apă și aer" },

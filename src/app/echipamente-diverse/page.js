@@ -12,7 +12,7 @@ import { config } from '@/lib/config';
 import styles from './echipamente.module.css';
 
 export const metadata = {
-  title: 'Echipamente Industriale Diverse | Catalog 2026',
+  title: 'Echipamente Industriale Diverse',
   description: 'Catalog complet echipamente industriale: automatizări, senzori, hidraulice, electrice, mecanice, filtre, scule, termice, lubrifianți. Furnizor SEAP.',
   keywords: [
     'echipamente industriale Romania',
@@ -44,8 +44,8 @@ export default function EchipamenteDiversePage() {
           <div className={styles.container}>
             <h1 className={styles.heroTitle}>Echipamente Industriale</h1>
             <p className={styles.heroDescription}>
-              Catalog complet de echipamente industriale: automatizari, senzori, componente hidraulice si pneumatice,
-              echipamente electrice, mecanice, filtre si multe altele. {equipmentBrandsTotal} branduri internationale.
+              Catalog complet de echipamente industriale: automatizări, senzori, componente hidraulice și pneumatice,
+              echipamente electrice, mecanice, filtre și multe altele. {equipmentBrandsTotal} branduri internaționale.
             </p>
           </div>
         </section>

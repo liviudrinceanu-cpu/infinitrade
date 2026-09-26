@@ -36,29 +36,7 @@ const aboutPageSchema = {
   isPartOf: {
     '@id': `${config.site.url}/#website`
   },
-  mainEntity: {
-    '@type': 'Organization',
-    '@id': `${config.site.url}/#organization`,
-    name: 'Infinitrade Romania',
-    legalName: 'Driatheli Group SRL',
-    foundingDate: '2009',
-    numberOfEmployees: {
-      '@type': 'QuantitativeValue',
-      minValue: 10,
-      maxValue: 50
-    },
-    areaServed: {
-      '@type': 'Country',
-      name: 'Romania'
-    },
-    knowsAbout: [
-      'Pompe industriale',
-      'Robineți industriali',
-      'Motoare electrice',
-      'Schimbătoare de căldură',
-      'Suflante industriale'
-    ]
-  }
+  mainEntity: { '@type': 'Organization', '@id': `${config.site.url}/#organization` }
 };
 
 export default function DespreLayout({ children }) {

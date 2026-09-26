@@ -162,7 +162,7 @@ export default function BrandIndexPage() {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <h2>Nu găsești brandul?</h2>
-            <p>Lucrăm cu canale de aprovizionare din toată Uniunea Europeană. Trimite codul sau fișa tehnică și îți spunem în 24 de ore dacă putem oferta.</p>
+            <p>Lucrăm cu canale de aprovizionare din toată Uniunea Europeană. Trimite codul sau fișa tehnică și îți spunem, de regulă în aceeași zi lucrătoare, dacă putem oferta.</p>
             <Link href="/contact" className={styles.ctaButton}>Cere ofertă</Link>
           </div>
         </section>

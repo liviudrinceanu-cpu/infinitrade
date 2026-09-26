@@ -30,7 +30,7 @@ const certifications = [
   {
     icon: Shield,
     title: 'Partener de Distribuție',
-    description: 'Lucrăm direct cu producătorii, nu prin intermediari. Asta înseamnă prețuri corecte, piese originale garantat și acces la suport tehnic de la sursă.',
+    description: 'Aducem produsele din canalele de aprovizionare ale producătorilor (fabrică, filiale și distribuitori din UE), cu documentele de origine. Asta înseamnă prețuri corecte, piese originale, cu documentele producătorului, și acces la suport tehnic de la sursă.',
     brands: ['Grundfos', 'Wilo', 'KSB', 'Siemens', 'ABB', 'ARI Armaturen', 'Spirax Sarco', 'Alfa Laval', 'Endress+Hauser', 'Parker', 'Schneider Electric', 'SKF'],
   },
   {
@@ -42,9 +42,9 @@ const certifications = [
   {
     icon: FileCheck,
     title: 'Furnizor Înregistrat SEAP / SICAP',
-    description: 'Suntem furnizor verificat și activ în Sistemul Electronic de Achiziții Publice. Am câștigat și livrat zeci de contracte pentru instituții publice din toată România.',
+    description: 'Suntem furnizor verificat și activ în Sistemul Electronic de Achiziții Publice.',
     details: 'Experiență solidă cu licitații publice, achiziții directe, fonduri europene și PNRR. Pregătim documentația completă: certificate de conformitate, declarații, fișe tehnice, certificate de garanție.',
-    seapFeatures: ['Operator economic verificat', 'Istoric contracte publice', 'Documentație conformă', 'Livrare la termen garantată'],
+    seapFeatures: ['Operator economic verificat', 'Istoric contracte publice', 'Documentație conformă', 'Termen de livrare scris în ofertă'],
     link: { href: '/ghid-achizitii-seap', text: 'Vezi ghidul complet pentru achiziții SEAP' },
   },
   {
@@ -133,8 +133,8 @@ function generateCertificationsSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     '@id': `${config.site.url}/certificari#webpage`,
-    name: 'Certificari si Autorizari - Infinitrade Romania',
-    description: 'Certificari si autorizari Infinitrade Romania: ISO 9001. Lucram cu gama Grundfos, Siemens, KSB.',
+    name: 'Certificări și autorizări - Infinitrade Romania',
+    description: 'Certificări și autorizări Infinitrade Romania: ISO 9001. Lucrăm cu gama Grundfos, Siemens, KSB.',
     url: `${config.site.url}/certificari`,
     isPartOf: {
       '@id': `${config.site.url}/#website`
@@ -142,22 +142,6 @@ function generateCertificationsSchema() {
     about: {
       '@type': 'Organization',
       '@id': `${config.site.url}/#organization`,
-      name: 'Infinitrade Romania',
-      legalName: 'Driatheli Group SRL',
-      hasCredential: [
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'certification',
-          name: 'ISO 9001:2015',
-          description: 'Certificare pentru managementul calității în comercializarea și distribuția echipamentelor industriale'
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'registration',
-          name: 'Înregistrare SEAP/SICAP',
-          description: 'Înregistrat în sistemul electronic de achiziții publice pentru licitații'
-        }
-      ]
     }
   };
 }
@@ -206,7 +190,7 @@ export const metadata = {
     'infinitrade romania'
   ],
   openGraph: {
-    title: 'Furnizor SEAP SICAP | Certificari si Autorizari | Infinitrade Romania',
+    title: 'Furnizor SEAP SICAP | Certificări și autorizări | Infinitrade Romania',
     description: 'Furnizor verificat SEAP/SICAP. Distribuitor echipamente industriale pentru licitații publice și fonduri europene.',
     url: `${config.site.url}/certificari`,
     siteName: 'Infinitrade Romania',
@@ -261,10 +245,10 @@ export default function CertificariPage() {
       <main id="main-content" className={styles.main}>
         <section className={styles.hero}>
           <div className={styles.container}>
-            <h1>Certificari si Autorizari</h1>
+            <h1>Certificări și autorizări</h1>
             <p>
-              Infinitrade Romania este distribuitor pentru branduri internationale
-              de echipamente industriale, cu certificari care garanteaza calitatea si conformitatea.
+              Infinitrade Romania este distribuitor pentru branduri internaționale
+              de echipamente industriale, cu certificări care confirmă calitatea și conformitatea.
             </p>
           </div>
         </section>
@@ -305,8 +289,8 @@ export default function CertificariPage() {
             <div className={styles.sectionHeader}>
               <h2>Angajamentul Nostru pentru Calitate</h2>
               <p>
-                Ne asiguram ca fiecare client primeste produse originale,
-                documentatie completa si suport tehnic profesionist.
+                Ne asigurăm că fiecare client primește produse originale,
+                documentație completă și suport tehnic profesionist.
               </p>
             </div>
             <div className={styles.qualityGrid}>
@@ -327,10 +311,10 @@ export default function CertificariPage() {
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
               <Globe size={32} className={styles.globeIcon} />
-              <h2>Parteneri Internationali</h2>
+              <h2>Parteneri Internaționali</h2>
               <p>
-                Colaboram direct cu producatori de renume mondial pentru a va oferi
-                cele mai bune echipamente industriale.
+                Colaborăm cu producători de renume mondial pentru a vă oferi
+                echipamente industriale de calitate.
               </p>
             </div>
             <div className={styles.partnersGrid}>
@@ -473,13 +457,13 @@ export default function CertificariPage() {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
-              <h2>Ai nevoie de documente pentru achizitii?</h2>
+              <h2>Ai nevoie de documente pentru achiziții?</h2>
               <p>
-                Furnizam toate documentele necesare pentru dosarele de achizitie:
-                certificate de conformitate, declaratii, fise tehnice.
+                Furnizăm toate documentele necesare pentru dosarele de achiziție:
+                certificate de conformitate, declarații, fișe tehnice.
               </p>
               <Link href="/contact" className={styles.ctaButton}>
-                Solicita Documente
+                Solicită Documente
               </Link>
             </div>
           </div>

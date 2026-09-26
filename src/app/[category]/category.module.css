@@ -271,7 +271,7 @@
 
 .brandCountry {
   font-size: 13px;
-  color: var(--gray-400);
+  color: var(--gray-500);
   display: block;
   margin-bottom: 6px;
 }
@@ -399,7 +399,7 @@
 .typeApplicationsLabel {
   font-size: 12px;
   font-weight: 600;
-  color: var(--gray-400);
+  color: var(--gray-500);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   display: block;
@@ -720,7 +720,7 @@ a.applicationTag:hover {
 .formNote {
   margin-top: 16px;
   font-size: 13px;
-  color: var(--gray-400);
+  color: var(--gray-500);
   text-align: center;
 }
 

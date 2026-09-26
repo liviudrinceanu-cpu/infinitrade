@@ -5,6 +5,7 @@ import { safeJsonLd } from '@/lib/utils';
 import { getBrandContent } from '@/data/brandContent';
 import { buildBrandJsonLd } from '@/lib/schema/brand';
 import BrandPageClient from './BrandPageClient';
+import { getPrimaryForDuplicate } from '@/data/duplicateBrands';
 import { getRelatedBrandsByCategory } from '@/data/brandView';
 import { getSeriesForBrand } from '@/data/series/_index';
 
@@ -27,14 +28,31 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const title = `${brand.name} | Catalog Produse 2026 | Infinitrade`;
-  const description = `2026: Furnizăm echipamente ${brand.name} în România. Furnizor SEAP/SICAP. ${brand.description}. Livrare 24–72 h din stoc.`;
+  // v19 (audit R1): title ≤ 65 characters without truncation (longest
+  // variant that fits), description 110–160 characters (the brand
+  // description is trimmed on a word boundary, never mid-word).
+  const dupOf = getPrimaryForDuplicate(brand.simpleSlug);
+  const titleVariants = [
+    ...(dupOf ? [`${brand.name} (${brand.categories[0].name}) | Infinitrade`, `${brand.name} (${brand.categories[0].name})`] : []),
+    `${brand.name} | Catalog Produse 2026 | Infinitrade`,
+    `${brand.name} | Catalog 2026 | Infinitrade`,
+    `${brand.name} | Infinitrade`,
+    brand.name,
+  ];
+  const title = { absolute: titleVariants.find((t) => t.length <= 65) || brand.name };
+  const lead = `Furnizăm echipamente ${brand.name} în România`;
+  const tail = ' Furnizor SEAP, livrare 24–72 h din stoc.';
+  const room = 158 - lead.length - tail.length - 2;
+  const rawDesc = String(brand.description || '').replace(/\.$/, '');
+  const cut = rawDesc.length <= room ? rawDesc : rawDesc.slice(0, room).replace(/[\s,;:–-]+\S*$/, '');
+  let description = cut ? `${lead}: ${cut}.${tail}` : `${lead}.${tail}`;
+  if (description.length < 110) description += ' Ofertă pe cod de produs, la comandă sau din stoc.';
 
   return {
     title,
     description,
     openGraph: {
-      title,
+      title: title.absolute,
       description,
       url: `${config.site.url}/brand/${brand.simpleSlug}`,
       siteName: 'Infinitrade Romania',
@@ -43,7 +61,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title,
+      title: title.absolute,
       description,
     },
     alternates: {
@@ -82,7 +100,7 @@ export default async function BrandPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <BrandPageClient brand={brand} relatedByCategory={getRelatedBrandsByCategory(brand)} brandContent={content} seriesPages={getSeriesForBrand(brand.simpleSlug)} />
+      <BrandPageClient brand={brand} primaryDuplicate={(() => { const p = getPrimaryForDuplicate(brand.simpleSlug); const pb = p && getBrandByAnySlug(p); return pb ? { slug: pb.simpleSlug, name: pb.name } : null; })()} relatedByCategory={getRelatedBrandsByCategory(brand)} brandContent={content} seriesPages={getSeriesForBrand(brand.simpleSlug)} />
     </>
   );
 }

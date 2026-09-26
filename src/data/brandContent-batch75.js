@@ -12,7 +12,7 @@ Pentru integratorii din România, ADLINK are sens acolo unde un sistem de contro
       "Portofoliu larg de module Computer-on-Module — de la COM-HPC și COM Express până la SMARC, Qseven și ETX",
       "Module grafice MXM 3.1 dedicate pentru procesare AI la margine, fără server central",
       "Calculatoare rugged pentru medii dure — CompactPCI Serial, VPX și PC104 pentru vibrații și temperaturi extreme",
-      "Parteneriate directe cu Intel, NVIDIA și AMD pentru compatibilitate garantată de platformă",
+      "Parteneriate directe cu Intel, NVIDIA și AMD pentru compatibilitate testată de platformă",
       "Gateway-uri IIoT dedicate pentru colectarea și transmiterea datelor din echipamente mai vechi către cloud"
     ],
     keyProducts: [

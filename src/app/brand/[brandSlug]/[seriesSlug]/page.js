@@ -36,7 +36,13 @@ export async function generateMetadata({ params }) {
   const { series: s, brand } = r;
   // D-2026-09-25: some series names already carry the brand ("EUCHNER MGB") — don't repeat it.
   const displayName = s.name.toLowerCase().includes(brand.name.toLowerCase()) ? s.name : `${s.name} ${brand.name}`;
-  const title = `${displayName} — coduri, specificații, ofertă | Infinitrade`;
+  // v19 (audit R1): longest variant that fits 65 characters, never truncated.
+  const title = [
+    `${displayName} — coduri, specificații, ofertă | Infinitrade`,
+    `${displayName} — coduri și ofertă | Infinitrade`,
+    `${displayName} | Infinitrade`,
+    displayName,
+  ].find((t) => t.length <= 65) || displayName;
   const description = `${s.oneLine} Coduri de tip, parametri din documentația ${brand.name} și ce trebuie să trimiți pentru o ofertă. Cere ofertă.`.slice(0, 158);
   const url = `${config.site.url}/brand/${brandSlug}/${seriesSlug}`;
   return {

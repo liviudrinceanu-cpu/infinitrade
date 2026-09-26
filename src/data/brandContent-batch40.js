@@ -1036,7 +1036,7 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
       },
       {
         "q": "Ce înseamnă actuatoarele OMAL de tip DA și SR?",
-        "a": "DA înseamnă „double acting”, actuator pneumatic cu dublă acțiune, care folosește aer comprimat atât pentru deschidere, cât și pentru închidere. SR înseamnă „spring return”, actuator cu revenire pe arc, care închide sau deschide automat robinetul printr-un arc intern în cazul pierderii aerului comprimat, opțiune preferată acolo unde poziția de siguranță trebuie garantată."
+        "a": "DA înseamnă „double acting”, actuator pneumatic cu dublă acțiune, care folosește aer comprimat atât pentru deschidere, cât și pentru închidere. SR înseamnă „spring return”, actuator cu revenire pe arc, care închide sau deschide automat robinetul printr-un arc intern în cazul pierderii aerului comprimat, opțiune preferată acolo unde poziția de siguranță este o cerință de proiect."
       },
       {
         "q": "Care este diferența dintre actuatoarele electrice OMAL AE și AM?",

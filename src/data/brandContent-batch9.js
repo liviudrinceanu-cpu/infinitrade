@@ -191,7 +191,7 @@ La fiecare proiect căutăm eficiența maximă - benzi care rulează 24/7 fără
     employees: '11500+',
     overview: `Hager înseamnă soluții electrice inteligente pentru instalații rezidențiale, comerciale și industriale. Dezvoltăm tablouri de distribuție modulare, întrerupătoare automate, contactoare, aparataj modular, sisteme de management energetic și infrastructură pentru stații de încărcare vehicule electrice. Tot ce ai nevoie pentru o instalație electrică modernă, sigură și eficientă energetic.
 
-Tablourile noastre modulare simplifică dramatic instalarea și întreținerea. Sistem complet coordonat: tablouri din oțel sau plastic ignifug, șine DIN standardizate, aparataj modular cu lățimi de 1 modul (18mm) până la 4 module, etichete integrate pentru identificare rapidă. Toate componentele sunt testate împreună - compatibilitate garantată, performanță predictibilă. Oferim de la tablouri mici 4 module pentru apartamente până la distribuții complexe 144 module pentru clădiri comerciale.
+Tablourile noastre modulare simplifică dramatic instalarea și întreținerea. Sistem complet coordonat: tablouri din oțel sau plastic ignifug, șine DIN standardizate, aparataj modular cu lățimi de 1 modul (18mm) până la 4 module, etichete integrate pentru identificare rapidă. Toate componentele sunt testate împreună - compatibilitate verificată, performanță predictibilă. Oferim de la tablouri mici 4 module pentru apartamente până la distribuții complexe 144 module pentru clădiri comerciale.
 
 Filosofia noastră e simplitate și fiabilitate. Întreruptoarele automate au indicatori vizuali clare de stare, declanșare termică și magnetică precisă, capacitate de rupere ridicată. Sistemele de monitorizare energetică te ajută să înțelegi consumul real - contoare digitale cu interfață Modbus, afișaje locale, integrare în sisteme BMS. Investim masiv în calitate - toate produsele trec teste de durabilitate (10.000+ operații mecanice), teste de mediu (temperaturi extreme, umiditate, vibrații), teste de siguranță (arc electric, sarcini inductive).`,
     whyChoose: [
@@ -803,12 +803,12 @@ Investim masiv în R&D - laborator de testare cu benzi de simulare condiții rea
 
 Filozofia noastră e productivitate totală. Nu vindem doar o bormasină - oferim soluția completă pentru găurirea betonului armat: unealta optimă pentru aplicația ta, burghie cu geometrie studiată pentru viteză maximă și uzură minimă, aspirație integrate pentru mediu curat de lucru, baterii cu autonomie extinsă, service profesional cu înlocuire pe loc dacă ceva nu funcționează. Asta înseamnă Hilti Fleet Management - tu lucrezi, noi ne ocupăm de scule.
 
-Investim enorm în inovație. Centrul nostru de cercetare din Liechtenstein testează în condiții extreme - camere climatice -30°C/+60°C, benzi de vibrații pentru simulare mii de ore utilizare, teste de cădere de la înălțimi regulate. Toate produsele sunt supradimensionate pentru siguranță - dacă specificăm 1000 găuri în beton, unealta face 3000. Garantăm fiecare produs, service rapid, piese originale disponibile ani de zile după discontinuare model.`,
+Investim enorm în inovație. Centrul nostru de cercetare din Liechtenstein testează în condiții extreme - camere climatice -30°C/+60°C, benzi de vibrații pentru simulare mii de ore utilizare, teste de cădere de la înălțimi regulate. Toate produsele sunt supradimensionate pentru siguranță - dacă specificăm 1000 găuri în beton, unealta face 3000. Service rapid, piese originale disponibile ani de zile după discontinuare model.`,
     whyChoose: [
       'Durabilitate legendară - scule construite pentru șantier dur, nu pentru DIY, 2-3x durată viață față de alternative',
       'Productivitate superioară - viteze de găurire cu 30-50% mai rapide, autonomie baterii extinsă, ergonomie studiată',
       'Sisteme integrate - scule + accesorii + aspirație + depozitare + management, productivitate maximă',
-      'Service profesional - reparații rapide, înlocuire pe loc dacă peste 48h, piese originale garantate',
+      'Service profesional - reparații rapide, înlocuire pe loc dacă peste 48h, piese originale',
       'Fleet Management - chirie full-service scule, tu folosești, noi menținem, upgrade automat tehnologie nouă',
       'Siguranță certificată - toate sistemele de ancoraj testate pentru sarcini seismice, aprobare ETA europeană'
     ],

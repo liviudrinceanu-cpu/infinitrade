@@ -11460,7 +11460,7 @@ export const BRANDS_EXTENSION = {
       "name": "Thermowave",
       "slug": "thermowave",
       "country": "Germania",
-      "description": "producător lider de schimbătoare de căldură cu plăci",
+      "description": "producător de schimbătoare de căldură cu plăci",
       "featured": false,
       "officialUrl": "https://www.thermowave.de/",
       "wave": "2026-09",

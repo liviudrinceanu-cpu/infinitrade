@@ -86,7 +86,7 @@ function generateIndustriesCollectionSchema(industriesList) {
     '@type': 'CollectionPage',
     '@id': `${config.site.url}/industrii#webpage`,
     name: 'Industrii Deservite - Echipamente Industriale pe Sector',
-    description: 'Furnizam echipamente industriale specializate pentru diverse sectoare industriale.',
+    description: 'Furnizăm echipamente industriale specializate pentru diverse sectoare industriale.',
     url: `${config.site.url}/industrii`,
     isPartOf: {
       '@id': `${config.site.url}/#website`
@@ -130,8 +130,8 @@ export default function IndustriiPage() {
             </div>
             <h1>Industrii Deservite</h1>
             <p>
-              Cu peste 15 ani de experienta, furnizam echipamente industriale specializate
-              pentru diverse sectoare. Intelegem cerintele specifice fiecarei industrii.
+              Cu peste 15 ani de experiență, furnizăm echipamente industriale specializate
+              pentru diverse sectoare. Înțelegem cerințele specifice fiecărei industrii.
             </p>
           </div>
         </section>
@@ -180,13 +180,13 @@ export default function IndustriiPage() {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
-              <h2>Nu gasesti industria ta?</h2>
+              <h2>Nu găsești industria ta?</h2>
               <p>
-                Oferim solutii personalizate pentru orice sector industrial.
-                Contacteaza-ne pentru o discutie despre nevoile tale specifice.
+                Oferim soluții personalizate pentru orice sector industrial.
+                Contactează-ne pentru o discuție despre nevoile tale specifice.
               </p>
               <Link href="/contact" className={styles.ctaButton}>
-                Contacteaza-ne
+                Contactează-ne
               </Link>
             </div>
           </div>

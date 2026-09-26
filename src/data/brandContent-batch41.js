@@ -250,7 +250,7 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
 
 Poziționarea NKE e de furnizor concurent pentru SKF pe segmentul de rulmenți standard, mizând pe politica de calitate strictă și pe echipamente proprii de testare și măsurare menționate explicit ca prioritate a companiei. Site-ul oficial nu detaliază public parametrii tehnici exacți (sarcini dinamice, viteze limită) pentru fiecare serie, motiv pentru care recomandăm confirmarea directă a codului de rulment cu fișa tehnică a producătorului înainte de comandă. Compania e menționată în context cu grupul internațional FERSA din industria rulmenților.
 
-Pentru România, NKE are sens ca alternativă de aprovizionare pentru rulmenți standard la mentenanța utilajelor industriale, acolo unde beneficiarul acceptă un producător mai puțin cunoscut decât liderii de piață în schimbul unei disponibilități mai bune sau al unui preț de listă diferit.`,
+Pentru România, NKE are sens ca alternativă de aprovizionare pentru rulmenți standard la mentenanța utilajelor industriale, acolo unde beneficiarul acceptă un producător mai puțin cunoscut decât mărcile consacrate în schimbul unei disponibilități mai bune sau al unui preț de listă diferit.`,
     whyChoose: [
       "Alternativă la mărcile consacrate — poziționat concurențial față de SKF pe segmentul de rulmenți standard industriali",
       "Rețea internațională de distribuție — peste 240 de parteneri comerciali în peste 60 de țări, conform datelor producătorului",

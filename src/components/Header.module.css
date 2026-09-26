@@ -190,7 +190,7 @@
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--gray-400);
+  color: var(--gray-500);
   display: block;
   margin-bottom: 10px;
 }
@@ -443,8 +443,10 @@
 .searchGlow {
   position: absolute;
   top: 0;
-  left: -100%;
+  left: 0;
   width: 100%;
+  transform: translateX(-100%);
+  will-change: transform;
   height: 100%;
   background: linear-gradient(
     90deg,
@@ -458,16 +460,20 @@
   pointer-events: none;
 }
 
+/* v19: animate transform (composited) instead of `left` (layout on every frame) */
 @keyframes searchGlowMove {
   0% {
-    left: -100%;
+    transform: translateX(-100%);
   }
   50% {
-    left: 100%;
+    transform: translateX(100%);
   }
   100% {
-    left: 100%;
+    transform: translateX(100%);
   }
+}
+@media (prefers-reduced-motion: reduce) {
+  .searchGlow { animation: none; }
 }
 
 .searchContainer.searchFocused .searchGlow {
@@ -478,7 +484,7 @@
 .searchIcon {
   position: absolute;
   left: 16px;
-  color: var(--gray-400);
+  color: var(--gray-500);
   pointer-events: none;
   z-index: 1;
 }
@@ -494,7 +500,7 @@
 }
 
 .searchInput::placeholder {
-  color: var(--gray-400);
+  color: var(--gray-500);
 }
 
 /* Search Results */
@@ -558,7 +564,7 @@
 
 .resultCategory {
   font-size: 12px;
-  color: var(--gray-400);
+  color: var(--gray-500);
 }
 
 /* CTA Button */
@@ -711,7 +717,7 @@
 
 .cartEmpty span {
   font-size: 12px;
-  color: var(--gray-400);
+  color: var(--gray-500);
 }
 
 .cartItems {
@@ -752,7 +758,7 @@
 .cartItemCategory {
   display: block;
   font-size: 11px;
-  color: var(--gray-400);
+  color: var(--gray-500);
 }
 
 .cartItemRemove {
@@ -764,7 +770,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--gray-400);
+  color: var(--gray-500);
   border-radius: 6px;
   transition: all 0.2s;
 }
@@ -930,7 +936,7 @@
   padding: 8px 16px;
   font-size: 12px;
   font-weight: 600;
-  color: var(--gray-400);
+  color: var(--gray-500);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }

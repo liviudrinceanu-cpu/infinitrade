@@ -4,6 +4,7 @@
 import { categories } from './products';
 import { equipmentCategories } from './equipmentCategories';
 import { NOINDEX_BRANDS } from './noindexBrands';
+import { DUPLICATE_BRANDS } from './duplicateBrands';
 // getBrandsWithContent is a plain function reading a plain object (brandContent.js
 // and its batches do not import this module), so a static import is safe here —
 // no circular-import cycle exists. If that ever changes, resolve it lazily with
@@ -235,9 +236,12 @@ export function getBrandStats() {
 //   - Branduri-500 extension brands WITHOUT a rich brandContent entry -> noindex
 //     (a thin auto page is never offered to Google; it flips to index the
 //     moment its content batch lands - no code change needed)
+//   - secondary slug of a duplicated brand (src/data/duplicateBrands.js) -> noindex
 //   - everything else -> index
 export function isBrandNoindex(simpleSlug, contentSlugs = null) {
   if (NOINDEX_BRANDS.includes(simpleSlug)) return true;
+  // v19: secondary slug of a brand that exists twice (src/data/duplicateBrands.js)
+  if (Object.prototype.hasOwnProperty.call(DUPLICATE_BRANDS, simpleSlug)) return true;
   if (Object.prototype.hasOwnProperty.call(EXTENSION_BY_SLUG, simpleSlug)) {
     const set = contentSlugs || new Set(getBrandsWithContent());
     return !set.has(simpleSlug);

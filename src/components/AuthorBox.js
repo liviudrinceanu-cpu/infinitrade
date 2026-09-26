@@ -45,10 +45,10 @@ export default function AuthorBox({ author }) {
             <span className={styles.teamLabel}>Scris de</span>
             <span className={styles.teamName}>Echipa Tehnică Infinitrade</span>
             <p className={styles.teamBio}>
-              Articol contribuit de mai mulți membri ai echipei noastre tehnice.
+              {author.bio}
             </p>
             <Link href="/echipa" className={styles.teamLink}>
-              Cunoaște echipa →
+              Cum lucrează echipa →
             </Link>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function AuthorBox({ author }) {
         <div className={styles.info}>
           <h4 className={styles.name}>{author.name}</h4>
           <p className={styles.role}>{author.role}</p>
-          <p className={styles.experience}>{author.experience} experiență</p>
+          {author.experience && <p className={styles.experience}>{author.experience} experiență</p>}
           <p className={styles.bio}>{author.bio}</p>
 
           {author.certifications && author.certifications.length > 0 && (

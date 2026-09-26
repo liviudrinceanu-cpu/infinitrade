@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
   return {
     title: shortTitle,
     description: article.excerpt,
-    authors: [{ name: article.author }],
+    authors: [{ name: 'Echipa tehnică Infinitrade' }],
     openGraph: {
       title: article.title,
       description: article.excerpt,
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
       locale: 'ro_RO',
       type: 'article',
       publishedTime: article.date,
-      authors: [article.author],
+      authors: ['Echipa tehnică Infinitrade'],
       tags: article.tags,
       images: [{
         url: `/blog/${article.slug}/opengraph-image`,
@@ -84,17 +84,9 @@ function generateArticleJsonLd(article, author) {
       width: 1200,
       height: 630
     },
-    author: {
-      '@type': 'Person',
-      name: author.name,
-      jobTitle: author.role,
-      description: author.bio,
-      affiliation: {
-        '@type': 'Organization',
-        name: 'Infinitrade Romania',
-        url: config.site.url
-      }
-    },
+    // v19: articles are signed by the team (src/data/authors.js), so the
+    // author is the Organization, not an unconfirmed Person.
+    author: { '@type': 'Organization', '@id': `${config.site.url}/#organization`, name: 'Infinitrade Romania' },
     publisher: {
       '@type': 'Organization',
       name: 'Infinitrade Romania',
@@ -350,7 +342,7 @@ export default async function BlogArticlePage({ params }) {
               <h1>{article.title}</h1>
               <p className={styles.excerpt}>{article.excerpt}</p>
               <div className={styles.meta}>
-                <span><User size={16} /> {article.author}</span>
+                <span><User size={16} /> {author.name}</span>
                 <span><Calendar size={16} /> {article.date}</span>
                 <span><Clock size={16} /> {article.readTime}</span>
               </div>

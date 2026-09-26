@@ -311,7 +311,7 @@ export const categories = [
       { name: 'Suflante Roots Industriale', slug: 'suflante-roots-industriale', description: 'Debite mari pentru aplicații industriale grele', applications: ['Aerare bazine', 'Transport cereale', 'Fluidizare', 'Industria cimentului'] },
       { name: 'Ventilatoare Centrifugale Industriale', slug: 'ventilatoare-centrifugale-industriale', description: 'Pentru ventilație și transport materiale', applications: ['Hote industriale', 'Sisteme filtrare', 'Transport materiale', 'Ventilație hale'] },
       { name: 'Ventilatoare Axiale Industriale', slug: 'ventilatoare-axiale-industriale', description: 'Pentru răcire și ventilație industrială', applications: ['Turnuri răcire', 'Răcire echipamente', 'Ventilație tuneluri', 'Condensatoare'] },
-      { name: 'Pompe de Vid Industriale', slug: 'pompe-vid-suflante', description: 'Pentru procese de vid și manipulare', applications: ['Ambalare vid', 'Manipulare cu vid', 'Procese chimice', 'Industria lemnului'] },
+      { name: 'Pompe de Vid pentru Manipulare și Ambalare', slug: 'pompe-vid-suflante', description: 'Pentru procese de vid și manipulare', applications: ['Ambalare vid', 'Manipulare cu vid', 'Procese chimice', 'Industria lemnului'] },
       { name: 'Compresoare Industriale', slug: 'compresoare-industriale', description: 'Aer comprimat pentru procese industriale', applications: ['Automatizări pneumatice', 'Industria alimentară', 'Procese medicale', 'Laborator'] }
     ],
     accessories: ['Filtre aspirație industriale', 'Silențiatoare', 'Supape siguranță', 'Manometre industriale', 'Kituri lamele'],
@@ -350,7 +350,7 @@ export const companyInfo = {
   legalEntity: 'Driatheli Group SRL',
   tagline: 'Dăm puls industriei',
   description: 'Partener strategic pentru departamentele de achiziții, mentenanță și investiții din industria românească. Furnizăm echipamente industriale de înaltă performanță pentru cele mai exigente aplicații.',
-  aboutUs: 'Cu 17 ani de experiență în distribuția de echipamente industriale, Infinitrade Romania s-a impus ca partener de încredere pentru cele mai importante companii din România. Înțelegem provocările departamentelor de achiziții și mentenanță: nevoia de echipamente fiabile, livrări rapide pentru a evita oprirea producției, și suport tehnic competent. De aceea, am construit o rețea solidă de furnizori internaționali și menținem stocuri strategice pentru componentele critice. Clienții noștri - de la Continental și Siemens la ArcelorMittal și Romgaz - ne aleg pentru promptitudine, expertiză tehnică și angajamentul nostru față de calitate.',
+  aboutUs: 'Infinitrade România furnizează din 2009 echipamente și piese de schimb industriale pentru departamentele de achiziții și mentenanță: pompe, robineți, motoare, schimbătoare de căldură, suflante, automatizări, instrumentație și componente mecanice. Avem depozit propriu în Ghiroda (Timiș), aducem restul gamei din canalele producătorilor din Europa și, la cerere, din SUA, și ofertăm pe cod de produs, inclusiv pentru licitații SEAP.',
   founded: 2009,
   location: { city: 'Ghiroda', county: 'Timiș', address: 'Calea Lugojului, nr.47/B, Hala nr. 3', country: 'România' },
   contact: { 
@@ -388,7 +388,7 @@ export const features = [
 export const navigation = [
   { name: 'Pompe Industriale', href: '/pompe-industriale' },
   { name: 'Robineți Industriali', href: '/robineti-industriali' },
-  { name: 'Motoare Industriale', href: '/motoare-electrice' },
+  { name: 'Motoare Electrice', href: '/motoare-electrice' },
   { name: 'Schimbătoare Căldură', href: '/schimbatoare-caldura' },
   { name: 'Suflante Industriale', href: '/suflante-ventilatoare' },
   {
@@ -404,8 +404,8 @@ export const navigation = [
       { name: 'Industrii Deservite', href: '/industrii', description: 'Soluții pe verticale industriale' },
       { name: 'Ghid Comparativ', href: '/ghid-comparativ', description: 'Comparații branduri și produse' },
       { name: 'Branduri din SUA', href: '/branduri-sua', description: 'Producători americani, import la comandă' },
-      { name: 'Certificări', href: '/certificari', description: 'Autorizări și parteneri' },
-      { name: 'Echipa Noastră', href: '/echipa', description: 'Specialiștii din spatele soluțiilor' },
+      { name: 'Certificări', href: '/certificari', description: 'Certificări și documente' },
+      { name: 'Echipa', href: '/echipa', description: 'Cum lucrăm cererile de ofertă' },
     ]
   },
 ];

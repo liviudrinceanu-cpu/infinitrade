@@ -9,7 +9,7 @@ import { ArrowRight, Factory, Zap, Award } from 'lucide-react';
 import styles from './studii-de-caz.module.css';
 
 export const metadata = {
-  title: 'Ghiduri de Aplicație | Pompare, Termic, Automatizare',
+  title: 'Ghiduri de Aplicație Industriale',
   description: 'Ghiduri de aplicație: optimizarea pompării în rafinării, tratare apă, eficiență energetică în alimentar, cogenerare, compresoare în minerit. Ofertă pe cod.',
   keywords: [
     'studii de caz echipamente industriale',

@@ -301,7 +301,7 @@ export const productTypes = [
   {
     "category": "suflante-ventilatoare",
     "slug": "pompe-vid-suflante",
-    "name": "Pompe de vid industriale",
+    "name": "Pompe de vid pentru manipulare și ambalare",
     "shortName": "pompe de vid",
     "lede": "Pompa de vid industrială extrage aerul sau gazul dintr-un spațiu închis pentru a crea depresiune, folosită la manipularea cu ventuze, ambalarea sub vid și procese care necesită eliminarea aerului dintr-o incintă. Nivelul de vid și debitul de aspirație diferă mult între tipurile constructive.",
     "intro": "Cele mai întâlnite variante industriale sunt pompele cu inel de lichid, cele cu palete culisante lubrifiate cu ulei și pompele uscate (fără ulei, cu șurub sau cu piston). Pompa cu inel de lichid tolerează vapori și particule fine, fiind robustă dar cu consum energetic mai mare; cea cu palete lubrifiate atinge niveluri de vid înalte la un preț de achiziție moderat, dar cere schimb regulat de ulei; varianta uscată elimină riscul de contaminare a procesului cu ulei, cerută adesea în alimentar sau farmaceutic. Nivelul de vid se exprimă în milibari absolut sau în procent față de presiunea atmosferică, iar debitul de aspirație în metri cubi pe oră.\nUn produs potrivit pentru uz industrial are o cameră de lucru rezistentă la particulele sau vaporii din procesul respectiv, un sistem de răcire dimensionat pentru funcționare continuă și acces facil la piesele de uzură (palete, garnituri, filtre de aspirație). Contează și nivelul de zgomot, mai ales în spații ocupate de personal, precum și eficiența energetică la nivelul de vid real necesar procesului, nu la vidul maxim teoretic al pompei.",

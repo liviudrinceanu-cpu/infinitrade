@@ -252,6 +252,8 @@ export default function ContactPage() {
                                 type="button"
                                 className={styles.cartItemRemoveBtn}
                                 onClick={() => removeItem(item.id)}
+                                aria-label={`Elimină ${item.name} din cerere`}
+                                title="Elimină din cerere"
                               >
                                 <X size={14} />
                               </button>

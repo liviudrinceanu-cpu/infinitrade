@@ -102,7 +102,7 @@
 .cardTagline {
   font-size: 15px;
   font-weight: 500;
-  color: var(--gray-400);
+  color: var(--gray-500);
   margin-bottom: 12px;
 }
 
@@ -135,7 +135,7 @@
 
 .cardStatLabel {
   font-size: 12px;
-  color: var(--gray-400);
+  color: var(--gray-500);
   font-weight: 500;
 }
 
