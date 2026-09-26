@@ -30,6 +30,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { loadDataDir } from './_lib/loader.mjs';
 
 /* --------------------------------------------------------- entityFacts --- */
@@ -153,6 +154,22 @@ export async function run(ctx) {
       // (e.g. a fixture that only needs the forbiddenValues half) — skip.
     } finally {
       cleanup();
+    }
+  }
+
+  /* ---- 3. v16: generated client indexes match the data ------------------ */
+  // src/data/headerMenus.js / headerSearchIndex.js / brandCategorySlugs.js
+  // carry brand counts, menus and the search index for client components;
+  // stale files would show wrong counts or miss new brands in search.
+  if (fs.existsSync(path.join(ctx.target, 'scripts', 'build-client-indexes.mjs')) && fs.existsSync(path.join(ctx.target, 'src', 'data', 'headerMenus.js'))) {
+    try {
+      const { staleClientIndexes } = await import(pathToFileURL(path.join(ctx.target, 'scripts', 'build-client-indexes.mjs')).href);
+      const stale = await staleClientIndexes(ctx.target);
+      for (const rel of stale) {
+        findings.push({ file: rel, line: null, severity: 'BLOCKER', message: `G19: ${rel} is stale — run node scripts/build-client-indexes.mjs` });
+      }
+    } catch (err) {
+      findings.push({ file: 'scripts/build-client-indexes.mjs', line: null, severity: 'MAJOR', message: `G19: could not check client indexes: ${err.message}` });
     }
   }
 

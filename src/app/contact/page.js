@@ -6,11 +6,30 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { companyInfo } from '@/data/products';
-import { allCategoriesUnified as categories, getBrandByAnySlug } from '@/data/allBrandsIndex';
+import { CLIENT_CATEGORIES as categories } from '@/data/headerMenus';
+import { BRAND_CATEGORY_SLUGS } from '@/data/brandCategorySlugs';
 import { siteStats } from '@/data/siteStats';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './contact.module.css';
+
+// v16 (D-2026-09-26): compact generated indexes instead of allBrandsIndex.js
+// (which pulled every brandContent batch into this client page). Old cart
+// entries may still carry a legacy prefixed brand slug
+// (e.g. /brand/pompe-industriale-grundfos): strip the prefix the same way
+// allBrandsIndex.getBrandByAnySlug does.
+const LEGACY_BRAND_PREFIXES = [
+  'pompe-industriale-', 'pompe-vid-industriale-', 'robineti-industriali-', 'robineti-reglare-industriali-',
+  'regulatoare-presiune-industriale-', 'oale-condens-industriale-', 'supape-siguranta-industriale-',
+  'motoare-electrice-industriale-', 'motoare-atex-industriale-', 'schimbatoare-caldura-industriale-',
+  'racitoare-ulei-industriale-', 'suflante-industriale-', 'suflante-roots-industriale-',
+  'ventilatoare-industriale-', 'compresoare-industriale-',
+];
+const brandCategorySlugs = (slug) => {
+  if (BRAND_CATEGORY_SLUGS[slug]) return BRAND_CATEGORY_SLUGS[slug];
+  const prefix = LEGACY_BRAND_PREFIXES.find((p) => slug.startsWith(p));
+  return (prefix && BRAND_CATEGORY_SLUGS[slug.slice(prefix.length)]) || [];
+};
 
 export default function ContactPage() {
   const [heroRef, heroVisible] = useIntersectionObserver();
@@ -50,8 +69,7 @@ export default function ContactPage() {
       const path = (item.url || '').replace(/^https?:\/\/[^/]+/, '').split(/[#?]/)[0];
       const brandMatch = path.match(/^\/brand\/([^/]+)/);
       if (brandMatch) {
-        const brand = getBrandByAnySlug(brandMatch[1]);
-        (brand?.categories || []).forEach((c) => found.add(c.slug));
+        brandCategorySlugs(brandMatch[1]).forEach((slug) => found.add(slug));
         continue;
       }
       const catMatch = path.match(/^\/([^/]+)$/);

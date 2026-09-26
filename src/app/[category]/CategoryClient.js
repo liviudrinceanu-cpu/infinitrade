@@ -1,36 +1,14 @@
 'use client';
 
 import { useState } from 'react';
+import { flushSync } from 'react-dom';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone, Send, Plus, ShoppingCart } from 'lucide-react';
-import { allCategoriesUnified as categories } from '@/data/allBrandsIndex';
-import { hasBrandContent } from '@/data/brandContent';
-import { getBrandDemand } from '@/data/brandDemand';
-import { getBrandsForProductType } from '@/data/brandCategoryLinks';
-import { getUsBrandsForCategory } from '@/data/usBrands';
-import { getCategoryFaq } from '@/data/categoryFaq';
 import { lastModified } from '@/data/lastModified';
-import entityFacts from '@/data/entityFacts.json';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
+import { CATEGORY_LEAD_TIME } from '@/data/leadTimes';
 import styles from './category.module.css';
-
-function toSimpleSlug(slug) {
-  const prefixes = [
-    'pompe-industriale-', 'pompe-vid-industriale-',
-    'robineti-industriali-', 'robineti-reglare-industriali-',
-    'regulatoare-presiune-industriale-', 'oale-condens-industriale-',
-    'supape-siguranta-industriale-', 'motoare-electrice-industriale-',
-    'motoare-atex-industriale-', 'schimbatoare-caldura-industriale-',
-    'racitoare-ulei-industriale-', 'suflante-industriale-',
-    'suflante-roots-industriale-', 'ventilatoare-industriale-',
-    'compresoare-industriale-',
-  ];
-  for (const prefix of prefixes) {
-    if (slug.startsWith(prefix)) return slug.slice(prefix.length);
-  }
-  return slug;
-}
 
 // F3-02 - fixed per-category question headings, copied VERBATIM from
 // out/plan-v2/heading-phrasings.md §3.2 (F3-01's input contract). Not
@@ -179,15 +157,26 @@ const C09_HEADING = 'Ce ne întreabă cel mai des inginerii?';
 const C10_CHANGELOG_HEADING = 'Ce s-a schimbat pe această pagină?';
 const C11_HEADING = 'Ce alte categorii de echipamente livrăm?';
 
-const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
-const LEAD_TIME_TO_ORDER = entityFacts.leadTimePhrases?.[1] || '2–6 săptămâni la comandă';
 
-export default function CategoryClient({ category }) {
+// v16 (D-2026-09-26): phone-length control. On screens ≤ 768 px only the
+// first MOBILE_CARDS brand cards, the first MOBILE_US_LINKS US links and a
+// collapsed A–Z list are shown until the reader asks for more. Everything
+// stays in the server-rendered HTML (hidden with CSS only), so crawlers and
+// desktop readers see the full lists.
+const MOBILE_CARDS = 12;
+const MOBILE_US_LINKS = 15;
+
+// v16: `view` is computed on the server (src/data/categoryView.js) — this
+// client component imports no brand data of its own.
+export default function CategoryClient({ category, view, related = { industries: [], articles: [] } }) {
   const [heroRef, heroVisible] = useIntersectionObserver();
   const [brandsRef, brandsVisible] = useIntersectionObserver();
   const [typesRef, typesVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
   const [addedAnimation, setAddedAnimation] = useState(null);
+  const [showAllCards, setShowAllCards] = useState(false);
+  const [azOpen, setAzOpen] = useState(false);
+  const [usOpen, setUsOpen] = useState(false);
 
   const handleAddToCart = (item) => {
     const success = addItem(item);
@@ -249,39 +238,20 @@ export default function CategoryClient({ category }) {
   };
 
   const headings = CATEGORY_HEADINGS[category.slug] || {};
-  const featuredBrands = (category.brands || []).filter((b) => b.featured);
-  const brandCount = (category.brands || []).length;
-  // D-2026-09-22 (C): with 1009 brands the flat grid no longer scales. Brands
-  // with a sourced content page come first (featured, then by Romanian search
-  // demand — ordering only, never a rendered figure); at most TOP_CARDS get a
-  // card, every brand gets a link in the A–Z list below (indexed or not: the
-  // page exists and is crawlable via follow).
-  const TOP_CARDS = 24;
-  const rankedBrands = [...(category.brands || [])]
-    .map((b) => ({ ...b, simpleSlug: toSimpleSlug(b.slug) }))
-    .map((b) => ({ ...b, hasContent: hasBrandContent(b.simpleSlug), demand: getBrandDemand(b.simpleSlug) }))
-    .sort((a, b) => (Number(b.featured) - Number(a.featured)) || (Number(b.hasContent) - Number(a.hasContent)) || (b.demand - a.demand) || a.name.localeCompare(b.name, 'ro'));
-  const topBrands = rankedBrands.slice(0, TOP_CARDS);
-  const azGroups = rankedBrands
+  const { brandCount, featuredNames, topBrands, azBrands, typeBrands, usBrands, expertFaqs, otherCategories, categoryNames } = view;
+  // D-2026-09-22 (C): brands with a sourced content page come first
+  // (featured, then by Romanian search demand — ordering only, never a
+  // rendered figure); at most 24 get a card (view.topBrands), every brand
+  // gets a link in the A–Z list below (indexed or not: the page exists and
+  // is crawlable via follow). Ordering is done in src/data/categoryView.js.
+  const azGroups = azBrands
     .slice()
     .sort((a, b) => a.name.localeCompare(b.name, 'ro'))
     .reduce((acc, b) => { const k = /^[0-9]/.test(b.name) ? '0–9' : b.name.charAt(0).toUpperCase(); (acc[k] = acc[k] || []).push(b); return acc; }, {});
   const azKeys = Object.keys(azGroups).sort((a, b) => a.localeCompare(b, 'ro'));
   const productTypeCount = (category.productTypes || []).length;
-  // v12 (D-2026-09-26): US manufacturers in this category, linked to the
-  // /branduri-sua hub (one hub URL, no per-category "US" page).
-  const usBrands = getUsBrandsForCategory(category.slug);
-  // v11 (D-2026-09-26): brands that make each product type (classified from
-  // their own published products), ranked like the cards above; at most 8
-  // linked per type so the card stays a card, the rest are in the A–Z list.
-  const rankBySlug = new Map(rankedBrands.map((b, i) => [b.simpleSlug, i]));
-  const brandNameBySlug = new Map(rankedBrands.map((b) => [b.simpleSlug, b.name]));
-  const brandsForType = (typeSlug) => getBrandsForProductType(typeSlug)
-    .filter((slug) => rankBySlug.has(slug))
-    .sort((a, b) => rankBySlug.get(a) - rankBySlug.get(b))
-    .slice(0, 8)
-    .map((slug) => ({ slug, name: brandNameBySlug.get(slug) }));
-  const expertFaqs = getCategoryFaq(category.slug);
+  // v11: brands that make each product type, at most 8 per type (view.typeBrands).
+  const brandsForType = (typeSlug) => typeBrands[typeSlug] || [];
   // C-03's answer-first sentence borrows the category's own first expert FAQ
   // entry: it is already the real selection criterion for the category
   // (categoryFaq.js), so this is the citable sentence heading-phrasings.md
@@ -324,10 +294,14 @@ export default function CategoryClient({ category }) {
                 <span className={styles.heroStatLabel}>Tipuri de produse</span>
               </div>
               <div className={styles.heroStat}>
-                <span className={styles.heroStatValue}>{category.stats.delivery}</span>
-                <span className={styles.heroStatLabel}>Livrare</span>
+                <span className={styles.heroStatValue}>{CATEGORY_LEAD_TIME.headline}</span>
+                <span className={styles.heroStatLabel}>{CATEGORY_LEAD_TIME.headlineLabel}</span>
               </div>
             </div>
+            <p className={styles.heroNote}>
+              {CATEGORY_LEAD_TIME.stock} {CATEGORY_LEAD_TIME.factory}{' '}
+              <a href="#livrare">Execuții OEM sau personalizate: termen în ofertă.</a>
+            </p>
 
             <div className={styles.heroCtas}>
               <button
@@ -358,7 +332,7 @@ export default function CategoryClient({ category }) {
               <a href="#branduri" className={styles.ctaSecondary}>
                 Vezi Branduri
               </a>
-              {rankedBrands.length > topBrands.length && (
+              {azBrands.length > topBrands.length && (
                 <a href="#toate-marcile" className={styles.ctaSecondary}>
                   Toate mărcile A–Z
                 </a>
@@ -376,8 +350,8 @@ export default function CategoryClient({ category }) {
             <h2>{headings.c01 || `Ce mărci de ${category.name.toLowerCase()} livrăm?`}</h2>
             <p>
               Livrăm {brandCount} branduri în categoria {category.name.toLowerCase()}
-              {featuredBrands.length > 0 && (
-                <> — cele mai cerute: {featuredBrands.slice(0, 5).map((b) => b.name).join(', ')}</>
+              {featuredNames.length > 0 && (
+                <> — cele mai cerute: {featuredNames.join(', ')}</>
               )}.
             </p>
           </div>
@@ -386,7 +360,7 @@ export default function CategoryClient({ category }) {
             {topBrands.map((brand, index) => (
               <div
                 key={brand.name}
-                className={`${styles.brandCard} ${brand.featured ? styles.brandFeatured : ''} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${brandsVisible ? 'is-visible' : ''}`}
+                className={`${styles.brandCard} ${brand.featured ? styles.brandFeatured : ''} ${index >= MOBILE_CARDS && !showAllCards ? styles.mobileHidden : ''} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${brandsVisible ? 'is-visible' : ''}`}
               >
                 <div className={styles.brandLogo}>
                   {brand.name.charAt(0)}
@@ -402,24 +376,29 @@ export default function CategoryClient({ category }) {
                       type: 'brand',
                       name: brand.name,
                       category: category.name,
-                      url: `/brand/${toSimpleSlug(brand.slug)}`
+                      url: `/brand/${brand.simpleSlug}`
                     })}
                     title={isInCart(brand.name) ? 'În cerere' : 'Adaugă la cerere'}
                   >
                     {isInCart(brand.name) ? <Check size={16} /> : <Plus size={16} />}
                   </button>
-                  <Link href={`/brand/${toSimpleSlug(brand.slug)}`} className={styles.brandLink}>
+                  <Link href={`/brand/${brand.simpleSlug}`} className={styles.brandLink}>
                     Detalii <ArrowRight size={14} />
                   </Link>
                 </div>
                 {brand.featured && (
-                  <span className={styles.brandBadge}>Partner Premium</span>
+                  <span className={styles.brandBadge}>Cerut frecvent</span>
                 )}
               </div>
             ))}
           </div>
+          {topBrands.length > MOBILE_CARDS && !showAllCards && (
+            <button type="button" className={styles.mobileMore} onClick={() => setShowAllCards(true)}>
+              Arată toate cele {topBrands.length} mărci recomandate
+            </button>
+          )}
 
-          {rankedBrands.length > topBrands.length && (
+          {azBrands.length > topBrands.length && (
             <div className={styles.azWrap} id="toate-marcile">
               <h3 className={styles.azTitle}>Toate cele {brandCount} de mărci de {category.name.toLowerCase()}, de la A la Z</h3>
               <p className={styles.azLead}>
@@ -427,9 +406,29 @@ export default function CategoryClient({ category }) {
               </p>
               <nav className={styles.azNav} aria-label="Index alfabetic mărci">
                 {azKeys.map((k) => (
-                  <a key={k} href={`#marci-${k === '0–9' ? '0-9' : k}`} className={styles.azNavItem}>{k}</a>
+                  <a
+                    key={k}
+                    href={`#marci-${k === '0–9' ? '0-9' : k}`}
+                    className={styles.azNavItem}
+                    onClick={(e) => {
+                      // The list is display:none on phones until opened: open it
+                      // synchronously, then scroll, so the letter anchor exists.
+                      if (azOpen) return;
+                      e.preventDefault();
+                      flushSync(() => setAzOpen(true));
+                      const id = `marci-${k === '0–9' ? '0-9' : k}`;
+                      document.getElementById(id)?.scrollIntoView();
+                      if (window.history?.replaceState) window.history.replaceState(null, '', `#${id}`);
+                    }}
+                  >{k}</a>
                 ))}
               </nav>
+              {!azOpen && (
+                <button type="button" className={styles.mobileMore} onClick={() => setAzOpen(true)}>
+                  Deschide lista completă ({brandCount} mărci)
+                </button>
+              )}
+              <div className={azOpen ? undefined : styles.azCollapsedMobile}>
               {azKeys.map((k) => (
                 <div key={k} id={`marci-${k === '0–9' ? '0-9' : k}`} className={styles.azGroup}>
                   <span className={styles.azLetter}>{k}</span>
@@ -444,6 +443,7 @@ export default function CategoryClient({ category }) {
                   </ul>
                 </div>
               ))}
+              </div>
             </div>
           )}
 
@@ -458,14 +458,19 @@ export default function CategoryClient({ category }) {
                 <Link href={`/branduri-sua#sua-${category.slug}`}>Branduri din SUA</Link>.
               </p>
               <ul className={styles.azList}>
-                {usBrands.map((b) => (
-                  <li key={`us-${b.simpleSlug}`}>
+                {usBrands.map((b, i) => (
+                  <li key={`us-${b.simpleSlug}`} className={i >= MOBILE_US_LINKS && !usOpen ? styles.mobileHidden : undefined}>
                     <Link href={`/brand/${b.simpleSlug}`} className={b.hasContent ? styles.azLinkRich : styles.azLink}>
                       {b.name}{b.euAvailability === 'dificila' ? ' (import)' : ''}
                     </Link>
                   </li>
                 ))}
               </ul>
+              {usBrands.length > MOBILE_US_LINKS && !usOpen && (
+                <button type="button" className={styles.mobileMore} onClick={() => setUsOpen(true)}>
+                  Arată toate cele {usBrands.length} branduri din SUA
+                </button>
+              )}
             </div>
           )}
         </div>
@@ -543,6 +548,9 @@ export default function CategoryClient({ category }) {
             <div className={styles.sectionHeader}>
               <h2>{headings.c03 || selectionFaq.q}</h2>
             </div>
+            {headings.c03 && headings.c03 !== selectionFaq.q && (
+              <h3 className={styles.selectionQuestion}>{selectionFaq.q}</h3>
+            )}
             <p className={styles.sectionLead}>{selectionFaq.a}</p>
           </div>
         </section>
@@ -595,20 +603,20 @@ export default function CategoryClient({ category }) {
 
             {/* C-06 - Cât durează livrarea la <categorie>? (was "Livrare
                 Rapidă") */}
-            <div className={styles.servicesCard}>
+            <div className={styles.servicesCard} id="livrare">
               <div className={styles.servicesIcon}>
                 <Truck size={32} />
               </div>
               <h3>{headings.c06 || `Cât durează livrarea la ${category.name.toLowerCase()}?`}</h3>
               <p>
-                Termenul orientativ este {LEAD_TIME_TO_ORDER} pentru comenzi de fabrică, respectiv{' '}
-                {LEAD_TIME_FROM_STOCK} pentru reperele aflate deja pe stoc.
+                Termenul depinde de unde se află reperul și de cât de standard este execuția; îl scriem
+                explicit în fiecare ofertă.
               </p>
               <ul className={styles.servicesList}>
-                <li><Check size={16} />Livrare {LEAD_TIME_FROM_STOCK} pentru stoc disponibil</li>
-                <li><Check size={16} />Transport express internațional</li>
-                <li><Check size={16} />Livrare în toată România</li>
-                <li><Check size={16} />Ambalare profesională</li>
+                <li><Check size={16} />{CATEGORY_LEAD_TIME.stock}</li>
+                <li><Check size={16} />{CATEGORY_LEAD_TIME.factory}</li>
+                <li><Check size={16} />{CATEGORY_LEAD_TIME.special}</li>
+                <li><Check size={16} />Livrare în toată România, cu transport internațional express când termenul o cere.</li>
               </ul>
             </div>
           </div>
@@ -699,7 +707,7 @@ export default function CategoryClient({ category }) {
                   value={formData.category}
                   onChange={handleChange}
                 >
-                  {categories.map((cat) => (
+                  {categoryNames.map((cat) => (
                     <option key={cat.id} value={cat.name}>{cat.name}</option>
                   ))}
                 </select>
@@ -788,17 +796,53 @@ export default function CategoryClient({ category }) {
         </div>
       </section>
 
+      {/* v16 (D-2026-09-26): where the equipment is used + what we wrote
+          about it. Curated in src/data/categoryRelated.js, resolved on the
+          server (page.js) and passed in as a prop. */}
+      {(related.industries.length > 0 || related.articles.length > 0) && (
+        <section className={styles.relatedSection}>
+          <div className={styles.container}>
+            {related.industries.length > 0 && (
+              <>
+                <h2>În ce industrii livrăm {category.name.toLowerCase()}?</h2>
+                <p className={styles.sectionLead}>
+                  Paginile de industrie arată ce echipamente se cer în fiecare sector și ce trebuie verificat la ofertare.
+                </p>
+                <ul className={styles.relatedChips}>
+                  {related.industries.map((i) => (
+                    <li key={i.slug}><Link href={i.url} className={styles.relatedChip}>{i.name}</Link></li>
+                  ))}
+                </ul>
+              </>
+            )}
+            {related.articles.length > 0 && (
+              <>
+                <h3 className={styles.relatedSubtitle}>Ghiduri și comparații din blog</h3>
+                <ul className={styles.relatedArticles}>
+                  {related.articles.map((a) => (
+                    <li key={a.slug}>
+                      <Link href={a.url} className={styles.relatedArticle}>
+                        {a.title} <ArrowRight size={14} />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* C-11 - Ce alte categorii de echipamente livrăm? (was "Explorează și
           alte categorii") */}
       <section className={styles.otherCategories}>
         <div className={styles.container}>
           <h2>{C11_HEADING}</h2>
           <p className={styles.sectionLead}>
-            Livrăm echipamente în {categories.length} categorii; iată celelalte {categories.length - 1}.
+            Livrăm echipamente în {otherCategories.length + 1} categorii; iată celelalte {otherCategories.length}.
           </p>
           <div className={styles.otherCategoriesGrid}>
-            {categories
-              .filter(c => c.id !== category.id)
+            {otherCategories
               .map((cat) => (
                 <Link key={cat.id} href={`/${cat.slug}`} className={styles.otherCategoryCard}>
                   <span className={styles.otherCategoryName}>{cat.name}</span>

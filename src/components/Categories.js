@@ -90,7 +90,7 @@ export default function Categories() {
                       </div>
                       <div className={styles.cardStat}>
                         <span className={styles.cardStatValue}>{category.stats.delivery}</span>
-                        <span className={styles.cardStatLabel}>Livrare</span>
+                        <span className={styles.cardStatLabel}>Livrare din stoc</span>
                       </div>
                     </div>
 

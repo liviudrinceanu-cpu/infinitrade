@@ -10,6 +10,8 @@ import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
 import { buildCategoryJsonLd } from '@/lib/schema/category';
 import CategoryClient from './CategoryClient';
+import { getRelatedForCategory } from '@/data/categoryRelated';
+import { buildCategoryView, slimCategory } from '@/data/categoryView';
 import styles from './category.module.css';
 
 export const revalidate = 3600;
@@ -48,8 +50,9 @@ export async function generateMetadata({ params }) {
   const title = category.metaTitle && category.metaTitle.length <= 62
     ? { absolute: category.metaTitle }
     : category.name;
-  // Use metaDescription from data (already optimized for length) instead of dynamic description
-  const description = category.metaDescription;
+  // v16: metaDescription (140–155 characters once filled) carries a {N}
+  // placeholder for the live brand count of the merged category list.
+  const description = (category.metaDescription || '').replace('{N}', String(category.brands.length));
 
   return {
     title,
@@ -135,28 +138,13 @@ export default async function CategoryPage({ params }) {
         </div>
 
         {/* Client-side interactive content */}
-        <CategoryClient category={category} />
+        <CategoryClient category={slimCategory(category)} view={buildCategoryView(category)} related={getRelatedForCategory(category.slug)} />
 
-        {/* Expert FAQ - concrete, technical answers for buyers, engineers and AI answer engines */}
-        {expertFaqs.length > 0 && (
-          <section aria-labelledby="faq-heading" className={styles.faqSection}>
-            <div className={styles.container}>
-              <div className={styles.sectionHeader}>
-                <h2 id="faq-heading">Întrebări frecvente despre {category.name}</h2>
-              </div>
-              <div className={styles.faqList}>
-                {expertFaqs.map((item, index) => (
-                  <details key={index} className={styles.faqItem}>
-                    <summary className={styles.faqQuestion}>{item.q}</summary>
-                    <div className={styles.faqAnswer}>
-                      <p>{item.a}</p>
-                    </div>
-                  </details>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+        {/* v16 (D-2026-09-26): the expert FAQ is rendered once, inside
+            CategoryClient (first entry as C-03, the rest as C-09) — the second,
+            full copy that used to follow here doubled ~800 px on phones and
+            duplicated id="faq-heading". The FAQPage JSON-LD above still maps
+            1:1 to the visible questions. */}
       </main>
       <Footer />
     </>

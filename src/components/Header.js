@@ -7,69 +7,31 @@ import Image from 'next/image';
 // Removed framer-motion - using CSS transitions for better performance (~30KB savings)
 import { Menu, X, ChevronDown, Phone, Mail, Clock, Search, ShoppingCart, Plus, Trash2 } from 'lucide-react';
 import { navigation, secondaryNavigation } from '@/data/products';
-import { allCategoriesUnified as categories, allBrandsUnified, getTopBrandsForCategory } from '@/data/allBrandsIndex';
+import { HEADER_CATEGORY_MENUS } from '@/data/headerMenus';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { debounce } from '@/lib/utils';
 import styles from './Header.module.css';
 
-// Build search index - moved outside component
-const buildSearchIndex = () => {
-  const items = [];
-  
-  categories.forEach(cat => {
-    items.push({
-      type: 'category',
-      name: cat.name,
-      url: `/${cat.slug}`,
-      keywords: [cat.name.toLowerCase(), cat.tagline?.toLowerCase() || '']
-    });
-    
-    cat.productTypes?.forEach(pt => {
-      items.push({
-        type: 'product',
-        name: pt.name,
-        category: cat.name,
-        url: `/${cat.slug}/${pt.slug}`,
-        keywords: [pt.name.toLowerCase(), cat.name.toLowerCase()]
-      });
-    });
-  });
-  
-  allBrandsUnified.forEach(brand => {
-    const catName = brand.categories?.[0]?.name || '';
-    items.push({
-      type: 'brand',
-      name: brand.name,
-      category: catName,
-      url: `/brand/${brand.simpleSlug}`,
-      keywords: [brand.name.toLowerCase(), catName.toLowerCase(), brand.country?.toLowerCase() || '']
-    });
-  });
-  
-  return items;
+// v16 (D-2026-09-26): the search index (categories, product types, 1 300+
+// brands) is a generated file loaded on the first search keystroke, and the
+// dropdown menus come precomputed from src/data/headerMenus.js. The Header no
+// longer imports allBrandsIndex.js, which pulled every brandContent batch
+// into the JavaScript of every page. Regenerate both with
+// `node scripts/build-client-indexes.mjs`.
+let searchIndexPromise = null;
+const loadSearchIndex = () => {
+  if (!searchIndexPromise) {
+    searchIndexPromise = import('@/data/headerSearchIndex')
+      .then((m) => m.HEADER_SEARCH_INDEX.map((e) => ({ type: e.t, name: e.n, category: e.c, url: e.u, k: e.k })))
+      .catch((err) => { searchIndexPromise = null; throw err; });
+  }
+  return searchIndexPromise;
 };
 
-// Build once, reuse
-const searchIndex = buildSearchIndex();
-
-// v11 (D-2026-09-26): one dropdown per main category — its product types,
-// its 10 leading brands (same ordering rule as the category page) and a link
-// to the full A–Z list. Computed once at module load, never per render.
-const MAIN_CATEGORY_MENUS = Object.fromEntries(
-  navigation
-    .filter((item) => !item.isDropdown)
-    .map((item) => {
-      const category = categories.find((cat) => `/${cat.slug}` === item.href);
-      if (!category) return null;
-      return [item.href, {
-        category,
-        productTypes: (category.productTypes || []).slice(0, 6),
-        topBrands: getTopBrandsForCategory(category.slug, 10),
-        brandCount: (category.brands || []).length,
-      }];
-    })
-    .filter(Boolean)
-);
+// v11 dropdowns: one per main category — its product types, its 10 leading
+// brands (same ordering rule as the category page) and a link to the full
+// A–Z list. Keyed by the navigation href.
+const MAIN_CATEGORY_MENUS = HEADER_CATEGORY_MENUS;
 
 export default function Header() {
   const router = useRouter();
@@ -152,12 +114,15 @@ export default function Header() {
       }
       
       const q = query.toLowerCase();
-      const results = searchIndex.filter(item => 
-        item.keywords.some(kw => kw.includes(q)) || 
-        item.name.toLowerCase().includes(q)
-      ).slice(0, 8);
-      
-      setSearchResults(results);
+      loadSearchIndex()
+        .then((searchIndex) => {
+          const results = searchIndex.filter(item =>
+            item.k.includes(q) ||
+            item.name.toLowerCase().includes(q)
+          ).slice(0, 8);
+          setSearchResults(results);
+        })
+        .catch(() => setSearchResults([]));
     }, 300),
     []
   );
@@ -388,7 +353,7 @@ export default function Header() {
                     placeholder="Caută branduri, produse, echipamente..."
                     value={searchQuery}
                     onChange={handleSearchChange}
-                    onFocus={() => setIsSearchFocused(true)}
+                    onFocus={() => { setIsSearchFocused(true); loadSearchIndex().catch(() => {}); }}
                     className={styles.searchInput}
                     aria-label="Căutare produse"
                   />

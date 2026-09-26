@@ -3,7 +3,10 @@
 import Link from 'next/link';
 import { Mail, MapPin, Clock, ArrowUpRight } from 'lucide-react';
 import { categories, companyInfo, footerIndustries } from '@/data/products';
-import { equipmentCategories } from '@/data/equipmentCategories';
+// v16: the category list comes from the generated headerMenus.js (5 main
+// categories first, then the equipment categories, same order as the data
+// files) instead of the full equipmentCategories.js data file.
+import { CLIENT_CATEGORIES } from '@/data/headerMenus';
 import { config } from '@/lib/config';
 import styles from './Footer.module.css';
 import { siteStats } from '@/data/siteStats';
@@ -65,7 +68,7 @@ export default function Footer() {
           <div className={styles.column}>
             <h4 className={styles.columnTitle}>Echipamente</h4>
             <ul className={styles.columnList}>
-              {equipmentCategories.slice(0, 6).map((cat) => (
+              {CLIENT_CATEGORIES.slice(5, 11).map((cat) => (
                 <li key={cat.slug}>
                   <Link href={`/${cat.slug}`} className={styles.columnLink}>
                     {cat.name}
