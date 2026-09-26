@@ -408,6 +408,32 @@ export const categoryFaqs = {
       a: 'Echipamentele de protecție individuală și consumabilele curente (filtre, măști, mănuși) sunt de regulă disponibile din stoc, cu livrare în 24-72h. Pompele dozatoare configurate pentru un debit specific, rezervoarele de dimensiuni speciale sau sistemele complete de dozare au termen de 2-6 săptămâni. Infinitrade poate menține stocuri dedicate de consumabile de protecție pentru fabrici cu consum recurent, pentru a evita rupturile de stoc la echipa de mentenanță sau SSM.',
     },
   ],
+  'aparate-masura-testare': [
+    {
+      q: "Cum aleg un multimetru pentru mentenanță electrică industrială?",
+      a: "Trei parametri contează: domeniul de măsură (tensiune AC/DC, curent, rezistență) trebuie să acopere valorile din instalația verificată, rezoluția și acuratețea indicate de producător decid cât de fine sunt diferențele pe care le puteți distinge, iar categoria de siguranță (CAT III sau CAT IV, conform IEC 61010) trebuie să corespundă punctului de măsură din instalație - un multimetru CAT III e potrivit pentru tablouri de distribuție, CAT IV pentru punctul de racord la rețea. Funcțiile suplimentare utile în mentenanță sunt măsurarea curenților de pornire, testul de continuitate cu semnal sonor și memorarea valorilor pentru raportare.",
+    },
+    {
+      q: "Ce înseamnă categoria de siguranță CAT III / CAT IV la un multimetru sau la un tester?",
+      a: "Categoriile de supratensiune definite în IEC 61010 arată cât de aproape de sursa de energie se face măsurătoarea și ce nivel de tranzitorii poate suporta aparatul fără risc pentru utilizator. CAT II acoperă prize și echipamente conectate la circuitul final, CAT III circuitele de distribuție din tablourile industriale și utilajele fixe, iar CAT IV punctul de origine al instalației - branșamentul de la rețeaua de distribuție. Un aparat cu categorie mai mică folosit într-un punct cu categorie mai mare nu oferă protecție suficientă la un arc electric sau la o supratensiune tranzitorie. Alegeți categoria pentru cel mai riscant punct de măsură din activitatea dumneavoastră, nu pentru cel mai frecvent.",
+    },
+    {
+      q: "Ce verificări PRAM trebuie făcute periodic și ce aparate sunt necesare?",
+      a: "Verificările periodice de electrosecuritate (PRAM) includ măsurarea rezistenței de izolație, a rezistenței prizei de pământ, testarea continuității conductorului de protecție și verificarea funcționării întrerupătoarelor diferențiale, conform standardelor aplicabile instrumentelor de măsură (de exemplu IEC 61557). Pentru instalații electrice de joasă tensiune sunt necesare un tester de instalații (izolație, priză de pământ, RCD) și, pentru rețele mai complexe, echipamente de verificare a releelor de protecție și de defectoscopie a cablurilor. Frecvența verificărilor și documentele necesare depind de tipul instalației și de reglementările interne ale beneficiarului sau ale autorității care recepționează raportul.",
+    },
+    {
+      q: "Cum aleg o cameră de termoviziune pentru mentenanță predictivă?",
+      a: "Rezoluția termică (numărul de pixeli ai senzorului) determină cât de mici sunt detaliile vizibile pe o imagine termografică, iar sensibilitatea termică (NETD, exprimată în mili-grade) arată cea mai mică diferență de temperatură pe care o poate distinge camera - esențială pentru a depista un punct cald incipient la o conexiune electrică. Domeniul de temperatură măsurabil trebuie ales în funcție de aplicație: verificările electrice, mecanice sau de proces au intervale diferite. Pentru rapoartele de mentenanță predictivă contează și softul de analiză livrat cu aparatul, care permite marcarea punctelor critice și urmărirea evoluției lor în timp.",
+    },
+    {
+      q: "Ce este un analizor de calitate a energiei și când e nevoie de unul?",
+      a: "Un analizor de calitate a energiei măsoară parametrii rețelei electrice - tensiune, curent, factor de putere, armonici, dezechilibru de fază și evenimente de tip cădere sau supratensiune - și îi înregistrează pe o perioadă de timp (logger) pentru analiză ulterioară. Este necesar când apar probleme greu de explicat doar prin măsurători punctuale: declanșări repetate ale protecțiilor, supraîncălzirea echipamentelor, facturi de energie neconcordante cu consumul așteptat sau la auditul energetic al unei hale industriale. Alegerea modelului depinde de numărul de faze monitorizate, de clasa de acuratețe cerută și de durata perioadei de înregistrare necesară pentru un diagnostic relevant.",
+    },
+    {
+      q: "Ce trebuie să trimit pentru o ofertă de aparate de măsură și testare și cât durează livrarea?",
+      a: "Cele mai utile informații sunt: tipul de aparat sau parametrul care trebuie măsurat, domeniul de măsură necesar, categoria de siguranță CAT cerută de aplicație și dacă e nevoie de certificat de etalonare la livrare. Pentru echipamente de proces (analizoare, loggere, calibratoare) contează și numărul de canale sau faze monitorizate. Termenul de livrare este, de regulă, de 2-6 săptămâni la comandă, în funcție de producător și de disponibilitatea modelului solicitat; certificatul de etalonare, atunci când este cerut, poate adăuga timp suplimentar pentru că verificarea se face de către producător sau de un laborator acreditat înainte de expediere.",
+    },
+  ],
 };
 
 export function getCategoryFaq(slug) {

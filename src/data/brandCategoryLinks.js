@@ -14,7 +14,7 @@
  * blocks list them. BRAND_PRODUCT_TYPES maps a brand to the product-type
  * slugs (from its categories' productTypes) it actually makes.
  *
- * 199 secondary memberships across 14 categories; 893 brands with product types.
+ * 221 secondary memberships across 15 categories; 979 brands with product types.
  */
 export const SECONDARY_CATEGORIES = {
   "pompe-industriale": [
@@ -243,6 +243,30 @@ export const SECONDARY_CATEGORIES = {
     "spx-flow",
     "sulzer",
     "uvex"
+  ],
+  "aparate-masura-testare": [
+    "aim-tti",
+    "bruel-kjr",
+    "chauvin-arnoux",
+    "flir",
+    "fluke",
+    "gw-instek",
+    "hbm",
+    "hioki",
+    "ht-italia",
+    "keithley",
+    "kyoritsu",
+    "megger",
+    "metrel",
+    "pfiffner",
+    "rigol-technologies",
+    "rohde-schwarz",
+    "sika",
+    "stahlwille",
+    "testo",
+    "wika",
+    "wilcoxon-sensing-technologies",
+    "yokogawa"
   ]
 };
 
@@ -287,6 +311,9 @@ export const BRAND_PRODUCT_TYPES = {
     "uleiuri-transmisie",
     "uleiuri-hidraulice"
   ],
+  "additel": [
+    "calibratoare-etalonare"
+  ],
   "aerzen": [
     "suflante-roots-industriale",
     "compresoare-industriale"
@@ -301,13 +328,17 @@ export const BRAND_PRODUCT_TYPES = {
     "debitimetre",
     "actuatoare-electrice"
   ],
+  "ahlborn": [
+    "osciloscoape-generatoare-surse"
+  ],
   "aignep": [
     "furtunuri-racorduri",
     "valve-pneumatice",
     "filtre-aer"
   ],
   "aim-tti": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "osciloscoape-generatoare-surse"
   ],
   "airpot": [
     "cilindri-pneumatici"
@@ -350,6 +381,9 @@ export const BRAND_PRODUCT_TYPES = {
   "ametek-magnetrol": [
     "traductoare-nivel"
   ],
+  "ametek-programmable-power": [
+    "osciloscoape-generatoare-surse"
+  ],
   "amiad": [
     "elemente-filtrante"
   ],
@@ -379,6 +413,10 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "ansell": [
     "protectie-munca"
+  ],
+  "aoip": [
+    "calibratoare-etalonare",
+    "testere-electrosecuritate-pram"
   ],
   "api-heat-transfer": [
     "schimbatoare-placi-demontabile-industriale"
@@ -436,6 +474,9 @@ export const BRAND_PRODUCT_TYPES = {
     "manometre",
     "senzori-presiune",
     "senzori-temperatura"
+  ],
+  "associated-research": [
+    "testere-electrosecuritate-pram"
   ],
   "asv-stubbe": [
     "robineti-fluture-industriali",
@@ -534,6 +575,9 @@ export const BRAND_PRODUCT_TYPES = {
     "senzori-presiune",
     "traductoare-nivel"
   ],
+  "beamex": [
+    "calibratoare-etalonare"
+  ],
   "becker": [
     "pompe-vid-industriale",
     "suflante-canal-lateral-industriale",
@@ -543,6 +587,10 @@ export const BRAND_PRODUCT_TYPES = {
     "servomotoare-industriale",
     "module-io",
     "plc-controllere"
+  ],
+  "beha-amprobe": [
+    "multimetre-clesti-ampermetrici",
+    "testere-electrosecuritate-pram"
   ],
   "beijer-electronics": [
     "hmi-panouri",
@@ -598,6 +646,10 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "bishop-wisecarver": [
     "rulmenti-industriali"
+  ],
+  "bk-precision": [
+    "osciloscoape-generatoare-surse",
+    "multimetre-clesti-ampermetrici"
   ],
   "blacoh-industries": [
     "supape-siguranta-industriale"
@@ -663,6 +715,9 @@ export const BRAND_PRODUCT_TYPES = {
     "module-io",
     "servomotoare-industriale"
   ],
+  "branson": [
+    "echipamente-sudura"
+  ],
   "bray": [
     "robineti-fluture-industriali",
     "robineti-bila-industriali",
@@ -685,6 +740,9 @@ export const BRAND_PRODUCT_TYPES = {
   "brook": [
     "motoare-atex-industriale",
     "motoare-asincrone-industriale"
+  ],
+  "bruel-kjr": [
+    "termoviziune-vibratii-aliniere"
   ],
   "bsb-safety-systems": [
     "supape-siguranta-industriale"
@@ -725,6 +783,9 @@ export const BRAND_PRODUCT_TYPES = {
   "c-k-tools": [
     "scule-mana"
   ],
+  "c-logic": [
+    "multimetre-clesti-ampermetrici"
+  ],
   "caleffi": [
     "robineti-reglare-industriali"
   ],
@@ -735,8 +796,15 @@ export const BRAND_PRODUCT_TYPES = {
   "calgon-carbon": [
     "elemente-filtrante"
   ],
+  "calmet": [
+    "calibratoare-etalonare",
+    "analizoare-calitate-energie"
+  ],
   "calpeda": [
     "pompe-centrifugale-industriale"
+  ],
+  "camille-bauer": [
+    "analizoare-calitate-energie"
   ],
   "camozzi": [
     "cilindri-pneumatici",
@@ -814,7 +882,10 @@ export const BRAND_PRODUCT_TYPES = {
     "schimbatoare-tubulare-industriale"
   ],
   "chauvin-arnoux": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "multimetre-clesti-ampermetrici",
+    "analizoare-calitate-energie",
+    "testere-electrosecuritate-pram"
   ],
   "check-all-valve": [
     "clapete-retinere-industriale"
@@ -845,6 +916,10 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "chr-mayr": [
     "cuplaje-mecanice"
+  ],
+  "chroma": [
+    "testere-electrosecuritate-pram",
+    "osciloscoape-generatoare-surse"
   ],
   "cidat": [
     "furtunuri-racorduri"
@@ -889,6 +964,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "cofra": [
     "protectie-munca"
+  ],
+  "comark": [
+    "osciloscoape-generatoare-surse"
   ],
   "comet": [
     "pompe-hidraulice"
@@ -981,6 +1059,9 @@ export const BRAND_PRODUCT_TYPES = {
   "dehn": [
     "protectii-electrice"
   ],
+  "delta-elektronika": [
+    "osciloscoape-generatoare-surse"
+  ],
   "delta-plus": [
     "protectie-munca"
   ],
@@ -993,8 +1074,15 @@ export const BRAND_PRODUCT_TYPES = {
   "dewalt": [
     "scule-electrice"
   ],
+  "dewesoft": [
+    "osciloscoape-generatoare-surse",
+    "analizoare-calitate-energie"
+  ],
   "dickow-pumpen": [
     "pompe-centrifugale-industriale"
+  ],
+  "dilo": [
+    "testere-electrosecuritate-pram"
   ],
   "divinol": [
     "uleiuri-transmisie",
@@ -1003,6 +1091,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "dixon-valve": [
     "furtunuri-racorduri"
+  ],
+  "doble": [
+    "testere-electrosecuritate-pram"
   ],
   "dodge-industrial": [
     "rulmenti-industriali"
@@ -1026,12 +1117,19 @@ export const BRAND_PRODUCT_TYPES = {
   "doseuro": [
     "pompe-dozatoare-industriale"
   ],
+  "dostmann": [
+    "osciloscoape-generatoare-surse",
+    "calibratoare-etalonare"
+  ],
   "drager": [
     "protectie-munca",
     "analizoare"
   ],
   "dropsa": [
     "filtre-ulei"
+  ],
+  "druck": [
+    "calibratoare-etalonare"
   ],
   "dst-chemicals": [
     "spray-tehnice"
@@ -1049,6 +1147,13 @@ export const BRAND_PRODUCT_TYPES = {
     "actuatoare-electrice",
     "chillere-industriale"
   ],
+  "durex-industries": [
+    "cazane-industriale",
+    "sisteme-climatizare"
+  ],
+  "dv-power": [
+    "testere-electrosecuritate-pram"
+  ],
   "dwyer": [
     "manometre",
     "senzori-presiune",
@@ -1064,8 +1169,14 @@ export const BRAND_PRODUCT_TYPES = {
   "e-j-bowman": [
     "racitoare-ulei-industriale"
   ],
+  "ea-elektro-automatik": [
+    "osciloscoape-generatoare-surse"
+  ],
   "eagleburgmann": [
     "garnituri-simering"
+  ],
+  "easy-laser": [
+    "termoviziune-vibratii-aliniere"
   ],
   "eaton": [
     "intrerupatoare-automate",
@@ -1093,6 +1204,9 @@ export const BRAND_PRODUCT_TYPES = {
     "robineti-fluture-industriali",
     "robineti-bila-industriali"
   ],
+  "ebro-electronic": [
+    "osciloscoape-generatoare-surse"
+  ],
   "ecoflam": [
     "arzatoare"
   ],
@@ -1110,6 +1224,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "elesa-ganter": [
     "cuplaje-mecanice"
+  ],
+  "ellab": [
+    "osciloscoape-generatoare-surse"
   ],
   "elmag": [
     "echipamente-sudura",
@@ -1187,6 +1304,9 @@ export const BRAND_PRODUCT_TYPES = {
     "servomotoare-industriale",
     "convertizoare-frecventa-industriale"
   ],
+  "et-system": [
+    "osciloscoape-generatoare-surse"
+  ],
   "etatron": [
     "pompe-dozatoare-industriale"
   ],
@@ -1194,17 +1314,30 @@ export const BRAND_PRODUCT_TYPES = {
     "protectii-electrice",
     "intrerupatoare-automate"
   ],
+  "ets-lindgren": [
+    "testere-electrosecuritate-pram"
+  ],
+  "eurosmc": [
+    "testere-electrosecuritate-pram"
+  ],
   "ewm": [
     "echipamente-sudura"
   ],
   "exair": [
     "furtunuri-racorduri"
   ],
+  "exfo": [
+    "testere-electrosecuritate-pram"
+  ],
   "exlar": [
     "actuatoare-electrice"
   ],
   "exor-international": [
     "hmi-panouri"
+  ],
+  "extech": [
+    "multimetre-clesti-ampermetrici",
+    "termoviziune-vibratii-aliniere"
   ],
   "fabco-air": [
     "cilindri-pneumatici"
@@ -1282,6 +1415,9 @@ export const BRAND_PRODUCT_TYPES = {
   "fisher": [
     "robineti-reglare-industriali"
   ],
+  "fixturlaser": [
+    "termoviziune-vibratii-aliniere"
+  ],
   "fleetguard": [
     "filtre-ulei",
     "filtre-hidraulice"
@@ -1289,9 +1425,13 @@ export const BRAND_PRODUCT_TYPES = {
   "flender": [
     "motoreductoare-industriale"
   ],
+  "flexitallic": [
+    "garnituri-simering"
+  ],
   "flir": [
     "echipamente-testare",
-    "analizoare"
+    "analizoare",
+    "termoviziune-vibratii-aliniere"
   ],
   "fluimac": [
     "pompe-dozatoare-industriale"
@@ -1300,7 +1440,20 @@ export const BRAND_PRODUCT_TYPES = {
     "garnituri-simering"
   ],
   "fluke": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "multimetre-clesti-ampermetrici",
+    "calibratoare-etalonare",
+    "termoviziune-vibratii-aliniere",
+    "testere-electrosecuritate-pram"
+  ],
+  "fluke-calibration": [
+    "calibratoare-etalonare"
+  ],
+  "fluke-networks": [
+    "testere-electrosecuritate-pram"
+  ],
+  "fluke-process-instruments": [
+    "termoviziune-vibratii-aliniere"
   ],
   "flux": [
     "pompe-surub-excentric-industriale"
@@ -1323,6 +1476,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "franklin-electric": [
     "pompe-submersibile-industriale"
+  ],
+  "frankonia": [
+    "testere-electrosecuritate-pram"
   ],
   "frenzelit": [
     "garnituri-simering"
@@ -1451,12 +1607,21 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-centrifugale-industriale",
     "grupuri-pompare-industriale"
   ],
+  "gossen-metrawatt": [
+    "multimetre-clesti-ampermetrici",
+    "testere-electrosecuritate-pram",
+    "analizoare-calitate-energie"
+  ],
   "gp-50": [
     "senzori-presiune"
   ],
   "graham": [
     "schimbatoare-tubulare-industriale",
     "condensatoare-industriale"
+  ],
+  "graphtec": [
+    "osciloscoape-generatoare-surse",
+    "multimetre-clesti-ampermetrici"
   ],
   "greenlee": [
     "scule-electrice"
@@ -1484,11 +1649,15 @@ export const BRAND_PRODUCT_TYPES = {
   "gruppo-aturia": [
     "pompe-centrifugale-industriale"
   ],
+  "guide-sensmart": [
+    "termoviziune-vibratii-aliniere"
+  ],
   "gusher-pumps": [
     "pompe-centrifugale-industriale"
   ],
   "gw-instek": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "osciloscoape-generatoare-surse"
   ],
   "habasit": [
     "benzi-transportoare",
@@ -1496,6 +1665,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "hach": [
     "analizoare"
+  ],
+  "haefely": [
+    "testere-electrosecuritate-pram"
   ],
   "hager": [
     "intrerupatoare-automate",
@@ -1548,6 +1720,9 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-centrifugale-industriale",
     "pompe-submersibile-industriale"
   ],
+  "hikmicro": [
+    "termoviziune-vibratii-aliniere"
+  ],
   "hilliard": [
     "filtre-ulei",
     "elemente-filtrante"
@@ -1564,13 +1739,21 @@ export const BRAND_PRODUCT_TYPES = {
     "filtre-aer"
   ],
   "hioki": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "multimetre-clesti-ampermetrici",
+    "analizoare-calitate-energie"
   ],
   "hip": [
     "robineti-bila-industriali"
   ],
+  "hipotronics": [
+    "testere-electrosecuritate-pram"
+  ],
   "hobart": [
     "echipamente-sudura"
+  ],
+  "hoecherl-hackl": [
+    "osciloscoape-generatoare-surse"
   ],
   "hoke": [
     "robineti-bila-industriali"
@@ -1611,7 +1794,9 @@ export const BRAND_PRODUCT_TYPES = {
     "traductoare-nivel"
   ],
   "ht-italia": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "testere-electrosecuritate-pram",
+    "analizoare-calitate-energie"
   ],
   "hubbell": [
     "tablouri-electrice",
@@ -1772,6 +1957,9 @@ export const BRAND_PRODUCT_TYPES = {
   "james-walker": [
     "garnituri-simering"
   ],
+  "janitza": [
+    "analizoare-calitate-energie"
+  ],
   "jax": [
     "unsori-industriale",
     "uleiuri-transmisie"
@@ -1837,6 +2025,11 @@ export const BRAND_PRODUCT_TYPES = {
   "keb-automation": [
     "convertizoare-frecventa-industriale"
   ],
+  "keithley": [
+    "echipamente-testare",
+    "multimetre-clesti-ampermetrici",
+    "osciloscoape-generatoare-surse"
+  ],
   "keller": [
     "senzori-presiune",
     "traductoare-nivel"
@@ -1868,6 +2061,10 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "kettenwulf": [
     "lanturi-industriale"
+  ],
+  "kewtech": [
+    "testere-electrosecuritate-pram",
+    "multimetre-clesti-ampermetrici"
   ],
   "keysight-technologies": [
     "echipamente-testare"
@@ -1911,6 +2108,11 @@ export const BRAND_PRODUCT_TYPES = {
     "traductoare-nivel",
     "senzori-presiune"
   ],
+  "kocos": [
+    "testere-electrosecuritate-pram",
+    "analizoare-calitate-energie",
+    "calibratoare-etalonare"
+  ],
   "koganei": [
     "cilindri-pneumatici",
     "valve-pneumatice",
@@ -1943,7 +2145,9 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-hidraulice"
   ],
   "kyoritsu": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "multimetre-clesti-ampermetrici",
+    "testere-electrosecuritate-pram"
   ],
   "lafert": [
     "servomotoare-industriale",
@@ -1951,6 +2155,10 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "lamons": [
     "garnituri-simering"
+  ],
+  "land-instruments": [
+    "senzori-temperatura",
+    "analizoare"
   ],
   "landia": [
     "pompe-submersibile-industriale",
@@ -1962,6 +2170,10 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "lapp": [
     "cabluri-industriale"
+  ],
+  "larson-electronics": [
+    "protectii-electrice",
+    "tablouri-electrice"
   ],
   "legrand": [
     "tablouri-electrice"
@@ -2071,6 +2283,10 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-centrifugale-industriale",
     "pompe-submersibile-industriale"
   ],
+  "march-pumps": [
+    "pompe-centrifugale-industriale",
+    "pompe-dozatoare-industriale"
+  ],
   "marelli": [
     "motoare-asincrone-industriale"
   ],
@@ -2101,6 +2317,9 @@ export const BRAND_PRODUCT_TYPES = {
   "mayr": [
     "cuplaje-mecanice"
   ],
+  "meatest": [
+    "calibratoare-etalonare"
+  ],
   "meccanotecnica-umbra": [
     "garnituri-simering"
   ],
@@ -2108,7 +2327,8 @@ export const BRAND_PRODUCT_TYPES = {
     "curele-transmisie"
   ],
   "megger": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "testere-electrosecuritate-pram"
   ],
   "megmeet": [
     "plc-controllere",
@@ -2138,7 +2358,13 @@ export const BRAND_PRODUCT_TYPES = {
     "clapete-retinere-industriale"
   ],
   "metrel": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "testere-electrosecuritate-pram",
+    "analizoare-calitate-energie"
+  ],
+  "metrix-chauvin-arnoux": [
+    "multimetre-clesti-ampermetrici",
+    "testere-electrosecuritate-pram"
   ],
   "metrohm": [
     "analizoare"
@@ -2232,8 +2458,15 @@ export const BRAND_PRODUCT_TYPES = {
     "protectie-munca",
     "analizoare"
   ],
+  "mte": [
+    "calibratoare-etalonare"
+  ],
   "mts": [
     "echipamente-testare"
+  ],
+  "multimetrix": [
+    "multimetre-clesti-ampermetrici",
+    "osciloscoape-generatoare-surse"
   ],
   "munsch-chemie-pumpen": [
     "pompe-centrifugale-industriale"
@@ -2382,6 +2615,9 @@ export const BRAND_PRODUCT_TYPES = {
     "module-io",
     "plc-controllere"
   ],
+  "optris": [
+    "senzori-temperatura"
+  ],
   "opw": [
     "rezervoare-industriale"
   ],
@@ -2392,6 +2628,9 @@ export const BRAND_PRODUCT_TYPES = {
     "robineti-reglare-industriali",
     "clapete-retinere-industriale",
     "robineti-bila-industriali"
+  ],
+  "oros": [
+    "termoviziune-vibratii-aliniere"
   ],
   "ortlinghaus": [
     "cuplaje-mecanice"
@@ -2404,6 +2643,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "oventrop": [
     "robineti-reglare-industriali"
+  ],
+  "pacific-power-source": [
+    "osciloscoape-generatoare-surse"
   ],
   "pall": [
     "elemente-filtrante",
@@ -2440,6 +2682,10 @@ export const BRAND_PRODUCT_TYPES = {
   "pcb-piezotronics": [
     "senzori-presiune"
   ],
+  "peaktech": [
+    "multimetre-clesti-ampermetrici",
+    "osciloscoape-generatoare-surse"
+  ],
   "pedro-gil": [
     "pompe-vid-industriale",
     "suflante-roots-industriale",
@@ -2466,6 +2712,9 @@ export const BRAND_PRODUCT_TYPES = {
   "pfeiffer-vacuum": [
     "pompe-vid-industriale",
     "pompe-vid-suflante"
+  ],
+  "pfiffner": [
+    "analizoare"
   ],
   "phd-inc": [
     "cilindri-pneumatici",
@@ -2504,6 +2753,9 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-hidraulice",
     "distribuitoare-hidraulice"
   ],
+  "pomona": [
+    "multimetre-clesti-ampermetrici"
+  ],
   "portwest": [
     "protectie-munca"
   ],
@@ -2531,6 +2783,10 @@ export const BRAND_PRODUCT_TYPES = {
   "proco-products": [
     "clapete-retinere-industriale"
   ],
+  "procon": [
+    "pompe-dozatoare-industriale",
+    "pompe-centrifugale-industriale"
+  ],
   "prominent": [
     "pompe-dozatoare-industriale"
   ],
@@ -2554,6 +2810,10 @@ export const BRAND_PRODUCT_TYPES = {
   "r-w-antriebselemente": [
     "cuplaje-mecanice"
   ],
+  "radian-research": [
+    "calibratoare-etalonare",
+    "testere-electrosecuritate-pram"
+  ],
   "radicon": [
     "motoreductoare-industriale"
   ],
@@ -2562,6 +2822,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "rafi": [
     "hmi-panouri"
+  ],
+  "raytech": [
+    "testere-electrosecuritate-pram"
   ],
   "rbc-bearings": [
     "rulmenti-industriali"
@@ -2588,6 +2851,10 @@ export const BRAND_PRODUCT_TYPES = {
   "regina-catene-calibrate": [
     "lanturi-industriale",
     "benzi-transportoare"
+  ],
+  "rehlko": [
+    "tablouri-electrice",
+    "protectii-electrice"
   ],
   "relpol": [
     "contactoare-relee"
@@ -2634,7 +2901,8 @@ export const BRAND_PRODUCT_TYPES = {
     "cazane-industriale"
   ],
   "rigol-technologies": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "osciloscoape-generatoare-surse"
   ],
   "ringfeder": [
     "cuplaje-mecanice"
@@ -2665,7 +2933,8 @@ export const BRAND_PRODUCT_TYPES = {
     "convertizoare-frecventa-industriale"
   ],
   "rohde-schwarz": [
-    "echipamente-testare"
+    "echipamente-testare",
+    "osciloscoape-generatoare-surse"
   ],
   "rollix": [
     "rulmenti-industriali"
@@ -2796,8 +3065,18 @@ export const BRAND_PRODUCT_TYPES = {
   "seals-eastern": [
     "garnituri-simering"
   ],
+  "seaward": [
+    "testere-electrosecuritate-pram"
+  ],
   "seepex": [
     "pompe-surub-excentric-industriale"
+  ],
+  "sefelec": [
+    "testere-electrosecuritate-pram"
+  ],
+  "sefram": [
+    "osciloscoape-generatoare-surse",
+    "multimetre-clesti-ampermetrici"
   ],
   "seipee": [
     "motoare-asincrone-industriale",
@@ -2871,7 +3150,8 @@ export const BRAND_PRODUCT_TYPES = {
     "pompe-submersibile-industriale"
   ],
   "sika": [
-    "adezivi-industriali"
+    "adezivi-industriali",
+    "calibratoare-etalonare"
   ],
   "sipos-aktorik": [
     "actuatoare-electrice"
@@ -2896,6 +3176,9 @@ export const BRAND_PRODUCT_TYPES = {
   "snap-on": [
     "scule-mana"
   ],
+  "softing": [
+    "testere-electrosecuritate-pram"
+  ],
   "sola": [
     "masura-dimensionala"
   ],
@@ -2904,6 +3187,11 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "solinst": [
     "traductoare-nivel"
+  ],
+  "sonel": [
+    "testere-electrosecuritate-pram",
+    "analizoare-calitate-energie",
+    "termoviziune-vibratii-aliniere"
   ],
   "sonflow": [
     "schimbatoare-placi-brazate-industriale",
@@ -3013,6 +3301,12 @@ export const BRAND_PRODUCT_TYPES = {
     "ventilatoare-axiale-industriale",
     "ventilatoare-centrifugale-industriale"
   ],
+  "t-and-r-test-equipment": [
+    "testere-electrosecuritate-pram"
+  ],
+  "tabor": [
+    "osciloscoape-generatoare-surse"
+  ],
   "tapflo": [
     "pompe-centrifugale-industriale"
   ],
@@ -3030,11 +3324,18 @@ export const BRAND_PRODUCT_TYPES = {
     "motoare-monofazate-industriale",
     "motoare-asincrone-industriale"
   ],
+  "tektronix": [
+    "osciloscoape-generatoare-surse",
+    "multimetre-clesti-ampermetrici"
+  ],
   "tel-tru": [
     "senzori-temperatura"
   ],
   "teledyne-gas-and-flame-detection": [
     "analizoare"
+  ],
+  "teledyne-lecroy": [
+    "osciloscoape-generatoare-surse"
   ],
   "telwin": [
     "echipamente-sudura"
@@ -3042,16 +3343,24 @@ export const BRAND_PRODUCT_TYPES = {
   "tempco": [
     "arzatoare"
   ],
+  "tempo": [
+    "testere-electrosecuritate-pram"
+  ],
   "termostroj": [
     "cazane-industriale"
   ],
   "tesa": [
     "masura-dimensionala"
   ],
+  "tescom": [
+    "robineti-reglare-industriali"
+  ],
   "testo": [
     "analizoare",
     "senzori-temperatura",
-    "manometre"
+    "manometre",
+    "termoviziune-vibratii-aliniere",
+    "multimetre-clesti-ampermetrici"
   ],
   "thermon": [
     "arzatoare"
@@ -3077,6 +3386,9 @@ export const BRAND_PRODUCT_TYPES = {
   "tone": [
     "scule-mana"
   ],
+  "topworx": [
+    "actuatoare-electrice"
+  ],
   "toray-membrane": [
     "elemente-filtrante"
   ],
@@ -3098,8 +3410,14 @@ export const BRAND_PRODUCT_TYPES = {
     "chillere-industriale",
     "sisteme-climatizare"
   ],
+  "transmille": [
+    "calibratoare-etalonare"
+  ],
   "trelleborg": [
     "garnituri-simering"
+  ],
+  "trend-networks": [
+    "testere-electrosecuritate-pram"
   ],
   "trerice": [
     "manometre"
@@ -3135,6 +3453,11 @@ export const BRAND_PRODUCT_TYPES = {
   "ufi-filters": [
     "filtre-ulei",
     "filtre-hidraulice"
+  ],
+  "uni-t": [
+    "multimetre-clesti-ampermetrici",
+    "osciloscoape-generatoare-surse",
+    "termoviziune-vibratii-aliniere"
   ],
   "united-electric-controls": [
     "senzori-presiune",
@@ -3190,6 +3513,9 @@ export const BRAND_PRODUCT_TYPES = {
   "van-der-graaf": [
     "motoreductoare-industriale"
   ],
+  "vanguard-instruments": [
+    "testere-electrosecuritate-pram"
+  ],
   "vanton-pump": [
     "pompe-centrifugale-industriale"
   ],
@@ -3227,6 +3553,10 @@ export const BRAND_PRODUCT_TYPES = {
   "vir-valvoindustria": [
     "robineti-bila-industriali",
     "robineti-fluture-industriali"
+  ],
+  "vitrek": [
+    "testere-electrosecuritate-pram",
+    "analizoare-calitate-energie"
   ],
   "vogtlin-instruments": [
     "debitimetre"
@@ -3314,6 +3644,10 @@ export const BRAND_PRODUCT_TYPES = {
     "protectii-electrice",
     "contactoare-relee"
   ],
+  "weiler-abrasives": [
+    "scule-mana",
+    "echipamente-sudura"
+  ],
   "weintek": [
     "hmi-panouri",
     "module-io"
@@ -3352,7 +3686,11 @@ export const BRAND_PRODUCT_TYPES = {
   "wika": [
     "manometre",
     "senzori-presiune",
-    "senzori-temperatura"
+    "senzori-temperatura",
+    "calibratoare-etalonare"
+  ],
+  "wilcoxon-sensing-technologies": [
+    "termoviziune-vibratii-aliniere"
   ],
   "williamson": [
     "senzori-temperatura"
@@ -3405,7 +3743,9 @@ export const BRAND_PRODUCT_TYPES = {
     "senzori-presiune",
     "debitimetre",
     "analizoare",
-    "scada"
+    "scada",
+    "analizoare-calitate-energie",
+    "osciloscoape-generatoare-surse"
   ],
   "yoshitake": [
     "oale-condens-industriale",
@@ -3422,6 +3762,9 @@ export const BRAND_PRODUCT_TYPES = {
   ],
   "zeiss-industrial-metrology": [
     "masura-dimensionala"
+  ],
+  "zera": [
+    "calibratoare-etalonare"
   ],
   "zero-max": [
     "cuplaje-mecanice"

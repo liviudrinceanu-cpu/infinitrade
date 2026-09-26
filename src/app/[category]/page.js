@@ -51,6 +51,7 @@ export async function generateMetadata({ params }) {
     'componente-mecanice': 'Componente Mecanice',
     'filtre-consumabile': 'Filtre Industriale',
     'componente-hidraulice-pneumatice': 'Hidraulică Pneumatică',
+    'aparate-masura-testare': 'Aparate Măsură Testare',
   };
   const displayName = shortNames[category.slug] || category.name;
   const title = displayName;

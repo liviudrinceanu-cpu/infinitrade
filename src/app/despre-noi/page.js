@@ -81,7 +81,7 @@ export default function DesprePage() {
                   din toată Europa. Când ai nevoie urgent de ceva, de obicei găsim o soluție - nu garantăm mereu, dar încercăm.
                 </p>
                 <p>
-                  Lucrăm cu <strong>{siteStats.brands} de branduri internaționale din 15 categorii</strong>, fiecare cu pagină proprie pe site: de la Grundfos și Wilo
+                  Lucrăm cu <strong>{siteStats.brands} de branduri internaționale din 16 categorii</strong>, fiecare cu pagină proprie pe site: de la Grundfos și Wilo
                   la pompe, Siemens și ABB la motoare, Endress+Hauser la senzori, Parker la hidraulică,
                   până la Schneider Electric pentru automatizări. Nu vindem orice - vindem ce știm că funcționează.
                 </p>

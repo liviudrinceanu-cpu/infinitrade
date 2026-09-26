@@ -429,6 +429,7 @@ export const secondaryNavigation = [
       { name: 'Echipamente Termice', href: '/echipamente-termice', description: 'Chillere, cazane, arzătoare' },
       { name: 'Lubrifianți și Chimice', href: '/lubrifianti-chimice', description: 'Uleiuri, unsori, adezivi' },
       { name: 'Echipamente Auxiliare', href: '/echipamente-auxiliare', description: 'Protecție, curățenie, dozare' },
+      { name: 'Aparate de Măsură și Testare', href: '/aparate-masura-testare', description: 'Multimetre, calibratoare, testere PRAM' },
       { name: 'Branduri din SUA', href: '/branduri-sua', description: 'Producători americani, pe categorii și industrii' },
     ]
   },

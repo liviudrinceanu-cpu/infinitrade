@@ -159,6 +159,14 @@ const CATEGORY_HEADINGS = {
     c06: 'Cât durează livrarea la echipamente auxiliare?',
     c08: 'Ce servicii tehnice oferim la protecție?',
   },
+  'aparate-masura-testare': {
+    c01: "Ce mărci de aparate de măsură și testare livrăm?",
+    c02: "Ce tipuri de aparate de măsură și testare livrăm?",
+    c03: "Cum aleg clasa de precizie și acuratețea aparatului?",
+    c05: "Ce accesorii pentru aparatele de măsură livrăm?",
+    c06: "Cât durează livrarea la aparatele de măsură și testare?",
+    c08: "Ce servicii tehnice oferim la aparatele de măsură?",
+  },
 };
 
 // Identical across all 15 categories (heading-phrasings.md §3.1).

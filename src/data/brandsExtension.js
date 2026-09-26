@@ -2,7 +2,7 @@
  * src/data/brandsExtension.js — GENERATED FILE. Do not hand-edit.
  *
  * Regenerate with:  node scripts/build-brands-extension.mjs
- * Source: .planning/brands-500/brands-new-confirmed.json (969 brands, wave 2026-09)
+ * Source: .planning/brands-500/brands-new-confirmed.json (1053 brands, wave 2026-09)
  *
  * Program "Branduri-500" (owner decision D-2026-09-21, see
  * .planning/brands-500/SUPERPROMPT.md): brands added on top of the original
@@ -666,6 +666,23 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Danfoss"
     },
     {
+      "name": "TopWorx",
+      "slug": "topworx",
+      "country": "SUA",
+      "description": "monitoare de poziție pentru robineți, comutatoare de limită, cutii de comutare, senzori GO Switch (marcă Emerson)",
+      "featured": false,
+      "officialUrl": "https://discreteautomation.emerson.com/brands/topworx",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "TR Electronic",
       "slug": "tr-electronic",
       "country": "Germania",
@@ -1113,6 +1130,23 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "convergent"
+    },
+    {
+      "name": "Flexitallic",
+      "slug": "flexitallic",
+      "country": "SUA",
+      "description": "garnituri spiralate, kammprofile, foi comprimate, etanșări pentru flanșe (petrol & gaze, rafinării)",
+      "featured": false,
+      "officialUrl": "https://flexitallic.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "energie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Fluiten",
@@ -2973,6 +3007,24 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Schneider Electric"
     },
     {
+      "name": "Larson Electronics",
+      "slug": "larson-electronics",
+      "country": "SUA",
+      "description": "iluminat antiex (Class I Div 1/2, ATEX/IECEx), ventilatoare antiex, transformatoare industriale, turnuri de iluminat, telefoane și camere antiex",
+      "featured": false,
+      "officialUrl": "https://www.larsonelectronics.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "minerit",
+        "energie"
+      ],
+      "euAvailability": "dificila"
+    },
+    {
       "name": "Littelfuse",
       "slug": "littelfuse",
       "country": "SUA",
@@ -3140,6 +3192,24 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "complementary"
+    },
+    {
+      "name": "Rehlko (fost Kohler Power Systems)",
+      "slug": "rehlko",
+      "country": "SUA",
+      "description": "grupuri electrogene diesel și pe gaz (15 kW–4 MW), comutatoare automate de transfer (ATS), tablouri de paralelare, controlere de generator",
+      "featured": false,
+      "officialUrl": "https://www.powersystems.rehlko.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "data-center",
+        "energie",
+        "farma",
+        "apa"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Relpol",
@@ -3377,6 +3447,25 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Trane"
+    },
+    {
+      "name": "Durex Industries",
+      "slug": "durex-industries",
+      "country": "SUA",
+      "description": "încălzitoare electrice industriale (cartuș, tubulare, imersie, circulație, flexibile, cast-in) și senzori de temperatură (termocuple, RTD)",
+      "featured": false,
+      "officialUrl": "https://www.durexindustries.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "semiconductori",
+        "chimie",
+        "farma",
+        "alimentar",
+        "energie"
+      ],
+      "euAvailability": "dificila"
     },
     {
       "name": "Ecoflam",
@@ -5608,6 +5697,24 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Micropump"
     },
     {
+      "name": "March Pumps",
+      "slug": "march-pumps",
+      "country": "SUA",
+      "description": "pompe centrifugale cu cuplaj magnetic, fără etanșare, pentru chimicale, apă de mare, hidronică, bere, DC și cu motor pneumatic",
+      "featured": false,
+      "officialUrl": "https://www.marchpump.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "chimie",
+        "apa",
+        "alimentar",
+        "energie"
+      ],
+      "euAvailability": "medie"
+    },
+    {
       "name": "Matra",
       "slug": "matra",
       "country": "Italia",
@@ -5744,6 +5851,23 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Watson-Marlow"
+    },
+    {
+      "name": "PROCON",
+      "slug": "procon",
+      "country": "SUA",
+      "description": "pompe rotative cu palete cu deplasare pozitivă (rotary vane), variante mag-drive, pompe cu roți dințate, ansambluri pompă-motor pentru băuturi, espresso, medical, industrial, tratarea apei",
+      "featured": false,
+      "officialUrl": "https://proconpumps.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "alimentar",
+        "apa",
+        "chimie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Pulsafeeder",
@@ -7262,6 +7386,24 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Witzenmann"
     },
     {
+      "name": "TESCOM",
+      "slug": "tescom",
+      "country": "SUA",
+      "description": "regulatoare de presiune și robineți pentru presiuni înalte și fluide de înaltă puritate (marcă Emerson)",
+      "featured": false,
+      "officialUrl": "https://discreteautomation.emerson.com/brands/tescom",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "petrol-gaze",
+        "chimie",
+        "semiconductori",
+        "energie"
+      ],
+      "euAvailability": "usoara"
+    },
+    {
       "name": "Tiemme",
       "slug": "tiemme",
       "country": "IT",
@@ -7520,6 +7662,24 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:MSA Safety"
+    },
+    {
+      "name": "Branson (Emerson)",
+      "slug": "branson",
+      "country": "SUA",
+      "description": "sudură cu ultrasunete a maselor plastice și metalelor, sudură prin vibrații, laser și infraroșu, curățare cu ultrasunete, degresoare cu vapori (marcă Emerson)",
+      "featured": false,
+      "officialUrl": "https://www.branson.emerson.com/en",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "semiconductori",
+        "farma",
+        "alimentar"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Bug-O Systems",
@@ -7946,6 +8106,24 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:MSA Safety"
+    },
+    {
+      "name": "Keithley",
+      "slug": "keithley",
+      "country": "SUA",
+      "description": "instrumente de măsură electrică de precizie: multimetre digitale de banc 5,5–8,5 digiți, SourceMeter (SMU), sisteme de achiziție/comutare, electrometre, picoampermetre, nanovoltmetre, analizoare de parametri (marcă Tektronix)",
+      "featured": false,
+      "officialUrl": "https://www.tek.com/en/products/keithley",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "semiconductori",
+        "automotive",
+        "aerospatial",
+        "energie"
+      ],
+      "euAvailability": "usoara"
     },
     {
       "name": "Kemppi",
@@ -8377,6 +8555,25 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:MSA Safety"
+    },
+    {
+      "name": "Weiler Abrasives",
+      "slug": "weiler-abrasives",
+      "country": "SUA",
+      "description": "abrazive lipite (discuri de tăiere/polizare), abrazive pe suport (discuri lamelare, fibră), abrazive nețesute, perii de sârmă și perii tehnice",
+      "featured": false,
+      "officialUrl": "https://www.weilerabrasives.com/",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "complementary",
+      "industries": [
+        "automotive",
+        "metalurgie",
+        "aerospatial",
+        "petrol-gaze",
+        "alimentar"
+      ],
+      "euAvailability": "medie"
     },
     {
       "name": "Wiha",
@@ -8992,6 +9189,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Endress+Hauser"
     },
     {
+      "name": "Land Instruments (AMETEK Land)",
+      "slug": "land-instruments",
+      "country": null,
+      "description": "pirometre, sisteme de imagistică termică și scanere liniare pentru măsurarea temperaturii fără contact",
+      "featured": false,
+      "officialUrl": "https://www.ametek-land.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
       "name": "Laumas",
       "slug": "laumas",
       "country": "Italy",
@@ -9195,6 +9403,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:WIKA"
     },
     {
+      "name": "Optris",
+      "slug": "optris",
+      "country": "Germany",
+      "description": "pirometre infraroșu, senzori infraroșu staționari pentru procese industriale, camere termice",
+      "featured": false,
+      "officialUrl": "https://www.optris.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
       "name": "OVAL Corporation",
       "slug": "oval-corporation",
       "country": "Japan",
@@ -9242,6 +9461,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Balluff"
+    },
+    {
+      "name": "Pfiffner",
+      "slug": "pfiffner",
+      "country": "Switzerland",
+      "description": "transformatoare de măsură de curent și tensiune, izolatori, echipamente de testare de înaltă tensiune",
+      "featured": false,
+      "officialUrl": "https://www.pfiffner-group.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
     },
     {
       "name": "Precision Digital",
@@ -11268,6 +11498,778 @@ export const BRANDS_EXTENSION = {
       "officialUrl": "https://vahterus.com/",
       "wave": "2026-09",
       "signal": "intl",
+      "relation": "complementary"
+    }
+  ],
+  "aparate-masura-testare": [
+    {
+      "name": "Additel",
+      "slug": "additel",
+      "country": "USA",
+      "description": "calibratoare de presiune și temperatură, pompe de calibrare, sonde de temperatură",
+      "featured": false,
+      "officialUrl": "https://www.additel.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Ahlborn",
+      "slug": "ahlborn",
+      "country": "Germany",
+      "description": "aparate de măsură și sisteme de achiziție de date (data loggere) pentru cercetare și industrie",
+      "featured": false,
+      "officialUrl": "https://www.ahlborn.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "AMETEK Programmable Power",
+      "slug": "ametek-programmable-power",
+      "country": "USA",
+      "description": "surse de alimentare programabile AC/DC, sarcini electronice, simulatoare baterii, soluții testare conformitate",
+      "featured": false,
+      "officialUrl": "https://www.programmablepower.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "AOIP",
+      "slug": "aoip",
+      "country": "France",
+      "description": "micro-ohmetre, calibratoare, testere pirotehnice, instrumentație de control motor",
+      "featured": false,
+      "officialUrl": "https://www.aoip.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Associated Research",
+      "slug": "associated-research",
+      "country": "USA",
+      "description": "testere hipot AC/DC, testere rigiditate dielectrică, testere legare la pământ, testere rezistență izolație",
+      "featured": false,
+      "officialUrl": "https://www.arisafety.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Beamex",
+      "slug": "beamex",
+      "country": null,
+      "description": "calibratoare de presiune, temperatură și mărimi electrice, software de calibrare",
+      "featured": false,
+      "officialUrl": "https://www.beamex.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Beha-Amprobe",
+      "slug": "beha-amprobe",
+      "country": null,
+      "description": "multimetre digitale, testere electrice, clampmetre și aparate HVAC",
+      "featured": false,
+      "officialUrl": "https://www.beha-amprobe.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "BK Precision",
+      "slug": "bk-precision",
+      "country": null,
+      "description": "surse de alimentare, osciloscoape, multimetre, generatoare de semnal, achiziție de date",
+      "featured": false,
+      "officialUrl": "https://www.bkprecision.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "C-LOGIC",
+      "slug": "c-logic",
+      "country": null,
+      "description": "testere de tensiune, detectoare de cabluri, aparate de măsură electrică pentru electricieni",
+      "featured": false,
+      "officialUrl": "https://clogic-intl.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Calmet",
+      "slug": "calmet",
+      "country": "Poland",
+      "description": "calibratoare de putere și multifuncționale, testere contoare de electricitate, standarde de referință, analizoare calitate energie",
+      "featured": false,
+      "officialUrl": "https://www.calmet.com.pl/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Camille Bauer",
+      "slug": "camille-bauer",
+      "country": "Switzerland",
+      "description": "aparate de măsură energie electrică, power quality, monitorizare energie, testare siguranță electrică",
+      "featured": false,
+      "officialUrl": "https://www.camillebauer.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Chroma ATE",
+      "slug": "chroma",
+      "country": "Taiwan",
+      "description": "instrumentație de precizie pentru testare, sisteme de test automatizate, testare pentru semiconductori și fotovoltaice",
+      "featured": false,
+      "officialUrl": "https://www.chromaate.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Comark",
+      "slug": "comark",
+      "country": "United Kingdom",
+      "description": "termometre digitale, data loggere și sisteme de monitorizare fără fir pentru temperatură/umiditate",
+      "featured": false,
+      "officialUrl": "https://www.comarkinstruments.net/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Delta Elektronika",
+      "slug": "delta-elektronika",
+      "country": "Netherlands",
+      "description": "surse de alimentare DC programabile de precizie pentru laborator și industrie",
+      "featured": false,
+      "officialUrl": "https://www.deltaelektronika.com/en",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Dewesoft",
+      "slug": "dewesoft",
+      "country": "Slovenia",
+      "description": "sisteme de achiziție de date și analizoare de putere pentru testare",
+      "featured": false,
+      "officialUrl": "https://dewesoft.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "DILO",
+      "slug": "dilo",
+      "country": "United States",
+      "description": "echipamente manipulare gaz SF6, analizoare de gaz și detectoare de scurgeri",
+      "featured": false,
+      "officialUrl": "https://dilo.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Doble Engineering",
+      "slug": "doble",
+      "country": null,
+      "description": "echipamente diagnostic pentru transformatoare, întreruptoare, cabluri, testere hipot, micro-ohmetre",
+      "featured": false,
+      "officialUrl": "https://www.doble.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Dostmann electronic",
+      "slug": "dostmann",
+      "country": "Germany",
+      "description": "termometre de contact și infraroșu, dataloggere temperatură/umiditate/presiune, calibratoare",
+      "featured": false,
+      "officialUrl": "https://www.dostmann-electronic.de/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Druck (Baker Hughes)",
+      "slug": "druck",
+      "country": null,
+      "description": "senzori și calibratoare de presiune, calibratoare de temperatură, testere și indicatoare portabile",
+      "featured": false,
+      "officialUrl": "https://www.druck.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "DV Power",
+      "slug": "dv-power",
+      "country": null,
+      "description": "aparate testare întrerupătoare, transformatoare, baterii, sisteme siguranță electrică rețele",
+      "featured": false,
+      "officialUrl": "https://www.dv-power.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "EA Elektro-Automatik",
+      "slug": "ea-elektro-automatik",
+      "country": null,
+      "description": "surse de alimentare DC programabile și sarcini electronice regenerative, marcă Tektronix",
+      "featured": false,
+      "officialUrl": "https://www.tek.com/en/products/ea",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Easy-Laser",
+      "slug": "easy-laser",
+      "country": "Sweden",
+      "description": "sisteme laser de măsurare și aliniere pentru arbori și mașini rotative",
+      "featured": false,
+      "officialUrl": "https://easylaser.com/en-us",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "EBRO Electronic",
+      "slug": "ebro-electronic",
+      "country": "Germany",
+      "description": "dataloggere și instrumente portabile pentru monitorizarea temperaturii",
+      "featured": false,
+      "officialUrl": "https://www.ebro.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Ellab",
+      "slug": "ellab",
+      "country": null,
+      "description": "sisteme de validare, monitorizare și calibrare cu dataloggere wireless",
+      "featured": false,
+      "officialUrl": "https://www.ellab.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "ET System",
+      "slug": "et-system",
+      "country": "Germany",
+      "description": "surse de alimentare DC/AC programabile, sarcini electronice, simulatoare de baterii, sisteme de testare",
+      "featured": false,
+      "officialUrl": "https://www.et-system.de/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "ETS-Lindgren",
+      "slug": "ets-lindgren",
+      "country": null,
+      "description": "camere de testare EMC, antene RF și sisteme de ecranare",
+      "featured": false,
+      "officialUrl": "https://www.ets-lindgren.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "EuroSMC",
+      "slug": "eurosmc",
+      "country": null,
+      "description": "echipamente electronice de testare electrică pentru substații și relee de protecție",
+      "featured": false,
+      "officialUrl": "https://smcint.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "EXFO",
+      "slug": "exfo",
+      "country": null,
+      "description": "echipamente de testare fibră optică, OTDR și power metere",
+      "featured": false,
+      "officialUrl": "https://www.exfo.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Extech",
+      "slug": "extech",
+      "country": null,
+      "description": "multimetre și aparate de măsură electrică, mecanică, HVAC și de mediu pentru profesioniști",
+      "featured": false,
+      "officialUrl": "https://www.extech.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Fixturlaser (Acoem)",
+      "slug": "fixturlaser",
+      "country": "Sweden",
+      "description": "sisteme laser de aliniere axe pentru mașini rotative",
+      "featured": false,
+      "officialUrl": "https://fixturlaser.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Fluke Calibration",
+      "slug": "fluke-calibration",
+      "country": null,
+      "description": "calibratoare electrice, standarde de referință, calibratoare presiune/temperatură/proces",
+      "featured": false,
+      "officialUrl": "https://www.fluke.com/en-gb/products/calibration-tools",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Fluke Networks",
+      "slug": "fluke-networks",
+      "country": null,
+      "description": "certificare cabluri, testare rețea și instrumente de instalare pentru cablare structurată",
+      "featured": false,
+      "officialUrl": "https://www.flukenetworks.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Fluke Process Instruments",
+      "slug": "fluke-process-instruments",
+      "country": null,
+      "description": "pirometre, camere termice și sisteme de profilare termică industrială",
+      "featured": false,
+      "officialUrl": "https://www.flukeprocessinstruments.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Frankonia",
+      "slug": "frankonia",
+      "country": null,
+      "description": "sisteme de testare EMC, receptoare EMI, amplificatoare RF, camere anecoice, laboratoare EMC la cheie",
+      "featured": false,
+      "officialUrl": "https://frankonia-solutions.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Gossen Metrawatt",
+      "slug": "gossen-metrawatt",
+      "country": null,
+      "description": "multimetre digitale/analogice, testere instalații electrice, aparate testare siguranță, power quality",
+      "featured": false,
+      "officialUrl": "https://www.gossenmetrawatt.de/en",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Graphtec",
+      "slug": "graphtec",
+      "country": null,
+      "description": "înregistratoare de date (data loggere) pentru temperatură, tensiune, umiditate",
+      "featured": false,
+      "officialUrl": "https://graphteciwatsu.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Guide Sensmart (Guide Infrared)",
+      "slug": "guide-sensmart",
+      "country": "China",
+      "description": "camere de termoviziune, scopuri infraroșu, camere acustice, detectoare de gaze",
+      "featured": false,
+      "officialUrl": "https://www.guideir.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Haefely",
+      "slug": "haefely",
+      "country": "Switzerland",
+      "description": "sisteme de testare la înaltă tensiune, echipamente EMC, testare pentru transformatoare și cabluri",
+      "featured": false,
+      "officialUrl": "https://www.pfiffner-group.com/about-pfiffner-group/haefely",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Hikmicro",
+      "slug": "hikmicro",
+      "country": "China",
+      "description": "camere termoviziune portabile, camere de imagistică acustică pentru detectare gaze și descărcări parțiale",
+      "featured": false,
+      "officialUrl": "http://www.hikmicrotech.com/en_us/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Hipotronics",
+      "slug": "hipotronics",
+      "country": null,
+      "description": "echipamente de testare de înaltă tensiune pentru switchgear, cabluri, materiale dielectrice",
+      "featured": false,
+      "officialUrl": "https://www.hubbell.com/hipotronics/en",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Hoecherl & Hackl",
+      "slug": "hoecherl-hackl",
+      "country": "Germany",
+      "description": "sarcini electronice (electronic loads) pentru testarea surselor de alimentare și bateriilor",
+      "featured": false,
+      "officialUrl": "https://www.hoecherl-hackl.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Janitza",
+      "slug": "janitza",
+      "country": "Germany",
+      "description": "analizoare de energie și rețea, analizoare de calitate a energiei, monitorizare curent diferențial",
+      "featured": false,
+      "officialUrl": "https://www.janitza.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Kewtech",
+      "slug": "kewtech",
+      "country": "UK",
+      "description": "testere multifuncționale, testere PAT, clești ampermetrici, echipamente testare stații încărcare EV",
+      "featured": false,
+      "officialUrl": "https://www.kewtechcorp.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "KoCoS",
+      "slug": "kocos",
+      "country": "Germany",
+      "description": "sisteme testare relee protecție, analiză calitate energie, înregistrare defecte",
+      "featured": false,
+      "officialUrl": "https://www.kocos.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Meatest",
+      "slug": "meatest",
+      "country": null,
+      "description": "calibratoare multi-produs, calibratoare de putere/energie, calibratoare de proces, standarde de impedanță",
+      "featured": false,
+      "officialUrl": "https://www.meatest.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Metrix (Chauvin Arnoux)",
+      "slug": "metrix-chauvin-arnoux",
+      "country": "France",
+      "description": "multimetre, clești ampermetrici, testere siguranță electrică, echipamente laborator educațional",
+      "featured": false,
+      "officialUrl": "https://www.chauvin-arnoux.com/fr/la-societe-nos-marques/la-marque-metrix",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "MTE Meter Test Equipment",
+      "slug": "mte",
+      "country": "Switzerland",
+      "description": "aparate testare contoare de electricitate, monitorizare online transformatoare, etaloane de referință",
+      "featured": false,
+      "officialUrl": "https://www.mte.ch/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Multimetrix",
+      "slug": "multimetrix",
+      "country": "France",
+      "description": "multimetre, cleşti ampermetrici, controlere de siguranță electrică, marcă Chauvin Arnoux",
+      "featured": false,
+      "officialUrl": "https://www.chauvin-arnoux.com/fr/la-societe-nos-marques/multimetrix",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Oros",
+      "slug": "oros",
+      "country": null,
+      "description": "analizoare portabile de vibrații și zgomot pentru mașini rotative",
+      "featured": false,
+      "officialUrl": "https://www.oros.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Pacific Power Source",
+      "slug": "pacific-power-source",
+      "country": "USA",
+      "description": "surse AC/DC programabile, simulatoare de rețea, sarcini electronice, sisteme de testare EMC",
+      "featured": false,
+      "officialUrl": "https://www.pacificpower.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "PeakTech",
+      "slug": "peaktech",
+      "country": "Germany",
+      "description": "multimetre, osciloscoape, clești ampermetrici, camere termoviziune, surse de alimentare",
+      "featured": false,
+      "officialUrl": "https://www.peaktech.de/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Pomona Electronics",
+      "slug": "pomona",
+      "country": null,
+      "description": "fire și sonde de test, conectori RF, accesorii pentru multimetre și osciloscoape",
+      "featured": false,
+      "officialUrl": "https://www.pomonaelectronics.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Radian Research",
+      "slug": "radian-research",
+      "country": "USA",
+      "description": "standarde de referință energetică, sisteme de testare contoare de energie, testere transformatoare de curent",
+      "featured": false,
+      "officialUrl": "https://www.radianresearch.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Raytech",
+      "slug": "raytech",
+      "country": "Switzerland",
+      "description": "aparate testare transformatoare (rezistență înfășurare, raport transformare), sisteme automate de testare",
+      "featured": false,
+      "officialUrl": "https://www.raytech.ch/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Seaward",
+      "slug": "seaward",
+      "country": "UK",
+      "description": "testere PAT, testere instalații solare PV, testere hipot, echipamente siguranță electrică",
+      "featured": false,
+      "officialUrl": "https://www.seaward.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Sefelec (Eaton)",
+      "slug": "sefelec",
+      "country": "France",
+      "description": "testere electrice automatizate, izolație, rigiditate dielectrică (hipot), testere cabluri, miliohmetre",
+      "featured": false,
+      "officialUrl": "https://www.sefelec.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Sefram",
+      "slug": "sefram",
+      "country": "France",
+      "description": "osciloscoape, înregistratoare de date, multimetre portabile, aparate testare câmp de câmp electric",
+      "featured": false,
+      "officialUrl": "https://www.bkprecision.com/about/sefram",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Softing",
+      "slug": "softing",
+      "country": "Germany",
+      "description": "echipamente de măsură pentru certificarea și diagnosticarea cablării de rețea IT, teste industriale",
+      "featured": false,
+      "officialUrl": "https://company.softing.com/us/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Sonel",
+      "slug": "sonel",
+      "country": "Poland",
+      "description": "analizoare de putere, testere aparate electrice, detectoare de cabluri, camere termoviziune industriale",
+      "featured": false,
+      "officialUrl": "https://www.sonel.pl/en/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "T&R Test Equipment",
+      "slug": "t-and-r-test-equipment",
+      "country": "United Kingdom",
+      "description": "aparate testare curent puternic și înaltă tensiune, injecție curent primar, micro-ohmmetre",
+      "featured": false,
+      "officialUrl": "https://www.trtest.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Tabor",
+      "slug": "tabor",
+      "country": "Israel",
+      "description": "generatoare de semnal arbitrar, generatoare RF/microunde, amplificatoare de semnal",
+      "featured": false,
+      "officialUrl": "https://www.taborelec.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Tektronix",
+      "slug": "tektronix",
+      "country": null,
+      "description": "osciloscoape, multimetre digitale și surse de alimentare pentru testare",
+      "featured": false,
+      "officialUrl": "https://www.tek.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Teledyne LeCroy",
+      "slug": "teledyne-lecroy",
+      "country": null,
+      "description": "osciloscoape, analizoare de protocol și echipamente electronice de test",
+      "featured": false,
+      "officialUrl": "https://teledynelecroy.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Tempo Communications",
+      "slug": "tempo",
+      "country": "USA",
+      "description": "testere fibră optică, cupru/coaxial, testere Ethernet, detectoare cabluri îngropate",
+      "featured": false,
+      "officialUrl": "https://www.tempocom.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Transmille",
+      "slug": "transmille",
+      "country": "United Kingdom",
+      "description": "calibratoare multifuncționale, multimetre de precizie, etaloane și software de calibrare",
+      "featured": false,
+      "officialUrl": "https://www.transmille.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Trend Networks",
+      "slug": "trend-networks",
+      "country": "United Kingdom",
+      "description": "testere și certificatoare de cabluri de date, rețea și telecom pentru instalare/mentenanță",
+      "featured": false,
+      "officialUrl": "https://www.trend-networks.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "UNI-T",
+      "slug": "uni-t",
+      "country": "China",
+      "description": "multimetre digitale, clești ampermetrici, osciloscoape, camere termoviziune portabile",
+      "featured": false,
+      "officialUrl": "https://www.uni-trend.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Vanguard Instruments",
+      "slug": "vanguard-instruments",
+      "country": "USA",
+      "description": "testere raport transformare, aparate rezistență înfășurare, analizoare întreruptoare, testere relee",
+      "featured": false,
+      "officialUrl": "https://www.doble.com/about/vanguard-instruments/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "Vitrek",
+      "slug": "vitrek",
+      "country": "United States",
+      "description": "testere hipot, analizoare de putere și sisteme de achiziție de date",
+      "featured": false,
+      "officialUrl": "https://www.vitrek.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
+    },
+    {
+      "name": "ZERA",
+      "slug": "zera",
+      "country": "Germany",
+      "description": "sisteme testare contoare electrice și transformatoare de măsură",
+      "featured": false,
+      "officialUrl": "https://www.zera.de/",
+      "wave": "2026-09",
+      "signal": "ro",
       "relation": "complementary"
     }
   ]

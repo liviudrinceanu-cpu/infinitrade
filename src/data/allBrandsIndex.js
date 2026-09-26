@@ -44,7 +44,11 @@ export const allCategoriesUnified = primaryCategories.map((category) => {
       const { brand, categorySlug } = primaryBrandBySlug.get(s);
       return { ...brand, slug: s, featured: false, secondary: true, primaryCategory: categorySlug };
     });
-  return extra.length ? { ...category, brands: [...category.brands, ...extra] } : category;
+  const merged = extra.length ? { ...category, brands: [...category.brands, ...extra] } : category;
+  // Keep the displayed per-category count in sync with the merged list (the
+  // raw data files only know their own hand-listed brands; a category fed
+  // purely by the extension, like aparate-masura-testare, would read "0").
+  return { ...merged, stats: { ...(merged.stats || {}), brands: String(merged.brands.length) } };
 });
 
 // Strip category prefix from old-style brand slugs to get simple slug

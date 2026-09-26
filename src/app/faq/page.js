@@ -79,7 +79,7 @@ const faqData = [
     questions: [
       {
         q: 'Ce branduri distribuiți?',
-        a: `${brandCount} de branduri cu pagină proprie, din 15 categorii, dintre care cele mai cerute: Grundfos și Wilo la pompe, Siemens și ABB la motoare, ARI Armaturen și Spirax Sarco la robineți, Alfa Laval la schimbătoare, Becker la suflante, Endress+Hauser și WIKA la senzori, Parker și Bosch Rexroth la hidraulică, Schneider Electric la automatizări. Lista completă e pe site, la fiecare categorie.`
+        a: `${brandCount} de branduri cu pagină proprie, din 16 categorii, dintre care cele mai cerute: Grundfos și Wilo la pompe, Siemens și ABB la motoare, ARI Armaturen și Spirax Sarco la robineți, Alfa Laval la schimbătoare, Becker la suflante, Endress+Hauser și WIKA la senzori, Parker și Bosch Rexroth la hidraulică, Schneider Electric la automatizări. Lista completă e pe site, la fiecare categorie.`
       },
       {
         q: 'În ce industrii lucrați?',
@@ -142,7 +142,7 @@ const faqData = [
       },
       {
         q: 'Câte categorii de echipamente distribuiți?',
-        a: `Acoperim 15 categorii de echipamente industriale cu ${brandCount} de branduri cu pagină proprie: de la pompe și robineți (nucleul nostru din 2009) până la automatizări, senzori, hidraulică, electrice, filtre, lubrifianți, scule, echipamente termice. Practic, tot ce ai nevoie într-o fabrică sau pe un șantier industrial - fără să alergi la 10 furnizori diferiți.`,
+        a: `Acoperim 16 categorii de echipamente industriale cu ${brandCount} de branduri cu pagină proprie: de la pompe și robineți (nucleul nostru din 2009) până la automatizări, senzori, hidraulică, electrice, filtre, lubrifianți, scule, echipamente termice, aparate de măsură și testare. Practic, tot ce ai nevoie într-o fabrică sau pe un șantier industrial - fără să alergi la 10 furnizori diferiți.`,
       },
     ]
   },
