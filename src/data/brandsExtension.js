@@ -2,7 +2,7 @@
  * src/data/brandsExtension.js — GENERATED FILE. Do not hand-edit.
  *
  * Regenerate with:  node scripts/build-brands-extension.mjs
- * Source: .planning/brands-500/brands-new-confirmed.json (792 brands, wave 2026-09)
+ * Source: .planning/brands-500/brands-new-confirmed.json (803 brands, wave 2026-09)
  *
  * Program "Branduri-500" (owner decision D-2026-09-21, see
  * .planning/brands-500/SUPERPROMPT.md): brands added on top of the original
@@ -878,6 +878,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Bonfiglioli"
+    },
+    {
+      "name": "Coremo",
+      "slug": "coremo",
+      "country": "IT",
+      "description": "Frane cu disc pentru masini industriale",
+      "featured": false,
+      "officialUrl": "https://coremo.com/en/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "old-site-listed"
     },
     {
       "name": "David Brown Santasalo",
@@ -2954,6 +2965,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Spirax Sarco Thermal"
     },
     {
+      "name": "SNOL",
+      "slug": "snol",
+      "country": "Lithuania",
+      "description": "Cuptoare si etuve electrice industriale",
+      "featured": false,
+      "officialUrl": "https://snol.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "old-site-listed"
+    },
+    {
       "name": "Termostroj",
       "slug": "termostroj",
       "country": "Croatia",
@@ -3165,6 +3187,17 @@ export const BRANDS_EXTENSION = {
       "relation": "complementary"
     },
     {
+      "name": "Indufil",
+      "slug": "indufil",
+      "country": "Netherlands",
+      "description": "Filtre hidraulice și cartușe filtrante pentru echipamente",
+      "featured": false,
+      "officialUrl": "https://www.johncrane.com/en/products/filtration/indufil-filter-elements",
+      "wave": "2026-09",
+      "signal": "intl",
+      "relation": "competitor-of:MP Filtri"
+    },
+    {
       "name": "Intensiv-Filter",
       "slug": "intensiv-filter",
       "country": "Germany",
@@ -3319,6 +3352,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "ro",
       "relation": "competitor-of:Klüber Lubrication"
+    },
+    {
+      "name": "Dowsil",
+      "slug": "dowsil",
+      "country": "SUA",
+      "description": "Etansanti si adezivi siliconici pentru aplicatii industriale",
+      "featured": false,
+      "officialUrl": "https://www.dow.com/en-us/pdp.dowsil-995-silicone-structural-sealant.02122197z.html",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "convergent"
     },
     {
       "name": "DST Chemicals",
@@ -3618,6 +3662,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:ABB"
+    },
+    {
+      "name": "Ganz",
+      "slug": "ganz",
+      "country": "Ungaria",
+      "description": "Motoare electrice industriale de mare putere",
+      "featured": false,
+      "officialUrl": "https://www.ganzelectric.com/en/about-us/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:ATB"
     },
     {
       "name": "Groschopp",
@@ -5118,6 +5173,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Samson"
+    },
+    {
+      "name": "Castel",
+      "slug": "castel",
+      "country": "Italia",
+      "description": "Robineți pentru instalații frigorifice și de climatizare",
+      "featured": false,
+      "officialUrl": "https://castel.it/en/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "complementary"
     },
     {
       "name": "Cepex",
@@ -7060,6 +7126,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:Kübler"
     },
     {
+      "name": "Elcis Encoder",
+      "slug": "elcis-encoder",
+      "country": "Italy",
+      "description": "Encodere rotative incrementale si absolute industriale",
+      "featured": false,
+      "officialUrl": "https://www.elcis.com/products_main.php?clmer=A",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Baumer"
+    },
+    {
       "name": "ENOTEC",
       "slug": "enotec",
       "country": "Germany",
@@ -8142,6 +8219,17 @@ export const BRANDS_EXTENSION = {
       "relation": "competitor-of:CEJN"
     },
     {
+      "name": "FOX",
+      "slug": "fox",
+      "country": null,
+      "description": "Acumulatoare hidropneumatice pentru sisteme hidraulice",
+      "featured": false,
+      "officialUrl": "https://www.fox.it",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Hydac"
+    },
+    {
       "name": "Gemels",
       "slug": "gemels",
       "country": "Italy",
@@ -8437,6 +8525,17 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "competitor-of:Atos"
+    },
+    {
+      "name": "OMFB",
+      "slug": "omfb",
+      "country": "Italy",
+      "description": "Pompe și prize de putere pentru hidraulica mobilă",
+      "featured": false,
+      "officialUrl": "https://www.omfb.com/en/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:Bondioli & Pavesi"
     },
     {
       "name": "Perma-tec",
@@ -8756,6 +8855,30 @@ export const BRANDS_EXTENSION = {
       "wave": "2026-09",
       "signal": "intl",
       "relation": "convergent"
+    }
+  ],
+  "schimbatoare-caldura": [
+    {
+      "name": "ARES",
+      "slug": "ares",
+      "country": "Turcia",
+      "description": "Schimbatoare de caldura cu placi pentru instalatii industriale",
+      "featured": false,
+      "officialUrl": "https://www.aresphe.com/",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:SWEP"
+    },
+    {
+      "name": "Sonflow",
+      "slug": "sonflow",
+      "country": "Danemarca",
+      "description": "Schimbatoare de caldura cu placi sudate pentru industrie",
+      "featured": false,
+      "officialUrl": "https://sonflow.eu/about-sonflow",
+      "wave": "2026-09",
+      "signal": "ro",
+      "relation": "competitor-of:SWEP"
     }
   ]
 };

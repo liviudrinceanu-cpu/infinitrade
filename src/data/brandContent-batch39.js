@@ -982,11 +982,82 @@ Pentru fabricile și flotele din România cu echipamente ce cer aprobări specif
     ],
     infinitrade: `Lucrăm cu informații din surse publice ale producătorului Addinol, fără date proprii despre loturile disponibile la un moment dat. Aducem uleiuri Addinol la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru cantități mai mari de bidoane sau butoaie. Pentru ofertă avem nevoie de norma de ulei cerută de producătorul motorului, tipul de aplicație (auto, transport greu sau industrial) și cantitatea necesară. Nu facem analiza de ulei uzat și nu recomandăm intervalul de schimb — acestea rămân în sarcina producătorului echipamentului sau a unui laborator specializat.`,
     limitation: "Nu facem analiza uleiului uzat și nu recomandăm intervalul de schimb fără specificația producătorului echipamentului.",
+    productCodes: [
+      {
+        "code": "Super Traktor MU 1035",
+        "description": "Ulei multifuncțional pentru tractoare, SAE 10W-30, motor și transmisie"
+      },
+      {
+        "code": "Super Traktor MU 1045",
+        "description": "Ulei multifuncțional pentru tractoare, SAE 10W-40, standard ACEA E2/E3"
+      },
+      {
+        "code": "Super Traktor MU 1545",
+        "description": "Ulei multifuncțional pentru tractoare, SAE 15W-40, standard API CF-4"
+      },
+      {
+        "code": "Giga Light MV 0530 LL",
+        "description": "Ulei sintetic de motor, SAE 5W-30, gamă largă de temperaturi"
+      },
+      {
+        "code": "CLP 100",
+        "description": "Ulei industrial de transmisie fără zinc, conform DIN 51517, ISO VG 100"
+      },
+      {
+        "code": "HLP 32",
+        "description": "Ulei hidraulic cu aditivi anti-uzură, protecție la oxidare și coroziune"
+      },
+      {
+        "code": "HLP 46",
+        "description": "Ulei hidraulic industrial standard, vâscozitate cinematică 46 mm2 pe secundă"
+      },
+      {
+        "code": "HLP 68",
+        "description": "Ulei hidraulic cu vâscozitate mai ridicată pentru echipamente specifice"
+      },
+      {
+        "code": "HLPD 46",
+        "description": "Ulei hidraulic cu aditivi detergenți-dispersanți, previne formarea de nămol"
+      },
+      {
+        "code": "HVLP 46",
+        "description": "Ulei hidraulic cu indice de vâscozitate ridicat, conform DIN 51524-3"
+      },
+      {
+        "code": "HVLPD 46",
+        "description": "Ulei hidraulic cu indice de vâscozitate ridicat și aditivi dispersanți"
+      },
+      {
+        "code": "Bio Hydraulic Oil",
+        "description": "Ulei hidraulic biodegradabil pe bază de esteri, din gama NatureProof"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este uleiul Addinol Super Traktor MU 1045?",
+        "a": "Este un ulei multifuncțional pentru tractoare, cu vâscozitate SAE 10W-40, gândit pentru ungerea simultană a motorului, cutiei de viteze, frânelor umede și hidraulicii, conform standardelor ACEA E2/E3 și API CF-4/CG-4. Addinol recomandă schimbul la fiecare 500 de ore de funcționare, nu în funcție de kilometraj. Confirmăm compatibilitatea exactă cu modelul de tractor pe baza cărții tehnice a utilajului."
+      },
+      {
+        "q": "Aduceți uleiuri Addinol la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă uleiuri din gamele CLP, HLP, HVLP sau Super Traktor, pe baza codului confirmat din fișa tehnică oficială Addinol. Nu ținem uleiurile Addinol pe raft în cantitate mare; le procurăm la comandă, de obicei în 2-6 săptămâni. Recomandăm transmiterea vâscozității și normei producătorului de echipament pentru identificarea variantei potrivite."
+      },
+      {
+        "q": "Ce diferență este între HLP 46 și HVLP 46 de la Addinol?",
+        "a": "HLP 46 este un ulei hidraulic mineral standard cu vâscozitate cinematică de 46 mm2 pe secundă, în timp ce HVLP 46 are un indice de vâscozitate mult mai ridicat, conform DIN 51524-3, ceea ce înseamnă o comportare mai stabilă la temperaturi scăzute. Alegerea depinde de plaja de temperatură de funcționare a instalației hidraulice și de recomandarea producătorului acesteia."
+      },
+      {
+        "q": "Ce informații includem într-o cerere de ofertă pentru un ulei industrial Addinol?",
+        "a": "Este nevoie de tipul de aplicație, motor, transmisie sau sistem hidraulic, vâscozitatea SAE sau ISO VG cerută și normele producătorului de echipament, precum DIN sau ACEA. Dacă înlocuiți un ulei folosit anterior, fișa tehnică a acestuia ajută la alegerea unui echivalent exact din gama Addinol, fără compromisuri privind aditivarea sau compatibilitatea materialelor."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Motoröl und Hydrauliköl für Traktoren von ADDINOL","url":"https://addinol.de/en/products/lubricants-for-the-automotive-sector/engine-oil/tractor/","publisher":"Addinol","accessed":"2026-09-26"},
+      {"title":"Hydrauliköl – Druckfluide für Industriemaschinen von Addinol","url":"https://addinol.de/en/products/industrial-lubricants/hydraulic-oils/","publisher":"Addinol","accessed":"2026-09-26"},
+      {"title":"CLP 100 Getriebeöl von ADDINOL","url":"https://addinol.de/en/products/industrial-lubricants/gear-oil/clp-100/","publisher":"Addinol","accessed":"2026-09-26"},
       { title: "Addinol România", url: "https://www.addinol.ro", publisher: "Addinol Lube Oil GmbH", accessed: "2026-09-22" },
       { title: "Addinol - Company", url: "https://www.addinol.de/en/company/", publisher: "Addinol Lube Oil GmbH", accessed: "2026-09-22" },
       { title: "Nelcar - Addinol", url: "https://nelcar.ro/brand/addinol", publisher: "Nelcar", accessed: "2026-09-22" }
@@ -1204,11 +1275,81 @@ Pentru atelierele de fabricație metalică și service-urile de mentenanță din
     ],
     infinitrade: `Spunem clar ce putem și ce nu putem confirma pentru fiecare model Lincoln Electric cerut, pornind de la surse publice ale producătorului. Aducem echipamente Lincoln Electric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul de sudură (MMA, MIG/MAG sau TIG), curentul maxim necesar și materialul care se sudează. Nu facem punerea în funcțiune și instruirea operatorilor pe echipamentele robotizate — livrăm aparatul, integrarea în linia de producție rămâne în sarcina integratorului de sistem.`,
     limitation: "Nu facem punerea în funcțiune a sistemelor de sudură robotizată și nu confirmăm disponibilitate permanentă din stoc pentru modelele industriale mari.",
+    productCodes: [
+      {
+        "code": "Flextec 350XP",
+        "description": "Sursă multiproces 350A cu tehnologie CrossLinc de control de la distanță"
+      },
+      {
+        "code": "Flextec 350X PowerConnect",
+        "description": "Variantă cu conector PowerConnect a sursei multiproces Flextec 350X"
+      },
+      {
+        "code": "Flextec 650X",
+        "description": "Sursă multiproces de sudură din gama Flextec, capacitate ridicată"
+      },
+      {
+        "code": "Flextec 350X Construction",
+        "description": "Variantă pentru șantier a sursei multiproces Flextec 350X"
+      },
+      {
+        "code": "Invertec V350 PRO",
+        "description": "Sursă invertoare de sudură din gama Invertec"
+      },
+      {
+        "code": "Invertec 300TPX",
+        "description": "Invertor pentru sudare TIG cu impulsuri, capacitate medie de curent"
+      },
+      {
+        "code": "Invertec 400TPX",
+        "description": "Invertor TIG cu impulsuri din gama Invertec, curent maxim mai mare"
+      },
+      {
+        "code": "Invertec 275TP",
+        "description": "Sursă de sudură TIG cu impulsuri, variantă mai compactă a gamei"
+      },
+      {
+        "code": "Invertec 300TP",
+        "description": "Sursă invertoare pentru procedeul TIG puls, uz profesional"
+      },
+      {
+        "code": "Invertec 170TX",
+        "description": "Aparat de sudură TIG din seria Invertec, format compact"
+      },
+      {
+        "code": "Invertec 170TPX",
+        "description": "Invertor TIG puls compact, potrivit pentru lucrări de precizie"
+      },
+      {
+        "code": "Invertec 220TPX",
+        "description": "Sursă de sudură TIG puls cu ieșire de curent mediu"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este sursa de sudură Lincoln Electric Flextec 350XP?",
+        "a": "Este o sursă multiproces de 350A pentru sudare cu electrod, TIG, MIG, MIG puls, sârmă tubulară și crestare cu arc, potrivită atât pentru atelier cât și pentru șantier. Tehnologia CrossLinc permite controlul parametrilor de la distanță, fără cabluri suplimentare de comandă, iar carcasa rezistentă are protecție IP23. Lincoln Electric o recomandă pentru echipe care lucrează în condiții variate de teren."
+      },
+      {
+        "q": "Livrați aparate de sudură Lincoln Electric la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă surse de sudură din gamele Flextec și Invertec, alese după modelul exact indicat de client și verificat în documentația producătorului. Nu ținem sursele de sudură Lincoln Electric pe raft; le aducem la comandă, într-un interval de 2-6 săptămâni. Recomandăm transmiterea curentului maxim necesar și a proceselor de sudare dorite."
+      },
+      {
+        "q": "Ce diferență este între Invertec 300TPX și Invertec 400TPX de la Lincoln Electric?",
+        "a": "Ambele sunt invertoare pentru procedeul TIG cu impulsuri din gama Invertec, dar 400TPX oferă un curent maxim de ieșire mai mare, potrivit pentru materiale mai groase sau pentru sesiuni de sudare mai solicitante. 300TPX rămâne o variantă mai compactă pentru lucrări curente de precizie. Alegerea depinde de grosimea pieselor și de intensitatea de utilizare zilnică a echipamentului."
+      },
+      {
+        "q": "Ce parametri trebuie menționați pentru o ofertă la un aparat de sudură Lincoln Electric?",
+        "a": "Este nevoie de procesul de sudare dorit, electrod, TIG, MIG sau sârmă tubulară, curentul maxim necesar și tensiunea de alimentare disponibilă, monofazică sau trifazică. Pentru un post de lucru deja echipat, o poză clară a plăcuței sursei existente ne ajută să găsim varianta din gama Flextec sau Invertec potrivită."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Flextec 350XP | Lincoln Electric","url":"https://www.lincolnelectric.com/en/Products/le-na-flextec350xp","publisher":"Lincoln Electric","accessed":"2026-09-26"},
+      {"title":"INVERTEC 300TPX & 400TPX Operator's Manual","url":"https://assets.lincolnelectric.com/assets/EU/OperatorManuals/IM2041rev12-ENG.pdf","publisher":"Lincoln Electric","accessed":"2026-09-26"},
       { title: "Lincoln Electric", url: "https://en.wikipedia.org/wiki/Lincoln_Electric", publisher: "Wikipedia", accessed: "2026-09-22" },
       { title: "Elfigrup - Lincoln Electric", url: "https://www.elfigrup.ro/sudura/aparate-de-sudura/producator/lincoln-electric", publisher: "Elfigrup", accessed: "2026-09-22" }
     ],

@@ -766,12 +766,79 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
 
     infinitrade: `Furnizăm scule Stahlwille (chei dinamometrice, tubulare, chei inelare, biți) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu deținem date proprii despre stocul central al producătorului și folosim informațiile publice din catalogul Stahlwille pentru coduri și game de cuplu. Ca formulare generală a firmei, anumite articole pot fi livrate în 24–72 h din stoc dacă se află deja în lanțul nostru, iar celelalte configurații ajung în 2–6 săptămâni la comandă. Pentru o ofertă utilă, trimite-ne seria dorită, gama de cuplu necesară și tipul de cap (pătrat, inelar, tubular). Confirmăm disponibilitatea reală înainte de a trimite propunerea finală.`,
     sources: [
+      {"title":"Stahlwille homepage","url":"https://stahlwille.com/de_de","publisher":"Stahlwille","accessed":"2026-09-26"},
+      {"title":"Torque wrench MANOSKOP 730 Quick","url":"https://stahlwille.com/en_us/products/torque-tools/torque-wrenches-mechanical/torque-wrenches-mechanical-for-insert-tools/torque-wrench-manoskopr-730-quick-nm-ftlb/852078","publisher":"Stahlwille","accessed":"2026-09-26"},
+      {"title":"VDE torque wrench MANOSKOP - 96550125","url":"https://stahlwille.com/en_us/products/detail/851916","publisher":"Stahlwille","accessed":"2026-09-26"},
       { title: 'STAHLWILLE', url: 'https://stahlwille.com/de_de', publisher: 'Stahlwille Eduard Wille GmbH & Co. KG', accessed: '2026-09-22' },
       { title: 'Stahlwille', url: 'https://en.wikipedia.org/wiki/Stahlwille', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu efectuăm noi recalibrarea DKD/DAkkS a sculelor Stahlwille și nu putem confirma stocul permanent pentru fiecare referință din gamă.',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    productCodes: [
+      {
+        "code": "MANOSKOP 730 Quick",
+        "description": "Cheie dinamometrică cu clichet pentru scule interschimbabile, semnal dublu de oprire"
+      },
+      {
+        "code": "MANOSKOP 96550125",
+        "description": "Cheie dinamometrică izolată VDE, antrenare 3/8 inch, IEC 60900"
+      },
+      {
+        "code": "MANOSKOP 96503005",
+        "description": "Cheie dinamometrică din seria service, pentru utilizare profesională"
+      },
+      {
+        "code": "MANOSKOP 96501710",
+        "description": "Cheie dinamometrică din seria service, cu suport pentru scule interschimbabile"
+      },
+      {
+        "code": "MANOSKOP 96501810",
+        "description": "Cheie dinamometrică din seria service, cu clichet reversibil"
+      },
+      {
+        "code": "MANOSKOP 96501054",
+        "description": "Cheie dinamometrică din gama MANOSKOP pentru strângere controlată"
+      },
+      {
+        "code": "MANOSKOP 96502110",
+        "description": "Cheie dinamometrică service cu clichet fix QuickRelease"
+      },
+      {
+        "code": "MANOSKOP 96503020",
+        "description": "Cheie dinamometrică service cu suport pentru scule interschimbabile"
+      },
+      {
+        "code": "MANOSKOP 50181102",
+        "description": "Cheie dinamometrică din seria service Stahlwille"
+      },
+      {
+        "code": "eClick",
+        "description": "Sculă digitală de strângere, combină măsurarea electronică cu semnal tactil de clic"
+      },
+      {
+        "code": "DAPTIQ",
+        "description": "Scule conectate pentru integrare în managementul digital al producției"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este cheia dinamometrică Stahlwille MANOSKOP 730 Quick?",
+        "a": "Este o cheie dinamometrică mecanică de tip clichet, pentru scule interschimbabile, cu semnal dublu de oprire și blocare de siguranță QuickRelease. Are afișaj dublu N·m și ft·lb, precizie de ±4% și certificat de calibrare conform DIN EN ISO 6789-2:2017. Stahlwille o recomandă pentru montaj și mentenanță unde strângerea la un cuplu exact este esențială pentru siguranța îmbinării."
+      },
+      {
+        "q": "Livrați scule Stahlwille la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă chei dinamometrice și scule din gama MANOSKOP, pe baza codului confirmat din catalogul oficial Stahlwille. Nu avem această gamă în stoc propriu; comandăm scula exactă la producător, iar termenul obișnuit este de 2-6 săptămâni. Recomandăm transmiterea codului complet de pe corpul sculei pentru identificarea corectă a variantei."
+      },
+      {
+        "q": "Ce detalii sunt necesare pentru o ofertă la o cheie dinamometrică Stahlwille?",
+        "a": "Este nevoie de domeniul de cuplu dorit, tipul de antrenare, pătrat de 3/8, 1/2 sau 1 inch, și dacă este necesară izolarea VDE pentru lucrul în instalații electrice. Dacă înlocuiți o sculă existentă, codul de pe corpul acesteia ajută la identificarea rapidă a variantei MANOSKOP potrivite din gama Stahlwille."
+      },
+      {
+        "q": "Ce este tehnologia DAPTIQ de la Stahlwille?",
+        "a": "DAPTIQ desemnează sculele conectate din gama Stahlwille, gândite pentru integrarea cu sistemele digitale de management al producției și asigurarea calității. Datele privind operațiile de strângere pot fi transmise automat către sistemele de urmărire ale clientului, reducând erorile de asamblare. Alegerea unei scule DAPTIQ depinde de infrastructura digitală deja existentă în linia de producție."
+      }
+    ],
     evidenceClass: 'zero-evidence'
   },
 

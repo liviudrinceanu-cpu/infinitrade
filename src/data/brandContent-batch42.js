@@ -381,11 +381,88 @@ Pentru fabricile din România cu automatizare industrială — PLC-uri, SCADA, l
     certifications: ["EN 50121 — compatibilitate electromagnetică pentru aplicații feroviare", "EN 50171 — sisteme centrale de alimentare de siguranță"],
     infinitrade: `Aducem echipamente Vertiv la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare — nu păstrăm stoc propriu de UPS-uri industriale și nu promitem o cantitate disponibilă imediat. Pentru o ofertă corectă avem nevoie de puterea necesară în kVA, tensiunea de rețea, timpul de autonomie dorit pe baterie și condițiile de mediu din hală (temperatură, praf, umiditate). Parametrii tehnici din acest text provin din surse publice ale producătorului, verificate în această sesiune; pentru configurația exactă de baterii și autonomie recomandăm o discuție tehnică înainte de comandă, pentru că dimensionarea depinde direct de sarcina reală protejată.`,
     limitation: "Nu putem confirma disponibilitate permanentă din stoc pentru o putere anume de UPS și nu oferim service în garanția producătorului pentru unități instalate deja de alt furnizor.",
+    productCodes: [
+      {
+        "code": "Liebert NX",
+        "description": "UPS trifazat de 40 până la 200 kVA pentru centre de date"
+      },
+      {
+        "code": "Liebert ITA",
+        "description": "UPS scalabil pentru IT, gama 5–20 kVA"
+      },
+      {
+        "code": "Liebert PSA iTON",
+        "description": "UPS pentru protecția stațiilor de lucru desktop, 600–1000 VA"
+      },
+      {
+        "code": "Liebert EXS",
+        "description": "UPS modele V, 15–40 kVA/kW, la 208/220V"
+      },
+      {
+        "code": "Liebert GXT5",
+        "description": "UPS online dublu-conversie pentru servere și echipamente de rețea"
+      },
+      {
+        "code": "Liebert EXL S1",
+        "description": "UPS de mare putere, 250–600 kVA/kW"
+      },
+      {
+        "code": "Liebert PSI5",
+        "description": "UPS interactiv cu AVR, 750–5000 VA, cu baterii înlocuibile la cald"
+      },
+      {
+        "code": "Liebert APM",
+        "description": "UPS modular versatil, 30–600 kW"
+      },
+      {
+        "code": "Liebert APM Plus",
+        "description": "UPS modular de nouă generație, 50–500 kW"
+      },
+      {
+        "code": "Liebert APM2",
+        "description": "UPS modular la 400V, 30–600 kW"
+      },
+      {
+        "code": "Liebert Trinergy Cube",
+        "description": "UPS de mare capacitate, 800 kW – 1,6 MW"
+      },
+      {
+        "code": "Liebert CRV",
+        "description": "Sistem de răcire in-row pentru echipamente IT, 10–46 kW"
+      },
+      {
+        "code": "Vertiv Desktop UPS",
+        "description": "UPS compact de birou, gama 400–600 VA"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între UPS-urile Vertiv Liebert APM și Liebert APM2?",
+        "a": "Liebert APM este UPS-ul modular de bază, acoperind 30 până la 600 kW, în timp ce Liebert APM2 este generația ulterioară, dezvoltată pentru rețele la 400V în același interval de putere, cu îmbunătățiri de eficiență și densitate. Liebert APM Plus adaugă tehnologie mai nouă pentru instalații de până la 500 kW, în funcție de configurația aleasă de client."
+      },
+      {
+        "q": "Ce este UPS-ul Liebert Trinergy Cube din gama Vertiv?",
+        "a": "Liebert Trinergy Cube este un sistem UPS de mare capacitate, destinat centrelor de date de dimensiuni mari, acoperind un interval de putere de la 800 kW până la 1,6 MW. Este gândit pentru instalații unde continuitatea alimentării trebuie asigurată la scară industrială, nu doar pentru un rând de servere."
+      },
+      {
+        "q": "Ce informații sunt necesare pentru o ofertă de UPS Vertiv?",
+        "a": "Avem nevoie de puterea totală a echipamentelor protejate, autonomia dorită la baterie și tipul de instalație, birou, server sau centru de date. Pe baza acestor date putem indica seria potrivită, de la Liebert PSI5 pentru birou până la Liebert NX sau APM pentru sarcini industriale, urmând confirmarea pe fișele tehnice publice ale producătorului."
+      },
+      {
+        "q": "Livrați echipamente Vertiv în România?",
+        "a": "Echipamentele Vertiv, inclusiv seriile Liebert de UPS și răcire, se aduc la comandă direct din portofoliul producătorului, cu un termen estimat de 2–6 săptămâni, gama nefiind păstrată pe raft dat fiind numărul mare de puteri și configurații."
+      },
+      {
+        "q": "Ce rol are sistemul Liebert CRV în infrastructura Vertiv pentru centre de date?",
+        "a": "Liebert CRV este un sistem de răcire montat direct în rândul de rack-uri, care preia aerul cald de la echipamentele IT și îl răcește local, cu o capacitate între 10 și 46 kW pe unitate. Este folosit atunci când densitatea de putere pe rack este ridicată și răcirea clasică a camerei nu mai este suficientă."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Vertiv Liebert PSI5 UPS – pagină produs","url":"https://www.vertiv.com/en-us/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-psi5-800---5000va/","publisher":"Vertiv","accessed":"2026-09-26"},
       { title: "Vertiv introduces industrial-grade UPS designed for commercial and industrial environments", url: "https://www.vertiv.com/en-emea/about/news-and-insights/news-releases/2026/vertiv-introduces-industrial-grade-ups-designed-for-commercial-and-industrial-environments/", publisher: "Vertiv Holdings Co.", accessed: "2026-09-22" },
       { title: "Vertiv — pagina principală", url: "https://www.vertiv.com/", publisher: "Vertiv Holdings Co.", accessed: "2026-09-22" },
       { title: "Vertiv", url: "https://en.wikipedia.org/wiki/Vertiv", publisher: "Wikipedia", accessed: "2026-09-22" }

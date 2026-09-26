@@ -482,7 +482,69 @@ Ceea ce ne face preferați de inginerii de proces este versatilitatea: același 
     ],
     infinitrade: `Aducem senzorii și regulatoarele JUMO din Fulda prin furnizori din Uniunea Europeană, fără evidență proprie a stocului disponibil în fiecare clipă. Datele tehnice pe care le folosim provin din surse publice ale producătorului, iar termenul real îl confirmăm după ce verificăm cererea la furnizor. Ca regulă generală a firmei, sondele și traductoarele obișnuite pot ajunge în 24–72 h din stoc, iar regulatoarele configurate special sau seturile pentru automatizare completă intră pe flux de comandă de 2–6 săptămâni. Spune-ne domeniul de măsură, tipul de ieșire și, dacă e cazul, standardul de calibrare cerut, ca să verificăm rapid opțiunile. Nu efectuăm noi calibrări acreditate DAkkS și nu configurăm software-ul platformelor AQUIS sau mTRON pentru procesul tău specific.`,
     sources: [
+      {"title":"JUMO dTRON 16.1 Microprocessor controller","url":"https://www.jumo.group/us/en/products/productdetails/703011","publisher":"JUMO","accessed":"2026-09-26"},
+      {"title":"JUMO Group homepage (US)","url":"https://www.jumo.group/us/en/","publisher":"JUMO","accessed":"2026-09-26"},
       { title: 'JUMO GmbH & Co. KG - pagina oficială', url: 'https://www.jumo.net/', publisher: 'JUMO GmbH & Co. KG', accessed: '2026-09-22' }
+    ],
+    productCodes: [
+      {
+        "code": "dTRON 304",
+        "description": "Regulator compact din familia dTRON, cu structură PID pentru control industrial"
+      },
+      {
+        "code": "dTRON 308",
+        "description": "Variantă din familia de regulatoare compacte JUMO dTRON pentru automatizare"
+      },
+      {
+        "code": "dTRON 316",
+        "description": "Variantă din familia de regulatoare compacte JUMO dTRON, montaj pe panou"
+      },
+      {
+        "code": "dTRON plast",
+        "description": "Variantă cu carcasă din plastic a regulatoarelor compacte JUMO dTRON"
+      },
+      {
+        "code": "dTRON 16.1",
+        "description": "Regulator cu structură PID, carcasă frontală 48x48 mm, montaj pe panou"
+      },
+      {
+        "code": "IMAGO 500",
+        "description": "Sistem de automatizare modular din familia JUMO IMAGO"
+      },
+      {
+        "code": "IMAGO F3000",
+        "description": "Regulator/înregistrator din familia JUMO IMAGO, pentru procese industriale"
+      },
+      {
+        "code": "AQUIS 500 RS",
+        "description": "Sistem de măsurare și control pentru parametri de apă și apă uzată"
+      },
+      {
+        "code": "MAERA",
+        "description": "Sondă de nivel pentru lichide, din gama JUMO MAERA"
+      },
+      {
+        "code": "digiLine O-DO S10",
+        "description": "Senzor digital pentru parametri de proces, din familia JUMO digiLine"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este regulatorul JUMO dTRON 16.1?",
+        "a": "Este un regulator cu microprocesor cu structură PID, într-o carcasă frontală de 48x48 mm, potrivit pentru montaj pe panou în spații restrânse. JUMO l-a proiectat ca regulator programabil în două sau trei puncte sau continuu, pentru aplicații industriale de control al temperaturii sau al altor parametri de proces. Confirmăm varianta exactă și opțiunile de ieșire pe baza codului complet transmis de client."
+      },
+      {
+        "q": "Livrați regulatoare și senzori JUMO în România la comandă?",
+        "a": "Da, procurăm la comandă echipamente din familiile dTRON, IMAGO sau digiLine, pe baza codului confirmat din documentația oficială JUMO. Nu păstrăm în mod curent aceste aparate pe raft; aducem la comandă, cu un termen orientativ de 2-6 săptămâni. Recomandăm transmiterea numărului complet de tip de pe eticheta aparatului existent pentru identificarea corectă a variantei JUMO."
+      },
+      {
+        "q": "Ce date sunt utile pentru o ofertă la un senzor JUMO MAERA?",
+        "a": "Aveți nevoie de lungimea de măsurare dorită, tipul de lichid monitorizat și interfața de comunicație necesară cu sistemul de automatizare existent. Dacă înlocuiți o sondă mai veche, codul complet de pe eticheta echipamentului ajută la identificarea rapidă a variantei JUMO potrivite și evită o comandă incompatibilă cu instalația actuală."
+      },
+      {
+        "q": "Ce diferență este între seriile IMAGO 500 și IMAGO F3000 de la JUMO?",
+        "a": "Ambele fac parte din familia de sisteme de automatizare JUMO IMAGO, gândite pentru monitorizarea și controlul proceselor industriale complexe, dar diferă prin generația de hardware și opțiunile de conectivitate disponibile. Alegerea între cele două depinde de cerințele proiectului și de echipamentele deja instalate, motiv pentru care verificăm întotdeauna fișa tehnică oficială înainte de confirmarea comenzii."
+      }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu efectuăm calibrări acreditate DAkkS în nume propriu și nu configurăm software-ul platformelor AQUIS/mTRON pentru procesul specific al clientului.',

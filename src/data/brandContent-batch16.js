@@ -1360,6 +1360,9 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
     ],
     infinitrade: "Pentru produsele chimice Würth, folosim ce putem confirma direct la cerere și informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare tip de spray sau adeziv. Comandăm produsele prin canale de aprovizionare din UE, cu 24-72 h din stoc pentru cele pe care le avem deja confirmate și 2-6 săptămâni la comandă pentru comenzile mai mari sau produsele mai puțin uzuale. Pentru o ofertă corectă, spuneți-ne tipul de produs (lubrifiant, degresant, adeziv sau protecție anti-coroziune), ambalajul dorit (spray, tub sau bidon) și cantitatea necesară. Nu afișăm prețuri aici, iar pentru consumul recurent sau soluțiile de organizare cu rack-uri și dispensere recomandăm o discuție separată de aprovizionare.",
     sources: [
+      {"title":"Produse chimice Würth","url":"https://www.wuerth.ro/produse-chimice/","publisher":"Würth România","accessed":"2026-09-26"},
+      {"title":"HHS 2000 500 ml (vaselina spray)","url":"https://www.wuerth.ro/produse-chimice/lubrifianti-vaseline/hhs-2000-500-ml-00893-106.html","publisher":"Würth România","accessed":"2026-09-26"},
+      {"title":"HHS 5000 500 ml (vaselina spray)","url":"https://www.wuerth.ro/produse-chimice/lubrifianti-vaseline/hhs-5000-500-ml-vaselina-spray-00893-106-3.html","publisher":"Würth România","accessed":"2026-09-26"},
       { title: "History | Würth Group", url: "https://www.wuerth.com/wuerth-group/Company/History/History.php", publisher: "Würth Group", accessed: "2026-09-22" },
       { title: "Company | Würth Group", url: "https://www.wuerth.com/wuerth-group/Company/Company.php", publisher: "Würth Group", accessed: "2026-09-22" }
     ],
@@ -1367,6 +1370,70 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
     lastVerified: "2026-09-22",
     changelog: [
       { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+    ],
+    productCodes: [
+      {
+        "code": "HHS 2000",
+        "description": "Lubrifiant spray semi-sintetic universal, pentru piese supuse la presiuni ridicate"
+      },
+      {
+        "code": "HHS 5000",
+        "description": "Lubrifiant spray sintetic cu PTFE, pentru temperaturi de până la 200 grade"
+      },
+      {
+        "code": "HHS Lube",
+        "description": "Lubrifiant spray cu aditiv EP, pentru zone expuse la murdărie și umezeală"
+      },
+      {
+        "code": "HHS 6000 PLUS",
+        "description": "Lubrifiant adeziv, ambalaj de 400 ml"
+      },
+      {
+        "code": "WIT-PM 200",
+        "description": "Mortar chimic în cartuș coaxial, pentru ancorare în construcții"
+      },
+      {
+        "code": "Kontaktspray SW",
+        "description": "Spray de contact pentru curățarea componentelor electrice"
+      },
+      {
+        "code": "Deruginol Spray",
+        "description": "Spray de protecție anticorozivă pentru întreținerea vehiculelor"
+      },
+      {
+        "code": "Metal Liquid",
+        "description": "Compus lichid pentru reparații metalice"
+      },
+      {
+        "code": "Spray Zinc Light",
+        "description": "Spray anticoroziv pe bază de zinc"
+      },
+      {
+        "code": "Active Foam Cleaner",
+        "description": "Spray spumant pentru curățarea suprafețelor interioare"
+      },
+      {
+        "code": "SMP Sealant-Adhesive",
+        "description": "Adeziv-etanșant pe bază de polimeri MS, disponibil în mai multe culori"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este produsul Würth HHS 2000?",
+        "a": "HHS 2000 este un lubrifiant spray semi-sintetic gândit pentru ungerea universală a pieselor supuse la presiuni ridicate, precum schimbătoare de viteze, pedale sau balamale. Rezistă la rupere și amortizează zgomotul, funcționând între -35 și +180 grade Celsius, cu compatibilitate pentru garnituri O-ring și materiale plastice. Würth îl recomandă pentru mentenanță generală unde este nevoie de o peliculă lubrifiantă durabilă."
+      },
+      {
+        "q": "Aduceți produse chimice Würth la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă produse din gamele HHS, WIT sau spray-urile de întreținere, pe baza codului confirmat din catalogul oficial Würth. Nu ținem produsele chimice Würth pe raft în mod permanent; ne bazăm pe informațiile publice ale producătorului, iar termenul de livrare este de regulă 2-6 săptămâni. Este util să ne trimiteți fotografia codului de pe ambalaj."
+      },
+      {
+        "q": "Ce diferență este între HHS 2000 și HHS 5000 de la Würth?",
+        "a": "HHS 2000 este un lubrifiant semi-sintetic universal pentru presiuni ridicate, în timp ce HHS 5000 este o formulă sintetică cu PTFE, gândită special pentru zone de precizie care funcționează la temperaturi mult mai mari, până la 200 grade Celsius pe termen scurt. Alegerea depinde de temperatura de lucru și de toleranțele mecanice ale piesei unse."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o comandă de adeziv WIT-PM 200 de la Würth?",
+        "a": "Este nevoie de tipul de suport, beton sau zidărie, diametrul și adâncimea găurii de ancorare, plus sarcina estimată pe element. WIT-PM 200 vine în cartuș coaxial, gândit pentru instalare cu pistol de aplicare dedicat. Confirmăm disponibilitatea exactă a variantei pe baza fișei tehnice publicate de Würth înainte de plasarea comenzii."
+      }
     ],
     evidenceClass: "gsc-only"
   },

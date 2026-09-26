@@ -816,9 +816,87 @@ Pentru industria din România, gama Elmo Rietschle acoperă o nișă foarte prac
     ],
     infinitrade: `Pentru suflantele cu canal lateral, pompele de vid cu palete și pompele cu gheare uscate Elmo Rietschle, site-ul oficial al brandului nu ne-a fost accesibil la verificare, așa că pornim de la informațiile publice disponibile despre gamă și le confirmăm punctual, prin canale de aprovizionare din UE, înainte de orice ofertă. Pentru palete, filtre și garnituri de schimb, orientarea e 24-72h din stoc; pentru unități complete sau execuții ATEX ori fără ulei, termenul e de 2-6 săptămâni la comandă. Pentru propunerea corectă avem nevoie de nivelul de vid sau presiunea necesară, debitul de aer și cerințele de curățenie ale procesului (cu sau fără urme de ulei acceptate). Nu transmitem prețuri estimative fără aceste date.`,
     sources: [
+      {"title":"Side Channel Blowers | Elmo Rietschle","url":"https://www.elmorietschle.com/en/products/side-channel","publisher":"Elmo Rietschle (Ingersoll Rand)","accessed":"2026-09-26"},
+      {"title":"Product Finder for Vacuum and Blower Technologies | Elmo Rietschle","url":"https://www.elmorietschle.com/en/product-finder/","publisher":"Elmo Rietschle (Ingersoll Rand)","accessed":"2026-09-26"},
       { title: "Gardner Denver", url: "https://en.wikipedia.org/wiki/Gardner_Denver", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],
     limitation: "Nu am putut accesa direct site-ul producătorului (gardnerdenver.com) pentru a confirma anul înființării Elmo Rietschle sau stocul curent; nu oferim intervenții acoperite de garanția producătorului pentru unitățile deja instalate.",
+    productCodes: [
+      {
+        "code": "G-BH1",
+        "description": "Suflantă cu canal lateral, interval de service 20000 ore, sarcini variabile"
+      },
+      {
+        "code": "G-BH2",
+        "description": "Suflantă cu canal lateral, funcționare fără uzură, eficiență energetică ridicată"
+      },
+      {
+        "code": "G-BH7",
+        "description": "Suflantă cu canal lateral, presiune până la 1000 mbar, funcționare silențioasă"
+      },
+      {
+        "code": "G-BH100",
+        "description": "Suflantă cu motor DC, mentenanță redusă peste 20000 ore, viteză variabilă"
+      },
+      {
+        "code": "VLU",
+        "description": "Pompă de vid cu gheare, fără ulei, familie de modele 62 până la 1000"
+      },
+      {
+        "code": "VLR",
+        "description": "Pompă de vid cu gheare, compresie uscată, vid ultim până la 150 mbar"
+      },
+      {
+        "code": "DLR",
+        "description": "Compresor cu gheare, funcționare uscată, familie de modele 100 până la 501"
+      },
+      {
+        "code": "KLR 80-140",
+        "description": "Unitate de presiune-vid eficientă, mentenanță redusă, răcire cu aer integrată"
+      },
+      {
+        "code": "VSI",
+        "description": "Pompă de vid cu șurub, fără ulei, pentru aplicații industriale"
+      },
+      {
+        "code": "IDS",
+        "description": "Unitate industrială cu tehnologie de șurub din gama Elmo Rietschle"
+      },
+      {
+        "code": "VTE 3-10",
+        "description": "Pompă de vid cu palete, funcționare uscată"
+      },
+      {
+        "code": "BV2",
+        "description": "Pompă de vid cu inel lichid pentru aplicații industriale"
+      },
+      {
+        "code": "F-RB 1175",
+        "description": "Suflantă radială de mare viteză, fără ulei, foarte silențioasă"
+      },
+      {
+        "code": "VPS",
+        "description": "Sistem de amplificare cu șurub, pentru aplicații medicale și industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între G-BH1 și G-BH100 de la Elmo Rietschle?",
+        "a": "G-BH1 este o suflantă cu canal lateral gândită pentru sarcini variabile, cu interval de service de 20000 de ore, în timp ce G-BH100 folosește un motor DC cu turație variabilă și un design extrem de compact, potrivit unde spațiul de montaj este restrâns. Ambele fac parte din familia de suflante cu canal lateral Elmo Rietschle pentru aplicații de vid și presiune."
+      },
+      {
+        "q": "Livrați pompe de vid Elmo Rietschle la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă pompe și suflante din gamele G-BH, VLU, VLR sau BV2, pe baza modelului confirmat din cataloagele oficiale ale producătorului. Nu ținem pompele Elmo Rietschle pe raft; le procurăm de la producător, în aproximativ 2-6 săptămâni. Recomandăm transmiterea codului de pe plăcuța echipamentului pentru identificarea variantei corecte."
+      },
+      {
+        "q": "Ce parametri trebuie precizați pentru o ofertă la o pompă de vid Elmo Rietschle?",
+        "a": "Este nevoie de nivelul de vid sau presiunea necesară, debitul volumic dorit și mediul de lucru, uscat sau cu urme de umiditate. Pentru un echipament deja instalat, numărul de tip marcat pe corpul pompei permite găsirea variantei Elmo Rietschle echivalente, fie ea cu gheare, cu șurub sau cu inel lichid."
+      },
+      {
+        "q": "Ce este suflanta F-RB 1175 de la Elmo Rietschle?",
+        "a": "F-RB 1175 este o suflantă radială de mare viteză, fără ulei, gândită pentru funcționare energetic eficientă și extrem de silențioasă în comparație cu suflantele clasice cu canal lateral. Se folosește în aplicații unde nivelul de zgomot din hala de producție trebuie limitat. Confirmăm parametrii exacți din fișa tehnică oficială înainte de a recomanda o variantă echivalentă."
+      }
+    ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
