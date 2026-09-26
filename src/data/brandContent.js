@@ -242,6 +242,19 @@ import { brandContentBatch147 } from './brandContent-batch147';
 import { brandContentBatch148 } from './brandContent-batch148';
 import { brandContentBatch149 } from './brandContent-batch149';
 import { brandContentBatch150 } from './brandContent-batch150';
+import { brandContentBatch151 } from './brandContent-batch151';
+import { brandContentBatch152 } from './brandContent-batch152';
+import { brandContentBatch153 } from './brandContent-batch153';
+import { brandContentBatch154 } from './brandContent-batch154';
+import { brandContentBatch155 } from './brandContent-batch155';
+import { brandContentBatch156 } from './brandContent-batch156';
+import { brandContentBatch157 } from './brandContent-batch157';
+import { brandContentBatch158 } from './brandContent-batch158';
+import { brandContentBatch159 } from './brandContent-batch159';
+import { brandContentBatch160 } from './brandContent-batch160';
+import { brandContentBatch161 } from './brandContent-batch161';
+import { brandContentBatch162 } from './brandContent-batch162';
+import { brandContentBatch163 } from './brandContent-batch163';
 
 // Merge all batches into single object
 export const brandContent = {
@@ -395,6 +408,19 @@ export const brandContent = {
   ...brandContentBatch148,
   ...brandContentBatch149,
   ...brandContentBatch150,
+  ...brandContentBatch151,
+  ...brandContentBatch152,
+  ...brandContentBatch153,
+  ...brandContentBatch154,
+  ...brandContentBatch155,
+  ...brandContentBatch156,
+  ...brandContentBatch157,
+  ...brandContentBatch158,
+  ...brandContentBatch159,
+  ...brandContentBatch160,
+  ...brandContentBatch161,
+  ...brandContentBatch162,
+  ...brandContentBatch163,
 };
 
 /**

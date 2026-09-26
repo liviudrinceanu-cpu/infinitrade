@@ -702,6 +702,110 @@ export const equipmentCategories = [
     ],
     accessories: ['Consumabile protecție (filtre, cartușe)', 'Detergenți industriali', 'Tuburi și accesorii dozare', 'Pompe transfer lichide', 'Containere și bidoane', 'Etichete și marcare', 'Kituri intervenție scurgeri'],
     services: ['Training siguranță și protecție muncă', 'Consultanță sisteme de dozare', 'Mentenanță echipamente curățenie', 'Livrări programate consumabile', 'Audit siguranță operațională']
+  },
+  {
+    "id": "aparate-masura-testare",
+    "name": "Aparate de Măsură și Testare",
+    "slug": "aparate-masura-testare",
+    "tagline": "Instrumente de măsură și testare pentru electric industrial și mentenanță predictivă",
+    "metaTitle": "Aparate Măsură și Testare | Furnizor SEAP | Fluke, Megger",
+    "metaDescription": "Furnizor SEAP aparate de măsură și testare. Livrăm Fluke, Megger, Testo, Metrel: multimetre, calibratoare, testere PRAM, analizoare de energie pentru licitații.",
+    "description": "Aparate de măsură și testare pentru electric industrial, laborator și mentenanță predictivă. Multimetre, osciloscoape, calibratoare, echipamente PRAM, analizoare de calitate a energiei și instrumente de termoviziune și vibrații.",
+    "heroDescription": "Instrumente de precizie pentru verificări electrice, calibrare și diagnoză tehnică. Echipamente pentru electricieni, laboratoare de metrologie și departamente de mentenanță predictivă.",
+    "icon": "Gauge",
+    "color": "#0ea5e9",
+    "gradient": "linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%)",
+    "stats": {
+      "brands": "80+",
+      "products": "3000+",
+      "delivery": "2-6 săpt."
+    },
+    "lastUpdated": "2026-09-26",
+    "brands": [],
+    "productTypes": [
+      {
+        "name": "Multimetre și Clești Ampermetrici",
+        "slug": "multimetre-clesti-ampermetrici",
+        "description": "Multimetre digitale și clești ampermetrici pentru măsurarea tensiunii, curentului, rezistenței și continuității",
+        "applications": [
+          "Mentenanță electrică industrială",
+          "Verificare tablouri și circuite",
+          "Depanare motoare și echipamente",
+          "Control la punerea în funcțiune"
+        ]
+      },
+      {
+        "name": "Osciloscoape, Generatoare și Surse de Laborator",
+        "slug": "osciloscoape-generatoare-surse",
+        "description": "Osciloscoape digitale, generatoare de semnal și surse de alimentare de laborator pentru dezvoltare și service electronic",
+        "applications": [
+          "Dezvoltare și testare echipamente electronice",
+          "Service electronic industrial",
+          "Laboratoare de cercetare și control",
+          "Verificarea semnalelor și formelor de undă"
+        ]
+      },
+      {
+        "name": "Calibratoare și Echipamente de Etalonare",
+        "slug": "calibratoare-etalonare",
+        "description": "Calibratoare de proces, tensiune, curent și temperatură pentru verificarea și etalonarea instrumentelor de măsură",
+        "applications": [
+          "Verificarea traductoarelor și senzorilor",
+          "Etalonare instrumente de proces",
+          "Control metrologic intern",
+          "Laboratoare de metrologie"
+        ]
+      },
+      {
+        "name": "Testere de Electrosecuritate și Echipamente PRAM",
+        "slug": "testere-electrosecuritate-pram",
+        "description": "Testere de securitate electrică și echipamente PRAM pentru verificarea releelor de protecție, izolației, prizei de pământ și defectoscopie cabluri",
+        "applications": [
+          "Verificări periodice PRAM conform normativelor",
+          "Testarea releelor de protecție în stații electrice",
+          "Verificarea izolației și prizei de pământ",
+          "Localizarea defectelor în cabluri electrice"
+        ]
+      },
+      {
+        "name": "Analizoare de Calitate a Energiei și Loggere",
+        "slug": "analizoare-calitate-energie",
+        "description": "Analizoare de rețea și loggere pentru monitorizarea calității energiei electrice, armonicilor și consumurilor",
+        "applications": [
+          "Audit energetic industrial",
+          "Monitorizarea armonicilor și dezechilibrului de fază",
+          "Investigarea perturbațiilor de rețea",
+          "Optimizarea consumului energetic"
+        ]
+      },
+      {
+        "name": "Termoviziune, Vibrații și Aliniere",
+        "slug": "termoviziune-vibratii-aliniere",
+        "description": "Camere termice, echipamente de analiză a vibrațiilor și sisteme de aliniere laser pentru mentenanță predictivă",
+        "applications": [
+          "Mentenanță predictivă pe utilaje rotative",
+          "Inspecție termografică a tablourilor electrice",
+          "Alinierea arborilor la motoare și pompe",
+          "Diagnoza vibrațiilor la lagăre și rulmenți"
+        ]
+      }
+    ],
+    "accessories": [
+      "Sonde și cabluri de test",
+      "Clești și adaptoare de curent",
+      "Baterii și acumulatoare pentru aparate portabile",
+      "Huse și genți de protecție și transport",
+      "Software de analiză și descărcare date",
+      "Trepiede și accesorii de montaj pentru termoviziune și aliniere",
+      "Conectori, mufe și adaptoare de măsură"
+    ],
+    "services": [
+      "Consultanță pentru selecția aparatului potrivit aplicației",
+      "Demonstrații și instruire pentru utilizarea echipamentelor",
+      "Certificate de etalonare la cerere, de la producător sau laborator acreditat",
+      "Configurare și punere în funcțiune pentru sisteme de monitorizare (loggere, analizoare de energie)",
+      "Suport tehnic pentru interpretarea claselor de precizie și acuratețe"
+    ]
   }
 ];
 

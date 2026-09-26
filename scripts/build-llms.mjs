@@ -27,7 +27,7 @@ const indexed = idx.allBrandsUnified.filter((b) => !idx.isBrandNoindex(b.simpleS
 let txt = fs.readFileSync(FILE, 'utf8');
 txt = txt.replace(/^- Brands: .*$/m, `- Brands: ${stats.total} brands with their own page on the site (${stats.indexed} published and indexed, the rest listed in the A–Z catalog while their page is being written)`);
 txt = txt.replace(/^- Pages: .*$/m, `- Pages: ${stats.indexed + 60}+ indexed (categories, brands, industries, guides, blog); full list in the sitemap`);
-txt = txt.replace(/## Product Categories \(15 categories, \d+ brands with their own page\)/, `## Product Categories (15 categories, ${stats.total} brands with their own page)`);
+txt = txt.replace(/## Product Categories \(\d+ categories, \d+ brands with their own page\)/, `## Product Categories (${idx.allCategoriesUnified.length} categories, ${stats.total} brands with their own page)`);
 
 const byCat = new Map();
 for (const b of indexed) {

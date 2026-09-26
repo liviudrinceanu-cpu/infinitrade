@@ -15,8 +15,9 @@ import { productTypes as sculeInstrumente } from './scule-instrumente';
 import { productTypes as echipamenteTermice } from './echipamente-termice';
 import { productTypes as lubrifiantiChimice } from './lubrifianti-chimice';
 import { productTypes as echipamenteAuxiliare } from './echipamente-auxiliare';
+import { productTypes as aparateMasuraTestare } from './aparate-masura-testare';
 
-export const productTypeIndex = [...pompeIndustriale, ...robinetiIndustriali, ...motoareElectrice, ...schimbatoareCaldura, ...suflanteVentilatoare, ...automatizariIndustriale, ...senzoriInstrumentatie, ...componenteHidraulicePneumatice, ...echipamenteElectrice, ...componenteMecanice, ...filtreConsumabile, ...sculeInstrumente, ...echipamenteTermice, ...lubrifiantiChimice, ...echipamenteAuxiliare];
+export const productTypeIndex = [...pompeIndustriale, ...robinetiIndustriali, ...motoareElectrice, ...schimbatoareCaldura, ...suflanteVentilatoare, ...automatizariIndustriale, ...senzoriInstrumentatie, ...componenteHidraulicePneumatice, ...echipamenteElectrice, ...componenteMecanice, ...filtreConsumabile, ...sculeInstrumente, ...echipamenteTermice, ...lubrifiantiChimice, ...echipamenteAuxiliare, ...aparateMasuraTestare];
 
 export function getProductTypeContent(categorySlug, typeSlug) {
   return productTypeIndex.find((t) => t.category === categorySlug && t.slug === typeSlug) || null;

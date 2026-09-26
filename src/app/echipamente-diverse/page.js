@@ -2,7 +2,12 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { equipmentCategories, equipmentBrandsTotal } from '@/data/equipmentCategories';
+import { equipmentCategories as rawEquipmentCategories, equipmentBrandsTotal } from '@/data/equipmentCategories';
+import { allCategoriesUnified } from '@/data/allBrandsIndex';
+
+// v14: render the merged categories (extension + secondary memberships), so a
+// category fed only by the extension shows its real brands and count.
+const equipmentCategories = rawEquipmentCategories.map((c) => allCategoriesUnified.find((u) => u.slug === c.slug) || c);
 import { config } from '@/lib/config';
 import styles from './echipamente.module.css';
 
