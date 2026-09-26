@@ -216,7 +216,27 @@ async function countAccessoryRoutes(repoRoot) {
   }
 }
 
-function countProductTypeRoutes(outRoot, corpusRoot) {
+async function countProductTypeRoutes(outRoot, corpusRoot) {
+  // v13 (D-2026-09-26): the route file and its data exist — count the real
+  // entries of src/data/productTypeContent/*.js (one page each), exactly like
+  // series. The worklist branch below is kept for repos without that data dir.
+  const dataDir = path.join(REPO, 'src', 'data', 'productTypeContent');
+  const routeFileNow = path.join(REPO, 'src', 'app', '[category]', '[type]', 'page.js');
+  if (fs.existsSync(routeFileNow) && fs.existsSync(dataDir)) {
+    const loader = loadDataDir(REPO);
+    try {
+      const files = loader.files.filter((f) => f.startsWith(`productTypeContent${path.sep}`) && f.endsWith('.js') && !path.basename(f).startsWith('_'));
+      let total = 0;
+      for (const f of files) {
+        const mod = await loader.importFile(f);
+        const arr = mod.productTypes || Object.values(mod).find((v) => Array.isArray(v));
+        if (Array.isArray(arr)) total += arr.length;
+      }
+      return total;
+    } finally {
+      loader.cleanup();
+    }
+  }
   const worklist = path.join(outRoot, 'plan-v2', 'worklists', 'product-types.json');
   // A worklist is a plan, not a route. Product-type pages only become routes once
   // the App Router file src/app/[category]/[type]/page.js exists (backlog F7).
@@ -326,7 +346,7 @@ async function main() {
 
   const seriesRoutes = await countSeriesRoutes(REPO);
   const accessoryRoutes = await countAccessoryRoutes(REPO);
-  const productTypeRoutes = countProductTypeRoutes(OUT, CORPUS);
+  const productTypeRoutes = await countProductTypeRoutes(OUT, CORPUS);
 
   const otherRoutes = staticInfo.count + categoryRoutes + industryInfo.count + blogRoutes + caseStudyRoutes;
   const prerendered = brandRoutes + seriesRoutes + productTypeRoutes + accessoryRoutes + otherRoutes;

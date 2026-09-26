@@ -1,0 +1,28 @@
+/* /[category]/[type] — extras on top of brand-index.module.css */
+.smallStat { font-size: 18px !important; padding-top: 6px; }
+.prose { max-width: 820px; color: #334155; font-size: 16px; line-height: 1.7; }
+.prose p { margin: 0 0 14px; }
+
+.criteria { list-style: none; counter-reset: crit; margin: 0; padding: 0; display: grid; gap: 12px; max-width: 900px; }
+.criteria li { counter-increment: crit; position: relative; background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px 18px 14px 58px; }
+.criteria li::before { content: counter(crit); position: absolute; left: 16px; top: 14px; width: 30px; height: 30px; border-radius: 50%; background: #0077b6; color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+.criteria strong { display: block; color: #0f172a; font-size: 16px; margin-bottom: 4px; }
+.criteria p { margin: 0; color: #475569; line-height: 1.6; font-size: 15px; }
+
+.chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.chips li { padding: 8px 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 999px; color: #0f172a; font-size: 14px; }
+
+.checklist { list-style: none; margin: 0 0 18px; padding: 0; display: grid; gap: 8px; max-width: 820px; }
+.checklist li { position: relative; padding-left: 26px; color: #334155; line-height: 1.55; font-size: 15px; }
+.checklist li::before { content: "✓"; position: absolute; left: 0; top: 0; color: #0077b6; font-weight: 700; }
+
+.faq { margin: 0; display: grid; gap: 14px; max-width: 900px; }
+.faq div { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px 20px; }
+.faq dt { font-weight: 700; color: #0f172a; margin: 0 0 6px; font-size: 16px; }
+.faq dd { margin: 0; color: #475569; line-height: 1.65; font-size: 15px; }
+
+.relatedList { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.relatedList li { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; }
+.relatedList a { font-weight: 600; color: #0f172a; text-decoration: none; }
+.relatedList a:hover { color: #0077b6; text-decoration: underline; }
+.relatedList span { font-size: 13px; color: #64748b; line-height: 1.5; }

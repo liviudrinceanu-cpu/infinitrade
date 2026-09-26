@@ -1,5 +1,6 @@
 import { allCategoriesUnified as categories, allBrandsUnified, isBrandNoindex, getAllBrandSlugs } from '@/data/allBrandsIndex';
 import { seriesIndex } from '@/data/series/_index';
+import { productTypeIndex } from '@/data/productTypeContent/_index';
 import { blogArticles } from '@/data/blog';
 import { caseStudies } from '@/data/caseStudies';
 import { lastModified } from '@/data/lastModified';
@@ -135,6 +136,15 @@ export default function sitemap() {
     priority: 0.8,
   };
 
+  // Product-type selection guides (/[category]/[type], v13) — priority 0.8,
+  // lastModified = the guide's own lastVerified date.
+  const productTypePages = productTypeIndex.map((t) => ({
+    url: `${BASE_URL}/${t.category}/${t.slug}`,
+    lastModified: t.lastVerified,
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  }));
+
   // Category pages
   const categoryPages = categories.map((category) => ({
     url: `${BASE_URL}/${category.slug}`,
@@ -216,6 +226,7 @@ export default function sitemap() {
     ...categoryPages,
     brandIndexPage,
     usBrandsPage,
+    ...productTypePages,
     ...brandPages,
     ...seriesPages,
     ...industryPages,
