@@ -121,7 +121,7 @@ export default async function Image({ params }) {
             <span style={{ fontSize: 48, fontWeight: 700, color: '#0990DB' }}>
               {category.stats.delivery}
             </span>
-            <span style={{ fontSize: 18, color: '#64748b' }}>Livrare</span>
+            <span style={{ fontSize: 18, color: '#64748b' }}>Livrare din stoc</span>
           </div>
         </div>
 

@@ -9,27 +9,9 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { getBrandUpdatedDate } from '@/data/lastModified';
-import { getProductTypesForBrand } from '@/data/brandCategoryLinks';
 import entityFacts from '@/data/entityFacts.json';
 import styles from './brand.module.css';
 
-// Strip category prefix from brand slug to get simple slug
-function toSimpleSlug(slug) {
-  const prefixes = [
-    'pompe-industriale-', 'pompe-vid-industriale-',
-    'robineti-industriali-', 'robineti-reglare-industriali-',
-    'regulatoare-presiune-industriale-', 'oale-condens-industriale-',
-    'supape-siguranta-industriale-', 'motoare-electrice-industriale-',
-    'motoare-atex-industriale-', 'schimbatoare-caldura-industriale-',
-    'racitoare-ulei-industriale-', 'suflante-industriale-',
-    'suflante-roots-industriale-', 'ventilatoare-industriale-',
-    'compresoare-industriale-',
-  ];
-  for (const prefix of prefixes) {
-    if (slug.startsWith(prefix)) return slug.slice(prefix.length);
-  }
-  return slug;
-}
 
 // F3-02 helpers ---------------------------------------------------------
 // The template only ever reads its own data fields - it never invents a
@@ -52,7 +34,7 @@ const SOURCING_STATEMENT = entityFacts.boilerplate.find((b) => b.id === 'sourcin
 const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
 const LEAD_TIME_TO_ORDER = entityFacts.leadTimePhrases?.[1] || '2–6 săptămâni la comandă';
 
-export default function BrandPageClient({ brand, allCategories, brandContent, seriesPages = [] }) {
+export default function BrandPageClient({ brand, relatedByCategory = {}, brandContent, seriesPages = [] }) {
   const [heroRef, heroVisible] = useIntersectionObserver();
   const [productsRef, productsVisible] = useIntersectionObserver();
   const { addItem, items: cartItems } = useQuoteCart();
@@ -98,13 +80,9 @@ export default function BrandPageClient({ brand, allCategories, brandContent, se
   // v11 (D-2026-09-26): ordered by how many product types they share with
   // this brand (src/data/brandCategoryLinks.js), then featured, then name —
   // so "similar brands" are the closest substitutes, not the alphabet.
-  const ownTypes = new Set(getProductTypesForBrand(brand.simpleSlug));
-  const relatedBrands = ((allCategories
-    .find(c => c.slug === category.slug)
-    ?.brands
-    ?.filter(b => b.name !== brand.name && toSimpleSlug(b.slug) !== brand.simpleSlug)) || [])
-    .map((b) => ({ ...b, shared: getProductTypesForBrand(toSimpleSlug(b.slug)).filter((t) => ownTypes.has(t)).length }))
-    .sort((a, b) => (b.shared - a.shared) || (Number(Boolean(b.featured)) - Number(Boolean(a.featured))) || a.name.localeCompare(b.name, 'ro'));
+  // v16: ranked on the server (src/data/brandView.js), per category.
+  const related = relatedByCategory[category.slug] || { count: 0, top: [] };
+  const relatedBrands = related.top;
 
   return (
     <>
@@ -766,13 +744,12 @@ export default function BrandPageClient({ brand, allCategories, brandContent, se
           <div className={styles.container}>
             <h2>Ce alte mărci livrăm din aceeași categorie?</h2>
             <p className={styles.sectionLead}>
-              În categoria {category.name.toLowerCase()} mai livrăm încă {relatedBrands.length} branduri.
+              În categoria {category.name.toLowerCase()} mai livrăm încă {related.count} branduri.
             </p>
             <div className={styles.relatedGrid}>
               {relatedBrands
-                .slice(0, 8)
                 .map(relatedBrand => {
-                  const href = `/brand/${toSimpleSlug(relatedBrand.slug)}`;
+                  const href = `/brand/${relatedBrand.slug}`;
                   return (
                     <Link
                       key={relatedBrand.slug}

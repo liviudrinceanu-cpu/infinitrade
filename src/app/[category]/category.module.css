@@ -1012,3 +1012,43 @@ a.applicationTag:hover {
 /* v13: product-type card title links to the selection guide */
 .typeTitleLink { color: inherit; text-decoration: none; }
 .typeTitleLink:hover { color: var(--primary); text-decoration: underline; }
+
+/* v16 (D-2026-09-26): hero lead-time note */
+.heroNote { margin: -24px 0 32px; max-width: 760px; font-size: 14px; line-height: 1.6; color: rgba(255, 255, 255, 0.92); }
+.heroNote a { color: #fff; text-decoration: underline; }
+
+/* v16: C-03 keeps the FAQ question visible when the H2 is a shorter heading */
+.selectionQuestion { font-size: 17px; font-weight: 600; color: var(--gray-900); margin: 0 0 10px; }
+
+/* v16: "show more" buttons + CSS-only collapsing, phones only. The content
+   stays in the HTML for crawlers and desktop readers. */
+.mobileMore { display: none; }
+@media (max-width: 768px) {
+  .mobileHidden { display: none !important; }
+  .azCollapsedMobile { display: none; }
+  .mobileMore {
+    display: block; width: 100%; margin: 16px 0 0; padding: 14px 16px;
+    border: 1px solid var(--primary); border-radius: 10px; background: #fff;
+    color: var(--primary); font-weight: 600; font-size: 15px; cursor: pointer;
+  }
+  .brandCard { padding: 16px; gap: 12px; }
+  .brandCard p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .otherCategories { padding: 48px 0; }
+  .otherCategoriesGrid { grid-template-columns: repeat(2, 1fr) !important; gap: 10px; }
+  .otherCategoryCard { padding: 14px; }
+  .otherCategoryName { font-size: 15px; margin-bottom: 0; }
+  .otherCategoryTagline, .otherCategoryCard svg { display: none; }
+  .heroNote { margin: -8px 0 24px; }
+}
+
+/* v16: industries + blog links (D) */
+.relatedSection { padding: 56px 0; background: var(--gray-50); border-top: 1px solid var(--gray-200); }
+.relatedSection h2 { font-size: 24px; font-weight: 700; margin: 0 0 8px; }
+.relatedChips { list-style: none; margin: 0 0 28px; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.relatedChip { display: inline-block; padding: 8px 14px; border: 1px solid var(--gray-200); border-radius: 999px; background: #fff; color: #063c69; font-weight: 600; font-size: 14px; text-decoration: none; }
+.relatedChip:hover { border-color: var(--primary); }
+.relatedSubtitle { font-size: 18px; font-weight: 700; margin: 0 0 12px; }
+.relatedArticles { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; max-width: 860px; }
+.relatedArticle { display: inline-flex; align-items: center; gap: 6px; color: #063c69; text-decoration: none; font-weight: 500; }
+.relatedArticle:hover { text-decoration: underline; }
+@media (max-width: 768px) { .relatedSection { padding: 40px 0; } .relatedSection h2 { font-size: 20px; } }
