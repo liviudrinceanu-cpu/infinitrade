@@ -1,0 +1,198 @@
+// Batch 150 - Branduri-500 val 9 EU (sept. 2026): Apex Dynamics, Nabtesco, Tecnotrans (Bonfiglioli).
+// Sursa faptelor: site-urile oficiale ale producătorilor (apexdynamicsusa.com, nabtesco.com / precision.nabtesco.com, bonfiglioli.com), accesate la data din `sources[].accessed`.
+export const brandContentBatch150 = {
+  'apex-dynamics': {
+    name: "Apex Dynamics",
+    founded: 1987,
+    headquarters: "Ronkonkoma, New York, SUA",
+    overview: `Apex Dynamics este un producător american de reductoare planetare de precizie, cu sediul la Ronkonkoma, New York, SUA, înființat în aprilie 1987, iar fabricația propriu-zisă se face la compania-mamă din Taiwan. Gama acoperă reductoare planetare inline (seriile PAII, PGII, PSII, PNII), reductoare planetare cu unghi drept (seriile KH, KF) și reductoare cu pinion conic în spirală (seria AT), toate gândite pentru cuplare directă la servomotoare în automatizări industriale. Din această gamă putem oferta variantele inline și cu unghi drept cerute cel mai des la retehnologizarea liniilor de producție din România.
+
+Ce diferențiază reductoarele Apex Dynamics este construcția cu joc unghiular redus la ieșire, gândită pentru bucla de poziționare a unui servomotor, nu pentru o transmisie industrială generică. Seria inline PGII vine pe mai multe dimensiuni de flanșă, potrivită la mașini de ambalat sau roboți cartezieni, iar seriile cu unghi drept KH și KF permit montarea motorului perpendicular pe axul acționat, acolo unde spațiul de instalare e limitat. Reductoarele conice în spirală din seria AT sunt varianta pentru cupluri mai mari, folosită la mese rotative și axe de indexare grele. Producătorul acordă garanție de 5 ani pe reductor, inclusiv etanșări și rulmenți.
+
+Pentru piața din România, Apex Dynamics are sens la retrofitul mașinilor unde un servomotor trebuie cuplat printr-un reductor cu joc mic — roboți cartezieni, mese de poziționare, module liniare pe linii de ambalare. Integratorii aleg reductorul după flanșă și raport de transmisie, iar noi confirmăm compatibilitatea înainte de ofertă.`,
+    whyChoose: [
+      "Construcție cu joc unghiular redus la ieșire, dedicată cuplării directe la servomotoare, nu transmisiilor industriale cu joc mare",
+      "Trei familii constructive — inline, unghi drept și pinion conic în spirală — acoperă majoritatea configurațiilor de montaj din automatizări",
+      "Garanție de 5 ani pe reductor, inclusiv etanșări și rulmenți, utilă la proiectele cu funcționare continuă",
+      "Fabricație certificată ISO 9001, cu variante CE și ATEX pentru instalații care cer conformitate explicită",
+      "Gamă largă de flanșe și rapoarte de transmisie pe fiecare serie, utilă la înlocuirea unui reductor uzat fără redesenarea axului",
+    ],
+    keyProducts: [
+      { name: "Reductoare Planetare Inline Seria PGII", description: "Reductor planetar inline din familia de bază Apex Dynamics, cu roți dințate dovedite pentru joc redus la ieșire, gândit pentru cuplare directă pe axul unui servomotor. Disponibil pe mai multe dimensiuni de flanșă și rapoarte de transmisie, ceea ce permite alegerea unui model apropiat de reductorul deja montat la o retehnologizare. Aplicație tipică: axe de poziționare pe mașini de ambalat, roboți cartezieni și module liniare, acolo unde precizia depinde direct de jocul unghiular al reductorului." },
+      { name: "Reductoare Planetare cu Unghi Drept Seriile KH/KF", description: "Variantă cu ieșire perpendiculară pe axul de intrare a aceleiași familii planetare inline, utilă acolo unde spațiul de montaj nu permite alinierea servomotorului cu axul acționat. Păstrează principiul roților planetare cu joc redus al seriei de bază, într-o carcasă în unghi drept care scurtează lungimea totală a ansamblului motor-reductor. Se regăsește frecvent la benzi transportoare scurte, mese rotative de poziționare și mecanisme unde motorul trebuie montat lateral sau vertical față de sarcină." },
+      { name: "Reductoare cu Pinion Conic în Spirală Seria AT", description: "Familie separată, cu angrenaj conic în spirală în locul treptei planetare, pentru cupluri mai mari și turații de intrare ridicate. Variantele AT-FC și AT-FH diferă prin tipul de flanșă, iar seria AT-4M e gândită pentru sarcinile cele mai mari din gamă. Se folosește la mese rotative grele și axe de indexare, unde un reductor planetar clasic nu acoperă cuplul necesar." },
+    ],
+    industries: [
+      "Automatizări industriale — cuplare directă la servomotoare pentru axe de poziționare",
+      "Ambalare — module liniare și mese rotative pe linii de ambalat",
+      "Robotică industrială — reductoare de ax pe roboți cartezieni și SCARA",
+      "Mașini-unelte — indexare și poziționare pe mese rotative",
+      "Manipulare materiale — benzi transportoare scurte cu motor montat lateral",
+    ],
+    certifications: [
+      "ISO 9001 — management al calității pentru proiectare și fabricație",
+      "CE — conformitate pentru piața europeană",
+      "ATEX — variante pentru zone cu risc de explozie",
+    ],
+    infinitrade: `Pentru Apex Dynamics lucrăm cu ce publică producătorul și cu ce putem și ce nu putem confirma din cataloagele văzute pe site, fără date proprii de stoc pentru această gamă. Reductoarele planetare Apex Dynamics ajung la noi la comandă, prin canale de aprovizionare din SUA și Taiwan; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 2-6 săptămâni. Pentru ofertă avem nevoie de codul exact al seriei — PGII, KH sau AT-FC, de exemplu —, de dimensiunea flanșei, de raportul de transmisie și de diametrul axului servomotorului pe care se montează reductorul. Nu promitem o disponibilitate permanentă și recomandăm confirmarea termenului real înainte de a-l transmite mai departe clientului final.`,
+    limitation: "Nu putem confirma disponibilitatea urgentă sau un service de garanție direct de la fabrica din Taiwan pentru instalațiile din România.",
+    productCodes: [
+      { code: "PAII", description: "reductor planetar inline, familia de bază, joc redus pentru servomotoare" },
+      { code: "PEII", description: "reductor planetar inline, variantă a familiei de bază cu altă flanșă" },
+      { code: "PGII", description: "reductor planetar inline, cea mai cerută serie pentru axe de poziționare" },
+      { code: "PSII", description: "reductor planetar inline, variantă compactă a familiei planetare de bază" },
+      { code: "PNII", description: "reductor planetar inline pentru spații de montaj reduse" },
+      { code: "PL", description: "reductor planetar inline, variantă simplificată a gamei de bază" },
+      { code: "PD", description: "reductor planetar inline cu flanșă pătrată pentru servomotoare" },
+      { code: "PFII", description: "reductor planetar inline, montaj prin flanșă frontală" },
+      { code: "AB", description: "reductor planetar inline pentru aplicații generale de automatizare" },
+      { code: "AF", description: "reductor planetar inline, variantă pentru servomotoare de putere medie" },
+      { code: "KH", description: "reductor planetar cu unghi drept, ieșire perpendiculară pe motor" },
+      { code: "KF", description: "reductor planetar cu unghi drept, flanșă pentru montaj lateral" },
+      { code: "GV", description: "reductor planetar inline din familia dedicată cuplurilor mai mari" },
+      { code: "AT-FC", description: "reductor cu pinion conic în spirală, flanșă tip FC" },
+      { code: "AT-FH", description: "reductor cu pinion conic în spirală, flanșă tip FH" },
+      { code: "AT-4M", description: "reductor cu pinion conic în spirală pentru sarcini mari" },
+    ],
+    faq: [
+      { q: "Ce produce Apex Dynamics?", a: "Apex Dynamics fabrică reductoare planetare de precizie pentru cuplare directă la servomotoare, în trei familii constructive: inline, cu unghi drept și cu pinion conic în spirală. Producătorul, cu sediul american la Ronkonkoma, New York, și fabricație din Taiwan, mizează pe joc unghiular redus și pe o gamă largă de flanșe și rapoarte de transmisie, utile mai ales la retehnologizarea axelor de poziționare din liniile de automatizare." },
+      { q: "Cum aleg un reductor Apex Dynamics după cod?", a: "Pornești de la seria montată deja pe mașină — de exemplu PGII, KH sau AT-FC —, apoi confirmi dimensiunea flanșei, raportul de transmisie și diametrul axului servomotorului. Aceste trei elemente identifică practic modelul din cataloagele producătorului. Dacă reductorul e vechi și codul nu se mai citește clar, o poză cu plăcuța și dimensiunile flanșei ne ajută să găsim varianta echivalentă." },
+      { q: "Livrați reductoare Apex Dynamics în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA și Taiwan; termenul orientativ este de 2-6 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea la producător. Nu ținem această gamă pe raft, așa că recomandăm verificarea termenului exact înainte de a promite o dată de livrare finală clientului." },
+      { q: "Ce trebuie să trimit pentru o ofertă de reductor Apex Dynamics?", a: "Codul seriei de pe plăcuța reductorului sau a mașinii pe care se montează, dimensiunea flanșei, raportul de transmisie dorit și diametrul axului servomotorului. Dacă reductorul existent s-a uzat, sunt utile și fotografii cu plăcuța și cu montajul, ca să confirmăm echivalentul exact înainte de a pregăti oferta." },
+      { q: "Care e diferența dintre seria inline și seria cu unghi drept la Apex Dynamics?", a: "Seria inline (PGII, PAII, PNII) are ieșirea reductorului pe aceeași axă cu intrarea de la servomotor, montaj tipic pentru axe liniare și module de poziționare. Seria cu unghi drept (KH, KF) mută ieșirea la 90 de grade față de motor, utilă când spațiul de montaj nu permite alinierea directă a servomotorului cu sarcina acționată." },
+    ],
+    evidenceClass: "market-signal-intl",
+    tier: 3,
+    lastVerified: "2026-09-26",
+    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    sources: [
+      { title: "Apex Dynamics USA — Precision Planetary Gearboxes", url: "https://apexdynamicsusa.com/", publisher: "Apex Dynamics USA", accessed: "2026-09-26" },
+      { title: "About Us — Apex Dynamics USA", url: "https://apexdynamicsusa.com/about-us/", publisher: "Apex Dynamics USA", accessed: "2026-09-26" },
+    ],
+  },
+  nabtesco: {
+    name: "Nabtesco",
+    overview: `Nabtesco este un producător japonez de reductoare de precizie, cunoscut mai ales pentru seria RV, un reductor cicloidal cu joc unghiular sub un minut de arc, folosit la articulațiile brațelor robotizate industriale. Din Japonia, compania acoperă și segmente conexe — reductoare cu montaj în unghi drept pentru mese rotative, actuatoare compacte și unități de poziționare — construite pe același principiu de reducție cu joc redus. Din această gamă putem oferta seriile RV și RS cerute cel mai frecvent la reparațiile și modernizările de roboți industriali din România.
+
+Seria RV-E acoperă modele de la RV-6E, cu cuplu nominal de circa 58 N·m, până la RV-450E, cu cuplu nominal de circa 4.410 N·m și maxim 11.025 N·m, toate cu joc unghiular sub un minut de arc și rulmenți principali integrați în corpul reductorului. Pentru montaj în unghi drept, cu arbore gol, seria RS oferă modele de la RS-50, cu cuplu nominal 490 N·m, până la RS-900, cu cuplu nominal 8.820 N·m, gândite pentru echipamente de sudură și mese rotative industriale. Varianta RV-C păstrează arborele gol al familiei RV, cu peste 7 milioane de unități produse până acum, semn al maturității acestei construcții cicloidale.
+
+Pentru piața din România, reductoarele Nabtesco au sens la mentenanța roboților industriali deja instalați în fabrici auto și de componente, atunci când reductorul de la articulație și-a pierdut precizia. Modelul exact se identifică după codul de pe plăcuță — RV-20E sau RS-260A, de exemplu —, iar noi confirmăm disponibilitatea înainte de ofertă.`,
+    whyChoose: [
+      "Joc unghiular sub un minut de arc pe toată seria RV, esențial pentru repetabilitatea brațelor robotizate industriale",
+      "Plajă largă de cuplu, de la circa 58 N·m la RV-6E până la peste 4.400 N·m la RV-450E, pentru roboți de dimensiuni diferite",
+      "Seria RS, cu arbore gol și intrare în unghi drept, acoperă aplicații de sudură și mese rotative unde geometria RV nu se potrivește",
+      "Construcție cicloidală matură, cu peste 7 milioane de unități RV-C livrate, dovadă a fiabilității pe termen lung a principiului",
+      "Game conexe — actuatoare compacte și unități de poziționare — permit înlocuirea mai multor componente de la același producător",
+    ],
+    keyProducts: [
+      { name: "Reductoare Cicloidale Seria RV-E", description: "Familie de reductoare de precizie cu principiu cicloidal, de la modelul mic RV-6E (cuplu nominal circa 58 N·m, maxim 117 N·m) până la RV-450E (cuplu nominal circa 4.410 N·m, maxim 11.025 N·m). Toate variantele au joc unghiular sub un minut de arc și rulmenți principali integrați, ceea ce elimină nevoia unor rulmenți externi suplimentari la montaj. Este seria de bază folosită la articulațiile brațelor robotizate industriale, acolo unde repetabilitatea depinde direct de jocul reductorului." },
+      { name: "Reductoare cu Arbore Gol Seria RV-C", description: "Variantă a familiei RV cu arbore gol pe centru, utilă pentru trecerea cablurilor sau a conductelor de aer direct prin reductor, fără rutare externă pe brațul robotului. Producătorul a livrat peste 7 milioane de unități din această construcție, ceea ce arată o istorie lungă de utilizare în robotica industrială. Se montează tipic la articulațiile de bază ale brațelor robotizate, unde spațiul intern trebuie păstrat liber pentru cabluri." },
+      { name: "Reductoare cu Intrare în Unghi Drept Seria RS", description: "Familie de reductoare tip masă, cu arbore gol și intrare perpendiculară pe axul de ieșire, de la RS-50 (cuplu nominal 490 N·m) până la RS-900 (cuplu nominal 8.820 N·m, maxim 17.640 N·m). Profilul jos al construcției permite montajul direct sub o masă rotativă sau un cap de sudură, fără ca reductorul și motorul să fie aliniate pe aceeași axă. Aplicația tipică menționată de producător este echipamentul de sudură industrială." },
+    ],
+    industries: [
+      "Robotică industrială — articulații de braț robotizat cu reductoare RV",
+      "Sudură industrială — mese rotative și capete de sudură cu seria RS",
+      "Mașini-unelte — module de poziționare cu reductoare de precizie",
+      "Vehicule ghidate automat — actuatoare pentru unitățile de tracțiune",
+      "Automatizări industriale — axe secundare cu actuatoare compacte seria AF",
+    ],
+    infinitrade: `La Nabtesco lucrăm cu fișele tehnice publice din cataloagele văzute pe site, fără date proprii despre stocul acestor reductoare la producător. Comanda pleacă spre Japonia, iar reductorul ajunge la noi într-un interval orientativ de 2-6 săptămâni; nu deținem această gamă pe raft, o procurăm pe măsură ce apare cererea. Pentru ofertă, cel mai util e codul exact de pe plăcuța reductorului — RV-20E sau RS-260A, de exemplu —, raportul de transmisie și, dacă se poate, o fotografie cu montajul pe robot sau pe mașină, care ne ajută să confirmăm rapid varianta echivalentă. Verificăm disponibilitatea la producător înainte de a stabili un termen ferm cu clientul, fără promisiuni de disponibilitate din depozit.`,
+    limitation: "Nu putem confirma programarea unui service specializat pe robot direct de la Nabtesco pentru instalațiile din România.",
+    productCodes: [
+      { code: "RV-6E", description: "reductor cicloidal RV, cuplu nominal circa 58 N·m, motor 250W" },
+      { code: "RV-20E", description: "reductor cicloidal RV, cuplu nominal circa 167 N·m, motor 350W" },
+      { code: "RV-40E", description: "reductor cicloidal RV, motor asociat de 860W" },
+      { code: "RV-80E", description: "reductor cicloidal RV, motor asociat de 1640W" },
+      { code: "RV-110E", description: "reductor cicloidal RV, motor asociat de 2260W" },
+      { code: "RV-160E", description: "reductor cicloidal RV, motor asociat de 3280W" },
+      { code: "RV-320E", description: "reductor cicloidal RV, motor asociat de 6570W" },
+      { code: "RV-450E", description: "reductor cicloidal RV, cuplu nominal circa 4.410 N·m, maxim 11.025 N·m" },
+      { code: "RV-N", description: "reductor cicloidal, versiune evoluată a seriei RV pentru robotică" },
+      { code: "RV-C", description: "reductor cicloidal cu arbore gol, peste 7 milioane de unități produse" },
+      { code: "RS-50A", description: "reductor tip masă, arbore gol, cuplu nominal 490 N·m" },
+      { code: "RS-260A", description: "reductor tip masă, arbore gol, cuplu nominal 2.548 N·m" },
+      { code: "RS-320A", description: "reductor tip masă, arbore gol, cuplu nominal 3.136 N·m" },
+      { code: "RS-400A", description: "reductor tip masă, arbore gol, cuplu nominal 3.920 N·m" },
+      { code: "RS-900A", description: "reductor tip masă, arbore gol, cuplu nominal 8.820 N·m" },
+      { code: "RDS-C", description: "reductor cu montaj direct pe motor, variantă cu arbore gol" },
+      { code: "RDS-E", description: "reductor cu montaj direct pe motor, variantă cu arbore plin" },
+      { code: "AF-N", description: "actuator compact reductor-motor, putere între 0,4 și 5 kW" },
+    ],
+    faq: [
+      { q: "Ce produce Nabtesco?", a: "Nabtesco este un producător japonez de reductoare de precizie, cunoscut pentru seria cicloidală RV folosită la articulațiile brațelor robotizate industriale. Gama include și seria RS cu montaj în unghi drept, reductoare cu arbore gol din familia RV-C și actuatoare compacte, toate construite pe principiul cicloidal cu joc unghiular redus." },
+      { q: "Cum identific modelul corect de reductor Nabtesco pentru un robot vechi?", a: "Codul de pe plăcuța reductorului, vizibil de obicei la articulație, arată direct seria și dimensiunea — de exemplu RV-20E sau RV-80E. Dacă plăcuța nu se mai citește, o fotografie cu poziția de montaj și dimensiunile flanșei ne ajută să identificăm varianta echivalentă din cataloagele producătorului înainte de ofertare." },
+      { q: "Livrați reductoare Nabtesco în România și cât durează?", a: "Da, la comandă din Japonia, cu un termen orientativ de 2-6 săptămâni de la confirmare, în funcție de disponibilitatea la producător. Nu deținem această gamă pe raft, așa că verificăm termenul exact înainte de a-l confirma clientului final, mai ales pentru modelele mai mari din seria RV sau RS." },
+      { q: "Ce diferență e între seria RV și seria RS de la Nabtesco?", a: "Seria RV are ieșirea reductorului pe aceeași axă cu intrarea, montaj tipic pentru articulațiile brațelor robotizate. Seria RS are intrare perpendiculară pe ieșire și un profil jos, potrivit pentru mese rotative și capete de sudură montate direct sub echipament, unde o construcție RV clasică nu ar încăpea." },
+      { q: "Ce trebuie să trimit pentru o ofertă de reductor Nabtesco?", a: "Codul exact al modelului de pe plăcuță sau din documentația robotului, raportul de transmisie și, dacă e posibil, fotografii cu montajul actual. Aceste informații ne permit să confirmăm varianta echivalentă din cataloagele Nabtesco și să estimăm realist termenul de aprovizionare pentru cererea dumneavoastră." },
+    ],
+    evidenceClass: "market-signal-intl",
+    tier: 3,
+    lastVerified: "2026-09-26",
+    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    sources: [
+      { title: "Precision Reduction Gears | Our business | Nabtesco Corporation", url: "https://www.nabtesco.com/en/products/robot/", publisher: "Nabtesco Corporation", accessed: "2026-09-26" },
+      { title: "RV-E | Product | Nabtesco Precision Equipment Company", url: "https://precision.nabtesco.com/en/products/detail/RV-E", publisher: "Nabtesco Precision Equipment Company", accessed: "2026-09-26" },
+      { title: "RS | Product | Nabtesco Precision Equipment Company", url: "https://precision.nabtesco.com/en/products/detail/RS", publisher: "Nabtesco Precision Equipment Company", accessed: "2026-09-26" },
+      { title: "Product Lineup | Nabtesco Precision Equipment Company", url: "https://precision.nabtesco.com/en/products/", publisher: "Nabtesco Precision Equipment Company", accessed: "2026-09-26" },
+    ],
+  },
+  tecnotrans: {
+    name: "Tecnotrans",
+    headquarters: "Castellbisbal, Barcelona, Spania",
+    overview: `Tecnotrans Bonfiglioli este filiala spaniolă a grupului italian Bonfiglioli, cu sediul la Castellbisbal, lângă Barcelona. Sub acest nume, compania distribuie o gamă completă a grupului: motoreductoare industriale, motoare electrice, reductoare planetare și convertizoare cu servoacționări, pentru transmisii de putere în industrie. Din gama Bonfiglioli putem oferta seriile de motoreductoare industriale cerute cel mai des la liniile cu bandă transportoare și la instalațiile de amestecare din România.
+
+Gama de motoreductoare industriale acoperă trei arhitecturi: unghi drept, cu seria A (roți conice-elicoidale) și seria VF/W (melc-roată melcată), în linie, cu seria C pentru sarcini standard și seria mai nouă EVOX CP pentru randament ridicat, și pe ax paralel, cu seriile F și S — aceasta din urmă recomandată explicit pentru pompe, ventilatoare și suflante. Pentru medii dure, precum carierele și minele, producătorul indică seria TA, construită pentru fiabilitate la funcționare continuă. Grupul completează oferta cu motoare electrice asincrone din seria BE și cu servoacționări EVOX BXN pentru aplicații cu control de viteză.
+
+Pentru piața din România, gama acoperă atât înlocuirea unui motoreductor de pe o linie existentă, cât și un ansamblu nou pentru o bandă transportoare, un agitator sau o suflantă industrială. Alegerea seriei depinde de tipul de montaj, de cuplul de ieșire și de turația motorului, confirmate împreună cu clientul înainte de ofertă.`,
+    whyChoose: [
+      "Trei arhitecturi de motoreductor — unghi drept, în linie și ax paralel — acoperă majoritatea configurațiilor de montaj din instalațiile industriale",
+      "Seria S, recomandată explicit pentru pompe, ventilatoare și suflante, se potrivește direct pe echipamentele cerute frecvent la noi",
+      "Seria TA, gândită pentru cariere și mine, arată o construcție dimensionată pentru funcționare continuă în medii dure",
+      "Gamă completă de motoare electrice și servoacționări din același grup, utilă când proiectul cere motor și reductor de la un singur producător",
+      "Prezența globală a grupului Bonfiglioli, cu fabrici și filiale în mai multe țări, susține continuitatea pieselor de schimb pe termen lung",
+    ],
+    keyProducts: [
+      { name: "Motoreductoare cu Unghi Drept Seria A", description: "Motoreductor cu roți conice-elicoidale și ieșire perpendiculară pe axul motorului, prezentat de producător prin eficiență ridicată, costuri de mentenanță reduse și o plajă largă de cuplu. Se folosește la benzi transportoare, mixere și utilaje unde motorul trebuie montat lateral față de sarcina acționată, iar pierderile unui angrenaj melcat clasic nu mai sunt acceptabile pe termen lung de funcționare." },
+      { name: "Motoreductoare Melcate Seria VF/W", description: "Motoreductor cu angrenaj melc-roată melcată, apreciat pentru raportul dintre calitatea constructivă și complexitatea redusă de întreținere. Autoblocarea specifică angrenajului melcat îl face potrivit pentru mecanisme de ridicare sau poziționare, unde sarcina nu trebuie să revină singură la poziția inițială când motorul se oprește. Se regăsește frecvent la instalații mai vechi, ca soluție de înlocuire directă a unui motoreductor uzat." },
+      { name: "Motoreductoare pentru Pompe și Suflante Seria S", description: "Familie recomandată explicit pentru aplicații de pompare, ventilație și suflante industriale, cu o construcție optimizată pentru turațiile și cuplurile tipice acestor echipamente. Se montează direct pe pompa sau suflanta acționată, fără elemente intermediare suplimentare, ceea ce simplifică proiectarea ansamblului. Este seria pe care Tecnotrans Bonfiglioli o recomandă atunci când aplicația e deja definită ca pompă, ventilator sau suflantă." },
+      { name: "Motoreductoare pentru Cariere și Mine Seria TA", description: "Motoreductor pe ax paralel construit pentru medii dure, descris de producător ca soluție consacrată în cariere și mine, unde fiabilitatea la funcționare continuă contează mai mult decât dimensiunea compactă a ansamblului. Se folosește la benzi transportoare de agregate și instalații de concasare, acolo unde o oprire neplanificată pentru reparații costă mai mult decât un motoreductor supradimensionat de la început." },
+    ],
+    industries: [
+      "Manipulare materiale — benzi transportoare cu motoreductoare seria A sau TA",
+      "Ventilație industrială — suflante și ventilatoare cu motoreductoare seria S",
+      "Industria agregatelor minerale — cariere și mine cu seria TA",
+      "Amestecare și mixare — motoreductoare melcate seria VF/W la agitatoare",
+      "Energie eoliană — acționări pentru orientarea și înclinarea palelor",
+    ],
+    infinitrade: `Pentru gama Tecnotrans Bonfiglioli lucrăm cu fișele tehnice publice de pe site-ul producătorului, fără date proprii despre stocul din fabricile din Spania sau Italia. Motoreductoarele ajung la noi la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ e de 2-6 săptămâni, iar gama nu stă permanent pe raft. Ca să pregătim o ofertă corectă, avem nevoie de seria dorită — A, VF/W, C, F, S sau TA —, de raportul de transmisie sau turația de ieșire, de puterea motorului și, dacă există, de codul complet de pe plăcuța motoreductorului vechi pe care îl înlocuim. Confirmăm disponibilitatea exactă la fabrică înainte de a stabili un termen ferm împreună cu clientul.`,
+    limitation: "Nu putem confirma configurarea electronică a variantelor cu servoacționare EVOX BXN fără acces direct la proiectul clientului.",
+    productCodes: [
+      { code: "Seria A", description: "motoreductor unghi drept, roți conice-elicoidale, eficiență ridicată" },
+      { code: "VF/W", description: "motoreductor melcat cu autoblocare, soluție pentru ridicare sau poziționare" },
+      { code: "RAN", description: "motoreductor unghi drept, montaj simplificat pentru transmisii generale" },
+      { code: "EVOX CP", description: "reductor elicoidal în linie, randament ridicat la cost optimizat" },
+      { code: "Seria C", description: "motoreductor în linie pentru sarcini standard din mediul industrial" },
+      { code: "Seria F", description: "motoreductor pe ax paralel, flexibilitate mare la montaj" },
+      { code: "Seria S", description: "motoreductor ax paralel, recomandat pentru pompe și suflante" },
+      { code: "Seria TA", description: "motoreductor pe ax paralel, construcție consacrată în cariere și mine" },
+      { code: "EVOX BXN", description: "motor asincron din gama EVOX pentru servoacționări cu control de viteză" },
+      { code: "BE", description: "motor asincron trifazat, gamă de bază pentru motoreductoare" },
+    ],
+    faq: [
+      { q: "Ce produce Tecnotrans (Bonfiglioli) în Spania?", a: "Tecnotrans Bonfiglioli, filiala spaniolă a grupului Bonfiglioli, distribuie motoreductoare industriale, motoare electrice, reductoare planetare și convertizoare cu servoacționări, din fabrica de la Castellbisbal, lângă Barcelona. Gama acoperă atât arhitecturi clasice cu unghi drept sau ax paralel, cât și serii dedicate pentru pompe, suflante sau medii dure precum carierele și minele." },
+      { q: "Cum aleg motoreductorul Tecnotrans potrivit pentru o suflantă industrială?", a: "Pentru pompe, ventilatoare și suflante, producătorul recomandă direct seria S, optimizată pentru turațiile și cuplurile tipice acestor echipamente. Confirmă turația de ieșire dorită, puterea motorului și tipul de cuplare la suflantă, iar noi verificăm varianta exactă din gama Bonfiglioli înainte de a trimite oferta." },
+      { q: "Livrați motoreductoare Tecnotrans Bonfiglioli în România?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Gama nu stă permanent pe raft, așa că verificăm disponibilitatea exactă la fabrica producătoare înainte de a confirma o dată fermă către client." },
+      { q: "Ce echivalent are un motoreductor melcat vechi la Tecnotrans?", a: "Dacă motoreductorul actual are angrenaj melc-roată melcată, echivalentul din gama actuală e seria VF/W. Trimite-ne turația și puterea motorului, raportul de transmisie și, dacă se mai vede, codul de pe plăcuță — pe baza lor identificăm varianta exactă din gama Bonfiglioli înainte de ofertare." },
+      { q: "Ce trebuie să trimit pentru o ofertă de motoreductor Tecnotrans?", a: "Seria dorită sau codul de pe plăcuța motoreductorului vechi, raportul de transmisie sau turația de ieșire, puterea motorului și tipul de montaj — unghi drept sau ax paralel. Cu aceste date confirmăm varianta exactă din gama Bonfiglioli și termenul realist de livrare pentru comanda dumneavoastră." },
+    ],
+    evidenceClass: "market-signal-intl",
+    tier: 3,
+    lastVerified: "2026-09-26",
+    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    sources: [
+      { title: "Bonfiglioli España — Inicio", url: "https://www.bonfiglioli.com/spain/es/", publisher: "Bonfiglioli", accessed: "2026-09-26" },
+      { title: "Industrial Gearmotors and Gearboxes | Bonfiglioli International", url: "https://www.bonfiglioli.com/international/en/product-category/industrial-gearmotors", publisher: "Bonfiglioli", accessed: "2026-09-26" },
+      { title: "Industrial Gearmotors and Gearboxes | Bonfiglioli United States", url: "https://www.bonfiglioli.com/usa/en/product-category/industrial-gearmotors", publisher: "Bonfiglioli", accessed: "2026-09-26" },
+    ],
+  },
+};

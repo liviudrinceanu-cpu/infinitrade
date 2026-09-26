@@ -82,6 +82,11 @@ export default function Footer() {
                   Toate brandurile A–Z
                 </Link>
               </li>
+              <li>
+                <Link href="/branduri-sua" className={styles.columnLink}>
+                  Branduri din SUA
+                </Link>
+              </li>
             </ul>
           </div>
 

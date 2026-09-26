@@ -7,6 +7,7 @@ import { allCategoriesUnified as categories } from '@/data/allBrandsIndex';
 import { hasBrandContent } from '@/data/brandContent';
 import { getBrandDemand } from '@/data/brandDemand';
 import { getBrandsForProductType } from '@/data/brandCategoryLinks';
+import { getUsBrandsForCategory } from '@/data/usBrands';
 import { getCategoryFaq } from '@/data/categoryFaq';
 import { lastModified } from '@/data/lastModified';
 import entityFacts from '@/data/entityFacts.json';
@@ -259,6 +260,9 @@ export default function CategoryClient({ category }) {
     .reduce((acc, b) => { const k = /^[0-9]/.test(b.name) ? '0–9' : b.name.charAt(0).toUpperCase(); (acc[k] = acc[k] || []).push(b); return acc; }, {});
   const azKeys = Object.keys(azGroups).sort((a, b) => a.localeCompare(b, 'ro'));
   const productTypeCount = (category.productTypes || []).length;
+  // v12 (D-2026-09-26): US manufacturers in this category, linked to the
+  // /branduri-sua hub (one hub URL, no per-category "US" page).
+  const usBrands = getUsBrandsForCategory(category.slug);
   // v11 (D-2026-09-26): brands that make each product type (classified from
   // their own published products), ranked like the cards above; at most 8
   // linked per type so the card stays a card, the rest are in the A–Z list.
@@ -427,6 +431,28 @@ export default function CategoryClient({ category }) {
                   </ul>
                 </div>
               ))}
+            </div>
+          )}
+
+          {usBrands.length > 0 && (
+            <div className={styles.usBlock} id="branduri-sua">
+              <h3 className={styles.usTitle}>
+                Branduri din SUA în categoria {category.name.toLowerCase()} ({usBrands.length})
+              </h3>
+              <p className={styles.sectionLead}>
+                Producători cu sediul în Statele Unite pe care îi aducem la comandă, prin filialele lor europene sau prin import;
+                lista completă, pe industrii și cu brandurile greu de găsit în Europa, este pe pagina{' '}
+                <Link href={`/branduri-sua#sua-${category.slug}`}>Branduri din SUA</Link>.
+              </p>
+              <ul className={styles.azList}>
+                {usBrands.map((b) => (
+                  <li key={`us-${b.simpleSlug}`}>
+                    <Link href={`/brand/${b.simpleSlug}`} className={b.hasContent ? styles.azLinkRich : styles.azLink}>
+                      {b.name}{b.euAvailability === 'dificila' ? ' (import)' : ''}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           )}
         </div>
