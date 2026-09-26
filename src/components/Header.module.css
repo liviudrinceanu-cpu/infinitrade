@@ -66,7 +66,10 @@
   padding: 20px 0;
   gap: 24px;
   position: relative;
-  z-index: 10;
+  /* v16: above the second row's mega-menu wrapper (z-index 200), otherwise
+     "Branduri & Echipamente" showed through the category dropdowns. Below
+     the search / cart dropdowns (300), which open downwards anyway. */
+  z-index: 250;
 }
 
 /* Logo - cropped and larger */
