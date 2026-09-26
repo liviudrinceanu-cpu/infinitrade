@@ -1,12 +1,11 @@
 import { config } from '@/lib/config';
 
 export const metadata = {
-  title: 'Echipa Noastră | Ingineri Certificați',
-  description: 'Echipa Infinitrade: ingineri certificați Grundfos, Siemens, ABB. Consultanță tehnică pentru pompe, motoare.',
-  keywords: ['echipa infinitrade', 'ingineri echipamente industriale', 'consultanță tehnică', 'experți pompe', 'specialiști motoare electrice'],
+  title: 'Echipa | Cum Lucrăm Cererile de Ofertă',
+  description: 'Cum lucrează echipa Infinitrade din Ghiroda: vânzări și ofertare, suport tehnic la selecție, achiziții din UE și SUA, depozit și livrare în toată România.',
   openGraph: {
-    title: 'Echipa Infinitrade | Ingineri Specializați',
-    description: 'Cunoaște inginerii care te vor ajuta să alegi echipamentul potrivit.',
+    title: 'Echipa Infinitrade | Cum lucrăm',
+    description: 'Ce face fiecare rol din echipă și ce informații ne ajută să răspundem repede la o cerere de ofertă.',
     type: 'website',
     images: [
       {

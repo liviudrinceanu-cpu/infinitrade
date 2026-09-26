@@ -222,7 +222,13 @@ export default function CategoryClient({ category, view, related = { industries:
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        // v19 (audit R1): send the quote-cart selection too — before, a
+        // visitor who filled this inline form lost the cart silently.
+        body: JSON.stringify({
+          ...formData,
+          categorySlugs: [category.slug],
+          cartItems: cartItems.map((item) => ({ type: item.type, name: item.name, category: item.category || '' })),
+        }),
       });
 
       const result = await response.json();
@@ -637,7 +643,7 @@ export default function CategoryClient({ category, view, related = { industries:
               <div className={styles.contactFeatures}>
                 <div className={styles.contactFeature}>
                   <Phone size={20} />
-                  <span>Răspuns în maxim 24h</span>
+                  <span>Răspuns de regulă în aceeași zi lucrătoare</span>
                 </div>
                 <div className={styles.contactFeature}>
                   <Check size={20} />
@@ -654,9 +660,10 @@ export default function CategoryClient({ category, view, related = { industries:
             <form className={styles.contactForm} onSubmit={handleSubmit}>
               <div className={styles.formRow}>
                 <div className={styles.formGroup}>
-                  <label>Nume complet *</label>
+                  <label htmlFor="cf-name">Nume complet *</label>
                   <input
                     type="text"
+                    id="cf-name"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
@@ -665,9 +672,10 @@ export default function CategoryClient({ category, view, related = { industries:
                   />
                 </div>
                 <div className={styles.formGroup}>
-                  <label>Companie</label>
+                  <label htmlFor="cf-company">Companie</label>
                   <input
                     type="text"
+                    id="cf-company"
                     name="company"
                     value={formData.company}
                     onChange={handleChange}
@@ -678,9 +686,10 @@ export default function CategoryClient({ category, view, related = { industries:
 
               <div className={styles.formRow}>
                 <div className={styles.formGroup}>
-                  <label>Email *</label>
+                  <label htmlFor="cf-email">Email *</label>
                   <input
                     type="email"
+                    id="cf-email"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
@@ -689,9 +698,10 @@ export default function CategoryClient({ category, view, related = { industries:
                   />
                 </div>
                 <div className={styles.formGroup}>
-                  <label>Telefon</label>
+                  <label htmlFor="cf-phone">Telefon</label>
                   <input
                     type="tel"
+                    id="cf-phone"
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
@@ -701,8 +711,9 @@ export default function CategoryClient({ category, view, related = { industries:
               </div>
 
               <div className={styles.formGroup}>
-                <label>Categorie produs</label>
+                <label htmlFor="cf-category">Categorie produs</label>
                 <select
+                  id="cf-category"
                   name="category"
                   value={formData.category}
                   onChange={handleChange}
@@ -714,8 +725,9 @@ export default function CategoryClient({ category, view, related = { industries:
               </div>
 
               <div className={styles.formGroup}>
-                <label>Descrieți solicitarea *</label>
+                <label htmlFor="cf-message">Descrieți solicitarea *</label>
                 <textarea
+                  id="cf-message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}

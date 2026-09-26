@@ -131,31 +131,14 @@ function generateIndustryJsonLd(industry) {
         name: `Echipamente pentru ${industry.name}`,
         description: industry.metaDescription,
         image: `${config.site.url}/logo-header.png`,
-        provider: {
-          '@type': 'Organization',
-          name: 'Infinitrade Romania',
-          url: config.site.url,
-          logo: `${config.site.url}/logo-header.png`,
-        },
+        provider: { '@id': `${config.site.url}/#organization` },
         areaServed: {
           '@type': 'Country',
           name: 'Romania',
         },
         serviceType: 'Industrial Equipment Distribution',
       },
-      {
-        '@type': 'Organization',
-        '@id': `${config.site.url}/#organization`,
-        name: 'Infinitrade Romania',
-        url: config.site.url,
-        logo: `${config.site.url}/logo-header.png`,
-        contactPoint: {
-          '@type': 'ContactPoint',
-          telephone: '+40 371 232 404',
-          contactType: 'sales',
-          availableLanguage: ['Romanian', 'English'],
-        },
-      },
+      { '@type': 'Organization', '@id': `${config.site.url}/#organization` },
     ],
   };
 }

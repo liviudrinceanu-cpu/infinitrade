@@ -18,7 +18,7 @@ import { importDataFile } from './gates/_lib/loader.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FILE = path.join(ROOT, 'public/llms.txt');
-const BASE = 'https://infinitrade.ro';
+const BASE = 'https://www.infinitrade.ro'; // v19: canonical host (audit R1)
 
 const idx = await importDataFile(ROOT, 'allBrandsIndex.js');
 const stats = idx.getBrandStats();

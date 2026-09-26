@@ -1,221 +1,145 @@
-'use client';
-
-import { authors } from '@/data/authors';
+import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
+import { siteStats, FOUNDING_YEAR } from '@/data/siteStats';
+import { CLIENT_CATEGORIES } from '@/data/headerMenus';
+import { industries } from '@/data/industries';
 import styles from './echipa.module.css';
-import Link from 'next/link';
-import Script from 'next/script';
-import { siteStats } from '@/data/siteStats';
-import { companyInfo } from '@/data/products';
 
-// Generează culori consistente pentru avatare bazat pe nume
-function getAvatarColor(name) {
-  const colors = [
-    '#1a5f7a', // albastru închis
-    '#2d6a4f', // verde închis
-    '#7c3aed', // violet
-    '#c2410c', // portocaliu închis
-    '#0891b2', // cyan
-    '#4338ca', // indigo
-    '#b91c1c', // roșu închis
-    '#0d9488', // teal
-  ];
+// v19 (D-2026-09-27, audit R1): this page used to list six "team members"
+// (initials, invented biographies, manufacturer certifications, years of
+// experience) created by the V52 "E-E-A-T" rewrite, plus Person JSON-LD with
+// hasCredential for each. None of it was confirmed by a real person, so it is
+// no longer published. The page now describes how the team is organised and
+// how to reach it — without names, until the owner decides which real people
+// (with their consent) appear here.
 
-  let hash = 0;
-  for (let i = 0; i < name.length; i++) {
-    hash = name.charCodeAt(i) + ((hash << 5) - hash);
-  }
-  return colors[Math.abs(hash) % colors.length];
-}
-
-function getInitials(name) {
-  return name
-    .split(' ')
-    .map(word => word[0])
-    .join('')
-    .toUpperCase()
-    .slice(0, 2);
-}
+const ROLES = [
+  {
+    icon: '📋',
+    title: 'Vânzări și ofertare',
+    text: 'Primește cererile (formular, e-mail, telefon), identifică produsul după cod sau plăcuță și trimite oferta cu termenul de livrare scris.',
+  },
+  {
+    icon: '🛠️',
+    title: 'Suport tehnic la selecție',
+    text: 'Verifică datele de aplicație (fluid, debit, presiune, putere, mediu, zonă ATEX) și propune variantele din gama producătorului, pe baza documentației acestuia.',
+  },
+  {
+    icon: '🌍',
+    title: 'Achiziții și aprovizionare',
+    text: 'Comandă de la fabrici, filiale și distribuitori din Uniunea Europeană și, pentru branduri americane, prin import; urmărește confirmarea termenului.',
+  },
+  {
+    icon: '📦',
+    title: 'Depozit și logistică',
+    text: 'Depozitul din Ghiroda (Timiș) pregătește reperele din stoc și coordonează transportul în toată România.',
+  },
+];
 
 export default function EchipaPage() {
-  // Filtrăm echipa tehnică generică, afișăm doar persoanele reale
-  const teamMembers = authors.filter(a => a.id !== 'echipa-tehnica');
-
-  // Generate Person JSON-LD for each team member (E-E-A-T enhancement)
-  const generatePersonSchema = (member) => ({
+  const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Person',
-    '@id': `${config.site.url}/echipa#${member.id}`,
-    name: member.name,
-    jobTitle: member.role,
-    description: member.bio,
-    knowsAbout: member.expertise || [],
-    worksFor: {
-      '@type': 'Organization',
-      name: 'Infinitrade Romania',
-      url: config.site.url,
-    },
-    hasCredential: (member.certifications || []).map(cert => ({
-      '@type': 'EducationalOccupationalCredential',
-      credentialCategory: 'certification',
-      name: cert,
-    })),
-  });
-
-  const teamSchemas = teamMembers.map(generatePersonSchema);
+    '@graph': [
+      {
+        '@type': 'AboutPage',
+        '@id': `${config.site.url}/echipa#webpage`,
+        url: `${config.site.url}/echipa`,
+        name: 'Cum lucrează echipa Infinitrade',
+        inLanguage: 'ro-RO',
+        isPartOf: { '@id': `${config.site.url}/#website` },
+        about: { '@id': `${config.site.url}/#organization` },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Acasă', item: config.site.url },
+          { '@type': 'ListItem', position: 2, name: 'Echipa', item: `${config.site.url}/echipa` },
+        ],
+      },
+    ],
+  };
 
   return (
     <>
-      {/* E-E-A-T: Person structured data for all team members - JSON is safe from static data */}
-      {teamSchemas.map((schema, index) => (
-        <Script
-          key={index}
-          id={`person-schema-${index}`}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
-          strategy="beforeInteractive"
-        />
-      ))}
+      <Header />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
       <main id="main-content" className={styles.main}>
-      {/* Hero Section */}
-      <section className={styles.hero}>
-        <div className={styles.heroContent}>
-          <nav className={styles.breadcrumb}>
-            <Link href="/">Acasă</Link>
-            <span>/</span>
-            <span>Echipa</span>
-          </nav>
-          <h1>Echipa Noastră</h1>
-          <p className={styles.heroDescription}>
-            Nu suntem o corporație cu departamente anonime. Suntem o echipă de ingineri
-            care chiar înțeleg ce vindem. Când suni pentru consultanță, vorbești cu
-            oameni care au fost pe șantiere, au dimensionat instalații și au văzut
-            ce funcționează în condiții reale.
-          </p>
-        </div>
-      </section>
-
-      {/* Why It Matters */}
-      <section className={styles.whySection}>
-        <div className={styles.container}>
-          <h2>De Ce Contează Cine Îți Vinde</h2>
-          <div className={styles.whyGrid}>
-            <div className={styles.whyCard}>
-              <div className={styles.whyIcon}>🎯</div>
-              <h3>Consultanță Reală</h3>
-              <p>
-                Nu citim din catalog - dimensionăm pe baza experienței. Știm ce merge
-                în petrochimie, ce rezistă în alimentar, ce suportă în minerit.
-              </p>
-            </div>
-            <div className={styles.whyCard}>
-              <div className={styles.whyIcon}>🔧</div>
-              <h3>Suport Post-Vânzare</h3>
-              <p>
-                Când ai o problemă, vorbești cu aceiași oameni care ți-au recomandat
-                echipamentul. Nu cu un call center care nu știe ce ai cumpărat.
-              </p>
-            </div>
-            <div className={styles.whyCard}>
-              <div className={styles.whyIcon}>📚</div>
-              <h3>Expertiză Certificată</h3>
-              <p>
-                Echipa noastră are certificări de la Grundfos, Siemens, ABB, Alfa Laval
-                și alți producători. Nu vindem ce nu cunoaștem.
-              </p>
-            </div>
+        <section className={styles.hero}>
+          <div className={styles.heroContent}>
+            <nav className={styles.breadcrumb} aria-label="Breadcrumb">
+              <Link href="/">Acasă</Link>
+              <span>/</span>
+              <span>Echipa</span>
+            </nav>
+            <h1>Cum lucrează echipa Infinitrade</h1>
+            <p className={styles.heroDescription}>
+              Suntem o firmă din Ghiroda (Timiș), activă din {FOUNDING_YEAR}. O cerere de ofertă trece prin
+              patru roluri: vânzări, suport tehnic, achiziții și depozit. Mai jos este ce face fiecare și ce
+              informații îi ajută să vă răspundă repede.
+            </p>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Team Members */}
-      <section className={styles.teamSection}>
-        <div className={styles.container}>
-          <h2>Cunoaște Echipa</h2>
-          <p className={styles.teamIntro}>
-            Aceștia sunt oamenii cu care vei interacționa. Fiecare are specialitatea
-            lui și poate răspunde la întrebări tehnice concrete.
-          </p>
-
-          <div className={styles.teamGrid}>
-            {teamMembers.map((member) => (
-              <article key={member.id} className={styles.memberCard}>
-                <div
-                  className={styles.avatar}
-                  style={{ backgroundColor: getAvatarColor(member.name) }}
-                >
-                  {getInitials(member.name)}
+        <section className={styles.whySection}>
+          <div className={styles.container}>
+            <h2>Cine se ocupă de cererea dumneavoastră?</h2>
+            <div className={styles.whyGrid}>
+              {ROLES.map((role) => (
+                <div key={role.title} className={styles.whyCard}>
+                  <div className={styles.whyIcon} aria-hidden="true">{role.icon}</div>
+                  <h3>{role.title}</h3>
+                  <p>{role.text}</p>
                 </div>
-                <div className={styles.memberInfo}>
-                  <h3>{member.name}</h3>
-                  <p className={styles.role}>{member.role}</p>
-                  <p className={styles.experience}>{member.experience} experiență</p>
-                  <p className={styles.bio}>{member.bio}</p>
-
-                  {member.certifications && member.certifications.length > 0 && (
-                    <div className={styles.certifications}>
-                      <strong>Certificări:</strong>
-                      <ul>
-                        {member.certifications.map((cert, idx) => (
-                          <li key={idx}>{cert}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-
-                  {member.expertise && member.expertise.length > 0 && (
-                    <div className={styles.expertise}>
-                      {member.expertise.map((skill, idx) => (
-                        <span key={idx} className={styles.skillTag}>{skill}</span>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className={styles.statsSection}>
-        <div className={styles.container}>
-          <div className={styles.statsGrid}>
-            <div className={styles.stat}>
-              <span className={styles.statNumber}>{siteStats.years}</span>
-              <span className={styles.statLabel}>Ani de activitate Infinitrade</span>
-            </div>
-            <div className={styles.stat}>
-              <span className={styles.statNumber}>{companyInfo.industries.length}</span>
-              <span className={styles.statLabel}>Industrii acoperite</span>
-            </div>
-            <div className={styles.stat}>
-              <span className={styles.statNumber}>{siteStats.brands}</span>
-              <span className={styles.statLabel}>Branduri cu pagină proprie</span>
+              ))}
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* CTA Section */}
-      <section className={styles.ctaSection}>
-        <div className={styles.container}>
-          <h2>Ai Întrebări Tehnice?</h2>
-          <p>
-            Nu trebuie să știi exact ce ai nevoie. Spune-ne problema și găsim împreună soluția.
-          </p>
-          <div className={styles.ctaButtons}>
-            <Link href="/contact" className={styles.primaryBtn}>
-              Contactează-ne
-            </Link>
-            <a href="tel:+40371232404" className={styles.secondaryBtn}>
-              📞 +40 371 232 404
-            </a>
+        <section className={styles.statsSection}>
+          <div className={styles.container}>
+            <div className={styles.statsGrid}>
+              <div className={styles.stat}>
+                <span className={styles.statNumber}>{FOUNDING_YEAR}</span>
+                <span className={styles.statLabel}>Anul înființării</span>
+              </div>
+              <div className={styles.stat}>
+                <span className={styles.statNumber}>{CLIENT_CATEGORIES.length}</span>
+                <span className={styles.statLabel}>Categorii de echipamente</span>
+              </div>
+              <div className={styles.stat}>
+                <span className={styles.statNumber}>{industries.length}</span>
+                <span className={styles.statLabel}>Industrii cu pagină dedicată</span>
+              </div>
+              <div className={styles.stat}>
+                <span className={styles.statNumber}>{siteStats.brands}</span>
+                <span className={styles.statLabel}>Branduri cu pagină proprie</span>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
+
+        <section className={styles.ctaSection}>
+          <div className={styles.container}>
+            <h2>Ce ne trimiteți ca să primiți un răspuns rapid?</h2>
+            <p>
+              Codul produsului sau o fotografie a plăcuței, cantitatea, termenul dorit și, pentru echipamente noi,
+              datele aplicației. Pentru licitații SEAP, și caietul de sarcini.
+            </p>
+            <div className={styles.ctaButtons}>
+              <Link href="/contact" className={styles.primaryBtn}>
+                Trimite cererea
+              </Link>
+              <a href="tel:+40371232404" className={styles.secondaryBtn}>
+                +40 371 232 404
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
     </>
   );
 }

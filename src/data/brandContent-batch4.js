@@ -27,7 +27,7 @@ Noi la Infinitrade distribuim gama industrială Schneider Electric pentru automa
       },
       {
         name: 'Variatori de frecvență Altivar (ATV320, ATV630, ATV930)',
-        description: `Gama completă de VFD-uri pentru motoare asincrone: de la ATV320 compact pentru aplicații simple (pompe, ventilatoare), la ATV930 pentru mașini complexe cu control vectorial și sincronizare multi-axe. Parametrizarea e ușoară prin Somove, iar diagnosticul integrat îți spune exact ce s-a întâmplat când apare o eroare. Economie de energie garantată — se întâlnesc reduceri de consum de peste 40% la pompe care ruleaz la turație variabilă.`,
+        description: `Gama completă de VFD-uri pentru motoare asincrone: de la ATV320 compact pentru aplicații simple (pompe, ventilatoare), la ATV930 pentru mașini complexe cu control vectorial și sincronizare multi-axe. Parametrizarea e ușoară prin Somove, iar diagnosticul integrat îți spune exact ce s-a întâmplat când apare o eroare. Economie de energie posibilă la pompe cu turație variabilă, conform documentației producătorului.`,
       },
       {
         name: 'Distribuție electrică (Compact NSX, Acti9)',
@@ -311,7 +311,7 @@ Noi la Infinitrade punem la dispoziție gama completă SEW Eurodrive: de la moto
     employees: '1,200+',
     overview: `Becker e acel brand despre care mulți nu au auzit până când au nevoie de o pompă de vid serioasă — și atunci descoperă că nemții de la Wuppertal fac de 140 de ani cele mai robuste pompe cu palete rotative din industrie. Fondată în 1885 (da, chiar atunci, în epoca victoriană!), compania asta s-a specializat pe ceva aparent simplu: vid și presiune prin tehnologie cu palete rotative. Dar nu vă lăsați păcăliți de simplitate — Becker a perfecționat asta până la nivel de artă.
 
-Ce face pompele Becker speciale? Lipsa totală de ulei în camera de compresie. Spre deosebire de pompele clasice care necesită lubrifiere și degajă vapori de ulei (problematici în food, pharma, packaging), Becker rulează "uscat" — paletele sunt din carbon autolubrifiant. Rezultatul: vid curat, fără contaminare, fără întreținere complicată, fără filtre de ulei de schimbat la fiecare 500 ore. Am instalat pompe Becker la o fabrică de ambalaje alimentare din Sibiu și rulează de 7 ani fără să fi atins vreodată interiorul — doar schimbi paletele o dată la 3-4 ani și gata.
+Ce face pompele Becker speciale? Lipsa totală de ulei în camera de compresie. Spre deosebire de pompele clasice care necesită lubrifiere și degajă vapori de ulei (problematici în food, pharma, packaging), Becker rulează "uscat" — paletele sunt din carbon autolubrifiant. Rezultatul: vid curat, fără contaminare, fără întreținere complicată, fără filtre de ulei de schimbat la fiecare 500 ore. Pompele Becker se folosesc frecvent în fabrici de ambalaje alimentare, unde funcționează ani la rând fără intervenție pe interior — doar schimbi paletele o dată la 3-4 ani și gata.
 
 Gama lor e impresionantă: de la pompe mici de vid (seria U) pentru mese de vid și printing, la suflante mari cu canale laterale (seria SV) pentru aerare și transport pneumatic, până la compresoare oil-free pentru aer comprimat curat. Dar aplicația lor star e industria ambalajelor — termoformare, flowpack, blister packaging — acolo unde ai nevoie de vid rapid, repetat și absolut curat. Și nu o să-ți vină să crezi cât de silențioase sunt pentru puterea pe care o au... se întâlnesc o SV 5.270 care sună mai încet decât ventilatorul de la birou.
 
@@ -511,7 +511,7 @@ La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial
       'Nume de referință în filtrarea industrială, cu tehnologie Blue filter (99.99% reținere particule fine)',
       'Colectoare de praf Torit — standardul industriei pentru captare fum de sudură și rumeguș',
       'Gamă completă de la filtre compacte pentru mașini individuale la sisteme centralizate pentru hale',
-      'Conformitate garantată cu normele de sănătate și siguranță în muncă (OSHA, EU directives)',
+      'Conformitate declarată de producător cu normele de sănătate și siguranță în muncă (OSHA, EU directives)',
     ],
     keyProducts: [
       {
@@ -520,7 +520,7 @@ La Infinitrade distribuim soluții Donaldson pentru calitatea aerului industrial
       },
       {
         name: 'Sisteme de captare fum de sudură',
-        description: `Brațe articulate cu capturi hood, mese de sudură cu extracție integrată și sisteme centralizate pentru ateliere cu multe posturi de sudură. Tehnologia SUPRASORB pentru captarea fumului direct la sursă — elimină 99% din fum înainte să ajungă în zona de respirație a sudorului. Am instalat astfel de sisteme la firmele care lucrează INOX și aluminiu (fumul de la aceste materiale e foarte toxic) — diferența e de la cer la pământ pentru sănătatea angajaților.`,
+        description: `Brațe articulate cu capturi hood, mese de sudură cu extracție integrată și sisteme centralizate pentru ateliere cu multe posturi de sudură. Tehnologia SUPRASORB pentru captarea fumului direct la sursă — elimină 99% din fum înainte să ajungă în zona de respirație a sudorului. Se folosesc frecvent la firmele care lucrează INOX și aluminiu (fumul de la aceste materiale e foarte toxic), unde diferența pentru sănătatea angajaților este semnificativă.`,
       },
       {
         name: 'Filtre pentru aer comprimat (DF, UF, SMF)',
@@ -658,7 +658,7 @@ Noi la Infinitrade punem la dispoziție gama de pompe Ebara pentru aplicații in
       },
       {
         name: 'Pompe centrifugale orizontale (FS, FD, MD)',
-        description: `Pompe end-suction și split-case pentru alimentare cu apă, irigații, procese industriale. Seria FS e compact și economic pentru debite mici-medii, FD e heavy-duty pentru aplicații municipale (stații de tratare, booster pumps), iar MD e multistage pentru presiuni mari. Randament hidraulic excelent (până la 85% pentru marile dimensiuni) — economie de energie garantată față de pompe vechi. Construcție modulară pentru întreținere ușoară.`,
+        description: `Pompe end-suction și split-case pentru alimentare cu apă, irigații, procese industriale. Seria FS e compact și economic pentru debite mici-medii, FD e heavy-duty pentru aplicații municipale (stații de tratare, booster pumps), iar MD e multistage pentru presiuni mari. Randament hidraulic ridicat (până la 85% pentru dimensiunile mari, conform producătorului) — economie de energie față de pompe vechi. Construcție modulară pentru întreținere ușoară.`,
       },
       {
         name: 'Pompe de incendiu (GP, JG)',

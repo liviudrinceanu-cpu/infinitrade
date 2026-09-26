@@ -12,7 +12,8 @@ export default function DesprePage() {
   // v17: the hero is rendered visible (no scroll-reveal) — it is the LCP
   // element, and hiding it until hydration pushed LCP past 2.5 s on mobile.
   const [heroRef] = useIntersectionObserver();
-  const [statsRef, statsVisible] = useIntersectionObserver();
+  // v19: stats sit right under the hero — rendered visible, no scroll-reveal.
+  const [statsRef] = useIntersectionObserver();
   const [aboutRef, aboutVisible] = useIntersectionObserver();
   const [industriesRef, industriesVisible] = useIntersectionObserver();
   const [officialRef, officialVisible] = useIntersectionObserver();
@@ -53,7 +54,7 @@ export default function DesprePage() {
               {stats.map((stat, index) => (
                 <div
                   key={stat.label}
-                  className={`${styles.statCard} animate-fade-up animate-delay-${Math.min(index + 1, 6)} ${statsVisible ? 'is-visible' : ''}`}
+                  className={styles.statCard}
                 >
                   <stat.icon size={32} className={styles.statIcon} />
                   <span className={styles.statValue}>{stat.value}</span>

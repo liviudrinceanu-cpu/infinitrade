@@ -1,4 +1,4 @@
-'use client';
+// v19: no state or handlers — a Server Component where the parent is one.
 
 import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';

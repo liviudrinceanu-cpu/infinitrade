@@ -7,7 +7,7 @@ export const brandContentBatch7 = {
 
 Experiența noastră în materiale de înaltă performanță din industria auto se reflectă direct în produsele industriale: rezistență la temperaturi extreme (-40°C până la +120°C), vibrații reduse, consum energetic mai mic și durată de viață prelungită. Liniile noastre de producție automatizate din Germania asigură toleranțe stricte și calitate constantă pentru fiecare curea care iese din fabrică.
 
-Am livrat soluții de transmisie pentru mașini de ambalare, pompe industriale, ventilatoare, compresoar, echipamente agricole și linii de producție din toată lumea. Curelele Continental rulează în condiții extreme - de la frigul arctic din instalațiile de refrigerare la căldura cuptoarelor industriale - și rezistă ani de zile fără întreținere. Când ai nevoie de transmisie fiabilă care nu te lasă, ai nevoie de Continental.`,
+Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, pompe industriale, ventilatoare, compresoare, echipamente agricole și linii de producție. Curelele Continental rulează în condiții extreme - de la frigul arctic din instalațiile de refrigerare la căldura cuptoarelor industriale - și rezistă ani de zile fără întreținere. Când ai nevoie de transmisie fiabilă care nu te lasă, ai nevoie de Continental.`,
     whyChoose: [
       'Tehnologie ContiTech - Compounduri speciale de cauciuc rezistent la ulei, ozon și uzură, dezvoltate în laboratoarele proprii din Germania',
       'Eficiență energetică superioară - Pierderi prin frecare cu până la 30% mai mici față de curelele standard, economii directe la factura de energie',
@@ -140,7 +140,7 @@ Am livrat soluții de transmisie pentru mașini de ambalare, pompe industriale, 
 
 Tehnologia producătorului de inverter cu magneți permanenți reduce consumul energetic cu până la 50% față de sistemele on/off tradiționale. Compresoarele noastre swing și scroll sunt cele mai eficiente din industrie - COP real de peste 4.0 chiar și la -20°C exterior. Fabricăm totul intern: de la schimbătorul de căldură microcanal până la circuitele electronice de control, astfel încât fiecare componentă e optimizată perfect pentru ansamblul final.
 
-Am instalat peste 2 milioane de sisteme VRV în lume - de la birouri mici la aeroporturi, de la fabrici la hoteluri de 5 stele. Tehnologia producătorului Heat Recovery permite încălzire și răcire simultană în zone diferite, economisind energie prin recuperarea căldurii reziduale. Când ai nevoie de climatizare care funcționează perfect 24/7/365, Daikin e singura alegere profesională.`,
+Sistemele VRV se regăsesc în milioane de instalații la nivel mondial - de la birouri mici la aeroporturi, de la fabrici la hoteluri de 5 stele. Tehnologia producătorului Heat Recovery permite încălzire și răcire simultană în zone diferite, economisind energie prin recuperarea căldurii reziduale. Când ai nevoie de climatizare care funcționează perfect 24/7/365, Daikin e singura alegere profesională.`,
     whyChoose: [
       'Tehnologie VRV originală - Inventatorii sistemelor cu refrigerent variabil din 1982, peste 40 de ani de evoluție continuă și brevete exclusive',
       'Eficiență SEER > 7.0 - Cele mai eficiente sisteme din industrie, clasa A+++ eficiență energetică, economii de 30-50% la energie electrică',
@@ -876,7 +876,7 @@ Manometrele noastre sunt peste tot: de la măsurare presiune în conducte de ap�
 
 Tehnologia producătorului de protecție diferențială AFDD (Arc Fault Detection Device) detectează arcurile electrice periculoase care pot cauza incendii - obligatorii în noile instalații rezidențiale din Europa. Întrerupătoarele automate compacte xEffect au putere de rupere 50kA în carcasă de doar 18mm lățime per pol, economisind spațiu în tablouri. Sistemul nostru de management energetic Power Xpert permite monitorizare consumuri în timp real și optimizare costuri energie.
 
-Producem în 30 de fabrici din Europa, America și Asia, cu controale calitate stricte la fiecare pas. Când proiectezi o instalație electrică care trebuie să funcționeze fără probleme 20-30 de ani, când ai nevoie de piese de schimb garantate și documentație tehnică completă, alegi Eaton și dormi liniștit.`,
+Producem în 30 de fabrici din Europa, America și Asia, cu controale calitate stricte la fiecare pas. Când proiectezi o instalație electrică care trebuie să funcționeze fără probleme 20-30 de ani, când ai nevoie de piese de schimb originale și documentație tehnică completă, Eaton este o opțiune de luat în calcul.`,
     whyChoose: [
       'Gamă completă distribuție BT/MT - De la întrerupătoare 6A rezidențiale până la întrerupătoare automate 6300A pentru industrie grea, toate din același furnizor',
       'Tehnologie AFDD anti-incendiu - Detectare arcuri electrice cu algoritmi avansați, reducere risc incendiu cu 80% în instalații vechi',

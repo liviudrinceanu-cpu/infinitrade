@@ -58,7 +58,7 @@ const faqData = [
     questions: [
       {
         q: 'Oferiți consultanță tehnică?',
-        a: 'Da, și e gratuită. Dimensionare echipamente, selectare materiale, calcul eficiență - facem asta zilnic. Trimite-ne datele și răspundem în 24h cu recomandare. Nu ai obligația să cumperi de la noi doar pentru că te-am ajutat cu consultanță.'
+        a: 'Da, și e gratuită. Dimensionare echipamente, selectare materiale, calcul eficiență - facem asta zilnic. Trimite-ne datele; răspundem de regulă în aceeași zi lucrătoare sau în următoarea, cu recomandare. Nu ai obligația să cumperi de la noi doar pentru că te-am ajutat cu consultanță.'
       },
       {
         q: 'Faceți punere în funcțiune și service?',
@@ -87,7 +87,7 @@ const faqData = [
       },
       {
         q: 'Cum vă pot contacta?',
-        a: 'Email: secretariat@infinitrade-romania.ro. Telefon: vezi pagina de contact. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem în maxim 24h în zilele lucrătoare.',
+        a: 'Email: secretariat@infinitrade-romania.ro. Telefon: vezi pagina de contact. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem de regulă în aceeași zi lucrătoare sau în următoarea.',
         link: { href: '/contact', text: 'Mergi la pagina de contact' }
       },
     ]
@@ -200,8 +200,8 @@ export const metadata = {
   title: 'FAQ | Întrebări Frecvente',
   description: 'Răspunsuri despre echipamente industriale și achiziții SEAP/SICAP: pompe, robineți, motoare, licitații. Consultanță gratuită.',
   openGraph: {
-    title: 'Intrebari Frecvente (FAQ) | Echipamente Industriale',
-    description: 'Gaseste raspunsuri la intrebarile despre echipamente industriale.',
+    title: 'Întrebări Frecvente (FAQ) | Echipamente Industriale',
+    description: 'Găsește răspunsuri la întrebările despre echipamente industriale.',
     url: `${config.site.url}/faq`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
@@ -233,10 +233,10 @@ export default function FAQPage() {
       <main id="main-content" className={styles.main}>
         <section className={styles.hero}>
           <div className={styles.container}>
-            <h1>Intrebari Frecvente</h1>
+            <h1>Întrebări Frecvente</h1>
             <p>
-              Gaseste raspunsuri la cele mai frecvente intrebari despre echipamentele
-              industriale, livrare, plata si suport tehnic.
+              Găsește răspunsuri la cele mai frecvente întrebări despre echipamentele
+              industriale, livrare, plată și suport tehnic.
             </p>
           </div>
         </section>
@@ -275,13 +275,13 @@ export default function FAQPage() {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
-              <h2>Nu ai gasit raspunsul?</h2>
+              <h2>Nu ai găsit răspunsul?</h2>
               <p>
-                Echipa noastra tehnica este gata sa te ajute cu orice intrebare
+                Echipa noastră tehnică este gata să te ajute cu orice întrebare
                 despre echipamente industriale.
               </p>
               <Link href="/contact" className={styles.ctaButton}>
-                Contacteaza-ne
+                Contactează-ne
               </Link>
             </div>
           </div>

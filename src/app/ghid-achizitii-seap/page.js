@@ -373,7 +373,7 @@ const advantages = [
   {
     icon: Clock,
     title: 'Răspuns Rapid la Solicitări',
-    description: 'Oferte în aceeași zi pentru achiziții directe. Răspuns în maxim 24h pentru proceduri complexe.',
+    description: 'Oferte în aceeași zi pentru achiziții directe. Pentru proceduri complexe, răspundem de regulă în aceeași zi lucrătoare sau în următoarea.',
   },
   {
     icon: Package,
@@ -480,14 +480,6 @@ function generateSeapGuideSchema() {
       {
         '@type': 'Organization',
         '@id': `${config.site.url}/#organization`,
-        name: 'Infinitrade Romania',
-        url: config.site.url,
-        hasCredential: {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'registration',
-          name: 'Operator Economic SEAP/SICAP',
-          description: 'Înregistrat în Sistemul Electronic de Achiziții Publice pentru licitații și achiziții directe',
-        },
       },
     ],
   };
@@ -849,7 +841,7 @@ export default function GhidSeapPage() {
                     <li><span style={{color: '#10b981'}}>✓</span> Transparență totală și trasabilitate completă</li>
                     <li><span style={{color: '#10b981'}}>✓</span> Prețuri competitive prin licitație deschisă</li>
                     <li><span style={{color: '#10b981'}}>✓</span> Audit trail complet pentru verificări</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Conformitate legală 100% garantată</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Documentație completă conform cerințelor legale</li>
                     <li><span style={{color: '#10b981'}}>✓</span> Protecție împotriva acuzațiilor de favoritism</li>
                     <li><span style={{color: '#10b981'}}>✓</span> Documentație standardizată și verificată</li>
                   </ul>
@@ -941,7 +933,7 @@ export default function GhidSeapPage() {
           <div style={{maxWidth: '800px', margin: '0 auto', padding: '0 1.5rem'}}>
             <div style={{background: 'white', borderRadius: '16px', padding: '2rem', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb'}}>
               <blockquote style={{fontSize: '1.1rem', color: '#374151', fontStyle: 'italic', marginBottom: '1rem', lineHeight: '1.7'}}>
-                „Am livrat peste 200 de comenzi prin SEAP în ultimii 5 ani. Cheia succesului în achizițiile publice este documentația tehnică impecabilă și respectarea termenelor. Oferim specificații tehnice complete, certificate de conformitate și livrare în termenul agreat. Pentru instituțiile publice, recomand să solicite oferte comparative de la minimum 3 furnizori autorizați."
+                „Livrăm constant prin SEAP. Cheia succesului în achizițiile publice este documentația tehnică impecabilă și respectarea termenelor. Oferim specificații tehnice complete, certificate de conformitate și livrare în termenul agreat. Pentru instituțiile publice, recomand să solicite oferte comparative de la minimum 3 furnizori autorizați."
               </blockquote>
               <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
                 <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>L.D.</cite>
@@ -959,7 +951,7 @@ export default function GhidSeapPage() {
               <h2>Aveți o Achiziție SEAP în Pregătire?</h2>
               <p>
                 Contactați-ne pentru oferte personalizate, consultanță tehnică gratuită și asistență
-                la elaborarea caietelor de sarcini. Răspundem în maxim 24h.
+                la elaborarea caietelor de sarcini. Răspundem de regulă în aceeași zi lucrătoare sau în următoarea.
               </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact" className={styles.ctaPrimary}>

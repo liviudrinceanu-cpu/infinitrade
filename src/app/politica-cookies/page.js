@@ -5,7 +5,7 @@ import styles from '../legal.module.css';
 
 export const metadata = {
   title: 'Politica Cookies',
-  description: 'Informații despre utilizarea cookie-urilor pe site. Tipuri de cookies, scopuri și gestionarea preferințelor.',
+  description: 'Informații despre utilizarea cookie-urilor pe acest site. Tipuri de cookies, scopuri și modul de gestionare a preferințelor tale.',
   alternates: {
     canonical: `${config.site.url}/politica-cookies`,
   },

@@ -83,7 +83,6 @@ function generateCaseStudyJsonLd(caseStudy) {
         '@id': `${config.site.url}/studii-de-caz/${caseStudy.slug}#article`,
         headline: caseStudy.title,
         description: caseStudy.excerpt,
-        datePublished: '2026-01-24',
         dateModified: lastModified.caseStudies,
         author: {
           '@type': 'Organization',

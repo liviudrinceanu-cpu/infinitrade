@@ -229,7 +229,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       'Peste 150 de ani de experiență în industria de pompare — know-how acumulat în mii de aplicații critice pe tot globul',
       'Seria Etanorm: standard mondial pentru pompe centrifugale (DIN 24255/EN 733), design robust și interschimbabil între producători',
       'Specializare în aplicații extreme: petrochimie, centrale nucleare, minerit, offshore — acolo unde fiabilitatea nu poate fi compromisă',
-      'Gamă completă pompe + robineți + sisteme de control de la același producător, compatibilitate 100% garantată',
+      'Gamă completă pompe + robineți + sisteme de control de la același producător, compatibilitate testată între componente din aceeași gamă',
       'Rezistență chimică de top: materiale speciale (Alloy C, Hastelloy, Duplex) pentru cele mai agresive fluide',
       'Rețea globală de service: peste 200 de centre de service în 100+ țări, piese de schimb disponibile rapid oriunde',
     ],

@@ -74,7 +74,7 @@ Pentru un integrator sau un producător din România, Branson înseamnă acces l
 
 Fabrica din Cary s-a extins la peste 13.000 m² de producție, împărțită între divizia Process Heat, cu cazane de circulație având ștampilă ASME „U" pentru presiuni de până la 3.000 psig și temperaturi de 1500°F, și divizia Heating & Sensing Components, dedicată încălzitoarelor mici și senzorilor. Elementele tubulare ajung la peste 760°C, iar gama pentru semiconductori include plăci de încălzire tip pedestal și hot chuck pentru echipamente de depunere și gravură. Comparativ cu producătorii care vând din stoc familii standardizate, Durex proiectează fiecare unitate pe dimensiunea și puterea cerută de aplicație.
 
-Pentru un client din România, Durex Industries înseamnă acces la încălzitoare proiectate exact pe geometria echipamentului — cazan, rezervor, cameră de proces — acolo unde o rezistență standard din piață nu se potrivește. E o soluție de luat în calcul pentru retehnologizări sau piese de schimb la instalații termice mai vechi, unde desenul original nu mai există.`,
+Pentru o companie din România, Durex Industries înseamnă acces la încălzitoare proiectate exact pe geometria echipamentului — cazan, rezervor, cameră de proces — acolo unde o rezistență standard din piață nu se potrivește. E o soluție de luat în calcul pentru retehnologizări sau piese de schimb la instalații termice mai vechi, unde desenul original nu mai există.`,
     whyChoose: [
       "Fabricație la comandă — fiecare încălzitor este dimensionat pe puterea, tensiunea și geometria transmise de client, nu ales dintr-un catalog fix.",
       "Temperaturi ridicate — elementele tubulare ajung la peste 760°C, iar cazanele de circulație la 1500°F, cu ștampilă ASME „U” pentru vase sub presiune.",

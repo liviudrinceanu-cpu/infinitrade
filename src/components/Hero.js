@@ -35,7 +35,7 @@ export default function Hero() {
           {/* Badge - CSS animation */}
           <div className={`${styles.badge} ${styles.badgeAnimate}`}>
             <span className={styles.badgeDot} />
-            <span>{siteStats.brands} de branduri internationale</span>
+            <span>{siteStats.brands} de branduri internaționale</span>
           </div>
 
           {/* Headline - LCP ELEMENT: Pure CSS animation, immediate render */}
@@ -48,25 +48,25 @@ export default function Hero() {
           {/* Answer-first paragraph - SEO optimization for "What is Infinitrade Romania?" */}
           <p className={`${styles.subheadline} ${styles.subheadlineAnimate}`} style={{ marginBottom: '1rem' }}>
             Infinitrade Romania este distribuitor de echipamente industriale din 2009.
-            Oferim pompe Grundfos si Wilo, robineti ARI Armaturen, motoare Siemens si ABB,
-            schimbatoare de caldura Alfa Laval. Furnizor verificat SEAP/SICAP cu livrare in toata Romania.
+            Oferim pompe Grundfos și Wilo, robineți ARI Armaturen, motoare Siemens și ABB,
+            schimbătoare de căldură Alfa Laval. Furnizor verificat SEAP/SICAP cu livrare în toată România.
           </p>
 
           {/* Subheadline - CSS animation */}
           <p className={`${styles.subheadline} ${styles.subheadlineAnimate}`} style={{ fontSize: '0.95rem', opacity: 0.9 }}>
             Distribuitor premium de echipamente industriale.
-            Pompe, robineti, motoare, schimbatoare de caldura si suflante
+            Pompe, robineți, motoare, schimbătoare de căldură și suflante
             de la cele mai prestigioase branduri mondiale.
           </p>
 
           {/* CTA Buttons - CSS animation */}
           <div className={`${styles.ctas} ${styles.ctasAnimate}`}>
             <Link href="/contact" className={styles.ctaPrimary}>
-              Cere Oferta
+              Cere Ofertă
               <ArrowRight size={18} aria-hidden="true" />
             </Link>
             <Link href="#categorii" className={styles.ctaSecondary}>
-              Exploreaza Produse
+              Explorează Produse
             </Link>
           </div>
 
@@ -84,12 +84,12 @@ export default function Hero() {
             <div className={styles.statDivider} />
             <div className={styles.stat}>
               <span className={styles.statNumber}>{siteStats.years}+</span>
-              <span className={styles.statLabel}>Ani Experienta</span>
+              <span className={styles.statLabel}>Ani Experiență</span>
             </div>
             <div className={styles.statDivider} />
             <div className={styles.stat}>
               <span className={styles.statNumber}>24h</span>
-              <span className={styles.statLabel}>Livrare Rapida</span>
+              <span className={styles.statLabel}>Livrare Rapidă</span>
             </div>
           </div>
         </div>

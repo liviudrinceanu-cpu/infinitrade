@@ -1,3 +1,4 @@
+import { timingSafeEqual } from 'node:crypto';
 import { NextResponse } from 'next/server';
 
 /**
@@ -23,7 +24,10 @@ const HOST = 'www.infinitrade.ro';
 const ENDPOINT = 'https://api.indexnow.org/indexnow';
 
 export async function POST(request) {
-  if (request.headers.get('x-indexnow-token') !== INDEXNOW_KEY) {
+  // v19 (audit R1): constant-time comparison.
+  const given = Buffer.from(String(request.headers.get('x-indexnow-token') || ''));
+  const expected = Buffer.from(INDEXNOW_KEY);
+  if (given.length !== expected.length || !timingSafeEqual(given, expected)) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
   let urls = [];

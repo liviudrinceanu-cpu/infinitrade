@@ -1,3 +1,4 @@
+import { CLIENT_BRAND_STATS } from '@/data/headerMenus';
 import { z } from 'zod';
 
 // Force dynamic - this route uses runtime features
@@ -348,7 +349,7 @@ function detectSpam(data, formLoadedAt) {
 const AI_MODEL = 'claude-opus-5';
 
 // Stable system prompt -> cacheable prefix. Volatile request data goes in the user turn.
-const AI_SYSTEM_PROMPT = `Ești inginer senior de vânzări la Infinitrade Romania (Driatheli Group SRL, Ghiroda/Timiș), distribuitor de echipamente industriale din 2009: pompe, robineți și armături, motoare electrice și reductoare, schimbătoare de căldură, suflante și ventilatoare, automatizări, senzori și instrumentație, hidraulică și pneumatică, echipamente electrice, componente mecanice (rulmenți, curele, cuplaje), filtre, scule, echipamente termice, lubrifianți. Peste 238 de branduri (Grundfos, Wilo, KSB, Siemens, ABB, SEW, Alfa Laval, ARI Armaturen, Spirax Sarco, Parker, Festo, SKF etc.). Furnizor înregistrat SEAP/SICAP.
+const AI_SYSTEM_PROMPT = `Ești inginer senior de vânzări la Infinitrade Romania (Driatheli Group SRL, Ghiroda/Timiș), distribuitor de echipamente industriale din 2009: pompe, robineți și armături, motoare electrice și reductoare, schimbătoare de căldură, suflante și ventilatoare, automatizări, senzori și instrumentație, hidraulică și pneumatică, echipamente electrice, componente mecanice (rulmenți, curele, cuplaje), filtre, scule, echipamente termice, lubrifianți. Peste ${CLIENT_BRAND_STATS.total} de branduri cu pagină proprie (Grundfos, Wilo, KSB, Siemens, ABB, SEW, Alfa Laval, ARI Armaturen, Spirax Sarco, Parker, Festo, SKF etc.). Furnizor înregistrat SEAP/SICAP.
 
 Sarcina ta: triezi cererile de ofertă venite prin formularul site-ului, pentru echipa de vânzări. Echipa vrea să afle rapid: ce se cere exact, cât de valoros e lead-ul, ce lipsește ca să poată oferta și ce să facă în continuare.
 

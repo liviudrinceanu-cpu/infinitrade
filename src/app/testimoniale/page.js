@@ -16,11 +16,11 @@ import { siteStats, FOUNDING_YEAR } from '@/data/siteStats';
 // rewrite in January. Invented reviews are an unfair commercial practice
 // (Directive 2005/29/EC Annex I, as amended by Directive (EU) 2019/2161), so
 // they are no longer rendered. The URL stays (it is indexed) and now explains
-// how to get real references. src/data/testimonials.js is kept, unrendered,
-// so genuine testimonials can be restored once each client has agreed.
+// how to get real references. The invented data file was removed in v19
+// (it is in git history); add genuine testimonials only with written consent.
 
 export const metadata = {
-  title: 'Referințe Clienți | Cum Verificați un Furnizor',
+  title: 'Referințe de la Clienți',
   description: `Referințe de la clienți din industria dumneavoastră, la cerere și cu acordul lor. Furnizor din ${FOUNDING_YEAR}, înregistrat în SEAP, depozit în Ghiroda, ${siteStats.brands} branduri.`,
   openGraph: {
     title: 'Referințe Clienți | Infinitrade Romania',

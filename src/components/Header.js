@@ -193,7 +193,8 @@ export default function Header() {
               />
             </Link>
 
-            {/* Navigation - right of logo */}
+            {/* Navigation - right of logo. v19 (a11y): dropdowns also open on
+                keyboard focus and close on blur / Escape. */}
             <nav className={styles.nav} aria-label="Navigare principală">
               {navigation.map((item) => {
                 const isCategory = !['/despre-noi', '/contact', '/', '/blog'].includes(item.href) && !item.isDropdown;
@@ -206,8 +207,16 @@ export default function Header() {
                     className={styles.navItem}
                     onMouseEnter={() => hasDropdown && setActiveDropdown(item.name)}
                     onMouseLeave={() => setActiveDropdown(null)}
+                    onFocus={() => hasDropdown && setActiveDropdown(item.name)}
+                    onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget)) setActiveDropdown(null); }}
+                    onKeyDown={(e) => { if (e.key === 'Escape') setActiveDropdown(null); }}
                   >
-                    <Link href={item.href} className={styles.navLink}>
+                    <Link
+                      href={item.href}
+                      className={styles.navLink}
+                      aria-haspopup={hasDropdown ? 'true' : undefined}
+                      aria-expanded={hasDropdown ? activeDropdown === item.name : undefined}
+                    >
                       {item.name}
                       {(isCategory || isResourcesDropdown) && (
                         <ChevronDown size={14} className={styles.navChevron} aria-hidden="true" />
@@ -310,10 +319,15 @@ export default function Header() {
                   className={styles.megaMenuWrapper}
                   onMouseEnter={() => setActiveDropdown('mega')}
                   onMouseLeave={() => setActiveDropdown(null)}
+                  onFocus={() => setActiveDropdown('mega')}
+                  onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget)) setActiveDropdown(null); }}
+                  onKeyDown={(e) => { if (e.key === 'Escape') setActiveDropdown(null); }}
                 >
                   <Link
                     href={item.href}
                     className={`${styles.secondaryNavLink} ${styles.secondaryNavLinkRed}`}
+                    aria-haspopup="true"
+                    aria-expanded={activeDropdown === 'mega'}
                   >
                     {item.name}
                     <ChevronDown size={12} />

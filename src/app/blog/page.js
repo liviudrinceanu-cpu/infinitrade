@@ -10,7 +10,7 @@ import styles from './blog.module.css';
 export const revalidate = 3600;
 
 export const metadata = {
-  title: 'Blog Tehnic | Ghiduri Echipamente Industriale',
+  title: 'Blog Tehnic | Ghiduri Echipamente',
   description: 'Articole tehnice despre pompe industriale, motoare electrice, robineti. Ghiduri de selectie, comparatii, eficienta energetica si mentenanta.',
   openGraph: {
     title: 'Blog Tehnic | Ghiduri Echipamente Industriale',

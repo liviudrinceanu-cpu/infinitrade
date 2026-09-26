@@ -144,7 +144,7 @@
 }
 
 .infoEmpty {
-  color: var(--gray-400);
+  color: var(--gray-500);
   font-style: italic;
 }
 
@@ -462,7 +462,7 @@
 }
 
 .priceSeparator {
-  color: var(--gray-400);
+  color: var(--gray-500);
 }
 
 @media (max-width: 1024px) {

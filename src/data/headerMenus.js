@@ -210,10 +210,6 @@ export const HEADER_CATEGORY_MENUS = {
     "name": "Marelli"
    },
    {
-    "simpleSlug": "schneider",
-    "name": "Schneider Electric"
-   },
-   {
     "simpleSlug": "omron",
     "name": "Omron"
    },
@@ -228,6 +224,10 @@ export const HEADER_CATEGORY_MENUS = {
    {
     "simpleSlug": "mitsubishi-electric",
     "name": "Mitsubishi Electric"
+   },
+   {
+    "simpleSlug": "nidec",
+    "name": "Nidec"
    }
   ],
   "brandCount": 120
@@ -329,7 +329,7 @@ export const HEADER_CATEGORY_MENUS = {
    },
    {
     "slug": "pompe-vid-suflante",
-    "name": "Pompe de Vid Industriale"
+    "name": "Pompe de Vid pentru Manipulare și Ambalare"
    },
    {
     "slug": "compresoare-industriale",
@@ -384,4 +384,4 @@ export const HEADER_CATEGORY_MENUS = {
 
 export const CLIENT_CATEGORIES = [{"slug":"pompe-industriale","name":"Pompe Industriale"},{"slug":"robineti-industriali","name":"Robineți Industriali"},{"slug":"motoare-electrice","name":"Motoare Electrice Industriale"},{"slug":"schimbatoare-caldura","name":"Schimbătoare de Căldură Industriale"},{"slug":"suflante-ventilatoare","name":"Suflante și Ventilatoare Industriale"},{"slug":"automatizari-industriale","name":"Automatizări Industriale"},{"slug":"senzori-instrumentatie","name":"Senzori și Instrumentație"},{"slug":"componente-hidraulice-pneumatice","name":"Componente Hidraulice și Pneumatice"},{"slug":"echipamente-electrice","name":"Echipamente Electrice și Automatizare"},{"slug":"componente-mecanice","name":"Componente Mecanice și Transmisii"},{"slug":"filtre-consumabile","name":"Filtre și Consumabile Industriale"},{"slug":"scule-instrumente","name":"Scule și Instrumente de Măsură"},{"slug":"echipamente-termice","name":"Echipamente Termice și Climatizare"},{"slug":"lubrifianti-chimice","name":"Lubrifianți și Chimice Industriale"},{"slug":"echipamente-auxiliare","name":"Echipamente Auxiliare și Protecție"},{"slug":"aparate-masura-testare","name":"Aparate de Măsură și Testare"}];
 
-export const CLIENT_BRAND_STATS = {"total":1336,"indexed":1219,"withContent":1228};
+export const CLIENT_BRAND_STATS = {"total":1336,"indexed":1211,"withContent":1228};

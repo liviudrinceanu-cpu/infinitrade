@@ -34,7 +34,7 @@ const SOURCING_STATEMENT = entityFacts.boilerplate.find((b) => b.id === 'sourcin
   || 'Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 2–4 săptămâni din fabrică (execuțiile OEM sau personalizate pot dura mai mult, termenul exact îl confirmăm în ofertă).';
 const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
 
-export default function BrandPageClient({ brand, relatedByCategory = {}, brandContent, seriesPages = [] }) {
+export default function BrandPageClient({ brand, primaryDuplicate = null, relatedByCategory = {}, brandContent, seriesPages = [] }) {
   // v17: the hero is rendered visible (no scroll-reveal) — it is the LCP
   // element, and hiding it until hydration pushed LCP past 2.5 s on mobile.
   const [heroRef] = useIntersectionObserver();
@@ -106,6 +106,14 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
               <p className={styles.heroSubtitle}>
                 Furnizor în România
               </p>
+              {primaryDuplicate && (
+                <p className={styles.heroSubtitle}>
+                  Pagina principală a brandului:{' '}
+                  <Link href={`/brand/${primaryDuplicate.slug}`} style={{ color: 'inherit', textDecoration: 'underline' }}>
+                    {primaryDuplicate.name}
+                  </Link>
+                </p>
+              )}
 
               {/* Category badges for multi-category brands */}
               {brand.categories.length > 1 && (
@@ -167,29 +175,29 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
               <div className={styles.valueProp}>
                 <Package size={24} />
                 <div>
-                  <h4>Produse Originale</h4>
-                  <p>Garantie producator</p>
+                  <h4>Produse originale</h4>
+                  <p>Garanția producătorului</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
                 <Truck size={24} />
                 <div>
-                  <h4>Livrare Rapida</h4>
+                  <h4>Livrare din stoc</h4>
                   <p>{LEAD_TIME_FROM_STOCK}</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
                 <Wrench size={24} />
                 <div>
-                  <h4>Piese Schimb</h4>
-                  <p>Kituri service</p>
+                  <h4>Piese de schimb</h4>
+                  <p>Kituri de revizie</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
                 <Shield size={24} />
                 <div>
-                  <h4>Suport Tehnic</h4>
-                  <p>Consultanta gratuita</p>
+                  <h4>Suport tehnic</h4>
+                  <p>Consultanță la selecție</p>
                 </div>
               </div>
             </div>
@@ -520,12 +528,12 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
                   <div className={styles.aboutContent}>
                     <h2>Cine e {brand.name} și ce produce?</h2>
                     <p>
-                      <strong>{brand.name}</strong> este un producator de renume mondial,
-                      recunoscut pentru calitatea exceptionala si inovatia in domeniul {category.name.toLowerCase()}.
+                      <strong>{brand.name}</strong> produce echipamente din categoria {category.name.toLowerCase()}.
+                      Pagina detaliată, cu gamele și codurile citite din documentația producătorului, este în lucru.
                     </p>
                     <p>
-                      Ca furnizor {brand.name} in Romania, Infinitrade va ofera acces la intreaga gama de produse,
-                      consultanta tehnica specializata si service post-vanzare de inalta calitate.
+                      Până atunci, ofertăm produsele {brand.name} pe baza codului sau a plăcuței echipamentului:
+                      trimiteți-le prin formularul de cerere și revenim cu disponibilitatea și termenul.
                     </p>
                   </div>
                   <div className={styles.aboutStats}>
@@ -538,12 +546,12 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
                       <span className={styles.statLabel}>Tipuri de produse</span>
                     </div>
                     <div className={styles.statCard}>
-                      <span className={styles.statValue}>15+</span>
-                      <span className={styles.statLabel}>Ani Experienta</span>
+                      <span className={styles.statValue}>2009</span>
+                      <span className={styles.statLabel}>Activi din</span>
                     </div>
                     <div className={styles.statCard}>
-                      <span className={styles.statValue}>24h</span>
-                      <span className={styles.statLabel}>Raspuns Rapid</span>
+                      <span className={styles.statValue}>24–72 h</span>
+                      <span className={styles.statLabel}>Livrare din stoc</span>
                     </div>
                   </div>
                 </div>
@@ -556,7 +564,7 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
                 <div className={styles.container}>
                   <div className={styles.sectionHeader}>
                     <h2>Ce tipuri de echipamente are {brand.name}?</h2>
-                    <p>Selecteaza produsele de care ai nevoie si solicita oferta</p>
+                    <p>Selectați produsele de care aveți nevoie și cereți oferta</p>
                   </div>
                   <div className={styles.productsGrid}>
                     {productTypes.map((type, index) => (
@@ -628,30 +636,30 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
             </div>
             <div className={styles.servicesGrid}>
               <div className={styles.serviceCard}>
-                <h3>Vanzare Echipamente</h3>
+                <h3>Vânzare echipamente</h3>
                 <ul className={styles.serviceList}>
                   <li><Check size={16} /> Produse originale</li>
-                  <li><Check size={16} /> Consultanta tehnica</li>
-                  <li><Check size={16} /> Oferte personalizate</li>
-                  <li><Check size={16} /> Preturi competitive</li>
+                  <li><Check size={16} /> Consultanță tehnică la selecție</li>
+                  <li><Check size={16} /> Ofertă pe cod de produs</li>
+                  <li><Check size={16} /> Documentele producătorului</li>
                 </ul>
               </div>
               <div className={styles.serviceCard}>
-                <h3>Piese de Schimb</h3>
+                <h3>Piese de schimb</h3>
                 <ul className={styles.serviceList}>
                   <li><Check size={16} /> Piese originale</li>
-                  <li><Check size={16} /> Kituri service</li>
-                  <li><Check size={16} /> Livrare expresa</li>
-                  <li><Check size={16} /> Compatibilitate</li>
+                  <li><Check size={16} /> Kituri de revizie</li>
+                  <li><Check size={16} /> Livrare din stoc sau la comandă</li>
+                  <li><Check size={16} /> Verificarea compatibilității pe cod</li>
                 </ul>
               </div>
               <div className={styles.serviceCard}>
-                <h3>Suport Tehnic</h3>
+                <h3>Suport tehnic</h3>
                 <ul className={styles.serviceList}>
                   <li><Check size={16} /> Dimensionare</li>
-                  <li><Check size={16} /> Documentatie</li>
-                  <li><Check size={16} /> Instalare</li>
-                  <li><Check size={16} /> Mentenanta</li>
+                  <li><Check size={16} /> Documentație tehnică</li>
+                  <li><Check size={16} /> Identificare după plăcuță</li>
+                  <li><Check size={16} /> Recomandări din manualul producătorului</li>
                 </ul>
               </div>
             </div>
@@ -727,7 +735,7 @@ export default function BrandPageClient({ brand, relatedByCategory = {}, brandCo
                 <h2>Cum cer o ofertă {brand.name}?</h2>
                 <p>
                   Trimite-ne plăcuța sau codul produsului, cantitatea și termenul dorit.
-                  Adaugă produsele la cerere și primești oferta personalizată în 24h.
+                  Adaugă produsele la cerere și primești oferta, de regulă în aceeași zi lucrătoare sau în următoarea.
                 </p>
               </div>
               <div className={styles.ctaButtons}>

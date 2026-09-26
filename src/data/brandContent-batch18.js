@@ -295,7 +295,7 @@ Ce diferențiază Belimo e integrarea completă a lanțului de control al fluidu
 Pentru un proiectant sau un integrator de sisteme HVAC din România, gama Belimo simplifică enorm punerea în funcțiune: actuatoarele vin cu potențiometru de poziție încorporat, protocoale standard (0-10V, Modbus, BACnet) și configurare rapidă din fabrică, reducând timpul de instalare și eliminând nevoia de reglaje manuale complicate la fiecare clapetă sau robinet din instalație.`,
     whyChoose: [
       "Pionierat în actuatoare electrice — de la 1975 au înlocuit sistematic soluțiile pneumatice greoaie cu variante electrice compacte",
-      "Sistem complet actuator-robinet — dimensionare corectă garantată, fără compatibilitate incertă între componente de producători diferiți",
+      "Sistem complet actuator-robinet — dimensionare corectă conform fișelor tehnice ale producătorului, fără compatibilitate incertă între componente de producători diferiți",
       "Tehnologie Energy Valve — măsoară energia termică livrată direct în robinet, util pentru facturare și optimizare energetică",
       "Protocoale deschise standard — 0-10V, MP-Bus, Modbus și BACnet, integrare simplă în orice sistem de automatizare a clădirii",
       "Funcție spring-return de siguranță — poziționare automată la închidere sau deschidere în caz de pană de curent",
@@ -308,7 +308,7 @@ Pentru un proiectant sau un integrator de sisteme HVAC din România, gama Belimo
       },
       {
         name: "Actuatoare Liniare pentru Robinete Seria NV/LV",
-        description: "Actuatoare liniare pentru robinete de reglare cu 2 sau 3 căi din instalațiile de încălzire, răcire și climatizare, cu forțe de acționare de la 400N până la peste 1000N pentru robinete de diametre mari. Cursă liniară de până la 40mm, timp de acționare proporțional cu semnalul de comandă pentru poziționare precisă. Compatibile cu robinetele caracterizate CCV ale aceluiași producător, formând un ansamblu cu curbă de reglare liniară garantată din fabrică. Variante cu funcție de siguranță la pană de curent (spring-return) pentru robinetele care trebuie să revină la poziție închisă. Montaj rapid fără scule, cu clemă de cuplare universală pe tija robinetului."
+        description: "Actuatoare liniare pentru robinete de reglare cu 2 sau 3 căi din instalațiile de încălzire, răcire și climatizare, cu forțe de acționare de la 400N până la peste 1000N pentru robinete de diametre mari. Cursă liniară de până la 40mm, timp de acționare proporțional cu semnalul de comandă pentru poziționare precisă. Compatibile cu robinetele caracterizate CCV ale aceluiași producător, formând un ansamblu cu curbă de reglare liniară specificată din fabrică. Variante cu funcție de siguranță la pană de curent (spring-return) pentru robinetele care trebuie să revină la poziție închisă. Montaj rapid fără scule, cu clemă de cuplare universală pe tija robinetului."
       },
       {
         name: "Robinete Caracterizate de Control (CCV) și Energy Valve",
@@ -316,7 +316,7 @@ Pentru un proiectant sau un integrator de sisteme HVAC din România, gama Belimo
       },
       {
         name: "Actuatoare pentru Clapete de Fum și Evacuare Fum",
-        description: "Actuatoare dedicate sistemelor de protecție la incendiu, pentru clapetele de fum și de evacuare a fumului din casele scărilor, tunelurile și atriumurile clădirilor. Cupluri mari, până la 40 Nm și peste, cu funcționare garantată la temperaturi ridicate pentru perioada necesară evacuării ocupanților. Funcție spring-return obligatorie, care deschide sau închide clapeta automat la pierderea alimentării electrice sau la comanda centralei de detecție incendiu. Certificate conform normelor europene pentru sisteme de control al fumului și căldurii (evacuare fum), cu monitorizare de poziție și semnalizare de defect către centrala de incendiu. Element obligatoriu în proiectele de siguranță la incendiu din clădirile înalte."
+        description: "Actuatoare dedicate sistemelor de protecție la incendiu, pentru clapetele de fum și de evacuare a fumului din casele scărilor, tunelurile și atriumurile clădirilor. Cupluri mari, până la 40 Nm și peste, cu funcționare certificată la temperaturi ridicate pentru perioada necesară evacuării ocupanților. Funcție spring-return obligatorie, care deschide sau închide clapeta automat la pierderea alimentării electrice sau la comanda centralei de detecție incendiu. Certificate conform normelor europene pentru sisteme de control al fumului și căldurii (evacuare fum), cu monitorizare de poziție și semnalizare de defect către centrala de incendiu. Element obligatoriu în proiectele de siguranță la incendiu din clădirile înalte."
       }
     ],
     industries: [
@@ -426,7 +426,7 @@ Pentru un proiectant sau un integrator de sisteme HVAC din România, gama Belimo
       },
       {
         "q": "Ce este actuatorul Belimo FSAF pentru clapete de fum?",
-        "a": "Este un actuator electronic cu revenire pe eșec, dedicat clapetelor de fum și de evacuare a fumului, listat conform standardului UL 555S pentru siguranța la incendiu. Este folosit acolo unde reglementările impun testare periodică și acționare garantată în caz de pierdere a alimentării electrice."
+        "a": "Este un actuator electronic cu revenire pe eșec, dedicat clapetelor de fum și de evacuare a fumului, listat conform standardului UL 555S pentru siguranța la incendiu. Este folosit acolo unde reglementările impun testare periodică și acționare certificată în caz de pierdere a alimentării electrice."
       }
     ],
     evidenceClass: "transactional",

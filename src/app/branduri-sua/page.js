@@ -46,8 +46,8 @@ const FAQ = (total, hard) => [
 export async function generateMetadata() {
   const brands = getUsBrands();
   const total = brands.length;
-  const title = `Branduri din SUA (${total}) | Producători americani de echipamente industriale`;
-  const description = `${total} de producători americani de echipamente și componente industriale pe care îi aducem în România: robineți, pompe, instrumentație, scule, hidraulică, motoare. Pe categorii și industrii (automotive, petrol și gaze, energie), cu brandurile greu de găsit în Europa marcate.`;
+  const title = `Branduri din SUA (${total}) | Echipamente industriale | Infinitrade`;
+  const description = `${total} de producători americani de echipamente industriale pe care îi aducem în România, pe categorii și industrii, cu brandurile greu de găsit în Europa marcate.`;
   return {
     title: { absolute: title },
     description,

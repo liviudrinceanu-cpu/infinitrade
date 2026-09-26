@@ -60,7 +60,7 @@ Pentru un inginer de proiect din România, Bopp & Reuther are sens acolo unde sp
   circutor: {
     name: "Circutor",
     headquarters: "Viladecavalls, Spania",
-    overview: `Circutor este un producător spaniol de echipamente pentru măsurarea și eficiența energiei electrice, cu sediul la Viladecavalls, lângă Barcelona. Portofoliul acoperă analiza calității energiei, protecția la curenți de scurgere, filtrarea armonicilor, stațiile de încărcare pentru vehicule electrice și platforme software de monitorizare energetică. Pentru un client din România, Circutor înseamnă echipamente de măsură și protecție electrică pentru tablouri industriale, clădiri și instalații de producție proprie de energie.
+    overview: `Circutor este un producător spaniol de echipamente pentru măsurarea și eficiența energiei electrice, cu sediul la Viladecavalls, lângă Barcelona. Portofoliul acoperă analiza calității energiei, protecția la curenți de scurgere, filtrarea armonicilor, stațiile de încărcare pentru vehicule electrice și platforme software de monitorizare energetică. Pentru o companie din România, Circutor înseamnă echipamente de măsură și protecție electrică pentru tablouri industriale, clădiri și instalații de producție proprie de energie.
 
 Ce diferențiază oferta e integrarea între hardware și software: analizoarele de rețea precum QNA-600 sau CVM-A1600 se conectează la platforma proprie PowerStudio SCADA pentru monitorizare centralizată, iar filtrele active din familia AFQ folosesc tehnologie cu carbură de siliciu pentru corecția armonicilor. Compania oferă și controlere industriale (eCore, eManager) și routere 4G dedicate digitalizării managementului energetic, ceea ce o apropie de furnizorii de automatizare industrială mai degrabă decât de un simplu producător de aparataj electric.
 
@@ -310,7 +310,7 @@ Pentru România, March Pump are sens la instalații de laborator, tratarea chimi
 
 Gama acoperă pompe verticale de imersie (seriile AS, GP, BS, GA), pompe orizontale cu etanșare mecanică (OMA, OP, PA, OA), pompe magnetice fără etanșare, o serie de pompe pneumatice cu diafragmă dublă (BX) și o gamă largă de agitatoare industriale — de la variante rapide (AN) la cele întărite pentru medii vâscoase (AL). Pentru medii metalice mai solicitante, oferă și variante din AISI 316 sau Hastelloy. Compania are pompe certificate ATEX pentru zone cu risc de explozie.
 
-Pentru un client din România, Savino Barbera are sens acolo unde alternativa metalică se corodează rapid — bazine de decapare, linii de galvanizare, stații de neutralizare sau depozite de acizi — și unde întreținerea unei pompe metalice ar fi mai costisitoare decât înlocuirea uneia din plastic.`,
+Pentru o companie din România, Savino Barbera are sens acolo unde alternativa metalică se corodează rapid — bazine de decapare, linii de galvanizare, stații de neutralizare sau depozite de acizi — și unde întreținerea unei pompe metalice ar fi mai costisitoare decât înlocuirea uneia din plastic.`,
     whyChoose: [
       "Construcție integral din plastic (PP, PVC, PVDF) — fără piese metalice expuse la lichidul corosiv",
       "Peste 70 de ani de experiență în pomparea acizilor și produselor chimice agresive",
@@ -496,7 +496,7 @@ Pentru piața românească, Fluimac are sens la linii unde e nevoie de o pompă 
 
 Portofoliul e segmentat pe materiale și aplicații: seria din plastic pentru uz general, seria igienică pentru alimentar și farmaceutic, seriile metalice din aluminiu sau AISI 316 pentru medii mai solicitante, și o serie SEMI dedicată aplicațiilor de puritate ultra-înaltă din industria semiconductoarelor. Seria 3A Aseptic respectă standardele sanitare 3-A pentru contact direct cu produse alimentare, iar seriile electro-mecanice DMR, DMF, DMU și SXTT-X acoperă diverse capacități pentru pompele DME. Producția e certificată ISO/TÜV pentru sistemul de management al calității.
 
-Pentru un client din România, Dellmeco are sens acolo unde AODD-ul clasic trebuie înlocuit cu o variantă electro-mecanică mai eficientă energetic sau unde aplicația cere conformitate sanitară strictă, ca în industria alimentară sau farmaceutică.`,
+Pentru o companie din România, Dellmeco are sens acolo unde AODD-ul clasic trebuie înlocuit cu o variantă electro-mecanică mai eficientă energetic sau unde aplicația cere conformitate sanitară strictă, ca în industria alimentară sau farmaceutică.`,
     whyChoose: [
       "Producție integrată într-o singură fabrică, din 2004 — timp de răspuns rapid la cerințele de proiect",
       "Variante atât pneumatice (AODD) cât și electro-mecanice (DME) sub aceeași marcă",

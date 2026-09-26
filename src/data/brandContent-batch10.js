@@ -10,7 +10,7 @@ Suntem pionieri ai tehnologiei IO-Link, care a revoluționat comunicarea între 
 Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci soluții complete de monitorizare și diagnostic predictiv. Platformele producătorului moneo și ecosys permit analiza în timp real a semnalelor de la sute de senzori, detectarea anomaliilor și planificarea întreținerii înainte ca defecțiunile să apară. Asta înseamnă costuri mai mici, timp de nefuncționare zero și eficiență crescută pentru clienții producătorului din automotive, food & beverage, logistică, chimie și energie.`,
     whyChoose: [
       'Tehnologie IO-Link nativă pe majoritatea senzorilonr - configurare rapidă, diagnoză la distanță, schimb automat parametri',
-      'Calibrare din fabrică cu certificate de etalonare trasabile NIST/PTB - precizie garantată până la 0.05% FS',
+      'Calibrare din fabrică cu certificate de etalonare trasabile NIST/PTB - precizie de până la 0.05% FS conform certificatului',
       'Carcasă integrală inox 316L sau titan - rezistență la coroziune, acizi, baze, uleiuri, refrigeranți',
       'Clasă protecție IP68/IP69K standard - funcționare în apă, jet înaltă presiune, praf, condens',
       'Temperatură operare -40°C până +200°C (unele modele până +400°C cu răcire) - pentru procese extreme',
@@ -143,7 +143,7 @@ Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci 
     employees: '400+',
     overview: `Internormen este specialist german în filtrare hidraulică de înaltă performanță pentru aplicații industriale și mobile. De peste 65 de ani producem filtre, elemente filtrante și sisteme complete de condiționare a uleiului hidraulic care protejează componentele scumpe - pompe, servomotoare, cilindri, distributoare - de uzura prematură cauzată de particule solide și apă. Fabrica noastră din Schmalkalden folosește tehnologii avansate de plisare și laminare pentru a obține suprafețe filtrante de până la 2 m² pe un element compact.
 
-Filosofia noastră este simplă: un ulei curat înseamnă durată de viață dublată sau triplată pentru componentele hidraulice și timp de nefuncționare zero. De aceea toate filtrele noastre au clase de filtrare certificate conform ISO 16889 (Beta ratio) - garantăm eficiență de filtrare verificată în laboratoare independente. Folosim media filtrante sintetice borosilicate sau microfibră sticlă care rezistă la presiuni diferențiale de până la 210 bar și temperaturi de la -30°C la +110°C fără degradare.
+Filosofia noastră este simplă: un ulei curat înseamnă durată de viață dublată sau triplată pentru componentele hidraulice și timp de nefuncționare zero. De aceea toate filtrele au clase de filtrare certificate conform ISO 16889 (Beta ratio) - eficiența de filtrare este verificată în laboratoare independente. Folosim media filtrante sintetice borosilicate sau microfibră sticlă care rezistă la presiuni diferențiale de până la 210 bar și temperaturi de la -30°C la +110°C fără degradare.
 
 Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fiecare filtru Internormen să îndeplinească standardele stricte germane. Colaborăm direct cu producători de excavatoare, macarale, prese hidraulice, sisteme de injecție, turbine eoliene și centrale hidroelectrice. Oriunde găsești un sistem hidraulic de putere mare care trebuie să funcționeze fără eroare ani la rând, probabil vei găsi și un filtru Internormen.`,
     whyChoose: [
@@ -277,7 +277,7 @@ Tehnologia producătorului se bazează pe umplerea corpului ceramic cu nisip cua
 
 Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jean Müller fabricată astăzi are exact aceleași caracteristici I²t și caracteristică timp-curent ca una fabricată acum 20 de ani cu același cod. Asta înseamnă că poți completa un set vechi fără să recalculezi selectivitatea sau să schimbi întreaga instalație. Pentru electricieni și ingineri de mentenanță, asta înseamnă liniște și predictibilitate într-o lume în care echipamentele se schimbă constant.`,
     whyChoose: [
-      'Poder de rupere 120 kA la 500V AC - protecție garantată chiar lângă transformator sau generator',
+      'Poder de rupere 120 kA la 500V AC - protecție eficientă chiar lângă transformator sau generator',
       'Caracteristică I²t stabilă ±5% - selectivitate perfectă între siguranțe de diferite calibre',
       'Corp ceramic cu nisip cuarțos ultra-pur - stingere arc în sub 5ms, zero contaminare',
       'Indicator mecanic de topire integrat - vezi instant care siguranță a ars fără multimetru',
@@ -426,7 +426,7 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
     founded: 1948,
     headquarters: 'Fulda, Germania',
     employees: '2,300+',
-    overview: `JUMO (Fulda, Germania) este unul dintre liderii europeni în tehnologia de măsurare și control pentru temperatură, presiune, nivel, debit, umiditate și pH. De peste 75 de ani dezvoltăm senzori industriali, regulatoare și sisteme de automatizare pentru industria de proces - chimie, farmaceutică, alimentară, energie, tratare apă. Cu 2,300 de angajați și 30 de filiale în lume, JUMO combină precizia germană cu inovația constantă.
+    overview: `JUMO (Fulda, Germania) este unul dintre producătorii importanți din Europa în tehnologia de măsurare și control pentru temperatură, presiune, nivel, debit, umiditate și pH. De peste 75 de ani dezvoltăm senzori industriali, regulatoare și sisteme de automatizare pentru industria de proces - chimie, farmaceutică, alimentară, energie, tratare apă. Cu 2,300 de angajați și 30 de filiale în lume, JUMO combină precizia germană cu inovația constantă.
 
 Avem fabrici proprii în Germania unde producem sonde de temperatură Pt100/Pt1000 cu toleranță clasa A sau AA conform IEC 60751, traductoare de presiune ceramice cu acuratețe 0.25% FS, regulatoare PID multiloop cu algoritmi autotune. Fiecare produs JUMO este calibrat individual în laborator acreditat DAkkS/ISO 17025 și vine cu certificat de calibrare trasabil la standardele naționale germane. Pentru industria farmaceutică și alimentară oferim versiuni sanitare cu certificări FDA 21 CFR Part 11 și 3-A Sanitary Standards.
 

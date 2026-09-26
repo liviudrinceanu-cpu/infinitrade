@@ -8,10 +8,17 @@ import { rateLimit } from './rateLimit';
 const MAX_LOGIN_ATTEMPTS = 5;
 const LOCKOUT_DURATION = 15 * 60 * 1000; // 15 minutes
 
-async function checkLoginRateLimit(email: string): Promise<{ allowed: boolean; remainingTime?: number }> {
-  const result = await rateLimit(`login:${email}`, MAX_LOGIN_ATTEMPTS, LOCKOUT_DURATION);
+// v19 (audit R1): a bcrypt hash of a random string, compared when the user
+// does not exist so the response time does not reveal which e-mails exist.
+const DUMMY_HASH = '$2b$10$C6/6U66wcyu9kf/xLPihoeLdtNKXwuY6RWWR3rvTv2LRf.iGN3M62';
+const MAX_LOGIN_ATTEMPTS_PER_IP = 20;
 
-  if (!result.allowed) {
+async function checkLoginRateLimit(email: string, ip?: string | null): Promise<{ allowed: boolean; remainingTime?: number }> {
+  const result = await rateLimit(`login:${email}`, MAX_LOGIN_ATTEMPTS, LOCKOUT_DURATION);
+  // v19: also limit per client IP, so many e-mails from one source are throttled.
+  const ipResult = ip ? await rateLimit(`login-ip:${ip}`, MAX_LOGIN_ATTEMPTS_PER_IP, LOCKOUT_DURATION) : { allowed: true };
+
+  if (!result.allowed || !ipResult.allowed) {
     // Estimate remaining time (15 minutes max)
     return { allowed: false, remainingTime: Math.ceil(LOCKOUT_DURATION / 1000) };
   }
@@ -35,7 +42,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         email: { label: 'Email', type: 'email' },
         password: { label: 'Password', type: 'password' },
       },
-      async authorize(credentials) {
+      async authorize(credentials, request) {
         if (!credentials?.email || !credentials?.password) {
           return null;
         }
@@ -44,7 +51,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         const password = credentials.password as string;
 
         // Check rate limit before processing (uses Upstash Redis in production)
-        const rateLimitResult = await checkLoginRateLimit(email);
+        const forwarded = (request as Request | undefined)?.headers?.get?.('x-forwarded-for') || '';
+        const ip = forwarded.split(',')[0].trim() || null;
+        const rateLimitResult = await checkLoginRateLimit(email, ip);
         if (!rateLimitResult.allowed) {
           throw new Error(`Prea multe încercări. Încercați din nou în ${rateLimitResult.remainingTime} secunde.`);
         }
@@ -54,6 +63,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         });
 
         if (!user || !user.password) {
+          await bcrypt.compare(password, DUMMY_HASH);
           return null;
         }
 

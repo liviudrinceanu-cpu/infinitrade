@@ -20,7 +20,7 @@ export const metadata = {
     'comparatie robineti industriali',
     'ghid selectie echipamente',
     'care pompa e mai buna',
-    'cel mai bun brand pompe',
+    'comparatie branduri pompe industriale',
   ],
   openGraph: {
     title: 'Ghid Comparativ Echipamente Industriale | Infinitrade Romania',
@@ -81,7 +81,7 @@ const comparisons = [
         slug: 'pompe-industriale-grundfos',
         country: 'Danemarca',
         founded: 1945,
-        strengths: ['Eficiență energetică lider', 'Tehnologie IE5', 'Monitorizare IoT', 'Durabilitate excepțională'],
+        strengths: ['Eficiență energetică ridicată', 'Tehnologie IE5', 'Monitorizare IoT', 'Durabilitate excepțională'],
         weaknesses: ['Preț inițial cu 20-30% mai mare', 'Complexitate configurare IoT', 'Costuri ridicate piese de schimb', 'Necesită training specializat pentru modele avansate'],
         bestFor: ['Tratare apă', 'HVAC', 'Industrie alimentară', 'Aplicații cu debit variabil'],
         priceRange: '€€€',
@@ -113,7 +113,7 @@ const comparisons = [
         rating: 4.8,
       },
     ],
-    conclusion: 'Pentru eficiență energetică maximă și aplicații cu debit variabil, Grundfos este alegerea optimă. Pentru buget moderat cu calitate germană, Wilo oferă cel mai bun raport. Pentru aplicații grele în petrochimie sau minerit, KSB excelează prin robustețe.',
+    conclusion: 'Pentru eficiență energetică maximă și aplicații cu debit variabil, Grundfos este alegerea optimă. Pentru buget moderat cu calitate germană, Wilo oferă un raport calitate-preț echilibrat. Pentru aplicații grele în petrochimie sau minerit, KSB excelează prin robustețe.',
   },
   {
     id: 'motoare-electrice',
@@ -158,7 +158,7 @@ const comparisons = [
         rating: 4.7,
       },
     ],
-    conclusion: 'Siemens domină în automatizări integrate și Industrie 4.0. ABB excelează în aplicații de mare putere și funcționare continuă. SEW Eurodrive este lider pentru sisteme motor-reductor în logistică și packaging.',
+    conclusion: 'Siemens este recomandat pentru automatizări integrate și Industrie 4.0. ABB excelează în aplicații de mare putere și funcționare continuă. SEW Eurodrive este recomandat pentru sisteme motor-reductor în logistică și packaging.',
   },
   {
     id: 'robineti-industriali',
@@ -183,8 +183,8 @@ const comparisons = [
         slug: 'robineti-industriali-spirax-sarco',
         country: 'UK',
         founded: 1888,
-        strengths: ['Lider global în abur', 'Soluții complete', 'Training și consultanță', 'Monitorizare'],
-        weaknesses: ['Cele mai ridicate prețuri din industrie', 'Timpi de răspuns mai lungi pentru suport tehnic', 'Complexitate ridicată pentru aplicații simple', 'Lock-in în ecosistem proprietar'],
+        strengths: ['Specializare extinsă în abur', 'Soluții complete', 'Training și consultanță', 'Monitorizare'],
+        weaknesses: ['Preț peste media segmentului', 'Timpi de răspuns mai lungi pentru suport tehnic', 'Complexitate ridicată pentru aplicații simple', 'Lock-in în ecosistem proprietar'],
         bestFor: ['Sisteme abur complexe', 'Industria alimentară', 'Farmaceutică', 'Optimizare energie'],
         priceRange: '€€€',
         warranty: '2 ani',
@@ -203,7 +203,7 @@ const comparisons = [
         rating: 4.7,
       },
     ],
-    conclusion: 'Pentru instalații complexe de abur, Spirax Sarco oferă soluții complete cu suport tehnic excelent. ARI Armaturen este alegerea pentru aplicații industriale grele în chimie și petrochimie. Danfoss domină în HVAC și sisteme de refrigerare.',
+    conclusion: 'Pentru instalații complexe de abur, Spirax Sarco oferă soluții complete cu suport tehnic excelent. ARI Armaturen este alegerea pentru aplicații industriale grele în chimie și petrochimie. Danfoss este recomandat pentru HVAC și sisteme de refrigerare.',
   },
   {
     id: 'schimbatoare-caldura',
@@ -216,8 +216,8 @@ const comparisons = [
         slug: 'schimbatoare-caldura-industriale-alfa-laval',
         country: 'Suedia',
         founded: 1883,
-        strengths: ['Tehnologie lider', 'Eficiență maximă', 'Inovație continuă', 'Gama vastă'],
-        weaknesses: ['Cel mai scump brand din piață', 'Garnituri OEM foarte costisitoare', 'Timpi de livrare lungi pentru configurații speciale', 'Lock-in în gamă proprietară'],
+        strengths: ['Tehnologie avansată', 'Eficiență maximă', 'Inovație continuă', 'Gama vastă'],
+        weaknesses: ['Poziționare de preț premium în piață', 'Garnituri OEM foarte costisitoare', 'Timpi de livrare lungi pentru configurații speciale', 'Lock-in în gamă proprietară'],
         bestFor: ['Industria alimentară', 'Marine', 'Energie', 'Farmaceutică'],
         priceRange: '€€€',
         warranty: '2-3 ani',
@@ -248,7 +248,7 @@ const comparisons = [
         rating: 4.6,
       },
     ],
-    conclusion: 'Alfa Laval este standardul de aur pentru eficiență și inovație. Kelvion oferă un raport calitate-preț excelent pentru aplicații HVAC și răcire industrială. SWEP excelează în schimbătoare brazate compacte pentru sisteme de încălzire și răcire.',
+    conclusion: 'Alfa Laval este recunoscut pentru eficiență și inovație. Kelvion oferă un raport calitate-preț excelent pentru aplicații HVAC și răcire industrială. SWEP excelează în schimbătoare brazate compacte pentru sisteme de încălzire și răcire.',
   },
   {
     id: 'automatizari-industriale',
@@ -273,7 +273,7 @@ const comparisons = [
         slug: 'automatizari-industriale-abb',
         country: 'Elveția',
         founded: 1988,
-        strengths: ['Systeme DCS Ability™ pentru procese continue', 'Convertizoare ACS lider mondial', 'Roboți industriali integrați', 'Soluții complete de la senzor la cloud'],
+        strengths: ['Systeme DCS Ability™ pentru procese continue', 'Convertizoare ACS cu prezență globală', 'Roboți industriali integrați', 'Soluții complete de la senzor la cloud'],
         weaknesses: ['Piață mai mică de integratori locali în România', 'Documentație uneori doar în engleză', 'Cost ridicat pentru proiecte mici', 'Timp de răspuns mai lung pentru suport tehnic local'],
         bestFor: ['Industrie de proces (chimie, petrochimie)', 'Aplicații cu roboți industriali', 'Centrale electrice și energie', 'Sisteme de mari dimensiuni 24/7'],
         priceRange: '€€€',
@@ -293,7 +293,7 @@ const comparisons = [
         rating: 4.7,
       },
     ],
-    conclusion: 'Siemens domină în automatizări de producție discretă și Industry 4.0. ABB excelează în proces continuu și aplicații energetice. Schneider Electric oferă cel mai bun raport calitate-preț pentru BMS, distribuție electrică și proiecte mid-range.',
+    conclusion: 'Siemens este recomandat pentru automatizări de producție discretă și Industry 4.0. ABB excelează în proces continuu și aplicații energetice. Schneider Electric oferă un raport calitate-preț echilibrat pentru BMS, distribuție electrică și proiecte mid-range.',
   },
   {
     id: 'senzori-presiune',
@@ -307,7 +307,7 @@ const comparisons = [
         country: 'Elveția',
         founded: 1953,
         strengths: ['Precizie 0.025% best-in-class', 'Diagnosticare inteligentă Heartbeat', 'Gamă completă all-in-one (P, T, L, F)', 'Suport tehnic și calibrare în România'],
-        weaknesses: ['Cel mai scump brand din segment', 'Configurare complexă pentru modele avansate', 'Termene de livrare lungi pentru configurații speciale', 'Necesită software proprietar W@M pentru management'],
+        weaknesses: ['Poziționare de preț premium în segment', 'Configurare complexă pentru modele avansate', 'Termene de livrare lungi pentru configurații speciale', 'Necesită software proprietar W@M pentru management'],
         bestFor: ['Petrochimie și rafinării', 'Farmaceutic și alimentar (3A, EHEDG)', 'Aplicații cu cerințe de precizie critică', 'Instalații cu protocol HART/Profibus'],
         priceRange: '€€€',
         warranty: '3 ani',
@@ -318,7 +318,7 @@ const comparisons = [
         slug: 'senzori-instrumentatie-wika',
         country: 'Germania',
         founded: 1946,
-        strengths: ['Raport calitate-preț imbatabil', 'Livrare rapidă din stoc', 'Gamă vastă inclusiv manometre clasice', 'Opțiuni customizare la preț rezonabil'],
+        strengths: ['Raport calitate-preț competitiv', 'Livrare rapidă din stoc', 'Gamă vastă inclusiv manometre clasice', 'Opțiuni customizare la preț rezonabil'],
         weaknesses: ['Precizie standard 0.1% (inferioară E+H)', 'Diagnosticare limitată pe modele entry', 'Mai puțin prezent în pharma/food', 'Interfețe digitale mai puțin avansate'],
         bestFor: ['Aplicații industriale generale', 'HVAC și utilități', 'Buget moderat cu calitate germană', 'Înlocuire rapidă manometre și termometre'],
         priceRange: '€€',
@@ -338,7 +338,7 @@ const comparisons = [
         rating: 4.8,
       },
     ],
-    conclusion: 'Endress+Hauser oferă cea mai mare precizie și cel mai bun suport local pentru aplicații critice. WIKA este alegerea optimă pentru raport calitate-preț în aplicații standard. Emerson (Rosemount) excelează în oil & gas și condiții extreme.',
+    conclusion: 'Endress+Hauser oferă precizie ridicată și suport local solid pentru aplicații critice. WIKA este alegerea optimă pentru raport calitate-preț în aplicații standard. Emerson (Rosemount) excelează în oil & gas și condiții extreme.',
   },
 ];
 
@@ -404,18 +404,18 @@ export default function GhidComparativPage() {
           },
           {
             '@type': 'Question',
-            name: 'Care sunt cele mai bune branduri de robineți pentru abur?',
+            name: 'Ce branduri de robineți sunt recomandate pentru aplicații cu abur?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Spirax Sarco și ARI Armaturen sunt lideri în domeniul armăturilor pentru abur. Spirax Sarco oferă soluții complete, în timp ce ARI Armaturen excelează în aplicații industriale grele.',
+              text: 'Spirax Sarco și ARI Armaturen sunt branduri consacrate în domeniul armăturilor pentru abur. Spirax Sarco oferă soluții complete, în timp ce ARI Armaturen excelează în aplicații industriale grele.',
             },
           },
           {
             '@type': 'Question',
-            name: 'Care este cel mai bun sistem de automatizare industrială?',
+            name: 'Ce sistem de automatizare industrială este recomandat?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Siemens domină în producție discretă cu TIA Portal. ABB excelează în procese continue cu DCS Ability. Schneider Electric oferă cel mai bun raport calitate-preț pentru BMS și proiecte mid-range.',
+              text: 'Siemens este recomandat pentru producție discretă cu TIA Portal. ABB excelează în procese continue cu DCS Ability. Schneider Electric oferă un raport calitate-preț echilibrat pentru BMS și proiecte mid-range.',
             },
           },
           {
@@ -560,7 +560,7 @@ export default function GhidComparativPage() {
           <div style={{maxWidth: '800px', margin: '0 auto', padding: '0 1.5rem'}}>
             <div style={{background: 'white', borderRadius: '16px', padding: '2rem', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb'}}>
               <blockquote style={{fontSize: '1.1rem', color: '#374151', fontStyle: 'italic', marginBottom: '1rem', lineHeight: '1.7'}}>
-                „Comparația obiectivă între branduri este esențială înainte de orice achiziție industrială. După 15 ani de experiență cu Grundfos, Wilo și KSB, pot spune că fiecare brand excelează în aplicații diferite. Grundfos domină în eficiență energetică, Wilo în raport calitate-preț, iar KSB în aplicații de înaltă presiune. Nu există un brand universal mai bun — totul depinde de aplicația specifică."
+                „Comparația obiectivă între branduri este esențială înainte de orice achiziție industrială. După 15 ani de experiență cu Grundfos, Wilo și KSB, pot spune că fiecare brand excelează în aplicații diferite. Grundfos este orientat spre eficiență energetică, Wilo spre raport calitate-preț, iar KSB spre aplicații de înaltă presiune. Nu există un brand universal mai bun — totul depinde de aplicația specifică."
               </blockquote>
               <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
                 <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>L.D.</cite>
