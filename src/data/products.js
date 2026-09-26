@@ -18,7 +18,7 @@ export const categories = [
     stats: { brands: '51+', products: '2000+', delivery: '24-72h' },
     lastUpdated: '2026-01-22',
     brands: [
-      { name: 'Grundfos', slug: 'pompe-industriale-grundfos', logo: '/brands/grundfos.png', country: 'Danemarca', description: 'Lider mondial în tehnologia pompelor industriale', featured: true },
+      { name: 'Grundfos', slug: 'pompe-industriale-grundfos', logo: '/brands/grundfos.png', country: 'Danemarca', description: 'Producător de referință în tehnologia pompelor industriale', featured: true },
       { name: 'Wilo', slug: 'pompe-industriale-wilo', logo: '/brands/wilo.png', country: 'Germania', description: 'Eficiență energetică și fiabilitate în pompare industrială', featured: true },
       { name: 'KSB', slug: 'pompe-industriale-ksb', logo: '/brands/ksb.png', country: 'Germania', description: 'Pompe și robineți pentru aplicații industriale critice', featured: true },
       { name: 'Lowara', slug: 'pompe-industriale-lowara', logo: '/brands/lowara.png', country: 'Italia', description: 'Soluții Xylem pentru industrie și utilități', featured: true },
@@ -28,7 +28,7 @@ export const categories = [
       { name: 'Brinkmann', slug: 'pompe-industriale-brinkmann', logo: '/brands/brinkmann.png', country: 'Germania', description: 'Pompe pentru sisteme de răcire industrială' },
       { name: 'Becker', slug: 'pompe-vid-industriale-becker', logo: '/brands/becker.png', country: 'Germania', description: 'Pompe de vid pentru procese industriale' },
       { name: 'DAB', slug: 'pompe-industriale-dab', logo: '/brands/dab.png', country: 'Italia', description: 'Soluții de pompare industrială și edilitară' },
-      { name: 'Xylem', slug: 'pompe-industriale-xylem', logo: '/brands/placeholder.png', country: 'SUA', description: 'Lider global în tehnologii de pompare și tratare apă', featured: false },
+      { name: 'Xylem', slug: 'pompe-industriale-xylem', logo: '/brands/placeholder.png', country: 'SUA', description: 'Producător de referință în tehnologii de pompare și tratare apă', featured: false },
       { name: 'Flowserve', slug: 'pompe-industriale-flowserve', logo: '/brands/placeholder.png', country: 'SUA', description: 'Pompe și echipamente pentru industria petrochimică', featured: false },
       { name: 'ITT Goulds', slug: 'pompe-industriale-itt-goulds', logo: '/brands/placeholder.png', country: 'SUA', description: 'Pompe centrifugale pentru aplicații industriale grele', featured: false },
       { name: 'Pentair', slug: 'pompe-industriale-pentair', logo: '/brands/placeholder.png', country: 'SUA', description: 'Soluții de pompare pentru procesare și tratare', featured: false },
@@ -98,7 +98,7 @@ export const categories = [
     lastUpdated: '2026-01-22',
     brands: [
       { name: 'ARI Armaturen', slug: 'robineti-industriali-ari-armaturen', logo: '/brands/ari.png', country: 'Germania', description: 'Specialiști în armaturi industriale de peste 60 ani', featured: true },
-      { name: 'Spirax Sarco', slug: 'robineti-industriali-spirax-sarco', logo: '/brands/spirax.png', country: 'UK', description: 'Lider global în sisteme de abur industrial', featured: true },
+      { name: 'Spirax Sarco', slug: 'robineti-industriali-spirax-sarco', logo: '/brands/spirax.png', country: 'UK', description: 'Producător de referință în sisteme de abur industrial', featured: true },
       { name: 'Ebro Armaturen', slug: 'robineti-industriali-ebro', logo: '/brands/ebro.png', country: 'Germania', description: 'Robineți fluture pentru industria de proces', featured: true },
       { name: 'End Armaturen', slug: 'robineti-industriali-end', logo: '/brands/end.png', country: 'Germania', description: 'Armaturi premium pentru condiții extreme', featured: true },
       { name: 'Danfoss', slug: 'robineti-industriali-danfoss', logo: '/brands/danfoss.png', country: 'Danemarca', description: 'Soluții de reglare pentru industrie și HVAC', featured: true },
@@ -186,7 +186,7 @@ export const categories = [
     stats: { brands: '42+', products: '1500+', delivery: '24-72h' },
     lastUpdated: '2026-01-22',
     brands: [
-      { name: 'Siemens', slug: 'motoare-electrice-industriale-siemens', logo: '/brands/siemens.png', country: 'Germania', description: 'Lider global în acționări și automatizări industriale', featured: true },
+      { name: 'Siemens', slug: 'motoare-electrice-industriale-siemens', logo: '/brands/siemens.png', country: 'Germania', description: 'Producător de referință în acționări și automatizări industriale', featured: true },
       { name: 'SEW Eurodrive', slug: 'motoare-electrice-industriale-sew', logo: '/brands/sew.png', country: 'Germania', description: 'Sisteme integrate motor-reductor pentru industrie', featured: true },
       { name: 'ABB', slug: 'motoare-electrice-industriale-abb', logo: '/brands/abb.png', country: 'Elveția', description: 'Tehnologie de vârf în acționări industriale', featured: true },
       { name: 'Bonfiglioli', slug: 'motoare-electrice-industriale-bonfiglioli', logo: '/brands/bonfiglioli.png', country: 'Italia', description: 'Motoreductoare pentru aplicații industriale grele', featured: true },
@@ -195,7 +195,7 @@ export const categories = [
       { name: 'WEG', slug: 'motoare-electrice-industriale-weg', logo: '/brands/weg.png', country: 'Brazilia', description: 'Motoare eficiente energetic pentru industrie' },
       { name: 'Nord', slug: 'motoare-electrice-industriale-nord', logo: '/brands/nord.png', country: 'Germania', description: 'Sisteme de acționare pentru logistică și producție' },
       { name: 'Leroy Somer', slug: 'motoare-electrice-industriale-leroy', logo: '/brands/leroy.png', country: 'Franța', description: 'Alternatori și motoare pentru industrie' },
-      { name: 'Nidec', slug: 'motoare-electrice-industriale-nidec', logo: '/brands/placeholder.png', country: 'Japonia', description: 'Lider mondial în motoare electrice', featured: false },
+      { name: 'Nidec', slug: 'motoare-electrice-industriale-nidec', logo: '/brands/placeholder.png', country: 'Japonia', description: 'Producător de referință în motoare electrice', featured: false },
       { name: 'Regal Rexnord', slug: 'motoare-electrice-industriale-regal', logo: '/brands/placeholder.png', country: 'SUA', description: 'Motoare și sisteme de transmisie industriale', featured: false },
       { name: 'Baldor', slug: 'motoare-electrice-industriale-baldor', logo: '/brands/placeholder.png', country: 'SUA', description: 'Motoare industriale acum parte din ABB', featured: false },
       { name: 'Marathon', slug: 'motoare-electrice-industriale-marathon', logo: '/brands/placeholder.png', country: 'SUA', description: 'Motoare pentru aplicații industriale grele', featured: false },
@@ -260,7 +260,7 @@ export const categories = [
     stats: { brands: '15+', products: '800+', delivery: '24-72h' },
     lastUpdated: '2026-01-22',
     brands: [
-      { name: 'Alfa Laval', slug: 'schimbatoare-caldura-industriale-alfa-laval', logo: '/brands/alfalaval.png', country: 'Suedia', description: 'Lider mondial în transfer termic industrial', featured: true },
+      { name: 'Alfa Laval', slug: 'schimbatoare-caldura-industriale-alfa-laval', logo: '/brands/alfalaval.png', country: 'Suedia', description: 'Producător de referință în transfer termic industrial', featured: true },
       { name: 'Kelvion', slug: 'schimbatoare-caldura-industriale-kelvion', logo: '/brands/kelvion.png', country: 'Germania', description: 'Soluții termice pentru industria grea', featured: true },
       { name: 'SWEP', slug: 'schimbatoare-caldura-industriale-swep', logo: '/brands/swep.png', country: 'Suedia', description: 'Schimbătoare brazate pentru aplicații industriale', featured: true },
       { name: 'Danfoss', slug: 'schimbatoare-caldura-industriale-danfoss', logo: '/brands/danfoss.png', country: 'Danemarca', description: 'Soluții HVAC și refrigerare industrială', featured: true },

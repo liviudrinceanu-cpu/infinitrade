@@ -17,7 +17,7 @@ export const equipmentCategories = [
     stats: { brands: '15+', products: '5000+', delivery: '24-72h' },
     lastUpdated: '2026-02-13',
     brands: [
-      { name: 'Siemens', slug: 'siemens', country: 'Germania', description: 'Lider mondial în automatizare industrială și digitalizare', featured: true },
+      { name: 'Siemens', slug: 'siemens', country: 'Germania', description: 'Producător de referință în automatizare industrială și digitalizare', featured: true },
       { name: 'ABB', slug: 'abb', country: 'Elveția', description: 'Tehnologie de automatizare pentru industria grea', featured: true },
       { name: 'Schneider Electric', slug: 'schneider-electric', country: 'Franța', description: 'Soluții integrate de automatizare și management energetic', featured: true },
       { name: 'Mitsubishi Electric', slug: 'mitsubishi-electric', country: 'Japonia', description: 'Automatizare de precizie pentru producție', featured: true },
@@ -89,7 +89,7 @@ export const equipmentCategories = [
     stats: { brands: '20+', products: '8000+', delivery: '24-72h' },
     lastUpdated: '2026-02-13',
     brands: [
-      { name: 'Endress+Hauser', slug: 'endress-hauser', country: 'Elveția', description: 'Lider mondial în instrumentație de măsură industrială', featured: true },
+      { name: 'Endress+Hauser', slug: 'endress-hauser', country: 'Elveția', description: 'Producător de referință în instrumentație de măsură industrială', featured: true },
       { name: 'WIKA', slug: 'wika', country: 'Germania', description: 'Specialiști în măsurarea presiunii și temperaturii', featured: true },
       { name: 'Siemens Instrumentation', slug: 'siemens-instrumentation', country: 'Germania', description: 'Tehnologie de măsurare pentru procese industriale', featured: true },
       { name: 'Emerson', slug: 'emerson', country: 'SUA', description: 'Soluții complete de măsurare și control proces', featured: true },
@@ -166,7 +166,7 @@ export const equipmentCategories = [
     stats: { brands: '15+', products: '12000+', delivery: '24-72h' },
     lastUpdated: '2026-02-13',
     brands: [
-      { name: 'Parker Hannifin', slug: 'parker-hannifin', country: 'SUA', description: 'Lider mondial în tehnologii de mișcare și control', featured: true },
+      { name: 'Parker Hannifin', slug: 'parker-hannifin', country: 'SUA', description: 'Producător de referință în tehnologii de mișcare și control', featured: true },
       { name: 'Bosch Rexroth', slug: 'bosch-rexroth', country: 'Germania', description: 'Sisteme hidraulice și pneumatice de înaltă performanță', featured: true },
       { name: 'Festo', slug: 'festo', country: 'Germania', description: 'Automatizare pneumatică și electrică inovatoare', featured: true },
       { name: 'SMC', slug: 'smc', country: 'Japonia', description: 'Componente pneumatice pentru automatizare industrială', featured: true },
@@ -315,7 +315,7 @@ export const equipmentCategories = [
     stats: { brands: '15+', products: '20000+', delivery: '24-72h' },
     lastUpdated: '2026-02-13',
     brands: [
-      { name: 'SKF', slug: 'skf', country: 'Suedia', description: 'Lider mondial în tehnologia rulmenților', featured: true },
+      { name: 'SKF', slug: 'skf', country: 'Suedia', description: 'Producător de referință în tehnologia rulmenților', featured: true },
       { name: 'FAG Schaeffler', slug: 'fag-schaeffler', country: 'Germania', description: 'Rulmenți de precizie pentru industrie și automotive', featured: true },
       { name: 'NSK', slug: 'nsk', country: 'Japonia', description: 'Rulmenți și componente liniare de înaltă precizie', featured: true },
       { name: 'Timken', slug: 'timken', country: 'SUA', description: 'Rulmenți cu role conice pentru aplicații grele', featured: true },
@@ -387,7 +387,7 @@ export const equipmentCategories = [
     stats: { brands: '12+', products: '8000+', delivery: '24-72h' },
     lastUpdated: '2026-02-13',
     brands: [
-      { name: 'Mann+Hummel', slug: 'mann-hummel', country: 'Germania', description: 'Lider în tehnologia filtrării industriale', featured: true },
+      { name: 'Mann+Hummel', slug: 'mann-hummel', country: 'Germania', description: 'Producător de referință în tehnologia filtrării industriale', featured: true },
       { name: 'Donaldson', slug: 'donaldson', country: 'SUA', description: 'Sisteme de filtrare pentru aer comprimat și hidraulică', featured: true },
       { name: 'Parker Filtration', slug: 'parker-filtration', country: 'SUA', description: 'Soluții complete de filtrare industrială', featured: true },
       { name: 'Hydac Filtration', slug: 'hydac-filtration', country: 'Germania', description: 'Tehnologie de filtrare pentru hidraulică', featured: true },
@@ -460,7 +460,7 @@ export const equipmentCategories = [
       { name: 'Hilti', slug: 'hilti', country: 'Liechtenstein', description: 'Tehnologie premium pentru construcții și industrie', featured: true },
       { name: 'Makita', slug: 'makita', country: 'Japonia', description: 'Scule electrice și echipamente de putere', featured: true },
       { name: 'DeWalt', slug: 'dewalt', country: 'SUA', description: 'Scule profesionale pentru aplicații grele', featured: true },
-      { name: 'Mitutoyo', slug: 'mitutoyo', country: 'Japonia', description: 'Lider mondial în instrumente de măsură de precizie', featured: true },
+      { name: 'Mitutoyo', slug: 'mitutoyo', country: 'Japonia', description: 'Producător de referință în instrumente de măsură de precizie', featured: true },
       { name: 'Tesa', slug: 'tesa', country: 'Elveția', description: 'Tehnologie de măsurare dimensională', featured: false },
       { name: 'Mahr', slug: 'mahr', country: 'Germania', description: 'Instrumente de măsură și control calitate', featured: false },
       { name: 'Stahlwille', slug: 'stahlwille', country: 'Germania', description: 'Scule de mână profesionale premium', featured: false },
@@ -523,7 +523,7 @@ export const equipmentCategories = [
     stats: { brands: '8+', products: '2000+', delivery: '24-72h' },
     lastUpdated: '2026-02-13',
     brands: [
-      { name: 'Carrier', slug: 'carrier', country: 'SUA', description: 'Lider mondial în sisteme HVAC și refrigerare', featured: true },
+      { name: 'Carrier', slug: 'carrier', country: 'SUA', description: 'Producător de referință în sisteme HVAC și refrigerare', featured: true },
       { name: 'Daikin', slug: 'daikin', country: 'Japonia', description: 'Tehnologie avansată de climatizare industrială', featured: true },
       { name: 'Trane', slug: 'trane', country: 'SUA', description: 'Sisteme HVAC pentru aplicații comerciale și industriale', featured: true },
       { name: 'Grundfos HVAC', slug: 'grundfos-hvac', country: 'Danemarca', description: 'Pompe și soluții pentru sisteme termice', featured: false },
@@ -653,7 +653,7 @@ export const equipmentCategories = [
     stats: { brands: '8+', products: '3000+', delivery: '24-72h' },
     lastUpdated: '2026-02-13',
     brands: [
-      { name: '3M Safety', slug: '3m-safety', country: 'SUA', description: 'Lider mondial în echipamente de protecție', featured: true },
+      { name: '3M Safety', slug: '3m-safety', country: 'SUA', description: 'Producător de referință în echipamente de protecție', featured: true },
       { name: 'Dräger', slug: 'drager', country: 'Germania', description: 'Tehnologie medicală și de siguranță industrială', featured: true },
       { name: 'MSA Safety', slug: 'msa-safety', country: 'SUA', description: 'Echipamente de protecție pentru medii periculoase', featured: true },
       { name: 'Honeywell Safety', slug: 'honeywell-safety', country: 'SUA', description: 'Soluții integrate de siguranță industrială', featured: false },
