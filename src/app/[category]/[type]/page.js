@@ -63,10 +63,16 @@ export async function generateMetadata({ params }) {
   const { category, content } = r;
   const brands = rankedBrandsForType(typeSlug);
   const url = `${config.site.url}/${category.slug}/${content.slug}`;
-  const title = `${content.name} | ${brands.length ? `${brands.length} branduri, ` : ''}ghid de selecție | Infinitrade`;
+  // Longest title that fits in 65 characters, never cut mid-phrase.
+  const title = [
+    `${content.name}: ghid de selecție, ${brands.length} branduri | Infinitrade`,
+    `${content.name}: ghid de selecție | Infinitrade`,
+    `${content.name} | Infinitrade`,
+    content.name,
+  ].find((t) => t.length <= 65);
   const description = trim(`${content.lede} ${brands.length ? `Branduri pe care le livrăm în România: ${brands.slice(0, 4).map((b) => b.name).join(', ')}.` : ''} Cere ofertă cu codul produsului.`, 158);
   return {
-    title: { absolute: trim(title, 70) },
+    title: { absolute: title },
     description,
     alternates: { canonical: url },
     openGraph: { title: content.name, description, url, siteName: 'Infinitrade Romania', locale: 'ro_RO', type: 'website' },
@@ -167,7 +173,7 @@ export default async function ProductTypePage({ params }) {
 
         <section className={base.listSection} id="ce-este">
           <div className={base.container}>
-            <h2 className={base.sectionTitle}>Ce sunt {content.shortName} și cum funcționează?</h2>
+            <h2 className={base.sectionTitle}>{content.name}: ce sunt și cum funcționează?</h2>
             <div className={styles.prose}>
               {content.intro.split(/\n\s*\n/).map((p, i) => <p key={i}>{p}</p>)}
             </div>
@@ -176,7 +182,7 @@ export default async function ProductTypePage({ params }) {
 
         <section className={`${base.listSection} ${base.catalogSection}`} id="cum-alegi">
           <div className={base.container}>
-            <h2 className={base.sectionTitle}>Cum alegi {content.shortName} potrivite?</h2>
+            <h2 className={base.sectionTitle}>Cum alegi corect? Criterii de selecție pentru {content.shortName}</h2>
             <p className={base.sectionNote}>Criteriile de mai jos sunt cele pe care le verificăm noi înainte de a cere o ofertă la producător; în ordinea în care contează.</p>
             <ol className={styles.criteria}>
               {content.howToChoose.map((c) => (
@@ -192,7 +198,7 @@ export default async function ProductTypePage({ params }) {
         {brands.length > 0 && (
           <section className={base.listSection} id="branduri">
             <div className={base.container}>
-              <h2 className={base.sectionTitle}>Ce branduri de {content.shortName} livrăm în România?</h2>
+              <h2 className={base.sectionTitle}>Branduri de {content.shortName} pe care le livrăm în România</h2>
               <p className={base.sectionNote}>
                 {brands.length} {brands.length === 1 ? 'producător' : 'producători'} de pe site {brands.length === 1 ? 'are' : 'au'} acest tip de produs în gamă, conform propriilor cataloage.
                 Pagina fiecărui brand arată seriile, codurile verificate și ce putem confirma. Toate brandurile din categoria{' '}
@@ -220,7 +226,7 @@ export default async function ProductTypePage({ params }) {
 
         <section className={`${base.listSection} ${base.catalogSection}`} id="aplicatii">
           <div className={base.container}>
-            <h2 className={base.sectionTitle}>Unde se folosesc {content.shortName}?</h2>
+            <h2 className={base.sectionTitle}>Aplicații tipice pentru {content.shortName}</h2>
             <ul className={styles.chips}>
               {content.applications.map((a) => <li key={a}>{a}</li>)}
             </ul>
@@ -249,7 +255,7 @@ export default async function ProductTypePage({ params }) {
 
         <section className={base.listSection} id="intrebari">
           <div className={base.container}>
-            <h2 className={base.sectionTitle}>Întrebări frecvente despre {content.shortName}</h2>
+            <h2 className={base.sectionTitle}>Întrebări frecvente: {content.shortName}</h2>
             <dl className={styles.faq}>
               {content.faq.map((f) => (
                 <div key={f.q}><dt>{f.q}</dt><dd>{f.a}</dd></div>
