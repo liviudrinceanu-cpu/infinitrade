@@ -421,6 +421,16 @@
   color: var(--gray-600);
 }
 
+a.applicationTag {
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+a.applicationTag:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
 .typeActions {
   display: flex;
   align-items: center;

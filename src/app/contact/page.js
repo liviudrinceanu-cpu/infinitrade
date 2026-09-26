@@ -5,7 +5,8 @@ import { Mail, Phone, MapPin, Clock, Send, Check, X, ShoppingCart, ExternalLink 
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { companyInfo, categories } from '@/data/products';
+import { companyInfo } from '@/data/products';
+import { allCategoriesUnified as categories, getBrandByAnySlug } from '@/data/allBrandsIndex';
 import { siteStats } from '@/data/siteStats';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
@@ -32,6 +33,51 @@ export default function ContactPage() {
   const [honeypot, setHoneypot] = useState('');
   const [formLoadedAt] = useState(() => Date.now());
 
+  // v11 (D-2026-09-26): "Categorii de interes" is a checkbox list over ALL
+  // 15 site categories (not the 5 legacy ones). Categories are pre-checked
+  // from the quote-cart items — a brand item checks every category the brand
+  // belongs to (primary + secondary, src/data/brandCategoryLinks.js), a
+  // product/category item checks its category — and the visitor can tick or
+  // untick freely. `touched` remembers manual changes so a cart refresh never
+  // re-checks a box the visitor cleared.
+  const [checkedCategories, setCheckedCategories] = useState([]);
+  const [touched, setTouched] = useState({});
+  const categoryNameBySlug = Object.fromEntries(categories.map((c) => [c.slug, c.name]));
+  const categorySlugByName = Object.fromEntries(categories.map((c) => [c.name.toLowerCase(), c.slug]));
+  const categoriesFromCart = (items) => {
+    const found = new Set();
+    for (const item of items) {
+      const path = (item.url || '').replace(/^https?:\/\/[^/]+/, '').split(/[#?]/)[0];
+      const brandMatch = path.match(/^\/brand\/([^/]+)/);
+      if (brandMatch) {
+        const brand = getBrandByAnySlug(brandMatch[1]);
+        (brand?.categories || []).forEach((c) => found.add(c.slug));
+        continue;
+      }
+      const catMatch = path.match(/^\/([^/]+)$/);
+      if (catMatch && categoryNameBySlug[catMatch[1]]) found.add(catMatch[1]);
+      const byName = item.category && categorySlugByName[String(item.category).toLowerCase()];
+      if (byName) found.add(byName);
+    }
+    return [...found];
+  };
+  useEffect(() => {
+    const auto = categoriesFromCart(cartItems);
+    setCheckedCategories((prev) => {
+      const next = new Set(prev);
+      for (const slug of auto) if (touched[slug] !== false) next.add(slug);
+      return [...next];
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cartItems]);
+  const toggleCategory = (slug) => {
+    setCheckedCategories((prev) => {
+      const isOn = prev.includes(slug);
+      setTouched((t) => ({ ...t, [slug]: !isOn }));
+      return isOn ? prev.filter((x) => x !== slug) : [...prev, slug];
+    });
+  };
+
   // Pre-fill message with cart items including links
   useEffect(() => {
     if (cartItems.length > 0 && !formData.message) {
@@ -56,8 +102,15 @@ export default function ContactPage() {
 
     // Add cart items to form data for API (including URLs)
     const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://www.infinitrade.ro';
+    const categoryLabel = checkedCategories
+      .map((slug) => (slug === 'altele' ? 'Altele' : categoryNameBySlug[slug]))
+      .filter(Boolean)
+      .join(', ')
+      .slice(0, 500);
     const submitData = {
       ...formData,
+      category: categoryLabel,
+      categorySlugs: checkedCategories,
       website: honeypot,
       _t: formLoadedAt,
       cartItems: cartItems.map(item => ({
@@ -238,23 +291,30 @@ export default function ContactPage() {
                       </div>
                     </div>
 
-                    <div className={styles.formGroup}>
-                      <label htmlFor="category">Categorie de Interes</label>
-                      <select
-                        id="category"
-                        name="category"
-                        value={formData.category}
-                        onChange={handleChange}
-                      >
-                        <option value="">Selectează categoria</option>
-                        {categories.map((cat) => (
-                          <option key={cat.id} value={cat.id}>
-                            {cat.name}
-                          </option>
+                    <fieldset className={styles.categoryFieldset}>
+                      <legend>
+                        Categorii de interes
+                        <span className={styles.categoryHint}>
+                          {checkedCategories.length > 0
+                            ? ` — ${checkedCategories.length} ${checkedCategories.length === 1 ? 'selectată' : 'selectate'}${cartItems.length > 0 ? ' (completate din cererea ta; poți bifa sau debifa)' : ''}`
+                            : ' — bifează una sau mai multe'}
+                        </span>
+                      </legend>
+                      <div className={styles.categoryGrid}>
+                        {[...categories.map((cat) => ({ slug: cat.slug, name: cat.name })), { slug: 'altele', name: 'Altele' }].map((cat) => (
+                          <label key={cat.slug} className={`${styles.categoryOption} ${checkedCategories.includes(cat.slug) ? styles.categoryOptionChecked : ''}`}>
+                            <input
+                              type="checkbox"
+                              name="categories"
+                              value={cat.slug}
+                              checked={checkedCategories.includes(cat.slug)}
+                              onChange={() => toggleCategory(cat.slug)}
+                            />
+                            <span>{cat.name}</span>
+                          </label>
                         ))}
-                        <option value="altele">Altele</option>
-                      </select>
-                    </div>
+                      </div>
+                    </fieldset>
 
                     <div className={styles.formGroup}>
                       <label htmlFor="message">Mesaj *</label>

@@ -6,6 +6,7 @@ import { ArrowLeft, ArrowRight, Check, Package, Truck, Wrench, Phone, Send, Plus
 import { allCategoriesUnified as categories } from '@/data/allBrandsIndex';
 import { hasBrandContent } from '@/data/brandContent';
 import { getBrandDemand } from '@/data/brandDemand';
+import { getBrandsForProductType } from '@/data/brandCategoryLinks';
 import { getCategoryFaq } from '@/data/categoryFaq';
 import { lastModified } from '@/data/lastModified';
 import entityFacts from '@/data/entityFacts.json';
@@ -258,6 +259,16 @@ export default function CategoryClient({ category }) {
     .reduce((acc, b) => { const k = /^[0-9]/.test(b.name) ? '0–9' : b.name.charAt(0).toUpperCase(); (acc[k] = acc[k] || []).push(b); return acc; }, {});
   const azKeys = Object.keys(azGroups).sort((a, b) => a.localeCompare(b, 'ro'));
   const productTypeCount = (category.productTypes || []).length;
+  // v11 (D-2026-09-26): brands that make each product type (classified from
+  // their own published products), ranked like the cards above; at most 8
+  // linked per type so the card stays a card, the rest are in the A–Z list.
+  const rankBySlug = new Map(rankedBrands.map((b, i) => [b.simpleSlug, i]));
+  const brandNameBySlug = new Map(rankedBrands.map((b) => [b.simpleSlug, b.name]));
+  const brandsForType = (typeSlug) => getBrandsForProductType(typeSlug)
+    .filter((slug) => rankBySlug.has(slug))
+    .sort((a, b) => rankBySlug.get(a) - rankBySlug.get(b))
+    .slice(0, 8)
+    .map((slug) => ({ slug, name: brandNameBySlug.get(slug) }));
   const expertFaqs = getCategoryFaq(category.slug);
   // C-03's answer-first sentence borrows the category's own first expert FAQ
   // entry: it is already the real selection criterion for the category
@@ -436,10 +447,22 @@ export default function CategoryClient({ category }) {
             {category.productTypes.map((type, index) => (
               <div
                 key={type.name}
+                id={type.slug}
                 className={`${styles.typeCard} animate-fade-up animate-delay-${Math.min(index + 1, 6)} ${typesVisible ? 'is-visible' : ''}`}
+                style={{ scrollMarginTop: '150px' }}
               >
                 <h3>{type.name}</h3>
                 <p>{type.description}</p>
+                {brandsForType(type.slug).length > 0 && (
+                  <div className={styles.typeApplications}>
+                    <span className={styles.typeApplicationsLabel}>Branduri:</span>
+                    <div className={styles.typeApplicationsList}>
+                      {brandsForType(type.slug).map((b) => (
+                        <Link key={b.slug} href={`/brand/${b.slug}`} className={styles.applicationTag}>{b.name}</Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
                 <div className={styles.typeApplications}>
                   <span className={styles.typeApplicationsLabel}>Aplicații:</span>
                   <div className={styles.typeApplicationsList}>
