@@ -398,8 +398,8 @@ export const navigation = [
     children: [
       { name: 'Ghid Achiziții SEAP', href: '/ghid-achizitii-seap', description: 'Coduri CPV și proceduri licitații' },
       { name: 'Blog Tehnic', href: '/blog', description: 'Ghiduri și articole tehnice' },
-      { name: 'Studii de Caz', href: '/studii-de-caz', description: 'Proiecte și rezultate reale' },
-      { name: 'Testimoniale', href: '/testimoniale', description: 'Ce spun clienții noștri' },
+      { name: 'Ghiduri de aplicație', href: '/studii-de-caz', description: 'Cum abordăm tehnic proiectele' },
+      { name: 'Referințe clienți', href: '/testimoniale', description: 'Cum obțineți referințe' },
       { name: 'Întrebări Frecvente', href: '/faq', description: 'Răspunsuri la întrebări comune' },
       { name: 'Industrii Deservite', href: '/industrii', description: 'Soluții pe verticale industriale' },
       { name: 'Ghid Comparativ', href: '/ghid-comparativ', description: 'Comparații branduri și produse' },

@@ -18,7 +18,7 @@ export default async function Image({ params }) {
   const industry = caseStudy?.industry || 'Industrie';
   const brands = caseStudy?.brands?.slice(0, 4) || [];
   const results = caseStudy?.results || {};
-  const year = caseStudy?.year || '2024';
+  const year = 'Ghid de aplicație'; // v18: guides carry no project year
 
   // Get first two result entries
   const resultEntries = Object.entries(results).slice(0, 2);

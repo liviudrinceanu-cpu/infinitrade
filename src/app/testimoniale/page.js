@@ -3,28 +3,28 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
-import { testimonials, testimonialStats, industriesServed, getFeaturedTestimonials } from '@/data/testimonials';
-import { categories } from '@/data/products';
+import { industries } from '@/data/industries';
 import { safeJsonLd } from '@/lib/utils';
+import { lastModified } from '@/data/lastModified';
+import { CATEGORY_LEAD_TIME } from '@/data/leadTimes';
 import styles from './testimoniale.module.css';
-import { siteStats } from '@/data/siteStats';
+import { siteStats, FOUNDING_YEAR } from '@/data/siteStats';
+
+// v18 (D-2026-09-26): this page used to publish quotes with initials, star
+// ratings and figures ("200+ clienți", "98% satisfacție", "40 de pompe
+// livrate") that had no source — they came from an automated "E-E-A-T"
+// rewrite in January. Invented reviews are an unfair commercial practice
+// (Directive 2005/29/EC Annex I, as amended by Directive (EU) 2019/2161), so
+// they are no longer rendered. The URL stays (it is indexed) and now explains
+// how to get real references. src/data/testimonials.js is kept, unrendered,
+// so genuine testimonials can be restored once each client has agreed.
 
 export const metadata = {
-  title: 'Testimoniale Clienți | Recenzii',
-  description: `${testimonialStats.totalClients}+ clienți mulțumiți din ${testimonialStats.industriesServed} industrii. Rating ${testimonialStats.avgRating}/5. Experiențe cu pompe, motoare, robineți industriali.`,
-  keywords: [
-    'testimoniale echipamente industriale',
-    'recenzii pompe industriale',
-    'pareri distribuitor echipamente',
-    'Infinitrade recenzii',
-    'clienti multumiti pompe',
-    'feedback Grundfos Romania',
-    'pareri Wilo Romania',
-    'experiente clienti echipamente',
-  ],
+  title: 'Referințe Clienți | Cum Verificați un Furnizor',
+  description: `Referințe de la clienți din industria dumneavoastră, la cerere și cu acordul lor. Furnizor din ${FOUNDING_YEAR}, înregistrat în SEAP, depozit în Ghiroda, ${siteStats.brands} branduri.`,
   openGraph: {
-    title: 'Testimoniale Clienți | Infinitrade Romania',
-    description: `${testimonialStats.totalClients}+ clienți mulțumiți. Rating ${testimonialStats.avgRating}/5. Experiențe reale ale clienților.`,
+    title: 'Referințe Clienți | Infinitrade Romania',
+    description: 'Cum obțineți referințe de la clienți din aceeași industrie și ce puteți verifica despre noi înainte de o comandă sau o licitație.',
     url: `${config.site.url}/testimoniale`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
@@ -34,8 +34,8 @@ export const metadata = {
         url: `${config.site.url}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Testimoniale Clienți - Infinitrade Romania',
-      }
+        alt: 'Referințe clienți - Infinitrade Romania',
+      },
     ],
   },
   alternates: {
@@ -43,51 +43,25 @@ export const metadata = {
   },
 };
 
-function StarRating({ rating }) {
-  return (
-    <div className={styles.stars}>
-      {[...Array(5)].map((_, i) => (
-        <span key={i} className={i < rating ? styles.starFilled : styles.starEmpty}>
-          ★
-        </span>
-      ))}
-    </div>
-  );
-}
-
 export default function TestimonialePage() {
-  const featuredTestimonials = getFeaturedTestimonials();
-  const regularTestimonials = testimonials.filter(t => !t.featured);
-
-  // JSON-LD Structured Data
-  // Note: No AggregateRating/Review markup here by design - Google disallows
-  // self-published review/rating structured data for a business's own site.
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
-      // Organization
       {
-        '@type': 'Organization',
-        '@id': `${config.site.url}/#organization`,
-        name: 'Infinitrade Romania',
-        url: config.site.url,
-        logo: `${config.site.url}/logo-header.png`,
+        '@type': 'WebPage',
+        '@id': `${config.site.url}/testimoniale#webpage`,
+        url: `${config.site.url}/testimoniale`,
+        name: 'Referințe clienți',
+        description: 'Cum obțineți referințe de la clienți Infinitrade din aceeași industrie și ce puteți verifica despre furnizor.',
+        inLanguage: 'ro-RO',
+        dateModified: lastModified.testimoniale,
+        isPartOf: { '@id': `${config.site.url}/#website` },
       },
-      // Breadcrumb
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          {
-            '@type': 'ListItem',
-            position: 1,
-            name: 'Acasă',
-            item: { '@type': 'WebPage', '@id': config.site.url },
-          },
-          {
-            '@type': 'ListItem',
-            position: 2,
-            name: 'Testimoniale',
-          },
+          { '@type': 'ListItem', position: 1, name: 'Acasă', item: config.site.url },
+          { '@type': 'ListItem', position: 2, name: 'Referințe clienți', item: `${config.site.url}/testimoniale` },
         ],
       },
     ],
@@ -102,234 +76,111 @@ export default function TestimonialePage() {
           dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
         />
 
-        {/* Hero Section */}
+        {/* Hero */}
         <section className={styles.hero}>
           <div className={styles.container}>
-            <Breadcrumbs
-              items={[]}
-              currentPage="Testimoniale"
-              variant="light"
-            />
-            <h1>Ce Spun Clienții Noștri</h1>
+            <Breadcrumbs items={[]} currentPage="Referințe clienți" variant="light" />
+            <h1>Referințe de la clienți: cum le obțineți</h1>
             <p className={styles.heroSubtitle}>
-              Peste {testimonialStats.totalClients} de companii din {testimonialStats.industriesServed} industrii
-              ne aleg pentru echipamentele lor industriale
+              Nu publicăm citate anonime și nici note inventate. Dacă aveți nevoie de o referință, vă punem
+              în legătură cu un client din aceeași industrie, cu acordul lui, sau vă trimitem documentele
+              cerute în procedura de achiziție.
             </p>
-
-            {/* Stats Bar */}
-            <div className={styles.statsBar}>
-              <div className={styles.stat}>
-                <span className={styles.statValue}>{testimonialStats.totalClients}+</span>
-                <span className={styles.statLabel}>Clienți Activi</span>
-              </div>
-              <div className={styles.stat}>
-                <span className={styles.statValue}>{testimonialStats.avgRating}</span>
-                <span className={styles.statLabel}>Rating Mediu</span>
-                <StarRating rating={5} />
-              </div>
-              <div className={styles.stat}>
-                <span className={styles.statValue}>{testimonialStats.satisfactionRate}%</span>
-                <span className={styles.statLabel}>Rata Satisfacție</span>
-              </div>
-              <div className={styles.stat}>
-                <span className={styles.statValue}>{testimonialStats.repeatClients}%</span>
-                <span className={styles.statLabel}>Clienți Recurenți</span>
-              </div>
-            </div>
           </div>
         </section>
 
-        {/* Featured Testimonials */}
-        <section className={styles.featuredSection}>
+        {/* How references work */}
+        <section className={styles.trustSection}>
           <div className={styles.container}>
-            <h2>Testimoniale Recomandate</h2>
-            <div className={styles.featuredGrid}>
-              {featuredTestimonials.map((testimonial) => (
-                <div key={testimonial.id} className={styles.featuredCard}>
-                  <div className={styles.quoteIcon}>"</div>
-                  <blockquote className={styles.quote}>
-                    {testimonial.quote}
-                  </blockquote>
-                  <div className={styles.testimonialMeta}>
-                    <div className={styles.authorInfo}>
-                      <div className={styles.avatar}>
-                        {testimonial.initials || testimonial.industry.charAt(0)}
-                      </div>
-                      <div>
-                        <span className={styles.role}>
-                          {testimonial.initials && <strong>{testimonial.initials}</strong>}
-                          {testimonial.initials && ' - '}{testimonial.role}
-                        </span>
-                        <span className={styles.industry}>
-                          {testimonial.companyHint || testimonial.industry}
-                        </span>
-                      </div>
-                    </div>
-                    <StarRating rating={testimonial.rating} />
-                  </div>
-                  <div className={styles.testimonialFooter}>
-                    <span className={styles.yearsClient}>
-                      Client din {testimonial.yearStarted || 2024 - testimonial.yearsClient}
-                    </span>
-                    <div className={styles.categories}>
-                      {testimonial.categories.map((cat) => (
-                        <Link
-                          key={cat}
-                          href={`/${categories.find(c => c.name === cat)?.slug || ''}`}
-                          className={styles.categoryTag}
-                        >
-                          {cat}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              ))}
+            <h2>Ce referințe puteți primi?</h2>
+            <div className={styles.trustGrid}>
+              <div className={styles.trustCard}>
+                <span className={styles.trustIcon} aria-hidden="true">📞</span>
+                <h3>Un client din aceeași industrie</h3>
+                <p>
+                  Spuneți-ne sectorul și tipul de echipament; întrebăm un client cu o aplicație similară dacă
+                  acceptă să fie contactat și vă transmitem datele lui doar după acordul lui.
+                </p>
+              </div>
+              <div className={styles.trustCard}>
+                <span className={styles.trustIcon} aria-hidden="true">📄</span>
+                <h3>Documente pentru licitații SEAP</h3>
+                <p>
+                  Pentru achizițiile publice pregătim documentele de calificare pe care le cere autoritatea
+                  contractantă, inclusiv recomandări sau procese-verbale de recepție, acolo unde clientul
+                  a fost de acord cu folosirea lor.
+                </p>
+              </div>
+              <div className={styles.trustCard}>
+                <span className={styles.trustIcon} aria-hidden="true">🔍</span>
+                <h3>Verificări pe care le puteți face singuri</h3>
+                <p>
+                  Datele firmei sunt publice: activăm din {FOUNDING_YEAR}, suntem înregistrați în SEAP, iar
+                  certificările și documentele le găsiți pe pagina{' '}
+                  <Link href="/certificari">Certificări</Link>.
+                </p>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* All Testimonials */}
-        <section className={styles.allSection}>
+        {/* Verifiable facts */}
+        <section className={styles.trustSection}>
           <div className={styles.container}>
-            <h2>Toate Testimonialele</h2>
-            <div className={styles.testimonialsGrid}>
-              {regularTestimonials.map((testimonial) => (
-                <div key={testimonial.id} className={styles.testimonialCard}>
-                  <blockquote className={styles.quote}>
-                    "{testimonial.quote}"
-                  </blockquote>
-                  <div className={styles.testimonialMeta}>
-                    <div className={styles.authorInfo}>
-                      <div className={styles.avatarSmall}>
-                        {testimonial.initials || testimonial.industry.charAt(0)}
-                      </div>
-                      <div>
-                        <span className={styles.role}>
-                          {testimonial.initials && <strong>{testimonial.initials}</strong>}
-                          {testimonial.initials && ' - '}{testimonial.role}
-                        </span>
-                        <span className={styles.industry}>
-                          {testimonial.companyHint || testimonial.industry}
-                        </span>
-                      </div>
-                    </div>
-                    <StarRating rating={testimonial.rating} />
-                  </div>
-                </div>
-              ))}
+            <h2>Ce puteți verifica despre noi înainte de o comandă?</h2>
+            <div className={styles.trustGrid}>
+              <div className={styles.trustCard}>
+                <span className={styles.trustIcon} aria-hidden="true">🏢</span>
+                <h3>Firmă activă din {FOUNDING_YEAR}</h3>
+                <p>Infinitrade România, cu depozit în Ghiroda (Timiș), lângă Timișoara.</p>
+              </div>
+              <div className={styles.trustCard}>
+                <span className={styles.trustIcon} aria-hidden="true">🏷️</span>
+                <h3>{siteStats.brands} de branduri</h3>
+                <p>
+                  Fiecare are pagina ei, cu gamele și codurile de produs citite din documentația
+                  producătorului: <Link href="/brand">catalogul A–Z</Link>.
+                </p>
+              </div>
+              <div className={styles.trustCard}>
+                <span className={styles.trustIcon} aria-hidden="true">🚚</span>
+                <h3>Termene scrise în ofertă</h3>
+                <p>
+                  {CATEGORY_LEAD_TIME.stock} {CATEGORY_LEAD_TIME.factory} {CATEGORY_LEAD_TIME.special}
+                </p>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Industries Served */}
+        {/* Industries */}
         <section className={styles.industriesSection}>
           <div className={styles.container}>
-            <h2>Industrii Deservite</h2>
+            <h2>Din ce industrii vin cererile de ofertă?</h2>
             <p className={styles.sectionSubtitle}>
-              Oferim soluții de echipamente industriale pentru diverse sectoare economice
+              Pentru fiecare industrie, pagina dedicată arată ce echipamente se cer și ce date trebuie trimise.
             </p>
             <div className={styles.industriesGrid}>
-              {industriesServed.map((industry) => (
-                <Link
-                  key={industry.name}
-                  href={`/industrii/${industry.slug}`}
-                  className={styles.industryCard}
-                >
-                  <span className={styles.industryIcon}>{industry.icon}</span>
+              {industries.map((industry) => (
+                <Link key={industry.slug} href={`/industrii/${industry.slug}`} className={styles.industryCard}>
                   <span className={styles.industryName}>{industry.name}</span>
-                  <span className={styles.industryClients}>{industry.clients}+ clienți</span>
                 </Link>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Trust Badges */}
-        <section className={styles.trustSection}>
-          <div className={styles.container}>
-            <h2>De Ce Ne Aleg Clienții</h2>
-            <div className={styles.trustGrid}>
-              <div className={styles.trustCard}>
-                <span className={styles.trustIcon}>🏆</span>
-                <h3>{testimonialStats.yearsExperience}+ Ani Experiență</h3>
-                <p>Suntem pe piață din 2009, cu expertiză solidă în echipamente industriale.</p>
-              </div>
-              <div className={styles.trustCard}>
-                <span className={styles.trustIcon}>✅</span>
-                <h3>Produse Originale</h3>
-                <p>100% produse originale, direct de la producători, cu garanție completă.</p>
-              </div>
-              <div className={styles.trustCard}>
-                <span className={styles.trustIcon}>🚚</span>
-                <h3>Livrare Rapidă</h3>
-                <p>Livrare în 24-72h pentru produse din stoc, în toată România.</p>
-              </div>
-              <div className={styles.trustCard}>
-                <span className={styles.trustIcon}>🔧</span>
-                <h3>Suport Tehnic</h3>
-                <p>Consultanță tehnică gratuită de la ingineri cu experiență.</p>
-              </div>
-              <div className={styles.trustCard}>
-                <span className={styles.trustIcon}>💼</span>
-                <h3>{siteStats.brands} Branduri</h3>
-                <p>Portofoliu complet de branduri premium: Grundfos, Wilo, Siemens, ABB, etc.</p>
-              </div>
-              <div className={styles.trustCard}>
-                <span className={styles.trustIcon}>🤝</span>
-                <h3>Parteneriate Stabile</h3>
-                <p>{testimonialStats.repeatClients}% din clienți revin pentru noi comenzi.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Google Reviews Placeholder - Ready for future integration */}
-        <section className={styles.googleSection}>
-          <div className={styles.container}>
-            <h2>Recenzii Verificate</h2>
-            <p className={styles.sectionSubtitle}>
-              Testimonialele de mai sus sunt de la clienți reali cu care colaborăm de ani de zile.
-              Pentru recenzii publice verificabile, ne găsești și pe Google.
-            </p>
-            <div className={styles.googlePlaceholder}>
-              {/*
-                TODO: Integrare Google Reviews widget când contul Google Business este verificat
-                1. Creează cont Google Business pentru Infinitrade Romania
-                2. Verifică adresa: Calea Lugojului nr.47/B, Hala 3, Ghiroda, Timiș
-                3. Colectează primele 5-10 recenzii de la clienți
-                4. Integrează widget folosind: Google Places API sau serviciu terț (Elfsight, Trustindex)
-              */}
-              <div className={styles.googleCard}>
-                <span className={styles.googleIcon}>G</span>
-                <div className={styles.googleInfo}>
-                  <strong>Infinitrade Romania</strong>
-                  <p>Recenzii Google Business în curând disponibile</p>
-                  <a
-                    href="https://www.google.com/search?q=infinitrade+romania+echipamente+industriale"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.googleLink}
-                  >
-                    Caută-ne pe Google →
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
+        {/* CTA */}
         <section className={styles.ctaSection}>
           <div className={styles.container}>
-            <h2>Alătură-te Clienților Noștri Mulțumiți</h2>
-            <p>Solicită o ofertă personalizată și descoperă de ce ne aleg cele mai mari companii din România.</p>
+            <h2>Aveți nevoie de o referință pentru un proiect anume?</h2>
+            <p>Scrieți-ne industria, echipamentul și, dacă e cazul, procedura SEAP; revenim cu ce vă putem pune la dispoziție.</p>
             <div className={styles.ctaButtons}>
               <Link href="/contact" className={styles.ctaPrimary}>
-                Solicită Ofertă
+                Cere o referință
               </Link>
               <Link href="/studii-de-caz" className={styles.ctaSecondary}>
-                Vezi Studii de Caz
+                Vezi ghidurile de aplicație
               </Link>
             </div>
           </div>

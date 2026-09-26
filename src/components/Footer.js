@@ -109,7 +109,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/studii-de-caz" className={styles.columnLink}>
-                  Studii de Caz
+                  Ghiduri de aplicație
                 </Link>
               </li>
               <li>

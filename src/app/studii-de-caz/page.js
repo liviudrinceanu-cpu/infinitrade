@@ -5,12 +5,12 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
 import { caseStudies, getFeaturedCaseStudies } from '@/data/caseStudies';
 import { safeJsonLd } from '@/lib/utils';
-import { ArrowRight, Factory, Zap, TrendingUp, Clock, Award } from 'lucide-react';
+import { ArrowRight, Factory, Zap, Award } from 'lucide-react';
 import styles from './studii-de-caz.module.css';
 
 export const metadata = {
-  title: 'Studii de Caz | Proiecte Industriale',
-  description: 'Studii de caz: pompe Grundfos și KSB în rafinării, motoare Siemens și ABB în industria alimentară, schimbătoare Alfa Laval. Rezultate măsurabile.',
+  title: 'Ghiduri de Aplicație | Pompare, Termic, Automatizare',
+  description: 'Ghiduri de aplicație: optimizarea pompării în rafinării, tratare apă, eficiență energetică în alimentar, cogenerare, compresoare în minerit. Ofertă pe cod.',
   keywords: [
     'studii de caz echipamente industriale',
     'proiecte pompe industriale romania',
@@ -24,8 +24,8 @@ export const metadata = {
     'kelvion schimbatoare',
   ],
   openGraph: {
-    title: 'Studii de Caz | Proiecte Echipamente Industriale',
-    description: 'Proiecte reale cu rezultate măsurabile: pompe, motoare, schimbătoare căldură în industria din România.',
+    title: 'Ghiduri de Aplicație | Echipamente Industriale | Infinitrade',
+    description: 'Cum abordăm tehnic cinci tipuri de proiecte industriale: probleme tipice, soluție recomandată, etape, indicatori de urmărit.',
     url: `${config.site.url}/studii-de-caz`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
@@ -35,7 +35,7 @@ export const metadata = {
         url: `${config.site.url}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: 'Studii de Caz Echipamente Industriale - Infinitrade Romania',
+        alt: 'Ghiduri de aplicație pentru echipamente industriale - Infinitrade Romania',
       }
     ],
   },
@@ -49,8 +49,8 @@ function generateCollectionJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'Studii de Caz Echipamente Industriale',
-    description: 'Colecție de studii de caz despre implementarea echipamentelor industriale în România',
+    name: 'Ghiduri de aplicație pentru echipamente industriale',
+    description: 'Cum abordăm tehnic proiecte de pompare, tratare apă, eficiență energetică, cogenerare și aer comprimat',
     url: `${config.site.url}/studii-de-caz`,
     publisher: {
       '@type': 'Organization',
@@ -75,11 +75,10 @@ export default function StudiiDeCazPage() {
   const featuredStudies = getFeaturedCaseStudies();
   const otherStudies = caseStudies.filter(cs => !cs.featured);
 
-  // Calculate totals for stats
-  const totalEnergySaved = caseStudies.reduce((sum, cs) => {
-    const saving = parseInt(cs.results.energySaving) || 0;
-    return sum + saving;
-  }, 0);
+  // v18: the page used to average invented "energy saving" figures; the
+  // guides carry no measured results, so the stats are plain counts.
+  const industryCount = new Set(caseStudies.map((cs) => cs.industry)).size;
+  const brandCount = new Set(caseStudies.flatMap((cs) => cs.brands)).size;
 
   return (
     <>
@@ -94,42 +93,37 @@ export default function StudiiDeCazPage() {
           <div className={styles.container}>
             <Breadcrumbs items={[]} currentPage="Studii de Caz" />
             <div className={styles.heroContent}>
-              <span className={styles.heroLabel}>Rezultate Dovedite</span>
-              <h1>Studii de Caz</h1>
+              <span className={styles.heroLabel}>Ghiduri de aplicație</span>
+              <h1>Cum abordăm tehnic proiectele industriale</h1>
               <p>
-                Proiecte reale implementate în România cu echipamente de la branduri de top:
-                Grundfos, Siemens, Alfa Laval, Wilo, KSB. Rezultate măsurabile și documentate.
+                Cinci tipuri de proiecte pentru care ne cer ofertă inginerii de mentenanță și de proiect:
+                problemele tipice, soluția tehnică pe care o recomandăm, etapele și indicatorii care
+                arată dacă investiția a funcționat. Echipamentele sunt de la Grundfos, Siemens, Alfa Laval,
+                Wilo, KSB și ceilalți producători din fiecare ghid.
               </p>
             </div>
 
-            {/* Stats Bar */}
+            {/* Stats Bar — plain counts derived from the guides (v18) */}
             <div className={styles.statsBar}>
               <div className={styles.stat}>
                 <Award size={24} />
                 <div>
                   <span className={styles.statValue}>{caseStudies.length}</span>
-                  <span className={styles.statLabel}>Proiecte Documentate</span>
-                </div>
-              </div>
-              <div className={styles.stat}>
-                <Zap size={24} />
-                <div>
-                  <span className={styles.statValue}>~{Math.round(totalEnergySaved / caseStudies.length)}%</span>
-                  <span className={styles.statLabel}>Economie Energie Medie</span>
+                  <span className={styles.statLabel}>Ghiduri de aplicație</span>
                 </div>
               </div>
               <div className={styles.stat}>
                 <Factory size={24} />
                 <div>
-                  <span className={styles.statValue}>5+</span>
-                  <span className={styles.statLabel}>Industrii Deservite</span>
+                  <span className={styles.statValue}>{industryCount}</span>
+                  <span className={styles.statLabel}>Industrii</span>
                 </div>
               </div>
               <div className={styles.stat}>
-                <TrendingUp size={24} />
+                <Zap size={24} />
                 <div>
-                  <span className={styles.statValue}>15+</span>
-                  <span className={styles.statLabel}>Ani Experiență</span>
+                  <span className={styles.statValue}>{brandCount}</span>
+                  <span className={styles.statLabel}>Branduri folosite</span>
                 </div>
               </div>
             </div>
@@ -140,8 +134,8 @@ export default function StudiiDeCazPage() {
         <section className={styles.featuredSection}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
-              <h2>Proiecte Reprezentative</h2>
-              <p>Studii de caz cu impact major și rezultate excepționale</p>
+              <h2>Ce ghiduri de aplicație găsiți aici?</h2>
+              <p>Fiecare ghid explică problema, soluția recomandată și ce trebuie măsurat după implementare</p>
             </div>
 
             <div className={styles.featuredGrid}>
@@ -151,29 +145,11 @@ export default function StudiiDeCazPage() {
                   href={`/studii-de-caz/${study.slug}`}
                   className={styles.featuredCard}
                 >
-                  <div className={styles.featuredBadge}>Featured</div>
                   <div className={styles.cardHeader}>
                     <span className={styles.industry}>{study.industry}</span>
-                    <span className={styles.year}>{study.year}</span>
                   </div>
                   <h3>{study.shortTitle}</h3>
                   <p>{study.excerpt}</p>
-
-                  <div className={styles.resultsPreview}>
-                    {Object.entries(study.results).slice(0, 2).map(([key, value]) => (
-                      <div key={key} className={styles.resultItem}>
-                        <span className={styles.resultValue}>{value}</span>
-                        <span className={styles.resultLabel}>
-                          {key === 'energySaving' ? 'Economie Energie' :
-                           key === 'efficiency' ? 'Creștere Eficiență' :
-                           key === 'reliability' ? 'Fiabilitate' :
-                           key === 'availability' ? 'Disponibilitate' :
-                           key === 'productivity' ? 'Productivitate' :
-                           key}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
 
                   <div className={styles.cardBrands}>
                     {study.brands.slice(0, 3).map(brand => (
@@ -185,11 +161,8 @@ export default function StudiiDeCazPage() {
                   </div>
 
                   <div className={styles.cardFooter}>
-                    <span className={styles.duration}>
-                      <Clock size={14} /> {study.duration}
-                    </span>
                     <span className={styles.readMore}>
-                      Citește Studiul <ArrowRight size={16} />
+                      Citește ghidul <ArrowRight size={16} />
                     </span>
                   </div>
                 </Link>
@@ -202,7 +175,7 @@ export default function StudiiDeCazPage() {
         {otherStudies.length > 0 && (
           <section className={styles.otherSection}>
             <div className={styles.container}>
-              <h2>Alte Proiecte</h2>
+              <h2>Alte ghiduri de aplicație</h2>
               <div className={styles.otherGrid}>
                 {otherStudies.map((study) => (
                   <Link
@@ -212,7 +185,6 @@ export default function StudiiDeCazPage() {
                   >
                     <div className={styles.otherHeader}>
                       <span className={styles.industry}>{study.industry}</span>
-                      <span className={styles.year}>{study.year}</span>
                     </div>
                     <h3>{study.shortTitle}</h3>
                     <p>{study.excerpt}</p>
@@ -236,8 +208,8 @@ export default function StudiiDeCazPage() {
         {/* Industries Section */}
         <section className={styles.industriesSection}>
           <div className={styles.container}>
-            <h2>Industrii Acoperite</h2>
-            <p>Experiență demonstrată în sectoare industriale diverse</p>
+            <h2>Din ce industrii sunt aplicațiile?</h2>
+            <p>Sectoarele pentru care am scris ghidurile de mai sus</p>
             <div className={styles.industriesGrid}>
               {[...new Set(caseStudies.map(cs => cs.industry))].map(industry => (
                 <div key={industry} className={styles.industryCard}>
@@ -252,8 +224,8 @@ export default function StudiiDeCazPage() {
         {/* Brands Used */}
         <section className={styles.brandsSection}>
           <div className={styles.container}>
-            <h2>Branduri Utilizate în Proiecte</h2>
-            <p>Echipamente de la producători de renume mondial</p>
+            <h2>Ce branduri apar în ghiduri?</h2>
+            <p>Producătorii ale căror game le ofertăm pentru aceste aplicații</p>
             <div className={styles.brandsGrid}>
               {[...new Set(caseStudies.flatMap(cs => cs.brands))].sort().map(brand => {
                 const caseStudy = caseStudies.find(cs => cs.brands.includes(brand));
@@ -282,8 +254,8 @@ export default function StudiiDeCazPage() {
             <div className={styles.ctaBox}>
               <h2>Ai un proiect similar?</h2>
               <p>
-                Contactează-ne pentru o consultație gratuită. Analizăm situația ta
-                și propunem soluții personalizate cu echipamente de top.
+                Trimiteți-ne datele aplicației (fluid, debit, presiune, plăcuța echipamentului existent)
+                și vă răspundem cu o ofertă pe cod de produs.
               </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact" className={styles.ctaPrimary}>

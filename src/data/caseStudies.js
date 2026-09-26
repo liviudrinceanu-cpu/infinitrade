@@ -1,103 +1,57 @@
-// Case Studies Data - Optimized for SEO
-// Keywords: branduri, tipuri produse, categorii principale, industrii
-// Last updated: 2026-01-24 - V52 E-E-A-T Enhancement (detalii mai specifice)
+// Ghiduri de aplicație - rescrise din studiile de caz originale
+// Fiecare intrare descrie abordarea tehnică pentru un tip de proiect, fără date de client nereale
 
 export const caseStudies = [
   {
     id: 1,
     slug: 'optimizare-sistem-pompare-rafinarie',
-    title: 'Optimizarea Sistemului de Pompare într-o Rafinărie din România',
+    kind: 'ghid-aplicatie',
+    title: 'Ghid de aplicație: optimizarea pompării într-o rafinărie',
     shortTitle: 'Sistem Pompare Rafinărie',
     industry: 'Petrochimie și Rafinării',
     industrySlug: 'petrochimie',
-    excerpt: 'Modernizarea completă a sistemului de pompare într-o rafinărie majoră, cu reducerea consumului energetic cu 35% și creșterea fiabilității operaționale.',
+    excerpt: 'Cum alegem pompele, convertizoarele de turație și monitorizarea de stare pentru un sistem de pompare de rafinărie mai eficient și mai sigur.',
     heroImage: '/case-studies/rafinarie-pompare.jpg',
-    duration: '8 luni',
-    year: '2024',
-    startDate: 'Martie 2024',
-    endDate: 'Octombrie 2024',
-    location: 'sud-estul României (zona Constanța-Ploiești)',
-    results: {
-      energySaving: '35%',
-      reliability: '99.2%',
-      payback: '18 luni',
-      co2Reduction: '420 tone/an',
-    },
-    challenge: `O rafinărie importantă din sud-estul României se confrunta cu probleme majore în sistemul de pompare: consum energetic ridicat, opriri frecvente neplanificate și costuri de mentenanță în creștere. Pompele existente, cu o vechime de peste 20 de ani, nu mai corespundeau cerințelor actuale de eficiență și siguranță.
+    challenge: `Sistemele de pompare dintr-o rafinărie ajung, de regulă, la finalul duratei de viață utile fără ca operatorul să aibă deja un plan clar de înlocuire. Pompele mai vechi, montate cu multe decenii în urmă, nu mai corespund cerințelor actuale de eficiență energetică și de siguranță în exploatare.
 
-Principalele provocări identificate:
-- Consum energetic cu 40% peste media industriei
-- Disponibilitate sub 92% din cauza defecțiunilor frecvente
-- Lipsa monitorizării în timp real a parametrilor operaționali
-- Costuri de mentenanță corectivă de peste 200.000 EUR/an
-- Riscuri de siguranță din cauza echipamentelor uzate`,
-    solution: `Am propus o soluție completă bazată pe echipamente de ultimă generație de la producători de top, implementată în etape pentru a minimiza impactul asupra producției.
+Provocările tipice pe care le întâlnim la acest tip de aplicație:
+- consum energetic peste media echipamentelor moderne echivalente
+- opriri neplanificate frecvente, cauzate de etanșări și lagăre uzate
+- lipsa monitorizării în timp real a vibrațiilor și a temperaturii
+- costuri de mentenanță corectivă în creștere de la un an la altul
+- riscuri de siguranță asociate instalațiilor electrice și mecanice îmbătrânite
+- dificultăți în găsirea pieselor de schimb pentru modele scoase din fabricație`,
+    solution: `Pentru acest tip de proiect recomandăm o soluție construită din echipamente verificate în aplicații similare de rafinărie și petrochimie, implementată etapizat pentru a nu afecta producția curentă.
 
-**Echipamente furnizate:**
+**Pompe centrifuge Grundfos - seria CR și NB**
+Pompe multietajate pentru transfer de produse, potrivite acolo unde este nevoie de randament hidraulic ridicat și de construcție din oțel inoxidabil pentru compatibilitate chimică; etanșările mecanice duble susțin siguranța în funcționare continuă.
 
-**Pompe Centrifuge Grundfos** - Seria CR și NB
-- 12 pompe centrifuge multietajate pentru transfer produse
-- Randament hidraulic până la 94%
-- Construcție din oțel inoxidabil pentru compatibilitate chimică
-- Etanșări mecanice duble pentru siguranță maximă
+**Pompe de proces KSB - seria RPH și CPK**
+Pompe dedicate aplicațiilor critice de proces, cu design conform standardelor API pentru industria petrochimică și capacitate de lucru la temperaturi și presiuni ridicate.
 
-**Pompe de Proces KSB** - Seria RPH și CPK
-- 8 pompe de proces pentru aplicații critice
-- Design API 610 pentru industria petrochimică
-- Temperaturi de lucru până la 400°C
-- Presiuni până la 40 bar
+**Convertizoare de frecvență Siemens - seria SINAMICS**
+Control precis al turației pentru optimizare energetică, pornire lină fără șocuri mecanice asupra transmisiei și posibilitate de integrare în automatizarea existentă prin comunicație industrială.
 
-**Sistem de Monitorizare Grundfos**
-- Senzori de vibrații și temperatură pe fiecare pompă
-- Software de analiză predictivă
-- Integrare SCADA existentă
-- Alarme și notificări în timp real
+**Monitorizarea stării echipamentelor**
+Recomandăm completarea pachetului cu senzori de vibrații și de temperatură montați pe pompele critice, cu alarme configurabile și integrare în SCADA-ul existent, astfel încât degradarea unui lagăr sau a unei etanșări să fie observată înainte să provoace o oprire neplanificată.`,
+    implementation: `Abordăm acest tip de proiect în etape clar delimitate.
 
-**Convertizoare de Frecvență Siemens** - Seria SINAMICS
-- Control precis al turației pentru optimizare energetică
-- Pornire lină fără șocuri mecanice
-- Comunicație PROFINET pentru automatizare`,
-    implementation: `**Faza 1 - Audit și Proiectare (2 luni)**
-- Analiza detaliată a sistemului existent
-- Măsurători de debit, presiune și consum energetic
-- Proiectare soluție optimizată cu simulări CFD
-- Planificare implementare pe etape
+Auditul inițial cuprinde măsurători de debit, presiune și consum pe instalația existentă, pentru a stabili ce pompe merită înlocuite prioritar și care pot funcționa în continuare cu intervenții minore. Pe baza acestor date, dimensionăm pompele Grundfos și KSB și selectăm convertizoarele Siemens potrivite fiecărei aplicații.
 
-**Faza 2 - Înlocuire Pompe Critice (3 luni)**
-- Prioritizare pompe cu cel mai mare impact
-- Instalare în timpul opririi planificate
-- Testare și punere în funcțiune
-- Training operatori
+Ofertăm pe cod și livrăm din stocul disponibil în România sau la un depozit european, respectiv la comandă la fabrică pentru reperele speciale; termenele exacte se comunică odată cu oferta. Montajul și punerea în funcțiune rămân, de regulă, în sarcina echipei tehnice a clientului sau a integratorului desemnat, realizate în oprirea planificată a instalației; asistăm tehnic la cerere și furnizăm documentația de proiect.
 
-**Faza 3 - Sistem Monitorizare (2 luni)**
-- Instalare senzori pe toate pompele
-- Configurare software monitorizare
-- Integrare cu sistemul SCADA existent
-- Setare parametri de alarmă
+După repornire, recomandăm o perioadă de urmărire în care parametrii de funcționare sunt verificați și, dacă e nevoie, ajustați fin, iar echipa de mentenanță este familiarizată cu noile echipamente.`,
+    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
 
-**Faza 4 - Optimizare și Fine-tuning (1 lună)**
-- Ajustare parametri operaționali
-- Optimizare curbe de funcționare
-- Documentație completă
-- Training avansat echipă mentenanță`,
-    results_detailed: `**Rezultate Măsurabile după 12 luni:**
+- consumul specific de energie al stației de pompare, comparat cu perioada anterioară
+- disponibilitatea sistemului, respectiv numărul de opriri neplanificate pe lună
+- evoluția vibrațiilor și a temperaturii lagărelor, ca semnal timpuriu de uzură
+- frecvența intervențiilor de mentenanță corectivă față de cele planificate
+- costul de mentenanță pe pompă, urmărit pe termen mediu
+- nivelul de zgomot din zona stației, relevant pentru condițiile de muncă
+- conformitatea cu cerințele interne de siguranță și cu reglementările de mediu aplicabile
 
-| Indicator | Înainte | După | Îmbunătățire |
-|-----------|---------|------|--------------|
-| Consum energie | 2.4 GWh/an | 1.56 GWh/an | -35% |
-| Disponibilitate | 91.5% | 99.2% | +7.7% |
-| Opriri neplanificate | 47/an | 6/an | -87% |
-| Cost mentenanță | 210.000 €/an | 85.000 €/an | -60% |
-| Emisii CO2 | 1.200 t/an | 780 t/an | -35% |
-
-**Beneficii Suplimentare:**
-- Reducere zgomot cu 12 dB în zona pompelor
-- Îmbunătățirea condițiilor de muncă pentru operatori
-- Conformitate cu noile reglementări de mediu
-- Documentație completă pentru audituri ISO 14001`,
-    testimonialIndustry: 'Director Tehnic, rafinărie majoră',
-    testimonialInitials: 'V.M.',
-    testimonialQuote: 'Proiectul a depășit așteptările - și nu spun asta pentru că așa se zice. Am lucrat cu vreo 4 furnizori de pompe în ultimii 15 ani și Infinitrade e singurul care a livrat totul la timp și a stat cu noi până când fiecare pompă funcționa perfect. Economia de 35% pe energie e reală, o vedem în facturi în fiecare lună.',
+Urmărirea acestor indicatori pe o perioadă suficient de lungă oferă o imagine reală a beneficiilor modernizării, fără să ne bazăm pe estimări făcute înainte de punerea în funcțiune.`,
     brands: ['Grundfos', 'KSB', 'Siemens'],
     brandSlugs: ['grundfos', 'ksb', 'siemens'],
     products: ['Pompe centrifuge', 'Pompe de proces', 'Convertizoare frecvență', 'Sisteme monitorizare'],
@@ -110,110 +64,53 @@ Principalele provocări identificate:
   {
     id: 2,
     slug: 'modernizare-statie-tratare-apa',
-    title: 'Modernizarea Stației de Tratare a Apei pentru un Operator Regional',
+    kind: 'ghid-aplicatie',
+    title: 'Ghid de aplicație: modernizarea unei stații de tratare a apei',
     shortTitle: 'Stație Tratare Apă',
     industry: 'Tratare Apă și Canalizare',
     industrySlug: 'tratare-apa',
-    excerpt: 'Upgrade complet al sistemului de pompare și aerare pentru o stație de epurare cu capacitate de 50.000 m³/zi, cu îmbunătățirea eficienței tratării cu 28%.',
+    excerpt: 'Ce echipamente de pompare, dozare și aerare recomandăm pentru modernizarea unei stații de epurare și cum arată, în etape, implementarea unui astfel de proiect.',
     heroImage: '/case-studies/statie-epurare.jpg',
-    duration: '12 luni',
-    year: '2023',
-    startDate: 'Ianuarie 2023',
-    endDate: 'Decembrie 2023',
-    location: 'vestul României (județ din zona Arad-Timiș)',
-    results: {
-      efficiency: '+28%',
-      energySaving: '42%',
-      capacity: '+15%',
-      compliance: '100%',
-    },
-    challenge: `Un operator regional de apă din vestul României opera o stație de epurare construită în anii '90, care nu mai făcea față cerințelor actuale (ne-au contactat inițial în vara lui 2022 pentru o evaluare preliminară). Problemele principale includeau:
+    challenge: `Stațiile de epurare construite acum câteva decenii ajung frecvent să nu mai facă față populației sau industriei deservite, mai ales acolo unde zona a crescut peste proiectul inițial. Situația se agravează atunci când echipamentele de pompare și de aerare, care consumă de regulă cea mai mare parte din energia stației, sunt uzate și ineficiente.
 
-- Capacitate insuficientă pentru populația crescută a zonei
-- Parametri de evacuare la limita conformității
-- Consum energetic foarte ridicat (pompele și aerarea = 70% din total)
-- Echipamente uzate cu eficiență scăzută
-- Lipsa automatizării și monitorizării moderne
-- Necesitate conformare cu Directiva Europeană 91/271/CEE`,
-    solution: `Am dezvoltat o soluție integrată care a abordat toate aspectele critice ale stației, păstrând infrastructura existentă acolo unde era posibil.
+Probleme frecvente la acest tip de stație:
+- capacitate insuficientă față de debitul actual de apă uzată
+- parametri de evacuare aproape de limita de conformitate
+- consum energetic ridicat pe linia de pompare și aerare
+- pompe și suflante uzate, cu eficiență scăzută față de modelele actuale
+- lipsa automatizării și a monitorizării moderne a procesului
+- necesitatea alinierii la cerințele europene de epurare a apelor uzate`,
+    solution: `Pentru modernizarea unei stații de epurare recomandăm o soluție integrată, care păstrează infrastructura civilă existentă și înlocuiește doar echipamentele electromecanice uzate.
 
-**Sistem de Pompare - Wilo și Grundfos**
+**Pompe submersibile Wilo - seria Rexa și EMU**
+Pompe pentru apă brută și nămol, cu design anti-colmatare potrivit apelor uzate, motor de eficiență ridicată și funcție de auto-curățare a rotorului.
 
-**Pompe Submersibile Wilo** - Seria Rexa și EMU
-- 6 pompe submersibile pentru apa brută și nămol
-- Design anti-colmatare pentru ape uzate
-- Motor cu eficiență IE3
-- Sistem de auto-curățare
+**Pompe de dozare Grundfos - seria SMART Digital**
+Pompe dozatoare pentru reactivi chimici, cu control digital integrat și precizie ridicată, potrivite atât pentru substanțe corozive, cât și pentru dozare fină la debite mici.
 
-**Pompe Dozare Grundfos** - Seria SMART Digital
-- 8 pompe dozatoare pentru reactivi chimici
-- Precizie dozare ±1%
-- Control digital integrat
-- Compatibilitate cu substanțe corozive
+**Pompe de recirculare Grundfos - seria NB**
+Pompe robuste pentru recircularea nămolului activ, cu debit ajustabil pentru optimizarea procesului biologic și funcționare continuă pe termen lung.
 
-**Pompe Recirculare Grundfos** - Seria NB
-- 4 pompe pentru recirculare nămol activ
-- Debit variabil pentru optimizare proces
-- Construcție robustă pentru funcționare continuă
+**Suflante Becker (seria SV și DT) și FPZ (seria K și SCL)**
+Suflante cu canal lateral pentru aerarea bazinelor, alese în funcție de debitul și presiunea necesară difuzoarelor; variantele fără ulei reduc mentenanța și riscul de contaminare.
 
-**Sistem de Aerare - Becker și FPZ**
+**Automatizare Siemens**
+PLC din familia S7 pentru controlul procesului, interfață om-mașină pe ecran tactil, senzori de oxigen dizolvat, pH și turbiditate, integrați într-un SCADA pentru monitorizare la distanță.`,
+    implementation: `Recomandăm parcurgerea proiectului în etape corelate cu obținerea avizelor necesare.
 
-**Suflante Becker** - Seria SV și DT
-- 3 suflante cu canal lateral pentru aerare fină
-- Funcționare silențioasă sub 72 dB
-- Eficiență energetică ridicată
-- Mentenanță minimă (fără ulei)
+Etapa de proiectare stabilește soluția tehnică și cere, de obicei, avize de mediu și de gospodărire a apelor înainte de achiziția echipamentelor; unele suflante și pompe speciale au termene de fabricație mai lungi, comunicate în ofertă. Urmează înlocuirea propriu-zisă a pompelor submersibile, de dozare și de recirculare, apoi upgradarea sistemului de aerare, realizate de regulă în etape succesive pentru a păstra stația funcțională pe tot parcursul lucrărilor.
 
-**Suflante FPZ** - Seria K și SCL
-- 2 suflante pentru aerare bazine
-- Debit până la 2.500 m³/h
-- Presiune diferențială optimă pentru difuzori
+Automatizarea și integrarea în SCADA se fac în paralel sau imediat după partea electromecanică, cu calibrarea senzorilor de proces înainte de punerea în funcțiune finală. Montajul este realizat de echipa clientului sau de un integrator local, cu asistență tehnică din partea noastră la punerea în funcțiune și predarea documentației.`,
+    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
 
-**Automatizare și Control Siemens**
-- PLC Siemens S7-1500 pentru control proces
-- Interfață HMI touch-screen
-- Senzori oxigen dizolvat, pH, turbiditate
-- SCADA pentru monitorizare la distanță`,
-    implementation: `**Faza 1 - Proiectare și Pregătire (3 luni)**
-- Studiu de fezabilitate și proiectare de detaliu
-- Obținere avize și autorizații
-- Achiziție echipamente (lead time suflante: 8 săptămâni)
-- Pregătire șantier
+- încărcarea organică și de nutrienți din efluent, față de limitele de evacuare
+- consumul de energie raportat la volumul de apă tratată
+- stabilitatea procesului biologic în perioadele de debit variabil
+- numărul de intervenții de mentenanță pe suflante și pompe
+- disponibilitatea liniei de aerare pe parcursul anului
+- conformitatea cu cerințele autorității de mediu la controalele periodice
 
-**Faza 2 - Modernizare Sistem Pompare (4 luni)**
-- Instalare pompe submersibile noi
-- Montaj pompe dozare cu sistem de siguranță
-- Instalare pompe recirculare
-- Testare hidraulică
-
-**Faza 3 - Upgrade Sistem Aerare (3 luni)**
-- Demontare suflante vechi
-- Instalare suflante Becker și FPZ
-- Înlocuire difuzori aerare fină
-- Echilibrare sistem
-
-**Faza 4 - Automatizare și Integrare (2 luni)**
-- Instalare sistem control
-- Programare PLC și SCADA
-- Calibrare senzori
-- Testare și optimizare`,
-    results_detailed: `**Performanțe după 18 luni de operare:**
-
-| Parametru | Înainte | După | Standard |
-|-----------|---------|------|----------|
-| CBO5 evacuare | 22 mg/l | 8 mg/l | <25 mg/l |
-| Azot total | 18 mg/l | 9 mg/l | <15 mg/l |
-| Fosfor total | 3.2 mg/l | 0.8 mg/l | <2 mg/l |
-| Consum energie | 0.58 kWh/m³ | 0.34 kWh/m³ | - |
-
-**Impact Economic și de Mediu:**
-- Economie energie: 876.000 kWh/an = ~105.000 €/an
-- Reducere emisii CO2: 438 tone/an
-- Capacitate tratare crescută cu 15%
-- Zero penalități pentru depășiri
-- Conformitate 100% cu Directiva UE`,
-    testimonialIndustry: 'Manager Operațiuni, operator apă regional',
-    testimonialQuote: 'Investiția în echipamente moderne s-a amortizat mai repede decât anticipam. Calitatea apei tratate a crescut semnificativ, iar costurile operaționale au scăzut cu peste 40%. Acum avem un sistem pe care ne putem baza.',
+Aceste elemente, urmărite constant, arată dacă investiția în echipamente noi își atinge scopul, dincolo de impresia inițială de după punerea în funcțiune.`,
     brands: ['Wilo', 'Grundfos', 'Becker', 'FPZ', 'Siemens'],
     brandSlugs: ['wilo', 'grundfos', 'becker', 'fpz', 'siemens'],
     products: ['Pompe submersibile', 'Pompe dozare', 'Suflante canal lateral', 'Automatizare industrială'],
@@ -226,106 +123,55 @@ Principalele provocări identificate:
   {
     id: 3,
     slug: 'eficientizare-energetica-industria-alimentara',
-    title: 'Eficientizare Energetică în Industria Alimentară - Fabrică de Lactate',
+    kind: 'ghid-aplicatie',
+    title: 'Ghid de aplicație: eficiență energetică în industria alimentară',
     shortTitle: 'Eficiență Energetică Lactate',
     industry: 'Industria Alimentară',
     industrySlug: 'alimentar',
-    excerpt: 'Modernizarea sistemelor de acționare și transfer termic într-o fabrică de lactate, cu reducerea consumului energetic cu 45% și îmbunătățirea calității produselor.',
+    excerpt: 'Cum reducem consumul energetic al motoarelor și schimbătoarelor de căldură dintr-o fabrică de lactate, fără a compromite igiena și calitatea.',
     heroImage: '/case-studies/fabrica-lactate.jpg',
-    duration: '6 luni',
-    year: '2024',
-    results: {
-      energySaving: '45%',
-      productivity: '+22%',
-      quality: '+18%',
-      roi: '14 luni',
-    },
-    challenge: `O fabrică de lactate cu tradiție din centrul României, cu o producție de 150.000 litri/zi, se confrunta cu provocări majore:
+    challenge: `Fabricile de lactate lucrează cu motoare electrice și schimbătoare de căldură care funcționează aproape non-stop, ceea ce face din energie unul dintre cei mai mari costuri operaționale. Multe unități mai vechi folosesc încă motoare de eficiență redusă, fără variație de turație, și schimbătoare subdimensionate sau cu depuneri.
 
-- Costuri energetice în creștere (motoarele = 65% din consum)
-- Motoare vechi cu eficiență IE1, multe fără variație de turație
-- Schimbătoare de căldură subdimensionate și cu depuneri
-- Fluctuații de temperatură care afectau calitatea produselor
-- Cerințe stricte de igienă și certificare IFS/BRC
-- Presiune competitivă pe marjele de profit`,
-    solution: `Am implementat un program comprehensiv de eficientizare, concentrat pe cele două mari consumatoare de energie: motoarele electrice și transferul termic.
+Provocări întâlnite frecvent în acest sector:
+- costuri energetice în creștere, cu motoarele ca principal consumator
+- motoare vechi, fără convertizor de frecvență acolo unde ar aduce economii
+- schimbătoare de căldură cu depuneri, care reduc eficiența transferului termic
+- fluctuații de temperatură care pot afecta calitatea produsului finit
+- cerințe stricte de igienă și de certificare pentru industria alimentară
+- presiune constantă pe costuri, într-o piață cu marje strânse`,
+    solution: `Recomandăm un program de eficientizare concentrat pe cei doi mari consumatori de energie dintr-o fabrică de lactate: motoarele electrice și transferul termic.
 
-**Motoare Electrice Premium - Siemens și ABB**
+**Motoare Siemens - seria SIMOTICS GP și SD**
+Motoare de eficiență ridicată, cu design igienizat pentru industria alimentară și protecție adecvată pentru spălare cu presiune, potrivite pentru puteri mici și medii.
 
-**Motoare Siemens** - Seria SIMOTICS GP și SD
-- 24 motoare cu eficiență IE4 (Super Premium)
-- Putere: 2.2 kW - 75 kW
-- Design igienizat pentru industria alimentară
-- Protecție IP66 pentru spălare cu presiune
+**Motoare ABB - seria M3BP și M3AA**
+Motoare compacte pentru ventilatoare și transportoare, cu funcționare silențioasă și dimensiuni potrivite pentru spații limitate din hala de producție.
 
-**Motoare ABB** - Seria M3BP și M3AA
-- 18 motoare pentru ventilatoare și transportoare
-- Clasa de eficiență IE3
-- Construcție compactă pentru spații limitate
-- Funcționare silențioasă
+**Convertizoare de frecvență SEW Eurodrive - seria MOVITRAC și MOVIDRIVE**
+Control de turație pentru ventilatoare și pompe, cu integrare simplă în automatizarea existentă și funcții de protecție care prelungesc durata de viață a motorului.
 
-**Convertizoare de Frecvență SEW Eurodrive** - Seria MOVITRAC și MOVIDRIVE
-- 15 convertizoare pentru control turație
-- Economie energie până la 50% pe ventilatoare și pompe
-- Integrare simplă cu automatizare existentă
-- Funcții de protecție avansate
+**Schimbătoare Alfa Laval - seria M și T**
+Schimbătoare cu plăci pentru pasteurizare, cu design igienizat și posibilitate de curățare CIP (curățare fără demontare / clean-in-place), potrivite acolo unde precizia de temperatură contează pentru calitatea produsului.
 
-**Schimbătoare de Căldură - Alfa Laval și Kelvion**
+**Schimbătoare Kelvion - seria NP și NT**
+Schimbătoare compacte pentru răcirea produsului finit, cu materiale aprobate pentru contact alimentar și transfer termic optimizat pe o suprafață redusă.
 
-**Schimbătoare Alfa Laval** - Seria M și T
-- 6 schimbătoare cu plăci pentru pasteurizare
-- Design igienizat (EHEDG certified)
-- Eficiență termică până la 95%
-- Curățare CIP automată
+Alegerea concretă între serii se face în funcție de debitul, temperatura de proces și spațiul disponibil în fiecare linie de producție.`,
+    implementation: `Recomandăm începerea cu un audit energetic care măsoară consumul real pe fiecare echipament, nu doar pe linia generală de producție.
 
-**Schimbătoare Kelvion** - Seria NP și NT
-- 4 schimbătoare pentru răcire produse finite
-- Suprafață compactă, transfer termic optim
-- Materiale aprobate pentru contact alimentar`,
-    implementation: `**Etapa 1 - Audit Energetic (1 lună)**
-- Măsurători detaliate pe toate echipamentele
-- Identificare quick-wins și priorități
-- Calcul ROI pentru fiecare intervenție
-- Plan de implementare fără oprire producție
+Pe baza auditului, prioritizăm înlocuirea motoarelor cu un număr ridicat de ore de funcționare și cu un potențial important de economie, urmată de montarea convertizoarelor de frecvență pe ventilatoare și pompe. Lucrările se programează, de regulă, în weekenduri sau opriri tehnice scurte, pentru a limita impactul asupra producției curente.
 
-**Etapa 2 - Înlocuire Motoare Critice (2 luni)**
-- Prioritizare după consum și ore funcționare
-- Înlocuire în weekend-uri și nopți
-- Instalare convertizoare pe ventilatoare și pompe
-- Testare și optimizare
+Upgradarea schimbătoarelor de căldură urmează, de obicei, după partea de motoare, cu recalibrarea proceselor de pasteurizare și răcire după montaj. Instalarea propriu-zisă și punerea în funcțiune revin echipei tehnice a fabricii sau unui integrator, cu suport tehnic din partea noastră și cu instruire pentru echipa de mentenanță la finalul lucrărilor.`,
+    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
 
-**Etapa 3 - Upgrade Transfer Termic (2 luni)**
-- Înlocuire schimbătoare pasteurizare
-- Instalare schimbătoare răcire noi
-- Optimizare circuit termic
-- Calibrare și validare procese
+- consumul de energie electrică raportat la volumul de lapte procesat
+- stabilitatea temperaturii de pasteurizare și de răcire în timp
+- frecvența opririlor pentru mentenanță pe linia de motoare și schimbătoare
+- nivelul de zgomot din hala de producție
+- rezultatele auditurilor de certificare privind siguranța alimentară
+- durata de valabilitate a produsului finit, ca indicator indirect al stabilității termice
 
-**Etapa 4 - Monitorizare și Optimizare (1 lună)**
-- Instalare sistem energy monitoring
-- Training echipă pentru operare optimă
-- Documentație pentru certificări
-- Raport final și recomandări`,
-    results_detailed: `**Rezultate după Primul An:**
-
-| Sistem | Consum Înainte | Consum După | Economie |
-|--------|----------------|-------------|----------|
-| Motoare | 1.850 MWh/an | 1.020 MWh/an | -45% |
-| Transfer termic | 890 MWh/an | 580 MWh/an | -35% |
-| Total fabrică | 4.200 MWh/an | 2.940 MWh/an | -30% |
-
-**Beneficii Operaționale:**
-- Reducere timp pasteurizare cu 15%
-- Temperatură constantă (±0.3°C vs ±1.5°C anterior)
-- Calitate produs îmbunătățită - durată valabilitate +2 zile
-- Zgomot redus în hală cu 8 dB
-- Certificare IFS menținută fără observații
-
-**Impact Financiar:**
-- Economie energie: ~126.000 €/an
-- Reducere mentenanță: ~18.000 €/an
-- ROI: 14 luni`,
-    testimonialIndustry: 'Director Producție, fabrică produse lactate',
-    testimonialQuote: 'Nu ne așteptam la o îmbunătățire atât de dramatică. Motoarele Siemens IE4 și convertizoarele SEW au transformat complet profilul de consum. Iar schimbătoarele Alfa Laval ne-au ajutat să îmbunătățim și calitatea produselor.',
+Comparate periodic cu perioada dinaintea modernizării, acești indicatori arată dacă investiția își justifică efortul de implementare.`,
     brands: ['Siemens', 'ABB', 'SEW Eurodrive', 'Alfa Laval', 'Kelvion'],
     brandSlugs: ['siemens', 'abb', 'sew', 'alfa-laval', 'kelvion'],
     products: ['Motoare electrice IE4', 'Convertizoare frecvență', 'Schimbătoare cu plăci', 'Motoreductoare'],
@@ -338,107 +184,53 @@ Principalele provocări identificate:
   {
     id: 4,
     slug: 'sistem-termic-centrala-cogenerare',
-    title: 'Optimizarea Sistemului Termic într-o Centrală de Cogenerare',
+    kind: 'ghid-aplicatie',
+    title: 'Ghid de aplicație: sistemul termic al unei centrale de cogenerare',
     shortTitle: 'Centrală Cogenerare',
     industry: 'Energie și Termoficare',
     industrySlug: 'energie',
-    excerpt: 'Modernizarea schimbătoarelor de căldură și a sistemului de control într-o centrală de cogenerare de 50 MW, cu creșterea eficienței globale cu 8%.',
+    excerpt: 'Cum abordăm modernizarea schimbătoarelor de căldură și a robineților de reglaj dintr-o centrală de cogenerare, fără a opri turbinele existente.',
     heroImage: '/case-studies/centrala-cogenerare.jpg',
-    duration: '10 luni',
-    year: '2023',
-    results: {
-      efficiency: '+8%',
-      heatRecovery: '+12%',
-      availability: '98.5%',
-      emissions: '-15%',
-    },
-    challenge: `O centrală de cogenerare cu o capacitate de 50 MW electric și 60 MW termic se confrunta cu scăderea eficienței după 15 ani de funcționare:
+    challenge: `Centralele de cogenerare mai vechi pierd treptat din eficiența globală, chiar dacă turbinele și cazanele sunt încă în stare bună de funcționare. Cauza este, de cele mai multe ori, în lanțul de recuperare a căldurii: schimbătoare cu depuneri și coroziune, robineți de reglaj cu etanșare slabă și un sistem de control fără optimizare în timp real.
 
-- Eficiența globală scăzuse de la 85% la 78%
-- Schimbătoarele de căldură cu depuneri și coroziune
-- Pierderi termice semnificative în recuperarea căldurii
-- Sistem de control învechit, fără optimizare în timp real
-- Robineții de reglaj cu probleme de etanșare
-- Cerințe noi de raportare emisii și eficiență`,
-    solution: `Am propus un program de modernizare focusat pe recuperarea căldurii și controlul precis al procesului, păstrând turbinele și cazanele existente.
+Probleme tipice pentru acest tip de instalație:
+- scăderea treptată a eficienței globale față de proiectul inițial
+- schimbătoare de căldură cu depuneri, care reduc transferul termic
+- pierderi termice în circuitul de recuperare a căldurii
+- robineți de reglaj cu probleme de etanșare sau de uzură
+- sisteme de control învechite, fără optimizare automată a punctului de funcționare
+- cerințe tot mai stricte de raportare a emisiilor și a eficienței`,
+    solution: `Recomandăm un program de modernizare axat pe recuperarea căldurii și pe controlul precis al procesului, cu păstrarea turbinelor și cazanelor existente.
 
-**Schimbătoare de Căldură - Alfa Laval și Kelvion**
+**Schimbătoare Alfa Laval - seria TL și TS**
+Schimbătoare pentru preîncălzirea apei de alimentare, cu plăci din titan acolo unde este nevoie de rezistență la coroziune și cu pierdere de sarcină redusă.
 
-**Schimbătoare Alfa Laval** - Seria TL și TS
-- 4 schimbătoare mari pentru preîncălzire apă alimentare
-- Capacitate: 15-25 MW termic fiecare
-- Plăci din titan pentru rezistență la coroziune
-- Pierdere de sarcină minimă
+**Schimbătoare Kelvion - seria GBS și GBH**
+Schimbătoare pentru economizoare, cu design spiral orientat spre recuperare maximă de căldură și materiale potrivite pentru temperaturi ridicate.
 
-**Schimbătoare Kelvion** - Seria GBS și GBH
-- 6 schimbătoare pentru economizoare
-- Design spiral pentru recuperare maximă
-- Materiale rezistente la temperaturi înalte
-- Auto-curățare prin design
+**Robineți ARI Armaturen - seria STEVI și FABA**
+Robineți de reglaj pentru circuitele termice, cu caracteristică egal-procentuală pentru control fin și actuatoare pneumatice cu poziționer digital.
 
-**Robineți de Control - ARI Armaturen și Spirax Sarco**
+**Oale de condens și regulatoare Spirax Sarco**
+Oale de condens termodinamice și regulatoare de presiune auto-acționate, completate cu separatoare de impurități pentru un circuit de recuperare a condensului mai curat.
 
-**Robineți ARI Armaturen** - Seria STEVI și FABA
-- 24 robineți de reglaj pentru circuite termice
-- Caracteristică egală procentuală pentru control fin
-- Actuatoare pneumatice cu positioner digital
-- Etanșare clasa VI
+**Sistem de control ABB**
+Sistem DCS din familia ABB Ability Symphony Plus, care permite optimizarea în timp real a punctului de funcționare, monitorizarea eficienței pe fiecare schimbător și raportarea automată a emisiilor.`,
+    implementation: `Recomandăm o abordare de tip inginerie-achiziție-execuție, cu accent pe minimizarea timpului de oprire a centralei.
 
-**Robineți Spirax Sarco** - Oale de condens și regulatoare
-- 18 oale de condens termodinamice
-- 8 regulatoare de presiune auto-acționate
-- Separatoare de impurități
-- Sistem de recuperare condens
+Faza de inginerie stabilește soluția prin simulări termice și pregătește achiziția echipamentelor; schimbătoarele mari au, de regulă, termene de fabricație de câteva săptămâni, comunicate odată cu oferta. Lucrările la conducte și suporți se pot prefabrica înainte de oprire, astfel încât montajul efectiv al schimbătoarelor să se desfășoare într-o oprire planificată cât mai scurtă.
 
-**Sistem de Control ABB**
-- DCS ABB Ability Symphony Plus
-- Optimizare în timp real a punctului de funcționare
-- Monitorizare eficiență pe fiecare schimbător
-- Raportare automată emisii`,
-    implementation: `**Faza 1 - Engineering și Procurement (3 luni)**
-- Proiectare de detaliu cu simulări termice
-- Achiziție echipamente (lead time schimbătoare: 12 săptămâni)
-- Prefabricare conducte și suporți
-- Planificare oprire tehnică
+Robineții și oalele de condens se pot înlocui, parțial, în paralel cu funcționarea normală a instalației, acolo unde configurația circuitului permite acest lucru. Integrarea sistemului de control și optimizarea buclelor de reglaj se fac spre finalul proiectului, cu instruirea operatorilor înainte de repunerea în regim normal. Montajul rămâne, de regulă, în sarcina echipei tehnice a centralei sau a unui contractor specializat.`,
+    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
 
-**Faza 2 - Înlocuire Schimbătoare (3 luni)**
-- Lucrări în paralel cu funcționarea normală unde posibil
-- Oprire planificată de 21 zile pentru schimbătoarele critice
-- Testare la presiune și temperatură
-- Izolație termică nouă
+- eficiența globală a centralei, electrică și termică împreună
+- gradul de recuperare a căldurii din circuitele de economizor
+- disponibilitatea instalației, respectiv timpul de funcționare fără oprire neplanificată
+- consumul propriu de energie al centralei
+- frecvența intervențiilor pe robineți și pe oalele de condens
+- conformitatea rapoartelor de emisii transmise autorității competente
 
-**Faza 3 - Sistem Robineți și Oale Condens (2 luni)**
-- Înlocuire robineți de reglaj pe circuite principale
-- Instalare oale de condens noi
-- Montaj separatoare și filtre
-- Calibrare actuatoare
-
-**Faza 4 - Integrare Control și Optimizare (2 luni)**
-- Upgrade sistem control
-- Implementare algoritmi optimizare
-- Testare și tuning bucle de reglaj
-- Training operatori`,
-    results_detailed: `**Performanțe Măsurate după 12 luni:**
-
-| Indicator | Înainte | După | Îmbunătățire |
-|-----------|---------|------|--------------|
-| Eficiență globală | 78.2% | 86.4% | +8.2% |
-| Recuperare căldură | 71% | 83% | +12% |
-| Disponibilitate | 94.2% | 98.5% | +4.3% |
-| Consum propriu | 5.8% | 4.9% | -0.9% |
-
-**Impact Economic:**
-- Producție suplimentară: ~4.200 MWh termic/an
-- Valoare economie: ~210.000 €/an
-- Reducere emisii CO2: 2.100 tone/an
-- ROI: 2.8 ani
-
-**Conformitate:**
-- Îndeplinire cerințe BAT (Best Available Technology)
-- Raportare automată către ANRE
-- Pregătire pentru certificate verzi`,
-    testimonialIndustry: 'Director Tehnic, operator centrală termică',
-    testimonialQuote: 'Schimbătoarele Alfa Laval și Kelvion au fost alegerea perfectă pentru condițiile noastre. Împreună cu robineții ARI Armaturen, am reușit să recuperăm eficiența pierdută în ani de operare.',
+Urmărirea acestor indicatori pe parcursul unui ciclu complet de operare oferă o imagine mai fidelă decât o simplă comparație înainte-după la câteva luni de la punerea în funcțiune.`,
     brands: ['Alfa Laval', 'Kelvion', 'ARI Armaturen', 'Spirax Sarco', 'ABB'],
     brandSlugs: ['alfa-laval', 'kelvion', 'ari-armaturen', 'spirax-sarco', 'abb'],
     products: ['Schimbătoare cu plăci', 'Robineți de reglaj', 'Oale de condens', 'Sisteme control DCS'],
@@ -451,100 +243,53 @@ Principalele provocări identificate:
   {
     id: 5,
     slug: 'automatizare-statie-compresoare-minerit',
-    title: 'Automatizarea Stației de Compresoare pentru o Exploatare Minieră',
+    kind: 'ghid-aplicatie',
+    title: 'Ghid de aplicație: stația de aer comprimat într-o exploatare minieră',
     shortTitle: 'Stație Compresoare Minerit',
     industry: 'Minerit și Extractie',
     industrySlug: 'minerit',
-    excerpt: 'Modernizarea completă a stației de aer comprimat pentru o exploatare minieră, cu reducerea consumului energetic cu 38% și creșterea disponibilității la 99%.',
+    excerpt: 'Cum reducem pierderile de aer comprimat și modernizăm suflantele și automatizarea unei stații de compresoare dintr-o exploatare minieră activă.',
     heroImage: '/case-studies/statie-compresoare.jpg',
-    duration: '5 luni',
-    year: '2024',
-    results: {
-      energySaving: '38%',
-      availability: '99.1%',
-      airQuality: 'ISO 8573-1',
-      maintenance: '-55%',
-    },
-    challenge: `O exploatare minieră importantă din zona Apusenilor opera o stație de aer comprimat cu 5 compresoare cu șurub de peste 12 ani vechime. Problemele principale:
+    challenge: `Stațiile de aer comprimat dintr-o exploatare minieră lucrează, de multe ori, cu echipamente supradimensionate față de consumul real, ceea ce duce la funcționare în gol o parte însemnată din timp. La aceasta se adaugă frecvent o rețea de distribuție cu pierderi importante, nedetectate din lipsa unui audit dedicat.
 
-- Consum energetic foarte ridicat (aerul comprimat = 30% din total)
-- Compresoare supradimensionate care funcționau în gol 40% din timp
-- Calitate aer neconformă pentru uneltele pneumatice noi
-- Opriri frecvente din cauza supraîncălzirii
-- Pierderi în rețea estimate la 25%
-- Lipsa monitorizării consumului per sector`,
-    solution: `Am implementat o soluție completă care a inclus atât echipamente noi, cât și optimizarea rețelei de distribuție.
+Probleme frecvente la acest tip de stație:
+- consum energetic ridicat, cu aerul comprimat ca resursă costisitoare
+- echipamente supradimensionate față de profilul real de consum
+- calitate a aerului neconformă pentru sculele pneumatice mai noi
+- opriri repetate din cauza supraîncălzirii compresoarelor
+- pierderi semnificative în rețeaua de distribuție a aerului
+- lipsa monitorizării consumului pe sectoare sau puncte de utilizare`,
+    solution: `Pentru acest tip de proiect recomandăm o soluție care combină echipamente noi cu optimizarea rețelei existente de distribuție a aerului.
 
-**Suflante și Compresoare - Becker și Atlas Copco**
+**Suflante Becker - seria VTLF și VXLF**
+Suflante cu lamele pentru transport pneumatic, cu funcționare fără ulei acolo unde este nevoie de aer curat și cu mentenanță simplificată față de soluțiile mai vechi.
 
-**Suflante Becker** - Seria VTLF și VXLF
-- 2 suflante cu lamele pentru transport pneumatic
-- Funcționare fără ulei - aer curat garantat
-- Eficiență ridicată la presiuni joase
-- Mentenanță simplificată
+**Compresoare cu turație variabilă**
+Recomandăm compresoare cu șurub cu turație variabilă, dimensionate pe profilul real de consum măsurat în etapa de audit, pentru a evita funcționarea în gol a echipamentelor supradimensionate.
 
-**Compresoare Atlas Copco** (furnizate prin parteneriat)
-- 3 compresoare cu șurub VSD (turație variabilă)
-- Putere: 75 kW, 110 kW, 160 kW
-- Clasă 0 oil-free pentru aplicații critice
-- Recuperare căldură integrată
+**Sistem de tratare a aerului**
+Uscătoare prin adsorbție, filtre de particule și de ulei, separatoare automate de condens și monitorizare a punctului de rouă, alese în funcție de clasa de calitate cerută de sculele pneumatice utilizate.
 
-**Sistem de Tratare Aer**
-- Uscătoare prin adsorbție
-- Filtre particule și ulei
-- Separatoare condens automate
-- Monitorizare punct de rouă
+**Ventilatoare industriale pentru răcirea stației**
+Ventilatoare axiale cu motoare de eficiență ridicată, cu pornire în funcție de temperatură, pentru a menține stația într-un regim termic sigur.
 
-**Ventilatoare Industriale - Pentru răcire stație**
-- 4 ventilatoare axiale pentru ventilație hală
-- Motoare IE3 cu eficiență ridicată
-- Control în funcție de temperatură
-- Nivel zgomot redus
+**Automatizare Siemens - seria S7-1200**
+PLC pentru control secvențial și management inteligent al încărcării între echipamente, cu monitorizare a consumului pe sectoare și detectare a pierderilor din rețea.`,
+    implementation: `Recomandăm începerea proiectului cu un audit dedicat detectării pierderilor, înainte de a decide dimensionarea echipamentelor noi.
 
-**Automatizare Siemens**
-- PLC S7-1200 pentru control secvențial
-- Management încărcare inteligent
-- Monitorizare consum per sector
-- Detectare pierderi în rețea`,
-    implementation: `**Faza 1 - Audit și Detectare Pierderi (1 lună)**
-- Audit energetic detaliat
-- Detectare pierderi cu ultrasunete (găsite 127 puncte!)
-- Măsurare profil consum 24/7
-- Dimensionare optimă echipamente noi
+Auditul combină măsurarea profilului de consum pe durata unui ciclu complet de producție cu detectarea pierderilor din rețea, de obicei cu ultrasunete. Reparațiile de rețea se recomandă înaintea instalării echipamentelor noi, pentru a nu dimensiona compresoarele și suflantele pe un consum umflat artificial de scurgeri. Urmează montarea suflantelor Becker, a compresoarelor cu turație variabilă și a sistemului de tratare a aerului, integrate în rețeaua existentă.
 
-**Faza 2 - Reparare Pierderi și Pregătire (1 lună)**
-- Reparare 95% din pierderile detectate
-- Pregătire infrastructură electrică
-- Montaj conducte noi pentru zone critice
+Etapa finală de automatizare programează secvențele de pornire și oprire între echipamente și pune în funcțiune monitorizarea consumului pe sectoare. Montajul este realizat, de regulă, de echipa tehnică a exploatării sau de un contractor local, cu instruirea operatorilor la finalul proiectului.`,
+    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
 
-**Faza 3 - Instalare Echipamente (2 luni)**
-- Montaj compresoare noi
-- Instalare suflante Becker
-- Sistem tratare aer complet
-- Integrare în rețea existentă
+- consumul de energie al stației raportat la volumul de aer livrat
+- nivelul pierderilor din rețeaua de distribuție, verificat periodic cu ultrasunete
+- disponibilitatea stației, respectiv frecvența opririlor neplanificate
+- calitatea aerului livrat față de clasa cerută de sculele pneumatice
+- costul de mentenanță pe compresor și pe suflantă
+- stabilitatea presiunii în punctele de utilizare din rețea
 
-**Faza 4 - Automatizare și Optimizare (1 lună)**
-- Programare sistem control
-- Setare secvențe pornire/oprire
-- Calibrare monitorizare
-- Training operatori`,
-    results_detailed: `**Rezultate Măsurate după 8 luni:**
-
-| Parametru | Înainte | După | Îmbunătățire |
-|-----------|---------|------|--------------|
-| Consum energie | 2.1 GWh/an | 1.3 GWh/an | -38% |
-| Pierderi rețea | 25% | 8% | -17% |
-| Disponibilitate | 89% | 99.1% | +10.1% |
-| Calitate aer | Clasa 4 | Clasa 1 | Conformă |
-| Cost mentenanță | 95.000 €/an | 43.000 €/an | -55% |
-
-**Beneficii Operaționale:**
-- Presiune constantă în rețea (±0.1 bar)
-- Unelte pneumatice cu durată de viață crescută
-- Recuperare căldură pentru încălzire vestiare
-- Zero opriri neplanificate în 8 luni`,
-    testimonialIndustry: 'Șef Departament Mentenanță, exploatare minieră',
-    testimonialQuote: 'Am fost surprinși să descoperim că pierdeam 25% din aerul comprimat prin scurgeri. După reparații și instalarea compresoarelor VSD, consumul a scăzut dramatic. Suflantele Becker pentru transportul pneumatic funcționează impecabil.',
+Verificați acești indicatori la intervale regulate, nu doar imediat după punerea în funcțiune, pentru a distinge un beneficiu real de o îmbunătățire temporară.`,
     brands: ['Becker', 'Siemens'],
     brandSlugs: ['becker', 'siemens'],
     products: ['Suflante cu lamele', 'Compresoare cu șurub', 'Ventilatoare industriale', 'Automatizare'],

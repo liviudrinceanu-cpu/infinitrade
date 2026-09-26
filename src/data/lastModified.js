@@ -19,7 +19,7 @@ export const lastModified = {
   industrii: '2026-02-14', // src/app/industrii/page.js (index; individual industry pages use industries date below)
   faq: '2026-09-26', // src/app/faq/page.js
   certificari: '2026-02-14', // src/app/certificari/page.js
-  testimoniale: '2026-02-14', // src/app/testimoniale/page.js
+  testimoniale: '2026-09-26', // src/app/testimoniale/page.js
   ghidComparativ: '2026-02-14', // src/app/ghid-comparativ/page.js
   ghidAchizitiiSeap: '2026-09-26', // src/app/ghid-achizitii-seap/page.js
   gdpr: '2026-02-14', // src/app/gdpr/page.js
@@ -34,7 +34,7 @@ export const lastModified = {
   categories: '2026-09-26', // src/data/products.js + src/data/equipmentCategories.js
   brands: '2026-09-26', // src/data/allBrandsIndex.js + src/data/brandContent.js
   industries: '2026-09-26', // src/data/industries.js
-  caseStudies: '2026-02-14', // src/data/caseStudies.js
+  caseStudies: '2026-09-26', // src/data/caseStudies.js
 
   // Blog does NOT use this map - it already uses article.dateModified || article.date per article. Keep that logic.
 };

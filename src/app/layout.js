@@ -13,7 +13,9 @@ const WebVitals = dynamic(() => import('@/components/WebVitals'), { ssr: false }
 // Optimized font loading - only load latin subset with swap display
 // This prevents FOIT (Flash of Invisible Text) and improves LCP
 const inter = Inter({
-  subsets: ['latin'],
+  // v18: 'latin-ext' carries ă, ș, ț — with 'latin' alone every Romanian
+  // word rendered those letters in the fallback font.
+  subsets: ['latin', 'latin-ext'],
   display: 'swap',
   variable: '--font-inter',
   preload: true,
