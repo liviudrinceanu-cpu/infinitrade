@@ -252,11 +252,78 @@ Pentru piața din România, Comer Industries are sens la utilajele agricole de m
     ],
     infinitrade: `Pentru Comer Industries lucrăm strict din informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pe această gamă — spunem clar ce putem și ce nu putem confirma pentru fiecare cerere în parte. Componentele de transmisie se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o identificare corectă, clientul trebuie să ne trimită tipul și modelul utilajului pe care se montează componenta, plus orice cod sau referință vizibilă pe piesa existentă. Nu promitem disponibilitate permanentă din stoc pe niciun cod Comer Industries și nu confirmăm compatibilitatea unei componente fără verificare punctuală.`,
     limitation: "Nu putem confirma anul exact al fondării companiei sau orașul precis al sediului central din surse publice, iar pentru componentele de transmisie personalizate pe un utilaj anume identificarea corectă necesită codul de pe placa constructorului.",
+    productCodes: [
+      {
+        "code": "PGR",
+        "description": "Familie de reductoare pentru tracțiune pe roți (Wheel Drive)"
+      },
+      {
+        "code": "128",
+        "description": "Punte cu reducție planetară și diferențial multidisc autoblocant"
+      },
+      {
+        "code": "FC08",
+        "description": "Serie nouă de punți cu densitate de putere ridicată"
+      },
+      {
+        "code": "FCH8",
+        "description": "Punte pentru încărcătoare frontale compacte"
+      },
+      {
+        "code": "S128",
+        "description": "Punte pentru platforme telescopice de tip tele-boom-handler"
+      },
+      {
+        "code": "SP10",
+        "description": "Punte pentru platforme de lucru la înălțime (aeriene)"
+      },
+      {
+        "code": "W-Line",
+        "description": "Serie standard de arbori cardanici cu blocare QS"
+      },
+      {
+        "code": "P-Line",
+        "description": "Serie premium de arbori cardanici cu capacitate sporită"
+      },
+      {
+        "code": "P675",
+        "description": "Articulație Power Drive de unghi mare din seria P-Line"
+      },
+      {
+        "code": "Series 980",
+        "description": "Arbori cardanici Synergy, cuplu static până la 39.000 Nm"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seria W-Line și P-Line de la Comer Industries?",
+        "a": "W-Line este seria standard de arbori cardanici, dotată cu sistem de blocare QS pentru montare rapidă și sigură, în timp ce P-Line este gama premium, cu capacitate de transmisie superioară, incluzând articulații de unghi mare precum P675. Alegerea depinde de cuplul necesar și de unghiurile de lucru ale transmisiei."
+      },
+      {
+        "q": "Ce este seria 980 de arbori cardanici Comer Industries?",
+        "a": "Seria 980, comercializată sub marca Synergy, este o gamă de arbori cardanici pentru transmisii agricole grele, cu cupluri statice de până la 39.000 Nm și configurații constructive multiple, de la variante cu compensare de lungime până la cuplaje scurte sudate. Este destinată utilajelor cu motoare și transmisii de putere mare."
+      },
+      {
+        "q": "Ce informații sunt necesare pentru o ofertă de punți sau reductoare Comer Industries?",
+        "a": "Avem nevoie de tipul utilajului pe care se montează componenta, sarcina maximă de operare și cuplul necesar la roată sau la priza de putere. Cu aceste detalii putem indica familia potrivită, PGR pentru tracțiune pe roți sau FC08 pentru punți de mare densitate, urmând confirmarea pe documentația tehnică a producătorului."
+      },
+      {
+        "q": "Livrați componente Comer Industries în România?",
+        "a": "Punțile, reductoarele și arborii cardanici Comer Industries se aduc la comandă, cu un termen estimat de 2–6 săptămâni, deoarece nu ținem pe raft această gamă, fiecare familie având variante numeroase în funcție de utilaj."
+      },
+      {
+        "q": "Ce este puntea S128 din portofoliul Comer Industries?",
+        "a": "S128 este o punte folosită la platforme telescopice de tip tele-boom-handler, integrând reducția și diferențialul necesare pentru tracțiune pe teren dificil. Astfel de punți sunt proiectate împreună cu producătorul utilajului, pentru a se potrivi exact cu geometria și sarcina platformei respective."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"PTO Drive Shafts & Clutches","url":"https://www.comerindustries.com/en/products/pto-driveshafts-clutches/","publisher":"Comer Industries","accessed":"2026-09-26"},
+      {"title":"Axles","url":"https://www.comerindustries.com/en/products/axles/","publisher":"Comer Industries","accessed":"2026-09-26"},
+      {"title":"MECHANICS Synergy Driveshafts – Series 980","url":"https://media.comerindustries.com/production/2023/04/Mechanics-Synergy-Driveshafts-2021-series-980-EN-full.pdf","publisher":"Comer Industries","accessed":"2026-09-26"},
       { title: "Comer Industries — Solutions", url: "https://www.comerindustries.com/en/solutions/", publisher: "Comer Industries", accessed: "2026-09-22" },
       { title: "Comer Industries — pagina principală", url: "https://www.comerindustries.com", publisher: "Comer Industries", accessed: "2026-09-22" }
     ],
@@ -531,11 +598,93 @@ Pentru instalațiile din România, Ecoflam are sens la centralele termice indust
     ],
     infinitrade: `Pentru Ecoflam nu deținem date proprii de stoc și lucrăm strict cu ce publică producătorul pe propriul site, inclusiv corecția de mai sus privind adresa oficială reală. Arzătoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită puterea termică a cazanului pe care se montează arzătorul, tipul de combustibil (gaz sau lichid) și, dacă e posibil, modelul cazanului. Nu promitem disponibilitate permanentă din stoc pe niciun model Ecoflam și nu confirmăm compatibilitatea cu un cazan anume fără verificare punctuală.`,
     limitation: "Nu am putut confirma din sursele accesate parametrii tehnici detaliați ai fiecărui model din seriile MAXFLAM și OILFLAM, astfel încât orice ofertă necesită verificare punctuală la producător pe baza puterii termice a cazanului clientului.",
+    productCodes: [
+      {
+        "code": "maxflam 10",
+        "description": "Arzător monobloc pe combustibil greu, putere mică din familia MAXFLAM"
+      },
+      {
+        "code": "maxflam 30 ab",
+        "description": "Arzător pe combustibil greu, 205–410 kW, ardere în două trepte"
+      },
+      {
+        "code": "maxflam 50 ab",
+        "description": "Arzător pe combustibil greu, treaptă de putere superioară din familia MAXFLAM"
+      },
+      {
+        "code": "oilflam 80.1 ab",
+        "description": "Arzător monobloc pe combustibil lichid din familia OILFLAM"
+      },
+      {
+        "code": "oilflam 80.1 pr",
+        "description": "Arzător pe combustibil lichid cu rampă progresivă, familia OILFLAM"
+      },
+      {
+        "code": "oilflam 170.1 ab",
+        "description": "Arzător pe combustibil lichid, treaptă de putere superioară OILFLAM"
+      },
+      {
+        "code": "oilflam 170.1 pr",
+        "description": "Arzător pe combustibil lichid cu rampă progresivă, putere mare"
+      },
+      {
+        "code": "BLU 700.1 LN PAB",
+        "description": "Arzător pe gaz natural, emisii reduse de NOx clasa 3"
+      },
+      {
+        "code": "BLU 1000.1 LN PAB",
+        "description": "Arzător pe gaz natural sau GPL, 280–875 kW, NOx clasa 3"
+      },
+      {
+        "code": "BLU 1500.3 LN PR",
+        "description": "Arzător pe gaz natural, treaptă de putere mare din familia BLU"
+      },
+      {
+        "code": "BLU 5000.1 PR",
+        "description": "Arzător pe gaz natural de mare capacitate, familia BLU"
+      },
+      {
+        "code": "BLU 8000.1 PR",
+        "description": "Arzător pe gaz natural, treaptă de putere maximă din familia BLU"
+      },
+      {
+        "code": "multicalor 45",
+        "description": "Arzător dual-fuel gaz natural/motorină, putere mică"
+      },
+      {
+        "code": "multicalor 100",
+        "description": "Arzător dual-fuel gaz natural/motorină, putere mare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între arzătoarele Ecoflam din familia MAXFLAM și OILFLAM?",
+        "a": "MAXFLAM este familia de arzătoare monobloc pentru combustibil greu, cu vâscozitate mare, precum modelul maxflam 30 ab care acoperă 205–410 kW, în timp ce OILFLAM este destinată combustibilului lichid ușor. Alegerea între cele două depinde de tipul de combustibil folosit efectiv în instalația termică."
+      },
+      {
+        "q": "Ce este arzătorul Ecoflam BLU 1000.1 LN PAB?",
+        "a": "BLU 1000.1 LN PAB este un arzător pe gaz natural sau GPL, cu funcționare în două trepte, acoperind un interval de putere de la 280 la 875 kW, încadrat la emisii reduse de NOx clasa 3 conform standardului EN676. Este folosit în instalații industriale unde limitarea emisiilor este o cerință de proiect."
+      },
+      {
+        "q": "Ce date sunt necesare pentru o ofertă de arzătoare Ecoflam?",
+        "a": "Avem nevoie de puterea termică necesară, tipul de combustibil disponibil, gaz, combustibil lichid sau combustibil greu, și dacă este cerută funcționare duală, ca la seria multicalor. Pe baza acestor informații putem indica familia potrivită din gama Ecoflam, urmând confirmarea pe fișele tehnice publicate de producător."
+      },
+      {
+        "q": "Livrați arzătoare Ecoflam în România?",
+        "a": "Arzătoarele Ecoflam se aduc la comandă direct din gama producătorului, într-un termen mediu de 2–6 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de trepte de putere și combustibili acoperiți."
+      },
+      {
+        "q": "Ce este arzătorul dual-fuel multicalor de la Ecoflam?",
+        "a": "Multicalor este familia de arzătoare Ecoflam capabile să funcționeze fie pe gaz natural, fie pe motorină, oferind flexibilitate acolo unde alimentarea cu un singur combustibil nu este garantată permanent. Variantele multicalor 45 și multicalor 100 acoperă puteri diferite, de la instalații mici până la cele industriale."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"MAXFLAM 30 AB – pagină produs","url":"https://www.ecoflam-burners.com/int/en/range/heavy-oil/43/maxflam/4/heavy-oil/1922/maxflam-30-ab","publisher":"Ecoflam Bruciatori S.p.A.","accessed":"2026-09-26"},
+      {"title":"BLU 1000.1 LN PAB – pagină produs","url":"https://www.ecoflam-burners.com/int/en/range/gas/40/blu/1/natural-gas/1816/blu-1000-1-ln-pab","publisher":"Ecoflam Bruciatori S.p.A.","accessed":"2026-09-26"},
       { title: "Ecoflam Bruciatori — pagina principală", url: "https://www.ecoflam-burners.com", publisher: "Ecoflam Bruciatori S.p.A.", accessed: "2026-09-22" },
       { title: "Arena Instalațiilor — produse ECOFLAM", url: "https://www.arenainstalatiilor.ro/ecoflam-b328-p1", publisher: "Arena Instalațiilor", accessed: "2026-09-22" }
     ],

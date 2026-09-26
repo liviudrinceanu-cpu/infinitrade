@@ -433,11 +433,89 @@ Pentru piața din România, gama Traco Power are sens la echipamente electronice
     ],
     infinitrade: `Informațiile despre Traco Power din această pagină provin din surse publice ale producătorului; nu deținem date proprii de stoc pentru modulele din gama TSR, TMR, THM sau TEN. Aducem produsele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de tensiunea de intrare, tensiunea de ieșire, puterea sau curentul necesar și, dacă e cazul, cerința de izolare galvanică. Nu promitem disponibilitate permanentă din stoc pentru variantele cu tensiuni de intrare speciale.`,
     limitation: "Nu putem confirma sediul exact al producătorului sau certificările tehnice complete ale fiecărei serii, informații care nu apar clar pe paginile accesate.",
+    productCodes: [
+      {
+        "code": "TSR 1",
+        "description": "Convertizor DC/DC neizolat POL, 1 A"
+      },
+      {
+        "code": "TSR 3N",
+        "description": "Convertizor DC/DC neizolat POL, 3 A"
+      },
+      {
+        "code": "TMR 3",
+        "description": "Convertizor DC/DC izolat, 3 W, interval de intrare 2:1"
+      },
+      {
+        "code": "TMR 6",
+        "description": "Convertizor DC/DC izolat, putere mai mare din familia TMR"
+      },
+      {
+        "code": "TMR 10WIR",
+        "description": "Convertizor DC/DC izolat, 10 W, interval larg de intrare"
+      },
+      {
+        "code": "TXL 025",
+        "description": "Sursă de alimentare AC/DC încapsulată, 25 W"
+      },
+      {
+        "code": "TXL 060/070",
+        "description": "Sursă de alimentare AC/DC încapsulată, 50–70 W"
+      },
+      {
+        "code": "TXL 100",
+        "description": "Sursă de alimentare AC/DC încapsulată, 100 W"
+      },
+      {
+        "code": "TXL 350",
+        "description": "Sursă de alimentare AC/DC încapsulată, 350 W"
+      },
+      {
+        "code": "TXM",
+        "description": "Familie de surse de alimentare AC/DC modulare"
+      },
+      {
+        "code": "TEN 60WIN",
+        "description": "Convertizor DC/DC izolat din familia TEN, 60 W"
+      },
+      {
+        "code": "THM 10",
+        "description": "Modul hibrid DC/DC, 10 W"
+      },
+      {
+        "code": "TML 30",
+        "description": "Convertizor DC/DC din familia TML, 30 W"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile Traco Power TSR 1 și TMR 3?",
+        "a": "TSR 1 este un convertizor DC/DC neizolat de tip POL, folosit pentru reglarea locală a tensiunii direct lângă circuitul consumator, în timp ce TMR 3 este un convertizor izolat de 3 W, cu interval larg de intrare 2:1, potrivit acolo unde este nevoie de separare galvanică între intrare și ieșire. Alegerea depinde de cerința de izolare a aplicației."
+      },
+      {
+        "q": "Ce este familia TXL de la Traco Power și în ce puteri este disponibilă?",
+        "a": "TXL este o familie de surse de alimentare AC/DC încapsulate, disponibilă în trepte de putere de la 25 W, prin variantele 060/070, până la 100 W și 350 W. Alegerea modelului potrivit depinde de puterea necesară pentru echipamentul alimentat și de spațiul disponibil pentru montaj în carcasă."
+      },
+      {
+        "q": "Ce parametri sunt necesari pentru o ofertă de convertizoare Traco Power?",
+        "a": "Avem nevoie de tensiunea de intrare disponibilă, tensiunea și curentul de ieșire dorite, precum și de cerința de izolare galvanică între circuite. Cu aceste date putem indica familia potrivită, TSR, TMR, TXL sau TEN, urmând confirmarea variantei exacte pe baza fișelor tehnice publicate de producător."
+      },
+      {
+        "q": "Livrați convertizoare Traco Power în România?",
+        "a": "Convertizoarele și sursele Traco Power se procură direct de la producător, la comandă, într-un termen orientativ de 2–6 săptămâni, întrucât nu ținem pe raft o gamă atât de variată de puteri și tensiuni de intrare."
+      },
+      {
+        "q": "Ce este modulul hibrid THM 10 din portofoliul Traco Power?",
+        "a": "THM 10 este un modul hibrid DC/DC de 10 W din gama Traco Power, folosit atunci când aplicația are nevoie de o soluție de conversie compactă cu fiabilitate ridicată. Astfel de module hibride combină componente discrete într-o carcasă unică, reducând spațiul ocupat pe placa de circuit."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Non-Isolated DC/DC Converter (POL) TSR 1 Series, 1 A","url":"https://www.tracopower.com/products/tsr1.pdf","publisher":"Traco Power","accessed":"2026-09-26"},
+      {"title":"DC/DC Converter TMR 3 Series, 3 Watt","url":"https://www.tracopower.com/products/tmr3.pdf","publisher":"Traco Power","accessed":"2026-09-26"},
       { title: "TRACO Electronic AG - Reliable Power Solutions", url: "https://www.tracopower.com/", publisher: "TRACO Electronic AG", accessed: "2026-09-22" },
       { title: "TRACO Electronic AG - pagina principală", url: "https://www.tracopower.com", publisher: "TRACO Electronic AG", accessed: "2026-09-22" },
     ],

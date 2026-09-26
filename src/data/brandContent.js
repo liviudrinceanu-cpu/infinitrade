@@ -210,6 +210,12 @@ import { brandContentBatch115 } from './brandContent-batch115';
 import { brandContentBatch116 } from './brandContent-batch116';
 import { brandContentBatch117 } from './brandContent-batch117';
 import { brandContentBatch118 } from './brandContent-batch118';
+import { brandContentBatch119 } from './brandContent-batch119';
+import { brandContentBatch120 } from './brandContent-batch120';
+import { brandContentBatch121 } from './brandContent-batch121';
+import { brandContentBatch122 } from './brandContent-batch122';
+import { brandContentBatch123 } from './brandContent-batch123';
+import { brandContentBatch124 } from './brandContent-batch124';
 
 // Merge all batches into single object
 export const brandContent = {
@@ -331,6 +337,12 @@ export const brandContent = {
   ...brandContentBatch116,
   ...brandContentBatch117,
   ...brandContentBatch118,
+  ...brandContentBatch119,
+  ...brandContentBatch120,
+  ...brandContentBatch121,
+  ...brandContentBatch122,
+  ...brandContentBatch123,
+  ...brandContentBatch124,
 };
 
 /**

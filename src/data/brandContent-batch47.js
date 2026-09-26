@@ -1090,11 +1090,100 @@ Pentru piața din România, dispozitivele Bessey au sens la atelierele de tâmpl
     ],
     infinitrade: `Datele despre Bessey provin din site-ul oficial german al producătorului, iar orașul exact al sediului nu a apărut explicit pe pagina consultată, așa că îl lăsăm afară din text. Aducem clemele și dispozitivele Bessey la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne tipul de clemă sau dispozitiv căutat și deschiderea maximă necesară. Nu avem o disponibilitate permanentă din stoc pentru toate referințele din gamă — verificăm situația la fiecare cerere primită.`,
     limitation: "Nu putem confirma orașul exact al sediului Bessey sau certificări specifice de calitate, informații care nu au apărut explicit pe pagina oficială consultată.",
+    productCodes: [
+      {
+        "code": "CDF-C",
+        "description": "Menghină tip C din gama Bessey pentru fixare rapidă"
+      },
+      {
+        "code": "SC",
+        "description": "Menghină tip C standard din oțel, gama Bessey"
+      },
+      {
+        "code": "GZ",
+        "description": "Clemă de strângere din oțel integral, cu mâner din lemn"
+      },
+      {
+        "code": "GZ-KG",
+        "description": "Clemă de strângere din oțel integral, cu mâner rabatabil"
+      },
+      {
+        "code": "GZ-K",
+        "description": "Clemă de strângere din oțel integral, cu bară de manevră"
+      },
+      {
+        "code": "GZ-2K",
+        "description": "Clemă de strângere din oțel integral, cu mâner bicomponent"
+      },
+      {
+        "code": "GS",
+        "description": "Clemă de strângere classiX cu mâner din lemn"
+      },
+      {
+        "code": "GS-K",
+        "description": "Clemă de strângere classiX cu bară de manevră"
+      },
+      {
+        "code": "GUZ",
+        "description": "Clemă de strângere în formă de U, din oțel integral"
+      },
+      {
+        "code": "TG",
+        "description": "Clemă de strângere din fontă maleabilă, cu mâner din lemn"
+      },
+      {
+        "code": "WS3/WS6",
+        "description": "Clemă de colț și onglet, gama Bessey"
+      },
+      {
+        "code": "KRE",
+        "description": "Clemă paralelă K Body REVO pentru presiune pe suprafață"
+      },
+      {
+        "code": "AM",
+        "description": "Clemă mini din aluminiu, ușoară, gama Bessey"
+      },
+      {
+        "code": "BPC",
+        "description": "Set de clemare pentru țevi, gama Bessey"
+      },
+      {
+        "code": "EHK",
+        "description": "Clemă rapidă tip trigger, acționată cu un declanșator"
+      },
+      {
+        "code": "SM10",
+        "description": "Set de cleme pentru sudură, colțare metalice"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între clemele Bessey GZ și clema classiX GS?",
+        "a": "GZ este clema clasică din oțel integral, cu mâner din lemn, disponibilă și în variante cu bară de manevră (GZ-K) sau mâner bicomponent (GZ-2K), în timp ce GS din linia classiX este o versiune actualizată constructiv, păstrând principiul de strângere cu șurub, dar cu un design revizuit al corpului. Alegerea depinde de preferința pentru modelul clasic sau pentru cel mai recent."
+      },
+      {
+        "q": "Ce este clema K Body REVO (KRE) de la Bessey?",
+        "a": "KRE este o clemă paralelă din familia K Body REVO, folosită pentru presarea pe suprafață mare la lipirea panourilor de lemn, unde falca paralelă distribuie uniform forța de strângere pe toată lungimea piesei. Este preferată în tâmplărie față de o clemă simplă tip C atunci când suprafața de lipit este extinsă."
+      },
+      {
+        "q": "Ce trebuie precizat pentru o ofertă de scule de fixare Bessey?",
+        "a": "Avem nevoie de tipul de clemă dorit, C, paralelă sau de colț, deschiderea maximă necesară și materialul pieselor de fixat, lemn sau metal. Cu aceste date putem indica varianta potrivită din gama Bessey, de la GZ pentru uz general până la KRE pentru presare pe suprafață mare."
+      },
+      {
+        "q": "Livrați scule de fixare Bessey în România?",
+        "a": "Sculele de fixare Bessey se aduc la comandă din catalogul producătorului, într-un termen de aproximativ 2–6 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de dimensiuni și tipuri de cleme disponibile."
+      },
+      {
+        "q": "Ce este setul de clemare pentru țevi BPC de la Bessey?",
+        "a": "BPC este un set Bessey destinat asamblării prin lipire a pieselor tubulare sau cilindrice, unde clemele standard de tip C sau paralel nu se pretează formei rotunde. Setul este util în ateliere de tâmplărie sau reparații unde apar frecvent piese cilindrice de fixat temporar."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"C-clamp CDF-C","url":"https://bessey.de/en-gb/bessey-tool/products/clamping-tools/c-clamps/c-clamp-cdf-c","publisher":"Bessey","accessed":"2026-09-26"},
       { title: "Bessey - pagina principală", url: "https://bessey.de", publisher: "Bessey Tool GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Bessey - despre companie", url: "https://www.bessey.de", publisher: "Bessey Tool GmbH & Co. KG", accessed: "2026-09-22" },
     ],

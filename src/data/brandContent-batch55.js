@@ -880,11 +880,81 @@ Pentru fabricile și fermele din România care folosesc motoare electrice pe sca
     ],
     infinitrade: `Motoarele WEG le aducem la comandă prin rețeaua europeană a producătorului brazilian, fără date proprii despre stocul fabricilor din Brazilia — lucrăm cu ce confirmă cataloagele publice ale producătorului la momentul ofertei. Termenul orientativ de livrare este de 2-6 săptămâni, în funcție de puterea și configurația motorului cerute. Pentru o ofertă corectă avem nevoie de puterea, turația, tensiunea de alimentare și tipul de montaj dorit. Nu confirmăm disponibilitate imediată pentru motoarele de medie tensiune sau pentru configurațiile speciale precum Hydroduty.`,
     limitation: "Nu putem confirma disponibilitatea locală a motoarelor de medie tensiune și nu oferim configurare software WEG Pump Genius fără suport tehnic direct.",
+    productCodes: [
+      {
+        "code": "W22 Joasă Tensiune",
+        "description": "Motor electric trifazic, eficiență energetică, putere între 0,12 și 500 kW"
+      },
+      {
+        "code": "W22 Super Premium",
+        "description": "Motor cu eficiență peste standardul IE4, putere între 3 și 355 kW"
+      },
+      {
+        "code": "W21 Multimontaj Aluminiu",
+        "description": "Motor cu carcasă din aluminiu, picioare demontabile, montaj flexibil"
+      },
+      {
+        "code": "W22 Quattro",
+        "description": "Motor cu rotor cu magneți permanenți, pornire directă sau cu convertizor"
+      },
+      {
+        "code": "W22 Magnet",
+        "description": "Motor cu magneți permanenți, cuplu constant la turații variabile"
+      },
+      {
+        "code": "W40 Joasă Tensiune",
+        "description": "Motor cu construcție deschisă, pentru medii curate și uscate"
+      },
+      {
+        "code": "W22 Înaltă Tensiune",
+        "description": "Motor compact de înaltă tensiune, bobine preformate, 1,2 până la 6,6 kV"
+      },
+      {
+        "code": "HGF",
+        "description": "Motor de mare putere, cu analiză termică și mecanică avansată"
+      },
+      {
+        "code": "W50",
+        "description": "Motor industrial de mare putere, tensiune până la 6,6 kV"
+      },
+      {
+        "code": "W22Xd",
+        "description": "Motor antiexploziv ATEX pentru zonele 1 și 2, eficiență IE2"
+      },
+      {
+        "code": "W22 Motofreno",
+        "description": "Motor cu frână integrată pentru oprire și poziționare rapidă"
+      },
+      {
+        "code": "HydroDuty",
+        "description": "Motor cu carcasă inoxidabilă, înfășurări încapsulate, pentru medii cu spălare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între W22 Joasă Tensiune și W22 Super Premium de la WEG?",
+        "a": "W22 Joasă Tensiune acoperă gama generală de motoare trifazice pentru aplicații comerciale și industriale, cu puteri între 0,12 și 500 kW, în timp ce W22 Super Premium depășește standardul de eficiență IE4 conform IEC 60034-30-1, fiind gândit pentru operatori atenți la costul energetic pe termen lung. Alegerea depinde de bugetul de achiziție și de programul de funcționare al motorului."
+      },
+      {
+        "q": "Livrați motoare WEG la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă motoare din gamele W22, W21, W40 sau HydroDuty, alese după codul complet indicat de client și confirmat în cataloagele WEG. Nu păstrăm motoarele WEG în depozit propriu; le comandăm punctual, cu un termen estimat de 2-6 săptămâni. Recomandăm transmiterea puterii, turației și tipului de carcasă necesare."
+      },
+      {
+        "q": "Ce date trebuie să ofer pentru o ofertă la un motor WEG?",
+        "a": "Este nevoie de puterea în kW, turația nominală, tipul de carcasă și standardul de montaj, IEC sau NEMA, plus mediul de instalare, dacă este o zonă cu risc de explozie sau cu spălare frecventă. Plăcuța motorului existent, fotografiată integral, ne ajută să găsim varianta WEG echivalentă, fie ea W21, W22 sau HydroDuty."
+      },
+      {
+        "q": "Ce este motorul WEG W22Xd?",
+        "a": "W22Xd este un motor antiexploziv certificat ATEX, gândit pentru zonele 1 și 2 cu prezență de gaze inflamabile, respectând clasa de eficiență IE2. Se folosește în industria chimică, petrochimică sau în stații de tratare unde riscul de explozie impune motoare special construite. Confirmăm grupa de gaz și clasa de temperatură din fișa tehnică oficială înainte de comandă."
+      }
+    ],
     evidenceClass: "transactional",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"WEG - Linii de produse, piața europeană","url":"https://static.weg.net/medias/downloadcenter/hd9/h4a/WEG-lineas-de-productos-mercado-europeo-50020833-brochure-spanish-web.pdf","publisher":"WEG","accessed":"2026-09-26"},
+      {"title":"WEG W22 Three-Phase Electric Motor Technical Catalog","url":"https://static.weg.net/medias/downloadcenter/hf8/h29/WEG-w22-three-phase-electric-motor-50029265-brochure-english-web.pdf","publisher":"WEG","accessed":"2026-09-26"},
       { title: "WEG Institutional", url: "https://www.weg.net/institutional/US/en/", publisher: "WEG", accessed: "2026-09-22" },
       { title: "WEG Industries", url: "https://en.wikipedia.org/wiki/WEG_Industries", publisher: "Wikipedia", accessed: "2026-09-22" }
     ],

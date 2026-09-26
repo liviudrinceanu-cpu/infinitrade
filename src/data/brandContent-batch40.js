@@ -267,11 +267,81 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
     ],
     infinitrade: `Pentru NTN și NTN-SNR lucrăm din informațiile publice de pe site-ul producătorului și din istoricul companiei disponibil public — nu avem date proprii de stoc pentru această gamă și spunem deschis când o informație tehnică nu poate fi confirmată direct de noi. Aducem rulmenții, modulele liniare și componentele auto la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru ofertă avem nevoie de codul exact al rulmentului sau componentei; dacă nu-l aveți, trimiteți dimensiunile arborelui, tipul de sarcină și aplicația. Nu promitem disponibilitate permanentă din stoc — fiecare cod se verifică la comandă.`,
     limitation: "Nu putem confirma echivalențe exacte cu coduri de la alți producători de rulmenți fără verificare tehnică punctuală pe fiecare aplicație.",
+    productCodes: [
+      {
+        "code": "6200",
+        "description": "Rulment cu bile cu o singură rolă, execuție deschisă, alezaj 10 mm"
+      },
+      {
+        "code": "6300",
+        "description": "Rulment cu bile cu contact radial, o singură rolă, seria 6300"
+      },
+      {
+        "code": "UCP",
+        "description": "Unitate de rulment tip pillow block, seria Ultra-Class, cu acoperire anticorozivă"
+      },
+      {
+        "code": "UCPX",
+        "description": "Unitate pillow block cu șurub de fixare cu bilă, seria Ultra-Class"
+      },
+      {
+        "code": "UCFU",
+        "description": "Unitate de rulment cu flanșă, seria Ultra-Class"
+      },
+      {
+        "code": "UCFUX",
+        "description": "Variantă a unității cu flanșă UCFU, seria Ultra-Class"
+      },
+      {
+        "code": "ARP",
+        "description": "Unitate pillow block din seria Ultra-Class de la NTN"
+      },
+      {
+        "code": "ARPL",
+        "description": "Unitate pillow block cu guler de blocare excentric, seria Ultra-Class"
+      },
+      {
+        "code": "UELP",
+        "description": "Unitate pillow block economică, cu guler de blocare excentric"
+      },
+      {
+        "code": "JELP",
+        "description": "Unitate pillow block cu rulment sigilat, seria Ultra-Class"
+      },
+      {
+        "code": "UCFLU",
+        "description": "Unitate cu flanșă ovală, seria Ultra-Class"
+      },
+      {
+        "code": "UCP206",
+        "description": "Unitate pillow block cu carcasă turnată și șurub de fixare, mărime 206"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între rulmenții NTN 6200 și 6300?",
+        "a": "Ambele sunt rulmenți cu bile cu contact radial, cu o singură rolă și execuție deschisă, dar seria 6300 are secțiune mai groasă și capacitate de încărcare mai mare la același alezaj, comparativ cu seria 6200. Alegerea depinde de sarcina radială estimată și de spațiul disponibil în lagărul mecanismului. Verificăm întotdeauna tabelul de dimensiuni oficial NTN înainte de confirmarea comenzii."
+      },
+      {
+        "q": "Livrați rulmenți NTN la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă rulmenți și unități de rulment din gamele 6200, 6300 sau seria Ultra-Class de tip UCP, pe baza codului complet confirmat din catalogul oficial NTN. Nu păstrăm rulmenții NTN pe raft ca stoc curent; îi aducem la comandă, de regulă în 2-6 săptămâni. Recomandăm transmiterea codului complet ștanțat pe inelul exterior."
+      },
+      {
+        "q": "Ce este unitatea de rulment NTN UCP206?",
+        "a": "UCP206 este o unitate pillow block cu carcasă turnată din fontă și șurub de fixare pe arbore, dimensionată pentru mărimea 206 a rulmentului intern. Face parte din gama de unități montate NTN folosite la transportoare și utilaje unde arborele trebuie susținut și aliniat simplu. Confirmăm diametrul exact al arborelui pe baza fișei tehnice oficiale NTN."
+      },
+      {
+        "q": "Ce trebuie precizat într-o cerere de ofertă pentru un rulment NTN?",
+        "a": "Este nevoie de codul complet ștanțat pe rulment, alezajul, diametrul exterior și lățimea, plus tipul de execuție, deschis, cu capac sau cu garnitură. Dacă montați o unitate pillow block, precizați și diametrul arborelui. Aceste detalii ajută la identificarea rapidă a variantei echivalente din gama NTN, fără riscul unei comenzi incompatibile cu mecanismul existent."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"NTN Bearing Units Catalog A-21000-I","url":"https://ntnamericas.com/wp-content/uploads/2020/04/bearing-units-catalog-a-21000-i.pdf","publisher":"NTN Bearing Corporation","accessed":"2026-09-26"},
+      {"title":"Item # 6200 On NTN Bearing Corp. of America","url":"https://bearingfinder.ntnamericas.com/item/deep-groove-ball-bearings/single-row-radial-ball-bearings/6200","publisher":"NTN Bearing Corporation","accessed":"2026-09-26"},
       { title: "NTN-SNR — Bearings and Mechanical Components", url: "https://www.ntn-snr.com/", publisher: "NTN-SNR Roulements", accessed: "2026-09-22" },
       { title: "NTN Corporation", url: "https://en.wikipedia.org/wiki/NTN_Corporation", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -306,11 +376,76 @@ Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimen
     ],
     infinitrade: `Pentru Ammeraal Beltech pornim de la informațiile publice ale producătorului privind structurile de bandă disponibile — fără date proprii de stoc pe această gamă, pentru că fiecare bandă se confecționează sau se taie la dimensiunea liniei clientului. Aducem benzile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de lățimea și lungimea benzii, tipul de transportor, viteza de lucru și tipul de produs transportat. Nu promitem disponibilitate permanentă din stoc pe nicio structură de bandă.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unei structuri anume de bandă fără verificare punctuală la producător pentru dimensiunea cerută.",
+    productCodes: [
+      {
+        "code": "ZipLink",
+        "description": "Sistem de cuplare rapidă fără scule pentru benzi transportoare industriale"
+      },
+      {
+        "code": "Ultrasync",
+        "description": "Curea sincronă cu profil, pentru poziționare de mare viteză"
+      },
+      {
+        "code": "Rapplon",
+        "description": "Curea plată de înaltă performanță pentru transmisie de putere și transport rapid"
+      },
+      {
+        "code": "Soliflex",
+        "description": "Curea omogenă igienică cu autoaliniere pentru industria alimentară"
+      },
+      {
+        "code": "Solicord",
+        "description": "Curea rotundă și trapezoidală albastră, food-grade, pentru linii alimentare"
+      },
+      {
+        "code": "UltraScreen",
+        "description": "Bandă tip plasă pentru spălarea și uscarea produselor alimentare"
+      },
+      {
+        "code": "PTFE Belts",
+        "description": "Bandă din PTFE și silicon pentru coacere și congelare criogenică"
+      },
+      {
+        "code": "Solid Woven",
+        "description": "Curea țesută solidă, rezistentă, pentru transport de sarcini grele"
+      },
+      {
+        "code": "Premium Plus",
+        "description": "Gamă premium de curele sintetice cu rezistență sporită la uzură"
+      },
+      {
+        "code": "Ropanyl",
+        "description": "Curea premium din gama Ropanyl pentru industria alimentară"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este sistemul ZipLink de la Ammeraal Beltech?",
+        "a": "ZipLink este un sistem de cuplare a benzilor transportoare care elimină nevoia de scule la montaj sau înlocuire, capetele benzii îmbinându-se prin apăsare simplă. Este util în special acolo unde opririle de producție pentru schimbarea benzii trebuie reduse la minimum, iar accesul la instalație este limitat."
+      },
+      {
+        "q": "Ce diferență este între Rapplon și Soliflex din gama Ammeraal Beltech?",
+        "a": "Rapplon este o familie de curele plate de înaltă performanță, gândite pentru transmisie de putere și transport la viteze ridicate, în timp ce Soliflex este o curea omogenă igienică, cu autoaliniere, destinată în special liniilor din industria alimentară unde curățarea frecventă este esențială. Alegerea depinde de aplicație: putere și viteză versus igienă alimentară."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă de curele Ammeraal Beltech?",
+        "a": "Este nevoie de lungimea și lățimea benzii, tipul utilajului pe care se montează și materialul transportat, alimentar sau industrial. Cu aceste date putem indica familia potrivită, ZipLink, Rapplon sau Solid Woven, urmând ca varianta exactă să fie confirmată pe baza fișelor tehnice publicate de producător."
+      },
+      {
+        "q": "Livrați curele Ammeraal Beltech în România?",
+        "a": "Curelele Ammeraal Beltech nu sunt ținute pe raft la noi; le aducem la comandă direct din gama producătorului, de regulă în 2–6 săptămâni, având în vedere numărul mare de materiale și lățimi disponibile în catalog."
+      },
+      {
+        "q": "Ce este banda Solicord și pentru ce se folosește?",
+        "a": "Solicord este o bandă rotundă sau trapezoidală de culoare albastră, certificată pentru contact alimentar, folosită la transportul și transferul produselor în linii de ambalare sau procesare alimentară. Culoarea albastră ajută la detectarea vizuală rapidă a eventualelor fragmente căzute în produs."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"One-Stop Belt Shop – prezentare gamă completă de curele","url":"https://www.ammeraalbeltech.com/globalassets/documents/concept/one-stop-belt-shop-en.pdf","publisher":"Ammeraal Beltech","accessed":"2026-09-26"},
       { title: "Ammeraal Beltech Deutschland", url: "https://www.ammeraalbeltech.com/de/", publisher: "Ammeraal Beltech", accessed: "2026-09-22" },
       { title: "Ammeraal Beltech Italia", url: "https://www.ammeraalbeltech.com/it/", publisher: "Ammeraal Beltech", accessed: "2026-09-22" },
     ],
@@ -959,11 +1094,92 @@ Pentru România, sculele Knipex au sens la electricieni, instalatori și atelier
     ],
     infinitrade: `Pentru Knipex lucrăm din informațiile publice despre companie și gama de produse — fără date proprii de stoc pe modelele individuale de clești, pentru că gama depășește 900 de variante. Aducem clești Knipex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare pentru modelele mai puțin uzuale. Pentru o ofertă corectă avem nevoie de tipul exact de clește, lungimea dorită și dacă e nevoie de mâner izolat. Nu promitem disponibilitate permanentă din stoc pe fiecare model.`,
     limitation: "Nu putem confirma codul exact de produs pentru fiecare din cele peste 900 de variante fără o cerere punctuală, model cu model.",
+    productCodes: [
+      {
+        "code": "00 31 20 V01 US",
+        "description": "Set 2 piese clești Cobra autoblocanți, 7¼\" și 10\""
+      },
+      {
+        "code": "9K 00 80 05 US",
+        "description": "Set 3 piese clești Cobra cu mâner multi-component"
+      },
+      {
+        "code": "00 19 55 S9",
+        "description": "Set 3 piese Cobra în rulou de scule, 6\"-12\""
+      },
+      {
+        "code": "00 20 06 US3",
+        "description": "Set 3 piese clești-cheie negri, 7¼\"-12\""
+      },
+      {
+        "code": "00 20 05 US",
+        "description": "Set 3 piese clești diagonali de mare putere"
+      },
+      {
+        "code": "00 20 05 US2",
+        "description": "Set 3 piese cleme tăietoare CoBolt, 6¼\"-10\""
+      },
+      {
+        "code": "00 20 04 SB",
+        "description": "Set 8 piese clești seeger interior/exterior"
+      },
+      {
+        "code": "00 20 01 V02",
+        "description": "Set 6 piese clești seeger în tăviță de spumă, variante 90°"
+      },
+      {
+        "code": "9K 00 80 18 US",
+        "description": "Set 2 piese clești seeger standard, 7¼\""
+      },
+      {
+        "code": "92 00 02",
+        "description": "Set 5 piese pensete premium din oțel inoxidabil"
+      },
+      {
+        "code": "92 00 04",
+        "description": "Set 5 piese pensete izolate 1000V"
+      },
+      {
+        "code": "00 20 16",
+        "description": "Set 7 piese clești pentru electronică, în husă cu fermoar"
+      },
+      {
+        "code": "00 20 12",
+        "description": "Set 3 piese scule izolate de bază, 1000V"
+      },
+      {
+        "code": "98 99 12",
+        "description": "Set 26 piese scule izolate standard, 1000V"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce reprezintă codul din setul Knipex 00 31 20 V01 US?",
+        "a": "Codul identifică un set Knipex de două clești tip Cobra, cu deschidere autoreglabilă și blocare rapidă, în dimensiunile 7¼ și 10 inch. Structura numerică a codurilor Knipex urmează un sistem intern de catalog, iar sufixele precum V01 sau US indică varianta de ambalare sau piața de destinație."
+      },
+      {
+        "q": "Ce diferență este între seturile Cobra 9K 00 80 05 US și 00 19 55 S9 de la Knipex?",
+        "a": "Ambele conțin clești tip Cobra, dar 9K 00 80 05 US vine cu mâner multi-component în trei dimensiuni, în timp ce 00 19 55 S9 este livrat într-un rulou de scule cu piese de la 6 la 12 inch. Alegerea depinde de modul de depozitare preferat și de gama de dimensiuni necesară la lucru."
+      },
+      {
+        "q": "Ce trebuie precizat într-o cerere de ofertă pentru scule Knipex?",
+        "a": "Avem nevoie de codul exact al setului sau al piesei individuale, așa cum apare în catalogul Knipex, și cantitatea dorită. Dacă nu cunoașteți codul, o descriere a tipului de clește și a dimensiunii ajută la identificarea variantei corecte dintre numeroasele seturi disponibile în gama producătorului."
+      },
+      {
+        "q": "Livrați scule Knipex în România?",
+        "a": "Sculele Knipex se aduc la comandă direct din catalogul producătorului, într-un termen orientativ de 2–6 săptămâni de la confirmare, întrucât nu păstrăm pe raft o gamă atât de variată de clești și seturi."
+      },
+      {
+        "q": "Ce conține un set de scule izolate Knipex precum 98 99 12?",
+        "a": "Setul 98 99 12 este un kit de 26 de piese cu scule izolate la 1000V, gândit pentru lucrări electrice complete, de la clești la chei și șurubelnițe. Astfel de seturi combinate reduc nevoia de a achiziționa separat fiecare sculă pentru un electrician."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"KNIPEX Sets Catalog 12/2023","url":"https://web-assets.knipex.com/sites/default/files/2023-12/KNIPEX%20Sets%20Catalog%2012_2023%20Small%20file.pdf","publisher":"Knipex","accessed":"2026-09-26"},
       { title: "Knipex", url: "https://en.wikipedia.org/wiki/Knipex", publisher: "Wikipedia", accessed: "2026-09-22" },
       { title: "Knipex — pagină de brand", url: "https://www.triton.com.ro/brand/knipex", publisher: "Triton România", accessed: "2026-09-22" },
     ],
@@ -1107,11 +1323,81 @@ Pentru România, senzorii PCB au sens la programele de mentenanță predictivă 
     ],
     infinitrade: `Informațiile despre accelerometrele și traductoarele PCB Piezotronics vin din surse publice ale producătorului — nu păstrăm stoc propriu pe această gamă, pentru că majoritatea senzorilor se aleg pe aplicație specifică. Aducem senzorii la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare, în funcție de model. Pentru o ofertă corectă avem nevoie de plaja de măsură (frecvență, accelerație, presiune sau forță), tipul de montaj și temperatura de lucru a aplicației. Nu promitem disponibilitate permanentă din stoc pe niciun model de senzor.`,
     limitation: "Nu putem confirma calibrarea individuală a fiecărui senzor fără certificatul de calibrare emis direct de producător pentru lotul comandat.",
+    productCodes: [
+      {
+        "code": "352A7X",
+        "description": "Accelerometru piezoelectric miniatural pentru măsurare pe un singur ax"
+      },
+      {
+        "code": "356A4X",
+        "description": "Accelerometru triaxial miniatural pentru măsurare simultană pe trei axe"
+      },
+      {
+        "code": "604B31",
+        "description": "Accelerometru ICP triaxial compact, fără cablu integral, 100 mV/g"
+      },
+      {
+        "code": "604B11",
+        "description": "Accelerometru ICP triaxial cu cablu poliuretan integral de 10 ft"
+      },
+      {
+        "code": "604B61",
+        "description": "Accelerometru ICP triaxial cu cablu poliuretan blindat"
+      },
+      {
+        "code": "629A30",
+        "description": "Accelerometru ICP triaxial cu sensibilitate redusă, domeniu ±500 g"
+      },
+      {
+        "code": "629A31",
+        "description": "Accelerometru ICP triaxial cu răspuns extins pe axa Z, până la 10.000 Hz"
+      },
+      {
+        "code": "629A10",
+        "description": "Accelerometru ICP triaxial cu cablu poliuretan integral de 10 ft"
+      },
+      {
+        "code": "629A11",
+        "description": "Accelerometru ICP triaxial cu conector integral și cablu poliuretan"
+      },
+      {
+        "code": "629A61",
+        "description": "Accelerometru ICP triaxial cu opțiune de cablu blindat"
+      },
+      {
+        "code": "EX629A11A",
+        "description": "Accelerometru ICP triaxial certificat ATEX/CSA pentru zone cu risc de explozie"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între accelerometrele PCB Piezotronics 604B31 și 629A31?",
+        "a": "Modelul 604B31 are o construcție compactă, fără cablu integral, potrivit pentru montaje în spații reduse, în timp ce 629A31 oferă o sensibilitate de 100 mV/g cu răspuns asimetric extins pe axa Z, până la 10.000 Hz, și cablu poliuretan integral. Alegerea depinde de spațiul de montaj și de frecvențele care trebuie captate pe direcția axială."
+      },
+      {
+        "q": "Ce este varianta EX629A11A din gama PCB Piezotronics?",
+        "a": "EX629A11A este versiunea certificată ATEX și CSA a accelerometrului triaxial 629A11, destinată instalării în zone cu atmosferă potențial explozivă. Are aceleași caracteristici de bază ca modelul standard, dar trece prin certificări suplimentare pentru siguranță intrinsecă, necesare în rafinării, platforme petroliere sau alte medii clasificate ca periculoase."
+      },
+      {
+        "q": "Ce parametri sunt necesari pentru o ofertă de accelerometre PCB Piezotronics?",
+        "a": "Avem nevoie de domeniul de măsurare așteptat, banda de frecvență de interes și dacă montajul se face pe un singur ax sau triaxial. Pentru medii cu risc de explozie se precizează și cerința de certificare ATEX, așa cum este cazul modelului EX629A11A, pentru a identifica varianta corectă din catalogul producătorului."
+      },
+      {
+        "q": "Livrați accelerometre PCB Piezotronics în România?",
+        "a": "Accelerometrele PCB Piezotronics ajung la noi pe bază de comandă transmisă către producător, cu un termen mediu de 2–6 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de variante de sensibilitate și montaj."
+      },
+      {
+        "q": "Ce este accelerometrul triaxial miniatural 356A4X de la PCB Piezotronics?",
+        "a": "356A4X este un accelerometru piezoelectric miniatural care măsoară simultan vibrațiile pe trei axe perpendiculare, util atunci când spațiul de montaj pe echipament este limitat, dar sunt necesare date complete de vibrație. Este folosit adesea în teste de laborator sau monitorizare de proces unde dimensiunea senzorului contează."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Accelerometers – Sensors for Test & Measurement","url":"https://www.pcb.com/sensors-for-test-measurement/accelerometers","publisher":"PCB Piezotronics","accessed":"2026-09-26"},
+      {"title":"Industrial ICP Triaxial Accelerometers – Data Sheet","url":"https://www.pcb.com/ContentStore/mktg/IMI_Downloads/Triaxial%20Accelerometer%20Data%20Sheet.pdf","publisher":"PCB Piezotronics","accessed":"2026-09-26"},
       { title: "PCB Piezotronics — Sensors for Vibration, Pressure, Force", url: "https://www.pcb.com", publisher: "PCB Piezotronics, Inc.", accessed: "2026-09-22" },
       { title: "PCB Piezotronics", url: "https://en.wikipedia.org/wiki/PCB_Piezotronics", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],

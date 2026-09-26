@@ -1378,8 +1378,78 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
     infinitrade: "Preluăm comenzi pentru suflante și compresoare cu canal lateral FPZ — seria monostadială K, variantele bistadiale de presiune ridicată și execuțiile pentru temperatură sau medii corozive — destinate stațiilor de epurare și instalațiilor industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma o disponibilitate constantă pe stoc pentru fiecare configurație și verificăm dimensionarea în informațiile publice disponibile ale producătorului. Pentru o ofertă corectă, trimiteți-ne debitul de aer și presiunea sau vidul necesar aplicației. Modelele standard sunt de regulă disponibile în 24–72 h, iar pachetele complete cu incintă insonorizată și automatizare integrată ajung în 2–6 săptămâni la comandă.",
     limitation: "Nu putem confirma programarea convertizorului de frecvență pe pachetele automatizate fără specificațiile exacte ale procesului — aceasta se stabilește împreună cu inginerul de proiect.",
     sources: [
+      {"title":"FPZ - Side channel blowers","url":"https://www.fpz.com/wp-content/uploads/2024/01/FPZ_Flyer-Light_EN.pdf","publisher":"FPZ","accessed":"2026-09-26"},
+      {"title":"FPZ homepage","url":"https://www.fpz.com/en/","publisher":"FPZ","accessed":"2026-09-26"},
       { title: "FPZ SpA – company information (footer)", url: "https://www.fpz.com/en/", publisher: "FPZ S.p.A.", accessed: "2026-09-22" },
       { title: "FPZ – site oficial", url: "https://www.fpz.com", publisher: "FPZ S.p.A.", accessed: "2026-09-22" }
+    ],
+    productCodes: [
+      {
+        "code": "MS",
+        "description": "Suflantă cu canal lateral, un rotor, un etaj, debit 55-1022 metri cubi pe ora"
+      },
+      {
+        "code": "MD",
+        "description": "Suflantă cu canal lateral, un rotor, două etaje, presiune ridicată"
+      },
+      {
+        "code": "TS",
+        "description": "Suflantă cu canal lateral, două rotoare, un etaj, debit mare"
+      },
+      {
+        "code": "TD",
+        "description": "Suflantă cu canal lateral, două rotoare, două etaje, presiune maximă"
+      },
+      {
+        "code": "K03",
+        "description": "Model compact de suflantă FPZ, consum redus de energie"
+      },
+      {
+        "code": "K04",
+        "description": "Model compact de suflantă FPZ pentru aplicații industriale diverse"
+      },
+      {
+        "code": "K05",
+        "description": "Suflantă FPZ din gama de capacitate mare, scalabilă progresiv"
+      },
+      {
+        "code": "K75",
+        "description": "Suflantă FPZ de gamă medie pentru aplicații industriale variate"
+      },
+      {
+        "code": "R20",
+        "description": "Suflantă FPZ compactă pentru aplicații de vid și presiune"
+      },
+      {
+        "code": "R30",
+        "description": "Suflantă FPZ de gamă medie din familia seriei R"
+      },
+      {
+        "code": "R40",
+        "description": "Suflantă FPZ de gamă medie-mare din familia seriei R"
+      },
+      {
+        "code": "e11",
+        "description": "Suflantă FPZ de capacitate mare, peste 2000 metri cubi pe ora"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seriile MS și TS de la FPZ?",
+        "a": "Seria MS are un singur rotor și un singur etaj de compresie, cu debite între 55 și 1022 metri cubi pe ora, în timp ce seria TS folosește două rotoare pe un singur etaj, ceea ce ridică semnificativ debitul, până la aproape 2000 metri cubi pe ora. Alegerea depinde de necesarul de aer al aplicației și de spațiul disponibil pentru montaj."
+      },
+      {
+        "q": "Livrați suflante FPZ la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă suflante cu canal lateral din gamele MS, MD, TS, TD sau K, pe baza modelului confirmat din documentația oficială FPZ. Nu păstrăm suflantele FPZ pe stoc propriu; le procurăm punctual, cu un termen tipic de 2-6 săptămâni. Recomandăm transmiterea debitului și presiunii necesare pentru identificarea corectă a modelului."
+      },
+      {
+        "q": "Ce informații sunt necesare pentru o cerere de ofertă la o suflantă FPZ?",
+        "a": "Aveți nevoie de debitul de aer necesar în metri cubi pe ora, presiunea sau depresiunea de lucru dorită și tensiunea de alimentare disponibilă la locul de instalare. Pentru un utilaj deja montat, numărul de serie inscripționat pe carcasă ne ajută să găsim echivalentul potrivit, fie el MS, MD, TS sau TD."
+      },
+      {
+        "q": "Ce este seria e11 de la FPZ?",
+        "a": "Seria e11 face parte din gama de suflante FPZ de capacitate mare, cu debite ce depășesc 2000 metri cubi pe ora, gândite pentru aplicații industriale cu necesar ridicat de aer. Se folosește de obicei în procese continue unde stabilitatea debitului este esențială. Confirmăm parametrii exacți pe baza fișei tehnice oficiale FPZ înainte de comandă."
+      }
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",

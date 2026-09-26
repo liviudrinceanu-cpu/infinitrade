@@ -1086,8 +1086,71 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
     infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al gamei Aventics (Emerson) și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile comune putem confirma uneori 24-72 h din stoc, iar pentru configurații cu fieldbus IO-Link sau componente certificate Ex termenul obișnuit este de 2-6 săptămâni la comandă. Nu promitem disponibilitate fără o verificare prealabilă la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne diametrul și cursa cilindrului sau codul valvei, presiunea de lucru și cantitatea dorită — confirmăm termenul real înainte de a plasa comanda.`,
     limitation: `Nu putem garanta integrarea IO-Link cu sisteme PLC existente fără o verificare tehnică prealabilă la fața locului.`,
     sources: [
+      {"title":"AVENTICS Brand | Discrete Automation","url":"https://discreteautomation.emerson.com/brands/aventics","publisher":"Emerson (AVENTICS)","accessed":"2026-09-26"},
+      {"title":"AVENTICS PRA Pneumatic Cylinders","url":"https://discreteautomation.emerson.com/product/aventics-pra","publisher":"Emerson (AVENTICS)","accessed":"2026-09-26"},
+      {"title":"AVENTICS Series TRB Tie rod cylinders (ISO 15552)","url":"https://discreteautomation.emerson.com/product/aventics-trb","publisher":"Emerson (AVENTICS)","accessed":"2026-09-26"},
       { title: 'AVENTICS | Pneumatic Automation Solutions', url: 'https://discreteautomation.emerson.com/brands/aventics', publisher: 'Emerson Electric Co.', accessed: '2026-09-22' },
       { title: 'Emerson Discrete Automation | Advanced Control Solutions', url: 'https://discreteautomation.emerson.com/', publisher: 'Emerson Electric Co.', accessed: '2026-09-22' },
+    ],
+    productCodes: [
+      {
+        "code": "PRA",
+        "description": "Cilindru pneumatic ISO 15552, profil compact cu caneluri pentru senzori"
+      },
+      {
+        "code": "TRB",
+        "description": "Cilindru cu tije ISO 15552, robust pentru aplicații industriale grele"
+      },
+      {
+        "code": "ITS",
+        "description": "Cilindru cu tije ISO 15552 pentru sarcini mari și forțe ridicate"
+      },
+      {
+        "code": "CCL-IC",
+        "description": "Cilindru compact ISO 21287, suprafață netedă, potrivit industriei alimentare"
+      },
+      {
+        "code": "CCI",
+        "description": "Cilindru compact ISO 21287 cu design ușor de curățat"
+      },
+      {
+        "code": "RDC",
+        "description": "Cilindru cu diafragmă flexibilă, frecare redusă, pentru presiuni scăzute"
+      },
+      {
+        "code": "RPC",
+        "description": "Cilindru cu profil rotund, mai multe opțiuni de conectare"
+      },
+      {
+        "code": "Rod-Clevises",
+        "description": "Furcă de capăt pentru montajul articulat al tijei cilindrului"
+      },
+      {
+        "code": "Trunnion Mountings",
+        "description": "Sistem de prindere pe fus pentru cilindrii pneumatici Aventics"
+      },
+      {
+        "code": "Sensor-Mountings",
+        "description": "Suport de fixare a senzorilor pe cilindrii pneumatici Aventics"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă seria PRA la cilindrii pneumatici Aventics?",
+        "a": "Seria PRA este un cilindru pneumatic conform ISO 15552, cu profil compact și caneluri integrate pentru montarea senzorilor de poziție. Aventics îl recomandă pentru automatizare industrială unde spațiul de montaj este limitat. Codul de comandă exact depinde de alezaj, cursă și tip de fixare, așa că verificăm fișa tehnică oficială înainte de a confirma referința completă către client."
+      },
+      {
+        "q": "Aduceți cilindri pneumatici Aventics la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă cilindri din gamele PRA, TRB, ITS sau CCL-IC, pe baza referinței complete confirmate de client. Nu ținem această gamă pe raft; ne bazăm pe cataloagele publice Aventics pentru verificarea disponibilității, iar termenul obișnuit de livrare este de 2-6 săptămâni. Recomandăm transmiterea alezajului, cursei și tipului de fixare pentru a evita o comandă greșită."
+      },
+      {
+        "q": "Ce diferență este între seriile CCL-IC și CCI de la Aventics?",
+        "a": "Ambele sunt cilindri compacți conform ISO 21287, dar CCL-IC are o suprafață netedă din oțel inoxidabil și aluminiu anodizat, gândită pentru industria alimentară, în timp ce CCI pune accent pe un design ușor de curățat și caneluri pentru senzori pe toată lungimea tijei. Alegerea depinde de cerințele de igienă și de tipul de senzori folosiți."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă la un cilindru Aventics?",
+        "a": "Este nevoie de codul complet de pe eticheta cilindrului sau, dacă nu este vizibil, de alezaj, cursă, tip de fixare și standardul respectat, ISO 15552 sau ISO 21287. Menționăm și mediul de lucru, deoarece seriile pentru industria alimentară precum CCL-IC diferă de cele standard. O fotografie a montajului actual ajută la identificarea variantei potrivite."
+      }
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
