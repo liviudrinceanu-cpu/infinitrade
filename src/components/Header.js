@@ -29,7 +29,7 @@ const buildSearchIndex = () => {
         type: 'product',
         name: pt.name,
         category: cat.name,
-        url: `/${cat.slug}#${pt.slug}`,
+        url: `/${cat.slug}/${pt.slug}`,
         keywords: [pt.name.toLowerCase(), cat.name.toLowerCase()]
       });
     });
@@ -289,7 +289,7 @@ export default function Header() {
                               <ul className={styles.dropdownList}>
                                 {menu.productTypes.map((pt) => (
                                   <li key={pt.slug}>
-                                    <Link href={`/${category.slug}#${pt.slug}`} className={styles.dropdownListLink}>
+                                    <Link href={`/${category.slug}/${pt.slug}`} className={styles.dropdownListLink}>
                                       {pt.name}
                                     </Link>
                                   </li>
@@ -590,7 +590,7 @@ export default function Header() {
                 {MAIN_CATEGORY_MENUS[item.href].productTypes.map((pt) => (
                   <Link
                     key={pt.slug}
-                    href={`${item.href}#${pt.slug}`}
+                    href={`${item.href}/${pt.slug}`}
                     className={styles.mobileSubLink}
                     onClick={() => setIsMobileMenuOpen(false)}
                     tabIndex={isMobileMenuOpen ? 0 : -1}

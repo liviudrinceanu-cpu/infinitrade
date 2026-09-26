@@ -39,11 +39,12 @@ export function buildCategoryJsonLd(category, config) {
         url: `${config.site.url}/${category.slug}`,
         image: `${config.site.url}/logo-header.png`,
         numberOfItems: category.productTypes.length,
-        itemListElement: category.productTypes.slice(0, 5).map((type, index) => ({
+        // v13: each product type has its own selection-guide page.
+        itemListElement: category.productTypes.map((type, index) => ({
           '@type': 'ListItem',
           position: index + 1,
           name: type.name,
-          url: `${config.site.url}/${category.slug}`,
+          url: `${config.site.url}/${category.slug}/${type.slug}`,
         })),
       },
       // Breadcrumb Schema

@@ -477,7 +477,7 @@ export default function CategoryClient({ category }) {
                 className={`${styles.typeCard} animate-fade-up animate-delay-${Math.min(index + 1, 6)} ${typesVisible ? 'is-visible' : ''}`}
                 style={{ scrollMarginTop: '150px' }}
               >
-                <h3>{type.name}</h3>
+                <h3><Link href={`/${category.slug}/${type.slug}`} className={styles.typeTitleLink}>{type.name}</Link></h3>
                 <p>{type.description}</p>
                 {brandsForType(type.slug).length > 0 && (
                   <div className={styles.typeApplications}>
@@ -510,8 +510,8 @@ export default function CategoryClient({ category }) {
                   >
                     {isInCart(type.name) ? <Check size={16} /> : <Plus size={16} />}
                   </button>
-                  <Link href="/contact" className={styles.typeLink}>
-                    Cere ofertă <ArrowRight size={16} />
+                  <Link href={`/${category.slug}/${type.slug}`} className={styles.typeLink}>
+                    Ghid și branduri <ArrowRight size={16} />
                   </Link>
                 </div>
               </div>

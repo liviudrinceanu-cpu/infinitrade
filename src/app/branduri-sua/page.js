@@ -102,6 +102,15 @@ export default function UsBrandsPage() {
     },
     {
       '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Acasă', item: `${config.site.url}/` },
+        { '@type': 'ListItem', position: 2, name: 'Branduri A–Z', item: `${config.site.url}/brand` },
+        { '@type': 'ListItem', position: 3, name: 'Branduri din SUA', item: PAGE_URL },
+      ],
+    },
+    {
+      '@context': 'https://schema.org',
       '@type': 'FAQPage',
       mainEntity: faq.map((f) => ({
         '@type': 'Question',
