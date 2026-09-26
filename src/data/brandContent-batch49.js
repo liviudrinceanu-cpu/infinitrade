@@ -594,11 +594,81 @@ Ce diferențiază Nexans este poziționarea explicită ca „pure player" pe ele
     ],
     infinitrade: `Datele despre Nexans provin din site-ul oficial și din surse publice; fără date proprii de stoc pentru cablurile din această gamă. Cablurile industriale și de energie le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru lungimile și secțiunile solicitate. Clientul trebuie să ne comunice secțiunea și tensiunea de lucru, standardul de rezistență la foc dacă e cazul, și lungimea totală necesară pentru instalație. Cablurile speciale (HVDC, submarine) se produc exclusiv la comandă, pentru proiect, așa că nu putem păstra stoc pentru aceste categorii.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unei secțiuni sau lungimi specifice fără verificarea directă la producător, mai ales pentru cablurile de înaltă tensiune sau submarine.",
+    productCodes: [
+      {
+        "code": "H07V-U",
+        "description": "Conductor rigid din cupru pentru instalații electrice fixe"
+      },
+      {
+        "code": "H07V-R",
+        "description": "Conductor rigid multifilar pentru tablouri și circuite fixe"
+      },
+      {
+        "code": "H07V-U EASYFIL",
+        "description": "Variantă cu tragere ușoară în tub, pentru instalații rezidențiale"
+      },
+      {
+        "code": "H07V-R EASYFIL",
+        "description": "Conductor flexibil la tragere, secțiune multifilară rigidă"
+      },
+      {
+        "code": "H07V-U MOBIWAY POP",
+        "description": "Conductor rigid livrat pe sistem de coroană pentru montaj rapid"
+      },
+      {
+        "code": "H03VVH2-F",
+        "description": "Cablu flexibil plat pentru aparate electrocasnice ușoare"
+      },
+      {
+        "code": "H05VV-F",
+        "description": "Cablu flexibil cu manta din PVC pentru prelungitoare și aparate"
+      },
+      {
+        "code": "H07V-K",
+        "description": "Conductor flexibil pentru cablare interioară în tuburi și tablouri"
+      },
+      {
+        "code": "MOBIWAY MOB",
+        "description": "Sistem de tambur de cablu cu design simplificat pentru șantiere"
+      },
+      {
+        "code": "MOBIWAY POP",
+        "description": "Sistem de coroană de cablu pentru instalare rapidă pe șantier"
+      },
+      {
+        "code": "DISTINGO NX'TAG",
+        "description": "Soluție de identificare pentru cabluri în aplicații de construcții"
+      },
+      {
+        "code": "CRYOFLEX",
+        "description": "Conductă flexibilă cu izolație vidată, fără îmbinări, pentru fluide criogenice"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul H07V-U la un conductor Nexans?",
+        "a": "Codul respectă standardul european armonizat de cabluri: H arată armonizarea, 07 este tensiunea nominală de 450/750 V, V indică izolația din PVC, iar U desemnează un conductor rigid dintr-un singur fir. Nexans produce acest tip pentru circuite fixe în tuburi sau canale de cablu, atât în variante standard cât și în ambalaje speciale precum EASYFIL sau MOBIWAY POP. Pentru confirmarea secțiunii și culorii exacte verificăm fișa tehnică publicată de Nexans, nu doar codul scurt transmis de client."
+      },
+      {
+        "q": "Aduceți cabluri Nexans la comandă pentru clienți din România?",
+        "a": "Da, aducem la comandă cabluri și conductori din gamele H07V, MOBIWAY sau CRYOFLEX, pe baza referinței exacte confirmate de client. Nu ținem această gamă pe raft; verificăm disponibilitatea în sursele publice ale producătorului, iar comanda durează de regulă 2-6 săptămâni. Recomandăm transmiterea secțiunii, numărului de conductori și tipului de izolație cerute, pentru a evita confuzia între variante apropiate ale aceleiași familii Nexans."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă la un cablu Nexans?",
+        "a": "Aveți nevoie să precizați secțiunea conductorului în mm², numărul de fire, tensiunea nominală și tipul de izolație sau manta dorite, plus mediul de instalare, interior, exterior sau îngropat. Dacă înlocuiți un cablu existent, o fotografie a inscripționării de pe manta ajută la identificarea rapidă a codului Nexans corect și evită o comandă incompatibilă cu instalația deja montată."
+      },
+      {
+        "q": "Ce diferență este între H07V-U și H07V-R la Nexans?",
+        "a": "H07V-U este un conductor rigid dintr-un singur fir de cupru, potrivit pentru montaj fix în tuburi sau canale unde nu este nevoie de flexibilitate. H07V-R are aceeași utilizare, dar firul este format din mai multe toroane răsucite, ceea ce oferă o îndoire ceva mai ușoară la instalare. Alegerea depinde de diametrul tubului și de preferința echipei de montaj pentru un conductor rigid sau ușor flexibil."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Building cables | Nexans France","url":"https://www.nexans.fr/fr/products/Building.html","publisher":"Nexans","accessed":"2026-09-26"},
+      {"title":"Nexans France homepage","url":"https://www.nexans.fr/fr/","publisher":"Nexans","accessed":"2026-09-26"},
       { title: "Nexans – Electrify the future", url: "https://www.nexans.com/en/", publisher: "Nexans S.A.", accessed: "2026-09-22" },
       { title: "Nexans", url: "https://en.wikipedia.org/wiki/Nexans", publisher: "Wikipedia", accessed: "2026-09-22" },
     ],
@@ -1237,11 +1307,73 @@ Ce diferențiază Cognex este scara la care sunt folosite sistemele sale — com
     ],
     infinitrade: `Datele despre Cognex vin din site-ul oficial al companiei; nu avem încă un istoric propriu de livrări pentru această gamă de vedere artificială. Sistemele de vedere și cititoarele de coduri le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni pentru modelul solicitat. Clientul trebuie să ne descrie aplicația exactă (tip de inspecție, distanța de lucru, viteza liniei) pentru a recomanda modelul potrivit din gama In-Sight. Pentru configurațiile mai complexe nu putem păstra stoc constant și recomandăm confirmarea disponibilității înainte de a o lega de un termen fix de instalare.`,
     limitation: "Nu putem confirma programarea sau integrarea software a unui sistem de vedere cu linia de producție a clientului fără o discuție tehnică prealabilă.",
+    productCodes: [
+      {
+        "code": "Vision Sensors",
+        "description": "Senzori de control vizual pentru aplicații simple de verificare a pieselor"
+      },
+      {
+        "code": "Vision Systems",
+        "description": "Sisteme compacte cu iluminare, obiectiv și procesare integrate într-o singură unitate"
+      },
+      {
+        "code": "3D Laser Profilers",
+        "description": "Scanează profiluri sau suprafețe complete în trei dimensiuni pentru măsurare"
+      },
+      {
+        "code": "3D Area Scan Cameras",
+        "description": "Capturează imagini 3D pentru verificarea asamblării și ghidarea roboților"
+      },
+      {
+        "code": "VisionPro ViDi",
+        "description": "Software cu învățare profundă pentru inspecție cosmetică și clasificare de piese"
+      },
+      {
+        "code": "Cognex Designer",
+        "description": "Mediu de dezvoltare integrat pentru proiecte realizate cu VisionPro"
+      },
+      {
+        "code": "Cognex Vision Library (CVL)",
+        "description": "Bibliotecă de unelte software de vedere artificială pentru integratori"
+      },
+      {
+        "code": "OEM Vision and ID Systems",
+        "description": "Sisteme compacte cu optică și iluminare personalizabile pentru integrare OEM"
+      },
+      {
+        "code": "Image Engines",
+        "description": "Componente compacte pentru integrare în echipamente OEM produse la volum mare"
+      },
+      {
+        "code": "DataMan",
+        "description": "Familie de cititoare fixe de coduri de bare 1D și 2D"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între sistemele Vision Systems și Vision Sensors de la Cognex?",
+        "a": "Vision Systems Cognex sunt unități complet echipate cu iluminare, obiectiv, procesare și comunicații integrate, potrivite pentru aplicații complexe de inspecție. Vision Sensors sunt gândiți pentru sarcini simple de control, precum verificarea prezenței unei componente, cu o configurare mai rapidă și mai puține opțiuni de reglaj. Alegerea depinde de complexitatea inspecției și de numărul de parametri care trebuie verificați simultan pe linia de producție."
+      },
+      {
+        "q": "Livrați cititoare de coduri de bare Cognex DataMan în România?",
+        "a": "Da, procurăm la comandă cititoare fixe din familia DataMan, pe baza referinței confirmate de client din documentația oficială Cognex. Nu păstrăm această gamă pe raft; ne bazăm pe informațiile publicate de Cognex despre disponibilitate, iar livrarea durează în general 2-6 săptămâni. Recomandăm transmiterea codului complet de pe eticheta echipamentului existent, pentru identificarea variantei potrivite."
+      },
+      {
+        "q": "Ce trebuie să includ într-o cerere de ofertă pentru un sistem de vedere Cognex?",
+        "a": "Este nevoie de tipul aplicației, verificare, citire de cod sau ghidare robot, distanța de lucru până la piesă, iluminarea disponibilă în zona de montaj și interfața de comunicație necesară cu automatul programabil existent. Dacă înlocuiți un echipament mai vechi, o fotografie a montajului actual ajută la alegerea corectă între o cameră inteligentă Vision Systems și un senzor Vision Sensors mai simplu."
+      },
+      {
+        "q": "Ce este software-ul Cognex VisionPro ViDi?",
+        "a": "Este un instrument software bazat pe învățare profundă, folosit pentru sarcini de inspecție greu de descris prin reguli clasice, precum defecte cosmetice variabile sau clasificarea pieselor asemănătoare. Se integrează cu sistemele de vedere Cognex existente și necesită antrenare pe imagini reale din procesul clientului. Rezultatele depind de calitatea și numărul de exemple folosite la antrenare, nu doar de tipul camerei folosite."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Machine Vision | Cognex","url":"https://www.cognex.com/products/machine-vision","publisher":"Cognex","accessed":"2026-09-26"},
+      {"title":"Fixed-Mount Barcode Readers | Cognex","url":"https://www.cognex.com/products/barcode-readers/fixed-mount-barcode-readers","publisher":"Cognex","accessed":"2026-09-26"},
       { title: "Cognex – Machine Vision Systems", url: "https://www.cognex.com/", publisher: "Cognex Corporation", accessed: "2026-09-22" },
       { title: "Company – Cognex", url: "https://www.cognex.com/company", publisher: "Cognex Corporation", accessed: "2026-09-22" },
     ],

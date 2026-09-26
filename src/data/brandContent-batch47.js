@@ -35,11 +35,77 @@ Pentru piața din România, gama Kontron are sens la integratorii de sisteme și
     ],
     infinitrade: `Ce știm despre Kontron vine din site-ul oficial al producătorului austriac, iar unde informația publică lipsește, spunem clar asta în loc să completăm din presupuneri. Aducem platformele și modulele Kontron la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de codul exact al produsului, sistemul de operare pe care va rula aplicația și eventualele cerințe de certificare pentru mediul de instalare. Disponibilitatea nu este garantată permanent din stoc pentru nicio referință din gamă — fiecare cerere se verifică individual cu furnizorul înainte de confirmarea comenzii.`,
     limitation: "Nu putem confirma suport tehnic în limba română pentru configurarea software-ului KontronOS sau a platformei 480 APM, care rămâne responsabilitatea integratorului de sistem.",
+    productCodes: [
+      {
+        "code": "KBox A-151-EAI",
+        "description": "Sistem edge computing cu accelerare pentru inteligență artificială"
+      },
+      {
+        "code": "CG2000",
+        "description": "Platformă edge computing pentru medii industriale dificile"
+      },
+      {
+        "code": "CG2500",
+        "description": "Platformă edge computing, generație ulterioară seriei CG2000"
+      },
+      {
+        "code": "CG Series",
+        "description": "Familia de sisteme edge computing pentru medii extreme"
+      },
+      {
+        "code": "K3836-Q/R",
+        "description": "Placă mITX pentru console de jocuri de nouă generație"
+      },
+      {
+        "code": "VX307C",
+        "description": "Placă de procesare în format 3U VPX"
+      },
+      {
+        "code": "VX33211",
+        "description": "Placă grafică 3U VPX pentru inteligență artificială la margine"
+      },
+      {
+        "code": "VX3060",
+        "description": "Placă 3U VPX pentru sisteme embedded"
+      },
+      {
+        "code": "Cobalt S1901",
+        "description": "Computer de misiune embedded pentru aplicații critice"
+      },
+      {
+        "code": "Ace Flight 4609",
+        "description": "Server de avionică pentru sisteme de divertisment la bord"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce este placa K3836-Q/R de la Kontron?",
+        "a": "K3836-Q/R este o placă în format mITX din portofoliul Kontron, dezvoltată pentru console de jocuri și sisteme embedded de nouă generație care necesită performanță grafică ridicată într-un spațiu redus. Formatul mITX permite integrarea în șasiuri compacte, păstrând totodată opțiuni extinse de conectivitate."
+      },
+      {
+        "q": "Ce diferență este între plăcile VPX și platformele CG de la Kontron?",
+        "a": "Plăcile VPX, precum VX307C sau VX33211, sunt module de procesare sau grafică destinate sistemelor embedded modulare din domeniul apărării și industrial, montate în șasiuri standardizate. Platformele din seria CG, precum CG2000 și CG2500, sunt sisteme edge computing complete, gândite pentru medii dificile fără infrastructură de server clasică."
+      },
+      {
+        "q": "Ce informații solicităm înainte de a pregăti o ofertă pentru echipamente Kontron?",
+        "a": "Avem nevoie de aplicația vizată, de exemplu edge computing industrial, avionică sau console de jocuri, și de cerințele de performanță, temperatură de funcționare și interfețe necesare. Cu aceste informații putem indica familia potrivită din portofoliul Kontron, urmând ca varianta exactă să fie confirmată pe baza documentației publice a producătorului."
+      },
+      {
+        "q": "Livrați echipamente Kontron în România?",
+        "a": "Echipamentele Kontron se procură la comandă, cu un termen estimat de 2–6 săptămâni de la confirmare, întrucât gama nu este ținută pe raft, acoperind plăci embedded, sisteme edge și computere de misiune foarte diferite."
+      },
+      {
+        "q": "Ce este un computer de misiune precum Cobalt S1901 de la Kontron?",
+        "a": "Cobalt S1901 este un computer embedded destinat aplicațiilor critice din domeniul apărării sau al transporturilor, construit pentru a funcționa în condiții de vibrații, șocuri și temperaturi extreme. Astfel de sisteme rulează adesea software specializat pentru procesarea datelor de la senzori în timp real, direct la locul de utilizare."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Automatizare industrială Kontron","url":"https://www.kontron.com/en/application-areas/automation","publisher":"Kontron","accessed":"2026-09-26"},
+      {"title":"Newsroom Kontron","url":"https://www.kontron.com/en/newsroom","publisher":"Kontron","accessed":"2026-09-26"},
       { title: "Kontron - pagina principală", url: "https://www.kontron.com/en", publisher: "Kontron AG", accessed: "2026-09-22" },
       { title: "Kontron Group - about", url: "https://www.kontron.com/en/about-us", publisher: "Kontron AG", accessed: "2026-09-22" },
       { title: "Kontron", url: "https://en.wikipedia.org/wiki/Kontron", publisher: "Wikipedia", accessed: "2026-09-22" },
@@ -656,11 +722,108 @@ Pentru instalațiile din România, motoarele Nanotec au sens la echipamentele de
     ],
     infinitrade: `Datele despre Nanotec vin de pe site-ul oficial al producătorului german, iar parametrii pe care nu i-am găsit explicit acolo nu apar în textul nostru. Aducem motoarele Nanotec la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de dimensiunea NEMA, cuplul necesar, unghiul de pas dorit și dacă aveți nevoie de controller integrat sau doar de motor. Nu putem confirma o disponibilitate permanentă din stoc pentru fiecare variantă din gamă — verificăm punctual fiecare cerere primită.`,
     limitation: "Nu putem confirma certificări specifice (ISO, CE) pentru motoarele Nanotec, informații care nu au apărut explicit pe pagina consultată a site-ului oficial.",
+    productCodes: [
+      {
+        "code": "ST2818",
+        "description": "Motor pas cu pas hibrid, dimensiune NEMA 11"
+      },
+      {
+        "code": "ST4118",
+        "description": "Motor pas cu pas hibrid, dimensiune NEMA 17"
+      },
+      {
+        "code": "ST6018",
+        "description": "Motor pas cu pas hibrid, dimensiune NEMA 23"
+      },
+      {
+        "code": "ST8918",
+        "description": "Motor pas cu pas hibrid, dimensiune NEMA 34"
+      },
+      {
+        "code": "AS4118",
+        "description": "Motor pas cu pas cu protecție IP65 și conector M12"
+      },
+      {
+        "code": "PD2-CB",
+        "description": "Motor pas cu pas cu controller integrat CANopen"
+      },
+      {
+        "code": "PD4-CB",
+        "description": "Motor pas cu pas cu controller integrat, cuplu mai mare"
+      },
+      {
+        "code": "DB59",
+        "description": "Motor cu curent continuu fără perii, rotor exterior"
+      },
+      {
+        "code": "DB87",
+        "description": "Motor cu curent continuu fără perii, cuplu ridicat"
+      },
+      {
+        "code": "LA28",
+        "description": "Actuator liniar necaptiv, diametru 28 mm"
+      },
+      {
+        "code": "LGA35",
+        "description": "Actuator liniar captiv, diametru 35 mm"
+      },
+      {
+        "code": "LSA42",
+        "description": "Actuator liniar cu tijă externă, diametru 42 mm"
+      },
+      {
+        "code": "GPLE40",
+        "description": "Reductor planetar, diametru 40 mm"
+      },
+      {
+        "code": "GPLEP70",
+        "description": "Reductor planetar de precizie, diametru 70 mm"
+      },
+      {
+        "code": "GSGE60",
+        "description": "Reductor melcat, diametru 60 mm"
+      },
+      {
+        "code": "C5-E",
+        "description": "Controller pentru motoare cu interfață EtherCAT"
+      },
+      {
+        "code": "N5",
+        "description": "Controller pentru motoare pas cu pas și servomotoare"
+      },
+      {
+        "code": "WEDS",
+        "description": "Encoder optic pentru motoare Nanotec"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum citesc codul unui motor pas cu pas Nanotec, de exemplu ST4118?",
+        "a": "Prefixul ST indică un motor pas cu pas hibrid, iar cifrele care urmează arată dimensiunea flanșei conform standardului NEMA și lungimea corpului motorului; astfel, ST4118 corespunde unui motor NEMA 17. Pentru parametri exacți precum cuplul sau curentul nominal este nevoie de consultarea fișei tehnice complete publicate de Nanotec."
+      },
+      {
+        "q": "Ce diferență este între un actuator liniar LA și unul LGA de la Nanotec?",
+        "a": "Seria LA este un actuator liniar necaptiv, la care tija se poate roti liber, în timp ce seria LGA are tija captivă, ghidată intern, potrivită acolo unde rotația nu este permisă. Alegerea depinde de tipul de sarcină și de spațiul de montaj disponibil în aplicație."
+      },
+      {
+        "q": "Ce specificații ajută la întocmirea unei oferte pentru motoare Nanotec?",
+        "a": "Avem nevoie de tipul de motor dorit, pas cu pas, BLDC sau cu controller integrat, dimensiunea flanșei, cuplul necesar și tipul de interfață de comunicare, de exemplu CANopen sau EtherCAT. Cu aceste date putem identifica varianta corectă din portofoliul Nanotec și confirma disponibilitatea pe baza cataloagelor publice ale producătorului."
+      },
+      {
+        "q": "Livrați motoare Nanotec în România?",
+        "a": "Motoarele și reductoarele Nanotec ajung la comandă, într-un termen mediu de 2–6 săptămâni, deoarece nu ținem această gamă pe raft, fiecare familie având zeci de variante de dimensiune și cuplu disponibile."
+      },
+      {
+        "q": "Ce rol are un controller precum C5-E în sistemele Nanotec?",
+        "a": "Controllerul C5-E gestionează comanda motorului direct din aceeași unitate, prin interfață EtherCAT, eliminând nevoia unui driver extern separat pentru aplicații de automatizare. Este folosit împreună cu motoare pas cu pas sau BLDC din portofoliul Nanotec, atunci când se dorește o soluție compactă de poziționare."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sitemap produse Nanotec (eu/en)","url":"https://www.nanotec.com/eu/en/sitemap/show.xml","publisher":"Nanotec","accessed":"2026-09-26"},
       { title: "Nanotec - Stepper Motors from Manufacturer", url: "https://www.nanotec.com/eu/en/products/153-stepper-motors-from-manufacturer", publisher: "Nanotec Electronic GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Nanotec - pagina principală", url: "https://www.nanotec.com/eu/en/", publisher: "Nanotec Electronic GmbH & Co. KG", accessed: "2026-09-22" },
     ],
@@ -969,11 +1132,101 @@ Pentru piața din România, celulele de sarcină și traductoarele VPG au sens l
     ],
     infinitrade: `Informațiile despre VPG vin din site-ul oficial al producătorului american, iar acolo unde pagina nu detaliază parametri tehnici (capacități, precizie), nu îi completăm din alte surse. Aducem celulele de sarcină și traductoarele VPG la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne marca și modelul căutat (Tedea-Huntleigh, Celtron etc.), capacitatea de măsurare necesară și clasa de precizie cerută de aplicație. Nu putem oferi o disponibilitate permanentă din stoc pentru fiecare referință din portofoliul VPG — verificăm fiecare cerere separat.`,
     limitation: "Nu putem confirma anul fondării VPG sau certificări specifice de calitate, informații care nu au apărut explicit pe paginile consultate ale site-ului oficial.",
+    productCodes: [
+      {
+        "code": "CEA Series",
+        "description": "Marcă tensometrică din seria CEA pentru aplicații generale"
+      },
+      {
+        "code": "EA Series",
+        "description": "Marcă tensometrică din seria EA pentru încercări de laborator"
+      },
+      {
+        "code": "C4A Series",
+        "description": "Marcă tensometrică cu instalare fără lipire"
+      },
+      {
+        "code": "CHA Series",
+        "description": "Marcă tensometrică pentru medii cu expunere la umiditate"
+      },
+      {
+        "code": "W2A Series",
+        "description": "Marcă tensometrică pentru medii cu expunere la apă"
+      },
+      {
+        "code": "Tedea-Huntleigh",
+        "description": "Marcă de celule de sarcină pentru cântărire industrială"
+      },
+      {
+        "code": "Revere",
+        "description": "Marcă de traductoare de forță pentru cântare industriale"
+      },
+      {
+        "code": "Celtron",
+        "description": "Marcă de celule de sarcină pentru platforme de cântărire"
+      },
+      {
+        "code": "Sensortronics",
+        "description": "Marcă de celule de sarcină pentru aplicații de proces"
+      },
+      {
+        "code": "BLH Nobel",
+        "description": "Marcă de sisteme de cântărire industrială de mare precizie"
+      },
+      {
+        "code": "VPG Onboard Weighing",
+        "description": "Sisteme de cântărire montate pe vehicule comerciale"
+      },
+      {
+        "code": "Vulcan Scales",
+        "description": "Sisteme de cântărire pentru vehicule comerciale grele"
+      },
+      {
+        "code": "SI Onboard",
+        "description": "Sisteme de cântărire pentru aeronave și vehicule speciale"
+      },
+      {
+        "code": "KELK",
+        "description": "Echipamente de măsurare pentru industria oțelului și a metalelor"
+      },
+      {
+        "code": "Gleeble",
+        "description": "Sisteme de simulare termo-mecanică pentru știința materialelor"
+      },
+      {
+        "code": "Pacific Instruments",
+        "description": "Sisteme de condiționare a semnalului și achiziție de date"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între mărcile tensometrice CEA și CHA de la Vishay Precision Group?",
+        "a": "Marca CEA este o marcă tensometrică de uz general, potrivită pentru majoritatea încercărilor de laborator, în timp ce marca CHA este concepută special pentru medii cu expunere ridicată la umiditate. Alegerea între cele două depinde de condițiile de mediu în care va funcționa senzorul și de durata expunerii la umiditate sau apă."
+      },
+      {
+        "q": "Ce sunt mărcile Tedea-Huntleigh și Celtron din portofoliul Vishay Precision Group?",
+        "a": "Tedea-Huntleigh și Celtron sunt mărci de celule de sarcină din familia VPG Force Sensors, folosite pentru cântărire industrială în platforme, buncăre și linii de producție. Cele două mărci acoperă game diferite de capacitate și geometrie constructivă, iar alegerea corectă depinde de tipul cântarului și de sarcina maximă necesară."
+      },
+      {
+        "q": "Ce date includeți într-o cerere de ofertă pentru celule de sarcină Vishay Precision Group?",
+        "a": "Avem nevoie de capacitatea nominală necesară, tipul de cântar sau platformă în care va fi montată celula și mediul de lucru, de exemplu interior sau expunere la umiditate. Cu aceste date putem indica marca potrivită, Tedea-Huntleigh, Celtron sau Sensortronics, urmând confirmarea pe baza fișelor tehnice publicate de producător."
+      },
+      {
+        "q": "Livrați produse Vishay Precision Group în România?",
+        "a": "Mărcile tensometrice și celulele de sarcină din portofoliul Vishay Precision Group se aduc la comandă, cu un interval estimat de 2–6 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de capacități și variante constructive."
+      },
+      {
+        "q": "Ce sunt sistemele Gleeble din gama Vishay Precision Group?",
+        "a": "Gleeble este o familie de sisteme de simulare termo-mecanică folosite în cercetarea materialelor, pentru a reproduce în laborator condițiile de temperatură și deformare din procesele industriale reale. Aceste sisteme sunt utilizate de producători de oțel și de institute de cercetare pentru dezvoltarea și testarea aliajelor noi."
+      }
+    ],
     evidenceClass: "market-signal-intl",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"Sitemap produse VPG Force Sensors","url":"https://vpgforcesensors.com/sitemap.xml","publisher":"Vishay Precision Group","accessed":"2026-09-26"},
+      {"title":"Brandurile Vishay Precision Group","url":"https://www.vpgsensors.com/brands/","publisher":"Vishay Precision Group","accessed":"2026-09-26"},
       { title: "Vishay Precision Group - pagina principală", url: "https://www.vpgsensors.com/", publisher: "Vishay Precision Group, Inc.", accessed: "2026-09-22" },
       { title: "VPG - Brands", url: "https://www.vpgsensors.com/brands/", publisher: "Vishay Precision Group, Inc.", accessed: "2026-09-22" },
     ],

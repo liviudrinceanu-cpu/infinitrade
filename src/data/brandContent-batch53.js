@@ -1071,11 +1071,77 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
     ],
     infinitrade: `Pentru EWM lucrăm cu ce publică producătorul pe site-ul oficial și pe pagina lor de produse, fără date proprii despre stocul din Mündersbach. Aducem aparate de sudură EWM la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-6 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de procedeul de sudură dorit — MIG/MAG, WIG sau electrod —, curentul necesar și dacă echipamentul trebuie integrat într-o celulă robotizată. Nu promitem disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru variantele robotizate configurate pe proiect.`,
     limitation: "Nu putem confirma disponibilitatea locală a service-ului în garanția producătorului pentru un aparat EWM adus prin comandă.",
+    productCodes: [
+      {
+        "code": "XQ Series MIG/MAG",
+        "description": "Aparate de sudură MIG/MAG din gama profesională EWM"
+      },
+      {
+        "code": "Picomig Series",
+        "description": "Aparate MIG/MAG compacte din gama EWM Pico"
+      },
+      {
+        "code": "XQ Series TIG",
+        "description": "Aparate de sudură TIG din gama profesională EWM"
+      },
+      {
+        "code": "Picotig Series",
+        "description": "Aparate TIG compacte și portabile din gama EWM Pico"
+      },
+      {
+        "code": "TETRIX XQ",
+        "description": "Aparat de sudură TIG din familia XQ a EWM"
+      },
+      {
+        "code": "Titan XQ Puls",
+        "description": "Aparat de sudură MIG/MAG cu impulsuri, din familia XQ"
+      },
+      {
+        "code": "Picomax XQ",
+        "description": "Aparat de sudură MMA din gama compactă EWM"
+      },
+      {
+        "code": "React",
+        "description": "Sistem de sudură robotizată din gama de automatizare EWM"
+      },
+      {
+        "code": "EWM Co-bot Welding",
+        "description": "Soluție de sudură colaborativă cu robot pentru linii mici de producție"
+      },
+      {
+        "code": "ewm Xnet 3",
+        "description": "Software de monitorizare și gestionare a datelor de sudură EWM"
+      },
+      {
+        "code": "Degaussing equipment",
+        "description": "Echipament pentru demagnetizarea pieselor înainte de sudare"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între gamele EWM XQ și Picomig/Picotig?",
+        "a": "Gama XQ cuprinde aparate EWM de sudură MIG/MAG și TIG gândite pentru utilizare profesională intensivă, cu funcții avansate de reglaj. Gama Picomig și Picotig oferă echipamente mai compacte, mai ușor de transportat, potrivite pentru ateliere mici sau lucrări la distanță. Alegerea corectă depinde de volumul de sudură zilnic și de necesitatea de a muta frecvent aparatul între șantiere."
+      },
+      {
+        "q": "Livrează EWM aparate de sudură pentru clienți din România?",
+        "a": "Da, comandăm pentru client aparate din gamele XQ, Picomig, Picotig sau Picomax, pe baza denumirii complete confirmate din documentația oficială EWM. Gama nu se află pe raftul nostru; comanda pornește de la disponibilitatea publicată de EWM, cu un termen obișnuit de 2-6 săptămâni."
+      },
+      {
+        "q": "Ce detalii sunt utile pentru o ofertă la un aparat de sudură EWM?",
+        "a": "Menționați procesul dorit dintre gamele XQ sau Pico, puterea sursei în amperi, tensiunea rețelei disponibile în atelier și dacă echipamentul va fi integrat într-o celulă robotizată React sau folosit manual. Pentru un aparat de înlocuire, denumirea de pe plăcuța vechiului echipament ajută la găsirea unui corespondent direct în gama EWM actuală, fără a pierde funcțiile deja folosite de operator."
+      },
+      {
+        "q": "Ce este sistemul EWM Co-bot Welding?",
+        "a": "Este o soluție de sudură colaborativă, în care un robot lucrează alături de operator pentru sarcini repetitive, fără gardurile de protecție complexe ale roboților industriali clasici. Se folosește frecvent în producția de serie mică sau medie, unde flexibilitatea contează mai mult decât viteza maximă de sudare. Configurația exactă depinde de piesele sudate și de spațiul disponibil pe linia de producție."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      {"title":"MIG/MAG Welding Machines | EWM","url":"https://www.ewm-group.com/en/products/mig-mag-welders","publisher":"EWM","accessed":"2026-09-26"},
+      {"title":"Automation & Robotics | EWM","url":"https://www.ewm-group.com/en/products/automation","publisher":"EWM","accessed":"2026-09-26"},
       { title: "EWM GmbH — Homepage", url: "https://www.ewm-group.com", publisher: "EWM GmbH", accessed: "2026-09-22" },
       { title: "EWM — Products Overview", url: "https://www.ewm-group.com/en/products", publisher: "EWM GmbH", accessed: "2026-09-22" },
     ],

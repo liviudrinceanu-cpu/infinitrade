@@ -1125,12 +1125,94 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
 
     infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la informațiile publice din fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 2–6 săptămâni la comandă. Pentru o cotație utilă, spune-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
     sources: [
+      {"title":"Testo - sitemap produse (en-US)","url":"https://www.testo.com/en-US/sitemap/product.xml","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
+      {"title":"Testo - pagina oficială","url":"https://www.testo.com/","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
       { title: 'Testo – professional measurement technology', url: 'https://www.testo.com/en/', publisher: 'Testo SE & Co. KGaA', accessed: '2026-09-22' },
       { title: 'Testo SE & Co. KGaA', url: 'https://en.wikipedia.org/wiki/Testo_SE_%26_Co._KGaA', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu oferim noi calibrarea DKD/DAkkS a instrumentelor Testo și nu putem confirma stocul permanent pentru fiecare model din portofoliu.',
     lastVerified: '2026-09-22',
     changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    productCodes: [
+      {
+        "code": "testo 300",
+        "description": "Analizor de combustie de nouă generație pentru cazane și arzătoare industriale"
+      },
+      {
+        "code": "testo 320",
+        "description": "Kit compact de analiză a combustiei pentru service tehnic la cazane"
+      },
+      {
+        "code": "testo 330",
+        "description": "Analizor avansat de combustie cu memorie extinsă pentru multiple măsurători"
+      },
+      {
+        "code": "testo 174H",
+        "description": "Data logger miniatural pentru umiditate, cu memorie internă de date"
+      },
+      {
+        "code": "testo 174T",
+        "description": "Data logger miniatural pentru temperatură, cu opțiune de conectare Bluetooth"
+      },
+      {
+        "code": "testo 175 T3",
+        "description": "Data logger cu senzor extern pentru monitorizare continuă a temperaturii"
+      },
+      {
+        "code": "testo 184 T3",
+        "description": "Data logger de transport pentru monitorizarea temperaturii pe durata livrării"
+      },
+      {
+        "code": "testo 860i",
+        "description": "Cameră termografică compactă cu conectare la aplicația mobilă a producătorului"
+      },
+      {
+        "code": "testo 871s",
+        "description": "Cameră termografică cu rezoluție ridicată pentru diagnoză electrică și mecanică"
+      },
+      {
+        "code": "testo 872s",
+        "description": "Cameră termografică performantă pentru inspecții industriale de detaliu"
+      },
+      {
+        "code": "testo 883",
+        "description": "Cameră termografică cu obiectiv interschimbabil pentru aplicații avansate"
+      },
+      {
+        "code": "testo 400",
+        "description": "Instrument multifuncțional pentru măsurarea calității aerului interior și a confortului"
+      },
+      {
+        "code": "testo 440",
+        "description": "Instrument combinat pentru debit de aer, umiditate și concentrație de CO2"
+      },
+      {
+        "code": "testo 557s",
+        "description": "Kit inteligent de manifold digital pentru sisteme de refrigerare"
+      },
+      {
+        "code": "testo 570s",
+        "description": "Kit de manifold digital cu furtunuri de vidare incluse"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între testo 871s și testo 872s?",
+        "a": "Diferența principală este rezoluția și nivelul de detaliu al imaginii termice: seria 872s oferă o rezoluție mai ridicată și funcții suplimentare de analiză față de 871s, utile la depanare electrică fină sau la localizarea pierderilor termice greu vizibile. Alegerea depinde de cât de mic este defectul pe care trebuie să-l distingeți clar în imaginea termografică."
+      },
+      {
+        "q": "Aduceți camere termografice Testo în România?",
+        "a": "Da, camerele termografice și analizoarele Testo se aduc la comandă din gama oficială a producătorului, fără stoc ținut permanent pe raft; timpul de livrare depinde de model și de disponibilitatea din fabrică. Trimiteți codul exact (de exemplu testo 872s) sau aplicația dorită - electrică, mecanică, clădiri - pentru o ofertă corectă și rapidă."
+      },
+      {
+        "q": "Ce trimit pentru o ofertă de instrument Testo?",
+        "a": "Pentru o ofertă corectă trimiteți codul complet al instrumentului, așa cum apare pe carcasă sau în manual, plus aplicația vizată: combustie, termografie, calitatea aerului sau monitorizare de temperatură. Dacă nu cunoașteți codul exact, o fotografie a aparatului sau descrierea parametrilor măsurați (interval, precizie necesară) permite identificarea rapidă a modelului Testo potrivit."
+      },
+      {
+        "q": "Cum aleg între testo 300 și testo 330 pentru analiza gazelor de ardere?",
+        "a": "testo 300 este gândit ca soluție completă de nouă generație pentru service la cazane și arzătoare, în timp ce testo 330 este orientat spre analize avansate cu memorie extinsă pentru înregistrarea mai multor măsurători succesive. Dacă lucrați cu multe puncte de măsură pe zi, capacitatea de stocare a datelor poate fi criteriul decisiv în alegere."
+      }
+    ],
     evidenceClass: 'transactional'
   },
 

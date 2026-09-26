@@ -269,11 +269,81 @@ Pentru fabricile din România cu echipamente rotative solicitate — reductoare,
     ],
     infinitrade: `Pentru rulmenții NACHI aducem produsul la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii — nu depăstrăm stoc propriu și nu promitem disponibilitate permanentă pentru fiecare cod. Ca să dăm o ofertă corectă avem nevoie de codul exact al rulmentului sau, dacă nu-l cunoașteți, de diametrul interior, exterior, lățimea și tipul de sarcină (radială, axială sau combinată) al aplicației. Datele din acest text provin din surse publice ale producătorului, accesate în această sesiune de lucru; pentru compatibilitate exactă cu un arbore existent, recomandăm verificarea desenului tehnic al mașinii înainte de comandă.`,
     limitation: "Nu putem confirma echivalența exactă cu un cod concurent fără verificare punctuală și nu ținem disponibilitate permanentă din stoc pentru mărimile mai puțin uzuale din gamă.",
+    productCodes: [
+      {
+        "code": "Deep Groove Ball Bearings",
+        "description": "rulmenți radiali cu bile pentru sarcini radiale și axiale moderate"
+      },
+      {
+        "code": "Angular Contact Ball Bearings",
+        "description": "rulmenți cu bile cu contact unghiular pentru sarcini combinate"
+      },
+      {
+        "code": "High-Speed Angular Contact Ball Bearings",
+        "description": "rulmenți cu contact unghiular pentru turații ridicate"
+      },
+      {
+        "code": "Double-Row Angular Contact Ball Bearings",
+        "description": "rulmenți cu bile cu contact unghiular pe două rânduri"
+      },
+      {
+        "code": "Self-Aligning Ball Bearings",
+        "description": "rulmenți cu bile oscilanți, tolerează dezalinierea arborelui"
+      },
+      {
+        "code": "Cylindrical Roller Bearings",
+        "description": "rulmenți radiali cu role cilindrice pentru sarcini radiale mari"
+      },
+      {
+        "code": "Tapered Roller Bearings",
+        "description": "rulmenți radiali cu role conice pentru sarcini combinate"
+      },
+      {
+        "code": "Spherical Roller Bearings",
+        "description": "rulmenți radiali cu role butoi, tolerează dezalinierea"
+      },
+      {
+        "code": "EXQ-Series",
+        "description": "rulmenți sferici cu role, gama standard NACHI"
+      },
+      {
+        "code": "EXQ-V-Series",
+        "description": "rulmenți sferici cu role pentru aplicații cu vibrații"
+      },
+      {
+        "code": "Thrust Ball Bearings",
+        "description": "rulmenți axiali cu bile pentru sarcini pur axiale"
+      },
+      {
+        "code": "Spherical Roller Thrust Bearings",
+        "description": "rulmenți axiali cu role butoi pentru sarcini axiale mari"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între seria EXQ și EXQ-V la rulmenții NACHI?",
+        "a": "Seria EXQ este gama standard de rulmenți sferici cu role NACHI, potrivită pentru aplicații industriale obișnuite, în timp ce EXQ-V este dezvoltată special pentru echipamente supuse vibrațiilor, cu o colivie mai rezistentă și protecție suplimentară la coroziune. Alegerea EXQ-V se justifică la site vibrante, mori sau echipamente de concasare, unde solicitările sunt mai severe decât în funcționarea normală."
+      },
+      {
+        "q": "Ce sunt rulmenții cu contact unghiular de la NACHI?",
+        "a": "Rulmenții cu contact unghiular NACHI preiau simultan sarcini radiale și axiale, datorită unghiului de contact dintre bile și căile de rulare. Sunt disponibili în variante pentru turații ridicate sau pe două rânduri, pentru rigiditate sporită, și se folosesc frecvent la arbori de mașini-unelte sau motoare unde precizia poziționării axiale contează la fel de mult ca durabilitatea."
+      },
+      {
+        "q": "Livrați rulmenți NACHI în România?",
+        "a": "Da, rulmenții NACHI pot fi aduși la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–6 săptămâni, în funcție de dimensiune și disponibilitate. Recomandăm confirmarea codului complet al rulmentului, inclusiv seria și varianta constructivă, pentru a evita confuziile între tipuri asemănătoare din catalogul producătorului."
+      },
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă pe rulmenți NACHI?",
+        "a": "Trimiteți dimensiunile arborelui și ale carcasei, tipul de sarcină — radială, axială sau combinată — și condițiile de funcționare, precum turația sau prezența vibrațiilor. Aceste date permit alegerea corectă între rulmenți cu bile, cu role conice sau sferici, întrucât gama NACHI acoperă situații foarte diferite de montaj și solicitare."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Sitemap produse","url":"https://www.nachi-bearings.de/sitemap.xml","publisher":"NACHI Europe","accessed":"2026-09-26"},
+      {"title":"Spherical Roller Bearings","url":"https://www.nachi-bearings.de/radial-bearings/radial-roller-bearings/spherical-roller-bearings.html","publisher":"NACHI Europe","accessed":"2026-09-26"},
       { title: "NACHI Europe — pagina principală", url: "https://www.nachi-bearings.de/", publisher: "NACHI Europe GmbH", accessed: "2026-09-22" },
       { title: "NACHI-FUJIKOSHI — pagina globală (EN)", url: "https://www.nachi-fujikoshi.co.jp/eng/", publisher: "Nachi-Fujikoshi Corp.", accessed: "2026-09-22" }
     ]
@@ -353,11 +423,96 @@ Pentru instalațiile industriale din România, gama de siguranțe și dispozitiv
     ],
     infinitrade: `Pentru componentele Littelfuse nu păstrăm stoc propriu — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Ca să pregătim o ofertă corectă avem nevoie de codul exact al produsului sau, în lipsa lui, de curentul nominal, tensiunea de lucru și tipul de montaj cerut de aplicație. Ce putem și ce nu putem confirma ține de disponibilitatea la producător la momentul comenzii — nu promitem o cantitate rezervată în avans fără verificare punctuală. Datele tehnice generale din acest text provin din surse publice ale producătorului, verificate în această sesiune.`,
     limitation: "Nu putem confirma echivalența directă cu un cod de la alt producător fără verificare punctuală și nu ținem disponibilitate permanentă din stoc pentru siguranțele mai puțin uzuale din gamă.",
+    productCodes: [
+      {
+        "code": "1812L200TH",
+        "description": "Dispozitiv PPTC resetabil pentru supracurent, montare pe suprafață SMD"
+      },
+      {
+        "code": "WPC2512GL0M75F",
+        "description": "Rezistor de putere SMD seria WPC, carcasă 2512"
+      },
+      {
+        "code": "100056",
+        "description": "Clemă de fixare pentru siguranțe cilindrice seria 100-PC"
+      },
+      {
+        "code": "RXEF250-2",
+        "description": "Dispozitiv PPTC radial cu terminale, seria RXEF"
+      },
+      {
+        "code": "SM30KPA78CA-HRA",
+        "description": "Diodă TVS pentru aplicații avionice de fiabilitate ridicată"
+      },
+      {
+        "code": "109002",
+        "description": "Clemă pentru siguranțe cilindrice, seria 109"
+      },
+      {
+        "code": "7101T1CWZGE",
+        "description": "Comutator basculant miniatural din seria 7000"
+      },
+      {
+        "code": "V140LA20C",
+        "description": "Varistor radial cu terminale, seria C-III"
+      },
+      {
+        "code": "CPC1966Y",
+        "description": "Releu solid state de curent alternativ cu pornire la trecerea prin zero"
+      },
+      {
+        "code": "AP2D300TZBE",
+        "description": "Comutator cu buton apăsat, seria AP"
+      },
+      {
+        "code": "P1701DF-1E",
+        "description": "Tiristor de protecție tip sidactor pentru linii de telecomunicații"
+      },
+      {
+        "code": "SMCG11A-HRA",
+        "description": "Diodă TVS montată pe suprafață pentru avionică, seria SMCG"
+      },
+      {
+        "code": "0998350-UX-1M8",
+        "description": "Siguranță auto cu prezon, din seria MEGA"
+      },
+      {
+        "code": "226-200",
+        "description": "Siguranță tip cartuș din seria 226"
+      },
+      {
+        "code": "SMBJ16",
+        "description": "Diodă TVS montată pe suprafață, seria SMBJ"
+      }
+    ],
+    faq: [
+      {
+        "q": "Cum recunosc seria unei siguranțe Littelfuse după codul de pe carcasă?",
+        "a": "Codul de pe carcasă indică de obicei familia constructivă și curentul nominal; prefixele numerice urmate de litere descriu tipul de montaj și tensiunea de lucru. Pentru identificare exactă recomandăm compararea codului complet cu fișa tehnică publicată de Littelfuse, deoarece variantele de aceeași familie diferă prin curent, tensiune și toleranță."
+      },
+      {
+        "q": "Ce echivalent are un dispozitiv PPTC Littelfuse dacă am nevoie de protecție resetabilă la supracurent?",
+        "a": "Un dispozitiv PPTC revine la starea normală după ce curentul scade sub pragul de declanșare, spre deosebire de o siguranță clasică ce trebuie înlocuită. Seriile radiale și cele pentru montare pe suprafață din catalogul Littelfuse acoperă praguri diferite de curent și tensiune, iar alegerea echivalentului depinde de spațiul disponibil pe placă."
+      },
+      {
+        "q": "Ce informații trebuie incluse într-o cerere de ofertă pentru componente Littelfuse?",
+        "a": "Pentru o ofertă corectă avem nevoie de codul complet al piesei așa cum apare în catalogul Littelfuse, cantitatea dorită și, dacă este posibil, aplicația în care va fi folosită componenta. Aceste detalii ajută la confirmarea variantei exacte, întrucât multe familii Littelfuse au zeci de variante apropiate ca aspect dar diferite ca parametri electrici."
+      },
+      {
+        "q": "Livrați componente Littelfuse în România?",
+        "a": "Comenzile pentru componente Littelfuse ajung de la producător în aproximativ 2–6 săptămâni, iar noi nu ținem această gamă pe raft, dat fiind numărul mare de variante de siguranțe și diode disponibile în catalog."
+      },
+      {
+        "q": "Care e diferența dintre o diodă TVS și un varistor din gama Littelfuse?",
+        "a": "Diodele TVS din familiile SMCG sau SM30KPA reacționează foarte rapid la supratensiuni tranzitorii și sunt potrivite pentru protecția liniilor de date, în timp ce varistoarele radiale precum seria C-III absorb energie mai mare la impulsuri de tensiune. Alegerea depinde de nivelul de energie așteptat și de viteza de răspuns necesară."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Sitemap produse Littelfuse (product-sitemap_L7_0.xml)","url":"https://www.littelfuse.com/product-sitemap_L7_0.xml","publisher":"Littelfuse","accessed":"2026-09-26"},
       { title: "Littelfuse", url: "https://en.wikipedia.org/wiki/Littelfuse", publisher: "Wikipedia", accessed: "2026-09-22" },
       { title: "Littelfuse — pagina principală", url: "https://www.littelfuse.com/", publisher: "Littelfuse, Inc.", accessed: "2026-09-22" }
     ]
@@ -394,11 +549,109 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
     ],
     infinitrade: `Nu depăstrăm stoc propriu de cazane Viessmann — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmarea comenzii, valabil pentru unități configurate pe proiect. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil disponibil pe amplasament și dacă instalația actuală funcționează cu apă caldă sau abur. Informațiile publice disponibile despre gama Vitomax provin din site-ul producătorului, verificat în această sesiune de lucru; pentru un proiect de retehnologizare recomandăm o discuție tehnică prealabilă, pentru că dimensionarea corectă depinde de profilul real de consum al fabricii, nu doar de puterea instalată actuală.`,
     limitation: "Nu putem confirma termene de livrare mai scurte pentru unități configurate special pe proiect și nu oferim service în garanția producătorului pentru instalații puse în funcțiune de alt furnizor.",
+    productCodes: [
+      {
+        "code": "Vitodens 050-W",
+        "description": "Centrală termică în condensație pentru apartamente, montaj compact"
+      },
+      {
+        "code": "Vitodens 100-W",
+        "description": "Centrală termică în condensație pentru locuințe unifamiliale"
+      },
+      {
+        "code": "Vitodens 111-W",
+        "description": "Centrală termică în condensație cu boiler de apă caldă integrat"
+      },
+      {
+        "code": "Vitodens 200-W (B2HE)",
+        "description": "Centrală termică în condensație de putere mai mare, variantă B2HE"
+      },
+      {
+        "code": "Vitodens 200-W (B2KE)",
+        "description": "Centrală termică în condensație, variantă compactă B2KE"
+      },
+      {
+        "code": "Vitodens 222-F (B2TE)",
+        "description": "Centrală compactă cu boiler încorporat, variantă B2TE"
+      },
+      {
+        "code": "Vitodens 222-W (B2LE)",
+        "description": "Centrală în condensație cu regulator integrat, variantă B2LE"
+      },
+      {
+        "code": "Vitocrossal 200 (CIB)",
+        "description": "Cazan în condensație pentru clădiri comerciale, model CIB"
+      },
+      {
+        "code": "Vitocrossal 200 CM2",
+        "description": "Cazan în condensație cu schimbător cilindric, seria CM2"
+      },
+      {
+        "code": "Vitocrossal 300 (CR3B)",
+        "description": "Cazan în condensație de mare putere, model CR3B"
+      },
+      {
+        "code": "Vitocrossal 300 (CT3B)",
+        "description": "Cazan în condensație pentru instalații industriale, model CT3B"
+      },
+      {
+        "code": "Vitocrossal 300 (CT3U)",
+        "description": "Cazan în condensație de proces, variantă CT3U"
+      },
+      {
+        "code": "Vitocrossal 300 CM3",
+        "description": "Cazan în condensație cu schimbător din oțel inoxidabil, seria CM3"
+      },
+      {
+        "code": "Vitocrossal 300 CU3A",
+        "description": "Cazan în condensație de capacitate mare, seria CU3A"
+      },
+      {
+        "code": "Vitomax 100-LS",
+        "description": "Cazan de abur de joasă presiune pentru uz industrial"
+      },
+      {
+        "code": "Vitocell 100-B",
+        "description": "Boiler de apă caldă menajeră cu serpentină, model 100-B"
+      },
+      {
+        "code": "Vitocell 100-E",
+        "description": "Boiler de apă caldă menajeră emailat, model 100-E"
+      },
+      {
+        "code": "Vitomax HW",
+        "description": "Cazan de apă caldă de înaltă presiune pentru rețele termice industriale"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce înseamnă codul B2HE sau B2KE de la sfârșitul denumirii unei centrale Viessmann?",
+        "a": "Sufixele de tip B2HE sau B2KE de la finalul denumirii Vitodens 200-W indică varianta constructivă și gama de putere a centralei, nu un accesoriu separat. Aceste litere apar în documentația tehnică Viessmann pentru a deosebi modele cu tablou de comandă sau schimbător diferit, motiv pentru care codul complet trebuie citit împreună cu seria de bază."
+      },
+      {
+        "q": "Care e diferența dintre seria Vitocrossal 200 și seria Vitocrossal 300 la Viessmann?",
+        "a": "Seria Vitocrossal 200 acoperă puteri mai mici și este gândită pentru clădiri comerciale de dimensiune medie, în timp ce Vitocrossal 300 include modele precum CR3B și CT3B destinate instalațiilor industriale cu necesar termic ridicat. Diferența principală vizează materialul schimbătorului de căldură și plaja de putere disponibilă, publicată în fișele tehnice ale fiecărui model."
+      },
+      {
+        "q": "Ce detalii sunt utile atunci când solicitați o ofertă pentru un cazan Viessmann?",
+        "a": "Pentru o estimare corectă avem nevoie de puterea termică necesară, tipul de combustibil disponibil și destinația instalației, rezidențială sau industrială. Pe baza acestor date putem indica seria potrivită din gama Vitodens, Vitocrossal sau Vitomax, urmând ca oferta finală să fie confirmată după consultarea documentației tehnice publice a producătorului."
+      },
+      {
+        "q": "Livrați echipamente Viessmann în România?",
+        "a": "Pentru echipamentele Viessmann lucrăm exclusiv la comandă, într-un interval estimat de 2–6 săptămâni stabilit după confirmarea seriei alese; nu ținem această gamă pe raft, având în vedere multitudinea de puteri și configurații publicate de producător."
+      },
+      {
+        "q": "Ce este un boiler din seria Vitocell și cum aleg modelul potrivit?",
+        "a": "Un boiler Vitocell este un rezervor pentru apă caldă menajeră, disponibil în variante emailate sau cu serpentină simplă ori dublă, precum modelele 100-B și 100-E. Alegerea depinde de volumul necesar în gospodărie, de tipul sursei de căldură cu care va fi cuplat și de spațiul disponibil pentru montaj."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Sitemap produse Viessmann România","url":"https://www.viessmann.ro/sitemap.xml","publisher":"Viessmann","accessed":"2026-09-26"},
+      {"title":"Cazane industriale Viessmann","url":"https://www.viessmann.ro/ro/cunostinte/tehnologie-sistem/cazane-industriale.html","publisher":"Viessmann","accessed":"2026-09-26"},
       { title: "Viessmann — cazane industriale", url: "https://www.viessmann.ro/ro/cunostinte/tehnologie-sistem/cazane-industriale.html", publisher: "Viessmann", accessed: "2026-09-22" },
       { title: "Viessmann România — pagina principală", url: "https://www.viessmann.ro/", publisher: "Viessmann", accessed: "2026-09-22" }
     ]
@@ -1117,11 +1370,96 @@ Pentru fabricile din România cu tablouri electrice, dulapuri de automatizare sa
     ],
     infinitrade: `Aducem ventilatoare ebm-papst la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-6 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de debitul de aer necesar, presiunea statică a sistemului, spațiul de montaj disponibil și dacă preferați tehnologie AC sau EC. Informația a fost verificată pe site-ul producătorului, dar sursa e limitată în privința parametrilor tehnici exacți per model — pentru un debit sau o presiune precisă recomandăm confirmarea directă pe fișa tehnică a modelului ales înainte de comandă. Nu păstrăm stoc propriu și nu promitem o cantitate disponibilă imediat pentru fiecare dimensiune din gamă.`,
     limitation: "Nu putem confirma orașul exact al sediului central sau certificările specifice ale companiei, pentru că nu au fost vizibile pe paginile accesate în această sesiune.",
+    productCodes: [
+      {
+        "code": "RV45",
+        "description": "Ventilator compact axial pentru răcirea echipamentelor electronice"
+      },
+      {
+        "code": "RVE45",
+        "description": "Ventilator compact axial cu electronică de control integrată"
+      },
+      {
+        "code": "Radipac",
+        "description": "Ventilator centrifugal fără carcasă spirală pentru unități HVAC"
+      },
+      {
+        "code": "Radiflow",
+        "description": "Ventilator centrifugal de înaltă presiune pentru aplicații de proces"
+      },
+      {
+        "code": "IQX",
+        "description": "Motor cu rotor exterior și electronică de control integrată"
+      },
+      {
+        "code": "NexAiRA Fit",
+        "description": "Modul de ventilație compact pentru sisteme de climatizare"
+      },
+      {
+        "code": "NexAiRA Core",
+        "description": "Platformă de ventilație scalabilă pentru unități de tratare a aerului"
+      },
+      {
+        "code": "NexAiRA Systems",
+        "description": "Sistem complet de ventilație bazat pe platforma NexAiRA"
+      },
+      {
+        "code": "Companamic",
+        "description": "Sistem de ventilație modular pentru aplicații comerciale"
+      },
+      {
+        "code": "Axial Compact Fans",
+        "description": "Familia de ventilatoare axiale compacte pentru electronică"
+      },
+      {
+        "code": "Centrifugal Compact Fans",
+        "description": "Familia de ventilatoare centrifugale compacte de dimensiuni reduse"
+      },
+      {
+        "code": "Diagonal Compact Fans",
+        "description": "Familia de ventilatoare diagonale compacte pentru spații înguste"
+      },
+      {
+        "code": "Gas Blowers",
+        "description": "Suflante pentru arzătoare pe gaz din gama de blowere"
+      },
+      {
+        "code": "Circulation Blower",
+        "description": "Suflantă de recirculare pentru aparate de încălzire"
+      },
+      {
+        "code": "EC External Rotor Motors",
+        "description": "Familia de motoare EC cu rotor exterior"
+      }
+    ],
+    faq: [
+      {
+        "q": "Ce diferență este între un ventilator axial și unul centrifugal la ebm-papst?",
+        "a": "Un ventilator axial, precum familia RV45, deplasează aerul paralel cu axul rotorului și este potrivit pentru răcirea directă a echipamentelor, în timp ce un ventilator centrifugal precum Radipac schimbă direcția fluxului de aer la 90 de grade și dezvoltă presiuni mai mari, fiind folosit în unități de tratare a aerului."
+      },
+      {
+        "q": "Ce este platforma NexAiRA de la ebm-papst?",
+        "a": "NexAiRA este o platformă de ventilație modulară ebm-papst, disponibilă în variantele Fit, Core și Systems, gândită pentru a acoperi de la module compacte până la sisteme complete de tratare a aerului. Configurația exactă depinde de debitul de aer necesar și de spațiul de montaj disponibil în unitatea de climatizare."
+      },
+      {
+        "q": "Ce parametri tehnici ajută la pregătirea unei oferte pentru ventilatoare ebm-papst?",
+        "a": "Este nevoie de debitul de aer și presiunea statică necesare, tensiunea de alimentare disponibilă și spațiul de montaj din echipament. Cu aceste date putem indica familia potrivită, axială, centrifugală sau tangențială, din portofoliul ebm-papst, urmând ca varianta finală să fie stabilită împreună cu clientul pe baza documentației tehnice a producătorului."
+      },
+      {
+        "q": "Livrați ventilatoare ebm-papst în România?",
+        "a": "Ventilatoarele și motoarele ebm-papst se aduc la comandă, termenul uzual fiind de 2–6 săptămâni de la confirmare, iar această gamă nu este ținută pe raft, din cauza numărului mare de combinații de dimensiune și tensiune existente."
+      },
+      {
+        "q": "Ce rol are un motor EC cu rotor exterior în ventilatoarele ebm-papst?",
+        "a": "Motorul EC cu rotor exterior integrează electronica de comutare direct în carcasă, ceea ce permite reglarea turației fără variator extern și reduce pierderile electrice față de un motor asincron clasic. Această construcție se regăsește la majoritatea ventilatoarelor axiale și centrifugale din gama actuală."
+      }
+    ],
     evidenceClass: "market-signal-ro",
     tier: 3,
     lastVerified: "2026-09-22",
     changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
+      {"title":"Sitemap produse ebm-papst SUA (us.sitemap.xml)","url":"https://www.ebmpapst.com/us.sitemap.xml","publisher":"ebm-papst","accessed":"2026-09-26"},
       { title: "ebm-papst — pagina principală", url: "https://www.ebmpapst.com", publisher: "ebm-papst Mulfingen GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "ebm-papst — pagina EN", url: "https://www.ebmpapst.com/en/", publisher: "ebm-papst Mulfingen GmbH & Co. KG", accessed: "2026-09-22" }
     ]
