@@ -15,6 +15,9 @@ export const navigation = [
     href: '/blog',
     isDropdown: true,
     children: [
+      { name: 'Pentru achiziții', href: '/achizitii', description: 'Date de firmă, documente de furnizor, e-Factura' },
+      { name: 'Pentru mentenanță', href: '/mentenanta', description: 'Piese după cod sau poza plăcuței' },
+      { name: 'Pentru proiecte (CAPEX)', href: '/proiecte', description: 'Ofertă pe listă de echipamente' },
       { name: 'Ghid Achiziții SEAP', href: '/ghid-achizitii-seap', description: 'Coduri CPV și proceduri licitații' },
       { name: 'Blog Tehnic', href: '/blog', description: 'Ghiduri și articole tehnice' },
       { name: 'Ghiduri de aplicație', href: '/studii-de-caz', description: 'Cum abordăm tehnic proiectele' },

@@ -45,10 +45,10 @@ export default function Categories() {
         <div
           className={`${styles.header} animate-fade-up ${isVisible ? 'is-visible' : ''}`}
         >
-          <h2 className={styles.title}>Echipamente Industriale Premium</h2>
+          <h2 className={styles.title}>Categorii de Echipamente Industriale</h2>
           <p className={styles.subtitle}>
-            Explorează gama noastră completă de soluții industriale.
-            De la pompe la motoare, avem tot ce ai nevoie pentru proiectul tău.
+            Explorați gama noastră completă de soluții industriale.
+            De la pompe la motoare, avem tot ce este necesar pentru proiectul dumneavoastră.
           </p>
         </div>
 
@@ -120,8 +120,8 @@ export default function Categories() {
                           category: category.name,
                           url: `/${category.slug}`
                         })}
-                        aria-label={isInCart(category.name) ? `${category.name} este în cerere` : `Adaugă ${category.name} la cerere`}
-                        title={isInCart(category.name) ? 'În cerere' : 'Adaugă la cerere'}
+                        aria-label={isInCart(category.name) ? `${category.name} este în cerere` : `Adăugați ${category.name} la cerere`}
+                        title={isInCart(category.name) ? 'În cerere' : 'Adăugați la cerere'}
                       >
                         {isInCart(category.name) ? <Check size={18} /> : <Plus size={18} />}
                       </button>

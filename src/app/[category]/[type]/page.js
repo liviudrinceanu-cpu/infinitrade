@@ -70,7 +70,7 @@ export async function generateMetadata({ params }) {
     `${content.name} | Infinitrade`,
     content.name,
   ].find((t) => t.length <= 65);
-  const description = trim(`${content.lede} ${brands.length ? `Branduri pe care le livrăm în România: ${brands.slice(0, 4).map((b) => b.name).join(', ')}.` : ''} Cere ofertă cu codul produsului.`, 158);
+  const description = trim(`${content.lede} ${brands.length ? `Branduri pe care le livrăm în România: ${brands.slice(0, 4).map((b) => b.name).join(', ')}.` : ''} Cereți ofertă cu codul produsului.`, 158);
   return {
     title: { absolute: title },
     description,
@@ -182,7 +182,7 @@ export default async function ProductTypePage({ params }) {
 
         <section className={`${base.listSection} ${base.catalogSection}`} id="cum-alegi">
           <div className={base.container}>
-            <h2 className={base.sectionTitle}>Cum alegi corect? Criterii de selecție pentru {content.shortName}</h2>
+            <h2 className={base.sectionTitle}>Cum alegeți corect? Criterii de selecție pentru {content.shortName}</h2>
             <p className={base.sectionNote}>Criteriile de mai jos sunt cele pe care le verificăm noi înainte de a cere o ofertă la producător; în ordinea în care contează.</p>
             <ol className={styles.criteria}>
               {content.howToChoose.map((c) => (
@@ -235,14 +235,14 @@ export default async function ProductTypePage({ params }) {
 
         <section className={base.listSection} id="oferta">
           <div className={base.container}>
-            <h2 className={base.sectionTitle}>Ce trebuie să trimiți pentru o ofertă de {content.shortName}?</h2>
+            <h2 className={base.sectionTitle}>Ce trebuie să trimiteți pentru o ofertă de {content.shortName}?</h2>
             <ul className={styles.checklist}>
               {content.whatToSend.map((w) => <li key={w}>{w}</li>)}
             </ul>
             <p className={base.sectionNote}>
               Aducem la comandă, prin canalele de aprovizionare ale producătorului; termen orientativ 2–4 săptămâni, în funcție de confirmarea fabricii.
             </p>
-            <Link href="/contact" className={base.ctaButton}>Cere ofertă</Link>
+            <Link href="/contact" className={base.ctaButton}>Cereți ofertă</Link>
           </div>
         </section>
 

@@ -435,17 +435,17 @@ export default async function CaseStudyPage({ params }) {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
-              <h2>Ai un proiect similar?</h2>
+              <h2>Aveți un proiect similar?</h2>
               <p>
-                Contactează echipa noastră tehnică pentru o consultație gratuită.
-                Analizăm cerințele tale și propunem soluția optimă.
+                Contactați echipa noastră tehnică pentru o consultație gratuită.
+                Analizăm cerințele dumneavoastră și propunem soluția optimă.
               </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact" className={styles.ctaPrimary}>
-                  Solicită Consultație Gratuită
+                  Solicitați Consultație Gratuită
                 </Link>
                 <Link href="/studii-de-caz" className={styles.ctaSecondary}>
-                  Vezi Alte Proiecte
+                  Vedeți Alte Proiecte
                 </Link>
               </div>
             </div>

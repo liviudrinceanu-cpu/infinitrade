@@ -10,6 +10,7 @@ import { CLIENT_CATEGORIES as categories } from '@/data/headerMenus';
 import { BRAND_CATEGORY_SLUGS } from '@/data/brandCategorySlugs';
 import { siteStats } from '@/data/siteStats';
 import { useQuoteCart } from '@/context/QuoteCartContext';
+import { ROLE_OPTIONS, ROLE_VALUES } from '@/data/roleOptions';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './contact.module.css';
 
@@ -25,6 +26,17 @@ const LEGACY_BRAND_PREFIXES = [
   'racitoare-ulei-industriale-', 'suflante-industriale-', 'suflante-roots-industriale-',
   'ventilatoare-industriale-', 'compresoare-industriale-',
 ];
+// v27: atașament opțional (listă Excel/CSV, PDF, poza plăcuței). Limita de
+// 3 MB ține cererea sub limita de 4,5 MB a funcțiilor Vercel (base64 +33%).
+const MAX_FILE_BYTES = 3 * 1024 * 1024;
+const ALLOWED_EXT = ['xlsx', 'xls', 'csv', 'pdf', 'jpg', 'jpeg', 'png', 'webp'];
+const FILE_ACCEPT = ALLOWED_EXT.map((e) => '.' + e).join(',');
+const ROLE_PLACEHOLDERS = {
+  mentenanta: 'Producătorul, codul de pe plăcuță sau codul piesei, ce s-a defectat, cantitatea și dacă oprește producția...',
+  proiecte: 'Proiectul, lista de echipamente (sau atașați fișierul), termenele și documentele cerute...',
+  achizitii: 'Reperele sau lista pentru ofertă, ori documentele de înscriere ca furnizor pe care ni le trimiteți...',
+};
+
 const brandCategorySlugs = (slug) => {
   if (BRAND_CATEGORY_SLUGS[slug]) return BRAND_CATEGORY_SLUGS[slug];
   const prefix = LEGACY_BRAND_PREFIXES.find((p) => slug.startsWith(p));
@@ -52,6 +64,43 @@ export default function ContactPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [honeypot, setHoneypot] = useState('');
+  const [role, setRole] = useState('');
+  const [attachment, setAttachment] = useState(null);
+  const [fileError, setFileError] = useState(null);
+
+  // v27: /contact?rol=mentenanta (din paginile de rol) precompletează rolul.
+  useEffect(() => {
+    try {
+      const r = new URLSearchParams(window.location.search).get('rol');
+      if (r && ROLE_VALUES.includes(r)) setRole(r);
+    } catch (e) { /* fără parametru */ }
+  }, []);
+
+  const handleFile = (e) => {
+    const f = e.target.files && e.target.files[0];
+    setFileError(null);
+    if (!f) { setAttachment(null); return; }
+    const ext = (f.name.split('.').pop() || '').toLowerCase();
+    if (!ALLOWED_EXT.includes(ext)) {
+      setFileError('Tip de fișier neacceptat. Folosiți Excel, CSV, PDF, JPG, PNG sau WEBP.');
+      e.target.value = '';
+      setAttachment(null);
+      return;
+    }
+    if (f.size > MAX_FILE_BYTES) {
+      setFileError('Fișierul depășește 3 MB. Trimiteți-l comprimat sau pe e-mail, la vanzari@infinitrade-romania.ro.');
+      e.target.value = '';
+      setAttachment(null);
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      const res = String(reader.result || '');
+      setAttachment({ name: f.name.slice(0, 150), type: f.type || '', size: f.size, data: res.slice(res.indexOf(',') + 1) });
+    };
+    reader.onerror = () => setFileError('Fișierul nu a putut fi citit. Încercați din nou.');
+    reader.readAsDataURL(f);
+  };
   const [formLoadedAt] = useState(() => Date.now());
 
   // v11 (D-2026-09-26): "Categorii de interes" is a checkbox list over ALL
@@ -133,6 +182,8 @@ export default function ContactPage() {
       categorySlugs: checkedCategories,
       website: honeypot,
       _t: formLoadedAt,
+      role: role || undefined,
+      attachment: attachment || undefined,
       cartItems: cartItems.map(item => ({
         type: item.type,
         name: item.name,
@@ -156,7 +207,7 @@ export default function ContactPage() {
 
       if (!responseText || responseText.trim() === '') {
         // Empty response - likely a timeout or server error
-        throw new Error('Serverul nu a răspuns. Te rugăm să încerci din nou sau să ne contactezi direct la email.');
+        throw new Error('Serverul nu a răspuns. Vă rugăm să încercați din nou sau să ne scrieți direct pe e-mail.');
       }
 
       try {
@@ -164,7 +215,7 @@ export default function ContactPage() {
       } catch (parseError) {
         // Invalid JSON response
         console.error('Invalid JSON response:', responseText);
-        throw new Error('Eroare la procesarea răspunsului. Te rugăm să încerci din nou.');
+        throw new Error('Eroare la procesarea răspunsului. Vă rugăm să încercați din nou.');
       }
 
       if (!response.ok) {
@@ -177,7 +228,7 @@ export default function ContactPage() {
     } catch (err) {
       // Handle network errors specifically
       if (err.name === 'TypeError' && err.message.includes('fetch')) {
-        setError('Eroare de conexiune. Verifică conexiunea la internet și încearcă din nou.');
+        setError('Eroare de conexiune. Verificați conexiunea la internet și încercați din nou.');
       } else {
         setError(err.message);
       }
@@ -201,9 +252,9 @@ export default function ContactPage() {
         <section className={styles.hero} ref={heroRef}>
           <div className={styles.container}>
             <div>
-              <h1 className={styles.title}>Contactează-ne</h1>
+              <h1 className={styles.title}>Contactați-ne</h1>
               <p className={styles.subtitle}>
-                Echipa noastră este pregătită să te ajute cu orice întrebare.
+                Trimiteți codul, poza plăcuței sau lista de echipamente; răspundem de regulă în aceeași zi lucrătoare sau în următoarea.
                 Oferim consultanță tehnică gratuită pentru selecția echipamentelor.
               </p>
             </div>
@@ -221,8 +272,8 @@ export default function ContactPage() {
               >
                 {!isSubmitted ? (
                   <form onSubmit={handleSubmit} className={styles.form}>
-                    <h2>Cere Ofertă</h2>
-                    <p>Completează formularul și te vom contacta în cel mai scurt timp.</p>
+                    <h2>Cerere de ofertă</h2>
+                    <p>Completați formularul; puteți atașa lista de repere, poza plăcuței sau documentele de calificare.</p>
 
                     {/* Cart Items Display */}
                     {cartItems.length > 0 && (
@@ -265,7 +316,7 @@ export default function ContactPage() {
 
                     <div className={styles.formGrid}>
                       <div className={styles.formGroup}>
-                        <label htmlFor="name">Nume și Prenume *</label>
+                        <label htmlFor="name">Nume și prenume *</label>
                         <input
                           type="text"
                           id="name"
@@ -277,7 +328,7 @@ export default function ContactPage() {
                       </div>
 
                       <div className={styles.formGroup}>
-                        <label htmlFor="email">Email *</label>
+                        <label htmlFor="email">E-mail *</label>
                         <input
                           type="email"
                           id="email"
@@ -309,6 +360,16 @@ export default function ContactPage() {
                           onChange={handleChange}
                         />
                       </div>
+
+                      <div className={styles.formGroup}>
+                        <label htmlFor="role">Rolul dumneavoastră</label>
+                        <select id="role" name="role" value={role} onChange={(e) => setRole(e.target.value)}>
+                          <option value="">Selectați (opțional)</option>
+                          {ROLE_OPTIONS.map((o) => (
+                            <option key={o.value} value={o.value}>{o.label}</option>
+                          ))}
+                        </select>
+                      </div>
                     </div>
 
                     <fieldset className={styles.categoryFieldset}>
@@ -316,8 +377,8 @@ export default function ContactPage() {
                         Categorii de interes
                         <span className={styles.categoryHint}>
                           {checkedCategories.length > 0
-                            ? ` — ${checkedCategories.length} ${checkedCategories.length === 1 ? 'selectată' : 'selectate'}${cartItems.length > 0 ? ' (completate din cererea ta; poți bifa sau debifa)' : ''}`
-                            : ' — bifează una sau mai multe'}
+                            ? ` — ${checkedCategories.length} ${checkedCategories.length === 1 ? 'selectată' : 'selectate'}${cartItems.length > 0 ? ' (completate din cererea dumneavoastră; le puteți bifa sau debifa)' : ''}`
+                            : ' — bifați una sau mai multe'}
                         </span>
                       </legend>
                       <div className={styles.categoryGrid}>
@@ -344,9 +405,26 @@ export default function ContactPage() {
                         value={formData.message}
                         onChange={handleChange}
                         rows={5}
-                        placeholder="Descrie ce echipamente cauți, specificații tehnice, cantități, termen de livrare dorit..."
+                        placeholder={ROLE_PLACEHOLDERS[role] || 'Descrieți echipamentele, codurile, cantitățile și termenul de livrare dorit...'}
                         required
                       />
+                    </div>
+
+                    <div className={styles.formGroup}>
+                      <label htmlFor="attachment">Atașament (opțional)</label>
+                      <input
+                        type="file"
+                        id="attachment"
+                        name="attachment"
+                        accept={FILE_ACCEPT}
+                        onChange={handleFile}
+                        aria-describedby="attachment-help"
+                      />
+                      <small id="attachment-help" className={styles.categoryHint}>
+                        Listă de repere (Excel, CSV), PDF sau poza plăcuței (JPG, PNG, WEBP), până la 3 MB.
+                        {attachment ? ` Atașat: ${attachment.name}.` : ''}
+                      </small>
+                      {fileError && <div className={styles.errorMessage} role="alert">{fileError}</div>}
                     </div>
 
                     {/* Honeypot - invisible to humans, bots fill it */}
@@ -374,7 +452,7 @@ export default function ContactPage() {
                       className={styles.submitButton}
                       disabled={isLoading}
                     >
-                      {isLoading ? 'Se trimite...' : 'Trimite Cererea'}
+                      {isLoading ? 'Se trimite...' : 'Trimiteți cererea'}
                       {!isLoading && <Send size={18} />}
                     </button>
                   </form>
@@ -383,10 +461,10 @@ export default function ContactPage() {
                     <div className={styles.successIcon}>
                       <Check size={32} />
                     </div>
-                    <h2>Mulțumim pentru mesaj!</h2>
+                    <h2>Mulțumim, am primit cererea</h2>
                     <p>
-                      Am primit cererea dumneavoastră și vă vom contacta în cel mai scurt timp posibil.
-                      De obicei răspundem în maxim 24 de ore în zilele lucrătoare.
+                      Vă răspundem de regulă în aceeași zi lucrătoare sau în următoarea.
+                      Pentru urgențe de producție, sunați-ne la +40 371 232 404 (luni–vineri, 08:00–16:30).
                     </p>
                   </div>
                 )}
@@ -405,7 +483,7 @@ export default function ContactPage() {
                       <Mail size={20} />
                     </div>
                     <div>
-                      <span className={styles.infoLabel}>Email Vânzări</span>
+                      <span className={styles.infoLabel}>E-mail vânzări</span>
                       <a href="mailto:vanzari@infinitrade-romania.ro">
                         vanzari@infinitrade-romania.ro
                       </a>
@@ -417,7 +495,7 @@ export default function ContactPage() {
                       <Mail size={20} />
                     </div>
                     <div>
-                      <span className={styles.infoLabel}>Email Secretariat</span>
+                      <span className={styles.infoLabel}>E-mail secretariat</span>
                       <a href="mailto:secretariat@infinitrade-romania.ro">
                         secretariat@infinitrade-romania.ro
                       </a>
@@ -430,7 +508,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <span className={styles.infoLabel}>Program</span>
-                      <span>Luni - Vineri: 08:00 - 16:30</span>
+                      <span>Luni–vineri: 08:00–16:30</span>
                     </div>
                   </div>
 
@@ -450,7 +528,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className={styles.whyCard}>
-                  <h2>De ce să ne alegi?</h2>
+                  <h2>Ce primiți de la noi</h2>
                   <ul>
                     <li>
                       <Check size={18} />
@@ -458,21 +536,29 @@ export default function ContactPage() {
                     </li>
                     <li>
                       <Check size={18} />
-                      {siteStats.brands} de branduri disponibile
+                      {siteStats.brands} de branduri cu pagină proprie
                     </li>
                     <li>
                       <Check size={18} />
-                      Livrare rapidă în toată România
+                      Termen de livrare scris în ofertă (din stoc: 24–72 h)
                     </li>
                     <li>
                       <Check size={18} />
-                      Piese de schimb și service
+                      Piese de schimb originale și documente de conformitate
                     </li>
                     <li>
                       <Check size={18} />
-                      {siteStats.years} ani de experiență
+                      Activi din {siteStats.foundingYear}, înregistrați în SEAP
                     </li>
                   </ul>
+                  <p style={{ marginTop: '1rem' }}>
+                    Pentru companii:{' '}
+                    <Link href="/achizitii">achiziții</Link>
+                    {' · '}
+                    <Link href="/mentenanta">mentenanță</Link>
+                    {' · '}
+                    <Link href="/proiecte">proiecte (CAPEX)</Link>
+                  </p>
                 </div>
               </div>
             </div>
@@ -487,7 +573,7 @@ export default function ContactPage() {
               className={`${styles.mapWrapper} animate-fade-up ${mapVisible ? 'is-visible' : ''}`}
             >
               <div className={styles.mapHeader}>
-                <h2>Locația Noastră</h2>
+                <h2>Sediu și depozit</h2>
                 <p>Calea Lugojului 47/B, Hala 3, Ghiroda, Timiș 307200</p>
               </div>
               <div className={styles.mapContainer}>

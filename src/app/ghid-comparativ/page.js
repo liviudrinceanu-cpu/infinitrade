@@ -367,7 +367,7 @@ export default function GhidComparativPage() {
                     </div>
 
                     <Link href={`/brand/${brand.slug}`} className={styles.brandLink}>
-                      Vezi pagina {brand.name}
+                      Vedeți pagina {brand.name}
                     </Link>
                   </div>
                 ))}
@@ -422,7 +422,7 @@ export default function GhidComparativPage() {
             </p>
             <div className={styles.ctaButtons}>
               <Link href="/contact" className={styles.ctaPrimary}>
-                Trimite cererea
+                Trimiteți cererea
               </Link>
               <Link href="/faq" className={styles.ctaSecondary}>
                 Întrebări frecvente

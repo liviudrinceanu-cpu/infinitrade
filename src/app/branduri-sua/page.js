@@ -250,9 +250,9 @@ export default function UsBrandsPage() {
 
         <section className={base.ctaSection}>
           <div className={base.container}>
-            <h2>Cauți o piesă americană pe care nu o găsești în Europa?</h2>
-            <p>Trimite codul de pe plăcuță sau fișa tehnică. Verificăm la producător sau la filiala lui europeană și îți spunem dacă putem oferta și în cât timp.</p>
-            <Link href="/contact" className={base.ctaButton}>Cere ofertă</Link>
+            <h2>Căutați o piesă americană pe care nu o găsiți în Europa?</h2>
+            <p>Trimiteți codul de pe plăcuță sau fișa tehnică. Verificăm la producător sau la filiala lui europeană și vă spunem dacă putem oferta și în cât timp.</p>
+            <Link href="/contact" className={base.ctaButton}>Cereți ofertă</Link>
           </div>
         </section>
       </main>

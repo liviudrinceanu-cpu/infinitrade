@@ -6,7 +6,7 @@ import styles from './not-found.module.css';
 
 export const metadata = {
   title: { absolute: 'Pagina nu a fost găsită (404) | Infinitrade Romania' },
-  description: 'Pagina căutată nu există. Descoperă gama completă de echipamente industriale Infinitrade Romania.',
+  description: 'Pagina căutată nu există. Descoperiți gama completă de echipamente industriale Infinitrade Romania.',
 };
 
 export default function NotFound() {
@@ -19,18 +19,18 @@ export default function NotFound() {
             <span className={styles.errorCode}>404</span>
             <h1 className={styles.title}>Pagina nu a fost găsită</h1>
             <p className={styles.description}>
-              Ne pare rău, pagina pe care o cauți nu există sau a fost mutată.
-              Te invităm să explorezi gama noastră de echipamente industriale.
+              Ne pare rău, pagina pe care o căutați nu există sau a fost mutată.
+              Vă invităm să explorați gama noastră de echipamente industriale.
             </p>
 
             <div className={styles.suggestions}>
-              <h2>Ce poți face:</h2>
+              <h2>Ce puteți face:</h2>
               <div className={styles.linksGrid}>
                 <Link href="/" className={styles.linkCard}>
                   <Home size={24} />
                   <div>
                     <h3>Pagina principală</h3>
-                    <p>Explorează toate categoriile de produse</p>
+                    <p>Explorați toate categoriile de produse</p>
                   </div>
                   <ArrowRight size={18} />
                 </Link>
@@ -56,8 +56,8 @@ export default function NotFound() {
                 <Link href="/contact" className={styles.linkCard}>
                   <Phone size={24} />
                   <div>
-                    <h3>Contactează-ne</h3>
-                    <p>Echipa noastră te poate ajuta</p>
+                    <h3>Contactați-ne</h3>
+                    <p>Echipa noastră vă poate ajuta</p>
                   </div>
                   <ArrowRight size={18} />
                 </Link>

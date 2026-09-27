@@ -26,7 +26,7 @@ export default function Features() {
         >
           <h2 className={styles.title}>De ce Infinitrade?</h2>
           <p className={styles.subtitle}>
-            Mai mult decât un distribuitor - suntem partenerul tău de încredere pentru succesul industrial.
+            Ce contează pentru achiziții, mentenanță și proiecte: stoc, termene scrise, piese originale și documente.
           </p>
         </div>
 
@@ -54,17 +54,17 @@ export default function Features() {
           className={`${styles.cta} animate-fade-up animate-delay-6 ${isVisible ? 'is-visible' : ''}`}
         >
           <div className={styles.ctaContent}>
-            <h2>Ai nevoie de asistență tehnică?</h2>
-            <p>Echipa noastră te poate asista în orice situație - contactează-ne.</p>
+            <h2>Aveți nevoie de asistență tehnică?</h2>
+            <p>Trimiteți datele aplicației sau codul echipamentului; vă răspundem de regulă în aceeași zi lucrătoare sau în următoarea.</p>
           </div>
           <a href="/contact" className={styles.ctaButton}>
-            Contactează Echipa Tehnică
+            Contactați echipa tehnică
           </a>
         </div>
 
         {/* Content Freshness Signal */}
         <p className="text-xs text-gray-400 mt-8 text-center">
-          Ultima actualizare: Februarie 2026
+          Ultima actualizare: septembrie 2026
         </p>
       </div>
     </section>

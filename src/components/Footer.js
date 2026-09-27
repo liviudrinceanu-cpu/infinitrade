@@ -98,6 +98,21 @@ export default function Footer() {
             <h4 className={styles.columnTitle}>Resurse</h4>
             <ul className={styles.columnList}>
               <li>
+                <Link href="/achizitii" className={styles.columnLink}>
+                  Pentru achiziții
+                </Link>
+              </li>
+              <li>
+                <Link href="/mentenanta" className={styles.columnLink}>
+                  Pentru mentenanță
+                </Link>
+              </li>
+              <li>
+                <Link href="/proiecte" className={styles.columnLink}>
+                  Pentru proiecte (CAPEX)
+                </Link>
+              </li>
+              <li>
                 <Link href="/ghid-achizitii-seap" className={styles.columnLink}>
                   Ghid Achiziții SEAP
                 </Link>
