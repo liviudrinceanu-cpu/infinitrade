@@ -24,8 +24,8 @@ export default function Footer() {
             <h3 className={styles.brandTitle}>Infinitrade Romania</h3>
             <p className={styles.brandTagline}>Dăm puls industriei</p>
             <p className={styles.brandDescription}>
-              Distribuitor premium de echipamente industriale 
-              cu peste {siteStats.years} ani de experiență.
+              Echipamente industriale și piese de schimb pentru companii
+              din România, din {siteStats.foundingYear}.
             </p>
             <div className={styles.certifications}>
               {companyInfo.certifications.map((cert) => (
