@@ -29,22 +29,22 @@ const verificationLinks = [
 const certifications = [
   {
     icon: Shield,
-    title: 'Partener de Distribuție',
-    description: 'Aducem produsele din canalele de aprovizionare ale producătorilor (fabrică, filiale și distribuitori din UE), cu documentele de origine. Asta înseamnă prețuri corecte, piese originale, cu documentele producătorului, și acces la suport tehnic de la sursă.',
+    title: 'Aprovizionare din canalele producătorilor',
+    description: 'Aducem produsele din canalele de aprovizionare ale producătorilor (fabrică, filiale și distribuitori din UE), cu documentele de origine: piese originale, documentele producătorului și acces la suportul tehnic al producătorului.',
     brands: ['Grundfos', 'Wilo', 'KSB', 'Siemens', 'ABB', 'ARI Armaturen', 'Spirax Sarco', 'Alfa Laval', 'Endress+Hauser', 'Parker', 'Schneider Electric', 'SKF'],
   },
   {
     icon: Award,
-    title: 'ISO 9001:2015',
-    description: 'Certificare pentru managementul calității. Nu e doar o hârtie pe perete - înseamnă că avem procese clare de la comandă la livrare și service.',
-    details: 'Certificare validă pentru comercializarea și distribuția echipamentelor industriale.',
+    title: 'ISO 9001: certificare în curs',
+    description: 'Implementăm sistemul de management al calității conform ISO 9001, iar procesul de certificare este în desfășurare.',
+    details: 'Când certificatul este emis, îl publicăm aici cu numărul, organismul de certificare și perioada de valabilitate.',
   },
   {
     icon: FileCheck,
     title: 'Furnizor Înregistrat SEAP / SICAP',
-    description: 'Suntem furnizor verificat și activ în Sistemul Electronic de Achiziții Publice.',
-    details: 'Experiență solidă cu licitații publice, achiziții directe, fonduri europene și PNRR. Pregătim documentația completă: certificate de conformitate, declarații, fișe tehnice, certificate de garanție.',
-    seapFeatures: ['Operator economic verificat', 'Istoric contracte publice', 'Documentație conformă', 'Termen de livrare scris în ofertă'],
+    description: 'Suntem operator economic înregistrat în Sistemul Electronic de Achiziții Publice (SEAP / SICAP).',
+    details: 'Ofertăm pentru achiziții directe și proceduri publice, inclusiv în proiecte finanțate din fonduri europene sau PNRR. Pentru fiecare ofertă pregătim documentele cerute: declarații de conformitate, fișe tehnice, certificate de garanție ale producătorului.',
+    seapFeatures: ['Operator economic înregistrat', 'Documentele producătorului', 'Termen de livrare scris în ofertă'],
     link: { href: '/ghid-achizitii-seap', text: 'Vezi ghidul complet pentru achiziții SEAP' },
   },
   {
@@ -55,42 +55,42 @@ const certifications = [
   },
   {
     icon: Shield,
-    title: 'Certificări ATEX / IECEx',
-    description: 'Distribuim echipamente certificate ATEX și IECEx pentru zone cu risc de explozie. Senzori, motoare, luminare, instrumente - toate cu documentație completă pentru zone Ex 1, Ex 2, Ex 21, Ex 22.',
-    details: 'Directiva 2014/34/EU (ATEX 114) și IECEx pentru export. Certificate de la organisme notificate europene.',
+    title: 'Echipamente certificate ATEX / IECEx',
+    description: 'Furnizăm echipamente certificate de producători pentru zone cu risc de explozie: senzori, motoare, corpuri de iluminat, instrumente, cu documentația producătorului pentru zona și categoria cerute (de exemplu zonele 1, 2, 21, 22).',
+    details: 'Directiva 2014/34/UE (ATEX) și schema IECEx. Certificatele sunt emise producătorului de organisme notificate; noi livrăm documentele respective.',
   },
   {
     icon: Award,
-    title: 'Certificări Automatizare și Instrumentație',
-    description: 'Echipamentele de automatizare și instrumentație pe care le distribuim sunt certificate conform standardelor internaționale: IEC 61508 (SIL), IEC 61511 pentru securitate funcțională.',
-    details: 'Transmițătoare SIL 2/SIL 3 pentru aplicații de securitate în petrochimie, energie și industria chimică.',
+    title: 'Securitate funcțională (SIL)',
+    description: 'Pentru aplicații de securitate funcțională furnizăm, la cerere, echipamente cu certificare SIL de la producător (IEC 61508 / IEC 61511), cu documentația aferentă.',
+    details: 'Nivelul SIL (de exemplu SIL 2 sau SIL 3) se verifică pe certificatul producătorului pentru fiecare model.',
   }
 ];
 
 const qualityPoints = [
   {
-    title: 'Produse Originale',
-    description: 'Nu vindem imitații sau "echivalente" (știm că există pe piață, dar nu la noi). Tot ce livrăm e original, cu certificat și garanție de la producător.',
+    title: 'Produse originale',
+    description: 'Livrăm produse originale, cu documentele și garanția producătorului. Dacă propunem un echivalent, îl marcăm explicit în ofertă.',
   },
   {
-    title: 'Trasabilitate Completă',
-    description: 'Putem demonstra originea fiecărui produs. La audituri sau controale, avem toată documentația la zi.',
+    title: 'Trasabilitate',
+    description: 'La cerere, punem la dispoziție documentele de origine ale produselor livrate, utile la audituri și controale.',
   },
   {
-    title: 'Depozitare Corectă',
-    description: 'Garniturile stau unde trebuie, lubrifianții la temperatura corectă. Știm că depozitarea greșită strică produsele.',
+    title: 'Depozitare',
+    description: 'Reperele sensibile (de exemplu garnituri și lubrifianți) se depozitează conform recomandărilor producătorilor.',
   },
   {
-    title: 'Echipă Instruită',
-    description: 'Mergem la training-uri, citim cataloagele, știm ce vindem. Nu suntem doar intermediari care mută cutii.',
+    title: 'Suport la selecție',
+    description: 'Verificăm datele aplicației în documentația producătorului înainte de ofertă.',
   },
   {
-    title: 'Suport După Vânzare',
-    description: 'Nu dispărem după ce livrăm. Dacă ai o problemă peste 2 ani, ne găsești la același număr de telefon.',
+    title: 'După livrare',
+    description: 'Rămânem persoana de contact pentru documente, piese de schimb și garanție.',
   },
   {
     title: 'Conformitate CE',
-    description: 'Toate produsele au marcaj CE și respectă directivele europene. Nu e cazul să îți faci griji la controale.',
+    description: 'Produsele care intră sub legislația de armonizare a UE sunt livrate cu marcaj CE și cu declarația de conformitate a producătorului.',
   }
 ];
 
@@ -100,20 +100,20 @@ const partners = [
   { name: 'KSB', country: 'Germania' },
   { name: 'Siemens', country: 'Germania' },
   { name: 'SEW Eurodrive', country: 'Germania' },
-  { name: 'ABB', country: 'Elvetia' },
+  { name: 'ABB', country: 'Elveția' },
   { name: 'ARI Armaturen', country: 'Germania' },
   { name: 'Spirax Sarco', country: 'UK' },
   { name: 'Alfa Laval', country: 'Suedia' },
   { name: 'Kelvion', country: 'Germania' },
   { name: 'Becker', country: 'Germania' },
   { name: 'FPZ', country: 'Italia' },
-  { name: 'Endress+Hauser', country: 'Elvetia' },
+  { name: 'Endress+Hauser', country: 'Elveția' },
   { name: 'WIKA', country: 'Germania' },
   { name: 'SICK', country: 'Germania' },
   { name: 'Parker', country: 'SUA' },
   { name: 'Bosch Rexroth', country: 'Germania' },
   { name: 'Festo', country: 'Germania' },
-  { name: 'Schneider Electric', country: 'Franta' },
+  { name: 'Schneider Electric', country: 'Franța' },
   { name: 'Donaldson', country: 'SUA' },
   { name: 'Mann+Hummel', country: 'Germania' },
   { name: 'SKF', country: 'Suedia' },
@@ -134,7 +134,7 @@ function generateCertificationsSchema() {
     '@type': 'WebPage',
     '@id': `${config.site.url}/certificari#webpage`,
     name: 'Certificări și autorizări - Infinitrade Romania',
-    description: 'Certificări și autorizări Infinitrade Romania: ISO 9001. Lucrăm cu gama Grundfos, Siemens, KSB.',
+    description: 'Certificări și documente Infinitrade Romania: înregistrare SEAP, documente de conformitate de la producător, ISO 9001 în curs de certificare.',
     url: `${config.site.url}/certificari`,
     isPartOf: {
       '@id': `${config.site.url}/#website`
@@ -148,13 +148,13 @@ function generateCertificationsSchema() {
 
 export const metadata = {
   title: 'Certificări | Furnizor SEAP',
-  description: 'Furnizor verificat SEAP/SICAP. Certificări ISO 9001. Lucrăm cu gama Grundfos, Siemens, KSB. Documentație pentru licitații și fonduri europene.',
+  description: 'Furnizor înregistrat SEAP/SICAP. Documente de conformitate CE, ATEX și SIL de la producător. ISO 9001 în curs de certificare. Documente pentru licitații.',
   keywords: [
     // SEAP / SICAP Primary keywords
     'furnizor SEAP',
     'furnizor SICAP',
     'furnizor inregistrat SEAP',
-    'furnizor verificat SEAP',
+    'furnizor SEAP',
     'operator economic SEAP',
     'furnizor achizitii publice',
     'furnizor licitatii publice',
@@ -177,8 +177,6 @@ export const metadata = {
     // Certification keywords
     'certificari infinitrade',
     'certificari echipamente industriale',
-    'iso 9001 2015',
-    'iso 9001 distribuitor',
     // Partnership keywords
     'furnizor pompe industriale',
     // Quality keywords
@@ -191,7 +189,7 @@ export const metadata = {
   ],
   openGraph: {
     title: 'Furnizor SEAP SICAP | Certificări și autorizări | Infinitrade Romania',
-    description: 'Furnizor verificat SEAP/SICAP. Distribuitor echipamente industriale pentru licitații publice și fonduri europene.',
+    description: 'Furnizor înregistrat SEAP/SICAP. Distribuitor echipamente industriale pentru licitații publice și fonduri europene.',
     url: `${config.site.url}/certificari`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
@@ -247,8 +245,8 @@ export default function CertificariPage() {
           <div className={styles.container}>
             <h1>Certificări și autorizări</h1>
             <p>
-              Infinitrade Romania este distribuitor pentru branduri internaționale
-              de echipamente industriale, cu certificări care confirmă calitatea și conformitatea.
+              Ce documente primiți de la noi, ce certificări au producătorii
+              și ce putem confirma despre firmă, cu legături spre registrele publice.
             </p>
           </div>
         </section>
@@ -311,10 +309,10 @@ export default function CertificariPage() {
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
               <Globe size={32} className={styles.globeIcon} />
-              <h2>Parteneri Internaționali</h2>
+              <h2>Producători din gama noastră</h2>
               <p>
-                Colaborăm cu producători de renume mondial pentru a vă oferi
-                echipamente industriale de calitate.
+                Câțiva dintre producătorii ale căror echipamente le furnizăm.
+                Lista completă este în pagina de branduri.
               </p>
             </div>
             <div className={styles.partnersGrid}>
@@ -410,14 +408,14 @@ export default function CertificariPage() {
                 <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
                 <div>
                   <h3>Suport Tehnic</h3>
-                  <p>Disponibil Luni-Vineri, 08:00-16:30. Pentru urgențe în weekend, avem protocol de escaladare, dar timpul de răspuns poate fi mai lung.</p>
+                  <p>Disponibil luni–vineri, 08:00–16:30. În afara programului, cererile se preiau în următoarea zi lucrătoare.</p>
                 </div>
               </div>
               <div className={styles.qualityCard}>
                 <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
                 <div>
                   <h3>Garanție</h3>
-                  <p>Conform termenilor producătorilor (12-24 luni). Nu oferim garanție extinsă proprie, dar avem parteneriate pentru extindere la cerere.</p>
+                  <p>Conform termenilor producătorilor (de regulă 12–24 de luni, după producător). Nu oferim garanție extinsă proprie.</p>
                 </div>
               </div>
               <div className={styles.qualityCard}>
@@ -431,24 +429,8 @@ export default function CertificariPage() {
                 <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
                 <div>
                   <h3>Stocuri</h3>
-                  <p>Pentru produse la comandă, termenele de livrare variază între 2-8 săptămâni în funcție de producător și configurație. Confirmare disponibilitate la solicitare ofertă.</p>
+                  <p>Din stoc: 24–72 h. Pentru produsele la comandă, din fabrică, de regulă 2–4 săptămâni; execuțiile OEM sau personalizate pot depăși 4 săptămâni. Disponibilitatea se confirmă în ofertă.</p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Expert Quote - GEO-02 Signal */}
-        <section style={{padding: '3rem 0', background: '#f9fafb'}}>
-          <div style={{maxWidth: '800px', margin: '0 auto', padding: '0 1.5rem'}}>
-            <div style={{background: 'white', borderRadius: '16px', padding: '2rem', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb'}}>
-              <blockquote style={{fontSize: '1.1rem', color: '#374151', fontStyle: 'italic', marginBottom: '1rem', lineHeight: '1.7'}}>
-                „Certificările și autorizațiile nu sunt doar documente — sunt garanția că echipamentele pe care le livrăm respectă cele mai înalte standarde de calitate și siguranță. Fiecare brand din portofoliul nostru este selectat pe baza certificărilor internaționale: ISO, CE, ATEX pentru medii explozive, și certificări specifice industriei alimentare sau farmaceutice."
-              </blockquote>
-              <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
-                <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>L.D.</cite>
-                <span style={{color: '#9ca3af'}}>·</span>
-                <span style={{color: '#6b7280', fontSize: '0.875rem'}}>Director General</span>
               </div>
             </div>
           </div>

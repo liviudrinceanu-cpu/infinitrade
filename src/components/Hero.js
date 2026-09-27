@@ -40,7 +40,7 @@ export default function Hero() {
 
           {/* Headline - LCP ELEMENT: Pure CSS animation, immediate render */}
           <h1 className={`${styles.headline} ${styles.headlineAnimate}`}>
-            Dăm puls
+            Dăm puls{' '}
             <br />
             <span className={styles.headlineAccent}>industriei.</span>
           </h1>
@@ -49,7 +49,7 @@ export default function Hero() {
           <p className={`${styles.subheadline} ${styles.subheadlineAnimate}`} style={{ marginBottom: '1rem' }}>
             Infinitrade Romania este distribuitor de echipamente industriale din 2009.
             Oferim pompe Grundfos și Wilo, robineți ARI Armaturen, motoare Siemens și ABB,
-            schimbătoare de căldură Alfa Laval. Furnizor verificat SEAP/SICAP cu livrare în toată România.
+            schimbătoare de căldură Alfa Laval. Furnizor înregistrat SEAP/SICAP, cu livrare în toată România.
           </p>
 
           {/* Subheadline - CSS animation */}
