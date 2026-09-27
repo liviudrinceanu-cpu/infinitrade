@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { FileCheck, Wrench, Building2, ArrowRight } from 'lucide-react';
 import { roleList } from '@/data/roles';
-import { clientReferences } from '@/data/company';
+import { homeClientReferences, publicProcurementStats } from '@/data/company';
 import styles from './RoleEntry.module.css';
 
 const icons = { FileCheck, Wrench, Building2 };
@@ -33,7 +33,10 @@ export default function RoleEntry() {
           })}
         </div>
         <p className={styles.clients}>
-          Printre clienții noștri: <strong>{clientReferences.join(' · ')}</strong>
+          Printre clienții noștri: <strong>{homeClientReferences.join(' · ')}</strong>
+          <br />
+          Peste {publicProcurementStats.count} de achiziții publice atribuite prin SEAP ({publicProcurementStats.period}),{' '}
+          <a href={publicProcurementStats.sourceUrl} target="_blank" rel="noopener noreferrer">verificabile public</a>.
         </p>
       </div>
     </section>

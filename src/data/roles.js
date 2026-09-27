@@ -9,7 +9,7 @@
 // Când proprietarul confirmă termene de plată standard, persoane de contact
 // numite sau certificatul ISO, se actualizează AICI (și în company.js).
 
-import { companyInfo, contactPerson, clientReferences } from './company';
+import { companyInfo, contactPerson, clientReferences, publicClientReferences, publicProcurementStats } from './company';
 import { siteStats } from './siteStats';
 
 const phone = '+40 371 232 404';
@@ -48,7 +48,7 @@ export const roles = {
       { label: 'Înființare', value: '11 noiembrie 2009' },
       { label: 'Sediu și depozit', value: 'Calea Lugojului 47/B, Hala 3, Ghiroda, Timiș 307200' },
       { label: 'TVA', value: 'plătitor de TVA; facturi prin RO e-Factura' },
-      { label: 'Achiziții publice', value: 'operator economic înregistrat în SEAP / SICAP' },
+      { label: 'Achiziții publice', value: `înregistrat în SEAP / SICAP; peste ${publicProcurementStats.count} de achiziții atribuite (${publicProcurementStats.period})` },
       { label: `Cifră de afaceri ${od.revenueYear}`, value: '16,5 mil. lei (≈ 3,3 mil. €), date publice' },
       { label: 'Angajați', value: `${od.employees} (date publice ${od.revenueYear})` },
       { label: 'Termen de plată', value: 'de regulă 30–60 de zile pentru clienții cu contract' },
@@ -58,6 +58,7 @@ export const roles = {
     verifyLinks: [
       { name: 'termene.ro — date ONRC și financiare', url: 'https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL' },
       { name: 'e-licitatie.ro — contracte publice (căutare după CUI)', url: 'https://www.e-licitatie.ro/pub' },
+      { name: 'sicap.ai — istoricul achizițiilor publice Driatheli Group', url: publicProcurementStats.sourceUrl },
     ],
     sections: [
       {
@@ -94,7 +95,9 @@ export const roles = {
       {
         title: 'Companii cu care lucrăm',
         items: [
-          `Printre clienții noștri se numără: ${clientReferences.join(', ')}.`,
+          `Industrie și energie: ${clientReferences.join(', ')}.`,
+          `Achiziții publice (date publice SEAP): ${publicClientReferences.join(', ')}.`,
+          `În total, peste ${publicProcurementStats.count} de achiziții publice atribuite firmei noastre prin SEAP în perioada ${publicProcurementStats.period}, verificabile public.`,
           'Pentru o referință dintr-o industrie anume, vă punem în legătură cu un client cu o aplicație similară, cu acordul acestuia.',
         ],
       },

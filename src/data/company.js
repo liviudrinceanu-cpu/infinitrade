@@ -87,3 +87,28 @@ export const contactPerson = {
 };
 
 export const clientReferences = ['Alro Slatina', 'Hidroelectrica', 'Hidroserv', 'Nuclearelectrica'];
+
+// v29 (27.09.2026, confirmat explicit de proprietar): clienți din achiziții
+// publice, verificabili în SEAP (agregat sicap.ai pentru CUI 26209397: 1.200
+// de achiziții atribuite, 2017–2026; în listă doar autoritățile cu cumpărări
+// repetate, ≥ 12 achiziții fiecare). Recalculați la actualizare.
+export const publicClientReferences = [
+  'CFR Călători',
+  'Imprimeria Națională',
+  'Aquatim Timișoara',
+  'Apavital Iași',
+  'Apă Canal Sibiu',
+  'Compania de Apă Someș',
+  'COMOTI (Institutul Național de Cercetare-Dezvoltare Turbomotoare)',
+  'Universitatea Politehnica Timișoara',
+];
+
+export const publicProcurementStats = {
+  count: '1.200',
+  period: '2017–2026',
+  sourceLabel: 'istoricul public de achiziții (SICAP)',
+  sourceUrl: 'https://sicap.ai/achizitii/firma/169611',
+};
+
+// Pentru prima pagină: nume scurte, cele mai cunoscute.
+export const homeClientReferences = ['Alro Slatina', 'Hidroelectrica', 'Nuclearelectrica', 'CFR Călători', 'Imprimeria Națională', 'Aquatim', 'Apavital Iași', 'Compania de Apă Someș'];
