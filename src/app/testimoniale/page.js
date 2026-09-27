@@ -130,7 +130,7 @@ export default function TestimonialePage() {
           <div className={styles.container}>
             <h2>Companii cu care lucrăm</h2>
             <p>
-              <strong>Industrie și energie:</strong> {clientReferences.join(', ')}.
+              <strong>Industrie, energie și infrastructură:</strong> {clientReferences.join(', ')}.
             </p>
             <p>
               <strong>Achiziții publice:</strong> {publicClientReferences.join(', ')}. În total, peste{' '}

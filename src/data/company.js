@@ -86,7 +86,9 @@ export const contactPerson = {
   email: 'florin.cuzma@infinitrade-romania.ro',
 };
 
-export const clientReferences = ['Alro Slatina', 'Hidroelectrica', 'Hidroserv', 'Nuclearelectrica'];
+// v30 (27.09.2026, confirmat explicit de proprietar: vânzări și în afara SEAP): + Romgaz,
+// Transelectrica, Aeroporturi București, Portul Constanța.
+export const clientReferences = ['Alro Slatina', 'Hidroelectrica', 'Hidroserv', 'Nuclearelectrica', 'Romgaz', 'Transelectrica', 'Aeroporturi București', 'Portul Constanța (Administrația Porturilor Maritime)'];
 
 // v29 (27.09.2026, confirmat explicit de proprietar): clienți din achiziții
 // publice, verificabili în SEAP (agregat sicap.ai pentru CUI 26209397: 1.200
@@ -111,4 +113,4 @@ export const publicProcurementStats = {
 };
 
 // Pentru prima pagină: nume scurte, cele mai cunoscute.
-export const homeClientReferences = ['Alro Slatina', 'Hidroelectrica', 'Nuclearelectrica', 'CFR Călători', 'Imprimeria Națională', 'Aquatim', 'Apavital Iași', 'Compania de Apă Someș'];
+export const homeClientReferences = ['Alro Slatina', 'Hidroelectrica', 'Nuclearelectrica', 'Romgaz', 'Transelectrica', 'CFR Călători', 'Aeroporturi București', 'Portul Constanța', 'Imprimeria Națională', 'Aquatim'];

@@ -95,7 +95,7 @@ export const roles = {
       {
         title: 'Companii cu care lucrăm',
         items: [
-          `Industrie și energie: ${clientReferences.join(', ')}.`,
+          `Industrie, energie și infrastructură: ${clientReferences.join(', ')}.`,
           `Achiziții publice (date publice SEAP): ${publicClientReferences.join(', ')}.`,
           `În total, peste ${publicProcurementStats.count} de achiziții publice atribuite firmei noastre prin SEAP în perioada ${publicProcurementStats.period}, verificabile public.`,
           'Pentru o referință dintr-o industrie anume, vă punem în legătură cu un client cu o aplicație similară, cu acordul acestuia.',
