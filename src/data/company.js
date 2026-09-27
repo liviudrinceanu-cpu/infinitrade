@@ -46,7 +46,7 @@ export const companyInfo = {
     cui: 'RO26209397',
     regCom: 'J35/2901/2009',
   },
-  certifications: ['ISO 9001:2015', 'Furnizor industrial din 2009', 'Furnizor SEAP / SICAP'],
+  certifications: ['Furnizor industrial din 2009', 'Înregistrat în SEAP / SICAP', 'ISO 9001: certificare în curs'],
   industries: ['Petrochimie', 'Energie', 'Alimentar', 'Farmaceutic', 'Automotive', 'Naval', 'Metalurgie', 'HVAC', 'Tratare Apă', 'Minerit', 'Ciment', 'Hârtie', 'Chimie', 'Logistică', 'Biogaz'],
   targetAudience: 'Departamente de achiziții, echipe de mentenanță, ingineri de proiect și responsabili investiții din industria grea'
 };

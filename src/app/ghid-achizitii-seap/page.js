@@ -348,10 +348,10 @@ const productCategories = [
 
 // Documents we provide
 const documentsProvided = [
-  { name: 'Certificate de conformitate CE', description: 'Pentru toate produsele comercializate' },
+  { name: 'Certificate de conformitate CE', description: 'Pentru produsele care intră sub marcajul CE' },
   { name: 'Declarații de conformitate', description: 'Document obligatoriu pentru achiziții publice' },
   { name: 'Fișe tehnice complete', description: 'Specificații detaliate în format PDF' },
-  { name: 'Certificate de garanție', description: 'Garanție producător 12-24 luni' },
+  { name: 'Certificate de garanție', description: 'Garanția producătorului, de regulă 12–24 de luni' },
   { name: 'Certificate de origine', description: 'Pentru produse din UE și non-UE' },
   { name: 'Documente DUAE completate', description: 'Asistență la completare' },
   { name: 'Cataloage și broșuri', description: 'Materiale originale producător' },
@@ -362,8 +362,8 @@ const documentsProvided = [
 const advantages = [
   {
     icon: Shield,
-    title: 'Operator Economic Verificat SEAP',
-    description: 'Înregistrați și activi în Sistemul Electronic de Achiziții Publice din 2009. Istoric de contracte publice îndeplinite.',
+    title: 'Operator economic înregistrat în SEAP',
+    description: 'Înregistrați în Sistemul Electronic de Achiziții Publice (SEAP / SICAP). Contractele publice atribuite se pot verifica pe e-licitatie.ro.',
   },
   {
     icon: FileCheck,
@@ -373,7 +373,7 @@ const advantages = [
   {
     icon: Clock,
     title: 'Răspuns Rapid la Solicitări',
-    description: 'Oferte în aceeași zi pentru achiziții directe. Pentru proceduri complexe, răspundem de regulă în aceeași zi lucrătoare sau în următoarea.',
+    description: 'Pentru achiziții directe, oferta vine de regulă în aceeași zi lucrătoare sau în următoarea. Pentru proceduri, lucrăm în termenul din fișa de date.',
   },
   {
     icon: Package,
@@ -383,12 +383,12 @@ const advantages = [
   {
     icon: Award,
     title: 'Produse Originale Certificate',
-    description: 'Furnizor pentru 45+ branduri premium. Garanție producător și piese de schimb originale.',
+    description: 'Peste 1.200 de branduri cu pagină proprie. Garanția producătorului și piese de schimb originale.',
   },
   {
     icon: Users,
     title: 'Suport Tehnic Specializat',
-    description: 'Echipă de ingineri pentru consultanță gratuită, dimensionare și asistență la elaborarea caietelor de sarcini.',
+    description: 'Consultanță tehnică gratuită, dimensionare și asistență la elaborarea caietelor de sarcini.',
   },
 ];
 
@@ -396,24 +396,24 @@ const advantages = [
 const procurementTypes = [
   {
     name: 'Achiziție Directă',
-    threshold: 'până la 135.060 lei (produse)',
+    threshold: 'sub 270.120 lei fără TVA (produse și servicii)',
     description: 'Cea mai simplă procedură. Căutare în catalogul electronic SEAP și comandă directă.',
-    timeline: 'Ofertă în aceeași zi',
-    tip: 'Suntem în catalogul SEAP cu produse disponibile pentru comandă imediată.',
+    timeline: 'Ofertă de regulă în aceeași zi lucrătoare sau în următoarea',
+    tip: 'Trimiteți codul sau specificația; confirmăm disponibilitatea și termenul înainte de publicarea în catalogul electronic SEAP.',
   },
   {
     name: 'Procedură Simplificată',
-    threshold: '135.060 - 594.264 lei',
+    threshold: 'peste pragul achiziției directe, sub pragurile europene',
     description: 'Procedură cu termen scurt, anunț în SEAP și evaluare oferte.',
-    timeline: 'Răspuns în 24-48h',
+    timeline: 'În termenul din fișa de date',
     tip: 'Pregătim documentația completă conform cerințelor din fișa de date.',
   },
   {
     name: 'Licitație Deschisă',
-    threshold: 'peste 594.264 lei',
+    threshold: 'peste pragurile europene (actualizate periodic)',
     description: 'Procedură completă cu publicare în SEAP și termen de depunere oferte.',
-    timeline: 'Ofertă în 5-7 zile',
-    tip: 'Participăm cu oferte tehnice detaliate și documentație completă.',
+    timeline: 'În termenul din anunț',
+    tip: 'Pregătim oferta tehnică pe baza caietului de sarcini, cu documentele producătorului.',
   },
 ];
 
@@ -487,7 +487,7 @@ function generateSeapGuideSchema() {
 
 export const metadata = {
   title: 'Ghid Achiziții SEAP | Coduri CPV',
-  description: 'Ghid achiziții SEAP/SICAP echipamente industriale: coduri CPV, documentație licitații, proceduri achiziție directă. Furnizor verificat.',
+  description: 'Ghid achiziții SEAP/SICAP echipamente industriale: coduri CPV, documentație licitații, proceduri achiziție directă. Furnizor înregistrat SEAP.',
   keywords: [
     // SEAP/SICAP primary
     'ghid SEAP',
@@ -542,11 +542,11 @@ export const metadata = {
     'echipamente primarii',
     // General
     'furnizor echipamente industriale Romania',
-    'furnizor verificat SEAP',
+    'furnizor SEAP',
   ],
   openGraph: {
     title: 'Ghid Complet Achiziții SEAP/SICAP | Echipamente Industriale | Infinitrade',
-    description: 'Ghid detaliat pentru achiziții publice de echipamente industriale. Coduri CPV, proceduri, documentație. Furnizor verificat SEAP.',
+    description: 'Ghid detaliat pentru achiziții publice de echipamente industriale. Coduri CPV, proceduri, documentație. Furnizor înregistrat SEAP.',
     url: `${config.site.url}/ghid-achizitii-seap`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
@@ -607,8 +607,8 @@ export default function GhidSeapPage() {
                   <span className={styles.statLabel}>Contracte Publice</span>
                 </div>
                 <div className={styles.stat}>
-                  <span className={styles.statValue}>45+</span>
-                  <span className={styles.statLabel}>Branduri Premium</span>
+                  <span className={styles.statValue}>1.200+</span>
+                  <span className={styles.statLabel}>Branduri cu pagină proprie</span>
                 </div>
               </div>
             </div>
@@ -646,7 +646,7 @@ export default function GhidSeapPage() {
                     <li><strong>Zeci de miliarde lei</strong> anual în achiziții</li>
                   </ul>
                   <p className={styles.highlightNote}>
-                    Infinitrade este operator economic verificat și activ în SEAP din 2009.
+                    Infinitrade (Driatheli Group SRL) este operator economic înregistrat în SEAP.
                   </p>
                 </div>
               </div>
@@ -684,7 +684,7 @@ export default function GhidSeapPage() {
             <div className={styles.sectionHeader}>
               <h2>Echipamente Industriale Disponibile pentru Achiziții SEAP</h2>
               <p>
-                Comercializăm echipamente industriale de la 45+ branduri premium mondiale.
+                Furnizăm echipamente industriale de la peste 1.200 de branduri, fiecare cu pagină proprie.
                 Mai jos găsiți categoriile principale cu codurile CPV corespunzătoare.
               </p>
             </div>
@@ -984,7 +984,7 @@ export default function GhidSeapPage() {
               </Link>
               <Link href="/certificari" className={styles.relatedCard}>
                 <h3>Certificări și Autorizări</h3>
-                <p>ISO 9001, partener branduri premium, înregistrare SEAP</p>
+                <p>Înregistrare SEAP, documentele producătorului, ISO 9001 în curs</p>
                 <ArrowRight size={16} />
               </Link>
               <Link href="/blog" className={styles.relatedCard}>

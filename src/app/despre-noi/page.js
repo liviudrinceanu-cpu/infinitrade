@@ -40,8 +40,8 @@ export default function DesprePage() {
               <h1>Despre Infinitrade Romania</h1>
               <p className={styles.heroTagline}>{companyInfo.tagline}</p>
               <p className={styles.heroDescription}>
-                Partener strategic pentru industria românească din 2009. Furnizăm echipamente
-                industriale de înaltă performanță pentru cele mai exigente aplicații.
+                Furnizor de echipamente industriale și piese de schimb pentru companii
+                din România, din 2009.
               </p>
             </div>
           </div>
@@ -75,26 +75,24 @@ export default function DesprePage() {
                 <h2>Cine Suntem</h2>
                 <p>
                   <strong>Infinitrade Romania</strong> e brandul sub care operăm din 2009, parte a
-                  <strong> Driatheli Group SRL</strong>. Am început cu câțiva clienți și câteva branduri,
-                  și am crescut pe baza unui principiu simplu: livrăm ce promitem, când promitem.
+                  <strong> Driatheli Group SRL</strong>, cu sediul și depozitul în județul Timiș.
                 </p>
                 <p>
-                  Știm cum e să ai o pompă stricată vineri după-amiază și producția oprită (am fost și noi în situația aia).
-                  De asta am construit stocuri pentru componentele critice și relații directe cu furnizori
-                  din toată Europa. Când ai nevoie urgent de ceva, de obicei găsim o soluție - nu garantăm mereu, dar încercăm.
+                  O pompă oprită înseamnă producție oprită. De aceea ținem pe stoc repere uzuale de mentenanță
+                  în depozitul din Ghiroda și lucrăm prin canalele de aprovizionare ale producătorilor din Europa.
+                  Pentru urgențe, vă spunem de la început termenul realist.
                 </p>
                 <p>
                   Lucrăm cu <strong>{siteStats.brands} de branduri internaționale din 16 categorii</strong>, fiecare cu pagină proprie pe site: de la Grundfos și Wilo
                   la pompe, Siemens și ABB la motoare, Endress+Hauser la senzori, Parker la hidraulică,
-                  până la Schneider Electric pentru automatizări. Nu vindem orice - vindem ce știm că funcționează.
+                  până la Schneider Electric pentru automatizări.
                 </p>
 
                 <h3>Ce Ne Diferențiază</h3>
                 <p>
-                  Nu suntem cel mai mare distribuitor din România și nu pretindem să fim. Dar clienții
-                  care lucrează cu noi rămân pentru că răspundem la telefon, știm ce vindem și nu
-                  dispărem după ce livrăm. Suportul tehnic nu e un cost pentru noi, e modul în care
-                  ne facem treaba.
+                  Nu pretindem că suntem cel mai mare furnizor din România. Ne concentrăm pe răspunsuri
+                  tehnice corecte, termene scrise în ofertă și documentele de care au nevoie
+                  departamentele de achiziții, mentenanță și investiții.
                 </p>
               </div>
 
@@ -105,19 +103,19 @@ export default function DesprePage() {
                 <ul className={styles.featureList}>
                   <li>
                     <CheckCircle size={20} />
-                    <span>Partener pentru branduri premium din întreaga lume</span>
+                    <span>Branduri din Europa, SUA și Asia, fiecare cu pagină proprie</span>
                   </li>
                   <li>
                     <CheckCircle size={20} />
-                    <span>Stocuri strategice pentru livrare rapidă 24-72h</span>
+                    <span>Repere uzuale pe stoc, livrare 24–72 h</span>
                   </li>
                   <li>
                     <CheckCircle size={20} />
-                    <span>Echipă tehnică specializată pentru consultanță</span>
+                    <span>Suport tehnic la selecție</span>
                   </li>
                   <li>
                     <CheckCircle size={20} />
-                    <span>Piese de schimb originale cu garanție</span>
+                    <span>Piese de schimb originale, cu garanția producătorului</span>
                   </li>
                   <li>
                     <CheckCircle size={20} />
@@ -125,7 +123,7 @@ export default function DesprePage() {
                   </li>
                   <li>
                     <CheckCircle size={20} />
-                    <span>Certificare ISO 9001:2015</span>
+                    <span>ISO 9001: certificare în curs</span>
                   </li>
                 </ul>
 
@@ -152,7 +150,7 @@ export default function DesprePage() {
               className={`${styles.sectionHeader} animate-fade-up ${industriesVisible ? 'is-visible' : ''}`}
             >
               <h2>Industrii Deservite</h2>
-              <p>Furnizăm echipamente industriale pentru cele mai importante sectoare ale economiei</p>
+              <p>Sectoare pentru care furnizăm echipamente și piese de schimb</p>
             </div>
 
             <div className={styles.industriesGrid}>
