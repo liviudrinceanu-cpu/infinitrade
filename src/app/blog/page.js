@@ -196,7 +196,7 @@ export default function BlogPage() {
                 <div className={styles.sidebarCard}>
                   <h3>Categorii</h3>
                   <ul className={styles.categoryList}>
-                    {blogCategories.map((cat) => (
+                    {blogCategories.filter((cat) => blogArticles.some(a => a.category === cat)).map((cat) => (
                       <li key={cat}>
                         <span>{cat}</span>
                         <span className={styles.count}>
