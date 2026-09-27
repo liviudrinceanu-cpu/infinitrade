@@ -11,7 +11,7 @@ export const metadata = {
   title: {
     absolute: 'Infinitrade Romania | Distribuitor Echipamente Industriale',
   },
-  description: 'Distribuitor de echipamente industriale în România, furnizor SEAP/SICAP: pompe Grundfos și Wilo, robineți ARI și Spirax Sarco, motoare Siemens și ABB. Livrare 24–72 h din stoc.',
+  description: 'Distribuitor echipamente industriale în România, furnizor SEAP: pompe Grundfos și Wilo, robineți ARI și Spirax Sarco, motoare Siemens și ABB. Livrare 24–72 h.',
   alternates: {
     canonical: config.site.url,
   },
