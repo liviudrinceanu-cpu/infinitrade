@@ -8,8 +8,10 @@
  */
 
 // Check if Upstash is configured
-const UPSTASH_URL = process.env.UPSTASH_REDIS_REST_URL;
-const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
+// v23: the Vercel Marketplace integration for Upstash may name the variables
+// KV_REST_API_URL / KV_REST_API_TOKEN; accept both spellings.
+const UPSTASH_URL = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
+const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
 // In-memory fallback store (only for development)
