@@ -37,12 +37,12 @@
   ],
   "certifications": [
     {
-      "name": "ISO 9001:2015",
+      "name": "ISO 9001",
       "certificateNumber": null,
       "issuedBy": null,
       "validUntil": null,
-      "status": "OWNER_CONFIRM",
-      "rule": "Until certificateNumber + issuedBy are filled, this may be stated in prose on /certificari but MUST NOT appear in Organization JSON-LD hasCertification, and MUST NOT be repeated on brand pages."
+      "status": "IN_PROGRESS",
+      "rule": "Owner 2026-09-27: certification in progress, NOT issued. Site wording: 'ISO 9001: certificare în curs'. Never 'ISO 9001:2015' / 'certificat ISO' as obtained. When issued: fill certificateNumber, issuedBy, validUntil, publish the PDF, then it may go into JSON-LD hasCredential."
     }
   ],
   "sameAs": [
@@ -134,7 +134,14 @@
     },
     {
       "fact": "certifications",
-      "canonical": "ISO 9001:2015 without a public certificate number",
+      "canonical": "ISO 9001: certificare în curs",
+      "pattern": "(Infinitrade|Driatheli|suntem|avem|firma noastr[ăa])[^.\\n]{0,60}ISO 9001(?!: certificare în curs| în curs)",
+      "flags": "i",
+      "why": "owner 2026-09-27: ISO 9001 certification is in progress, not issued"
+    },
+    {
+      "fact": "certifications",
+      "canonical": "ISO 9001: certificare în curs",
       "pattern": "partener (Grundfos|Siemens|KSB)",
       "flags": "i",
       "why": "reads as a partnership claim (owner rule #5); use 'lucrăm cu gama'"

@@ -54,19 +54,18 @@ export default function Hero() {
 
           {/* Subheadline - CSS animation */}
           <p className={`${styles.subheadline} ${styles.subheadlineAnimate}`} style={{ fontSize: '0.95rem', opacity: 0.9 }}>
-            Distribuitor premium de echipamente industriale.
-            Pompe, robineți, motoare, schimbătoare de căldură și suflante
-            de la cele mai prestigioase branduri mondiale.
+            Pentru achiziții, mentenanță și proiecte: ofertă pe cod, pe plăcuță
+            sau pe listă de echipamente, cu termenul de livrare scris în ofertă.
           </p>
 
           {/* CTA Buttons - CSS animation */}
           <div className={`${styles.ctas} ${styles.ctasAnimate}`}>
             <Link href="/contact" className={styles.ctaPrimary}>
-              Cere Ofertă
+              Solicitați ofertă
               <ArrowRight size={18} aria-hidden="true" />
             </Link>
-            <Link href="#categorii" className={styles.ctaSecondary}>
-              Explorează Produse
+            <Link href="#roluri" className={styles.ctaSecondary}>
+              Pentru companii
             </Link>
           </div>
 
@@ -88,8 +87,8 @@ export default function Hero() {
             </div>
             <div className={styles.statDivider} />
             <div className={styles.stat}>
-              <span className={styles.statNumber}>24h</span>
-              <span className={styles.statLabel}>Livrare Rapidă</span>
+              <span className={styles.statNumber}>24–72 h</span>
+              <span className={styles.statLabel}>Livrare din stoc</span>
             </div>
           </div>
         </div>

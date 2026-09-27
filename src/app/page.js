@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import RoleEntry from '@/components/RoleEntry';
 import Categories from '@/components/Categories';
 import Features from '@/components/Features';
 import Footer from '@/components/Footer';
@@ -36,6 +37,7 @@ export default function Home() {
       <Header />
       <main id="main-content">
         <Hero />
+        <RoleEntry />
         <Categories />
         <Features />
       </main>

@@ -155,12 +155,12 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                   ) : (
                     <>
                       <Plus size={18} />
-                      Adaugă la cerere
+                      Adăugați la cerere
                     </>
                   )}
                 </button>
                 <Link href="/contact" className={styles.ctaPrimary}>
-                  Trimite Cererea
+                  Trimiteți Cererea
                   <ArrowRight size={18} />
                 </Link>
               </div>
@@ -320,7 +320,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                     <h2>Ce tipuri de echipamente are {brand.name}?</h2>
                     <p>
                       Gama {brand.name} din categoria {category.name.toLowerCase()} cuprinde {productTypes.length}{' '}
-                      tipuri de echipamente. Selectează produsele de care ai nevoie și solicită oferta.
+                      tipuri de echipamente. Selectați produsele de care aveți nevoie și solicitați oferta.
                     </p>
                   </div>
                   <div className={styles.productsGrid}>
@@ -341,8 +341,8 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                         <div className={styles.productCardActions}>
                           <button
                             type="button"
-                            aria-label={isInCart(`${type.name} ${brand.name}`) ? `${type.name} ${brand.name} este în cerere` : `Adaugă ${type.name} ${brand.name} la cerere`}
-                            title={isInCart(`${type.name} ${brand.name}`) ? 'În cerere' : 'Adaugă la cerere'}
+                            aria-label={isInCart(`${type.name} ${brand.name}`) ? `${type.name} ${brand.name} este în cerere` : `Adăugați ${type.name} ${brand.name} la cerere`}
+                            title={isInCart(`${type.name} ${brand.name}`) ? 'În cerere' : 'Adăugați la cerere'}
                             className={`${styles.addBtn} ${isInCart(`${type.name} ${brand.name}`) ? styles.inCart : ''} ${addedAnimation === `${type.name} ${brand.name}` ? styles.adding : ''}`}
                             onClick={() => handleAddToCart({
                               type: 'product',
@@ -410,8 +410,8 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                   <h2 className={styles.richSectionTitle}>Ce coduri și serii {brand.name} sunt cerute frecvent?</h2>
                   <p className={styles.sectionLead}>
                     Denumiri de serie și coduri de tip {brand.name} preluate din catalogul public al producătorului,
-                    ca reper pentru identificare — nu o listă de stoc. Trimite-ne codul complet de pe plăcuța
-                    echipamentului și primești ofertă pentru modelul exact sau pentru un echivalent.
+                    ca reper pentru identificare — nu o listă de stoc. Trimiteți-ne codul complet de pe plăcuța
+                    echipamentului și primiți ofertă pentru modelul exact sau pentru un echivalent.
                   </p>
                   <div className={styles.codesTableWrap}>
                     <table className={styles.codesTable}>
@@ -494,7 +494,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                       <p key={i}>{paragraph}</p>
                     ))}
                     <Link href="/contact" className={styles.infinitradeBtn}>
-                      Solicită Ofertă
+                      Solicitați Ofertă
                       <ArrowRight size={18} />
                     </Link>
                   </div>
@@ -587,8 +587,8 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                         <div className={styles.productCardActions}>
                           <button
                             type="button"
-                            aria-label={isInCart(`${type.name} ${brand.name}`) ? `${type.name} ${brand.name} este în cerere` : `Adaugă ${type.name} ${brand.name} la cerere`}
-                            title={isInCart(`${type.name} ${brand.name}`) ? 'În cerere' : 'Adaugă la cerere'}
+                            aria-label={isInCart(`${type.name} ${brand.name}`) ? `${type.name} ${brand.name} este în cerere` : `Adăugați ${type.name} ${brand.name} la cerere`}
+                            title={isInCart(`${type.name} ${brand.name}`) ? 'În cerere' : 'Adăugați la cerere'}
                             className={`${styles.addBtn} ${isInCart(`${type.name} ${brand.name}`) ? styles.inCart : ''} ${addedAnimation === `${type.name} ${brand.name}` ? styles.adding : ''}`}
                             onClick={() => handleAddToCart({
                               type: 'product',
@@ -740,14 +740,14 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
               <div className={styles.ctaContent}>
                 <h2>Cum cer o ofertă {brand.name}?</h2>
                 <p>
-                  Trimite-ne plăcuța sau codul produsului, cantitatea și termenul dorit.
-                  Adaugă produsele la cerere și primești oferta, de regulă în aceeași zi lucrătoare sau în următoarea.
+                  Trimiteți-ne plăcuța sau codul produsului, cantitatea și termenul dorit.
+                  Adăugați produsele la cerere și primiți oferta, de regulă în aceeași zi lucrătoare sau în următoarea.
                 </p>
               </div>
               <div className={styles.ctaButtons}>
                 <Link href="/contact" className={styles.ctaButtonPrimary}>
                   <ShoppingCart size={20} />
-                  Vezi Cererea ({cartItems.length})
+                  Vedeți Cererea ({cartItems.length})
                 </Link>
               </div>
             </div>

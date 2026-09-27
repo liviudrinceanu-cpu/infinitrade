@@ -28,6 +28,7 @@ export const lastModified = {
   termeniSiConditii: '2026-09-27', // src/app/termeni-si-conditii/page.js
   echipa: '2026-09-27', // src/app/echipa/page.js
   echipamenteDiverse: '2026-09-27', // src/app/echipamente-diverse/page.js
+  roles: '2026-09-27', // src/data/roles.js — /achizitii, /mentenanta, /proiecte
 
   // Data-driven groups - one shared date per group, from the data file(s)
   // that feed all pages in that group

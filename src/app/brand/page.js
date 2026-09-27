@@ -36,7 +36,7 @@ function groupByLetter(brands) {
 export async function generateMetadata() {
   const total = allBrandsUnified.length;
   const title = `Toate brandurile A–Z (${total}) | Infinitrade România`;
-  const description = `Index A–Z cu ${total} de branduri de echipamente industriale ofertate în România: pompe, robineți, motoare, automatizări, senzori. Cere ofertă pe brand.`;
+  const description = `Index A–Z cu ${total} de branduri de echipamente industriale ofertate în România: pompe, robineți, motoare, automatizări, senzori. Cereți ofertă pe brand.`;
   return {
     title: { absolute: title },
     description,
@@ -161,9 +161,9 @@ export default function BrandIndexPage() {
 
         <section className={styles.ctaSection}>
           <div className={styles.container}>
-            <h2>Nu găsești brandul?</h2>
-            <p>Lucrăm cu canale de aprovizionare din toată Uniunea Europeană. Trimite codul sau fișa tehnică și îți spunem, de regulă în aceeași zi lucrătoare, dacă putem oferta.</p>
-            <Link href="/contact" className={styles.ctaButton}>Cere ofertă</Link>
+            <h2>Nu găsiți brandul?</h2>
+            <p>Lucrăm cu canale de aprovizionare din toată Uniunea Europeană. Trimiteți codul sau fișa tehnică și vă spunem, de regulă în aceeași zi lucrătoare, dacă putem oferta.</p>
+            <Link href="/contact" className={styles.ctaButton}>Cereți ofertă</Link>
           </div>
         </section>
       </main>

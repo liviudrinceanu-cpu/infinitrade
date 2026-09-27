@@ -47,7 +47,7 @@ export class ErrorBoundary extends Component {
               Ceva nu a mers bine
             </h1>
             <p style={{ color: '#6e6e73', marginBottom: '24px', lineHeight: 1.6 }}>
-              Ne pare rău, a apărut o eroare neașteptată. Te rugăm să încerci din nou sau să revii mai târziu.
+              Ne pare rău, a apărut o eroare neașteptată. Vă rugăm să încercați din nou sau să reveniți mai târziu.
             </p>
             <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
               <button
@@ -67,7 +67,7 @@ export class ErrorBoundary extends Component {
                 }}
               >
                 <RefreshCw size={18} />
-                Reîncearcă
+                Reîncercați
               </button>
               <Link
                 href="/"

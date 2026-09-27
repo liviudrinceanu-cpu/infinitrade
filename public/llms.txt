@@ -14,6 +14,11 @@ Sitemap: https://www.infinitrade.ro/sitemap.xml
 - [Certifications](https://www.infinitrade.ro/certificari)
 - [FAQ](https://www.infinitrade.ro/faq)
 
+## For companies (by role)
+- [For procurement](https://www.infinitrade.ro/achizitii) - verifiable company data, supplier onboarding documents, RO e-Invoicing, SEAP; ISO 9001 certification in progress
+- [For maintenance](https://www.infinitrade.ro/mentenanta) - spare parts by nameplate code or photo, successors for discontinued parts, 24–72 h from stock
+- [For projects / CAPEX](https://www.infinitrade.ro/proiecte) - one quote for a full equipment list (Excel template), CE/ATEX/SIL documents per item
+
 ## Product Categories (16 categories, 1336 brands with their own page)
 ### Core Categories (5)
 - [Industrial Pumps](https://www.infinitrade.ro/pompe-industriale) - Grundfos, Wilo, KSB, Lowara, Ebara, Sulzer, Netzsch, Brinkmann, Becker, DAB
@@ -120,7 +125,7 @@ Response time: within 1 business day.
 - Product Categories: 16 (5 core + 11 additional equipment)
 - Pages: 1271+ indexed (categories, brands, industries, guides, blog); full list in the sitemap
 - SEAP/SICAP: Registered supplier for public procurement
-- Certifications: ISO 9001:2015
+- Certifications: ISO 9001 certification in progress (not yet issued); registered SEAP/SICAP economic operator
 - Delivery: 24–72 h when the item is in stock in Romania or at a European warehouse; factory orders usually 2–4 weeks; OEM, customised or made-to-specification execution can take longer (confirmed in the quote)
 
 ## Contact

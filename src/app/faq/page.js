@@ -15,20 +15,20 @@ const faqData = [
     questions: [
       {
         q: 'Cum aleg pompa potrivită pentru aplicația mea?',
-        a: 'Cel mai simplu: trimite-ne datele aplicației (debit, presiune, ce fluid pompezi, temperatură) și ne ocupăm noi de dimensionare. E gratis și răspundem de obicei în 24h - uneori mai repede dacă nu-i aglomerat. Dacă vrei să înțelegi și tu procesul, avem un articol pe blog despre selectarea pompelor unde explicăm criteriile pas cu pas.',
-        link: { href: '/pompe-industriale', text: 'Vezi gama de pompe industriale' }
+        a: 'Cel mai simplu: trimiteți-ne datele aplicației (debit, presiune, fluidul vehiculat, temperatură) și ne ocupăm noi de dimensionare. Este gratuit și răspundem de regulă în aceeași zi lucrătoare sau în următoarea. Pentru înțelegerea procesului de selecție, este disponibil un articol pe blog despre selectarea pompelor, cu criteriile explicate pas cu pas.',
+        link: { href: '/pompe-industriale', text: 'Vedeți gama de pompe industriale' }
       },
       {
         q: 'Care sunt diferențele între robineți cu bilă și robineți fluture?',
-        a: 'Pe scurt: bila pentru când contează etanșarea (gaze, fluide scumpe), fluture pentru când contează prețul și spațiul (apă, HVAC). Bila e mai scumpă dar nu lasă nimic să treacă. Fluture e mai ieftin, mai compact, dar nu are aceeași etanșare. Pentru gaze, întotdeauna bilă. Pentru apă industrială, fluture merge perfect.'
+        a: 'Pe scurt: robinetul cu bilă se alege când contează etanșarea (gaze, fluide scumpe sau periculoase), robinetul fluture când contează spațiul și costul la diametre mari (apă, HVAC). Robinetul cu bilă are etanșare mai bună; cel fluture este mai compact și mai ușor. Pentru gaze se folosește de regulă robinetul cu bilă; pentru apă industrială, robinetul fluture este o alegere uzuală.',
       },
       {
         q: 'Ce tipuri de motoare electrice industriale aveți?',
-        a: 'Cam tot ce ai nevoie: de la motoare asincrone standard (IE3, IE4) până la ATEX pentru zone cu risc de explozie. Lucrăm cu Siemens, ABB și SEW - trei branduri care acoperă 95% din aplicații. Dacă ai nevoie de ceva specific, spune-ne și vedem ce soluție găsim.'
+        a: 'De la motoare asincrone standard în clasele de eficiență IE3 și IE4 până la motoare pentru zone cu risc de explozie (ATEX), de la Siemens, ABB, SEW și alți producători din catalog. Pentru cerințe speciale, trimiteți-ne datele de pe plăcuță sau specificația.',
       },
       {
         q: 'Aveți piese de schimb originale?',
-        a: 'Da, pentru tot ce vindem. Garnituri mecanice, rotoare, rulmenți, kituri complete - pe cele curente le avem în stoc, restul le comandăm (și de obicei vin repede). Sfatul nostru: piesele originale par mai scumpe la prima vedere, dar durează de 2-3 ori mai mult. La final de calcul, tot ele ies mai ieftine.'
+        a: 'Da: garnituri mecanice, rotoare, rulmenți, kituri de reparație, identificate după codul de pe plăcuță sau din documentația producătorului. Reperele uzuale se livrează din stoc, restul se comandă la producător; disponibilitatea și termenul se confirmă în ofertă.',
       },
     ]
   },
@@ -37,19 +37,19 @@ const faqData = [
     questions: [
       {
         q: 'Cât durează livrarea?',
-        a: 'Ce avem în stoc: 24-72h în toată România. Ce trebuie comandat de la producător: 2-4 săptămâni, depinde de ce e. Pentru urgențe de producție, sună-ne direct - găsim soluție, fie din stocul altui distribuitor, fie cu livrare expres.'
+        a: 'Pentru reperele aflate pe stoc în România sau într-un depozit din Europa: 24–72 h. Pentru echipamente comandate din fabrică: de regulă 2–4 săptămâni; execuțiile OEM sau personalizate pot depăși 4 săptămâni. Pentru urgențe de producție, vă rugăm să ne contactați direct - căutăm soluția cea mai rapidă, din stoc propriu sau prin rețeaua de furnizori.'
       },
       {
         q: 'Livrați pe șantier sau direct în fabrică?',
-        a: 'Da, oriunde e nevoie. Am livrat în rafinării, pe platforme offshore, în centrale electrice - nu e problemă locația. Pentru echipamente grele avem transport specializat. Coordonăm descărcarea cu echipa ta.'
+        a: 'Da, livrăm pe șantier sau direct în fabrică, indiferent de locație. Pentru echipamente grele asigurăm transport specializat și coordonăm descărcarea cu echipa dumneavoastră.'
       },
       {
         q: 'Ce modalități de plată acceptați?',
-        a: 'Transfer bancar (cu termen pentru clienții cu istoric), ramburs la livrare, card. Pentru investiții mai mari putem discuta leasing sau plată în tranșe - depinde de situație.'
+        a: 'Transfer bancar, cu termen de plată pentru clienții cu istoric; pentru comenzi mici, și plată la livrare sau cu cardul. Pentru investiții mari se pot discuta plăți în tranșe. Condițiile se precizează în fiecare ofertă.'
       },
       {
-        q: 'Emiți factură fiscală?',
-        a: 'Bineînțeles, suntem plătitori de TVA. Pentru achiziții din fonduri europene sau PNRR, pregătim toată documentația necesară - certificate, declarații, fișe tehnice, ce mai cere dosarul.'
+        q: 'Emiteți factură fiscală?',
+        a: 'Da, suntem plătitori de TVA, iar facturile către firme se emit prin sistemul RO e-Factura, obligatoriu pentru tranzacțiile între firme. Pentru achiziții din fonduri europene sau PNRR pregătim documentele cerute de dosar: certificate, declarații, fișe tehnice.'
       },
     ]
   },
@@ -58,19 +58,19 @@ const faqData = [
     questions: [
       {
         q: 'Oferiți consultanță tehnică?',
-        a: 'Da, și e gratuită. Dimensionare echipamente, selectare materiale, calcul eficiență - facem asta zilnic. Trimite-ne datele; răspundem de regulă în aceeași zi lucrătoare sau în următoarea, cu recomandare. Nu ai obligația să cumperi de la noi doar pentru că te-am ajutat cu consultanță.'
+        a: 'Da, și e gratuită. Dimensionare echipamente, selectare materiale, calcul eficiență. Trimiteți-ne datele; răspundem de regulă în aceeași zi lucrătoare sau în următoarea, cu recomandare. Nu aveți obligația să achiziționați de la noi doar pentru că ați beneficiat de consultanță.'
       },
       {
         q: 'Faceți punere în funcțiune și service?',
-        a: 'Punere în funcțiune: da, fie cu echipa noastră, fie cu parteneri autorizați, depinde de echipament și zonă. Service și mentenanță: da, pentru ce avem în portofoliu. Pentru urgențe, sună-ne - încercăm să intervenim cât mai repede.'
+        a: 'Pentru punerea în funcțiune și service, soluția depinde de echipament și de zonă: lucrăm cu echipele de service ale producătorilor sau cu firme specializate, pe care le indicăm în ofertă. Pentru urgențe, vă rugăm să ne sunați.'
       },
       {
         q: 'Unde găsesc documentația tehnică?',
-        a: 'Scrie-ne pe email cu codul produsului și îți trimitem ce ai nevoie: fișă tehnică, manual, certificat, desen CAD. Majoritatea documentelor le avem, pentru rest comandăm de la producător. Durează de obicei 1-2 zile.'
+        a: 'Scrieți-ne codul produsului și vă trimitem documentația disponibilă: fișă tehnică, manual, certificat, desen CAD. Ce nu avem, cerem de la producător; vă spunem termenul la primirea cererii.'
       },
       {
         q: 'Ce garanție au produsele?',
-        a: 'Garanția producătorului, de obicei 12-24 luni. Acoperă defecte de fabricație, nu uzura normală sau folosirea greșită. Păstrează documentele și respectă condițiile de operare - altfel pot apărea probleme cu reclamațiile.'
+        a: 'Garanția producătorului, de obicei 12-24 luni. Acoperă defecte de fabricație, nu uzura normală sau folosirea greșită. Vă recomandăm să păstrați documentele și să respectați condițiile de operare - altfel pot apărea probleme cu reclamațiile.'
       },
     ]
   },
@@ -83,12 +83,12 @@ const faqData = [
       },
       {
         q: 'În ce industrii lucrați?',
-        a: 'Cam în toate care au nevoie de echipamente industriale: petrochimie, energie, alimentar, farmaceutic, tratare apă, construcții/HVAC, minerit, automotive, metalurgie, ciment, hârtie, logistică, biogaz și construcții navale. Pentru 15 dintre ele avem pagini dedicate, cu echipamentele cerute frecvent și datele de trimis pentru ofertă.'
+        a: 'Primim cereri din petrochimie, energie, alimentar, farmaceutic, tratare apă, construcții/HVAC, minerit, automotive, metalurgie, ciment, hârtie, logistică, biogaz și construcții navale. Pentru 15 dintre ele avem pagini dedicate, cu echipamentele cerute frecvent și datele de trimis pentru ofertă.'
       },
       {
         q: 'Cum vă pot contacta?',
-        a: 'Email: secretariat@infinitrade-romania.ro. Telefon: +40 371 232 404. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem de regulă în aceeași zi lucrătoare sau în următoarea.',
-        link: { href: '/contact', text: 'Mergi la pagina de contact' }
+        a: 'Email: secretariat@infinitrade-romania.ro. Telefon: +40 371 232 404. Program: luni–vineri, 08:00–16:30. Sau trimiteți formularul de pe site - răspundem de regulă în aceeași zi lucrătoare sau în următoarea.',
+        link: { href: '/contact', text: 'Mergeți la pagina de contact' }
       },
     ]
   },
@@ -97,52 +97,52 @@ const faqData = [
     questions: [
       {
         q: 'Ce soluții de automatizare industrială oferiți?',
-        a: 'Avem tot ce ține de automatizare: PLC-uri Siemens și ABB, panouri HMI, senzori de proximitate, convertizoare de frecvență, sisteme SCADA. Lucrăm mult cu Schneider Electric și Festo pe partea de control. Dacă ai nevoie de un tablou complet configurat sau doar de un senzor - sună-ne, găsim soluția potrivită.',
-        link: { href: '/automatizari-industriale', text: 'Vezi gama de automatizări industriale' }
+        a: 'PLC-uri, panouri HMI, senzori de proximitate, convertizoare de frecvență și componente SCADA de la Siemens, ABB, Schneider Electric, Festo și alți producători din catalog. Ofertăm atât componente separate, cât și pe listă, pentru un tablou sau o linie.',
+        link: { href: '/automatizari-industriale', text: 'Vedeți gama de automatizări industriale' }
       },
       {
         q: 'Aveți senzori și instrumente certificate ATEX?',
-        a: 'Da, avem senzori ATEX și IECEx de la Endress+Hauser, WIKA și SICK - transmițătoare de presiune, temperatură, nivel și debit pentru zone Ex. Am echipat rafinării și platforme chimice cu sute de instrumente certificate. Livrăm cu toată documentația: certificate ATEX, fișe de siguranță, declarații de conformitate.',
-        link: { href: '/senzori-instrumentatie', text: 'Vezi senzori și instrumentație' }
+        a: 'Da, furnizăm senzori și transmițătoare certificate de producător pentru zone cu risc de explozie (ATEX, IECEx), de exemplu de la Endress+Hauser, WIKA și SICK: presiune, temperatură, nivel, debit. Livrăm cu documentele producătorului: certificat ATEX, declarație de conformitate, fișă tehnică.',
+        link: { href: '/senzori-instrumentatie', text: 'Vedeți senzori și instrumentație' }
       },
       {
         q: 'Aveți componente hidraulice pentru utilaje grele?',
-        a: 'Da, lucrăm cu Parker și Bosch Rexroth pe hidraulică - cilindri, pompe, valve proporționale, furtunuri, racorduri. De la sisteme hidraulice pentru prese de 500 tone până la cilindri de schimb pentru excavatoare. Dacă ai o schemă hidraulică, o analizăm și facem ofertă pe componente.',
-        link: { href: '/componente-hidraulice-pneumatice', text: 'Vezi componente hidraulice și pneumatice' }
+        a: 'Da: cilindri, pompe, distribuitoare și valve proporționale, furtunuri și racorduri, de la Parker, Bosch Rexroth și alți producători din catalog. Dacă aveți o schemă hidraulică sau o listă de componente, pregătim oferta pe poziții.',
+        link: { href: '/componente-hidraulice-pneumatice', text: 'Vedeți componente hidraulice și pneumatice' }
       },
       {
         q: 'Aveți filtre de schimb pentru compresoare și instalații?',
-        a: 'Da, filtre originale și compatibile de la Donaldson, Mann+Hummel, Parker. Filtre aer compresor, filtre ulei, filtre hidraulice, cartușe pentru deprăfuire. Cele curente le avem în stoc, restul vin în 3-5 zile. Sfat de la noi: nu economisi la filtre - un filtru ieftin te costă de 10 ori mai mult în reparații.',
-        link: { href: '/filtre-consumabile', text: 'Vezi filtre și consumabile' }
+        a: 'Da: filtre de aer pentru compresoare, filtre de ulei, filtre hidraulice și cartușe pentru desprăfuire, de la Donaldson, Mann+Hummel, Parker și alți producători. Reperele uzuale se livrează din stoc în 24–72 h; restul, de regulă în 2–4 săptămâni. Recomandăm filtre originale sau echivalente cu specificație confirmată.',
+        link: { href: '/filtre-consumabile', text: 'Vedeți filtre și consumabile' }
       },
       {
         q: 'Ce lubrifianți industriali aveți pentru reductoare?',
-        a: 'Lubrifianți sintetici și minerali de la Shell, Klüber, Mobil - uleiuri pentru reductoare (CLP, PAO, PAG), grăsimi pentru rulmenți, fluide hidraulice. Klüber e alegerea noastră pentru aplicații speciale (temperaturi extreme, industrie alimentară). Putem face și recomandare pe baza fișei echipamentului.',
-        link: { href: '/lubrifianti-chimice', text: 'Vezi lubrifianți și produse chimice' }
+        a: 'Lubrifianți sintetici și minerali de la Shell, Klüber, Mobil și alți producători: uleiuri pentru reductoare (CLP, PAO, PAG), unsori pentru rulmenți, fluide hidraulice, inclusiv variante pentru industria alimentară și temperaturi extreme. Recomandarea se face pe baza fișei tehnice a echipamentului.',
+        link: { href: '/lubrifianti-chimice', text: 'Vedeți lubrifianți și produse chimice' }
       },
       {
         q: 'Aveți instrumente de măsură Mitutoyo sau similare?',
-        a: 'Avem instrumente de măsură de la mai multe branduri: șublere, micrometre, comparatoare, rugozimetre. Plus scule de mână profesionale și truse pentru mentenanță. Nu suntem magazin de scule (hai să fim sinceri), dar pentru clienții care cumpără echipamente mari, adăugăm și sculele necesare în pachet.',
-        link: { href: '/scule-instrumente', text: 'Vezi scule și instrumente' }
+        a: 'Da: șublere, micrometre, comparatoare, rugozimetre, de la Mitutoyo și alți producători, plus scule de mână și truse pentru mentenanță. Le putem include în aceeași ofertă cu echipamentele principale.',
+        link: { href: '/scule-instrumente', text: 'Vedeți scule și instrumente' }
       },
       {
         q: 'Aveți chillere industriale Carrier sau Daikin?',
-        a: 'Da, lucrăm cu Carrier, Daikin și alți producători pe echipamente termice - chillere, pompe de căldură, unități de tratare aer, ventiloconvectoare. De la răcire procese industriale (turnare, sudură) până la climatizare data center-uri. Dimensionăm gratuit pe baza sarcinii termice.',
-        link: { href: '/echipamente-termice', text: 'Vezi echipamente termice și HVAC' }
+        a: 'Da, furnizăm echipamente termice de la Carrier, Daikin și alți producători: chillere, pompe de căldură, unități de tratare a aerului, ventiloconvectoare, pentru răcirea proceselor industriale sau climatizare. Pentru dimensionare avem nevoie de sarcina termică și de condițiile de lucru.',
+        link: { href: '/echipamente-termice', text: 'Vedeți echipamente termice și HVAC' }
       },
       {
         q: 'Aveți tablouri electrice și protecții motor?',
-        a: 'Da - contactoare, întrerupătoare, protecții motor, relee termice, de la Schneider Electric și Siemens. Fie componente separate, fie tablouri asamblate. Pentru proiecte mai mari, putem livra tablouri complete cu schemă și certificare.',
-        link: { href: '/echipamente-electrice', text: 'Vezi echipamente electrice' }
+        a: 'Da: contactoare, întrerupătoare, protecții de motor, relee termice, de la Schneider Electric, Siemens și alți producători. Ofertăm componente separate sau pe listă, pentru un tablou întreg.',
+        link: { href: '/echipamente-electrice', text: 'Vedeți echipamente electrice' }
       },
       {
         q: 'Aveți rulmenți SKF sau FAG în stoc?',
-        a: 'Rulmenți SKF, FAG (Schaeffler), NSK - da, cele mai cerute dimensiuni le avem în stoc. Rulmenți cu bile, cu role conice, oscilatori, axiali. Plus bucșe, cuplaje, curele de transmisie de la Gates. Dacă ai codul, verificăm disponibilitatea pe loc.',
-        link: { href: '/componente-mecanice', text: 'Vezi componente mecanice' }
+        a: 'Rulmenți SKF, FAG (Schaeffler), NSK și alți producători: cu bile, cu role conice, oscilanți, axiali, plus bucșe, cuplaje și curele de transmisie Gates. Trimiteți codul; vă confirmăm disponibilitatea și termenul în ofertă.',
+        link: { href: '/componente-mecanice', text: 'Vedeți componente mecanice' }
       },
       {
         q: 'Câte categorii de echipamente distribuiți?',
-        a: `Acoperim 16 categorii de echipamente industriale cu ${brandCount} de branduri cu pagină proprie: de la pompe și robineți (nucleul nostru din 2009) până la automatizări, senzori, hidraulică, electrice, filtre, lubrifianți, scule, echipamente termice, aparate de măsură și testare. Practic, tot ce ai nevoie într-o fabrică sau pe un șantier industrial - fără să alergi la 10 furnizori diferiți.`,
+        a: `Acoperim 16 categorii de echipamente industriale cu ${brandCount} de branduri cu pagină proprie: de la pompe și robineți (nucleul activității din 2009) până la automatizări, senzori, hidraulică, echipamente electrice, filtre, lubrifianți, scule, echipamente termice, aparate de măsură și testare. Puteți cere o singură ofertă pentru o listă care acoperă mai multe categorii.`,
       },
     ]
   },
@@ -151,29 +151,29 @@ const faqData = [
     questions: [
       {
         q: 'Sunteți furnizor înregistrat în SEAP/SICAP?',
-        a: 'Da, suntem operator economic verificat și activ în Sistemul Electronic de Achiziții Publice. Am participat și câștigat zeci de licitații pentru instituții publice, primării, spitale, companii de stat. Avem experiență concretă cu procedurile SEAP.',
-        link: { href: '/ghid-achizitii-seap', text: 'Vezi ghidul pentru achiziții publice' }
+        a: 'Da, suntem operator economic înregistrat și activ în Sistemul Electronic de Achiziții Publice. Contractele publice atribuite se pot verifica pe e-licitatie.ro după CUI (RO26209397).',
+        link: { href: '/ghid-achizitii-seap', text: 'Vedeți ghidul pentru achiziții publice' }
       },
       {
         q: 'Ce documente pregătiți pentru licitații publice?',
-        a: 'Tot ce ai nevoie pentru dosarul de achiziție: certificate de conformitate CE, declarații de conformitate, fișe tehnice complete, certificate de garanție, documente de origine. Le pregătim în format electronic, gata de încărcat în SEAP.'
+        a: 'Documentele necesare pentru dosarul de achiziție: certificate de conformitate CE, declarații de conformitate, fișe tehnice complete, certificate de garanție, documente de origine. Le pregătim în format electronic, gata de încărcat în SEAP.'
       },
       {
         q: 'Livrați pentru proiecte cu fonduri europene?',
-        a: 'Da, avem experiență cu proiecte finanțate din fonduri europene și PNRR. Știm ce documentație specifică e necesară și cum să o pregătim corect. Am livrat pentru proiecte de modernizare stații de epurare, centrale termice, fabrici.'
+        a: 'Da. Pentru proiectele finanțate din fonduri europene sau PNRR pregătim documentele cerute de dosar (declarații de conformitate, fișe tehnice, certificate de origine și de garanție) și respectăm termenele scrise în ofertă.'
       },
       {
         q: 'Puteți participa la achiziții directe sub prag?',
-        a: 'Desigur. Pentru achizițiile directe sub pragul de licitație, putem trimite oferta în aceeași zi. Avem toate documentele pregătite și stocuri disponibile pentru livrare rapidă.'
+        a: 'Da. Pentru achizițiile directe (sub 270.120 lei fără TVA la produse și servicii), oferta vine de regulă în aceeași zi lucrătoare sau în următoarea, cu termenul de livrare scris.'
       },
       {
         q: 'Cum mă ajutați cu caietul de sarcini?',
-        a: 'Dacă ești în faza de pregătire a caietului de sarcini, putem oferi consultanță tehnică gratuită: specificații corecte, parametri realiști, alternative tehnice. Asta ajută să primești oferte comparabile și să eviți contestații.',
-        link: { href: '/ghid-achizitii-seap', text: 'Vezi ghidul complet pentru achiziții SEAP' }
+        a: 'Dacă sunteți în faza de pregătire a caietului de sarcini, putem oferi consultanță tehnică gratuită: specificații corecte, parametri realiști, alternative tehnice. Aceasta ajută la obținerea unor oferte comparabile și la evitarea contestațiilor.',
+        link: { href: '/ghid-achizitii-seap', text: 'Vedeți ghidul complet pentru achiziții SEAP' }
       },
       {
-        q: 'Aveți istoric de contracte publice?',
-        a: 'Da, avem un istoric solid de contracte îndeplinite pentru autorități publice. Putem furniza referințe și documente care atestă experiența similară dacă ai nevoie pentru evaluarea ofertelor.'
+        q: 'Cum verific contractele publice anterioare?',
+        a: 'Contractele publice atribuite sunt publice în SEAP și se pot verifica pe e-licitatie.ro după CUI (RO26209397). Pentru o procedură anume, trimitem documentele de experiență similară cerute în fișa de date.'
       },
     ]
   },
@@ -201,7 +201,7 @@ export const metadata = {
   description: 'Răspunsuri despre echipamente industriale și achiziții SEAP/SICAP: pompe, robineți, motoare, licitații. Consultanță gratuită.',
   openGraph: {
     title: 'Întrebări Frecvente (FAQ) | Echipamente Industriale',
-    description: 'Găsește răspunsuri la întrebările despre echipamente industriale.',
+    description: 'Găsiți răspunsuri la întrebările despre echipamente industriale.',
     url: `${config.site.url}/faq`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
@@ -235,7 +235,7 @@ export default function FAQPage() {
           <div className={styles.container}>
             <h1>Întrebări Frecvente</h1>
             <p>
-              Găsește răspunsuri la cele mai frecvente întrebări despre echipamentele
+              Găsiți răspunsuri la cele mai frecvente întrebări despre echipamentele
               industriale, livrare, plată și suport tehnic.
             </p>
           </div>
@@ -275,13 +275,13 @@ export default function FAQPage() {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
-              <h2>Nu ai găsit răspunsul?</h2>
+              <h2>Nu ați găsit răspunsul?</h2>
               <p>
-                Echipa noastră tehnică este gata să te ajute cu orice întrebare
+                Echipa noastră tehnică este gata să vă ajute cu orice întrebare
                 despre echipamente industriale.
               </p>
               <Link href="/contact" className={styles.ctaButton}>
-                Contactează-ne
+                Contactați-ne
               </Link>
             </div>
           </div>

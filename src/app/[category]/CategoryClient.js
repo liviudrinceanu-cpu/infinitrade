@@ -327,16 +327,16 @@ export default function CategoryClient({ category, view, related = { industries:
                 ) : (
                   <>
                     <Plus size={18} />
-                    Adaugă la Cerere
+                    Adăugați la Cerere
                   </>
                 )}
               </button>
               <Link href="/contact" className={styles.ctaPrimary}>
                 <ShoppingCart size={18} />
-                Vezi Cererea ({cartItems.length})
+                Vedeți Cererea ({cartItems.length})
               </Link>
               <a href="#branduri" className={styles.ctaSecondary}>
-                Vezi Branduri
+                Vedeți Brandurile
               </a>
               {azBrands.length > topBrands.length && (
                 <a href="#toate-marcile" className={styles.ctaSecondary}>
@@ -384,8 +384,8 @@ export default function CategoryClient({ category, view, related = { industries:
                       category: category.name,
                       url: `/brand/${brand.simpleSlug}`
                     })}
-                    aria-label={isInCart(brand.name) ? `${brand.name} este în cerere` : `Adaugă ${brand.name} la cerere`}
-                    title={isInCart(brand.name) ? 'În cerere' : 'Adaugă la cerere'}
+                    aria-label={isInCart(brand.name) ? `${brand.name} este în cerere` : `Adăugați ${brand.name} la cerere`}
+                    title={isInCart(brand.name) ? 'În cerere' : 'Adăugați la cerere'}
                   >
                     {isInCart(brand.name) ? <Check size={16} /> : <Plus size={16} />}
                   </button>
@@ -531,8 +531,8 @@ export default function CategoryClient({ category, view, related = { industries:
                       category: category.name,
                       url: `/${category.slug}#${type.slug}`
                     })}
-                    aria-label={isInCart(type.name) ? `${type.name} este în cerere` : `Adaugă ${type.name} la cerere`}
-                    title={isInCart(type.name) ? 'În cerere' : 'Adaugă la cerere'}
+                    aria-label={isInCart(type.name) ? `${type.name} este în cerere` : `Adăugați ${type.name} la cerere`}
+                    title={isInCart(type.name) ? 'În cerere' : 'Adăugați la cerere'}
                   >
                     {isInCart(type.name) ? <Check size={16} /> : <Plus size={16} />}
                   </button>
@@ -639,7 +639,7 @@ export default function CategoryClient({ category, view, related = { industries:
               <h2>{C07_HEADING}</h2>
               <p>
                 Trimiteți plăcuța sau codul produsului, cantitatea și termenul dorit prin formularul
-                alăturat, pentru a primi o ofertă personalizată în cel mai scurt timp.
+                alăturat, pentru a primi o ofertă personalizată de regulă în aceeași zi lucrătoare sau în următoarea.
               </p>
 
               <div className={styles.contactFeatures}>
@@ -750,7 +750,7 @@ export default function CategoryClient({ category, view, related = { industries:
                 className={styles.submitButton}
                 disabled={isLoading}
               >
-                {isLoading ? 'Se trimite...' : 'Trimite Cererea'}
+                {isLoading ? 'Se trimite...' : 'Trimiteți Cererea'}
                 {!isLoading && <Send size={18} />}
               </button>
 
@@ -764,7 +764,7 @@ export default function CategoryClient({ category, view, related = { industries:
                   <Check size={32} />
                 </div>
                 <h3>Mulțumim pentru solicitare!</h3>
-                <p>Am primit cererea dumneavoastră și vă vom contacta în cel mai scurt timp posibil.</p>
+                <p>Am primit cererea dumneavoastră și vă vom contacta de regulă în aceeași zi lucrătoare sau în următoarea.</p>
               </div>
             )}
           </div>

@@ -43,7 +43,7 @@ export async function generateMetadata({ params }) {
     `${displayName} | Infinitrade`,
     displayName,
   ].find((t) => t.length <= 65) || displayName;
-  const description = `${s.oneLine} Coduri de tip, parametri din documentația ${brand.name} și ce trebuie să trimiți pentru o ofertă. Cere ofertă.`.slice(0, 158);
+  const description = `${s.oneLine} Coduri de tip, parametri din documentația ${brand.name} și ce trebuie să trimiteți pentru o ofertă. Cereți ofertă.`.slice(0, 158);
   const url = `${config.site.url}/brand/${brandSlug}/${seriesSlug}`;
   return {
     title: { absolute: title },
@@ -106,7 +106,7 @@ export default async function SeriesPage({ params }) {
               Stare în catalogul producătorului: <strong>{s.lifecycle}</strong>{s.lifecycleNote ? ` — ${s.lifecycleNote}` : ''} · Actualizat: {s.dateModified}
             </p>
             <div className={styles.ctas}>
-              <Link href={`/contact?brand=${encodeURIComponent(brand.name)}&serie=${encodeURIComponent(s.name)}`} className={styles.ctaPrimary}>Cere ofertă {s.name}</Link>
+              <Link href={`/contact?brand=${encodeURIComponent(brand.name)}&serie=${encodeURIComponent(s.name)}`} className={styles.ctaPrimary}>Cereți ofertă {s.name}</Link>
               <Link href={`/brand/${brandSlug}`} className={styles.ctaSecondary}>Toată gama {brand.name}</Link>
             </div>
           </div>
@@ -194,9 +194,9 @@ export default async function SeriesPage({ params }) {
 
         <section className={styles.ctaSection}>
           <div className={styles.container}>
-            <h2>Ai codul? Trimite-l.</h2>
-            <p>Răspundem cu o ofertă în cel mult o zi lucrătoare, cu confirmarea compatibilității din documentația {brand.name}.</p>
-            <Link href={`/contact?brand=${encodeURIComponent(brand.name)}&serie=${encodeURIComponent(s.name)}`} className={styles.ctaPrimary}>Cere ofertă</Link>
+            <h2>Aveți codul? Trimiteți-l.</h2>
+            <p>Răspundem cu o ofertă de regulă în aceeași zi lucrătoare sau în următoarea, cu confirmarea compatibilității din documentația {brand.name}.</p>
+            <Link href={`/contact?brand=${encodeURIComponent(brand.name)}&serie=${encodeURIComponent(s.name)}`} className={styles.ctaPrimary}>Cereți ofertă</Link>
           </div>
         </section>
       </main>

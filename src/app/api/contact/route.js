@@ -1,5 +1,7 @@
 import { CLIENT_BRAND_STATS } from '@/data/headerMenus';
 import { z } from 'zod';
+import { ROLE_VALUES, roleLabel } from '@/data/roleOptions';
+import { MAX_ATTACHMENT_BASE64, validateAttachment, attachmentForAi } from '@/lib/attachment';
 
 // Force dynamic - this route uses runtime features
 export const dynamic = 'force-dynamic';
@@ -176,6 +178,13 @@ const contactSchema = z.object({
     name: z.string(),
     category: z.string().optional(),
   })).optional(),
+  role: z.enum(ROLE_VALUES).optional(), // v27: rolul declarat (achiziții, mentenanță, proiecte...)
+  attachment: z.object({ // v27: fișier opțional (listă Excel/CSV, PDF, poza plăcuței)
+    name: z.string().min(1).max(150),
+    type: z.string().max(120).optional(),
+    size: z.number().int().nonnegative().optional(),
+    data: z.string().min(1).max(MAX_ATTACHMENT_BASE64, 'Fișierul depășește 3 MB.'),
+  }).optional(),
   website: z.string().optional(), // honeypot field
   _t: z.number().optional(), // form load timestamp
 });
@@ -499,7 +508,7 @@ function renderAiAnalysis(d) {
 
 // Returns { text, data }: text is always safe to email; data is the structured
 // analysis (null when the model was unavailable and the keyword fallback ran).
-async function analyzeRequestWithClaude(formData) {
+async function analyzeRequestWithClaude(formData, attachment = null) {
   const client = await getAnthropic();
   if (!client) return { text: generateBasicAnalysis(formData), data: null };
 
@@ -515,6 +524,7 @@ Email: ${formData.email}
 Telefon: ${formData.phone || 'nespecificat'}
 Companie: ${formData.company || 'nespecificată'}
 Categorie selectată pe site: ${formData.category || 'nespecificată'}
+Rol declarat: ${formData.role ? roleLabel(formData.role) : 'nespecificat'}
 
 PRODUSE SELECTATE ÎN COȘ (de pe site)
 ${cart}
@@ -525,13 +535,17 @@ ${formData.message}
 </mesaj_client>
 
 Analizează cererea conform schemei.`;
-
   try {
+    // v27: atașamentul (imagine/PDF ca bloc nativ, CSV/XLSX ca text marcat ca date).
+    const att = attachmentForAi(attachment);
+    const userMessage = att.blocks.length || att.note
+      ? [...att.blocks, { type: 'text', text: `${userContent}${att.note ? `\n\nATAȘAMENT\n${att.note}` : ''}` }]
+      : userContent;
     const response = await client.messages.create({
       model: AI_MODEL,
       max_tokens: 4000,
       system: [{ type: 'text', text: AI_SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } }],
-      messages: [{ role: 'user', content: userContent }],
+      messages: [{ role: 'user', content: userMessage }],
       output_config: {
         effort: 'medium',
         format: { type: 'json_schema', schema: AI_OUTPUT_SCHEMA },
@@ -656,6 +670,18 @@ export async function POST(request) {
 
     const validatedData = validationResult.data;
 
+    // v27: atașamentul se validează după conținut (semnătura fișierului).
+    let attachment = null;
+    if (validatedData.attachment) {
+      const check = validateAttachment(validatedData.attachment);
+      if (!check.ok) {
+        return Response.json({ error: check.error }, { status: 400 });
+      }
+      attachment = check;
+    }
+    const roleText = validatedData.role ? roleLabel(validatedData.role) : '';
+    const attachmentText = attachment ? `${attachment.name} (${Math.round(attachment.size / 1024)} KB)` : '';
+
     // --- Spam Detection (BEFORE AI analysis to save tokens) ---
     const spamResult = detectSpam(validatedData, validatedData._t);
 
@@ -674,7 +700,7 @@ export async function POST(request) {
     }
 
     // Analyze request with Claude AI
-    const { text: aiAnalysis, data: aiData } = await analyzeRequestWithClaude(validatedData);
+    const { text: aiAnalysis, data: aiData } = await analyzeRequestWithClaude(validatedData, attachment);
 
     // Extract price estimates from AI analysis
     let estimatedMin = null;
@@ -724,7 +750,7 @@ export async function POST(request) {
           data: {
             clientId: client.id,
             category: validatedData.category || null,
-            message: validatedData.message,
+            message: `${roleText ? `[Rol: ${roleText}]\n` : ''}${validatedData.message}${attachmentText ? `\n\n[Atașament trimis pe e-mail: ${attachmentText}]` : ''}`,
             productsJson: validatedData.cartItems || null,
             aiAnalysis: aiAnalysis,
             estimatedMin: estimatedMin,
@@ -788,6 +814,8 @@ export async function POST(request) {
         <p><span class="label">Telefon:</span> ${validatedData.phone || 'Nespecificat'}</p>
         <p><span class="label">Companie:</span> ${sanitizedCompany || 'Nespecificată'}</p>
         <p><span class="label">Categorie:</span> ${validatedData.category || 'Nespecificată'}</p>
+        <p><span class="label">Rol:</span> ${roleText || 'Nespecificat'}</p>
+        <p><span class="label">Atașament:</span> ${attachmentText ? sanitizeHtmlSimple(attachmentText) + ' (atașat la acest e-mail)' : 'Nu'}</p>
       </div>
       
       <div class="section">
@@ -827,6 +855,8 @@ Email: ${validatedData.email}
 Telefon: ${validatedData.phone || 'Nespecificat'}
 Companie: ${sanitizedCompany || 'Nespecificată'}
 Categorie: ${validatedData.category || 'Nespecificată'}
+Rol: ${roleText || 'Nespecificat'}
+Atașament: ${attachmentText || 'Nu'}
 
 ───────────────────────────────────────────────────
 📝 MESAJUL CLIENTULUI
@@ -856,10 +886,11 @@ Răspunde direct la: ${validatedData.email}
     const { data, error } = await emailClient.emails.send({
       from: 'Infinitrade.ro <noreply@infinitrade.ro>',
       to: ['vanzari@infinitrade-romania.ro', 'liviu.drinceanu@infinitrade-romania.ro'],
-      subject: `[Infinitrade.ro]${aiData ? ` [Lead ${aiData.scor_lead}/10]` : ''} Nouă solicitare de ofertă - ${sanitizedName}${sanitizedCompany ? ' (' + sanitizedCompany + ')' : ''}`,
+      subject: `[Infinitrade.ro]${aiData ? ` [Lead ${aiData.scor_lead}/10]` : ''}${roleText ? ` [${roleText}]` : ''}${attachment ? ' [Atașament]' : ''} Nouă solicitare de ofertă - ${sanitizedName}${sanitizedCompany ? ' (' + sanitizedCompany + ')' : ''}`,
       html: emailHtml,
       text: emailText,
       reply_to: validatedData.email,
+      ...(attachment ? { attachments: [{ filename: attachment.name, content: attachment.buffer }] } : {}),
     });
 
     if (error) {

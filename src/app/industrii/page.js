@@ -9,7 +9,7 @@ import styles from './industrii.module.css';
 
 export const metadata = {
   title: 'Industrii Deservite | Furnizor SEAP',
-  description: 'Furnizor SEAP/SICAP echipamente: petrochimie, alimentar, tratare apă, energie, farmaceutic. 15+ ani experiență.',
+  description: 'Furnizor SEAP/SICAP echipamente: petrochimie, alimentar, tratare apă, energie, farmaceutic. Activi din 2009.',
   keywords: [
     // SEAP / SICAP
     'furnizor SEAP',
@@ -130,8 +130,8 @@ export default function IndustriiPage() {
             </div>
             <h1>Industrii Deservite</h1>
             <p>
-              Cu peste 15 ani de experiență, furnizăm echipamente industriale specializate
-              pentru diverse sectoare. Înțelegem cerințele specifice fiecărei industrii.
+              Activi din 2009, furnizăm echipamente industriale specializate
+              pentru diverse sectoare, adaptate cerințelor specifice fiecărei industrii.
             </p>
           </div>
         </section>
@@ -168,7 +168,7 @@ export default function IndustriiPage() {
                     <span>{industry.brands.length} branduri</span>
                   </div>
                   <div className={styles.cardFooter}>
-                    <span>Vezi detalii</span>
+                    <span>Vedeți detalii</span>
                     <ArrowRight size={18} />
                   </div>
                 </Link>
@@ -180,13 +180,13 @@ export default function IndustriiPage() {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
-              <h2>Nu găsești industria ta?</h2>
+              <h2>Nu găsiți industria dumneavoastră?</h2>
               <p>
                 Oferim soluții personalizate pentru orice sector industrial.
-                Contactează-ne pentru o discuție despre nevoile tale specifice.
+                Contactați-ne pentru o discuție despre nevoile dumneavoastră specifice.
               </p>
               <Link href="/contact" className={styles.ctaButton}>
-                Contactează-ne
+                Contactați-ne
               </Link>
             </div>
           </div>

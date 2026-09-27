@@ -29,6 +29,24 @@ export default function sitemap() {
       priority: 0.9,
     },
     {
+      url: `${BASE_URL}/achizitii`,
+      lastModified: lastModified.roles,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/mentenanta`,
+      lastModified: lastModified.roles,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/proiecte`,
+      lastModified: lastModified.roles,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/despre-noi`,
       lastModified: lastModified.despreNoi,
       changeFrequency: 'yearly',
