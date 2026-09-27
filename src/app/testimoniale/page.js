@@ -9,7 +9,7 @@ import { lastModified } from '@/data/lastModified';
 import { CATEGORY_LEAD_TIME } from '@/data/leadTimes';
 import styles from './testimoniale.module.css';
 import { siteStats, FOUNDING_YEAR } from '@/data/siteStats';
-import { clientReferences } from '@/data/company';
+import { clientReferences, publicClientReferences, publicProcurementStats } from '@/data/company';
 
 // v18 (D-2026-09-26): this page used to publish quotes with initials, star
 // ratings and figures ("200+ clienți", "98% satisfacție", "40 de pompe
@@ -130,7 +130,17 @@ export default function TestimonialePage() {
           <div className={styles.container}>
             <h2>Companii cu care lucrăm</h2>
             <p>
-              Printre clienții Infinitrade Romania se numără: <strong>{clientReferences.join(', ')}</strong>.
+              <strong>Industrie și energie:</strong> {clientReferences.join(', ')}.
+            </p>
+            <p>
+              <strong>Achiziții publice:</strong> {publicClientReferences.join(', ')}. În total, peste{' '}
+              {publicProcurementStats.count} de achiziții publice atribuite prin SEAP ({publicProcurementStats.period}),
+              pe care le puteți verifica în{' '}
+              <a href={publicProcurementStats.sourceUrl} target="_blank" rel="noopener noreferrer">
+                {publicProcurementStats.sourceLabel}
+              </a>.
+            </p>
+            <p>
               Pentru o referință dintr-o industrie anume, vă punem în legătură cu un client cu o aplicație
               similară, cu acordul acestuia.
             </p>

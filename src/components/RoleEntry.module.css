@@ -74,6 +74,11 @@
   font-weight: 600;
 }
 
+.clients a {
+  color: var(--primary);
+  font-weight: 600;
+}
+
 .clients {
   text-align: center;
   color: var(--gray-600);
