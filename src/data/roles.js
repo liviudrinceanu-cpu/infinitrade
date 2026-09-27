@@ -9,7 +9,7 @@
 // Când proprietarul confirmă termene de plată standard, persoane de contact
 // numite sau certificatul ISO, se actualizează AICI (și în company.js).
 
-import { companyInfo } from './company';
+import { companyInfo, contactPerson, clientReferences } from './company';
 import { siteStats } from './siteStats';
 
 const phone = '+40 371 232 404';
@@ -20,7 +20,10 @@ export const roleContact = {
   phone,
   phoneHref,
   hours: 'luni–vineri, 08:00–16:30',
+  person: contactPerson,
 };
+
+export const PAYMENT_TERMS_TEXT = 'de regulă 30–60 de zile pentru clienții cu contract';
 
 export const LEAD_TIME_TEXT =
   '24–72 h pentru reperele aflate pe stoc în România sau într-un depozit din Europa; din fabrică, de regulă 2–4 săptămâni; execuțiile OEM sau personalizate pot depăși 4 săptămâni';
@@ -48,7 +51,9 @@ export const roles = {
       { label: 'Achiziții publice', value: 'operator economic înregistrat în SEAP / SICAP' },
       { label: `Cifră de afaceri ${od.revenueYear}`, value: '16,5 mil. lei (≈ 3,3 mil. €), date publice' },
       { label: 'Angajați', value: `${od.employees} (date publice ${od.revenueYear})` },
+      { label: 'Termen de plată', value: 'de regulă 30–60 de zile pentru clienții cu contract' },
       { label: 'ISO 9001', value: 'certificare în curs; publicăm certificatul la emitere' },
+      { label: 'Persoană de contact', value: `${contactPerson.name}, ${contactPerson.email}` },
     ],
     verifyLinks: [
       { name: 'termene.ro — date ONRC și financiare', url: 'https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL' },
@@ -73,7 +78,24 @@ export const roles = {
           'Dacă propunem un echivalent sau un succesor al unui reper scos din fabricație, îl marcăm explicit, cu diferențele față de codul cerut.',
           `Termene: ${LEAD_TIME_TEXT}.`,
           'Documentele care însoțesc livrarea: declarația de conformitate a producătorului, fișa tehnică și, unde este cazul, certificatele ATEX sau SIL și certificatul de origine.',
-          'Termenul de plată se stabilește prin ofertă sau contract, în limitele Legii nr. 72/2013 privind combaterea întârzierii în executarea obligațiilor de plată.',
+          'Termen de plată: de regulă 30–60 de zile pentru clienții cu contract, scris în ofertă sau în contract, în limitele Legii nr. 72/2013 privind combaterea întârzierii în executarea obligațiilor de plată.',
+        ],
+      },
+      {
+        title: 'Conformitate și etică în afaceri',
+        items: [
+          'Respectăm legislația anticorupție (Legea nr. 78/2000): nu oferim și nu acceptăm avantaje care pot influența o decizie de achiziție.',
+          'Respectăm regulile de concurență (Legea concurenței nr. 21/1996) și păstrăm confidențialitatea ofertelor, prețurilor și datelor tehnice primite de la clienți.',
+          'Prelucrăm datele personale conform Regulamentului (UE) 2016/679 (GDPR), după politica de confidențialitate publicată pe site.',
+          'Verificăm ca produsele și destinațiile de livrare să nu intre sub sancțiunile internaționale aplicabile în Uniunea Europeană.',
+          'Semnăm codul de conduită și declarațiile de conformitate cerute de client la înscrierea ca furnizor.',
+        ],
+      },
+      {
+        title: 'Companii cu care lucrăm',
+        items: [
+          `Printre clienții noștri se numără: ${clientReferences.join(', ')}.`,
+          'Pentru o referință dintr-o industrie anume, vă punem în legătură cu un client cu o aplicație similară, cu acordul acestuia.',
         ],
       },
       {
@@ -96,6 +118,10 @@ export const roles = {
       {
         q: 'Completați chestionarele de calificare și codul nostru de conduită?',
         a: 'Da. Trimiteți-ne documentele de înscriere sau invitația din portalul de furnizori; le completăm și vi le returnăm semnate, împreună cu certificatul constatator ONRC.',
+      },
+      {
+        q: 'Ce termen de plată acceptați?',
+        a: 'Pentru clienții cu contract, de regulă 30–60 de zile. Termenul exact se scrie în ofertă sau în contract, în limitele Legii nr. 72/2013.',
       },
       {
         q: 'Cum ne verificăm furnizorul înainte de prima comandă?',

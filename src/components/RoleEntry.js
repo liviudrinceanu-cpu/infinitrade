@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { FileCheck, Wrench, Building2, ArrowRight } from 'lucide-react';
 import { roleList } from '@/data/roles';
+import { clientReferences } from '@/data/company';
 import styles from './RoleEntry.module.css';
 
 const icons = { FileCheck, Wrench, Building2 };
@@ -31,6 +32,9 @@ export default function RoleEntry() {
             );
           })}
         </div>
+        <p className={styles.clients}>
+          Printre clienții noștri: <strong>{clientReferences.join(' · ')}</strong>
+        </p>
       </div>
     </section>
   );

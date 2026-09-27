@@ -76,3 +76,14 @@ export const ctaMessages = {
   brand: 'Verifică Disponibilitate',
   contact: 'Contactează Echipa Tehnică'
 };
+
+// v28 (proprietar, 27.09.2026): persoană de contact pentru companii și clienți
+// care pot fi numiți pe site. Continental Automotive Products NU apare: condițiile
+// generale de achiziție Continental (cl. 15) cer acord scris pentru orice
+// referire la relația comercială — se adaugă doar cu acordul scris.
+export const contactPerson = {
+  name: 'Florin Cuzma',
+  email: 'florin.cuzma@infinitrade-romania.ro',
+};
+
+export const clientReferences = ['Alro Slatina', 'Hidroelectrica', 'Hidroserv', 'Nuclearelectrica'];
