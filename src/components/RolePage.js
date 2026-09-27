@@ -156,6 +156,13 @@ export default function RolePage({ role }) {
                   {roleContact.phone} ({roleContact.hours})
                 </a>
               </div>
+              {roleContact.person && (
+                <p className={styles.person}>
+                  Persoană de contact pentru companii: <strong>{roleContact.person.name}</strong>
+                  {' · '}
+                  <a href={`mailto:${roleContact.person.email}`}>{roleContact.person.email}</a>
+                </p>
+              )}
             </div>
           </div>
         </section>

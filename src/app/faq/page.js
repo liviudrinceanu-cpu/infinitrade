@@ -45,7 +45,7 @@ const faqData = [
       },
       {
         q: 'Ce modalități de plată acceptați?',
-        a: 'Transfer bancar, cu termen de plată pentru clienții cu istoric; pentru comenzi mici, și plată la livrare sau cu cardul. Pentru investiții mari se pot discuta plăți în tranșe. Condițiile se precizează în fiecare ofertă.'
+        a: 'Transfer bancar, cu termen de plată de regulă 30–60 de zile pentru clienții cu contract; pentru comenzi mici, și plată la livrare sau cu cardul. Pentru investiții mari se pot discuta plăți în tranșe. Condițiile se precizează în fiecare ofertă.'
       },
       {
         q: 'Emiteți factură fiscală?',
