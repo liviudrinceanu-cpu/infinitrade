@@ -4,27 +4,27 @@ export const brandContentBatch9 = {
     founded: 1946,
     headquarters: 'Reinach, Elveția',
     employees: '4000+',
-    overview: `Habasit înseamnă benzi transportoare de ultimă generație pentru industria alimentară, farmaceutică și logistică. Dezvoltăm soluții de transport modular și curele plate de proces care funcționează impecabil în condiții extreme - de la temperaturi criogenice până la 150°C, de la medii umede până la aplicații cu contact alimentar direct.
+    overview: `Habasit produce benzi transportoare pentru industria alimentară, farmaceutică și logistică. Habasit dezvoltă soluții de transport modular și curele plate de proces destinate condițiilor extreme - de la temperaturi criogenice până la 150°C, de la medii umede până la aplicații cu contact alimentar direct.
 
-Benzile noastre modulare din plastic rezistă la impact, abraziune și chimicale agresive. Le găsești pe liniile de îmbuteliere, în sortoarele aeroporturilor, pe liniile de ambalare automatizate. Oferim peste 2000 de tipuri de benzi - de la micro-benzi de 25mm lățime pentru transport componente electronice până la benzi late de 2000mm pentru paleți. Fiecare bandă e proiectată cu grijă: structură modulară pentru reparații rapide, suprafețe anti-aderente, profile speciale pentru înclinări mari.
+Benzile modulare din plastic din gama Habasit rezistă la impact, abraziune și chimicale agresive. Le găsești pe liniile de îmbuteliere, în sortoarele aeroporturilor, pe liniile de ambalare automatizate. Gama acoperă tipuri variate de benzi - de la micro-benzi de 25mm lățime pentru transport componente electronice până la benzi late de 2000mm pentru paleți. Fiecare bandă e proiectată cu grijă: structură modulară pentru reparații rapide, suprafețe anti-aderente, profile speciale pentru înclinări mari.
 
-La fiecare proiect căutăm eficiența maximă - benzi care rulează 24/7 fără probleme, consum energetic minim, întreținere simplă. Avem benzi certificate FDA pentru industria alimentară, benzi antistatice pentru electronică, benzi cu profil ridicat pentru transportul în pantă. Sistem complet: benzi, lanțuri de acționare, ghidaje laterale, componente de transfer.`,
+Habasit urmărește eficiență ridicată în fiecare aplicație - benzi gândite pentru funcționare continuă, consum energetic redus, întreținere simplă. Gama include benzi certificate FDA pentru industria alimentară, benzi antistatice pentru electronică, benzi cu profil ridicat pentru transportul în pantă, plus componente complementare - lanțuri de acționare, ghidaje laterale, componente de transfer.`,
     whyChoose: [
       'Benzi modulare durabile - structură din plastic de înaltă rezistență, reparații pe loc fără oprire completă linie',
       'Gamă completă aplicații - de la micro-transport electronice (benzi 25mm) până la paleți heavy-duty (benzi 2000mm)',
-      'Rezistență chimică superioară - benzi din acetal, polipropilen, poliester rezistă la uleiuri, acizi, baze concentrate',
+      'Rezistență chimică ridicată - benzi din acetal, polipropilen, poliester rezistă la uleiuri, acizi, baze concentrate',
       'Certificate contact alimentar - benzi FDA/EU conforme pentru procesare carne, lactate, băuturi, panificație',
-      'Eficiență energetică - fricțiune redusă cu 40% față de benzi PVC, economii substanțiale la linii lungi',
+      'Eficiență energetică - fricțiune redusă față de benzile PVC, conform producătorului, cu efect asupra consumului la linii lungi',
       'Suport tehnic complet - calculăm dimensiuni, selectăm materiale, optimizăm traseul pentru fiecare aplicație'
     ],
     keyProducts: [
       {
         name: 'Benzi Modulare HabasitLINK',
-        description: 'Sistemul modular iconic care a revoluționat transportul industrial. Structură din module din plastic unite cu tije metalice sau clips - montaj rapid, înlocuire zone deteriorate fără demontare completă. Suprafețe: netede pentru ambalare, structurate pentru grip, perforate pentru drenaj sau răcire forțată. Materiale: acetal pentru rezistență mecanică, polipropilen pentru chimicale, poliester pentru temperaturi ridicate. Lățimi de la 50mm la 2000mm, rezistență tracțiune până 50 kN. Aplicații: linii de îmbuteliere (25.000 sticle/oră), sortare colete aeroporturi, transport paleți pe platforme logistice.'
+        description: 'Sistem modular de transport folosit pe scară largă în industrie. Structură din module din plastic unite cu tije metalice sau clips - montaj rapid, înlocuire zone deteriorate fără demontare completă. Suprafețe: netede pentru ambalare, structurate pentru grip, perforate pentru drenaj sau răcire forțată. Materiale: acetal pentru rezistență mecanică, polipropilen pentru chimicale, poliester pentru temperaturi ridicate. Lățimi de la 50mm la 2000mm, rezistență tracțiune până 50 kN. Aplicații: linii de îmbuteliere (25.000 sticle/oră), sortare colete aeroporturi, transport paleți pe platforme logistice.'
       },
       {
         name: 'Curele Plate HabaSYNC',
-        description: 'Curele de proces pentru transmisie pozitivă - dinți trapezoidali sincronizați pentru aplicații cu precizie de poziționare. Elimină alunecarea completă, garantează sincronizare perfectă pe axe multiple. Utilizate pe mese de tăiere CNC, sisteme de print & apply, echipamente de ambalare flowpack. Structură: nucleu poliuretan armat cu corzi Kevlar sau oțel, suprafață netedă sau texturată. Grosimi de la 2mm la 15mm, lățimi până 3000mm. Rezistă la uleiuri de tăiere, agenți de curățare. Precizie repetat sub 0.1mm pe lungimi de 10 metri.'
+        description: 'Curele de proces pentru transmisie pozitivă - dinți trapezoidali sincronizați pentru aplicații cu precizie de poziționare. Elimină alunecarea, pentru sincronizare precisă pe axe multiple. Utilizate pe mese de tăiere CNC, sisteme de print & apply, echipamente de ambalare flowpack. Structură: nucleu poliuretan armat cu corzi Kevlar sau oțel, suprafață netedă sau texturată. Grosimi de la 2mm la 15mm, lățimi până 3000mm. Rezistă la uleiuri de tăiere, agenți de curățare. Precizie repetat sub 0.1mm pe lungimi de 10 metri.'
       },
       {
         name: 'Benzi Alimentare HabaFLOW',
@@ -43,7 +43,7 @@ La fiecare proiect căutăm eficiența maximă - benzi care rulează 24/7 fără
     ],
     industries: [
       'Industria alimentară - procesare carne, lactate, panificație, băuturi, confecții',
-      'Logistică și distributie - sortare colete, transport paleți, cross-docking',
+      'Logistică și distribuție - sortare colete, transport paleți, cross-docking',
       'Industria farmaceutică - transport blistere, sticluțe, cutii ambalaj primar',
       'Industria auto - transport componente pe linii asamblare, transfer paleți',
       'Aeroporturi - sortare bagaje, transport troleuri, sisteme handling cargo',
@@ -189,11 +189,11 @@ La fiecare proiect căutăm eficiența maximă - benzi care rulează 24/7 fără
     founded: 1955,
     headquarters: 'Blieskastel, Germania',
     employees: '11500+',
-    overview: `Hager înseamnă soluții electrice inteligente pentru instalații rezidențiale, comerciale și industriale. Dezvoltăm tablouri de distribuție modulare, întrerupătoare automate, contactoare, aparataj modular, sisteme de management energetic și infrastructură pentru stații de încărcare vehicule electrice. Tot ce ai nevoie pentru o instalație electrică modernă, sigură și eficientă energetic.
+    overview: `Hager înseamnă soluții electrice inteligente pentru instalații rezidențiale, comerciale și industriale. Hager dezvoltă tablouri de distribuție modulare, întrerupătoare automate, contactoare, aparataj modular, sisteme de management energetic și infrastructură pentru stații de încărcare vehicule electrice. Tot ce ai nevoie pentru o instalație electrică modernă, sigură și eficientă energetic.
 
-Tablourile noastre modulare simplifică dramatic instalarea și întreținerea. Sistem complet coordonat: tablouri din oțel sau plastic ignifug, șine DIN standardizate, aparataj modular cu lățimi de 1 modul (18mm) până la 4 module, etichete integrate pentru identificare rapidă. Toate componentele sunt testate împreună - compatibilitate verificată, performanță predictibilă. Oferim de la tablouri mici 4 module pentru apartamente până la distribuții complexe 144 module pentru clădiri comerciale.
+Tablourile modulare Hager simplifică instalarea și întreținerea. Sistem complet coordonat: tablouri din oțel sau plastic ignifug, șine DIN standardizate, aparataj modular cu lățimi de 1 modul (18mm) până la 4 module, etichete integrate pentru identificare rapidă. Toate componentele sunt testate împreună - compatibilitate verificată, performanță predictibilă. Gama acoperă de la tablouri mici 4 module pentru apartamente până la distribuții complexe 144 module pentru clădiri comerciale.
 
-Filosofia noastră e simplitate și fiabilitate. Întreruptoarele automate au indicatori vizuali clare de stare, declanșare termică și magnetică precisă, capacitate de rupere ridicată. Sistemele de monitorizare energetică te ajută să înțelegi consumul real - contoare digitale cu interfață Modbus, afișaje locale, integrare în sisteme BMS. Investim masiv în calitate - toate produsele trec teste de durabilitate (10.000+ operații mecanice), teste de mediu (temperaturi extreme, umiditate, vibrații), teste de siguranță (arc electric, sarcini inductive).`,
+Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au indicatori vizuali clari de stare, declanșare termică și magnetică precisă, capacitate de rupere ridicată. Sistemele de monitorizare energetică ajută la înțelegerea consumului real - contoare digitale cu interfață Modbus, afișaje locale, integrare în sisteme BMS. Hager investește constant în calitate - produsele trec teste de durabilitate (10.000+ operații mecanice), teste de mediu (temperaturi extreme, umiditate, vibrații), teste de siguranță (arc electric, sarcini inductive).`,
     whyChoose: [
       'Tablouri modulare versatile - sisteme cu șine DIN pentru montaj rapid, configurații de la 4 la 144 module',
       'Aparataj certificat CEI/IEC - întreruptoare automate curbe B/C/D, disjunctoare diferențiale 30-300mA, contactoare 25-63A',
@@ -205,10 +205,10 @@ Filosofia noastră e simplitate și fiabilitate. Întreruptoarele automate au in
     keyProducts: [
       {
         name: 'Întreruptoare Automate Modulare (MCB)',
-        description: 'Protecții electrice miniaturizate pentru circuite monofazate și trifazate. Curbe de declanșare: B (6-10 x In) pentru circuite rezistive, C (10-14 x In) pentru uz general, D (20-30 x In) pentru motoare și transformatoare. Curenți nominali de la 6A la 63A, capacitate de rupere 6kA sau 10kA conform EN 60898. Declanșare termică prin bimetal calibrat pentru suprasarcini prelungite, declanșare magnetică instantanee pentru scurtcircuite. Indicator vizual poziție contacte, blocare în poziție OFF pentru lockout/tagout. Modularizare 1 pol = 1 modul (18mm), montaj rapid pe șină DIN 35mm. Durabilitate 10.000 operații mecanice, 20 ani durată de viață.'
+        description: 'Protecții electrice miniaturizate pentru circuite monofazate și trifazate. Curbe de declanșare: B (6-10 x In) pentru circuite rezistive, C (10-14 x In) pentru uz general, D (20-30 x In) pentru motoare și transformatoare. Curenți nominali de la 6A la 63A, capacitate de rupere 6kA sau 10kA conform EN 60898. Declanșare termică prin bimetal calibrat pentru suprasarcini prelungite, declanșare magnetică instantanee pentru scurtcircuite. Indicator vizual poziție contacte, blocare în poziție OFF pentru lockout/tagout. Modularizare 1 pol = 1 modul (18mm), montaj rapid pe șină DIN 35mm. Durabilitate 10.000 operații mecanice, conform standardului EN 60898.'
       },
       {
-        name: 'Tablouri Distributie Universale',
+        name: 'Tablouri Distribuție Universale',
         description: 'Carcase din oțel zincat sau ABS ignifug pentru montaj aparataj modular. Gama completă: tablouri încastrate (flush-mount) pentru apartamente, tablouri aparente (surface-mount) pentru spații tehnice, tablouri IP65 pentru exterior sau medii umede. Capacități: 4, 8, 12, 18, 24, 36, 48, 72, 144 module. Design inteligent: ușă transparentă pentru verificare vizuală fără deschidere, etichete inscriptibile pentru circuite, șine de legare la pământ, spații pentru contoare și automatizări. Preamblaj fabrică - cleme principale instalate, șine montate, reducere drastică timp instalare. Certificate fire resistance pentru aplicații critice.'
       },
       {
@@ -350,23 +350,23 @@ Filosofia noastră e simplitate și fiabilitate. Întreruptoarele automate au in
     founded: 1945,
     headquarters: 'Espelkamp, Germania',
     employees: '6000+',
-    overview: `Harting suntem pionieri în tehnologia conectării industriale - de la clasicii conectori Han rectangulari până la soluții avansate de rețea Ethernet și wireless pentru Industrie 4.0. Dezvoltăm conectori robusti pentru condiții extreme, module de interfață pentru automatizare, componente RFID pentru tracking industrial, soluții de rețea pentru fabrici inteligente. Peste 75 de ani experiență în inginerie de precizie.
+    overview: `Harting este unul dintre pionierii tehnologiei conectării industriale - de la clasicii conectori Han rectangulari până la soluții avansate de rețea Ethernet și wireless pentru Industrie 4.0. Harting dezvoltă conectori robuști pentru condiții extreme, module de interfață pentru automatizare, componente RFID pentru tracking industrial, soluții de rețea pentru fabrici inteligente. Peste 75 de ani experiență în inginerie de precizie.
 
-Conectorul Han a devenit standardul industrial mondial. Design modular genial: carcasă metalică sau plastic high-impact, cadru central cu inserte interschimbabile (contacte putere, semnal, date, pneumatice), sistem de blocare rapid sau șuruburi. Asta înseamnă flexibilitate maximă - configurezi conectorul exact cum ai nevoie. Ai nevoie 16 pini putere + 8 contacte semnal + modul Ethernet? Fără probleme. Vrei protecție IP69K pentru spălare high-pressure? Avem. Contact cu argint pentru semnal, contact CuSn pentru putere, inserție fără scule.
+Conectorul Han este un standard larg răspândit în industrie. Design modular: carcasă metalică sau plastic high-impact, cadru central cu inserte interschimbabile (contacte putere, semnal, date, pneumatice), sistem de blocare rapid sau șuruburi. Asta înseamnă flexibilitate ridicată - conectorul se configurează exact cum e nevoie: 16 pini putere + 8 contacte semnal + modul Ethernet, sau protecție IP69K pentru spălare high-pressure. Contact cu argint pentru semnal, contact CuSn pentru putere, inserție fără scule.
 
-Pentru Industrie 4.0 am dezvoltat ecosistemul MICA - Mini Computer pentru aplicații industriale. E un PC compact modular care rulează în temperatura -40°C până +70°C, fără ventilator, cu conectivitate completă (Ethernet, serial, USB, I/O digitale). Îl folosești pentru edge computing - prelucrezi date local, reduci latența, protejezi informații sensibile. Plus gama completă de switch-uri Ethernet industriale, cabluri M12 pentru senzori, conectori PROFINET și EtherCAT pentru rețele deterministe.`,
+Pentru Industrie 4.0, Harting a dezvoltat ecosistemul MICA - Mini Computer pentru aplicații industriale. E un PC compact modular care rulează la temperaturi de -40°C până +70°C, fără ventilator, cu conectivitate completă (Ethernet, serial, USB, I/O digitale), potrivit pentru edge computing - procesare locală a datelor, latență redusă, protecția informațiilor sensibile. Gama completează cu switch-uri Ethernet industriale, cabluri M12 pentru senzori, conectori PROFINET și EtherCAT pentru rețele deterministe.`,
     whyChoose: [
-      'Conectori Han legendari - standard industrial recunoscut, modularitate completă (contact putere+semnal+date în aceeași carcasă)',
+      'Conectori Han recunoscuți ca standard industrial - modularitate completă (contact putere+semnal+date în aceeași carcasă)',
       'Protecție IP extremă - variante IP65, IP67, IP68, IP69K pentru spălare high-pressure și medii submersibile',
       'Ethernet industrial - switch-uri managed Layer 2/3, conectori M12 X-coded pentru 10 Gigabit, cablaje certificate Cat6A',
       'Soluții RFID robuste - cititori UHF și HF pentru tracking paleți, containere, scule în medii industriale',
-      'Calitate militară - teste vibratii conform MIL-STD, cicluri termice -40/+125°C, rezistență șocuri 50G',
+      'Calitate militară - teste vibrații conform MIL-STD, cicluri termice -40/+125°C, rezistență șocuri 50G',
       'Inovație continuă - peste 100 patente active, laborator propriu testare, parteneriate universitare'
     ],
     keyProducts: [
       {
         name: 'Conectori Han Modulari',
-        description: 'Sistemul de conectare industrial cel mai versatil din lume. Carcasă din aluminiu turnat (variante: nichel-plated, inox pentru offshore, plastic high-impact pentru light-duty). Dimensiuni: Han 3A (10 pini, mic și compact), Han 6B (16 pini), Han 10B (24 pini), Han 16B (48 pini), Han 24B (72 pini), Han 64B (144 pini). Inserții modulare: contacte putere 10-200A, contacte semnal AWG22-26, module Ethernet RJ45, module USB, module fibră optică, module pneumatice push-in. Blocare: Han-Quick Lock fără scule (1/4 rotație), sau închidere cu șuruburi pentru vibrații extreme. Protecție IP67 cu garnitură elastomerică, variante IP69K cu sistem dublu-seal. Utilizare: robotică industrială, mașini-unelte, instalații proces, echipamente mobile, energie regenerabilă (eoliene, fotovoltaice).'
+        description: 'Sistem de conectare industrial versatil, cu o gamă largă de variante. Carcasă din aluminiu turnat (variante: nichel-plated, inox pentru offshore, plastic high-impact pentru light-duty). Dimensiuni: Han 3A (10 pini, mic și compact), Han 6B (16 pini), Han 10B (24 pini), Han 16B (48 pini), Han 24B (72 pini), Han 64B (144 pini). Inserții modulare: contacte putere 10-200A, contacte semnal AWG22-26, module Ethernet RJ45, module USB, module fibră optică, module pneumatice push-in. Blocare: Han-Quick Lock fără scule (1/4 rotație), sau închidere cu șuruburi pentru vibrații extreme. Protecție IP67 cu garnitură elastomerică, variante IP69K cu sistem dublu-seal. Utilizare: robotică industrială, mașini-unelte, instalații proces, echipamente mobile, energie regenerabilă (eoliene, fotovoltaice).'
       },
       {
         name: 'Switch-uri Ethernet Industriale',
@@ -374,7 +374,7 @@ Pentru Industrie 4.0 am dezvoltat ecosistemul MICA - Mini Computer pentru aplica
       },
       {
         name: 'Sisteme RFID Industriale',
-        description: 'Tehnologie identificare radio-frecvență pentru tracking și trasabilitate. Cititori UHF (860-960 MHz, range 5-8 metri) pentru paleți, containere, vehicule industriale. Cititori HF (13.56 MHz, range 10-30cm) pentru componente, scule, work-in-process. Tag-uri: pasive (fără baterie, alimentare din câmpul cititorului), active (cu baterie, senzori temperatură/șoc integrati), IP68/IP69K pentru aplicații extreme. Antene: gate antennas pentru detectare trecere (porți logistice), panel antennas pentru zone definite, embedded antennas pentru integrare echipamente. Interfață: Ethernet TCP/IP, RS232/485, I/O digitale pentru integrare PLC. Software SDK pentru aplicații custom - inventory management, tool tracking, anti-counterfeiting. Frecvență citire până 200 tag-uri/secundă.'
+        description: 'Tehnologie identificare radio-frecvență pentru tracking și trasabilitate. Cititori UHF (860-960 MHz, range 5-8 metri) pentru paleți, containere, vehicule industriale. Cititori HF (13.56 MHz, range 10-30cm) pentru componente, scule, work-in-process. Tag-uri: pasive (fără baterie, alimentare din câmpul cititorului), active (cu baterie, senzori temperatură/șoc integrați), IP68/IP69K pentru aplicații extreme. Antene: gate antennas pentru detectare trecere (porți logistice), panel antennas pentru zone definite, embedded antennas pentru integrare echipamente. Interfață: Ethernet TCP/IP, RS232/485, I/O digitale pentru integrare PLC. Software SDK pentru aplicații custom - inventory management, tool tracking, anti-counterfeiting. Frecvență citire până 200 tag-uri/secundă.'
       }
     ],
     certifications: [
@@ -392,7 +392,7 @@ Pentru Industrie 4.0 am dezvoltat ecosistemul MICA - Mini Computer pentru aplica
       'Energie regenerabilă - turbine eoliene, panouri fotovoltaice, sisteme stocare',
       'Transport feroviar - tren, metrou, tramvai, semnalizare și comunicații',
       'Mașini-unelte - centre prelucrare CNC, strunguri, prese, sisteme de tăiere',
-      'Industria auto - linii asamblare, roboti sudură, sisteme test',
+      'Industria auto - linii asamblare, roboți sudură, sisteme test',
       'Marine & offshore - platforme petroliere, nave, sisteme propulsie',
       'Telecomunicații - stații de bază, data centers, echipamente wireless',
       'Broadcast & entertainment - echipamente scenă, iluminat profesional, sisteme audio',
@@ -519,16 +519,16 @@ Pentru Industrie 4.0 am dezvoltat ecosistemul MICA - Mini Computer pentru aplica
     founded: 1978,
     headquarters: 'Hemmingen, Germania',
     employees: '1800+',
-    overview: `Helukabel producem și distribuim cabluri și conductoare industriale pentru toate aplicațiile imaginabile - de la cabluri de comandă flexibile pentru automatizare până la cabluri armate pentru instalații permanente, de la cabluri de date Ethernet industrial până la cabluri rezistente la temperaturi extreme pentru furnale și foundries. O gamă foarte largă de referințe în portofoliul de cabluri industriale.
+    overview: `Helukabel produce și distribuie cabluri și conductoare industriale pentru o gamă largă de aplicații - de la cabluri de comandă flexibile pentru automatizare până la cabluri armate pentru instalații permanente, de la cabluri de date Ethernet industrial până la cabluri rezistente la temperaturi extreme pentru furnale și oțelării. O gamă foarte largă de referințe în portofoliul de cabluri industriale.
 
-Expertiza noastră e în aplicații speciale. Ai nevoie cablu care rezistă la -60°C în Arctic? Avem. Cablu care suportă 180°C continuu lângă cuptor? Avem. Cablu pentru lanț portcablu cu 5 milioane cicluri flexiune? Avem. Cablu submersibil IP68 permanent? Avem. Pentru fiecare condiție extremă am dezvoltat o soluție testată riguros. Toate cablurile trec teste de flexiune (mașini dedicate, milioane cicluri), teste termice (camere climatice -60/+200°C), teste de rezistență chimică (imersie uleiuri, solventi, acizi).
+Expertiza Helukabel e în aplicații speciale - cabluri care rezistă la -60°C în condiții arctice, cabluri care suportă 180°C continuu lângă cuptor, cabluri pentru lanț portcablu cu milioane de cicluri de flexiune, cabluri submersibile IP68 permanent. Pentru fiecare condiție extremă, producătorul dezvoltă o soluție testată riguros. Toate cablurile trec teste de flexiune (mașini dedicate, milioane cicluri), teste termice (camere climatice -60/+200°C), teste de rezistență chimică (imersie uleiuri, solvenți, acizi).
 
-Investim masiv în cercetare - laborator propriu de testare cu echipamente de ultimă generație (spectrometrie materiale, microscop electronic pentru analiza conductori, camere climatice, benzi de testare flexiune). Colaborăm direct cu producători de echipamente industriale pentru dezvoltarea de cabluri custom - specificații exacte pentru aplicația ta, teste de validare, certificare UL/CSA dacă e necesar. Stock imens în Germania - 30.000+ palete, livrare rapidă în toată Europa.`,
+Helukabel investește constant în cercetare - laborator propriu de testare cu echipamente de ultimă generație (spectrometrie materiale, microscop electronic pentru analiza conductorilor, camere climatice, benzi de testare flexiune) și colaborează cu producători de echipamente industriale pentru dezvoltarea de cabluri custom - specificații exacte pentru aplicație, teste de validare, certificare UL/CSA dacă e necesar.`,
     whyChoose: [
-      'Gamă vastă 40.000+ referințe - cabluri pentru orice aplicație, de la senzori până la energie medie tensiune',
+      'Gamă vastă 40.000+ referințe - cabluri pentru o gamă largă de aplicații, de la senzori până la energie medie tensiune',
       'Specialiști aplicații extreme - cabluri pentru temperaturi -60°C/+180°C, medii chimice agresive, abraziune severă',
       'Calitate certificată - toate cablurile testate conform IEC, UL, CSA, VDE, marcaje metrice clare pe izolație',
-      'Flexibilitate lanț portcablu - cabluri certificate >5 milioane cicluri, raze minime de curbură calculate precis',
+      'Flexibilitate lanț portcablu - cabluri certificate pentru un număr ridicat de cicluri de flexiune, raze minime de curbură calculate precis',
       'Stock permanent - disponibilitate imediată pentru lungimi standard, tăiere la metru fără cost adițional',
       'Suport tehnic expert - calculăm secțiuni, verificăm compatibilitate chimică, selectăm izolații pentru temperatura aplicației'
     ],
@@ -539,7 +539,7 @@ Investim masiv în cercetare - laborator propriu de testare cu echipamente de ul
       },
       {
         name: 'Cabluri Lanț Portcablu',
-        description: 'Serie TROMMELFLEX optimizată pentru mișcare continuă în lanțuri portcablu. Design special: conductori ultra-flexibili (clasa 6 conform DIN VDE), izolație TPE rezistent abraziune, filling extruders pentru menținere formă circulară cablu, manta exterioară PUR (poliuretan) cu rezistență excepțională la rupere și abraziune. Testare riguroasă: 5-10 milioane cicluri flexiune în lanțuri test (viteză 3m/s, accelerație 5m/s²), zero defecte. Ray minim de curbură calculat pentru fiecare dimensiune - 5x până la 7.5x diametru exterior cablu. Marcaje metrice imprimate la fiecare metru pentru tracking uzură. Temperatură -25°C până +80°C, variante pentru -40°C. Utilizare: roboți industriali, portale CNC, macarale, sisteme pick & place, AGV-uri.'
+        description: 'Serie TROMMELFLEX optimizată pentru mișcare continuă în lanțuri portcablu. Design special: conductori ultra-flexibili (clasa 6 conform DIN VDE), izolație TPE rezistent abraziune, filling extruders pentru menținere formă circulară cablu, manta exterioară PUR (poliuretan) cu rezistență ridicată la rupere și abraziune. Testare riguroasă în lanțuri test (viteză 3m/s, accelerație 5m/s²), conform producătorului. Ray minim de curbură calculat pentru fiecare dimensiune - 5x până la 7.5x diametru exterior cablu. Marcaje metrice imprimate la fiecare metru pentru tracking uzură. Temperatură -25°C până +80°C, variante pentru -40°C. Utilizare: roboți industriali, portale CNC, macarale, sisteme pick & place, AGV-uri.'
       },
       {
         name: 'Cabluri Date Ethernet Industrial',
@@ -646,14 +646,14 @@ Investim masiv în cercetare - laborator propriu de testare cu echipamente de ul
     founded: 1958,
     headquarters: 'Münster, Germania',
     employees: '3500+',
-    overview: `Hengst înseamnă filtrare industrială de înaltă performanță - protejăm motoare, sisteme hidraulice, compresoare, turbine de la contaminare și uzură prematură. Dezvoltăm filtre de ulei, aer, combustibil, filtre hidraulice, separatoare de apă, sisteme de filtrare pentru aplicații industriale și mobile. Tehnologie avansată de medii filtrante, design optimizat flux, durată de viață extinsă.
+    overview: `Hengst înseamnă filtrare industrială de înaltă performanță - protejează motoare, sisteme hidraulice, compresoare, turbine de contaminare și uzură prematură. Hengst dezvoltă filtre de ulei, aer, combustibil, filtre hidraulice, separatoare de apă, sisteme de filtrare pentru aplicații industriale și mobile. Tehnologie avansată de medii filtrante, design optimizat flux, durată de viață extinsă.
 
-Filosofia noastră e filtrare totală - de la admisia aerului până la returnul uleiului în rezervor. Fiecare punct de contaminare e acoperit. Folosim medii filtrante multi-strat: pre-filtru pentru particule mari, media principală din fibre sintetice sau celuloză tratată, strat exterior de protecție. Rezultat: eficiență ridicată (filtrăm particule până la 3 microni), capacitate de reținere mare (filtrul funcționează mult mai mult înainte de înfundare), rezistență mecanică (suportă presiuni și pulsații fără deteriorare).
+Filosofia Hengst e filtrare totală - de la admisia aerului până la returnul uleiului în rezervor. Fiecare punct de contaminare e acoperit prin medii filtrante multi-strat: pre-filtru pentru particule mari, media principală din fibre sintetice sau celuloză tratată, strat exterior de protecție. Rezultat: eficiență ridicată (filtrare particule până la 3 microni), capacitate de reținere mare (durată extinsă înainte de înfundare), rezistență mecanică (suportă presiuni și pulsații fără deteriorare).
 
-Investim masiv în R&D - laborator de testare cu benzi de simulare condiții reale (temperaturi extreme, vibrații, presiuni variabile), analiza microscopică a mediilor filtrante, teste de rezistență la colmatare. Colaborăm cu producători de echipamente OEM pentru dezvoltarea de filtre optimizate - forme speciale, conexiuni custom, integrare senzori pentru monitorizare stare. Producție certificată ISO, calitate constantă lot de lot.`,
+Hengst investește constant în cercetare - laborator de testare cu benzi de simulare condiții reale (temperaturi extreme, vibrații, presiuni variabile), analiza microscopică a mediilor filtrante, teste de rezistență la colmatare - și dezvoltă filtre optimizate pentru producători de echipamente OEM (forme speciale, conexiuni custom, integrare senzori pentru monitorizare stare). Producție certificată ISO, calitate constantă lot de lot.`,
     whyChoose: [
-      'Eficiență filtrare superioară - media multi-strat captează particule până la 3 microni, protecție completă componente',
-      'Durată viață extinsă - capacitate reținere mare, intervaluri schimb prelungite cu 30-50% față de filtre standard',
+      'Eficiență de filtrare ridicată - media multi-strat captează particule până la 3 microni, protecție completă componente',
+      'Durată viață extinsă - capacitate reținere mare, intervaluri de schimb prelungite față de filtrele standard, conform producătorului',
       'Rezistență mecanică - structură metalică reinforced, suportă presiuni până 25 bar, vibrații extreme',
       'Gamă completă - filtre pentru ulei motor, ulei hidraulic, combustibil diesel, aer comprimat, separatoare apă',
       'Compatibilitate OEM - dimensiuni identice cu filtrele originale, montaj direct fără modificări',
@@ -799,15 +799,15 @@ Investim masiv în R&D - laborator de testare cu benzi de simulare condiții rea
     founded: 1941,
     headquarters: 'Schaan, Liechtenstein',
     employees: '32000+',
-    overview: `Hilti dezvoltăm scule electrice și sisteme de fixare pentru profesioniștii din construcții - de la bormasini și demolatoare până la sisteme de ancoraj chimic și mecanic, de la nivele laser de ultimă generație până la software pentru managementul productivității pe șantier. Peste 80 de ani experiență în condiții extreme de lucru.
+    overview: `Hilti dezvoltă scule electrice și sisteme de fixare pentru profesioniștii din construcții - de la bormasini și demolatoare până la sisteme de ancoraj chimic și mecanic, de la nivele laser de ultimă generație până la software pentru managementul productivității pe șantier. Peste 80 de ani experiență în condiții extreme de lucru.
 
-Filozofia noastră e productivitate totală. Nu vindem doar o bormasină - oferim soluția completă pentru găurirea betonului armat: unealta optimă pentru aplicația ta, burghie cu geometrie studiată pentru viteză maximă și uzură minimă, aspirație integrate pentru mediu curat de lucru, baterii cu autonomie extinsă, service profesional cu înlocuire pe loc dacă ceva nu funcționează. Asta înseamnă Hilti Fleet Management - tu lucrezi, noi ne ocupăm de scule.
+Filozofia Hilti este productivitatea pe șantier: nu doar o bormasină, ci un sistem complet pentru găurirea betonului armat - unealtă potrivită aplicației, burghie cu geometrie studiată pentru viteză ridicată și uzură redusă, aspirație integrată pentru mediu curat de lucru, baterii cu autonomie extinsă, service profesional cu înlocuire pe loc dacă ceva nu funcționează. Asta înseamnă Hilti Fleet Management - tu lucrezi, Hilti se ocupă de scule.
 
-Investim enorm în inovație. Centrul nostru de cercetare din Liechtenstein testează în condiții extreme - camere climatice -30°C/+60°C, benzi de vibrații pentru simulare mii de ore utilizare, teste de cădere de la înălțimi regulate. Toate produsele sunt supradimensionate pentru siguranță - dacă specificăm 1000 găuri în beton, unealta face 3000. Service rapid, piese originale disponibile ani de zile după discontinuare model.`,
+Hilti investește constant în inovație. Centrul de cercetare din Liechtenstein testează în condiții extreme - camere climatice -30°C/+60°C, benzi de vibrații pentru simularea a mii de ore de utilizare, teste de cădere de la înălțimi regulate. Produsele sunt supradimensionate pentru siguranță față de specificațiile nominale. Service rapid, piese originale disponibile ani de zile după discontinuarea unui model.`,
     whyChoose: [
-      'Durabilitate legendară - scule construite pentru șantier dur, nu pentru DIY, 2-3x durată viață față de alternative',
-      'Productivitate superioară - viteze de găurire cu 30-50% mai rapide, autonomie baterii extinsă, ergonomie studiată',
-      'Sisteme integrate - scule + accesorii + aspirație + depozitare + management, productivitate maximă',
+      'Durabilitate ridicată - scule construite pentru șantier dur, nu pentru DIY, durată de viață extinsă față de alternative, conform producătorului',
+      'Productivitate ridicată - viteze de găurire mai rapide, conform producătorului, autonomie baterii extinsă, ergonomie studiată',
+      'Sisteme integrate - scule + accesorii + aspirație + depozitare + management, pentru productivitate ridicată',
       'Service profesional - reparații rapide, înlocuire pe loc dacă peste 48h, piese originale',
       'Fleet Management - chirie full-service scule, tu folosești, noi menținem, upgrade automat tehnologie nouă',
       'Siguranță certificată - toate sistemele de ancoraj testate pentru sarcini seismice, aprobare ETA europeană'
@@ -819,7 +819,7 @@ Investim enorm în inovație. Centrul nostru de cercetare din Liechtenstein test
       },
       {
         name: 'Ancore Chimice HIT-HY 200-A',
-        description: 'Sistem de ancoraj chimic cu rășină hibrid poliuretanică bicomponentă pentru beton, zidărie, beton celular. Rezistență excepțională în beton fisurat și nefisurat, performanță seismică certificată conform ETAG 001 Annex E. Cartuș static mixer 330ml sau 500ml, aplicare cu pistol manual sau electric. Procedură: 1) găurire ⌀ burghiu cu 2-4mm mai mare decât ⌀ tijă. 2) curățare gaură cu perie+suflare (obligatoriu pentru performanță). 3) injectare rășină până la umplere 2/3 gaură. 4) inserție tijă filetată M8-M24 sau tijă smooth pentru bare armare. Timp de lucru (pot life) 4 minute la +20°C, timp întărire completă 45 minute. Sarcină rupere până 50 kN pentru M16 în beton C20/25. Aplicații: fixări structurale seismice, balustrade, scări metalice, fațade ventilate, echipamente HVAC grele, consoles pentru conductori.'
+        description: 'Sistem de ancoraj chimic cu rășină hibrid poliuretanică bicomponentă pentru beton, zidărie, beton celular. Rezistență ridicată în beton fisurat și nefisurat, performanță seismică certificată conform ETAG 001 Annex E. Cartuș static mixer 330ml sau 500ml, aplicare cu pistol manual sau electric. Procedură: 1) găurire ⌀ burghiu cu 2-4mm mai mare decât ⌀ tijă. 2) curățare gaură cu perie+suflare (obligatoriu pentru performanță). 3) injectare rășină până la umplere 2/3 gaură. 4) inserție tijă filetată M8-M24 sau tijă smooth pentru bare armare. Timp de lucru (pot life) 4 minute la +20°C, timp întărire completă 45 minute. Sarcină rupere până 50 kN pentru M16 în beton C20/25. Aplicații: fixări structurale seismice, balustrade, scări metalice, fațade ventilate, echipamente HVAC grele, consoles pentru conductori.'
       },
       {
         name: 'Nivela Laser Rotativă PR 30-HVS',
@@ -959,11 +959,11 @@ Investim enorm în inovație. Centrul nostru de cercetare din Liechtenstein test
     founded: 1885,
     headquarters: 'Charlotte, North Carolina, SUA',
     employees: '2500+ (divizia Analytics)',
-    overview: `Honeywell Analytics dezvoltăm sisteme de detectare a gazelor pentru protecția vieții și mediului - de la detectoare fixe monocanal până la sisteme centralizate cu sute de puncte de măsură, de la detectoare portabile personale până la analizoare pentru medii explozive. Salvăm vieți prin tehnologie de vârf și inginerie de precizie.
+    overview: `Honeywell Analytics dezvoltă sisteme de detectare a gazelor pentru protecția vieții și mediului - de la detectoare fixe monocanal până la sisteme centralizate cu sute de puncte de măsură, de la detectoare portabile personale până la analizoare pentru medii explozive. Tehnologie de vârf și inginerie de precizie pentru protecția vieții.
 
-Portofoliul nostru acoperă toate tipurile de gaze periculoase: combustibile (metan, propan, hidrogen - risc exploziv), toxice (H2S, CO, Cl2, NH3 - risc sănătate), asfixiante (CO2, N2 - risc sufocate), refrigeranți (ammonia, freon - risc toxic/ambiental). Pentru fiecare gaz avem senzori specializați - catalitici pentru combustibile, electro-chimici pentru toxice, infraroșu pentru CO2 și hidrocarburi, semiconductori pentru compuși organici volatili.
+Portofoliul acoperă toate tipurile de gaze periculoase: combustibile (metan, propan, hidrogen - risc exploziv), toxice (H2S, CO, Cl2, NH3 - risc sănătate), asfixiante (CO2, N2 - risc sufocare), refrigeranți (amoniac, freon - risc toxic/ambiental). Pentru fiecare gaz există senzori specializați - catalitici pentru combustibile, electro-chimici pentru toxice, infraroșu pentru CO2 și hidrocarburi, semiconductori pentru compuși organici volatili.
 
-Investim masiv în cercetare - laborator de calibrare cu gaze certificate, camere de testare pentru condiții extreme (temperaturi -40°C/+70°C, umiditate 0-100% RH, presiuni variate), simulări de scenarii reale (leak-uri, ventifare diferită). Toate detectoarele sunt certificate SIL (Safety Integrity Level) pentru aplicații critice de siguranță. Service global - calibrare periodică, înlocuire senzori, validare funcționalitate conform normelor internaționale.`,
+Honeywell Analytics investește constant în cercetare - laborator de calibrare cu gaze certificate, camere de testare pentru condiții extreme (temperaturi -40°C/+70°C, umiditate 0-100% RH, presiuni variate), simulări de scenarii reale (scurgeri, ventilație diferită). Toate detectoarele sunt certificate SIL (Safety Integrity Level) pentru aplicații critice de siguranță. Service global - calibrare periodică, înlocuire senzori, validare funcționalitate conform normelor internaționale.`,
     whyChoose: [
       'Tehnologie senzori avansată - catalitici poison-resistant, electro-chimici long-life (3-5 ani), IR dual-wavelength',
       'Certificate SIL 2/3 - detectoare pentru aplicații safety-critical conform IEC 61508, validare TÜV',
@@ -998,13 +998,13 @@ Investim masiv în cercetare - laborator de calibrare cu gaze certificate, camer
     ],
     industries: [
       'Oil & gas - platforme offshore, rafinării, conducte, depozite',
-      'Petrochimie - crackers etilena, polimerizare, producție solventi',
+      'Petrochimie - crackers etilenă, polimerizare, producție solvenți',
       'Chimie - producție amoniac, clor-alcali, acizi, baze',
       'Energie - centrale pe gaz, cogenerare, turbine',
       'Wastewater - stații epurare, digester biogas, spații confinate',
       'Metalurgie - furnale, foundries, tratamente termice în atmosferă controlată',
       'Semiconductor - fabricare cipuri, utilizare gaze speciale (SiH4, AsH3)',
-      'Farmaceutice - sinteze chimice, fermentare, solventi organici',
+      'Farmaceutice - sinteze chimice, fermentare, solvenți organici',
       'Food & beverage - fermentare CO2, refrigerare NH3, spații confinate',
       'Marine - transport gaz lichefiat (LNG/LPG), spații cargo, engine rooms'
     ],
@@ -1087,18 +1087,18 @@ Investim masiv în cercetare - laborator de calibrare cu gaze certificate, camer
     founded: 1885,
     headquarters: 'Charlotte, North Carolina, SUA',
     employees: '8000+ (divizia Safety)',
-    overview: `Honeywell Safety dezvoltăm echipamente de protecție individuală pentru toate tipurile de riscuri industriale - de la mănuși rezistente la tăiere și perforare până la ochelari de protecție și măști respiratorii, de la harnașamente anti-cădere până la încălțăminte de siguranță. Peste un secol experiență în protecția vieții la locul de muncă.
+    overview: `Honeywell Safety dezvoltă echipamente de protecție individuală pentru toate tipurile de riscuri industriale - de la mănuși rezistente la tăiere și perforare până la ochelari de protecție și măști respiratorii, de la harnașamente anti-cădere până la încălțăminte de siguranță. Peste un secol de experiență în protecția vieții la locul de muncă.
 
-Linia noastră de mănuși acoperă toate nivelurile de protecție: rezistență tăiere (niveluri A1-A9 conform EN 388), rezistență la căldură (până 500°C contact), rezistență chimică (nitril, neopren, viton pentru diverse substanțe), protecție antivibratorie conform ISO 10819. Materialele proprietare Spectra și Kevlar oferă protecție maximă cu dexteritate superioară - mănuși subțiri care protejează ca armura dar permit manipulare preciză.
+Gama de mănuși acoperă toate nivelurile de protecție: rezistență tăiere (niveluri A1-A9 conform EN 388), rezistență la căldură (până 500°C contact), rezistență chimică (nitril, neopren, viton pentru diverse substanțe), protecție antivibratorie conform ISO 10819. Materialele Spectra și Kevlar oferă protecție ridicată cu dexteritate bună - mănuși subțiri care permit manipulare precisă.
 
-Pentru protecție respiratorie oferim gama completă: măști filtrante FFP1/FFP2/FFP3 pentru praf și aerosoli, semimaști cu filtre înlocuibile pentru vapori organici/amoniac/gaze acide, aparate cu aer comprimat pentru spații confinate sau IDLH (Immediately Dangerous to Life or Health). Toate certificate conform standardelor europene EN și americane NIOSH. Testare riguroasă - laboratoare proprii pentru simulare condiții extreme, validare protecție reală nu doar teoretică.`,
+Pentru protecție respiratorie, gama include măști filtrante FFP1/FFP2/FFP3 pentru praf și aerosoli, semimăști cu filtre înlocuibile pentru vapori organici/amoniac/gaze acide, aparate cu aer comprimat pentru spații confinate sau IDLH (Immediately Dangerous to Life or Health). Toate certificate conform standardelor europene EN și americane NIOSH, testate riguros pentru validarea protecției reale.`,
     whyChoose: [
       'Protecție certificată - toate EPI-urile testate conform EN standards, marcaje clare nivel protecție',
       'Materiale avansate - Spectra UHMWPE (ultra-high molecular weight polyethylene), Kevlar, Nomex pentru rezistență extremă',
-      'Confort superior - design ergonomic, materiale respirante, greutăți reduse pentru utilizare prelungită',
+      'Confort ridicat - design ergonomic, materiale respirante, greutăți reduse pentru utilizare prelungită',
       'Gamă completă - protecție cap până picioare (head-to-toe), soluții coordonate pentru fiecare industrie',
-      'Durabilitate - EPI-uri rezistente la uzură, spălări multiple (mănuși reutilizabile), raport cost/utilizare excelent',
-      'Consultanță risk assessment - analizăm riscurile locului tău de muncă, recomandam EPI-uri potrivite conform legislație'
+      'Durabilitate - EPI-uri rezistente la uzură, spălări multiple (mănuși reutilizabile), raport cost/utilizare avantajos',
+      'Consultanță risk assessment - analizăm riscurile locului tău de muncă, recomandăm EPI-uri potrivite conform legislație'
     ],
     keyProducts: [
       {
@@ -1111,7 +1111,7 @@ Pentru protecție respiratorie oferim gama completă: măști filtrante FFP1/FFP
       },
       {
         name: 'Harnașament Anti-Cădere Miller Titan',
-        description: 'Sistem protecție cădere la lucru în înălțime conform EN 361. Harnașament full-body din webbing poliester lățime 44mm, rezistență rupere >22 kN. Catarame cu ajustare rapidă pe piept, coapse, talie pentru fit perfect. Punct de ataș dorsal (D-ring oțel forjat rezistent 22 kN) pentru conectare la lanyard sau sistem opritor cădere.Indicatori de cădere - dacă harnașamentul a suferit un impact trebuie scos din uz (webbing alungit vizibil). Greutate 1.8 kg. Utilizare cu: lanyard-uri cu absorbant energie (limitează forța impact la <6 kN), dispozitive reglare cablu (retractable lifelines), sisteme de poziționare (work restraint). Aplicații: construcții (lucrări acoperiș, schele, arbori), eoliene (suiș turn, mentenanță nacela), telecom (antene, turnuri), utilități (stâlpi electricitate), spații confinate (coborâre/ridicare).'
+        description: 'Sistem protecție cădere la lucru în înălțime conform EN 361. Harnașament full-body din webbing poliester lățime 44mm, rezistență rupere >22 kN. Catarame cu ajustare rapidă pe piept, coapse, talie pentru o ajustare precisă. Punct de ataș dorsal (D-ring oțel forjat rezistent 22 kN) pentru conectare la lanyard sau sistem opritor cădere.Indicatori de cădere - dacă harnașamentul a suferit un impact trebuie scos din uz (webbing alungit vizibil). Greutate 1.8 kg. Utilizare cu: lanyard-uri cu absorbant energie (limitează forța impact la <6 kN), dispozitive reglare cablu (retractable lifelines), sisteme de poziționare (work restraint). Aplicații: construcții (lucrări acoperiș, schele, arbori), eoliene (suiș turn, mentenanță nacela), telecom (antene, turnuri), utilități (stâlpi electricitate), spații confinate (coborâre/ridicare).'
       }
     ],
     certifications: [
@@ -1231,15 +1231,15 @@ Pentru protecție respiratorie oferim gama completă: măști filtrante FFP1/FFP
     founded: 1963,
     headquarters: 'Sulzbach/Saar, Germania',
     employees: '10000+',
-    overview: `Hydac suntem specialiști în hidraulică și electronică fluidică - de la acumulatoare hidraulice și răcitoare de ulei până la filtre, senzori de presiune și sisteme de monitorizare condiție. Dezvoltăm soluții complete pentru sistemele hidraulice industriale și mobile, de la componente individuale până la subsisteme integrate cu automatizare completă.
+    overview: `Hydac este specialist în hidraulică și electronică fluidică - de la acumulatoare hidraulice și răcitoare de ulei până la filtre, senzori de presiune și sisteme de monitorizare condiție. Dezvoltă soluții complete pentru sistemele hidraulice industriale și mobile, de la componente individuale până la subsisteme integrate cu automatizare completă.
 
-Acumulatorul hidraulic Hydac a devenit standardul industrial pentru stocarea energiei în sisteme hidraulice. Tehnologia producătorului cu membrană sau piston permite stocarea și eliberarea rapidă a uleiului sub presiune - utilizat pentru absorbție șocuri, compensare pulsații pompe, energie de urgență la cădere alimentare. Oferim acumulatoare de la 0.1 litri (aplicații mobile compacte) până la 200 litri (prese heavy-duty), presiuni până 500 bar, pre-încărcare azot precisă pentru fiecare aplicație.
+Acumulatorul hidraulic Hydac este un standard larg folosit pentru stocarea energiei în sisteme hidraulice. Tehnologia producătorului cu membrană sau piston permite stocarea și eliberarea rapidă a uleiului sub presiune - utilizat pentru absorbție șocuri, compensare pulsații pompe, energie de urgență la cădere alimentare. Gama include acumulatoare de la 0.1 litri (aplicații mobile compacte) până la 200 litri (prese heavy-duty), presiuni până 500 bar, pre-încărcare azot precisă pentru fiecare aplicație.
 
-Investim masiv în senzori inteligenți și IoT industrial. Senzorii noștri de presiune, temperatură, nivel, flow comunică direct cu PLC-uri sau sisteme cloud pentru monitorizare predictivă. Detectăm degradarea uleiului înainte să afecteze componentele, măsurăm vibrații pompe pentru diagnostic lagăre, monitorizăm presiuni cilindri pentru optimizare proces. Economii masive - reduci downtime-ul cu 40-60% prin mentenanță predictivă în loc de preventivă.`,
+Hydac investește constant în senzori inteligenți și IoT industrial. Senzorii de presiune, temperatură, nivel și debit din gamă comunică direct cu PLC-uri sau sisteme cloud pentru monitorizare predictivă - detectarea degradării uleiului înainte să afecteze componentele, măsurarea vibrațiilor pompelor pentru diagnostic lagăre, monitorizarea presiunilor cilindrilor pentru optimizare proces, cu reducere de downtime prin mentenanță predictivă în loc de preventivă.`,
     whyChoose: [
-      'Expertiză hidraulică completă - proiectăm sisteme integrate (pompă+răcire+filtrare+acumulare+control)',
+      'Expertiză hidraulică completă - Hydac proiectează sisteme integrate (pompă+răcire+filtrare+acumulare+control)',
       'Acumulatoare premium - membrane elastomere high-grade, pre-încărcare azot precisă, valve siguranță integrate',
-      'Răcitoare eficiente - heat exchangers optimizate CFD, disipare căldură cu 30% superioară la dimensiune identică',
+      'Răcitoare eficiente - heat exchangers optimizate CFD, disipare de căldură ridicată la dimensiune identică, conform producătorului',
       'Senzori inteligenți - măsurare presiune 0-1000 bar (±0.3% FS), ATEX/SIL certified, comunicații IO-Link/CANopen',
       'Monitorizare online - sisteme CMU (Condition Monitoring Unit) cu alarme predictive, cloud connectivity',
       'Service global - analiza ulei în laborator propriu, training tehnic, suport commissioning'
@@ -1368,17 +1368,17 @@ Investim masiv în senzori inteligenți și IoT industrial. Senzorii noștri de 
     founded: 1976,
     headquarters: 'Sulzbach/Saar, Germania',
     employees: '1200+ (divizia Filtration)',
-    overview: `Hydac Filtration suntem divizia specializată în filtrarea fluidelor industriale - uleiuri hidraulice, uleiuri de ungere, combustibili, lichide de răcire, emulsii. Dezvoltăm filtre, sisteme de filtrare offline, unități de condiționare a uleiului care elimină particule solide, apă și aerul dizolvat. Misiunea noastră e să prelungim viața sistemelor hidraulice și a componentelor prin menținerea curățeniei uleiului la niveluri ISO 4406 ultra-clean.
+    overview: `Hydac Filtration este divizia specializată în filtrarea fluidelor industriale - uleiuri hidraulice, uleiuri de ungere, combustibili, lichide de răcire, emulsii. Dezvoltă filtre, sisteme de filtrare offline, unități de condiționare a uleiului care elimină particule solide, apă și aerul dizolvat. Misiunea companiei e să prelungească viața sistemelor hidraulice și a componentelor prin menținerea curățeniei uleiului la niveluri ISO 4406 ultra-clean.
 
-Filosofia noastră e filtrare totală - nu doar un filtru pe linia de presiune, ci filtrare strategică în toate punctele critice: presiune (protejează actuatori și valve), retur (protejează pompă și rezervor), aerisire (elimină contaminare prin respirație rezervor), offline (curățare continuă ulei la standstill). Folosim medii filtrante din fibre de sticlă tratate cu rășină fenolică - eficiență ridicată (filtrăm particule până la 3 microni), capacitate de reținere mare (filtrul funcționează mai mult), rezistență mecanică la presiuni și temperaturi extreme.
+Filosofia Hydac Filtration e filtrare totală - nu doar un filtru pe linia de presiune, ci filtrare strategică în toate punctele critice: presiune (protejează actuatori și valve), retur (protejează pompă și rezervor), aerisire (elimină contaminare prin respirație rezervor), offline (curățare continuă ulei la standstill). Mediile filtrante din fibre de sticlă tratate cu rășină fenolică oferă eficiență ridicată (filtrare particule până la 3 microni), capacitate de reținere mare, rezistență mecanică la presiuni și temperaturi extreme.
 
-Inovăm constant - sisteme de monitorizare inteligentă a stării filtrelor (senzori diferențial de presiune cu alarme), filtre cu indicator vizual pentru schimb preventiv, tehnologie de separare apă (coalescer + vacuum dehydration pentru uleiuri ultra-uscate <50ppm apă). Investim în cercetare - laborator de analiză particule (particle counting conform ISO 4406/NAS 1638), teste de compatibilitate materiale, optimizare design pentru minimizare presiune diferențială.`,
+Producătorul inovează constant - sisteme de monitorizare inteligentă a stării filtrelor (senzori diferențial de presiune cu alarme), filtre cu indicator vizual pentru schimb preventiv, tehnologie de separare apă (coalescer + vacuum dehydration pentru uleiuri ultra-uscate <50ppm apă) - și investește în cercetare: laborator de analiză particule (particle counting conform ISO 4406/NAS 1638), teste de compatibilitate materiale, optimizare design pentru minimizare presiune diferențială.`,
     whyChoose: [
-      'Eficiență filtrare superioară - media fibră sticlă captează 99.5% particule >3μ (Beta ratio >200)',
-      'Durată viață extinsă - capacitate reținere 15-25g/element, intervaluri schimb dublate față de filtre celulozice',
+      'Eficiență de filtrare ridicată - media fibră sticlă captează 99.5% particule >3μ (Beta ratio >200)',
+      'Durată viață extinsă - capacitate reținere 15-25g/element, intervale de schimb mai lungi față de filtrele celulozice, conform producătorului',
       'Sistem complet filtrare - filtre presiune/retur/aerisire + offline units + separatoare apă + monitorizare',
       'Compatibilitate fluidică - certificate pentru uleiuri minerale, sintetice (ester, PAO), HFC/HFD, biodegradabile',
-      'Protecție componentă - menținere cod curățenie ISO 16/14/11 prelungește viața pompe/valve cu 5-10x',
+      'Protecție componentă - menținerea codului de curățenie ISO 16/14/11 poate prelungi viața pompelor/valvelor, conform producătorului',
       'Suport tehnic - analiza ulei în laborator Hydac, recomandări filtrare pentru fiecare aplicație'
     ],
     keyProducts: [

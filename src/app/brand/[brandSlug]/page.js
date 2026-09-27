@@ -44,7 +44,29 @@ export async function generateMetadata({ params }) {
   const tail = ' Furnizor SEAP, livrare 24–72 h din stoc.';
   const room = 158 - lead.length - tail.length - 2;
   const rawDesc = String(brand.description || '').replace(/\.$/, '');
-  const cut = rawDesc.length <= room ? rawDesc : rawDesc.slice(0, room).replace(/[\s,;:–-]+\S*$/, '');
+  // v20: when the brand description is too long, cut it at a natural phrase
+  // boundary (comma, dash or before "pentru/folosit/cu/din/și/în…"), never
+  // leaving a dangling "folosite în automatizarea." fragment; if no boundary
+  // keeps at least 40% of the room, drop the description instead.
+  const cutAtPhrase = (text, max) => {
+    const head = text.slice(0, max + 1);
+    const re = /(?:[,;:–—(]| - | (?=(?:pentru|folosit[eăi]?|utilizat[eăi]?|destinat[eăi]?|cu|din|de la|prin|și|sau|în|la|care|precum|inclusiv|dedicat[eăi]?) ))/g;
+    let best = -1;
+    for (const m of head.matchAll(re)) if (m.index <= max) best = m.index;
+    if (best < Math.floor(max * 0.4)) return '';
+    let out = text.slice(0, best).replace(/[\s,;:–—-]+$/, '');
+    // Drop dangling participles/function words left at the end ("… folosite").
+    const DANGLING = /\s+(?:folosit[eăi]?|utilizat[eăi]?|destinat[eăi]?|dedicat[eăi]?|pentru|cu|din|de|la|în|și|sau|prin|care|precum|inclusiv)$/i;
+    while (DANGLING.test(out)) out = out.replace(DANGLING, '');
+    return out;
+  };
+  let cut = rawDesc.length <= room ? rawDesc : cutAtPhrase(rawDesc, room);
+  // Lower-case a common-noun opener after the colon ("…: tehnologie de…"),
+  // but keep brand names and acronyms ("…: Bimba produce…", "…: PLC-uri…").
+  const firstWord = cut.split(/\s+/)[0] || '';
+  if (/^[A-ZĂÂÎȘȚ][a-zăâîșț]+$/.test(firstWord) && !brand.name.startsWith(firstWord)) {
+    cut = cut.charAt(0).toLowerCase() + cut.slice(1);
+  }
   let description = cut ? `${lead}: ${cut}.${tail}` : `${lead}.${tail}`;
   if (description.length < 110) description += ' Ofertă pe cod de produs, la comandă sau din stoc.';
 

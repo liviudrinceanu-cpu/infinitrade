@@ -5,9 +5,9 @@ export const brandContentBatch5 = {
     employees: '93,000+',
     overview: `Când vine vorba de protecția muncii, 3M e numele pe care îl știe oricine din industrie. Echipamentele de protecție 3M au un raport calitate-preț apreciat de utilizatori. Măștile FFP2 și FFP3 de la ei sunt standard în fabricile cu expunere la praf și particule - seria 9300+ e o mască pliabilă frecvent utilizată în România. Materialele nu fac compromisuri: filtrele folosesc tehnologia de microfibră electrostatică care captează particule de până la 0.3 microni, mult peste standardele EN149.
 
-Din experiența noastră, ochelarii de protecție SecureFit și Virtua sunt preferați de sudori și mecanici pentru că au acoperire antiabur și rezistență la zgârieturi clasa 1. Se întâlnesc ochelari 3M SecureFit SF400 care au trecut prin 5 ani de atelier fără să-și piardă claritatea lentilelor. Căștile antibătaie seria Peltor X sunt obligatorii în industria grea - modelul X5A atinge 37dB SNR (Single Number Rating), ceea ce înseamnă protecție maximă în medii cu peste 110dB cum sunt fabricile de tablă sau aeroporturile.
+Ochelarii de protecție SecureFit și Virtua sunt preferați de sudori și mecanici pentru că au acoperire antiabur și rezistență la zgârieturi clasa 1. Căștile antibătaie seria Peltor X sunt obligatorii în industria grea - modelul X5A atinge 37dB SNR (Single Number Rating), ceea ce înseamnă protecție maximă în medii cu peste 110dB cum sunt fabricile de tablă sau aeroporturile.
 
-Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la șantiere. Dopurile EAR Classic au forma conică perfectă care se adaptează la orice canal auditiv și oferă 28dB atenuare. Pentru medii ATEX avem seria Peltor ProTac cu comunicare Bluetooth dar protecție intrinsec safe. Feedbackul primit constant de la clienți industriali confirmă durabilitatea echipamentelor 3M Safety în condiții grele de lucru.`,
+Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la șantiere. Dopurile EAR Classic au formă conică ce se adaptează la majoritatea canalelor auditive și oferă 28dB atenuare. Pentru medii ATEX, seria Peltor ProTac oferă comunicare Bluetooth cu protecție intrinsec safe.`,
     whyChoose: [
       'Tehnologie de filtrare electrostatică cu eficiență >99.5% pentru particule sub 1 micron (FFP2/FFP3)',
       'Certificări EN166, EN149, EN352, EN397 pentru toate categoriile de protecție (ochi, respirație, auz, cap)',
@@ -67,43 +67,43 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
     productCodes: [
       {
         "code": "8577",
-        "description": "Masca de protectie respiratorie P95 cu carbon activ"
+        "description": "Mască de protecție respiratorie P95 cu carbon activ"
       },
       {
         "code": "8210",
-        "description": "Masca de protectie respiratorie N95, uz general"
+        "description": "Mască de protecție respiratorie N95, uz general"
       },
       {
         "code": "9210+",
-        "description": "Masca de protectie respiratorie N95, seria Aura"
+        "description": "Mască de protecție respiratorie N95, seria Aura"
       },
       {
         "code": "1860",
-        "description": "Masca de protectie respiratorie N95 pentru mediul medical"
+        "description": "Mască de protecție respiratorie N95 pentru mediul medical"
       },
       {
         "code": "9105",
-        "description": "Masca de protectie respiratorie N95, pliabila, seria VFlex"
+        "description": "Mască de protecție respiratorie N95, pliabilă, seria VFlex"
       },
       {
         "code": "1804",
-        "description": "Masca de protectie respiratorie N95 medicala, pliabila"
+        "description": "Mască de protecție respiratorie N95 medicală, pliabilă"
       },
       {
         "code": "1870+",
-        "description": "Masca de protectie respiratorie N95, Aura pentru medical"
+        "description": "Mască de protecție respiratorie N95, Aura pentru medical"
       },
       {
         "code": "9205+",
-        "description": "Masca de protectie respiratorie N95, Aura uz general"
+        "description": "Mască de protecție respiratorie N95, Aura uz general"
       },
       {
         "code": "8200",
-        "description": "Masca de protectie respiratorie pentru particule fine"
+        "description": "Mască de protecție respiratorie pentru particule fine"
       },
       {
         "code": "8515",
-        "description": "Masca de protectie respiratorie pentru lucrari de sudura"
+        "description": "Mască de protecție respiratorie pentru lucrări de sudură"
       },
       {
         "code": "03201",
@@ -111,7 +111,7 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
       },
       {
         "code": "8511",
-        "description": "Masca de protectie respiratorie cu valva de exhalare"
+        "description": "Mască de protecție respiratorie cu valva de exhalare"
       }
     ],
     faq: [
@@ -120,8 +120,8 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
         "a": "Mastile 3M din seria Aura, precum 9210+ sau 1870+, au trei panouri care se așează pe față și reduc spațiul mort din interior, oferind un confort mai bun la purtare îndelungată. Mastile clasice, precum 8210, sunt cupe rigide, potrivite pentru medii industriale unde forma stabilă contează mai mult decât pliabilitatea pentru transport."
       },
       {
-        "q": "Ce masca 3M este potrivita pentru lucrari de sudura?",
-        "a": "Pentru sudura, modelul 8515 este gândit special, cu un strat suplimentar pentru particulele generate de procesul de sudare și o valvă de exhalare care reduce acumularea de căldură sub masca. Alegerea finală depinde și de tipul de metal sudat și de ventilatia spatiului de lucru."
+        "q": "Ce masca 3M este potrivită pentru lucrări de sudură?",
+        "a": "Pentru sudura, modelul 8515 este gândit special, cu un strat suplimentar pentru particulele generate de procesul de sudare și o valvă de exhalare care reduce acumularea de căldură sub masca. Alegerea finală depinde și de tipul de metal sudat și de ventilația spațiului de lucru."
       },
       {
         "q": "Livrează 3M echipamente de protecție respiratorie în România?",
@@ -129,7 +129,7 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de măști de protecție 3M?",
-        "a": "Precizati nivelul de protecție necesar (N95 sau P95), tipul de particule sau vapori de la locul de munca, dacă este nevoie de valvă de exhalare pentru confort termic și numărul estimat de bucati pe luna. Cu aceste date recomandăm modelul 3M potrivit din gamă disponibilă."
+        "a": "Precizați nivelul de protecție necesar (N95 sau P95), tipul de particule sau vapori de la locul de muncă, dacă este nevoie de valvă de exhalare pentru confort termic și numărul estimat de bucăți pe lună. Cu aceste date recomandăm modelul 3M potrivit din gamă disponibilă."
       }
     ],
     evidenceClass: 'transactional',
@@ -143,11 +143,11 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
     founded: 1988,
     headquarters: 'Zürich, Elveția',
     employees: '105,000+',
-    overview: `ABB Electrification e gigantul pe care se bazează toată industria când vine vorba de tablouri electrice și automatizări. Se montează sute de tablouri ABB System pro E power în fabrici din România și pot spune că fiabilitatea lor e legendară - se întâlnesc instalații din 2010 care funcționează perfect fără nicio intervenție. Întrerupătoarele automate Tmax XT reprezintă standardul pentru protecție în mediu industrial: seria XT1-XT7 acoperă curenți de la 1A până la 1600A cu putere de rupere până la 150kA. Ce ne impresionează e că au trip unit electronic cu comunicare Modbus RTU - poți monitoriza consumul pe fiecare ramură direct din SCADA.
+    overview: `ABB Electrification este un furnizor major de tablouri electrice și automatizări, pe care se bazează o mare parte a industriei. Se montează sute de tablouri ABB System pro E power în fabrici din România, unde fiabilitatea lor este apreciată de utilizatori. Întrerupătoarele automate Tmax XT sunt utilizate frecvent pentru protecție în mediu industrial: seria XT1-XT7 acoperă curenți de la 1A până la 1600A cu putere de rupere până la 150kA. Au trip unit electronic cu comunicare Modbus RTU - poți monitoriza consumul pe fiecare ramură direct din SCADA.
 
 Contactoarele ABB seria AF sunt cunoscute pentru robustețe - modelul AF265 suportă 6 milioane cicluri la AC-3 (pornire motoare), conform producătorului. Se folosesc frecvent în linii de producție automotive care lucrează 24/7, unde durata lor de exploatare este apreciată. Bobinele au o gamă largă de tensiuni (24-500VAC/DC) și sunt compatibile cu module electronice pentru soft-start și economizor de energie. Relele termice E90 au compensare automată pentru temperatura ambientală și reglare fină 0.63-100A.
 
-Tablourile System pro E power modular permit configurații nelimitate - se pot realiza tablouri de mare capacitate (4000A și peste, cu multiple secțiuni) pentru aplicații precum fabrici de ciment, folosind bare CuAl. Certificare IEC 61439-1&2, grad de protecție IP54 standard, upgrade la IP65 cu kit etanșare. ABB e singura companie care oferă selector digital de tablouri online - introduci parametrii (curent, secțiuni, aparataj) și generează automat schema unifilară și lista de materiale. Rata redusă de defectare raportată de utilizatorii industriali confirmă fiabilitatea pe termen lung a acestor tablouri.`,
+Tablourile System pro E power modular permit configurații flexibile - se pot realiza tablouri de mare capacitate (4000A și peste, cu multiple secțiuni) pentru aplicații precum fabrici de ciment, folosind bare CuAl. Certificare IEC 61439-1&2, grad de protecție IP54 standard, upgrade la IP65 cu kit etanșare. ABB oferă un selector digital de tablouri online - introduci parametrii (curent, secțiuni, aparataj) și generează automat schema unifilară și lista de materiale.`,
     whyChoose: [
       'Putere de rupere maximă: întrerupătoare Tmax XT până la 150kA la 690V, clase de selectivitate S1-S3',
       'Trip unit electronic Ekip cu comunicare Modbus RTU, Profibus DP, Ethernet/IP pentru integrare SCADA',
@@ -281,14 +281,14 @@ Tablourile System pro E power modular permit configurații nelimitate - se pot r
     founded: 1988,
     headquarters: 'Zürich, Elveția',
     employees: '105,000+',
-    overview: `ABB Measurement & Analytics este un furnizor consacrat de instrumentație de proces - debitimetre, analizoare, recordere, senzori. Sistemele ABB se folosesc frecvent în industrie chimică, petrol-gaz, utilități apă, unde precizia lor este considerată de referință. Debitmetre electromagnetice ProcessMaster FEP300 sunt standardul pentru măsurare apă uzată și chimicale: precizie ±0.2% din citire, repetabilitate ±0.05%, fără piese mobile care să se uzeze. Se întâlnesc debitimetre FEP instalate în 2008 care funcționează perfect după 15 ani în medii agresive (pH 1-13, temperaturi -20°C până +180°C).
+    overview: `ABB Measurement & Analytics este un furnizor consacrat de instrumentație de proces - debitimetre, analizoare, recordere, senzori. Sistemele ABB se folosesc frecvent în industrie chimică, petrol-gaz, utilități apă, unde precizia lor este considerată de referință. Debitmetre electromagnetice ProcessMaster FEP300 sunt utilizate frecvent pentru măsurare apă uzată și chimicale: precizie ±0.2% din citire, repetabilitate ±0.05%, fără piese mobile care să se uzeze.
 
-Analizoarele de gaz seria Advance Optima sunt referința în monitorizare emisii industriale - modelul AO2020 pentru O2, CO, CO2, NO, NO2, SO2 cu tehnologie NDIR (infraroșu non-dispersiv) și celule electrochimice. AO2020 se folosește frecvent pe coșuri de fum la fabrici de ciment și termice, unde concentrațiile variază de la 0-25% O2 la 0-5000ppm NOx. Precizia e impresionantă: ±1% din gamă completă pentru NDIR, drift < 1%/lună. Certificare TUV conform EN15267 (QAL1) pentru sisteme de monitorizare continuă emisii (CEMS).
+Analizoarele de gaz seria Advance Optima sunt folosite frecvent în monitorizarea emisiilor industriale - modelul AO2020 pentru O2, CO, CO2, NO, NO2, SO2 cu tehnologie NDIR (infraroșu non-dispersiv) și celule electrochimice. AO2020 se folosește frecvent pe coșuri de fum la fabrici de ciment și termice, unde concentrațiile variază de la 0-25% O2 la 0-5000ppm NOx. Precizia este de ±1% din gamă completă pentru NDIR, drift < 1%/lună. Certificare TUV conform EN15267 (QAL1) pentru sisteme de monitorizare continuă emisii (CEMS).
 
-Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârtie clasice oferind 16-32 canale intrare (4-20mA, termocuple, RTD, contact digital) cu înregistrare continuă pe card SD și comunicare Ethernet. Din experiența noastră, un C200 poate înlocui 4 recordere cu hârtie, economisind costuri consumabile și oferind audit trail conform FDA 21 CFR Part 11 pentru industria pharma. ABB oferă calibrare acreditată ISO/IEC 17025 direct din fabrică pentru majoritatea instrumentelor - certificatul de calibrare vine în pachet.`,
+Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârtie clasice oferind 16-32 canale intrare (4-20mA, termocuple, RTD, contact digital) cu înregistrare continuă pe card SD și comunicare Ethernet. Un C200 poate înlocui mai multe recordere cu hârtie, reducând costurile cu consumabilele și oferind audit trail conform FDA 21 CFR Part 11 pentru industria pharma. ABB oferă calibrare acreditată ISO/IEC 17025 direct din fabrică pentru majoritatea instrumentelor - certificatul de calibrare vine în pachet.`,
     whyChoose: [
       'Precizie de laborator: debitmetre electromagnetice ±0.2%, analizoare gaz ±1% full scale, transmițătoare presiune ±0.04%',
-      'Repetabilitate excepțională: ±0.05% pentru debitmetre, drift < 1%/lună pentru analizoare gaz',
+      'Repetabilitate ridicată: ±0.05% pentru debitmetre, drift < 1%/lună pentru analizoare gaz',
       'Certificare QAL1 conform EN15267 pentru analizoare emisii (obligatoriu pentru CEMS în UE)',
       'Comunicare: HART, Profibus PA/DP, Foundation Fieldbus, Modbus RTU/TCP, EtherNet/IP nativ pe toate instrumentele',
       'Diagnostic avansat: transmițătoare cu autodiagnostic conform NAMUR NE107, alerte predictive întreținere',
@@ -352,7 +352,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       },
       {
         "code": "FMT400",
-        "description": "Debitmetru masic termic, versiune de proces avansata"
+        "description": "Debitmetru masic termic, versiune de proces avansată"
       },
       {
         "code": "FEW400",
@@ -376,7 +376,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       },
       {
         "code": "FSV4x0",
-        "description": "Debitmetru vortex, versiune extinsa pentru procese"
+        "description": "Debitmetru vortex, versiune extinsă pentru procese"
       },
       {
         "code": "ACF5000 LCS",
@@ -410,7 +410,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de analizor de gaze ABB?",
-        "a": "Trimiteti componentii de gaz pe care doriti să îi măsurați, domeniul de concentrație așteptat, temperatură și presiunea gazului la punctul de prelevare și tipul de ieșire de semnal necesar. Cu aceste informații recomandăm variantă potrivită, de exemplu ACF5000 LCS pentru emisii sau GCP100 pentru analiza de proces."
+        "a": "Trimiteți componenții de gaz pe care doriți să îi măsurați, domeniul de concentrație așteptat, temperatură și presiunea gazului la punctul de prelevare și tipul de ieșire de semnal necesar. Cu aceste informații recomandăm variantă potrivită, de exemplu ACF5000 LCS pentru emisii sau GCP100 pentru analiza de proces."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -424,14 +424,14 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
     founded: 1988,
     headquarters: 'Ningbo, China',
     employees: '7,000+',
-    overview: `Airtac e gigantul taiwanez în componente pneumatice - raportul calitate-preț e imbatabil. Cilindrii și valvele Airtac se folosesc frecvent pe linii de producție din România, iar durabilitatea lor la un preț mai accesibil decât brandurile europene este apreciată de utilizatori. Cilindrii seria SC (standard) și SI (ISO) sunt printre cele mai vândute la nivel mondial - peste 50 milioane de bucăți produse anual, conform producătorului. Un cilindru Airtac SC63x100 (63mm diametru, 100mm cursă) este cotat pentru 10 milioane cicluri în condiții industriale normale, comparabil cu un Festo sau SMC, la un preț mai redus.
+    overview: `Airtac este un producător taiwanez de componente pneumatice, cu un raport calitate-preț apreciat de utilizatori. Cilindrii și valvele Airtac se folosesc frecvent pe linii de producție din România, iar durabilitatea lor la un preț mai accesibil decât brandurile europene este apreciată de utilizatori. Cilindrii seria SC (standard) și SI (ISO) se numără printre cele mai vândute la nivel mondial - peste 50 milioane de bucăți produse anual, conform producătorului. Un cilindru Airtac SC63x100 (63mm diametru, 100mm cursă) este cotat pentru 10 milioane cicluri în condiții industriale normale, comparabil cu un Festo sau SMC, la un preț mai redus.
 
-Valvele seria 4V (solenoid) acoperă 2-5 căi, debite până la 4500 l/min la 7 bar, bobine AC sau DC. Se întâlnesc valve 4V210-08 (1/4", 5/2 căi) care lucrează 24/7 de 8 ani în linii ambalare fără nicio defecțiune. Ce ne impresionează e că Airtac oferă certificare ISO conform DIN/ISO standards pentru toate produsele - un cilindru Airtac SI63 e 100% compatibil dimensional cu ISO 15552, poți înlocui direct un Festo DSNU sau SMC C95 fără modificări mecanice. Conexiunile rapide seria KQ (push-in) sunt identice cu SMC KQ2 dar la preț cu 40% mai mic.
+Valvele seria 4V (solenoid) acoperă 2-5 căi, debite până la 4500 l/min la 7 bar, bobine AC sau DC. Airtac oferă certificare ISO conform DIN/ISO standards pentru toate produsele - un cilindru Airtac SI63 e compatibil dimensional cu ISO 15552, poți înlocui direct un Festo DSNU sau SMC C95 fără modificări mecanice. Conexiunile rapide seria KQ (push-in) sunt identice cu SMC KQ2, disponibile la un preț mai redus.
 
-Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compacti, rotative, ghidate, valve solenoid/manual/pneumatic, FRL (filtre, regulatoare, lubrificatoare), racorduri, furtunuri PU. Am echipat fabrici întregi cu componente Airtac - de la handling palete cu cilindri de 100mm până la microvalve 4V110-06 pentru picking electronice. Certificare: ISO 9001, ISO 14001, CE conform Machinery Directive 2006/42/EC. Rata scăzută de retur raportată de utilizatorii industriali confirmă durabilitatea componentelor Airtac.`,
+Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compacti, rotative, ghidate, valve solenoid/manual/pneumatic, FRL (filtre, regulatoare, lubrificatoare), racorduri, furtunuri PU, folosite de la handling palete cu cilindri de 100mm până la microvalve 4V110-06 pentru picking electronice. Certificare: ISO 9001, ISO 14001, CE conform Machinery Directive 2006/42/EC.`,
     whyChoose: [
       'Compatibilitate ISO 15552 (cilindri), ISO 5599-1 (valve) - înlocuire directă Festo/SMC/Norgren',
-      'Preț cu 40-60% mai mic față de branduri europene la specificații tehnice identice',
+      'Preț semnificativ mai mic față de branduri europene la specificații tehnice identice',
       'Gamă completă: cilindri, valve, FRL, racorduri, actuatoare — acoperire largă a nevoilor de automatizare pneumatică',
       'Durată de viață comparabilă: cilindri 10 milioane cicluri, valve 50 milioane cicluri',
       'Certificare CE conform Machinery Directive 2006/42/EC, RoHS, REACH',
@@ -487,7 +487,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
     productCodes: [
       {
         "code": "4STA",
-        "description": "Valva pneumatica 3/2 cai, actionare manuala sau mecanica"
+        "description": "Valvă pneumatică 3/2 căi, acționare manuală sau mecanică"
       },
       {
         "code": "4SA",
@@ -495,7 +495,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       },
       {
         "code": "4STV",
-        "description": "Electrovalva pneumatica 3/2 cai"
+        "description": "Electrovalvă pneumatică 3/2 căi"
       },
       {
         "code": "4SV",
@@ -541,7 +541,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       },
       {
         "q": "Ce rol are o unitate de tratare aer Airtac, de exemplu seria GA?",
-        "a": "O unitate de tratare aer, precum seria GA sau GP de la Airtac, combină de obicei filtrul, regulatorul de presiune și lubrificatorul într-un singur ansamblu montat inaintea componentelor pneumatice. Rolul ei este să curete aerul comprimat de impuritati și umiditate și să mentina o presiune constantă de lucru."
+        "a": "O unitate de tratare aer, precum seria GA sau GP de la Airtac, combină de obicei filtrul, regulatorul de presiune și lubrificatorul într-un singur ansamblu montat înaintea componentelor pneumatice. Rolul ei este să curețe aerul comprimat de impurități și umiditate și să mențină o presiune constantă de lucru."
       },
       {
         "q": "Livrează Airtac componente pneumatice în România?",
@@ -549,7 +549,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de ghidaje liniare Airtac?",
-        "a": "Trimiteti lățimea șinei sau a caruciorului, lungimea cursei necesare, sarcina aplicată și dacă aveți nevoie de o variantă autolubrifianta precum seria LSH sau de una miniaturală precum seria LRW. Cu aceste date identificăm ghidajul Airtac potrivit pentru aplicația dumneavoastră."
+        "a": "Trimiteți lățimea șinei sau a căruciorului, lungimea cursei necesare, sarcina aplicată și dacă aveți nevoie de o variantă autolubrifiantă precum seria LSH sau de una miniaturală precum seria LRW. Cu aceste date identificăm ghidajul Airtac potrivit pentru aplicația dumneavoastră."
       }
     ],
     evidenceClass: 'transactional',
@@ -563,11 +563,11 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
     founded: 1930,
     headquarters: 'Waldenbuch, Germania',
     employees: '200+',
-    overview: `Anderson-Negele este un furnizor specializat de senzori igienici pentru industria alimentară, băuturi, pharma. Sistemele Anderson-Negele se folosesc frecvent în fabrici de lactate, bere, pharma din România, iar producătorul oferă certificări 3-A Sanitary, EHEDG, FDA pentru gama de produse. Senzorii de conductivitate seria condumax CLS21 sunt standardul pentru monitorizare CIP (Cleaning-In-Place) - detectează interfața dintre apă de clătire și detergent cu precizie 99.9%, economisind consumabile și timp. Se întâlnesc sisteme condumax care funcționează perfect după 10 ani în fabrici de bere cu 8 cicluri CIP pe zi.
+    overview: `Anderson-Negele este un furnizor specializat de senzori igienici pentru industria alimentară, băuturi, pharma. Sistemele Anderson-Negele se folosesc frecvent în fabrici de lactate, bere, pharma din România, iar producătorul oferă certificări 3-A Sanitary, EHEDG, FDA pentru gama de produse. Senzorii de conductivitate seria condumax CLS21 sunt utilizați frecvent pentru monitorizare CIP (Cleaning-In-Place) - detectează interfața dintre apă de clătire și detergent cu precizie 99.9%, economisind consumabile și timp.
 
-Senzorii de turbiditate seria turbimax CUS51 detectează particule de la 0.001 NTU (Nephelometric Turbidity Units) până la 4000 NTU - ideali pentru monitorizare filtrare bere, verificare curățenie linie după CIP, control calitate lapte. Din experiența noastră, un senzor turbimax detectează instantaneu tranziția apă clară → detergent → acid → apă clară în CIP, eliminând testele manuale cu pH-metru. Tehnologia scatter light cu compensare temperatură și auto-calibrare face senzorii extrem de stabili - drift < 1% pe 6 luni.
+Senzorii de turbiditate seria turbimax CUS51 detectează particule de la 0.001 NTU (Nephelometric Turbidity Units) până la 4000 NTU - ideali pentru monitorizare filtrare bere, verificare curățenie linie după CIP, control calitate lapte. Un senzor turbimax detectează instantaneu tranziția apă clară → detergent → acid → apă clară în CIP, eliminând testele manuale cu pH-metru. Tehnologia scatter light cu compensare temperatură și auto-calibrare face senzorii stabili - drift < 1% pe 6 luni.
 
-Echipamentele de sterilizare și igienizare Anderson-Negele sunt unice: ITM-4 (Inline Test Monitoring) testează automat eficiența sterilizării cu abur pe liniile aseptice pharma. Sistemul ISO-Connect oferă conexiuni igienice tip SMS, DIN 11851, Tri-Clamp cu garnituri EPDM/FPM/PTFE pentru orice mediu (acid, alcalin, solvenți). Certificare completă: 3-A Sanitary Standards, EHEDG (European Hygienic Engineering & Design Group), FDA 21 CFR Part 177 (contact alimente), USP Class VI (pharma). Absența reclamațiilor de contaminare raportate de utilizatori confirmă rigoarea design-ului igienic al acestor senzori.`,
+Gama de sterilizare și igienizare Anderson-Negele include soluții specializate: ITM-4 (Inline Test Monitoring) testează automat eficiența sterilizării cu abur pe liniile aseptice pharma. Sistemul ISO-Connect oferă conexiuni igienice tip SMS, DIN 11851, Tri-Clamp cu garnituri EPDM/FPM/PTFE pentru orice mediu (acid, alcalin, solvenți). Certificare completă: 3-A Sanitary Standards, EHEDG (European Hygienic Engineering & Design Group), FDA 21 CFR Part 177 (contact alimente), USP Class VI (pharma).`,
     whyChoose: [
       'Certificări sanitare complete: 3-A, EHEDG, FDA 21 CFR 177, USP Class VI pentru contact alimentar și pharma',
       'Precizie maximă: conductivitate ±0.5% (CIP monitoring), turbiditate 0.001-4000 NTU, nivel ±2mm',
@@ -723,13 +723,13 @@ Echipamentele de sterilizare și igienizare Anderson-Negele sunt unice: ITM-4 (I
     founded: 1900,
     headquarters: 'Three Rivers, Michigan, SUA',
     employees: '1,500+',
-    overview: `Armstrong este un producător nord-american specializat în sisteme HVAC industriale - pompe de condensat, oale de condens, separatoare vapor/lichid, filtre. Sistemele Armstrong se folosesc frecvent în fabrici, spitale, clădiri comerciale din România, unde fiabilitatea lor este bine cunoscută. Pompele de condensat seria Pumptrap sunt unice: combină oala de condens cu pompa electrică într-o singură unitate compactă, eliminând necesitatea pompei separate și reducând costul instalației cu 30-40%. Un Pumptrap PT-450 (450 litri/h) poate funcționa 15+ ani în sisteme de încălzire fără service, conform documentației producătorului.
+    overview: `Armstrong este un producător nord-american specializat în sisteme HVAC industriale - pompe de condensat, oale de condens, separatoare vapor/lichid, filtre. Sistemele Armstrong se folosesc frecvent în fabrici, spitale, clădiri comerciale din România, unde fiabilitatea lor este bine cunoscută. Pompele de condensat seria Pumptrap combină oala de condens cu pompa electrică într-o singură unitate compactă, eliminând necesitatea pompei separate și reducând costul instalației. Un Pumptrap PT-450 (450 litri/h) poate funcționa 15+ ani în sisteme de încălzire fără service, conform documentației producătorului.
 
-Oalele de condens mecanice seria IB (Inverted Bucket) sunt cele mai robuste din lume - modelul IB880 suportă presiuni diferențiale de până la 40 bar și temperaturi până la 370°C. Ce ne impresionează e că Armstrong oferă garanție 10 ani pentru oalele IB - singura companie care face asta. Se întâlnesc oale IB882 instalate în 1995 pe linii de abur 16 bar care funcționează perfect fără nicio piesă schimbată. Designul inverted bucket e mecanic simplu: fără electronice, fără reglaje fine, doar un plutitor și o valvă - fiabilitate maximă.
+Oalele de condens mecanice seria IB (Inverted Bucket) sunt construite pentru medii solicitante - modelul IB880 suportă presiuni diferențiale de până la 40 bar și temperaturi până la 370°C. Armstrong oferă garanție 10 ani pentru oalele IB. Designul inverted bucket e mecanic simplu: fără electronice, fără reglaje fine, doar un plutitor și o valvă - fiabilitate ridicată.
 
-Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din condensul antrenat în abur prin forță centrifugală - esențiale pentru protecția turbinelor cu abur și echipamentelor sensibile. Separatoarele CB450 (DN450) se folosesc frecvent pe conducte abur supraîncălzit 40 bar, unde condensul antrenat poate distruge paletele turbinei - montarea CB450 elimină această problemă. Certificare: ASME Section VIII Div.1 pentru vase sub presiune, PED 2014/68/EU categorie II-IV. Numărul redus de defecțiuni raportate de utilizatori confirmă robustețea mecanică a acestor produse.`,
+Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din condensul antrenat în abur prin forță centrifugală - esențiale pentru protecția turbinelor cu abur și echipamentelor sensibile. Separatoarele CB450 (DN450) se folosesc frecvent pe conducte abur supraîncălzit 40 bar, unde condensul antrenat poate distruge paletele turbinei - montarea CB450 elimină această problemă. Certificare: ASME Section VIII Div.1 pentru vase sub presiune, PED 2014/68/EU categorie II-IV.`,
     whyChoose: [
-      'Garanție 10 ani pentru oalele de condens mecanice seria IB (singura companie din lume cu garanție atât de lungă)',
+      'Garanție 10 ani pentru oalele de condens mecanice seria IB',
       'Eficiență energetică: oale tip termodinamic TD52L consumă zero energie (acționate de ΔP vapor), economii 15-30%/an',
       'Design simplu mecanic: oale IB fără componente electronice, durată viață 20-30 ani fără piese de schimb',
       'Pompe Pumptrap integrate: combină oala + pompa electrică, reduce costul instalație cu 30-40%',
@@ -790,7 +790,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "code": "SH-1600",
-        "description": "Oala de condens bimetalica din seria superheat"
+        "description": "Oala de condens bimetalică din seria superheat"
       },
       {
         "code": "CD-3300",
@@ -826,11 +826,11 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "code": "AIM",
-        "description": "Monitor acustic wireless pentru retele de abur"
+        "description": "Monitor acustic wireless pentru rețele de abur"
       },
       {
         "code": "Accelabar",
-        "description": "Element de masurare debit cu presiune diferentiala integrata"
+        "description": "Element de măsurare debit cu presiune diferențială integrată"
       },
       {
         "code": "Verabar",
@@ -846,24 +846,24 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "code": "OB-2000",
-        "description": "Regulator de temperatura cu diafragma pentru schimbatoare de caldura"
+        "description": "Regulator de temperatură cu diafragmă pentru schimbătoare de căldură"
       },
       {
         "code": "TVS 800",
-        "description": "Statie de valve pentru grupuri de oale de condens"
+        "description": "Stație de valve pentru grupuri de oale de condens"
       },
       {
         "code": "The Brain",
-        "description": "Centru digital de amestec pentru apa calda sanitara"
+        "description": "Centru digital de amestec pentru apă caldă sanitară"
       }
     ],
     faq: [
       {
-        "q": "Cum aleg oala de condens Armstrong potrivita pentru linia mea de abur?",
-        "a": "Alegerea corectă începe de la presiunea de lucru, debitul de condens și tipul aplicației: seriile cu cupolă inversată rezistă bine la contrapresiune, cele cu disc controlat sunt compacte și ușoare, iar cele cu plutitor și termostat gestionează sarcini variabile fără pierderi de abur viu. Trimiteti presiunea amonte-aval, debitul estimat și diametrul conductei pentru a identifica seria și dimensiunea corecte."
+        "q": "Cum aleg oala de condens Armstrong potrivită pentru linia mea de abur?",
+        "a": "Alegerea corectă începe de la presiunea de lucru, debitul de condens și tipul aplicației: seriile cu cupolă inversată rezistă bine la contrapresiune, cele cu disc controlat sunt compacte și ușoare, iar cele cu plutitor și termostat gestionează sarcini variabile fără pierderi de abur viu. Trimiteți presiunea amonte-aval, debitul estimat și diametrul conductei pentru a identifica seria și dimensiunea corecte."
       },
       {
-        "q": "Ce documente trimit pentru o oferta pentru echipamente Armstrong?",
+        "q": "Ce documente trimit pentru o ofertă pentru echipamente Armstrong?",
         "a": "Pentru o ofertă completă este nevoie de codul sau seria de pe eticheta echipamentului existent, presiunea și temperatura de lucru, debitul de condens sau abur și diametrul racordurilor. Dacă înlocuiți un model montat deja, o fotografie a plăcuței tehnice accelerează identificarea variantei corecte de înlocuire, inclusiv pentru accesorii precum garnituri sau seturi de mențenanta."
       },
       {
@@ -890,7 +890,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
 
 Pompele cu pistoane axiale seria PVPC (Variable Displacement Pump) oferă reglare debit continuă 0-100% cu eficiență volumetrică >95% la presiuni până la 350 bar. Pompele PVPC-C-5073 (70cc/rev) se folosesc frecvent pe unități hidraulice pentru prese de 500 tone - economia energetică față de pompe cu debit fix este semnificativă: pompa PVPC consumă doar puterea necesară sarcinii reale, nu debitul maxim permanent. La o presă care lucrează 30% din timp la presiune maximă, economiile pot ajunge la 50-60% energie electrică, conform producătorului.
 
-Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă control în buclă închisă poziție/viteză/forță cu frecvență update 5kHz și precizie ±0.01mm. Controllerele E-ME-AC se folosesc frecvent pe mașini de test materiale unde este nevoie de forță controlată 0-100kN cu rampă liniară - precizia este comparabilă cu servo-motoare electrice, la o fracțiune din cost. Certificare: ISO 9001, ISO 14001, directiva PED pentru componente presiune. Numărul redus de defecțiuni raportate de utilizatori confirmă nivelul ridicat de calitate al fabricației italiene.`,
+Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă control în buclă închisă poziție/viteză/forță cu frecvență update 5kHz și precizie ±0.01mm. Controllerele E-ME-AC se folosesc frecvent pe mașini de test materiale unde este nevoie de forță controlată 0-100kN cu rampă liniară - precizia este comparabilă cu servo-motoare electrice, la o fracțiune din cost. Certificare: ISO 9001, ISO 14001, directiva PED pentru componente presiune.`,
     whyChoose: [
       'Răspuns dinamic ultra-rapid: valve proporționale <10ms, histerezis <0.5%, linearitate ±1% full scale',
       'Precizie de control: ±0.01mm poziție, ±0.1% viteză, ±1% forță cu controllere E-ME în closed loop',
@@ -957,7 +957,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "code": "On-off valves",
-        "description": "Valve hidraulice de tip tot-sau-nimic pentru comutare directa"
+        "description": "Valve hidraulice de tip tot-sau-nimic pentru comutare directă"
       },
       {
         "code": "Cylinders and servocylinders",
@@ -981,7 +981,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "code": "Subplates",
-        "description": "Placi de baza pentru montarea valvelor pe circuit"
+        "description": "Placi de bază pentru montarea valvelor pe circuit"
       },
       {
         "code": "Electronic drivers",
@@ -989,7 +989,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "code": "ISO cartridges",
-        "description": "Cartuse hidraulice cu montaj conform standardelor ISO"
+        "description": "Cartușe hidraulice cu montaj conform standardelor ISO"
       },
       {
         "code": "Directional solenoid valves",
@@ -997,12 +997,12 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "code": "Screw-in cartridge valves",
-        "description": "Valve cartus cu montaj infiletat, până la 1 5/16 țoli"
+        "description": "Valve cartuș cu montaj înfiletat, până la 1 5/16 țoli"
       }
     ],
     faq: [
       {
-        "q": "Ce game de valve hidraulice Atos sunt disponibile pentru control proportional?",
+        "q": "Ce game de valve hidraulice Atos sunt disponibile pentru control proporțional?",
         "a": "Atos produce valve proporționale pentru reglarea fină a presiunii și debitului, alături de controlere electronice dedicate pentru axe și bucle presiune-debit. Gama acoperă de la valve simple, cu comandă directă, până la variante pilotate, pentru aplicații industriale cu cerințe ridicate de precizie. Alegerea corectă depinde de presiunea maximă de lucru, debitul necesar și tipul de semnal de comandă disponibil în instalație."
       },
       {
@@ -1029,13 +1029,13 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
     founded: 2014,
     headquarters: 'Laatzen, Germania',
     employees: '2,000+',
-    overview: `Aventics (acum parte din Emerson) este un producător german specializat în pneumatică industrială de înaltă performanță - cilindri, valve, preparare aer, sisteme de control. Istoricul e impresionant: Aventics e fosta divizie Pneumatics a grupului Bosch Rexroth, cu peste 50 de ani experiență în automatizări. Componentele Aventics se folosesc frecvent pe linii de producție automotive, packaging, handling din România, unde calitatea germană este vizibilă. Cilindrii seria PRA (Pneumatic Rodless Actuator) sunt cei mai compacți cilindri fără tijă de pe piață - un PRA063x1000 (Ø63mm, cursă 1000mm) ocupă doar 1100mm lungime totală față de 1300mm la un cilindru cu tijă clasic + economie 15% spațiu.
+    overview: `Aventics (acum parte din Emerson) este un producător german specializat în pneumatică industrială de înaltă performanță - cilindri, valve, preparare aer, sisteme de control. Istoricul e impresionant: Aventics e fosta divizie Pneumatics a grupului Bosch Rexroth, cu peste 50 de ani experiență în automatizări. Componentele Aventics se folosesc frecvent pe linii de producție automotive, packaging, handling din România, unde calitatea germană este vizibilă. Cilindrii seria PRA (Pneumatic Rodless Actuator) sunt cilindri compacți fără tijă - un PRA063x1000 (Ø63mm, cursă 1000mm) ocupă doar 1100mm lungime totală față de 1300mm la un cilindru cu tijă clasic + economie 15% spațiu.
 
-Valvele seria AV (Aventics Valve) cu tehnologie Hesdu (High Efficiency Spool Design) consumă doar 0.8W per bobină la menținere față de 4-5W la competiție - economie energie 80%. Pe o linie de asamblare care lucrează 24/7, o instalație de 200 de valve AV05 poate genera economii de ordinul a mii de kWh/an, conform producătorului. Bobinele au protecție supratensiune integrată și durată viață >50 milioane cicluri. Conectarea plug-in cu fieldbus IO-Link permite diagnosticare avansată: detectare scurgeri aer, contor cicluri, alerte predictive întreținere.
+Valvele seria AV (Aventics Valve) cu tehnologie Hesdu (High Efficiency Spool Design) consumă doar 0.8W per bobină la menținere. Pe o linie de asamblare care lucrează 24/7, o instalație de 200 de valve AV05 poate genera economii de ordinul a mii de kWh/an, conform producătorului. Bobinele au protecție supratensiune integrată și durată viață >50 milioane cicluri. Conectarea plug-in cu fieldbus IO-Link permite diagnosticare avansată: detectare scurgeri aer, contor cicluri, alerte predictive întreținere.
 
-Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0.01 microni, reglare presiune 0.5-16 bar cu precizie ±0.02 bar, lubrificare micro-fog. Un filtru AS3 cu coalescer 0.01µm elimină, conform producătorului, 99.99% din ulei antrenat în aerul comprimat - esențial pentru aplicații clean (pharmaceutical, electronics, food). Certificare completă: ISO 8573-1 clasa [1:2:1] pentru puritate aer. Rata scăzută de defecte raportată de utilizatori confirmă eficiența energetică promisă de tehnologia Hesdu.`,
+Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0.01 microni, reglare presiune 0.5-16 bar cu precizie ±0.02 bar, lubrificare micro-fog. Un filtru AS3 cu coalescer 0.01µm elimină, conform producătorului, 99.99% din ulei antrenat în aerul comprimat - esențial pentru aplicații clean (pharmaceutical, electronics, food). Certificare completă: ISO 8573-1 clasa [1:2:1] pentru puritate aer.`,
     whyChoose: [
-      'Eficiență energetică: valve Hesdu cu consum 0.8W (80% economie față de competiție), reduce costurile operare',
+      'Eficiență energetică: valve Hesdu cu consum redus (0.8W la menținere), reduce costurile de operare',
       'Diagnostică IO-Link: detectare scurgeri, contor cicluri, alerte predictive pentru mentenanță programată',
       'Compatibilitate ISO 15552, VDMA 24562: înlocuire directă pentru alte branduri (Festo, SMC, Parker)',
       'Puritate aer: filtre AS3 până la 0.01µm, certificare ISO 8573-1 clasa [1:2:1] pentru clean rooms',
@@ -1049,7 +1049,7 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
       },
       {
         name: 'Aventics AV05 Valve Solenoid 5/2 Hesdu',
-        description: `Valve solenoid 5 căi/2 poziții cu tehnologie Hesdu (High Efficiency Spool Design) pentru economie energie maximă. Seria AV05 (CETOP 03/ISO 5599-1 size 2) pentru debite max 1100 l/min la ΔP=100kPa, presiune lucru 2-10 bar. Bobină: 24VDC ±10%, consum putere 9W (atragere), 0.8W (menținere) → economie 80% față de valve standard. Timp comutație: 15ms, durată viață >50 milioane cicluri. Conexiune: G1/4" BSP/NPT sau plug-in manifold. Configurație: single solenoid (return arc), double solenoid (bistabil, memorie poziție). Manual override emergency integrat. IO-Link interface pentru diagnostic: detectare scurgeri (monitorizare diferență timp așteptat vs real), contor cicluri, temperatură bobină, alertă când bobina depășește 80°C. LED indicator stare + defect. Certificare: CE, ATEX II 3G Ex nA pentru zone 2 gaz. Aplicații: control cilindri energie-efficient, linii ambalare 24/7, automotive assembly, clean rooms.`
+        description: `Valve solenoid 5 căi/2 poziții cu tehnologie Hesdu (High Efficiency Spool Design) pentru economie energie maximă. Seria AV05 (CETOP 03/ISO 5599-1 size 2) pentru debite max 1100 l/min la ΔP=100kPa, presiune lucru 2-10 bar. Bobină: 24VDC ±10%, consum putere 9W (atragere), 0.8W (menținere). Timp comutație: 15ms, durată viață >50 milioane cicluri. Conexiune: G1/4" BSP/NPT sau plug-in manifold. Configurație: single solenoid (return arc), double solenoid (bistabil, memorie poziție). Manual override emergency integrat. IO-Link interface pentru diagnostic: detectare scurgeri (monitorizare diferență timp așteptat vs real), contor cicluri, temperatură bobină, alertă când bobina depășește 80°C. LED indicator stare + defect. Certificare: CE, ATEX II 3G Ex nA pentru zone 2 gaz. Aplicații: control cilindri energie-efficient, linii ambalare 24/7, automotive assembly, clean rooms.`
       },
       {
         name: 'Aventics AS3 Unitate Service Aer (FRL)',
@@ -1163,11 +1163,11 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
     founded: 1905,
     headquarters: 'Milwaukee, Wisconsin, SUA',
     employees: '1,800+',
-    overview: `Badger Meter este un producător american specializat în debitimetre și soluții de măsurare fluide pentru apă, utilități, industrie. Debitimetrele Badger se folosesc frecvent în stații de pompare, fabrici, sisteme irigații din România, unde fiabilitatea lor, după peste 100 de ani de experiență a producătorului, este bine cunoscută. Debitimetrele electromagnetice seria ModMAG M2000 oferă precizie ±0.2% din citire pe gamă extinsă 0.3-10 m/s - se întâlnesc ModMAG-uri instalate pe conducte DN300 în 2005 care funcționează perfect fără recalibrare. Tehnologia fără piese mobile elimină uzura și mentenanța - costul total de proprietate (TCO) e cu 40% mai mic față de turbine sau ultrasonic.
+    overview: `Badger Meter este un producător american specializat în debitimetre și soluții de măsurare fluide pentru apă, utilități, industrie. Debitimetrele Badger se folosesc frecvent în stații de pompare, fabrici, sisteme irigații din România, unde fiabilitatea lor, după peste 100 de ani de experiență a producătorului, este bine cunoscută. Debitimetrele electromagnetice seria ModMAG M2000 oferă precizie ±0.2% din citire pe gamă extinsă 0.3-10 m/s. Tehnologia fără piese mobile elimină uzura și mentenanța - costul total de proprietate (TCO) este mai mic față de turbine sau ultrasonic.
 
 Debitimetrele cu ultrasunete seria Dynasonics TFX-500w pentru măsurare apă potabilă sunt certificate OIML R49 și MID (Measuring Instruments Directive) pentru billing - obligatorii pentru facturare apă în UE. TFX-500w se folosește frecvent pe conducte DN50-DN300 la stații de pompare apă, unde precizia ±0.5% la debite mici (0.1 m/s) este esențială pentru detectare scurgeri și audit pierderi. Tehnologia transit-time cu 4 transdučeri montați diagonal măsoară diferența timp între ultrasunete upstream și downstream - rezultat independent de vâscozitate, temperatură, presiune.
 
-Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire automată consum apă prin radiofrequency mesh network - elimină necesitatea cititorilor manuali și detectează instantaneu scurgeri la consumatori. BEACON se implementează frecvent în orașe cu 10.000+ apartamente - economiile din reducerea pierderilor (leak detection rapidă vs. luni întregi înainte) și eliminarea cititorilor manuali pot amortiza investiția în câțiva ani, conform producătorului. Certificare OIML, MID, NSF/ANSI 61 pentru contact apă potabilă. Absența problemelor de conformitate la audit raportată de utilizatori confirmă precizia metrologică a acestor debitmetre.`,
+Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire automată consum apă prin radiofrequency mesh network - elimină necesitatea cititorilor manuali și detectează instantaneu scurgeri la consumatori. BEACON se implementează frecvent în orașe cu 10.000+ apartamente - economiile din reducerea pierderilor (leak detection rapidă vs. luni întregi înainte) și eliminarea cititorilor manuali pot amortiza investiția în câțiva ani, conform producătorului. Certificare OIML, MID, NSF/ANSI 61 pentru contact apă potabilă.`,
     whyChoose: [
       'Precizie certificată: ±0.2% electromagnetic (ModMAG), ±0.5% ultrasonic (TFX-500w) conform OIML R49',
       'Fără piese mobile: debitimetre electromagnetic și ultrasonic elimină uzura și mentenanță, durată viață 15-20 ani',
@@ -1231,7 +1231,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "E-Series",
-        "description": "Debitmetru ultrasonic pentru masurarea debitului de apa"
+        "description": "Debitmetru ultrasonic pentru măsurarea debitului de apă"
       },
       {
         "code": "Dynasonics",
@@ -1239,7 +1239,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "Recordall",
-        "description": "Contoare de apa cu disc nutant pentru retele urbane"
+        "description": "Contoare de apă cu disc nutant pentru rețele urbane"
       },
       {
         "code": "Vortex",
@@ -1251,23 +1251,23 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "Blancett",
-        "description": "Debitmetru cu turbina pentru fluide curate cu vascozitate mica"
+        "description": "Debitmetru cu turbină pentru fluide curate cu vâscozitate mică"
       },
       {
         "code": "Hedland",
-        "description": "Debitmetru cu arie variabila pentru vizualizare directa a debitului"
+        "description": "Debitmetru cu arie variabilă pentru vizualizare directă a debitului"
       },
       {
         "code": "Industrial Oval Gear (IOG)",
-        "description": "Debitmetru cu roti ovale pentru fluide vascoase"
+        "description": "Debitmetru cu roți ovale pentru fluide vâscoase"
       },
       {
         "code": "SmartLevel Sewer",
-        "description": "Sistem de monitorizare nivel pentru retele de canalizare"
+        "description": "Sistem de monitorizare nivel pentru rețele de canalizare"
       },
       {
         "code": "SmartLevel Surface",
-        "description": "Monitorizare nivel pentru ape de suprafata, cu alimentare solara"
+        "description": "Monitorizare nivel pentru ape de suprafață, cu alimentare solară"
       },
       {
         "code": "SubSonic",
@@ -1279,15 +1279,15 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "HPR-32A",
-        "description": "Înregistrator de presiune pentru hidranti"
+        "description": "Înregistrator de presiune pentru hidranți"
       },
       {
         "code": "Ru-35",
-        "description": "Unitate de telemetrie submersibila pentru retele de apa"
+        "description": "Unitate de telemetrie submersibilă pentru rețele de apă"
       },
       {
         "code": "ORION Cellular",
-        "description": "Modul AMI cu retea celulara pentru citire de la distanta"
+        "description": "Modul AMI cu rețea celulară pentru citire de la distanță"
       },
       {
         "code": "MetriNet",
@@ -1295,7 +1295,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "code": "spectro::lyser V3",
-        "description": "Sonda spectrometrica pentru analiza continua a apei"
+        "description": "Sondă spectrometrică pentru analiza continuă a apei"
       },
       {
         "code": "Q46P",
@@ -1308,7 +1308,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
     ],
     faq: [
       {
-        "q": "Ce debitmetre Badger Meter sunt potrivite pentru masurarea apei industriale?",
+        "q": "Ce debitmetre Badger Meter sunt potrivite pentru măsurarea apei industriale?",
         "a": "Pentru apă industrială, gamele ModMAG (electromagnetic), Dynasonics (ultrasonic clamp-on) și Recordall (cu disc nutant) acoperă cele mai multe aplicații de facturare și proces. Alegerea depinde de diametrul conductei, conductivitatea fluidului și dacă instalația permite montaj cu tăiere în conductă sau necesită montaj exterior, fără oprirea fluxului, așa cum permit variantele clamp-on."
       },
       {
@@ -1321,7 +1321,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "q": "Ce diferență este între un debitmetru electromagnetic și unul ultrasonic Dynasonics?",
-        "a": "Debitmetrul electromagnetic, precum ModMAG, măsoară direct fluide conductive electric și necesită montaj în linie, cu tăierea conductei. Debitmetrul ultrasonic Dynasonics folosește senzori clamp-on montați pe exteriorul tevii, potriviti și pentru fluide neconductive, fără oprirea instalației; precizia poate varia însă în funcție de grosimea peretelui și de puritatea fluidului măsurat."
+        "a": "Debitmetrul electromagnetic, precum ModMAG, măsoară direct fluide conductive electric și necesită montaj în linie, cu tăierea conductei. Debitmetrul ultrasonic Dynasonics folosește senzori clamp-on montați pe exteriorul țevii, potriviți și pentru fluide neconductive, fără oprirea instalației; precizia poate varia însă în funcție de grosimea peretelui și de puritatea fluidului măsurat."
       }
     ],
     evidenceClass: 'zero-evidence',
@@ -1335,11 +1335,11 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
     founded: 1952,
     headquarters: 'Frauenfeld, Elveția',
     employees: '3,000+',
-    overview: `Baumer este un producător elvețian specializat în senzori industriali de precizie - proximitate, presiune, encodere, vision. Senzorii Baumer se folosesc frecvent pe linii de producție automotive, food, packaging din România, unde calitatea elvețiană este vizibilă în fiecare detaliu. Senzorii inductivi seria PosiTec IFRM cu tehnologie factor 1 detectează toate metalele (feroase și neferoase) la aceeași distanță de comutație - un IFRM 12P1501 detectează oțel, aluminiu, cupru, inox la 4mm ±10%. Asta elimină necesitatea ajustărilor când schimbi între piese diferite pe aceeași linie - economie enormă de timp setup.
+    overview: `Baumer este un producător elvețian specializat în senzori industriali de precizie - proximitate, presiune, encodere, vision. Senzorii Baumer se folosesc frecvent pe linii de producție automotive, food, packaging din România, unde sunt apreciați pentru precizie și robustețe. Senzorii inductivi seria PosiTec IFRM cu tehnologie factor 1 detectează toate metalele (feroase și neferoase) la aceeași distanță de comutație - un IFRM 12P1501 detectează oțel, aluminiu, cupru, inox la 4mm ±10%. Asta elimină necesitatea ajustărilor când schimbi între piese diferite pe aceeași linie - reduce timpul de setup.
 
 Encoderele absolute seria EAM cu interfață IO-Link oferă rezoluție până la 16-bit (65,536 poziții/rotație) și acuratețe ±0.1° - perfecte pentru poziționare precisă fără home position. Encoderele EAM580-B16 se folosesc frecvent pe mașini de ambalare unde banda trebuie oprită cu precizie de ±1mm pentru printare logo - precizia rămâne repetabilă chiar și după power-off (absolute position retained). Comunicare IO-Link permite diagnostic avansat: temperatură senzor, contor rotații, alerte uzură lagăre, parametrizare remote fără DIP switches.
 
-Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A și EHEDG sunt ideali pentru industria alimentară și pharma. Un PBMH-25-G1/4 (0-25 bar, thread G1/4") are precizie ±0.25% full scale, drift < 0.1%/an și rezistență la CIP/SIP (143°C steam). Senzorii PBMH se folosesc frecvent pe linii de filling băuturi, unde contactul direct cu produsul impune conformitate FDA 21 CFR 177 - Baumer este unul dintre puținii producători cu certificare completă. Rata scăzută de defecte raportată de utilizatori confirmă precizia elvețiană a acestor senzori.`,
+Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A și EHEDG sunt ideali pentru industria alimentară și pharma. Un PBMH-25-G1/4 (0-25 bar, thread G1/4") are precizie ±0.25% full scale, drift < 0.1%/an și rezistență la CIP/SIP (143°C steam). Senzorii PBMH se folosesc frecvent pe linii de filling băuturi, unde contactul direct cu produsul impune conformitate FDA 21 CFR 177 - Baumer oferă certificare completă pentru acest tip de aplicații.`,
     whyChoose: [
       'Precizie elvețiană: encodere ±0.1° (16-bit), presiune ±0.25% FS, proximitate ±10% distanță nominală',
       'Factor 1 technology: senzori inductivi detectează toate metalele la aceeași distanță (oțel, alu, cupru, inox)',
@@ -1403,15 +1403,15 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       },
       {
         "code": "UF300",
-        "description": "Senzor ultrasonic compact cu distanta de masurare de 3 metri"
+        "description": "Senzor ultrasonic compact cu distanță de măsurare de 3 metri"
       },
       {
         "code": "OM60",
-        "description": "Senzor laser de distanta cu precizie ridicata"
+        "description": "Senzor laser de distanță cu precizie ridicată"
       },
       {
         "code": "VeriSens",
-        "description": "Senzor de viziune pentru inspectie și ghidare robotică"
+        "description": "Senzor de viziune pentru inspecție și ghidare robotică"
       },
       {
         "code": "IDC",
@@ -1419,15 +1419,15 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       },
       {
         "code": "AlphaProx",
-        "description": "Senzor inductiv de distanta pentru masurare de precizie"
+        "description": "Senzor inductiv de distanță pentru măsurare de precizie"
       },
       {
         "code": "EAM580-B EtherCAT",
-        "description": "Encoder absolut industrial cu interfata EtherCAT"
+        "description": "Encoder absolut industrial cu interfața EtherCAT"
       },
       {
         "code": "EAM580-B SSI",
-        "description": "Encoder absolut industrial cu iesire SSI"
+        "description": "Encoder absolut industrial cu ieșire SSI"
       },
       {
         "code": "EAM580-B CANopen",
@@ -1435,7 +1435,7 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       },
       {
         "code": "EAM580-SC CANopen",
-        "description": "Encoder absolut compact cu iesire CANopen"
+        "description": "Encoder absolut compact cu ieșire CANopen"
       },
       {
         "code": "EAM580R-K Analog",
@@ -1452,12 +1452,12 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
     ],
     faq: [
       {
-        "q": "Ce tipuri de encodere Baumer sunt disponibile pentru automatizari industriale?",
-        "a": "Baumer oferă encodere absolute din familia EAM580, disponibile cu ieșiri EtherCAT, SSI, CANopen sau analogice, plus variante fără rulmenți (EAM580R) pentru montaj direct pe ax. Selectia corectă depinde de protocolul de comunicație folosit de automat, de rezoluția necesară și de condițiile de montaj, inclusiv spațiul disponibil și tipul de cuplaj mecanic."
+        "q": "Ce tipuri de encodere Baumer sunt disponibile pentru automatizări industriale?",
+        "a": "Baumer oferă encodere absolute din familia EAM580, disponibile cu ieșiri EtherCAT, SSI, CANopen sau analogice, plus variante fără rulmenți (EAM580R) pentru montaj direct pe ax. Selecția corectă depinde de protocolul de comunicație folosit de automat, de rezoluția necesară și de condițiile de montaj, inclusiv spațiul disponibil și tipul de cuplaj mecanic."
       },
       {
-        "q": "Ce date trimit pentru o oferta pentru un senzor Baumer de inlocuire?",
-        "a": "Codul de pe eticheta senzorului sau encoderului existent rămâne cea mai rapidă cale spre o ofertă corectă; adăugati tensiunea de alimentare, tipul de ieșire (analogică, digitală sau de rețea) și distanța ori rază de detectie cerută de aplicație. Pentru encodere, spuneti-ne și tipul de cuplaj mecanic folosit, ca să evităm o variantă incompatibilă mecanic."
+        "q": "Ce date trimit pentru o ofertă pentru un senzor Baumer de înlocuire?",
+        "a": "Codul de pe eticheta senzorului sau encoderului existent rămâne cea mai rapidă cale spre o ofertă corectă; adăugați tensiunea de alimentare, tipul de ieșire (analogică, digitală sau de rețea) și distanța ori rază de detecție cerută de aplicație. Pentru encodere, spuneți-ne și tipul de cuplaj mecanic folosit, ca să evităm o variantă incompatibilă mecanic."
       },
       {
         "q": "Livrați senzori Baumer în România?",

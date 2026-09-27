@@ -254,7 +254,7 @@ Pentru un producător de echipamente sau un integrator din România, Colson Grou
       { q: "Cum aleg o rotilă Colson Group după serie?", a: "Trebuie să cunoști sarcina pe rotilă, diametrul roții, tipul de furcă (fixă sau pivotantă) și suprafața de rulare. Seriile Albion acoperă sarcinile mari, iar Colson și Shepherd pe cele ușoare-medii." },
       { q: "Ce diferență e între seriile Albion 110 și 600 de la Colson Group?", a: "Albion 110 folosește o furcă din oțel tratat termic, potrivită pentru sarcini mari standard, în timp ce Albion 600 are construcție forjată dintr-o bucată, pentru condiții de impact și uzură mai severe." },
       { q: "Livrați rotile Colson Group în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-4 săptămâni, în funcție de seria aleasă și de confirmarea disponibilității primită de la producător pentru acel model exact." },
-      { q: "Ce trebuie să trimit pentru o ofertă Colson Group?", a: "Sarcina pe rotilă, diametrul roții dorit, tipul de furcă și tipul de suprafață pe care va rula rotila, plus mențiunea dacă aplicația e medicală sau necesită inox." }
+      { q: "Ce trebuie să trimit pentru o ofertă Colson Group?", a: "Sarcina pe rotilă, diametrul roții dorit, tipul de furcă și tipul de suprafață pe care va rula rotilă, plus mențiunea dacă aplicația e medicală sau necesită inox." }
     ],
     evidenceClass: "market-signal-intl",
     lastVerified: "2026-09-23",
@@ -358,7 +358,7 @@ Pentru instalații din România cu aplicații neobișnuite — linii de extruder
       { code: "Parallel Co-Rotating Gear Systems", description: "Reductor paralel co-rotativ pentru linii de extrudere" },
       { code: "Parallel Counter-Rotating Gear Systems", description: "Reductor paralel contra-rotativ pentru extrudere" },
       { code: "Conical Counter-Rotating Gear Systems", description: "Reductor conic contra-rotativ pentru extrudere" },
-      { code: "Single-Screw Extruder Gear Units", description: "Reductor pentru extrudere monosurub" },
+      { code: "Single-Screw Extruder Gear Units", description: "Reductor pentru extrudere monoșurub" },
       { code: "Spur Gears for PIT Turbines", description: "Reductor cu roți cilindrice pentru turbine PIT" },
       { code: "Helical Bevel Gears", description: "Reductor conic-cilindric pentru turbine cu flux deschis" },
       { code: "Vertical Spur Gear Systems", description: "Reductor vertical pentru turbine Kaplan" },

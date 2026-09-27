@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Clock, Send, Check, X, ShoppingCart, ExternalLink 
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { companyInfo } from '@/data/products';
+import { companyInfo } from '@/data/company';
 import { CLIENT_CATEGORIES as categories } from '@/data/headerMenus';
 import { BRAND_CATEGORY_SLUGS } from '@/data/brandCategorySlugs';
 import { siteStats } from '@/data/siteStats';

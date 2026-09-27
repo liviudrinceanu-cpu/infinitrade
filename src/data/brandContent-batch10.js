@@ -3,11 +3,11 @@ export const brandContentBatch10 = {
     founded: 1969,
     headquarters: 'Essen, Germania',
     employees: '8,000+',
-    overview: `IFM Electronic este un producător german de senzori industriali și sisteme de automatizare, cu prezență internațională. De peste 50 de ani dezvoltăm și producem senzori inductivi, capacitivi, fotoelectrici, de presiune, temperatură și debit care setează standardele în industrie. Avem fabrici în Germania și centre de competență în toată lumea, cu peste 8,000 de specialiști dedicați inovației.
+    overview: `IFM Electronic este un producător german de senzori industriali și sisteme de automatizare, cu prezență internațională. De peste 50 de ani dezvoltă și produce senzori inductivi, capacitivi, fotoelectrici, de presiune, temperatură și debit care setează standardele în industrie. Fabricația e concentrată în Germania, cu centre de competență în toată lumea.
 
-Suntem pionieri ai tehnologiei IO-Link, care a revoluționat comunicarea între senzori și sisteme de control. Fiecare produs IFM este conceput pentru fiabilitate maximă în condiții extreme - temperaturi de la -40°C la +200°C, presiuni până la 1000 bar, vibrații și șocuri intense. Majoritatea senzorilonr noștri sunt construiți integral din inox 316L sau titan, cu clase de protecție IP68/IP69K pentru medii umede, prafuite sau corozive.
+IFM a fost printre pionierii tehnologiei IO-Link, care a schimbat semnificativ modul de comunicare între senzori și sisteme de control. Fiecare produs IFM este conceput pentru fiabilitate maximă în condiții extreme - temperaturi de la -40°C la +200°C, presiuni până la 1000 bar, vibrații și șocuri intense. Majoritatea senzorilor din gamă sunt construiți integral din inox 316L sau titan, cu clase de protecție IP68/IP69K pentru medii umede, prafuite sau corozive.
 
-Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci soluții complete de monitorizare și diagnostic predictiv. Platformele producătorului moneo și ecosys permit analiza în timp real a semnalelor de la sute de senzori, detectarea anomaliilor și planificarea întreținerii înainte ca defecțiunile să apară. Asta înseamnă costuri mai mici, timp de nefuncționare zero și eficiență crescută pentru clienții producătorului din automotive, food & beverage, logistică, chimie și energie.`,
+Ceea ce diferențiază IFM este abordarea sistemică: nu doar senzori, ci soluții complete de monitorizare și diagnostic predictiv. Platformele producătorului moneo și ecosys permit analiza în timp real a semnalelor de la sute de senzori, detectarea anomaliilor și planificarea întreținerii înainte ca defecțiunile să apară. Asta poate însemna costuri mai mici, timp de nefuncționare redus și eficiență crescută pentru utilizatorii din automotive, food & beverage, logistică, chimie și energie.`,
     whyChoose: [
       'Tehnologie IO-Link nativă pe majoritatea senzorilonr - configurare rapidă, diagnoză la distanță, schimb automat parametri',
       'Calibrare din fabrică cu certificate de etalonare trasabile NIST/PTB - precizie de până la 0.05% FS conform certificatului',
@@ -19,19 +19,19 @@ Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci 
     keyProducts: [
       {
         name: 'Senzori inductivi serie IFS/IGS',
-        description: 'Gama noastră de senzori inductivi cu factor de corecție 1 funcționează identic pe toate metalele - alamă, aluminiu, inox, fontă. Distanța de detecție rămâne constantă indiferent de material, ceea ce elimină recalibrările și reduce timpul de setup. Versiunile cu IO-Link permit schimbarea distanței de comutare din software, fără demontare. Carcasă cilindrică M8-M30 sau block size, ieșire PNP/NPN sau analogică 4-20mA, rezistență la temperaturi -25°C până +90°C și vibrații 30g. Perfecti pentru detectarea pieselor pe linii de asamblare, poziționare palete AGV, numărare produse în food industry.'
+        description: 'Gama de senzori inductivi cu factor de corecție 1 funcționează identic pe toate metalele - alamă, aluminiu, inox, fontă. Distanța de detecție rămâne constantă indiferent de material, ceea ce elimină recalibrările și reduce timpul de setup. Versiunile cu IO-Link permit schimbarea distanței de comutare din software, fără demontare. Carcasă cilindrică M8-M30 sau block size, ieșire PNP/NPN sau analogică 4-20mA, rezistență la temperaturi -25°C până +90°C și vibrații 30g. Potrivite pentru detectarea pieselor pe linii de asamblare, poziționare palete AGV, numărare produse în food industry.'
       },
       {
         name: 'Traductoare de presiune seria PM/PN',
-        description: 'Oferim traductoare piezoresistive cu membrană ceramică sau inox pentru presiuni de la -1 bar la 1000 bar. Celula de măsură este capsulată complet în ulei siliconic, protejată la suprapresiune 3x presiunea nominală și la pulsații hidraulice violente. Acuratețe 0.3% FS, stabilitate pe termen lung sub 0.1% pe an, compensare temperatură -25°C până +100°C. Modele cu afișaj digital integrat OLED și taste de configurare locală. Ieșire 4-20mA, 0-10V sau IO-Link pentru integrare directă în PLC Siemens/Allen-Bradley. Folosite în sisteme hidraulice mobile, teste presiune, pompare apă, compresoare, injecție mase plastice.'
+        description: 'Traductoare piezoresistive cu membrană ceramică sau inox pentru presiuni de la -1 bar la 1000 bar. Celula de măsură este capsulată complet în ulei siliconic, protejată la suprapresiune 3x presiunea nominală și la pulsații hidraulice violente. Acuratețe 0.3% FS, stabilitate pe termen lung sub 0.1% pe an, compensare temperatură -25°C până +100°C. Modele cu afișaj digital integrat OLED și taste de configurare locală. Ieșire 4-20mA, 0-10V sau IO-Link pentru integrare directă în PLC Siemens/Allen-Bradley. Folosite în sisteme hidraulice mobile, teste presiune, pompare apă, compresoare, injecție mase plastice.'
       },
       {
         name: 'Debitimetre electromagnetice serie SM/SV',
-        description: 'Debitimetrele noastre electromagn funcționează pe principiul legii lui Faraday - măsoară tensiunea indusă de fluidul conducător care traversează un câmp magnetic. Zero piese mobile, zero pierdere presiune, zero mentenanță. Capabile să măsoare lichide cu particule suspendate, pasta, nămol, fluide vâscoase de la 0.1 m/s până la 10 m/s. Precizie 0.5% din valoarea măsurată (nu FS!), repetabilitate 0.1%, răspuns sub 100ms. Electrozi din Hastelloy C sau tantal pentru chimicale agresive. Versiuni cu flanșe DN15-DN300 sau clamp sanitare. Display integrat cu totalizer și alarme programabile. Alimentare 24VDC sau 230VAC.'
+        description: 'Debitimetrele electromagnetice funcționează pe principiul legii lui Faraday - măsoară tensiunea indusă de fluidul conducător care traversează un câmp magnetic. Zero piese mobile, zero pierdere presiune, zero mentenanță. Capabile să măsoare lichide cu particule suspendate, pasta, nămol, fluide vâscoase de la 0.1 m/s până la 10 m/s. Precizie 0.5% din valoarea măsurată (nu FS!), repetabilitate 0.1%, răspuns sub 100ms. Electrozi din Hastelloy C sau tantal pentru chimicale agresive. Versiuni cu flanșe DN15-DN300 sau clamp sanitare. Display integrat cu totalizer și alarme programabile. Alimentare 24VDC sau 230VAC.'
       },
       {
         name: 'Sisteme IO-Link Master AL13xx',
-        description: 'Modulele noastre IO-Link master cu 4-8 porturi permit conectarea senzorilonr inteligenti direct la rețeaua Ethernet industrială (PROFINET, EtherNet/IP, Modbus TCP). Fiecare port suportă până la 32 bytes date proces + 32 bytes date acyclice. Configurare prin browser web integrat sau IODD files în TIA Portal / Studio 5000. Carcasă metal IP67 pentru montaj descentralizat lângă senzori, alimentare redundantă 24VDC, diagnostic LED per port. Posibilitate hot swap senzori fără oprire linie - parametrii se transferă automat din master în noul senzor. Perfect pentru retrofit instalații vechi sau pentru noi linii Industry 4.0.'
+        description: 'Modulele IO-Link master cu 4-8 porturi permit conectarea senzorilor inteligenți direct la rețeaua Ethernet industrială (PROFINET, EtherNet/IP, Modbus TCP). Fiecare port suportă până la 32 bytes date proces + 32 bytes date acyclice. Configurare prin browser web integrat sau IODD files în TIA Portal / Studio 5000. Carcasă metal IP67 pentru montaj descentralizat lângă senzori, alimentare redundantă 24VDC, diagnostic LED per port. Posibilitate hot swap senzori fără oprire linie - parametrii se transferă automat din master în noul senzor. Perfect pentru retrofit instalații vechi sau pentru noi linii Industry 4.0.'
       }
     ],
     certifications: [
@@ -141,11 +141,11 @@ Ceea ce ne diferențiază este abordarea sistemică: nu vindem doar senzori, ci 
     founded: 1957,
     headquarters: 'Schmalkalden, Germania',
     employees: '400+',
-    overview: `Internormen este specialist german în filtrare hidraulică de înaltă performanță pentru aplicații industriale și mobile. De peste 65 de ani producem filtre, elemente filtrante și sisteme complete de condiționare a uleiului hidraulic care protejează componentele scumpe - pompe, servomotoare, cilindri, distributoare - de uzura prematură cauzată de particule solide și apă. Fabrica noastră din Schmalkalden folosește tehnologii avansate de plisare și laminare pentru a obține suprafețe filtrante de până la 2 m² pe un element compact.
+    overview: `Internormen este specialist german în filtrare hidraulică de înaltă performanță pentru aplicații industriale și mobile. De peste 65 de ani produce filtre, elemente filtrante și sisteme complete de condiționare a uleiului hidraulic care protejează componentele scumpe - pompe, servomotoare, cilindri, distributoare - de uzura prematură cauzată de particule solide și apă. Fabrica din Schmalkalden folosește tehnologii avansate de plisare și laminare pentru a obține suprafețe filtrante de până la 2 m² pe un element compact.
 
-Filosofia noastră este simplă: un ulei curat înseamnă durată de viață dublată sau triplată pentru componentele hidraulice și timp de nefuncționare zero. De aceea toate filtrele au clase de filtrare certificate conform ISO 16889 (Beta ratio) - eficiența de filtrare este verificată în laboratoare independente. Folosim media filtrante sintetice borosilicate sau microfibră sticlă care rezistă la presiuni diferențiale de până la 210 bar și temperaturi de la -30°C la +110°C fără degradare.
+Filosofia Internormen este simplă: un ulei curat înseamnă durată de viață dublată sau triplată pentru componentele hidraulice și timp de nefuncționare zero. De aceea toate filtrele au clase de filtrare certificate conform ISO 16889 (Beta ratio) - eficiența de filtrare este verificată în laboratoare independente. Producătorul folosește medii filtrante sintetice borosilicate sau microfibră sticlă care rezistă la presiuni diferențiale de până la 210 bar și temperaturi de la -30°C la +110°C fără degradare.
 
-Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fiecare filtru Internormen să îndeplinească standardele stricte germane. Colaborăm direct cu producători de excavatoare, macarale, prese hidraulice, sisteme de injecție, turbine eoliene și centrale hidroelectrice. Oriunde găsești un sistem hidraulic de putere mare care trebuie să funcționeze fără eroare ani la rând, probabil vei găsi și un filtru Internormen.`,
+Internormen produce filtre care îndeplinesc standarde stricte germane și colaborează cu producători de excavatoare, macarale, prese hidraulice, sisteme de injecție, turbine eoliene și centrale hidroelectrice. Oriunde găsești un sistem hidraulic de putere mare care trebuie să funcționeze fără eroare ani la rând, probabil vei găsi și un filtru Internormen.`,
     whyChoose: [
       'Certificare Beta ratio conform ISO 16889 - eficiență filtrare verificată în laboratoare acreditate',
       'Media filtrante sintetice cu structură gradient - particulele mari la suprafață, fine în adâncime',
@@ -157,19 +157,19 @@ Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fieca
     keyProducts: [
       {
         name: 'Filtre presiune seria HP',
-        description: 'Filtrele noastre de presiune în linie HP sunt proiectate pentru debite de la 10 l/min până la 1500 l/min și presiuni de lucru până la 420 bar. Carcasa din oțel forjat sau aluminiu anodizat rezistă la șocuri hidraulice și pulsații violente. Elementul filtrant plisag cu media sintetică asigură clase de filtrare de la 3 µm(c) până la 25 µm(c) conform ISO 4406. By-pass valve integrat se deschide la 3.5 bar diferențial pentru a proteja pompa dacă elementul devine înfundat. Capac cu indicator vizual pop-up și contact electric pentru semnalizare PLC. Montaj pe țeavă sau flanșă, porturi SAE sau BSP.'
+        description: 'Filtrele de presiune în linie HP sunt proiectate pentru debite de la 10 l/min până la 1500 l/min și presiuni de lucru până la 420 bar. Carcasa din oțel forjat sau aluminiu anodizat rezistă la șocuri hidraulice și pulsații violente. Elementul filtrant plisag cu media sintetică asigură clase de filtrare de la 3 µm(c) până la 25 µm(c) conform ISO 4406. By-pass valve integrat se deschide la 3.5 bar diferențial pentru a proteja pompa dacă elementul devine înfundat. Capac cu indicator vizual pop-up și contact electric pentru semnalizare PLC. Montaj pe țeavă sau flanșă, porturi SAE sau BSP.'
       },
       {
         name: 'Filtre retur/tanc seria RT/TF',
-        description: 'Gama noastră de filtre de retur și tanc acoperă debite de la 50 l/min la 3000 l/min, cu presiuni până la 25 bar. Construcție modulară permite montaj pe flansa tancului (top-mounted) sau pe conducta de retur (in-line). Media filtranta microfibră sticlă asigură eficiență Beta 200 la 10 µm - adică din 200 de particule de 10 µm, 199 sunt reținute. Scheletul metalic interior previne colapsul elementului chiar și la presiune diferențială 10 bar. Indicator mecanic cu semnal electric 24VDC/230VAC la 3 bar diferențial. Versiuni cu încălzitor integrat pentru porniri la temperaturi negative.'
+        description: 'Gama de filtre de retur și tanc acoperă debite de la 50 l/min la 3000 l/min, cu presiuni până la 25 bar. Construcție modulară permite montaj pe flansa tancului (top-mounted) sau pe conducta de retur (in-line). Media filtrantă microfibră sticlă asigură eficiență Beta 200 la 10 µm - adică din 200 de particule de 10 µm, 199 sunt reținute. Scheletul metalic interior previne colapsul elementului chiar și la presiune diferențială 10 bar. Indicator mecanic cu semnal electric 24VDC/230VAC la 3 bar diferențial. Versiuni cu încălzitor integrat pentru porniri la temperaturi negative.'
       },
       {
         name: 'Filtre aspirație seria SG',
-        description: 'Filtrele noastre de aspirație SG se montează în tanc și protejează pompa de particule mari care ar cauza uzură catastrofală. Construcție all-welded din oțel zincat sau inox 304, coș filtrant cu plasă inox 80-200 µm. Dimensiuni de la DN50 la DN250 pentru debite de pompare până la 2000 l/min. Design special cu flux vertical minimizează turburenta și aerul antrenat. Capac demontabil permite curățarea coșului fără a scoate întregul filtru din tanc. Indicator vizual de înfundare montat pe capac. Versiuni cu magnet neodim pentru captarea particulelor feroase fine.'
+        description: 'Filtrele de aspirație SG se montează în tanc și protejează pompa de particule mari care ar cauza uzură catastrofală. Construcție all-welded din oțel zincat sau inox 304, coș filtrant cu plasă inox 80-200 µm. Dimensiuni de la DN50 la DN250 pentru debite de pompare până la 2000 l/min. Design special cu flux vertical minimizează turburenta și aerul antrenat. Capac demontabil permite curățarea coșului fără a scoate întregul filtru din tanc. Indicator vizual de înfundare montat pe capac. Versiuni cu magnet neodim pentru captarea particulelor feroase fine.'
       },
       {
         name: 'Sisteme filtrare off-line seria FCP',
-        description: 'Unitățile noastre mobile de filtrare FCP sunt folosite pentru curățarea inițială a uleiului nou (care vine contaminat din fabrică!) sau pentru mentenanță periodică a sistemelor mari. Pornești unitatea, conectezi două furtune la tanc și lași să circule uleiul prin filtre fine de 3 µm până atingi clasa de curățenie dorită ISO 15/13/10 sau mai bună. Debite de la 50 l/min la 300 l/min, filtrare multiplă în serie sau paralel, indicator presiune diferențială per fiecare element. Opțional: modul de deshidratare prin vacuum (scoate apa dizolvată din ulei) și modul de degasare (elimină aerul antrenat). Carcasă mobilă pe roți cu mâner, alimentare 230V sau 400V trifazat.'
+        description: 'Unitățile mobile de filtrare FCP sunt folosite pentru curățarea inițială a uleiului nou (care vine contaminat din fabrică) sau pentru mentenanță periodică a sistemelor mari. Se conectează două furtunuri la tanc și uleiul circulă prin filtre fine de 3 µm până la atingerea clasei de curățenie dorite ISO 15/13/10 sau mai bună. Debite de la 50 l/min la 300 l/min, filtrare multiplă în serie sau paralel, indicator presiune diferențială per fiecare element. Opțional: modul de deshidratare prin vacuum (scoate apa dizolvată din ulei) și modul de degasare (elimină aerul antrenat). Carcasă mobilă pe roți cu mâner, alimentare 230V sau 400V trifazat.'
       }
     ],
     certifications: [
@@ -271,14 +271,14 @@ Peste 400 de ingineri, tehnicieni și operatori lucrează zilnic pentru ca fieca
     founded: 1895,
     headquarters: 'Nürnberg, Germania',
     employees: '800+',
-    overview: `Jean Müller este producător german de siguranțe fuzibile de înaltă performanță pentru protecția instalațiilor electrice industriale. De peste 125 de ani fabricăm siguranțe tip NH (formă lamă) și HRC (High Rupturing Capacity) care protejează transformatoare, motoare, condensatoare, invertoare și cabluri electrice de scurtcircuite și suprasarcini. Fabrica noastră din Nürnberg produce anual milioane de siguranțe exportate în peste 80 de țări pe cinci continente.
+    overview: `Jean Müller este producător german de siguranțe fuzibile de înaltă performanță pentru protecția instalațiilor electrice industriale. De peste 125 de ani fabrică siguranțe tip NH (formă lamă) și HRC (High Rupturing Capacity) care protejează transformatoare, motoare, condensatoare, invertoare și cabluri electrice de scurtcircuite și suprasarcini. Fabrica din Nürnberg exportă siguranțe la nivel internațional.
 
-Tehnologia producătorului se bazează pe umplerea corpului ceramic cu nisip cuarțos calibrat care absoarbe energia arcului electric la întrerupere. Când curentul de scurtcircuit atinge 10-100 kA, firul fuzibil se topește în microsecunde, iar nisipul stinge arcul înainte ca acesta să distrugă echipamentele din aval. Testăm fiecare tip de siguranță în laboratorul nostru la curenti de scurtcircuit de până la 120 kA - mai mult decât vei găsi vreodată într-o instalație industrială normală.
+Tehnologia producătorului se bazează pe umplerea corpului ceramic cu nisip cuarțos calibrat care absoarbe energia arcului electric la întrerupere. Când curentul de scurtcircuit atinge 10-100 kA, firul fuzibil se topește în microsecunde, iar nisipul stinge arcul înainte ca acesta să distrugă echipamentele din aval. Fiecare tip de siguranță este testat de producător la curenți de scurtcircuit de până la 120 kA - mai mult decât vei găsi vreodată într-o instalație industrială normală.
 
-Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jean Müller fabricată astăzi are exact aceleași caracteristici I²t și caracteristică timp-curent ca una fabricată acum 20 de ani cu același cod. Asta înseamnă că poți completa un set vechi fără să recalculezi selectivitatea sau să schimbi întreaga instalație. Pentru electricieni și ingineri de mentenanță, asta înseamnă liniște și predictibilitate într-o lume în care echipamentele se schimbă constant.`,
+Ceea ce diferențiază Jean Müller este consecvența calității: fiecare siguranță fabricată astăzi are exact aceleași caracteristici I²t și caracteristică timp-curent ca una fabricată acum 20 de ani cu același cod. Asta înseamnă că poți completa un set vechi fără să recalculezi selectivitatea sau să schimbi întreaga instalație. Pentru electricieni și ingineri de mentenanță, asta înseamnă liniște și predictibilitate într-o lume în care echipamentele se schimbă constant.`,
     whyChoose: [
       'Poder de rupere 120 kA la 500V AC - protecție eficientă chiar lângă transformator sau generator',
-      'Caracteristică I²t stabilă ±5% - selectivitate perfectă între siguranțe de diferite calibre',
+      'Caracteristică I²t stabilă ±5% - selectivitate ridicată între siguranțe de diferite calibre',
       'Corp ceramic cu nisip cuarțos ultra-pur - stingere arc în sub 5ms, zero contaminare',
       'Indicator mecanic de topire integrat - vezi instant care siguranță a ars fără multimetru',
       'Construcție silver-plated contacts - rezistență de contact sub 0.1 mΩ, zero încălzire',
@@ -287,19 +287,19 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
     keyProducts: [
       {
         name: 'Siguranțe NH gG 400V',
-        description: 'Gama noastră NH (Niederspannungs-Hochleistungs) acoperă curenți nominali de la 6A până la 1250A la tensiune 400V AC. Formă lamă conform IEC 60269-2, dimensiuni 00/000/0/1/2/3/4 compatibile cu toate bazele europene standard. Caracteristică gG (general purpose) asigură protecție completă pentru cabluri și aparate - la curenți mici (1.6×In) topirea durează ore, la scurtcircuit (10×In) topirea e instantanee sub 10ms. Corp ceramic ranforsat cu fibre aramidice, capete din cupru electrolitic argintate, umplere nisip cuarțos granulație 0.1-0.5mm. Indicator mecanic roșu apare când siguranța a ars. Durată viață mecanică 30,000 cicluri montare/demontare.'
+        description: 'Gama NH (Niederspannungs-Hochleistungs) acoperă curenți nominali de la 6A până la 1250A la tensiune 400V AC. Formă lamă conform IEC 60269-2, dimensiuni 00/000/0/1/2/3/4 compatibile cu toate bazele europene standard. Caracteristică gG (general purpose) asigură protecție completă pentru cabluri și aparate - la curenți mici (1.6×In) topirea durează ore, la scurtcircuit (10×In) topirea e instantanee sub 10ms. Corp ceramic ranforsat cu fibre aramidice, capete din cupru electrolitic argintate, umplere nisip cuarțos granulație 0.1-0.5mm. Indicator mecanic roșu apare când siguranța a ars. Durată viață mecanică 30,000 cicluri montare/demontare.'
       },
       {
         name: 'Siguranțe NH aM pentru motoare',
-        description: 'Versiunea aM (accompanying motor fuse) este optimizată pentru protecția motoarelor electrice la pornire directă. Permite trecerea curentului de pornire (6-8×In timp de 5-10 secunde) fără a arde, dar taie imediat la scurtcircuit. Folosim fire fuzibile cu secțiune variabilă și puncte de constricție calculate pentru caracteristica dorită. Calibre de la 16A la 630A, clase de limitare 1-3 conform IEC, putere disipată sub 15W la curent nominal. Se montează în serie cu contactorul motorului pentru protecție back-up - contactorul taie suprasarcina, siguranța NH taie scurtcircuitul.'
+        description: 'Versiunea aM (accompanying motor fuse) este optimizată pentru protecția motoarelor electrice la pornire directă. Permite trecerea curentului de pornire (6-8×In timp de 5-10 secunde) fără a arde, dar taie imediat la scurtcircuit. Se folosesc fire fuzibile cu secțiune variabilă și puncte de constricție calculate pentru caracteristica dorită. Calibre de la 16A la 630A, clase de limitare 1-3 conform IEC, putere disipată sub 15W la curent nominal. Se montează în serie cu contactorul motorului pentru protecție back-up - contactorul taie suprasarcina, siguranța NH taie scurtcircuitul.'
       },
       {
         name: 'Siguranțe HRC 690V pentru industrie',
-        description: 'Linia noastră HRC (High Rupturing Capacity) pentru 690V AC este folosită în instalații industriale cu tensiune înaltă - transformatoare 20kV/690V, motoare 500kW+, convertoare frecvență mare putere. Poder de rupere 120 kA la 690V, caracteristici gG sau aM disponibile, calibre până la 1600A. Corp ceramic extra-gros (15mm grosime perete) rezistă la temperatura arcului de 20,000°C fără a crăpa. Capete cupru nichelate pentru medii corozive. Certificare UL/CSA pentru export SUA/Canada. Versiuni cu striker mecanic pentru actionare întreruptor auxiliar la topire.'
+        description: 'Linia HRC (High Rupturing Capacity) pentru 690V AC este folosită în instalații industriale cu tensiune înaltă - transformatoare 20kV/690V, motoare 500kW+, convertoare frecvență mare putere. Poder de rupere 120 kA la 690V, caracteristici gG sau aM disponibile, calibre până la 1600A. Corp ceramic extra-gros (15mm grosime perete) rezistă la temperatura arcului de 20,000°C fără a crăpa. Capete cupru nichelate pentru medii corozive. Certificare UL/CSA pentru export SUA/Canada. Versiuni cu striker mecanic pentru acționare întreruptor auxiliar la topire.'
       },
       {
         name: 'Baze siguranțe NH cu separator',
-        description: 'Bazele noastre modulare NH permit montaj pe șină DIN 35mm sau pe placă, cu separator transparent între faze pentru protecție IP20. Contacte din cupru-beriliu argintate asigură presiune constantă 30N și rezistență sub 0.05 mΩ. Versiuni pentru 1-3 poli, cu sau fără secționare (model cu mâner rotativ permite deconectarea sub sarcină până la In). Borne superioare și inferioare pentru cablu 1.5-240 mm² sau șină CU. Test 1000 de cicluri insert/extract siguranță fără degradare contact. Certificare KEMA pentru uz marina (coroziune, vibrații, umiditate).'
+        description: 'Bazele modulare NH permit montaj pe șină DIN 35mm sau pe placă, cu separator transparent între faze pentru protecție IP20. Contacte din cupru-beriliu argintate asigură presiune constantă 30N și rezistență sub 0.05 mΩ. Versiuni pentru 1-3 poli, cu sau fără secționare (model cu mâner rotativ permite deconectarea sub sarcină până la In). Borne superioare și inferioare pentru cablu 1.5-240 mm² sau șină CU. Test 1000 de cicluri insert/extract siguranță fără degradare contact. Certificare KEMA pentru uz marina (coroziune, vibrații, umiditate).'
       }
     ],
     certifications: [
@@ -357,11 +357,11 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       },
       {
         "code": "SL3-1000A",
-        "description": "separator de intrare cu interblocare mecanica pentru bare colectoare"
+        "description": "separator de intrare cu interblocare mecanică pentru bare colectoare"
       },
       {
         "code": "TOKEO",
-        "description": "separator-sigurante NH inteligent cu electronica de monitorizare integrata"
+        "description": "separator-siguranțe NH inteligent cu electronică de monitorizare integrată"
       },
       {
         "code": "KETO",
@@ -381,15 +381,15 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       },
       {
         "code": "NH00-NH3 baze",
-        "description": "baze de sigurante NH pentru montaj pe placa sau bara"
+        "description": "baze de siguranțe NH pentru montaj pe placă sau bară"
       },
       {
         "code": "PV",
-        "description": "siguranta dedicata protectiei sistemelor fotovoltaice de curent continuu"
+        "description": "siguranță dedicată protecției sistemelor fotovoltaice de curent continuu"
       },
       {
         "code": "aR semiconductor",
-        "description": "siguranta ultrarapida pentru protectia semiconductoarelor de putere"
+        "description": "siguranță ultrarapidă pentru protecția semiconductoarelor de putere"
       }
     ],
     faq: [
@@ -399,7 +399,7 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
       },
       {
         "q": "Livrați separatoare cu siguranțe Jean Muller în România?",
-        "a": "Da, aducem la comandă separatoare din gamele SL, TOKEO sau SASILplus, pe baza codului confirmat de client. Nu avem această gamă pe raft și ne raportăm la informațiile publice ale producătorului; termenul obișnuit este de 2-4 săptămâni la comandă. Este util să trimiteti codul complet de pe eticheta separatorului existent, pentru a identifica exact varianta compatibilă cu instalația."
+        "a": "Da, aducem la comandă separatoare din gamele SL, TOKEO sau SASILplus, pe baza codului confirmat de client. Nu avem această gamă pe raft și ne raportăm la informațiile publice ale producătorului; termenul obișnuit este de 2-4 săptămâni la comandă. Este util să trimiteți codul complet de pe eticheta separatorului existent, pentru a identifica exact varianta compatibilă cu instalația."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de siguranțe NH?",
@@ -410,7 +410,7 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
         "a": "SL este seria clasică de separatoare cu siguranțe, disponibilă în mărimile 00 până la 3 și în versiuni pentru curenți mari de intrare. TOKEO adaugă electronica pentru monitorizarea stării instalației și semnalizarea eventualelor probleme, fiind gândit pentru aplicații unde se dorește supraveghere suplimentară. Alegerea depinde de complexitatea tabloului și de necesitatea unei monitorizări active."
       },
       {
-        "q": "Cum gasesc echivalentul unei baze de sigurante NH mai vechi de la Jean Muller?",
+        "q": "Cum găsesc echivalentul unei baze de siguranțe NH mai vechi de la Jean Muller?",
         "a": "Comparăm mărimea NH, distanța dintre borne și tipul de conexiune (placă sau bară colectoare) cu gamele actuale din documentația oficială a producătorului. O fotografie clară a bazei existente, împreună cu mărimea NH scrisă pe corp, este suficientă de obicei pentru identificare. Confirmarea finală se face după verificarea curentului nominal necesar în instalație."
       }
     ],
@@ -426,11 +426,11 @@ Ceea ce ne diferențiază este consecvența calității: fiecare siguranță Jea
     founded: 1948,
     headquarters: 'Fulda, Germania',
     employees: '2,300+',
-    overview: `JUMO (Fulda, Germania) este unul dintre producătorii importanți din Europa în tehnologia de măsurare și control pentru temperatură, presiune, nivel, debit, umiditate și pH. De peste 75 de ani dezvoltăm senzori industriali, regulatoare și sisteme de automatizare pentru industria de proces - chimie, farmaceutică, alimentară, energie, tratare apă. Cu 2,300 de angajați și 30 de filiale în lume, JUMO combină precizia germană cu inovația constantă.
+    overview: `JUMO (Fulda, Germania) este unul dintre producătorii importanți din Europa în tehnologia de măsurare și control pentru temperatură, presiune, nivel, debit, umiditate și pH. De peste 75 de ani dezvoltă senzori industriali, regulatoare și sisteme de automatizare pentru industria de proces - chimie, farmaceutică, alimentară, energie, tratare apă. JUMO combină precizia germană cu inovația constantă.
 
-Avem fabrici proprii în Germania unde producem sonde de temperatură Pt100/Pt1000 cu toleranță clasa A sau AA conform IEC 60751, traductoare de presiune ceramice cu acuratețe 0.25% FS, regulatoare PID multiloop cu algoritmi autotune. Fiecare produs JUMO este calibrat individual în laborator acreditat DAkkS/ISO 17025 și vine cu certificat de calibrare trasabil la standardele naționale germane. Pentru industria farmaceutică și alimentară oferim versiuni sanitare cu certificări FDA 21 CFR Part 11 și 3-A Sanitary Standards.
+Producția JUMO se face în fabrici proprii din Germania, unde sunt fabricate sonde de temperatură Pt100/Pt1000 cu toleranță clasa A sau AA conform IEC 60751, traductoare de presiune ceramice cu acuratețe 0.25% FS, regulatoare PID multiloop cu algoritmi autotune. Fiecare produs JUMO este calibrat individual în laborator acreditat DAkkS/ISO 17025 și vine cu certificat de calibrare trasabil la standardele naționale germane. Pentru industria farmaceutică și alimentară, JUMO oferă versiuni sanitare cu certificări FDA 21 CFR Part 11 și 3-A Sanitary Standards.
 
-Ceea ce ne face preferați de inginerii de proces este versatilitatea: același regulator JUMO poate controla temperatură, presiune, nivel sau pH doar schimbând senzorul și câțiva parametri software. Platformele producătorului mTRON și AQUIS permit automatizarea completă a proceselor complexe - de la fermentare bere la sterilizare autoclave, de la congelare blast-chiller la pasteurizare lapte. Integrare nativă PROFIBUS, PROFINET, Modbus și OPC UA facilitează conectarea la sisteme SCADA și MES.`,
+Ceea ce face JUMO preferat de inginerii de proces este versatilitatea: același regulator JUMO poate controla temperatură, presiune, nivel sau pH doar schimbând senzorul și câțiva parametri software. Platformele producătorului mTRON și AQUIS permit automatizarea completă a proceselor complexe - de la fermentare bere la sterilizare autoclave, de la congelare blast-chiller la pasteurizare lapte. Integrare nativă PROFIBUS, PROFINET, Modbus și OPC UA facilitează conectarea la sisteme SCADA și MES.`,
     whyChoose: [
       'Calibrare fabrică DAkkS/ISO 17025 - certificat trasabil inclus pentru fiecare senzor',
       'Sonde Pt100 clasa AA toleranță ±0.1°C la 0°C - precizie superioară pentru procese critice',
@@ -442,19 +442,19 @@ Ceea ce ne face preferați de inginerii de proces este versatilitatea: același 
     keyProducts: [
       {
         name: 'Sonde temperatură Pt100/Pt1000',
-        description: 'Gama noastră de sonde Pt100 și Pt1000 acoperă domeniul -200°C până +600°C cu toleranțe clasa A (±0.15°C la 0°C) sau AA (±0.1°C la 0°C) conform IEC 60751. Folosim senzori thin-film sau wire-wound în funcție de aplicație. Capsulă din inox 316L diametru 3-8mm, lungime imersie 50-500mm, conectare cap transmițător sau cablu cu mufe. Versiuni sanitare cu conector varivent sau clamp și certificare 3-A pentru contactul cu alimente. Răspuns termic sub 5 secunde în apă la 0.5 m/s. Opțional: transmițător 4-20mA integrat în capul sondei, cu izolare galvanică și compensare cablaj.'
+        description: 'Gama de sonde Pt100 și Pt1000 acoperă domeniul -200°C până +600°C cu toleranțe clasa A (±0.15°C la 0°C) sau AA (±0.1°C la 0°C) conform IEC 60751. Se folosesc senzori thin-film sau wire-wound în funcție de aplicație. Capsulă din inox 316L diametru 3-8mm, lungime imersie 50-500mm, conectare cap transmițător sau cablu cu mufe. Versiuni sanitare cu conector varivent sau clamp și certificare 3-A pentru contactul cu alimente. Răspuns termic sub 5 secunde în apă la 0.5 m/s. Opțional: transmițător 4-20mA integrat în capul sondei, cu izolare galvanică și compensare cablaj.'
       },
       {
         name: 'Regulatoare PID multiloop seria IMAGO/dTRON',
-        description: 'Regulatoarele noastre PID cu 1-16 canale permit controlul simultan al mai multor parametri - de exemplu temperatură + presiune + nivel în același autoclavă. Display color touchscreen 3.5"-10", programare grafică fără cod, funcție autotune care setează Kp/Ki/Kd optim automat. Intrări universale configurabile pentru Pt100, termocuple J/K/T/S, 4-20mA, 0-10V, contact. Ieșiri releu, SSR, 4-20mA pentru actuatori. Comunicație PROFIBUS, PROFINET, Modbus RTU/TCP, Ethernet/IP. Înregistrare date pe card SD cu ștampilă temporală pentru audit FDA. Alarme cu histerezis programabil și întârziere pentru a evita declanșările false.'
+        description: 'Regulatoarele PID cu 1-16 canale permit controlul simultan al mai multor parametri - de exemplu temperatură + presiune + nivel în același autoclavă. Display color touchscreen 3.5"-10", programare grafică fără cod, funcție autotune care setează Kp/Ki/Kd optim automat. Intrări universale configurabile pentru Pt100, termocuple J/K/T/S, 4-20mA, 0-10V, contact. Ieșiri releu, SSR, 4-20mA pentru actuatori. Comunicație PROFIBUS, PROFINET, Modbus RTU/TCP, Ethernet/IP. Înregistrare date pe card SD cu ștampilă temporală pentru audit FDA. Alarme cu histerezis programabil și întârziere pentru a evita declanșările false.'
       },
       {
         name: 'Traductoare presiune seria MAERA/NIROS',
-        description: 'Oferim traductoare cu celulă ceramică Al2O3 sau membrană inox pentru presiuni de la 0-1 bar până la 0-1000 bar. Tehnologia ceramică dry-cell elimină gelul siliconic și oferă stabilitate pe termen lung sub 0.1% pe an, rezistență suprapresiune 10x presiune nominală, compatibilitate cu oxigen pur și fluide agresive. Acuratețe 0.25% sau 0.5% FS, compensare temperatură -10°C până +80°C. Ieșire 4-20mA 2-fire, 0-10V, 0-5V sau HART. Versiuni sanitare cu conexiune clamp, flush membrane, certificare EHEDG. Aplicații: presiune gaz, lichide, abur, vid, presiune diferențială pentru filtre.'
+        description: 'Traductoare cu celulă ceramică Al2O3 sau membrană inox pentru presiuni de la 0-1 bar până la 0-1000 bar. Tehnologia ceramică dry-cell elimină gelul siliconic și oferă stabilitate pe termen lung sub 0.1% pe an, rezistență suprapresiune 10x presiune nominală, compatibilitate cu oxigen pur și fluide agresive. Acuratețe 0.25% sau 0.5% FS, compensare temperatură -10°C până +80°C. Ieșire 4-20mA 2-fire, 0-10V, 0-5V sau HART. Versiuni sanitare cu conexiune clamp, flush membrane, certificare EHEDG. Aplicații: presiune gaz, lichide, abur, vid, presiune diferențială pentru filtre.'
       },
       {
         name: 'Sisteme automatizare AQUIS touch',
-        description: 'AQUIS este platforma noastră SCADA all-in-one pentru automatizarea proceselor mici și medii. Panel PC industrial cu display touchscreen 7"-21", PLC integrat cu 32 I/O extinse până la 512 puncte. Programare grafică drag-and-drop fără a scrie cod - bloci funcționale pentru PID, secvențe, batch, alarme. Înregistrare continuă a tuturor variabilelor cu rezoluție 100ms, rapoarte PDF automate, arhivare SQL. Comunicație nativă cu senzori JUMO prin RS485, dar și cu echipamente terțe prin Modbus, OPC, BACnet. Receptor SMS pentru alarme la telefon. Aplicații: sterilizare, pasteurizare, fermentare, congelare, uscare, distilare.'
+        description: 'AQUIS este platforma SCADA all-in-one a producătorului pentru automatizarea proceselor mici și medii. Panel PC industrial cu display touchscreen 7"-21", PLC integrat cu 32 I/O extinse până la 512 puncte. Programare grafică drag-and-drop fără a scrie cod - bloci funcționale pentru PID, secvențe, batch, alarme. Înregistrare continuă a tuturor variabilelor cu rezoluție 100ms, rapoarte PDF automate, arhivare SQL. Comunicație nativă cu senzori JUMO prin RS485, dar și cu echipamente terțe prin Modbus, OPC, BACnet. Receptor SMS pentru alarme la telefon. Aplicații: sterilizare, pasteurizare, fermentare, congelare, uscare, distilare.'
       }
     ],
     certifications: [
@@ -558,14 +558,14 @@ Ceea ce ne face preferați de inginerii de proces este versatilitatea: același 
     founded: 1935,
     headquarters: 'Winnenden, Germania',
     employees: '14,000+',
-    overview: `Kärcher este un producător german de echipamente de curățenie profesională și industrială, cu rețea de distribuție în peste 190 de țări. De peste 85 de ani dezvoltăm și producem mașini de spălat cu presiune, aspiratoare industriale, mașini de spălat pardoseli și sisteme complete de curățare pentru fabrici, depozite, parcări, aeroporturi și spații publice. Cu peste 14,000 de angajați și prezență în 190 de țări, Kärcher stabilește standardele în eficiență, durabilitate și sustenabilitate.
+    overview: `Kärcher este un producător german de echipamente de curățenie profesională și industrială, cu rețea de distribuție internațională. De peste 85 de ani dezvoltă și produce mașini de spălat cu presiune, aspiratoare industriale, mașini de spălat pardoseli și sisteme complete de curățare pentru fabrici, depozite, parcări, aeroporturi și spații publice. Kärcher este cunoscut pentru eficiență, durabilitate și sustenabilitate.
 
-Gama noastră industrială începe de la mașini mobile pentru curățare zilnică și ajunge până la sisteme robotizate complet automatizate care curăță 10,000 m² pe oră fără operator. Folosim tehnologii brevitate precum iCapsol (spumă uscată cu consum 90% mai mic de apă), ec!iciency (motoare brushless care consumă cu 50% mai puțin curent) și KART (navigație laser autonomă). Fiecare mașină Kärcher Industrial este construită în fabricile producătorului din Germania pentru a rezista la utilizare intensivă 8-16 ore pe zi, 7 zile pe săptămână, ani la rând.
+Gama industrială Kärcher începe de la mașini mobile pentru curățare zilnică și ajunge până la sisteme robotizate complet automatizate care curăță suprafețe mari fără operator. Producătorul folosește tehnologii proprii precum iCapsol (spumă uscată cu consum redus de apă), ec!iciency (motoare brushless cu consum redus de curent) și KART (navigație laser autonomă). Fiecare mașină Kärcher Industrial este construită în fabricile producătorului din Germania pentru a rezista la utilizare intensivă 8-16 ore pe zi, 7 zile pe săptămână, ani la rând.
 
-Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 1,000 de brevete active pentru tehnologii de pulverizare, aspirare, filtrare și robotică. Toate produsele sunt testate în laboratoare proprii la zeci de mii de ore funcționare simulată înainte de lansare. Rezultatul: utilaje care își mențin performanța și eficiența chiar și după 10,000-15,000 ore de utilizare, cu costuri de mentenanță minime și timp de nefuncționare aproape zero.`,
+Kärcher investește constant în cercetare și dezvoltare, cu tehnologii proprii de pulverizare, aspirare, filtrare și robotică. Produsele sunt testate în laborator la zeci de mii de ore funcționare simulată înainte de lansare. Rezultatul: utilaje care își mențin performanța și eficiența chiar și după mii de ore de utilizare, cu costuri de mentenanță minime și timp de nefuncționare redus.`,
     whyChoose: [
-      'Tehnologie ec!iciency - motoare brushless EC consumă cu 50% mai puțin decât motoare clasice AC',
-      'Sistem iCapsol cu spumă uscată - curățare profundă cu 90% mai puțin apă decât spălare tradițională',
+      'Tehnologie ec!iciency - motoare brushless EC cu consum redus față de motoare clasice AC',
+      'Sistem iCapsol cu spumă uscată - curățare profundă cu consum redus de apă față de spălarea tradițională',
       'Construcție heavy-duty germană - cadru sudat oțel, componente metalice, zero plastic fragil',
       'Filtre HEPA H13/H14 - aspirare 99.995% particule până la 0.3 µm pentru clean rooms',
       'Autonomie 4-8 ore funcționare continuă - baterii Li-Ion cu încărcare rapidă 80% în 2 ore',
@@ -574,19 +574,19 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
     keyProducts: [
       {
         name: 'Mașini spălat-aspirat pardoseli B 150/200 R',
-        description: 'Autolăvătoarele noastre ride-on (cu operator îmbarcat) curăță între 5,000-8,000 m²/oră în depozite, fabrici, parcări, hangare. Lățime lucru 85-105 cm, capacitate tanc apă curată 150-200 litri, autonomie 4 ore funcționare cu baterie AGM sau Li-Ion. Sistem DOSE intelligent dozează automat detergent în funcție de viteza de deplasare și gradul de murdărire. Perii cilindrice sau discuri rotative, presiune reglabilă 25-80 kg. Racleta aspirare full-width din neopren recuperează 99% apă - pardoseala rămâne uscată în 2 minute, circulabil imediat. Display multifuncțional cu indicatori baterie, nivel apă, ore funcționare, coduri eroare. Certificare IP55 pentru lavare cu jet.'
+        description: 'Autolăvătoarele ride-on (cu operator îmbarcat) curăță între 5,000-8,000 m²/oră în depozite, fabrici, parcări, hangare. Lățime lucru 85-105 cm, capacitate tanc apă curată 150-200 litri, autonomie 4 ore funcționare cu baterie AGM sau Li-Ion. Sistem DOSE intelligent dozează automat detergent în funcție de viteza de deplasare și gradul de murdărire. Perii cilindrice sau discuri rotative, presiune reglabilă 25-80 kg. Racleta aspirare full-width din neopren recuperează majoritatea apei folosite - pardoseala se usucă rapid și devine circulabilă. Display multifuncțional cu indicatori baterie, nivel apă, ore funcționare, coduri eroare. Certificare IP55 pentru lavare cu jet.'
       },
       {
         name: 'Aspiratoare industriale IVR/IVC/NT',
-        description: 'Gama noastră de aspiratoare industriale acoperă puterea de la 1,400W (IVR-L) până la 7,500W (IVC 60/24 trifazat). Motoare cu turbină bypass pentru aspirare continuă fără supraîncălzire, filtre HEPA H13 pentru particule fine, containere din inox 30-100 litri cu golire rapidă. Versiuni pentru praf uscat (clasa L/M conform BG Bau), lichide, șpan metalic, cenușă caldă (până 40°C). Sistem de curățare filtru semi-automat sau automat - bat filtrul fără să oprești aspirarea. Accesorii profesionale: furtun antistat 3-7m, perii antistatice pentru ESD, duze înguste pentru mașini CNC. Aspiratoare ATEX pentru pulberi explozive zona 22.'
+        description: 'Gama de aspiratoare industriale acoperă puterea de la 1,400W (IVR-L) până la 7,500W (IVC 60/24 trifazat). Motoare cu turbină bypass pentru aspirare continuă fără supraîncălzire, filtre HEPA H13 pentru particule fine, containere din inox 30-100 litri cu golire rapidă. Versiuni pentru praf uscat (clasa L/M conform BG Bau), lichide, șpan metalic, cenușă caldă (până 40°C). Sistem de curățare filtru semi-automat sau automat - bat filtrul fără să oprești aspirarea. Accesorii profesionale: furtun antistat 3-7m, perii antistatice pentru ESD, duze înguste pentru mașini CNC. Aspiratoare ATEX pentru pulberi explozive zona 22.'
       },
       {
         name: 'Mașini spălat cu presiune HDS',
-        description: 'Spălătoarele noastre cu apă caldă HDS generează jet de până la 200 bar presiune și 155°C temperatură pentru degreasing puternic. Boiler inox sau cupru cu arzător eco!efficiency consumă motorină sau GPL cu eficiență 93%. Debit 500-1200 litri/oră reglabil treptat. Pompă profesională cu pistoane ceramice durată viață 2,000 ore la presiune maximă. Cadru din oțel sudat pe roți pneumatice, tambur furtun integrat, conectare apă rece 1/2" sau 3/4", alimentare 230V sau 400V. Sistem EASY!Force pe pistolet reduce efortul operatorului cu 50%. Versiuni staționar pentru spălătorii camioane sau utilaje agricole.'
+        description: 'Spălătoarele cu apă caldă HDS generează jet de până la 200 bar presiune și 155°C temperatură pentru degreasing puternic. Boiler inox sau cupru cu arzător eco!efficiency consumă motorină sau GPL cu eficiență 93%. Debit 500-1200 litri/oră reglabil treptat. Pompă profesională cu pistoane ceramice durată viață 2,000 ore la presiune maximă. Cadru din oțel sudat pe roți pneumatice, tambur furtun integrat, conectare apă rece 1/2" sau 3/4", alimentare 230V sau 400V. Sistem EASY!Force pe pistolet reduce efortul operatorului la utilizare. Versiuni staționar pentru spălătorii camioane sau utilaje agricole.'
       },
       {
         name: 'Roboți de curățare autonomi KIRA',
-        description: 'Platforma noastră KIRA (Kärcher Intelligent Robotic Assistant) este un autolăvător complet autonom care navighează prin hale industriale folosind LIDAR și camere 3D. Programezi traseul o dată prin aplicație mobilă, apoi robotul execută curățarea zilnic la ora setată fără operator. Detectare obstacole dinamice (persoane, stivuitoare, palete) și recalculare traseu în timp real. Capacitate tanc 70 litri, autonomie 4 ore, lățime lucru 65 cm, viteză 0-5 km/h. Statistici de utilizare în cloud: m² curățați, ore funcționare, consumabil rămași, necesitate service. Perfect pentru curățare nocturnă în magazine, aeroporturi, spitale când nu este trafic.'
+        description: 'Platforma KIRA (Kärcher Intelligent Robotic Assistant) este un autolăvător complet autonom care navighează prin hale industriale folosind LIDAR și camere 3D. Programezi traseul o dată prin aplicație mobilă, apoi robotul execută curățarea zilnic la ora setată fără operator. Detectare obstacole dinamice (persoane, stivuitoare, palete) și recalculare traseu în timp real. Capacitate tanc 70 litri, autonomie 4 ore, lățime lucru 65 cm, viteză 0-5 km/h. Statistici de utilizare în cloud: m² curățați, ore funcționare, consumabil rămași, necesitate service. Perfect pentru curățare nocturnă în magazine, aeroporturi, spitale când nu este trafic.'
       }
     ],
     certifications: [
@@ -601,7 +601,7 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
     ],
     industries: [
       'Manufacturing - curățare hale producție, mașini CNC, benzi rulante',
-      'Logistics - depozite, centre distributie, rampe încărcare',
+      'Logistics - depozite, centre distribuție, rampe încărcare',
       'Automotive - service-uri, spălătorii camioane, hale vopsitorie',
       'Food & Beverage - curățare sanitară spații producție, ambalare',
       'Retail - hypermarket-uri, mall-uri, parcări subterane',
@@ -620,15 +620,15 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
     productCodes: [
       {
         "code": "K-Mop 46",
-        "description": "masina compacta de spalat pardoseli pentru spatii aglomerate"
+        "description": "mașină compactă de spălat pardoseli pentru spații aglomerate"
       },
       {
         "code": "B 80 W",
-        "description": "masina de spalat-aspirat pardoseli cu detectie automata a suprafetei"
+        "description": "mașină de spălat-aspirat pardoseli cu detecție automată a suprafeței"
       },
       {
         "code": "B 150 R Bp DOSE",
-        "description": "masina cu baterie pentru spalat pardoseli, dozare automata solutie"
+        "description": "mașină cu baterie pentru spălat pardoseli, dozare automată soluție"
       },
       {
         "code": "BR 45/22",
@@ -636,19 +636,19 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
       },
       {
         "code": "BR 35/12",
-        "description": "masina compacta de spalat pardoseli, latime lucru redusa"
+        "description": "mașină compactă de spălat pardoseli, lățime lucru redusă"
       },
       {
         "code": "BR 30/4",
-        "description": "masina manuala compacta pentru curatare pardoseli mici"
+        "description": "mașină manuală compactă pentru curățare pardoseli mici"
       },
       {
         "code": "B 40/10",
-        "description": "masina de spalat pardoseli cu rezervor de capacitate medie"
+        "description": "mașină de spălat pardoseli cu rezervor de capacitate medie"
       },
       {
         "code": "BD 38/12 FL",
-        "description": "masina cu freza pentru spalat pardoseli industriale"
+        "description": "mașină cu freză pentru spălat pardoseli industriale"
       },
       {
         "code": "IVR-L",
@@ -678,7 +678,7 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un aspirator industrial Karcher?",
-        "a": "Este nevoie de tipul materialului aspirat (praf, lichid sau ambele), clasa de praf cerută (L, M sau H), dacă zona este clasificata Atex și capacitatea rezervorului dorită. Pentru aplicații cu pulberi combustibile menționați explicit necesitatea certificarii pentru zona 22, deoarece aceasta schimbă seria recomandată din gamă IVR sau dedusteri."
+        "a": "Este nevoie de tipul materialului aspirat (praf, lichid sau ambele), clasa de praf cerută (L, M sau H), dacă zona este clasificată Atex și capacitatea rezervorului dorită. Pentru aplicații cu pulberi combustibile menționați explicit necesitatea certificării pentru zona 22, deoarece aceasta schimbă seria recomandată din gamă IVR sau dedusteri."
       },
       {
         "q": "Cum aleg între o mașină de spălat pardoseli cu baterie și una cu cablu la Karcher?",
@@ -697,13 +697,13 @@ Investim anual peste 100 milioane EUR în cercetare și dezvoltare - avem peste 
     founded: 1974,
     headquarters: 'Winterthur, Elveția',
     employees: '350+',
-    overview: `Keller este producător elvețian de traductoare și transmițătoare de presiune piezoresistive de înaltă precizie. De 50 de ani dezvoltăm senzori pentru măsurarea presiunii în aplicații industriale, hidrologie, geotehnică, automotive și aerospace unde precizia, stabilitatea pe termen lung și fiabilitatea sunt absolut critice. Fabrica noastră din Winterthur produce anual peste 200,000 de traductoare exportate în 80 de țări, fiecare calibrat individual și certificat.
+    overview: `Keller este producător elvețian de traductoare și transmițătoare de presiune piezoresistive de înaltă precizie. De 50 de ani dezvoltă senzori pentru măsurarea presiunii în aplicații industriale, hidrologie, geotehnică, automotive și aerospace unde precizia, stabilitatea pe termen lung și fiabilitatea sunt absolut critice. Fabrica din Winterthur exportă traductoare la nivel internațional, fiecare calibrat individual și certificat.
 
-Tehnologia producătorului se bazează pe celule piezoresistive cu membrană de silicone monocristalin pe care sunt difuzați rezistori Wheatstone. Când presiunea deformează membrana cu câțiva micrometri, rezistența electrică se modifică proporțional, generând un semnal electric precis și stabil. Compensăm temperatura folosind rezistori integrati pe același chip și algoritmi digitali care corectează derივarea termică până la ±0.05% FS pe întregul domeniu -40°C până +125°C.
+Tehnologia producătorului se bazează pe celule piezoresistive cu membrană de silicone monocristalin pe care sunt difuzați rezistori Wheatstone. Când presiunea deformează membrana cu câțiva micrometri, rezistența electrică se modifică proporțional, generând un semnal electric precis și stabil. Temperatura este compensată prin rezistori integrați pe același chip și algoritmi digitali care corectează deriva termică până la ±0.05% FS pe întregul domeniu -40°C până +125°C.
 
-Avem expertiză extinsă în aplicații extreme: traductoare submersibile până la 5,000 metri adâncime oceană, senzori pentru 700 bar presiune hidraulică în prese de forjare, transmițătoare wireless pentru monitorizare baraje cu autonomie 10 ani pe baterie. Colaborăm cu NASA pentru senzori aerospace, cu Schlumberger pentru sonde petroliere de 10 km adâncime și cu CERN pentru sisteme criogenice la -269°C. Dacă măsurarea trebuie să fie perfectă, alegi Keller.`,
+Keller are expertiză extinsă în aplicații extreme: traductoare submersibile până la 5,000 metri adâncime oceană, senzori pentru 700 bar presiune hidraulică în prese de forjare, transmițătoare wireless pentru monitorizare baraje cu autonomie 10 ani pe baterie, folosite în aerospațial, industria petrolieră și cercetare științifică.`,
     whyChoose: [
-      'Acuratețe 0.05% FS - de 10 ori mai bună decât traductoare industriale standard',
+      'Acuratețe 0.05% FS - precizie ridicată pentru aplicații critice',
       'Stabilitate pe termen lung <0.1% pe an - zero necesitate recalibrare anuală',
       'Compensare temperatură digitală -40°C până +125°C - eroare termică sub 0.05% FS',
       'Membrană titlan sau Hastelloy - rezistență totală la apă de mare, acizi, baze',
@@ -713,15 +713,15 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
     keyProducts: [
       {
         name: 'Traductoare seria 33X pentru nivel apă',
-        description: 'Traductoarele noastre submersibile 33X sunt utilizate pe scară largă pentru măsurarea nivelului în fântâni, puțuri, rezervoare, râuri și lacuri. Domenii de presiune de la 0-1 mH2O până la 0-500 mH2O (echivalent 5-5000 metri adâncime). Membrană ceramică Al2O3 sau titan, carcasă inox 316L sau titan pur pentru apă de mare. Compensare barometrică automată prin tub capilary în cablu sau senzor barometric integrat. Acuratețe 0.1% FS, stabilitate 0.1% pe an. Cablu poliuretan (PU) sau FEP ranforsat cu kevlar, rezistent UV și abraziune. Ieșire 4-20mA, 0-10V sau Modbus RTU. Certificare IP68 și testare la 2x presiune nominală.'
+        description: 'Traductoarele submersibile 33X sunt utilizate pe scară largă pentru măsurarea nivelului în fântâni, puțuri, rezervoare, râuri și lacuri. Domenii de presiune de la 0-1 mH2O până la 0-500 mH2O (echivalent 5-5000 metri adâncime). Membrană ceramică Al2O3 sau titan, carcasă inox 316L sau titan pur pentru apă de mare. Compensare barometrică automată prin tub capilary în cablu sau senzor barometric integrat. Acuratețe 0.1% FS, stabilitate 0.1% pe an. Cablu poliuretan (PU) sau FEP ranforsat cu kevlar, rezistent UV și abraziune. Ieșire 4-20mA, 0-10V sau Modbus RTU. Certificare IP68 și testare la 2x presiune nominală.'
       },
       {
         name: 'Transmițătoare seria 21/25/35Y pentru industrie',
-        description: 'Gama noastră industrială acoperă presiuni de la 0-100 mbar până la 0-1000 bar, absolute sau relative. Celulă piezoresistivă compensată digital oferă acuratețe 0.05% sau 0.1% FS, stabilitate excepțională și răspuns sub 1ms. Carcasă compactă inox 316L cu conexiune G1/4", G1/2", NPT1/4" sau flanșă. Versiuni cu membrană flush pentru lichide vâscoase, pasta, pulbere. Alimentare 10-30VDC, ieșire 4-20mA, 0-10V, 0-5V sau RS485. Certificare ATEX/IECEx pentru zona 0/1 gaz și praf. Opțiune display LCD local și taste programare pentru configurare în câmp fără PC.'
+        description: 'Gama industrială acoperă presiuni de la 0-100 mbar până la 0-1000 bar, absolute sau relative. Celulă piezoresistivă compensată digital oferă acuratețe 0.05% sau 0.1% FS, stabilitate ridicată și răspuns sub 1ms. Carcasă compactă inox 316L cu conexiune G1/4", G1/2", NPT1/4" sau flanșă. Versiuni cu membrană flush pentru lichide vâscoase, pasta, pulbere. Alimentare 10-30VDC, ieșire 4-20mA, 0-10V, 0-5V sau RS485. Certificare ATEX/IECEx pentru zona 0/1 gaz și praf. Opțiune display LCD local și taste programare pentru configurare în câmp fără PC.'
       },
       {
         name: 'Datalogger-uri wireless seria ARC/DCX',
-        description: 'Sistemele noastre de achiziție date wireless combină traductorul de presiune cu modul de transmisie LoRa, NB-IoT sau GSM. Înregistrare la interval configurabil 1 minut - 24 ore, memorie 10,000-50,000 înregistrări. Transmisie date prin radio la gateway (LoRa până 10 km în câmp deschis) sau direct în cloud prin celular. Alimentare baterie litiu 3.6V autonomie 5-10 ani în funcție de interval transmisie. Display e-ink pentru vizualizare locală fără consum. Aplicații: monitorizare nivel acvifere, presiune conducte distributie apă, deformare diguri și baraje, zăpadă pe acoperișuri.'
+        description: 'Sistemele de achiziție date wireless combină traductorul de presiune cu modul de transmisie LoRa, NB-IoT sau GSM. Înregistrare la interval configurabil 1 minut - 24 ore, memorie 10,000-50,000 înregistrări. Transmisie date prin radio la gateway (LoRa până 10 km în câmp deschis) sau direct în cloud prin celular. Alimentare baterie litiu 3.6V autonomie 5-10 ani în funcție de interval transmisie. Display e-ink pentru vizualizare locală fără consum. Aplicații: monitorizare nivel acvifere, presiune conducte distribuție apă, deformare diguri și baraje, zăpadă pe acoperișuri.'
       },
       {
         name: 'Traductoare diferențiale seria PD-39X',
@@ -740,7 +740,7 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
     ],
     industries: [
       'Hydrology - monitorizare nivel acvifere, râuri, lacuri, fântâni',
-      'Water Supply - rețele distributie, rezervoare, stații pompare',
+      'Water Supply - rețele distribuție, rezervoare, stații pompare',
       'Oil & Gas - sonde producție, conducte transport, platforme offshore',
       'Geotechnical - monitorizare stabilitate versanți, tuneluri, baraje',
       'HVAC - control presiune, filtre, ventilatoare, camere curate',
@@ -768,11 +768,11 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         "code": "Series 35X",
-        "description": "traductor de presiune cu membrana frontala, variantă rasfrant"
+        "description": "traductor de presiune cu membrană frontală, variantă răsfrânt"
       },
       {
         "code": "Series 35HTCX",
-        "description": "traductor cu membrana frontala pentru temperaturi ridicate"
+        "description": "traductor cu membrană frontală pentru temperaturi ridicate"
       },
       {
         "code": "Series PD-33X",
@@ -784,7 +784,7 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         "code": "Series PD-39X-Ei",
-        "description": "traductor diferential cu certificare intrinsec sigura"
+        "description": "traductor diferențial cu certificare intrinsec sigură"
       },
       {
         "code": "Series 21Y",
@@ -808,7 +808,7 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         "code": "Series 36XW",
-        "description": "sonda de nivel submersibila pentru masurarea apei"
+        "description": "sondă de nivel submersibilă pentru măsurarea apei"
       },
       {
         "code": "DCX-22",
@@ -822,14 +822,14 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
       },
       {
         "q": "Livrați traductoare de presiune Keller în România?",
-        "a": "Da, aducem la comandă traductoare din seriile 33X, PD-39X sau dataloggere DCX, pe baza codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni la comandă. Transmiteti codul complet de pe eticheta pentru identificarea rapidă a variantei corecte."
+        "a": "Da, aducem la comandă traductoare din seriile 33X, PD-39X sau dataloggere DCX, pe baza codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni la comandă. Transmiteți codul complet de pe eticheta pentru identificarea rapidă a variantei corecte."
       },
       {
-        "q": "Ce date trimit pentru o oferta de traductor Keller?",
-        "a": "Precizati domeniul de presiune necesar, tipul de mediu măsurat, temperatura de lucru, tipul de ieșire electrică (4-20 mA, RS485 sau tensiune) și dacă este nevoie de certificare pentru zone explozive. Dacă înlocuiți un traductor existent, codul complet de pe eticheta acestuia grăbește identificarea variantei echivalente din gama actuală."
+        "q": "Ce date trimit pentru o ofertă de traductor Keller?",
+        "a": "Precizați domeniul de presiune necesar, tipul de mediu măsurat, temperatura de lucru, tipul de ieșire electrică (4-20 mA, RS485 sau tensiune) și dacă este nevoie de certificare pentru zone explozive. Dacă înlocuiți un traductor existent, codul complet de pe eticheta acestuia grăbește identificarea variantei echivalente din gama actuală."
       },
       {
-        "q": "Ce este un traductor diferential precum Series PD-39X de la Keller?",
+        "q": "Ce este un traductor diferențial precum Series PD-39X de la Keller?",
         "a": "Un traductor diferențial măsoară diferența de presiune între două puncte ale unei instalații, utilă la filtre colmatate, debitmetre sau nivel în rezervoare închise. Seria PD-39X este gândită pentru aplicații industriale exigente, iar varianta PD-39X-Ei adaugă certificare intrinsec sigură pentru zone cu risc de explozie. Selectarea corectă ține cont de domeniul diferențial și de mediul de lucru."
       }
     ],
@@ -845,23 +845,23 @@ Avem expertiză extinsă în aplicații extreme: traductoare submersibile până
     founded: 1929,
     headquarters: 'München, Germania',
     employees: '2,500+',
-    overview: `Klüber Lubrication este un producător german specializat în lubrifianți speciali de înaltă performanță pentru aplicații industriale extreme unde unsori și uleiuri convenționale eșuează. De peste 90 de ani dezvoltăm formulări unice pentru temperaturi de la -70°C până +1200°C, viteze de rotație de peste 100,000 rpm, vid înalt 10⁻⁹ mbar, radiații nucleare, compatibilitate oxigen pur, contactul cu alimente și medicamente. Cu peste 2,500 de specialiști în 270 de locații mondiale, Klüber combină chimia de vârf cu expertiză aplicativă profundă.
+    overview: `Klüber Lubrication este un producător german specializat în lubrifianți speciali de înaltă performanță pentru aplicații industriale extreme unde unsori și uleiuri convenționale eșuează. De peste 90 de ani dezvoltă formulări unice pentru temperaturi de la -70°C până +1200°C, viteze de rotație de peste 100,000 rpm, vid înalt 10⁻⁹ mbar, radiații nucleare, compatibilitate oxigen pur, contactul cu alimente și medicamente. Klüber combină chimia de vârf cu expertiză aplicativă profundă.
 
-Portofoliul nostru cuprinde peste 3,000 de formulări specializate: unsori sintetice pe bază PFPE sau PAO pentru temperaturi extreme, uleiuri de înaltă performanță pentru reductoare și lagăre, paste de asamblare, lubrifianți solizi MoS2 sau PTFE, fluide de răcire pentru prelucrări metalice. Fiecare produs Klüber este optimizat pentru o aplicație specifică și testat în laboratoarele noastre până la milioane de cicluri sau mii de ore funcționare înainte de lansare comercială.
+Portofoliul Klüber cuprinde formulări specializate: unsori sintetice pe bază PFPE sau PAO pentru temperaturi extreme, uleiuri de înaltă performanță pentru reductoare și lagăre, paste de asamblare, lubrifianți solizi MoS2 sau PTFE, fluide de răcire pentru prelucrări metalice. Fiecare produs Klüber este optimizat pentru o aplicație specifică și testat în laborator până la milioane de cicluri sau mii de ore funcționare înainte de lansare comercială.
 
-Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klüber, primești acces la o echipă de tribologi care analizează aplicația ta, testează compatibilitatea materialelor, calculează intervalul de reungere și monitorizează performanța în timp. Colaborăm cu BMW pentru unsori transmisii electrice, cu SKF pentru preungere lagăre, cu NASA pentru lubrifianți aerospace și cu Nestlé pentru unsori food-grade. Unde fiabilitatea contează mai mult decât prețul, alegi Klüber.`,
+Ceea ce diferențiază Klüber este suportul tehnic: când cumperi un lubrifiant Klüber, primești acces la o echipă de tribologi care analizează aplicația ta, testează compatibilitatea materialelor, calculează intervalul de reungere și monitorizează performanța în timp. Klüber furnizează unsori pentru transmisii electrice auto, lagăre industriale, aplicații aerospace și unsori food-grade pentru industria alimentară.`,
     whyChoose: [
       'Domeniu temperatură -70°C până +1200°C - unsori formulate pentru condiții de temperatură extremă',
       'Formulări sintetice PFPE - inerți chimic total, compatibili oxigen pur, nu ard, nu oxidează',
       'NSF H1 food-grade - contactul accidental cu alimentele este sigur conform FDA',
       'Durată viață extinsă - intervaluri reungere de 5-10 ori mai mari decât unsori minerale',
-      'Compatibilitate perfectă - teste de compatibilitate elastomeri, plastice, vopsele înainte aplicare',
+      'Compatibilitate verificată - teste de compatibilitate elastomeri, plastice, vopsele înainte aplicare',
       'Suport tribologic complet - analiză aplicație, teste în laborator, monitorizare performanță'
     ],
     keyProducts: [
       {
         name: 'Unsoare Klüberplex BEM 41-141',
-        description: 'Unsoarea noastră universală pe bază PAO sintetic cu săpun barium este standard în industria automotive pentru rulmenți roți, pivot direcție, articulații cardanice. Interval temperatură -40°C până +140°C, rezistență excelentă la apă și spălare, protecție antiuzură și coroziune superioară. Consistență NLGI 2, penetrație lucru 265-295 dmm, picurare >180°C. Testată 500,000 km în SKF Explorer bearings fără reungere. Compatibilă NBR, FKM, EPDM. Ambalare tuburi 100g-1kg, bidoane 5-25 kg, butoaie 180 kg. Aprobări OEM: BMW, Mercedes, VW, Volvo.'
+        description: 'Unsoarea universală pe bază PAO sintetic cu săpun barium este folosită frecvent în industria automotive pentru rulmenți roți, pivot direcție, articulații cardanice. Interval temperatură -40°C până +140°C, rezistență excelentă la apă și spălare, protecție antiuzură și coroziune superioară. Consistență NLGI 2, penetrație lucru 265-295 dmm, picurare >180°C. Testată 500,000 km în SKF Explorer bearings fără reungere. Compatibilă NBR, FKM, EPDM. Ambalare tuburi 100g-1kg, bidoane 5-25 kg, butoaie 180 kg. Aprobări OEM: BMW, Mercedes, VW, Volvo.'
       },
       {
         name: 'Unsoare înaltă temperatură Klübertemp GR RT 15',
@@ -869,11 +869,11 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       },
       {
         name: 'Ulei sintetic Klübersynth GH 6',
-        description: 'Ulei sintetic PAO de înaltă performanță pentru reductoare industriale cu șurub, roți dințate sau planetare la temperaturi -40°C până +120°C. Vâscozitate ISO VG 150-680, indice vâscozitate >140 asigură film lubrifiant stabil la orice temperatură. Aditivi EP/AW reduc uzura cu 50% față de uleiuri minerale. Interval schimb 5,000-8,000 ore față de 2,000 ore pentru minerale. Compatibilitate perfectă cu etanșări NBR/FKM și vopsele industriale. Folosit în reductoare Flender, SEW, Bonfiglioli, Nord. Bidon 5-20 litri, butoaie 60-200 litri.'
+        description: 'Ulei sintetic PAO de înaltă performanță pentru reductoare industriale cu șurub, roți dințate sau planetare la temperaturi -40°C până +120°C. Vâscozitate ISO VG 150-680, indice vâscozitate >140 asigură film lubrifiant stabil la orice temperatură. Aditivi EP/AW reduc uzura față de uleiuri minerale. Interval schimb 5,000-8,000 ore față de 2,000 ore pentru minerale. Compatibilitate verificată cu etanșări NBR/FKM și vopsele industriale. Folosit în reductoare Flender, SEW, Bonfiglioli, Nord. Bidon 5-20 litri, butoaie 60-200 litri.'
       },
       {
         name: 'Unsoare food-grade Klüberfood NH1 94',
-        description: 'Unsoarea noastră NSF H1 registered este formulată special pentru contactul accidental cu alimentele conform FDA 21 CFR 178.3570. Bază PAO sintetic + îngroșător aluminiu complex, fără miros, fără gust, culoare albă. Temperatură -30°C până +140°C, rezistență la apă și detergenți alcalini din spălări CIP. NLGI 2, penetrație 265-295 dmm. Aplicații: rulmenți motoare transportoare, angrenaje mixer, lanțuri paletizare, valve pneumatice în industria alimentară, farmaceutică, cosmetice. Certificări: NSF H1, Halal, Kosher. Cartuș 400g, bidon 1-5 kg, galeată 18 kg.'
+        description: 'Unsoarea NSF H1 registered este formulată special pentru contactul accidental cu alimentele conform FDA 21 CFR 178.3570. Bază PAO sintetic + îngroșător aluminiu complex, fără miros, fără gust, culoare albă. Temperatură -30°C până +140°C, rezistență la apă și detergenți alcalini din spălări CIP. NLGI 2, penetrație 265-295 dmm. Aplicații: rulmenți motoare transportoare, angrenaje mixer, lanțuri paletizare, valve pneumatice în industria alimentară, farmaceutică, cosmetice. Certificări: NSF H1, Halal, Kosher. Cartuș 400g, bidon 1-5 kg, galeată 18 kg.'
       }
     ],
     certifications: [
@@ -908,11 +908,11 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
     productCodes: [
       {
         "code": "Klueberplex BEM 41-141",
-        "description": "unsoare pe baza de litiu pentru rulmenti la turatii medii"
+        "description": "unsoare pe bază de litiu pentru rulmenți la turații medii"
       },
       {
         "code": "Klueberalfa BF 83-102",
-        "description": "unsoare fluorurata pentru medii chimic agresive"
+        "description": "unsoare fluorurată pentru medii chimic agresive"
       },
       {
         "code": "Klueberalfa RM 93-101",
@@ -920,19 +920,19 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       },
       {
         "code": "BARRIERTA L 55/2",
-        "description": "unsoare pe baza de PFPE pentru medii extreme"
+        "description": "unsoare pe bază de PFPE pentru medii extreme"
       },
       {
         "code": "BARRIERTA KM 192",
-        "description": "unsoare de bariera pentru contact cu chimicale agresive"
+        "description": "unsoare de barieră pentru contact cu chimicale agresive"
       },
       {
         "code": "Klubersynth BQP 72-82",
-        "description": "unsoare sintetica pentru rulmenti la turatii ridicate"
+        "description": "unsoare sintetică pentru rulmenți la turații ridicate"
       },
       {
         "code": "Klubersynth UH1 64-2403",
-        "description": "unsoare sintetica avizata pentru contact incidental cu alimente"
+        "description": "unsoare sintetică avizată pentru contact incidental cu alimente"
       },
       {
         "code": "Klueberfood NH1 94-301",
@@ -940,11 +940,11 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       },
       {
         "code": "Klueberfood NH1 94-6000",
-        "description": "unsoare food-grade cu vascozitate mai mare pentru sarcini medii"
+        "description": "unsoare food-grade cu vâscozitate mai mare pentru sarcini medii"
       },
       {
         "code": "ISOFLEX PDL 300 A",
-        "description": "unsoare de precizie pentru mecanisme fine și rulmenti mici"
+        "description": "unsoare de precizie pentru mecanisme fine și rulmenți mici"
       },
       {
         "code": "CENTOPLEX GLP 500",
@@ -964,29 +964,29 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
       },
       {
         "code": "Klubertherm chain oil",
-        "description": "ulei pentru lanturi la temperaturi de lucru ridicate"
+        "description": "ulei pentru lanțuri la temperaturi de lucru ridicate"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între unsorile Kluber Klueberplex și Klubersynth?",
-        "a": "Klueberplex folosește de regulă un ulei de bază mineral sau semisintetic, potrivit pentru rulmenți la turații medii și sarcini uzuale. Klubersynth are ulei de bază sintetic, ceea ce îi oferă stabilitate mai buna la temperaturi ridicate și la turații mari, fiind recomandat în aplicații mai solicitante. Alegerea corectă depinde de turația, temperatură și sarcină din aplicația respectivă."
+        "a": "Klueberplex folosește de regulă un ulei de bază mineral sau semisintetic, potrivit pentru rulmenți la turații medii și sarcini uzuale. Klubersynth are ulei de bază sintetic, ceea ce îi oferă stabilitate mai bună la temperaturi ridicate și la turații mari, fiind recomandat în aplicații mai solicitante. Alegerea corectă depinde de turația, temperatură și sarcină din aplicația respectivă."
       },
       {
         "q": "Livrați unsori și uleiuri Kluber în România?",
-        "a": "Da, aducem la comandă produse din gamele Klueberplex, Klubersynth sau Klueberfood, pe baza codului exact solicitat de client. Nu avem această gamă pe raft și ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteti codul complet de pe fișa tehnică pentru a evita confuzia între variante apropiate."
+        "a": "Da, aducem la comandă produse din gamele Klueberplex, Klubersynth sau Klueberfood, pe baza codului exact solicitat de client. Nu avem această gamă pe raft și ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteți codul complet de pe fișa tehnică pentru a evita confuzia între variante apropiate."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de lubrifiant Klueber?",
-        "a": "Menționati aplicația exactă (rulment, angrenaj, lant sau compresor), domeniul de temperatură de funcționare, sarcină și turația, plus dacă este necesară o certificare pentru contact incidental cu alimente. Codul complet al produsului existent, dacă înlocuiți un lubrifiant deja folosit, ajută mult la identificarea variantei echivalente din gamă actuală Klueber."
+        "a": "Menționati aplicația exactă (rulment, angrenaj, lanț sau compresor), domeniul de temperatură de funcționare, sarcină și turația, plus dacă este necesară o certificare pentru contact incidental cu alimente. Codul complet al produsului existent, dacă înlocuiți un lubrifiant deja folosit, ajută mult la identificarea variantei echivalente din gamă actuală Klueber."
       },
       {
-        "q": "Ce inseamna certificarea alimentara la o unsoare Klueberfood?",
+        "q": "Ce înseamnă certificarea alimentara la o unsoare Klueberfood?",
         "a": "Gama Klueberfood este formulată pentru a fi folosită în zone unde există posibilitatea unui contact incidental cu produse alimentare, respectând cerințe specifice industriei alimentare și farmaceutice. Codurile NH1 94-301 și NH1 94-6000 diferă prin vâscozitate, fiind alese în funcție de sarcina mecanismului lubrifiat. Documentația oficială a producătorului confirmă domeniul exact de utilizare admis."
       },
       {
         "q": "Ce este unsoarea BARRIERTA de la Klueber și când se folosește?",
-        "a": "BARRIERTA este o gamă de unsori pe bază de PFPE, rezistente la atacul chimic al solventilor, acizilor sau bazelor, fiind folosite acolo unde lubrifianții uzuali s-ar degrada rapid. Variantele L 55/2 și KM 192 diferă prin consistenta și domeniul de temperatură recomandat. Alegerea corectă se face după fișa tehnică a mediului chimic prezent în instalație."
+        "a": "BARRIERTA este o gamă de unsori pe bază de PFPE, rezistente la atacul chimic al solvenților, acizilor sau bazelor, fiind folosite acolo unde lubrifianții uzuali s-ar degrada rapid. Variantele L 55/2 și KM 192 diferă prin consistența și domeniul de temperatură recomandat. Alegerea corectă se face după fișa tehnică a mediului chimic prezent în instalație."
       }
     ],
     evidenceClass: 'transactional',
@@ -1001,11 +1001,11 @@ Ceea ce ne diferențiază este suportul tehnic: când cumperi un lubrifiant Klü
     founded: 1980,
     headquarters: 'Hofheim am Taunus, Germania',
     employees: '500+',
-    overview: `Kobold Messring este producător german de instrumentație industrială pentru măsurarea și controlul debitului, nivelului, presiunii și temperaturii. De peste 40 de ani dezvoltăm senzori și traductoare compacte, robuste și precise pentru aplicații de proces în chimie, petrochimie, farmaceutică, alimentară, tratare apă și automatizare industrială. Fabrica noastră din Hofheim produce anual peste 100,000 de aparate exportate în 60 de țări, fiecare calibrat individual și testat.
+    overview: `Kobold Messring este producător german de instrumentație industrială pentru măsurarea și controlul debitului, nivelului, presiunii și temperaturii. De peste 40 de ani dezvoltă senzori și traductoare compacte, robuste și precise pentru aplicații de proces în chimie, petrochimie, farmaceutică, alimentară, tratare apă și automatizare industrială. Fabrica din Hofheim exportă aparate la nivel internațional, fiecare calibrat individual și testat.
 
-Filosofia noastră este "Small Size - Big Performance": construim aparate compacte cu dimensiuni reduse care se încadrează în spații înguste dar oferă acuratețe și fiabilitate comparabile cu instrumentația de mari dimensiuni. De exemplu, debitimetrele noastre cu float variabil (rotametre) au lungime de 150-300mm și măsoară debite de la 0.025 l/h până la 4,000 l/h cu acuratețe 2.5% din valoarea măsurată. Switchurile de nivel cu float magnetic rezistă la 400°C și 400 bar presiune în carcasă de doar 1/2" diametru.
+Filosofia Kobold este "Small Size - Big Performance": aparate compacte, cu dimensiuni reduse, care se încadrează în spații înguste dar oferă acuratețe și fiabilitate comparabile cu instrumentația de mari dimensiuni. De exemplu, debitimetrele cu float variabil (rotametre) din gamă au lungime de 150-300mm și măsoară debite de la 0.025 l/h până la 4,000 l/h cu acuratețe 2.5% din valoarea măsurată. Switchurile de nivel cu float magnetic rezistă la 400°C și 400 bar presiune în carcasă de doar 1/2" diametru.
 
-Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilnic pentru a oferi clienților soluții personalizate. Oferim peste 10,000 de configurații standard plus posibilitatea customizare - alegeri de materiale (inox, Hastelloy, PTFE, PVDF), conexiuni proces, ieșiri semnal, limite alarmă. Integrare perfectă în sisteme de control Siemens, ABB, Schneider, Rockwell prin ieșiri 4-20mA, 0-10V, HART, PROFIBUS, Modbus.`,
+Kobold oferă o gamă largă de configurații standard plus posibilitatea de personalizare - alegeri de materiale (inox, Hastelloy, PTFE, PVDF), conexiuni proces, ieșiri semnal, limite alarmă. Integrarea în sisteme de control industriale se face prin ieșiri 4-20mA, 0-10V, HART, PROFIBUS, Modbus.`,
     whyChoose: [
       'Dimensiuni compacte - instrumentație completă în corpuri sub 200mm lungime',
       'Acuratețe 1-2.5% din valoare măsurată (nu FS!) - precizie reală pe întregul domeniu',
@@ -1017,19 +1017,19 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
     keyProducts: [
       {
         name: 'Debitimetre cu float variabil (rotametre) DKM/DWM',
-        description: 'Gama noastră de debitimetre mecanice cu tub conic și float măsoară lichide de la 0.025 l/h până la 4,000 l/h și gaze de la 0.5 Nl/h până la 100,000 Nl/h. Principiu simplu și robust: fluidul circulă prin tubul conic vertical ridicând floatul până când greutatea floatului = forța de portanță. Poziția floatului indică debitul direct pe scara gradată. Acuratețe 2.5% sau 4% din valoarea citită. Tub din sticlă borosilicate (până 200°C, 40 bar), metal (până 400°C, 400 bar) sau sticlă de cuarț (până 500°C). Opțional: transmițător magnetic 4-20mA, alarme min/max contact, totalizer. Conexiuni G1/4" până G2", flanșe DN15-DN50.'
+        description: 'Gama de debitimetre mecanice cu tub conic și float măsoară lichide de la 0.025 l/h până la 4,000 l/h și gaze de la 0.5 Nl/h până la 100,000 Nl/h. Principiu simplu și robust: fluidul circulă prin tubul conic vertical ridicând floatul până când greutatea floatului = forța de portanță. Poziția floatului indică debitul direct pe scara gradată. Acuratețe 2.5% sau 4% din valoarea citită. Tub din sticlă borosilicate (până 200°C, 40 bar), metal (până 400°C, 400 bar) sau sticlă de cuarț (până 500°C). Opțional: transmițător magnetic 4-20mA, alarme min/max contact, totalizer. Conexiuni G1/4" până G2", flanșe DN15-DN50.'
       },
       {
         name: 'Switchuri nivel cu float magnetic seria NAF/NAE',
-        description: 'Switchurile noastre de nivel pe principiu float magnetic detectează prezența lichidului în rezervoare, conducte, separatoare. Float-ul conține un magnet permanent care, atunci când nivelul atinge un anumit punct, activează un contact reed din interiorul tubului etanș. Contact SPDT cu capacitate comutare 100VA, 1A la 230VAC. Versiuni side-mount sau top-mount, cu unul sau mai multe puncte de comutare. Materiale: carcasă inox 316L, PVDF sau PP, float inox sau PP. Temperatură -50°C până +400°C, presiune până 400 bar. Aplicații: alarme nivel min/max, control pompă, protecție uscată.'
+        description: 'Switchurile de nivel pe principiu float magnetic detectează prezența lichidului în rezervoare, conducte, separatoare. Float-ul conține un magnet permanent care, atunci când nivelul atinge un anumit punct, activează un contact reed din interiorul tubului etanș. Contact SPDT cu capacitate comutare 100VA, 1A la 230VAC. Versiuni side-mount sau top-mount, cu unul sau mai multe puncte de comutare. Materiale: carcasă inox 316L, PVDF sau PP, float inox sau PP. Temperatură -50°C până +400°C, presiune până 400 bar. Aplicații: alarme nivel min/max, control pompă, protecție uscată.'
       },
       {
         name: 'Traductoare presiune seria SEN/PAD',
-        description: 'Oferim traductoare piezoresistive și capacitive pentru presiuni de la 0-100 mbar până la 0-1000 bar, absolute sau relative. Membrană inox 316L, Hastelloy sau ceramică în funcție de mediu. Acuratețe 0.25% sau 0.5% FS, compensare temperatură -10°C până +100°C. Ieșire 4-20mA 2-wire, 0-10V, 0-5V sau HART. Opțional: display LCD local cu retroiluminare și taste programare pentru setare zero și span. Certificare ATEX II 1/2 G Ex ia pentru zona 0/1. Aplicații: măsurare presiune gaz, lichid, abur, vid în reactoare, rezervoare, conducte.'
+        description: 'Traductoare piezoresistive și capacitive pentru presiuni de la 0-100 mbar până la 0-1000 bar, absolute sau relative. Membrană inox 316L, Hastelloy sau ceramică în funcție de mediu. Acuratețe 0.25% sau 0.5% FS, compensare temperatură -10°C până +100°C. Ieșire 4-20mA 2-wire, 0-10V, 0-5V sau HART. Opțional: display LCD local cu retroiluminare și taste programare pentru setare zero și span. Certificare ATEX II 1/2 G Ex ia pentru zona 0/1. Aplicații: măsurare presiune gaz, lichid, abur, vid în reactoare, rezervoare, conducte.'
       },
       {
         name: 'Indicatoare nivel prin radar seria BGU',
-        description: 'Senzorii noștri radar FMCW (Frequency Modulated Continuous Wave) măsoară nivel în rezervoare până la 70 metri înălțime cu acuratețe ±3mm. Frecvența 26 GHz traversează abur, praf, condens fără probleme. Antenă PTFE sau ceramică în conexiune proceș G1.5" sau flanșă DN80. Temperatură proces -40°C până +200°C, presiune -1 până +40 bar. Programare prin Bluetooth cu aplicație smartphone sau HART comunicator. Ieșire 4-20mA + HART, PROFIBUS PA, Foundation Fieldbus. Certificare ATEX/IECEx, SIL 2, WHG aprobat pentru depozitare substanțe poluante apă. Aplicații: nivel lichide în chimie, petrol, apă, alimente.'
+        description: 'Senzorii radar FMCW (Frequency Modulated Continuous Wave) măsoară nivel în rezervoare până la 70 metri înălțime cu acuratețe ±3mm. Frecvența 26 GHz traversează abur, praf, condens fără probleme. Antenă PTFE sau ceramică în conexiune proceș G1.5" sau flanșă DN80. Temperatură proces -40°C până +200°C, presiune -1 până +40 bar. Programare prin Bluetooth cu aplicație smartphone sau HART comunicator. Ieșire 4-20mA + HART, PROFIBUS PA, Foundation Fieldbus. Certificare ATEX/IECEx, SIL 2, WHG aprobat pentru depozitare substanțe poluante apă. Aplicații: nivel lichide în chimie, petrol, apă, alimente.'
       }
     ],
     certifications: [
@@ -1067,7 +1067,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "MIM",
-        "description": "debitmetru magneto-inductiv din inox pentru intreg corpul"
+        "description": "debitmetru magneto-inductiv din inox pentru întreg corpul"
       },
       {
         "code": "MIK",
@@ -1075,11 +1075,11 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "DON-H",
-        "description": "debitmetru volumetric cu roti ovale pentru lichide vascoase"
+        "description": "debitmetru volumetric cu roți ovale pentru lichide vâscoase"
       },
       {
         "code": "DOE",
-        "description": "debitmetru volumetric cu roti ovale, gama compacta"
+        "description": "debitmetru volumetric cu roți ovale, gama compactă"
       },
       {
         "code": "DUC",
@@ -1087,7 +1087,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "PITe/UMF-2",
-        "description": "debitmetru magneto-inductiv tip insertie pentru conducte mari"
+        "description": "debitmetru magneto-inductiv tip inserție pentru conducte mari"
       },
       {
         "code": "KEC",
@@ -1099,7 +1099,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "MAN-LC",
-        "description": "manometru digital cu iesire IO-Link"
+        "description": "manometru digital cu ieșire IO-Link"
       },
       {
         "code": "ZOK",
@@ -1107,7 +1107,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "ZOE",
-        "description": "electronica de numarare pentru procese industriale"
+        "description": "electronică de numărare pentru procese industriale"
       },
       {
         "code": "TWC",
@@ -1119,7 +1119,7 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "code": "MWD",
-        "description": "termorezistenta industriala pentru masurarea temperaturii"
+        "description": "termorezistență industrială pentru măsurarea temperaturii"
       }
     ],
     faq: [
@@ -1133,10 +1133,10 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
       },
       {
         "q": "Ce informații trimit pentru o ofertă de debitmetru Kobold?",
-        "a": "Este nevoie de tipul fluidului măsurat (lichid, gaz sau vascos), debitul minim și maxim așteptat, diametrul conductei, presiunea și temperatură de lucru, plus tipul de ieșire dorit, analogică sau IO-Link. Pentru montajul clamp-on menționați materialul și grosimea peretelui conductei, deoarece influențează direct alegerea corectă a modelului."
+        "a": "Este nevoie de tipul fluidului măsurat (lichid, gaz sau vâscos), debitul minim și maxim așteptat, diametrul conductei, presiunea și temperatură de lucru, plus tipul de ieșire dorit, analogică sau IO-Link. Pentru montajul clamp-on menționați materialul și grosimea peretelui conductei, deoarece influențează direct alegerea corectă a modelului."
       },
       {
-        "q": "Ce este un senzor de temperatura tip insertie MMA de la Kobold?",
+        "q": "Ce este un senzor de temperatură tip inserție MMA de la Kobold?",
         "a": "MMA este un senzor introdus direct în fluidul sau mediul măsurat, disponibil cu sau fără traductor de semnal integrat, potrivit pentru monitorizarea continuă a temperaturii în conducte sau rezervoare. Alegerea între varianta cu traductor și cea simplă depinde de sistemul de automatizare existent și de tipul de semnal acceptat de acesta."
       }
     ],
@@ -1152,13 +1152,13 @@ Peste 500 de ingineri, tehnicieni și specialiști în vânzări lucrează zilni
     founded: 1921,
     headquarters: 'Duisburg, Germania',
     employees: '4,000+',
-    overview: `Krohne este un producător german specializat în debitimetre industriale de înaltă precizie, cu prezență în 100 de țări. De peste 100 de ani dezvoltăm și producem debitimetre electromagnete, Coriolis, ultrasonic, vortex și cu float variabil pentru măsurarea precisă a lichidelor, gazelor și aburului în aplicații de proces. Cu peste 4,000 de angajați în 100 de țări și 14 fabrici pe patru continente, Krohne combină expertiză seculară cu inovație constantă.
+    overview: `Krohne este un producător german specializat în debitimetre industriale de înaltă precizie, cu prezență internațională. De peste 100 de ani dezvoltă și produce debitimetre electromagnete, Coriolis, ultrasonic, vortex și cu float variabil pentru măsurarea precisă a lichidelor, gazelor și aburului în aplicații de proces. Krohne combină expertiză seculară cu inovație constantă.
 
-Portofoliul nostru acoperă debite de la 0.001 kg/h (dozare micro) până la 100,000 m³/h (conducte transport gaz), temperaturi de la -200°C (criogenic) până +400°C (abur supraîncălzit), presiuni de la vid înalt până la 400 bar. Fiecare debitimetru Krohne este calibrat în laboratoarele noastre acreditate ISO/IEC 17025 pe standuri specializate cu trasabilitate la standarde naționale germane (PTB). Certificatele de calibrare includ incertitudinea măsurată conform ghidului GUM.
+Portofoliul Krohne acoperă debite de la 0.001 kg/h (dozare micro) până la 100,000 m³/h (conducte transport gaz), temperaturi de la -200°C (criogenic) până +400°C (abur supraîncălzit), presiuni de la vid înalt până la 400 bar. Fiecare debitimetru Krohne este calibrat în laboratoare acreditate ISO/IEC 17025 pe standuri specializate cu trasabilitate la standarde naționale germane (PTB). Certificatele de calibrare includ incertitudinea măsurată conform ghidului GUM.
 
-Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezolvat peste un milion de aplicații complexe - de la măsurarea bitumenului la 180°C până la debit gaz natural la -40°C, de la pastă de celuloză cu 5% consistență până la acid sulfuric 98%. Colaborăm cu BASF, Shell, ExxonMobil, Nestlé, Coca-Cola pentru sisteme de măsurare critice unde precizia înseamnă profit sau pierdere de milioane de euro pe an. Dacă măsurarea debitului contează pentru procesul tău, alegi Krohne.`,
+Ceea ce diferențiază Krohne este expertiza aplicativă, acumulată din rezolvarea a numeroase aplicații complexe - de la măsurarea bitumenului la 180°C până la debit gaz natural la -40°C, de la pastă de celuloză cu 5% consistență până la acid sulfuric 98%. Krohne echipează sisteme de măsurare critice în industria chimică, petrolieră și alimentară, unde precizia debitului influențează direct costurile de proces.`,
     whyChoose: [
-      'Acuratețe 0.1-0.5% din valoare măsurată - printre cele mai bune din industrie',
+      'Acuratețe 0.1-0.5% din valoare măsurată - precizie ridicată pentru aplicații de proces',
       'Calibrare acreditată ISO 17025 - certificat trasabil PTB inclus la livrare',
       'Fără piese mobile în flux - zero mentenanță, durată viață 20+ ani',
       'Măsurare masică directă (Coriolis) - kg/h, ton/h fără a calcula densitate',
@@ -1168,7 +1168,7 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
     keyProducts: [
       {
         name: 'Debitimetre electromagnetice seria OPTIFLUX',
-        description: 'Debitimetrele noastre electromagnetic măsoară debitul lichidelor conductoare (>5 µS/cm) fără pierdere de presiune și fără piese mobile. Principiu Faraday: lichidulconductor traversează câmpul magnetic generând tensiune proporțională cu viteza. Acuratețe 0.2% din valoare măsurată (nu FS!), repetabilitate 0.05%, răspuns sub 100ms. Diametru DN2.5 până DN2000, temperatură -40°C până +180°C, presiune până PN40. Electrozi din Hastelloy C, tantal, platină, titan pentru orice fluid agresiv. Liner PTFE, PFA, cauciuc dur, poliuretan. Versiuni compacte sau remote cu cablu 30m. Ieșire 4-20mA, puls, HART, PROFIBUS, Modbus, Foundation Fieldbus.'
+        description: 'Debitimetrele electromagnetice măsoară debitul lichidelor conductoare (>5 µS/cm) fără pierdere de presiune și fără piese mobile. Principiu Faraday: lichidulconductor traversează câmpul magnetic generând tensiune proporțională cu viteza. Acuratețe 0.2% din valoare măsurată (nu FS!), repetabilitate 0.05%, răspuns sub 100ms. Diametru DN2.5 până DN2000, temperatură -40°C până +180°C, presiune până PN40. Electrozi din Hastelloy C, tantal, platină, titan pentru orice fluid agresiv. Liner PTFE, PFA, cauciuc dur, poliuretan. Versiuni compacte sau remote cu cablu 30m. Ieșire 4-20mA, puls, HART, PROFIBUS, Modbus, Foundation Fieldbus.'
       },
       {
         name: 'Debitimetre masice Coriolis seria OPTIMASS',
@@ -1176,7 +1176,7 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       },
       {
         name: 'Debitimetre cu ultrasunete seria OPTISONIC',
-        description: 'Debitimetrele noastre ultrasonic folosesc tranzițiunea timp de zbor a semnalelor ultrasonice prin lichid pentru a calcula viteza medie. Zero pierdere presiune, instalare pe conductă existentă (clamp-on) sau în-line cu flanșe. Acuratețe 0.5% sau 1% din valoare măsurată, bi-direcțional. Diametru DN15 până DN4000, temperatură -40°C până +200°C. Aplicații: apă potabilă, ape uzate, hidrocarburi, acizi, baze. Versiuni explosion-proof ATEX/IECEx zona 1. Diagnostic avansat detectează gaz antrenat, turbulență, profil viteze neuniform. Alimentare 85-260VAC sau 20-55VDC.'
+        description: 'Debitimetrele cu ultrasunete folosesc tranziția timp de zbor a semnalelor ultrasonice prin lichid pentru a calcula viteza medie. Zero pierdere presiune, instalare pe conductă existentă (clamp-on) sau în-line cu flanșe. Acuratețe 0.5% sau 1% din valoare măsurată, bi-direcțional. Diametru DN15 până DN4000, temperatură -40°C până +200°C. Aplicații: apă potabilă, ape uzate, hidrocarburi, acizi, baze. Versiuni explosion-proof ATEX/IECEx zona 1. Diagnostic avansat detectează gaz antrenat, turbulență, profil viteze neuniform. Alimentare 85-260VAC sau 20-55VDC.'
       },
       {
         name: 'Debitimetre vortex seria OPTISWIRL',
@@ -1228,7 +1228,7 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       },
       {
         "code": "OPTIFLUX 4400",
-        "description": "debitmetru electromagnetic cu iesiri digitale extinse"
+        "description": "debitmetru electromagnetic cu ieșiri digitale extinse"
       },
       {
         "code": "OPTIFLUX 5100",
@@ -1236,19 +1236,19 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       },
       {
         "code": "WATERFLUX 3070",
-        "description": "debitmetru electromagnetic pentru retele de distributie a apei"
+        "description": "debitmetru electromagnetic pentru rețele de distribuție a apei"
       },
       {
         "code": "WATERFLUX 3100",
-        "description": "debitmetru electromagnetic pentru masurarea consumului de apa"
+        "description": "debitmetru electromagnetic pentru măsurarea consumului de apă"
       },
       {
         "code": "POWERFLUX 4300",
-        "description": "debitmetru electromagnetic pentru medii cu conductivitate scazuta"
+        "description": "debitmetru electromagnetic pentru medii cu conductivitate scăzută"
       },
       {
         "code": "POWERFLUX 5300",
-        "description": "debitmetru electromagnetic de inalta precizie pentru industrie"
+        "description": "debitmetru electromagnetic de înaltă precizie pentru industrie"
       },
       {
         "code": "ENVIROMAG",
@@ -1256,7 +1256,7 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
       },
       {
         "code": "TIDALFLUX 2300",
-        "description": "debitmetru electromagnetic pentru conducte partial umplute"
+        "description": "debitmetru electromagnetic pentru conducte parțial umplute"
       },
       {
         "code": "AF-E 400",
@@ -1273,8 +1273,8 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
         "a": "Da, aducem la comandă debitmetre din gamele OPTIFLUX, WATERFLUX și POWERFLUX, pe baza codului și diametrului confirmate de client. La KROHNE nu lucrăm de pe raft: ne raportăm la disponibilitatea publicată de producător, cu un termen obișnuit de 2-4 săptămâni de la comandă. Codul complet de pe eticheta grăbește identificarea variantei potrivite."
       },
       {
-        "q": "Ce date trimit pentru o oferta de debitmetru Krohne?",
-        "a": "Precizati diametrul nominal al conductei, debitul minim și maxim, tipul fluidului și conductivitatea acestuia, presiunea și temperatura de lucru, precum și tipul de ieșire electrică dorit. Dacă înlocuiți un debitmetru existent, codul de pe placuta și diametrul flanșei ajută la identificarea rapidă a variantei echivalente din gama actuală."
+        "q": "Ce date trimit pentru o ofertă de debitmetru Krohne?",
+        "a": "Precizați diametrul nominal al conductei, debitul minim și maxim, tipul fluidului și conductivitatea acestuia, presiunea și temperatura de lucru, precum și tipul de ieșire electrică dorit. Dacă înlocuiți un debitmetru existent, codul de pe plăcuță și diametrul flanșei ajută la identificarea rapidă a variantei echivalente din gama actuală."
       },
       {
         "q": "Când se folosește debitmetrul TIDALFLUX în locul unui OPTIFLUX de la Krohne?",
@@ -1293,11 +1293,11 @@ Ceea ce ne diferențiază este expertiza aplicativă: inginerii noștri au rezol
     founded: 1959,
     headquarters: 'Stuttgart, Germania',
     employees: '5,000+',
-    overview: `Lapp Group este un producător german de cabluri și sisteme de conectare pentru automatizare industrială, tehnologia de măsurare și control, robotică și energie. De peste 65 de ani dezvoltăm și producem cabluri de date, putere și control care conectează mașini, roboți și sisteme în fabricile inteligente de astăzi. Cu peste 5,000 de angajați în 80 de țări și 18 fabrici pe patru continente, Lapp combină inovația germană cu standardizare și disponibilitate globală.
+    overview: `Lapp Group este un producător german de cabluri și sisteme de conectare pentru automatizare industrială, tehnologia de măsurare și control, robotică și energie. De peste 65 de ani dezvoltă și produce cabluri de date, putere și control care conectează mașini, roboți și sisteme în fabricile inteligente de astăzi. Lapp combină inovația germană cu standardizare și disponibilitate globală.
 
-Brandul nostru iconic ÖLFLEX (cabluri flexibile rezistente la ulei) este folosit pe scară largă pentru conexiuni în mașini-unelte, roboți, transportoare și sisteme de automatizare. Gama UNITRONIC (cabluri de date industriale) asigură comunicație rapidă și fiabilă în rețele PROFIBUS, PROFINET, EtherCAT, Ethernet/IP, DeviceNet. ETHERLINE (cabluri Ethernet Industrial) suportă viteze de până la 10 Gigabit în medii cu vibrații, uleiuri, temperaturi extreme și interferențe electromagnetice puternice.
+Brandul iconic ÖLFLEX (cabluri flexibile rezistente la ulei) este folosit pe scară largă pentru conexiuni în mașini-unelte, roboți, transportoare și sisteme de automatizare. Gama UNITRONIC (cabluri de date industriale) asigură comunicație rapidă și fiabilă în rețele PROFIBUS, PROFINET, EtherCAT, Ethernet/IP, DeviceNet. ETHERLINE (cabluri Ethernet Industrial) suportă viteze de până la 10 Gigabit în medii cu vibrații, uleiuri, temperaturi extreme și interferențe electromagnetice puternice.
 
-Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții industriale reale: 10 milioane de cicluri flexiune pe lanț purtător, temperaturi de la -50°C până +180°C, rezistență la uleiuri minerale și sintetice, acizi, baze, ozoni UV, flacără conform IEC 60332. Testăm toate produsele în laboratoarele proprii certificate și colaborăm direct cu producători de mașini și roboți pentru a optimiza designul pentru aplicații specifice. Când cablul trebuie să reziste ani la rând fără eroare, alegi Lapp.`,
+Fiecare cablu Lapp este conceput pentru rezistență ridicată în condiții industriale reale: 10 milioane de cicluri flexiune pe lanț purtător, temperaturi de la -50°C până +180°C, rezistență la uleiuri minerale și sintetice, acizi, baze, ozoni UV, flacără conform IEC 60332. Producătorul testează toate produsele în laboratoare proprii certificate și colaborează direct cu producători de mașini și roboți pentru a optimiza designul pentru aplicații specifice.`,
     whyChoose: [
       'Rezistență flexiune 10 milioane cicluri - testate pe lanț purtător în laborator',
       'Temperatură -50°C până +180°C - pentru medii extreme industriale',
@@ -1309,19 +1309,19 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
     keyProducts: [
       {
         name: 'Cabluri flexibile ÖLFLEX CLASSIC/ROBUST',
-        description: 'Gama noastră ÖLFLEX este utilizată pe scară largă pentru cabluri de control și putere flexibile în automatizare. ÖLFLEX CLASSIC pentru aplicații statice sau flexiune ocazională, ÖLFLEX ROBUST pentru flexiune continuă pe lanț purtător. Temperatură -40°C până +80°C (CLASSIC) sau -5°C până +80°C (ROBUST). Rezistență la uleiuri minerale și vegetale, răcitoare, diesel, benzină. Izolație PVC, manta exterioară PVC specială gri RAL 7001. Conductori CU clase 5 (CLASSIC) sau clase 6 (ROBUST) conform IEC 60228. Secțiuni de la 0.5 mm² până 50 mm², 2-61 fire. Certificare CE, cULus, CSA. Aplicații: conexiuni motoare, invertoare, transportoare, pompe.'
+        description: 'Gama ÖLFLEX este utilizată pe scară largă pentru cabluri de control și putere flexibile în automatizare. ÖLFLEX CLASSIC pentru aplicații statice sau flexiune ocazională, ÖLFLEX ROBUST pentru flexiune continuă pe lanț purtător. Temperatură -40°C până +80°C (CLASSIC) sau -5°C până +80°C (ROBUST). Rezistență la uleiuri minerale și vegetale, răcitoare, diesel, benzină. Izolație PVC, manta exterioară PVC specială gri RAL 7001. Conductori CU clase 5 (CLASSIC) sau clase 6 (ROBUST) conform IEC 60228. Secțiuni de la 0.5 mm² până 50 mm², 2-61 fire. Certificare CE, cULus, CSA. Aplicații: conexiuni motoare, invertoare, transportoare, pompe.'
       },
       {
         name: 'Cabluri date UNITRONIC BUS/LiYCY',
-        description: 'Cablurile noastre UNITRONIC sunt optimizate pentru comunicație industrială PROFIBUS, PROFINET, Modbus, CANopen, DeviceNet. Construcție: perechi răsucite ecranate individual + ecran total împletit CU 85% acoperire. Impedanță controlată 120Ω ±5% pentru PROFIBUS DP/PA, 100Ω ±5% pentru PROFINET. Atenuare redusă permite distanțe până 1000m fără repetor. Temperatură -5°C până +80°C, rezistență uleiuri, instalare fixă sau pe lanț purtător (versiuni flexibile). Culori standardizate: violet PROFIBUS, verde PROFINET. Certificare PROFIBUS/PROFINET International. Secțiuni AWG 22-18, 2-8 perechi.'
+        description: 'Cablurile UNITRONIC sunt optimizate pentru comunicație industrială PROFIBUS, PROFINET, Modbus, CANopen, DeviceNet. Construcție: perechi răsucite ecranate individual + ecran total împletit CU 85% acoperire. Impedanță controlată 120Ω ±5% pentru PROFIBUS DP/PA, 100Ω ±5% pentru PROFINET. Atenuare redusă permite distanțe până 1000m fără repetor. Temperatură -5°C până +80°C, rezistență uleiuri, instalare fixă sau pe lanț purtător (versiuni flexibile). Culori standardizate: violet PROFIBUS, verde PROFINET. Certificare PROFIBUS/PROFINET International. Secțiuni AWG 22-18, 2-8 perechi.'
       },
       {
         name: 'Cabluri Ethernet ETHERLINE PN/CAT.6A',
-        description: 'Linia ETHERLINE acoperă toate vitezele Ethernet Industrial: 10/100 Mbit Fast Ethernet, Gigabit Ethernet, 10 Gigabit. Construcție speciala cu ecranare S/FTP (folie + împletitură per pereche + împletitură totală) asigură imunitate EMI perfectă lângă invertoare și motoare. Categorie 6A sau 7 conform ISO/IEC 11801, frecvență până 600 MHz. Versiuni pentru instalare fixă (CAT.6A FC) sau lanț purtător (CAT.6A Flex). Manta PUR rezistentă la hidroliza, uleiuri, UV. Temperatură -40°C până +80°C. Aplicații: PROFINET IRT, EtherCAT, Ethernet/IP, camere industriale, roboti.'
+        description: 'Linia ETHERLINE acoperă toate vitezele Ethernet Industrial: 10/100 Mbit Fast Ethernet, Gigabit Ethernet, 10 Gigabit. Construcție specială cu ecranare S/FTP (folie + împletitură per pereche + împletitură totală) asigură imunitate EMI ridicată lângă invertoare și motoare. Categorie 6A sau 7 conform ISO/IEC 11801, frecvență până 600 MHz. Versiuni pentru instalare fixă (CAT.6A FC) sau lanț purtător (CAT.6A Flex). Manta PUR rezistentă la hidroliză, uleiuri, UV. Temperatură -40°C până +80°C. Aplicații: PROFINET IRT, EtherCAT, Ethernet/IP, camere industriale, roboți.'
       },
       {
         name: 'Conectoare industriale EPIC',
-        description: 'Sistemul nostru de conectoare EPIC acoperă de la 3 pini până la 108 pini pentru putere, semnal, date, pneumatice în același conector modular. Carcasă din aluminiu sau termoplastic ranforsat, grad protecție IP65/IP67. Contact lamă argintată sau aurita, curenți de la 10A până 200A per contact. Versiuni cu contact rapid fără șuruburi (SPEEDTEC), inserție cablu PG sau M, blocare cu clemă sau șurub. Compatibilitate parțială cu conectoare Harting, Weidmüller. Temperatura -40°C până +125°C. Aplicații: automatizări modulare, mașini mobile, roboți, testere, sisteme medicale.'
+        description: 'Sistemul de conectoare EPIC acoperă de la 3 pini până la 108 pini pentru putere, semnal, date, pneumatice în același conector modular. Carcasă din aluminiu sau termoplastic ranforsat, grad protecție IP65/IP67. Contact lamă argintată sau aurita, curenți de la 10A până 200A per contact. Versiuni cu contact rapid fără șuruburi (SPEEDTEC), inserție cablu PG sau M, blocare cu clemă sau șurub. Compatibilitate parțială cu conectoare Harting, Weidmüller. Temperatura -40°C până +125°C. Aplicații: automatizări modulare, mașini mobile, roboți, testere, sisteme medicale.'
       }
     ],
     certifications: [
@@ -1365,7 +1365,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "code": "OLFLEX CLASSIC FD 810",
-        "description": "cablu flexibil pentru lanturi porta-cablu, solicitare dinamica"
+        "description": "cablu flexibil pentru lanțuri porta-cablu, solicitare dinamică"
       },
       {
         "code": "OLFLEX ROBUST 210",
@@ -1385,7 +1385,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "code": "OLFLEX SOLAR XLS-R",
-        "description": "cablu solar cu rezistenta sporita la radiatii UV"
+        "description": "cablu solar cu rezistență sporită la radiații UV"
       },
       {
         "code": "ETHERLINE",
@@ -1393,7 +1393,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "code": "HITRONIC",
-        "description": "gama de cabluri din fibra optica industriala"
+        "description": "gama de cabluri din fibră optică industrială"
       },
       {
         "code": "UNITRONIC",
@@ -1413,7 +1413,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "code": "SILVYN",
-        "description": "gama de tuburi de protectie pentru cabluri"
+        "description": "gama de tuburi de protecție pentru cabluri"
       },
       {
         "code": "FLEXIMARK",
@@ -1431,7 +1431,7 @@ Fiecare cablu Lapp este conceput pentru rezistență maximă în condiții indus
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de cablu Lapp?",
-        "a": "Menționati numărul de conductori și sectiunea acestora, tensiunea de lucru, dacă este nevoie de ecranare, tipul de mediu (fix, mobil sau lant porta-cablu) și temperatură de funcționare. Pentru presetupe SKINTOP precizați diametrul cablului și tipul filetului, iar pentru cabluri solare menționați tensiunea sistemului fotovoltaic."
+        "a": "Menționați numărul de conductori și secțiunea acestora, tensiunea de lucru, dacă este nevoie de ecranare, tipul de mediu (fix, mobil sau lanț porta-cablu) și temperatură de funcționare. Pentru presetupe SKINTOP precizați diametrul cablului și tipul filetului, iar pentru cabluri solare menționați tensiunea sistemului fotovoltaic."
       },
       {
         "q": "Ce este o presetupă SKINTOP ST/STR de la Lapp și când se folosește?",

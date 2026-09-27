@@ -887,7 +887,7 @@ Pentru România, gama OKS are sens la mentenanța preventivă a utilajelor indus
     changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://www.oks-germany.com/en/products/","publisher":"OKS Spezialschmierstoffe GmbH","accessed":"2026-09-25"},
-      { title: "OKS Romania - lubrifianti speciali", url: "https://www.oks-romania.ro/", publisher: "OKS Spezialschmierstoffe GmbH", accessed: "2026-09-22" },
+      { title: "OKS Romania - lubrifianți speciali", url: "https://www.oks-romania.ro/", publisher: "OKS Spezialschmierstoffe GmbH", accessed: "2026-09-22" },
       { title: "OKS Germany - about us", url: "https://www.oks-germany.com/en/", publisher: "OKS Spezialschmierstoffe GmbH", accessed: "2026-09-22" },
     ],
   },

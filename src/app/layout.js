@@ -36,7 +36,7 @@ export const metadata = {
     default: 'Infinitrade Romania | Distribuitor Pompe, Robineți, Motoare Industriale',
     template: '%s | Infinitrade Romania'
   },
-  description: 'Distribuitor echipamente industriale Romania. Furnizor SEAP/SICAP. Pompe Grundfos, Wilo. Robineti ARI, Spirax Sarco. Motoare Siemens, ABB. Livrare 24-72h.',
+  description: 'Distribuitor de echipamente industriale în România, furnizor SEAP/SICAP: pompe Grundfos și Wilo, robineți ARI și Spirax Sarco, motoare Siemens și ABB. Livrare 24–72 h din stoc.',
   authors: [{ name: 'Infinitrade Romania - Driatheli Group SRL' }],
   creator: 'Infinitrade Romania',
   publisher: 'Driatheli Group SRL',
@@ -56,7 +56,7 @@ export const metadata = {
   manifest: '/manifest.json',
   openGraph: {
     title: 'Infinitrade Romania | Distribuitor Echipamente Industriale Premium',
-    description: 'Distribuitor pompe, robineți, motoare electrice în România. Branduri premium: Grundfos, Wilo, Siemens, ABB, Alfa Laval. Livrare rapidă 24-72h.',
+    description: 'Distribuitor de pompe, robineți și motoare electrice în România: Grundfos, Wilo, Siemens, ABB, Alfa Laval. Livrare 24–72 h din stoc, 2–4 săptămâni la comandă.',
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',
@@ -69,10 +69,11 @@ export const metadata = {
       }
     ],
   },
+  // v20: no title/description here — pages without their own `twitter` block
+  // inherited the home page's text; X falls back to each page's og:title /
+  // og:description when twitter:title is absent.
   twitter: {
     card: 'summary_large_image',
-    title: 'Infinitrade Romania | Echipamente Industriale',
-    description: 'Distribuitor pompe, robineți, motoare industriale în România',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -276,10 +277,12 @@ export default function RootLayout({ children }) {
 
         {/* Inline critical CSS for above-the-fold content */}
         <style dangerouslySetInnerHTML={{ __html: `
-          /* Critical CSS - prevents layout shift */
-          :root{--primary:#0990db;--white:#fff;--black:#23233b;--gray-50:#fbfbfd;--gray-100:#f5f5f7;--gray-200:#e8e8ed;--gray-500:#6e6e73}
+          /* Critical CSS - prevents layout shift. v20: --primary matches
+             globals.css (#0077b6, 4.5:1 with white); the old #0990db here
+             overrode it (3.49:1, below WCAG AA). */
+          :root{--primary:#0077b6;--white:#fff;--black:#23233b;--gray-50:#fbfbfd;--gray-100:#f5f5f7;--gray-200:#e8e8ed;--gray-500:#6e6e73}
           body{margin:0;font-family:var(--font-inter),-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
-          .skip-to-content{position:absolute;top:-40px;left:0;background:#0990db;color:white;padding:8px 16px;z-index:10000;transition:top 0.3s;text-decoration:none;font-weight:500;border-radius:0 0 4px 0}
+          .skip-to-content{position:absolute;top:-40px;left:0;background:#0077b6;color:white;padding:8px 16px;z-index:10000;transition:top 0.3s;text-decoration:none;font-weight:500;border-radius:0 0 4px 0}
           .skip-to-content:focus{top:0}
         `}} />
         

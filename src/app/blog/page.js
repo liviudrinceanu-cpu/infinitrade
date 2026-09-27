@@ -9,9 +9,21 @@ import styles from './blog.module.css';
 
 export const revalidate = 3600;
 
+// Latest article date (dateModified or date), shown instead of a hard-coded month.
+const LAST_UPDATED = (() => {
+  const latest = blogArticles
+    .map((a) => a.dateModified || a.date)
+    .filter(Boolean)
+    .sort()
+    .pop();
+  if (!latest) return '';
+  const d = new Date(`${latest}T00:00:00Z`);
+  return d.toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+})();
+
 export const metadata = {
   title: 'Blog Tehnic | Ghiduri Echipamente',
-  description: 'Articole tehnice despre pompe industriale, motoare electrice, robineti. Ghiduri de selectie, comparatii, eficienta energetica si mentenanta.',
+  description: 'Articole tehnice despre pompe industriale, motoare electrice și robineți: ghiduri de selecție, comparații, eficiență energetică și mentenanță.',
   openGraph: {
     title: 'Blog Tehnic | Ghiduri Echipamente Industriale',
     description: 'Articole tehnice despre echipamente industriale.',
@@ -56,7 +68,7 @@ function generateBlogCollectionSchema(articles) {
     '@type': 'CollectionPage',
     '@id': `${config.site.url}/blog#webpage`,
     name: 'Blog Tehnic - Ghiduri Echipamente Industriale',
-    description: 'Articole tehnice despre pompe industriale, motoare electrice, robineti. Ghiduri de selectie, comparatii, eficienta energetica si mentenanta.',
+    description: 'Articole tehnice despre pompe industriale, motoare electrice și robineți: ghiduri de selecție, comparații, eficiență energetică și mentenanță.',
     url: `${config.site.url}/blog`,
     isPartOf: {
       '@id': `${config.site.url}/#website`
@@ -109,7 +121,7 @@ export default function BlogPage() {
           <div className={styles.container}>
             <h1>Blog Tehnic</h1>
             <p>
-              Ghiduri practice, comparatii si sfaturi pentru selectia si utilizarea
+              Ghiduri practice, comparații și sfaturi pentru selecția și utilizarea
               echipamentelor industriale.
             </p>
           </div>
@@ -119,7 +131,7 @@ export default function BlogPage() {
         {featuredArticles.length > 0 && (
           <section className={styles.featuredSection}>
             <div className={styles.container}>
-              <h2 className={styles.sectionTitle}>Articole Recomandate</h2>
+              <h2 className={styles.sectionTitle}>Articole recomandate</h2>
               <div className={styles.featuredGrid}>
                 {featuredArticles.map((article) => (
                   <Link
@@ -151,7 +163,7 @@ export default function BlogPage() {
           <div className={styles.container}>
             <div className={styles.articlesLayout}>
               <div className={styles.articlesMain}>
-                <h2 className={styles.sectionTitle}>Toate Articolele</h2>
+                <h2 className={styles.sectionTitle}>Toate articolele</h2>
                 <div className={styles.articlesGrid}>
                   {blogArticles.map((article) => (
                     <Link
@@ -196,16 +208,16 @@ export default function BlogPage() {
                 </div>
 
                 <div className={styles.sidebarCard}>
-                  <h3>Ai nevoie de ajutor?</h3>
-                  <p>Echipa noastra tehnica iti ofera consultanta gratuita pentru selectia echipamentelor.</p>
+                  <h3>Aveți nevoie de ajutor la selecție?</h3>
+                  <p>Trimiteți-ne datele aplicației sau codul echipamentului; vă răspundem cu variantele compatibile.</p>
                   <Link href="/contact" className={styles.sidebarCta}>
-                    Contacteaza-ne
+                    Contactați-ne
                   </Link>
                 </div>
               </aside>
             </div>
             <div style={{ textAlign: 'center', marginTop: '3rem', fontSize: '0.875rem', color: '#6b7280' }}>
-              Ultima actualizare: Februarie 2026
+              Ultima actualizare: {LAST_UPDATED}
             </div>
           </div>
         </section>

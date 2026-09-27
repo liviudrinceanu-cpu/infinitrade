@@ -312,6 +312,7 @@
   border-left: 4px solid var(--primary);
 }
 
+.conclusion h3,
 .conclusion h4 {
   font-size: 18px;
   font-weight: 700;

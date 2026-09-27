@@ -1,7 +1,7 @@
 'use client';
 
 import { Package, Truck, Wrench, Headphones, Shield, Globe } from 'lucide-react';
-import { features } from '@/data/products';
+import { features } from '@/data/company';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './Features.module.css';
 

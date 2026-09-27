@@ -79,15 +79,15 @@ const faqData = [
     questions: [
       {
         q: 'Ce branduri distribuiți?',
-        a: `${brandCount} de branduri cu pagină proprie, din 16 categorii, dintre care cele mai cerute: Grundfos și Wilo la pompe, Siemens și ABB la motoare, ARI Armaturen și Spirax Sarco la robineți, Alfa Laval la schimbătoare, Becker la suflante, Endress+Hauser și WIKA la senzori, Parker și Bosch Rexroth la hidraulică, Schneider Electric la automatizări. Lista completă e pe site, la fiecare categorie.`
+        a: `${brandCount} de branduri cu pagină proprie, din 16 categorii, de exemplu: Grundfos și Wilo la pompe, Siemens și ABB la motoare, ARI Armaturen și Spirax Sarco la robineți, Alfa Laval la schimbătoare, Becker la suflante, Endress+Hauser și WIKA la senzori, Parker și Bosch Rexroth la hidraulică, Schneider Electric la automatizări. Lista completă e pe site, la fiecare categorie.`
       },
       {
         q: 'În ce industrii lucrați?',
-        a: 'Cam în toate care au nevoie de echipamente industriale: petrochimie, energie, alimentar, farmaceutic, tratare apă, construcții/HVAC, minerit, automotive, metalurgie, ciment, hârtie, logistică, biogaz și construcții navale. 15 industrii - și în fiecare avem proiecte concrete și clienți mulțumiți.'
+        a: 'Cam în toate care au nevoie de echipamente industriale: petrochimie, energie, alimentar, farmaceutic, tratare apă, construcții/HVAC, minerit, automotive, metalurgie, ciment, hârtie, logistică, biogaz și construcții navale. Pentru 15 dintre ele avem pagini dedicate, cu echipamentele cerute frecvent și datele de trimis pentru ofertă.'
       },
       {
         q: 'Cum vă pot contacta?',
-        a: 'Email: secretariat@infinitrade-romania.ro. Telefon: vezi pagina de contact. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem de regulă în aceeași zi lucrătoare sau în următoarea.',
+        a: 'Email: secretariat@infinitrade-romania.ro. Telefon: +40 371 232 404. Program: luni-vineri, 8:00-17:00. Sau trimite formularul de pe site - răspundem de regulă în aceeași zi lucrătoare sau în următoarea.',
         link: { href: '/contact', text: 'Mergi la pagina de contact' }
       },
     ]

@@ -18,7 +18,7 @@ export const categories = [
     stats: { brands: '51+', products: '2000+', delivery: '24–72 h' },
     lastUpdated: '2026-01-22',
     brands: [
-      { name: 'Grundfos', slug: 'pompe-industriale-grundfos', logo: '/brands/grundfos.png', country: 'Danemarca', description: 'Producător de referință în tehnologia pompelor industriale', featured: true },
+      { name: 'Grundfos', slug: 'pompe-industriale-grundfos', logo: '/brands/grundfos.png', country: 'Danemarca', description: 'Producător specializat în tehnologia pompelor industriale', featured: true },
       { name: 'Wilo', slug: 'pompe-industriale-wilo', logo: '/brands/wilo.png', country: 'Germania', description: 'Eficiență energetică și fiabilitate în pompare industrială', featured: true },
       { name: 'KSB', slug: 'pompe-industriale-ksb', logo: '/brands/ksb.png', country: 'Germania', description: 'Pompe și robineți pentru aplicații industriale critice', featured: true },
       { name: 'Lowara', slug: 'pompe-industriale-lowara', logo: '/brands/lowara.png', country: 'Italia', description: 'Soluții Xylem pentru industrie și utilități', featured: true },
@@ -28,7 +28,7 @@ export const categories = [
       { name: 'Brinkmann', slug: 'pompe-industriale-brinkmann', logo: '/brands/brinkmann.png', country: 'Germania', description: 'Pompe pentru sisteme de răcire industrială' },
       { name: 'Becker', slug: 'pompe-vid-industriale-becker', logo: '/brands/becker.png', country: 'Germania', description: 'Pompe de vid pentru procese industriale' },
       { name: 'DAB', slug: 'pompe-industriale-dab', logo: '/brands/dab.png', country: 'Italia', description: 'Soluții de pompare industrială și edilitară' },
-      { name: 'Xylem', slug: 'pompe-industriale-xylem', logo: '/brands/placeholder.png', country: 'SUA', description: 'Producător de referință în tehnologii de pompare și tratare apă', featured: false },
+      { name: 'Xylem', slug: 'pompe-industriale-xylem', logo: '/brands/placeholder.png', country: 'SUA', description: 'Producător specializat în tehnologii de pompare și tratare apă', featured: false },
       { name: 'Flowserve', slug: 'pompe-industriale-flowserve', logo: '/brands/placeholder.png', country: 'SUA', description: 'Pompe și echipamente pentru industria petrochimică', featured: false },
       { name: 'ITT Goulds', slug: 'pompe-industriale-itt-goulds', logo: '/brands/placeholder.png', country: 'SUA', description: 'Pompe centrifugale pentru aplicații industriale grele', featured: false },
       { name: 'Pentair', slug: 'pompe-industriale-pentair', logo: '/brands/placeholder.png', country: 'SUA', description: 'Soluții de pompare pentru procesare și tratare', featured: false },
@@ -97,8 +97,8 @@ export const categories = [
     stats: { brands: '60+', products: '3000+', delivery: '24–72 h' },
     lastUpdated: '2026-01-22',
     brands: [
-      { name: 'ARI Armaturen', slug: 'robineti-industriali-ari-armaturen', logo: '/brands/ari.png', country: 'Germania', description: 'Specialiști în armaturi industriale de peste 60 ani', featured: true },
-      { name: 'Spirax Sarco', slug: 'robineti-industriali-spirax-sarco', logo: '/brands/spirax.png', country: 'UK', description: 'Producător de referință în sisteme de abur industrial', featured: true },
+      { name: 'ARI Armaturen', slug: 'robineti-industriali-ari-armaturen', logo: '/brands/ari.png', country: 'Germania', description: 'Specialiști în armături industriale de peste 60 ani', featured: true },
+      { name: 'Spirax Sarco', slug: 'robineti-industriali-spirax-sarco', logo: '/brands/spirax.png', country: 'UK', description: 'Producător specializat în sisteme de abur industrial', featured: true },
       { name: 'Ebro Armaturen', slug: 'robineti-industriali-ebro', logo: '/brands/ebro.png', country: 'Germania', description: 'Robineți fluture pentru industria de proces', featured: true },
       { name: 'End Armaturen', slug: 'robineti-industriali-end', logo: '/brands/end.png', country: 'Germania', description: 'Armaturi premium pentru condiții extreme', featured: true },
       { name: 'Danfoss', slug: 'robineti-industriali-danfoss', logo: '/brands/danfoss.png', country: 'Danemarca', description: 'Soluții de reglare pentru industrie și HVAC', featured: true },
@@ -118,7 +118,7 @@ export const categories = [
       { name: 'KITZ', slug: 'robineti-industriali-kitz', logo: '/brands/placeholder.png', country: 'Japonia', description: 'Robineți industriali de înaltă calitate', featured: false },
       { name: 'Crane', slug: 'robineti-industriali-crane', logo: '/brands/placeholder.png', country: 'SUA', description: 'Armaturi pentru petrol, gaze și energie', featured: false },
       { name: 'Velan', slug: 'robineti-industriali-velan', logo: '/brands/placeholder.png', country: 'Canada', description: 'Robineți industriali pentru presiuni înalte', featured: false },
-      { name: 'Bonomi', slug: 'robineti-industriali-bonomi', logo: '/brands/placeholder.png', country: 'Italia', description: 'Robineți cu bilă din alama și inox', featured: false },
+      { name: 'Bonomi', slug: 'robineti-industriali-bonomi', logo: '/brands/placeholder.png', country: 'Italia', description: 'Robineți cu bilă din alamă și inox', featured: false },
       { name: 'Valtec', slug: 'robineti-industriali-valtec', logo: '/brands/placeholder.png', country: 'Italia', description: 'Componente pentru instalații termice', featured: false },
       { name: 'Georg Fischer', slug: 'robineti-industriali-georg-fischer', logo: '/brands/placeholder.png', country: 'Elveția', description: 'Armaturi din plastic pentru industrie chimică', featured: false },
       { name: 'AVK', slug: 'robineti-industriali-avk', logo: '/brands/placeholder.png', country: 'Danemarca', description: 'Robineți pentru rețele de apă și gaz', featured: false },
@@ -186,16 +186,16 @@ export const categories = [
     stats: { brands: '42+', products: '1500+', delivery: '24–72 h' },
     lastUpdated: '2026-01-22',
     brands: [
-      { name: 'Siemens', slug: 'motoare-electrice-industriale-siemens', logo: '/brands/siemens.png', country: 'Germania', description: 'Producător de referință în acționări și automatizări industriale', featured: true },
+      { name: 'Siemens', slug: 'motoare-electrice-industriale-siemens', logo: '/brands/siemens.png', country: 'Germania', description: 'Producător specializat în acționări și automatizări industriale', featured: true },
       { name: 'SEW Eurodrive', slug: 'motoare-electrice-industriale-sew', logo: '/brands/sew.png', country: 'Germania', description: 'Sisteme integrate motor-reductor pentru industrie', featured: true },
-      { name: 'ABB', slug: 'motoare-electrice-industriale-abb', logo: '/brands/abb.png', country: 'Elveția', description: 'Tehnologie de vârf în acționări industriale', featured: true },
+      { name: 'ABB', slug: 'motoare-electrice-industriale-abb', logo: '/brands/abb.png', country: 'Elveția', description: 'Motoare și acționări industriale', featured: true },
       { name: 'Bonfiglioli', slug: 'motoare-electrice-industriale-bonfiglioli', logo: '/brands/bonfiglioli.png', country: 'Italia', description: 'Motoreductoare pentru aplicații industriale grele', featured: true },
       { name: 'Marelli', slug: 'motoare-electrice-industriale-marelli', logo: '/brands/marelli.png', country: 'Italia', description: 'Motoare electrice pentru industrie', featured: true },
       { name: 'Brook Crompton', slug: 'motoare-atex-industriale-brook', logo: '/brands/brook.png', country: 'UK', description: 'Motoare ATEX pentru zone cu risc de explozie' },
       { name: 'WEG', slug: 'motoare-electrice-industriale-weg', logo: '/brands/weg.png', country: 'Brazilia', description: 'Motoare eficiente energetic pentru industrie' },
       { name: 'Nord', slug: 'motoare-electrice-industriale-nord', logo: '/brands/nord.png', country: 'Germania', description: 'Sisteme de acționare pentru logistică și producție' },
       { name: 'Leroy Somer', slug: 'motoare-electrice-industriale-leroy', logo: '/brands/leroy.png', country: 'Franța', description: 'Alternatori și motoare pentru industrie' },
-      { name: 'Nidec', slug: 'motoare-electrice-industriale-nidec', logo: '/brands/placeholder.png', country: 'Japonia', description: 'Producător de referință în motoare electrice', featured: false },
+      { name: 'Nidec', slug: 'motoare-electrice-industriale-nidec', logo: '/brands/placeholder.png', country: 'Japonia', description: 'Producător specializat în motoare electrice', featured: false },
       { name: 'Regal Rexnord', slug: 'motoare-electrice-industriale-regal', logo: '/brands/placeholder.png', country: 'SUA', description: 'Motoare și sisteme de transmisie industriale', featured: false },
       { name: 'Baldor', slug: 'motoare-electrice-industriale-baldor', logo: '/brands/placeholder.png', country: 'SUA', description: 'Motoare industriale acum parte din ABB', featured: false },
       { name: 'Marathon', slug: 'motoare-electrice-industriale-marathon', logo: '/brands/placeholder.png', country: 'SUA', description: 'Motoare pentru aplicații industriale grele', featured: false },
@@ -260,7 +260,7 @@ export const categories = [
     stats: { brands: '15+', products: '800+', delivery: '24–72 h' },
     lastUpdated: '2026-01-22',
     brands: [
-      { name: 'Alfa Laval', slug: 'schimbatoare-caldura-industriale-alfa-laval', logo: '/brands/alfalaval.png', country: 'Suedia', description: 'Producător de referință în transfer termic industrial', featured: true },
+      { name: 'Alfa Laval', slug: 'schimbatoare-caldura-industriale-alfa-laval', logo: '/brands/alfalaval.png', country: 'Suedia', description: 'Producător specializat în transfer termic industrial', featured: true },
       { name: 'Kelvion', slug: 'schimbatoare-caldura-industriale-kelvion', logo: '/brands/kelvion.png', country: 'Germania', description: 'Soluții termice pentru industria grea', featured: true },
       { name: 'SWEP', slug: 'schimbatoare-caldura-industriale-swep', logo: '/brands/swep.png', country: 'Suedia', description: 'Schimbătoare brazate pentru aplicații industriale', featured: true },
       { name: 'Danfoss', slug: 'schimbatoare-caldura-industriale-danfoss', logo: '/brands/danfoss.png', country: 'Danemarca', description: 'Soluții HVAC și refrigerare industrială', featured: true },
@@ -326,133 +326,8 @@ for (const category of categories) {
   category.stats.brands = String(category.brands.length);
 }
 
-// Top 15 Industries served
-export const targetIndustries = [
-  { name: 'Petrochimie și Rafinării', icon: 'Factory', description: 'Echipamente certificate pentru medii ATEX și procese critice' },
-  { name: 'Energie și Utilități', icon: 'Zap', description: 'Soluții pentru centrale electrice și termoficare' },
-  { name: 'Industria Alimentară', icon: 'Utensils', description: 'Echipamente din inox, certificate pentru contact alimentar' },
-  { name: 'Industria Farmaceutică', icon: 'Pill', description: 'Componente pentru medii sterile și camere curate' },
-  { name: 'Automotive și Producție', icon: 'Car', description: 'Fiabilitate pentru linii de producție non-stop' },
-  { name: 'Construcții Navale', icon: 'Ship', description: 'Echipamente marine și certificate Lloyd\'s' },
-  { name: 'Metalurgie și Siderurgie', icon: 'Hammer', description: 'Rezistență pentru temperaturi și condiții extreme' },
-  { name: 'Tratare Apă și Mediu', icon: 'Droplet', description: 'Soluții pentru stații epurare și tratare' },
-  { name: 'Industria Chimică', icon: 'FlaskConical', description: 'Materiale rezistente chimic și certificări speciale' },
-  { name: 'HVAC și Climatizare', icon: 'Thermometer', description: 'Eficiență energetică și confort industrial' },
-  { name: 'Minerit și Extracție', icon: 'Mountain', description: 'Echipamente robuste pentru condiții dificile' },
-  { name: 'Industria Cimentului', icon: 'Building', description: 'Rezistență la abraziune și praf' },
-  { name: 'Industria Hârtiei', icon: 'FileText', description: 'Soluții pentru procese continue' },
-  { name: 'Logistică și Depozitare', icon: 'Warehouse', description: 'Sisteme de transport și manipulare' },
-  { name: 'Biogaz și Energie Verde', icon: 'Leaf', description: 'Echipamente pentru energie regenerabilă' }
-];
-
-export const companyInfo = {
-  name: 'Infinitrade Romania',
-  legalEntity: 'Driatheli Group SRL',
-  tagline: 'Dăm puls industriei',
-  description: 'Partener strategic pentru departamentele de achiziții, mentenanță și investiții din industria românească. Furnizăm echipamente industriale de înaltă performanță pentru cele mai exigente aplicații.',
-  aboutUs: 'Infinitrade România furnizează din 2009 echipamente și piese de schimb industriale pentru departamentele de achiziții și mentenanță: pompe, robineți, motoare, schimbătoare de căldură, suflante, automatizări, instrumentație și componente mecanice. Avem depozit propriu în Ghiroda (Timiș), aducem restul gamei din canalele producătorilor din Europa și, la cerere, din SUA, și ofertăm pe cod de produs, inclusiv pentru licitații SEAP.',
-  founded: 2009,
-  location: { city: 'Ghiroda', county: 'Timiș', address: 'Calea Lugojului, nr.47/B, Hala nr. 3', country: 'România' },
-  contact: { 
-    email: 'vanzari@infinitrade-romania.ro', 
-    emailSecretariat: 'secretariat@infinitrade-romania.ro', 
-    phone: '+40 371 232 404', 
-    hours: 'Luni - Vineri / 08:00 - 16:30' 
-  },
-  // brands/years: see src/data/siteStats.js (derived). 800+ clients / 300+ suppliers retired — no source (entityFacts.json).
-  // Date oficiale verificabile (sursa: ONRC/risco.ro 2024)
-  officialData: {
-    revenue: '16.5M',
-    revenueUnit: 'RON',
-    revenueYear: '2024',
-    employees: '16',
-    foundingDate: '2009-11-11',
-    cui: 'RO26209397',
-    regCom: 'J35/2901/2009',
-  },
-  certifications: ['ISO 9001:2015', 'Furnizor industrial din 2009', 'Furnizor SEAP / SICAP'],
-  industries: ['Petrochimie', 'Energie', 'Alimentar', 'Farmaceutic', 'Automotive', 'Naval', 'Metalurgie', 'HVAC', 'Tratare Apă', 'Minerit', 'Ciment', 'Hârtie', 'Chimie', 'Logistică', 'Biogaz'],
-  targetAudience: 'Departamente de achiziții, echipe de mentenanță, ingineri de proiect și responsabili investiții din industria grea'
-};
-
-export const features = [
-  { icon: 'Package', title: 'Stoc Strategic', description: 'Componente critice disponibile pentru livrare imediată - minimizăm timpul de oprire al producției' },
-  { icon: 'Truck', title: 'Livrare Expresă 24-72h', description: 'Transport rapid în toată România, inclusiv livrări urgente pentru situații critice' },
-  { icon: 'Wrench', title: 'Piese de Schimb Originale', description: 'Componente originale de la producători pentru mentenanță preventivă și corectivă' },
-  { icon: 'Headphones', title: 'Suport Tehnic Specializat', description: 'Echipa noastră tehnică te poate asista în orice situație - contactează-ne' },
-  { icon: 'Shield', title: 'Garanție și Certificări', description: 'Produse originale cu garanție producător și certificate de conformitate' },
-  { icon: 'Globe', title: 'Branduri Industriale de Top', description: 'Acces la cei mai importanți producători mondiali de echipamente industriale' }
-];
-
-// Primary navigation - product categories
-export const navigation = [
-  { name: 'Pompe Industriale', href: '/pompe-industriale' },
-  { name: 'Robineți Industriali', href: '/robineti-industriali' },
-  { name: 'Motoare Electrice', href: '/motoare-electrice' },
-  { name: 'Schimbătoare Căldură', href: '/schimbatoare-caldura' },
-  { name: 'Suflante Industriale', href: '/suflante-ventilatoare' },
-  {
-    name: 'Resurse',
-    href: '/blog',
-    isDropdown: true,
-    children: [
-      { name: 'Ghid Achiziții SEAP', href: '/ghid-achizitii-seap', description: 'Coduri CPV și proceduri licitații' },
-      { name: 'Blog Tehnic', href: '/blog', description: 'Ghiduri și articole tehnice' },
-      { name: 'Ghiduri de aplicație', href: '/studii-de-caz', description: 'Cum abordăm tehnic proiectele' },
-      { name: 'Referințe clienți', href: '/testimoniale', description: 'Cum obțineți referințe' },
-      { name: 'Întrebări Frecvente', href: '/faq', description: 'Răspunsuri la întrebări comune' },
-      { name: 'Industrii Deservite', href: '/industrii', description: 'Soluții pe verticale industriale' },
-      { name: 'Ghid Comparativ', href: '/ghid-comparativ', description: 'Comparații branduri și produse' },
-      { name: 'Branduri din SUA', href: '/branduri-sua', description: 'Producători americani, import la comandă' },
-      { name: 'Certificări', href: '/certificari', description: 'Certificări și documente' },
-      { name: 'Echipa', href: '/echipa', description: 'Cum lucrăm cererile de ofertă' },
-    ]
-  },
-];
-
-// Secondary navigation - info pages (centered below)
-export const secondaryNavigation = [
-  { name: 'Acasă', href: '/' },
-  {
-    name: 'Branduri & Echipamente',
-    href: '/echipamente-diverse',
-    isRedHighlight: true,
-    isMegaMenu: true,
-    children: [
-      { name: 'Automatizări Industriale', href: '/automatizari-industriale', description: 'PLC, HMI, SCADA, actuatoare' },
-      { name: 'Senzori și Instrumentație', href: '/senzori-instrumentatie', description: 'Presiune, temperatură, debit' },
-      { name: 'Componente Hidraulice', href: '/componente-hidraulice-pneumatice', description: 'Cilindri, distribuitoare, pompe' },
-      { name: 'Echipamente Electrice', href: '/echipamente-electrice', description: 'Întrerupătoare, contactoare, VFD' },
-      { name: 'Componente Mecanice', href: '/componente-mecanice', description: 'Rulmenți, curele, garnituri' },
-      { name: 'Filtre și Consumabile', href: '/filtre-consumabile', description: 'Filtre hidraulice, aer, ulei' },
-      { name: 'Scule și Instrumente', href: '/scule-instrumente', description: 'Scule electrice, măsură' },
-      { name: 'Echipamente Termice', href: '/echipamente-termice', description: 'Chillere, cazane, arzătoare' },
-      { name: 'Lubrifianți și Chimice', href: '/lubrifianti-chimice', description: 'Uleiuri, unsori, adezivi' },
-      { name: 'Echipamente Auxiliare', href: '/echipamente-auxiliare', description: 'Protecție, curățenie, dozare' },
-      { name: 'Aparate de Măsură și Testare', href: '/aparate-masura-testare', description: 'Multimetre, calibratoare, testere PRAM' },
-      { name: 'Branduri din SUA', href: '/branduri-sua', description: 'Producători americani, pe categorii și industrii' },
-    ]
-  },
-  { name: 'Despre Noi', href: '/despre-noi' },
-  { name: 'Contact', href: '/contact' },
-];
-
-// Footer industries with links
-export const footerIndustries = [
-  { name: 'Petrochimie', slug: 'petrochimie' },
-  { name: 'Energie', slug: 'energie' },
-  { name: 'Alimentar', slug: 'alimentar' },
-  { name: 'Farmaceutic', slug: 'farmaceutic' },
-  { name: 'Tratare Apă', slug: 'tratare-apa' },
-  { name: 'Chimie', slug: 'chimie' },
-];
-
-export const ctaMessages = {
-  hero: 'Solicită Ofertă Personalizată',
-  category: 'Cere Specificații Tehnice',
-  brand: 'Verifică Disponibilitate',
-  contact: 'Contactează Echipa Tehnică'
-};
+export { targetIndustries, companyInfo, features, footerIndustries, ctaMessages } from './company';
+export { navigation, secondaryNavigation } from './navigation';
 
 export const allBrands = categories.flatMap(cat => cat.brands.map(brand => ({ ...brand, category: cat.slug, categoryName: cat.name })));
 export const allProductTypes = categories.flatMap(cat => cat.productTypes.map(type => ({ ...type, category: cat.slug, categoryName: cat.name })));

@@ -108,7 +108,7 @@ function generateIndustryJsonLd(industry) {
           {
             '@type': 'ListItem',
             position: 1,
-            name: 'Acasa',
+            name: 'Acasă',
             item: config.site.url,
           },
           {
@@ -311,17 +311,17 @@ export default async function IndustryPage({ params }) {
               className={styles.ctaBox}
               style={{ background: `linear-gradient(135deg, ${industry.color} 0%, #063c69 100%)` }}
             >
-              <h2>Ai nevoie de echipamente pentru {industry.name.toLowerCase()}?</h2>
+              <h2>Aveți nevoie de echipamente pentru {industry.name.toLowerCase()}?</h2>
               <p>
-                Echipa noastra tehnica iti ofera consultanta gratuita si oferte personalizate.
+                Trimiteți-ne datele aplicației sau codurile echipamentelor; revenim cu variantele compatibile și termenul de livrare scris în ofertă.
               </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact" className={styles.ctaButtonPrimary}>
                   <Phone size={18} />
-                  Solicita Oferta
+                  Solicită ofertă
                 </Link>
                 <Link href="/faq" className={styles.ctaButtonSecondary}>
-                  Intrebari Frecvente
+                  Întrebări frecvente
                 </Link>
               </div>
             </div>

@@ -660,7 +660,7 @@ export async function POST(request) {
     const spamResult = detectSpam(validatedData, validatedData._t);
 
     if (spamResult.isSpam) {
-      console.log(`[SPAM BLOCKED] score=${spamResult.score} reason="${spamResult.reason}" name="${validatedData.name}" email="${validatedData.email}"`);
+      console.log(`[SPAM BLOCKED] score=${spamResult.score} reason="${spamResult.reason}" emailDomain="${String(validatedData.email).split('@')[1] || ''}"`); // v20: no name/e-mail in logs (GDPR)
       // Return success to not reveal to bots that they were caught
       return Response.json({
         success: true,
@@ -670,7 +670,7 @@ export async function POST(request) {
 
     // Log borderline cases for monitoring
     if (spamResult.score > 0) {
-      console.log(`[SPAM CHECK] score=${spamResult.score} reason="${spamResult.reason}" name="${validatedData.name}" email="${validatedData.email}"`);
+      console.log(`[SPAM CHECK] score=${spamResult.score} reason="${spamResult.reason}" emailDomain="${String(validatedData.email).split('@')[1] || ''}"`);
     }
 
     // Analyze request with Claude AI

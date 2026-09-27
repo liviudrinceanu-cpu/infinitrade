@@ -123,7 +123,7 @@ function generateCaseStudyJsonLd(caseStudy) {
           {
             '@type': 'ListItem',
             position: 1,
-            name: 'Acasa',
+            name: 'Acasă',
             item: config.site.url,
           },
           {

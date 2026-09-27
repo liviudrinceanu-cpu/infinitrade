@@ -48,7 +48,7 @@ Pentru operatorii români de apă și hidroenergie, Rittmeyer are sens la baraje
       { code: "PLDS", description: "monitorizare conducte sub presiune, detecție timpurie a anomaliilor" },
       { code: "Detecție scurgeri și minimizare pierderi", description: "analiză pe zone pentru localizarea pierderilor din rețea" },
       { code: "Monitorizare calitate apă potabilă", description: "supraveghere online a parametrilor de calitate" },
-      { code: "Monitorizare skew la vane/stavilare", description: "detecție funcționare asimetrică la vane și stavilare" },
+      { code: "Monitorizare skew la vane/stăvilare", description: "detecție funcționare asimetrică la vane și stavilare" },
       { code: "Monitorizare sedimente", description: "supraveghere online a concentrației de sedimente" },
       { code: "Monitorizare rețele de canalizare", description: "transparență operațională pentru protecția apelor" },
       { code: "Monitorizare eficiență turbine și pompe", description: "supraveghere randament integrată cu măsurarea debitului" },

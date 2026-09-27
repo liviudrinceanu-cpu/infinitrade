@@ -384,6 +384,7 @@ export default function CategoryClient({ category, view, related = { industries:
                       category: category.name,
                       url: `/brand/${brand.simpleSlug}`
                     })}
+                    aria-label={isInCart(brand.name) ? `${brand.name} este în cerere` : `Adaugă ${brand.name} la cerere`}
                     title={isInCart(brand.name) ? 'În cerere' : 'Adaugă la cerere'}
                   >
                     {isInCart(brand.name) ? <Check size={16} /> : <Plus size={16} />}
@@ -530,6 +531,7 @@ export default function CategoryClient({ category, view, related = { industries:
                       category: category.name,
                       url: `/${category.slug}#${type.slug}`
                     })}
+                    aria-label={isInCart(type.name) ? `${type.name} este în cerere` : `Adaugă ${type.name} la cerere`}
                     title={isInCart(type.name) ? 'În cerere' : 'Adaugă la cerere'}
                   >
                     {isInCart(type.name) ? <Check size={16} /> : <Plus size={16} />}

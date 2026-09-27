@@ -4,11 +4,11 @@ export const brandContentBatch12 = {
     founded: 1921,
     headquarters: 'Tokyo, Japonia',
     employees: '146,000+',
-    overview: `Când vorbim despre automatizări industriale de top, Mitsubishi Electric e numele care îți vine instant în minte. Peste 100 de ani de inginerie japoneză concentrată în fiecare PLC, servo-drive sau VFD din gama producătorului. Seria MELSEC iQ-R este apreciată pentru stabilitate - se regăsesc frecvent linii de producție care rulează non-stop ani la rând fără eroare de program.
+    overview: `Când vorbim despre automatizări industriale, Mitsubishi Electric e numele care îți vine instant în minte. Peste 100 de ani de inginerie japoneză concentrată în fiecare PLC, servo-drive sau VFD din gama producătorului. Seria MELSEC iQ-R este apreciată pentru stabilitate - se regăsesc frecvent linii de producție care rulează non-stop ani la rând fără eroare de program.
 
-Ce ne place la ei e că au gândit ecosistemul complet: de la automate programabile mici (seria FX) până la sisteme complexe de control motion cu 64 de axe sincronizate simultan. Interfețele lor GOT (Graphic Operation Terminal) sunt intuitive, programarea în GX Works e logică, iar diagnosticarea online salvează ore întregi când apare vreo urgență. Se întâlnesc mașini din '95 care încă funcționează impecabil, doar cu update-uri software - cam asta înseamnă calitate pe termen lung.
+Un punct forte al gamei este ecosistemul complet: de la automate programabile mici (seria FX) până la sisteme complexe de control motion cu 64 de axe sincronizate simultan. Interfețele lor GOT (Graphic Operation Terminal) sunt intuitive, programarea în GX Works e logică, iar diagnosticarea online salvează ore întregi când apare vreo urgență. Actualizările software permit menținerea în funcțiune a echipamentelor mai vechi fără schimbarea integrală a hardware-ului.
 
-Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de ±0.01mm la axe liniare, timpi de stabilizare sub 20ms, iar comunicația prin SSCNET III/H permite sincronizare perfectă între 32 de axe. Variatorii de frecvență FR-A800 au control vectorial fără senzor care rivalizează cu sisteme closed-loop de 3 ori mai scumpe. În automatizări complexe - de la ambalare la prelucrări CNC - componente Mitsubishi Electric înseamnă performanță fără compromisuri și suport tehnic solid din partea echipei lor.`,
+Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de ±0.01mm la axe liniare, timpi de stabilizare sub 20ms, iar comunicația prin SSCNET III/H permite sincronizare perfectă între 32 de axe. Variatorii de frecvență FR-A800 au control vectorial fără senzor, cu performanțe apropiate de cele ale sistemelor closed-loop. În automatizări complexe - de la ambalare la prelucrări CNC - componente Mitsubishi Electric înseamnă performanță fără compromisuri și suport tehnic solid din partea echipei lor.`,
     whyChoose: [
       'PLC-uri MELSEC iQ-R cu timp de ciclu 0.98ns/pas și 520K pași program',
       'Servo-drives MELSERVO cu repetabilitate ±0.01mm și control până la 64 axe',
@@ -20,11 +20,11 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
     keyProducts: [
       {
         name: 'MELSEC iQ-R Series PLC',
-        description: 'Automate programabile modulare cu performanțe de top - procesor multi-core cu timp de ciclu 0.98ns per instrucțiune, memorie program până la 520K pași, suport pentru 8192 I/O. Comunicare integrată CC-Link IE Field, EtherNet/IP, PROFINET, MODBUS TCP. Programare în ladder, ST, SFC prin GX Works3. Redundanță CPU, hot-swap module, temperatură -25 la +60°C. Perfect pentru linii automotive, food processing, packaging de mare viteză unde fiecare milisecundă contează și unde fiabilitatea nu e negociabilă.'
+        description: 'Automate programabile modulare de înaltă performanță - procesor multi-core cu timp de ciclu 0.98ns per instrucțiune, memorie program până la 520K pași, suport pentru 8192 I/O. Comunicare integrată CC-Link IE Field, EtherNet/IP, PROFINET, MODBUS TCP. Programare în ladder, ST, SFC prin GX Works3. Redundanță CPU, hot-swap module, temperatură -25 la +60°C. Perfect pentru linii automotive, food processing, packaging de mare viteză unde fiecare milisecundă contează și unde fiabilitatea nu e negociabilă.'
       },
       {
         name: 'MELSERVO MR-J5 Series',
-        description: 'Servo-amplificatoare de ultimă generație cu control în buclă de 62.5μs, frecvență reglare 3.2kHz, inertie compensată automat până la 1:300. Putere 50W-55kW, intrare 1-fază sau 3-faze 200-480V. Tuning automat în 3 moduri (one-touch, advanced, real-time), vibrații reduse cu 66% față de generația anterioară. Comunicare SSCNET III/H pentru sincronizare multi-axă sub 125μs jitter. Funcții safety integrate STO/SS1 conform EN61800-5-2. Ideal pentru CNC, robotică, pick&place de precizie, printing industrial.'
+        description: 'Servo-amplificatoare de ultimă generație cu control în buclă de 62.5μs, frecvență reglare 3.2kHz, inerție compensată automat până la 1:300. Putere 50W-55kW, intrare 1-fază sau 3-faze 200-480V. Tuning automat în 3 moduri (one-touch, advanced, real-time), vibrații reduse cu 66% față de generația anterioară. Comunicare SSCNET III/H pentru sincronizare multi-axă sub 125μs jitter. Funcții safety integrate STO/SS1 conform EN61800-5-2. Ideal pentru CNC, robotică, pick&place de precizie, printing industrial.'
       },
       {
         name: 'FR-A800 Series VFD',
@@ -32,7 +32,7 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       },
       {
         name: 'GOT2000 Series HMI',
-        description: 'Interfețe om-mașină cu ecrane TFT 4.3" până la 15", rezolutii WVGA-XGA, touchscreen rezistiv sau capacitiv multi-touch. Procesor ARM Cortex-A9 1GHz, memorie 128MB RAM, SD card până la 32GB pentru logging. Comunicare directă cu peste 400 tipuri PLC (Mitsubishi, Siemens, Allen-Bradley, Omron), protocoale Ethernet, serial, USB. Programare drag&drop în GT Designer3, librării grafice, alarme, trend-uri, rețete. Temperatură -20 la +60°C, vibrație 5-9Hz/3.5mm, 9-25Hz/1.0mm, MTBF 50,000 ore. Logging SQL, VNC server, multi-limbaj, perfect pentru controlul proceselor critice.'
+        description: 'Interfețe om-mașină cu ecrane TFT 4.3" până la 15", rezoluții WVGA-XGA, touchscreen rezistiv sau capacitiv multi-touch. Procesor ARM Cortex-A9 1GHz, memorie 128MB RAM, SD card până la 32GB pentru logging. Comunicare directă cu peste 400 tipuri PLC (Mitsubishi, Siemens, Allen-Bradley, Omron), protocoale Ethernet, serial, USB. Programare drag&drop în GT Designer3, librării grafice, alarme, trend-uri, rețete. Temperatură -20 la +60°C, vibrație 5-9Hz/3.5mm, 9-25Hz/1.0mm, MTBF 50,000 ore. Logging SQL, VNC server, multi-limbaj, perfect pentru controlul proceselor critice.'
       }
     ],
     certifications: [
@@ -67,7 +67,7 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
     productCodes: [
       {
         "code": "MELSEC iQ-R",
-        "description": "gama de automate programabile de inalta performanta"
+        "description": "gama de automate programabile de înaltă performanță"
       },
       {
         "code": "MELSEC iQ-F",
@@ -83,7 +83,7 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       },
       {
         "code": "MELSEC-F",
-        "description": "gama de automate programabile de baza"
+        "description": "gama de automate programabile de bază"
       },
       {
         "code": "MELSEC-QS/WS",
@@ -95,11 +95,11 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       },
       {
         "code": "FR-A800",
-        "description": "convertizor de frecventa de inalta performanta pentru industrie"
+        "description": "convertizor de frecvență de înaltă performanță pentru industrie"
       },
       {
         "code": "FR-A800-E",
-        "description": "varianta europeana a convertizorului de frecventa FR-A800"
+        "description": "varianta europeană a convertizorului de frecvență FR-A800"
       },
       {
         "code": "FR-E800",
@@ -125,7 +125,7 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       },
       {
         "q": "Ce informații trimit pentru o ofertă de convertizor de frecvență Mitsubishi Electric?",
-        "a": "Precizati puterea motorului comandat, tensiunea de alimentare, tipul de sarcină (constantă sau variabilă) și dacă este nevoie de comunicație prin rețea industrială precum CC-Link IE TSN. Pentru înlocuirea unui convertizor existent, codul complet de pe placuta acestuia ajută la identificarea rapidă a variantei echivalente din gama FR-A800 sau FR-E800."
+        "a": "Precizați puterea motorului comandat, tensiunea de alimentare, tipul de sarcină (constantă sau variabilă) și dacă este nevoie de comunicație prin rețea industrială precum CC-Link IE TSN. Pentru înlocuirea unui convertizor existent, codul complet de pe plăcuța acestuia ajută la identificarea rapidă a variantei echivalente din gama FR-A800 sau FR-E800."
       },
       {
         "q": "Ce este un panou operator GOT2000 de la Mitsubishi Electric și la ce se conectează?",
@@ -152,7 +152,7 @@ Consistența calității este unul dintre argumentele producătorului - fiecare 
     whyChoose: [
       'Precizie extremă - șublere ±0.01mm, micrometre ±0.001mm, CMM până la 0.5μm',
       'Calibrare traceable NIST/PTB cu certificat pentru fiecare instrument',
-      'Durabilitate legendară - instrumente din anii 90 încă funcționează perfect',
+      'Durabilitate ridicată - construcție robustă gândită pentru utilizare îndelungată',
       'Gama completă 5,500+ produse - de la șublere la CMM-uri multi-senzor',
       'Software avansat MCOSMOS pentru CMM cu GD&T, reverse engineering, SPC',
       'Service global - recalibrare acreditată ISO 17025 și piese de schimb pe termen lung'
@@ -325,7 +325,7 @@ Producătorul investește în R&D - laborator propriu de tribologie pentru testa
     whyChoose: [
       'Tehnologie sintetică de vârf - Mobil SHC cu PAO rezistă -54°C la +200°C',
       'Intervale schimb extinse - 2-4x mai lungi vs. minerale standard (cost total redus)',
-      'Eficiență energetică dovedită - reducere consum 3-8% cu uleiuri low-friction',
+      'Eficiență energetică - reducere de consum cu uleiuri low-friction, conform producătorului',
       'OEM approvals - peste 600 aprobare de la producători echipamente (SKF, Siemens, Bosch)',
       'Mobil Serv Program - analiză ulei gratuită, lubrication surveys, training tehnic',
       'Gamă completă 400+ produse - de la hidraulică la transmisii, compresoare, turbine'
@@ -337,15 +337,15 @@ Producătorul investește în R&D - laborator propriu de tribologie pentru testa
       },
       {
         name: 'Mobilith SHC 220 Grease',
-        description: 'Unsoare sintetică premium litiu complex cu bază PAO (polyalphaolefin) pentru performanță extremă. Temperatură lucru continuă -40°C la +180°C, vârf până la +220°C. NLGI Grade 2, penetrație 265-295 (0.1mm), dropping point >260°C. Protecție anti-uzură superioară - test 4-balls welding load 315 kg, wear scar 0.4mm. Rezistență apă excelentă, oxidare extremă (10,000+ ore ASTM D942), compatibilitate elastomeri. Aplicații: rulmenți motor electric, reductoare sellate, pompe vid rotative, ventilatore cuptor, lanțuri transportoare la cald. Interval relubrificare de 2-3x mai lung vs. unsori litiu convenționale - scade manhours mentenanță și consum unsoare cu 50%.'
+        description: 'Unsoare sintetică premium litiu complex cu bază PAO (polyalphaolefin) pentru performanță extremă. Temperatură lucru continuă -40°C la +180°C, vârf până la +220°C. NLGI Grade 2, penetrație 265-295 (0.1mm), dropping point >260°C. Protecție anti-uzură superioară - test 4-balls welding load 315 kg, wear scar 0.4mm. Rezistență apă excelentă, oxidare extremă (10,000+ ore ASTM D942), compatibilitate elastomeri. Aplicații: rulmenți motor electric, reductoare sellate, pompe vid rotative, ventilatore cuptor, lanțuri transportoare la cald. Interval relubrificare de 2-3x mai lung vs. unsori litiu convenționale - scade manhours mentenanță și consumul de unsoare.'
       },
       {
         name: 'Mobil SHC Gear 320 Synthetic Gear Oil',
-        description: 'Ulei sintetic pentru transmisii industriale cu formulare PAO și aditivi EP (extreme pressure) de ultimă generație. ISO VG 320, indice vâscozitate 160 pentru stabilitate termică superioară. FZG gear test fail stage 13+ (protecție anti-pitting extremă), Load Carrying Capacity Timken OK load 65 lbs. Eficiență energetică dovedită - reducere frecare 10-15% vs. minerale, economie energie 3-6% măsurată în teste field. Interval schimb 3x mai lung (12,000-15,000 ore vs. 4,000-5,000 minerale). Compatibilitate etanșări, filtrare superioară. Aplicații: reductoare industriale heavy-duty, extrudere plastic, mixere, conveyors, elevators, wind turbine gearboxes. Investiție care se plătește în <2 ani prin economii energie și mentenanță redusă.'
+        description: 'Ulei sintetic pentru transmisii industriale cu formulare PAO și aditivi EP (extreme pressure) de ultimă generație. ISO VG 320, indice vâscozitate 160 pentru stabilitate termică superioară. FZG gear test fail stage 13+ (protecție anti-pitting extremă), Load Carrying Capacity Timken OK load 65 lbs. Eficiență energetică - reducere frecare vs. minerale, cu economie de energie măsurată în teste de teren. Interval schimb 3x mai lung (12,000-15,000 ore vs. 4,000-5,000 minerale). Compatibilitate etanșări, filtrare superioară. Aplicații: reductoare industriale heavy-duty, extrudere plastic, mixere, conveyors, elevators, wind turbine gearboxes. Investiție care poate reduce costurile pe termen lung prin economii de energie și mentenanță redusă.'
       },
       {
         name: 'Mobil Rarus SHC 1026 Compressor Oil',
-        description: 'Ulei sintetic pentru compresoare cu șurub și palete cu cerințe extreme - formulare PAO cu aditivi anti-uzură și anti-oxidare proprietari. Vâscozitate ISO VG 46, stabilitate termică excepțională (temperaturi descărcare până la 220°C fără formare depuneri). Separare de aer excelentă pentru eficiență comprimare, protecție rulmenți și angrenaje superioare, interval schimb 4,000-6,000 ore vs. 2,000 minerale. Compatibilitate etanșări NBR, Viton, PTFE. Aplicații: compresoare rotative cu șurub industriale (Atlas Copco, Ingersoll Rand, Kaeser), compresoare palete, aplicații pharmaceutical unde puritatea aerului e critică. Reduce consumul energie comprimare cu 2-4%, scade costuri mentenanță și downtime. Test field în textile, food processing, automotive arată ROI în 12-18 luni.'
+        description: 'Ulei sintetic pentru compresoare cu șurub și palete cu cerințe extreme - formulare PAO cu aditivi anti-uzură și anti-oxidare proprietari. Vâscozitate ISO VG 46, stabilitate termică ridicată (temperaturi descărcare până la 220°C fără formare depuneri). Separare de aer excelentă pentru eficiență comprimare, protecție rulmenți și angrenaje superioare, interval schimb 4,000-6,000 ore vs. 2,000 minerale. Compatibilitate etanșări NBR, Viton, PTFE. Aplicații: compresoare rotative cu șurub industriale (Atlas Copco, Ingersoll Rand, Kaeser), compresoare palete, aplicații pharmaceutical unde puritatea aerului e critică. Reduce consumul de energie la comprimare, scade costuri de mentenanță și downtime, conform testelor de teren în textile, food processing, automotive.'
       }
     ],
     certifications: [
@@ -368,7 +368,7 @@ Producătorul investește în R&D - laborator propriu de tribologie pentru testa
       'Power Generation - turbine gaz/abur, generatoare, pompe feed water',
       'Wind Energy - gearbox-uri turbine eoliene offshore cu cerințe extreme vânt/sare',
       'Marine - propulsion systems, deck machinery, hydraulics în mediu salin coroziv',
-      'Automotive Manufacturing - linii asamblare, roboti sudură, paint shop hydraulics'
+      'Automotive Manufacturing - linii asamblare, roboți sudură, paint shop hydraulics'
     ],
     infinitrade: `Lucrăm cu fișele tehnice publice ale producătorului Mobil (ExxonMobil) și spunem clar ce putem și ce nu putem confirma pentru fiecare aplicație, mai ales compatibilitatea cu echipamentul tău. Nu deținem un stoc afișat public pentru fiecare ambalaj, dar aducem lubrifianții Mobil solicitați prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru gramajele uzuale sau în 2-4 săptămâni la comandă pentru butoaie ori formule speciale. Pentru o ofertă corectă, trimite-ne tipul de echipament, temperatura de lucru și vâscozitatea recomandată de producătorul utilajului. Verificăm disponibilitatea reală la furnizor înainte să confirmăm termenul de livrare.`,
     limitation: 'Nu putem confirma stocul permanent pentru fiecare gramaj sau ambalaj Mobil și nici compatibilitatea exactă cu un echipament anume fără specificațiile lui tehnice.',
@@ -475,15 +475,15 @@ Producătorul investește în R&D - laborator propriu de tribologie pentru testa
     founded: 1951,
     headquarters: 'New York, SUA',
     employees: '11,500+',
-    overview: `Moog e legendă vie în domeniul servo-valvelor și sistemelor de control hidraulic de precizie - de la programul Apollo NASA până la simulatoarele de zbor Boeing și turbinele eoliene offshore moderne. Peste 70 ani de inginerie concentrată în controlul extrem de precis al fluidelor sub presiune. Servo-valvele Moog se folosesc frecvent în teste materiale (universal testing machines) unde poziționarea la ±0.01mm și controlul forței la ±0.5% sunt standarde zilnice - repetabilitatea și fiabilitatea sunt documentate de producător chiar și după 50.000 cicluri.
+    overview: `Moog e un nume de referință în domeniul servo-valvelor și sistemelor de control hidraulic de precizie - de la programele aerospațiale până la simulatoarele de zbor și turbinele eoliene offshore moderne. Peste 70 ani de inginerie concentrată în controlul extrem de precis al fluidelor sub presiune. Servo-valvele Moog se folosesc frecvent în teste materiale (universal testing machines) unde poziționarea la ±0.01mm și controlul forței la ±0.5% sunt standarde zilnice - repetabilitatea și fiabilitatea sunt documentate de producător chiar și după 50.000 cicluri.
 
 Tehnologia lor de bază e servo-valva cu jet pipe sau flapper-nozzle care convertește semnale electrice mici (±10V, 4-20mA) în mișcări hidraulice precise și puternice. Seria D634 (direct drive servo-valve) oferă bandwidth până la 100Hz, hysteresis sub 0.5%, linearitate ±1% în toată cursa. Seria D765 (proportional valve) e mai economică dar încă oferă control excellent pentru aplicații non-critical. Și apoi sunt sistemele complete - motion controllers RMC75E cu 4 axe hidraulice sincronizate la ±0.1mm, servo-drives și amplificatoare care închid bucla de control la 1kHz, transduzeri de poziție și presiune integrate.
 
-Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele magnetice și jet-pipe-ul din servo-vavlă până la software-ul motion control și interfețele HMI. Rezultatul: compatibilitate perfectă între componente, diagnoză avansată, upgrade-uri facile. În aplicații unde controlul precis forță/poziție hidraulică e vital - teste structurale aerospace, simulatoare mișcare, steel rolling mills, injection molding prese mari - Moog înseamnă performanță fără compromis și suport tehnic de top nivel. Costă mai mult, dar ROI-ul vine din precizie repetabilă și uptime ridicat.`,
+Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele magnetice și jet-pipe-ul din servo-vavlă până la software-ul motion control și interfețele HMI. Rezultatul: compatibilitate perfectă între componente, diagnoză avansată, upgrade-uri facile. În aplicații unde controlul precis forță/poziție hidraulică e vital - teste structurale aerospace, simulatoare mișcare, steel rolling mills, injection molding prese mari - Moog înseamnă performanță fără compromis și suport tehnic solid. Costă mai mult, dar ROI-ul vine din precizie repetabilă și uptime ridicat.`,
     whyChoose: [
       'Servo-valve de precizie extremă - hysteresis <0.5%, bandwidth 100Hz, linearitate ±1%',
       'Sisteme integrate complete - valve + controller + drives + HMI de la un singur OEM',
-      'Aplicații extreme dovedite - NASA, Boeing, F1 simulators, offshore wind, steel mills',
+      'Aplicații extreme dovedite - aerospațial, simulatoare motorsport, offshore wind, steel mills',
       'Motion control multi-axă - până la 32 axe hidraulice sincronizate la 0.1mm',
       'Diagnostică avansată - monitorizare continuă parametri, predictive maintenance alerts',
       'Suport global 24/7 - ingineri aplicații, training la client, piese de schimb rapid delivery'
@@ -491,11 +491,11 @@ Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele m
     keyProducts: [
       {
         name: 'D634 Direct Drive Servo Valve',
-        description: 'Servo-valve hidraulică cu torque motor direct drive - cea mai precisă soluție control poziție/forță/presiune în hidraulică industrială. Flow rate 5-380 L/min la presiune diferențială 70 bar, presiune sistem până la 315 bar. Bandwidth ±3dB la 60-100Hz (model dependent), hysteresis <0.5%, linearitate ±1%, simetrie ±3%. Temperatură fluid -40°C la +80°C, vâscozitate 10-400 cSt. Opțiuni: feedback poziție spool integrat LVDT, mounting SAE, ISO, CETOP, filtre integrate 5μm absolute. Aplicații: teste materiale servo-hidraulice, simulatoare mișcare (flight, driving), injection molding prese mari, steel hot rolling mills, active vibration damping. Costisitoare dar de neînlocuit unde repetabilitatea sub 0.01mm și forța constantă la ±0.5% sunt non-negociabile.'
+        description: 'Servo-valve hidraulică cu torque motor direct drive - o soluție de precizie ridicată pentru control poziție/forță/presiune în hidraulică industrială. Flow rate 5-380 L/min la presiune diferențială 70 bar, presiune sistem până la 315 bar. Bandwidth ±3dB la 60-100Hz (model dependent), hysteresis <0.5%, linearitate ±1%, simetrie ±3%. Temperatură fluid -40°C la +80°C, vâscozitate 10-400 cSt. Opțiuni: feedback poziție spool integrat LVDT, mounting SAE, ISO, CETOP, filtre integrate 5μm absolute. Aplicații: teste materiale servo-hidraulice, simulatoare mișcare (flight, driving), injection molding prese mari, steel hot rolling mills, active vibration damping. Costisitoare dar de neînlocuit unde repetabilitatea sub 0.01mm și forța constantă la ±0.5% sunt non-negociabile.'
       },
       {
         name: 'D765 Proportional Directional Valve',
-        description: 'Valve hidraulice proporționale direct-operated pentru aplicații industrial standard unde servo-valve full e over-engineered. Flow rate 20-300 L/min, presiune până la 350 bar. Bandwidth ±3dB la 20-35Hz, hysteresis <3%, linearitate ±3%, repetiție ±1.5%. Comandă 4-20mA sau ±10V cu feedback poziție spool opțional. Temperatură -30°C la +80°C, vâscozitate 10-500 cSt, filtrare recomandată 10μm. Versiuni: 2-stage (pilot-operated) pentru flow >100 L/min, direct-operated pentru <100 L/min. Aplicații: mobile hydraulics premium (excavatoare, cranes), industrial presses formare metal, plastic injection molding tier-2, test rigs non-critical. Pret 50-60% din servo-valve dar performanță excelentă pentru majoritatea aplicațiilor industriale.'
+        description: 'Valve hidraulice proporționale direct-operated pentru aplicații industrial standard unde servo-valve full e over-engineered. Flow rate 20-300 L/min, presiune până la 350 bar. Bandwidth ±3dB la 20-35Hz, hysteresis <3%, linearitate ±3%, repetiție ±1.5%. Comandă 4-20mA sau ±10V cu feedback poziție spool opțional. Temperatură -30°C la +80°C, vâscozitate 10-500 cSt, filtrare recomandată 10μm. Versiuni: 2-stage (pilot-operated) pentru flow >100 L/min, direct-operated pentru <100 L/min. Aplicații: mobile hydraulics premium (excavatoare, cranes), industrial presses formare metal, plastic injection molding tier-2, test rigs non-critical. Preț 50-60% din servo-valve dar performanță excelentă pentru majoritatea aplicațiilor industriale.'
       },
       {
         name: 'RMC75E Motion Controller',
@@ -518,7 +518,7 @@ Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele m
     ],
     industries: [
       'Aerospace - actuatoare flight control, test rigs structural, landing gear testing',
-      'Simulation - flight simulators (Boeing, Airbus training), driving simulators automotive',
+      'Simulation - flight simulators (instruire piloți), driving simulators automotive',
       'Material Testing - universal testing machines tensiune/compresiune, fatigue testing',
       'Steel Production - hot rolling mills, continuous casting, descaling high-pressure',
       'Plastics - injection molding prese mari (>1,000 ton clamping force)',
@@ -761,7 +761,7 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
     founded: 1914,
     headquarters: 'Pennsylvania, SUA',
     employees: '5,000+',
-    overview: `MSA Safety (Mine Safety Appliances) e sinonim cu protecția vieții în medii industriale periculoase - peste 110 ani dedicați dezvoltării echipamentelor care salvează oameni în mining, oil&gas, firefighting, confined spaces. De la primele măști de gaze în Primul Război Mondial la detectoarele multi-gaz moderne și căștile smart de azi, MSA a fost mereu pionier tehnologic în safety. Am echipat echipe noastre de service cu detectoare portabile ALTAIR și fix-mounted ULTIMA X - fiabilitatea lor în detecție O2, LEL, H2S, CO e absolută, fără alarme false dar și fără miss-uri periculoase.
+    overview: `MSA Safety (Mine Safety Appliances) e sinonim cu protecția vieții în medii industriale periculoase - peste 110 ani dedicați dezvoltării echipamentelor care salvează oameni în mining, oil&gas, firefighting, confined spaces. De la primele măști de gaze în Primul Război Mondial la detectoarele multi-gaz moderne și căștile smart de azi, MSA a fost mereu pionier tehnologic în safety. Detectoarele portabile ALTAIR și cele fixe ULTIMA X sunt folosite frecvent pentru detecția O2, LEL, H2S, CO, cu fiabilitate ridicată în detecție, conform producătorului.
 
 Gama lor e vastă și specializată pe domenii: detectoare gaze portabile (ALTAIR seria 4X/5X multi-gas, serie single-gas pentru specific toxic), sisteme fixe monitorizare (ULTIMA X seria senzori electrochimici și infraroșu), aparate respiratorii (SCBA pentru firefighting, PAPR pentru industrie, emergency escape sets), căști protecție (V-Gard cu suspensii innovative, modele dielectric/high-temp), protecție cădere de la înălțime (harnașamente full-body, lanyard-uri shock-absorbing, sisteme fall arrest), ochelari și viziere, costume protective. Toate testate în condiții extreme și certificate conform standarde internaționale riguroase (ATEX, IECEx, NIOSH, EN).
 
@@ -769,7 +769,7 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
     whyChoose: [
       '110+ ani experiență în safety - de la WWI gas masks la detectoare smart IoT moderne',
       'Certificări globale complete - ATEX, IECEx, NIOSH, EN, teste extreme rigoroase',
-      'Fiabilitate dovedită field - milioane echipamente în folosință mining, oil&gas, firefighting',
+      'Fiabilitate dovedită field - echipamente folosite pe scară largă în mining, oil&gas, firefighting',
       'Tehnologie avansată - senzori electrochimici/IR, telemetrie wireless, data logging',
       'Training & support - cursuri certificare, service tehnic specializat, calibrare rapidă',
       'Innovation continuă - R&D propriu, materiale noi, ergonomie îmbunătățită constant'
@@ -902,23 +902,23 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
 
 Gama lor acoperă tot lanțul conectivitate: cabluri și conectori M8/M12/M23 pentru senzori/actuatori (straight, right-angle, shielded, cu LED, push-pull, bayonet), module I/O distribuite IP67 (IMPACT67 cu IO-Link, EtherNet/IP, PROFINET), switch-uri Ethernet industriale (managed/unmanaged cu redundanță, PoE, fiber), alimentatoare 24VDC (EVOLVE cu eficiență 96%, redundanță diode OR, monitoring curent), sistem decentralizare MVK Metal cu protecție fuse/breaker per circuit. Și totul gândit modular - adaugi 8 I/O aici, un switch acolo, un alimentator redundant - fără redesign complet panou.
 
-Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezistă jet high-pressure cleaning la 80°C (food processing, automotive paint shop), cabluri PUR/PVC cu rezistență ulei, abraziune, UV, temperaturi -40°C la +90°C, module I/O cu coating protectiv pentru medii corozive. Și apoi e ușurința diagnosticării - LED-uri status pe fiecare conector, module cu web server integrat pentru troubleshooting remote, alimentatoare cu alarme DC-OK. Când cablez o mașină nouă sau retrofit echipament vechi, Murr înseamnă timp redus commissioning și fiabilitate pe termen lung fără probleme intermitente de contact. În automatizări unde sute de senzori și actuatori comunică, conectica corectă e tot atât de importantă ca PLC-ul.`,
+Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezistă jet high-pressure cleaning la 80°C (food processing, automotive paint shop), cabluri PUR/PVC cu rezistență ulei, abraziune, UV, temperaturi -40°C la +90°C, module I/O cu coating protectiv pentru medii corozive. Și apoi e ușurința diagnosticării - LED-uri status pe fiecare conector, module cu web server integrat pentru troubleshooting remote, alimentatoare cu alarme DC-OK. La cablarea unei mașini noi sau la retrofitul unui echipament vechi, Murr înseamnă timp redus de commissioning și fiabilitate pe termen lung fără probleme intermitente de contact. În automatizări unde sute de senzori și actuatori comunică, conectica corectă e tot atât de importantă ca PLC-ul.`,
     whyChoose: [
       'Specialist conectică industrială - de la conectori M8 simpli la ecosisteme I/O distribuite',
       'Robustețe industrială extremă - IP67/IP69K, rezistență chimică, temperaturi -40°C/+90°C',
       'Modularitate completă - cabluri, conectori, module I/O, switch-uri, alimentatoare integrate',
-      'Reducere timp cablare 60-80% - conectori quick-disconnect vs. terminale clasice',
+      'Reducere timp de cablare - conectori quick-disconnect vs. terminale clasice',
       'Diagnostică avansată - LED status, web server module, alarme alimentatoare',
       'Certificări globale - UL, cUL, CE, ATEX, marine Lloyd\'s pentru orice aplicație'
     ],
     keyProducts: [
       {
         name: 'M12 X-coded Connectors & Cables',
-        description: 'Conectori și cabluri M12 X-coded pentru Ethernet industrial 10Gbit - viitorul conectivității în automatizări. Conformitate IEC 61076-2-109, bandwidth până la 500MHz (Cat.6A equivalent), support 10GBASE-T. Versiuni: straight, right-angle (90°), panel mount, field-wireable, molded (pre-assembled). Material contact: Cu-Zn gold-plated, carcasă Zn die-cast nickel-plated sau plastic PA. Protecție IP67 mated, temperatură -40°C la +85°C cable dependent (PUR/PVC). Cicluri conectare/deconectare >500 fără degradare contact. Aplicații: backbone Ethernet în mașini complexe (automotive assembly, packaging lines), conectare camere industriale GigE Vision, linking IO modules high-speed. Pregătit pentru Industry 4.0 unde bandwidth-ul crește exploziv - investiție infrastructure viitor-proof. Cost 15-40 EUR per conector, dar 10Gbit e overkill acum, devine standard în 3-5 ani.'
+        description: 'Conectori și cabluri M12 X-coded pentru Ethernet industrial 10Gbit - viitorul conectivității în automatizări. Conformitate IEC 61076-2-109, bandwidth până la 500MHz (Cat.6A equivalent), support 10GBASE-T. Versiuni: straight, right-angle (90°), panel mount, field-wireable, molded (pre-assembled). Material contact: Cu-Zn gold-plated, carcasă Zn die-cast nickel-plated sau plastic PA. Protecție IP67 mated, temperatură -40°C la +85°C cable dependent (PUR/PVC). Cicluri conectare/deconectare >500 fără degradare contact. Aplicații: backbone Ethernet în mașini complexe (automotive assembly, packaging lines), conectare camere industriale GigE Vision, linking IO modules high-speed. Pregătit pentru Industry 4.0 unde bandwidth-ul crește exploziv - investiție infrastructure viitor-proof, chiar dacă 10Gbit nu este încă necesar în toate aplicațiile actuale.'
       },
       {
         name: 'IMPACT67 Modular I/O System',
-        description: 'Sistem I/O distribuit modular IP67 pentru decentralizarea semnalelor în câmp - reduce cablare și cost instalare cu 40-60%. Module: DI/DO (4/8/16 canale 24VDC), AI (4/8 canale ±10V/4-20mA/RTD/TC), combinații mixte. Comunicare: PROFINET, EtherNet/IP, Modbus TCP, IO-Link master. Alimentare 24VDC redundantă prin backplane, consum per modul 1-3W. Carcasă aluminiu IP67, temperatură -25°C la +60°C, vibrații 5g, șoc 30g. Montare DIN rail sau direct mașină cu bracket-uri. Diagnostică: LED status per canal, web server integrat cu readings live și alarme, SNMP pentru integrare SCADA. Aplicații: mașini modulare (packaging, assembly) unde I/O sunt distribuite fizic, retrofit echipamente vechi fără rewire complet, mobile machinery. Setup rapid - conectezi alimentare + Ethernet, configurezi în software PLC, apoi plug senzori/actuatori direct în câmp. Scalabilitate de la 4 I/O la 128+ prin daisy-chain module.'
+        description: 'Sistem I/O distribuit modular IP67 pentru decentralizarea semnalelor în câmp - reduce cablarea și costul de instalare. Module: DI/DO (4/8/16 canale 24VDC), AI (4/8 canale ±10V/4-20mA/RTD/TC), combinații mixte. Comunicare: PROFINET, EtherNet/IP, Modbus TCP, IO-Link master. Alimentare 24VDC redundantă prin backplane, consum per modul 1-3W. Carcasă aluminiu IP67, temperatură -25°C la +60°C, vibrații 5g, șoc 30g. Montare DIN rail sau direct mașină cu bracket-uri. Diagnostică: LED status per canal, web server integrat cu readings live și alarme, SNMP pentru integrare SCADA. Aplicații: mașini modulare (packaging, assembly) unde I/O sunt distribuite fizic, retrofit echipamente vechi fără rewire complet, mobile machinery. Setup rapid - conectezi alimentare + Ethernet, configurezi în software PLC, apoi plug senzori/actuatori direct în câmp. Scalabilitate de la 4 I/O la 128+ prin daisy-chain module.'
       },
       {
         name: 'EVOLVE Power Supplies 24VDC',
@@ -1074,10 +1074,10 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
 
 Gama lor industrială include: aspiratoare profesionale (uscate, umede, wet&dry cu separatoare ciclonic, ATEX pentru praf exploziv), aspiratoare industriale heavy-duty (3-phase, 5-10kW, containere 50-100L, filtrare HEPA), mașini spălat pardoseli (walk-behind și ride-on de la 40cm până la 150cm lățime lucru, capacitate rezervoare 40-200L, autonomie 2-5 ore), echipamente high-pressure cleaning (1,500-3,000 PSI cu încălzire opțională pentru degresare), sisteme curățenie autonome (roboti AMR cu navigație SLAM pentru cleaning 24/7 fără operator). Toate gândite pentru utilizare intensivă - 6-12 ore/zi, 6-7 zile/săptămână, ani de zile.
 
-Ce ne impresionează e atenția la detalii operaționale - mașini spălat cu squeegee ajustabil automat pentru urmărire perfect pardoseală, aspiratoare cu alarme filter clogged și sisteme auto-clean filtru, pressure washers cu detergent injection automat și lance cu dead-man switch pentru safety. Service-ul e organizat global - piese de schimb pentru modele de 15 ani, manuale service detaliate, training pentru tehnicieni. În curățenia industrială profesională - fabrici, depozite, retail mari, hospitality - Nilfisk e investiția care se plătește prin productivitate ridicată, costuri operaționale mici (consumabile, mentenanță) și uptime aproape 100%. Mai scump decât alternative low-cost, dar TCO pe 5 ani e de fapt mai mic datorită durabilității și eficienței.`,
+Un element notabil este atenția la detalii operaționale - mașini spălat cu squeegee ajustabil automat pentru urmărire perfect pardoseală, aspiratoare cu alarme filter clogged și sisteme auto-clean filtru, pressure washers cu detergent injection automat și lance cu dead-man switch pentru safety. Service-ul e organizat global - piese de schimb pentru modele de 15 ani, manuale service detaliate, training pentru tehnicieni. În curățenia industrială profesională - fabrici, depozite, retail mari, hospitality - Nilfisk poate fi o investiție avantajoasă prin productivitate ridicată, costuri operaționale mici (consumabile, mentenanță) și uptime ridicat. Mai scump decât alternative low-cost, dar durabilitatea și eficiența operațională pot reduce costul total de deținere pe termen lung.`,
     whyChoose: [
-      'Experiență 110+ ani - de la primul aspirator electric la roboti autonomi moderni',
-      'Durabilitate legendară - echipamente care țin 10-15 ani în utilizare industrială zilnică',
+      'Experiență 110+ ani - de la primul aspirator electric la roboți autonomi moderni',
+      'Durabilitate ridicată - echipamente gândite pentru utilizare industrială zilnică pe termen lung',
       'Gamă completă profesional - de la aspiratoare portabile la mașini ride-on și sisteme autonome',
       'Eficiență operațională - consumuri reduse apă/energie/detergent vs. competiție',
       'Service global - piese schimb disponibile decenii, training tehnic, support tehnic dedicat',
@@ -1090,7 +1090,7 @@ Ce ne impresionează e atenția la detalii operaționale - mașini spălat cu sq
       },
       {
         name: 'SC6500 Ride-on Scrubber-Dryer',
-        description: 'Mașină profesională spălat-uscat pardoseli tip ride-on pentru suprafețe mari - productivitate până la 10,000 m²/h. Lățime lucru 105cm (disc brush) sau 116cm (cilindric brush), capacitate rezervor soluție 265L + recovery 285L, autonomie 5.5 ore continuous. Motor tracțiune 24V DC brushless cu viteză variabilă 0-9 km/h, motor brush 1,500W, motor vacuum 600W. Brush pressure 23-180 kg adjustable dependent tip pardoseală. Eco-mode reduce consum apă cu 30%, energie cu 20%, detergent cu 50% vs. mod normal. Display intuitiv cu alarme level apă, filter clogged, battery low. Încărcare baterii on-board 24V/240Ah, charger integrat 35A. Aplicații: depozite logistice, retail hypermarketuri, aeroporturi, fabrici production floors, parking subteran. Greutate 745kg, dimensiuni compact pentru manevrabilitate.'
+        description: 'Mașină profesională spălat-uscat pardoseli tip ride-on pentru suprafețe mari - productivitate până la 10,000 m²/h. Lățime lucru 105cm (disc brush) sau 116cm (cilindric brush), capacitate rezervor soluție 265L + recovery 285L, autonomie 5.5 ore continuous. Motor tracțiune 24V DC brushless cu viteză variabilă 0-9 km/h, motor brush 1,500W, motor vacuum 600W. Brush pressure 23-180 kg adjustable dependent tip pardoseală. Eco-mode reduce consumul de apă, energie și detergent față de modul normal. Display intuitiv cu alarme level apă, filter clogged, battery low. Încărcare baterii on-board 24V/240Ah, charger integrat 35A. Aplicații: depozite logistice, retail hypermarketuri, aeroporturi, fabrici production floors, parking subteran. Greutate 745kg, dimensiuni compact pentru manevrabilitate.'
       },
       {
         name: 'MC5M Autonomous Scrubber',
@@ -1107,7 +1107,7 @@ Ce ne impresionează e atenția la detalii operaționale - mașini spălat cu sq
       'CE marking - Directivele Machinery, EMC, Low Voltage pentru toate produsele',
       'ATEX / IECEx - Aspiratoare pentru zone explozive (praf combustibil, gaze)',
       'IEC 60335-2-69 - Standard safety aspiratoare wet & dry comerciale/industriale',
-      'EN 1525 - Safety driverless trucks (AGV/AMR) pentru roboti autonomi',
+      'EN 1525 - Safety driverless trucks (AGV/AMR) pentru roboți autonomi',
       'Blue Angel / EU Ecolabel - Certificate eficiență energie și impact mediu redus',
       'HEPA certification - Filtre H13/H14 pentru aspirare praf toxic/allergens conform EN 1822'
     ],
@@ -1256,13 +1256,13 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
       'Calitate manufacturing UK/EU - consistență parametri ±2% vs. ±10% low-cost brands',
       'Gamă completă sistem pneumatic - cilindri, valve, FRL, actuatoare, control electronic',
       'Tehnologie avansată - valve proporționale, motion control, IO-Link, bus industrial',
-      'Durabilitate extremă - cilindri ISO testați 10 milioane cicluri fără degradare',
+      'Durabilitate ridicată - cilindri ISO cu testare extinsă la oboseală, conform producătorului',
       'Rețea de distribuție locală - stoc regional, suport tehnic, livrare rapidă'
     ],
     keyProducts: [
       {
         name: 'ISO 15552 Pneumatic Cylinders',
-        description: 'Cilindri pneumatici standard ISO 15552 (fost ISO 6431) - cea mai răspândită configurație în automatizări industriale worldwide. Diametru piston 32-320mm, cursă până la 2,000mm (dependent diametru), presiune lucru 1-10 bar. Construcție: țeavă aluminiu hard-anodized, piston aluminiu cu etanșări NBR/PUR, tijă inox AISI 304 cromată hard. Amortizare: fixă elastomer (standard) sau adjustabilă pneumatică (opțiune) pentru reducere șoc la capete cursă. Magnet permanent integrat pentru senzori reed/Hall proximity fără contact. Mounting: numeroase opțiuni (front/rear flange, clevis, trunnion) conform ISO. Temperatură -20°C la +80°C, mediu lubrifiat sau non-lube (long-life seals). Aplicații: mașini ambalare, conveyors, automotive assembly, material handling. Model 63mm × 100mm stroke e o soluție standard pentru mișcare liniară pneumatică robustă și interschimbabilă între producători.'
+        description: 'Cilindri pneumatici standard ISO 15552 (fost ISO 6431) - o configurație larg răspândită în automatizări industriale, conform standardului ISO 15552. Diametru piston 32-320mm, cursă până la 2,000mm (dependent diametru), presiune lucru 1-10 bar. Construcție: țeavă aluminiu hard-anodized, piston aluminiu cu etanșări NBR/PUR, tijă inox AISI 304 cromată hard. Amortizare: fixă elastomer (standard) sau adjustabilă pneumatică (opțiune) pentru reducere șoc la capete cursă. Magnet permanent integrat pentru senzori reed/Hall proximity fără contact. Mounting: numeroase opțiuni (front/rear flange, clevis, trunnion) conform ISO. Temperatură -20°C la +80°C, mediu lubrifiat sau non-lube (long-life seals). Aplicații: mașini ambalare, conveyors, automotive assembly, material handling. Model 63mm × 100mm stroke e o soluție standard pentru mișcare liniară pneumatică robustă și interschimbabilă între producători.'
       },
       {
         name: 'V60 Fieldbus Valve Manifold',
@@ -1418,12 +1418,12 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
 
 Gama industrială NSK acoperă tot spectrul bearings: rulmenți radiali cu bile (deep groove, angular contact, self-aligning), rulmenți cu role (cilindrice, conice, sferice, ace), rulmenți axiali (bile, role), unități rulment UC/UCP/UCFL pentru arbori (insertabile în carcasă cu prindere excentrică), rulmenți de precizie (ABEC-7/ABEC-9 pentru machine tools), rulmenți ceramici hibrizi (bile Si3N4 pentru viteză extremă și medii corozive). Apoi sunt sistemele liniare: ghidaje liniare (LH/LS series cu bile recirculate), șuruburi cu bile (HTF series precizie C3-C7), actuatoare liniare (Monocoque pentru high-speed).
 
-Ce ne impresionează e atenția la detalii manufacturing - toleranțe strânse ale căilor de rulare, sfericitate bile sub 0.5μm, curățenie internă exceptional (gradul cleanliness impact direct noise și viață), unsoare pre-filled de înaltă calitate (NSK LG series pentru -40°C la +150°C). Rezultatul: rulmenți care rulează mai lin, durează mai mult, necesită menos mentenanță. În aplicații critice - spindle-uri CNC, pompe high-pressure, motoare electrice premium, robotică de precizie - NSK înseamnă investiție care se vede în performanță mașină, calitate produse și costuri mentenanță reduse pe termen lung. Service-ul lor e organizat printr-o rețea tehnică de distribuitori care ajută la selecția corectă și troubleshooting.`,
+Un element notabil este atenția la detalii manufacturing - toleranțe strânse ale căilor de rulare, sfericitate bile sub 0.5μm, curățenie internă ridicată (gradul cleanliness impact direct noise și viață), unsoare pre-filled de înaltă calitate (NSK LG series pentru -40°C la +150°C). Rezultatul: rulmenți care rulează mai lin, durează mai mult, necesită menos mentenanță. În aplicații critice - spindle-uri CNC, pompe high-pressure, motoare electrice premium, robotică de precizie - NSK înseamnă investiție care se vede în performanță mașină, calitate produse și costuri mentenanță reduse pe termen lung. Service-ul lor e organizat printr-o rețea tehnică de distribuitori care ajută la selecția corectă și troubleshooting.`,
     whyChoose: [
       'Experiență 100+ ani - de la auto industry la aerospace și semiconductor manufacturing',
       'Precizie japoneză extremă - toleranțe sub micron, sfericitate bile 0.5μm, curățenie strict',
       'Gamă completă bearings - de la commodity radial ball la super-precision ceramic hybrid',
-      'Durabilitate superioară - viață L10 de 2-3x vs. competitor în același application',
+      'Durabilitate superioară - viață L10 ridicată, conform testelor producătorului',
       'Tehnologie avansată - unsori LG series, etanșări non-contact, coatings tribologice',
       'Support tehnic din partea rețelei - ingineri aplicații, training, failure analysis'
     ],
@@ -1438,7 +1438,7 @@ Ce ne impresionează e atenția la detalii manufacturing - toleranțe strânse a
       },
       {
         name: 'LH/LS Series Linear Guides',
-        description: 'Ghidaje liniare cu bile recirculate pentru mișcare liniară de precizie în machine tools și automatizări. Serie LH (high load): capacitate radială 5-80 kN, serie LS (compact): capacitate 1-15 kN. Construcție: șină oțel hard-chromed sau inox (LS-V pentru medii corozive), car cu bile recirculate în 4 rânduri, preload adjustabil pentru rigiditate. Precizie: standard grade (toleranță paralelism 20μm), high grade (10μm), precision grade (5μm), super precision (3μm). Unsoare: pre-filled lifetime grease NSK K1 sau nipple pentru re-lubrifiere periodică în medii contaminate. Etanșări: end seals standard, opțiuni scraper seals, bellows pentru protecție praf/așchii. Aplicații: mașini CNC (axe X/Y/Z), roboti pick&place, measuring machines, medical imaging (CT/MRI gantries), semiconductor wafer handling.'
+        description: 'Ghidaje liniare cu bile recirculate pentru mișcare liniară de precizie în machine tools și automatizări. Serie LH (high load): capacitate radială 5-80 kN, serie LS (compact): capacitate 1-15 kN. Construcție: șină oțel hard-chromed sau inox (LS-V pentru medii corozive), car cu bile recirculate în 4 rânduri, preload adjustabil pentru rigiditate. Precizie: standard grade (toleranță paralelism 20μm), high grade (10μm), precision grade (5μm), super precision (3μm). Unsoare: pre-filled lifetime grease NSK K1 sau nipple pentru re-lubrifiere periodică în medii contaminate. Etanșări: end seals standard, opțiuni scraper seals, bellows pentru protecție praf/așchii. Aplicații: mașini CNC (axe X/Y/Z), roboți pick&place, measuring machines, medical imaging (CT/MRI gantries), semiconductor wafer handling.'
       },
       {
         name: 'HTF Series Precision Ball Screws',

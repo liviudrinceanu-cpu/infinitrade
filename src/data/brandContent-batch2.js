@@ -78,11 +78,11 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "code": "VLT Refrigeration Drive FC 103",
-        "description": "Convertizor dedicat aplicatiilor de refrigerare comerciala"
+        "description": "Convertizor dedicat aplicațiilor de refrigerare comercială"
       },
       {
         "code": "VLT AutomationDrive FC 302",
-        "description": "Convertizor universal pentru automatizari industriale"
+        "description": "Convertizor universal pentru automatizări industriale"
       },
       {
         "code": "VLT AQUA Drive FC 202",
@@ -98,19 +98,19 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "code": "VLT Decentral Drive FCD 302",
-        "description": "Convertizor montat direct pe motor, constructie descentralizata"
+        "description": "Convertizor montat direct pe motor, construcție descentralizată"
       },
       {
         "code": "VLT DriveMotor FCP 106",
-        "description": "Motor cu convertizor integrat, constructie compacta"
+        "description": "Motor cu convertizor integrat, construcție compactă"
       },
       {
         "code": "VLT DriveMotor FCM 106",
-        "description": "Motor cu convertizor integrat pentru montaj pe masina"
+        "description": "Motor cu convertizor integrat pentru montaj pe mașina"
       },
       {
         "code": "VLT Integrated Servo Drive ISD 410",
-        "description": "Servo motor cu electronica de control integrata"
+        "description": "Servo motor cu electronică de control integrată"
       },
       {
         "code": "VLT Integrated Servo Drive ISD 510",
@@ -122,7 +122,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "code": "VLT Compact Starter MCD 201",
-        "description": "Soft-starter compact pentru motoare de putere mica"
+        "description": "Soft-starter compact pentru motoare de putere mică"
       },
       {
         "code": "VLT Soft Starter MCD 500",
@@ -142,11 +142,11 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "code": "VACON NXP Air Cooled",
-        "description": "Convertizor modular racit cu aer, pentru puteri mari"
+        "description": "Convertizor modular răcit cu aer, pentru puteri mari"
       },
       {
         "code": "VACON NXP Liquid Cooled Drive",
-        "description": "Convertizor modular racit cu lichid, pentru puteri mari"
+        "description": "Convertizor modular răcit cu lichid, pentru puteri mari"
       }
     ],
     faq: [
@@ -156,7 +156,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "q": "Livrați produse Danfoss în România la comandă?",
-        "a": "Da, aducem la comandă convertizoare din gamă VLT și VACON, după codul confirmat de client din documentația Danfoss. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni. Vă rugam să transmiteți codul complet de pe eticheta echipamentului pentru identificare corectă."
+        "a": "Da, aducem la comandă convertizoare din gamă VLT și VACON, după codul confirmat de client din documentația Danfoss. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului privind disponibilitatea, iar termenul obișnuit este de 2-4 săptămâni. Vă rugăm să transmiteți codul complet de pe eticheta echipamentului pentru identificare corectă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă la un convertizor Danfoss?",
@@ -193,7 +193,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
     keyProducts: [
       {
         name: 'Trape de condensat (steam traps) – toate tipurile',
-        description: `Trapele de condensat Spirax Sarco sunt referința industriei mondiale. Termodinamicele (seria TD) sunt cele mai robuste – merg și la presiuni mari, și la abur supraîncălzit, practic indestructibile. Bimetalicele (seria BM) sunt perfecte pentru aplicații unde vrei descărcare la temperaturi controlate (nu imediat ce apa se condensează). Iar trapele cu plutitor (seria FT) sunt ideale pentru debite mari de condensat – se folosesc frecvent în industria textilă și alimentară. Toate din oțel inox sau fontă de calitate, certificate pentru presiune. Le furnizăm cu racorduri filetate sau flanșate, depinde de instalație.`
+        description: `Trapele de condensat Spirax Sarco sunt folosite pe scară largă în industrie. Termodinamicele (seria TD) sunt robuste – merg și la presiuni mari, și la abur supraîncălzit. Bimetalicele (seria BM) sunt potrivite pentru aplicații unde vrei descărcare la temperaturi controlate (nu imediat ce apa se condensează). Iar trapele cu plutitor (seria FT) sunt potrivite pentru debite mari de condensat – se folosesc frecvent în industria textilă și alimentară. Toate din oțel inox sau fontă de calitate, certificate pentru presiune. Le furnizăm cu racorduri filetate sau flanșate, depinde de instalație.`
       },
       {
         name: 'Supape de reglare presiune și temperatură',
@@ -201,11 +201,11 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         name: 'Separatoare de condensat și filtre pentru abur',
-        description: `Separatoarele Spirax Sarco (seria Spiratec, Hurricane) elimină picăturile de condensat din linia de abur înainte să ajungă la echipament. De ce e important? Pentru că aburul umed lovește paletele turbinelor sau suprafețele de încălzire și face eroziune. Un separator bun crește eficiența transferului termic cu 15-20% și prelungește viața echipamentului. Filtrele (seria DSC, Strainer) elimină particulele solide (rugină, sare) din abur – se montează de regulă înaintea supapelor de reglare sau a echipamentelor sensibile. Curățarea e simplă, au coș demontabil.`
+        description: `Separatoarele Spirax Sarco (seria Spiratec, Hurricane) elimină picăturile de condensat din linia de abur înainte să ajungă la echipament. De ce e important? Pentru că aburul umed lovește paletele turbinelor sau suprafețele de încălzire și face eroziune. Un separator bun crește eficiența transferului termic și prelungește viața echipamentului. Filtrele (seria DSC, Strainer) elimină particulele solide (rugină, sare) din abur – se montează de regulă înaintea supapelor de reglare sau a echipamentelor sensibile. Curățarea e simplă, au coș demontabil.`
       },
       {
         name: 'Sisteme de recuperare și pompare condensat',
-        description: `Condensatul care iese din trape e apă fiartă perfect curată la 90-100°C. Dacă îl arunci, pierzi și apa (tratată chimic, costisitoare) și energia termică. Sistemele Spirax Sarco de recuperare (rezervoare, pompe mecanice seria MFP, pompe electrice seria CEMS) returnează condensatul la cazan. Conform producătorului, economia poate fi semnificativă la un sistem de abur de dimensiuni medii, doar din recuperarea condensatului. Pompele mecanice (acționate de abur, fără electricitate) sunt potrivite pentru locații explozive sau unde nu există curent electric disponibil - se folosesc frecvent în industria chimică.`
+        description: `Condensatul care iese din trape e apă fierbinte, curată, la 90-100°C. Dacă îl arunci, pierzi și apa (tratată chimic, costisitoare) și energia termică. Sistemele Spirax Sarco de recuperare (rezervoare, pompe mecanice seria MFP, pompe electrice seria CEMS) returnează condensatul la cazan. Conform producătorului, economia poate fi semnificativă la un sistem de abur de dimensiuni medii, doar din recuperarea condensatului. Pompele mecanice (acționate de abur, fără electricitate) sunt potrivite pentru locații explozive sau unde nu există curent electric disponibil - se folosesc frecvent în industria chimică.`
       }
     ],
     certifications: [
@@ -250,11 +250,11 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         "code": "TD62LM",
-        "description": "Purjor termodinamic cu scaun inlocuibil"
+        "description": "Purjor termodinamic cu scaun înlocuibil"
       },
       {
         "code": "TD62M",
-        "description": "Purjor termodinamic cu scaun inlocuibil, varianta M"
+        "description": "Purjor termodinamic cu scaun înlocuibil, varianta M"
       },
       {
         "code": "TD120M",
@@ -278,7 +278,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         "code": "BTD52L",
-        "description": "Purjor termodinamic pentru industria alimentara"
+        "description": "Purjor termodinamic pentru industria alimentară"
       },
       {
         "code": "UTD52",
@@ -286,15 +286,15 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         "code": "UTD52L",
-        "description": "Purjor termodinamic universal, corp din bara"
+        "description": "Purjor termodinamic universal, corp din bară"
       },
       {
         "code": "UTD42L",
-        "description": "Purjor universal cu racord rotativ, presiune joasa"
+        "description": "Purjor universal cu racord rotativ, presiune joasă"
       },
       {
         "code": "UTD42H",
-        "description": "Purjor universal cu racord rotativ, presiune ridicata"
+        "description": "Purjor universal cu racord rotativ, presiune ridicată"
       }
     ],
     faq: [
@@ -307,12 +307,12 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
         "a": "Da, aducem la comandă purjoare și supape din gamele TD, TDC, TDS sau UTD, după codul confirmat de client din catalogul oficial. Nu ținem această gamă pe raft, informațiile despre disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni la comandă. Recomandăm transmiterea codului exact de pe corpul purjorului existent."
       },
       {
-        "q": "Ce date trimit pentru o oferta la un purjor Spirax Sarco?",
+        "q": "Ce date trimit pentru o ofertă la un purjor Spirax Sarco?",
         "a": "Aveți nevoie să precizați presiunea de lucru a liniei de abur, diametrul racordului, tipul de conexiune, filetată sau flanșată, și materialul corpului dorit, oțel carbon sau inox. Dacă înlocuiți un purjor existent, codul de pe corp sau o fotografie clară a acestuia ajută mult la identificarea variantei compatibile din gama actuală."
       },
       {
-        "q": "Ce inseamna litera M din codul unui purjor Spirax Sarco?",
-        "a": "Litera M indică o variantă cu scaun mentenabil, adica piesa internă de uzura poate fi inlocuita fără demontarea completă a corpului din conductă. Modelele fără M au de obicei o construcție mai compactă, gândită pentru înlocuire integrala la finalul duratei de viață. Alegerea depinde de politica de mențenanta a instalației și de accesul disponibil la punctul de montaj."
+        "q": "Ce înseamnă litera M din codul unui purjor Spirax Sarco?",
+        "a": "Litera M indică o variantă cu scaun mentenabil, adică piesa internă de uzură poate fi înlocuită fără demontarea completă a corpului din conductă. Modelele fără M au de obicei o construcție mai compactă, gândită pentru înlocuire integrală la finalul duratei de viață. Alegerea depinde de politica de mențenanta a instalației și de accesul disponibil la punctul de montaj."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -341,7 +341,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
     keyProducts: [
       {
         name: 'Supape cu glob (globe valves) – control și închidere',
-        description: `Supapele cu glob ARI sunt mașinării de precizie pentru controlul debitului în instalații industriale. Seria Stevi (cu ștuț drept) e perfectă pentru reglare fină în linii de vapori, apă fierbinte, condensat. Seria Faba (unghi drept) o folosim când ai schimbări de direcție – economisești coturi și reduci pierderile de presiune. Corpuri din oțel carbon, oțel inox (304, 316, 316L), fontă nodulară sau aliaje speciale (Hastelloy, Monel) pentru medii super agresive. Toate cu garnituri PTFE sau grafit, certificate pentru temperaturi până 450°C și presiuni până PN160. Le furnizăm cu actuatori manuali, pneumatici sau electrici.`
+        description: `Supapele cu glob ARI sunt mașinării de precizie pentru controlul debitului în instalații industriale. Seria Stevi (cu ștuț drept) este potrivită pentru reglare fină în linii de vapori, apă fierbinte, condensat. Seria Faba (unghi drept) o folosim când ai schimbări de direcție – economisești coturi și reduci pierderile de presiune. Corpuri din oțel carbon, oțel inox (304, 316, 316L), fontă nodulară sau aliaje speciale (Hastelloy, Monel) pentru medii super agresive. Toate cu garnituri PTFE sau grafit, certificate pentru temperaturi până 450°C și presiuni până PN160. Le furnizăm cu actuatori manuali, pneumatici sau electrici.`
       },
       {
         name: 'Supape de siguranță (safety relief valves)',
@@ -395,7 +395,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "code": "ARI-STOBU",
-        "description": "Vana de inchidere cu presetupa, presiune medie"
+        "description": "Vană de închidere cu presetupă, presiune medie"
       },
       {
         "code": "ARI-ZETRIX",
@@ -411,7 +411,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "code": "ARI-SAFE TCP",
-        "description": "Supapa de siguranta, varianta cu capac termic"
+        "description": "Supapă de siguranță, varianta cu capac termic"
       },
       {
         "code": "ARI-CONA",
@@ -427,7 +427,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "code": "ARI-CONA P",
-        "description": "Purjor cu pompa de condens integrata"
+        "description": "Purjor cu pompă de condens integrată"
       },
       {
         "code": "ARI-CONLIFT",
@@ -439,15 +439,15 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "code": "ARI-STEVI Smart",
-        "description": "Vana de control pentru reglaj de proces"
+        "description": "Vană de control pentru reglaj de proces"
       },
       {
         "code": "ARI-STEVI Vario",
-        "description": "Vana de control compacta, constructie variabila"
+        "description": "Vană de control compactă, construcție variabilă"
       },
       {
         "code": "ARI-STEVI Pro",
-        "description": "Vana de control de inalta performanta"
+        "description": "Vană de control de înaltă performanță"
       },
       {
         "code": "ARI-REYCO",
@@ -500,7 +500,7 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
     keyProducts: [
       {
         name: 'Schimbătoare de căldură cu plăci gasketed (demontabile)',
-        description: `Seria Alfa Laval M (M3, M6, M10, M15, M20) sunt cameleonii industriei – se adaptează la orice aplicație. Plăcile din inox presate într-un tipar special creează turbulență mare în fluidele care circulă între ele, maximizând transferul termic. Garniturile (EPDM, NBR, FKM) se schimbă ușor când e nevoie. Se folosesc frecvent în pasteurizare lapte (perechi de plăci pentru încălzire + răcire regenerativă), răcire apă proces cu turnuri de răcire, încălzire glicol pentru sisteme de dezgheț. Fiecare schimbător vine cu certificat de presiune (PED), instrucțiuni de asamblare, piese de schimb disponibile local. Le furnizăm de la 0.1 m² (mini-aplicații) până la 1500 m² (industrii mari).`
+        description: `Seria Alfa Laval M (M3, M6, M10, M15, M20) sunt adaptabile la o gamă largă de aplicații. Plăcile din inox presate într-un tipar special creează turbulență mare în fluidele care circulă între ele, maximizând transferul termic. Garniturile (EPDM, NBR, FKM) se schimbă ușor când e nevoie. Se folosesc frecvent în pasteurizare lapte (perechi de plăci pentru încălzire + răcire regenerativă), răcire apă proces cu turnuri de răcire, încălzire glicol pentru sisteme de dezgheț. Fiecare schimbător vine cu certificat de presiune (PED), instrucțiuni de asamblare, piese de schimb disponibile local. Le furnizăm de la 0.1 m² (mini-aplicații) până la 1500 m² (industrii mari).`
       },
       {
         name: 'Schimbătoare de căldură brazate (compact, fără garnituri)',
@@ -508,11 +508,11 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
       },
       {
         name: 'Schimbătoare toate-sudate (pentru presiuni mari și medii agresive)',
-        description: `Când ai presiuni de 40-100 bar sau fluide super corosive (acizi concentrați, săruri topiți, solvenți organici fierbinți), schimbătoarele gasketed nu mai sunt opțiune. Seria Alfa Laval Compabloc (toate-sudate, plăci + cadru sudat laser) rezolvă problema. Construcție 100% inox 316L sau aliaje speciale (titanium, Hastelloy), fără garnituri, etanșeitate perfectă. Se folosesc frecvent în rafinării (preîncălzire crude oil), fabrici chimice (răcitoare reactoare sub presiune), centrale electrice (recuperare căldură gaze eșapament). Costă mai mult decât variantele gasketed, dar pentru aplicații critice reprezintă adesea singura opțiune tehnică potrivită.`
+        description: `Când ai presiuni de 40-100 bar sau fluide super corosive (acizi concentrați, săruri topiți, solvenți organici fierbinți), schimbătoarele gasketed nu mai sunt opțiune. Seria Alfa Laval Compabloc (toate-sudate, plăci + cadru sudat laser) rezolvă problema. Construcție 100% inox 316L sau aliaje speciale (titanium, Hastelloy), fără garnituri, etanșeitate ridicată. Se folosesc frecvent în rafinării (preîncălzire crude oil), fabrici chimice (răcitoare reactoare sub presiune), centrale electrice (recuperare căldură gaze eșapament). Costă mai mult decât variantele gasketed, dar pentru aplicații critice reprezintă adesea singura opțiune tehnică potrivită.`
       },
       {
         name: 'Separatoare centrifugale pentru lichide',
-        description: `Separatoarele Alfa Laval (disc stack separators) folosesc forță centrifugă de până 10,000 G pentru a separa lichide de densități diferite sau solide de lichide. În industria alimentară: separare smântână din lapte, clarificare suc de fructe, separare uleiuri vegetale. În industria petrochimică: separare apă din combustibili, purificare uleiuri lubrifiate, tratare slop oil. În naval: separare apă bilge, purificare combustibil naval. Capacități de la 100 litri/oră (lab) până la 100,000 litri/oră (fabrici mari). Separarea e continuă, automată, cu eficiență ridicată – obții produse finale ultra-pure. Le furnizăm cu sisteme de curățare automată (self-cleaning) pentru că ai solide.`
+        description: `Separatoarele Alfa Laval (disc stack separators) folosesc forță centrifugă de până 10,000 G pentru a separa lichide de densități diferite sau solide de lichide. În industria alimentară: separare smântână din lapte, clarificare suc de fructe, separare uleiuri vegetale. În industria petrochimică: separare apă din combustibili, purificare uleiuri lubrifiate, tratare slop oil. În naval: separare apă bilge, purificare combustibil naval. Capacități de la 100 litri/oră (lab) până la 100,000 litri/oră (fabrici mari). Separarea e continuă, automată, cu eficiență ridicată – obții produse finale de puritate ridicată. Le furnizăm cu sisteme de curățare automată (self-cleaning) pentru că ai solide.`
       }
     ],
     certifications: [
@@ -551,23 +551,23 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
     productCodes: [
       {
         "code": "M3",
-        "description": "Schimbator de caldura cu placi gasketed, dimensiune mica"
+        "description": "Schimbător de căldură cu plăci gasketed, dimensiune mică"
       },
       {
         "code": "M6-FM",
-        "description": "Schimbator de caldura cu placi, cadru montaj M6"
+        "description": "Schimbător de căldură cu plăci, cadru montaj M6"
       },
       {
         "code": "M6-FG",
-        "description": "Schimbator M6, varianta de cadru pentru presiune mare"
+        "description": "Schimbător M6, varianta de cadru pentru presiune mare"
       },
       {
         "code": "M6-FD",
-        "description": "Schimbator M6, varianta de cadru dubla"
+        "description": "Schimbător M6, varianta de cadru dublă"
       },
       {
         "code": "M6-M",
-        "description": "Placa simpla pentru schimbatorul M6"
+        "description": "Placa simplă pentru schimbătorul M6"
       },
       {
         "code": "M6-MX",
@@ -579,57 +579,57 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
       },
       {
         "code": "M6-MG",
-        "description": "Placa M6 Gemini, cu perete dublu de siguranta"
+        "description": "Placa M6 Gemini, cu perete dublu de siguranță"
       },
       {
         "code": "M15-FL",
-        "description": "Schimbator M15, cadru ușor pentru presiune joasă"
+        "description": "Schimbător M15, cadru ușor pentru presiune joasă"
       },
       {
         "code": "M15-FM",
-        "description": "Schimbator M15, cadru mediu"
+        "description": "Schimbător M15, cadru mediu"
       },
       {
         "code": "M15-FG",
-        "description": "Schimbator M15, cadru pentru presiune mare"
+        "description": "Schimbător M15, cadru pentru presiune mare"
       },
       {
         "code": "M15-FD",
-        "description": "Schimbator M15, cadru dublu"
+        "description": "Schimbător M15, cadru dublu"
       },
       {
         "code": "T6",
-        "description": "Schimbator de caldura cu placi, seria T"
+        "description": "Schimbător de căldură cu plăci, seria T"
       },
       {
         "code": "T10",
-        "description": "Schimbator de caldura cu placi, seria T, capacitate mai mare"
+        "description": "Schimbător de căldură cu plăci, seria T, capacitate mai mare"
       },
       {
         "code": "AC65",
-        "description": "Schimbator brazat pentru pompe de caldura de mare volum"
+        "description": "Schimbător brazat pentru pompe de căldură de mare volum"
       },
       {
         "code": "AC540",
-        "description": "Familie de schimbatoare brazate pentru agenti frigorifici cu GWP redus"
+        "description": "Familie de schimbătoare brazate pentru agenți frigorifici cu GWP redus"
       }
     ],
     faq: [
       {
-        "q": "Ce diferență este între schimbatoarele Alfa Laval M6 și M15?",
+        "q": "Ce diferență este între schimbătoarele Alfa Laval M6 și M15?",
         "a": "Ambele fac parte din gama gasketed a Alfa Laval, însă M15 este dimensionat pentru debite și suprafețe de transfer mai mari decât M6. Sufixele de cadru, FL, FM, FG sau FD, arată treapta de presiune admisă în construcția respectivă. Alegerea corectă depinde de debitul termic necesar și de presiunea maximă de lucru a instalației."
       },
       {
-        "q": "Livrează Alfa Laval schimbatoare de căldură în România la comandă?",
-        "a": "Da, aducem la comandă schimbatoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbatorului existent."
+        "q": "Livrează Alfa Laval schimbătoare de căldură în România la comandă?",
+        "a": "Da, aducem la comandă schimbătoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbatorului existent."
       },
       {
-        "q": "Ce trebuie să trimit pentru o ofertă la un schimbator Alfa Laval?",
-        "a": "Este nevoie de modelul exact, numărul de placi, tipul garniturii, materialul placilor și presiunea maximă de lucru a instalației. Dacă schimbatorul este deja montat, o fotografie a plăcuței de identificare cu seria și numărul de placi reduce mult riscul de a comandă o piesa incompatibilă cu pachetul existent."
+        "q": "Ce trebuie să trimit pentru o ofertă la un schimbător Alfa Laval?",
+        "a": "Este nevoie de modelul exact, numărul de placi, tipul garniturii, materialul placilor și presiunea maximă de lucru a instalației. Dacă schimbatorul este deja montat, o fotografie a plăcuței de identificare cu seria și numărul de placi reduce mult riscul de a comanda o piesă incompatibilă cu pachetul existent."
       },
       {
-        "q": "Ce inseamna sufixul MX la o placa Alfa Laval din seria M6?",
-        "a": "Sufixul MX arată că placa are un model de flux diagonal, diferit de placa simplă M6-M, ceea ce schimbă modul în care circulă agentul termic prin canale. Aceasta influențează performanța termică și pierderea de presiune a schimbatorului. Confirmarea variantei corecte se face pe baza codului complet de pe plăcuța, nu doar după aspectul general al plăcii."
+        "q": "Ce înseamnă sufixul MX la o placă Alfa Laval din seria M6?",
+        "a": "Sufixul MX arată că placa are un model de flux diagonal, diferit de placa simplă M6-M, ceea ce schimbă modul în care circulă agentul termic prin canale. Aceasta influențează performanța termică și pierderea de presiune a schimbătorului. Confirmarea variantei corecte se face pe baza codului complet de pe plăcuța, nu doar după aspectul general al plăcii."
       }
     ],
     evidenceClass: 'transactional',
@@ -643,24 +643,24 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
     founded: 1917,
     headquarters: 'Mayfield Heights, Ohio, SUA',
     employees: '~55,000',
-    overview: `Parker Hannifin e unul dintre cei mai mari producători diversificați din lume în domeniul hidraulicii, pneumaticii, electromecanicii și filtrării. Fondată în 1917 de Arthur Parker în Cleveland (Ohio), a crescut organic și prin achiziții strategice până a devenit o corporație de peste 55,000 de angajați prezentă în toate sectoarele industriale majore: aerospace, automotive, construcții, agricultură, industrie, naval, oil & gas. Când spui "Parker", orice inginer din lume știe despre ce e vorba – calitate americană, inovație continuă, disponibilitate globală.
+    overview: `Parker Hannifin e unul dintre marii producători diversificați din lume în domeniul hidraulicii, pneumaticii, electromecanicii și filtrării. Fondată în 1917 de Arthur Parker în Cleveland (Ohio), a crescut organic și prin achiziții strategice până a devenit o corporație de peste 55,000 de angajați prezentă în toate sectoarele industriale majore: aerospace, automotive, construcții, agricultură, industrie, naval, oil & gas. Parker este cunoscut în industrie pentru gama largă de produse și prezența globală.
 
 Distribuim produse Parker în România – de la componente hidraulice simple (furtunuri, fitinguri, distribuitoare) până la sisteme integrate complexe (unități hidraulice complete pentru utilaje industriale, sisteme de filtrare pentru centrale electrice). Un argument recurent pentru Parker este consistența calității - conform producătorului, un cilindru Parker fabricat în SUA, Germania sau China respectă aceleași standarde globale.
 
 Produsele Parker se folosesc frecvent în toate industriile: în agricultură (cilindri hidraulici pentru combine, tractoare, utilaje agricole), în construcții (sisteme hidraulice pentru excavatoare, macarale, platforme elevatoare), în industria auto (filtre hidraulice, pneumatice, componente frână), în oil & gas (furtunuri înaltă presiune, fitinguri pentru drilling), în producția industrială (sisteme pneumatice pentru automatizare, distribuitoare, cilindri). Durabilitatea componentelor hidraulice Parker, cu mentenanță periodică a garniturilor, este documentată de producător pe perioade lungi de utilizare.
 
-Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne concentrăm pe ceea ce se cere cel mai mult în România: cilindri hidraulici (standard și custom), pompe hidraulice (cu piston, cu palete, cu roți dințate), distribuitoare hidraulice (secționale pentru utilaje mobile, monoblock pentru mașini staționare), furtunuri și fitinguri (joasă până înaltă presiune), filtre (hidraulice, pneumatice, pentru procese), componente pneumatice (cilindri, distribuitoare, FRL-uri). Pentru aplicații speciale (aerospace, sisteme cu presiuni extreme peste 500 bar, temperaturi criogenice) coordonăm cu diviziile specializate Parker – au expertiza pentru orice.`,
+Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentrăm pe ceea ce se cere cel mai mult în România: cilindri hidraulici (standard și custom), pompe hidraulice (cu piston, cu palete, cu roți dințate), distribuitoare hidraulice (secționale pentru utilaje mobile, monoblock pentru mașini staționare), furtunuri și fitinguri (joasă până înaltă presiune), filtre (hidraulice, pneumatice, pentru procese), componente pneumatice (cilindri, distribuitoare, FRL-uri). Pentru aplicații speciale (aerospace, sisteme cu presiuni extreme peste 500 bar, temperaturi criogenice) coordonăm cu diviziile specializate Parker pentru aceste cerințe.`,
     whyChoose: [
-      'Producător global de top în tehnologii de mișcare și control – 100+ ani de activitate',
+      'Producător global în tehnologii de mișcare și control – 100+ ani de activitate',
       'Gamă completă: hidraulică, pneumatică, electromecanică, filtrare – totul de la un brand',
       'Calitate globală consistentă – standarde identice în toate fabricile din lume',
-      'Disponibilitate excepțională – peste 13,000 de distribuitori și service centers global',
+      'Disponibilitate largă – peste 13,000 de distribuitori și service centers la nivel global',
       'Furnizăm în România prin aprovizionare din UE la produse standard + acces la gama completă Parker'
     ],
     keyProducts: [
       {
         name: 'Cilindri hidraulici (standard și custom)',
-        description: `Cilindrii Parker (seria P1, seria 2H, seria 3L, seria Mill) acoperă toate aplicațiile posibile: de la mini-cilindri de 25 mm pentru automatizări până la cilindri uriași de 500 mm pentru prese industriale. Construcție: țeavă fără sudură, tijă cromată și șlefuită, garnituri Parker (poliuretan sau NBR, depinde de aplicație). Presiuni de lucru până 350 bar (seria 3L heavy-duty). Le furnizăm în configurații standard (șurub cap-față, șurub cap-spate, pivot cap, flange) sau custom (lungimi speciale, montaje speciale, senzori poziție integrați). Pentru utilaje mobile (excavatoare, macarale, platforme), seria 2H e perfectă – compactă, robustă, garnituri rezistente la murdărie.`
+        description: `Cilindrii Parker (seria P1, seria 2H, seria 3L, seria Mill) acoperă o gamă largă de aplicații: de la mini-cilindri de 25 mm pentru automatizări până la cilindri de mari dimensiuni, de 500 mm, pentru prese industriale. Construcție: țeavă fără sudură, tijă cromată și șlefuită, garnituri Parker (poliuretan sau NBR, depinde de aplicație). Presiuni de lucru până 350 bar (seria 3L heavy-duty). Le furnizăm în configurații standard (șurub cap-față, șurub cap-spate, pivot cap, flange) sau custom (lungimi speciale, montaje speciale, senzori poziție integrați). Pentru utilaje mobile (excavatoare, macarale, platforme), seria 2H este potrivită – compactă, robustă, garnituri rezistente la murdărie.`
       },
       {
         name: 'Pompe hidraulice (piston, palete, roți dințate)',
@@ -672,11 +672,11 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         name: 'Furtunuri și fitinguri hidraulice (toate presiunile)',
-        description: `Gama Parker de furtunuri e cea mai completă din industrie: de la furtunuri joasă presiune pentru returnuri (seria 501, presiune max 25 bar) până la furtunuri spiralate 6-fire pentru presiuni extreme (seria 387, presiune lucru 420 bar, presiune rupere 1680 bar). Fitingurile Parker (seria 43, seria Bite-type, seria Parflex) asigură etanșare perfectă fără scurgeri. Le furnizăm fie componentele separat (furtun la metru + fitinguri), fie asamblate complet (furtunuri presate la lungimi exacte cu fitinguri montate – testate la 1.5× presiunea de lucru). Pentru oil & gas și aplicații critice, seria Tough Cover rezistă la abraziune extremă, ozon, UV.`
+        description: `Gama Parker de furtunuri e cea mai completă din industrie: de la furtunuri joasă presiune pentru returnuri (seria 501, presiune max 25 bar) până la furtunuri spiralate 6-fire pentru presiuni extreme (seria 387, presiune lucru 420 bar, presiune rupere 1680 bar). Fitingurile Parker (seria 43, seria Bite-type, seria Parflex) asigură etanșare fiabilă fără scurgeri. Le furnizăm fie componentele separat (furtun la metru + fitinguri), fie asamblate complet (furtunuri presate la lungimi exacte cu fitinguri montate – testate la 1.5× presiunea de lucru). Pentru oil & gas și aplicații critice, seria Tough Cover rezistă la abraziune extremă, ozon, UV.`
       },
       {
         name: 'Filtre hidraulice și pneumatice',
-        description: `Filtrarea e esențială pentru durabilitatea sistemelor hidraulice – 70-80% din defecțiunile hidraulice sunt cauzate de contaminare cu particule. Parker produce toate tipurile de filtre: filtre de presiune (inline, pe ducta de presiune), filtre de retur (pe linia de return la rezervor – cele mai comune), filtre de aspirație (la intrarea pompei), filtre de ventilație rezervor (elimină particulele din aerul care intră când nivel scade), filtre off-line (bypass filtration pentru curățare continuă ulei). Gradele de filtrație de la 3 microni (super-fin pentru servo-valve) până la 25 microni (standard pentru cilindri). Furnizăm și filtre pneumatice (coalescente pentru aer comprimat – elimină apă și ulei până la 0.01 microni).`
+        description: `Filtrarea e esențială pentru durabilitatea sistemelor hidraulice – contaminarea cu particule este una dintre principalele cauze de defecțiune. Parker produce toate tipurile de filtre: filtre de presiune (inline, pe ducta de presiune), filtre de retur (pe linia de return la rezervor – cele mai comune), filtre de aspirație (la intrarea pompei), filtre de ventilație rezervor (elimină particulele din aerul care intră când nivel scade), filtre off-line (bypass filtration pentru curățare continuă ulei). Gradele de filtrație de la 3 microni (super-fin pentru servo-valve) până la 25 microni (standard pentru cilindri). Furnizăm și filtre pneumatice (coalescente pentru aer comprimat – elimină apă și ulei până la 0.01 microni).`
       }
     ],
     certifications: [
@@ -724,7 +724,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series MA",
-        "description": "Cilindru pneumatic compact, montaj usor"
+        "description": "Cilindru pneumatic compact, montaj ușor"
       },
       {
         "code": "Series VE",
@@ -732,11 +732,11 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series SA",
-        "description": "Cilindru pneumatic standard, gama de baza"
+        "description": "Cilindru pneumatic standard, gama de bază"
       },
       {
         "code": "Series 3L",
-        "description": "Cilindru hidraulic usor, tija cu bare de tractiune"
+        "description": "Cilindru hidraulic ușor, tija cu bare de tracțiune"
       },
       {
         "code": "Series 2H",
@@ -752,7 +752,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series RDH",
-        "description": "Cilindru hidraulic de mare rezistenta"
+        "description": "Cilindru hidraulic de mare rezistență"
       },
       {
         "code": "Series 2AJ/2ANJ",
@@ -760,7 +760,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series CHD/CHE",
-        "description": "Cilindru hidraulic compact pentru spatii restranse"
+        "description": "Cilindru hidraulic compact pentru spații restrânse"
       },
       {
         "code": "Series HMI",
@@ -776,7 +776,7 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         "code": "Series HAS 500",
-        "description": "Actuator electromecanic de mare forta"
+        "description": "Actuator electromecanic de mare forță"
       },
       {
         "code": "Helac rotary actuators",
@@ -793,11 +793,11 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
         "a": "Da, aducem la comandă cilindri hidraulici și pneumatici din gamele 2H, 3H, 2A sau XFC, după codul confirmat de client din catalogul oficial. Pentru Parker Hannifin lucrăm exclusiv la comandă, cu disponibilitatea luată din datele publice ale producătorului; termenul obișnuit este 2-4 săptămâni. Codul complet de pe eticheta cilindrului grăbește identificarea."
       },
       {
-        "q": "Ce date trimit pentru o oferta la un cilindru Parker?",
+        "q": "Ce date trimit pentru o ofertă la un cilindru Parker?",
         "a": "Aveți nevoie să precizați alezajul și cursa cilindrului, presiunea de lucru, tipul de montaj, tijă simplă sau dublă și materialul de construcție dorit. Dacă înlocuiți un cilindru existent, o fotografie a plăcuței cu seria și dimensiunile ajută la identificarea rapidă a variantei compatibile din gamele 2H, 3H sau CHD."
       },
       {
-        "q": "Ce inseamna codul Series HAS 500 la Parker Hannifin?",
+        "q": "Ce înseamnă codul Series HAS 500 la Parker Hannifin?",
         "a": "Codul indică un actuator electromecanic din gamă de mare forța a Parker, folosit acolo unde este nevoie de poziționare precisă fără sistem hidraulic sau pneumatic separat. Cifra 500 arată încadrarea în familia de dimensiuni și forța a seriei respective. Confirmarea completă a parametrilor se face din fișa tehnică oficială, după codul complet transmis de producător."
       }
     ],

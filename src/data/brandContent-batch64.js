@@ -97,7 +97,7 @@ Pentru clienții din România, gama industrială (arcuri disc, arcuri de compres
       { code: "Suspension Components", description: "Componente pentru sisteme de suspensie auto" },
       { code: "Chassis Composite Springs", description: "Arcuri compozite ușoare pentru șasiu" },
       { code: "Mubea Performance Wheels", description: "Roți de performanță din materiale ușoare" },
-      { code: "Tailor Rolled Products", description: "Table laminate variabil pentru caroserie" },
+      { code: "Tailor Rolled Products", description: "Tablă laminată variabilă pentru caroserie" },
       { code: "CFRP Structural Parts", description: "Piese structurale din fibră de carbon" },
       { code: "Interior Components", description: "Componente pentru interior auto" },
       { code: "Valve Springs", description: "Arcuri de supapă pentru motor" },

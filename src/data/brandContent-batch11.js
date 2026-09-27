@@ -3,11 +3,11 @@ export const brandContentBatch11 = {
     founded: 1865,
     headquarters: 'Limoges, Franța',
     employees: '38,000+ angajați global',
-    overview: `De când am descoperit produsele Legrand, am știut că avem de-a face cu ceva special. Nu e vorba doar de faptul că francezii ăștia fac echipamente electrice de peste 150 de ani – e vorba de gândirea din spatele fiecărui produs. Când instalezi o priză Legrand sau un tablou electric, simți diferența în mâini: plasticul nu scârțâie, clipsurile se închid cu un sunet solid, șuruburile intră perfect. Avem clienți care ne spun că după ce-au montat întrerupătoarele lor Céliane sau Valena, nu se mai pot uita la alte serii. Și nu-i de mirare – designul ăsta minimalist funcționează atât în apartamente moderne cât și în birouri corporatiste.
+    overview: `Legrand este un producător francez de echipamente electrice, cu peste 150 de ani de activitate. Prizele, întrerupătoarele și tablourile electrice Legrand sunt construite cu atenție la detaliile de montaj - clipsurile de fixare și mecanismele sunt gândite pentru o asamblare precisă. Seriile de întrerupătoare și prize Céliane și Valena au un design minimalist, potrivit atât pentru apartamente moderne, cât și pentru birouri.
 
-Legrand nu s-a oprit niciodată la echipamente clasice. Avem experiență cu sisteme complete de cablare structurată pentru clădiri de birouri, soluții de management energetic care comunică prin IoT, tablouri modulare care-ți permit să extinzi instalația fără să spargi toți pereții. Când vine vorba de centre de date, sistemele lor de distribuție a energiei (PDU) și managementul cablurilor sunt standard de industrie. Se întâlnesc instalații în fabrici unde totul, de la contactoarele modulare până la sistemele de siguranță, poartă sigla Legrand – și funcționează impecabil de ani de zile. Francezii știu că în electricitate nu există compromisuri: fie lucrezi cu echipamente de calitate, fie te trezești cu probleme mari.
+Gama Legrand include și sisteme complete de cablare structurată pentru clădiri de birouri, soluții de management energetic cu conectivitate IoT, precum și tablouri modulare care permit extinderea instalației electrice fără intervenții majore. Pentru centre de date, producătorul oferă sisteme de distribuție a energiei (PDU) și management al cablurilor. Componentele Legrand - de la contactoare modulare până la sisteme de siguranță - se regăsesc frecvent în instalații industriale.
 
-Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare până la sisteme complexe pentru instalații industriale, cât și pe cele ale unei fabrici întregi. Echipa noastră tehnică te poate ajuta să alegi configurația potrivită pentru proiectul tău. Indiferent dacă renovezi o casă sau echipezi o fabrică, Legrand are soluția tehnică corectă.`,
+Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare până la sisteme complexe pentru instalații industriale, cât și pe cele ale unei fabrici întregi. Echipa tehnică InfiniTrade poate ajuta la alegerea configurației potrivite pentru proiectul dumneavoastră, fie că este vorba de renovarea unei case sau de echiparea unei fabrici.`,
     whyChoose: [
       'Prize și întrerupătoare cu design modular – serii Céliane, Valena, Mosaic cu peste 1000 de combinații',
       'Sisteme de cablare structurată categoria 6A și 7 pentru rețele de până la 10 Gb/s',
@@ -19,19 +19,19 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
     keyProducts: [
       {
         name: 'Serii Prize și Întrerupătoare Modulare',
-        description: 'Când instalezi produsele din seriile Legrand Céliane, Valena sau Mosaic, nu montezi doar echipamente electrice – construiești o interfață completă între utilizatori și rețeaua electrică. Designul modular permite combinații nelimitate: de la prize simple la module USB, prize RJ45, HDMI, chiar și module audio. Mecanismele sunt proiectate pentru peste 100.000 de manevre, clipsurile de fixare se montează fără șuruburi, iar finisajele variază de la plastic ABS la sticlă temperată, metal brushed sau chiar lemn natural. În birourile moderne vedem tot mai des montaje flush în birouri cu module integrate USB-C și wireless charging. Pentru medii industriale, varianta Plexo cu IP55 rezistă la jet de apă și praf. Fiecare serie are certificări VDE și conformitate cu standardele IEC 60884.'
+        description: 'Seriile Legrand Céliane, Valena și Mosaic oferă o interfață completă între utilizatori și rețeaua electrică. Designul modular permite combinații nelimitate: de la prize simple la module USB, prize RJ45, HDMI, chiar și module audio. Mecanismele sunt proiectate pentru peste 100.000 de manevre, clipsurile de fixare se montează fără șuruburi, iar finisajele variază de la plastic ABS la sticlă temperată, metal brushed sau chiar lemn natural. În birourile moderne vedem tot mai des montaje flush în birouri cu module integrate USB-C și wireless charging. Pentru medii industriale, varianta Plexo cu IP55 rezistă la jet de apă și praf. Fiecare serie are certificări VDE și conformitate cu standardele IEC 60884.'
       },
       {
         name: 'Sisteme Cablare Structurată LCS³',
-        description: 'Dacă ai văzut vreodată un rack de telecomunicații bine organizat, probabil că era echipat cu sisteme Legrand LCS³. Patch panel-urile lor categoria 6A și categoria 7 oferă bandwidth de 10 Gb/s pe distanțe de până la 100 metri, perfect pentru backbone de rețea în clădiri mari. Modulele RJ45 au contacte gold-plated cu minimum 750 de cicluri insert-extract, iar cablurile de patch sunt făcute din cupru fără oxigen (OFC) pentru atenuare minimă. Sistemele includ managementul documentației – fiecare port are zonă de etichetare și codificare color pentru identificare rapidă. Se întâlnesc instalații în centre de date unde toate legăturile sunt Legrand – și administratorii IT ne spun că-și reduc timpul de troubleshooting cu 40% doar datorită organizării corecte.'
+        description: 'Sistemele de cablare structurată Legrand LCS³ sunt folosite frecvent în rack-uri de telecomunicații bine organizate. Patch panel-urile categoria 6A și categoria 7 oferă bandwidth de 10 Gb/s pe distanțe de până la 100 metri, potrivit pentru backbone de rețea în clădiri mari. Modulele RJ45 au contacte gold-plated cu minimum 750 de cicluri insert-extract, iar cablurile de patch sunt făcute din cupru fără oxigen (OFC) pentru atenuare minimă. Sistemele includ managementul documentației – fiecare port are zonă de etichetare și codificare color pentru identificare rapidă. O organizare corectă a cablării poate reduce timpul de depanare, conform producătorului.'
       },
       {
         name: 'Tablouri Electrice Modulare Pragma',
-        description: 'Tablourile Pragma de la Legrand sunt standard în instalațiile industriale și rezidențiale din România. Construcția modulară permite configurații de la 12 module (1 rând) până la 288 module (12 rânduri), toate în același sistem. Carcasa din oțel galvanizat cu vopsire epoxidică rezistă la coroziune, iar ușile au garnituri IP65 pentru protecție completă la praf și jeturi de apă. Șinele DIN sunt pre-montate la 125mm spacing pentru montaj rapid al echipamentelor modulare. Fiecare tablou are certificare test de impact IK10 (20 jouli) și rezistență la foc conform IEC 61439. În fabrici se montează tablourile Pragma la puncte de distribuție unde funcționează non-stop de ani – zero probleme de contact sau coroziune.'
+        description: 'Tablourile Pragma de la Legrand sunt standard în instalațiile industriale și rezidențiale din România. Construcția modulară permite configurații de la 12 module (1 rând) până la 288 module (12 rânduri), toate în același sistem. Carcasa din oțel galvanizat cu vopsire epoxidică rezistă la coroziune, iar ușile au garnituri IP65 pentru protecție completă la praf și jeturi de apă. Șinele DIN sunt pre-montate la 125mm spacing pentru montaj rapid al echipamentelor modulare. Fiecare tablou are certificare test de impact IK10 (20 jouli) și rezistență la foc conform IEC 61439. Tablourile Pragma sunt montate frecvent la puncte de distribuție cu funcționare continuă, conform producătorului.'
       },
       {
         name: 'PDU-uri pentru Centre de Date',
-        description: 'Power Distribution Units de la Legrand sunt creier-ul distribuției electrice în centre de date. Modelele intelligent PDU au monitorizare per priză – măsori consumul fiecărui server în timp real cu precizie ±1%. Interfața SNMP permite integrare în sisteme de management și alerting automat când consumul depășește praguri setate. Constructia rack-mount 19" cu 0U lateral economisește spațiul prețios din rack, iar prizele C13/C19 sunt orientate perpendicular pentru cablu management optim. PDU-urile Legrand se folosesc frecvent în server rooms unde densitatea de putere ajunge la 10kW per rack – sistemele gestionează load balancing-ul automat între circuite.'
+        description: 'Power Distribution Units de la Legrand sunt creier-ul distribuției electrice în centre de date. Modelele intelligent PDU au monitorizare per priză – măsori consumul fiecărui server în timp real cu precizie ±1%. Interfața SNMP permite integrare în sisteme de management și alerting automat când consumul depășește praguri setate. Construcția rack-mount 19" cu 0U lateral economisește spațiul prețios din rack, iar prizele C13/C19 sunt orientate perpendicular pentru cablu management optim. PDU-urile Legrand se folosesc frecvent în server rooms unde densitatea de putere ajunge la 10kW per rack – sistemele gestionează load balancing-ul automat între circuite.'
       }
     ],
     certifications: [
@@ -72,7 +72,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR MULTIPLUG",
-        "description": "UPS compact tip priza multipla pentru echipamente mici"
+        "description": "UPS compact tip priză multiplă pentru echipamente mici"
       },
       {
         "code": "KEOR SP",
@@ -88,7 +88,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR PDU",
-        "description": "unitate de distributie a energiei pentru rack-uri de server"
+        "description": "unitate de distribuție a energiei pentru rack-uri de server"
       },
       {
         "code": "KEOR S",
@@ -104,15 +104,15 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR COMPACT",
-        "description": "UPS trifazat compact pentru spatii cu suprafata redusa"
+        "description": "UPS trifazat compact pentru spații cu suprafață redusă"
       },
       {
         "code": "KEOR T EVO",
-        "description": "UPS trifazat cu eficienta ridicata pentru centre de date"
+        "description": "UPS trifazat cu eficiență ridicată pentru centre de date"
       },
       {
         "code": "KEOR MP",
-        "description": "UPS trifazat modular pentru scalabilitate progresiva"
+        "description": "UPS trifazat modular pentru scalabilitate progresivă"
       },
       {
         "code": "KEOR HP",
@@ -120,7 +120,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR HPE",
-        "description": "UPS trifazat de mare putere, eficienta energetica sporita"
+        "description": "UPS trifazat de mare putere, eficiență energetică sporită"
       },
       {
         "code": "KEOR XPE",
@@ -132,7 +132,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR FLEX",
-        "description": "UPS trifazat flexibil pentru configuratii personalizate"
+        "description": "UPS trifazat flexibil pentru configurații personalizate"
       },
       {
         "code": "TriMOD",
@@ -146,11 +146,11 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "q": "Livrați UPS-uri Legrand în România?",
-        "a": "Da, aducem la comandă UPS-uri monofazate și trifazate din gamele KEOR și MEGALINE, pe baza codului și puterii confirmate de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteti puterea necesară în kVA pentru identificarea rapidă a variantei potrivite."
+        "a": "Da, aducem la comandă UPS-uri monofazate și trifazate din gamele KEOR și MEGALINE, pe baza codului și puterii confirmate de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteți puterea necesară în kVA pentru identificarea rapidă a variantei potrivite."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de UPS Legrand?",
-        "a": "Precizati puterea totală a echipamentelor protejate în kVA sau kW, autonomia dorită la baterie, dacă este necesar montaj în rack sau format turn, și dacă instalația este monofazata sau trifazata. Pentru centre de date menționați și necesitatea redundantei modulare, aceasta influentand alegerea între gamele KEOR MOD sau KEOR T EVO."
+        "a": "Precizați puterea totală a echipamentelor protejate în kVA sau kW, autonomia dorită la baterie, dacă este necesar montaj în rack sau format turn, și dacă instalația este monofazată sau trifazată. Pentru centre de date menționați și necesitatea redundanței modulare, aceasta influențând alegerea între gamele KEOR MOD sau KEOR T EVO."
       },
       {
         "q": "Ce este un UPS modular precum KEOR MOD de la Legrand și când se alege?",
@@ -168,9 +168,9 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
     founded: 1953,
     headquarters: 'Düsseldorf, Germania (Henkel)',
     employees: '52,000+ angajați Henkel Adhesives',
-    overview: `Loctite este marca de referință pentru fixarea filetelor care se pot dezstrânge sub vibrații – câteva picături de threadlocker pe un șurub problematic previn desfacerea în timp. Asta e magia Loctite: produse care rezolvă probleme reale din industrie cu soluții chimice simple dar incredibil de eficiente. Adezivii lor nu sunt pentru lipitul hârtiei – sunt pentru îmbinări structurale care suportă tone de greutate, vibrații constante, temperaturi extreme. Când vezi "Loctite" pe un tub, știi că vorbim de inginerie chimică la cel mai înalt nivel. Henkel, compania-mamă, face adezivi de peste 70 de ani și a transformat Loctite în standard global pentru industrie.
+    overview: `Loctite este o marcă de referință pentru fixarea filetelor care se pot desface sub vibrații - câteva picături de threadlocker pe un șurub problematic pot preveni desfacerea în timp, conform producătorului. Adezivii Loctite sunt destinați îmbinărilor structurale care suportă greutăți mari, vibrații constante și temperaturi extreme. Henkel, compania-mamă, produce adezivi de peste 70 de ani, iar Loctite este un brand larg răspândit în industrie.
 
-Gama Loctite e uriașă: de la threadlocker-e (frânare filete) în zeci de rezistențe diferite, la adezivi instant cianoacrilați care lipesc în secunde, adezivi structurali bicomponenți pentru îmbinări metal-metal, etanșanți anaerobi pentru flanșe hidraulice, adezivi pentru garnituri care înlocuiesc garniturile clasice din cauciuc. În fabricile pe care le deservim, Loctite e prezent peste tot: pe liniile de asamblare unde se fixează rulmenți în lagăre cu adeziv retaining, pe instalațiile hidraulice unde se etanșează filete cu Loctite 577, pe reparațiile urgente unde instant-ul Loctite 401 salvează producția. Chimia anaerobă pe care o folosește Loctite e fascinantă: produsul rămâne lichid în contact cu aerul, dar se polimerizează instant când îl pui între două suprafețe metalice și elimini aerul.
+Gama Loctite este vastă: de la threadlockere (frânare filete) în zeci de rezistențe diferite, la adezivi instant cianoacrilați cu fixare rapidă, adezivi structurali bicomponenți pentru îmbinări metal-metal, etanșanți anaerobi pentru flanșe hidraulice și adezivi pentru garnituri ce înlocuiesc garniturile clasice din cauciuc. În instalațiile industriale, produsele Loctite se folosesc frecvent pentru fixarea rulmenților în lagăre cu adeziv retaining, etanșarea filetelor hidraulice cu Loctite 577 sau reparații rapide cu adezivul instant Loctite 401. Chimia anaerobă folosită de Loctite: produsul rămâne lichid în contact cu aerul, dar polimerizează atunci când este aplicat între două suprafețe metalice care elimină aerul.
 
 Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 și 270, adezivi instant 401 și 406, etanșant 577 pentru filete hidraulice și adeziv retaining 638 pentru rulmenți. Echipa tehnică te poate ajuta să alegi produsul corect pentru aplicația ta specifică.`,
     whyChoose: [
@@ -184,19 +184,19 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
     keyProducts: [
       {
         name: 'Loctite 243 Threadlocker Medium Strength',
-        description: 'Dacă ar fi să alegem un singur produs Loctite pentru un atelier universal, ar fi 243. E threadlocker-ul albastru, cu rezistență medie, care se folosește pe 80% din îmbinările filetate din industrie. Rezistența la rupere e în jur de 18 Nm, suficient să prevină deșurubarea accidentală din cauza vibrațiilor, dar permițând demontarea cu scule standard. Se aplică pe filete M6-M36, polimerizează complet în 24 ore (la 15 minute deja are 50% din rezistența finală), și rezistă la temperaturi de la -55°C până la +150°C. Ce-l face special e că funcționează chiar și pe filete ușor unse – tolerează contaminare ușoară cu ulei. În industria auto îl văd folosit peste tot: pe arborele cu came, pe componente suspensie, pe fixări motor. Tubul de 50ml ajunge pentru sute de aplicații – pui doar câteva picături pe filet.'
+        description: 'Loctite 243 este un threadlocker albastru cu rezistență medie, frecvent folosit pentru îmbinări filetate din industrie. Rezistența la rupere este de aproximativ 18 Nm, suficientă pentru a preveni deșurubarea accidentală din cauza vibrațiilor, dar permite demontarea cu scule standard. Se aplică pe filete M6-M36, polimerizează complet în 24 de ore (la 15 minute atinge deja 50% din rezistența finală) și rezistă la temperaturi de la -55°C până la +150°C. Funcționează, conform producătorului, și pe filete ușor unse, tolerând contaminare ușoară cu ulei. În industria auto este folosit pe arborele cu came, componente de suspensie și fixări motor. Tubul de 50ml este suficient pentru un număr mare de aplicații, fiind necesare doar câteva picături pe filet.'
       },
       {
         name: 'Loctite 401 Instant Adhesive',
-        description: 'Loctite 401 e salvarea în situații de urgență când trebuie să lipești ceva ACUM și să țină tare. E adeziv instant pe bază de cianoacrilat (Super Glue dar industrial) cu timp de fixare de 10-30 secunde și rezistență finală la forfecare de 18-25 MPa. Funcționează pe aproape toate materialele: metal, cauciuc, plastic, ceramică, lemn. Aplicația tipică: ai crăpat un capac de plastic pe o mașină, ai rupt un cablu și trebuie să fixezi rapid conectorii, ai desprins o bucșă de cauciuc. Pui o picătură (DOAR O PICĂTURĂ – produsul e foarte concentrat), presezi piesele 10-20 secunde, și după 5 minute deja poți pune piesa în funcțiune. Rezistența maximă se atinge în 24 ore. Atenție: se lipește instant și pe piele – ai grijă să nu-ți lipești degetele. Păstrează tubul închis ermetic, altfel se usucă rapid.'
+        description: 'Loctite 401 este un adeziv instant pe bază de cianoacrilat pentru reparații rapide, cu timp de fixare de 10-30 secunde și rezistență finală la forfecare de 18-25 MPa. Funcționează pe majoritatea materialelor: metal, cauciuc, plastic, ceramică, lemn. Aplicații tipice: repararea unui capac de plastic fisurat, fixarea rapidă a unor conectori sau lipirea unei bucșe de cauciuc desprinse. Se aplică o singură picătură (produsul este concentrat), piesele se presează 10-20 de secunde, iar după 5 minute pot fi puse în funcțiune; rezistența maximă se atinge în 24 de ore. Produsul se lipește instant și pe piele, motiv pentru care este necesară atenție la manipulare. Tubul trebuie păstrat închis ermetic pentru a evita uscarea rapidă.'
       },
       {
         name: 'Loctite 577 Thread Sealant',
-        description: 'În instalațiile hidraulice și pneumatice unde presiunile ajung la 100-200 bar, nu poți folosi bandă teflon normală – nu rezistă. Aici intră Loctite 577, un etanșant anaerob pentru filete care polimerizează în absența aerului și formează o garnitură solidă, rezistentă la presiune și vibrații. Se aplică pe filete NPT, BSP, metric – practic pe orice tip de îmbinare filetată pentru fluide. Rezistă la 250 bar presiune hidraulică, temperaturi de la -55°C la +150°C, și e compatibil cu majoritatea fluidelor: ulei hidraulic, apă, GPL, aer comprimat, fluide de răcire. Marele avantaj față de bandă: nu se rupe în bucăți care pot bloca valve sau filtre. Se aplică pe filetul curat, se strânge îmbinarea, și după 15 minute deja poți face testul de presiune. Polimerizare completă în 72 ore. Se găsește în tuburi de 50ml și 250ml.'
+        description: 'În instalațiile hidraulice și pneumatice unde presiunile ajung la 100-200 bar, banda de teflon obișnuită nu este suficientă. Loctite 577 este un etanșant anaerob pentru filete care polimerizează în absența aerului și formează o garnitură solidă, rezistentă la presiune și vibrații. Se aplică pe filete NPT, BSP, metric - practic pe orice tip de îmbinare filetată pentru fluide. Rezistă la 250 bar presiune hidraulică, temperaturi de la -55°C la +150°C, și e compatibil cu majoritatea fluidelor: ulei hidraulic, apă, GPL, aer comprimat, fluide de răcire. Spre deosebire de bandă, nu se rupe în bucăți care pot bloca valve sau filtre. Se aplică pe filetul curat, se strânge îmbinarea, iar după 15 minute se poate efectua testul de presiune. Polimerizare completă în 72 ore. Se găsește în tuburi de 50ml și 250ml.'
       },
       {
         name: 'Loctite 638 Retaining Compound',
-        description: 'Când trebuie să montezi un rulment într-un lagăr și fit-ul nu e perfect (fie toleranță prea mare, fie uzură), Loctite 638 rezolvă problema elegant. E un adeziv anaerob de rezistență mare, special conceput pentru îmbinări cilindrice (rulmenți în lagăre, bucșe pe arbori, roți dințate pe axe). Umple golul dintre suprafețe (până la 0.25mm gap) și formează o îmbinare structurală cu rezistență la forfecare de peste 25 MPa. Aplicarea e simplă: curăți suprafețele de ulei și murdărie, aplici Loctite 638 pe ambele suprafețe, montezi piesa cu presare ușoară, și aștepți 10 minute pentru handling strength. După 24 ore ai rezistența completă. Marele plus: distribui uniform tensiunile pe toată suprafața de contact, nu ai concentrații de stress ca la montajul cu presare mare. Se demontează prin încălzire la 250°C. Văzut folosit în reparații pompe, reductoare, motoare electrice – funcționează impecabil.'
+        description: 'Loctite 638 este indicat pentru montarea unui rulment într-un lagăr atunci când toleranța dintre piese este prea mare sau există uzură. Este un adeziv anaerob de rezistență mare, conceput pentru îmbinări cilindrice (rulmenți în lagăre, bucșe pe arbori, roți dințate pe axe). Umple golul dintre suprafețe (până la 0,25mm) și formează o îmbinare structurală cu rezistență la forfecare de peste 25 MPa. Aplicare: suprafețele se curăță de ulei și murdărie, se aplică adezivul pe ambele suprafețe, piesa se montează cu presare ușoară, iar după 10 minute se atinge rezistența de manipulare; rezistența completă se atinge după 24 de ore. Adezivul distribuie uniform tensiunile pe toată suprafața de contact, evitând concentrările de stres specifice montajului cu presare mare. Demontarea se face prin încălzire la 250°C. Este folosit frecvent în reparații de pompe, reductoare și motoare electrice.'
       }
     ],
     certifications: [
@@ -229,19 +229,19 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
     productCodes: [
       {
         "code": "Loctite 221",
-        "description": "threadlocker mov de rezistenta mica pentru suruburi mici"
+        "description": "threadlocker mov de rezistență mică pentru șuruburi mici"
       },
       {
         "code": "Loctite 222",
-        "description": "threadlocker mov de rezistenta mica pentru elemente de fixare mici"
+        "description": "threadlocker mov de rezistență mică pentru elemente de fixare mici"
       },
       {
         "code": "Loctite 241",
-        "description": "threadlocker albastru de rezistenta medie, vascozitate redusa"
+        "description": "threadlocker albastru de rezistență medie, vâscozitate redusă"
       },
       {
         "code": "Loctite 242",
-        "description": "threadlocker albastru de rezistenta medie pentru suruburi mari"
+        "description": "threadlocker albastru de rezistență medie pentru șuruburi mari"
       },
       {
         "code": "Loctite 243",
@@ -249,11 +249,11 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       },
       {
         "code": "Loctite 245",
-        "description": "threadlocker albastru de rezistenta medie pentru filete mari"
+        "description": "threadlocker albastru de rezistență medie pentru filete mari"
       },
       {
         "code": "Loctite 246",
-        "description": "threadlocker albastru de rezistenta medie, rezistent la temperatura"
+        "description": "threadlocker albastru de rezistență medie, rezistent la temperatură"
       },
       {
         "code": "Loctite 248",
@@ -261,7 +261,7 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       },
       {
         "code": "Loctite 262",
-        "description": "threadlocker rosu de rezistenta mare pentru suruburi mari"
+        "description": "threadlocker roșu de rezistență mare pentru șuruburi mari"
       },
       {
         "code": "Loctite 268",
@@ -269,7 +269,7 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       },
       {
         "code": "Loctite 270",
-        "description": "threadlocker de rezistenta mare pentru asamblari metalice generale"
+        "description": "threadlocker de rezistență mare pentru asamblări metalice generale"
       },
       {
         "code": "Loctite 290",
@@ -277,21 +277,21 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       },
       {
         "code": "Loctite 2400",
-        "description": "threadlocker de rezistenta medie, eticheta alba"
+        "description": "threadlocker de rezistență medie, etichetă albă"
       }
     ],
     faq: [
       {
-        "q": "Cum aleg culoarea corecta a unui threadlocker Loctite pentru un surub?",
+        "q": "Cum aleg culoarea corectă a unui threadlocker Loctite pentru un șurub?",
         "a": "Culoarea indică rezistență la desfacere: mov pentru elemente mici cu rezistență redusă, albastru pentru rezistență medie și demontare ulterioară posibilă, iar roșu pentru rezistență mare, unde îmbinarea nu mai trebuie desfacută ușor. Loctite 243 este un albastru fără amorsă folosit frecvent, iar Loctite 262 este varianta roșie pentru șuruburi mai mari. Alegerea finală ține cont de diametrul filetului și de necesitatea unei demontări viitoare."
       },
       {
         "q": "Livrați produse Loctite în România?",
-        "a": "Da, aducem la comandă produse din gamele Loctite pentru fixare filete, etanșare și adezivi instant, pe bază codului confirmat de client. Produsele Loctite le aducem la comandă, pe baza disponibilității publicate de Henkel, de obicei în 2-4 săptămâni. Transmiteti codul exact de pe eticheta produsului dorit pentru identificare rapidă."
+        "a": "Da, aducem la comandă produse din gamele Loctite pentru fixare filete, etanșare și adezivi instant, pe bază codului confirmat de client. Produsele Loctite le aducem la comandă, pe baza disponibilității publicate de Henkel, de obicei în 2-4 săptămâni. Transmiteți codul exact de pe eticheta produsului dorit pentru identificare rapidă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de threadlocker Loctite?",
-        "a": "Menționati diametrul filetului, materialul suprafetelor (oțel, aluminiu sau alte metale), rezistență dorită la desfacere și dacă este nevoie de o variantă fără amorsă pentru metale pasivate precum zincul. Precizati și dacă îmbinarea trebuie să rămână demontabila ulterior, deoarece aceasta influențează alegerea între gamele de rezistență medie și mare."
+        "a": "Menționați diametrul filetului, materialul suprafețelor (oțel, aluminiu sau alte metale), rezistență dorită la desfacere și dacă este nevoie de o variantă fără amorsă pentru metale pasivate precum zincul. Precizați și dacă îmbinarea trebuie să rămână demontabilă ulterior, deoarece aceasta influențează alegerea între gamele de rezistență medie și mare."
       },
       {
         "q": "Ce diferență este între Loctite 243 și Loctite 270?",
@@ -309,11 +309,11 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
     founded: 1922,
     headquarters: 'Bergamo, Italia',
     employees: '1,000+ angajați',
-    overview: `Lovato e unul dintre acele branduri italiene care nu fac zgomot mare pe piață, dar sunt peste tot în instalațiile electrice industriale. Faci un tur printr-o fabrică și dai peste contactoare Lovato la fiecare pas – pe motoare, pe pompe, pe ventilatoare, pe compresoare. Italienii ăștia fac aparataj electric de joasă tensiune de peste 100 de ani și au prins perfect sweet spot-ul: calitate serioasă la prețuri rezonabile, fără premiumu de brand german dar fără compromisuri la fiabilitate. Un contactor Lovato cotat pentru 1 milion de manevre mecanice face exact ce scrie pe cutie – există contactoare cu 15 ani de funcționare continuă, fără probleme raportate.
+    overview: `Lovato este un producător italian de aparataj electric de joasă tensiune, cu peste 100 de ani de activitate, ale cărui contactoare se regăsesc frecvent în instalații electrice industriale - pe motoare, pompe, ventilatoare, compresoare. Un contactor Lovato cotat pentru 1 milion de manevre mecanice este construit conform acestei specificații, conform producătorului.
 
-Gama Lovato acoperă tot ce înseamnă control și protecție motoare electrice: contactoare de la 9A până la 800A, relee termice pentru protecție la suprasarcină, soft startere pentru porniri lente fără șoc de curent, întrerupătoare automate magnetotermice, butoniere și semnalizare. Designul e foarte practic: contactorii au clipsuri pentru montaj rapid pe șină DIN, racordarea se face cu terminale automate spring sau șurub (la alegere), bobinele sunt interschimbabile fără demontare completă. În panouri de comandă vedem adesea combinații complete Lovato: contactor + releu termic + întrerupător magneto-termic + butoniere – totul din aceeași familie, compatibil perfect, documentație unitară.
+Gama Lovato acoperă tot ce înseamnă control și protecție motoare electrice: contactoare de la 9A până la 800A, relee termice pentru protecție la suprasarcină, soft startere pentru porniri line fără șoc de curent, întrerupătoare automate magnetotermice, butoniere și semnalizare. Designul este practic: contactorii au clipsuri pentru montaj rapid pe șină DIN, racordarea se face cu terminale automate spring sau șurub (la alegere), iar bobinele sunt interschimbabile fără demontare completă. În panourile de comandă se folosesc frecvent combinații complete Lovato: contactor, releu termic, întrerupător magnetotermic și butoniere, toate din aceeași familie, cu documentație unitară.
 
-Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare heavy-duty până la 800A, alături de relee termice RF și soft startere DMC. Dacă ai nevoie de asistență tehnică pentru dimensionarea corectă a protecțiilor, echipa noastră te poate ajuta cu calcule și scheme de comandă.`,
+Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare heavy-duty până la 800A, alături de relee termice RF și soft startere DMC. Echipa tehnică InfiniTrade poate ajuta la dimensionarea corectă a protecțiilor, cu calcule și scheme de comandă.`,
     whyChoose: [
       'Contactoare modulare seria BF cu durată de viață 1 milion manevre mecanice / 600k electrice',
       'Relee termice RF cu compensare temperatura ambiantă și protecție clase 10A/10/20',
@@ -325,11 +325,11 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
     keyProducts: [
       {
         name: 'Contactoare Modulare Seria BF',
-        description: 'Contactoarele Lovato BF sunt horse de lucru în instalațiile industriale mici și medii. Gama acoperă de la 9A la 95A curent nominal, perfect pentru motoare de la 4kW la 45kW (la 400V AC3). Construcția modulară înseamnă lățime standard pentru montaj pe șină DIN 35mm – un BF09 (9A) ocupă doar 45mm lățime, ceea ce economisește spațiu prețios în tablouri. Contactele principale sunt din aliaj argint cu rezistență la arc electric, cotate pentru 600.000 manevre electrice la categoria AC-3 (pornire motoare). Bobinele sunt disponibile în toate tensiunile standard: 24V, 48V, 110V, 230V, 400V atât AC cât și DC – și sunt interschimbabile fără să desfaci circuitul de putere. Se întâlnesc panouri unde au schimbat bobina de la 230V la 24V în câteva minute, fără rewiring. Blocul de contacte auxiliare se adaugă lateral (1NO+1NC până la 4NO+4NC) cu un simplu clip. Protecție IP20 standard, IP54 opțional cu capac.'
+        description: 'Contactoarele Lovato BF sunt folosite frecvent în instalațiile industriale mici și medii. Gama acoperă de la 9A la 95A curent nominal, potrivite pentru motoare de la 4kW la 45kW (la 400V AC3). Construcția modulară înseamnă lățime standard pentru montaj pe șină DIN 35mm – un BF09 (9A) ocupă doar 45mm lățime, ceea ce economisește spațiu prețios în tablouri. Contactele principale sunt din aliaj argint cu rezistență la arc electric, cotate pentru 600.000 manevre electrice la categoria AC-3 (pornire motoare). Bobinele sunt disponibile în toate tensiunile standard: 24V, 48V, 110V, 230V, 400V atât AC cât și DC – și sunt interschimbabile fără demontarea circuitului de putere. Bobina poate fi înlocuită (de exemplu de la 230V la 24V) în câteva minute, fără operațiuni de recablare, conform producătorului. Blocul de contacte auxiliare se adaugă lateral (1NO+1NC până la 4NO+4NC) cu un simplu clip. Protecție IP20 standard, IP54 opțional cu capac.'
       },
       {
         name: 'Relee Termice Seria RF',
-        description: 'Releele termice Lovato RF protejează motoarele la suprasarcină și lipsa fază. Nu sunt siguranțe – nu întrerup curentul direct, ci comandă deschiderea contactorului când detectează consum anormal. Designul bi-metalic cu compensare temperatura ambiantă asigură precizie ±5% în declanșare indiferent dacă tabloul e la 20°C sau 50°C. Setarea curentului se face cu un buton rotativ pe fața releului – range-ul tipic e 30-50% ajustabil (ex: RF38 se setează între 23-32A). Clasa de declanșare 10A înseamnă că la 7.2x In releul declanșează în maxim 10 secunde – protecție rapidă la scurt-circuit între faze. Test manual prin apăsare buton pentru verificare funcționalitate. Contactul NC (normal closed) se串 în serie cu bobina contactorului – la declanșare releul deschide contactul și oprește contactorul. Reset manual sau automat la alegere. Montaj direct pe contactoare Lovato sau pe șină DIN separat.'
+        description: 'Releele termice Lovato RF protejează motoarele la suprasarcină și lipsa fază. Nu sunt siguranțe – nu întrerup curentul direct, ci comandă deschiderea contactorului când detectează consum anormal. Designul bi-metalic cu compensare temperatura ambiantă asigură precizie ±5% în declanșare indiferent dacă tabloul e la 20°C sau 50°C. Setarea curentului se face cu un buton rotativ pe fața releului – range-ul tipic e 30-50% ajustabil (ex: RF38 se setează între 23-32A). Clasa de declanșare 10A înseamnă că la 7.2x In releul declanșează în maxim 10 secunde – protecție rapidă la scurt-circuit între faze. Test manual prin apăsare buton pentru verificare funcționalitate. Contactul NC (normal closed) se conectează în serie cu bobina contactorului – la declanșare releul deschide contactul și oprește contactorul. Reset manual sau automat la alegere. Montaj direct pe contactoare Lovato sau pe șină DIN separat.'
       },
       {
         name: 'Soft Startere Seria DMC',
@@ -373,27 +373,27 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       },
       {
         "code": "BFS",
-        "description": "gama de contactoare de siguranta"
+        "description": "gama de contactoare de siguranță"
       },
       {
         "code": "BG",
-        "description": "gama de contactoare de putere mica"
+        "description": "gama de contactoare de putere mică"
       },
       {
         "code": "RF9",
-        "description": "releu termic pentru curenti mici de protectie motor"
+        "description": "releu termic pentru curenți mici de protecție motor"
       },
       {
         "code": "RF38",
-        "description": "releu termic pentru curenti medii de protectie motor"
+        "description": "releu termic pentru curenți medii de protecție motor"
       },
       {
         "code": "RF82",
-        "description": "releu termic pentru curenti mari de protectie motor"
+        "description": "releu termic pentru curenți mari de protecție motor"
       },
       {
         "code": "RFE45",
-        "description": "releu termic electronic pentru protectie motor"
+        "description": "releu termic electronic pentru protecție motor"
       },
       {
         "code": "ADXN",
@@ -409,15 +409,15 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       },
       {
         "code": "SM1",
-        "description": "intrerupator de protectie motor, gama SM"
+        "description": "întrerupător de protecție motor, gama SM"
       },
       {
         "code": "SM3",
-        "description": "intrerupator de protectie motor, gama SM de curent mare"
+        "description": "întrerupător de protecție motor, gama SM de curent mare"
       },
       {
         "code": "GA",
-        "description": "separator de sarcina pentru comutarea circuitelor de putere"
+        "description": "separator de sarcină pentru comutarea circuitelor de putere"
       },
       {
         "code": "P5ME",
@@ -433,7 +433,7 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       },
       {
         "code": "KX",
-        "description": "gama de limitatoare de cursa"
+        "description": "gama de limitatoare de cursă"
       },
       {
         "code": "GX",
@@ -443,7 +443,7 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
     faq: [
       {
         "q": "Ce diferență este între contactoarele Lovato seria BF și releele termice seria RF?",
-        "a": "Contactoarele BF comută circuitul de alimentare al motorului la comandă operatorului sau a automatizarii, functionand că un întrerupător controlat electric. Releele termice RF se montează lângă contactor și intrerup alimentarea automat dacă motorul trage un curent peste limita admisă, protejand infasurarile. Impreuna formeaza un demaror clasic, iar dimensionarea corectă ține cont de curentul nominal al motorului."
+        "a": "Contactoarele BF comută circuitul de alimentare al motorului la comandă operatorului sau a automatizării, funcționând că un întrerupător controlat electric. Releele termice RF se montează lângă contactor și întrerup alimentarea automat dacă motorul trage un curent peste limita admisă, protejând înfășurările. Împreună formează un demaror clasic, iar dimensionarea corectă ține cont de curentul nominal al motorului."
       },
       {
         "q": "Livrați contactoare și automatizări Lovato în România?",
@@ -451,7 +451,7 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       },
       {
         "q": "Ce informații trimit pentru o ofertă de contactor Lovato?",
-        "a": "Precizati curentul nominal al motorului sau al sarcinii comandate, tensiunea bobinei de comandă, numărul de poli necesar și dacă este nevoie de contacte auxiliare suplimentare. Pentru relee termice menționați domeniul de curent de reglaj dorit, deoarece acesta trebuie să corespunda curentului nominal real al motorului protejat."
+        "a": "Precizați curentul nominal al motorului sau al sarcinii comandate, tensiunea bobinei de comandă, numărul de poli necesar și dacă este nevoie de contacte auxiliare suplimentare. Pentru relee termice menționați domeniul de curent de reglaj dorit, deoarece acesta trebuie să corespundă curentului nominal real al motorului protejat."
       },
       {
         "q": "Ce este un soft starter Lovato seria ADXN și când se folosește?",
