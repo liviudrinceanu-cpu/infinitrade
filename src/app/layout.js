@@ -18,9 +18,12 @@ const inter = Inter({
   subsets: ['latin', 'latin-ext'],
   display: 'swap',
   variable: '--font-inter',
-  preload: true,
-  // Only load weights actually used in the site
-  weight: ['400', '500', '600'],
+  // v24 (LCP): Inter is a variable font — without a fixed `weight` list
+  // next/font serves one file per subset instead of one per weight (6 → 2),
+  // and the files are no longer preloaded, so they don't compete with the
+  // render-blocking CSS on slow mobile connections. Text paints at once in
+  // the size-adjusted fallback and swaps to Inter when it arrives.
+  preload: false,
   // Reduce data by excluding unused features
   fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
 });
@@ -259,21 +262,22 @@ export default function RootLayout({ children }) {
     <html lang="ro" className={inter.variable}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#0990db" />
+        <meta name="theme-color" content="#0077b6" />
         <meta name="geo.region" content="RO-TM" />
         <meta name="geo.placename" content="Ghiroda, Timis" />
         <meta name="p:domain_verify" content="625b8d95664e42f3035aadf5188814f7" />
 
-        {/* DNS Prefetch for external resources - improves connection setup time */}
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-
-        {/* Preconnect for critical third-party origins */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="anonymous" />
-
-        {/* Preload critical resources - fetchpriority for LCP */}
-        <link rel="preload" href="/logo-header.png" as="image" type="image/png" fetchPriority="high" />
+        {/* v24: Google Analytics origins only when GA is configured (Lighthouse
+            flagged them as unused preconnects). The manual preload of
+            /logo-header.png was removed: the Header's next/image with
+            `priority` already preloads the optimised version, so the raw PNG
+            was a second, competing download. */}
+        {config.analytics.gaId && (
+          <>
+            <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+            <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+          </>
+        )}
 
         {/* Inline critical CSS for above-the-fold content */}
         <style dangerouslySetInnerHTML={{ __html: `
