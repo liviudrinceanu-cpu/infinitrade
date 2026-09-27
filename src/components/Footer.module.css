@@ -121,6 +121,11 @@
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   transition: color var(--transition-fast);
+  /* v22: tap targets ≥ 24 px tall (Lighthouse "touch targets"), the two
+     e-mail links were stacked with only a <br> between them. */
+  display: inline-block;
+  min-height: 24px;
+  padding: 3px 0;
 }
 
 .contactList a:hover {

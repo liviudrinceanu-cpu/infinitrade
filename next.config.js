@@ -159,6 +159,32 @@ const nextConfig = {
       { source: '/sitemap-:name.xml', destination: '/sitemap.xml', permanent: true },
       { source: '/wp-sitemap.xml', destination: '/sitemap.xml', permanent: true },
 
+      // v22 (audit 27.09): legacy URLs that Search Console still lists under
+      // „Server error (5xx)” (crawled during the March–July 500 bug, now 404).
+      // Each goes to the closest current category, type or brand page.
+      { source: '/masini-de-taiat-asfalt-beton', destination: '/scule-instrumente/scule-electrice', permanent: true },
+      { source: '/polizoare-unghiulare-cu-acumulator', destination: '/scule-instrumente/scule-electrice', permanent: true },
+      { source: '/masini-de-insurubat-electronice', destination: '/scule-instrumente/scule-electrice', permanent: true },
+      { source: '/masini-de-amestecat', destination: '/scule-instrumente/scule-electrice', permanent: true },
+      { source: '/fierastraie-cu-banda', destination: '/scule-instrumente/scule-electrice', permanent: true },
+      { source: '/fierastraie-circulare-manuale', destination: '/scule-instrumente/scule-electrice', permanent: true },
+      { source: '/disc-de-taiere-otel-fonta-pentru-rems-cento-845052', destination: '/scule-instrumente/scule-electrice', permanent: true },
+      { source: '/cap-cu-lant-cobra-32-pentru-masinile-de-curatat-tevi-rems-174340', destination: '/scule-instrumente', permanent: true },
+      { source: '/kern-sohn-pentru-chimie-microscoape-refractometre-balante-analitice-cantare-analiza-umiditate', destination: '/brand/kern', permanent: true },
+      { source: '/kern-sohn-pentru-farmacie-cantare-precizie-balante-analitice-romania', destination: '/brand/kern', permanent: true },
+      { source: '/conectori-sisteme-de-conectori', destination: '/echipamente-electrice', permanent: true },
+      { source: '/termocuple-si-cabluri-pentru-instrumente', destination: '/senzori-instrumentatie/senzori-temperatura', permanent: true },
+      { source: '/transmitatori-de-temperatura', destination: '/senzori-instrumentatie/senzori-temperatura', permanent: true },
+      { source: '/senzori-de-temperatura', destination: '/senzori-instrumentatie/senzori-temperatura', permanent: true },
+      { source: '/indicarea-si-controlul-temepraturii', destination: '/senzori-instrumentatie/senzori-temperatura', permanent: true },
+      { source: '/polizare-si-debitare-pferd-romania', destination: '/brand/pferd', permanent: true },
+      { source: '/fitinguri-si-accesorii', destination: '/componente-hidraulice-pneumatice/furtunuri-racorduri', permanent: true },
+      { source: '/karcher-masini-maturat-aspirat-post-conducere/:path*', destination: '/brand/karcher-industrial', permanent: true },
+      { source: '/karcher-masini-maturat-aspirat-post-conducere', destination: '/brand/karcher-industrial', permanent: true },
+      { source: '/ari-armaturen-romania', destination: '/brand/ari-armaturen', permanent: true },
+      { source: '/imbracaminte-de-protectie', destination: '/echipamente-auxiliare/protectie-munca', permanent: true },
+      { source: '/manusi-de-protectie', destination: '/echipamente-auxiliare/protectie-munca', permanent: true },
+
       // 301 redirects for the five merged brand pages (duplicate entries of the
       // same manufacturer). The losing entry was removed from its brands[] array
       // in the same commit; per owner decision 8 an indexed URL is never deleted,
