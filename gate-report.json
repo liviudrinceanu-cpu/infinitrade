@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T00:15:52.736Z",
+  "generatedAt": "2026-09-27T00:21:21.005Z",
   "batch": null,
   "target": "/home/claude/infinitrade-build",
   "summary": {
@@ -178,7 +178,7 @@
         "factsPath": "/home/claude/infinitrade-build/src/data/entityFacts.json",
         "allowListSize": 5,
         "pagesChecked": 1228,
-        "candidateSentences": 55190,
+        "candidateSentences": 55189,
         "allowListedHits": 0,
         "duplicateSentenceGroups": 51
       }

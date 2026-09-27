@@ -53,10 +53,20 @@ export async function generateMetadata({ params }) {
     const re = /(?:[,;:–—(]| - | (?=(?:pentru|folosit[eăi]?|utilizat[eăi]?|destinat[eăi]?|cu|din|de la|prin|și|sau|în|la|care|precum|inclusiv|dedicat[eăi]?) ))/g;
     let best = -1;
     for (const m of head.matchAll(re)) if (m.index <= max) best = m.index;
-    if (best >= Math.floor(max * 0.4)) return text.slice(0, best).replace(/[\s,;:–—-]+$/, '');
-    return '';
+    if (best < Math.floor(max * 0.4)) return '';
+    let out = text.slice(0, best).replace(/[\s,;:–—-]+$/, '');
+    // Drop dangling participles/function words left at the end ("… folosite").
+    const DANGLING = /\s+(?:folosit[eăi]?|utilizat[eăi]?|destinat[eăi]?|dedicat[eăi]?|pentru|cu|din|de|la|în|și|sau|prin|care|precum|inclusiv)$/i;
+    while (DANGLING.test(out)) out = out.replace(DANGLING, '');
+    return out;
   };
-  const cut = rawDesc.length <= room ? rawDesc : cutAtPhrase(rawDesc, room);
+  let cut = rawDesc.length <= room ? rawDesc : cutAtPhrase(rawDesc, room);
+  // Lower-case a common-noun opener after the colon ("…: tehnologie de…"),
+  // but keep brand names and acronyms ("…: Bimba produce…", "…: PLC-uri…").
+  const firstWord = cut.split(/\s+/)[0] || '';
+  if (/^[A-ZĂÂÎȘȚ][a-zăâîșț]+$/.test(firstWord) && !brand.name.startsWith(firstWord)) {
+    cut = cut.charAt(0).toLowerCase() + cut.slice(1);
+  }
   let description = cut ? `${lead}: ${cut}.${tail}` : `${lead}.${tail}`;
   if (description.length < 110) description += ' Ofertă pe cod de produs, la comandă sau din stoc.';
 

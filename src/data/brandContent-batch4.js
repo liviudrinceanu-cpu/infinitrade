@@ -636,7 +636,7 @@ Infinitrade distribuie soluții Donaldson pentru calitatea aerului industrial: d
     founded: 1912,
     headquarters: 'Tokyo, Japonia',
     employees: '17,000+',
-    overview: `Când auzi "pompă japoneză", unul dintre numele care poate să-ți vină în minte este Ebara. Fondată în 1912 în Tokyo, compania a devenit unul dintre marii producători mondiali de pompe și turbomașini, cunoscută pentru inginerie precisă și fiabilitate ridicată. Dacă ai văzut o stație de pompare pentru apă, canalizare sau o instalație de stingere incendii într-o clădire mare, este posibil să fie echipată cu pompe Ebara.
+    overview: `Ebara este un producător japonez de pompe. Fondată în 1912 în Tokyo, compania a devenit unul dintre marii producători mondiali de pompe și turbomașini, cunoscută pentru inginerie precisă și fiabilitate ridicată. Dacă ai văzut o stație de pompare pentru apă, canalizare sau o instalație de stingere incendii într-o clădire mare, este posibil să fie echipată cu pompe Ebara.
 
 Ce face pompele Ebara speciale? Precizia construcției și materialele premium. Unde alții folosesc fontă standard, Ebara folosește aliaje speciale rezistente la coroziune. Unde alții montează rulmenți standard, Ebara pune rulmenți supradimensionați pentru durată de viață mai mare. Materialele și construcția sunt orientate spre durată lungă de exploatare cu întreținere minimă.
 
