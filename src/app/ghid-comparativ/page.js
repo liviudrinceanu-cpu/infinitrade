@@ -10,7 +10,7 @@ import styles from './ghid-comparativ.module.css';
 
 export const metadata = {
   title: 'Ghid Comparativ Branduri Industriale',
-  description: 'Comparații între branduri: pompe Grundfos vs Wilo vs KSB, motoare Siemens vs ABB, automatizări, senzori Endress+Hauser vs WIKA vs Emerson.',
+  description: 'Ce game au Grundfos, Wilo și KSB, Siemens, ABB și SEW, ARI și Spirax Sarco, Endress+Hauser, WIKA și Emerson și cum alegeți după aplicație, nu după brand.',
   keywords: [
     'comparatie pompe industriale',
     'Grundfos vs Wilo',

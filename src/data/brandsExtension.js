@@ -12023,7 +12023,7 @@ export const BRANDS_EXTENSION = {
       "name": "Multimetrix",
       "slug": "multimetrix",
       "country": "France",
-      "description": "multimetre, cleşti ampermetrici, controlere de siguranță electrică, marcă Chauvin Arnoux",
+      "description": "multimetre, clești ampermetrici, controlere de siguranță electrică, marcă Chauvin Arnoux",
       "featured": false,
       "officialUrl": "https://www.chauvin-arnoux.com/fr/la-societe-nos-marques/multimetrix",
       "wave": "2026-09",

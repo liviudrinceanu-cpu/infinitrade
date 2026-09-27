@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T23:18:29.172Z",
+  "generatedAt": "2026-09-27T00:15:52.736Z",
   "batch": null,
   "target": "/home/claude/infinitrade-build",
   "summary": {
@@ -118,9 +118,9 @@
       "status": "needs_model",
       "type": "script-model",
       "verified": "cloud",
-      "findingCount": 13,
+      "findingCount": 12,
       "meta": {
-        "candidateCount": 13,
+        "candidateCount": 12,
         "strict": false
       }
     },
@@ -178,7 +178,7 @@
         "factsPath": "/home/claude/infinitrade-build/src/data/entityFacts.json",
         "allowListSize": 5,
         "pagesChecked": 1228,
-        "candidateSentences": 55283,
+        "candidateSentences": 55190,
         "allowListedHits": 0,
         "duplicateSentenceGroups": 51
       }
@@ -549,13 +549,6 @@
       "line": 289,
       "severity": "MAJOR",
       "message": "G8 candidate (reprezentanta): \"reprezentant\" — needs model adjudication (context may be an honest disclaimer)"
-    },
-    {
-      "gate": "G8",
-      "file": "src/data/brandContent-batch14.js",
-      "line": 1059,
-      "severity": "MAJOR",
-      "message": "G8 candidate (distribuitor-autorizat-oficial-exclusiv): \"distribuitori autorizați\" — needs model adjudication (context may be an honest disclaimer)"
     },
     {
       "gate": "G8",

@@ -193,7 +193,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
     keyProducts: [
       {
         name: 'Trape de condensat (steam traps) – toate tipurile',
-        description: `Trapele de condensat Spirax Sarco sunt referința industriei mondiale. Termodinamicele (seria TD) sunt cele mai robuste – merg și la presiuni mari, și la abur supraîncălzit, practic indestructibile. Bimetalicele (seria BM) sunt perfecte pentru aplicații unde vrei descărcare la temperaturi controlate (nu imediat ce apa se condensează). Iar trapele cu plutitor (seria FT) sunt ideale pentru debite mari de condensat – se folosesc frecvent în industria textilă și alimentară. Toate din oțel inox sau fontă de calitate, certificate pentru presiune. Le furnizăm cu racorduri filetate sau flanșate, depinde de instalație.`
+        description: `Trapele de condensat Spirax Sarco sunt folosite pe scară largă în industrie. Termodinamicele (seria TD) sunt robuste – merg și la presiuni mari, și la abur supraîncălzit. Bimetalicele (seria BM) sunt potrivite pentru aplicații unde vrei descărcare la temperaturi controlate (nu imediat ce apa se condensează). Iar trapele cu plutitor (seria FT) sunt potrivite pentru debite mari de condensat – se folosesc frecvent în industria textilă și alimentară. Toate din oțel inox sau fontă de calitate, certificate pentru presiune. Le furnizăm cu racorduri filetate sau flanșate, depinde de instalație.`
       },
       {
         name: 'Supape de reglare presiune și temperatură',
@@ -201,11 +201,11 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         name: 'Separatoare de condensat și filtre pentru abur',
-        description: `Separatoarele Spirax Sarco (seria Spiratec, Hurricane) elimină picăturile de condensat din linia de abur înainte să ajungă la echipament. De ce e important? Pentru că aburul umed lovește paletele turbinelor sau suprafețele de încălzire și face eroziune. Un separator bun crește eficiența transferului termic cu 15-20% și prelungește viața echipamentului. Filtrele (seria DSC, Strainer) elimină particulele solide (rugină, sare) din abur – se montează de regulă înaintea supapelor de reglare sau a echipamentelor sensibile. Curățarea e simplă, au coș demontabil.`
+        description: `Separatoarele Spirax Sarco (seria Spiratec, Hurricane) elimină picăturile de condensat din linia de abur înainte să ajungă la echipament. De ce e important? Pentru că aburul umed lovește paletele turbinelor sau suprafețele de încălzire și face eroziune. Un separator bun crește eficiența transferului termic și prelungește viața echipamentului. Filtrele (seria DSC, Strainer) elimină particulele solide (rugină, sare) din abur – se montează de regulă înaintea supapelor de reglare sau a echipamentelor sensibile. Curățarea e simplă, au coș demontabil.`
       },
       {
         name: 'Sisteme de recuperare și pompare condensat',
-        description: `Condensatul care iese din trape e apă fiartă perfect curată la 90-100°C. Dacă îl arunci, pierzi și apa (tratată chimic, costisitoare) și energia termică. Sistemele Spirax Sarco de recuperare (rezervoare, pompe mecanice seria MFP, pompe electrice seria CEMS) returnează condensatul la cazan. Conform producătorului, economia poate fi semnificativă la un sistem de abur de dimensiuni medii, doar din recuperarea condensatului. Pompele mecanice (acționate de abur, fără electricitate) sunt potrivite pentru locații explozive sau unde nu există curent electric disponibil - se folosesc frecvent în industria chimică.`
+        description: `Condensatul care iese din trape e apă fierbinte, curată, la 90-100°C. Dacă îl arunci, pierzi și apa (tratată chimic, costisitoare) și energia termică. Sistemele Spirax Sarco de recuperare (rezervoare, pompe mecanice seria MFP, pompe electrice seria CEMS) returnează condensatul la cazan. Conform producătorului, economia poate fi semnificativă la un sistem de abur de dimensiuni medii, doar din recuperarea condensatului. Pompele mecanice (acționate de abur, fără electricitate) sunt potrivite pentru locații explozive sau unde nu există curent electric disponibil - se folosesc frecvent în industria chimică.`
       }
     ],
     certifications: [
@@ -341,7 +341,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
     keyProducts: [
       {
         name: 'Supape cu glob (globe valves) – control și închidere',
-        description: `Supapele cu glob ARI sunt mașinării de precizie pentru controlul debitului în instalații industriale. Seria Stevi (cu ștuț drept) e perfectă pentru reglare fină în linii de vapori, apă fierbinte, condensat. Seria Faba (unghi drept) o folosim când ai schimbări de direcție – economisești coturi și reduci pierderile de presiune. Corpuri din oțel carbon, oțel inox (304, 316, 316L), fontă nodulară sau aliaje speciale (Hastelloy, Monel) pentru medii super agresive. Toate cu garnituri PTFE sau grafit, certificate pentru temperaturi până 450°C și presiuni până PN160. Le furnizăm cu actuatori manuali, pneumatici sau electrici.`
+        description: `Supapele cu glob ARI sunt mașinării de precizie pentru controlul debitului în instalații industriale. Seria Stevi (cu ștuț drept) este potrivită pentru reglare fină în linii de vapori, apă fierbinte, condensat. Seria Faba (unghi drept) o folosim când ai schimbări de direcție – economisești coturi și reduci pierderile de presiune. Corpuri din oțel carbon, oțel inox (304, 316, 316L), fontă nodulară sau aliaje speciale (Hastelloy, Monel) pentru medii super agresive. Toate cu garnituri PTFE sau grafit, certificate pentru temperaturi până 450°C și presiuni până PN160. Le furnizăm cu actuatori manuali, pneumatici sau electrici.`
       },
       {
         name: 'Supape de siguranță (safety relief valves)',
@@ -500,7 +500,7 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
     keyProducts: [
       {
         name: 'Schimbătoare de căldură cu plăci gasketed (demontabile)',
-        description: `Seria Alfa Laval M (M3, M6, M10, M15, M20) sunt cameleonii industriei – se adaptează la orice aplicație. Plăcile din inox presate într-un tipar special creează turbulență mare în fluidele care circulă între ele, maximizând transferul termic. Garniturile (EPDM, NBR, FKM) se schimbă ușor când e nevoie. Se folosesc frecvent în pasteurizare lapte (perechi de plăci pentru încălzire + răcire regenerativă), răcire apă proces cu turnuri de răcire, încălzire glicol pentru sisteme de dezgheț. Fiecare schimbător vine cu certificat de presiune (PED), instrucțiuni de asamblare, piese de schimb disponibile local. Le furnizăm de la 0.1 m² (mini-aplicații) până la 1500 m² (industrii mari).`
+        description: `Seria Alfa Laval M (M3, M6, M10, M15, M20) sunt adaptabile la o gamă largă de aplicații. Plăcile din inox presate într-un tipar special creează turbulență mare în fluidele care circulă între ele, maximizând transferul termic. Garniturile (EPDM, NBR, FKM) se schimbă ușor când e nevoie. Se folosesc frecvent în pasteurizare lapte (perechi de plăci pentru încălzire + răcire regenerativă), răcire apă proces cu turnuri de răcire, încălzire glicol pentru sisteme de dezgheț. Fiecare schimbător vine cu certificat de presiune (PED), instrucțiuni de asamblare, piese de schimb disponibile local. Le furnizăm de la 0.1 m² (mini-aplicații) până la 1500 m² (industrii mari).`
       },
       {
         name: 'Schimbătoare de căldură brazate (compact, fără garnituri)',
@@ -508,11 +508,11 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
       },
       {
         name: 'Schimbătoare toate-sudate (pentru presiuni mari și medii agresive)',
-        description: `Când ai presiuni de 40-100 bar sau fluide super corosive (acizi concentrați, săruri topiți, solvenți organici fierbinți), schimbătoarele gasketed nu mai sunt opțiune. Seria Alfa Laval Compabloc (toate-sudate, plăci + cadru sudat laser) rezolvă problema. Construcție 100% inox 316L sau aliaje speciale (titanium, Hastelloy), fără garnituri, etanșeitate perfectă. Se folosesc frecvent în rafinării (preîncălzire crude oil), fabrici chimice (răcitoare reactoare sub presiune), centrale electrice (recuperare căldură gaze eșapament). Costă mai mult decât variantele gasketed, dar pentru aplicații critice reprezintă adesea singura opțiune tehnică potrivită.`
+        description: `Când ai presiuni de 40-100 bar sau fluide super corosive (acizi concentrați, săruri topiți, solvenți organici fierbinți), schimbătoarele gasketed nu mai sunt opțiune. Seria Alfa Laval Compabloc (toate-sudate, plăci + cadru sudat laser) rezolvă problema. Construcție 100% inox 316L sau aliaje speciale (titanium, Hastelloy), fără garnituri, etanșeitate ridicată. Se folosesc frecvent în rafinării (preîncălzire crude oil), fabrici chimice (răcitoare reactoare sub presiune), centrale electrice (recuperare căldură gaze eșapament). Costă mai mult decât variantele gasketed, dar pentru aplicații critice reprezintă adesea singura opțiune tehnică potrivită.`
       },
       {
         name: 'Separatoare centrifugale pentru lichide',
-        description: `Separatoarele Alfa Laval (disc stack separators) folosesc forță centrifugă de până 10,000 G pentru a separa lichide de densități diferite sau solide de lichide. În industria alimentară: separare smântână din lapte, clarificare suc de fructe, separare uleiuri vegetale. În industria petrochimică: separare apă din combustibili, purificare uleiuri lubrifiate, tratare slop oil. În naval: separare apă bilge, purificare combustibil naval. Capacități de la 100 litri/oră (lab) până la 100,000 litri/oră (fabrici mari). Separarea e continuă, automată, cu eficiență ridicată – obții produse finale ultra-pure. Le furnizăm cu sisteme de curățare automată (self-cleaning) pentru că ai solide.`
+        description: `Separatoarele Alfa Laval (disc stack separators) folosesc forță centrifugă de până 10,000 G pentru a separa lichide de densități diferite sau solide de lichide. În industria alimentară: separare smântână din lapte, clarificare suc de fructe, separare uleiuri vegetale. În industria petrochimică: separare apă din combustibili, purificare uleiuri lubrifiate, tratare slop oil. În naval: separare apă bilge, purificare combustibil naval. Capacități de la 100 litri/oră (lab) până la 100,000 litri/oră (fabrici mari). Separarea e continuă, automată, cu eficiență ridicată – obții produse finale de puritate ridicată. Le furnizăm cu sisteme de curățare automată (self-cleaning) pentru că ai solide.`
       }
     ],
     certifications: [
@@ -643,24 +643,24 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
     founded: 1917,
     headquarters: 'Mayfield Heights, Ohio, SUA',
     employees: '~55,000',
-    overview: `Parker Hannifin e unul dintre cei mai mari producători diversificați din lume în domeniul hidraulicii, pneumaticii, electromecanicii și filtrării. Fondată în 1917 de Arthur Parker în Cleveland (Ohio), a crescut organic și prin achiziții strategice până a devenit o corporație de peste 55,000 de angajați prezentă în toate sectoarele industriale majore: aerospace, automotive, construcții, agricultură, industrie, naval, oil & gas. Când spui "Parker", orice inginer din lume știe despre ce e vorba – calitate americană, inovație continuă, disponibilitate globală.
+    overview: `Parker Hannifin e unul dintre marii producători diversificați din lume în domeniul hidraulicii, pneumaticii, electromecanicii și filtrării. Fondată în 1917 de Arthur Parker în Cleveland (Ohio), a crescut organic și prin achiziții strategice până a devenit o corporație de peste 55,000 de angajați prezentă în toate sectoarele industriale majore: aerospace, automotive, construcții, agricultură, industrie, naval, oil & gas. Parker este cunoscut în industrie pentru gama largă de produse și prezența globală.
 
 Distribuim produse Parker în România – de la componente hidraulice simple (furtunuri, fitinguri, distribuitoare) până la sisteme integrate complexe (unități hidraulice complete pentru utilaje industriale, sisteme de filtrare pentru centrale electrice). Un argument recurent pentru Parker este consistența calității - conform producătorului, un cilindru Parker fabricat în SUA, Germania sau China respectă aceleași standarde globale.
 
 Produsele Parker se folosesc frecvent în toate industriile: în agricultură (cilindri hidraulici pentru combine, tractoare, utilaje agricole), în construcții (sisteme hidraulice pentru excavatoare, macarale, platforme elevatoare), în industria auto (filtre hidraulice, pneumatice, componente frână), în oil & gas (furtunuri înaltă presiune, fitinguri pentru drilling), în producția industrială (sisteme pneumatice pentru automatizare, distribuitoare, cilindri). Durabilitatea componentelor hidraulice Parker, cu mentenanță periodică a garniturilor, este documentată de producător pe perioade lungi de utilizare.
 
-Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne concentrăm pe ceea ce se cere cel mai mult în România: cilindri hidraulici (standard și custom), pompe hidraulice (cu piston, cu palete, cu roți dințate), distribuitoare hidraulice (secționale pentru utilaje mobile, monoblock pentru mașini staționare), furtunuri și fitinguri (joasă până înaltă presiune), filtre (hidraulice, pneumatice, pentru procese), componente pneumatice (cilindri, distribuitoare, FRL-uri). Pentru aplicații speciale (aerospace, sisteme cu presiuni extreme peste 500 bar, temperaturi criogenice) coordonăm cu diviziile specializate Parker – au expertiza pentru orice.`,
+Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentrăm pe ceea ce se cere cel mai mult în România: cilindri hidraulici (standard și custom), pompe hidraulice (cu piston, cu palete, cu roți dințate), distribuitoare hidraulice (secționale pentru utilaje mobile, monoblock pentru mașini staționare), furtunuri și fitinguri (joasă până înaltă presiune), filtre (hidraulice, pneumatice, pentru procese), componente pneumatice (cilindri, distribuitoare, FRL-uri). Pentru aplicații speciale (aerospace, sisteme cu presiuni extreme peste 500 bar, temperaturi criogenice) coordonăm cu diviziile specializate Parker pentru aceste cerințe.`,
     whyChoose: [
-      'Producător global de top în tehnologii de mișcare și control – 100+ ani de activitate',
+      'Producător global în tehnologii de mișcare și control – 100+ ani de activitate',
       'Gamă completă: hidraulică, pneumatică, electromecanică, filtrare – totul de la un brand',
       'Calitate globală consistentă – standarde identice în toate fabricile din lume',
-      'Disponibilitate excepțională – peste 13,000 de distribuitori și service centers global',
+      'Disponibilitate largă – peste 13,000 de distribuitori și service centers la nivel global',
       'Furnizăm în România prin aprovizionare din UE la produse standard + acces la gama completă Parker'
     ],
     keyProducts: [
       {
         name: 'Cilindri hidraulici (standard și custom)',
-        description: `Cilindrii Parker (seria P1, seria 2H, seria 3L, seria Mill) acoperă toate aplicațiile posibile: de la mini-cilindri de 25 mm pentru automatizări până la cilindri uriași de 500 mm pentru prese industriale. Construcție: țeavă fără sudură, tijă cromată și șlefuită, garnituri Parker (poliuretan sau NBR, depinde de aplicație). Presiuni de lucru până 350 bar (seria 3L heavy-duty). Le furnizăm în configurații standard (șurub cap-față, șurub cap-spate, pivot cap, flange) sau custom (lungimi speciale, montaje speciale, senzori poziție integrați). Pentru utilaje mobile (excavatoare, macarale, platforme), seria 2H e perfectă – compactă, robustă, garnituri rezistente la murdărie.`
+        description: `Cilindrii Parker (seria P1, seria 2H, seria 3L, seria Mill) acoperă o gamă largă de aplicații: de la mini-cilindri de 25 mm pentru automatizări până la cilindri de mari dimensiuni, de 500 mm, pentru prese industriale. Construcție: țeavă fără sudură, tijă cromată și șlefuită, garnituri Parker (poliuretan sau NBR, depinde de aplicație). Presiuni de lucru până 350 bar (seria 3L heavy-duty). Le furnizăm în configurații standard (șurub cap-față, șurub cap-spate, pivot cap, flange) sau custom (lungimi speciale, montaje speciale, senzori poziție integrați). Pentru utilaje mobile (excavatoare, macarale, platforme), seria 2H este potrivită – compactă, robustă, garnituri rezistente la murdărie.`
       },
       {
         name: 'Pompe hidraulice (piston, palete, roți dințate)',
@@ -672,11 +672,11 @@ Gama Parker e imensă – literalmente zeci de mii de produse – dar noi ne con
       },
       {
         name: 'Furtunuri și fitinguri hidraulice (toate presiunile)',
-        description: `Gama Parker de furtunuri e cea mai completă din industrie: de la furtunuri joasă presiune pentru returnuri (seria 501, presiune max 25 bar) până la furtunuri spiralate 6-fire pentru presiuni extreme (seria 387, presiune lucru 420 bar, presiune rupere 1680 bar). Fitingurile Parker (seria 43, seria Bite-type, seria Parflex) asigură etanșare perfectă fără scurgeri. Le furnizăm fie componentele separat (furtun la metru + fitinguri), fie asamblate complet (furtunuri presate la lungimi exacte cu fitinguri montate – testate la 1.5× presiunea de lucru). Pentru oil & gas și aplicații critice, seria Tough Cover rezistă la abraziune extremă, ozon, UV.`
+        description: `Gama Parker de furtunuri e cea mai completă din industrie: de la furtunuri joasă presiune pentru returnuri (seria 501, presiune max 25 bar) până la furtunuri spiralate 6-fire pentru presiuni extreme (seria 387, presiune lucru 420 bar, presiune rupere 1680 bar). Fitingurile Parker (seria 43, seria Bite-type, seria Parflex) asigură etanșare fiabilă fără scurgeri. Le furnizăm fie componentele separat (furtun la metru + fitinguri), fie asamblate complet (furtunuri presate la lungimi exacte cu fitinguri montate – testate la 1.5× presiunea de lucru). Pentru oil & gas și aplicații critice, seria Tough Cover rezistă la abraziune extremă, ozon, UV.`
       },
       {
         name: 'Filtre hidraulice și pneumatice',
-        description: `Filtrarea e esențială pentru durabilitatea sistemelor hidraulice – 70-80% din defecțiunile hidraulice sunt cauzate de contaminare cu particule. Parker produce toate tipurile de filtre: filtre de presiune (inline, pe ducta de presiune), filtre de retur (pe linia de return la rezervor – cele mai comune), filtre de aspirație (la intrarea pompei), filtre de ventilație rezervor (elimină particulele din aerul care intră când nivel scade), filtre off-line (bypass filtration pentru curățare continuă ulei). Gradele de filtrație de la 3 microni (super-fin pentru servo-valve) până la 25 microni (standard pentru cilindri). Furnizăm și filtre pneumatice (coalescente pentru aer comprimat – elimină apă și ulei până la 0.01 microni).`
+        description: `Filtrarea e esențială pentru durabilitatea sistemelor hidraulice – contaminarea cu particule este una dintre principalele cauze de defecțiune. Parker produce toate tipurile de filtre: filtre de presiune (inline, pe ducta de presiune), filtre de retur (pe linia de return la rezervor – cele mai comune), filtre de aspirație (la intrarea pompei), filtre de ventilație rezervor (elimină particulele din aerul care intră când nivel scade), filtre off-line (bypass filtration pentru curățare continuă ulei). Gradele de filtrație de la 3 microni (super-fin pentru servo-valve) până la 25 microni (standard pentru cilindri). Furnizăm și filtre pneumatice (coalescente pentru aer comprimat – elimină apă și ulei până la 0.01 microni).`
       }
     ],
     certifications: [

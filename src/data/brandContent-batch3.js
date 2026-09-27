@@ -14,7 +14,7 @@ Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Fur
       'Experiență de peste 220 ani în tehnologie hidraulică și mecanică de precizie',
       'Integrare Industry 4.0 cu IoT și mentenanță predictivă pentru întreaga gamă',
       'Suport tehnic local în România cu ingineri certificați pentru diagnosticare și mentenanță',
-      'Eficiență energetică superioară — până la 30% economie la consum față de sisteme clasice'
+      'Eficiență energetică ridicată în comparație cu sistemele hidraulice clasice'
     ],
     keyProducts: [
       {
@@ -31,7 +31,7 @@ Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Fur
       },
       {
         name: 'Sisteme de Mișcare Liniară',
-        description: 'Ghidaje liniare cu bile, șuruburi cu bile, actuatoare electro-mecanice. Precizie repetabilitate ±0.01mm, viteze până la 5 m/s. Soluția ideală pentru mașini-unelte CNC și linii de asamblare automatizate.'
+        description: 'Ghidaje liniare cu bile, șuruburi cu bile, actuatoare electro-mecanice. Precizie repetabilitate ±0.01mm, viteze până la 5 m/s. Potrivite pentru mașini-unelte CNC și linii de asamblare automatizate.'
       }
     ],
     certifications: [
@@ -178,8 +178,8 @@ Inovația este parte din strategia Festo - departamentul "Bionic Learning Networ
 Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de la miniaturale 6mm până la curse de 2000mm), supape (clasice, proporționale, servo-pneumatice), unități de pregătire aer, grippere pentru robotică, actuatoare electrice, servomotoare, controllere CPX-E și CPA. Tot ce ai nevoie pentru o linie de producție automatizată modernă.`,
     whyChoose: [
       'Gamă largă în pneumatică, cu peste 30.000 de variante de cilindri și supape catalogate',
-      'Integrare perfectă sisteme pneumatice + electrice pentru automatizare completă',
-      'Program de training Didactic — cei mai buni ingineri se formează cu echipamente Festo',
+      'Integrare sisteme pneumatice și electrice pentru automatizare completă',
+      'Program de training Festo Didactic pentru formarea inginerilor în automatizare',
       'Configuratoare online și software de proiectare FluidSim pentru simulare sisteme complete'
     ],
     keyProducts: [
@@ -189,7 +189,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         name: 'Supape și Terminale CPV, MPA, VUVG',
-        description: 'Supape bistabile economice, proporționale pentru control debit/presiune, terminale cu IO-Link și diagnosticare. Configurare online și comandă directă din FluidSim. Reducere consum de aer cu până la 50% față de supape clasice.'
+        description: 'Supape bistabile economice, proporționale pentru control debit/presiune, terminale cu IO-Link și diagnosticare. Configurare online și comandă directă din FluidSim. Pot reduce consumul de aer față de supapele clasice, conform producătorului.'
       },
       {
         name: 'Grippere și Actuatoare Electrice EGSL, ELGA, EMMT',
@@ -197,7 +197,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         name: 'Sisteme de Pregătire Aer MS, LF, VPPM',
-        description: 'Filtre, reductoare presiune, lubrifiere, uscătoare membrane. Debitare proporțională cu senzori de debit și presiune integrați. Monitorizare stare filtru și alertă schimb — zero opriri neplanificate.'
+        description: 'Filtre, reductoare presiune, lubrifiere, uscătoare membrane. Debitare proporțională cu senzori de debit și presiune integrați. Monitorizare stare filtru și alertă la schimb, pentru reducerea riscului de opriri neplanificate.'
       }
     ],
     certifications: [
@@ -362,7 +362,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
     employees: '40,000+',
     overview: `SKF înseamnă rulmenți de încredere de peste 115 ani. Compania suedeză fondată în 1907 la Göteborg este unul dintre cei mai mari producători de rulmenți cu bile și role la nivel global — peste 1 miliard de rulmenți fabricați anual. Dar SKF a evoluat mult dincolo de rulmenți simpli. Astăzi vorbim de soluții complete de mentenanță predictivă, sisteme de lubrifiere automată, etanșări de înaltă performanță, case de rulmenți, sisteme de aliniere arbori.
 
-Ce ne place la SKF? Că au înțeles înaintea altora importanța digitalizării în mentenanță. Clienții ne întreabă des: "De ce să investesc în senzori SKF când pot schimba rulmentul când se strică?" Răspunsul e simplu: un rulment defect la un ventilator de la cimentară poate opri întreaga instalație. Costul unei opriri neplanificate — 50,000 EUR pe zi. Un senzor de vibrații SKF IMx-1 costă 800 EUR și te anunță cu 2-3 săptămâni înainte că rulmentul se degradează. Poți planifica schimbarea la revizie, nu la 3 dimineața când s-a blocat.
+Un punct forte al SKF este digitalizarea mentenanței: un rulment defect la un ventilator industrial poate opri întreaga instalație, iar o oprire neplanificată are un cost operațional ridicat. Un senzor de vibrații din gama SKF IMx poate semnala din timp degradarea unui rulment, ceea ce permite planificarea înlocuirii în cadrul unei revizii programate, în loc de o intervenție de urgență.
 
 Rulmenții SKF se folosesc frecvent în energie (turbine eoliene, hidrocentrale), minerit (concasoare, benzi transportoare), ciment (mori, ventilatoare), siderurgie (laminoare, macarale). Diferența față de alternativele mai ieftine se vede în MTBF (Mean Time Between Failures) — un rulment de calitate superioară costă mai mult inițial, dar poate funcționa ani buni în condiții extreme de praf și umiditate, conform documentației producătorului.
 
@@ -388,7 +388,7 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
       },
       {
         name: 'Sisteme Monitorizare și Lubrifiere Automată',
-        description: 'Senzori vibrații wireless IMx-1, IMx-8, platformă cloud SKF Enlight pentru mentenanță predictivă. Sisteme lubrifiere centralizată Lincoln cu controlere PLC. Reducere costuri mentenanță cu 30-40%, creștere uptime cu 15-20%. Instalare și training incluse.'
+        description: 'Senzori vibrații wireless IMx-1, IMx-8, platformă cloud SKF Enlight pentru mentenanță predictivă. Sisteme lubrifiere centralizată Lincoln cu controlere PLC. Poate reduce costurile de mentenanță și crește uptime-ul echipamentelor, conform producătorului. Instalare și training incluse.'
       }
     ],
     certifications: [
@@ -489,13 +489,13 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
     founded: 1953,
     headquarters: 'Reinach, Elveția',
     employees: '16,000+',
-    overview: `Când vine vorba de măsurare de proces în industrie, Endress+Hauser e standardul de aur. Compania elvețiană fondată în 1953 s-a transformat într-o companie cu prezență globală, cu 16,000 de angajați și prezență în peste 100 de țări. Ce face diferența? Precizia elvețiană aplicată în condiții industriale extreme — de la criogenie -196°C la temperaturi de topire 1800°C, de la vid absolut la presiuni de 2000 bar.
+    overview: `Endress+Hauser este un reper în măsurarea de proces industrial. Compania elvețiană fondată în 1953 s-a transformat într-o companie cu prezență globală, cu 16,000 de angajați și prezență în peste 100 de țări. Ce face diferența? Precizia elvețiană aplicată în condiții industriale extreme — de la criogenie -196°C la temperaturi de topire 1800°C, de la vid absolut la presiuni de 2000 bar.
 
 Un senzor "generic" care dă date eronate poate costa scump: în industria chimică sau farmaceutică, o măsurare greșită de pH poate distruge un batch întreg de produs. Un transmițător Endress+Hauser cu calibrare certificată și compensare automată temperatură costă mai mult, dar reduce semnificativ acest risc. Senzorii de nivel radar din seria FMR se folosesc frecvent la rafinării, unde funcționează fără recalibrare frecventă, în condiții de vapori agresivi și temperaturi variabile, conform documentației producătorului.
 
 Gama de produse acoperă tot ce înseamnă măsurare în procesul industrial. Nivel: radar ghidat, radar fără contact, ultrasonic, capacitiv, hidrostatatic, magnetostrictiv. Debit: electromagnetic, vortex, Coriolis, termic, ultrasonic clamp-on. Presiune: absolute, relative, diferențiale, cu membrana separatoare pentru fluide agresive. Temperatură: termocuple, PT100/PT1000, transmițători montare cap sau direct. Analiză: pH, conductivitate, oxigen dizolvat, turbiditate, spectroscopie NIR.
 
-Technologia Heartbeat e un game-changer. E un sistem de auto-diagnosticare care verifică constant senzorul și te anunță când trebuie calibrare sau întreținere. În industriile cu cerințe stricte de certificare (farma, alimentar), poți face calibrare certificată la fața locului fără să scoți senzorul din proces — economie imensă de timp și costuri.`,
+Tehnologia Heartbeat este un sistem de auto-diagnosticare care verifică constant senzorul și semnalează când este nevoie de calibrare sau întreținere. În industriile cu cerințe stricte de certificare (farma, alimentar), calibrarea certificată se poate face la fața locului fără scoaterea senzorului din proces, ceea ce poate reduce timpul și costurile de mentenanță, conform producătorului.`,
     whyChoose: [
       'Precizie elvețiană certificată — erori sub ±0.05% pentru majoritatea senzoilor',
       'Tehnologie Heartbeat pentru diagnosticare continuă și calibrare în proces',
@@ -676,9 +676,9 @@ Technologia Heartbeat e un game-changer. E un sistem de auto-diagnosticare care 
     employees: '11,000+',
     overview: `WIKA e un nume pe care îl vezi peste tot în industrie — de la manometre simple pe compresoare până la transmițători de presiune în centrale nucleare. Fondată în 1946 în Germania, compania s-a specializat pe măsurare presiune, temperatură, nivel, debit și calibrare. Cu 11,000 de angajați și 50 de filiale globale, WIKA e unul dintre principalii producători independenți de instrumente de măsurare. De ce independent contează? Pentru că nu sunt legați de un ecosistem specific de automatizare — produsele WIKA funcționează cu orice PLC, DCS sau SCADA.
 
-Ce ne place la WIKA? Varietatea imensă. Catalogul lor are peste 50,000 de variante de produse — de la manometre mecanice cu filet 1/4" până la transmițători digitale wireless cu protocol LoRaWAN. Orice aplicație îți trece prin cap, WIKA are soluția. Avem un client în industria cimentului care folosește peste 300 de instrumente WIKA — manometre pe compresoare, transmițători pe filtre, termometre pe cuptoare. Toate cumpărate de la noi în ultimii 10 ani, toate încă funcționează.
+Un punct forte al WIKA este varietatea catalogului. Acesta are peste 50,000 de variante de produse — de la manometre mecanice cu filet 1/4" până la transmițători digitale wireless cu protocol LoRaWAN, acoperind o gamă largă de aplicații industriale.
 
-Precizia e obsesia WIKA. Au propriul laborator de calibrare acreditat DKD/DAkkS în Germania, cu standarde de referință naționale. Pentru aplicații critice în nuclear, aero-spațial, farma, oferim certificate de calibrare trасabile la standarde naționale — cerință legală în multe industrii. Am furnizat transmițători WIKA CPT6000 pentru o centrală nucleară — fiecare senzor vine cu certificat individual de calibrare, documentație completă de trasabilitate, garție extinsă 10 ani.
+Precizia este un domeniu central pentru WIKA, care are propriul laborator de calibrare acreditat DKD/DAkkS în Germania, cu standarde de referință naționale. Pentru aplicații critice în nuclear, aero-spațial, farma, sunt disponibile certificate de calibrare trasabile la standarde naționale — cerință legală în multe industrii; fiecare senzor poate veni cu certificat individual de calibrare și documentație de trasabilitate, conform producătorului.
 
 Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerină, cu membrana separatoare), transmițători presiune (absolute, relative, diferențiale, cu celulă ceramică sau metal), termometre (mecanice bimetalice, digitale, cu termorezistență PT100, cu termocuplu), senzori nivel (hidrostatici, ultrasonic, radar), debitmetru (rotametru, turbină, vortex), accesorii (valve, separatoare, sifonuri, racorduri).`,
     whyChoose: [
