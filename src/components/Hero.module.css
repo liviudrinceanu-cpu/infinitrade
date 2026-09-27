@@ -80,7 +80,9 @@
 
 /* CSS Animation for content wrapper */
 .contentAnimate {
-  animation: contentSlideUp 0.4s ease-out forwards;
+  /* v23: no entrance animation on first-screen text — an element that starts
+     at opacity 0 only counts for LCP once visible (was 3,0 s on mobile). */
+  animation: none;
 }
 
 @keyframes contentSlideUp {
@@ -110,7 +112,7 @@
 }
 
 .badgeAnimate {
-  animation: badgeScale 0.3s ease-out 0.05s both;
+  animation: none;
 }
 
 @keyframes badgeScale {
@@ -149,7 +151,7 @@
 
 /* LCP-optimized headline animation - CSS only, no JS blocking */
 .headlineAnimate {
-  animation: slideUp 0.4s ease-out 0.1s both;
+  animation: none;
 }
 
 @keyframes slideUp {
@@ -180,7 +182,7 @@
 }
 
 .subheadlineAnimate {
-  animation: slideUp 0.4s ease-out 0.15s both;
+  animation: none;
 }
 
 /* CTAs */
@@ -191,7 +193,7 @@
 }
 
 .ctasAnimate {
-  animation: slideUp 0.4s ease-out 0.2s both;
+  animation: none;
 }
 
 .ctaPrimary {
@@ -243,7 +245,7 @@
 }
 
 .statsAnimate {
-  animation: fadeIn 0.4s ease-out 0.3s both;
+  animation: none;
 }
 
 @keyframes fadeIn {
@@ -564,15 +566,6 @@
     background: var(--gradient-hero);
   }
 
-  /* Simplify animations for better performance */
-  .contentAnimate,
-  .badgeAnimate,
-  .headlineAnimate,
-  .subheadlineAnimate,
-  .ctasAnimate,
-  .statsAnimate {
-    animation-duration: 0.2s;
-  }
 }
 
 /* Reduced motion preference - accessibility + performance */
