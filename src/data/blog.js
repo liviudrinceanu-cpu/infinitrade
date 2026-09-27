@@ -1,1454 +1,1259 @@
 // Blog articles data for Infinitrade Romania
 // Technical content for industrial equipment professionals
-// Last updated: 2026-01-22 - Added dateModified and authorId for E-E-A-T SEO
+// Last updated: 2026-09-27 - articles 1–15 rewritten (v25): no anecdotes or unsourced figures, diacritics, EUR-Lex sources
 
 export const blogArticles = [
   {
     id: 1,
     slug: 'ghid-selectare-pompa-industriala',
-    title: 'Cum Alegi Pompa Industriala Potrivita: Lectii din 15 Ani de Experienta',
-    shortTitle: 'Ghid Selectare Pompe Industriale',
-    excerpt: 'Am ajutat sute de clienti sa aleaga pompe industriale. Iata ce am invatat despre debit, presiune, NPSH si de ce dimensionarea gresita costa mult.',
+    title: "Cum alegeți pompa industrială potrivită: debit, presiune, NPSH",
+    shortTitle: "Ghid selecție pompă industrială",
+    excerpt: "Selectarea unei pompe industriale depinde de debit, presiune, marja NPSH și materialul compatibil cu fluidul pompat. Ghid practic de dimensionare.",
     howToSteps: [
-      { name: 'Identifică fluidul', text: 'Determină ce pompezi: apă curată, chimicale, fluide vâscoase. Fiecare situație cere alt tip de pompă.' },
-      { name: 'Calculează debitul', text: 'Calculează debitul necesar în m³/h bazat pe procesul real. Adaugă maxim 10-15% rezervă.' },
-      { name: 'Verifică presiunea', text: 'Calculează pierderile din conducte, diferența de nivel și presiunea necesară la utilizare.' },
-      { name: 'Verifică NPSH', text: 'Asigură-te că NPSH disponibil este mai mare decât NPSH necesar plus minimum 0.5m marjă.' },
-      { name: 'Selectează materialele', text: 'Alege materialele potrivite: fontă pentru apă standard, inox 316L pentru industria alimentară, bronze pentru aplicații marine.' },
-      { name: 'Solicită dimensionare', text: 'Trimite parametrii procesului la Infinitrade pentru dimensionare gratuită și recomandare în 24 ore.' },
+      { name: "Identificați fluidul", text: "Determinați ce fluid este pompat: apă curată, apă cu particule, fluide vâscoase sau chimicale. Fiecare categorie impune un tip diferit de pompă și de materiale." },
+      { name: "Calculați debitul", text: "Stabiliți debitul necesar în m³/h pe baza procesului real, cu o rezervă moderată de proiectare." },
+      { name: "Verificați presiunea necesară", text: "Calculați pierderile din conducte, diferența de nivel și presiunea necesară la punctul de utilizare." },
+      { name: "Verificați NPSH", text: "Asigurați-vă că NPSH disponibil în instalație depășește NPSH necesar al pompei, cu o marjă uzuală de minimum 0,5 m." },
+      { name: "Selectați materialele", text: "Alegeți materialele în funcție de fluid: fontă pentru apă standard, inox 316L pentru industria alimentară, bronz pentru aplicații marine." },
+      { name: "Solicitați dimensionarea", text: "Transmiteți parametrii procesului pentru dimensionarea corectă a pompei și pentru recomandarea unui model potrivit." },
     ],
     content: `
-Am vazut de multe ori aceeasi greseala: un client comanda o pompa "mai mare, sa fie sigur". Dupa 6 luni, pompele supradimensionate consuma cu 30% mai multa energie si se uzeaza prematur din cauza functionarii in afara punctului optim.
+Alegerea pompei industriale potrivite pornește de la patru parametri: fluidul pompat, debitul necesar, presiunea (înălțimea de pompare) și marja NPSH față de instalație. Materialul componentelor umede se stabilește în funcție de compatibilitatea chimică și de temperatura de lucru. Abia după clarificarea acestor date se pot compara ofertele tehnice.
 
-Asa ca am decis sa pun pe hartie tot ce am invatat in 15 ani despre selectarea [pompelor industriale](/pompe-industriale).
+## Ce date sunt necesare înainte de a alege o pompă
 
-## De unde incepi?
+**Ce fluid este pompat?** Apă curată, apă cu particule în suspensie, fluide vâscoase sau chimicale agresive — fiecare categorie impune un alt tip constructiv și alte materiale de execuție.
 
-Inainte de orice catalog sau oferta, ai nevoie de raspunsuri la cateva intrebari:
+**Ce debit este necesar?** Debitul, exprimat în m³/h, se calculează pe baza procesului real, cu o rezervă moderată de proiectare. O rezervă excesivă duce la funcționarea permanentă în afara punctului optim al pompei, cu uzură și consum mai mari.
 
-**Ce pompezi?** Apa curata, apa cu particule, fluide vascoase, chimicale agresive? Fiecare situatie cere alt tip de pompa si alte materiale.
+**Ce presiune este necesară?** Aici intră pierderile de sarcină din conductă, diferența de nivel geodezic și presiunea necesară la punctul de utilizare. Dacă schema instalației nu este clară, ea trebuie transmisă furnizorului pentru calcul.
 
-**Cat de mult?** Debitul necesar in m³/h. Nu ghici - calculeaza pe baza procesului real. Si nu adauga "rezerva" de 50% cum fac unii. Maxim 10-15% e suficient.
+## NPSH: marja de siguranță la aspirație
 
-**La ce inaltime/presiune?** Aici intra pierderile din conducte, diferenta de nivel si presiunea necesara la utilizare. Formulele le gasesti in orice manual, dar daca nu esti sigur, trimite-ne schema instalatiei.
+NPSH (Net Positive Suction Head) reprezintă presiunea disponibilă la aspirația pompei, necesară pentru a evita cavitația. Regula de dimensionare este simplă: NPSH disponibil (calculat pentru instalație) trebuie să fie mai mare decât NPSH necesar (specificat de producătorul pompei), cu o marjă de siguranță uzuală de minimum 0,5 m.
 
-## NPSH - termenul care incurca pe toata lumea
+Funcționarea sub acest prag produce cavitație, care erodează în timp rotorul și celelalte componente interne. Monitorizarea continuă a presiunii de aspirație, cu [senzori de presiune](/senzori-instrumentatie/senzori-presiune), permite detectarea din timp a abaterilor față de proiectare.
 
-NPSH inseamna Net Positive Suction Head. Pe scurt: pompa are nevoie de o anumita presiune la aspiratie ca sa functioneze fara cavitatie.
+## Materiale în funcție de aplicație
 
-Regula e simpla: NPSH disponibil (ce ai in instalatie) trebuie sa fie mai mare decat NPSH necesar (ce cere pompa) + o marja de siguranta de minim 0.5m. Pentru monitorizarea constanta a presiunii, investeste in [senzori de monitorizare](/senzori-instrumentatie) de calitate.
+- **Fontă** — pentru apă curată, în instalații industriale standard; raport cost-durabilitate bun pentru condiții normale de lucru.
+- **Inox 316L** — pentru industria alimentară și farmaceutică, precum și pentru ape cu conținut de cloruri sau ușor corozive.
+- **Bronz** — pentru aplicații marine sau apă de mare, unde rezistența la coroziune este esențială.
+- **Materiale plastice (PP, PVDF)** — pentru chimicale agresive, cu limitare la temperaturi de lucru mai joase decât la variantele metalice.
 
-Cavitatia distruge rotoarele in cateva luni. Am vazut pompe de zeci de mii de euro casate pentru ca nimeni nu a verificat NPSH-ul la proiectare.
+## Pompe centrifugale sau cu deplasare pozitivă
 
-## Ce materiale pentru ce aplicatie?
+[Pompele centrifugale](/pompe-industriale/pompe-centrifugale-industriale) acoperă cea mai mare parte a aplicațiilor industriale standard: sunt simple constructiv, fiabile și ușor de întreținut.
 
-Dupa experienta noastra:
+Pompele cu deplasare pozitivă (cu angrenaje, cu șurub, peristaltice, cu lobi) sunt alegerea potrivită pentru fluide vâscoase (peste aproximativ 200 cP), pentru debite mici la presiuni mari sau pentru dozare precisă.
 
-- **Fonta** - pentru apa curata in instalatii industriale standard. Raport calitate-pret excelent.
-- **Inox 316L** - obligatoriu in industria alimentara, dar si pentru ape agresive sau cu cloruri. Da, costa mai mult, dar dureaza de 3 ori mai mult in conditii dificile.
-- **Bronze** - pentru aplicatii marine sau apa de mare. Nu e ieftin, dar e singurul care rezista.
-- **Materiale plastice (PP, PVDF)** - pentru chimicale agresive. Nu suporta temperaturi mari, dar rezista la aproape orice substanta.
+## Eficiența energetică și cadrul de reglementare
 
-## Centrifugale vs. cu deplasare pozitiva
+Pentru pompele centrifugale, legile de afinitate arată că puterea absorbită variază aproximativ cu cubul turației (P ~ n³). O reducere a turației, obținută printr-un convertizor de frecvență, scade rapid consumul de energie, mai ales la pompele care nu funcționează permanent la capacitate maximă. [Automatizările cu convertizor de frecvență](/automatizari-industriale) permit acest tip de reglaj.
 
-90% din aplicatii se rezolva cu [pompe centrifugale](/pompe-industriale). Sunt simple, fiabile, usor de intretinut.
+La nivel de reglementare, motoarele electrice introduse pe piața UE trebuie să respecte cerințele de eficiență energetică din Regulamentul (UE) 2019/1781 (proiectare ecologică pentru motoare electrice și convertizoare de frecvență), iar pompele de apă intră sub incidența Regulamentului (UE) nr. 547/2012 (proiectare ecologică pentru pompe de apă). Verificarea conformității cu aceste regulamente face parte din compararea ofertelor tehnice.
 
-Dar daca ai fluide vascoase (peste 200 cP), ai nevoie de debite mici la presiuni mari, sau trebuie sa dozezi precis - atunci mergi pe deplasare pozitiva: angrenaje, surub, peristaltice, cu lobi.
+## Ce date să trimiteți pentru ofertă
 
-## O vorba despre eficienta
+- Fluidul pompat și temperatura de lucru
+- Debitul necesar (m³/h) și presiunea/înălțimea de pompare necesară
+- Schema instalației sau, cel puțin, lungimea și diametrul conductelor
+- Condițiile de montaj: spațiu disponibil, alimentare electrică disponibilă, zonă cu risc de explozie (dacă este cazul)
+- Materialul dorit sau constrângerile de compatibilitate chimică
+- Brandul preferat, dacă există o constrângere de compatibilitate cu echipamente existente (de exemplu [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) sau [KSB](/brand/ksb))
 
-Pompele consuma aproximativ 20% din energia industriala la nivel global. Nu e o statistica, e realitatea pe care o vedem in facturile clientilor.
-
-Un convertizor de frecventa pe o pompa de 22 kW care functioneaza 8000 ore/an poate economisi 5.000-8.000 EUR anual. Investitia se recupereaza in 1-2 ani. Pentru control optim, integreaza [automatizări cu convertizor de frecvență](/automatizari-industriale) in sistemele de pompare.
-
-Conform SR EN 16480, pompele noi trebuie sa respecte clase de eficienta. Merita sa verifici asta cand compari oferte.
-
-## Hai sa simplificam
-
-Daca tot ce ai citit pare complicat - nu te stresa. Trimite-ne parametrii procesului si ne ocupam noi de dimensionare. Am lucrat cu toate brandurile majore - [Grundfos](/brand/grundfos), [Wilo](/brand/wilo), [KSB](/brand/ksb) - si putem recomanda exact ce ai nevoie. Facem asta de 15 ani, e gratis, si raspundem de obicei in 24 de ore.
+Pentru dimensionarea corectă a unei pompe industriale, [transmiteți parametrii procesului prin formularul de contact](/contact).
     `,
-    author: 'A.I., Director Tehnic',
-    authorId: 'author-001',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2026-01-15',
-    dateModified: '2026-01-22',
-    readTime: '8 min',
-    category: 'Ghiduri Tehnice',
-    tags: ['pompe industriale', 'selectie echipamente', 'eficienta energetica', 'dimensionare'],
+    dateModified: "2026-09-27",
+    readTime: "3 min",
+    category: "Ghiduri tehnice",
+    tags: ["pompe industriale", "selecție echipamente", "eficiență energetică", "dimensionare"],
     image: '/blog/pompa-industriala.jpg',
+    sources: [{"title": "Regulamentul (UE) 2019/1781 — cerințe de proiectare ecologică pentru motoare electrice și variatoare de viteză", "url": "https://eur-lex.europa.eu/eli/reg/2019/1781/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}, {"title": "Regulamentul (UE) nr. 547/2012 — cerințe de proiectare ecologică pentru pompele de apă", "url": "https://eur-lex.europa.eu/eli/reg/2012/547/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}],
     featured: true,
   },
   {
     id: 2,
     slug: 'comparatie-motoare-siemens-abb-sew',
-    title: 'Siemens, ABB sau SEW? O Comparatie Sincera Dupa Ani de Lucru cu Toate Trei',
-    shortTitle: 'Siemens vs ABB vs SEW: Comparatie',
-    excerpt: 'Vindem toate cele trei branduri si nu avem favoritism. Iata cand recomandam fiecare si de ce. Cu cifre concrete din service.',
+    title: "Siemens, ABB sau SEW: cum alegeți motorul electric potrivit",
+    shortTitle: "Siemens vs ABB vs SEW: ghid alegere",
+    excerpt: "Siemens, ABB și SEW acoperă game parțial diferite de motoare electrice. Criterii tehnice de alegere în funcție de aplicație, nu un clasament.",
     content: `
-Primim des intrebarea: "Care e cel mai bun motor?". Raspunsul corect e: depinde. Si nu, nu e un raspuns de evitare (desi suna asa) - chiar depinde de aplicatie, de buget, si de ce fel de suport ai nevoie dupa.
+Alegerea între Siemens, ABB și SEW pentru un motor electric depinde de aplicație, de ecosistemul de automatizare existent și de tipul de montaj necesar (motor de sine stătător sau sistem motor-reductor). Cele trei branduri acoperă game de produse parțial suprapuse, cu puncte forte diferite.
 
-Lucram cu [motoare electrice](/motoare-electrice) de la [Siemens](/brand/siemens), [ABB](/brand/abb) si [SEW](/brand/sew) de peste 10 ani - am montat mii de motoare, am vazut ce se defecteaza si ce rezista (si am avut si surprize, sa fim sinceri). Iata ce am observat.
+## Siemens: integrare și documentație tehnică
 
-## Siemens
+[Siemens](/brand/siemens) oferă o gamă largă de [motoare electrice](/motoare-electrice), cu documentație tehnică (curbe, certificate, desene CAD) disponibilă direct de la producător. Integrarea cu automatizările Siemens (PLC-uri, HMI-uri) este relevantă pentru fabricile care au deja un ecosistem Siemens. Gama include motoare în clase de eficiență superioare (IE3, IE4), relevante pentru aplicațiile cu funcționare continuă.
 
-**Ce ne place:**
-Documentatia tehnica e impecabila. Daca ai nevoie de o curba, un certificat, un desen CAD - gasesti totul online in 5 minute. Pentru proiecte unde trebuie sa justifici fiecare alegere, Siemens te scuteste de multe batai de cap.
+## ABB: gamă extinsă și soluții pentru zone ATEX
 
-Integrarea cu [automatizari industriale](/automatizari-industriale) Siemens (PLC-uri, HMI-uri) e fara cusur. Daca ai deja ecosistem Siemens in fabrica, nu are sens sa complici lucrurile.
+[ABB](/brand/abb) produce, printre altele, motoare pentru procese industriale (de exemplu seria M3BP), cu o gamă amplă de variante pentru zone cu risc de explozie, aflate sub incidența Directivei 2014/34/UE (ATEX) și a standardelor din seria SR EN 60079. ABB produce și convertizoare de frecvență, integrabile ca [automatizări industriale](/automatizari-industriale) pentru controlul turației.
 
-Gama de eficienta IE4 si IE5 e extinsa. Pentru aplicatii unde motorul merge non-stop, diferenta de randament se simte in factura.
+## SEW Eurodrive: sisteme motor-reductor integrate
 
-**Ce ne place mai putin:**
-Pretul e cel mai mare dintre cele trei. Pentru aplicatii standard unde nu ai nevoie de toate acele avantaje, platesti mai mult fara sa folosesti potentialul.
+[SEW](/brand/sew) este specializat în sisteme motor-reductor integrate (motoreductoare), utile acolo unde spațiul de montaj este limitat sau unde reducția de turație este necesară direct la motor. SEW produce și motoare fără reductor, însă specializarea principală a companiei rămâne sistemul motor-reductor. [Componentele mecanice](/componente-mecanice) precum cuplajele și rulmenții completează montajul.
 
-Termenele de livrare pentru configuratii speciale pot ajunge la 8-12 saptamani. Daca ti-a crapar un motor si ai nevoie urgent, s-ar putea sa nu fie prima optiune.
+## Criterii de alegere, nu un clasament de calitate
 
-**Recomandam pentru:** Linii de productie automatizate, industria auto, aplicatii critice non-stop.
+Cele trei branduri sunt producători consacrați de motoare electrice industriale, fiecare cu certificări proprii de calitate și gamă. Diferențele relevante pentru alegere țin de:
 
-## ABB
+- **Ecosistemul de automatizare existent** — dacă fabrica are deja PLC-uri și HMI-uri de la un anumit producător, integrarea este de regulă mai simplă cu motoare de la același producător.
+- **Tipul de montaj** — motor de sine stătător sau sistem motor-reductor integrat.
+- **Zona de instalare** — standard sau cu risc de explozie, conform Directivei 2014/34/UE (ATEX).
+- **Clasa de eficiență energetică necesară** — conform cerințelor din Regulamentul (UE) 2019/1781.
 
-**Ce ne place:**
-Raportul calitate-pret e excelent. Motoarele M3BP au aceeasi calitate ca Siemens, dar costa cu 10-15% mai putin in multe configuratii.
+## Eficiența energetică: un criteriu obiectiv de comparație
 
-Gama ATEX e foarte buna. Pentru zone cu risc de explozie, ABB ofera o varietate mare de optiuni.
+Motoarele electrice introduse pe piața UE trebuie să respecte clasele minime de eficiență (IE) stabilite prin Regulamentul (UE) 2019/1781, care reglementează proiectarea ecologică a motoarelor electrice și a convertizoarelor de frecvență. Verificarea clasei IE și a fișei tehnice a producătorului este un pas util la compararea ofertelor, indiferent de brand.
 
-Convertizoarele de frecventa ABB sunt printre cele mai fiabile pe care le-am montat.
+## Ce date să trimiteți pentru ofertă
 
-**Ce ne place mai putin:**
-Suportul local in Romania nu e la fel de puternic ca al Siemens. Nu e rau, dar nici nu e la acelasi nivel.
+- Puterea necesară (kW) și turația
+- Tensiunea și frecvența de alimentare
+- Tipul de montaj: motor de sine stătător sau motor-reductor, cu raportul de reducție dacă este cazul
+- Clasificarea zonei de instalare (standard sau ATEX, cu categoria/grupul de gaz sau praf)
+- Clasa de eficiență energetică solicitată (de exemplu IE3 sau IE4)
+- Brandul preferat, dacă există o constrângere de compatibilitate cu echipamente existente
 
-Catalogul de accesorii e mai restrans. Pentru montaje speciale, uneori trebuie sa improvizezi sau sa astepti.
-
-**Recomandam pentru:** Industria energetica, minerit, aplicatii cu buget limitat dar pretentii de calitate.
-
-## SEW Eurodrive
-
-**Ce ne place:**
-Sistemele motor-reductor integrate sunt domeniul lor de excelenta. Daca ai nevoie de motoreductor, SEW e aproape mereu prima optiune. [Componentele mecanice](/componente-mecanice) aditionale sunt usor de integrat.
-
-Service-ul in Romania e rapid. Au piese in stoc local si raspund repede.
-
-Montajul e compact - important cand spatiul e limitat.
-
-**Ce neplace mai putin:**
-Pentru motoare standalone (fara reductor), gama e mai restransa. Nu e specializarea lor.
-
-Documentatia tehnica e mai greu de navigat decat la Siemens.
-
-**Recomandam pentru:** Transportoare, sisteme de manipulare, logistica, orice aplicatie cu reductor.
-
-## Cifre din service-ul nostru
-
-Din 2020 pana acum, din motoarele pe care le-am vandut si urmarit:
-
-| Brand | Defectiuni in garantie | Cauza principala |
-|-------|------------------------|------------------|
-| Siemens | 0.8% | Probleme rulmenti (rare) |
-| ABB | 1.1% | Probleme rulmenti |
-| SEW | 0.9% | Diverse, fara pattern |
-
-Cifrele sunt aproape identice, ceea ce spune ceva. Toate trei sunt branduri de calitate - diferentele sunt mai mult in detalii si preferinte decat in fiabilitate.
-
-## Deci care e "cel mai bun"?
-
-Depinde de ce conteaza pentru tine:
-- **Documentatie si integrare** → [Siemens](/brand/siemens)
-- **Pret si ATEX** → [ABB](/brand/abb)
-- **Motoreductoare si service rapid** → [SEW](/brand/sew)
-
-Daca nu stii ce sa alegi, spune-ne aplicatia si iti recomandam noi. Vezi [gama completa de motoare electrice](/motoare-electrice) pe site. Nu avem interes sa iti vindem un brand sau altul - marjele sunt similare.
+Pentru recomandarea motorului potrivit aplicației dumneavoastră, [transmiteți specificațiile prin formularul de contact](/contact).
     `,
-    author: 'M.R., Inginer Aplicații',
-    authorId: 'author-002',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2026-01-10',
-    dateModified: '2026-01-22',
-    readTime: '7 min',
-    category: 'Comparatii',
-    tags: ['motoare electrice', 'siemens', 'abb', 'sew', 'comparatie'],
+    dateModified: "2026-09-27",
+    readTime: "3 min",
+    category: "Comparații",
+    tags: ["motoare electrice", "siemens", "abb", "sew", "comparație"],
     image: '/blog/motoare-comparatie.jpg',
+    sources: [{"title": "Regulamentul (UE) 2019/1781 — cerințe de proiectare ecologică pentru motoare electrice și variatoare de viteză", "url": "https://eur-lex.europa.eu/eli/reg/2019/1781/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}, {"title": "Directiva 2014/34/UE (ATEX) — echipamente și sisteme de protecție destinate atmosferelor potențial explozive", "url": "https://eur-lex.europa.eu/eli/dir/2014/34/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}],
     featured: true,
   },
   {
     id: 3,
     slug: 'reducere-consum-energetic-pompe',
-    title: 'Cum Am Redus Consumul cu 35% la un Client din Cluj: Studiu de Caz Pompe',
-    shortTitle: 'Studiu de Caz: -35% Consum Pompe',
-    excerpt: 'Un client ne-a cerut sa optimizam statia de pompare. Bugetul era strans, timpul scurt. Iata ce am facut si cat a economisit.',
+    title: "Cum reduceți consumul energetic al pompelor industriale",
+    shortTitle: "Reducere consum energetic pompe",
+    excerpt: "Turația variabilă, dimensionarea corectă și mentenanța preventivă reduc consumul pompelor care nu funcționează constant la capacitate maximă.",
     content: `
-In septembrie 2024, un producator de componente auto din zona Cluj ne-a contactat cu o problema: facturile la energie explodaseara. Printre principalii consumatori erau [pompele industriale](/pompe-industriale) din sistemul de racire - 4 pompe de 37 kW fiecare, functionand aproape non-stop.
+Consumul energetic al unei pompe industriale poate fi redus atunci când instalația este supradimensionată sau când pompa funcționează la turație fixă în regimuri de sarcină variabile. Principalele pârghii sunt reglarea turației printr-un convertizor de frecvență, dimensionarea corectă la punctul de funcționare optim și mentenanța preventivă.
 
-Nu le putem dezvalui numele, dar putem povesti ce am facut.
+## Când o pompă consumă mai mult decât ar trebui
 
-## Situatia initiala
+O pompă este candidată pentru optimizare energetică atunci când: funcționează la turație fixă, pornită direct la rețea; a fost dimensionată pentru o capacitate de producție care ulterior s-a schimbat; sau funcționează frecvent departe de punctul optim de eficiență indicat pe curba caracteristică a producătorului.
 
-Pompele functionau la turatie fixa, pornite direct la retea. Sistemul fusese dimensionat prin 2009 pentru o capacitate de productie care nu mai exista - intre timp, procesele se schimbasera.
+Măsurarea reală a debitului, presiunii și puterii absorbite, cu [senzori de proces](/senzori-instrumentatie), este pasul necesar înaintea oricărei decizii de optimizare — fără măsurători, potențialul de economie nu poate fi estimat corect.
 
-Masuratorile noastre au aratat ca pompele functionau la 60-70% din capacitate cea mai mare parte din timp. Dar consumau energie ca si cum ar fi functionat la 100%.
+## Legea afinității: relația dintre turație și putere
 
-Consumul masurat: aproximativ 320.000 kWh/an pentru cele 4 pompe.
+Pentru pompele centrifugale, legile de afinitate arată că puterea absorbită variază aproximativ cu cubul turației (P ~ n³), debitul variază liniar cu turația (Q ~ n), iar presiunea (înălțimea de pompare) variază cu pătratul turației (H ~ n²).
 
-## Ce optiuni aveam?
+Practic, o reducere a turației produce o scădere semnificativ mai mare a consumului de energie decât o reducere echivalentă de debit obținută prin altă metodă, de exemplu prin laminare pe o vană de reglaj. Aceasta este baza tehnică pentru care [convertizoarele de frecvență](/motoare-electrice/convertizoare-frecventa-industriale) sunt soluția uzuală pentru pompele cu sarcină variabilă.
 
-**Varianta 1: Inlocuire pompe cu unele mai mici**
-Cost estimat: 45.000 EUR
-Problema: Capacitatea de rezerva dispare. Daca productia creste?
+## Opțiuni de optimizare
 
-**Varianta 2: Montare convertizoare de frecventa (VFD)**
-Cost estimat: 18.000 EUR pentru 4 convertizoare ABB ACS580
-Avantaj: Pompele se adapteaza automat la necesar
+**Convertizor de frecvență (VFD)** — permite adaptarea turației pompei la necesarul real al procesului, prin control după presiune constantă, debit constant sau alt parametru de proces. Este soluția potrivită atunci când capacitatea instalată trebuie păstrată ca rezervă, dar regimul curent de funcționare este sub capacitatea maximă.
 
-Am recomandat varianta 2. Clientul a fost de acord. [Automatizările și control](/automatizari-industriale) prin convertizoare de frecventa sunt solutia ideala pentru [pompe cu debit variabil](/brand/grundfos), iar ABB are un raport calitate-pret excelent.
+**Redimensionare sau înlocuire a pompei** — relevantă atunci când supradimensionarea este permanentă și nu există perspectiva unei creșteri viitoare a necesarului; elimină nevoia de rezervă de capacitate, dar reduce flexibilitatea ulterioară.
 
-## Implementare
+**Ajustarea rotorului (impeller trimming)** — reducerea diametrului rotorului pentru a apropia curba pompei de punctul real de funcționare; este aplicabilă la pompele centrifugale, atunci când reducerea de debit este permanentă.
 
-Am montat convertizoarele intr-un weekend, ca sa nu afectam productia. Parametrizarea a durat inca o zi - am setat control dupa presiune constanta in sistem, cu limite de frecventa intre 25 si 50 Hz.
+## Rolul mentenanței în consumul energetic
 
-## Rezultate dupa 6 luni
+O pompă cu rulmenți uzați, cu dezaliniere pompă-motor sau cu rotor erodat de cavitație consumă mai multă energie decât aceeași pompă în stare bună de funcționare, la același debit util. Un program de [mentenanță preventivă](/blog/mentenanta-preventiva-pompe-industriale) menține pompa aproape de curba de eficiență din catalog.
 
-Consumul a scazut de la 320.000 kWh/an la aproximativ 210.000 kWh/an. O reducere de 35%.
+## Cadrul de reglementare
 
-La pretul energiei de atunci (0.18 EUR/kWh pentru consumatori industriali), economia anuala e de aproximativ 19.800 EUR.
+Motoarele electrice care acționează pompele trebuie să respecte clasele de eficiență din Regulamentul (UE) 2019/1781, iar pompele de apă intră sub incidența Regulamentului (UE) nr. 547/2012, care stabilește cerințe de proiectare ecologică pentru această categorie de echipamente. Aceste regulamente reprezintă un punct de referință obiectiv la compararea ofertelor de echipamente noi.
 
-Investitia de 18.000 EUR s-a amortizat in mai putin de un an.
+## Ce date să trimiteți pentru ofertă
 
-## De ce functioneaza?
+- Curba caracteristică a pompei existente (dacă este disponibilă) sau parametrii de proiectare inițiali
+- Debitul și presiunea reale de funcționare, măsurate sau estimate
+- Programul de funcționare (ore/zi, regim constant sau variabil)
+- Puterea motorului instalat și tipul de pornire actual (direct, stea-triunghi, convertizor)
+- Eventuale variații sezoniere sau de proces ale necesarului
 
-E fizica simpla. Pentru pompe si ventilatoare, consumul de energie variaza cu cubul vitezei. Deci daca reduci turatia cu 20%, consumul scade cu aproximativ 50%.
-
-Asta inseamna ca orice pompa care nu functioneaza tot timpul la capacitate maxima e un candidat pentru VFD.
-
-## Ce am invatat
-
-Nu intotdeauna trebuie sa inlocuiesti echipamentele. Uneori, optimizarea celor existente e mai rapida, mai ieftina si la fel de eficienta.
-
-Dar trebuie sa masori inainte. Fara [senzori de proces](/senzori-instrumentatie) si masuratori, nu stii cat pierzi si nu poti estima castigul.
-
-## Vrei sa stii daca merita la tine?
-
-Facem audit energetic gratuit pentru sistemele de pompare. Venim, masuram, calculam. Lucram cu toate brandurile majore - [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) - si putem recomanda exact ce ai nevoie. Daca nu merita investitia, iti spunem cinstit - n-avem de castigat din recomandari care nu se justifica.
+Pentru o evaluare tehnică a soluțiilor de optimizare potrivite instalației dumneavoastră, [contactați echipa tehnică](/contact).
     `,
-    author: 'A.I., Director Tehnic',
-    authorId: 'author-001',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2026-01-05',
-    dateModified: '2026-01-24',
-    readTime: '6 min',
-    category: 'Eficienta Energetica',
-    tags: ['eficienta energetica', 'pompe', 'vfd', 'studiu de caz'],
+    dateModified: "2026-09-27",
+    readTime: "3 min",
+    category: "Eficiență energetică",
+    tags: ["eficiență energetică", "pompe", "vfd", "optimizare"],
     image: '/blog/eficienta-energetica.jpg',
+    sources: [{"title": "Regulamentul (UE) 2019/1781 — cerințe de proiectare ecologică pentru motoare electrice și variatoare de viteză", "url": "https://eur-lex.europa.eu/eli/reg/2019/1781/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}, {"title": "Regulamentul (UE) nr. 547/2012 — cerințe de proiectare ecologică pentru pompele de apă", "url": "https://eur-lex.europa.eu/eli/reg/2012/547/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}],
     featured: false,
   },
   {
     id: 4,
     slug: 'robineti-bila-vs-fluture-ghid',
-    title: 'Bila sau Fluture? Un Ghid Practic pentru Alegerea Robinetului',
-    shortTitle: 'Robineti Bila vs Fluture: Ghid',
-    excerpt: 'Doua tipuri de robineti, fiecare cu rolul lui. Cand alegi unul, cand altul, si cand nu conteaza. Iata ce trebuie sa stii pentru aplicatia ta.',
+    title: "Robinet cu bilă sau cu fluture: cum alegeți varianta potrivită",
+    shortTitle: "Robineți bilă vs fluture: ghid",
+    excerpt: "Robinetul cu bilă oferă etanșare completă la presiuni mari; cel cu fluture este mai economic la diametre mari. Criterii de alegere pe aplicație.",
     content: `
-E o intrebare pe care o primim saptamanal: "Ce [robinet industrial](/robineti-industriali) sa pun?". Raspunsul depinde de cativa factori simpli, dar importanti.
+Alegerea între un robinet cu bilă și unul cu fluture depinde de tipul de fluid, de presiunea și temperatura de lucru și de necesitatea unui reglaj fin. Robinetul cu bilă oferă etanșare completă și rezistă la presiuni mari; robinetul cu fluture este mai simplu constructiv, mai economic la diametre mari și permite reglaj, dar are o etanșare mai puțin strictă.
 
-## Robineti cu bila - pentru cand conteaza etansarea
+## Robinet cu bilă — pentru etanșare completă
 
-Robinetul cu bila are in interior o sfera perforata. La deschidere, orificiul se aliniaza cu conducta. La inchidere, sfera blocheaza complet fluxul.
+[Robinetul cu bilă](/robineti-industriali/robineti-bila-industriali) are în interior o sferă perforată: la deschidere, orificiul se aliniază cu conducta, iar la închidere, sfera blochează complet fluxul.
 
-**Cand ii folosesti:**
-- Gaze (obligatoriu) - nu vrei scapari de gaz, nici macar minime
-- Presiuni mari - suporta usor peste 40 bar, unele modele ajung la 400 bar
-- Cand ai nevoie de inchidere/deschidere rapida - rotatie de 90°, gata
-- Fluide scumpe sau periculoase - etansare perfecta = zero pierderi
+**Recomandat pentru:**
+- Gaze, unde etanșarea completă este obligatorie
+- Presiuni mari (multe modele depășesc 40 bar)
+- Manevre rapide de închidere/deschidere (rotație de 90°)
+- Fluide scumpe sau periculoase, unde scăpările trebuie eliminate
 
-**Cand NU ii folosesti:**
-- Pentru reglaj - bila e fie deschisa, fie inchisa. Pozitia intermediara uzeaza garniturile
-- Cand bugetul e foarte strans si aplicatia permite altceva
+**Mai puțin potrivit pentru:**
+- Reglaj fin al debitului — poziția intermediară a bilei uzează prematur garniturile
+- Aplicații cu buget strict, unde etanșarea completă nu este necesară
 
-## Robineti fluture - pentru cand conteaza pretul si spatiul
+## Robinet cu fluture — pentru cost și spațiu redus
 
-Robinetul fluture are un disc care se roteste in interiorul conductei. E mai simplu constructiv, deci mai ieftin.
+[Robinetul cu fluture](/robineti-industriali/robineti-fluture-industriali) are un disc care se rotește în interiorul conductei; este mai simplu constructiv, deci mai economic la diametre mari.
 
-**Cand ii folosesti:**
-- Instalatii de apa industriala unde etansarea perfecta nu e critica
-- Diametre mari - un fluture DN300 costa o fractiune dintr-o bila DN300
-- HVAC - sunt standard in industrie pentru asta
-- Cand ai nevoie si de reglaj, nu doar pornit/oprit. Poti integra si [componente hidraulice și pneumatice](/componente-hidraulice-pneumatice) pentru actuare automata.
+**Recomandat pentru:**
+- Instalații de apă industrială unde etanșarea perfectă nu este critică
+- Diametre mari, unde diferența de cost față de un robinet cu bilă este semnificativă
+- Aplicații HVAC
+- Situații în care este necesar și reglaj de debit, nu doar închidere/deschidere; poate fi combinat cu [valve pneumatice](/componente-hidraulice-pneumatice/valve-pneumatice) pentru acționare automată
 
-**Cand NU ii folosesti:**
-- Gaze - nu au etansarea necesara
-- Presiuni peste 25 bar - nu sunt proiectati pentru asta
-- Cand pierderile de sarcina conteaza foarte mult - discul ramane in flux si creeaza rezistenta
+**Mai puțin potrivit pentru:**
+- Gaze — etanșarea nu este suficientă pentru acest serviciu
+- Presiuni ridicate (de regulă peste 25 bar, în funcție de model)
+- Situații unde pierderea de sarcină trebuie minimizată — discul rămâne parțial în flux chiar și la deschidere completă
 
-## Tabel orientativ
+## Tabel orientativ pe tip de aplicație
 
-| Aplicatie | Recomandare |
+| Aplicație | Recomandare |
 |-----------|-------------|
-| Gaz metan, GPL | Bila, obligatoriu |
-| Apa racire industriala | Fluture |
-| Abur | Bila cu corp special |
-| Chimicale | Bila cu etansare PTFE |
+| Gaz metan, GPL | Bilă |
+| Apă de răcire industrială | Fluture |
+| Abur | Bilă, cu corp adecuat temperaturii |
+| Chimicale | Bilă, cu etanșare PTFE |
 | HVAC, climatizare | Fluture |
-| Stingere incendii | Bila |
+| Stingere incendii | Bilă |
 
-## Un detaliu important despre presiune
+## Presiunea nominală depinde de temperatură
 
-Presiunea nominala (PN16, PN40 etc.) e pentru apa la 20°C. La temperaturi mai mari, presiunea admisa scade. Verifica intotdeauna diagramele presiune-temperatura din catalog.
+Presiunea nominală marcată pe robinet (PN16, PN40 etc.) este valabilă pentru apă la 20°C. La temperaturi mai ridicate, presiunea admisibilă reală scade — diagramele presiune-temperatură din documentația producătorului trebuie verificate pentru fiecare aplicație, în special pentru abur sau fluide termice. Montarea unui robinet cu presiune nominală insuficientă pentru temperatura reală de lucru poate duce la scurgeri sau la cedarea garniturilor.
 
-Am vazut instalatii unde s-au montat robineti PN16 pe conducte de abur, bazandu-se doar pe presiunea nominala. Nu s-a terminat bine.
+## Materiale de etanșare și componente
 
-## Despre materiale
+Pentru robinetul cu fluture, corpul este de regulă din fontă sau inox, iar materialul discului și al garniturii determină compatibilitatea chimică:
+- **EPDM** — standard pentru apă
+- **NBR** — pentru uleiuri
+- **PTFE** — pentru chimicale și temperaturi extreme
 
-Pentru [robineti fluture](/robineti-industriali), corpul e de obicei fonta sau inox, dar discul si garnitura fac diferenta:
-- **EPDM** - standard pentru apa
-- **NBR** - pentru uleiuri
-- **PTFE** - pentru chimicale si temperaturi extreme
+Pentru robinetul cu bilă, contează materialul sferei și al garniturilor:
+- **Bilă cromată** — variantă standard
+- **Bilă din inox** — pentru medii corozive
+- **Garnitură PTFE** — variantă standard industrială
+- **Garnitură metal-metal** — pentru temperaturi foarte ridicate
 
-La robineti bila, atentie la materialul sferei si al garniturilor:
-- **Bila cromata** - standard
-- **Bila inox** - pentru corozive
-- **Garnitura PTFE** - standard industrial
-- **Garnitura metal-metal** - pentru temperaturi foarte mari
+Ambele tipuri sunt disponibile la producători precum [Spirax Sarco](/brand/spirax-sarco) (aplicații de abur) și [Danfoss](/brand/danfoss) (reglare).
 
-Lucram cu branduri premium precum [Spirax Sarco](/brand/spirax-sarco) pentru aplicatii de abur si [Danfoss](/brand/danfoss) pentru reglare.
+## Nu există o variantă universal mai bună
 
-## Pe scurt
+Alegerea corectă depinde de fluid, presiune, temperatură și de necesitatea de reglaj. Pentru [automatizarea valvelor](/automatizari-industriale) prin actuatoare electrice sau pneumatice, tipul de robinet trebuie stabilit înainte de dimensionarea actuatorului.
 
-Nu exista "mai bun" in general - exista "potrivit pentru ce ai tu de facut". Pentru [automatizări pentru valve](/automatizari-industriale) complexe sau control avansat, consultă-ne despre soluții integrate. Nu esti sigur? Suna-ne. 5 minute la telefon costa mai putin decat sa montezi ceva gresit.
+## Ce date să trimiteți pentru ofertă
+
+- Fluidul vehiculat și temperatura de lucru
+- Presiunea de lucru și presiunea nominală necesară (PN)
+- Diametrul nominal (DN) al conductei
+- Necesitatea de reglaj sau doar închidere/deschidere completă
+- Tipul de acționare: manuală, electrică sau pneumatică
+- Standardul de conexiune (flanșat, wafer, filetat)
+
+Pentru recomandarea tipului de robinet potrivit aplicației dumneavoastră, [transmiteți parametrii prin formularul de contact](/contact).
     `,
-    author: 'C.P., Specialist Armaturi',
-    authorId: 'author-003',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-12-20',
-    dateModified: '2026-01-22',
-    readTime: '5 min',
-    category: 'Ghiduri Tehnice',
-    tags: ['robineti', 'robinet bila', 'robinet fluture', 'armaturi'],
+    dateModified: "2026-09-27",
+    readTime: "3 min",
+    category: "Ghiduri tehnice",
+    tags: ["robineți", "robinet bilă", "robinet fluture", "armături"],
     image: '/blog/robineti-comparatie.jpg',
     featured: false,
   },
   {
     id: 5,
     slug: 'mentenanta-preventiva-pompe-industriale',
-    title: 'Programul de Mentenanta Care Ne-a Redus Interventiile de Urgenta cu 80%',
-    shortTitle: 'Mentenanta Preventiva Pompe',
-    excerpt: 'Am implementat acelasi sistem la zeci de clienti. Iata checklist-ul complet si intervalele care functioneaza.',
+    title: "Programul de mentenanță preventivă pentru pompe industriale",
+    shortTitle: "Mentenanță preventivă pompe",
+    excerpt: "Lubrifierea, alinierea și verificarea garniturii mecanice previn cele mai frecvente defecțiuni ale pompelor industriale. Checklist pe intervale.",
     content: `
-Pana prin 2019-2020, o mare parte din activitatea noastra de service pentru [pompe industriale](/pompe-industriale) era in regim de urgenta. Pompa blocata sambata la 3 noaptea, motor ars in mijlocul productiei, lucruri de genul asta.
+Mentenanța preventivă a pompelor industriale reduce riscul de defecțiuni neplanificate prin verificări periodice ale lubrifierii, alinierii, garniturii mecanice și rulmenților. Un program structurat, cu intervale zilnice, săptămânale, lunare, trimestriale și anuale, permite detectarea din timp a semnelor de uzură, înainte ca acestea să ducă la oprirea neplanificată a echipamentului.
 
-Apoi am inceput sa propunem activ programe de mentenanta preventiva. Rezultatele au fost dramatice: clientii care au adoptat programul au redus interventiile de urgenta cu 70-80%.
+## Cauze frecvente de defectare a pompelor
 
-Iata ce am invatat.
+Cauzele frecvente de defectare a [pompelor industriale](/pompe-industriale) includ, în ordinea frecvenței observate în activitatea de service:
 
-## De ce se defecteaza pompele?
+1. Lubrifiere lipsă sau necorespunzătoare
+2. Uzura garniturii mecanice
+3. Dezalinierea pompă-motor
+4. Funcționarea în afara punctului de proiectare (debit sau presiune diferite de cele pentru care a fost dimensionată pompa)
 
-Din experienta noastra, cauzele principale sunt:
-1. **Lipsa lubrifiere sau lubrifiere gresita** - aproximativ 35% din cazuri
-2. **Garnituri mecanice uzate** - aproximativ 25%
-3. **Dezaliniere pompa-motor** - aproximativ 20%
-4. **Functionare in afara parametrilor** - aproximativ 15%
-5. **Altele** - 5%
+Toate aceste cauze pot fi prevenite sau detectate din timp printr-un program de verificări periodice.
 
-Toate acestea se pot preveni sau detecta din timp.
+## Programul recomandat de mentenanță
 
-## Programul nostru recomandat
+### Zilnic
+Verificare vizuală: scurgeri, zgomote neobișnuite, vibrații perceptibile. Orice abatere față de comportamentul obișnuit al pompei trebuie notată.
 
-### Zilnic (5 minute)
-Verificare vizuala: scurgeri vizibile, zgomote neobisnuite, vibratii perceptibile.
-Nu trebuie sa fii specialist - daca ceva s-a schimbat fata de "normal", noteaza.
+### Săptămânal
+- Verificarea presiunilor de aspirație și refulare — variații mari indică o problemă
+- Verificarea temperaturii carcasei motorului
+- La pompele cu ungere manuală, verificarea nivelului [lubrifiantului industrial](/lubrifianti-chimice/unsori-industriale)
 
-### Saptamanal (15 minute)
-- Verifica presiunile de aspiratie si refulare - variatii mari indica probleme
-- Verifica temperatura motorului cu mana (atentie, poate fi fierbinte) - daca nu poti tine mana, e prea cald
-- La pompele cu ungere manuala, verifica nivelul [lubrifiatului industrial](/lubrifianti-chimice)
+### Lunar
+- Măsurarea vibrațiilor, acolo unde există echipament de măsură
+- Verificarea cuplajului — jocul excesiv indică uzură
+- Curățarea sau înlocuirea [filtrelor de aspirație](/filtre-consumabile/elemente-filtrante)
+- Verificarea consumului electric, comparativ cu valorile de referință
 
-### Lunar (1 ora)
-- Masoara vibratiile (daca ai echipament) sau cel putin asculta cu atentie
-- Verifica cuplajul - joc excesiv inseamna uzura
-- Curata [filtrele de aspiratie](/filtre-consumabile) si inlocuieste-le daca sunt colmatate
-- Verifica consumul electric si compara cu istoricul
-
-### Trimestrial (2-3 ore)
-- Verifica alinierea pompa-motor (ideal cu laser, dar si cu comparator merge)
-- Inspecteaza garnitura de ax - cateva picaturi pe minut sunt normale, mai mult nu
-- Verifica rulmentii - temperatura si zgomot. Foloseste [scule și instrumente](/scule-instrumente) adecvate pentru masuratori precise.
-- Documenteaza totul
+### Trimestrial
+- Verificarea alinierii pompă-motor (ideal cu laser, alternativ cu comparator)
+- Inspectarea garniturii de ax — o scurgere minimă, de câteva picături pe minut, este normală la garniturile cu presetupă; o scurgere mai mare indică uzură
+- Verificarea rulmenților — temperatură și zgomot, cu [scule și instrumente de măsură](/scule-instrumente/masura-dimensionala) adecvate
+- Documentarea rezultatelor
 
 ### Anual (service complet)
-- Demontare si inspectie detaliata
-- Inlocuire garnitura mecanica (preventiv, nu doar cand curge)
-- Verificare rotor - uzura, coroziune
-- Inlocuire rulmenti si alte [componente mecanice](/componente-mecanice) daca au peste 20.000 ore sau semne de uzura
-- Vopsire/protectie anticoroziva unde e nevoie
+- Demontare și inspecție detaliată
+- Înlocuirea preventivă a garniturii mecanice, conform practicilor descrise în ISO 21049/API 682 pentru etanșările mecanice ale pompelor
+- Verificarea rotorului — uzură, coroziune
+- Înlocuirea rulmenților și a altor [componente mecanice](/componente-mecanice/rulmenti-industriali) uzate
+- Protecție anticorozivă, unde este necesar
 
-## Checklist pentru service anual
+## Checklist pentru service-ul anual
 
-Am creat un checklist pe care il folosim intern:
+- [ ] Demontare și curățare componente
+- [ ] Măsurarea jocurilor radiale și axiale
+- [ ] Inspecție vizuală a rotorului (ciupituri, coroziune, uzură)
+- [ ] Verificarea arborelui (uzură la garnitură, excentricitate)
+- [ ] Înlocuirea garniturii mecanice
+- [ ] Verificarea/înlocuirea rulmenților
+- [ ] Înlocuirea o-ringurilor secundare
+- [ ] Remontare cu cuplul de strângere specificat de producător
+- [ ] Aliniere după remontare
+- [ ] Test de funcționare
+- [ ] Măsurarea vibrațiilor după service
+- [ ] Documentarea intervenției
 
-- [ ] Demontare si curatare componente
-- [ ] Masurare jocuri radiale si axiale
-- [ ] Inspectie vizuala rotor (ciupituri, coroziune, uzura)
-- [ ] Verificare arbore (uzura la garnitura, excentricitate)
-- [ ] Inlocuire garnitura mecanica
-- [ ] Verificare/inlocuire rulmenti
-- [ ] Inlocuire o-ringuri secundare
-- [ ] Remontare cu cuplu corect (foloseste cheie dinamometrica!)
-- [ ] Aliniere dupa montare
-- [ ] Test functionare 30 minute
-- [ ] Masurare vibratii post-service
-- [ ] Documentare
+## Mentenanța preventivă versus intervenția de urgență
 
-## Cat costa mentenanta vs. defectarea
+O intervenție de urgență presupune, pe lângă costul reparației, și oprirea neplanificată a procesului deservit de pompă. Un program de mentenanță preventivă, cu costuri programate și predictibile, reduce probabilitatea acestui tip de întrerupere și prelungește durata de funcționare a echipamentului între service-urile majore. Principiile de mai sus se aplică indiferent de brandul pompei — [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) sau [KSB](/brand/ksb).
 
-Am facut calculul pentru o [pompa Grundfos](/brand/grundfos) CR de 15 kW:
+## Documentarea istoricului
 
-**Cu mentenanta preventiva:**
-- Service anual: aproximativ 800 EUR
-- Durata de viata: 12-15 ani
-- Cost total pe durata de viata: aproximativ 10.000-12.000 EUR
+Un jurnal de mentenanță pentru fiecare echipament, cu intervențiile și măsurătorile înregistrate în timp, permite identificarea tiparelor de uzură specifice instalației și anticiparea problemelor înainte ca acestea să devină critice.
 
-**Fara mentenanta:**
-- Defectari majore: 2-3 in 8 ani
-- Cost mediu defectare (piese + manopera + pierderi productie): aproximativ 5.000 EUR
-- Durata de viata: 6-8 ani
-- Cost total: 15.000-20.000 EUR + stres
+## Ce date să trimiteți pentru ofertă
 
-Calculul e clar. Acelasi principiu se aplica si pentru [pompe Wilo](/brand/wilo) sau [KSB](/brand/ksb).
+- Modelul și seria pompei (dacă sunt cunoscute)
+- Data ultimei intervenții majore și tipul acesteia
+- Programul de funcționare (ore/zi, regim continuu sau intermitent)
+- Fluidul vehiculat și eventuale particularități (temperatură, particule, agresivitate chimică)
+- Simptomele observate, dacă solicitarea pornește de la o problemă existentă
 
-## Un ultim sfat
-
-Tine un jurnal pentru fiecare echipament. Noteaza interventiile, masuratorile, problemele. Dupa 2-3 ani, vei avea o imagine clara a comportamentului si vei putea anticipa problemele.
-
-Facem contracte de mentenanta pentru clientii care prefera sa externalizeze asta. Dar chiar daca nu lucrezi cu noi, implementeaza un program - orice e mai bun decat nimic.
+Pentru un program de mentenanță adaptat echipamentelor dumneavoastră, [contactați echipa tehnică](/contact).
     `,
-    author: 'E.V., Inginer Service',
-    authorId: 'author-004',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-12-15',
-    dateModified: '2026-01-24',
-    readTime: '7 min',
-    category: 'Mentenanta',
-    tags: ['mentenanta', 'pompe', 'service', 'checklist'],
+    dateModified: "2026-09-27",
+    readTime: "3 min",
+    category: "Mentenanță",
+    tags: ["mentenanță", "pompe", "service", "checklist"],
     image: '/blog/mentenanta-pompe.jpg',
     featured: false,
   },
   {
     id: 6,
     slug: 'ghid-schimbatoare-caldura-industriale',
-    title: 'Schimbatoare de Caldura: Ce Am Invatat in 12 Ani de Dimensionari',
-    shortTitle: 'Ghid Schimbatoare de Caldura',
-    excerpt: 'Placi brazate, placi demontabile, tubulare - fiecare are locul lui. Plus greselile frecvente pe care le vedem.',
+    title: "Schimbătoare de căldură industriale: cum alegeți tipul potrivit",
+    shortTitle: "Ghid schimbătoare de căldură",
+    excerpt: "Plăci brazate, plăci demontabile sau tubulare: diferențele constructive, aplicațiile potrivite pentru fiecare tip și criteriile pentru o dimensionare corectă.",
     content: `
-[Schimbatoarele de caldura](/schimbatoare-caldura) par simple: doua fluide, transfer de energie, gata. Dar am vazut suficiente dimensionari gresite incat sa stiu ca nu e chiar asa simplu.
+Un [schimbător de căldură](/schimbatoare-caldura) transferă energie termică între două fluide fără ca acestea să se amestece. Alegerea constructivă potrivită depinde de presiunea și temperatura de lucru, de natura fluidelor și de frecvența cu care schimbătorul trebuie curățat.
 
-## Tipurile principale si cand le folosesti
+## Tipurile principale și criteriile de alegere
 
-### Placi brazate (BPHE)
+### Plăci brazate (BPHE)
 
-Sunt compacte, eficiente, fara garnituri care sa cedeze. Placile sunt lipite intre ele cu cupru sau nichel.
+Plăcile metalice sunt asamblate prin brazare (lipire la temperatură înaltă), de obicei cu cupru sau nichel, fără garnituri între ele.
 
-De ce le alegem des: sunt de 5 ori mai mici decat tubulare pentru aceeasi putere, eficienta termica foarte buna, si nu au garnituri care sa cedeze.
+**Caracteristici:** construcție compactă, suprafață mare de transfer termic într-un volum redus, fără garnituri elastomerice care se pot degrada în timp.
 
-Partea mai putin placuta: nu le poti demonta sa le cureti manual - doar chimic. Si daca se infunda serios, cam aia a fost.
+**Limitare:** nu pot fi demontate pentru curățare mecanică; curățarea posibilă este doar chimică (recirculare cu soluție de curățare). La colmatare severă, înlocuirea este singura soluție.
 
-**Foloseste pentru:** HVAC, racire ulei hidraulic, pompe de caldura, procese curate.
+**Se folosesc pentru:** HVAC, răcire ulei hidraulic, pompe de căldură, procese cu fluide curate, fără particule.
 
-**Branduri cu care lucram:** SWEP ([Alfa Laval](/brand/alfa-laval)), Danfoss, [Kelvion](/brand/kelvion).
+**Producători cu game relevante:** [SWEP](/brand/swep), [Alfa Laval](/brand/alfa-laval), [Kelvion](/brand/kelvion).
 
-### Placi demontabile (PHE)
+### Plăci demontabile (PHE, cu garnituri)
 
-Au garnituri intre placi, deci se pot demonta si curata mecanic. Capacitatea se poate modifica adaugand sau scotand placi.
+Plăcile sunt presate într-un cadru și separate prin garnituri elastomerice, ceea ce permite demontarea și curățarea mecanică. Capacitatea termică poate fi ajustată prin adăugarea sau eliminarea de plăci.
 
-Puncte forte: le desfaci si le cureti cand vrei - esential daca ai fluide care depun. Poti sa adaugi sau sa scoti placi daca se schimba necesarul. Si daca se strica ceva, inlocuiesti doar placa sau garnitura afectata.
+**Caracteristici:** acces pentru curățare mecanică periodică; flexibilitate la modificarea necesarului termic; la defect, se înlocuiește doar placa sau garnitura afectată, nu întregul ansamblu.
 
-Ce sa ai in vedere: garniturile tin cam 5-10 ani si trebuie schimbate. Costa mai mult decat brazatele la puteri mici. Si da, au nevoie de intretinere periodica.
+**De avut în vedere:** garniturile elastomerice au o durată de viață limitată și trebuie înlocuite periodic; costul de achiziție este de regulă mai mare decât la un BPHE de aceeași putere.
 
-**Foloseste pentru:** Industria alimentara (lapte, bere, sucuri), procese unde curatarea frecventa e necesara.
+**Se folosesc pentru:** industria alimentară (lapte, bere, sucuri) și orice proces în care fluidul depune reziduuri și necesită curățare mecanică regulată.
 
-**Branduri:** Alfa Laval, Kelvion, GEA.
+**Producători cu game relevante:** [Alfa Laval](/brand/alfa-laval), [Kelvion](/brand/kelvion), [GEA](/brand/gea).
 
-### Tubulare (Shell & Tube)
+### Tubulare (shell & tube)
 
-Constructie clasica: un manunchi de tevi intr-o carcasa. Un fluid curge prin tevi, celalalt prin carcasa.
+Construcție clasică: un mănunchi de țevi montat într-o carcasă (manta). Un fluid circulă prin țevi, celălalt prin manta.
 
-Unde stralucesc: presiuni foarte mari (peste 100 bar), fluide murdare sau agresive, si constructie atat de robusta incat par indestructibile.
+**Caracteristici:** rezistență la presiuni de lucru ridicate, toleranță la fluide cu particule solide sau agresive chimic, construcție robustă cu o mentenanță structurală redusă.
 
-Compromisuri: ocupa mult spatiu si nu sunt la fel de eficiente termic ca cele cu placi.
+**Limitare:** ocupă un volum mai mare și au o eficiență de transfer termic mai scăzută pe unitate de suprafață decât schimbătoarele cu plăci.
 
-**Foloseste pentru:** Petrochimie, rafinarii, centrale electrice.
+**Se folosesc pentru:** petrochimie, rafinării, centrale electrice și alte aplicații cu presiuni mari sau fluide dificile.
 
-## Greseli frecvente pe care le vedem
+## Erori frecvente de dimensionare
 
-### 1. Subdimensionare pentru costuri mai mici
+### Subdimensionarea pentru reducerea costului de achiziție
 
-Am avut clienti care au cerut oferta pentru schimbator mai mic ca sa economiseasca. Dupa 6 luni, schimbatorul nu mai facea fata si a trebuit inlocuit. Economia de 2.000 EUR la achizitie s-a transformat in pierdere de 8.000 EUR.
+Un schimbător ales strict după cel mai mic preț de listă, fără marjă pentru variații de debit sau de temperatură, poate ajunge insuficient pe măsură ce condițiile reale de exploatare se abat de la cele teoretice, ceea ce impune înlocuirea anticipată a echipamentului.
 
-### 2. Material gresit
+### Alegerea materialului greșit pentru mediul de lucru
 
-Apa din sistemele de racire in circuitul secundar pare inofensiva, dar daca are cloruri (frecvent in anumite zone din Romania), inoxul 316 e obligatoriu. Am vazut schimbatoare din inox 304 perforate in 2 ani. Integreaza [senzori de temperatură](/senzori-instrumentatie) pentru monitorizare continua.
+Apa cu conținut de cloruri (frecventă în anumite surse din România) necesită plăci sau țevi din oțel inoxidabil rezistent la coroziune prin clorură (de exemplu inox austenitic cu molibden, tip 316), nu inox 304, care este mai vulnerabil la coroziune punctiformă (pitting) în prezența clorurilor. Monitorizarea temperaturii pe ambele circuite, cu [senzori de temperatură](/senzori-instrumentatie/senzori-temperatura), ajută la depistarea din timp a unei derive de funcționare.
 
-### 3. Ignorarea depunerilor
+### Ignorarea depunerilor (fouling)
 
-Orice schimbator isi pierde eficienta in timp din cauza depunerilor. Trebuie fie sa cureti periodic, fie sa supradimensionezi initial ca sa compensezi. Noi recomandam 10-15% marja pentru aplicatii curate, 20-30% pentru aplicatii cu depuneri.
+Orice schimbător își pierde treptat eficiența din cauza depunerilor pe suprafețele de transfer termic. Practica uzuală de proiectare include o marjă suplimentară de suprafață peste necesarul teoretic, mai mare pentru fluide care depun (apă dură, fluide vâscoase) și mai mică pentru fluide curate, plus un plan de curățare periodică proporțional cu tendința de colmatare a fluidului.
 
-### 4. Debit prea mic
+### Debit sub limita minimă recomandată
 
-Schimbatoarele cu placi au nevoie de o viteza minima a fluidului ca sa functioneze eficient si sa nu se infunde. Daca debitul e prea mic, alege un model mai mic sau gandeste altfel instalatia.
+Schimbătoarele cu plăci necesită o viteză minimă a fluidului pentru a funcționa eficient și pentru a preveni colmatarea locală. Dacă debitul disponibil este prea mic pentru un model dat, soluția este fie un model mai mic, fie o reconfigurare a circuitului.
 
-## Cum sa ceri o oferta corecta
+## Piese de schimb și disponibilitate
 
-Avem nevoie de:
-- Puterea termica necesara (kW)
-- Temperaturile de intrare si iesire pentru ambele fluide
+La plăcile demontabile, disponibilitatea garniturilor și a plăcilor de schimb variază semnificativ între producători. Pentru sisteme complete, schimbătoarele se pot completa cu [echipamente termice](/echipamente-termice) precum chillere sau turnuri de răcire, dimensionate pentru același circuit.
+
+## Ce date să trimiteți pentru ofertă
+
+- Puterea termică necesară (kW)
+- Temperaturile de intrare și ieșire pentru ambele fluide
 - Debitele pe ambele circuite
-- Ce fluide sunt (apa, glicol, ulei - specificatii exacte)
-- Pierderile de sarcina admisibile
-- Presiunea de lucru
+- Natura fluidelor (apă, glicol, ulei) și eventualul conținut de particule sau agenți corozivi (ex. cloruri)
+- Pierderea de presiune admisibilă pe fiecare circuit
+- Presiunea de lucru și eventuale cerințe de certificare (ex. PED)
 
-Fara aceste date, orice dimensionare e ghicire.
-
-## Un pont: intreaba de piese de schimb
-
-Inainte sa cumperi un [schimbator de caldura](/schimbatoare-caldura) de la un brand obscur care pare ieftin, intreaba cat costa garniturile de schimb si care e disponibilitatea. Am vazut clienti care au economisit 20% la achizitie si apoi au asteptat 8 saptamani pentru garnituri din China. Pentru sisteme complete, ia in calcul si [echipamente termice](/echipamente-termice) complementare precum chillere si turnuri de racire.
-
-[Alfa Laval](/brand/alfa-laval), [Kelvion](/brand/kelvion), SWEP au piese disponibile rapid in Europa. Merita diferenta de pret.
+Pentru o ofertă adaptată aplicației dumneavoastră, transmiteți aceste date prin pagina de [contact](/contact).
     `,
-    author: 'D.M., Inginer Proiectare',
-    authorId: 'author-005',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-12-10',
-    dateModified: '2026-01-24',
-    readTime: '7 min',
-    category: 'Ghiduri Tehnice',
-    tags: ['schimbatoare caldura', 'alfa laval', 'kelvion', 'transfer termic'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Ghiduri tehnice",
+    tags: ["schimbatoare caldura", "alfa laval", "kelvion", "transfer termic"],
     image: '/blog/schimbatoare-caldura.jpg',
     featured: false,
   },
   {
     id: 7,
     slug: 'suflante-industriale-tipuri-aplicatii',
-    title: 'Suflante Industriale: Canal Lateral, Roots sau Centrifugale?',
-    shortTitle: 'Tipuri de Suflante Industriale',
-    excerpt: 'Trei tipuri de suflante pentru trei tipuri de aplicatii. Cum alegi si ce trebuie sa stii despre fiecare.',
+    title: "Suflante industriale: canal lateral, Roots sau centrifugale?",
+    shortTitle: "Tipuri de suflante industriale",
+    excerpt: "Comparăm cele trei tipuri principale de suflante industriale — canal lateral, Roots și centrifugale — pe presiune, debit și criteriile de alegere.",
     content: `
-[Suflantele industriale](/suflante-ventilatoare) furnizeaza aer sau gaze la presiuni joase sau medii. Pare simplu, dar alegerea gresita poate costa mult - fie in energie, fie in intretinere.
+[Suflantele industriale](/suflante-ventilatoare) furnizează aer sau gaz la presiuni joase sau medii. Tipul constructiv potrivit depinde de presiunea și debitul necesare, de sensibilitatea aplicației la zgomot și de prezența particulelor în aerul vehiculat.
 
-## Canal lateral (Side Channel)
+## Canal lateral (side channel)
 
-Functioneaza prin accelerarea aerului intr-un canal in forma de inel. Sunt cele mai silentioase si nu folosesc ulei.
+Funcționează prin accelerarea aerului într-un canal în formă de inel, cu un rotor cu palete.
 
-Date tehnice: presiune pana la 500 mbar, debit 10-2.000 m³/h, functionare fara ulei, zgomot scazut.
+**Domeniu tipic:** presiune până la ~500 mbar, debit până la ~2.000 m³/h, funcționare fără ulei, zgomot relativ scăzut față de celelalte tipuri.
 
-Le vezi in: statii de epurare mici si medii, transport pneumatic pentru granule si pulberi, aspiratie industriala, masini de ambalat.
+**Aplicații:** stații de epurare mici și medii, transport pneumatic pentru granule și pulberi, aspirație industrială, mașini de ambalat.
 
-De ce ne plac: simplitate si fiabilitate. Un [Becker](/brand/becker) sau [FPZ](/brand/fpz) bun poate merge 10-15 ani fara batai de cap - practic doar schimbi [filtrul de aspirație](/filtre-consumabile) din cand in cand.
+**Producători cu game relevante:** [Becker](/brand/becker), [FPZ](/brand/fpz).
 
-Un avertisment: nu le place praful. Daca aerul aspirat contine particule, monteaza filtru bun. Altfel, paletele se uzeaza mult mai repede decat ar trebui.
+**De reținut:** rotorul este sensibil la particule abrazive din aerul aspirat; un [filtru de aer](/filtre-consumabile/filtre-aer) corect dimensionat la aspirație reduce semnificativ uzura paletelor.
 
-### Roots (cu lobi)
+## Roots (cu lobi)
 
-Doua rotoare in forma de "8" se rotesc sincronizat si imping aerul. Sunt mai zgomotoase, dar pot livra debite mult mai mari.
+Două rotoare în formă de "8" se rotesc sincronizat, fără a se atinge, și transportă aerul între carcasă și rotoare.
 
-Specificatii: presiune pana la 1 bar, debit 100-50.000 m³/h, necesita ulei pentru rulmenti si sincronizare.
+**Domeniu tipic:** presiune până la ~1 bar, debit 100-50.000 m³/h, necesită ulei pentru lagăre și angrenajul de sincronizare.
 
-Unde le gasesti: bazine biologice mari, transport cereale/ciment/faina, fluidizare in chimie, orice proces care cere debit constant indiferent de presiune.
+**Aplicații:** bazine biologice mari, transport pneumatic de cereale, ciment sau făină, fluidizare în chimie și orice proces care necesită debit constant indiferent de variațiile de presiune.
 
-Marele avantaj: debitul ramane aproape constant chiar daca variaza presiunea. La canal lateral, cand creste presiunea, scade debitul. La Roots - nu.
+**Avantaj caracteristic:** debitul rămâne aproape constant chiar dacă presiunea de lucru variază — spre deosebire de canal lateral, unde debitul scade odată cu creșterea presiunii.
 
-Ce sa stii dinainte: fac galagi. Serios. Pune-le intr-o incapere separata sau cumpara cabina de insonorizare. Si consuma mai mult decat canal lateral - alege-le doar cand chiar ai nevoie de ce ofera ele specific.
+**Producători cu game relevante:** [Aerzen](/brand/aerzen), [Kaeser](/brand/kaeser).
 
-Aerzen si Kaeser sunt brandurile de referinta in Romania pentru Roots.
+**De reținut:** nivelul de zgomot este mai ridicat decât la celelalte tipuri, motiv pentru care se montează frecvent în incinte insonorizate sau cabine dedicate; consumul energetic este de asemenea mai mare la aceeași presiune.
 
 ## Ventilatoare centrifugale
 
-Functioneaza pe principiul pompelor centrifugale - rotorul accelereaza aerul care e aruncat spre exterior.
+Funcționează pe principiul pompelor centrifugale: rotorul accelerează aerul, care este apoi evacuat radial prin carcasă.
 
-Pe scurt: presiune pana la 200 mbar (de obicei mai putin), debit 500-100.000 m³/h, constructie simpla.
+**Domeniu tipic:** presiune de regulă sub 200 mbar, debit 500-100.000 m³/h, construcție relativ simplă.
 
-Aplicatii tipice: ventilatie hale, hote de aspiratie, sisteme de filtrare, transport materiale usoare pe distante scurte.
+**Aplicații:** ventilație hale industriale, hote de aspirație, sisteme de filtrare a aerului, transport de materiale ușoare pe distanțe scurte.
 
-Limitarea lor: pentru presiuni peste 100-150 mbar, nu mai sunt eficiente. La presiuni mai mari, treci pe canal lateral sau Roots.
+**Limitare:** peste aproximativ 100-150 mbar, eficiența scade semnificativ; pentru presiuni mai mari se recomandă canal lateral sau Roots.
 
-## Tabel comparativ rapid
+## Tabel comparativ
 
 | Criteriu | Canal lateral | Roots | Centrifugal |
 |----------|---------------|-------|-------------|
-| Presiune max | 500 mbar | 1000 mbar | 200 mbar |
-| Debit max | 2.000 m³/h | 50.000 m³/h | 100.000 m³/h |
-| Zgomot | Scazut | Ridicat | Mediu |
-| Ulei | Nu | Da (rulmenti) | Nu |
-| Mentenanta | Minima | Medie | Minima |
+| Presiune max. tipică | ~500 mbar | ~1.000 mbar | ~200 mbar |
+| Debit max. tipic | ~2.000 m³/h | ~50.000 m³/h | ~100.000 m³/h |
+| Zgomot | Scăzut | Ridicat | Mediu |
+| Ulei | Nu | Da (lagăre) | Nu |
 
-## Despre eficienta
+## Despre eficiența energetică
 
-Suflantele pot consuma multa energie. Cateva reguli:
+Suflantele funcționează adesea continuu, astfel încât eficiența energetică influențează direct costul de exploatare. Câteva principii general acceptate în dimensionare:
 
-1. **Nu supradimensiona** - o suflanta prea mare consuma mai mult si functioneaza ineficient
-2. **Foloseste [automatizări control suflante](/automatizari-industriale)** daca debitul necesar variaza - VFD-urile economisesc energie substanțiala
-3. **Curata filtrele** - un filtru infundat creste consumul cu 10-15%
-4. **Verifica pierderile din conducte** - o scurgere de aer de 3mm la 6 bar pierde aproximativ 1.500 EUR/an
+- **Evitați supradimensionarea** — o suflantă supradimensionată funcționează frecvent departe de punctul optim de eficiență.
+- **Luați în calcul un [convertizor de frecvență](/motoare-electrice/convertizoare-frecventa-industriale)** atunci când debitul necesar variază în timp: pentru mașini centrifugale (suflante, ventilatoare), puterea absorbită variază aproximativ cu cubul turației (legea afinității, P ~ n³), astfel încât o reducere a turației la debit mai mic aduce o scădere disproporționat de mare a puterii consumate.
+- **Mențineți filtrele curate** — un filtru colmatat crește pierderea de presiune pe care motorul trebuie să o compenseze.
+- **Verificați etanșeitatea rețelei de aer** — pierderile pe conducte și racorduri reduc eficiența globală a instalației.
 
-## Cum sa alegi
+## Cum alegeți tipul potrivit
 
-1. Calculeaza debitul necesar (m³/h sau m³/min)
-2. Determina presiunea sau vidul necesar (mbar)
-3. Verifica mediul - temperatura, umiditate, particule
-4. Alege tipul conform tabelului de mai sus
-5. Cere oferte de la 2-3 furnizori si compara nu doar pretul, ci si consumul energetic
+1. Calculați debitul necesar (m³/h sau m³/min).
+2. Determinați presiunea sau vidul necesar (mbar).
+3. Verificați condițiile de mediu — temperatură, umiditate, particule în aerul vehiculat.
+4. Alegeți tipul constructiv conform tabelului comparativ de mai sus.
+5. Solicitați oferte comparabile de la mai mulți furnizori și evaluați atât prețul de achiziție, cât și consumul energetic estimat.
 
-Daca ai dubii, trimite-ne datele si te ajutam cu dimensionarea. Vezi gama completa de [suflante industriale](/suflante-ventilatoare) pe site. Am livrat sute de suflante in ultimii ani si stim ce functioneaza in ce aplicatie.
+Pentru aplicații la limita dintre două tipuri (de exemplu presiune și debit ambele ridicate), o discuție tehnică prealabilă ajută la evitarea unei alegeri nepotrivite. Consultați gama completă de [suflante industriale](/suflante-ventilatoare) și, pentru aplicații de vid, secțiunea de [compresoare industriale](/suflante-ventilatoare/compresoare-industriale).
+
+## Ce date să trimiteți pentru ofertă
+
+- Debitul necesar (m³/h) și presiunea sau vidul de lucru (mbar)
+- Temperatura și umiditatea aerului sau gazului vehiculat
+- Prezența particulelor sau a substanțelor corozive în fluidul vehiculat
+- Regimul de funcționare (continuu, intermitent, debit variabil)
+- Nivelul de zgomot admis la locul de montaj
+- Zona de montaj, dacă există risc de atmosferă explozivă
+
+Pentru o recomandare adaptată aplicației dumneavoastră, transmiteți aceste date prin pagina de [contact](/contact).
     `,
-    author: 'R.S., Specialist Suflante',
-    authorId: 'author-006',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-12-05',
-    dateModified: '2026-01-24',
-    readTime: '6 min',
-    category: 'Ghiduri Tehnice',
-    tags: ['suflante', 'ventilatoare', 'becker', 'fpz', 'aerzen'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Ghiduri tehnice",
+    tags: ["suflante", "ventilatoare", "becker", "fpz", "aerzen"],
     image: '/blog/suflante-industriale.jpg',
     featured: false,
   },
   {
     id: 8,
     slug: 'garnituri-mecanice-ghid-complet',
-    title: 'Garnituri Mecanice: De Ce Se Defecteaza si Cum Le Prelungesti Viata',
-    shortTitle: 'Garnituri Mecanice: Ghid Complet',
-    excerpt: 'Garnitura mecanica e punctul vulnerabil al oricarei pompe. Iata ce le distruge si cum eviti inlocuirea prematura.',
+    title: "Garnituri mecanice: de ce cedează și cum le prelungiți durata de viață",
+    shortTitle: "Garnituri mecanice: ghid complet",
+    excerpt: "Cauzele tehnice principale ale defectării garniturilor mecanice la pompe industriale, măsurile de prevenire pentru fiecare și tipurile constructive disponibile.",
     content: `
-In toti anii de service pentru [pompe industriale](/pompe-industriale) - si vorbim de multe pompe - estimez ca undeva la 40% din interventii au fost pentru garnituri mecanice. Fie curgeau, fie erau complet distruse. Si in majoritatea cazurilor, cauza era evitabila.
+Garnitura mecanică este componenta care etanșează arborele rotativ al unei [pompe industriale](/pompe-industriale) față de carcasă. Este, prin construcție, un punct sensibil: funcționează la echilibrul dintre două fețe care alunecă una pe cealaltă cu un film subțire de fluid între ele, iar orice abatere de la condițiile normale de funcționare îi reduce durata de viață.
 
-## Ce face o garnitura mecanica
+## Ce face o garnitură mecanică
 
-Pe scurt: etanseaza arborele rotativ al pompei. Fara ea, fluidul ar curge in exterior de-a lungul arborelui.
+Etanșează spațiul dintre arborele rotativ și carcasa fixă a pompei; fără ea, fluidul pompat ar curge spre exterior de-a lungul arborelui. Constructiv, are două fețe (una fixă, una rotativă) menținute în contact de un arc, plus o-ringuri pentru etanșarea secundară; filmul subțire de fluid dintre fețe are rol de lubrifiere și răcire.
 
-Constructia e simpla in principiu: doua fete (una fixa, una rotativa) care aluneca una pe cealalta cu un film subtire de fluid intre ele. Arcuri care mentin contactul. O-ringuri pentru etansare secundara.
+## Cauzele principale ale defectării
 
-In practica, e un echilibru delicat. Orice abatere de la conditiile normale si garnitura sufera.
+### 1. Funcționarea în uscat
 
-## Cauzele principale ale defectarii
+Fără filmul de fluid dintre fețe, temperatura de contact crește foarte rapid, iar fețele se deteriorează ireversibil.
 
-### 1. Functionare in uscat (cea mai frecventa)
+**Cauze:** pornire fără aerisire completă; funcționare cu rezervorul de aspirație gol; cavitație severă și prelungită.
 
-Filmul de fluid dintre fete are rol de lubrifiere si racire. Fara el, temperatura creste la cateva sute de grade in secunde. Fetele se distrug.
+**Prevenire:** aerisirea completă înainte de fiecare pornire; protecție la funcționare fără fluid (senzor de nivel sau de debit minim); investigarea zgomotelor de cavitație.
 
-**Cum se intampla:**
-- Pornire pompa fara aerisire completa
-- Functionare cu rezervor gol
-- Cavitatie severa
+### 2. Temperatura excesivă
 
-**Cum eviti:**
-- Aeriseste INTOTDEAUNA pompa inainte de prima pornire
-- Monteaza protectie la functionare in gol (senzor de nivel sau debit minim)
-- Nu ignora zgomotele de cavitatie
+Elastomerii folosiți la o-ringuri au limite de temperatură specifice materialului — de exemplu, EPDM este utilizat de regulă până la aproximativ 140°C, iar FKM (Viton) până la aproximativ 200°C, în funcție de compoziție și de fluidul de lucru. Peste limita materialului, elastomerul își pierde elasticitatea și etanșeitatea.
 
-### 2. Temperatura excesiva
+**Cauze:** fluid mai cald decât limita garniturii alese; răcire insuficientă în zona garniturii; funcționare prelungită la debit redus (pompa se încălzește intern).
 
-Elastomerii (o-ringurile) au limite de temperatura. EPDM merge pana la aproximativ 140°C, Viton pana la 200°C. Peste aceste limite, se intaresc si nu mai etanseaza.
-
-**Cum se intampla:**
-- Fluid prea cald pentru tipul de garnitura ales
-- Racire insuficienta a zonei garniturii
-- Functionare la debit redus prelungita (pompa se incalzeste)
-
-**Cum eviti:**
-- Alege garnitura potrivita temperaturii
-- Verifica sa existe circulatie in zona garniturii
-- Nu inchide robinetul de refulare cand pompa merge
+**Prevenire:** alegerea materialului după temperatura reală de lucru; circulație de fluid asigurată în zona garniturii; niciodată cu robinetul de refulare închis.
 
 ### 3. Particule abrazive
 
-Nisip, rugina, cristale - orice particula solida care ajunge intre fete le zgarie si uzeaza. [Componentele mecanice de etanșare](/componente-mecanice) sunt vulnerabile la particule dure.
+Particulele solide (nisip, rugină, cristale) care ajung între fețele de etanșare le zgârie și le uzează prematur. [Componentele mecanice de etanșare](/componente-mecanice/garnituri-simering) sunt în mod inerent vulnerabile la particule dure.
 
-**Cum eviti:**
-- Filtreaza fluidul
-- Foloseste fete din materiale dure (SiC/SiC pentru abrazive)
-- Aplica [lubrifianți pentru garnituri](/lubrifianti-chimice) compatibili cu materialele
-- La pompe pentru fluide murdare, ia in calcul garnitura externa cu fluid de bariera curat
+**Prevenire:** filtrarea fluidului pompat; fețe din materiale dure (ex. carbură de siliciu) pentru fluide abrazive; [lubrifianți compatibili](/lubrifianti-chimice/unsori-industriale) cu materialele garniturii; la fluide foarte murdare, garnitură dublă cu fluid de barieră curat.
 
-### 4. Vibratii si dezaliniere
+### 4. Vibrații și dezaliniere
 
-Fetele garniturii trebuie sa fie perpendiculare pe arbore. Daca arborele bate sau pompa e dezaliniata, garnitura "lucreaza" si se uzeaza neuniform.
+Fețele garniturii trebuie să rămână perpendiculare pe arbore. Dacă arborele are joc sau grupul pompă-motor este dezaliniat, garnitura este supusă unor sarcini neuniforme și se uzează accelerat.
 
-**Cum eviti:**
-- Aliniere corecta pompa-motor
-- Verifica rulmentii (jocul excesiv transmite vibratii)
-- Nu forta conducte pe flanse - creeaza tensiuni
+**Prevenire:** aliniere corectă a grupului pompă-motor; verificarea periodică a lagărelor; montarea conductelor fără a forța flanșele.
 
-## Tipuri de garnituri
+## Tipuri constructive de garnituri
 
 ### Simple
-O singura fata de etansare. Pentru majoritatea aplicatiilor cu fluide nepericuloase.
+O singură față de etanșare. Potrivite pentru majoritatea aplicațiilor cu fluide nepericuloase.
 
 ### Duble (back-to-back)
-Doua garnituri cu fluid de bariera intre ele. Obligatorii pentru fluide toxice sau cand scurgerile nu sunt acceptabile.
+Două garnituri cu un fluid de barieră între ele, obligatorii pentru fluide toxice sau pentru aplicații unde scurgerile nu sunt acceptate. Fluidul de barieră trebuie menținut la o presiune mai mare decât fluidul pompat, astfel încât, dacă garnitura interioară cedează, fluidul de barieră pătrunde în pompă, nu invers.
 
-Fluidul de bariera (de obicei apa sau ulei) trebuie mentinut la presiune mai mare decat fluidul pompat. Daca garnitura interioara cedeaza, fluidul de bariera intra in pompa, nu invers.
+### Cartuș (pre-asamblate)
+Vin asamblate din fabrică pe o bucșă, ceea ce elimină erorile de montaj manual; se înlocuiesc ca ansamblu complet, fără reglaje suplimentare.
 
-### Cartus (pre-asamblate)
-Vin montate din fabrica pe o bucsa. Le inlocuiesti ca un ansamblu, fara sa reglezi nimic. Mai scumpe, dar elimina greselile de montaj.
+## Combinații uzuale de materiale pentru fețe
 
-## Materiale fete
-
-| Combinatie | Aplicatie |
-|------------|-----------|
-| Carbon / Ceramic | Standard, fluide curate |
-| Carbon / SiC | Fluide cu abrazivi fini |
+| Combinație | Aplicație tipică |
+|------------|-------------------|
+| Carbon / Ceramic | Fluide curate, uz general |
+| Carbon / carbură de siliciu (SiC) | Fluide cu abrazivi fini |
 | SiC / SiC | Abrazivi grei, presiuni mari |
-| WC / WC | Presiuni foarte mari |
+| Carbură de wolfram / carbură de wolfram | Presiuni foarte mari |
 
-## Cand inlocuiesti
+## Când se recomandă înlocuirea
 
-Semne clare:
-- Scurgeri vizibile peste cateva picaturi pe minut
-- Zgomot de frecatura din zona garniturii
-- Urme de uzura pe arbore in zona de contact
+**Semne de defect:** scurgeri vizibile continue; zgomot de frecare în zona garniturii; urme de uzură pe arbore în zona de contact cu garnitura.
 
-Preventiv:
-- La service-ul anual, indiferent de stare
-- Dupa orice incident (functionare in gol, supraincalzire)
+**Preventiv:** la verificarea tehnică periodică a pompei, indiferent de starea aparentă; după orice incident de funcționare în gol sau de supraîncălzire.
 
-## Unde gasesti piese
+## Disponibilitate piese
 
-Avem in stoc garnituri pentru [Grundfos](/brand/grundfos), [Wilo](/brand/wilo), [KSB](/brand/ksb) - modelele curente. Pentru alte marci sau modele mai vechi, comandam de la Burgmann sau John Crane, livrare de obicei in 5-7 zile.
+Pentru [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) și [KSB](/brand/ksb) pe modelele curente, precum și pentru producători specializați în etanșări (Burgmann, John Crane): 24-72 h pentru reperele aflate pe stoc în România sau într-un depozit din Europa; din fabrică, de regulă 2-4 săptămâni. Precizarea modelului exact de pompă și, dacă e posibil, o fotografie a garniturii vechi reduc riscul unei comenzi greșite.
 
-Sfat: cand comanzi, spune modelul exact de pompa si daca se poate, trimite poza cu garnitura veche. Exista multe variante si e usor sa comanzi gresit.
+## Ce date să trimiteți pentru ofertă
+
+- Marca și modelul exact al pompei
+- Diametrul arborelui în zona garniturii
+- Fluidul pompat, temperatura și presiunea de lucru
+- Prezența particulelor abrazive sau a substanțelor corozive
+- Fotografie a garniturii existente, dacă este disponibilă
+- Tipul constructiv dorit (simplă, dublă, cartuș), dacă este cunoscut
+
+Pentru identificarea reperului corect, transmiteți aceste date prin pagina de [contact](/contact).
     `,
-    author: 'E.V., Inginer Service',
-    authorId: 'author-004',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-11-28',
-    dateModified: '2026-01-24',
-    readTime: '7 min',
-    category: 'Mentenanta',
-    tags: ['garnituri mecanice', 'pompe', 'etansare', 'piese schimb'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Mentenanță",
+    tags: ["garnituri mecanice", "pompe", "etansare", "piese schimb"],
     image: '/blog/garnituri-mecanice.jpg',
     featured: false,
   },
   {
     id: 9,
     slug: 'echipamente-atex-ghid-zone-periculoase',
-    title: 'Echipamente ATEX: Ce Trebuie Sa Stii Inainte Sa Comanzi',
-    shortTitle: 'Echipamente ATEX: Ghid Practic',
-    excerpt: 'Zone, categorii, marcaje - ATEX pare complicat, dar nu e. Iata esentialul pentru a alege corect echipamente pentru zone cu risc de explozie.',
+    title: "Echipamente ATEX: zone, categorii și marcaj — ce trebuie să știți",
+    shortTitle: "Echipamente ATEX: ghid practic",
+    excerpt: "Clasificarea zonelor cu risc de explozie, categoriile de echipamente și modul de citire a marcajului Ex, conform Directivei 2014/34/UE (ATEX).",
     content: `
-ATEX vine de la "ATmospheres EXplosibles". E directiva europeana care reglementeaza echipamentele pentru zone cu risc de explozie. Daca lucrezi in petrochimie, chimie, silozuri de cereale sau orice loc unde exista gaze sau prafuri explozive, te priveste.
-
-Nu e complicat odata ce intelegi logica.
+ATEX este denumirea uzuală pentru cadrul de reglementare european privind echipamentele destinate atmosferelor potențial explozive ("ATmosphères EXplosibles"), stabilit la nivelul UE prin **Directiva 2014/34/UE**. În petrochimie, chimie, silozuri de cereale sau orice spațiu unde pot apărea gaze, vapori sau prafuri explozive, echipamentele montate în zonele cu risc trebuie să respecte această directivă.
 
 ## Clasificarea zonelor
 
-Zonele se clasifica dupa frecventa cu care apare atmosfera exploziva.
+Zonele se clasifică după frecvența și durata prezenței unei atmosfere explozive. Clasificarea este responsabilitatea operatorului instalației (documentată printr-un studiu de clasificare a ariilor periculoase); furnizorul livrează conform zonei comunicate de client.
 
-**Pentru gaze si vapori:**
-- **Zona 0** - atmosfera exploziva prezenta continuu sau pentru perioade lungi. Exemplu: interiorul unui rezervor cu solvent. Necesita [senzori ATEX](/senzori-instrumentatie) certificați.
-- **Zona 1** - atmosfera exploziva probabil sa apara in functionare normala. Exemplu: in jurul pompelor de transfer solventi.
-- **Zona 2** - atmosfera exploziva putin probabil sa apara, si daca apare, doar pentru scurt timp. Exemplu: zone cu ventilatie buna, dar unde e posibila scurgere accidentala.
+**Gaze și vapori:** Zona 0 — atmosferă explozivă prezentă continuu sau pentru perioade lungi (ex. interiorul unui rezervor cu solvent); Zona 1 — probabilă în funcționare normală (ex. în jurul unor puncte de transfer solvenți); Zona 2 — puțin probabilă și, dacă apare, doar pentru scurt timp.
 
-**Pentru prafuri:**
-- **Zona 20** - nor de praf exploziv prezent continuu
-- **Zona 21** - nor de praf probabil in functionare normala
-- **Zona 22** - nor de praf putin probabil
+**Prafuri combustibile:** Zona 20 — nor de praf exploziv continuu; Zona 21 — probabil în funcționare normală; Zona 22 — puțin probabil.
 
-Clasificarea zonelor e responsabilitatea operatorului. Ca furnizor de echipamente, noi livram conform specificatiei - dar trebuie sa stii in ce zona montezi.
+Monitorizarea parametrilor de proces în aceste zone se face cu [senzori certificați ATEX](/senzori-instrumentatie), specificați pentru zona și grupa relevantă.
 
-## Categoriile echipamentelor
+## Categoriile de echipamente
 
-Echipamentele sunt certificate pentru anumite zone:
+Directiva 2014/34/UE stabilește categorii de echipamente în funcție de nivelul de protecție oferit, corelat cu zonele în care pot fi montate:
 
-| Categorie | Poate fi folosit in Zone |
-|-----------|--------------------------|
-| 1G | 0, 1, 2 (gaze) |
-| 2G | 1, 2 (gaze) |
-| 3G | doar 2 (gaze) |
-| 1D | 20, 21, 22 (praf) |
-| 2D | 21, 22 (praf) |
-| 3D | doar 22 (praf) |
+| Categorie | Zone (gaze) | Categorie | Zone (praf) |
+|-----------|-------------|-----------|-------------|
+| 1G | 0, 1, 2 | 1D | 20, 21, 22 |
+| 2G | 1, 2 | 2D | 21, 22 |
+| 3G | doar 2 | 3D | doar 22 |
 
-Regula simpla: categoria 1 merge oriunde, categoria 2 merge in zonele mai putin periculoase, categoria 3 doar in zonele cu risc minim.
+Regula generală: categoria 1 merge în orice zonă (inclusiv risc continuu), categoria 2 doar în zonele cu risc mai redus, categoria 3 doar unde probabilitatea e scăzută.
 
-## Tipuri de protectie
+## Tipuri de protecție (modul de construcție)
 
-Litera de dupa "Ex" arata cum e protejat echipamentul:
+Litera de după "Ex" indică principiul constructiv de protecție, definit prin standardele armonizate din seria SR EN 60079:
 
-**Ex d - carcasa antideflagranta**
-Daca explodeaza in interior, carcasa rezista si nu transmite explozia in exterior. Folosit la motoare, comutatoare.
+- **Ex d — carcasă antideflagrantă:** reține o explozie internă și nu o transmite spre exterior. Folosit la motoare electrice și aparataj de comutație.
+- **Ex e — siguranță mărită:** limitează apariția arcului electric sau a supraîncălzirii. Folosit la cutii de joncțiune și transformatoare.
+- **Ex p — presurizare internă:** carcasa e menținută sub presiune de aer sau gaz curat, care împiedică pătrunderea atmosferei explozive. Folosit la panouri de control mari.
+- **Ex n — fără scânteiere:** componente care nu produc arcuri sau scântei în funcționare normală. Utilizabil doar în Zona 2 (respectiv 22).
 
-**Ex e - siguranta marita**
-Constructie care previne aparitia arcului electric sau a supraincalzirii. Cutii de jonctiuni, transformatoare.
+## Cum se citește marcajul
 
-**Ex p - presiune interna**
-Carcasa e presurizata cu aer curat, impiedicand patrunderea gazelor. Panouri de control mari.
+Exemplu de marcaj: **II 2G Ex d IIB T4 Gb**
 
-**Ex n - non-scanteiere**
-Componente care in functionare normala nu produc scantei. Doar pentru Zona 2.
+- **II** — grupa echipamentului (II = suprafață, industrie de proces; I = industrie minieră)
+- **2G** — categoria 2, pentru atmosfere cu gaze
+- **Ex d** — tipul de protecție constructivă (carcasă antideflagrantă)
+- **IIB** — subgrupa de gaze (IIA, IIB, IIC, în ordine crescătoare a nivelului de risc; IIC include hidrogenul)
+- **T4** — clasa de temperatură, care limitează temperatura maximă de suprafață a echipamentului (T4 corespunde unui maxim de 135°C)
+- **Gb** — nivelul de protecție al echipamentului (EPL), aici echivalent categoriei 2 pentru gaze
 
-## Cum citesti marcajul
+## Familii de produse ATEX disponibile
 
-Exemplu: **II 2G Ex d IIB T4 Gb**
+**[Motoare electrice](/motoare-electrice/motoare-atex-industriale):** [Siemens](/brand/siemens) (seriile 1LE1/1MB1, protecție Ex d), [ABB](/brand/abb) (gama M3BP).
 
-- **II** - grupa (II = suprafata, I = mina)
-- **2G** - categoria 2, pentru gaze
-- **Ex d** - carcasa antideflagranta
-- **IIB** - grupa de gaze (IIA, IIB, IIC - IIC e cea mai periculoasa, include hidrogen)
-- **T4** - clasa de temperatura (max 135°C pe suprafata)
-- **Gb** - nivel de protectie al echipamentului
+**Pompe:** [KSB](/brand/ksb) (centrifugale Ex d), [Grundfos](/brand/grundfos) (submersibile certificate ATEX).
 
-## Ce vindem noi
+**Suflante:** [Becker](/brand/becker) și [FPZ](/brand/fpz), cu variante certificate Ex pentru pompe de vid și suflante canal lateral.
 
-**[Motoare electrice](/motoare-electrice) ATEX:**
-- [Siemens](/brand/siemens) 1LE1/1MB1 - gama completa Ex d
-- ABB M3BP - bun raport calitate-pret
-- Brook Crompton - specialist in ATEX, multe configuratii in stoc
+## Informații necesare la comandă
 
-**Pompe ATEX:**
-- KSB - centrifugale Ex d
-- Grundfos - submersibile ATEX
+1. **Zona** în care va fi montat echipamentul (0, 1, 2, 20, 21 sau 22)
+2. **Subgrupa de gaze** (IIA, IIB, IIC), dacă este cunoscută, sau substanța concretă prezentă
+3. **Temperatura maximă a mediului de montaj**
+4. **Clasa de temperatură necesară** (T1-T6), stabilită de studiul de clasificare a ariei
 
-**Suflante ATEX:**
-- Becker - pompe de vid ATEX
-- FPZ - canal lateral Ex
+Fără aceste date, conformitatea echipamentului cu zona de montaj nu poate fi confirmată.
 
-## Ce trebuie sa ne spui cand comanzi
+## Documentație și cost
 
-1. **Zona** in care va fi montat (0, 1, 2, 20, 21, 22)
-2. **Grupa de gaze** daca e cunoscuta (IIA, IIB, IIC) sau substanta concreta
-3. **Temperatura maxima a mediului**
-4. **Clasa de temperatura necesara** (T1-T6)
+Echipamentele ATEX se livrează cu certificat de conformitate, declarație UE de conformitate și instrucțiuni în limba română — de păstrat pentru controale și pentru dosarul tehnic al instalației. Costul de achiziție este mai ridicat față de varianta standard echivalentă, dat fiind proiectarea, testarea și certificarea suplimentare; alegerea corectă rămâne totuși o cerință de conformitate, nu o opțiune. Pentru personal, se pot avea în vedere și [echipamente de protecție a muncii](/echipamente-auxiliare/protectie-munca) adecvate.
 
-Fara aceste date, nu putem garanta ca echipamentul e potrivit.
+Clasificarea zonelor rămâne responsabilitatea operatorului, stabilită cu specialistul intern SSM sau cu o firmă autorizată pentru clasificări ATEX; furnizorul intervine ulterior, pe baza zonei deja stabilite.
 
-## Atentie la documentatie
+## Ce date să trimiteți pentru ofertă
 
-Echipamentele ATEX vin cu:
-- Certificat de conformitate
-- Declaratie CE
-- Instructiuni in limba romana
+- Zona ATEX de montaj (0/1/2 pentru gaze, 20/21/22 pentru praf)
+- Subgrupa de gaze sau praf, dacă este cunoscută
+- Clasa de temperatură necesară (T1-T6)
+- Temperatura ambientală la locul de montaj
+- Tipul de echipament necesar (motor, pompă, suflantă, senzor etc.) și parametrii de proces
+- Standardul sau schema de certificare solicitată (ATEX, IECEx), dacă este impusă de proiect
 
-Pastreaza-le. La controale, inspectorii le cer. Si daca se intampla ceva, lipsa documentatiei e problema serioasa.
-
-## Un lucru important
-
-Echipamentele ATEX costa mai mult - de la +30% pana la +100% fata de variantele standard. Dar nu e loc de economii. Un motor standard intr-o zona cu gaze e o bomba cu ceas. Investeste si in [echipamente protecție ATEX](/echipamente-auxiliare) complementare pentru siguranta maxima.
-
-Daca nu esti sigur de clasificarea zonei sau de ce echipament ai nevoie, vorbeste cu specialistul in SSM din firma sau cu o firma autorizata pentru clasificari ATEX. Noi te putem ajuta cu echipamentele - vezi gama de [robineti industriali ATEX](/robineti-industriali) pe site - dar clasificarea zonelor e responsabilitatea operatorului.
+Pentru verificarea disponibilității echipamentului potrivit zonei dumneavoastră, transmiteți aceste date prin pagina de [contact](/contact).
     `,
-    author: 'M.R., Inginer Aplicații',
-    authorId: 'author-002',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-11-20',
-    dateModified: '2026-01-24',
-    readTime: '8 min',
-    category: 'Ghiduri Tehnice',
-    tags: ['atex', 'zone periculoase', 'antiex', 'motoare atex'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Ghiduri tehnice",
+    tags: ["atex", "zone periculoase", "antiex", "motoare atex"],
     image: '/blog/atex-zone.jpg',
+    sources: [{"title": "Directiva 2014/34/UE (ATEX) — echipamente și sisteme de protecție destinate atmosferelor potențial explozive", "url": "https://eur-lex.europa.eu/eli/dir/2014/34/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}],
     featured: true,
   },
   {
     id: 10,
     slug: 'grundfos-vs-wilo-comparatie-pompe',
-    title: 'Grundfos vs Wilo: O Comparatie Onesta de la Cineva Care Le Vinde pe Amandoua',
-    shortTitle: 'Grundfos vs Wilo: Comparatie',
-    excerpt: 'Furnizăm ambele branduri. Nu avem favorit. Iata diferentele reale pe care le vedem.',
+    title: "Grundfos vs Wilo: comparație de game și criterii de alegere",
+    shortTitle: "Grundfos vs Wilo: comparație",
+    excerpt: "Comparăm gamele Grundfos și Wilo de pompe industriale și HVAC pe segmente de aplicație, fără ranking — cu criteriile tehnice care contează la alegere.",
     content: `
-E probabil cea mai frecventa intrebare pe care o primim despre [pompe industriale](/pompe-industriale): "[Grundfos](/brand/grundfos) sau [Wilo](/brand/wilo)?". Si pentru ca vindem ambele branduri, suntem intr-o pozitie buna sa raspundem obiectiv - nu avem interes sa iti vindem una in defavoarea celeilalte.
+Întrebarea "[Grundfos](/brand/grundfos) sau [Wilo](/brand/wilo)?" apare frecvent la alegerea unei [pompe industriale](/pompe-industriale). Răspunsul depinde de segmentul de aplicație și de criteriile de proiect, nu de un brand universal "mai bun": ambele companii produc pompe de zeci de ani pentru piețe industriale și HVAC, cu game care se suprapun pe multe segmente.
 
-Raspunsul scurt: ambele sunt excelente. Diferentele sunt in detalii.
+## Prezentare generală
 
-## Cateva vorbe despre istorie
+**Grundfos** este o companie daneză, fondată în 1945, cu un portofoliu extins de pompe pentru aplicații industriale, HVAC, apă și ape uzate.
 
-**Grundfos** - companie daneza fondata in 1945. Cel mai mare producator de pompe din lume dupa unii indicatori. Peste 19.000 de angajati.
+**Wilo** este o companie germană, fondată în 1872, cu game de pompe pentru aplicații similare — HVAC, apă, ape uzate și industrie.
 
-**Wilo** - companie germana, fondata in 1872. Mai mica, dar cu traditie solida. Aproximativ 8.000 de angajati.
+## Comparație pe segmente de aplicație
 
-Ambele fac pompe de calitate de decenii. Nu e vorba de "unul bun, altul mai putin bun".
-
-## Unde e Grundfos mai tare
-
-### Documentatie si software
-Grundfos Product Center e cel mai bun tool de dimensionare din industrie. Curbe, specificatii, desene CAD - gasesti tot in 2 minute. Cand lucrezi la proiecte unde trebuie sa justifici fiecare alegere, te ajuta enorm.
-
-Aplicatia Grundfos GO pentru telefon e utila pe santier - scanezi pompa, vezi specificatii, comanzi piese.
-
-### Pompe submersibile grele
-Pentru aplicatii municipale si industriale cu fluide dificile (ape uzate cu continut mare de solide), gama Grundfos SE/SL are o reputatie foarte buna. Am montat sute si rata de defectiuni e sub 1%. Pentru monitorizare continua, integreaza [senzori de debit și presiune](/senzori-instrumentatie).
-
-### Suport tehnic
-In Romania, Grundfos are o retea solida de distribuitori autorizati si training-uri periodice. Daca ai o problema tehnica, raspunsul vine repede.
-
-## Unde e Wilo mai tare
-
-### Pret
-Pentru aceleasi specificatii tehnice, Wilo e in general cu 10-15% mai ieftin. La proiecte cu multe pompe, diferenta se simte.
-
-### Prezenta locala
-Wilo are filiala proprie in Bucuresti. Asta inseamna stocuri locale de piese si service direct, nu doar prin distribuitori.
-
-### Pompe de circulatie HVAC
-Gama Wilo Stratos e la fel de buna ca Grundfos Magna. In unele teste independente, Stratos a iesit chiar putin mai eficienta. Dar diferentele sunt minime.
-
-## Pe segmente specifice
-
-### Circulatie HVAC
-Ambele au pompe IE5 cu EEI sub 0.17. Practic interschimbabile din punct de vedere al performantei. Alege dupa pret sau preferinta.
+### Circulație HVAC
+Ambii producători au game de pompe de circulație cu motor cu magnet permanent și turație reglabilă. Circulatoarele fără etanșare sunt reglementate la nivel european prin Regulamentul (CE) nr. 641/2009 (modificat prin Regulamentul (UE) nr. 622/2012), care stabilește o valoare maximă a indicelui de eficiență energetică (EEI). Criteriul de alegere aici este de regulă compatibilitatea cu instalația existentă (racorduri, curbă de pompare necesară) și disponibilitatea locală a modelului.
 
 ### Grupuri de presurizare
-Grundfos Hydro MPC e mai flexibil in configurare. Wilo SiBoost e ceva mai accesibil. Pentru aplicatii standard, oricare merge.
+[Grundfos](/brand/grundfos) oferă gama Hydro MPC, cu opțiuni extinse de configurare a numărului de pompe și a logicii de control. [Wilo](/brand/wilo) oferă gama SiBoost, pentru aceleași aplicații de presurizare a apei. Alegerea între cele două depinde de complexitatea schemei de control necesare și de cerințele specifice ale proiectului.
 
-### Submersibile canalizare
-Grundfos SE/SL pentru aplicatii grele. Wilo MTS/Rexa pentru aplicatii standard. Ambele fiabile.
+### Pompe submersibile pentru ape uzate
+[Grundfos](/brand/grundfos) are gama SE/SL pentru aplicații municipale și industriale cu conținut ridicat de solide. [Wilo](/brand/wilo) are gamele MTS și Rexa pentru aplicații similare. Criteriile relevante sunt diametrul de trecere liberă necesar, tipul de rotor (vortex, monocanal, multicanal) și adâncimea de montaj.
 
 ### Pompe inline
-Aici e aproape egal. Alege dupa disponibilitate si pret.
+Ambele companii au game comparabile de pompe inline pentru circuite industriale și HVAC; alegerea se face de regulă în funcție de curba de pompare necesară, disponibilitatea reperului și compatibilitatea cu instalația existentă.
 
-## Piese de schimb si service
+## Documentație și instrumente de dimensionare
 
-**Grundfos:** piese disponibile in 24-72h prin distribuitori. Preturi premium, dar calitate garantata.
+Grundfos pune la dispoziție Grundfos Product Center, un instrument online pentru selecția pompelor pe baza curbelor de performanță, cu acces la desene tehnice și fișe de date. Wilo pune la dispoziție instrumente similare de selecție online pentru gamele proprii. Ambele sunt utile pentru justificarea tehnică a alegerii într-un proiect.
 
-**Wilo:** piese in stoc la filiala Bucuresti, livrare in aceeasi zi in multe cazuri. Preturi ceva mai accesibile.
+## Piese de schimb și service local
 
-## Ce recomandam noi
+Disponibilitatea pieselor de schimb depinde de model și de rețeaua locală de distribuție pentru fiecare brand în parte; pentru reperele aflate pe stoc în România sau într-un depozit din Europa, termenul uzual este de 24-72 h, iar din fabrică, de regulă 2-4 săptămâni.
 
-Nu avem o recomandare generala. Depinde de:
+## Criterii de alegere, pe scurt
 
-**Alege [Grundfos](/brand/grundfos) daca:**
-- Ai nevoie de documentatie tehnica detaliata pentru proiect
-- E o aplicatie critica unde nu vrei surprize
-- Ai deja ecosistem Grundfos si vrei piese compatibile
-- Planuiesti [automatizări pentru stații de pompare](/automatizari-industriale) complexe
+În loc de o recomandare generală, câteva criterii care influențează alegerea între cele două branduri, indiferent de aplicație:
 
-**Alege [Wilo](/brand/wilo) daca:**
-- Bugetul e strans dar nu vrei sa cobori calitatea
-- Ai nevoie de service rapid si piese disponibile imediat
-- E o aplicatie HVAC standard
+- **Documentația tehnică necesară** pentru justificarea proiectului (curbe, desene CAD, fișe de date)
+- **Compatibilitatea cu echipamentele existente** din instalație, dacă e vorba de o extindere sau o înlocuire
+- **Cerințele de automatizare** — dacă proiectul include [automatizarea stației de pompare](/automatizari-industriale), verificați compatibilitatea protocoalelor de comunicație ale pompei cu sistemul de control ales
+- **Termenul de livrare acceptabil** pentru proiect, corelat cu disponibilitatea reperului pe stoc
 
-**Sau lasa-ne sa decidem:**
-Spune-ne aplicatia si iti spunem noi ce recomandam in cazul concret. Vezi gama completa de [pompe industriale](/pompe-industriale) pe site. Nu avem interes ascuns - comisionul e similar la ambele.
+## Alte branduri de luat în calcul
 
-## O nota despre alte branduri
+Grundfos și Wilo nu sunt singurele opțiuni pe piața din România pentru aceste segmente. [KSB](/brand/ksb), [Ebara](/brand/ebara), [Calpeda](/brand/calpeda) și [DAB](/brand/dab) au de asemenea game relevante pentru aplicații industriale și HVAC, cu propriile puncte forte pe segmente specifice; alegerea finală depinde de parametrii tehnici ai aplicației și de criteriile de mai sus, nu de un singur brand "implicit".
 
-Grundfos si Wilo nu sunt singurele optiuni. KSB, Ebara, Calpeda, DAB - toate au locul lor. Dar pentru piata din Romania, Grundfos si Wilo au cel mai bun mix de calitate, disponibilitate piese si suport local.
+## Ce date să trimiteți pentru ofertă
 
-Daca ai alta preferinta sau ai avut experiente bune cu alt brand, respectam asta. In final, conteaza sa functioneze si sa poti intretine usor.
+- Debitul și înălțimea de pompare necesare (curba de sistem, dacă este disponibilă)
+- Fluidul vehiculat și eventualul conținut de solide
+- Tipul de instalație (HVAC, presurizare, ape uzate, proces industrial)
+- Racordurile și spațiul de montaj disponibil
+- Cerințele de automatizare sau de comunicație cu sistemul de control existent
+- Termenul de livrare acceptabil pentru proiect
+
+Pentru o recomandare pe segmentul dumneavoastră de aplicație, transmiteți aceste date prin pagina de [contact](/contact).
     `,
-    author: 'A.I., Director Tehnic',
-    authorId: 'author-001',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-11-15',
-    dateModified: '2026-01-24',
-    readTime: '6 min',
-    category: 'Comparatii',
-    tags: ['grundfos', 'wilo', 'pompe', 'comparatie'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Comparații",
+    tags: ["grundfos", "wilo", "pompe", "comparatie"],
     image: '/blog/grundfos-wilo.jpg',
+    sources: [{"title": "Regulamentul (CE) nr. 641/2009 — cerințe de proiectare ecologică pentru circulatoarele fără etanșare", "url": "https://eur-lex.europa.eu/eli/reg/2009/641/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}, {"title": "Regulamentul (UE) nr. 622/2012 — modificarea Regulamentului (CE) nr. 641/2009", "url": "https://eur-lex.europa.eu/eli/reg/2012/622/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}],
     featured: false,
   },
   {
     id: 11,
     slug: 'oale-condens-instalatii-abur',
-    title: 'Oale de Condens: Componenta Mica Care Te Poate Costa Mii de Euro',
-    shortTitle: 'Oale de Condens: Ghid Complet',
-    excerpt: 'Le ignoram pana cand se defecteaza. Dar o oala de condens blocata deschis poate costa 10.000-20.000 EUR/an in abur pierdut.',
+    title: "Oale de condens pentru abur: tipuri, funcționare, verificare",
+    shortTitle: "Oale de condens: ghid tehnic",
+    excerpt: "Oala de condens evacuează condensatul și aerul dintr-o instalație de abur, reținând aburul. Ghid despre tipuri, defecțiuni frecvente și metode de verificare.",
     content: `
-In instalatiile de abur, oala de condens (steam trap) e cea mai ignorata componenta. E mica, nu face zgomot (de obicei), si toata lumea uita de ea pana cand explozia de costuri energetice apare in factura.
+Oala de condens (denumită și steam trap) este componenta dintr-o instalație de abur care evacuează condensatul și aerul necondensabil din sistem, reținând în același timp aburul viu. Funcționarea corectă a oalelor de condens influențează direct eficiența transferului termic și siguranța instalației: o oală blocată, fie în poziție închisă, fie deschisă, afectează fie procesul, fie consumul de abur.
 
-## Ce face o oala de condens
+## Ce face o oală de condens
 
-Aburul, pe masura ce cedeaza caldura, condenseaza. Condensatul trebuie evacuat din sistem, altfel:
-- Ocupa spatiu si reduce transferul termic
-- Poate cauza lovituri de berbec (water hammer)
-- Mareste coroziunea
+Pe măsură ce aburul cedează căldură într-un schimbător de căldură, o serpentină sau o conductă de trasare, o parte din el condensează. Condensatul acumulat în sistem:
+- ocupă spațiu și reduce suprafața disponibilă pentru transferul termic;
+- poate produce lovituri de berbec (water hammer) la viteze mari de curgere;
+- favorizează coroziunea, în special în prezența oxigenului dizolvat.
 
-Oala de condens face exact asta: lasa sa treaca condensatul si aerul, dar retine aburul in sistem.
-
-## De ce conteaza
-
-Un calcul simplu: o oala blocata deschis cu orificiu de 6mm, la 7 bar, pierde aproximativ 25 kg/h de abur. La un cost al aburului de 25-30 EUR/tona, asta inseamna aproximativ 5.000-6.000 EUR/an pierdut pe o singura oala.
-
-Intr-o fabrica cu 100 de oale de condens, daca 10% sunt defecte, vorbim de 50.000-60.000 EUR/an pierduti pe abur care iese direct in aer.
-
-Si am vazut fabrici unde rata defectelor era mult peste 10%.
+Oala de condens lasă să treacă condensatul și aerul acumulat, dar se închide atunci când ajunge abur la ea, reținându-l în sistem.
 
 ## Tipurile principale
 
 ### Termodinamice
-Un disc care se ridica cand trece abur si cade cand trece condensat (mai rece). Simple, ieftine, robuste.
 
-Avantaj: functioneaza la orice presiune, aproape indestructibile.
-Dezavantaj: fac zgomot la evacuare, nu evacueaza bine aerul la pornire.
+Funcționează pe baza unui disc care se ridică la trecerea aburului și coboară la trecerea condensatului (densitate mai mare). Construcție simplă și robustă, cu întreținere minimă, dar cu evacuare relativ lentă a aerului la pornire.
 
-Foloseste pentru: drenaje principale, trasatoare, aplicatii unde zgomotul nu deranjeaza.
+Aplicații tipice: drenaje pe conducte principale de abur, trasare (steam tracing).
 
 ### Termostatice
-Un element sensibil la temperatura (bimetal sau capsula cu lichid) care se deschide cand temperatura scade sub cea a aburului saturat.
 
-Avantaj: evacueaza foarte bine aerul, silentioase.
-Dezavantaj: sensibile la variatii de presiune, durata de viata mai mica.
+Folosesc un element sensibil la temperatură (capsulă cu lichid volatil sau bimetal) care se deschide când temperatura scade sub cea a aburului saturat. Evacuează foarte bine aerul la pornire și funcționează silențios, dar sunt sensibile la variații bruște de presiune.
 
-Foloseste pentru: radiatoare de incalzire, schimbatoare de caldura unde aerisirea e importanta.
+Aplicații tipice: radiatoare și baterii de încălzire, schimbătoare de căldură unde aerisirea rapidă contează.
 
 ### Cu plutitor
-Un plutitor care deschide o supapa cand nivelul de condensat creste.
 
-Avantaj: evacuare continua, capacitate mare, evacueaza si aer.
-Dezavantaj: mai complexe, mai scumpe, sensibile la murdarie.
+Un plutitor deschide o supapă proporțional cu nivelul de condensat acumulat, cu capacitate mare de evacuare continuă; construcția e mai complexă și mai sensibilă la impurități, motiv pentru care e adesea combinată cu un element termostatic pentru evacuarea aerului.
 
-Foloseste pentru: procese critice, echipamente cu productie mare de condensat.
+Aplicații tipice: procese cu producție mare și variabilă de condensat, schimbătoare de căldură industriale.
 
 ### Bimetalice
-Lamele bimetalice care se curbeaza cu temperatura.
 
-Avantaj: foarte robuste, rezista la lovituri de berbec.
-Dezavantaj: reactie lenta, evacueaza condensat subcercat (mai rece).
+Un pachet de lamele bimetalice se curbează în funcție de temperatură și deschide sau închide orificiul de evacuare. Rezistă bine la lovituri de berbec și la îngheț, dar reacționează mai lent și tind să evacueze condensat subrăcit.
 
-Foloseste pentru: trasatoare, aplicatii dificile.
+Aplicații tipice: trasare pe conducte exterioare, aplicații cu condiții dificile.
 
-## Cum se defecteaza
+## Cum se defectează
 
-**Blocata inchis:** condensatul nu e evacuat. Semne: echipament rece, lovituri in conducte. Efect: productie afectata.
+**Blocată închis** — condensatul nu mai este evacuat. Semne: echipament sau conductă rece în aval de oală, posibile lovituri de berbec. Efectul se observă rapid, pentru că afectează direct procesul.
 
-**Blocata deschis:** aburul trece direct. Semne: greu de detectat fara echipament. Efect: consum energetic crescut masiv.
+**Blocată deschis** — aburul trece direct în rețeaua de condensat, fără să mai cedeze căldură util. Semnele sunt greu de observat vizual, motiv pentru care această defecțiune rămâne frecvent nedetectată fără verificare instrumentală.
 
-Statistic, aproximativ 20-25% din oalele defecte sunt blocate inchis (observi repede), 75-80% sunt blocate deschis (nu observi pana nu masori).
+## Cum se verifică
 
-## Cum verifici
+### Metoda vizuală
 
-### Metoda vizuala
-La oalele cu evacuare la atmosfera, priveste ce iese. Condensat = jet de apa care se opreste. Abur = nor continuu.
-
-Problema: multe oale evacueaza in sistem de recuperare condensat, nu la vedere.
+Pentru oalele cu evacuare directă la atmosferă, se poate observa jetul de evacuare: condensat înseamnă apă care se oprește după evacuare, abur înseamnă emisie continuă. Metoda nu se aplică oalelor care evacuează într-un colector de condensat închis.
 
 ### Termografie
-Masori temperatura inainte si dupa oala cu [senzori monitorizare abur](/senzori-instrumentatie). Daca e aproape egala (diferenta sub 5-10°C), oala e probabil blocata deschis.
+
+Se compară temperatura înainte și după oală, cu o cameră termică sau un termometru de contact. Dacă diferența este mică, oala poate fi blocată deschis. Pentru monitorizare continuă se pot folosi [senzori de temperatură](/senzori-instrumentatie/senzori-temperatura).
 
 ### Ultrasunete
-Cel mai precis. Detectezi turbulenta creata de scurgerea de abur. Necesita echipament si experienta.
 
-## Program de verificare recomandat
+Metodă bazată pe detectarea turbulenței produse de scurgerea de abur prin orificiul oalei. Este cea mai precisă dintre cele trei metode, dar necesită echipament dedicat și personal instruit.
 
-Minimum anual, ideal trimestrial pentru instalatii mari. Verifici fiecare oala si notezi starea.
+## Frecvența de verificare
 
-Am lucrat cu clienti care au trecut de la "verificam cand se defecteaza" la verificare trimestriala si au redus pierderile cu 40-50%.
+Producătorii de oale de condens recomandă, de regulă, verificarea periodică a instalațiilor — cel puțin anual, cu frecvență mai mare (trimestrială sau lunară) la instalațiile mari sau la presiuni ridicate. Frecvența exactă recomandată variază după producător și trebuie verificată în documentația tehnică a modelului instalat.
 
-## Branduri recomandate
+## Selecția oalei potrivite
 
-**[Spirax Sarco](/brand/spirax-sarco)** - liderul mondial. Oale pentru orice aplicatie, documentatie excelenta, piese disponibile.
+Alegerea tipului de oală depinde de presiunea de lucru, sarcina de condensat (kg/h), necesitatea evacuării rapide a aerului la pornire, spațiul disponibil și contrapresiunea din rețeaua de condensat existentă.
 
-**Gestra (acum parte din Flowserve)** - calitate germana, foarte fiabile.
+## Producători de oale de condens
 
-**Armstrong** - bune pentru aplicatii standard.
+Pe piață există mai mulți producători specializați, printre care [Spirax Sarco](/brand/spirax-sarco), [Gestra](/brand/gestra) și [Armstrong](/brand/armstrong), fiecare cu game de oale termodinamice, termostatice, cu plutitor și bimetalice și documentație tehnică proprie.
 
-Vezi gama completa de [robineti si armatura industriala](/robineti-industriali) pe site.
+Vezi și gama de [robineți și armătură industrială](/robineti-industriali) și de [schimbătoare de căldură](/schimbatoare-caldura) pentru optimizarea sistemelor termice cu abur. Pentru monitorizare și control automatizat al parametrilor de proces, consultați secțiunea de [automatizări industriale](/automatizari-industriale).
 
-## Daca vrei sa verifici ce ai in fabrica
+## Ce date să trimiteți pentru ofertă
 
-Avem oale Spirax Sarco si Gestra in stoc. Vezi si gama de [schimbatoare de caldura](/schimbatoare-caldura) pentru optimizarea sistemelor termice. Pentru control avansat, considera [automatizări control condensat](/automatizari-industriale) cu monitorizare in timp real. Facem si audituri - venim cu echipamentul, verificam fiecare oala si iti spunem exact care pierd si cat te costa.
+- Presiunea de lucru a aburului (bar) și temperatura de saturație corespunzătoare
+- Sarcina de condensat estimată (kg/h) sau tipul de aplicație (trasare, drenaj principal, schimbător de căldură, radiator)
+- Tipul de conexiune și diametrul nominal (DN)
+- Materialul dorit al corpului (oțel carbon, inox) și presiunea nominală (PN)
+- Dacă există contrapresiune în rețeaua de condensat și valoarea acesteia
+- Brandul preferat, dacă aveți deja un standard intern de achiziție
 
-Un audit pentru o fabrica medie? Cateva sute de euro. Ce gasim de obicei? Pierderi de zeci de mii pe an.
+Pentru o ofertă de oale de condens adaptată instalației dumneavoastră, [contactați-ne](/contact).
     `,
-    author: 'C.P., Specialist Instalații Termice',
-    authorId: 'author-003',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-11-08',
-    dateModified: '2026-01-22',
-    readTime: '7 min',
-    category: 'Ghiduri Tehnice',
-    tags: ['oale condens', 'abur', 'spirax sarco', 'eficienta energetica'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Ghiduri tehnice",
+    tags: ["oale condens", "abur", "spirax sarco", "eficiență energetică"],
     image: '/blog/oale-condens.jpg',
     featured: false,
   },
   {
     id: 12,
     slug: 'convertizoare-frecventa-beneficii',
-    title: 'VFD: Cand Merita si Cand Nu Merita Sa Investesti',
-    shortTitle: 'Convertizoare Frecventa: Merita?',
-    excerpt: 'Convertizoarele de frecventa pot reduce consumul dramatic. Dar nu intotdeauna. Iata cum sa decizi daca merita investitia si in cat timp se recupereaza.',
+    title: "Convertizoare de frecvență (VFD): când se justifică investiția",
+    shortTitle: "VFD: când merită investiția",
+    excerpt: "Convertizorul de frecvență ajustează turația motorului și poate reduce consumul la sarcină parțială, conform legilor de afinitate ale pompelor centrifugale.",
     content: `
-Convertizoarele de frecventa (VFD, Variable Frequency Drive) pentru [motoare electrice](/motoare-electrice) sunt probabil cea mai buna investitie in eficienta energetica. Dar nu in toate cazurile.
+Convertizorul de frecvență (VFD, Variable Frequency Drive) modifică frecvența de alimentare a unui motor electric asincron, controlând astfel turația acestuia. Pentru pompe și ventilatoare care funcționează frecvent la sarcină parțială, reducerea turației poate scădea semnificativ consumul de energie, conform legilor de afinitate ale mașinilor centrifugale. Decizia de a investi într-un VFD depinde însă de profilul real de funcționare al aplicației.
 
-## Cum functioneaza (pe scurt)
+## Cum funcționează
 
-Motorul electric functioneaza la o turatie determinata de frecventa retelei (50 Hz in Europa). Convertizorul modifica frecventa, deci modifica turatia.
+Turația unui motor asincron este determinată, în principal, de frecvența tensiunii de alimentare (50 Hz în rețeaua europeană) și de numărul de poli. Convertizorul de frecvență modifică această frecvență, controlând turația motorului fără intervenție mecanică pe transmisie (vană de laminare, by-pass etc.).
 
-De ce conteaza? Pentru pompe si ventilatoare, consumul de energie variaza cu cubul turatiei. Daca reduci turatia cu 20%, consumul scade cu aproximativ 50%. Nu e greseala de tipar - chiar asa functioneaza fizica.
+Pentru pompe centrifugale și ventilatoare, relația dintre putere și turație urmează legile de afinitate: puterea absorbită variază aproximativ cu cubul turației (P ~ n³). Practic, o reducere moderată a turației poate produce o reducere mult mai mare a puterii absorbite — acesta este principiul din spatele economiilor de energie asociate VFD-urilor la aplicații cu debit variabil.
 
-## Cand merita cu siguranta
+## Situații în care un VFD are, de regulă, sens
 
-### Pompe si ventilatoare cu debit variabil
-Daca ai o pompa care nu merge mereu la capacitate maxima - fie pentru ca procesul variaza, fie pentru ca a fost supradimensionata - VFD e aproape sigur o investitie buna.
+### Debit sau presiune variabile
 
-Exemplu: pompa de 22 kW care functioneaza 8.000 h/an, in medie la 80% din capacitate.
+Dacă echipamentul nu funcționează constant la capacitate maximă — fie pentru că procesul variază, fie pentru că a fost dimensionat cu marjă de siguranță — un VFD permite ajustarea turației la necesarul real, în locul reglării prin vană de laminare sau by-pass.
 
-Fara VFD: consum aproximativ 176.000 kWh/an
-Cu VFD: consum aproximativ 90.000 kWh/an
-Economie: aproximativ 86.000 kWh/an = ~15.000 EUR/an (la 0.18 EUR/kWh)
+### Porniri frecvente
 
-Cost VFD 22 kW: aproximativ 2.500-3.500 EUR
-ROI: sub 3 luni
+Pornirea directă a unui motor asincron generează un curent de pornire de câteva ori curentul nominal (tipic 6–8×), cu solicitare mecanică și electrică asupra motorului, instalației și procesului. Un VFD permite o rampă de accelerare controlată, cu un curent de pornire limitat la un nivel apropiat de cel nominal.
 
-Cifrele variaza, dar ordinul de marime e corect.
+### Control de proces
 
-### Aplicatii cu porniri frecvente
-Pornirea directa a unui motor creeaza un curent de 6-8 ori curentul nominal. Asta streseaza motorul, instalatia electrica si procesul.
+Menținerea unei presiuni constante, sincronizarea turației mai multor motoare sau reglarea fină a unui debit se realizează, de regulă, mai simplu cu VFD decât prin metode mecanice de reglare.
 
-Cu VFD, pornirea e lina, curentul nu depaseste 150% din nominal. Rezultat: viata mai lunga pentru motor si mai putina intretinere.
+## Situații în care investiția se justifică mai greu
 
-### Aplicatii unde ai nevoie de control precis
-Mentinere presiune constanta, mentinere nivel, sincronizare viteze - toate se fac elegant cu VFD.
+### Putere mică, ore de funcționare reduse
 
-## Cand NU merita
+Pentru motoare de putere mică, folosite un număr redus de ore pe an, la sarcină constantă, economia de energie posibilă este limitată, iar perioada de recuperare a investiției poate fi lungă.
 
-### Motor mic, putine ore
-Pentru un motor de 1.5 kW care merge 2.000 ore/an la capacitate constanta, economiile potentiale sunt prea mici ca sa justifice investitia.
+### Sarcină constantă, aproape de capacitate maximă
 
-### Aplicatii la turatie constanta
-Daca motorul chiar trebuie sa mearga tot timpul la 100%, VFD-ul nu aduce economii de energie. Poate aduce beneficii la pornire, dar ROI-ul e mult mai lung.
+Dacă aplicația necesită funcționare continuă aproape de capacitatea maximă, VFD-ul nu aduce economii de energie relevante — poate rămâne util pentru pornirea lină și protecția motorului, dar justificarea economică se bazează atunci pe alte beneficii, nu pe consum.
 
 ### Motoare foarte vechi
-Motoarele vechi pot avea probleme cu alimentarea de la VFD (izolatia sufera de la formele de unda). Daca trebuie sa inlocuiesti si motorul, calculul economic se schimba.
 
-## Consideratii practice
+Motoarele vechi pot avea o izolație mai puțin rezistentă la solicitările electrice specifice alimentării prin invertor (forme de undă cu variații rapide de tensiune). Decizia de investiție trebuie să ia în calcul și starea motorului existent, nu doar costul convertizorului.
 
-### Alegerea VFD-ului
-Puterea VFD-ului trebuie sa fie cel putin egala cu cea a motorului. La aplicatii cu porniri grele sau suprasarcini temporare, supradimensioneaza cu 20-30%. Pentru integrare completa in [automatizări industriale](/automatizari-industriale), alege modele cu comunicatie Profinet/Modbus.
+## Alegerea și instalarea VFD-ului
 
-Branduri cu care lucram si in care avem incredere:
-- **[Siemens](/brand/siemens) SINAMICS G120** - gama completa, integrare excelenta
-- **[ABB](/brand/abb) ACS580** - fiabil, bun raport calitate-pret
-- **Danfoss VLT** - specializat pe pompe si HVAC
+Puterea nominală a convertizorului trebuie să fie cel puțin egală cu cea a motorului, cu o marjă suplimentară la porniri grele sau vârfuri de sarcină, conform recomandărilor producătorului. Pentru integrare în sisteme de automatizare, se aleg de regulă modele cu comunicație pe magistrală industrială (Profinet, Modbus) — vezi și gama de [automatizări industriale](/automatizari-industriale).
 
-### Instalare corecta
-Cateva reguli:
-- Cablu ecranat intre VFD si motor
-- Ecranul conectat la pamant la ambele capete
-- Separare de cablurile de semnal
-- Filtre de iesire daca cablul e mai lung de 50m
-- Consulta [componente electrice](/echipamente-electrice) necesare pentru instalare completa
+La instalare, producătorii recomandă în general cablu ecranat între convertizor și motor, cu ecranul legat la pământ la ambele capete, separare față de cablurile de semnal și, la distanțe mari, filtre de ieșire — altfel pot apărea perturbații electromagnetice în instalație. Consultați și gama de [componente electrice industriale](/echipamente-electrice). Setările din fabrică sunt un compromis generic; pentru fiecare aplicație se recomandă ajustarea frecvenței minime/maxime, a timpilor de accelerare/decelerare și a limitelor de curent.
 
-Un VFD instalat prost poate crea probleme electromagnetice in toata fabrica.
+## Cadrul de reglementare
 
-### Parametrizare
-Setarile de fabrica sunt un compromis. Pentru eficienta maxima, parametrizeaza:
-- Frecventa minima (sub care nu are sens sa mergi)
-- Frecventa maxima
-- Timpii de accelerare/decelerare
-- Limitele de curent
+Cerințele europene de ecodesign pentru motoare electrice și convertizoare de frecvență sunt stabilite prin Regulamentul (UE) 2019/1781. Conform acestuia, motoarele trifazate cu puterea nominală între 0,75 kW și 1.000 kW trebuie să corespundă cel puțin clasei de eficiență IE3 începând cu 1 iulie 2021, iar motoarele nebrevetate pentru medii explozive, cu puteri între 75 kW și 200 kW (2, 4 sau 6 poli), trebuie să corespundă cel puțin clasei IE4 începând cu 1 iulie 2023. Regulamentul acoperă și cerințe specifice pentru convertizoarele de frecvență introduse pe piața europeană.
 
-Facem parametrizare gratuita pentru VFD-urile cumparate de la noi.
+## Producători de convertizoare de frecvență
 
-## Un calcul rapid
+Printre producătorii cu gamă documentată public pentru aplicații industriale se numără [Siemens](/brand/siemens) (seria SINAMICS), [ABB](/brand/abb) (seria ACS) și [Danfoss](/brand/danfoss) (seria VLT, cu game dedicate pompelor și HVAC). Vezi și [comparația Danfoss vs. ABB vs. Siemens pentru convertizoare de frecvență](/blog/danfoss-vs-abb-vs-siemens-convertizoare-frecventa).
 
-Daca vrei sa estimezi singur daca merita:
+## Ce date să trimiteți pentru ofertă
 
-1. Ia puterea motorului (kW)
-2. Estimeaza cate ore merge pe an
-3. Estimeaza procentul mediu de incarcare
-4. Calculeaza consumul actual: P × ore × incarcare
-5. Calculeaza consumul cu VFD: P × ore × (incarcare)³
-6. Diferenta × pret kWh = economie anuala
-7. Compara cu costul VFD-ului
+- Puterea și turația nominală a motorului existent sau nou
+- Tipul aplicației (pompă, ventilator, altă sarcină) și profilul de funcționare (ore/an, variabilitate sarcină)
+- Tensiunea de alimentare și tipul rețelei electrice
+- Cerințe de comunicație/automatizare (Profinet, Modbus, altele)
+- Lungimea cablului dintre convertizor și motor
+- Clasificarea zonei, dacă aplicația este în zonă cu risc de explozie (ATEX)
 
-Daca ROI-ul e sub 2 ani, merita aproape sigur. Sub 1 an, merita cu siguranta.
-
-## Vrei o evaluare concreta?
-
-Venim la tine, masuram, calculam si iti spunem sincer daca are sens. Vezi gama completa de [motoare electrice](/motoare-electrice) pe site. Daca nu, nu insistam. Daca da, facem totul: VFD, instalare, parametrizare, punere in functiune.
+Pentru o evaluare tehnică a aplicației dumneavoastră și o ofertă de convertizor de frecvență, [contactați-ne](/contact).
     `,
-    author: 'M.R., Inginer Automatizări',
-    authorId: 'author-002',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-10-30',
-    dateModified: '2026-01-22',
-    readTime: '7 min',
-    category: 'Eficienta Energetica',
-    tags: ['vfd', 'convertizoare frecventa', 'siemens', 'abb', 'economie energie'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Eficiență energetică",
+    tags: ["vfd", "convertizoare frecvență", "siemens", "abb", "economie energie"],
     image: '/blog/convertizoare-frecventa.jpg',
+    sources: [{"title": "Regulamentul (UE) 2019/1781 — cerințe de proiectare ecologică pentru motoare electrice și variatoare de viteză", "url": "https://eur-lex.europa.eu/eli/reg/2019/1781/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}],
     featured: false,
   },
   {
     id: 13,
     slug: 'alfa-laval-vs-kelvion-schimbatoare',
-    title: 'Alfa Laval vs Kelvion: Doua Filosofii, Amandoua Bune',
-    shortTitle: 'Alfa Laval vs Kelvion',
-    excerpt: 'Doi producatori de top in schimbatoare de caldura. Care e mai bun? Depinde de ce cauti: eficienta maxima sau raport calitate-pret. Iata diferentele.',
+    title: "Alfa Laval vs. Kelvion: game de produse și criterii de alegere",
+    shortTitle: "Alfa Laval vs. Kelvion: comparație",
+    excerpt: "Alfa Laval și Kelvion produc schimbătoare de căldură cu game diferite. Comparăm familiile de produse și criteriile tehnice de alegere, fără verdict.",
     content: `
-[Alfa Laval](/brand/alfa-laval) si [Kelvion](/brand/kelvion) sunt cei mai importanti producatori de [schimbatoare de caldura](/schimbatoare-caldura) la nivel mondial. Lucram cu ambele de ani de zile si putem spune ca nu exista un castigator clar - fiecare are punctele forte.
+[Alfa Laval](/brand/alfa-laval) și [Kelvion](/brand/kelvion) sunt doi dintre producătorii cu prezență semnificativă pe piața europeană de [schimbătoare de căldură](/schimbatoare-caldura). Cele două companii au istorii, structuri de gamă și piețe-țintă diferite, iar alegerea între ele depinde de aplicație — tip de fluid, industrie, cerințe de certificare — nu de un clasament general de calitate. Acest ghid compară familiile de produse și criteriile tehnice relevante pentru selecție.
 
 ## Alfa Laval
 
-Companie suedeza, fondata in 1883. Fac de toate in domeniul transferului termic si separarii, dar schimbatoarele cu placi sunt produsul-vedeta.
+Companie suedeză, înființată în 1883 (inițial sub numele AB Separator, redenumită Alfa-Laval în 1963), cu sediul central în Lund, Suedia. Activitatea acoperă transferul termic, separarea și manipularea fluidelor, iar schimbătoarele cu plăci reprezintă una dintre liniile de produse principale.
 
-### Ce ne place
+### Gama de produse
 
-**Gama de produse.** Alfa Laval are probabil cea mai larga oferta. De la schimbatoare brazate minuscule pentru pompe de caldura pana la unitati cu placi demontabile pentru rafinarii. Indiferent ce ai nevoie, exista o solutie Alfa Laval.
+- schimbătoare cu plăci brazate, pentru instalații compacte (HVAC, pompe de căldură, aplicații industriale de dimensiuni mici-medii);
+- schimbătoare cu plăci demontabile cu garnituri, pentru capacități mari și posibilitatea de curățare/extindere;
+- **AlfaNova** — gamă de schimbătoare complet din inox (fără cupru sau nichel în circuitul de brazare), destinată aplicațiilor din industria alimentară și farmaceutică, unde se cere evitarea contaminării cu metale neferoase;
+- echipamente cu suprafață raclată și alte soluții de transfer termic pentru fluide vâscoase.
 
-**Calitatea constructiei.** Placile sunt presate impecabil, garniturile Clip-On sunt usor de montat si dureaza mult. Am vazut schimbatoare Alfa Laval montate prin 2003-2004 care inca functioneaza cu garniturile originale (bine, nu le recomand - dar e impresionant ca rezista).
+### Documentație și certificări
 
-**AlfaNova.** Gama full-inox pentru aplicatii alimentare si farmaceutice. Fara cupru, fara nichel - totul din inox 316. Standard pentru industria alimentara.
-
-**Documentatia.** Tot ce ai nevoie - curbe, specificatii, certificate - se gaseste usor.
-
-### Ce ne place mai putin
-
-**Pretul.** Alfa Laval e de obicei cea mai scumpa optiune. Platesti pentru brand si calitate, dar diferenta poate fi semnificativa.
-
-**Garniturile OEM.** Garniturile originale Alfa Laval sunt scumpe. Exista alternative compatibile mai ieftine, dar calitatea variaza.
+Alfa Laval publică fișe tehnice, curbe de performanță și certificate pentru cea mai mare parte a gamei pe site-ul propriu, inclusiv certificări specifice industriei alimentare (FDA, EHEDG, 3-A, în funcție de model).
 
 ## Kelvion
 
-Companie germana, fondata in 1920 sub numele GEA Heat Exchangers. S-au separat in 2015 si opereaza acum independent.
+Companie germană, cu sediul în Bochum. Activitatea provine din divizia GEA Heat Exchangers, separată ca entitate independentă sub numele Kelvion în noiembrie 2015; istoricul tehnologiei de transfer termic al businessului datează din 1920.
 
-### Ce ne place
+### Gama de produse
 
-**Pretul.** Pentru specificatii similare, Kelvion e in general cu 15-25% mai ieftin decat Alfa Laval. La proiecte mari, diferenta conteaza.
+- schimbătoare cu plăci (brazate și cu garnituri);
+- schimbătoare cu fascicul tubular (shell & tube), pentru presiuni și temperaturi ridicate;
+- schimbătoare cu țevi cu aripioare (finned-tube), pentru aplicații de răcire cu aer;
+- turnuri de răcire modulare și schimbătoare pentru instalații frigorifice.
 
-**Constructia pragmatica.** Schimbatoarele Kelvion sunt facute sa functioneze, nu sa impresioneze. Sunt robuste, simple de intretinut.
+### Piețe și aplicații
 
-**Gama tubulara.** Pentru aplicatii in industria grea - petrochimie, energie - Kelvion are o traditie solida si multe configuratii.
+Gama tubulară și cea cu aripioare au aplicații extinse în energie, petrochimie, industria navală și centre de date, sectoare în care Kelvion are o prezență istorică prin moștenirea GEA Heat Exchangers.
 
-**Raspunsul la cereri.** Din experienta noastra, Kelvion e mai flexibil la cereri speciale. Cand am avut nevoie de configuratii atipice, au livrat mai repede.
+## Criterii de alegere între cele două game
 
-### Ce ne place mai putin
+### Tipul constructiv necesar
 
-**Documentatia.** Nu e la nivelul Alfa Laval. Uneori trebuie sa suni ca sa obtii informatii care la Alfa Laval le gasesti online.
+Pentru capacități mici-medii cu spațiu limitat, schimbătoarele cu plăci brazate (ambii producători le oferă) sunt varianta compactă. Pentru presiuni sau temperaturi ridicate ori fluide cu conținut de particule, schimbătoarele tubulare (gamă extinsă la Kelvion) sunt frecvent varianta tehnică potrivită.
 
-**Disponibilitatea pieselor.** In Romania, piesele Alfa Laval sunt mai usor de gasit. Pentru Kelvion, uneori trebuie sa comanzi din Germania.
+### Industria alimentară și farmaceutică
 
-## Pe segmente specifice
+Pentru aplicații care necesită evitarea contactului cu cupru/nichel și certificări specifice, gama AlfaNova de la Alfa Laval este o soluție dedicată acestui segment.
 
-### Industria alimentara
-**Recomandat: Alfa Laval**
-Gama AlfaNova e standard in industrie. Certificate FDA, 3A, EHEDG. Kelvion are solutii, dar Alfa Laval domina segmentul. Integreaza [senzori temperatură](/senzori-instrumentatie) pentru control HACCP.
+### Industria grea și energie
 
-### HVAC si racire industriala
-**Ambele OK**
-Pentru schimbatoare brazate standard, diferenta de performanta e minima. Alege dupa pret si disponibilitate. Pentru sisteme complete, vezi gama de [echipamente termice complementare](/echipamente-termice).
+Pentru petrochimie, energie și aplicații navale, gama tubulară Kelvion, cu tradiție în acest segment, acoperă configurații de presiune și temperatură ridicate.
 
-### Petrochimie si energie
-**Recomandat: Kelvion**
-Traditie in industria grea, configuratii speciale disponibile, pret mai bun pentru unitatile mari.
+### Piese de schimb și garnituri
 
-### Aplicatii cu fluide agresive
-**Depinde de fluid**
-Alfa Laval are mai multe optiuni de materiale exotice (titan, hastelloy). Kelvion e bun pentru aplicatii standard in inox sau titan.
+Un schimbător cu plăci demontabile necesită înlocuirea periodică a garniturilor, la intervale care depind de fluid, temperatură și regimul de funcționare. Pentru ambii producători există garnituri originale (OEM) și, pe piață, alternative compatibile de la furnizori terți, ale căror specificații de material și rezistență trebuie verificate față de fișa tehnică a schimbătorului. Se recomandă păstrarea unui set de garnituri de rezervă în stoc, pentru a reduce timpul de oprire în caz de defecțiune.
 
-## Piese de schimb
+## Cum alegeți
 
-E un aspect important. Un schimbator de caldura cu placi demontabile are nevoie de garnituri noi la fiecare 5-10 ani (sau mai des, depinde de aplicatie).
+Alegerea concretă depinde de: tipul de fluide (curate, cu particule, agresive chimic), presiunea și temperatura de lucru, spațiul disponibil, cerințele de certificare ale industriei și disponibilitatea pieselor de schimb pe piața locală. Pentru majoritatea aplicațiilor standard de climatizare sau răcire industrială, ambele game de schimbătoare brazate acoperă cerințele tehnice uzuale; diferența relevantă apare la aplicații speciale (alimentar certificat, presiuni/temperaturi ridicate, configurații personalizate).
 
-**Alfa Laval:** garnituri originale scumpe, dar calitate garantata. Exista alternative OEM acceptabile.
+Vezi și [ghidul complet pentru schimbătoare de căldură industriale](/blog/ghid-schimbatoare-caldura-industriale) și gama de [schimbătoare cu plăci brazate](/schimbatoare-caldura/schimbatoare-placi-brazate-industriale), [schimbătoare cu plăci demontabile](/schimbatoare-caldura/schimbatoare-placi-demontabile-industriale) și [schimbătoare tubulare](/schimbatoare-caldura/schimbatoare-tubulare-industriale).
 
-**Kelvion:** garnituri ceva mai accesibile, dar trebuie sa comanzi din timp.
+## Ce date să trimiteți pentru ofertă
 
-Pentru orice brand, recomandam sa ai cel putin un set de garnituri de rezerva in stoc. Cand se defecteaza, nu vrei sa astepti 3 saptamani.
+- Tipul de fluid (primar și secundar) și eventualele particularități (vâscozitate, particule, agresivitate chimică)
+- Debitele și temperaturile de intrare/ieșire pentru ambele circuite
+- Presiunea maximă de lucru și temperatura maximă admisă
+- Spațiul disponibil pentru montaj (dimensiuni maxime)
+- Cerințe de certificare (alimentar, ATEX, altele), dacă este cazul
+- Tipul constructiv preferat, dacă aveți deja o soluție de referință
 
-## Deci care sa aleg?
-
-Depinde. Serios, depinde.
-
-[Alfa Laval](/brand/alfa-laval) daca: faci alimentar, vrei premium, bugetul nu-i chiar strans.
-
-[Kelvion](/brand/kelvion) daca: esti in industrie grea, ai buget limitat, ai nevoie de ceva non-standard.
-
-Sau ne intrebi pe noi - vezi gama completa de [schimbatoare de caldura](/schimbatoare-caldura) pe site si iti trimitem oferte de la ambii si decizi tu.
+Pentru o comparație tehnică punctuală între cele două game, aplicată situației dumneavoastră, [contactați-ne](/contact).
     `,
-    author: 'D.M., Inginer Proiectare',
-    authorId: 'author-005',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-10-22',
-    dateModified: '2026-01-24',
-    readTime: '6 min',
-    category: 'Comparatii',
-    tags: ['alfa laval', 'kelvion', 'schimbatoare caldura', 'comparatie'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Comparații",
+    tags: ["alfa laval", "kelvion", "schimbătoare căldură", "comparație"],
     image: '/blog/alfa-laval-kelvion.jpg',
     featured: false,
   },
   {
     id: 14,
     slug: 'prelungire-viata-echipamente-industriale',
-    title: '10 Lucruri Care Distrug Echipamentele (si Cum Sa Le Eviti)',
-    shortTitle: '10 Greseli Care Distrug Echipamente',
-    excerpt: 'Am reparat mii de pompe si motoare. Iata ce le-a distrus si cum sa nu patesti la fel. Greselile de mentenanta costa zeci de mii de euro anual.',
+    title: "10 cauze frecvente ale defectării premature a echipamentelor",
+    shortTitle: "10 cauze ale defectării premature",
+    excerpt: "Lubrifierea greșită, dezalinierea și funcționarea în gol sunt cauze frecvente ale defectării premature a pompelor și motoarelor industriale. Cum le preveniți.",
     content: `
-In anii de service pentru [pompe industriale](/pompe-industriale), [motoare electrice](/motoare-electrice) si [robineti industriali](/robineti-industriali), am vazut echipamente de zeci de mii de euro distruse din cauze care puteau fi evitate. Iata cele mai frecvente greseli si cum sa le eviti.
+Defectarea prematură a pompelor, motoarelor și robineților industriali are, în majoritatea cazurilor, cauze mecanice sau de operare identificabile și evitabile: lubrifiere necorespunzătoare, dezaliniere, funcționare în gol, cavitație sau suprasarcină. Recunoașterea lor și un program de mentenanță preventivă reduc riscul de oprire neplanificată.
 
-## 1. Lubrifiere gresita
+## 1. Lubrifiere necorespunzătoare
 
-E cauza numarul 1 a defectiunilor la rulmenti. Si rulmentii defecti duc la defectarea intregului echipament.
+Este una dintre cauzele frecvente ale defectării premature a rulmenților, iar defectarea rulmenților duce, de regulă, la defectarea întregului echipament.
 
-**Greseli frecvente:**
-- Prea mult lubrifiant (supraincalzire, consum crescut)
-- Prea putin lubrifiant (uzura accelerata)
-- Lubrifiant nepotrivit (incompatibilitate, performanta slaba)
-- Intervale prea lungi intre ungeri
+**Greșeli frecvente:**
+- cantitate excesivă de lubrifiant (supraîncălzire, consum crescut);
+- cantitate insuficientă (uzură accelerată);
+- lubrifiant necorespunzător tipului de aplicație sau incompatibil cu materialele existente;
+- intervale de ungere mai lungi decât cele recomandate de producător.
 
-**Solutia:** Foloseste [lubrifianți de calitate](/lubrifianti-chimice) recomandat de producator, in cantitatea specificata, la intervalele specificate. E simplu, dar necesita disciplina.
+**Recomandare:** folosiți [lubrifianți industriali](/lubrifianti-chimice) conform recomandării producătorului echipamentului, în cantitatea și la intervalele specificate în documentația tehnică.
 
 ## 2. Dezaliniere
 
-Cuplajul dintre pompa si motor pare flexibil, dar nu e facut sa compenseze dezalinieri mari. O dezaliniere de 0.1mm reduce viata rulmentilor cu 50%.
+Cuplajul dintre pompă și motor compensează dezalinieri mici, nu dezalinieri mari sau persistente, care cresc sarcina radială pe rulmenți și le reduc durata de funcționare.
 
-**Semne:** vibratii crescute, caldura la cuplaj, uzura neuniforma.
+**Semne:** vibrații crescute, încălzire la nivelul cuplajului, uzură neuniformă a garniturilor și rulmenților.
 
-**Solutia:** Aliniere cu laser dupa fiecare interventie. Costa 200-500 EUR si poate salva echipament de zeci de mii.
+**Recomandare:** alinierea cu laser după fiecare intervenție care implică demontarea grupului pompă-motor. Vezi și [echipamentele de aliniere și măsurare a vibrațiilor](/aparate-masura-testare/termoviziune-vibratii-aliniere).
 
-## 3. Functionare in gol
+## 3. Funcționare în gol
 
-[Pompele industriale](/pompe-industriale) au nevoie de fluid pentru lubrifiere si racire. Fara fluid, garnitura mecanica se distruge in minute.
+[Pompele industriale](/pompe-industriale) necesită prezența fluidului pentru lubrifierea și răcirea garniturii mecanice și a lagărelor. În absența fluidului, garnitura mecanică se poate deteriora într-un interval scurt de timp.
 
-**Cum se intampla:** rezervor gol, supapa inchisa uitata, aerisire incompleta.
+**Cauze frecvente:** rezervor golit, vană închisă din greșeală, aerisire incompletă la pornire.
 
-**Solutia:** Senzori de nivel sau debit minim care opresc pompa inainte de functionare in gol.
+**Recomandare:** senzori de nivel minim sau de debit minim, cuplați cu oprirea automată a pompei înainte de funcționarea în gol.
 
-## 4. Cavitatie
+## 4. Cavitație
 
-Cand presiunea la aspiratie scade sub presiunea de vaporizare a fluidului, apar bule care implodeaza violent pe suprafetele rotorului.
+Apare atunci când presiunea la aspirația pompei scade sub presiunea de vaporizare a fluidului la temperatura de lucru; bulele de vapori formate implodează la contactul cu suprafețele rotorului.
 
-**Semne:** zgomot caracteristic (ca pietricele in pompa), performanta scazuta, uzura pe rotor.
+**Semne:** zgomot caracteristic la nivelul pompei, scădere de performanță, uzură pe suprafața rotorului.
 
-**Solutia:** Verifica NPSH, asigura-te ca [filtrele și consumabilele](/filtre-consumabile) de aspiratie nu sunt colmatate, nu aspira de la distanta prea mare.
+**Recomandare:** verificați marja NPSH disponibilă față de cea necesară (marjă de siguranță tipică minimum 0,5 m), asigurați-vă că [filtrele de aspirație](/filtre-consumabile) nu sunt colmatate și evitați distanțele de aspirație excesive.
 
-## 5. Suprasarcina
+## 5. Suprasarcină
 
-Motoarele au o putere nominala. Functionarea continua peste aceasta putere duce la supraincalzire si degradarea izolatiei.
+Motoarele electrice au o putere nominală definită. Funcționarea susținută peste această putere duce la supraîncălzire și la degradarea accelerată a izolației înfășurărilor.
 
-**Cum se intampla:** pompa supradimensionata pe conducta subdimensionata, blocaje partiale, vascozitate crescuta a fluidului.
+**Cauze frecvente:** echipament supradimensionat montat pe o conductă subdimensionată, blocaje parțiale în circuit, creșterea vâscozității fluidului față de valoarea de proiectare.
 
-**Solutia:** Monitorizeaza curentul absorbit. Daca e constant peste nominal, investigheaza cauza.
+**Recomandare:** monitorizați curentul absorbit; o valoare constant peste curentul nominal indică o cauză care trebuie investigată.
 
-## 6. Vibratii ignorate
+## 6. Vibrații neinvestigate
 
-Vibratiile sunt simptome, nu boli. O vibratie care creste in timp indica o problema care se agraveaza.
+Vibrațiile sunt un simptom, nu o cauză în sine. O creștere a nivelului de vibrații în timp indică, de regulă, o problemă care se agravează progresiv.
 
-**Cauze posibile:** dezechilibru, dezaliniere, rulment uzat, joc in lagare.
+**Cauze posibile:** dezechilibru, dezaliniere, rulment uzat, joc excesiv în lagăre.
 
-**Solutia:** Masoara vibratiile periodic si compara cu valorile anterioare. Orice crestere semnificativa necesita investigare.
+**Recomandare:** măsurați vibrațiile periodic și comparați valorile cu înregistrările anterioare ale aceluiași echipament; o creștere semnificativă necesită investigare.
 
-## 7. Mediu agresiv
+## 7. Condiții de mediu neadecvate
 
-Echipamentele sunt proiectate pentru anumite conditii. Coroziune, praf, umiditate excesiva - toate scurteaza viata.
+Echipamentele sunt proiectate pentru anumite condiții de mediu. Coroziunea, praful excesiv și umiditatea peste limitele admise reduc durata de viață a componentelor.
 
-**Solutia:** Protectie corespunzatoare mediului. Tratamente anticorozive, filtrare aer, incaperi ventilate.
+**Recomandare:** protecție corespunzătoare mediului (tratamente anticorozive, filtrare a aerului, grad de protecție IP adecvat) și, unde este cazul, echipamente certificate pentru mediul respectiv.
 
-## 8. Porniri/opriri frecvente
+## 8. Porniri și opriri frecvente
 
-Fiecare pornire streseaza motorul (curent mare) si procesul (lovitura de presiune in conducte). Motoarele nu sunt facute pentru zeci de porniri pe ora.
+Fiecare pornire directă solicită motorul (curent de pornire ridicat) și procesul (variație bruscă de presiune în conducte). Motoarele nu sunt proiectate pentru un număr mare de porniri pe oră.
 
-**Solutia:** VFD pentru aplicatii unde debitul variaza. Sau acumulatoare hidropneumatice care reduc frecventa pornirilor.
+**Recomandare:** un convertizor de frecvență pentru aplicațiile cu debit variabil sau un rezervor hidropneumatic pentru reducerea frecvenței de pornire a pompei.
 
-## 9. Piese neoriginale de calitate slaba
+## 9. Piese de schimb necorespunzătoare calitativ
 
-Nu toate piesele neoriginale sunt proaste. Dar unele sunt. Am vazut garnituri mecanice "compatibile" care au rezistat 3 luni in loc de 3 ani. [Componentele mecanice de schimb](/componente-mecanice) trebuie sa fie de calitate garantata.
+Nu toate piesele neoriginale sunt necorespunzătoare, dar pot exista diferențe de material și toleranțe între furnizori. [Componentele mecanice de schimb](/componente-mecanice) trebuie să corespundă specificațiilor tehnice ale echipamentului original.
 
-**Solutia:** Cumpara de la furnizori de incredere. Piesele originale sau OEM de calitate costa mai mult initial, dar sunt mai ieftine pe termen lung.
+**Recomandare:** verificați specificațiile tehnice ale pieselor de schimb (material, toleranțe, presiune/temperatură admisă) înainte de achiziție, indiferent de furnizor.
 
-## 10. Lipsa documentarii
+## 10. Lipsa documentării intervențiilor
 
-Fara istoric, nu poti anticipa probleme si nu stii ce s-a facut anterior.
+Fără un istoric al intervențiilor, este dificil să identificați tipare recurente de defectare sau să anticipați o problemă care se repetă.
 
-**Solutia:** Jurnal pentru fiecare echipament. Noteaza: interventiile, masuratorile, piesele schimbate, observatiile. Dupa 2-3 ani, vei avea o imagine clara.
+**Recomandare:** un jurnal de mentenanță per echipament, cu intervențiile efectuate, măsurătorile relevante (vibrații, curent, temperatură) și piesele înlocuite.
 
-## Un calcul simplu
+## Mentenanța preventivă vs. mentenanța corectivă
 
-Costul mentenantei preventive: aproximativ 2-3% din valoarea echipamentului pe an.
-Costul defectarii majore: 10-30% din valoare + pierderi de productie.
+Mentenanța preventivă presupune verificări planificate, înainte de apariția defecțiunii; cea corectivă intervine după defectare, de regulă cu impact mai mare asupra producției. Vezi și [ghidul de mentenanță preventivă pentru pompe industriale](/blog/mentenanta-preventiva-pompe-industriale).
 
-Un motor de 50.000 EUR bine intretinut dureaza 20+ ani.
-Acelasi motor neglijat: 8-10 ani si 2-3 defectiuni majore.
+## Ce date să trimiteți pentru ofertă
 
-Matematica e clara.
+- Tipul echipamentului (pompă, motor, robinet) și modelul, dacă este cunoscut
+- Simptomul observat (vibrații, zgomot, supraîncălzire, scădere de performanță)
+- Condițiile de funcționare (fluid, temperatură, presiune, ore de funcționare)
+- Istoricul intervențiilor anterioare, dacă există
+- Dacă solicitați doar piese de schimb sau și diagnostic/intervenție
+- Termenul dorit pentru rezolvare
 
-## Un ultim gand
-
-Facem contracte de mentenanta pentru cine vrea sa externalizeze asta. Dar chiar daca nu lucrezi cu noi - fa ceva. Orice program de mentenanta, oricat de simplu, e mai bun decat sa astepti sa se strice.
+Pentru un diagnostic tehnic sau o ofertă de piese de schimb, [contactați-ne](/contact).
     `,
-    author: 'E.V., Inginer Service',
-    authorId: 'author-004',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-10-15',
-    dateModified: '2026-01-24',
-    readTime: '8 min',
-    category: 'Mentenanta',
-    tags: ['mentenanta', 'prelungire viata', 'echipamente industriale', 'sfaturi'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Mentenanță",
+    tags: ["mentenanță", "prelungire viață", "echipamente industriale", "sfaturi"],
     image: '/blog/prelungire-viata.jpg',
     featured: false,
   },
   {
     id: 15,
     slug: 'tendinte-echipamente-industriale-2026',
-    title: 'Ce Se Schimba in Industria Echipamentelor: Observatii din Piata',
-    shortTitle: 'Tendinte Echipamente 2026',
-    excerpt: 'Digitalizare, eficienta energetica, sustenabilitate - buzzwords sau realitate? Ce vedem noi concret.',
+    title: "Ce reglementări europene schimbă echipamentele industriale",
+    shortTitle: "Reglementări UE și echipamente 2026",
+    excerpt: "Regulamentele UE privind eficiența motoarelor, gazele fluorurate și ecodesignul stabilesc cerințe tehnice concrete pentru echipamente industriale.",
     content: `
-Fiecare an vine cu predictii despre "revolutia industriala 4.0", "IoT", "AI in productie". Dar ce se intampla efectiv in piata din Romania? Iata ce observam noi in interactiunile cu clientii.
+Evoluția echipamentelor industriale este determinată, în prezent, în bună măsură de cadrul de reglementare european privind eficiența energetică și impactul asupra mediului. Trei acte normative recente stabilesc cerințe tehnice concrete, cu termene definite: Regulamentul (UE) 2019/1781 pentru motoare electrice și convertizoare de frecvență, Regulamentul (UE) 2024/573 privind gazele fluorurate cu efect de seră și Regulamentul (UE) 2024/1781 privind ecodesignul pentru produse sustenabile.
 
-## Eficienta energetica - nu mai e optionala
+## Eficiența motoarelor electrice — Regulamentul (UE) 2019/1781
 
-Acum 5 ani, eficienta energetica pentru [pompe industriale](/pompe-industriale) si [motoare electrice](/motoare-electrice) era un "nice to have". Astazi, cu preturile la energie unde sunt, e prima intrebare pe care o primim.
+Regulamentul stabilește cerințe de ecodesign pentru [motoarele electrice](/motoare-electrice) și convertizoarele de frecvență introduse pe piața europeană, în aplicarea Directivei-cadru de ecodesign 2009/125/CE.
 
-**Ce vedem concret:**
-- Cereri mult mai multe pentru VFD-uri, chiar si pe pompe mici
-- Interes pentru motoare IE4/IE5, chiar daca costa mai mult
-- Clienti care cer calcule de ROI inainte de orice achizitie
-- Cresterea cererii pentru [automatizări și Industry 4.0](/automatizari-industriale) cu monitorizare energetica
+**Ce prevede concret:**
+- de la 1 iulie 2021, motoarele trifazate cu puterea nominală între 0,75 kW și 1.000 kW trebuie să corespundă cel puțin clasei de eficiență **IE3**;
+- de la 1 iulie 2023, motoarele trifazate (cu excepția motoarelor de frână, a celor cu protecție la explozie de tip Ex eb și a altor motoare antiexplozive), cu putere între 75 kW și 200 kW și 2, 4 sau 6 poli, trebuie să corespundă cel puțin clasei **IE4**.
 
-Legislatia europeana (Ecodesign) impinge si ea in aceasta directie. De la 1 iulie 2023, motoarele 0.75-200 kW trebuie sa fie minim IE3 sau IE2+VFD.
+**Implicație practică:** la înlocuirea unui motor sau la specificarea unuia nou, pentru puterile și configurațiile acoperite de regulament, clasa de eficiență minimă admisă pe piața UE este superioară celei uzuale acum un deceniu. Pentru aplicații cu sarcină variabilă, [convertizorul de frecvență](/echipamente-electrice/convertizoare-frecventa) rămâne o soluție frecvent folosită pentru ajustarea consumului la necesarul real de proces — vezi [convertizoare de frecvență: când merită investiția](/blog/convertizoare-frecventa-beneficii).
 
-**Ce inseamna pentru tine:** Cand compari oferte, nu te uita doar la pret. Cere consumul energetic estimat si calculeaza costul total pe 5-10 ani.
+## Gaze fluorurate cu efect de seră — Regulamentul (UE) 2024/573
 
-## Digitalizarea - in crestere, dar lenta
+Regulamentul, în vigoare de la 11 martie 2024, reglementează producția, importul și utilizarea gazelor fluorurate cu efect de seră (HFC) folosite în instalații de refrigerare, climatizare și [pompe de căldură/chillere](/echipamente-termice/chillere-industriale), înlocuind Regulamentul (UE) nr. 517/2014.
 
-Producatorii mari ([Grundfos](/brand/grundfos), Siemens, ABB) investesc masiv in echipamente conectate. iSOLUTIONS, MindSphere, ABB Ability - platforme care monitorizeaza echipamentele in timp real.
+**Ce prevede concret:**
+- un mecanism de cote care reduce progresiv cantitatea de HFC ce poate fi introdusă pe piața UE;
+- eliminarea treptată a HFC din UE este programată până în 2050;
+- obligații extinse de recuperare a gazelor fluorurate la sfârșitul ciclului de viață al echipamentelor, pentru mai multe categorii de produse.
 
-**Ce vedem concret:**
-- Clientii mari (multinationale) implementeaza sisteme de monitorizare pentru [schimbatoare de caldura](/schimbatoare-caldura) si [pompe](/pompe-industriale) cu [senzori IoT](/senzori-instrumentatie) avansati
-- Clientii medii sunt interesati, dar adesea nu ajung la implementare din cauza complexitatii
-- Clientii mici inca prefera simplu si robust
+**Implicație practică:** pentru [schimbătoare de căldură](/schimbatoare-caldura), chillere și sisteme de climatizare industrială, disponibilitatea agenților frigorifici cu potențial ridicat de încălzire globală (GWP) se schimbă pe măsură ce cotele scad; la achiziția de echipamente noi, tipul de agent frigorific compatibil devine un criteriu tehnic relevant pe termen mediu.
 
-**Realitatea din teren:** Digitalizarea e utila cand ai multe echipamente si cand cineva chiar se uita la date. Am vazut sisteme de monitorizare instalate si apoi ignorate. E mai mult decat hardware - e si proces si oameni.
+## Ecodesign pentru produse sustenabile — Regulamentul (UE) 2024/1781 (ESPR)
 
-## Sustenabilitate - presiune reala
+Intrat în vigoare la 18 iulie 2024, acest regulament extinde cadrul de ecodesign dincolo de produsele consumatoare de energie (acoperite anterior de Directiva 2009/125/CE), la aproape toate categoriile de produse fizice introduse pe piața UE, cu excepții precum produsele alimentare și hrana pentru animale. Cerințele tehnice concrete pentru fiecare categorie de produs urmează să fie stabilite treptat, prin acte delegate ulterioare.
 
-ESG (Environmental, Social, Governance) nu mai e doar PR. Clientii nostri care lucreaza cu multinationale primesc cerinte concrete despre amprenta de carbon a furnizorilor.
+**Implicație practică:** pentru echipamentele industriale, extinderea graduală a cerințelor de ecodesign dincolo de motoare și produse consumatoare de energie înseamnă că, în anii următori, tot mai multe categorii de echipamente vor avea cerințe documentate de durabilitate și informare tehnică.
 
-**Ce vedem concret:**
-- Cereri pentru certificate de eficienta energetica
-- Intrebari despre materialele folosite si posibilitatea de reciclare
-- Interes pentru programe de reconditionare/remanufacturare
-- Adoptarea [echipamentelor termice verzi](/echipamente-termice) cu fluide refrigerante ecologice
+## Alte cadre de reglementare relevante
 
-Grundfos, de exemplu, ofera deja pompe cu componente reciclabile in proportie de 98%.
+Pe lângă cele trei regulamente de mai sus, echipamentele destinate zonelor cu risc de explozie rămân guvernate de Directiva 2014/34/UE (ATEX) și standardele conexe (seria SR EN 60079) — vezi [ghidul pentru echipamente ATEX](/blog/echipamente-atex-ghid-zone-periculoase). Pentru achizițiile publice, cerințele tehnice din regulamentele de ecodesign se reflectă tot mai frecvent în caietele de sarcini SEAP/SICAP — vezi [ghidul de achiziții SEAP](/ghid-achizitii-seap).
 
-## Lipsa fortei de munca
+## Ce înseamnă pentru specificarea unui echipament nou
 
-Poate cel mai mare driver al schimbarilor. Nu mai gasesti mecanici experimentati care sa faca mentenanta cum se facea acum 20 de ani.
+Atunci când specificați un echipament nou sau înlocuiți unul existent, verificați: clasa de eficiență energetică minimă aplicabilă (pentru motoare, conform Regulamentului 2019/1781), tipul de agent frigorific compatibil cu reglementarea în vigoare (pentru echipamente cu circuit frigorific) și, pentru zone cu risc de explozie, certificarea ATEX corespunzătoare. Aceste cerințe sunt stabilite prin regulament, nu opționale, și diferă de la o categorie de produs la alta.
 
-**Ce vedem concret:**
-- Cereri pentru echipamente care necesita mentenanta minima
-- Interes pentru contracte de service externalizat
-- Cereri pentru echipamente simplu de operat si intretinut
+## Ce date să trimiteți pentru ofertă
 
-**Implicatie:** Echipamentele mai scumpe dar mai fiabile devin mai atractive. Costul unui mecanic e mai mare decat diferenta de pret intre un echipament ieftin si unul de calitate.
+- Tipul de echipament și aplicația (proces, HVAC, refrigerare etc.)
+- Puterea sau capacitatea necesară
+- Clasa de eficiență energetică solicitată sau standardul aplicabil, dacă este cunoscut
+- Tipul de agent frigorific acceptat, pentru echipamente cu circuit frigorific
+- Clasificarea zonei, dacă aplicația este într-o zonă cu risc de explozie (ATEX)
+- Termenul de livrare dorit
 
-## Timpi de livrare - inca o problema
-
-Post-pandemie, lanturile de aprovizionare s-au imbunatatit, dar nu complet. Pentru configuratii speciale, termenele pot fi inca lungi.
-
-**Ce vedem concret:**
-- Clientii comanda mai din timp sau tin stocuri de rezerva
-- Interes mai mare pentru branduri cu productie europeana vs. Asia
-- Preferinta pentru configuratii standard care sunt disponibile rapid
-
-**Sfat:** Pentru proiecte planificate, comanda cu 3-6 luni inainte. Pentru echipamente critice, ia in calcul sa ai rezerva in stoc sau sa identifici alternative compatibile.
-
-## Ce anticipam pentru urmatorii ani
-
-Bazat pe ce vedem:
-
-1. **Eficienta energetica va deveni si mai importanta.** Preturile la energie nu vor scadea dramatic, iar legislatia se va inaspri.
-
-2. **Serviciul va conta mai mult decat produsul.** Clientii vor plati pentru disponibilitate garantata, nu doar pentru echipament.
-
-3. **Simplitatea va castiga.** In lipsa fortei de munca specializate, echipamentele usor de operat si intretinut vor fi preferate.
-
-4. **Digitalizarea va continua, dar pragmatic.** Vor supravietui solutiile care aduc beneficii concrete masurabile, nu cele care arata bine in prezentari.
-
-## Ce facem noi
-
-Ne adaptam. Investim in training pentru echipa, extindem serviciile de mentenanta si consultanta, si ne asiguram ca putem oferi solutii complete, nu doar echipamente.
-
-Daca vrei sa discutam despre cum te afecteaza aceste tendinte sau cum sa te pregatesti, contacteaza-ne. Suntem aici de 15+ ani si intentionam sa fim si in urmatorii 15.
+Pentru a verifica cerințele de reglementare aplicabile echipamentului dumneavoastră, [contactați-ne](/contact).
     `,
-    author: 'Echipa Infinitrade',
-    authorId: 'author-team',
+    author: "Echipa tehnică Infinitrade",
+    authorId: "echipa-tehnica",
     date: '2025-10-08',
-    dateModified: '2026-01-22',
-    readTime: '7 min',
-    category: 'Noutati Industrie',
-    tags: ['tendinte', 'digitalizare', 'eficienta energetica', 'sustenabilitate'],
+    dateModified: "2026-09-27",
+    readTime: "4 min",
+    category: "Noutăți din industrie",
+    tags: ["tendințe", "digitalizare", "eficiență energetică", "sustenabilitate"],
     image: '/blog/tendinte-2026.jpg',
+    sources: [{"title": "Regulamentul (UE) 2019/1781 — cerințe de proiectare ecologică pentru motoare electrice și variatoare de viteză", "url": "https://eur-lex.europa.eu/eli/reg/2019/1781/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}, {"title": "Directiva 2014/34/UE (ATEX) — echipamente și sisteme de protecție destinate atmosferelor potențial explozive", "url": "https://eur-lex.europa.eu/eli/dir/2014/34/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}, {"title": "Regulamentul (UE) 2024/573 privind gazele fluorurate cu efect de seră", "url": "https://eur-lex.europa.eu/eli/reg/2024/573/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}, {"title": "Regulamentul (UE) 2024/1781 — cadrul de proiectare ecologică pentru produse durabile (ESPR)", "url": "https://eur-lex.europa.eu/eli/reg/2024/1781/oj", "publisher": "EUR-Lex (Uniunea Europeană)", "accessed": "2026-09-27"}],
     featured: true,
   },
   {
@@ -1536,7 +1341,7 @@ Informațiile de mai sus provin din documentația publică a producătorilor Kni
     date: "2026-09-23",
     dateModified: "2026-09-23",
     readTime: "6 min",
-    category: "Comparatii",
+    category: "Comparații",
     tags: ["Knipex","Wera","Gedore","scule de mână"],
     image: "/blog/knipex-vs-wera-vs-gedore-scule-de-mana.jpg",
     featured: false,
@@ -1631,7 +1436,7 @@ Informațiile de mai sus provin din documentația publică a producătorilor Gew
     date: "2026-09-23",
     dateModified: "2026-09-23",
     readTime: "7 min",
-    category: "Comparatii",
+    category: "Comparații",
     tags: ["Gewiss","Schneider Electric","Hager","aparataj modular","tablouri de distribuție"],
     image: "/blog/gewiss-vs-schneider-vs-hager-aparataj-tablouri.jpg",
     featured: false,
@@ -1730,7 +1535,7 @@ Informațiile de mai sus provin din documentația publică a producătorilor, ve
     date: "2026-09-23",
     dateModified: "2026-09-23",
     readTime: "7 min",
-    category: "Comparatii",
+    category: "Comparații",
     tags: ["pompe de circulatie","pompe de presurizare","pompe centrifuge","Grundfos","Wilo","DAB"],
     image: "/blog/grundfos-vs-wilo-vs-dab-pompe.jpg",
     featured: false,
@@ -1818,7 +1623,7 @@ Informațiile provin din documentația publică a producătorilor, verificată l
     date: "2026-09-23",
     dateModified: "2026-09-23",
     readTime: "7 min",
-    category: "Comparatii",
+    category: "Comparații",
     tags: ["convertizoare de frecventa","Danfoss","ABB","Siemens","automatizari"],
     image: "/blog/danfoss-vs-abb-vs-siemens-convertizoare-frecventa.jpg",
     featured: false,
@@ -1900,7 +1705,7 @@ Informațiile de mai sus provin din documentația publică a producătorilor, ci
     date: "2026-09-23",
     dateModified: "2026-09-23",
     readTime: "7 min",
-    category: "Comparatii",
+    category: "Comparații",
     tags: ["presiune","traductoare de presiune","WIKA","Endress+Hauser","Keller"],
     image: "/blog/wika-vs-endress-hauser-vs-keller-masurare-presiune.jpg",
     featured: false,
@@ -2011,7 +1816,7 @@ Informațiile de mai sus provin din documentația tehnică publică a Festo, SMC
     date: "2026-09-23",
     dateModified: "2026-09-23",
     readTime: "7 min",
-    category: "Comparatii",
+    category: "Comparații",
     tags: ["cilindri pneumatici","distribuitoare pneumatice","ISO 15552","Festo","SMC","Camozzi"],
     image: "/blog/festo-vs-smc-vs-camozzi-pneumatica.jpg",
     featured: false,
@@ -2020,12 +1825,12 @@ Informațiile de mai sus provin din documentația tehnică publică a Festo, SMC
 ];
 
 export const blogCategories = [
-  'Ghiduri Tehnice',
-  'Comparatii',
-  'Eficienta Energetica',
-  'Mentenanta',
-  'Noutati Industrie',
-  'Studii de Caz',
+  "Ghiduri tehnice",
+  "Comparații",
+  "Eficiență energetică",
+  "Mentenanță",
+  "Noutăți din industrie",
+  "Studii de caz",
 ];
 
 export function getBlogArticle(slug) {
