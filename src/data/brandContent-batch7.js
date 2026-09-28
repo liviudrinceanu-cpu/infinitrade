@@ -468,7 +468,7 @@ Sistemul de baterii XR FlexVolt este conceput astfel încât aceeași baterie co
 
 Gama DeWalt include peste 200 de tipuri de scule electrice, toate testate în condiții extreme de șantier: praf, umezeală, temperaturi de la -20°C la +50°C, căderi pe beton de la 2 metri înălțime. Când lucrezi în construcții, instalații sau fabricație industrială și nu ai timp de defecțiuni, iei DeWalt și știi că merge.`,
     whyChoose: [
-      'Motoare brushless de ultimă generație - Eficiență ridicată, fără întreținere perii, durată de viață mai lungă decât motoare clasice',
+      'Motoare brushless - Eficiență ridicată, fără întreținere perii, durată de viață mai lungă decât motoare clasice',
       'Sistem baterii FlexVolt 18V/54V - O singură platformă de baterii pentru toate sculele, comutare automată de tensiune, compatibilitate cu 200+ scule',
       'Carcasă anti-praf și anti-șoc IP54 - Protecție la praf și stropituri de apă, rezistență la căderi de la 2m, testare conform standarde militare MIL-STD',
       'Tehnologie electronic clutch - Protecție anti-blocare care oprește scula când lovește în armătură sau nod, previne accidente și uzură prematură',

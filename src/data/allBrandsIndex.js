@@ -164,7 +164,25 @@ function buildBrandIndex() {
   return brandMap;
 }
 
-const brandIndex = buildBrandIndex();
+// v31 (D-2026-09-28, aprobat de proprietar): cele 8 branduri introduse de două
+// ori (src/data/duplicateBrands.js) se unesc în slug-ul principal: categoriile
+// secundarului se adaugă principalului, secundarul iese din index (fără pagină,
+// fără număr dublu), iar URL-ul lui primește 301 spre principal (next.config.js).
+function mergeDuplicateBrands(map) {
+  for (const [secondary, primary] of Object.entries(DUPLICATE_BRANDS)) {
+    const s = map.get(secondary);
+    const p = map.get(primary);
+    if (!s || !p) continue;
+    for (const c of s.categories) {
+      if (!p.categories.some((x) => x.slug === c.slug)) p.categories.push(c);
+    }
+    if (s.featured) p.featured = true;
+    map.delete(secondary);
+  }
+  return map;
+}
+
+const brandIndex = mergeDuplicateBrands(buildBrandIndex());
 
 // All brands as a flat array (unified, deduplicated by simple slug)
 export const allBrandsUnified = Array.from(brandIndex.values());
@@ -175,11 +193,18 @@ export function getBrandByAnySlug(slug) {
   if (brandIndex.has(slug)) {
     return brandIndex.get(slug);
   }
+  // v31: slug secundar al unui brand dublat -> brandul principal
+  if (Object.prototype.hasOwnProperty.call(DUPLICATE_BRANDS, slug)) {
+    return brandIndex.get(DUPLICATE_BRANDS[slug]) || null;
+  }
 
   // Try stripping known prefixes
   const simpleSlug = deriveSimpleSlug(slug, '');
   if (brandIndex.has(simpleSlug)) {
     return brandIndex.get(simpleSlug);
+  }
+  if (Object.prototype.hasOwnProperty.call(DUPLICATE_BRANDS, simpleSlug)) {
+    return brandIndex.get(DUPLICATE_BRANDS[simpleSlug]) || null;
   }
 
   return null;
@@ -197,7 +222,8 @@ export function getAllOriginalSlugs() {
     for (const brand of category.brands) {
       const simpleSlug = deriveSimpleSlug(brand.slug, category.slug);
       if (!brand.secondary && brand.slug !== simpleSlug) {
-        slugs.push({ original: brand.slug, simple: simpleSlug });
+        // v31: un slug secundar dublat se rezolvă la brandul principal
+        slugs.push({ original: brand.slug, simple: DUPLICATE_BRANDS[simpleSlug] || simpleSlug });
       }
     }
   }

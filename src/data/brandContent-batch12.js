@@ -24,11 +24,11 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       },
       {
         name: 'MELSERVO MR-J5 Series',
-        description: 'Servo-amplificatoare de ultimă generație cu control în buclă de 62.5μs, frecvență reglare 3.2kHz, inerție compensată automat până la 1:300. Putere 50W-55kW, intrare 1-fază sau 3-faze 200-480V. Tuning automat în 3 moduri (one-touch, advanced, real-time), vibrații reduse cu 66% față de generația anterioară. Comunicare SSCNET III/H pentru sincronizare multi-axă sub 125μs jitter. Funcții safety integrate STO/SS1 conform EN61800-5-2. Ideal pentru CNC, robotică, pick&place de precizie, printing industrial.'
+        description: 'Servo-amplificatoare cu control în buclă de 62.5μs, frecvență reglare 3.2kHz, inerție compensată automat până la 1:300. Putere 50W-55kW, intrare 1-fază sau 3-faze 200-480V. Tuning automat în 3 moduri (one-touch, advanced, real-time), vibrații reduse cu 66% față de generația anterioară. Comunicare SSCNET III/H pentru sincronizare multi-axă sub 125μs jitter. Funcții safety integrate STO/SS1 conform EN61800-5-2. Ideal pentru CNC, robotică, pick&place de precizie, printing industrial.'
       },
       {
         name: 'FR-A800 Series VFD',
-        description: 'Variatoare de frecvență cu control vectorial fără senzor de ultimă generație - precizie viteză ±0.2% din 0.3 la 400Hz, cuplu de pornire 200% la 0.5Hz fără encoder. Regenerare energia frânare până la 95% eficiență, filtru EMC integrat clasa C3, moduri eco cu reducere consum 30-40%. Comunicare EtherNet/IP, PROFINET, CC-Link, RS485 MODBUS. Funcții PID integrate, 8 speed presets, 4 rampe accelerare/decelerare independente. Temperatură -10 la +60°C, altitudine 1000m standard, protecție IP20/IP54 opțional. Potrivit pompe, ventilatoare, compresoare, transportoare.'
+        description: 'Variatoare de frecvență cu control vectorial fără senzor - precizie viteză ±0.2% din 0.3 la 400Hz, cuplu de pornire 200% la 0.5Hz fără encoder. Regenerare energia frânare până la 95% eficiență, filtru EMC integrat clasa C3, moduri eco cu reducere consum 30-40%. Comunicare EtherNet/IP, PROFINET, CC-Link, RS485 MODBUS. Funcții PID integrate, 8 speed presets, 4 rampe accelerare/decelerare independente. Temperatură -10 la +60°C, altitudine 1000m standard, protecție IP20/IP54 opțional. Potrivit pompe, ventilatoare, compresoare, transportoare.'
       },
       {
         name: 'GOT2000 Series HMI',
@@ -341,7 +341,7 @@ Producătorul investește în R&D - laborator propriu de tribologie pentru testa
       },
       {
         name: 'Mobil SHC Gear 320 Synthetic Gear Oil',
-        description: 'Ulei sintetic pentru transmisii industriale cu formulare PAO și aditivi EP (extreme pressure) de ultimă generație. ISO VG 320, indice vâscozitate 160 pentru stabilitate termică superioară. FZG gear test fail stage 13+ (protecție anti-pitting extremă), Load Carrying Capacity Timken OK load 65 lbs. Eficiență energetică - reducere frecare vs. minerale, cu economie de energie măsurată în teste de teren. Interval schimb 3x mai lung (12,000-15,000 ore vs. 4,000-5,000 minerale). Compatibilitate etanșări, filtrare superioară. Aplicații: reductoare industriale heavy-duty, extrudere plastic, mixere, conveyors, elevators, wind turbine gearboxes. Investiție care poate reduce costurile pe termen lung prin economii de energie și mentenanță redusă.'
+        description: 'Ulei sintetic pentru transmisii industriale cu formulare PAO și aditivi EP (extreme pressure). ISO VG 320, indice vâscozitate 160 pentru stabilitate termică superioară. FZG gear test fail stage 13+ (protecție anti-pitting extremă), Load Carrying Capacity Timken OK load 65 lbs. Eficiență energetică - reducere frecare vs. minerale, cu economie de energie măsurată în teste de teren. Interval schimb 3x mai lung (12,000-15,000 ore vs. 4,000-5,000 minerale). Compatibilitate etanșări, filtrare superioară. Aplicații: reductoare industriale heavy-duty, extrudere plastic, mixere, conveyors, elevators, wind turbine gearboxes. Investiție care poate reduce costurile pe termen lung prin economii de energie și mentenanță redusă.'
       },
       {
         name: 'Mobil Rarus SHC 1026 Compressor Oil',
