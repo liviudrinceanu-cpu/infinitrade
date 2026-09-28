@@ -130,7 +130,7 @@ Response time: within 1 business day.
 - Public procurement: 1,200+ purchases awarded via SEAP, 2017–2026 (public record: https://sicap.ai/achizitii/firma/169611)
 - Payment terms: usually 30–60 days for contract customers (stated in each quote)
 - Contact for companies: Florin Cuzma, florin.cuzma@infinitrade-romania.ro
-- Delivery: 24–72 h when the item is in our stock or in the supplier's stock; made-to-order products usually 1–4 weeks; rare items and complex equipment or systems can exceed 4 weeks, depending on the manufacturer and its production booking. The lead time runs from the advance payment, firm order, signed sales contract or supplier onboarding, and is confirmed in the quote
+- Delivery: 24–72 h when the item is in our own stock or in external stock; made-to-order products usually 1–4 weeks; rare items and complex equipment or systems can exceed 4 weeks, depending on the manufacturer and its production booking. The lead time runs from the advance payment, firm order, signed sales contract or supplier onboarding, and is confirmed in the quote
 
 ## Contact
 - Address: Calea Lugojului, nr.47/B, Hala nr. 3, Ghiroda, Timiș 307200, Romania
