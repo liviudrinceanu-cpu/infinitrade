@@ -45,7 +45,7 @@ const faqData = [
       },
       {
         q: 'Cine plătește transportul?',
-        a: 'De regulă suportăm noi costul transportului până la adresa dumneavoastră. Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii; o scriem în fiecare ofertă, înainte de comandă.'
+        a: 'De regulă suportăm noi costul transportului până la adresa dumneavoastră: condiția uzuală este DAP (Incoterms® 2020), adică transportul și riscul pe drum sunt ale noastre, iar descărcarea este a dumneavoastră. Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii; o scriem în fiecare ofertă, înainte de comandă.'
       },
       {
         q: 'Ce modalități de plată acceptați?',
