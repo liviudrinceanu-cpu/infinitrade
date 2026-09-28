@@ -429,7 +429,7 @@ export default function CertificariPage() {
                 <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
                 <div>
                   <h3>Stocuri</h3>
-                  <p>Din stocul nostru sau al furnizorului: 24–72 h. Pentru produsele fabricate la comandă, de regulă 1–4 săptămâni; raritățile, echipamentele și sistemele complexe pot depăși 4 săptămâni, în funcție de producător. Termenul curge de la plata avansului, comanda fermă, semnarea contractului sau, după caz, înscrierea noastră ca furnizor și se confirmă în ofertă.</p>
+                  <p>Din stocul nostru sau din stoc extern: 24–72 h. Pentru produsele fabricate la comandă, de regulă 1–4 săptămâni; raritățile, echipamentele și sistemele complexe pot depăși 4 săptămâni, în funcție de producător. Termenul curge de la plata avansului, comanda fermă, semnarea contractului sau, după caz, înscrierea noastră ca furnizor și se confirmă în ofertă.</p>
                 </div>
               </div>
             </div>

@@ -26,7 +26,7 @@ export const roleContact = {
 export const PAYMENT_TERMS_TEXT = 'de regulă 30–60 de zile pentru clienții cu contract';
 
 export const LEAD_TIME_TEXT =
-  '24–72 h pentru reperele aflate în stocul nostru sau în stocul furnizorului; produsele fabricate la comandă, de regulă 1–4 săptămâni; raritățile, echipamentele și sistemele complexe pot depăși 4 săptămâni, în funcție de producător și de rezervarea capacității lui de producție';
+  '24–72 h pentru reperele aflate în stocul nostru sau în stoc extern; produsele fabricate la comandă, de regulă 1–4 săptămâni; raritățile, echipamentele și sistemele complexe pot depăși 4 săptămâni, în funcție de producător și de rezervarea capacității lui de producție';
 
 export const LEAD_TIME_START =
   'Termenul curge de la plata avansului, comanda fermă, semnarea contractului sau, după caz, înscrierea noastră ca furnizor.';
@@ -185,7 +185,7 @@ export const roles = {
         title: 'Urgențe',
         items: [
           `Dacă o defecțiune oprește producția, sunați-ne la ${phone} (${'luni–vineri, 08:00–16:30'}) și spuneți de la început că este o urgență.`,
-          'Vă spunem termenul realist: din stocul nostru din Ghiroda, din stocul furnizorului sau direct de la producător, cu transportul potrivit.',
+          'Vă spunem termenul realist: din stocul nostru din Ghiroda, din stoc extern sau direct de la producător, cu transportul potrivit.',
         ],
       },
     ],

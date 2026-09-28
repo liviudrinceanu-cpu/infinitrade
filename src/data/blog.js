@@ -627,7 +627,7 @@ Vin asamblate din fabrică pe o bucșă, ceea ce elimină erorile de montaj manu
 
 ## Disponibilitate piese
 
-Pentru [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) și [KSB](/brand/ksb) pe modelele curente, precum și pentru producători specializați în etanșări (Burgmann, John Crane): 24-72 h pentru reperele aflate în stocul nostru sau în stocul furnizorului; din fabrică, de regulă 1–4 săptămâni. Precizarea modelului exact de pompă și, dacă e posibil, o fotografie a garniturii vechi reduc riscul unei comenzi greșite.
+Pentru [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) și [KSB](/brand/ksb) pe modelele curente, precum și pentru producători specializați în etanșări (Burgmann, John Crane): 24-72 h pentru reperele aflate în stocul nostru sau în stoc extern; din fabrică, de regulă 1–4 săptămâni. Precizarea modelului exact de pompă și, dacă e posibil, o fotografie a garniturii vechi reduc riscul unei comenzi greșite.
 
 ## Ce date să trimiteți pentru ofertă
 
@@ -781,7 +781,7 @@ Grundfos pune la dispoziție Grundfos Product Center, un instrument online pentr
 
 ## Piese de schimb și service local
 
-Disponibilitatea pieselor de schimb depinde de model și de rețeaua locală de distribuție pentru fiecare brand în parte; pentru reperele aflate în stocul nostru sau în stocul furnizorului, termenul uzual este de 24-72 h, iar din fabrică, de regulă 1–4 săptămâni.
+Disponibilitatea pieselor de schimb depinde de model și de rețeaua locală de distribuție pentru fiecare brand în parte; pentru reperele aflate în stocul nostru sau în stoc extern, termenul uzual este de 24-72 h, iar din fabrică, de regulă 1–4 săptămâni.
 
 ## Criterii de alegere, pe scurt
 

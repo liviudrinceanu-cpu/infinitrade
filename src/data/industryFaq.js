@@ -71,7 +71,7 @@ export const industryFaqs = {
     },
     {
       q: "Cât durează livrarea unei pompe submersibile sau a unei piese de schimb critice?",
-      a: "Pentru modelele uzuale din portofoliu livrarea se face în 24-72h oriunde în țară, când reperul e în stocul nostru sau în stocul furnizorului - important pentru stații unde o defecțiune înseamnă risc de deversare necontrolată. Pentru echipamente specializate (suflante de capacitate mare, pompe cu șurub excentric dedicate, componente SCADA la comandă), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător. Dacă aveți o urgență operațională, sunați-ne direct - verificăm disponibilitatea imediată la noi sau la alți furnizori și găsim soluția cea mai rapidă pentru a evita oprirea stației."
+      a: "Pentru modelele uzuale din portofoliu livrarea se face în 24-72h oriunde în țară, când reperul e în stocul nostru sau în stoc extern - important pentru stații unde o defecțiune înseamnă risc de deversare necontrolată. Pentru echipamente specializate (suflante de capacitate mare, pompe cu șurub excentric dedicate, componente SCADA la comandă), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător. Dacă aveți o urgență operațională, sunați-ne direct - verificăm disponibilitatea imediată la noi sau la alți furnizori și găsim soluția cea mai rapidă pentru a evita oprirea stației."
     }
   ],
 
@@ -163,7 +163,7 @@ export const industryFaqs = {
     },
     {
       q: "Cât durează livrarea unei piese critice pentru o pompă slurry sau un utilaj de minerit oprit?",
-      a: "Pentru rotoare, carcase și garnituri de uzură din gama uzuală, livrarea se face în 24-72h când reperul e în stocul nostru sau în stocul furnizorului, pentru că o oprire neplanificată a unei linii de procesare minereu costă mult pe oră. Pentru echipamente construite pe comandă (pompe slurry dimensionate special, cilindri hidraulici cu dimensiuni netipice), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni. Dacă aveți o urgență de producție, sunați-ne direct cu codul echipamentului sau cu fotografii ale plăcuței - verificăm rapid ce avem disponibil la noi sau la alți furnizori din rețea."
+      a: "Pentru rotoare, carcase și garnituri de uzură din gama uzuală, livrarea se face în 24-72h când reperul e în stocul nostru sau în stoc extern, pentru că o oprire neplanificată a unei linii de procesare minereu costă mult pe oră. Pentru echipamente construite pe comandă (pompe slurry dimensionate special, cilindri hidraulici cu dimensiuni netipice), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni. Dacă aveți o urgență de producție, sunați-ne direct cu codul echipamentului sau cu fotografii ale plăcuței - verificăm rapid ce avem disponibil la noi sau la alți furnizori din rețea."
     }
   ],
 
@@ -301,7 +301,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce trimitem pentru o ofertă de echipamente pentru un centru logistic nou sau o extindere?",
-      a: "Pentru motoare și motoreductoare: puterea necesară, raportul de reducere, viteza liniei și mediul de funcționare (temperatură, praf, umiditate). Pentru automatizări: numărul de puncte de sortare, tipul de senzori doriți și schema de comunicație a sistemului central. Pentru pneumatică: presiunea de aer disponibilă și numărul de cicluri pe oră. Cu aceste date pregătim o ofertă completă - pentru componente standard SEW și Siemens la cele mai cerute dimensiuni, livrarea se face în 24-72h când reperul e în stocul nostru sau în stocul furnizorului, esențial pentru un centru care nu-și permite oprire prelungită."
+      a: "Pentru motoare și motoreductoare: puterea necesară, raportul de reducere, viteza liniei și mediul de funcționare (temperatură, praf, umiditate). Pentru automatizări: numărul de puncte de sortare, tipul de senzori doriți și schema de comunicație a sistemului central. Pentru pneumatică: presiunea de aer disponibilă și numărul de cicluri pe oră. Cu aceste date pregătim o ofertă completă - pentru componente standard SEW și Siemens la cele mai cerute dimensiuni, livrarea se face în 24-72h când reperul e în stocul nostru sau în stoc extern, esențial pentru un centru care nu-și permite oprire prelungită."
     }
   ],
 
