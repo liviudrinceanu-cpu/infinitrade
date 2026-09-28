@@ -33,7 +33,7 @@ export const lastModified = {
   // Data-driven groups - one shared date per group, from the data file(s)
   // that feed all pages in that group
   categories: '2026-09-27', // src/data/products.js + src/data/equipmentCategories.js
-  brands: '2026-09-27', // src/data/allBrandsIndex.js + src/data/brandContent.js
+  brands: '2026-09-28', // src/data/allBrandsIndex.js + src/data/brandContent.js
   industries: '2026-09-27', // src/data/industries.js
   caseStudies: '2026-09-27', // src/data/caseStudies.js
 

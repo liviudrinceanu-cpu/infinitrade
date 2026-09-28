@@ -40,8 +40,25 @@ export async function generateMetadata({ params }) {
     brand.name,
   ];
   const title = { absolute: titleVariants.find((t) => t.length <= 65) || brand.name };
-  const lead = `Furnizăm echipamente ${brand.name} în România`;
-  const tail = ' Furnizor SEAP, livrare 24–72 h din stoc.';
+  // v31 (D-2026-09-28): coada și începutul descrierii variază determinist pe
+  // brand (aceeași pagină primește mereu aceeași variantă), ca ~1.200 de
+  // descrieri să nu repete aceeași frază. Toate variantele sunt fapte
+  // confirmate (SEAP, termene, documente, ofertă pe cod/plăcuță).
+  const h = [...brand.simpleSlug].reduce((acc, ch) => (acc * 31 + ch.charCodeAt(0)) >>> 0, 7);
+  const LEADS = [
+    `Furnizăm echipamente ${brand.name} în România`,
+    `Echipamente și piese de schimb ${brand.name} pentru companii din România`,
+    `Ofertăm echipamente ${brand.name} în România`,
+  ];
+  const TAILS = [
+    ' Furnizor SEAP, livrare 24–72 h din stoc.',
+    ' Ofertă pe cod sau plăcuță, livrare 24–72 h din stoc.',
+    ' Din stoc în 24–72 h, din fabrică în 2–4 săptămâni.',
+    ' Documente de conformitate și ofertă pe cod de produs.',
+    ' Produse originale, termen de livrare scris în ofertă.',
+  ];
+  const lead = LEADS[h % LEADS.length];
+  const tail = TAILS[Math.floor(h / LEADS.length) % TAILS.length];
   const room = 158 - lead.length - tail.length - 2;
   const rawDesc = String(brand.description || '').replace(/\.$/, '');
   // v20: when the brand description is too long, cut it at a natural phrase

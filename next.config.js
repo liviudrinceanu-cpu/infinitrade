@@ -158,6 +158,15 @@ const nextConfig = {
       { source: '/sitemap_index.xml', destination: '/sitemap.xml', permanent: true },
       { source: '/sitemap-:name.xml', destination: '/sitemap.xml', permanent: true },
       { source: '/wp-sitemap.xml', destination: '/sitemap.xml', permanent: true },
+      // v31: branduri dublate -> slug-ul principal (src/data/duplicateBrands.js)
+      { source: '/brand/schneider', destination: '/brand/schneider-electric', permanent: true },
+      { source: '/brand/brook-crompton', destination: '/brand/brook', permanent: true },
+      { source: '/brand/phoenix-contact', destination: '/brand/phoenix', permanent: true },
+      { source: '/brand/elmo-rietschle', destination: '/brand/elmo', permanent: true },
+      { source: '/brand/elprom', destination: '/brand/elprom-harmanli', permanent: true },
+      { source: '/brand/hoyer', destination: '/brand/hoyer-motors', permanent: true },
+      { source: '/brand/menzel', destination: '/brand/menzel-elektromotoren', permanent: true },
+      { source: '/brand/weidmuller-electric', destination: '/brand/weidmuller', permanent: true },
 
       // v22 (audit 27.09): legacy URLs that Search Console still lists under
       // „Server error (5xx)” (crawled during the March–July 500 bug, now 404).

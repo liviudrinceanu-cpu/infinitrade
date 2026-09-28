@@ -523,7 +523,7 @@ Pentru Industrie 4.0, Harting a dezvoltat ecosistemul MICA - Mini Computer pentr
 
 Expertiza Helukabel e în aplicații speciale - cabluri care rezistă la -60°C în condiții arctice, cabluri care suportă 180°C continuu lângă cuptor, cabluri pentru lanț portcablu cu milioane de cicluri de flexiune, cabluri submersibile IP68 permanent. Pentru fiecare condiție extremă, producătorul dezvoltă o soluție testată riguros. Toate cablurile trec teste de flexiune (mașini dedicate, milioane cicluri), teste termice (camere climatice -60/+200°C), teste de rezistență chimică (imersie uleiuri, solvenți, acizi).
 
-Helukabel investește constant în cercetare - laborator propriu de testare cu echipamente de ultimă generație (spectrometrie materiale, microscop electronic pentru analiza conductorilor, camere climatice, benzi de testare flexiune) și colaborează cu producători de echipamente industriale pentru dezvoltarea de cabluri custom - specificații exacte pentru aplicație, teste de validare, certificare UL/CSA dacă e necesar.`,
+Helukabel investește constant în cercetare - laborator propriu de testare cu echipamente (spectrometrie materiale, microscop electronic pentru analiza conductorilor, camere climatice, benzi de testare flexiune) și colaborează cu producători de echipamente industriale pentru dezvoltarea de cabluri custom - specificații exacte pentru aplicație, teste de validare, certificare UL/CSA dacă e necesar.`,
     whyChoose: [
       'Gamă vastă 40.000+ referințe - cabluri pentru o gamă largă de aplicații, de la senzori până la energie medie tensiune',
       'Specialiști aplicații extreme - cabluri pentru temperaturi -60°C/+180°C, medii chimice agresive, abraziune severă',
@@ -799,7 +799,7 @@ Hengst investește constant în cercetare - laborator de testare cu benzi de sim
     founded: 1941,
     headquarters: 'Schaan, Liechtenstein',
     employees: '32000+',
-    overview: `Hilti dezvoltă scule electrice și sisteme de fixare pentru profesioniștii din construcții - de la bormasini și demolatoare până la sisteme de ancoraj chimic și mecanic, de la nivele laser de ultimă generație până la software pentru managementul productivității pe șantier. Peste 80 de ani experiență în condiții extreme de lucru.
+    overview: `Hilti dezvoltă scule electrice și sisteme de fixare pentru profesioniștii din construcții - de la bormasini și demolatoare până la sisteme de ancoraj chimic și mecanic, de la nivele laser până la software pentru managementul productivității pe șantier. Peste 80 de ani experiență în condiții extreme de lucru.
 
 Filozofia Hilti este productivitatea pe șantier: nu doar o bormasină, ci un sistem complet pentru găurirea betonului armat - unealtă potrivită aplicației, burghie cu geometrie studiată pentru viteză ridicată și uzură redusă, aspirație integrată pentru mediu curat de lucru, baterii cu autonomie extinsă, service profesional cu înlocuire pe loc dacă ceva nu funcționează. Asta înseamnă Hilti Fleet Management - tu lucrezi, Hilti se ocupă de scule.
 

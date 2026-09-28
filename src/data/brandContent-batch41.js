@@ -854,7 +854,7 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
     productCodes: [
       {
         "code": "MINAS A7",
-        "description": "servo-sistem de ultimă generație, control de mișcare de înaltă precizie"
+        "description": "servo-sistem, control de mișcare de înaltă precizie"
       },
       {
         "code": "MINAS A6 200V",
