@@ -66,7 +66,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       'HVAC Industrial (centrale termice/frigorifice, districte termice)',
     ],
 
-    infinitrade: `La Infinitrade aducem produse Grundfos prin canale de aprovizionare din Uniunea Europeană. Ce putem și ce nu putem confirma: nu ținem evidență proprie a stocului fabricii, așa că orice termen depinde de disponibilitatea reală verificată la comandă. Pentru referințe uzuale din portofoliul CR, SP sau UPS, livrarea poate fi 24–72 h din stoc atunci când modelul se află deja în rețeaua noastră de furnizori; pentru configurații speciale sau debite mari, calculăm 2–4 săptămâni la comandă. Pentru o propunere corectă avem nevoie de codul modelului, debitul și înălțimea de pompare cerute, și temperatura sau tipul fluidului vehiculat. Nu putem angaja intervenții în perioada de garanție a producătorului fără acordul prealabil al acestuia, dar facem selecția tehnică și urmărim comanda până la livrare.`,
+    infinitrade: `La Infinitrade aducem produse Grundfos prin canale de aprovizionare din Uniunea Europeană. Ce putem și ce nu putem confirma: nu ținem evidență proprie a stocului fabricii, așa că orice termen depinde de disponibilitatea reală verificată la comandă. Pentru referințe uzuale din portofoliul CR, SP sau UPS, livrarea poate fi 24–72 h din stoc atunci când modelul se află deja în rețeaua noastră de furnizori; pentru configurații speciale sau debite mari, calculăm 1–4 săptămâni la comandă. Pentru o propunere corectă avem nevoie de codul modelului, debitul și înălțimea de pompare cerute, și temperatura sau tipul fluidului vehiculat. Nu putem angaja intervenții în perioada de garanție a producătorului fără acordul prealabil al acestuia, dar facem selecția tehnică și urmărim comanda până la livrare.`,
 
     // F3-03 demonstration entry (backlog item F3-03). `ownFact` is
     // deliberately NOT added here: the plan-v2 packet
@@ -175,7 +175,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "q": "Livrați pompe Grundfos în România?",
-        "a": "Da, aducem la comandă modele din gamele CR, SP, MAGNA sau SCALA, pe baza codului exact cerut de client. Nu ținem această gamă pe raft și ne bazăm pe datele publice de disponibilitate ale producătorului; termenul uzual este de 2-4 săptămâni la comandă. Recomandăm transmiterea codului complet de pe eticheta pompei sau din schema instalației, pentru a evita confuzia între variante apropiate ale aceleiași serii."
+        "a": "Da, aducem la comandă modele din gamele CR, SP, MAGNA sau SCALA, pe baza codului exact cerut de client. Nu ținem această gamă pe raft și ne bazăm pe datele publice de disponibilitate ale producătorului; termenul uzual este de 1–4 săptămâni la comandă. Recomandăm transmiterea codului complet de pe eticheta pompei sau din schema instalației, pentru a evita confuzia între variante apropiate ale aceleiași serii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la o pompă Grundfos?",
@@ -278,7 +278,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       'Agricultură (irigații pe suprafețe mari, drenaj terenuri)',
     ],
 
-    infinitrade: `Aducem produsele KSB către România prin canalele de aprovizionare din Uniunea Europeană ale producătorului. Nu avem date proprii despre stocul fabricii din Frankenthal, deci confirmăm disponibilitatea exactă înainte de a stabili un termen. Pentru piese standard din familia Etanorm, uneori putem oferi 24–72 h din stoc dacă articolul e deja recepționat de furnizorul nostru; în rest, estimăm 2–4 săptămâni la comandă pentru pompe sau robinete fabricate special. Pentru un calcul corect trimiteți-ne debitul, presiunea, temperatura fluidului și materialul dorit pentru corpul pompei. Nu putem confirma teste sau configurări software specifice fără implicarea directă a departamentului tehnic KSB, însă vă ajutăm cu dimensionarea inițială și cu urmărirea comenzii.`,
+    infinitrade: `Aducem produsele KSB către România prin canalele de aprovizionare din Uniunea Europeană ale producătorului. Nu avem date proprii despre stocul fabricii din Frankenthal, deci confirmăm disponibilitatea exactă înainte de a stabili un termen. Pentru piese standard din familia Etanorm, uneori putem oferi 24–72 h din stoc dacă articolul e deja recepționat de furnizorul nostru; în rest, estimăm 1–4 săptămâni la comandă pentru pompe sau robinete fabricate special. Pentru un calcul corect trimiteți-ne debitul, presiunea, temperatura fluidului și materialul dorit pentru corpul pompei. Nu putem confirma teste sau configurări software specifice fără implicarea directă a departamentului tehnic KSB, însă vă ajutăm cu dimensionarea inițială și cu urmărirea comenzii.`,
 
     limitation: 'Nu putem confirma teste de material sau configurări software specifice pentru automatizările KSB, iar service-ul în perioada de garanție rămâne la decizia producătorului.',
     productCodes: [
@@ -362,7 +362,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "q": "Livrează KSB în România prin comandă?",
-        "a": "Aducem la comandă pompe și vane din gamele Etanorm, Sewatec, Amarex sau Multitec, pe bază codului confirmat de client. Nu avem această gamă pe raft, ne raportăm la informațiile publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni la comandă. Este utilă transmiterea codului exact de pe pompă existentă pentru a gasi variantă compatibilă."
+        "a": "Aducem la comandă pompe și vane din gamele Etanorm, Sewatec, Amarex sau Multitec, pe bază codului confirmat de client. Nu avem această gamă pe raft, ne raportăm la informațiile publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă. Este utilă transmiterea codului exact de pe pompă existentă pentru a gasi variantă compatibilă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de pompă KSB?",
@@ -458,7 +458,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       'Construcții (drenaj șantiere, alimentare betoniere)',
     ],
 
-    infinitrade: `Comandăm produse Wilo prin lanțul de aprovizionare european al producătorului, fără un depozit propriu dedicat acestui brand. Nu putem confirma în timp real stocul central Wilo, așa că verificăm fiecare cerere înainte de a promite o dată. Pentru pompele de circulație uzuale (seria Stratos) livrarea poate ajunge la 24–72 h din stoc atunci când piesa e deja în rețeaua noastră, iar pentru sisteme mai mari precum CronoLine sau EMUport calculăm 2–4 săptămâni la comandă. Ca să vă facem o propunere, spuneți-ne debitul și înălțimea de pompare necesare, tipul instalației și diametrul racordului. Nu putem garanta intervenții în perioada de garanție a producătorului fără avizul acestuia, dar vă sprijinim cu alegerea modelului potrivit.`,
+    infinitrade: `Comandăm produse Wilo prin lanțul de aprovizionare european al producătorului, fără un depozit propriu dedicat acestui brand. Nu putem confirma în timp real stocul central Wilo, așa că verificăm fiecare cerere înainte de a promite o dată. Pentru pompele de circulație uzuale (seria Stratos) livrarea poate ajunge la 24–72 h din stoc atunci când piesa e deja în rețeaua noastră, iar pentru sisteme mai mari precum CronoLine sau EMUport calculăm 1–4 săptămâni la comandă. Ca să vă facem o propunere, spuneți-ne debitul și înălțimea de pompare necesare, tipul instalației și diametrul racordului. Nu putem garanta intervenții în perioada de garanție a producătorului fără avizul acestuia, dar vă sprijinim cu alegerea modelului potrivit.`,
 
     limitation: 'Nu putem confirma intervenții de service în perioada de garanție a producătorului și nu configurăm de la distanță aplicația Wilo-Assistant sau conectivitatea Modbus/BACnet a pompelor.',
     productCodes: [
@@ -550,7 +550,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       },
       {
         "q": "Aduceți pompe Wilo la comandă în România?",
-        "a": "Da, aducem la comandă modele din gamele Stratos, Helix, CronoLine sau Rexa, după codul exact transmis de client. Nu avem această gamă pe raft și urmărim informațiile publicate de Wilo despre disponibilitate; termenul obișnuit este de 2-4 săptămâni. Este de ajutor să trimiteți fotografia plăcuței pompei existente pentru identificarea corectă a variantei și a puterii motorului."
+        "a": "Da, aducem la comandă modele din gamele Stratos, Helix, CronoLine sau Rexa, după codul exact transmis de client. Nu avem această gamă pe raft și urmărim informațiile publicate de Wilo despre disponibilitate; termenul obișnuit este de 1–4 săptămâni. Este de ajutor să trimiteți fotografia plăcuței pompei existente pentru identificarea corectă a variantei și a puterii motorului."
       },
       {
         "q": "Ce date sunt necesare pentru o ofertă la o pompă Wilo?",
@@ -647,7 +647,7 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       'Infrastructură (tuneluri, metrou, sisteme de ventilare/evacuare fum)',
     ],
 
-    infinitrade: `Livrăm echipamente Siemens către clienții din România prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul Siemens, care este foarte extins, astfel încât fiecare comandă pornește de la o verificare reală a disponibilității. Motoarele și convertizoarele din seriile de bază pot ajunge în 24–72 h din stoc atunci când referința e deja la furnizor, în timp ce pentru configurații personalizate de automatizare calculăm 2–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de codul produsului, puterea motorului sau modelul convertizorului, tensiunea de alimentare și aplicația vizată. Nu putem asigura programarea completă a unui sistem SCADA fără o discuție tehnică prealabilă, dar vă ajutăm cu selecția componentelor și cu plasarea comenzii.`,
+    infinitrade: `Livrăm echipamente Siemens către clienții din România prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul Siemens, care este foarte extins, astfel încât fiecare comandă pornește de la o verificare reală a disponibilității. Motoarele și convertizoarele din seriile de bază pot ajunge în 24–72 h din stoc atunci când referința e deja la furnizor, în timp ce pentru configurații personalizate de automatizare calculăm 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de codul produsului, puterea motorului sau modelul convertizorului, tensiunea de alimentare și aplicația vizată. Nu putem asigura programarea completă a unui sistem SCADA fără o discuție tehnică prealabilă, dar vă ajutăm cu selecția componentelor și cu plasarea comenzii.`,
 
     limitation: 'Nu putem asigura programarea completă a unui sistem SCADA sau service-ul în perioada de garanție a producătorului fără o discuție tehnică prealabilă cu Siemens.',
     productCodes: [
@@ -699,7 +699,7 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       },
       {
         "q": "Livrați echipamente Siemens în România la comandă?",
-        "a": "Da, aducem la comandă module din gamele SIMATIC S7-1200, S7-1500 sau ET 200, pe bază referinței exacte cerute de client. Nu ținem această gamă pe raft, iar informațiile de disponibilitate provin din surse publice ale producătorului; termenul obișnuit este de 2-4 săptămâni la comandă. Este util să trimiteți codul complet de comandă de pe eticheta modulului existent."
+        "a": "Da, aducem la comandă module din gamele SIMATIC S7-1200, S7-1500 sau ET 200, pe bază referinței exacte cerute de client. Nu ținem această gamă pe raft, iar informațiile de disponibilitate provin din surse publice ale producătorului; termenul obișnuit este de 1–4 săptămâni la comandă. Este util să trimiteți codul complet de comandă de pe eticheta modulului existent."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un PLC Siemens?",
@@ -800,7 +800,7 @@ Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conec
       'Marin și Offshore (acționări electrice pentru nave, platforme petroliere)',
     ],
 
-    infinitrade: `Aducem echipamente ABB pentru automatizări și acționări prin furnizori din Uniunea Europeană, fără stoc propriu permanent pentru această gamă. Nu avem surse proprii despre stocul central ABB, așa că orice termen se confirmă înainte de a fi transmis clientului. Pentru motoare și drive-uri din seriile curente putem oferi uneori 24–72 h din stoc dacă piesa e deja recepționată, iar pentru echipamente cu configurație specială estimăm 2–4 săptămâni la comandă. Pentru a pregăti o ofertă, trimiteți-ne puterea și turația motorului, tipul aplicației și protocolul de comunicație dorit. Nu putem confirma programarea platformei ABB Ability sau service-ul în garanție fără implicarea producătorului, dar vă asistăm cu dimensionarea și urmărirea livrării.`,
+    infinitrade: `Aducem echipamente ABB pentru automatizări și acționări prin furnizori din Uniunea Europeană, fără stoc propriu permanent pentru această gamă. Nu avem surse proprii despre stocul central ABB, așa că orice termen se confirmă înainte de a fi transmis clientului. Pentru motoare și drive-uri din seriile curente putem oferi uneori 24–72 h din stoc dacă piesa e deja recepționată, iar pentru echipamente cu configurație specială estimăm 1–4 săptămâni la comandă. Pentru a pregăti o ofertă, trimiteți-ne puterea și turația motorului, tipul aplicației și protocolul de comunicație dorit. Nu putem confirma programarea platformei ABB Ability sau service-ul în garanție fără implicarea producătorului, dar vă asistăm cu dimensionarea și urmărirea livrării.`,
 
     limitation: 'Nu putem confirma configurarea platformei ABB Ability sau intervențiile de service în perioada de garanție a producătorului fără implicarea directă a ABB.',
     productCodes: [
@@ -852,7 +852,7 @@ Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conec
       },
       {
         "q": "Aduceți produse ABB în România la comandă?",
-        "a": "Da, aducem la comandă convertizoare din gamă ACS580 sau ACS880 și motoare din gamele IE5 SynRM, pe bază codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni la comandă. Recomandăm transmiterea codului complet de pe eticheta echipamentului existent."
+        "a": "Da, aducem la comandă convertizoare din gamă ACS580 sau ACS880 și motoare din gamele IE5 SynRM, pe bază codului confirmat de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă. Recomandăm transmiterea codului complet de pe eticheta echipamentului existent."
       },
       {
         "q": "Ce date trimit pentru o ofertă la un motor ABB?",

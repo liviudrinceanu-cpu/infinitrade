@@ -29,7 +29,7 @@ Pentru România, Heidenhain înseamnă acces la traductoare pentru retrofit-uri 
       "Tehnologie medicală — poziționare de precizie pentru echipamente de diagnostic"
     ],
     certifications: ["ISO 9001", "ISO 14001", "ISO/IEC 27001:2022", "ISO 45001"],
-    infinitrade: `Pentru Heidenhain lucrăm din surse publice ale producătorului și din canale de distribuție din UE — nu dispunem de stoc propriu și spunem direct ce putem și ce nu putem confirma înainte de ofertare. Aducem la comandă encodere, palpoare și componente de comandă numerică prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de model și disponibilitatea la producător. Pentru o ofertă corectă, clientul trebuie să ne trimită codul complet al produsului (dacă îl are de pe traductorul existent) sau, în lipsa lui, tipul mașinii, lungimea de măsurare sau diametrul de montaj și interfața electrică dorită. Nu promitem disponibilitate permanentă din stoc pentru niciun model — fiecare cerere se verifică individual la producător înainte de a confirma termenul de livrare.`,
+    infinitrade: `Pentru Heidenhain lucrăm din surse publice ale producătorului și din canale de distribuție din UE — nu dispunem de stoc propriu și spunem direct ce putem și ce nu putem confirma înainte de ofertare. Aducem la comandă encodere, palpoare și componente de comandă numerică prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și disponibilitatea la producător. Pentru o ofertă corectă, clientul trebuie să ne trimită codul complet al produsului (dacă îl are de pe traductorul existent) sau, în lipsa lui, tipul mașinii, lungimea de măsurare sau diametrul de montaj și interfața electrică dorită. Nu promitem disponibilitate permanentă din stoc pentru niciun model — fiecare cerere se verifică individual la producător înainte de a confirma termenul de livrare.`,
     limitation: "Nu putem confirma programarea sau punerea în funcțiune software a comenzilor CNC TNC — aceasta rămâne în sarcina integratorului de mașină sau a service-ului autorizat de producător.",
     productCodes: [
       {
@@ -124,7 +124,7 @@ Pentru România, Heidenhain înseamnă acces la traductoare pentru retrofit-uri 
       },
       {
         "q": "Livrați encodere și comenzi Heidenhain în România?",
-        "a": "Da, encoderele și comenzile Heidenhain ajung la comandă, de regulă în 2-4 săptămâni, pentru că nu este o gamă ținută pe raft, având în vedere numărul mare de variante de rezoluție și lungime de măsurare. Pentru o ofertă corectă avem nevoie de tipul mașinii, cursa necesară și interfața electrică dorită."
+        "a": "Da, encoderele și comenzile Heidenhain ajung la comandă, de regulă în 1–4 săptămâni, pentru că nu este o gamă ținută pe raft, având în vedere numărul mare de variante de rezoluție și lungime de măsurare. Pentru o ofertă corectă avem nevoie de tipul mașinii, cursa necesară și interfața electrică dorită."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -167,7 +167,7 @@ Pentru piața din România, SUCO este relevant pentru instalații hidraulice mob
       "Medicină — componente de presiune pentru echipamente specializate"
     ],
     certifications: ["ISO 9001:2015", "ATEX (pentru variantele destinate zonelor cu risc de explozie)"],
-    infinitrade: `Nu avem date proprii de stoc pentru gama SUCO și lucrăm cu informațiile publice ale producătorului atunci când pregătim o ofertă. Aducem presostate și senzori de presiune SUCO prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă, în funcție de model. Pentru o ofertă rapidă și corectă, clientul ne trimite codul complet al produsului sau, dacă nu îl are, plaja de presiune necesară, tipul de racord de proces și tensiunea/tipul de ieșire electrică. Nu promitem disponibilitate permanentă din stoc pentru modelele SUCO — verificăm fiecare comandă individual înainte de confirmare, pentru a evita termene nerealiste.`,
+    infinitrade: `Nu avem date proprii de stoc pentru gama SUCO și lucrăm cu informațiile publice ale producătorului atunci când pregătim o ofertă. Aducem presostate și senzori de presiune SUCO prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă, în funcție de model. Pentru o ofertă rapidă și corectă, clientul ne trimite codul complet al produsului sau, dacă nu îl are, plaja de presiune necesară, tipul de racord de proces și tensiunea/tipul de ieșire electrică. Nu promitem disponibilitate permanentă din stoc pentru modelele SUCO — verificăm fiecare comandă individual înainte de confirmare, pentru a evita termene nerealiste.`,
     limitation: "Nu putem confirma integrarea sau configurarea software a variantelor electronice cu magistrale de comunicație specifice — recomandăm verificarea compatibilității cu automatul programabil existent înainte de comandă.",
     productCodes: [
       {
@@ -234,7 +234,7 @@ Pentru piața din România, SUCO este relevant pentru instalații hidraulice mob
       },
       {
         "q": "Livrați presostate SUCO în România?",
-        "a": "Da, presostatele SUCO se aduc la comandă direct din gama producătorului, orientativ în 2-4 săptămâni, fără această gamă ținută pe raft, din cauza numărului mare de variante de presiune și conectare. Pentru o ofertă corectă avem nevoie de domeniul de presiune, tipul de conector electric și dacă aplicația necesită certificare ATEX."
+        "a": "Da, presostatele SUCO se aduc la comandă direct din gama producătorului, orientativ în 1–4 săptămâni, fără această gamă ținută pe raft, din cauza numărului mare de variante de presiune și conectare. Pentru o ofertă corectă avem nevoie de domeniul de presiune, tipul de conector electric și dacă aplicația necesită certificare ATEX."
       }
     ],
     evidenceClass: "market-signal-intl",
@@ -277,7 +277,7 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
       "Mobilier tehnic — arcuri cu gaz pentru mecanisme de reglare",
       "Aerospațial, marină și feroviar — amortizoare și arcuri cu gaz certificate pentru aplicații speciale"
     ],
-    infinitrade: `La Stabilus mergem strict pe ce publică producătorul — nu avem date proprii de stoc și spunem clar ce putem confirma din gamă. Aducem arcuri cu gaz, amortizoare și sisteme Powerise prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă. Pentru ofertă, clientul trimite codul de pe arcul existent (dacă e piesă de schimb) sau forța, cursa și tipul de capete de prindere pentru o aplicație nouă. Nu promitem disponibilitate permanentă din stoc — fiecare configurație se verifică individual înainte de confirmare.`,
+    infinitrade: `La Stabilus mergem strict pe ce publică producătorul — nu avem date proprii de stoc și spunem clar ce putem confirma din gamă. Aducem arcuri cu gaz, amortizoare și sisteme Powerise prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, clientul trimite codul de pe arcul existent (dacă e piesă de schimb) sau forța, cursa și tipul de capete de prindere pentru o aplicație nouă. Nu promitem disponibilitate permanentă din stoc — fiecare configurație se verifică individual înainte de confirmare.`,
     limitation: "Nu putem confirma configurarea electronică a sistemelor Industrial Powerise Smart (parametrizare CAN bus) — aceasta rămâne în sarcina integratorului sau a service-ului tehnic al producătorului.",
     productCodes: [
       {
@@ -348,7 +348,7 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
       },
       {
         "q": "Livrați arcuri cu gaz și amortizoare Stabilus în România?",
-        "a": "Da, arcurile cu gaz și amortizoarele Stabilus ajung la comandă în aproximativ 2-4 săptămâni, deoarece nu este o gamă păstrată pe raft, având în vedere numărul mare de forțe și lungimi disponibile. Pentru o ofertă corectă avem nevoie de forța necesară, cursa de lucru și punctele de prindere ale aplicației dumneavoastră."
+        "a": "Da, arcurile cu gaz și amortizoarele Stabilus ajung la comandă în aproximativ 1–4 săptămâni, deoarece nu este o gamă păstrată pe raft, având în vedere numărul mare de forțe și lungimi disponibile. Pentru o ofertă corectă avem nevoie de forța necesară, cursa de lucru și punctele de prindere ale aplicației dumneavoastră."
       }
     ],
     evidenceClass: "market-signal-intl",
@@ -391,7 +391,7 @@ Pentru România, Böllhoff e relevant pentru producătorii din automotive, const
       "Aerospațial — fixare de precizie pentru componente critice",
       "Electrocasnice și vehicule comerciale — logistică Kanban pentru piese mici de asamblare"
     ],
-    infinitrade: `Pentru Böllhoff nu avem date proprii de stoc și lucrăm din informațiile publice ale producătorului atunci când pregătim o ofertă — spunem direct clientului ce am verificat pe site și ce rămâne de confirmat la comandă. Aducem organe de fixare și inserturi Böllhoff prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită desenul tehnic al asamblării sau codul produsului, materialul componentelor de îmbinat și cantitatea necesară. Nu promitem disponibilitate permanentă din stoc pentru gama Böllhoff — verificăm fiecare cerere individual la producător înainte de a confirma un termen.`,
+    infinitrade: `Pentru Böllhoff nu avem date proprii de stoc și lucrăm din informațiile publice ale producătorului atunci când pregătim o ofertă — spunem direct clientului ce am verificat pe site și ce rămâne de confirmat la comandă. Aducem organe de fixare și inserturi Böllhoff prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită desenul tehnic al asamblării sau codul produsului, materialul componentelor de îmbinat și cantitatea necesară. Nu promitem disponibilitate permanentă din stoc pentru gama Böllhoff — verificăm fiecare cerere individual la producător înainte de a confirma un termen.`,
     limitation: "Nu putem furniza sau implementa direct sistemul de logistică Kanban al Böllhoff — aceasta presupune un contract de furnizare pe termen lung direct cu producătorul sau distribuitorul său regional.",
     productCodes: [
       {
@@ -502,7 +502,7 @@ Pentru România, Böllhoff e relevant pentru producătorii din automotive, const
       },
       {
         "q": "Livrați elemente de fixare Böllhoff în România?",
-        "a": "Da, elementele de fixare Böllhoff se comandă din gama oficială, cu un termen estimat de 2-4 săptămâni, fără gamă ținută pe raft, având în vedere numărul foarte mare de variante și dimensiuni. Pentru o ofertă corectă avem nevoie de materialul de bază, grosimea piesei și sarcina pe care trebuie să o preia îmbinarea."
+        "a": "Da, elementele de fixare Böllhoff se comandă din gama oficială, cu un termen estimat de 1–4 săptămâni, fără gamă ținută pe raft, având în vedere numărul foarte mare de variante și dimensiuni. Pentru o ofertă corectă avem nevoie de materialul de bază, grosimea piesei și sarcina pe care trebuie să o preia îmbinarea."
       }
     ],
     evidenceClass: "market-signal-intl",
@@ -545,7 +545,7 @@ Pentru România, Gerb e relevant pentru proiecte de fundații de mașini rotativ
       "Infrastructură de transport — izolare la căi ferate și poduri",
       "Protecție seismică — consolidare și izolare microseismică a structurilor"
     ],
-    infinitrade: `Pentru Gerb ne bazăm pe informațiile publice de pe site-ul producătorului — nu avem date proprii de stoc, iar pentru un sistem de izolare antivibrații dimensionarea se face oricum individual, pe proiect. Aducem componente Gerb (arcuri elastice, amortizoare vâscoase, elemente Novodamp®) prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă, după confirmarea specificațiilor tehnice. Pentru o ofertă corectă, clientul trebuie să trimită datele dinamice ale mașinii sau structurii (masă, frecvență, sarcină) și tipul de aplicație vizat. Nu promitem disponibilitate permanentă din stoc pentru componentele Gerb — fiecare proiect se verifică individual cu producătorul înainte de confirmarea termenului.`,
+    infinitrade: `Pentru Gerb ne bazăm pe informațiile publice de pe site-ul producătorului — nu avem date proprii de stoc, iar pentru un sistem de izolare antivibrații dimensionarea se face oricum individual, pe proiect. Aducem componente Gerb (arcuri elastice, amortizoare vâscoase, elemente Novodamp®) prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă, după confirmarea specificațiilor tehnice. Pentru o ofertă corectă, clientul trebuie să trimită datele dinamice ale mașinii sau structurii (masă, frecvență, sarcină) și tipul de aplicație vizat. Nu promitem disponibilitate permanentă din stoc pentru componentele Gerb — fiecare proiect se verifică individual cu producătorul înainte de confirmarea termenului.`,
     limitation: "Nu putem realiza direct proiectarea sau calculul dinamic al soluției de izolare — aceasta rămâne serviciul de inginerie oferit de departamentul tehnic al producătorului, pe baza datelor structurii clientului.",
     productCodes: [
       {
@@ -600,7 +600,7 @@ Pentru România, Gerb e relevant pentru proiecte de fundații de mașini rotativ
       },
       {
         "q": "Livrați elemente antivibrante Gerb în România?",
-        "a": "Da, elementele antivibrante Gerb ajung la comandă, orientativ în 2-4 săptămâni, întrucât nu este o gamă păstrată pe raft, fiecare proiect având sarcini și frecvențe proprii de calcul. Pentru o ofertă corectă avem nevoie de sarcina statică pe element, frecvența de excitație și spațiul disponibil pentru montaj."
+        "a": "Da, elementele antivibrante Gerb ajung la comandă, orientativ în 1–4 săptămâni, întrucât nu este o gamă păstrată pe raft, fiecare proiect având sarcini și frecvențe proprii de calcul. Pentru o ofertă corectă avem nevoie de sarcina statică pe element, frecvența de excitație și spațiul disponibil pentru montaj."
       }
     ],
     evidenceClass: "market-signal-intl",
@@ -644,7 +644,7 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
       "Tehnologie medicală — module HMI pentru echipamente de diagnostic",
       "Control al clădirilor — taste și butoane pentru panouri de automatizare"
     ],
-    infinitrade: `Pentru RAFI mergem pe informațiile publice ale producătorului, fără date proprii de stoc — spunem clar clientului ce am confirmat pe site și ce rămâne de verificat la comandă. Aducem componente RAFI (butoane, taste, module HMI) prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită codul componentei existente sau, pentru un panou nou, funcțiile de control necesare, dimensiunea disponibilă și tipul de mediu de lucru (praf, umiditate, vibrații). Nu promitem disponibilitate permanentă din stoc pentru gama RAFI — fiecare cerere se verifică individual înainte de confirmarea termenului.`,
+    infinitrade: `Pentru RAFI mergem pe informațiile publice ale producătorului, fără date proprii de stoc — spunem clar clientului ce am confirmat pe site și ce rămâne de verificat la comandă. Aducem componente RAFI (butoane, taste, module HMI) prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită codul componentei existente sau, pentru un panou nou, funcțiile de control necesare, dimensiunea disponibilă și tipul de mediu de lucru (praf, umiditate, vibrații). Nu promitem disponibilitate permanentă din stoc pentru gama RAFI — fiecare cerere se verifică individual înainte de confirmarea termenului.`,
     limitation: "Nu putem confirma programarea firmware a modulelor HMI complexe (FLEXSCAPE, GLASSCAPE) — configurarea software rămâne în sarcina integratorului sau a suportului tehnic al producătorului.",
     productCodes: [
       {
@@ -735,7 +735,7 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
       },
       {
         "q": "Livrați componente RAFI în România?",
-        "a": "Da, componentele RAFI ajung la noi abia după ce lansați comanda, iar timpul obișnuit de așteptare este de 2-4 săptămâni, întrucât gama nu stă pe raft în depozit. Pentru o ofertă corectă avem nevoie de familia de produs dorită, FLEXSCAPE, GLASSCAPE sau o componentă individuală precum RAFIX ori LUMOTAST, plus aplicația exactă în care va fi montată."
+        "a": "Da, componentele RAFI ajung la noi abia după ce lansați comanda, iar timpul obișnuit de așteptare este de 1–4 săptămâni, întrucât gama nu stă pe raft în depozit. Pentru o ofertă corectă avem nevoie de familia de produs dorită, FLEXSCAPE, GLASSCAPE sau o componentă individuală precum RAFIX ori LUMOTAST, plus aplicația exactă în care va fi montată."
       },
       {
         "q": "Ce sunt tastele tactile MICON și RACON de la RAFI?",
@@ -780,7 +780,7 @@ Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine indu
       "Producție industrială — filtrare offline pentru circuite hidraulice și de ungere",
       "Energie — condiționarea uleiului de transformator"
     ],
-    infinitrade: `Pentru CJC nu deținem date proprii de stoc și lucrăm cu informațiile disponibile public pe site-ul producătorului la pregătirea unei oferte. Aducem unități de filtrare offline CJC prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă, în funcție de model și configurație. Pentru o ofertă corectă, clientul trebuie să trimită tipul de ulei filtrat, volumul instalației și tipul de contaminant vizat (particule, apă, vernice sau aciditate) — ideal însoțit de o analiză recentă de ulei. Nu promitem disponibilitate permanentă din stoc pentru unitățile CJC — verificăm fiecare configurație individual înainte de confirmarea termenului de livrare.`,
+    infinitrade: `Pentru CJC nu deținem date proprii de stoc și lucrăm cu informațiile disponibile public pe site-ul producătorului la pregătirea unei oferte. Aducem unități de filtrare offline CJC prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă, în funcție de model și configurație. Pentru o ofertă corectă, clientul trebuie să trimită tipul de ulei filtrat, volumul instalației și tipul de contaminant vizat (particule, apă, vernice sau aciditate) — ideal însoțit de o analiză recentă de ulei. Nu promitem disponibilitate permanentă din stoc pentru unitățile CJC — verificăm fiecare configurație individual înainte de confirmarea termenului de livrare.`,
     limitation: "Nu putem efectua analiza de laborator a uleiului client pentru determinarea gradului de contaminare — aceasta trebuie realizată separat, de un laborator specializat, înainte de dimensionarea unității de filtrare.",
     productCodes: [
       {
@@ -879,7 +879,7 @@ Pentru România, Pfeiffer Vacuum e relevant pentru laboratoare de cercetare, uni
       "Energie alternativă — aplicații de vid pentru tehnologii emergente",
       "Tehnologie medicală — instalații de vid pentru echipamente specializate"
     ],
-    infinitrade: `Pentru Pfeiffer Vacuum nu avem date proprii de stoc și lucrăm din surse publice ale producătorului atunci când pregătim o ofertă, mai ales pentru că modelul potrivit depinde de parametrii exacți de proces. Aducem pompe și componente de vid Pfeiffer Vacuum prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită codul modelului existent (dacă e vorba de o piesă de schimb) sau, pentru o instalație nouă, presiunea de lucru țintă, volumul incintei de vidat și tipul de gaz vehiculat. Nu promitem disponibilitate permanentă din stoc pentru gama Pfeiffer Vacuum — fiecare cerere se verifică individual la producător înainte de confirmarea termenului.`,
+    infinitrade: `Pentru Pfeiffer Vacuum nu avem date proprii de stoc și lucrăm din surse publice ale producătorului atunci când pregătim o ofertă, mai ales pentru că modelul potrivit depinde de parametrii exacți de proces. Aducem pompe și componente de vid Pfeiffer Vacuum prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită codul modelului existent (dacă e vorba de o piesă de schimb) sau, pentru o instalație nouă, presiunea de lucru țintă, volumul incintei de vidat și tipul de gaz vehiculat. Nu promitem disponibilitate permanentă din stoc pentru gama Pfeiffer Vacuum — fiecare cerere se verifică individual la producător înainte de confirmarea termenului.`,
     limitation: "Nu am putut confirma de pe site numele exacte ale seriilor de pompe turbomoleculare și paramentrii lor tehnici (debit de pompare, vid limită) — pentru configurația exactă recomandăm consultarea directă a documentației tehnice a producătorului înainte de comandă.",
     productCodes: [
       {
@@ -934,7 +934,7 @@ Pentru România, Pfeiffer Vacuum e relevant pentru laboratoare de cercetare, uni
       },
       {
         "q": "Livrați pompe Pfeiffer Vacuum în România?",
-        "a": "Da, pompele Pfeiffer Vacuum se comandă punctual din fabrică, sosind de obicei în 2-4 săptămâni, deoarece magazinul nostru nu expune fizic această gamă pe rafturi. Pentru o ofertă corectă avem nevoie de presiunea finală necesară, debitul de pompare dorit și tipul de aplicație, cercetare, semiconductori sau industrie generală."
+        "a": "Da, pompele Pfeiffer Vacuum se comandă punctual din fabrică, sosind de obicei în 1–4 săptămâni, deoarece magazinul nostru nu expune fizic această gamă pe rafturi. Pentru o ofertă corectă avem nevoie de presiunea finală necesară, debitul de pompare dorit și tipul de aplicație, cercetare, semiconductori sau industrie generală."
       }
     ],
     evidenceClass: "market-signal-intl",
@@ -977,7 +977,7 @@ Pentru România, Telwin e relevant pentru ateliere de sudură industrială, serv
       "Ateliere de reparații metalice — tăiere cu plasmă și sudură de precizie",
       "Flote de vehicule și utilaje — încărcătoare și dispozitive de pornire de mare capacitate"
     ],
-    infinitrade: `Pentru Telwin nu dispunem de stoc propriu și lucrăm din informațiile disponibile pe site-ul producătorului atunci când pregătim o ofertă. Aducem aparate de sudură, sisteme de tăiere cu plasmă și încărcătoare Telwin prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită tipul de proces de sudură necesar (MIG/MAG, TIG, plasmă), grosimea materialului de lucru sau, pentru încărcătoare, tipul de baterii deservite și curentul de pornire dorit. Nu promitem disponibilitate permanentă din stoc pentru gama Telwin — verificăm fiecare model individual înainte de confirmarea termenului de livrare.`,
+    infinitrade: `Pentru Telwin nu dispunem de stoc propriu și lucrăm din informațiile disponibile pe site-ul producătorului atunci când pregătim o ofertă. Aducem aparate de sudură, sisteme de tăiere cu plasmă și încărcătoare Telwin prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită tipul de proces de sudură necesar (MIG/MAG, TIG, plasmă), grosimea materialului de lucru sau, pentru încărcătoare, tipul de baterii deservite și curentul de pornire dorit. Nu promitem disponibilitate permanentă din stoc pentru gama Telwin — verificăm fiecare model individual înainte de confirmarea termenului de livrare.`,
     limitation: "Nu putem prelua reparațiile în garanția producătorului pentru echipamentele Telwin — acestea rămân în sarcina rețelei tehnice desemnate de producător.",
     productCodes: [
       {
@@ -1060,7 +1060,7 @@ Pentru România, Telwin e relevant pentru ateliere de sudură industrială, serv
       },
       {
         "q": "Livrați echipamente de sudură Telwin în România?",
-        "a": "Da, echipamentele Telwin se procură la cerere direct din catalogul producătorului, termenul uzual fiind de 2-4 săptămâni, gama nefiind păstrată permanent în showroom. Pentru o ofertă corectă avem nevoie de procedeul de sudare dorit, grosimea materialului și dacă echipamentul va fi folosit trifazat sau monofazat."
+        "a": "Da, echipamentele Telwin se procură la cerere direct din catalogul producătorului, termenul uzual fiind de 1–4 săptămâni, gama nefiind păstrată permanent în showroom. Pentru o ofertă corectă avem nevoie de procedeul de sudare dorit, grosimea materialului și dacă echipamentul va fi folosit trifazat sau monofazat."
       },
       {
         "q": "Ce este sistemul de încălzire Inductor 6000 Aqua de la Telwin?",
@@ -1107,7 +1107,7 @@ Pentru România, Cofra e relevantă pentru companii din producție industrială,
       "Mentenanță industrială — protecție pentru ore lungi de purtare pe suprafețe dure"
     ],
     certifications: ["ISO 9001 (certificat de Bureau Veritas)"],
-    infinitrade: `Pentru Cofra nu dispunem de stoc propriu pe fiecare mărime și model — lucrăm din informațiile publice ale producătorului și confirmăm disponibilitatea exactă la momentul comenzii. Aducem încălțăminte de protecție Cofra prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă pentru cantități organizate pe mărimi. Pentru o ofertă corectă, clientul trebuie să trimită lista de mărimi necesare, linia de produs dorită (sau clasa de protecție cerută: impact, perforare, amortizare) și cantitatea totală. Nu promitem disponibilitate permanentă din stoc pentru gama Cofra — verificăm fiecare comandă pe mărimi înainte de a confirma termenul.`,
+    infinitrade: `Pentru Cofra nu dispunem de stoc propriu pe fiecare mărime și model — lucrăm din informațiile publice ale producătorului și confirmăm disponibilitatea exactă la momentul comenzii. Aducem încălțăminte de protecție Cofra prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă pentru cantități organizate pe mărimi. Pentru o ofertă corectă, clientul trebuie să trimită lista de mărimi necesare, linia de produs dorită (sau clasa de protecție cerută: impact, perforare, amortizare) și cantitatea totală. Nu promitem disponibilitate permanentă din stoc pentru gama Cofra — verificăm fiecare comandă pe mărimi înainte de a confirma termenul.`,
     limitation: "Nu putem confirma disponibilitatea imediată pe toate mărimile și lățimile de la fiecare linie de produs — aceasta depinde de stocul curent al producătorului la momentul comenzii.",
     productCodes: [
       {
@@ -1202,7 +1202,7 @@ Pentru România, Cofra e relevantă pentru companii din producție industrială,
       },
       {
         "q": "Livrați încălțăminte de protecție Cofra în România?",
-        "a": "Da, aducem modelele Cofra individual, în funcție de mărimea și clasa solicitată, cu un interval tipic de livrare de 2-4 săptămâni, fără stoc pregătit anticipat. Pentru o ofertă corectă avem nevoie de clasa de protecție necesară, mărimea și dacă este necesară proprietatea antistatică ESD."
+        "a": "Da, aducem modelele Cofra individual, în funcție de mărimea și clasa solicitată, cu un interval tipic de livrare de 1–4 săptămâni, fără stoc pregătit anticipat. Pentru o ofertă corectă avem nevoie de clasa de protecție necesară, mărimea și dacă este necesară proprietatea antistatică ESD."
       },
       {
         "q": "Ce diferență este între clasele S1 și S7S la Cofra?",
@@ -1247,7 +1247,7 @@ Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producăt
       "Tehnologie medicală — metrologie de precizie pentru componente și dispozitive",
       "Producție de precizie — palpoare CMM pentru control dimensional"
     ],
-    infinitrade: `Pentru Renishaw lucrăm din informațiile publice ale producătorului, fără date proprii de stoc, și spunem clar clientului ce am confirmat pe site și ce rămâne de verificat la comandă. Aducem palpoare CMM și encodere Renishaw prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită modelul mașinii CMM sau al mașinii-unelte existente, tipul de palpor sau encoder necesar și lungimea de măsurare sau gradul de protecție cerut. Nu promitem disponibilitate permanentă din stoc pentru gama Renishaw — fiecare cerere se verifică individual la producător înainte de confirmarea termenului.`,
+    infinitrade: `Pentru Renishaw lucrăm din informațiile publice ale producătorului, fără date proprii de stoc, și spunem clar clientului ce am confirmat pe site și ce rămâne de verificat la comandă. Aducem palpoare CMM și encodere Renishaw prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită modelul mașinii CMM sau al mașinii-unelte existente, tipul de palpor sau encoder necesar și lungimea de măsurare sau gradul de protecție cerut. Nu promitem disponibilitate permanentă din stoc pentru gama Renishaw — fiecare cerere se verifică individual la producător înainte de confirmarea termenului.`,
     limitation: "Nu putem confirma configurarea software a sistemelor CMM sau a sistemului Equator™ — integrarea și calibrarea software rămân în sarcina integratorului sau a suportului tehnic al producătorului.",
     productCodes: [
       {
@@ -1310,7 +1310,7 @@ Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producăt
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de palpatoare Renishaw?",
-        "a": "Renishaw aduce aceste componente strict la cerere, printr-o comandă separată pentru fiecare proiect, iar durata obișnuită până la sosire este de 2-4 săptămâni. Avem nevoie de tipul mașinii pe care se montează palpatorul, fie mașină-unealtă CNC, fie mașină de măsurat în coordonate, diametrul de montaj disponibil și metoda de transmisie preferată, radio, optică sau cu fir."
+        "a": "Renishaw aduce aceste componente strict la cerere, printr-o comandă separată pentru fiecare proiect, iar durata obișnuită până la sosire este de 1–4 săptămâni. Avem nevoie de tipul mașinii pe care se montează palpatorul, fie mașină-unealtă CNC, fie mașină de măsurat în coordonate, diametrul de montaj disponibil și metoda de transmisie preferată, radio, optică sau cu fir."
       },
       {
         "q": "Ce diferență este între TP20 și TP200 la Renishaw?",
@@ -1358,7 +1358,7 @@ Pentru România, Anton Paar e relevant pentru laboratoare de control al calită�
       "Producție baterii litiu-ion — instrumente de analiză de proces specifice",
       "Cercetare și laborator — instrumente de măsurare de precizie pentru dezvoltare de produs"
     ],
-    infinitrade: `Pentru Anton Paar nu dispunem de stoc propriu și lucrăm din informațiile publice ale producătorului atunci când pregătim o ofertă — spunem clar clientului ce am confirmat pe site și ce rămâne de verificat la comandă. Aducem instrumente Anton Paar (densimetre, reometre, senzori de proces) prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită tipul de instrument dorit, fluidul sau materialul măsurat și dacă aplicația e de laborator sau montaj inline pe linia de producție. Nu promitem disponibilitate permanentă din stoc pentru gama Anton Paar — fiecare cerere se verifică individual la producător înainte de confirmarea termenului de livrare.`,
+    infinitrade: `Pentru Anton Paar nu dispunem de stoc propriu și lucrăm din informațiile publice ale producătorului atunci când pregătim o ofertă — spunem clar clientului ce am confirmat pe site și ce rămâne de verificat la comandă. Aducem instrumente Anton Paar (densimetre, reometre, senzori de proces) prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită tipul de instrument dorit, fluidul sau materialul măsurat și dacă aplicația e de laborator sau montaj inline pe linia de producție. Nu promitem disponibilitate permanentă din stoc pentru gama Anton Paar — fiecare cerere se verifică individual la producător înainte de confirmarea termenului de livrare.`,
     limitation: "Nu putem confirma calibrarea sau validarea software a instrumentelor de precizie (reometre, senzori inline) — acestea rămân servicii oferite de rețeaua tehnică a producătorului, conform cerințelor de integritate a datelor.",
     productCodes: [
       {
@@ -1445,7 +1445,7 @@ Pentru România, Anton Paar e relevant pentru laboratoare de control al calită�
       },
       {
         "q": "Livrați instrumente Anton Paar în România?",
-        "a": "Da, instrumentele Anton Paar sunt comandate individual pentru fiecare client, sosirea lor durând în mod normal 2-4 săptămâni, gama nefiind ținută în magazin. Pentru o ofertă corectă avem nevoie de tipul de măsurătoare dorită, densitate, vâscozitate sau comportament reologic, și de domeniul de temperatură sau presiune de lucru."
+        "a": "Da, instrumentele Anton Paar sunt comandate individual pentru fiecare client, sosirea lor durând în mod normal 1–4 săptămâni, gama nefiind ținută în magazin. Pentru o ofertă corectă avem nevoie de tipul de măsurătoare dorită, densitate, vâscozitate sau comportament reologic, și de domeniul de temperatură sau presiune de lucru."
       },
       {
         "q": "Ce este picnometrul Ultrapyc de la Anton Paar?",

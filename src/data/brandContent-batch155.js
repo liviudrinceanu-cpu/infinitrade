@@ -29,7 +29,7 @@ Ce diferențiază gama Pomona e varietatea de cleme grabber și micrograbber pen
       "Telecomunicații — conectori și adaptoare RF/coaxiale pentru bancurile de test",
       "Învățământ tehnic — seturi de fire și cleme colorate pentru laboratoare didactice"
     ],
-    infinitrade: `Putem oferta accesorii Pomona din familiile de cleme grabber, fire de test și conectori RF, la comandă, prin canalele de aprovizionare ale grupului Fluke. Nu ținem această gamă pe raft; lucrăm din surse publice ale producătorului pentru a confirma codurile și dimensiunile exacte înainte de a trimite oferta. Pentru un accesoriu punctual, e suficient să ne trimiteți numărul de model de pe piesa veche sau descrierea aplicației — ce multimetru sau osciloscop folosiți, ce tip de punct de test aveți de accesat — și confirmăm compatibilitatea și termenul, orientativ 2–4 săptămâni, înainte de comandă. Nu promitem disponibilitate din depozit pentru fiecare cod din catalog.`,
+    infinitrade: `Putem oferta accesorii Pomona din familiile de cleme grabber, fire de test și conectori RF, la comandă, prin canalele de aprovizionare ale grupului Fluke. Nu ținem această gamă pe raft; lucrăm din surse publice ale producătorului pentru a confirma codurile și dimensiunile exacte înainte de a trimite oferta. Pentru un accesoriu punctual, e suficient să ne trimiteți numărul de model de pe piesa veche sau descrierea aplicației — ce multimetru sau osciloscop folosiți, ce tip de punct de test aveți de accesat — și confirmăm compatibilitatea și termenul, orientativ 1–4 săptămâni, înainte de comandă. Nu promitem disponibilitate din depozit pentru fiecare cod din catalog.`,
     limitation: "Nu putem confirma stocuri pentru codurile mai vechi sau discontinuate din catalogul Pomona, care se verifică punctual cu producătorul.",
     productCodes: [
       { code: "3925", description: "Clemă Minigrabber pentru fire subțiri, zece culori disponibile" },
@@ -56,7 +56,7 @@ Ce diferențiază gama Pomona e varietatea de cleme grabber și micrograbber pen
     faq: [
       { q: "Ce produce Pomona Electronics?", a: "Pomona Electronics fabrică accesorii pentru testare și măsurare electrică — fire și sonde pentru multimetre, cleme de tip grabber pentru puncte de test SMD, conectori și adaptoare RF/coaxiale. Compania are sediul la Everett, Washington, SUA, și face parte din Fluke Corporation din 1999." },
       { q: "Cum aleg clema Pomona potrivită pentru un punct de test SMD?", a: "Alegerea depinde de dimensiunea terminalului: clemele Micro SMD Grabber acoperă IC-uri de 0,3–0,8 mm, iar variantele SMD Grabber standard sunt potrivite pentru puncte mai mari. Trimiteți-ne dimensiunea terminalului și tipul de măsurătoare pentru a confirma codul potrivit." },
-      { q: "Livrați accesorii Pomona Electronics în România și cât durează?", a: "Da, la comandă, prin canalele de aprovizionare ale grupului Fluke, cu termen orientativ de 2–4 săptămâni în funcție de confirmarea producătorului. Nu ținem această gamă pe raft pentru fiecare cod din catalog, așa că termenul exact se confirmă înainte de finalizarea comenzii." },
+      { q: "Livrați accesorii Pomona Electronics în România și cât durează?", a: "Da, la comandă, prin canalele de aprovizionare ale grupului Fluke, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului. Nu ținem această gamă pe raft pentru fiecare cod din catalog, așa că termenul exact se confirmă înainte de finalizarea comenzii." },
       { q: "Ce trebuie să trimit pentru o ofertă de accesorii de test?", a: "Codul de model dacă îl cunoașteți, sau descrierea aplicației — ce multimetru sau osciloscop folosiți, tipul punctului de test și diametrul firului. Verificăm compatibilitatea din surse publice ale producătorului și confirmăm codul exact înainte de a trimite oferta." }
     ],
     evidenceClass: "market-signal-ro",
@@ -94,7 +94,7 @@ Pentru piața locală, sistemele Easy-Laser au sens la revizii planificate de po
       "Petrol și gaze — aliniere în zone cu risc de explozie (XT550 Shaft EX)",
       "Industria cherestelei — geometrie de linie la instalațiile de debitare (XT980)"
     ],
-    infinitrade: `Putem oferta sisteme Easy-Laser de aliniere arbori și măsurare geometrică prin canale de aprovizionare din Suedia, la comandă, cu termen orientativ de 2–4 săptămâni în funcție de configurația aleasă. Lucrăm din informațiile publice disponibile pe site-ul producătorului pentru a confirma seria potrivită sarcinii dumneavoastră — tip de utilaj, distanța dintre lagăre, acces la arbore. Nu ținem echipamente laser de aliniere pe raft propriu; fiecare configurație de senzori și suport se comandă punctual. Pentru o ofertă, trimiteți-ne tipul utilajului de aliniat, distanța aproximativă între puncte de măsură și dacă lucrați în zonă cu risc de explozie.`,
+    infinitrade: `Putem oferta sisteme Easy-Laser de aliniere arbori și măsurare geometrică prin canale de aprovizionare din Suedia, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația aleasă. Lucrăm din informațiile publice disponibile pe site-ul producătorului pentru a confirma seria potrivită sarcinii dumneavoastră — tip de utilaj, distanța dintre lagăre, acces la arbore. Nu ținem echipamente laser de aliniere pe raft propriu; fiecare configurație de senzori și suport se comandă punctual. Pentru o ofertă, trimiteți-ne tipul utilajului de aliniat, distanța aproximativă între puncte de măsură și dacă lucrați în zonă cu risc de explozie.`,
     limitation: "Nu putem confirma instruirea operatorilor sau calibrarea proprie a senzorilor laser, care rămân în sarcina producătorului sau a unui laborator acreditat.",
     productCodes: [
       { code: "XT770 Shaft+GEO", description: "Sistem de aliniere arbori cu măsurare geometrică integrată, montaje complexe" },
@@ -116,7 +116,7 @@ Pentru piața locală, sistemele Easy-Laser au sens la revizii planificate de po
       { q: "Ce produce Easy-Laser?", a: "Easy-Laser fabrică sisteme laser pentru alinierea arborilor la utilaje rotative și pentru măsurători geometrice pe structuri industriale — planeitate, paralelism, linia centrelor de alezaj. Compania are sediul în Suedia și acoperă și aliniere de curele de transmisie." },
       { q: "Cum aleg sistemul Easy-Laser potrivit pentru alinierea unei pompe?", a: "Depinde de distanța dintre lagăre și de accesul la arbore: pentru sarcini de bază e suficientă seria XT440, pentru montaje complexe cu mai multe puncte de măsură se folosește XT770 Shaft+GEO. Trimiteți-ne tipul utilajului și distanța aproximativă pentru a confirma seria." },
       { q: "Există o variantă Easy-Laser certificată pentru zone cu risc de explozie?", a: "Da, XT550 Shaft EX este certificată pentru zone 1/21 cu risc de explozie, folosită la aliniere de arbori în rafinării și instalații petrochimice. Restul gamei nu are această certificare." },
-      { q: "Livrați sisteme de aliniere Easy-Laser în România?", a: "Da, la comandă, cu termen orientativ de 2–4 săptămâni, în funcție de configurația și accesoriile alese. Termenul exact se confirmă după ce ne trimiteți tipul utilajului și cerințele de măsurare." }
+      { q: "Livrați sisteme de aliniere Easy-Laser în România?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația și accesoriile alese. Termenul exact se confirmă după ce ne trimiteți tipul utilajului și cerințele de măsurare." }
     ],
     evidenceClass: "market-signal-ro",
     lastVerified: "2026-09-26",
@@ -153,7 +153,7 @@ Pentru piața din România, gama Fluke Networks are sens la integratorii de reț
       "Centre de date — inspecție conectori de fibră înainte de punere în funcțiune",
       "Operatori telecom — localizare defecte pe linii de cupru cu reflectometrie TDR"
     ],
-    infinitrade: `Furnizăm aparate Fluke Networks pentru certificare și testare de cablare prin canalele de aprovizionare ale grupului Fluke, la comandă, cu termen orientativ de 2–4 săptămâni în funcție de configurația de module aleasă. Nu avem raft propriu pentru fiecare model din gamă; verificăm din surse publice ale producătorului ce modul sau kit corespunde categoriei de cablare pe care o certificați. Pentru o ofertă, spuneți-ne ce standard de cablare certificați, câte porturi sau fire aveți de testat și dacă porniți de la o platformă Versiv existentă sau adăugați module noi.`,
+    infinitrade: `Furnizăm aparate Fluke Networks pentru certificare și testare de cablare prin canalele de aprovizionare ale grupului Fluke, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația de module aleasă. Nu avem raft propriu pentru fiecare model din gamă; verificăm din surse publice ale producătorului ce modul sau kit corespunde categoriei de cablare pe care o certificați. Pentru o ofertă, spuneți-ne ce standard de cablare certificați, câte porturi sau fire aveți de testat și dacă porniți de la o platformă Versiv existentă sau adăugați module noi.`,
     limitation: "Nu oferim instruire de certificare pentru operatori și nu confirmăm compatibilitatea retroactivă cu module Versiv mai vechi decât cele listate curent pe site-ul producătorului.",
     productCodes: [
       { code: "DSX-602 CableAnalyzer", description: "Certificator cablu cupru pe platforma modulară Versiv" },
@@ -176,7 +176,7 @@ Pentru piața din România, gama Fluke Networks are sens la integratorii de reț
       { q: "Ce produce Fluke Networks?", a: "Fluke Networks produce aparate pentru certificarea, depanarea și instalarea cablării de rețea — certificatoare de cupru și fibră, testere Wi-Fi/rețea, tonoare și localizatoare de defecte. Este divizia de instrumente de cablare a Fluke Corporation, cu sediul la Everett, Washington, SUA." },
       { q: "Ce diferență e între CertiFiber Pro și OptiFiber Pro de la Fluke Networks?", a: "CertiFiber Pro măsoară pierderea de inserție și lungimea fibrei, util la certificarea rapidă a legăturilor, în timp ce OptiFiber Pro este un reflectometru care localizează exact unde apare un defect sau un conector slab de-a lungul traseului. Se folosesc adesea împreună." },
       { q: "Ce aparat Fluke Networks aleg pentru testare Wi-Fi și cablu deodată?", a: "LinkIQ combină verificarea cablului cu testul de conectivitate Wi-Fi și rețea într-un singur aparat portabil, potrivit pentru instalatori care nu au nevoie de certificare completă, doar de o verificare rapidă la fața locului." },
-      { q: "Livrați aparate Fluke Networks în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 2–4 săptămâni, în funcție de modulele și accesoriile alese. Confirmăm termenul exact după ce ne spuneți standardul de cablare certificat și configurația dorită." }
+      { q: "Livrați aparate Fluke Networks în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de modulele și accesoriile alese. Confirmăm termenul exact după ce ne spuneți standardul de cablare certificat și configurația dorită." }
     ],
     evidenceClass: "market-signal-ro",
     lastVerified: "2026-09-26",
@@ -213,7 +213,7 @@ Pentru piața locală, instrumentele Softing IT Networks au sens la firmele de i
       "Operatori de telecomunicații — sudură și testare fibră pe teren",
       "Firme de mentenanță IT — calificare rapidă a legăturilor de rețea"
     ],
-    infinitrade: `Putem oferta aparate Softing din familia WireXpert, NetXpert și LinkXpert prin canale de aprovizionare din Germania, la comandă, cu termen orientativ de 2–4 săptămâni în funcție de modulele alese. Nu avem date proprii de stoc pentru fiecare configurație; ne bazăm pe informațiile publice ale producătorului pentru a confirma ce modul de test corespunde categoriei de cablare pe care o certificați. Pentru ofertă, spuneți-ne categoria de cablu, dacă aveți nevoie și de testare fibră sau Wi-Fi, și dacă porniți de la zero sau completați o platformă WireXpert existentă.`,
+    infinitrade: `Putem oferta aparate Softing din familia WireXpert, NetXpert și LinkXpert prin canale de aprovizionare din Germania, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de modulele alese. Nu avem date proprii de stoc pentru fiecare configurație; ne bazăm pe informațiile publice ale producătorului pentru a confirma ce modul de test corespunde categoriei de cablare pe care o certificați. Pentru ofertă, spuneți-ne categoria de cablu, dacă aveți nevoie și de testare fibră sau Wi-Fi, și dacă porniți de la zero sau completați o platformă WireXpert existentă.`,
     limitation: "Nu confirmăm compatibilitatea între module WireXpert de generații diferite și nu oferim calibrarea proprie a aparatelor, care rămâne în sarcina producătorului.",
     productCodes: [
       { code: "WireXpert MP C6A", description: "Modul de certificare cablu categoria C6A pentru WireXpert MP" },
@@ -239,7 +239,7 @@ Pentru piața locală, instrumentele Softing IT Networks au sens la firmele de i
       { q: "Ce produce Softing în domeniul testării de rețea?", a: "Divizia Softing IT Networks produce certificatoare de cablu WireXpert, calificatoare de rețea NetXpert, verificatoare LinkXpert și CableMaster, plus echipamente de sudură fibră SpliceXpert, folosite la instalarea și recepția cablării structurate. Compania are sediul la Haar, Germania." },
       { q: "Ce diferență e între WireXpert 500 și WireXpert MP de la Softing?", a: "WireXpert 500 e un certificator standard pentru cupru și fibră, în timp ce WireXpert MP folosește module interschimbabile pentru categorii de cablare diferite și pentru fibră sau Wi-Fi, pe aceeași unitate de bază, util când testați medii mixte." },
       { q: "Ce aparat Softing aleg pentru sudură de fibră pe teren?", a: "SpliceXpert FiberFox MINI4S+ sau MINI6S+ sunt echipamentele compacte de sudură prin fuziune din gama Softing, potrivite pentru repararea sau extinderea traseelor de fibră direct pe traseu, fără a scoate cablul." },
-      { q: "Livrați aparate Softing în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 2–4 săptămâni, în funcție de modulele alese. Confirmăm termenul exact după ce ne spuneți categoria de cablu și tipurile de test necesare." }
+      { q: "Livrați aparate Softing în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de modulele alese. Confirmăm termenul exact după ce ne spuneți categoria de cablu și tipurile de test necesare." }
     ],
     evidenceClass: "market-signal-ro",
     lastVerified: "2026-09-26",
@@ -279,7 +279,7 @@ Pentru piața din România, gama Comark are sens la unitățile de procesare ali
       "HVAC și refrigerare — verificare temperatură la instalații de climatizare",
       "Logistică frigorifică — înregistrare temperatură pe durata transportului"
     ],
-    infinitrade: `Furnizăm termometre, sonde și data loggere Comark prin canale de aprovizionare din Marea Britanie, la comandă, cu termen orientativ de 2–4 săptămâni în funcție de configurația de sonde aleasă. Nu ținem această gamă pe raft; verificăm din surse publice ale producătorului ce cod de sondă corespunde aplicației dumneavoastră înainte de a trimite oferta. Pentru control HACCP sau monitorizare continuă, spuneți-ne câte puncte de măsură aveți, domeniul de temperatură necesar și dacă aveți nevoie de transmitere automată a datelor. Certificatele de etalonare, când sunt necesare, se obțin la cerere de la producător sau de la un laborator acreditat.`,
+    infinitrade: `Furnizăm termometre, sonde și data loggere Comark prin canale de aprovizionare din Marea Britanie, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația de sonde aleasă. Nu ținem această gamă pe raft; verificăm din surse publice ale producătorului ce cod de sondă corespunde aplicației dumneavoastră înainte de a trimite oferta. Pentru control HACCP sau monitorizare continuă, spuneți-ne câte puncte de măsură aveți, domeniul de temperatură necesar și dacă aveți nevoie de transmitere automată a datelor. Certificatele de etalonare, când sunt necesare, se obțin la cerere de la producător sau de la un laborator acreditat.`,
     limitation: "Nu efectuăm noi etalonarea aparatelor Comark; certificatele de etalonare se obțin separat, la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "C22", description: "Termometru portabil cu sondă tip T, precizie ridicată" },
@@ -309,7 +309,7 @@ Pentru piața din România, gama Comark are sens la unitățile de procesare ali
       { q: "Ce produce Comark Instruments?", a: "Comark fabrică termometre digitale de buzunar și industriale, sonde de temperatură interschimbabile și data loggere wireless pentru monitorizare de temperatură și umiditate. Compania a fost fondată în 1961 în Marea Britanie și face parte din Fluke Corporation din 2007." },
       { q: "Cum aleg sonda Comark potrivită pentru o aplicație anume?", a: "Depinde de tipul de măsurătoare — penetrare, suprafață, aer sau imersie — și de domeniul de temperatură necesar. Trimiteți-ne aplicația exactă, domeniul de temperatură și lungimea necesară, iar noi verificăm din catalogul producătorului codul de sondă potrivit." },
       { q: "Ce data logger Comark aleg pentru monitorizare HACCP continuă?", a: "Seria Diligence WiFi transmite automat citirile către un sistem central, potrivită pentru monitorizare continuă cerută de HACCP. Pentru înregistrare locală pe mai multe canale, fără transmitere live, seria Diligence EV este alternativa." },
-      { q: "Livrați termometre Comark în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 2–4 săptămâni, în funcție de configurația de sonde. Confirmăm termenul exact după ce ne trimiteți aplicația și domeniul de temperatură necesar." }
+      { q: "Livrați termometre Comark în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația de sonde. Confirmăm termenul exact după ce ne trimiteți aplicația și domeniul de temperatură necesar." }
     ],
     evidenceClass: "market-signal-ro",
     lastVerified: "2026-09-26",
@@ -351,7 +351,7 @@ Pentru piața locală, instrumentele Beha-Amprobe au sens la electricieni autori
       "Service auto — testere pentru sisteme electrice ale vehiculelor electrice",
       "Electricieni autorizați — trasătoare de cabluri pentru tablouri aglomerate"
     ],
-    infinitrade: `Putem oferta multimetre, clampmetre și testere Beha-Amprobe prin canale de aprovizionare din rețeaua Fluke, la comandă, cu termen orientativ de 2–4 săptămâni în funcție de model. Nu avem raft propriu pentru fiecare cod; confirmăm din surse publice ale producătorului ce model corespunde categoriei de siguranță și aplicației dumneavoastră — CAT II, III sau IV, tensiunea de lucru. Pentru ofertă, trimiteți-ne tipul de măsurătoare (tensiune, curent, izolație, continuitate), categoria de siguranță necesară și dacă lucrați pe instalații de joasă sau de medie tensiune.`,
+    infinitrade: `Putem oferta multimetre, clampmetre și testere Beha-Amprobe prin canale de aprovizionare din rețeaua Fluke, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de model. Nu avem raft propriu pentru fiecare cod; confirmăm din surse publice ale producătorului ce model corespunde categoriei de siguranță și aplicației dumneavoastră — CAT II, III sau IV, tensiunea de lucru. Pentru ofertă, trimiteți-ne tipul de măsurătoare (tensiune, curent, izolație, continuitate), categoria de siguranță necesară și dacă lucrați pe instalații de joasă sau de medie tensiune.`,
     limitation: "Nu confirmăm etalonarea aparatelor Beha-Amprobe; certificatele de etalonare se obțin, la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "5XP-A", description: "Multimetru digital de bază" },
@@ -383,7 +383,7 @@ Pentru piața locală, instrumentele Beha-Amprobe au sens la electricieni autori
       { q: "Ce produce Beha-Amprobe?", a: "Beha-Amprobe fabrică multimetre digitale, clampmetre, testere de instalații electrice și trasătoare de cabluri, plus instrumente pentru HVAC și vehicule electrice. Brandul reunește Beha (Germania, fondat 1974) și Amprobe (SUA), ambele parte din Fluke Corporation." },
       { q: "Care e diferența dintre seria 15XP-38XR și seria AM de la Beha-Amprobe?", a: "Seria 15XP-38XR acoperă multimetre de bază, de la 5XP-A la 38XR-A, cu funcții progresiv extinse, în timp ce seria AM, de la AM-500 la AM-555-EUR, oferă rezoluție și funcții suplimentare pentru utilizatori mai exigenți." },
       { q: "Ce trasator de cabluri Beha-Amprobe aleg pentru un tablou electric aglomerat?", a: "AT-8000-EUR este trasătorul evaluat CAT IV 600V din gama Beha-Amprobe, potrivit pentru localizarea firelor pe circuite de distribuție cu risc mai mare de arc electric. Trimiteți-ne tensiunea de lucru pentru a confirma dacă e varianta potrivită." },
-      { q: "Livrați instrumente Beha-Amprobe în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 2–4 săptămâni, în funcție de model și disponibilitate. Confirmăm termenul exact după ce ne trimiteți tipul de măsurătoare și categoria de siguranță necesară." }
+      { q: "Livrați instrumente Beha-Amprobe în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de model și disponibilitate. Confirmăm termenul exact după ce ne trimiteți tipul de măsurătoare și categoria de siguranță necesară." }
     ],
     evidenceClass: "market-signal-ro",
     lastVerified: "2026-09-26",
@@ -422,7 +422,7 @@ Pentru piața din România, echipamentele DILO au sens la operatorii de stații 
       "Acceleratoare de particule — manipulare gaz izolant pentru instalații specializate",
       "Laboratoare de mentenanță electrică — verificare puritate și localizare scurgeri"
     ],
-    infinitrade: `Putem oferta echipamente DILO pentru manipularea gazului SF6 prin canale de aprovizionare din grupul DILO, la comandă, cu termen orientativ de 2–4 săptămâni în funcție de configurația căruciorului sau a analizorului ales. Nu ținem această gamă pe raft; lucrăm din surse publice ale producătorului pentru a confirma seria potrivită volumului de gaz și tipului de echipament electric deservit. Pentru ofertă, trimiteți-ne tipul de intervenție — evacuare, umplere, analiză sau detectare scurgeri — volumul aproximativ de gaz din compartimentul vizat și dacă aveți deja alte echipamente DILO în dotare.`,
+    infinitrade: `Putem oferta echipamente DILO pentru manipularea gazului SF6 prin canale de aprovizionare din grupul DILO, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația căruciorului sau a analizorului ales. Nu ținem această gamă pe raft; lucrăm din surse publice ale producătorului pentru a confirma seria potrivită volumului de gaz și tipului de echipament electric deservit. Pentru ofertă, trimiteți-ne tipul de intervenție — evacuare, umplere, analiză sau detectare scurgeri — volumul aproximativ de gaz din compartimentul vizat și dacă aveți deja alte echipamente DILO în dotare.`,
     limitation: "Nu efectuăm noi certificarea sau etalonarea analizoarelor DILO, care rămân în sarcina producătorului sau a unui laborator acreditat pentru gaz SF6.",
     productCodes: [
       { code: "B160R11", description: "Cărucior de service seria Micro pentru intervenții compacte" },
@@ -446,7 +446,7 @@ Pentru piața din România, echipamentele DILO au sens la operatorii de stații 
       { q: "Ce produce DILO?", a: "DILO fabrică echipamente pentru manipularea gazului SF6 — cărucioare de evacuare și umplere, analizoare de puritate, detectoare de scurgeri și monitoare de densitate. Compania a fost înființată în Germania în 1951, cu filiala americană stabilită în 1990 la Odessa, Florida." },
       { q: "Ce cărucior DILO aleg pentru o intervenție mică de evacuare gaz?", a: "Seria Micro (B160R11) este dimensionată pentru intervenții compacte cu volume mici de gaz, spre deosebire de seria Mega, gândită pentru evacuarea și umplerea celulelor GIS mari. Trimiteți-ne volumul aproximativ de gaz pentru a confirma seria potrivită." },
       { q: "Cum detectez o scurgere de gaz SF6 cu echipamente DILO?", a: "Leak Pointer SF6 localizează punctual scurgerile la garnituri și îmbinări, iar Gas Safety Monitor supraveghează continuu concentrația de SF6 din aerul ambiental. Cele două se folosesc adesea complementar, unul pentru localizare, celălalt pentru monitorizare continuă." },
-      { q: "Livrați echipamente DILO în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 2–4 săptămâni, în funcție de configurația aleasă. Confirmăm termenul exact după ce ne trimiteți tipul de intervenție și volumul de gaz din compartimentul vizat." }
+      { q: "Livrați echipamente DILO în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația aleasă. Confirmăm termenul exact după ce ne trimiteți tipul de intervenție și volumul de gaz din compartimentul vizat." }
     ],
     evidenceClass: "market-signal-ro",
     lastVerified: "2026-09-26",

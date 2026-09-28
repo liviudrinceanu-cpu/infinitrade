@@ -13,7 +13,7 @@ export const series = [
     lifecycleNote: 'LESER menține Type 526 activ, alături de variantele regionale 526 CC și 526 IC; nu am găsit o notă de retragere din producție.',
     intro: `LESER Type 526 este o supapă de siguranță cu arc, construită după standardul API 526, pentru presiuni și temperaturi ridicate în petrochimie, chimie și industria petrolului și gazelor. Codul de tip indică racordul de intrare/ieșire (DN sau NPS) și litera de orificiu, de la D la T, care stabilesc aria de curgere; variantele regionale 526 CC și 526 IC păstrează aceleași domenii de presiune, dar folosesc materiale și garnituri adaptate condițiilor mai severe.
 
-Este nevoie, pentru o ofertă, de presiunea de reglaj în barg, contrapresiune, mediul vehiculat, temperatura de lucru și codul de pe plăcuța supapei sau racordul DN/orificiu dorit. Livrarea unei supape noi durează, de regulă, 2–4 săptămâni, prin aprovizionare din spațiul european; nu efectuăm calculul de dimensionare, acesta rămânând în sarcina inginerului de proces sau a producătorului.`,
+Este nevoie, pentru o ofertă, de presiunea de reglaj în barg, contrapresiune, mediul vehiculat, temperatura de lucru și codul de pe plăcuța supapei sau racordul DN/orificiu dorit. Livrarea unei supape noi durează, de regulă, 1–4 săptămâni, prin aprovizionare din spațiul european; nu efectuăm calculul de dimensionare, acesta rămânând în sarcina inginerului de proces sau a producătorului.`,
     models: [
       { code: 'Type 526', note: 'Variantă standard API 526, orificiu D–T' },
       { code: 'Type 526 CC', note: 'Variantă pentru piața chineză, sertare durificate' },

@@ -31,7 +31,7 @@ Pentru piața din România, modulele ICP DAS sunt utile integratorilor care au n
       "Extinderea sistemelor SCADA — module I/O suplimentare fără schimbarea arhitecturii existente"
     ],
     certifications: ["ISO/IEC 27001:2022 — managementul securității informației"],
-    infinitrade: `Lucrăm din surse publice ale producătorului taiwanez și spunem clar ce putem și ce nu putem confirma înainte să trimitem o ofertă pentru module ICP DAS. Aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de codul exact al modulului sau al controlerului, protocolul de comunicație folosit în instalație și, dacă e cazul, sistemul de operare pe care rulează aplicația dumneavoastră. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă — verificăm disponibilitatea reală la fiecare cerere primită.`,
+    infinitrade: `Lucrăm din surse publice ale producătorului taiwanez și spunem clar ce putem și ce nu putem confirma înainte să trimitem o ofertă pentru module ICP DAS. Aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de codul exact al modulului sau al controlerului, protocolul de comunicație folosit în instalație și, dacă e cazul, sistemul de operare pe care rulează aplicația dumneavoastră. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă — verificăm disponibilitatea reală la fiecare cerere primită.`,
     limitation: "Nu putem confirma suport tehnic în limba română pentru configurarea software-ului ICP DAS (ISaGRAF, Win-GRAF), care rămâne responsabilitatea integratorului de sistem.",
     productCodes: [
       {
@@ -158,7 +158,7 @@ Pentru instalațiile din România, reductoarele SITI sunt o alternativă la măr
       "Ceramică — reductoare pentru liniile de producție a plăcilor ceramice"
     ],
     certifications: ["ISO 9001:2015 — management al calității", "ATEX 2014/34/UE — echipamente pentru zone cu risc de explozie"],
-    infinitrade: `Ce știm despre SITI vine din informațiile publice disponibile pe site-ul producătorului italian, iar ce nu apare acolo nu inventăm în ofertă. Aducem reductoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă precisă trimiteți-ne tipul de reductor căutat — melc, roți dințate sau epicicloidal — raportul de transmisie dorit și, dacă e vorba de o înlocuire, plăcuța tehnică a unității existente. Nu ținem disponibilitate permanentă din stoc din nicio serie SITI — fiecare cerere se verifică individual cu furnizorul înainte de confirmare.`,
+    infinitrade: `Ce știm despre SITI vine din informațiile publice disponibile pe site-ul producătorului italian, iar ce nu apare acolo nu inventăm în ofertă. Aducem reductoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă precisă trimiteți-ne tipul de reductor căutat — melc, roți dințate sau epicicloidal — raportul de transmisie dorit și, dacă e vorba de o înlocuire, plăcuța tehnică a unității existente. Nu ținem disponibilitate permanentă din stoc din nicio serie SITI — fiecare cerere se verifică individual cu furnizorul înainte de confirmare.`,
     limitation: "Nu putem confirma termene de livrare pentru configurații speciale de reductoare (rapoarte non-standard sau flanșe personalizate), care depind direct de fabrica din Italia.",
     productCodes: [
       {
@@ -293,7 +293,7 @@ Pentru clienții din România, Chiaravalli e util în special pentru piese de sc
       "Automatizări — reductoare epicicloidale pentru module de poziționare liniară",
       "Industria motocicletelor — componente de transmisie produse de divizia dedicată"
     ],
-    infinitrade: `Informațiile despre Chiaravalli vin din surse publice ale producătorului italian; nu avem date proprii despre stocul componentelor la nivel local. Aducem piesele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru piese RASSPE sau CHT avem nevoie de codul exact de pe piesa veche sau de desenul tehnic al utilajului pe care se montează. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă și verificăm disponibilitatea reală înainte de a confirma comanda către client.`,
+    infinitrade: `Informațiile despre Chiaravalli vin din surse publice ale producătorului italian; nu avem date proprii despre stocul componentelor la nivel local. Aducem piesele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru piese RASSPE sau CHT avem nevoie de codul exact de pe piesa veche sau de desenul tehnic al utilajului pe care se montează. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă și verificăm disponibilitatea reală înainte de a confirma comanda către client.`,
     limitation: "Nu putem confirma disponibilitatea locală pentru piese de schimb foarte vechi din gama RASSPE, care necesită verificare directă cu fabrica din Italia.",
     productCodes: [
       {
@@ -421,7 +421,7 @@ Pentru instalațiile electrice și panourile de comandă din România, component
       "Avionică și spațiu — componente pentru aplicații cu cerințe ridicate de fiabilitate"
     ],
     certifications: ["ISO 14001 — management de mediu, din 1996"],
-    infinitrade: `Nu deținem date proprii de stoc pentru componentele Schurter — lucrăm din informațiile publice ale producătorului elvețian și le verificăm înainte de fiecare ofertă. Componentele Schurter le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-4 săptămâni după confirmare. Pentru o ofertă corectă, trimiteți codul exact al siguranței sau comutatorului, tensiunea și curentul nominal din schema electrică a utilajului. Nu promitem disponibilitate permanentă pentru referințele mai puțin uzuale din gamă și confirmăm stocul real la furnizor înainte de a răspunde clientului.`,
+    infinitrade: `Nu deținem date proprii de stoc pentru componentele Schurter — lucrăm din informațiile publice ale producătorului elvețian și le verificăm înainte de fiecare ofertă. Componentele Schurter le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni după confirmare. Pentru o ofertă corectă, trimiteți codul exact al siguranței sau comutatorului, tensiunea și curentul nominal din schema electrică a utilajului. Nu promitem disponibilitate permanentă pentru referințele mai puțin uzuale din gamă și confirmăm stocul real la furnizor înainte de a răspunde clientului.`,
     limitation: "Nu putem confirma echivalențe tehnice exacte între seriile Schurter și componentele altor producători fără schema electrică a clientului.",
     productCodes: [
       {
@@ -556,7 +556,7 @@ Pentru piața din România, componentele EAO sunt relevante la construcția de p
       "Robotică — interfețe de comandă pentru celule robotizate"
     ],
     certifications: ["ISO 9001:2015 — management al calității"],
-    infinitrade: `Nu ținem produse EAO pe stoc propriu și spunem deschis ce putem și ce nu putem confirma înainte de a trimite oferta. Butoanele și interfețele EAO le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru dimensionarea corectă a ofertei, avem nevoie de seria exactă a produsului, diametrul de montaj în panou și, la butoanele iluminate, tensiunea de alimentare a LED-ului. Nu promitem disponibilitate permanentă din stoc pentru referințele mai puțin comune din gamă și verificăm disponibilitatea reală înainte de a confirma comanda.`,
+    infinitrade: `Nu ținem produse EAO pe stoc propriu și spunem deschis ce putem și ce nu putem confirma înainte de a trimite oferta. Butoanele și interfețele EAO le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru dimensionarea corectă a ofertei, avem nevoie de seria exactă a produsului, diametrul de montaj în panou și, la butoanele iluminate, tensiunea de alimentare a LED-ului. Nu promitem disponibilitate permanentă din stoc pentru referințele mai puțin comune din gamă și verificăm disponibilitatea reală înainte de a confirma comanda.`,
     limitation: "Nu putem confirma compatibilitatea exactă cu decupaje de panou realizate pentru alte mărci fără planul tehnic al tabloului electric.",
     productCodes: [
       {
@@ -683,7 +683,7 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
       "Bazine și spa — tratarea și menținerea calității apei de bazin",
       "Clădiri și industrie generală — dedurizare pentru protecția instalațiilor termice"
     ],
-    infinitrade: `Pentru BWT nu deținem date proprii despre disponibilitate; ne ghidăm după informațiile publice disponibile ale producătorului austriac și după ce ne confirmă echipa locală BWT. Sistemele BWT se aduc la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de debitul necesar, duritatea apei de la sursă și aplicația exactă — potabilă, de proces sau farmaceutică. Nu promitem disponibilitate permanentă din stoc pentru cartușe sau componente de schimb și verificăm disponibilitatea la fiecare cerere.`,
+    infinitrade: `Pentru BWT nu deținem date proprii despre disponibilitate; ne ghidăm după informațiile publice disponibile ale producătorului austriac și după ce ne confirmă echipa locală BWT. Sistemele BWT se aduc la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de debitul necesar, duritatea apei de la sursă și aplicația exactă — potabilă, de proces sau farmaceutică. Nu promitem disponibilitate permanentă din stoc pentru cartușe sau componente de schimb și verificăm disponibilitatea la fiecare cerere.`,
     limitation: "Nu putem confirma configurarea și punerea în funcțiune a sistemelor BWT pentru apă de proces farmaceutic — aceasta necesită validare tehnică directă cu producătorul.",
     productCodes: [
       {
@@ -786,7 +786,7 @@ Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamb
       "Ambalaje — adezivi pentru închiderea și etanșarea ambalajelor industriale",
       "Producția de bunuri durabile — asamblare de componente în electrocasnice și mobilier"
     ],
-    infinitrade: `Nu avem surse proprii de stoc pentru Bostik — verificăm doar ce apare public despre gamă și despre grupul Arkema înainte să răspundem unei cereri. Aducem adezivii la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de materialele care trebuie asamblate sau etanșate, condițiile de temperatură și umiditate din aplicație și cantitatea necesară. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă și confirmăm disponibilitatea reală înainte de a trimite prețul final.`,
+    infinitrade: `Nu avem surse proprii de stoc pentru Bostik — verificăm doar ce apare public despre gamă și despre grupul Arkema înainte să răspundem unei cereri. Aducem adezivii la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de materialele care trebuie asamblate sau etanșate, condițiile de temperatură și umiditate din aplicație și cantitatea necesară. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă și confirmăm disponibilitatea reală înainte de a trimite prețul final.`,
     limitation: "Nu putem confirma fișa tehnică exactă și compatibilitatea chimică pentru fiecare referință Bostik fără acces direct la site-ul oficial al producătorului la momentul cererii.",
     productCodes: [
       {
@@ -931,7 +931,7 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
       "Desalinizare și controlul inundațiilor — pompe axiale și cu flux mixt pentru debite mari",
       "Industria alimentară — separare solid-lichid pentru reziduuri de procesare"
     ],
-    infinitrade: `Fără date proprii de stoc pentru echipamentele Andritz, spunem clar ce putem și ce nu putem confirma la fiecare cerere primită. Aducem pompele și echipamentele conexe la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru componente uzuale — proiectele complexe se discută punctual. Pentru o ofertă avem nevoie de debitul necesar, presiunea de refulare și fluidul pompat, plus aplicația exactă (apă curată, nămol, minereu). Nu promitem disponibilitate imediată pentru sisteme proiectate la comandă, care depind de configurația specifică cerută de client.`,
+    infinitrade: `Fără date proprii de stoc pentru echipamentele Andritz, spunem clar ce putem și ce nu putem confirma la fiecare cerere primită. Aducem pompele și echipamentele conexe la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru componente uzuale — proiectele complexe se discută punctual. Pentru o ofertă avem nevoie de debitul necesar, presiunea de refulare și fluidul pompat, plus aplicația exactă (apă curată, nămol, minereu). Nu promitem disponibilitate imediată pentru sisteme proiectate la comandă, care depind de configurația specifică cerută de client.`,
     limitation: "Nu putem confirma configurarea și punerea în funcțiune a sistemelor Andritz proiectate la comandă — acestea rămân în sarcina echipei tehnice a producătorului.",
     productCodes: [
       {
@@ -1038,7 +1038,7 @@ Pentru piața din România, aparatele Megger sunt relevante pentru firme de ment
       "Transport feroviar — testarea instalațiilor electrice din infrastructura feroviară",
       "Utilități de apă — mentenanța electrică a echipamentelor din stațiile de pompare"
     ],
-    infinitrade: `Nu depăstrăm stoc propriu de aparate Megger; lucrăm din surse publice ale producătorului britanic și confirmăm disponibilitatea reală la fiecare cerere primită. Aducem instrumentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de modelul exact cerut, tensiunea de test necesară și, la sistemele de cablu sau transformator, tipul de echipament testat. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din gamă, mai ales la sistemele mai complexe precum TRAX.`,
+    infinitrade: `Nu depăstrăm stoc propriu de aparate Megger; lucrăm din surse publice ale producătorului britanic și confirmăm disponibilitatea reală la fiecare cerere primită. Aducem instrumentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de modelul exact cerut, tensiunea de test necesară și, la sistemele de cablu sau transformator, tipul de echipament testat. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din gamă, mai ales la sistemele mai complexe precum TRAX.`,
     limitation: "Nu putem confirma calibrarea sau intervențiile post-vânzare pentru aparatele Megger — acestea rămân în sarcina rețelei de mentenanță a producătorului.",
     productCodes: [
       {
@@ -1165,7 +1165,7 @@ Pentru atelierele și liniile de producție din România, sculele Chicago Pneuma
       "Metalurgie — polizoare și mașini de șlefuit pentru finisarea suprafețelor",
       "Producție industrială de serie — mașini de găurit pistol pentru linii de asamblare"
     ],
-    infinitrade: `Pentru sculele Chicago Pneumatic nu avem date proprii de stoc — informațiile despre gamă vin din surse publice ale producătorului. Aducem sculele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă exactă avem nevoie de modelul căutat, cuplul de strângere necesar (la cheile dinamometrice) sau aplicația de șlefuire/găurire vizată. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din gamă și confirmăm disponibilitatea reală înainte de a trimite prețul.`,
+    infinitrade: `Pentru sculele Chicago Pneumatic nu avem date proprii de stoc — informațiile despre gamă vin din surse publice ale producătorului. Aducem sculele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă exactă avem nevoie de modelul căutat, cuplul de strângere necesar (la cheile dinamometrice) sau aplicația de șlefuire/găurire vizată. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din gamă și confirmăm disponibilitatea reală înainte de a trimite prețul.`,
     limitation: "Nu putem confirma service-ul în garanția producătorului pentru sculele Chicago Pneumatic — acesta rămâne în sarcina rețelei autorizate a mărcii.",
     productCodes: [
       {
@@ -1297,7 +1297,7 @@ Pentru fabricile din România cu utilaje rotative critice — mori, compresoare,
       "Industria alimentară și a băuturilor — monitorizarea utilajelor rotative critice pentru producție",
       "Marină și offshore — monitorizarea stării echipamentelor rotative de la bordul navelor"
     ],
-    infinitrade: `Nu putem confirma stoc propriu pentru sistemele SPM Instrument; ce știm vine din informațiile publice disponibile ale producătorului suedez. Sistemele SPM Instrument le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-4 săptămâni după confirmare. Pentru o ofertă corectă avem nevoie de tipul de utilaj monitorizat, numărul de puncte de măsură vizate și dacă se dorește o soluție portabilă sau un sistem instalat permanent. Nu promitem disponibilitate imediată pentru sistemele online complexe, care se configurează după cerințele fiecărei instalații.`,
+    infinitrade: `Nu putem confirma stoc propriu pentru sistemele SPM Instrument; ce știm vine din informațiile publice disponibile ale producătorului suedez. Sistemele SPM Instrument le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni după confirmare. Pentru o ofertă corectă avem nevoie de tipul de utilaj monitorizat, numărul de puncte de măsură vizate și dacă se dorește o soluție portabilă sau un sistem instalat permanent. Nu promitem disponibilitate imediată pentru sistemele online complexe, care se configurează după cerințele fiecărei instalații.`,
     limitation: "Nu putem confirma configurarea software și integrarea sistemelor online SPM Instrument cu alte platforme de mentenanță — aceasta necesită suport tehnic direct de la producător.",
     productCodes: [
       {
@@ -1398,7 +1398,7 @@ Pentru fabricile din România cu linii de automatizare complexă, senzorii Contr
       "Mașini-unelte CNC — senzori de poziționare pentru axe și scule",
       "Manipulare materiale și ambalare — senzori fotoelectrici pentru detectarea produselor"
     ],
-    infinitrade: `Fără date proprii despre stocul senzorilor Contrinex, spunem clar ce putem și ce nu putem confirma înainte de a trimite oferta. Aducem senzorii la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de tipul de senzor (inductiv, fotoelectric sau smart de măsurare), distanța de detecție necesară și condițiile speciale de mediu — sudură, presiune sau temperatură ridicată. Nu promitem disponibilitate permanentă din stoc pentru variantele speciale din gamă și verificăm disponibilitatea reală la fiecare cerere.`,
+    infinitrade: `Fără date proprii despre stocul senzorilor Contrinex, spunem clar ce putem și ce nu putem confirma înainte de a trimite oferta. Aducem senzorii la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de tipul de senzor (inductiv, fotoelectric sau smart de măsurare), distanța de detecție necesară și condițiile speciale de mediu — sudură, presiune sau temperatură ridicată. Nu promitem disponibilitate permanentă din stoc pentru variantele speciale din gamă și verificăm disponibilitatea reală la fiecare cerere.`,
     limitation: "Nu putem confirma configurarea software a senzorilor smart de măsurare (DMS/AMS) în sisteme de control existente ale clientului fără specificațiile exacte ale aplicației.",
     productCodes: [
       {

@@ -48,7 +48,7 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
       'Food & Beverage',
       'Data centers',
     ],
-    infinitrade: `La Infinitrade lucrăm cu informațiile publice ale Schneider Electric și nu deținem date proprii de stoc pentru fiecare cod din gama industrială — verificăm disponibilitatea reală înainte să confirmăm un termen. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană: componentele uzuale ajung, ca formulare generală a firmei, de regulă în 24–72 h din stoc, iar restul gamei se aduce la comandă în 2–4 săptămâni, în funcție de producător. Pentru o ofertă corectă, trimite-ne codul complet al produsului (de exemplu o referință Modicon, Altivar sau Acti9), cantitatea necesară și termenul dorit. Revenim cu disponibilitatea confirmată și un preț calculat pentru cererea ta, fără presupuneri.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice ale Schneider Electric și nu deținem date proprii de stoc pentru fiecare cod din gama industrială — verificăm disponibilitatea reală înainte să confirmăm un termen. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană: componentele uzuale ajung, ca formulare generală a firmei, de regulă în 24–72 h din stoc, iar restul gamei se aduce la comandă în 1–4 săptămâni, în funcție de producător. Pentru o ofertă corectă, trimite-ne codul complet al produsului (de exemplu o referință Modicon, Altivar sau Acti9), cantitatea necesară și termenul dorit. Revenim cu disponibilitatea confirmată și un preț calculat pentru cererea ta, fără presupuneri.`,
     limitation: `Nu putem confirma acoperirea automată în garanția producătorului pentru toate echipamentele Schneider Electric și nu realizăm noi configurarea software a modulelor EcoStruxure; pentru aceste situații recomandăm contactul direct cu producătorul.`,
     sources: [
       {"title":"Modicon master range","url":"https://www.se.com/ww/en/work/products/master-ranges/modicon/","publisher":"Schneider Electric","accessed":"2026-09-23"},
@@ -128,7 +128,7 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
       },
       {
         "q": "Livrați automate Modicon în România?",
-        "a": "Da, aducem controlere Modicon la comandă, pornind de la gamele publicate de Schneider Electric, fără a ține un stoc propriu pe aceste referințe. Termenul uzual este de 2-4 săptămâni la comandă, în funcție de model și de disponibilitatea la producător. Recomandăm verificarea referinței exacte a modulului înainte de a trimite comanda fermă."
+        "a": "Da, aducem controlere Modicon la comandă, pornind de la gamele publicate de Schneider Electric, fără a ține un stoc propriu pe aceste referințe. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de model și de disponibilitatea la producător. Recomandăm verificarea referinței exacte a modulului înainte de a trimite comanda fermă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de automat programabil Schneider Electric?",
@@ -195,7 +195,7 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
       'Waste & Recycling',
       'Packaging (mașini de ambalat)',
     ],
-    infinitrade: `Pentru SEW-Eurodrive pornim de la datele publicate de producător și de la ce putem verifica direct la cerere — nu avem date proprii despre stocul real al fiecărei configurații posibile. Motoreductoarele și accesoriile ajung prin canale de aprovizionare din Uniunea Europeană: pentru dimensiunile cerute frecvent putem oferi, ca regulă generală a firmei, uneori 24–72 h din stoc, fără să promitem asta pentru un cod anume, iar restul configurațiilor se aduc la comandă în 2–4 săptămâni. Ca să pregătim o ofertă corectă, avem nevoie de tipul reductorului sau motorului, raportul de transmisie și tensiunea de alimentare dorită. Revenim cu termenul real de livrare și configurația potrivită pentru aplicația ta.`,
+    infinitrade: `Pentru SEW-Eurodrive pornim de la datele publicate de producător și de la ce putem verifica direct la cerere — nu avem date proprii despre stocul real al fiecărei configurații posibile. Motoreductoarele și accesoriile ajung prin canale de aprovizionare din Uniunea Europeană: pentru dimensiunile cerute frecvent putem oferi, ca regulă generală a firmei, uneori 24–72 h din stoc, fără să promitem asta pentru un cod anume, iar restul configurațiilor se aduc la comandă în 1–4 săptămâni. Ca să pregătim o ofertă corectă, avem nevoie de tipul reductorului sau motorului, raportul de transmisie și tensiunea de alimentare dorită. Revenim cu termenul real de livrare și configurația potrivită pentru aplicația ta.`,
     limitation: `Nu putem confirma punerea în funcțiune sau intervențiile acoperite de garanția producătorului pentru fiecare configurație SEW-Eurodrive și nu oferim noi training la fața locului; aceste servicii rămân în sarcina rețelei tehnice a producătorului.`,
     sources: [
       {"title":"Helical and Bevel-Helical Gear Units X.. Series","url":"https://download.sew-eurodrive.com/download/pdf/16931211.pdf","publisher":"SEW-EURODRIVE","accessed":"2026-09-22"},
@@ -291,7 +291,7 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
       },
       {
         "q": "Livrați reductoare SEW în România?",
-        "a": "Da, reductoarele SEW ajung la comandă pe baza cataloagelor publice ale producătorului, fără un stoc propriu gestionat de noi. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de mărime și opțiuni de montaj, iar pentru configurații nestandard perioada poate crește."
+        "a": "Da, reductoarele SEW ajung la comandă pe baza cataloagelor publice ale producătorului, fără un stoc propriu gestionat de noi. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de mărime și opțiuni de montaj, iar pentru configurații nestandard perioada poate crește."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de reductor SEW echivalent?",
@@ -354,7 +354,7 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
       'Printing & Paper',
       'Stații de epurare (aerare)',
     ],
-    infinitrade: `Pentru pompele și suflantele Becker nu dispunem de date proprii despre stocul fiecărui model și pornim de la fișele tehnice publicate de producător. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: modelele cerute des pot fi disponibile, ca formulare generală a firmei, uneori în 24–72 h din stoc, iar configurațiile speciale se aduc la comandă în 2–4 săptămâni. Pentru o ofertă corectă avem nevoie de aplicație (vid sau presiune), debitul necesar și presiunea finală dorită. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru cererea ta, fără promisiuni pe care nu le putem susține.`,
+    infinitrade: `Pentru pompele și suflantele Becker nu dispunem de date proprii despre stocul fiecărui model și pornim de la fișele tehnice publicate de producător. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: modelele cerute des pot fi disponibile, ca formulare generală a firmei, uneori în 24–72 h din stoc, iar configurațiile speciale se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de aplicație (vid sau presiune), debitul necesar și presiunea finală dorită. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru cererea ta, fără promisiuni pe care nu le putem susține.`,
     limitation: `Nu putem confirma disponibilitatea unei sub-game complete (de exemplu toate variantele seriei O) fără verificare punctuală la producător și nu oferim noi intervenții acoperite de garanția producătorului.`,
     sources: [
       {"title":"Vacuum Pump & Compressor Series","url":"https://www.becker-international.com/uk/products/pump-series.htm","publisher":"Becker","accessed":"2026-09-22"},
@@ -482,7 +482,7 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
       },
       {
         "q": "Livrează Becker pompe de vid în România?",
-        "a": "Da, pompele Becker sunt aduse la comandă pe baza cataloagelor publice ale producătorului, fără un stoc propriu menținut de noi. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de serie și de opțiunile solicitate, iar pentru sisteme complete perioada poate fi mai lungă."
+        "a": "Da, pompele Becker sunt aduse la comandă pe baza cataloagelor publice ale producătorului, fără un stoc propriu menținut de noi. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de serie și de opțiunile solicitate, iar pentru sisteme complete perioada poate fi mai lungă."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de pompă de vid Becker echivalentă?",
@@ -545,7 +545,7 @@ Infinitrade distribuie soluții Donaldson pentru calitatea aerului industrial: d
       'Automotive (ateliere de caroserie)',
       'Sisteme hidraulice (excavaticele, prese)',
     ],
-    infinitrade: `La cererile pentru Donaldson pornim de la fișele publicate de producător și îți spunem clar ce putem și ce nu putem confirma despre un anumit filtru înainte de comandă. Colectoarele de praf, filtrele de aer comprimat și cele hidraulice ajung prin canale de aprovizionare din Uniunea Europeană: consumabilele uzuale pot fi, ca formulare generală a firmei, disponibile uneori în 24–72 h din stoc, iar echipamentele complete se aduc la comandă în 2–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul filtrului sau al cartușului, aplicația (praf, aer comprimat, hidraulică) și debitul de proces. Revenim cu disponibilitatea reală și configurația recomandată pentru instalația ta.`,
+    infinitrade: `La cererile pentru Donaldson pornim de la fișele publicate de producător și îți spunem clar ce putem și ce nu putem confirma despre un anumit filtru înainte de comandă. Colectoarele de praf, filtrele de aer comprimat și cele hidraulice ajung prin canale de aprovizionare din Uniunea Europeană: consumabilele uzuale pot fi, ca formulare generală a firmei, disponibile uneori în 24–72 h din stoc, iar echipamentele complete se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul filtrului sau al cartușului, aplicația (praf, aer comprimat, hidraulică) și debitul de proces. Revenim cu disponibilitatea reală și configurația recomandată pentru instalația ta.`,
     limitation: `Nu putem confirma acoperirea în garanția producătorului pentru fiecare echipament instalat de client și nu configurăm noi softul de monitorizare al sistemelor Torit; pentru aceste cazuri recomandăm suportul direct al Donaldson.`,
     sources: [
       {"title":"Industrial Dust, Fume & Mist Collection Products","url":"https://www.donaldson.com/en-us/industrial-dust-fume-mist/products/","publisher":"Donaldson","accessed":"2026-09-22"},
@@ -617,7 +617,7 @@ Infinitrade distribuie soluții Donaldson pentru calitatea aerului industrial: d
       },
       {
         "q": "Livrează Donaldson sisteme de filtrare industrială în România?",
-        "a": "Da, sistemele Donaldson se aduc la comandă folosind informațiile publicate de producător, fără un stoc propriu deținut de noi. Termenul obișnuit este de 2-4 săptămâni la comandă, funcție de configurație și accesorii, iar pentru instalații complete de filtrare durata poate crește."
+        "a": "Da, sistemele Donaldson se aduc la comandă folosind informațiile publicate de producător, fără un stoc propriu deținut de noi. Termenul obișnuit este de 1–4 săptămâni la comandă, funcție de configurație și accesorii, iar pentru instalații complete de filtrare durata poate crește."
       },
       {
         "q": "Ce date trebuie să trimit pentru o ofertă de colector de praf Donaldson?",
@@ -684,7 +684,7 @@ Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industrial
       'Oil & Gas (pompe proces)',
       'HVAC industrial (pompe circulație)',
     ],
-    infinitrade: `Pentru pompele Ebara lucrăm cu informațiile publice disponibile despre gamă și cu ce ne confirmă producătorul la cerere, fără date proprii despre stocul fiecărei serii. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: pentru modelele cerute des putem avea, ca formulare generală a firmei, uneori 24–72 h din stoc, iar restul gamei se aduce la comandă în 2–4 săptămâni. Pentru o selecție corectă avem nevoie de debitul necesar, înălțimea de pompare (presiunea) și tipul aplicației — apă potabilă, ape uzate, incendiu sau proces industrial. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru proiectul tău.`,
+    infinitrade: `Pentru pompele Ebara lucrăm cu informațiile publice disponibile despre gamă și cu ce ne confirmă producătorul la cerere, fără date proprii despre stocul fiecărei serii. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: pentru modelele cerute des putem avea, ca formulare generală a firmei, uneori 24–72 h din stoc, iar restul gamei se aduce la comandă în 1–4 săptămâni. Pentru o selecție corectă avem nevoie de debitul necesar, înălțimea de pompare (presiunea) și tipul aplicației — apă potabilă, ape uzate, incendiu sau proces industrial. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru proiectul tău.`,
     limitation: `Nu putem confirma menținerea unei sub-game complete de pompe vacuum pentru semiconductori în portofoliul local și nu oferim noi punerea în funcțiune sau intervenții acoperite de garanția producătorului pentru aceste sisteme.`,
     sources: [
       {"title":"Products","url":"https://www.pumpsebara.com/products","publisher":"Ebara","accessed":"2026-09-22"},
@@ -784,7 +784,7 @@ Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industrial
       },
       {
         "q": "Livrați pompe Ebara în România?",
-        "a": "Da, aducem la comandă pompe Ebara pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de materialul dorit. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă pompe Ebara pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de materialul dorit. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă submersibilă Ebara?",

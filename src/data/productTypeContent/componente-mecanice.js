@@ -63,7 +63,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trimiteți pentru o ofertă de rulmenți industriali și cât durează livrarea?",
-        "a": "Codul rulmentului sau dimensiunile exacte, cantitatea necesară și, dacă e posibil, aplicația (motor, reductor, pompă). Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, dar rulmenții cu dimensiuni standard ISO sunt de regulă mai rapid de procurat."
+        "a": "Codul rulmentului sau dimensiunile exacte, cantitatea necesară și, dacă e posibil, aplicația (motor, reductor, pompă). Livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător, dar rulmenții cu dimensiuni standard ISO sunt de regulă mai rapid de procurat."
       },
       {
         "q": "Pot fi înlocuiți rulmenții unei mărci cu o altă marcă echivalentă?",
@@ -211,7 +211,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de lanțuri industriale și cât durează livrarea?",
-        "a": "Sunt necesare pasul, numărul de rânduri, lungimea aproximativă și mediul de lucru. Termenul de livrare pentru lanțuri industriale este la comandă, orientativ 2-4 săptămâni, mai scurt pentru pasurile și lungimile standard, larg folosite pe piață."
+        "a": "Sunt necesare pasul, numărul de rânduri, lungimea aproximativă și mediul de lucru. Termenul de livrare pentru lanțuri industriale este la comandă, orientativ 1–4 săptămâni, mai scurt pentru pasurile și lungimile standard, larg folosite pe piață."
       },
       {
         "q": "Cât de des trebuie verificată alungirea unui lanț industrial?",
@@ -284,7 +284,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de garnituri sau simeringuri și cât durează livrarea?",
-        "a": "Sunt necesare dimensiunile exacte sau codul piesei vechi, fluidul etanșat, temperatura de lucru, presiunea de lucru și cantitatea dorită. Livrarea se confirmă la comandă, orientativ 2-4 săptămâni pentru dimensiuni nestandard, în funcție de producător și de materialul ales."
+        "a": "Sunt necesare dimensiunile exacte sau codul piesei vechi, fluidul etanșat, temperatura de lucru, presiunea de lucru și cantitatea dorită. Livrarea se confirmă la comandă, orientativ 1–4 săptămâni pentru dimensiuni nestandard, în funcție de producător și de materialul ales."
       },
       {
         "q": "Cât de des trebuie înlocuite garniturile și simeringurile industriale?",
@@ -431,7 +431,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru ofertă și cât durează livrarea unei benzi transportoare?",
-        "a": "Sunt necesare materialul transportat, lățimea și lungimea benzii, traseul, sarcina pe metru liniar și viteza dorită. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător, lățime disponibilă și tipul de îmbinare solicitat."
+        "a": "Sunt necesare materialul transportat, lățimea și lungimea benzii, traseul, sarcina pe metru liniar și viteza dorită. Livrarea se face la comandă, orientativ în 1–4 săptămâni, în funcție de producător, lățime disponibilă și tipul de îmbinare solicitat."
       },
       {
         "q": "Cât de des trebuie verificată tensionarea unei benzi transportoare?",

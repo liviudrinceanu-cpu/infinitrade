@@ -54,7 +54,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       'Educație – cablare structurată, prize USB în săli',
       'Sănătate – prize medicale, sisteme UPS'
     ],
-    infinitrade: `Pornim de la surse publice ale producătorului Legrand și spunem clientului deschis ce putem și ce nu putem confirma despre disponibilitatea unei serii anume. Nu deținem un stoc afișat public pentru fiecare referință Legrand, dar aducem prizele, întrerupătoarele, tablourile modulare sau componentele de cablare structurată solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 2-4 săptămâni la comandă pentru serii mai puțin uzuale. Pentru o ofertă corectă, trimite-ne codul produsului Legrand, cantitatea necesară și, dacă ai, schema instalației sau a tabloului electric. Confirmăm termenul exact abia după ce verificăm disponibilitatea reală la furnizor.`,
+    infinitrade: `Pornim de la surse publice ale producătorului Legrand și spunem clientului deschis ce putem și ce nu putem confirma despre disponibilitatea unei serii anume. Nu deținem un stoc afișat public pentru fiecare referință Legrand, dar aducem prizele, întrerupătoarele, tablourile modulare sau componentele de cablare structurată solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente sau în 1–4 săptămâni la comandă pentru serii mai puțin uzuale. Pentru o ofertă corectă, trimite-ne codul produsului Legrand, cantitatea necesară și, dacă ai, schema instalației sau a tabloului electric. Confirmăm termenul exact abia după ce verificăm disponibilitatea reală la furnizor.`,
     limitation: 'Nu putem confirma service-ul în garanția producătorului pentru echipamentele Legrand și nici stocul permanent pentru fiecare serie sau finisaj din gamă, care rămân în sarcina rețelei oficiale a fabricantului.',
     sources: [
       {"title":"KEOR LP - Legrand","url":"https://ups.legrand.com/en/products/keor-lp","publisher":"Legrand","accessed":"2026-09-22"},
@@ -146,7 +146,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "q": "Livrați UPS-uri Legrand în România?",
-        "a": "Da, aducem la comandă UPS-uri monofazate și trifazate din gamele KEOR și MEGALINE, pe baza codului și puterii confirmate de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 2-4 săptămâni la comandă. Transmiteți puterea necesară în kVA pentru identificarea rapidă a variantei potrivite."
+        "a": "Da, aducem la comandă UPS-uri monofazate și trifazate din gamele KEOR și MEGALINE, pe baza codului și puterii confirmate de client. Nu avem această gamă pe raft, ne bazăm pe informațiile publice de disponibilitate ale producătorului, iar termenul uzual este de 1–4 săptămâni la comandă. Transmiteți puterea necesară în kVA pentru identificarea rapidă a variantei potrivite."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de UPS Legrand?",
@@ -219,7 +219,7 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       'Industrie alimentară – produse NSF certified',
       'Energie – eoliene, hidrocentrale, reparații'
     ],
-    infinitrade: `Nu deținem date proprii de stoc pentru fiecare cod Loctite, dar lucrăm cu fișele tehnice publicate de Henkel și explicăm clar clientului ce putem confirma noi și ce rămâne de verificat cu producătorul pentru fiecare aplicație. Aducem produsele Loctite solicitate prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru codurile uzuale precum threadlockerele sau adezivii instant, sau în 2-4 săptămâni la comandă pentru ambalaje ori formule speciale. Ca să pregătim o ofertă corectă, spune-ne codul produsului, cantitatea dorită și tipul de aplicație – filet, îmbinare structurală sau etanșare. Recomandăm oricând verificarea fișei tehnice oficiale înainte de utilizare, mai ales pentru compatibilitate chimică cu materialul tău.`,
+    infinitrade: `Nu deținem date proprii de stoc pentru fiecare cod Loctite, dar lucrăm cu fișele tehnice publicate de Henkel și explicăm clar clientului ce putem confirma noi și ce rămâne de verificat cu producătorul pentru fiecare aplicație. Aducem produsele Loctite solicitate prin canale de aprovizionare din Uniunea Europeană, de regulă în 24-72 h din stoc pentru codurile uzuale precum threadlockerele sau adezivii instant, sau în 1–4 săptămâni la comandă pentru ambalaje ori formule speciale. Ca să pregătim o ofertă corectă, spune-ne codul produsului, cantitatea dorită și tipul de aplicație – filet, îmbinare structurală sau etanșare. Recomandăm oricând verificarea fișei tehnice oficiale înainte de utilizare, mai ales pentru compatibilitate chimică cu materialul tău.`,
     limitation: 'Nu putem confirma compatibilitatea chimică exactă a unui produs Loctite cu un material sau substrat specific fără fișa tehnică a producătorului și nici stocul permanent pentru fiecare cod din gamă.',
     sources: [
       {"title":"Threadlocking solutions - Henkel Adhesives","url":"https://next.henkel-adhesives.com/es/en/applications/threadlockers.html","publisher":"Henkel (Loctite)","accessed":"2026-09-22"},
@@ -287,7 +287,7 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
       },
       {
         "q": "Livrați produse Loctite în România?",
-        "a": "Da, aducem la comandă produse din gamele Loctite pentru fixare filete, etanșare și adezivi instant, pe bază codului confirmat de client. Produsele Loctite le aducem la comandă, pe baza disponibilității publicate de Henkel, de obicei în 2-4 săptămâni. Transmiteți codul exact de pe eticheta produsului dorit pentru identificare rapidă."
+        "a": "Da, aducem la comandă produse din gamele Loctite pentru fixare filete, etanșare și adezivi instant, pe bază codului confirmat de client. Produsele Loctite le aducem la comandă, pe baza disponibilității publicate de Henkel, de obicei în 1–4 săptămâni. Transmiteți codul exact de pe eticheta produsului dorit pentru identificare rapidă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de threadlocker Loctite?",
@@ -360,7 +360,7 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       'Construcții – macarale, lifturi șantier, betoniere',
       'OEM – integrare în mașini și utilaje'
     ],
-    infinitrade: `Pornim de la surse publice ale producătorului Lovato Electric și le explicăm clienților deschis ce putem și ce nu putem confirma despre o referință anume. Nu avem cum să garantăm stocul exact pentru fiecare cod fără o interogare la furnizor, dar aducem contactoarele, releele termice sau soft-starterele Lovato prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente ori în 2-4 săptămâni la comandă pentru variantele speciale. Pentru o ofertă corectă, trimite-ne codul produsului, curentul nominal necesar și tensiunea bobinei dorite. Termenul ferm de livrare ți-l confirmăm doar după ce verificăm disponibilitatea reală la furnizor.`,
+    infinitrade: `Pornim de la surse publice ale producătorului Lovato Electric și le explicăm clienților deschis ce putem și ce nu putem confirma despre o referință anume. Nu avem cum să garantăm stocul exact pentru fiecare cod fără o interogare la furnizor, dar aducem contactoarele, releele termice sau soft-starterele Lovato prin canale de aprovizionare din Uniunea Europeană, de obicei în 24-72 h din stoc pentru codurile curente ori în 1–4 săptămâni la comandă pentru variantele speciale. Pentru o ofertă corectă, trimite-ne codul produsului, curentul nominal necesar și tensiunea bobinei dorite. Termenul ferm de livrare ți-l confirmăm doar după ce verificăm disponibilitatea reală la furnizor.`,
     limitation: 'Nu putem confirma stocul permanent pentru toate gamele Lovato și nici service-ul în garanția producătorului, care rămâne responsabilitatea rețelei oficiale a fabricantului.',
     sources: [
       {"title":"Energy and Automation Shortform Catalogue 2025-2027","url":"https://download.lovatoelectric.com/LVT_Shortform%20catalogue_DIGITAL.pdf","publisher":"Lovato Electric","accessed":"2026-09-22"},
@@ -447,7 +447,7 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
       },
       {
         "q": "Livrați contactoare și automatizări Lovato în România?",
-        "a": "Da, aducem la comandă contactoare, relee termice și soft startere din gamele BF, RF și ADXN, pe baza codului confirmat de client. Aparatajul Lovato îl aducem la comandă, cu disponibilitatea luată din datele publice ale producătorului; termen uzual 2-4 săptămâni. Codul complet de pe corpul aparatului grăbește identificarea variantei exacte."
+        "a": "Da, aducem la comandă contactoare, relee termice și soft startere din gamele BF, RF și ADXN, pe baza codului confirmat de client. Aparatajul Lovato îl aducem la comandă, cu disponibilitatea luată din datele publice ale producătorului; termen uzual 1–4 săptămâni. Codul complet de pe corpul aparatului grăbește identificarea variantei exacte."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de contactor Lovato?",

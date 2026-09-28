@@ -31,7 +31,7 @@ function firstSentence(text) {
 }
 
 const SOURCING_STATEMENT = entityFacts.boilerplate.find((b) => b.id === 'sourcing-statement')?.template
-  || 'Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 2–4 săptămâni din fabrică (execuțiile OEM sau personalizate pot dura mai mult, termenul exact îl confirmăm în ofertă).';
+  || 'Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 1–4 săptămâni din fabrică (raritățile și sistemele complexe pot dura mai mult; termenul exact îl confirmăm în ofertă).';
 const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
 
 export default function BrandPageClient({ brand, primaryDuplicate = null, relatedByCategory = {}, brandContent, seriesPages = [] }) {

@@ -627,7 +627,7 @@ Vin asamblate din fabrică pe o bucșă, ceea ce elimină erorile de montaj manu
 
 ## Disponibilitate piese
 
-Pentru [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) și [KSB](/brand/ksb) pe modelele curente, precum și pentru producători specializați în etanșări (Burgmann, John Crane): 24-72 h pentru reperele aflate pe stoc în România sau într-un depozit din Europa; din fabrică, de regulă 2-4 săptămâni. Precizarea modelului exact de pompă și, dacă e posibil, o fotografie a garniturii vechi reduc riscul unei comenzi greșite.
+Pentru [Grundfos](/brand/grundfos), [Wilo](/brand/wilo) și [KSB](/brand/ksb) pe modelele curente, precum și pentru producători specializați în etanșări (Burgmann, John Crane): 24-72 h pentru reperele aflate în stocul nostru sau în stocul furnizorului; din fabrică, de regulă 1–4 săptămâni. Precizarea modelului exact de pompă și, dacă e posibil, o fotografie a garniturii vechi reduc riscul unei comenzi greșite.
 
 ## Ce date să trimiteți pentru ofertă
 
@@ -781,7 +781,7 @@ Grundfos pune la dispoziție Grundfos Product Center, un instrument online pentr
 
 ## Piese de schimb și service local
 
-Disponibilitatea pieselor de schimb depinde de model și de rețeaua locală de distribuție pentru fiecare brand în parte; pentru reperele aflate pe stoc în România sau într-un depozit din Europa, termenul uzual este de 24-72 h, iar din fabrică, de regulă 2-4 săptămâni.
+Disponibilitatea pieselor de schimb depinde de model și de rețeaua locală de distribuție pentru fiecare brand în parte; pentru reperele aflate în stocul nostru sau în stocul furnizorului, termenul uzual este de 24-72 h, iar din fabrică, de regulă 1–4 săptămâni.
 
 ## Criterii de alegere, pe scurt
 
@@ -1332,9 +1332,9 @@ Din documentația consultată acum, Knipex prezintă cea mai detaliată gamă de
 VDE este un standard german pentru scule izolate, destinate lucrului lângă sau sub tensiune electrică. Wera și Gedore menționează explicit seturi și șurubelnițe cu această certificare pe site-ul oficial. Pentru Knipex nu am găsit o mențiune similară pe paginile consultate acum, deci recomandăm verificare directă pentru aplicații sub tensiune.
 
 ### Pot cere o ofertă pentru o singură sculă, nu pentru un set întreg?
-Da. Lucrăm cu gama celor trei producători și putem oferta atât bucăți individuale, cât și seturi sau cantități mai mari, cu termen orientativ de 2-4 săptămâni la comandă, în funcție de disponibilitatea la producător.
+Da. Lucrăm cu gama celor trei producători și putem oferta atât bucăți individuale, cât și seturi sau cantități mai mari, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de disponibilitatea la producător.
 
-Informațiile de mai sus provin din documentația publică a producătorilor Knipex, Wera și Gedore, citită la data de 23 septembrie 2026. Lucrăm cu gama tuturor celor trei branduri și putem oferta produsele prin canale din UE, cu termen orientativ de 2-4 săptămâni la comandă. Nu ținem pe raft toată gama și nu suntem distribuitor al niciunuia dintre producători, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
+Informațiile de mai sus provin din documentația publică a producătorilor Knipex, Wera și Gedore, citită la data de 23 septembrie 2026. Lucrăm cu gama tuturor celor trei branduri și putem oferta produsele prin canale din UE, cu termen orientativ de 1–4 săptămâni la comandă. Nu ținem pe raft toată gama și nu suntem distribuitor al niciunuia dintre producători, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1429,7 +1429,7 @@ Gewiss prezintă public familia QDX, cu QDX 4000 H ca panou primar documentat p�
 ### Cum aleg sensibilitatea corectă a unui diferențial?
 Sensibilitatea (Idn) depinde de aplicație: 30 mA pentru protecția persoanelor, 300 mA pentru protecția la incendiu, cu variante speciale, precum 10 mA până la 3 A la gama 90 RCD de la Gewiss. Trimite-ne tipul de circuit protejat și tipul de sarcină, iar noi îți recomandăm gama și sensibilitatea potrivite.
 
-Informațiile de mai sus provin din documentația publică a producătorilor Gewiss, Schneider Electric și Hager, citită la data de 23 septembrie 2026; unde pagina oficială nu preciza un parametru, am notat explicit acest lucru. Lucrăm cu gama celor trei branduri și putem oferta produse din ele, aduse la comandă prin canale din UE, cu termen orientativ de 2-4 săptămâni. Nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre acești producători, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
+Informațiile de mai sus provin din documentația publică a producătorilor Gewiss, Schneider Electric și Hager, citită la data de 23 septembrie 2026; unde pagina oficială nu preciza un parametru, am notat explicit acest lucru. Lucrăm cu gama celor trei branduri și putem oferta produse din ele, aduse la comandă prin canale din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre acești producători, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1528,7 +1528,7 @@ Trimite-ne o fotografie cu plăcuța de identificare a pompei, cu codul de tip �
 
 Da. Pe lângă circulatoarele pentru clădiri, toate cele trei branduri au și game de pompe centrifuge sau multietajate — Grundfos CM/CME/LS/TP, Wilo CronoNorm-NLG/VeroLine, DAB Euro/KCV — prezentate oficial pentru aplicații industriale, dar parametrii exacți trebuie verificați pentru fiecare punct de funcționare.
 
-Informațiile de mai sus provin din documentația publică a producătorilor, verificată la data de 23 septembrie 2026; parametrii tehnici exacți pot varia între variantele de racord sau de țară, așa că recomandăm confirmarea codului de tip înainte de comandă. Nu ținem pe raft toată gama Grundfos, Wilo sau DAB — lucrăm cu aceste game și putem oferta echipamente aduse la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni. Nu suntem distribuitor al niciunuia dintre acești producători; rolul nostru este să identificăm produsul potrivit și să pregătim oferta.
+Informațiile de mai sus provin din documentația publică a producătorilor, verificată la data de 23 septembrie 2026; parametrii tehnici exacți pot varia între variantele de racord sau de țară, așa că recomandăm confirmarea codului de tip înainte de comandă. Nu ținem pe raft toată gama Grundfos, Wilo sau DAB — lucrăm cu aceste game și putem oferta echipamente aduse la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Nu suntem distribuitor al niciunuia dintre acești producători; rolul nostru este să identificăm produsul potrivit și să pregătim oferta.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1614,9 +1614,9 @@ Danfoss menține o linie separată de VLT și VACON legacy tocmai pentru continu
 Pe pagina oficială apar IP21 și IP55 pentru varianta ACS580-01, inclusiv UL Type 12, IP00 pentru ACS580-04 destinată montajului în dulap electric și IP42 ca variantă standard pentru ACS580-07. Alegerea între ele depinde de locul de montaj: dulap închis sau spațiu mai expus prafului și umezelii.
 
 ### De ce nu apar prețuri sau termene exacte de livrare în acest ghid?
-Pentru că informațiile de mai sus provin din documentația publică a producătorilor, nu din stocul propriu. Convertizoarele din acest ghid nu se țin, în general, pe raft; le aducem la comandă prin canale din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni, după confirmarea codului de tip exact.
+Pentru că informațiile de mai sus provin din documentația publică a producătorilor, nu din stocul propriu. Convertizoarele din acest ghid nu se țin, în general, pe raft; le aducem la comandă prin canale din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni, după confirmarea codului de tip exact.
 
-Informațiile provin din documentația publică a producătorilor, verificată la 23 septembrie 2026; pentru parametrii care nu apar pe paginile citite acum (puteri sau clase IP la Danfoss și Siemens, certificare ATEX pentru oricare familie), recomandăm confirmarea directă pe codul de tip exact înainte de comandă. Lucrăm cu gama Danfoss, ABB și Siemens și putem oferta echipamentul potrivit, adus la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni; nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre acești producători.
+Informațiile provin din documentația publică a producătorilor, verificată la 23 septembrie 2026; pentru parametrii care nu apar pe paginile citite acum (puteri sau clase IP la Danfoss și Siemens, certificare ATEX pentru oricare familie), recomandăm confirmarea directă pe codul de tip exact înainte de comandă. Lucrăm cu gama Danfoss, ABB și Siemens și putem oferta echipamentul potrivit, adus la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni; nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre acești producători.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1698,7 +1698,7 @@ Paginile generale de produs citite pentru Keller descriu categoriile (traductoar
 
 Da, dacă alegi un instrument gândit pentru asta: CPG1500 de la WIKA este descris ca manometru digital de precizie, cu clase de acuratețe de până la 0,025% din domeniul de măsurare, funcție de logger și conectivitate Bluetooth cu software-ul WIKA-Cal, potrivit pentru calibrări on-site.
 
-Informațiile de mai sus provin din documentația publică a producătorilor, citită la data menționată în surse. Lucrăm cu gama acestor branduri și putem oferta pe baza codului de tip exact, cu aducere la comandă prin canale din UE, termen orientativ 2-4 săptămâni; nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre producători.
+Informațiile de mai sus provin din documentația publică a producătorilor, citită la data menționată în surse. Lucrăm cu gama acestor branduri și putem oferta pe baza codului de tip exact, cu aducere la comandă prin canale din UE, termen orientativ 1–4 săptămâni; nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre producători.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1807,9 +1807,9 @@ Terminalele **VUVG/VTUG** de la Festo documentează comandă standard pe 24 V c.
 
 ### Care e termenul de livrare pentru aceste componente?
 
-Componentele pneumatice de la Festo, SMC și Camozzi nu se țin în stoc pentru toată gama; le aducem la comandă prin canale din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni, în funcție de serie și disponibilitatea la producător.
+Componentele pneumatice de la Festo, SMC și Camozzi nu se țin în stoc pentru toată gama; le aducem la comandă prin canale din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni, în funcție de serie și disponibilitatea la producător.
 
-Informațiile de mai sus provin din documentația tehnică publică a Festo, SMC și Camozzi, citită la data de 23 septembrie 2026; parametrii exacți pot varia între variantele de execuție și trebuie confirmați pe codul de tip complet înainte de comandă. Lucrăm cu gama acestor producători și putem oferta cilindri, distribuitoare și unități de tratare a aerului din seriile menționate, dar nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre ei; aducem produsele la comandă prin canale din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni.
+Informațiile de mai sus provin din documentația tehnică publică a Festo, SMC și Camozzi, citită la data de 23 septembrie 2026; parametrii exacți pot varia între variantele de execuție și trebuie confirmați pe codul de tip complet înainte de comandă. Lucrăm cu gama acestor producători și putem oferta cilindri, distribuitoare și unități de tratare a aerului din seriile menționate, dar nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre ei; aducem produsele la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",

@@ -29,7 +29,7 @@ Ce diferențiază Advantech de un simplu asamblor de PC-uri industriale este pla
       "Energie — automatizare pentru rețele și substații",
       "Retail și logistică — terminale și echipamente de semnalizare digitală",
     ],
-    infinitrade: `Lucrăm cu ce putem și ce nu putem confirma din informațiile publicate de producător, fără date proprii de stoc pe această gamă Advantech. Aducem calculatoare industriale, panel PC-uri și module IoT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de configurația cerută. Pentru o ofertă corectă avem nevoie de codul de produs sau seria dorită, cerințele de procesor și memorie, tipul de montaj și mediul de operare (temperatură, praf, vibrații). Nu promitem disponibilitate permanentă din stoc pentru toată gama Advantech și recomandăm confirmarea termenului înainte de a-l include într-un proiect cu dată fixă de finalizare.`,
+    infinitrade: `Lucrăm cu ce putem și ce nu putem confirma din informațiile publicate de producător, fără date proprii de stoc pe această gamă Advantech. Aducem calculatoare industriale, panel PC-uri și module IoT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația cerută. Pentru o ofertă corectă avem nevoie de codul de produs sau seria dorită, cerințele de procesor și memorie, tipul de montaj și mediul de operare (temperatură, praf, vibrații). Nu promitem disponibilitate permanentă din stoc pentru toată gama Advantech și recomandăm confirmarea termenului înainte de a-l include într-un proiect cu dată fixă de finalizare.`,
     limitation: "Nu putem confirma configurarea software specifică platformei WISE-PaaS sau integrarea cu sisteme SCADA proprietare ale clientului.",
     productCodes: [
       {
@@ -84,7 +84,7 @@ Ce diferențiază Advantech de un simplu asamblor de PC-uri industriale este pla
       },
       {
         "q": "Livrați echipamente Advantech în România?",
-        "a": "Da, aducem la comandă echipamentele Advantech prezentate mai sus; estimarea noastră este de 2-4 săptămâni, calculată după disponibilitatea liniei de fabricație. Nu ținem aceste produse pe raft; detaliile tehnice provin din fișele publice ale producătorului, fără evidențe interne despre stoc. Spuneți-ne dacă aveți nevoie de accesorii de montaj sau de o anumită temperatură de operare, la trimiterea cererii."
+        "a": "Da, aducem la comandă echipamentele Advantech prezentate mai sus; estimarea noastră este de 1–4 săptămâni, calculată după disponibilitatea liniei de fabricație. Nu ținem aceste produse pe raft; detaliile tehnice provin din fișele publice ale producătorului, fără evidențe interne despre stoc. Spuneți-ne dacă aveți nevoie de accesorii de montaj sau de o anumită temperatură de operare, la trimiterea cererii."
       },
       {
         "q": "Ce înseamnă sufixul FPI din codul EKI-7712G-4FPI?",
@@ -131,7 +131,7 @@ Ce diferențiază Schunk este amploarea portofoliului de gripere — de la model
       "E-mobilitate — asamblare baterii și module electrice",
       "Life science — manipulare sterilă în producția de dispozitive medicale",
     ],
-    infinitrade: `Pentru Schunk ne bazăm strict pe surse publice ale producătorului, fără niciun fapt propriu despre stocul acestei game. Gripere și module de fixare aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul ne trimite geometria și greutatea piesei, tipul de flanșă de robot sau de mașină-unealtă și forța de strângere necesară. Majoritatea variantelor Schunk sunt construcții adaptate aplicației, așa că nu putem păstra stoc pentru fiecare combinație posibilă și recomandăm confirmarea configurației înainte de a bloca un termen de livrare pentru proiect.`,
+    infinitrade: `Pentru Schunk ne bazăm strict pe surse publice ale producătorului, fără niciun fapt propriu despre stocul acestei game. Gripere și module de fixare aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul ne trimite geometria și greutatea piesei, tipul de flanșă de robot sau de mașină-unealtă și forța de strângere necesară. Majoritatea variantelor Schunk sunt construcții adaptate aplicației, așa că nu putem păstra stoc pentru fiecare combinație posibilă și recomandăm confirmarea configurației înainte de a bloca un termen de livrare pentru proiect.`,
     limitation: "Nu putem confirma configurația exactă a unui griper (forță, cursă, tip deget) fără specificațiile tehnice ale clientului și nu oferim service în perioada de garanție a producătorului.",
     productCodes: [
       {
@@ -194,7 +194,7 @@ Ce diferențiază Schunk este amploarea portofoliului de gripere — de la model
       },
       {
         "q": "Livrați gripper-e SCHUNK în România?",
-        "a": "Da, aducem la comandă gripper-ele SCHUNK prezentate mai sus; așteptarea medie ajunge la 2-4 săptămâni, calculată după complexitatea gripperului solicitat. Nu ținem gripper-ele SCHUNK pe raft; parametrii tehnici se regăsesc în cataloagele online ale producătorului, fără informații interne despre disponibilitate. Când solicitați o ofertă, indicați greutatea și forma piesei prinse, pentru a alege dimensiunea potrivită."
+        "a": "Da, aducem la comandă gripper-ele SCHUNK prezentate mai sus; așteptarea medie ajunge la 1–4 săptămâni, calculată după complexitatea gripperului solicitat. Nu ținem gripper-ele SCHUNK pe raft; parametrii tehnici se regăsesc în cataloagele online ale producătorului, fără informații interne despre disponibilitate. Când solicitați o ofertă, indicați greutatea și forma piesei prinse, pentru a alege dimensiunea potrivită."
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de gripper SCHUNK?",
@@ -241,7 +241,7 @@ Ce diferențiază Tünkers este specializarea de decenii pe strângere și pozi�
       "E-mobilitate — linii de asamblare pentru componente electrice",
       "Construcții — tehnică de vibrare pentru batere și extragere elemente de fundație",
     ],
-    infinitrade: `Informațiile despre Tünkers provin exclusiv din surse publice ale producătorului și din istoricul companiei, fără date proprii de stoc. Cilindrii de strângere și modulele de poziționare le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-4 săptămâni de la confirmarea specificațiilor. Clientul trebuie să ne trimită codul original al echipamentului instalat sau, pentru proiecte noi, forța de strângere, cursa și geometria punctului de fixare. Nu păstrăm stoc pentru toate variantele constructive Tünkers, așa că un termen ferm de livrare se confirmă doar după identificarea exactă a reperului.`,
+    infinitrade: `Informațiile despre Tünkers provin exclusiv din surse publice ale producătorului și din istoricul companiei, fără date proprii de stoc. Cilindrii de strângere și modulele de poziționare le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor. Clientul trebuie să ne trimită codul original al echipamentului instalat sau, pentru proiecte noi, forța de strângere, cursa și geometria punctului de fixare. Nu păstrăm stoc pentru toate variantele constructive Tünkers, așa că un termen ferm de livrare se confirmă doar după identificarea exactă a reperului.`,
     limitation: "Nu putem confirma disponibilitatea unei piese de schimb fără codul original al echipamentului instalat și nu oferim integrare software pentru liniile de automatizare complete.",
     productCodes: [
       {
@@ -320,7 +320,7 @@ Ce diferențiază Tünkers este specializarea de decenii pe strângere și pozi�
       },
       {
         "q": "Livrați dispozitive de strângere Tünkers în România?",
-        "a": "Da, aducem la comandă dispozitivele Tünkers prezentate mai sus; livrarea durează în mod normal 2-4 săptămâni, socotind timpul de fabricație al dispozitivului cerut. Nu ținem aceste componente pe raft; codurile provin din magazinul online oficial al producătorului, fără date proprii despre stoc. Menționați-ne forța de strângere necesară, unghiul de lucru dorit și contactul cu procesul de sudură, la cererea de ofertă."
+        "a": "Da, aducem la comandă dispozitivele Tünkers prezentate mai sus; livrarea durează în mod normal 1–4 săptămâni, socotind timpul de fabricație al dispozitivului cerut. Nu ținem aceste componente pe raft; codurile provin din magazinul online oficial al producătorului, fără date proprii despre stoc. Menționați-ne forța de strângere necesară, unghiul de lucru dorit și contactul cu procesul de sudură, la cererea de ofertă."
       },
       {
         "q": "Ce înseamnă sufixul W la un dispozitiv Tünkers, precum U 63 BR5 W?",
@@ -367,7 +367,7 @@ Ce diferențiază Semperit este acoperirea largă de aplicații ale elastomerilo
       "Transport pe cablu — inele de etanșare pentru telecabine",
       "Construcții — profile tehnice pentru etanșare și izolare",
     ],
-    infinitrade: `Tot ce scriem despre Semperit vine din surse publice ale producătorului; nu deținem date proprii despre disponibilitatea acestei game. Furtunurile industriale și benzile transportoare Semperit le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-4 săptămâni în funcție de dimensiune și configurație. Clientul trebuie să ne comunice diametrul sau lățimea, presiunea de lucru și substanța vehiculată, respectiv materialul transportat pe bandă. Fabricația se face după comandă pentru majoritatea dimensiunilor, deci nu putem promite disponibilitate permanentă din stoc pentru fiecare variantă din gamă.`,
+    infinitrade: `Tot ce scriem despre Semperit vine din surse publice ale producătorului; nu deținem date proprii despre disponibilitatea acestei game. Furtunurile industriale și benzile transportoare Semperit le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni în funcție de dimensiune și configurație. Clientul trebuie să ne comunice diametrul sau lățimea, presiunea de lucru și substanța vehiculată, respectiv materialul transportat pe bandă. Fabricația se face după comandă pentru majoritatea dimensiunilor, deci nu putem promite disponibilitate permanentă din stoc pentru fiecare variantă din gamă.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a unui furtun cu o substanță anume fără fișa tehnică a produsului vehiculat, transmisă de client.",
     productCodes: [
       {
@@ -442,7 +442,7 @@ Ce diferențiază Semperit este acoperirea largă de aplicații ale elastomerilo
       },
       {
         "q": "Livrați benzi transportoare Semperit în România?",
-        "a": "Da, aducem la comandă benzile transportoare Semperit prezentate mai sus; timpul de așteptare ajunge de obicei la 2-4 săptămâni, socotind lungimea și tipul benzii comandate. Nu ținem aceste benzi pe raft; descrierile se bazează pe catalogul tehnic public al producătorului, fără cifre proprii despre stocurile disponibile. Spuneți-ne lungimea, lățimea și tipul de material transportat, la solicitarea de ofertă."
+        "a": "Da, aducem la comandă benzile transportoare Semperit prezentate mai sus; timpul de așteptare ajunge de obicei la 1–4 săptămâni, socotind lungimea și tipul benzii comandate. Nu ținem aceste benzi pe raft; descrierile se bazează pe catalogul tehnic public al producătorului, fără cifre proprii despre stocurile disponibile. Spuneți-ne lungimea, lățimea și tipul de material transportat, la solicitarea de ofertă."
       },
       {
         "q": "Ce rol are banda Transpipe în transportul de materiale?",
@@ -487,7 +487,7 @@ Ce diferențiază Garlock este acoperirea largă pe industrii cu cerințe strict
       "Petrol și gaze — presetupe și etanșări pentru echipamente rotative",
       "Tratarea apelor — etanșări modulare pentru penetrări de conducte",
     ],
-    infinitrade: `Pentru Garlock spunem clar ce putem și ce nu putem confirma: ne bazăm pe pagina oficială și pe informațiile publice ale grupului EnPro, fără date proprii de stoc. Garniturile GYLON, izolatoarele Klozure și celelalte produse din gamă le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea specificațiilor. Clientul trebuie să ne trimită dimensiunea flanșei sau a arborelui, presiunea de lucru și fluidul vehiculat, pentru a alege materialul potrivit. Multe variante se produc după comandă, deci nu putem păstra stoc pentru toate combinațiile de dimensiune și material din gama Garlock.`,
+    infinitrade: `Pentru Garlock spunem clar ce putem și ce nu putem confirma: ne bazăm pe pagina oficială și pe informațiile publice ale grupului EnPro, fără date proprii de stoc. Garniturile GYLON, izolatoarele Klozure și celelalte produse din gamă le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor. Clientul trebuie să ne trimită dimensiunea flanșei sau a arborelui, presiunea de lucru și fluidul vehiculat, pentru a alege materialul potrivit. Multe variante se produc după comandă, deci nu putem păstra stoc pentru toate combinațiile de dimensiune și material din gama Garlock.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a unui material de etanșare fără fișa tehnică a fluidului vehiculat, transmisă de client.",
     productCodes: [
       {
@@ -546,7 +546,7 @@ Ce diferențiază Garlock este acoperirea largă pe industrii cu cerințe strict
       },
       {
         "q": "Livrați garnituri Garlock în România?",
-        "a": "Da, aducem la comandă garniturile și etanșările Garlock prezentate mai sus; durata orientativă este de 2-4 săptămâni, socotind dimensiunea și complexitatea garniturii cerute. Nu ținem aceste produse pe raft; specificațiile provin din documentația tehnică publicată de producător, fără date interne despre stocurile existente. Menționați-ne presiunea, temperatura și tipul de fluid de proces, atunci când cereți o ofertă."
+        "a": "Da, aducem la comandă garniturile și etanșările Garlock prezentate mai sus; durata orientativă este de 1–4 săptămâni, socotind dimensiunea și complexitatea garniturii cerute. Nu ținem aceste produse pe raft; specificațiile provin din documentația tehnică publicată de producător, fără date interne despre stocurile existente. Menționați-ne presiunea, temperatura și tipul de fluid de proces, atunci când cereți o ofertă."
       },
       {
         "q": "Ce înseamnă seria HP la garniturile GYLON?",
@@ -592,7 +592,7 @@ Ce diferențiază Nexans este poziționarea explicită ca „pure player" pe ele
       "Petrol și gaze — cabluri pentru medii industriale dure",
       "Feroviar — cabluri pentru material rulant și infrastructură",
     ],
-    infinitrade: `Datele despre Nexans provin din site-ul oficial și din surse publice; fără date proprii de stoc pentru cablurile din această gamă. Cablurile industriale și de energie le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru lungimile și secțiunile solicitate. Clientul trebuie să ne comunice secțiunea și tensiunea de lucru, standardul de rezistență la foc dacă e cazul, și lungimea totală necesară pentru instalație. Cablurile speciale (HVDC, submarine) se produc exclusiv la comandă, pentru proiect, așa că nu putem păstra stoc pentru aceste categorii.`,
+    infinitrade: `Datele despre Nexans provin din site-ul oficial și din surse publice; fără date proprii de stoc pentru cablurile din această gamă. Cablurile industriale și de energie le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru lungimile și secțiunile solicitate. Clientul trebuie să ne comunice secțiunea și tensiunea de lucru, standardul de rezistență la foc dacă e cazul, și lungimea totală necesară pentru instalație. Cablurile speciale (HVDC, submarine) se produc exclusiv la comandă, pentru proiect, așa că nu putem păstra stoc pentru aceste categorii.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unei secțiuni sau lungimi specifice fără verificarea directă la producător, mai ales pentru cablurile de înaltă tensiune sau submarine.",
     productCodes: [
       {
@@ -651,7 +651,7 @@ Ce diferențiază Nexans este poziționarea explicită ca „pure player" pe ele
       },
       {
         "q": "Aduceți cabluri Nexans la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă cabluri și conductori din gamele H07V, MOBIWAY sau CRYOFLEX, pe baza referinței exacte confirmate de client. Nu ținem această gamă pe raft; verificăm disponibilitatea în sursele publice ale producătorului, iar comanda durează de regulă 2-4 săptămâni. Recomandăm transmiterea secțiunii, numărului de conductori și tipului de izolație cerute, pentru a evita confuzia între variante apropiate ale aceleiași familii Nexans."
+        "a": "Da, aducem la comandă cabluri și conductori din gamele H07V, MOBIWAY sau CRYOFLEX, pe baza referinței exacte confirmate de client. Nu ținem această gamă pe raft; verificăm disponibilitatea în sursele publice ale producătorului, iar comanda durează de regulă 1–4 săptămâni. Recomandăm transmiterea secțiunii, numărului de conductori și tipului de izolație cerute, pentru a evita confuzia între variante apropiate ale aceleiași familii Nexans."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un cablu Nexans?",
@@ -701,7 +701,7 @@ Ce diferențiază Weishaupt este orientarea spre arzătoare de putere mare pentr
       "Rezidențial colectiv — pompe de căldură și boilere pentru blocuri",
       "Modernizări energetice — înlocuire arzătoare vechi cu variante eficiente",
     ],
-    infinitrade: `Pentru arzătoarele Weishaupt lucrăm doar cu informația publică disponibilă pe site-ul producătorului, fără un istoric propriu de livrări pe această gamă. Arzătoarele și pompele de căldură le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru configurația cerută. Clientul trebuie să ne transmită puterea cazanului, tipul de combustibil sau sursa de energie disponibilă și modelul echipamentului pe care se montează produsul. Configurațiile de putere mare se comandă punctual, așa că nu păstrăm stoc pentru fiecare variantă de arzător din gama industrială.`,
+    infinitrade: `Pentru arzătoarele Weishaupt lucrăm doar cu informația publică disponibilă pe site-ul producătorului, fără un istoric propriu de livrări pe această gamă. Arzătoarele și pompele de căldură le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru configurația cerută. Clientul trebuie să ne transmită puterea cazanului, tipul de combustibil sau sursa de energie disponibilă și modelul echipamentului pe care se montează produsul. Configurațiile de putere mare se comandă punctual, așa că nu păstrăm stoc pentru fiecare variantă de arzător din gama industrială.`,
     limitation: "Nu putem confirma reglajul optim de ardere pentru o instalație existentă fără datele tehnice complete ale cazanului, transmise de client, și nu oferim punere în funcțiune sau service în garanție.",
     productCodes: [
       {
@@ -826,7 +826,7 @@ Ce diferențiază Van der Graaf este principiul motorului tambur — motorul ele
       "Procesare în vrac — agregate, minereu, materiale abrazive",
       "Farmaceutică — linii cu cerințe stricte de curățenie",
     ],
-    infinitrade: `Despre motoarele tambur Van der Graaf raportăm doar ce am verificat pe site-ul oficial, fără date proprii despre stocul acestei game. Motoarele le aducem la comandă prin canale de aprovizionare din UE sau America de Nord, cu termen orientativ de 2-4 săptămâni în funcție de model și configurație. Clientul trebuie să ne trimită lățimea benzii, sarcina transportată și mediul de instalare (temperatură, spălare, praf) pentru a alege seria potrivită. Fiecare motor tambur e configurat pe comandă după parametrii benzii, deci nu putem menține disponibilitate permanentă din stoc pentru toate combinațiile de diametru și putere.`,
+    infinitrade: `Despre motoarele tambur Van der Graaf raportăm doar ce am verificat pe site-ul oficial, fără date proprii despre stocul acestei game. Motoarele le aducem la comandă prin canale de aprovizionare din UE sau America de Nord, cu termen orientativ de 1–4 săptămâni în funcție de model și configurație. Clientul trebuie să ne trimită lățimea benzii, sarcina transportată și mediul de instalare (temperatură, spălare, praf) pentru a alege seria potrivită. Fiecare motor tambur e configurat pe comandă după parametrii benzii, deci nu putem menține disponibilitate permanentă din stoc pentru toate combinațiile de diametru și putere.`,
     limitation: "Nu putem confirma compatibilitatea unui motor tambur cu o bandă transportoare existentă fără dimensiunile exacte ale instalației, transmise de client.",
     productCodes: [
       {
@@ -961,7 +961,7 @@ Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate uno
       "Transport și logistică — îmbrăcăminte de înaltă vizibilitate",
       "Industrie prelucrătoare — protecție respiratorie și a mâinilor",
     ],
-    infinitrade: `Pentru Portwest ne bazăm pe surse publice ale producătorului; nu avem date proprii despre stocul de echipamente de protecție din această gamă. Îmbrăcămintea și încălțămintea de protecție le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru cantitățile și mărimile solicitate. Clientul trebuie să ne trimită tipul de risc pentru care se dotează personalul, mărimile necesare pe fiecare articol și cantitatea totală. Pentru comenzi mari sau mărimi mai rare nu putem promite disponibilitate permanentă din stoc și recomandăm confirmarea termenului înainte de a-l lega de un termen de șantier.`,
+    infinitrade: `Pentru Portwest ne bazăm pe surse publice ale producătorului; nu avem date proprii despre stocul de echipamente de protecție din această gamă. Îmbrăcămintea și încălțămintea de protecție le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru cantitățile și mărimile solicitate. Clientul trebuie să ne trimită tipul de risc pentru care se dotează personalul, mărimile necesare pe fiecare articol și cantitatea totală. Pentru comenzi mari sau mărimi mai rare nu putem promite disponibilitate permanentă din stoc și recomandăm confirmarea termenului înainte de a-l lega de un termen de șantier.`,
     limitation: "Nu putem confirma echivalența exactă a unui articol Portwest cu un normativ specific de protecție fără fișa tehnică a produsului, verificată la comandă.",
     productCodes: [
       {
@@ -1069,7 +1069,7 @@ Ce diferențiază Hazet este accentul pe precizie la sculele dinamometrice, unde
       "Aeronautică și naval — scule pentru mentenanță tehnică specializată",
       "Motorsport — scule dezvoltate prin linia Racing Tool Line",
     ],
-    infinitrade: `Ce scriem despre sculele Hazet reflectă doar informația publică disponibilă pe site-ul producătorului, fără niciun fapt propriu suplimentar. Sculele și trusele Hazet le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru cantitatea și modelele solicitate. Clientul trebuie să ne trimită codul exact de produs sau intervalul de cuplu necesar pentru sculele dinamometrice, plus cantitatea dorită. Pentru sortimentele mai puțin comune nu putem promite disponibilitate permanentă din stoc și recomandăm confirmarea termenului înainte de a-l include într-un proiect cu dată fixă.`,
+    infinitrade: `Ce scriem despre sculele Hazet reflectă doar informația publică disponibilă pe site-ul producătorului, fără niciun fapt propriu suplimentar. Sculele și trusele Hazet le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru cantitatea și modelele solicitate. Clientul trebuie să ne trimită codul exact de produs sau intervalul de cuplu necesar pentru sculele dinamometrice, plus cantitatea dorită. Pentru sortimentele mai puțin comune nu putem promite disponibilitate permanentă din stoc și recomandăm confirmarea termenului înainte de a-l include într-un proiect cu dată fixă.`,
     limitation: "Nu putem confirma calibrarea unei chei dinamometrice existente și nu oferim service de calibrare periodică în nume propriu pentru sculele Hazet.",
     productCodes: [
       {
@@ -1184,7 +1184,7 @@ Ce diferențiază Kyoritsu este specializarea îngustă și adâncă pe instrume
       "Telecomunicații — testare cabluri LAN și infrastructură de rețea",
       "Infrastructură de încărcare electrică — adaptoare pentru testare EVSE",
     ],
-    infinitrade: `Pentru instrumentele Kyoritsu nu deținem date proprii de stoc; ne bazăm integral pe surse publice ale producătorului. Multimetrele și clemele ampermetrice le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru modelul și cantitatea solicitate. Clientul trebuie să ne trimită domeniul de măsurare necesar și aplicația exactă (verificare instalație, diagnoză industrială sau testare EVSE) pentru a alege instrumentul potrivit. Pentru modelele mai specializate nu putem păstra stoc constant și recomandăm confirmarea termenului de livrare înainte de a-l lega de o dată fixă de verificare.`,
+    infinitrade: `Pentru instrumentele Kyoritsu nu deținem date proprii de stoc; ne bazăm integral pe surse publice ale producătorului. Multimetrele și clemele ampermetrice le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru modelul și cantitatea solicitate. Clientul trebuie să ne trimită domeniul de măsurare necesar și aplicația exactă (verificare instalație, diagnoză industrială sau testare EVSE) pentru a alege instrumentul potrivit. Pentru modelele mai specializate nu putem păstra stoc constant și recomandăm confirmarea termenului de livrare înainte de a-l lega de o dată fixă de verificare.`,
     limitation: "Nu putem confirma calibrarea metrologică a unui instrument existent și nu oferim în nume propriu servicii de etalonare periodică pentru instrumentele Kyoritsu.",
     productCodes: [
       {
@@ -1305,7 +1305,7 @@ Ce diferențiază Cognex este scara la care sunt folosite sistemele sale — com
       "Logistică și distribuție — citire automată coduri de bare",
       "Semiconductori — inspecție de precizie pentru componente mici",
     ],
-    infinitrade: `Datele despre Cognex vin din site-ul oficial al companiei; nu avem încă un istoric propriu de livrări pentru această gamă de vedere artificială. Sistemele de vedere și cititoarele de coduri le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru modelul solicitat. Clientul trebuie să ne descrie aplicația exactă (tip de inspecție, distanța de lucru, viteza liniei) pentru a recomanda modelul potrivit din gama In-Sight. Pentru configurațiile mai complexe nu putem păstra stoc constant și recomandăm confirmarea disponibilității înainte de a o lega de un termen fix de instalare.`,
+    infinitrade: `Datele despre Cognex vin din site-ul oficial al companiei; nu avem încă un istoric propriu de livrări pentru această gamă de vedere artificială. Sistemele de vedere și cititoarele de coduri le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru modelul solicitat. Clientul trebuie să ne descrie aplicația exactă (tip de inspecție, distanța de lucru, viteza liniei) pentru a recomanda modelul potrivit din gama In-Sight. Pentru configurațiile mai complexe nu putem păstra stoc constant și recomandăm confirmarea disponibilității înainte de a o lega de un termen fix de instalare.`,
     limitation: "Nu putem confirma programarea sau integrarea software a unui sistem de vedere cu linia de producție a clientului fără o discuție tehnică prealabilă.",
     productCodes: [
       {
@@ -1356,7 +1356,7 @@ Ce diferențiază Cognex este scara la care sunt folosite sistemele sale — com
       },
       {
         "q": "Livrați cititoare de coduri de bare Cognex DataMan în România?",
-        "a": "Da, procurăm la comandă cititoare fixe din familia DataMan, pe baza referinței confirmate de client din documentația oficială Cognex. Nu păstrăm această gamă pe raft; ne bazăm pe informațiile publicate de Cognex despre disponibilitate, iar livrarea durează în general 2-4 săptămâni. Recomandăm transmiterea codului complet de pe eticheta echipamentului existent, pentru identificarea variantei potrivite."
+        "a": "Da, procurăm la comandă cititoare fixe din familia DataMan, pe baza referinței confirmate de client din documentația oficială Cognex. Nu păstrăm această gamă pe raft; ne bazăm pe informațiile publicate de Cognex despre disponibilitate, iar livrarea durează în general 1–4 săptămâni. Recomandăm transmiterea codului complet de pe eticheta echipamentului existent, pentru identificarea variantei potrivite."
       },
       {
         "q": "Ce trebuie să includ într-o cerere de ofertă pentru un sistem de vedere Cognex?",
@@ -1405,7 +1405,7 @@ Ce diferențiază Rotronic este acoperirea de aplicații critice unde precizia �
       "HVAC — senzori pentru sisteme de climatizare industrială",
       "Depozitare de probe — monitorizare pentru condiții de păstrare reglementate",
     ],
-    infinitrade: `Pentru Rotronic arătăm clar ce putem și ce nu putem confirma, ținând cont că marca a trecut recent sub grupul DwyerOmega. Transmițătoarele și echipamentul de calibrare le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea modelului. Clientul trebuie să ne trimită domeniul de umiditate și temperatură necesar, dacă spațiul cere certificare ATEX și aplicația exactă (monitorizare continuă sau calibrare). Pentru că achiziția trece prin canalele actuale ale grupului, nu putem păstra stoc propriu pentru fiecare model din gama istorică Rotronic.`,
+    infinitrade: `Pentru Rotronic arătăm clar ce putem și ce nu putem confirma, ținând cont că marca a trecut recent sub grupul DwyerOmega. Transmițătoarele și echipamentul de calibrare le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea modelului. Clientul trebuie să ne trimită domeniul de umiditate și temperatură necesar, dacă spațiul cere certificare ATEX și aplicația exactă (monitorizare continuă sau calibrare). Pentru că achiziția trece prin canalele actuale ale grupului, nu putem păstra stoc propriu pentru fiecare model din gama istorică Rotronic.`,
     limitation: "Nu putem confirma compatibilitatea unui senzor Rotronic mai vechi cu gama actuală de transmițătoare fără verificare directă la producător, dat fiind că marca funcționează acum sub DwyerOmega.",
     productCodes: [
       {

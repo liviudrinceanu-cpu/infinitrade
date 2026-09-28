@@ -63,7 +63,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de PLC și cât durează livrarea?",
-        "a": "Sunt necesare numărul și tipul de intrări/ieșiri, protocoalele de comunicare și o descriere scurtă a procesului de automatizat. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, mai rapid dacă modelul ales e din gama standard a furnizorului."
+        "a": "Sunt necesare numărul și tipul de intrări/ieșiri, protocoalele de comunicare și o descriere scurtă a procesului de automatizat. Livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător, mai rapid dacă modelul ales e din gama standard a furnizorului."
       },
       {
         "q": "Poate fi integrat un PLC nou cu senzori și variatoare mai vechi din fabrică?",
@@ -211,7 +211,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de sistem SCADA și cât durează implementarea?",
-        "a": "Sunt necesare numărul de puncte de măsură, protocoalele echipamentelor existente și cerințele de alarmare și raportare. Termenul este la comandă, orientativ 2-4 săptămâni pentru configurare și punere în funcțiune, în funcție de complexitatea instalației și de numărul de puncte de integrat."
+        "a": "Sunt necesare numărul de puncte de măsură, protocoalele echipamentelor existente și cerințele de alarmare și raportare. Termenul este la comandă, orientativ 1–4 săptămâni pentru configurare și punere în funcțiune, în funcție de complexitatea instalației și de numărul de puncte de integrat."
       },
       {
         "q": "Un sistem SCADA nou poate comunica cu PLC-uri mai vechi, deja instalate?",
@@ -284,7 +284,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de actuatoare electrice și cât durează livrarea?",
-        "a": "Sunt necesare tipul mecanismului acționat, cuplul sau forța necesară, tipul de control și mediul de montaj. Livrarea se confirmă la comandă, orientativ 2-4 săptămâni, în funcție de producător și de opțiunile suplimentare de comunicare cerute pentru integrarea în automatizare."
+        "a": "Sunt necesare tipul mecanismului acționat, cuplul sau forța necesară, tipul de control și mediul de montaj. Livrarea se confirmă la comandă, orientativ 1–4 săptămâni, în funcție de producător și de opțiunile suplimentare de comunicare cerute pentru integrarea în automatizare."
       },
       {
         "q": "Ce compatibilitate trebuie verificată între un actuator electric și mecanismul acționat?",
@@ -431,7 +431,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru ofertă și cât durează livrarea unor module I/O?",
-        "a": "Sunt necesare automatul existent și protocolul folosit, numărul și tipul de semnale de extins, plus condițiile de mediu de la locul de montaj. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător și de disponibilitatea modelului cerut."
+        "a": "Sunt necesare automatul existent și protocolul folosit, numărul și tipul de semnale de extins, plus condițiile de mediu de la locul de montaj. Livrarea se face la comandă, orientativ în 1–4 săptămâni, în funcție de producător și de disponibilitatea modelului cerut."
       },
       {
         "q": "Pot fi combinate module I/O de la producători diferiți pe același bus de teren?",

@@ -32,7 +32,7 @@ Pentru piața din România, Darley înseamnă acces la motopompe portabile robus
       "Administrație publică locală — rezerve mobile de pompare pentru situații de inundații",
     ],
     certifications: [ "ISO 9001:2015 — divizia de pompe, certificare pentru managementul calității" ],
-    infinitrade: `Furnizăm motopompe portabile și pompe Darley acționate de motor pentru echipe de intervenție, ferme și șantiere din România, pe baza informațiilor publice de pe site-ul producătorului — fără date proprii de stoc pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din SUA sau prin distribuitori europeni ai grupului, cu termen orientativ de 2-4 săptămâni; pentru piese de motor sau accesorii uzuale (furtunuri, racorduri) putem verifica și opțiuni cu livrare în 24-72 h din stocul unui partener local. Pentru ofertă avem nevoie de modelul exact sau de parametrii de debit și presiune ceruți, tipul de acționare (benzină, diesel, PTO) și aplicația. Nu promitem disponibilitate din depozit pentru nicio unitate din gamă.`,
+    infinitrade: `Furnizăm motopompe portabile și pompe Darley acționate de motor pentru echipe de intervenție, ferme și șantiere din România, pe baza informațiilor publice de pe site-ul producătorului — fără date proprii de stoc pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din SUA sau prin distribuitori europeni ai grupului, cu termen orientativ de 1–4 săptămâni; pentru piese de motor sau accesorii uzuale (furtunuri, racorduri) putem verifica și opțiuni cu livrare în 24-72 h din stocul unui partener local. Pentru ofertă avem nevoie de modelul exact sau de parametrii de debit și presiune ceruți, tipul de acționare (benzină, diesel, PTO) și aplicația. Nu promitem disponibilitate din depozit pentru nicio unitate din gamă.`,
     limitation: "Nu putem confirma disponibilitatea pieselor de schimb specifice fiecărui model mai vechi din gama Darley fără verificare directă la producător.",
     productCodes: [
       { code: "AK312", description: "motopompă portabilă pe benzină, 95 gpm la 39 psi" },
@@ -59,7 +59,7 @@ Pentru piața din România, Darley înseamnă acces la motopompe portabile robus
     faq: [
       { q: "Ce produce compania Darley?", a: "Darley fabrică motopompe portabile, pompe montate pe autospeciale de pompieri, pompe navale și echipamente pentru intervenții de urgență, din 1908, la Chicago. Gama acoperă de la motopompe ușoare de 60-120 gpm până la pompe de mare capacitate de 3.000 gpm pentru autospeciale municipale, folosite de pompieri, armată și paza de coastă." },
       { q: "Cum aleg motopompa portabilă Darley potrivită pentru echipa mea?", a: "Trimite-ne debitul minim necesar (gpm) și presiunea de lucru dorită (psi), plus tipul de motor preferat — benzină Honda sau Briggs & Stratton, ori diesel. Seriile AGE acoperă presiuni ridicate cu debite moderate, iar seria 2BE oferă debite mai mari la presiune medie; alegerea depinde de aplicație." },
-      { q: "Livrați pompe Darley în România și cât durează?", a: "Da, aducem pompe Darley la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 2-4 săptămâni, în funcție de model și disponibilitatea la producător. Nu ținem această gamă pe raft, așa că vă confirmăm termenul exact după ce transmiteți codul de model dorit." },
+      { q: "Livrați pompe Darley în România și cât durează?", a: "Da, aducem pompe Darley la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 1–4 săptămâni, în funcție de model și disponibilitatea la producător. Nu ținem această gamă pe raft, așa că vă confirmăm termenul exact după ce transmiteți codul de model dorit." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Darley?", a: "Ai nevoie de codul de model dacă îl cunoști, sau de debit, presiune și tipul de acționare (benzină, diesel, PTO, montaj pe vehicul). Utile sunt și aplicația (pompieri, irigații, epuizare apă) și dacă ai nevoie de variante marine sau militare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -101,7 +101,7 @@ Pentru România, Waterous înseamnă acces la pompe pentru retrofit de autospeci
       "Energie nucleară — pompe industriale pentru circuite de răcire",
       "Transport feroviar — pompe pentru operațiuni pe cale ferată (high-rail)",
     ],
-    infinitrade: `Aducem pompe Waterous pentru autospeciale de pompieri și componente pentru sisteme de stingere pe baza informațiilor publicate de producător, fără date proprii de stoc pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației; pentru garnituri, supape și accesorii curente putem verifica opțiuni cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți seria dorită (CS, CM, CX, CG sau HLU), tipul de montaj (split-shaft, priză de putere, direct) și debitul necesar. Nu ținem această gamă pe raft pentru unități complete de pompă.`,
+    infinitrade: `Aducem pompe Waterous pentru autospeciale de pompieri și componente pentru sisteme de stingere pe baza informațiilor publicate de producător, fără date proprii de stoc pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru garnituri, supape și accesorii curente putem verifica opțiuni cu livrare în 24-72 h din stocul unui partener european. Pentru ofertă, transmiteți seria dorită (CS, CM, CX, CG sau HLU), tipul de montaj (split-shaft, priză de putere, direct) și debitul necesar. Nu ținem această gamă pe raft pentru unități complete de pompă.`,
     limitation: "Nu confirmăm compatibilitatea exactă cu fiecare șasiu de autospecială fără specificațiile tehnice complete ale vehiculului.",
     productCodes: [
       { code: "ESU1C22", description: "pompă split-shaft compactă, transmisie cu lanț C22" },
@@ -126,7 +126,7 @@ Pentru România, Waterous înseamnă acces la pompe pentru retrofit de autospeci
     faq: [
       { q: "Ce produce Waterous?", a: "Waterous fabrică pompe pentru autospeciale de pompieri, motopompe portabile, sisteme de spumă comprimată și hidranți, din 1886, la South St. Paul, Minnesota. Gama acoperă montaj split-shaft, prin priză de putere sau direct pe motor, cu debite standard între 500 și peste 1.500 gpm." },
       { q: "Ce diferență e între seriile CS și CM de la Waterous?", a: "Seria CS are o singură treaptă de presiune, potrivită pentru autospeciale standard, în timp ce seria CM (Hi-Rise) are două trepte în montaj serie/paralel pentru presiune suplimentară pe coloană, utilă la clădiri înalte. Ambele folosesc aceeași transmisie cu lanț C22." },
-      { q: "Livrați pompe Waterous în România și cât durează?", a: "Da, aducem pompe Waterous la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de serie și configurație. Nu ținem această gamă pe raft; termenul exact se confirmă după ce primim seria și tipul de montaj dorit." },
+      { q: "Livrați pompe Waterous în România și cât durează?", a: "Da, aducem pompe Waterous la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de serie și configurație. Nu ținem această gamă pe raft; termenul exact se confirmă după ce primim seria și tipul de montaj dorit." },
       { q: "Ce trebuie să trimit pentru ofertă la o pompă Waterous?", a: "Ai nevoie de seria dorită (CS, CM, CX, CG, HLU), tipul de montaj (split-shaft, priză de putere sau direct pe motor), debitul și presiunea cerute, plus dacă ai nevoie de sistem CAF integrat sau doar de unitatea de pompare." },
     ],
     evidenceClass: "market-signal-intl",
@@ -168,7 +168,7 @@ Pentru laboratoare și instalații pilot din România, Vacuubrand înseamnă acc
       "Educație și laboratoare universitare — sisteme compacte de vid pentru instruire",
     ],
     certifications: [ "ATEX — variante de pompe cu diafragmă certificate pentru zone cu risc de explozie", "Serviciu de calibrare acreditat DAkkS" ],
-    infinitrade: `Furnizăm pompe și controlere de vid Vacuubrand pentru laboratoare și linii pilot din România, pe baza informațiilor publice ale producătorului — nu avem date proprii despre stocul din Germania pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, iar pentru consumabile precum membrane de diafragmă sau garnituri putem verifica variante cu livrare în 24-72 h. Pentru ofertă, transmiteți nivelul de vid necesar, debitul de aspirație și dacă aveți nevoie de variantă ATEX sau de conexiune la o rețea VACUU·LAN existentă. Niciun model VACUUBRAND nu vine de pe raftul nostru — totul se aduce la comandă.`,
+    infinitrade: `Furnizăm pompe și controlere de vid Vacuubrand pentru laboratoare și linii pilot din România, pe baza informațiilor publice ale producătorului — nu avem date proprii despre stocul din Germania pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, iar pentru consumabile precum membrane de diafragmă sau garnituri putem verifica variante cu livrare în 24-72 h. Pentru ofertă, transmiteți nivelul de vid necesar, debitul de aspirație și dacă aveți nevoie de variantă ATEX sau de conexiune la o rețea VACUU·LAN existentă. Niciun model VACUUBRAND nu vine de pe raftul nostru — totul se aduce la comandă.`,
     limitation: "Nu confirmăm compatibilitatea software a controlerelor VACUU·SELECT cu sisteme de automatizare terțe fără o verificare tehnică prealabilă.",
     productCodes: [
       { code: "PC 3001 VARIO select", description: "pompă cu diafragmă cu turație variabilă" },
@@ -186,7 +186,7 @@ Pentru laboratoare și instalații pilot din România, Vacuubrand înseamnă acc
     faq: [
       { q: "Ce produce Vacuubrand?", a: "Vacuubrand fabrică pompe de vid cu diafragmă, cu șurub uscate și cu paletă rotativă, plus controlere și rețele de vid, la fabrica din Wertheim, Germania. Gama e orientată spre aplicații de laborator și industrie ușoară, cu accent pe soluții fără ulei." },
       { q: "Ce echivalent oferă Vacuubrand față de o pompă Busch Vacuum Solutions?", a: "Vacuubrand acoperă în special segmentul de vid de laborator fără ulei, cu pompe compacte cu diafragmă și cu șurub, în timp ce Busch are o gamă mai largă orientată și spre vid industrial de capacitate mare. Echivalența exactă depinde de nivelul de vid și debitul cerut de aplicație." },
-      { q: "Livrați pompe Vacuubrand în România și cât durează?", a: "Da, aducem pompe Vacuubrand la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de model. Nu ținem această gamă pe raft, iar termenul exact se confirmă după ce transmiteți parametrii de vid necesari." },
+      { q: "Livrați pompe Vacuubrand în România și cât durează?", a: "Da, aducem pompe Vacuubrand la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model. Nu ținem această gamă pe raft, iar termenul exact se confirmă după ce transmiteți parametrii de vid necesari." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă de vid Vacuubrand?", a: "Ai nevoie de nivelul de vid final dorit, debitul de aspirație, tipul de aplicație (evaporare, filtrare, distilare) și dacă lucrezi cu solvenți sau vapori care cer o variantă chimic-rezistentă sau certificată ATEX." },
     ],
     evidenceClass: "market-signal-intl",
@@ -228,7 +228,7 @@ Pentru România, gama Stenner are sens la stații mici de tratare a apei potabil
       "Industria alimentară — dozare aditivi în procese de curățare și tratare",
       "Turnuri de răcire — dozare inhibitori de coroziune și biocide",
     ],
-    infinitrade: `Aducem pompe peristaltice Stenner pentru dozare la comandă, pe baza informațiilor publice de pe site-ul producătorului — fără date proprii de stoc pentru acest brand. Livrarea se face prin canale de aprovizionare din SUA sau prin distribuitori europeni, cu termen orientativ de 2-4 săptămâni; pentru tuburi de pompă și piese de uzură curente putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți debitul de dozare necesar (ml/h sau gpd), presiunea de refulare și tipul de control dorit (manual, variabil sau proporțional cu semnal). Nu ținem pe raft unitățile complete; le aducem la comandă.`,
+    infinitrade: `Aducem pompe peristaltice Stenner pentru dozare la comandă, pe baza informațiilor publice de pe site-ul producătorului — fără date proprii de stoc pentru acest brand. Livrarea se face prin canale de aprovizionare din SUA sau prin distribuitori europeni, cu termen orientativ de 1–4 săptămâni; pentru tuburi de pompă și piese de uzură curente putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți debitul de dozare necesar (ml/h sau gpd), presiunea de refulare și tipul de control dorit (manual, variabil sau proporțional cu semnal). Nu ținem pe raft unitățile complete; le aducem la comandă.`,
     limitation: "Nu confirmăm compatibilitatea chimică exactă a tuburilor de pompă cu fiecare reactiv fără fișa tehnică a soluției dozate.",
     productCodes: [
       { code: "Classic Series", description: "pompă peristaltică de dozare, model de bază" },
@@ -249,7 +249,7 @@ Pentru România, gama Stenner are sens la stații mici de tratare a apei potabil
     faq: [
       { q: "Ce produce Stenner?", a: "Stenner fabrică pompe peristaltice de dozare pentru apă, piscine, agricultură și industrie, din 1957, la Jacksonville, Florida. Gama acoperă control manual, variabil sau proporțional cu semnalul de debit, pentru dozarea de clor, reactivi sau aditivi chimici în cantități mici." },
       { q: "Ce echivalent are o pompă Stenner față de una ProMinent?", a: "Stenner acoperă în principal segmentul pompelor peristaltice mici și medii pentru dozare, cu un cap de pompă fără supape, în timp ce ProMinent are o gamă mai largă, inclusiv pompe cu membrană pentru presiuni mai mari. Echivalența depinde de debitul și presiunea cerute." },
-      { q: "Livrați pompe Stenner în România și cât durează?", a: "Da, aducem pompe Stenner la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 2-4 săptămâni. Nu ținem această gamă pe raft; confirmăm termenul exact după ce primim debitul de dozare și tipul de control dorit." },
+      { q: "Livrați pompe Stenner în România și cât durează?", a: "Da, aducem pompe Stenner la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft; confirmăm termenul exact după ce primim debitul de dozare și tipul de control dorit." },
       { q: "Ce trebuie să trimit pentru ofertă la o pompă Stenner?", a: "Ai nevoie de debitul de dozare dorit, presiunea de refulare a liniei, tipul de reactiv dozat și dacă ai nevoie de control manual, cu variator de viteză sau proporțional cu un semnal extern." },
     ],
     evidenceClass: "market-signal-intl",
@@ -291,7 +291,7 @@ Pentru instalații din România cu medii abrazive sau corozive — minerit, fert
       "Procesare var și oțel — pompare nămoluri și soluții de decapare",
       "Epurare apă și deșeuri municipale — pompare nămol din stații de tratare",
     ],
-    infinitrade: `Furnizăm pompe Wilfley pentru medii abrazive și corozive pe baza informațiilor publicate de producător — nu deținem date proprii de stoc pentru acest brand. Unitățile se aduc la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației metalurgice; pentru garnituri și componente de etanșare uzuale putem verifica variante cu livrare în 24-72 h. Pentru ofertă avem nevoie de fluidul pompat, conținutul de solide, temperatura de lucru și dacă aplicația cere etanșare fără apă. Disponibilitatea fiecărei variante metalurgice se confirmă separat, de la caz la caz.`,
+    infinitrade: `Furnizăm pompe Wilfley pentru medii abrazive și corozive pe baza informațiilor publicate de producător — nu deținem date proprii de stoc pentru acest brand. Unitățile se aduc la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației metalurgice; pentru garnituri și componente de etanșare uzuale putem verifica variante cu livrare în 24-72 h. Pentru ofertă avem nevoie de fluidul pompat, conținutul de solide, temperatura de lucru și dacă aplicația cere etanșare fără apă. Disponibilitatea fiecărei variante metalurgice se confirmă separat, de la caz la caz.`,
     limitation: "Nu confirmăm compatibilitatea exactă a fiecărui aliaj din gamă cu un fluid specific fără o fișă de compatibilitate chimică.",
     productCodes: [
       { code: "EMW", description: "pompă de nămol end-suction, clasa 4 de abraziune" },
@@ -314,7 +314,7 @@ Pentru instalații din România cu medii abrazive sau corozive — minerit, fert
     faq: [
       { q: "Ce produce compania Wilfley?", a: "A.R. Wilfley & Sons fabrică pompe centrifuge grele pentru nămol și medii corozive, din 1919, la Commerce City, Colorado. Gama acoperă pompe de nămol, pompe chimice conforme ANSI/ASME B73.1 și modele legacy, cu tehnologie proprie de etanșare fără apă." },
       { q: "Ce echivalent are o pompă Wilfley față de una Weir Minerals?", a: "Wilfley acoperă în principal segmentul pompelor de nămol cu etanșare fără apă, orientate spre minerit și chimie grea, în timp ce Weir Minerals are o gamă mai largă de pompe pentru minerit. Echivalența exactă depinde de debitul, presiunea și conținutul de solide al aplicației." },
-      { q: "Livrați pompe Wilfley în România și cât durează?", a: "Da, aducem pompe Wilfley la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 2-4 săptămâni, în funcție de model și metalurgie. Nu ținem această gamă pe raft; termenul exact se confirmă după transmiterea parametrilor fluidului." },
+      { q: "Livrați pompe Wilfley în România și cât durează?", a: "Da, aducem pompe Wilfley la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 1–4 săptămâni, în funcție de model și metalurgie. Nu ținem această gamă pe raft; termenul exact se confirmă după transmiterea parametrilor fluidului." },
       { q: "Ce trebuie să trimit pentru ofertă la o pompă Wilfley?", a: "Ai nevoie de fluidul pompat, conținutul procentual de solide, dimensiunea particulelor, temperatura de lucru și debitul necesar. Pentru medii corozive spune-ne și pH-ul, ca să recomandăm metalurgia potrivită din gamă." },
     ],
     evidenceClass: "market-signal-intl",
@@ -358,7 +358,7 @@ Pentru rafinării, industria chimică și tratarea apei din România, gama Magna
       "Generare de energie — pompe pentru circuite auxiliare de proces",
     ],
     certifications: [ "ISO 9001:2015 — certificare pentru managementul calității" ],
-    infinitrade: `Furnizăm pompe Magnatex cu cuplaj magnetic și pompe ANSI cu etanșare mecanică pe baza informațiilor publice ale producătorului — fără date proprii de stoc pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni de la confirmarea materialului și configurației, iar pentru garnituri și piese de uzură curente putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți fluidul pompat, debitul și înălțimea de pompare necesare, temperatura de lucru și dacă aplicația cere neapărat cuplaj magnetic. Unitățile complete nu stau pe raft la noi — vin la comandă.`,
+    infinitrade: `Furnizăm pompe Magnatex cu cuplaj magnetic și pompe ANSI cu etanșare mecanică pe baza informațiilor publice ale producătorului — fără date proprii de stoc pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea materialului și configurației, iar pentru garnituri și piese de uzură curente putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți fluidul pompat, debitul și înălțimea de pompare necesare, temperatura de lucru și dacă aplicația cere neapărat cuplaj magnetic. Unitățile complete nu stau pe raft la noi — vin la comandă.`,
     limitation: "Nu confirmăm compatibilitatea exactă a materialelor magneților (neodim sau samariu-cobalt) cu fiecare temperatură de proces fără verificare la producător.",
     productCodes: [
       { code: "MAXP", description: "pompă ANSI cu cuplaj magnetic, până la 2.000 gpm" },
@@ -379,7 +379,7 @@ Pentru rafinării, industria chimică și tratarea apei din România, gama Magna
     faq: [
       { q: "Ce produce Magnatex?", a: "Magnatex Pumps fabrică pompe centrifuge cu cuplaj magnetic și pompe ANSI cu etanșare mecanică, din 1985, la Houston, Texas, cu certificare ISO 9001:2015. Gama acoperă debite de la 20 la 5.000 gpm, pentru fluide periculoase sau greu de etanșat." },
       { q: "Ce echivalent oferă Magnatex față de o pompă Hermetic-Pumpen?", a: "Magnatex acoperă segmentul pompelor ANSI și sub-ANSI cu cuplaj magnetic pentru chimie și petrochimie, cu debite de până la 2.000 gpm, în timp ce Hermetic-Pumpen are o gamă orientată și spre aplicații industriale grele. Echivalența exactă depinde de debit, presiune și temperatura fluidului." },
-      { q: "Livrați pompe Magnatex în România și cât durează?", a: "Da, aducem pompe Magnatex la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de serie și material. Nu ținem această gamă pe raft; confirmăm termenul exact după ce primim datele fluidului pompat." },
+      { q: "Livrați pompe Magnatex în România și cât durează?", a: "Da, aducem pompe Magnatex la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de serie și material. Nu ținem această gamă pe raft; confirmăm termenul exact după ce primim datele fluidului pompat." },
       { q: "Ce trebuie să trimit pentru ofertă la o pompă Magnatex?", a: "Ai nevoie de fluidul pompat, debitul și înălțimea de pompare necesare, temperatura de lucru și materialul de construcție dorit. Spune-ne și dacă aplicația impune obligatoriu cuplaj magnetic sau acceptă etanșare mecanică." },
     ],
     evidenceClass: "market-signal-intl",
@@ -419,7 +419,7 @@ Pentru instalații chimice din România cu fluide puternic corozive — acizi co
       "Galvanizare și finisare metale — transfer băi de decapare și acoperire",
       "Industria hârtiei — transfer soluții de albire corozive",
     ],
-    infinitrade: `Aducem pompe termoplastice Vanton pentru medii corozive și ultrapure pe baza informațiilor publicate de producător — nu avem date proprii de stoc pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 2-4 săptămâni de la confirmarea materialului plastic potrivit; pentru garnituri și piese de uzură curente putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă avem nevoie de fluidul pompat, concentrația și temperatura de lucru, plus debitul și înălțimea de pompare cerute. Disponibilitatea variantei de plastic potrivite se verifică separat pentru fiecare comandă.`,
+    infinitrade: `Aducem pompe termoplastice Vanton pentru medii corozive și ultrapure pe baza informațiilor publicate de producător — nu avem date proprii de stoc pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 1–4 săptămâni de la confirmarea materialului plastic potrivit; pentru garnituri și piese de uzură curente putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă avem nevoie de fluidul pompat, concentrația și temperatura de lucru, plus debitul și înălțimea de pompare cerute. Disponibilitatea variantei de plastic potrivite se verifică separat pentru fiecare comandă.`,
     limitation: "Nu confirmăm rezistența chimică exactă a fiecărui plastic (PP, PVC, PVDF, ECTFE) la un amestec specific de fluide fără o verificare la producător.",
     productCodes: [
       { code: "CHEM-GARD CG", description: "pompă centrifugă termoplastică, până la 900 gpm" },
@@ -438,7 +438,7 @@ Pentru instalații chimice din România cu fluide puternic corozive — acizi co
     faq: [
       { q: "Ce produce Vanton?", a: "Vanton Pump & Equipment produce pompe centrifuge termoplastice orizontale (CHEM-GARD) și verticale (SUMP-GARD), integral din plastic inert, pentru fluide corozive, abrazive sau ultrapure. Gama acoperă debite de până la 1.150 gpm, fără nicio componentă metalică în contact cu fluidul." },
       { q: "Ce echivalent are o pompă Vanton față de una Argal?", a: "Vanton acoperă segmentul pompelor termoplastice orizontale și verticale, cu variante magnetice și cu rotor vortex, în timp ce Argal are o gamă orientată similar spre pompe din plastic pentru chimie. Echivalența exactă depinde de fluid, debit și dacă aplicația cere montaj vertical sau orizontal." },
-      { q: "Livrați pompe Vanton în România și cât durează?", a: "Da, aducem pompe Vanton la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 2-4 săptămâni, în funcție de materialul plastic ales. Nu ținem această gamă pe raft; vă spunem termenul exact imediat ce ne trimiteți fișa fluidului pompat." },
+      { q: "Livrați pompe Vanton în România și cât durează?", a: "Da, aducem pompe Vanton la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 1–4 săptămâni, în funcție de materialul plastic ales. Nu ținem această gamă pe raft; vă spunem termenul exact imediat ce ne trimiteți fișa fluidului pompat." },
       { q: "Ce trebuie să trimit pentru ofertă la o pompă Vanton?", a: "Ai nevoie de fluidul pompat, concentrația soluției, temperatura de lucru, debitul și înălțimea de pompare necesare. Spune-ne și dacă montajul trebuie să fie orizontal sau vertical, direct în bazin." },
     ],
     evidenceClass: "market-signal-intl",
@@ -481,7 +481,7 @@ Pentru instalații din România cu pompe dozatoare sau AODD deja montate, gama B
       "Chimie și petrochimie — protecție conducte la pompe dozatoare de reactivi",
     ],
     certifications: [ "ISO 9001:2015", "ASME, ATEX, PED — pentru diverse piețe și aplicații de presiune" ],
-    infinitrade: `Furnizăm accesorii Blacoh pentru pompe dozatoare și pompe AODD deja instalate, pe baza informațiilor publicate de producător — fără date proprii de stoc pentru acest brand. Aducem componentele la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni, iar pentru amortizoare și izolatoare de dimensiuni uzuale putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți tipul și debitul pompei deservite, presiunea de linie și dacă aveți nevoie de variantă certificată ATEX. Nu ținem această gamă pe raft pentru toate dimensiunile din gamă.`,
+    infinitrade: `Furnizăm accesorii Blacoh pentru pompe dozatoare și pompe AODD deja instalate, pe baza informațiilor publicate de producător — fără date proprii de stoc pentru acest brand. Aducem componentele la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni, iar pentru amortizoare și izolatoare de dimensiuni uzuale putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți tipul și debitul pompei deservite, presiunea de linie și dacă aveți nevoie de variantă certificată ATEX. Nu ținem această gamă pe raft pentru toate dimensiunile din gamă.`,
     limitation: "Nu confirmăm compatibilitatea exactă a fiecărui amortizor cu o pompă de altă marcă fără specificațiile tehnice ale instalației existente.",
     productCodes: [
       { code: "SENTRY", description: "amortizor de pulsații pentru pompe dozatoare" },
@@ -497,7 +497,7 @@ Pentru instalații din România cu pompe dozatoare sau AODD deja montate, gama B
     ],
     faq: [
       { q: "Ce produce Blacoh?", a: "Blacoh Industries fabrică amortizoare de pulsații, izolatoare cu diafragmă și sisteme de prevenire a scurgerilor pentru pompe dozatoare și pompe cu diafragmă pneumatice, fabricate integral în SUA. Gama include certificări ISO 9001:2015, ASME, ATEX și PED pentru diverse aplicații industriale." },
-      { q: "Livrați accesorii Blacoh în România și cât durează?", a: "Da, aducem accesorii Blacoh la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de model și presiunea de linie. Nu ținem această gamă pe raft; confirmăm termenul exact după ce primim datele pompei deservite." },
+      { q: "Livrați accesorii Blacoh în România și cât durează?", a: "Da, aducem accesorii Blacoh la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și presiunea de linie. Nu ținem această gamă pe raft; confirmăm termenul exact după ce primim datele pompei deservite." },
       { q: "Ce trebuie să trimit pentru ofertă la un amortizor Blacoh?", a: "Ai nevoie de tipul pompei deservite (dozatoare sau AODD), debitul și presiunea de linie, plus fluidul vehiculat. Spune-ne și dacă instalația cere certificare ATEX pentru zone cu risc de explozie." },
     ],
     evidenceClass: "market-signal-intl",
@@ -539,7 +539,7 @@ Pentru instalații marine, agricole și industriale din România, MP Pumps are s
       "Transport și centre de date — pompe pentru sisteme de răcire și combustibil",
       "Industrie generală — pompe pentru fluide industriale diverse din gama SERIES",
     ],
-    infinitrade: `Aducem pompe MP Pumps pentru aplicații marine, petroliere și industriale pe baza informațiilor publicate de producător — nu avem date proprii de stoc pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni de la confirmarea materialului și configurației, iar pentru garnituri și rotoare de schimb putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți fluidul pompat, debitul necesar și dacă aplicația cere autoamorsare sau montaj submersibil. Nu promitem disponibilitate din depozit pentru unitățile complete.`,
+    infinitrade: `Aducem pompe MP Pumps pentru aplicații marine, petroliere și industriale pe baza informațiilor publicate de producător — nu avem date proprii de stoc pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea materialului și configurației, iar pentru garnituri și rotoare de schimb putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți fluidul pompat, debitul necesar și dacă aplicația cere autoamorsare sau montaj submersibil. Nu promitem disponibilitate din depozit pentru unitățile complete.`,
     limitation: "Nu confirmăm compatibilitatea exactă a fiecărui material de construcție cu un combustibil sau fluid specific fără verificare la producător.",
     productCodes: [
       { code: "CHEMFLO", description: "pompă end-suction pentru fluide chimice" },
@@ -558,7 +558,7 @@ Pentru instalații marine, agricole și industriale din România, MP Pumps are s
     faq: [
       { q: "Ce produce MP Pumps?", a: "MP Pumps fabrică pompe centrifuge end-suction, autoamorsante și submersibile, din 1942, la Detroit. Gama acoperă aplicații marine, petroliere, industriale și agricole, cu materiale variate în funcție de fluidul pompat." },
       { q: "Ce echivalent are o pompă MP Pumps față de una Gorman-Rupp?", a: "MP Pumps acoperă în principal segmentul pompelor autoamorsante compacte pentru marină și industrie ușoară, în timp ce Gorman-Rupp are o gamă mai largă orientată și spre nămol și ape uzate municipale. Echivalența exactă depinde de debitul și tipul de fluid pompat." },
-      { q: "Livrați pompe MP Pumps în România și cât durează?", a: "Da, aducem pompe MP Pumps la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de model. Nu ținem această gamă pe raft; vă transmitem termenul exact după ce ne spuneți ce fluid vehiculează instalația." },
+      { q: "Livrați pompe MP Pumps în România și cât durează?", a: "Da, aducem pompe MP Pumps la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model. Nu ținem această gamă pe raft; vă transmitem termenul exact după ce ne spuneți ce fluid vehiculează instalația." },
       { q: "Ce trebuie să trimit pentru ofertă la o pompă MP Pumps?", a: "Ai nevoie de fluidul pompat, debitul necesar, tipul de aplicație (marină, petrolieră, industrială) și dacă instalația cere autoamorsare sau montaj submersibil hidraulic. Utilă e și materialul de construcție preferat, în funcție de compatibilitatea cu fluidul." },
     ],
     evidenceClass: "market-signal-intl",
@@ -601,7 +601,7 @@ Pentru instalații industriale și municipale din România, gama Gusher are sens
       "Epurare apă — pompe vortex pentru nămol și solide în suspensie",
     ],
     certifications: [ "ISO 9001:2015", "Membru Hydraulic Institute" ],
-    infinitrade: `Furnizăm pompe Gusher verticale și orizontale pe baza informațiilor publicate de producător — nu deținem date proprii de stoc pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației, iar pentru garnituri, rulmenți și piese de uzură curente putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă avem nevoie de fluidul pompat, debitul și înălțimea de pompare cerute, plus dacă montajul trebuie să fie vertical sau orizontal. Pentru unitățile complete lucrăm exclusiv la comandă, fără raft propriu.`,
+    infinitrade: `Furnizăm pompe Gusher verticale și orizontale pe baza informațiilor publicate de producător — nu deținem date proprii de stoc pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației, iar pentru garnituri, rulmenți și piese de uzură curente putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă avem nevoie de fluidul pompat, debitul și înălțimea de pompare cerute, plus dacă montajul trebuie să fie vertical sau orizontal. Pentru unitățile complete lucrăm exclusiv la comandă, fără raft propriu.`,
     limitation: "Nu confirmăm interschimbabilitatea directă a pieselor Gusher cu pompe de alte mărci fără o verificare dimensională prealabilă.",
     productCodes: [
       { code: "7800 Series", description: "pompă centrifugă verticală de uz general" },
@@ -622,7 +622,7 @@ Pentru instalații industriale și municipale din România, gama Gusher are sens
     faq: [
       { q: "Ce produce Gusher Pumps?", a: "Gusher Pumps fabrică pompe centrifuge verticale și orizontale pentru industrie, administrație municipală și turnătorii, din 1912, la Williamstown, Kentucky. Compania e parte din grupul Ruthman Companies și oferă una dintre cele mai largi game de pompe centrifuge dintr-un singur producător." },
       { q: "Ce echivalent are o pompă Gusher față de una Griswold Pump?", a: "Gusher acoperă un spectru larg de pompe verticale și orizontale, inclusiv variante ANSI, DIN și pentru metal topit, în timp ce Griswold Pump se concentrează mai ales pe pompe orizontale de proces. Echivalența exactă depinde de configurație, debit și standardul cerut." },
-      { q: "Livrați pompe Gusher în România și cât durează?", a: "Da, aducem pompe Gusher la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de serie și configurație. Nu ținem această gamă pe raft; confirmăm termenul exact după primirea parametrilor tehnici." },
+      { q: "Livrați pompe Gusher în România și cât durează?", a: "Da, aducem pompe Gusher la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de serie și configurație. Nu ținem această gamă pe raft; confirmăm termenul exact după primirea parametrilor tehnici." },
       { q: "Ce trebuie să trimit pentru ofertă la o pompă Gusher?", a: "Ai nevoie de fluidul pompat, debitul și înălțimea de pompare necesare, plus dacă montajul trebuie să fie vertical sau orizontal și dacă instalația cere compatibilitate ANSI sau DIN." },
     ],
     evidenceClass: "market-signal-intl",
@@ -664,7 +664,7 @@ Pentru instalații chimice și industriale din România, gama Summit are sens ca
       "Industria vinului — pompe centrifuge non-înfundabile pentru transfer must",
       "Petrol și gaze — pompe cu deplasare pozitivă pentru fluide vâscoase",
     ],
-    infinitrade: `Aducem pompe Summit pentru chimie și proces industrial pe baza informațiilor publicate de producător — fără date proprii de stoc pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației, iar pentru garnituri, etanșări mecanice și piese de uzură putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți fluidul pompat, debitul și înălțimea de pompare cerute, plus dacă preferați o pompă centrifugă ANSI sau una cu deplasare pozitivă. Agregatele complete le aducem la comandă; nu le păstrăm pe raft.`,
+    infinitrade: `Aducem pompe Summit pentru chimie și proces industrial pe baza informațiilor publicate de producător — fără date proprii de stoc pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației, iar pentru garnituri, etanșări mecanice și piese de uzură putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă, transmiteți fluidul pompat, debitul și înălțimea de pompare cerute, plus dacă preferați o pompă centrifugă ANSI sau una cu deplasare pozitivă. Agregatele complete le aducem la comandă; nu le păstrăm pe raft.`,
     limitation: "Nu confirmăm interschimbabilitatea exactă cu pompe ANSI de altă marcă fără o verificare dimensională a instalației existente.",
     productCodes: [
       { code: "2196 ANSI", description: "pompă chimică de uz general, până la 6.000 gpm" },
@@ -683,7 +683,7 @@ Pentru instalații chimice și industriale din România, gama Summit are sens ca
     faq: [
       { q: "Ce produce Summit Pump?", a: "Summit Pump fabrică pompe centrifuge ANSI, pompe autoamorsante de proces, pompe non-înfundabile și pompe cu deplasare pozitivă, la Green Bay, Wisconsin. Gama acoperă chimie generală, industria hârtiei și transfer de fluide vâscoase." },
       { q: "Ce echivalent are o pompă Summit față de una KSB?", a: "Summit acoperă în principal segmentul pompelor ANSI de proces și al pompelor cu deplasare pozitivă pentru chimie, în timp ce KSB are o gamă mult mai largă, inclusiv pompe pentru energie și infrastructură. Echivalența exactă depinde de debit, presiune și standardul cerut." },
-      { q: "Livrați pompe Summit în România și cât durează?", a: "Da, aducem pompe Summit la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni, în funcție de serie. Nu ținem această gamă pe raft; confirmăm termenul exact după primirea parametrilor de proces." },
+      { q: "Livrați pompe Summit în România și cât durează?", a: "Da, aducem pompe Summit la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de serie. Nu ținem această gamă pe raft; confirmăm termenul exact după primirea parametrilor de proces." },
       { q: "Ce trebuie să trimit pentru ofertă la o pompă Summit?", a: "Ai nevoie de fluidul pompat, debitul și înălțimea de pompare necesare, temperatura de lucru și dacă preferi o pompă centrifugă ANSI sau una cu deplasare pozitivă (roți dințate sau elicoidale)." },
     ],
     evidenceClass: "market-signal-intl",
@@ -727,7 +727,7 @@ Pentru instalații industriale din România cu chimicale, vopsele sau produse al
       "Minerit — transfer nămoluri și fluide cu conținut solid",
       "Semiconductori — transfer chimicale de proces cu cerințe de puritate",
     ],
-    infinitrade: `Furnizăm pompe All-Flo cu diafragmă dublă pentru chimicale, produse alimentare și fluide abrazive pe baza informațiilor publicate de producător — fără date proprii de stoc pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-4 săptămâni de la confirmarea materialului, iar pentru diafragme și supape de schimb putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă avem nevoie de fluidul pompat, debitul necesar, dimensiunea maximă a particulelor și dacă aplicația cere certificare food-grade. Confirmăm disponibilitatea fiecărui material de diafragmă separat, pentru fiecare cerere în parte.`,
+    infinitrade: `Furnizăm pompe All-Flo cu diafragmă dublă pentru chimicale, produse alimentare și fluide abrazive pe baza informațiilor publicate de producător — fără date proprii de stoc pentru acest brand. Aducem unitățile la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea materialului, iar pentru diafragme și supape de schimb putem verifica opțiuni cu livrare în 24-72 h. Pentru ofertă avem nevoie de fluidul pompat, debitul necesar, dimensiunea maximă a particulelor și dacă aplicația cere certificare food-grade. Confirmăm disponibilitatea fiecărui material de diafragmă separat, pentru fiecare cerere în parte.`,
     limitation: "Nu confirmăm compatibilitatea chimică exactă a fiecărui material de diafragmă cu un solvent specific fără o fișă de compatibilitate.",
     productCodes: [
       { code: "A025", description: "pompă AODD din plastic, dimensiune mică (1/4 in)" },
@@ -754,7 +754,7 @@ Pentru instalații industriale din România cu chimicale, vopsele sau produse al
     faq: [
       { q: "Ce produce All-Flo?", a: "All-Flo Pump fabrică pompe cu diafragmă dublă acționate pneumatic (AODD), din plastic, metal sau variante food-grade, la Grand Terrace, California, din 1986. Gama acoperă chimicale, produse alimentare vâscoase și fluide cu conținut solid." },
       { q: "Ce echivalent are o pompă All-Flo față de una Wilden?", a: "All-Flo acoperă un spectru similar de pompe AODD, cu variante din plastic, metal și food-grade, comparabil cu Wilden pe segmentul pompelor pneumatice cu diafragmă dublă. Echivalența exactă depinde de dimensiunea conexiunii, debitul necesar și materialul de diafragmă compatibil chimic." },
-      { q: "Livrați pompe All-Flo în România și cât durează?", a: "Da, aducem pompe All-Flo la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-4 săptămâni, în funcție de model și material. Nu ținem această gamă pe raft; confirmăm termenul exact după primirea datelor despre fluid." },
+      { q: "Livrați pompe All-Flo în România și cât durează?", a: "Da, aducem pompe All-Flo la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și material. Nu ținem această gamă pe raft; confirmăm termenul exact după primirea datelor despre fluid." },
       { q: "Ce trebuie să trimit pentru ofertă la o pompă All-Flo?", a: "Ai nevoie de fluidul pompat, debitul necesar, dimensiunea maximă a particulelor solide și dacă aplicația cere certificare food-grade sau material rezistent la un anumit solvent." },
     ],
     evidenceClass: "market-signal-intl",

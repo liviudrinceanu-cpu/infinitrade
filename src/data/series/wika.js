@@ -10,7 +10,7 @@ export const series = [
     "oneLine": "Manometru cu tub Bourdon WIKA, carcasă integral din oțel inoxidabil, pentru industria de proces.",
     "lifecycle": "activ",
     "lifecycleNote": "Pagina și fișa tehnică PM 02.02 ale producătorului sunt curente; nu am găsit o declarație de retragere din producție pentru 232.50 sau 233.50.",
-    "intro": "Seria WIKA 232.50/233.50 este un manometru cu tub Bourdon, cu carcasă complet din oțel inoxidabil, destinat industriei de proces. Modelul 232.50 este varianta neumplută, iar 233.50 are carcasa umplută cu lichid, recomandată acolo unde apar vibrații sau pulsații de presiune. Codul de comandă combină modelul, mărimea carcasei și domeniul de scală, de exemplu 232.50.100 sau 233.50.160, unde ultimele cifre indică mărimea NS 100, respectiv NS 160.\n\nPentru o ofertă ne trimiteți codul complet de pe eticheta manometrului existent sau, dacă lipsește, mărimea carcasei, domeniul de presiune dorit și tipul de racord de proces. Aducem manometre noi la cerere, prin canale de aprovizionare din UE; termenul orientativ este de 2–4 săptămâni. Nu confirmăm stoc sau preț înainte de verificarea codului în documentația producătorului.",
+    "intro": "Seria WIKA 232.50/233.50 este un manometru cu tub Bourdon, cu carcasă complet din oțel inoxidabil, destinat industriei de proces. Modelul 232.50 este varianta neumplută, iar 233.50 are carcasa umplută cu lichid, recomandată acolo unde apar vibrații sau pulsații de presiune. Codul de comandă combină modelul, mărimea carcasei și domeniul de scală, de exemplu 232.50.100 sau 233.50.160, unde ultimele cifre indică mărimea NS 100, respectiv NS 160.\n\nPentru o ofertă ne trimiteți codul complet de pe eticheta manometrului existent sau, dacă lipsește, mărimea carcasei, domeniul de presiune dorit și tipul de racord de proces. Aducem manometre noi la cerere, prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni. Nu confirmăm stoc sau preț înainte de verificarea codului în documentația producătorului.",
     "models": [
       {
         "code": "232.50.063",
@@ -118,7 +118,7 @@ export const series = [
     "oneLine": "Manometru digital de precizie WIKA pentru etalonări la fața locului și control de presiune.",
     "lifecycle": "activ",
     "lifecycleNote": "Fișa tehnică de pe site-ul producătorului (CT 10.51) nu conține nicio mențiune de retragere din producție pentru CPG1500.",
-    "intro": "WIKA CPG1500 este un manometru digital de precizie care preia simplitatea unui manometru analogic clasic și precizia unui calibrator digital, folosit pentru etalonări la fața locului, lucrări de service și verificarea presiunii în industria petrolului și gazelor. Codul complet de comandă descrie, în ordine, versiunea aparatului, protecția antiex, unitatea de măsură, tipul de presiune, domeniul de măsurare, racordul de proces și clasa de precizie (0,025%, 0,05% sau 0,1% din span), de aceea eticheta unui aparat existent conține deja toate detaliile necesare unei cereri de ofertă.\n\nDin gama CPG1500 putem aduce la comandă unități noi din Uniunea Europeană, în 2–4 săptămâni. Pentru o ofertă corectă, clientul trimite domeniul de presiune dorit, clasa de precizie necesară, tipul de racord de proces și dacă este nevoie de varianta pentru zone cu risc de explozie; confirmăm compatibilitatea în fișa tehnică curentă a producătorului înainte de a trimite oferta.",
+    "intro": "WIKA CPG1500 este un manometru digital de precizie care preia simplitatea unui manometru analogic clasic și precizia unui calibrator digital, folosit pentru etalonări la fața locului, lucrări de service și verificarea presiunii în industria petrolului și gazelor. Codul complet de comandă descrie, în ordine, versiunea aparatului, protecția antiex, unitatea de măsură, tipul de presiune, domeniul de măsurare, racordul de proces și clasa de precizie (0,025%, 0,05% sau 0,1% din span), de aceea eticheta unui aparat existent conține deja toate detaliile necesare unei cereri de ofertă.\n\nDin gama CPG1500 putem aduce la comandă unități noi din Uniunea Europeană, în 1–4 săptămâni. Pentru o ofertă corectă, clientul trimite domeniul de presiune dorit, clasa de precizie necesară, tipul de racord de proces și dacă este nevoie de varianta pentru zone cu risc de explozie; confirmăm compatibilitatea în fișa tehnică curentă a producătorului înainte de a trimite oferta.",
     "models": [
       {
         "code": "CPG1500 (0…160 bar)",
@@ -204,7 +204,7 @@ export const series = [
       },
       {
         "q": "Cât durează aducerea unui CPG1500 la comandă?",
-        "a": "În mod obișnuit, aducerea unei unități noi din Uniunea Europeană durează 2–4 săptămâni de la confirmarea comenzii, în funcție de configurația exactă solicitată de client."
+        "a": "În mod obișnuit, aducerea unei unități noi din Uniunea Europeană durează 1–4 săptămâni de la confirmarea comenzii, în funcție de configurația exactă solicitată de client."
       }
     ],
     "limitation": "Nu efectuăm etalonări acreditate ISO/IEC 17025 pentru clientul final; livrăm aparatul cu documentația de fabrică a producătorului.",

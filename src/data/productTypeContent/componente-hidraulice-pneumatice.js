@@ -137,7 +137,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru ofertă și cât durează livrarea unor distribuitoare hidraulice?",
-        "a": "Sunt necesare configurația de căi și poziții, debitul și presiunea circuitului, tipul de comandă și tensiunea solenoizilor, dacă e cazul. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător și de complexitatea configurației cerute."
+        "a": "Sunt necesare configurația de căi și poziții, debitul și presiunea circuitului, tipul de comandă și tensiunea solenoizilor, dacă e cazul. Livrarea se face la comandă, orientativ în 1–4 săptămâni, în funcție de producător și de complexitatea configurației cerute."
       },
       {
         "q": "Se poate înlocui un distribuitor hidraulic defect cu un model de la alt producător?",
@@ -215,7 +215,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de pompă hidraulică și cât durează livrarea?",
-        "a": "Debitul dorit, presiunea maximă de lucru, turația de antrenare și tipul de cuplaj sunt suficiente pentru o propunere tehnică. Livrarea este la comandă, cu un termen orientativ de 2-4 săptămâni, funcție de producătorul și de familia constructivă alese."
+        "a": "Debitul dorit, presiunea maximă de lucru, turația de antrenare și tipul de cuplaj sunt suficiente pentru o propunere tehnică. Livrarea este la comandă, cu un termen orientativ de 1–4 săptămâni, funcție de producătorul și de familia constructivă alese."
       },
       {
         "q": "Ce cauzează cel mai des defectarea prematură a unei pompe hidraulice?",
@@ -289,7 +289,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de cilindru pneumatic și cât durează livrarea?",
-        "a": "Sunt necesare forța, cursa, presiunea de lucru și tipul de montaj dorit, plus frecvența ciclurilor dacă aplicația e intensivă. Livrarea variază după model, orientativ 2-4 săptămâni la comandă pentru dimensiuni sau opțiuni nestandard."
+        "a": "Sunt necesare forța, cursa, presiunea de lucru și tipul de montaj dorit, plus frecvența ciclurilor dacă aplicația e intensivă. Livrarea variază după model, orientativ 1–4 săptămâni la comandă pentru dimensiuni sau opțiuni nestandard."
       },
       {
         "q": "Ce întreținere cere un cilindru pneumatic montat pe o linie automată?",
@@ -362,7 +362,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de valve pneumatice și cât durează livrarea?",
-        "a": "Sunt necesare configurația de căi și poziții, presiunea de lucru, tipul de acționare și numărul de valve. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, mai rapid pentru configurațiile standard din gama curentă."
+        "a": "Sunt necesare configurația de căi și poziții, presiunea de lucru, tipul de acționare și numărul de valve. Livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător, mai rapid pentru configurațiile standard din gama curentă."
       },
       {
         "q": "Sunt valvele pneumatice de la producători diferiți compatibile între ele?",
@@ -436,7 +436,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de furtunuri și racorduri?",
-        "a": "Diametrul, lungimea, presiunea de lucru, fluidul vehiculat și tipul filetului racordurilor de capăt sunt suficiente pentru o identificare corectă; o mostră sau codul furtunului existent scurtează mult procesul. Confirmarea termenului de livrare vine la comandă, de regulă 2-4 săptămâni, în funcție de producător."
+        "a": "Diametrul, lungimea, presiunea de lucru, fluidul vehiculat și tipul filetului racordurilor de capăt sunt suficiente pentru o identificare corectă; o mostră sau codul furtunului existent scurtează mult procesul. Confirmarea termenului de livrare vine la comandă, de regulă 1–4 săptămâni, în funcție de producător."
       },
       {
         "q": "Cât de des trebuie inspectate furtunurile hidraulice montate pe utilaje mobile?",

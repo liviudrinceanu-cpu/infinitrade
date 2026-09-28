@@ -12,7 +12,7 @@ export const series = [
     lifecycleNote: 'Seria HG/QH este listată ca gamă curentă în catalogul online HIWIN; nu am găsit o declarație de retragere din producție.',
     intro: `Seria HG/QH este gama standard de ghidaje liniare cu bile a HIWIN, în montaj tip X, potrivită pentru suprafețe de montaj neprelucrate. Blocul se alege după forma de fixare: HGH/QHH (înalt, prindere de sus), HGL (jos, prindere de sus) și HGW/QHW (cu flanșă, prindere de sus sau de jos), în mărimi de la 15 la 45 mm. Codul complet combină seria, tipul de bloc, mărimea și clasa de sarcină/joc (de exemplu HGW25CC); pot apărea și litere suplimentare adăugate de client, ca în codul HGW25CCH, caz în care verificăm exact varianta în documentația HIWIN înainte de ofertă.
 
-Blocurile din seria HG/QH le aducem la comandă din Uniunea Europeană, în 2–4 săptămâni, fără stoc propriu și fără preț public. Pentru ofertă, clientul trimite codul complet de pe bloc (sau, dacă eticheta nu mai este lizibilă, mărimea, tipul de flanșă și clasa de sarcină estimată) și cantitatea necesară.`,
+Blocurile din seria HG/QH le aducem la comandă din Uniunea Europeană, în 1–4 săptămâni, fără stoc propriu și fără preț public. Pentru ofertă, clientul trimite codul complet de pe bloc (sau, dacă eticheta nu mai este lizibilă, mărimea, tipul de flanșă și clasa de sarcină estimată) și cantitatea necesară.`,
     models: [
       { code: 'HGW25SC', note: 'bloc cu flanșă, mărime 25, clasă de sarcină standard' },
       { code: 'HGW25CC', note: 'bloc cu flanșă, mărime 25, clasă de sarcină intermediară' },

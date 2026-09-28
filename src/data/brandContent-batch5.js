@@ -57,7 +57,7 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
       'Minerit și cariere',
       'Automotive și producție auto',
     ],
-    infinitrade: `La Infinitrade lucrăm fără date proprii de stoc pentru gama 3M Safety și aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere simple din portofoliu, precum măști sau dopuri antifonice, putem oferi uneori 24-72 h din stoc, în funcție de disponibilitatea reală de moment, iar pentru restul gamei termenul obișnuit este de 2-4 săptămâni la comandă. Nu promitem un anumit produs în stoc înainte de a verifica disponibilitatea la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul sau referința 3M, cantitatea necesară și termenul dorit, iar noi confirmăm disponibilitatea și data reală de livrare înainte de a plasa comanda.`,
+    infinitrade: `La Infinitrade lucrăm fără date proprii de stoc pentru gama 3M Safety și aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere simple din portofoliu, precum măști sau dopuri antifonice, putem oferi uneori 24-72 h din stoc, în funcție de disponibilitatea reală de moment, iar pentru restul gamei termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un anumit produs în stoc înainte de a verifica disponibilitatea la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul sau referința 3M, cantitatea necesară și termenul dorit, iar noi confirmăm disponibilitatea și data reală de livrare înainte de a plasa comanda.`,
     limitation: `Nu putem confirma sau efectua service în perioada de garanție a producătorului pentru echipamentele 3M Safety - acesta rămâne responsabilitatea rețelei 3M.`,
     sources: [
       {"title":"3M Disposable Respirators","url":"https://www.3m.com/3M/en_US/p/c/ppe/respiratory-protection/disposable/","publisher":"3M","accessed":"2026-09-22"},
@@ -125,7 +125,7 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
       },
       {
         "q": "Livrează 3M echipamente de protecție respiratorie în România?",
-        "a": "Da, produsele 3M ajung la comandă conform cataloagelor publice ale producătorului, fără un stoc propriu ținut în depozit. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de cantitatea cerută, iar pentru comenzi mari perioada poate varia."
+        "a": "Da, produsele 3M ajung la comandă conform cataloagelor publice ale producătorului, fără un stoc propriu ținut în depozit. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de cantitatea cerută, iar pentru comenzi mari perioada poate varia."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de măști de protecție 3M?",
@@ -199,7 +199,7 @@ Tablourile System pro E power modular permit configurații flexibile - se pot re
       'Marine (nave, platforme offshore)',
       'Clădiri comerciale (mall-uri, birouri, spitale)',
     ],
-    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al componentelor ABB Electrification și aducem tablourile și aparatajul la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru componente uzuale, precum contactoare sau relee termice, putem confirma uneori 24-72 h din stoc, iar pentru tablouri configurate sau aparataj mai complex termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de proiect. Nu facem promisiuni ferme de livrare fără o verificare prealabilă la furnizor. Pentru o ofertă corectă, trimiteți-ne schema unifilară sau lista de aparataj, curenții nominali necesari și termenul dorit — vă răspundem cu disponibilitatea reală confirmată înainte de comandă.`,
+    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al componentelor ABB Electrification și aducem tablourile și aparatajul la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru componente uzuale, precum contactoare sau relee termice, putem confirma uneori 24-72 h din stoc, iar pentru tablouri configurate sau aparataj mai complex termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de proiect. Nu facem promisiuni ferme de livrare fără o verificare prealabilă la furnizor. Pentru o ofertă corectă, trimiteți-ne schema unifilară sau lista de aparataj, curenții nominali necesari și termenul dorit — vă răspundem cu disponibilitatea reală confirmată înainte de comandă.`,
     limitation: `Nu putem confirma configurarea avansată a trip unit-urilor Ekip sau integrarea SCADA la fața locului - acestea necesită suport tehnic direct de la ABB sau un integrator certificat.`,
     sources: [
       {"title":"Circuit Breakers","url":"https://new.abb.com/low-voltage/products/circuit-breakers","publisher":"ABB","accessed":"2026-09-22"},
@@ -259,7 +259,7 @@ Tablourile System pro E power modular permit configurații flexibile - se pot re
       },
       {
         "q": "Livrați disjunctoare ABB în România?",
-        "a": "Da, aducem la comandă disjunctoare ABB pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de curentul nominal și de accesoriile solicitate. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă disjunctoare ABB pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de curentul nominal și de accesoriile solicitate. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de disjunctor ABB?",
@@ -337,7 +337,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       'Ciment (fabrici ciment, coșuri fum CEMS)',
       'Semiconductors (fabrici wafer, gaze ultra-pure)',
     ],
-    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama ABB Measurement & Analytics și aducem instrumentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru transmițătoare și recordere din gama standard putem confirma uneori 24-72 h din stoc, iar pentru debitmetre sau analizoare configurate individual termenul obișnuit este de 2-4 săptămâni la comandă, cu calibrare inclusă. Nu putem confirma un termen exact înainte de a verifica disponibilitatea reală la furnizor pentru specificațiile dumneavoastră. Pentru o ofertă corectă, trimiteți-ne tipul de instrument, gama de măsurare necesară, conexiunea de proces și protocolul de comunicare dorit, iar noi revenim cu disponibilitate și termen confirmate.`,
+    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama ABB Measurement & Analytics și aducem instrumentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru transmițătoare și recordere din gama standard putem confirma uneori 24-72 h din stoc, iar pentru debitmetre sau analizoare configurate individual termenul obișnuit este de 1–4 săptămâni la comandă, cu calibrare inclusă. Nu putem confirma un termen exact înainte de a verifica disponibilitatea reală la furnizor pentru specificațiile dumneavoastră. Pentru o ofertă corectă, trimiteți-ne tipul de instrument, gama de măsurare necesară, conexiunea de proces și protocolul de comunicare dorit, iar noi revenim cu disponibilitate și termen confirmate.`,
     limitation: `Nu putem confirma stocul permanent pentru fiecare variantă de debitmetru sau analizor configurat - fiecare comandă depinde de disponibilitatea reală la producător.`,
     sources: [
       {"title":"Flow measurement products","url":"https://new.abb.com/products/measurement-products/flow","publisher":"ABB","accessed":"2026-09-22"},
@@ -406,7 +406,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       },
       {
         "q": "Livrează ABB instrumente de măsurare a proceselor în România?",
-        "a": "Da, instrumentele ABB sunt aduse la comandă pe baza fișelor publice ale producătorului, fără un stoc propriu declarat pe site. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de opțiunile de comunicație cerute, iar pentru variante certificate special poate dura mai mult."
+        "a": "Da, instrumentele ABB sunt aduse la comandă pe baza fișelor publice ale producătorului, fără un stoc propriu declarat pe site. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de opțiunile de comunicație cerute, iar pentru variante certificate special poate dura mai mult."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de analizor de gaze ABB?",
@@ -477,7 +477,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       'Printing (web handling, cutting, stacking)',
       'Logistics (sorting, conveyor gating, palletizing)',
     ],
-    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent pentru fiecare reper din catalogul Airtac și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile cele mai comune putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni speciale sau configurații custom termenul obișnuit este de 2-4 săptămâni la comandă. Nu promitem disponibilitate imediată fără o verificare prealabilă a furnizorului pentru comanda dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul de produs Airtac, diametrul și cursa dorite, cantitatea necesară și termenul la care aveți nevoie de componente — confirmăm disponibilitatea reală înainte de comandă.`,
+    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent pentru fiecare reper din catalogul Airtac și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile cele mai comune putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni speciale sau configurații custom termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem disponibilitate imediată fără o verificare prealabilă a furnizorului pentru comanda dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul de produs Airtac, diametrul și cursa dorite, cantitatea necesară și termenul la care aveți nevoie de componente — confirmăm disponibilitatea reală înainte de comandă.`,
     limitation: `Nu putem confirma disponibilitatea constantă pentru fiecare dintre miile de repere din catalogul Airtac - aceasta variază de la un model la altul.`,
     sources: [
       {"title":"Airtac International Group","url":"https://us-en.airtac.com/","publisher":"Airtac","accessed":"2026-09-22"},
@@ -545,7 +545,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       },
       {
         "q": "Livrează Airtac componente pneumatice în România?",
-        "a": "Da, componentele Airtac sunt aduse la comandă conform cataloagelor publice ale producătorului, fără un stoc propriu menținut local. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de serie și de cantitatea comandată, iar pentru piese speciale poate dura ceva mai mult."
+        "a": "Da, componentele Airtac sunt aduse la comandă conform cataloagelor publice ale producătorului, fără un stoc propriu menținut local. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de serie și de cantitatea comandată, iar pentru piese speciale poate dura ceva mai mult."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de ghidaje liniare Airtac?",
@@ -617,7 +617,7 @@ Gama de sterilizare și igienizare Anderson-Negele include soluții specializate
       'Personal Care (șampoane, săpunuri lichide)',
       'Chemical (fine chemicals, specialty chemicals)',
     ],
-    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Anderson-Negele și aducem senzorii la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard din portofoliu putem confirma uneori 24-72 h din stoc, iar pentru sisteme complexe, precum ITM-4 sau configurații custom de proces, termenul obișnuit este de 2-4 săptămâni la comandă, cu calibrare din fabrică. Nu deținem date proprii despre stocul permanent al fiecărei variante de senzor. Pentru o ofertă corectă, trimiteți-ne conexiunea de proces, gama de măsurare necesară și cerințele de certificare (3-A, EHEDG, FDA), iar noi revenim cu termenul real confirmat de furnizor.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Anderson-Negele și aducem senzorii la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard din portofoliu putem confirma uneori 24-72 h din stoc, iar pentru sisteme complexe, precum ITM-4 sau configurații custom de proces, termenul obișnuit este de 1–4 săptămâni la comandă, cu calibrare din fabrică. Nu deținem date proprii despre stocul permanent al fiecărei variante de senzor. Pentru o ofertă corectă, trimiteți-ne conexiunea de proces, gama de măsurare necesară și cerințele de certificare (3-A, EHEDG, FDA), iar noi revenim cu termenul real confirmat de furnizor.`,
     limitation: `Nu putem realiza validarea completă IQ/OQ/PQ pentru linii aseptice - aceasta rămâne responsabilitatea unui integrator certificat GAMP 5.`,
     sources: [
       {"title":"Continuous Level Sensors","url":"https://www.anderson-negele.com/continuous-level-sensors","publisher":"Anderson-Negele","accessed":"2026-09-23"},
@@ -701,7 +701,7 @@ Gama de sterilizare și igienizare Anderson-Negele include soluții specializate
       },
       {
         "q": "Livrați senzori Anderson-Negele în România?",
-        "a": "Da, aducem senzori Anderson-Negele la comandă, conform paginilor publice de produs ale producătorului, fără date proprii despre stocul disponibil. Termenul obișnuit este de 2-4 săptămâni, în funcție de model și de opțiunile de conexiune de proces solicitate. Recomandăm confirmarea codului exact înainte de a trimite comanda fermă către noi."
+        "a": "Da, aducem senzori Anderson-Negele la comandă, conform paginilor publice de produs ale producătorului, fără date proprii despre stocul disponibil. Termenul obișnuit este de 1–4 săptămâni, în funcție de model și de opțiunile de conexiune de proces solicitate. Recomandăm confirmarea codului exact înainte de a trimite comanda fermă către noi."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de senzor de nivel Anderson-Negele?",
@@ -776,7 +776,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       'District Heating (centrale termice urbane)',
       'Power Generation (turbine abur, condensatoare)',
     ],
-    infinitrade: `La Infinitrade nu dispunem de date proprii despre stocul permanent al componentelor Armstrong și aducem oalele de condens și echipamentele conexe la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere standard putem confirma uneori 24-72 h din stoc, iar pentru separatoare mari sau configurații de presiune înaltă termenul obișnuit este de 2-4 săptămâni la comandă. Nu promitem un termen fix fără o confirmare prealabilă din partea furnizorului. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, presiunea și temperatura de lucru, precum și capacitatea de evacuare condens necesară — vă răspundem cu disponibilitatea și termenul real confirmate.`,
+    infinitrade: `La Infinitrade nu dispunem de date proprii despre stocul permanent al componentelor Armstrong și aducem oalele de condens și echipamentele conexe la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere standard putem confirma uneori 24-72 h din stoc, iar pentru separatoare mari sau configurații de presiune înaltă termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un termen fix fără o confirmare prealabilă din partea furnizorului. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, presiunea și temperatura de lucru, precum și capacitatea de evacuare condens necesară — vă răspundem cu disponibilitatea și termenul real confirmate.`,
     limitation: `Nu efectuăm noi service în perioada de garanție a producătorului pentru oalele de condens Armstrong - acesta rămâne responsabilitatea rețelei Armstrong International.`,
     sources: [
       {"title":"Products","url":"https://www.armstronginternational.com/products","publisher":"Armstrong International","accessed":"2026-09-22"},
@@ -868,7 +868,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "q": "Livrați echipamente Armstrong în România?",
-        "a": "Comenzile pentru echipamente Armstrong International ajung în România prin aprovizionare la cerere: pornim de la cataloagele și fișele tehnice publicate de producător, nu de la un stoc propriu pe care să îl gestionăm local. În mod obișnuit, o oală de condens sau un regulator standard poate fi adus în 2-4 săptămâni la comandă, termenul final depinzând de serie și de cantitatea comandată."
+        "a": "Comenzile pentru echipamente Armstrong International ajung în România prin aprovizionare la cerere: pornim de la cataloagele și fișele tehnice publicate de producător, nu de la un stoc propriu pe care să îl gestionăm local. În mod obișnuit, o oală de condens sau un regulator standard poate fi adus în 1–4 săptămâni la comandă, termenul final depinzând de serie și de cantitatea comandată."
       },
       {
         "q": "Care e diferența dintre o oală de condens cu disc și una cu plutitor?",
@@ -939,7 +939,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       'Packaging (prese balotat carton/plastic)',
       'Renewable Energy (pitch control turbine eoliene, tracking solar)',
     ],
-    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama Atos de hidraulică industrială și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru valve și cilindri din dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru sisteme integrate cu controllere electronice termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de configurație. Nu avem cum să confirmăm un termen exact fără verificarea disponibilității reale la furnizor. Pentru o ofertă corectă, trimiteți-ne presiunea de lucru, debitul necesar și tipul de control dorit (proporțional sau on/off), iar noi revenim cu termenul confirmat.`,
+    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama Atos de hidraulică industrială și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru valve și cilindri din dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru sisteme integrate cu controllere electronice termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de configurație. Nu avem cum să confirmăm un termen exact fără verificarea disponibilității reale la furnizor. Pentru o ofertă corectă, trimiteți-ne presiunea de lucru, debitul necesar și tipul de control dorit (proporțional sau on/off), iar noi revenim cu termenul confirmat.`,
     limitation: `Nu putem oferi configurarea avansată a controllerelor E-ME sau tuning PID la fața locului - acestea necesită suport tehnic direct de la Atos.`,
     sources: [
       {"title":"Product range overview","url":"https://www.atos.com/range-overview","publisher":"Atos S.p.A.","accessed":"2026-09-22"},
@@ -1011,7 +1011,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "q": "Livrați echipamente hidraulice Atos în România?",
-        "a": "Nu ținem valve sau pompe Atos pe raft; fiecare comandă este plasată după confirmarea codului și a specificațiilor din documentația oficială a producătorului italian. Un interval realist pentru primirea mărfii este de 2-4 săptămâni la comandă, în funcție de cât de personalizată este configurația cerută și de volumul de producție curent al fabricii."
+        "a": "Nu ținem valve sau pompe Atos pe raft; fiecare comandă este plasată după confirmarea codului și a specificațiilor din documentația oficială a producătorului italian. Un interval realist pentru primirea mărfii este de 1–4 săptămâni la comandă, în funcție de cât de personalizată este configurația cerută și de volumul de producție curent al fabricii."
       },
       {
         "q": "Ce diferență este între o pompă și o servopompă în gama Atos?",
@@ -1083,7 +1083,7 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
       'Wood & Furniture (CNC, edge banding, assembly)',
       'Printing & Paper (web handling, cutting, stacking)',
     ],
-    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al gamei Aventics (Emerson) și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile comune putem confirma uneori 24-72 h din stoc, iar pentru configurații cu fieldbus IO-Link sau componente certificate Ex termenul obișnuit este de 2-4 săptămâni la comandă. Nu promitem disponibilitate fără o verificare prealabilă la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne diametrul și cursa cilindrului sau codul valvei, presiunea de lucru și cantitatea dorită — confirmăm termenul real înainte de a plasa comanda.`,
+    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al gamei Aventics (Emerson) și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile comune putem confirma uneori 24-72 h din stoc, iar pentru configurații cu fieldbus IO-Link sau componente certificate Ex termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem disponibilitate fără o verificare prealabilă la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne diametrul și cursa cilindrului sau codul valvei, presiunea de lucru și cantitatea dorită — confirmăm termenul real înainte de a plasa comanda.`,
     limitation: `Nu putem garanta integrarea IO-Link cu sisteme PLC existente fără o verificare tehnică prealabilă la fața locului.`,
     sources: [
       {"title":"AVENTICS Brand | Discrete Automation","url":"https://discreteautomation.emerson.com/brands/aventics","publisher":"Emerson (AVENTICS)","accessed":"2026-09-26"},
@@ -1141,7 +1141,7 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
       },
       {
         "q": "Aduceți cilindri pneumatici Aventics la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă cilindri din gamele PRA, TRB, ITS sau CCL-IC, pe baza referinței complete confirmate de client. Nu ținem această gamă pe raft; ne bazăm pe cataloagele publice Aventics pentru verificarea disponibilității, iar termenul obișnuit de livrare este de 2-4 săptămâni. Recomandăm transmiterea alezajului, cursei și tipului de fixare pentru a evita o comandă greșită."
+        "a": "Da, aducem la comandă cilindri din gamele PRA, TRB, ITS sau CCL-IC, pe baza referinței complete confirmate de client. Nu ținem această gamă pe raft; ne bazăm pe cataloagele publice Aventics pentru verificarea disponibilității, iar termenul obișnuit de livrare este de 1–4 săptămâni. Recomandăm transmiterea alezajului, cursei și tipului de fixare pentru a evita o comandă greșită."
       },
       {
         "q": "Ce diferență este între seriile CCL-IC și CCI de la Aventics?",
@@ -1217,7 +1217,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       'HVAC (chilled water, heating water)',
       'District Heating/Cooling (energie termică billing)',
     ],
-    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Badger Meter și aducem debitmetrele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni mari sau sisteme AMR/AMI complete termenul obișnuit este de 2-4 săptămâni la comandă, cu certificare de billing inclusă. Nu deținem date proprii despre stocul permanent al fiecărei dimensiuni DN. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, tehnologia dorită (electromagnetic, ultrasonic sau turbină) și dacă aveți nevoie de certificare MID pentru facturare, iar noi revenim cu termenul confirmat de furnizor.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Badger Meter și aducem debitmetrele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni mari sau sisteme AMR/AMI complete termenul obișnuit este de 1–4 săptămâni la comandă, cu certificare de billing inclusă. Nu deținem date proprii despre stocul permanent al fiecărei dimensiuni DN. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, tehnologia dorită (electromagnetic, ultrasonic sau turbină) și dacă aveți nevoie de certificare MID pentru facturare, iar noi revenim cu termenul confirmat de furnizor.`,
     limitation: `Nu putem confirma disponibilitatea permanentă a fiecărei dimensiuni DN sau configurații AMR/AMI - fiecare comandă depinde de stocul real al furnizorului la momentul cererii.`,
     sources: [
       {"title":"Badger Meter - Flow Measurement & Water Solutions","url":"https://www.badgermeter.com/","publisher":"Badger Meter, Inc.","accessed":"2026-09-22"},
@@ -1317,7 +1317,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "q": "Livrați produse Badger Meter în România?",
-        "a": "Fiecare debitmetru sau senzor Badger Meter comandat prin noi pornește de la specificațiile publice ale producătorului american, nu dintr-un depozit local pe care îl administrăm noi. Clienții primesc de regulă mărfă în 2-4 săptămâni la comandă, în funcție de tipul de fluid măsurat, diametrul necesar și complexitatea modulelor de telemetrie asociate."
+        "a": "Fiecare debitmetru sau senzor Badger Meter comandat prin noi pornește de la specificațiile publice ale producătorului american, nu dintr-un depozit local pe care îl administrăm noi. Clienții primesc de regulă mărfă în 1–4 săptămâni la comandă, în funcție de tipul de fluid măsurat, diametrul necesar și complexitatea modulelor de telemetrie asociate."
       },
       {
         "q": "Ce diferență este între un debitmetru electromagnetic și unul ultrasonic Dynasonics?",
@@ -1389,7 +1389,7 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       'Wood & Furniture (CNC, edge detection)',
       'Textile (web tension, pattern matching)',
     ],
-    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent al senzorilor Baumer și aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard, precum cei inductivi sau de presiune, putem confirma uneori 24-72 h din stoc, iar pentru encodere absolute, vision sau configurații speciale termenul obișnuit este de 2-4 săptămâni la comandă. Nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor. Pentru o ofertă corectă, trimiteți-ne tipul de senzor, distanța sau presiunea de măsurare necesară și interfața de comunicare dorită (IO-Link, analogic), iar noi confirmăm termenul real înainte de comandă.`,
+    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent al senzorilor Baumer și aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard, precum cei inductivi sau de presiune, putem confirma uneori 24-72 h din stoc, iar pentru encodere absolute, vision sau configurații speciale termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor. Pentru o ofertă corectă, trimiteți-ne tipul de senzor, distanța sau presiunea de măsurare necesară și interfața de comunicare dorită (IO-Link, analogic), iar noi confirmăm termenul real înainte de comandă.`,
     limitation: `Nu putem oferi configurarea avansată a senzorilor vision VeriSens pentru aplicații specifice de inspecție - aceasta necesită suport tehnic dedicat.`,
     sources: [
       {"title":"Baumer USA","url":"https://www.baumer.com/us/en","publisher":"Baumer Group","accessed":"2026-09-22"},
@@ -1461,7 +1461,7 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       },
       {
         "q": "Livrați senzori Baumer în România?",
-        "a": "Pentru senzorii și encoderele Baumer nu operăm un stoc propriu vizibil clienților; procesam fiecare cerere pornind de la cataloagele tehnice publicate de producătorul elvețian. Timpul de așteptare uzual este de 2-4 săptămâni la comandă, variind în funcție de rezoluția encoderului, lungimea cablului sau tipul de ieșire electrică solicitat."
+        "a": "Pentru senzorii și encoderele Baumer nu operăm un stoc propriu vizibil clienților; procesam fiecare cerere pornind de la cataloagele tehnice publicate de producătorul elvețian. Timpul de așteptare uzual este de 1–4 săptămâni la comandă, variind în funcție de rezoluția encoderului, lungimea cablului sau tipul de ieșire electrică solicitat."
       },
       {
         "q": "Care e diferența dintre un senzor inductiv AlphaProx și unul cu factor 1?",

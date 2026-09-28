@@ -37,7 +37,7 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
       "Industria auto — perimetre de siguranță la celule robotizate",
       "Ambalare și paletizare — oprirea automată a liniei la intrarea unui operator în zona de lucru"
     ],
-    infinitrade: `Pentru ReeR lucrăm strict cu informațiile publice de pe site-ul producătorului și spunem clar ce putem și ce nu putem confirma: fără date proprii despre stocul din depozitele ReeR sau despre termenele reale de producție din Torino. Aducem senzori și module din gama Sicurezza la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de codul exact al produsului sau al referinței pe care o înlocuiți, tensiunea de alimentare și tipul de interfață de siguranță cu care trebuie să comunice noul senzor. Nu promitem disponibilitate permanentă din stoc pentru această gamă, tocmai pentru că vine dintr-o linie de siguranță unde configurația corectă contează mai mult decât viteza de livrare.`,
+    infinitrade: `Pentru ReeR lucrăm strict cu informațiile publice de pe site-ul producătorului și spunem clar ce putem și ce nu putem confirma: fără date proprii despre stocul din depozitele ReeR sau despre termenele reale de producție din Torino. Aducem senzori și module din gama Sicurezza la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de codul exact al produsului sau al referinței pe care o înlocuiți, tensiunea de alimentare și tipul de interfață de siguranță cu care trebuie să comunice noul senzor. Nu promitem disponibilitate permanentă din stoc pentru această gamă, tocmai pentru că vine dintr-o linie de siguranță unde configurația corectă contează mai mult decât viteza de livrare.`,
     limitation: "Nu putem confirma certificările complete de produs (categorie, PL) sau suportul tehnic pentru integrarea într-un circuit de siguranță deja existent în fabrică, dincolo de furnizarea echipamentului.",
     productCodes: [
       {
@@ -96,7 +96,7 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
       },
       {
         "q": "Livrați echipamente de siguranță ReeR în România?",
-        "a": "Da, dispozitivele ReeR se comandă punctual din catalogul oficial, cu un termen estimat de 2-4 săptămâni, pentru că nu ținem această gamă de siguranță pe raft din cauza numărului mare de lungimi și rezoluții disponibile. Pentru o ofertă avem nevoie de înălțimea de protecție necesară, rezoluția de detecție și distanța de siguranță calculată pentru aplicația dumneavoastră."
+        "a": "Da, dispozitivele ReeR se comandă punctual din catalogul oficial, cu un termen estimat de 1–4 săptămâni, pentru că nu ținem această gamă de siguranță pe raft din cauza numărului mare de lungimi și rezoluții disponibile. Pentru o ofertă avem nevoie de înălțimea de protecție necesară, rezoluția de detecție și distanța de siguranță calculată pentru aplicația dumneavoastră."
       },
       {
         "q": "Ce rol are seria Safelock SLK de la ReeR?",
@@ -153,7 +153,7 @@ Pentru integratorii din România care montează celule de sortare, debavurare sa
       "Prelucrare prin așchiere — îndepărtarea bavurilor și manipularea semifabricatelor",
       "Ambalare și paletizare — prindere prin vid pentru cutii sau folii"
     ],
-    infinitrade: `Pentru Gimatic ne bazăm exclusiv pe informațiile publice de pe site-ul producătorului, fără date proprii despre stocul din fabrica italiană sau despre termenele lor interne de producție. Furnizăm gripere și componente de vid din gama Gimatic la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Ca să pregătim o ofertă corectă, avem nevoie de seria exactă a griperului sau modulului — MPBM, MPRM, ZV sau altă referință —, cursa ori forța necesară și interfața de montaj pe robot. Nu putem promite disponibilitate permanentă din stoc pentru fiecare referință din această gamă amplă de componente.`,
+    infinitrade: `Pentru Gimatic ne bazăm exclusiv pe informațiile publice de pe site-ul producătorului, fără date proprii despre stocul din fabrica italiană sau despre termenele lor interne de producție. Furnizăm gripere și componente de vid din gama Gimatic la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ca să pregătim o ofertă corectă, avem nevoie de seria exactă a griperului sau modulului — MPBM, MPRM, ZV sau altă referință —, cursa ori forța necesară și interfața de montaj pe robot. Nu putem promite disponibilitate permanentă din stoc pentru fiecare referință din această gamă amplă de componente.`,
     limitation: "Nu putem confirma parametrii tehnici exacți — curse, forțe, diametre — pentru fiecare variantă din gama de gripere sau componente de vid fără specificația de comandă a clientului.",
     productCodes: [
       {
@@ -216,7 +216,7 @@ Pentru integratorii din România care montează celule de sortare, debavurare sa
       },
       {
         "q": "Livrați gripere Gimatic în România?",
-        "a": "Da, griperele Gimatic sunt procurate la cerere, într-un interval tipic de 2-4 săptămâni, deoarece nu păstrăm în permanență pe raft o gamă atât de variată de dimensiuni și curse. Pentru o ofertă corectă avem nevoie de greutatea piesei manipulate, cursa necesară și tipul de acționare dorit, electrică, pneumatică sau prin vid."
+        "a": "Da, griperele Gimatic sunt procurate la cerere, într-un interval tipic de 1–4 săptămâni, deoarece nu păstrăm în permanență pe raft o gamă atât de variată de dimensiuni și curse. Pentru o ofertă corectă avem nevoie de greutatea piesei manipulate, cursa necesară și tipul de acționare dorit, electrică, pneumatică sau prin vid."
       },
       {
         "q": "Ce aplicații are capul de tăiere MFI-A272 de la Gimatic?",
@@ -278,7 +278,7 @@ Pentru ateliere de prelucrare din România care întrețin mașini de șlefuit s
       "Foraj de precizie — componente pentru capete de găurire de mare viteză",
       "Aplicații de vid — etanșări și rulmenți pentru echipamente de vacuum"
     ],
-    infinitrade: `Lucrăm cu gama GMN pe baza informațiilor publicate de producător pe site-ul oficial, fără acces la date proprii despre stocul din Nürnberg sau la termenele reale de fabricație ale unui spindle personalizat. Aducem rulmenți, cuplaje, etanșări și spindle-uri GMN la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni din momentul confirmării comenzii. Pentru o ofertă utilizabilă, avem nevoie de dimensiunile arborelui existent, turația de lucru și, dacă e vorba de un spindle complet, modelul mașinii pe care se montează. Fiind componente de precizie, nu păstrăm stoc pe fiecare variantă și nu putem asigura termene mai scurte decât cele indicate de producător pentru piesele configurate special.`,
+    infinitrade: `Lucrăm cu gama GMN pe baza informațiilor publicate de producător pe site-ul oficial, fără acces la date proprii despre stocul din Nürnberg sau la termenele reale de fabricație ale unui spindle personalizat. Aducem rulmenți, cuplaje, etanșări și spindle-uri GMN la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni din momentul confirmării comenzii. Pentru o ofertă utilizabilă, avem nevoie de dimensiunile arborelui existent, turația de lucru și, dacă e vorba de un spindle complet, modelul mașinii pe care se montează. Fiind componente de precizie, nu păstrăm stoc pe fiecare variantă și nu putem asigura termene mai scurte decât cele indicate de producător pentru piesele configurate special.`,
     limitation: "Nu putem confirma toleranțele exacte sau clasa de precizie a unui rulment fără codul complet de comandă transmis de client.",
     productCodes: [
       {
@@ -409,7 +409,7 @@ Pentru linii de automatizare sau depozitare din România, gama Rollon e relevant
       "Manipulare materiale — șine telescopice pentru sertare și platforme de acces",
       "Calea ferată — componente de mișcare liniară pentru echipamente feroviare"
     ],
-    infinitrade: `Pentru Rollon ne ghidăm după informațiile publicate pe site-ul global al producătorului și pe pagina americană a companiei, fără vizibilitate proprie asupra stocului din fabricile din Italia sau din celelalte țări unde Rollon produce. Livrăm ghidaje, șine telescopice și șuruburi cu bile din gama Rollon la comandă, prin canale de aprovizionare din Uniunea Europeană, iar termenul orientativ este de 2-4 săptămâni de la confirmare. Pentru a pregăti o ofertă, avem nevoie de seria exactă — XP, XL sau XT —, cursa necesară și sarcina pe care trebuie să o susțină sistemul. Nu putem promite disponibilitate permanentă din stoc pentru fiecare lungime sau variantă din această gamă.`,
+    infinitrade: `Pentru Rollon ne ghidăm după informațiile publicate pe site-ul global al producătorului și pe pagina americană a companiei, fără vizibilitate proprie asupra stocului din fabricile din Italia sau din celelalte țări unde Rollon produce. Livrăm ghidaje, șine telescopice și șuruburi cu bile din gama Rollon la comandă, prin canale de aprovizionare din Uniunea Europeană, iar termenul orientativ este de 1–4 săptămâni de la confirmare. Pentru a pregăti o ofertă, avem nevoie de seria exactă — XP, XL sau XT —, cursa necesară și sarcina pe care trebuie să o susțină sistemul. Nu putem promite disponibilitate permanentă din stoc pentru fiecare lungime sau variantă din această gamă.`,
     limitation: "Nu putem confirma compatibilitatea unui ghidaj sau a unei șine telescopice cu un sistem existent fără desenul tehnic sau codul complet transmis de client.",
     productCodes: [
       {
@@ -492,7 +492,7 @@ Pentru linii de automatizare sau depozitare din România, gama Rollon e relevant
       },
       {
         "q": "Livrați ghidaje liniare Rollon în România?",
-        "a": "Da, ghidajele și actuatoarele Rollon sunt aduse la cerere, cu un timp de așteptare estimat la 2-4 săptămâni, întrucât nu menținem un stoc propriu pentru o gamă atât de amplă de lungimi și profile. Pentru o ofertă avem nevoie de sarcina de lucru, lungimea cursei dorite și mediul de funcționare, curat, cu praf sau cu umiditate ridicată."
+        "a": "Da, ghidajele și actuatoarele Rollon sunt aduse la cerere, cu un timp de așteptare estimat la 1–4 săptămâni, întrucât nu menținem un stoc propriu pentru o gamă atât de amplă de lungimi și profile. Pentru o ofertă avem nevoie de sarcina de lucru, lungimea cursei dorite și mediul de funcționare, curat, cu praf sau cu umiditate ridicată."
       },
       {
         "q": "Ce actuator liniar Rollon recomandați pentru curse lungi?",
@@ -547,7 +547,7 @@ Pentru mentenanța industrială din România, gama Nord-Lock are sens mai ales l
       "Mentenanță industrială — înlocuirea sistemelor de fixare care s-au desprins în timp",
       "Construcția de mașini — îmbinări cu șurub în subansamble vibrante"
     ],
-    infinitrade: `Pentru Nord-Lock Group lucrăm cu informația publică de pe pagina grupului, fără acces la cataloage tehnice complete sau la stocul real al fiecărui brand din portofoliu — Nord-Lock, Superbolt, Boltight, Expander System. Comandăm pentru client produse din acest portofoliu, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de diametrul șurubului, aplicația exactă — flanșă, fundație, cuplaj — și, dacă există, codul de referință al piesei pe care o înlocuiește. Nu promitem disponibilitate permanentă din stoc pentru vreuna din cele patru tehnologii ale grupului.`,
+    infinitrade: `Pentru Nord-Lock Group lucrăm cu informația publică de pe pagina grupului, fără acces la cataloage tehnice complete sau la stocul real al fiecărui brand din portofoliu — Nord-Lock, Superbolt, Boltight, Expander System. Comandăm pentru client produse din acest portofoliu, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de diametrul șurubului, aplicația exactă — flanșă, fundație, cuplaj — și, dacă există, codul de referință al piesei pe care o înlocuiește. Nu promitem disponibilitate permanentă din stoc pentru vreuna din cele patru tehnologii ale grupului.`,
     limitation: "Nu putem confirma parametrii tehnici — cupluri, diametre, toleranțe — pentru niciuna din cele patru tehnologii fără fișa de produs specifică de la producător.",
     productCodes: [
       {
@@ -673,7 +673,7 @@ Pentru proiecte de rețea sau posturi de transformare din România, gama SGB-SMI
       "Căi ferate — transformatoare pentru alimentarea infrastructurii feroviare",
       "Infrastructură — porturi, clădiri înalte și centre de date cu necesar propriu de transformare"
     ],
-    infinitrade: `Pentru SGB-SMIT ne bazăm pe fișele de produs publicate de producător, fără date proprii despre programul lor de producție sau despre stocul disponibil în fiecare fabrică a grupului. Aducem transformatoare din gama SGB-SMIT la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni pentru unități standard de catalog — proiectele speciale, configurate pe cerere, au termene stabilite direct de producător, pe care le comunicăm clientului odată confirmate. Pentru o ofertă, avem nevoie de puterea nominală, tensiunea primară și secundară și tipul de montaj dorit. Nu promitem disponibilitate permanentă din stoc, fiindcă majoritatea unităților se fabrică la comandă pe specificația proiectului.`,
+    infinitrade: `Pentru SGB-SMIT ne bazăm pe fișele de produs publicate de producător, fără date proprii despre programul lor de producție sau despre stocul disponibil în fiecare fabrică a grupului. Aducem transformatoare din gama SGB-SMIT la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni pentru unități standard de catalog — proiectele speciale, configurate pe cerere, au termene stabilite direct de producător, pe care le comunicăm clientului odată confirmate. Pentru o ofertă, avem nevoie de puterea nominală, tensiunea primară și secundară și tipul de montaj dorit. Nu promitem disponibilitate permanentă din stoc, fiindcă majoritatea unităților se fabrică la comandă pe specificația proiectului.`,
     limitation: "Nu putem confirma termenul de fabricație pentru un transformator configurat special, în afara celui orientativ pe care îl comunicăm pentru unități de catalog.",
     productCodes: [
       {
@@ -740,7 +740,7 @@ Pentru proiecte de rețea sau posturi de transformare din România, gama SGB-SMI
       },
       {
         "q": "Livrați transformatoare SGB-SMIT în România?",
-        "a": "Da, transformatoarele SGB-SMIT se realizează și livrează la cerere, cu un termen estimat de 2-4 săptămâni, deoarece fiecare unitate se produce conform puterii și tensiunii solicitate, fără un stoc propriu pe raft. Pentru o ofertă avem nevoie de puterea nominală, nivelul de tensiune, tipul de montaj, în ulei sau uscat, și locul de instalare."
+        "a": "Da, transformatoarele SGB-SMIT se realizează și livrează la cerere, cu un termen estimat de 1–4 săptămâni, deoarece fiecare unitate se produce conform puterii și tensiunii solicitate, fără un stoc propriu pe raft. Pentru o ofertă avem nevoie de puterea nominală, nivelul de tensiune, tipul de montaj, în ulei sau uscat, și locul de instalare."
       },
       {
         "q": "Ce putere acoperă transformatoarele de distribuție în ulei SGB-SMIT?",
@@ -811,7 +811,7 @@ Pentru flote auto, utilaje industriale sau echipamente hidraulice din România, 
       "EN 9100 — management de calitate pentru industria aerospațială",
       "AQAP 2110 — standard de calitate în domeniul apărării"
     ],
-    infinitrade: `Pentru UFI Filters lucrăm cu fișele publice de produs și cu pagina de certificări a producătorului, fără date proprii despre stocul din cele 21 de site-uri ale grupului. Aducem filtre din gama UFI la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmarea comenzii — pentru referințele curente de întreținere, termenul poate fi mai scurt, dar nu îl promitem în avans. Pentru o ofertă, avem nevoie de codul original al filtrului sau de datele echipamentului — marcă, model, motor — pe care se montează. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare din cele peste 6.000 de referințe hidraulice din catalog.`,
+    infinitrade: `Pentru UFI Filters lucrăm cu fișele publice de produs și cu pagina de certificări a producătorului, fără date proprii despre stocul din cele 21 de site-uri ale grupului. Aducem filtre din gama UFI la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii — pentru referințele curente de întreținere, termenul poate fi mai scurt, dar nu îl promitem în avans. Pentru o ofertă, avem nevoie de codul original al filtrului sau de datele echipamentului — marcă, model, motor — pe care se montează. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare din cele peste 6.000 de referințe hidraulice din catalog.`,
     limitation: "Nu putem confirma echivalența exactă cu un filtru OEM concurent fără codul de referință transmis de client.",
     productCodes: [
       {
@@ -931,7 +931,7 @@ Pentru ferme, sere sau stații de tratare a apei din România fără alimentare 
       "Tratarea apei — dozare de dezinfectant sau reactiv fără sursă electrică",
       "Industrie — dozare de concentrat unde nu există alimentare electrică la punctul de injecție"
     ],
-    infinitrade: `Pentru Dosatron lucrăm cu descrierile publice de pe site-ul producătorului, versiunea globală și cea americană, fără date proprii despre stocul din fabrica franceză. Procurăm pompele dozatoare Dosatron la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de debitul de apă disponibil, raportul de dozaj dorit și tipul de concentrat injectat, pentru a verifica compatibilitatea chimică. Nu promitem disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru variantele mai puțin uzuale.`,
+    infinitrade: `Pentru Dosatron lucrăm cu descrierile publice de pe site-ul producătorului, versiunea globală și cea americană, fără date proprii despre stocul din fabrica franceză. Procurăm pompele dozatoare Dosatron la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de debitul de apă disponibil, raportul de dozaj dorit și tipul de concentrat injectat, pentru a verifica compatibilitatea chimică. Nu promitem disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru variantele mai puțin uzuale.`,
     limitation: "Nu putem confirma modelul exact recomandat pentru o instalație fără datele de debit și presiune trimise de client.",
     productCodes: [
       {
@@ -1006,7 +1006,7 @@ Pentru ferme, sere sau stații de tratare a apei din România fără alimentare 
       },
       {
         "q": "Livrați pompe Dosatron în România?",
-        "a": "Da, pompele Dosatron ajung la comandă, de regulă în 2-4 săptămâni, deoarece nu ținem această gamă pe raft, având în vedere numărul mare de variante de debit și raport de dozare. La solicitarea unei oferte ne sunt utile debitul de apă disponibil, raportul de dozare dorit și aplicația exactă, irigație, sănătate animală sau tratarea apei."
+        "a": "Da, pompele Dosatron ajung la comandă, de regulă în 1–4 săptămâni, deoarece nu ținem această gamă pe raft, având în vedere numărul mare de variante de debit și raport de dozare. La solicitarea unei oferte ne sunt utile debitul de apă disponibil, raportul de dozare dorit și aplicația exactă, irigație, sănătate animală sau tratarea apei."
       },
       {
         "q": "Ce diferență este între familiile D8RE și D25RE la Dosatron?",
@@ -1069,7 +1069,7 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
       "Căi ferate — sudură pentru structuri metalice feroviare",
       "Conducte și lucrări industriale generale — sudură TIG și MIG/MAG"
     ],
-    infinitrade: `Pentru EWM lucrăm cu ce publică producătorul pe site-ul oficial și pe pagina lor de produse, fără date proprii despre stocul din Mündersbach. Aducem aparate de sudură EWM la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de procedeul de sudură dorit — MIG/MAG, WIG sau electrod —, curentul necesar și dacă echipamentul trebuie integrat într-o celulă robotizată. Nu promitem disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru variantele robotizate configurate pe proiect.`,
+    infinitrade: `Pentru EWM lucrăm cu ce publică producătorul pe site-ul oficial și pe pagina lor de produse, fără date proprii despre stocul din Mündersbach. Aducem aparate de sudură EWM la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de procedeul de sudură dorit — MIG/MAG, WIG sau electrod —, curentul necesar și dacă echipamentul trebuie integrat într-o celulă robotizată. Nu promitem disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru variantele robotizate configurate pe proiect.`,
     limitation: "Nu putem confirma disponibilitatea locală a service-ului în garanția producătorului pentru un aparat EWM adus prin comandă.",
     productCodes: [
       {
@@ -1124,7 +1124,7 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
       },
       {
         "q": "Livrează EWM aparate de sudură pentru clienți din România?",
-        "a": "Da, comandăm pentru client aparate din gamele XQ, Picomig, Picotig sau Picomax, pe baza denumirii complete confirmate din documentația oficială EWM. Gama nu se află pe raftul nostru; comanda pornește de la disponibilitatea publicată de EWM, cu un termen obișnuit de 2-4 săptămâni."
+        "a": "Da, comandăm pentru client aparate din gamele XQ, Picomig, Picotig sau Picomax, pe baza denumirii complete confirmate din documentația oficială EWM. Gama nu se află pe raftul nostru; comanda pornește de la disponibilitatea publicată de EWM, cu un termen obișnuit de 1–4 săptămâni."
       },
       {
         "q": "Ce detalii sunt utile pentru o ofertă la un aparat de sudură EWM?",
@@ -1186,7 +1186,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       "Apărare — echipamente de sudură pentru mentenanță specializată",
       "Producție de serie — sudură robotizată cu GX-R System și AX MIG Welder"
     ],
-    infinitrade: `Pentru Kemppi ne bazăm pe informația de pe site-ul producătorului și pe anul de fondare confirmat separat, fără acces la stocul lor real din Lahti. Punem la dispoziție aparatele de sudură Kemppi la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de procedeul dorit — MIG/MAG sau TIG —, curentul de sudură necesar și dacă aparatul e pentru uz portabil sau pentru integrare robotizată. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru sistemele robotizate configurate pe proiect.`,
+    infinitrade: `Pentru Kemppi ne bazăm pe informația de pe site-ul producătorului și pe anul de fondare confirmat separat, fără acces la stocul lor real din Lahti. Punem la dispoziție aparatele de sudură Kemppi la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de procedeul dorit — MIG/MAG sau TIG —, curentul de sudură necesar și dacă aparatul e pentru uz portabil sau pentru integrare robotizată. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru sistemele robotizate configurate pe proiect.`,
     limitation: "Nu putem confirma configurația software sau parametrii de sudură presetați pentru sistemele robotizate Kemppi fără specificația tehnică a liniei clientului.",
     productCodes: [
       {
@@ -1253,7 +1253,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       },
       {
         "q": "Livrați aparate de sudură Kemppi în România?",
-        "a": "Da, aparatele Kemppi ajung la comandă din gama oficială a producătorului, orientativ în 2-4 săptămâni, pentru că magazinul nu ține în permanență această gamă pe raft. Pentru o ofertă corectă este util să menționați procesul de sudare dorit, puterea necesară în amperi și dacă aveți nevoie de un pistolet Flexlite anume."
+        "a": "Da, aparatele Kemppi ajung la comandă din gama oficială a producătorului, orientativ în 1–4 săptămâni, pentru că magazinul nu ține în permanență această gamă pe raft. Pentru o ofertă corectă este util să menționați procesul de sudare dorit, puterea necesară în amperi și dacă aveți nevoie de un pistolet Flexlite anume."
       },
       {
         "q": "Ce diferență este între pistoalele Flexlite GXe și Flexlite GF de la Kemppi?",
@@ -1314,7 +1314,7 @@ Pentru laboratoare de service, control calitate sau linii de testare din Români
       "Automotive — teste de conversie a puterii pentru componente electrice",
       "Laboratoare de service — instrumentație de bancă pentru diagnoză și reparații"
     ],
-    infinitrade: `Pentru GW Instek lucrăm cu categoriile de produse publicate pe site-ul producătorului, fără date proprii despre stocul din Taiwan sau despre termenele lor reale de fabricație. Aducem instrumentele GW Instek la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de modelul exact sau, dacă nu-l cunoașteți, de parametrii de test necesari — tensiune, curent, bandă de frecvență. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din acest catalog extins de instrumentație.`,
+    infinitrade: `Pentru GW Instek lucrăm cu categoriile de produse publicate pe site-ul producătorului, fără date proprii despre stocul din Taiwan sau despre termenele lor reale de fabricație. Aducem instrumentele GW Instek la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de modelul exact sau, dacă nu-l cunoașteți, de parametrii de test necesari — tensiune, curent, bandă de frecvență. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din acest catalog extins de instrumentație.`,
     limitation: "Nu putem confirma calibrarea sau certificatul de etalonare pentru un instrument GW Instek adus prin comandă, dincolo de ce oferă producătorul standard.",
     productCodes: [
       {
@@ -1393,7 +1393,7 @@ Pentru laboratoare de service, control calitate sau linii de testare din Români
       },
       {
         "q": "Livrați instrumente GW Instek în România?",
-        "a": "Da, instrumentele GW Instek, de la osciloscoape la surse de alimentare sau multimetre, ajung la comandă în circa 2-4 săptămâni; nu păstrăm pe raft o selecție atât de amplă de modele. Ca să pregătim o ofertă, ne este util codul exact al aparatului sau aplicația de măsurare vizată."
+        "a": "Da, instrumentele GW Instek, de la osciloscoape la surse de alimentare sau multimetre, ajung la comandă în circa 1–4 săptămâni; nu păstrăm pe raft o selecție atât de amplă de modele. Ca să pregătim o ofertă, ne este util codul exact al aparatului sau aplicația de măsurare vizată."
       },
       {
         "q": "Ce diferență este între sursa PPH-1503D și sarcina electronică PEL-3041 de la GW Instek?",
@@ -1453,7 +1453,7 @@ Pentru centre de date, ferme eoliene sau instalații industriale din România un
       "Centre de date — monitorizare umiditate și servicii de mentenanță dedicate",
       "Industrie de proces — senzori de umiditate, punct de rouă și CO2"
     ],
-    infinitrade: `Pentru Vaisala lucrăm cu fișele de produs de pe site-ul oficial și cu anul de fondare confirmat independent, fără date proprii despre stocul din Vantaa. Aducem senzori și instrumente Vaisala la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de aplicația exactă — proces industrial, mediu exterior, zonă cu risc de explozie — și de parametrul măsurat: umiditate, punct de rouă, CO2 sau vânt. Nu promitem disponibilitate permanentă din stoc pentru fiecare senzor din acest portofoliu amplu de instrumentație.`,
+    infinitrade: `Pentru Vaisala lucrăm cu fișele de produs de pe site-ul oficial și cu anul de fondare confirmat independent, fără date proprii despre stocul din Vantaa. Aducem senzori și instrumente Vaisala la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de aplicația exactă — proces industrial, mediu exterior, zonă cu risc de explozie — și de parametrul măsurat: umiditate, punct de rouă, CO2 sau vânt. Nu promitem disponibilitate permanentă din stoc pentru fiecare senzor din acest portofoliu amplu de instrumentație.`,
     limitation: "Nu putem confirma certificarea ATEX sau alte aprobări de zonă explozivă pentru un model Vaisala fără fișa tehnică specifică a variantei comandate.",
     productCodes: [
       {
@@ -1536,7 +1536,7 @@ Pentru centre de date, ferme eoliene sau instalații industriale din România un
       },
       {
         "q": "Livrați instrumente Vaisala în România?",
-        "a": "Da, instrumentele Vaisala pentru măsurarea umidității, temperaturii sau presiunii se aduc punctual la comandă, cu un termen tipic de 2-4 săptămâni; gama nu este păstrată pe raft din cauza numărului mare de variante disponibile. Pentru o propunere adaptată, indicați-ne parametrul măsurat, domeniul dorit și tipul de montaj, canal, perete sau imersie."
+        "a": "Da, instrumentele Vaisala pentru măsurarea umidității, temperaturii sau presiunii se aduc punctual la comandă, cu un termen tipic de 1–4 săptămâni; gama nu este păstrată pe raft din cauza numărului mare de variante disponibile. Pentru o propunere adaptată, indicați-ne parametrul măsurat, domeniul dorit și tipul de montaj, canal, perete sau imersie."
       },
       {
         "q": "Ce este seria Origo10 de la Vaisala?",

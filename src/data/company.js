@@ -53,7 +53,7 @@ export const companyInfo = {
 
 export const features = [
   { icon: 'Package', title: 'Depozit în Ghiroda', description: 'Repere uzuale de mentenanță pe stoc în depozitul din Ghiroda (Timiș), pentru livrare în 24–72 h' },
-  { icon: 'Truck', title: 'Termen scris în ofertă', description: 'Din stoc: 24–72 h în toată România. Din fabrică: de regulă 2–4 săptămâni; execuțiile speciale pot depăși 4 săptămâni' },
+  { icon: 'Truck', title: 'Termen scris în ofertă', description: 'Din stocul nostru sau al furnizorului: 24–72 h. La comandă: de regulă 1–4 săptămâni; raritățile și sistemele complexe pot depăși 4 săptămâni' },
   { icon: 'Wrench', title: 'Piese de schimb originale', description: 'Componente de la producători, identificate după codul de pe plăcuță sau din documentație' },
   { icon: 'Headphones', title: 'Suport la selecție', description: 'Verificăm datele aplicației și propunem variantele din gama producătorului' },
   { icon: 'Shield', title: 'Documente de conformitate', description: 'Declarații de conformitate și certificate de la producător, la cerere, inclusiv pentru SEAP' },

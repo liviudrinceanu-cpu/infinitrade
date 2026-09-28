@@ -26,7 +26,10 @@ export const roleContact = {
 export const PAYMENT_TERMS_TEXT = 'de regulă 30–60 de zile pentru clienții cu contract';
 
 export const LEAD_TIME_TEXT =
-  '24–72 h pentru reperele aflate pe stoc în România sau într-un depozit din Europa; din fabrică, de regulă 2–4 săptămâni; execuțiile OEM sau personalizate pot depăși 4 săptămâni';
+  '24–72 h pentru reperele aflate în stocul nostru sau în stocul furnizorului; produsele fabricate la comandă, de regulă 1–4 săptămâni; raritățile, echipamentele și sistemele complexe pot depăși 4 săptămâni, în funcție de producător și de rezervarea capacității lui de producție';
+
+export const LEAD_TIME_START =
+  'Termenul curge de la plata avansului, comanda fermă, semnarea contractului sau, după caz, înscrierea noastră ca furnizor.';
 
 export const roles = {
   achizitii: {
@@ -77,7 +80,7 @@ export const roles = {
         items: [
           'Pentru fiecare poziție: producătorul, codul exact, cantitatea, termenul de livrare și condiția de livrare.',
           'Dacă propunem un echivalent sau un succesor al unui reper scos din fabricație, îl marcăm explicit, cu diferențele față de codul cerut.',
-          `Termene: ${LEAD_TIME_TEXT}.`,
+          `Termene: ${LEAD_TIME_TEXT}. ${LEAD_TIME_START}`,
           'Documentele care însoțesc livrarea: declarația de conformitate a producătorului, fișa tehnică și, unde este cazul, certificatele ATEX sau SIL și certificatul de origine.',
           'Termen de plată: de regulă 30–60 de zile pentru clienții cu contract, scris în ofertă sau în contract, în limitele Legii nr. 72/2013 privind combaterea întârzierii în executarea obligațiilor de plată.',
         ],
@@ -156,7 +159,7 @@ export const roles = {
     metaDescription:
       'Pentru echipele de mentenanță: piese de schimb după codul sau poza plăcuței, succesori pentru repere scoase din fabricație, livrare din stoc în 24–72 h.',
     h1: 'Pentru echipele de mentenanță',
-    lead: 'Trimiteți codul de pe plăcuță, o poză a plăcuței sau codul piesei, iar noi identificăm reperul în documentația producătorului și vă spunem disponibilitatea și termenul. Reperele aflate pe stoc se livrează în 24–72 h; din fabrică, de regulă în 2–4 săptămâni.',
+    lead: 'Trimiteți codul de pe plăcuță, o poză a plăcuței sau codul piesei, iar noi identificăm reperul în documentația producătorului și vă spunem disponibilitatea și termenul. Reperele aflate pe stoc se livrează în 24–72 h; din fabrică, de regulă în 1–4 săptămâni.',
     sections: [
       {
         title: 'Ce rezolvăm pentru mentenanță',
@@ -182,7 +185,7 @@ export const roles = {
         title: 'Urgențe',
         items: [
           `Dacă o defecțiune oprește producția, sunați-ne la ${phone} (${'luni–vineri, 08:00–16:30'}) și spuneți de la început că este o urgență.`,
-          'Vă spunem termenul realist: din stocul din Ghiroda, dintr-un depozit din Europa sau direct de la producător, cu transportul potrivit.',
+          'Vă spunem termenul realist: din stocul nostru din Ghiroda, din stocul furnizorului sau direct de la producător, cu transportul potrivit.',
         ],
       },
     ],
@@ -197,7 +200,7 @@ export const roles = {
       },
       {
         q: 'Cât durează livrarea unei piese?',
-        a: `${LEAD_TIME_TEXT.charAt(0).toUpperCase()}${LEAD_TIME_TEXT.slice(1)}. Termenul exact se scrie în ofertă.`,
+        a: `${LEAD_TIME_TEXT.charAt(0).toUpperCase()}${LEAD_TIME_TEXT.slice(1)}. ${LEAD_TIME_START} Termenul exact se scrie în ofertă.`,
       },
       {
         q: 'Puteți pregăti piesele pentru o oprire planificată?',

@@ -64,7 +64,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de suflante cu canal lateral și în cât timp se livrează?",
-        "a": "Sunt necesare debitul, presiunea de lucru, aplicația și temperatura ambiantă. Termenul de livrare este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de existența variantei cerute în configurația standard sau ca proiect special."
+        "a": "Sunt necesare debitul, presiunea de lucru, aplicația și temperatura ambiantă. Termenul de livrare este la comandă, orientativ 1–4 săptămâni, în funcție de producător și de existența variantei cerute în configurația standard sau ca proiect special."
       },
       {
         "q": "Cât de des trebuie curățat sau schimbat filtrul de admisie al unei suflante cu canal lateral?",
@@ -137,7 +137,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de suflantă Roots industrială și cât durează livrarea?",
-        "a": "Sunt necesare debitul de aer, presiunea diferențială necesară, tipul de aplicație, nivelul de zgomot admis și puterea motorului dorită. Termenul de livrare se confirmă la comandă, în general 2-4 săptămâni, în funcție de producător și de opțiunea de insonorizare aleasă."
+        "a": "Sunt necesare debitul de aer, presiunea diferențială necesară, tipul de aplicație, nivelul de zgomot admis și puterea motorului dorită. Termenul de livrare se confirmă la comandă, în general 1–4 săptămâni, în funcție de producător și de opțiunea de insonorizare aleasă."
       },
       {
         "q": "Ce compatibilitate trebuie verificată între o suflantă Roots și rețeaua de conducte existentă?",
@@ -284,7 +284,7 @@ export const productTypes = [
       },
       {
         "q": "Ce date trimitem pentru ofertă și cât durează livrarea unor ventilatoare axiale?",
-        "a": "Sunt necesare debitul de aer, presiunea statică a instalației, diametrul de montaj, tensiunea de alimentare și caracteristicile mediului de lucru. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător și de eventuala certificare ATEX solicitată."
+        "a": "Sunt necesare debitul de aer, presiunea statică a instalației, diametrul de montaj, tensiunea de alimentare și caracteristicile mediului de lucru. Livrarea se face la comandă, orientativ în 1–4 săptămâni, în funcție de producător și de eventuala certificare ATEX solicitată."
       },
       {
         "q": "Se poate monta un ventilator axial existent pe o instalație cu filtre noi, mai restrictive?",
@@ -363,7 +363,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de pompă de vid și cât durează livrarea?",
-        "a": "Nivelul de vid dorit, debitul necesar și tipul de gaz aspirat sunt datele esențiale pentru o propunere corectă. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de tipul constructiv ales."
+        "a": "Nivelul de vid dorit, debitul necesar și tipul de gaz aspirat sunt datele esențiale pentru o propunere corectă. Livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător și de tipul constructiv ales."
       },
       {
         "q": "Se poate folosi aceeași pompă de vid și pentru aplicații alimentare?",
@@ -437,7 +437,7 @@ export const productTypes = [
       },
       {
         "q": "Ce date sunt necesare pentru o ofertă de compresor industrial și în cât timp se livrează?",
-        "a": "Sunt necesare debitul, presiunea de lucru, calitatea aerului cerută și regimul de funcționare zilnic. Livrarea depinde de configurație și de producător, orientativ 2-4 săptămâni de la comandă pentru modelele care nu sunt stocate ca produs standard."
+        "a": "Sunt necesare debitul, presiunea de lucru, calitatea aerului cerută și regimul de funcționare zilnic. Livrarea depinde de configurație și de producător, orientativ 1–4 săptămâni de la comandă pentru modelele care nu sunt stocate ca produs standard."
       },
       {
         "q": "Cât de des trebuie schimbat uleiul la un compresor cu șurub?",

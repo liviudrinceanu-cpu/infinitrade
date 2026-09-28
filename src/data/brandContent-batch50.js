@@ -29,7 +29,7 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
       "Tratarea apei — comunicație între automate programabile în stații de tratare",
       "Infrastructură critică — rețele redundante acolo unde o defecțiune oprește procesul",
     ],
-    infinitrade: `Pentru Hirschmann lucrăm din surse publice ale producătorului și din documentația tehnică disponibilă online — nu avem un istoric de livrări proprii pentru acest brand și spunem direct ce putem și ce nu putem confirma din experiență proprie. Switch-urile și routerele Hirschmann le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de codul exact al switch-ului sau routerului, numărul de porturi și tipul de conexiune (cupru/fibră). Nu promitem disponibilitate permanentă din stoc pe această gamă — fiecare comandă se configurează după cerințele proiectului.`,
+    infinitrade: `Pentru Hirschmann lucrăm din surse publice ale producătorului și din documentația tehnică disponibilă online — nu avem un istoric de livrări proprii pentru acest brand și spunem direct ce putem și ce nu putem confirma din experiență proprie. Switch-urile și routerele Hirschmann le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de codul exact al switch-ului sau routerului, numărul de porturi și tipul de conexiune (cupru/fibră). Nu promitem disponibilitate permanentă din stoc pe această gamă — fiecare comandă se configurează după cerințele proiectului.`,
     limitation: "Nu putem confirma disponibilitatea configurațiilor de securitate cibernetică specifice fiecărui firmware fără o cerere tehnică detaliată transmisă direct la producător.",
     productCodes: [
       {
@@ -170,7 +170,7 @@ Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează
       "Sticlă — ridicare și poziționare panouri fragile",
       "Industria auto — manipulare table caroserie și componente",
     ],
-    infinitrade: `La Schmalz nu avem un istoric propriu de livrări și spunem asta direct — informațiile tehnice de mai sus vin din surse publice ale producătorului, nu din verificări proprii pe teren. Componentele se aduc la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 2-4 săptămâni din momentul confirmării comenzii. Pentru o ofertă corectă avem nevoie de tipul piesei manipulate, greutatea, materialul suprafeței și presiunea de aer comprimat disponibilă la punctul de montaj. Nu putem promite disponibilitate permanentă din stoc pentru fiecare configurație de ventuză sau generator — depinde de model și de furnizor.`,
+    infinitrade: `La Schmalz nu avem un istoric propriu de livrări și spunem asta direct — informațiile tehnice de mai sus vin din surse publice ale producătorului, nu din verificări proprii pe teren. Componentele se aduc la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni din momentul confirmării comenzii. Pentru o ofertă corectă avem nevoie de tipul piesei manipulate, greutatea, materialul suprafeței și presiunea de aer comprimat disponibilă la punctul de montaj. Nu putem promite disponibilitate permanentă din stoc pentru fiecare configurație de ventuză sau generator — depinde de model și de furnizor.`,
     limitation: "Nu putem confirma termenele de livrare specifice fiecărui model de generator de vid fără o cerere de ofertă transmisă direct la producător.",
     productCodes: [
       {
@@ -278,7 +278,7 @@ Pentru transportatorii și constructorii din România, Hyva înseamnă piese de 
       "Salubrizare — sisteme hookloader și skiploader pentru containere de deșeuri",
       "Minerit — componente hidraulice pentru utilaje de transport materiale",
     ],
-    infinitrade: `Pentru Hyva nu avem istoric de livrări proprii și spunem clar ce putem și ce nu putem confirma — datele tehnice de mai sus vin din informațiile publice disponibile pe site-ul producătorului. Cilindrii și componentele hidraulice se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru identificarea piesei corecte, avem nevoie de modelul vehiculului sau utilajului, cursa cilindrului sau capacitatea macaralei și, dacă e posibil, codul original al piesei. Nu putem asigura disponibilitate permanentă din stoc pentru toate variantele de cilindri — depinde de model și de sursă.`,
+    infinitrade: `Pentru Hyva nu avem istoric de livrări proprii și spunem clar ce putem și ce nu putem confirma — datele tehnice de mai sus vin din informațiile publice disponibile pe site-ul producătorului. Cilindrii și componentele hidraulice se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru identificarea piesei corecte, avem nevoie de modelul vehiculului sau utilajului, cursa cilindrului sau capacitatea macaralei și, dacă e posibil, codul original al piesei. Nu putem asigura disponibilitate permanentă din stoc pentru toate variantele de cilindri — depinde de model și de sursă.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui cilindru cu un șasiu specific fără numărul de identificare al vehiculului sau desenul tehnic original.",
     productCodes: [
       {
@@ -389,7 +389,7 @@ Pentru fabricile din România cu producție de serie — auto, electrocasnice, m
       "Construcția de mașini — elemente de fixare pentru utilaje și structuri metalice",
       "Mobilier metalic — fixare structuri și panouri",
     ],
-    infinitrade: `La Bossard mergem tot pe surse publice ale producătorului, fără date proprii de stoc pe acest brand — spunem direct unde se opresc informațiile noastre față de ce cunoaște fabricantul. Reperele de fixare se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, iar pentru cantități mari termenul poate varia după disponibilitatea la producător. Pentru ofertă avem nevoie de desenul tehnic sau codul reperului, materialul dorit și cantitatea estimată lunar. Nu promitem disponibilitate permanentă din stoc pentru repere nestandard sau personalizate.`,
+    infinitrade: `La Bossard mergem tot pe surse publice ale producătorului, fără date proprii de stoc pe acest brand — spunem direct unde se opresc informațiile noastre față de ce cunoaște fabricantul. Reperele de fixare se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, iar pentru cantități mari termenul poate varia după disponibilitatea la producător. Pentru ofertă avem nevoie de desenul tehnic sau codul reperului, materialul dorit și cantitatea estimată lunar. Nu promitem disponibilitate permanentă din stoc pentru repere nestandard sau personalizate.`,
     limitation: "Nu putem oferi serviciul de inginerie a asamblării la fața locului, disponibil direct prin echipele tehnice ale producătorului.",
     productCodes: [
       {
@@ -448,7 +448,7 @@ Pentru fabricile din România cu producție de serie — auto, electrocasnice, m
       },
       {
         "q": "Comandați elemente de fixare Bossard pentru livrare în România?",
-        "a": "Da, comandăm pentru client șuruburi, piulițe și sisteme speciale din gamele Bossard, pe baza referinței standard sau tehnice confirmate. Gama nu se regăsește pe raftul propriu; comanda se onorează conform disponibilității publicate de Bossard, într-un interval obișnuit de 2-4 săptămâni. Este util să transmiteți dimensiunea, clasa de rezistență și materialul dorit pentru elementul căutat."
+        "a": "Da, comandăm pentru client șuruburi, piulițe și sisteme speciale din gamele Bossard, pe baza referinței standard sau tehnice confirmate. Gama nu se regăsește pe raftul propriu; comanda se onorează conform disponibilității publicate de Bossard, într-un interval obișnuit de 1–4 săptămâni. Este util să transmiteți dimensiunea, clasa de rezistență și materialul dorit pentru elementul căutat."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la elemente de fixare Bossard?",
@@ -494,7 +494,7 @@ Pentru ateliere de mentenanță și producători de dispozitive din România, Ha
       "Industria auto — elemente de operare pentru echipamente și linii",
       "Aerospațial — bolțuri de blocare conforme standardelor NAS/MS",
     ],
-    infinitrade: `Pentru Halder nu avem date proprii de stoc și spunem asta deschis — informațiile de mai sus provin din pagina oficială a producătorului, fără verificare suplimentară în teren. Elementele standard se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, iar pentru cantități mici uneori termenul poate fi mai scurt, în funcție de disponibilitatea la distribuitorii europeni. Pentru ofertă avem nevoie de codul reperului sau desenul tehnic, materialul dorit și cantitatea. Nu putem asigura disponibilitate permanentă din stoc pentru toate variantele de bolțuri sau mânere.`,
+    infinitrade: `Pentru Halder nu avem date proprii de stoc și spunem asta deschis — informațiile de mai sus provin din pagina oficială a producătorului, fără verificare suplimentară în teren. Elementele standard se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, iar pentru cantități mici uneori termenul poate fi mai scurt, în funcție de disponibilitatea la distribuitorii europeni. Pentru ofertă avem nevoie de codul reperului sau desenul tehnic, materialul dorit și cantitatea. Nu putem asigura disponibilitate permanentă din stoc pentru toate variantele de bolțuri sau mânere.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui bolț de indexare cu un dispozitiv existent fără desenul tehnic sau codul original al piesei montate.",
     productCodes: [
       {
@@ -604,7 +604,7 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
       "Infrastructură — treceri de cabluri prin ziduri de compartimentare la foc",
       "Tratarea apei — etanșare cabluri în stații de pompare și tratare",
     ],
-    infinitrade: `La Roxtec nu avem istoric propriu de livrări și spunem direct ce putem și ce nu putem confirma — informațiile tehnice de mai sus vin din surse publice ale producătorului suedez. Cadrele și modulele de etanșare se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de numărul și diametrele cablurilor sau țevilor, tipul peretelui sau plăcii de trecere și clasa de protecție necesară (foc, apă, gaz). Nu putem promite disponibilitate permanentă din stoc pentru toate dimensiunile de module.`,
+    infinitrade: `La Roxtec nu avem istoric propriu de livrări și spunem direct ce putem și ce nu putem confirma — informațiile tehnice de mai sus vin din surse publice ale producătorului suedez. Cadrele și modulele de etanșare se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de numărul și diametrele cablurilor sau țevilor, tipul peretelui sau plăcii de trecere și clasa de protecție necesară (foc, apă, gaz). Nu putem promite disponibilitate permanentă din stoc pentru toate dimensiunile de module.`,
     limitation: "Nu putem realiza noi înșine dimensionarea în software-ul Transit Designer al producătorului — rămâne un serviciu oferit direct de echipa tehnică Roxtec.",
     productCodes: [
       {
@@ -675,7 +675,7 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
       },
       {
         "q": "Livrați module Roxtec în România?",
-        "a": "Da, aducem seria Roxtec la comandă direct din gama oficială, de regulă în 2-4 săptămâni, pentru că nu ținem această gamă pe raft. Pentru o ofertă corectă avem nevoie de diametrul exterior exact al cablului sau țevii, tipul de perete ori cadru folosit și numărul de intrări necesare, ca să confirmăm codul RM potrivit înainte de comandă."
+        "a": "Da, aducem seria Roxtec la comandă direct din gama oficială, de regulă în 1–4 săptămâni, pentru că nu ținem această gamă pe raft. Pentru o ofertă corectă avem nevoie de diametrul exterior exact al cablului sau țevii, tipul de perete ori cadru folosit și numărul de intrări necesare, ca să confirmăm codul RM potrivit înainte de comandă."
       },
       {
         "q": "Ce diferență este între RM 40 și RM 40 10-32?",
@@ -719,7 +719,7 @@ Pentru clădiri din România fără acces la gaz la conductă sau pentru instala
       "Comercial — încălzire spații de birouri și retail",
       "Industrial mic-mediu — generatoare de aer cald pentru hale",
     ],
-    infinitrade: `Pentru Arca Caldaie nu avem date proprii de stoc și lucrăm din informațiile publice de pe site-ul producătorului italian — spunem direct ce putem și ce nu putem confirma pentru fiecare model. Cazanele și componentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de puterea necesară, tipul de combustibil disponibil și dacă instalația e nouă sau înlocuiește un cazan existent. Nu promitem disponibilitate permanentă din stoc pentru fiecare model — depinde de gamă și de sezon.`,
+    infinitrade: `Pentru Arca Caldaie nu avem date proprii de stoc și lucrăm din informațiile publice de pe site-ul producătorului italian — spunem direct ce putem și ce nu putem confirma pentru fiecare model. Cazanele și componentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de puterea necesară, tipul de combustibil disponibil și dacă instalația e nouă sau înlocuiește un cazan existent. Nu promitem disponibilitate permanentă din stoc pentru fiecare model — depinde de gamă și de sezon.`,
     limitation: "Nu putem confirma disponibilitatea pieselor de schimb pe termen lung pentru modele mai vechi, scoase între timp din fabricația curentă a producătorului.",
     productCodes: [
       {
@@ -786,7 +786,7 @@ Pentru clădiri din România fără acces la gaz la conductă sau pentru instala
       },
       {
         "q": "Livrați echipamente Arca Caldaie în România?",
-        "a": "Da, echipamentele Arca Caldaie ajung la comandă în circa 2-4 săptămâni; nu păstrăm această gamă pe raft, ci o aducem punctual pentru fiecare proiect, pe baza modelului exact solicitat din catalogul producătorului. Vă recomandăm să indicați puterea termică necesară și tipul de combustibil dorit, gaz, biomasă sau sistem hibrid, pentru o ofertă corectă."
+        "a": "Da, echipamentele Arca Caldaie ajung la comandă în circa 1–4 săptămâni; nu păstrăm această gamă pe raft, ci o aducem punctual pentru fiecare proiect, pe baza modelului exact solicitat din catalogul producătorului. Vă recomandăm să indicați puterea termică necesară și tipul de combustibil dorit, gaz, biomasă sau sistem hibrid, pentru o ofertă corectă."
       },
       {
         "q": "Ce diferență este între un cazan pe gaz și un sistem hibrid la Arca Caldaie?",
@@ -829,7 +829,7 @@ Pentru procesatorii din România din lactate, băuturi sau industria farmaceutic
       "Farmaceutică — pompare produse lichide cu cerințe stricte de igienă",
       "Chimie — transfer fluide de proces în instalații industriale",
     ],
-    infinitrade: `Pentru GEA nu avem date proprii de stoc pe partea de pompe și lucrăm din informațiile publice ale producătorului — spunem deschis ce putem și ce nu putem confirma pentru fiecare model. Pompele și componentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul fluidului pompat, debitul și presiunea necesară, plus cerințele de curățare CIP dacă e cazul. Nu putem asigura disponibilitate permanentă din stoc pentru toate modelele din gama GEA — depinde de configurație și de producție.`,
+    infinitrade: `Pentru GEA nu avem date proprii de stoc pe partea de pompe și lucrăm din informațiile publice ale producătorului — spunem deschis ce putem și ce nu putem confirma pentru fiecare model. Pompele și componentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul fluidului pompat, debitul și presiunea necesară, plus cerințele de curățare CIP dacă e cazul. Nu putem asigura disponibilitate permanentă din stoc pentru toate modelele din gama GEA — depinde de configurație și de producție.`,
     limitation: "Nu putem confirma configurațiile exacte de etanșare igienică disponibile pentru fiecare model fără o cerere tehnică transmisă direct la producător.",
     productCodes: [
       {
@@ -896,7 +896,7 @@ Pentru procesatorii din România din lactate, băuturi sau industria farmaceutic
       },
       {
         "q": "Livrați pompe și supape GEA în România?",
-        "a": "Da, aducem componentele GEA la comandă, orientativ în 2-4 săptămâni, întrucât gama nu este ținută pe raft din cauza numărului mare de variante tehnice. Pentru o ofertă corectă avem nevoie de tipul de fluid procesat, debitul și presiunea de lucru dorite, precum și aplicația exactă, alimentară, farmaceutică sau industrială."
+        "a": "Da, aducem componentele GEA la comandă, orientativ în 1–4 săptămâni, întrucât gama nu este ținută pe raft din cauza numărului mare de variante tehnice. Pentru o ofertă corectă avem nevoie de tipul de fluid procesat, debitul și presiunea de lucru dorite, precum și aplicația exactă, alimentară, farmaceutică sau industrială."
       }
     ],
     evidenceClass: "market-signal-intl",
@@ -937,7 +937,7 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
       "Industria auto — scule oscilante pentru montaj și reparații",
       "Conducte industriale — șanfrenare și frezare capete de țeavă înainte de sudură",
     ],
-    infinitrade: `Pentru Fein nu avem istoric propriu de vânzări și lucrăm din informațiile publice de pe site-ul producătorului — spunem clar ce putem și ce nu putem confirma pentru fiecare model de sculă. Sculele Fein se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de modelul exact sau aplicația dorită (găurire, tăiere, șlefuire), plus tipul de alimentare preferat. Nu promitem disponibilitate permanentă din stoc pentru fiecare referință — depinde de gamă și de perioada anului.`,
+    infinitrade: `Pentru Fein nu avem istoric propriu de vânzări și lucrăm din informațiile publice de pe site-ul producătorului — spunem clar ce putem și ce nu putem confirma pentru fiecare model de sculă. Sculele Fein se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de modelul exact sau aplicația dorită (găurire, tăiere, șlefuire), plus tipul de alimentare preferat. Nu promitem disponibilitate permanentă din stoc pentru fiecare referință — depinde de gamă și de perioada anului.`,
     limitation: "Nu putem confirma acoperirea garanției extinse FEIN PLUS pentru scule aduse prin canale de aprovizionare din afara rețelei oficiale de vânzare a producătorului.",
     productCodes: [
       {
@@ -1020,7 +1020,7 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
       },
       {
         "q": "Livrați scule Fein în România?",
-        "a": "Da, sculele Fein comandate ajung în aproximativ 2-4 săptămâni de la confirmare, deoarece gama nu este păstrată pe raft din cauza numărului mare de variante și accesorii. Este util să precizați aplicația exactă, metal, lemn sau lucrări auto, și tipul de acumulator sau alimentare dorit, pentru a recomanda modelul potrivit."
+        "a": "Da, sculele Fein comandate ajung în aproximativ 1–4 săptămâni de la confirmare, deoarece gama nu este păstrată pe raft din cauza numărului mare de variante și accesorii. Este util să precizați aplicația exactă, metal, lemn sau lucrări auto, și tipul de acumulator sau alimentare dorit, pentru a recomanda modelul potrivit."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -1060,7 +1060,7 @@ Pentru ateliere de producție și control calitate din România care au nevoie d
       "Mentenanță industrială — instrumente de măsurare pentru ateliere",
       "Construcția de mașini — verificare dimensională la asamblare",
     ],
-    infinitrade: `Pentru Insize nu avem date proprii de stoc și lucrăm din informațiile publice ale producătorului — spunem direct ce putem și ce nu putem confirma pentru fiecare instrument. Instrumentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul instrumentului dorit, domeniul de măsurare și clasa de precizie necesară. Nu putem asigura disponibilitate permanentă din stoc pentru fiecare model din gamă — depinde de instrument și de cantitate.`,
+    infinitrade: `Pentru Insize nu avem date proprii de stoc și lucrăm din informațiile publice ale producătorului — spunem direct ce putem și ce nu putem confirma pentru fiecare instrument. Instrumentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul instrumentului dorit, domeniul de măsurare și clasa de precizie necesară. Nu putem asigura disponibilitate permanentă din stoc pentru fiecare model din gamă — depinde de instrument și de cantitate.`,
     limitation: "Nu putem furniza certificate de etalonare proprii pentru instrumentele Insize — clientul trebuie să apeleze la un laborator de metrologie acreditat pentru etalonare periodică.",
     productCodes: [
       {
@@ -1135,7 +1135,7 @@ Pentru ateliere de producție și control calitate din România care au nevoie d
       },
       {
         "q": "Livrați instrumente Insize în România?",
-        "a": "Da, instrumentele Insize se aduc la comandă din catalogul oficial, cu un termen tipic de 2-4 săptămâni, fără gamă păstrată pe raft în magazin. Pentru o ofertă corectă avem nevoie de codul exact al modelului sau de aplicația de măsurare dorită, domeniul de măsură și clasa de precizie cerută."
+        "a": "Da, instrumentele Insize se aduc la comandă din catalogul oficial, cu un termen tipic de 1–4 săptămâni, fără gamă păstrată pe raft în magazin. Pentru o ofertă corectă avem nevoie de codul exact al modelului sau de aplicația de măsurare dorită, domeniul de măsură și clasa de precizie cerută."
       }
     ],
     evidenceClass: "market-signal-intl",
@@ -1174,7 +1174,7 @@ Pentru ateliere de producție și mentenanță din România cu sudare frecventă
       "Producție de serie — sudare MIG/MAG pentru componente în volum mare",
       "Agricultură — reparații utilaje agricole cu aparate MMA portabile",
     ],
-    infinitrade: `Pentru Migatronic nu avem istoric propriu de livrări și lucrăm din informațiile publice de pe site-ul producătorului danez — spunem deschis ce putem și ce nu putem confirma pentru fiecare model. Aparatele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de procesul de sudare dorit (MIG/MAG, TIG, MMA sau plasmă), curentul necesar și tipul de alimentare electrică disponibil la punctul de lucru. Nu promitem disponibilitate permanentă din stoc pentru fiecare model — depinde de configurație și de producător.`,
+    infinitrade: `Pentru Migatronic nu avem istoric propriu de livrări și lucrăm din informațiile publice de pe site-ul producătorului danez — spunem deschis ce putem și ce nu putem confirma pentru fiecare model. Aparatele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de procesul de sudare dorit (MIG/MAG, TIG, MMA sau plasmă), curentul necesar și tipul de alimentare electrică disponibil la punctul de lucru. Nu promitem disponibilitate permanentă din stoc pentru fiecare model — depinde de configurație și de producător.`,
     limitation: "Nu putem confirma acoperirea garanției extinse pe transformator pentru aparate aduse prin canale de aprovizionare din afara rețelei oficiale a producătorului.",
     productCodes: [
       {
@@ -1237,7 +1237,7 @@ Pentru ateliere de producție și mentenanță din România cu sudare frecventă
       },
       {
         "q": "Se pot comanda aparate de sudură Migatronic pentru livrare în România?",
-        "a": "Da, livrăm la comandă aparate din gamele Sigma Core, CenTIG și Pi Plasma, pe baza codului confirmat de client din documentația oficială Migatronic. Nu menținem această gamă pe raft; ne ghidăm după disponibilitatea anunțată public de Migatronic, iar termenul uzual este de 2-4 săptămâni. Vă rugăm să transmiteți denumirea completă a modelului dorit."
+        "a": "Da, livrăm la comandă aparate din gamele Sigma Core, CenTIG și Pi Plasma, pe baza codului confirmat de client din documentația oficială Migatronic. Nu menținem această gamă pe raft; ne ghidăm după disponibilitatea anunțată public de Migatronic, iar termenul uzual este de 1–4 săptămâni. Vă rugăm să transmiteți denumirea completă a modelului dorit."
       },
       {
         "q": "Ce date sunt necesare atunci când solicit o ofertă pentru un aparat de sudură Migatronic?",
@@ -1286,7 +1286,7 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
       "Retail — scanare puncte de vânzare și gestiune stoc",
       "Transport — urmărire colete și paleți prin coduri de bare și RFID",
     ],
-    infinitrade: `Pentru Zebra Technologies nu avem date proprii de stoc și lucrăm din informațiile publice ale producătorului — spunem direct ce putem și ce nu putem confirma pentru fiecare echipament. Scannerele, imprimantele și terminalele mobile se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul echipamentului dorit, volumul de utilizare zilnic și mediul de operare (depozit, producție, exterior). Nu putem asigura disponibilitate permanentă din stoc pentru toate modelele din gamă — depinde de configurație și de producător.`,
+    infinitrade: `Pentru Zebra Technologies nu avem date proprii de stoc și lucrăm din informațiile publice ale producătorului — spunem direct ce putem și ce nu putem confirma pentru fiecare echipament. Scannerele, imprimantele și terminalele mobile se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul echipamentului dorit, volumul de utilizare zilnic și mediul de operare (depozit, producție, exterior). Nu putem asigura disponibilitate permanentă din stoc pentru toate modelele din gamă — depinde de configurație și de producător.`,
     limitation: "Nu putem furniza licențierea și configurarea software-ului Zebra DNA la nivel de flotă — aceasta rămâne un serviciu separat, de regulă contractat direct sau printr-un integrator de software.",
     productCodes: [
       {
@@ -1349,7 +1349,7 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
       },
       {
         "q": "Puteți aduce echipamente Zebra la comandă pentru clienți din România?",
-        "a": "Da, procurăm la comandă cititoare de coduri, calculatoare mobile și tablete din gamele Zebra, precum MC9300, VC8300 sau seria ET, pe baza codului confirmat de client. Această gamă nu este ținută pe raft; urmărim datele publice ale Zebra privind disponibilitatea, iar livrarea se face de regulă în 2-4 săptămâni."
+        "a": "Da, procurăm la comandă cititoare de coduri, calculatoare mobile și tablete din gamele Zebra, precum MC9300, VC8300 sau seria ET, pe baza codului confirmat de client. Această gamă nu este ținută pe raft; urmărim datele publice ale Zebra privind disponibilitatea, iar livrarea se face de regulă în 1–4 săptămâni."
       },
       {
         "q": "Ce trebuie să precizez atunci când cer o ofertă pentru un calculator mobil Zebra?",
@@ -1398,7 +1398,7 @@ Pentru clădiri comerciale, hale industriale și depozite din România cu cerin�
       "Rezidențial colectiv — ventilație clădiri de locuințe",
     ],
     certifications: [ "AMCA Certified Ratings Programme", "Eurovent Certified Performance", "HVI Certified Ratings Programme" ],
-    infinitrade: `Pentru Systemair nu avem istoric propriu de livrări și lucrăm din informațiile publice ale producătorului — spunem clar ce putem și ce nu putem confirma pentru fiecare model de ventilator sau unitate de tratare aer. Echipamentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de debitul de aer necesar, presiunea disponibilă în instalație și dacă aplicația e industrială, comercială sau rezidențială. Nu promitem disponibilitate permanentă din stoc pentru fiecare unitate configurată — depinde de model și de opțiunile alese.`,
+    infinitrade: `Pentru Systemair nu avem istoric propriu de livrări și lucrăm din informațiile publice ale producătorului — spunem clar ce putem și ce nu putem confirma pentru fiecare model de ventilator sau unitate de tratare aer. Echipamentele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de debitul de aer necesar, presiunea disponibilă în instalație și dacă aplicația e industrială, comercială sau rezidențială. Nu promitem disponibilitate permanentă din stoc pentru fiecare unitate configurată — depinde de model și de opțiunile alese.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unităților de tratare aer configurate special, care se fabrică la comandă în funcție de proiect.",
     productCodes: [
       {
@@ -1477,7 +1477,7 @@ Pentru clădiri comerciale, hale industriale și depozite din România cu cerin�
       },
       {
         "q": "Livrați unități Systemair în România?",
-        "a": "Da, unitățile Systemair solicitate se comandă din gama producătorului, cu termen orientativ de 2-4 săptămâni, fără această gamă păstrată pe raft. Pentru o ofertă corectă avem nevoie de debitul de aer necesar, aplicația exactă, rezidențială sau industrială, și dacă este nevoie de recuperare de căldură."
+        "a": "Da, unitățile Systemair solicitate se comandă din gama producătorului, cu termen orientativ de 1–4 săptămâni, fără această gamă păstrată pe raft. Pentru o ofertă corectă avem nevoie de debitul de aer necesar, aplicația exactă, rezidențială sau industrială, și dacă este nevoie de recuperare de căldură."
       }
     ],
     evidenceClass: "market-signal-ro",

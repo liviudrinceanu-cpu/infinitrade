@@ -56,7 +56,7 @@ FAG Schaeffler investește constant în cercetare, cu optimizarea geometriilor i
       'Agricultură – combine, tractoare, sisteme irigații',
       'Medicală – echipamente imagistică, robotică chirurgicală'
     ],
-    infinitrade: `Pentru rulmenții FAG lucrăm din surse publice ale producătorului și nu avem un stoc propriu documentat pentru fiecare cod din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, putem asigura 24-72 h din stoc pentru codurile cele mai cerute, restul gamei (rulmenți oscilanți, conici, axiali de dimensiuni speciale) intrând pe fluxul obișnuit de 2-4 săptămâni la comandă. Ca să dăm un răspuns exact, avem nevoie de codul complet al rulmentului sau de dimensiunile arborelui/alezajului și de aplicația vizată. Fără aceste detalii nu putem confirma disponibilitatea sau un termen ferm.`,
+    infinitrade: `Pentru rulmenții FAG lucrăm din surse publice ale producătorului și nu avem un stoc propriu documentat pentru fiecare cod din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, putem asigura 24-72 h din stoc pentru codurile cele mai cerute, restul gamei (rulmenți oscilanți, conici, axiali de dimensiuni speciale) intrând pe fluxul obișnuit de 1–4 săptămâni la comandă. Ca să dăm un răspuns exact, avem nevoie de codul complet al rulmentului sau de dimensiunile arborelui/alezajului și de aplicația vizată. Fără aceste detalii nu putem confirma disponibilitatea sau un termen ferm.`,
     limitation: 'Nu putem confirma service în perioada de garanție a producătorului, o legătură contractuală directă cu Schaeffler sau acoperirea prin stoc propriu a întregii game de rulmenți FAG.',
     sources: [
       {"title":"Deep Groove Ball Bearings FAG Generation C Single row","url":"https://www.schaeffler.com/remotemedien/media/_shared_media/08_media_library/01_publications/schaeffler_2/tpi/downloads_8/tpi_165_de_en.pdf","publisher":"Schaeffler","accessed":"2026-09-22"},
@@ -160,7 +160,7 @@ FAG Schaeffler investește constant în cercetare, cu optimizarea geometriilor i
       },
       {
         "q": "Livrați rulmenți FAG în România?",
-        "a": "Da, aducem rulmenții FAG la comandă, pornind de la codurile publicate în documentația oficială Schaeffler, fără a deține stoc propriu constant pentru fiecare dimensiune. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de seria aleasă, de varianta de etanșare și de disponibilitatea la producător a codului exact solicitat."
+        "a": "Da, aducem rulmenții FAG la comandă, pornind de la codurile publicate în documentația oficială Schaeffler, fără a deține stoc propriu constant pentru fiecare dimensiune. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă, de varianta de etanșare și de disponibilitatea la producător a codului exact solicitat."
       }
     ],
     evidenceClass: 'transactional',
@@ -225,7 +225,7 @@ Filtrec investește constant în testare, cu laborator propriu unde testează be
       'Industrie hârtie – cilindri hidraulici calandre',
       'Testare componente – standuri de test hidraulice'
     ],
-    infinitrade: `Pentru filtrele Filtrec ne bazăm pe informațiile publice disponibile la producător, fără date proprii de stoc pentru fiecare finețe și dimensiune din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană – ca regulă generală a firmei, elementele filtrante cele mai cerute pot fi asigurate în 24-72 h din stoc, iar restul configurațiilor (carcase HP, RHR/DHR, breather-e speciale) intră pe fluxul de 2-4 săptămâni la comandă. Pentru un răspuns corect trimite-ne codul Filtrec exact sau codul echivalent Parker/Hydac/Bosch pe care vrei să-l înlocuiești, plus finețea și debitul aplicației. Fără aceste date nu putem confirma echivalența sau termenul de livrare.`,
+    infinitrade: `Pentru filtrele Filtrec ne bazăm pe informațiile publice disponibile la producător, fără date proprii de stoc pentru fiecare finețe și dimensiune din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană – ca regulă generală a firmei, elementele filtrante cele mai cerute pot fi asigurate în 24-72 h din stoc, iar restul configurațiilor (carcase HP, RHR/DHR, breather-e speciale) intră pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns corect trimite-ne codul Filtrec exact sau codul echivalent Parker/Hydac/Bosch pe care vrei să-l înlocuiești, plus finețea și debitul aplicației. Fără aceste date nu putem confirma echivalența sau termenul de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor fineților și dimensiunilor de elemente filtrante Filtrec și nici testarea beta ratio pe loc – aceasta rămâne un serviciu al producătorului.',
     sources: [
       {"title":"Hydraulic Filters","url":"https://www.filtrec.com/hydraulic-filters/","publisher":"Filtrec","accessed":"2026-09-22"},
@@ -338,7 +338,7 @@ Filtrec investește constant în testare, cu laborator propriu unde testează be
       },
       {
         "q": "Livrați filtre Filtrec în România?",
-        "a": "Da, aducem elementele și filtrele Filtrec la comandă, pe baza cataloagelor publice ale producătorului, fără gama pe raft menținut în depozit. Termenul uzual este de 2-4 săptămâni la comandă, în funcție de seria aleasă, de presiunea de lucru necesară și de disponibilitatea codului exact la fabrica producătorului."
+        "a": "Da, aducem elementele și filtrele Filtrec la comandă, pe baza cataloagelor publice ale producătorului, fără gama pe raft menținut în depozit. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de seria aleasă, de presiunea de lucru necesară și de disponibilitatea codului exact la fabrica producătorului."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -403,7 +403,7 @@ Finder investește constant în conformitate – toate releele au certificări U
       'Energie regenerabilă – sisteme fotovoltaice, eoliene',
       'Telecomunicații – echipamente BTS, centrale telefonice'
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru Finder: lucrăm din cataloagele publice ale producătorului și nu ținem un stoc propriu documentat pentru fiecare serie de relee sau temporizatoare. Aprovizionarea se face prin canale din Uniunea Europeană – ca formulare generală a firmei, seriile cele mai comune pot fi asigurate în 24-72 h din stoc, restul gamei (contactoare, relee de interfață speciale) urmând fluxul de 2-4 săptămâni la comandă. Ca să-ți dăm un răspuns exact, trimite-ne codul complet al releului sau temporizatorului (serie, tensiune bobină, tip contact) și cantitatea dorită. Fără aceste informații nu putem confirma disponibilitatea sau termenul de livrare.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru Finder: lucrăm din cataloagele publice ale producătorului și nu ținem un stoc propriu documentat pentru fiecare serie de relee sau temporizatoare. Aprovizionarea se face prin canale din Uniunea Europeană – ca formulare generală a firmei, seriile cele mai comune pot fi asigurate în 24-72 h din stoc, restul gamei (contactoare, relee de interfață speciale) urmând fluxul de 1–4 săptămâni la comandă. Ca să-ți dăm un răspuns exact, trimite-ne codul complet al releului sau temporizatorului (serie, tensiune bobină, tip contact) și cantitatea dorită. Fără aceste informații nu putem confirma disponibilitatea sau termenul de livrare.`,
     limitation: 'Nu putem confirma o legătură contractuală directă cu Finder și nici acoperirea prin stoc propriu a tuturor seriilor de relee și temporizatoare.',
     sources: [
       {"title":"55 Series - Miniature General Purpose Relays 7-10A","url":"https://www.findernet.com/en/worldwide/series/55-series-miniature-general-purpose-relays-7-10a/","publisher":"Finder","accessed":"2026-09-22"},
@@ -477,7 +477,7 @@ Finder investește constant în conformitate – toate releele au certificări U
       },
       {
         "q": "Livrați relee și temporizatoare Finder în România?",
-        "a": "Da, aducem produsele Finder la comandă, pe baza seriilor publicate în documentația oficială a producătorului, fără a menține stoc propriu constant pentru fiecare tip. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de tipul exact solicitat, de tensiunea bobinei și de disponibilitatea la fabrica a codului ales."
+        "a": "Da, aducem produsele Finder la comandă, pe baza seriilor publicate în documentația oficială a producătorului, fără a menține stoc propriu constant pentru fiecare tip. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tipul exact solicitat, de tensiunea bobinei și de disponibilitatea la fabrica a codului ales."
       }
     ],
     evidenceClass: 'transactional',
@@ -542,7 +542,7 @@ Fluke investește masiv în siguranță – toate multimetrele au protecție CAT
       'Producție electronică – control calitate, testare componente',
       'Feroviar – testare motoare tracțiune, pantografe, surse alimentare'
     ],
-    infinitrade: `Pentru instrumentele Fluke lucrăm din informațiile publice ale producătorului și fără date proprii de stoc pentru fiecare model din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei putem asigura 24-72 h din stoc pentru modelele cele mai cerute (multimetre, clești ampermetrici), restul gamei – termoviziune, megaohmetre, analizoare de calitate a energiei – intrând pe fluxul de 2-4 săptămâni la comandă. Pentru un răspuns exact avem nevoie de modelul dorit și de aplicația de măsurare (CAT III/CAT IV, True-RMS sau nu). Dacă nu ne dai aceste informații, nu putem stabili corect disponibilitatea sau termenul de livrare.`,
+    infinitrade: `Pentru instrumentele Fluke lucrăm din informațiile publice ale producătorului și fără date proprii de stoc pentru fiecare model din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei putem asigura 24-72 h din stoc pentru modelele cele mai cerute (multimetre, clești ampermetrici), restul gamei – termoviziune, megaohmetre, analizoare de calitate a energiei – intrând pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns exact avem nevoie de modelul dorit și de aplicația de măsurare (CAT III/CAT IV, True-RMS sau nu). Dacă nu ne dai aceste informații, nu putem stabili corect disponibilitatea sau termenul de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor Fluke și nici calibrarea NIST-trasabilă pe loc – aceasta se face la laboratoare de calibrare separate.',
     sources: [
       {"title":"Clamp Meters","url":"https://www.fluke.com/en-us/products/electrical-testing/clamp-meters","publisher":"Fluke","accessed":"2026-09-22"},
@@ -651,7 +651,7 @@ Fluke investește masiv în siguranță – toate multimetrele au protecție CAT
       },
       {
         "q": "Livrați aparate Fluke în România?",
-        "a": "Da, aducem aparatele Fluke la comandă, pe baza gamei oficiale publicate de producător, fără a păstra stoc propriu constant pentru fiecare model. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model, de accesoriile solicitate și de disponibilitatea codului exact la nivelul producătorului."
+        "a": "Da, aducem aparatele Fluke la comandă, pe baza gamei oficiale publicate de producător, fără a păstra stoc propriu constant pentru fiecare model. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model, de accesoriile solicitate și de disponibilitatea codului exact la nivelul producătorului."
       }
     ],
     evidenceClass: 'transactional',
@@ -716,7 +716,7 @@ Forbo Siegling investește constant în cercetare – dezvoltă benzi cu reziste
       'Electronică – transport PCB-uri, componente sensibile ESD',
       'Minerit – benzi grele pentru transport material (versiuni antiflacără)'
     ],
-    infinitrade: `Pentru benzile și curelele Forbo Siegling lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare țesătură și acoperire din gamă – majoritatea comenzilor sunt confecții la dimensiune. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, benzile pe rolă în dimensiuni comune pot ajunge în 24-72 h din stoc, în timp ce banda sudată la dimensiune sau curelele speciale (Extremultus, Tangential) intră pe fluxul de 2-4 săptămâni la comandă. Pentru un calcul corect trimite-ne lățimea, lungimea, tipul de țesătură/acoperire dorit și greutatea transportată. Nu putem estima rezistența necesară sau confirma un termen de livrare fără aceste date.`,
+    infinitrade: `Pentru benzile și curelele Forbo Siegling lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare țesătură și acoperire din gamă – majoritatea comenzilor sunt confecții la dimensiune. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, benzile pe rolă în dimensiuni comune pot ajunge în 24-72 h din stoc, în timp ce banda sudată la dimensiune sau curelele speciale (Extremultus, Tangential) intră pe fluxul de 1–4 săptămâni la comandă. Pentru un calcul corect trimite-ne lățimea, lungimea, tipul de țesătură/acoperire dorit și greutatea transportată. Nu putem estima rezistența necesară sau confirma un termen de livrare fără aceste date.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor lățimilor și acoperirilor Siegling și nici sudarea la fața locului pentru toate tipurile de bandă – unele configurații necesită echipament de producător.',
     sources: [
       {"title":"Siegling Transilon Belts: Efficient Conveying and Processing","url":"https://www.forbo.com/movement/en-gl/products/conveyor-belts/siegling-transilon/pmjqhv","publisher":"Forbo Movement Systems","accessed":"2026-09-22"},
@@ -801,7 +801,7 @@ Forbo Siegling investește constant în cercetare – dezvoltă benzi cu reziste
       },
       {
         "q": "Livrați benzi Forbo Siegling în România?",
-        "a": "Da, aducem benzile Transilon și Prolink la comandă, pornind de la codificarea publică folosită de Forbo Siegling în documentația oficială, fără gama pe raft menținut permanent. Termenul uzual este de 2-4 săptămâni la comandă, în funcție de lățimea benzii, de tipul de acoperire ales și de disponibilitatea la producător."
+        "a": "Da, aducem benzile Transilon și Prolink la comandă, pornind de la codificarea publică folosită de Forbo Siegling în documentația oficială, fără gama pe raft menținut permanent. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de lățimea benzii, de tipul de acoperire ales și de disponibilitatea la producător."
       }
     ],
     evidenceClass: 'transactional',
@@ -867,7 +867,7 @@ Freudenberg investește masiv în testare – fiecare compound nou trece prin 5,
       'Aerospace – sisteme hidraulice aviație, landing gear',
       'Tratarea apei – pompe, membrane, valve pentru apă potabilă/uzată'
     ],
-    infinitrade: `Pentru garniturile și simering-urile Freudenberg pornim de la datele publice ale producătorului – fără date proprii de stoc pentru fiecare dimensiune și material din gamă (NBR, VITON, EPDM, Silicone, PTFE). Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile ISO 3601 și simering-urile auto cele mai comune pot fi asigurate în 24-72 h din stoc, restul combinațiilor material/dimensiune urmând fluxul de 2-4 săptămâni la comandă. Pentru identificare corectă avem nevoie de diametrul interior, diametrul exterior, înălțimea și fluidul de lucru. Fără aceste date nu putem confirma codul exact sau termenul de livrare.`,
+    infinitrade: `Pentru garniturile și simering-urile Freudenberg pornim de la datele publice ale producătorului – fără date proprii de stoc pentru fiecare dimensiune și material din gamă (NBR, VITON, EPDM, Silicone, PTFE). Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile ISO 3601 și simering-urile auto cele mai comune pot fi asigurate în 24-72 h din stoc, restul combinațiilor material/dimensiune urmând fluxul de 1–4 săptămâni la comandă. Pentru identificare corectă avem nevoie de diametrul interior, diametrul exterior, înălțimea și fluidul de lucru. Fără aceste date nu putem confirma codul exact sau termenul de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor combinațiilor de dimensiuni și materiale Freudenberg și nici o formă de distribuție agreată cu producătorul.',
     sources: [
       {"title":"O-Rings","url":"https://products.fst.com/global/en/categories/o-rings","publisher":"Freudenberg Sealing Technologies","accessed":"2026-09-22"},
@@ -980,7 +980,7 @@ Freudenberg investește masiv în testare – fiecare compound nou trece prin 5,
       },
       {
         "q": "Livrați garnituri Freudenberg în România?",
-        "a": "Da, aducem simeringurile și O-ringurile Freudenberg la comandă, pornind de la codurile publicate în catalogul oficial al producătorului, fără a menține stoc propriu în depozit. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de dimensiune, de material și de disponibilitatea codului exact la fabrica producătorului."
+        "a": "Da, aducem simeringurile și O-ringurile Freudenberg la comandă, pornind de la codurile publicate în catalogul oficial al producătorului, fără a menține stoc propriu în depozit. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de dimensiune, de material și de disponibilitatea codului exact la fabrica producătorului."
       }
     ],
     evidenceClass: 'transactional',
@@ -1045,7 +1045,7 @@ Gates investește masiv în testare – fiecare furtun presiune înaltă trece p
       'Energie – centrale electrice, turbine, pompe alimentare',
       'Mașini-unelte – transmisii pentru strunguri, frezare, rectificare'
     ],
-    infinitrade: `Lucrăm cu produsele Gates din informațiile publice ale producătorului, fără date proprii de stoc pentru fiecare profil de curea sau furtun din gamă. Aprovizionarea se face prin canale din Uniunea Europeană: ca formulare generală a firmei, curelele și kiturile de distribuție cele mai cerute pot fi asigurate în 24-72 h din stoc, iar furtunurile hidraulice pe dimensiuni speciale sau curelele industriale mai puțin comune intră pe fluxul de 2-4 săptămâni la comandă. Pentru un răspuns exact avem nevoie de codul cureii/furtunului sau, pentru kituri auto, de marca, modelul și motorizarea. Fără codul exact riscăm să propunem un termen de livrare care nu se confirmă la comandă.`,
+    infinitrade: `Lucrăm cu produsele Gates din informațiile publice ale producătorului, fără date proprii de stoc pentru fiecare profil de curea sau furtun din gamă. Aprovizionarea se face prin canale din Uniunea Europeană: ca formulare generală a firmei, curelele și kiturile de distribuție cele mai cerute pot fi asigurate în 24-72 h din stoc, iar furtunurile hidraulice pe dimensiuni speciale sau curelele industriale mai puțin comune intră pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns exact avem nevoie de codul cureii/furtunului sau, pentru kituri auto, de marca, modelul și motorizarea. Fără codul exact riscăm să propunem un termen de livrare care nu se confirmă la comandă.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor profilelor Gates și nici testarea burst la presiune – aceasta rămâne un proces al producătorului.',
     sources: [
       {"title":"Power Transmission","url":"https://www.gates.com/us/en/power-transmission.html","publisher":"Gates Corporation","accessed":"2026-09-22"},
@@ -1130,7 +1130,7 @@ Gates investește masiv în testare – fiecare furtun presiune înaltă trece p
       },
       {
         "q": "Livrați curele și furtunuri Gates în România?",
-        "a": "Da, aducem curelele și furtunurile Gates la comandă, pe baza gamei oficiale publicate de producător, fără a păstra stoc propriu constant pentru fiecare cod. Termenul uzual este de 2-4 săptămâni la comandă, în funcție de tipul de curea sau furtun, de lungimea cerută și de disponibilitatea la producător."
+        "a": "Da, aducem curelele și furtunurile Gates la comandă, pe baza gamei oficiale publicate de producător, fără a păstra stoc propriu constant pentru fiecare cod. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de tipul de curea sau furtun, de lungimea cerută și de disponibilitatea la producător."
       }
     ],
     evidenceClass: 'transactional',
@@ -1195,7 +1195,7 @@ Gedore investește constant în ergonomie – mânerele bi-material reduc obosea
       'Minerit – mentenanță utilaje miniere (versiuni anti-scânteie)',
       'Producție industrială – linii de asamblare, mentenanță mașini'
     ],
-    infinitrade: `Pentru sculele Gedore ne bazăm pe cataloagele publice ale producătorului, fără date proprii de stoc pentru fiecare dimensiune și serie din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile de chei și tubulare cele mai cerute pot fi asigurate în 24-72 h din stoc, iar chei dinamometrice, truse complete sau dimensiuni speciale intră pe fluxul de 2-4 săptămâni la comandă. Pentru un răspuns exact spune-ne dimensiunea, seria (fixă/inelată/tubulară) și tipul de antrenare de care ai nevoie. Lipsa acestor detalii ne împiedică să confirmăm disponibilitatea reală sau un termen corect de livrare.`,
+    infinitrade: `Pentru sculele Gedore ne bazăm pe cataloagele publice ale producătorului, fără date proprii de stoc pentru fiecare dimensiune și serie din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile de chei și tubulare cele mai cerute pot fi asigurate în 24-72 h din stoc, iar chei dinamometrice, truse complete sau dimensiuni speciale intră pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns exact spune-ne dimensiunea, seria (fixă/inelată/tubulară) și tipul de antrenare de care ai nevoie. Lipsa acestor detalii ne împiedică să confirmăm disponibilitatea reală sau un termen corect de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor seriilor Gedore și nici condițiile exacte ale garanției pe viață a producătorului – acestea se verifică direct cu Gedore.',
     sources: [
       {"title":"Spanners Catalogue 2017","url":"https://us.gedore.com/fileadmin/Kataloge/EN/116_151_05_Spanners_2017_EN.pdf","publisher":"Gedore","accessed":"2026-09-22"},
@@ -1287,7 +1287,7 @@ Gedore investește constant în ergonomie – mânerele bi-material reduc obosea
       },
       {
         "q": "Livrați scule Gedore în România?",
-        "a": "Da, aducem sculele Gedore la comandă, pornind de la seriile publicate în catalogul oficial al producătorului, fără a păstra un stoc propriu pentru fiecare dimensiune. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de seria aleasă, de dimensiune și de disponibilitatea codului exact la producător."
+        "a": "Da, aducem sculele Gedore la comandă, pornind de la seriile publicate în catalogul oficial al producătorului, fără a păstra un stoc propriu pentru fiecare dimensiune. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă, de dimensiune și de disponibilitatea codului exact la producător."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -1352,7 +1352,7 @@ Grundfos investește masiv în conectivitate – toate pompele noi au Modbus RTU
       'Agricultură – fertirigație (dozare îngrășăminte în irigații)',
       'Spălătorii auto/industriale – dozare detergent proporțional'
     ],
-    infinitrade: `Pentru pompele dozatoare Grundfos lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model și configurație. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, pompele DDA/DDC uzuale pot fi asigurate în 24-72 h din stoc, iar sistemele mai complexe (DME de capacitate mare, SMART Digital, configurații custom) intră pe fluxul de 2-4 săptămâni la comandă, fiind adesea fabricate la comandă. Pentru un calcul corect avem nevoie de debitul necesar, concentrația/tipul de chimical dozat și presiunea sistemului. Fără acest calcul preliminar nu putem propune un model potrivit sau un termen realist de livrare.`,
+    infinitrade: `Pentru pompele dozatoare Grundfos lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model și configurație. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, pompele DDA/DDC uzuale pot fi asigurate în 24-72 h din stoc, iar sistemele mai complexe (DME de capacitate mare, SMART Digital, configurații custom) intră pe fluxul de 1–4 săptămâni la comandă, fiind adesea fabricate la comandă. Pentru un calcul corect avem nevoie de debitul necesar, concentrația/tipul de chimical dozat și presiunea sistemului. Fără acest calcul preliminar nu putem propune un model potrivit sau un termen realist de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor de pompe dozatoare Grundfos și nici programarea de la distanță a controllerelor SMART Digital fără un contract tehnic separat.',
     sources: [
       {"title":"SMART Digital - Breaking the barriers of dosing (Grundfos Dosing and Disinfection)","url":"https://portals.grundfos.com/content/dam/local/en-gb/catalogues/March%2021%20CAT5%20v4%2021_01_21.pdf","publisher":"Grundfos","accessed":"2026-09-22"},
@@ -1432,7 +1432,7 @@ Grundfos investește masiv în conectivitate – toate pompele noi au Modbus RTU
       },
       {
         "q": "Livrați pompe dozatoare Grundfos în România?",
-        "a": "Da, aducem pompele dozatoare Grundfos la comandă, pe baza cataloagelor oficiale publicate de producător, fără a menține stoc propriu pentru fiecare model. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de debitul necesar, de materialele cerute și de disponibilitatea modelului exact la producător."
+        "a": "Da, aducem pompele dozatoare Grundfos la comandă, pe baza cataloagelor oficiale publicate de producător, fără a menține stoc propriu pentru fiecare model. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de debitul necesar, de materialele cerute și de disponibilitatea modelului exact la producător."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -1497,7 +1497,7 @@ Grundfos investește masiv în IoT – toate pompele noi au conectivitate cloud,
       'Case pasive/nZEB – sisteme HVAC ultra-eficiente',
       'Sisteme geotermale – circulație în sonde geotermale'
     ],
-    infinitrade: `Pentru pompele Grundfos HVAC lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model din gamă. Aprovizionarea se face prin canale din Uniunea Europeană: ca formulare generală a firmei, modelele rezidențiale uzuale (ALPHA3, UPS, SCALA2) pot fi asigurate în 24-72 h din stoc, iar modelele industriale mari (MAGNA3, TPE) sau configurațiile speciale intră pe fluxul de 2-4 săptămâni la comandă. Pentru un calcul corect avem nevoie de puterea termică instalată, înălțimea de pompare necesară și tipul de sistem (rezidențial, comercial, industrial). Fără acești parametri riscăm să recomandăm un model nepotrivit sau un termen de livrare incorect.`,
+    infinitrade: `Pentru pompele Grundfos HVAC lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model din gamă. Aprovizionarea se face prin canale din Uniunea Europeană: ca formulare generală a firmei, modelele rezidențiale uzuale (ALPHA3, UPS, SCALA2) pot fi asigurate în 24-72 h din stoc, iar modelele industriale mari (MAGNA3, TPE) sau configurațiile speciale intră pe fluxul de 1–4 săptămâni la comandă. Pentru un calcul corect avem nevoie de puterea termică instalată, înălțimea de pompare necesară și tipul de sistem (rezidențial, comercial, industrial). Fără acești parametri riscăm să recomandăm un model nepotrivit sau un termen de livrare incorect.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor Grundfos HVAC și nici service în perioada de garanție a producătorului fără un contract tehnic separat.',
     sources: [
       {"title":"Grundfos Price List CAT1","url":"https://portals.grundfos.com/content/dam/local/en-gb/catalogues/March%2021%20CAT1%20v2_12_01_21.pdf","publisher":"Grundfos","accessed":"2026-09-22"},
@@ -1585,7 +1585,7 @@ Grundfos investește masiv în IoT – toate pompele noi au conectivitate cloud,
       },
       {
         "q": "Livrați pompe Grundfos pentru HVAC în România?",
-        "a": "Da, aducem pompele de circulație și în linie Grundfos la comandă, pe baza gamei oficiale publicate de producător, fără a menține stoc propriu constant. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model, de turație fixă sau variabilă cerută și de disponibilitatea codului exact la producător."
+        "a": "Da, aducem pompele de circulație și în linie Grundfos la comandă, pe baza gamei oficiale publicate de producător, fără a menține stoc propriu constant. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model, de turație fixă sau variabilă cerută și de disponibilitatea codului exact la producător."
       }
     ],
     evidenceClass: 'gsc-only',
