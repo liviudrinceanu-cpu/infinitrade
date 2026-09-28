@@ -9,7 +9,7 @@
 // Când proprietarul confirmă termene de plată standard, persoane de contact
 // numite sau certificatul ISO, se actualizează AICI (și în company.js).
 
-import { companyInfo, contactPerson, clientReferences, publicClientReferences, publicProcurementStats } from './company';
+import { companyInfo, companyContact, clientReferences, publicClientReferences, publicProcurementStats } from './company';
 import { siteStats } from './siteStats';
 
 const phone = '+40 371 232 404';
@@ -20,7 +20,7 @@ export const roleContact = {
   phone,
   phoneHref,
   hours: 'luni–vineri, 08:00–16:30',
-  person: contactPerson,
+  person: companyContact,
 };
 
 export const DELIVERY_TERMS_TEXT =
@@ -60,7 +60,7 @@ export const roles = {
       { label: 'Termen de plată', value: 'de regulă 30–60 de zile pentru clienții cu contract' },
       { label: 'Condiție de livrare', value: 'de regulă CPT (Incoterms® 2020): transport plătit de noi până la adresa dumneavoastră; DAP la cerere' },
       { label: 'ISO 9001', value: 'certificare în curs; publicăm certificatul la emitere' },
-      { label: 'Persoană de contact', value: `${contactPerson.name}, ${contactPerson.email}` },
+      { label: 'Contact comercial', value: `${companyContact.name}, ${companyContact.email}` },
     ],
     verifyLinks: [
       { name: 'termene.ro — date ONRC și financiare', url: 'https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL' },

@@ -158,7 +158,7 @@ export default function RolePage({ role }) {
               </div>
               {roleContact.person && (
                 <p className={styles.person}>
-                  Persoană de contact pentru companii: <strong>{roleContact.person.name}</strong>
+                  Contact comercial pentru companii: <strong>{roleContact.person.name}</strong>
                   {' · '}
                   <a href={`mailto:${roleContact.person.email}`}>{roleContact.person.email}</a>
                 </p>
