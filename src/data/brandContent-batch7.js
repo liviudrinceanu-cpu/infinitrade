@@ -56,7 +56,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
       'Transport și logistică',
       'Industria auto - producție componente'
     ],
-    infinitrade: `Lucrăm din surse publice ale producătorului și spunem clar ce putem și ce nu putem confirma despre stocul curent de curele Continental. Nu avem date proprii despre ce anume se află pe stoc la un moment dat, dar aducem gama de curele V, dințate și Poly-V la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, lucrăm cu 24-72 h pentru comenzile onorate din aprovizionarea curentă și cu 2-4 săptămâni la comandă pentru restul gamei. Pentru o ofertă corectă, trimite-ne codul de profil (de exemplu SPA, HTD 8M) și lungimea exactă necesară - revenim rapid cu preț și termen confirmat.`,
+    infinitrade: `Lucrăm din surse publice ale producătorului și spunem clar ce putem și ce nu putem confirma despre stocul curent de curele Continental. Nu avem date proprii despre ce anume se află pe stoc la un moment dat, dar aducem gama de curele V, dințate și Poly-V la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, lucrăm cu 24-72 h pentru comenzile onorate din aprovizionarea curentă și cu 1–4 săptămâni la comandă pentru restul gamei. Pentru o ofertă corectă, trimite-ne codul de profil (de exemplu SPA, HTD 8M) și lungimea exactă necesară - revenim rapid cu preț și termen confirmat.`,
     limitation: 'Nu putem confirma operațiuni de vulcanizare la cald sau jonctionare pe loc pentru curele speciale - livrăm produsul, nu service-ul de montaj.',
     sources: [
       {"title":"Drive Belts – Power Transmission Industrial Applications","url":"https://www.continental-industry.com/en/solutions/power-transmission/industrial-applications/drive-belts","publisher":"Continental AG (ContiTech)","accessed":"2026-09-22"},
@@ -120,7 +120,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
       },
       {
         "q": "Livrați curele Continental în România la comandă?",
-        "a": "Curelele Continental ajung la client prin comandă punctuală, pornind de la fișele tehnice oficiale ale producătorului, fără un stoc de rezervă păstrat permanent în depozit propriu. Termenul obișnuit este 2-4 săptămâni la comandă, în funcție de profil și de lungimea necesară. Pentru o ofertă rapidă recomandăm să transmiteți seria, profilul și lungimea de referință a curelei existente."
+        "a": "Curelele Continental ajung la client prin comandă punctuală, pornind de la fișele tehnice oficiale ale producătorului, fără un stoc de rezervă păstrat permanent în depozit propriu. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de profil și de lungimea necesară. Pentru o ofertă rapidă recomandăm să transmiteți seria, profilul și lungimea de referință a curelei existente."
       },
       {
         "q": "Ce trebuie să masor înainte de a cere o ofertă pentru o curea Continental?",
@@ -189,7 +189,7 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       'Aeroporturi și stații',
       'Industria farmaceutică'
     ],
-    infinitrade: `Nu avem date proprii de stoc pentru echipamentele Daikin și ne bazăm pe informațiile publice ale producătorului atunci când descriem gama VRV, chillere și unități de tratare a aerului. Aducem sistemele Daikin la comandă prin canale de aprovizionare din Uniunea Europeană, iar ca reper general al firmei termenele cu care lucrăm sunt 24-72 h pentru comenzile onorate din aprovizionarea curentă și 2-4 săptămâni la comandă pentru restul gamei sau pentru proiecte mai mari. Pentru o ofertă, trimite-ne codul modelului, capacitatea necesară (kW) și adresa proiectului, iar noi verificăm disponibilitatea reală la furnizor și revenim cu preț și termen.`,
+    infinitrade: `Nu avem date proprii de stoc pentru echipamentele Daikin și ne bazăm pe informațiile publice ale producătorului atunci când descriem gama VRV, chillere și unități de tratare a aerului. Aducem sistemele Daikin la comandă prin canale de aprovizionare din Uniunea Europeană, iar ca reper general al firmei termenele cu care lucrăm sunt 24-72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau pentru proiecte mai mari. Pentru o ofertă, trimite-ne codul modelului, capacitatea necesară (kW) și adresa proiectului, iar noi verificăm disponibilitatea reală la furnizor și revenim cu preț și termen.`,
     limitation: 'Nu oferim configurare software BMS sau punere în funcțiune a sistemelor VRV - acestea rămân în sarcina instalatorului autorizat sau a producătorului.',
     sources: [
       {"title":"Product Group Overview – Daikin Europe","url":"https://www.daikin.eu/en_us/product-group.html","publisher":"Daikin Industries","accessed":"2026-09-22"},
@@ -281,7 +281,7 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       },
       {
         "q": "Livrați sisteme Daikin în România la comandă?",
-        "a": "Sistemele Daikin sunt aduse pe bază de comandă, conform gamelor publicate de producător, fără un inventar propriu păstrat în avans. Termenul obișnuit este 2-4 săptămâni la comandă, în funcție de model și de capacitatea solicitată. Pentru o estimare corectă vă recomandăm să ne trimiteți tipul clădirii, suprafața de climatizat și numărul de zone dorite."
+        "a": "Sistemele Daikin sunt aduse pe bază de comandă, conform gamelor publicate de producător, fără un inventar propriu păstrat în avans. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de model și de capacitatea solicitată. Pentru o estimare corectă vă recomandăm să ne trimiteți tipul clădirii, suprafața de climatizat și numărul de zone dorite."
       },
       {
         "q": "Ce date trebuie să trimit pentru o ofertă pentru un sistem Daikin VRV?",
@@ -350,7 +350,7 @@ DEHN a dezvoltat conceptul de protecție împotriva trăsnetului în zone cu ris
       'Industria alimentară',
       'Utilități (apă, canalizare, energie)'
     ],
-    infinitrade: `Folosim informațiile publice disponibile de la DEHN, fără date proprii de stoc pe care să le promitem pentru descărcătoare sau paratrăsnete. Aducem gama DEHN de protecție la supratensiuni la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-4 săptămâni la comandă pentru restul produselor sau configurațiilor speciale. Pentru o ofertă corectă, trimite-ne codul exact al produsului (de exemplu DEHNguard sau DEHNventil), tensiunea nominală a rețelei și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Folosim informațiile publice disponibile de la DEHN, fără date proprii de stoc pe care să le promitem pentru descărcătoare sau paratrăsnete. Aducem gama DEHN de protecție la supratensiuni la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul produselor sau configurațiilor speciale. Pentru o ofertă corectă, trimite-ne codul exact al produsului (de exemplu DEHNguard sau DEHNventil), tensiunea nominală a rețelei și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru întreaga gamă DEHN și nici service în garanția producătorului pentru paratrăsnete active.',
     sources: [
       {"title":"Type 2 Surge Arresters","url":"https://www.dehn-international.com/store/h/en-DE/H680/type-2-surge-arresters","publisher":"DEHN","accessed":"2026-09-23"},
@@ -442,7 +442,7 @@ DEHN a dezvoltat conceptul de protecție împotriva trăsnetului în zone cu ris
       },
       {
         "q": "Livrați descărcătoare DEHN în România?",
-        "a": "Da, aducem descărcătoare DEHN la comandă, pe baza gamelor publicate oficial de producător, fără să păstrăm stoc propriu pe aceste coduri. Timpul de livrare tipic este de 2-4 săptămâni, în funcție de model și de disponibilitatea din fabrică. Vă recomandăm să confirmați codul exact al variantei dorite înainte de comandă."
+        "a": "Da, aducem descărcătoare DEHN la comandă, pe baza gamelor publicate oficial de producător, fără să păstrăm stoc propriu pe aceste coduri. Timpul de livrare tipic este de 1–4 săptămâni, în funcție de model și de disponibilitatea din fabrică. Vă recomandăm să confirmați codul exact al variantei dorite înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de protecție la supratensiuni DEHN?",
@@ -515,7 +515,7 @@ Gama DeWalt include peste 200 de tipuri de scule electrice, toate testate în co
       'Demolări și renovări',
       'Producție componente industriale'
     ],
-    infinitrade: `Pentru DeWalt lucrăm din surse publice ale producătorului, fără date proprii despre stocul intern al fiecărui model de sculă. Aducem sculele DeWalt (bormasini, polizoare, ferăstraie, seturi cu baterii) la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, termenele uzuale sunt 24-72 h pentru comenzile onorate din aprovizionarea curentă și 2-4 săptămâni la comandă pentru restul gamei sau pentru accesorii mai puțin comune. Pentru o ofertă, trimite-ne codul exact al modelului (de exemplu DCD996 sau DCG414) și configurația dorită (baterii, valiză, accesorii) - revenim cu preț și termen confirmat.`,
+    infinitrade: `Pentru DeWalt lucrăm din surse publice ale producătorului, fără date proprii despre stocul intern al fiecărui model de sculă. Aducem sculele DeWalt (bormasini, polizoare, ferăstraie, seturi cu baterii) la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, termenele uzuale sunt 24-72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau pentru accesorii mai puțin comune. Pentru o ofertă, trimite-ne codul exact al modelului (de exemplu DCD996 sau DCG414) și configurația dorită (baterii, valiză, accesorii) - revenim cu preț și termen confirmat.`,
     limitation: 'Nu putem confirma acoperirea service-ului în garanția producătorului pentru fiecare model DeWalt - livrăm scula conform comenzii, nu intervenția de service.',
     sources: [
       {"title":"Power Tools","url":"https://www.dewalt.com/products/power-tools","publisher":"DeWalt","accessed":"2026-09-22"},
@@ -587,7 +587,7 @@ Gama DeWalt include peste 200 de tipuri de scule electrice, toate testate în co
       },
       {
         "q": "Livrați scule DeWalt în România?",
-        "a": "Da, aducem la comandă scule DeWalt pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de configurația setului. Recomandăm confirmarea codului exact al modelului dorit înainte de comandă."
+        "a": "Da, aducem la comandă scule DeWalt pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de configurația setului. Recomandăm confirmarea codului exact al modelului dorit înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de sculă electrică DeWalt?",
@@ -660,7 +660,7 @@ Aparatele de respirat cu aer comprimat (SCBA) Dräger echipează pompieri din to
       'Spații confinate și rezervoare',
       'Producție energie (centrale)'
     ],
-    infinitrade: `Nu deținem date proprii de stoc pentru gama Dräger și ne ghidăm după informațiile publice ale producătorului atunci când descriem detectoarele de gaz și aparatele de respirat. Aducem produsele Dräger la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-4 săptămâni la comandă pentru restul gamei sau echipamente speciale. Pentru o ofertă, trimite-ne codul exact al produsului (de exemplu X-am 8000 sau Pac 8000), gazele de detectat și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu deținem date proprii de stoc pentru gama Dräger și ne ghidăm după informațiile publice ale producătorului atunci când descriem detectoarele de gaz și aparatele de respirat. Aducem produsele Dräger la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau echipamente speciale. Pentru o ofertă, trimite-ne codul exact al produsului (de exemplu X-am 8000 sau Pac 8000), gazele de detectat și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu efectuăm noi calibrarea sau service-ul în garanția producătorului pentru aparatele de respirat sau detectoarele Dräger.',
     sources: [
       {"title":"Industrial Gas Detectors – Draeger Safety","url":"https://www.draeger.com/en-us_us/Safety/Gas-Detectors","publisher":"Drägerwerk AG & Co. KGaA","accessed":"2026-09-22"},
@@ -721,7 +721,7 @@ Aparatele de respirat cu aer comprimat (SCBA) Dräger echipează pompieri din to
       },
       {
         "q": "Livrați detectoare de gaz Drager în România la comandă?",
-        "a": "Echipamentele Drager sunt procurate individual, după confirmarea specificațiilor din documentația oficială a producătorului, fără un stoc intern menținut constant. Termenul obișnuit este 2-4 săptămâni la comandă, în funcție de model și de disponibilitatea din rețeaua Drager. Pentru un răspuns rapid este util să menționați gazul de detectat și mediul de utilizare, industrial sau intervenție."
+        "a": "Echipamentele Drager sunt procurate individual, după confirmarea specificațiilor din documentația oficială a producătorului, fără un stoc intern menținut constant. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de model și de disponibilitatea din rețeaua Drager. Pentru un răspuns rapid este util să menționați gazul de detectat și mediul de utilizare, industrial sau intervenție."
       },
       {
         "q": "Ce trebuie să specific pentru o ofertă pentru un detector Drager?",
@@ -790,7 +790,7 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
       'Industria hârtiei',
       'OEM echipamente industriale'
     ],
-    infinitrade: `Spunem deschis ce putem și ce nu putem confirma despre disponibilitatea reală a fiecărui produs Dwyer înainte de a promite un termen. Aducem instrumentele Dwyer (manometre, transmițătoare, debitmetre, presostate) la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-4 săptămâni la comandă pentru restul gamei sau modele speciale. Pentru o ofertă, trimite-ne seria exactă a produsului (de exemplu Magnehelic 2000 sau seria 628), gama de măsurare necesară și conexiunea de proces - revenim cu preț și termen confirmat.`,
+    infinitrade: `Spunem deschis ce putem și ce nu putem confirma despre disponibilitatea reală a fiecărui produs Dwyer înainte de a promite un termen. Aducem instrumentele Dwyer (manometre, transmițătoare, debitmetre, presostate) la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau modele speciale. Pentru o ofertă, trimite-ne seria exactă a produsului (de exemplu Magnehelic 2000 sau seria 628), gama de măsurare necesară și conexiunea de proces - revenim cu preț și termen confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru sub-gama de instrumente digitale Dwyer, doar termenul de aducere la comandă.',
     sources: [
       {"title":"Pressure Category – DwyerOmega","url":"https://www.dwyeromega.com/en-us/pressure/c/pressure","publisher":"Dwyer Instruments (DwyerOmega)","accessed":"2026-09-22"},
@@ -856,7 +856,7 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
       },
       {
         "q": "Livrați instrumente Dwyer în România la comandă?",
-        "a": "Instrumentele Dwyer sunt comandate punctual pentru fiecare proiect, folosind informațiile publicate de producător, fără un stoc propriu păstrat în depozit. Termenul obișnuit este 2-4 săptămâni la comandă, în funcție de model și de cantitate. Pentru o ofertă rapidă recomandăm să menționați tipul de măsurare, domeniul de presiune și tipul de ieșire electrică dorit."
+        "a": "Instrumentele Dwyer sunt comandate punctual pentru fiecare proiect, folosind informațiile publicate de producător, fără un stoc propriu păstrat în depozit. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de model și de cantitate. Pentru o ofertă rapidă recomandăm să menționați tipul de măsurare, domeniul de presiune și tipul de ieșire electrică dorit."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă pentru un traductor de presiune Dwyer?",
@@ -925,7 +925,7 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
       'Industria alimentară',
       'OEM - constructori de mașini'
     ],
-    infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe surse publice ale producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-4 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimite-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe surse publice ale producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimite-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare software sau punere în funcțiune pentru drive-urile și UPS-urile Eaton - acestea rămân la instalator sau la producător.',
     sources: [
       {"title":"Electrical Circuit Protection – Product Overview","url":"https://www.eaton.com/us/en-us/products/electrical-circuit-protection.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
@@ -1002,7 +1002,7 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
       },
       {
         "q": "Livrați echipamente electrice Eaton în România la comandă?",
-        "a": "Componentele Eaton sunt aduse pe bază de comandă fermă, plecând de la cataloagele oficiale ale producătorului, fără un depozit propriu constituit dinainte. Termenul obișnuit este 2-4 săptămâni la comandă, în funcție de familie de produs și de cantitate. Pentru o ofertă rapidă recomandăm să transmiteți curentul nominal, tensiunea de lucru și tipul de tablou în care se montează echipamentul."
+        "a": "Componentele Eaton sunt aduse pe bază de comandă fermă, plecând de la cataloagele oficiale ale producătorului, fără un depozit propriu constituit dinainte. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de familie de produs și de cantitate. Pentru o ofertă rapidă recomandăm să transmiteți curentul nominal, tensiunea de lucru și tipul de tablou în care se montează echipamentul."
       },
       {
         "q": "Ce date trebuie să trimit pentru o ofertă pentru un întrerupător Eaton?",
@@ -1071,7 +1071,7 @@ Eaton Filtration are peste 60 de ani de experiență în filtrare industrială: 
       'Rafinării petrol',
       'Industria cosmetică'
     ],
-    infinitrade: `Pentru divizia Eaton Filtration lucrăm din surse publice ale producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-4 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimite-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Pentru divizia Eaton Filtration lucrăm din surse publice ale producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimite-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru sacii și cartușele consumabile din gama Eaton Filtration, doar termenul de aducere la comandă.',
     sources: [
       {"title":"Filtration Products Catalog – Eaton","url":"https://www.eaton.com/us/en-us/catalog/filtration.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
@@ -1157,7 +1157,7 @@ Eaton Filtration are peste 60 de ani de experiență în filtrare industrială: 
       },
       {
         "q": "Livrați elemente filtrante Eaton în România la comandă?",
-        "a": "Elementele filtrante Eaton sunt procurate la cerere, conform fișelor publicate de producător, fără stoc de rezervă menținut în depozit propriu. Termenul obișnuit este 2-4 săptămâni la comandă, în funcție de tip și de cantitatea solicitată. Pentru o ofertă rapidă este util să transmiteți materialul, dimensiunea și gradul de filtrare al elementului folosit în prezent."
+        "a": "Elementele filtrante Eaton sunt procurate la cerere, conform fișelor publicate de producător, fără stoc de rezervă menținut în depozit propriu. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de tip și de cantitatea solicitată. Pentru o ofertă rapidă este util să transmiteți materialul, dimensiunea și gradul de filtrare al elementului folosit în prezent."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă pentru un cartuș filtrant Eaton?",
@@ -1226,7 +1226,7 @@ Sistemul de valve electrohidraulice permite control milimetric al poziției cili
       'Naval și offshore',
       'Aviație - sisteme hidraulice aeronave'
     ],
-    infinitrade: `Nu putem confirma stocul exact pentru fiecare componentă Eaton Hydraulics și lucrăm din informațiile publice ale producătorului atunci când descriem pompele Vickers, motoarele Char-Lynn, valvele și cilindrii din gamă. Aducem componentele hidraulice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-4 săptămâni la comandă pentru pompe mari sau configurații speciale de valve. Pentru o ofertă, trimite-ne parametrii circuitului hidraulic (debit, presiune, cursă) sau codul exact al piesei - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu putem confirma stocul exact pentru fiecare componentă Eaton Hydraulics și lucrăm din informațiile publice ale producătorului atunci când descriem pompele Vickers, motoarele Char-Lynn, valvele și cilindrii din gamă. Aducem componentele hidraulice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru pompe mari sau configurații speciale de valve. Pentru o ofertă, trimite-ne parametrii circuitului hidraulic (debit, presiune, cursă) sau codul exact al piesei - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu efectuăm noi reparații sau recondiționare a pompelor și motoarelor hidraulice Eaton - service-ul rămâne în sarcina producătorului sau a unui atelier specializat.',
     sources: [
       {"title":"Vickers Filtration Master Catalogue","url":"https://www.eaton.com/content/dam/eaton/products/filtration-solutions/filter-systems-and-strainers/filters-and-strainers/hydraulic-lubrication-filters/vickers/Eaton-Vickers-Brochure-US-LowRes.pdf","publisher":"Eaton","accessed":"2026-09-22"},
@@ -1307,7 +1307,7 @@ Sistemul de valve electrohidraulice permite control milimetric al poziției cili
       },
       {
         "q": "Livrați filtre Eaton Vickers în România?",
-        "a": "Da, aducem la comandă coduri Eaton Vickers pe baza informațiilor publice din catalogul Vickers Filtration al producătorului, fără a ține stoc propriu permanent. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de disponibilitatea codului exact și de confirmarea specificațiilor tehnice cerute de aplicația dumneavoastră hidraulică."
+        "a": "Da, aducem la comandă coduri Eaton Vickers pe baza informațiilor publice din catalogul Vickers Filtration al producătorului, fără a ține stoc propriu permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de disponibilitatea codului exact și de confirmarea specificațiilor tehnice cerute de aplicația dumneavoastră hidraulică."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -1372,7 +1372,7 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       'Life sciences - biotehnologie',
       'Metals & mining - siderurgie'
     ],
-    infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim informațiile publice disponibile de la producător atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 2-4 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, trimite-ne datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim informațiile publice disponibile de la producător atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24-72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, trimite-ne datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare sau programare software pentru sistemele DeltaV sau valvele Fisher - acestea rămân în sarcina integratorului sau a producătorului.',
     sources: [
       {"title":"Fisher easy-e ED Control Valve","url":"https://www.emerson.com/en/final-control/products/fisher-ed","publisher":"Emerson","accessed":"2026-09-22"},
@@ -1462,7 +1462,7 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       },
       {
         "q": "Livrați echipamente Emerson Rosemount și Fisher în România?",
-        "a": "Da, codurile Emerson menționate se aduc la comandă, în bază specificațiilor publice din documentația producătorului, fără gama pe raft deținut în depozit. Termenul uzual este de 2-4 săptămâni la comandă, în funcție de model, de configurația cerută și de confirmarea disponibilității transmitorului sau valvei alese pentru aplicația dumneavoastră industrială."
+        "a": "Da, codurile Emerson menționate se aduc la comandă, în bază specificațiilor publice din documentația producătorului, fără gama pe raft deținut în depozit. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de model, de configurația cerută și de confirmarea disponibilității transmitorului sau valvei alese pentru aplicația dumneavoastră industrială."
       }
     ],
     evidenceClass: 'gsc-only',

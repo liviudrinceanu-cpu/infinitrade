@@ -33,7 +33,7 @@ Pentru piața din România, gama Kontron are sens la integratorii de sisteme și
       "Sănătate — echipamente embedded pentru dispozitive medicale conectate",
       "Automotive — module de calcul pentru aplicații industriale din producția auto"
     ],
-    infinitrade: `Ce știm despre Kontron vine din site-ul oficial al producătorului austriac, iar unde informația publică lipsește, spunem clar asta în loc să completăm din presupuneri. Aducem platformele și modulele Kontron la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de codul exact al produsului, sistemul de operare pe care va rula aplicația și eventualele cerințe de certificare pentru mediul de instalare. Disponibilitatea nu este garantată permanent din stoc pentru nicio referință din gamă — fiecare cerere se verifică individual cu furnizorul înainte de confirmarea comenzii.`,
+    infinitrade: `Ce știm despre Kontron vine din site-ul oficial al producătorului austriac, iar unde informația publică lipsește, spunem clar asta în loc să completăm din presupuneri. Aducem platformele și modulele Kontron la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de codul exact al produsului, sistemul de operare pe care va rula aplicația și eventualele cerințe de certificare pentru mediul de instalare. Disponibilitatea nu este garantată permanent din stoc pentru nicio referință din gamă — fiecare cerere se verifică individual cu furnizorul înainte de confirmarea comenzii.`,
     limitation: "Nu putem confirma suport tehnic în limba română pentru configurarea software-ului KontronOS sau a platformei 480 APM, care rămâne responsabilitatea integratorului de sistem.",
     productCodes: [
       {
@@ -92,7 +92,7 @@ Pentru piața din România, gama Kontron are sens la integratorii de sisteme și
       },
       {
         "q": "Livrați echipamente Kontron în România?",
-        "a": "Echipamentele Kontron se procură la comandă, cu un termen estimat de 2–4 săptămâni de la confirmare, întrucât gama nu este ținută pe raft, acoperind plăci embedded, sisteme edge și computere de misiune foarte diferite."
+        "a": "Echipamentele Kontron se procură la comandă, cu un termen estimat de 1–4 săptămâni de la confirmare, întrucât gama nu este ținută pe raft, acoperind plăci embedded, sisteme edge și computere de misiune foarte diferite."
       },
       {
         "q": "Ce este un computer de misiune precum Cobalt S1901 de la Kontron?",
@@ -142,7 +142,7 @@ Pentru instalațiile din România, componentele Piab au sens la integratorii de 
       "Ambalaje — prindere cutii, folii și materiale flexibile pe linii de ambalare",
       "Industria farmaceutică — manipulare produse în condiții de curățenie controlată"
     ],
-    infinitrade: `Lucrăm din informațiile publice de pe site-ul producătorului suedez și spunem direct ce am putut confirma acolo și ce nu — nu completăm din memorie parametri care nu apar scriși explicit în documentația producătorului. Aducem componentele Piab la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă trimiteți-ne tipul de componentă căutată (ventuză, griper, pompă de vid), diametrul sau capacitatea de ridicare și, dacă e vorba de o gripă robotizată, modelul de robot pe care se montează. Nu putem asigura o disponibilitate permanentă din stoc pentru toate referințele din gamă — verificăm fiecare cerere înainte de a trimite oferta finală.`,
+    infinitrade: `Lucrăm din informațiile publice de pe site-ul producătorului suedez și spunem direct ce am putut confirma acolo și ce nu — nu completăm din memorie parametri care nu apar scriși explicit în documentația producătorului. Aducem componentele Piab la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă trimiteți-ne tipul de componentă căutată (ventuză, griper, pompă de vid), diametrul sau capacitatea de ridicare și, dacă e vorba de o gripă robotizată, modelul de robot pe care se montează. Nu putem asigura o disponibilitate permanentă din stoc pentru toate referințele din gamă — verificăm fiecare cerere înainte de a trimite oferta finală.`,
     limitation: "Nu putem confirma anul fondării sau orașul exact al sediului Piab, informații care nu apar explicit pe paginile consultate ale site-ului oficial.",
     productCodes: [
       {
@@ -249,7 +249,7 @@ Pentru instalațiile din România, gama Chesterton are sens la stațiile de pomp
       "Marină — etanșări și ambalaje pentru pompele de la bordul navelor"
     ],
     certifications: ["NSF/ANSI 61 — pentru anumite produse de etanșare care intră în contact cu apă potabilă"],
-    infinitrade: `Informațiile despre Chesterton provin din site-ul oficial al producătorului american, iar acolo unde pagina nu detaliază un parametru tehnic, nu îl inventăm în ofertă. Aducem etanșările Chesterton la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă precisă trimiteți-ne tipul de etanșare căutat, diametrul arborelui, presiunea și temperatura de lucru, plus fluidul vehiculat — parametri fără de care nu putem recomanda varianta corectă. Nu păstrăm stoc pentru toate referințele din gamă, așa că disponibilitatea se confirmă separat la fiecare comandă.`,
+    infinitrade: `Informațiile despre Chesterton provin din site-ul oficial al producătorului american, iar acolo unde pagina nu detaliază un parametru tehnic, nu îl inventăm în ofertă. Aducem etanșările Chesterton la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă precisă trimiteți-ne tipul de etanșare căutat, diametrul arborelui, presiunea și temperatura de lucru, plus fluidul vehiculat — parametri fără de care nu putem recomanda varianta corectă. Nu păstrăm stoc pentru toate referințele din gamă, așa că disponibilitatea se confirmă separat la fiecare comandă.`,
     limitation: "Nu putem confirma service de intervenție la fața locului sau training de montaj pentru etanșările Chesterton, servicii care rămân la latitudinea rețelei proprii a producătorului.",
     productCodes: [
       {
@@ -386,7 +386,7 @@ Pentru instalațiile din România, benzile Chiorino au sens în liniile de proce
       "Textile — benzi de transport pentru linii de procesare a materialelor",
       "Reciclare — benzi rezistente la abraziune pentru linii de sortare a deșeurilor"
     ],
-    infinitrade: `Ce scriem despre Chiorino se bazează pe informațiile publice de pe site-ul producătorului italian, fără date proprii despre stocul lor real la un moment dat. Aducem benzile Chiorino la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne tipul de bandă căutat, lățimea și lungimea necesară, plus aplicația exactă (transport, sincronizare, transmisie). Disponibilitatea permanentă din stoc nu poate fi promisă pentru fiecare referință — o verificăm punctual la fiecare cerere primită.`,
+    infinitrade: `Ce scriem despre Chiorino se bazează pe informațiile publice de pe site-ul producătorului italian, fără date proprii despre stocul lor real la un moment dat. Aducem benzile Chiorino la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne tipul de bandă căutat, lățimea și lungimea necesară, plus aplicația exactă (transport, sincronizare, transmisie). Disponibilitatea permanentă din stoc nu poate fi promisă pentru fiecare referință — o verificăm punctual la fiecare cerere primită.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (grosime, temperatură maximă de lucru) pentru fiecare gamă de benzi, informații disponibile doar pe paginile individuale de produs ale site-ului oficial.",
     productCodes: [
       {
@@ -498,7 +498,7 @@ Pentru instalațiile din România, discurile Fike au sens la reactoarele chimice
       "Industria alimentară și a băuturilor — discuri igienice pentru echipamente de proces"
     ],
     certifications: ["Laborator de testare a fluxului conform codului ASME pentru discuri de rupere (referință TB8100)"],
-    infinitrade: `Informațiile despre Fike vin din pagina oficială dedicată discurilor de rupere, iar parametrii exacți de presiune pentru fiecare model rămân în fișele tehnice ale producătorului, nu în ce am putut verifica noi direct pe pagina generală. Aducem discurile Fike la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de presiunea de rupere dorită, diametrul discului, temperatura de lucru și materialul compatibil cu fluidul din proces. Nu putem asigura disponibilitate permanentă din stoc pentru fiecare model — fiecare comandă se verifică separat cu producătorul.`,
+    infinitrade: `Informațiile despre Fike vin din pagina oficială dedicată discurilor de rupere, iar parametrii exacți de presiune pentru fiecare model rămân în fișele tehnice ale producătorului, nu în ce am putut verifica noi direct pe pagina generală. Aducem discurile Fike la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de presiunea de rupere dorită, diametrul discului, temperatura de lucru și materialul compatibil cu fluidul din proces. Nu putem asigura disponibilitate permanentă din stoc pentru fiecare model — fiecare comandă se verifică separat cu producătorul.`,
     limitation: "Nu putem confirma presiunile de rupere exacte disponibile pentru fiecare serie, informații care se găsesc doar în fișele tehnice individuale ale fiecărui model de disc.",
     productCodes: [
       {
@@ -565,7 +565,7 @@ Pentru instalațiile din România, discurile Fike au sens la reactoarele chimice
       },
       {
         "q": "Livrați discuri de rupere Fike în România?",
-        "a": "Aducem la comandă discurile de rupere Fike solicitate, pe baza codului confirmat de client, fără stoc propriu pe această gamă; termenul obișnuit este de 2-4 săptămâni. Ne bazăm pe fișele tehnice și informațiile publice ale producătorului pentru identificarea variantei corecte. Este util să transmiteți diametrul nominal, presiunea de rupere dorită și temperatura de lucru pentru o încadrare rapidă în familia potrivită."
+        "a": "Aducem la comandă discurile de rupere Fike solicitate, pe baza codului confirmat de client, fără stoc propriu pe această gamă; termenul obișnuit este de 1–4 săptămâni. Ne bazăm pe fișele tehnice și informațiile publice ale producătorului pentru identificarea variantei corecte. Este util să transmiteți diametrul nominal, presiunea de rupere dorită și temperatura de lucru pentru o încadrare rapidă în familia potrivită."
       },
       {
         "q": "Ce presupun discurile igienice Axius SC de la Fike?",
@@ -612,7 +612,7 @@ Pentru instalațiile din România, gama Piller are sens la centrele de date, spi
       "Aviație — alimentare critică pentru sisteme de la sol din aeroporturi",
       "Marină — sisteme de putere critică pentru instalații portuare și navale"
     ],
-    infinitrade: `Ce prezentăm despre Piller vine din pagina oficială a producătorului, cu accent pe ce am putut confirma acolo — nu completăm cu date proprii de stoc sau cu detalii tehnice care nu apar explicit în documentația producătorului. Aducem sistemele Piller la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare, mai lung pentru instalațiile de mare putere care se configurează pe proiect. Pentru o ofertă corectă avem nevoie de puterea necesară, tipul de aplicație (centru de date, industrial, marin) și cerințele de spațiu de montaj. Nu putem promite o disponibilitate permanentă din stoc pentru echipamente de această complexitate — fiecare proiect se verifică individual cu producătorul.`,
+    infinitrade: `Ce prezentăm despre Piller vine din pagina oficială a producătorului, cu accent pe ce am putut confirma acolo — nu completăm cu date proprii de stoc sau cu detalii tehnice care nu apar explicit în documentația producătorului. Aducem sistemele Piller la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, mai lung pentru instalațiile de mare putere care se configurează pe proiect. Pentru o ofertă corectă avem nevoie de puterea necesară, tipul de aplicație (centru de date, industrial, marin) și cerințele de spațiu de montaj. Nu putem promite o disponibilitate permanentă din stoc pentru echipamente de această complexitate — fiecare proiect se verifică individual cu producătorul.`,
     limitation: "Nu putem confirma anul fondării, orașul sediului sau structura de grup a Piller, informații care nu au apărut explicit pe paginile consultate ale site-ului oficial.",
     productCodes: [
       {
@@ -667,7 +667,7 @@ Pentru instalațiile din România, gama Piller are sens la centrele de date, spi
       },
       {
         "q": "Aduceți la comandă echipamente Piller în România?",
-        "a": "Sistemele Piller ajung la comandă fermă, în funcție de configurația exactă cerută de proiect; nu păstrăm această gamă pe raft, iar intervalul tipic este de 2-4 săptămâni. Ne raportăm la documentația tehnică publicată de producător pentru a confirma varianta potrivită de UPS sau comutator static. Recomandăm transmiterea puterii necesare și a tipului de sarcină critică pentru o ofertă corectă."
+        "a": "Sistemele Piller ajung la comandă fermă, în funcție de configurația exactă cerută de proiect; nu păstrăm această gamă pe raft, iar intervalul tipic este de 1–4 săptămâni. Ne raportăm la documentația tehnică publicată de producător pentru a confirma varianta potrivită de UPS sau comutator static. Recomandăm transmiterea puterii necesare și a tipului de sarcină critică pentru o ofertă corectă."
       },
       {
         "q": "Ce diferență este între UPS static M+ și sistemul rotativ UNIBLOCK la Piller?",
@@ -720,7 +720,7 @@ Pentru instalațiile din România, motoarele Nanotec au sens la echipamentele de
       "Echipamente medicale — motoare de precizie pentru dispozitive de diagnostic",
       "Sisteme de transport intern — acționări pentru linii de transport de mici dimensiuni"
     ],
-    infinitrade: `Datele despre Nanotec vin de pe site-ul oficial al producătorului german, iar parametrii pe care nu i-am găsit explicit acolo nu apar în textul nostru. Aducem motoarele Nanotec la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de dimensiunea NEMA, cuplul necesar, unghiul de pas dorit și dacă aveți nevoie de controller integrat sau doar de motor. Nu putem confirma o disponibilitate permanentă din stoc pentru fiecare variantă din gamă — verificăm punctual fiecare cerere primită.`,
+    infinitrade: `Datele despre Nanotec vin de pe site-ul oficial al producătorului german, iar parametrii pe care nu i-am găsit explicit acolo nu apar în textul nostru. Aducem motoarele Nanotec la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de dimensiunea NEMA, cuplul necesar, unghiul de pas dorit și dacă aveți nevoie de controller integrat sau doar de motor. Nu putem confirma o disponibilitate permanentă din stoc pentru fiecare variantă din gamă — verificăm punctual fiecare cerere primită.`,
     limitation: "Nu putem confirma certificări specifice (ISO, CE) pentru motoarele Nanotec, informații care nu au apărut explicit pe pagina consultată a site-ului oficial.",
     productCodes: [
       {
@@ -811,7 +811,7 @@ Pentru instalațiile din România, motoarele Nanotec au sens la echipamentele de
       },
       {
         "q": "Livrați motoare Nanotec în România?",
-        "a": "Motoarele și reductoarele Nanotec ajung la comandă, într-un termen mediu de 2–4 săptămâni, deoarece nu ținem această gamă pe raft, fiecare familie având zeci de variante de dimensiune și cuplu disponibile."
+        "a": "Motoarele și reductoarele Nanotec ajung la comandă, într-un termen mediu de 1–4 săptămâni, deoarece nu ținem această gamă pe raft, fiecare familie având zeci de variante de dimensiune și cuplu disponibile."
       },
       {
         "q": "Ce rol are un controller precum C5-E în sistemele Nanotec?",
@@ -859,7 +859,7 @@ Pentru piața din România, sculele Festool au sens la tâmplăriile profesional
       "Pardoseli — scule pentru montaj și finisare pardoseli din lemn",
       "Vopsitorie și zugrăveli — echipamente conexe din gama Festool pentru pregătirea suprafețelor"
     ],
-    infinitrade: `Ce spunem despre Festool se bazează pe site-ul oficial german al producătorului, iar unde pagina nu oferă un parametru tehnic exact, nu îl completăm din alte surse. Aducem sculele Festool la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne modelul exact al sculei, dacă aveți nevoie de accesorii compatibile (șină de ghidare, aspirator) și dacă lucrați pe platforma de acumulatori 18V. Nu ținem la dispoziție fiecare referință din gamă în permanență — disponibilitatea se confirmă la fiecare comandă în parte.`,
+    infinitrade: `Ce spunem despre Festool se bazează pe site-ul oficial german al producătorului, iar unde pagina nu oferă un parametru tehnic exact, nu îl completăm din alte surse. Aducem sculele Festool la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne modelul exact al sculei, dacă aveți nevoie de accesorii compatibile (șină de ghidare, aspirator) și dacă lucrați pe platforma de acumulatori 18V. Nu ținem la dispoziție fiecare referință din gamă în permanență — disponibilitatea se confirmă la fiecare comandă în parte.`,
     limitation: "Nu putem confirma prețurile sau politica de garanție all-inclusive Festool pentru piața din România, informații care rămân la latitudinea rețelei oficiale de distribuție a producătorului.",
     productCodes: [
       {
@@ -914,7 +914,7 @@ Pentru piața din România, sculele Festool au sens la tâmplăriile profesional
       },
       {
         "q": "Livrați scule Festool în România la comandă?",
-        "a": "Sculele Festool solicitate se aduc la comandă din gamele publicate de producător; raftul propriu nu acoperă această categorie, iar așteptarea uzuală este de 2-4 săptămâni. Ne bazăm pe fișele tehnice oficiale pentru a confirma codul exact al mașinii și al accesoriilor compatibile, cum ar fi șinele de ghidare sau sistemul de aspirare asociat."
+        "a": "Sculele Festool solicitate se aduc la comandă din gamele publicate de producător; raftul propriu nu acoperă această categorie, iar așteptarea uzuală este de 1–4 săptămâni. Ne bazăm pe fișele tehnice oficiale pentru a confirma codul exact al mașinii și al accesoriilor compatibile, cum ar fi șinele de ghidare sau sistemul de aspirare asociat."
       },
       {
         "q": "Ce diferență este între fierăstraiele Festool TS 55 și TS 60 K?",
@@ -967,7 +967,7 @@ Pentru piața din România, sculele Facom au sens la atelierele de mecanică aut
       "Mentenanță industrială generală — trusa de scule de bază pentru echipele de întreținere",
       "Ciclism profesional — scule specializate pentru mecanicii de echipe de ciclism"
     ],
-    infinitrade: `Ce prezentăm despre Facom vine din site-ul oficial francez al producătorului și din pagina de istoric a mărcii, fără completări din memorie acolo unde sursa nu confirmă un detaliu. Aducem sculele Facom la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne referința exactă a sculei sau a trusei căutate și, dacă e vorba de o cheie dinamometrică, plaja de cuplu necesară. Nu putem oferi disponibilitate permanentă din stoc pentru fiecare referință Facom — verificăm situația reală la fiecare cerere primită.`,
+    infinitrade: `Ce prezentăm despre Facom vine din site-ul oficial francez al producătorului și din pagina de istoric a mărcii, fără completări din memorie acolo unde sursa nu confirmă un detaliu. Aducem sculele Facom la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne referința exactă a sculei sau a trusei căutate și, dacă e vorba de o cheie dinamometrică, plaja de cuplu necesară. Nu putem oferi disponibilitate permanentă din stoc pentru fiecare referință Facom — verificăm situația reală la fiecare cerere primită.`,
     limitation: "Nu putem confirma service sau training de montaj în limba română pentru sculele Facom, activități care rămân la latitudinea rețelei oficiale a grupului Stanley Black & Decker.",
     productCodes: [
       {
@@ -1034,7 +1034,7 @@ Pentru piața din România, sculele Facom au sens la atelierele de mecanică aut
       },
       {
         "q": "Aduceți la comandă scule Facom în România?",
-        "a": "Codurile Facom cerute se comandă punctual către producător, fără a fi ținute pe raft în depozitul propriu; livrarea durează de regulă 2-4 săptămâni. Ne ghidăm după cataloagele publice ale producătorului pentru a identifica exact codul complet al cheii sau clemei dorite. Transmiterea codului de pe ambalaj sau de pe scula existentă accelerează foarte mult identificarea variantei corecte."
+        "a": "Codurile Facom cerute se comandă punctual către producător, fără a fi ținute pe raft în depozitul propriu; livrarea durează de regulă 1–4 săptămâni. Ne ghidăm după cataloagele publice ale producătorului pentru a identifica exact codul complet al cheii sau clemei dorite. Transmiterea codului de pe ambalaj sau de pe scula existentă accelerează foarte mult identificarea variantei corecte."
       },
       {
         "q": "Ce diferență este între cleștii Facom multipoziție și cei combinați?",
@@ -1088,7 +1088,7 @@ Pentru piața din România, dispozitivele Bessey au sens la atelierele de tâmpl
       "Tâmplărie grea (Zimmerei) — fixare piese mari de structură din lemn",
       "Construcții navale — dispozitive de fixare pentru lucrări de montaj la bordul navelor"
     ],
-    infinitrade: `Datele despre Bessey provin din site-ul oficial german al producătorului, iar orașul exact al sediului nu a apărut explicit pe pagina consultată, așa că îl lăsăm afară din text. Aducem clemele și dispozitivele Bessey la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne tipul de clemă sau dispozitiv căutat și deschiderea maximă necesară. Nu avem o disponibilitate permanentă din stoc pentru toate referințele din gamă — verificăm situația la fiecare cerere primită.`,
+    infinitrade: `Datele despre Bessey provin din site-ul oficial german al producătorului, iar orașul exact al sediului nu a apărut explicit pe pagina consultată, așa că îl lăsăm afară din text. Aducem clemele și dispozitivele Bessey la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne tipul de clemă sau dispozitiv căutat și deschiderea maximă necesară. Nu avem o disponibilitate permanentă din stoc pentru toate referințele din gamă — verificăm situația la fiecare cerere primită.`,
     limitation: "Nu putem confirma orașul exact al sediului Bessey sau certificări specifice de calitate, informații care nu au apărut explicit pe pagina oficială consultată.",
     productCodes: [
       {
@@ -1171,7 +1171,7 @@ Pentru piața din România, dispozitivele Bessey au sens la atelierele de tâmpl
       },
       {
         "q": "Livrați scule de fixare Bessey în România?",
-        "a": "Sculele de fixare Bessey se aduc la comandă din catalogul producătorului, într-un termen de aproximativ 2–4 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de dimensiuni și tipuri de cleme disponibile."
+        "a": "Sculele de fixare Bessey se aduc la comandă din catalogul producătorului, într-un termen de aproximativ 1–4 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de dimensiuni și tipuri de cleme disponibile."
       },
       {
         "q": "Ce este setul de clemare pentru țevi BPC de la Bessey?",
@@ -1219,7 +1219,7 @@ Pentru piața din România, celulele de sarcină și traductoarele VPG au sens l
       "Aerospațial și apărare — traductoare de precizie pentru aplicații critice",
       "Transport și logistică — cântărire pe vehicule pentru verificarea încărcăturii"
     ],
-    infinitrade: `Informațiile despre VPG vin din site-ul oficial al producătorului american, iar acolo unde pagina nu detaliază parametri tehnici (capacități, precizie), nu îi completăm din alte surse. Aducem celulele de sarcină și traductoarele VPG la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne marca și modelul căutat (Tedea-Huntleigh, Celtron etc.), capacitatea de măsurare necesară și clasa de precizie cerută de aplicație. Nu putem oferi o disponibilitate permanentă din stoc pentru fiecare referință din portofoliul VPG — verificăm fiecare cerere separat.`,
+    infinitrade: `Informațiile despre VPG vin din site-ul oficial al producătorului american, iar acolo unde pagina nu detaliază parametri tehnici (capacități, precizie), nu îi completăm din alte surse. Aducem celulele de sarcină și traductoarele VPG la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne marca și modelul căutat (Tedea-Huntleigh, Celtron etc.), capacitatea de măsurare necesară și clasa de precizie cerută de aplicație. Nu putem oferi o disponibilitate permanentă din stoc pentru fiecare referință din portofoliul VPG — verificăm fiecare cerere separat.`,
     limitation: "Nu putem confirma anul fondării VPG sau certificări specifice de calitate, informații care nu au apărut explicit pe paginile consultate ale site-ului oficial.",
     productCodes: [
       {
@@ -1302,7 +1302,7 @@ Pentru piața din România, celulele de sarcină și traductoarele VPG au sens l
       },
       {
         "q": "Livrați produse Vishay Precision Group în România?",
-        "a": "Mărcile tensometrice și celulele de sarcină din portofoliul Vishay Precision Group se aduc la comandă, cu un interval estimat de 2–4 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de capacități și variante constructive."
+        "a": "Mărcile tensometrice și celulele de sarcină din portofoliul Vishay Precision Group se aduc la comandă, cu un interval estimat de 1–4 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de capacități și variante constructive."
       },
       {
         "q": "Ce sunt sistemele Gleeble din gama Vishay Precision Group?",
@@ -1353,7 +1353,7 @@ Pentru instalațiile din România, debitmetrele Katronic au sens la conductele e
       "Industria farmaceutică — verificări de debit fără contact cu fluidul din conductă"
     ],
     certifications: ["ATEX — certificare pentru modelul KATflow 170, destinat zonelor cu risc de explozie (Ex 1 și 2)"],
-    infinitrade: `Ce prezentăm despre Katronic vine din site-ul oficial german al producătorului, iar unde pagina nu a specificat un parametru (de exemplu anul fondării), nu îl completăm din altă sursă. Aducem debitmetrele Katronic la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne diametrul conductei, materialul acesteia, fluidul măsurat și dacă aveți nevoie de certificare ATEX pentru zona de montaj. Nu putem confirma o disponibilitate permanentă din stoc pentru fiecare model din gamă — o verificăm la fiecare comandă în parte.`,
+    infinitrade: `Ce prezentăm despre Katronic vine din site-ul oficial german al producătorului, iar unde pagina nu a specificat un parametru (de exemplu anul fondării), nu îl completăm din altă sursă. Aducem debitmetrele Katronic la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă trimiteți-ne diametrul conductei, materialul acesteia, fluidul măsurat și dacă aveți nevoie de certificare ATEX pentru zona de montaj. Nu putem confirma o disponibilitate permanentă din stoc pentru fiecare model din gamă — o verificăm la fiecare comandă în parte.`,
     limitation: "Nu putem confirma anul fondării Katronic, informație care nu a apărut explicit pe paginile consultate ale site-ului oficial.",
     evidenceClass: "market-signal-intl",
     tier: 3,

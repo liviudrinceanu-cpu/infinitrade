@@ -33,7 +33,7 @@ Pentru România, Siko are sens la retehnologizarea mașinilor-unelte, la utilaje
       "SIL2 (IEC 61508) — variante certificate pentru circuite de siguranță funcțională",
       "PLd (ISO 13849) — nivel de performanță pentru integrare în oprirea de urgență"
     ],
-    infinitrade: `Aducem gama Siko din surse de aprovizionare din UE, la comandă, cu termen orientativ de 2-4 săptămâni. Ce putem și ce nu putem confirma ține de configurație: trimiteți codul de pe eticheta senzorului actual sau parametrii aplicației (cursă, rezoluție, protocol). Nu ținem disponibilitate permanentă din stoc pentru toate variantele.`,
+    infinitrade: `Aducem gama Siko din surse de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Ce putem și ce nu putem confirma ține de configurație: trimiteți codul de pe eticheta senzorului actual sau parametrii aplicației (cursă, rezoluție, protocol). Nu ținem disponibilitate permanentă din stoc pentru toate variantele.`,
     limitation: "Nu putem confirma disponibilitatea imediată din stoc pentru variantele cu certificare de siguranță funcțională, care se comandă de regulă direct de la producător.",
     productCodes: [
       {
@@ -152,7 +152,7 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
       "Infrastructură și transport — sisteme de ventilație și control pentru tuneluri și porturi",
       "Centre de date — surse UPS pentru alimentare neîntreruptibilă"
     ],
-    infinitrade: `Convertizoarele și echipamentele de acționare Fuji Electric le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Lucrăm din surse publice ale producătorului pentru descrierea gamei, fără date proprii de stoc pentru piața locală — vă rugăm să ne trimiteți puterea și tensiunea motorului acționat, tipul de sarcină și eventualele cerințe de comunicație pe bus de câmp, ca să identificăm modelul potrivit. Nu promitem disponibilitate permanentă pe stoc pentru toate variantele din gamă.`,
+    infinitrade: `Convertizoarele și echipamentele de acționare Fuji Electric le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Lucrăm din surse publice ale producătorului pentru descrierea gamei, fără date proprii de stoc pentru piața locală — vă rugăm să ne trimiteți puterea și tensiunea motorului acționat, tipul de sarcină și eventualele cerințe de comunicație pe bus de câmp, ca să identificăm modelul potrivit. Nu promitem disponibilitate permanentă pe stoc pentru toate variantele din gamă.`,
     limitation: "Nu putem confirma dacă un model anume are distribuție directă și termene mai scurte în Europa față de altele din gamă, fără verificare punctuală la producător.",
     productCodes: [
       {
@@ -223,7 +223,7 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
       },
       {
         "q": "Livrați echipamentele Fuji Electric în România?",
-        "a": "Da, convertizoarele de frecvență și sistemele servo Fuji Electric pot fi aduse la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–4 săptămâni, în funcție de model. Recomandăm confirmarea codului exact, deoarece unele serii au fost înlocuite de generații mai noi cu denumiri apropiate."
+        "a": "Da, convertizoarele de frecvență și sistemele servo Fuji Electric pot fi aduse la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 1–4 săptămâni, în funcție de model. Recomandăm confirmarea codului exact, deoarece unele serii au fost înlocuite de generații mai noi cu denumiri apropiate."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă pe un convertizor Fuji Electric?",
@@ -268,7 +268,7 @@ Pentru România, NKE are sens ca alternativă de aprovizionare pentru rulmenți 
       "Transportoare și manipulare materiale — rulmenți pentru role și tamburi",
       "Industrie generală — aplicații unde se caută o alternativă de aprovizionare la mărcile consacrate"
     ],
-    infinitrade: `Pentru NKE Austria lucrăm din surse publice ale producătorului, fără date proprii de stoc pe piața din România — informațiile tehnice complete despre o serie anume trebuie confirmate punctual la comandă. Aducem rulmenți NKE la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Pentru ofertă corectă, trimiteți codul complet marcat pe rulmentul existent sau dimensiunile de alezaj, diametru exterior și lățime; pentru rulmenți personalizați, e nevoie de desenul tehnic al aplicației. Nu promitem disponibilitate permanentă din stoc pentru gama completă.`,
+    infinitrade: `Pentru NKE Austria lucrăm din surse publice ale producătorului, fără date proprii de stoc pe piața din România — informațiile tehnice complete despre o serie anume trebuie confirmate punctual la comandă. Aducem rulmenți NKE la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru ofertă corectă, trimiteți codul complet marcat pe rulmentul existent sau dimensiunile de alezaj, diametru exterior și lățime; pentru rulmenți personalizați, e nevoie de desenul tehnic al aplicației. Nu promitem disponibilitate permanentă din stoc pentru gama completă.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (sarcini dinamice, viteze limită) pentru fiecare serie fără consultarea fișei tehnice specifice de la producător.",
     evidenceClass: "market-signal-ro",
     tier: 3,
@@ -312,7 +312,7 @@ Pentru România, Kessel are sens la clădiri comerciale cu bucătării profesion
     certifications: [
       "ISO 9001 — sistem de management al calității pentru dezvoltare, producție și service"
     ],
-    infinitrade: `Furnizăm echipamente Kessel prin canale de aprovizionare din UE, aduse la comandă cu termen orientativ de 2-4 săptămâni. Din surse publice ale producătorului putem confirma gama de produse și principiul de funcționare, dar nu avem date proprii de stoc pentru piața locală, așa că vă rugăm să ne trimiteți debitul estimat de ape uzate, înălțimea de pompare necesară și tipul de activitate deservită, pentru dimensionarea corectă a stației sau separatorului. Nu promitem disponibilitate permanentă din stoc pentru toate variantele.`,
+    infinitrade: `Furnizăm echipamente Kessel prin canale de aprovizionare din UE, aduse la comandă cu termen orientativ de 1–4 săptămâni. Din surse publice ale producătorului putem confirma gama de produse și principiul de funcționare, dar nu avem date proprii de stoc pentru piața locală, așa că vă rugăm să ne trimiteți debitul estimat de ape uzate, înălțimea de pompare necesară și tipul de activitate deservită, pentru dimensionarea corectă a stației sau separatorului. Nu promitem disponibilitate permanentă din stoc pentru toate variantele.`,
     limitation: "Nu putem confirma proiectarea sau punerea în funcțiune a instalației, care rămâne responsabilitatea instalatorului autorizat pe canalizare.",
     productCodes: [
       {
@@ -415,7 +415,7 @@ Pentru România, Kessel are sens la clădiri comerciale cu bucătării profesion
       },
       {
         "q": "Livrați produse Kessel în România?",
-        "a": "Da, aducem la comandă stații de pompare, separatoare și pompe submersibile din gamele descrise mai sus, conform fișelor tehnice publicate de producător, fără a păstra aceste sisteme depozitate permanent. De regulă durează 2-4 săptămâni de la comandă până la livrare, în funcție de model și configurație. Pentru o ofertă, transmiteți tipul instalației, debitul necesar și spațiul disponibil de montaj."
+        "a": "Da, aducem la comandă stații de pompare, separatoare și pompe submersibile din gamele descrise mai sus, conform fișelor tehnice publicate de producător, fără a păstra aceste sisteme depozitate permanent. De regulă durează 1–4 săptămâni de la comandă până la livrare, în funcție de model și configurație. Pentru o ofertă, transmiteți tipul instalației, debitul necesar și spațiul disponibil de montaj."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -457,7 +457,7 @@ Pentru România, sursele Mean Well au sens la panouri electrice industriale, la 
       "Energie verde — invertoare pentru sisteme solare de mică putere",
       "Echipamente medicale — surse cu certificări specifice de siguranță electrică"
     ],
-    infinitrade: `Sursele Mean Well le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, fără date proprii de stoc pentru fiecare model din cele peste 10.000 disponibile în gamă. Ca să identificăm echivalentul potrivit, avem nevoie de tensiunea de ieșire, puterea nominală și tipul de montaj al sursei pe care o înlocuiți, sau parametrii electrici ai aplicației noi. Nu promitem disponibilitate permanentă din stoc pentru toate variantele de putere și carcasă.`,
+    infinitrade: `Sursele Mean Well le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, fără date proprii de stoc pentru fiecare model din cele peste 10.000 disponibile în gamă. Ca să identificăm echivalentul potrivit, avem nevoie de tensiunea de ieșire, puterea nominală și tipul de montaj al sursei pe care o înlocuiți, sau parametrii electrici ai aplicației noi. Nu promitem disponibilitate permanentă din stoc pentru toate variantele de putere și carcasă.`,
     limitation: "Nu putem confirma echivalența directă pin-la-pin cu o sursă concurentă fără verificarea fișei tehnice a modelului solicitat.",
     productCodes: [
       {
@@ -556,7 +556,7 @@ Pentru România, sursele Mean Well au sens la panouri electrice industriale, la 
       },
       {
         "q": "Livrați surse de alimentare Mean Well în România?",
-        "a": "Da, aducem la comandă surse AC/DC, convertoare și drivere LED din gamele descrise mai sus, conform cataloagelor publice ale producătorului, fără a păstra aceste serii pe raft ca ofertă permanentă. Timpul obișnuit de livrare este de 2-4 săptămâni de la confirmarea comenzii, în funcție de model și cantitate. Pentru o ofertă, transmiteți puterea necesară, tensiunea de ieșire și tipul de montaj dorit."
+        "a": "Da, aducem la comandă surse AC/DC, convertoare și drivere LED din gamele descrise mai sus, conform cataloagelor publice ale producătorului, fără a păstra aceste serii pe raft ca ofertă permanentă. Timpul obișnuit de livrare este de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și cantitate. Pentru o ofertă, transmiteți puterea necesară, tensiunea de ieșire și tipul de montaj dorit."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -598,7 +598,7 @@ Pentru România, gama Amphenol are sens la echipamente industriale unde conector
       "Echipamente grele și utilaje mobile — conectori circulari rezistenți la vibrații",
       "Centre de date — conectori de mare curent pentru distribuție de putere"
     ],
-    infinitrade: `Conectorii industriali Amphenol îi aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, lucrând din surse publice ale producătorului pentru descrierea familiilor de produse. Nu avem date proprii de stoc pentru referințele individuale din gama industrială, așa că avem nevoie de codul exact al conectorului existent sau de parametrii aplicației (curent, tensiune, număr de contacte) pentru identificarea variantei potrivite. Nu promitem disponibilitate permanentă pe stoc.`,
+    infinitrade: `Conectorii industriali Amphenol îi aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, lucrând din surse publice ale producătorului pentru descrierea familiilor de produse. Nu avem date proprii de stoc pentru referințele individuale din gama industrială, așa că avem nevoie de codul exact al conectorului existent sau de parametrii aplicației (curent, tensiune, număr de contacte) pentru identificarea variantei potrivite. Nu promitem disponibilitate permanentă pe stoc.`,
     limitation: "Nu putem confirma compatibilitatea încrucișată cu conectori de la alți producători fără verificarea directă a desenelor tehnice.",
     productCodes: [
       {
@@ -677,7 +677,7 @@ Pentru România, gama Amphenol are sens la echipamente industriale unde conector
       },
       {
         "q": "Livrați conectori Amphenol în România?",
-        "a": "Da, aducem la comandă conectori solari, conectori pentru eMobility și accesorii din gama Amphenol Industrial prezentată mai sus, pornind de la fișele tehnice publicate de producător pe site-ul oficial. Nu păstrăm aceste repere pe stoc propriu; intervalul obișnuit este de 2-4 săptămâni de la plasarea comenzii. Pentru o ofertă, indicați tipul conectorului, tensiunea de lucru și secțiunea cablului."
+        "a": "Da, aducem la comandă conectori solari, conectori pentru eMobility și accesorii din gama Amphenol Industrial prezentată mai sus, pornind de la fișele tehnice publicate de producător pe site-ul oficial. Nu păstrăm aceste repere pe stoc propriu; intervalul obișnuit este de 1–4 săptămâni de la plasarea comenzii. Pentru o ofertă, indicați tipul conectorului, tensiunea de lucru și secțiunea cablului."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -719,7 +719,7 @@ Pentru România, produsele Soudal au sens la șantiere de construcții, la monta
       "Pardoseli — adezivi tehnici pentru instalare pardoseli industriale",
       "Retail de construcții — produse pentru utilizatori profesioniști și amatori"
     ],
-    infinitrade: `Produsele Soudal le furnizăm prin canale de aprovizionare din UE, aduse la comandă cu termen orientativ de 2-4 săptămâni pentru cantitățile mai mari sau produsele speciale. Din surse publice ale producătorului confirmăm gama și fișele tehnice, dar nu avem date proprii de stoc pentru fiecare referință — vă rugăm să transmiteți aplicația exactă (montaj, etanșare sau lipire), materialele implicate și cantitatea estimată. Nu promitem disponibilitate permanentă din stoc pentru variantele speciale din gamele tehnice.`,
+    infinitrade: `Produsele Soudal le furnizăm prin canale de aprovizionare din UE, aduse la comandă cu termen orientativ de 1–4 săptămâni pentru cantitățile mai mari sau produsele speciale. Din surse publice ale producătorului confirmăm gama și fișele tehnice, dar nu avem date proprii de stoc pentru fiecare referință — vă rugăm să transmiteți aplicația exactă (montaj, etanșare sau lipire), materialele implicate și cantitatea estimată. Nu promitem disponibilitate permanentă din stoc pentru variantele speciale din gamele tehnice.`,
     limitation: "Nu putem confirma compatibilitatea chimică a unui produs cu un substrat neobișnuit fără consultarea fișei tehnice de siguranță a produsului respectiv.",
     productCodes: [
       {
@@ -810,7 +810,7 @@ Pentru România, produsele Soudal au sens la șantiere de construcții, la monta
       },
       {
         "q": "Livrați produse Soudal în România?",
-        "a": "Da, aducem la comandă spume, adezivi și etanșanți din gama Soudal prezentată mai sus, plecând de la informațiile publice ale producătorului privind compoziția și utilizarea fiecărui produs. Aceste repere nu sunt menținute permanent pe raft, iar termenul tipic de aprovizionare este de 2-4 săptămâni. Pentru o ofertă, precizați tipul lucrării, suprafața de aplicare și cantitatea estimată."
+        "a": "Da, aducem la comandă spume, adezivi și etanșanți din gama Soudal prezentată mai sus, plecând de la informațiile publice ale producătorului privind compoziția și utilizarea fiecărui produs. Aceste repere nu sunt menținute permanent pe raft, iar termenul tipic de aprovizionare este de 1–4 săptămâni. Pentru o ofertă, precizați tipul lucrării, suprafața de aplicare și cantitatea estimată."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -849,7 +849,7 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
       "Mașini-unelte — axe auxiliare de poziționare de precizie",
       "Linii de asamblare — acționare axe cu cerințe de repetabilitate ridicată"
     ],
-    infinitrade: `Servo-sistemele MINAS le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Informațiile despre gamă provin din surse publice ale producătorului, iar fără date proprii de stoc pentru piața locală avem nevoie de tensiunea de alimentare disponibilă, cuplul și turația necesare, plus protocolul de comunicație al controlerului dumneavoastră, pentru a identifica varianta A6, A7 sau LIQI potrivită. Nu promitem disponibilitate permanentă din stoc pentru toate variantele de driver.`,
+    infinitrade: `Servo-sistemele MINAS le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Informațiile despre gamă provin din surse publice ale producătorului, iar fără date proprii de stoc pentru piața locală avem nevoie de tensiunea de alimentare disponibilă, cuplul și turația necesare, plus protocolul de comunicație al controlerului dumneavoastră, pentru a identifica varianta A6, A7 sau LIQI potrivită. Nu promitem disponibilitate permanentă din stoc pentru toate variantele de driver.`,
     limitation: "Nu putem confirma configurarea software a driverului (PANATERM) sau integrarea cu un motion controller terț fără testare punctuală pe aplicația clientului.",
     productCodes: [
       {
@@ -920,7 +920,7 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
       },
       {
         "q": "Livrați servo-sisteme Panasonic în România?",
-        "a": "Da, aducem la comandă servomotoare și servo-drivere din familiile MINAS A6, A7 și LIQI prezentate mai sus, pe baza documentației tehnice publicate de producător. Aceste repere nu se regăsesc permanent în depozit, iar durata obișnuită până la livrare este de 2-4 săptămâni. Pentru o ofertă, transmiteți puterea motorului, tensiunea de alimentare și tipul de interfață de comunicație dorit."
+        "a": "Da, aducem la comandă servomotoare și servo-drivere din familiile MINAS A6, A7 și LIQI prezentate mai sus, pe baza documentației tehnice publicate de producător. Aceste repere nu se regăsesc permanent în depozit, iar durata obișnuită până la livrare este de 1–4 săptămâni. Pentru o ofertă, transmiteți puterea motorului, tensiunea de alimentare și tipul de interfață de comunicație dorit."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -962,7 +962,7 @@ Pentru România, robineții Cla-Val au sens la stațiile de pompare ale rețelel
       "Aviație și feroviar — sisteme de alimentare cu combustibil pentru terminale",
       "Minerit și industrie — control de fluide în instalații de proces"
     ],
-    infinitrade: `Robineții Cla-Val îi aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru majoritatea diametrelor curente. Ce putem și ce nu putem confirma ține de disponibilitatea punctuală a fiecărui model — lucrăm din surse publice ale producătorului, fără date proprii de stoc, așa că avem nevoie de diametrul conductei, presiunea de lucru și funcția dorită (reducere presiune, control nivel sau debit) pentru identificarea variantei corecte. Nu promitem disponibilitate permanentă din stoc pentru toate diametrele din gamă.`,
+    infinitrade: `Robineții Cla-Val îi aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru majoritatea diametrelor curente. Ce putem și ce nu putem confirma ține de disponibilitatea punctuală a fiecărui model — lucrăm din surse publice ale producătorului, fără date proprii de stoc, așa că avem nevoie de diametrul conductei, presiunea de lucru și funcția dorită (reducere presiune, control nivel sau debit) pentru identificarea variantei corecte. Nu promitem disponibilitate permanentă din stoc pentru toate diametrele din gamă.`,
     limitation: "Nu putem confirma termene de livrare mai scurte pentru diametrele mari sau variantele turnate special, care depind de programul fabricii din SUA.",
     productCodes: [
       {
@@ -1049,7 +1049,7 @@ Pentru România, robineții Cla-Val au sens la stațiile de pompare ale rețelel
       },
       {
         "q": "Livrați robinete Cla-Val în România?",
-        "a": "Da, aducem la comandă robinete de reducere, menținere și control al presiunii din gama Cla-Val descrisă mai sus, conform fișelor tehnice publicate de producător pentru fiecare model din serie. Nu avem aceste robinete pregătite pe raft în mod permanent, iar termenul obișnuit este de 2-4 săptămâni de la comandă. Pentru o ofertă, transmiteți diametrul conductei, presiunile de lucru și debitul maxim al instalației."
+        "a": "Da, aducem la comandă robinete de reducere, menținere și control al presiunii din gama Cla-Val descrisă mai sus, conform fișelor tehnice publicate de producător pentru fiecare model din serie. Nu avem aceste robinete pregătite pe raft în mod permanent, iar termenul obișnuit este de 1–4 săptămâni de la comandă. Pentru o ofertă, transmiteți diametrul conductei, presiunile de lucru și debitul maxim al instalației."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -1091,7 +1091,7 @@ Pentru România, gama Klingspor are sens în ateliere de prelucrare metal, șant
       "Construcții navale și metalurgie grea — curățare și pregătire suprafețe sudate",
       "Service auto — finisare caroserie și pregătire suprafețe pentru vopsire"
     ],
-    infinitrade: `Consumabilele abrazive Klingspor le furnizăm prin canale de aprovizionare din UE, aduse la comandă cu termen orientativ de 2-4 săptămâni pentru cantitățile mai mari sau referințele mai puțin uzuale. Din surse publice ale producătorului confirmăm gama de discuri și scule disponibile, fără date proprii de stoc pentru fiecare granulație sau diametru — vă rugăm să transmiteți materialul prelucrat, diametrul mașinii și operația dorită (tăiere, șlefuire sau finisare). Nu promitem disponibilitate permanentă din stoc pentru toate cele peste 50.000 de articole din portofoliu.`,
+    infinitrade: `Consumabilele abrazive Klingspor le furnizăm prin canale de aprovizionare din UE, aduse la comandă cu termen orientativ de 1–4 săptămâni pentru cantitățile mai mari sau referințele mai puțin uzuale. Din surse publice ale producătorului confirmăm gama de discuri și scule disponibile, fără date proprii de stoc pentru fiecare granulație sau diametru — vă rugăm să transmiteți materialul prelucrat, diametrul mașinii și operația dorită (tăiere, șlefuire sau finisare). Nu promitem disponibilitate permanentă din stoc pentru toate cele peste 50.000 de articole din portofoliu.`,
     limitation: "Nu putem confirma disponibilitatea imediată pentru granulațiile sau diametrele foarte specializate, comandate direct din fabrica din Germania.",
     productCodes: [
       {
@@ -1182,7 +1182,7 @@ Pentru România, gama Klingspor are sens în ateliere de prelucrare metal, șant
       },
       {
         "q": "Livrați produse Klingspor în România?",
-        "a": "Da, aducem la comandă discuri de tăiere, de șlefuire și scule diamantate din gama Klingspor prezentată mai sus, pornind de la catalogul public al producătorului. Aceste repere nu sunt păstrate permanent pe raft, iar termenul uzual de aprovizionare este de 2-4 săptămâni. Pentru o ofertă, precizați dimensiunea discului, materialul prelucrat și cantitatea dorită."
+        "a": "Da, aducem la comandă discuri de tăiere, de șlefuire și scule diamantate din gama Klingspor prezentată mai sus, pornind de la catalogul public al producătorului. Aceste repere nu sunt păstrate permanent pe raft, iar termenul uzual de aprovizionare este de 1–4 săptămâni. Pentru o ofertă, precizați dimensiunea discului, materialul prelucrat și cantitatea dorită."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -1224,7 +1224,7 @@ Pentru România, gama Ansell are sens în depozite și logistică, în ateliere 
       "Industrie alimentară — mănuși de unică folosință pentru manipulare controlată",
       "Industrie farmaceutică — mănuși pentru medii cu cerințe stricte de curățenie"
     ],
-    infinitrade: `Mănușile Ansell le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru comenzile pe cantități industriale. Informațiile despre game și materiale provin din surse publice ale producătorului — fără date proprii de stoc pentru fiecare mărime și model, avem nevoie de tipul de risc (mecanic, chimic sau termic), substanța manipulată dacă e cazul, și mărimile necesare pentru fiecare utilizator. Nu promitem disponibilitate permanentă din stoc pentru toate mărimile și modelele.`,
+    infinitrade: `Mănușile Ansell le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru comenzile pe cantități industriale. Informațiile despre game și materiale provin din surse publice ale producătorului — fără date proprii de stoc pentru fiecare mărime și model, avem nevoie de tipul de risc (mecanic, chimic sau termic), substanța manipulată dacă e cazul, și mărimile necesare pentru fiecare utilizator. Nu promitem disponibilitate permanentă din stoc pentru toate mărimile și modelele.`,
     limitation: "Nu putem confirma compatibilitatea unei mănuși cu o substanță chimică specifică fără consultarea fișei de rezistență chimică a producătorului.",
     productCodes: [
       {
@@ -1307,7 +1307,7 @@ Pentru România, gama Ansell are sens în depozite și logistică, în ateliere 
       },
       {
         "q": "Livrați mănuși de protecție Ansell în România?",
-        "a": "Da, aducem la comandă mănuși din gamele HyFlex, AlphaTec, TouchNTuff și EDGE prezentate mai sus, pe baza documentației tehnice a producătorului pentru fiecare model din gamă. Nu ținem aceste articole pe raft în permanență, iar livrarea durează în mod obișnuit 2-4 săptămâni de la comandă. Pentru o ofertă, indicați tipul de risc, calibrul dorit și cantitatea necesară."
+        "a": "Da, aducem la comandă mănuși din gamele HyFlex, AlphaTec, TouchNTuff și EDGE prezentate mai sus, pe baza documentației tehnice a producătorului pentru fiecare model din gamă. Nu ținem aceste articole pe raft în permanență, iar livrarea durează în mod obișnuit 1–4 săptămâni de la comandă. Pentru o ofertă, indicați tipul de risc, calibrul dorit și cantitatea necesară."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -1350,7 +1350,7 @@ Pentru România, gama Laumas are sens la sisteme de dozare și cântărire integ
       "Producție industrială — monitorizare continuă a greutății din buncăre și rezervoare",
       "Metrologie industrială — calibrare trasabilă prin laborator acreditat"
     ],
-    infinitrade: `Componentele de cântărire Laumas le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Ce putem și ce nu putem confirma ține de configurația exactă necesară — lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare capacitate și tip de celulă, așa că avem nevoie de capacitatea nominală, tipul de solicitare (compresiune, tensiune sau forfecare) și dacă instalația necesită certificare ATEX sau 3-A. Pentru variantele Laumas nu promitem disponibilitate din depozit.`,
+    infinitrade: `Componentele de cântărire Laumas le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Ce putem și ce nu putem confirma ține de configurația exactă necesară — lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare capacitate și tip de celulă, așa că avem nevoie de capacitatea nominală, tipul de solicitare (compresiune, tensiune sau forfecare) și dacă instalația necesită certificare ATEX sau 3-A. Pentru variantele Laumas nu promitem disponibilitate din depozit.`,
     limitation: "Nu putem confirma calibrarea finală a unui sistem complet de cântărire montat pe șantier, care rămâne responsabilitatea integratorului sau a unui laborator de metrologie local.",
     productCodes: [
       {
@@ -1433,7 +1433,7 @@ Pentru România, gama Laumas are sens la sisteme de dozare și cântărire integ
       },
       {
         "q": "Livrați celule de sarcină Laumas în România?",
-        "a": "Da, aducem la comandă celule de sarcină, transmițătoare și platforme de cântărire din gama Laumas prezentată mai sus, conform cataloagelor publice ale producătorului pentru fiecare model din gamă. Aceste repere nu se găsesc permanent în depozitul propriu, iar timpul obișnuit de așteptare este de 2-4 săptămâni de la comandă. Pentru o ofertă, transmiteți capacitatea nominală dorită și tipul de montaj."
+        "a": "Da, aducem la comandă celule de sarcină, transmițătoare și platforme de cântărire din gama Laumas prezentată mai sus, conform cataloagelor publice ale producătorului pentru fiecare model din gamă. Aceste repere nu se găsesc permanent în depozitul propriu, iar timpul obișnuit de așteptare este de 1–4 săptămâni de la comandă. Pentru o ofertă, transmiteți capacitatea nominală dorită și tipul de montaj."
       }
     ],
     evidenceClass: "market-signal-ro",
@@ -1475,7 +1475,7 @@ Pentru România, gama Afriso are sens la centrale termice și instalații de în
       "Administrare clădiri — contorizare individuală a consumului de apă și energie termică",
       "Protecția mediului — analizoare pentru controlul emisiilor de la instalații de ardere"
     ],
-    infinitrade: `Aparatura Afriso o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru majoritatea instrumentelor din gamă. Din surse publice ale producătorului confirmăm tipurile de instrumente disponibile, fără date proprii de stoc pentru fiecare domeniu de măsurare — vă rugăm să transmiteți domeniul de presiune sau temperatură necesar, diametrul conductei și tipul de racord de montaj. Nu promitem disponibilitate permanentă din stoc pentru toate variantele de domeniu și racord.`,
+    infinitrade: `Aparatura Afriso o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru majoritatea instrumentelor din gamă. Din surse publice ale producătorului confirmăm tipurile de instrumente disponibile, fără date proprii de stoc pentru fiecare domeniu de măsurare — vă rugăm să transmiteți domeniul de presiune sau temperatură necesar, diametrul conductei și tipul de racord de montaj. Nu promitem disponibilitate permanentă din stoc pentru toate variantele de domeniu și racord.`,
     limitation: "Nu putem confirma etalonarea metrologică legală (verificarea metrologică obligatorie) pentru instrumentele care intră sub incidența acestei cerințe în România.",
     productCodes: [
       {
@@ -1538,7 +1538,7 @@ Pentru România, gama Afriso are sens la centrale termice și instalații de în
       },
       {
         "q": "Livrați echipamente Afriso în România?",
-        "a": "Da, aducem la comandă manometre, actuatoare și contoare din gama Afriso prezentată mai sus, pornind de la informațiile publice ale producătorului pentru fiecare familie de produse. Aceste repere nu sunt păstrate constant pe raft ca marfă pregătită, iar termenul obișnuit este de 2-4 săptămâni de la plasarea comenzii. Pentru o ofertă, precizați domeniul de măsură sau diametrul conexiunii necesare."
+        "a": "Da, aducem la comandă manometre, actuatoare și contoare din gama Afriso prezentată mai sus, pornind de la informațiile publice ale producătorului pentru fiecare familie de produse. Aceste repere nu sunt păstrate constant pe raft ca marfă pregătită, iar termenul obișnuit este de 1–4 săptămâni de la plasarea comenzii. Pentru o ofertă, precizați domeniul de măsură sau diametrul conexiunii necesare."
       }
     ],
     evidenceClass: "market-signal-ro",

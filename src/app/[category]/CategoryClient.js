@@ -306,7 +306,7 @@ export default function CategoryClient({ category, view, related = { industries:
             </div>
             <p className={styles.heroNote}>
               {CATEGORY_LEAD_TIME.stock} {CATEGORY_LEAD_TIME.factory}{' '}
-              <a href="#livrare">Execuții OEM sau personalizate: termen în ofertă.</a>
+              <a href="#livrare">Rarități și sisteme complexe: termen în ofertă.</a>
             </p>
 
             <div className={styles.heroCtas}>

@@ -53,7 +53,7 @@ export async function generateMetadata({ params }) {
   const TAILS = [
     ' Furnizor SEAP, livrare 24–72 h din stoc.',
     ' Ofertă pe cod sau plăcuță, livrare 24–72 h din stoc.',
-    ' Din stoc în 24–72 h, din fabrică în 2–4 săptămâni.',
+    ' Din stoc în 24–72 h, din fabrică în 1–4 săptămâni.',
     ' Documente de conformitate și ofertă pe cod de produs.',
     ' Produse originale, termen de livrare scris în ofertă.',
   ];

@@ -68,7 +68,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de senzor de presiune și cât durează livrarea?",
-        "a": "Fluidul, presiunea maximă de proces, tipul de semnal cerut și racordul de proces. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de eventualele certificări ATEX solicitate."
+        "a": "Fluidul, presiunea maximă de proces, tipul de semnal cerut și racordul de proces. Livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător și de eventualele certificări ATEX solicitate."
       },
       {
         "q": "Un senzor de presiune standard poate fi montat pe o linie cu fluid agresiv?",
@@ -142,7 +142,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de senzor de temperatură și cât durează livrarea?",
-        "a": "Sunt necesare domeniul de temperatură, tipul de montaj, filetul de racordare și semnalul de ieșire dorit. Termenul de livrare este la comandă, orientativ 2-4 săptămâni, dependent de configurația exactă și de producătorul ales."
+        "a": "Sunt necesare domeniul de temperatură, tipul de montaj, filetul de racordare și semnalul de ieșire dorit. Termenul de livrare este la comandă, orientativ 1–4 săptămâni, dependent de configurația exactă și de producătorul ales."
       },
       {
         "q": "Cât de des trebuie recalibrat un senzor de temperatură industrial?",
@@ -215,7 +215,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trimiteți pentru o ofertă de debitimetru și cât durează livrarea?",
-        "a": "Sunt necesare tipul de fluid, debitul minim și maxim, diametrul conductei și tipul de semnal de ieșire dorit. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, mai ales pentru modelele calibrate special pentru fluidul dumneavoastră."
+        "a": "Sunt necesare tipul de fluid, debitul minim și maxim, diametrul conductei și tipul de semnal de ieșire dorit. Livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător, mai ales pentru modelele calibrate special pentru fluidul dumneavoastră."
       },
       {
         "q": "Poate fi folosit același debitimetru pentru mai multe tipuri de fluide diferite?",
@@ -289,7 +289,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de traductoare de nivel?",
-        "a": "Tipul de mediu, înălțimea rezervorului, condițiile interioare, materialul de contact necesar și tipul de ieșire dorit sunt suficiente pentru o recomandare corectă. Livrarea se confirmă abia la comandă, orientativ 2-4 săptămâni, în funcție de tehnologia și producătorul aleși."
+        "a": "Tipul de mediu, înălțimea rezervorului, condițiile interioare, materialul de contact necesar și tipul de ieșire dorit sunt suficiente pentru o recomandare corectă. Livrarea se confirmă abia la comandă, orientativ 1–4 săptămâni, în funcție de tehnologia și producătorul aleși."
       },
       {
         "q": "Un traductor de nivel se poate monta pe un rezervor cu conținut abraziv sau vâscos?",
@@ -363,7 +363,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de manometre industriale și cât durează livrarea?",
-        "a": "Sunt necesare domeniul de presiune, fluidul vehiculat, tipul de racord și materialul dorit. Termenul de livrare este la comandă, orientativ 2-4 săptămâni, în funcție de producător, mai scurt pentru variantele standard, deja fabricate în serie de producători consacrați."
+        "a": "Sunt necesare domeniul de presiune, fluidul vehiculat, tipul de racord și materialul dorit. Termenul de livrare este la comandă, orientativ 1–4 săptămâni, în funcție de producător, mai scurt pentru variantele standard, deja fabricate în serie de producători consacrați."
       },
       {
         "q": "Se pot folosi manometre standard pe instalații cu vibrații puternice?",
@@ -436,7 +436,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de analizoare industriale și cât durează livrarea?",
-        "a": "Sunt necesare substanța sau proprietatea de măsurat, domeniul de măsurare, tipul de instalare și fluidul de lucru. Livrarea se confirmă la comandă, orientativ 2-4 săptămâni, în funcție de producător și de complexitatea calibrării inițiale a aparatului."
+        "a": "Sunt necesare substanța sau proprietatea de măsurat, domeniul de măsurare, tipul de instalare și fluidul de lucru. Livrarea se confirmă la comandă, orientativ 1–4 săptămâni, în funcție de producător și de complexitatea calibrării inițiale a aparatului."
       },
       {
         "q": "Cât de des trebuie calibrat un analizor industrial?",

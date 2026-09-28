@@ -68,7 +68,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de filtru hidraulic și cât durează livrarea?",
-        "a": "Poziția de montaj, debitul pompei, presiunea de lucru și finețea de filtrare dorită. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de disponibilitatea elementului filtrant exact."
+        "a": "Poziția de montaj, debitul pompei, presiunea de lucru și finețea de filtrare dorită. Livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător și de disponibilitatea elementului filtrant exact."
       },
       {
         "q": "Cât de des trebuie schimbat elementul unui filtru hidraulic?",
@@ -142,7 +142,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de filtru de aer comprimat și cât durează livrarea?",
-        "a": "Sunt necesare debitul, presiunea de lucru și gradul de puritate cerut de aplicație. Livrarea este la comandă, orientativ 2-4 săptămâni pentru configurațiile nestandard, în funcție de producător."
+        "a": "Sunt necesare debitul, presiunea de lucru și gradul de puritate cerut de aplicație. Livrarea este la comandă, orientativ 1–4 săptămâni pentru configurațiile nestandard, în funcție de producător."
       },
       {
         "q": "Cât de des trebuie schimbat elementul filtrant al unui filtru de aer comprimat?",
@@ -215,7 +215,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de filtre de ulei și cât durează livrarea?",
-        "a": "Codul OEM sau modelul exact al echipamentului, cantitatea necesară și, dacă e relevant, intervalul de schimb dorit. Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător, iar codurile uzuale pot fi disponibile mai rapid decât cele specifice unor echipamente rare."
+        "a": "Codul OEM sau modelul exact al echipamentului, cantitatea necesară și, dacă e relevant, intervalul de schimb dorit. Livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător, iar codurile uzuale pot fi disponibile mai rapid decât cele specifice unor echipamente rare."
       },
       {
         "q": "Pot fi folosite filtre de ulei echivalente de la alt producător decât cel original al motorului?",
@@ -289,7 +289,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de elemente filtrante?",
-        "a": "Codul complet de pe elementul existent este cea mai rapidă cale de identificare; în lipsa lui, marca și modelul echipamentului, fluidul filtrat și dimensiunile aproximative sunt suficiente. La comandă primești și termenul de livrare, orientativ 2-4 săptămâni, în funcție de producător și de model."
+        "a": "Codul complet de pe elementul existent este cea mai rapidă cale de identificare; în lipsa lui, marca și modelul echipamentului, fluidul filtrat și dimensiunile aproximative sunt suficiente. La comandă primești și termenul de livrare, orientativ 1–4 săptămâni, în funcție de producător și de model."
       },
       {
         "q": "Se poate folosi un element filtrant echivalent, de la alt producător decât cel al carcasei?",
@@ -363,7 +363,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de separator ulei-apă și cât durează livrarea?",
-        "a": "Sunt necesare debitul de aer comprimat, numărul de compresoare deservite și tipul de ulei folosit. Termenul de livrare este la comandă, orientativ 2-4 săptămâni, în funcție de capacitatea necesară, de numărul de trepte de separare și de producătorul ales."
+        "a": "Sunt necesare debitul de aer comprimat, numărul de compresoare deservite și tipul de ulei folosit. Termenul de livrare este la comandă, orientativ 1–4 săptămâni, în funcție de capacitatea necesară, de numărul de trepte de separare și de producătorul ales."
       },
       {
         "q": "Cartușul unui separator ulei-apă este compatibil cu orice tip de ulei de compresor?",
@@ -436,7 +436,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de uscătoare de aer comprimat și cât durează livrarea?",
-        "a": "Sunt necesare debitul de aer al compresorului, presiunea de lucru și punctul de rouă necesar aplicației. Livrarea se confirmă la comandă, de regulă 2-4 săptămâni, în funcție de producător, de tehnologia aleasă și de disponibilitatea din fabrică."
+        "a": "Sunt necesare debitul de aer al compresorului, presiunea de lucru și punctul de rouă necesar aplicației. Livrarea se confirmă la comandă, de regulă 1–4 săptămâni, în funcție de producător, de tehnologia aleasă și de disponibilitatea din fabrică."
       },
       {
         "q": "Ce compatibilitate trebuie verificată între un uscător de aer și filtrele existente din instalație?",

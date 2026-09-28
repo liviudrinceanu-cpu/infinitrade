@@ -37,7 +37,7 @@ Pentru operatorii români de apă și hidroenergie, Rittmeyer are sens la baraje
       "Distribuție apă potabilă — detecție scurgeri și monitorizare calitate",
       "Irigații — măsurare debit în canale deschise și conducte"
     ],
-    infinitrade: `Pentru Rittmeyer lucrăm din surse publice ale producătorului, așa că vă spunem direct ce putem și ce nu putem confirma din capul locului: nu avem date proprii despre stocuri sau despre configurațiile software instalate la fiecare proiect. Aducem senzorii de debit și nivel, precum și modulele platformei RITAPP, la comandă prin canale de aprovizionare din spațiul UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii de către producător. Pentru o ofertă corectă avem nevoie de tipul instalației (turbină, conductă, canal deschis), diametrul sau geometria punctului de măsură și, dacă există, sistemul SCADA cu care trebuie integrată soluția. Fiecare comandă se configurează pe proiect, așa că nu operăm cu stoc propriu pentru acest brand.`,
+    infinitrade: `Pentru Rittmeyer lucrăm din surse publice ale producătorului, așa că vă spunem direct ce putem și ce nu putem confirma din capul locului: nu avem date proprii despre stocuri sau despre configurațiile software instalate la fiecare proiect. Aducem senzorii de debit și nivel, precum și modulele platformei RITAPP, la comandă prin canale de aprovizionare din spațiul UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii de către producător. Pentru o ofertă corectă avem nevoie de tipul instalației (turbină, conductă, canal deschis), diametrul sau geometria punctului de măsură și, dacă există, sistemul SCADA cu care trebuie integrată soluția. Fiecare comandă se configurează pe proiect, așa că nu operăm cu stoc propriu pentru acest brand.`,
     limitation: "Nu putem confirma configurarea sau punerea în funcțiune a platformei software RITAPP, care rămâne în sarcina echipei de inginerie a producătorului.",
     productCodes: [
       { code: "Metoda Winter-Kennedy", description: "măsurare debit la turbine hidroelectrice, calibrată pe camera spirală" },
@@ -58,7 +58,7 @@ Pentru operatorii români de apă și hidroenergie, Rittmeyer are sens la baraje
     faq: [
       { q: "Ce produce Rittmeyer?", a: "Rittmeyer produce instrumentație de măsurare a debitului și nivelului și sisteme de automatizare pentru infrastructuri de apă și hidroenergie — de la turbine hidroelectrice la stații de tratare și rețele de distribuție. Compania e parte din BRUGG Group și are sediul în Elveția." },
       { q: "Cum aleg soluția Rittmeyer potrivită pentru instalația mea?", a: "Alegerea depinde de tipul punctului de măsură: pentru turbine se folosește metoda Winter-Kennedy, pentru conducte sub presiune măsurarea ultrasonică, iar pentru canale deschise sau deversoare senzori de nivel dedicați. Trimiteți-ne geometria instalației și sistemul SCADA existent, iar noi verificăm compatibilitatea cu producătorul înainte de ofertă." },
-      { q: "Livrați echipamente Rittmeyer în România și cât durează?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru configurația exactă a proiectului. Nu există disponibilitate din depozit propriu pentru aceste echipamente, fiind soluții configurate pe fiecare instalație." },
+      { q: "Livrați echipamente Rittmeyer în România și cât durează?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru configurația exactă a proiectului. Nu există disponibilitate din depozit propriu pentru aceste echipamente, fiind soluții configurate pe fiecare instalație." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de instrumentație Rittmeyer?", a: "Aveți nevoie să precizați tipul aplicației (turbină, conductă, canal deschis sau deversor), diametrul sau geometria punctului de măsură, condițiile de mediu și, dacă există, sistemul de automatizare cu care trebuie integrată soluția." }
     ],
     evidenceClass: "market-signal-ro",
@@ -108,7 +108,7 @@ Pentru clienții din România, SENSY are sens la macarale și utilaje de ridicar
       "Automotive — bancuri de testare cuplu și forță",
       "Construcții civile — verificare sarcini la structuri metalice"
     ],
-    infinitrade: `Pentru gama SENSY plecăm de la informațiile publice disponibile pe site-ul producătorului și spunem clar ce am putut verifica: capacitățile de măsură, certificările și tipurile de senzori din gamă, fără date proprii despre stocul curent. Aducem celulele de sarcină, load pin-urile și traductoarele de cuplu la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea producătorului. Pentru ofertă avem nevoie de capacitatea nominală, tipul de montaj (compresiune, tracțiune, bolț de macara) și, dacă e cazul, cerința de certificare pentru zonă cu risc de explozie. Variantele custom sau subacvatice se comandă individual pentru fiecare proiect, fără disponibilitate din depozit propriu.`,
+    infinitrade: `Pentru gama SENSY plecăm de la informațiile publice disponibile pe site-ul producătorului și spunem clar ce am putut verifica: capacitățile de măsură, certificările și tipurile de senzori din gamă, fără date proprii despre stocul curent. Aducem celulele de sarcină, load pin-urile și traductoarele de cuplu la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea producătorului. Pentru ofertă avem nevoie de capacitatea nominală, tipul de montaj (compresiune, tracțiune, bolț de macara) și, dacă e cazul, cerința de certificare pentru zonă cu risc de explozie. Variantele custom sau subacvatice se comandă individual pentru fiecare proiect, fără disponibilitate din depozit propriu.`,
     limitation: "Nu putem confirma calibrarea sau etalonarea la fața locului pentru traductoarele de referință, serviciu oferit direct de rețeaua metrologică a producătorului.",
     productCodes: [
       { code: "5000", description: "celulă de sarcină compresiune/tracțiune" },
@@ -131,7 +131,7 @@ Pentru clienții din România, SENSY are sens la macarale și utilaje de ridicar
     faq: [
       { q: "Ce produce SENSY?", a: "SENSY produce traductoare de forță, cuplu și cântărire — celule de sarcină, load pin-uri pentru macarale, traductoare de cuplu și senzori de referință pentru etalonare — fabricate în Belgia, la Jumet, lângă Charleroi." },
       { q: "Cum aleg celula de sarcină SENSY potrivită?", a: "Alegerea pornește de la capacitatea nominală necesară — între 10 N și 50 MN — și de la tipul de solicitare (compresiune, tracțiune sau ambele). Trimiteți-ne sarcina maximă, tipul de montaj și mediul de lucru, iar noi verificăm varianta potrivită din gama SENSY înainte de ofertă." },
-      { q: "Livrați senzori SENSY în România și în cât timp?", a: "Da, aducem load pin-uri, celule de sarcină și traductoare de cuplu SENSY la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de configurația exactă și de confirmarea producătorului." },
+      { q: "Livrați senzori SENSY în România și în cât timp?", a: "Da, aducem load pin-uri, celule de sarcină și traductoare de cuplu SENSY la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația exactă și de confirmarea producătorului." },
       { q: "Ce trebuie să trimit pentru o ofertă de traductoare SENSY?", a: "Aveți nevoie de capacitatea nominală, tipul de solicitare (forță sau cuplu), interfața de montaj mecanic și, dacă aplicația e în zonă cu risc de explozie, cerința de certificare ATEX sau IECEx." }
     ],
     evidenceClass: "market-signal-ro",
@@ -181,7 +181,7 @@ Pentru clienții din România, SOR are sens la instalații petrochimice, stații
       "Generare de energie electrică — indicatoare de nivel și senzori temperatură",
       "Energetică nucleară — componente 1E-Qualified"
     ],
-    infinitrade: `Informațiile despre SOR Controls Group vin din pagina oficială de produse a producătorului; lucrăm fără date proprii despre stocul disponibil la un moment dat, doar cu ce am putut verifica acolo — modelele, domeniile de presiune și temperatură, certificările. Aducem comutatoarele, traductoarele și ansamblurile de temperatură SOR la comandă, prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-4 săptămâni de la confirmarea producătorului. Pentru ofertă trimiteți modelul sau seria dorită, fluidul și presiunea de lucru, plaja de temperatură și certificarea cerută (ATEX, nucleară sau altă normă). Variantele calificate special se comandă individual, fără disponibilitate din depozit propriu.`,
+    infinitrade: `Informațiile despre SOR Controls Group vin din pagina oficială de produse a producătorului; lucrăm fără date proprii despre stocul disponibil la un moment dat, doar cu ce am putut verifica acolo — modelele, domeniile de presiune și temperatură, certificările. Aducem comutatoarele, traductoarele și ansamblurile de temperatură SOR la comandă, prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea producătorului. Pentru ofertă trimiteți modelul sau seria dorită, fluidul și presiunea de lucru, plaja de temperatură și certificarea cerută (ATEX, nucleară sau altă normă). Variantele calificate special se comandă individual, fără disponibilitate din depozit propriu.`,
     limitation: "Nu putem confirma disponibilitatea variantelor 1E-Qualified pentru energetică nucleară în afara unui proiect calificat direct cu producătorul.",
     productCodes: [
       { code: "1510", description: "comutator de nivel montaj lateral" },
@@ -205,7 +205,7 @@ Pentru clienții din România, SOR are sens la instalații petrochimice, stații
     faq: [
       { q: "Ce produce SOR Controls Group?", a: "SOR Controls Group produce comutatoare și transmițătoare de presiune și nivel, ansambluri de senzori de temperatură și sisteme de prelevare pentru gaze și lichide, sub mărcile SOR, SSi și SENSOR, din 1946." },
       { q: "Cum aleg comutatorul de nivel SOR potrivit?", a: "Alegerea depinde de fluid, presiunea de lucru și tipul de semnal necesar — mecanic, electric sau pneumatic. Trimiteți-ne presiunea și temperatura maximă din proces, iar noi identificăm modelul din seria 1500 sau 1100 potrivit înainte de ofertă." },
-      { q: "Livrați instrumentație SOR Controls Group în România și cât durează?", a: "Da, aducem comutatoarele și traductoarele SOR la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 2-4 săptămâni, în funcție de model și de confirmarea producătorului." },
+      { q: "Livrați instrumentație SOR Controls Group în România și cât durează?", a: "Da, aducem comutatoarele și traductoarele SOR la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea producătorului." },
       { q: "Ce informații trebuie să trimit pentru o ofertă SOR Controls Group?", a: "Aveți nevoie de seria sau modelul dorit, fluidul de proces, presiunea și temperatura de lucru, plus certificarea cerută — ATEX, IECEx sau calificare nucleară, dacă e cazul." }
     ],
     evidenceClass: "market-signal-ro",
@@ -253,7 +253,7 @@ Pentru clienții din România, Seneca are sens la panouri de automatizare unde s
       "Agricultură — monitorizare de la distanță prin gateway-uri IoT",
       "Industrie alimentară — achiziție de date de proces"
     ],
-    infinitrade: `Pentru Seneca ne bazăm pe informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocurile curente pe fiecare model din gamă. Aducem izolatoarele de semnal, gateway-urile de telecontrol și instrumentele de măsură electrică la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea producătorului. Pentru ofertă trimiteți-ne tipul de semnal de izolat sau protocolul de comunicație folosit, numărul de canale necesare și, pentru gateway-uri, tipul de conectivitate (2G/4G) dorit. Variantele configurate special pe proiect nu au disponibilitate din depozit propriu.`,
+    infinitrade: `Pentru Seneca ne bazăm pe informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocurile curente pe fiecare model din gamă. Aducem izolatoarele de semnal, gateway-urile de telecontrol și instrumentele de măsură electrică la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea producătorului. Pentru ofertă trimiteți-ne tipul de semnal de izolat sau protocolul de comunicație folosit, numărul de canale necesare și, pentru gateway-uri, tipul de conectivitate (2G/4G) dorit. Variantele configurate special pe proiect nu au disponibilitate din depozit propriu.`,
     limitation: "Nu putem confirma configurarea platformei software LET'S pentru telecontrol, care rămâne un serviciu oferit direct de producător sau de integratorul de sistem.",
     productCodes: [
       { code: "Z-PC", description: "controler multifuncțional IEC 61131-3" },
@@ -275,7 +275,7 @@ Pentru clienții din România, Seneca are sens la panouri de automatizare unde s
     faq: [
       { q: "Ce produce Seneca?", a: "Seneca produce echipamente de automatizare industrială și achiziție de date — izolatoare de semnal, controlere programabile, dataloggere, gateway-uri de telecontrol și instrumente de măsură electrică — fabricate în Italia, la Padova." },
       { q: "Cum aleg izolatorul de semnal Seneca potrivit?", a: "Alegerea depinde de tipul semnalului de intrare (4-20 mA, 0-10 V, termocuplu sau RTD) și de numărul de canale necesare. Trimiteți-ne tipul semnalului, plaja de valori și dacă e nevoie de izolare pe montaj DIN multistandard sau compact." },
-      { q: "Livrați echipamente Seneca în România și în cât timp?", a: "Da, aducem izolatoarele, gateway-urile și instrumentele de măsură Seneca la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de disponibilitatea producătorului." },
+      { q: "Livrați echipamente Seneca în România și în cât timp?", a: "Da, aducem izolatoarele, gateway-urile și instrumentele de măsură Seneca la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea producătorului." },
       { q: "Ce trebuie să trimit pentru o ofertă de echipamente Seneca?", a: "Aveți nevoie de tipul de semnal sau protocol folosit, numărul de canale, iar pentru gateway-urile de telecontrol, tipul de conectivitate dorit și frecvența de transmitere a datelor." }
     ],
     evidenceClass: "market-signal-ro",
@@ -323,7 +323,7 @@ Pentru clienții din România, Solinst are sens la studii hidrogeologice, monito
       "Apă potabilă — verificare nivel în foraje de captare",
       "Cercetare de mediu — sonde multiparametru pentru calitatea apei"
     ],
-    infinitrade: `Pentru Solinst pornim de la informațiile publice de pe site-ul producătorului, fără date proprii despre stocul real al fiecărui model din gamă. Aducem metrele de nivel, dataloggerele Levelogger și piezometrele Solinst la comandă, prin canale de aprovizionare din America de Nord sau Europa, cu termen orientativ de 2-4 săptămâni de la confirmarea disponibilității. Pentru ofertă trimiteți-ne adâncimea forajului sau punctului de măsură, tipul de aplicație (monitorizare manuală sau continuă) și dacă aveți nevoie de integrare cu platforma Solinst Cloud. Lungimile de cablu și variantele de senzor se confirmă individual, fără disponibilitate din depozit propriu.`,
+    infinitrade: `Pentru Solinst pornim de la informațiile publice de pe site-ul producătorului, fără date proprii despre stocul real al fiecărui model din gamă. Aducem metrele de nivel, dataloggerele Levelogger și piezometrele Solinst la comandă, prin canale de aprovizionare din America de Nord sau Europa, cu termen orientativ de 1–4 săptămâni de la confirmarea disponibilității. Pentru ofertă trimiteți-ne adâncimea forajului sau punctului de măsură, tipul de aplicație (monitorizare manuală sau continuă) și dacă aveți nevoie de integrare cu platforma Solinst Cloud. Lungimile de cablu și variantele de senzor se confirmă individual, fără disponibilitate din depozit propriu.`,
     limitation: "Nu putem confirma configurarea sau licențierea platformei Solinst Cloud pentru monitorizare la distanță, aspect gestionat direct de producător.",
     productCodes: [
       { code: "101", description: "metru de nivel apă cu bandă PVDF" },
@@ -348,7 +348,7 @@ Pentru clienții din România, Solinst are sens la studii hidrogeologice, monito
     faq: [
       { q: "Ce produce Solinst?", a: "Solinst produce instrumente pentru monitorizarea apelor subterane — metre de nivel, dataloggere compensate barometric, pompe de prelevare și piezometre — fabricate în Canada, la Georgetown, Ontario." },
       { q: "Cum aleg metrul de nivel Solinst potrivit pentru forajul meu?", a: "Alegerea depinde de adâncimea și diametrul forajului: pentru foraje înguste sau adânci se recomandă seria 102 cu cablu, iar pentru măsurători curente seria 101 cu bandă. Trimiteți-ne adâncimea estimată și diametrul forajului pentru confirmare." },
-      { q: "Livrați echipamente Solinst în România și cât durează livrarea?", a: "Da, aducem instrumentele Solinst la comandă prin canale de aprovizionare din America de Nord sau Europa, cu termen orientativ de 2-4 săptămâni, în funcție de model și de confirmarea producătorului." },
+      { q: "Livrați echipamente Solinst în România și cât durează livrarea?", a: "Da, aducem instrumentele Solinst la comandă prin canale de aprovizionare din America de Nord sau Europa, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea producătorului." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de echipamente Solinst?", a: "Aveți nevoie de adâncimea forajului sau a punctului de măsură, tipul de monitorizare dorit (manuală sau continuă) și, pentru dataloggere, frecvența de înregistrare și modul de descărcare a datelor." }
     ],
     evidenceClass: "market-signal-ro",
@@ -398,7 +398,7 @@ Pentru clienții din România, Vögtlin are sens în electroliza pentru hidrogen
       "Industrie chimică — debitmetre pentru gaze corozive (SmartTrak)",
       "Prelucrarea sticlei și industria alimentară — control debit gaz de proces"
     ],
-    infinitrade: `Pentru Vögtlin ne bazăm pe informațiile publice de pe site-ul producătorului elvețian, fără date proprii despre stocul curent pe fiecare variantă din gama red-y. Aducem debitmetrele și regulatoarele masice la comandă, prin canale de aprovizionare din Elveția și restul UE, cu termen orientativ de 2-4 săptămâni de la confirmarea producătorului. Pentru ofertă avem nevoie de gazul măsurat, plaja de debit dorită, presiunea de lucru și dacă instalația necesită certificare ATEX sau protecție IP67. Pentru gaze corozive vă recomandăm să menționați explicit compoziția, ca să verificăm compatibilitatea materialelor umede înainte de a trimite oferta. Aceste instrumente se aduc individual la comandă, fără disponibilitate din depozit propriu.`,
+    infinitrade: `Pentru Vögtlin ne bazăm pe informațiile publice de pe site-ul producătorului elvețian, fără date proprii despre stocul curent pe fiecare variantă din gama red-y. Aducem debitmetrele și regulatoarele masice la comandă, prin canale de aprovizionare din Elveția și restul UE, cu termen orientativ de 1–4 săptămâni de la confirmarea producătorului. Pentru ofertă avem nevoie de gazul măsurat, plaja de debit dorită, presiunea de lucru și dacă instalația necesită certificare ATEX sau protecție IP67. Pentru gaze corozive vă recomandăm să menționați explicit compoziția, ca să verificăm compatibilitatea materialelor umede înainte de a trimite oferta. Aceste instrumente se aduc individual la comandă, fără disponibilitate din depozit propriu.`,
     limitation: "Nu putem confirma calibrarea pe gaze sau amestecuri foarte specifice, în afara celor listate explicit de producător pe site.",
     productCodes: [
       { code: "red-y smart series — meter", description: "debitmetru masic digital cu tehnologie MEMS" },
@@ -415,7 +415,7 @@ Pentru clienții din România, Vögtlin are sens în electroliza pentru hidrogen
     faq: [
       { q: "Ce produce Vögtlin Instruments?", a: "Vögtlin Instruments produce debitmetre și regulatoare masice digitale pentru gaze, sub gama red-y, fondată în 1986 la Muttenz, în Elveția, cu variante de laborator și industriale." },
       { q: "Cum aleg debitmetrul Vögtlin Instruments potrivit pentru aplicația mea?", a: "Alegerea depinde de gazul măsurat, plaja de debit necesară și mediul de instalare — laborator sau zonă industrială cu risc de explozie. Trimiteți-ne aceste date, plus presiunea de lucru, iar noi verificăm varianta red-y sau SmartTrak potrivită." },
-      { q: "Livrați debitmetre Vögtlin Instruments în România și cât durează?", a: "Da, aducem debitmetrele și regulatoarele masice red-y la comandă, prin canale de aprovizionare din Elveția și UE, cu termen orientativ de 2-4 săptămâni, în funcție de configurație și de confirmarea producătorului." },
+      { q: "Livrați debitmetre Vögtlin Instruments în România și cât durează?", a: "Da, aducem debitmetrele și regulatoarele masice red-y la comandă, prin canale de aprovizionare din Elveția și UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație și de confirmarea producătorului." },
       { q: "Ce trebuie să trimit pentru o ofertă de debitmetre red-y?", a: "Aveți nevoie de gazul sau amestecul de gaze măsurat, plaja de debit dorită, presiunea de lucru și dacă aplicația necesită certificare ATEX sau protecție IP67 pentru medii industriale dure." }
     ],
     evidenceClass: "market-signal-ro",
@@ -462,7 +462,7 @@ Pentru clienții din România, Römheld are sens la centre de prelucrare CNC car
       "Stanțare și ambutisare — schimbare rapidă a matrițelor la prese",
       "Robotică și automatizare — module de manipulare și transport piese"
     ],
-    infinitrade: `Pentru Römheld informațiile vin din pagina oficială a producătorului, fără date proprii despre stocul disponibil pentru fiecare element din gamă. Aducem elementele de fixare, menghinele de precizie și componentele pentru schimbarea rapidă a matrițelor la comandă, prin canale de aprovizionare din Germania și restul UE, cu termen orientativ de 2-4 săptămâni de la confirmarea producătorului. Pentru ofertă trimiteți-ne tipul de acționare dorit (hidraulic, electric sau pneumatic), forța de fixare necesară și, pentru sistemele de schimbare a matrițelor, dimensiunile presei. Componentele configurate pe proiect nu au disponibilitate din depozit propriu.`,
+    infinitrade: `Pentru Römheld informațiile vin din pagina oficială a producătorului, fără date proprii despre stocul disponibil pentru fiecare element din gamă. Aducem elementele de fixare, menghinele de precizie și componentele pentru schimbarea rapidă a matrițelor la comandă, prin canale de aprovizionare din Germania și restul UE, cu termen orientativ de 1–4 săptămâni de la confirmarea producătorului. Pentru ofertă trimiteți-ne tipul de acționare dorit (hidraulic, electric sau pneumatic), forța de fixare necesară și, pentru sistemele de schimbare a matrițelor, dimensiunile presei. Componentele configurate pe proiect nu au disponibilitate din depozit propriu.`,
     limitation: "Nu putem confirma compatibilitatea directă cu prese sau centre de prelucrare de la alți producători fără verificarea desenului tehnic al instalației.",
     productCodes: [
       { code: "H 4.400", description: "menghină concentrică, precizie ±0,005 mm" },
@@ -485,7 +485,7 @@ Pentru clienții din România, Römheld are sens la centre de prelucrare CNC car
     faq: [
       { q: "Ce produce Römheld?", a: "Römheld produce sisteme hidraulice de fixare a pieselor, menghine de precizie și echipamente pentru schimbarea rapidă a matrițelor la presele de stanțare, fiind un producător german activ din anii 1940." },
       { q: "Cum aleg elementul de fixare Römheld potrivit?", a: "Alegerea depinde de forța de fixare necesară și de sursa de energie disponibilă la stația de lucru — hidraulică, electrică sau pneumatică. Trimiteți-ne forța dorită și tipul de acționare, iar noi verificăm elementul potrivit din gama Römheld." },
-      { q: "Livrați componente Römheld în România și cât durează?", a: "Da, aducem elementele de fixare și componentele pentru schimbarea matrițelor Römheld la comandă, prin canale de aprovizionare din Germania și UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului." },
+      { q: "Livrați componente Römheld în România și cât durează?", a: "Da, aducem elementele de fixare și componentele pentru schimbarea matrițelor Römheld la comandă, prin canale de aprovizionare din Germania și UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului." },
       { q: "Ce trebuie să trimit pentru o ofertă Römheld?", a: "Aveți nevoie de tipul de acționare dorit, forța de fixare sau presiunea de lucru necesară și, pentru sistemele de schimbare a matrițelor, dimensiunile presei și ale matriței." }
     ],
     evidenceClass: "market-signal-intl",
@@ -535,7 +535,7 @@ Pentru clienții din România, EVAPCO are sens la centrale electrice, instalați
       "Procesare industrială — răcire fluide de proces",
       "Centre de date — răcire echipamente IT de mare densitate"
     ],
-    infinitrade: `Pentru EVAPCO ne bazăm pe informațiile publicate de producător pe site-ul oficial, fără date proprii despre stocul de echipamente disponibil la un moment dat. Aducem turnurile de răcire, condensatoarele evaporative și răcitoarele cu circuit închis la comandă, prin canale de aprovizionare din SUA sau reprezentanțele europene, cu termen orientativ de 2-4 săptămâni de la confirmarea configurației de către producător. Pentru ofertă avem nevoie de capacitatea termică necesară, spațiul disponibil la amplasament (interior sau exterior) și restricțiile de zgomot sau înălțime. Echipamentele dimensionate individual pe proiect nu au disponibilitate din depozit propriu.`,
+    infinitrade: `Pentru EVAPCO ne bazăm pe informațiile publicate de producător pe site-ul oficial, fără date proprii despre stocul de echipamente disponibil la un moment dat. Aducem turnurile de răcire, condensatoarele evaporative și răcitoarele cu circuit închis la comandă, prin canale de aprovizionare din SUA sau reprezentanțele europene, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației de către producător. Pentru ofertă avem nevoie de capacitatea termică necesară, spațiul disponibil la amplasament (interior sau exterior) și restricțiile de zgomot sau înălțime. Echipamentele dimensionate individual pe proiect nu au disponibilitate din depozit propriu.`,
     limitation: "Nu putem confirma timpii de execuție pentru unități factory-assembled de mare capacitate fără o cerere tehnică transmisă direct producătorului.",
     productCodes: [
       { code: "AT", description: "turn de răcire tiraj indus, ventilator axial" },
@@ -553,7 +553,7 @@ Pentru clienții din România, EVAPCO are sens la centrale electrice, instalați
     faq: [
       { q: "Ce produce EVAPCO?", a: "EVAPCO produce turnuri de răcire, condensatoare evaporative și răcitoare cu circuit închis pentru HVAC industrial, refrigerare și generarea de energie, cu sediul central în Statele Unite, la Taneytown." },
       { q: "Cum aleg turnul de răcire EVAPCO potrivit pentru instalația mea?", a: "Alegerea depinde de capacitatea termică necesară și de spațiul disponibil: turnurile din seria AT sunt pentru montaj exterior de mare capacitate, iar LSTE și LPT pentru interior sau spații cu înălțime limitată. Trimiteți-ne sarcina termică și amplasamentul dorit." },
-      { q: "Livrați echipamente EVAPCO în România și cât durează?", a: "Da, aducem turnurile de răcire și răcitoarele EVAPCO la comandă, prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 2-4 săptămâni, în funcție de configurația confirmată de producător." },
+      { q: "Livrați echipamente EVAPCO în România și cât durează?", a: "Da, aducem turnurile de răcire și răcitoarele EVAPCO la comandă, prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 1–4 săptămâni, în funcție de configurația confirmată de producător." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de turnuri de răcire EVAPCO?", a: "Aveți nevoie de capacitatea termică necesară, temperaturile de intrare și ieșire ale apei, spațiul disponibil la amplasament și dacă instalația este interioară sau exterioară, plus eventualele restricții de zgomot admise pe amplasament." }
     ],
     evidenceClass: "market-signal-intl",
@@ -603,7 +603,7 @@ Pentru clienții din România, REMBE are sens la instalații din industria chimi
       "Aerospațial și energie — soluții de siguranță de proces specializate",
       "Stocare energie în baterii (BESS) — protecție la explozie pentru containere"
     ],
-    infinitrade: `Pentru REMBE lucrăm cu informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocul de discuri de rupere sau sisteme Q-Rohr disponibile la un moment dat. Aducem discurile de rupere, sistemele de detentă și barierele de decuplare la comandă, prin canale de aprovizionare din Germania și UE, cu termen orientativ de 2-4 săptămâni de la confirmarea producătorului. Pentru ofertă avem nevoie de presiunea de rupere necesară, dimensiunea nominală a racordului, tipul de mediu (gaz, praf sau lichid) și temperatura de lucru. Fiecare disc se dimensionează pe presiunea și geometria instalației clientului, fără disponibilitate din depozit propriu.`,
+    infinitrade: `Pentru REMBE lucrăm cu informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocul de discuri de rupere sau sisteme Q-Rohr disponibile la un moment dat. Aducem discurile de rupere, sistemele de detentă și barierele de decuplare la comandă, prin canale de aprovizionare din Germania și UE, cu termen orientativ de 1–4 săptămâni de la confirmarea producătorului. Pentru ofertă avem nevoie de presiunea de rupere necesară, dimensiunea nominală a racordului, tipul de mediu (gaz, praf sau lichid) și temperatura de lucru. Fiecare disc se dimensionează pe presiunea și geometria instalației clientului, fără disponibilitate din depozit propriu.`,
     limitation: "Nu putem confirma calculul de dimensionare a sistemului de protecție la explozie pentru o instalație existentă fără o cerere tehnică analizată direct de producător.",
     productCodes: [
       { code: "Q-Rohr", description: "detentă a exploziei fără flacără" },
@@ -626,7 +626,7 @@ Pentru clienții din România, REMBE are sens la instalații din industria chimi
     faq: [
       { q: "Ce produce REMBE?", a: "REMBE produce sisteme de protecție la explozie — discuri de rupere, sisteme de detentă fără flacără Q-Rohr și bariere de decuplare Q-Bic — fiind un producător german activ din 1973, cu sediul la Brilon." },
       { q: "Cum aleg discul de rupere REMBE potrivit?", a: "Alegerea depinde de presiunea de rupere necesară, dimensiunea racordului și tipul de mediu din instalație — gaz, praf combustibil sau lichid. Trimiteți-ne acești parametri, iar noi verificăm familia de disc (EGV, EDP, MDX sau ODV) potrivită." },
-      { q: "Livrați echipamente REMBE în România și cât durează?", a: "Da, aducem discurile de rupere și sistemele Q-Rohr sau Q-Bic la comandă, prin canale de aprovizionare din Germania și UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului." },
+      { q: "Livrați echipamente REMBE în România și cât durează?", a: "Da, aducem discurile de rupere și sistemele Q-Rohr sau Q-Bic la comandă, prin canale de aprovizionare din Germania și UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului." },
       { q: "Ce informații trebuie să trimit pentru o ofertă REMBE?", a: "Aveți nevoie de presiunea de rupere necesară, dimensiunea nominală a racordului, tipul de mediu din instalație (gaz, praf sau lichid) și temperatura de lucru la punctul de montaj." }
     ],
     evidenceClass: "market-signal-ro",

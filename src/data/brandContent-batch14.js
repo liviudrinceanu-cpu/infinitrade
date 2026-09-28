@@ -52,7 +52,7 @@ ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de elec
       'Textile și vopsitorii',
       'Agricultură și irigații (fertilizare automată)'
     ],
-    infinitrade: `La InfiniTrade aducem pompele dozatoare ProMinent și accesoriile aferente pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model. Ca formulă generală a firmei, produsele deja pregătite pot ajunge în 24-72 h, iar seriile Gamma, Smart Digital sau Bellozon comandate special durează 2-4 săptămâni. Pentru o ofertă corectă, trimite-ne codul pompei sau al controlerului, debitul și presiunea necesară și aplicația (apă potabilă, industrial, pharma); nu publicăm prețuri, fiecare cerere primește cotație individuală. Te ajutăm la alegerea variantei potrivite și la organizarea transportului către instalația ta.`,
+    infinitrade: `La InfiniTrade aducem pompele dozatoare ProMinent și accesoriile aferente pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model. Ca formulă generală a firmei, produsele deja pregătite pot ajunge în 24-72 h, iar seriile Gamma, Smart Digital sau Bellozon comandate special durează 1–4 săptămâni. Pentru o ofertă corectă, trimite-ne codul pompei sau al controlerului, debitul și presiunea necesară și aplicația (apă potabilă, industrial, pharma); nu publicăm prețuri, fiecare cerere primește cotație individuală. Te ajutăm la alegerea variantei potrivite și la organizarea transportului către instalația ta.`,
     sources: [
       {"title":"ProMinent Product Catalogue 2020 Vol. 1 — Metering Pumps (pompe dozatoare)","url":"https://www.prominent.com/resources/Catalogue/English/9300/Metering-Pumps-Components-ProMinent-Product-Catalogue-2020-Volume-1.pdf","publisher":"ProMinent","accessed":"2026-09-22"},
       { title: 'ProMinent – site oficial', url: 'https://www.prominent.com/en', publisher: 'ProMinent GmbH', accessed: '2026-09-22' },
@@ -152,7 +152,7 @@ ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de elec
       },
       {
         "q": "Livrați pompe dozatoare ProMinent în România?",
-        "a": "Da, aducem la comandă pompe ProMinent pe baza cataloagelor publice ale producătorului, fără gama pe raft permanent. Livrarea se încadrează de regulă în 2-4 săptămâni de la comandă, în funcție de model și de accesoriile solicitate. Recomandăm confirmarea seriei exacte înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă pompe ProMinent pe baza cataloagelor publice ale producătorului, fără gama pe raft permanent. Livrarea se încadrează de regulă în 1–4 săptămâni de la comandă, în funcție de model și de accesoriile solicitate. Recomandăm confirmarea seriei exacte înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă ProMinent?",
@@ -221,7 +221,7 @@ Britanicii au investit masiv în digitalizare - au lansat platforma Renold Smart
       'HVAC și utilități (ventilatoare, pompe)',
       'Logistică și warehousing (transportoare automate)'
     ],
-    infinitrade: `Aducem lanțuri Renold și cuplaje Hi-Tec sau Omega pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem date proprii de stoc pentru fiecare serie și verificăm disponibilitatea direct la producător la fiecare cerere. Ca formulă generală a firmei, articolele deja pregătite se livrează în 24-72 h, iar lanțurile speciale sau atașamentele custom comandate din fabrică durează 2-4 săptămâni. Pentru o cotație corectă, spune-ne seria lanțului, pasul, lungimea și tipul de atașament de care ai nevoie; nu afișăm prețuri, fiecare comandă primește ofertă separată. Echipa noastră te ajută la calculul lanțului potrivit pentru aplicația ta.`,
+    infinitrade: `Aducem lanțuri Renold și cuplaje Hi-Tec sau Omega pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem date proprii de stoc pentru fiecare serie și verificăm disponibilitatea direct la producător la fiecare cerere. Ca formulă generală a firmei, articolele deja pregătite se livrează în 24-72 h, iar lanțurile speciale sau atașamentele custom comandate din fabrică durează 1–4 săptămâni. Pentru o cotație corectă, spune-ne seria lanțului, pasul, lungimea și tipul de atașament de care ai nevoie; nu afișăm prețuri, fiecare comandă primește ofertă separată. Echipa noastră te ajută la calculul lanțului potrivit pentru aplicația ta.`,
     sources: [
       {"title":"General Transmission Chain","url":"https://www.renold.com/products/industrial-transmission-chain/general-transmission-chain/","publisher":"Renold","accessed":"2026-09-22"},
       {"title":"RBI Hi-Tec Industrial Couplings","url":"https://www.renold.com/media/1432477/renold-hi-tec-rbi-usa-brochure.pdf","publisher":"Renold","accessed":"2026-09-22"},
@@ -286,7 +286,7 @@ Britanicii au investit masiv în digitalizare - au lansat platforma Renold Smart
       },
       {
         "q": "Livrați lanțuri și cuplaje Renold în România?",
-        "a": "Da, aducem la comandă lanțuri și cuplaje Renold pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de tip și de lungimea necesară. Confirmarea pasului exact al lanțului este recomandată înainte de comandă."
+        "a": "Da, aducem la comandă lanțuri și cuplaje Renold pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și de lungimea necesară. Confirmarea pasului exact al lanțului este recomandată înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de lanț de transmisie Renold?",
@@ -355,7 +355,7 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
       'HVAC și utilități (ventilatoare industriale, pompe)',
       'Food & beverage (linii producție, transportoare)'
     ],
-    infinitrade: `Prin InfiniTrade comandăm lagăre Link-Belt, cuplaje Omega/Addax și lanțuri Rex de la Regal Rexnord pentru clienții industriali din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile despre gamă provin din surse publice ale producătorului, fără acces la date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, reperele deja pregătite ajung în 24-72 h, iar cele comandate special (lagăre custom, cuplaje pentru momente mari) durează 2-4 săptămâni. Trimite-ne codul piesei sau desenul tehnic, sarcina și turația aplicației pentru o cotație corectă; nu publicăm prețuri fixe, fiecare cerere e evaluată individual. Te ajutăm să identifici echivalentul potrivit chiar dacă nu ai codul exact Rexnord.`,
+    infinitrade: `Prin InfiniTrade comandăm lagăre Link-Belt, cuplaje Omega/Addax și lanțuri Rex de la Regal Rexnord pentru clienții industriali din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile despre gamă provin din surse publice ale producătorului, fără acces la date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, reperele deja pregătite ajung în 24-72 h, iar cele comandate special (lagăre custom, cuplaje pentru momente mari) durează 1–4 săptămâni. Trimite-ne codul piesei sau desenul tehnic, sarcina și turația aplicației pentru o cotație corectă; nu publicăm prețuri fixe, fiecare cerere e evaluată individual. Te ajutăm să identifici echivalentul potrivit chiar dacă nu ai codul exact Rexnord.`,
     sources: [
       {"title":"PB22400 Link-Belt Pillow Block Spherical Roller Bearings","url":"https://www.rexnord.com/products/bearings/link-belt-spherical-roller-bearings/solid-housed-pillow-blocks/pb22400","publisher":"Rexnord","accessed":"2026-09-22"},
       {"title":"Couplings - Process & Motion Control","url":"https://www.rexnord.com/products-services/process-motion-control/couplings","publisher":"Rexnord","accessed":"2026-09-22"},
@@ -432,7 +432,7 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
       },
       {
         "q": "Livrați lagăre și cuplaje Rexnord în România?",
-        "a": "Da, aducem la comandă lagăre și cuplaje Rexnord pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Așteptați un termen de 2-4 săptămâni de la comandă, în funcție de model. Recomandăm indicarea codului complet de pe lagărul existent."
+        "a": "Da, aducem la comandă lagăre și cuplaje Rexnord pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Așteptați un termen de 1–4 săptămâni de la comandă, în funcție de model. Recomandăm indicarea codului complet de pe lagărul existent."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de lagăr Rexnord Link-Belt?",
@@ -504,7 +504,7 @@ Producătorul a investit în digitalizare și IoT - platforma Rittal IoT Interfa
       'Oil & gas (tablouri offshore, rafinării)',
       'Infrastructură (tablouri tuneluri, autostrăzi, aeroporturi)'
     ],
-    infinitrade: `La InfiniTrade furnizăm dulapuri Rittal (VX25, TS 8) și sistemele lor de climatizare pentru tablouri electrice din România, prin canale de aprovizionare din Uniunea Europeană. Ce putem și ce nu putem confirma ține de fișele tehnice publice ale producătorului, fără date proprii despre stocul fiecărei dimensiuni. Ca formulă generală a firmei, configurațiile standard deja pregătite se livrează în 24-72 h, iar cele custom (dimensiuni speciale, climatizare dedicată) durează 2-4 săptămâni din fabrică. Pentru o ofertă corectă, trimite-ne dimensiunea dulapului, puterea disipată și accesoriile dorite; nu lucrăm cu prețuri de listă, fiecare configurație primește cotație separată. Te ajutăm la sizing-ul climatizării folosind datele tehnice ale producătorului.`,
+    infinitrade: `La InfiniTrade furnizăm dulapuri Rittal (VX25, TS 8) și sistemele lor de climatizare pentru tablouri electrice din România, prin canale de aprovizionare din Uniunea Europeană. Ce putem și ce nu putem confirma ține de fișele tehnice publice ale producătorului, fără date proprii despre stocul fiecărei dimensiuni. Ca formulă generală a firmei, configurațiile standard deja pregătite se livrează în 24-72 h, iar cele custom (dimensiuni speciale, climatizare dedicată) durează 1–4 săptămâni din fabrică. Pentru o ofertă corectă, trimite-ne dimensiunea dulapului, puterea disipată și accesoriile dorite; nu lucrăm cu prețuri de listă, fiecare configurație primește cotație separată. Te ajutăm la sizing-ul climatizării folosind datele tehnice ale producătorului.`,
     sources: [
       {"title":"Rittal Homepage","url":"https://www.rittal.com/com-en/","publisher":"Rittal","accessed":"2026-09-22"},
       { title: 'Rittal – Wikipedia', url: 'https://en.wikipedia.org/wiki/Rittal', publisher: 'Wikipedia', accessed: '2026-09-22' },
@@ -564,7 +564,7 @@ Producătorul a investit în digitalizare și IoT - platforma Rittal IoT Interfa
       },
       {
         "q": "Livrați dulapuri și sisteme de climatizare Rittal în România?",
-        "a": "Da, aducem la comandă dulapuri și sisteme de climatizare Rittal pe baza informațiilor publice ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de configurație. Recomandăm precizarea seriei exacte înainte de comandă."
+        "a": "Da, aducem la comandă dulapuri și sisteme de climatizare Rittal pe baza informațiilor publice ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de configurație. Recomandăm precizarea seriei exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de dulap Rittal VX25?",
@@ -639,7 +639,7 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
       'Energie (centrale electrice, renewable)',
       'Water/wastewater (stații pompare, tratare)'
     ],
-    infinitrade: `Prin InfiniTrade comandăm echipamente Rockwell Automation (Allen-Bradley) - PLC-uri CompactLogix/ControlLogix, variatoare PowerFlex, HMI PanelView - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Ne bazăm pe informațiile publice disponibile de la producător, fără date proprii de stoc pentru fiecare referință. Ca formulă generală a firmei, articolele deja pregătite ajung în 24-72 h, iar configurațiile complexe (șasiuri ControlLogix complete, variatoare mari, sisteme safety) comandate din fabrică durează 2-4 săptămâni. Pentru o cotație corectă, trimite-ne codul complet al produsului, cantitatea și, dacă e cazul, schema aplicației; nu publicăm prețuri, fiecare comandă e evaluată separat. Te ajutăm să identifici componenta potrivită din gama Allen-Bradley.`,
+    infinitrade: `Prin InfiniTrade comandăm echipamente Rockwell Automation (Allen-Bradley) - PLC-uri CompactLogix/ControlLogix, variatoare PowerFlex, HMI PanelView - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Ne bazăm pe informațiile publice disponibile de la producător, fără date proprii de stoc pentru fiecare referință. Ca formulă generală a firmei, articolele deja pregătite ajung în 24-72 h, iar configurațiile complexe (șasiuri ControlLogix complete, variatoare mari, sisteme safety) comandate din fabrică durează 1–4 săptămâni. Pentru o cotație corectă, trimite-ne codul complet al produsului, cantitatea și, dacă e cazul, schema aplicației; nu publicăm prețuri, fiecare comandă e evaluată separat. Te ajutăm să identifici componenta potrivită din gama Allen-Bradley.`,
     sources: [
       {"title":"Programmable Controllers","url":"https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley/programmable-controllers.html","publisher":"Rockwell Automation","accessed":"2026-09-22"},
       { title: 'Rockwell Automation – About Us', url: 'https://www.rockwellautomation.com/en-us/company/about-us.html', publisher: 'Rockwell Automation, Inc.', accessed: '2026-09-22' },
@@ -719,7 +719,7 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
       },
       {
         "q": "Livrați automate programabile Rockwell Automation în România?",
-        "a": "Da, aducem la comandă echipamente Rockwell Automation pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de model și de firmware-ul solicitat. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă echipamente Rockwell Automation pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de firmware-ul solicitat. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de PLC Rockwell Automation?",
@@ -790,7 +790,7 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
       'Pulp & paper (role procesare, transportoare)',
       'Infrastructură (tuneluri, poduri, autostrăzi - control traffic)'
     ],
-    infinitrade: `La InfiniTrade aducem echipamente Schneider Electric din divizia industrială - PLC-uri Modicon, variatoare Altivar, HMI Harmony - pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii despre stocul fiecărui model. Ca formulă generală a firmei, produsele deja pregătite se livrează în 24-72 h, iar configurațiile speciale (redundanță M580, Altivar Process, sisteme Tesys island) durează 2-4 săptămâni la comandă. Pentru o ofertă corectă, transmite-ne referința produsului, puterea necesară și tipul de comunicație folosit; nu afișăm prețuri fixe, fiecare cerere primește cotație individuală. Echipa noastră te ajută la alegerea modelului potrivit pentru aplicația ta.`,
+    infinitrade: `La InfiniTrade aducem echipamente Schneider Electric din divizia industrială - PLC-uri Modicon, variatoare Altivar, HMI Harmony - pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii despre stocul fiecărui model. Ca formulă generală a firmei, produsele deja pregătite se livrează în 24-72 h, iar configurațiile speciale (redundanță M580, Altivar Process, sisteme Tesys island) durează 1–4 săptămâni la comandă. Pentru o ofertă corectă, transmite-ne referința produsului, puterea necesară și tipul de comunicație folosit; nu afișăm prețuri fixe, fiecare cerere primește cotație individuală. Echipa noastră te ajută la alegerea modelului potrivit pentru aplicația ta.`,
     sources: [
       {"title":"Altivar soft starters and variable speed drives for industry","url":"https://www.se.com/us/en/work/products/master-ranges/altivar/","publisher":"Schneider Electric","accessed":"2026-09-23"},
       { title: 'Schneider Electric – Company Profile', url: 'https://www.se.com/ww/en/about-us/company-profile/', publisher: 'Schneider Electric SE', accessed: '2026-09-22' },
@@ -878,7 +878,7 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
       },
       {
         "q": "Livrați variatoare de frecvență Schneider Electric în România?",
-        "a": "Da, aducem variatoare Altivar și softstartere Altistart la comandă, pornind de la gamele publicate de producător, fără stoc propriu ținut permanent pe aceste coduri. Termenul de livrare este de regulă 2-4 săptămâni, în funcție de putere și de opțiunile de comunicație solicitate. Confirmați referința exactă înainte de comandă."
+        "a": "Da, aducem variatoare Altivar și softstartere Altistart la comandă, pornind de la gamele publicate de producător, fără stoc propriu ținut permanent pe aceste coduri. Termenul de livrare este de regulă 1–4 săptămâni, în funcție de putere și de opțiunile de comunicație solicitate. Confirmați referința exactă înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de variator de frecvență Altivar?",
@@ -949,7 +949,7 @@ Austriecii au investit în dezvoltarea produselor eco-friendly - contactoare cu 
       'Food & beverage (fabrici mici, brutării, patiserii)',
       'Service auto și ateliere mecanice'
     ],
-    infinitrade: `Prin InfiniTrade furnizăm componente electrice Schrack - relee LZX, contactoare LST, protecții modulare - pentru instalatori și integratori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din această pagină provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, articolele deja pregătite ajung în 24-72 h, iar comenzile mari sau produsele mai puțin uzuale durează 2-4 săptămâni. Pentru o cotație corectă, spune-ne codul produsului, cantitatea și tensiunea de lucru necesară; nu publicăm prețuri de listă, fiecare comandă primește ofertă separată. Te ajutăm la alegerea variantei potrivite pentru tabloul tău electric.`,
+    infinitrade: `Prin InfiniTrade furnizăm componente electrice Schrack - relee LZX, contactoare LST, protecții modulare - pentru instalatori și integratori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din această pagină provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, articolele deja pregătite ajung în 24-72 h, iar comenzile mari sau produsele mai puțin uzuale durează 1–4 săptămâni. Pentru o cotație corectă, spune-ne codul produsului, cantitatea și tensiunea de lucru necesară; nu publicăm prețuri de listă, fiecare comandă primește ofertă separată. Te ajutăm la alegerea variantei potrivite pentru tabloul tău electric.`,
     sources: [
       {"title":"Relay Catalogue","url":"https://image.schrack.com/produktkataloge/w_k-relay-e9.pdf","publisher":"Schrack Technik","accessed":"2026-09-23"},
       { title: 'Schrack Technik – site oficial', url: 'https://www.schrack.com/', publisher: 'Schrack Technik GmbH', accessed: '2026-09-22' },
@@ -1025,7 +1025,7 @@ Austriecii au investit în dezvoltarea produselor eco-friendly - contactoare cu 
       },
       {
         "q": "Livrați relee Schrack în România?",
-        "a": "Da, aducem relee și contactoare Schrack la comandă, conform gamei publicate de producător, fără să ținem aceste coduri pe stoc propriu permanent. Termenul obișnuit de livrare este 2-4 săptămâni, în funcție de model și de cantitate. Vă recomandăm să confirmați numărul exact al variantei înainte de a plasa comanda."
+        "a": "Da, aducem relee și contactoare Schrack la comandă, conform gamei publicate de producător, fără să ținem aceste coduri pe stoc propriu permanent. Termenul obișnuit de livrare este 1–4 săptămâni, în funcție de model și de cantitate. Vă recomandăm să confirmați numărul exact al variantei înainte de a plasa comanda."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de relee Schrack?",
@@ -1096,7 +1096,7 @@ Shell oferă și servicii digitale - platforma LubeAnalyst pentru monitorizare c
       'Construcții (macarale, excavatoare, buldozere)',
       'Transport (trenuri, nave, aviație - lubrifianți specializați)'
     ],
-    infinitrade: `La InfiniTrade aducem lubrifianți Shell - Tellus, Omala, Gadus - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Recomandările de mai sus se bazează pe fișele tehnice publice ale producătorului; nu avem date proprii despre stocul fiecărui ambalaj. Ca formulă generală a firmei, ambalajele uzuale deja pregătite ajung în 24-72 h, iar comenzile mari (IBC, cisternă) sau produsele speciale durează 2-4 săptămâni. Pentru o ofertă corectă, trimite-ne tipul de echipament, viscozitatea recomandată de producător și cantitatea dorită; nu publicăm prețuri, fiecare comandă primește cotație individuală. Te putem ajuta să identifici echivalentul Shell pentru specificația cerută de utilajul tău.`,
+    infinitrade: `La InfiniTrade aducem lubrifianți Shell - Tellus, Omala, Gadus - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Recomandările de mai sus se bazează pe fișele tehnice publice ale producătorului; nu avem date proprii despre stocul fiecărui ambalaj. Ca formulă generală a firmei, ambalajele uzuale deja pregătite ajung în 24-72 h, iar comenzile mari (IBC, cisternă) sau produsele speciale durează 1–4 săptămâni. Pentru o ofertă corectă, trimite-ne tipul de echipament, viscozitatea recomandată de producător și cantitatea dorită; nu publicăm prețuri, fiecare comandă primește cotație individuală. Te putem ajuta să identifici echivalentul Shell pentru specificația cerută de utilajul tău.`,
     sources: [
       {"title":"Shell Omala S2 GX 220 Technical Data Sheet","url":"https://www.shell.us/content/dam/shell/assets/en/united-states/documents/9a662cdb-2db3-49ea-a13d-5fc7b9d76aef%20(1).pdf","publisher":"Shell","accessed":"2026-09-23"},
       {"title":"Shell Tellus S2 VX 22 Technical Data Sheet","url":"https://www.shell-livedocs.com/data/published/en-US/e7f45df0-f041-4a0f-83c9-ee72e2c0dbc4.pdf","publisher":"Shell","accessed":"2026-09-23"},
@@ -1157,7 +1157,7 @@ Shell oferă și servicii digitale - platforma LubeAnalyst pentru monitorizare c
       },
       {
         "q": "Livrați uleiuri industriale Shell în România?",
-        "a": "Da, aducem uleiuri Shell din gamele Tellus, Omala și Gadus la comandă, pe baza fișelor tehnice publice ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de gradul de vâscozitate și de ambalajul solicitat. Confirmați gradul exact înainte de comandă."
+        "a": "Da, aducem uleiuri Shell din gamele Tellus, Omala și Gadus la comandă, pe baza fișelor tehnice publice ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de gradul de vâscozitate și de ambalajul solicitat. Confirmați gradul exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de ulei industrial Shell?",
@@ -1235,7 +1235,7 @@ SICK a investit masiv în digitalizare - platforma SICK AppSpace permite program
       'Steel și metale (profiling, measurement, temperature)',
       'Energie regenerabilă (monitoring turbine eoliene, panouri solare)'
     ],
-    infinitrade: `Prin InfiniTrade comandăm senzori și sisteme SICK - fotoelectrici, laser, scannere de siguranță - pentru automatizări industriale din România, prin canale de aprovizionare din Uniunea Europeană. Datele tehnice de mai sus provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, senzorii uzuali deja pregătiți se livrează în 24-72 h, iar echipamentele complexe (scannere safety, camere inteligente) comandate din fabrică durează 2-4 săptămâni. Pentru o cotație corectă, trimite-ne codul senzorului, aplicația și mediul de lucru (temperatură, praf, umiditate); nu afișăm prețuri fixe, fiecare cerere e evaluată individual. Te ajutăm să identifici senzorul potrivit chiar dacă nu ai codul exact SICK.`,
+    infinitrade: `Prin InfiniTrade comandăm senzori și sisteme SICK - fotoelectrici, laser, scannere de siguranță - pentru automatizări industriale din România, prin canale de aprovizionare din Uniunea Europeană. Datele tehnice de mai sus provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, senzorii uzuali deja pregătiți se livrează în 24-72 h, iar echipamentele complexe (scannere safety, camere inteligente) comandate din fabrică durează 1–4 săptămâni. Pentru o cotație corectă, trimite-ne codul senzorului, aplicația și mediul de lucru (temperatură, praf, umiditate); nu afișăm prețuri fixe, fiecare cerere e evaluată individual. Te ajutăm să identifici senzorul potrivit chiar dacă nu ai codul exact SICK.`,
     sources: [
       {"title":"SICK - sitemap oficial de produse (US/EN)","url":"https://www.sick.com/us/en/sitemaps/PRODUCT-en-USD-us.xml","publisher":"SICK AG","accessed":"2026-09-26"},
       {"title":"SICK - sitemap categorii de produse (US/EN)","url":"https://www.sick.com/us/en/sitemaps/CATEGORY-en-USD-us-0.xml","publisher":"SICK AG","accessed":"2026-09-26"},
@@ -1373,7 +1373,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       'Water/wastewater (stații pompare, tratare)',
       'Transport (trenuri, metrou, tramvaie - sisteme tracțiune)'
     ],
-    infinitrade: `La InfiniTrade furnizăm echipamente electrice Siemens - întrerupătoare 5SL, contactoare SIRIUS, protecții motor 3RV, tablouri SIVACON - pentru instalatori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din fișa de brand provin din surse publice ale producătorului, fără date proprii despre stocul fiecărei referințe. Ca formulă generală a firmei, componentele uzuale deja pregătite ajung în 24-72 h, iar tablourile SIVACON sau configurațiile complexe comandate din fabrică durează 2-4 săptămâni. Pentru o ofertă corectă, trimite-ne curentul nominal, caracteristica dorită (B/C/D) și schema unifilară dacă există; nu publicăm prețuri de listă, fiecare comandă primește cotație separată. Te ajutăm la verificarea selectivității protecțiilor pentru tabloul tău.`,
+    infinitrade: `La InfiniTrade furnizăm echipamente electrice Siemens - întrerupătoare 5SL, contactoare SIRIUS, protecții motor 3RV, tablouri SIVACON - pentru instalatori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din fișa de brand provin din surse publice ale producătorului, fără date proprii despre stocul fiecărei referințe. Ca formulă generală a firmei, componentele uzuale deja pregătite ajung în 24-72 h, iar tablourile SIVACON sau configurațiile complexe comandate din fabrică durează 1–4 săptămâni. Pentru o ofertă corectă, trimite-ne curentul nominal, caracteristica dorită (B/C/D) și schema unifilară dacă există; nu publicăm prețuri de listă, fiecare comandă primește cotație separată. Te ajutăm la verificarea selectivității protecțiilor pentru tabloul tău.`,
     sources: [
       {"title":"Industrial Controls","url":"https://www.siemens.com/global/en/products/automation/industrial-controls.html","publisher":"Siemens","accessed":"2026-09-22"},
       { title: 'Siemens AG – About', url: 'https://www.siemens.com/global/en/company/about.html', publisher: 'Siemens AG', accessed: '2026-09-22' },
@@ -1437,7 +1437,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       },
       {
         "q": "Livrați contactoare și disjunctoare Siemens în România?",
-        "a": "Da, aducem la comandă componente Siemens SIRIUS pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. În funcție de model, termenul uzual de livrare este de 2-4 săptămâni la comandă. Recomandăm confirmarea codului complet al referinței înainte de comandă."
+        "a": "Da, aducem la comandă componente Siemens SIRIUS pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. În funcție de model, termenul uzual de livrare este de 1–4 săptămâni la comandă. Recomandăm confirmarea codului complet al referinței înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de contactor Siemens SIRIUS?",

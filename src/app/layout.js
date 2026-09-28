@@ -59,7 +59,7 @@ export const metadata = {
   manifest: '/manifest.json',
   openGraph: {
     title: 'Infinitrade Romania | Echipamente Industriale și Piese de Schimb',
-    description: 'Distribuitor de pompe, robineți și motoare electrice în România: Grundfos, Wilo, Siemens, ABB, Alfa Laval. Livrare 24–72 h din stoc, 2–4 săptămâni la comandă.',
+    description: 'Distribuitor de pompe, robineți și motoare electrice în România: Grundfos, Wilo, Siemens, ABB, Alfa Laval. Livrare 24–72 h din stoc, 1–4 săptămâni la comandă.',
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',
     type: 'website',

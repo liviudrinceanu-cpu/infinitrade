@@ -210,7 +210,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă și în cât timp se livrează o pompă cu șurub excentric?",
-        "a": "Sunt necesare fluidul, debitul și presiunea dorite, vâscozitatea și conținutul de solide, plus tensiunea de alimentare. Livrarea se face la comandă, orientativ în 2–4 săptămâni, în funcție de producător și de disponibilitatea capului hidraulic sau a motorului solicitat."
+        "a": "Sunt necesare fluidul, debitul și presiunea dorite, vâscozitatea și conținutul de solide, plus tensiunea de alimentare. Livrarea se face la comandă, orientativ în 1–4 săptămâni, în funcție de producător și de disponibilitatea capului hidraulic sau a motorului solicitat."
       },
       {
         "q": "Ce se întâmplă dacă o pompă cu șurub excentric funcționează fără fluid, chiar și scurt timp?",
@@ -289,7 +289,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de pompă dozatoare și cât durează livrarea?",
-        "a": "Fluidul și concentrația, debitul dorit, presiunea de refulare și tensiunea de alimentare disponibilă. Pe baza lor se propune capul de dozare și materialele corecte; livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de varianta aleasă."
+        "a": "Fluidul și concentrația, debitul dorit, presiunea de refulare și tensiunea de alimentare disponibilă. Pe baza lor se propune capul de dozare și materialele corecte; livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător și de varianta aleasă."
       },
       {
         "q": "Cum se calibrează o pompă dozatoare nou instalată?",
@@ -364,7 +364,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trebuie trimise pentru o ofertă de pompă de vid și în cât timp se livrează?",
-        "a": "Este nevoie de nivelul de vid dorit, debitul de aspirație, natura gazului vehiculat și tensiunea disponibilă; pe baza acestora se recomandă tehnologia potrivită. Livrarea se face la comandă, orientativ în 2-4 săptămâni, în funcție de producător și de configurația aleasă."
+        "a": "Este nevoie de nivelul de vid dorit, debitul de aspirație, natura gazului vehiculat și tensiunea disponibilă; pe baza acestora se recomandă tehnologia potrivită. Livrarea se face la comandă, orientativ în 1–4 săptămâni, în funcție de producător și de configurația aleasă."
       },
       {
         "q": "Poate o pompă de vid cu ulei să fie folosită în industria alimentară?",
@@ -437,7 +437,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trimiteți pentru o ofertă de grup de pompare și cât durează livrarea?",
-        "a": "Aveți nevoie de debitul și presiunea cerute, tipul de fluid, tensiunea disponibilă și destinația grupului (menajeră, hidranți, industrial). Livrarea este la comandă, orientativ 2-4 săptămâni, în funcție de producător și de configurația aleasă (numărul de pompe, tabloul de automatizare)."
+        "a": "Aveți nevoie de debitul și presiunea cerute, tipul de fluid, tensiunea disponibilă și destinația grupului (menajeră, hidranți, industrial). Livrarea este la comandă, orientativ 1–4 săptămâni, în funcție de producător și de configurația aleasă (numărul de pompe, tabloul de automatizare)."
       },
       {
         "q": "Poate fi un grup de pompare industrial adaptat la o instalație hidraulică existentă?",

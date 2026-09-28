@@ -31,7 +31,7 @@ Pentru un integrator sau o hală de producție din România, INVT înseamnă o a
       "Industria textilă — bobinatoare și linii cu cerințe de cuplu constant",
       "Metalurgie și transport feroviar — aplicații industriale grele menționate de producător"
     ],
-    infinitrade: `Lucrăm din surse publice ale producătorului și din fișele tehnice publicate de INVT, fără date proprii de stoc pentru gama chineză de convertizoare. Aducem convertizoarele INVT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, tensiunea de alimentare, tipul de sarcină și, dacă e cazul, cerințele de comunicație (Modbus, encoder). Nu promitem disponibilitate permanentă din stoc pentru nicio serie GD, iar pentru aplicațiile critice recomandăm verificarea compatibilității înainte de comandă.`,
+    infinitrade: `Lucrăm din surse publice ale producătorului și din fișele tehnice publicate de INVT, fără date proprii de stoc pentru gama chineză de convertizoare. Aducem convertizoarele INVT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, tensiunea de alimentare, tipul de sarcină și, dacă e cazul, cerințele de comunicație (Modbus, encoder). Nu promitem disponibilitate permanentă din stoc pentru nicio serie GD, iar pentru aplicațiile critice recomandăm verificarea compatibilității înainte de comandă.`,
     limitation: "Nu putem confirma disponibilitatea service-ului local în garanție al producătorului și nici stocul permanent pentru seriile dedicate (GD100-PV, GD350-19), care se aduc strict la comandă.",
     productCodes: [
       {
@@ -106,7 +106,7 @@ Pentru un integrator sau o hală de producție din România, INVT înseamnă o a
       },
       {
         "q": "Livrați convertizoare INVT în România?",
-        "a": "Da, convertizoarele INVT se aduc la comandă, pe baza gamei publicate de producător, fără un stoc propriu constituit pentru această marcă. Perioada obișnuită este de 2-4 săptămâni, în funcție de puterea aleasă și de varianta regională a modelului. Recomandăm confirmarea codului exact al seriei GD înainte de a plasa comanda."
+        "a": "Da, convertizoarele INVT se aduc la comandă, pe baza gamei publicate de producător, fără un stoc propriu constituit pentru această marcă. Perioada obișnuită este de 1–4 săptămâni, în funcție de puterea aleasă și de varianta regională a modelului. Recomandăm confirmarea codului exact al seriei GD înainte de a plasa comanda."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de convertizor INVT?",
@@ -150,7 +150,7 @@ Pentru instalatorii și proiectanții din România, cuplajele Straub sunt utile 
       "Energie regenerabilă — conexiuni pe conducte din instalații hidro și geotermale",
       "Industrie generală — conducte de proces unde sudura nu e permisă sau practică"
     ],
-    infinitrade: `Spunem clar ce putem și ce nu putem confirma: parametrii tehnici pentru cuplajele Straub vin din catalogul oficial al producătorului elvețian, iar disponibilitatea exactă a fiecărui diametru o verificăm abia la cerere, fără date proprii de stoc. Aducem cuplaje Straub la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Pentru o ofertă corectă avem nevoie de diametrul exterior real al conductei, materialul acesteia și presiunea de lucru. Nu promitem disponibilitate permanentă din stoc pentru toate diametrele din gamă, mai ales pentru cele mari, de peste 400 mm.`,
+    infinitrade: `Spunem clar ce putem și ce nu putem confirma: parametrii tehnici pentru cuplajele Straub vin din catalogul oficial al producătorului elvețian, iar disponibilitatea exactă a fiecărui diametru o verificăm abia la cerere, fără date proprii de stoc. Aducem cuplaje Straub la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de diametrul exterior real al conductei, materialul acesteia și presiunea de lucru. Nu promitem disponibilitate permanentă din stoc pentru toate diametrele din gamă, mai ales pentru cele mari, de peste 400 mm.`,
     limitation: "Nu putem confirma stocul permanent pentru diametrele mari (peste 400 mm) și nici configurațiile speciale pentru medii chimice agresive, care necesită verificare directă cu producătorul.",
     productCodes: [
       {
@@ -254,7 +254,7 @@ Pentru integratorii români de linii automatizate, componentele Güdel sunt rele
       "Transport feroviar — componente de mișcare pentru echipamente de manevrare",
       "Manufactură generală — extinderea razei de acțiune a roboților pe linii de producție"
     ],
-    infinitrade: `Nu deținem date proprii despre stocul componentelor Güdel; ne bazăm pe informațiile publice disponibile pe site-ul producătorului elvețian pentru parametrii tehnici ai fiecărei serii. Aducem la comandă axe liniare, cremaliere și reductoare Güdel prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de sarcina utilă, cursele necesare pe fiecare axă și, pentru reductoare, cuplul și turația de lucru. Nu promitem disponibilitate permanentă din stoc — majoritatea componentelor Güdel se fabrică sau se configurează la comandă, în funcție de proiect.`,
+    infinitrade: `Nu deținem date proprii despre stocul componentelor Güdel; ne bazăm pe informațiile publice disponibile pe site-ul producătorului elvețian pentru parametrii tehnici ai fiecărei serii. Aducem la comandă axe liniare, cremaliere și reductoare Güdel prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de sarcina utilă, cursele necesare pe fiecare axă și, pentru reductoare, cuplul și turația de lucru. Nu promitem disponibilitate permanentă din stoc — majoritatea componentelor Güdel se fabrică sau se configurează la comandă, în funcție de proiect.`,
     limitation: "Nu putem confirma termene de livrare mai scurte pentru sistemele TrackMotion configurate pe proiect, nici integrarea software proprietară a controlerelor de mișcare Güdel.",
     productCodes: [
       {
@@ -369,7 +369,7 @@ Pentru panourile electrice și dulapurile de automatizare din România, sursele 
       "Medical și științific — surse pentru echipamente de laborator și diagnostic",
       "Iluminat LED industrial — alimentare pentru sisteme de control al iluminatului"
     ],
-    infinitrade: `Fără date proprii de stoc pentru sursele TDK-Lambda — lucrăm din fișele tehnice publice ale producătorului japonez pentru a stabili seria potrivită fiecărui proiect. Aducem sursele TDK-Lambda la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de puterea necesară, tensiunea de ieșire, tipul de montaj (șină DIN standard sau profil redus) și, dacă e cazul, cerința de certificare pentru zone cu risc de explozie. Nu promitem disponibilitate permanentă din stoc pentru variantele speciale sau pentru puterile mari din seria trifazată.`,
+    infinitrade: `Fără date proprii de stoc pentru sursele TDK-Lambda — lucrăm din fișele tehnice publice ale producătorului japonez pentru a stabili seria potrivită fiecărui proiect. Aducem sursele TDK-Lambda la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de puterea necesară, tensiunea de ieșire, tipul de montaj (șină DIN standard sau profil redus) și, dacă e cazul, cerința de certificare pentru zone cu risc de explozie. Nu promitem disponibilitate permanentă din stoc pentru variantele speciale sau pentru puterile mari din seria trifazată.`,
     limitation: "Nu putem confirma stocul permanent pentru variantele certificate Ex (DRF/HL) și nici compatibilitatea directă cu firmware-ul de monitorizare al altor branduri de tablouri electrice.",
     productCodes: [
       {
@@ -493,7 +493,7 @@ Pentru instalatorii și proiectanții electrici din România, Gewiss e relevant 
       "Clădiri de birouri și retail — sisteme de automatizare și iluminat LED integrate",
       "Sănătate și ospitalitate — soluții de distribuție electrică menționate explicit de producător"
     ],
-    infinitrade: `Ce putem și ce nu putem confirma ținem separat: parametrii tehnici ai aparatajului Gewiss vin din catalogul oficial al producătorului italian, iar disponibilitatea fiecărui cod o verificăm punctual, fără date proprii de stoc. Aducem aparatajul Gewiss la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de codul de produs sau de parametrii electrici (curent nominal, tensiune, tip de protecție) și de cantitatea necesară. Nu promitem disponibilitate permanentă din stoc, mai ales pentru tablourile configurate pe măsură.`,
+    infinitrade: `Ce putem și ce nu putem confirma ținem separat: parametrii tehnici ai aparatajului Gewiss vin din catalogul oficial al producătorului italian, iar disponibilitatea fiecărui cod o verificăm punctual, fără date proprii de stoc. Aducem aparatajul Gewiss la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de codul de produs sau de parametrii electrici (curent nominal, tensiune, tip de protecție) și de cantitatea necesară. Nu promitem disponibilitate permanentă din stoc, mai ales pentru tablourile configurate pe măsură.`,
     limitation: "Nu putem confirma configurarea software a sistemelor smart home/building Gewiss și nici stocul permanent pentru tablourile QDX/CVX configurate special pentru un proiect.",
     productCodes: [
       {
@@ -596,7 +596,7 @@ Pentru fabricile din România cu proces continuu — industrie alimentară, text
       "Industria farmaceutică — abur curat pentru procese controlate",
       "Automotive — abur de proces menționat explicit de producător pentru linii de producție"
     ],
-    infinitrade: `Nu ținem produse Ferroli pe stoc propriu; informațiile despre gama de generatoare de abur vin din surse publice ale producătorului italian. Aducem generatoare VAPOPREX la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare — pentru echipamente de capacitate mare, termenul poate fi mai lung, se confirmă punctual. Pentru o ofertă corectă avem nevoie de capacitatea de abur necesară (kg/h), presiunea de lucru și tipul de combustibil disponibil pe amplasament. Nu promitem disponibilitate permanentă din stoc pentru niciuna dintre variantele VAPOPREX.`,
+    infinitrade: `Nu ținem produse Ferroli pe stoc propriu; informațiile despre gama de generatoare de abur vin din surse publice ale producătorului italian. Aducem generatoare VAPOPREX la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare — pentru echipamente de capacitate mare, termenul poate fi mai lung, se confirmă punctual. Pentru o ofertă corectă avem nevoie de capacitatea de abur necesară (kg/h), presiunea de lucru și tipul de combustibil disponibil pe amplasament. Nu promitem disponibilitate permanentă din stoc pentru niciuna dintre variantele VAPOPREX.`,
     limitation: "Nu putem confirma termenul de livrare pentru generatoare de abur de capacitate mare configurate special și nici service-ul în garanția producătorului pentru instalarea și punerea în funcțiune.",
     productCodes: [
       {
@@ -705,7 +705,7 @@ Pentru echipele de mentenanță din România, Interflon e relevant acolo unde in
       "Construcții și utilaje — uleiuri hidraulice pentru echipamente mobile",
       "Chimie și farmaceutică — produse compatibile cu cerințe stricte de igienă"
     ],
-    infinitrade: `Fără date proprii despre volumele de stoc Interflon — ne ghidăm după fișele tehnice publicate de producătorul olandez pentru a recomanda produsul potrivit fiecărei aplicații. Aducem uleiuri și unsori Interflon la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Pentru o ofertă corectă avem nevoie de tipul de echipament, condițiile de lucru (temperatură, expunere la apă) și, dacă e cazul, cerința de grad alimentar. Nu promitem disponibilitate permanentă din stoc pentru toate ambalajele și vâscozitățile din gamă.`,
+    infinitrade: `Fără date proprii despre volumele de stoc Interflon — ne ghidăm după fișele tehnice publicate de producătorul olandez pentru a recomanda produsul potrivit fiecărei aplicații. Aducem uleiuri și unsori Interflon la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de tipul de echipament, condițiile de lucru (temperatură, expunere la apă) și, dacă e cazul, cerința de grad alimentar. Nu promitem disponibilitate permanentă din stoc pentru toate ambalajele și vâscozitățile din gamă.`,
     limitation: "Nu putem confirma disponibilitatea permanentă a tuturor ambalajelor (bidon, butoi, cartuș) pentru fiecare produs și nici programele de consultanță de lubrifiere oferite direct de producător.",
     productCodes: [
       {
@@ -826,7 +826,7 @@ Pentru integratorii români de echipamente compacte — mașini medicale, sistem
       "Automotive — componente certificate IATF 16949 pentru linii de producție auto",
       "Automatizare industrială — actuatoare compacte pentru mașini speciale"
     ],
-    infinitrade: `Spunem deschis ce putem și ce nu putem confirma pentru motoarele Crouzet: parametrii electrici și mecanici sunt din catalogul oficial al producătorului francez, iar stocul exact se verifică la fiecare comandă, fără date proprii de disponibilitate. Aducem motoarele Crouzet la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de motor (brush sau brushless), cuplul și turația necesare, tensiunea de alimentare și, dacă e cazul, cerința de certificare specifică industriei. Nu promitem disponibilitate permanentă din stoc pentru variantele programabile configurate special.`,
+    infinitrade: `Spunem deschis ce putem și ce nu putem confirma pentru motoarele Crouzet: parametrii electrici și mecanici sunt din catalogul oficial al producătorului francez, iar stocul exact se verifică la fiecare comandă, fără date proprii de disponibilitate. Aducem motoarele Crouzet la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de motor (brush sau brushless), cuplul și turația necesare, tensiunea de alimentare și, dacă e cazul, cerința de certificare specifică industriei. Nu promitem disponibilitate permanentă din stoc pentru variantele programabile configurate special.`,
     limitation: "Nu putem confirma programarea software a motoarelor SMi21/SMi22 pentru aplicația finală a clientului și nici stocul permanent pentru variantele certificate aerospațial sau feroviar.",
     productCodes: [
       {
@@ -935,7 +935,7 @@ Pentru laboratoarele de testare și producătorii de electronice din România, R
       "Broadcast și media — echipamente de măsură pentru transmisii radio-TV",
       "Cybersecurity și infrastructură critică — soluții de securitate a comunicațiilor menționate de producător"
     ],
-    infinitrade: `Nu avem date proprii de stoc pentru aparatura Rohde & Schwarz; ne bazăm pe informațiile publice disponibile pe site-ul producătorului german pentru a identifica seria potrivită. Aducem aparatura Rohde & Schwarz la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (osciloscop, analizor de spectru, testare EMC), domeniul de frecvență necesar și, dacă e cazul, standardul de certificare vizat. Nu promitem disponibilitate permanentă din stoc, mai ales pentru instrumentele configurate cu opțiuni software specifice.`,
+    infinitrade: `Nu avem date proprii de stoc pentru aparatura Rohde & Schwarz; ne bazăm pe informațiile publice disponibile pe site-ul producătorului german pentru a identifica seria potrivită. Aducem aparatura Rohde & Schwarz la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (osciloscop, analizor de spectru, testare EMC), domeniul de frecvență necesar și, dacă e cazul, standardul de certificare vizat. Nu promitem disponibilitate permanentă din stoc, mai ales pentru instrumentele configurate cu opțiuni software specifice.`,
     limitation: "Nu putem confirma calibrarea metrologică acreditată local și nici configurarea software avansată a instrumentelor pentru aplicații de testare specifice clientului.",
     productCodes: [
       {
@@ -1041,7 +1041,7 @@ Pentru echipele de mentenanță din România, camerele FLIR sunt relevante la in
       "Data centers — monitorizare continuă a punctelor critice de temperatură",
       "Siguranță publică și transporturi — aplicații menționate explicit de producător"
     ],
-    infinitrade: `Fără date proprii de stoc pentru camerele FLIR — verificăm disponibilitatea la fiecare cerere, pe baza informațiilor publice ale producătorului. Aducem camerele FLIR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (inspecție portabilă, detecție gaze sau monitorizare fixă), rezoluția termică necesară și domeniul de temperatură de măsurat. Nu promitem disponibilitate permanentă din stoc pentru modelele din seriile mai specializate, precum cele de detecție a gazelor.`,
+    infinitrade: `Fără date proprii de stoc pentru camerele FLIR — verificăm disponibilitatea la fiecare cerere, pe baza informațiilor publice ale producătorului. Aducem camerele FLIR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (inspecție portabilă, detecție gaze sau monitorizare fixă), rezoluția termică necesară și domeniul de temperatură de măsurat. Nu promitem disponibilitate permanentă din stoc pentru modelele din seriile mai specializate, precum cele de detecție a gazelor.`,
     limitation: "Nu putem confirma calibrarea metrologică locală și nici service-ul în garanția producătorului pentru camerele de termoviziune FLIR aduse prin canale de aprovizionare din UE.",
     productCodes: [
       {
@@ -1150,7 +1150,7 @@ Pentru instalațiile industriale de risc ridicat din România — depozite de co
       "Depozitare combustibili — acoperire rapidă a suprafețelor mari de stocare",
       "Chimie industrială — detecție de gaze pe instalații de proces"
     ],
-    infinitrade: `Nu deținem surse proprii de stoc pentru detectoarele Spectrex; lucrăm din surse publice ale producătorului, parte azi din portofoliul Emerson. Aducem detectoarele Spectrex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de risc de acoperit (flacără sau gaz), dimensiunea și configurația zonei protejate. Nu promitem disponibilitate permanentă din stoc — sistemele de detecție cu rază deschisă se configurează de regulă pe proiect, în funcție de amplasament.`,
+    infinitrade: `Nu deținem surse proprii de stoc pentru detectoarele Spectrex; lucrăm din surse publice ale producătorului, parte azi din portofoliul Emerson. Aducem detectoarele Spectrex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de risc de acoperit (flacără sau gaz), dimensiunea și configurația zonei protejate. Nu promitem disponibilitate permanentă din stoc — sistemele de detecție cu rază deschisă se configurează de regulă pe proiect, în funcție de amplasament.`,
     limitation: "Nu putem confirma certificările specifice de zonă explozivă (ATEX, FM, CSA) pentru fiecare model fără verificare directă cu producătorul și nici punerea în funcțiune pe amplasament.",
     productCodes: [
       {
@@ -1257,7 +1257,7 @@ Pentru laboratoarele de testare și liniile de producție din România, produsel
       "Industria alimentară — cântărire de precizie în linii de producție",
       "Feroviar și logistică — aplicații menționate explicit de producător"
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru gama HBM ținem transparent: parametrii tehnici vin din catalogul producătorului german, iar stocul exact se verifică punctual, fără date proprii de disponibilitate. Aducem traductoarele HBM la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de traductor (celulă de sarcină, cuplu, extensometru), capacitatea/sarcina maximă și, pentru sistemele de achiziție, numărul de canale necesare. Nu promitem disponibilitate permanentă din stoc pentru sistemele configurate cu software de analiză specific.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru gama HBM ținem transparent: parametrii tehnici vin din catalogul producătorului german, iar stocul exact se verifică punctual, fără date proprii de disponibilitate. Aducem traductoarele HBM la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de traductor (celulă de sarcină, cuplu, extensometru), capacitatea/sarcina maximă și, pentru sistemele de achiziție, numărul de canale necesare. Nu promitem disponibilitate permanentă din stoc pentru sistemele configurate cu software de analiză specific.`,
     limitation: "Nu putem confirma configurarea software a sistemelor de achiziție QuantumX/MGCplus pentru aplicația finală a clientului și nici calibrarea metrologică acreditată local pentru traductoarele livrate.",
     productCodes: [
       {

@@ -1,15 +1,16 @@
-// v16 (D-2026-09-26): the single source for the lead-time wording on the
-// category pages (hero stat, "Cât durează livrarea" card, home category
-// cards, Open Graph image). Owner decision 26.09: 24–72 h when the part is in
-// stock in Romania or at a European stockist; factory orders usually 2–4
-// weeks; OEM, customised or made-to-specification execution can take longer
-// and is confirmed in the offer. Kept tiny and dependency-free: it is
-// imported by client components.
+// v32 (D-2026-09-28, proprietar): sursa unică pentru termenele de livrare.
+// 24–72 h din stocul nostru sau din stocul furnizorului; produsele fabricate la
+// comandă, de regulă 1–4 săptămâni; raritățile, echipamentele și sistemele
+// complexe pot depăși 4 săptămâni. Termenul depinde de producător și de
+// rezervarea capacității lui de producție și curge de la plata avansului,
+// comanda fermă, semnarea contractului sau înscrierea noastră ca furnizor.
+// Kept tiny and dependency-free: it is imported by client components.
 
 export const CATEGORY_LEAD_TIME = {
   headline: '24–72 h',
   headlineLabel: 'Livrare din stoc',
-  stock: 'Livrare în 24–72 h când reperul este pe stoc în România sau la un depozit din Europa.',
-  factory: 'Comenzile din fabrică durează de regulă 2–4 săptămâni.',
-  special: 'Execuțiile OEM, personalizate sau fabricate special pe specificația dumneavoastră pot depăși 4 săptămâni; termenul exact îl confirmăm în ofertă, după răspunsul producătorului.',
+  stock: 'Livrare în 24–72 h când reperul este în stocul nostru sau în stocul furnizorului.',
+  factory: 'Produsele fabricate la comandă durează de regulă 1–4 săptămâni.',
+  special: 'Raritățile, echipamentele și sistemele complexe pot depăși 4 săptămâni: termenul depinde de producător și de rezervarea capacității lui de producție și curge de la plata avansului, comanda fermă, semnarea contractului sau, după caz, înscrierea noastră ca furnizor. Îl confirmăm în ofertă.',
+  start: 'Termenul curge de la plata avansului, comanda fermă, semnarea contractului sau, după caz, înscrierea noastră ca furnizor.',
 };

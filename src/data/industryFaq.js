@@ -25,7 +25,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce informații trebuie să trimitem pentru o ofertă de echipamente destinate unei rafinării?",
-      a: "Avem nevoie de: fluidul procesat (compoziție, densitate, vâscozitate, conținut de solide), parametrii de proces (debit, presiune, temperatură minimă/maximă), clasificarea zonei ATEX dacă există, materialul cerut sau specificat în caietul de sarcini și standardul de referință (API, ASME, EN). Dacă aveți schema P&ID sau fișa tehnică a echipamentului existent, ajută mult la identificarea unui înlocuitor compatibil. Pentru piese critice din stoc confirmăm disponibilitatea și livrăm în 24-72h; pentru echipamente la comandă, termenul obișnuit e de 2-4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător."
+      a: "Avem nevoie de: fluidul procesat (compoziție, densitate, vâscozitate, conținut de solide), parametrii de proces (debit, presiune, temperatură minimă/maximă), clasificarea zonei ATEX dacă există, materialul cerut sau specificat în caietul de sarcini și standardul de referință (API, ASME, EN). Dacă aveți schema P&ID sau fișa tehnică a echipamentului existent, ajută mult la identificarea unui înlocuitor compatibil. Pentru piese critice din stoc confirmăm disponibilitatea și livrăm în 24-72h; pentru echipamente la comandă, termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător."
     }
   ],
 
@@ -71,7 +71,7 @@ export const industryFaqs = {
     },
     {
       q: "Cât durează livrarea unei pompe submersibile sau a unei piese de schimb critice?",
-      a: "Pentru modelele uzuale din portofoliu livrarea se face în 24-72h oriunde în țară, când reperul e pe stoc în România sau la un depozit din Europa - important pentru stații unde o defecțiune înseamnă risc de deversare necontrolată. Pentru echipamente specializate (suflante de capacitate mare, pompe cu șurub excentric dedicate, componente SCADA la comandă), termenul obișnuit e de 2-4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător. Dacă aveți o urgență operațională, sunați-ne direct - verificăm disponibilitatea imediată la noi sau la alți furnizori și găsim soluția cea mai rapidă pentru a evita oprirea stației."
+      a: "Pentru modelele uzuale din portofoliu livrarea se face în 24-72h oriunde în țară, când reperul e în stocul nostru sau în stocul furnizorului - important pentru stații unde o defecțiune înseamnă risc de deversare necontrolată. Pentru echipamente specializate (suflante de capacitate mare, pompe cu șurub excentric dedicate, componente SCADA la comandă), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător. Dacă aveți o urgență operațională, sunați-ne direct - verificăm disponibilitatea imediată la noi sau la alți furnizori și găsim soluția cea mai rapidă pentru a evita oprirea stației."
     }
   ],
 
@@ -94,7 +94,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce informații trimiteți pentru o ofertă de echipamente pentru o centrală sau punct termic?",
-      a: "Aveți nevoie să ne trimiteți parametrii de abur sau agent termic (presiune, temperatură, debit), schema P&ID dacă există, tipul de combustibil sau sursă de energie și dacă echipamentul înlocuiește unul existent (model, an fabricație, probleme întâmpinate). Pentru cazane și recipiente sub presiune, menționați dacă instalația e supusă verificărilor ISCIR. Cu aceste date pregătim o ofertă cu specificații complete - pentru piese consumabile din stoc (garnituri, elemente pentru oale de condens) livrăm în 24-72h, iar pentru echipamente noi la comandă termenul obișnuit e de 2-4 săptămâni, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate."
+      a: "Aveți nevoie să ne trimiteți parametrii de abur sau agent termic (presiune, temperatură, debit), schema P&ID dacă există, tipul de combustibil sau sursă de energie și dacă echipamentul înlocuiește unul existent (model, an fabricație, probleme întâmpinate). Pentru cazane și recipiente sub presiune, menționați dacă instalația e supusă verificărilor ISCIR. Cu aceste date pregătim o ofertă cu specificații complete - pentru piese consumabile din stoc (garnituri, elemente pentru oale de condens) livrăm în 24-72h, iar pentru echipamente noi la comandă termenul obișnuit e de 1–4 săptămâni, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate."
     }
   ],
 
@@ -117,7 +117,7 @@ export const industryFaqs = {
     },
     {
       q: "Cât durează livrarea echipamentelor certificate GMP și ce trimitem pentru ofertă?",
-      a: "Termenele pentru echipamente farmaceutice certificate GMP sunt de obicei mai lungi decât la echipamentele industriale standard, pentru că producătorul trebuie să emită documentația de calificare specifică lotului - estimați 2-4 săptămâni pentru echipamente la comandă din fabrică, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate, sau termen mai scurt dacă găsim un model deja fabricat. Pentru ofertă, trimiteți-ne fluidul procesat, debitul necesar, tipul de sterilizare cerut și dacă aveți deja un caiet de sarcini cu standardul de referință. Echipa noastră tehnică verifică disponibilitatea documentației GMP înainte de confirmarea comenzii, ca să nu existe surprize la recepție."
+      a: "Termenele pentru echipamente farmaceutice certificate GMP sunt de obicei mai lungi decât la echipamentele industriale standard, pentru că producătorul trebuie să emită documentația de calificare specifică lotului - estimați 1–4 săptămâni pentru echipamente la comandă din fabrică, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate, sau termen mai scurt dacă găsim un model deja fabricat. Pentru ofertă, trimiteți-ne fluidul procesat, debitul necesar, tipul de sterilizare cerut și dacă aveți deja un caiet de sarcini cu standardul de referință. Echipa noastră tehnică verifică disponibilitatea documentației GMP înainte de confirmarea comenzii, ca să nu existe surprize la recepție."
     }
   ],
 
@@ -140,7 +140,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce informații trimiteți pentru o ofertă de echipamente rezistente chimic?",
-      a: "Cel mai important e fișa de siguranță a fluidului (SDS), cu concentrația exactă, temperatura de operare, presiunea din linie și eventualele particule solide în suspensie. Dacă știți deja ce echipament folosiți acum și ce problemă aveți (coroziune prematură, scurgeri, uzură rapidă), spuneți-ne - de multe ori schimbarea unui singur material (de exemplu de la inox standard la duplex sau PVDF) rezolvă problema fără să schimbați tot echipamentul. Pentru piese din stoc livrăm în 24-72h, iar pentru echipamente din materiale speciale la comandă (titan, aliaje speciale) termenul obișnuit e de 2-4 săptămâni, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate."
+      a: "Cel mai important e fișa de siguranță a fluidului (SDS), cu concentrația exactă, temperatura de operare, presiunea din linie și eventualele particule solide în suspensie. Dacă știți deja ce echipament folosiți acum și ce problemă aveți (coroziune prematură, scurgeri, uzură rapidă), spuneți-ne - de multe ori schimbarea unui singur material (de exemplu de la inox standard la duplex sau PVDF) rezolvă problema fără să schimbați tot echipamentul. Pentru piese din stoc livrăm în 24-72h, iar pentru echipamente din materiale speciale la comandă (titan, aliaje speciale) termenul obișnuit e de 1–4 săptămâni, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate."
     }
   ],
 
@@ -163,7 +163,7 @@ export const industryFaqs = {
     },
     {
       q: "Cât durează livrarea unei piese critice pentru o pompă slurry sau un utilaj de minerit oprit?",
-      a: "Pentru rotoare, carcase și garnituri de uzură din gama uzuală, livrarea se face în 24-72h când reperul e pe stoc în România sau la un depozit din Europa, pentru că o oprire neplanificată a unei linii de procesare minereu costă mult pe oră. Pentru echipamente construite pe comandă (pompe slurry dimensionate special, cilindri hidraulici cu dimensiuni netipice), termenul obișnuit e de 2-4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni. Dacă aveți o urgență de producție, sunați-ne direct cu codul echipamentului sau cu fotografii ale plăcuței - verificăm rapid ce avem disponibil la noi sau la alți furnizori din rețea."
+      a: "Pentru rotoare, carcase și garnituri de uzură din gama uzuală, livrarea se face în 24-72h când reperul e în stocul nostru sau în stocul furnizorului, pentru că o oprire neplanificată a unei linii de procesare minereu costă mult pe oră. Pentru echipamente construite pe comandă (pompe slurry dimensionate special, cilindri hidraulici cu dimensiuni netipice), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni. Dacă aveți o urgență de producție, sunați-ne direct cu codul echipamentului sau cu fotografii ale plăcuței - verificăm rapid ce avem disponibil la noi sau la alți furnizori din rețea."
     }
   ],
 
@@ -301,7 +301,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce trimitem pentru o ofertă de echipamente pentru un centru logistic nou sau o extindere?",
-      a: "Pentru motoare și motoreductoare: puterea necesară, raportul de reducere, viteza liniei și mediul de funcționare (temperatură, praf, umiditate). Pentru automatizări: numărul de puncte de sortare, tipul de senzori doriți și schema de comunicație a sistemului central. Pentru pneumatică: presiunea de aer disponibilă și numărul de cicluri pe oră. Cu aceste date pregătim o ofertă completă - pentru componente standard SEW și Siemens la cele mai cerute dimensiuni, livrarea se face în 24-72h când reperul e pe stoc în România sau la un depozit din Europa, esențial pentru un centru care nu-și permite oprire prelungită."
+      a: "Pentru motoare și motoreductoare: puterea necesară, raportul de reducere, viteza liniei și mediul de funcționare (temperatură, praf, umiditate). Pentru automatizări: numărul de puncte de sortare, tipul de senzori doriți și schema de comunicație a sistemului central. Pentru pneumatică: presiunea de aer disponibilă și numărul de cicluri pe oră. Cu aceste date pregătim o ofertă completă - pentru componente standard SEW și Siemens la cele mai cerute dimensiuni, livrarea se face în 24-72h când reperul e în stocul nostru sau în stocul furnizorului, esențial pentru un centru care nu-și permite oprire prelungită."
     }
   ],
 
@@ -347,7 +347,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce trimitem pentru o ofertă de echipamente pentru un proiect naval sau de șantier?",
-      a: "Pentru pompe și robineți: debitul, presiunea, fluidul (apă de mare, apă dulce, combustibil), materialul cerut de caietul de sarcini și societatea de clasificare sub care nava e înregistrată. Pentru hidraulica de punte: sarcina maximă, viteza de operare și schema hidraulică existentă. Termenele de livrare pentru echipamente navale certificate pot fi mai lungi decât la echipamente industriale standard (2-4 săptămâni din fabrică, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate), din cauza documentației suplimentare cerute de societatea de clasă - pentru proiecte cu termen strâns, anunțați-ne din timp ca să verificăm cea mai rapidă opțiune de certificare și livrare."
+      a: "Pentru pompe și robineți: debitul, presiunea, fluidul (apă de mare, apă dulce, combustibil), materialul cerut de caietul de sarcini și societatea de clasificare sub care nava e înregistrată. Pentru hidraulica de punte: sarcina maximă, viteza de operare și schema hidraulică existentă. Termenele de livrare pentru echipamente navale certificate pot fi mai lungi decât la echipamente industriale standard (1–4 săptămâni din fabrică, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate), din cauza documentației suplimentare cerute de societatea de clasă - pentru proiecte cu termen strâns, anunțați-ne din timp ca să verificăm cea mai rapidă opțiune de certificare și livrare."
     }
   ]
 };

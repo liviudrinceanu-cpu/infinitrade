@@ -27,7 +27,7 @@ Pentru piața din România, KEB are sens la retehnologizarea liniilor cu motoare
       "Ambalare și industrie alimentară — convertizoare pentru linii de producție",
       "Prelucrarea maselor plastice — acționări pentru extrudere și injecție",
     ],
-    infinitrade: `Lucrăm cu informațiile publice disponibile pe site-ul producătorului pentru gama KEB și nu avem date proprii de stoc pentru convertizoare, motoare sau frâne din acest portofoliu. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă, clientul trebuie să ne trimită codul exact al convertizorului sau motorului, puterea și tensiunea de alimentare, plus aplicația vizată — informații fără de care nu putem confirma disponibilitatea la producător. Nu promitem disponibilitate permanentă din stoc pentru niciun cod din gamă.`,
+    infinitrade: `Lucrăm cu informațiile publice disponibile pe site-ul producătorului pentru gama KEB și nu avem date proprii de stoc pentru convertizoare, motoare sau frâne din acest portofoliu. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă, clientul trebuie să ne trimită codul exact al convertizorului sau motorului, puterea și tensiunea de alimentare, plus aplicația vizată — informații fără de care nu putem confirma disponibilitatea la producător. Nu promitem disponibilitate permanentă din stoc pentru niciun cod din gamă.`,
     limitation: "Nu putem confirma service în garanția producătorului sau configurarea software-ului proprietar COMBIVERT fără implicarea directă a KEB.",
     productCodes: [
       {
@@ -114,7 +114,7 @@ Pentru piața din România, KEB are sens la retehnologizarea liniilor cu motoare
       },
       {
         "q": "Livrați convertizoare de frecvență KEB în România?",
-        "a": "Da, produsele KEB Automation ajung la clienți prin comandă, plecând de la cataloagele publice ale producătorului, întrucât nu ținem această gamă pe raft. De regulă sunt necesare 2-4 săptămâni de la confirmarea comenzii, în funcție de model și de opțiunile de comunicație alese. Recomandăm verificarea codului exact COMBIVERT înainte de a trimite cererea de ofertă."
+        "a": "Da, produsele KEB Automation ajung la clienți prin comandă, plecând de la cataloagele publice ale producătorului, întrucât nu ținem această gamă pe raft. De regulă sunt necesare 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de opțiunile de comunicație alese. Recomandăm verificarea codului exact COMBIVERT înainte de a trimite cererea de ofertă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de convertizor KEB?",
@@ -159,7 +159,7 @@ Pentru instalațiile din România, gama Tramec are sens la benzi transportoare, 
       "Prelucrarea lemnului și a marmurei — reductoare pentru avans și tăiere",
       "Zone cu risc de explozie — variante certificate ATEX",
     ],
-    infinitrade: `Ce scriem despre Tramec vine din surse publice ale producătorului, verificate direct pe site-ul companiei; nu dispunem de stoc propriu și nu deținem date interne despre disponibilitatea fiecărui model. Aducem reductoarele la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de raportul de reducere, cuplul de ieșire, tipul de montaj și, dacă e cazul, cerința ATEX. Stocul permanent nu e ceva ce putem asigura pentru variantele planetare de precizie, configurate de regulă la cerere.`,
+    infinitrade: `Ce scriem despre Tramec vine din surse publice ale producătorului, verificate direct pe site-ul companiei; nu dispunem de stoc propriu și nu deținem date interne despre disponibilitatea fiecărui model. Aducem reductoarele la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de raportul de reducere, cuplul de ieșire, tipul de montaj și, dacă e cazul, cerința ATEX. Stocul permanent nu e ceva ce putem asigura pentru variantele planetare de precizie, configurate de regulă la cerere.`,
     limitation: "Nu putem confirma termene de livrare pentru variantele ATEX cu configurație specială, care depind de disponibilitatea la fabrica din Italia.",
     productCodes: [
       {
@@ -292,7 +292,7 @@ Pentru România, Kinex are sens acolo unde se caută o soluție de înlocuire pe
     certifications: [
       "IRIS Certification — standard specific industriei feroviare",
     ],
-    infinitrade: `Facem oferta pe baza informațiilor publice disponibile pe site-ul Kinex, fără date proprii de stoc pentru codurile din gama lor de rulmenți. Aducem rulmenții la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă rapidă, clientul trebuie să ne trimită codul rulmentului existent sau dimensiunile exacte (diametru interior, exterior, lățime) și, dacă e relevant, aplicația feroviară sau industrială vizată. Nu promitem disponibilitate permanentă din stoc pentru dimensiunile mai puțin uzuale.`,
+    infinitrade: `Facem oferta pe baza informațiilor publice disponibile pe site-ul Kinex, fără date proprii de stoc pentru codurile din gama lor de rulmenți. Aducem rulmenții la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă rapidă, clientul trebuie să ne trimită codul rulmentului existent sau dimensiunile exacte (diametru interior, exterior, lățime) și, dacă e relevant, aplicația feroviară sau industrială vizată. Nu promitem disponibilitate permanentă din stoc pentru dimensiunile mai puțin uzuale.`,
     limitation: "Nu putem confirma disponibilitatea imediată a componentelor de inginerie fabricate la cerere pentru clienți OEM, care depind de programul de producție al fabricii.",
     productCodes: [
       {
@@ -387,7 +387,7 @@ Pentru România, Kinex are sens acolo unde se caută o soluție de înlocuire pe
       },
       {
         "q": "Livrați rulmenți Kinex în România?",
-        "a": "Da, rulmenții Kinex Bearings sunt aduși la comandă pornind de la gama publicată de producător, deoarece nu menținem un stoc propriu pentru această marcă. Termenul obișnuit este de aproximativ 2-4 săptămâni, în funcție de tipul rulmentului și de disponibilitatea dimensiunii solicitate. Recomandăm confirmarea diametrului interior exact înainte de comandă."
+        "a": "Da, rulmenții Kinex Bearings sunt aduși la comandă pornind de la gama publicată de producător, deoarece nu menținem un stoc propriu pentru această marcă. Termenul obișnuit este de aproximativ 1–4 săptămâni, în funcție de tipul rulmentului și de disponibilitatea dimensiunii solicitate. Recomandăm confirmarea diametrului interior exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de rulment Kinex?",
@@ -431,7 +431,7 @@ Pentru piața din România, gama Traco Power are sens la echipamente electronice
       "Energie solară — module de conversie pentru echipamente de monitorizare",
       "Electronice industriale — alimentare izolată pentru sisteme cu tensiuni multiple",
     ],
-    infinitrade: `Informațiile despre Traco Power din această pagină provin din surse publice ale producătorului; nu deținem date proprii de stoc pentru modulele din gama TSR, TMR, THM sau TEN. Aducem produsele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de tensiunea de intrare, tensiunea de ieșire, puterea sau curentul necesar și, dacă e cazul, cerința de izolare galvanică. Nu promitem disponibilitate permanentă din stoc pentru variantele cu tensiuni de intrare speciale.`,
+    infinitrade: `Informațiile despre Traco Power din această pagină provin din surse publice ale producătorului; nu deținem date proprii de stoc pentru modulele din gama TSR, TMR, THM sau TEN. Aducem produsele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de tensiunea de intrare, tensiunea de ieșire, puterea sau curentul necesar și, dacă e cazul, cerința de izolare galvanică. Nu promitem disponibilitate permanentă din stoc pentru variantele cu tensiuni de intrare speciale.`,
     limitation: "Nu putem confirma sediul exact al producătorului sau certificările tehnice complete ale fiecărei serii, informații care nu apar clar pe paginile accesate.",
     productCodes: [
       {
@@ -502,7 +502,7 @@ Pentru piața din România, gama Traco Power are sens la echipamente electronice
       },
       {
         "q": "Livrați convertizoare Traco Power în România?",
-        "a": "Convertizoarele și sursele Traco Power se procură direct de la producător, la comandă, într-un termen orientativ de 2–4 săptămâni, întrucât nu ținem pe raft o gamă atât de variată de puteri și tensiuni de intrare."
+        "a": "Convertizoarele și sursele Traco Power se procură direct de la producător, la comandă, într-un termen orientativ de 1–4 săptămâni, întrucât nu ținem pe raft o gamă atât de variată de puteri și tensiuni de intrare."
       },
       {
         "q": "Ce este modulul hibrid THM 10 din portofoliul Traco Power?",
@@ -551,7 +551,7 @@ Pentru România, igus are filială proprie (igus.ro) și are sens la roboți, ax
     certifications: [
       "ISO 9001:2015 — sistem de management al calității",
     ],
-    infinitrade: `Datele despre igus prezentate aici vin din surse publice ale producătorului și din filiala română a companiei; nu dispunem de stoc propriu pentru codurile din gamele chainflex, iglidur sau drylin. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru configurare corectă, clientul trebuie să ne trimită parametrii mecanici ai aplicației — cursă, sarcină, viteză, mediu de lucru — pentru ca sistemul indicat să corespundă solicitării reale. Nu promitem disponibilitate permanentă din stoc pentru toate lungimile și diametrele din catalog.`,
+    infinitrade: `Datele despre igus prezentate aici vin din surse publice ale producătorului și din filiala română a companiei; nu dispunem de stoc propriu pentru codurile din gamele chainflex, iglidur sau drylin. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru configurare corectă, clientul trebuie să ne trimită parametrii mecanici ai aplicației — cursă, sarcină, viteză, mediu de lucru — pentru ca sistemul indicat să corespundă solicitării reale. Nu promitem disponibilitate permanentă din stoc pentru toate lungimile și diametrele din catalog.`,
     limitation: "Nu putem confirma configurarea sistemelor de monitorizare digitală (senzori de uzură conectați) fără implicarea directă a igus.",
     productCodes: [
       {
@@ -606,7 +606,7 @@ Pentru România, igus are filială proprie (igus.ro) și are sens la roboți, ax
       },
       {
         "q": "Livrați produse Igus în România?",
-        "a": "Da, componentele Igus se aduc la comandă, pe baza cataloagelor publice ale producătorului, fără o gamă proprie păstrată în stoc. Termenul obișnuit este de 2-4 săptămâni, în funcție de familia de produs și de configurația exactă solicitată. Recomandăm confirmarea denumirii complete a seriei înainte de a plasa comanda."
+        "a": "Da, componentele Igus se aduc la comandă, pe baza cataloagelor publice ale producătorului, fără o gamă proprie păstrată în stoc. Termenul obișnuit este de 1–4 săptămâni, în funcție de familia de produs și de configurația exactă solicitată. Recomandăm confirmarea denumirii complete a seriei înainte de a plasa comanda."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de lanț port-cablu Igus?",
@@ -651,7 +651,7 @@ Pentru instalatorii și proiectanții din România, Riello are sens la înlocuir
       "Rezidențial colectiv — generatoare termice murale în condensare",
       "Retrofit termic — înlocuirea centralelor vechi cu soluții modulare",
     ],
-    infinitrade: `Nu deținem date proprii de stoc pentru arzătoarele și generatoarele termice Riello; informațiile din această pagină provin din site-ul producătorului, inclusiv secțiunea dedicată pieței din România. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil sau de instalație și cazanul pe care se montează arzătorul. Nu promitem disponibilitate permanentă din stoc pentru toate variantele din gama industrială.`,
+    infinitrade: `Nu deținem date proprii de stoc pentru arzătoarele și generatoarele termice Riello; informațiile din această pagină provin din site-ul producătorului, inclusiv secțiunea dedicată pieței din România. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil sau de instalație și cazanul pe care se montează arzătorul. Nu promitem disponibilitate permanentă din stoc pentru toate variantele din gama industrială.`,
     limitation: "Nu putem confirma punerea în funcțiune sau service-ul în garanția producătorului, care rămân în sarcina rețelei tehnice proprii Riello.",
     productCodes: [
       {
@@ -734,7 +734,7 @@ Pentru instalatorii și proiectanții din România, Riello are sens la înlocuir
       },
       {
         "q": "Livrați arzătoare Riello în România?",
-        "a": "Da, arzătoarele Riello vin la comandă, respectând gama publicată de producător, întrucât nu ținem această categorie de echipamente pe stoc propriu. De regulă durează 2-4 săptămâni, în funcție de puterea arzătorului și de combustibilul folosit (gaz, lichid sau mixt). Recomandăm confirmarea codului complet al modelului înainte de comandă."
+        "a": "Da, arzătoarele Riello vin la comandă, respectând gama publicată de producător, întrucât nu ținem această categorie de echipamente pe stoc propriu. De regulă durează 1–4 săptămâni, în funcție de puterea arzătorului și de combustibilul folosit (gaz, lichid sau mixt). Recomandăm confirmarea codului complet al modelului înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de arzător Riello?",
@@ -779,7 +779,7 @@ Pentru România, gama OKS are sens la mentenanța preventivă a utilajelor indus
       "Industria sticlei — lubrifianți rezistenți la temperaturi ridicate",
       "Construcții navale — protecție anticorozivă pentru componente metalice",
     ],
-    infinitrade: `Informația despre OKS din această pagină e disponibilă public pe site-ul producătorului și pe cel al echipei locale din România; nu dispunem de stoc propriu pentru codurile numerotate din gama de unsori sau paste. Ca la orice comandă din import, livrarea se face prin canale de aprovizionare din UE și durează în mod orientativ 2-4 săptămâni din momentul confirmării. Pentru o ofertă potrivită, clientul trebuie să ne spună componenta de lubrifiat, materialele în contact și intervalul de temperatură de lucru. Nu promitem disponibilitate permanentă din stoc pentru toate cele peste 150 de coduri din gamă.`,
+    infinitrade: `Informația despre OKS din această pagină e disponibilă public pe site-ul producătorului și pe cel al echipei locale din România; nu dispunem de stoc propriu pentru codurile numerotate din gama de unsori sau paste. Ca la orice comandă din import, livrarea se face prin canale de aprovizionare din UE și durează în mod orientativ 1–4 săptămâni din momentul confirmării. Pentru o ofertă potrivită, clientul trebuie să ne spună componenta de lubrifiat, materialele în contact și intervalul de temperatură de lucru. Nu promitem disponibilitate permanentă din stoc pentru toate cele peste 150 de coduri din gamă.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a fiecărui produs cu elastomeri sau plastice specifice fără fișa tehnică a produsului respectiv.",
     productCodes: [
       {
@@ -874,7 +874,7 @@ Pentru România, gama OKS are sens la mentenanța preventivă a utilajelor indus
       },
       {
         "q": "Livrați produse OKS Spezialschmierstoffe în România?",
-        "a": "Da, produsele OKS ajung la comandă, plecând de la gama publicată de producător, deoarece nu păstrăm această categorie de lubrifianți pe raft. Timpul necesar este de aproximativ 2-4 săptămâni, în funcție de produsul ales și de ambalajul solicitat (tub, cutie sau spray). Recomandăm confirmarea codului exact OKS înainte de comandă."
+        "a": "Da, produsele OKS ajung la comandă, plecând de la gama publicată de producător, deoarece nu păstrăm această categorie de lubrifianți pe raft. Timpul necesar este de aproximativ 1–4 săptămâni, în funcție de produsul ales și de ambalajul solicitat (tub, cutie sau spray). Recomandăm confirmarea codului exact OKS înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de lubrifiant OKS?",
@@ -919,7 +919,7 @@ Pentru România, gama Maxon are sens la echipamente de laborator, aparatură med
       "Robotică — acționări de precizie pentru brațe și module mobile",
       "Mobilitate electrică — componente pentru vehicule electrice mici",
     ],
-    infinitrade: `Prezentăm aici informații publice ale producătorului Maxon; nu deținem date proprii de stoc pentru motoarele DC, BLDC sau reductoarele din gama lor. Comanda ajunge prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 2-4 săptămâni până la livrare. Pentru o configurare corectă, clientul trebuie să ne transmită tensiunea de alimentare, turația și cuplul necesare, plus spațiul de montaj disponibil. Nu promitem disponibilitate permanentă din stoc pentru variantele de motor cu dimensiuni foarte mici, folosite frecvent în aplicații medicale.`,
+    infinitrade: `Prezentăm aici informații publice ale producătorului Maxon; nu deținem date proprii de stoc pentru motoarele DC, BLDC sau reductoarele din gama lor. Comanda ajunge prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni până la livrare. Pentru o configurare corectă, clientul trebuie să ne transmită tensiunea de alimentare, turația și cuplul necesare, plus spațiul de montaj disponibil. Nu promitem disponibilitate permanentă din stoc pentru variantele de motor cu dimensiuni foarte mici, folosite frecvent în aplicații medicale.`,
     limitation: "Nu putem confirma configurarea electronică a sistemelor de control asociate motoarelor BLDC fără specificațiile complete ale aplicației clientului.",
     productCodes: [
       {
@@ -982,7 +982,7 @@ Pentru România, gama Maxon are sens la echipamente de laborator, aparatură med
       },
       {
         "q": "Livrați motoare Maxon în România?",
-        "a": "Da, motoarele Maxon se aduc la comandă, în baza cataloagelor publice ale producătorului, fără un stoc propriu constituit pentru această marcă. Perioada obișnuită este de 2-4 săptămâni, în funcție de model și de eventualele opțiuni de encoder sau reductor atașate. Recomandăm confirmarea diametrului și a puterii exacte înainte de comandă."
+        "a": "Da, motoarele Maxon se aduc la comandă, în baza cataloagelor publice ale producătorului, fără un stoc propriu constituit pentru această marcă. Perioada obișnuită este de 1–4 săptămâni, în funcție de model și de eventualele opțiuni de encoder sau reductor atașate. Recomandăm confirmarea diametrului și a puterii exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de motor Maxon?",
@@ -1031,7 +1031,7 @@ Pentru România, gama Tyrolit are sens în construcții, industria auto și cea 
       "TÜV Austria — certificare de siguranță pentru scule abrazive rotative",
       "OSA — certificare de siguranță pentru discuri abrazive",
     ],
-    infinitrade: `Ce publicăm despre Tyrolit vine din surse publice ale producătorului; nu avem date proprii de stoc pentru discurile din seriile SECUR, CENTURIA, COLUMBIA sau CSS. Aducem discurile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne transmită diametrul discului, materialul procesat și mașina pe care se montează. Nu promitem disponibilitate permanentă din stoc pentru variantele de precizie cu nucleu CBN.`,
+    infinitrade: `Ce publicăm despre Tyrolit vine din surse publice ale producătorului; nu avem date proprii de stoc pentru discurile din seriile SECUR, CENTURIA, COLUMBIA sau CSS. Aducem discurile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne transmită diametrul discului, materialul procesat și mașina pe care se montează. Nu promitem disponibilitate permanentă din stoc pentru variantele de precizie cu nucleu CBN.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (turație maximă, grosime) pentru fiecare variantă de disc fără fișa tehnică specifică a codului comandat.",
     productCodes: [
       {
@@ -1118,7 +1118,7 @@ Pentru România, gama Tyrolit are sens în construcții, industria auto și cea 
       },
       {
         "q": "Livrați discuri Tyrolit în România?",
-        "a": "Da, discurile Tyrolit ajung la comandă, conform gamei publicate de producător, fără un stoc propriu menținut pentru această categorie. Termenul uzual este de 2-4 săptămâni, în funcție de dimensiunea discului și de tipul de liant solicitat. Recomandăm confirmarea dimensiunilor exacte (diametru, grosime, alezaj) înainte de comandă."
+        "a": "Da, discurile Tyrolit ajung la comandă, conform gamei publicate de producător, fără un stoc propriu menținut pentru această categorie. Termenul uzual este de 1–4 săptămâni, în funcție de dimensiunea discului și de tipul de liant solicitat. Recomandăm confirmarea dimensiunilor exacte (diametru, grosime, alezaj) înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de disc Tyrolit?",
@@ -1163,7 +1163,7 @@ Pentru România, gama Hioki are sens la laboratoare de metrologie electrică, me
       "Producție de electronice — inspecție plăci cu sondă mobilă",
       "Energie — monitorizare curent și tensiune în stații și substații",
     ],
-    infinitrade: `Datele despre Hioki din această pagină provin din surse publice ale producătorului; nu depăstrăm stoc propriu pentru instrumentele din gama lor de măsurare. Livrarea se organizează prin canale de aprovizionare din UE, iar termenul obișnuit până la sosirea comenzii e de 2-4 săptămâni. Pentru o ofertă potrivită, clientul trebuie să ne indice mărimea măsurată (curent, tensiune, izolație), plaja de măsurare necesară și dacă are nevoie de calibrare cu certificat. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din catalogul producătorului.`,
+    infinitrade: `Datele despre Hioki din această pagină provin din surse publice ale producătorului; nu depăstrăm stoc propriu pentru instrumentele din gama lor de măsurare. Livrarea se organizează prin canale de aprovizionare din UE, iar termenul obișnuit până la sosirea comenzii e de 1–4 săptămâni. Pentru o ofertă potrivită, clientul trebuie să ne indice mărimea măsurată (curent, tensiune, izolație), plaja de măsurare necesară și dacă are nevoie de calibrare cu certificat. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din catalogul producătorului.`,
     limitation: "Nu putem confirma calibrarea cu certificat acreditat RENAR pentru instrumentele Hioki, serviciu care depinde de laboratoare terțe specializate.",
     productCodes: [
       {
@@ -1238,7 +1238,7 @@ Pentru România, gama Hioki are sens la laboratoare de metrologie electrică, me
       },
       {
         "q": "Livrați instrumente Hioki în România?",
-        "a": "Da, instrumentele Hioki se aduc la comandă, pornind de la cataloagele publice ale producătorului, fără o gamă proprie ținută pe stoc. De regulă este nevoie de 2-4 săptămâni, în funcție de model și de accesoriile solicitate (sonde, cabluri sau software). Confirmați codul exact al modelului Hioki înainte de a comanda."
+        "a": "Da, instrumentele Hioki se aduc la comandă, pornind de la cataloagele publice ale producătorului, fără o gamă proprie ținută pe stoc. De regulă este nevoie de 1–4 săptămâni, în funcție de model și de accesoriile solicitate (sonde, cabluri sau software). Confirmați codul exact al modelului Hioki înainte de a comanda."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de instrument de măsură Hioki?",
@@ -1286,7 +1286,7 @@ Pentru România, gama Trafag are sens la echipamente hidraulice industriale, mat
     certifications: [
       "ISO 17025 — laborator de calibrare acreditat SCS",
     ],
-    infinitrade: `Ce publicăm despre Trafag e disponibil public pe site-ul producătorului; nu depăstrăm stoc propriu pentru senzorii din seriile de presiune, temperatură sau densitate gaz. Senzorii ajung la comandă printr-un lanț de aprovizionare din UE, iar termenul de așteptare orientativ e de 2-4 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită plaja de măsurare necesară, mediul de lucru și tipul de ieșire electrică dorit. Nu promitem disponibilitate permanentă din stoc pentru variantele feroviare sau pentru hidrogen, cu producție la cerere.`,
+    infinitrade: `Ce publicăm despre Trafag e disponibil public pe site-ul producătorului; nu depăstrăm stoc propriu pentru senzorii din seriile de presiune, temperatură sau densitate gaz. Senzorii ajung la comandă printr-un lanț de aprovizionare din UE, iar termenul de așteptare orientativ e de 1–4 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită plaja de măsurare necesară, mediul de lucru și tipul de ieșire electrică dorit. Nu promitem disponibilitate permanentă din stoc pentru variantele feroviare sau pentru hidrogen, cu producție la cerere.`,
     limitation: "Nu putem confirma anul fondării companiei sau numărul exact de angajați, informații care nu apar clar pe paginile accesate.",
     productCodes: [
       {
@@ -1418,7 +1418,7 @@ Pentru România, gama Hach are sens la stații de tratare a apei potabile și uz
       "Industria farmaceutică — analiza apei folosite în producție",
       "Energie și petrochimie — monitorizare parametri de proces",
     ],
-    infinitrade: `Informațiile despre Hach din această pagină vin din surse publice ale producătorului; nu avem date proprii de stoc pentru instrumentele sau reactivii din gama lor. Instrumentele și reactivii ajung la noi prin canale de aprovizionare din UE, cu un termen de așteptare orientativ de 2-4 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită parametrii de analizat, plaja de concentrație așteptată și dacă are nevoie de monitorizare on-line sau doar de instrument de laborator. Nu promitem disponibilitate permanentă din stoc pentru reactivii cu termen de valabilitate limitat.`,
+    infinitrade: `Informațiile despre Hach din această pagină vin din surse publice ale producătorului; nu avem date proprii de stoc pentru instrumentele sau reactivii din gama lor. Instrumentele și reactivii ajung la noi prin canale de aprovizionare din UE, cu un termen de așteptare orientativ de 1–4 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită parametrii de analizat, plaja de concentrație așteptată și dacă are nevoie de monitorizare on-line sau doar de instrument de laborator. Nu promitem disponibilitate permanentă din stoc pentru reactivii cu termen de valabilitate limitat.`,
     limitation: "Nu putem confirma disponibilitatea imediată a reactivilor TNTPlus cu termen de valabilitate scurt, care depinde de rotația stocului la nivel european.",
     productCodes: [
       {
@@ -1497,7 +1497,7 @@ Pentru România, gama Hach are sens la stații de tratare a apei potabile și uz
       },
       {
         "q": "Livrați instrumente Hach în România?",
-        "a": "Da, instrumentele Hach ajung la comandă, conform gamei publicate de producător, fără o rezervă proprie păstrată pe stoc pentru această marcă. Timpul obișnuit este de 2-4 săptămâni, în funcție de model și de electrozii sau senzorii solicitați suplimentar. Recomandăm confirmarea codului exact al modelului înainte de a trimite comanda."
+        "a": "Da, instrumentele Hach ajung la comandă, conform gamei publicate de producător, fără o rezervă proprie păstrată pe stoc pentru această marcă. Timpul obișnuit este de 1–4 săptămâni, în funcție de model și de electrozii sau senzorii solicitați suplimentar. Recomandăm confirmarea codului exact al modelului înainte de a trimite comanda."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de instrument Hach?",

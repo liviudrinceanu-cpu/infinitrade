@@ -28,7 +28,7 @@ Pentru un inginer de mentenanță din România, gama Hansford acoperă atât ret
       "Petrol și gaze — variante intrinsec sigure pentru zone clasificate",
       "Industria alimentară — puncte de măsură cu acces redus și cerințe de igienă"
     ],
-    infinitrade: `Furnizăm senzori de vibrații Hansford pentru puncte de măsură fixe pe lagăre, ventilatoare și pompe, în variante standard sau intrinsec sigure. Lucrăm doar cu informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pe cod: nu ținem această gamă pe raft, aducem senzorii la comandă prin canale de aprovizionare din Marea Britanie, cu termen orientativ de 2-4 săptămâni în funcție de configurația exactă cerută. Pentru o ofertă corectă, avem nevoie de codul complet dorit (montaj, ieșire, conector) sau de aplicația exactă și tipul de automatizare la care se conectează senzorul. Nu promitem un termen fix înainte de confirmarea producătorului pentru configurația specifică.`,
+    infinitrade: `Furnizăm senzori de vibrații Hansford pentru puncte de măsură fixe pe lagăre, ventilatoare și pompe, în variante standard sau intrinsec sigure. Lucrăm doar cu informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pe cod: nu ținem această gamă pe raft, aducem senzorii la comandă prin canale de aprovizionare din Marea Britanie, cu termen orientativ de 1–4 săptămâni în funcție de configurația exactă cerută. Pentru o ofertă corectă, avem nevoie de codul complet dorit (montaj, ieșire, conector) sau de aplicația exactă și tipul de automatizare la care se conectează senzorul. Nu promitem un termen fix înainte de confirmarea producătorului pentru configurația specifică.`,
     limitation: "Nu putem confirma parametrii de sensibilitate sau gama de frecvență pentru fiecare variantă de conector, deoarece nu apar detaliați pe paginile publice consultate.",
     productCodes: [
       { code: "HS-420", description: "Accelerometru cu ieșire 4-20mA, montaj în vârf" },
@@ -50,7 +50,7 @@ Pentru un inginer de mentenanță din România, gama Hansford acoperă atât ret
     faq: [
       { q: "Ce măsoară un accelerometru Hansford Sensors seria HS-420?", a: "Măsoară viteza de vibrație a unui echipament rotativ și o transmite ca semnal standard 4-20mA către un PLC sau sistem SCADA. Montat pe lagărul unui ventilator, motor sau pompă, semnalul crește pe măsură ce apare un defect mecanic, ceea ce permite programarea unei intervenții de mentenanță înainte de o oprire neplanificată." },
       { q: "Care e diferența dintre seria HS-420 și seria HS-421?", a: "HS-420 transmite doar semnalul de viteză pe buclă 4-20mA, util pentru alarmare simplă în automatizare. HS-421 adaugă și semnalul brut de accelerație AC, care poate fi analizat spectral cu un colector de date pentru a identifica exact tipul de defect — dezechilibru, dezaliniere sau uzură de rulment." },
-      { q: "Livrați senzori Hansford Sensors în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Marea Britanie. Termenul orientativ este 2-4 săptămâni, în funcție de configurația exactă (montaj, ieșire, conector) și de disponibilitatea confirmată de producător; nu ținem această gamă pe raft." },
+      { q: "Livrați senzori Hansford Sensors în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Marea Britanie. Termenul orientativ este 1–4 săptămâni, în funcție de configurația exactă (montaj, ieșire, conector) și de disponibilitatea confirmată de producător; nu ținem această gamă pe raft." },
       { q: "Ce trebuie să trimit pentru o ofertă de accelerometre Hansford?", a: "Codul complet dorit sau, dacă nu îl cunoști, tipul de montaj disponibil pe echipament, ieșirea necesară (viteză, dublă sau cu temperatură) și dacă zona este clasificată ca fiind cu risc de explozie. Cu aceste date verificăm configurația potrivită direct la producător." }
     ],
     evidenceClass: "market-signal-intl",
@@ -89,7 +89,7 @@ Pentru echipe de mentenanță și HSE din România, gama Industrial Scientific o
       "Chimie — supraveghere continuă a zonelor cu risc de scurgeri",
       "Semiconductori — monitorizare de zonă cu Radius BZ1"
     ],
-    infinitrade: `Aducem detectoare de gaze Industrial Scientific la comandă, prin canale de aprovizionare din SUA sau din rețeaua europeană a producătorului. Spunem clar ce putem și ce nu putem confirma: parametrii de precizie și timpii de răspuns pentru fiecare senzor sunt cei publicați de producător, fără măsurători proprii. Termenul orientativ de livrare este 2-4 săptămâni de la comandă, în funcție de configurația de senzori aleasă; nu promitem disponibilitate din stoc pentru un model anume. Pentru ofertă, avem nevoie de numărul de gaze și tipul lor, dacă e nevoie de senzor PID și dacă doriți conectare la o platformă software de flotă.`,
+    infinitrade: `Aducem detectoare de gaze Industrial Scientific la comandă, prin canale de aprovizionare din SUA sau din rețeaua europeană a producătorului. Spunem clar ce putem și ce nu putem confirma: parametrii de precizie și timpii de răspuns pentru fiecare senzor sunt cei publicați de producător, fără măsurători proprii. Termenul orientativ de livrare este 1–4 săptămâni de la comandă, în funcție de configurația de senzori aleasă; nu promitem disponibilitate din stoc pentru un model anume. Pentru ofertă, avem nevoie de numărul de gaze și tipul lor, dacă e nevoie de senzor PID și dacă doriți conectare la o platformă software de flotă.`,
     limitation: "Nu putem confirma disponibilitatea locală a service-ului de calibrare al producătorului pentru România; calibrările curente rămân responsabilitatea utilizatorului sau a unui laborator acreditat.",
     productCodes: [
       { code: "Tectra iX5", description: "Monitor personal multi-gaz, până la cinci senzori" },
@@ -108,7 +108,7 @@ Pentru echipe de mentenanță și HSE din România, gama Industrial Scientific o
     faq: [
       { q: "Ce produce Industrial Scientific?", a: "Detectoare de gaze portabile, de la monitoare single-gaz până la modele configurabile cu șase senzori simultan, plus platforme software care centralizează datele de la toată flota de aparate dintr-o companie și trimit alerte în caz de eveniment." },
       { q: "Câte gaze poate monitoriza simultan un MX6 iBrid Industrial Scientific?", a: "Până la șase senzori simultan, inclusiv opțiunea de senzor PID pentru compuși organici volatili, alături de senzorii standard pentru gaze combustibile, oxigen, monoxid de carbon și hidrogen sulfurat. Configurația exactă se alege în funcție de riscurile identificate la locul de muncă." },
-      { q: "Livrați detectoare Industrial Scientific în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA sau din rețeaua europeană a producătorului. Termenul orientativ este 2-4 săptămâni, în funcție de configurația de senzori solicitată; nu promitem stoc cu disponibilitate din depozit pentru un model anume." },
+      { q: "Livrați detectoare Industrial Scientific în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA sau din rețeaua europeană a producătorului. Termenul orientativ este 1–4 săptămâni, în funcție de configurația de senzori solicitată; nu promitem stoc cu disponibilitate din depozit pentru un model anume." },
       { q: "Ce trebuie să trimit pentru o ofertă de monitoare de gaze?", a: "Numărul și tipul gazelor de detectat, dacă activitatea implică spații confinate sau doar puncte fixe de lucru, și dacă vreți conectare la o platformă software pentru urmărirea calibrărilor și a evenimentelor înregistrate de fiecare aparat." }
     ],
     evidenceClass: "market-signal-intl",
@@ -146,7 +146,7 @@ Pentru integratori din România, Kathrein oferă o alternativă tehnică la mari
       "Transport și trafic — identificare vehicule cu sisteme ITS",
       "Sănătate — trasabilitatea echipamentelor și a consumabilelor"
     ],
-    infinitrade: `Furnizăm cititoare și antene Kathrein pentru proiecte de identificare RFID în logistică și producție. Nu avem date proprii despre stocul producătorului pe fiecare model: informațiile despre disponibilitate vin direct din confirmarea Kathrein la momentul comenzii. Aducem echipamentele la comandă prin canalele europene ale producătorului, cu termen orientativ de 2-4 săptămâni; nu promitem disponibilitate din depozit pentru variantele Gen4 de vârf. Pentru ofertă, e nevoie de tipul de instalație (poartă, linie, punct fix), dacă preferați antenă integrată sau separată și dacă e necesară conectivitate wireless suplimentară.`,
+    infinitrade: `Furnizăm cititoare și antene Kathrein pentru proiecte de identificare RFID în logistică și producție. Nu avem date proprii despre stocul producătorului pe fiecare model: informațiile despre disponibilitate vin direct din confirmarea Kathrein la momentul comenzii. Aducem echipamentele la comandă prin canalele europene ale producătorului, cu termen orientativ de 1–4 săptămâni; nu promitem disponibilitate din depozit pentru variantele Gen4 de vârf. Pentru ofertă, e nevoie de tipul de instalație (poartă, linie, punct fix), dacă preferați antenă integrată sau separată și dacă e necesară conectivitate wireless suplimentară.`,
     limitation: "Nu putem confirma frecvențele exacte de operare sau distanța de citire pentru fiecare model, deoarece paginile publice consultate nu detaliază acești parametri per variantă.",
     productCodes: [
       { code: "ARU 3500 Gen4", description: "Cititor cu antenă integrată, Linux, protecție IP68" },
@@ -165,7 +165,7 @@ Pentru integratori din România, Kathrein oferă o alternativă tehnică la mari
     faq: [
       { q: "Ce produce Kathrein Solutions?", a: "Hardware RFID industrial: cititoare staționare cu sau fără antenă integrată, antene UHF și transpondere, folosite pentru identificarea și trasabilitatea produselor pe linii de producție sau în depozite logistice." },
       { q: "Care e diferența dintre seria ARU și seria RRU de la Kathrein?", a: "ARU are antena integrată în corpul cititorului, gata de instalat pe o poartă fără cablaj suplimentar. RRU nu include antenă și se folosește atunci când antenele UHF trebuie poziționate separat, de exemplu pe mai multe puncte ale unei linii conectate la un singur cititor central." },
-      { q: "Livrați cititoare Kathrein Solutions în România și cât durează?", a: "Da, la comandă, prin canalele europene ale producătorului german. Termenul orientativ este 2-4 săptămâni, în funcție de modelul și configurația solicitate; nu avem raft propriu pentru variantele Gen4." },
+      { q: "Livrați cititoare Kathrein Solutions în România și cât durează?", a: "Da, la comandă, prin canalele europene ale producătorului german. Termenul orientativ este 1–4 săptămâni, în funcție de modelul și configurația solicitate; nu avem raft propriu pentru variantele Gen4." },
       { q: "Ce trebuie să trimit pentru o ofertă de echipamente RFID Kathrein?", a: "Tipul de instalație vizat (poartă de citire, linie de producție, punct fix), dacă preferați cititor cu antenă integrată sau separată, și dacă aveți nevoie de conectivitate wireless suplimentară (BLE, Wi-Fi, GNSS) pentru integrare în sistemul existent." }
     ],
     evidenceClass: "market-signal-intl",
@@ -204,7 +204,7 @@ Pentru rafinării, platforme și centrale din România, gama Metrix acoperă at�
       "Energie — protecția turbinelor cu gaz și a generatoarelor din centrale",
       "Tratarea apei — monitorizarea pompelor mari de proces"
     ],
-    infinitrade: `Furnizăm sisteme de proximitate și monitorizare a vibrațiilor Metrix pentru turbine, compresoare și pompe critice. Sursele noastre sunt paginile publice ale producătorului, fără cifre proprii de disponibilitate pe fiecare cod de sistem. Aducem echipamentele la comandă din SUA, cu termen orientativ de 2-4 săptămâni în funcție de configurația de senzor, cablu și driver aleasă; nu promitem stoc pentru variantele mai puțin cerute. Pentru o ofertă corectă, avem nevoie de tipul de măsurătoare dorit (proximitate sau seismic), lungimea traseului de cablu și dacă sistemul trebuie să îndeplinească cerințe API 670 sau SIL 2.`,
+    infinitrade: `Furnizăm sisteme de proximitate și monitorizare a vibrațiilor Metrix pentru turbine, compresoare și pompe critice. Sursele noastre sunt paginile publice ale producătorului, fără cifre proprii de disponibilitate pe fiecare cod de sistem. Aducem echipamentele la comandă din SUA, cu termen orientativ de 1–4 săptămâni în funcție de configurația de senzor, cablu și driver aleasă; nu promitem stoc pentru variantele mai puțin cerute. Pentru o ofertă corectă, avem nevoie de tipul de măsurătoare dorit (proximitate sau seismic), lungimea traseului de cablu și dacă sistemul trebuie să îndeplinească cerințe API 670 sau SIL 2.`,
     limitation: "Nu putem confirma compatibilitatea directă cu sisteme de protecție ale altor producători instalate anterior; fiecare integrare se verifică separat la ofertare.",
     productCodes: [
       { code: "MX2033", description: "Sistem de proximitate pentru monitorizarea deplasării arborelui" },
@@ -231,7 +231,7 @@ Pentru rafinării, platforme și centrale din România, gama Metrix acoperă at�
     faq: [
       { q: "Ce este un sistem de proximitate Metrix Instrument?", a: "Un set format din senzor de proximitate, cablu de extensie și driver, care măsoară direct deplasarea arborelui unei mașini rotative față de lagăr. Este metoda de referință conform API 670 pentru protecția turbinelor, compresoarelor și pompelor mari din petrochimie și energie." },
       { q: "Ce diferență e între senzorii de proximitate și cei seismici Metrix?", a: "Senzorul de proximitate măsoară deplasarea relativă a arborelui față de lagăr, în timp ce senzorul seismic (accelerometru sau senzor de viteză) montat pe carcasă măsoară vibrația absolută a structurii. Multe sisteme de protecție critică folosesc ambele tipuri pentru o imagine completă a stării mașinii." },
-      { q: "Livrați echipamente Metrix Instrument în România și cât durează?", a: "Da, la comandă, din SUA. Termenul orientativ este 2-4 săptămâni, în funcție de configurația de senzor, cablu și driver solicitată; nu promitem disponibilitate din stoc pentru toate variantele de lungime de cablu." },
+      { q: "Livrați echipamente Metrix Instrument în România și cât durează?", a: "Da, la comandă, din SUA. Termenul orientativ este 1–4 săptămâni, în funcție de configurația de senzor, cablu și driver solicitată; nu promitem disponibilitate din stoc pentru toate variantele de lungime de cablu." },
       { q: "Ce trebuie să trimit pentru o ofertă de sisteme Metrix?", a: "Tipul de măsurătoare necesar (proximitate sau seismic), lungimea traseului de cablu între senzor și driver, tipul de mașină protejată și dacă aplicația trebuie să respecte API 670 sau un nivel SIL anume." }
     ],
     evidenceClass: "market-signal-intl",
@@ -271,7 +271,7 @@ Pentru achizitori din România, gama NOSHOK oferă o alternativă de instrumenta
       "Naval — manometre și traductoare rezistente la vibrații și umiditate",
       "Construcții și echipamente mobile — comutatoare de presiune pentru hidraulică"
     ],
-    infinitrade: `Furnizăm instrumentație de presiune, nivel și temperatură NOSHOK pentru instalații de proces. Nu avem raft propriu pe fiecare serie și variantă: aducem produsele la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 2-4 săptămâni în funcție de codul exact solicitat. Ce putem și ce nu putem confirma ține de sursele publice ale producătorului — cataloagele digitale enumeră seriile și domeniile de presiune, dar disponibilitatea reală se verifică la fiecare comandă. Pentru ofertă, trimiteți seria dorită sau, dacă nu o cunoașteți, domeniul de presiune, mediul de lucru și dacă zona este clasificată ca fiind cu risc de explozie.`,
+    infinitrade: `Furnizăm instrumentație de presiune, nivel și temperatură NOSHOK pentru instalații de proces. Nu avem raft propriu pe fiecare serie și variantă: aducem produsele la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni în funcție de codul exact solicitat. Ce putem și ce nu putem confirma ține de sursele publice ale producătorului — cataloagele digitale enumeră seriile și domeniile de presiune, dar disponibilitatea reală se verifică la fiecare comandă. Pentru ofertă, trimiteți seria dorită sau, dacă nu o cunoașteți, domeniul de presiune, mediul de lucru și dacă zona este clasificată ca fiind cu risc de explozie.`,
     limitation: "Nu putem confirma toleranțele de precizie exacte pentru fiecare serie fără a consulta fișa tehnică individuală a codului ales; le verificăm punctual la cererea de ofertă.",
     productCodes: [
       { code: "Series 100", description: "Manometru cu carcasă ABS sau oțel, uz uscat" },
@@ -300,7 +300,7 @@ Pentru achizitori din România, gama NOSHOK oferă o alternativă de instrumenta
     faq: [
       { q: "Ce produce NOSHOK?", a: "Instrumente de măsurare pentru procese industriale: manometre indicatoare, traductoare și transmițătoare de presiune, comutatoare, transmițătoare de nivel, termometre bimetal, RTD-uri și valvele necesare instalării lor, organizate pe familii numerotate în funcție de domeniul de presiune sau tipul constructiv." },
       { q: "Cum aleg seria potrivită de manometru NOSHOK?", a: "În funcție de mediul de lucru și de prezența vibrațiilor: seriile umplute cu lichid (300, 400/500, 900) amortizează vibrațiile și protejează mecanismul, în timp ce seriile uscate (100, 200) sunt suficiente pentru instalații statice. Pentru medii corozive alegeți varianta integral inox, iar pentru presiuni foarte mari, seriile 402/502." },
-      { q: "Livrați instrumente NOSHOK în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA. Termenul orientativ este 2-4 săptămâni, în funcție de seria și codul exact solicitate; nu promitem disponibilitate din stoc pentru toate variantele constructive." },
+      { q: "Livrați instrumente NOSHOK în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA. Termenul orientativ este 1–4 săptămâni, în funcție de seria și codul exact solicitate; nu promitem disponibilitate din stoc pentru toate variantele constructive." },
       { q: "Ce trebuie să trimit pentru o ofertă de instrumentație NOSHOK?", a: "Seria dorită, dacă o cunoașteți, sau domeniul de presiune/nivel necesar, mediul de lucru (curat, coroziv, cu vibrații), tipul de conexiune procesuală și dacă instalația se află într-o zonă clasificată ca fiind cu risc de explozie." }
     ],
     evidenceClass: "market-signal-intl",
@@ -340,7 +340,7 @@ Pentru operatori din România care gestionează stații de gaze, platforme indus
       "Chimie — rețele de senzori fixe pentru zone de depozitare",
       "Semiconductori — detector specializat pe bandă de hârtie FPM-80A"
     ],
-    infinitrade: `Furnizăm detectoare de gaze RKI Instruments, portabile și fixe, pentru instalații industriale și platforme. Nu ținem produse pe stoc propriu pentru fiecare configurație: aducem echipamentele la comandă din SUA, cu termen orientativ de 2-4 săptămâni în funcție de modelul și numărul de senzori solicitate. Informațiile despre gamă vin din sursele publice ale producătorului; disponibilitatea reală a fiecărui cod se confirmă la comandă. Pentru ofertă, trimiteți tipul de aplicație (portabil sau fix), gazele de detectat și, pentru sisteme fixe, numărul aproximativ de puncte de monitorizare necesare.`,
+    infinitrade: `Furnizăm detectoare de gaze RKI Instruments, portabile și fixe, pentru instalații industriale și platforme. Nu ținem produse pe stoc propriu pentru fiecare configurație: aducem echipamentele la comandă din SUA, cu termen orientativ de 1–4 săptămâni în funcție de modelul și numărul de senzori solicitate. Informațiile despre gamă vin din sursele publice ale producătorului; disponibilitatea reală a fiecărui cod se confirmă la comandă. Pentru ofertă, trimiteți tipul de aplicație (portabil sau fix), gazele de detectat și, pentru sisteme fixe, numărul aproximativ de puncte de monitorizare necesare.`,
     limitation: "Nu putem confirma compatibilitatea directă a controlerelor Beacon cu senzori de la alți producători instalați anterior în aceeași rețea.",
     productCodes: [
       { code: "GX-3R", description: "Detector portabil multi-gaz, model compact" },
@@ -367,7 +367,7 @@ Pentru operatori din România care gestionează stații de gaze, platforme indus
     faq: [
       { q: "Ce produce RKI Instruments?", a: "Detectoare de gaze portabile și fixe, de la monitoare personale simple până la sisteme complexe cu controlere de până la 32 de canale, senzori wireless și produse specializate precum calorimetre de gaz sau detectoare pentru industria semiconductorilor." },
       { q: "Ce senzor are RKI Instruments pentru compuși organici volatili?", a: "Modelul GX-6100 poate fi configurat cu senzor PID pentru detecția compușilor organici volatili, alături de senzorii standard pentru gaze combustibile, oxigen, monoxid de carbon și hidrogen sulfurat, util atunci când tipul exact de contaminant nu este cunoscut dinainte de intervenție." },
-      { q: "Livrați detectoare RKI Instruments în România și cât durează?", a: "Da, la comandă, din SUA. Termenul orientativ este 2-4 săptămâni, în funcție de model și de numărul de senzori sau canale solicitate; nu avem raft propriu pentru configurațiile mai puțin cerute." },
+      { q: "Livrați detectoare RKI Instruments în România și cât durează?", a: "Da, la comandă, din SUA. Termenul orientativ este 1–4 săptămâni, în funcție de model și de numărul de senzori sau canale solicitate; nu avem raft propriu pentru configurațiile mai puțin cerute." },
       { q: "Ce trebuie să trimit pentru o ofertă de detectoare RKI?", a: "Dacă e vorba de un monitor portabil sau un sistem fix, gazele exacte de detectat, și pentru sisteme fixe numărul aproximativ de puncte de monitorizare necesare, ca să recomandăm controllerul și capetele de detecție potrivite." }
     ],
     evidenceClass: "market-signal-intl",
@@ -408,7 +408,7 @@ Pentru laboratoare de igienă industrială și instalații din România, gama Se
       "Tratarea apelor uzate — detecție fixă a gazelor toxice",
       "Energie — monitorizare aer în centrale și stații"
     ],
-    infinitrade: `Aducem echipamente Sensidyne — pompe Gilian de eșantionare aer și sisteme fixe de detecție a gazelor — la comandă din SUA. Fără date proprii de stoc pe fiecare model: disponibilitatea reală se confirmă direct la producător în momentul comenzii. Termenul orientativ este 2-4 săptămâni, în funcție de configurația exactă (tip pompă, debit, senzor de detecție). Pentru ofertă, avem nevoie de aplicația exactă — eșantionare personală, de zonă sau detecție fixă — și de tipul de contaminant sau gaz vizat, ca să recomandăm modelul potrivit.`,
+    infinitrade: `Aducem echipamente Sensidyne — pompe Gilian de eșantionare aer și sisteme fixe de detecție a gazelor — la comandă din SUA. Fără date proprii de stoc pe fiecare model: disponibilitatea reală se confirmă direct la producător în momentul comenzii. Termenul orientativ este 1–4 săptămâni, în funcție de configurația exactă (tip pompă, debit, senzor de detecție). Pentru ofertă, avem nevoie de aplicația exactă — eșantionare personală, de zonă sau detecție fixă — și de tipul de contaminant sau gaz vizat, ca să recomandăm modelul potrivit.`,
     limitation: "Nu putem confirma disponibilitatea locală a serviciului de calibrare acreditat al producătorului pentru România; calibrările periodice rămân responsabilitatea utilizatorului sau a unui laborator local.",
     productCodes: [
       { code: "Gilian LFS Pro", description: "Pompă personală de eșantionare aer, debit redus" },
@@ -432,7 +432,7 @@ Pentru laboratoare de igienă industrială și instalații din România, gama Se
     faq: [
       { q: "Ce produce Sensidyne?", a: "Pompe personale și de zonă pentru eșantionarea aerului la locul de muncă (gama Gilian) și sisteme fixe de detecție a gazelor pentru instalații industriale, plus sisteme cu tuburi colorimetrice pentru verificări punctuale rapide." },
       { q: "Care e diferența dintre GilAir-3 și GilAir-5 de la Sensidyne?", a: "Ambele sunt pompe personale de eșantionare aer purtate de un lucrător pe durata schimbului, dar acoperă debite diferite de aspirație, alese în funcție de mediul de colectare (filtru sau tub) și de standardul de măsurare aplicat pentru contaminantul vizat." },
-      { q: "Livrați echipamente Sensidyne în România și cât durează?", a: "Da, la comandă, din SUA. Termenul orientativ este 2-4 săptămâni, în funcție de tipul de pompă sau sistem de detecție solicitat; nu promitem disponibilitate din stoc pentru toate modelele." },
+      { q: "Livrați echipamente Sensidyne în România și cât durează?", a: "Da, la comandă, din SUA. Termenul orientativ este 1–4 săptămâni, în funcție de tipul de pompă sau sistem de detecție solicitat; nu promitem disponibilitate din stoc pentru toate modelele." },
       { q: "Ce trebuie să trimit pentru o ofertă de echipamente de eșantionare aer sau detecție gaze?", a: "Aplicația exactă — monitorizare personală, de zonă sau detecție fixă — tipul de contaminant sau gaz vizat, și pentru sisteme fixe numărul aproximativ de puncte de detecție necesare în instalație." }
     ],
     evidenceClass: "market-signal-intl",
@@ -472,7 +472,7 @@ Pentru instalatori și dezvoltatori din România, gama Walrus oferă o alternati
       "Centre de date — sisteme de răcire cu circulație de apă",
       "Energie regenerabilă — circulație de fluid în instalații conexe"
     ],
-    infinitrade: `Furnizăm pompe Walrus pentru presurizare, distribuție de apă și sisteme de răcire, aduse la comandă din Taiwan. Nu ținem această gamă pe raft propriu: informațiile despre disponibilitate vin din sursele publice ale producătorului, iar termenul confirmat depinde de configurația exactă cerută — orientativ 2-4 săptămâni de la comandă. Pentru ofertă, trimiteți debitul și înălțimea de refulare necesare, tipul instalației (orizontală, verticală, submersibilă) și dacă aveți nevoie de sistem cu inverter pentru presiune constantă.`,
+    infinitrade: `Furnizăm pompe Walrus pentru presurizare, distribuție de apă și sisteme de răcire, aduse la comandă din Taiwan. Nu ținem această gamă pe raft propriu: informațiile despre disponibilitate vin din sursele publice ale producătorului, iar termenul confirmat depinde de configurația exactă cerută — orientativ 1–4 săptămâni de la comandă. Pentru ofertă, trimiteți debitul și înălțimea de refulare necesare, tipul instalației (orizontală, verticală, submersibilă) și dacă aveți nevoie de sistem cu inverter pentru presiune constantă.`,
     limitation: "Nu putem confirma disponibilitatea pieselor de schimb sau a service-ului local pentru gama Walrus în România; verificăm această informație separat pentru fiecare proiect.",
     productCodes: [
       { code: "Seria TP8", description: "Pompă centrifugă orizontală de uz general" },
@@ -494,7 +494,7 @@ Pentru instalatori și dezvoltatori din România, gama Walrus oferă o alternati
     faq: [
       { q: "Ce produce Walrus Pump?", a: "Pompe de apă pentru presurizare și distribuție: pompe centrifuge orizontale, verticale și submersibile, sisteme cu inverter pentru presiune constantă și, mai nou, soluții pentru răcirea centrelor de date, produse de un fabricant taiwanez fondat în 1967." },
       { q: "Ce face un sistem Walrus cu inverter pentru presiune constantă?", a: "Ajustează automat turația pompei pentru a menține o presiune fixă în rețeaua de apă, indiferent câte puncte de consum sunt active simultan. Reduce șocurile de presiune și consumul de energie față de o pompă pornită și oprită clasic printr-un presostat." },
-      { q: "Livrați pompe Walrus Pump în România și cât durează?", a: "Da, la comandă, din Taiwan. Termenul orientativ este 2-4 săptămâni, în funcție de seria și configurația exactă solicitate; nu ținem pompele Walrus pe raft, ci le aducem la cerere." },
+      { q: "Livrați pompe Walrus Pump în România și cât durează?", a: "Da, la comandă, din Taiwan. Termenul orientativ este 1–4 săptămâni, în funcție de seria și configurația exactă solicitate; nu ținem pompele Walrus pe raft, ci le aducem la cerere." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompe Walrus?", a: "Debitul necesar, înălțimea de refulare dorită, tipul instalației (orizontală, verticală sau submersibilă) și dacă doriți un sistem cu inverter pentru presiune constantă în locul unei pompe simple cu presostat." }
     ],
     evidenceClass: "market-signal-intl",
@@ -535,7 +535,7 @@ Pentru șantiere, stații de epurare și instalații industriale din România, g
       "Agricultură și acvacultură — circulație și evacuare apă din bazine",
       "Marină — pompe submersibile rezistente la apă sărată"
     ],
-    infinitrade: `Aducem pompe submersibile HCP la comandă din Taiwan, pentru drenaj, epuismente și aplicații cu conținut solid sau în zone clasificate. Fără date proprii de stoc pe fiecare serie: disponibilitatea reală se confirmă la producător în momentul comenzii, cu termen orientativ de 2-4 săptămâni. Pentru ofertă, avem nevoie de debitul și înălțimea de refulare necesare, tipul apei pompate (curată, cu solide, agresivă) și dacă instalația se află într-o zonă cu risc de explozie care ar impune varianta Ex.`,
+    infinitrade: `Aducem pompe submersibile HCP la comandă din Taiwan, pentru drenaj, epuismente și aplicații cu conținut solid sau în zone clasificate. Fără date proprii de stoc pe fiecare serie: disponibilitatea reală se confirmă la producător în momentul comenzii, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, avem nevoie de debitul și înălțimea de refulare necesare, tipul apei pompate (curată, cu solide, agresivă) și dacă instalația se află într-o zonă cu risc de explozie care ar impune varianta Ex.`,
     limitation: "Nu putem confirma parametrii exacți de debit și înălțime de refulare pentru fiecare model din cadrul unei serii fără a consulta fișa tehnică individuală la cererea de ofertă.",
     productCodes: [
       { code: "Seria AF", description: "Pompă submersibilă cu evacuare laterală pentru drenaj" },
@@ -562,7 +562,7 @@ Pentru șantiere, stații de epurare și instalații industriale din România, g
     faq: [
       { q: "Ce produce HCP Pumps?", a: "Pompe submersibile pentru drenaj, ape uzate, epuismente de șantier și aplicații industriale sau marine, organizate în peste 20 de serii identificate prin cod de literă, de la modele compacte de mici dimensiuni până la pompe de mare capacitate cu tăietor." },
       { q: "Ce diferență e între seria FN și seria AF de la HCP?", a: "Seria FN include un mecanism de tăiere care macină solidele din apele uzate înainte de evacuare, util pentru conducte cu diametru redus predispuse la înfundare. Seria AF are evacuare laterală standard, fără tăietor, potrivită pentru ape mai curate din excavații sau subsoluri inundate." },
-      { q: "Livrați pompe HCP Pumps în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Taiwan. Termenul orientativ este 2-4 săptămâni, în funcție de seria și configurația exactă solicitate; nu ținem această gamă pe raft și nu promitem disponibilitate imediată pentru toate modelele din catalog." },
+      { q: "Livrați pompe HCP Pumps în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Taiwan. Termenul orientativ este 1–4 săptămâni, în funcție de seria și configurația exactă solicitate; nu ținem această gamă pe raft și nu promitem disponibilitate imediată pentru toate modelele din catalog." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompe submersibile HCP?", a: "Debitul și înălțimea de refulare necesare, tipul apei pompate (curată, cu solide, agresivă), și dacă instalația se află într-o zonă clasificată cu risc de explozie, pentru a recomanda seria standard sau varianta antiexplozivă." }
     ],
     evidenceClass: "market-signal-intl",

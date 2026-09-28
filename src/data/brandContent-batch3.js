@@ -50,7 +50,7 @@ Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Fur
       'Metalurgie și Siderurgie',
       'Mașini-Unelte CNC'
     ],
-    infinitrade: `La Infinitrade nu avem date proprii despre stocurile Bosch Rexroth din fabrică, așa că lucrăm cu ce putem confirma din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Componentele hidraulice din gamele uzuale — pompe, distribuitoare, cilindri standard — pot ajunge din stoc în 24–72 h, ca formulare generală, fără să promitem un anumit produs în stoc; echipamentele speciale sau seriile personalizate se aduc la comandă în 2–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul de produs sau desenul tehnic, cantitatea și aplicația unde va fi montat echipamentul. Trimite-ne aceste detalii și revenim cu disponibilitate reală și termen confirmat.`,
+    infinitrade: `La Infinitrade nu avem date proprii despre stocurile Bosch Rexroth din fabrică, așa că lucrăm cu ce putem confirma din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Componentele hidraulice din gamele uzuale — pompe, distribuitoare, cilindri standard — pot ajunge din stoc în 24–72 h, ca formulare generală, fără să promitem un anumit produs în stoc; echipamentele speciale sau seriile personalizate se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul de produs sau desenul tehnic, cantitatea și aplicația unde va fi montat echipamentul. Trimite-ne aceste detalii și revenim cu disponibilitate reală și termen confirmat.`,
     limitation: 'Nu putem confirma service în perioada de garanție a producătorului și nici configurarea software a sistemelor electro-hidraulice mai complexe din gama Bosch Rexroth.',
     sources: [
       {"title":"Industrial Hydraulics – Product Overview","url":"https://www.boschrexroth.com/en/cz/products/industrial-solutions/industrial-hydraulics/","publisher":"Bosch Rexroth","accessed":"2026-09-22"},
@@ -147,7 +147,7 @@ Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Fur
       },
       {
         "q": "Livrează Bosch Rexroth componente hidraulice în România la comandă?",
-        "a": "Da, aducem la comandă grupuri hidraulice, vane și actuatoare din gamele CytroPac, CytroBox, Sytronix sau ABMAXX, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 2-4 săptămâni la comandă."
+        "a": "Da, aducem la comandă grupuri hidraulice, vane și actuatoare din gamele CytroPac, CytroBox, Sytronix sau ABMAXX, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un grup hidraulic Bosch Rexroth?",
@@ -218,7 +218,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       'Chimie și Petrochimie',
       'Water & Wastewater Treatment'
     ],
-    infinitrade: `Pentru Festo nu deținem un stoc propriu care să acopere toate variantele din catalog, așa că spunem clar ce putem și ce nu putem confirma înainte de a pregăti o ofertă. Ne aprovizionăm prin canale din Uniunea Europeană; ca formulare generală a firmei, componentele din gamele curente pot ajunge din stoc în 24–72 h, fără promisiunea unui produs anume în stoc, iar configurațiile speciale sau seturile complete de automatizare vin la comandă în 2–4 săptămâni. Ca să răspundem corect avem nevoie de codul complet al produsului, cantitatea și, dacă e cazul, aplicația unde va fi montat. Scrie-ne codul Festo sau desenul tehnic și revenim cu un termen real.`,
+    infinitrade: `Pentru Festo nu deținem un stoc propriu care să acopere toate variantele din catalog, așa că spunem clar ce putem și ce nu putem confirma înainte de a pregăti o ofertă. Ne aprovizionăm prin canale din Uniunea Europeană; ca formulare generală a firmei, componentele din gamele curente pot ajunge din stoc în 24–72 h, fără promisiunea unui produs anume în stoc, iar configurațiile speciale sau seturile complete de automatizare vin la comandă în 1–4 săptămâni. Ca să răspundem corect avem nevoie de codul complet al produsului, cantitatea și, dacă e cazul, aplicația unde va fi montat. Scrie-ne codul Festo sau desenul tehnic și revenim cu un termen real.`,
     limitation: 'Nu putem confirma stocul permanent pentru toate variantele de cilindri și supape Festo, nici parametrizarea software a controllerelor CPX-E pentru fiecare aplicație în parte.',
     sources: [
       {"title":"Festo Product overview 2025/26","url":"https://media.festo.com/media/4228_documentation.pdf","publisher":"Festo","accessed":"2026-09-22"},
@@ -334,7 +334,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         "q": "Livrează Festo componente pneumatice în România la comandă?",
-        "a": "Da, aducem la comandă cilindri, actuatoare rotative și terminale de vane din gamele DSNU, ADN, DRVS sau VTSA, după codul confirmat de client din catalogul oficial. Componentele Festo le aducem la comandă, pe baza informațiilor publice de disponibilitate ale producătorului, de regulă în 2-4 săptămâni."
+        "a": "Da, aducem la comandă cilindri, actuatoare rotative și terminale de vane din gamele DSNU, ADN, DRVS sau VTSA, după codul confirmat de client din catalogul oficial. Componentele Festo le aducem la comandă, pe baza informațiilor publice de disponibilitate ale producătorului, de regulă în 1–4 săptămâni."
       },
       {
         "q": "Ce date trimit pentru o ofertă la un cilindru Festo?",
@@ -410,7 +410,7 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
       'Industrie Naval Marine',
       'Automotive și Mașini-Unelte'
     ],
-    infinitrade: `Pentru rulmenții și sistemele SKF nu avem date proprii de stoc în timp real, deci lucrăm cu informațiile publice disponibile de la producător și cu partenerii noștri de aprovizionare din Uniunea Europeană. Ca formulare generală a firmei, rulmenții din seriile uzuale pot fi aduși din stoc în 24–72 h, fără să garantăm un anumit reper în stoc, iar dimensiunile speciale, casele de rulmenți sau sistemele de monitorizare vin la comandă în 2–4 săptămâni. Pentru un răspuns util avem nevoie de codul complet al rulmentului, cantitatea și, dacă se poate, aplicația — turație, sarcină, mediu de lucru. Trimite-ne aceste detalii și revenim cu un termen verificat.`,
+    infinitrade: `Pentru rulmenții și sistemele SKF nu avem date proprii de stoc în timp real, deci lucrăm cu informațiile publice disponibile de la producător și cu partenerii noștri de aprovizionare din Uniunea Europeană. Ca formulare generală a firmei, rulmenții din seriile uzuale pot fi aduși din stoc în 24–72 h, fără să garantăm un anumit reper în stoc, iar dimensiunile speciale, casele de rulmenți sau sistemele de monitorizare vin la comandă în 1–4 săptămâni. Pentru un răspuns util avem nevoie de codul complet al rulmentului, cantitatea și, dacă se poate, aplicația — turație, sarcină, mediu de lucru. Trimite-ne aceste detalii și revenim cu un termen verificat.`,
     limitation: 'Nu putem confirma că toate seriile de rulmenți SKF sunt disponibile din stoc în orice moment, nici recondiționarea sau service-ul în garanția producătorului pentru componentele critice.',
     sources: [
       {"title":"Deep groove ball bearings | SKF","url":"https://www.skf.com/group/products/rolling-bearings/ball-bearings/deep-groove-ball-bearings","publisher":"SKF","accessed":"2026-09-22"},
@@ -471,7 +471,7 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
       },
       {
         "q": "Livrați rulmenți SKF în România?",
-        "a": "Da, aducem rulmenți SKF la comandă din surse publice ale producătorului, fără date proprii de stoc afișate pe site. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de seria cerută și disponibilitatea la fabricant. Pentru o ofertă rapidă, trimiteți codul complet stanțat pe rulment sau desenul tehnic cu diametrele și tipul de etanșare necesar."
+        "a": "Da, aducem rulmenți SKF la comandă din surse publice ale producătorului, fără date proprii de stoc afișate pe site. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria cerută și disponibilitatea la fabricant. Pentru o ofertă rapidă, trimiteți codul complet stanțat pe rulment sau desenul tehnic cu diametrele și tipul de etanșare necesar."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de rulmenți SKF?",
@@ -540,7 +540,7 @@ Tehnologia Heartbeat este un sistem de auto-diagnosticare care verifică constan
       'Celuloză și Hârtie',
       'Minerit și Metalurgie'
     ],
-    infinitrade: `Pentru Endress+Hauser nu dispunem de date proprii despre stocul fiecărui model, aici preferăm să spunem clar: lucrăm din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Instrumentele din gamele curente de nivel, debit, presiune și temperatură pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar variantele certificate ATEX sau SIL, ori execuțiile speciale, se aduc la comandă în 2–4 săptămâni. Pentru o ofertă utilă avem nevoie de codul de produs sau specificația tehnică, cantitatea și aplicația de proces vizată. Scrie-ne aceste detalii, iar noi revenim cu un termen realist.`,
+    infinitrade: `Pentru Endress+Hauser nu dispunem de date proprii despre stocul fiecărui model, aici preferăm să spunem clar: lucrăm din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Instrumentele din gamele curente de nivel, debit, presiune și temperatură pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar variantele certificate ATEX sau SIL, ori execuțiile speciale, se aduc la comandă în 1–4 săptămâni. Pentru o ofertă utilă avem nevoie de codul de produs sau specificația tehnică, cantitatea și aplicația de proces vizată. Scrie-ne aceste detalii, iar noi revenim cu un termen realist.`,
     limitation: 'Nu putem confirma calibrarea certificată la fața locului sau integrarea completă cu sisteme SCADA terțe pentru fiecare instalație Endress+Hauser, acestea depinzând de proiectul concret.',
     sources: [
       {"title":"Field instruments overview","url":"https://www.endress.com/en/field-instruments-overview","publisher":"Endress+Hauser","accessed":"2026-09-22"},
@@ -656,7 +656,7 @@ Tehnologia Heartbeat este un sistem de auto-diagnosticare care verifică constan
       },
       {
         "q": "Livrează Endress Hauser echipamente de proces în România?",
-        "a": "Da, aducem echipamente Endress+Hauser la comandă pe bază informațiilor publice de la producător, fără gama pe raft afișat pe site. Termenul uzual este de 2-4 săptămâni la comandă, funcție de model și configurație. Pentru o ofertă corectă trimiteți codul de comandă complet sau, dacă lipsește, tipul de senzor, domeniul de măsurare și conexiunea de proces."
+        "a": "Da, aducem echipamente Endress+Hauser la comandă pe bază informațiilor publice de la producător, fără gama pe raft afișat pe site. Termenul uzual este de 1–4 săptămâni la comandă, funcție de model și configurație. Pentru o ofertă corectă trimiteți codul de comandă complet sau, dacă lipsește, tipul de senzor, domeniul de măsurare și conexiunea de proces."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de transmițătoare de presiune Cerabar?",
@@ -728,7 +728,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       'Mașini-Unelte și Hidraulică',
       'Aeronautică și Aero-Spațial'
     ],
-    infinitrade: `La instrumentele WIKA procedăm ca la toate brandurile noastre: spunem ce putem și ce nu putem confirma, fără date proprii de stoc pentru fiecare cod din catalog. Ne aprovizionăm prin canale din Uniunea Europeană; produsele din gama standard — manometre, termometre, transmițătoare uzuale — pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar execuțiile speciale sau certificatele de calibrare individuale se aduc la comandă în 2–4 săptămâni. Pentru un calcul de preț și termen avem nevoie de codul produsului, domeniul de măsurare și cantitatea dorită. Trimite-ne aceste informații și revenim cu o ofertă verificată.`,
+    infinitrade: `La instrumentele WIKA procedăm ca la toate brandurile noastre: spunem ce putem și ce nu putem confirma, fără date proprii de stoc pentru fiecare cod din catalog. Ne aprovizionăm prin canale din Uniunea Europeană; produsele din gama standard — manometre, termometre, transmițătoare uzuale — pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar execuțiile speciale sau certificatele de calibrare individuale se aduc la comandă în 1–4 săptămâni. Pentru un calcul de preț și termen avem nevoie de codul produsului, domeniul de măsurare și cantitatea dorită. Trimite-ne aceste informații și revenim cu o ofertă verificată.`,
     limitation: 'Nu putem confirma că toate variantele de manometre și transmițătoare WIKA sunt disponibile din stoc în orice moment, nici serviciile de calibrare certificată pentru fiecare tip de instrument din gamă.',
     sources: [
       {"title":"Pressure measurement products","url":"https://www.wika.com/en-en/pressure_measurement.WIKA","publisher":"WIKA","accessed":"2026-09-22"},
@@ -844,7 +844,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       },
       {
         "q": "Livrează Wika instrumente de măsură în România?",
-        "a": "Da, aducem instrumentele Wika la comandă pe bază informațiilor publice ale producătorului, fără a ține evidență unui stoc propriu pe site. Termenul obișnuit este de 2-4 săptămâni la comandă, în funcție de tip și domeniul de presiune cerut, iar pentru variante speciale poate dura mai mult."
+        "a": "Da, aducem instrumentele Wika la comandă pe bază informațiilor publice ale producătorului, fără a ține evidență unui stoc propriu pe site. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și domeniul de presiune cerut, iar pentru variante speciale poate dura mai mult."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de manifold Wika, de exemplu IV30?",

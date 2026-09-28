@@ -33,7 +33,7 @@ Pentru un integrator din România, Metal Work înseamnă un singur cod de comand
       "Zone cu risc de explozie — componente pneumatice Metal Work în variante certificate ATEX",
       "Mașini-unelte — actuatori electrici liniari pentru poziționare de precizie"
     ],
-    infinitrade: `Pentru Metal Work vă spunem cinstit ce putem și ce nu putem confirma: descrierea gamei vine din pagina producătorului și din cataloagele tehnice publicate de acesta, nu din verificări proprii pe teren. Aducem cilindri, electrovalve și actuatori din gama curentă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni la comandă, în funcție de confirmarea disponibilității la producător. Pentru o ofertă corectă avem nevoie de codul complet al cilindrului sau valvei (serie, alezaj, cursă, tip de amortizare) sau, dacă nu-l aveți, de aplicația și parametrii de lucru. Nu promitem disponibilitate imediată pe fiecare cod din gamă — fiecare comandă se confirmă întâi la furnizor.`,
+    infinitrade: `Pentru Metal Work vă spunem cinstit ce putem și ce nu putem confirma: descrierea gamei vine din pagina producătorului și din cataloagele tehnice publicate de acesta, nu din verificări proprii pe teren. Aducem cilindri, electrovalve și actuatori din gama curentă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea disponibilității la producător. Pentru o ofertă corectă avem nevoie de codul complet al cilindrului sau valvei (serie, alezaj, cursă, tip de amortizare) sau, dacă nu-l aveți, de aplicația și parametrii de lucru. Nu promitem disponibilitate imediată pe fiecare cod din gamă — fiecare comandă se confirmă întâi la furnizor.`,
     limitation: "Nu putem confirma configurarea electrovalvelor cu conectori speciali sau a actuatorilor electrici cu firmware personalizat fără o cerere tehnică detaliată transmisă în avans.",
     productCodes: [
       { code: "ISO 6432", description: "Minicilindri, alezaj 8-25 mm" },
@@ -67,7 +67,7 @@ Pentru un integrator din România, Metal Work înseamnă un singur cod de comand
     faq: [
       { q: "Ce produce Metal Work?", a: "Metal Work produce cilindri pneumatici pe standarde ISO (6432, 15552, 21287), electrovalve, unități de tratare a aerului, actuatori electrici și grippere, folosite pe linii de automatizare industrială. Compania are sediul la Concesio, în provincia Brescia, Italia." },
       { q: "Cum aleg cilindrul potrivit din gama Metal Work?", a: "Aveți nevoie de seria (ISO 6432 pentru minicilindri sau ISO 15552 pentru cilindri standard), alezajul în mm, cursa dorită și tipul de amortizare. Dacă nu aveți codul exact, trimiteți aplicația și forța necesară — verificăm împreună seria potrivită." },
-      { q: "Livrați cilindri și valve Metal Work în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de confirmarea disponibilității la producător. Nu ținem toate codurile pregătite pentru livrare imediată." },
+      { q: "Livrați cilindri și valve Metal Work în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea disponibilității la producător. Nu ținem toate codurile pregătite pentru livrare imediată." },
       { q: "Ce trebuie să trimit pentru o ofertă de electrovalve Metal Work?", a: "Codul complet al seriei (de exemplu Seria 70 sau PLT-10), tipul de comandă (manuală, pneumatică, electropneumatică), tensiunea bobinei și numărul de căi. Fără aceste date, oferta se bazează pe estimări." },
       { q: "Are Metal Work variante certificate ATEX?", a: "Da, o parte din gama de cilindri este certificată conform Directivei 2014/34/UE pentru zone cu risc de explozie. Pentru confirmare pe un cod anume, verificăm fișa tehnică publicată de producător înainte de ofertare." }
     ],
@@ -120,7 +120,7 @@ Pentru un atelier de hidraulică sau un integrator din România, gama Manuli în
       "ISO 6134 Type 2 Class A Grade M — furtunuri pentru abur",
       "FDA Title 21 — compatibilitate alimentară"
     ],
-    infinitrade: `Ne bazăm strict pe surse publice ale producătorului Manuli Hydraulics pentru descrierea gamei — cataloage tehnice și pagina oficială, nu verificări proprii de teren. Furtunurile industriale și fitingurile aferente le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de confirmarea producătorului pe cod. Pentru ofertă avem nevoie de seria exactă (de exemplu AIRSERVICE sau FUELSERVICE/16 D), diametrul DN, presiunea de lucru și fluidul transportat. Nu putem confirma disponibilitatea unei anumite bobine sau lungimi fără verificare prealabilă la furnizor.`,
+    infinitrade: `Ne bazăm strict pe surse publice ale producătorului Manuli Hydraulics pentru descrierea gamei — cataloage tehnice și pagina oficială, nu verificări proprii de teren. Furtunurile industriale și fitingurile aferente le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului pe cod. Pentru ofertă avem nevoie de seria exactă (de exemplu AIRSERVICE sau FUELSERVICE/16 D), diametrul DN, presiunea de lucru și fluidul transportat. Nu putem confirma disponibilitatea unei anumite bobine sau lungimi fără verificare prealabilă la furnizor.`,
     limitation: "Nu putem confirma montajul și sertizarea furtunurilor (Safe Crimp System) fără o comandă de execuție dedicată, transmisă către producător.",
     productCodes: [
       { code: "MULTISERVICE/12 D", description: "Furtun apă/service, 12 bar, DN 12-76 mm" },
@@ -145,7 +145,7 @@ Pentru un atelier de hidraulică sau un integrator din România, gama Manuli în
       { q: "Ce fel de furtunuri produce Manuli Hydraulics?", a: "Manuli Hydraulics produce furtunuri industriale și hidraulice specializate pe aplicație: apă și aer comprimat, abur, combustibil, chimicale și produse alimentare, majoritatea certificate pe standarde precum EN 12115 sau EN ISO 1825." },
       { q: "Cum aleg seria potrivită de furtun Manuli?", a: "Aveți nevoie de fluidul transportat, presiunea de lucru și diametrul DN. De exemplu, pentru aer comprimat până la 45 bar seria potrivită e AIRSERVICE, iar pentru combustibil cu certificare EN 12115, FUELSERVICE/16 D." },
       { q: "Ce echivalent are furtunul Manuli AIRSERVICE de la alt producător?", a: "Furtunurile pentru aer comprimat de 45 bar au echivalente la majoritatea producătorilor de furtunuri industriale; verificăm compatibilitatea pe presiune, DN și temperatură de lucru înainte de a propune o alternativă." },
-      { q: "Livrați furtunuri Manuli Hydraulics în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru seria și lungimea cerute." },
+      { q: "Livrați furtunuri Manuli Hydraulics în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru seria și lungimea cerute." },
       { q: "Ce trebuie să trimit pentru o ofertă de furtun Manuli?", a: "Codul seriei sau aplicația exactă (apă, aer, abur, combustibil, chimic, alimentar), diametrul DN, presiunea de lucru, temperatura fluidului, lungimea necesară a furtunului finit și, dacă e cazul, tipul de fiting cerut la fiecare capăt." }
     ],
     evidenceClass: "market-signal-intl",
@@ -189,7 +189,7 @@ Pentru un integrator sau o linie de transport industrial din România, FYH înse
       "Industrie alimentară — serie inoxidabilă pentru medii spălabile",
       "Prelucrarea materialelor — medii cu turații mari sau particule abrazive"
     ],
-    infinitrade: `Lucrăm fără date proprii despre disponibilitatea FYH — descrierea gamei vine din pagina oficială și din cataloagele tehnice publicate de producător. Unitățile din seria ZK și variantele speciale (inox, ceramică) le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de confirmarea producătorului. Pentru ofertă avem nevoie de codul complet (de exemplu ZKP sau ZKFC), diametrul axului în mm și, dacă e cazul, mediul de lucru (coroziv, cu praf, temperatură ridicată). Nu putem garanta un termen mai scurt fără confirmarea prealabilă a stocului la fabrică.`,
+    infinitrade: `Lucrăm fără date proprii despre disponibilitatea FYH — descrierea gamei vine din pagina oficială și din cataloagele tehnice publicate de producător. Unitățile din seria ZK și variantele speciale (inox, ceramică) le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului. Pentru ofertă avem nevoie de codul complet (de exemplu ZKP sau ZKFC), diametrul axului în mm și, dacă e cazul, mediul de lucru (coroziv, cu praf, temperatură ridicată). Nu putem garanta un termen mai scurt fără confirmarea prealabilă a stocului la fabrică.`,
     limitation: "Nu putem confirma disponibilitatea seriei ceramice sau a variantelor cu ax conic pentru fiecare diametru fără verificare directă la producător, pentru că nu toate configurațiile sunt listate detaliat public.",
     productCodes: [
       { code: "ZKP", description: "Bloc de lagăr standard, ax 20-55 mm" },
@@ -212,7 +212,7 @@ Pentru un integrator sau o linie de transport industrial din România, FYH înse
       { q: "Ce produce FYH?", a: "FYH produce lagăre cu carcasă (pillow block) și unități de rulmenți inserați, folosite pentru montajul rapid al axelor pe transportoare, ventilatoare și utilaje industriale. Compania are sediul la Sakai, Osaka, Japonia, și activează din 1950." },
       { q: "Cum aleg unitatea FYH potrivită după cod?", a: "Trebuie să știți configurația de montaj (bloc standard ZKP, flanșă ZKF, unitate de întindere ZKT etc.) și diametrul axului în mm. Seria ZK acoperă diametre între 20 și 55 mm pentru majoritatea configurațiilor." },
       { q: "Ce echivalent are seria ZK de la FYH?", a: "Configurațiile de tip bloc standard sau flanșă cu șuruburi au echivalente dimensionale la majoritatea producătorilor de lagăre cu carcasă; verificăm diametrul axului și tipul de flanșă înainte de a confirma o alternativă." },
-      { q: "Livrați rulmenți FYH în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru codul și seria solicitate." },
+      { q: "Livrați rulmenți FYH în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul și seria solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de lagăre FYH?", a: "Codul seriei (de exemplu ZKP sau ZKFL), diametrul axului în mm și mediul de lucru — coroziv, cu praf sau turații mari — pentru a recomanda varianta standard, inox sau ceramică." }
     ],
     evidenceClass: "market-signal-intl",
@@ -256,7 +256,7 @@ Pentru un instalator sau un producător de echipamente din România, John Guest 
       "Filtrare a apei și industria băuturilor",
       "OEM — integrare fitinguri în echipamente proprii ale clienților"
     ],
-    infinitrade: `Spunem clar ce putem și ce nu putem confirma pentru gama John Guest: informațiile despre materiale și game de fitinguri vin din pagina oficială a producătorului, fără verificări proprii pe teren. Fitingurile și robineții îi aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de confirmarea disponibilității. Pentru ofertă avem nevoie de tipul de tub (OD sau CTS), diametrul în inch sau mm, materialul dorit (polipropilenă, acetal, inox) și fluidul transportat. Nu putem confirma un termen mai scurt fără verificare prealabilă la furnizor.`,
+    infinitrade: `Spunem clar ce putem și ce nu putem confirma pentru gama John Guest: informațiile despre materiale și game de fitinguri vin din pagina oficială a producătorului, fără verificări proprii pe teren. Fitingurile și robineții îi aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea disponibilității. Pentru ofertă avem nevoie de tipul de tub (OD sau CTS), diametrul în inch sau mm, materialul dorit (polipropilenă, acetal, inox) și fluidul transportat. Nu putem confirma un termen mai scurt fără verificare prealabilă la furnizor.`,
     limitation: "Nu putem confirma configurațiile OEM cu jumătăți de cartuș personalizate sau certificările specifice de potabilitate pentru fiecare piață fără o cerere tehnică detaliată transmisă în avans.",
     productCodes: [
       { code: "PP", description: "Racord OD polipropilenă albă, 5/32-1/2 in" },
@@ -281,7 +281,7 @@ Pentru un instalator sau un producător de echipamente din România, John Guest 
       { q: "Ce produce John Guest?", a: "John Guest produce fitinguri și robineți push-in pentru aer comprimat și fluide, în polipropilenă, acetal, inox sau alamă, cu sediul la West Drayton, Marea Britanie, parte din grupul Reliance Worldwide Corporation." },
       { q: "Cum aleg fitingul John Guest potrivit după cod?", a: "Trebuie să știți dacă tubul e de tip OD sau CTS, diametrul (de exemplu 5/32 sau 3/8 inch) și materialul dorit — codurile PP, PI, CI sau PM indică exact combinația de material și culoare." },
       { q: "Ce diferență e între fitingul standard și SuperSeal la John Guest?", a: "Varianta SuperSeal, cod SI, adaugă o garnitură suplimentară de etanșare față de fitingul acetal standard, fiind recomandată pe aplicații unde riscul de scurgere trebuie redus suplimentar." },
-      { q: "Livrați fitinguri John Guest în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru codul și diametrul solicitate." },
+      { q: "Livrați fitinguri John Guest în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul și diametrul solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de fitinguri John Guest?", a: "Tipul de tub (OD sau CTS), diametrul exact în inch sau mm, materialul preferat (polipropilenă, acetal sau inox) și fluidul transportat, astfel încât să recomandăm racordul sau robinetul corect din gama disponibilă." }
     ],
     evidenceClass: "market-signal-intl",
@@ -325,7 +325,7 @@ Pentru un producător de componente auto sau un furnizor de nivel 2 din România
       "Electromobilitate — motoare electrice și frâna de parcare electronică",
       "Sistem de evacuare — studuri rezistente termic"
     ],
-    infinitrade: `Ne întemeiem descrierea gamei KAMAX exclusiv pe informațiile publice disponibile pe pagina producătorului, fără verificări proprii de fabrică. Elementele de fixare le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru codul și cantitatea cerute. Pentru ofertă avem nevoie de aplicația exactă (motor, roată, frână, suspensie etc.), dimensiunea șurubului și clasa de rezistență dorită. Nu putem confirma disponibilitatea unui cod specific fără verificare prealabilă la fabrică, mai ales pentru piese dezvoltate pe proiect.`,
+    infinitrade: `Ne întemeiem descrierea gamei KAMAX exclusiv pe informațiile publice disponibile pe pagina producătorului, fără verificări proprii de fabrică. Elementele de fixare le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul și cantitatea cerute. Pentru ofertă avem nevoie de aplicația exactă (motor, roată, frână, suspensie etc.), dimensiunea șurubului și clasa de rezistență dorită. Nu putem confirma disponibilitatea unui cod specific fără verificare prealabilă la fabrică, mai ales pentru piese dezvoltate pe proiect.`,
     limitation: "Nu putem confirma coduri exacte de catalog (dimensiune, pas, clasă de rezistență) pentru fiecare familie, întrucât KAMAX dezvoltă multe fixări pe proiect, specifice unui anumit constructor auto, fără cataloage publice standard.",
     productCodes: [
       { code: "Șuruburi de bielă", description: "Fixare pentru biela motorului, sarcini ciclice ridicate" },
@@ -351,7 +351,7 @@ Pentru un producător de componente auto sau un furnizor de nivel 2 din România
       { q: "Ce produce KAMAX?", a: "KAMAX produce elemente de fixare de înaltă rezistență pentru industria auto — șuruburi pentru motor, roți, frâne, direcție, suspensie și electromobilitate — cu sediul la Homberg (Ohm), Germania." },
       { q: "Cum aleg elementul de fixare KAMAX potrivit?", a: "Trebuie să precizați aplicația exactă (de exemplu șurub de roată sau etrier de frână), dimensiunea și pasul filetului și clasa de rezistență cerută de constructor, pentru a identifica varianta corectă din gamă." },
       { q: "Ce este familia KXtreme de la KAMAX?", a: "KXtreme e o familie de fixări dezvoltată pentru solicitări ultra-ridicate, acolo unde clasele standard de rezistență ale șuruburilor obișnuite nu acoperă sarcina sau fatigabilitatea cerută de aplicație." },
-      { q: "Livrați șuruburi KAMAX în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru specificația și cantitatea solicitate." },
+      { q: "Livrați șuruburi KAMAX în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru specificația și cantitatea solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de fixări KAMAX?", a: "Aplicația exactă, dimensiunea și pasul filetului, clasa de rezistență și, dacă e o piesă dezvoltată pe proiect, desenul tehnic sau codul intern al constructorului auto." }
     ],
     evidenceClass: "market-signal-intl",
@@ -395,7 +395,7 @@ Pentru o fermă, o stație de irigații sau un integrator din România, gama SAE
       "Minerit — pompare apă din exploatări",
       "Marină și offshore — pompe submersibile și de balast"
     ],
-    infinitrade: `Nu deținem date proprii despre producția SAER, doar ce confirmă sursele oficiale ale producătorului — pagina de produse și categoriile publicate acolo. Pompele și motoarele din gamă le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni în funcție de confirmarea disponibilității la fabrică. Pentru ofertă avem nevoie de aplicație (apă curată sau uzată, foraj sau suprafață), debitul dorit în m³/h, înălțimea de pompare și diametrul forajului, dacă e cazul. Nu putem confirma un termen mai scurt fără verificare prealabilă la producător.`,
+    infinitrade: `Nu deținem date proprii despre producția SAER, doar ce confirmă sursele oficiale ale producătorului — pagina de produse și categoriile publicate acolo. Pompele și motoarele din gamă le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea disponibilității la fabrică. Pentru ofertă avem nevoie de aplicație (apă curată sau uzată, foraj sau suprafață), debitul dorit în m³/h, înălțimea de pompare și diametrul forajului, dacă e cazul. Nu putem confirma un termen mai scurt fără verificare prealabilă la producător.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (debit, înălțime de pompare, putere motor) pentru fiecare model din seriile L, SKD, TM/TMB sau submersibile, pentru că pagina de produse citată nu publică fișele tehnice complete — acestea se verifică punctual la ofertare.",
     productCodes: [
       { code: "Seria L", description: "Pompe în linie, pentru apă curată" },
@@ -419,7 +419,7 @@ Pentru o fermă, o stație de irigații sau un integrator din România, gama SAE
       { q: "Ce produce SAER Elettropompe?", a: "SAER produce pompe electrice de suprafață și submersibile pentru apă curată și ape reziduale, plus motoare electrice și tablouri de comandă, din fabrica de la Guastalla, Reggio Emilia, Italia, activă din 1951." },
       { q: "Cum aleg pompa SAER potrivită după serie?", a: "Depinde de aplicație: seria L pentru montaj în linie, SKD pentru debite mari cu mentenanță facilă, TM/TMB pentru presiune ridicată la debit moderat, sau submersibilele pe diametrul forajului (4-14 inch)." },
       { q: "Ce echivalent are seria SKD de la SAER?", a: "Pompele cu carcasă despicată axial au echivalente la majoritatea producătorilor europeni de pompe centrifuge de proces, precum Calpeda; verificăm debitul și înălțimea de pompare înainte de a propune o alternativă." },
-      { q: "Livrați pompe SAER în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de confirmarea producătorului pentru seria și configurația solicitate." },
+      { q: "Livrați pompe SAER în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru seria și configurația solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompe SAER Elettropompe?", a: "Aplicația exactă (apă curată, uzată, foraj sau suprafață), debitul necesar în m³/h, înălțimea de pompare dorită și, pentru submersibile, diametrul forajului în inch, plus tensiunea de alimentare disponibilă la punctul de montaj." }
     ],
     evidenceClass: "market-signal-intl",

@@ -30,7 +30,7 @@ Pentru integratorii din România care lucrează cu automate de mai mulți produc
       "Logistică — interfețe pentru linii de sortare și benzi transportoare",
       "Industrie alimentară — panouri pentru linii de ambalare și dozare"
     ],
-    infinitrade: `Aducem panouri Weintek la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Lucrăm din surse publice ale producătorului, fără acces la stocuri interne Weintek în acest moment, așa că nu promitem disponibilitate permanentă pe niciun model din gamă. Pentru o ofertă corectă avem nevoie de codul exact al panoului sau, dacă nu-l cunoașteți, de diagonala dorită, tensiunea de alimentare și tipul de automat cu care trebuie să comunice. Nu configurăm proiectul HMI pentru client — livrăm hardware-ul, iar programarea rămâne în sarcina integratorului sau a echipei tehnice a beneficiarului.`,
+    infinitrade: `Aducem panouri Weintek la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Lucrăm din surse publice ale producătorului, fără acces la stocuri interne Weintek în acest moment, așa că nu promitem disponibilitate permanentă pe niciun model din gamă. Pentru o ofertă corectă avem nevoie de codul exact al panoului sau, dacă nu-l cunoașteți, de diagonala dorită, tensiunea de alimentare și tipul de automat cu care trebuie să comunice. Nu configurăm proiectul HMI pentru client — livrăm hardware-ul, iar programarea rămâne în sarcina integratorului sau a echipei tehnice a beneficiarului.`,
     limitation: "Nu oferim configurare software a proiectului HMI și nu confirmăm disponibilitate permanentă din stoc pentru niciun model din gama cMT.",
     productCodes: [
       {
@@ -97,7 +97,7 @@ Pentru integratorii din România care lucrează cu automate de mai mulți produc
       },
       {
         "q": "Livrați panouri HMI Weintek în România?",
-        "a": "Da, aducem la comandă modele din gama cMT X prezentată mai sus, pe baza cataloagelor publice ale producătorului, fără să ținem această gamă pe raftul propriu. Perioada obișnuită este de 2-4 săptămâni la comandă, în funcție de model și disponibilitatea din fabrică. Pentru o ofertă corectă, transmiteți diagonala dorită, rezoluția și tipul de proiect software folosit, EasyBuilder Pro sau EasyBuilder X."
+        "a": "Da, aducem la comandă modele din gama cMT X prezentată mai sus, pe baza cataloagelor publice ale producătorului, fără să ținem această gamă pe raftul propriu. Perioada obișnuită este de 1–4 săptămâni la comandă, în funcție de model și disponibilitatea din fabrică. Pentru o ofertă corectă, transmiteți diagonala dorită, rezoluția și tipul de proiect software folosit, EasyBuilder Pro sau EasyBuilder X."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de panou HMI cMT?",
@@ -143,7 +143,7 @@ Pentru fabricile din România cu mașini de import care trebuie integrate în re
       "HVAC și eficiență energetică — telemetrie pentru unități de climatizare",
       "Clădiri și retail — monitorizare de la distanță a instalațiilor tehnice"
     ],
-    infinitrade: `Aducem module Anybus, Ewon și Ixxat la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Spunem deschis ce putem și ce nu putem confirma despre gama HMS Networks, fără date proprii de stoc pentru niciun model. Pentru ofertă avem nevoie de codul exact al modulului sau, dacă nu-l aveți, de protocolul de comunicație existent pe mașină și protocolul cerut de sistemul clientului. Nu configurăm accesul de la distanță prin Ewon sau parametrizarea rețelei — livrăm hardware-ul, punerea în funcțiune rămâne responsabilitatea integratorului.`,
+    infinitrade: `Aducem module Anybus, Ewon și Ixxat la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Spunem deschis ce putem și ce nu putem confirma despre gama HMS Networks, fără date proprii de stoc pentru niciun model. Pentru ofertă avem nevoie de codul exact al modulului sau, dacă nu-l aveți, de protocolul de comunicație existent pe mașină și protocolul cerut de sistemul clientului. Nu configurăm accesul de la distanță prin Ewon sau parametrizarea rețelei — livrăm hardware-ul, punerea în funcțiune rămâne responsabilitatea integratorului.`,
     limitation: "Nu configurăm rețeaua de acces la distanță (Ewon) și nu confirmăm compatibilitatea cu automate specifice fără codul exact de comandă.",
     productCodes: [
       {
@@ -206,7 +206,7 @@ Pentru fabricile din România cu mașini de import care trebuie integrate în re
       },
       {
         "q": "Livrați produsele HMS Networks în România?",
-        "a": "Da, gateway-urile și routerele HMS Networks pot fi aduse la comandă prin canalele producătorului; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–4 săptămâni, în funcție de model și disponibilitate. Recomandăm confirmarea codului exact al produsului dorit înainte de comandă, pentru a evita incompatibilități cu protocolul industrial folosit la interconectare."
+        "a": "Da, gateway-urile și routerele HMS Networks pot fi aduse la comandă prin canalele producătorului; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 1–4 săptămâni, în funcție de model și disponibilitate. Recomandăm confirmarea codului exact al produsului dorit înainte de comandă, pentru a evita incompatibilități cu protocolul industrial folosit la interconectare."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă pe un gateway Anybus?",
@@ -257,7 +257,7 @@ Pentru integratorii din România care echipează axe de servoacționare pe mași
       "DIN EN ISO 14001 — management de mediu",
       "DIN EN 16247-1 — audit energetic"
     ],
-    infinitrade: `Aducem reductoare Neugart la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Informațiile tehnice de mai sus vin din surse publice ale producătorului, nu din testări proprii, așa că nu confirmăm performanța unui model anume în afara datelor publicate. Pentru ofertă avem nevoie de cuplul necesar, raportul de reducere dorit, backlash-ul maxim admis și tipul de motor la care se montează reductorul. Nu ținem disponibilitate permanentă din stoc pe nicio combinație cuplu-raport și nu facem dimensionarea completă a axei — oferim reductorul cerut, calculul de sarcină rămâne la proiectantul mașinii.`,
+    infinitrade: `Aducem reductoare Neugart la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Informațiile tehnice de mai sus vin din surse publice ale producătorului, nu din testări proprii, așa că nu confirmăm performanța unui model anume în afara datelor publicate. Pentru ofertă avem nevoie de cuplul necesar, raportul de reducere dorit, backlash-ul maxim admis și tipul de motor la care se montează reductorul. Nu ținem disponibilitate permanentă din stoc pe nicio combinație cuplu-raport și nu facem dimensionarea completă a axei — oferim reductorul cerut, calculul de sarcină rămâne la proiectantul mașinii.`,
     limitation: "Nu facem dimensionarea completă a axei de servoacționare și nu confirmăm disponibilitate permanentă din stoc pentru combinațiile cuplu-raport mai puțin uzuale.",
     productCodes: [
       {
@@ -380,7 +380,7 @@ Pentru integratorii din România care echipează axe de servoacționare pe mași
       },
       {
         "q": "Livrați reductoare planetare Neugart în România?",
-        "a": "Da, aducem la comandă modele din liniile Economy, Precision și seriile speciale NGV, HLAE, NDF prezentate mai sus, pe baza cataloagelor tehnice publice ale producătorului, gamă pe care nu o ținem pe raft. Termenul uzual este de 2-4 săptămâni, în funcție de mărime și configurație solicitată. Pentru o ofertă corectă, transmiteți cuplul necesar, turația de intrare și jocul unghiular admis de aplicație."
+        "a": "Da, aducem la comandă modele din liniile Economy, Precision și seriile speciale NGV, HLAE, NDF prezentate mai sus, pe baza cataloagelor tehnice publice ale producătorului, gamă pe care nu o ținem pe raft. Termenul uzual este de 1–4 săptămâni, în funcție de mărime și configurație solicitată. Pentru o ofertă corectă, transmiteți cuplul necesar, turația de intrare și jocul unghiular admis de aplicație."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de reductor planetar Neugart?",
@@ -429,7 +429,7 @@ Pentru fabricile din România cu linii de transport, macarale sau instalații de
       "Agricultură — acționări pentru echipamente de procesare",
       "Silvicultură — motoreductoare pentru instalații de manipulare a lemnului"
     ],
-    infinitrade: `Nu dispunem de stoc propriu de motoreductoare Bauer și lucrăm exclusiv din surse publice ale producătorului pentru specificațiile de mai sus, la fiecare cerere de ofertă. Aducem unități la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, raportul de reducere dorit, tipul de montaj (elicoidal, pe arbore, conic sau melcat) și dacă aplicația cere protecție IP68 sau conformitate HACCP. Nu facem calculul de sarcină al instalației complete — livrăm motoreductorul conform specificațiilor primite de la client.`,
+    infinitrade: `Nu dispunem de stoc propriu de motoreductoare Bauer și lucrăm exclusiv din surse publice ale producătorului pentru specificațiile de mai sus, la fiecare cerere de ofertă. Aducem unități la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, raportul de reducere dorit, tipul de montaj (elicoidal, pe arbore, conic sau melcat) și dacă aplicația cere protecție IP68 sau conformitate HACCP. Nu facem calculul de sarcină al instalației complete — livrăm motoreductorul conform specificațiilor primite de la client.`,
     limitation: "Nu facem calculul de sarcină al instalației complete și nu confirmăm disponibilitate permanentă pentru variantele submersibile IP68.",
     productCodes: [
       {
@@ -500,7 +500,7 @@ Pentru fabricile din România cu linii de transport, macarale sau instalații de
       },
       {
         "q": "Livrați motoreductoare Bauer în România?",
-        "a": "Da, aducem la comandă modele din seriile BG, BF, BK, BS și BM, precum și soluțiile HiflexDRIVE și Submersible descrise mai sus, pe baza cataloagelor publice ale producătorului; nu păstrăm această gamă pe raft ca stoc propriu. Termenul obișnuit este de 2-4 săptămâni, în funcție de configurația comandată. Pentru o ofertă, transmiteți cuplul necesar, turația și tipul de montaj dorit."
+        "a": "Da, aducem la comandă modele din seriile BG, BF, BK, BS și BM, precum și soluțiile HiflexDRIVE și Submersible descrise mai sus, pe baza cataloagelor publice ale producătorului; nu păstrăm această gamă pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni, în funcție de configurația comandată. Pentru o ofertă, transmiteți cuplul necesar, turația și tipul de montaj dorit."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de motoreductor Bauer?",
@@ -547,7 +547,7 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
       "Transport — alimentare de rezervă pentru sisteme de semnalizare",
       "Marină — variante rezistente la mediul salin pentru instalații navale"
     ],
-    infinitrade: `Fără date proprii despre disponibilitatea imediată a fiecărui model Riello, mergem pe surse publice ale producătorului pentru specificațiile de mai sus și verificăm la fiecare cerere. Aducem UPS-uri Riello la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Pentru ofertă avem nevoie de puterea necesară în kVA, numărul de faze (monofazat sau trifazat), autonomia dorită pe baterie și dacă instalația cere redundanță. Nu facem proiectarea electrică a sălii tehnice și nu confirmăm disponibilitate permanentă din stoc pe modelele de putere mare — acestea se aduc de regulă la comandă fermă.`,
+    infinitrade: `Fără date proprii despre disponibilitatea imediată a fiecărui model Riello, mergem pe surse publice ale producătorului pentru specificațiile de mai sus și verificăm la fiecare cerere. Aducem UPS-uri Riello la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de puterea necesară în kVA, numărul de faze (monofazat sau trifazat), autonomia dorită pe baterie și dacă instalația cere redundanță. Nu facem proiectarea electrică a sălii tehnice și nu confirmăm disponibilitate permanentă din stoc pe modelele de putere mare — acestea se aduc de regulă la comandă fermă.`,
     limitation: "Nu facem proiectarea electrică a sălii tehnice și nu confirmăm disponibilitate permanentă din stoc pentru modelele trifazate de putere mare.",
     productCodes: [
       {
@@ -666,7 +666,7 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
       },
       {
         "q": "Livrați UPS-uri Riello UPS în România?",
-        "a": "Da, aducem la comandă modele din gamele Sentinel, Sentryum, Multi Power2, Master și NextEnergy prezentate mai sus, conform cataloagelor publice ale producătorului; gama nu se află pe raftul propriu, ci se aduce punctual. Termenul uzual este de 2-4 săptămâni, în funcție de putere și configurație. Pentru o ofertă corectă, transmiteți puterea necesară în kVA și tipul de sarcină conectată."
+        "a": "Da, aducem la comandă modele din gamele Sentinel, Sentryum, Multi Power2, Master și NextEnergy prezentate mai sus, conform cataloagelor publice ale producătorului; gama nu se află pe raftul propriu, ci se aduce punctual. Termenul uzual este de 1–4 săptămâni, în funcție de putere și configurație. Pentru o ofertă corectă, transmiteți puterea necesară în kVA și tipul de sarcină conectată."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de UPS industrial?",
@@ -716,7 +716,7 @@ Pentru proiectele din România unde tabloul electric trebuie echipat rapid și l
       "Mobilitate electrică — sisteme de încărcare pentru vehicule electrice",
       "Clădiri comerciale — tablouri de distribuție finală"
     ],
-    infinitrade: `Recunoaștem clar: nu dispunem de stoc propriu de componente CHINT, doar surse publice ale producătorului pentru parametrii tehnici de mai sus. Aducem componente și tablouri echipate cu CHINT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni. Pentru ofertă avem nevoie de curentul nominal, tensiunea de lucru, numărul de poli și dacă produsul trebuie să fie certificat IEC sau UL, în funcție de piața de destinație. Nu facem proiectarea tabloului electric complet — livrăm componentele conform listei de material primite de la proiectant sau electrician.`,
+    infinitrade: `Recunoaștem clar: nu dispunem de stoc propriu de componente CHINT, doar surse publice ale producătorului pentru parametrii tehnici de mai sus. Aducem componente și tablouri echipate cu CHINT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de curentul nominal, tensiunea de lucru, numărul de poli și dacă produsul trebuie să fie certificat IEC sau UL, în funcție de piața de destinație. Nu facem proiectarea tabloului electric complet — livrăm componentele conform listei de material primite de la proiectant sau electrician.`,
     limitation: "Nu facem proiectarea tabloului electric și nu confirmăm disponibilitate permanentă din stoc pentru componentele de medie tensiune sau transformatoarele mari.",
     productCodes: [
       {
@@ -791,7 +791,7 @@ Pentru proiectele din România unde tabloul electric trebuie echipat rapid și l
       },
       {
         "q": "Livrați echipamente electrice CHINT în România?",
-        "a": "Da, aducem la comandă produse din seriile NC1, NXB, NM8N, NXA și accesoriile aferente prezentate mai sus, conform cataloagelor publice ale producătorului; această gamă nu este ținută pe raft, ci este adusă la solicitare. Termenul obișnuit este de 2-4 săptămâni, în funcție de model și cantitatea comandată. Pentru o ofertă, transmiteți curentul nominal necesar și tipul de aplicație."
+        "a": "Da, aducem la comandă produse din seriile NC1, NXB, NM8N, NXA și accesoriile aferente prezentate mai sus, conform cataloagelor publice ale producătorului; această gamă nu este ținută pe raft, ci este adusă la solicitare. Termenul obișnuit este de 1–4 săptămâni, în funcție de model și cantitatea comandată. Pentru o ofertă, transmiteți curentul nominal necesar și tipul de aplicație."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de întrerupător automat CHINT?",
@@ -838,7 +838,7 @@ Pentru fabricile din România din industria alimentară, energetică sau de proc
       "Sectorul maritim — spray-uri și vaseline rezistente la mediul salin",
       "Instalații electrice — spray-uri de curățare a contactelor"
     ],
-    infinitrade: `Ce putem și ce nu putem confirma despre gama Weicon rămâne transparent, fără promisiuni de disponibilitate permanentă din stoc pe niciun produs. Aducem produsele Weicon la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru cantități mai mari; pentru produse curente de mentenanță, termenele pot fi uneori mai scurte, dar nu le confirmăm decât după verificarea disponibilității. Pentru ofertă avem nevoie de aplicația exactă (ce se lipește, etanșează sau lubrifiază), condițiile de temperatură și dacă e necesară o aprobare specifică (contact alimentar, gaz, apă potabilă). Fără date proprii despre stocul curent al fiecărui ambalaj, verificăm disponibilitatea la fiecare cerere.`,
+    infinitrade: `Ce putem și ce nu putem confirma despre gama Weicon rămâne transparent, fără promisiuni de disponibilitate permanentă din stoc pe niciun produs. Aducem produsele Weicon la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru cantități mai mari; pentru produse curente de mentenanță, termenele pot fi uneori mai scurte, dar nu le confirmăm decât după verificarea disponibilității. Pentru ofertă avem nevoie de aplicația exactă (ce se lipește, etanșează sau lubrifiază), condițiile de temperatură și dacă e necesară o aprobare specifică (contact alimentar, gaz, apă potabilă). Fără date proprii despre stocul curent al fiecărui ambalaj, verificăm disponibilitatea la fiecare cerere.`,
     limitation: "Nu recomandăm produsul fără să cunoaștem aplicația exactă și nu confirmăm disponibilitate permanentă din stoc pentru ambalajele mai puțin uzuale.",
     productCodes: [
       {
@@ -933,7 +933,7 @@ Pentru fabricile din România din industria alimentară, energetică sau de proc
       },
       {
         "q": "Livrați produsele Weicon în România?",
-        "a": "Da, produsele chimice tehnice Weicon pot fi aduse la comandă; nu ținem această gamă pe raft, iar timpul de aprovizionare este de regulă 2–4 săptămâni, în funcție de referință și cantitate. Recomandăm precizarea exactă a denumirii produsului și a ambalajului dorit pentru a evita confuziile între variante asemănătoare din catalog."
+        "a": "Da, produsele chimice tehnice Weicon pot fi aduse la comandă; nu ținem această gamă pe raft, iar timpul de aprovizionare este de regulă 1–4 săptămâni, în funcție de referință și cantitate. Recomandăm precizarea exactă a denumirii produsului și a ambalajului dorit pentru a evita confuziile între variante asemănătoare din catalog."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă pe adezivi Weicon?",
@@ -980,7 +980,7 @@ Pentru fabricile și flotele din România cu echipamente ce cer aprobări specif
       "Energie — uleiuri pentru motoare staționare pe biogaz",
       "Hidraulică industrială — uleiuri biodegradabile pentru echipamente sensibile la mediu"
     ],
-    infinitrade: `Lucrăm cu informații din surse publice ale producătorului Addinol, fără date proprii despre loturile disponibile la un moment dat. Aducem uleiuri Addinol la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni pentru cantități mai mari de bidoane sau butoaie. Pentru ofertă avem nevoie de norma de ulei cerută de producătorul motorului, tipul de aplicație (auto, transport greu sau industrial) și cantitatea necesară. Nu facem analiza de ulei uzat și nu recomandăm intervalul de schimb — acestea rămân în sarcina producătorului echipamentului sau a unui laborator specializat.`,
+    infinitrade: `Lucrăm cu informații din surse publice ale producătorului Addinol, fără date proprii despre loturile disponibile la un moment dat. Aducem uleiuri Addinol la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru cantități mai mari de bidoane sau butoaie. Pentru ofertă avem nevoie de norma de ulei cerută de producătorul motorului, tipul de aplicație (auto, transport greu sau industrial) și cantitatea necesară. Nu facem analiza de ulei uzat și nu recomandăm intervalul de schimb — acestea rămân în sarcina producătorului echipamentului sau a unui laborator specializat.`,
     limitation: "Nu facem analiza uleiului uzat și nu recomandăm intervalul de schimb fără specificația producătorului echipamentului.",
     productCodes: [
       {
@@ -1039,7 +1039,7 @@ Pentru fabricile și flotele din România cu echipamente ce cer aprobări specif
       },
       {
         "q": "Aduceți uleiuri Addinol la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă uleiuri din gamele CLP, HLP, HVLP sau Super Traktor, pe baza codului confirmat din fișa tehnică oficială Addinol. Nu ținem uleiurile Addinol pe raft în cantitate mare; le procurăm la comandă, de obicei în 2-4 săptămâni. Recomandăm transmiterea vâscozității și normei producătorului de echipament pentru identificarea variantei potrivite."
+        "a": "Da, aducem la comandă uleiuri din gamele CLP, HLP, HVLP sau Super Traktor, pe baza codului confirmat din fișa tehnică oficială Addinol. Nu ținem uleiurile Addinol pe raft în cantitate mare; le procurăm la comandă, de obicei în 1–4 săptămâni. Recomandăm transmiterea vâscozității și normei producătorului de echipament pentru identificarea variantei potrivite."
       },
       {
         "q": "Ce diferență este între HLP 46 și HVLP 46 de la Addinol?",
@@ -1095,7 +1095,7 @@ Pentru operatorii de rețele de gaz și instalatorii de branșamente din Români
       "Rețele de apă — soluții software de monitorizare",
       "Gestionarea deșeurilor — sisteme pentru valorificarea biogazului"
     ],
-    infinitrade: `La regulatoarele Pietro Fiorentini nu avem date proprii de stoc, ne bazăm pe surse publice ale producătorului pentru fiecare specificație tehnică prezentată aici. Aducem regulatoare și contoare la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau, dacă nu-l aveți, de presiunea de intrare/ieșire, debitul necesar și tipul de instalație (branșament, stație de reglare sau contorizare). Nu facem proiectarea stației de reglare-măsurare — livrăm echipamentul, proiectul tehnic rămâne responsabilitatea proiectantului autorizat.`,
+    infinitrade: `La regulatoarele Pietro Fiorentini nu avem date proprii de stoc, ne bazăm pe surse publice ale producătorului pentru fiecare specificație tehnică prezentată aici. Aducem regulatoare și contoare la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau, dacă nu-l aveți, de presiunea de intrare/ieșire, debitul necesar și tipul de instalație (branșament, stație de reglare sau contorizare). Nu facem proiectarea stației de reglare-măsurare — livrăm echipamentul, proiectul tehnic rămâne responsabilitatea proiectantului autorizat.`,
     limitation: "Nu facem proiectarea stației de reglare-măsurare și nu confirmăm disponibilitate permanentă din stoc pentru codurile de produs mai puțin uzuale.",
     productCodes: [
       {
@@ -1226,7 +1226,7 @@ Pentru operatorii de rețele de gaz și instalatorii de branșamente din Români
       },
       {
         "q": "Livrați regulatoare de presiune Pietro Fiorentini în România?",
-        "a": "Da, aducem la comandă regulatoare din familiile Aperflux, Dival, Terval și Reflux prezentate mai sus, pe baza cataloagelor publice ale producătorului; gama nu este ținută pe raft ca stoc propriu. Termenul obișnuit este de 2-4 săptămâni, în funcție de model și presiunea de lucru solicitată. Pentru o ofertă corectă, transmiteți presiunea de intrare și de ieșire, debitul necesar și dimensiunea racordului."
+        "a": "Da, aducem la comandă regulatoare din familiile Aperflux, Dival, Terval și Reflux prezentate mai sus, pe baza cataloagelor publice ale producătorului; gama nu este ținută pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni, în funcție de model și presiunea de lucru solicitată. Pentru o ofertă corectă, transmiteți presiunea de intrare și de ieșire, debitul necesar și dimensiunea racordului."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de regulator de gaz Pietro Fiorentini?",
@@ -1273,7 +1273,7 @@ Pentru atelierele de fabricație metalică și service-urile de mentenanță din
       "Producție industrială — sudură robotizată pe linii de fabricație",
       "Service auto și mentenanță — echipamente portabile de sudură"
     ],
-    infinitrade: `Spunem clar ce putem și ce nu putem confirma pentru fiecare model Lincoln Electric cerut, pornind de la surse publice ale producătorului. Aducem echipamente Lincoln Electric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul de sudură (MMA, MIG/MAG sau TIG), curentul maxim necesar și materialul care se sudează. Nu facem punerea în funcțiune și instruirea operatorilor pe echipamentele robotizate — livrăm aparatul, integrarea în linia de producție rămâne în sarcina integratorului de sistem.`,
+    infinitrade: `Spunem clar ce putem și ce nu putem confirma pentru fiecare model Lincoln Electric cerut, pornind de la surse publice ale producătorului. Aducem echipamente Lincoln Electric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul de sudură (MMA, MIG/MAG sau TIG), curentul maxim necesar și materialul care se sudează. Nu facem punerea în funcțiune și instruirea operatorilor pe echipamentele robotizate — livrăm aparatul, integrarea în linia de producție rămâne în sarcina integratorului de sistem.`,
     limitation: "Nu facem punerea în funcțiune a sistemelor de sudură robotizată și nu confirmăm disponibilitate permanentă din stoc pentru modelele industriale mari.",
     productCodes: [
       {
@@ -1332,7 +1332,7 @@ Pentru atelierele de fabricație metalică și service-urile de mentenanță din
       },
       {
         "q": "Livrați aparate de sudură Lincoln Electric la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă surse de sudură din gamele Flextec și Invertec, alese după modelul exact indicat de client și verificat în documentația producătorului. Nu ținem sursele de sudură Lincoln Electric pe raft; le aducem la comandă, într-un interval de 2-4 săptămâni. Recomandăm transmiterea curentului maxim necesar și a proceselor de sudare dorite."
+        "a": "Da, aducem la comandă surse de sudură din gamele Flextec și Invertec, alese după modelul exact indicat de client și verificat în documentația producătorului. Nu ținem sursele de sudură Lincoln Electric pe raft; le aducem la comandă, într-un interval de 1–4 săptămâni. Recomandăm transmiterea curentului maxim necesar și a proceselor de sudare dorite."
       },
       {
         "q": "Ce diferență este între Invertec 300TPX și Invertec 400TPX de la Lincoln Electric?",
@@ -1385,7 +1385,7 @@ Pentru electricienii și echipele de mentenanță din România care fac verific�
       "Educație și laborator — instrumente de măsură pentru formare tehnică",
       "Petrochimie — instrumente certificate pentru zone cu risc de explozie"
     ],
-    infinitrade: `Nu depăstrăm stoc propriu de aparate Chauvin Arnoux și pornim mereu de la surse publice ale producătorului pentru descrierile tehnice de mai sus. Aducem aparate Chauvin Arnoux la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul de măsurătoare necesară (izolație, priză de pământ, calitatea energiei) și dacă instalația verificată e clasificată ATEX. Nu facem calibrarea sau verificarea metrologică a aparatelor — acestea se fac prin laboratoare acreditate, separat de livrarea echipamentului.`,
+    infinitrade: `Nu depăstrăm stoc propriu de aparate Chauvin Arnoux și pornim mereu de la surse publice ale producătorului pentru descrierile tehnice de mai sus. Aducem aparate Chauvin Arnoux la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul de măsurătoare necesară (izolație, priză de pământ, calitatea energiei) și dacă instalația verificată e clasificată ATEX. Nu facem calibrarea sau verificarea metrologică a aparatelor — acestea se fac prin laboratoare acreditate, separat de livrarea echipamentului.`,
     limitation: "Nu facem calibrarea sau verificarea metrologică periodică a aparatelor și nu confirmăm disponibilitate permanentă din stoc pe variantele ATEX.",
     productCodes: [
       {
@@ -1488,7 +1488,7 @@ Pentru electricienii și echipele de mentenanță din România care fac verific�
       },
       {
         "q": "Livrați aparatele Chauvin Arnoux în România?",
-        "a": "Da, multimetrele și analizoarele Chauvin Arnoux pot fi aduse la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–4 săptămâni, în funcție de model și accesoriile solicitate. Recomandăm confirmarea codului exact, întrucât unele serii au variante apropiate ca denumire, dar cu funcții diferite."
+        "a": "Da, multimetrele și analizoarele Chauvin Arnoux pot fi aduse la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 1–4 săptămâni, în funcție de model și accesoriile solicitate. Recomandăm confirmarea codului exact, întrucât unele serii au variante apropiate ca denumire, dar cu funcții diferite."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă pe un multimetru Chauvin Arnoux?",
@@ -1533,7 +1533,7 @@ Pentru laboratoarele și liniile de producție din România care au nevoie de c�
       "Medicină — cântărire de componente și dispozitive medicale",
       "Producție industrială — sisteme automate de cântărire pe linie"
     ],
-    infinitrade: `Fără date proprii despre stocul curent Radwag, verificăm disponibilitatea la fiecare cerere prin surse publice ale producătorului pentru specificațiile de mai sus. Aducem balanțe Radwag la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de capacitatea maximă necesară, precizia de citire cerută (în grame sau miligrame) și aplicația exactă — laborator, producție sau control de preambalate. Nu facem verificarea metrologică inițială (RSL) a balanței — aceasta se face prin organisme de metrologie legală, separat de livrare.`,
+    infinitrade: `Fără date proprii despre stocul curent Radwag, verificăm disponibilitatea la fiecare cerere prin surse publice ale producătorului pentru specificațiile de mai sus. Aducem balanțe Radwag la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de capacitatea maximă necesară, precizia de citire cerută (în grame sau miligrame) și aplicația exactă — laborator, producție sau control de preambalate. Nu facem verificarea metrologică inițială (RSL) a balanței — aceasta se face prin organisme de metrologie legală, separat de livrare.`,
     limitation: "Nu facem verificarea metrologică legală (RSL) a balanței și nu confirmăm disponibilitate permanentă din stoc pentru modelele de precizie mai puțin uzuale.",
     productCodes: [
       {
@@ -1592,7 +1592,7 @@ Pentru laboratoarele și liniile de producție din România care au nevoie de c�
       },
       {
         "q": "Livrați balanțe de laborator Radwag în România?",
-        "a": "Da, aducem la comandă balanțe din seriile XA, AS X7 și PS descrise anterior, conform fișelor tehnice publicate de producător, fără să păstrăm aceste modele pe raftul propriu. Termenul obișnuit este de 2-4 săptămâni, în funcție de model și disponibilitatea din fabrică. Pentru o ofertă corectă, transmiteți capacitatea și citibilitatea necesare aplicației dumneavoastră."
+        "a": "Da, aducem la comandă balanțe din seriile XA, AS X7 și PS descrise anterior, conform fișelor tehnice publicate de producător, fără să păstrăm aceste modele pe raftul propriu. Termenul obișnuit este de 1–4 săptămâni, în funcție de model și disponibilitatea din fabrică. Pentru o ofertă corectă, transmiteți capacitatea și citibilitatea necesare aplicației dumneavoastră."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de balanță analitică Radwag?",
@@ -1638,7 +1638,7 @@ Pentru laboratoarele și instalațiile pilot din România din chimie, semiconduc
       "Tratamente de suprafață — dozare de gaze pentru procese speciale",
       "Industria alimentară — control de debit în procese de dozare"
     ],
-    infinitrade: `La Bronkhorst nu avem date proprii de stoc și pornim de la surse publice ale producătorului la fiecare solicitare de ofertă. Aducem instrumente Bronkhorst la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de fluidul măsurat (gaz, lichid sau vapori), domeniul de debit necesar și presiunea de lucru a instalației. Nu facem integrarea instrumentului în sistemul de automatizare al clientului — livrăm instrumentul conform specificațiilor primite, integrarea rămâne responsabilitatea integratorului de proces.`,
+    infinitrade: `La Bronkhorst nu avem date proprii de stoc și pornim de la surse publice ale producătorului la fiecare solicitare de ofertă. Aducem instrumente Bronkhorst la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de fluidul măsurat (gaz, lichid sau vapori), domeniul de debit necesar și presiunea de lucru a instalației. Nu facem integrarea instrumentului în sistemul de automatizare al clientului — livrăm instrumentul conform specificațiilor primite, integrarea rămâne responsabilitatea integratorului de proces.`,
     limitation: "Nu facem integrarea instrumentului în sistemul de automatizare și nu confirmăm disponibilitate permanentă din stoc pentru modelele de debit foarte mic.",
     productCodes: [
       {
@@ -1721,7 +1721,7 @@ Pentru laboratoarele și instalațiile pilot din România din chimie, semiconduc
       },
       {
         "q": "Livrați instrumentele Bronkhorst în România?",
-        "a": "Da, debitmetrele și controlerele Bronkhorst pot fi aduse la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 2–4 săptămâni, în funcție de model și configurație. Recomandăm precizarea fluidului măsurat și a plajei de debit dorite, pentru alegerea variantei potrivite din catalog."
+        "a": "Da, debitmetrele și controlerele Bronkhorst pot fi aduse la comandă; nu ținem această gamă pe raft, iar aprovizionarea durează de regulă 1–4 săptămâni, în funcție de model și configurație. Recomandăm precizarea fluidului măsurat și a plajei de debit dorite, pentru alegerea variantei potrivite din catalog."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă pe un debitmetru Bronkhorst?",

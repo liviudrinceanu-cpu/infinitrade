@@ -27,7 +27,7 @@ const FAQ = (total, hard) => [
   },
   {
     q: 'Cât durează livrarea unui brand american fără distribuție în Europa?',
-    a: `Termenul orientativ este de 2–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport; importurile directe din SUA și execuțiile personalizate pot depăși 4 săptămâni. Pentru ${hard} dintre branduri nu am identificat o rețea de distribuție vizibilă în Europa, deci comanda pleacă direct la producător; le marcăm explicit în listă.`,
+    a: `Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport; importurile directe din SUA și execuțiile personalizate pot depăși 4 săptămâni. Pentru ${hard} dintre branduri nu am identificat o rețea de distribuție vizibilă în Europa, deci comanda pleacă direct la producător; le marcăm explicit în listă.`,
   },
   {
     q: 'Ce trebuie să trimit ca să primesc o ofertă pentru o piesă americană?',
@@ -134,7 +134,7 @@ export default function UsBrandsPage() {
               Aducem în România echipamente și componente de la {total} de producători cu sediul în Statele Unite, din {byCategory.length} categorii:
               robineți și actuatoare, pompe, instrumentație de proces, scule și echipamente de testare, hidraulică și pneumatică, motoare, filtre,
               lubrifianți. Le livrăm la comandă — prin filialele și distribuitorii europeni ai producătorilor acolo unde există, sau prin import
-              direct din SUA — de regulă în 2–4 săptămâni, iar importurile directe sau execuțiile personalizate pot depăși 4 săptămâni; nu ținem aceste game pe raft. Pagina fiecărui brand spune ce putem oferta,
+              direct din SUA — de regulă în 1–4 săptămâni, iar importurile directe sau execuțiile personalizate pot depăși 4 săptămâni; nu ținem aceste game pe raft. Pagina fiecărui brand spune ce putem oferta,
               ce coduri am verificat în cataloagele oficiale și ce nu putem confirma.
             </p>
             <dl className={base.counts}>

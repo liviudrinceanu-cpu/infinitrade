@@ -37,7 +37,7 @@ const faqData = [
     questions: [
       {
         q: 'Cât durează livrarea?',
-        a: 'Pentru reperele aflate pe stoc în România sau într-un depozit din Europa: 24–72 h. Pentru echipamente comandate din fabrică: de regulă 2–4 săptămâni; execuțiile OEM sau personalizate pot depăși 4 săptămâni. Pentru urgențe de producție, vă rugăm să ne contactați direct - căutăm soluția cea mai rapidă, din stoc propriu sau prin rețeaua de furnizori.'
+        a: 'Pentru reperele aflate în stocul nostru sau în stocul furnizorului: 24–72 h. Pentru produsele fabricate la comandă: de regulă 1–4 săptămâni; raritățile, echipamentele și sistemele complexe pot depăși 4 săptămâni, în funcție de producător și de rezervarea capacității lui de producție. Termenul curge de la plata avansului, comanda fermă, semnarea contractului sau, după caz, înscrierea noastră ca furnizor. Pentru urgențe de producție, vă rugăm să ne sunați: căutăm soluția cea mai rapidă, din stocul propriu sau prin rețeaua de furnizori.'
       },
       {
         q: 'Livrați pe șantier sau direct în fabrică?',
@@ -112,7 +112,7 @@ const faqData = [
       },
       {
         q: 'Aveți filtre de schimb pentru compresoare și instalații?',
-        a: 'Da: filtre de aer pentru compresoare, filtre de ulei, filtre hidraulice și cartușe pentru desprăfuire, de la Donaldson, Mann+Hummel, Parker și alți producători. Reperele uzuale se livrează din stoc în 24–72 h; restul, de regulă în 2–4 săptămâni. Recomandăm filtre originale sau echivalente cu specificație confirmată.',
+        a: 'Da: filtre de aer pentru compresoare, filtre de ulei, filtre hidraulice și cartușe pentru desprăfuire, de la Donaldson, Mann+Hummel, Parker și alți producători. Reperele uzuale se livrează din stoc în 24–72 h; restul, de regulă în 1–4 săptămâni. Recomandăm filtre originale sau echivalente cu specificație confirmată.',
         link: { href: '/filtre-consumabile', text: 'Vedeți filtre și consumabile' }
       },
       {

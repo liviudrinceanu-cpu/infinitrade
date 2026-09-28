@@ -33,7 +33,7 @@ Pentru clienții din industria grea, energie, hârtie sau tratarea apei, VEM în
       "Tratarea apei și apelor uzate — motoare standard și antiexplozive pentru stații de pompare",
       "Transport feroviar și naval — motoare de tracțiune și acționări de bord"
     ],
-    infinitrade: `Pentru VEM lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru gama germană — ce putem și ce nu putem confirma depinde de familia de motor cerută și de disponibilitatea la fabrica din Wernigerode. Aducem motoare VEM la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de puterea și configurația solicitate. Pentru o ofertă corectă avem nevoie de puterea în kW, turația, tensiunea de alimentare, gradul de protecție și, dacă e cazul, certificarea ATEX necesară. Nu promitem disponibilitate din depozit pentru nicio familie din gamă.`,
+    infinitrade: `Pentru VEM lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru gama germană — ce putem și ce nu putem confirma depinde de familia de motor cerută și de disponibilitatea la fabrica din Wernigerode. Aducem motoare VEM la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de puterea și configurația solicitate. Pentru o ofertă corectă avem nevoie de puterea în kW, turația, tensiunea de alimentare, gradul de protecție și, dacă e cazul, certificarea ATEX necesară. Nu promitem disponibilitate din depozit pentru nicio familie din gamă.`,
     limitation: "Nu putem confirma disponibilitatea în stoc a unei anumite mărimi sau configurații fără verificare punctuală la producător, în special pentru mașinile de putere foarte mare.",
     productCodes: [
       { code: "Brandgasmotoren", description: "motoare pentru gaze de incendiu, aplicații miniere" },
@@ -67,7 +67,7 @@ Pentru clienții din industria grea, energie, hârtie sau tratarea apei, VEM în
     ],
     faq: [
       { q: "Ce game de motoare produce VEM Motors?", a: "VEM Motors produce motoare electrice de la 0,06 kW la 100 MW/300 MVA, generatoare pentru eolian, naval și feroviar, plus sisteme de acționare VEMoDRIVE și monitorizare VEMoDiAC. Gama include peste 20 de familii dedicate, de la motoare antiexplozive la motoare cu rotor bobinat pentru cupluri mari de pornire." },
-      { q: "Livrați motoare VEM Motors în România și cât durează?", a: "Aducem motoare VEM Motors la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea la fabrica din Germania și de configurația cerută." },
+      { q: "Livrați motoare VEM Motors în România și cât durează?", a: "Aducem motoare VEM Motors la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea la fabrica din Germania și de configurația cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor VEM?", a: "Aveți nevoie să precizați puterea în kW, turația, tensiunea de alimentare, gradul de protecție (IP23 sau IP55), și dacă aplicația necesită certificare antiexplozivă ATEX sau rotor bobinat pentru cuplu mare de pornire." },
       { q: "Ce echivalent are un motor antiexploziv VEM față de alte branduri?", a: "VEM oferă familia Explosionsgeschützte Motoren, construită pe platforma sa IEC standard, comparabilă ca principiu cu liniile antiexplozive ale altor producători europeni; alegerea corectă depinde de zona de risc și de puterea necesară." },
       { q: "Produce VEM și generatoare, nu doar motoare?", a: "Da, VEM are o linie separată de generatoare — asincrone, pentru aplicații navale, pentru transport public și material rulant, și generatoare pentru turbine eoliene, distincte de gama de motoare electrice." }
@@ -114,7 +114,7 @@ Pentru instalații din România — linii de ambalare, ascensoare, uși rapide, 
       "Construcții navale — motoare BAH/BAHX pentru medii marine",
       "Ascensoare și uși rapide industriale — frânare electromecanică integrată"
     ],
-    infinitrade: `Aducem motoare MGM la comandă prin canale de aprovizionare din UE; lucrăm cu ce putem și ce nu putem confirma pe bază de surse publice ale producătorului, fără date proprii de stoc pentru gama italiană. Termenul orientativ este de 2-4 săptămâni de la confirmarea comenzii, în funcție de seria și mărimea de carcasă solicitate. Pentru ofertă avem nevoie de seria dorită (BA, BM, BAH, SM sau R), puterea în kW, tensiunea de alimentare a motorului și, separat, a frânei, și mărimea de carcasă. Nu promitem disponibilitate din depozit pentru nicio serie și nu confirmăm disponibilitatea fără verificare punctuală.`,
+    infinitrade: `Aducem motoare MGM la comandă prin canale de aprovizionare din UE; lucrăm cu ce putem și ce nu putem confirma pe bază de surse publice ale producătorului, fără date proprii de stoc pentru gama italiană. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii, în funcție de seria și mărimea de carcasă solicitate. Pentru ofertă avem nevoie de seria dorită (BA, BM, BAH, SM sau R), puterea în kW, tensiunea de alimentare a motorului și, separat, a frânei, și mărimea de carcasă. Nu promitem disponibilitate din depozit pentru nicio serie și nu confirmăm disponibilitatea fără verificare punctuală.`,
     limitation: "Nu putem confirma service în perioada de garanție a producătorului sau configurarea electronică a frânei fără o cerere punctuală transmisă către MGM.",
     productCodes: [
       { code: "BA", description: "motor autofrenant cu frână AC, serie de bază" },
@@ -132,7 +132,7 @@ Pentru instalații din România — linii de ambalare, ascensoare, uși rapide, 
       { q: "Ce produce MGM Motori Elettrici?", a: "MGM Motori Elettrici produce motoare electrice autofrenante — cu frână AC sau DC integrată — plus motoare trifazate standard fără frână (SM/SMX) și o serie dedicată alimentării de la invertor (R). Compania e specializată din 1947 exclusiv pe frânare electromecanică." },
       { q: "Cum aleg între seria BA și seria BM la MGM Motori Elettrici?", a: "Seria BA folosește frână de curent alternativ, mai simplă electric, iar seria BM folosește frână de curent continuu, cu timp de răspuns mai rapid și poziționare mai precisă a sarcinii. Alegerea depinde de cât de exactă trebuie să fie oprirea." },
       { q: "Ce serie MGM se potrivește pentru medii marine?", a: "Pentru nave și medii cu umiditate sau atmosferă salină, MGM oferă seriile BAH și BAHX, variante ale motoarelor autofrenante standard cu protecție suplimentară față de coroziune și umezeală." },
-      { q: "Livrați motoare MGM în România și cât durează?", a: "Aducem motoare MGM la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de seria și configurația de frână solicitate." },
+      { q: "Livrați motoare MGM în România și cât durează?", a: "Aducem motoare MGM la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de seria și configurația de frână solicitate." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de motor autofrenant?", a: "Trimiteți seria dorită, puterea în kW, tensiunea motorului și a frânei separat, mărimea de carcasă și, dacă aplicația e specială, tipul de mediu de lucru (standard, umed sau marin)." }
     ],
     evidenceClass: "gsc-only",
@@ -175,7 +175,7 @@ Pentru instalații din marmoră, oțelării, energie hidro sau eolian, FIMET în
       "Alimentar și băuturi — motoare autofrenante pentru linii de ambalare",
       "Macarale și utilaje de ridicat — motoare cu frână integrată"
     ],
-    infinitrade: `Pentru FIMET nu avem date proprii de stoc — lucrăm din surse publice ale producătorului și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma depinde de familia de motor cerută: pentru gama standard de motoare autofrenante răspunsul e de regulă mai rapid decât pentru motoarele de medie tensiune sau carcasă specială. Pentru ofertă trimiteți seria dorită (HVM/HVC, MCV/ACV, M2AO/MAO/M3AY/M2Y sau EM/EMA), puterea, tensiunea și, dacă e cazul, cerința de mediu antiexploziv. Nu promitem disponibilitate din depozit.`,
+    infinitrade: `Pentru FIMET nu avem date proprii de stoc — lucrăm din surse publice ale producătorului și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma depinde de familia de motor cerută: pentru gama standard de motoare autofrenante răspunsul e de regulă mai rapid decât pentru motoarele de medie tensiune sau carcasă specială. Pentru ofertă trimiteți seria dorită (HVM/HVC, MCV/ACV, M2AO/MAO/M3AY/M2Y sau EM/EMA), puterea, tensiunea și, dacă e cazul, cerința de mediu antiexploziv. Nu promitem disponibilitate din depozit.`,
     limitation: "Nu putem confirma termene ferme pentru motoarele de medie tensiune sau configurațiile speciale carcasă-oțel peste 1.000 kW fără verificare punctuală la fabrică.",
     productCodes: [
       { code: "HVM", description: "motor de medie tensiune, gama HVM" },
@@ -194,7 +194,7 @@ Pentru instalații din marmoră, oțelării, energie hidro sau eolian, FIMET în
     faq: [
       { q: "Ce produce FIMET Motori & Riduttori?", a: "FIMET produce motoare electrice de medie și joasă tensiune, motoare cu carcasă din oțel până la 1.000 kW, motoare autofrenante, generatoare în fontă sau aluminiu, plus reductoare și invertoare, toate din fabrica de la Bra, Italia." },
       { q: "Ce este seria MCV/ACV de la FIMET?", a: "MCV și ACV sunt motoare cu carcasă din oțel care ajung până la 1.000 kW, o putere neobișnuit de mare pentru acest tip constructiv, potrivite pentru instalații industriale de proces cu cerințe ridicate." },
-      { q: "Livrați motoare FIMET în România și cât durează?", a: "Aducem motoare FIMET la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni, în funcție de seria aleasă și de confirmarea producătorului pentru configurația cerută." },
+      { q: "Livrați motoare FIMET în România și cât durează?", a: "Aducem motoare FIMET la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria aleasă și de confirmarea producătorului pentru configurația cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor FIMET?", a: "Aveți nevoie să precizați seria dorită (HVM/HVC, MCV/ACV, M2AO/MAO/M3AY/M2Y sau EM/EMA), puterea în kW, tensiunea de alimentare, turația și dacă aplicația necesită protecție antiexplozivă sau carcasă din oțel pentru puteri mari." },
       { q: "Ce garanție oferă FIMET pentru motoarele sale?", a: "Conform informațiilor publicate de producător, FIMET oferă o garanție de 48 de luni pentru motoarele sale, dublu față de minimul legal de 24 de luni impus în Uniunea Europeană." }
     ],
@@ -237,7 +237,7 @@ Pentru clienți din industria oțelului, minerit, marină sau chimie, Cantoni of
       "Energie — motoare de mare putere pentru centrale și stații de pompare",
       "Construcții — motoare standard și cu turații multiple pentru utilaje de șantier"
     ],
-    infinitrade: `Lucrăm cu Cantoni din surse publice ale producătorului, fără date proprii de stoc pentru gama poloneză — ce putem și ce nu putem confirma ține de familia de motor și de fabrica din grup care o produce. Aducem motoare Cantoni la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de clasa de eficiență (IE1-IE4), puterea în kW, tensiunea, și dacă aplicația necesită certificare antiexplozivă pentru chimie sau pentru minerit — cele două linii nu sunt interschimbabile. Nu promitem disponibilitate din depozit pentru nicio familie.`,
+    infinitrade: `Lucrăm cu Cantoni din surse publice ale producătorului, fără date proprii de stoc pentru gama poloneză — ce putem și ce nu putem confirma ține de familia de motor și de fabrica din grup care o produce. Aducem motoare Cantoni la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de clasa de eficiență (IE1-IE4), puterea în kW, tensiunea, și dacă aplicația necesită certificare antiexplozivă pentru chimie sau pentru minerit — cele două linii nu sunt interschimbabile. Nu promitem disponibilitate din depozit pentru nicio familie.`,
     limitation: "Nu putem confirma din care fabrică a grupului (Indukta, Celma sau Emit) provine o anumită comandă și nici termenele pentru motoarele de înaltă tensiune fără verificare punctuală.",
     productCodes: [
       { code: "IE4 Motors", description: "motoare trifazate de eficiență ultra-premium" },
@@ -259,7 +259,7 @@ Pentru clienți din industria oțelului, minerit, marină sau chimie, Cantoni of
     faq: [
       { q: "Ce grup de fabrici este în spatele Cantoni Group?", a: "Cantoni Group reunește fabrici poloneze istorice — Indukta, Celma și Emit, cu origini între 1878 și 1921 — sub o conducere de familie comună, producând motoare electrice de la clasa IE1 la IE4 și linii speciale antiexplozive." },
       { q: "Ce diferență e între motoarele antiexplozive Cantoni Group pentru chimie și pentru minerit?", a: "Cantoni produce două linii Flame Proof certificate separat — una pentru aplicații chimice și una specifică pentru minerit — pentru că normele de siguranță și tipurile de risc diferă între cele două medii." },
-      { q: "Livrați motoare Cantoni în România și cât durează?", a: "Aducem motoare Cantoni la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de clasa de eficiență și de certificarea cerută." },
+      { q: "Livrați motoare Cantoni în România și cât durează?", a: "Aducem motoare Cantoni la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de clasa de eficiență și de certificarea cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor Cantoni?", a: "Trimiteți clasa de eficiență dorită (IE1-IE4), puterea în kW, tensiunea de alimentare și, dacă e nevoie de protecție antiexplozivă, precizați dacă aplicația e chimică sau de minerit." },
       { q: "Ce este un motor cu rotor bobinat de la Cantoni?", a: "Este un motor asincron cu inele colectoare (Slip Ring) care permite reglarea curentului de pornire printr-un reostat exterior, util la utilaje cu inerție mare care au nevoie de cuplu de pornire ridicat fără șoc electric mare." }
     ],
@@ -304,7 +304,7 @@ Pentru instalații din HVAC, manipulare materiale sau industria alimentară din 
       "Ridicare — ascensoare, macarale, palane",
       "Energie regenerabilă — sisteme pentru turbine eoliene"
     ],
-    infinitrade: `Furnizăm motoare Lafert din surse publice ale producătorului, fără date proprii de stoc pentru gama italiană — ce putem și ce nu putem confirma depinde de seria cerută și de configurația motor-variator. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Pentru ofertă trimiteți clasa de eficiență dorită (IE2 până la IE5), puterea în kW, tensiunea, și dacă aveți nevoie de pachetul integrat motor-variator HP Combi sau de un motor simplu. Nu promitem disponibilitate din depozit și nu confirmăm termene mai scurte decât intervalul orientativ menționat.`,
+    infinitrade: `Furnizăm motoare Lafert din surse publice ale producătorului, fără date proprii de stoc pentru gama italiană — ce putem și ce nu putem confirma depinde de seria cerută și de configurația motor-variator. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă trimiteți clasa de eficiență dorită (IE2 până la IE5), puterea în kW, tensiunea, și dacă aveți nevoie de pachetul integrat motor-variator HP Combi sau de un motor simplu. Nu promitem disponibilitate din depozit și nu confirmăm termene mai scurte decât intervalul orientativ menționat.`,
     limitation: "Nu putem confirma configurarea software a variatoarelor integrate în pachetele HP Combi/HPI fără o cerere tehnică punctuală transmisă către Lafert.",
     productCodes: [
       { code: "HP Combi", description: "pachet integrat motor și variator de frecvență" },
@@ -321,7 +321,7 @@ Pentru instalații din HVAC, manipulare materiale sau industria alimentară din 
     faq: [
       { q: "Ce clase de eficiență acoperă gama Lafert?", a: "Lafert acoperă tot spectrul, de la motoare asincrone IE2 și IE3 până la motoare sincrone cu magneți permanenți IE4 și IE5, ultima fiind clasa de eficiență ultra-premium pentru funcționare continuă." },
       { q: "Ce este pachetul HP Combi de la Lafert?", a: "HP Combi este un ansamblu integrat care combină motorul cu variatorul de frecvență într-o singură unitate, reducând spațiul de montaj și simplificând cablarea față de componentele cumpărate și instalate separat." },
-      { q: "Livrați motoare Lafert în România și cât durează?", a: "Aducem motoare Lafert la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de seria și clasa de eficiență solicitate." },
+      { q: "Livrați motoare Lafert în România și cât durează?", a: "Aducem motoare Lafert la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de seria și clasa de eficiență solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor Lafert?", a: "Precizați clasa de eficiență dorită (de la IE2 la IE5), puterea în kW, tensiunea de alimentare și dacă aveți nevoie de un motor simplu sau de un pachet integrat motor-variator." },
       { q: "Are Lafert servomotoare pentru automatizare?", a: "Da, gama Ultra Compact Servomotors cuprinde servomotoare brushless de dimensiuni reduse, gândite pentru aplicații de automatizare și robotică cu spațiu de montaj limitat și cerințe de răspuns dinamic rapid." }
     ],
@@ -366,7 +366,7 @@ Pentru clienți din industrie sau agricultură din România, Gamak înseamnă ac
       "Agricultură — motoare pentru instalații de muls",
       "Energie eoliană — generatoare de 5 MW"
     ],
-    infinitrade: `Pentru Gamak nu avem date proprii de stoc — furnizăm din surse publice ale producătorului și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma ține de mărimea de carcasă și de tensiunea cerută: gama de joasă tensiune standard răspunde de regulă mai rapid decât motoarele de medie tensiune. Pentru ofertă trimiteți puterea în kW, mărimea de carcasă dacă o cunoașteți, tensiunea de alimentare și dacă aplicația necesită certificare antiexplozivă. Nu promitem disponibilitate din depozit pentru nicio mărime.`,
+    infinitrade: `Pentru Gamak nu avem date proprii de stoc — furnizăm din surse publice ale producătorului și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma ține de mărimea de carcasă și de tensiunea cerută: gama de joasă tensiune standard răspunde de regulă mai rapid decât motoarele de medie tensiune. Pentru ofertă trimiteți puterea în kW, mărimea de carcasă dacă o cunoașteți, tensiunea de alimentare și dacă aplicația necesită certificare antiexplozivă. Nu promitem disponibilitate din depozit pentru nicio mărime.`,
     limitation: "Nu putem confirma termenele pentru motoarele de medie tensiune (150-3.000 kW) fără o verificare punctuală la fabrica din Istanbul.",
     productCodes: [
       { code: "AGM", description: "familie de motoare trifazate de joasă tensiune" },
@@ -383,7 +383,7 @@ Pentru clienți din industrie sau agricultură din România, Gamak înseamnă ac
     faq: [
       { q: "Ce plajă de puteri acoperă Gamak?", a: "Gamak produce motoare de la 0,06 kW până la 4.000 kW, combinând joasă tensiune (mărimi de carcasă 56-630) cu media tensiune (150-3.000 kW, mărimi 315-630), plus generatoare eoliene de 5 MW." },
       { q: "Are Gamak motoare pentru zone cu risc de explozie?", a: "Da, Gamak produce o linie de motoare antiexplozive (Ex-proof) în gama de joasă tensiune, alături de variante speciale pentru extracția fumului și pentru concasoare de piatră." },
-      { q: "Livrați motoare Gamak în România și cât durează?", a: "Aducem motoare Gamak la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de tensiune și mărimea de carcasă." },
+      { q: "Livrați motoare Gamak în România și cât durează?", a: "Aducem motoare Gamak la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de tensiune și mărimea de carcasă." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor Gamak?", a: "Trimiteți puterea în kW, mărimea de carcasă dacă o cunoașteți, tensiunea de alimentare (joasă sau medie), numărul de poli și dacă aplicația necesită certificare antiexplozivă sau variantă specială." },
       { q: "Produce Gamak și altceva în afară de motoare industriale standard?", a: "Da, pe lângă motoarele standard, Gamak produce generatoare eoliene de 5 MW și motoare speciale pentru nișe precum instalațiile de muls sau concasoarele de piatră." }
     ],
@@ -428,7 +428,7 @@ Pentru instalații din spălătorii, hidraulică sau ventilație industrială di
       "Sector oleodinamic — motoare pentru pompe hidraulice",
       "Ventilație industrială — motoare pentru sisteme de aer"
     ],
-    infinitrade: `Pentru Nicolini nu avem date proprii de stoc — lucrăm din surse publice ale producătorului și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma depinde de linia cerută: gama standard, în mărimile IEC uzuale, e de regulă mai accesibilă decât motoarele cu electronică integrată sau configurațiile speciale dezvoltate la cerere. Pentru ofertă trimiteți mărimea de carcasă IEC, puterea în kW, numărul de poli și tensiunea de alimentare. Nu promitem disponibilitate din depozit pentru nicio linie din gamă.`,
+    infinitrade: `Pentru Nicolini nu avem date proprii de stoc — lucrăm din surse publice ale producătorului și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma depinde de linia cerută: gama standard, în mărimile IEC uzuale, e de regulă mai accesibilă decât motoarele cu electronică integrată sau configurațiile speciale dezvoltate la cerere. Pentru ofertă trimiteți mărimea de carcasă IEC, puterea în kW, numărul de poli și tensiunea de alimentare. Nu promitem disponibilitate din depozit pentru nicio linie din gamă.`,
     limitation: "Nu putem confirma termenele pentru motoarele speciale dezvoltate la cerere de biroul tehnic Nicolini fără o cerere punctuală transmisă producătorului.",
     productCodes: [
       { code: "IEC 63", description: "motor standard trifazat/monofazat, mărime carcasă 63" },
@@ -448,7 +448,7 @@ Pentru instalații din spălătorii, hidraulică sau ventilație industrială di
     faq: [
       { q: "Ce mărimi de motoare standard produce Nicolini Motori?", a: "Nicolini Motori produce motoare asincrone standard în mărimi de carcasă IEC de la 63 la 180, în variante trifazate cu 2, 4, 6 sau 8 poli și monofazate cu 2, 4 sau 6 poli, cu protecție IP55 de bază." },
       { q: "Ce este un motor Nicolini cu electronică integrată?", a: "Este un motor care are inverterul montat direct pe carcasă, permițând reglarea turației și controlul motorului fără un dulap electric separat, util unde spațiul de montaj e limitat." },
-      { q: "Livrați motoare Nicolini Motori în România și cât durează?", a: "Aducem motoare Nicolini la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de linia și configurația solicitate." },
+      { q: "Livrați motoare Nicolini Motori în România și cât durează?", a: "Aducem motoare Nicolini la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de linia și configurația solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor Nicolini?", a: "Trimiteți mărimea de carcasă IEC, puterea în kW, numărul de poli, tensiunea de alimentare și, dacă aplicația e specială, o descriere a cerinței mecanice sau electrice." },
       { q: "Face Nicolini motoare personalizate?", a: "Da, pe lângă gama standard, biroul tehnic Nicolini dezvoltă motoare speciale pentru geometrii mecanice particulare sau aplicații de e-mobilitate, adaptate exact la cererea tehnică a clientului final." }
     ],
@@ -493,7 +493,7 @@ Pentru clienți din industrie sau agricultură din România, Cemer înseamnă o 
       "Curățare industrială sub presiune — motoare pentru echipamente de spălare",
       "Agricultură — motoare pentru echipamente de alimentare a animalelor"
     ],
-    infinitrade: `Pentru Cemer nu avem date proprii de stoc — furnizăm din surse publice ale producătorului (grupul Cosgra) și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma ține de clasa de eficiență și de aplicația specifică: motoarele standard IE2/IE3 sunt de regulă mai accesibile decât variantele ATEX sau cu ventilație forțată. Pentru ofertă trimiteți puterea în kW, clasa de eficiență dorită, tensiunea de alimentare și dacă aplicația necesită certificare ATEX. Nu promitem disponibilitate din depozit pentru nicio clasă din gamă.`,
+    infinitrade: `Pentru Cemer nu avem date proprii de stoc — furnizăm din surse publice ale producătorului (grupul Cosgra) și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma ține de clasa de eficiență și de aplicația specifică: motoarele standard IE2/IE3 sunt de regulă mai accesibile decât variantele ATEX sau cu ventilație forțată. Pentru ofertă trimiteți puterea în kW, clasa de eficiență dorită, tensiunea de alimentare și dacă aplicația necesită certificare ATEX. Nu promitem disponibilitate din depozit pentru nicio clasă din gamă.`,
     limitation: "Nu putem confirma dacă un motor Cemer solicitat provine din producția directă a grupului Cosgra sau este produs sub licență pentru o piață anume, fără verificare punctuală.",
     productCodes: [
       { code: "CEMER IE1 S3", description: "motor trifazat, eficiență IE1, serviciu S3" },
@@ -510,7 +510,7 @@ Pentru clienți din industrie sau agricultură din România, Cemer înseamnă o 
     faq: [
       { q: "Este Cemer o companie turcă sau spaniolă?", a: "Sursa oficială verificată în această sesiune arată că brandul Cemer de motoare electrice aparține grupului spaniol Cosgra, cu producție la Crespià, Girona; numele circulă și în alte contexte, dar identitatea confirmată prin site-ul citit este spaniolă." },
       { q: "Ce clase de eficiență acoperă motoarele Cemer?", a: "Gama Cemer include motoare IE1-S3, IE2 monofazat, IE3 și IE4, acoperind atât aplicațiile standard cât și cele unde eficiența energetică ridicată e obligatorie sau justificată economic." },
-      { q: "Livrați motoare Cemer în România și cât durează?", a: "Aducem motoare Cemer la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de clasa de eficiență și de disponibilitate." },
+      { q: "Livrați motoare Cemer în România și cât durează?", a: "Aducem motoare Cemer la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de clasa de eficiență și de disponibilitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor Cemer?", a: "Trimiteți puterea în kW, clasa de eficiență dorită, tensiunea de alimentare și, dacă aplicația e într-un mediu cu risc de explozie, cerința de certificare ATEX." },
       { q: "Are Cemer motoare pentru aplicații hidraulice?", a: "Da, gama Cemer include motoare dedicate unităților de putere hidraulică, pompelor, mixerelor și compresoarelor, orientate spre aplicații de proces industrial, nu doar spre uz general." }
     ],
@@ -555,7 +555,7 @@ Pentru instalații din industrie, ambalare sau manipulare materiale din România
       "Energie eoliană și fotovoltaică — reductoare pentru sisteme de poziționare",
       "Textile — motoreductoare pentru utilaje de procesare continuă"
     ],
-    infinitrade: `Pentru Varvel nu avem date proprii de stoc — lucrăm din surse publice ale producătorului și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma depinde de familia tehnologică cerută: reductoarele melcate standard răspund de regulă mai rapid decât variantele planetare de precizie sau cele certificate ATEX. Pentru ofertă trimiteți raportul de reducere dorit, cuplul de ieșire necesar, tipul de montaj și dacă aplicația necesită certificare ATEX. Disponibilitatea imediată pe stoc nu poate fi asumată pentru nicio familie tehnologică din catalogul Varvel.`,
+    infinitrade: `Pentru Varvel nu avem date proprii de stoc — lucrăm din surse publice ale producătorului și aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma depinde de familia tehnologică cerută: reductoarele melcate standard răspund de regulă mai rapid decât variantele planetare de precizie sau cele certificate ATEX. Pentru ofertă trimiteți raportul de reducere dorit, cuplul de ieșire necesar, tipul de montaj și dacă aplicația necesită certificare ATEX. Disponibilitatea imediată pe stoc nu poate fi asumată pentru nicio familie tehnologică din catalogul Varvel.`,
     limitation: "Nu putem confirma combinația exactă motor-reductor pentru un motoreductor complet fără o cerere tehnică punctuală transmisă către Varvel.",
     productCodes: [
       { code: "RS", description: "reductor melcat, configurație de bază" },
@@ -578,7 +578,7 @@ Pentru instalații din industrie, ambalare sau manipulare materiale din România
     faq: [
       { q: "Ce tipuri de reductoare produce Varvel?", a: "Varvel produce reductoare melcate (RS, RT), coaxiale elicoidale (XA, RD), conice-elicoidale (RO, RO2, RV), cu axe paralele (RN) și planetare cu joc redus (RG), acoperind aproape toate configurațiile mecanice uzuale." },
       { q: "Ce este un reductor planetar RG de la Varvel?", a: "RG este un reductor epicicloidal cu joc unghiular redus, potrivit pentru aplicații care cer poziționare precisă și rigiditate mecanică mai mare decât la un reductor melcat clasic." },
-      { q: "Livrați reductoare Varvel în România și cât durează?", a: "Aducem reductoare și motoreductoare Varvel la comandă prin canale de aprovizionare din UE, cu termen orientativ de 2-4 săptămâni de la confirmarea comenzii, în funcție de familia tehnologică aleasă." },
+      { q: "Livrați reductoare Varvel în România și cât durează?", a: "Aducem reductoare și motoreductoare Varvel la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de familia tehnologică aleasă." },
       { q: "Ce trebuie să trimit pentru o ofertă de reductor Varvel?", a: "Trimiteți raportul de reducere dorit, cuplul de ieșire necesar, turația de intrare, tipul de montaj (coaxial, unghiular sau cu axe paralele) și dacă aplicația necesită certificare ATEX." },
       { q: "Are Varvel și variatoare de viteză, nu doar reductoare?", a: "Da, gama Varvel include variatoare mecanice de viteză, în variantă cu fricțiune uscată (VR) sau planetară (VS), pentru reglarea turației de ieșire fără electronică de control suplimentară." }
     ],

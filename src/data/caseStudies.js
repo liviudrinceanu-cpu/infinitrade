@@ -38,7 +38,7 @@ Recomandăm completarea pachetului cu senzori de vibrații și de temperatură m
 
 Auditul inițial cuprinde măsurători de debit, presiune și consum pe instalația existentă, pentru a stabili ce pompe merită înlocuite prioritar și care pot funcționa în continuare cu intervenții minore. Pe baza acestor date, dimensionăm pompele Grundfos și KSB și selectăm convertizoarele Siemens potrivite fiecărei aplicații.
 
-Ofertăm pe cod și livrăm din stocul disponibil în România sau la un depozit european, respectiv la comandă la fabrică pentru reperele speciale; termenele exacte se comunică odată cu oferta. Montajul și punerea în funcțiune rămân, de regulă, în sarcina echipei tehnice a clientului sau a integratorului desemnat, realizate în oprirea planificată a instalației; asistăm tehnic la cerere și furnizăm documentația de proiect.
+Ofertăm pe cod și livrăm din stocul nostru sau din stocul furnizorului, respectiv la comandă la fabrică pentru reperele speciale; termenele exacte se comunică odată cu oferta. Montajul și punerea în funcțiune rămân, de regulă, în sarcina echipei tehnice a clientului sau a integratorului desemnat, realizate în oprirea planificată a instalației; asistăm tehnic la cerere și furnizăm documentația de proiect.
 
 După repornire, recomandăm o perioadă de urmărire în care parametrii de funcționare sunt verificați și, dacă e nevoie, ajustați fin, iar echipa de mentenanță este familiarizată cu noile echipamente.`,
     results_detailed: `**Ce indicatori merită urmăriți după implementare:**
