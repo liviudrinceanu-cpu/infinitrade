@@ -175,28 +175,28 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
               <div className={styles.valueProp}>
                 <Package size={24} />
                 <div>
-                  <h4>Produse originale</h4>
+                  <p className={styles.valuePropTitle}>Produse originale</p>
                   <p>Garanția producătorului</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
                 <Truck size={24} />
                 <div>
-                  <h4>Livrare din stoc</h4>
+                  <p className={styles.valuePropTitle}>Livrare din stoc</p>
                   <p>{LEAD_TIME_FROM_STOCK}</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
                 <Wrench size={24} />
                 <div>
-                  <h4>Piese de schimb</h4>
+                  <p className={styles.valuePropTitle}>Piese de schimb</p>
                   <p>Kituri de revizie</p>
                 </div>
               </div>
               <div className={styles.valueProp}>
                 <Shield size={24} />
                 <div>
-                  <h4>Suport tehnic</h4>
+                  <p className={styles.valuePropTitle}>Suport tehnic</p>
                   <p>Consultanță la selecție</p>
                 </div>
               </div>

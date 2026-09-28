@@ -218,7 +218,8 @@
   flex-shrink: 0;
 }
 
-.valueProp h4 {
+.valueProp h4,
+.valueProp .valuePropTitle {
   font-size: 14px;
   font-weight: 600;
   color: var(--gray-800);
