@@ -44,6 +44,10 @@ const faqData = [
         a: 'Da, livrăm pe șantier sau direct în fabrică, indiferent de locație. Pentru echipamente grele asigurăm transport specializat și coordonăm descărcarea cu echipa dumneavoastră.'
       },
       {
+        q: 'Cine plătește transportul?',
+        a: 'De regulă suportăm noi costul transportului până la adresa dumneavoastră. Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii; o scriem în fiecare ofertă, înainte de comandă.'
+      },
+      {
         q: 'Ce modalități de plată acceptați?',
         a: 'Transfer bancar, cu termen de plată de regulă 30–60 de zile pentru clienții cu contract; pentru comenzi mici, și plată la livrare sau cu cardul. Pentru investiții mari se pot discuta plăți în tranșe. Condițiile se precizează în fiecare ofertă.'
       },

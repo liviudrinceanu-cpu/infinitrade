@@ -23,6 +23,9 @@ export const roleContact = {
   person: contactPerson,
 };
 
+export const DELIVERY_TERMS_TEXT =
+  'de regulă suportăm noi costul transportului până la adresa dumneavoastră; condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii și se scrie în fiecare ofertă';
+
 export const PAYMENT_TERMS_TEXT = 'de regulă 30–60 de zile pentru clienții cu contract';
 
 export const LEAD_TIME_TEXT =
@@ -55,6 +58,7 @@ export const roles = {
       { label: `Cifră de afaceri ${od.revenueYear}`, value: '16,5 mil. lei (≈ 3,3 mil. €), date publice' },
       { label: 'Angajați', value: `${od.employees} (date publice ${od.revenueYear})` },
       { label: 'Termen de plată', value: 'de regulă 30–60 de zile pentru clienții cu contract' },
+      { label: 'Transport', value: 'de regulă suportat de noi, până la adresa dumneavoastră' },
       { label: 'ISO 9001', value: 'certificare în curs; publicăm certificatul la emitere' },
       { label: 'Persoană de contact', value: `${contactPerson.name}, ${contactPerson.email}` },
     ],
@@ -82,6 +86,7 @@ export const roles = {
           'Dacă propunem un echivalent sau un succesor al unui reper scos din fabricație, îl marcăm explicit, cu diferențele față de codul cerut.',
           `Termene: ${LEAD_TIME_TEXT}. ${LEAD_TIME_START}`,
           'Documentele care însoțesc livrarea: declarația de conformitate a producătorului, fișa tehnică și, unde este cazul, certificatele ATEX sau SIL și certificatul de origine.',
+          'Livrare: de regulă suportăm noi costul transportului până la adresa dumneavoastră. Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii și se scrie în ofertă.',
           'Termen de plată: de regulă 30–60 de zile pentru clienții cu contract, scris în ofertă sau în contract, în limitele Legii nr. 72/2013 privind combaterea întârzierii în executarea obligațiilor de plată.',
         ],
       },
@@ -128,6 +133,10 @@ export const roles = {
       {
         q: 'Ce termen de plată acceptați?',
         a: 'Pentru clienții cu contract, de regulă 30–60 de zile. Termenul exact se scrie în ofertă sau în contract, în limitele Legii nr. 72/2013.',
+      },
+      {
+        q: 'Cine plătește transportul?',
+        a: 'De regulă îl suportăm noi, până la adresa dumneavoastră. Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii și se scrie în fiecare ofertă.',
       },
       {
         q: 'Cum ne verificăm furnizorul înainte de prima comandă?',
