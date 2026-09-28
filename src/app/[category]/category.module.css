@@ -1052,3 +1052,17 @@ a.applicationTag:hover {
 .relatedArticle { display: inline-flex; align-items: center; gap: 6px; color: #063c69; text-decoration: none; font-weight: 500; }
 .relatedArticle:hover { text-decoration: underline; }
 @media (max-width: 768px) { .relatedSection { padding: 40px 0; } .relatedSection h2 { font-size: 20px; } }
+
+/* v33: erori pe câmp (validare comună pagină + server, src/lib/formValidation.js) */
+.formGroup input.inputInvalid,
+.formGroup textarea.inputInvalid {
+  border-color: #b91c1c;
+  box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.12);
+}
+
+.fieldError {
+  margin: 6px 0 0;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #b91c1c; /* contrast ≥ 4,5:1 pe alb (WCAG AA) */
+}

@@ -9,6 +9,7 @@ import { useQuoteCart } from '@/context/QuoteCartContext';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { CATEGORY_LEAD_TIME } from '@/data/leadTimes';
 import styles from './category.module.css';
+import { validateQuoteForm, QUOTE_FIELDS, PLACEHOLDERS } from '@/lib/formValidation';
 
 // F3-02 - fixed per-category question headings, copied VERBATIM from
 // out/plan-v2/heading-phrasings.md §3.2 (F3-01's input contract). Not
@@ -204,17 +205,43 @@ export default function CategoryClient({ category, view, related = { industries:
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // v33: aceeași validare ca pe server (src/lib/formValidation.js); erori pe
+  // câmp, în română; cursorul sare la primul câmp greșit.
+  const [fieldErrors, setFieldErrors] = useState({});
+  const showFieldErrors = (fields) => {
+    setFieldErrors(fields);
+    const first = QUOTE_FIELDS.find((k) => fields[k]);
+    if (first && typeof document !== 'undefined') document.getElementById(`cf-${first}`)?.focus();
+  };
+  const fieldProps = (key) => ({
+    'aria-invalid': fieldErrors[key] ? 'true' : undefined,
+    'aria-describedby': fieldErrors[key] ? `cf-${key}-error` : undefined,
+    className: fieldErrors[key] ? styles.inputInvalid : undefined,
+  });
+  const fieldError = (key) => (fieldErrors[key]
+    ? <p id={`cf-${key}-error`} className={styles.fieldError}>{fieldErrors[key]}</p>
+    : null);
+
   const handleChange = (e) => {
+    const { name, value } = e.target;
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [name]: value
     });
+    if (fieldErrors[name]) setFieldErrors((prev) => { const next = { ...prev }; delete next[name]; return next; });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsLoading(true);
     setError(null);
+    const check = validateQuoteForm(formData);
+    if (!check.ok) {
+      showFieldErrors(check.fields);
+      setError('Vă rugăm să corectați câmpurile marcate cu roșu.');
+      return;
+    }
+    setFieldErrors({});
+    setIsLoading(true);
 
     try {
       const response = await fetch('/api/contact', {
@@ -231,15 +258,30 @@ export default function CategoryClient({ category, view, related = { industries:
         }),
       });
 
-      const result = await response.json();
+      // v33: răspunsul se citește sigur — un răspuns gol sau non-JSON (ex. timeout)
+      // nu mai afișează eroarea tehnică a browserului, în engleză.
+      const responseText = await response.text();
+      let result = null;
+      try { result = responseText ? JSON.parse(responseText) : null; } catch (parseError) { result = null; }
+      if (!result) {
+        throw new Error('Serverul nu a răspuns corect. Vă rugăm să încercați din nou sau să ne scrieți la vanzari@infinitrade-romania.ro.');
+      }
 
       if (!response.ok) {
-        throw new Error(result.error || 'Eroare la trimiterea formularului');
+        if (result.fields) {
+          showFieldErrors(result.fields);
+          throw new Error('Vă rugăm să corectați câmpurile marcate cu roșu.');
+        }
+        throw new Error(result.error || 'Cererea nu a putut fi trimisă. Vă rugăm să încercați din nou sau să ne scrieți la vanzari@infinitrade-romania.ro.');
       }
 
       setIsSubmitted(true);
     } catch (err) {
-      setError(err.message);
+      if (err.name === 'TypeError') {
+        setError('Eroare de conexiune. Verificați conexiunea la internet și încercați din nou.');
+      } else {
+        setError(err.message);
+      }
     } finally {
       setIsLoading(false);
     }
@@ -659,7 +701,7 @@ export default function CategoryClient({ category, view, related = { industries:
             </div>
 
             {!isSubmitted ? (
-            <form className={styles.contactForm} onSubmit={handleSubmit}>
+            <form className={styles.contactForm} onSubmit={handleSubmit} noValidate>
               <div className={styles.formRow}>
                 <div className={styles.formGroup}>
                   <label htmlFor="cf-name">Nume complet *</label>
@@ -669,9 +711,12 @@ export default function CategoryClient({ category, view, related = { industries:
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="Nume și prenume"
+                    placeholder={PLACEHOLDERS.name}
+                    autoComplete="name"
+                    {...fieldProps('name')}
                     required
                   />
+                  {fieldError('name')}
                 </div>
                 <div className={styles.formGroup}>
                   <label htmlFor="cf-company">Companie</label>
@@ -681,8 +726,11 @@ export default function CategoryClient({ category, view, related = { industries:
                     name="company"
                     value={formData.company}
                     onChange={handleChange}
-                    placeholder="Numele companiei"
+                    placeholder={PLACEHOLDERS.company}
+                    autoComplete="organization"
+                    {...fieldProps('company')}
                   />
+                  {fieldError('company')}
                 </div>
               </div>
 
@@ -695,9 +743,13 @@ export default function CategoryClient({ category, view, related = { industries:
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="email@companie.ro"
+                    placeholder={PLACEHOLDERS.email}
+                    autoComplete="email"
+                    inputMode="email"
+                    {...fieldProps('email')}
                     required
                   />
+                  {fieldError('email')}
                 </div>
                 <div className={styles.formGroup}>
                   <label htmlFor="cf-phone">Telefon</label>
@@ -707,8 +759,12 @@ export default function CategoryClient({ category, view, related = { industries:
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="07XX XXX XXX"
+                    placeholder={PLACEHOLDERS.phone}
+                    autoComplete="tel"
+                    inputMode="tel"
+                    {...fieldProps('phone')}
                   />
+                  {fieldError('phone')}
                 </div>
               </div>
 
@@ -733,10 +789,12 @@ export default function CategoryClient({ category, view, related = { industries:
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
+                  {...fieldProps('message')}
                   rows={5}
                   placeholder="Descrieți echipamentele de care aveți nevoie, aplicația, cantitatea, etc."
                   required
                 />
+                {fieldError('message')}
               </div>
 
               {error && (

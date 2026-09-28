@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import styles from './echipa.module.css';
+import { checkName, checkEmail, passwordProblems, PASSWORD_MIN } from '@/lib/formValidation';
 
 const roleLabels = {
   ADMIN: 'Administrator',
@@ -52,6 +53,14 @@ export default function EchipaPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
+    // v33: aceleași reguli ca serverul (src/lib/formValidation.js).
+    const problems = [checkName(formData.name), checkEmail(formData.email)]
+      .filter((r) => !r.ok).map((r) => r.error)
+      .concat(passwordProblems(formData.password));
+    if (problems.length) {
+      setError(problems.join(' '));
+      return;
+    }
     setSaving(true);
 
     try {
@@ -61,10 +70,10 @@ export default function EchipaPage() {
         body: JSON.stringify(formData),
       });
 
-      const data = await res.json();
+      const data = await res.json().catch(() => ({}));
 
       if (!res.ok) {
-        setError(data.error || 'A apărut o eroare');
+        setError(data.error || 'Utilizatorul nu a putut fi creat. Încercați din nou.');
         setSaving(false);
         return;
       }
@@ -73,7 +82,7 @@ export default function EchipaPage() {
       setFormData({ name: '', email: '', password: '', role: 'SALES' });
       fetchUsers();
     } catch (error) {
-      setError('A apărut o eroare. Te rugăm să încerci din nou.');
+      setError('Eroare de conexiune. Verificați internetul și încercați din nou.');
     } finally {
       setSaving(false);
     }
@@ -100,13 +109,17 @@ export default function EchipaPage() {
     }
   };
 
+  // v33: parola generată respectă regula serverului (minimum 12 caractere, literă
+  // mare, literă mică, cifră și simbol); înainte lipsea simbolul, iar serverul o
+  // refuza. Generator criptografic, nu Math.random.
   const generatePassword = () => {
-    const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz23456789';
-    let password = '';
-    for (let i = 0; i < 12; i++) {
-      password += chars.charAt(Math.floor(Math.random() * chars.length));
-    }
-    setFormData({ ...formData, password });
+    const groups = ['ABCDEFGHJKLMNPQRSTUVWXYZ', 'abcdefghijkmnpqrstuvwxyz', '23456789', '!#%+?@'];
+    const all = groups.join('');
+    const rnd = (n) => { const a = new Uint32Array(1); crypto.getRandomValues(a); return a[0] % n; };
+    const chars = groups.map((g) => g[rnd(g.length)]);
+    while (chars.length < 16) chars.push(all[rnd(all.length)]);
+    for (let i = chars.length - 1; i > 0; i--) { const j = rnd(i + 1); [chars[i], chars[j]] = [chars[j], chars[i]]; }
+    setFormData({ ...formData, password: chars.join('') });
   };
 
   return (
@@ -211,7 +224,7 @@ export default function EchipaPage() {
               </button>
             </div>
 
-            <form onSubmit={handleSubmit} className={styles.form}>
+            <form onSubmit={handleSubmit} className={styles.form} noValidate>
               {error && <div className={styles.error}>{error}</div>}
 
               <div className={styles.inputGroup}>
@@ -247,8 +260,8 @@ export default function EchipaPage() {
                     value={formData.password}
                     onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                     required
-                    placeholder="Minim 8 caractere"
-                    minLength={8}
+                    placeholder={`Minimum ${PASSWORD_MIN}: literă mare, literă mică, cifră, simbol`}
+                    minLength={PASSWORD_MIN}
                   />
                   <button
                     type="button"
