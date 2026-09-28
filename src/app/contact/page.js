@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Clock, Send, Check, X, ShoppingCart, ExternalLink 
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { companyInfo, contactPerson } from '@/data/company';
+import { companyInfo } from '@/data/company';
 import { CLIENT_CATEGORIES as categories } from '@/data/headerMenus';
 import { BRAND_CATEGORY_SLUGS } from '@/data/brandCategorySlugs';
 import { siteStats } from '@/data/siteStats';
@@ -486,18 +486,6 @@ export default function ContactPage() {
                       <span className={styles.infoLabel}>E-mail vânzări</span>
                       <a href="mailto:vanzari@infinitrade-romania.ro">
                         vanzari@infinitrade-romania.ro
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className={styles.infoItem}>
-                    <div className={styles.infoIcon}>
-                      <Mail size={20} />
-                    </div>
-                    <div>
-                      <span className={styles.infoLabel}>Contact pentru companii: {contactPerson.name}</span>
-                      <a href={`mailto:${contactPerson.email}`}>
-                        {contactPerson.email}
                       </a>
                     </div>
                   </div>
