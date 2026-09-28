@@ -3,6 +3,7 @@ import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import bcrypt from 'bcryptjs';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
+import { checkName, checkEmail, passwordProblems } from '@/lib/formValidation';
 
 // Valid roles (must match Prisma enum)
 const VALID_ROLES = ['ADMIN', 'SALES'];
@@ -10,35 +11,15 @@ const VALID_ROLES = ['ADMIN', 'SALES'];
 // UUID regex pattern for ID validation
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
-// Password strength validation
-function validatePassword(password) {
-  const errors = [];
-
-  if (password.length < 12) {
-    errors.push('Parola trebuie să aibă minim 12 caractere');
-  }
-  if (!/[A-Z]/.test(password)) {
-    errors.push('Parola trebuie să conțină cel puțin o literă mare');
-  }
-  if (!/[a-z]/.test(password)) {
-    errors.push('Parola trebuie să conțină cel puțin o literă mică');
-  }
-  if (!/[0-9]/.test(password)) {
-    errors.push('Parola trebuie să conțină cel puțin o cifră');
-  }
-  if (!/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(password)) {
-    errors.push('Parola trebuie să conțină cel puțin un caracter special');
-  }
-
-  return errors;
-}
+// v33: regula parolei vine din src/lib/formValidation.js (aceeași în pagină).
+const validatePassword = passwordProblems;
 
 export async function GET(request) {
   try {
     const session = await auth();
 
     if (!session) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+      return NextResponse.json({ error: 'Neautorizat: autentificați-vă din nou ca administrator.' }, { status: 401 });
     }
 
     const users = await prisma.user.findMany({
@@ -79,18 +60,20 @@ export async function POST(request) {
     const session = await auth();
 
     if (!session || session.user.role !== 'ADMIN') {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+      return NextResponse.json({ error: 'Neautorizat: autentificați-vă din nou ca administrator.' }, { status: 401 });
     }
 
     const body = await request.json();
-    const { email, name, password, role } = body;
-
-    if (!email || !name || !password) {
-      return NextResponse.json(
-        { error: 'Email, name, and password are required' },
-        { status: 400 }
-      );
+    const { password, role } = body;
+    const nameCheck = checkName(body.name);
+    const emailCheck = checkEmail(body.email);
+    const missing = [nameCheck, emailCheck].filter((r) => !r.ok).map((r) => r.error);
+    if (!password) missing.push('Completați parola.');
+    if (missing.length) {
+      return NextResponse.json({ error: missing.join(' ') }, { status: 400 });
     }
+    const name = nameCheck.value;
+    const email = emailCheck.value;
 
     // Validate role if provided
     if (role && !VALID_ROLES.includes(role)) {
@@ -104,7 +87,7 @@ export async function POST(request) {
     const passwordErrors = validatePassword(password);
     if (passwordErrors.length > 0) {
       return NextResponse.json(
-        { error: passwordErrors.join('. ') },
+        { error: passwordErrors.join(' ') },
         { status: 400 }
       );
     }
@@ -155,19 +138,19 @@ export async function DELETE(request) {
     const session = await auth();
 
     if (!session || session.user.role !== 'ADMIN') {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+      return NextResponse.json({ error: 'Neautorizat: autentificați-vă din nou ca administrator.' }, { status: 401 });
     }
 
     const { searchParams } = new URL(request.url);
     const id = searchParams.get('id');
 
     if (!id) {
-      return NextResponse.json({ error: 'User ID is required' }, { status: 400 });
+      return NextResponse.json({ error: 'Lipsește identificatorul utilizatorului.' }, { status: 400 });
     }
 
     // Validate ID format (UUID)
     if (!UUID_PATTERN.test(id)) {
-      return NextResponse.json({ error: 'Invalid ID format' }, { status: 400 });
+      return NextResponse.json({ error: 'Identificatorul utilizatorului nu este valid.' }, { status: 400 });
     }
 
     // Prevent deleting own account

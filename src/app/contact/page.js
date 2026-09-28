@@ -11,6 +11,7 @@ import { BRAND_CATEGORY_SLUGS } from '@/data/brandCategorySlugs';
 import { siteStats } from '@/data/siteStats';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { ROLE_OPTIONS, ROLE_VALUES } from '@/data/roleOptions';
+import { validateQuoteForm, QUOTE_FIELDS, PLACEHOLDERS } from '@/lib/formValidation';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import styles from './contact.module.css';
 
@@ -164,10 +165,34 @@ export default function ContactPage() {
     }
   }, [cartItems]);
 
+  // v33: aceeași validare ca pe server (src/lib/formValidation.js); erorile
+  // apar sub fiecare câmp, în română, iar cursorul sare la primul câmp greșit.
+  const [fieldErrors, setFieldErrors] = useState({});
+  const showFieldErrors = (fields) => {
+    setFieldErrors(fields);
+    const first = QUOTE_FIELDS.find((k) => fields[k]);
+    if (first && typeof document !== 'undefined') document.getElementById(first)?.focus();
+  };
+  const fieldProps = (key) => ({
+    'aria-invalid': fieldErrors[key] ? 'true' : undefined,
+    'aria-describedby': fieldErrors[key] ? `${key}-error` : undefined,
+    className: fieldErrors[key] ? styles.inputInvalid : undefined,
+  });
+  const fieldError = (key) => (fieldErrors[key]
+    ? <p id={`${key}-error`} className={styles.fieldError}>{fieldErrors[key]}</p>
+    : null);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsLoading(true);
     setError(null);
+    const check = validateQuoteForm(formData);
+    if (!check.ok) {
+      showFieldErrors(check.fields);
+      setError('Vă rugăm să corectați câmpurile marcate cu roșu.');
+      return;
+    }
+    setFieldErrors({});
+    setIsLoading(true);
 
     // Add cart items to form data for API (including URLs)
     const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://www.infinitrade.ro';
@@ -219,7 +244,11 @@ export default function ContactPage() {
       }
 
       if (!response.ok) {
-        throw new Error(result.error || 'Eroare la trimiterea formularului');
+        if (result.fields) {
+          showFieldErrors(result.fields);
+          throw new Error('Vă rugăm să corectați câmpurile marcate cu roșu.');
+        }
+        throw new Error(result.error || 'Cererea nu a putut fi trimisă. Vă rugăm să încercați din nou sau să ne scrieți la vanzari@infinitrade-romania.ro.');
       }
 
       // Clear cart after successful submission
@@ -238,10 +267,12 @@ export default function ContactPage() {
   };
 
   const handleChange = (e) => {
+    const { name, value } = e.target;
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [name]: value
     });
+    if (fieldErrors[name]) setFieldErrors((prev) => { const next = { ...prev }; delete next[name]; return next; });
   };
 
   return (
@@ -271,7 +302,7 @@ export default function ContactPage() {
                 className={`${styles.formWrapper} animate-fade-left animate-delay-2 ${formVisible ? 'is-visible' : ''}`}
               >
                 {!isSubmitted ? (
-                  <form onSubmit={handleSubmit} className={styles.form}>
+                  <form onSubmit={handleSubmit} className={styles.form} noValidate>
                     <h2>Cerere de ofertă</h2>
                     <p>Completați formularul; puteți atașa lista de repere, poza plăcuței sau documentele de calificare.</p>
 
@@ -323,8 +354,12 @@ export default function ContactPage() {
                           name="name"
                           value={formData.name}
                           onChange={handleChange}
+                          autoComplete="name"
+                          placeholder={PLACEHOLDERS.name}
+                          {...fieldProps('name')}
                           required
                         />
+                        {fieldError('name')}
                       </div>
 
                       <div className={styles.formGroup}>
@@ -335,8 +370,13 @@ export default function ContactPage() {
                           name="email"
                           value={formData.email}
                           onChange={handleChange}
+                          autoComplete="email"
+                          inputMode="email"
+                          placeholder={PLACEHOLDERS.email}
+                          {...fieldProps('email')}
                           required
                         />
+                        {fieldError('email')}
                       </div>
 
                       <div className={styles.formGroup}>
@@ -347,7 +387,12 @@ export default function ContactPage() {
                           name="phone"
                           value={formData.phone}
                           onChange={handleChange}
+                          autoComplete="tel"
+                          inputMode="tel"
+                          placeholder={PLACEHOLDERS.phone}
+                          {...fieldProps('phone')}
                         />
+                        {fieldError('phone')}
                       </div>
 
                       <div className={styles.formGroup}>
@@ -358,7 +403,11 @@ export default function ContactPage() {
                           name="company"
                           value={formData.company}
                           onChange={handleChange}
+                          autoComplete="organization"
+                          placeholder={PLACEHOLDERS.company}
+                          {...fieldProps('company')}
                         />
+                        {fieldError('company')}
                       </div>
 
                       <div className={styles.formGroup}>
@@ -404,10 +453,12 @@ export default function ContactPage() {
                         name="message"
                         value={formData.message}
                         onChange={handleChange}
+                        {...fieldProps('message')}
                         rows={5}
                         placeholder={ROLE_PLACEHOLDERS[role] || 'Descrieți echipamentele, codurile, cantitățile și termenul de livrare dorit...'}
                         required
                       />
+                      {fieldError('message')}
                     </div>
 
                     <div className={styles.formGroup}>

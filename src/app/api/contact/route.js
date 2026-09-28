@@ -2,6 +2,7 @@ import { CLIENT_BRAND_STATS } from '@/data/headerMenus';
 import { z } from 'zod';
 import { ROLE_VALUES, roleLabel } from '@/data/roleOptions';
 import { MAX_ATTACHMENT_BASE64, validateAttachment, attachmentForAi } from '@/lib/attachment';
+import { validateQuoteForm, summarizeFieldErrors } from '@/lib/formValidation';
 
 // Force dynamic - this route uses runtime features
 export const dynamic = 'force-dynamic';
@@ -166,13 +167,16 @@ const priceDatabase = {
 
 // Validation schema
 const contactSchema = z.object({
-  name: z.string().min(2, 'Numele trebuie să aibă minim 2 caractere').max(100, 'Numele este prea lung'),
-  email: z.string().email('Email invalid'),
-  phone: z.string().max(20, 'Număr de telefon prea lung').optional(),
-  company: z.string().max(200, 'Numele companiei este prea lung').optional(),
+  // v33: numele, e-mailul, telefonul, compania și mesajul se validează cu
+  // src/lib/formValidation.js (aceeași regulă ca în pagină); aici doar tipul
+  // și o limită largă de lungime, ca protecție.
+  name: z.string().max(1000).optional(),
+  email: z.string().max(1000).optional(),
+  phone: z.string().max(200).optional(),
+  company: z.string().max(1000).optional(),
   category: z.string().max(500).optional(),
   categorySlugs: z.array(z.string().max(60)).max(20).optional(), // v11: slugs of the checked categories
-  message: z.string().min(10, 'Mesajul trebuie să aibă minim 10 caractere').max(5000, 'Mesajul este prea lung'),
+  message: z.string().max(50000).optional(),
   cartItems: z.array(z.object({
     type: z.string(),
     name: z.string(),
@@ -645,7 +649,7 @@ export async function POST(request) {
 
     if (!rateLimitResult.allowed) {
       return Response.json(
-        { error: 'Prea multe solicitări. Te rugăm să încerci din nou mai târziu.' },
+        { error: 'Ați trimis mai multe cereri într-un timp scurt. Vă rugăm să încercați din nou peste 15 minute sau să ne scrieți la vanzari@infinitrade-romania.ro.' },
         {
           status: 429,
           headers: {
@@ -661,14 +665,24 @@ export async function POST(request) {
     const validationResult = contactSchema.safeParse(formData);
     
     if (!validationResult.success) {
-      const errors = validationResult.error.errors.map(e => e.message).join(', ');
+      const errors = validationResult.error.errors.map(e => e.message).join(' ');
       return Response.json(
-        { error: errors },
+        { error: `Vă rugăm să corectați: ${errors}` },
         { status: 400 }
       );
     }
 
-    const validatedData = validationResult.data;
+    // v33: aceeași validare ca în pagină; erori pe câmp, în română.
+    const fieldCheck = validateQuoteForm(validationResult.data);
+    if (!fieldCheck.ok) {
+      return Response.json(
+        { error: summarizeFieldErrors(fieldCheck.fields), fields: fieldCheck.fields },
+        { status: 400 }
+      );
+    }
+
+    // Valorile curățate înlocuiesc ce a scris clientul (telefonul doar cu cifre).
+    const validatedData = { ...validationResult.data, ...fieldCheck.values };
 
     // v27: atașamentul se validează după conținut (semnătura fișierului).
     let attachment = null;
@@ -811,9 +825,9 @@ export async function POST(request) {
         <h2>👤 Date Client</h2>
         <p><span class="label">Nume:</span> ${sanitizedName}</p>
         <p><span class="label">Email:</span> <a href="mailto:${validatedData.email}">${validatedData.email}</a></p>
-        <p><span class="label">Telefon:</span> ${validatedData.phone || 'Nespecificat'}</p>
+        <p><span class="label">Telefon:</span> ${validatedData.phone ? sanitizeHtmlSimple(validatedData.phone) : 'Nespecificat'}</p>
         <p><span class="label">Companie:</span> ${sanitizedCompany || 'Nespecificată'}</p>
-        <p><span class="label">Categorie:</span> ${validatedData.category || 'Nespecificată'}</p>
+        <p><span class="label">Categorie:</span> ${validatedData.category ? sanitizeHtmlSimple(validatedData.category) : 'Nespecificată'}</p>
         <p><span class="label">Rol:</span> ${roleText || 'Nespecificat'}</p>
         <p><span class="label">Atașament:</span> ${attachmentText ? sanitizeHtmlSimple(attachmentText) + ' (atașat la acest e-mail)' : 'Nu'}</p>
       </div>
