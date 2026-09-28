@@ -24,7 +24,7 @@ export const roleContact = {
 };
 
 export const DELIVERY_TERMS_TEXT =
-  'de regulă DAP (Incoterms® 2020) la adresa dumneavoastră: suportăm noi costul transportului și riscul pe drum, iar descărcarea o faceți dumneavoastră; condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii și se scrie în fiecare ofertă';
+  'de regulă CPT (Incoterms® 2020): transportul până la adresa dumneavoastră este plătit de noi, iar riscul trece la predarea mărfii către transportator; la cerere, livrăm DAP; condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii și se scrie în fiecare ofertă';
 
 export const PAYMENT_TERMS_TEXT = 'de regulă 30–60 de zile pentru clienții cu contract';
 
@@ -58,7 +58,7 @@ export const roles = {
       { label: `Cifră de afaceri ${od.revenueYear}`, value: '16,5 mil. lei (≈ 3,3 mil. €), date publice' },
       { label: 'Angajați', value: `${od.employees} (date publice ${od.revenueYear})` },
       { label: 'Termen de plată', value: 'de regulă 30–60 de zile pentru clienții cu contract' },
-      { label: 'Condiție de livrare', value: 'de regulă DAP (Incoterms® 2020), la adresa dumneavoastră; transportul este suportat de noi' },
+      { label: 'Condiție de livrare', value: 'de regulă CPT (Incoterms® 2020): transport plătit de noi până la adresa dumneavoastră; DAP la cerere' },
       { label: 'ISO 9001', value: 'certificare în curs; publicăm certificatul la emitere' },
       { label: 'Persoană de contact', value: `${contactPerson.name}, ${contactPerson.email}` },
     ],
@@ -86,7 +86,7 @@ export const roles = {
           'Dacă propunem un echivalent sau un succesor al unui reper scos din fabricație, îl marcăm explicit, cu diferențele față de codul cerut.',
           `Termene: ${LEAD_TIME_TEXT}. ${LEAD_TIME_START}`,
           'Documentele care însoțesc livrarea: declarația de conformitate a producătorului, fișa tehnică și, unde este cazul, certificatele ATEX sau SIL și certificatul de origine.',
-          'Condiția de livrare: de regulă DAP (Incoterms® 2020) la adresa dumneavoastră. Suportăm noi costul transportului și riscul pe drum; descărcarea o faceți dumneavoastră. Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii și se scrie în ofertă.',
+          'Condiția de livrare: de regulă CPT (Incoterms® 2020): transportul până la adresa dumneavoastră este plătit de noi, iar riscul trece la predarea mărfii către transportator. La cerere, livrăm DAP. Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii și se scrie în ofertă.',
           'Termen de plată: de regulă 30–60 de zile pentru clienții cu contract, scris în ofertă sau în contract, în limitele Legii nr. 72/2013 privind combaterea întârzierii în executarea obligațiilor de plată.',
         ],
       },
@@ -136,7 +136,7 @@ export const roles = {
       },
       {
         q: 'Cine plătește transportul?',
-        a: 'De regulă îl suportăm noi, până la adresa dumneavoastră: condiția uzuală este DAP (Incoterms® 2020), adică transportul și riscul pe drum sunt ale noastre, iar descărcarea este a dumneavoastră. Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii și se scrie în fiecare ofertă.',
+        a: 'De regulă noi, până la adresa dumneavoastră: condiția uzuală este CPT (Incoterms® 2020), adică transportul este plătit de noi, iar riscul trece la predarea mărfii către transportator. La cerere, livrăm DAP (riscul pe drum rămâne al nostru). Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract sau de specificul comenzii și se scrie în fiecare ofertă.',
       },
       {
         q: 'Cum ne verificăm furnizorul înainte de prima comandă?',

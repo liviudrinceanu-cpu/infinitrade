@@ -401,7 +401,7 @@ export default function CertificariPage() {
                 <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
                 <div>
                   <h3>Livrare</h3>
-                  <p>Livrăm în toată România. De regulă suportăm noi costul transportului până la adresa dumneavoastră (DAP, Incoterms® 2020); condiția exactă depinde de volum, cantitate, termenul de livrare și de contract și o scriem în ofertă, înainte de comandă.</p>
+                  <p>Livrăm în toată România. De regulă transportul până la adresa dumneavoastră este plătit de noi (CPT, Incoterms® 2020); la cerere, livrăm DAP. Condiția exactă depinde de volum, cantitate, termenul de livrare și de contract și o scriem în ofertă, înainte de comandă.</p>
                 </div>
               </div>
               <div className={styles.qualityCard}>
