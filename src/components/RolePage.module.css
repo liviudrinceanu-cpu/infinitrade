@@ -49,12 +49,12 @@
 }
 
 .ctaPrimary {
-  background: #ff2800;
+  background: #c81e00; /* roșu de brand închis: contrast ≥ 4,5:1 cu textul alb (WCAG AA) */
   color: #fff;
 }
 
 .ctaPrimary:hover {
-  background: #e02400;
+  background: #a51900;
 }
 
 .ctaSecondary {
