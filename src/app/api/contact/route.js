@@ -864,10 +864,10 @@ export async function POST(request) {
 ───────────────────────────────────────────────────
 👤 DATE CLIENT
 ───────────────────────────────────────────────────
-Nume: ${sanitizedName}
+Nume: ${validatedData.name}
 Email: ${validatedData.email}
 Telefon: ${validatedData.phone || 'Nespecificat'}
-Companie: ${sanitizedCompany || 'Nespecificată'}
+Companie: ${validatedData.company || 'Nespecificată'}
 Categorie: ${validatedData.category || 'Nespecificată'}
 Rol: ${roleText || 'Nespecificat'}
 Atașament: ${attachmentText || 'Nu'}
@@ -900,7 +900,7 @@ Răspunde direct la: ${validatedData.email}
     const { data, error } = await emailClient.emails.send({
       from: 'Infinitrade.ro <noreply@infinitrade.ro>',
       to: ['vanzari@infinitrade-romania.ro', 'liviu.drinceanu@infinitrade-romania.ro'],
-      subject: `[Infinitrade.ro]${aiData ? ` [Lead ${aiData.scor_lead}/10]` : ''}${roleText ? ` [${roleText}]` : ''}${attachment ? ' [Atașament]' : ''} Nouă solicitare de ofertă - ${sanitizedName}${sanitizedCompany ? ' (' + sanitizedCompany + ')' : ''}`,
+      subject: `[Infinitrade.ro]${aiData ? ` [Lead ${aiData.scor_lead}/10]` : ''}${roleText ? ` [${roleText}]` : ''}${attachment ? ' [Atașament]' : ''} Nouă solicitare de ofertă - ${validatedData.name}${validatedData.company ? ' (' + validatedData.company + ')' : ''}`, // v33.1: text simplu, nu HTML (altfel „A&B” apărea „A&amp;B”); valorile sunt deja validate
       html: emailHtml,
       text: emailText,
       reply_to: validatedData.email,
