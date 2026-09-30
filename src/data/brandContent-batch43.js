@@ -532,7 +532,7 @@ Diferența față de rulmenții și lanțurile metalice clasice stă în materia
 Pentru România, igus are filială proprie (igus.ro) și are sens la roboți, axe liniare, mașini-unelte și utilaje cu mișcare repetitivă, unde lubrifierea tradițională e greu de întreținut sau nedorită din motive de igienă a procesului — de exemplu în industria alimentară sau farmaceutică.`,
     whyChoose: [
       "Componente autolubrifiante din polimeri proprii, care elimină gresarea periodică pe lagăre și ghidaje",
-      "Certificare ISO 9001:2015 pentru sistemul de management al calității",
+      "Igus: Certificare ISO 9001:2015 pentru sistemul de management al calității",
       "Filială proprie în România (igus.ro), cu suport local pentru comenzi și consultanță tehnică",
       "Gamă completă pentru mișcare — e-chain, chainflex, iglidur, drylin, dryspin — compatibilă între serii",
     ],

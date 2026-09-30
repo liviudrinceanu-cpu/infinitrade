@@ -133,7 +133,14 @@ async function loadPages(ctx) {
   try {
     const mod = await importFile('brandContent.js');
     const brandContent = mod.brandContent || mod.default || {};
-    return { pages: Object.entries(brandContent), ok: true };
+    // v33.2: brandurile secundare din duplicateBrands.js nu mai sunt pagini
+    // (301 spre brandul principal din v31), deci nu intră în comparație.
+    let secondaries = new Set();
+    try {
+      const dup = await importFile('duplicateBrands.js');
+      secondaries = new Set(Object.keys(dup.DUPLICATE_BRANDS || {}));
+    } catch (e) { /* fără listă: se compară toate intrările */ }
+    return { pages: Object.entries(brandContent).filter(([slug]) => !secondaries.has(slug)), ok: true };
   } catch (err) {
     return { ok: false, error: err.message };
   } finally {

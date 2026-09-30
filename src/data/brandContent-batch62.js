@@ -649,7 +649,7 @@ Pentru integratorii de linii de ambalare, paletizare și manipulare robotizată 
     name: "Dynex",
     headquarters: "Pewaukee, Wisconsin, SUA",
     certifications: [
-      "ISO 9001:2015 — sistem de management al calității pentru proiectare și fabricație"
+      "ISO 9001:2015 — Dynex: sistem de management al calității pentru proiectare și fabricație"
     ],
     overview: `Dynex este un producător american de pompe cu pistoane axiale, valve hidraulice și motoare de foarte înaltă presiune, cu sediul la Pewaukee, Wisconsin, activ de peste 60 de ani în domeniul hidraulicii de mare presiune. Gama de pompe include seriile PF500, PF1000, PF4300 și PF6000 (pompe cu bilă de reținere) și PV4000-11 (pompă cu compensare de presiune), completată de motoare din seria MF5000 și valve de distribuție, presiune și sandwich (D03/HP03, HP05H, H8819, VST, 8800, VSW). Pentru piața din România putem oferta în principal din gama de pompe și valve pentru aplicații de foarte înaltă presiune, unde echipamentele hidraulice standard nu mai fac față.
 

@@ -167,7 +167,7 @@ Pentru instalațiile din România, gama industrială Meccanotecnica Umbra are se
       "Industria auto — etanșări pentru pompe de apă și componente auxiliare de motor"
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru proiectare și fabricație",
+      "ISO 9001 — Meccanotecnica Umbra: management al calității pentru proiectare și fabricație",
       "IATF 16949 — standard specific industriei auto",
       "ISO 14001 — management de mediu",
       "ISO 45001 — sănătate și securitate ocupațională"

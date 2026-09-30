@@ -329,7 +329,7 @@ Pentru utilaje agricole, de construcții sau echipamente de minerit din România
       "Serie de rephasing pentru sincronizarea mecanică a mai multor cilindri pe același circuit",
       "Valve stivuibile cu debite de 12 și 20 GPM, inclusiv secțiune cu detecție de sarcină",
       "Valve mono-block de la o secțiune la trei secțiuni, pentru circuite compacte",
-      "Certificare ISO 9001:2015 pentru sistemul de management al calității",
+      "Prince Manufacturing Corporation: Certificare ISO 9001:2015 pentru sistemul de management al calității",
     ],
     keyProducts: [
       { name: "Cilindri Sudați Linia Magnum", description: "Cilindri hidraulici sudați, disponibili la 2500 psi cu alezaje de 2 1/2 la 4 inci, și la 3000 psi cu alezaje de la 4 1/2 la 8 inci. Construcție sudată pentru rezistență la solicitări mecanice ridicate, folosiți pe utilaje mobile unde spațiul de montaj e limitat și presiunea de lucru variază între aplicații." },

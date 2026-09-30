@@ -296,7 +296,7 @@ Pentru operatorii de rețele și antreprenorii din România, JCM oferă o soluț
     faq: [
       { q: "Ce fabrică JCM Industries?", a: "JCM Industries produce coliere de reparație, cuplaje de conectare și șei de racordare pentru conducte de apă și apă uzată, pe diametre de la 1/2 inch la 144 inch și peste, în fontă, PVC, PEID sau oțel." },
       { q: "Cum aleg colierul de reparație JCM potrivit?", a: "Trimiteți diametrul exterior real al conductei, măsurat pe teren, materialul conductei și lungimea zonei deteriorate. Pe baza acestor date identificăm modelul din gama de coliere sau manșoane care acoperă intervalul respectiv." },
-      { q: "Livrați fitinguri JCM Industries în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de diametru și material. Gama vine la comandă; nu o ținem pe raft." },
+      { q: "Livrați fitinguri JCM Industries în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de diametru și material. Gama JCM Industries vine la comandă; nu o ținem pe raft." },
       { q: "Ce echivalent are gama JCM față de cuplajele Krausz?", a: "În categoria fitingurilor de reparație pentru apă, JCM se compară cu Krausz Industries; diferența ține de structura numerotării modelelor și de gama de fitinguri inginerești disponibile la cerere pentru diametre nestandard." }
     ],
     evidenceClass: "market-signal-intl",

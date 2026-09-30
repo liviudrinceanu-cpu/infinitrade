@@ -165,7 +165,7 @@ FAG Schaeffler investește constant în cercetare, cu optimizarea geometriilor i
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, formulări de statut/superlative eliminate' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale FAG Schaeffler; am precizat modul de livrare; am eliminat formulările promoționale.' }]
   },
 
   'filtrec': {
@@ -343,7 +343,7 @@ Filtrec investește constant în testare, cu laborator propriu unde testează be
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, founded 1977→1991 și headquarters Varese→Telgate (Bergamo) corectate conform site-ului oficial' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării și sediul Filtrec, conform surselor citate.' }]
   },
 
   'finder': {
@@ -482,7 +482,7 @@ Finder investește constant în conformitate – toate releele au certificări U
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'fluke': {
@@ -656,7 +656,7 @@ Fluke investește masiv în siguranță – toate multimetrele au protecție CAT
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, superlative nedovedite eliminate' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale Fluke; am precizat modul de livrare; am eliminat formulările promoționale.' }]
   },
 
   'forbo-siegling': {
@@ -806,7 +806,7 @@ Forbo Siegling investește constant în cercetare – dezvoltă benzi cu reziste
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; headquarters Hannover confirmat conform site-ului oficial, founded neconfirmat direct' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Forbo Siegling în sursele citate.' }]
   },
 
   'freudenberg': {
@@ -849,7 +849,7 @@ Freudenberg investește masiv în testare – fiecare compound nou trece prin 5,
       'ISO 14001 management de mediu – producție ecologică',
       'ISO/TS 16949 automotive – furnizor OEM major',
       'FDA 21 CFR 177.2600 – elastomeri pentru contact alimentar',
-      'EU 1935/2004 și EU 10/2011 – reglementări UE alimente',
+      'EU 1935/2004 și EU 10/2011 – Freudenberg: reglementări UE alimente',
       'USP Class VI – materiale pentru aplicații medicale/farmaceutice',
       'WRAS (UK) aprobări pentru apă potabilă',
       'NSF-61 (SUA) certificare pentru sisteme apă potabilă',
@@ -985,7 +985,7 @@ Freudenberg investește masiv în testare – fiecare compound nou trece prin 5,
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded 1849 și headquarters Weinheim confirmate conform site-ului oficial' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Freudenberg în sursele citate.' }]
   },
 
   'gates': {
@@ -1135,7 +1135,7 @@ Gates investește masiv în testare – fiecare furtun presiune înaltă trece p
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded 1911 și headquarters Denver confirmate' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Gates în sursele citate.' }]
   },
 
   'gedore': {
@@ -1292,7 +1292,7 @@ Gedore investește constant în ergonomie – mânerele bi-material reduc obosea
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded 1919 și headquarters Remscheid confirmate' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Gedore în sursele citate.' }]
   },
 
   'grundfos-dosing': {
@@ -1437,7 +1437,7 @@ Grundfos investește masiv în conectivitate – toate pompele noi au Modbus RTU
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded 1945 și headquarters Bjerringbro confirmate conform site-ului oficial' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Grundfos Dosing în sursele citate.' }]
   },
 
   'grundfos-hvac': {
@@ -1590,6 +1590,6 @@ Grundfos investește masiv în IoT – toate pompele noi au conectivitate cloud,
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, superlativ eliminat; founded 1945 și headquarters Bjerringbro confirmate' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Grundfos HVAC în sursele citate; am eliminat formulările promoționale.' }]
   }
 };

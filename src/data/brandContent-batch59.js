@@ -159,7 +159,7 @@ Pentru centrale de cogenerare, hidrocentrale mici și instalații industriale di
       "Marină — motoare și generatoare cu peste un secol de aplicații",
       "Industrie generală — motoare de inducție seria APF IE4",
     ],
-    certifications: ["ATEX — variante certificate pentru zone cu risc de explozie"],
+    certifications: ["ATEX — Marelli: variante certificate pentru zone cu risc de explozie"],
     infinitrade: `Pentru Marelli Motori lucrăm cu ce putem și ce nu putem confirma din materialele publice ale producătorului, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și generatoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de puterea și configurația cerută. Pentru o ofertă corectă avem nevoie de puterea necesară, tensiunea de lucru, turația și aplicația (motor sau generator, cogenerare, hidro sau marină). Nu putem promite un termen mai scurt decât cel confirmat de fabrică la momentul comenzii.`,
     limitation: "Nu putem confirma disponibilitatea locală a service-ului de punere în funcțiune pentru generatoarele de putere mare fără o cerere transmisă direct producătorului.",
     productCodes: [

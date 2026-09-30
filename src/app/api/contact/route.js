@@ -892,7 +892,7 @@ Răspunde direct la: ${validatedData.email}
 
     if (!emailClient) {
       return Response.json(
-        { error: 'Serviciul de email nu este configurat.' },
+        { error: 'Cererea nu a putut fi trimisă din cauza unei probleme tehnice. Vă rugăm să ne scrieți la vanzari@infinitrade-romania.ro sau să ne sunați la +40 371 232 404.' },
         { status: 500 }
       );
     }
@@ -909,7 +909,7 @@ Răspunde direct la: ${validatedData.email}
 
     if (error) {
       return Response.json(
-        { error: 'Eroare la trimiterea emailului. Vă rugăm încercați din nou.' },
+        { error: 'Cererea nu a putut fi trimisă din cauza unei probleme tehnice. Vă rugăm să ne scrieți la vanzari@infinitrade-romania.ro sau să ne sunați la +40 371 232 404.' },
         { status: 500 }
       );
     }
@@ -923,7 +923,7 @@ Răspunde direct la: ${validatedData.email}
     // Don't expose internal errors in production
     const errorMessage = process.env.NODE_ENV === 'development' 
       ? error.message 
-      : 'Eroare internă. Vă rugăm încercați din nou.';
+      : 'Cererea nu a putut fi trimisă din cauza unei probleme tehnice. Vă rugăm să ne scrieți la vanzari@infinitrade-romania.ro sau să ne sunați la +40 371 232 404.';
     
     return Response.json(
       { error: errorMessage },

@@ -133,7 +133,7 @@ Ceea ce diferențiază IFM este abordarea sistemică: nu doar senzori, ci soluț
     limitation: 'Nu putem confirma disponibilitatea în timp real a fiecărei referințe IFM și nu oferim configurare avansată a platformei moneo fără implicarea producătorului.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -263,7 +263,7 @@ Internormen produce filtre care îndeplinesc standarde stricte germane și colab
     limitation: 'Nu efectuăm noi analize de laborator ale uleiului hidraulic și nu putem garanta disponibilitate neîntreruptă pentru toate dimensiunile de filtre Internormen.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -418,7 +418,7 @@ Ceea ce diferențiază Jean Müller este consecvența calității: fiecare sigur
     limitation: 'Nu calculăm noi selectivitatea instalației electrice și nu putem garanta disponibilitate neîntreruptă pentru toate calibrele de siguranțe Jean Müller.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -550,7 +550,7 @@ Ceea ce face JUMO preferat de inginerii de proces este versatilitatea: același 
     limitation: 'Nu efectuăm calibrări acreditate DAkkS în nume propriu și nu configurăm software-ul platformelor AQUIS/mTRON pentru procesul specific al clientului.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -689,7 +689,7 @@ Kärcher investește constant în cercetare și dezvoltare, cu tehnologii propri
     limitation: 'Nu oferim service în garanția producătorului pentru utilajele Kärcher și nu putem garanta disponibilitate neîntreruptă pentru fiecare model din gama industrială.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -837,7 +837,7 @@ Keller are expertiză extinsă în aplicații extreme: traductoare submersibile 
     limitation: 'Nu emitem noi certificate de calibrare acreditate SAS și nu putem garanta disponibilitate neîntreruptă pentru toate variantele submersibile Keller.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -993,7 +993,7 @@ Ceea ce diferențiază Klüber este suportul tehnic: când cumperi un lubrifiant
     limitation: 'Nu realizăm teste de compatibilitate în laborator propriu pentru lubrifianții Klüber și nu putem garanta disponibilitate neîntreruptă pentru fiecare formulare specială.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -1144,7 +1144,7 @@ Kobold oferă o gamă largă de configurații standard plus posibilitatea de per
     limitation: 'Nu efectuăm recalibrări acreditate pentru instrumentele Kobold și nu putem garanta disponibilitate neîntreruptă pentru toate configurațiile posibile.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -1285,7 +1285,7 @@ Ceea ce diferențiază Krohne este expertiza aplicativă, acumulată din rezolva
     limitation: 'Nu efectuăm punerea în funcțiune pentru aplicații de custody transfer fără implicarea directă a producătorului și nu emitem calibrări acreditate DAkkS proprii.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -1442,7 +1442,7 @@ Fiecare cablu Lapp este conceput pentru rezistență ridicată în condiții ind
     limitation: 'Nu configurăm rețele industriale complexe sau teste EMI pentru cablurile Lapp și nu putem garanta disponibilitate neîntreruptă pentru fiecare secțiune sau lungime.',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   }
 }

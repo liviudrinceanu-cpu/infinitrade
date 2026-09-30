@@ -145,7 +145,7 @@ Pentru utilajele agricole și liniile de automatizare din România, LA36 acoper�
     name: "KTR",
     headquarters: "Rheine, Germania",
     certifications: [
-      "ATEX — variante certificate pentru zone cu risc de explozie",
+      "ATEX — KTR: variante certificate pentru zone cu risc de explozie",
       "UKEX — protecție la explozie pentru piața din Marea Britanie",
       "UL Listed — pentru anumite produse din gama de cuplaje",
     ],

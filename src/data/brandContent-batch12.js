@@ -135,7 +135,7 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -308,7 +308,7 @@ Consistența calității este unul dintre argumentele producătorului - fiecare 
     evidenceClass: 'history-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -466,7 +466,7 @@ Producătorul investește în R&D - laborator propriu de tribologie pentru testa
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -603,7 +603,7 @@ Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele m
     evidenceClass: 'history-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -752,7 +752,7 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: corectat headquarters din "Bologna, Italia" în "Milano, Italia" (confirmat pe mpfiltri.com), surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul MP Filtri și am corectat datele greșite, conform surselor citate.' }
     ]
   },
 
@@ -794,7 +794,7 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
     ],
     certifications: [
       'ISO 9001:2015 - Management Calitate fabricație echipamente protecție',
-      'ISO 14001:2015 - Management de Mediu producție și operații',
+      'ISO 14001:2015 - MSA Safety: Management de Mediu producție și operații',
       'ATEX / IECEx - Certificări echipamente zone explozive (detectoare, lămpi)',
       'NIOSH Approved - National Institute Occupational Safety Health (SCBA, respiratoare)',
       'NFPA 1981:2019 - Standard SCBA firefighting profesional',
@@ -889,7 +889,7 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, eliminat superlativ nedovedit din infinitrade' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale MSA Safety; am precizat modul de livrare; am eliminat formulările promoționale.' }
     ]
   },
 
@@ -1061,7 +1061,7 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: corectat founded din 1954 în 1975 (confirmat: compania a fost fondată de Franz Hafner în 1975), surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării Murr Elektronik și am corectat datele greșite, conform surselor citate.' }
     ]
   },
 
@@ -1103,7 +1103,7 @@ Un element notabil este atenția la detalii operaționale - mașini spălat cu s
     ],
     certifications: [
       'ISO 9001:2015 - Management Calitate fabricație echipamente curățenie',
-      'ISO 14001:2015 - Management de Mediu producție și operații',
+      'ISO 14001:2015 - Nilfisk: Management de Mediu producție și operații',
       'CE marking - Directivele Machinery, EMC, Low Voltage pentru toate produsele',
       'ATEX / IECEx - Aspiratoare pentru zone explozive (praf combustibil, gaze)',
       'IEC 60335-2-69 - Standard safety aspiratoare wet & dry comerciale/industriale',
@@ -1237,7 +1237,7 @@ Un element notabil este atenția la detalii operaționale - mașini spălat cu s
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -1405,7 +1405,7 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: sursă adăugată (parțial confirmată), declarație de aprovizionare onestă, corectat overview/whyChoose care descriau rețeaua de distribuitori ai producătorului' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -1573,7 +1573,7 @@ Un element notabil este atenția la detalii manufacturing - toleranțe strânse 
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   }
 }

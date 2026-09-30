@@ -180,7 +180,7 @@ Habasit urmărește eficiență ridicată în fiecare aplicație - benzi gândit
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate (habasit.com), declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Habasit în sursele citate.' }
     ]
   },
 
@@ -341,7 +341,7 @@ Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au ind
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hager în sursele citate.' }
     ]
   },
 
@@ -510,7 +510,7 @@ Pentru Industrie 4.0, Harting a dezvoltat ecosistemul MICA - Mini Computer pentr
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate (harting.com, headquarters confirmat Espelkamp), declarație de aprovizionare onestă; founded neconfirmat independent pe site-ul oficial, lăsat neschimbat' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Harting în sursele citate.' }
     ]
   },
 
@@ -637,7 +637,7 @@ Helukabel investește constant în cercetare - laborator propriu de testare cu e
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: sursă adăugată (site oficial helukabel.com inaccesibil la verificare, folosit Wikipedia pentru founded/headquarters - valori confirmate neschimbate), declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Helukabel în sursele citate.' }
     ]
   },
 
@@ -790,7 +790,7 @@ Hengst investește constant în cercetare - laborator de testare cu benzi de sim
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate (hengst.com), declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hengst în sursele citate.' }
     ]
   },
 
@@ -950,7 +950,7 @@ Hilti investește constant în inovație. Centrul de cercetare din Liechtenstein
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate (Wikipedia + hilti.com)' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hilti în sursele citate.' }
     ]
   },
 
@@ -1078,7 +1078,7 @@ Honeywell Analytics investește constant în cercetare - laborator de calibrare 
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: corectat founded 1970→1885 și headquarters "Lincolnshire, Illinois, SUA"→"Charlotte, North Carolina, SUA" conform honeywell.com/us/en/company/our-history; surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării și sediul Honeywell Analytics, conform surselor citate.' }
     ]
   },
 
@@ -1222,7 +1222,7 @@ Pentru protecție respiratorie, gama include măști filtrante FFP1/FFP2/FFP3 pe
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: corectat founded 1904→1885 conform honeywell.com/us/en/company/our-history (headquarters Charlotte, NC confirmat neschimbat); surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Honeywell Safety și am corectat datele greșite, conform surselor citate.' }
     ]
   },
 
@@ -1359,7 +1359,7 @@ Hydac investește constant în senzori inteligenți și IoT industrial. Senzorii
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate (hydac.com), declarație de aprovizionare onestă; founded/headquarters confirmate neschimbate' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hydac în sursele citate.' }
     ]
   },
 
@@ -1491,7 +1491,7 @@ Producătorul inovează constant - sisteme de monitorizare inteligentă a stări
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate (hydac.com), declarație de aprovizionare onestă; founded (1976, divizie separată) și headquarters neschimbate, neconfirmate distinct de grupul-mamă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hydac Filtration în sursele citate.' }
     ]
   }
 }

@@ -129,7 +129,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'daikin': {
@@ -290,7 +290,7 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'dehn': {
@@ -455,7 +455,7 @@ DEHN a dezvoltat conceptul de protecție împotriva trăsnetului în zone cu ris
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'dewalt': {
@@ -600,7 +600,7 @@ Gama DeWalt include peste 200 de tipuri de scule electrice, toate testate în co
     ],
     evidenceClass: 'history-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'drager': {
@@ -730,7 +730,7 @@ Aparatele de respirat cu aer comprimat (SCBA) Dräger echipează pompieri din to
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'dwyer': {
@@ -865,7 +865,7 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'eaton': {
@@ -1011,7 +1011,7 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'eaton-filtration': {
@@ -1166,7 +1166,7 @@ Eaton Filtration are peste 60 de ani de experiență în filtrare industrială: 
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'eaton-hydraulics': {
@@ -1312,7 +1312,7 @@ Sistemul de valve electrohidraulice permite control milimetric al poziției cili
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'emerson': {
@@ -1467,6 +1467,6 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   }
 };

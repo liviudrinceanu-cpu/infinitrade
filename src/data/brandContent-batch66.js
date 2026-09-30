@@ -510,7 +510,7 @@ Pentru operatorii din România cu flote proprii sau depozite de combustibil — 
       "TÜV — management de mediu",
       "TÜV — sănătate și securitate în muncă"
     ],
-    infinitrade: `Furnizăm pompe și dispensere Piusi pentru transfer de combustibil, ulei și AdBlue®, de la butoi până la stații complete de auto-servire pentru flote. Informația despre modele vine din surse publice ale producătorului, fără date proprii de stoc pentru fiecare variantă, iar termenul orientativ de livrare este 1–4 săptămâni de la comandă, în funcție de confirmarea producătorului pentru configurația cerută. Pentru ofertă avem nevoie de fluidul transferat (motorină, ulei, AdBlue®), debitul dorit și tensiunea de alimentare disponibilă la punctul de montaj. Nu promitem disponibilitate din depozit pe niciun model din gamă.`,
+    infinitrade: `Furnizăm pompe și dispensere Piusi pentru transfer de combustibil, ulei și AdBlue®, de la butoi până la stații complete de auto-servire pentru flote. Informația despre modele vine din surse publice ale producătorului, fără date proprii de stoc pentru fiecare variantă, iar termenul orientativ de livrare este 1–4 săptămâni de la comandă, în funcție de confirmarea producătorului pentru configurația cerută. Pentru ofertă avem nevoie de fluidul transferat (motorină, ulei, AdBlue®), debitul dorit și tensiunea de alimentare disponibilă la punctul de montaj. Pentru Piusi nu promitem disponibilitate din depozit pe niciun model din gamă.`,
     limitation: "Nu putem confirma configurarea sau integrarea sistemului cloud al variantelor B.Smart cu softul de gestiune al flotei clientului.",
     productCodes: [
       { code: "PANTHER EX", description: "Pompă electrică de transfer diesel/HVO/XTL și benzină" },

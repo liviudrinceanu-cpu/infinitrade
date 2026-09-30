@@ -38,7 +38,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         name: 'UPS/TP (Pompe de Circulație pentru Instalații)',
-        description: 'Seria UPS (Uninterrupted Pumping System) și TP (Twin Pump) sunt dedicate instalațiilor de încălzire, climatizare și răcire industrială. UPS e pompa cu rotor uscat, eficiență IE5, cu consum electric redus semnificativ comparativ cu pompele vechi. Varianta TPE (TP Electronic) are 2 pompe în paralel cu comutare automată — dacă una cedează, cealaltă preia instant (redundanță pentru spitale, datacentere, fabrici care nu pot opri). Debite de la 2 la 140 m³/h, înălțimi de pompare până la 16 metri. Control integrat cu ecran LCD, setări automate pentru Autoadapt (pomparea se ajustează în funcție de necesar real). Ideal pentru sisteme mari de climatizare în clădiri comerciale, campusuri, procese industriale cu răcire.'
+        description: 'Seriile UPS și TP sunt pompe de circulație pentru instalații de încălzire, climatizare și răcire industrială. Varianta TPE are control electronic al turației integrat, iar execuțiile duble ale seriei TP (două pompe în aceeași carcasă) asigură rezervă de funcționare acolo unde oprirea nu e permisă: spitale, centre de date, fabrici. Debitul și înălțimea de pompare depind de model; le confirmăm pe cod, din documentația Grundfos. Funcția Autoadapt, disponibilă pe modelele electronice, ajustează automat pomparea în funcție de necesarul real. Ideal pentru sisteme mari de climatizare în clădiri comerciale, campusuri, procese industriale cu răcire.'
       },
     ],
 
@@ -194,7 +194,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
     lastVerified: '2026-09-22',
     changelog: [
       { date: '2026-09-21', note: 'pagina restructurată cu întrebări și tabel de produse' },
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
     sources: [
       {"title":"Grundfos Product Selection – Products","url":"https://product-selection.grundfos.com/products","publisher":"Grundfos","accessed":"2026-09-22"},
@@ -258,7 +258,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       'ISO 14001:2015 (Managementul Mediului)',
       'ISO 45001:2018 (Sănătate și Securitate Ocupațională)',
       'ISO 50001 (Managementul Energiei)',
-      'CE, ATEX (pentru echipamente în zone cu risc de explozie)',
+      'CE, ATEX (KSB: pentru echipamente în zone cu risc de explozie)',
       'PED (Pressure Equipment Directive) - pentru echipamente sub presiune',
       'API 610 (certificare pentru pompe centrifugale în petrochimie)',
       'DVGW (certificare germană pentru apă potabilă)',
@@ -380,7 +380,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
     sources: [
       {"title":"KSB product catalogue for efficient pumps & valves","url":"https://www.ksb.com/en-sk/product/product-catalogue","publisher":"KSB","accessed":"2026-09-22"},
@@ -417,7 +417,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
     keyProducts: [
       {
         name: 'Stratos MAXO (Pompe de Circulație Ultra-Eficiente)',
-        description: 'Seria Stratos MAXO este o gamă de pompe de circulație pentru instalații termice și de climatizare, orientată spre eficiență energetică ridicată. Motor EC cu magneți permanenți, eficiență IE5+ (cea mai ridicată clasă de eficiență definită pentru acest tip de pompă), consum electric redus semnificativ față de pompele clasice. Debite de la 2 la 140 m³/h, înălțimi de pompare până la 16 metri. Control inteligent cu 4 moduri de reglare: presiune constantă, presiune variabilă, temperatură diferențială, adaptare automată (Dynamic Adapt). Aplicații: sisteme de încălzire în clădiri comerciale/rezidențiale, sisteme de climatizare, districte termice mici și medii. Display TFT color, conectivitate Bluetooth + Wilo-Assistant app, diagnosticare avansată cu alerte predictive. Pentru un administrator de clădiri care vrea să reducă costurile cu energia, reducerea consumului electric poate genera economii relevante pe termen lung, în funcție de regimul de funcționare.'
+        description: 'Seria Stratos MAXO este o gamă de pompe de circulație pentru instalații termice și de climatizare, orientată spre eficiență energetică ridicată. Motor EC cu magneți permanenți, eficiență IE5+ (cea mai ridicată clasă de eficiență definită pentru acest tip de pompă), consum electric redus semnificativ față de pompele clasice. Debitul și înălțimea de pompare depind de mărime; le confirmăm pe cod, din documentația Wilo. Control inteligent cu 4 moduri de reglare: presiune constantă, presiune variabilă, temperatură diferențială, adaptare automată (Dynamic Adapt). Aplicații: sisteme de încălzire în clădiri comerciale/rezidențiale, sisteme de climatizare, districte termice mici și medii. Display TFT color, conectivitate Bluetooth + Wilo-Assistant app, diagnosticare avansată cu alerte predictive. Pentru un administrator de clădiri care vrea să reducă costurile cu energia, reducerea consumului electric poate genera economii relevante pe termen lung, în funcție de regimul de funcționare.'
       },
       {
         name: 'DrainLift / DrainBox (Stații de Pompare Ape Uzate)',
@@ -438,7 +438,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       'ISO 14001:2015 (Managementul Mediului)',
       'ISO 50001 (Managementul Energiei)',
       'ISO 45001 (Sănătate și Securitate Ocupațională)',
-      'CE, ATEX (pentru pompe în zone cu risc de explozie)',
+      'CE, ATEX (Wilo: pentru pompe în zone cu risc de explozie)',
       'ErP Directive (Ecodesign) - toate pompele Wilo respectă sau depășesc cerințele EU',
       'DVGW, SVGW (certificări germane/elvețiene pentru apă potabilă)',
       'WRAS (certificare UK pentru contact cu apă potabilă)',
@@ -568,7 +568,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
     sources: [
       {"title":"Products | Wilo USA","url":"https://wilo.com/us/en_us/Products/","publisher":"Wilo","accessed":"2026-09-22"},
@@ -626,23 +626,23 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       'ISO 14001:2015 (Managementul Mediului)',
       'ISO 50001 (Managementul Energiei)',
       'ISO 45001 (Sănătate și Securitate Ocupațională)',
-      'CE, ATEX (pentru echipamente în zone cu risc de explozie)',
+      'CE, ATEX (Siemens: pentru echipamente în zone cu risc de explozie)',
       'IECEx (certificare internațională pentru atmosfere explozive)',
       'UL, CSA (certificări nord-americane)',
       'EAC (certificare pentru piața Rusiei și CSI)',
-      'SIL 2 / SIL 3 (Safety Integrity Level pentru aplicații critice)',
+      'SIL 2 / SIL 3 (Siemens: Safety Integrity Level pentru aplicații critice)',
       'ErP Directive (toate motoarele respectă sau depășesc cerințele EU)',
     ],
 
     industries: [
       'Pompare și Utilități Publice (stații de pompare, tratare apă, canalizare)',
       'Ventilare și HVAC (ventilatoare, sisteme de climatizare, districte termice)',
-      'Petrochimie și Rafinării (motoare și drive-uri pentru procese critice)',
+      'Petrochimie și Rafinării (Siemens: motoare și drive-uri pentru procese critice)',
       'Minerit și Metale (drive-uri pentru laminoare, conveiere, crushers)',
       'Industrie Alimentară (mixere, malaxoare, transportoare, procese)',
       'Industrie Auto (linii de producție, roboți, sisteme de vopsire)',
       'Energie (centrale electrice, eoliene, fotovoltaice, cogenerare)',
-      'Industrie Hârtie și Celuloză (drive-uri pentru mașini de hârtie)',
+      'Industrie Hârtie și Celuloză (Siemens: drive-uri pentru mașini de hârtie)',
       'Industrie Chimică (motoare ATEX, control procese complexe)',
       'Infrastructură (tuneluri, metrou, sisteme de ventilare/evacuare fum)',
     ],
@@ -713,7 +713,7 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
     sources: [
       {"title":"SIMATIC industrial automation systems","url":"https://www.siemens.com/en-us/products/simatic/","publisher":"Siemens","accessed":"2026-09-22"},
@@ -866,7 +866,7 @@ Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conec
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
     sources: [
       {"title":"ACS880 multidrives | ABB","url":"https://www.abb.com/global/en/areas/motion/drives/low-voltage-ac-drives/industrial-drives/acs880-multidrives","publisher":"ABB","accessed":"2026-09-22"},

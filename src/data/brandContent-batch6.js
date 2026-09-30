@@ -146,7 +146,7 @@ Sistemele PC-based Beckhoff sunt alese în automotive, packaging, semiconductor 
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'boll-kirch': {
@@ -281,7 +281,7 @@ Filtrele Boll & Kirch sunt folosite în oil&gas, chimie, marine și metalurgie p
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, founded 1946→1950 și headquarters Steinbach→Kerpen corectate conform site-ului oficial' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării și sediul Boll & Kirch, conform surselor citate.' }]
   },
 
   'bosch-professional': {
@@ -420,7 +420,7 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'br-automation': {
@@ -559,7 +559,7 @@ Clienții din industria auto și packaging aleg B&R pentru un cost total de deț
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'bucher-hydraulics': {
@@ -698,7 +698,7 @@ Pompele Bucher sunt alese în construcții și de integratori OEM pentru robuste
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'burkert-sensors': {
@@ -828,7 +828,7 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate - fieca
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'caleffi-thermal': {
@@ -987,7 +987,7 @@ Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitatea
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'camozzi': {
@@ -1141,7 +1141,7 @@ Clienții OEM din packaging, automotive și woodworking aleg Camozzi pentru posi
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'carrier': {
@@ -1270,7 +1270,7 @@ Clienții corporate și facility managers aleg Carrier pentru costul total de de
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; cheia necunoscută chiller mutată ca text în industries' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'castrol': {
@@ -1400,6 +1400,6 @@ Clienții din automotive, aerospace și prelucrări mecanice aleg Castrol pentru
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă; headquarters Londra→Pangbourne corectat conform Wikipedia' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Castrol, conform surselor citate.' }]
   }
 };
