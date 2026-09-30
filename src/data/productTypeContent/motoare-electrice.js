@@ -64,7 +64,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de motor asincron și în cât timp se livrează?",
-        "a": "Sunt necesare puterea, turația, tensiunea de alimentare, clasa de protecție și tipul de montaj, plus plăcuța motorului înlocuit dacă există. Termenul de livrare este la comandă, de regulă între 2 și 4 săptămâni, în funcție de putere și de producătorul ales."
+        "a": "Sunt necesare puterea, turația, tensiunea de alimentare, clasa de protecție și tipul de montaj, plus plăcuța motorului înlocuit dacă există. Termenul de livrare este la comandă, de regulă între 1 și 4 săptămâni, în funcție de putere și de producătorul ales."
       },
       {
         "q": "Un motor asincron standard poate fi folosit cu un convertizor de frecvență?",

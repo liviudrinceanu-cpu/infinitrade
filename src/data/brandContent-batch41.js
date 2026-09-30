@@ -108,7 +108,7 @@ Pentru România, Siko are sens la retehnologizarea mașinilor-unelte, la utilaje
       },
       {
         "q": "Livrați senzori SIKO în România?",
-        "a": "Da, aducem la comandă encodere, senzori magnetici, traductoare cu cablu și inclinometre din gama descrisă mai sus, pe baza documentației tehnice publice a producătorului; nu ținem această gamă pe raft. Termenul uzual variază între 2 și 4 săptămâni, în funcție de model și de configurația solicitată. Pentru o ofertă corectă, transmiteți tipul de senzor, cursa sau unghiul de măsurare și interfața de ieșire dorită."
+        "a": "Da, aducem la comandă encodere, senzori magnetici, traductoare cu cablu și inclinometre din gama descrisă mai sus, pe baza documentației tehnice publice a producătorului; nu ținem această gamă pe raft. Termenul uzual variază între 1 și 4 săptămâni, în funcție de model și de configurația solicitată. Pentru o ofertă corectă, transmiteți tipul de senzor, cursa sau unghiul de măsurare și interfața de ieșire dorită."
       }
     ],
     evidenceClass: "market-signal-ro",

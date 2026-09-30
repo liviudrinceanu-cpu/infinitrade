@@ -898,7 +898,7 @@ Pentru România, componentele Rulmeca au sens la benzile transportoare din miner
       },
       {
         "q": "Livrați motoare tambur Rulmeca în România?",
-        "a": "Da, procurăm la comandă motoarele tambur Rulmeca din gamele prezentate mai sus, conform cataloagelor tehnice publicate de producător; dimensiunile mari nu sunt păstrate curent în depozit propriu. Așteptarea tipică este între 2 și 4 săptămâni, în funcție de diametrul și puterea alese."
+        "a": "Da, procurăm la comandă motoarele tambur Rulmeca din gamele prezentate mai sus, conform cataloagelor tehnice publicate de producător; dimensiunile mari nu sunt păstrate curent în depozit propriu. Așteptarea tipică este între 1 și 4 săptămâni, în funcție de diametrul și puterea alese."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de motor tambur Rulmeca?",

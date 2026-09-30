@@ -349,7 +349,7 @@ Pentru ateliere de prelucrare din România care întrețin mașini de șlefuit s
       },
       {
         "q": "Livrați rulmenți și spindle-uri GMN în România?",
-        "a": "Da, componentele GMN se procură punctual din catalogul producătorului, cu un termen orientativ între 2 și 4 săptămâni, pentru că gama de spindle-uri și rulmenți de precizie nu este ținută pe raft din cauza complexității tehnice. Pentru o ofertă corectă avem nevoie de turația de lucru dorită, tipul de prelucrare și dimensiunile arborelui sau ale carcasei existente."
+        "a": "Da, componentele GMN se procură punctual din catalogul producătorului, cu un termen orientativ între 1 și 4 săptămâni, pentru că gama de spindle-uri și rulmenți de precizie nu este ținută pe raft din cauza complexității tehnice. Pentru o ofertă corectă avem nevoie de turația de lucru dorită, tipul de prelucrare și dimensiunile arborelui sau ale carcasei existente."
       },
       {
         "q": "Ce rol au rulmenții de siguranță touchdown la GMN?",
@@ -610,7 +610,7 @@ Pentru mentenanța industrială din România, gama Nord-Lock are sens mai ales l
       },
       {
         "q": "Livrați șaibe și tensionoare Nord-Lock în România?",
-        "a": "Da, șaibele și tensionoarele Nord-Lock se procură punctual, cu un termen tipic cuprins între 2 și 4 săptămâni, pentru că numărul mare de dimensiuni și materiale nu permite menținerea unui stoc propriu pe raft. Pentru o ofertă corectă avem nevoie de diametrul șurubului, materialul dorit și dacă aplicația necesită tensionare cu chei dinamometrice sau cu sistemul Superbolt."
+        "a": "Da, șaibele și tensionoarele Nord-Lock se procură punctual, cu un termen tipic cuprins între 1 și 4 săptămâni, pentru că numărul mare de dimensiuni și materiale nu permite menținerea unui stoc propriu pe raft. Pentru o ofertă corectă avem nevoie de diametrul șurubului, materialul dorit și dacă aplicația necesită tensionare cu chei dinamometrice sau cu sistemul Superbolt."
       },
       {
         "q": "Ce este sistemul de tensionare Superbolt de la Nord-Lock?",
@@ -878,7 +878,7 @@ Pentru flote auto, utilaje industriale sau echipamente hidraulice din România, 
       },
       {
         "q": "Livrați filtre UFI Filters în România?",
-        "a": "Da, filtrele UFI Filters se procură punctual, cu un termen orientativ cuprins între 2 și 4 săptămâni, întrucât gama acoperă un număr foarte mare de coduri pentru vehicule și echipamente și nu este ținută integral pe raft. Pentru o ofertă corectă avem nevoie de marca și modelul vehiculului sau echipamentului, precum și codul original ori codul UFI cunoscut."
+        "a": "Da, filtrele UFI Filters se procură punctual, cu un termen orientativ cuprins între 1 și 4 săptămâni, întrucât gama acoperă un număr foarte mare de coduri pentru vehicule și echipamente și nu este ținută integral pe raft. Pentru o ofertă corectă avem nevoie de marca și modelul vehiculului sau echipamentului, precum și codul original ori codul UFI cunoscut."
       },
       {
         "q": "Ce este sistemul UFI MULTITUBE pentru filtrarea aerului motor?",

@@ -242,7 +242,7 @@ Pentru instalațiile din România, gama Tramec are sens la benzi transportoare, 
       },
       {
         "q": "Livrați reductoare Tramec în România?",
-        "a": "Da, reductoarele Tramec sunt aduse la comandă direct din gama publicată de producător, fără o linie proprie păstrată în depozit. Timpul obișnuit este între 2 și 4 săptămâni, în funcție de mărimea carcasei și de raportul de reducere ales. Vă recomandăm să confirmați seria exactă înainte de a solicita oferta."
+        "a": "Da, reductoarele Tramec sunt aduse la comandă direct din gama publicată de producător, fără o linie proprie păstrată în depozit. Timpul obișnuit este între 1 și 4 săptămâni, în funcție de mărimea carcasei și de raportul de reducere ales. Vă recomandăm să confirmați seria exactă înainte de a solicita oferta."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de reductor Tramec?",
@@ -1373,7 +1373,7 @@ Pentru România, gama Trafag are sens la echipamente hidraulice industriale, mat
       },
       {
         "q": "Livrați traductoare Trafag în România?",
-        "a": "Da, traductoarele și presostatele Trafag ajung la comandă, pe baza gamei publicate de producător, fără o rezervă proprie păstrată pe stoc. Termenul obișnuit variază între 2 și 4 săptămâni, în funcție de domeniul de presiune și de tipul de conexiune electrică solicitat. Recomandăm confirmarea codului complet al seriei înainte de comandă."
+        "a": "Da, traductoarele și presostatele Trafag ajung la comandă, pe baza gamei publicate de producător, fără o rezervă proprie păstrată pe stoc. Termenul obișnuit variază între 1 și 4 săptămâni, în funcție de domeniul de presiune și de tipul de conexiune electrică solicitat. Recomandăm confirmarea codului complet al seriei înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de traductor Trafag?",

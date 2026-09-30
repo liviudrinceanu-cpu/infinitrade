@@ -1282,7 +1282,7 @@ Pentru instalațiile industriale din România, Ashcroft are sens la măsurarea p
       },
       {
         "q": "Livrați instrumente de presiune Ashcroft în România?",
-        "a": "Da, instrumentele Ashcroft ajung pe bază de comandă fermă, într-un termen care variază între 2 și 4 săptămâni, pentru că nu depozităm permanent întreaga gamă de manometre și traductoare. Pentru o ofertă corectă avem nevoie de domeniul de presiune dorit, tipul de racord, diametrul cadranului și dacă aplicația necesită o variantă rezistentă la vibrații sau șocuri de presiune."
+        "a": "Da, instrumentele Ashcroft ajung pe bază de comandă fermă, într-un termen care variază între 1 și 4 săptămâni, pentru că nu depozităm permanent întreaga gamă de manometre și traductoare. Pentru o ofertă corectă avem nevoie de domeniul de presiune dorit, tipul de racord, diametrul cadranului și dacă aplicația necesită o variantă rezistentă la vibrații sau șocuri de presiune."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de manometru Ashcroft?",

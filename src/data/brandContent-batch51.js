@@ -839,7 +839,7 @@ Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine indu
       },
       {
         "q": "Livrați unități de filtrare CJC în România?",
-        "a": "Da, procurăm unitățile CJC exclusiv pe bază de comandă fermă, cu un timp de așteptare tipic între 2 și 4 săptămâni, fiindcă nu avem exemplare expuse din această gamă. Pentru o ofertă corectă spuneți-ne tipul de contaminant vizat, apă, particule sau lac, debitul sistemului și volumul total de ulei din instalație."
+        "a": "Da, procurăm unitățile CJC exclusiv pe bază de comandă fermă, cu un timp de așteptare tipic între 1 și 4 săptămâni, fiindcă nu avem exemplare expuse din această gamă. Pentru o ofertă corectă spuneți-ne tipul de contaminant vizat, apă, particule sau lac, debitul sistemului și volumul total de ulei din instalație."
       }
     ],
     evidenceClass: "market-signal-intl",

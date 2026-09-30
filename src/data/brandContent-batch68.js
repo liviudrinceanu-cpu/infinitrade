@@ -234,7 +234,7 @@ Pentru rețelele electrice și stațiile de transformare din România, echipamen
       "ISO/IEC 27001 — securitatea informației",
       "ISO 14001 — management de mediu"
     ],
-    infinitrade: `Pentru Omicron electronics spunem clar ce putem și ce nu putem confirma, pornind doar de la surse publice ale producătorului. Echipamentele Omicron le comandăm prin canale din UE, cu un termen orientativ între 2 și 4 săptămâni de la confirmarea disponibilității. Pentru ofertă avem nevoie de tipul de test necesar (relee de protecție, transformatoare, cabluri sau descărcări parțiale) și, dacă aveți deja licențe Test Universe, versiunea folosită. Nu ținem echipamente Omicron în stoc și nu promitem un termen fix înainte de confirmarea producătorului.`,
+    infinitrade: `Pentru Omicron electronics spunem clar ce putem și ce nu putem confirma, pornind doar de la surse publice ale producătorului. Echipamentele Omicron le comandăm prin canale din UE, cu un termen orientativ între 1 și 4 săptămâni de la confirmarea disponibilității. Pentru ofertă avem nevoie de tipul de test necesar (relee de protecție, transformatoare, cabluri sau descărcări parțiale) și, dacă aveți deja licențe Test Universe, versiunea folosită. Nu ținem echipamente Omicron în stoc și nu promitem un termen fix înainte de confirmarea producătorului.`,
     limitation: "Nu putem confirma configurația exactă de licențe software sau accesoriile incluse la fiecare unitate CMC; acestea se stabilesc punctual cu producătorul pentru fiecare comandă.",
     productCodes: [
       { code: "CMC 310", description: "Unitate compactă de testare relee de protecție" },

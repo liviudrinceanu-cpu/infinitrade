@@ -137,7 +137,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de curele de transmisie?",
-        "a": "Codul sau dimensiunea curelei existente, puterea și turația motorului, distanța dintre axe și tipul de transmisie dorit sunt suficiente pentru o identificare corectă. Termenul de livrare se stabilește după confirmarea comenzii, orientativ între 2 și 4 săptămâni, funcție de producător."
+        "a": "Codul sau dimensiunea curelei existente, puterea și turația motorului, distanța dintre axe și tipul de transmisie dorit sunt suficiente pentru o identificare corectă. Termenul de livrare se stabilește după confirmarea comenzii, orientativ între 1 și 4 săptămâni, funcție de producător."
       },
       {
         "q": "De ce se recomandă schimbarea tuturor curelelor dintr-o transmisie, nu doar a celei uzate?",

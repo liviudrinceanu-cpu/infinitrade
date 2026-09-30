@@ -64,7 +64,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trebuie trimise pentru o ofertă de robineți cu bilă industriali?",
-        "a": "Diametrul nominal, clasa de presiune, fluidul vehiculat, temperatura de lucru, tipul de conexiune și modul de acționare dorit; dacă este o înlocuire, codul de pe plăcuța robinetului existent scurtează mult identificarea. Termenul de livrare se confirmă la comandă, de regulă între 2 și 4 săptămâni, în funcție de producătorul ales."
+        "a": "Diametrul nominal, clasa de presiune, fluidul vehiculat, temperatura de lucru, tipul de conexiune și modul de acționare dorit; dacă este o înlocuire, codul de pe plăcuța robinetului existent scurtează mult identificarea. Termenul de livrare se confirmă la comandă, de regulă între 1 și 4 săptămâni, în funcție de producătorul ales."
       },
       {
         "q": "Ce trebuie verificat înainte de a monta un robinet cu bilă pe o linie cu fluid abraziv?",

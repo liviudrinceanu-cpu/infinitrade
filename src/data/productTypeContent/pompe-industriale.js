@@ -63,7 +63,7 @@ export const productTypes = [
       },
       {
         "q": "Ce informații trebuie trimise pentru o ofertă de pompe centrifugale industriale și cât durează livrarea?",
-        "a": "Sunt necesare debitul și înălțimea de pompare dorite, tipul de fluid, temperatura de lucru, tensiunea de alimentare și cantitatea. Termenul de livrare se stabilește la comandă, orientativ între 2 și 4 săptămâni, în funcție de producător și de configurația aleasă."
+        "a": "Sunt necesare debitul și înălțimea de pompare dorite, tipul de fluid, temperatura de lucru, tensiunea de alimentare și cantitatea. Termenul de livrare se stabilește la comandă, orientativ între 1 și 4 săptămâni, în funcție de producător și de configurația aleasă."
       },
       {
         "q": "Ce piese de schimb trebuie ținute la îndemână pentru o pompă centrifugală industrială?",
