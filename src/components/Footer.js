@@ -219,6 +219,12 @@ export default function Footer() {
             <p className={styles.companyInfo}>
               Brand: Infinitrade Romania | CUI: {config.site.cui}
             </p>
+            <p className={styles.companyInfo}>
+              Din același grup:{' '}
+              <a href="https://www.xeh.ro/" className={styles.columnLink}>
+                XEH.ro – echipamente profesionale HoReCa RM Gastro și REDFOX
+              </a>
+            </p>
           </div>
           <div className={styles.bottomLinks}>
             <Link href="/termeni-si-conditii">Termeni și Condiții</Link>
