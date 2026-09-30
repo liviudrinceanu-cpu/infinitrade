@@ -1,5 +1,17 @@
 # Infinitrade.ro - Documentatie Completa
 
+## ⚠️ REGULI DE AUDIT ȘI CONȚINUT — LECȚII 30.09.2026 (obligatorii, citește înainte de orice lucru)
+Auditurile din 26–28.09 au ratat erori pe care un client le vedea. Cauze și reguli (detalii: `docs/SUPERPROMPT-audit-v2.md`):
+1. **Nu ascunde „datorii acceptate”** din raport — raportează-le mereu, cu număr și exemplu (G14 exclus a ascuns cifre identice Grundfos/Wilo).
+2. **Auditează ce vede clientul, pe 100% din pagini** (`scripts/audit/live-audit.browser.js` în browser pe www.infinitrade.ro), nu cod/eșantion. Orice câmp randat e public: notele interne nu intră niciodată în câmpuri afișate (175 de pagini afișau „reparație: … 429 … Wikipedia”).
+3. **„Are surse” ≠ „sursa confirmă”.** Fiecare afirmație (cifră, acronim explicat, an, sediu, certificare, cod de produs) se verifică pe sursa oficială; neconfirmat → se scoate sau se generalizează onest (Atos: 400 l/min în loc de 40; SMC, Kobold, Grundfos cu specificații inventate).
+4. **Autorul nu își auditează singur textul**: fact-check cu agent separat și `scripts/audit/fact-check-brief.md`.
+5. **Formulare: testare comportamentală** cu matrice de valori; aceeași regulă în pagină și pe server (`src/lib/formValidation.js`, `scripts/test-form-validation.mjs`).
+6. **Caută anomalii statistice**: cifre identice la entități diferite, etichete goale, text trunchiat, termene în afara politicii, acord gramatical.
+7. **Cifre derivate calculate exact** (ani împliniți de la 11.11.2009, nu an curent − 2009).
+8. **Conținut tehnic scris de AI = suspect până la verificare**: scrii specificații doar din sursa oficială citită în aceeași sesiune.
+9. **După fiecare publicare**: `node scripts/gates/run.mjs` + auditul live.
+
 ## ULTIMA ACTUALIZARE: 9 Septembrie 2026 (V53)
 
 ---
