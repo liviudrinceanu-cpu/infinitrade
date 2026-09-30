@@ -165,7 +165,7 @@ ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de elec
     ],
     evidenceClass: "gsc-only",
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'renold': {
@@ -299,7 +299,7 @@ Britanicii au investit masiv în digitalizare - au lansat platforma Renold Smart
     ],
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'rexnord': {
@@ -446,8 +446,8 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
-      { date: '2026-09-22', note: 'corectare: founded 1892 → 1891, conform Wikipedia (Chain Belt Company, prima ședință a consiliului la 9 septembrie 1891)' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
+      { date: '2026-09-22', note: 'Am corectat anul înființării Rexnord, conform surselor citate.' }
     ]
   },
 
@@ -577,7 +577,7 @@ Producătorul a investit în digitalizare și IoT - platforma Rittal IoT Interfa
     ],
     evidenceClass: "history-only",
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'rockwell-automation': {
@@ -732,7 +732,7 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
     ],
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'schneider': {
@@ -891,7 +891,7 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
     ],
     evidenceClass: "gsc-only",
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'schrack': {
@@ -1038,7 +1038,7 @@ Austriecii au investit în dezvoltarea produselor eco-friendly - contactoare cu 
     ],
     evidenceClass: "zero-evidence",
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'shell-lubricants': {
@@ -1171,8 +1171,8 @@ Shell oferă și servicii digitale - platforma LubeAnalyst pentru monitorizare c
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
-      { date: '2026-09-22', note: 'corectare: headquarters Amsterdam, Olanda → Londra, Marea Britanie (Shell plc și-a mutat sediul central la Londra în 2022, conform Wikipedia)' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
+      { date: '2026-09-22', note: 'Am corectat sediul Shell Lubricants, conform surselor citate.' }
     ]
   },
 
@@ -1216,7 +1216,7 @@ SICK a investit masiv în digitalizare - platforma SICK AppSpace permite program
       'ISO 14001 - Management de mediu procese producție',
       'IEC 61508 - Safety integrity level (SIL3) pentru senzori și controllere safety',
       'EN ISO 13849-1 - Safety of machinery (PLe) pentru bariere și scannere',
-      'CE marking - Conformitate produse pentru piața europeană (EMC, LVD)',
+      'CE marking - SICK: Conformitate produse pentru piața europeană (EMC, LVD)',
       'UL/cUL certification - Aprobare produse pentru piața nord-americană',
       'ATEX - Senzori pentru zone cu risc explozie',
       'IECEx - Certificare internațională zone ATEX',
@@ -1309,7 +1309,7 @@ SICK a investit masiv în digitalizare - platforma SICK AppSpace permite program
     ],
     evidenceClass: "transactional",
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'siemens-electrical': {
@@ -1358,7 +1358,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       'CE marking - Conformitate produse pentru piața europeană',
       'UL/cUL certification - Aprobare produse pentru piața nord-americană',
       'ATEX - Echipamente pentru zone cu risc explozie',
-      'KEMA certification - Testare și certificare produse (laborator independent)',
+      'KEMA certification - Siemens Electrical: Testare și certificare produse (laborator independent)',
       'RoHS compliance - Produse fără substanțe periculoase'
     ],
     industries: [
@@ -1450,6 +1450,6 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
     ],
     evidenceClass: "gsc-only",
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }]
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   }
 };

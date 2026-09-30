@@ -142,7 +142,7 @@ Completează gama pompele centrifugale de proces seria NM/NTT, construite după 
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   avk: {
@@ -278,8 +278,8 @@ Pentru o companie de utilități sau un constructor de rețele din România, AVK
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" },
-      { date: "2026-09-22", note: "corectat pe baza sursei oficiale: founded 1936→1941, headquarters Skovby→Galten, numele fondatorului corectat la Aage Valdemar Kjær (sursa: avkvalves.com)" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." },
+      { date: "2026-09-22", note: "Am corectat anul înființării și sediul AVK, conform surselor citate." }
     ]
   },
 
@@ -431,7 +431,7 @@ Pentru un proiectant sau un integrator de sisteme HVAC din România, gama Belimo
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   bornemann: {
@@ -490,7 +490,7 @@ Pentru piața românească, gama Bornemann e relevantă mai ales acolo unde flui
     limitation: "Nu am reușit să confirmăm direct pe site-ul bornemann.com (blocat pentru acces automat) anul exact al înființării sau stocul curent; nu oferim service în garanția producătorului pentru pompele multifazice instalate deja pe teren.",
     evidenceClass: "zero-evidence",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   bray: {
@@ -625,7 +625,7 @@ Un avantaj practic pentru un integrator de sisteme e gama proprie de servomotoar
     ],
     evidenceClass: "zero-evidence",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   burkert: {
@@ -674,7 +674,7 @@ Ceea ce face Bürkert relevant pentru integratorii de sisteme e modularitatea: v
       "Agricultură — dozare și irigații controlate"
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru dezvoltare și fabricație",
+      "ISO 9001 — Bürkert: management al calității pentru dezvoltare și fabricație",
       "ATEX — game largi de valve și senzori pentru zone cu risc de explozie",
       "3-A Sanitary Standards — linii de valve pentru procesare alimentară igienică",
       "EHEDG — design igienic certificat pentru componente de proces alimentar",
@@ -762,7 +762,7 @@ Ceea ce face Bürkert relevant pentru integratorii de sisteme e modularitatea: v
     ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   elmo: {
@@ -899,7 +899,7 @@ Pentru industria din România, gama Elmo Rietschle acoperă o nișă foarte prac
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   end: {
@@ -948,7 +948,7 @@ Pentru un integrator sau un operator de instalații criogenice sau petrochimice 
     certifications: [
       "ISO 9001 — management al calității pentru fabricație de armături speciale",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune",
-      "ATEX — execuții certificate pentru zone cu risc de explozie",
+      "ATEX — End Armaturen: execuții certificate pentru zone cu risc de explozie",
       "ASME — conformitate dimensională și de proiectare pentru robineți industriali"
     ],
     infinitrade: `Robineții cu bilă și fluture END-Armaturen pentru servicii criogenice, presiune înaltă sau medii corozive îi comandăm prin canale de aprovizionare din UE, pe baza surselor publice ale producătorului — fără date proprii despre stocul de fabrică pentru execuțiile speciale. Fiind produse calificate pe aplicație, termenul standard e de 1–4 săptămâni la comandă; doar pentru accesorii uzuale de instrumentație putem oferi 24-72h din stoc, ca formulare generală, fără garanția unui produs anume disponibil. Avem nevoie de fluidul de proces, temperatura minimă și maximă de lucru, presiunea nominală și clasa de etanșare cerută, ca să transmitem specificația corectă spre configurare. Nu discutăm preț înainte de a primi aceste date tehnice complete.`,
@@ -1035,7 +1035,7 @@ Pentru un integrator sau un operator de instalații criogenice sau petrochimice 
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   fisher: {
@@ -1083,7 +1083,7 @@ Element esențial al oricărei bucle moderne de control, poziționerele digitale
       "Industria alimentară — control automatizat de proces"
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru dezvoltare și fabricație",
+      "ISO 9001 — Emerson Fisher: management al calității pentru dezvoltare și fabricație",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune",
       "ATEX — poziționere și accesorii certificate pentru zone cu risc de explozie",
       "ASME — conformitate dimensională B16.34 pentru robineți de control",
@@ -1165,7 +1165,7 @@ Element esențial al oricărei bucle moderne de control, poziționerele digitale
     ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   "gardner-denver": {
@@ -1214,7 +1214,7 @@ O linie mai puțin cunoscută publicului larg, dar esențială pentru industria 
     ],
     certifications: [
       "ISO 9001 — management al calității pentru fabricație",
-      "ATEX — execuții certificate pentru medii cu praf sau gaze combustibile",
+      "ATEX — Gardner Denver: execuții certificate pentru medii cu praf sau gaze combustibile",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune"
     ],
     infinitrade: `Site-ul oficial al producătorului ne-a blocat accesul automat la verificare, așa că pentru suflantele Roots, suflantele cu șurub și compresoarele Gardner Denver ne bazăm pe surse publice ale producătorului și pe canale de aprovizionare din UE, confirmând disponibilitatea reală pentru fiecare cerere primită. Pentru filtre, curele și alte piese de uzură curente, reperul e 24-72h din stoc; pentru unități complete sau execuții ATEX de putere mare, termenul standard e de 1–4 săptămâni la comandă. Spuneți-ne debitul și presiunea diferențială necesară, plus dacă aveți nevoie de aer fără ulei, ca să recomandăm tehnologia Roots sau cu șurub potrivită aplicației. Prețul îl calculăm doar după ce avem aceste date de proces.`,
@@ -1314,7 +1314,7 @@ O linie mai puțin cunoscută publicului larg, dar esențială pentru industria 
     ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   kitz: {
@@ -1359,13 +1359,13 @@ Un segment mai puțin vizibil, dar tehnic foarte solicitant, e gama de robineți
       "Marină și construcții navale — sisteme de conducte la bord",
       "Industria chimică — izolare pe linii de proces",
       "Semiconductori — robineți de înaltă puritate pentru fabricație",
-      "HVAC industrial — izolare pe circuite mari de agent termic"
+      "HVAC industrial — KITZ: izolare pe circuite mari de agent termic"
     ],
     certifications: [
       "ISO 9001 — management al calității pentru fabricație",
       "ASME — conformitate dimensională B16.34 pentru robineți industriali",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune",
-      "ATEX — execuții certificate pentru zone cu risc de explozie"
+      "ATEX — KITZ: execuții certificate pentru zone cu risc de explozie"
     ],
     infinitrade: `Pentru robineții cu bilă, sertar, ventil și fluture KITZ, lucrăm din informațiile publice disponibile de la producător și prin canale de aprovizionare din UE — nu cunoaștem stocul propriu al fabricii din Japonia, deci verificăm disponibilitatea reală înainte de fiecare ofertă. Pentru dimensiunile și clasele de presiune uzuale, termenul standard e de 1–4 săptămâni la comandă; pentru accesorii mici de instrumentație putem oferi 24-72h din stoc, ca formulare generală a firmei. Avem nevoie de standardul de proiectare (JIS sau ANSI), diametrul nominal, clasa de presiune și materialul de corp dorit, ca să pregătim o ofertă corectă pentru caietul dumneavoastră de sarcini. Documentația tehnică o transmitem după ce confirmăm configurația exactă.`,
     sources: [
@@ -1444,7 +1444,7 @@ Un segment mai puțin vizibil, dar tehnic foarte solicitant, e gama de robineți
     ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   klinger: {
@@ -1589,7 +1589,7 @@ Pentru industria de proces din România — rafinării, centrale termice, indust
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   lewa: {
@@ -1638,8 +1638,8 @@ Membrana dublă cu monitorizare a spargerii, standard pe majoritatea pompelor LE
       "Vopsele, cerneluri și adezivi — dozare componenți de rețetă"
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru dezvoltare și fabricație",
-      "ATEX — execuții certificate pentru zone cu risc de explozie",
+      "ISO 9001 — Lewa: management al calității pentru dezvoltare și fabricație",
+      "ATEX — Lewa: execuții certificate pentru zone cu risc de explozie",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune",
       "API 675 — standard specific pentru pompe volumetrice de dozare cu volum controlat"
     ],
@@ -1724,7 +1724,7 @@ Membrana dublă cu monitorizare a spargerii, standard pe majoritatea pompelor LE
     ],
     evidenceClass: "zero-evidence",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   neles: {
@@ -1771,9 +1771,9 @@ Legătura strânsă cu Valmet, un furnizor major de tehnologie pentru industria 
       "Marină și LNG — izolare pe sisteme de transport gaz lichefiat"
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru dezvoltare și fabricație",
+      "ISO 9001 — Neles: management al calității pentru dezvoltare și fabricație",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune",
-      "ATEX — execuții certificate pentru zone cu risc de explozie",
+      "ATEX — Neles: execuții certificate pentru zone cu risc de explozie",
       "ASME — conformitate dimensională B16.34 pentru robineți industriali"
     ],
     infinitrade: `Robineții cu bilă segmentată, robineții fluture Neldisc și robineții trunion Neles îi procurăm prin canale de aprovizionare din UE, plecând de la surse publice ale producătorului Valmet Flow Control — fără date proprii despre stocul fabricii din Finlanda. Pentru configurațiile și dimensiunile uzuale, termenul rămâne 1–4 săptămâni la comandă; pentru accesorii mici de poziționare putem oferi 24-72h din stoc, ca reper general al firmei. Pentru calculul de dimensionare (Cv-ul robinetului), trimiteți-ne debitul de proces, presiunea diferențială și conținutul de solide sau fibre din fluid. Documentația tehnică pentru licitații o pregătim după ce confirmăm configurația exactă cu gama producătorului, fără să discutăm preț mai devreme.`,
@@ -1868,7 +1868,7 @@ Legătura strânsă cu Valmet, un furnizor major de tehnologie pentru industria 
       },
       {
         "q": "Livrați vane și actuatoare Neles în România?",
-        "a": "Da, aducem la comandă vane și actuatoare Neles pe baza paginilor publice de produs ale producătorului Valmet, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă și de tipul de poziționer solicitat. Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă vane și actuatoare Neles pe baza paginilor publice de produs ale producătorului Valmet, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă și de tipul de poziționer solicitat. Pentru Neles, recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de vană Neles?",
@@ -1881,7 +1881,7 @@ Legătura strânsă cu Valmet, un furnizor major de tehnologie pentru industria 
     ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   prominent: {
@@ -1930,10 +1930,10 @@ Completează oferta seria de regulatoare și senzori DULCOMETER pentru măsurare
       "Agricultură — tratarea apei pentru irigații"
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru dezvoltare și fabricație",
-      "ATEX — execuții certificate pentru zone cu risc de explozie",
+      "ISO 9001 — ProMinent: management al calității pentru dezvoltare și fabricație",
+      "ATEX — ProMinent: execuții certificate pentru zone cu risc de explozie",
       "DVGW — aprobare germană pentru echipamente de tratare a apei potabile",
-      "WRAS — aprobare pentru contact cu apa potabilă (piața UK)"
+      "WRAS — ProMinent: aprobare pentru contact cu apa potabilă (piața UK)"
     ],
     infinitrade: `Pentru pompele dozatoare ProMinent (gamma/X, Beta, Sigma), sistemele de dezinfecție și regulatoarele DULCOMETER, ne bazăm pe surse publice ale producătorului și pe canale de aprovizionare din UE — nu avem o legătură directă cu stocul central german, deci verificăm disponibilitatea pentru fiecare cerere. Pentru pompele solenoidale uzuale, orientarea e 24-72h din stoc; pentru sisteme complete de dezinfecție sau configurații Sigma la comandă, termenul e de 1–4 săptămâni. Pentru dimensionarea corectă, trimiteți-ne debitul de apă tratat, concentrația necesară a reactivului și tipul de chimical dozat (clor, acid sau floculant). Prețul îl calculăm după ce primim aceste date de proces, nu înainte.`,
     sources: [
@@ -2015,7 +2015,7 @@ Completează oferta seria de regulatoare și senzori DULCOMETER pentru măsurare
     ],
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   sulzer: {
@@ -2064,9 +2064,9 @@ Pentru procese chimice și industria hârtiei, pompele Sulzer seria AHLSTAR (fos
       "Industria alimentară — transfer fluide de proces"
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru dezvoltare și fabricație",
+      "ISO 9001 — Sulzer: management al calității pentru dezvoltare și fabricație",
       "API 610 — standard pentru pompe centrifugale în industria petrolieră și petrochimică",
-      "ATEX — execuții certificate pentru zone cu risc de explozie",
+      "ATEX — Sulzer: execuții certificate pentru zone cu risc de explozie",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune"
     ],
     infinitrade: `Pentru pompele de proces API 610 și pompele submersibile ABS Sulzer, lucrăm din informațiile publice disponibile de la producător și prin canale de aprovizionare din UE — fără date proprii despre stocul intern al fabricilor Sulzer. Pentru rotoare, etanșări mecanice și lagăre ale pompelor ABS deja instalate, orientarea generală e 24-72h din stoc; pentru pompe și unități noi, termenul standard e de 1–4 săptămâni la comandă. Pentru dimensionare corectă, avem nevoie de curba reală de sistem (debit, înălțime de pompare), fluidul vehiculat și materialul de construcție dorit. Nu propunem un preț fără aceste condiții reale de funcționare din aplicația dumneavoastră.`,
@@ -2151,7 +2151,7 @@ Pentru procese chimice și industria hârtiei, pompele Sulzer seria AHLSTAR (fos
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   verder: {
@@ -2199,7 +2199,7 @@ Un aspect practic important e modelul de consum: furtunurile Verderprene și tub
       "Vopsele, cerneluri și adezivi — transfer cu pompe AODD"
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru dezvoltare și fabricație",
+      "ISO 9001 — Verder: management al calității pentru dezvoltare și fabricație",
       "ATEX — pompe AODD certificate pentru zone cu risc de explozie",
       "FDA — materiale de furtun și tub conforme pentru contact alimentar",
       "EHEDG — design igienic pentru aplicații de proces alimentar"
@@ -2322,7 +2322,7 @@ Un aspect practic important e modelul de consum: furtunurile Verderprene și tub
     ],
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   vogelsang: {
@@ -2369,8 +2369,8 @@ Pentru operatorii de stații de epurare, instalații de biogaz și ferme mari di
       "Industria hârtiei — transfer paste cu fibre"
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru dezvoltare și fabricație",
-      "ATEX — execuții certificate pentru zone cu risc de explozie",
+      "ISO 9001 — Vogelsang: management al calității pentru dezvoltare și fabricație",
+      "ATEX — Vogelsang: execuții certificate pentru zone cu risc de explozie",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune"
     ],
     infinitrade: `Pompele cu lobi Vogelsang din seriile VX și IQ/QJ, împreună cu maceratoarele RotaCut și XRipper, le aducem prin canale de aprovizionare din UE, pe baza informațiilor publice disponibile de la producător — fără date proprii despre stocul fabricii din nord-vestul Germaniei. Pentru lobi, elastomeri și cuțite de tocare de schimb, orientarea generală e 24-72h din stoc; pentru pompe și maceratoare complete, termenul standard e de 1–4 săptămâni la comandă. Pentru dimensionare, trimiteți-ne compoziția reală a materialului pompat (conținut de solide, fibre lungi, textile), debitul necesar și presiunea de refulare. Nu discutăm preț înainte de a avea aceste informații despre aplicație.`,
@@ -2462,6 +2462,6 @@ Pentru operatorii de stații de epurare, instalații de biogaz și ferme mari di
     ],
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }]
+    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 };

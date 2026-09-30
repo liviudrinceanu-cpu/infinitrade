@@ -23,7 +23,7 @@ Pentru o rafinărie sau un operator petrochimic din România, Zeeco are sens la 
     ],
     industries: [
       "Rafinare petrol — arzătoare de proces și facle pentru unități de cracare și distilare",
-      "Petrochimie — oxidatori termici pentru fluxuri cu compuși organici volatili",
+      "Petrochimie — Zeeco: oxidatori termici pentru fluxuri cu compuși organici volatili",
       "Prelucrare gaze — arzătoare de înaltă intensitate pentru unități de recuperare a sulfului",
       "Generare energie — arzătoare de putere pentru cazane și cuptoare industriale",
     ],

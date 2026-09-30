@@ -147,7 +147,7 @@ Pentru clienții din România, SENSY are sens la macarale și utilaje de ridicar
     name: "SOR Controls Group",
     founded: 1946,
     headquarters: "Lenexa, SUA",
-    certifications: [ "ISO 9001 — management al calității pentru proiectare și fabricație", "UL, CSA, FM Approved, ATEX, IECEx — certificări pentru instrumentație de proces" ],
+    certifications: [ "ISO 9001 — SOR Controls Group: management al calității pentru proiectare și fabricație", "UL, CSA, FM Approved, ATEX, IECEx — certificări pentru instrumentație de proces" ],
     overview: `SOR Controls Group este un producător american de instrumentație industrială de măsură și control, cu sediul la Lenexa, statul Kansas, activ din 1946. Sub mărcile proprii SOR, SSi și SENSOR produce comutatoare și traductoare de presiune și nivel, ansambluri de senzori de temperatură (termocuple și RTD-uri) și sisteme de prelevare pentru gaze, vapori și lichide. Pentru piața din România putem oferta din gama de comutatoare de proces și traductoare de temperatură, inclusiv variante calificate pentru energetică nucleară.
 
 Ce diferențiază SOR e acoperirea celor trei mărci sub același grup: comutatoarele și transmițătoarele de presiune de la SOR, senzorii de temperatură SSi și sistemele de prelevare închise SENSOR, toate proiectate pentru medii de proces dificile — de la vid până la 5.000 psi și temperaturi de la -40°C la peste 200°C, în funcție de model. Compania produce și variante 1E-Qualified pentru centrale nucleare, un segment în care puțini producători de comutatoare de presiune sunt calificați. Certificările UL, CSA, FM, ATEX și IECEx acoperă majoritatea zonelor industriale cu risc de explozie sau incendiu.

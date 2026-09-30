@@ -170,7 +170,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -318,7 +318,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -475,7 +475,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -635,7 +635,7 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -804,7 +804,7 @@ Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentră
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: headquarters corectat (Cleveland, Ohio → Mayfield Heights, Ohio), surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Parker Hannifin, conform surselor citate.' }
     ]
   }
 };

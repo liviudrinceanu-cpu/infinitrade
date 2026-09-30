@@ -54,7 +54,7 @@ export function validateCsrf(request) {
     if (process.env.NODE_ENV === 'production') {
       return {
         valid: false,
-        error: 'Missing origin header'
+        error: 'lipsește antetul Origin (cererea nu vine dintr-un browser de pe site)'
       };
     }
     // Allow in development for testing with tools like Postman
@@ -72,7 +72,7 @@ export function validateCsrf(request) {
   if (!isAllowed) {
     return {
       valid: false,
-      error: `Origin not allowed: ${requestOrigin}`
+      error: `origine nepermisă: ${requestOrigin}`
     };
   }
 
@@ -90,9 +90,9 @@ export function csrfProtection(request) {
   const result = validateCsrf(request);
 
   if (!result.valid) {
-    console.warn(`CSRF validation failed: ${result.error}`);
+    console.warn(`[CSRF] cerere respinsă: ${result.error}`);
     return new Response(
-      JSON.stringify({ error: 'CSRF validation failed' }),
+      JSON.stringify({ error: 'Cererea nu a putut fi verificată ca venind de pe infinitrade.ro. Reîncărcați pagina și încercați din nou.' }),
       {
         status: 403,
         headers: { 'Content-Type': 'application/json' }
@@ -124,7 +124,7 @@ export function validateContentType(request) {
   if (!contentType?.includes('application/json')) {
     return {
       valid: false,
-      error: 'Content-Type must be application/json'
+      error: 'Format de cerere neacceptat. Reîncărcați pagina și încercați din nou.'
     };
   }
 

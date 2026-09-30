@@ -161,7 +161,7 @@ Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Fur
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -352,7 +352,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -481,7 +481,7 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -666,7 +666,7 @@ Tehnologia Heartbeat este un sistem de auto-diagnosticare care verifică constan
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -854,7 +854,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   }
 };

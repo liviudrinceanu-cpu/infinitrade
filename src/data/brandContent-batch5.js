@@ -135,7 +135,7 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, corectat headquarters (Saint Paul → Maplewood, Minnesota) conform site oficial 3M' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul 3M Safety, conform surselor citate.' },
     ],
   },
 
@@ -273,7 +273,7 @@ Tablourile System pro E power modular permit configurații flexibile - se pot re
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
 
@@ -416,7 +416,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
 
@@ -555,7 +555,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, corectat headquarters (Taipei → Ningbo, China) conform site oficial Airtac' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Airtac, conform surselor citate.' },
     ],
   },
 
@@ -715,7 +715,7 @@ Gama de sterilizare și igienizare Anderson-Negele include soluții specializate
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, corectat founded (1864 → aprox. 1930, an exact neconfirmat) conform site oficial care menționează înființarea în anii 1930' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării Anderson-Negele și am corectat datele greșite, conform surselor citate.' },
     ],
   },
 
@@ -878,7 +878,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: brand confundat cu Armstrong Fluid Technology (Toronto) - produsele descrise (oale condens IB/TD, separator CB, Pumptrap) aparțin de fapt Armstrong International; corectat founded (1934 → 1900) și headquarters (Toronto, Canada → Three Rivers, Michigan, SUA) conform site oficial' },
+      { date: '2026-09-22', note: 'Am corectat anul înființării și sediul Armstrong, conform surselor citate; am corectat identificarea producătorului: Armstrong International.' },
     ],
   },
 
@@ -1021,7 +1021,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: sursă adăugată, declarație de aprovizionare onestă; headquarters confirmat (Sesto Calende, Italia)' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul Atos în sursele citate.' },
     ],
   },
 
@@ -1155,7 +1155,7 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
 
@@ -1327,7 +1327,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
 
@@ -1471,7 +1471,7 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: sursă adăugată, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
 };

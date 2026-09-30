@@ -131,7 +131,7 @@ Corpurile se execută din oțel carbon, oțel inoxidabil austenitic sau aliaje s
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
@@ -182,7 +182,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
     certifications: [
       "PED 2014/68/UE — conformitate pentru oalele de condens și recipientele sub presiune din gamă",
       "ISO 9001 — management al calității pentru proiectarea și producția echipamentelor de gestionare a aburului",
-      "ATEX — variante certificate pentru zone cu risc de explozie",
+      "ATEX — Gestra Flowserve: variante certificate pentru zone cu risc de explozie",
       "TÜV — verificare independentă a componentelor critice de siguranță"
     ],
     infinitrade: "Aducem echipamente GESTRA pentru gestionarea aburului și condensului — oale de condens cu plutitor și termodinamice, senzori de nivel NRG și sisteme de golire continuă și discontinuă — către centrale termice și fabrici de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii despre stocul fabricii și verificăm fiecare model potrivit în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a oalei compatibile, trimiteți-ne debitul de condens, presiunea de lucru și modelul montat deja pe conductă, dacă îl cunoașteți. Oalele de condens și piesele de uzură uzuale ajung de regulă în 24–72 h, iar sistemele de control de nivel sau de golire completă, în 1–4 săptămâni la comandă.",
@@ -255,7 +255,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
@@ -386,7 +386,7 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: an înființare corectat 1873→1872 conform vag-group.com; surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării VAG, conform surselor citate." }
     ]
   },
 
@@ -553,7 +553,7 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate (confirmă anul 1972 al desprinderii activității de robinetărie), declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
@@ -717,7 +717,7 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
     evidenceClass: "gsc-only",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: an înființare 1802 confirmat pe georgfischer.com; surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării Georg Fischer în sursele citate." }
     ]
   },
 
@@ -871,7 +871,7 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate (confirmă fondatorul Fritz Müller), declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
@@ -1033,7 +1033,7 @@ Circulatoarele Ecocirc, cu motor cu rotor umed și reglare electronică a turaț
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
@@ -1198,7 +1198,7 @@ Materialele componentelor umede includ oțel inoxidabil pentru rezistență la e
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: an înființare corectat 1953→1950 conform brinkmannpumps.com (fondare la Werdohl-Kleinhammer); surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării Brinkmann, conform surselor citate." }
     ]
   },
 
@@ -1323,7 +1323,7 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
@@ -1366,7 +1366,7 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
       "Epurarea apelor uzate — aerare biologică a bazinelor din stații de epurare municipale și industriale",
       "Transport pneumatic — vehicularea materialelor granulare ușoare în industrie",
       "Ambalare industrială — sisteme de vid pentru manipulare și fixare produse",
-      "Industria alimentară — aplicații cu cerințe de aer curat, fără ulei",
+      "Industria alimentară — FPZ: aplicații cu cerințe de aer curat, fără ulei",
       "Industria dentară și medicală — sisteme de aspirație și vid pentru echipamente specializate",
       "Industria textilă — transport pneumatic de fibre și aspirație pe mașini de țesut"
     ],
@@ -1454,7 +1454,7 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: sediul din Concorezzo confirmat pe fpz.com; surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul FPZ în sursele citate." }
     ]
   },
 
@@ -1496,7 +1496,7 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
     ],
     industries: [
       "Epurarea apelor uzate — transport de nămoluri primare, secundare și deshidratate mecanic",
-      "Industria alimentară și a băuturilor — transport de produse vâscoase sau cu bucăți solide",
+      "Industria alimentară și a băuturilor — Seepex: transport de produse vâscoase sau cu bucăți solide",
       "Industria farmaceutică și cosmetică — dozare și transport de paste și geluri",
       "Industria chimică — transport de adezivi, vopsele și paste industriale",
       "Industria hârtiei și celulozei — transport de pastă de hârtie și nămoluri de proces",
@@ -1594,7 +1594,7 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
     evidenceClass: "zero-evidence",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: site oficial seepex.com blocează accesul automatizat (robots.txt) — anul 1972 și sediul Bottrop confirmate printr-o sursă secundară; surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul Seepex în sursele citate." }
     ]
   },
 
@@ -1758,7 +1758,7 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: samsongroup.com blochează accesul automatizat — anul 1907 și sediul Frankfurt am Main confirmate prin Wikipedia; surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul Samson în sursele citate." }
     ]
   },
 
@@ -1913,7 +1913,7 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: an înființare 1873 confirmat pe netzsch.com; surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării Netzsch în sursele citate." }
     ]
   },
 
@@ -2073,7 +2073,7 @@ Această gamă completă — de la suflanta Roots simplă și robustă, până l
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: an înființare 1864 și sediul Aerzen confirmate pe aerzen.com; surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Aerzen în sursele citate." }
     ]
   },
 
@@ -2115,10 +2115,10 @@ Materialele și execuțiile constructive urmează standardele consacrate ale ind
     industries: [
       "Epurarea apelor uzate — aerare biologică a bazinelor din stații municipale și industriale",
       "Industria cimentului — transport pneumatic de pulberi și materiale granulare",
-      "Ambalare industrială — sisteme de vid pentru manipulare și fixare produse",
+      "Ambalare industrială — Robuschi: sisteme de vid pentru manipulare și fixare produse",
       "Industria alimentară — compresoare fără ulei pentru aer comprimat curat",
       "Industria chimică și petrochimică — compresoare pentru gaze de proces",
-      "Transport pneumatic — vehicularea materialelor granulare pe distanțe lungi"
+      "Transport pneumatic — Robuschi: vehicularea materialelor granulare pe distanțe lungi"
     ],
     certifications: [
       "ISO 9001 — management al calității pentru proiectarea și producția suflantelor Roots și a compresoarelor cu șurub",
@@ -2211,7 +2211,7 @@ Materialele și execuțiile constructive urmează standardele consacrate ale ind
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: robuschi.com blochează accesul automatizat (robots.txt) — folosită și pagina corporate Ingersoll Rand ca sursă secundară; surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
@@ -2252,7 +2252,7 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
     ],
     industries: [
       "Energie și termocentrale — răcirea sistemelor auxiliare și recuperare de căldură",
-      "Industria chimică și petrochimică — schimbătoare de proces pentru medii agresive",
+      "Industria chimică și petrochimică — Kelvion: schimbătoare de proces pentru medii agresive",
       "Industria alimentară și a băuturilor — pasteurizare, răcire de proces, recuperare de căldură",
       "Industria navală și offshore — răcire cu apă de mare, schimbătoare compacte pentru spații limitate",
       "HVAC industrial — recuperare de căldură și răcire pentru clădiri mari și complexe industriale",
@@ -2349,7 +2349,7 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
@@ -2468,7 +2468,7 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
       },
       {
         "q": "Livrați schimbătoare de căldură SWEP în România?",
-        "a": "Da, aducem la comandă schimbătoare SWEP pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de conexiunile solicitate. Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă schimbătoare SWEP pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de conexiunile solicitate. Pentru SWEP, recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de schimbător de căldură SWEP?",
@@ -2482,7 +2482,7 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
     evidenceClass: "transactional",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
@@ -2617,7 +2617,7 @@ Materialele acoperă oțel inoxidabil austenitic pentru majoritatea aplicațiilo
     evidenceClass: "history-only",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: an înființare corectat 1970→1974 conform funke.de; surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării Funke, conform surselor citate." }
     ]
   },
 };

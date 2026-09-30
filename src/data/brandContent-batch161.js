@@ -29,7 +29,7 @@ Pentru piața din România, ET System înseamnă acces la echipamente de testare
       "Cercetare și universități — laboratoare de electronică de putere",
       "Producție — verificarea automatizată a produselor electronice înainte de livrare",
     ],
-    certifications: ["ISO 9001:2015 — sistem de management al calității pentru proiectare și fabricație"],
+    certifications: ["ISO 9001:2015 — ET System: sistem de management al calității pentru proiectare și fabricație"],
     infinitrade: `Aducem echipamente ET System la comandă pentru laboratoare și linii de testare din România, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — nu ținem această gamă pe raft, fiecare configurație fiind comandată punctual la producător. Pentru acest brand lucrăm cu surse publice ale producătorului și spunem clar, încă din faza de ofertă, ce putem și ce nu putem confirma despre fiecare model. Clientul trebuie să ne trimită seria exactă, puterea sau tensiunea necesară și aplicația — surse, sarcini sau simulare de celule — ca să cerem prețul și termenul exact direct de la producător.`,
     limitation: "Nu oferim configurare software proprietară a sistemelor de testare ET System, aceasta rămânând în sarcina producătorului sau a integratorului de sistem.",
     productCodes: [
@@ -343,7 +343,7 @@ Pentru piața din România, T&R Test Equipment înseamnă acces la echipamente p
     ],
     industries: [
       "Distribuție și transport energie electrică — testarea protecțiilor din stațiile electrice",
-      "Laboratoare PRAM — verificarea periodică a echipamentelor de protecție",
+      "Laboratoare PRAM — T&R Test Equipment: verificarea periodică a echipamentelor de protecție",
       "Mentenanță infrastructură electrică — testarea izolației cablurilor de înaltă tensiune",
       "Punere în funcțiune — verificarea releelor și transformatoarelor de curent",
     ],

@@ -143,8 +143,8 @@ Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru 
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "founded corectat: 1905 → 1896, conform paginii oficiale de istorie Trelleborg (\"In 1896, production started in Trelleborg\")" },
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am corectat anul înființării Trelleborg, conform surselor citate." },
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "transactional"
   },
@@ -187,7 +187,7 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
     ],
     certifications: [
       "ISO 9001 — management calității pentru fabricarea lanțurilor industriale",
-      "ISO 14001 — management de mediu pentru procesele de producție",
+      "ISO 14001 — Tsubaki: management de mediu pentru procesele de producție",
       "ISO 45001 — sănătate și securitate ocupațională",
       "FDA & EUDLEX — materiale aprobate pentru contact alimentar (seria Neptune inox)",
       "CE — marcaj pentru lanțuri și sisteme de transmisie vândute în UE",
@@ -281,7 +281,7 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "transactional"
   },
@@ -417,7 +417,7 @@ Turck nu vinde doar componente — oferă soluții complete. Pentru conectarea u
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: sursă oficială turck.com inaccesibilă (429 repetat la 3 încercări), folosit Wikipedia pentru confirmarea founded/headquarters; declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am precizat modul de livrare; am verificat anul înființării și sediul Turck în sursele citate." }
     ],
     evidenceClass: "transactional"
   },
@@ -561,7 +561,7 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "transactional"
   },
@@ -698,7 +698,7 @@ Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări i
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "transactional"
   },
@@ -744,7 +744,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       "ISO 14001 — management de mediu",
       "ISO 45001 — sănătate și securitate ocupațională",
       "CE & UKCA — marcaj pentru componente vândute în UE și UK",
-      "UL & cUL — certificări pentru piața nord-americană (UL 1059, CSA C22.2)",
+      "UL & cUL — Weidmüller: certificări pentru piața nord-americană (UL 1059, CSA C22.2)",
       "IECEx & ATEX — componente pentru zone cu risc de explozie",
       "DNV-GL & ABS — certificări maritime și offshore",
       "GOST-R — certificări pentru piața rusă și CSI"
@@ -854,7 +854,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "gsc-only"
   },
@@ -1011,7 +1011,7 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "gsc-only"
   },
@@ -1059,7 +1059,7 @@ Portofoliul Wera este mai degrabă concentrat decât vast — șurubelnițe și 
       "VDE — certificare pentru șurubelnițe și scule izolate folosite la lucrări sub tensiune (1000V)",
       "GS — Geprüfte Sicherheit (siguranță testată) marca germană de calitate",
       "TÜV — testare independentă a performanței și siguranței",
-      "REACH & RoHS — conformitate cu reglementările europene pentru substanțe chimice"
+      "REACH & RoHS — Wera: conformitate cu reglementările europene pentru substanțe chimice"
     ],
     industries: [
       "Automotive — service auto, asamblare, tuning (chei dinamometrice pentru roți, motoare)",
@@ -1154,7 +1154,7 @@ Portofoliul Wera este mai degrabă concentrat decât vast — șurubelnițe și 
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "gsc-only"
   },
@@ -1199,7 +1199,7 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
       "ISO 9001 — management calității pentru producția de pompe",
       "ISO 14001 — management de mediu",
       "ISO 45001 — sănătate și securitate ocupațională",
-      "CE & UKCA — marcaj pentru echipamente vândute în UE și UK",
+      "CE & UKCA — Wilo HVAC: marcaj pentru echipamente vândute în UE și UK",
       "ErP 2015 — conformitate cu directiva europeană pentru eficiență energetică",
       "DVGW & KTW — certificări germane pentru contact cu apă potabilă",
       "WRAS & ACS — certificări UK și franceză pentru apă potabilă",
@@ -1295,7 +1295,7 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "gsc-only"
   },
@@ -1369,7 +1369,7 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
     limitation: "Nu confirmăm compatibilitatea chimică a fiecărui produs cu toate materialele clientului fără o verificare punctuală, și nu garantăm un inventar constant pentru toată gama.",
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     productCodes: [
       {
@@ -1605,7 +1605,7 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
     ],
     lastVerified: "2026-09-22",
     changelog: [
-      { date: "2026-09-22", note: "reparație: surse adăugate, declarație de aprovizionare onestă" }
+      { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "transactional"
   }

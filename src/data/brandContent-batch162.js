@@ -155,7 +155,7 @@ Pentru piața din România, gama Raytech are sens la laboratoarele de încercăr
     ],
     industries: [
       "Energie electrică — revizii periodice ale transformatoarelor din rețea",
-      "Producători de transformatoare — testare finală înainte de livrare",
+      "Producători de transformatoare — Raytech: testare finală înainte de livrare",
       "Laboratoare de încercări electrice — teste de rezistență și raport",
       "Reparatori și ateliere de transformatoare — diagnoză înainte și după intervenție",
     ],
@@ -271,7 +271,7 @@ Pentru piața din România, gama Optris are sens la liniile de producție din me
     whyChoose: [
       "Senzor infraroșu de rezoluție optică 22:1 (seria CTi) — măsurare de precizie pe ținte mici, la distanță",
       "Cameră termică cu undă scurtă Xi 1M — potrivită pentru metal topit și alte materiale slab emisive",
-      "Certificare ISO 9001:2015 pentru sistemul de management al calității",
+      "Optris: Certificare ISO 9001:2015 pentru sistemul de management al calității",
       "Gamă largă de pirometre — de la CS de bază până la variante cu laser sau video integrat",
       "Pachete de aplicație dedicate — monitorizare condiție, inspecție sticlă, cuptoare industriale"
     ],
@@ -402,7 +402,7 @@ Pentru piața din România, gama UNI-T are sens la ateliere de service, echipe d
     whyChoose: [
       "Gamă completă de osciloscoape — de la seriile de bază UTD până la MSO7000X, cu bandă de până la 1–2 GHz",
       "Camere de termoviziune pentru smartphone — inspecție termică de bază direct de pe telefonul Android sau iOS",
-      "Certificări ISO 9001 și ISO 14001 pentru managementul calității și al mediului",
+      "UNI-T: Certificări ISO 9001 și ISO 14001 pentru managementul calității și al mediului",
       "Multimetre pe segmente diferite — de la modele de buzunar (seria UT120) până la variante industriale (UT197)",
       "Rețea de distribuție în peste 80 de țări, cu birouri regionale inclusiv în Europa"
     ],

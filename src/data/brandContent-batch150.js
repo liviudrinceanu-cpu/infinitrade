@@ -30,7 +30,7 @@ Pentru piața din România, Apex Dynamics are sens la retrofitul mașinilor unde
       "Manipulare materiale — benzi transportoare scurte cu motor montat lateral",
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru proiectare și fabricație",
+      "ISO 9001 — Apex Dynamics: management al calității pentru proiectare și fabricație",
       "CE — conformitate pentru piața europeană",
       "ATEX — variante pentru zone cu risc de explozie",
     ],

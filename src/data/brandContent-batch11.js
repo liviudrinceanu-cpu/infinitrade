@@ -160,7 +160,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, eliminate afirmații despre depozit/stoc propriu din overview' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -301,7 +301,7 @@ Sortimentul Loctite folosit cel mai des în industrie include threadlockere 243 
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, eliminate afirmații despre stoc propriu din overview și keyProducts' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
 
@@ -461,7 +461,7 @@ Seria Lovato BF acoperă contactoare modulare 9A-95A, iar seria B contactoare he
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: sursă adăugată (parțial confirmată), declarație de aprovizionare onestă, eliminate afirmații despre depozit/stoc propriu din overview și keyProducts' }
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   }
 };

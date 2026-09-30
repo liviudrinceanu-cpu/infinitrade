@@ -92,7 +92,7 @@ Pentru un integrator de automatizări sau un operator de sală curată din Româ
       "Gamă dedicată automatizărilor de clădiri (Model 264/265/267) și aplicațiilor de laborator de mare precizie (Model 230/239)",
       "Variante multi-interval configurabile în câmp, utile când specificația instalației se schimbă după livrare",
       "Senzori de umiditate și temperatură complementari, pentru monitorizare completă a mediului controlat",
-      "Certificare ISO 9001:2015 pentru sistemul de management al calității"
+      "Setra Systems: Certificare ISO 9001:2015 pentru sistemul de management al calității"
     ],
     keyProducts: [
       { name: "Traductor de Presiune Diferențială Model 264", description: "Traductor de presiune diferențială de joasă valoare, considerat un standard pentru automatizări HVAC și de clădiri, cu prag minim de la 0,05\" coloană de apă. Folosit pentru monitorizarea diferenței de presiune între încăperi sau pe filtre de aer. Pentru ofertă, trimiteți intervalul de presiune și tipul de ieșire electrică dorit." },
@@ -110,7 +110,7 @@ Pentru un integrator de automatizări sau un operator de sală curată din Româ
     certifications: [
       "ISO 9001:2015 — sistem de management al calității"
     ],
-    infinitrade: `Furnizăm traductoare de presiune Setra pornind exclusiv din informațiile publice ale producătorului — nu deținem date proprii de stoc pentru acest brand și spunem clar ce putem și ce nu putem confirma înainte de ofertă. Setra nu are, din câte am putut verifica pe site-ul oficial, rețea de distribuție proprie vizibilă în Europa, așa că aducem traductoarele la comandă prin import, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport. Pentru o selecție corectă, trimiteți-ne aplicația (HVAC, sală curată, laborator), intervalul de presiune necesar și tipul de ieșire electrică dorit. Nu promitem disponibilitate din depozit pe nicio variantă din gamă.`,
+    infinitrade: `Furnizăm traductoare de presiune Setra pornind exclusiv din informațiile publice ale producătorului — nu deținem date proprii de stoc pentru acest brand și spunem clar ce putem și ce nu putem confirma înainte de ofertă. Setra nu are, din câte am putut verifica pe site-ul oficial, rețea de distribuție proprie vizibilă în Europa, așa că aducem traductoarele la comandă prin import, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport. Pentru o selecție corectă, trimiteți-ne aplicația (HVAC, sală curată, laborator), intervalul de presiune necesar și tipul de ieșire electrică dorit. Pentru Setra Systems nu promitem disponibilitate din depozit pe nicio variantă din gamă.`,
     limitation: "Nu putem confirma termene de livrare mai scurte decât intervalul orientativ menționat, întrucât nu avem un canal european de aprovizionare identificat pe site-ul producătorului.",
     productCodes: [
       { code: "Model 264", description: "Traductor de presiune diferențială de joasă valoare" },

@@ -71,7 +71,7 @@ Pentru un atelier de turnătorie sau o oțelărie din România care ia în calcu
       { code: "Thermatool CFI High Frequency Welder", description: "sudor de înaltă frecvență cu control CFI pentru sudură de precizie" },
       { code: "Seam Annealer", description: "sistem de recoacere a sudurii longitudinale la țevi" },
       { code: "Full Body Annealer", description: "sistem de recoacere pe toată lungimea țevii sudate" },
-      { code: "Quench and Temper System", description: "linie de călire și revenire prin inducție pentru bare și țevi" },
+      { code: "Quench and Temper System", description: "Inductotherm Group: linie de călire și revenire prin inducție pentru bare și țevi" },
       { code: "HyprCool Hybrid Process Cooling System", description: "sistem hibrid de răcire de proces pentru echipamente de inducție" },
       { code: "Boreas Dry Cooling System", description: "sistem de răcire uscată, fără consum continuu de apă" },
       { code: "MetlSaw CS2 Cold Saw", description: "fierăstrău cu disc rece pentru debitarea metalului turnat" },
@@ -533,7 +533,7 @@ Ce diferențiază WesTech de un simplu producător de bazine de decantare este a
 Pentru un operator de stație de epurare sau un integrator din România care lucrează pe proiecte de tratare a apei industriale sau municipale, WesTech înseamnă acces la o gamă americană extinsă, cu denumiri de produs specifice fiecărei etape a fluxului de tratare.`,
     whyChoose: [
       "Gamă completă de tratare a apei — clarificare, filtrare, îngroșare nămol și stații complete tip pachet",
-      "Certificare ISO 9001 pentru procesul de proiectare și fabricație",
+      "WesTech Engineering: Certificare ISO 9001 pentru procesul de proiectare și fabricație",
       "Peste cinci decenii de activitate, din 1973, cu rădăcini în legislația americană privind calitatea apei",
       "Zeci de familii de produse denumite distinct, ceea ce facilitează identificarea echipamentului exact necesar",
       "Aplicabilitate atât pentru stații municipale, cât și pentru procese industriale (chimie, petrochimie, minerit)"

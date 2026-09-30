@@ -169,7 +169,7 @@ Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare �
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `La automatizări Omron, lucrăm din surse publice ale producătorului și vă spunem clar: nu ținem evidențe proprii despre ce anume avem fizic pe stoc în orice moment. Componentele pe care le deținem local pleacă, de regulă, în 24-72 de ore; restul gamei Omron - PLC-uri Sysmac, servo drive-uri, senzori de viziune, roboți TM - le aducem la comandă prin canalele noastre de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni. Ca să vă răspundem exact, trimiteți-ne codul complet al produsului, cantitatea și aplicația în care va fi folosit. Nu promitem un termen mai scurt fără o verificare reală în avans.`
   },
 
@@ -334,7 +334,7 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc curele la scară 
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru curelele Optibelt, informațiile publice disponibile de la producător stau la baza recomandărilor noastre, nu un stoc propriu pe care să-l putem garanta oricând. Ca regulă generală a firmei, ceea ce avem fizic ajunge la client în 24-72 de ore, iar profilele speciale sau lungimile la comandă vin prin canalele de aprovizionare din UE în aproximativ 1–4 săptămâni. Pentru o estimare corectă, avem nevoie de profilul curelei, dimensiunile roților și puterea transmisă. Nu confirmăm în avans o anumită referință ca fiind disponibilă imediat, dar verificăm rapid și revenim cu un termen realist pentru comanda dumneavoastră.`
   },
 
@@ -480,7 +480,7 @@ Pall investește masiv în R&D - peste 400 brevete active și colaborări cu uni
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru filtrele și sistemele Pall, plecăm de la ce putem și ce nu putem confirma: nu avem acces la datele interne de stoc ale producătorului și nu validăm noi înșine conformitatea GMP a instalațiilor. Componentele fizice disponibile la noi pleacă în 24-72 de ore, iar cartușele sau sistemele specifice vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 1–4 săptămâni. Pentru un răspuns concret, trimiteți-ne codul cartușului sau specificația tehnică a aplicației (debit, presiune, cerințe de puritate). Confirmăm disponibilitatea reală după verificare, nu înainte.`
   },
 
@@ -669,7 +669,7 @@ Parker investește continuu în R&D - facilitățile lor de testare din SUA și 
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Parker Filtration, conform surselor citate.' }],
     infinitrade: `Pentru filtrarea Parker, pornim fără date proprii de stoc actualizate în timp real pentru fiecare cod din catalog. Elementele pe care le avem fizic în acest moment pleacă spre client în 24-72 de ore; restul seriei 9xx, Zander sau RACOR ajunge prin canalele noastre de aprovizionare din UE, de regulă în 1–4 săptămâni. Ca să vă putem oferi un termen corect, avem nevoie de codul complet al filtrului sau de specificațiile sistemului (presiune, debit, clasa de filtrare). Nu facem promisiuni de livrare fără să verificăm întâi disponibilitatea reală la furnizor.`
   },
 
@@ -802,7 +802,7 @@ P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru echipamentele Pepperl+Fuchs, folosim informațiile publice disponibile ale producătorului și nu deținem un sistem propriu de urmărire a stocului în timp real. Ce avem fizic pleacă, ca regulă generală, în 24-72 de ore; senzorii, barierele sau sistemele RFID mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, în circa 1–4 săptămâni. Pentru zone clasificate ATEX/IECEx, trimiteți-ne clasificarea zonei, tipul de protecție necesar și codul echipamentului. Verificăm disponibilitatea reală înainte de a confirma orice termen și nu facem recomandări fără aceste detalii.`
   },
 
@@ -951,7 +951,7 @@ Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calit�
     ],
     evidenceClass: 'zero-evidence',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru gama Permatex, nu avem date proprii de stoc valabile pentru fiecare ambalaj sau variantă de produs din catalog. Produsele pe care le deținem fizic pleacă în 24-72 de ore, iar variantele mai rar cerute ajung prin canalele noastre de aprovizionare din UE, de obicei în 1–4 săptămâni. Pentru o recomandare corectă, spuneți-ne aplicația exactă (tipul de îmbinare, temperatura de lucru, fluidul cu care intră în contact) și cantitatea dorită. Confirmăm disponibilitatea reală după verificare, nu promitem livrare imediată doar pentru că produsul apare în catalogul general Permatex.`
   },
 
@@ -1089,7 +1089,7 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru componentele Phoenix Contact, plecăm de la ce putem și ce nu putem confirma despre stocul real: nu avem vizibilitate directă asupra depozitelor producătorului. Piesele pe care le avem fizic pleacă în 24-72 de ore; relee, alimentatoare QUINT sau controlere PLCnext mai puțin comune vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 1–4 săptămâni. Pentru un termen exact, trimiteți-ne codul complet al articolului și cantitatea necesară. Nu confirmăm disponibilitate imediată fără o verificare prealabilă la sursă, indiferent cât de comun pare produsul.`
   },
 
@@ -1223,7 +1223,7 @@ Cu 18 facilități de producție în Europa, Asia și America și peste 60 de fi
     ],
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru borniere și conectori Phoenix Contact, lucrăm din informațiile publice disponibile ale producătorului, nu dintr-un sistem intern de gestiune a stocului actualizat live. Referințele pe care le deținem fizic pleacă în 24-72 de ore, iar tipurile de bornă mai puțin cerute sau conectorii M12 specializați ajung prin canalele noastre de aprovizionare din UE în aproximativ 1–4 săptămâni. Pentru un răspuns rapid și corect, trimiteți-ne codul CLIPLINE sau seria conectorului, plus cantitatea necesară. Nu estimăm termene fără să verificăm întâi disponibilitatea reală, chiar dacă referința pare una standard din catalog.`
   },
 
@@ -1377,7 +1377,7 @@ Cu peste 40 filiale globale și prezență în 70+ țări, Pilz asigură suport 
     ],
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru echipamentele de siguranță Pilz, pornim de la surse publice ale producătorului și nu deținem noi calculul oficial de Performance Level pentru mașina dumneavoastră. Componentele fizice disponibile la noi pleacă în 24-72 de ore; relee PNOZ, light curtains sau scannere mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, de regulă în 1–4 săptămâni. Pentru o ofertă corectă, trimiteți-ne categoria de siguranță necesară, tipul aplicației și codul componentei dacă îl aveți deja. Verificăm disponibilitatea reală înainte de a confirma un termen, mai ales pentru sistemele complexe PNOZmulti sau PSENscan.`
   },
 
@@ -1515,7 +1515,7 @@ Cu facilități de producție în Italia și distribution în 60+ țări, Pneuma
     ],
     evidenceClass: 'history-only',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Pneumax, conform surselor citate.' }],
     infinitrade: `Pentru pneumatica Pneumax, nu avem niciun fapt propriu verificat despre stocul exact al fabricii din Italia la un moment dat. Cilindrii și valvele standard pe care le deținem fizic pleacă în 24-72 de ore; configurațiile custom (curse speciale, manifolduri la comandă) ajung prin canalele noastre de aprovizionare din UE, de obicei în 1–4 săptămâni. Pentru un termen realist, trimiteți-ne diametrul și cursa cilindrului sau schema manifoldului dorit, împreună cu cantitatea necesară. Nu promitem livrare rapidă pentru configurații speciale fără să confirmăm întâi disponibilitatea la fabrică.`
   }
 };

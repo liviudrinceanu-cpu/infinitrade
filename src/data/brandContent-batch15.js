@@ -161,7 +161,7 @@ Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic
       }
     ],
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'gsc-only'
   },
 
@@ -357,7 +357,7 @@ Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (p
       }
     ],
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'gsc-only'
   },
 
@@ -507,7 +507,7 @@ Dar SMC nu e doar despre catalog imens - e și despre inovație continuă. Confo
       }
     ],
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'gsc-only'
   },
 
@@ -698,7 +698,7 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
       }
     ],
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'gsc-only'
   },
 
@@ -774,7 +774,7 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
     ],
     limitation: 'Nu efectuăm noi recalibrarea DKD/DAkkS a sculelor Stahlwille și nu putem confirma stocul permanent pentru fiecare referință din gamă.',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     productCodes: [
       {
         "code": "MANOSKOP 730 Quick",
@@ -981,7 +981,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       }
     ],
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat (Schaffhausen, Elveția → Galway, Irlanda, sediu operațional Berwyn PA)' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul TE Connectivity, conform surselor citate.' }],
     evidenceClass: 'transactional'
   },
 
@@ -1124,7 +1124,7 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
       }
     ],
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'zero-evidence'
   },
 
@@ -1199,7 +1199,7 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
     ],
     limitation: 'Nu oferim noi calibrarea DKD/DAkkS a instrumentelor Testo și nu putem confirma stocul permanent pentru fiecare model din portofoliu.',
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     productCodes: [
       {
         "code": "testo 300",
@@ -1457,7 +1457,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       }
     ],
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'transactional'
   },
 
@@ -1620,7 +1620,7 @@ Dar Trane nu e doar about hardware - oferă și servicii de energy audit, buildi
       }
     ],
     lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă, headquarters corectat (Davidson, NC, SUA → Swords, Irlanda, sediu Trane Technologies)' }],
+    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Trane, conform surselor citate.' }],
     evidenceClass: 'transactional'
   }
 }

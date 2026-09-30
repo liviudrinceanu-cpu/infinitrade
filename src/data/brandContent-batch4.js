@@ -142,7 +142,7 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
     evidenceClass: 'gsc-only',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
 
@@ -301,7 +301,7 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
 
@@ -492,7 +492,7 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
 
@@ -627,8 +627,8 @@ Infinitrade distribuie soluții Donaldson pentru calitatea aerului industrial: d
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
-      { date: '2026-09-22', note: 'headquarters corectat: Minneapolis, SUA → Bloomington, Minnesota, SUA (conform donaldson.com)' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
+      { date: '2026-09-22', note: 'Am corectat sediul Donaldson, conform surselor citate.' },
     ],
   },
 
@@ -798,7 +798,7 @@ Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industrial
     evidenceClass: 'transactional',
     lastVerified: '2026-09-22',
     changelog: [
-      { date: '2026-09-22', note: 'reparație: surse adăugate, declarație de aprovizionare onestă' },
+      { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
 };

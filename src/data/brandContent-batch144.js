@@ -41,7 +41,7 @@ Pentru un integrator sau proiectant din România, Onda înseamnă acces la schem
       "Industria alimentară — variante inox AISI 304/316 pentru medii cu cerințe de igienă",
       "Procese industriale — condensare și evaporare la puteri mari",
     ],
-    infinitrade: `Furnizăm schimbătoare Onda pentru instalații de climatizare industrială și refrigerare, din surse publice ale producătorului, fără date proprii de stoc pe această gamă. Aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria aleasă și de confirmarea fabricii. Pentru o ofertă corectă, clientul trebuie să ne trimită seria dorită (de exemplu FLV, GLV sau C S&T), puterea necesară, agentul frigorific folosit și temperaturile de lucru. Nu promitem disponibilitate din depozit pe niciun model din gamă.`,
+    infinitrade: `Furnizăm schimbătoare Onda pentru instalații de climatizare industrială și refrigerare, din surse publice ale producătorului, fără date proprii de stoc pe această gamă. Aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria aleasă și de confirmarea fabricii. Pentru o ofertă corectă, clientul trebuie să ne trimită seria dorită (de exemplu FLV, GLV sau C S&T), puterea necesară, agentul frigorific folosit și temperaturile de lucru. Pentru Onda nu promitem disponibilitate din depozit pe niciun model din gamă.`,
     limitation: "Nu putem confirma disponibilitatea pieselor de schimb pentru modele mai vechi, ieșite din producția curentă, și nu oferim configurare software pentru unitățile cu control electronic integrat.",
     productCodes: [
       { code: "E / EG / ED", description: "Evaporatoare cu aer, seria de bază, 1–180 kW" },
