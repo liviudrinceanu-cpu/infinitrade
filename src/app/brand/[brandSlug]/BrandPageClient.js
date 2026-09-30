@@ -455,27 +455,31 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                     ))}
                   </div>
                   <div className={styles.overviewSidebar}>
-                    <div className={styles.factItem}>
-                      <span className={styles.factLabel}>Fondată:</span>
-                      <span className={styles.factValue}>{brandContent.founded}</span>
-                    </div>
-                    <div className={styles.factItem}>
-                      <span className={styles.factLabel}>Sediu:</span>
-                      <span className={styles.factValue}>{brandContent.headquarters}</span>
-                    </div>
-                    <div className={styles.factItem}>
-                      <span className={styles.factLabel}>Angajați:</span>
-                      <span className={styles.factValue}>{brandContent.employees}</span>
-                    </div>
-                    {brandContent.certifications && (
+                    {/* v34: doar câmpurile completate (înainte, 1.000+ pagini afișau
+                        „Fondată:” / „Angajați:” goale). */}
+                    {[['Fondată:', brandContent.founded], ['Sediu:', brandContent.headquarters], ['Angajați:', brandContent.employees]]
+                      .filter(([, v]) => v !== undefined && v !== null && String(v).trim() !== '')
+                      .map(([label, v]) => (
+                        <div key={label} className={styles.factItem}>
+                          <span className={styles.factLabel}>{label}</span>
+                          <span className={styles.factValue}>{v}</span>
+                        </div>
+                      ))}
+                    {Array.isArray(brandContent.certifications) && brandContent.certifications.length > 0 && (
                       <div className={styles.factItem}>
                         <span className={styles.factLabel}>Certificări:</span>
                         <div className={styles.certBadges}>
-                          {brandContent.certifications.slice(0, 3).map((cert, i) => (
-                            <span key={i} className={styles.certBadge}>
-                              {cert.split(' ')[0]}
-                            </span>
-                          ))}
+                          {brandContent.certifications.slice(0, 3).map((cert, i) => {
+                            // v34: eticheta scurtă a certificării (ex. „ISO 9001”, „CE & UKCA”),
+                            // nu primul cuvânt („ISO”, „Motoare”, „448”).
+                            const label = String(cert).split(/\s[—–-]\s|\s\(|:\s/)[0].trim();
+                            const short = label.length > 28 ? label.slice(0, 28).replace(/\s+\S*$/, '') + '…' : label;
+                            return (
+                              <span key={i} className={styles.certBadge} title={cert}>
+                                {short}
+                              </span>
+                            );
+                          })}
                         </div>
                       </div>
                     )}

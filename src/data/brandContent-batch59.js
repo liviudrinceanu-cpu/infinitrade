@@ -338,7 +338,7 @@ Pentru linii de producție, sisteme de ridicat, instalații HVAC și echipamente
       "Petrol și gaze — motoare sincrone pentru aplicații de eficiență ridicată",
       "Marină — motoare și alternatoare pentru echipamente de bord",
     ],
-    infinitrade: `Pentru Leroy-Somer facem distincția clară între ce putem și ce nu putem confirma — informațiile despre gamă vin din materialele publice ale producătorului și ale grupului Nidec, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și motoreductoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Pentru ofertă avem nevoie de puterea motorului, turația, tipul de montaj și, dacă e cazul, seria de reductor sau variator dorită. Nu promitem un disponibilitate imediată garantată pe această gamă.`,
+    infinitrade: `Pentru Leroy-Somer facem distincția clară între ce putem și ce nu putem confirma — informațiile despre gamă vin din materialele publice ale producătorului și ale grupului Nidec, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și motoreductoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Pentru ofertă avem nevoie de puterea motorului, turația, tipul de montaj și, dacă e cazul, seria de reductor sau variator dorită. Nu promitem o disponibilitate imediată garantată pe această gamă.`,
     limitation: "Configurarea avansată a variatoarelor Leroy-Somer pentru aplicații speciale necesită o verificare tehnică directă la producător, pe care nu o putem face în locul lui.",
     productCodes: [
       { code: "FLSHRM", description: "Motor sincron cu magneți permanenți, eficiență ridicată" },

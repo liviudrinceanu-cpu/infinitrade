@@ -41,9 +41,7 @@ Auditul inițial cuprinde măsurători de debit, presiune și consum pe instala�
 Ofertăm pe cod și livrăm din stocul nostru sau din stoc extern, respectiv la comandă la fabrică pentru reperele speciale; termenele exacte se comunică odată cu oferta. Montajul și punerea în funcțiune rămân, de regulă, în sarcina echipei tehnice a clientului sau a integratorului desemnat, realizate în oprirea planificată a instalației; asistăm tehnic la cerere și furnizăm documentația de proiect.
 
 După repornire, recomandăm o perioadă de urmărire în care parametrii de funcționare sunt verificați și, dacă e nevoie, ajustați fin, iar echipa de mentenanță este familiarizată cu noile echipamente.`,
-    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
-
-- consumul specific de energie al stației de pompare, comparat cu perioada anterioară
+    results_detailed: `- consumul specific de energie al stației de pompare, comparat cu perioada anterioară
 - disponibilitatea sistemului, respectiv numărul de opriri neplanificate pe lună
 - evoluția vibrațiilor și a temperaturii lagărelor, ca semnal timpuriu de uzură
 - frecvența intervențiilor de mentenanță corectivă față de cele planificate
@@ -101,9 +99,7 @@ PLC din familia S7 pentru controlul procesului, interfață om-mașină pe ecran
 Etapa de proiectare stabilește soluția tehnică și cere, de obicei, avize de mediu și de gospodărire a apelor înainte de achiziția echipamentelor; unele suflante și pompe speciale au termene de fabricație mai lungi, comunicate în ofertă. Urmează înlocuirea propriu-zisă a pompelor submersibile, de dozare și de recirculare, apoi upgradarea sistemului de aerare, realizate de regulă în etape succesive pentru a păstra stația funcțională pe tot parcursul lucrărilor.
 
 Automatizarea și integrarea în SCADA se fac în paralel sau imediat după partea electromecanică, cu calibrarea senzorilor de proces înainte de punerea în funcțiune finală. Montajul este realizat de echipa clientului sau de un integrator local, cu asistență tehnică din partea noastră la punerea în funcțiune și predarea documentației.`,
-    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
-
-- încărcarea organică și de nutrienți din efluent, față de limitele de evacuare
+    results_detailed: `- încărcarea organică și de nutrienți din efluent, față de limitele de evacuare
 - consumul de energie raportat la volumul de apă tratată
 - stabilitatea procesului biologic în perioadele de debit variabil
 - numărul de intervenții de mentenanță pe suflante și pompe
@@ -162,9 +158,7 @@ Alegerea concretă între serii se face în funcție de debitul, temperatura de 
 Pe baza auditului, prioritizăm înlocuirea motoarelor cu un număr ridicat de ore de funcționare și cu un potențial important de economie, urmată de montarea convertizoarelor de frecvență pe ventilatoare și pompe. Lucrările se programează, de regulă, în weekenduri sau opriri tehnice scurte, pentru a limita impactul asupra producției curente.
 
 Upgradarea schimbătoarelor de căldură urmează, de obicei, după partea de motoare, cu recalibrarea proceselor de pasteurizare și răcire după montaj. Instalarea propriu-zisă și punerea în funcțiune revin echipei tehnice a fabricii sau unui integrator, cu suport tehnic din partea noastră și cu instruire pentru echipa de mentenanță la finalul lucrărilor.`,
-    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
-
-- consumul de energie electrică raportat la volumul de lapte procesat
+    results_detailed: `- consumul de energie electrică raportat la volumul de lapte procesat
 - stabilitatea temperaturii de pasteurizare și de răcire în timp
 - frecvența opririlor pentru mentenanță pe linia de motoare și schimbătoare
 - nivelul de zgomot din hala de producție
@@ -221,9 +215,7 @@ Sistem DCS din familia ABB Ability Symphony Plus, care permite optimizarea în t
 Faza de inginerie stabilește soluția prin simulări termice și pregătește achiziția echipamentelor; schimbătoarele mari au, de regulă, termene de fabricație de câteva săptămâni, comunicate odată cu oferta. Lucrările la conducte și suporți se pot prefabrica înainte de oprire, astfel încât montajul efectiv al schimbătoarelor să se desfășoare într-o oprire planificată cât mai scurtă.
 
 Robineții și oalele de condens se pot înlocui, parțial, în paralel cu funcționarea normală a instalației, acolo unde configurația circuitului permite acest lucru. Integrarea sistemului de control și optimizarea buclelor de reglaj se fac spre finalul proiectului, cu instruirea operatorilor înainte de repunerea în regim normal. Montajul rămâne, de regulă, în sarcina echipei tehnice a centralei sau a unui contractor specializat.`,
-    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
-
-- eficiența globală a centralei, electrică și termică împreună
+    results_detailed: `- eficiența globală a centralei, electrică și termică împreună
 - gradul de recuperare a căldurii din circuitele de economizor
 - disponibilitatea instalației, respectiv timpul de funcționare fără oprire neplanificată
 - consumul propriu de energie al centralei
@@ -280,9 +272,7 @@ PLC pentru control secvențial și management inteligent al încărcării între
 Auditul combină măsurarea profilului de consum pe durata unui ciclu complet de producție cu detectarea pierderilor din rețea, de obicei cu ultrasunete. Reparațiile de rețea se recomandă înaintea instalării echipamentelor noi, pentru a nu dimensiona compresoarele și suflantele pe un consum umflat artificial de scurgeri. Urmează montarea suflantelor Becker, a compresoarelor cu turație variabilă și a sistemului de tratare a aerului, integrate în rețeaua existentă.
 
 Etapa finală de automatizare programează secvențele de pornire și oprire între echipamente și pune în funcțiune monitorizarea consumului pe sectoare. Montajul este realizat, de regulă, de echipa tehnică a exploatării sau de un contractor local, cu instruirea operatorilor la finalul proiectului.`,
-    results_detailed: `**Ce indicatori merită urmăriți după implementare:**
-
-- consumul de energie al stației raportat la volumul de aer livrat
+    results_detailed: `- consumul de energie al stației raportat la volumul de aer livrat
 - nivelul pierderilor din rețeaua de distribuție, verificat periodic cu ultrasunete
 - disponibilitatea stației, respectiv frecvența opririlor neplanificate
 - calitatea aerului livrat față de clasa cerută de sculele pneumatice

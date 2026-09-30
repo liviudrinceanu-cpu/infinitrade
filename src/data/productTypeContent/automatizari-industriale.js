@@ -137,7 +137,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de panouri HMI industriale?",
-        "a": "Modelul PLC-ului și protocolul folosit, dimensiunea dorită a ecranului, clasa de protecție necesară și, dacă e o înlocuire, modelul panoului existent sunt datele esențiale. Termenul exact de livrare se stabilește la comandă, undeva între 2 și 4 săptămâni, după producător."
+        "a": "Modelul PLC-ului și protocolul folosit, dimensiunea dorită a ecranului, clasa de protecție necesară și, dacă e o înlocuire, modelul panoului existent sunt datele esențiale. Termenul exact de livrare se stabilește la comandă, undeva între 1 și 4 săptămâni, după producător."
       },
       {
         "q": "Un panou HMI nou se poate programa cu proiectul de pe cel vechi?",
