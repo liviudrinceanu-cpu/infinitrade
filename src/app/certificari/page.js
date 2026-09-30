@@ -394,7 +394,7 @@ export default function CertificariPage() {
                 <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
                 <div>
                   <h3>Timp de Răspuns</h3>
-                  <p>În funcție de complexitatea solicitării, timpul de răspuns poate varia între 24-72 ore pentru oferte tehnice detaliate. Pentru urgențe, oferim soluții alternative.</p>
+                  <p>În funcție de complexitatea solicitării, timpul de răspuns poate varia între 24 și 72 de ore pentru oferte tehnice detaliate. Pentru urgențe, oferim soluții alternative.</p>
                 </div>
               </div>
               <div className={styles.qualityCard}>

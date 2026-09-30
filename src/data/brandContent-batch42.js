@@ -599,13 +599,13 @@ Pentru instalațiile industriale din România, gama de siguranțe și dispozitiv
     name: "Viessmann",
     founded: 1917,
     headquarters: "Allendorf (Eder), Germania",
-    overview: `Viessmann e un producător german de echipamente termice, fondat în 1917 la Allendorf (Eder), unde grupul are și acum unul dintre centrele de producție. Gama industrială cuprinde cazane de apă caldă de înaltă presiune seria Vitomax HW, cazane de apă caldă de joasă presiune seria Vitomax LW și generatoare de abur de înaltă presiune seria Vitomax HS, alături de unități de cogenerare pentru producția simultană de energie electrică și termică. Pentru instalațiile industriale din România putem oferta cazane și module de cogenerare din această gamă, configurate pe puterea și combustibilul cerut de proiect.
+    overview: `Viessmann e un producător german de echipamente termice, fondat în 1917 la Hof an der Saale și mutat ulterior la Allendorf (Eder), unde grupul are și acum unul dintre centrele de producție. Gama industrială cuprinde cazane de apă caldă de înaltă presiune seria Vitomax HW, cazane de apă caldă de joasă presiune seria Vitomax LW și generatoare de abur de înaltă presiune seria Vitomax HS, alături de unități de cogenerare pentru producția simultană de energie electrică și termică. Pentru instalațiile industriale din România putem oferta cazane și module de cogenerare din această gamă, configurate pe puterea și combustibilul cerut de proiect.
 
-Ce diferențiază gama Vitomax e plaja de puteri și pregătirea pentru hidrogen: seria HW acoperă 0,35-20 MW, seria LW merge până la 22 MW, iar seria de abur HS livrează 0,5-31,5 tone de abur pe oră, toate cu randamente declarate peste 95,5% și capacitate de funcționare cu 100% hidrogen sau combustibili alternativi. Pe segmentul cazanelor industriale de mare putere, Viessmann se compară cu producători precum Trane, mai ales la instalațiile care cer flexibilitate de combustibil și integrare cu sisteme de cogenerare.
+Ce diferențiază gama Vitomax e plaja de puteri și pregătirea pentru hidrogen: seria HW acoperă 0,35-20 MW, seria LW merge până la 22 MW, iar seria de abur HS livrează 0,5-31,5 tone de abur pe oră, toate cu randamente declarate peste 95,5% și capacitate de funcționare cu 100% hidrogen sau combustibili alternativi. 
 
 Pentru fabricile românești cu proces continuu — chimie, industria clorului, industrii cu consum mare de abur sau apă caldă — gama Vitomax se potrivește la retehnologizarea centralelor termice vechi, mai ales acolo unde investiția trebuie să lase loc de trecere ulterioară pe combustibili cu emisii mai mici.`,
     whyChoose: [
-      "Plajă largă de puteri pe cazanele industriale — de la 0,35 MW la peste 22 MW pentru apă caldă",
+      "Plajă largă de puteri pe cazanele industriale — de la 0,35 MW până la 22 MW pentru apă caldă",
       "Randament declarat peste 95,5% pe toate seriile Vitomax de cazane industriale",
       "Capacitate de funcționare cu 100% hidrogen, utilă pentru instalații care planifică tranziția de combustibil",
       "Gamă de cazane de abur seria HS cu debite de până la 31,5 tone pe oră pentru procese industriale mari",
@@ -624,7 +624,7 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
       "Autorități locale — centrale termice pentru clădiri publice și rețele urbane",
       "Producție cu consum mare de energie — cogenerare electrică și termică simultană"
     ],
-    infinitrade: `Nu depăstrăm stoc propriu de cazane Viessmann — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, valabil pentru unități configurate pe proiect. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil disponibil pe amplasament și dacă instalația actuală funcționează cu apă caldă sau abur. Informațiile publice disponibile despre gama Vitomax provin din site-ul producătorului, verificat în această sesiune de lucru; pentru un proiect de retehnologizare recomandăm o discuție tehnică prealabilă, pentru că dimensionarea corectă depinde de profilul real de consum al fabricii, nu doar de puterea instalată actuală.`,
+    infinitrade: `Nu deținem stoc propriu de cazane Viessmann — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, valabil pentru unități configurate pe proiect. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil disponibil pe amplasament și dacă instalația actuală funcționează cu apă caldă sau abur. Informațiile publice despre gama Vitomax provin din site-ul producătorului; pentru un proiect de retehnologizare recomandăm o discuție tehnică prealabilă, pentru că dimensionarea corectă depinde de profilul real de consum al fabricii, nu doar de puterea instalată actuală.`,
     limitation: "Nu putem confirma termene de livrare mai scurte pentru unități configurate special pe proiect și nu oferim service în garanția producătorului pentru instalații puse în funcțiune de alt furnizor.",
     productCodes: [
       {
@@ -641,11 +641,11 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
       },
       {
         "code": "Vitodens 200-W (B2HE)",
-        "description": "Centrală termică în condensație de putere mai mare, variantă B2HE"
+        "description": "Centrală termică în condensație doar pentru încălzire (fără apă caldă instant), variantă B2HE"
       },
       {
         "code": "Vitodens 200-W (B2KE)",
-        "description": "Centrală termică în condensație, variantă compactă B2KE"
+        "description": "Centrală termică în condensație de tip combi (încălzire și apă caldă), variantă B2KE"
       },
       {
         "code": "Vitodens 222-F (B2TE)",
@@ -669,7 +669,7 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
       },
       {
         "code": "Vitocrossal 300 (CT3B)",
-        "description": "Cazan în condensație pentru instalații industriale, model CT3B"
+        "description": "Cazan în condensație de putere medie (187-635 kW), model CT3B"
       },
       {
         "code": "Vitocrossal 300 (CT3U)",
@@ -681,7 +681,7 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
       },
       {
         "code": "Vitocrossal 300 CU3A",
-        "description": "Cazan în condensație de capacitate mare, seria CU3A"
+        "description": "Cazan în condensație de putere mică (2,6-60 kW), seria CU3A"
       },
       {
         "code": "Vitomax 100-LS",
@@ -703,11 +703,11 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
     faq: [
       {
         "q": "Ce înseamnă codul B2HE sau B2KE de la sfârșitul denumirii unei centrale Viessmann?",
-        "a": "Sufixele de tip B2HE sau B2KE de la finalul denumirii Vitodens 200-W indică varianta constructivă și gama de putere a centralei, nu un accesoriu separat. Aceste litere apar în documentația tehnică Viessmann pentru a deosebi modele cu tablou de comandă sau schimbător diferit, motiv pentru care codul complet trebuie citit împreună cu seria de bază."
+        "a": "Sufixele B2HE și B2KE de la finalul denumirii Vitodens 200-W indică varianta constructivă a centralei, nu un accesoriu separat: B2HE este o centrală doar pentru încălzire, iar B2KE una de tip combi, cu apă caldă menajeră. Codul complet trebuie citit împreună cu seria de bază."
       },
       {
         "q": "Care e diferența dintre seria Vitocrossal 200 și seria Vitocrossal 300 la Viessmann?",
-        "a": "Seria Vitocrossal 200 acoperă puteri mai mici și este gândită pentru clădiri comerciale de dimensiune medie, în timp ce Vitocrossal 300 include modele precum CR3B și CT3B destinate instalațiilor industriale cu necesar termic ridicat. Diferența principală vizează materialul schimbătorului de căldură și plaja de putere disponibilă, publicată în fișele tehnice ale fiecărui model."
+        "a": "Plajele de putere diferă de la model la model: de exemplu Vitocrossal 200 CIB acoperă 80-318 kW, iar Vitocrossal 300 CR3B 787-1400 kW; valorile exacte sunt publicate în fișele tehnice ale fiecărui model."
       },
       {
         "q": "Ce detalii sunt utile atunci când solicitați o ofertă pentru un cazan Viessmann?",
@@ -1328,7 +1328,7 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       { name: "pH-metre și instrumente multiparametru", description: "Instrumente pentru măsurarea pH-ului, conductivității și altor parametri chimici ai apei, disponibile ca aparate portabile de teren sau instrumente de laborator de banc. Multiparametrele combină mai mulți senzori într-un singur aparat pentru economie de timp la analize de rutină. Aplicație tipică: controlul calității apei în stații de tratare sau laboratoare de proces. Clientul trebuie să ne spună parametrii de măsurat și dacă are nevoie de instrument portabil sau de banc."},
       { name: "Titratoare (potențiometrice și Karl Fischer)", description: "Aparate pentru determinarea prin titrare a concentrației unor substanțe în probe lichide, în variante potențiometrice pentru analize generale și Karl Fischer pentru determinarea conținutului de apă din probe. Folosite în laboratoare de control al calității din industria alimentară și chimică. Clientul trebuie să precizeze tipul de analiză dorit și matricea probei analizate."},
       { name: "Turbidimetre și oxigenometre", description: "Instrumente pentru măsurarea turbidității (claritatea apei) și a oxigenului dizolvat, parametri esențiali în monitorizarea stațiilor de epurare, acvacultură și controlul apei potabile. Se aleg în funcție de domeniul de măsură necesar și de mediul de utilizare (teren sau laborator). Clientul trebuie să indice domeniul de valori așteptat și dacă măsurătoarea se face pe teren sau în laborator."},
-      { name: "Controlere pentru piscine și SPA seria BL", description: "Controlere automate pentru monitorizarea și dozarea chimicalelor din bazine de piscină sau SPA, modelele BL131, BL132 și BL136 acoperind niveluri diferite de automatizare a dozării. Aplicație tipică: bazine industriale, hoteliere sau publice unde parametrii apei trebuie menținuți constant. Clientul trebuie să precizeze volumul bazinului și parametrii pe care dorește să-i controleze automat."}
+      { name: "Controlere pentru piscine și SPA seria BL", description: "Controlere automate pentru monitorizarea și dozarea chimicalelor din bazine de piscină sau SPA, modelele BL131, BL132 și BL136; detaliile fiecărui model se confirmă pe cod. Aplicație tipică: bazine industriale, hoteliere sau publice unde parametrii apei trebuie menținuți constant. Clientul trebuie să precizeze volumul bazinului și parametrii pe care dorește să-i controleze automat."}
     ],
     industries: [
       "Tratarea apelor uzate — monitorizare de turbiditate și oxigen dizolvat",
@@ -1339,7 +1339,7 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       "Piscine și SPA industriale sau hoteliere — dozare automată de chimicale"
     ],
     certifications: ["ISO 9001:2015 — pentru operațiunile de service ale entității din România"],
-    infinitrade: `Furnizăm instrumente Hanna Instruments prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru echipamentele care depășesc stocul curent al entității din România. Pentru o ofertă corectă avem nevoie de parametrii de măsurat, domeniul de valori necesar și dacă instrumentul va fi folosit pe teren sau montat permanent în proces. Surse publice ale producătorului confirmă gama de produse și prezența locală din 2006, dar nu avem date proprii despre stocul exact disponibil la un moment dat — verificăm punctual la fiecare cerere. Datele din acest text au fost verificate direct pe site-ul entității din România.`,
+    infinitrade: `Furnizăm instrumente Hanna Instruments prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru echipamentele care depășesc stocul curent al entității din România. Pentru o ofertă corectă avem nevoie de parametrii de măsurat, domeniul de valori necesar și dacă instrumentul va fi folosit pe teren sau montat permanent în proces. Surse publice ale producătorului confirmă gama de produse și prezența locală din 2006, dar nu avem date proprii despre stocul exact disponibil la un moment dat — verificăm punctual la fiecare cerere. `,
     limitation: "Nu putem confirma disponibilitatea imediată a unui model specific fără verificare punctuală și nu oferim calibrare metrologică acreditată ca serviciu propriu.",
     productCodes: [
       {
@@ -1352,7 +1352,7 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       },
       {
         "code": "HI98594",
-        "description": "Multiparametru portabil pentru oxigen dizolvat, cu conexiune Bluetooth"
+        "description": "Multiparametru portabil pentru analiza apei (pH, EC, turbiditate, oxigen dizolvat), cu conexiune Bluetooth"
       },
       {
         "code": "HI6553-02",
@@ -1364,15 +1364,15 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       },
       {
         "code": "BL131",
-        "description": "Controler pentru piscine și spa, cu monitorizare de bază a parametrilor"
+        "description": "Controler pentru piscine și spa, modelul BL131"
       },
       {
         "code": "BL132",
-        "description": "Controler pentru piscine și spa, variantă cu funcții suplimentare de reglaj"
+        "description": "Controler pentru piscine și spa, modelul BL132"
       },
       {
         "code": "HI935005",
-        "description": "Electrod de pH compatibil cu gama de testere Hanna Instruments"
+        "description": "Instrument portabil din gama Hanna Instruments (detalii pe cod)"
       },
       {
         "code": "HI9828",
@@ -1390,11 +1390,11 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
     faq: [
       {
         "q": "Ce diferență este între multiparametrele Hanna Instruments HI9828 și HI98594?",
-        "a": "HI9828 este un instrument multiparametru de teren, gândit pentru măsurători ample la fața locului, în ape de suprafață sau industriale. HI98594 este orientat în special spre măsurarea oxigenului dizolvat, cu transmitere Bluetooth către un dispozitiv mobil pentru citirea rapidă a valorilor. Alegerea depinde de numărul de parametri urmăriți simultan și de contextul de utilizare, laborator sau teren."
+        "a": "HI9828 este un instrument multiparametru de teren, gândit pentru măsurători ample la fața locului, în ape de suprafață sau industriale. HI98594 este un multiparametru portabil pentru pH, EC, turbiditate și oxigen dizolvat, cu transmitere Bluetooth către un dispozitiv mobil. Alegerea depinde de numărul de parametri urmăriți simultan și de contextul de utilizare, laborator sau teren."
       },
       {
         "q": "Livrați instrumente Hanna Instruments în România la comandă?",
-        "a": "Da, aducem la comandă pH-metre, multiparametre și controlere de piscină din gama Hanna Instruments, pe baza codului exact solicitat. Nu avem raft propriu pentru această gamă, iar orientarea publică de disponibilitate este de aproximativ două până la patru săptămâni. Recomandăm precizarea codului complet și a electrodului dorit pentru compatibilitate corectă."
+        "a": "Da, aducem la comandă pH-metre, multiparametre și controlere de piscină din gama Hanna Instruments, pe baza codului exact solicitat. Nu avem raft propriu pentru această gamă; intervalul indicativ este de 1–4 săptămâni la comandă. Recomandăm precizarea codului complet și a electrodului dorit pentru compatibilitate corectă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă la un controler de piscină Hanna?",
@@ -1402,7 +1402,7 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       },
       {
         "q": "Ce este seria GroLine de la Hanna Instruments?",
-        "a": "GroLine este o linie de testere și electrozi Hanna Instruments adaptată aplicațiilor din agricultură, cu electrozi mai robuști pentru soluții nutritive și substraturi de cultură. Modelul HI9814 din această gamă măsoară pH, conductivitate și solide dizolvate total, util în hidroponică sau sere. Electrozii dedicați reduc înfundarea rapidă întâlnită la testerele generale în soluții cu multe particule."
+        "a": "GroLine este o linie de testere și electrozi Hanna Instruments adaptată aplicațiilor din agricultură, cu electrozi mai robuști pentru soluții nutritive și substraturi de cultură. Modelul HI9814 din această gamă măsoară pH, conductivitate și solide dizolvate total, util în hidroponică sau sere."
       }
     ],
     evidenceClass: "market-signal-ro",

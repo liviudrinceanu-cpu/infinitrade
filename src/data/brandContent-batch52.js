@@ -1065,7 +1065,7 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
       },
       {
         "q": "Livrați echipamente de protecție JSP în România?",
-        "a": "Da, echipamentele JSP se procură la cerere, cu un termen uzual de 2 până la 4 săptămâni, fiindcă gama de protecție nu este ținută integral pe raft din cauza numărului mare de mărimi și variante. Pentru o comandă corectă indicați tipul de protecție necesar, cască, ochelari sau mască, standardul EN aplicabil și numărul de utilizatori pentru care faceți achiziția."
+        "a": "Da, echipamentele JSP se procură la cerere, cu un termen uzual de 1–4 săptămâni, fiindcă gama de protecție nu este ținută integral pe raft din cauza numărului mare de mărimi și variante. Pentru o comandă corectă indicați tipul de protecție necesar, cască, ochelari sau mască, standardul EN aplicabil și numărul de utilizatori pentru care faceți achiziția."
       },
       {
         "q": "Ce diferență este între gama EVOGuard și Hardcap Aerolite de la JSP?",

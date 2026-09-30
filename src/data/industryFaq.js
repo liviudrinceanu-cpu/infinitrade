@@ -25,7 +25,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce informații trebuie să trimitem pentru o ofertă de echipamente destinate unei rafinării?",
-      a: "Avem nevoie de: fluidul procesat (compoziție, densitate, vâscozitate, conținut de solide), parametrii de proces (debit, presiune, temperatură minimă/maximă), clasificarea zonei ATEX dacă există, materialul cerut sau specificat în caietul de sarcini și standardul de referință (API, ASME, EN). Dacă aveți schema P&ID sau fișa tehnică a echipamentului existent, ajută mult la identificarea unui înlocuitor compatibil. Pentru piese critice din stoc confirmăm disponibilitatea și livrăm în 24-72h; pentru echipamente la comandă, termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător."
+      a: "Avem nevoie de: fluidul procesat (compoziție, densitate, vâscozitate, conținut de solide), parametrii de proces (debit, presiune, temperatură minimă/maximă), clasificarea zonei ATEX dacă există, materialul cerut sau specificat în caietul de sarcini și standardul de referință (API, ASME, EN). Dacă aveți schema P&ID sau fișa tehnică a echipamentului existent, ajută mult la identificarea unui înlocuitor compatibil. Pentru piese critice din stoc confirmăm disponibilitatea și livrăm în 24–72 h; pentru echipamente la comandă, termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător."
     }
   ],
 
@@ -48,7 +48,7 @@ export const industryFaqs = {
     },
     {
       q: "Cum verific dacă un echipament e cu adevărat conform cerințelor de igienă din unitatea mea?",
-      a: "Cereți întotdeauna declarația de conformitate pentru materialele de contact (FDA/EC 1935), certificatul EHEDG sau 3-A al constructorului (nu doar al materialului) și fișa tehnică cu rugozitatea suprafeței (Ra) declarată de producător. Verificați și dacă echipamentul e proiectat 'self-draining' (fără zone de stagnare a lichidului) - un criteriu obligatoriu pentru certificarea EHEDG. Echipa noastră tehnică poate verifica împreună cu dumneavoastră documentația primită de la producător înainte de instalare, ca să evitați o respingere la audit. Pentru piese sanitare din stoc, livrarea se face în 24-72h."
+      a: "Cereți întotdeauna declarația de conformitate pentru materialele de contact (FDA/EC 1935), certificatul EHEDG sau 3-A al constructorului (nu doar al materialului) și fișa tehnică cu rugozitatea suprafeței (Ra) declarată de producător. Verificați și dacă echipamentul e proiectat 'self-draining' (fără zone de stagnare a lichidului) - un criteriu obligatoriu pentru certificarea EHEDG. Echipa noastră tehnică poate verifica împreună cu dumneavoastră documentația primită de la producător înainte de instalare, ca să evitați o respingere la audit. Pentru piese sanitare din stoc, livrarea se face în 24–72 h."
     }
   ],
 
@@ -71,7 +71,7 @@ export const industryFaqs = {
     },
     {
       q: "Cât durează livrarea unei pompe submersibile sau a unei piese de schimb critice?",
-      a: "Pentru modelele uzuale din portofoliu livrarea se face în 24-72h oriunde în țară, când reperul e în stocul nostru sau în stoc extern - important pentru stații unde o defecțiune înseamnă risc de deversare necontrolată. Pentru echipamente specializate (suflante de capacitate mare, pompe cu șurub excentric dedicate, componente SCADA la comandă), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător. Dacă aveți o urgență operațională, sunați-ne direct - verificăm disponibilitatea imediată la noi sau la alți furnizori și găsim soluția cea mai rapidă pentru a evita oprirea stației."
+      a: "Pentru modelele uzuale din portofoliu livrarea se face în 24–72 h oriunde în țară, când reperul e în stocul nostru sau în stoc extern - important pentru stații unde o defecțiune înseamnă risc de deversare necontrolată. Pentru echipamente specializate (suflante de capacitate mare, pompe cu șurub excentric dedicate, componente SCADA la comandă), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni, în funcție de producător. Dacă aveți o urgență operațională, sunați-ne direct - verificăm disponibilitatea imediată la noi sau la alți furnizori și găsim soluția cea mai rapidă pentru a evita oprirea stației."
     }
   ],
 
@@ -94,7 +94,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce informații trimiteți pentru o ofertă de echipamente pentru o centrală sau punct termic?",
-      a: "Aveți nevoie să ne trimiteți parametrii de abur sau agent termic (presiune, temperatură, debit), schema P&ID dacă există, tipul de combustibil sau sursă de energie și dacă echipamentul înlocuiește unul existent (model, an fabricație, probleme întâmpinate). Pentru cazane și recipiente sub presiune, menționați dacă instalația e supusă verificărilor ISCIR. Cu aceste date pregătim o ofertă cu specificații complete - pentru piese consumabile din stoc (garnituri, elemente pentru oale de condens) livrăm în 24-72h, iar pentru echipamente noi la comandă termenul obișnuit e de 1–4 săptămâni, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate."
+      a: "Aveți nevoie să ne trimiteți parametrii de abur sau agent termic (presiune, temperatură, debit), schema P&ID dacă există, tipul de combustibil sau sursă de energie și dacă echipamentul înlocuiește unul existent (model, an fabricație, probleme întâmpinate). Pentru cazane și recipiente sub presiune, menționați dacă instalația e supusă verificărilor ISCIR. Cu aceste date pregătim o ofertă cu specificații complete - pentru piese consumabile din stoc (garnituri, elemente pentru oale de condens) livrăm în 24–72 h, iar pentru echipamente noi la comandă termenul obișnuit e de 1–4 săptămâni, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate."
     }
   ],
 
@@ -140,7 +140,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce informații trimiteți pentru o ofertă de echipamente rezistente chimic?",
-      a: "Cel mai important e fișa de siguranță a fluidului (SDS), cu concentrația exactă, temperatura de operare, presiunea din linie și eventualele particule solide în suspensie. Dacă știți deja ce echipament folosiți acum și ce problemă aveți (coroziune prematură, scurgeri, uzură rapidă), spuneți-ne - de multe ori schimbarea unui singur material (de exemplu de la inox standard la duplex sau PVDF) rezolvă problema fără să schimbați tot echipamentul. Pentru piese din stoc livrăm în 24-72h, iar pentru echipamente din materiale speciale la comandă (titan, aliaje speciale) termenul obișnuit e de 1–4 săptămâni, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate."
+      a: "Cel mai important e fișa de siguranță a fluidului (SDS), cu concentrația exactă, temperatura de operare, presiunea din linie și eventualele particule solide în suspensie. Dacă știți deja ce echipament folosiți acum și ce problemă aveți (coroziune prematură, scurgeri, uzură rapidă), spuneți-ne - de multe ori schimbarea unui singur material (de exemplu de la inox standard la duplex sau PVDF) rezolvă problema fără să schimbați tot echipamentul. Pentru piese din stoc livrăm în 24–72 h, iar pentru echipamente din materiale speciale la comandă (titan, aliaje speciale) termenul obișnuit e de 1–4 săptămâni, cu posibile depășiri peste 4 săptămâni pentru execuții personalizate."
     }
   ],
 
@@ -163,7 +163,7 @@ export const industryFaqs = {
     },
     {
       q: "Cât durează livrarea unei piese critice pentru o pompă slurry sau un utilaj de minerit oprit?",
-      a: "Pentru rotoare, carcase și garnituri de uzură din gama uzuală, livrarea se face în 24-72h când reperul e în stocul nostru sau în stoc extern, pentru că o oprire neplanificată a unei linii de procesare minereu costă mult pe oră. Pentru echipamente construite pe comandă (pompe slurry dimensionate special, cilindri hidraulici cu dimensiuni netipice), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni. Dacă aveți o urgență de producție, sunați-ne direct cu codul echipamentului sau cu fotografii ale plăcuței - verificăm rapid ce avem disponibil la noi sau la alți furnizori din rețea."
+      a: "Pentru rotoare, carcase și garnituri de uzură din gama uzuală, livrarea se face în 24–72 h când reperul e în stocul nostru sau în stoc extern, pentru că o oprire neplanificată a unei linii de procesare minereu costă mult pe oră. Pentru echipamente construite pe comandă (pompe slurry dimensionate special, cilindri hidraulici cu dimensiuni netipice), termenul obișnuit e de 1–4 săptămâni din fabrică, iar execuțiile personalizate pot depăși 4 săptămâni. Dacă aveți o urgență de producție, sunați-ne direct cu codul echipamentului sau cu fotografii ale plăcuței - verificăm rapid ce avem disponibil la noi sau la alți furnizori din rețea."
     }
   ],
 
@@ -186,7 +186,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce echipamente HVAC oferiți pentru un proiect de construcții comercial și ce trimitem pentru ofertă?",
-      a: "Pentru proiecte comerciale furnizăm pompe de circulație, grupuri de pompare pentru presurizare, robineți de echilibrare și termostatici, vase de expansiune, chillere și pompe de căldură, plus automatizări BMS pentru control integrat. Pentru o ofertă rapidă avem nevoie de sarcina termică estimată sau calculată (kW), tipul de instalație (bitub, monotub), numărul de circuite/zone și dacă proiectul are deja o schemă de principiu întocmită de proiectant. Pentru echipamente standard din stoc livrăm în 24-72h, ceea ce contează la șantiere cu termene de execuție strânse."
+      a: "Pentru proiecte comerciale furnizăm pompe de circulație, grupuri de pompare pentru presurizare, robineți de echilibrare și termostatici, vase de expansiune, chillere și pompe de căldură, plus automatizări BMS pentru control integrat. Pentru o ofertă rapidă avem nevoie de sarcina termică estimată sau calculată (kW), tipul de instalație (bitub, monotub), numărul de circuite/zone și dacă proiectul are deja o schemă de principiu întocmită de proiectant. Pentru echipamente standard din stoc livrăm în 24–72 h, ceea ce contează la șantiere cu termene de execuție strânse."
     }
   ],
 
@@ -209,7 +209,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce trimitem pentru o ofertă de echipamente destinate unei linii de producție auto?",
-      a: "Pentru sisteme hidraulice: forța presei, cursa, viteza necesară și schema hidraulică existentă dacă înlocuiți o componentă. Pentru rulmenți: codul de pe rulment sau desenul tehnic al axului. Pentru automatizări: schema electrică și tipul de comunicație folosit pe linie. Pentru lubrifianți: fișa tehnică a echipamentului unde se aplică. Cu cât detaliile sunt mai precise, cu atât oferta e mai exactă și evităm livrarea unei piese incompatibile - un risc real când o linie oprită costă zeci de mii de euro pe oră. Pentru piese critice din stoc livrăm în 24-72h."
+      a: "Pentru sisteme hidraulice: forța presei, cursa, viteza necesară și schema hidraulică existentă dacă înlocuiți o componentă. Pentru rulmenți: codul de pe rulment sau desenul tehnic al axului. Pentru automatizări: schema electrică și tipul de comunicație folosit pe linie. Pentru lubrifianți: fișa tehnică a echipamentului unde se aplică. Cu cât detaliile sunt mai precise, cu atât oferta e mai exactă și evităm livrarea unei piese incompatibile - un risc real când o linie oprită costă zeci de mii de euro pe oră. Pentru piese critice din stoc livrăm în 24–72 h."
     }
   ],
 
@@ -255,7 +255,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce trimitem pentru o ofertă de echipamente pentru o fabrică de ciment?",
-      a: "Pentru filtre: debitul de gaz, temperatura, tipul de praf și pragul de emisie cerut. Pentru curele și rulmenți: codul de pe echipamentul existent sau desenul tehnic al axului/roții. Pentru suflante de transport pneumatic: debitul de material, distanța de transport și presiunea necesară. Pentru automatizări: tipul de senzor și schema de proces existentă. Cu cât informația e mai completă, cu atât oferta e mai aproape de nevoia reală, iar pentru consumabile uzuale (saci de filtrare, curele, rulmenți) din stoc, livrarea se face de obicei în 24-72h."
+      a: "Pentru filtre: debitul de gaz, temperatura, tipul de praf și pragul de emisie cerut. Pentru curele și rulmenți: codul de pe echipamentul existent sau desenul tehnic al axului/roții. Pentru suflante de transport pneumatic: debitul de material, distanța de transport și presiunea necesară. Pentru automatizări: tipul de senzor și schema de proces existentă. Cu cât informația e mai completă, cu atât oferta e mai aproape de nevoia reală, iar pentru consumabile uzuale (saci de filtrare, curele, rulmenți) din stoc, livrarea se face de obicei în 24–72 h."
     }
   ],
 
@@ -301,7 +301,7 @@ export const industryFaqs = {
     },
     {
       q: "Ce trimitem pentru o ofertă de echipamente pentru un centru logistic nou sau o extindere?",
-      a: "Pentru motoare și motoreductoare: puterea necesară, raportul de reducere, viteza liniei și mediul de funcționare (temperatură, praf, umiditate). Pentru automatizări: numărul de puncte de sortare, tipul de senzori doriți și schema de comunicație a sistemului central. Pentru pneumatică: presiunea de aer disponibilă și numărul de cicluri pe oră. Cu aceste date pregătim o ofertă completă - pentru componente standard SEW și Siemens la cele mai cerute dimensiuni, livrarea se face în 24-72h când reperul e în stocul nostru sau în stoc extern, esențial pentru un centru care nu-și permite oprire prelungită."
+      a: "Pentru motoare și motoreductoare: puterea necesară, raportul de reducere, viteza liniei și mediul de funcționare (temperatură, praf, umiditate). Pentru automatizări: numărul de puncte de sortare, tipul de senzori doriți și schema de comunicație a sistemului central. Pentru pneumatică: presiunea de aer disponibilă și numărul de cicluri pe oră. Cu aceste date pregătim o ofertă completă - pentru componente standard SEW și Siemens la cele mai cerute dimensiuni, livrarea se face în 24–72 h când reperul e în stocul nostru sau în stoc extern, esențial pentru un centru care nu-și permite oprire prelungită."
     }
   ],
 

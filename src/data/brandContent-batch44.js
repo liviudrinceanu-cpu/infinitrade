@@ -468,21 +468,21 @@ Pentru panourile electrice și dulapurile de automatizare din România, sursele 
   'gewiss': {
     name: "Gewiss",
     headquarters: "Cenate Sotto, Italia",
-    overview: `Gewiss este un producător italian de aparataj electric modular și distribuție electrică de joasă tensiune, cu sediul la Cenate Sotto, în provincia Bergamo. Gama acoperă întrerupătoare automate modulare (seria 90 MCB) și protecții diferențiale (90 RCD), întrerupătoare de putere în carcasă turnată (MSX, MSS), tablouri de distribuție (QDX, CVX) și prize industriale conform IEC 309. Putem oferta din gama de aparataj modular și tablouri pentru proiecte electrice industriale și comerciale.
+    overview: `Gewiss este un producător italian de aparataj electric modular și distribuție electrică de joasă tensiune, cu sediul la Cenate Sotto, în provincia Bergamo. Gama acoperă întrerupătoare automate modulare (seria 90 MCB) și protecții diferențiale (90 RCD), întrerupătoare de putere în carcasă turnată (MSX) și separatoare rotative (MSS), tablouri de distribuție (QDX, CVX) și prize industriale conform IEC 309. Putem oferta din gama de aparataj modular și tablouri pentru proiecte electrice industriale și comerciale.
 
 Comparativ cu un brand consacrat precum Legrand, Gewiss mizează pe o gamă amplă de sisteme complementare sub aceeași marcă — de la aparataj modular clasic până la platforma JOINON pentru încărcare vehicule electrice și sisteme smart home/building. Această integrare permite proiectarea unei instalații complete (protecție, distribuție, iluminat, încărcare EV) cu produse din același ecosistem, ceea ce simplifică documentația tehnică și compatibilitatea între componente.
 
 Pentru instalatorii și proiectanții electrici din România, Gewiss e relevant la tablouri de distribuție rezidențiale și comerciale, la proiecte cu infrastructură de încărcare EV și la instalații industriale unde prizele IEC 309 sunt cerute explicit prin proiect.`,
     whyChoose: [
       "Ecosistem integrat — aparataj modular, tablouri, iluminat LED și infrastructură EV sub aceeași marcă",
-      "Gamă completă de protecții: întrerupătoare modulare (90 MCB/RCD) și în carcasă turnată (MSX, MSS)",
+      "Gamă completă de protecții: întrerupătoare modulare (90 MCB/RCD), în carcasă turnată (MSX) și separatoare rotative (MSS)",
       "Prize industriale conforme IEC 309, cerute frecvent în proiectele de instalații industriale",
       "Platformă dedicată JOINON pentru încărcare vehicule electrice, integrabilă cu restul tabloului",
       "Sisteme de automatizare pentru locuințe și clădiri, compatibile cu aparatajul de bază din gamă"
     ],
     keyProducts: [
       { name: "Întrerupătoare Modulare Seria 90 (MCB / RCD)", description: "Familie de întrerupătoare automate modulare (90 MCB) și protecții diferențiale (90 RCD) pentru tablouri electrice rezidențiale și comerciale. Aplicație tipică: protecția circuitelor de iluminat și prize într-un tablou de apartament sau spațiu comercial. Clientul trebuie să transmită curentul nominal necesar, numărul de poli și sensibilitatea diferențială dorită pentru selecția corectă." },
-      { name: "Întrerupătoare în Carcasă Turnată MSX / MSS", description: "Întrerupătoare de putere pentru curenți mai mari, folosite la protecția tabloului general al unei clădiri sau al unei instalații industriale. Aplicație tipică: protecția generală a unui tablou de distribuție la intrarea în clădire. Clientul trebuie să precizeze curentul nominal al circuitului protejat și puterea de rupere necesară." },
+      { name: "Întrerupătoare în Carcasă Turnată MSX și Separatoare Rotative MSS", description: "Întrerupătoare de putere pentru curenți mai mari, folosite la protecția tabloului general al unei clădiri sau al unei instalații industriale. Aplicație tipică: protecția generală a unui tablou de distribuție la intrarea în clădire. Clientul trebuie să precizeze curentul nominal al circuitului protejat și puterea de rupere necesară." },
       { name: "Tablouri de Distribuție QDX / CVX", description: "Tablouri electrice modulare pentru distribuția energiei în clădiri, cu variante pentru diferite densități de aparataj instalat. Aplicație tipică: tablou general sau tablou de etaj într-o clădire de birouri sau spațiu comercial. Necesită numărul de module de instalat și gradul de protecție (IP) cerut de mediul de montaj." },
       { name: "Prize Industriale IEC 309", description: "Fișe și prize industriale conforme standardului IEC 309, pentru conectarea echipamentelor trifazate sau monofazate în medii industriale. Aplicație tipică: alimentarea utilajelor mobile sau a echipamentelor temporare pe un șantier sau într-o hală. Clientul trebuie să indice curentul nominal, tensiunea și numărul de poli necesar." }
     ],
@@ -514,7 +514,7 @@ Pentru instalatorii și proiectanții electrici din România, Gewiss e relevant 
       },
       {
         "code": "MSS",
-        "description": "Întrerupător automat în carcasă turnată, variantă din gama MSX"
+        "description": "Separator rotativ din seria 97 MSS"
       },
       {
         "code": "QDX",
@@ -522,7 +522,7 @@ Pentru instalatorii și proiectanții electrici din România, Gewiss e relevant 
       },
       {
         "code": "CVX",
-        "description": "Tablou de distribuție de putere pentru instalații electrice de dimensiuni mari"
+        "description": "Tablou de distribuție pentru curenți de până la 160 A (seria 47 CVX 160), cu variante pentru montaj îngropat sau aparent"
       },
       {
         "code": "IEC 309",
@@ -543,12 +543,12 @@ Pentru instalatorii și proiectanții electrici din România, Gewiss e relevant 
     ],
     faq: [
       {
-        "q": "Ce diferență este între întrerupătoarele Gewiss MSX și MSS?",
-        "a": "MSX și MSS fac parte din aceeași familie de întrerupătoare automate în carcasă turnată, folosite pentru curenți nominali mari în tablourile electrice industriale. Diferențele dintre cele două variante țin de gama de curenți acoperită și de opțiunile de accesorii disponibile pentru fiecare model. Alegerea corectă se face pornind de la curentul nominal necesar în instalație și de la tipul de protecție impus de proiectul electric."
+        "q": "Ce diferență este între Gewiss MSX și MSS?",
+        "a": "MSX este o serie de întrerupătoare automate în carcasă turnată pentru distribuția de putere, iar MSS (seria 97 MSS) este o serie de separatoare rotative, nu de întrerupătoare automate. Alegerea corectă se face pornind de la curentul nominal necesar în instalație și de la funcția cerută de proiectul electric: protecție sau separare."
       },
       {
         "q": "Livrați echipamente Gewiss în România?",
-        "a": "Da, aducem la comandă produse din seria 90, întrerupătoare MSX sau MSS, tablouri QDX și CVX, precum și prize industriale IEC 309, pe baza codului exact de catalog. Pentru produsele Gewiss nu menținem un stoc fix pe raft, aducerea se face la comandă, iar intervalul indicativ merge de la două până la patru săptămâni. Recomandăm menționarea curentului nominal și a tensiunii de lucru pentru identificarea corectă a produsului."
+        "a": "Da, aducem la comandă produse din seria 90, întrerupătoare MSX sau MSS, tablouri QDX și CVX, precum și prize industriale IEC 309, pe baza codului exact de catalog. Pentru produsele Gewiss nu menținem un stoc fix pe raft, aducerea se face la comandă, iar intervalul indicativ este de 1–4 săptămâni. Recomandăm menționarea curentului nominal și a tensiunii de lucru pentru identificarea corectă a produsului."
       },
       {
         "q": "Ce parametri sunt necesari pentru o ofertă de tablou electric Gewiss?",

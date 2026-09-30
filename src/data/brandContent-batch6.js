@@ -56,7 +56,7 @@ Sistemele PC-based Beckhoff sunt alese în automotive, packaging, semiconductor 
       'Printing - Flexo, offset, digital, label printing',
       'Test & Measurement - Dynamic testing, HIL simulation'
     ],
-    infinitrade: `Pentru automatizarea Beckhoff (PLC, EtherCAT, servo AM8000) lucrăm din surse publice ale producătorului și nu avem un centru propriu de stoc pentru fiecare cod din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană: ca regulă generală a firmei putem asigura 24-72 h din stoc pentru poziții frecvente, restul gamei intrând pe fluxul obișnuit de 1–4 săptămâni la comandă. Pentru un răspuns corect avem nevoie de codul exact al modulului sau drive-ului, cantitatea și aplicația vizată. Fără aceste detalii nu putem confirma un termen ferm de livrare.`,
+    infinitrade: `Pentru automatizarea Beckhoff (PLC, EtherCAT, servo AM8000) lucrăm din surse publice ale producătorului și nu avem un centru propriu de stoc pentru fiecare cod din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană: ca regulă generală a firmei putem asigura 24–72 h din stoc pentru poziții frecvente, restul gamei intrând pe fluxul obișnuit de 1–4 săptămâni la comandă. Pentru un răspuns corect avem nevoie de codul exact al modulului sau drive-ului, cantitatea și aplicația vizată. Fără aceste detalii nu putem confirma un termen ferm de livrare.`,
     limitation: 'Nu putem confirma service în perioada de garanție a producătorului și nici configurare software TwinCAT la distanță fără un contract tehnic separat.',
     sources: [
       {"title":"EtherCAT Terminals","url":"https://www.beckhoff.com/en-en/products/i-o/ethercat-terminals/","publisher":"Beckhoff Automation GmbH","accessed":"2026-09-22"},
@@ -207,7 +207,7 @@ Filtrele Boll & Kirch sunt folosite în oil&gas, chimie, marine și metalurgie p
       'Mining - Mine water, slurry, tailings',
       'Municipal - Drinking water intake, wastewater tertiary'
     ],
-    infinitrade: `La filtrele Boll & Kirch ne ghidăm după informațiile publice disponibile de la producător, nu după evidențe interne de stoc pe fiecare model. Elementele filtrante și sistemele automate ajung la comandă prin canale de aprovizionare din Uniunea Europeană, de regulă în 1–4 săptămâni; câteva repere circulă mai des și pot ajunge în 24-72 h din stoc. Pentru o ofertă corectă spuneți-ne tipul de filtrare dorit (backwash, duplex, inline), diametrul nominal și presiunea de lucru. Pe modele mai vechi sau scoase din producție, confirmarea poate dura suplimentar.`,
+    infinitrade: `La filtrele Boll & Kirch ne ghidăm după informațiile publice disponibile de la producător, nu după evidențe interne de stoc pe fiecare model. Elementele filtrante și sistemele automate ajung la comandă prin canale de aprovizionare din Uniunea Europeană, de regulă în 1–4 săptămâni; câteva repere circulă mai des și pot ajunge în 24–72 h din stoc. Pentru o ofertă corectă spuneți-ne tipul de filtrare dorit (backwash, duplex, inline), diametrul nominal și presiunea de lucru. Pe modele mai vechi sau scoase din producție, confirmarea poate dura suplimentar.`,
     limitation: 'Nu putem confirma disponibilitatea imediată a fiecărui model de element filtrant și nici service în garanția producătorului fără validare directă cu Boll & Kirch.',
     sources: [
       {"title":"BOLLFILTER","url":"https://www.bollfilter.com","publisher":"Boll & Kirch Filterbau GmbH","accessed":"2026-09-22"},
@@ -342,7 +342,7 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
       'Demolition - Demolare controlată, dezmembrări',
       'Concrete - Tăiere, carotare, ancorări beton'
     ],
-    infinitrade: `Portofoliul Bosch Professional e foarte larg, așa că preferăm să spunem clar ce putem și ce nu putem confirma înainte de comandă. Aprovizionarea se face prin canale de aprovizionare din Uniunea Europeană, iar ca regulă generală unele modele curente pot ajunge în 24-72 h din stoc, în timp ce restul gamei urmează fluxul normal de 1–4 săptămâni. Trimiteți-ne codul mașinii sau al setului, accesoriile dorite și cantitatea - verificăm disponibilitatea reală la furnizor înainte de a stabili prețul și termenul. La seturi promoționale sau ediții limitate, disponibilitatea diferă adesea de catalogul standard.`,
+    infinitrade: `Portofoliul Bosch Professional e foarte larg, așa că preferăm să spunem clar ce putem și ce nu putem confirma înainte de comandă. Aprovizionarea se face prin canale de aprovizionare din Uniunea Europeană, iar ca regulă generală unele modele curente pot ajunge în 24–72 h din stoc, în timp ce restul gamei urmează fluxul normal de 1–4 săptămâni. Trimiteți-ne codul mașinii sau al setului, accesoriile dorite și cantitatea - verificăm disponibilitatea reală la furnizor înainte de a stabili prețul și termenul. La seturi promoționale sau ediții limitate, disponibilitatea diferă adesea de catalogul standard.`,
     limitation: 'Nu putem confirma reparații în garanția producătorului fără trecerea prin rețeaua de service Bosch și nici disponibilitatea exactă a seturilor promoționale.',
     sources: [
       {"title":"GBH 18V-26 Cordless Rotary Hammer with SDS plus","url":"https://www.bosch-professional.com/gb/en/products/gbh-18v-26-0611909000","publisher":"Robert Bosch Power Tools GmbH","accessed":"2026-09-22"},
@@ -481,7 +481,7 @@ Clienții din industria auto și packaging aleg B&R pentru un cost total de deț
       'Textile - Weaving, knitting, non-woven',
       'Wood & Furniture - Sawmills, edge banding, CNC routing'
     ],
-    infinitrade: `Componentele B&R (module X20, drive-uri ACOPOS, panouri Power Panel) intră la noi prin canale de aprovizionare din Uniunea Europeană, fără un stoc propriu evidențiat pe fiecare referință. Ne bazăm pe surse publice ale producătorului: termenul uzual e de 1–4 săptămâni la comandă, iar pentru câteva module cerute des putem asigura 24-72 h din stoc ca regulă generală. Avem nevoie de referința exactă, tensiunea de alimentare și interfața de comunicație dorită pentru a confirma compatibilitatea. Pe arhitecturi cu mai multe module, trimiteți și schema aplicației - reduce riscul unei comenzi greșite.`,
+    infinitrade: `Componentele B&R (module X20, drive-uri ACOPOS, panouri Power Panel) intră la noi prin canale de aprovizionare din Uniunea Europeană, fără un stoc propriu evidențiat pe fiecare referință. Ne bazăm pe surse publice ale producătorului: termenul uzual e de 1–4 săptămâni la comandă, iar pentru câteva module cerute des putem asigura 24–72 h din stoc ca regulă generală. Avem nevoie de referința exactă, tensiunea de alimentare și interfața de comunicație dorită pentru a confirma compatibilitatea. Pe arhitecturi cu mai multe module, trimiteți și schema aplicației - reduce riscul unei comenzi greșite.`,
     limitation: 'Nu putem confirma programarea aplicației Automation Studio a clientului și nici disponibilitatea garantată a fiecărui modul X20 sau drive ACOPOS.',
     sources: [
       {"title":"X20 System","url":"https://www.br-automation.com/en-us/products/io-systems/x20-system/","publisher":"B&R Industrial Automation (ABB)","accessed":"2026-09-22"},
@@ -620,7 +620,7 @@ Pompele Bucher sunt alese în construcții și de integratori OEM pentru robuste
       'Recycling - Baler, shredder, compactor',
       'Aerial Platforms - Scissor lift, boom lift, truck-mount'
     ],
-    infinitrade: `Pompele, valvele și motoarele Bucher Hydraulics vin la comandă prin canale de aprovizionare din Uniunea Europeană; lucrăm din surse publice ale producătorului, fără date proprii despre stocul fiecărei variante. Termenul obișnuit este de 1–4 săptămâni, iar pentru piese uzuale de schimb putem oferi ocazional 24-72 h din stoc, ca regulă generală, nu ca promisiune pe un cod anume. Trimiteți-ne codul complet sau parametrii tehnici (presiune, debit, tip de montaj) ca să confirmăm compatibilitatea cu utilajul dumneavoastră. Piesele custom sau ieșite din fabricație necesită verificare suplimentară direct la producător.`,
+    infinitrade: `Pompele, valvele și motoarele Bucher Hydraulics vin la comandă prin canale de aprovizionare din Uniunea Europeană; lucrăm din surse publice ale producătorului, fără date proprii despre stocul fiecărei variante. Termenul obișnuit este de 1–4 săptămâni, iar pentru piese uzuale de schimb putem oferi ocazional 24–72 h din stoc, ca regulă generală, nu ca promisiune pe un cod anume. Trimiteți-ne codul complet sau parametrii tehnici (presiune, debit, tip de montaj) ca să confirmăm compatibilitatea cu utilajul dumneavoastră. Piesele custom sau ieșite din fabricație necesită verificare suplimentară direct la producător.`,
     limitation: 'Nu putem confirma re-lapping sau reparații de precizie pe pompă fără evaluarea directă a piesei și nici disponibilitatea garantată pentru fiecare cod.',
     sources: [
       {"title":"Pumps","url":"https://www.bucherhydraulics.com/en/products/pumps-and-motors/pumps/","publisher":"Bucher Hydraulics AG","accessed":"2026-09-22"},
@@ -759,7 +759,7 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate - fieca
       'Power Generation - Cooling water, steam, chemical dosing',
       'Automotive - Paint mixing, cooling circuits, testing'
     ],
-    infinitrade: `Pentru senzorii și valvele Bürkert lucrăm după informațiile publice disponibile de la producător, nu după un stoc intern documentat pe fiecare tip. Produsele ajung prin canale de aprovizionare din Uniunea Europeană, de regulă în 1–4 săptămâni la comandă; câteva tipuri cerute frecvent pot ajunge și în 24-72 h din stoc. Spuneți-ne parametrul măsurat (debit, presiune, temperatură), domeniul de lucru și conexiunea de proces, ca să identificăm varianta potrivită. Variantele cu certificare hygienic-design sau calibrare extinsă cer, de regulă, mai mult timp de confirmare.`,
+    infinitrade: `Pentru senzorii și valvele Bürkert lucrăm după informațiile publice disponibile de la producător, nu după un stoc intern documentat pe fiecare tip. Produsele ajung prin canale de aprovizionare din Uniunea Europeană, de regulă în 1–4 săptămâni la comandă; câteva tipuri cerute frecvent pot ajunge și în 24–72 h din stoc. Spuneți-ne parametrul măsurat (debit, presiune, temperatură), domeniul de lucru și conexiunea de proces, ca să identificăm varianta potrivită. Variantele cu certificare hygienic-design sau calibrare extinsă cer, de regulă, mai mult timp de confirmare.`,
     limitation: 'Nu putem confirma o calibrare ISO 17025 proprie și nici disponibilitatea garantată pentru fiecare variantă de senzor Bürkert.',
     sources: [
       {"title":"Products","url":"https://www.burkert.com/en/products","publisher":"Burkert Fluid Control Systems","accessed":"2026-09-22"},
@@ -889,7 +889,7 @@ Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitatea
       'Horticulture - Sere încălzite, agricultura controlată',
       'Swimming Pools - Încălzire apă bazin, dehumidification'
     ],
-    infinitrade: `Componentele Caleffi - vase de expansiune, grupuri Hydrolink, separatoare Discaldirt - intră la noi prin canale de aprovizionare din Uniunea Europeană. Nu avem un depozit propriu documentat pe fiecare model, așa că spunem clar ce putem și ce nu putem confirma înainte de a da un termen: de regulă 1–4 săptămâni la comandă, cu excepția câtorva dimensiuni uzuale unde putem asigura 24-72 h din stoc. Pentru o recomandare corectă avem nevoie de diametru, presiune nominală și tipul instalației (încălzire sau apă rece). Configurațiile Hydrolink personalizate depășesc, de regulă, termenul standard.`,
+    infinitrade: `Componentele Caleffi - vase de expansiune, grupuri Hydrolink, separatoare Discaldirt - intră la noi prin canale de aprovizionare din Uniunea Europeană. Nu avem un depozit propriu documentat pe fiecare model, așa că spunem clar ce putem și ce nu putem confirma înainte de a da un termen: de regulă 1–4 săptămâni la comandă, cu excepția câtorva dimensiuni uzuale unde putem asigura 24–72 h din stoc. Pentru o recomandare corectă avem nevoie de diametru, presiune nominală și tipul instalației (încălzire sau apă rece). Configurațiile Hydrolink personalizate depășesc, de regulă, termenul standard.`,
     limitation: 'Nu putem confirma dimensionarea finală a sistemului fără datele complete ale instalației și nici disponibilitatea garantată pentru fiecare dimensiune de vas.',
     sources: [
       {"title":"Caleffi Home – Featured Products","url":"https://www.caleffi.com/en-us","publisher":"Caleffi S.p.A.","accessed":"2026-09-22"},
@@ -1005,7 +1005,7 @@ Clienții OEM din packaging, automotive și woodworking aleg Camozzi pentru posi
       'Valve 358 Series - Manifold modular, ATEX Zone 2, IP65',
       'FRL Lockout - Filtrare 5μm, reglare 0.5-10 bar, lubrifiere micro-fog',
       'Senzori magnetici - Reed switch/solid-state, LED indicator, IO-Link',
-      'Customizare rapidă - MOQ low, lead-time 2-3 săptămâni'
+      'Variante personalizate la cerere; cantitatea minimă și termenul se confirmă în ofertă'
     ],
     keyProducts: [
       {
@@ -1048,7 +1048,7 @@ Clienții OEM din packaging, automotive și woodworking aleg Camozzi pentru posi
       'Pharmaceutical - Tablet press, blister packing, filling',
       'Metal Fabrication - Press brake, stamping, welding, assembly'
     ],
-    infinitrade: `Gama pneumatică Camozzi e vastă, iar noi lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare bore, cursă sau tip de valvă. Produsele ajung prin canale de aprovizionare din Uniunea Europeană, cu termen obișnuit 1–4 săptămâni la comandă; pe diametrele și cursele cerute des putem asigura 24-72 h din stoc, ca politică generală a firmei. Trimiteți-ne bore-ul și cursa cilindrului, respectiv tensiunea de acționare pentru valve, ca să confirmăm codul corect înainte de a plasa comanda. Manifoldurile custom depind de configurația validată direct cu producătorul, iar termenul se stabilește după aceea.`,
+    infinitrade: `Gama pneumatică Camozzi e vastă, iar noi lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare bore, cursă sau tip de valvă. Produsele ajung prin canale de aprovizionare din Uniunea Europeană, cu termen obișnuit 1–4 săptămâni la comandă; pe diametrele și cursele cerute des putem asigura 24–72 h din stoc, ca politică generală a firmei. Trimiteți-ne bore-ul și cursa cilindrului, respectiv tensiunea de acționare pentru valve, ca să confirmăm codul corect înainte de a plasa comanda. Manifoldurile custom depind de configurația validată direct cu producătorul, iar termenul se stabilește după aceea.`,
     limitation: 'Nu putem confirma disponibilitatea imediată pentru fiecare combinație bore/cursă și nici lead-time-ul exact al variantelor cu coating special fără verificare la producător.',
     sources: [
       {"title":"Valves and solenoid valves - series 3","url":"https://media.camozzi.com/pdf/3-ENG.pdf","publisher":"Camozzi","accessed":"2026-09-23"},
@@ -1200,7 +1200,7 @@ Clienții corporate și facility managers aleg Carrier pentru costul total de de
       'SmartVu Analytics - Cloud platform predictive maintenance, energy optimization',
       'R-515B refrigerant - Ultra-low GWP 299, drop-in retrofit R-134a'
     ],
-    infinitrade: `Echipamentele Carrier - chillere, unități rooftop, AHU - sunt de regulă proiecte cu configurație individuală, nu articole de stoc; nu avem date proprii de disponibilitate pentru fiecare model. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană, cu termen obișnuit 1–4 săptămâni la comandă, iar doar pe piesele de schimb uzuale putem asigura, uneori, 24-72 h din stoc. Trimiteți-ne capacitatea necesară, tipul de aplicație și condițiile locului de montaj, ca să pregătim o selecție tehnică potrivită. La sisteme mari, termenul final se confirmă direct cu producătorul, după validarea configurației.`,
+    infinitrade: `Echipamentele Carrier - chillere, unități rooftop, AHU - sunt de regulă proiecte cu configurație individuală, nu articole de stoc; nu avem date proprii de disponibilitate pentru fiecare model. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană, cu termen obișnuit 1–4 săptămâni la comandă, iar doar pe piesele de schimb uzuale putem asigura, uneori, 24–72 h din stoc. Trimiteți-ne capacitatea necesară, tipul de aplicație și condițiile locului de montaj, ca să pregătim o selecție tehnică potrivită. La sisteme mari, termenul final se confirmă direct cu producătorul, după validarea configurației.`,
     limitation: 'Nu putem confirma disponibilitatea garantată a echipamentelor sau pieselor critice și nici commissioning direct de tehnicieni Carrier fără contract separat.',
     sources: [
       {"title":"Water-Cooled Chillers – Carrier Commercial","url":"https://carrier.com/commercial/en/us/products/chillers-components/water-cooled-chillers","publisher":"Carrier Global Corporation","accessed":"2026-09-22"},
@@ -1331,7 +1331,7 @@ Clienții din automotive, aerospace și prelucrări mecanice aleg Castrol pentru
       'Construction Equipment - Hydraulics excavators, loaders, cranes',
       'Wind Energy - Gearboxes turbine, hydraulics pitch/yaw'
     ],
-    infinitrade: `Lubrifianții Castrol - emulsii Hysol, uleiuri Alpha, unsori Molub-Alloy - ne parvin prin canale de aprovizionare din Uniunea Europeană; ne ghidăm după informațiile publice disponibile de la producător, nu după un stoc propriu documentat. Termenul obișnuit e de 1–4 săptămâni la comandă; pe ambalajele uzuale (bidoane, butoaie) putem asigura, ca regulă generală, 24-72 h din stoc. Spuneți-ne tipul de lubrifiant, vâscozitatea și ambalajul dorit, ca să verificăm disponibilitatea reală înainte de confirmare. Pentru volume mari sau formule speciale, verificarea la producător poate dura mai mult decât intervalul obișnuit.`,
+    infinitrade: `Lubrifianții Castrol - emulsii Hysol, uleiuri Alpha, unsori Molub-Alloy - ne parvin prin canale de aprovizionare din Uniunea Europeană; ne ghidăm după informațiile publice disponibile de la producător, nu după un stoc propriu documentat. Termenul obișnuit e de 1–4 săptămâni la comandă; pe ambalajele uzuale (bidoane, butoaie) putem asigura, ca regulă generală, 24–72 h din stoc. Spuneți-ne tipul de lubrifiant, vâscozitatea și ambalajul dorit, ca să verificăm disponibilitatea reală înainte de confirmare. Pentru volume mari sau formule speciale, verificarea la producător poate dura mai mult decât intervalul obișnuit.`,
     limitation: 'Nu putem confirma analiza Labcheck ca serviciu propriu și nici disponibilitatea garantată pentru fiecare tip și ambalaj de lubrifiant.',
     sources: [
       {"title":"Industrial Brands Overview – Castrol USA","url":"https://www.castrol.com/en_us/united-states/home/products/our-brands/industrial.html","publisher":"Castrol (BP p.l.c.)","accessed":"2026-09-22"},

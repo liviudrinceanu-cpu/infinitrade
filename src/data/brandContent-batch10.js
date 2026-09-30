@@ -1001,35 +1001,35 @@ Ceea ce diferențiază Klüber este suportul tehnic: când cumperi un lubrifiant
     founded: 1980,
     headquarters: 'Hofheim am Taunus, Germania',
     employees: '500+',
-    overview: `Kobold Messring este producător german de instrumentație industrială pentru măsurarea și controlul debitului, nivelului, presiunii și temperaturii. De peste 40 de ani dezvoltă senzori și traductoare compacte, robuste și precise pentru aplicații de proces în chimie, petrochimie, farmaceutică, alimentară, tratare apă și automatizare industrială. Fabrica din Hofheim exportă aparate la nivel internațional, fiecare calibrat individual și testat.
+    overview: `Kobold Messring este producător german de instrumentație industrială pentru măsurarea și controlul debitului, nivelului, presiunii și temperaturii. De peste 40 de ani dezvoltă senzori și traductoare compacte, robuste și precise pentru aplicații de proces în chimie, petrochimie, farmaceutică, alimentară, tratare apă și automatizare industrială. 
 
-Filosofia Kobold este "Small Size - Big Performance": aparate compacte, cu dimensiuni reduse, care se încadrează în spații înguste dar oferă acuratețe și fiabilitate comparabile cu instrumentația de mari dimensiuni. De exemplu, debitimetrele cu float variabil (rotametre) din gamă au lungime de 150-300mm și măsoară debite de la 0.025 l/h până la 4,000 l/h cu acuratețe 2.5% din valoarea măsurată. Switchurile de nivel cu float magnetic rezistă la 400°C și 400 bar presiune în carcasă de doar 1/2" diametru.
+Filosofia Kobold este "Small Size - Big Performance": aparate compacte, cu dimensiuni reduse, care se încadrează în spații înguste dar oferă acuratețe și fiabilitate comparabile cu instrumentația de mari dimensiuni. Gama cuprinde debitmetre cu float variabil (rotametre), debitmetre cu ultrasunete și magneto-inductive, switchuri de nivel cu float magnetic, traductoare de presiune și senzori de temperatură; domeniile de măsură, temperatura și presiunea maximă diferă de la o serie la alta și se confirmă pe cod.
 
 Kobold oferă o gamă largă de configurații standard plus posibilitatea de personalizare - alegeri de materiale (inox, Hastelloy, PTFE, PVDF), conexiuni proces, ieșiri semnal, limite alarmă. Integrarea în sisteme de control industriale se face prin ieșiri 4-20mA, 0-10V, HART, PROFIBUS, Modbus.`,
     whyChoose: [
-      'Dimensiuni compacte - instrumentație completă în corpuri sub 200mm lungime',
-      'Acuratețe 1-2.5% din valoare măsurată (nu FS!) - precizie reală pe întregul domeniu',
+      'Dimensiuni compacte - dimensiunile exacte sunt în fișa tehnică a fiecărui model',
+      'Acuratețea depinde de serie și este indicată în fișa tehnică a fiecărui model',
       'Materiale premium - inox 316L, Hastelloy C, titan, PTFE, PVDF pentru medii agresive',
-      'Temperatură -200°C până +400°C - aplicații criogenice și înaltă temperatură',
-      'Presiune până 400 bar - pentru procese sub presiune mare',
+      'Domenii de temperatură diferite pe serii - de exemplu până la 250°C la switchurile de nivel NGS, conform producătorului',
+      'Presiunea maximă depinde de serie - de exemplu 100 bar la switchurile de nivel MS, conform producătorului',
       'Certificări ATEX/IECEx zona 0/1/2 - safe pentru atmosfere explozive'
     ],
     keyProducts: [
       {
-        name: 'Debitimetre cu float variabil (rotametre) DKM/DWM',
-        description: 'Gama de debitimetre mecanice cu tub conic și float măsoară lichide de la 0.025 l/h până la 4,000 l/h și gaze de la 0.5 Nl/h până la 100,000 Nl/h. Principiu simplu și robust: fluidul circulă prin tubul conic vertical ridicând floatul până când greutatea floatului = forța de portanță. Poziția floatului indică debitul direct pe scara gradată. Acuratețe 2.5% sau 4% din valoarea citită. Tub din sticlă borosilicate (până 200°C, 40 bar), metal (până 400°C, 400 bar) sau sticlă de cuarț (până 500°C). Opțional: transmițător magnetic 4-20mA, alarme min/max contact, totalizer. Conexiuni G1/4" până G2", flanșe DN15-DN50.'
+        name: 'Debitmetre cu float variabil (rotametre)',
+        description: 'Debitmetre mecanice cu tub conic și float, pentru lichide și gaze. Principiu: fluidul circulă prin tubul conic vertical și ridică floatul până când greutatea acestuia este echilibrată de forța de portanță, iar poziția floatului indică debitul pe scara gradată. Seriile (de exemplu BGN, BGF, KFR, VKM), domeniile de debit, acuratețea și limitele de temperatură și presiune diferă de la o serie la alta și se confirmă pe cod, din catalogul Kobold.'
       },
       {
-        name: 'Switchuri nivel cu float magnetic seria NAF/NAE',
-        description: 'Switchurile de nivel pe principiu float magnetic detectează prezența lichidului în rezervoare, conducte, separatoare. Float-ul conține un magnet permanent care, atunci când nivelul atinge un anumit punct, activează un contact reed din interiorul tubului etanș. Contact SPDT cu capacitate comutare 100VA, 1A la 230VAC. Versiuni side-mount sau top-mount, cu unul sau mai multe puncte de comutare. Materiale: carcasă inox 316L, PVDF sau PP, float inox sau PP. Temperatură -50°C până +400°C, presiune până 400 bar. Aplicații: alarme nivel min/max, control pompă, protecție uscată.'
+        name: 'Switchuri de nivel cu float magnetic',
+        description: 'Switchurile de nivel cu float magnetic detectează prezența lichidului în rezervoare, conducte, separatoare. Floatul conține un magnet permanent care, atunci când nivelul atinge un anumit punct, activează un contact reed din interiorul tubului etanș. Seriile (de exemplu M cu montaj superior și MS cu montaj lateral) diferă prin materiale, tipul de contact, temperatura maximă (150°C la seriile M și MS) și presiunea maximă (100 bar la seria MS); valorile exacte se confirmă pe cod. Aplicații: alarme de nivel minim/maxim, comanda pompelor, protecție la funcționarea fără lichid.'
       },
       {
         name: 'Traductoare presiune seria SEN/PAD',
-        description: 'Traductoare piezoresistive și capacitive pentru presiuni de la 0-100 mbar până la 0-1000 bar, absolute sau relative. Membrană inox 316L, Hastelloy sau ceramică în funcție de mediu. Acuratețe 0.25% sau 0.5% FS, compensare temperatură -10°C până +100°C. Ieșire 4-20mA 2-wire, 0-10V, 0-5V sau HART. Opțional: display LCD local cu retroiluminare și taste programare pentru setare zero și span. Certificare ATEX II 1/2 G Ex ia pentru zona 0/1. Aplicații: măsurare presiune gaz, lichid, abur, vid în reactoare, rezervoare, conducte.'
+        description: 'Seria SEN este un traductor compact de presiune, iar seria PAD este un traductor de presiune diferențială cu HART. Domeniile de măsură, acuratețea, materialele membranei, ieșirile și certificările Ex diferă de la o serie la alta și se confirmă pe cod, din fișa tehnică Kobold.'
       },
       {
-        name: 'Indicatoare nivel prin radar seria BGU',
-        description: 'Senzorii radar FMCW (Frequency Modulated Continuous Wave) măsoară nivel în rezervoare până la 70 metri înălțime cu acuratețe ±3mm. Frecvența 26 GHz traversează abur, praf, condens fără probleme. Antenă PTFE sau ceramică în conexiune proceș G1.5" sau flanșă DN80. Temperatură proces -40°C până +200°C, presiune -1 până +40 bar. Programare prin Bluetooth cu aplicație smartphone sau HART comunicator. Ieșire 4-20mA + HART, PROFIBUS PA, Foundation Fieldbus. Certificare ATEX/IECEx, SIL 2, WHG aprobat pentru depozitare substanțe poluante apă. Aplicații: nivel lichide în chimie, petrol, apă, alimente.'
+        name: 'Senzori de nivel radar seria NRE',
+        description: 'Senzorii radar fără contact NRE folosesc frecvența de 80 GHz (banda W), în sistem cu 2 fire și HART. NRE-4 (Expert Line) măsoară până la 30 m cu acuratețe de ±2 mm, la temperaturi de proces de până la 180°C și presiuni de până la 40 bar; NRE-7 (Compact Line) măsoară până la 30 m (lichide), la până la 80°C și 3 bar. Pentru măsurarea prin ghid de undă există seria NGM. Celelalte caracteristici se confirmă pe cod.'
       }
     ],
     certifications: [
@@ -1041,19 +1041,19 @@ Kobold oferă o gamă largă de configurații standard plus posibilitatea de per
       '3-A Sanitary - Certificare contact alimente',
       'FDA - Aprobări SUA pentru pharma/food',
       'NACE MR0175 - Rezistență H2S pentru oil & gas',
-      'GOST-R - Certificări pentru piața rusă'
+      'CE - conformitate pentru piața UE'
     ],
     industries: [
-      'Chemical & Petrochemical - reactoare, distilare, stocare',
-      'Pharmaceutical - fermentatoare, bioreactoare, CIP/SIP',
-      'Food & Beverage - mixere, rezervoare, dozare ingrediente',
-      'Water Treatment - filtrare, dozare chimicale, dezinfecție',
-      'Oil & Gas - separatoare, pompare, rafinārii',
-      'Power Generation - centrale termice, abur, răcire',
-      'Automotive - vopsitorie, tratament suprafață, CIP',
-      'Pulp & Paper - dozare chimicale, nivel rezervoare',
+      'Chimie și petrochimie - reactoare, distilare, stocare',
+      'Farmaceutică - fermentatoare, bioreactoare, CIP/SIP',
+      'Alimentar și băuturi - mixere, rezervoare, dozarea ingredientelor',
+      'Tratarea apei - filtrare, dozare de chimicale, dezinfecție',
+      'Petrol și gaze - separatoare, pompare, rafinării',
+      'Energie - centrale termice, abur, răcire',
+      'Automotive - vopsitorii, tratamente de suprafață, CIP',
+      'Celuloză și hârtie - dozare de chimicale, nivel în rezervoare',
       'HVAC - centrale termice, răcitoare, umidificare',
-      'Environmental - monitorizare emisii, tratare ape uzate'
+      'Mediu - monitorizarea emisiilor, tratarea apelor uzate'
     ],
     infinitrade: `Comandăm instrumentele Kobold Messring prin furnizori din spațiul UE și nu avem un sistem propriu care să arate stocul fizic exact în orice moment. Datele despre domenii de măsură și materiale le luăm din surse publice ale producătorului, iar disponibilitatea reală o verificăm punctual la furnizor. Ca regulă generală a firmei, rotametrele și switchurile uzuale pot ajunge în 24–72 h din stoc, în timp ce configurațiile speciale sau aparatele cu materiale rare intră pe flux de comandă de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de fluidul măsurat, domeniul de debit sau presiune și tipul de conexiune la proces. Recalibrarea acreditată și emiterea certificatelor oficiale rămân în sarcina laboratorului producătorului din Germania.`,
     sources: [
@@ -1125,7 +1125,7 @@ Kobold oferă o gamă largă de configurații standard plus posibilitatea de per
     faq: [
       {
         "q": "Ce diferență este între debitmetrele Kobold DUC și DUK?",
-        "a": "DUC este un debitmetru cu ultrasunete tip clamp-on, montat pe exteriorul conductei fără a intra în contact cu fluidul, util când nu se dorește intervenția pe conductă. DUK se montează în linie și comunică prin IO-Link, oferind o măsurare directă mai precisă în aplicații industriale integrate digital. Alegerea depinde de posibilitatea de a întrerupe conducta și de tipul de fluid măsurat."
+        "a": "DUC este un debitmetru cu ultrasunete tip clamp-on, montat pe exteriorul conductei fără a intra în contact cu fluidul, util când nu se dorește intervenția pe conductă. DUK se montează în linie și comunică prin IO-Link. Alegerea depinde de posibilitatea de a întrerupe conducta și de tipul de fluid măsurat."
       },
       {
         "q": "Livrați debitmetre și senzori Kobold în România?",

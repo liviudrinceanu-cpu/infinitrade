@@ -20,8 +20,14 @@ export const brandCount = brandStats.total;
 export const indexedBrandCount = brandStats.indexed;
 export const brandsWithContentCount = brandStats.withContent;
 
-// Years active, computed at build time
-export const yearsActive = new Date().getFullYear() - FOUNDING_YEAR;
+// Years active, computed at build time — ani ÎMPLINIȚI de la înființare
+// (11 noiembrie 2009, ONRC). v34: înainte era anul curent − 2009, deci afișa
+// „17+” încă din ianuarie 2026, deși firma împlinește 17 ani abia pe 11.11.2026.
+const FOUNDING_DATE = new Date(Date.UTC(FOUNDING_YEAR, 10, 11));
+const now = new Date();
+export const yearsActive = now.getUTCFullYear() - FOUNDING_YEAR
+  - (now.getUTCMonth() < FOUNDING_DATE.getUTCMonth()
+    || (now.getUTCMonth() === FOUNDING_DATE.getUTCMonth() && now.getUTCDate() < FOUNDING_DATE.getUTCDate()) ? 1 : 0);
 
 export const siteStats = {
   brands: String(brandCount),

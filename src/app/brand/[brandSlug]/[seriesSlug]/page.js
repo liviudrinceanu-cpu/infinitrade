@@ -43,7 +43,8 @@ export async function generateMetadata({ params }) {
     `${displayName} | Infinitrade`,
     displayName,
   ].find((t) => t.length <= 65) || displayName;
-  const description = `${s.oneLine} Coduri de tip, parametri din documentația ${brand.name} și ce trebuie să trimiteți pentru o ofertă. Cereți ofertă.`.slice(0, 158);
+  const description0 = `${s.oneLine} Coduri de tip, parametri din documentația ${brand.name} și ce trebuie să trimiteți pentru o ofertă. Cereți ofertă.`;
+  const description = description0.length <= 158 ? description0 : description0.slice(0, 157).replace(/[\s,;:–-]+\S*$/, '') + '…';
   const url = `${config.site.url}/brand/${brandSlug}/${seriesSlug}`;
   return {
     title: { absolute: title },
