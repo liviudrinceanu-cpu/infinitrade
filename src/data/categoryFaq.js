@@ -23,7 +23,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea unei pompe industriale?',
-      a: 'Pentru modelele aflate în stoc - în special seriile standard Grundfos, Wilo și DAB - livrarea se face în 24-72h oriunde în România. Pentru pompe configurate special (materiale speciale, presiuni ridicate, motoare ATEX) sau pentru mărci comandate direct de la fabrică, termenul realist e de 1–4 săptămâni, în funcție de producător și de disponibilitatea componentelor turnate. Pentru opriri neplanificate de producție, Infinitrade poate verifica stocul altor furnizori din rețea și oferi soluții de urgență cu livrare accelerată.',
+      a: 'Pentru modelele aflate în stoc - în special seriile standard Grundfos, Wilo și DAB - livrarea se face în 24–72 h oriunde în România. Pentru pompe configurate special (materiale speciale, presiuni ridicate, motoare ATEX) sau pentru mărci comandate direct de la fabrică, termenul realist e de 1–4 săptămâni, în funcție de producător și de disponibilitatea componentelor turnate. Pentru opriri neplanificate de producție, Infinitrade poate verifica stocul altor furnizori din rețea și oferi soluții de urgență cu livrare accelerată.',
     },
     {
       q: 'Pompele de vid se aleg diferit față de cele centrifugale?',
@@ -54,7 +54,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea robineților și supapelor industriale?',
-      a: 'Robineții cu bilă și fluture în dimensiuni și materiale uzuale (DN15-DN200, oțel carbon sau inox) se livrează de regulă în 24-72h din stoc. Supapele de siguranță calibrate, robineții de reglare cu actuator configurat sau piesele din materiale speciale (duplex, hastelloy) au termen de 1–4 săptămâni, pentru că necesită producție sau setare specifică la fabrică. Pentru opriri de instalație, echipa tehnică Infinitrade poate propune și soluții temporare din stocul disponibil, până sosesc piesele definitive.',
+      a: 'Robineții cu bilă și fluture în dimensiuni și materiale uzuale (DN15-DN200, oțel carbon sau inox) se livrează de regulă în 24–72 h din stoc. Supapele de siguranță calibrate, robineții de reglare cu actuator configurat sau piesele din materiale speciale (duplex, hastelloy) au termen de 1–4 săptămâni, pentru că necesită producție sau setare specifică la fabrică. Pentru opriri de instalație, echipa tehnică Infinitrade poate propune și soluții temporare din stocul disponibil, până sosesc piesele definitive.',
     },
   ],
 
@@ -81,7 +81,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea unui motor electric industrial?',
-      a: 'Termenul depinde de tipul motorului: modelele asincrone standard, în puterile și turațiile uzuale de la Siemens, WEG sau Nord, ajung la client în 24-72h din stoc. Motoarele ATEX, servomotoarele configurate special sau motoreductoarele cu raport de transmisie particular au termen de livrare de 1–4 săptămâni, pentru că se asamblează sau se comandă direct de la fabrică. Pentru linii de producție oprite, verificăm disponibilitatea imediată din stocul Infinitrade și din rețeaua de furnizori parteneri înainte să confirmăm termenul.',
+      a: 'Termenul depinde de tipul motorului: modelele asincrone standard, în puterile și turațiile uzuale de la Siemens, WEG sau Nord, ajung la client în 24–72 h din stoc. Motoarele ATEX, servomotoarele configurate special sau motoreductoarele cu raport de transmisie particular au termen de livrare de 1–4 săptămâni, pentru că se asamblează sau se comandă direct de la fabrică. Pentru linii de producție oprite, verificăm disponibilitatea imediată din stocul Infinitrade și din rețeaua de furnizori parteneri înainte să confirmăm termenul.',
     },
   ],
 
@@ -108,7 +108,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea unui schimbător de căldură sau a garniturilor de schimb?',
-      a: 'Depinde ce anume comandați: garniturile și plăcile de schimb pentru modelele curente Alfa Laval și Kelvion sunt de regulă pe stoc și ajung în 24-72h. Un schimbător nou, configurat pentru sarcina dumneavoastră termică, se produce la comandă și are termen de 1–4 săptămâni, în funcție de numărul de plăci și de disponibilitatea materialului (mai lung pentru titan). Pentru opriri neplanificate de proces, Infinitrade verifică prioritar stocul de garnituri și plăci compatibile înainte de a comanda de la fabrică.',
+      a: 'Depinde ce anume comandați: garniturile și plăcile de schimb pentru modelele curente Alfa Laval și Kelvion sunt de regulă pe stoc și ajung în 24–72 h. Un schimbător nou, configurat pentru sarcina dumneavoastră termică, se produce la comandă și are termen de 1–4 săptămâni, în funcție de numărul de plăci și de disponibilitatea materialului (mai lung pentru titan). Pentru opriri neplanificate de proces, Infinitrade verifică prioritar stocul de garnituri și plăci compatibile înainte de a comanda de la fabrică.',
     },
   ],
 
@@ -135,7 +135,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea suflantelor și ventilatoarelor industriale?',
-      a: 'Gama standard Becker și FPZ, în puterile cele mai cerute, e disponibilă din stoc cu livrare în 24-72h. Suflantele Roots de capacitate mare, ventilatoarele EC configurate special sau echipamentele cu certificare ATEX au termen de livrare de 1–4 săptămâni, fiind produse sau parametrizate la comandă. Echipa Infinitrade verifică disponibilitatea imediată înainte de confirmarea ofertei, mai ales pentru opriri neplanificate de proces.',
+      a: 'Gama standard Becker și FPZ, în puterile cele mai cerute, e disponibilă din stoc cu livrare în 24–72 h. Suflantele Roots de capacitate mare, ventilatoarele EC configurate special sau echipamentele cu certificare ATEX au termen de livrare de 1–4 săptămâni, fiind produse sau parametrizate la comandă. Echipa Infinitrade verifică disponibilitatea imediată înainte de confirmarea ofertei, mai ales pentru opriri neplanificate de proces.',
     },
   ],
 
@@ -162,7 +162,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea echipamentelor de automatizare industrială?',
-      a: 'Componentele cerute frecvent - PLC-uri, module I/O, relee de la Siemens, Schneider Electric sau Phoenix Contact - sunt menținute pe stoc și ajung la client în 24-72h. Sistemele SCADA configurate, panourile HMI personalizate sau actuatoarele cu parametrizare specifică au termen de 1–4 săptămâni, pentru programare și testare înainte de livrare. Infinitrade poate coordona și integrarea noilor componente cu automatizarea existentă din fabrică, nu doar furnizarea echipamentului.',
+      a: 'Componentele cerute frecvent - PLC-uri, module I/O, relee de la Siemens, Schneider Electric sau Phoenix Contact - sunt menținute pe stoc și ajung la client în 24–72 h. Sistemele SCADA configurate, panourile HMI personalizate sau actuatoarele cu parametrizare specifică au termen de 1–4 săptămâni, pentru programare și testare înainte de livrare. Infinitrade poate coordona și integrarea noilor componente cu automatizarea existentă din fabrică, nu doar furnizarea echipamentului.',
     },
   ],
 
@@ -189,7 +189,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea și calibrarea instrumentației de măsură?',
-      a: 'Pentru senzorii de presiune și temperatură în domeniile uzuale, de la WIKA sau Endress+Hauser, termenul e 24-72h din stoc. Debitmetrele configurate pentru diametrul și fluidul specific sau instrumentația certificată ATEX au termen de 1–4 săptămâni. Calibrarea în laborator acreditat RENAR, atunci când e cerută de proiect, o coordonează Infinitrade și durează de obicei câteva zile lucrătoare, în funcție de tipul instrumentului și de numărul de puncte de calibrare solicitate.',
+      a: 'Pentru senzorii de presiune și temperatură în domeniile uzuale, de la WIKA sau Endress+Hauser, termenul e 24–72 h din stoc. Debitmetrele configurate pentru diametrul și fluidul specific sau instrumentația certificată ATEX au termen de 1–4 săptămâni. Calibrarea în laborator acreditat RENAR, atunci când e cerută de proiect, o coordonează Infinitrade și durează de obicei câteva zile lucrătoare, în funcție de tipul instrumentului și de numărul de puncte de calibrare solicitate.',
     },
   ],
 
@@ -216,7 +216,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea componentelor hidraulice și pneumatice?',
-      a: 'Cilindrii, valvele și racordurile în dimensiuni standard - Parker, Festo, SMC - le livrăm în 24-72h din stocul disponibil. Cilindrii hidraulici cu curse și alezaje speciale, pompele configurate pe comandă sau sistemele complete proiectate pentru o aplicație specifică au termen de 1–4 săptămâni. Pentru utilaje oprite din lipsa unei componente critice, echipa Infinitrade verifică întâi variante compatibile deja în stoc înainte de a recomanda o piesă nouă la comandă.',
+      a: 'Cilindrii, valvele și racordurile în dimensiuni standard - Parker, Festo, SMC - le livrăm în 24–72 h din stocul disponibil. Cilindrii hidraulici cu curse și alezaje speciale, pompele configurate pe comandă sau sistemele complete proiectate pentru o aplicație specifică au termen de 1–4 săptămâni. Pentru utilaje oprite din lipsa unei componente critice, echipa Infinitrade verifică întâi variante compatibile deja în stoc înainte de a recomanda o piesă nouă la comandă.',
     },
   ],
 
@@ -243,7 +243,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea echipamentelor electrice și a tablourilor?',
-      a: 'Întrerupătoarele, contactoarele și releele standard de la Schneider Electric sau Siemens ies din stoc în 24-72h. Tablourile electrice fabricate la comandă, cu schemă și componente specifice proiectului, au termen de 1–4 săptămâni, în funcție de complexitate și de testarea finală înainte de livrare. Pentru proiecte mari, Infinitrade poate eșalona livrarea pe faze, astfel încât montajul să înceapă înainte de finalizarea completă a tabloului.',
+      a: 'Întrerupătoarele, contactoarele și releele standard de la Schneider Electric sau Siemens ies din stoc în 24–72 h. Tablourile electrice fabricate la comandă, cu schemă și componente specifice proiectului, au termen de 1–4 săptămâni, în funcție de complexitate și de testarea finală înainte de livrare. Pentru proiecte mari, Infinitrade poate eșalona livrarea pe faze, astfel încât montajul să înceapă înainte de finalizarea completă a tabloului.',
     },
   ],
 
@@ -270,7 +270,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea componentelor mecanice și a pieselor de schimb?',
-      a: 'Pentru rulmenți, curele și garnituri în dimensiunile cele mai cerute - SKF, FAG, Gates - termenul e 24-72h, direct din stocul Infinitrade. Componentele mai rare, cuplajele speciale sau lanțurile cu dimensiuni neuzuale au termen de 1–4 săptămâni, fiind comandate direct de la producător. Pentru opriri de producție cauzate de o piesă defectă, tratăm cererea ca urgență și verificăm imediat toate variantele compatibile disponibile.',
+      a: 'Pentru rulmenți, curele și garnituri în dimensiunile cele mai cerute - SKF, FAG, Gates - termenul e 24–72 h, direct din stocul Infinitrade. Componentele mai rare, cuplajele speciale sau lanțurile cu dimensiuni neuzuale au termen de 1–4 săptămâni, fiind comandate direct de la producător. Pentru opriri de producție cauzate de o piesă defectă, tratăm cererea ca urgență și verificăm imediat toate variantele compatibile disponibile.',
     },
   ],
 
@@ -297,7 +297,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea filtrelor și a consumabilelor industriale?',
-      a: 'Elementele filtrante și consumabilele curente de la Mann+Hummel, Donaldson sau Parker Filtration ies din stoc în 24-72h - acesta e segmentul unde stocul strategic contează cel mai mult, pentru mentenanța planificată. Filtrele cu grad de filtrare special sau carcasele complete configurate au termen de 1–4 săptămâni. Recomandarea noastră: nu așteptați colmatarea completă a filtrului vechi pentru a comanda unul nou, ca să nu opriți echipamentul din lipsa unui consumabil ieftin.',
+      a: 'Elementele filtrante și consumabilele curente de la Mann+Hummel, Donaldson sau Parker Filtration ies din stoc în 24–72 h - acesta e segmentul unde stocul strategic contează cel mai mult, pentru mentenanța planificată. Filtrele cu grad de filtrare special sau carcasele complete configurate au termen de 1–4 săptămâni. Recomandarea noastră: nu așteptați colmatarea completă a filtrului vechi pentru a comanda unul nou, ca să nu opriți echipamentul din lipsa unui consumabil ieftin.',
     },
   ],
 
@@ -324,7 +324,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea sculelor și a instrumentelor de măsură?',
-      a: 'Sculele electrice și pneumatice uzuale - Bosch Professional, Makita, DeWalt - le aveți în 24-72h din stoc. Instrumentele de măsură de precizie superioară sau seturile complete de scule pentru dotare de atelier, comandate special, au termen de 1–4 săptămâni. Pentru instrumentele care necesită certificat de calibrare la livrare, adăugați acest termen separat în planificare, pentru că verificarea se face înainte de expediere.',
+      a: 'Sculele electrice și pneumatice uzuale - Bosch Professional, Makita, DeWalt - le aveți în 24–72 h din stoc. Instrumentele de măsură de precizie superioară sau seturile complete de scule pentru dotare de atelier, comandate special, au termen de 1–4 săptămâni. Pentru instrumentele care necesită certificat de calibrare la livrare, adăugați acest termen separat în planificare, pentru că verificarea se face înainte de expediere.',
     },
   ],
 
@@ -351,7 +351,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea și punerea în funcțiune a echipamentelor termice?',
-      a: 'Componentele curente pentru sisteme termice (pompe de circulație, valve termostatice, arzătoare) ajung la client în 24-72h. Chillerele, cazanele și unitățile de climatizare configurate pentru sarcina specifică a proiectului au termen de 1–4 săptămâni de la comandă, plus timpul de punere în funcțiune la fața locului. Pentru proiecte cu termen strâns, Infinitrade verifică și echipamente compatibile deja disponibile în rețeaua de furnizori, pentru a reduce timpul de așteptare.',
+      a: 'Componentele curente pentru sisteme termice (pompe de circulație, valve termostatice, arzătoare) ajung la client în 24–72 h. Chillerele, cazanele și unitățile de climatizare configurate pentru sarcina specifică a proiectului au termen de 1–4 săptămâni de la comandă, plus timpul de punere în funcțiune la fața locului. Pentru proiecte cu termen strâns, Infinitrade verifică și echipamente compatibile deja disponibile în rețeaua de furnizori, pentru a reduce timpul de așteptare.',
     },
   ],
 
@@ -378,7 +378,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea lubrifianților și produselor chimice industriale?',
-      a: 'Uleiurile hidraulice și unsorile în gradele cele mai cerute - Shell, Mobil, Klüber - se livrează în 24-72h din stoc. Produsele speciale (uleiuri sintetice pentru temperaturi extreme, cantități mari peste stocul curent) au termen de 1–4 săptămâni. Pentru fabrici cu program de mentenanță planificată, Infinitrade poate menține un stoc dedicat pentru consumabilele recurente, ca să evităm întârzierile la fiecare schimb de ulei.',
+      a: 'Uleiurile hidraulice și unsorile în gradele cele mai cerute - Shell, Mobil, Klüber - se livrează în 24–72 h din stoc. Produsele speciale (uleiuri sintetice pentru temperaturi extreme, cantități mari peste stocul curent) au termen de 1–4 săptămâni. Pentru fabrici cu program de mentenanță planificată, Infinitrade poate menține un stoc dedicat pentru consumabilele recurente, ca să evităm întârzierile la fiecare schimb de ulei.',
     },
   ],
 
@@ -405,7 +405,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea echipamentelor auxiliare și de protecție a muncii?',
-      a: 'Echipamentele de protecție individuală și consumabilele curente (filtre, măști, mănuși) sunt de regulă disponibile din stoc, cu livrare în 24-72h. Pompele dozatoare configurate pentru un debit specific, rezervoarele de dimensiuni speciale sau sistemele complete de dozare au termen de 1–4 săptămâni. Infinitrade poate menține stocuri dedicate de consumabile de protecție pentru fabrici cu consum recurent, pentru a evita rupturile de stoc la echipa de mentenanță sau SSM.',
+      a: 'Echipamentele de protecție individuală și consumabilele curente (filtre, măști, mănuși) sunt de regulă disponibile din stoc, cu livrare în 24–72 h. Pompele dozatoare configurate pentru un debit specific, rezervoarele de dimensiuni speciale sau sistemele complete de dozare au termen de 1–4 săptămâni. Infinitrade poate menține stocuri dedicate de consumabile de protecție pentru fabrici cu consum recurent, pentru a evita rupturile de stoc la echipa de mentenanță sau SSM.',
     },
   ],
   'aparate-masura-testare': [

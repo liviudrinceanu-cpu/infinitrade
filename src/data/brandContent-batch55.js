@@ -966,7 +966,7 @@ Pentru fabricile și fermele din România care folosesc motoare electrice pe sca
     headquarters: "Kyoto, Japonia",
     overview: `Nidec este un grup japonez de motoare electrice, cu sediul la Kyoto, fondat în 1973 sub numele Nippon Densan Corporation. Prin Nidec Motor Corporation, grupul produce motoare industriale de curent alternativ de putere mare, sub brandul U.S. MOTORS, inclusiv seria TITAN pentru aplicații industriale grele. Pentru piața din România putem oferta motoare industriale de mare putere din această gamă, pentru pompe, compresoare și utilaje de proces.
 
-Seria TITAN acoperă atât motoare verticale, precum TITAN 449 WPII, cu putere de până la 450 CP și protecție împotriva intemperiilor (WPII), cât și motoare orizontale din familia 5000/5800, construite conform standardului IEEE 841 pentru servicii severe, cu carcasă total închisă și răcire prin ventilator. Variantele cu carcasă din fontă turnată dintr-o singură bucată, precum TITAN 6813, reduc variațiile constructive și oferă performanță constantă în timp. Grupul concurează cu WEG pe segmentul motoarelor industriale de putere mare.
+Seria TITAN acoperă atât motoare verticale, precum TITAN 449 WPII, cu putere de până la 450 CP și protecție împotriva intemperiilor (WPII), cât și motoare orizontale din familia 5000/5800, construite conform standardului IEEE 841 pentru servicii severe, cu carcasă total închisă și răcire prin ventilator. Variantele cu carcasă din fontă turnată dintr-o singură bucată, precum TITAN 6813, reduc variațiile constructive și oferă performanță constantă în timp.
 
 Pentru instalații industriale din România cu pompe sau compresoare de putere mare — apă și ape uzate, minerit, petrol și gaze — seria TITAN oferă o alternativă construită după standarde de serviciu sever.`,
     whyChoose: [
@@ -977,7 +977,7 @@ Pentru instalații industriale din România cu pompe sau compresoare de putere m
       "Grup global cu producție dedicată motoarelor de mare putere, sub brandul U.S. MOTORS"
     ],
     keyProducts: [
-      { name: "TITAN 449 WPII — Motor vertical", description: "Motor vertical cu putere de până la 450 CP la 460V, cu protecție împotriva intemperiilor (Weather Protected II) și construcție rigidă pentru creșterea frecvenței critice a rotorului. Folosit la pompe verticale de mare putere. Clientul trebuie să indice puterea necesară, turația și tipul de cuplare cu pompa acționată." },
+      { name: "TITAN 449 WPII — Motor vertical", description: "Motor vertical cu putere de până la 450 CP la 460V, cu protecție împotriva intemperiilor (Weather Protected II) și construcție rigidă pentru creșterea frecvenței critice Reed (RCF), în medie cu 12%, conform producătorului. Folosit la pompe verticale de mare putere. Clientul trebuie să indice puterea necesară, turația și tipul de cuplare cu pompa acționată." },
       { name: "TITAN 5000/5800 — Motor orizontal severe duty", description: "Motor orizontal construit conform standardului IEEE 841 pentru servicii severe, cu carcasă total închisă și răcire prin ventilator, mai multe poziții de montaj și compatibilitate cu tălpi IEC 315. Folosit la pompe, compresoare, ventilatoare și utilaje de procesare a materialelor. Clientul trebuie să confirme puterea, turația și standardul de montaj necesar." },
       { name: "TITAN 6813 — Motor cu carcasă monobloc din fontă", description: "Motor cu carcasă din fontă turnată dintr-o singură bucată, pentru servicii industriale generale în apă, ape uzate, minerit și petrol și gaze, cu variații constructive reduse față de carcasele asamblate din mai multe piese." }
     ],
@@ -986,7 +986,7 @@ Pentru instalații industriale din România cu pompe sau compresoare de putere m
       "Minerit — motoare pentru transportoare și utilaje de procesare a minereului",
       "Petrol și gaze — motoare pentru pompe și compresoare de proces",
       "Celuloză și hârtie — motoare pentru linii de producție continuă",
-      "Ciment — motoare pentru mori și transportoare"
+      "Industria chimică — motoare pentru pompe și compresoare"
     ],
     infinitrade: `Motoarele industriale Nidec ajung la comandă prin canale de distribuție din Uniunea Europeană, fără date proprii despre stocul uzinelor producătorului — spunem clar ce putem confirma din documentația publică a seriei TITAN. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de puterea și configurația motorului. Pentru o ofertă corectă avem nevoie de puterea, turația, tensiunea de alimentare și standardul de montaj cerut de utilajul acționat. Nu confirmăm disponibilitate imediată pentru motoarele de putere foarte mare sau pentru configurațiile API 547.`,
     limitation: "Nu putem confirma disponibilitatea locală a motoarelor de putere foarte mare și nu oferim suport pentru integrarea electronică de control asociată.",
@@ -1051,7 +1051,7 @@ Pentru instalații industriale din România cu pompe sau compresoare de putere m
       },
       {
         "q": "Ce este standardul IEEE 841 la motoarele Nidec TITAN 841?",
-        "a": "Este un standard industrial care impune cerințe stricte de fiabilitate și durată de viață pentru motoarele electrice folosite în industria petrolieră și chimică. Motoarele TITAN 841 sunt construite pentru a depăși aceste cerințe, oferind o durată de funcționare extinsă între revizii."
+        "a": "Este un standard industrial care impune cerințe stricte de fiabilitate și durată de viață pentru motoarele electrice folosite în industria petrolieră și chimică. Seria TITAN 841 este construită conform acestui standard, pentru servicii severe."
       },
       {
         "q": "Livrați motoare electrice Nidec în România?",

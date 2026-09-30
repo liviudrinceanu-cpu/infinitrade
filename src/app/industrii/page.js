@@ -156,7 +156,7 @@ export default function IndustriiPage() {
                     <h2>{industry.name}</h2>
                   </div>
                   <p className={styles.cardDescription}>
-                    {industry.heroDescription.slice(0, 150)}...
+                    {((t, n) => (t.length <= n ? t : t.slice(0, n).replace(/[\s,;:–-]+\S*$/, '').replace(/[\s,;:–-]+$/, '') + '…'))(industry.heroDescription, 150)}
                   </p>
                   <div className={styles.cardApplications}>
                     {industry.applications.slice(0, 3).map((app) => (

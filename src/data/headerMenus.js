@@ -210,6 +210,10 @@ export const HEADER_CATEGORY_MENUS = {
     "name": "Marelli"
    },
    {
+    "simpleSlug": "schneider-electric",
+    "name": "Schneider Electric"
+   },
+   {
     "simpleSlug": "omron",
     "name": "Omron"
    },
@@ -224,13 +228,9 @@ export const HEADER_CATEGORY_MENUS = {
    {
     "simpleSlug": "mitsubishi-electric",
     "name": "Mitsubishi Electric"
-   },
-   {
-    "simpleSlug": "nidec",
-    "name": "Nidec"
    }
   ],
-  "brandCount": 120
+  "brandCount": 116
  },
  "/schimbatoare-caldura": {
   "category": {
@@ -378,7 +378,7 @@ export const HEADER_CATEGORY_MENUS = {
     "name": "Ingersoll Rand"
    }
   ],
-  "brandCount": 46
+  "brandCount": 45
  }
 };
 

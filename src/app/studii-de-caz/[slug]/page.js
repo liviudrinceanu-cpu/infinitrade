@@ -207,7 +207,7 @@ function renderContent(content) {
     if (trimmed.startsWith('**') && trimmed.endsWith('**')) {
       flushList();
       const text = trimmed.replace(/\*\*/g, '');
-      elements.push(<h4 key={index} className={styles.subheading}>{text}</h4>);
+      elements.push(<h3 key={index} className={styles.subheading}>{text}</h3>);
       return;
     }
 
@@ -418,7 +418,7 @@ export default async function CaseStudyPage({ params }) {
                   >
                     <span className={styles.relatedIndustry}>{related.industry}</span>
                     <h3>{related.shortTitle}</h3>
-                    <p>{related.excerpt.slice(0, 100)}...</p>
+                    <p>{((t, n) => (t.length <= n ? t : t.slice(0, n).replace(/[\s,;:–-]+\S*$/, '').replace(/[\s,;:–-]+$/, '') + '…'))(related.excerpt, 110)}</p>
                     <div className={styles.relatedBrands}>
                       {related.brands.slice(0, 3).map(b => (
                         <span key={b}>{b}</span>

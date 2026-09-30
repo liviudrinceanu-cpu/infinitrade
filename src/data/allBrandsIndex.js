@@ -45,7 +45,25 @@ export const allCategoriesUnified = primaryCategories.map((category) => {
       const { brand, categorySlug } = primaryBrandBySlug.get(s);
       return { ...brand, slug: s, featured: false, secondary: true, primaryCategory: categorySlug };
     });
-  const merged = extra.length ? { ...category, brands: [...category.brands, ...extra] } : category;
+  const merged0 = extra.length ? { ...category, brands: [...category.brands, ...extra] } : category;
+  // v34: brandurile secundare unite în v31 (duplicateBrands.js) nu mai apar ca
+  // intrări separate: se înlocuiesc cu brandul principal și se elimină dublurile
+  // (altfel categoriile afișau „Schneider Electric” de două ori și legau spre
+  // /brand/schneider, un URL redirecționat 301).
+  const seenSlugs = new Set();
+  const brandsDedup = [];
+  for (const b of merged0.brands) {
+    let simple = deriveSimpleSlug(b.slug, category.slug);
+    let entry = b;
+    if (Object.prototype.hasOwnProperty.call(DUPLICATE_BRANDS, simple)) {
+      simple = DUPLICATE_BRANDS[simple];
+      entry = { ...b, slug: simple };
+    }
+    if (seenSlugs.has(simple)) continue;
+    seenSlugs.add(simple);
+    brandsDedup.push(entry);
+  }
+  const merged = { ...merged0, brands: brandsDedup };
   // Keep the displayed per-category count in sync with the merged list (the
   // raw data files only know their own hand-listed brands; a category fed
   // purely by the extension, like aparate-masura-testare, would read "0").

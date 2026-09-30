@@ -489,31 +489,31 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
     founded: 1953,
     headquarters: 'Reinach, Elveția',
     employees: '16,000+',
-    overview: `Endress+Hauser este un reper în măsurarea de proces industrial. Compania elvețiană fondată în 1953 s-a transformat într-o companie cu prezență globală, cu 16,000 de angajați și prezență în peste 100 de țări. Ce face diferența? Precizia elvețiană aplicată în condiții industriale extreme — de la criogenie -196°C la temperaturi de topire 1800°C, de la vid absolut la presiuni de 2000 bar.
+    overview: `Endress+Hauser este un reper în măsurarea de proces industrial. Compania elvețiană fondată în 1953 s-a transformat într-o companie cu prezență globală, cu 16,000 de angajați și prezență în peste 100 de țări. Domeniile de temperatură și presiune depind de fiecare instrument și sunt indicate în fișa sa tehnică.
 
-Un senzor "generic" care dă date eronate poate costa scump: în industria chimică sau farmaceutică, o măsurare greșită de pH poate distruge un batch întreg de produs. Un transmițător Endress+Hauser cu calibrare certificată și compensare automată temperatură costă mai mult, dar reduce semnificativ acest risc. Senzorii de nivel radar din seria FMR se folosesc frecvent la rafinării, unde funcționează fără recalibrare frecventă, în condiții de vapori agresivi și temperaturi variabile, conform documentației producătorului.
+Un senzor "generic" care dă date eronate poate costa scump: în industria chimică sau farmaceutică, o măsurare greșită de pH poate distruge un batch întreg de produs. Un transmițător Endress+Hauser cu calibrare certificată și compensare automată temperatură costă mai mult, dar reduce semnificativ acest risc. Senzorii de nivel radar din seria FMR se folosesc în aplicații de proces precum rafinăriile; condițiile de utilizare și intervalele de calibrare se stabilesc pe baza documentației producătorului.
 
-Gama de produse acoperă tot ce înseamnă măsurare în procesul industrial. Nivel: radar ghidat, radar fără contact, ultrasonic, capacitiv, hidrostatatic, magnetostrictiv. Debit: electromagnetic, vortex, Coriolis, termic, ultrasonic clamp-on. Presiune: absolute, relative, diferențiale, cu membrana separatoare pentru fluide agresive. Temperatură: termocuple, PT100/PT1000, transmițători montare cap sau direct. Analiză: pH, conductivitate, oxigen dizolvat, turbiditate, spectroscopie NIR.
+Gama de produse acoperă tot ce înseamnă măsurare în procesul industrial. Nivel: radar ghidat, radar fără contact, ultrasonic, capacitiv, hidrostatic, magnetostrictiv. Debit: electromagnetic, vortex, Coriolis, termic, ultrasonic clamp-on. Presiune: absolute, relative, diferențiale, cu membrana separatoare pentru fluide agresive. Temperatură: termocuple, PT100/PT1000, transmițători montare cap sau direct. Analiză: pH, conductivitate, oxigen dizolvat, turbiditate, spectroscopie NIR.
 
-Tehnologia Heartbeat este un sistem de auto-diagnosticare care verifică constant senzorul și semnalează când este nevoie de calibrare sau întreținere. În industriile cu cerințe stricte de certificare (farma, alimentar), calibrarea certificată se poate face la fața locului fără scoaterea senzorului din proces, ceea ce poate reduce timpul și costurile de mentenanță, conform producătorului.`,
+Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrumentului, care poate semnala când este nevoie de întreținere. Verificarea cu Heartbeat nu înlocuiește o calibrare certificată, iar condițiile exacte de aplicare se confirmă din documentația producătorului.`,
     whyChoose: [
-      'Precizie elvețiană certificată — erori sub ±0.05% pentru majoritatea senzoilor',
+      'Gamă completă de instrumente de proces; precizia este indicată în fișa tehnică a fiecărui model',
       'Tehnologie Heartbeat pentru diagnosticare continuă și calibrare în proces',
-      'Certificări complete ATEX, IECEx, SIL2/SIL3, FDA, 3A pentru orice industrie',
-      'Suport tehnic local în România cu ingineri specializați pe industrie chimie, farma, energie'
+      'Certificări precum ATEX, IECEx, SIL, FDA și 3-A, disponibile pe anumite modele, conform documentației producătorului',
+      'Documentație tehnică publicată de producător pentru fiecare serie'
     ],
     keyProducts: [
       {
         name: 'Senzori și Transmițători de Nivel',
-        description: 'Radar ghidat FMP5x, radar fără contact FMR5x/6x, ultrasonic FMU9x, capacitiv Liquicap, hidrostatatic Deltapilot. Aplicații de la tanc simplu apă până la instalații petrochimice complexe cu presiuni înalte și vapori corozivi. Furnizăm cu certificări ATEX și SIL.'
+        description: 'Radar ghidat FMP5x, radar fără contact FMR5x/6x, ultrasonic FMU9x, capacitiv Liquicap, hidrostatic Deltapilot. Aplicații de la un rezervor simplu de apă până la instalații petrochimice complexe cu presiuni înalte și vapori corozivi. Furnizăm cu certificări ATEX și SIL.'
       },
       {
         name: 'Debitmetru Electromagnetic și Coriolis',
-        description: 'Proline Promag seria W/P pentru lichide conductive, Promass Coriolis pentru măsurare masică directă. Precizie ±0.1% pentru Coriolis, aplicații de la dozare precisă medicamente până la măsurare petrol brut. Instalare și comisionare de către tehnicieni certificați Infinitrade.'
+        description: 'Proline Promag seria W/P pentru lichide conductive, Promass Coriolis pentru măsurare masică directă. Precizie ±0.1% pentru Coriolis, aplicații de la dozare precisă medicamente până la măsurare petrol brut.'
       },
       {
         name: 'Transmițători Presiune și Diferențială',
-        description: 'Cerabar, Deltabar cu celulă ceramică sau metalică. Presiuni absolute, relative, diferențiale 0-2000 bar. Membrană separatoare pentru fluide vâscoase, cristalizante, corozive. Instalare cu adaptor flush pentru evitare depuneri — critical în industria alimentară și farmaceutică.'
+        description: 'Cerabar, Deltabar cu celulă ceramică sau metalică. Presiuni absolute, relative și diferențiale; domeniul de măsură se alege pe cod. Membrană separatoare pentru fluide vâscoase, cristalizante, corozive. Instalare cu adaptor flush pentru evitare depuneri — esențial în industria alimentară și farmaceutică.'
       },
       {
         name: 'Analizatori pH, Conductivitate, Oxigen Dizolvat',
@@ -526,21 +526,21 @@ Tehnologia Heartbeat este un sistem de auto-diagnosticare care verifică constan
       'ATEX - Certificare zone explozive Categoria 1, 2, 3',
       'IECEx - Certificare internațională echipamente Ex',
       'SIL 2 / SIL 3 - Certificare Safety Integrity Level',
-      'FDA 21 CFR Part 11 - Industrie farmaceutică',
+      
       '3-A Sanitary Standards - Industrie alimentară',
       'NAMUR NE107 - Diagnosticare automată'
     ],
     industries: [
       'Chimie și Petrochimie',
-      'Oil & Gas și Rafinării',
-      'Farmaceutică și Biotechnologie',
+      'Petrol și gaze, rafinării',
+      'Farmaceutică și biotehnologie',
       'Industrie Alimentară și Băuturi',
-      'Water & Wastewater',
+      'Apă și ape uzate',
       'Energie și Cogenerare',
       'Celuloză și Hârtie',
       'Minerit și Metalurgie'
     ],
-    infinitrade: `Pentru Endress+Hauser nu dispunem de date proprii despre stocul fiecărui model, aici preferăm să spunem clar: lucrăm din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Instrumentele din gamele curente de nivel, debit, presiune și temperatură pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar variantele certificate ATEX sau SIL, ori execuțiile speciale, se aduc la comandă în 1–4 săptămâni. Pentru o ofertă utilă avem nevoie de codul de produs sau specificația tehnică, cantitatea și aplicația de proces vizată. Scrie-ne aceste detalii, iar noi revenim cu un termen realist.`,
+    infinitrade: `Pentru Endress+Hauser nu dispunem de date proprii despre stocul fiecărui model, aici preferăm să spunem clar: lucrăm din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Instrumentele din gamele curente de nivel, debit, presiune și temperatură pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar variantele certificate ATEX sau SIL, ori execuțiile speciale, se aduc la comandă în 1–4 săptămâni. Pentru o ofertă utilă avem nevoie de codul de produs sau specificația tehnică, cantitatea și aplicația de proces vizată. Transmiteți-ne aceste detalii, iar noi revenim cu un termen realist.`,
     limitation: 'Nu putem confirma calibrarea certificată la fața locului sau integrarea completă cu sisteme SCADA terțe pentru fiecare instalație Endress+Hauser, acestea depinzând de proiectul concret.',
     sources: [
       {"title":"Field instruments overview","url":"https://www.endress.com/en/field-instruments-overview","publisher":"Endress+Hauser","accessed":"2026-09-22"},
@@ -656,11 +656,11 @@ Tehnologia Heartbeat este un sistem de auto-diagnosticare care verifică constan
       },
       {
         "q": "Livrează Endress Hauser echipamente de proces în România?",
-        "a": "Da, aducem echipamente Endress+Hauser la comandă pe bază informațiilor publice de la producător, fără gama pe raft afișat pe site. Termenul uzual este de 1–4 săptămâni la comandă, funcție de model și configurație. Pentru o ofertă corectă trimiteți codul de comandă complet sau, dacă lipsește, tipul de senzor, domeniul de măsurare și conexiunea de proces."
+        "a": "Da, aducem echipamente Endress+Hauser la comandă pe baza informațiilor publice ale producătorului, fără stoc propriu afișat pe site. Termenul uzual este de 1–4 săptămâni la comandă, funcție de model și configurație. Pentru o ofertă corectă trimiteți codul de comandă complet sau, dacă lipsește, tipul de senzor, domeniul de măsurare și conexiunea de proces."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de transmițătoare de presiune Cerabar?",
-        "a": "Trimiteti domeniul de presiune necesar, tipul de proces (lichid, gaz sau abur), materialul membranei în contact cu produsul, tipul de conexiune de proces și ieșirea electrică dorită, de exemplu 4-20 mA sau HART. Cu aceste date identificăm varianta Cerabar potrivită, apropiată de PMP71B sau de o altă serie din gama Endress Hauser."
+        "a": "Trimiteți domeniul de presiune necesar, tipul de proces (lichid, gaz sau abur), materialul membranei în contact cu produsul, tipul de conexiune de proces și ieșirea electrică dorită, de exemplu 4-20 mA sau HART. Cu aceste date identificăm varianta Cerabar potrivită, apropiată de PMP71B sau de o altă serie din gama Endress Hauser."
       }
     ],
     evidenceClass: 'transactional',

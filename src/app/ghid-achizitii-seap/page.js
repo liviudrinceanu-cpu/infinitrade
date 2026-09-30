@@ -378,7 +378,7 @@ const advantages = [
   {
     icon: Package,
     title: 'Stocuri Disponibile',
-    description: 'Produse din stoc pentru livrare imediată 24-72h. Urgențe rezolvate cu transport express.',
+    description: 'Produse din stoc pentru livrare imediată 24–72 h. Urgențe rezolvate cu transport express.',
   },
   {
     icon: Award,
@@ -441,7 +441,7 @@ const seapFaqs = [
   },
   {
     q: 'Care este termenul de livrare pentru achiziții publice?',
-    a: 'Produse din stoc: 24-72h. Produse la comandă: 1–4 săptămâni, în funcție de producător. Pentru urgențe sau termene strânse, găsim soluții alternative sau livrare express.',
+    a: 'Produse din stoc: 24–72 h. Produse la comandă: 1–4 săptămâni, în funcție de producător. Pentru urgențe sau termene strânse, găsim soluții alternative sau livrare express.',
   },
 ];
 
@@ -871,7 +871,7 @@ export default function GhidSeapPage() {
                     <CheckCircle size={20} /> Avantaje Direct
                   </h4>
                   <ul className={styles.prosList}>
-                    <li><span style={{color: '#10b981'}}>✓</span> Rapiditate: livrare în 5-10 zile pentru stocuri</li>
+                    <li><span style={{color: '#10b981'}}>✓</span> Rapiditate: livrare în 24–72 h pentru reperele din stoc</li>
                     <li><span style={{color: '#10b981'}}>✓</span> Flexibilitate în negociere și specificații</li>
                     <li><span style={{color: '#10b981'}}>✓</span> Relație directă cu furnizorul pentru suport</li>
                     <li><span style={{color: '#10b981'}}>✓</span> Suport tehnic personalizat și consultanță</li>

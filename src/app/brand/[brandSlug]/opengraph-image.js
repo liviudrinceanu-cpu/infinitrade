@@ -133,7 +133,7 @@ export default async function Image({ params }) {
               }}
             >
               <span style={{ color: '#22c55e' }}>✓</span>
-              <span style={{ color: '#cbd5e1' }}>Livrare 24-72h</span>
+              <span style={{ color: '#cbd5e1' }}>Livrare 24–72 h</span>
             </div>
             <div
               style={{

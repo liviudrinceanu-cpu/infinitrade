@@ -183,7 +183,7 @@ export default async function Image({ params }) {
             Distribuitor Industrial Romania
           </span>
           <span style={{ fontSize: 20, color: '#0990DB', fontWeight: 600 }}>
-            Livrare 24-72h
+            Livrare 24–72 h
           </span>
         </div>
       </div>

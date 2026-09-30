@@ -57,7 +57,7 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
       'Minerit și cariere',
       'Automotive și producție auto',
     ],
-    infinitrade: `La Infinitrade lucrăm fără date proprii de stoc pentru gama 3M Safety și aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere simple din portofoliu, precum măști sau dopuri antifonice, putem oferi uneori 24-72 h din stoc, în funcție de disponibilitatea reală de moment, iar pentru restul gamei termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un anumit produs în stoc înainte de a verifica disponibilitatea la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul sau referința 3M, cantitatea necesară și termenul dorit, iar noi confirmăm disponibilitatea și data reală de livrare înainte de a plasa comanda.`,
+    infinitrade: `La Infinitrade lucrăm fără date proprii de stoc pentru gama 3M Safety și aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere simple din portofoliu, precum măști sau dopuri antifonice, putem oferi uneori 24–72 h din stoc, în funcție de disponibilitatea reală de moment, iar pentru restul gamei termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un anumit produs în stoc înainte de a verifica disponibilitatea la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul sau referința 3M, cantitatea necesară și termenul dorit, iar noi confirmăm disponibilitatea și data reală de livrare înainte de a plasa comanda.`,
     limitation: `Nu putem confirma sau efectua service în perioada de garanție a producătorului pentru echipamentele 3M Safety - acesta rămâne responsabilitatea rețelei 3M.`,
     sources: [
       {"title":"3M Disposable Respirators","url":"https://www.3m.com/3M/en_US/p/c/ppe/respiratory-protection/disposable/","publisher":"3M","accessed":"2026-09-22"},
@@ -199,7 +199,7 @@ Tablourile System pro E power modular permit configurații flexibile - se pot re
       'Marine (nave, platforme offshore)',
       'Clădiri comerciale (mall-uri, birouri, spitale)',
     ],
-    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al componentelor ABB Electrification și aducem tablourile și aparatajul la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru componente uzuale, precum contactoare sau relee termice, putem confirma uneori 24-72 h din stoc, iar pentru tablouri configurate sau aparataj mai complex termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de proiect. Nu facem promisiuni ferme de livrare fără o verificare prealabilă la furnizor. Pentru o ofertă corectă, trimiteți-ne schema unifilară sau lista de aparataj, curenții nominali necesari și termenul dorit — vă răspundem cu disponibilitatea reală confirmată înainte de comandă.`,
+    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al componentelor ABB Electrification și aducem tablourile și aparatajul la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru componente uzuale, precum contactoare sau relee termice, putem confirma uneori 24–72 h din stoc, iar pentru tablouri configurate sau aparataj mai complex termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de proiect. Nu facem promisiuni ferme de livrare fără o verificare prealabilă la furnizor. Pentru o ofertă corectă, trimiteți-ne schema unifilară sau lista de aparataj, curenții nominali necesari și termenul dorit — vă răspundem cu disponibilitatea reală confirmată înainte de comandă.`,
     limitation: `Nu putem confirma configurarea avansată a trip unit-urilor Ekip sau integrarea SCADA la fața locului - acestea necesită suport tehnic direct de la ABB sau un integrator certificat.`,
     sources: [
       {"title":"Circuit Breakers","url":"https://new.abb.com/low-voltage/products/circuit-breakers","publisher":"ABB","accessed":"2026-09-22"},
@@ -337,7 +337,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       'Ciment (fabrici ciment, coșuri fum CEMS)',
       'Semiconductors (fabrici wafer, gaze ultra-pure)',
     ],
-    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama ABB Measurement & Analytics și aducem instrumentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru transmițătoare și recordere din gama standard putem confirma uneori 24-72 h din stoc, iar pentru debitmetre sau analizoare configurate individual termenul obișnuit este de 1–4 săptămâni la comandă, cu calibrare inclusă. Nu putem confirma un termen exact înainte de a verifica disponibilitatea reală la furnizor pentru specificațiile dumneavoastră. Pentru o ofertă corectă, trimiteți-ne tipul de instrument, gama de măsurare necesară, conexiunea de proces și protocolul de comunicare dorit, iar noi revenim cu disponibilitate și termen confirmate.`,
+    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama ABB Measurement & Analytics și aducem instrumentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru transmițătoare și recordere din gama standard putem confirma uneori 24–72 h din stoc, iar pentru debitmetre sau analizoare configurate individual termenul obișnuit este de 1–4 săptămâni la comandă, cu calibrare inclusă. Nu putem confirma un termen exact înainte de a verifica disponibilitatea reală la furnizor pentru specificațiile dumneavoastră. Pentru o ofertă corectă, trimiteți-ne tipul de instrument, gama de măsurare necesară, conexiunea de proces și protocolul de comunicare dorit, iar noi revenim cu disponibilitate și termen confirmate.`,
     limitation: `Nu putem confirma stocul permanent pentru fiecare variantă de debitmetru sau analizor configurat - fiecare comandă depinde de disponibilitatea reală la producător.`,
     sources: [
       {"title":"Flow measurement products","url":"https://new.abb.com/products/measurement-products/flow","publisher":"ABB","accessed":"2026-09-22"},
@@ -477,7 +477,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       'Printing (web handling, cutting, stacking)',
       'Logistics (sorting, conveyor gating, palletizing)',
     ],
-    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent pentru fiecare reper din catalogul Airtac și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile cele mai comune putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni speciale sau configurații custom termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem disponibilitate imediată fără o verificare prealabilă a furnizorului pentru comanda dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul de produs Airtac, diametrul și cursa dorite, cantitatea necesară și termenul la care aveți nevoie de componente — confirmăm disponibilitatea reală înainte de comandă.`,
+    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent pentru fiecare reper din catalogul Airtac și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile cele mai comune putem confirma uneori 24–72 h din stoc, iar pentru dimensiuni speciale sau configurații custom termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem disponibilitate imediată fără o verificare prealabilă a furnizorului pentru comanda dumneavoastră. Pentru o ofertă corectă, trimiteți-ne codul de produs Airtac, diametrul și cursa dorite, cantitatea necesară și termenul la care aveți nevoie de componente — confirmăm disponibilitatea reală înainte de comandă.`,
     limitation: `Nu putem confirma disponibilitatea constantă pentru fiecare dintre miile de repere din catalogul Airtac - aceasta variază de la un model la altul.`,
     sources: [
       {"title":"Airtac International Group","url":"https://us-en.airtac.com/","publisher":"Airtac","accessed":"2026-09-22"},
@@ -617,7 +617,7 @@ Gama de sterilizare și igienizare Anderson-Negele include soluții specializate
       'Personal Care (șampoane, săpunuri lichide)',
       'Chemical (fine chemicals, specialty chemicals)',
     ],
-    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Anderson-Negele și aducem senzorii la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard din portofoliu putem confirma uneori 24-72 h din stoc, iar pentru sisteme complexe, precum ITM-4 sau configurații custom de proces, termenul obișnuit este de 1–4 săptămâni la comandă, cu calibrare din fabrică. Nu deținem date proprii despre stocul permanent al fiecărei variante de senzor. Pentru o ofertă corectă, trimiteți-ne conexiunea de proces, gama de măsurare necesară și cerințele de certificare (3-A, EHEDG, FDA), iar noi revenim cu termenul real confirmat de furnizor.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Anderson-Negele și aducem senzorii la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard din portofoliu putem confirma uneori 24–72 h din stoc, iar pentru sisteme complexe, precum ITM-4 sau configurații custom de proces, termenul obișnuit este de 1–4 săptămâni la comandă, cu calibrare din fabrică. Nu deținem date proprii despre stocul permanent al fiecărei variante de senzor. Pentru o ofertă corectă, trimiteți-ne conexiunea de proces, gama de măsurare necesară și cerințele de certificare (3-A, EHEDG, FDA), iar noi revenim cu termenul real confirmat de furnizor.`,
     limitation: `Nu putem realiza validarea completă IQ/OQ/PQ pentru linii aseptice - aceasta rămâne responsabilitatea unui integrator certificat GAMP 5.`,
     sources: [
       {"title":"Continuous Level Sensors","url":"https://www.anderson-negele.com/continuous-level-sensors","publisher":"Anderson-Negele","accessed":"2026-09-23"},
@@ -776,7 +776,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       'District Heating (centrale termice urbane)',
       'Power Generation (turbine abur, condensatoare)',
     ],
-    infinitrade: `La Infinitrade nu dispunem de date proprii despre stocul permanent al componentelor Armstrong și aducem oalele de condens și echipamentele conexe la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere standard putem confirma uneori 24-72 h din stoc, iar pentru separatoare mari sau configurații de presiune înaltă termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un termen fix fără o confirmare prealabilă din partea furnizorului. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, presiunea și temperatura de lucru, precum și capacitatea de evacuare condens necesară — vă răspundem cu disponibilitatea și termenul real confirmate.`,
+    infinitrade: `La Infinitrade nu dispunem de date proprii despre stocul permanent al componentelor Armstrong și aducem oalele de condens și echipamentele conexe la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere standard putem confirma uneori 24–72 h din stoc, iar pentru separatoare mari sau configurații de presiune înaltă termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un termen fix fără o confirmare prealabilă din partea furnizorului. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, presiunea și temperatura de lucru, precum și capacitatea de evacuare condens necesară — vă răspundem cu disponibilitatea și termenul real confirmate.`,
     limitation: `Nu efectuăm noi service în perioada de garanție a producătorului pentru oalele de condens Armstrong - acesta rămâne responsabilitatea rețelei Armstrong International.`,
     sources: [
       {"title":"Products","url":"https://www.armstronginternational.com/products","publisher":"Armstrong International","accessed":"2026-09-22"},
@@ -883,38 +883,38 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
   },
 
   'atos': {
-    founded: 1962,
+    founded: 1957,
     headquarters: 'Sesto Calende, Italia',
-    employees: '500+',
-    overview: `Atos este un producător italian specializat în hidraulică industrială de precizie - valve proporționale, pompe, cilindri, electronice de comandă. Sistemele Atos se folosesc frecvent în prese hidraulice, injectoare plastic, mașini test din România, unde răspunsul dinamic și precizia lor sunt apreciate de utilizatori. Valvele proporționale seria DLHZO (directional proportional) au un timp de răspuns sub 10ms și histerezis sub 0.5% - esențiale pentru controlul precis al mișcării în prese și roboți hidraulici. O valvă DLHZO-TE-040 poate controla poziția unui cilindru de 100 tone cu precizie ±0.1mm la viteze de până la 500mm/s, conform specificațiilor producătorului.
+    employees: '750+',
+    overview: `Atos este un producător italian specializat în hidraulică industrială de precizie - valve proporționale, pompe, cilindri, electronice de comandă. Sistemele Atos se folosesc frecvent în prese hidraulice, injectoare plastic, mașini test din România, unde răspunsul dinamic și precizia lor sunt apreciate de utilizatori. Valvele servoproporționale direcționale din seria DLHZO-TE au traductor de poziție LVDT și electronică analogică integrată; conform catalogului Atos, pentru mărimea ISO 4401-06 timpul de răspuns este de maximum 15 ms, iar histerezisul de maximum 0,1%.
 
-Pompele cu pistoane axiale seria PVPC (Variable Displacement Pump) oferă reglare debit continuă 0-100% cu eficiență volumetrică >95% la presiuni până la 350 bar. Pompele PVPC-C-5073 (70cc/rev) se folosesc frecvent pe unități hidraulice pentru prese de 500 tone - economia energetică față de pompe cu debit fix este semnificativă: pompa PVPC consumă doar puterea necesară sarcinii reale, nu debitul maxim permanent. La o presă care lucrează 30% din timp la presiune maximă, economiile pot ajunge la 50-60% energie electrică, conform producătorului.
+Pompele cu pistoane axiale cu cilindree variabilă din seria PVPC au, conform catalogului Atos, cilindree între 29 și 160 cm³/rot și comenzi mecanice (compensator de presiune, reglaj în funcție de sarcină - load sensing, putere constantă) sau proporționale. La modelul PVPC-C-5073 (73 cm³/rot, cu compensator de presiune manual) cilindreea se reduce pe măsură ce presiunea din sistem se apropie de valoarea reglată, deci pompa consumă doar puterea cerută de sarcină, nu debitul maxim permanent.
 
-Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă control în buclă închisă poziție/viteză/forță cu frecvență update 5kHz și precizie ±0.01mm. Controllerele E-ME-AC se folosesc frecvent pe mașini de test materiale unde este nevoie de forță controlată 0-100kN cu rampă liniară - precizia este comparabilă cu servo-motoare electrice, la o fracțiune din cost. Certificare: ISO 9001, ISO 14001, directiva PED pentru componente presiune.`,
+Electronica de comandă Atos seria E-ME-AC este un driver electronic în format Eurocard pentru valve proporționale fără traductor integrat; reglează curentul din solenoid și poate fi folosită în sisteme de reglare a presiunii, debitului sau poziției, în buclă deschisă sau închisă, cu semnal de referință de 0-5 V, ±5 V sau 4-20 mA. Certificare: ISO 9001, ISO 14001, directiva PED pentru componente presiune.`,
     whyChoose: [
-      'Răspuns dinamic ultra-rapid: valve proporționale <10ms, histerezis <0.5%, linearitate ±1% full scale',
-      'Precizie de control: ±0.01mm poziție, ±0.1% viteză, ±1% forță cu controllere E-ME în closed loop',
-      'Eficiență energetică: pompe PVPC cu variable displacement, economii 50-70% față de fixed displacement',
-      'Presiuni înalte: componente testate până la 700 bar (valve logic, cilindri heavy-duty)',
+      'Răspuns dinamic rapid: valve servoproporționale DLHZO-TE cu timp de răspuns de maximum 15 ms și histerezis de maximum 0,1%, conform catalogului',
+      'Drivere electronice E-ME-AC pentru valve proporționale, utilizabile în sisteme de reglare în buclă deschisă sau închisă',
+      'Eficiență energetică: pompe PVPC cu cilindree variabilă, care adaptează debitul la cerința sarcinii',
+      'Gamă largă de componente hidraulice: valve, pompe, cilindri, filtre, grupuri hidraulice și drivere electronice',
       'Certificări presiune: PED 2014/68/EU, ATEX pentru valve Ex în zone explozive',
-      'Software gratuit Atos E-SW pentru programare controllere și simulare sisteme hidraulice',
+      'Software gratuit Atos E-SW pentru configurarea, diagnoza și actualizarea driverelor digitale',
     ],
     keyProducts: [
       {
         name: 'Atos DLHZO Valve Proporționale Direcționale',
-        description: `Valve proporționale direcționale 4/3 pentru control precis debit și direcție. Seria DLHZO-TE (Throttle Edge control) pentru dimensiuni CETOP 03-07 (NG6-NG25), debite max 100-1000 l/min la ΔP=70 bar. Modelul DLHZO-TE-040-L71 (CETOP 07, 400 l/min): acționare solenoid proporțional cu feedback LVDT (Linear Variable Differential Transformer) pentru linearitate ±1% full scale. Timp răspuns: <10ms pentru step 0-100%, histerezis <0.5%, repetabilitate ±0.2%. Curent comandă: ±200mA, ±400mA, ±800mA (opțional), tensiune 24VDC. Presiune max: 350 bar, temperatură fluid -20°C până +80°C. Configurație: P→A/B cu return la T, centru Y (toate porturi închise), A/B/P/T (tandem center). Include amplificator integrat tip E-MI-AC-01F cu rampe programabile și compensare temperatură. Certificare: PED, CE, RoHS. Aplicații: control viteză cilindri, poziționare precisă, test benches, prese hidraulice.`
+        description: `Valve servoproporționale direcționale cu traductor de poziție LVDT și electronică analogică integrată, pentru reglaj precis al debitului și al direcției. Conform catalogului Atos, pentru mărimea ISO 4401-06 (DLHZO-TE): debit maxim 40 l/min la ΔP 70 bar, presiune maximă 350 bar la porturile P, A, B, timp de răspuns maximum 15 ms și histerezis maximum 0,1%. Mărimile mai mari și debitele lor maxime se confirmă pe cod, din documentația Atos. Aplicații tipice: reglarea vitezei și poziției cilindrilor hidraulici.`
       },
       {
-        name: 'Atos PVPC Pompe Pistoane Axiale Variable Displacement',
-        description: `Pompe cu pistoane axiale în linie cu debit variabil controlat prin placă oscilantă. Seria PVPC-C (Closed Loop) pentru dimensiuni 32-250cc/rev, presiuni continue 350 bar (peak 420 bar). Modelul PVPC-C-5073 (70cc/rev): debit max 147 l/min la 2100 rpm, putere acționare 91 kW la 350 bar. Reglare debit: 0-100% prin control electronic sau hidraulic (pilot presiune). Eficiență volumetrică: >95% la presiune nominală, eficiență totală (volumetric+mecanic) >90%. Control load-sensing opțional: pompă furnizează doar debitul necesar + ΔP=20 bar față de presiune sistem → economie energie 50-70%. Fluid hidraulic: ISO VG32-68, temperatură -20°C până +80°C. Montaj: SAE A/B flange, shaft tip spline ISO 3019 sau SAE J744. Certificare: PED pentru agregat presiune. Aplicații: unități hidraulice prese, injectoare plastic, excavatoare, platforme mobile.`
+        name: 'Atos PVPC Pompe cu Pistoane Axiale cu Cilindree Variabilă',
+        description: `Pompe cu pistoane axiale cu cilindree variabilă. Conform catalogului Atos, seria PVPC acoperă cilindree între 29 și 160 cm³/rot (mărimile 3029, 4046, 5073, 5090, 6140, 6160), cu presiuni continue de 250-350 bar în funcție de mărime. Comenzile mecanice disponibile sunt compensatorul de presiune manual (C) sau la distanță (R), reglajul în funcție de sarcină - load sensing (L) și puterea constantă (LW); există și variante cu comenzi proporționale de presiune, debit sau p/Q. Modelul PVPC-C-5073 are cilindreea de 73 cm³/rot și compensator de presiune manual (C).`
       },
       {
-        name: 'Atos E-ME-AC Motion Controller Electronic',
-        description: `Controller electronic pentru control în buclă închisă poziție/viteză/forță cu valve proporționale Atos. Intrări: 2x encoder incremental până la 10,000 ppr (pulses per revolution), 2x analog ±10V pentru referință și feedback transducer. Ieșiri: 2x analog ±10V pentru comandă valve proporționale, 8x relay contact pentru secvențe logice. Algoritmi control: PID cu auto-tuning, feed-forward pentru compensare fricțiune, rampe accelerare/decelerare programabile 1-10,000 ms. Frecvență loop: 5 kHz (200 µs cycle time) pentru răspuns rapid. Precizie: ±0.01mm poziție cu encoder 0.001mm/puls, ±0.1% viteză, ±1% forță. Comunicare: RS232, RS485 Modbus RTU, CANopen, Ethernet/IP, Profinet. Software: Atos E-SW gratuit pentru programare, tuning PID, datalogging. Alimentare: 24VDC ±10%, consum 15W. Certificare: CE, UL, cETLus. Aplicații: mașini test traction/compression, simulatoare, sisteme handling precisie, axis coordination multi-cilindri.`
+        name: 'Atos E-ME-AC Driver Electronic pentru Valve Proporționale',
+        description: `Driver electronic în format Eurocard pentru valve proporționale fără traductor integrat (de exemplu seriile RZGO, KZGO, RZMO, DHZO, DKZOR, DPZO-A). Conform documentației Atos, comandă curentul din solenoid cu semnal PWM și acceptă semnale de referință de 0-5 V, ±5 V sau 4-20 mA, cu reglaje de decalaj (bias), amplificare (scale) și rampe; poate fi folosit în sisteme de reglare a presiunii, debitului sau poziției, în buclă deschisă sau închisă.`
       },
       {
-        name: 'Atos CK Cilindri Hidraulici Construcție Grea',
-        description: `Cilindri hidraulici heavy-duty pentru aplicații industriale și mobile. Seria CK-50-160 pentru diametre piston 50-500mm, curse standard 100-6000mm (custom >10m). Cilindru CK-100x500 (Ø100mm, cursă 500mm): presiune max 350 bar, forță teoretică împingere 275 kN la 350 bar. Tijă cromată dur din oțel C45 (42CrMo4), camă cilindru din oțel St52 cu alezaj prelucrat Rz<4µm, capace forjate oțel. Garnituri: poliuretan (PU) pentru cilindri dinamici, Viton (FKM) pentru temperaturi înalte sau chimicale. Amortizare hidraulică reglabilă ambele capete pentru viteze >0.5 m/s. Fixare: ISO 6020/6022 (clevis, flange, trunnion, foot mounting). Certificare: PED 2014/68/EU categorie II-III pentru presiuni >200 bar. Testare: 1.5x presiune nominală hidrostatic, verificare etanșeitate sub presiune. Aplicații: prese hidraulice (forjare, stanțare, injection molding), platforme ridicare, punți rulare, excavatoare, macarale.`
+        name: 'Atos CK Cilindri Hidraulici cu Tiranți',
+        description: `Cilindri hidraulici cu tiranți, conform ISO 6020-2, pentru aplicații industriale. Conform catalogului Atos, alezajele sunt între 25 și 200 mm, iar diametrele tijei între 12 și 140 mm; presiunea nominală este de 160 bar, iar cea maximă de 250 bar. Tija este din oțel aliat călit și revenit, cromată dur (minimum 0,020 mm). Garniturile sunt disponibile în variantele NBR + poliuretan sau FKM + PTFE (până la 120°C), cu amortizare fixă sau reglabilă și 11 stiluri standard de fixare.`
       },
     ],
     certifications: [
@@ -925,21 +925,18 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       'CE Marking conform Machinery Directive 2006/42/EC',
       'RoHS Directive 2011/65/EU',
       'REACH Regulation EC 1907/2006',
-      'DNV-GL, ABS, Lloyd\'s Register (Certificări marine pentru cilindri offshore)',
+      
     ],
     industries: [
-      'Plastic Injection Molding (mașini injecție 50-5000 tone)',
-      'Metal Forming (prese hidraulice forjare, stanțare, îndoire)',
-      'Automotive (prese asamblare caroserii, test benches)',
-      'Aerospace (test structural componente, simulatoare flight)',
-      'Steel & Metal (laminoare, foarfece hidraulice, prese brichetat)',
-      'Marine & Offshore (platforme, macarale ship-to-shore, stabilizare)',
-      'Construction Equipment (excavatoare, buldozere, macarale)',
-      'Material Testing (mașini test universal traction/compression)',
-      'Packaging (prese balotat carton/plastic)',
-      'Renewable Energy (pitch control turbine eoliene, tracking solar)',
+      'Injecție mase plastice (mașini de injecție)',
+      'Prelucrarea metalelor (prese hidraulice, stanțare, îndoire)',
+      'Automotive (prese de asamblare, bancuri de test)',
+      'Oțel și metalurgie (laminoare, foarfeci hidraulice)',
+      'Construcții (excavatoare, macarale)',
+      'Testarea materialelor (mașini universale de încercare)',
+      'Ambalare (prese de balotat)',
     ],
-    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama Atos de hidraulică industrială și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru valve și cilindri din dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru sisteme integrate cu controllere electronice termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de configurație. Nu avem cum să confirmăm un termen exact fără verificarea disponibilității reale la furnizor. Pentru o ofertă corectă, trimiteți-ne presiunea de lucru, debitul necesar și tipul de control dorit (proporțional sau on/off), iar noi revenim cu termenul confirmat.`,
+    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama Atos de hidraulică industrială și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru valve și cilindri din dimensiunile uzuale putem confirma uneori 24–72 h din stoc, iar pentru sisteme integrate cu controllere electronice termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de configurație. Nu avem cum să confirmăm un termen exact fără verificarea disponibilității reale la furnizor. Pentru o ofertă corectă, trimiteți-ne presiunea de lucru, debitul necesar și tipul de control dorit (proporțional sau on/off), iar noi revenim cu termenul confirmat.`,
     limitation: `Nu putem oferi configurarea avansată a controllerelor E-ME sau tuning PID la fața locului - acestea necesită suport tehnic direct de la Atos.`,
     sources: [
       {"title":"Product range overview","url":"https://www.atos.com/range-overview","publisher":"Atos S.p.A.","accessed":"2026-09-22"},
@@ -1015,7 +1012,7 @@ Electronica de comandă Atos seria E-ME (Electronic Motion Controller) oferă co
       },
       {
         "q": "Ce diferență este între o pompă și o servopompă în gama Atos?",
-        "a": "Pompa standard livrează un debit fix sau reglabil manual, potrivit pentru aplicații cu cerințe constante de presiune și debit. Servopompa integrează un sistem de reglare electronică în buclă închisă, care ajustează automat debitul în funcție de semnalul de comandă, fiind aleasă pentru linii cu cicluri variabile și nevoie de răspuns rapid la schimbări de sarcină."
+        "a": "În catalogul Atos, categoria Pompe și servopompe include pompe cu pistoane axiale cu cilindree variabilă (seria PVPC), cu comenzi mecanice sau proporționale de presiune, debit sau p/Q. Varianta potrivită se alege după presiunea maximă, debitul și tipul de comandă necesar; o confirmăm pe cod, din documentația Atos."
       }
     ],
     evidenceClass: 'transactional',
@@ -1083,7 +1080,7 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
       'Wood & Furniture (CNC, edge banding, assembly)',
       'Printing & Paper (web handling, cutting, stacking)',
     ],
-    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al gamei Aventics (Emerson) și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile comune putem confirma uneori 24-72 h din stoc, iar pentru configurații cu fieldbus IO-Link sau componente certificate Ex termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem disponibilitate fără o verificare prealabilă la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne diametrul și cursa cilindrului sau codul valvei, presiunea de lucru și cantitatea dorită — confirmăm termenul real înainte de a plasa comanda.`,
+    infinitrade: `La Infinitrade nu deținem date proprii despre stocul curent al gamei Aventics (Emerson) și aducem componentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru cilindri și valve din dimensiunile comune putem confirma uneori 24–72 h din stoc, iar pentru configurații cu fieldbus IO-Link sau componente certificate Ex termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem disponibilitate fără o verificare prealabilă la furnizor pentru cererea dumneavoastră. Pentru o ofertă corectă, trimiteți-ne diametrul și cursa cilindrului sau codul valvei, presiunea de lucru și cantitatea dorită — confirmăm termenul real înainte de a plasa comanda.`,
     limitation: `Nu putem garanta integrarea IO-Link cu sisteme PLC existente fără o verificare tehnică prealabilă la fața locului.`,
     sources: [
       {"title":"AVENTICS Brand | Discrete Automation","url":"https://discreteautomation.emerson.com/brands/aventics","publisher":"Emerson (AVENTICS)","accessed":"2026-09-26"},
@@ -1217,7 +1214,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       'HVAC (chilled water, heating water)',
       'District Heating/Cooling (energie termică billing)',
     ],
-    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Badger Meter și aducem debitmetrele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru dimensiunile uzuale putem confirma uneori 24-72 h din stoc, iar pentru dimensiuni mari sau sisteme AMR/AMI complete termenul obișnuit este de 1–4 săptămâni la comandă, cu certificare de billing inclusă. Nu deținem date proprii despre stocul permanent al fiecărei dimensiuni DN. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, tehnologia dorită (electromagnetic, ultrasonic sau turbină) și dacă aveți nevoie de certificare MID pentru facturare, iar noi revenim cu termenul confirmat de furnizor.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Badger Meter și aducem debitmetrele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru dimensiunile uzuale putem confirma uneori 24–72 h din stoc, iar pentru dimensiuni mari sau sisteme AMR/AMI complete termenul obișnuit este de 1–4 săptămâni la comandă, cu certificare de billing inclusă. Nu deținem date proprii despre stocul permanent al fiecărei dimensiuni DN. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, tehnologia dorită (electromagnetic, ultrasonic sau turbină) și dacă aveți nevoie de certificare MID pentru facturare, iar noi revenim cu termenul confirmat de furnizor.`,
     limitation: `Nu putem confirma disponibilitatea permanentă a fiecărei dimensiuni DN sau configurații AMR/AMI - fiecare comandă depinde de stocul real al furnizorului la momentul cererii.`,
     sources: [
       {"title":"Badger Meter - Flow Measurement & Water Solutions","url":"https://www.badgermeter.com/","publisher":"Badger Meter, Inc.","accessed":"2026-09-22"},
@@ -1389,7 +1386,7 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       'Wood & Furniture (CNC, edge detection)',
       'Textile (web tension, pattern matching)',
     ],
-    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent al senzorilor Baumer și aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard, precum cei inductivi sau de presiune, putem confirma uneori 24-72 h din stoc, iar pentru encodere absolute, vision sau configurații speciale termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor. Pentru o ofertă corectă, trimiteți-ne tipul de senzor, distanța sau presiunea de măsurare necesară și interfața de comunicare dorită (IO-Link, analogic), iar noi confirmăm termenul real înainte de comandă.`,
+    infinitrade: `La Infinitrade nu avem date proprii despre stocul permanent al senzorilor Baumer și aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard, precum cei inductivi sau de presiune, putem confirma uneori 24–72 h din stoc, iar pentru encodere absolute, vision sau configurații speciale termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor. Pentru o ofertă corectă, trimiteți-ne tipul de senzor, distanța sau presiunea de măsurare necesară și interfața de comunicare dorită (IO-Link, analogic), iar noi confirmăm termenul real înainte de comandă.`,
     limitation: `Nu putem oferi configurarea avansată a senzorilor vision VeriSens pentru aplicații specifice de inspecție - aceasta necesită suport tehnic dedicat.`,
     sources: [
       {"title":"Baumer USA","url":"https://www.baumer.com/us/en","publisher":"Baumer Group","accessed":"2026-09-22"},

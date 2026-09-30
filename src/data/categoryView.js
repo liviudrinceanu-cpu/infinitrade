@@ -15,6 +15,7 @@ import { getBrandDemand } from './brandDemand';
 import { getBrandsForProductType } from './brandCategoryLinks';
 import { getUsBrandsForCategory } from './usBrands';
 import { getCategoryFaq } from './categoryFaq';
+import { DUPLICATE_BRANDS } from './duplicateBrands';
 
 const LEGACY_PREFIXES = [
   'pompe-industriale-', 'pompe-vid-industriale-',
@@ -45,7 +46,7 @@ export function buildCategoryView(category) {
   const nameBySlug = new Map(ranked.map((b) => [b.simpleSlug, b.name]));
   const typeBrands = Object.fromEntries((category.productTypes || []).map((type) => [
     type.slug,
-    getBrandsForProductType(type.slug)
+    [...new Set(getBrandsForProductType(type.slug).map((slug) => DUPLICATE_BRANDS[slug] || slug))]
       .filter((slug) => rankBySlug.has(slug))
       .sort((a, b) => rankBySlug.get(a) - rankBySlug.get(b))
       .slice(0, 8)

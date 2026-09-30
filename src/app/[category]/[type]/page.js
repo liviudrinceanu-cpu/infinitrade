@@ -41,6 +41,8 @@ function rankedBrandsForType(typeSlug) {
   return getBrandsForProductType(typeSlug)
     .map((slug) => getBrandByAnySlug(slug))
     .filter(Boolean)
+    // v34: un brand secundar (unit în v31) se rezolvă la principal; fără dubluri.
+    .filter((b, i, arr) => arr.findIndex((x) => x.simpleSlug === b.simpleSlug) === i)
     .map((b) => ({
       simpleSlug: b.simpleSlug,
       name: b.name,
