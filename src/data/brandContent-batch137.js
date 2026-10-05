@@ -7,7 +7,7 @@ export const brandContentBatch137 = {
     headquarters: "Loves Park, Illinois, SUA",
     overview: `Aqua-Aerobic Systems este un producător american de echipamente pentru tratarea apei și a apelor uzate, cu sediul la Loves Park, Illinois, activ din 1969. Compania proiectează sisteme de aerare, mixare, filtrare și tratare biologică pentru stații municipale și industriale — de la industria chimică și petrochimică până la energie, industria alimentară și a băuturilor sau industria hârtiei. Pentru piața din România putem oferta din gama de aeratoare de suprafață, mixere și reactoare secvențiale pe care Aqua-Aerobic le produce pentru proiecte noi sau pentru modernizarea stațiilor existente.
 
-Ce diferențiază gama Aqua-Aerobic e integrarea mai multor etape de tratare într-un singur echipament sau bazin: reactorul AquaSBR desfășoară toate fazele tratării biologice — umplere, reacție, decantare, evacuare — într-un singur tanc, fără bazin separat de decantare secundară. Aeratorul de suprafață Aqua-Jet are, conform producătorului, peste 130.000 de unități instalate la nivel mondial, totalizând peste 2,4 milioane de cai putere, ceea ce arată o platformă mecanică rafinată de-a lungul mai multor generații de produs. Sistemul AquaNereda folosește nămol granular aerob, o tehnologie mai compactă decât nămolul activat clasic, utilă acolo unde spațiul de construcție e limitat.
+Ce diferențiază gama Aqua-Aerobic e integrarea mai multor etape de tratare într-un singur echipament sau bazin: reactorul AquaSBR desfășoară toate fazele tratării biologice — umplere, reacție, decantare, evacuare — într-un singur bazin, fără bazin separat de decantare secundară. Aeratorul de suprafață Aqua-Jet are, conform producătorului, peste 130.000 de unități instalate la nivel mondial, totalizând peste 2,4 milioane de cai putere, ceea ce arată o platformă mecanică rafinată de-a lungul mai multor generații de produs. Sistemul AquaNereda folosește nămol granular aerob, o tehnologie mai compactă decât nămolul activat clasic, utilă acolo unde spațiul de construcție e limitat.
 
 Pentru operatorii de stații de epurare din România, gama Aqua-Aerobic are sens acolo unde bazinele existente trebuie modernizate fără extindere de teren sau unde apar cerințe noi de calitate la evacuare. Aqua-Aerobic nu are pagină de distribuitori europeni vizibilă public pe site, așa că aducem echipamentele la comandă, prin import direct din SUA.`,
     whyChoose: [
@@ -54,8 +54,8 @@ Pentru operatorii de stații de epurare din România, gama Aqua-Aerobic are sens
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Aqua-Aerobic Systems - Homepage", url: "https://aqua-aerobic.com/", publisher: "Aqua-Aerobic Systems, Inc.", accessed: "2026-09-26" },
       { title: "Aqua-Jet® - Surface Aerators", url: "https://aqua-aerobic.com/aeration-mixing/surface-aerators/aqua-jet/", publisher: "Aqua-Aerobic Systems, Inc.", accessed: "2026-09-26" },
@@ -75,11 +75,11 @@ Pentru un operator din România, gama Parkson are sens la modernizarea etapei de
       "Sita Aqua Guard® acoperă debite de până la 100 MGD printr-o singură unitate, util la stații mari sau la extinderi de capacitate.",
       "Filtrul DynaSand® spală nisipul continuu, fără oprirea filtrării pentru cicluri de backwash, spre deosebire de filtrele clasice cu nisip.",
       "Seria Hycor® acoperă atât sitare rotativă cât și deshidratare de nămol, utilă ca soluție unitară pentru linia de solide.",
-      "Sistemul Biolac® folosește un proces cu vârstă mare a nămolului, potrivit pentru stații municipale cu variații mari de debit.",
+      "Sistemul Biolac® este un proces de tratare biologică din gama Parkson, dimensionat pe proiect, în funcție de debit și de calitatea cerută la evacuare.",
       "Decantorul lamelar Lamella EcoFlow® reduce suprafața de teren necesară pentru clarificare comparativ cu un decantor clasic."
     ],
     keyProducts: [
-      { name: "Site Rotative Aqua Guard®", description: "Sită cu bandă mobilă autocurățătoare, montată la intrarea în stație, pentru reținerea solidelor grosiere din apa brută. Acoperă lățimi de canal standard, cu deschideri ale elementului de filtrare între 1 și 30 mm în funcție de cerințele procesului, și debite de până la 100 MGD printr-o singură unitate, conform datelor publicate de producător. Este disponibilă în variante cu cadru pivotant sau cadru fix, livrată complet asamblată din fabrică." },
+      { name: "Site Rotative Aqua Guard®", description: "Sită cu bandă mobilă autocurățătoare, montată la intrarea în stație, pentru reținerea solidelor grosiere din apa brută. Acoperă lățimi de canal standard, cu deschideri ale elementului de filtrare între 1 și 30 mm în funcție de cerințele procesului, și debite de până la 100 MGD printr-o singură unitate, conform datelor publicate de producător. Este disponibilă cu unghiuri de instalare de 60, 75 sau 85 de grade." },
       { name: "Filtru Continuu DynaSand®", description: "Filtru cu nisip cu spălare continuă, care recirculă și curăță mediul filtrant în timp ce filtrarea continuă, fără oprirea procesului pentru cicluri separate de backwash. Există variante EcoWash® cu spălare intermitentă și D2® cu două etape de filtrare, plus o variantă Denite Filter pentru denitrificare combinată cu filtrare. Se folosește ca treaptă terțiară, după tratarea biologică, pentru șlefuirea finală a efluentului." },
       { name: "Sitare și Deshidratare Hycor®", description: "Gamă de echipamente pentru linia de solide, incluzând site rotative cu ecran de tip wedgewire (Rotoshear®, Rotostrainer®), transportoare elicoidale fără ax (Helicon®) și prese de deshidratare cu șnec (Helixpress®). Sitele rotative rețin solidele fine înainte de tratarea biologică sau înainte de o membrană, iar echipamentele de deshidratare reduc volumul nămolului rezultat din epurare." }
     ],
@@ -90,7 +90,7 @@ Pentru un operator din România, gama Parkson are sens la modernizarea etapei de
       "Industria chimică — sitare și filtrare a efluenților industriali",
       "Minerit — separare solide și clarificare a apelor din procesarea minereului"
     ],
-    certifications: [ "Conformitate cu legea americană Build America, Buy America (BABA) pentru produsele fabricate în SUA" ],
+    
     infinitrade: `Pentru gama Parkson lucrăm strict cu informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocul acestor echipamente americane. Aducem la comandă site rotative Aqua Guard®, filtre DynaSand® sau echipamente Hycor® pentru linia de solide, cu un termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului. Pentru o ofertă, clientul trebuie să trimită lățimea canalului existent sau debitul de proiectat, tipul de solide din apa brută și, pentru filtrare, calitatea cerută la evacuare. Nu promitem disponibilitate din depozit pentru niciunul dintre aceste echipamente, fiecare unitate fiind configurată pe proiect.`,
     limitation: "Nu putem confirma un birou Parkson în Europa pentru intervenții de service în perioada de garanție a producătorului.",
     productCodes: [
@@ -123,8 +123,8 @@ Pentru un operator din România, gama Parkson are sens la modernizarea etapei de
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "About Us - Parkson Corporation", url: "https://www.parkson.com/about-us", publisher: "Parkson Corporation", accessed: "2026-09-26" },
       { title: "Products - Parkson Corporation", url: "https://www.parkson.com/products", publisher: "Parkson Corporation", accessed: "2026-09-26" },
@@ -135,30 +135,29 @@ Pentru un operator din România, gama Parkson are sens la modernizarea etapei de
     name: "Smith & Loveless",
     founded: 1946,
     headquarters: "Lenexa, Kansas, SUA",
-    overview: `Smith & Loveless este un producător american de stații de pompare și echipamente de epurare, cu sediul la Lenexa, Kansas, fondat în 1946. Gama include stații compacte de ridicare a apei uzate, sisteme de îndepărtare a gritului cu vortex, bioreactoare cu membrană și stații subterane de pompare pentru aplicații municipale, industriale și miniere. Pentru piața din România putem oferta din seriile PISTA® pentru grit și EVERLAST™ pentru pompare, folosite frecvent la stații mici și medii de epurare.
+    overview: `Smith & Loveless este un producător american de stații de pompare și echipamente de epurare, cu sediul la Lenexa, Kansas, fondat în 1946. Gama include stații compacte de ridicare a apei uzate, sisteme de îndepărtare a gritului cu vortex, bioreactoare cu membrană și stații subterane de pompare pentru aplicații municipale, industriale și miniere. Pentru piața din România putem oferta din gama PISTA® pentru îndepărtarea gritului și din celelalte linii ale producătorului.
 
 Ce diferențiază Smith & Loveless e concentrarea pe echipamente compacte, gata dimensionate, mai degrabă decât pe componente individuale: sistemul de grit PISTA® folosește un vortex controlat mecanic pentru a separa nisipul din apa uzată înainte de tratarea biologică, cu pompe dedicate PISTA® TURBO™ care ating, conform producătorului, debite de până la 500 GPM (aproximativ 32 l/s) la puteri sub 40 CP. Stațiile subterane CAPSULAR® ajung, potrivit site-ului, la debite de până la 20.000 GPM pentru aplicații de pompare la scară mare. Bioreactorul cu membrană TITAN MBR™ combină tratarea biologică cu filtrarea prin membrană într-un singur echipament compact.
 
 Pentru un operator din România, sistemele Smith & Loveless au sens la stații mici și medii unde spațiul disponibil e limitat și unde se caută un echipament gata dimensionat, nu o construcție civilă separată pentru fiecare treaptă. Din câte am putut vedea pe site-ul propriu, Smith & Loveless nu are birou propriu sau rețea de distribuție vizibilă în Europa; aducem echipamentele prin import direct din SUA.`,
     whyChoose: [
       "Pompele PISTA® TURBO™ pentru grit ating, conform producătorului, debite de până la 500 GPM la puteri sub 40 CP.",
-      "Stațiile subterane CAPSULAR® ajung, potrivit site-ului, la debite de până la 20.000 GPM pentru pompare la scară mare.",
-      "Sistemul PISTA® separă gritul printr-un vortex mecanic controlat, fără piese aflate direct în contact abraziv cu nisipul.",
+      "Stațiile subterane CAPSULAR® sunt o linie de stații de pompare a producătorului; debitele depind de configurație și se confirmă din documentația S&L.",
+      "Sistemul PISTA® separă gritul printr-un vortex controlat.",
       "Bioreactorul TITAN MBR™ combină tratarea biologică și filtrarea prin membrană într-un singur echipament compact.",
-      "Producătorul menționează conformitate cu standardele UL și apartenența la Water Environment Federation (WEF)."
+      "Producătorul are peste opt decenii de activitate, din 1946 (80 de ani împliniți în 2026)."
     ],
     keyProducts: [
       { name: "Sistem de Îndepărtare Grit PISTA®", description: "Sistem cu vortex mecanic controlat pentru separarea nisipului și gritului din apa uzată, înainte ca aceasta să ajungă la treapta biologică. Pompele dedicate PISTA® TURBO™, montate cu sucțiune înecată sau montate deasupra, ating debite de până la 500 GPM (aproximativ 32 l/s) la puteri sub 40 CP, cu racorduri între 4 și 6 țoli, conform datelor publicate de producător. Include și un accesoriu de protecție la îngheț pentru climate reci." },
-      { name: "Stații Subterane de Pompare CAPSULAR®", description: "Stație de pompare complet subterană, cu echipamentele electrice și mecanice amplasate deasupra nivelului solului într-o cameră uscată, pentru acces facil la mentenanță fără intrarea în spațiul umed. Ajunge, potrivit site-ului producătorului, la debite de până la 20.000 GPM, fiind gândită pentru aplicații municipale de dimensiuni mari sau pentru relee de pompare pe conducte lungi." },
+      { name: "Stații Subterane de Pompare CAPSULAR®", description: "Stație de pompare subterană, cu echipamentele electrice și mecanice amplasate într-o cameră uscată, pentru acces la mentenanță fără intrarea în spațiul umed. Debitele depind de configurație și se confirmă din documentația producătorului." },
       { name: "Bioreactor cu Membrană TITAN MBR™", description: "Sistem de tratare biologică ce integrează filtrarea prin membrană direct în bazinul de nămol activat, eliminând nevoia unui decantor secundar separat. Configurația modulară TITAN MEM-BOX™ permite extinderea capacității prin adăugarea de module suplimentare de membrană, fără reconstrucția bazinului existent. Util la modernizarea unei stații mici care trebuie să atingă un standard de calitate a efluentului mai ridicat." }
     ],
     industries: [
       "Tratarea apelor uzate municipale — pompare și tratare pentru stații orășenești",
       "Minerit — filtrare prin extracție cu solvent (DI-SEP® SX) pentru cupru și electroliți",
-      "Centre de date — pompare a apei uzate rezultate din operarea facilităților",
       "Industrial — stații de pompare pentru ape uzate de proces"
     ],
-    certifications: [ "UL — Underwriters Laboratories, menționat de producător pentru componentele electrice" ],
+    
     infinitrade: `Despre gama Smith & Loveless spunem clar ce putem și ce nu putem confirma: ne bazăm exclusiv pe informațiile publicate pe site-ul producătorului, fără date proprii de stoc pentru aceste echipamente americane. Aducem sisteme PISTA®, CAPSULAR® sau TITAN MBR™ prin import direct din SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă avem nevoie de debitul stației, dimensiunile disponibile și, pentru grit, cantitatea estimată de nisip din influent. Nu promitem disponibilitate din depozit pentru niciun echipament din această gamă.`,
     limitation: "Nu putem confirma prezența unui birou sau reprezentant Smith & Loveless în Europa pentru intervenții rapide de service.",
     productCodes: [
@@ -170,8 +169,8 @@ Pentru un operator din România, sistemele Smith & Loveless au sens la stații m
       { code: "PISTA® VIO™", description: "variantă a sistemului de îndepărtare grit PISTA" },
       { code: "PISTA® INVORSOR®", description: "componentă a sistemului de îndepărtare grit PISTA" },
       { code: "PISTA®Works™", description: "platformă de control pentru sistemele PISTA" },
-      { code: "EVERLAST™", description: "stație compactă de ridicare a apei uzate" },
-      { code: "CAPSULAR®", description: "stație subterană de pompare, debite până la 20.000 GPM" },
+      { code: "EVERLAST™", description: "linie de produse Smith & Loveless; descrierea se confirmă din documentația producătorului" },
+      { code: "CAPSULAR®", description: "stație subterană de pompare" },
       { code: "TITAN MBR™", description: "bioreactor cu membrană integrată în bazinul biologic" },
       { code: "TITAN MEM-BOX™", description: "modul de membrană pentru extinderea unui bioreactor TITAN" },
       { code: "DI-SEP® SX Filter", description: "filtru pentru extracție cu solvent în minerit" },
@@ -182,12 +181,12 @@ Pentru un operator din România, sistemele Smith & Loveless au sens la stații m
       { q: "Ce produce Smith & Loveless?", a: "Smith & Loveless produce stații compacte de pompare a apei uzate, sisteme de îndepărtare a gritului cu vortex (PISTA®), bioreactoare cu membrană (TITAN MBR™) și stații subterane de pompare (CAPSULAR®). Compania are sediul la Lenexa, Kansas, și este activă din 1946." },
       { q: "Cum aleg o pompă PISTA® TURBO™ pentru grit?", a: "Alegerea depinde de debitul de apă uzată de tratat și de cantitatea estimată de nisip din influent, parametri pe care producătorul îi folosește pentru a dimensiona pompa între 4 și 6 țoli, cu debite de până la 500 GPM. Trimiteți aceste date pentru o configurație." },
       { q: "Se poate procura Smith & Loveless în România sau Europa?", a: "Da, la comandă: din câte am putut vedea pe site-ul propriu, Smith & Loveless nu are birou sau distribuție proprie în Europa, așa că aducem echipamentele prin import direct din SUA, cu un termen orientativ de 1–4 săptămâni, în funcție de transport." },
-      { q: "Ce înseamnă o stație subterană CAPSULAR® față de o stație clasică?", a: "O stație CAPSULAR® păstrează echipamentele electrice și mecanice într-o cameră uscată deasupra solului, cu acces la mentenanță fără a intra în spațiul umed al stației, spre deosebire de o stație clasică unde tehnicianul lucrează direct lângă apa uzată pompată." }
+      { q: "Ce înseamnă o stație subterană CAPSULAR® față de o stație clasică?", a: "O stație CAPSULAR® păstrează echipamentele electrice și mecanice într-o cameră uscată, cu acces la mentenanță fără a intra în spațiul umed al stației, spre deosebire de o stație clasică unde tehnicianul lucrează direct lângă apa uzată pompată." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "S&L History", url: "https://www.smithandloveless.com/sl-history", publisher: "Smith & Loveless Inc.", accessed: "2026-09-26" },
       { title: "Grit Pumping Equipment", url: "https://www.smithandloveless.com/products/grit-pumping-equipment", publisher: "Smith & Loveless Inc.", accessed: "2026-09-26" },
@@ -200,20 +199,20 @@ Pentru un operator din România, sistemele Smith & Loveless au sens la stații m
     headquarters: "Columbia, Missouri, SUA",
     overview: `EDI, prescurtare de la Environmental Dynamics International, este un producător american de difuzoare cu bule fine și sisteme de aerare pentru epurare biologică, cu sediul la Columbia, Missouri, activ din 1975. Gama acoperă difuzoare cu bule fine FlexAir® și difuzoare cu bule mari CoarsAir™, plus servicii de instalare și mentenanță SiteWorks™. Pentru piața din România putem oferta membrane și difuzoare din gama FlexAir® pentru modernizarea sistemelor de aerare din bazinele de nămol activat.
 
-Ce diferențiază EDI e varietatea de membrane oferite pentru același tip de difuzor: gama FlexAir® Pro vine cu membrane EPDM, EPDM cu strat protector (Armor-Coated™), silicon sau poliuretan standard și de temperatură înaltă, alese în funcție de compoziția apei uzate. Difuzoarele disc au diametre de 9 și 12 țoli, iar difuzoarele tubulare din seria T-Series™ vin în diametre de 62 și 91 mm, cu lungimi standard între 250 și 1.000 mm, conform datelor publicate de producător. Compania afirmă că menține peste 8.000 de sisteme de aerare instalate la nivel global.
+Ce diferențiază EDI e varietatea de membrane oferite pentru același tip de difuzor: gama FlexAir® Pro vine cu membrane EPDM, EPDM cu strat protector (Armor-Coated™), silicon sau poliuretan standard și de temperatură înaltă, alese în funcție de compoziția apei uzate. Difuzoarele disc au diametre de 9 și 12 țoli, iar difuzoarele tubulare din seria T-Series™ vin în diametre de 62 și 91 mm, cu lungimi standard între 250 și 1.000 mm, conform datelor publicate de producător. Conform producătorului, difuzoarele EDI au fost instalate în peste 8.000 de sisteme de aerare, în peste 100 de țări.
 
-Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membranelor uzate dintr-un sistem existent de aerare cu bule fine sau la un proiect nou unde apa uzată are o compoziție chimică ce impune un tip specific de membrană. EDI menționează operațiuni în peste 100 de țări, dar nu am găsit pe site o pagină dedicată distribuitorilor din Europa, așa că aducem componentele la comandă, prin import din SUA.`,
+Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membranelor uzate dintr-un sistem existent de aerare cu bule fine sau la un proiect nou unde apa uzată are o compoziție chimică ce impune un tip specific de membrană. EDI menționează instalări în peste 100 de țări, dar nu am găsit pe site o pagină dedicată distribuitorilor din Europa, așa că aducem componentele la comandă, prin import din SUA.`,
     whyChoose: [
       "Membranele FlexAir® Pro sunt disponibile în EPDM, EPDM cu strat protector, silicon sau poliuretan, alese după compoziția chimică a apei uzate.",
       "Difuzoarele disc FlexAir® vin în diametre de 9 și 12 țoli, pentru diferite densități de instalare în bazin.",
       "Difuzoarele tubulare T-Series™ au diametre de 62 și 91 mm și lungimi standard între 250 și 1.000 mm.",
       "Gama CoarsAir™ cu bule mari acoperă mai multe configurații pentru aplicații unde bulele fine s-ar înfunda.",
-      "Compania menține, conform site-ului propriu, peste 8.000 de sisteme de aerare instalate la nivel global."
+      "Conform site-ului propriu, difuzoarele EDI au fost instalate în peste 8.000 de sisteme de aerare, în peste 100 de țări."
     ],
     keyProducts: [
       { name: "Difuzoare cu Bule Fine FlexAir® Pro", description: "Difuzoare cu bule fine în variante disc, tub și panel, cu membrane disponibile în EPDM, EPDM cu strat protector Armor-Coated™, silicon sau poliuretan standard și de temperatură înaltă. Discurile au diametre de 9 sau 12 țoli, iar tuburile din seria T-Series™ vin în diametre de 62 sau 91 mm, cu lungimi standard între 250 și 1.000 mm, conform datelor publicate de producător. Se montează pe grătare fixe sau pe configurații retractabile ModuleAir™." },
       { name: "Difuzoare cu Bule Mari CoarsAir™", description: "Gamă de difuzoare cu bule mari, în configurații Hex, Max, Wide-Band, PermaCap, FlexCap și AirCone, pentru aplicații unde riscul de înfundare al difuzoarelor cu bule fine e ridicat, de exemplu la ape reziduale cu conținut mare de solide sau grăsimi. Sunt folosite și ca aerare de rezervă sau pentru amestecare, în paralel cu un sistem principal de bule fine." },
-      { name: "Servicii SiteWorks™", description: "Serviciu de instalare, mentenanță și reparație pentru sistemele de aerare EDI, oferit direct de producător sau prin parteneri instruiți. Acoperă atât punerea în funcțiune a unui sistem nou, cât și înlocuirea membranelor uzate la un sistem existent, fără a necesita neapărat oprirea completă a bazinului de tratare, în funcție de configurația grătarelor." }
+      { name: "Servicii SiteWorks™", description: "Serviciu de instalare, mentenanță și reparație pentru sistemele de aerare EDI, oferit de echipele SiteWorks™ ale producătorului. Acoperă atât punerea în funcțiune a unui sistem nou, cât și înlocuirea membranelor uzate la un sistem existent." }
     ],
     industries: [
       "Industria chimică și petrolieră — aerare pentru bazine de tratare a apelor reziduale",
@@ -222,7 +221,7 @@ Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membrane
       "Industria hârtiei și celulozei — aerare pentru bazine de proces",
       "Industria băuturilor (vin, bere) — aerare pentru apele reziduale de fabricație"
     ],
-    certifications: [ "Membru Water Environment Federation (WEF)" ],
+    
     infinitrade: `Pentru gama EDI ne bazăm pe informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pentru difuzoarele și membranele americane din acest portofoliu. Aducem la comandă difuzoare FlexAir® sau CoarsAir™, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului. Pentru o ofertă, clientul trebuie să trimită tipul de difuzor existent (dacă e o înlocuire de membrane), debitul de aer necesar și compoziția chimică a apei uzate. Nu promitem disponibilitate din depozit pentru membrane sau difuzoare, fiecare comandă fiind confirmată în prealabil cu producătorul.`,
     limitation: "Nu putem confirma o filială EDI în Europa pentru suport tehnic local sau intervenții rapide de service.",
     productCodes: [
@@ -241,15 +240,15 @@ Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membrane
       { code: "StreamLine®", description: "combinație de lateral și difuzor într-o singură componentă" }
     ],
     faq: [
-      { q: "Ce produce EDI?", a: "EDI produce difuzoare cu bule fine și cu bule mari pentru aerarea biologică a apelor uzate, sub mărcile FlexAir® și CoarsAir®, plus servicii de instalare și mentenanță SiteWorks™. Compania are sediul la Columbia, Missouri, și este activă din 1975." },
-      { q: "Cum aleg membrana potrivită pentru difuzoarele FlexAir?", a: "Alegerea membranei FlexAir depinde de compoziția chimică a apei uzate și de temperatura de operare: EPDM pentru aplicații standard, EPDM cu strat protector pentru medii mai agresive, silicon sau poliuretan pentru temperaturi ridicate. Trimiteți parametrii apei tratate pentru o recomandare." },
+      { q: "Ce produce EDI?", a: "EDI produce difuzoare cu bule fine și cu bule mari pentru aerarea biologică a apelor uzate, sub mărcile FlexAir® și CoarsAir™, plus servicii de instalare și mentenanță SiteWorks™. Compania are sediul la Columbia, Missouri, și este activă din 1975." },
+      { q: "Cum aleg membrana potrivită pentru difuzoarele FlexAir?", a: "Alegerea membranei FlexAir depinde de compoziția chimică a apei uzate și de temperatura de operare: EPDM este materialul de bază pentru instalațiile municipale; EPDM cu strat protector (Armor-Coated™), poliuretan (inclusiv de temperatură înaltă) și silicon sunt alte opțiuni oferite, iar alegerea se confirmă din documentația producătorului. Trimiteți parametrii apei tratate pentru o recomandare." },
       { q: "Ce diametru au difuzoarele disc FlexAir?", a: "Difuzoarele disc din gama FlexAir® Pro au diametre de 9 sau 12 țoli, iar difuzoarele tubulare din seria T-Series™ vin în diametre de 62 sau 91 mm, cu lungimi standard între 250 și 1.000 mm, conform datelor publicate de producător." },
       { q: "Livrați difuzoare EDI în România și cât durează?", a: "Da, la comandă: aducem difuzoare EDI prin import din SUA, cu un termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Nu am găsit pe site-ul propriu o pagină dedicată distribuitorilor europeni." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "EDI - Homepage", url: "https://wastewater.com/", publisher: "Environmental Dynamics International", accessed: "2026-09-26" },
       { title: "FlexAir Pro Diffusers", url: "https://wastewater.com/products/flexair-pro/", publisher: "Environmental Dynamics International", accessed: "2026-09-26" }
@@ -261,18 +260,18 @@ Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membrane
     headquarters: "Montesano, Washington, SUA",
     overview: `Vaughan este un producător american de pompe tocătoare (chopper pumps) și sisteme de mixare pentru nămol din apele uzate, cu sediul la Montesano, statul Washington, înființat în 1960. Gama acoperă pompe tocătoare orizontale, verticale și submersibile, sisteme de mixare hidraulică Rotamix și pompe cu șurub Triton, pentru aplicații municipale, industriale și agricole. Pentru piața din România putem oferta din seria de pompe tocătoare HE și S, folosite frecvent la stații de pompare cu nămol fibros sau cu conținut de solide mari.
 
-Ce diferențiază pompele Vaughan e mecanismul de tocare montat direct pe rotor, care taie materialele fibroase, textile sau plastice înainte ca acestea să treacă prin corpul pompei, reducând riscul de înfundare. Gama HE-Series (orizontală) și S-Series (submersibilă) acoperă racorduri de refulare între 3 și 16 țoli, cu debite publicate de producător de până la 13.000 galoane pe minut (aproximativ 3.000 m³/h) și randamente hidraulice de peste 70%. Sistemul Rotamix folosește jeturi hidraulice orientabile pentru amestecarea nămolului direct în bazin, fără agitatoare mecanice interne.
+Ce diferențiază pompele Vaughan e mecanismul de tocare montat direct pe rotor, care taie materialele fibroase, textile sau plastice înainte ca acestea să treacă prin corpul pompei, reducând riscul de înfundare. Gama de pompe tocătoare (seriile HE, PE, S și SE) acoperă racorduri de refulare între 3 și 16 țoli, cu debite publicate de producător de până la 13.000 galoane pe minut (aproximativ 3.000 m³/h). Sistemul Rotamix folosește jeturi hidraulice orientabile pentru amestecarea nămolului direct în bazin, fără agitatoare mecanice interne.
 
 Pentru un operator din România, pompele Vaughan au sens acolo unde nămolul conține materiale fibroase, textile sau deșeuri solide care înfundă frecvent o pompă centrifugală clasică, de exemplu la stații cu rețea de canalizare mixtă. Din câte am putut vedea pe site-ul propriu, Vaughan nu are birou propriu sau rețea de distribuție vizibilă în Europa, așa că aducem pompele prin import din SUA, la comandă.`,
     whyChoose: [
       "Mecanismul de tocare montat pe rotor taie materialele fibroase și plastice înainte de trecerea prin corpul pompei, reducând riscul de înfundare.",
       "Gama de pompe acoperă racorduri de refulare între 3 și 16 țoli, cu debite publicate de până la 13.000 GPM.",
-      "Randamentele hidraulice publicate de producător depășesc 70%, peste media pompelor tocătoare clasice de pe piață.",
+      "Gama este disponibilă în seriile HE, PE, S și SE, cu racorduri de refulare între 3 și 16 țoli.",
       "Sistemul Rotamix amestecă nămolul cu jeturi hidraulice orientabile, fără agitatoare mecanice montate direct în bazin.",
-      "Pompele sunt conforme cu legea americană Build America, Buy America (BABA) pentru proiecte cu finanțare federală."
+      "Pentru sistemul Rotamix, producătorul oferă o garanție de 10 ani pentru duze."
     ],
     keyProducts: [
-      { name: "Pompe Tocătoare Seria HE (Orizontale)", description: "Pompă tocătoare montată orizontal, cu mecanism de tocare pe rotor care taie materialele fibroase, textile și plastice înainte ca acestea să intre în corpul pompei. Disponibilă în dimensiuni de refulare între 3 și 16 țoli, cu debite publicate de producător de până la 13.000 galoane pe minut și randamente hidraulice peste 70%. Construcție din fontă cu crom ridicat sau oțel inoxidabil pentru medii abrazive." },
+      { name: "Pompe Tocătoare Seria HE (Orizontale)", description: "Pompă tocătoare montată orizontal, cu mecanism de tocare pe rotor care taie materialele fibroase, textile și plastice înainte ca acestea să intre în corpul pompei. Disponibilă în dimensiuni de refulare între 3 și 16 țoli, cu debite publicate de producător de până la 13.000 galoane pe minut . Materialele de construcție depind de model; la seria HE 3–6 țoli, corpul este din fontă ductilă, iar rotorul din oțel aliat tratat termic (min. 60 HRC), conform fișei tehnice." },
       { name: "Pompe Tocătoare Submersibile Seria S", description: "Variantă submersibilă a pompei tocătoare Vaughan, montată direct în bazinul umed, fără cameră uscată separată pentru motor. Păstrează același mecanism de tocare pe rotor ca varianta orizontală, în dimensiuni de refulare între 3 și 6 țoli. Utilă la stații mici de pompare unde spațiul pentru o cameră uscată separată lipsește sau unde costul unei construcții suplimentare nu se justifică." },
       { name: "Sistem de Mixare Rotamix", description: "Sistem de mixare hidraulică pentru bazine de nămol, care folosește jeturi orientabile acționate de o pompă recirculantă, fără agitatoare mecanice montate în interiorul bazinului. Producătorul oferă o garanție de 10 ani pentru duzele sistemului. Util la bazine de omogenizare a nămolului sau la digestoare unde un mixer mecanic clasic ar necesita etanșări suplimentare greu de întreținut." }
     ],
@@ -282,7 +281,7 @@ Pentru un operator din România, pompele Vaughan au sens acolo unde nămolul con
       "Petrol și gaze — pompare apă sărată rezultată din extracție",
       "Industrial — pompare fluide cu conținut de grăsimi și uleiuri"
     ],
-    certifications: [ "Conformitate cu legea americană Build America, Buy America (BABA) pentru pompele fabricate în SUA" ],
+    
     infinitrade: `Pentru pompele Vaughan nu deținem date proprii de stoc; ne bazăm pe informațiile publicate de producător pe site-ul propriu. Vaughan nu are rețea de distribuție vizibilă în Europa, așa că aducem pompele tocătoare și sistemele Rotamix prin import direct din SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă avem nevoie de debitul de pompat, tipul de solide din fluid și dimensiunea racordului de refulare dorit. Nu promitem disponibilitate din depozit pentru aceste pompe, fiecare unitate fiind construită la comandă, conform configurației cerute.`,
     limitation: "Nu putem confirma o rețea de distribuție sau birou tehnic Vaughan în Europa pentru piese de schimb rapide.",
     productCodes: [
@@ -307,8 +306,8 @@ Pentru un operator din România, pompele Vaughan au sens acolo unde nămolul con
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Vaughan Company - Chopper Pumps", url: "https://www.chopperpumps.com", publisher: "Vaughan Co., Inc.", accessed: "2026-09-26" },
       { title: "Contact - Vaughan Company", url: "https://www.chopperpumps.com/contact", publisher: "Vaughan Co., Inc.", accessed: "2026-09-26" },
@@ -350,27 +349,27 @@ Pentru un operator din România, cărbunele activ Calgon Carbon are sens la filt
       { code: "OLC®", description: "cărbune activ granular pentru tratarea apei și a alimentelor" },
       { code: "DSRC®", description: "cărbune activ granular pentru tratare de mediu" },
       { code: "DSRA®", description: "variantă de cărbune activ granular pentru aplicații de mediu" },
-      { code: "GW®", description: "cărbune activ pentru tratarea apei rezidențiale" },
-      { code: "RXAPH®", description: "cărbune activ granular reactivat pentru tratare de mediu" },
-      { code: "VPR®", description: "cărbune activ pentru tratarea apei și aerului" },
+      { code: "GW®", description: "cărbune activ Calgon Carbon; aplicația se confirmă pe cod, din fișa producătorului" },
+      { code: "RXAPH®", description: "cărbune activ Calgon Carbon; tipul și aplicația se confirmă pe cod, din fișa producătorului" },
+      { code: "VPR®", description: "cărbune activ Calgon Carbon; aplicația se confirmă pe cod, din fișa producătorului" },
       { code: "BPL®", description: "cărbune activ pentru tratarea aerului și a alimentelor" },
       { code: "HGR®", description: "cărbune activ impregnat pentru îndepărtarea mercurului din aer" },
       { code: "Ammonasorb®", description: "cărbune activ pentru tratarea aerului industrial" },
       { code: "Sulfusorb®", description: "cărbune activ pentru îndepărtarea compușilor cu sulf din aer" },
-      { code: "WPH®", description: "cărbune activ pulverizat pentru tratarea apei" },
+      { code: "WPH®", description: "cărbune activ pulverizat Calgon Carbon; aplicația se confirmă pe cod, din fișa producătorului" },
       { code: "PULSORB®", description: "cărbune activ pulverizat pentru tratarea apei și alimentelor" },
       { code: "ISEP®", description: "sistem de schimb ionic cu pat continuu pentru purificarea apei" }
     ],
     faq: [
-      { q: "Ce produce Calgon Carbon?", a: "Calgon Carbon produce cărbune activ granular, pulverizat și sub formă de pesle, plus sisteme de schimb ionic și echipamente de reactivare a cărbunelui uzat, pentru tratarea apei potabile, industriale și a aerului. Compania are sediul la Moon Township, Pennsylvania, și este activă din 1942." },
+      { q: "Ce produce Calgon Carbon?", a: "Calgon Carbon produce cărbune activ granular, pulverizat și sub formă de pelete, plus sisteme de schimb ionic și echipamente de reactivare a cărbunelui uzat, pentru tratarea apei potabile, industriale și a aerului. Compania are sediul la Moon Township, Pennsylvania, și este activă din 1942." },
       { q: "Ce echivalent are FILTRASORB față de un cărbune activ generic?", a: "FILTRASORB® e o gamă specifică de cărbune activ granular a producătorului, gândită pentru tratarea apei municipale și industriale; un cărbune activ generic poate avea o suprafață specifică sau o distribuție a porilor diferită, ceea ce schimbă eficiența de adsorbție pentru anumiți contaminanți." },
       { q: "Cum aleg tipul de cărbune activ potrivit?", a: "Alegerea depinde de contaminantul vizat și de mediul tratat: FILTRASORB® pentru apă, CENTAUR® pentru tratare combinată apă-aer cu efect catalitic, HGR® specific pentru mercur din aer. Trimiteți parametrii apei sau aerului de tratat pentru o recomandare corectă." },
       { q: "Livrați cărbune activ Calgon Carbon în România și cât durează?", a: "Da, la comandă: aducem cărbune activ Calgon Carbon prin canale de aprovizionare din SUA sau din facilitățile europene ale grupului, cu un termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "History and Timeline of Activated Carbon Giant", url: "https://www.calgoncarbon.com/about/history/", publisher: "Calgon Carbon Corporation", accessed: "2026-09-26" },
       { title: "Products - Calgon Carbon", url: "https://www.calgoncarbon.com/products/", publisher: "Calgon Carbon Corporation", accessed: "2026-09-26" },
@@ -383,19 +382,19 @@ Pentru un operator din România, cărbunele activ Calgon Carbon are sens la filt
     headquarters: "Naperville, Illinois, SUA",
     overview: `Nalco Water este divizia de tratare a apei industriale a grupului american Ecolab, cu sediul la Naperville, Illinois, cu rădăcini din 1928, când compania predecesoare a fost înființată prin fuziunea Chicago Chemical Company cu Aluminum Sales Corporation. Gama acoperă chimicale de tratare și tehnologii de monitorizare pentru apa de răcire, cazane și apă de proces, folosite în industria energetică, chimică, alimentară și în centre de date. Pentru piața din România putem oferta programe de tratare bazate pe platforma 3D TRASAR™.
 
-Ce diferențiază Nalco Water e combinația dintre chimicalele de tratare și platforma de monitorizare 3D TRASAR™, care ajustează automat dozarea în funcție de parametrii citiți în timp real din sistemul de apă, nu doar un program de dozare fixă. Tehnologia se aplică separat pentru cazane, apă de răcire și, mai recent, pentru răcirea directă a componentelor electronice (direct-to-chip) din centrele de date. Compania afirmă că a instalat peste 20.000 de sisteme 3D TRASAR la nivel global, monitorizarea fiind susținută de un centru de operare continuu (Ecolab Global Intelligence Center).
+Ce diferențiază Nalco Water e combinația dintre chimicalele de tratare și platforma de monitorizare 3D TRASAR™, care ajustează automat dozarea în funcție de parametrii citiți în timp real din sistemul de apă, nu doar un program de dozare fixă. Tehnologia se aplică separat pentru cazane, apă de răcire și, mai recent, pentru răcirea directă a componentelor electronice (direct-to-chip) din centrele de date. Monitorizarea este susținută de un centru de operare continuu (Ecolab Global Intelligence Center), cu monitorizare la distanță 24/7/365, conform producătorului.
 
 Pentru un operator din România, programele Nalco Water au sens la instalații cu cazane sau turnuri de răcire unde depunerile de calcar sau coroziunea reduc eficiența energetică, iar monitorizarea continuă poate arăta exact unde apare problema. Fiind parte din Ecolab, cu prezență globală, procurarea prin canale europene ale grupului e, în principiu, mai simplă decât la un producător exclusiv american.`,
     whyChoose: [
       "Platforma 3D TRASAR™ ajustează automat dozarea chimicalelor în funcție de parametrii citiți în timp real, nu pe un program fix.",
-      "Compania afirmă că a instalat peste 20.000 de sisteme 3D TRASAR la nivel global, pentru cazane și apă de răcire.",
+      "Platforma 3D TRASAR™ este oferită în programe separate pentru cazane și pentru apă de răcire.",
       "Tehnologia acoperă și răcirea directă a componentelor electronice (direct-to-chip) folosită în centrele de date.",
       "Monitorizarea e susținută de un centru de operare continuu, Ecolab Global Intelligence Center, conform site-ului producătorului.",
       "Fiind parte din grupul Ecolab, cu birouri în Europa, procurarea programelor Nalco Water e relativ directă."
     ],
     keyProducts: [
       { name: "3D TRASAR™ Technology pentru Cazane", description: "Program de tratare chimică pentru cazane, combinat cu monitorizare continuă a parametrilor cheie (duritate, oxigen dizolvat, stres de coroziune), prin senzori proprii și un colector de date conectat la centrul de operare al producătorului. Include un monitor dedicat de stres de coroziune pre-cazan, care ajustează doza de captator de oxigen în funcție de citirile reale. Disponibil în variante Premium și Compact, în funcție de nivelul de automatizare dorit." },
-      { name: "3D TRASAR™ Technology pentru Apă de Răcire", description: "Program de tratare pentru turnurile de răcire, care monitorizează în timp real parametri precum duritatea, indicele de coroziune și concentrația de biocid, ajustând automat dozarea chimicalelor. Există și o variantă cu tratare solidă, pentru instalații unde manipularea chimicalelor lichide e mai greu de gestionat logistic. Reduce, conform producătorului, riscul de depuneri și coroziune necontrolată în circuitul de răcire." },
+      { name: "3D TRASAR™ Technology pentru Apă de Răcire", description: "Program de tratare pentru turnurile de răcire, care monitorizează în timp real parametrii sistemului de răcire și ajustează dozarea chimicalelor. Există și o variantă cu tratare solidă, pentru instalații unde manipularea chimicalelor lichide e mai greu de gestionat logistic. Reduce, conform producătorului, riscul de depuneri și coroziune necontrolată în circuitul de răcire." },
       { name: "3D TRASAR™ pentru Răcire Direct-to-Chip", description: "Tehnologie de monitorizare și tratare a apei folosite pentru răcirea directă a componentelor electronice din centrele de date, unde calitatea apei afectează direct fiabilitatea echipamentelor de calcul. Extinde platforma 3D TRASAR de la aplicațiile industriale clasice (cazane, apă de răcire) către infrastructura digitală, o direcție relativ nouă în portofoliul companiei." }
     ],
     industries: [
@@ -428,8 +427,8 @@ Pentru un operator din România, programele Nalco Water au sens la instalații c
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Nalco Water Naperville, Illinois Headquarters", url: "https://www.ecolab.com/about/locations/nalco-naperville-headquarters", publisher: "Ecolab Inc.", accessed: "2026-09-26" },
       { title: "3D TRASAR™ Technology for Boilers", url: "https://www.ecolab.com/nalco-water/offerings/3d-trasar-technology-for-boilers", publisher: "Ecolab Inc. / Nalco Water", accessed: "2026-09-26" },

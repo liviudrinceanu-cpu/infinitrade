@@ -406,7 +406,7 @@ Pentru piața din România, HIP înseamnă acces la robinete, fitinguri și reac
     headquarters: "SUA",
     overview: `Milton Roy este un producător american de pompe dozatoare, înființat în 1936 și parte astăzi din grupul Ingersoll Rand. Compania produce pompe dozatoare cu piston și diafragmă din familiile mRoy, Milroyal, Primeroy, Primeroyal, Proteus și Maxroy, pentru dozarea de precizie a substanțelor chimice și tratarea apei. Din această gamă putem oferta pompe alese după debitul și presiunea de lucru necesare, pentru instalații de tratare a apei, centrale electrice și linii de proces chimic.
 
-Pompele metalice din portofoliul Milton Roy ajung la debite de până la 32.980 l/h și presiuni de până la 1.035 bar, în funcție de model și de materialul capului hidraulic. Familia Primeroyal, cu variantele H, K, L, N, Q, R și X, acoperă game largi de debit pentru dozare industrială, iar seria Proteus (ERB, ERC) este gândită pentru procese care cer control fin al debitului. Milroyal D/C/B sunt pompe cu piston pentru presiuni ridicate, iar seria Maxroy (A, B, D) completează gama de pompe de proces. Pe acest segment, Milton Roy se compară cu ProMinent în dozarea chimică de precizie.
+Pompele metalice din portofoliul Milton Roy ajung la debite de până la 32.980 l/h și presiuni de până la 1.035 bar, în funcție de model și de materialul capului hidraulic. Familia Primeroyal, cu variantele H, K, L, N, Q, R și X, acoperă game largi de debit pentru dozare industrială, iar seria Proteus (ERB, ERC) este gândită pentru procese care cer control fin al debitului. Milroyal D/C/B sunt pompe cu diafragmă acționată hidraulic (modelul D, până la 207 bar) sau cu piston plonjor (modelele B și C, până la 689 bar), iar seria Maxroy (A, B, D) completează gama de pompe de proces.
 
 Pentru piața din România, Milton Roy înseamnă acces la pompe dozatoare pentru stații de tratare a apei, centrale electrice și instalații chimice, acolo unde debitul dozat trebuie să rămână constant indiferent de variațiile de contrapresiune din instalație.`,
     whyChoose: [
@@ -417,9 +417,9 @@ Pentru piața din România, Milton Roy înseamnă acces la pompe dozatoare pentr
       "Certificări ISO 9001, ISO 14001 și ISO/TS 29001:2010 pentru facilitățile de producție."
     ],
     keyProducts: [
-      { name: "Pompe dozatoare mRoy și Milroyal", description: "Seria mRoy (variantele XA, XB) este o pompă cu diafragmă de uz general pentru dozare chimică, iar familia Milroyal (D, C, B) folosește piston pentru presiuni mai ridicate decât o diafragmă simplă poate susține. Alegerea între cele două ține de presiunea de refulare necesară și de compatibilitatea chimică a capului hidraulic cu substanța dozată." },
-      { name: "Pompe dozatoare Primeroy și Primeroyal", description: "Primeroy (K/PKG, L/PLG) acoperă dozare de proces la scară mai mică, iar familia Primeroyal, cu variantele H, K, L, N, Q, R, X și X FT, se extinde pe o gamă largă de debite pentru linii industriale de dozare continuă. Seria Primeroyal X FT adaugă un cap hidraulic dedicat pentru aplicații specifice de proces, unde variantele standard nu acoperă parametrii necesari." },
-      { name: "Pompe de proces Proteus (ERB/ERC)", description: "Seria Proteus, cu variantele ERB și ERC, este gândită pentru procese chimice care cer control fin al debitului dozat, cu abateri mici față de setpoint chiar la variații de contrapresiune în instalație. Este o opțiune pentru linii unde precizia dozării afectează direct calitatea produsului final sau conformitatea cu un proces reglementat." },
+      { name: "Pompe dozatoare mRoy și Milroyal", description: "Seria mRoy (variantele XA, XB) este o pompă cu diafragmă acționată hidraulic pentru dozare chimică, iar familia Milroyal (D, C, B) combină cap cu diafragmă (modelul D) și cap cu piston plonjor (modelele B și C), acesta din urmă pentru presiuni mai ridicate. Alegerea între cele două ține de presiunea de refulare necesară și de compatibilitatea chimică a capului hidraulic cu substanța dozată." },
+      { name: "Pompe dozatoare Primeroy și Primeroyal", description: "Primeroy (K/PKG, L/PLG) acoperă dozare de proces la scară mai mică, iar familia Primeroyal, cu variantele H, K, L, N, Q, R, X și X FT, se extinde pe o gamă largă de debite pentru linii industriale de dozare continuă. Primeroyal X FT este varianta cu debitul maxim din familia Primeroyal, de până la 32.980 l/h, conform producătorului." },
+      { name: "Pompe de proces Proteus (ERB/ERC)", description: "Seria Proteus, cu variantele ERB și ERC, este o familie de pompe dozatoare cu diafragmă acționată mecanic. Debitul și presiunea depind de model; le confirmăm pe cod, din documentația producătorului." },
       { name: "Pompe dozatoare Maxroy", description: "Familia Maxroy (A, B, D) completează portofoliul de pompe de proces Milton Roy, pentru aplicații de dozare la scară industrială unde este nevoie de o construcție robustă pentru funcționare continuă. Selecția variantei potrivite depinde de debitul necesar și de materialul capului hidraulic compatibil cu fluidul dozat." }
     ],
     industries: [
@@ -433,7 +433,7 @@ Pentru piața din România, Milton Roy înseamnă acces la pompe dozatoare pentr
     productCodes: [
       { code: "mRoy XA", description: "pompă dozatoare cu diafragmă, seria mRoy" },
       { code: "mRoy XB", description: "pompă dozatoare cu diafragmă, seria mRoy" },
-      { code: "Milroyal D", description: "pompă dozatoare cu piston, presiune ridicată" },
+      { code: "Milroyal D", description: "pompă dozatoare cu diafragmă acționată hidraulic, până la 207 bar" },
       { code: "Milroyal C", description: "pompă dozatoare cu piston" },
       { code: "Milroyal B", description: "pompă dozatoare cu piston" },
       { code: "Primeroy K (PKG)", description: "pompă dozatoare de proces" },
@@ -445,7 +445,7 @@ Pentru piața din România, Milton Roy înseamnă acces la pompe dozatoare pentr
       { code: "Primeroyal Q (PQ)", description: "pompă dozatoare industrială" },
       { code: "Primeroyal R (PR)", description: "pompă dozatoare industrială" },
       { code: "Primeroyal X (PX)", description: "pompă dozatoare industrială de mare capacitate" },
-      { code: "Primeroyal X FT (PX-FT)", description: "pompă dozatoare cu cap hidraulic FT" },
+      { code: "Primeroyal X FT (PX-FT)", description: "pompă dozatoare cu debit maxim în familia Primeroyal (până la 32.980 l/h)" },
       { code: "Proteus ERB", description: "pompă de proces cu control fin al debitului" },
       { code: "Proteus ERC", description: "pompă de proces cu control fin al debitului" },
       { code: "Maxroy A", description: "pompă dozatoare de proces" },
@@ -461,8 +461,8 @@ Pentru piața din România, Milton Roy înseamnă acces la pompe dozatoare pentr
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Milton Roy", url: "https://www.miltonroy.com", publisher: "Milton Roy (Ingersoll Rand)", accessed: "2026-09-26" },
       { title: "Metering Pumps | Milton Roy", url: "https://www.miltonroy.com/en/metering-pumps/", publisher: "Milton Roy (Ingersoll Rand)", accessed: "2026-09-26" },

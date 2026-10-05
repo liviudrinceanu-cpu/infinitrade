@@ -5,9 +5,9 @@ export const brandContentBatch129 = {
     name: "Modine",
     founded: 1916,
     headquarters: "Racine, SUA",
-    overview: `Modine e producător american de sisteme de management termic, cu sediul la Racine, în statul Wisconsin, activ din 1916. Gama pe care o putem oferi acoperă baterii și serpentine de transfer termic pentru HVAC/R, unități de răcire pentru procese industriale, module de răcire pentru generatoare și sisteme complete de climatizare vândute sub branduri proprii precum Airedale, Jetson, Scott Springfield sau CDI. Compania deservește atât producători de vehicule comerciale, cât și beneficiari finali din industrie și construcții.
+    overview: `Modine e producător american de sisteme de management termic, cu sediul la Racine, în statul Wisconsin, activ din 1916. Gama pe care o putem oferi acoperă baterii și serpentine de transfer termic pentru HVAC/R, unități de răcire pentru procese industriale, module de răcire pentru generatoare și sisteme complete de climatizare vândute sub branduri proprii precum Airedale, Jetson, Scott Springfield. Compania deservește atât producători de vehicule comerciale, cât și beneficiari finali din industrie și construcții.
 
-Sub brandul Airedale by Modine, compania produce unități de tratare a aerului, chillere și pompe de căldură pentru centre de date, spitale și unități farmaceutice, cu variante modulare vândute ca Jetson by Modine pentru clădiri comerciale mai mici. Pentru fabricația și mentenanță industrială vine linia de răcitoare de proces și baterii HVAC/R montate pe echipamente terte, iar pentru vehiculele electrice gama EVantage acoperă răcirea bateriilor și a sistemelor de propulsie. Compania mai are în portofoliu încălzitoare pentru spații industriale (Modine, AbsolutAire, L.B. White) și acoperiri anticorozive pentru serpentine expuse la medii dure.
+Sub brandul Airedale by Modine, compania produce unități de tratare a aerului, chillere și pompe de căldură pentru centre de date, spitale și unități farmaceutice, cu variante modulare vândute ca Jetson by Modine pentru clădiri comerciale mai mici. Pentru fabricația și mentenanță industrială vine linia de răcitoare de proces și baterii HVAC/R montate pe echipamente terte, iar pentru vehiculele electrice gama EVantage acoperă răcirea bateriilor și a sistemelor de propulsie. Compania mai are în portofoliu încălzitoare pentru spații industriale (Modine, AbsolutAire) și acoperiri anticorozive pentru serpentine expuse la medii dure.
 
 Pentru piața din România, Modine înseamnă în primul rând acces la baterii de răcire și module de proces montate pe instalații HVAC/R sau linii industriale existente, unde clientul caută un echivalent tehnic după parametrii de debit și presiune, nu neapărat un utilaj complet nou.`,
     whyChoose: [
@@ -24,11 +24,11 @@ Pentru piața din România, Modine înseamnă în primul rând acces la baterii 
       },
       {
         name: "Jetson by Modine — chillere modulare și unități de condensare",
-        description: "Chillere modulare și unități de condensare pentru clădiri comerciale de dimensiuni medii, gândite pentru instalare rapidă și extindere ulterioara a capacității de răcire pe măsură ce crește sarcina termică a clădirii.",
+        description: "Chillere modulare și unități de condensare pentru clădiri comerciale de dimensiuni medii, gândite pentru instalare rapidă și extindere ulterioară a capacității de răcire pe măsură ce crește sarcina termică a clădirii.",
       },
       {
         name: "EVantage — răcire baterii și sisteme de propulsie",
-        description: "Sisteme de răcire pentru baterii, electronică de putere și motoare electrice ale vehiculelor, plus soluții pentru vehiculele pe pila de combustibil. Gândite pentru producătorii de vehicule comerciale electrice care au nevoie de un partener unic pentru întregul circuit termic.",
+        description: "Sisteme de răcire pentru baterii, electronică de putere și motoare electrice ale vehiculelor, plus soluții pentru vehiculele cu pilă de combustibil. Gândite pentru producătorii de vehicule comerciale electrice care au nevoie de soluții pentru circuitul termic al vehiculului.",
       },
       {
         name: "Baterii și serpentine HVAC/R",
@@ -46,16 +46,16 @@ Pentru piața din România, Modine înseamnă în primul rând acces la baterii 
       "Energie staționară — module de răcire pentru generatoare și alimentare de urgență",
       "Agricultura, construcții și minerit — răcire motor și control climatic pentru utilaje grele",
     ],
-    infinitrade: `Pentru gama Modine mergem strict pe ce arată sursele publice ale producătorului, fără date proprii de stoc pe niciuna dintre liniile Airedale, Jetson sau EVantage. Modine are sediul în SUA, iar pentru bateriile și modulele de răcire pe care le putem oferi aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului și de disponibilitatea din fabrica. Pentru o ofertă corectă avem nevoie de codul sau denumirea exactă a seriei, parametrii de debit și presiune și, dacă înlocuiți o piesă existentă, dimensiunile de gabarit. Nu promitem un termen fix înainte de confirmare.`,
+    infinitrade: `Pentru gama Modine mergem strict pe ce arată sursele publice ale producătorului, fără date proprii de stoc pe niciuna dintre liniile Airedale, Jetson sau EVantage. Modine are sediul în SUA, iar pentru bateriile și modulele de răcire pe care le putem oferi aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului și de disponibilitatea din fabrică. Pentru o ofertă corectă avem nevoie de codul sau denumirea exactă a seriei, parametrii de debit și presiune și, dacă înlocuiți o piesă existentă, dimensiunile de gabarit. Nu promitem un termen fix înainte de confirmare.`,
     limitation: "Nu putem confirma disponibilitatea locală în Europa a unei anumite variante regionale de produs înainte de a verifica direct cu producătorul, mai ales pentru configurațiile Airedale sau Jetson construite pe proiect.",
     productCodes: [
       { code: "Airedale by Modine", description: "Unități de tratare a aerului, chillere și pompe de căldură pentru centre de date și spitale" },
       { code: "Jetson by Modine", description: "Chillere modulare și unități de condensare pentru clădiri comerciale" },
       { code: "Scott Springfield by Modine", description: "Soluții custom de tratare a aerului pentru medii farmaceutice și spitalicești" },
-      { code: "CDI by Modine", description: "Sisteme de dezumidificare pentru fabrici de baterii și săli de operație" },
+      { code: "CDI by Modine", description: "Brand din portofoliul Modine; gama și aplicațiile se confirmă cu producătorul" },
       { code: "Modine HVAC", description: "Încălzitoare pentru spații industriale și comerciale" },
       { code: "AbsolutAire", description: "Sisteme de aer make-up pentru vopsitorii și industrie alimentară" },
-      { code: "L.B. White", description: "Încălzitoare directe și indirecte și sisteme evaporative pentru spații mari" },
+      { code: "L.B. White", description: "Brand din portofoliul Modine; gama și aplicațiile se confirmă cu producătorul" },
       { code: "EVantage", description: "Răcire baterii și sisteme de propulsie pentru vehicule electrice" },
       { code: "HVAC/R Coils", description: "Serpentine de transfer termic pentru echipamente HVAC și refrigerare" },
       { code: "Industrial Process Cooling", description: "Module de răcire pentru linii de fabricație și producție de energie" },
@@ -67,12 +67,12 @@ Pentru piața din România, Modine înseamnă în primul rând acces la baterii 
       { q: "Ce produce Modine?", a: "Modine produce sisteme de management termic — baterii și serpentine HVAC/R, unități de tratare a aerului și chillere sub branduri precum Airedale și Jetson, module de răcire industrială și sisteme de răcire baterii pentru vehicule electrice sub gama EVantage. Compania are sediul în SUA și deservește atât vehicule comerciale, cât și clădiri și linii industriale." },
       { q: "Se poate procura Modine în România sau Europa?", a: "Modine nu are, după sursele publice pe care le-am verificat, o rețea de distribuție proprie descrisă pentru România; aducem componentele din gama pe care o putem oferi la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului." },
       { q: "Cum aleg o baterie sau serpentina Modine după cod?", a: "Aveți nevoie de denumirea exactă a seriei sau modelului de pe plăcuța echipamentului, plus parametrii de debit de aer, presiune și dimensiunile de montaj; cu aceste date verificăm echivalentul disponibil în gama pe care o putem confirma." },
-      { q: "Livrați echipamente Modine în România și în cât timp?", a: "Aducem componente Modine la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de disponibilitatea din fabrica pentru codul cerut; nu ținem această gamă pe raft, așa că termenul exact se stabilește după verificarea cu producătorul." },
+      { q: "Livrați echipamente Modine în România și în cât timp?", a: "Aducem componente Modine la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de disponibilitatea din fabrică pentru codul cerut; nu ținem această gamă pe raft, așa că termenul exact se stabilește după verificarea cu producătorul." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Modine — Innovative Thermal Management Solutions", url: "https://www.modine.com/", publisher: "Modine Manufacturing Company", accessed: "2026-09-26" },
       { title: "Modine — Contact Us", url: "https://www.modine.com/contact-us", publisher: "Modine Manufacturing Company", accessed: "2026-09-26" },
@@ -85,7 +85,7 @@ Pentru piața din România, Modine înseamnă în primul rând acces la baterii 
     headquarters: "Bay Minette, SUA",
     overview: `Quincy Compressor e producător american de compresoare de aer, cu sediul la Bay Minette, în statul Alabama, activ din 1920 și cu fabrică certificată ISO 9001. Gama pe care o putem oferi acoperă compresoare cu piston, compresoare cu șurub rotativ, compresoare fără ulei și pompe de vid, plus compresoare de gaz natural pentru aplicații industriale continue. Liniile principale sunt gândite pentru funcționare non-stop în producție, nu doar pentru uz ocazional de atelier.
 
-Compresoarele cu șurub rotativ acoperă puteri de la 5 la peste 400 CP, cu seria QGD în configurație cu angrenaj de la 15 la 125 CP și debite de până la 529 acfm la 125 psig, în timp ce seria QSI premium urca până la 400 CP pentru sarcini industriale grele. Seriile QGDV și QGSV adaugă control de turație variabilă pentru economie de energie la sarcina parțială. Pentru aer fără ulei, gama QOF cu compresor tip scroll acoperă 2-30 CP, iar seria WIS cu injecție de apă merge de la 20 la 75 CP acolo unde procesul cere aer complet fără urme de ulei.
+Compresoarele cu șurub rotativ acoperă puteri de la 5 la 400 CP, cu seria QGD în configurație cu angrenaj de la 15 la 125 CP și debite de până la 529 acfm la 125 psig, în timp ce seria QSI (premium) urcă până la 400 CP pentru sarcini industriale grele. Seriile QGDV și QGSV adaugă control de turație variabilă pentru economie de energie la sarcina parțială. Pentru aer fără ulei, gama QOF cu compresor tip scroll acoperă 2-30 CP, iar seria WIS cu injecție de apă merge de la 20 la 75 CP acolo unde procesul cere aer complet fără urme de ulei.
 
 Pentru piața din România, Quincy înseamnă acces la compresoare industriale robuste pentru linii de producție și ateliere unde compresorul funcționează aproape continuu, iar clientul caută fie o unitate nouă, fie piese de schimb după codul de serie existent.`,
     whyChoose: [
@@ -102,7 +102,7 @@ Pentru piața din România, Quincy înseamnă acces la compresoare industriale r
       },
       {
         name: "Compresoare cu șurub rotativ seria QGS/QGSV/QGV",
-        description: "Compresoare cu șurub cu antrenare prin curea sau directă, de la 5 la 50 CP, cu presiuni de lucru între 125 și 175 psig în funcție de model. Seria QGV adaugă turație variabilă pe toată gama de putere. Potrivite pentru ateliere mici și medii cu variații de consum pe parcursul zilei.",
+        description: "Compresoare cu șurub: QGS, de la 5 la 60 CP, cu antrenare prin curea (până la 40 CP) sau prin angrenaj (40–60 CP), și QGSV, de la 5 la 60 CP, cu antrenare directă și turație variabilă. Seria QGV, cu turație variabilă, acoperă 40–400 CP. Potrivite pentru ateliere mici și medii cu variații de consum pe parcursul zilei.",
       },
       {
         name: "Compresoare industriale premium seria QSI",
@@ -124,14 +124,14 @@ Pentru piața din România, Quincy înseamnă acces la compresoare industriale r
       "Prelucrarea metalelor și vopsitorii — aer comprimat pentru scule și cabine de vopsire",
       "Agricultura, construcții și minerit — aer comprimat pentru utilaje și scule de atelier",
     ],
-    infinitrade: `Nu avem date proprii de stoc pentru gama Quincy Compressor, așa că lucrăm exclusiv din informațiile publice ale producătorului atunci când pregătim o ofertă. Quincy are sediul în SUA, iar unitățile și piesele de schimb din gama pe care o putem confirma le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, fără promisiuni de disponibilitate din depozit. Pentru o ofertă corectă trimiteți codul de model de pe plăcuța compresorului (de exemplu seria QGD sau QSI), puterea în CP și presiunea de lucru necesară. Verificam împreună cu producătorul disponibilitatea exactă înainte de confirmare.`,
+    infinitrade: `Nu avem date proprii de stoc pentru gama Quincy Compressor, așa că lucrăm exclusiv din informațiile publice ale producătorului atunci când pregătim o ofertă. Quincy are sediul în SUA, iar unitățile și piesele de schimb din gama pe care o putem confirma le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, fără promisiuni de disponibilitate din depozit. Pentru o ofertă corectă trimiteți codul de model de pe plăcuța compresorului (de exemplu seria QGD sau QSI), puterea în CP și presiunea de lucru necesară. Verificăm împreună cu producătorul disponibilitatea exactă înainte de confirmare.`,
     limitation: "Nu putem confirma configurația exactă de fabrică (tensiune, control, accesorii) pentru un compresor anume fără să verificăm direct cu producătorul, mai ales pentru variantele cu turație variabilă sau fără ulei.",
     productCodes: [
       { code: "QGD 15-125", description: "Compresor cu șurub cu angrenaj, 15-125 CP, debit până la 529 acfm" },
       { code: "QGDV", description: "Compresor cu șurub cu turație variabilă, 15-30 CP" },
-      { code: "QGS", description: "Compresor cu șurub cu antrenare prin curea, 5-30 CP" },
-      { code: "QGSV", description: "Compresor cu șurub cu turație variabilă, 5-50 CP" },
-      { code: "QGV", description: "Compresor cu șurub premium cu turație variabilă" },
+      { code: "QGS", description: "Compresor cu șurub, 5-60 CP, cu antrenare prin curea (până la 40 CP) sau prin angrenaj" },
+      { code: "QGSV", description: "Compresor cu șurub cu turație variabilă, 5-60 CP, antrenare directă" },
+      { code: "QGV", description: "Compresor cu șurub cu turație variabilă, 40-400 CP" },
       { code: "QSI", description: "Compresor cu șurub industrial premium, 50-400 CP" },
       { code: "QR-25", description: "Compresor cu piston, gama de bază" },
       { code: "QP", description: "Compresor cu piston standard, variante PRO disponibile" },
@@ -153,8 +153,8 @@ Pentru piața din România, Quincy înseamnă acces la compresoare industriale r
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Quincy Compressor — About Us", url: "https://www.quincycompressor.com/about-us/", publisher: "Quincy Compressor", accessed: "2026-09-26" },
       { title: "Quincy Compressor — Products", url: "https://www.quincycompressor.com/products/", publisher: "Quincy Compressor", accessed: "2026-09-26" },
@@ -165,7 +165,7 @@ Pentru piața din România, Quincy înseamnă acces la compresoare industriale r
     name: "MTS Systems",
     founded: 1966,
     headquarters: "Eden Prairie, SUA",
-    overview: `MTS Systems e producător american de echipamente de testare și simulare de precizie, cu sediul la Eden Prairie, în statul Minnesota, înființat în 1966. Compania a deschis încă din 1972 un birou de producție, vanzari și service la Berlin, care a devenit ulterior sediul diviziei europene de testare, așa ca prezență pe continent nu e una recentă. Gama acoperă sisteme de testare a materialelor, sisteme automotive complete, echipamente pentru aerospațială, inginerie civilă, biomedicină, energie și cale ferată.
+    overview: `MTS Systems e producător american de echipamente de testare și simulare de precizie, cu sediul la Eden Prairie, în statul Minnesota, înființat în 1966. Compania a deschis încă din 1972 un birou de producție, vânzări și service la Berlin, care a devenit ulterior sediul diviziei europene de testare, așa că prezența pe continent nu este una recentă. Gama acoperă sisteme de testare a materialelor, sisteme automotive complete, echipamente pentru aerospațială, inginerie civilă, biomedicină, energie și cale ferată.
 
 În zona automotive, MTS produce sisteme pentru testarea vehiculului complet, a componentelor și subsistemelor, a anvelopelor și a amortizoarelor, cu controlere FlexTest (inclusiv varianta FlexTest 30+) și unități hidraulice SilentFlo pentru funcționare cu zgomot redus în laborator. Pentru energie, sistemele de testare la oboseală și static a palelor de turbine eoliene și echipamentele pentru conducte și cuplaje din petrol și gaze acoperă nevoi specifice sectorului energetic. Segmentul feroviar are sisteme dedicate pentru arcuri pneumatice, amortizoare, roți și cadre de boghiu.
 
@@ -175,7 +175,7 @@ Pentru piața din România, MTS înseamnă acces la echipamente de testare speci
       "Gama acoperă automotive complet, de la vehicul întreg până la componente și anvelope individuale",
       "Controlere FlexTest și unități hidraulice SilentFlo pentru laboratoare cu cerințe de zgomot redus",
       "Sisteme dedicate pentru energie regenerabilă — testare la oboseală a palelor de turbine eoliene",
-      "Acoperire completă pentru sectorul feroviar — de la arcuri pneumatice până la cadre de boghiu",
+      "Sisteme pentru sectorul feroviar — de la arcuri pneumatice până la cadre de boghiu",
     ],
     keyProducts: [
       {
@@ -202,7 +202,7 @@ Pentru piața din România, MTS înseamnă acces la echipamente de testare speci
       "Cale ferată — testare arcuri pneumatice, amortizoare, roți și cadre de boghiu",
       "Inginerie civilă — simulatoare seismice și mese vibrante pentru structuri",
     ],
-    infinitrade: `Ne bazăm exclusiv pe informațiile publice ale producătorului pentru gama MTS Systems; nu deținem date proprii despre stocul de controlere sau senzori disponibile la un moment dat. MTS are sediul în SUA, cu o divizie de testare infiintata încă din anii '70 în Europa, iar echipamentele din gama pe care o putem oferi le aducem la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului. Pentru o ofertă corectă trimiteți denumirea exactă a controlerului sau sistemului (de exemplu FlexTest 30+) și aplicația în care va fi folosit. Nu putem devansa termenul confirmat de producător.`,
+    infinitrade: `Ne bazăm exclusiv pe informațiile publice ale producătorului pentru gama MTS Systems; nu deținem date proprii despre stocul de controlere sau senzori disponibile la un moment dat. MTS are sediul în SUA, cu un birou deschis la Berlin încă din 1972, devenit ulterior sediul diviziei europene de testare, iar echipamentele din gama pe care o putem oferi le aducem la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului. Pentru o ofertă corectă trimiteți denumirea exactă a controlerului sau sistemului (de exemplu FlexTest 30+) și aplicația în care va fi folosit. Nu putem devansa termenul confirmat de producător.`,
     limitation: "Nu putem confirma configurația software sau numărul de canale al unui sistem de testare existent fără să verificăm direct cu producătorul, mai ales pentru instalațiile mai vechi sau personalizate pe proiect.",
     productCodes: [
       { code: "FlexTest 30+", description: "Controler de testare pentru bancuri de probă dinamice" },
@@ -212,7 +212,7 @@ Pentru piața din România, MTS înseamnă acces la echipamente de testare speci
       { code: "SWIFT Evo", description: "Traductor de forță pentru roți, folosit în testare automotive" },
       { code: "295 Hydraulic Service Manifold", description: "Manifold hidraulic de serviciu pentru bancuri de probă" },
       { code: "STEX Pro", description: "Software pentru sisteme de testare seismică structurală" },
-      { code: "RPC Connect", description: "Software pentru reproducerea datelor de sarcina reale în laborator" },
+      { code: "RPC Connect", description: "Software pentru reproducerea datelor de sarcină reale în laborator" },
       { code: "AeroPro", description: "Software pentru sisteme de testare aerospațială" },
       { code: "MultiPurpose TestWare (MPT)", description: "Software de control pentru sisteme de testare materiale" },
       { code: "First Road Interact", description: "Software pentru testare interactivă vehicul-drum" },
@@ -224,12 +224,12 @@ Pentru piața din România, MTS înseamnă acces la echipamente de testare speci
       { q: "Ce produce MTS Systems?", a: "MTS Systems produce sisteme de testare și simulare pentru materiale, vehicule complete, componente auto, aerospațială, energie, cale ferată și biomedicină, cu controlere proprii FlexTest și software dedicat pentru fiecare tip de test." },
       { q: "Se poate procura MTS Systems în România sau Europa?", a: "Da, MTS are o prezență veche în Europa, cu un birou înființat încă din 1972 la Berlin devenit ulterior sediul diviziei europene de testare; pentru România aducem echipamentele la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
       { q: "Cum aleg un controler de testare MTS după cod?", a: "Aveți nevoie de denumirea exactă a controlerului sau a sistemului existent (de exemplu FlexTest 30+ sau Series 261) și de aplicația pentru care este folosit; cu aceste date verificăm echivalentul disponibil pentru comandă." },
-      { q: "Ce trebuie să trimit pentru o ofertă de echipament MTS?", a: "Trimiteți denumirea sistemului sau a componentei existente, tipul de test efectuat (materiale, vehicul, componentă) și, dacă este posibil, numărul de canale sau capacitatea de sarcina necesară pentru configurația dorită." },
+      { q: "Ce trebuie să trimit pentru o ofertă de echipament MTS?", a: "Trimiteți denumirea sistemului sau a componentei existente, tipul de test efectuat (materiale, vehicul, componentă) și, dacă este posibil, numărul de canale sau capacitatea de sarcină necesară pentru configurația dorită." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "MTS Systems — Homepage", url: "https://www.mts.com/", publisher: "MTS Systems Corporation", accessed: "2026-09-26" },
       { title: "MTS Systems — Products", url: "https://www.mts.com/en/products", publisher: "MTS Systems Corporation", accessed: "2026-09-26" },
@@ -240,26 +240,26 @@ Pentru piața din România, MTS înseamnă acces la echipamente de testare speci
     name: "ATI Industrial Automation",
     founded: 1989,
     headquarters: "Apex, SUA",
-    overview: `ATI Industrial Automation e producător american de scule și accesorii pentru roboți industriali, cu sediul la Apex, în statul Carolina de Nord, activ din 1989. Gama pe care o putem oferi acoperă schimbătoare de scule robotice (tool changers), senzori de forță și cuplu multi-axiali, unelte pentru îndepărtare de material și cuplaje de utilitati pentru brațele robotice, folosite în special în linii de asamblare, sudură și prelucrare automatizată.
+    overview: `ATI Industrial Automation e producător american de scule și accesorii pentru roboți industriali, cu sediul la Apex, în statul Carolina de Nord, activ din 1989. Gama pe care o putem oferi acoperă schimbătoare de scule robotice (tool changers), senzori de forță și cuplu multi-axiali, unelte pentru îndepărtare de material și cuplaje de utilități pentru brațele robotice, folosite în special în linii de asamblare, sudură și prelucrare automatizată.
 
-Schimbatoarele de scule automate seria QC acoperă un interval larg de capacitate, de la modelul compact QC-1 până la QC-310 pentru sarcini grele, în timp ce variantele manuale MC-10, MC-16 și MC-50 rămân o optiune mai economică acolo unde schimbarea sculei nu trebuie automatizată complet. Senzorii de forță și cuplu acoperă de la seria Nano, cu capacități de câțiva zeci de newtoni pentru aplicații de precizie fină, până la seria Omega, cu modele care depășesc 80 kN forță și 6 kNm moment pentru sarcini industriale grele; seria Axia, lansată mai recent, adaugă interfață simplificată pentru integrare rapidă pe brațe colaborative.
+Schimbatoarele de scule automate seria QC acoperă un interval larg de capacitate, de la modelul compact QC-1 până la QC-310 pentru sarcini grele, în timp ce variantele manuale MC-10, MC-16R și MC-50 rămân o opțiune mai economică acolo unde schimbarea sculei nu trebuie automatizată complet. Senzorii de forță și cuplu acoperă de la seria Nano, cu capacități de câțiva zeci de newtoni pentru aplicații de precizie fină, până la seria Omega, cu modelul Omega331 de până la 88 kN forță și 6 kNm moment pentru sarcini industriale grele; seria Axia, lansată mai recent, adaugă interfață simplificată pentru integrare rapidă pe brațe colaborative.
 
-Pentru piața din România, ATI înseamnă acces la scule robotice compatibile cu majoritatea brațelor industriale de pe piața, utile mai ales la retehnologizarea liniilor de asamblare și sudură din industria auto și din alte sectoare cu automatizare avansată.`,
+Pentru piața din România, ATI înseamnă acces la scule robotice pentru brațe industriale, cu compatibilitatea confirmată pe model de robot, utile mai ales la retehnologizarea liniilor de asamblare și sudură din industria auto și din alte sectoare cu automatizare avansată.`,
     whyChoose: [
       "Gama largă de schimbătoare de scule QC, de la capacitate mică (QC-1) până la sarcini grele (QC-310)",
       "Senzori de forță și cuplu pe zeci de modele, de la precizie fină (Nano) până la sarcini industriale (Omega)",
       "Seria Axia, cu interfață simplificată, gândită pentru integrare rapidă pe brațe robotice colaborative",
       "Variante manuale de schimbătoare de scule (MC) pentru aplicații unde automatizarea completă nu se justifică",
-      "Producător specializat exclusiv pe scule și accesorii robotice, activ din 1989",
+      "Producător specializat în scule și accesorii pentru roboți, activ din 1989",
     ],
     keyProducts: [
       {
         name: "Schimbătoare automate de scule seria QC",
-        description: "Schimbătoare de scule robotice automate, de la modelul compact QC-1 până la variantele grele QC-110, QC-210 și QC-310, permițând unui robot să schimbe automat efectorul final (gripper, pistolet de sudură, unealta de prelucrare) fără intervenție manuală. Fiecare model acoperă o clasă proprie de capacitate de sarcina și moment de răsturnare.",
+        description: "Schimbătoare de scule robotice automate, de la modelul compact QC-1 până la variantele grele QC-110, QC-210 și QC-310, permițând unui robot să schimbe automat efectorul final (gripper, pistolet de sudură, unealta de prelucrare) fără intervenție manuală. Fiecare model acoperă o clasă proprie de capacitate de sarcină și moment de răsturnare.",
       },
       {
         name: "Schimbătoare manuale de scule seria MC",
-        description: "Schimbătoare de scule cu cuplare manuală, modelele MC-10, MC-16 și MC-50, pentru aplicații unde robotul lucrează cu o singură unealtă pe perioade lungi și schimbarea automată nu se justifică economic. Soluție mai simplă și mai economică față de seria QC automată.",
+        description: "Schimbătoare de scule cu cuplare manuală, modelele MC-10, MC-16R și MC-50, pentru aplicații unde robotul lucrează cu o singură unealtă pe perioade lungi și schimbarea automată nu se justifică economic. Soluție mai simplă și mai economică față de seria QC automată.",
       },
       {
         name: "Senzori de forță și cuplu seria Nano, Mini și Gamma/Delta",
@@ -276,8 +276,8 @@ Pentru piața din România, ATI înseamnă acces la scule robotice compatibile c
       "Prelucrare CNC și finisare — unelte de îndepărtare de material montate pe robot",
       "Robotica colaborativă — senzori Axia pentru integrare rapidă pe cobot-uri",
     ],
-    infinitrade: `Pentru ATI Industrial Automation nu avem date proprii de stoc; ne raportăm la informațiile publice ale producătorului pentru fiecare model de schimbător de scule sau senzor. ATI are sediul în SUA, iar echipamentele din gama pe care o putem confirma le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, fără raft propriu pe această gama. Pentru o ofertă corectă trimiteți codul exact al modelului (de exemplu QC-50 sau Omega160), capacitatea de sarcină necesară și tipul de robot pe care se montează. Confirmam compatibilitatea înainte de a înainta oferta finală.`,
-    limitation: "Nu putem confirma compatibilitatea mecanică exactă a unui schimbător de scule sau senzor cu un model de robot anume fără să verificăm interfață de montaj împreună cu producătorul.",
+    infinitrade: `Pentru ATI Industrial Automation nu avem date proprii de stoc; ne raportăm la informațiile publice ale producătorului pentru fiecare model de schimbător de scule sau senzor. ATI are sediul în SUA, iar echipamentele din gama pe care o putem confirma le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, fără raft propriu pe această gamă. Pentru o ofertă corectă trimiteți codul exact al modelului (de exemplu QC-50 sau Omega160), capacitatea de sarcină necesară și tipul de robot pe care se montează. Confirmăm compatibilitatea înainte de a transmite oferta finală.`,
+    limitation: "Nu putem confirma compatibilitatea mecanică exactă a unui schimbător de scule sau senzor cu un model de robot anume fără să verificăm interfața de montaj împreună cu producătorul.",
     productCodes: [
       { code: "QC-1", description: "Schimbător automat de scule, capacitate mică" },
       { code: "QC-7", description: "Schimbător automat de scule, capacitate redusă" },
@@ -286,10 +286,10 @@ Pentru piața din România, ATI înseamnă acces la scule robotice compatibile c
       { code: "QC-20", description: "Schimbător automat de scule, capacitate medie" },
       { code: "QC-50", description: "Schimbător automat de scule, capacitate medie-mare" },
       { code: "QC-110", description: "Schimbător automat de scule, capacitate mare" },
-      { code: "QC-210", description: "Schimbător automat de scule, sarcina grea" },
-      { code: "QC-310", description: "Schimbător automat de scule, sarcina foarte grea" },
+      { code: "QC-210", description: "Schimbător automat de scule, sarcină grea" },
+      { code: "QC-310", description: "Schimbător automat de scule, sarcină foarte grea" },
       { code: "MC-10", description: "Schimbător manual de scule, capacitate mică" },
-      { code: "MC-16", description: "Schimbător manual de scule, capacitate medie" },
+      { code: "MC-16R", description: "Schimbător manual de scule, capacitate medie" },
       { code: "MC-50", description: "Schimbător manual de scule, capacitate mare" },
       { code: "Nano17", description: "Senzor forță/cuplu de precizie, Fz 70 N, Tz 500 Nmm" },
       { code: "Nano25", description: "Senzor forță/cuplu, Fz 1000 N, Tz 6 Nm" },
@@ -306,13 +306,13 @@ Pentru piața din România, ATI înseamnă acces la scule robotice compatibile c
     faq: [
       { q: "Ce produce ATI Industrial Automation?", a: "ATI Industrial Automation produce scule și accesorii pentru roboți industriali — schimbătoare automate și manuale de scule, senzori de forță și cuplu multi-axiali și unelte de îndepărtare de material, folosite în special în linii de asamblare, sudură și prelucrare automatizată." },
       { q: "Se poate procura ATI Industrial Automation în România sau Europa?", a: "Nu am identificat pe site-ul producătorului o rețea de distribuție proprie descrisă pentru Europa; aducem schimbătoarele de scule și senzorii ATI din gama pe care o putem oferi la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
-      { q: "Cum aleg un schimbător de scule ATI după cod?", a: "Codul de model (de exemplu QC-50 sau QC-110) indică direct clasă de capacitate de sarcina; îl transmiteți împreună cu tipul de robot pe care se montează, iar noi verificăm compatibilitatea mecanică înainte de a confirma oferta." },
+      { q: "Cum aleg un schimbător de scule ATI după cod?", a: "Codul de model (de exemplu QC-50 sau QC-110) indică direct clasa de capacitate de sarcină; îl transmiteți împreună cu tipul de robot pe care se montează, iar noi verificăm compatibilitatea mecanică înainte de a confirma oferta." },
       { q: "Ce senzori de forță și cuplu oferă ATI?", a: "ATI produce senzori de la seria Nano, pentru aplicații de precizie fină cu forțe de ordinul sutelor de newtoni, până la seria Omega, cu modele care depășesc 80 kN, plus seria Axia cu interfață simplificată pentru brațe colaborative." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ATI Industrial Automation — Homepage", url: "https://www.ati-ia.com/", publisher: "ATI Industrial Automation", accessed: "2026-09-26" },
       { title: "ATI — Robotic Tool Changers, QC Series", url: "https://www.ati-ia.com/products/toolchanger/QC.aspx?ID=QC-50", publisher: "ATI Industrial Automation", accessed: "2026-09-26" },
@@ -322,13 +322,13 @@ Pentru piața din România, ATI înseamnă acces la scule robotice compatibile c
   atmus: {
     name: "Atmus Filtration Technologies",
     headquarters: "Nashville, SUA",
-    overview: `Atmus Filtration Technologies e producător american de filtre pentru motoare și echipamente industriale, cu sediul la Nashville, în statul Tennessee, desprins din Cummins printr-o ofertă publică inițială în 2023, cu peste 65 de ani de experiență moștenită în domeniul filtrării. Brandurile principale din portofoliu sunt Fleetguard, pentru filtrare de motor și echipamente, și Koch Filter, cu prezență declarată pe șase continente și în peste 150 de țări.
+    overview: `Atmus Filtration Technologies e producător american de filtre pentru motoare și echipamente industriale, cu sediul la Nashville, în statul Tennessee, desprins din Cummins printr-o ofertă publică inițială în 2023, cu peste 65 de ani de experiență moștenită în domeniul filtrării. Brandurile principale din portofoliu sunt Fleetguard, pentru filtrare de motor și echipamente, și Koch Filter. Compania declară prezență pe șase continente și în peste 150 de țări.
 
-Gama Fleetguard acoperă filtre de combustibil (seria FF, precum FF5323 sau FF5624), separatoare combustibil-apă (seria FS, precum FS19666), filtre de ulei (seria LF), filtre de aer tip panou (seria AF, precum AF460 sau AF450) și separatoare combustibil-apă marine sub brandul SeaPro (seria SP). Kiturile de filtrare, precum FK13850NN, grupează mai multe filtre necesare la o singură intervenție de mentenanță, pentru echipamente fabricate intr-un interval de ani specific.
+Gama Fleetguard acoperă filtre de combustibil (seria FF, precum FF5323 sau FF5624), separatoare combustibil-apă (seria FS, precum FS19666), filtre de ulei (seria LF), filtre de aer tip panou (seria AF, precum AF460 sau AF450) și separatoare combustibil-apă marine sub brandul SeaPro (seria SP). Kiturile de filtrare, precum FK13850NN, grupează mai multe filtre necesare la o singură intervenție de mentenanță, pentru echipamente fabricate într-un interval de ani specific.
 
 Pentru piața din România, Atmus înseamnă acces la filtre pentru motoare diesel și echipamente industriale unde clientul are deja codul de filtru original și caută același cod sau un echivalent direct din gama Fleetguard, nu o alternativă generică.`,
     whyChoose: [
-      "Mostenire de peste 65 de ani în filtrare de motor, ca fost Cummins Filtration",
+      "Moștenire de peste 65 de ani în filtrare de motor, ca fost Cummins Filtration",
       "Două branduri complementare în portofoliu — Fleetguard pentru filtrare de motor și Koch Filter",
       "Gama acoperă toate tipurile de filtrare de motor — combustibil, ulei, aer și separare combustibil-apă",
       "Linia SeaPro dedicată separării combustibil-apă pentru aplicații marine",
@@ -337,15 +337,15 @@ Pentru piața din România, Atmus înseamnă acces la filtre pentru motoare dies
     keyProducts: [
       {
         name: "Filtre de combustibil seria FF și separatoare seria FS",
-        description: "Filtre de combustibil spin-on și cartuș (de exemplu FF5323, FF5624, FF105) și separatoare combustibil-apă (de exemplu FS19666, FS19976) pentru motoare diesel de camioane, utilaje și echipamente industriale. Retin apă și particulele fine din combustibil înainte de injecție, esențiale pentru sistemele de injecție de mare presiune de pe motoarele moderne.",
+        description: "Filtre de combustibil spin-on și cartuș (de exemplu FF5323, FF5624, FF105) și separatoare combustibil-apă (de exemplu FS19666, FS19976) pentru motoare diesel de camioane, utilaje și echipamente industriale. Rețin apa și particulele fine din combustibil înainte de injecție, esențiale pentru sistemele de injecție de mare presiune de pe motoarele moderne.",
       },
       {
         name: "Filtre de ulei seria LF",
-        description: "Filtre de ulei pentru motoare diesel și echipamente industriale, montate pe circuitul de ungere pentru reținerea particulelor generate de uzură și de arderea combustibilului. Cod tipic din gama: LF17549, filtru cartuș.",
+        description: "Filtre de ulei pentru motoare diesel și echipamente industriale, montate pe circuitul de ungere pentru reținerea particulelor generate de uzură și de arderea combustibilului. Cod tipic din gama: LF17549.",
       },
       {
         name: "Filtre de aer tip panou seria AF",
-        description: "Filtre de aer tip panou pentru protecția motorului împotriva prafului și particulelor, cu eficiente de filtrare de până la 99,80% după metodologia ISO 5011, în variante primare și secundare. Modele din gama: AF460, AF456, AF450, AF446, printre altele.",
+        description: "Filtre de aer tip panou pentru protecția motorului împotriva prafului și particulelor, cu eficiențe de filtrare de până la 99,80% după metodologia ISO 5011, în variante primare și secundare. Modele din gama: AF460, AF456, AF450, AF446, printre altele.",
       },
       {
         name: "Separatoare combustibil-apă marine SeaPro",
@@ -355,32 +355,32 @@ Pentru piața din România, Atmus înseamnă acces la filtre pentru motoare dies
     industries: [
       "Automotive — camioane și autobuze, filtrare de combustibil, ulei și aer pentru motoare diesel",
       "Energie — filtrare pentru generatoare și echipamente de producere a energiei",
-      "Agricultura, construcții și minerit — filtrare pentru utilaje grele cu funcționare intensivă",
-      "Marina — separatoare combustibil-apă SeaPro pentru motoare și generatoare navale",
+      "Agricultură, construcții și minerit — filtrare pentru utilaje grele cu funcționare intensivă",
+      "Marină — separatoare combustibil-apă SeaPro pentru motoare și generatoare navale",
       "Sănătate și laboratoare — filtrare de aer pentru echipamente HVAC din unități sensibile",
     ],
-    infinitrade: `Lucrăm din sursele publice ale producătorului pentru gama Atmus/Fleetguard, fără date proprii de stoc pentru codurile specifice de filtru. Atmus are sediul în SUA, iar filtrele din gama pe care o putem oferi le aducem la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul cerut. Pentru o ofertă corectă trimiteți codul exact de filtru de pe carcasa veche sau din cartea tehnică a echipamentului (de exemplu FF5624 sau AF450); nu ținem această gama pe raft pentru livrare imediată. Verificam echivalență înainte de a confirma pretul și termenul.`,
-    limitation: "Nu putem confirma echivalență exactă între un cod Fleetguard și filtrul original montat de un alt producător fără să verificăm specificațiile tehnice complete împreună cu producătorul.",
+    infinitrade: `Lucrăm din sursele publice ale producătorului pentru gama Atmus/Fleetguard, fără date proprii de stoc pentru codurile specifice de filtru. Atmus are sediul în SUA, iar filtrele din gama pe care o putem oferi le aducem la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul cerut. Pentru o ofertă corectă trimiteți codul exact de filtru de pe carcasa veche sau din cartea tehnică a echipamentului (de exemplu FF5624 sau AF450); nu ținem această gama pe raft pentru livrare imediată. Verificăm echivalența înainte de a confirma prețul și termenul.`,
+    limitation: "Nu putem confirma echivalența exactă între un cod Fleetguard și filtrul original montat de un alt producător fără să verificăm specificațiile tehnice complete împreună cu producătorul.",
     productCodes: [
-      { code: "FF5323", description: "Filtru de combustibil cartuș pentru motoare diesel" },
-      { code: "FF5624", description: "Filtru de combustibil spin-on" },
-      { code: "FF5683", description: "Filtru de combustibil cartuș" },
-      { code: "FF5405", description: "Filtru de combustibil cartuș" },
+      { code: "FF5323", description: "Filtru de combustibil Fleetguard pentru motoare diesel; tipul constructiv se confirmă pe cod" },
+      { code: "FF5624", description: "Filtru de combustibil Fleetguard; tipul constructiv se confirmă pe cod" },
+      { code: "FF5683", description: "Filtru de combustibil Fleetguard; tipul constructiv se confirmă pe cod" },
+      { code: "FF5405", description: "Filtru de combustibil Fleetguard; tipul constructiv se confirmă pe cod" },
       { code: "FF63046NN", description: "Filtru de combustibil cu tehnologie NanoNet" },
-      { code: "FF105", description: "Filtru de combustibil spin-on" },
-      { code: "FF149", description: "Filtru de combustibil în-line" },
-      { code: "FS19666", description: "Separator combustibil-apă spin-on, tehnologie StrataPore" },
-      { code: "FS19976", description: "Separator combustibil-apă cartuș" },
-      { code: "LF17549", description: "Filtru de ulei cartuș" },
+      { code: "FF105", description: "Filtru de combustibil Fleetguard; tipul constructiv se confirmă pe cod" },
+      { code: "FF149", description: "Filtru de combustibil Fleetguard; tipul constructiv se confirmă pe cod" },
+      { code: "FS19666", description: "Separator combustibil-apă Fleetguard; tehnologia și tipul constructiv se confirmă pe cod" },
+      { code: "FS19976", description: "Separator combustibil-apă Fleetguard; tipul constructiv se confirmă pe cod" },
+      { code: "LF17549", description: "Filtru de ulei Fleetguard; tipul constructiv se confirmă pe cod" },
       { code: "FK13850NN", description: "Kit de filtrare pentru intervenție completă de mentenanță" },
       { code: "AF460", description: "Filtru de aer tip panou, eficiență ISO 5011" },
       { code: "AF456", description: "Filtru de aer tip panou" },
       { code: "AF458", description: "Filtru de aer tip panou" },
-      { code: "AF450", description: "Filtru de aer tip panou, sigilare axială" },
+      { code: "AF450", description: "Filtru de aer tip panou" },
       { code: "AF446", description: "Filtru de aer tip panou" },
       { code: "AF452", description: "Filtru de aer tip panou" },
-      { code: "AF1951", description: "Filtru de aer tip panou" },
-      { code: "AF25346", description: "Filtru de aer tip panou, model mai recent" },
+      { code: "AF1951", description: "Filtru de aer primar" },
+      { code: "AF25346", description: "Filtru de aer Fleetguard" },
       { code: "SP1531", description: "Separator combustibil-apă marin SeaPro" },
       { code: "SP1639", description: "Separator combustibil-apă marin SeaPro" },
       { code: "SP1296", description: "Separator combustibil-apă marin SeaPro" },
@@ -393,8 +393,8 @@ Pentru piața din România, Atmus înseamnă acces la filtre pentru motoare dies
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Atmus Filtration Technologies — Homepage", url: "https://www.atmus.com/", publisher: "Atmus Filtration Technologies", accessed: "2026-09-26" },
       { title: "Atmus — Company Information (26 Century Boulevard, Nashville)", url: "https://www.atmus.com/news/atmus-filtration-technologies-announces-pricing-initial-public-offering", publisher: "Atmus Filtration Technologies", accessed: "2026-09-26" },
@@ -408,32 +408,32 @@ Pentru piața din România, Atmus înseamnă acces la filtre pentru motoare dies
     headquarters: "Troy, SUA",
     overview: `Hobart Brothers e producător american de materiale consumabile pentru sudură, cu sediul la Troy, în statul Ohio, înființat în 1917 de familia Hobart și parte din grupul Illinois Tool Works (ITW) din 1996. Gama pe care o putem oferi acoperă sârmă MIG pentru aluminiu, electrozi înveliți, sârmă tubulară cu flux (self-shielded și cu protecție de gaz), sârmă metal-core, sârmă inox și materiale pentru sudare submersa și subacvatică.
 
-Sub brandul MaxalMIG, compania produce sârmă MIG de aluminiu în aliaje uzuale precum 4047, 5183, 5356 și 5556, iar familia Hoballoy acoperă electrozi înveliți de oțel aliat cu clasificări precum 8018C3, 9018M sau 11018M pentru table groase și oțeluri cu rezistență ridicată. Sarma tubulară seamless MEGAFIL și sârmă pentru hardfacing Tube-Alloy completează portofoliul pentru aplicații de protecție la uzură. O parte din gama deține aprobări de clasificare navală (ABS, DNV-GL, Lloyd's) și certificare CE, pe lângă ISO 9001:2015 la nivel de fabrică.
+Sub brandul MaxalMIG, compania produce sârmă MIG de aluminiu în aliaje uzuale precum 4047, 5183, 5356 și 5556, iar familia Hoballoy acoperă electrozi înveliți de oțel aliat cu clasificări precum 8018C3, 9018M sau 11018M pentru table groase și oțeluri cu rezistență ridicată. Sârma tubulară seamless MEGAFIL și sârma pentru hardfacing Tube-Alloy completează portofoliul pentru aplicații de protecție la uzură. Fabrica deține certificare ISO 9001:2015; aprobările de clasificare navală se confirmă pe cod, din documentația producătorului.
 
 Pentru piața din România, Hobart Brothers înseamnă acces la materiale de sudură pentru fabricație grea, construcții navale și reparații de echipamente, unde clientul caută o clasificare exactă de electrod sau sârmă după codul AWS, nu un înlocuitor generic.`,
     whyChoose: [
       "Peste un secol de activitate în materiale de sudură, sub grupul ITW din 1996",
       "Gama MaxalMIG acoperă principalele aliaje de aluminiu folosite în sudură (4047, 5183, 5356, 5556)",
-      "Aprobări de clasificare navală (ABS, DNV-GL, Lloyd's) pentru o parte din materialele consumabile",
-      "Fabrica certificată ISO 9001:2015, cu documentație de proces pentru loturile de sudură",
+      "Aprobări de clasificare navală disponibile pentru anumite produse, confirmate pe cod din documentația producătorului",
+      "Producător cu sistem de management al calității certificat ISO 9001:2015",
       "Portofoliu complet — electrozi, sârmă solidă, sârmă tubulară și materiale de hardfacing",
     ],
     keyProducts: [
       {
         name: "Sârmă MIG de aluminiu MaxalMIG",
-        description: "Sarma MIG de aluminiu în aliajele 4047, 5183, 5356 și 5556, pentru sudarea structurilor din aluminiu unde compatibilitatea chimică cu materialul de bază este critică. Aliajul 5183 este uzual la structuri marine și navale expuse la apă sărată, iar 4047 la lipirea și sudarea componentelor turnate.",
+        description: "Sârmă MIG de aluminiu în aliajele 4047, 5183, 5356 și 5556, pentru sudarea structurilor din aluminiu unde compatibilitatea chimică cu materialul de bază este critică. Aliajul 5183 este uzual la structuri marine și navale expuse la apă sărată, iar 4047 la lipirea și sudarea componentelor turnate.",
       },
       {
         name: "Electrozi înveliți Hoballoy",
-        description: "Electrozi înveliți de oțel aliat, cu clasificări precum 8018C3, 9018M, 11018M și 10018D2, pentru sudarea oțeluri cu rezistență ridicată și table groase din construcții grele și echipamente industriale. Alegerea clasificării depinde de rezistență mecanică cerută și de temperatura de exploatare a îmbinării.",
+        description: "Electrozi înveliți de oțel aliat, cu clasificări precum 8018C3, 9018M, 11018M și 10018D2, pentru sudarea oțelurilor cu rezistență ridicată și a tablelor groase din construcții grele și echipamente industriale. Alegerea clasificării depinde de rezistență mecanică cerută și de temperatura de exploatare a îmbinării.",
       },
       {
-        name: "Sarma tubulară seamless MEGAFIL",
-        description: "Sarma tubulară cu tehnologie seamless (fără cusătură), cu modele precum MEGAFIL 710M, 713R, 819R și 1100M, folosită în fabricația grea și construcții metalice unde se cere un depunere constantă și stropire redusă la viteze mari de sudare.",
+        name: "Sârmă tubulară seamless MEGAFIL",
+        description: "Sârmă tubulară cu tehnologie seamless (fără cusătură), cu modele precum MEGAFIL 710M, 713R, 819R și 1100M, folosită în fabricația grea și construcții metalice unde se cere o depunere constantă și stropire redusă la viteze mari de sudare.",
       },
       {
         name: "Sârmă pentru hardfacing Tube-Alloy",
-        description: "Sarma tubulară pentru depunere de protecție la uzură (hardfacing), cu variante precum Tube-Alloy 240-O, 242-O și 244-O, folosită pentru refacerea suprafețelor expuse la abraziune sau impact în utilaje de construcții și minerit.",
+        description: "Sârmă tubulară pentru depunere de protecție la uzură (hardfacing), cu variante precum Tube-Alloy 240-O, 242-O și 244-O, folosită pentru refacerea suprafețelor expuse la abraziune sau impact în utilaje de construcții și minerit.",
       },
     ],
     industries: [
@@ -443,16 +443,16 @@ Pentru piața din România, Hobart Brothers înseamnă acces la materiale de sud
       "Petrol și gaze — materiale de sudură cu aprobări pentru echipamente de proces",
       "Agricultura și construcții — sârmă de hardfacing pentru repararea pieselor expuse la uzură",
     ],
-    infinitrade: `Pentru Hobart Brothers ne bazăm pe informațiile publice ale producătorului, fără date proprii despre stocul de sârmă sau electrozi pe un anumit lot. Hobart Brothers are sediul în SUA, iar materialele din gama pe care o putem confirma le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, fără raft propriu pe fiecare clasificare. Pentru o ofertă corectă trimiteți clasificarea AWS exactă (de exemplu 8018C3 sau MaxalMIG 5183), diametrul sârmei sau al electrodului și cantitatea necesară. Confirmam disponibilitatea înainte de a stabili termenul final.`,
-    limitation: "Nu putem confirma pe loc disponibilitatea unei aprobări de clasificare navală specifice (ABS, DNV-GL, Lloyd's) pentru un lot anume fără să verificăm certificatul direct cu producătorul.",
+    infinitrade: `Pentru Hobart Brothers ne bazăm pe informațiile publice ale producătorului, fără date proprii despre stocul de sârmă sau electrozi pe un anumit lot. Hobart Brothers are sediul în SUA, iar materialele din gama pe care o putem confirma le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, fără raft propriu pe fiecare clasificare. Pentru o ofertă corectă trimiteți clasificarea AWS exactă (de exemplu 8018C3 sau MaxalMIG 5183), diametrul sârmei sau al electrodului și cantitatea necesară. Confirmăm disponibilitatea înainte de a stabili termenul final.`,
+    limitation: "Nu putem confirma pe loc disponibilitatea unei aprobări de clasificare navală specifice pentru un lot anume fără să verificăm certificatul direct cu producătorul.",
     productCodes: [
-      { code: "MaxalMIG 4047", description: "Sarma MIG aluminiu, aliaj pentru lipire și turnate" },
+      { code: "MaxalMIG 4047", description: "Sârmă MIG aluminiu, aliaj pentru lipire și turnate" },
       { code: "MaxalMIG 5183", description: "Sârmă MIG aluminiu, uzuală în construcții navale" },
       { code: "MaxalMIG 5356", description: "Sârmă MIG aluminiu, aliaj de uz general" },
-      { code: "MaxalMIG 5556", description: "Sarma MIG aluminiu, rezistență mecanică ridicată" },
-      { code: "MaxalMIG 4943", description: "Sarma MIG aluminiu, aliaj special" },
+      { code: "MaxalMIG 5556", description: "Sârmă MIG aluminiu, rezistență mecanică ridicată" },
+      { code: "MaxalMIG 4943", description: "Sârmă MIG aluminiu, aliaj special" },
       { code: "Hobart 7018-XLM", description: "Electrod învelit hidrogen scăzut, uz general" },
-      { code: "Hobart 718MC", description: "Sarma metal-core pentru sudare cu productivitate ridicată" },
+      { code: "Hobart 718MC", description: "Sârmă metal-core pentru sudare cu productivitate ridicată" },
       { code: "Hoballoy 8018C3", description: "Electrod învelit oțel aliat, rezistență la temperaturi scăzute" },
       { code: "Hoballoy 9018M", description: "Electrod învelit oțel aliat, aplicații militare/marine" },
       { code: "Hoballoy 11018M", description: "Electrod învelit oțel aliat, rezistență ridicată" },
@@ -461,28 +461,28 @@ Pentru piața din România, Hobart Brothers înseamnă acces la materiale de sud
       { code: "Hoballoy 9018B3", description: "Electrod învelit oțel aliat crom-molibden ridicat" },
       { code: "Hoballoy 7018A1", description: "Electrod învelit oțel aliat cu molibden" },
       { code: "Hoballoy 7018-C3L", description: "Electrod învelit oțel aliat cu nichel, conținut carbon redus" },
-      { code: "MEGAFIL 710M", description: "Sarma tubulară seamless metal-core" },
-      { code: "MEGAFIL 713R", description: "Sarma tubulară seamless cu flux" },
-      { code: "MEGAFIL 819R", description: "Sarma tubulară seamless cu flux" },
-      { code: "MEGAFIL 1100M", description: "Sarma tubulară seamless metal-core, rezistență ridicată" },
-      { code: "MEGAFIL 240M", description: "Sarma tubulară seamless metal-core" },
-      { code: "Tube-Alloy 240-O", description: "Sarma tubulară pentru hardfacing, depunere de uzură" },
-      { code: "Tube-Alloy 242-O", description: "Sarma tubulară pentru hardfacing" },
-      { code: "Tube-Alloy 244-O", description: "Sarma tubulară pentru hardfacing" },
-      { code: "Tube-Alloy 218-O", description: "Sarma tubulară pentru hardfacing" },
-      { code: "FabCO 101", description: "Sarma tubulară autoprotejată pentru fabricație generală" },
-      { code: "Deckmaster 1139", description: "Electrod pentru hardfacing și reparații de suprafață" },
+      { code: "MEGAFIL 710M", description: "Sârmă tubulară seamless metal-core" },
+      { code: "MEGAFIL 713R", description: "Sârmă tubulară seamless cu flux" },
+      { code: "MEGAFIL 819R", description: "Sârmă tubulară seamless cu flux" },
+      { code: "MEGAFIL 1100M", description: "Sârmă tubulară seamless metal-core, rezistență ridicată" },
+      { code: "MEGAFIL 240M", description: "Sârmă tubulară seamless metal-core" },
+      { code: "Tube-Alloy 240-O", description: "Sârmă tubulară pentru hardfacing, depunere de uzură" },
+      { code: "Tube-Alloy 242-O", description: "Sârmă tubulară pentru hardfacing" },
+      { code: "Tube-Alloy 244-O", description: "Sârmă tubulară pentru hardfacing" },
+      { code: "Tube-Alloy 218-O", description: "Sârmă tubulară pentru hardfacing" },
+      { code: "FabCO 101", description: "Sârmă tubulară autoprotejată pentru fabricație generală" },
+      { code: "Deckmaster 1139", description: "Electrod învelit din oțel moale pentru sudarea tablei cutate de planșeu pe grinzi de susținere" },
     ],
     faq: [
       { q: "Ce produce Hobart Brothers?", a: "Hobart Brothers produce materiale consumabile de sudură — sârmă MIG de aluminiu, electrozi înveliți, sârmă tubulară cu flux și metal-core, sârmă inox și materiale de hardfacing — folosite în fabricație grea, construcții navale și reparații de echipamente industriale." },
-      { q: "Se poate procura Hobart Brothers în România sau Europa?", a: "Materialele Hobart Brothers au certificare CE pe o parte din gama, ceea ce arată compatibilitate cu piața europeană, dar nu am găsit pe site o rețea de distribuție proprie descrisă pentru România; le aducem la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
+      { q: "Se poate procura Hobart Brothers în România sau Europa?", a: "Nu am găsit pe site o rețea de distribuție proprie descrisă pentru România; le aducem la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
       { q: "Cum aleg un electrod Hoballoy după clasificare?", a: "Clasificarea AWS (de exemplu 8018C3 sau 11018M) indică rezistență mecanică și compatibilitatea chimică cu oțelul de bază; o transmiteți împreună cu diametrul dorit, iar noi verificăm disponibilitatea exactă pentru comandă." },
       { q: "Ce trebuie să trimit pentru o ofertă de sârmă sau electrozi Hobart Brothers?", a: "Trimiteți clasificarea AWS sau denumirea de produs exactă (de exemplu MaxalMIG 5183), diametrul sârmei sau al electrodului și cantitatea necesară; verificăm împreună cu producătorul disponibilitatea pentru comandă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hobart Brothers — Homepage", url: "https://www.hobartbrothers.com/", publisher: "Hobart Brothers Performance Welding Products", accessed: "2026-09-26" },
       { title: "Hobart Brothers — Products", url: "https://www.hobartbrothers.com/products/", publisher: "Hobart Brothers Performance Welding Products", accessed: "2026-09-26" },
@@ -503,12 +503,12 @@ Pentru piața din România, Adalet înseamnă acces la echipamente electrice ant
       "Seriile XCEX și XJ_X dețin certificare IECEx, relevantă pentru compatibilitatea cu piața europeană",
       "Certificări multiple pe gama — UL, cUL, CSA, FM, ATEX, ISO 9001",
       "Portofoliu complet — de la carcase explosionproof până la carcase pentru locații generale (GenLo)",
-      "Parte din grupul Marmon Holdings, cu acces la resurse de inginerie la nivel de grup",
+      "Parte din grupul Marmon Holdings (Berkshire Hathaway)",
     ],
     keyProducts: [
       {
         name: "Carcase explosionproof și cu protecție la praf HazLo",
-        description: "Carcase explosionproof și cu protecție la aprindere din praf, pentru instalarea de echipamente electrice în zone clasificate cu risc de explozie. Acoperă dispozitive de operare, control de motor și panouri de distribuție montate direct în zona periculoasă, fără a necesita o încăpere separată ventilată.",
+        description: "Carcase explosionproof și cu protecție la aprindere din praf, pentru instalarea de echipamente electrice în zone clasificate cu risc de explozie. Acoperă dispozitive de operare, control de motor și panouri de distribuție montate direct în zona periculoasă, conform clasificării și certificării produsului.",
       },
       {
         name: "Carcase certificate IECEx seria XCEX și XJ_X",
@@ -534,8 +534,8 @@ Pentru piața din România, Adalet înseamnă acces la echipamente electrice ant
       "ATEX — conformitate pentru echipamente destinate zonelor cu risc de explozie din UE",
       "IECEx — certificare internațională pentru seriile XCEX și XJ_X",
     ],
-    infinitrade: `Pentru gama Adalet ne bazăm pe informațiile publice ale producătorului; nu avem date proprii de stoc pentru carcasele sau dispozitivele din liniile HazLo și GenLo. Adalet are sediul în SUA, iar echipamentele din gama pe care o putem confirma le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de certificarea cerută și de confirmarea producătorului. Pentru o ofertă corectă trimiteți seria exactă (de exemplu XCEX sau XJ_X), clasificarea zonei periculoase (gaz sau praf, categoria de zonă) și certificarea cerută pentru instalația dumneavoastră. Nu promitem disponibilitate din depozit pe această gama.`,
-    limitation: "Nu putem confirma valabilitatea unui certificat ATEX sau IECEx pentru o configurație specifică de carcasa fără să verificăm documentația tehnică direct cu producătorul, mai ales la echipamente combinate din mai multe module.",
+    infinitrade: `Pentru gama Adalet ne bazăm pe informațiile publice ale producătorului; nu avem date proprii de stoc pentru carcasele sau dispozitivele din liniile HazLo și GenLo. Adalet are sediul în SUA, iar echipamentele din gama pe care o putem confirma le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de certificarea cerută și de confirmarea producătorului. Pentru o ofertă corectă trimiteți seria exactă (de exemplu XCEX sau XJ_X), clasificarea zonei periculoase (gaz sau praf, categoria de zonă) și certificarea cerută pentru instalația dumneavoastră. Nu promitem disponibilitate din depozit pe această gamă.`,
+    limitation: "Nu putem confirma valabilitatea unui certificat ATEX sau IECEx pentru o configurație specifică de carcasă fără să verificăm documentația tehnică direct cu producătorul, mai ales la echipamente combinate din mai multe module.",
     productCodes: [
       { code: "HazLo Explosionproof Enclosures", description: "Carcase explosionproof pentru zone cu risc de explozie" },
       { code: "HazLo Explosionproof Operating Devices", description: "Dispozitive de operare explosionproof pentru control local" },
@@ -557,12 +557,12 @@ Pentru piața din România, Adalet înseamnă acces la echipamente electrice ant
       { q: "Ce produce Adalet?", a: "Adalet produce carcase și echipamente electrice pentru medii periculoase — carcase explosionproof, dispozitive de operare, control motor și panouri de distribuție sub linia HazLo, plus carcase pentru locații generale sub linia GenLo și cuplaje industriale de cablu." },
       { q: "Se poate procura Adalet în România sau Europa?", a: "Seriile XCEX și XJ_X ale Adalet dețin certificare IECEx și o parte din gama are certificare ATEX, ceea ce susține compatibilitatea cu piața europeană, dar nu am găsit o rețea de distribuție proprie descrisă pentru România; le aducem la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
       { q: "Ce certificări au carcasele explosionproof Adalet?", a: "O parte din gama Adalet deține certificări UL, cUL, CSA și FM pentru piața nord-americană, plus ATEX și IECEx pentru zonele periculoase reglementate după standarde europene și internaționale, valabile în funcție de seria și configurația exactă a carcasei." },
-      { q: "Ce trebuie să trimit pentru o ofertă de carcasa Adalet?", a: "Trimiteți seria exactă (de exemplu XCEX sau XJ_X), clasificarea zonei periculoase în care va fi montată (tip de gaz sau praf, categoria de zonă) și certificarea cerută de proiectul dumneavoastră, pentru a verifica echivalentul disponibil." },
+      { q: "Ce trebuie să trimit pentru o ofertă de carcasă Adalet?", a: "Trimiteți seria exactă (de exemplu XCEX sau XJ_X), clasificarea zonei periculoase în care va fi montată (tip de gaz sau praf, categoria de zonă) și certificarea cerută de proiectul dumneavoastră, pentru a verifica echivalentul disponibil." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Adalet — Homepage", url: "https://www.adalet.com/", publisher: "Adalet (Marmon Holdings)", accessed: "2026-09-26" },
       { title: "Adalet — About Us", url: "https://www.adalet.com/pages/about-us", publisher: "Adalet (Marmon Holdings)", accessed: "2026-09-26" },
