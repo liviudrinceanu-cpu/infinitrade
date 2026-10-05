@@ -5,7 +5,7 @@ export const brandContentBatch161 = {
     name: "ET System",
     founded: 1986,
     headquarters: "Altlußheim, Germania",
-    overview: `ET System electronic GmbH este un producător german de aparatură de testare electrică, specializat în surse de curent programabile, sarcini electronice și simulatoare de celule de baterie. Compania a fost fondată în 1986 și are sediul la Altlußheim, lângă Mannheim. Gama acoperă surse DC de laborator din familia LAB, surse și sarcini AC/DC bidirecționale pentru testarea invertoarelor și încărcătoarelor, precum și bancuri modulare de simulare a celulelor pentru dezvoltarea bateriilor auto. Din portofoliul ET System putem oferta echipamente pentru laboratoare de cercetare, linii de producție și bancuri de testare end-of-line din industria auto și aerospațială.
+    overview: `ET System electronic GmbH este un producător german de aparatură de testare electrică, specializat în surse de curent programabile, sarcini electronice și simulatoare de celule de baterie. Compania a fost fondată în 1986 și are sediul la Altlußheim, lângă Mannheim. Gama acoperă surse DC de laborator din familia LAB, surse și sarcini AC/DC bidirecționale pentru testarea invertoarelor și încărcătoarelor, precum și bancuri modulare de simulare a celulelor pentru dezvoltarea bateriilor auto. Din portofoliul ET System putem oferta echipamente pentru laboratoare de cercetare, linii de producție și bancuri de testare la finalul liniei de fabricație din industria auto și aerospațială.
 
 Ce diferențiază ET System în segmentul surselor programabile e plaja largă de putere: familia LAB/HP urcă până la 63 kW într-o singură unitate, cu tensiune configurabilă până la 2000 V, iar sursele bidirecționale din seria N35500 ajung la 42 kW și pot trimite energia înapoi în rețea în loc să o disipe ca la o sarcină electronică clasică. Sarcinile regenerative N65500 recuperează până la 85% din energia consumată la testare. Simulatoarele de celule din seria N9000, cu până la 36 de canale independente, sunt gândite special pentru testarea paralelă a modulelor de baterie auto.
 
@@ -14,13 +14,13 @@ Pentru piața din România, ET System înseamnă acces la echipamente de testare
       "Surse DC de până la 63 kW într-o singură unitate, cu tensiune configurabilă până la 2000 V pentru teste de putere mare",
       "Sarcini electronice regenerative care recuperează până la 85% din energia de testare, reducând consumul din rețea la teste lungi",
       "Simulatoare de celule cu până la 36 de canale independente pentru testarea paralelă a modulelor de baterie auto",
-      "Surse AC/DC bidirecționale pentru testarea invertoarelor și încărcătoarelor, cu frecvențe programabile între 1 și 500 Hz",
-      "Certificare ISO 9001:2015 pentru proiectare și fabricație, relevantă pentru laboratoare cu proceduri de calitate documentate",
+      "Surse AC/DC bidirecționale pentru testarea invertoarelor și încărcătoarelor, cu parametri programabili",
+      "Certificare ISO 9001:2015, indicată pe site-ul producătorului",
     ],
     keyProducts: [
-      { name: "Surse DC Seria LAB/HP", description: "Surse de curent continuu programabile pentru laborator, cu puteri de la câteva sute de wați până la 63 kW într-o singură unitate și tensiuni configurabile până la 2000 V. Folosite pentru alimentarea bancurilor de testare a componentelor de putere și a sistemelor de tracțiune electrică. Varianta compactă LAB/SMP acoperă puteri mai mici, de la 750 W la 2,4 kW, pentru bancuri de testare cu spațiu limitat." },
-      { name: "Sarcini Electronice Regenerative Seria N65500", description: "Sarcini electronice DC de mare putere, cu recuperare de energie de până la 85% înapoi în rețea, gândite pentru testarea îndelungată a surselor și bateriilor fără disiparea integrală a energiei sub formă de căldură. Completează gama sarcinile AC/DC din seria AEL-5000, de până la 45 kW, pentru testarea combinată a componentelor de curent continuu și alternativ." },
-      { name: "Simulatoare de Celule Seria N9000", description: "Bancuri modulare de simulare a celulelor de baterie, cu până la 36 de canale independente, fiecare cu putere de până la 30 W, pentru testarea paralelă a sistemelor de management al bateriei fără celule reale în fazele incipiente de dezvoltare. Variantele N83524 și N83624 oferă configurații cu 24, respectiv 16 canale." },
+      { name: "Surse DC Seria LAB/HP", description: "Surse de curent continuu programabile pentru laborator, cu puteri de la câteva sute de wați până la 63 kW într-o singură unitate și tensiuni configurabile până la 2000 V. Folosite pentru alimentarea bancurilor de testare a componentelor de putere și a sistemelor de tracțiune electrică. Varianta compactă LAB/SMP acoperă puteri mai mici; valorile exacte le confirmăm pe cod, din documentația producătorului." },
+      { name: "Sarcini Electronice Regenerative Seria N65500", description: "Sarcini electronice DC de mare putere, cu recuperare de energie de până la 85% înapoi în rețea, gândite pentru testarea îndelungată a surselor și bateriilor fără disiparea integrală a energiei sub formă de căldură." },
+      { name: "Simulatoare de Celule Seria N9000", description: "Bancuri modulare de simulare a celulelor de baterie, cu până la 36 de canale independente, fiecare cu putere de până la 30 W, pentru testarea paralelă a sistemelor de management al bateriei fără celule reale în fazele incipiente de dezvoltare." },
     ],
     industries: [
       "Automotive și electromobilitate — testarea bateriilor, invertoarelor și încărcătoarelor",
@@ -29,29 +29,29 @@ Pentru piața din România, ET System înseamnă acces la echipamente de testare
       "Cercetare și universități — laboratoare de electronică de putere",
       "Producție — verificarea automatizată a produselor electronice înainte de livrare",
     ],
-    certifications: ["ISO 9001:2015 — ET System: sistem de management al calității pentru proiectare și fabricație"],
+    certifications: ["ISO 9001:2015 — sistem de management al calității"],
     infinitrade: `Aducem echipamente ET System la comandă pentru laboratoare și linii de testare din România, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — nu ținem această gamă pe raft, fiecare configurație fiind comandată punctual la producător. Pentru acest brand lucrăm cu surse publice ale producătorului și spunem clar, încă din faza de ofertă, ce putem și ce nu putem confirma despre fiecare model. Clientul trebuie să ne trimită seria exactă, puterea sau tensiunea necesară și aplicația — surse, sarcini sau simulare de celule — ca să cerem prețul și termenul exact direct de la producător.`,
     limitation: "Nu oferim configurare software proprietară a sistemelor de testare ET System, aceasta rămânând în sarcina producătorului sau a integratorului de sistem.",
     productCodes: [
       { code: "LAB/HP", description: "sursă DC de laborator, până la 63 kW, tensiune configurabilă până la 2000 V" },
       { code: "LAB/SMP", description: "sursă DC compactă, 750 W–2,4 kW, curent până la 160 A" },
-      { code: "N35100", description: "sursă DC bidirecțională, 7,5 kW, curent ±300 A în șasiu 1U" },
+      { code: "N35100", description: "sursă DC bidirecțională; parametrii se confirmă pe cod" },
       { code: "N35500", description: "sursă DC bidirecțională, 42 kW, tensiuni între 100 și 2250 V" },
-      { code: "EAC-S", description: "sursă AC monofazată, 10 kVA, ieșire până la 300 Vrms" },
-      { code: "EAC-3S", description: "sursă AC trifazată, 30 kVA, ieșire până la 300 Vrms" },
-      { code: "N78300", description: "sursă AC programabilă, 25 kVA, frecvență 1–500 Hz" },
-      { code: "ASR-3000", description: "sursă AC/DC programabilă, 2–5 kVA" },
+      { code: "EAC-S", description: "sursă AC monofazată; parametrii se confirmă pe cod" },
+      { code: "EAC-3S", description: "sursă AC trifazată; parametrii se confirmă pe cod" },
+      { code: "N78300", description: "sursă AC programabilă; parametrii se confirmă pe cod" },
+      { code: "ASR-3000", description: "sursă AC/DC programabilă; parametrii se confirmă pe cod" },
       { code: "ASR-6000", description: "sursă AC/DC programabilă, 4,5–24 kVA" },
-      { code: "ZGX", description: "sursă AC/DC bidirecțională, 22,5 kVA" },
-      { code: "N69200", description: "sarcină DC de mare putere, 60 kW, până la 2500 A" },
-      { code: "N65500", description: "sarcină DC regenerativă, 20–25 kW, recuperare energie până la 85%" },
-      { code: "AEL-5000", description: "sarcină AC/DC, 45 kW, curent până la 225 A" },
+      { code: "ZGX", description: "sursă AC/DC bidirecțională; parametrii se confirmă pe cod" },
+      { code: "N69200", description: "sarcină DC de mare putere; parametrii se confirmă pe cod" },
+      { code: "N65500", description: "sarcină DC regenerativă, recuperare de energie până la 85%" },
+      { code: "AEL-5000", description: "sarcină AC/DC; parametrii se confirmă pe cod" },
       { code: "N9000", description: "simulator modular de celule, 36 canale, până la 30 W pe canal" },
-      { code: "N83524", description: "simulator bidirecțional de celule, 24 canale, 6 V, ±5 A" },
-      { code: "N83624", description: "simulator multicanal de celule, 16 canale, 15 V, 5 A" },
-      { code: "N2600", description: "unitate sursă-măsură (SMU), 1100 V, curent pulsat 10 A" },
-      { code: "TH2523", description: "tester de baterii pentru verificarea celulelor și pachetelor" },
-      { code: "TH2692", description: "tester de rezistență de izolație" },
+      { code: "N83524", description: "simulator bidirecțional de celule; parametrii se confirmă pe cod" },
+      { code: "N83624", description: "simulator multicanal de celule; parametrii se confirmă pe cod" },
+      { code: "N2600", description: "unitate sursă-măsură (SMU); parametrii se confirmă pe cod" },
+      { code: "TH2523", description: "tester de baterii; disponibilitatea și parametrii se confirmă pe cod" },
+      { code: "TH2692", description: "tester de rezistență de izolație; disponibilitatea și parametrii se confirmă pe cod" },
     ],
     faq: [
       { q: "Ce produce ET System?", a: "ET System electronic GmbH produce surse de curent continuu și alternativ programabile, sarcini electronice și simulatoare de celule de baterie, folosite în laboratoare de dezvoltare și pe linii de testare din industria auto, aerospațială și energia regenerabilă. Gama acoperă puteri de la sute de wați până la peste 60 kW, pentru teste de la componente individuale până la sisteme complete de stocare a energiei." },
@@ -61,8 +61,8 @@ Pentru piața din România, ET System înseamnă acces la echipamente de testare
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "ET System electronic GmbH – Homepage", url: "https://www.et-system.de/en/", publisher: "ET System electronic GmbH", accessed: "2026-09-26" },
       { title: "Products – ET System", url: "https://www.et-system.de/en/products/", publisher: "ET System electronic GmbH", accessed: "2026-09-26" },
@@ -72,23 +72,23 @@ Pentru piața din România, ET System înseamnă acces la echipamente de testare
     name: "Guide Sensmart",
     founded: 2016,
     headquarters: "Wuhan, China",
-    overview: `Guide Sensmart, cunoscut până de curând drept Guide Infrared, este un producător chinez de camere de termoviziune și echipamente de detecție cu sediul la Wuhan. Compania a fost înființată în 2016 și are o fabrică suplimentară în Thailanda, plus o filială europeană în Germania. Gama acoperă camere de termoviziune portabile pentru inspecții electrice și industriale, camere de termoviziune pentru pompieri, camere acustice pentru detectarea scurgerilor de aer și gaz, și detectoare optice de gaz. Din portofoliul Guide Sensmart putem oferta aparate de termografie pentru mentenanță electrică, inspecții de clădiri și diagnosticare industrială.
+    overview: `Guide Sensmart este un producător chinez de camere de termoviziune și echipamente de detecție cu sediul la Wuhan. Compania a fost înființată în 2016 și are o fabrică suplimentară în Thailanda, plus o filială europeană în Germania. Gama acoperă camere de termoviziune portabile pentru inspecții electrice și industriale, camere de termoviziune pentru pompieri, camere acustice pentru detectarea scurgerilor de aer și gaz, și detectoare optice de gaz. Din portofoliul Guide Sensmart putem oferta aparate de termografie pentru mentenanță electrică, inspecții de clădiri și diagnosticare industrială.
 
-Ce diferențiază gama Guide Sensmart e acoperirea largă de rezoluții: seria EasIR pornește de la 120×90 pixeli pentru inspecții de bază, în timp ce seria PT II ajunge la rezoluții megapixel, de până la 1280×1024, cu sistem hibrid de focalizare automat-manual pentru imagini clare la distanță. Sensibilitatea termică (NETD) de sub 15 mK pe majoritatea seriilor permite detectarea unor diferențe fine de temperatură, utile la depistarea punctelor calde din tablouri electrice sau a pierderilor termice din anvelope de clădiri. Spre deosebire de concurenți precum FLIR sau Testo, Guide Sensmart mizează pe rezoluții mari orientate spre utilizatorii industriali.
+Ce diferențiază gama Guide Sensmart e acoperirea largă de rezoluții: seria EasIR pornește de la 120×90 pixeli pentru inspecții de bază, în timp ce seria PT II ajunge la rezoluții megapixel, de până la 1280×1024, cu sistem hibrid de focalizare automat-manual pentru imagini clare la distanță. Sensibilitatea termică (NETD) de sub 15 mK pe majoritatea seriilor permite detectarea unor diferențe fine de temperatură, utile la depistarea punctelor calde din tablouri electrice sau a pierderilor termice din anvelope de clădiri.
 
 Pentru piața din România, Guide Sensmart înseamnă acces la camere de termoviziune pentru electricieni de mentenanță, auditori energetici și echipe de inspecție industrială care au nevoie de rezoluție mare.`,
     whyChoose: [
-      "Rezoluții de până la 1280×1024 pixeli în seria PT II, peste nivelul obișnuit al camerelor de termoviziune industriale de bază",
+      "Rezoluții de până la 1280×1024 pixeli în seria PT II",
       "Sensibilitate termică (NETD) sub 15 mK pe majoritatea seriilor, utilă la detectarea unor diferențe fine de temperatură",
       "Gamă completă, de la camere de buzunar EasIR până la camere megapixel PT II, pentru aplicații diferite",
       "Cameră acustică FA611S pentru localizarea scurgerilor de aer comprimat și gaz, utilă în audituri energetice industriale",
-      "Cameră de gaz PV400 pentru vizualizarea scurgerilor de gaze industriale fără oprirea instalației",
+      "Cameră de gaz PV400 pentru vizualizarea scurgerilor de gaze industriale",
     ],
     keyProducts: [
       { name: "Camere de Termoviziune Portabile Seria Hammer II", description: "Camere de termoviziune robuste pentru inspecții electrice și mentenanță industrială, cu rezoluții între 320×240 și 640×480 pixeli și sensibilitate termică sub 15 mK la o rată de achiziție de 50 Hz. Gândite pentru depistarea punctelor calde din tablouri electrice, motoare și linii de producție, cu variante S care adaugă funcții suplimentare de analiză a imaginii." },
       { name: "Camere de Termoviziune Megapixel Seria PT II", description: "Seria de vârf a producătorului, cu rezoluții de până la 1280×1024 pixeli și sistem hibrid de focalizare automat-manual pentru imagini clare la distanțe mari. Modelele PT450 până la PT870 acoperă game diferite de rezoluție, fiind orientate spre inspecții electrice de precizie și diagnosticare industrială unde detaliul termic contează mai mult decât portabilitatea." },
       { name: "Camere de Termoviziune Compacte Seria EasIR", description: "Camere de buzunar pentru inspecții rapide, cu rezoluții de la 120×90 până la 256×192 pixeli, potrivite pentru electricieni și tehnicieni de mentenanță care au nevoie de un prim diagnostic termic. Seria EasIR Max adaugă ecran de 3,5 inci și fuziune între imaginea termică și cea vizibilă pentru localizarea mai ușoară a defectelor." },
-      { name: "Cameră Acustică FA611S", description: "Cameră cu rețea de microfoane și senzor infraroșu de 640×512 pixeli, folosită pentru localizarea vizuală a scurgerilor de aer comprimat, gaz sau descărcărilor electrice parțiale, prin transformarea sunetelor ultrasonice în hărți de imagine suprapuse pe imaginea vizibilă a zonei inspectate." },
+      { name: "Cameră Acustică FA611S", description: "Cameră acustică ce combină imagistica termică cu cea sonoră, folosită pentru localizarea vizuală a scurgerilor de aer comprimat sau gaz, prin transformarea sunetelor ultrasonice în hărți de imagine suprapuse pe imaginea vizibilă a zonei inspectate." },
     ],
     industries: [
       "Mentenanță electrică — depistarea punctelor calde în tablouri și conexiuni",
@@ -117,19 +117,19 @@ Pentru piața din România, Guide Sensmart înseamnă acces la camere de termovi
       { code: "MobIR 3.0 ES2+", description: "modul termic pentru integrare mobilă, rezoluție extinsă" },
       { code: "PR II PR410", description: "cameră termoviziune pentru pompieri, uz în medii cu fum" },
       { code: "PR II PR610S", description: "cameră termoviziune pentru pompieri, rezoluție ridicată" },
-      { code: "FA611S", description: "cameră acustică cu senzor infraroșu 640×512 pentru detectare scurgeri" },
+      { code: "FA611S", description: "cameră acustică pentru detectare scurgeri" },
       { code: "PV400", description: "cameră de detecție optică a gazelor, rezoluție 320×256 pixeli" },
     ],
     faq: [
-      { q: "Ce produce Guide Sensmart?", a: "Guide Sensmart, fostă Guide Infrared, produce camere de termoviziune portabile și profesionale, camere pentru pompieri, camere acustice pentru detectarea scurgerilor și camere pentru detecția optică a gazelor. Compania are sediul la Wuhan, China, și este specializată exclusiv pe tehnologie infraroșu și acustică pentru inspecții electrice, industriale și de construcții." },
-      { q: "Ce rezoluție are o cameră Guide Sensmart pentru inspecții electrice?", a: "Depinde de serie: modelele EasIR de bază pornesc de la 120×90 pixeli, seria Hammer II ajunge la 640×480 pixeli, iar seria profesională PT II urcă până la 1280×1024 pixeli. Pentru inspecții electrice de rutină, o rezoluție de 256×192 pixeli cu NETD sub 15 mK este de obicei suficientă pentru localizarea punctelor calde din tablouri și conexiuni." },
+      { q: "Ce produce Guide Sensmart?", a: "Guide Sensmart produce camere de termoviziune portabile și profesionale, camere pentru pompieri, camere acustice pentru detectarea scurgerilor și camere pentru detecția optică a gazelor. Compania are sediul la Wuhan, China, și produce echipamente bazate pe tehnologie infraroșu și acustică pentru inspecții electrice, industriale și de construcții." },
+      { q: "Ce rezoluție are o cameră Guide Sensmart pentru inspecții electrice?", a: "Depinde de serie: modelele EasIR de bază pornesc de la 120×90 pixeli, seria Hammer II ajunge la 640×480 pixeli, iar seria profesională PT II urcă până la 1280×1024 pixeli. Rezoluția necesară depinde de distanța până la tablou și de dimensiunea conexiunilor inspectate; o stabilim împreună cu dumneavoastră, pe baza aplicației." },
       { q: "Livrați camere Guide Sensmart în România și cât durează?", a: "Da, camerele ajung în România prin canale de aprovizionare din Uniunea Europeană, iar termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii de către producător. Fiecare model are variante de rezoluție diferite, motiv pentru care nu păstrăm aparate pregătite în avans, ci le comandăm punctual." },
       { q: "Ce trebuie să trimit pentru o ofertă Guide Sensmart?", a: "Trimiteți-ne seria dorită (EasIR, Hammer II, PT II sau camera acustică FA611S), rezoluția minimă necesară, intervalul de temperatură de măsurat și aplicația exactă — mentenanță electrică, audit energetic sau detectare de gaz. Cu aceste informații cerem confirmarea de preț și termen direct de la producător." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Guide Sensmart – Homepage", url: "https://www.guideir.com/", publisher: "Guide Sensmart", accessed: "2026-09-26" },
       { title: "Products – Guide Sensmart", url: "https://www.guideir.com/products", publisher: "Guide Sensmart", accessed: "2026-09-26" },
@@ -139,7 +139,7 @@ Pentru piața din România, Guide Sensmart înseamnă acces la camere de termovi
     name: "Gossen Metrawatt",
     overview: `Gossen Metrawatt este un producător german de aparate de măsură și testare electrică, cu o istorie de peste un secol în spatele mărcii și parte din grupul GMC-Instruments, alături de Camille Bauer, Rigel Medical și Kurth Electronic. Gama acoperă multimetre digitale din familia METRAHIT, aparate de testare a instalațiilor electrice din familia PROFITEST, analizoare de calitate a energiei din seria LINAX PQ și echipamente de management al curentului rezidual din seria CENTRAX CU. Din portofoliul Gossen Metrawatt putem oferta aparate pentru electricieni autorizați, laboratoare PRAM și departamente de mentenanță industrială din România.
 
-Punctul forte al gamei PROFITEST e acoperirea completă a standardelor de testare a instalațiilor electrice — DIN VDE 0100-600, VDE 0105-100, IEC 60364 și EN 50110 — cu seturi dedicate pentru verificări periodice, pentru puneri în funcțiune sau pentru testarea stațiilor de încărcare a vehiculelor electrice (setul PROFITEST MF XTRA EVSE). Măsurarea rezistenței de izolație cu descărcare automată a condensatorilor și calculul automat al limitelor admise reduc riscul erorilor de interpretare la fața locului. În acest segment, Gossen Metrawatt se compară direct cu Chauvin Arnoux sau Fluke, mizând pe integrarea cu software de raportare pentru documentarea verificărilor periodice conform DGUV.
+Punctul forte al gamei PROFITEST e acoperirea completă a standardelor de testare a instalațiilor electrice — DIN VDE 0100-600, VDE 0105-100, IEC 60364 și EN 50110 — cu seturi dedicate pentru verificări periodice, pentru puneri în funcțiune sau pentru testarea stațiilor de încărcare a vehiculelor electrice (setul PROFITEST MF XTRA EVSE). Măsurarea rezistenței de izolație cu descărcare automată a condensatorilor și calculul automat al limitelor admise reduc riscul erorilor de interpretare la fața locului. Rezultatele măsurătorilor pot fi documentate cu software de raportare al producătorului, de exemplu IZYTRONIQ.
 
 Pentru piața din România, gama Gossen Metrawatt înseamnă acces la instrumente pentru verificarea instalațiilor electrice din clădiri, la multimetre pentru mentenanță industrială și la analizoare de calitate a energiei pentru auditul rețelelor electrice din fabrici.`,
     whyChoose: [
@@ -151,7 +151,7 @@ Pentru piața din România, gama Gossen Metrawatt înseamnă acces la instrument
     ],
     keyProducts: [
       { name: "Testere de Instalații Electrice Seria PROFITEST MF", description: "Aparate de testare a instalațiilor electrice conform DIN VDE 0100-600, 0105-100, IEC 60364 și EN 50110, cu comutator rotativ, ecran color grafic și posibilitate de actualizare a firmware-ului. Variantele MF TECH și MF XTRA se diferențiază prin funcțiile de măsurare incluse, iar seturile dedicate acoperă de la verificări de bază până la pachete complete pentru electricieni autorizați. Setul EVSE testează specific electrosecuritatea stațiilor de încărcare AC pentru vehicule electrice." },
-      { name: "Multimetre Digitale Seria METRAHIT", description: "Multimetre digitale de mână pentru măsurători electrice de precizie în mentenanță industrială și laboratoare de testare, parte din gama de bază a producătorului alături de aparatele de calibrare portabile METRACAL. Sunt gândite pentru utilizare de teren, cu protecție la categoriile de măsurare relevante pentru rețele de joasă tensiune." },
+      { name: "Multimetre Digitale Seria METRAHIT", description: "Multimetre digitale de mână pentru măsurători electrice de precizie în mentenanță industrială și laboratoare de testare. Sunt gândite pentru utilizare de teren, cu protecție la categoriile de măsurare relevante pentru rețele de joasă tensiune." },
       { name: "Analizoare de Calitate a Energiei Seria LINAX PQ", description: "Analizoare de calitate a energiei pentru monitorizarea armonicilor, flickerului și evenimentelor de tensiune în rețele electrice industriale, folosite la auditul energetic al fabricilor și la depanarea problemelor de compatibilitate electromagnetică dintre echipamente. Completează gama industrială aparatele SINEAX pentru măsurare și transducție de energie." },
     ],
     industries: [
@@ -166,15 +166,15 @@ Pentru piața din România, gama Gossen Metrawatt înseamnă acces la instrument
     productCodes: [
       { code: "PROFITEST MF TECH", description: "tester instalații electrice, conform DIN VDE 0100-600" },
       { code: "PROFITEST MF XTRA", description: "tester instalații electrice, funcții extinse de măsurare" },
-      { code: "PROFITEST MF XTRA LEMONGREEN", description: "variantă a testerului MF XTRA cu design distinct" },
+      { code: "PROFITEST MF XTRA LEMONGREEN", description: "variantă a seriei PROFITEST MF XTRA" },
       { code: "PROFITEST MF XTRA EVSE-Set", description: "set testare electrosecuritate stații încărcare vehicule electrice" },
       { code: "PROFITEST MF TECH 0105-Set", description: "set pentru verificări periodice conform VDE 0105-100" },
       { code: "PROFITEST MF XTRA Meister-Set", description: "pachet complet pentru electricieni autorizați" },
-      { code: "PROFITEST MXTRA", description: "tester de instalații electrice, model din arhiva producătorului" },
-      { code: "PROFiTEST MTECH+", description: "tester de instalații electrice cu funcții multiple" },
-      { code: "METRACHECK 36", description: "aparat verificare funcțională pentru SECUTEST și PROFITEST" },
-      { code: "METRACHECK 48", description: "aparat verificare funcțională, variantă extinsă" },
-      { code: "METRACHECK 60", description: "aparat verificare funcțională, variantă completă" },
+      { code: "PROFITEST MXTRA", description: "model de tester de instalații electrice; detaliile se confirmă pe cod" },
+      { code: "PROFiTEST MTECH+", description: "model de tester de instalații electrice; detaliile se confirmă pe cod" },
+      { code: "METRACHECK 36", description: "aparat de verificare; destinația exactă se confirmă pe cod" },
+      { code: "METRACHECK 48", description: "aparat de verificare; destinația exactă se confirmă pe cod" },
+      { code: "METRACHECK 60", description: "aparat de verificare; destinația exactă se confirmă pe cod" },
       { code: "METRAHIT", description: "familie de multimetre digitale de mână" },
       { code: "LINAX PQ", description: "analizor de calitate a energiei pentru rețele industriale" },
       { code: "SINEAX DM5000", description: "aparat de măsură și transducție pentru energie electrică" },
@@ -190,8 +190,8 @@ Pentru piața din România, gama Gossen Metrawatt înseamnă acces la instrument
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Products – Gossen Metrawatt", url: "https://www.gossenmetrawatt.de/en/products", publisher: "GOSSEN METRAWATT GmbH", accessed: "2026-09-26" },
       { title: "PROFITEST MF Series", url: "https://www.gossenmetrawatt.de/en/products/measuring-and-test-technology/test-technology/testing-of-electric-installations-and-systems/testing-per-din-vde-0100-600-0105-100-iec-60364-en-50110/profitest-mf-series/", publisher: "GOSSEN METRAWATT GmbH", accessed: "2026-09-26" },
@@ -203,20 +203,20 @@ Pentru piața din România, gama Gossen Metrawatt înseamnă acces la instrument
     headquarters: "Ahrensburg, Germania",
     overview: `PeakTech este un producător german de aparate de măsură electrică, cu sediul la Ahrensburg, lângă Hamburg. Gama acoperă multimetre digitale, osciloscoape de banc și portabile, clești ampermetrici, camere de termoviziune și surse de alimentare de laborator, orientate spre tehnicieni, electricieni și ateliere de service. Din portofoliul PeakTech putem oferta aparate pentru mentenanță electrică, laboratoare de electronică și ateliere auto, de la multimetre de bază până la osciloscoape cu bandă largă pentru diagnosticare avansată.
 
-Ce diferențiază gama PeakTech e acoperirea foarte largă de segmente de performanță în aceeași marcă: multimetrele merg de la modele simple, cu 2000 de digiți, până la variante true RMS cu categorie de măsurare CAT III 1000V, iar osciloscoapele de banc acoperă benzi de la 20 MHz, pentru electronică de bază, până la 300 MHz și rate de eșantionare de 2,5-3,2 GS/s, pentru semnale rapide. Această acoperire largă poziționează PeakTech ca alternativă la mărci precum Hantek sau Owon în segmentul mediu. Modelele cu 4 canale, precum P 1340 sau P 1375, permit analiza simultană a mai multor semnale fără osciloscop suplimentar.
+Ce diferențiază gama PeakTech e acoperirea foarte largă de segmente de performanță în aceeași marcă: multimetrele merg de la modele simple, cu 2000 de digiți, până la variante true RMS, iar categoriile de măsurare ajung la CAT III 1000V, iar osciloscoapele de banc acoperă benzi de la 20 MHz, pentru electronică de bază, până la 300 MHz și rate de eșantionare de până la 2,5 GS/s, pentru semnale rapide. Modelele cu 4 canale, precum P 1340 sau P 1375, permit analiza simultană a mai multor semnale fără osciloscop suplimentar.
 
 Pentru piața din România, PeakTech înseamnă acces la aparate de măsură pentru electricieni, tehnicieni de service și laboratoare didactice care au nevoie de instrumente fiabile.`,
     whyChoose: [
-      "Gamă foarte largă de multimetre, de la modele simple de 2000 de digiți până la variante true RMS CAT III 1000V",
-      "Osciloscoape de banc cu bandă de până la 300 MHz și rată de eșantionare de 2,5-3,2 GS/s pentru semnale rapide",
+      "Gamă foarte largă de multimetre, de la modele simple de 2000 de digiți până la variante true RMS CAT III 600V și modele CAT III 1000V",
+      "Osciloscoape de banc cu bandă de până la 300 MHz și rată de eșantionare de până la 2,5 GS/s pentru semnale rapide",
       "Modele cu 4 canale (P 1340, P 1370, P 1375) pentru analiza simultană a mai multor semnale",
       "Osciloscoape portabile de mână pentru diagnosticare rapidă pe teren, fără nevoia unui banc de laborator",
       "Acoperire pe mai multe niveluri de performanță, utilă la echiparea unui atelier de la zero",
     ],
     keyProducts: [
       { name: "Multimetre Digitale Seria P 10xx / P 30xx", description: "Multimetre digitale de mână pentru măsurători electrice generale, cu rezoluții între 2000 și 6000 de digiți/counts, în funcție de model. Variantele CAT III 600V sau 1000V, precum P 1021 sau P 3355, sunt potrivite pentru lucrul pe instalații electrice de joasă tensiune, iar modelele true RMS oferă citiri corecte și pe semnale nesinusoidale." },
-      { name: "Osciloscoape de Banc Seria P 12xx / P 13xx", description: "Osciloscoape de banc cu 2 sau 4 canale, benzi de la 20 MHz până la 300 MHz și rate de eșantionare între 100 MS/s și 3,2 GS/s. Modelele cu bandă mare, precum P 1270 sau P 1363, sunt potrivite pentru depanarea semnalelor rapide din electronica de putere, în timp ce variantele de bază acoperă nevoile didactice și de service general." },
-      { name: "Osciloscoape Portabile de Mână Seria P 1195 / P 1205", description: "Osciloscoape compacte, alimentate cu baterie, pentru măsurători de teren unde un banc de laborator nu e practic. Modelul P 1195 oferă 100 MHz bandă și 1 GS/s rată de eșantionare pe 2 canale, util la diagnosticarea rapidă a echipamentelor electrice direct la locul instalării." },
+      { name: "Osciloscoape de Banc Seria P 12xx / P 13xx", description: "Osciloscoape de banc cu 2 sau 4 canale, benzi de la 20 MHz până la 300 MHz și rate de eșantionare între 100 MS/s și 2,5 GS/s. Modelele cu bandă mare, precum P 1270 sau P 1363, sunt potrivite pentru depanarea semnalelor rapide din electronica de putere, în timp ce variantele de bază acoperă nevoile didactice și de service general." },
+      { name: "Osciloscoape Portabile de Mână Seria P 1195 / P 1205", description: "Osciloscoape compacte, alimentate cu baterie, pentru măsurători de teren unde un banc de laborator nu e practic. Modelul P 1195 este util la diagnosticarea rapidă a echipamentelor electrice direct la locul instalării; parametrii exacți îi confirmăm pe cod." },
     ],
     industries: [
       "Mentenanță electrică — multimetre și clești ampermetrici pentru verificări de rutină",
@@ -236,8 +236,8 @@ Pentru piața din România, PeakTech înseamnă acces la aparate de măsură pen
       { code: "P 2180", description: "multimetru digital, rezoluție 6000 counts" },
       { code: "P 3355", description: "multimetru digital, CAT III 1000V, 4000 counts" },
       { code: "P 3443", description: "multimetru digital, rezoluție 6000 counts" },
-      { code: "P 1195", description: "osciloscop portabil, 100 MHz, 2 canale, 1 GS/s" },
-      { code: "P 1205", description: "osciloscop portabil, 20 MHz, 2 canale, 100 MS/s" },
+      { code: "P 1195", description: "osciloscop portabil; parametrii se confirmă pe cod" },
+      { code: "P 1205", description: "osciloscop portabil; parametrii se confirmă pe cod" },
       { code: "P 1245", description: "osciloscop de banc, 100 MHz, 2 canale, 1 GS/s" },
       { code: "P 1260", description: "osciloscop de banc, 200 MHz, 2 canale, 2 GS/s" },
       { code: "P 1270", description: "osciloscop de banc, 300 MHz, 2 canale, 2,5 GS/s" },
@@ -249,14 +249,14 @@ Pentru piața din România, PeakTech înseamnă acces la aparate de măsură pen
     ],
     faq: [
       { q: "Ce produce PeakTech?", a: "PeakTech produce aparate de măsură electrică — multimetre digitale, osciloscoape de banc și portabile, clești ampermetrici, camere de termoviziune și surse de alimentare de laborator. Este un producător german cu sediul la Ahrensburg, orientat spre tehnicieni, electricieni și ateliere de service care au nevoie de instrumente fiabile în mai multe segmente de performanță." },
-      { q: "Cum aleg un osciloscop PeakTech după bandă și canale?", a: "Pentru electronică generală și didactică, o bandă de 20-60 MHz cu 2 canale, precum P 1205 sau P 1340, este suficientă. Pentru semnale rapide din electronica de putere sau comunicații, alegeți modele de 200-300 MHz cu rată de eșantionare peste 2 GS/s, precum P 1260 sau P 1270. Modelele cu 4 canale ajută la analiza simultană a mai multor semnale." },
+      { q: "Cum aleg un osciloscop PeakTech după bandă și canale?", a: "Pentru electronică generală și didactică, o bandă de 20-60 MHz, cu 2 sau 4 canale, precum P 1205 sau P 1340, este suficientă. Pentru semnale rapide din electronica de putere sau comunicații, alegeți modele de 200-300 MHz cu rată de eșantionare peste 2 GS/s, precum P 1260 sau P 1270. Modelele cu 4 canale ajută la analiza simultană a mai multor semnale." },
       { q: "Livrați aparate PeakTech în România și cât durează?", a: "Da, aparatele PeakTech ajung în România prin canale de aprovizionare din Uniunea Europeană, cu un termen estimat de 1–4 săptămâni, în funcție de model și de confirmarea venită de la producător. Dată fiind varietatea mare de multimetre și osciloscoape din gamă, comandăm fiecare model punctual, după confirmarea cerinței exacte." },
       { q: "Ce trebuie să trimit pentru o ofertă de aparate PeakTech?", a: "Trimiteți-ne codul exact al modelului (de exemplu P 1245 pentru osciloscop sau P 1073 pentru multimetru), categoria de măsurare necesară și eventualele accesorii — sonde, clești sau adaptoare. Cu aceste informații cerem prețul și termenul de livrare direct de la producător." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Basic multimeters – PeakTech", url: "https://www.peaktech.de/uk/Products/Electrical-engineering/Multimeters/Basic-multimeters/", publisher: "PeakTech Prüf- und Messtechnik GmbH", accessed: "2026-09-26" },
       { title: "Bench oscilloscopes – PeakTech", url: "https://www.peaktech.de/uk/Products/Electrical-engineering/Oscilloscopes/Bench-oscilloscopes/", publisher: "PeakTech Prüf- und Messtechnik GmbH", accessed: "2026-09-26" },
@@ -266,22 +266,22 @@ Pentru piața din România, PeakTech înseamnă acces la aparate de măsură pen
     name: "Sefram",
     founded: 1947,
     headquarters: "Saint-Étienne, Franța",
-    overview: `Sefram este un producător francez de aparate de măsură și achiziție de date, cu sediul la Saint-Étienne și o istorie ce începe din 1947. Din 2004, Sefram face parte din grupul american B&K Precision, care distribuie și susține gama Sefram pentru clienții europeni. Portofoliul acoperă înregistratoare și sisteme de achiziție de date multicanal, data loggere portabile pentru temperatură și umiditate, osciloscoape și multimetre de banc. Din gama Sefram putem oferta echipamente pentru monitorizarea proceselor industriale și pentru analiza rețelelor electrice monofazate și trifazate.
+    overview: `Sefram este un producător francez de aparate de măsură și achiziție de date, cu sediul la Saint-Étienne și o istorie ce începe din 1947. Din 2004, Sefram este filială a grupului american B&K Precision și oferă clienților europeni vânzări, service și suport pentru gama B&K Precision. Portofoliul acoperă înregistratoare și sisteme de achiziție de date multicanal, data loggere portabile pentru temperatură și umiditate, osciloscoape și multimetre de banc. Din gama Sefram putem oferta echipamente pentru monitorizarea proceselor industriale și pentru analiza rețelelor electrice monofazate și trifazate.
 
-Ce diferențiază Sefram în segmentul achiziției de date e capacitatea de eșantionare rapidă per canal: seriile DAS1700 și DAS1800 ating 1 milion de eșantioane pe secundă pe fiecare canal, cu posibilitatea de a extinde până la 72-80 de canale prin module suplimentare, ceea ce le face potrivite atât pentru analiza rețelelor electrice trifazate, cât și pentru capturarea unor fenomene tranzitorii rapide. Sistemele portabile din familia DAS220/DAS240, cu ecran tactil și baterie internă, concurează cu înregistratoare precum Yokogawa sau HBM în aplicații de mentenanță și analiză de proces pe teren. Data loggerul LOG1620, cu protecție IP65, extinde gama spre monitorizarea condițiilor de mediu în spații industriale sau de depozitare.
+Ce diferențiază Sefram în segmentul achiziției de date e capacitatea de eșantionare rapidă per canal: seriile DAS1700 și DAS1800 ating 1 milion de eșantioane pe secundă pe fiecare canal, cu posibilitatea de a extinde numărul de canale prin module suplimentare (până la 72 la DAS1700), ceea ce le face potrivite atât pentru analiza rețelelor electrice trifazate, cât și pentru capturarea unor fenomene tranzitorii rapide. Sistemele portabile din familia DAS220/DAS240, cu ecran tactil și baterie internă, se folosesc în aplicații de mentenanță și analiză de proces pe teren. Data loggerul LOG1620, cu protecție IP65, extinde gama spre monitorizarea condițiilor de mediu în spații industriale sau de depozitare.
 
 Pentru piața din România, Sefram înseamnă acces la sisteme de achiziție de date pentru laboratoare de cercetare, mentenanță industrială și analiza calității energiei electrice, alături de data loggere portabile pentru monitorizarea temperaturii și umidității.`,
     whyChoose: [
-      "Sisteme de achiziție de date cu până la 80 de canale și eșantionare de 1 MSa/s per canal, pentru fenomene tranzitorii rapide",
-      "Data loggere portabile cu ecran tactil și baterie internă de până la 9,5 ore pentru lucrul pe teren",
+      "Sisteme de achiziție de date extensibile modular (până la 72 de canale la DAS1700) și eșantionare de 1 MSa/s per canal, pentru fenomene tranzitorii rapide",
+      "Data loggere portabile cu ecran tactil și baterie internă de până la 15 ore (variantele -BAT) pentru lucrul pe teren",
       "Data logger LOG1620 cu protecție IP65 pentru monitorizarea temperaturii și umidității în spații industriale",
       "Fabricație în Franța pentru gama de achiziție de date, cu software dedicat Sefram Pilot și Sefram Viewer",
-      "Parte din grupul B&K Precision, cu acces la rețeaua de suport tehnic și piese de schimb a grupului",
+      "Filială a grupului B&K Precision din 2004",
     ],
     keyProducts: [
-      { name: "Sisteme de Achiziție de Date Seria DAS1700 / DAS1800", description: "Sisteme de achiziție de date de mare viteză, cu 6 până la 80 de canale analogice, eșantionare de 1 MSa/s pe fiecare canal și posibilitatea înregistrării simultane la mai multe rate de eșantionare. Folosite pentru monitorizarea senzorilor, capturarea semnalelor tranzitorii și analiza rețelelor electrice monofazate sau trifazate la frecvențe de 50, 60 sau 400 Hz." },
-      { name: "Înregistratoare Portabile Seria DAS220 / DAS240", description: "Înregistratoare portabile cu ecran tactil de 10 inci, cu 20 până la 200 de canale universale (tensiune, curent, temperatură, rezistență, frecvență), gândite pentru monitorizarea proceselor industriale, analiza defecțiunilor și analiza rețelelor electrice direct la fața locului. Varianta cu baterie internă permite funcționare autonomă în locații fără alimentare de rețea." },
-      { name: "Data Logger de Temperatură și Umiditate LOG1620", description: "Data logger compact, cu protecție IP65, pentru monitorizarea temperaturii (până la -20°C) și umidității relative (1-99%) în spații de depozitare, producție sau transport. Alarmele programabile semnalează depășirea limitelor stabilite, util la documentarea condițiilor de mediu pentru produse sensibile la temperatură sau umiditate." },
+      { name: "Sisteme de Achiziție de Date Seria DAS1700 / DAS1800", description: "Sisteme de achiziție de date de mare viteză, cu 6 canale în configurația de bază, extensibile modular (până la 72 de canale la DAS1700), eșantionare de 1 MSa/s pe fiecare canal și posibilitatea înregistrării simultane la mai multe rate de eșantionare. Folosite pentru monitorizarea senzorilor, capturarea semnalelor tranzitorii și analiza rețelelor electrice monofazate sau trifazate la frecvențe de 50, 60 sau 400 Hz." },
+      { name: "Înregistratoare Portabile Seria DAS220 / DAS240", description: "Înregistratoare portabile cu ecran tactil de 10 inci, cu 10 canale (DAS220) sau 20 de canale extensibile până la 200 (DAS240), pentru tensiune, temperatură, rezistență și frecvență, gândite pentru monitorizarea proceselor industriale, analiza defecțiunilor și analiza rețelelor electrice direct la fața locului. Varianta cu baterie internă permite funcționare autonomă în locații fără alimentare de rețea." },
+      { name: "Data Logger de Temperatură și Umiditate LOG1620", description: "Data logger compact, cu protecție IP65, pentru monitorizarea temperaturii (de la -20°C, maximum 90 de minute, până la +85°C) și umidității relative (1-99%) în spații de depozitare, producție sau transport. Alarmele programabile semnalează depășirea limitelor stabilite, util la documentarea condițiilor de mediu pentru produse sensibile la temperatură sau umiditate." },
     ],
     industries: [
       "Industrie și mentenanță — monitorizarea proceselor și analiza defecțiunilor",
@@ -295,11 +295,11 @@ Pentru piața din România, Sefram înseamnă acces la sisteme de achiziție de 
     productCodes: [
       { code: "DAS1600", description: "sistem achiziție de date, 6-72 canale, fabricat în Franța" },
       { code: "DAS1700", description: "sistem achiziție de date, până la 1 MSa/s per canal" },
-      { code: "DAS1800", description: "sistem achiziție de date, până la 80 canale analogice" },
-      { code: "DAS220", description: "înregistrator portabil, 20 canale, ecran tactil" },
-      { code: "DAS220-BAT", description: "înregistrator portabil cu baterie internă, 20 canale" },
+      { code: "DAS1800", description: "sistem achiziție de date, extensibil modular; numărul de canale se confirmă pe cod" },
+      { code: "DAS220", description: "înregistrator portabil, 10 canale, ecran tactil" },
+      { code: "DAS220-BAT", description: "înregistrator portabil cu baterie internă, 10 canale" },
       { code: "DAS240", description: "înregistrator portabil, până la 200 canale universale" },
-      { code: "DAS240-BAT", description: "înregistrator portabil cu baterie internă, 200 canale" },
+      { code: "DAS240-BAT", description: "înregistrator portabil cu baterie internă, 20 canale extensibile până la 200" },
       { code: "DAS30", description: "înregistrator portabil, 2 canale izolate, 1 MSa/s" },
       { code: "DAS50", description: "sistem achiziție de date portabil, 4 canale" },
       { code: "DAS60", description: "sistem achiziție de date portabil, canale multiple" },
@@ -307,15 +307,15 @@ Pentru piața din România, Sefram înseamnă acces la sisteme de achiziție de 
       { code: "LOG1620", description: "data logger temperatură și umiditate, protecție IP65" },
     ],
     faq: [
-      { q: "Ce produce Sefram?", a: "Sefram produce sisteme de achiziție de date, înregistratoare portabile și data loggere pentru temperatură și umiditate, alături de osciloscoape și multimetre de banc. Este un producător francez, cu sediul la Saint-Étienne, activ din 1947 și integrat din 2004 în grupul american B&K Precision, care asigură distribuția și suportul tehnic al gamei pentru clienții europeni." },
-      { q: "Câte canale poate avea un sistem de achiziție de date Sefram?", a: "Depinde de serie: modelele portabile DAS30 sau DAS50 au 2-4 canale, familia DAS220/DAS240 ajunge la 20-200 de canale universale, iar sistemele de banc DAS1700/DAS1800 pot fi extinse până la 72-80 de canale, cu eșantionare de 1 milion de eșantioane pe secundă pe fiecare canal." },
+      { q: "Ce produce Sefram?", a: "Sefram produce sisteme de achiziție de date, înregistratoare portabile și data loggere pentru temperatură și umiditate, alături de osciloscoape și multimetre de banc. Este un producător francez, cu sediul la Saint-Étienne, activ din 1947 și devenit din 2004 filială a grupului american B&K Precision, pentru ale cărui produse oferă vânzări, service și suport clienților europeni." },
+      { q: "Câte canale poate avea un sistem de achiziție de date Sefram?", a: "Depinde de serie: modelele portabile DAS30 sau DAS50 au 2-4 canale, familia DAS220/DAS240 are 10 canale (DAS220) sau 20 de canale extensibile până la 200 (DAS240), iar sistemele de banc DAS1700/DAS1800 pot fi extinse modular (până la 72 de canale la DAS1700), cu eșantionare de 1 milion de eșantioane pe secundă pe fiecare canal." },
       { q: "Livrați echipamente Sefram în România și cât durează?", a: "Da, sistemele Sefram ajung în România prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni, în funcție de numărul de canale și de confirmarea producătorului sau a grupului B&K Precision. Fiind sisteme configurabile, comandăm fiecare unitate potrivit cerinței exacte a clientului." },
       { q: "Ce trebuie să trimit pentru o ofertă Sefram?", a: "Trimiteți-ne modelul sau familia dorită (DAS, LOG sau osciloscop), numărul de canale necesar și aplicația exactă — monitorizare de proces, analiză de rețea electrică sau condiții de mediu. Cu aceste informații cerem prețul și termenul de livrare direct de la producător sau de la grupul B&K Precision." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Sefram – B&K Precision Group", url: "https://www.bkprecision.com/about/sefram", publisher: "B&K Precision Corporation", accessed: "2026-09-26" },
       { title: "DAS1700 Data Acquisition Recorder", url: "https://www.bkprecision.com/products/data-acquisition-recorders-loggers/DAS1700", publisher: "B&K Precision Corporation", accessed: "2026-09-26" },
@@ -326,24 +326,24 @@ Pentru piața din România, Sefram înseamnă acces la sisteme de achiziție de 
     name: "T&R Test Equipment",
     overview: `T&R Test Equipment este un producător britanic de aparate pentru testarea rețelelor electrice de înaltă și medie tensiune, specializat în seturi de injecție de curent primar și secundar, testere de cabluri de înaltă tensiune și micro-ohmmetre. Compania are certificare ISO 9001 și livrează echipamente către utilități publice și companii private din peste 90 de țări. Din gama T&R Test Equipment putem oferta aparate pentru testarea protecțiilor din stațiile electrice, verificarea rezistenței de contact a întrerupătoarelor și testarea izolației cablurilor de înaltă tensiune.
 
-Ce diferențiază T&R Test Equipment e orientarea spre control manual și afișaje ușor de citit, gândite pentru ingineri de protecție care lucrează în teren, nu doar în laborator. Seturile de injecție de curent primar, precum PCU1-SP sau CU-Ps, generează curenți mari pentru verificarea funcționării releelor de protecție și a transformatoarelor de curent direct în stația electrică, fără să fie nevoie de scoaterea echipamentului din instalație. Testerele de cablu de înaltă tensiune din seria KV, cu variante de la KV5-100 până la KV50-100, acoperă game diferite de tensiune pentru testarea izolației cablurilor subterane. În acest segment, T&R concurează cu producători precum Megger sau Omicron, mizând pe echipamente robuste, orientate spre utilizare de teren repetată.
+Gama T&R Test Equipment cuprinde echipamente de testare a releelor, sisteme de injecție de curent primar, micro-ohmmetre și testere de cablu. Seturile de injecție de curent primar, precum PCU1-SP sau CU-Ps, generează curenți mari pentru verificarea funcționării releelor de protecție și a transformatoarelor de curent. Testerele de cablu de înaltă tensiune din seria KV, cu variante de la KV5-100 până la KV50-100, acoperă game diferite de tensiune pentru testarea izolației cablurilor subterane.
 
 Pentru piața din România, T&R Test Equipment înseamnă acces la echipamente pentru testarea stațiilor electrice, a cablurilor de înaltă tensiune și a releelor de protecție, utile pentru operatorii de distribuție și laboratoarele PRAM.`,
     whyChoose: [
-      "Seturi de injecție de curent primar pentru testarea releelor de protecție direct în stația electrică, fără demontare",
+      "Seturi de injecție de curent primar pentru testarea releelor de protecție și a transformatoarelor de curent",
       "Testere de cablu de înaltă tensiune din seria KV, cu variante de tensiune pentru cabluri subterane diferite",
       "Certificare ISO 9001 pentru sistemul de management al calității în proiectare și fabricație",
-      "Control manual și afișaje simple, gândite pentru utilizare repetată de teren de către ingineri de protecție",
+      "Gamă care cuprinde sisteme de injecție de curent primar, micro-ohmmetre și testere de cablu de înaltă tensiune",
       "Livrări către utilități publice din peste 90 de țări, conform informațiilor publicate de producător",
     ],
     keyProducts: [
-      { name: "Seturi de Injecție de Curent Primar Seria PCU1-SP / CU-Ps", description: "Seturi de injecție de curent primar pentru testarea funcțională a releelor de protecție, transformatoarelor de curent și a întrerupătoarelor direct în stația electrică, fără a fi nevoie de scoaterea echipamentului din instalație. Generează curenți de test ajustabili în funcție de aplicație, cu ieșiri auxiliare de tensiune AC și DC pentru alimentarea releelor testate." },
-      { name: "Teste de Cablu de Înaltă Tensiune Seria KV", description: "Teste de izolație pentru cabluri de înaltă tensiune, cu variante care acoperă game diferite de tensiune de ieșire, de la seturi compacte pentru tensiuni medii până la sisteme pentru tensiuni mari, folosite la verificarea stării izolației cablurilor subterane înainte de punerea în funcțiune sau după o defecțiune. Completează gama testerul de cablu DC PT30-10." },
+      { name: "Seturi de Injecție de Curent Primar Seria PCU1-SP / CU-Ps", description: "Seturi de injecție de curent primar pentru testarea funcțională a releelor de protecție, transformatoarelor de curent și a întrerupătoarelor în stațiile electrice. Generează curenți de test ajustabili în funcție de aplicație." },
+      { name: "Testere de Cablu de Înaltă Tensiune Seria KV", description: "Testere de izolație pentru cabluri de înaltă tensiune, cu variante care acoperă game diferite de tensiune de ieșire, de la seturi compacte pentru tensiuni medii până la sisteme pentru tensiuni mari, folosite la verificarea stării izolației cablurilor subterane înainte de punerea în funcțiune sau după o defecțiune. Gama este completată de testerul de cablu DC PT30-10." },
       { name: "Set de Injecție Secundară de Curent Seria 200A-3ph", description: "Set de injecție secundară de curent trifazat pentru testarea funcțională a releelor de protecție fără a genera curenți primari mari, potrivit pentru verificări periodice în laboratoare de protecție și în stații electrice unde injecția primară nu este necesară." },
     ],
     industries: [
       "Distribuție și transport energie electrică — testarea protecțiilor din stațiile electrice",
-      "Laboratoare PRAM — T&R Test Equipment: verificarea periodică a echipamentelor de protecție",
+      "Laboratoare PRAM — verificarea periodică a echipamentelor de protecție (T And R Test Equipment)",
       "Mentenanță infrastructură electrică — testarea izolației cablurilor de înaltă tensiune",
       "Punere în funcțiune — verificarea releelor și transformatoarelor de curent",
     ],
@@ -355,26 +355,26 @@ Pentru piața din România, T&R Test Equipment înseamnă acces la echipamente p
       { code: "CU-Ps Mk2", description: "sistem injecție curent primar pentru stații electrice" },
       { code: "PCU1-SP MK3", description: "sistem injecție curent primar, testare protecții" },
       { code: "200ADM-P", description: "instrument testare cu ieșire curent și tensiune ajustabilă" },
-      { code: "100ADM-F", description: "unitate filtru accesorie pentru testarea releelor cu disc" },
+      { code: "100ADM-F", description: "unitate accesorie; destinația exactă se confirmă pe cod" },
       { code: "PT30-10 mk3", description: "tester cablu de curent continuu de înaltă tensiune" },
-      { code: "KV50-100 mk2", description: "tester cablu de curent alternativ de înaltă tensiune" },
+      { code: "KV50-100 mk2", description: "tester de cablu de înaltă tensiune" },
       { code: "KV5-100 mk3", description: "tester de cablu de înaltă tensiune, gamă medie" },
       { code: "KV10-120 mk3", description: "tester de cablu de înaltă tensiune" },
       { code: "KV15-80", description: "tester de cablu de înaltă tensiune, variantă de gamă" },
       { code: "KV30-40", description: "tester de cablu de înaltă tensiune, variantă de gamă" },
       { code: "200A-3ph mk3", description: "set injecție secundară de curent trifazat" },
-      { code: "RB10", description: "cutie rezistivă accesorie pentru testarea releelor de sincronizare" },
+      { code: "RB10", description: "cutie accesorie; destinația exactă se confirmă pe cod" },
     ],
     faq: [
       { q: "Ce produce T&R Test Equipment?", a: "T&R Test Equipment produce aparate pentru testarea rețelelor electrice de înaltă și medie tensiune — seturi de injecție de curent primar și secundar, testere de cablu de înaltă tensiune și accesorii pentru testarea releelor de protecție. Este un producător britanic certificat ISO 9001, orientat spre utilități publice și companii de mentenanță a infrastructurii electrice." },
-      { q: "Ce este un set de injecție de curent primar T&R?", a: "Este un aparat care generează curenți mari pentru testarea funcțională a releelor de protecție, transformatoarelor de curent și întrerupătoarelor direct în stația electrică, fără scoaterea echipamentului din instalație. Seriile PCU1-SP și CU-Ps de la T&R Test Equipment sunt folosite la punerea în funcțiune și la verificările periodice ale protecțiilor." },
+      { q: "Ce este un set de injecție de curent primar T&R?", a: "Este un aparat care generează curenți mari pentru testarea funcțională a releelor de protecție, transformatoarelor de curent și întrerupătoarelor în stațiile electrice. Seriile PCU1-SP și CU-Ps de la T&R Test Equipment sunt folosite la punerea în funcțiune și la verificările periodice ale protecțiilor." },
       { q: "Livrați echipamente T&R Test Equipment în România și cât durează?", a: "Da, echipamentele T&R Test Equipment ajung în România prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni, în funcție de tipul de test și de confirmarea producătorului britanic. Fiind aparate specializate de testare a protecțiilor, le comandăm punctual, după stabilirea exactă a configurației necesare." },
       { q: "Ce trebuie să trimit pentru o ofertă T&R Test Equipment?", a: "Trimiteți-ne tipul de test necesar — injecție primară, injecție secundară sau testare de cablu de înaltă tensiune —, tensiunea sau curentul cerut și eventualele accesorii. Cu aceste informații cerem prețul și termenul de livrare direct de la producător, fără să presupunem o configurație standard." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "T&R Test Equipment Ltd – Homepage", url: "https://www.trtest.com/", publisher: "T&R Test Equipment Ltd", accessed: "2026-09-26" },
       { title: "General Current Injection Testing – Application Note", url: "https://www.trtest.com/wp-content/uploads/2023/11/General-Current-Injection-Testing.pdf", publisher: "T&R Test Equipment Ltd", accessed: "2026-09-26" },
@@ -385,7 +385,7 @@ Pentru piața din România, T&R Test Equipment înseamnă acces la echipamente p
     headquarters: "Brea, California, SUA",
     overview: `Additel este un producător american de calibratoare de presiune și temperatură, cu sediul la Brea, California. Gama acoperă calibratoare automate de presiune de mână, pompe de calibrare pneumatice și hidraulice, module și indicatoare de presiune de precizie, băi portabile de calibrare a temperaturii și sisteme automate de citire a manometrelor. Din portofoliul Additel putem oferta aparate pentru laboratoare de metrologie și departamente de mentenanță care calibrează periodic manometre, traductoare de presiune și sonde de temperatură.
 
-Ce diferențiază gama Additel e combinarea generatorului și controlerului de presiune într-un singur aparat de mână: seria ADT760/ADT761A acoperă game de la vid până la 1500 psi, în funcție de variantă, cu acuratețe de până la 0,01% din domeniul de măsurare pe modelele de precizie. Pompele de calibrare din seria ADT997, complet mecanice, rămân utile acolo unde nu e nevoie de control automat, iar sistemul ADT710 automatizează citirea manometrelor analogice și digitale existente, fără să fie nevoie de înlocuirea lor. În acest segment, Additel se compară cu Fluke Calibration sau Druck, mizând pe acuratețe ridicată la un design mai compact pentru calibratoarele de mână.
+Ce diferențiază gama Additel e combinarea generatorului și controlerului de presiune într-un singur aparat de mână: seria ADT760/ADT761A acoperă game de la vid până la 1500 psi, în funcție de variantă, cu acuratețe de până la 0,01% din domeniul de măsurare pe modelele de precizie. Pompele de calibrare din seria ADT997, complet mecanice, rămân utile acolo unde nu e nevoie de control automat, iar sistemul ADT710 automatizează citirea manometrelor analogice și digitale existente, fără să fie nevoie de înlocuirea lor.
 
 Pentru piața din România, Additel înseamnă acces la calibratoare de presiune și temperatură pentru laboratoare de metrologie, companii de mentenanță industrială și departamente de calitate care trebuie să calibreze periodic manometre, traductoare și sonde.`,
     whyChoose: [
@@ -397,48 +397,48 @@ Pentru piața din România, Additel înseamnă acces la calibratoare de presiune
     ],
     keyProducts: [
       { name: "Calibratoare Automate de Presiune Seria ADT760 / ADT761A", description: "Calibratoare de presiune de mână cu generator și controler automat integrat, cu game de la vid până la 1500 psi în funcție de variantă și acuratețe de până la 0,01% din domeniul de măsurare pe modelele de precizie. Folosite pentru calibrarea manometrelor, traductoarelor de presiune și instrumentelor de proces direct la locul de instalare." },
-      { name: "Module și Indicatoare de Presiune Seria ADT160 / ADT710", description: "Module digitale de presiune de precizie și sistemul automat ADT710 pentru citirea manometrelor analogice și digitale existente, util la reducerea erorilor de citire manuală în procesele de calibrare periodică. Se integrează cu software de gestiune a calibrărilor pentru generarea automată a certificatelor și a rapoartelor de conformitate." },
-      { name: "Pompe de Calibrare Seria ADT997", description: "Pompe de calibrare hidraulice și pneumatice, acționate manual, pentru generarea presiunii de test acolo unde un calibrator automat nu este necesar sau disponibil. Se folosesc împreună cu module de presiune sau manometre de referință pentru calibrarea instrumentelor de proces în teren sau în laborator." },
+      { name: "Module și Indicatoare de Presiune Seria ADT160 / ADT710", description: "Module digitale de presiune de precizie și sistemul automat ADT710 pentru citirea manometrelor analogice și digitale existente, util la reducerea erorilor de citire manuală în procesele de calibrare periodică." },
+      { name: "Pompe de Calibrare Seria ADT997", description: "Pompe de calibrare de mână, acționate manual, pentru generarea presiunii de test acolo unde un calibrator automat nu este necesar sau disponibil. Se folosesc împreună cu module de presiune sau manometre de referință pentru calibrarea instrumentelor de proces în teren sau în laborator." },
       { name: "Băi Portabile de Calibrare a Temperaturii ADT835", description: "Baie portabilă de calibrare a temperaturii pentru verificarea sondelor, termocuplurilor și termometrelor de proces, folosită împreună cu indicatoare de referință precum ADT282 pentru citirea precisă a temperaturii de referință în timpul calibrării." },
     ],
     industries: [
       "Metrologie — calibrarea periodică a manometrelor și traductoarelor de presiune",
       "Mentenanță industrială — verificarea instrumentelor de proces la locul instalării",
       "Petrol și gaze — calibrarea instrumentelor de presiune din instalațiile de proces",
-      "Laboratoare de calitate — documentarea calibrărilor cu certificate și rapoarte de conformitate",
+      "Laboratoare de calitate — documentarea calibrărilor periodice",
     ],
     infinitrade: `Aducem calibratoare Additel la comandă pentru laboratoare de metrologie și companii de mentenanță din România, prin canale de aprovizionare din Uniunea Europeană sau direct din SUA, cu termen orientativ de 1–4 săptămâni — nu ținem această gamă pe raft, fiind aparate de precizie configurate pe domeniul de presiune cerut. Informațiile din această pagină provin din surse publice ale producătorului, iar pentru fiecare cerere spunem clar ce putem și ce nu putem confirma la momentul ofertei. Clientul trebuie să ne trimită domeniul de presiune necesar, clasa de acuratețe cerută și aplicația (calibrare manometre, traductoare sau sonde) ca să obținem oferta exactă de la producător.`,
     limitation: "Nu oferim servicii proprii de etalonare acreditată pentru calibratoarele Additel; certificatele de etalonare rămân disponibile la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "ADT760", description: "calibrator automat de presiune de mână" },
-      { code: "ADT760A", description: "calibrator automat de presiune, variantă extinsă" },
-      { code: "ADT760S", description: "calibrator automat de presiune, variantă compactă" },
+      { code: "ADT760A", description: "calibrator automat de presiune, variantă A" },
+      { code: "ADT760S", description: "calibrator automat de presiune, variantă S" },
       { code: "ADT761A", description: "calibrator portabil automat de presiune, mai multe game" },
       { code: "ADT762", description: "calibrator hidraulic de presiune, până la 15000 psi" },
-      { code: "ADT773", description: "controler de presiune de mare viteză" },
-      { code: "ADT783", description: "controler de presiune de mare viteză" },
-      { code: "ADT793", description: "controler de presiune de mare viteză" },
+      { code: "ADT773", description: "controler de presiune" },
+      { code: "ADT783", description: "controler de presiune" },
+      { code: "ADT793", description: "controler de presiune" },
       { code: "ADT715", description: "indicator de presiune de precizie" },
       { code: "ADT681A", description: "manometru digital de test" },
       { code: "ADT680A", description: "manometru digital de test" },
       { code: "ADT601Ex", description: "manometru digital pentru zone cu risc de explozie" },
       { code: "ADT835", description: "baie portabilă de calibrare a temperaturii" },
       { code: "ADT282", description: "indicator de referință pentru termometre, două canale" },
-      { code: "ADT997", description: "pompă manuală hidraulică de calibrare a presiunii" },
+      { code: "ADT997", description: "pompă manuală de calibrare a presiunii" },
       { code: "ADT710", description: "sistem automat de citire a manometrelor analogice și digitale" },
       { code: "ADT161", description: "modul digital de presiune" },
       { code: "ADT673", description: "calibrator digital de presiune" },
     ],
     faq: [
       { q: "Ce produce Additel?", a: "Additel produce calibratoare de presiune și temperatură pentru metrologie și mentenanță industrială — calibratoare automate de mână, pompe de calibrare manuale, module de presiune de precizie și sisteme automate de citire a manometrelor. Este un producător american, cu sediul la Brea, California, orientat spre laboratoare de calibrare și departamente de calitate." },
-      { q: "Ce domeniu de presiune acoperă un calibrator Additel?", a: "Depinde de model: seria ADT761A acoperă de la vid până la 1500 psi, în funcție de variantă, iar pompele hidraulice ADT762 ajung până la 15000 psi pentru aplicații de presiune ridicată. Pentru domenii foarte joase există variante dedicate de mare acuratețe. Trimiteți-ne domeniul exact necesar ca să identificăm modelul potrivit." },
+      { q: "Ce domeniu de presiune acoperă un calibrator Additel?", a: "Depinde de model: seria ADT761A acoperă de la vid până la 1500 psi, în funcție de variantă, iar calibratorul hidraulic ADT762 ajunge până la 15000 psi pentru aplicații de presiune ridicată. Trimiteți-ne domeniul exact necesar ca să identificăm modelul potrivit." },
       { q: "Livrați calibratoare Additel în România și cât durează?", a: "Da, calibratoarele Additel ajung în România prin canale de aprovizionare din Uniunea Europeană sau direct din SUA, cu un termen orientativ de 1–4 săptămâni, în funcție de domeniul de presiune și de confirmarea producătorului. Fiind aparate de precizie, le comandăm după ce stabilim exact clasa de acuratețe și domeniul necesar." },
       { q: "Ce trebuie să trimit pentru o ofertă Additel?", a: "Trimiteți-ne domeniul de presiune necesar, clasa de acuratețe cerută și aplicația exactă — calibrare de manometre, traductoare sau sonde de temperatură. Cu aceste informații cerem prețul și termenul de livrare direct de la producător, fără să presupunem o configurație standard pentru fiecare cerere." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Additel Corporation – Homepage", url: "https://www.additel.com/", publisher: "Additel Corporation", accessed: "2026-09-26" },
       { title: "761A Portable Automatic Pressure Calibrator", url: "https://additel.com/product-detail.html/761A-portable-automatic-pressure-calibrator/", publisher: "Additel Corporation", accessed: "2026-09-26" },

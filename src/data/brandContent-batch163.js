@@ -9,7 +9,7 @@ export const brandContentBatch163 = {
 
 Punctul forte tehnic vine din familia de data loggere GL: seria GL7000 e un sistem modular expandabil de la 2 la 112 canale (până la 2.000 cu module suplimentare), cu eșantionare de până la 1 MS/s, iar seria GL860 acceptă între 20 și 200 de canale, extensibilă până la 1.000, la 200 eșantioane pe secundă. Pentru măsurători rapide pe un singur corp, GL2000 și GL980 ating 1 MS/s pe 4, respectiv 8 canale izolate, cu funcție RMS integrată. Pe acest segment, Graphtec IWATSU concurează cu alți producători de data loggere multicanal, precum Sefram, care oferă game similare de înregistratoare portabile pentru tensiune și temperatură.
 
-Pentru un laborator de testare, un departament de mentenanță electrică sau un inginer care monitorizează parametri pe linii industriale din România, gama GL oferă o alternativă la înregistratoarele de date consacrate, cu posibilitatea de a crește numărul de canale pe măsură ce proiectul se extinde, fără să schimbi platforma de achiziție.`,
+Pentru un laborator de testare, un departament de mentenanță electrică sau un inginer care monitorizează parametri pe linii industriale din România, gama GL oferă o alternativă la înregistratoarele de date consacrate, cu posibilitatea de a crește numărul de canale pe măsură ce proiectul se extinde, fără a schimba platforma de achiziție.`,
     whyChoose: [
       "Sistem modular GL7000 extensibil de la 2 la 112 canale, până la 2.000 cu module suplimentare, pentru proiecte de monitorizare care cresc în timp",
       "Seria GL860 acoperă 20–200 de canale (extensibilă la 1.000), utilă la monitorizarea simultană a mai multor puncte de măsură",
@@ -18,14 +18,14 @@ Pentru un laborator de testare, un departament de mentenanță electrică sau un
       "Gamă largă de instrumente conexe — osciloscoape, multimetre și trasatoare de curbe pentru semiconductori"
     ],
     keyProducts: [
-      { name: "Data Logger Modular GL7000", description: "Sistem modular de achiziție de date, cu șasiu care acceptă între 2 și 112 canale native, extensibil la 2.000 prin conectarea mai multor unități în rețea. Eșantionare de până la 1 MS/s per canal, cu module interschimbabile pentru tensiune, temperatură, umiditate, deformație, accelerație și semnale logice. Configurația pe module permite alegerea exactă a numărului și tipului de intrări necesare, fără capacitate neutilizată." },
-      { name: "Data Loggere Midi GL860 / GL260", description: "Familie de data loggere de tip midi: GL860 acoperă 20 până la 200 de canale (extensibil la 1.000), iar GL260 e varianta de bază, cu 10 canale. Ambele eșantionează la 100 de eșantioane pe secundă și măsoară tensiune, temperatură, umiditate, deformație, accelerație și semnale logice pe același modul de intrare, diferența fiind numărul de canale disponibile simultan." },
+      { name: "Data Logger Modular GL7000", description: "Sistem modular de achiziție de date, cu șasiu care acceptă între 2 și 112 canale native, extensibil la 2.000 prin conectarea mai multor unități în rețea. Eșantionare de până la 1 MS/s per canal, cu module interschimbabile de măsurare, alese după tipul de intrare necesar. Configurația pe module permite alegerea exactă a numărului și tipului de intrări necesare, fără capacitate neutilizată." },
+      { name: "Data Loggere Midi GL860 / GL260", description: "Familie de data loggere de tip midi: GL860 acoperă 20 până la 200 de canale (extensibil la 1.000), iar GL260 e varianta de bază, cu 10 canale. GL860 eșantionează la 200 de eșantioane pe secundă, iar GL260 la 100 (valori pentru un singur canal); ambele au intrări izolate pentru tensiune, temperatură, impulsuri și semnale logice, diferența fiind numărul de canale disponibile." },
       { name: "Data Loggere de Mare Viteză GL2000 / GL980", description: "Data loggere single-body de mare viteză: GL2000 are 4 canale, iar GL980 extinde configurația la 8 canale, ambele eșantionând la 1 MS/s (1 microsecundă), cu izolare galvanică între canale și funcție de măsurare RMS integrată pentru tensiune. Potrivite pentru capturarea unor evenimente electrice rapide sau tranzitorii pe care un logger standard, cu eșantionare de ordinul milisecundelor, nu le-ar surprinde corect. Corpul unic, fără module separate, simplifică transportul între puncte de test." },
       { name: "Osciloscoape, Multimetre și Instrumente Conexe", description: "Gama include și osciloscopul DS-8000, multimetrul digital VOAC7602, contorul universal SC-7215A, amplificatorul SG-3000, trasatorul de curbe CS8000 și analizorul B-H seria SY8218-19, pentru caracterizarea componentelor și verificarea circuitelor." }
     ],
     industries: [
       "Laboratoare de testare electrică și electronică — verificarea parametrilor de tensiune și curent",
-      "Mentenanță industrială — monitorizare temperatură, umiditate și vibrații pe echipamente",
+      "Mentenanță industrială — monitorizare temperatură și umiditate pe echipamente",
       "Cercetare și dezvoltare — caracterizarea componentelor cu trasatorul de curbe și analizorul B-H",
       "Producție electronică — control de proces cu multimetre și contoare universale"
     ],
@@ -33,7 +33,7 @@ Pentru un laborator de testare, un departament de mentenanță electrică sau un
     limitation: "Compania a rezultat dintr-o fuziune recentă (decembrie 2025, operare din iulie 2026), deci nu putem confirma disponibilitatea completă a fostelor game separate sau accesoriile fiecărui model de osciloscop.",
     productCodes: [
       { code: "GL7000", description: "sistem modular de achiziție date, 2–112 canale, extensibil la 2.000" },
-      { code: "GL860", description: "data logger channel-expandable, 20–200 canale, extensibil la 1.000" },
+      { code: "GL860", description: "data logger midi, 20–200 canale, extensibil la 1.000" },
       { code: "GL260", description: "data logger midi de bază, 10 canale, eșantionare 100 S/s" },
       { code: "GL2000", description: "data logger single-body de mare viteză, 4 canale, 1 MS/s" },
       { code: "GL980", description: "data logger single-body, 8 canale izolate, 1 MS/s, funcție RMS" },
@@ -41,13 +41,13 @@ Pentru un laborator de testare, un departament de mentenanță electrică sau un
       { code: "ENVI series", description: "familie de sonde pentru osciloscoape și data loggere" },
       { code: "VOAC7602", description: "multimetru digital de banc din gama generală" },
       { code: "SC-7215A", description: "contor universal (frecvențmetru) din gama generală" },
-      { code: "SG-3000", description: "amplificator de semnal (boost amplifier) pentru teste" },
+      { code: "SG-3000", description: "amplificator de tip „boost”" },
       { code: "CS8000", description: "trasator de curbe pentru semiconductori" },
       { code: "SY8218-19", description: "analizor B-H pentru materiale magnetice" },
       { code: "B-530", description: "senzor de umiditate, accesoriu pentru data loggere GL" },
       { code: "RIC-142", description: "cablu de intrare standard pentru data loggere GL" },
       { code: "RIC-147A", description: "cablu de intrare, variantă alternativă pentru GL" },
-      { code: "RIC-144A", description: "clemă tip grabber pentru sonde de tensiune" },
+      { code: "RIC-144A", description: "clemă pentru sonde de tensiune" },
       { code: "RIC-145", description: "clemă mică pentru sonde de măsurare" },
       { code: "RIC-146A", description: "clemă mare pentru sonde de măsurare" },
       { code: "B-551", description: "rezistență de șunt 250Ω pentru măsurare curent" },
@@ -60,8 +60,8 @@ Pentru un laborator de testare, un departament de mentenanță electrică sau un
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "GRAPHTEC IWATSU Test Instruments Co.,Ltd. | Products & Support", url: "https://graphteciwatsu.com/en/", publisher: "Graphtec Iwatsu Test Instruments Co., Ltd.", accessed: "2026-09-26" },
       { title: "Product Lineup – Data Logger", url: "https://graphteciwatsu.com/en/product/logger/", publisher: "Graphtec Iwatsu Test Instruments Co., Ltd.", accessed: "2026-09-26" },
@@ -73,14 +73,14 @@ Pentru un laborator de testare, un departament de mentenanță electrică sau un
     name: "DV Power",
     founded: 2000,
     headquarters: "Stockholm, Suedia",
-    overview: `DV Power este marca comercială a IBEKO Power AB, producător suedez cu sediul la Stockholm, înființat în anul 2000 de ingineri specializați în electronică de putere. Compania dezvoltă aparate de testare pentru rețele electrice — analizoare și cronometre pentru întrerupătoare, micro-ohmetre și testere de raport de transformare pentru transformatoare, precum și testere de capacitate și descărcare pentru baterii staționare. Produsele sunt certificate ISO 9001:2015 și ISO 14001:2015 și sunt folosite de companii de distribuție și transport al energiei electrice în peste 100 de țări.
+    overview: `DV Power este marca comercială a IBEKO Power AB, producător suedez cu sediul la Stockholm, înființat în anul 2000. Compania dezvoltă aparate de testare pentru rețele electrice — analizoare și cronometre pentru întrerupătoare, micro-ohmetre și testere de raport de transformare pentru transformatoare, precum și testere de capacitate și descărcare pentru baterii staționare. Produsele sunt certificate ISO 9001:2015 și ISO 14001:2015 și sunt folosite de companii de distribuție și transport al energiei electrice în peste 100 de țări.
 
-Familia de micro-ohmetre pentru transformatoare acoperă trei niveluri: seria RMO-TW pentru măsurători de bază, seria RMO-TD cu funcție DRM și măsurare a curentului motorului de comutator (OLTC), și seria RMO-TT, cu 4 canale de temperatură, pentru situații unde variația termică influențează rezultatul. La transformatoare trifazate, seriile TWA oferă măsurare simultană pe cele trei faze, cu ecran tactil de 7 sau 10,1 inch. Pentru baterii staționare, seriile BLU acoperă game de tensiune de la sub 1V până la 1.350V DC și curenți de descărcare de până la 350A, cu softul DV-Win pentru generarea rapoartelor.
+Familia de micro-ohmetre pentru transformatoare acoperă trei niveluri: seria RMO-TW pentru măsurători de bază, seria RMO-TD cu funcție DRM și măsurare a curentului motorului de comutator (OLTC), și seria RMO-TT, cu 4 canale de temperatură, pentru situații unde variația termică influențează rezultatul. La transformatoare trifazate, seriile TWA oferă măsurare simultană pe cele trei faze; modelele avansate TWA400 și TWA500 au ecran tactil de 7, respectiv 10,1 inch, iar TWA25A și TWA40D au afișaj LCD. Pentru baterii staționare, seriile BLU acoperă game de tensiune de la sub 1V până la 1.350V DC și curenți de descărcare de până la 350A, cu softul DV-Win pentru generarea rapoartelor.
 
-Pentru un laborator PRAM sau un departament de mentenanță din sistemul energetic românesc, gama DV Power acoperă practic toate testele periodice cerute de standardele IEC pentru întrerupătoare, transformatoare și baterii staționare, cu instrumente portabile ușor de dus în teren, fără instalare complexă.`,
+Pentru un laborator PRAM sau un departament de mentenanță din sistemul energetic românesc, gama DV Power oferă instrumente portabile pentru testarea întrerupătoarelor, transformatoarelor și bateriilor staționare, utilizabile în teren fără instalare complexă.`,
     whyChoose: [
-      "Familie completă de micro-ohmetre — de la seria de bază RMO-TW până la RMO-TT cu 4 canale de temperatură",
-      "Testere trifazate TWA cu ecran tactil de 7 sau 10,1 inch, pentru măsurare simultană pe toate cele trei faze",
+      "Familie de micro-ohmetre — de la seria de bază RMO-TW până la RMO-TT cu 4 canale de temperatură",
+      "Testere trifazate TWA pentru măsurare simultană pe toate cele trei faze, cu ecran tactil de 7 sau 10,1 inch la modelele TWA400 și TWA500",
       "Descărcătoare de baterii seria BLU, de la sub 1V până la 1.350V DC, cu curenți de până la 350A",
       "Certificare ISO 9001:2015 și ISO 14001:2015, pentru calitate și management de mediu",
       "Prezență globală în peste 100 de țări"
@@ -115,13 +115,13 @@ Pentru un laborator PRAM sau un departament de mentenanță din sistemul energet
       { code: "RMO30TW", description: "ohmetru monofazat de bază, curent mediu" },
       { code: "RMO50TW", description: "ohmetru monofazat de bază, curent mai mare" },
       { code: "BLU1350D", description: "descărcător baterii 0–1350V DC, până la 100A, 40kW" },
-      { code: "BLU100C", description: "descărcător baterii 3–800V DC, până la 300A, 42kW" },
-      { code: "BLU500C", description: "descărcător baterii 3–800V DC, 300A, ecran tactil 7 inch" },
-      { code: "BLU700C", description: "descărcător baterii 3–800V DC, 300A, aproximativ 28kg" },
-      { code: "BLU110T", description: "descărcător baterii 0,9–70,5V DC, până la 350A" },
-      { code: "BLU220T", description: "descărcător baterii 0,9–70,5V DC, 350A, unitate mai grea" },
-      { code: "BLU100A", description: "descărcător baterii 3–500V DC, până la 240A" },
-      { code: "TWR250B", description: "tester raport de transformare, model recent lansat" },
+      { code: "BLU100C", description: "descărcător baterii din seria BLU-C (3–800V DC, până la 300A, 42kW pe serie)" },
+      { code: "BLU500C", description: "descărcător baterii din seria BLU-C (3–800V DC, până la 300A pe serie), ecran tactil 7 inch" },
+      { code: "BLU700C", description: "descărcător baterii din seria BLU-C (greutate 18,9–28,5 kg pe serie)" },
+      { code: "BLU110T", description: "descărcător baterii din seria BLU-T (0,9–70,5V DC, până la 350A pe serie)" },
+      { code: "BLU220T", description: "descărcător baterii din seria BLU-T (greutate 12,8–15,1 kg pe serie)" },
+      { code: "BLU100A", description: "descărcător baterii din seria BLU-A (3–500V DC, până la 240A pe serie)" },
+      { code: "TWR250B", description: "tester de raport de transformare" },
       { code: "CAT 500 Series", description: "analizor și cronometru întrerupătoare, măsurare timpi de comutație" },
     ],
     faq: [
@@ -132,8 +132,8 @@ Pentru un laborator PRAM sau un departament de mentenanță din sistemul energet
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "DV Power – Home", url: "https://www.dv-power.com/", publisher: "DV Power (IBEKO Power AB)", accessed: "2026-09-26" },
       { title: "About Us", url: "https://www.dv-power.com/about/", publisher: "DV Power (IBEKO Power AB)", accessed: "2026-09-26" },
@@ -144,9 +144,9 @@ Pentru un laborator PRAM sau un departament de mentenanță din sistemul energet
   'fluke-calibration': {
     name: "Fluke Calibration",
     headquarters: "Everett, Washington, SUA",
-    overview: `Fluke Calibration este divizia de etaloane și calibratoare a Fluke Corporation, producător american fondat în 1948, cu sediul la Everett, statul Washington, SUA, parte din grupul Fortive. Gama acoperă calibratoare electrice de laborator, calibratoare și puțuri de etalonare pentru temperatură, controlere de presiune, calibratoare de proces documentante și calibratoare pentru osciloscoape, folosite în laboratoare de metrologie și etaloane pentru verificarea periodică a instrumentelor de măsură.
+    overview: `Fluke Calibration este divizia de etaloane și calibratoare a Fluke Corporation, producător american fondat în 1948, cu sediul la Everett, statul Washington, SUA, parte din grupul Fortive. Gama acoperă calibratoare electrice de laborator, calibratoare și puțuri de etalonare pentru temperatură, controlere de presiune, calibratoare de proces cu documentare și calibratoare pentru osciloscoape, folosite în laboratoare de metrologie și etaloane pentru verificarea periodică a instrumentelor de măsură.
 
-În gama de temperatură, puțurile uscate de teren (seriile 9100S, 9103/9140) și puțurile de metrologie (seria 9170) acoperă etalonarea pe teren a termocuplelor și RTD-urilor, iar modelul 9190A, de tip ultra-cool, coboară până la temperaturi negative pentru aplicații criogenice ușoare. Calibratorul multi-produs 5560A acoperă tensiune, curent, rezistență și alte mărimi electrice într-un singur aparat de laborator, iar multimetrul de referință 8588A este descris de producător drept unul dintre cele mai stabile multimetre de mare precizie disponibile pentru laboratoare de etalonare. Calibratorul de osciloscoape 9500C ajunge la 4GHz, cu tehnologie Active Head Technology pentru reducerea erorilor de cablaj.
+În gama de temperatură, puțurile uscate de teren (seriile 9100S, 9103/9140) și puțurile de metrologie (seria 9170) acoperă etalonarea pe teren a termocuplelor și RTD-urilor, iar modelul 9190A, de tip ultra-cool, coboară până la temperaturi negative. Calibratorul multi-produs 5560A acoperă tensiune, curent, rezistență și alte mărimi electrice într-un singur aparat de laborator, iar multimetrul de referință 8588A este descris de producător drept unul dintre cele mai stabile multimetre de mare precizie disponibile pentru laboratoare de etalonare. Calibratorul de osciloscoape 9500C ajunge la 4GHz, cu tehnologie Active Head Technology pentru reducerea erorilor de cablaj.
 
 Pentru un laborator de etalonare acreditat RENAR sau un departament de metrologie internă dintr-o companie industrială din România, gama Fluke Calibration acoperă atât instrumentele de teren pentru verificări rapide, cât și etaloanele de laborator pentru cele mai exigente cerințe de incertitudine.`,
     whyChoose: [
@@ -154,7 +154,7 @@ Pentru un laborator de etalonare acreditat RENAR sau un departament de metrologi
       "Calibrator de osciloscoape 9500C, până la 4GHz, cu Active Head Technology pentru reducerea erorilor de măsurare",
       "Gamă largă de puțuri de etalonare pentru temperatură — de la modele portabile de teren până la ultra-cool 9190A",
       "Calibratoare de proces documentante (753, 754) cu comunicare HART, pentru verificarea traductoarelor din instalații de proces",
-      "Parte din Fluke Corporation (SUA, 1948) și din grupul Fortive, cu rețea globală de suport tehnic"
+      "Parte din Fluke Corporation (SUA, 1948) și din grupul Fortive"
     ],
     keyProducts: [
       { name: "Calibrator Multi-Produs 5560A", description: "Calibrator multi-produs de laborator, compatibil cu softul de management al calibrărilor MET/CAL, gândit pentru acoperirea majorității instrumentelor electrice dintr-un laborator de metrologie — multimetre, surse de tensiune și curent, aparate de măsură industriale. Panoul frontal intuitiv reduce timpul necesar pentru schimbarea între diferite tipuri de teste, util acolo unde un tehnician calibrează zilnic multe aparate diferite." },
@@ -201,8 +201,8 @@ Pentru un laborator de etalonare acreditat RENAR sau un departament de metrologi
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Calibration Tools", url: "https://www.fluke.com/en-gb/products/calibration-tools", publisher: "Fluke Corporation", accessed: "2026-09-26" },
       { title: "Temperature Calibrators", url: "https://www.fluke.com/en-gb/products/calibration-tools/temperature-calibrators", publisher: "Fluke Corporation", accessed: "2026-09-26" },

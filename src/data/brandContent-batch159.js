@@ -314,22 +314,22 @@ Pentru un laborator de conformitate electrică sau un producător industrial din
 
   janitza: {
     name: "Janitza",
-    overview: `Janitza este un producător german de analizoare de energie și rețea, fondat în 1984 și cu sediul la Wetzlar. Gama cuprinde analizoare de calitate a energiei electrice, analizoare de rețea multifuncționale și module de monitorizare a curentului diferențial, folosite pentru transparența fluxurilor de energie într-o instalație. Compania concurează în acest segment cu branduri precum Camille Bauer. Putem oferta din gama Janitza aparatele de măsură cerute curent de proiectanții și mentenanța instalațiilor electrice din România.
+    overview: `Janitza este un producător german de analizoare de energie și rețea, fondat în 1986 și cu sediul la Lahnau, Hessa. Gama cuprinde analizoare de calitate a energiei electrice, analizoare de rețea multifuncționale și module de monitorizare a curentului diferențial, folosite pentru transparența fluxurilor de energie într-o instalație. Compania concurează în acest segment cu branduri precum Camille Bauer. Putem oferta din gama Janitza aparatele de măsură cerute curent de proiectanții și mentenanța instalațiilor electrice din România.
 
-Familia UMG e organizată pe niveluri de complexitate: de la analizoare de energie compacte, precum UMG 103-CBM, la analizoare de rețea multifuncționale și modulare, precum UMG 96RM sau UMG 604-PRO, până la analizoare certificate de calitate a energiei din clasa A, precum UMG 512-PRO, folosite acolo unde măsurătorile trebuie să respecte standardele de calitate a energiei aplicabile racordării la rețea. Modulele opționale, precum cel de monitorizare a curentului diferențial rezidual, se adaugă unor analizoare de bază pentru a extinde funcțiile fără a schimba aparatul principal.
+Familia UMG e organizată pe niveluri de complexitate: de la analizoare de energie compacte, precum UMG 103-CBM, la analizoare de rețea multifuncționale și modulare, precum UMG 96RM sau UMG 604-PRO, până la analizoare certificate de calitate a energiei din clasa A, precum UMG 512-PRO, folosite acolo unde măsurătorile trebuie să respecte standardele de calitate a energiei aplicabile racordării la rețea. Modulele opționale, precum cel de monitorizare a curentului diferențial rezidual, extind funcțiile unor analizoare de bază; compatibilitatea se confirmă pe cod, din documentația Janitza.
 
 Pentru un proiectant de instalații electrice, o secție de mentenanță sau un operator de infrastructură din România, gama Janitza acoperă atât monitorizarea de bază a consumului, cât și analiza avansată a calității energiei, cerută adesea de instalațiile industriale cu sarcini neliniare sau regenerative.`,
     whyChoose: [
       "Gamă completă UMG — de la analizoare compacte de energie la clase certificate de calitate a energiei",
-      "Module opționale de monitorizare — curent diferențial rezidual adăugat fără schimbarea aparatului de bază",
-      "Producție germană — companie fondată în 1984, cu sediul la Wetzlar",
+      "Module opționale de monitorizare a curentului diferențial rezidual — compatibilitate confirmată pe cod",
+      "Producție germană — companie fondată în 1986, cu sediul la Lahnau, Hessa",
       "Software de vizualizare GridVis — completează analizoarele pentru analiza datelor pe termen lung",
     ],
     keyProducts: [
       { name: "Analizor de Calitate a Energiei UMG 512-PRO", description: "Analizor certificat de calitate a energiei electrice, din clasa de precizie A, folosit pentru măsurători conforme cu standardele de calitate aplicabile racordării la rețea. Potrivit pentru instalații industriale unde se cere documentare precisă a parametrilor de rețea, nu doar monitorizare orientativă." },
-      { name: "Analizor de Rețea Modular UMG 604-PRO", description: "Analizor de rețea funcțional extensibil, cu arhitectură modulară care permite adăugarea de funcții suplimentare de măsură pe măsură ce cresc cerințele instalației. Folosit ca aparat central de monitorizare într-un tablou electric industrial." },
+      { name: "Analizor de Rețea Modular UMG 604-PRO", description: "Analizor de rețea extensibil funcțional, cu intrări/ieșiri digitale, intrare de temperatură, gateway Modbus-RTU și programare Jasic, conform paginii producătorului. Poate fi folosit ca aparat central (master) de monitorizare a energiei într-un tablou electric industrial." },
       { name: "Analizor de Energie Compact UMG 103-CBM", description: "Analizor de energie compact, gândit pentru montaj în spații reduse din tablourile electrice, oferind măsurători de bază de energie și putere fără complexitatea unui analizor de calitate a energiei complet." },
-      { name: "Modul de Monitorizare Curent Diferențial 96-RCM-E", description: "Modul de extensie plug-and-play pentru monitorizarea curentului diferențial rezidual, adăugat unui analizor de bază din familia UMG 96 pentru a extinde funcțiile de monitorizare a siguranței electrice a instalației." },
+      { name: "Modul de Monitorizare Curent Diferențial 96-RCM-E", description: "Modul pentru monitorizarea curentului diferențial rezidual (RCM); compatibilitatea cu analizoarele de bază și funcțiile exacte le confirmăm pe cod, din documentația Janitza." },
     ],
     industries: [
       "Centre de date — monitorizarea consumului și a calității energiei",
@@ -346,7 +346,7 @@ Pentru un proiectant de instalații electrice, o secție de mentenanță sau un 
       { code: "UMG 604-PRO", description: "analizor de rețea, extensibil funcțional" },
       { code: "UMG 96RM", description: "analizor de rețea multifuncțional" },
       { code: "UMG 96-PQ-L", description: "analizor de putere modular, extensibil" },
-      { code: "UMG 96-PQ-L-LP", description: "analizor de putere modular, extensibil" },
+      
       { code: "UMG 800", description: "analizor de energie modular, extensibil" },
       { code: "UMG 96-PA", description: "analizor de energie" },
       { code: "UMG 103-CBM", description: "analizor de energie compact" },
@@ -360,8 +360,8 @@ Pentru un proiectant de instalații electrice, o secție de mentenanță sau un 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Janitza electronics GmbH — Startseite", url: "https://www.janitza.com/", publisher: "Janitza electronics GmbH", accessed: "2026-09-26" },
       { title: "Janitza — Produkte (Power Quality Analyzer)", url: "https://www.janitza.com/products.html", publisher: "Janitza electronics GmbH", accessed: "2026-09-26" },
@@ -372,15 +372,15 @@ Pentru un proiectant de instalații electrice, o secție de mentenanță sau un 
     name: "Vanguard Instruments",
     overview: `Vanguard Instruments este un producător american de aparate de diagnostic pentru echipamentele de stație electrică, parte a familiei de branduri Doble Engineering, cu sediul la Ontario, California. Gama acoperă testarea transformatoarelor (raport de transformare, rezistență de înfășurare, curent de excitație), testarea întreruptoarelor și testarea relelor de protecție. Compania concurează în acest segment cu branduri precum DV Power. Putem oferta din gama Vanguard aparatele folosite curent de laboratoarele de testare a echipamentelor de înaltă tensiune din România.
 
-Portofoliul e structurat pe tipul de echipament testat: testere de raport de transformare (TTR) din seriile TRF și ATRT, micro-ohmmetre pentru rezistența de înfășurare din seriile TRM și Auto-Ohm, teserele de curent pentru transformatoare de curent din seria EZCT, și aparate dedicate testării întreruptoarelor — analizoare de timp de comutare, precum DigiTMR S2, și testere de întrerupătoare cu vid, precum VBT-75 S2. Pentru protecție există un injector primar de curent, PCI-600, folosit la verificarea funcționării releelor și a circuitelor de protecție.
+Portofoliul e structurat pe tipul de echipament testat: testere de raport de transformare (TTR) din seriile TRF și ATRT, micro-ohmmetre pentru rezistența de înfășurare din seriile TRM și Auto-Ohm, testerele pentru transformatoare de curent din seria EZCT, și aparate dedicate testării întreruptoarelor — analizoare de timp de comutare, precum DigiTMR S2, și testere de întrerupătoare cu vid, precum VBT-75 S2. Pentru protecție există un injector primar de curent, PCI-600, folosit la verificarea funcționării releelor și a circuitelor de protecție.
 
-Pentru un laborator PRAM sau o echipă de mentenanță a stațiilor electrice din România, gama Vanguard acoperă majoritatea testelor periodice cerute pentru transformatoare, întreruptoare și circuite de protecție, cu aparate certificate ISO 9001 și acreditate ISO/IEC 17025 la nivel de producător.`,
+Pentru un laborator PRAM sau o echipă de mentenanță a stațiilor electrice din România, gama Vanguard acoperă testarea transformatoarelor, a întreruptoarelor și a circuitelor de protecție; producătorul este certificat ISO 9001:2015 și are servicii de etalonare în laborator acreditate ISO/IEC 17025:2017.`,
     whyChoose: [
       "Gamă completă pentru diagnosticul stațiilor electrice — transformatoare, întreruptoare, relee de protecție",
       "Testere de raport de transformare TTR — seriile TRF și ATRT pentru verificarea transformatoarelor",
       "Micro-ohmmetre dedicate — seriile TRM și Auto-Ohm pentru rezistența de înfășurare și de contact",
-      "Producător certificat ISO 9001:2015 și acreditat ISO/IEC 17025:2017",
-      "Parte a familiei de branduri Doble Engineering — susținere industrială pentru continuitatea gamei",
+      "Producător certificat ISO 9001:2015, cu servicii de etalonare în laborator acreditate ISO/IEC 17025:2017",
+      "Parte a grupului Doble Engineering, conform site-ului producătorului",
     ],
     keyProducts: [
       { name: "Testere de Raport de Transformare Seriile TRF/ATRT", description: "Aparate pentru măsurarea raportului de transformare (TTR) la transformatoare de putere și de distribuție, folosite la recepția și verificarea periodică a transformatoarelor din stațiile electrice. Seria ATRT include variante automatizate pentru testare rapidă a mai multor prize ale transformatorului." },
@@ -428,8 +428,8 @@ Pentru un laborator PRAM sau o echipă de mentenanță a stațiilor electrice di
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Vanguard Instruments — Doble Engineering", url: "https://www.doble.com/about/vanguard-instruments/", publisher: "Doble Engineering Company", accessed: "2026-09-26" },
       { title: "TRM-403 Vanguard TRM-403", url: "https://www.doble.com/product/trm-403/", publisher: "Doble Engineering Company", accessed: "2026-09-26" },
