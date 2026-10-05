@@ -7,19 +7,19 @@ export const brandContentBatch55 = {
     headquarters: "Mestrino (Padova), Italia",
     overview: `DAB Pumps este un producător italian de echipamente de pompare a apei, cu sediul la Mestrino, lângă Padova, activ din 1975. Gama acoperă circulatoare pentru încălzire, grupuri electronice de presurizare, pompe centrifuge multietajate și autoamorsante, pompe submersibile pentru foraje și drenaj, precum și pompe dedicate stingerii incendiilor. Pentru piața din România putem oferta atât unități individuale, cât și stații complete de presurizare, configurate pe debitul și presiunea cerute de instalație.
 
-Ce diferențiază DAB e lățimea gamei: de la circulatorul electronic Evosta, cu turație variabilă în funcție de cererea instalației, până la sistemul compact EsyBox POP, care integrează pompă, rezervor și electronică de control într-o singură carcasă. Configuratorul propriu al producătorului, DNA, ajută la alegerea rapidă a modelului pe baza parametrilor reali de debit și presiune. În segmentul pompelor rezidențiale și de presurizare, DAB se compară frecvent cu Pedrollo și cu Lowara din portofoliul Xylem, ambele branduri italiene cu structură de gamă asemănătoare.
+Ce diferențiază DAB e lățimea gamei: de la circulatorul electronic Evosta, cu turație variabilă în funcție de cererea instalației, până la sistemul compact EsyBox POP, care integrează pompă, electronică de control cu variator de turație și senzori de presiune într-o singură unitate. Aplicația DNA (DAB Navigator Application) a producătorului ajută la alegerea rapidă a modelului pe baza parametrilor reali de debit și presiune. În segmentul pompelor rezidențiale și de presurizare, DAB se compară frecvent cu Pedrollo și cu Lowara din portofoliul Xylem, ambele branduri italiene cu structură de gamă asemănătoare.
 
 Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitară, de la pompa de circulație până la stația completă de presurizare, utilă la clădiri rezidențiale mari, hoteluri sau birouri unde apa trebuie ridicată pe mai multe niveluri. Piesele de schimb și accesoriile completează oferta pentru mentenanța instalațiilor deja montate.`,
     whyChoose: [
       "Gamă unitară, de la circulatoare de încălzire până la stații complete de presurizare, utilă pentru proiecte cu cerințe mixte",
-      "Seria EsyBox POP integrează pompă, rezervor și electronică de control într-o singură carcasă compactă, fără presostat extern separat",
-      "Configuratorul DNA al producătorului ajută la alegerea rapidă a modelului pe baza debitului și presiunii cerute de instalație",
+      "EsyBox POP este un sistem compact all-in-one (pompă, variator de turație și senzori de presiune integrați), fără presostat extern separat",
+      "Aplicația DNA (DAB Navigator Application) a producătorului ajută la alegerea rapidă a modelului pe baza debitului și presiunii cerute de instalație",
       "Cataloage tehnice separate pentru pompe multietajate, centrifuge electronice, submersibile și pentru stingere incendii, cu specificații publice",
-      "Producție italiană cu rețea de distribuție extinsă în Europa, utilă pentru continuitatea pieselor de schimb pe termen lung"
+      "Producător cu sediul în Italia și unități de producție în mai multe țări; disponibilitatea pieselor de schimb se confirmă pe cod"
     ],
     keyProducts: [
-      { name: "Seria Evosta", description: "Circulatoare electronice pentru încălzire, cu reglare automată a turației în funcție de cererea reală a instalației, pentru case și clădiri de dimensiuni mici sau medii. Înlocuiesc circulatoarele vechi cu turație fixă și reduc consumul electric prin funcționarea proporțională cu nevoia de căldură. Montaj simplu pe conducta de tur sau retur, cu afișaj pentru citirea rapidă a stării de funcționare. Clientul trebuie să indice diametrul conductei și puterea instalației pentru selecția modelului potrivit." },
-      { name: "EsyBox POP", description: "Sistem compact de presurizare a apei, cu pompă, rezervor de expansiune și electronică de control integrate într-o singură carcasă, gândit pentru case, apartamente și clădiri mici unde spațiul tehnic e limitat. Pornește și oprește automat pompa în funcție de cererea de apă, fără presostat separat. Pentru ofertă, clientul trebuie să transmită debitul maxim necesar și înălțimea de pompare până la ultimul punct de consum." },
+      { name: "Seria Evosta", description: "Circulatoare electronice pentru încălzire, cu reglare automată a turației în funcție de cererea reală a instalației, pentru case și clădiri de dimensiuni mici sau medii. Înlocuiesc circulatoarele vechi cu turație fixă și reduc consumul electric prin funcționarea proporțională cu nevoia de căldură. Montaj pe conducta de tur sau retur. Clientul trebuie să indice diametrul conductei și puterea instalației pentru selecția modelului potrivit." },
+      { name: "EsyBox POP", description: "Sistem compact de presurizare a apei, cu pompă, electronică de control cu variator de turație și senzori de presiune integrate într-o singură unitate, gândit pentru locuințe cu una sau două băi, unde spațiul tehnic este limitat. Pornește și oprește automat pompa în funcție de cererea de apă, fără presostat separat. Pentru ofertă, clientul trebuie să transmită debitul maxim necesar și înălțimea de pompare până la ultimul punct de consum." },
       { name: "Pompe centrifuge multietajate și autoamorsante", description: "Game dedicate ridicării presiunii apei la clădiri cu mai multe niveluri sau alimentate din rezervor, cu variante de suprafață și montaj orizontal. Producătorul publică documentație tehnică separată pentru fiecare familie. Pentru selecție, clientul trebuie să precizeze debitul, înălțimea de pompare și tipul sursei de apă (rețea, rezervor sau puț)." },
       { name: "Pompe submersibile pentru foraje și drenaj", description: "Pompe pentru extragerea apei din puțuri și foraje, alături de variante pentru drenaj și ape cu impurități. Alegerea modelului depinde de diametrul forajului, adâncimea apei și debitul dorit, informații pe care clientul trebuie să le transmită înainte de ofertare." }
     ],
@@ -55,7 +55,7 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
       },
       {
         "code": "FEKA BVP 700/750",
-        "description": "pompă cu tocător pentru ape reziduale, debit 1-18 m³/h"
+        "description": "pompă pentru ape murdare cu particule solide de până la 38 mm, debit 1-18 m³/h, până la 12 m"
       },
       {
         "code": "FEKA VS 550/750/1000/1200",
@@ -105,7 +105,7 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
     faq: [
       {
         "q": "Ce diferență este între seriile Feka și Nova de la DAB?",
-        "a": "Seria Nova este gândită pentru apă curată sau ușor încărcată, cu debite de la 1 până la 16 m³/h, potrivită pentru drenaj menajer. Seria Feka acoperă ape uzate și reziduale, unele variante, precum Feka VS Grinder sau Feka BVP, având rotor cu tocător pentru solide, cu debite ce pot ajunge la 32 m³/h și înălțimi de pompare mai mari, până la 25 m. Alegerea depinde de tipul de fluid vehiculat."
+        "a": "Seria Nova este gândită pentru apă curată sau ușor încărcată, cu debite de la 1 până la 16 m³/h, potrivită pentru drenaj menajer. Seria Feka acoperă ape uzate și reziduale, varianta Feka VS Grinder având rotor cu tocător pentru solide, cu debite ce pot ajunge la 32 m³/h și înălțimi de pompare mai mari, până la 25 m. Alegerea depinde de tipul de fluid vehiculat."
       },
       {
         "q": "Cum aleg dimensiunea corectă a unei pompe submersibile DAB pentru drenaj?",
@@ -126,8 +126,8 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
     ],
     evidenceClass: "zero-evidence",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Submersible Pumps Catalogue","url":"https://www.dabpumps.com/sites/default/files/catalogs/07_60171427_SUBMERSIBLE%20PUMPS_TC_ENG.pdf","publisher":"DAB Pumps","accessed":"2026-09-23"},
       {"title":"EsyBox Pop","url":"https://www.dabpumps.com/en/products/multistage-centrifugal-and-self-priming-pumps/automatic-booster-system-with-variable_frequency_drive/esybox_pop","publisher":"DAB Pumps","accessed":"2026-09-23"},
@@ -381,13 +381,13 @@ Pentru fermieri, instalatori și distribuitori din România, Pedrollo rămâne o
     headquarters: "Minneapolis, Minnesota, SUA",
     overview: `Graco este un producător american de echipamente pentru manipularea fluidelor, cu sediul la Minneapolis, Minnesota, fondat în 1926. Gama acoperă pompe pneumatice cu diafragmă, pistoale și sisteme de vopsire airless, sisteme de lubrifiere automată și echipamente de dozare pentru adezivi și etanșanți. Pentru piața din România putem oferta în principal seria Husky de pompe pneumatice, folosite pentru transferul de fluide chimice și vâscoase în industrie.
 
-Seria Husky acoperă un interval larg de debite, de la modelul compact Husky 1050, cu 0,64 litri pe ciclu la 47 de cicluri pe minut, până la Husky 15120, cu 2,4 litri pe ciclu la 12,5 cicluri pe minut și variantă certificată ATEX pentru transferul de acizi. Există și varianta total încapsulată ChemSafe 1040, din PTFE sau polipropilenă, pentru fluide extrem de corozive. Fiind pompe cu diafragmă acționate pneumatic, nu au piese rotative expuse la fluid, ceea ce le face potrivite acolo unde o pompă centrifugală clasică ar fi vulnerabilă la coroziune sau abraziune.
+Seria Husky acoperă volume pe ciclu între 0,64 litri (Husky 1050, la 47 de cicluri pe minut) și 2,4 litri (Husky 15120, la 12,5 cicluri pe minut), cu variantă certificată ATEX pentru transferul de acizi. Există și varianta total încapsulată ChemSafe 1040, din PTFE sau polipropilenă, pentru fluide extrem de corozive. Fiind pompe cu diafragmă acționate pneumatic, nu au piese rotative expuse la fluid, ceea ce le face potrivite acolo unde o pompă centrifugală clasică ar fi vulnerabilă la coroziune sau abraziune.
 
 Pentru industria chimică și de procesare din România, Husky rămâne o soluție pentru transferul controlat de fluide corozive sau vâscoase, în special acolo unde presiunea de alimentare variază sau unde funcționarea intermitentă e frecventă.`,
     whyChoose: [
       "Pompe pneumatice cu diafragmă, fără piese rotative expuse fluidului, potrivite pentru medii corozive sau abrazive",
       "Variantă ChemSafe cu corp total încapsulat din PTFE sau polipropilenă, pentru acizi extrem de agresivi",
-      "Interval larg de debite, de la câțiva litri pe minut până la câteva zeci de litri pe minut la modelele mari",
+      "Interval de volume pe ciclu între 0,64 și 2,4 litri, la modelele Husky 1050–15120",
       "Variante certificate ATEX pentru zone cu risc de explozie, disponibile la mai multe modele din serie",
       "Funcționare fără energie electrică la punctul de pompare, utilă în zone fără alimentare electrică sigură"
     ],
@@ -403,7 +403,7 @@ Pentru industria chimică și de procesare din România, Husky rămâne o soluț
       "Automotive — sisteme de lubrifiere automată în linii de producție",
       "Alimentară — transfer de fluide vâscoase în variante compatibile cu igiena alimentară"
     ],
-    infinitrade: `Echipamentele Graco le aducem la comandă prin rețeaua europeană a producătorului, fără date proprii despre disponibilitatea imediată a fiecărui model din seria Husky. Ne bazăm pe cataloagele tehnice publice ale producătorului pentru parametrii de debit și compatibilitate chimică, iar termenul orientativ de livrare la comandă este de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de tipul de fluid transportat, vâscozitatea aproximativă și dacă e necesară certificarea ATEX. Nu putem confirma stocuri locale pentru fiecare variantă de etanșare sau material de contact cu fluidul.`,
+    infinitrade: `Echipamentele Graco le aducem la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre disponibilitatea imediată a fiecărui model din seria Husky. Ne bazăm pe cataloagele tehnice publice ale producătorului pentru parametrii de debit și compatibilitate chimică, iar termenul orientativ de livrare la comandă este de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de tipul de fluid transportat, vâscozitatea aproximativă și dacă e necesară certificarea ATEX. Nu putem confirma stocuri locale pentru fiecare variantă de etanșare sau material de contact cu fluidul.`,
     limitation: "Nu oferim configurare software pentru sistemele electronice de dozare Graco și nu putem confirma disponibilitatea imediată a fiecărei variante de etanșare din gamă.",
     productCodes: [
       {
@@ -471,8 +471,8 @@ Pentru industria chimică și de procesare din România, Husky rămâne o soluț
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Graco - How to Select the Correct Husky Pump","url":"https://www.graco.com/gb/en/in-plant-manufacturing/solutions/articles/how-to-select-the-correct-husky-pump.html","publisher":"Graco Inc.","accessed":"2026-09-26"},
       {"title":"Graco - sitemap produse in-plant manufacturing (us/en)","url":"https://www.graco.com/us/en/sitemap-2.xml","publisher":"Graco Inc.","accessed":"2026-09-26"},
@@ -596,7 +596,7 @@ Pentru instalatori și proiectanți de instalații termice din România, Caleffi
     name: "Honeywell",
     overview: `Honeywell Process Solutions este divizia de automatizare industrială a grupului american Honeywell, axată pe sisteme de control, instrumente de proces și senzori pentru instalații industriale. Platforma sa principală, Experion PKS, este un sistem de control distribuit (DCS) folosit în rafinării, uzine chimice și instalații de tratare a apei. Pentru piața din România putem oferta transmitere de presiune și temperatură din gama SmartLine, plus instrumente de proces conexe.
 
-Gama SmartLine acoperă atât transmitere de temperatură, precum STT850, cu acuratețe digitală de până la 0,1°C pentru intrări RTD și stabilitate de 0,01% din domeniu pe an timp de zece ani, cât și transmitere de presiune din seria STG700, disponibile în cinci trepte, de la 0-3,5 bar până la 0-690 bar, cu acuratețe standard de până la 0,055% din domeniul de măsurare. Toate variantele au certificări SIL 2/3 și aprobări pentru zone explozive (ATEX, IECEx, FM, CSA). Pe acest segment, Honeywell se distinge de Caleffi, alt brand din oferta noastră, care acoperă hidronica, nu automatizarea de proces.
+Gama SmartLine acoperă atât transmitere de temperatură, precum STT850, cu acuratețe digitală de până la 0,1°C pentru intrări RTD și stabilitate de 0,01% din domeniu pe an timp de zece ani, cât și transmitere de presiune din seria STG700, disponibile în cinci trepte, de la 0-3,5 bar până la 0-690 bar, cu acuratețe standard de până la 0,055% din domeniul de măsurare. Toate variantele au certificări SIL 2/3 și aprobări pentru zone explozive (ATEX, IECEx, FM, CSA).
 
 Pentru instalații industriale din România — rafinării, chimie, tratare apă — gama SmartLine oferă o alternativă certificată acolo unde precizia și siguranța funcțională (SIL) contează mai mult decât prețul unitar al transmiterului.`,
     whyChoose: [
@@ -685,7 +685,7 @@ Pentru instalații industriale din România — rafinării, chimie, tratare apă
     faq: [
       {
         "q": "Ce diferență există între seriile SmartLine ST700 și ST800 de la Honeywell?",
-        "a": "Familia ST700 acoperă transmitere de presiune standard, manometrică, diferențială, absolută și cu flanșă, fiind gândită ca înlocuitor cost-eficient pentru instalații existente. Seria ST800, prin modelele STG830 până la STG89L, oferă intervale de măsurare mai largi, de la 0-3,5 bar până la 0-690 bar, și o acuratețe de până la 0,0375% din interval, pentru aplicații cu cerințe superioare de precizie."
+        "a": "Familia ST700 acoperă transmitere de presiune standard, manometrică, diferențială, absolută și cu flanșă, fiind gândită ca înlocuitor cost-eficient pentru instalații existente. Seria ST800, prin modelele STG830 până la STG89L, oferă o acuratețe de până la 0,0375% din interval (față de 0,055% la seria STG700), pentru aplicații cu cerințe superioare de precizie; intervalele de presiune sunt comparabile, de la 0-3,5 bar până la 0-690 bar."
       },
       {
         "q": "Cum aleg transmiterul de temperatură SmartLine potrivit?",
@@ -706,8 +706,8 @@ Pentru instalații industriale din România — rafinării, chimie, tratare apă
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"SmartLine ST700 Pressure Transmitters","url":"https://process.honeywell.com/us/en/products/field-instruments/pressure-transmitters/smartline-st700-pressure-transmitters","publisher":"Honeywell","accessed":"2026-09-23"},
       {"title":"SmartLine Temperature Transmitters","url":"https://process.honeywell.com/us/en/products/field-instruments/temperature-transmitters/smartline-temperature-transmitters","publisher":"Honeywell","accessed":"2026-09-23"},
@@ -1106,7 +1106,7 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
       "Construcții și minerit — aer comprimat pentru utilaje și foraj",
       "Electronică și semiconductori — aer comprimat de înaltă puritate"
     ],
-    infinitrade: `Compresoarele Atlas Copco le aducem la comandă prin rețeaua europeană a producătorului, fără date proprii despre stocul fiecărei fabrici — spunem clar ce putem confirma din fișele tehnice publice ale seriei GA. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de putere și de opțiunile alese (uscător integrat, variator de turație). Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și dacă instalația cere aer fără ulei. Nu confirmăm disponibilitate imediată pentru fiecare variantă de putere sau pentru compresoarele de gaz de proces.`,
+    infinitrade: `Compresoarele Atlas Copco le aducem la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici — spunem clar ce putem confirma din fișele tehnice publice ale seriei GA. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de putere și de opțiunile alese (uscător integrat, variator de turație). Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și dacă instalația cere aer fără ulei. Nu confirmăm disponibilitate imediată pentru fiecare variantă de putere sau pentru compresoarele de gaz de proces.`,
     limitation: "Nu oferim proiectare de rețea de aer comprimat completă și nu putem confirma stocuri locale pentru fiecare variantă de putere din gama GA.",
     productCodes: [
       {
@@ -1115,7 +1115,7 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
       },
       {
         "code": "GA 30-90",
-        "description": "Compresor cu șurub cu injecție de ulei"
+        "description": "Compresor cu șurub cu injecție de ulei; modelul exact (GA 30+, GA 37-90) se confirmă din fișa tehnică"
       },
       {
         "code": "GA 37-90",
@@ -1139,15 +1139,15 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
       },
       {
         "code": "GA 90",
-        "description": "Compresor cu șurub cu injecție de ulei, putere maximă din gamă"
+        "description": "Compresor cu șurub cu injecție de ulei, 90 kW"
       },
       {
         "code": "GA 37-110 VSD+",
-        "description": "Compresor cu șurub cu turație variabilă"
+        "description": "Compresor cu șurub cu turație variabilă; modelul exact se confirmă din fișa tehnică"
       },
       {
         "code": "GA 160 VSD",
-        "description": "Compresor cu șurub cu turație variabilă, capacitate mare"
+        "description": "Compresor cu șurub cu turație variabilă; modelul exact se confirmă din fișa tehnică"
       }
     ],
     faq: [
@@ -1165,7 +1165,7 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
       },
       {
         "q": "Ce informații trimit pentru o ofertă de compresor Atlas Copco GA?",
-        "a": "Este util să precizați debitul de aer necesar (l/min sau m³/min), presiunea de lucru dorită și dacă instalația necesită variantă cu turație variabilă. Aceste detalii permit alegerea corectă între modelele din seria GA, de la GA 30+ până la GA 160 VSD."
+        "a": "Este util să precizați debitul de aer necesar (l/min sau m³/min), presiunea de lucru dorită și dacă instalația necesită variantă cu turație variabilă. Aceste detalii permit alegerea corectă între modelele din seria GA, din seria GA."
       },
       {
         "q": "Ce diferență este între compresoarele Atlas Copco GA 55 și GA 90?",
@@ -1174,8 +1174,8 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"GA Screw Compressor","url":"https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-screw-compressor","publisher":"Atlas Copco","accessed":"2026-09-22"},
       { title: "Atlas Copco USA", url: "https://www.atlascopco.com/en-us/", publisher: "Atlas Copco", accessed: "2026-09-22" },
@@ -1422,9 +1422,9 @@ Pentru fabricile din România cu nevoie de aer comprimat industrial general, ser
     name: "Mahle",
     founded: 1920,
     headquarters: "Stuttgart, Germania",
-    overview: `Mahle este un furnizor german de componente pentru motoare și sisteme de filtrare, cu sediul la Stuttgart, fondat în 1920. Gama de filtre acoperă filtre de ulei, aer, combustibil, habitaclu și filtre pentru soluția de uree (AdBlue) folosită la sistemele SCR de reducere a emisiilor. Pentru piața din România putem oferta filtre Mahle pentru motoare industriale, utilaje mobile și echipamente de pe șantiere.
+    overview: `Mahle este un furnizor german de componente pentru motoare și sisteme de filtrare, cu sediul la Stuttgart, fondat în 1920. Gama de filtre acoperă filtre de ulei, aer, combustibil, habitaclu și filtre pentru soluția de uree (AdBlue) folosită la sistemele SCR de reducere a emisiilor. Pentru piața din România putem oferta la comandă filtre Mahle pentru motoare, utilaje mobile, motociclete și ATV-uri, pe baza codului original.
 
-Filtrele de aer Mahle sunt descrise de producător ca reținând până la 99,98% din praful, funinginea și particulele de anvelopă din aerul aspirat de motor, cu variante din materiale celulozice, netesute sintetice sau combinații. Filtrele de combustibil acoperă și aplicații dincolo de automobile — autobuze, nave, excavatoare și încărcătoare pe roți — unde protejarea sistemelor moderne de injecție e critică. Filtrele pentru habitaclu, în varianta CareMetix cu tehnologie S5, adaugă filtrare cu spectru larg față de filtrele standard cu carbon activ. Mahle concurează pe acest segment cu producători specializați în filtrare industrială.
+Filtrele de aer Mahle sunt descrise de producător ca reținând până la 99,98% din praful, funinginea și particulele de anvelopă din aerul aspirat de motor, cu variante din materiale celulozice, netesute sintetice sau combinații. Filtrele de combustibil acoperă și aplicații dincolo de automobile — autobuze, nave, excavatoare și încărcătoare pe roți — unde protejarea sistemelor moderne de injecție e critică. Filtrele pentru habitaclu, în varianta CareMetix cu tehnologie S5, adaugă filtrare cu spectru larg față de filtrele standard cu carbon activ. 
 
 Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pentru filtre compatibile cu motoare diesel folosite pe excavatoare, încărcătoare și alte utilaje mobile, unde intervalul de schimb al filtrului contează pentru disponibilitatea utilajului.`,
     whyChoose: [
@@ -1432,13 +1432,13 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       "Filtre de combustibil pentru utilaje mobile — excavatoare, încărcătoare pe roți — nu doar pentru automobile",
       "Filtre de habitaclu CareMetix cu tehnologie S5, cu spectru de filtrare mai larg decât varianta standard",
       "Filtre dedicate soluției de uree (AdBlue) pentru sistemele SCR de reducere a emisiilor diesel",
-      "Producător cu 127 de locații de producție la nivel global, utilă pentru continuitatea aprovizionării cu filtre"
+      "Producător cu 127 de locații de producție la nivel global, conform site-ului Mahle"
     ],
     keyProducts: [
       { name: "Filtre de ulei", description: "Filtre pentru protejarea lagărelor și componentelor mobile ale motorului prin reținerea impurităților din uleiul de ungere, disponibile pentru motoare pe benzină, diesel și pentru motoare mici sau de motociclete. Clientul trebuie să transmită modelul exact al motorului sau codul original al filtrului pentru identificarea corectă." },
       { name: "Filtre de aer", description: "Filtre pentru aerul aspirat de motor, cu eficiență de reținere de până la 99,98% pentru praf, funingine și particule fine, în variante celulozice, sintetice sau combinate. Selecția depinde de modelul motorului și de mediul de operare (praf, șantier, teren agricol)." },
       { name: "Filtre de combustibil pentru utilaje mobile", description: "Filtre pentru protejarea sistemelor de injecție la autobuze, nave, excavatoare și încărcătoare pe roți, unde impuritățile din combustibil pot afecta injectoarele moderne de înaltă presiune. Clientul trebuie să indice tipul de utilaj și modelul motorului." },
-      { name: "Filtre de habitaclu CareMetix", description: "Filtre pentru aerul din cabina utilajului sau a vehiculului, cu tehnologie S5 cu spectru larg de filtrare, recomandate pentru schimb la fiecare 15.000-20.000 km sau echivalentul în ore de funcționare." }
+      { name: "Filtre de habitaclu CareMetix", description: "Filtre pentru aerul din cabina utilajului sau a vehiculului, cu tehnologie S5 cu spectru larg de filtrare, cu schimb recomandat de producător la 15.000–20.000 km." }
     ],
     industries: [
       "Construcții — filtre pentru excavatoare și încărcătoare pe roți",
@@ -1476,7 +1476,7 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       },
       {
         "code": "LX 1293",
-        "description": "filtru de aer pentru motociclete de generație mai nouă"
+        "description": "filtru de aer pentru motociclete"
       },
       {
         "code": "LX 1710",
@@ -1484,11 +1484,11 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       },
       {
         "code": "LX 1892",
-        "description": "filtru de aer pentru motociclete, model mai recent"
+        "description": "filtru de aer pentru motociclete"
       },
       {
         "code": "LX 3013",
-        "description": "filtru de aer pentru motociclete, ultimul cod din gamă"
+        "description": "filtru de aer pentru motociclete"
       },
       {
         "code": "OC 5",
@@ -1516,11 +1516,11 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       },
       {
         "code": "OX 410",
-        "description": "filtru de ulei tip cartuș pentru motociclete recente"
+        "description": "filtru de ulei tip cartuș pentru motociclete"
       },
       {
         "code": "OX 793",
-        "description": "filtru de ulei tip cartuș, ultimul cod din catalog"
+        "description": "filtru de ulei tip cartuș pentru motociclete și ATV-uri"
       },
       {
         "code": "KL 145",
@@ -1536,7 +1536,7 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       },
       {
         "code": "ATX 280",
-        "description": "unitate de spălare pentru transmisii, capacitate mai mare"
+        "description": "unitate de service pentru spălarea transmisiilor automate, model ATX 280"
       }
     ],
     faq: [
@@ -1558,13 +1558,13 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       },
       {
         "q": "Ce este unitatea Mahle ATX pentru transmisii automate?",
-        "a": "ATX 250 și ATX 280 sunt unități de service pentru schimbul și spălarea fluidului din transmisiile automate, folosite în ateliere pentru a înlocui uleiul vechi fără a lăsa reziduuri în circuit. Diferența dintre cele două modele constă în capacitatea de fluid procesată, ATX 280 fiind varianta cu capacitate mai mare."
+        "a": "ATX 250 și ATX 280 sunt unități de service pentru schimbul și spălarea fluidului din transmisiile automate, folosite în ateliere pentru a înlocui uleiul vechi fără a lăsa reziduuri în circuit. Diferențele dintre cele două modele se confirmă din fișa tehnică a producătorului."
       }
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Powersports Filter Catalog FI-70-15","url":"https://www.mahle-aftermarket.com/media/local-media-north-america/pdfs-&-thumbnails/catalogs-and-literature/filters/fi-70-15_powersports_filter_catalog.pdf","publisher":"MAHLE Aftermarket","accessed":"2026-09-23"},
       {"title":"CareMetix","url":"https://www.caremetix.mahle.com/","publisher":"MAHLE Aftermarket","accessed":"2026-09-23"},

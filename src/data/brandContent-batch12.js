@@ -4,35 +4,35 @@ export const brandContentBatch12 = {
     founded: 1921,
     headquarters: 'Tokyo, Japonia',
     employees: '146,000+',
-    overview: `Când vorbim despre automatizări industriale, Mitsubishi Electric e numele care îți vine instant în minte. Peste 100 de ani de inginerie japoneză concentrată în fiecare PLC, servo-drive sau VFD din gama producătorului. Seria MELSEC iQ-R este apreciată pentru stabilitate - se regăsesc frecvent linii de producție care rulează non-stop ani la rând fără eroare de program.
+    overview: `Mitsubishi Electric este un producător japonez de echipamente de automatizare industrială. Peste 100 de ani de inginerie japoneză concentrată în fiecare PLC, servo-drive sau VFD din gama producătorului. Seria MELSEC iQ-R este gama de automate programabile modulare de înaltă performanță a producătorului.
 
-Un punct forte al gamei este ecosistemul complet: de la automate programabile mici (seria FX) până la sisteme complexe de control motion cu 64 de axe sincronizate simultan. Interfețele lor GOT (Graphic Operation Terminal) sunt intuitive, programarea în GX Works e logică, iar diagnosticarea online salvează ore întregi când apare vreo urgență. Actualizările software permit menținerea în funcțiune a echipamentelor mai vechi fără schimbarea integrală a hardware-ului.
+Un punct forte al gamei este ecosistemul complet: de la automate programabile mici (seria FX) până la sisteme de control motion multi-axă. Interfețele GOT (Graphic Operation Terminal, terminal grafic de operare) se programează în GT Designer3, iar automatele MELSEC în GX Works.
 
-Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de ±0.01mm la axe liniare, timpi de stabilizare sub 20ms, iar comunicația prin SSCNET III/H permite sincronizare perfectă între 32 de axe. Variatorii de frecvență FR-A800 au control vectorial fără senzor, cu performanțe apropiate de cele ale sistemelor closed-loop. În automatizări complexe - de la ambalare la prelucrări CNC - componente Mitsubishi Electric înseamnă performanță fără compromisuri și suport tehnic solid din partea echipei lor.`,
+Servo-sistemele MELSERVO-J5 acceptă rețelele CC-Link IE TSN și SSCNET III/H, conform producătorului. Variatorii de frecvență FR-A800 au control vectorial fără senzor,. În automatizări complexe - de la ambalare la prelucrări CNC - se pot utiliza componente Mitsubishi Electric.`,
     whyChoose: [
-      'PLC-uri MELSEC iQ-R cu timp de ciclu 0.98ns/pas și 520K pași program',
-      'Servo-drives MELSERVO cu repetabilitate ±0.01mm și control până la 64 axe',
-      'Variatoare FR-A800 cu control vectorial fără senzor și regenerare energie 95%',
+      'PLC-uri MELSEC iQ-R modulare, cu viteză de procesare și memorie de program care depind de procesor',
+      'Servo-drives MELSERVO-J5 cu rețele CC-Link IE TSN sau SSCNET III/H',
+      'Variatoare FR-A800 cu control vectorial fără senzor',
       'HMI GOT cu ecrane 4.3"-15" rezistive/capacitive și comunicare multi-protocol',
       'Ecosistem integrat Engineering Software (GX Works, GT Designer, MT Works)',
-      'Backwards compatibility - program din 2005 rulează pe hardware 2024 fără modificări'
+      'Compatibilitatea programelor existente cu hardware nou depinde de serie și se confirmă din documentația producătorului'
     ],
     keyProducts: [
       {
         name: 'MELSEC iQ-R Series PLC',
-        description: 'Automate programabile modulare de înaltă performanță - procesor multi-core cu timp de ciclu 0.98ns per instrucțiune, memorie program până la 520K pași, suport pentru 8192 I/O. Comunicare integrată CC-Link IE Field, EtherNet/IP, PROFINET, MODBUS TCP. Programare în ladder, ST, SFC prin GX Works3. Redundanță CPU, hot-swap module, temperatură -25 la +60°C. Perfect pentru linii automotive, food processing, packaging de mare viteză unde fiecare milisecundă contează și unde fiabilitatea nu e negociabilă.'
+        description: 'Automate programabile modulare de înaltă performanță - viteza de procesare, memoria de program și numărul de I/O depind de procesor și se confirmă pe cod, din documentația Mitsubishi Electric. Comunicare integrată CC-Link IE Field, EtherNet/IP, PROFINET, MODBUS TCP. Programare în ladder, ST, SFC prin GX Works3. Utilizat în linii de automatizare din automotive, industria alimentară și ambalare.'
       },
       {
         name: 'MELSERVO MR-J5 Series',
-        description: 'Servo-amplificatoare cu control în buclă de 62.5μs, frecvență reglare 3.2kHz, inerție compensată automat până la 1:300. Putere 50W-55kW, intrare 1-fază sau 3-faze 200-480V. Tuning automat în 3 moduri (one-touch, advanced, real-time), vibrații reduse cu 66% față de generația anterioară. Comunicare SSCNET III/H pentru sincronizare multi-axă sub 125μs jitter. Funcții safety integrate STO/SS1 conform EN61800-5-2. Ideal pentru CNC, robotică, pick&place de precizie, printing industrial.'
+        description: 'Servo-amplificatoare cu comunicație CC-Link IE TSN sau SSCNET III/H; capacitatea, tensiunea de alimentare și performanțele de reglare depind de model și se confirmă pe cod, din documentația Mitsubishi Electric. Funcții safety integrate STO/SS1 conform EN61800-5-2. Ideal pentru CNC, robotică, pick&place de precizie, printing industrial.'
       },
       {
         name: 'FR-A800 Series VFD',
-        description: 'Variatoare de frecvență cu control vectorial fără senzor - precizie viteză ±0.2% din 0.3 la 400Hz, cuplu de pornire 200% la 0.5Hz fără encoder. Regenerare energia frânare până la 95% eficiență, filtru EMC integrat clasa C3, moduri eco cu reducere consum 30-40%. Comunicare EtherNet/IP, PROFINET, CC-Link, RS485 MODBUS. Funcții PID integrate, 8 speed presets, 4 rampe accelerare/decelerare independente. Temperatură -10 la +60°C, altitudine 1000m standard, protecție IP20/IP54 opțional. Potrivit pompe, ventilatoare, compresoare, transportoare.'
+        description: 'Variatoare de frecvență cu control vectorial fără senzor - precizia de viteză, cuplul de pornire și funcțiile de economisire a energiei depind de model și se confirmă pe cod, din documentația Mitsubishi Electric. Comunicare EtherNet/IP, PROFINET, CC-Link, RS485 MODBUS. Funcții PID integrate, 8 speed presets, 4 rampe accelerare/decelerare independente. Potrivit pompe, ventilatoare, compresoare, transportoare.'
       },
       {
         name: 'GOT2000 Series HMI',
-        description: 'Interfețe om-mașină cu ecrane TFT 4.3" până la 15", rezoluții WVGA-XGA, touchscreen rezistiv sau capacitiv multi-touch. Procesor ARM Cortex-A9 1GHz, memorie 128MB RAM, SD card până la 32GB pentru logging. Comunicare directă cu peste 400 tipuri PLC (Mitsubishi, Siemens, Allen-Bradley, Omron), protocoale Ethernet, serial, USB. Programare drag&drop în GT Designer3, librării grafice, alarme, trend-uri, rețete. Temperatură -20 la +60°C, vibrație 5-9Hz/3.5mm, 9-25Hz/1.0mm, MTBF 50,000 ore. Logging SQL, VNC server, multi-limbaj, perfect pentru controlul proceselor critice.'
+        description: 'Interfețe om-mașină cu ecrane TFT 4.3" până la 15", rezoluții WVGA-XGA, touchscreen rezistiv sau capacitiv multi-touch. Procesorul, memoria și protocoalele de comunicație disponibile depind de model și se confirmă pe cod, din documentația Mitsubishi Electric. Programare drag&drop în GT Designer3, librării grafice, alarme, trend-uri, rețete. Condițiile de mediu și funcțiile software (de exemplu logging, VNC) depind de model și se confirmă pe cod.'
       }
     ],
     certifications: [
@@ -57,8 +57,8 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       'Material Handling - conveyors, sortare automată, AS/RS, AGV',
       'Textile - mașini țesut, colorare, finisare cu control tensiune și sincronizare'
     ],
-    infinitrade: `Lucrăm cu informațiile tehnice publicate de Mitsubishi Electric și spunem deschis ce putem și ce nu putem confirma fără o discuție tehnică prealabilă, mai ales pentru configurarea software a automatelor. Nu avem un stoc afișat public pentru fiecare PLC, servo-drive sau variator, dar aducem echipamentele solicitate prin canale de aprovizionare din Uniunea Europeană, de regulă în 24–72 h din stoc pentru codurile curente sau în 1–4 săptămâni la comandă pentru configurațiile speciale. Pentru o ofertă corectă, trimite-ne referința exactă a produsului, cantitatea și aplicația vizată – automatizare, motion control sau interfață HMI. Revenim cu un termen realist după ce verificăm disponibilitatea la furnizor.`,
-    limitation: 'Nu putem confirma configurarea sau parametrizarea software (GX Works, GT Designer) pentru instalația ta fără o discuție tehnică prealabilă, și nici service-ul în garanția producătorului.',
+    infinitrade: `Lucrăm cu informațiile tehnice publicate de Mitsubishi Electric și spunem deschis ce putem și ce nu putem confirma fără o discuție tehnică prealabilă, mai ales pentru configurarea software a automatelor. Nu avem un stoc afișat public pentru fiecare PLC, servo-drive sau variator, dar aducem echipamentele solicitate prin canale de aprovizionare din Uniunea Europeană, de regulă în 24–72 h din stoc pentru codurile curente sau în 1–4 săptămâni la comandă pentru configurațiile speciale. Pentru o ofertă corectă, trimiteți-ne referința exactă a produsului, cantitatea și aplicația vizată – automatizare, motion control sau interfață HMI. Revenim cu un termen realist după ce verificăm disponibilitatea la furnizor.`,
+    limitation: 'Nu putem confirma configurarea sau parametrizarea software (GX Works, GT Designer) pentru instalația dumneavoastră fără o discuție tehnică prealabilă, și nici service-ul în garanția producătorului.',
     sources: [
       {"title":"Products - Mitsubishi Electric Factory Automation","url":"https://www.mitsubishielectric.com/fa/products/index.html","publisher":"Mitsubishi Electric","accessed":"2026-09-22"},
       { title: 'MITSUBISHI ELECTRIC Global website', url: 'https://www.mitsubishielectric.com/en/index.html', publisher: 'Mitsubishi Electric Corporation', accessed: '2026-09-22' },
@@ -99,7 +99,7 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       },
       {
         "code": "FR-A800-E",
-        "description": "varianta europeană a convertizorului de frecvență FR-A800"
+        "description": "variantă a convertizorului de frecvență FR-A800; diferența față de modelul de bază se confirmă pe cod"
       },
       {
         "code": "FR-E800",
@@ -133,8 +133,8 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -143,62 +143,59 @@ Servo-sistemele lor seria MELSERVO au o precizie uimitoare - repetabilitate de �
     name: 'Mitutoyo',
     founded: 1934,
     headquarters: 'Kawasaki, Japonia',
-    employees: '5,800+',
-    overview: `În metrologie industrială, Mitutoyo este un reper de referință. De 90 de ani produce instrumente de măsură suficient de precise încât alte companii le folosesc pentru calibrarea propriilor echipamente - de la șublere digitale simple la mașini de măsurat tridimensional (CMM) care pot detecta abateri de 1 micron pe 3 metri. Instrumentele Mitutoyo sunt cunoscute pentru durabilitate - un șubler Mitutoyo mai vechi poate încă măsura precis, cu joc și uzură minime.
+    
+    overview: `Mitutoyo este un producător japonez de instrumente de metrologie industrială, înființat în 1934. Gama include de la șublere digitale simple la mașini de măsurat tridimensional (CMM - Coordinate Measuring Machine, mașină de măsurat în coordonate); precizia fiecărui model se confirmă din fișa tehnică.
 
-Gama Mitutoyo e largă: șublere (Vernier, cadran, digitale) cu precizie până la 0.01mm, micrometre (exterioare, interioare, adâncime) cu repetabilitate 0.001mm, comparatoare (cadran analogic, digitale) cu rezoluție până la 0.0001mm, durimetre pentru toate scările (Rockwell, Brinell, Vickers, Shore), proiectoare de profil pentru controlul pieselor mici complexe, rugozimetre portabile și de laborator. La acestea se adaugă CMM-urile - de la sisteme manuale până la CNC complet automatizate cu software MCOSMOS pentru reverse engineering și control statistic de proces (SPC).
+Gama Mitutoyo e largă: șublere (Vernier, cadran, digitale) cu rezoluție de 0.01 mm, micrometre (exterioare, interioare, adâncime), comparatoare (cadran analogic, digitale), durimetre, proiectoare de profil pentru controlul pieselor mici complexe, rugozimetre portabile și de laborator. La acestea se adaugă CMM-urile - de la sisteme manuale până la CNC complet automatizate cu software MCOSMOS pentru reverse engineering și control statistic de proces (SPC).
 
-Consistența calității este unul dintre argumentele producătorului - fiecare instrument vine cu certificat de calibrare traceable la standardele NIST/PTB, iar toleranțele declarate sunt precizate ca atare, nu doar orientative. Rețeaua de service Mitutoyo oferă piese de schimb și pentru modele mai vechi, recalibrare în laboratoare acreditate ISO/IEC 17025 și upgrade de firmware pentru instrumentele digitale. În control calitate și R&D de precizie, Mitutoyo înseamnă măsurători pe care se pot baza decizii de producție.`,
+Certificatele de calibrare, trasabilitatea și serviciile de recalibrare diferă după model și după țară; le confirmăm pe cod, din documentația Mitutoyo.`,
     whyChoose: [
-      'Precizie extremă - șublere ±0.01mm, micrometre ±0.001mm, CMM până la 0.5μm',
-      'Calibrare traceable NIST/PTB cu certificat pentru fiecare instrument',
+      'Precizie declarată în catalog - șublere ABSOLUTE Digimatic: ±0.02 mm până la ±0.07 mm în funcție de domeniu; micrometre digitale seria 293: ±2 µm până la ±3 µm',
+      'Certificate de calibrare - disponibilitatea și trasabilitatea se confirmă pe cod',
       'Durabilitate ridicată - construcție robustă gândită pentru utilizare îndelungată',
-      'Gama completă 5,500+ produse - de la șublere la CMM-uri multi-senzor',
+      'Gamă largă - de la șublere și micrometre la mașini de măsurat tridimensional (CMM)',
       'Software avansat MCOSMOS pentru CMM cu GD&T, reverse engineering, SPC',
-      'Service global - recalibrare acreditată ISO 17025 și piese de schimb pe termen lung'
+      'Servicii de recalibrare și piese de schimb - disponibilitatea se confirmă pe cod'
     ],
     keyProducts: [
       {
         name: 'ABSOLUTE Digimatic Calipers',
-        description: 'Șublere digitale cu tehnologie ABSOLUTE - nu necesită resetare la pornire, poziția e memorată electromagnetic fără baterie. Precizie ±0.01mm pe 0-150mm, ±0.02mm pe 150-300mm, repetabilitate 0.01mm. Display LCD rezistent șocuri și praf IP67, autonomie baterie 3.5 ani (CR2032). Ieșire date SPC wireless sau cablu pentru logging automat.Onstrucție inox hardened, tije de adâncime, măsurare interioară/exterioară/adâncime/step. Modele 0-150mm, 0-200mm, 0-300mm, 0-500mm, 0-1000mm. Perfect pentru control rapid piese pe linia de producție - deschizi și citești instant fără zeroing.'
+        description: 'Șublere digitale cu tehnologie ABSOLUTE - nu necesită resetarea originii la pornire; encoderul este electromagnetic (inductiv) până la 200 mm și capacitiv peste această valoare. Rezoluție 0.01 mm, precizie ±0.02 mm până la ±0.07 mm în funcție de domeniu. Protecție IP67 doar la anumite modele, autonomie baterie de aproximativ 3.5 ani în utilizare normală. Ieșire de date prin cablu SPC (Statistical Process Control, control statistic al procesului); construcție din oțel inoxidabil, măsurare interioară, exterioară, de adâncime și în trepte. Modele 0-150mm, 0-200mm, 0-300mm, 0-500mm, 0-1000mm. Potrivite pentru controlul rapid al pieselor pe linia de producție, fără repunere la zero la fiecare pornire.'
       },
       {
         name: 'Quantumike IP65 Digital Micrometers',
-        description: 'Micrometre digitale exterioare cu protecție IP65 împotriva prafului și jeturilor de apă - perfecte pentru shopfloor dur. Precizie ±0.001mm (0-25mm), ±0.002mm (25-100mm), rezoluție 0.001mm. Spindle carbură pentru rezistență uzură, thimble cu clichet pentru forță constantă măsurare (5-10N). Display ABSOLUTE rotativ 6 poziții, ieșire date Digimatic/USB. Funcții: zero-set oriunde, toleranțe hi/lo cu alarme, conversie inch/mm, 10 memorii. Modele 0-25mm până la 300-325mm. Calibrare inclusă, carcasă protecție. Ideal automotive, aerospace, toolmaking unde precizia sub 2 microni e standard zilnic.'
+        description: 'Micrometre digitale exterioare cu protecție IP65 împotriva prafului și jeturilor de apă - perfecte pentru shopfloor dur. Precizie ±2 µm până la ±3 µm (în funcție de model), rezoluție 0.001 mm, vârf de măsurare din carbură, avans rapid al tijei (10 mm pe rotație), forță de măsurare 7-12 N. Funcțiile de afișaj, ieșirea de date și domeniile disponibile se confirmă pe cod.'
       },
       {
         name: 'CRYSTA-Apex S Series CMM',
-        description: 'Mașini de măsurat tridimensional cu precizie supremă - granit natural pentru termostabilitate, ghidaje aer preload pentru mișcare fără frecare, senzori RENISHAW SP25M cu precizie repetare 0.35μm. Precizie volumetrică (1.7+3L/1000)μm conform ISO 10360-2. Volume lucru 500×500×450mm până la 2000×3000×1500mm. Software MCOSMOS cu DMIS, CAD import, GD&T analysis, reverse engineering, SPC export. Opțiuni: multi-sensor (tactil, laser, viziune), rotary table, temperature compensation activ. Controller săli cu climatizare 20±1°C sau shopfloor temperature robust. Investiție pentru Quality Labs unde măsurătorile sub 2 microni dictează accept/reject piese complexe.'
+        description: 'Mașini de măsurat tridimensional - granit natural pentru termostabilitate, ghidaje aer preload pentru mișcare fără frecare, senzori și precizie volumetrică conform ISO 10360-2, în funcție de model. Volumele de lucru se confirmă din documentația Mitutoyo. Software MCOSMOS cu DMIS, CAD import, GD&T analysis, reverse engineering, SPC export. Opțiuni: multi-sensor (tactil, laser, viziune), rotary table, temperature compensation activ. Condițiile de mediu necesare (temperatură, vibrații) se confirmă din documentația modelului.'
       },
       {
         name: 'SJ-410 Surface Roughness Tester',
-        description: 'Rugozimetru portabil cu ecran tactil color 4.3" și analiză completă parametrii Ra, Rz, Rq, Rt, Rp, Rv, RSm - total 31 parametri conform ISO/JIS/ANSI. Gamă măsurare Ra: 0.005-40μm, Rz: 0.02-160μm. Stylus diamant r=2μm, forță 0.75mN, lungime evaluare 0.25-12.5mm, viteze 0.25/0.5/0.75mm/s. Memorie 10 condiții măsurare, 100 seturi date. Baterie Li-ion autonomie 17 ore continue, calibrare standard inclusă. Ieșire USB, imprimare direct pe printer termic opțional. Perfect control suprafețe prelucrate - rectificare, polizare, EDM, turnare - direct pe shopfloor fără transport în laborator.'
+        description: 'Rugozimetru portabil Surftest SJ-410, cu calcul al parametrilor de rugozitate (Ra, Rz, Rq, Rt etc.) conform ISO, JIS sau ANSI; domeniul de măsurare, ecranul, memoria, autonomia și interfețele se confirmă din documentația Mitutoyo pe cod. Perfect control suprafețe prelucrate - rectificare, polizare, EDM, turnare - direct pe shopfloor fără transport în laborator.'
       }
     ],
     certifications: [
       'ISO 9001:2015 - Sistem Management Calitate în fabricație instrumente precizie',
-      'ISO/IEC 17025 - Laborator acreditat calibrare internă și service',
       'ISO 10360 compliance - standard CMM accuracy verification',
-      'NIST Traceable Calibration - certificate traceable la standarde naționale SUA',
-      'PTB Traceable - calibrare referențe Physikalisch-Technische Bundesanstalt Germania',
       'JIS (Japanese Industrial Standards) - conformitate standarde japoneze metrologie',
       'CE marking - directivele EMC și Low Voltage pentru instrumente electronice',
       'RoHS compliant - restricții substanțe periculoase în electronice'
     ],
     industries: [
-      'Automotive - control piese motor, transmisie, șasiu cu toleranțe sub 10μm',
-      'Aerospace - verificare componente critice turbine, landing gear, structuri',
-      'Medical Devices - controlul implantelor, instrumente chirurgicale, proteze',
-      'Tool & Die Making - verificare matriță injecție, ștanțare, forme turnare',
-      'Precision Machining - control piese CNC, rectificare, EDM, lapping',
-      'Electronics - măsurare PCB, conectori, carcasă cu toleranțe fine',
-      'Energy - turbine eoliene, hidraulice, componente nucleare cu cerințe extreme',
-      'Research & Development - laboratoare unde precizia absolută e necesară',
-      'Quality Control Labs - departamente QC care validează procese producție',
-      'Education - institute tehnice și universități pentru training metrologie'
+      'Industria auto (controlul pieselor de motor, transmisie, șasiu)',
+      'Aerospațial (verificarea componentelor critice)',
+      'Dispozitive medicale (implanturi, instrumente chirurgicale, proteze)',
+      'Matrițe și scule (matrițe de injecție, ștanțare, forme de turnare)',
+      'Prelucrări de precizie (piese CNC, rectificare, EDM, lepuire)',
+      'Electronică (PCB, conectori, carcase cu toleranțe fine)',
+      'Energie (turbine eoliene și hidraulice)',
+      'Cercetare și dezvoltare (laboratoare)',
+      'Laboratoare de control al calității (departamente de calitate)',
+      'Educație (institute tehnice și universități, pentru instruire în metrologie)'
     ],
-    infinitrade: `Folosim informațiile tehnice publicate de Mitutoyo și precizăm clar ce putem și ce nu putem confirma direct, în special pentru calibrare și service. Nu ținem un stoc afișat public pentru fiecare instrument de măsură, dar aducem șublerele, micrometrele sau componentele pentru CMM solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24–72 h din stoc pentru instrumentele uzuale sau în 1–4 săptămâni la comandă pentru echipamente complexe. Pentru o ofertă corectă, spune-ne ce instrument cauți, intervalul de măsurare necesar și precizia cerută de aplicația ta. Termenul real de livrare vine după ce verificăm disponibilitatea la furnizor.`,
-    limitation: 'Nu putem confirma calibrarea sau service-ul instrumentelor Mitutoyo aflate în garanția producătorului fără verificare directă la un centru autorizat de recalibrare.',
+    infinitrade: `Folosim informațiile tehnice publicate de Mitutoyo și precizăm clar ce putem și ce nu putem confirma direct, în special pentru calibrare și service. Nu ținem un stoc afișat public pentru fiecare instrument de măsură, dar aducem șublerele, micrometrele sau componentele pentru CMM solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24–72 h din stoc pentru instrumentele uzuale sau în 1–4 săptămâni la comandă pentru echipamente complexe. Pentru o ofertă corectă, vă rugăm să ne comunicați instrumentul căutat, intervalul de măsurare necesar și precizia cerută de aplicația dumneavoastră. Termenul real de livrare vine după ce verificăm disponibilitatea la furnizor.`,
+    limitation: 'Nu putem confirma calibrarea sau service-ul instrumentelor Mitutoyo aflate în garanția producătorului fără verificare directă la un centru de recalibrare indicat de producător.',
     sources: [
       {"title":"B-1 Small Tool Instruments — Micrometers, Micrometer Heads","url":"https://www.mitutoyo.com/webfoo/wp-content/uploads/B_section.pdf","publisher":"Mitutoyo","accessed":"2026-09-22"},
       {"title":"D-1 Small Tool Instruments — Calipers, Height Gages, Depth Gages","url":"https://www.mitutoyo.com/webfoo/wp-content/uploads/D_section.pdf","publisher":"Mitutoyo","accessed":"2026-09-22"},
@@ -306,8 +303,8 @@ Consistența calității este unul dintre argumentele producătorului - fiecare 
       }
     ],
     evidenceClass: 'history-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -1070,35 +1067,35 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
     founded: 1906,
     headquarters: 'Copenhaga, Danemarca',
     employees: '4,500+',
-    overview: `Nilfisk este unul dintre producătorii de referință în echipamente profesionale de curățenie - peste 110 ani de la primul aspirator electric creat de fondatorul danez până la soluțiile autonome robotizate de azi. În domeniul industrial cleaning, Nilfisk mizează pe performanță și durabilitate - aspiratoarele industriale sunt gândite pentru șantiere de construcții, unde praful de beton și șpanul metalic ar distruge rapid echipamentele de nivel consumer, iar mașinile de spălat pardoseli sunt destinate depozite logistice mari, unde curățenia rapidă și eficientă contează pentru operațiuni. Conform producătorului, echipamentele sunt construite pentru utilizare intensivă zilnică pe termen lung - motoare puternice, etanșări durabile, componente înlocuibile.
+    overview: `Nilfisk este unul dintre producătorii de referință în echipamente profesionale de curățenie - peste 110 ani de la înființarea companiei, în 1906 până la soluțiile autonome robotizate de azi. În domeniul industrial cleaning, Nilfisk mizează pe performanță și durabilitate - aspiratoarele industriale sunt gândite pentru șantiere de construcții, unde praful de beton și șpanul metalic ar distruge rapid echipamentele de nivel consumer, iar mașinile de spălat pardoseli sunt destinate depozite logistice mari, unde curățenia rapidă și eficientă contează pentru operațiuni. Conform producătorului, echipamentele sunt construite pentru utilizare intensivă zilnică pe termen lung - motoare puternice, etanșări durabile, componente înlocuibile.
 
-Gama lor industrială include: aspiratoare profesionale (uscate, umede, wet&dry cu separatoare ciclonic, ATEX pentru praf exploziv), aspiratoare industriale heavy-duty (3-phase, 5-10kW, containere 50-100L, filtrare HEPA), mașini spălat pardoseli (walk-behind și ride-on de la 40cm până la 150cm lățime lucru, capacitate rezervoare 40-200L, autonomie 2-5 ore), echipamente high-pressure cleaning (1,500-3,000 PSI cu încălzire opțională pentru degresare), sisteme curățenie autonome (roboti AMR cu navigație SLAM pentru cleaning 24/7 fără operator). Toate gândite pentru utilizare intensivă - 6-12 ore/zi, 6-7 zile/săptămână, ani de zile.
+Gama industrială include aspiratoare profesionale (uscate, umede și wet&dry, inclusiv variante ATEX), mașini de spălat-uscat pardoseli walk-behind, stand-on și ride-on, mașini de măturat și aparate de spălat cu presiune cu apă rece sau caldă. Specificațiile exacte se confirmă pe cod, din documentația Nilfisk.
 
-Un element notabil este atenția la detalii operaționale - mașini spălat cu squeegee ajustabil automat pentru urmărire perfect pardoseală, aspiratoare cu alarme filter clogged și sisteme auto-clean filtru, pressure washers cu detergent injection automat și lance cu dead-man switch pentru safety. Service-ul e organizat global - piese de schimb pentru modele de 15 ani, manuale service detaliate, training pentru tehnicieni. În curățenia industrială profesională - fabrici, depozite, retail mari, hospitality - Nilfisk poate fi o investiție avantajoasă prin productivitate ridicată, costuri operaționale mici (consumabile, mentenanță) și uptime ridicat. Mai scump decât alternative low-cost, dar durabilitatea și eficiența operațională pot reduce costul total de deținere pe termen lung.`,
+Caracteristicile funcționale (reglaje, alarme, filtrare, siguranță) diferă pe model și se confirmă din fișa tehnică Nilfisk. Disponibilitatea service-ului și a pieselor de schimb se confirmă separat cu producătorul. În curățenia industrială profesională - fabrici, depozite, retail mari, hospitality - Alegerea echipamentului se face în funcție de suprafață, frecvența de utilizare și mediu.`,
     whyChoose: [
-      'Experiență 110+ ani - de la primul aspirator electric la roboți autonomi moderni',
+      'Experiență de peste 110 ani — compania a fost înființată în 1906',
       'Durabilitate ridicată - echipamente gândite pentru utilizare industrială zilnică pe termen lung',
       'Gamă completă profesional - de la aspiratoare portabile la mașini ride-on și sisteme autonome',
-      'Eficiență operațională - consumuri reduse apă/energie/detergent vs. competiție',
-      'Service global - piese schimb disponibile decenii, training tehnic, support tehnic dedicat',
+      'Eficiență operațională — consumurile depind de model și se confirmă din fișa tehnică',
+      'Service și piese de schimb — disponibilitatea se confirmă separat cu producătorul',
       'Inovație continuă - HEPA filtration, eco-mode, telemetrie IoT, autonomous cleaning'
     ],
     keyProducts: [
       {
-        name: 'Nilfisk VHW420 Industrial Vacuum',
-        description: 'Aspirator industrial wet & dry heavy-duty pentru aplicații extreme construcții, producție, metal working. Motor 3-phase 5.5kW (7.5HP), debit aer 440 m³/h, depresiune 310 mbar (water lift 3,100mm), zgomot 76 dB(A). Container inox AISI 304 100L cu system emptying tip-over sau pump-out pentru lichide. Filtrare: pre-separator cyclonic, filtru principal poliester lavabil, opțiune HEPA H13 pentru praf fin toxic. Auto-filter cleaning prin pulse aer comprimat reverse. Accesorii: furtun 76mm heavy-duty 5m, lance telescopică inox, set perii și duze pentru diverse materiale. Protecție IP54, alimentare 400VAC 50Hz. Aplicații: curățare după șlefuire/polizare metal, aspirare șpan și coolant în ateliere CNC, cleanup după construcții, recuperare lichide industriale. Greutate 110kg cu roți heavy-duty și handle pentru manevrabilitate.'
+        name: 'Aspiratoare industriale umed-uscat (ATTIX, VHS, IVB)',
+        description: 'Gama industrială Nilfisk include seriile ATTIX, VHS și IVB (inclusiv variante ATEX). Puterea, debitul de aer, volumul containerului și opțiunile de filtrare se confirmă pe cod, din documentația Nilfisk.'
       },
       {
         name: 'SC6500 Ride-on Scrubber-Dryer',
-        description: 'Mașină profesională spălat-uscat pardoseli tip ride-on pentru suprafețe mari - productivitate până la 10,000 m²/h. Lățime lucru 105cm (disc brush) sau 116cm (cilindric brush), capacitate rezervor soluție 265L + recovery 285L, autonomie 5.5 ore continuous. Motor tracțiune 24V DC brushless cu viteză variabilă 0-9 km/h, motor brush 1,500W, motor vacuum 600W. Brush pressure 23-180 kg adjustable dependent tip pardoseală. Eco-mode reduce consumul de apă, energie și detergent față de modul normal. Display intuitiv cu alarme level apă, filter clogged, battery low. Încărcare baterii on-board 24V/240Ah, charger integrat 35A. Aplicații: depozite logistice, retail hypermarketuri, aeroporturi, fabrici production floors, parking subteran. Greutate 745kg, dimensiuni compact pentru manevrabilitate.'
+        description: 'Mașină profesională de spălat-uscat pardoseli pentru suprafețe mari, ride-on. Lățime de lucru 1.000–1.300 mm, rezervoare de 265 L soluție și 265 L recuperare, productivitate de până la 11.700 m²/h, greutate brută 807 kg. Restul specificațiilor (motoare, baterii, autonomie) se confirmă pe cod, din documentația Nilfisk.'
       },
       {
-        name: 'MC5M Autonomous Scrubber',
-        description: 'Robot autonom spălat pardoseli cu navigație SLAM (Simultaneous Localization And Mapping) - curățenie 24/7 fără operator uman. Lățime lucru 55cm disc brush, capacitate rezervoare 70L soluție + 75L recovery, autonomie 4.5 ore. Navigație: LIDAR + camere viziune pentru mapping environment și evitare obstacole dinamic. Velocitate 4.5 km/h, productivitate 1,800 m²/h. Programare: teaching mode (conduci manual prima dată, apoi repetă autonom), multi-zone cu schedule diferit, charge automat când baterie <20%. Safety: senzori 360° cu stop instant la obstacol, alarme sonore/vizuale, compliance EN 1525. Telemetrie: cloud portal cu monitoring real-time poziție, alarme, productivity reports, remote diagnostics. Aplicații: retail după program (night cleaning), aeroporturi zone non-public, fabrici production floors night shift, hospitality (hoteluri, spitale).'
+        name: 'MC 5M (aparat de spălat cu presiune, apă rece)',
+        description: 'Aparat de spălat cu presiune cu apă rece din gama profesională Nilfisk. Presiunea, debitul și puterea se confirmă pe cod, din documentația producătorului.'
       },
       {
-        name: 'MH 7P High-Pressure Cleaner',
-        description: 'Echipament spălat cu presiune înaltă mobil heavy-duty pentru degresare industrială și curățare mașini/echipamente. Presiune 200 bar (2,900 PSI), debit apă 1,260 L/h, motor electric 3-phase 10kW. Pompă triplex pistons cu ceramic plungers și brass head - viață 2,000+ ore. Încălzire: burner diesel/păcură 35kW pentru temperatură apă până la 85°C - dizolvare grease și uleiuri instant. Rezervor detergent 60L cu injector Venturi adjustable dilution. Lance inox telescopică cu swivel, duze rotative pentru degresare heavy și flat-jet pentru suprafețe mari. Hose high-pressure 20m DN8 cu quick-connect. Protecție: total-stop automat când trigger release (economie apă/energie), termostat safety pentru overheat, manometru presiune. Frame pe roți cu handle pentru portabilitate. Aplicații: curățare utilaje construcții (excavatoare, bulldozere), degresare echipamente producție, wash bays automotive, cleanup după turnare beton.'
+        name: 'MH 7P (aparat de spălat cu presiune, apă caldă)',
+        description: 'Aparat de spălat cu presiune cu apă caldă, pentru utilizare intensă. Presiunea, debitul, puterea și temperatura apei se confirmă pe cod, din documentația Nilfisk.'
       }
     ],
     certifications: [
@@ -1108,7 +1105,7 @@ Un element notabil este atenția la detalii operaționale - mașini spălat cu s
       'ATEX / IECEx - Aspiratoare pentru zone explozive (praf combustibil, gaze)',
       'IEC 60335-2-69 - Standard safety aspiratoare wet & dry comerciale/industriale',
       'EN 1525 - Safety driverless trucks (AGV/AMR) pentru roboți autonomi',
-      'Blue Angel / EU Ecolabel - Certificate eficiență energie și impact mediu redus',
+      
       'HEPA certification - Filtre H13/H14 pentru aspirare praf toxic/allergens conform EN 1822'
     ],
     industries: [
@@ -1123,7 +1120,7 @@ Un element notabil este atenția la detalii operaționale - mașini spălat cu s
       'Automotive - service centers, dealerships, wash bays cu degresare și cleaning echipamente',
       'Pharmaceuticals - clean rooms, production floors cu particulate control strict'
     ],
-    infinitrade: `Folosim informațiile publicate de Nilfisk și spunem clar ce putem și ce nu putem confirma direct, în special pentru service și piese de schimb. Nu ținem un stoc afișat public pentru fiecare echipament de curățenie, dar aducem aspiratoarele, mașinile de spălat pardoseli sau echipamentele de presiune Nilfisk prin canale de aprovizionare din Uniunea Europeană, de obicei în 1–4 săptămâni la comandă, iar unele consumabile uneori și în 24–72 h din stoc. Pentru o ofertă corectă, trimite-ne suprafața de curățat, tipul pardoselii și frecvența de utilizare dorită. Îți spunem termenul concret abia după ce verificăm stocul la furnizor.`,
+    infinitrade: `Folosim informațiile publicate de Nilfisk și spunem clar ce putem și ce nu putem confirma direct, în special pentru service și piese de schimb. Nu ținem un stoc afișat public pentru fiecare echipament de curățenie, dar aducem aspiratoarele, mașinile de spălat pardoseli sau echipamentele de presiune Nilfisk prin canale de aprovizionare din Uniunea Europeană, de obicei în 1–4 săptămâni la comandă, iar unele consumabile uneori și în 24–72 h din stoc. Pentru o ofertă corectă, trimiteți-ne suprafața de curățat, tipul pardoselii și frecvența de utilizare dorită. Vă comunicăm termenul concret abia după ce verificăm stocul la furnizor.`,
     limitation: 'Nu putem confirma service-ul în garanția producătorului pentru echipamentele Nilfisk și nici stocul permanent pentru fiecare model din gama profesională.',
     sources: [
       {"title":"Nilfisk Product Range 2023","url":"https://www.nilfisk.com/media/bkedsbxi/n202_0378_v1_mini-catalogue-2023-7259_a4_en-uk_low-1.pdf","publisher":"Nilfisk","accessed":"2026-09-22"},
@@ -1145,15 +1142,15 @@ Un element notabil este atenția la detalii operaționale - mașini spălat cu s
       },
       {
         "code": "ATTIX 50",
-        "description": "aspirator umed-uscat cu putere de aspirație superioară"
+        "description": "aspirator umed-uscat industrial"
       },
       {
         "code": "ATTIX 9",
-        "description": "aspirator umed-uscat industrial cu două motoare"
+        "description": "aspirator umed-uscat industrial cu un singur motor"
       },
       {
         "code": "VHS120",
-        "description": "aspirator umed-uscat monofazat, cel mai compact din gamă"
+        "description": "aspirator umed-uscat monofazat, 2000 W, container de 37 L"
       },
       {
         "code": "SC250",
@@ -1181,7 +1178,7 @@ Un element notabil este atenția la detalii operaționale - mașini spălat cu s
       },
       {
         "code": "SC8000",
-        "description": "mașină de spălat-uscat pardoseala cu cel mai lat disc de periere"
+        "description": "mașină de spălat-uscat pardoseala tip ride-on, lățime de lucru 1.220–1.520 mm"
       },
       {
         "code": "SW900",
@@ -1193,7 +1190,7 @@ Un element notabil este atenția la detalii operaționale - mașini spălat cu s
       },
       {
         "code": "SR1601",
-        "description": "mașină de măturat tip ride-on, avansată tehnic"
+        "description": "mașină de măturat tip ride-on"
       },
       {
         "code": "MC5M",
@@ -1235,8 +1232,8 @@ Un element notabil este atenția la detalii operaționale - mașini spălat cu s
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },

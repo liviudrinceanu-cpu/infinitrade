@@ -3,35 +3,35 @@ export const brandContentBatch10 = {
     founded: 1969,
     headquarters: 'Essen, Germania',
     employees: '8,000+',
-    overview: `IFM Electronic este un producător german de senzori industriali și sisteme de automatizare, cu prezență internațională. De peste 50 de ani dezvoltă și produce senzori inductivi, capacitivi, fotoelectrici, de presiune, temperatură și debit care setează standardele în industrie. Fabricația e concentrată în Germania, cu centre de competență în toată lumea.
+    overview: `IFM Electronic este un producător german de senzori industriali și sisteme de automatizare, cu prezență internațională. De peste 50 de ani dezvoltă și produce senzori inductivi, capacitivi, fotoelectrici, de presiune, temperatură și debit pentru automatizări industriale. Fabricația e concentrată în Germania, cu centre de competență în toată lumea.
 
-IFM a fost printre pionierii tehnologiei IO-Link, care a schimbat semnificativ modul de comunicare între senzori și sisteme de control. Fiecare produs IFM este conceput pentru fiabilitate maximă în condiții extreme - temperaturi de la -40°C la +200°C, presiuni până la 1000 bar, vibrații și șocuri intense. Majoritatea senzorilor din gamă sunt construiți integral din inox 316L sau titan, cu clase de protecție IP68/IP69K pentru medii umede, prafuite sau corozive.
+IFM a fost printre pionierii tehnologiei IO-Link, care a schimbat semnificativ modul de comunicare între senzori și sisteme de control. Temperatura de operare, presiunea maximă, materialul carcasei și clasa de protecție depind de model și se confirmă pe cod, din fișa tehnică ifm.
 
-Ceea ce diferențiază IFM este abordarea sistemică: nu doar senzori, ci soluții complete de monitorizare și diagnostic predictiv. Platformele producătorului moneo și ecosys permit analiza în timp real a semnalelor de la sute de senzori, detectarea anomaliilor și planificarea întreținerii înainte ca defecțiunile să apară. Asta poate însemna costuri mai mici, timp de nefuncționare redus și eficiență crescută pentru utilizatorii din automotive, food & beverage, logistică, chimie și energie.`,
+Ceea ce diferențiază IFM este abordarea sistemică: nu doar senzori, ci soluții complete de monitorizare și diagnostic predictiv. Platforma producătorului moneo este destinată monitorizării și diagnosticării senzorilor ifm; funcțiile disponibile se confirmă din documentația producătorului. Asta poate însemna costuri mai mici, timp de nefuncționare redus și eficiență crescută pentru utilizatorii din automotive, food & beverage, logistică, chimie și energie.`,
     whyChoose: [
-      'Tehnologie IO-Link nativă pe majoritatea senzorilonr - configurare rapidă, diagnoză la distanță, schimb automat parametri',
-      'Calibrare din fabrică cu certificate de etalonare trasabile NIST/PTB - precizie de până la 0.05% FS conform certificatului',
-      'Carcasă integrală inox 316L sau titan - rezistență la coroziune, acizi, baze, uleiuri, refrigeranți',
-      'Clasă protecție IP68/IP69K standard - funcționare în apă, jet înaltă presiune, praf, condens',
-      'Temperatură operare -40°C până +200°C (unele modele până +400°C cu răcire) - pentru procese extreme',
-      'Platformă moneo pentru IIoT - monitorizare 24/7, analytics predictiv, alarme instant pe mobil'
+      'Tehnologie IO-Link disponibilă la numeroase modele - configurare rapidă, diagnoză la distanță, schimb automat parametri',
+      'Precizia depinde de model și se confirmă pe cod, din fișa tehnică ifm',
+      'Materialul carcasei depinde de model și se confirmă pe cod, din fișa tehnică ifm',
+      'Clasa de protecție depinde de model (de exemplu IP68/IP69K la anumite modele)',
+      'Temperatura de operare depinde de model și se confirmă pe cod, din fișa tehnică ifm',
+      'Platformă moneo pentru IIoT - monitorizare și diagnosticare, conform producătorului'
     ],
     keyProducts: [
       {
         name: 'Senzori inductivi serie IFS/IGS',
-        description: 'Gama de senzori inductivi cu factor de corecție 1 funcționează identic pe toate metalele - alamă, aluminiu, inox, fontă. Distanța de detecție rămâne constantă indiferent de material, ceea ce elimină recalibrările și reduce timpul de setup. Versiunile cu IO-Link permit schimbarea distanței de comutare din software, fără demontare. Carcasă cilindrică M8-M30 sau block size, ieșire PNP/NPN sau analogică 4-20mA, rezistență la temperaturi -25°C până +90°C și vibrații 30g. Potrivite pentru detectarea pieselor pe linii de asamblare, poziționare palete AGV, numărare produse în food industry.'
+        description: 'Gama de senzori inductivi cu factor de corecție 1 funcționează identic pe toate metalele - alamă, aluminiu, inox, fontă. Distanța de detecție rămâne constantă indiferent de material, ceea ce elimină recalibrările și reduce timpul de setup. Versiunile cu IO-Link permit schimbarea distanței de comutare din software, fără demontare. Forma carcasei, tipul de ieșire, domeniul de temperatură și rezistența la vibrații depind de model și se confirmă pe cod, din fișa tehnică ifm. Potrivite pentru detectarea pieselor pe linii de asamblare, poziționare palete AGV, numărare produse în food industry.'
       },
       {
         name: 'Traductoare de presiune seria PM/PN',
-        description: 'Traductoare piezoresistive cu membrană ceramică sau inox pentru presiuni de la -1 bar la 1000 bar. Celula de măsură este capsulată complet în ulei siliconic, protejată la suprapresiune 3x presiunea nominală și la pulsații hidraulice violente. Acuratețe 0.3% FS, stabilitate pe termen lung sub 0.1% pe an, compensare temperatură -25°C până +100°C. Modele cu afișaj digital integrat OLED și taste de configurare locală. Ieșire 4-20mA, 0-10V sau IO-Link pentru integrare directă în PLC Siemens/Allen-Bradley. Folosite în sisteme hidraulice mobile, teste presiune, pompare apă, compresoare, injecție mase plastice.'
+        description: 'Traductoare de presiune cu membrană ceramică sau inox; domeniul de presiune, suprapresiunea admisă, acuratețea și domeniul de temperatură depind de model și se confirmă pe cod, din fișa tehnică ifm. Modele cu afișaj digital integrat OLED și taste de configurare locală. Ieșire 4-20mA, 0-10V sau IO-Link pentru integrare directă în PLC Siemens/Allen-Bradley. Folosite în sisteme hidraulice mobile, teste presiune, pompare apă, compresoare, injecție mase plastice.'
       },
       {
-        name: 'Debitimetre electromagnetice serie SM/SV',
-        description: 'Debitimetrele electromagnetice funcționează pe principiul legii lui Faraday - măsoară tensiunea indusă de fluidul conducător care traversează un câmp magnetic. Zero piese mobile, zero pierdere presiune, zero mentenanță. Capabile să măsoare lichide cu particule suspendate, pasta, nămol, fluide vâscoase de la 0.1 m/s până la 10 m/s. Precizie 0.5% din valoarea măsurată (nu FS!), repetabilitate 0.1%, răspuns sub 100ms. Electrozi din Hastelloy C sau tantal pentru chimicale agresive. Versiuni cu flanșe DN15-DN300 sau clamp sanitare. Display integrat cu totalizer și alarme programabile. Alimentare 24VDC sau 230VAC.'
+        name: 'Debitmetre magnetic-inductive SM și cu vârtejuri SV',
+        description: 'Debitmetrele magnetic-inductive (seria SM) funcționează pe principiul legii lui Faraday - măsoară tensiunea indusă de fluidul conducător care traversează un câmp magnetic. Fără piese mobile în curgere. Seria SM măsoară lichide conductoare electric pe bază de apă; mediile și vitezele admise se confirmă pe cod. Precizia, domeniul DN, materialul electrozilor, afișajul și alimentarea depind de model și se confirmă pe cod, din fișa tehnică ifm.'
       },
       {
         name: 'Sisteme IO-Link Master AL13xx',
-        description: 'Modulele IO-Link master cu 4-8 porturi permit conectarea senzorilor inteligenți direct la rețeaua Ethernet industrială (PROFINET, EtherNet/IP, Modbus TCP). Fiecare port suportă până la 32 bytes date proces + 32 bytes date acyclice. Configurare prin browser web integrat sau IODD files în TIA Portal / Studio 5000. Carcasă metal IP67 pentru montaj descentralizat lângă senzori, alimentare redundantă 24VDC, diagnostic LED per port. Posibilitate hot swap senzori fără oprire linie - parametrii se transferă automat din master în noul senzor. Perfect pentru retrofit instalații vechi sau pentru noi linii Industry 4.0.'
+        description: 'Modulele IO-Link master cu 4-8 porturi permit conectarea senzorilor inteligenți direct la rețeaua Ethernet industrială (PROFINET, EtherNet/IP, Modbus TCP). Configurare prin browser web integrat sau IODD files în TIA Portal / Studio 5000. Carcasă pentru montaj descentralizat lângă senzori; clasa de protecție, alimentarea și diagnosticarea se confirmă pe cod, din fișa tehnică ifm. Posibilitate hot swap senzori fără oprire linie - parametrii se transferă automat din master în noul senzor. Perfect pentru retrofit instalații vechi sau pentru noi linii Industry 4.0.'
       }
     ],
     certifications: [
@@ -56,7 +56,7 @@ Ceea ce diferențiază IFM este abordarea sistemică: nu doar senzori, ci soluț
       'Farmaceutică - senzori sanitari, trasabilitate, validare procese',
       'Machine Building - OEM solutions, integrare IO-Link, IIoT'
     ],
-    infinitrade: `Aducem în România senzorii și sistemele IO-Link IFM Electronic prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fizic disponibil la un moment dat, așa că lucrăm cu informațiile publice ale producătorului și cu disponibilitatea confirmată de furnizor înainte să dăm un termen. Ca regulă generală a firmei, produsele curente pot ajunge în 24–72 h din stoc, iar variantele speciale sau seturile complete IO-Link, la comandă, în 1–4 săptămâni. Trimite-ne codul exact al senzorului sau al modulului, tensiunea de alimentare și tipul de ieșire dorit, iar noi verificăm la furnizor termenul real și eventuale echivalențe. Configurarea avansată a platformei moneo pentru procesul tău rămâne în sarcina echipei tale tehnice sau a producătorului.`,
+    infinitrade: `Aducem în România senzorii și sistemele IO-Link IFM Electronic prin canale de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fizic disponibil la un moment dat, așa că lucrăm cu informațiile publice ale producătorului și cu disponibilitatea confirmată de furnizor înainte să dăm un termen. Ca regulă generală a firmei, produsele curente pot ajunge în 24–72 h din stoc, iar variantele speciale sau seturile complete IO-Link, la comandă, în 1–4 săptămâni. Trimiteți-ne codul exact al senzorului sau al modulului, tensiunea de alimentare și tipul de ieșire dorit, iar noi verificăm la furnizor termenul real. Configurarea avansată a platformei moneo pentru procesul dumneavoastră rămâne în sarcina echipei dumneavoastră tehnice sau a producătorului.`,
     sources: [
       {"title":"AL1350 - IO-Link master with IoT interface","url":"https://www.ifm.com/us/en/product/AL1350","publisher":"ifm electronic","accessed":"2026-09-22"},
       { title: 'ifm electronic - pagina oficială (sediu Essen)', url: 'https://www.ifm.com/de/en', publisher: 'ifm electronic gmbh', accessed: '2026-09-22' }
@@ -80,7 +80,7 @@ Ceea ce diferențiază IFM este abordarea sistemică: nu doar senzori, ci soluț
       },
       {
         "code": "IFS200",
-        "description": "senzor inductiv de proximitate, variantă compactă"
+        "description": "senzor inductiv de proximitate"
       },
       {
         "code": "PN7002",
@@ -114,7 +114,7 @@ Ceea ce diferențiază IFM este abordarea sistemică: nu doar senzori, ci soluț
     faq: [
       {
         "q": "Ce diferență este între senzorii inductivi IGS200 și IFS200 de la IFM?",
-        "a": "IGS200 și IFS200 sunt ambii senzori inductivi de proximitate, însă diferă prin distanța nominală de detecție și dimensiunea carcasei; IFS200 are, de regulă, o carcasă mai compactă potrivită pentru spații restrânse, în timp ce IGS200 oferă o distanță de comutare ceva mai mare pentru aceeași gamă de aplicații."
+        "a": "IGS200 și IFS200 sunt ambii senzori inductivi de proximitate, însă diferă prin distanța nominală de detecție și dimensiunea carcasei; diferențele exacte dintre cele două (dimensiuni, distanță de comutare) se confirmă pe cod, din fișa tehnică ifm."
       },
       {
         "q": "Ce rol are un master IO-Link precum AL1350 într-o rețea IFM?",
@@ -126,13 +126,13 @@ Ceea ce diferențiază IFM este abordarea sistemică: nu doar senzori, ci soluț
       },
       {
         "q": "Ce diferență este între debitmetrele magnetic-inductive SM și cele cu vârtejuri SV?",
-        "a": "Debitmetrele din seria SM măsoară lichide conductoare electric, folosind principiul magnetic-inductiv, fără piese în mișcare, în timp ce seria SV, cu vârtejuri, este potrivită și pentru alte lichide sau gaze, măsurând frecvența vârtejurilor create de un corp de reflux introdus în curgere."
+        "a": "Debitmetrele din seria SM măsoară lichide conductoare electric, folosind principiul magnetic-inductiv, fără piese în mișcare, în timp ce seria SV (de exemplu SV5500, pentru medii pe bază de apă) este cu vârtejuri și măsoară frecvența vârtejurilor create de un corp introdus în curgere."
       }
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu putem confirma disponibilitatea în timp real a fiecărei referințe IFM și nu oferim configurare avansată a platformei moneo fără implicarea producătorului.',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -699,21 +699,21 @@ Kärcher investește constant în cercetare și dezvoltare, cu tehnologii propri
     employees: '350+',
     overview: `Keller este producător elvețian de traductoare și transmițătoare de presiune piezoresistive de înaltă precizie. De 50 de ani dezvoltă senzori pentru măsurarea presiunii în aplicații industriale, hidrologie, geotehnică, automotive și aerospace unde precizia, stabilitatea pe termen lung și fiabilitatea sunt absolut critice. Fabrica din Winterthur exportă traductoare la nivel internațional, fiecare calibrat individual și certificat.
 
-Tehnologia producătorului se bazează pe celule piezoresistive cu membrană de silicone monocristalin pe care sunt difuzați rezistori Wheatstone. Când presiunea deformează membrana cu câțiva micrometri, rezistența electrică se modifică proporțional, generând un semnal electric precis și stabil. Temperatura este compensată prin rezistori integrați pe același chip și algoritmi digitali care corectează deriva termică până la ±0.05% FS pe întregul domeniu -40°C până +125°C.
+Tehnologia producătorului se bazează pe celule piezoresistive cu membrană de siliciu monocristalin pe care sunt difuzați rezistori Wheatstone. Când presiunea deformează membrana cu câțiva micrometri, rezistența electrică se modifică proporțional, generând un semnal electric precis și stabil. Temperatura este compensată prin rezistori integrați pe același chip și algoritmi digitali de compensare; la seria 33X banda totală de eroare este de ±0,1 %FS în intervalul -10…80 °C, iar domeniul de lucru este -40…125 °C.
 
-Keller are expertiză extinsă în aplicații extreme: traductoare submersibile până la 5,000 metri adâncime oceană, senzori pentru 700 bar presiune hidraulică în prese de forjare, transmițătoare wireless pentru monitorizare baraje cu autonomie 10 ani pe baterie, folosite în aerospațial, industria petrolieră și cercetare științifică.`,
+Keller produce traductoare de presiune pentru domenii de la 0,3 până la 1000 bar (seria 33X), sonde de nivel submersibile și dataloggere pentru monitorizare. Domeniile și autonomia exactă depind de model și se confirmă din documentația Keller.`,
     whyChoose: [
       'Acuratețe 0.05% FS - precizie ridicată pentru aplicații critice',
-      'Stabilitate pe termen lung <0.1% pe an - zero necesitate recalibrare anuală',
-      'Compensare temperatură digitală -40°C până +125°C - eroare termică sub 0.05% FS',
-      'Membrană titlan sau Hastelloy - rezistență totală la apă de mare, acizi, baze',
-      'Versiuni submersibile până 5,000m adâncime - cablu poliuretan ranforsat kevlar',
-      'Opțiune wireless LoRa/NB-IoT - transmisie date la 10 km, autonomie 10 ani pe baterie'
+      'Stabilitate pe termen lung specificată în fișa tehnică a fiecărui model; frecvența recalibrării se stabilește pe aplicație',
+      'Compensare digitală a temperaturii - bandă totală de eroare ±0,1 %FS în intervalul -10…80 °C (seria 33X)',
+      'Variante cu membrană din titan sau Hastelloy pentru medii agresive; compatibilitatea cu mediul se verifică pe model',
+      'Sonde de nivel submersibile (de exemplu seria 36XW), cu domenii de adâncime în funcție de model',
+      'Opțiuni de dataloggere cu transmisie la distanță; tehnologia, raza și autonomia depind de model'
     ],
     keyProducts: [
       {
-        name: 'Traductoare seria 33X pentru nivel apă',
-        description: 'Traductoarele submersibile 33X sunt utilizate pe scară largă pentru măsurarea nivelului în fântâni, puțuri, rezervoare, râuri și lacuri. Domenii de presiune de la 0-1 mH2O până la 0-500 mH2O (echivalent 5-5000 metri adâncime). Membrană ceramică Al2O3 sau titan, carcasă inox 316L sau titan pur pentru apă de mare. Compensare barometrică automată prin tub capilary în cablu sau senzor barometric integrat. Acuratețe 0.1% FS, stabilitate 0.1% pe an. Cablu poliuretan (PU) sau FEP ranforsat cu kevlar, rezistent UV și abraziune. Ieșire 4-20mA, 0-10V sau Modbus RTU. Certificare IP68 și testare la 2x presiune nominală.'
+        name: 'Transmițătoare standard seria 33X',
+        description: 'Transmițătoarele standard 33X măsoară presiuni de la 0…0,3 până la 0…1000 bar, cu acuratețe de ±0,05 %FS și ieșiri RS485, 4…20 mA sau 0…10 V, conform paginii producătorului. Pentru măsurarea nivelului submersibil în fântâni, puțuri, râuri și lacuri se folosesc sondele de nivel Keller (de exemplu seria 36XW); materialele, cablul și gradul de protecție se confirmă pe cod.'
       },
       {
         name: 'Transmițătoare seria 21/25/35Y pentru industrie',
@@ -721,11 +721,11 @@ Keller are expertiză extinsă în aplicații extreme: traductoare submersibile 
       },
       {
         name: 'Datalogger-uri wireless seria ARC/DCX',
-        description: 'Sistemele de achiziție date wireless combină traductorul de presiune cu modul de transmisie LoRa, NB-IoT sau GSM. Înregistrare la interval configurabil 1 minut - 24 ore, memorie 10,000-50,000 înregistrări. Transmisie date prin radio la gateway (LoRa până 10 km în câmp deschis) sau direct în cloud prin celular. Alimentare baterie litiu 3.6V autonomie 5-10 ani în funcție de interval transmisie. Display e-ink pentru vizualizare locală fără consum. Aplicații: monitorizare nivel acvifere, presiune conducte distribuție apă, deformare diguri și baraje, zăpadă pe acoperișuri.'
+        description: 'Dataloggerele Keller combină traductorul de presiune cu înregistrarea datelor; citirea se face prin conector sau prin transmisie la distanță, în funcție de sistem. Înregistrare la interval configurabil 1 minut - 24 ore, memorie 10,000-50,000 înregistrări. Aplicații: monitorizare nivel acvifere, presiune conducte distribuție apă, deformare diguri și baraje, zăpadă pe acoperișuri.'
       },
       {
         name: 'Traductoare diferențiale seria PD-39X',
-        description: 'Măsoară diferența de presiune între două puncte - esențial pentru monitorizare filtre, debitmetre Venturi, control cameră curată, sisteme HVAC. Domenii de la 0-10 mbar până la 0-25 bar presiune diferențială, cu suprapresiune statică până la 400 bar pe ambele porturi. Acuratețe 0.25% FS, compensare temperatură -10°C până +80°C. Conexiuni separate pentru presiune înaltă și joasă, carcasă inox sau aluminiu. Ieșire 4-20mA, 0-10V sau Modbus. Aplicații: ΔP pe filtre de aer/ulei, debit Venturi, control presiune diferențială clean rooms ISO 5-8.'
+        description: 'Măsoară diferența de presiune între două puncte - esențial pentru monitorizare filtre, debitmetre Venturi, control cameră curată, sisteme HVAC. Domeniile de presiune diferențială, presiunea statică admisă, acuratețea și domeniul de temperatură compensat depind de model și se confirmă din fișa tehnică Keller. Conexiuni separate pentru presiune înaltă și joasă, carcasă inox sau aluminiu. Ieșire 4-20mA, 0-10V sau Modbus. Aplicații: ΔP pe filtre de aer/ulei, debit Venturi, control presiune diferențială clean rooms ISO 5-8.'
       }
     ],
     certifications: [
@@ -733,10 +733,10 @@ Keller are expertiză extinsă în aplicații extreme: traductoare submersibile 
       'ISO 14001:2015 - Management de mediu',
       'ISO/IEC 17025 - Laborator calibrare acreditat SAS',
       'ATEX/IECEx - Certificare zona 0/1/2 gaz și praf',
-      'SIL 2 - Certificare funcțională siguranță conform IEC 61508',
-      'NACE MR0175/ISO 15156 - Rezistență H2S pentru oil & gas',
-      'Drinking Water - Aprobări ACS/WRAS/KTW pentru apă potabilă',
-      'OIML R117 - Conformitate standard metrologic nivel apă'
+      'SIL 2 - la variantele care au această certificare, conform documentației Keller',
+      'NACE MR0175/ISO 15156 - la variantele care au această conformitate, conform documentației Keller',
+      'Aprobări pentru apă potabilă - la variantele care le au, conform documentației Keller',
+      'Conformitate metrologică - la variantele care o au, conform documentației Keller'
     ],
     industries: [
       'Hydrology - monitorizare nivel acvifere, râuri, lacuri, fântâni',
@@ -750,7 +750,7 @@ Keller are expertiză extinsă în aplicații extreme: traductoare submersibile 
       'Marine - balast, apă de mare, sisteme hidraulice navale',
       'Environmental - monitorizare poluare, managementul apelor'
     ],
-    infinitrade: `Procurăm traductoarele de presiune Keller din Winterthur prin furnizori din Uniunea Europeană și nu avem evidență proprie a stocului fizic pentru fiecare referință. Parametrii tehnici îi preluăm din surse publice ale producătorului elvețian, iar termenul concret îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, traductoarele standard pot ajunge în 24–72 h din stoc, iar variantele submersibile speciale sau seturile wireless intră pe flux de comandă de 1–4 săptămâni. Trimite-ne domeniul de presiune, tipul de mediu măsurat și lungimea de cablu necesară pentru o verificare rapidă. Nu emitem noi certificate proprii de calibrare; pentru recalibrare acreditată clientul apelează direct la laboratorul producătorului.`,
+    infinitrade: `Procurăm traductoarele de presiune Keller din Winterthur prin furnizori din Uniunea Europeană și nu avem evidență proprie a stocului fizic pentru fiecare referință. Parametrii tehnici îi preluăm din surse publice ale producătorului elvețian, iar termenul concret îl confirmăm după verificarea la furnizor. Ca regulă generală a firmei, traductoarele standard pot ajunge în 24–72 h din stoc, iar variantele submersibile speciale sau seturile wireless intră pe flux de comandă de 1–4 săptămâni. Trimiteți-ne domeniul de presiune, tipul de mediu măsurat și lungimea de cablu necesară pentru o verificare rapidă. Nu emitem noi certificate proprii de calibrare; pentru recalibrare acreditată clientul apelează direct la laboratorul producătorului.`,
     sources: [
       {"title":"Series 33X | KELLER Pressure","url":"https://keller-pressure.com/en/products/pressure-transmitters/standard-pressure-transmitters/series-33x","publisher":"Keller Pressure","accessed":"2026-09-22"},
       {"title":"Products overview | KELLER Pressure","url":"https://keller-pressure.com/en/products","publisher":"Keller Pressure","accessed":"2026-09-22"},
@@ -768,7 +768,7 @@ Keller are expertiză extinsă în aplicații extreme: traductoare submersibile 
       },
       {
         "code": "Series 35X",
-        "description": "traductor de presiune cu membrană frontală, variantă răsfrânt"
+        "description": "traductor de presiune cu membrană frontală"
       },
       {
         "code": "Series 35HTCX",
@@ -835,8 +835,8 @@ Keller are expertiză extinsă în aplicații extreme: traductoare submersibile 
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu emitem noi certificate de calibrare acreditate SAS și nu putem garanta disponibilitate neîntreruptă pentru toate variantele submersibile Keller.',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },

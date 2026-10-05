@@ -498,27 +498,27 @@ Pentru proiectele din energie și petrochimie din România, Orion înseamnă val
     headquarters: "Leganés (Madrid), Spania",
     overview: `TTV Válvulas este un producător spaniol de robineți fluture industriali, cu sediul la Leganés, lângă Madrid, cu peste 40 de ani de activitate în fabricația de armături pentru conducte. Gama acoperă robineți fluture concentrici, dublu excentrici și triplu excentrici, plus valve cu sertar (gate) pentru izolarea conductelor. Pentru piața din România putem oferta robineți fluture din gama TTV, la comandă, pentru instalații industriale de proces.
 
-Ce diferențiază TTV e acoperirea largă de diametre și presiuni pe fiecare tip constructiv: robineții concentrici merg de la DN32 până la DN3000, în variante wafer, lug, cu flanșe sau canelate, cu materiale de la fontă ductilă la duplex și Monel K500; seria Colossus de robineți dublu și triplu excentrici acoperă DN40-DN600, cu variante Metal, PTFE/R-PTFE sau Fire Safe pentru rezistență la foc, iar modelul Tritium este robinetul triplu excentric de referință al gamei. În segmentul robinetelor fluture industriale, TTV se compară cu InterApp și cu Valvitalia.
+Ce diferențiază TTV e acoperirea largă de diametre și presiuni pe fiecare tip constructiv: robineții concentrici merg de la DN32 până la DN3000, în variante wafer, lug, cu flanșe sau canelate, cu materiale de la fontă ductilă la duplex și Monel K500; seria Colossus de robineți dublu și triplu excentrici acoperă DN40-DN600, cu variante Metal, PTFE/R-PTFE sau Fire Safe pentru rezistență la foc. În segmentul robinetelor fluture industriale, TTV se compară cu InterApp și cu Valvitalia.
 
 Pentru instalatorii industriali din România, TTV înseamnă robineți fluture cu plajă largă de diametre și materiale, utili la rețele de apă, minerit, energie sau petrochimie unde diametrul mare al conductei impune o soluție fluture, nu cu bilă.`,
     whyChoose: [
       "Robineți fluture concentrici pe o plajă foarte largă de diametre, de la DN32 până la DN3000",
       "Seria Colossus de robineți dublu/triplu excentrici, cu variante Fire Safe rezistente la foc",
-      "Model Tritium — robinet triplu excentric conform standardelor ISO pentru etanșare fără scurgeri",
+      "Robineți triplu excentrici pentru aplicații cu cerințe ridicate de etanșare, conform documentației producătorului",
       "Materiale disponibile de la fontă ductilă la duplex, super-duplex și Monel K500",
       "Robineți concentrici de înaltă temperatură, pentru servicii de la -190°C până la 850°C"
     ],
     keyProducts: [
       { name: "Robineți fluture concentrici (soft-seated)", description: "Robineți fluture concentrici cu scaun elastomeric, în variante wafer, lug, cu flanșe, dublă-flanșă sau canelate, pentru diametre de la DN32 (1 1/4\") până la DN3000 (120\"), clase PN6-PN25 sau 150#/API605. Materialul corpului include fontă ductilă, WCB, inox, bronz, duplex, super-duplex sau Monel K500. Clientul trebuie să transmită diametrul, clasa de presiune și fluidul vehiculat." },
       { name: "Robineți fluture de înaltă temperatură", description: "Robineți fluture concentrici cu scaun metalic, pentru servicii de temperatură extremă, de la -190°C până la 850°C, în variante wafer, lug sau cu flanșe, pe diametre de la DN40 (1 1/2\") până la DN1200 (48\"). Clientul trebuie să indice temperatura de lucru și diametrul conductei." },
-      { name: "Seria Colossus (dublu și triplu excentrici)", description: "Robineți fluture dublu și triplu excentrici, în variante Metal, PTFE/R-PTFE sau Fire Safe rezistentă la foc, pe diametre de la DN40 (1 1/2\") până la DN600 (24\"), clase PN10-PN25 sau 150#/300#. Modelul Tritium reprezintă varianta triplu excentrică de referință a gamei. Clientul trebuie să confirme diametrul, presiunea și tipul de etanșare dorit." },
+      { name: "Seria Colossus (dublu și triplu excentrici)", description: "Robineți fluture dublu și triplu excentrici, în variante Metal, PTFE/R-PTFE sau Fire Safe rezistentă la foc, pe diametre de la DN40 (1 1/2\") până la DN600 (24\"), clase PN10-PN25 sau 150#/300#. Clientul trebuie să confirme diametrul, presiunea și tipul de etanșare dorit." },
       { name: "Valve cu sertar (Gate)", description: "Valve cu sertar pentru izolarea completă a conductei, pe diametre de la DN50 până la DN300, clase PN10-PN16, folosite complementar gamei de robineți fluture pe aceeași instalație. Clientul trebuie să indice diametrul conductei și clasa de presiune necesară." }
     ],
     industries: [
       "Tratare și distribuție apă — robineți fluture pentru rețele mari de conducte",
       "Minerit — robineți rezistenți la uzură pentru fluide abrazive",
       "Energie — robineți de înaltă temperatură pentru circuite termice",
-      "Chimie și petrochimie — robineți triplu excentrici pentru etanșare fără scurgeri",
+      "Chimie și petrochimie — robineți triplu excentrici pentru cerințe ridicate de etanșare",
       "Petrol și gaze — robineți fluture pentru conducte de diametru mare"
     ],
     infinitrade: `Furnizăm robineți fluture TTV la comandă, prin canale de aprovizionare din Uniunea Europeană, din surse publice ale producătorului, fără date proprii despre stocul fabricii din Leganés. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de diametru și de complexitatea comenzii. Pentru o ofertă corectă, clientul trebuie să ne transmită tipul constructiv (concentric, dublu sau triplu excentric), diametrul, clasa de presiune și materialul dorit. Nu promitem disponibilitate din depozit pentru nicio familie din gama TTV.`,
@@ -534,9 +534,7 @@ Pentru instalatorii industriali din România, TTV înseamnă robineți fluture c
       { code: "High Temp Metal Concentric", description: "Robinet fluture cu scaun metalic, -190°C până la 850°C" },
       { code: "Colossus Metal", description: "Robinet fluture dublu/triplu excentric, scaun metalic" },
       { code: "Colossus PTFE/R-PTFE", description: "Robinet fluture excentric cu scaun PTFE" },
-      { code: "Colossus Fire Safe", description: "Robinet fluture excentric certificat rezistent la foc" },
-      { code: "Hydor", description: "Robinet fluture dublu excentric din gama TTV" },
-      { code: "Tritium", description: "Robinet fluture triplu excentric de referință TTV" }
+      { code: "Colossus Fire Safe", description: "Robinet fluture excentric certificat rezistent la foc" }
     ],
     faq: [
       { q: "Ce produce TTV?", a: "TTV Válvulas produce robineți fluture industriali — concentrici, dublu excentrici și triplu excentrici — plus valve cu sertar, cu sediul la Leganés, lângă Madrid, în Spania." },
@@ -546,8 +544,8 @@ Pentru instalatorii industriali din România, TTV înseamnă robineți fluture c
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "TTV Válvulas - Home", url: "https://www.ttv.es/en/", publisher: "TTV Válvulas", accessed: "2026-09-22" },
       { title: "Catálogo General TTV", url: "https://ttv.es/wp-content/uploads/2022/12/TTV.pdf", publisher: "TTV Válvulas", accessed: "2026-09-22" }

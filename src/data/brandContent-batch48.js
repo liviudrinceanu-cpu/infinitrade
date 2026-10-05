@@ -12,14 +12,14 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
     whyChoose: [
       "Switch-uri Ethernet de la 100 Mbps la 10 Gbps, cu variante certificate EN 50155 pentru feroviar și IEC 61850-3 pentru substații",
       "Servere seriale NPort convertesc RS-232/422/485 în Ethernet, cu opțiuni de la 1 la 32 de porturi",
-      "Calculatoare industriale fanless din seria DA, fără ventilator, pentru tablouri electrice cu spațiu limitat",
+      "Calculatoare industriale fără ventilator din seria DA, inclusiv servere rackmount 2U pentru stații electrice",
       "Variante certificate ATEX și DNV GL pentru zone cu risc de explozie și aplicații marine",
-      "Portofoliu de peste 500 de produse de conectivitate serială și de rețea, construit constant din 1987"
+      "Portofoliu de peste 500 de produse de conectivitate serială, construit constant din 1987"
     ],
     keyProducts: [
       { name: "Servere de Dispozitive Seriale NPort", description: "Convertesc porturi seriale RS-232, RS-422 sau RS-485 în conexiuni Ethernet, cu variante de la un port la 32 de porturi și conectori RJ45, DB9, terminal block sau fibră optică. Montaj pe șină DIN, desktop sau rack, cu certificări opționale ATEX, DNV GL sau EN 50155. Aplicație tipică: aducerea în rețea a echipamentelor industriale mai vechi cu interfață serială. Pentru ofertă, clientul trebuie să spună numărul de porturi, tipul de interfață și dacă are nevoie de o certificare anume." },
       { name: "Switch-uri Ethernet Industriale", description: "Gama include switch-uri negestionate, pentru instalare simplă, și switch-uri gestionate cu redundanță de rețea și funcții de securitate, la viteze de la 100 Mbps la 10 Gbps. Montaj pe șină DIN, rack sau perete, cu temperaturi de operare standard sau extinse și certificări pentru substații (IEC 61850-3, IEEE 1613) sau feroviar (EN 50155). Pentru ofertă corectă e nevoie de numărul de porturi, viteza dorită și mediul de instalare." },
-      { name: "Calculatoare Industriale Fanless Seria DA", description: "Calculatoare x86 fără ventilator, precum DA-920E, pentru funcționare continuă în tablouri electrice sau chioșcuri unde praful și vibrațiile ar afecta un PC clasic. Rulează aplicații edge de automatizare sau colectare de date direct lângă echipamentul de proces. Pentru dimensionare, clientul trebuie să precizeze aplicația software rulată și numărul de porturi I/O necesare." },
+      { name: "Calculatoare Industriale Fanless Seria DA", description: "Calculatoare x86 fără ventilator; de exemplu, DA-920E este un server rackmount 2U fără ventilator, destinat stațiilor electrice și aplicațiilor feroviare. Rulează aplicații edge de automatizare sau colectare de date direct lângă echipamentul de proces. Pentru dimensionare, clientul trebuie să precizeze aplicația software rulată și numărul de porturi I/O necesare." },
       { name: "Routere Securizate și Gateway-uri Celulare", description: "Routerele asigură conectivitate securizată între rețele izolate și infrastructura IT, cu firewall și VPN; gateway-urile celulare adaugă 4G/5G pentru site-uri fără cablare fixă. Aplicație tipică: conectarea la distanță a stațiilor de pompare sau echipamentelor mobile la un centru de control. Clientul trebuie să spună tipul de rețea celulară disponibilă local." }
     ],
     industries: [
@@ -29,7 +29,7 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
       "Petrol și gaze — conectivitate industrială pentru instalații cu risc de explozie",
       "Marină — echipamente de rețea certificate DNV GL pentru nave și platforme"
     ],
-    certifications: ["IEC 61850-3 — pentru echipamente de rețea în substații electrice", "IEEE 1613 — imunitate electromagnetică pentru medii de substație", "EN 50155 — pentru echipamente electronice montate pe vehicule feroviare", "ATEX — Moxa: variante pentru zone cu risc de explozie"],
+    certifications: ["IEC 61850-3 — pentru echipamente de rețea în substații electrice", "IEEE 1613 — imunitate electromagnetică pentru medii de substație", "EN 50155 — pentru echipamente electronice montate pe vehicule feroviare", "ATEX — modele Moxa certificate pentru zone cu risc de explozie (pe cod)"],
     infinitrade: `Pentru Moxa lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii de stoc pe fiecare cod — vă spunem clar ce putem și ce nu putem confirma înainte de a trimite o ofertă. Aducem echipamentele de rețea Moxa la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru fiecare model. Ca să pregătim o ofertă corectă, trimiteți-ne codul exact al produsului sau, dacă nu îl aveți, numărul de porturi și interfața dorită, certificările necesare și cantitatea.`,
     limitation: "Nu confirmăm disponibilitatea în timp real a fiecărui cod Moxa și nu oferim configurare software proprietară pentru switch-uri gestionate.",
     productCodes: [
@@ -85,7 +85,7 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
     faq: [
       {
         "q": "Ce diferență este între switch-urile Moxa seria EDS-510A și EDS-510E?",
-        "a": "Ambele modele au aceeași configurație de porturi, șapte plus trei Gigabit, dar variantele diferă prin funcțiile software și opțiunile de management incluse din fabrică, seria E acoperind cerințe suplimentare de rețea industrială. Alegerea între cele două depinde de protocoalele de management deja folosite în rețea și de nivelul de redundanță necesar la nivel de switch."
+        "a": "Ambele modele au aceeași configurație de porturi, șapte plus trei Gigabit, dar sunt serii diferite; diferențele de funcții software, redundanță și securitate se confirmă pe cod, din fișa tehnică Moxa. Alegerea între cele două depinde de protocoalele de management deja folosite în rețea și de nivelul de redundanță necesar la nivel de switch."
       },
       {
         "q": "Livrați echipamente Moxa în România la comandă?",
@@ -102,8 +102,8 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"EDS Layer 2 Managed Ethernet Switches","url":"https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/layer-2-managed-switches","publisher":"Moxa Inc.","accessed":"2026-09-25"},
       { title: "Moxa - Your Trusted Partner in Automation", url: "https://www.moxa.com/en/", publisher: "Moxa Inc.", accessed: "2026-09-22" },
@@ -517,7 +517,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
     headquarters: "Germania",
     overview: `OBO Bettermann este un producător german de sisteme pentru instalații electrice, cu accent pe protecția la supratensiune, jgheaburi și sisteme de conducere a cablurilor, protecție la foc și sisteme de împământare. Compania se descrie ca fiind printre producătorii de referință pentru sisteme de instalare electrică din construcții și industrie. Din gama OBO Bettermann putem oferta la comandă jgheaburi de cabluri, descărcătoare de supratensiune și sisteme de protecție la foc, pentru firme de instalații electrice și proiecte industriale.
 
-Gama tehnică e organizată pe categorii clare: sisteme de conducere a cablurilor (Leitungsführungssysteme), sisteme de protecție la foc (Brandschutz), sisteme de instalare încastrată (Einbaugeräte-Systeme), sisteme de conectare, plus protecție la trăsnet și supratensiune și soluții pentru instalații subterane. În zona de protecție la supratensiune, OBO Bettermann se compară cu Dehn, alt nume german deja prezent pe site-ul nostru, ambele acoperind game complete de descărcătoare pentru tablouri electrice.
+Gama tehnică e organizată pe categorii clare: sisteme de conducere a cablurilor, sisteme de protecție la foc, sisteme de instalare încastrată, sisteme de conectare, plus protecție la trăsnet și supratensiune și soluții pentru instalații subterane. În zona de protecție la supratensiune, OBO Bettermann este comparabil cu Dehn, alt producător german, ambele având game de descărcătoare pentru tablouri electrice.
 
 Pentru piața din România, gama are sens la proiecte de instalații electrice industriale sau comerciale unde ai nevoie de jgheaburi de cabluri dimensionate corect, de protecție la supratensiune pentru echipamente sensibile sau de sisteme de protecție la foc pentru trasee de cabluri prin zone cu risc.`,
     whyChoose: [
@@ -528,7 +528,7 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
       "Poziționare directă în categoria protecției la supratensiune, alături de nume precum Dehn"
     ],
     keyProducts: [
-      { name: "Jgheaburi și Sisteme de Conducere a Cablurilor", description: "Jgheaburi metalice (Kabelrinne, Gitterrinne) pentru trasee de cabluri în instalații industriale și comerciale, în diverse lățimi și înălțimi, cu accesorii de fixare și îmbinare. Aplicație tipică: distribuția cablurilor electrice și de date prin hale de producție sau clădiri de birouri. Pentru ofertă, clientul trebuie să precizeze lățimea și înălțimea jgheabului, lungimea totală a traseului și tipul de mediu de instalare." },
+      { name: "Jgheaburi și Sisteme de Conducere a Cablurilor", description: "Jgheaburi metalice (tip plin și tip plasă) pentru trasee de cabluri în instalații industriale și comerciale, în diverse lățimi și înălțimi, cu accesorii de fixare și îmbinare. Aplicație tipică: distribuția cablurilor electrice și de date prin hale de producție sau clădiri de birouri. Pentru ofertă, clientul trebuie să precizeze lățimea și înălțimea jgheabului, lungimea totală a traseului și tipul de mediu de instalare." },
       { name: "Sisteme de Protecție la Supratensiune", description: "Descărcătoare de supratensiune pentru protejarea tablourilor electrice și a echipamentelor sensibile împotriva impulsurilor generate de trăsnet sau comutații de rețea. Aplicație tipică: protecția instalațiilor fotovoltaice, a centrelor de date sau a echipamentelor industriale critice. Clientul trebuie să precizeze tensiunea nominală a instalației și tipul de protecție necesar (clasa I, II sau combinată)." },
       { name: "Sisteme de Protecție la Foc", description: "Soluții pentru limitarea propagării focului prin trasee de cabluri care traversează pereți sau planșee compartimentate la foc, inclusiv manșoane și vopsele intumescente. Aplicație tipică: treceri de cabluri prin pereți rezistenți la foc în clădiri industriale sau centre de date. Pentru ofertă, e nevoie de rezistența la foc cerută (EI) și diametrul traseului de cabluri." },
       { name: "Sisteme de Împământare și Protecție la Trăsnet", description: "Componente pentru instalații de împământare și paratrăsnet — conductori, electrozi și piese de conectare — dimensionate pentru protecția clădirilor și echipamentelor la descărcări atmosferice. Aplicație tipică: instalații de protecție la trăsnet pentru clădiri industriale sau parcuri fotovoltaice. Clientul trebuie să trimită schema instalației sau tipul de clădire protejată." }
@@ -585,11 +585,11 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
       },
       {
         "code": "RKS-Magic 60 FS",
-        "description": "Jgheab metalic pentru cabluri, oțel zincat la rece, lățime 60 mm"
+        "description": "Jgheab metalic pentru cabluri, familia RKS-Magic, finisaj FS"
       },
       {
         "code": "RKS-Magic 60 A2",
-        "description": "Jgheab pentru cabluri din oțel inoxidabil, finisaj brut"
+        "description": "Jgheab pentru cabluri din oțel inoxidabil (A2)"
       },
       {
         "code": "RKS-Magic 60 FT",
@@ -607,7 +607,7 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
       },
       {
         "q": "Ce diferență există între jgheabul RKS-Magic 60 FS și cel FT?",
-        "a": "Diferența constă în tratamentul de suprafață al oțelului: FS este zincat la rece, potrivit pentru interior, iar FT este zincat termic prin imersie la cald, cu rezistență mai bună la coroziune pentru montaj exterior sau industrial. Ambele fac parte din familia RKS-Magic, cu lățime de 60 mm și sistem de îmbinare fără șuruburi. Alegerea corectă ține cont de mediul de instalare."
+        "a": "Diferența constă în tratamentul de suprafață al oțelului: FT este zincat termic prin imersie la cald, cu rezistență mai bună la coroziune, iar FS este un alt tip de finisaj de zincare; mediul de montaj admis pentru fiecare variantă se confirmă pe cod, din catalogul OBO. Ambele fac parte din familia RKS-Magic, cu sistem de îmbinare fără șuruburi. Alegerea corectă ține cont de mediul de instalare."
       },
       {
         "q": "Livrați jgheaburi și descărcătoare OBO Bettermann în România?",
@@ -620,8 +620,8 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"OBO Bettermann homepage","url":"https://www.obo.de/en","publisher":"OBO Bettermann","accessed":"2026-09-25"},
       {"title":"Überspannungsschutz - Produkte","url":"https://www.obo.de/de-de/produkte/ueberspannungsschutz","publisher":"OBO Bettermann","accessed":"2026-09-25"},
@@ -856,7 +856,7 @@ Pentru piața din România, HSD are sens la retehnologizarea sau completarea uno
     name: "Metabo",
     founded: 1924,
     headquarters: "Nürtingen, Germania",
-    overview: `Metabo este un producător german de scule electrice profesionale, cu sediul la Nürtingen și activitate din 1924, azi parte a portofoliului de mărci profesionale al grupului Techtronic Industries. Compania produce scule cu acumulator și cu cablu pentru metal, construcții și tâmplărie, plus accesorii și materiale abrazive pentru uz industrial. Din gama Metabo putem oferta la comandă scule electrice cu acumulator, scule cu cablu și accesorii pentru profesioniști din construcții și prelucrarea metalului.
+    overview: `Metabo este un producător german de scule electrice profesionale, cu sediul la Nürtingen și activitate din 1924, azi parte din grupul Koki Holdings. Compania produce scule cu acumulator și cu cablu pentru metal, construcții și tâmplărie, plus accesorii și materiale abrazive pentru uz industrial. Din gama Metabo putem oferta la comandă scule electrice cu acumulator, scule cu cablu și accesorii pentru profesioniști din construcții și prelucrarea metalului.
 
 Metabo se remarcă printr-un nivel ridicat de integrare verticală în fabricație — de la turnarea aluminiului până la injecția de materiale compozite pentru carcasele sculelor — și prin platforma de acumulatori LiHDX, gândită pentru performanță ridicată la sarcini grele. Compania participă și la sistemul Cordless Alliance System (CAS), o platformă de acumulatori compatibili între mai mulți producători de scule electrice, utilă pentru firme care combină echipamente de la branduri diferite pe același șantier.
 
@@ -866,7 +866,7 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
       "Membru al sistemului Cordless Alliance System, cu acumulatori compatibili între mai mulți producători",
       "Producție cu grad ridicat de integrare verticală, de la turnarea aluminiului la injecția de compozite",
       "Peste 100 de ani de istorie în fabricarea sculelor electrice profesionale, din 1924",
-      "Gamă completă pentru metal, construcții, prelucrarea betonului și pietrei, și tâmplărie"
+      "Gamă pentru metal, construcții, prelucrarea betonului și pietrei și tâmplărie"
     ],
     keyProducts: [
       { name: "Scule Electrice cu Acumulator (Platforma LiHDX)", description: "Scule cu acumulator — polizoare, mașini de găurit-înșurubat, ferăstraie — construite pe platforma de baterii LiHDX, gândită pentru putere susținută la sarcini grele, nu doar utilizare ocazională. Aplicație tipică: lucrări de prelucrare metal sau construcții unde alimentarea cu cablu e greu de asigurat. Pentru ofertă, clientul trebuie să precizeze tipul de sculă și capacitatea de acumulator dorită." },
@@ -914,7 +914,7 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
       },
       {
         "code": "BS 18 LT BL – 602325890",
-        "description": "Mașină de găurit-înșurubat cu acumulator 18V, model de bază, cutie de transport"
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, model de bază, livrat fără acumulator și încărcător"
       },
       {
         "code": "SB 18 LTX-3 BL Q I – 603185840",
@@ -952,7 +952,7 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
     faq: [
       {
         "q": "Ce înseamnă codul BS 18 LTX-3 BL Q I la Metabo?",
-        "a": "În codurile Metabo, BS indică o mașină de găurit-înșurubat, cifra 18 arată platforma de tensiune de 18 V, LTX marchează seria de acumulatori Li-Ion de performanță, iar BL indică motorul fără perii (brushless). Sufixele Q și I descriu variante de livrare, precum mandrina cu schimbare rapidă sau prezența unei genți ori cutii de transport. Numărul din final este articolul exact folosit la comandă."
+        "a": "În codurile Metabo, BS indică o mașină de găurit-înșurubat, cifra 18 arată platforma de tensiune de 18 V, LTX marchează clasa de performanță pentru aplicații dificile, cu cuplu mai mare (clasa LT este pentru sarcini mai ușoare), iar BL indică motorul fără perii (brushless). Sufixele Q și I descriu variante de livrare, precum mandrina cu schimbare rapidă sau prezența unei genți ori cutii de transport. Numărul din final este articolul exact folosit la comandă."
       },
       {
         "q": "Ce diferență este între seria BS și seria SB la Metabo?",
@@ -969,8 +969,8 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Cordless drill / drivers","url":"https://www.metabo.com/us/enus/tools/cordless-tools/screwing-drilling-chiseling-stirring/cordless-drill-drivers/","publisher":"Metabo","accessed":"2026-09-25"},
       {"title":"Cordless hammer drills","url":"https://www.metabo.com/us/enus/tools/cordless-tools/screwing-drilling-chiseling-stirring/cordless-hammer-drills/","publisher":"Metabo","accessed":"2026-09-25"},

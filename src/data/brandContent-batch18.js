@@ -1889,34 +1889,34 @@ Legătura strânsă cu Valmet, un furnizor major de tehnologie pentru industria 
     founded: 1960,
     headquarters: "Heidelberg, Germania",
     employees: "3.000+ angajați la nivel global",
-    overview: `ProMinent a fost fondată în 1960 la Heidelberg și s-a dezvoltat într-un furnizor complet de tehnologie de dozare și dezinfecție pentru apă — de la pompa dozatoare simplă montată pe un perete de fabrică, până la sisteme complexe de generare a dezinfectantului chiar la locul de utilizare. Compania acoperă practic tot lanțul tehnic al tratării chimice a apei: pompare, dozare, măsurare și control automat, toate sub aceeași marcă.
+    overview: `ProMinent a fost fondată în 1960 la Heidelberg și s-a dezvoltat într-un furnizor complet de tehnologie de dozare și dezinfecție pentru apă — de la pompa dozatoare simplă montată pe un perete de fabrică, până la sisteme complexe de generare a dezinfectantului chiar la locul de utilizare. Compania oferă echipamente pentru pompare, dozare, măsurare și control automat în tratarea chimică a apei.
 
-Pompele dozatoare solenoidale seria gamma/X și Beta acoperă majoritatea aplicațiilor uzuale de dozare — corecție pH, clorinare, dozare floculanți — cu debite și presiuni de refulare care depind de model și de capul de dozare. Pentru debite și presiuni mai mari, pompele cu membrană sau piston acționate de motor electric din seria Sigma acoperă dozarea la scară de proces industrial, cu debite de până la câteva mii de litri pe oră. Sistemele de dezinfecție Bello Zon, care generează dioxid de clor la fața locului, și sistemele de electroliză pentru generarea de hipoclorit de sodiu din sare elimină nevoia de transport și stocare a clorului gazos, o preocupare majoră de siguranță pentru operatorii de stații de apă.
+Pompele dozatoare solenoidale seria gamma/X și Beta acoperă majoritatea aplicațiilor uzuale de dozare — corecție pH, clorinare, dozare floculanți — cu debite și presiuni de refulare care depind de model și de capul de dozare. Pentru debite și presiuni mai mari, pompele cu membrană sau piston acționate de motor electric din seria Sigma acoperă dozarea la scară de proces industrial, cu debite de ordinul a 1.000 l/h în gamele Sigma/1–3 (valorile exacte depind de model). Sistemele de dezinfecție Bello Zon, care generează dioxid de clor la fața locului, și sistemele de electroliză pentru generarea de hipoclorit de sodiu din sare elimină nevoia de transport și stocare a clorului gazos, o preocupare majoră de siguranță pentru operatorii de stații de apă.
 
-Completează oferta seria de regulatoare și senzori DULCOMETER pentru măsurarea continuă a pH-ului, clorului rezidual sau potențialului redox, integrate direct cu pompele dozatoare pentru bucle de control automat cu răspuns în timp real. Pentru operatorii de stații de apă și piscine din România, gama ProMinent acoperă pompare, dozare, măsurare și dezinfecție pentru un sistem de tratare a apei.`,
+Completează oferta seria de regulatoare DULCOMETER și senzori DULCOTEST pentru măsurarea continuă a pH-ului, clorului rezidual sau potențialului redox, integrate direct cu pompele dozatoare pentru bucle de control automat cu răspuns în timp real. Pentru operatorii de stații de apă și piscine din România, gama ProMinent acoperă pompare, dozare, măsurare și dezinfecție pentru un sistem de tratare a apei.`,
     whyChoose: [
-      "Gamă completă de tehnologie de apă — pompare, dozare, dezinfecție și măsurare de la același producător",
+      "Gamă de tehnologie de apă — pompare, dozare, dezinfecție și măsurare de la același producător",
       "Generare de dezinfectant la fața locului — elimină transportul și stocarea clorului gazos periculos",
       "Gamă largă de debite de dozare, de la pompe solenoidale la pompe cu motor, în funcție de serie",
-      "Bucle de control automat integrate — senzori DULCOMETER cuplați direct cu pompele dozatoare",
+      "Bucle de control automat integrate — regulatoare DULCOMETER și senzori DULCOTEST cuplați direct cu pompele dozatoare",
       "Certificări pentru apă potabilă — echipamente aprobate pentru contact cu apă destinată consumului uman",
       "Dimensionare pe baza debitului de apă tratat și a chimicalului dozat, cu datele confirmate din documentația producătorului"
     ],
     keyProducts: [
       {
         name: "Pompe Dozatoare Solenoidale Seria gamma/X și Beta",
-        description: "Pompe dozatoare cu membrană acționată solenoidal, pentru dozare de chimicale în tratarea apei — corecție pH, clorinare, dozare floculanți sau antispumanți. Debitul și presiunea de refulare depind de model și de capul de dozare. Reglare de debit manuală prin cursă și frecvență, sau automată prin semnal 4-20mA sau impuls de la un debitmetru amonte, pentru dozare proporțională cu fluxul de apă tratat. Cap de dozare disponibil în materiale variate (PVC, PVDF, inox) pentru compatibilitate cu chimicalul dozat. Membrană de siguranță cu detectare de spargere pentru semnalizare timpurie a defecțiunii."
+        description: "Pompe dozatoare cu membrană acționată solenoidal, pentru dozare de chimicale în tratarea apei — corecție pH, clorinare, dozare floculanți sau antispumanți. Debitul și presiunea de refulare depind de model și de capul de dozare. Reglare de debit manuală prin cursă și frecvență, sau automată prin semnal 4-20mA sau impuls de la un debitmetru amonte, pentru dozare proporțională cu fluxul de apă tratat. Cap de dozare disponibil în materiale variate (PP, PVDF, inox, în funcție de model) pentru compatibilitate cu chimicalul dozat. Membrană de siguranță cu detectare de spargere pentru semnalizare timpurie a defecțiunii."
       },
       {
         name: "Pompe Dozatoare cu Motor Seria Sigma",
-        description: "Pompe dozatoare cu membrană sau piston acționate de motor electric, pentru debite și presiuni mai mari decât cele accesibile pompelor solenoidale, cu debite de până la câteva mii de litri pe oră. Cursă de dozare reglabilă electronic pentru precizie ridicată chiar la debite mari, cu opțiune de control prin variator de frecvență pentru adaptare continuă la necesarul de proces. Membrană dublă cu senzor de monitorizare pentru siguranță suplimentară la aplicații critice. Utilizate în stații de tratare a apei de capacitate medie și mare, unde pompele solenoidale nu ar acoperi debitul necesar de reactiv."
+        description: "Pompe dozatoare cu membrană sau piston acționate de motor electric, pentru debite și presiuni mai mari decât cele accesibile pompelor solenoidale, cu debite de ordinul a 1.000 l/h în gamele Sigma/1–3 (valorile exacte depind de model). Cursă de dozare reglabilă electronic pentru precizie ridicată chiar la debite mari, cu opțiune de control prin variator de frecvență pentru adaptare continuă la necesarul de proces. Membrană de siguranță multistrat pentru siguranță suplimentară la aplicații critice. Utilizate acolo unde debitul de reactiv depășește ce pot oferi pompele solenoidale."
       },
       {
         name: "Sisteme de Dezinfecție Bello Zon și Electroliză",
         description: "Sisteme complete pentru generarea dezinfectantului chiar la locul de utilizare, eliminând necesitatea transportului și stocării clorului gazos sau a hipocloritului concentrat. Sistemele Bello Zon generează dioxid de clor prin reacție chimică controlată, folosit pentru dezinfecție și controlul biofilmului în rețele de apă. Sistemele de electroliză produc hipoclorit de sodiu direct din soluție de sare comună și energie electrică, la concentrații joase, mai sigure de manipulat decât produsul comercial concentrat. Ambele tehnologii reduc riscurile de siguranță asociate stocării de chimicale periculoase pe amplasamentul stației de tratare."
       },
       {
-        name: "Regulatoare și Senzori DULCOMETER",
+        name: "Regulatoare DULCOMETER și Senzori DULCOTEST",
         description: "Regulatoare digitale și senzori pentru măsurarea continuă a parametrilor critici ai apei tratate — pH, clor rezidual liber, potențial redox (ORP), conductivitate — integrate direct cu pompele dozatoare ProMinent pentru formarea unei bucle complete de control automat. Afișaj digital cu istoricul măsurătorilor, alarme configurabile pentru depășirea limitelor de proces și ieșiri analogice sau releu pentru comanda directă a pompelor dozatoare. Calibrare simplă cu soluții tampon standard, cu compensare automată de temperatură pentru măsurători stabile. Reduce nevoia de verificări manuale frecvente ale calității apei, esențial în instalații fără personal permanent."
       }
     ],
@@ -1944,7 +1944,7 @@ Completează oferta seria de regulatoare și senzori DULCOMETER pentru măsurare
     productCodes: [
       {
         "code": "Orlita MF",
-        "description": "Pompă dozatoare cu piston și membrană hidraulică metalică"
+        "description": "Pompă dozatoare hidraulică cu membrană (dublă membrană PTFE)"
       },
       {
         "code": "Orlita MH",
@@ -1980,7 +1980,7 @@ Completează oferta seria de regulatoare și senzori DULCOMETER pentru măsurare
       },
       {
         "code": "ROTADOS",
-        "description": "Pompă rotativă cu lobi pentru dozare"
+        "description": "Pompă rotativă cu lobi pentru transferul fluidelor vâscoase sau abrazive"
       },
       {
         "code": "Hydro/2 API 675",
@@ -2010,12 +2010,12 @@ Completează oferta seria de regulatoare și senzori DULCOMETER pentru măsurare
       },
       {
         "q": "Ce este pompa rotativă ProMinent ROTADOS?",
-        "a": "Este o pompă rotativă cu lobi, folosită pentru dozarea unor fluide vâscoase sau cu conținut de particule, acolo unde pompele cu membrană clasice nu fac față. Este aleasă în funcție de vâscozitatea fluidului și de debitul continuu necesar procesului."
+        "a": "Este o pompă rotativă cu lobi, folosită pentru transferul fluidelor vâscoase sau abrazive, inclusiv cu conținut de particule solide, de exemplu în aplicații cu ape uzate sau nămol. Se alege în funcție de vâscozitatea fluidului și de debitul necesar procesului."
       }
     ],
     evidenceClass: "gsc-only",
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   sulzer: {

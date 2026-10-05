@@ -835,12 +835,12 @@ Pentru instalațiile din România, motoarele Nanotec au sens la echipamentele de
     headquarters: "Wendlingen am Neckar, Germania",
     overview: `Festool este un producător german de scule electrice profesionale, cu sediul la Wendlingen am Neckar și rădăcini care merg până în 1925, când Albert Fezer și Gottlieb Stoll au pus bazele companiei care avea să devină ulterior atât Festo, cât și Festool. Din gama Festool putem oferta fierăstraie (cu pătrundere directă, pendulare și pentru tăieri unghiulare), freze, aspiratoare industriale, șlefuitoare și scule cu acumulator pe platforma 18V. Compania face parte din grupul TTS Tooltechnic Systems, alături de mărcile SawStop, Shaper, Tanos și exoIQ.
 
-Festool concurează cu Bosch Professional, deja prezent pe site-ul nostru, pe segmentul sculelor electrice de precizie, dar se poziționează în gama premium, cu accent pe compatibilitate sistemică între scule, accesorii și aspiratoare — un fierăstrău Festool pornește automat aspiratorul conectat la el, reducând praful din zona de lucru. Gama de aspiratoare industriale e gândită să funcționeze integrat cu restul sculelor, nu ca produs separat.
+Festool se poziționează în gama premium a sculelor electrice de precizie, cu accent pe compatibilitate sistemică între scule, accesorii și aspiratoare — un fierăstrău Festool pornește automat aspiratorul conectat la el, reducând praful din zona de lucru. Gama de aspiratoare industriale e gândită să funcționeze integrat cu restul sculelor, nu ca produs separat.
 
 Pentru piața din România, sculele Festool au sens la tâmplăriile profesionale, echipele de construcții care lucrează cu lemn și firmele de amenajări interioare care caută precizie de tăiere și control al prafului la lucrări în spații ocupate.`,
     whyChoose: [
       "Compatibilitate sistemică între scule și aspiratoare — pornire automată a aspirării la conectarea sculei",
-      "Platformă unică de acumulatori 18V pentru întreaga gamă de scule fără cablu",
+      "Platformă de acumulatori 18V pentru sculele fără cablu de putere mare",
       "Parte din grupul TTS Tooltechnic Systems, alături de mărci specializate precum SawStop",
       "Peste 100 de ani de experiență în fabricarea sculelor electrice de precizie",
       "Gamă completă pentru prelucrarea lemnului — fierăstraie, freze, șlefuitoare — sub un singur producător"
@@ -850,7 +850,7 @@ Pentru piața din România, sculele Festool au sens la tâmplăriile profesional
       { name: "Fierăstraie Pendulare (Stichsäge)", description: "Fierăstraie pendulare pentru tăieri curbe sau decupaje interioare, folosite la lucrări de finisare unde precizia liniei de tăiere contează mai mult decât viteza." },
       { name: "Freze de Precizie", description: "Freze electrice pentru canale, muchii și îmbinări în lemn, folosite la mobilier și tâmplărie fină, cu accesorii de ghidare pentru repetabilitate între piese." },
       { name: "Aspiratoare Industriale", description: "Aspiratoare pentru șantier și atelier, conectabile direct la sculele electrice din gamă, cu pornire automată la utilizarea sculei conectate — reduc praful rezidual din zona de lucru fără operare manuală separată." },
-      { name: "Scule cu Acumulator Platforma 18V", description: "Gamă de scule fără cablu, toate pe aceeași platformă de acumulatori 18V, utilă la echipele care lucrează pe șantier și vor un singur tip de baterie pentru toate sculele." }
+      { name: "Scule cu Acumulator Platforma 18V", description: "Gamă de scule fără cablu pe platforma de acumulatori 18V, utilă la echipele care lucrează pe șantier și vor un singur tip de baterie pentru toate sculele." }
     ],
     industries: [
       "Tâmplărie și prelucrarea lemnului — tăiere, frezare și finisare de precizie",
@@ -872,7 +872,7 @@ Pentru piața din România, sculele Festool au sens la tâmplăriile profesional
       },
       {
         "code": "TS 60 K",
-        "description": "Fierăstrău cu pătrundere, adâncime 60 mm, pentru tăieri oblice"
+        "description": "Fierăstrău cu pătrundere, adâncime 60 mm, cu protecție anti-recul KickbackStop"
       },
       {
         "code": "TSV 60 K",
@@ -918,7 +918,7 @@ Pentru piața din România, sculele Festool au sens la tâmplăriile profesional
       },
       {
         "q": "Ce diferență este între fierăstraiele Festool TS 55 și TS 60 K?",
-        "a": "TS 55 este modelul de bază, cu 55 mm adâncime de tăiere, potrivit pentru majoritatea lucrărilor de tâmplărie curentă. TS 60 K taie mai adânc, până la 60 mm, și include funcția de înclinare pentru tăieri oblice la unghiuri variate. Diferența devine importantă la panouri groase sau la lucrări de mobilier unde este nevoie de tăieri unghiulare precise pe grosimi mai mari."
+        "a": "TS 55 este modelul de bază, cu 55 mm adâncime de tăiere, potrivit pentru majoritatea lucrărilor de tâmplărie curentă. TS 60 K taie mai adânc, până la 60 mm, și include sistemul anti-recul KickbackStop; ambele modele permit tăieri oblice în intervalul -1° până la 47°. Diferența devine importantă la panouri groase sau la lucrări de mobilier unde este nevoie de tăieri unghiulare precise pe grosimi mai mari."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă la o sculă Festool?",
@@ -927,8 +927,8 @@ Pentru piața din România, sculele Festool au sens la tâmplăriile profesional
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Tauchsäge von Festool","url":"https://www.festool.de/produkte/saegen/tauchsaegen","publisher":"Festool GmbH","accessed":"2026-09-25"},
       {"title":"Schleifmaschine – Festool Schleifer","url":"https://www.festool.de/produkte/schleifer","publisher":"Festool GmbH","accessed":"2026-09-25"},

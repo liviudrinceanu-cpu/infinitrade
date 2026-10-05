@@ -3,14 +3,14 @@ export const brandContentBatch13 = {
     founded: 1933,
     headquarters: 'Kyoto, Japonia',
     employees: '28,000+',
-    overview: `Omron Corporation s-a născut în 1933 ca un mic atelier de reparații electrice în Kyoto și s-a transformat într-unul dintre producătorii importanți la nivel mondial ai automatizărilor industriale. Filozofia lor "Sensing & Control + Think" se traduce practic în echipamente care nu doar execută comenzi, ci anticipează probleme și optimizează procese în timp real. Conform producătorului, implementarea PLC-urilor Sysmac poate scurta cicluri de producție și reduce rata de defecte. Nu vorbim aici de simple controlere programabile, ci de sisteme integrate care combină logica avansată cu viziune artificială, roboți colaborativi și interfețe HMI intuitive.
+    overview: `Omron Corporation a fost înființată în 1933 la Osaka, sub numele Tateishi Electric Manufacturing Co., iar primul produs a fost un temporizator pentru fotografia cu raze X și s-a transformat într-unul dintre producătorii importanți la nivel mondial ai automatizărilor industriale. Filozofia lor "Sensing & Control + Think" se traduce practic în echipamente care nu doar execută comenzi, ci anticipează probleme și optimizează procese în timp real. Conform producătorului, implementarea PLC-urilor Sysmac poate scurta cicluri de producție și reduce rata de defecte. Nu vorbim aici de simple controlere programabile, ci de sisteme integrate care combină logica avansată cu viziune artificială, roboți colaborativi și interfețe HMI intuitive.
 
-Capacitatea de a simplifica complexitatea este un punct forte al Omron. Un servo drive seria 1S se configurează în câteva minute prin NFC de pe telefon, fără cabluri speciale sau software complicat. Senzorii de viziune FH combină viteza de procesare de milisecunde cu precizie micrometrică și configurare prin wizard vizual. Când ai nevoie să detectezi 15 tipuri diferite de defecte pe o linie ce rulează la 200 buc/min, îți dai seama că tehnologia Omron nu e doar avansată - e și accesibilă. Roboții colaborativi TM salvează spațiu, se programează prin învățare directă și lucrează alături de operatori fără garduri de protecție. E automatizare inteligentă pentru sectorul productiv real, nu concepte futuriste pentru laboratoare.
+Capacitatea de a simplifica complexitatea este un punct forte al Omron. Servo drive-urile seria 1S se configurează din Sysmac Studio, același mediu folosit pentru controlerele NJ/NX. Senzorii de viziune FH combină viteza de procesare de milisecunde cu precizie micrometrică și configurare prin wizard vizual. Când ai nevoie să detectezi 15 tipuri diferite de defecte pe o linie ce rulează la 200 buc/min, îți dai seama că tehnologia Omron nu e doar avansată - e și accesibilă. Roboții colaborativi TM salvează spațiu, se programează prin învățare directă și lucrează alături de operatori fără garduri de protecție. E automatizare inteligentă pentru sectorul productiv real, nu concepte futuriste pentru laboratoare.
 
-Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare în peste 120 țări. Investiția lor anuală în R&D depășește 7% din cifra de afaceri - resurse alocate către IoT industrial, inteligență artificială aplicată și soluții de economisire a energiei. Omron este furnizat pentru că aduce, conform producătorului, rezultate măsurabile: reducere costuri operaționale, creștere productivitate și flexibilitate în producție.`,
+Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare pe piețe din întreaga lume. Compania investește în cercetare și dezvoltare - resurse alocate către IoT industrial, inteligență artificială aplicată și soluții de economisire a energiei. Conform producătorului, soluțiile Omron urmăresc reducerea costurilor operaționale, creșterea productivității și flexibilitatea în producție.`,
     whyChoose: [
       'PLC-uri Sysmac de înaltă performanță și programare IEC 61131-3 completă',
-      'Servo drive-uri și motoare cu densitate de putere record și tuning automat',
+      'Servo drive-uri și motoare cu tuning automat',
       'Senzori de viziune și cod de bare integrați simplu în orice aplicație',
       'Roboți colaborativi TM Series flexibili, siguri și ușor programabili',
       'Ecosistem complet de automatizare cu comunicație standard (EtherCAT, EtherNet/IP)',
@@ -19,19 +19,19 @@ Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare �
     keyProducts: [
       {
         name: 'PLC Sysmac NJ/NX Series',
-        description: 'Controlere programabile de înaltă performanță care unifică logica mașinii, mișcarea coordonată, viziunea artificială și siguranța într-o singură platformă. Sysmac Studio oferă un mediu de programare integrat pentru toate aceste funcții, eliminând necesitatea de a jongle între 5 softuri diferite. Conform producătorului, acest lucru reduce time-to-market la proiecte complexe de automatizare. NJ501 cu procesor quad-core execută 10.000 de pași logici în sub 0.5ms și controlează simultan până la 64 de axe servo. NX701 adaugă redundanță pentru aplicațiile critice. Comunicație nativă EtherCAT la 1Gbps asigură sincronizare perfectă între toate dispozitivele. Librării funcționale pre-testate pentru roboți, ambalare, tracking produse. Certificări SIL3 pentru funcții de siguranță integrate - fără hardware suplimentar.'
+        description: 'Controlere programabile de înaltă performanță care unifică logica mașinii, mișcarea coordonată, viziunea artificială și siguranța într-o singură platformă. Sysmac Studio oferă un mediu de programare integrat pentru toate aceste funcții, eliminând necesitatea de a jongle între 5 softuri diferite. Conform producătorului, acest lucru reduce time-to-market la proiecte complexe de automatizare. NJ501 controlează până la 64 de axe servo. Comunicația nativă EtherCAT asigură sincronizare perfectă între toate dispozitivele. Librării funcționale pre-testate pentru roboți, ambalare, tracking produse. Funcțiile de siguranță folosesc protocolul Safety over EtherCAT (FSoE); nivelul SIL atins depinde de modulele alese, conform documentației Omron.'
       },
       {
         name: 'Servo Drives & Motors seria 1S/G5',
-        description: 'Sistemele servo Omron combină dinamică ridicată cu simplitate la configurare. Seria 1S simplifică semnificativ setup-ul: conectare prin NFC de pe smartphone, autotuning în câteva secunde, feedback absolut fără baterie. Densitate de curent record - drive 200W mai mic decât o carte. G5 Series pentru aplicații industriale solicitante: până la 7kW, encoder 23-bit, compensare vibrații și rezonanță automată. Advanced One-Touch Tuning ajustează parametrii servoului după caracteristicile mecanice reale, fără oscilații sau overshoot. Safety functions integrate (STO, SS1, SS2) conform EN 61800-5-2. Comunicație directă prin EtherCAT, Mechatrolink-III sau pulse train clasic. Precizie de repetabilitate ±0.01mm, adecvată pentru aplicații de ambalare de mare viteză. Eficiență energetică ridicată - regenerare înapoi în rețea la frânare.'
+        description: 'Sistemele servo Omron combină dinamică ridicată cu simplitate la configurare. Seria 1S se configurează din Sysmac Studio și folosește encoder absolut multi-turn fără baterie, cu rezoluție de 23 de biți. G5 Series se adresează aplicațiilor industriale solicitante; puterile și tipul de encoder se confirmă pe cod, din documentația Omron. Advanced One-Touch Tuning ajustează parametrii servoului după caracteristicile mecanice reale, fără oscilații sau overshoot. Funcția de siguranță STO este integrată; funcții suplimentare (SS1, SS2 ș.a.) sunt disponibile la variantele 1S Motion Safety. Comunicație directă prin EtherCAT, Mechatrolink-III sau pulse train clasic. '
       },
       {
         name: 'Senzori viziune FH/FZ Series',
-        description: 'Camere industriale inteligente care procesează imagini în sub 40ms și detectează defecte pe care ochiul uman le-ar rata. FH-5050 cu rezoluție 5MP și 21 algoritmi de viziune pre-configurați: citire coduri 1D/2D, OCR, măsurare dimensiuni, detectare culoare, verificare prezență, inspecție defecte. Setup prin FH-Configuration Tool vizual - desenezi zona de interes, setezi praguri, testezi live. Zero cunoștințe de programare necesare. FZ5 combină laser 3D cu viziune 2D pentru inspecție completă: volum, înălțime, textura suprafeței. Viteza de scanare 64.000 profile/secundă. Ieșiri digitale directe sau comunicație Ethernet către PLC. Aplicații reale: verificare etichete pe sticle la 600buc/min, inspecție suduri pe carcase metalice, ghidare roboți pick-and-place cu precizie sub-milimetrică. Carcasă IP67 pentru medii industriale dure.'
+        description: 'Camere și controlere industriale pentru inspecție vizuală și detectarea defectelor. FH-5050 oferă algoritmi de viziune pre-configurați: citire coduri 1D/2D, OCR, măsurare dimensiuni, detectare culoare, verificare prezență, inspecție defecte. Setup prin FH-Configuration Tool vizual - desenezi zona de interes, setezi praguri, testezi live. Zero cunoștințe de programare necesare. FZ5 este un controler de viziune pentru camere industriale; funcțiile exacte depind de camera și de configurația aleasă. Ieșiri digitale directe sau comunicație Ethernet către PLC. Aplicații tipice: verificare etichete pe sticle, inspecție suduri pe carcase metalice, ghidare roboți pick-and-place. Carcasă IP67 pentru medii industriale dure.'
       },
       {
         name: 'Roboți colaborativi TM Series',
-        description: 'Roboți cu 6 axe proiectați să lucreze alături de operatori umani fără garduri de protecție. TM5/TM12/TM14/TM20 cu sarcini utile între 4-20kg și rază de acțiune 700-1300mm. Safety integrat prin 12 senzori de cuplu și viziune 3D: robotul oprește instantaneu la contact sau apropiere. Programare prin învățare directă - ghidezi brațul manual prin traiectorie, salvezi, replayezi. Interfața TMflow cu blocuri vizuale permite secvențe complexe fără să scrii cod. Grip inteligent cu senzori de forță adaptează presiunea la obiectul manevrat. Camera montată în încheietura mâinii pentru viziune integrată - detectare obiecte, identificare poziție, verificare calitate. Aplicații uzuale: alimentare mașini CNC, asamblare componente, paletizare, testare produse. Un TM12 poate prelua munca repetitivă de 2 operatori pe 3 schimburi, cu o perioadă de amortizare ce variază în funcție de aplicație. Greutate sub 30kg - îl muți ușor între stații de lucru.'
+        description: 'Roboți cu 6 axe proiectați să lucreze alături de operatori umani fără garduri de protecție. TM5/TM12/TM14/TM20 cu sarcini utile între 4-20kg și rază de acțiune 700-1300mm. Siguranță colaborativă certificată TÜV (ISO 13849-1, ISO 10218-1, ISO/TS 15066), conform producătorului. Programare prin învățare directă - ghidezi brațul manual prin traiectorie, salvezi, replayezi. Interfața TMflow cu blocuri vizuale permite secvențe complexe fără să scrii cod. Grip inteligent cu senzori de forță adaptează presiunea la obiectul manevrat. Camera montată în încheietura mâinii pentru viziune integrată - detectare obiecte, identificare poziție, verificare calitate. Aplicații uzuale: alimentare mașini CNC, asamblare componente, paletizare, testare produse. Greutatea unui TM12 este de aproximativ 33 kg (cu cameră), conform producătorului.'
       }
     ],
     certifications: [
@@ -62,7 +62,7 @@ Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare �
       { title: 'History | Corporate Profile | OMRON Global', url: 'https://www.omron.com/global/en/about/corporate/history/', publisher: 'OMRON Corporation', accessed: '2026-09-22' },
       { title: 'Corporate Profile | OMRON Global', url: 'https://www.omron.com/global/en/about/corporate/', publisher: 'OMRON Corporation', accessed: '2026-09-22' }
     ],
-    limitation: 'Nu putem confirma disponibilitatea permanentă pe stoc pentru fiecare model din gama Omron și nu oferim programarea avansată PLCnext sau configurarea software Sysmac ca serviciu inclus.',
+    limitation: 'Nu putem confirma disponibilitatea permanentă pe stoc pentru fiecare model din gama Omron și nu oferim programarea avansată a controlerelor sau configurarea software Sysmac Studio ca serviciu inclus.',
     productCodes: [
       {
         "code": "NX701",
@@ -70,7 +70,7 @@ Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare �
       },
       {
         "code": "NX502",
-        "description": "controler NX cu suport pentru mai multe rețele EtherNet/IP"
+        "description": "controler NX, până la 256 de axe de mișcare"
       },
       {
         "code": "NX102",
@@ -90,7 +90,7 @@ Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare �
       },
       {
         "code": "NJ301",
-        "description": "controler NJ pentru mașini mici, până la 8 axe"
+        "description": "controler NJ pentru mașini mici, până la 16 axe"
       },
       {
         "code": "NJ101",
@@ -164,13 +164,13 @@ Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare �
       },
       {
         "q": "Ce înseamnă seria G la servomotoarele Omron?",
-        "a": "Litera G din seria de servomotoare Omron (R88M-G) marchează generația G, o gamă de motoare cilindrice și plate cu puteri de la 50 W la 1,5 kW, gândite pentru control de poziție și viteză de precizie medie-înaltă. Fiecare motor din serie are un servo-drive dedicat, disponibil cu comunicație MECHATROLINK-II sau cu semnal analogic clasic."
+        "a": "R88M-G este gama de servomotoare Omron din seria G, cu motoare cilindrice și plate de la 50 W până la 1,5 kW. Fiecare motor din serie are un servo-drive dedicat, disponibil cu comunicație MECHATROLINK-II sau cu semnal analogic clasic."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
-    infinitrade: `La automatizări Omron, lucrăm din surse publice ale producătorului și vă spunem clar: nu ținem evidențe proprii despre ce anume avem fizic pe stoc în orice moment. Componentele pe care le deținem local pleacă, de regulă, în 24-72 de ore; restul gamei Omron - PLC-uri Sysmac, servo drive-uri, senzori de viziune, roboți TM - le aducem la comandă prin canalele noastre de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni. Ca să vă răspundem exact, trimiteți-ne codul complet al produsului, cantitatea și aplicația în care va fi folosit. Nu promitem un termen mai scurt fără o verificare reală în avans.`
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    infinitrade: `La automatizări Omron, lucrăm din surse publice ale producătorului și vă spunem clar: nu ținem evidențe proprii despre ce anume avem fizic pe stoc în orice moment. Referințele aflate deja la furnizor pot ajunge în 24–72 de ore din stoc extern; restul gamei Omron - PLC-uri Sysmac, servo drive-uri, senzori de viziune, roboți TM - le aducem la comandă prin canalele noastre de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni. Ca să vă răspundem exact, trimiteți-ne codul complet al produsului, cantitatea și aplicația în care va fi folosit. Nu promitem un termen mai scurt fără o verificare reală în avans.`
   },
 
   'optibelt': {
@@ -959,35 +959,35 @@ Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calit�
     founded: 1923,
     headquarters: 'Blomberg, Germania',
     employees: '20,000+',
-    overview: `Phoenix Contact GmbH & Co. KG este unul dintre producătorii germani importanți în conexiuni electrice industriale și automatizări, fondat în 1923 în Blomberg. Cu peste 100 de ani experiență, compania a evoluat de la simple cleme și conectori la furnizor complet de soluții pentru Industrie 4.0: relee inteligente, alimentatoare switching, controlere PLCnext, protecții supratensiune, IoT gateways. Când construiești un panou electric industrial sau automatizezi o linie de producție, există șanse mari să folosești componente Phoenix Contact - fie că e vorba de o simplă bornă sau de un sistem complet de control distribuit. Calitatea germană se traduce în conexiuni fiabile care rezistă 30+ ani în medii industriale dure.
+    overview: `Phoenix Contact GmbH & Co. KG este unul dintre producătorii germani importanți în conexiuni electrice industriale și automatizări, fondat în 1923 la Essen, cu sediul actual la Blomberg. Cu peste 100 de ani experiență, compania a evoluat de la simple cleme și conectori la furnizor complet de soluții pentru Industrie 4.0: relee inteligente, alimentatoare switching, controlere PLCnext, protecții supratensiune, IoT gateways. Când se construiește un panou electric industrial sau se automatizează o linie de producție, componentele Phoenix Contact acoperă de la o simplă bornă până la un sistem complet de control distribuit.
 
-Tehnologia lor PLCnext combină PLC clasic cu ecosistem deschis Linux și suport pentru limbaje de programare moderne (C++, C#, Python, IEC 61131-3). Poți rula AI/ML algorithms direct pe controler sau integrează Node-RED pentru dashboards custom. Relee RIFLINE asigură separare galvanică și switching până la 16A cu indicator LED status și test button. Alimentatoarele QUINT Power oferă eficiență >95%, power boost pentru porniri grele și signalizare preventivă înainte de fail. Protecțiile supratensiune FLT/TT protejează echipamentele de lovituri fulger și transiente de rețea conform EN 61643-11. Panourile cu componente Phoenix Contact sunt gândite pentru fabrici ce rulează 24/7 pe termen lung, cu necesar de mentenanță redus.
+Tehnologia lor PLCnext combină PLC clasic cu ecosistem deschis Linux și suport pentru limbaje de programare moderne (C++, C#, Python, IEC 61131-3). Platforma permite rularea de aplicații proprii pe controler; funcțiile disponibile depind de modelul de controler și de versiunea de firmware. Releele de interfață (de exemplu seria PLC-RSC) asigură separare galvanică între circuitul de comandă și cel de forță. Alimentatoarele QUINT POWER oferă rezervă de putere (boost) pentru porniri grele și monitorizare preventivă a funcționării. Protecțiile supratensiune FLT/TT protejează echipamentele de lovituri fulger și transiente de rețea conform EN 61643-11.
 
-Prezența globală în peste 100 țări și 50+ facilități de producție asigură availability și suport local. Phoenix Contact investește 8% din cifra de afacari în R&D - focus pe digitalizare, energie regenerabilă, electromobilitate. Certificări complete: ISO 9001, ISO 14001, ATEX, UL, CSA, certificare hardware/software conform IEC 61508 pentru funcții safety. Distribuim Phoenix Contact pentru că oferă o soluție completă și integrată - de la alimentare și protecție până la control și comunicație IoT - totul din aceeași sursă, cu compatibilitate testată între componente.`,
+Producătorul este prezent în peste 100 de țări și are 11 facilități de producție la nivel mondial, conform paginii sale oficiale despre companie. Producătorul dezvoltă soluții pentru digitalizare, energie regenerabilă și electromobilitate. Certificările (ISO 9001, ISO 14001, ATEX, UL, CSA, IEC 61508) diferă în funcție de produs și se confirmă din documentația codului respectiv. Aprovizionăm componente Phoenix Contact prin canale din Uniunea Europeană; gama acoperă alimentare, protecție, control și comunicație, iar compatibilitatea dintre componente se verifică în documentația producătorului.`,
     whyChoose: [
-      'Relee interface RIFLINE cu separare galvanică și LED indicator',
+      'Relee de interfață cu separare galvanică (de exemplu PLC-RSC)',
       'Alimentatoare QUINT cu power boost și diagnosticare preventivă',
       'PLC PLCnext cu ecosistem deschis (Linux, Python, C++, OPC UA)',
       'Protecție supratensiune complete conform EN 61643-11',
       'Ecosistem complet pentru Industrie 4.0 (IoT gateways, edge computing)',
-      'Suport tehnic global și training certificat'
+      'Documentație tehnică publică pentru fiecare cod de produs'
     ],
     keyProducts: [
       {
         name: 'Relee interface seria PLC-RSC',
-        description: 'Relee socket plug-in pentru separare galvanică și amplificare semnale între PLC și actuatori. Contact relay electromecanic sau versiuni solid-state. Curent switching 6A sau 16A per contact. Bobină 24VDC, 230VAC sau alte tensiuni la comandă. Bază socket accept relay standard 14mm lățime - schimb rapid fără deconectare wiring. LED indicator status pe fiecare releu. Test button manual pentru verificare funcționare. Protecție diode varistor integrat pentru bobină. Aplicații: separare PLC (logică low-voltage) de actuatori power (contactor, valve, motoare mici). Configurare NO/NC prin relay type. Montare șină DIN EN 60715. Terminale push-in sau screws - conexiune rapidă. Markare standard Phoenix sau etichete custom. Conformitate UL, CSA, ATEX (versiuni Ex ia/ib). Temperatura -40°C până +60°C ambiant. Durată viață relay: 100,000 operații mecanice, 50,000 cu sarcină rezistivă. Versiuni cu LED și diode supresor pentru sarcini inductive (valve, contactoare). Serie completă: 1, 2, 3, 4 contacte per relay. Base-uri cu sau fără test disconnect.'
+        description: 'Relee de interfață de tip plug-in, pentru separare galvanică și amplificare de semnal între PLC și actuatori, cu contact electromecanic sau în variante cu semiconductori. Curentul de comutare per contact depinde de varianta releului și se confirmă din fișa tehnică a codului. Bobină 24VDC, 230VAC sau alte tensiuni la comandă. Releul miniatural este de tip plug-in, montat pe un bloc de borne de bază PLC-BSC, cu circuit de intrare și circuit de suprimare a perturbațiilor integrate; modulul are design subțire. Aplicații: separare PLC (logică low-voltage) de actuatori power (contactor, valve, motoare mici). Configurare NO/NC prin relay type. Montare șină DIN EN 60715. Conexiune cu șuruburi pe blocul de borne de bază PLC-BSC. Marcare standard sau etichete personalizate. Aprobări cULus și DNV la PLC-RSC- 24DC/21; alte aprobări, temperatura ambiantă și durata de viață se confirmă din fișa tehnică a codului. Seria include variante cu unul sau două contacte comutatoare (de exemplu PLC-RSC- 24DC/21 și 24DC/21-21). Base-uri cu sau fără test disconnect.'
       },
       {
         name: 'Alimentatoare QUINT Power',
-        description: 'Surse switching 24VDC industriale cu tehnologie proprietară pentru fiabilitate și eficiență record. Putere 5-40A outputs (120W-960W) pe șină DIN standard. Eficiență >95% reduce heat dissipation. Power Boost technology - deliver 150% curent nominal pentru 5 secunde la porniri grele (motoare, valve). Intrare universală 100-240VAC sau variante DC input pentru redundanță. Protecții integrate: supracurent, scurtcircuit, supratensiune, overtemperature - auto-recovery după eliminare fault. SFB (Selective Fuse Breaking) - protecție electronică echivalent siguranțe clasice dar fără replacement. LED multicolor status: verde=OK, roșu=fault, galben=warning preventiv (capacitate <20%). Preventive Function Monitoring - semnalizează degradare componentă înainte de fail pentru întreținere programată. Aplicații: alimentare PLC, senzori, actuatori, HMI, switch-uri industriale. Montare DIN rail EN 60715. Conexiune spring-cage sau screw terminals. Conformitate UL, CSA, CE, marine DNV/ABS. Temperatura -25°C până +70°C. Redundanță prin module QUINT DIODE pentru dual supply fără backfeed.'
+        description: 'Surse în comutație 24VDC industriale pentru șină DIN, cu monitorizare preventivă a funcționării. Putere 5-40A outputs (120W-960W) pe șină DIN standard. Rezervă statică de putere: până la 1,5 ori curentul nominal, permanent, pentru porniri grele (motoare, valve); tehnologia SFB oferă până la 6 ori curentul nominal timp de 12 ms pentru declanșarea selectivă a siguranțelor. Intrare universală 100-240VAC sau variante DC input pentru redundanță. Protecții integrate: supracurent, scurtcircuit, supratensiune, overtemperature - auto-recovery după eliminare fault. SFB (Selective Fuse Breaking) - protecție electronică echivalent siguranțe clasice dar fără replacement. Indicatoare LED de stare; semnificația culorilor este în documentația modelului. Preventive Function Monitoring - semnalizează degradare componentă înainte de fail pentru întreținere programată. Aplicații: alimentare PLC, senzori, actuatori, HMI, switch-uri industriale. Montare DIN rail EN 60715. Conexiune spring-cage sau screw terminals. Aprobări UL, cUL, DNV și ABS la QUINT-PS/1AC/24DC/40. Temperatura -25°C până +70°C. Redundanță prin module QUINT DIODE pentru dual supply fără backfeed.'
       },
       {
         name: 'PLCnext Control AXC F 2152',
-        description: 'Controler programabil de nouă generație cu Linux Real-Time, suport multi-language și ecosistem deschis. Procesor ARM Cortex-A9 dual-core 800MHz + FPGA pentru I/O deterministic. Memorie 1GB RAM, 4GB Flash, slot SD card. Programare: IEC 61131-3 (ST, FBD, LD, SFC), C++, C#, Python, MATLAB/Simulink. Runtime PLCnext simultaneous execution - combină logica PLC clasică cu aplicații high-level. OPC UA server/client integrat pentru comunicație Industrie 4.0. Interfețe: 2x Ethernet Gigabit (PROFINET, Modbus TCP, EtherNet/IP prin apps), USB, serial. Extensie I/O prin module Axioline locale sau remote via PROFINET. Web-based management pentru diagnostic și dashboards. Node-RED integration pentru rapid prototyping IoT applications. Docker containers support - rulezi aplicații third-party izolat. Safety integrate: PLCnext Safety cu certificare SIL3 conform IEC 61508. Aplicații: control mașini complexe, gateway între fieldbus legacy și cloud, edge computing pentru predictive maintenance, data aggregation multi-protocol. Programare prin PLCnext Engineer software (gratuit pentru development). Comunitate activă opensource pe GitHub. Temperatura -25°C până +60°C. Montare DIN rail.'
+        description: 'Controler programabil de nouă generație cu Linux Real-Time, suport multi-language și ecosistem deschis. Procesor Arm Cortex-A9, 2x 800 MHz. Memorie 512 MB RAM DDR3 și 512 MB flash intern, slot pentru card SD. Programare: IEC 61131-3 (ST, FBD, LD, SFC), C++, C#, Python, MATLAB/Simulink. Runtime PLCnext simultaneous execution - combină logica PLC clasică cu aplicații high-level. OPC UA server/client integrat pentru comunicație Industrie 4.0. Interfețe: 2 porturi Ethernet 10/100 Mbps, cu switch intern; protocoalele disponibile se confirmă din documentația modelului. Extensie I/O prin module Axioline locale sau remote via PROFINET. Web-based management pentru diagnostic și dashboards. Node-RED integration pentru rapid prototyping IoT applications. Suportul pentru containere și funcțiile de siguranță depind de modelul de controler și de versiunea de firmware și se confirmă din documentația producătorului. Aplicații: control mașini complexe, gateway între fieldbus legacy și cloud, edge computing pentru predictive maintenance, data aggregation multi-protocol. Programare prin PLCnext Engineer software (gratuit pentru development). Comunitate activă opensource pe GitHub. Temperatura -25°C până +60°C. Montare DIN rail.'
       },
       {
         name: 'Protecție supratensiune FLT-SEC-T1',
-        description: 'Descărcătoare supratensiune Tip 1+2 pentru protecție fulger și transiente rețea conform EN 61643-11. Protejează echipamentele conectate la 230/400VAC de lovituri indirecte fulger (până la 25kA pe fază) și switching transients. Descărcare varistori MOV + spark gap pentru energie mare. Nivel protecție Up <1.5kV. Timp răspuns <25ns. Follow current limitation technology previne scurtcircuit după descărcare. Indicator mecanic status (verde=OK, roșu=replace) vizibil frontal. Contact auxiliar pentru remote monitoring stare. Montare șină DIN lățime 18mm compact. Conexiune plug-in rapidă - înlocuire fără deconectare wires. Aplicații: tablouri principale alimentare, protecție upstream pentru echipamente sensibile (PLC, drive-uri, IT), zone expuse furtuni. Configurații 1-pole (TN-S PE), 3-pole+N (TN-C, TN-S, TT), 4-pole (TT systems). Certificare TÜV, UL, IEC 61643-11. Coordonare cu Tip 2/3 downstream pentru protecție cascadă completă. Test anual recomandat conform standard - replace dacă indicator roșu. Instalare cât mai aproape de intrarea rețelei pentru protecție optimă.'
+        description: 'Descărcătoare supratensiune Tip 1+2 pentru protecție fulger și transiente rețea conform EN 61643-11. Protejează echipamentele conectate la 230/400VAC de efectele descărcărilor atmosferice și ale supratensiunilor de comutație. Curentul de descărcare, nivelul de protecție (Up) și timpul de răspuns depind de varianta exactă și se confirmă din fișa tehnică a codului. Indicator mecanic status (verde=OK, roșu=replace) vizibil frontal. Contact auxiliar pentru remote monitoring stare. Montare șină DIN lățime 18mm compact. Conexiune plug-in rapidă - înlocuire fără deconectare wires. Aplicații: tablouri principale alimentare, protecție upstream pentru echipamente sensibile (PLC, drive-uri, IT), zone expuse furtuni. Configurații 1-pole (TN-S PE), 3-pole+N (TN-C, TN-S, TT), 4-pole (TT systems). Certificare TÜV, UL, IEC 61643-11. Coordonare cu Tip 2/3 downstream pentru protecție cascadă completă. Test anual recomandat conform standard - replace dacă indicator roșu. Instalare cât mai aproape de intrarea rețelei pentru protecție optimă.'
       }
     ],
     certifications: [
@@ -1001,16 +1001,16 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
       'RoHS, REACH - Conformitate substanțe'
     ],
     industries: [
-      'automotive',
-      'energy',
-      'infrastructure',
-      'process-automation',
-      'machine-building',
-      'rail',
-      'marine',
-      'building-automation',
-      'renewable-energy',
-      'water-treatment'
+      'Industria auto',
+      'Energie',
+      'Infrastructură',
+      'Automatizarea proceselor',
+      'Construcția de mașini',
+      'Feroviar',
+      'Naval',
+      'Automatizarea clădirilor',
+      'Energie regenerabilă',
+      'Tratarea apei'
     ],
     sources: [
       {"title":"PLC-RSC- 24DC/21 - Relay module - 2966171","url":"https://www.phoenixcontact.com/en-us/products/relay-module-plc-rsc-24dc21-2966171","publisher":"Phoenix Contact","accessed":"2026-09-22"},
@@ -1038,7 +1038,7 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
       },
       {
         "code": "PLC-RSC- 24DC/21-21",
-        "description": "Releu de interfață 24V DC, patru contacte"
+        "description": "Releu de interfață 24V DC, două contacte comutatoare"
       },
       {
         "code": "PLC-RSC- 24DC/ 1/SEN",
@@ -1050,7 +1050,7 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
       },
       {
         "code": "PLC-RSC- 24DC/21",
-        "description": "Releu de interfață standard 24V DC, două contacte"
+        "description": "Releu de interfață standard 24V DC, un contact comutator"
       },
       {
         "code": "PLC-RSC- 5DC/21",
@@ -1068,7 +1068,7 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
     faq: [
       {
         "q": "Ce este un releu PLC-RSC de la Phoenix?",
-        "a": "Este un releu de interfață montat pe șină DIN, folosit pentru izolarea galvanică între automatul programabil și circuitul de forță, cu tensiuni de comandă de la 5V la 230V. Seria acoperă variante cu unul până la patru contacte, alese în funcție de câți actuatori trebuie comandați simultan."
+        "a": "Este un releu de interfață montat pe șină DIN, folosit pentru izolarea galvanică între automatul programabil și circuitul de forță, cu tensiuni de comandă de la 5V la 230V. Seria include variante cu unul sau două contacte comutatoare (de exemplu PLC-RSC- 24DC/21 și 24DC/21-21), alese în funcție de câți actuatori trebuie comandați."
       },
       {
         "q": "Ce curent suportă alimentatorul QUINT-PS de la Phoenix?",
@@ -1088,8 +1088,8 @@ Prezența globală în peste 100 țări și 50+ facilități de producție asigu
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru componentele Phoenix Contact, plecăm de la ce putem și ce nu putem confirma despre stocul real: nu avem vizibilitate directă asupra depozitelor producătorului. Piesele pe care le avem fizic pleacă în 24-72 de ore; relee, alimentatoare QUINT sau controlere PLCnext mai puțin comune vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 1–4 săptămâni. Pentru un termen exact, trimiteți-ne codul complet al articolului și cantitatea necesară. Nu confirmăm disponibilitate imediată fără o verificare prealabilă la sursă, indiferent cât de comun pare produsul.`
   },
 

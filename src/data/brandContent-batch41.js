@@ -697,18 +697,18 @@ Pentru România, gama Amphenol are sens la echipamente industriale unde conector
     headquarters: "Turnhout, Belgia",
     overview: `Soudal este un producător belgian de adezivi, spume poliuretanice și etanșanți, fondat în 1966 de Vic Swerts, cu sediul grupului la Turnhout și fabrică logistică proprie și în România, la Crevedia. Gama acoperă spume PU pentru montaj și izolare, adezivi de construcție cu polimeri hibrizi, adezivi de contact, produse pentru pardoseli și etanșanți tehnici pentru rosturi. Din această gamă putem oferta produsele destinate aplicațiilor industriale și de construcții, nu doar retail.
 
-Tehnic, gama Soudal se organizează pe familii de chimie diferite în funcție de aplicație: spume PU din seriile Soudabond Easy și Soudatherm pentru montaj, fixare de fațade și acoperișuri, adezivi hibrizi din familia T-Rex Glue pentru montaj fără șuruburi, și etanșanți tehnici precum Soudaseal 255 Supertack pentru îmbinări elastice care trebuie să rămână etanșe la mișcare structurală. Compania se descrie drept un producător european independent de talie mare în categoria sa, cu fabrici pe cinci continente.
+Tehnic, gama Soudal se organizează pe familii de chimie diferite în funcție de aplicație: spume PU adezive din seriile Soudabond Easy și Soudatherm, pentru lipirea plăcilor termoizolante, a panourilor de gips-carton și a elementelor de construcție la fațade și acoperișuri, adezivi hibrizi din familia T-Rex Glue pentru montaj fără șuruburi, și etanșanți tehnici precum Soudaseal 255 Supertack pentru îmbinări elastice care trebuie să rămână etanșe la mișcare structurală. Compania se descrie drept un producător european independent de talie mare în categoria sa, cu fabrici pe cinci continente.
 
 Pentru România, produsele Soudal au sens la șantiere de construcții, la montaj de tâmplărie și fațade, și la aplicații industriale unde e nevoie de un adeziv sau etanșant cu fișă tehnică publică, verificabilă înainte de utilizare pe un proiect.`,
     whyChoose: [
       "Gamă completă de chimie de construcție — spume PU, adezivi hibrizi și etanșanți tehnici de la același producător",
       "Producător european independent — fabrici proprii pe cinci continente, inclusiv logistică în România",
-      "Adezivi de montaj fără șuruburi — familia T-Rex Glue, pentru fixări structurale fără elemente mecanice vizibile",
+      "Adezivi de montaj fără șuruburi — familia T-Rex Glue, pentru fixări de montaj fără elemente mecanice vizibile",
       "Fișe tehnice publice pentru fiecare produs — parametrii de rezistență și timp de uscare verificabili înainte de comandă"
     ],
     keyProducts: [
-      { name: "Spume PU Seria Soudabond Easy", description: "Spume poliuretanice pentru montaj general, disponibile în variante cu pistol (1K Gun) sau cu aplicator integrat (Easy Genius, Easy Click&Fix), folosite la fixarea tocurilor de ferestre, uși și alte elemente de construcție. Fac parte din gama de bază pentru aplicații de montaj curent. Clientul trebuie să precizeze tipul de aplicator dorit și dacă lucrează la temperaturi scăzute, pentru care există variante speciale." },
-      { name: "Spume Tehnice Seria Soudatherm", description: "Spume PU dedicate aplicațiilor specializate — Soudatherm Facade pentru lucrări de fațadă, Soudatherm SFI 600P pentru aplicații structurale și Soudatherm Roof 250/330 pentru lucrări de acoperiș. Se diferențiază de spuma de montaj general prin proprietăți adaptate fiecărei aplicații (aderență pe suport de fațadă, rezistență structurală sau la intemperii). Clientul trebuie să indice aplicația exactă (fațadă, structural sau acoperiș) pentru selecția variantei corecte." },
+      { name: "Spume PU Seria Soudabond Easy", description: "Spume poliuretanice adezive, disponibile în variante cu pistol (de exemplu 1K Gun) sau manuale, folosite la lipirea plăcilor termoizolante, a panourilor de gips-carton și a zidăriei ușoare din pereți despărțitori. Nu sunt destinate fixării tocurilor de ferestre sau uși. Clientul trebuie să precizeze tipul de aplicator dorit și dacă lucrează la temperaturi scăzute, pentru care există variante speciale." },
+      { name: "Spume Tehnice Seria Soudatherm", description: "Spume PU dedicate aplicațiilor specializate — Soudatherm Facade pentru lucrări de fațadă, Soudatherm SFI 600P pentru lipirea și etanșarea geamului în falțul ferestrei și Soudatherm Roof 250/330 pentru lucrări de acoperiș. Se diferențiază de spuma de montaj general prin proprietăți adaptate fiecărei aplicații (aderență pe suport de fațadă, rezistență structurală sau la intemperii). Clientul trebuie să indice aplicația exactă (fațadă, structural sau acoperiș) pentru selecția variantei corecte." },
       { name: "Adezivi Hibrizi Seria T-Rex Glue", description: "Adezivi de montaj pe bază de polimeri hibrizi, în variante Hybrid Strong, Gold Strong, Gold Crystal și Gold Turbo, gândiți pentru fixări fără șuruburi pe diverse materiale de construcție. Se folosesc la montaj de profile, panouri și elemente decorative unde o fixare mecanică vizibilă nu e dorită. Clientul trebuie să precizeze materialele care se lipesc și dacă e nevoie de transparență (varianta Gold Crystal)." },
       { name: "Etanșanți Tehnici Soudaseal 255 Supertack", description: "Etanșant-adeziv pe bază de polimer hibrid, cu aderență inițială mare, folosit la îmbinări elastice care trebuie să rămână etanșe și în condiții de mișcare structurală ușoară. Se aplică la rosturi de construcție și la fixări unde e nevoie și de etanșare, și de lipire. Clientul trebuie să indice tipul de rost și amplitudinea de mișcare așteptată." }
     ],
@@ -728,7 +728,7 @@ Pentru România, produsele Soudal au sens la șantiere de construcții, la monta
       },
       {
         "code": "Soudabond Easy Genius",
-        "description": "spumă PU adezivă cu aplicare manuală, pentru bricolaj"
+        "description": "spumă PU adezivă în variantă pentru pistol, cu mecanism de declanșare pentru utilizare cu o singură mână"
       },
       {
         "code": "Soudabond Easy Click&Fix",
@@ -740,7 +740,7 @@ Pentru România, produsele Soudal au sens la șantiere de construcții, la monta
       },
       {
         "code": "Soudatherm SFI 600P",
-        "description": "spumă PU pentru izolarea rosturilor de ferestre și uși"
+        "description": "spumă PU adezivă pentru lipirea și etanșarea îmbinării dintre sticlă și ramă (falț) la fabricarea ferestrelor"
       },
       {
         "code": "Soudatherm Roof 250",
@@ -784,7 +784,7 @@ Pentru România, produsele Soudal au sens la șantiere de construcții, la monta
       },
       {
         "code": "Soudafoil 330D",
-        "description": "etanșant acrilic pentru bariere de vapori"
+        "description": "produs din gama Soudafoil; tipul și aplicația se confirmă din fișa tehnică la comandă"
       },
       {
         "code": "PRO 45P",
@@ -802,11 +802,11 @@ Pentru România, produsele Soudal au sens la șantiere de construcții, la monta
       },
       {
         "q": "Ce adeziv Soudal aleg pentru montaj greu, fără șuruburi?",
-        "a": "Pentru montaj structural fără șuruburi se recomandă adezivii hibrizi din familia T-Rex Glue, disponibili în variante Hybrid Strong, Gold Strong, Gold Crystal sau Gold Turbo, în funcție de timpul de priză dorit și de aspectul vizibil al îmbinării. Aceștia oferă rezistență mare la forfecare pe majoritatea materialelor de construcție, inclusiv lemn, metal și piatră."
+        "a": "Pentru montaj fără șuruburi se recomandă adezivii hibrizi din familia T-Rex Glue, disponibili în variante Hybrid Strong, Gold Strong, Gold Crystal sau Gold Turbo, în funcție de timpul de priză dorit și de aspectul vizibil al îmbinării. Sunt compatibili cu lemn, metal, piatră și alte materiale de construcție; rezistențele exacte sunt în fișa tehnică a fiecărui produs."
       },
       {
         "q": "Cum aleg spuma poliuretanică potrivită pentru izolarea unei ferestre?",
-        "a": "Pentru rosturile din jurul ferestrelor se folosește o spumă PU tehnică, precum Soudatherm SFI 600P, aplicată cu pistol pentru un control mai bun al cantității și al expansiunii. Grosimea rostului, temperatura de aplicare și necesitatea unei spume cu expansiune redusă sau normală influențează alegerea variantei potrivite din gamă."
+        "a": "Soudatherm SFI 600P nu este o spumă de montaj pentru rosturile din jurul ferestrelor, ci un adeziv spumă pentru îmbinarea sticlă–ramă (falț) la fabricarea ferestrelor; pentru rosturile de montaj se alege o spumă PU de montaj dedicată, din fișa tehnică. Grosimea rostului, temperatura de aplicare și necesitatea unei spume cu expansiune redusă sau normală influențează alegerea variantei potrivite din gamă."
       },
       {
         "q": "Livrați produse Soudal în România?",
@@ -815,8 +815,8 @@ Pentru România, produsele Soudal au sens la șantiere de construcții, la monta
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Produse Adezivi Soudal","url":"https://www.soudal.ro/pro/produse/adezivi","publisher":"Soudal","accessed":"2026-09-25"},
       { title: "Soudal România — Despre Soudal", url: "https://www.soudal.ro/pro/despre-soudal", publisher: "Soudal NV", accessed: "2026-09-22" },
@@ -1069,17 +1069,17 @@ Pentru România, robineții Cla-Val au sens la stațiile de pompare ale rețelel
     headquarters: "Haiger, Germania",
     overview: `Klingspor este un producător german de materiale abrazive, fondat în 1893 ca afacere de familie, cu sediul la Haiger și aproximativ 2.600 de angajați la nivel global astăzi. Gama acoperă discuri de tăiere și polizare din familia Kronenflex, discuri și benzi abrazive, fibrodiscuri, discuri diamantate, perii abrazive, freze cu carburi metalice și pânze de fierăstrău, cu peste 50.000 de articole în portofoliu. Din această gamă putem oferta consumabile abrazive pentru debitare și șlefuire în producție industrială.
 
-Tehnic, Klingspor s-a impus istoric prin hârtia abrazivă rezistentă la apă, introdusă în Europa la mijlocul anilor 1920, o inovație care a permis șlefuirea umedă fără degradarea rapidă a materialului abraziv. Astăzi compania se numără printre primii cinci producători mondiali de abrazive, cu discurile de debitare Kronenflex ca linie de produs recunoscută separat de restul gamei, alături de linia de scule diamantate pentru materiale dure precum betonul și piatra.
+Tehnic, Klingspor s-a impus istoric prin hârtia abrazivă rezistentă la apă, introdusă în Europa la mijlocul anilor 1920, o inovație care a permis șlefuirea umedă fără degradarea rapidă a materialului abraziv. Astăzi compania se descrie ca unul dintre cei cinci mari producători mondiali de abrazive, cu discurile de debitare Kronenflex ca linie de produs recunoscută separat de restul gamei, alături de linia de scule diamantate pentru materiale dure precum betonul și piatra.
 
 Pentru România, gama Klingspor are sens în ateliere de prelucrare metal, șantiere de construcții unde se taie beton sau piatră, și în producția de mobilă unde șlefuirea lemnului cere consumabile abrazive cu durabilitate constantă.`,
     whyChoose: [
-      "Printre primii cinci producători mondiali de abrazive — peste 50.000 de articole în portofoliu",
+      "Producătorul se descrie ca unul dintre cei cinci mari producători de abrazive din lume — peste 50.000 de articole în portofoliu",
       "Linie de discuri de debitare recunoscută separat — familia Kronenflex, cu identitate proprie de brand",
       "Istorie tehnică de peste un secol — inovator al hârtiei abrazive rezistente la apă în Europa",
       "Gamă completă pentru metal, lemn și piatră — un singur furnizor pentru majoritatea consumabilelor de debitare și șlefuire"
     ],
     keyProducts: [
-      { name: "Discuri de Tăiere Kronenflex", description: "Discuri abrazive de debitare pentru metal, inox și materiale de construcție, linia cea mai cunoscută a producătorului, montate pe polizoare unghiulare. Se aleg în funcție de materialul tăiat și diametrul mașinii folosite. Clientul trebuie să transmită diametrul discului necesar, tipul de material de tăiat și turația maximă a polizorului." },
+      { name: "Discuri de Tăiere Kronenflex", description: "Discuri abrazive de debitare pentru metal, inox și materiale de construcție, una dintre liniile principale ale producătorului, montate pe polizoare unghiulare. Se aleg în funcție de materialul tăiat și diametrul mașinii folosite. Clientul trebuie să transmită diametrul discului necesar, tipul de material de tăiat și turația maximă a polizorului." },
       { name: "Discuri și Benzi Abrazive pentru Șlefuire", description: "Materiale abrazive pentru finisarea suprafețelor metalice sau din lemn, disponibile sub formă de discuri, fibrodiscuri, benzi și coli abrazive, în granulații diferite în funcție de finisajul dorit. Se folosesc atât manual, cât și pe mașini staționare de șlefuit. Clientul trebuie să indice materialul prelucrat și granulația necesară pentru etapa de finisare vizată." },
       { name: "Scule și Discuri Diamantate", description: "Discuri de tăiere și polizare cu segmente diamantate, pentru materiale dure precum betonul, piatra naturală și gresia, folosite pe șantiere de construcții și în ateliere de prelucrare a pietrei. Clientul trebuie să transmită tipul exact de material tăiat și diametrul mașinii pentru selecția segmentului diamantat potrivit." },
       { name: "Freze cu Carburi Metalice și Perii Abrazive", description: "Scule rotative pentru degroșare, curățare de rugină și vopsea sau finisare de suduri, folosite la pregătirea suprafețelor metalice înainte de vopsire sau sudare. Clientul trebuie să indice tipul de mandrină al mașinii folosite și operația dorită (degroșare, curățare sau finisare)." }
@@ -1187,8 +1187,8 @@ Pentru România, gama Klingspor are sens în ateliere de prelucrare metal, șant
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Produse Klingspor","url":"https://www.klingspor.ro/produse","publisher":"Klingspor","accessed":"2026-09-25"},
       { title: "Klingspor România — Home", url: "https://www.klingspor.ro/", publisher: "Klingspor Schleifsysteme GmbH & Co. KG", accessed: "2026-09-22" },
@@ -1326,21 +1326,21 @@ Pentru România, gama Ansell are sens în depozite și logistică, în ateliere 
     name: "Laumas",
     founded: 1984,
     headquarters: "Parma, Italia",
-    overview: `Laumas este un producător italian de celule de sarcină și sisteme de cântărire industrială, fondat în 1984, cu sediul la Parma și prezență declarată în peste 90 de țări. Gama acoperă celule de sarcină digitale, celule pentru compresiune și tensiune, celule cu grindă de forfecare și variante miniaturizate, transmițătoare de greutate din seriile TLC și WINOX, digitizoare pentru celule de sarcină și cântare complete — de la platforme la cântare cu cărucior paletizator. Din această gamă putem oferta componentele de cântărire pentru integrare în instalații industriale.
+    overview: `Laumas este un producător italian de celule de sarcină și sisteme de cântărire industrială, fondat în 1984, cu sediul la Parma și prezență declarată în peste 90 de țări. Gama acoperă celule de sarcină digitale, celule pentru compresiune și tensiune, celule cu grindă de forfecare și variante miniaturizate, transmițătoare de greutate (seriile TLB, TLB4, TLM8, TLC), indicatoare de greutate WINOX, digitizoare pentru celule de sarcină și cântare complete — de la platforme la cântare cu cărucior paletizator. Din această gamă putem oferta componentele de cântărire pentru integrare în instalații industriale.
 
-Tehnic, Laumas concurează cu HBM pe segmentul de celule de sarcină și instrumentație de cântărire industrială, ambele oferind game comparabile de senzori de forță pentru integrare în sisteme de proces. Compania deține certificări ATEX-IECEx pentru celule folosite în atmosfere explozive și conformitate cu standardul 3-A Sanitary pentru aplicații din industria alimentară, plus un laborator propriu de calibrare acreditat Accredia (LAT N.02141), relevant pentru trasabilitatea metrologică a măsurătorilor.
+Laumas fabrică celule de sarcină și instrumentație de cântărire industrială. Compania deține certificări ATEX-IECEx pentru celule folosite în atmosfere explozive și conformitate cu standardul 3-A Sanitary pentru aplicații din industria alimentară, plus un laborator propriu de calibrare acreditat Accredia (LAT N.02141), relevant pentru trasabilitatea metrologică a măsurătorilor.
 
 Pentru România, gama Laumas are sens la sisteme de dozare și cântărire integrate în linii de producție, la buncăre și rezervoare unde greutatea conținutului trebuie monitorizată continuu, și la aplicații din industria alimentară unde certificarea 3-A e o cerință de proiect.`,
     whyChoose: [
       "Certificare ATEX-IECEx — celule de sarcină utilizabile în atmosfere cu risc de explozie",
       "Conformitate 3-A Sanitary — relevantă pentru cântărirea din industria alimentară",
       "Laborator propriu de calibrare acreditat Accredia — trasabilitate metrologică documentată pentru instrumentele livrate",
-      "Poziționare directă față de HBM — alternativă pe segmentul celulelor de sarcină industriale"
+      "Gamă de celule de sarcină, transmițătoare și indicatoare de greutate pentru cântărire industrială"
     ],
     keyProducts: [
       { name: "Celule de Sarcină Digitale", description: "Celule de sarcină cu ieșire digitală, pentru integrare în sisteme de cântărire unde se dorește comunicație directă cu automatul de proces, fără conversie analog-digitală separată. Se folosesc la buncăre, rezervoare și platforme de cântărire industrială. Clientul trebuie să transmită capacitatea nominală necesară și protocolul de comunicație al sistemului de control." },
       { name: "Celule de Sarcină pentru Compresiune și Tensiune", description: "Celule dedicate măsurării forțelor de compresiune sau de tracțiune, folosite la cântărirea buncărelor suspendate, a rezervoarelor montate pe suporturi sau la sisteme de testare a forței. Clientul trebuie să precizeze tipul de solicitare (compresiune sau tensiune), capacitatea necesară și modul de montaj." },
-      { name: "Transmițătoare de Greutate Seria TLC / WINOX", description: "Instrumente electronice care preiau semnalul de la una sau mai multe celule de sarcină și îl convertesc în valoare de greutate afișată sau transmisă către sistemul de control, seria WINOX fiind construită în carcasă din inox pentru medii cu spălare frecventă. Clientul trebuie să indice numărul de celule conectate și dacă instalația necesită carcasă din inox pentru igienizare." },
+      { name: "Transmițătoare și Indicatoare de Greutate (TLB, TLB4, TLM8, TLC, WINOX)", description: "Instrumente electronice care preiau semnalul de la una sau mai multe celule de sarcină și îl convertesc în valoare de greutate afișată sau transmisă către sistemul de control, seria WINOX fiind construită în carcasă din inox pentru medii cu spălare frecventă. Clientul trebuie să indice numărul de celule conectate și dacă instalația necesită carcasă din inox pentru igienizare." },
       { name: "Cântare cu Cărucior Paletizator și Platforme de Cântărire", description: "Echipamente complete de cântărire pentru materiale paletizate sau vrac, folosite în depozite și hale de producție unde greutatea trebuie verificată la fiecare mișcare de material. Clientul trebuie să transmită capacitatea maximă de cântărire necesară și dimensiunile paletului sau ale platformei." }
     ],
     industries: [
@@ -1375,11 +1375,11 @@ Pentru România, gama Laumas are sens la sisteme de dozare și cântărire integ
       },
       {
         "code": "WINOX-R",
-        "description": "indicator de greutate digital pentru panou de control"
+        "description": "indicator de greutate din inox pentru cântărire și dozare"
       },
       {
         "code": "WINOX-R 3A",
-        "description": "variantă de indicator de greutate pentru montaj sub picior"
+        "description": "indicator de greutate igienic din inox, conform standardului 3-A Sanitary"
       },
       {
         "code": "LCB 3A",
@@ -1425,11 +1425,11 @@ Pentru România, gama Laumas are sens la sisteme de dozare și cântărire integ
       },
       {
         "q": "Ce transmițător Laumas aleg pentru mai multe celule de sarcină simultan?",
-        "a": "Pentru configurații cu mai multe celule de sarcină conectate în paralel, seria TLB4 acoperă patru canale de intrare, iar TLM8 extinde această capacitate până la opt canale, utilă la platforme mari sau la cântare cu mai multe puncte de sprijin. Transmițătorul TLC, mai simplu, este suficient pentru instalații cu o singură celulă sau cu celule deja sumate mecanic."
+        "a": "Pentru configurații cu mai multe celule de sarcină citite individual, seria TLB4 are patru canale independente de citire, iar TLM8 are opt canale, utile la platforme mari sau la cântare cu mai multe puncte de sprijin. Transmițătorul TLC, cu ieșire analogică, poate prelua până la patru celule conectate în paralel printr-o doză de joncțiune."
       },
       {
         "q": "Cum funcționează indicatorul de greutate WINOX-R de la Laumas?",
-        "a": "Indicatorul WINOX-R primește semnalul de la una sau mai multe celule de sarcină și îl convertește într-o valoare de greutate afișată pe panou, putând fi montat direct pe tabloul de control al instalației. Varianta WINOX-R 3A este gândită pentru montaj sub piciorul cântarului, într-un spațiu mai restrâns decât indicatorul standard de perete."
+        "a": "Indicatorul WINOX-R primește semnalul de la una sau mai multe celule de sarcină și îl convertește într-o valoare de greutate afișată, pentru cântărire și dozare. Varianta WINOX-R 3A este versiunea igienică din inox, conformă cu standardul 3-A Sanitary."
       },
       {
         "q": "Livrați celule de sarcină Laumas în România?",
@@ -1438,8 +1438,8 @@ Pentru România, gama Laumas are sens la sisteme de dozare și cântărire integ
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Laumas Products","url":"https://www.laumas.com/en/products/","publisher":"Laumas Elettronica","accessed":"2026-09-25"},
       { title: "Laumas — Home", url: "https://laumas.com/", publisher: "Laumas Elettronica S.r.l.", accessed: "2026-09-22" },

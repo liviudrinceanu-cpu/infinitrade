@@ -8,31 +8,31 @@ export const brandContentBatch16 = {
 
 Gama de garnituri Trelleborg se folosește frecvent în sisteme unde o scurgere ar fi costisitoare — cilindri hidraulici pe prese de mari dimensiuni, pompe industriale cu lichide corozive, reductoare care rulează nonstop. Materialele disponibile includ: NBR pentru aplicații generale, FKM (Viton) pentru temperaturi și chimicale agresive, PTFE pentru industria alimentară. Consistența calității loturilor este unul dintre argumentele producătorului pentru montaj fără surprize.
 
-Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru interior până la garnituri custom de metri pentru industria offshore. Au programe complete de etanșări pentru cilindri hidraulici (piston seals, rod seals, wiper seals), soluții pentru pompe (mechanical seals, lip seals), și sisteme complexe de amortizare pentru aplicații feroviare și auto. Pentru industria românească, înseamnă acces la același standard de calitate folosit pe platformele petroliere din Marea Nordului sau în fabricile auto germane.`,
+Portofoliul Trelleborg include o-ring-uri și garnituri de diverse dimensiuni, inclusiv soluții realizate la comandă pentru aplicații offshore. Au programe complete de etanșări pentru cilindri hidraulici (piston seals, rod seals, wiper seals), soluții pentru pompe (mechanical seals, lip seals), și sisteme complexe de amortizare pentru aplicații feroviare și auto. `,
     whyChoose: [
-      "Calitate suedeză recunoscută — materiale premium care rezistă în condiții extreme de temperatură, presiune și agresivitate chimică",
-      "Gamă completă de etanșări — o-ring-uri de la stoc în toate dimensiunile standard, plus soluții custom pentru aplicații speciale",
+      "Producător suedez de etanșări — materiale disponibile pentru diferite domenii de temperatură, presiune și compatibilitate chimică, în funcție de produs",
+      "Gamă largă de etanșări — o-ring-uri metrice și în inch, plus soluții realizate la comandă pentru aplicații speciale",
       "Durabilitate ridicată — garniturile Trelleborg sunt proiectate pentru o durată de funcționare mai lungă decât echivalentele generice, conform producătorului",
       "Expertiza tehnică — suport pentru selectarea corectă a materialului (NBR, FKM, EPDM, PTFE) în funcție de aplicație",
-      "Certificări complete — FDA pentru industria alimentară, API pentru petrol și gaz, ATEX pentru zone explozive",
-      "Disponibilitate rapidă — stocuri locale pentru dimensiuni standard, livrări rapide pentru produse din gamă"
+      "Certificările depind de material și de produs și se confirmă din documentația producătorului",
+      "Disponibilitate confirmată pe cod — 24–72 h din stoc propriu sau extern pentru dimensiunile deja confirmate, iar la comandă, de regulă, 1–4 săptămâni"
     ],
     keyProducts: [
       {
         name: "O-ring-uri Standard și Metrice",
-        description: "Gama completă de o-ring-uri conform standardelor AS568 (inch) și ISO 3601 (metric), disponibile din stoc în materiale NBR (cauciuc nitrilic, -40°C până +100°C), FKM/Viton (rezistent chimic, -20°C până +200°C), EPDM (pentru vapori și lichide polare), și PTFE (pentru alimentar și pharma). Avem dimensiuni de la 1mm până la 500mm diametru interior, în duritati de la 70 până la 90 shore. Pentru aplicații critice oferim și kit-uri complete de o-ring-uri organizate pe dimensiuni — extrem de util pentru service rapid pe teren. Toate o-ring-urile vin cu certificate de material și sunt trasabile pe loturi de producție."
+        description: "Gamă de o-ring-uri metrice și în inch, din materiale EPDM, FKM, NBR, HNBR, FFKM Isolast și materiale pe bază de PTFE, conform paginii producătorului; standardele aplicabile, dimensiunile, duritățile și domeniile de temperatură se confirmă pe cod. "
       },
       {
         name: "Radial Shaft Seals (Garnituri Radiale)",
-        description: "Garniturile radiale Trelleborg pentru arbori rotitivi sunt soluția standard în industrie pentru etanșarea lagărelor în reductoare, pompe, motoare electrice și compresoare. Construcția clasică cu buză din cauciuc armată cu arc asigură presiune constantă pe arbore chiar și după uzură. Avem tipuri simple (o singură buză), duble (două buze pentru protecție sporită), și cu protecție contra prafului. Materialele disponibile includ NBR pentru uleiuri minerale standard, FKM pentru temperaturi ridicate sau chimicale agresive, și PTFE pentru aplicații alimentare. Dimensiunile acoperă arbori de la 6mm până la 500mm diametru, cu presiuni de lucru până la 0.5 bar (1 bar pentru tipurile întărite)."
+        description: "Garniturile radiale Trelleborg pentru arbori rotativi sunt soluția standard în industrie pentru etanșarea lagărelor în reductoare, pompe, motoare electrice și compresoare. Construcția clasică cu buză din cauciuc armată cu arc asigură presiune constantă pe arbore chiar și după uzură. Variantele cu o buză, cu două buze sau cu protecție la praf se confirmă pe cod, din documentația producătorului. Materialele disponibile includ NBR pentru uleiuri minerale standard, FKM pentru temperaturi ridicate sau chimicale agresive, și PTFE pentru aplicații alimentare. Dimensiunile și presiunea de lucru admisă depind de seria aleasă."
       },
       {
         name: "Garnituri pentru Cilindri Hidraulici",
-        description: "Set complet de garnituri pentru reparația și construcția cilindrilor hidraulici: piston seals (garnituri de piston — U-ring, O-ring cu backup), rod seals (garnituri de tijă — U-ring, step seals), wiper seals (garnituri de ștergere pentru protecție contra murdăriei), și ghidaje din PTFE sau bronze-PTFE. Rezistență la presiuni până 400 bar pentru aplicații standard și peste 700 bar pentru seria Heavy Duty. Materialele sunt optimizate pentru uleiuri hidraulice minerale și biocompatibile, cu duritate între 85-95 shore pentru etanșare perfectă și uzură minimă. Folosite pe excavatoare, macarale, prese hidraulice și utilaje forestiere."
+        description: "Set complet de garnituri pentru reparația și construcția cilindrilor hidraulici: piston seals (garnituri de piston — U-ring, O-ring cu backup), rod seals (garnituri de tijă — U-ring, step seals), wiper seals (garnituri de ștergere pentru protecție contra murdăriei), și ghidaje din PTFE sau bronze-PTFE. Presiunea admisă depinde de seria de garnituri aleasă. Materialele se aleg în funcție de tipul fluidului hidraulic și de condițiile de lucru. Folosite pe excavatoare, macarale, prese hidraulice și utilaje forestiere."
       },
       {
         name: "Garnituri Custom și Profile Extrudate",
-        description: "Pentru aplicații speciale unde standardele nu se potrivesc, Trelleborg produce garnituri la comandă din profile extrudate sau prin vulcanizare directă. Profile în formă de U, V, L, T pentru aplicații statice și dinamice, disponibile în lungimi de la 1 metru până la role continue. Materiale disponibile: NBR, FKM, EPDM, siliconici, PTFE virgin și încărcat cu carbon sau sticlă. Ideal pentru etanșări de capace mari, chiulase pentru cuve și tancuri, garnituri pentru ferestre industriale sau uși etanșe. Putem produce și garnituri vulcanizate înnoadate (endless seals) pentru aplicații rotative continue, eliminating necesitatea îmbinărilor."
+        description: "Pentru aplicații speciale unde standardele nu se potrivesc, Trelleborg produce garnituri la comandă din profile extrudate sau prin vulcanizare directă. Profile în formă de U, V, L, T pentru aplicații statice și dinamice, disponibile în lungimi de la 1 metru până la role continue. Materiale disponibile: NBR, FKM, EPDM, siliconici, PTFE virgin și încărcat cu carbon sau sticlă. Ideal pentru etanșări de capace mari, chiulase pentru cuve și tancuri, garnituri pentru ferestre industriale sau uși etanșe. Putem produce și garnituri vulcanizate înnoadate (endless seals) pentru aplicații rotative continue, eliminând necesitatea îmbinărilor."
       }
     ],
     certifications: [
@@ -40,18 +40,15 @@ Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru 
       "ISO 14001 — management de mediu pentru procese de vulcanizare și extrudare",
       "ISO 45001 — sănătate și securitate ocupațională",
       "FDA Title 21 CFR 177.2600 — materiale aprobate pentru contact alimentar direct",
-      "API 6A & API 17D — specificații pentru industria petrol și gaz (offshore)",
-      "ATEX — certificări pentru zone cu risc de explozie",
-      "REACH & RoHS — conformitate cu reglementările europene pentru substanțe chimice",
-      "DNV-GL — certificare pentru aplicații maritime și offshore"
+      "REACH & RoHS — conformitate cu reglementările europene pentru substanțe chimice"
     ],
     industries: [
       "Hidraulică industrială — cilindri, pompe, supape, distributoare",
       "Automotive și agricol — motoare, transmisii, sisteme de rulare",
-      "Petrol și gaz — valve, pumps, wellhead equipment, offshore platforms",
+      "Petrol și gaz — valve, pompe, echipamente de sondă, platforme offshore",
       "Energie eoliană — etanșări pentru turbine și pitch systems",
       "Feroviar — garnituri pentru sisteme de suspensie și frânare",
-      "Naval și offshore — propulsion seals, deck equipment",
+      "Naval și offshore — etanșări pentru propulsie, echipamente de punte",
       "Construcții și mining — excavatoare, buldozere, drilling rigs",
       "Procesare chimică — pompe pentru lichide corozive, valve, reactoare",
       "Alimentar și farmaceutic — etanșări sanitare conforme FDA",
@@ -141,8 +138,8 @@ Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru 
         "a": "Este un material tehnic pe bază de PTFE, folosit pentru garnituri de mișcare la cilindri hidraulici și pneumatici, unde frecarea redusă și rezistența la uzură sunt esențiale. Este ales frecvent acolo unde elastomerii clasici nu rezistă la solicitările repetate de mișcare."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am corectat anul înființării Trelleborg, conform surselor citate." },
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
@@ -154,42 +151,42 @@ Portofoliul Trelleborg acoperă totul — de la o-ring-uri mici de 3mm diametru 
     founded: 1917,
     headquarters: "Osaka, Japonia",
     employees: "9,000+ angajați la nivel global",
-    overview: `Tsubakimoto Chain Co. (Tsubaki) este un producător important de lanțuri industriale, conform producătorului, și unul dintre puținii care a mers dincolo de lanțul simplex — au dezvoltat sisteme complete de transmisie și manipulare materiale folosite în fabrici de pe mai multe continente. Lanțurile Tsubaki se regăsesc frecvent pe linii automate de asamblare auto, elevatoare de paleți în depozite sau benzi transportoare în fabrici de băuturi. Compania a pornit în 1917 producând lanțuri pentru biciclete și motociclete, iar astăzi produce, conform producătorului, peste 10,000 de tipuri diferite — de la lanțuri de transmisie micro pentru electronice până la lanțuri de dimensiuni mari pentru excavatoare de cărbune.
+    overview: `Tsubakimoto Chain Co. (Tsubaki) este un producător important de lanțuri industriale, conform producătorului, și unul dintre puținii care a mers dincolo de lanțul simplex — au dezvoltat sisteme complete de transmisie și manipulare materiale folosite în fabrici de pe mai multe continente. Lanțurile Tsubaki se regăsesc frecvent pe linii automate de asamblare auto, elevatoare de paleți în depozite sau benzi transportoare în fabrici de băuturi. Compania a pornit în 1917 producând lanțuri pentru biciclete, iar astăzi produce, conform producătorului, numeroase tipuri — de la lanțuri de transmisie micro pentru electronice până la lanțuri de dimensiuni mari pentru excavatoare de cărbune.
 
 Se montează lanțuri Tsubaki pe diverse aplicații — de la reductoare cu lanț simplu pe utilaje mici până la sisteme duble și triple de transmisie pe linii grele de producție. Ceea ce iese în evidență e precizia: pasul lanțului e constant, clearance-ul dintre eclisă și bolț e controlat la sutimi, iar tratamentul termic al pinilor asigură, conform producătorului, o rezistență la uzură mai mare decât la lanțurile generice.
 
-Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri Lambda (fără lubrifiere, cu durată de viață extinsă conform producătorului), lanțuri Neptune (rezistente la coroziune pentru industria alimentară și chimică), lanțuri cu foi (attachment chains) pentru transportoare, și sisteme complete de manipulare materiale cu software de control inclus.`,
+Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri Lambda (fără lubrifiere, cu durată de viață extinsă conform producătorului), lanțuri Neptune (rezistente la coroziune pentru industria alimentară și chimică), lanțuri cu atașamente (attachment chains) pentru transportoare, și sisteme de manipulare materiale.`,
     whyChoose: [
       "Gamă amplă de lanțuri — peste 100 de ani de experiență și o gamă variată de produse pentru industrie",
       "Durabilitate ridicată — lanțurile Tsubaki sunt proiectate pentru o durată de funcționare mai lungă decât echivalentele standard, conform producătorului",
-      "Precizie japoneză — toleranțe strânse la pas și dimensiuni, eliminând vibrațiile și zgomotul excesiv",
-      "Inovație constantă — lanțuri fără lubrifiere (Lambda), rezistente la coroziune (Neptune), și cu elastomeri pentru aplicații silențioase",
+      "Precizie dimensională — toleranțe controlate la pas și dimensiuni",
+      "Inovație constantă — lanțuri fără lubrifiere (Lambda), rezistente la coroziune (Neptune), și cu role cu arc pentru aplicații silențioase (SNS)",
       "Gamă completă de accesorii — roți dințate (sprockets) de precizie, tendere, conectori rapizi, sisteme de lubrifiere automată",
       "Suport tehnic global — expertiza necesară pentru dimensionarea corectă și optimizarea duratei de viață"
     ],
     keyProducts: [
       {
         name: "Lanțuri de Transmisie Seria RS (Roller Chain)",
-        description: "Lanțurile standard de transmisie conform ANSI și ISO, disponibile în simple (simplex), duble (duplex), triple și quadruple row. Gama acoperă de la pasul 1/4\" (RS25) folosit pe mașini compacte până la pasul 3\" (RS240) pentru aplicații industriale grele. Fiecare lanț primește tratament termic special al pinilor și bucșelor pentru rezistență maximă la uzură, plus pre-lubrifiere cu grăsimi speciale care extind intervalele de mentenanță. Rezistență la tracțiune de la 900 kgf (RS25) până la 100,000 kgf pentru lanțurile heavy duty. Oferim și versiuni cu plăci laterale întărite (Super series) pentru șocuri și sarcini dinamice, și versiuni din inox (serie SS) pentru medii corozive sau alimentare."
+        description: "Lanțurile standard de transmisie conform ANSI și ISO, disponibile în simple (simplex), duble (duplex), triple și quadruple row. Gama acoperă de la pasul 1/4\" (RS25) folosit pe mașini compacte până la pasul 3\" (RS240) pentru aplicații industriale grele. Fiecare lanț primește tratament termic special al pinilor și bucșelor pentru rezistență maximă la uzură, plus pre-lubrifiere cu grăsimi speciale care extind intervalele de mentenanță. Rezistența la tracțiune depinde de pas și de numărul de rânduri și se confirmă din fișa tehnică. Oferim și versiuni cu plăci laterale întărite (Super series) pentru șocuri și sarcini dinamice, și versiuni din inox (serie SS) pentru medii corozive sau alimentare."
       },
       {
         name: "Lanțuri Lambda (Maintenance-Free)",
-        description: "Lanțurile Lambda au bucșe din material special (sinterizat impregnat cu lubrifiant solid) care nu necesită lubrifiere externă pe toată durata de viață. Potrivite pentru aplicații unde lubrifierea e imposibilă (medii curate, camere frigorifice, zone alimentare) sau nedorită (industria textilă, hârtie). Rezistența la uzură este mai mare decât la lanțurile standard lubrifiate periodic, conform producătorului. Disponibile în pasuri de la 3/8\" până la 2\", simple și duble. Testate, conform producătorului, să ruleze peste 25,000 ore fără mentenanță în condiții normale. Reducere de zgomot cu până la 5 dB față de lanțurile clasice, datorită amortizării mai bune în îmbinări."
+        description: "Lanțurile Lambda au bucșe speciale impregnate cu ulei, care nu necesită lubrifierea lanțului. Potrivite pentru aplicații unde lubrifierea e imposibilă (medii curate, camere frigorifice, zone alimentare) sau nedorită (industria textilă, hârtie). Rezistența la uzură este mai mare decât la lanțurile standard lubrifiate periodic, conform producătorului. Disponibile în pasuri de la 3/8\" până la 2\", simple și duble."
       },
       {
         name: "Lanțuri Neptune (Corrosion Resistant)",
-        description: "Lanțuri special concepute pentru medii agresive — fabrici de procesare alimentară cu spălări frecvente, industria chimică, aplicații marine, sau echipamente outdoor. Construcție din inox AISI 304 sau 316 pentru rezistență maximă la coroziune, sau versiuni cu acoperiri speciale (nichel, zinc-nichel) pentru alternative cost-effective. Seria include și lanțuri cu placă solidă (solid bush chain) unde bucșa e înlocuită cu material plin — mai puțină mentenanță și durată de viață extinsă. Potrivite pentru transportoare de sticle în industria băuturilor, linii de spălare industrială, procesare carne și pește, sau echipamente din porturile maritime. Conformitate completă cu cerințele FDA și EUDLEX pentru contact alimentar."
+        description: "Lanțuri special concepute pentru medii agresive — fabrici de procesare alimentară cu spălări frecvente, industria chimică, aplicații marine, sau echipamente outdoor. Construcțiile și acoperirile rezistente la coroziune diferă de la o variantă la alta; materialul exact îl confirmăm din fișa tehnică. Seria include și lanțuri cu placă solidă (solid bush chain) unde bucșa e înlocuită cu material plin — mai puțină mentenanță și durată de viață extinsă. Potrivite pentru transportoare de sticle în industria băuturilor, linii de spălare industrială, procesare carne și pește, sau echipamente din porturile maritime. Pentru contact alimentar, conformitatea o confirmăm din documentația variantei solicitate."
       },
       {
-        name: "Lanțuri cu Foi și Sisteme de Transport (Attachment Chains)",
-        description: "Lanțuri de transmisie echipate cu foi laterale (K attachments), foi duble (K2), cleme extinse (G attachments) sau plăci speciale pentru fixarea paletizilor, cutiilor sau produselor direct pe lanț. Folosite pe transportoare aeriene, sisteme de paleți pentru vopsitorii, linii de asamblare, și conveyor systems complexe. Oferim și lanțuri cu role mari (large roller chains) pentru deplasare pe șine ghidaj, și lanțuri top table pentru transportoare de sticle și PET-uri. Fiecare configurație poate fi customizată cu pasul, tipul de foi, și materialele necesare aplicației — de la lanțuri simple pentru sarcini mici până la sisteme triple heavy-duty pentru paleți de 500+ kg."
+        name: "Lanțuri cu Atașamente și Sisteme de Transport (Attachment Chains)",
+        description: "Lanțuri de transmisie echipate cu atașamente laterale (K), atașamente duble (K2), cleme extinse (G attachments) sau plăci speciale pentru fixarea paleților, cutiilor sau produselor direct pe lanț. Folosite pe transportoare aeriene, sisteme de paleți pentru vopsitorii, linii de asamblare, și conveyor systems complexe. Oferim și lanțuri cu role mari (large roller chains) pentru deplasare pe șine ghidaj, și lanțuri top table pentru transportoare de sticle și PET-uri. Fiecare configurație poate fi customizată cu pasul, tipul de foi, și materialele necesare aplicației — de la lanțuri simple pentru sarcini mici până la sisteme triple heavy-duty pentru paleți de 500+ kg."
       }
     ],
     certifications: [
       "ISO 9001 — management calității pentru fabricarea lanțurilor industriale",
       "ISO 14001 — Tsubaki: management de mediu pentru procesele de producție",
       "ISO 45001 — sănătate și securitate ocupațională",
-      "FDA & EUDLEX — materiale aprobate pentru contact alimentar (seria Neptune inox)",
+      "Contact alimentar — conformitatea se confirmă pe varianta solicitată",
       "CE — marcaj pentru lanțuri și sisteme de transmisie vândute în UE",
       "ATEX — certificări pentru lanțuri folosite în zone cu risc de explozie",
       "JIS B 1801 — standard japonez pentru lanțuri de precizie",
@@ -207,7 +204,7 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
       "Construcții și heavy machinery — excavatoare, macarale, utilaje de terasament",
       "Procesare metal — linii de tablă, vopsitorii, tratamente termice"
     ],
-    infinitrade: "Pentru Tsubaki, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi înșine pentru fiecare comandă — nu avem un inventar propriu verificat pentru toate variantele de lanț. Aducem lanțurile Tsubaki (RS, Lambda, Neptune) la comandă prin canale de aprovizionare din UE, cu 24–72 h din stoc pentru variantele pe care le avem deja confirmate și 1–4 săptămâni la comandă pentru restul gamei sau pentru roți dințate speciale. Pentru o ofertă corectă, trimiteți-ne pasul lanțului, tipul (simplex, duplex sau triplex), lungimea sau numărul de zale, și aplicația (transmisie sau manipulare materiale). Nu lucrăm cu prețuri afișate public și nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor.",
+    infinitrade: "Pentru Tsubaki, ne bazăm pe surse publice ale producătorului și pe ce putem confirma noi înșine pentru fiecare comandă — nu avem un inventar propriu verificat pentru toate variantele de lanț. Aducem lanțurile Tsubaki (RS, Lambda, Neptune) la comandă prin canale de aprovizionare din UE, de regulă în 24–72 h din stoc extern pentru variantele curente, confirmate punctual, și în 1–4 săptămâni la comandă pentru restul gamei sau pentru roți dințate speciale. Pentru o ofertă corectă, trimiteți-ne pasul lanțului, tipul (simplex, duplex sau triplex), lungimea sau numărul de zale, și aplicația (transmisie sau manipulare materiale). Nu lucrăm cu prețuri afișate public și nu promitem un termen fix înainte de a verifica disponibilitatea reală la furnizor.",
     sources: [
       {"title":"RS roller chain product page","url":"https://tsubakimoto.com/power-transmission/drive-chain/standard/roller-chain/rs/","publisher":"Tsubakimoto Chain","accessed":"2026-09-23"},
       {"title":"Low-noise chain product page","url":"https://tsubakimoto.com/power-transmission/drive-chain/corrosion-resistant/low-noise","publisher":"Tsubakimoto Chain","accessed":"2026-09-23"},
@@ -260,11 +257,11 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
     faq: [
       {
         "q": "Ce lanț Tsubaki aleg pentru o transmisie unde zgomotul de funcționare contează?",
-        "a": "Seria SNS, precum RS60-SNS-1, folosește o construcție cu bucșă plină gândită să reducă zgomotul față de un lanț clasic cu role, la același pas de montare. Rămâne compatibilă cu pinioanele standard pentru pasul respectiv, deci înlocuiește direct un lanț RS obișnuit din aceeași gamă dimensională."
+        "a": "Seria SNS, precum RS60-SNS-1, folosește role cu arc care absorb șocul la angrenarea pe pinion, reducând zgomotul cu 6-8 dB față de lanțul standard RS pre-lubrifiat, conform producătorului. Rămâne compatibilă cu pinioanele standard pentru pasul respectiv, deci înlocuiește direct un lanț RS obișnuit din aceeași gamă dimensională."
       },
       {
         "q": "Ce diferență este între lanțurile Tsubaki RS80 și RS80-SNS-1?",
-        "a": "RS80 este lanțul standard cu role din gama Tsubaki pentru pasul respectiv, folosit pe scară largă în transmisiile industriale. RS80-SNS-1 are aceeași geometrie de bază, dar o construcție cu bucșă plină cu durată de viață mai mare la uzură și un nivel de zgomot mai scăzut în funcționare continuă."
+        "a": "RS80 este lanțul standard cu role din gama Tsubaki pentru pasul respectiv, folosit pe scară largă în transmisiile industriale. RS80-SNS-1 este compatibil dimensional cu RS80, dar folosește role cu arc pentru un nivel de zgomot mai scăzut."
       },
       {
         "q": "Livrați lanțuri Tsubaki în România?",
@@ -279,8 +276,8 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
         "a": "Pasul este distanța dintre centrele a două zale consecutive și determină compatibilitatea lanțului cu un anumit pinion. Codul RS este urmat de un număr care crește odată cu pasul: un RS40 are pas mic și este potrivit pentru sarcini reduse, iar un RS240 are un pas mult mai mare, pentru sarcini de tracțiune grele."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "transactional"
@@ -426,36 +423,36 @@ Turck nu vinde doar componente — oferă soluții complete. Pentru conectarea u
     name: "Vega",
     founded: 1959,
     headquarters: "Schiltach, Germania",
-    employees: "1,700+ angajați la nivel global",
+    employees: "peste 2.800 de angajați la nivel global",
     overview: `Vega este un producător cunoscut în măsurarea nivelului și presiunii pentru industria de proces — de la cuve simple într-o stație de lapte până la reactoare chimice complexe sau silozuri de cereale de zeci de metri înălțime. Precizia măsurătorii de nivel sau presiune este importantă în astfel de aplicații, unde o eroare poate afecta materialul sau procesul. Compania germană a pornit în 1959 și oferă, conform producătorului, senzori proiectați pentru fiabilitate ridicată — funcționare de durată în condiții dificile (temperatură, presiune, coroziune), cu intervenții reduse.
 
-Senzorii Vega se folosesc frecvent pe diverse aplicații — radar pe silozuri de ciment (praf, vibrații continue), ultrasonic pe bazine de apă uzată (spume, turbulență), și capacitivi pe pulberi fine în industria alimentară. Simplitatea este un argument recurent al producătorului: senzorul se montează, se configurează prin Bluetooth de pe telefon sau prin HART communicator, apoi funcționează cu mentenanță minimă. Display-ul mare arată nivelul în timp real, iar ieșirea 4-20mA intră direct în PLC pentru control automatizat. Pentru aplicații critice, senzorii au și redundanță built-in — două cipuri de măsurare independente care se verifică reciproc.
+Senzorii Vega se folosesc frecvent pe diverse aplicații — radar pe silozuri de ciment (praf, vibrații continue), ultrasonic pe bazine de apă uzată (spume, turbulență), și capacitivi pe pulberi fine în industria alimentară. Simplitatea este un argument recurent al producătorului: senzorul se montează, se configurează prin Bluetooth de pe telefon sau prin HART communicator, apoi funcționează cu mentenanță minimă. Display-ul mare arată nivelul în timp real, iar ieșirea 4-20mA intră direct în PLC pentru control automatizat.
 
-Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) pentru acuratețe maximă în tancuri înguste, radar liber (FMCW 80 GHz) pentru rezervoare mari, ultrasonic pentru aplicații cost-effective, și capacitiv pentru detectare nivel în pulberi. Plus senzori de presiune pentru lichide și gaze, și switch-uri de nivel pentru alarme și protecție. Tehnologia Vega este folosită, printre altele, în rafinării, fabrici chimice și depozite de cereale de capacitate mare.`,
+Gama Vega acoperă mai multe tehnologii de măsurare a nivelului — radar ghidat (TDR) pentru acuratețe maximă în tancuri înguste, radar liber (FMCW 80 GHz) pentru rezervoare mari, ultrasonic pentru aplicații cost-effective, și capacitiv pentru detectare nivel în pulberi. Plus senzori de presiune pentru lichide și gaze, și switch-uri de nivel pentru alarme și protecție. Tehnologia Vega este folosită, printre altele, în rafinării, fabrici chimice și depozite de cereale de capacitate mare.`,
     whyChoose: [
-      "Tehnologie radar de precizie — FMCW 80 GHz cu acuratețe de ±1mm, insensibilă la praf, spumă, temperatură",
-      "Fiabilitate ridicată — MTBF de peste 100,000 ore, conform producătorului, cu intervale lungi între recalibrări",
-      "Configurare simplă — Bluetooth prin aplicație mobilă plics, sau HART/Profibus/Modbus pentru integrare în DCS",
-      "Display vizibil 360° — citire locală clară chiar și în soare puternic, cu iluminare pentru noapte",
+      "Tehnologie radar de precizie — FMCW 80 GHz cu acuratețe de ±1 mm (VEGAPULS 6X), mai puțin sensibilă la praf, spumă și variații de temperatură",
+      "Fiabilitate ridicată — valorile de fiabilitate (MTBF, intervale de recalibrare) depind de model și se confirmă din documentația Vega",
+      "Configurare simplă — Bluetooth prin aplicația mobilă VEGA Tools, sau HART/Profibus/Modbus pentru integrare în DCS",
+      "Display cu citire locală, la modelele echipate cu modul de afișare și reglare",
       "Certificări complete — ATEX, IECEx, FM, CSA pentru zone explozive, plus FDA pentru alimentar și pharma",
       "Gamă tehnologică completă — radar, ultrasonic, capacitiv, presiune — totul de la un singur furnizor"
     ],
     keyProducts: [
       {
         name: "Senzori Radar VEGAPULS (FMCW 80 GHz)",
-        description: "Familia VEGAPULS folosește tehnologia de măsurare a nivelului prin radar — emițător 80 GHz cu fascicul focalizat (unghi de doar 3°) care măsoară cu precizie de ±2mm, conform producătorului, chiar și în tancuri înguste sau cu obstacole interne (agitatoare, serpentine de încălzire). Puțin sensibili la praf, spumă, condensare pe antenă, vibrații sau variații de temperatură și presiune. Gama de măsurare de la 0.1 metri până la 120 metri, cu opțiuni de antenă pentru toate aplicațiile — horn mic pentru spații strâmte, horn mare pentru distanțe mari, antenă cu diafragmă pentru medii extrem de murdare. Potrivit pentru lichide (apă, acid, solvenți, bitum), paste (nămol, pulpe), și solide (cereale, ciment, plastic granulat). Ieșire 4-20mA, HART, Profibus PA, Foundation Fieldbus sau Modbus RTU."
+        description: "Familia VEGAPULS folosește tehnologia de măsurare a nivelului prin radar — emițător 80 GHz cu fascicul focalizat (unghi de doar 3°) care măsoară cu precizie de ±1 mm, conform producătorului, chiar și în tancuri înguste sau cu obstacole interne (agitatoare, serpentine de încălzire). Puțin sensibili la praf, spumă, condensare pe antenă, vibrații sau variații de temperatură și presiune. Gama de măsurare de la 0.1 metri până la 120 metri, cu opțiuni de antenă pentru toate aplicațiile — horn mic pentru spații strâmte, horn mare pentru distanțe mari, antenă cu diafragmă pentru medii extrem de murdare. Potrivit pentru lichide (apă, acid, solvenți, bitum), paste (nămol, pulpe), și solide (cereale, ciment, plastic granulat). Ieșire 4-20mA, HART, Profibus PA, Foundation Fieldbus sau Modbus RTU."
       },
       {
         name: "Senzori Radar Ghidat VEGAFLEX (TDR)",
-        description: "Tehnologia TDR (Time Domain Reflectometry) — un impuls electromagnetic trimis pe o sondă metalică (cablu sau tijă) și reflectat la suprafața materialului măsurat. Acuratețe ridicată de ±1mm, independentă în mare măsură de proprietățile materialului (constantă dielectrică, densitate, temperatură). Ideal pentru tancuri înguste și înalte, aplicații cu spumă puternică, sau lichide cu constantă dielectrică mică (hidrocarburi, solvenți). Sondele disponibile: cablu flexibil (până la 70m lungime) pentru tancuri mari, tijă rigidă (până la 6m) pentru aplicații cu presiune, și coaxial (până la 6m) pentru pulberi și materiale lipicioase care s-ar agăța de cablu simplu. Funcționează în vid, presiune până 400 bar, temperatură -196°C până +450°C."
+        description: "Tehnologia TDR (Time Domain Reflectometry) — un impuls electromagnetic trimis pe o sondă metalică (cablu sau tijă) și reflectat la suprafața materialului măsurat. Acuratețe de ±2 mm la VEGAFLEX 81, independentă în mare măsură de proprietățile materialului (constantă dielectrică, densitate, temperatură). Ideal pentru tancuri înguste și înalte, aplicații cu spumă puternică, sau lichide cu constantă dielectrică mică (hidrocarburi, solvenți). Sondele disponibile: cablu flexibil (domeniu de măsurare până la 75 m la VEGAFLEX 81) pentru tancuri mari, tijă rigidă (până la 6m) pentru aplicații cu presiune, și coaxial (până la 6m) pentru pulberi și materiale lipicioase care s-ar agăța de cablu simplu. Domeniul de proces depinde de model (de exemplu, VEGAFLEX 81: de la -1 la 40 bar și de la -60 la 200 °C); îl confirmăm pe cod, din documentația Vega."
       },
       {
         name: "Senzori Ultrasonici VEGASON",
-        description: "Măsurare nivel prin ultrasunete — senzorul emite o undă sonoră (frecvență 40-70 kHz) care se reflectă pe suprafața lichidului sau solidului și se măsoară timpul de întoarcere. Soluție cost-effective pentru majoritatea aplicațiilor cu lichide curate sau ușor murdare, și solide (cereale, plastic granulat, cărbune). Gama de măsurare de la 0.3m până la 15m pentru lichide și până la 70m pentru solide. Include compensare automată pentru temperatura și presiunea aerului, eliminând erorile cauzate de variațiile atmosferice. Montare simplă — se înșurubează pe un racord G1½ sau flanșă DN50, fără contact cu materialul măsurat (non-intrusive). Afișaj grafic mare cu trend și diagnostic, configurare prin taste sau Bluetooth."
+        description: "Măsurare nivel prin ultrasunete — senzorul emite o undă sonoră care se reflectă pe suprafața lichidului sau solidului și se măsoară timpul de întoarcere. Soluție cost-effective pentru majoritatea aplicațiilor cu lichide curate sau ușor murdare, și solide (cereale, plastic granulat, cărbune). Gama de măsurare depinde de model (de exemplu, VEGASON 61: până la 5 m pentru lichide și 2 m pentru solide; VEGASON 62: până la 8 m și respectiv 3,5 m). Include compensare automată pentru temperatura și presiunea aerului, eliminând erorile cauzate de variațiile atmosferice. Montare simplă — se înșurubează pe un racord G1½ sau flanșă DN50, fără contact cu materialul măsurat (non-intrusive). Afișaj grafic mare cu trend și diagnostic, configurare prin taste sau Bluetooth."
       },
       {
         name: "Senzori de Presiune VEGABAR",
-        description: "Transmițătoare de presiune din inox pentru măsurarea presiunii relative, absolute sau diferențiale în lichide, gaze și vapori. Gama de măsurare de la 0-0.1 bar până la 0-600 bar, cu celule de măsurare ceramică (pentru aplicații alimentare și pharma) sau metalică (pentru presiuni înalte și aplicații generale). Acuratețe de până la ±0.075% FS, stabilitate pe termen lung ridicată (drift < 0.1% pe an, conform producătorului). Include și transmițătoare speciale pentru nivel hidrostatic — măsoară înălțimea lichidului dintr-un tanc pe baza presiunii coloanei de lichid. Potrivit pentru ape uzate, rezervoare subterane, aplicații offshore. Certificări complete ATEX, SIL 2/3, și 3A Sanitary pentru food & beverage."
+        description: "Transmițătoare de presiune din inox pentru măsurarea presiunii relative, absolute sau diferențiale în lichide, gaze și vapori. Gama de măsurare depinde de model (de exemplu, VEGABAR 82: de la -1 la 100 bar), cu celule de măsurare ceramică (pentru aplicații alimentare și pharma) sau metalică (pentru presiuni înalte și aplicații generale). Acuratețea depinde de model (de exemplu, VEGABAR 82: 0,05%); stabilitatea pe termen lung se confirmă pe cod, din documentația Vega. Include și transmițătoare speciale pentru nivel hidrostatic — măsoară înălțimea lichidului dintr-un tanc pe baza presiunii coloanei de lichid. Potrivit pentru ape uzate, rezervoare subterane, aplicații offshore. Certificări disponibile, în funcție de model: ATEX, SIL 2 și 3A Sanitary pentru food & beverage."
       }
     ],
     certifications: [
@@ -464,8 +461,8 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
       "ISO 45001 — sănătate și securitate ocupațională",
       "ATEX & IECEx — senzori pentru zone cu risc de explozie (zona 0, 1, 2, 20, 21, 22)",
       "FM & CSA — certificări pentru piața nord-americană (hazardous locations)",
-      "SIL 2 & SIL 3 — certificare funcțională de siguranță conform IEC 61508",
-      "FDA 21 CFR Part 11 & EHEDG — pentru industria alimentară și farmaceutică",
+      "SIL 2 — certificare funcțională de siguranță conform IEC 61508, la modelele calificate",
+      "FDA și EHEDG — aprobări disponibile la anumite modele, pentru industria alimentară și farmaceutică",
       "DNV-GL & ABS — certificări maritime pentru aplicații offshore și naval"
     ],
     industries: [
@@ -480,7 +477,7 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
       "Pulp & paper — tancuri de pastă, clarificatoare, rezervoare de chimicale",
       "Metal processing — emulsii de răcire, baze, acizi pentru decapare"
     ],
-    infinitrade: "La Vega, lucrăm cu ce putem confirma direct pentru fiecare cerere și cu informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare model. Aducem senzorii VEGAPULS, VEGAFLEX, VEGASON și VEGABAR la comandă prin canale de aprovizionare din UE — 24–72 h din stoc pentru variantele pe care le avem deja confirmate, altfel 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de tehnologia dorită (radar, ultrasonic, capacitiv sau presiune), gama de măsurare, tipul de material (lichid, pastă sau solid) și presiunea sau temperatura de proces. Nu publicăm prețuri și nu confirmăm un termen exact înainte să verificăm disponibilitatea la sursă pentru configurația cerută.",
+    infinitrade: "Pentru Vega, lucrăm cu ce putem confirma direct pentru fiecare cerere și cu informațiile publice disponibile despre producător, fără un inventar propriu documentat pentru fiecare model. Aducem senzorii VEGAPULS, VEGAFLEX, VEGASON și VEGABAR la comandă prin canale de aprovizionare din UE — 24–72 h din stoc pentru variantele pe care le avem deja confirmate, altfel 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de tehnologia dorită (radar, ultrasonic, capacitiv sau presiune), gama de măsurare, tipul de material (lichid, pastă sau solid) și presiunea sau temperatura de proces. Nu publicăm prețuri și nu confirmăm un termen exact înainte să verificăm disponibilitatea la sursă pentru configurația cerută.",
     sources: [
       {"title":"Radar Level Sensors","url":"https://www.vega.com/en-us/products/product-catalog/level/radar","publisher":"VEGA","accessed":"2026-09-22"},
       { title: "VEGA Grieshaber KG - Company | VEGA", url: "https://www.vega.com/en-us/company", publisher: "VEGA Grieshaber KG", accessed: "2026-09-22" },
@@ -559,8 +556,8 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
         "a": "Este senzorul radar universal al producătorului, gândit să acopere majoritatea aplicațiilor de măsurare a nivelului cu o singură platformă, înlocuind mai multe modele anterioare dedicate unor sarcini specifice. Oferă performanță ridicată inclusiv în condiții dificile de proces."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "transactional"
@@ -570,32 +567,32 @@ Gama Vega acoperă toate tehnologiile de măsurare nivel — radar ghidat (TDR) 
     name: "Wago",
     founded: 1951,
     headquarters: "Minden, Germania",
-    employees: "9,500+ angajați la nivel global",
+    employees: "aproximativ 9.000 de angajați la nivel global",
     overview: `Wago este, conform producătorului, inventatorul bornerelor cu arc (spring clamp) și unul dintre producătorii importanți la nivel mondial în tehnologia de conexiune electrică fără șuruburi. Bornierele clasice cu șurub se pot slăbi în timp, mai ales la cabluri din aluminiu sau cu multe cicluri termice; Wago TOPJOB S propune o alternativă — introduci cablul, apeși pârghia portocalie, gata. Fără unelte, fără șuruburi de strâns. Compania a pornit în 1951 și a lansat prima bornieră cu arc în 1977 — de atunci, tehnologia lor este larg răspândită în industrie, de la dulapuri de comandă simple până la instalații complexe offshore sau aeroporturi.
 
 Pe instalații care folosesc conexiuni Wago în locul bornierelor clasice, diferența constă în timp de cablare redus, mai puține erori de strângere (cablu stricat sau contact slab) și fiabilitate pe termen lung cu mentenanță redusă, conform producătorului. Pe instalațiile cu cabluri de aluminiu (folosite din ce în ce mai des pentru costuri), acest tip de conexiune este recomandat — arcul menține presiune constantă chiar și când aluminiul "curge" în timp (fenomen de relaxare). Testarea circuitelor este simplă — ridici pârghia portocalie, introduci un tester, verifici tensiunea, închizi pârghia — totul fără să deconectezi cablul.
 
-Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări industriale bazate pe aceeași filozofie de conexiune rapidă și sigură. Module I/O pentru bus de câmp (Profinet, EtherNet/IP, Modbus), PLC-uri compacte seria 750, relee și contactoare pentru control, și sisteme complete de management energetic.`,
+Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări industriale bazate pe aceeași filozofie de conexiune rapidă și sigură. Module I/O pentru bus de câmp (Profinet, EtherNet/IP, Modbus), PLC-uri compacte seria 750, relee de interfață, și sisteme complete de management energetic.`,
     whyChoose: [
-      "Inventatorul bornerelor cu arc — tehnologie brevetată CAGE CLAMP pentru conexiune sigură fără șuruburi",
+      "Pionier al conexiunii cu arc, conform producătorului — tehnologie brevetată CAGE CLAMP pentru conexiune sigură fără șuruburi",
       "Conexiune rapidă — montaj mai rapid decât la bornierele clasice cu șurub, conform producătorului",
       "Rezistență la vibrații — arcul menține presiune constantă chiar și pe utilaje cu șocuri și vibrații continue",
       "Potrivit pentru aluminiu — soluție recomandată pentru cabluri de aluminiu care tind să se deformeze în timp",
       "Gamă completă — de la borniere simple până la sisteme complexe de automatizare și I/O remote",
-      "Calitate germană — MTBF ridicat, conformitate cu toate standardele IEC și UL"
+      "Certificări IEC, UL și altele, conform listei de certificări a producătorului"
     ],
     keyProducts: [
       {
         name: "Borniere TOPJOB S cu Arc (Spring Clamp)",
-        description: "Familia TOPJOB S este folosită pe scară largă pentru conexiuni rapide și sigure — borniere cu arc CAGE CLAMP care acceptă cabluri rigide și flexibile de la 0.5mm² până la 35mm² fără unelte. Montare pe șină DIN 35mm, poziții de cablare codificate prin culoare (intrare portocalie, ieșire albă/gri), și posibilitate de punting (conectare multiplă între borniere) prin bare dedicate. Include și borniere de protecție PE (pământ) cu codificare vizuală verde-galben, borniere pentru separare de potențial cu siguranțe integrate, și borniere multiple cu până la 4 nivele de conexiune pe aceeași poziție (economisește spațiu în dulapuri mici). Rezistență la tracțiune testată peste 100N, rezistență la vibrații conform EN 60068-2-6, contacte din cupru electrolitic cu placare argint pentru rezistență la coroziune."
+        description: "Familia TOPJOB S este folosită pe scară largă pentru conexiuni rapide și sigure — borniere cu arc CAGE CLAMP care acceptă cabluri rigide și flexibile; domeniul de secțiuni depinde de cod și îl confirmăm din fișa producătorului. Montare pe șină DIN 35mm, și posibilitate de punting (conectare multiplă între borniere) prin bare dedicate. Include și borniere de protecție PE (pământ) cu codificare vizuală verde-galben, borniere pentru separare de potențial cu siguranțe integrate, și borniere multiple cu până la 4 nivele de conexiune pe aceeași poziție (economisește spațiu în dulapuri mici). Datele despre rezistența la tracțiune, vibrații și materialul contactelor se confirmă din fișa producătorului pentru codul ales."
       },
       {
         name: "Module I/O pentru Bus de Câmp (Seria 750)",
-        description: "Sisteme modulare I/O pentru conectarea senzorilor și actuatorilor la rețelele industriale — Profinet, EtherNet/IP, Modbus TCP/RTU, CANopen, DeviceNet, și altele. Fiecare sistem pornește cu un controller/coupler care face interfața la bus, și apoi adaugi module I/O după nevoi — digitale (8/16 canale DI/DO), analogice (2/4/8 canale AI/AO, 4-20mA, 0-10V, termocuple, RTD), și speciale (contoare rapide, SSI encodere, step/direction pentru motoare pas-cu-pas). Montare pe șină DIN, conexiune internă prin magistrală integrată (fără cablaj între module), și posibilitate de hot-swap (schimbare module în funcțiune fără oprirea sistemului). Software gratuit Wago-I/O-Check pentru configurare și diagnosticare. Ideal pentru retrofit sau aplicații unde I/O-ul centralizat nu e fezabil."
+        description: "Sisteme modulare I/O pentru conectarea senzorilor și actuatorilor la rețelele industriale — Profinet, EtherNet/IP, Modbus TCP/RTU, CANopen, DeviceNet, și altele. Fiecare sistem pornește cu un controller/coupler care face interfața la bus, și apoi adaugi module I/O după nevoi — digitale (8/16 canale DI/DO), analogice (2/4/8 canale AI/AO, 4-20mA, 0-10V, termocuple, RTD), și speciale (contoare rapide, SSI encodere, step/direction pentru motoare pas-cu-pas). Montare pe șină DIN, conexiune internă prin magistrală integrată (fără cablaj între module). Software gratuit Wago-I/O-Check pentru configurare și diagnosticare. Ideal pentru retrofit sau aplicații unde I/O-ul centralizat nu e fezabil."
       },
       {
         name: "PLC Compact Seria 750 (Controller)",
-        description: "PLC-uri compacte programabile în CODESYS V3 (limbaje IEC 61131-3: Ladder, FBD, ST, SFC) cu I/O modular integrat — de la 2 puncte I/O până la 250 puncte pe același controller. Include porturi Ethernet pentru Modbus TCP, integrare HMI, și acces remote, plus porturi seriale pentru Modbus RTU și device-uri legacy. Memorie de program de până la 12MB, memorie de date 8MB, și card microSD pentru backup și logging. Potrivit pentru aplicații unde un PLC clasic mare e supradimensionat — mașini mici și mijlocii, utilaje mobile, instalații descentralizate. Software CODESYS e gratuit, cu biblioteci extinse pentru control PID, motion, comunicații, și HMI."
+        description: "PLC-uri compacte programabile în CODESYS V3 (limbaje IEC 61131-3: Ladder, FBD, ST, SFC) cu I/O modular integrat — până la 250 de module I/O pe un nod. Include porturi Ethernet pentru Modbus TCP, integrare HMI, și acces remote, plus porturi seriale pentru Modbus RTU și device-uri legacy. Memoria depinde de model: de exemplu, 750-8208 are 16 MB memorie de program și 64 MB memorie de date (CODESYS V2), iar 750-8210 acceptă card SD/SDHC. Potrivit pentru aplicații unde un PLC clasic mare e supradimensionat — mașini mici și mijlocii, utilaje mobile, instalații descentralizate. Software CODESYS e gratuit, cu biblioteci extinse pentru control PID, motion, comunicații, și HMI."
       },
       {
         name: "Relee de Interfață și Module Safety",
@@ -639,11 +636,11 @@ Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări i
       },
       {
         "code": "750-8210",
-        "description": "Controler PFC200, variantă cu opțiuni de comunicație extinse"
+        "description": "Controler PFC200 generația a doua, 4 x Ethernet"
       },
       {
         "code": "750-8208",
-        "description": "Controler PFC200, variantă compactă pentru automatizare de proces"
+        "description": "Controler PFC200 cu 2 x Ethernet, RS-232/RS-485, CAN/CANopen și PROFIBUS DP Master"
       },
       {
         "code": "750-8212",
@@ -663,7 +660,7 @@ Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări i
       },
       {
         "code": "750-8202/000-012",
-        "description": "Controler PFC200, variantă FG2 pentru automatizarea clădirilor"
+        "description": "Controler PFC200, variantă FG2, 2 x Ethernet, RS-232/RS-485"
       },
       {
         "code": "2002-2201",
@@ -671,7 +668,7 @@ Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări i
       },
       {
         "code": "2002-2202",
-        "description": "Bornă TOPJOB S cu două etaje, variantă cu conexiune alternativă"
+        "description": "Bornă TOPJOB S cu două etaje, montaj pe șină, gri; diferențele față de 2002-2201 se confirmă din fișa producătorului"
       }
     ],
     faq: [
@@ -681,7 +678,7 @@ Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări i
       },
       {
         "q": "Ce diferență este între bornele WAGO TOPJOB S 2002-2201 și 2002-2202?",
-        "a": "Ambele sunt borne cu două etaje din seria TOPJOB S, montate pe șină, cu aceeași lățime de 5,2 mm și culoare gri. Diferența constă în modul de conexiune al conductorului la fiecare etaj, ceea ce influențează alegerea în funcție de tipul de cablu și de accesul dorit la punctul de testare."
+        "a": "Ambele sunt borne cu două etaje din seria TOPJOB S, montate pe șină, cu aceeași lățime de 5,2 mm și culoare gri. Diferențele dintre cele două coduri (configurația etajelor și marcarea) se confirmă din fișa producătorului înainte de comandă."
       },
       {
         "q": "Livrați echipamente WAGO în România?",
@@ -693,11 +690,11 @@ Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări i
       },
       {
         "q": "Ce este seria WAGO TOPJOB S de borne cu arc?",
-        "a": "Este o gamă de borne de conexiune cu arc, montate pe șină, gândite pentru conectare rapidă a conductorului fără scule speciale de strângere. Variantele cu două sau trei etaje, precum 2002-2201, economisesc spațiu în tabloul electric față de bornele cu un singur etaj pentru același număr de circuite."
+        "a": "Este o gamă de borne de conexiune cu arc, montate pe șină, gândite pentru conectare rapidă a conductorului fără scule speciale de strângere. Variantele cu mai multe etaje, precum 2002-2201 (două etaje), ocupă mai puțin spațiu în tabloul electric decât bornele cu un singur etaj pentru același număr de circuite."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "transactional"
@@ -707,36 +704,36 @@ Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări i
     name: "Weidmüller",
     founded: 1850,
     headquarters: "Detmold, Germania",
-    employees: "6,000+ angajați la nivel global",
-    overview: `Weidmüller este un producător german important, cu peste 170 de ani de experiență în tehnologia de conexiune electrică industrială — de la borniere clasice până la soluții complete de management al cablajului în dulapuri și mașini complexe. Când intri într-un dulap de comandă realizat profesional, cu cablaj ordonat, borniere aliniate perfect, și marcaje clare, șansele sunt mari că acolo e echipament Weidmüller. Compania nu doar vinde componente — oferă sistem complet: borniere modulate pe șină DIN, conectori industriali robusti, marcaje laser sau termic pentru identificare, scule de sertizat pentru fire și cabluri, și software gratuit pentru engineering și documentație (WMC Configurator).
+    employees: "prezență globală (6 unități de producție și 31 de companii de vânzări, conform producătorului)",
+    overview: `Weidmüller este un producător german important, cu peste 170 de ani de experiență în tehnologia de conexiune electrică industrială — de la borniere clasice până la soluții complete de management al cablajului în dulapuri și mașini complexe. Compania nu doar vinde componente — oferă sistem complet: borniere modulate pe șină DIN, conectori industriali robusti, marcaje laser sau termic pentru identificare, scule de sertizat pentru fire și cabluri, și software gratuit pentru engineering și documentație (WMC Configurator).
 
 Bornierele Weidmüller seria W se folosesc frecvent în proiecte de automatizare unde standardizarea și consistența contează — toate au același design, același sistem de fixare, aceleași accesorii (separatoare, punți de legătură, capace de protecție). Rezultatul e un dulap unde mentenanța devine simplă — orice electrician identifică imediat ce face fiecare bornieră, testarea circuitelor se face rapid prin puncte de test dedicate, și extinderea instalației se face fără improvizații. Pe proiectele mari (sute de borniere), diferența între un sistem bine gândit și unul improvizat se vede imediat la prima defecțiune.
 
-Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul lor WMC (Weidmüller Configuration) permite proiectarea întregului dulap virtual — selectezi bornierele necesare, generezi scheme electrice automat, creezi liste de materiale, și tipărești marcaje personalizate. Apoi comanzi totul dintr-o singură sursă — borniere, conectori, marcaje, scule — și primești un kit complet pentru proiect. Pentru integratorul de sisteme sau OEM-ul care produce mașini în serie, asta poate însemna economii de timp și mai puține erori de proiectare.`,
+Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul lor WMC (Weidmüller Configurator) permite proiectarea întregului dulap virtual — selectezi bornierele necesare, generezi scheme electrice automat, creezi liste de materiale, și tipărești marcaje personalizate. Apoi comanzi totul dintr-o singură sursă — borniere, conectori, marcaje, scule — și primești un kit complet pentru proiect. Pentru integratorul de sisteme sau OEM-ul care produce mașini în serie, asta poate însemna economii de timp și mai puține erori de proiectare.`,
     whyChoose: [
       "Peste 170 de ani de experiență — producător cu istorie îndelungată în componente electrice industriale",
       "Sistem complet de conexiune — borniere, conectori, marcaje, scule — totul compatibil și standardizat",
       "Software gratuit de engineering — WMC Configurator pentru design, documentație, liste de materiale",
-      "Calitate germană constantă — toate componentele au același standard de fabricație, ceea ce reduce incompatibilitățile",
-      "Gamă vastă de borniere — de la 0.14mm² (semnale electronice) până la 300mm² (alimentări putere)",
-      "Suport tehnic excelent — training, consultanță pentru design de dulapuri, asistență la punere în funcțiune"
+      "Sistem unitar — componentele fac parte din aceeași familie de produse, ceea ce facilitează compatibilitatea",
+      "Gamă vastă de borniere — până la 300mm² (de exemplu WFF 300)",
+      "Suport tehnic — consultanță punctuală pe alegerea produselor; training și asistență se confirmă separat cu producătorul"
     ],
     keyProducts: [
       {
         name: "Borniere Seria W (W-Series Terminal Blocks)",
-        description: "Familia W este linia standard Weidmüller pentru conexiuni industriale — borniere modulate cu șurub, arc (push-in), sau combinate, pentru cabluri de la 0.14mm² până la 300mm². Include borniere de trecere (feed-through) simple, borniere cu diodă sau siguranță integrată, borniere de pământ PE și PEN, borniere cu separator și borniere cu decuplare pentru testare. Montare pe șină DIN 35mm (sau 15mm pentru borniere mici), cu sistem de codificare prin culori și simboluri pentru identificare rapidă. Accesorii complete — separatoare de grupuri, punți de legătură (2-50 poziții), capace de protecție pentru contacte, și module de test cu puncte de măsură. Compatibilitate ridicată între generații — poți adăuga borniere noi lângă cele vechi, conform producătorului, fără probleme de aliniere sau conexiune."
+        description: "Familia W este linia standard Weidmüller pentru conexiuni industriale — borniere modulate cu șurub, arc (push-in), sau combinate, pentru cabluri cu secțiuni până la 300mm² (domeniul exact depinde de cod). Include borniere de trecere (feed-through) simple, borniere cu diodă sau siguranță integrată, borniere de pământ PE și PEN, borniere cu separator și borniere cu decuplare pentru testare. Montare pe șină DIN 35mm (sau 15mm pentru borniere mici), cu sistem de codificare prin culori și simboluri pentru identificare rapidă. Accesorii complete — separatoare de grupuri, punți de legătură (2-50 poziții), capace de protecție pentru contacte, și module de test cu puncte de măsură. Compatibilitate ridicată între generații — poți adăuga borniere noi lângă cele vechi, conform producătorului, fără probleme de aliniere sau conexiune."
       },
       {
         name: "Conectori Industriali (Industrial Connectors)",
-        description: "Gama completă de conectori pentru cablaj rapid și sigur — conectori rectangulari heavy-duty pentru cabluri multi-conductor (serii HDC, ROCKSTAR), conectori circulari M8/M12/M23 pentru senzori și actuatoare, conectori pentru bus de câmp (Profinet, EtherNet/IP, DeviceNet), și conectori modulare pentru aplicații custom. Construcție robustă IP65/IP67/IP68/IP69K, rezistență la vibrații conform IEC 60068-2-6, și contacte placare aur pentru fiabilitate pe termen lung. Include și conectori pentru putere mare (până la 830A), conectori cu contact de pământ prioritar (PE first-make/last-break), și conectori cu blocare prin șurub sau baionetă. Potrivit pentru conectarea rapidă a panourilor mobile, roboților, utilajelor modulare."
+        description: "Gama completă de conectori pentru cablaj rapid și sigur — conectori rectangulari heavy-duty pentru cabluri multi-conductor (serii HDC, ROCKSTAR), conectori circulari M8/M12/M23 pentru senzori și actuatoare, conectori pentru bus de câmp (Profinet, EtherNet/IP, DeviceNet), și conectori modulare pentru aplicații custom. Gradul de protecție, rezistența la vibrații și placarea contactelor depind de seria aleasă și se confirmă din fișa producătorului. Include și conectori pentru putere mare; curentul nominal și tipul de blocare se confirmă din fișa producătorului. Potrivit pentru conectarea rapidă a panourilor mobile, roboților, utilajelor modulare."
       },
       {
         name: "Sisteme de Marcare (Marking Systems)",
-        description: "Soluții complete pentru marcarea clară și durabilă a componentelor electrice — marcaje tipărite termic (imprimante dedicate Weidmüller), marcaje laser (gravare permanentă), marcaje pre-tipărite din fabrică, și marcaje scrise manual cu markere speciale. Include cârlige de marcare clip-on care se montează direct pe borniere, marcaje tubulare pentru cabluri, etichete adezive pentru echipamente, și plăcuțe gravate pentru fronturi de dulap. Software-ul WMC generează automat conținutul marcajelor din scheme electrice — număr bornieră, semnal, destinație — eliminating erorile de transcriere. Materialele sunt rezistente la ulei, solvenți, UV, și temperaturi extreme (-40°C până +150°C)."
+        description: "Soluții complete pentru marcarea clară și durabilă a componentelor electrice — marcaje tipărite termic (imprimante dedicate Weidmüller), marcaje laser (gravare permanentă), marcaje pre-tipărite din fabrică, și marcaje scrise manual cu markere speciale. Include cârlige de marcare clip-on care se montează direct pe borniere, marcaje tubulare pentru cabluri, etichete adezive pentru echipamente, și plăcuțe gravate pentru fronturi de dulap. Software-ul WMC generează automat conținutul marcajelor din scheme electrice — număr bornieră, semnal, destinație — eliminând erorile de transcriere. Rezistența materialelor la ulei, solvenți, UV și temperatură se confirmă din fișa producătorului."
       },
       {
         name: "Scule de Sertizat și Decablare (Crimping Tools)",
-        description: "Clești de sertizat profisionali pentru papuci de cap de cablu (ferrule), papuci inelari, papuci furculiță, conectori izolați, și conectori neizolați. Gama include scule manuale (pentru producție mică), scule semi-automatice (cu magazie de papuci pentru productivitate mare), și scule pneumatice sau electrice pentru linii de producție. Fiecare unealtă are matrițe calibrate și testate conform DIN 48083 pentru asigurarea sertizării corecte — nici prea slabă (papucul se desprinde), nici prea puternică (se taie conductorul). Include și scule de decablare (stripping tools) automate care taie izolația la lungimea exactă fără să deterioreze conductorul."
+        description: "Clești de sertizat profesionali pentru papuci de cap de cablu (ferrule), papuci inelari, papuci furculiță, conectori izolați, și conectori neizolați. Gama include scule manuale (pentru producție mică), scule semi-automatice (cu magazie de papuci pentru productivitate mare), și scule pneumatice sau electrice pentru linii de producție. Fiecare unealtă are matrițe calibrate și testate conform specificațiilor producătorului pentru asigurarea sertizării corecte — nici prea slabă (papucul se desprinde), nici prea puternică (se taie conductorul). Include și scule de decablare (stripping tools) automate care taie izolația la lungimea exactă fără să deterioreze conductorul."
       }
     ],
     certifications: [
@@ -747,7 +744,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       "UL & cUL — Weidmüller: certificări pentru piața nord-americană (UL 1059, CSA C22.2)",
       "IECEx & ATEX — componente pentru zone cu risc de explozie",
       "DNV-GL & ABS — certificări maritime și offshore",
-      "GOST-R — certificări pentru piața rusă și CSI"
+      
     ],
     industries: [
       "Tablouri electrice — borniere pentru distribuție, comenzi, automatizări",
@@ -758,7 +755,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       "Transport feroviar — cablaj vagoane, locomotive, sisteme de semnalizare",
       "Naval — tablouri pentru nave, rezistență la coroziune salină",
       "Clădiri inteligente — automatizare, HVAC, lighting, security",
-      "Alimentar și pharma — conexiuni rezistente la spălare, certificări FDA",
+      "Alimentar și pharma — conexiuni rezistente la spălare",
       "Mining — utilaje grele, rezistență la șocuri, praf, umiditate"
     ],
     infinitrade: "La Weidmüller, pornim de la informațiile publice disponibile despre producător și de la ce putem verifica noi direct, fără un inventar propriu documentat pentru fiecare secțiune de bornieră. Aducem bornierele seria W, conectorii industriali și accesoriile de marcare prin canale de aprovizionare din UE — 24–72 h din stoc pentru pozițiile deja confirmate, 1–4 săptămâni la comandă pentru rest. Pentru o cotație corectă avem nevoie de secțiunea de cablu în mm², tipul de conexiune (șurub, arc sau push-in), numărul de poziții și, dacă e cazul, cerințele de marcare. Nu comunicăm prețuri în acest text, iar pentru proiectarea completă a unui tablou recomandăm o discuție tehnică separată înainte de comandă.",
@@ -787,7 +784,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       },
       {
         "code": "WMF Series",
-        "description": "Bornă de conexiune cu șurub, variantă modulară extinsă"
+        "description": "Bornă de conexiune din seria WMF; varianta exactă se confirmă din fișa producătorului"
       },
       {
         "code": "SAK Series",
@@ -799,11 +796,11 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       },
       {
         "code": "connectPower",
-        "description": "Sistem de conectori pentru distribuția energiei electrice în tablou"
+        "description": "Conectori din familia connectPower; utilizarea exactă se confirmă din fișa producătorului"
       },
       {
         "code": "SteadyTEC",
-        "description": "Conector Ethernet industrial cu fixare rapidă a cablului"
+        "description": "Conector din familia SteadyTEC; caracteristicile se confirmă din fișa producătorului"
       },
       {
         "code": "MultiCard",
@@ -815,7 +812,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       },
       {
         "code": "PrintJet ADVANCED",
-        "description": "Imprimantă color pentru etichete și marcaje industriale"
+        "description": "Imprimantă pentru marcaje industriale PrintJet ADVANCED; caracteristicile se confirmă din fișa producătorului"
       },
       {
         "code": "Stripax",
@@ -849,11 +846,11 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       },
       {
         "q": "Ce este scula Weidmüller Stripax?",
-        "a": "Este o sculă manuală care taie conductorul la lungimea dorită, îl dezizolă și sertizează mufa terminală într-o singură operație, fără schimbarea uneltei între pași. Varianta Stripax 2.5 adaugă și funcția combinată într-un format mai compact, util la lucrul repetitiv în tablouri electrice."
+        "a": "Este o sculă manuală care taie conductorul la lungimea dorită, îl dezizolă și sertizează mufa terminală într-o singură operație, fără schimbarea uneltei între pași. Varianta Stripax Plus 2.5 taie, dezizolează și sertizează papuci de cap de cablu pentru conductoare de 0,5–2,5 mm² și are o magazie de papuci în mâner."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "gsc-only"
@@ -1020,36 +1017,35 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
     name: "Wera",
     founded: 1936,
     headquarters: "Wuppertal, Germania",
-    employees: "800+ angajați",
+    
     overview: `Wera este un producător german de scule de mână (șurubelnițe, chei imbus, biți) axat pe ergonomie și pe rezolvarea problemelor practice de utilizare. Compania a pornit în 1936 și și-a construit reputația pe brevete precum: mânere Kraftform ergonomice (proiectate pentru transfer de cuplu cu oboseală redusă, conform producătorului), biți Hex-Plus care ating fețele plane ale șuruburilor în loc de colțuri (uzură redusă, grip mai bun), și sisteme anti-cam-out pentru șuruburi Phillips și Pozidriv.
 
-Detaliile de construcție sunt gândite pentru utilizare frecventă: șurubelnița de 3mm are lama tratată termic (59-61 HRC) pentru un echilibru între rezistență la tocire și rezistență la rupere, mânerul Kraftform distribuie presiunea în palmă pentru confort la utilizare prelungită, iar vârful Lasertip cu micro-striere este proiectat să adere la șurub fără să alunece.
+Detaliile de construcție sunt gândite pentru utilizare frecventă: lamele sunt tratate termic pentru un echilibru între rezistența la tocire și rezistența la rupere, mânerul Kraftform distribuie presiunea în palmă pentru confort la utilizare prelungită, iar vârful Lasertip cu micro-striere este proiectat să adere la șurub fără să alunece.
 
 Portofoliul Wera este mai degrabă concentrat decât vast — șurubelnițe și biți pentru toate capetele (slotted, Phillips, Pozidriv, Torx, Hex), chei imbus și Torx în L și T-handle, chei dinamometrice, și seturi complete organizate în cutii Toolcheck compacte.`,
     whyChoose: [
-      "Ergonomie științifică — mânerele Kraftform sunt modelate pe bază de studii biomedicale pentru confort maxim și transfer optim de cuplu",
-      "Inovație constantă — brevete unice (Hex-Plus, Lasertip, Rapidaptor) care rezolvă probleme reale din teren",
+      "Ergonomie — mânerele Kraftform combină zone dure și moi din materiale cu duritate diferită, care distribuie sarcina pe o suprafață mai mare, conform producătorului",
+      "Tehnologii proprii (Hex-Plus, Lasertip, Rapidaptor), descrise de producător",
       "Durabilitate ridicată — tratamente termice precise, aliaje premium, finisaje anti-coroziune",
       "Anti-cam-out — geometrii speciale pentru Phillips, Pozidriv, Torx care reduc alunecarea vârfului din șurub",
-      "Design distinctiv — sculele Wera sunt ușor de recunoscut prin culorile și formele ergonomice specifice",
-      "Garanție pe viață pentru defecte de fabricație, conform politicii producătorului"
+      "Design distinctiv — sculele Wera sunt ușor de recunoscut prin culorile și formele ergonomice specifice"
     ],
     keyProducts: [
       {
         name: "Șurubelnițe Kraftform Plus (Seria 300)",
-        description: "Familia clasică Kraftform cu mâner multi-component — zona moale (elastomer verde-negru) pentru grip și confort, zona dură (plastic rigid galben-negru) pentru rezistență și transfer de cuplu. Fiecare dimensiune are profilul mânerului optimizat pentru cuplul specific — șurubelnițele mici (1-3mm) au mâner subțire pentru precizie, cele mari (5-8mm) au mâner gros pentru forță. Lamele sunt din oțel crom-vanadium-molibden tratat termic la 59-61 HRC, cu vârf Lasertip — micro-striere care măresc frecarea cu șurubul, reducând forța necesară și eliminând alunecarea. Disponibile pentru toate capetele: slotted, Phillips (PH), Pozidriv (PZ), Torx, Hex. Include și versiuni izolate VDE 1000V pentru lucrări pe instalații electrice sub tensiune."
+        description: "Familia clasică Kraftform cu mâner multi-component — zona moale (elastomer verde-negru) pentru grip și confort, zona dură (plastic rigid galben-negru) pentru rezistență și transfer de cuplu. Fiecare dimensiune are profilul mânerului optimizat pentru cuplul specific — șurubelnițele mici (1-3mm) au mâner subțire pentru precizie, cele mari (5-8mm) au mâner gros pentru forță. Lamele sunt din oțel special tratat termic, cu vârf Lasertip — micro-striere care măresc frecarea cu șurubul, reducând forța necesară și eliminând alunecarea. Disponibile pentru toate capetele: slotted, Phillips (PH), Pozidriv (PZ), Torx, Hex. Include și versiuni izolate VDE 1000V pentru lucrări pe instalații electrice sub tensiune."
       },
       {
         name: "Biți și Holdere (Seria Bit-Check)",
-        description: "Seturi compacte de biți profisionali în cutii Bit-Check organizate — fiecare bit are locul lui, identificare rapidă. Biții Wera au tehnologie Hex-Plus (pentru Hex și Torx) — în loc să atace colțurile șurubului, atacă fețele plane, reducând uzura și rotunjirea colțurilor, conform producătorului. Seria Diamond include biți cu acoperire diamantată (particule de diamant industrial electroplacat) pentru aderență crescută în Phillips și Pozidriv, reducând riscul de cam-out. Disponibili și biți extra-lungi (89mm, 152mm) pentru locuri greu accesibile, biți de impact pentru șurubelniță cu percuție, și biți cu limitator de adâncime pentru aplicații de asamblare repetitivă. Montare în holdere Rapidaptor cu schimbare rapidă a bitului printr-o singură mână (fără inel de blocare)."
+        description: "Seturi compacte de biți profesionali în cutii Bit-Check organizate — fiecare bit are locul lui, identificare rapidă. Biții Wera pentru șuruburi cu locaș hexagonal au profilul Hex-Plus — în loc să atace colțurile șurubului, atacă pereții locașului, reducând uzura și rotunjirea colțurilor, conform producătorului. Seria Diamond include biți cu acoperire diamantată (particule de diamant industrial electroplacat) pentru aderență crescută în Phillips și Pozidriv, reducând riscul de cam-out. Disponibili și biți extra-lungi (89mm, 152mm) pentru locuri greu accesibile, biți de impact pentru șurubelniță cu percuție, și biți cu limitator de adâncime pentru aplicații de asamblare repetitivă. Montare în holdere Rapidaptor cu schimbare rapidă a bitului printr-o singură mână (fără inel de blocare)."
       },
       {
-        name: "Chei Imbus Hex-Plus (Seria 950 & 967)",
-        description: "Chei imbus (Allen) cu tehnologie Hex-Plus — geometrie specială care contactează fețele plane ale șurubului în loc de colțuri, oferind, conform producătorului, un transfer de cuplu mai bun și reducând rotunjirea colțurilor chiar la cupluri mari. Disponibile în formă L clasică (seria 950, braț scurt și braț lung cu bila pentru unghi), și în formă T-handle (seria 967, pentru cupluri mari cu efort redus). Materialul e oțel crom-vanadiu tratat termic, finisaj negru oxidat sau cromat anti-coroziune. Include și chei imbus pliante compacte (seria 950 SPKL) care cuprind 9 dimensiuni (1.5mm-10mm) într-un corp de doar 13cm lungime — ideale pentru trusa de service mobilă."
+        name: "Chei Imbus Hex-Plus",
+        description: "Chei imbus (Allen) cu tehnologie Hex-Plus — geometrie specială care contactează fețele plane ale șurubului în loc de colțuri, oferind, conform producătorului, un transfer de cuplu mai bun și reducând rotunjirea colțurilor chiar la cupluri mari. Disponibile în formă de L, în variante pentru șuruburi cu locaș hexagonal și TORX; seria exactă și dimensiunile se confirmă pe cod din catalogul producătorului. Materialul e oțel crom-vanadiu tratat termic, finisaj negru oxidat sau cromat anti-coroziune. "
       },
       {
         name: "Chei Dinamometrice și Seturi Tool-Check",
-        description: "Chei dinamometrice (torque wrenches) cu setare precisă a cuplului pentru aplicații unde strângerea corectă e critică — componente auto, aerospacial, biciclete high-end. Seria 7000 oferă gama 2.5-25 Nm cu ajustare fină (0.1 Nm), indicație audibilă și tactilă la atingerea cuplului setat, și acuratețe ±6% conform DIN EN ISO 6789. Include și versiuni cu clichet reversibil și adaptor rapid pentru biți hex de 1/4\". Seturile Tool-Check sunt colecții curated de scule pentru aplicații specifice — TC Automotive (biți Torx, Hex, chei tubulare), TC Electrician (șurubelnițe izolate VDE, clești), TC Bicycle (chei imbus, Torx, biți speciali) — totul organizat compact în cutii rezistente cu spumă preformată."
+        description: "Chei dinamometrice (torque wrenches) cu setare precisă a cuplului pentru aplicații unde strângerea corectă e critică — componente auto, aerospacial, biciclete high-end. Modelul Click-Torque A 5 acoperă gama 2.5-25 Nm, cu clichet reversibil; rezoluția de reglaj, indicația de atingere a cuplului și toleranța se confirmă din fișa tehnică a modelului. Include și versiuni cu clichet reversibil și adaptor rapid pentru biți hex de 1/4\". Seturile Tool-Check Plus sunt colecții de scule organizate compact în cutii, pentru aplicații specifice; compoziția fiecărui set se confirmă din catalogul producătorului."
       }
     ],
     certifications: [
@@ -1057,9 +1053,7 @@ Portofoliul Wera este mai degrabă concentrat decât vast — șurubelnițe și 
       "ISO 14001 — management de mediu",
       "DIN EN ISO 6789 — standard pentru chei dinamometrice (acuratețe și calibrare)",
       "VDE — certificare pentru șurubelnițe și scule izolate folosite la lucrări sub tensiune (1000V)",
-      "GS — Geprüfte Sicherheit (siguranță testată) marca germană de calitate",
-      "TÜV — testare independentă a performanței și siguranței",
-      "REACH & RoHS — Wera: conformitate cu reglementările europene pentru substanțe chimice"
+      "REACH și RoHS — conformitate cu reglementările europene privind substanțele chimice"
     ],
     industries: [
       "Automotive — service auto, asamblare, tuning (chei dinamometrice pentru roți, motoare)",
@@ -1087,7 +1081,7 @@ Portofoliul Wera este mai degrabă concentrat decât vast — șurubelnițe și 
       },
       {
         "code": "335",
-        "description": "Șurubelniță Kraftform Plus, lamă lungă, cap crestat"
+        "description": "Șurubelniță Kraftform Plus pentru șuruburi cu cap crestat"
       },
       {
         "code": "350 PH",
@@ -1095,11 +1089,11 @@ Portofoliul Wera este mai degrabă concentrat decât vast — șurubelnițe și 
       },
       {
         "code": "352",
-        "description": "Șurubelniță Kraftform Plus cu vârf hexagonal interior"
+        "description": "Șurubelniță Kraftform Plus cu cap sferic pentru șuruburi cu locaș hexagonal"
       },
       {
         "code": "354",
-        "description": "Șurubelniță Kraftform Plus, lamă lungă, vârf hexagonal interior"
+        "description": "Șurubelniță Kraftform Plus pentru șuruburi cu locaș hexagonal"
       },
       {
         "code": "355 PZ",
@@ -1127,7 +1121,7 @@ Portofoliul Wera este mai degrabă concentrat decât vast — șurubelnițe și 
       },
       {
         "code": "327",
-        "description": "Suport Kraftform pentru supape"
+        "description": "Sculă din gama Kraftform; destinația exactă se confirmă din catalogul producătorului"
       }
     ],
     faq: [
@@ -1152,8 +1146,8 @@ Portofoliul Wera este mai degrabă concentrat decât vast — șurubelnițe și 
         "a": "Este mânerul multi-component folosit la majoritatea șurubelnițelor Wera din seria 300, gândit să transmită cuplu mai mare cu efort de prindere mai mic. Zonele moi de pe suprafață oferă aderență la strângere, iar forma este aceeași pentru toate profilele de vârf din gamă, de la crestat la TORX."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "gsc-only"

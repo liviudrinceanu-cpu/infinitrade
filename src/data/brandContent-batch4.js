@@ -1,15 +1,15 @@
 export const brandContentBatch4 = {
   'schneider-electric': {
     founded: 1836,
-    headquarters: 'Le Creusot, Franța',
-    employees: '135,000+',
-    overview: `Când vorbești despre Schneider Electric, vorbești despre o companie care a văzut de toate — de la forjarea fierului în Le Creusot în epoca industrială, la automatizări inteligente pentru clădiri întregi. Fondată în 1836, Schneider a trecut prin mai multe transformări decât majoritatea companiilor își pot imagina: de la producția de armament și locomotive, la echipamente electrice, și acum... la platforma EcoStruxure care conectează totul prin IoT și AI.
+    headquarters: 'Rueil-Malmaison, Franța',
+    employees: '160,000',
+    overview: `Schneider Electric este o companie cu o istorie industrială lungă: de la turnătoria din Le Creusot din epoca industrială la automatizări pentru clădiri întregi. Fondată în 1836, Schneider a trecut prin mai multe transformări decât majoritatea companiilor își pot imagina: de la producția de armament și locomotive, la echipamente electrice, și acum... la platforma EcoStruxure care conectează totul prin IoT și AI.
 
-Ce face Schneider special? Ei nu vând doar componente — vând ecosisteme complete. Când instalezi un PLC Modicon M580 sau un HMI Magelis GTU, îl integrezi într-o arhitectură care vorbește cu totul: de la sursa de alimentare UPS Galaxy până la variatorii Altivar care reglează motoarele. Totul e gândit să comunice, să optimizeze consumul energetic și să dea date în timp real. Centralizarea automației pe platforma EcoStruxure poate reduce consumul energetic, conform documentației producătorului.
+Gama Schneider Electric este construită ca un sistem: un PLC (Programmable Logic Controller, controler logic programabil) Modicon M580 sau un panou HMI (Human-Machine Interface, interfață om-mașină) Magelis se integrează în arhitecturi care includ surse UPS Galaxy și variatoare de frecvență Altivar, conform documentației producătorului. Centralizarea automației pe platforma EcoStruxure poate reduce consumul energetic, conform documentației producătorului.
 
-Schneider nu este opțiunea cu cel mai mic preț de listă. Plătești premium pentru aceste soluții, dar primești suport tehnic solid, piese de schimb disponibile pe termen lung și compatibilitate backward utilă la modernizarea instalațiilor vechi. Gama lor de întreruptoare automate și contactoare este frecvent întâlnită în tablourile electrice industriale din România.
 
-Infinitrade distribuie gama industrială Schneider Electric pentru automatizări, variație de frecvență și distribuție electrică, fără partea rezidențială (prize, întreruptoare pentru case) — doar echipamentele pentru fabrici, utilități și infrastructură. Pentru un sistem de management energetic sau o soluție SCADA pentru o linie de producție, echipa ajută la configurarea necesară.`,
+
+Infinitrade poate oferta la comandă echipamente din gama industrială Schneider Electric pentru automatizări, variație de frecvență și distribuție electrică. Pentru un sistem de management energetic sau o soluție SCADA, vă ajutăm la identificarea referințelor potrivite din documentația producătorului; configurarea software rămâne în sarcina integratorului sau a producătorului.`,
     whyChoose: [
       'Platformă unificată EcoStruxure pentru automatizare completă și management energetic inteligent',
       'Istorie de aproape 200 de ani în inginerie electrică și automatizări industriale',
@@ -19,19 +19,19 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
     keyProducts: [
       {
         name: 'PLCs Modicon (M580, M340, M241)',
-        description: `Controlere programabile de la entry-level M241 pentru mașini simple, până la M580 redundant pentru procese critice. Programare în Unity Pro sau EcoStruxure Control Expert. Sunt robuste, cu diagnostic bun și se integrează cu restul ecosistemului Schneider. M340 este folosit frecvent în fabrici cu funcționare continuă.`,
+        description: `Controlere programabile de la entry-level M241 pentru mașini simple, până la M580 redundant pentru procese critice. Programare în Unity Pro sau EcoStruxure Control Expert. Sunt robuste, cu diagnostic bun și se integrează cu restul ecosistemului Schneider. `,
       },
       {
         name: 'HMI Magelis (GTU, STU, XBT GT)',
-        description: `Panouri operator de la 4" până la 15", touchscreen color, programare în Vijeo Designer. Sunt intuitive — operatorii învață să le folosească rapid. Plus că au rezistență industrială la praf, umiditate și șocuri. Potrivite pentru linii de producție și stații de pompare.`,
+        description: `Panouri operator touchscreen color; dimensiunea ecranului și software-ul de programare depind de model, conform documentației producătorului. Gradul de protecție la praf, umiditate și șocuri depinde de model și se confirmă din fișa tehnică. Potrivite pentru linii de producție și stații de pompare.`,
       },
       {
         name: 'Variatori de frecvență Altivar (ATV320, ATV630, ATV930)',
-        description: `Gama completă de VFD-uri pentru motoare asincrone: de la ATV320 compact pentru aplicații simple (pompe, ventilatoare), la ATV930 pentru mașini complexe cu control vectorial și sincronizare multi-axe. Parametrizarea e ușoară prin Somove, iar diagnosticul integrat îți spune exact ce s-a întâmplat când apare o eroare. Economie de energie posibilă la pompe cu turație variabilă, conform documentației producătorului.`,
+        description: `Gamă de variatoare de frecvență (VFD - Variable Frequency Drive) pentru motoare asincrone, de la ATV320, compact, la ATV930, pentru aplicații mai complexe; alegerea depinde de aplicație și de documentația producătorului. Parametrizarea se poate face cu software-ul SoMove, iar diagnosticul integrat ajută la identificarea cauzei unei erori. Economie de energie posibilă la pompe cu turație variabilă, conform documentației producătorului.`,
       },
       {
         name: 'Distribuție electrică (Compact NSX, Acti9)',
-        description: `Întreruptoare automate modulare și în carcasă pentru protecție și distribuție în tablouri electrice industriale. Seria Acti9 e standard pentru automatizări mici și medii, iar Compact NSX e ce folosești pentru curenți mari și aplicații critice. Declanșare electronică, comunicație Modbus — totul ce ai nevoie pentru un tablou modern care vorbește cu sistemul de supervizare.`,
+        description: `Întreruptoare automate modulare și în carcasă pentru protecție și distribuție în tablouri electrice industriale. Seria Acti9 este destinată distribuției modulare, iar Compact NSX întreruptoarelor în carcasă turnată pentru curenți mai mari; opțiunile de declanșare electronică și de comunicație (de exemplu Modbus) depind de modelul ales.`,
       },
     ],
     certifications: [
@@ -42,13 +42,13 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
     ],
     industries: [
       'Automatizări industriale',
-      'Infrastructure critică (apă, energie)',
-      'Building automation',
-      'Oil & Gas',
-      'Food & Beverage',
-      'Data centers',
+      'Infrastructură critică (apă, energie)',
+      'Automatizarea clădirilor',
+      'Petrol și gaze',
+      'Industria alimentară și băuturi',
+      'Centre de date',
     ],
-    infinitrade: `La Infinitrade lucrăm cu informațiile publice ale Schneider Electric și nu deținem date proprii de stoc pentru fiecare cod din gama industrială — verificăm disponibilitatea reală înainte să confirmăm un termen. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană: componentele uzuale ajung, ca formulare generală a firmei, de regulă în 24–72 h din stoc, iar restul gamei se aduce la comandă în 1–4 săptămâni, în funcție de producător. Pentru o ofertă corectă, trimite-ne codul complet al produsului (de exemplu o referință Modicon, Altivar sau Acti9), cantitatea necesară și termenul dorit. Revenim cu disponibilitatea confirmată și un preț calculat pentru cererea ta, fără presupuneri.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice ale Schneider Electric și nu deținem date proprii de stoc pentru fiecare cod din gama industrială — verificăm disponibilitatea reală înainte să confirmăm un termen. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană: componentele uzuale ajung, ca formulare generală a firmei, de regulă în 24–72 h din stoc, iar restul gamei se aduce la comandă în 1–4 săptămâni, în funcție de producător. Pentru o ofertă corectă, vă rugăm să ne transmiteți codul complet al produsului (de exemplu o referință Modicon, Altivar sau Acti9), cantitatea necesară și termenul dorit. Revenim cu disponibilitatea confirmată și cu o ofertă pentru cererea dumneavoastră.`,
     limitation: `Nu putem confirma acoperirea automată în garanția producătorului pentru toate echipamentele Schneider Electric și nu realizăm noi configurarea software a modulelor EcoStruxure; pentru aceste situații recomandăm contactul direct cu producătorul.`,
     sources: [
       {"title":"Modicon master range","url":"https://www.se.com/ww/en/work/products/master-ranges/modicon/","publisher":"Schneider Electric","accessed":"2026-09-23"},
@@ -74,7 +74,7 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
       },
       {
         "code": "M258",
-        "description": "PLC cu capacitate de la 42 la 2400 intrări-ieșiri"
+        "description": "PLC cu 42 intrări-ieșiri în configurația compactă, extensibil până la 2400 prin modulele TM5; serie retrasă din comercializare (încheierea comercializării: 30.06.2026), succesor Modicon M262"
       },
       {
         "code": "LMC058",
@@ -82,7 +82,7 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
       },
       {
         "code": "PacDrive 3 LMC Eco",
-        "description": "Controler de mișcare pentru linii cu până la 130 axe"
+        "description": "Controler de mișcare din familia PacDrive 3 LMC (familia acoperă 0–130 axe servo sau robot; numărul de axe pentru LMC Eco se confirmă pe cod)"
       },
       {
         "code": "PacDrive 3 LMC Pro",
@@ -140,8 +140,8 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
@@ -308,43 +308,43 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
   'becker': {
     founded: 1885,
     headquarters: 'Wuppertal, Germania',
-    employees: '1,200+',
+    
     overview: `Becker este un brand despre care mulți nu au auzit până când au nevoie de o pompă de vid serioasă — și atunci descoperă că nemții de la Wuppertal fac de 140 de ani pompe cu palete rotative robuste. Fondată în 1885, compania s-a specializat în vid și presiune prin tehnologie cu palete rotative, tehnologie pe care a dezvoltat-o de-a lungul timpului.
 
-Ce face pompele Becker speciale? Lipsa totală de ulei în camera de compresie. Spre deosebire de pompele clasice care necesită lubrifiere și degajă vapori de ulei (problematici în food, pharma, packaging), Becker rulează "uscat" — paletele sunt din carbon autolubrifiant. Rezultatul: vid curat, fără contaminare, fără întreținere complicată, fără filtre de ulei de schimbat la fiecare 500 ore. Pompele Becker se folosesc frecvent în fabrici de ambalaje alimentare, unde necesită mentenanță redusă pe interior — paletele se schimbă la câțiva ani.
+Ce face pompele Becker speciale? Lipsa totală de ulei în camera de compresie. Spre deosebire de pompele clasice care necesită lubrifiere și degajă vapori de ulei (problematici în food, pharma, packaging), Becker rulează "uscat" — paletele sunt din carbon autolubrifiant. Rezultatul: vid curat, fără contaminare, fără întreținere complicată, fără ulei în camera de compresie. Pompele Becker se folosesc frecvent în fabrici de ambalaje alimentare, unde necesită mentenanță redusă pe interior — paletele se schimbă la câțiva ani.
 
-Gama lor este largă: de la pompe mici de vid (seria U) pentru mese de vid și printing, la suflante mari cu canale laterale (seria SV) pentru aerare și transport pneumatic, până la compresoare oil-free pentru aer comprimat curat. Aplicația lor principală este industria ambalajelor — termoformare, flowpack, blister packaging — acolo unde e nevoie de vid rapid, repetat și curat. Sunt silențioase în raport cu puterea dezvoltată.
+Gama lor este largă: de la pompe mici de vid (seria U) pentru mese de vid și printing, la suflante mari cu canale laterale (seria SV) pentru aerare și transport pneumatic, până la compresoare oil-free pentru aer comprimat curat. Aplicația lor principală este industria ambalajelor — termoformare, flowpack, blister packaging — acolo unde e nevoie de vid rapid, repetat și curat. Nivelul de zgomot depinde de model și se confirmă din fișa tehnică.
 
 Infinitrade furnizează gama completă Becker pentru industriile românești: de la pompe de vid pentru CNC-uri și mese de vid, la suflante pentru stații de epurare și compresoare oil-free pentru food & pharma. Disponibilitatea la producător pentru modelele cerute frecvent se verifică direct, iar configurațiile specifice se aduc la comandă. Pentru aplicații cu vid sau aer comprimat curat fără ulei, Becker este un brand de luat în considerare — costă ceva în plus față de opțiunile mai ieftine, dar fiabilitatea pe termen lung este un argument frecvent citat de producător.`,
     whyChoose: [
       'Tehnologie oil-free cu palete din carbon — vid și aer comprimat fără contaminare cu ulei',
       'Fiabilitate ridicată cu întreținere minimă — schimbi paletele o dată la câțiva ani și atât',
       'Nivel de zgomot redus pentru puterea dezvoltată — potrivit pentru hale de producție',
-      'Specialized în industria alimentară, farmaceutică și packaging unde curățenia e critică',
+      'Specializat în industria alimentară, farmaceutică și packaging unde curățenia e critică',
     ],
     keyProducts: [
       {
-        name: 'Pompe de vid cu palete rotative (seria U, VT, KVT)',
-        description: `Pompe de vid oil-free de la 25 m³/h până la 1000+ m³/h, presiune finală până la 0.5 mbar absolut. Seria U e compactă pentru aplicații mici (mese de vid, CNC wood, printing), seria VT e workhorse-ul pentru packaging și termoformare, iar KVT e varianta heavy-duty pentru procese industriale continue. Construcție robustă, palete din carbon autolubrifiant, întreținere la 8,000-12,000 ore.`,
+        name: 'Pompe de vid cu palete rotative (seriile VT, KVT fără ulei; U și O cu ulei)',
+        description: `Pompe de vid cu palete rotative. Seriile VT și KVT sunt fără ulei (VT: 1,9–40 m³/h, KVT: 55–129 m³/h la 50 Hz), iar seriile U (40–65 m³/h, presiune finală 0,5–1 mbar) și O (4–26 m³/h, 2 mbar) sunt cu ungere cu ulei. Seria O este potrivită pentru mașini de ambalare și procesare alimentară, iar VT, KVT și U acoperă aplicații de ambalare, termoformare și industrie. Intervalele de întreținere se confirmă din documentația Becker pentru modelul ales.`,
       },
       {
         name: 'Suflante cu canale laterale (seria SV)',
-        description: `Side channel blowers oil-free pentru generare de vid, suflare sau ambele simultan. Putere de la 0.3 kW la 25 kW, debit de la 45 m³/h la 1400 m³/h. Perfect pentru aerare în stații de epurare, transport pneumatic materiale pulverulente, sisteme de sortare, rezervoare septice. Sunt silențioase și au un raport putere/consum bun, adecvate pentru funcționare continuă.`,
+        description: `Suflante cu canale laterale fără ulei, pentru generare de vid, suflare sau ambele simultan. Seria SV acoperă puteri de la 0,55 kW la 18 kW și debite de la 130 m³/h la 1.250 m³/h, în funcție de model. Perfect pentru aerare în stații de epurare, transport pneumatic materiale pulverulente, sisteme de sortare, rezervoare septice. Sunt silențioase și au un raport putere/consum bun, adecvate pentru funcționare continuă.`,
       },
       {
-        name: 'Compresoare oil-free (seria O)',
-        description: `Compresoare cu palete rotative pentru aer comprimat curat, certificat pentru contact direct cu alimentele (FDA approved). Presiune până la 4 bar, debite de la 60 m³/h la 800+ m³/h. Aplicații: industrie alimentară, farmaceutică, cosmetică, electronice — peste tot unde nu-ți permiți să contaminezi produsul cu particule de ulei. Sunt mai scumpe decât compresoarele cu șurub clasice, dar sunt o opțiune frecventă pentru aplicații food-grade.`,
+        name: 'Compresoare fără ulei (seriile DT și KDT)',
+        description: `Compresoare cu palete rotative fără ulei pentru aer comprimat curat. Seria DT oferă suprapresiune de 0,5–1,0 bar (1,9–40 m³/h la 50 Hz), iar seria KDT 0,5–1,5 bar (54–129 m³/h la 50 Hz). Aplicații: industrie alimentară, farmaceutică, cosmetică, electronice — peste tot unde produsul nu trebuie contaminat cu particule de ulei. Pentru aplicații cu cerințe de igienă, conformitatea alimentară se confirmă din documentația Becker pentru modelul ales.`,
       },
       {
         name: 'Sisteme centralizate de vid',
-        description: `Soluții complete cu multiple pompe în paralel, rezervoare de vid, automatizare și monitoring. Perfect pentru fabrici cu multe puncte de consum de vid (CNC-uri, mese de thermoformare, flowpack-uri) — în loc să ai câte o pompă la fiecare mașină, ai un sistem centralizat care optimizează consumul și asigură backup automat. Becker oferă și sisteme pre-engineered gata de instalat.`,
+        description: `Soluții complete cu multiple pompe în paralel, rezervoare de vid, automatizare și monitoring. Potrivite pentru fabrici cu multe puncte de consum de vid (CNC-uri, mese de termoformare, mașini flowpack): în loc de o pompă la fiecare mașină, un sistem centralizat poate optimiza consumul și asigura rezervă automată. Becker oferă și sisteme preconfigurate, gata de instalat.`,
       },
     ],
     certifications: [
       'ISO 9001 (Calitate)',
       'ISO 14001 (Mediu)',
-      'FDA approved pentru contact cu alimentele',
-      'ATEX pentru medii potențial explozive',
+      
+      'ISO 9001 și ISO 14001 (conform producătorului)',
     ],
     industries: [
       'Packaging (termoformare, flowpack, blister)',
@@ -354,7 +354,7 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
       'Printing & Paper',
       'Stații de epurare (aerare)',
     ],
-    infinitrade: `Pentru pompele și suflantele Becker nu dispunem de date proprii despre stocul fiecărui model și pornim de la fișele tehnice publicate de producător. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: modelele cerute des pot fi disponibile, ca formulare generală a firmei, uneori în 24–72 h din stoc, iar configurațiile speciale se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de aplicație (vid sau presiune), debitul necesar și presiunea finală dorită. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru cererea ta, fără promisiuni pe care nu le putem susține.`,
+    infinitrade: `Pentru pompele și suflantele Becker nu dispunem de date proprii despre stocul fiecărui model și pornim de la fișele tehnice publicate de producător. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: modelele cerute des pot fi disponibile, ca formulare generală a firmei, uneori în 24–72 h din stoc, iar configurațiile speciale se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de aplicație (vid sau presiune), debitul necesar și presiunea finală dorită. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru cererea dumneavoastră, fără promisiuni pe care nu le putem susține.`,
     limitation: `Nu putem confirma disponibilitatea unei sub-game complete (de exemplu toate variantele seriei O) fără verificare punctuală la producător și nu oferim noi intervenții acoperite de garanția producătorului.`,
     sources: [
       {"title":"Vacuum Pump & Compressor Series","url":"https://www.becker-international.com/uk/products/pump-series.htm","publisher":"Becker","accessed":"2026-09-22"},
@@ -474,7 +474,7 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
     faq: [
       {
         "q": "Ce diferență este între pompele Becker seria VT și seria U?",
-        "a": "Seria VT este o pompă cu palete rotative fără ulei, potrivită pentru aplicații unde produsul nu trebuie contaminat, în timp ce seria U folosește ungere cu ulei și acoperă debite mai mari, fiind preferată în ambalare sau în linii industriale cu funcționare continuă. Alegerea depinde de curatenia cerută și de debitul necesar."
+        "a": "Seria VT este o pompă cu palete rotative fără ulei, potrivită pentru aplicații unde produsul nu trebuie contaminat, în timp ce seria U folosește ungere cu ulei și acoperă debite mai mari, fiind preferată în ambalare sau în linii industriale cu funcționare continuă. Alegerea depinde de curățenia cerută și de debitul necesar."
       },
       {
         "q": "Ce înseamnă prefixul VARIAIR la o pompă Becker?",
@@ -490,8 +490,8 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },

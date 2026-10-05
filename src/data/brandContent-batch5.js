@@ -722,36 +722,36 @@ Gama de sterilizare și igienizare Anderson-Negele include soluții specializate
   'armstrong': {
     founded: 1900,
     headquarters: 'Three Rivers, Michigan, SUA',
-    employees: '1,500+',
-    overview: `Armstrong este un producător nord-american specializat în sisteme HVAC industriale - pompe de condensat, oale de condens, separatoare vapor/lichid, filtre. Sistemele Armstrong se folosesc frecvent în fabrici, spitale, clădiri comerciale din România, unde fiabilitatea lor este bine cunoscută. Pompele de condensat seria Pumptrap combină oala de condens cu pompa electrică într-o singură unitate compactă, eliminând necesitatea pompei separate și reducând costul instalației. Un Pumptrap PT-450 (450 litri/h) poate funcționa 15+ ani în sisteme de încălzire fără service, conform documentației producătorului.
+    employees: '3,000+ (angajați și reprezentanți, la nivel global)',
+    overview: `Armstrong este un producător nord-american specializat în sisteme HVAC industriale - pompe de condensat, oale de condens, separatoare vapor/lichid, filtre. Sistemele Armstrong sunt destinate instalațiilor de abur, condensat și apă caldă din fabrici, spitale și clădiri comerciale. Pumptrap-urile Armstrong sunt pompe de condensat nealimentate electric: funcționează cu abur, aer sau gaz sub presiune, fără motoare, etanșări sau componente electrice, conform documentației producătorului (de exemplu seriile PT-200 și PT-300).
 
-Oalele de condens mecanice seria IB (Inverted Bucket) sunt construite pentru medii solicitante - modelul IB880 suportă presiuni diferențiale de până la 40 bar și temperaturi până la 370°C. Armstrong oferă garanție 10 ani pentru oalele IB. Designul inverted bucket e mecanic simplu: fără electronice, fără reglaje fine, doar un plutitor și o valvă - fiabilitate ridicată.
+Oalele de condens mecanice cu cupolă inversată (Inverted Bucket) sunt construite pentru medii solicitante; seria 880 are presiune maximă de lucru de 10 bar și temperatură maximă de 232°C, conform fișei tehnice a producătorului.  Designul inverted bucket e mecanic simplu: fără electronice, fără reglaje fine, doar un plutitor și o valvă - fiabilitate ridicată.
 
-Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din condensul antrenat în abur prin forță centrifugală - esențiale pentru protecția turbinelor cu abur și echipamentelor sensibile. Separatoarele CB450 (DN450) se folosesc frecvent pe conducte abur supraîncălzit 40 bar, unde condensul antrenat poate distruge paletele turbinei - montarea CB450 elimină această problemă. Certificare: ASME Section VIII Div.1 pentru vase sub presiune, PED 2014/68/EU categorie II-IV.`,
+Separatoarele centrifugale Armstrong (seriile DS) elimină condensul antrenat în abur prin forță centrifugală și protejează echipamentele sensibile; eficiența și limitele de lucru se confirmă pe model, din fișa tehnică. Certificările (de exemplu PED 2014/68/UE) depind de model și se confirmă pe cod.`,
     whyChoose: [
-      'Garanție 10 ani pentru oalele de condens mecanice seria IB',
-      'Eficiență energetică: oale tip termodinamic TD52L consumă zero energie (acționate de ΔP vapor), economii 15-30%/an',
-      'Design simplu mecanic: oale IB fără componente electronice, durată viață 20-30 ani fără piese de schimb',
-      'Pompe Pumptrap integrate: combină oala + pompa electrică, reduce costul instalație cu 30-40%',
-      'Certificări presiune înaltă: ASME VIII, PED categorie IV pentru presiuni până la 100 bar (oale speciale)',
-      'Software gratuit SAGE (Steam And Condensate Group Engineering) pentru sizing și audit energetic',
+      'Oale de condens cu cupolă inversată (seria 800) cu design mecanic simplu, fără componente electronice',
+      'Oalele de condens funcționează fără energie electrică, acționate de presiunea diferențială a aburului',
+      'Design mecanic simplu: oalele cu cupolă inversată nu au componente electronice',
+      'Pompe Pumptrap nealimentate electric: funcționează cu abur, aer sau gaz sub presiune',
+      'Certificări pentru echipamente sub presiune (de exemplu PED 2014/68/UE), în funcție de model',
+      'Instrumente software ale producătorului pentru dimensionare și selecție, conform site-ului Armstrong',
     ],
     keyProducts: [
       {
-        name: 'Armstrong IB880 Oală Condens Inverted Bucket',
-        description: `Oală condens mecanic tip inverted bucket pentru presiuni înalte și aplicații critice. Gamă presiune: 0.5-40 bar ΔP (diferențial între inlet și outlet), temperatură max 370°C. Conexiune: thread NPT 3/4"-2" sau flanșă RF ANSI 150/300 DN15-DN50. Corp din fontă ductilă sau oțel carbon ASTM A105, interior din inox 316 pentru rezistență la condensat acid (pH <5 din CO2 dizolvat). Plutitor inox 304, valvă disc inox 316 cu șaibă stellite pentru rezistență la eroziune. Capacitate evacuare: 450-15,000 kg/h condens la ΔP=1 bar (modelul IB882: 2,700 kg/h). Garanție 10 ani fără limitare cicluri. Test presiune: 2x presiune lucru conform ASME Section VIII. Certificare: PED 2014/68/EU categorie II-III, ASME stamp. Aplicații: linii abur proces (textile, hârtie, chimice), turbine abur, heat exchangers, autoclave sterilizare.`
+        name: 'Armstrong seria 880 - oală de condens cu cupolă inversată',
+        description: `Oală condens mecanic tip inverted bucket pentru presiuni înalte și aplicații critice. Presiune maximă de lucru de 10 bar (150 psig), temperatură maximă de 232°C, corp din fontă (ASTM A48 Clasa 30), racorduri filetate de 1/2 și 3/4 inch NPT/BSPT, capacitate de până la 2.000 kg/h, conform fișei tehnice a seriei 880. Aplicații: linii de abur de proces (textile, hârtie, chimice), turbine cu abur, schimbătoare de căldură, autoclave de sterilizare.`
       },
       {
-        name: 'Armstrong Pumptrap PT-450 Pompă Condensat Integrată',
-        description: `Sistem integrat oală condens + pompă electrică pentru returnare condensat la presiune joasă. Capacitate: 450 litri/h (PT-450) până la 2,700 litri/h (PT-2700). Presiune inlet: 0-10 bar vapor, outlet pompă: 0-6 bar (head 60m coloană apă). Rezervor condens 15 litri inox 304, plutitor pentru control nivel automat pornire/oprire pompă. Pompă centrifugală monoetajată din inox 316, motor electric IP55 0.37-1.1kW (230V/400V 50Hz). Temperatură condensat max 110°C (sub presiune atmosferică la outlet). Sistem de ventilare automat pentru eliminare aer și gaze incondensabile.Eby-pass mecanic pentru continuare funcționare în caz defect pompă (evacuare gravitațională). Montaj compact: 600x400x800mm (LxlxH), greutate 45kg. Certificare: PED, CE, cETLus (SUA/Canada). Aplicații: returnare condensat din echipamente joasă presiune (calandre textile, uscătoare hârtie, autoclav sterilizare) la cazan pentru economie apă tratată și energie.`
+        name: 'Armstrong Pumptrap - pompă de condensat nealimentată electric',
+        description: `Pompă de condensat nealimentată electric, acționată cu abur, aer sau gaz sub presiune, pentru returnarea condensatului. Seriile PT-200 și PT-300 au capacități de 2.400–3.700 lb/h (aprox. 1.100–1.700 kg/h), respectiv 11.600–16.600 lb/h (aprox. 5.300–7.500 kg/h); presiunile, dimensiunile și certificările se confirmă pe model, din fișa tehnică. Aplicații: returnare condensat din echipamente joasă presiune (calandre textile, uscătoare hârtie, autoclav sterilizare) la cazan pentru economie apă tratată și energie.`
       },
       {
-        name: 'Armstrong CB450 Separator Centrifugal Condens',
-        description: `Separator centrifugal pentru eliminare picături condens antrenat în abur. Principiu: abur intră tangențial în cameră cilindrică, forța centrifugală aruncă condensul pe perete unde se colectează și evacuează prin oală. Eficiență separare: 98% pentru picături >10 micron la viteze abur <30 m/s. Gamă presiune: 0.5-100 bar, temperatură max 540°C (abur supraîncălzit). Dimensiuni: DN25 (1") până la DN600 (24"), debite 100-500,000 kg/h abur. Corp din oțel carbon ASTM A106 Gr.B sau inox 316L pentru aplicații corozive. Pierdere presiune: <0.05 bar la debit nominal. Conexiune: flanșe RF ANSI 150/300/600 sau DIN PN16/40/100. Include oală condensat integrată pentru evacuare automată (tip termodinamic TD sau inverted bucket IB). Test hidrostatic: 1.5x design pressure conform ASME VIII. Aplicații: protecție turbine abur (condensul distruge palete), înainte heat exchangers (condensul reduce transfer termic), superheater furnaces (previne water hammer).`
+        name: 'Armstrong separator centrifugal (seria DS)',
+        description: `Separator centrifugal pentru eliminare picături condens antrenat în abur. Principiu: abur intră tangențial în cameră cilindrică, forța centrifugală aruncă condensul pe perete unde se colectează și evacuează prin oală. Seria DS include modelele DS-1 și DS-2 din fontă ductilă, DS-3 din inox 304 și DS-4 din oțel carbon (racorduri de 1/2 până la 12 inch, în funcție de model), fără piese mobile; presiunile, eficiența și certificările se confirmă pe model, din fișa tehnică. Aplicații: protecția turbinelor cu abur, a schimbătoarelor de căldură și a supraîncălzitoarelor împotriva condensului antrenat și a loviturilor de berbec.`
       },
       {
-        name: 'Armstrong TD52L Oală Condens Termodinamică',
-        description: `Oală condens termodinamic ultra-compactă pentru presiuni medii și înalte. Principiu funcționare: condensul cald trece prin disc metalic, vaporizează parțial, presiunea vaporilor închide discul până când condensul se răcește și ciclul reincepe. Gamă presiune: 0.5-40 bar ΔP, temperatură max 370°C. Conexiune: thread NPT 1/2"-1" sau socket weld. Corp din inox 316L, disc inox 17-4PH întărit, garnitură grafit flexibil. Capacitate: 200-4,500 kg/h la ΔP=1 bar (modelul TD52L: 1,800 kg/h). Dimensiuni ultra-compacte: 100x80x120mm, greutate 1.2kg - ideal pentru spații înguste. Fără piese mobile (doar discul care levitează), durată viață >10 ani fără service. Consum energie: ZERO (acționat doar de ΔP vapor). Certificare: PED categoria I-II, ASME. Aplicații: trasat conducte (heat tracing), schimbătoare mici, linii instrumentație, drenaj punctual.`
+        name: 'Oală de condens cu disc controlat (seria CD)',
+        description: `Oală condens termodinamic ultra-compactă pentru presiuni medii și înalte. Principiu funcționare: condensul cald trece prin disc metalic, vaporizează parțial, presiunea vaporilor închide discul până când condensul se răcește și ciclul reincepe. Seria CD (disc controlat) include, de exemplu, modelele CD-3300 și CD-4080; presiunea, capacitatea, dimensiunile și certificările se confirmă pe model, din fișa tehnică a producătorului. Aplicații: trasat conducte (heat tracing), schimbătoare mici, linii instrumentație, drenaj punctual.`
       },
     ],
     certifications: [
@@ -761,20 +761,20 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       'cETLus (Canadian + US electrical safety pentru pompe)',
       'ISO 9001:2015 (Sistem management calitate)',
       'ISO 14001:2015 (Management ambiental)',
-      'AHRI Standard 1130 (Air-Conditioning, Heating, Refrigeration Institute pentru pompe)',
-      'NSF/ANSI 61 (Drinking Water System Components pentru pompe apă potabilă)',
+      'Certificările exacte depind de produs; le confirmăm pe cod, din documentația Armstrong',
+      'Marcajul CE - conformitate pentru piața europeană, în funcție de produs',
     ],
     industries: [
       'Textile (calandre, uscătoare, vopsire)',
-      'Pulp & Paper (cilindri uscătoare Yankee, digestoare)',
-      'Pharmaceutical (autoclave sterilizare, clean steam generatoare)',
-      'Food Processing (cooking, pasteurizare, sterilizare)',
-      'Chemical (reactoare încălzite cu abur, distilare)',
-      'Oil & Gas (heat exchangers, tank heating, heat tracing)',
-      'Healthcare (spitale, sterilizare instrumente, HVAC)',
-      'Commercial Buildings (încălzire clădiri, mall-uri, hoteluri)',
-      'District Heating (centrale termice urbane)',
-      'Power Generation (turbine abur, condensatoare)',
+      'Industria hârtiei și celulozei (cilindri uscători Yankee, digestoare)',
+      'Industria farmaceutică (autoclave de sterilizare, generatoare de abur curat)',
+      'Procesarea alimentelor (gătire, pasteurizare, sterilizare)',
+      'Industria chimică (reactoare încălzite cu abur, distilare)',
+      'Petrol și gaze (schimbătoare de căldură, încălzirea rezervoarelor, trasare cu abur)',
+      'Sănătate (spitale, sterilizarea instrumentarului, climatizare)',
+      'Clădiri comerciale (încălzire, centre comerciale, hoteluri)',
+      'Termoficare (centrale termice urbane)',
+      'Producție de energie (turbine cu abur, condensatoare)',
     ],
     infinitrade: `La Infinitrade nu dispunem de date proprii despre stocul permanent al componentelor Armstrong și aducem oalele de condens și echipamentele conexe la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere standard putem confirma uneori 24–72 h din stoc, iar pentru separatoare mari sau configurații de presiune înaltă termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un termen fix fără o confirmare prealabilă din partea furnizorului. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, presiunea și temperatura de lucru, precum și capacitatea de evacuare condens necesară — vă răspundem cu disponibilitatea și termenul real confirmate.`,
     limitation: `Nu efectuăm noi service în perioada de garanție a producătorului pentru oalele de condens Armstrong - acesta rămâne responsabilitatea rețelei Armstrong International.`,
@@ -838,7 +838,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "code": "4200",
-        "description": "Pompa electrică de condensat pentru retur spre cazăn"
+        "description": "Pompă de condensat pentru retur spre cazan"
       },
       {
         "code": "PT-300",
@@ -864,7 +864,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "q": "Ce documente trimit pentru o ofertă pentru echipamente Armstrong?",
-        "a": "Pentru o ofertă completă este nevoie de codul sau seria de pe eticheta echipamentului existent, presiunea și temperatura de lucru, debitul de condens sau abur și diametrul racordurilor. Dacă înlocuiți un model montat deja, o fotografie a plăcuței tehnice accelerează identificarea variantei corecte de înlocuire, inclusiv pentru accesorii precum garnituri sau seturi de mențenanta."
+        "a": "Pentru o ofertă completă este nevoie de codul sau seria de pe eticheta echipamentului existent, presiunea și temperatura de lucru, debitul de condens sau abur și diametrul racordurilor. Dacă înlocuiți un model montat deja, o fotografie a plăcuței tehnice accelerează identificarea variantei corecte de înlocuire, inclusiv pentru accesorii precum garnituri sau seturi de mentenanță."
       },
       {
         "q": "Livrați echipamente Armstrong în România?",
@@ -876,8 +876,8 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am corectat anul înființării și sediul Armstrong, conform surselor citate; am corectat identificarea producătorului: Armstrong International.' },
     ],
   },

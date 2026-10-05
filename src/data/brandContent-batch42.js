@@ -352,14 +352,14 @@ Pentru fabricile din România cu echipamente rotative solicitate — reductoare,
   vertiv: {
     name: "Vertiv",
     founded: 2016,
-    headquarters: "Westerville, Ohio, SUA",
-    overview: `Vertiv e un producător american de infrastructură critică de alimentare și răcire, cu sediul la Westerville, Ohio; brandul a apărut în 2016 din fosta divizie Emerson Network Power, cu rădăcini care urcă până la Capitol Refrigeration Industries din 1946. Gama acoperă sisteme UPS, stocare de energie cu baterii (BESS), sisteme de alimentare în curent continuu, distribuția puterii, comutatoare de transfer static și echipamente de comutație (switchgear). Pentru clienții industriali din România putem oferta unități UPS și componente de distribuție a puterii din gama producătorului.
+    headquarters: "Columbus, Ohio, SUA",
+    overview: `Vertiv e un producător american de infrastructură critică de alimentare și răcire, cu sediul la Columbus, Ohio; brandul a apărut în 2016 din fosta divizie Emerson Network Power. Gama acoperă sisteme UPS, stocare de energie cu baterii (BESS), sisteme de alimentare în curent continuu, distribuția puterii, comutatoare de transfer static și echipamente de comutație (switchgear). Pentru clienții industriali din România putem oferta unități UPS și componente de distribuție a puterii din gama producătorului.
 
-Ce diferențiază Vertiv de un concurent precum Eaton pe segmentul industrial e seria PowerUPS 6000 Industrial, gândită specific pentru medii dure, nu pentru centre de date: acoperă puteri de 6-200 kVA la 400V, funcționează la temperaturi de până la 50°C, are grad de protecție IP42 și tolerează fluctuații de tensiune de intrare de la -40% la +25% — mult peste ce acceptă un UPS standard de birou. Eficiența ajunge la 97% în modul de dublă conversie și 99% în modul ECO, iar unitatea e certificată conform standardelor feroviare EN 50121 și EN 50171 pentru sisteme de siguranță.
+Pe segmentul industrial, Vertiv oferă seria PowerUPS 6000 Industrial, gândită pentru medii industriale, nu pentru centre de date: acoperă puteri de 6-200 kVA la 400V, funcționează la temperaturi de până la 50°C, are grad de protecție IP42 și tolerează fluctuații de tensiune de intrare de la -40% la +25%. Eficiența ajunge la 97% în modul de dublă conversie și 99% în modul ECO, iar unitatea este certificată conform standardelor europene EN 50121 (compatibilitate electromagnetică, aplicații feroviare) și EN 50171 (sisteme centrale de alimentare de siguranță).
 
 Pentru fabricile din România cu automatizare industrială — PLC-uri, SCADA, linii de producție continuă — un UPS de acest tip protejează exact punctele critice unde o cădere de tensiune de câteva secunde ar opri întregul flux, nu doar echipamentele de birou.`,
     whyChoose: [
-      "Serie UPS dedicată mediului industrial (PowerUPS 6000 Industrial), nu adaptată dintr-un model de centru de date",
+      "Serie UPS destinată mediului industrial (PowerUPS 6000 Industrial)",
       "Toleranță la tensiune de intrare de la -40% la +25%, utilă pe rețele industriale cu fluctuații mari",
       "Temperatură de funcționare de până la 50°C și protecție IP42, potrivite pentru hale fără climatizare strictă",
       "Eficiență de până la 99% în modul ECO, ceea ce reduce pierderile de energie la funcționare continuă",
@@ -379,7 +379,7 @@ Pentru fabricile din România cu automatizare industrială — PLC-uri, SCADA, l
       "Transport — sisteme certificate pentru medii feroviare (EN 50121)"
     ],
     certifications: ["EN 50121 — compatibilitate electromagnetică pentru aplicații feroviare", "EN 50171 — sisteme centrale de alimentare de siguranță"],
-    infinitrade: `Aducem echipamente Vertiv la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare — nu păstrăm stoc propriu de UPS-uri industriale și nu promitem o cantitate disponibilă imediat. Pentru o ofertă corectă avem nevoie de puterea necesară în kVA, tensiunea de rețea, timpul de autonomie dorit pe baterie și condițiile de mediu din hală (temperatură, praf, umiditate). Parametrii tehnici din acest text provin din surse publice ale producătorului, verificate în această sesiune; pentru configurația exactă de baterii și autonomie recomandăm o discuție tehnică înainte de comandă, pentru că dimensionarea depinde direct de sarcina reală protejată.`,
+    infinitrade: `Aducem echipamente Vertiv la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare — nu păstrăm stoc propriu de UPS-uri industriale și nu promitem o cantitate disponibilă imediat. Pentru o ofertă corectă avem nevoie de puterea necesară în kVA, tensiunea de rețea, timpul de autonomie dorit pe baterie și condițiile de mediu din hală (temperatură, praf, umiditate). Parametrii tehnici din acest text provin din surse publice ale producătorului; pentru configurația exactă de baterii și autonomie recomandăm o discuție tehnică înainte de comandă, pentru că dimensionarea depinde direct de sarcina reală protejată.`,
     limitation: "Nu putem confirma disponibilitate permanentă din stoc pentru o putere anume de UPS și nu oferim service în garanția producătorului pentru unități instalate deja de alt furnizor.",
     productCodes: [
       {
@@ -438,7 +438,7 @@ Pentru fabricile din România cu automatizare industrială — PLC-uri, SCADA, l
     faq: [
       {
         "q": "Ce diferență este între UPS-urile Vertiv Liebert APM și Liebert APM2?",
-        "a": "Liebert APM este UPS-ul modular de bază, acoperind 30 până la 600 kW, în timp ce Liebert APM2 este generația ulterioară, dezvoltată pentru rețele la 400V în același interval de putere, cu îmbunătățiri de eficiență și densitate. Liebert APM Plus adaugă tehnologie mai nouă pentru instalații de până la 500 kW, în funcție de configurația aleasă de client."
+        "a": "Liebert APM este UPS-ul modular de bază, acoperind 30 până la 600 kW, în timp ce Liebert APM2 este generația ulterioară, dezvoltată pentru rețele la 400V în același interval de putere. Liebert APM Plus adaugă tehnologie mai nouă pentru instalații de până la 500 kW, în funcție de configurația aleasă de client."
       },
       {
         "q": "Ce este UPS-ul Liebert Trinergy Cube din gama Vertiv?",
@@ -459,8 +459,8 @@ Pentru fabricile din România cu automatizare industrială — PLC-uri, SCADA, l
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Vertiv Liebert PSI5 UPS – pagină produs","url":"https://www.vertiv.com/en-us/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-psi5-800---5000va/","publisher":"Vertiv","accessed":"2026-09-26"},
       { title: "Vertiv introduces industrial-grade UPS designed for commercial and industrial environments", url: "https://www.vertiv.com/en-emea/about/news-and-insights/news-releases/2026/vertiv-introduces-industrial-grade-ups-designed-for-commercial-and-industrial-environments/", publisher: "Vertiv Holdings Co.", accessed: "2026-09-22" },
@@ -976,14 +976,14 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
     headquarters: "Fürth, Germania",
     overview: `Uvex e un producător german de echipament individual de protecție a muncii, fondat în 1926 și cu sediul central la Fürth, în nordul Bavariei. Gama acoperă protecție respiratorie cu familia silv-Air în clasele FFP1, FFP2 și FFP3, mănuși rezistente la tăiere din familia phynomic, încălțăminte de protecție precum modelul "1 x craft" și cizme termoizolante S3 din seria "3 asphaltpro", plus căști de protecție cu sistem integrat de susținere a ochelarilor (IES) și variante cu tehnologie MIPS pentru impact lateral. Pentru clienții din România putem oferta echipament din aceste categorii pentru dotarea personalului din producție.
 
-Grupul uvex se compară pe segmentul de protecție a muncii cu producători precum MSA Safety, dar diferența notabilă e portofoliul extins prin mărci deținute în grup — HexArmor, Alpina și Heckel — care completează gama proprie cu specializări pe mănuși de protecție extremă, respectiv încălțăminte tehnică. Producția de mănuși, de exemplu, are o unitate dedicată la Lüneburg, iar toate produsele respectă normele EN aplicabile fiecărei categorii, cu declarații de conformitate CE.
+Pe segmentul protecției muncii, grupul uvex include mărcile uvex safety, laservision, Heckel și HexArmor (mănuși de protecție), iar Alpina aparține segmentului de sport. Producția de mănuși, de exemplu, are o unitate dedicată la Lüneburg, iar toate produsele respectă normele EN aplicabile fiecărei categorii, cu declarații de conformitate CE.
 
 Pentru fabricile din România din automotive, metalurgie, construcții sau chimie, gama uvex acoperă dotarea completă a unui operator — de la protecție respiratorie și oculară până la mănuși și încălțăminte —, utilă atunci când vrei un singur furnizor pentru mai multe categorii de echipament individual de protecție.`,
     whyChoose: [
       "Gamă completă de echipament individual de protecție, de la protecție respiratorie la încălțăminte tehnică",
       "Familia silv-Air acoperă toate cele trei clase de protecție respiratorie FFP1, FFP2 și FFP3",
       "Tehnologie MIPS disponibilă pe unele căști, pentru reducerea forței de impact lateral la cap",
-      "Mărci suplimentare în grup (HexArmor, Alpina, Heckel) pentru specializări pe mănuși extreme și încălțăminte tehnică",
+      "Mărci suplimentare în grup, printre care HexArmor (mănuși de protecție), Heckel și laservision pentru protecția muncii",
       "Producție proprie de mănuși la Lüneburg, Germania, cu control direct al calității"
     ],
     keyProducts: [
@@ -999,7 +999,7 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
       "Silvicultură — echipament de protecție pentru lucrul cu unelte tăioase",
       "Industria chimică — mănuși și protecție respiratorie rezistente chimic"
     ],
-    infinitrade: `Aducem echipament uvex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru cantități mai mari decât stocul curent al distribuitorilor locali. Pentru o ofertă corectă avem nevoie de mărimile necesare, clasele de protecție cerute (de exemplu FFP2 sau S3) și numărul de bucăți per categorie de echipament. Nu depăstrăm stoc propriu pentru toată gama și nu promitem disponibilitate permanentă pe fiecare mărime — verificăm punctual înainte de confirmare. Datele despre produse provin din surse publice ale producătorului, accesate în această sesiune de lucru.`,
+    infinitrade: `Aducem echipament uvex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru cantități mai mari decât stocul curent al distribuitorilor locali. Pentru o ofertă corectă avem nevoie de mărimile necesare, clasele de protecție cerute (de exemplu FFP2 sau S3) și numărul de bucăți per categorie de echipament. Nu păstrăm stoc propriu pentru toată gama și nu promitem disponibilitate permanentă pe fiecare mărime — verificăm punctual înainte de confirmare. Datele despre produse provin din surse publice ale producătorului.`,
     limitation: "Nu putem confirma toate certificările specifice fiecărui produs fără fișa tehnică individuală și nu oferim personalizare cu însemne proprii ca serviciu direct.",
     productCodes: [
       {
@@ -1036,11 +1036,11 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
       },
       {
         "code": "uvex i-works",
-        "description": "Configurator online pentru selecția ochelarilor de protecție potriviți postului de lucru"
+        "description": "Instrumente digitale de servicii oferite de uvex, prezentate pe site-ul producătorului"
       },
       {
         "code": "uvex UV-400",
-        "description": "Filtru de protecție împotriva radiației ultraviolete pentru lentilele de protecție"
+        "description": "Marcaj de protecție UV al lentilelor, nu o serie de produs; îl confirmăm din fișa tehnică a modelului"
       }
     ],
     faq: [
@@ -1050,7 +1050,7 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
       },
       {
         "q": "Livrați echipamente de protecție uvex în România?",
-        "a": "Da, aducem la comandă ochelari, mănuși și încălțăminte de protecție din gama uvex, pornind de la codul sau denumirea exactă a produsului. Nu ținem această gamă pe raft, iar orientarea de disponibilitate publicată de producător este de aproximativ două până la patru săptămâni. Recomandăm precizarea mărimii și a standardului de protecție cerut de fișa postului."
+        "a": "Da, aducem la comandă ochelari, mănuși și încălțăminte de protecție din gama uvex, pornind de la codul sau denumirea exactă a produsului. Nu ținem această gamă pe raft, iar termenul orientativ este de 1–4 săptămâni, în funcție de produs și de mărime. Recomandăm precizarea mărimii și a standardului de protecție cerut de fișa postului."
       },
       {
         "q": "Ce trebuie să precizez pentru o comandă de mănuși uvex phynomic?",
@@ -1063,8 +1063,8 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"uvex safety România","url":"https://www.uvex-safety.ro/ro/","publisher":"uvex","accessed":"2026-09-25"},
       { title: "Uvex Safety România — pagina principală", url: "https://www.uvex-safety.ro/ro/", publisher: "Uvex Arbeitsschutz GmbH", accessed: "2026-09-22" },
@@ -1422,15 +1422,15 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
     founded: 1963,
     overview: `ebm-papst e un producător german de ventilatoare axiale și centrifugale industriale, fondat în 1963 și organizat astăzi în jurul unui catalog de aproximativ 20.000 de produse diferite. Gama acoperă ventilatoare axiale cu adâncime redusă de montaj, ventilatoare centrifugale disponibile atât în tehnologie AC clasică, cât și EC (curent continuu comutat electronic), suflante tangențiale pentru instalații cu spațiu limitat și ventilatoare compacte dedicate răcirii echipamentelor electronice. Pentru instalațiile industriale din România putem oferta ventilatoare din aceste categorii pentru răcire, ventilație sau climatizare de proces.
 
-Diferența față de un concurent precum Ziehl-Abegg vine din avansul pe motoarele EC: aceste ventilatoare consumă considerabil mai puțină energie electrică decât variantele AC echivalente și pot fi construite mai compact la aceeași putere livrată la arbore, un avantaj direct în instalațiile unde spațiul de montaj sau consumul energetic pe termen lung contează. Compania completează gama de ventilatoare cu suflante și electrovalve pentru gaz, electronică de control și drive-uri de tip invertor, plus platforma digitală NEXAIRA pentru monitorizarea echipamentelor.
+Ventilatoarele cu motor EC (comutat electronic) permit reglarea turației și pot consuma mai puțină energie electrică decât variantele AC, în funcție de aplicație și de punctul de funcționare, un avantaj în instalațiile unde spațiul de montaj sau consumul energetic pe termen lung contează. Compania completează gama de ventilatoare cu suflante și electrovalve pentru gaz, electronică de control și drive-uri de tip invertor, plus platforma digitală NEXAIRA pentru monitorizarea echipamentelor.
 
-Pentru fabricile din România cu tablouri electrice, dulapuri de automatizare sau hale care au nevoie de ventilație forțată, gama ebm-papst se potrivește la retehnologizarea sistemelor de răcire vechi, mai ales acolo unde trecerea de la un ventilator AC la unul EC poate reduce consumul de energie fără să schimbi restul instalației.`,
+Pentru fabricile din România cu tablouri electrice, dulapuri de automatizare sau hale care au nevoie de ventilație forțată, gama ebm-papst se potrivește la retehnologizarea sistemelor de răcire vechi, mai ales acolo unde trecerea de la un ventilator AC la unul EC poate reduce consumul de energie fără a modifica restul instalației.`,
     whyChoose: [
       "Tehnologie EC (curent continuu comutat electronic) pe o parte semnificativă din gama de ventilatoare, cu consum de energie redus față de AC",
       "Catalog de aproximativ 20.000 de produse, acoperind ventilatoare axiale, centrifugale, tangențiale și compacte",
       "Ventilatoare compacte dedicate special răcirii echipamentelor electronice și dulapurilor de automatizare",
       "Platformă digitală proprie NEXAIRA pentru monitorizarea la distanță a funcționării ventilatoarelor",
-      "Peste șase decenii de experiență specializată exclusiv pe tehnologia de ventilație industrială"
+      "Peste șase decenii de experiență (fondată în 1963) în ventilatoare și motoare"
     ],
     keyProducts: [
       { name: "Ventilatoare axiale cu adâncime redusă de montaj", description: "Ventilatoare axiale proiectate pentru instalare în spații cu adâncime limitată, cu niveluri de zgomot reduse și eficiență ridicată la debitul de aer livrat. Folosite la răcirea echipamentelor, ventilația dulapurilor electrice și circulația aerului în instalații industriale. Clientul trebuie să ne spună debitul de aer necesar, spațiul de montaj disponibil și nivelul maxim de zgomot acceptat."},
@@ -1445,16 +1445,16 @@ Pentru fabricile din România cu tablouri electrice, dulapuri de automatizare sa
       "Electronică — răcire directă a componentelor și surselor de alimentare",
       "Instalații cu spațiu de montaj limitat — suflante tangențiale pentru uscare și climatizare"
     ],
-    infinitrade: `Aducem ventilatoare ebm-papst la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de debitul de aer necesar, presiunea statică a sistemului, spațiul de montaj disponibil și dacă preferați tehnologie AC sau EC. Informația a fost verificată pe site-ul producătorului, dar sursa e limitată în privința parametrilor tehnici exacți per model — pentru un debit sau o presiune precisă recomandăm confirmarea directă pe fișa tehnică a modelului ales înainte de comandă. Nu păstrăm stoc propriu și nu promitem o cantitate disponibilă imediat pentru fiecare dimensiune din gamă.`,
-    limitation: "Nu putem confirma orașul exact al sediului central sau certificările specifice ale companiei, pentru că nu au fost vizibile pe paginile accesate în această sesiune.",
+    infinitrade: `Aducem ventilatoare ebm-papst la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de debitul de aer necesar, presiunea statică a sistemului, spațiul de montaj disponibil și dacă preferați tehnologie AC sau EC. Pentru un debit sau o presiune precisă recomandăm confirmarea pe fișa tehnică a modelului ales înainte de comandă. Nu păstrăm stoc propriu și nu promitem o cantitate disponibilă imediat pentru fiecare dimensiune din gamă.`,
+    limitation: "Nu confirmăm certificările specifice ale companiei fără documentația producătorului; sediul central este la Mulfingen, Germania.",
     productCodes: [
       {
         "code": "RV45",
-        "description": "Ventilator compact axial pentru răcirea echipamentelor electronice"
+        "description": "Ventilator compact centrifugal DC (RV45)"
       },
       {
         "code": "RVE45",
-        "description": "Ventilator compact axial cu electronică de control integrată"
+        "description": "Ventilator compact centrifugal RVE45; detaliile se confirmă din fișa producătorului"
       },
       {
         "code": "Radipac",
@@ -1462,27 +1462,27 @@ Pentru fabricile din România cu tablouri electrice, dulapuri de automatizare sa
       },
       {
         "code": "Radiflow",
-        "description": "Ventilator centrifugal de înaltă presiune pentru aplicații de proces"
+        "description": "Ventilator centrifugal cu rotor radial-diagonal, pentru contrapresiuni de 400–500 Pa (unități de ventilație, CRAH)"
       },
       {
         "code": "IQX",
-        "description": "Motor cu rotor exterior și electronică de control integrată"
+        "description": "Motor pentru refrigerare comercială (supermarketuri), IP65, compatibil cu agenți frigorifici inflamabili"
       },
       {
         "code": "NexAiRA Fit",
-        "description": "Modul de ventilație compact pentru sisteme de climatizare"
+        "description": "Soluție de modernizare (retrofit) cu ventilatoare și componente software inteligente"
       },
       {
         "code": "NexAiRA Core",
-        "description": "Platformă de ventilație scalabilă pentru unități de tratare a aerului"
+        "description": "Platformă digitală de servicii pentru ventilație, încălzire și răcire"
       },
       {
         "code": "NexAiRA Systems",
-        "description": "Sistem complet de ventilație bazat pe platforma NexAiRA"
+        "description": "Optimizare cu inteligență artificială a sistemelor de răcire pentru centre de date"
       },
       {
         "code": "Companamic",
-        "description": "Sistem de ventilație modular pentru aplicații comerciale"
+        "description": "Compresoare turbo de mare viteză pentru refrigerare și pompe de căldură, cu lagăre cu gaz fără ulei"
       },
       {
         "code": "Axial Compact Fans",
@@ -1512,11 +1512,11 @@ Pentru fabricile din România cu tablouri electrice, dulapuri de automatizare sa
     faq: [
       {
         "q": "Ce diferență este între un ventilator axial și unul centrifugal la ebm-papst?",
-        "a": "Un ventilator axial, precum familia RV45, deplasează aerul paralel cu axul rotorului și este potrivit pentru răcirea directă a echipamentelor, în timp ce un ventilator centrifugal precum Radipac schimbă direcția fluxului de aer la 90 de grade și dezvoltă presiuni mai mari, fiind folosit în unități de tratare a aerului."
+        "a": "Un ventilator axial deplasează aerul paralel cu axul rotorului și este potrivit pentru răcirea directă a echipamentelor, în timp ce un ventilator centrifugal, precum Radipac sau RV45, schimbă direcția fluxului de aer la 90 de grade și dezvoltă presiuni mai mari, fiind folosit în unități de tratare a aerului."
       },
       {
         "q": "Ce este platforma NexAiRA de la ebm-papst?",
-        "a": "NexAiRA este o platformă de ventilație modulară ebm-papst, disponibilă în variantele Fit, Core și Systems, gândită pentru a acoperi de la module compacte până la sisteme complete de tratare a aerului. Configurația exactă depinde de debitul de aer necesar și de spațiul de montaj disponibil în unitatea de climatizare."
+        "a": "NexAiRA este ecosistemul digital ebm-papst pentru sisteme de aer, încălzire și răcire: NEXAIRA.Core (servicii digitale), NEXAIRA.Fit (modernizare cu ventilatoare și software) și NEXAIRA.Systems (optimizare cu inteligență artificială a răcirii în centre de date). Configurația exactă depinde de debitul de aer necesar și de spațiul de montaj disponibil în unitatea de climatizare."
       },
       {
         "q": "Ce parametri tehnici ajută la pregătirea unei oferte pentru ventilatoare ebm-papst?",
@@ -1528,13 +1528,13 @@ Pentru fabricile din România cu tablouri electrice, dulapuri de automatizare sa
       },
       {
         "q": "Ce rol are un motor EC cu rotor exterior în ventilatoarele ebm-papst?",
-        "a": "Motorul EC cu rotor exterior integrează electronica de comutare direct în carcasă, ceea ce permite reglarea turației fără variator extern și reduce pierderile electrice față de un motor asincron clasic. Această construcție se regăsește la majoritatea ventilatoarelor axiale și centrifugale din gama actuală."
+        "a": "Motorul EC cu rotor exterior integrează electronica de comutare direct în carcasă, ceea ce permite reglarea turației fără variator extern și reduce pierderile electrice față de un motor asincron clasic. Această construcție se regăsește la o parte semnificativă a ventilatoarelor din gamă."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Sitemap produse ebm-papst SUA (us.sitemap.xml)","url":"https://www.ebmpapst.com/us.sitemap.xml","publisher":"ebm-papst","accessed":"2026-09-26"},
       { title: "ebm-papst — pagina principală", url: "https://www.ebmpapst.com", publisher: "ebm-papst Mulfingen GmbH & Co. KG", accessed: "2026-09-22" },

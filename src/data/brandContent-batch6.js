@@ -286,16 +286,16 @@ Filtrele Boll & Kirch sunt folosite în oil&gas, chimie, marine și metalurgie p
 
   'bosch-professional': {
     founded: 1886,
-    headquarters: 'Stuttgart, Germania',
-    employees: '400000+ (divizia Tools)',
+    headquarters: 'Gerlingen, Germania',
+    employees: '412.800 (grupul Bosch, la 31 decembrie 2025)',
     overview: `Bosch Professional este linia de scule electrice profesionale a Bosch, cu peste 135 de ani de istorie a mărcii Bosch - de la prima mașină de găurit electrică din 1932 până la sistemele moderne 18V brushless de astăzi. Producătorul livrează scule către meseriași, contractori și industrie la nivel global. Filosofia liniei: durabilitate ridicată, ergonomie și productivitate - sculele sunt gândite pentru utilizare zilnică prelungită pe șantiere și în fabrici.
 
-Gama Bosch Professional acoperă tot ce înseamnă scule electrice profesionale: bormasini cu percuție și rotopercutoare (GBH series), polizoare unghiulare (GWS), șurubelnițe cu impact (GDX), ferăstraie circulare și pendulare (GKS/GST), niveluri laser rotative, aspiratoare industriale. Tehnologia brushless ProCORE18V oferă, conform producătorului, mai multă autonomie decât generația anterioară - o baterie 8.0Ah ProCORE poate alimenta un rotopercutor GBH 18V-26 pentru 780 găuri ∅10mm în beton fără reîncărcare.
+Gama Bosch Professional acoperă tot ce înseamnă scule electrice profesionale: bormasini cu percuție și rotopercutoare (GBH series), polizoare unghiulare (GWS), șurubelnițe cu impact (GDX), ferăstraie circulare și pendulare (GKS/GST), niveluri laser rotative, aspiratoare industriale. Tehnologia brushless ProCORE18V oferă, conform producătorului, mai multă autonomie decât generația anterioară - autonomia depinde de acumulator și de aplicație.
 
-Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de producător - șurubelnițele GSR 18V trec testul de cădere de la 3 metri pe beton (de 100 ori consecutiv, conform testelor producătorului), polizoarele GWS funcționează la -20°C în condiții de construcții iarna, iar laserele GLL rezistă umezelii 95% fără drift de precizie. Garanția de 3 ani profesional și rețeaua globală de service sunt printre argumentele care disting gama profesională de cea consumer.`,
+Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de producător - polizoarele GWS 18V includ funcții de protecție precum Drop Control, Fast Brake și KickBack Control, conform producătorului. Garanția de 3 ani profesional și rețeaua globală de service sunt printre argumentele care disting gama profesională de cea consumer.`,
     whyChoose: [
-      'ProCORE18V - Baterii 21700 cells, 8.0Ah, coolpack tech, 2000 cicluri încărcare',
-      'Brushless motors - mai eficienți decât motoarele cu perii, fără cărbuni uzabili, MTBF >5000h',
+      'ProCORE18V - Baterii 21700 cells, 8.0Ah',
+      'Brushless motors - mai eficienți decât motoarele cu perii, fără cărbuni uzabili',
       'Anti-vibration - Active Vibration Control reduce expunerea la vibrații (HAVS protection), conform producătorului',
       'Dust extraction - Sisteme integrale aspirare conform normelor LEV/OEL',
       'Conectivitate - Toolbox app Bluetooth, asset tracking, predictive maintenance',
@@ -304,11 +304,11 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
     keyProducts: [
       {
         name: 'GBH 18V-26 Brushless Rotary Hammer',
-        description: `Rotopercutorul GBH 18V-26 combină puterea unui 26mm SDS-plus cu mobilitatea 18V cordless - perforează beton armat ∅24mm la adâncime 250mm fără efort. Motor brushless EC de 720W echivalent (la 18V!) generează energie impact 2.6 Jouli, suficient pentru ancore chimice și treceri instalații prin stâlpi. Trei moduri funcționare: rotopercutie (drilling), daltare pur (chiseling), poziționare Vario-Lock la 12 unghiuri fixe. Sistem anti-vibrație activ cu contragreutate reduce expunerea la 11 m/s² (sub limita 12 m/s² normă EU 2002/44/EC). Mandrina quick-change SDS-plus cu auto-lock, LED ring frontal pentru iluminare orificiu, soft-grip anti-alunecare. Autonomie cu ProCORE18V 8.0Ah: 780 găuri ∅10x100mm în C30/37 beton sau 160 găuri ∅20x200mm pentru fixări grele. Compatibil cu sistem aspirare GDE 18V-16 pentru găurire fără praf conform normă RCS (Respirable Crystalline Silica). Greutate doar 2.9 kg cu baterie - lucru vertical prelungit fără oboseală. Include în L-BOXX cu 2 baterii + încărcător rapid GAL 18V-40.`
+        description: `Rotopercutorul GBH 18V-26 combină puterea unui 26mm SDS-plus cu mobilitatea 18V cordless - diametrul de găurire în beton este de 4–26 mm. Motor brushless; energia de impact este de 2,6 J, suficient pentru ancore chimice și treceri instalații prin stâlpi. Trei moduri funcționare: rotopercutie (drilling), daltare pur (chiseling), poziționare Vario-Lock la 12 unghiuri fixe. Valoarea de emisie a vibrațiilor la găurire cu percuție în beton este de 15,2 m/s² (±1,5 m/s²), conform fișei producătorului. Mandrina quick-change SDS-plus cu auto-lock, LED ring frontal pentru iluminare orificiu, soft-grip anti-alunecare. Autonomia depinde de acumulator și de aplicație. Compatibil cu sistem aspirare GDE 18V-16 pentru găurire fără praf conform normă RCS (Respirable Crystalline Silica). Greutate 2,9 kg fără baterie. Se livrează în cutie de carton sau în L-BOXX 136, cu mâner auxiliar, cârpă și limitator de adâncime; bateriile și încărcătorul se confirmă pe cod.`
       },
       {
         name: 'GWS 18V-125 SC Brushless Angle Grinder',
-        description: `Polizorul unghiular GWS 18V-125 SC este, conform producătorului, unul dintre primele modele cordless cu conectivitate Bluetooth și module interschimbabile - adaptezi unealta la aplicație în secunde. Motor brushless de 1400W echivalent învârte discul 125mm la 10.000 rpm fără load, cuplu 29 Nm suficient pentru tăiere țeavă oțel ∅60mm sau șlefuire suduri. Tehnologie KickBack Control cu accelerometru detectează blocajul discului în 0.1 secunde și oprește instant motorul - previne accidentele severe (poluorul smuls din mâini la 10.000 rpm). Modulele: protection module cu capac anti-scântei pentru tăiere, dead-man-switch module pentru lucru la înălțime (eliberare buton = stop instant), vibration module cu izolare elastică. Switch-ul cu paletă mare permite controlul cu mănuși groase iarna, iar soft-start-ul Electronic elimină șocul inițial. Conectivitate Toolbox via Bluetooth: setezi viteza maximă (6000-10000 rpm), restart protection (nu pornește accidental la reconectare baterie), maintenance counter (urmărești orele lucru și forțezi service preventiv). Cu ProCORE18V 8.0Ah: 130 tăieri în țeavă oțel ∅25mm sau 45 minute șlefuire continuă.`
+        description: `Polizorul unghiular GWS 18V-125 SC are, conform producătorului, funcții KickBack Control, soft start și Vibration Control, iar conectivitatea Bluetooth se adaugă printr-un modul. Discul are 125 mm; turația și puterea depind de model și se confirmă pe cod. Tehnologie KickBack Control cu accelerometru detectează blocajul discului în 0.1 secunde și oprește instant motorul - previne accidentele severe (polizorul smuls din mâini). Switch-ul cu paletă mare permite controlul cu mănuși groase iarna, iar soft-start-ul Electronic elimină șocul inițial. Conectivitate Toolbox via Bluetooth: setezi nivelul de viteză (până la 6 trepte, cu modulul Bluetooth), restart protection (nu pornește accidental la reconectare baterie), maintenance counter (urmărești orele lucru și forțezi service preventiv).`
       },
       {
         name: 'GLL 3-80 CG Professional Line Laser',
@@ -316,7 +316,7 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
       },
       {
         name: 'GAS 18V-10 L Wet/Dry Vacuum',
-        description: `Aspiratorul profesional GAS 18V-10 L combină putere (18.5 kPa negative pressure, 53 l/s airflow) cu mobilitate cordless pentru curățenie șantier fără prize. Container 10 litri inox cu golire rapidă front-mounted, filtrare multi-stage: pre-separator cyclonic (85% particule >5μm), filtru plat PES clasa M lavabil (99% eficiență), opțional HEPA filter H14 pentru praf fin (azbest, silice). Motor brushless optimizat pentru aspirație continuă - funcționează fără supraîncălzire la 30 minute runtime. Două moduri: AUTO mode pornește automat când pornești flex/polizor/ferăstrău conectat (via Bluetooth!), MANUAL pentru curățare clasică. Accesorii: furtun 2.5m antistatic cu diametru 27mm (compatibil GEX, GSS șlefuitoare), set duze (fugi, tapițerie, perii), adaptor pentru saci hârtie (hygienă ridicată pharma/food). Autonomie ProCORE18V 8.0Ah: 32 minute aspirație continuă max power sau 60 minute eco mode. Greutate 6.1 kg fără baterie, roți mari 100mm trec praguri și cabluri fără blocare. Certificare extracție praf clasa M conform EN 60335-2-69 și IEC 60335-2-69.`
+        description: `Aspiratorul profesional GAS 18V-10 L combină putere (depresiune maximă 11,5 kPa, adică 115 mbar, și debit maxim de aer 34 l/s) cu mobilitate cordless pentru curățenie șantier fără prize. Container de 10 litri brut (6 litri net), filtrare cu filtru plat plisat și flux de aer rotativ, cu filtru HEPA pentru extracția prafului, conform producătorului. Motor brushless optimizat pentru aspirație continuă - funcționează fără supraîncălzire la 30 minute runtime. Accesorii: furtun 2.5m antistatic cu diametru 27mm (compatibil GEX, GSS șlefuitoare), set duze (fugi, tapițerie, perii), adaptor pentru saci hârtie (hygienă ridicată pharma/food). Autonomie ProCORE18V 8.0Ah: 32 minute aspirație continuă max power sau 60 minute eco mode. Greutate 4,7 kg fără baterie, roți mari 100mm trec praguri și cabluri fără blocare. Clasa de praf L, conform producătorului.`
       }
     ],
     certifications: [
@@ -357,11 +357,11 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
       },
       {
         "code": "GBH 18V-26 D",
-        "description": "Ciocan rotopercutor cu display și prindere SDS-plus"
+        "description": "Ciocan rotopercutor SDS-plus, variantă a seriei GBH 18V-26; echiparea se confirmă pe cod"
       },
       {
         "code": "GBH 18V-26F",
-        "description": "Ciocan rotopercutor cu funcție de percuție fără impact"
+        "description": "Ciocan rotopercutor SDS-plus cu mandrină cu schimbare rapidă"
       },
       {
         "code": "GWS 18V-10",
@@ -403,11 +403,11 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
     faq: [
       {
         "q": "Ce ciocan rotopercutor Bosch Professional aleg pentru găuri în beton?",
-        "a": "Pentru găuri în beton și zidărie cu prindere SDS-plus, seria GBH 18V-26 oferă un echilibru bun între putere și greutate pe acumulator, iar varianta GBH 18V-26 D adaugă un display cu informații despre modul de lucru și uzura periilor. Alegerea între variante depinde de diametrul maxim de găurire necesar și de preferința pentru afișaj digital sau control simplu."
+        "a": "Pentru găuri în beton și zidărie cu prindere SDS-plus, seria GBH 18V-26 oferă un echilibru bun între putere și greutate pe acumulator, iar variantele cu sufix (D, F) diferă prin echipare, confirmată pe cod, din documentația Bosch. Alegerea între variante depinde de diametrul maxim de găurire necesar și de preferința pentru afișaj digital sau control simplu."
       },
       {
         "q": "Ce informații trimit pentru o ofertă pentru scule Bosch Professional?",
-        "a": "Denumirea exactă a modelului scrisă pe cutie sau pe eticheta mașinii (de exemplu GWS 18V-10 sau GSB 18V-21), plus tipul de acumulator deja folosit în flota, sunt suficiente pentru o ofertă rapidă. Menționati și dacă aveți nevoie doar de corpul mașinii sau de kit complet cu încarcător și acumulatori."
+        "a": "Denumirea exactă a modelului scrisă pe cutie sau pe eticheta mașinii (de exemplu GWS 18V-10 sau GSB 18V-21), plus tipul de acumulator deja folosit în flotă, sunt suficiente pentru o ofertă rapidă. Menționați dacă aveți nevoie doar de corpul mașinii sau de kit complet cu încărcător și acumulatori."
       },
       {
         "q": "Livrați scule Bosch Professional în România?",
@@ -415,12 +415,12 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
       },
       {
         "q": "Ce diferență este între un polizor Bosch GWS 18V-10 și unul GWS 18V-15 C?",
-        "a": "Modelul GWS 18V-10 este gândit pentru discuri de 100-115 mm și lucrari ușoare spre medii de debitare sau șlefuire. Varianta GWS 18V-15 C folosește discuri de 125 mm, are o putere mai mare și adaugă conectivitate pentru monitorizarea utilizarii, fiind potrivită pentru sarcini mai grele sau utilizare intensivă pe șantier."
+        "a": "Modelul GWS 18V-10 este gândit pentru discuri de 100-115 mm și lucrări ușoare spre medii de debitare sau șlefuire. Varianta GWS 18V-15 C folosește discuri de 125 mm, are o putere mai mare și adaugă conectivitate pentru monitorizarea utilizării, fiind potrivită pentru sarcini mai grele sau utilizare intensivă pe șantier."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'br-automation': {

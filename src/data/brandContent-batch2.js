@@ -15,30 +15,30 @@ export const brandContentBatch2 = {
 
 Gama Danfoss e largă: supape de control (presiune, temperatură, debit), invertoare pentru motoare și pompe, compresoare pentru refrigerare comercială și schimbătoare de căldură. Supapele termostatice Danfoss sunt frecvent folosite în sisteme de răcire profesionale din industria alimentară, iar invertoarele pentru instalații HVAC se folosesc frecvent în clădiri de birouri pentru reducerea costurilor de climatizare, conform documentației producătorului.
 
-Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss cerute de clienți. Pentru proiecte mari sau supape de siguranță personalizate, coordonăm direct cu fabrica din Danemarca, iar termenul depinde de complexitatea comenzii.`,
+Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss cerute de clienți. Pentru proiecte mari sau configurații speciale, termenul depinde de disponibilitatea la producător și se confirmă pe cod.`,
     whyChoose: [
       'Tehnologie orientată spre eficiență energetică, documentată de producător',
       'Tehnologie daneză precisă pentru control automat în industrie',
       'Gamă completă: de la supape simple la sisteme integrate de management energetic',
       'Durabilitate ridicată, conform specificațiilor producătorului',
-      'Aprovizionare din UE pentru produsele cele mai solicitate + comenzi directe din fabrică'
+      'Aprovizionare prin canale din UE; termenul se confirmă pe cod'
     ],
     keyProducts: [
       {
         name: 'Supape industriale (control, presiune, termostatice)',
-        description: `Gama Danfoss de supape este una dintre cele mai largi din industrie. Supapele de control modulante pentru vapori, gaze, lichide se folosesc frecvent în industria chimică și alimentară. Supapele de presiune diferențială mențin parametrii exacți în sisteme de încălzire și răcire, iar supapele termostatice pentru refrigerare (seria TUA, TUAE) sunt frecvent folosite în camere frigorifice comerciale. Toate au certificare ISO 9001 și sunt testate la presiuni și temperaturi extreme, conform producătorului. Le furnizăm cu actuatori electrici sau pneumatici, în funcție de aplicație.`
+        description: `Danfoss produce o gamă variată de supape. Supapele de control modulante pentru vapori, gaze, lichide se folosesc frecvent în industria chimică și alimentară. Supapele de presiune diferențială mențin parametrii exacți în sisteme de încălzire și răcire, iar supapele termostatice pentru refrigerare (seria TUA, TUAE) sunt frecvent folosite în camere frigorifice comerciale. Certificările, presiunea și temperatura de lucru diferă de la un model la altul și se confirmă pe cod, din documentația producătorului. Le furnizăm cu actuatori electrici sau pneumatici, în funcție de aplicație.`
       },
       {
         name: 'Invertoare și drive-uri pentru motoare electrice (VLT)',
-        description: `Seria VLT de la Danfoss este una dintre gamele de invertoare consacrate din industrie. Se folosesc frecvent pe pompe, ventilatoare, compresoare, benzi transportoare – oriunde e nevoie de control precis al vitezei motorului. Conform producătorului, un motor care merge non-stop la viteză fixă poate consuma semnificativ mai puțin cu un invertor VLT cu control adaptat la sarcină. În plus, pornirile line elimină șocurile mecanice și pot prelungi viața motorului.`
+        description: `Seria VLT este gama de convertizoare de frecvență Danfoss. Se folosesc frecvent pe pompe, ventilatoare, compresoare, benzi transportoare – oriunde e nevoie de control precis al vitezei motorului. Conform producătorului, un motor care merge non-stop la viteză fixă poate consuma semnificativ mai puțin cu un invertor VLT cu control adaptat la sarcină. În plus, pornirile line elimină șocurile mecanice și pot prelungi viața motorului.`
       },
       {
         name: 'Compresoare pentru refrigerare comercială',
-        description: `Compresoarele scroll și piston Danfoss se folosesc frecvent în magazine, restaurante și depozite frigorifice. Seria Maneurop (scroll) este recomandată pentru temperaturi medii și joase – silențioasă, cu vibrații minime și consum redus, conform producătorului. Pentru instalații mai mici (vitrine frigorifice, aparate de gheață), compresoarele ermetic sudate seria SC sunt o alegere frecventă. Durata de funcționare a compresoarelor Danfoss, cu mentenanță periodică (schimb de ulei), este de regulă îndelungată.`
+        description: `Compresoarele scroll și piston Danfoss se folosesc frecvent în magazine, restaurante și depozite frigorifice. Seria Maneurop este o gamă de compresoare cu piston (MT și MTZ pentru temperaturi ridicate și medii, NTZ pentru temperaturi joase), conform producătorului. Pentru instalații mai mici (vitrine frigorifice, aparate de gheață), compresoarele ermetic sudate seria SC sunt o alegere frecventă. Durata de funcționare a compresoarelor Danfoss, cu mentenanță periodică (schimb de ulei), este de regulă îndelungată.`
       },
       {
         name: 'Schimbătoare de căldură cu plăci',
-        description: `Schimbătoarele cu plăci brazate Danfoss (seria XB) sunt compacte, eficiente și rezistente la presiuni mari. Se folosesc frecvent în sisteme de încălzire în pardoseală, răcire cu glicol, recuperare căldură din procese industriale. Transferul termic este superior față de schimbătoarele tubulare clasice, conform producătorului – ocupă mai puțin spațiu și implică costuri de întreținere mai mici. Dimensiunile standard sunt disponibile la comandă, iar pentru aplicații speciale se comandă variante custom, cu calcul termic realizat de noi sau împreună cu inginerii producătorului, în funcție de complexitate.`
+        description: `Schimbătoarele cu plăci brazate Danfoss (seria XB) sunt compacte, eficiente și rezistente la presiuni mari. Se folosesc frecvent în sisteme de încălzire în pardoseală, răcire cu glicol, recuperare căldură din procese industriale. Transferul termic este superior față de schimbătoarele tubulare clasice, conform producătorului – ocupă mai puțin spațiu și implică costuri de întreținere mai mici. Dimensiunile standard sunt disponibile la comandă, iar pentru aplicații speciale se comandă variante custom, iar calculul termic se obține de la producător, pe baza datelor aplicației.`
       }
     ],
     certifications: [
@@ -114,7 +114,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       },
       {
         "code": "VLT Integrated Servo Drive ISD 510",
-        "description": "Servo motor integrat, varianta de putere mai mare"
+        "description": "Servo motor integrat, generația ISD 510"
       },
       {
         "code": "VLT Soft Start Controller MCD 100",
@@ -168,8 +168,8 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -645,7 +645,7 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
     employees: '~55,000',
     overview: `Parker Hannifin e unul dintre marii producători diversificați din lume în domeniul hidraulicii, pneumaticii, electromecanicii și filtrării. Fondată în 1917 de Arthur Parker în Cleveland (Ohio), a crescut organic și prin achiziții strategice până a devenit o corporație de peste 55,000 de angajați prezentă în toate sectoarele industriale majore: aerospace, automotive, construcții, agricultură, industrie, naval, oil & gas. Parker este cunoscut în industrie pentru gama largă de produse și prezența globală.
 
-Distribuim produse Parker în România – de la componente hidraulice simple (furtunuri, fitinguri, distribuitoare) până la sisteme integrate complexe (unități hidraulice complete pentru utilaje industriale, sisteme de filtrare pentru centrale electrice). Un argument recurent pentru Parker este consistența calității - conform producătorului, un cilindru Parker fabricat în SUA, Germania sau China respectă aceleași standarde globale.
+Aducem la comandă produse Parker pentru România – de la componente hidraulice simple (furtunuri, fitinguri, distribuitoare) până la sisteme integrate complexe (unități hidraulice complete pentru utilaje industriale, sisteme de filtrare pentru centrale electrice).
 
 Produsele Parker se folosesc frecvent în toate industriile: în agricultură (cilindri hidraulici pentru combine, tractoare, utilaje agricole), în construcții (sisteme hidraulice pentru excavatoare, macarale, platforme elevatoare), în industria auto (filtre hidraulice, pneumatice, componente frână), în oil & gas (furtunuri înaltă presiune, fitinguri pentru drilling), în producția industrială (sisteme pneumatice pentru automatizare, distribuitoare, cilindri). Durabilitatea componentelor hidraulice Parker, cu mentenanță periodică a garniturilor, este documentată de producător pe perioade lungi de utilizare.
 
@@ -653,26 +653,26 @@ Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentră
     whyChoose: [
       'Producător global în tehnologii de mișcare și control – 100+ ani de activitate',
       'Gamă completă: hidraulică, pneumatică, electromecanică, filtrare – totul de la un brand',
-      'Calitate globală consistentă – standarde identice în toate fabricile din lume',
-      'Disponibilitate largă – peste 13,000 de distribuitori și service centers la nivel global',
+      'Standarde de calitate declarate de producător, de confirmat din documentația fiecărui produs',
+      'Prezență globală a producătorului, prin rețea de distribuție și service',
       'Furnizăm în România prin aprovizionare din UE la produse standard + acces la gama completă Parker'
     ],
     keyProducts: [
       {
         name: 'Cilindri hidraulici (standard și custom)',
-        description: `Cilindrii Parker (seria P1, seria 2H, seria 3L, seria Mill) acoperă o gamă largă de aplicații: de la mini-cilindri de 25 mm pentru automatizări până la cilindri de mari dimensiuni, de 500 mm, pentru prese industriale. Construcție: țeavă fără sudură, tijă cromată și șlefuită, garnituri Parker (poliuretan sau NBR, depinde de aplicație). Presiuni de lucru până 350 bar (seria 3L heavy-duty). Le furnizăm în configurații standard (șurub cap-față, șurub cap-spate, pivot cap, flange) sau custom (lungimi speciale, montaje speciale, senzori poziție integrați). Pentru utilaje mobile (excavatoare, macarale, platforme), seria 2H este potrivită – compactă, robustă, garnituri rezistente la murdărie.`
+        description: `Cilindrii Parker (de exemplu seriile 2H, 3H și 3L) acoperă o gamă largă de aplicații industriale. Construcție: țeavă fără sudură, tijă cromată și șlefuită, garnituri Parker (poliuretan sau NBR, depinde de aplicație). Presiuni nominale de până la 3000 psi (aproximativ 207 bar) la seriile 2H și 3H și de până la 1000 psi (aproximativ 69 bar) la seria 3L, de sarcină medie. Le furnizăm în configurații standard (șurub cap-față, șurub cap-spate, pivot cap, flange) sau custom (lungimi speciale, montaje speciale, senzori poziție integrați). Seria 2H este un cilindru industrial de uz greu, conform NFPA; pentru spații restrânse există seriile compacte CHD și CHE.`
       },
       {
         name: 'Pompe hidraulice (piston, palete, roți dințate)',
-        description: `Pompele Parker acoperă toate tehnologiile: pompe cu roți dințate (seria PGP – economice, robuste, pentru aplicații generale), pompe cu palete (seria Denison – silențioase, durabile, pentru presiuni medii), pompe cu piston axial (seria PV – eficiență maximă, presiuni înalte până 450 bar, control variabil). Pentru utilaje mobile, pompele tandem sau triplu (PGP + PGP + PGP pe aceeași axă) alimentează mai multe circuite simultan. Pentru mașini-unelte și sisteme industriale staționare, pompele cu piston cu debit variabil (seria PV, seria PAV) oferă control precis și economie de energie (pompa produce doar debitul necesar, nu pompează constant la maxim).`
+        description: `Pompele Parker acoperă toate tehnologiile: pompe cu roți dințate (seria PGP – economice, robuste, pentru aplicații generale), pompe cu palete (seria Denison – silențioase, durabile, pentru presiuni medii), pompe cu piston axial (seria PV – control variabil, presiuni înalte, în funcție de model). Pentru utilaje mobile, pompele tandem sau triplu (PGP + PGP + PGP pe aceeași axă) alimentează mai multe circuite simultan. Pentru mașini-unelte și sisteme industriale staționare, pompele cu piston cu debit variabil (seria PV, seria PAV) oferă control precis și economie de energie (pompa produce doar debitul necesar, nu pompează constant la maxim).`
       },
       {
         name: 'Distribuitoare hidraulice (monoblock și secționale)',
-        description: `Distribuitoarele Parker controlează direcția și debitul uleiului în sistemele hidraulice. Pentru utilaje mobile (tractoare, excavatoare, combine), seria de distribuitoare secționale (PVG – modulare, adaugi secțiuni câte circuite ai) e standard industrial. Comandă mecanică prin leviere sau electrohidraulică (joystick + solenoid). Pentru mașini industriale staționare, distribuitorii monoblock (seria D1VW, seria D3W) cu comandă electrică (solenoid) sunt preferați – compacți, montaj pe panel sau pe subplate, control precis prin semnale electrice. Presiuni până 350 bar, debite până 300 litri/min per secțiune.`
+        description: `Distribuitoarele Parker controlează direcția și debitul uleiului în sistemele hidraulice. Pentru utilaje mobile (tractoare, excavatoare, combine), distribuitoarele secționale (modulare, cu câte o secțiune pentru fiecare circuit) sunt uzuale. Comandă mecanică prin leviere sau electrohidraulică (joystick + solenoid). Pentru mașini industriale staționare, distribuitorii monoblock (seria D1VW, seria D3W) cu comandă electrică (solenoid) sunt preferați – compacți, montaj pe panel sau pe subplate, control precis prin semnale electrice. Presiunile și debitele maxime depind de serie și se confirmă din fișa tehnică a codului.`
       },
       {
         name: 'Furtunuri și fitinguri hidraulice (toate presiunile)',
-        description: `Gama Parker de furtunuri e cea mai completă din industrie: de la furtunuri joasă presiune pentru returnuri (seria 501, presiune max 25 bar) până la furtunuri spiralate 6-fire pentru presiuni extreme (seria 387, presiune lucru 420 bar, presiune rupere 1680 bar). Fitingurile Parker (seria 43, seria Bite-type, seria Parflex) asigură etanșare fiabilă fără scurgeri. Le furnizăm fie componentele separat (furtun la metru + fitinguri), fie asamblate complet (furtunuri presate la lungimi exacte cu fitinguri montate – testate la 1.5× presiunea de lucru). Pentru oil & gas și aplicații critice, seria Tough Cover rezistă la abraziune extremă, ozon, UV.`
+        description: `Gama Parker de furtunuri acoperă mai multe categorii de presiune: de la furtunuri de joasă presiune pentru retur până la furtunuri spiralate pentru presiuni ridicate; seria, presiunea de lucru și presiunea de rupere le confirmăm din fișa tehnică a furtunului. Fitingurile Parker (de exemplu seria 43) asigură etanșare fiabilă fără scurgeri. Le furnizăm fie componentele separat (furtun la metru + fitinguri), fie asamblate complet (furtunuri presate la lungimi exacte cu fitinguri montate – testate conform specificațiilor producătorului). Pentru oil & gas și aplicații critice, seria Tough Cover rezistă la abraziune extremă, ozon, UV.`
       },
       {
         name: 'Filtre hidraulice și pneumatice',
@@ -728,7 +728,7 @@ Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentră
       },
       {
         "code": "Series VE",
-        "description": "Cilindru pneumatic pentru aplicații ușoare"
+        "description": "Cilindru pneumatic pentru acționarea vanelor"
       },
       {
         "code": "Series SA",
@@ -736,7 +736,7 @@ Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentră
       },
       {
         "code": "Series 3L",
-        "description": "Cilindru hidraulic ușor, tija cu bare de tracțiune"
+        "description": "Cilindru hidraulic de sarcină medie, conform NFPA, cu presiune nominală de până la 1000 psi"
       },
       {
         "code": "Series 2H",
@@ -744,7 +744,7 @@ Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentră
       },
       {
         "code": "Series 3H",
-        "description": "Cilindru hidraulic industrial de uz foarte greu"
+        "description": "Cilindru hidraulic de uz greu cu alezaj mare, conform NFPA"
       },
       {
         "code": "Series 2HD/3HD",
@@ -756,7 +756,7 @@ Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentră
       },
       {
         "code": "Series 2AJ/2ANJ",
-        "description": "Cilindru pneumatic cu montaj pe bolt"
+        "description": "Cilindru pneumatic de uz greu, conform NFPA, cu blocare a tijei"
       },
       {
         "code": "Series CHD/CHE",
@@ -776,21 +776,21 @@ Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentră
       },
       {
         "code": "Series HAS 500",
-        "description": "Actuator electromecanic de mare forță"
+        "description": "Sistem de acționare hibrid, cu presiune de lucru de până la 3.000 psi"
       },
       {
         "code": "Helac rotary actuators",
-        "description": "Actuator hidraulic rotativ cu palete"
+        "description": "Actuator hidraulic rotativ cu mecanism elicoidal (helical)"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între cilindrii Parker Series 2H și 3H?",
-        "a": "Ambele sunt cilindri hidraulici industriali cu tijă și bare de tracțiune, însă Series 3H este construit pentru sarcini și presiuni mai mari decât Series 2H. Diferențele apar la grosimea țevii, tipul de etanșare și limita de presiune de lucru admisă. Alegerea corectă se face pe baza presiunii de sistem și a forței necesare în aplicație, nu doar a diametrului tijei."
+        "a": "Ambele sunt cilindri hidraulici industriali de uz greu, conform NFPA, cu presiune nominală de până la 3000 psi (aproximativ 207 bar); Series 3H este varianta pentru alezaje mari. Alegerea corectă se face pe baza presiunii de sistem și a forței necesare în aplicație, nu doar a diametrului tijei."
       },
       {
         "q": "Livrează Parker Hannifin cilindri în România la comandă?",
-        "a": "Da, aducem la comandă cilindri hidraulici și pneumatici din gamele 2H, 3H, 2A sau XFC, după codul confirmat de client din catalogul oficial. Pentru Parker Hannifin lucrăm exclusiv la comandă, cu disponibilitatea luată din datele publice ale producătorului; termenul obișnuit este 1–4 săptămâni. Codul complet de pe eticheta cilindrului grăbește identificarea."
+        "a": "Da, aducem la comandă cilindri hidraulici și pneumatici din gamele 2H, 3H, 2A sau XFC, după codul confirmat de client din catalogul oficial. Pentru Parker Hannifin disponibilitatea o confirmăm punctual, pe baza datelor publice ale producătorului; termenul obișnuit la comandă este 1–4 săptămâni. Codul complet de pe eticheta cilindrului grăbește identificarea."
       },
       {
         "q": "Ce date trimit pentru o ofertă la un cilindru Parker?",
@@ -798,12 +798,12 @@ Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentră
       },
       {
         "q": "Ce înseamnă codul Series HAS 500 la Parker Hannifin?",
-        "a": "Codul indică un actuator electromecanic din gamă de mare forța a Parker, folosit acolo unde este nevoie de poziționare precisă fără sistem hidraulic sau pneumatic separat. Cifra 500 arată încadrarea în familia de dimensiuni și forța a seriei respective. Confirmarea completă a parametrilor se face din fișa tehnică oficială, după codul complet transmis de producător."
+        "a": "Codul indică un sistem de acționare hibrid Parker, cu presiune de lucru de până la 3.000 psi (aproximativ 207 bar), conform catalogului producătorului. Confirmarea completă a parametrilor se face din fișa tehnică oficială, după codul complet transmis de producător."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Parker Hannifin, conform surselor citate.' }
     ]
   }

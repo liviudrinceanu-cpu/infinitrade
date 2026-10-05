@@ -757,21 +757,21 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
     name: "CJC",
     overview: `CJC (C.C.Jensen) este un producător danez de sisteme de filtrare offline pentru uleiuri industriale, cu peste 70 de ani de activitate în protecția aprovizionării cu ulei a echipamentelor. Gama acoperă filtrare fină pentru îndepărtarea particulelor, unități de îndepărtare a apei, unități de îndepărtare a vernicelui (produșilor de oxidare) și unități de îndepărtare a acidității din uleiuri hidraulice, de transmisie, turbină, ungere motor, transformator și combustibil diesel. Putem oferta din gama CJC unități de filtrare offline pentru instalații hidraulice și de lubrifiere.
 
-Ce diferențiază CJC e specializarea strictă pe filtrarea offline — un circuit separat de recirculare lentă a uleiului prin unități dedicate, montat în paralel cu sistemul principal, spre deosebire de filtrarea online integrată direct pe linia de presiune. Acest principiu permite îndepărtarea nu doar a particulelor solide, ci și a apei, a produșilor de oxidare (varnish) și a acidității, contaminanți pe care o filtrare online standard nu îi tratează eficient. În filtrarea fină offline, CJC se compară cu Hydac Filtration, care oferă o gamă similară de soluții de condiționare a uleiului.
+Ce diferențiază CJC e orientarea spre filtrarea offline — un circuit separat de recirculare lentă a uleiului prin unități dedicate, montat în paralel cu sistemul principal, spre deosebire de filtrarea online integrată direct pe linia de presiune. Acest principiu permite îndepărtarea nu doar a particulelor solide, ci și a apei, a produșilor de oxidare (varnish) și a acidității, contaminanți pe care o filtrare online standard nu îi tratează eficient. În filtrarea fină offline, CJC se compară cu Hydac Filtration, care oferă o gamă similară de soluții de condiționare a uleiului.
 
 Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine industriale și eoliene, transformatoare de putere și nave, unde prelungirea duratei de viață a uleiului și reducerea opririlor pentru schimb de ulei justifică investiția într-un circuit de filtrare offline dedicat.`,
     whyChoose: [
-      "Peste 70 de ani de specializare exclusivă pe filtrarea offline a uleiurilor industriale",
+      "Peste 70 de ani de experiență în filtrarea uleiurilor industriale",
       "Gamă completă de contaminanți tratați — particule solide, apă, vernice (produși de oxidare) și aciditate",
       "Compatibil cu o gamă largă de uleiuri: hidraulic, transmisie, turbină, transformator, combustibil diesel și uleiuri biologice",
       "Principiu de recirculare lentă offline, care nu perturbă circuitul principal de presiune al instalației",
-      "Aplicații dovedite în marină, minerit, energie eoliană și industrie grea"
+      "Sectoare deservite, conform producătorului: marină și offshore, minerit și ciment, producție de energie, energie eoliană și industrie"
     ],
     keyProducts: [
       { name: "Unități de filtrare fină (îndepărtarea particulelor)", description: "Unități de filtrare offline dedicate îndepărtării particulelor solide din ulei, montate în circuit separat de recirculare lentă, în paralel cu sistemul hidraulic sau de ungere principal. Reduc uzura componentelor sensibile (supape, rulmenți) cauzată de contaminarea cu particule. Aplicație tipică: circuite hidraulice industriale și sisteme de ungere a turbinelor. Pentru ofertă, clientul trebuie să trimită tipul de ulei, volumul rezervorului și gradul de contaminare estimat." },
-      { name: "Unități de îndepărtare a apei", description: "Unități dedicate extragerii apei dizolvate sau libere din ulei, contaminant care accelerează oxidarea și coroziunea componentelor metalice. Folosite acolo unde umiditatea din mediu sau condensul pătrunde în rezervorul de ulei. Aplicație tipică: instalații hidraulice expuse la variații de temperatură sau umiditate ridicată. Pentru ofertă, clientul trebuie să indice tipul de ulei și nivelul de apă detectat prin analiză." },
+      { name: "Unități de îndepărtare a apei", description: "Unități dedicate îndepărtării apei din ulei (prin absorbție în filtrele fine sau prin separarea apei libere în separatoarele-filtru), contaminant care accelerează oxidarea și coroziunea componentelor metalice. Folosite acolo unde umiditatea din mediu sau condensul pătrunde în rezervorul de ulei. Aplicație tipică: instalații hidraulice expuse la variații de temperatură sau umiditate ridicată. Pentru ofertă, clientul trebuie să indice tipul de ulei și nivelul de apă detectat prin analiză." },
       { name: "Unități de îndepărtare a vernicelui", description: "Unități pentru îndepărtarea produșilor de oxidare (varnish) care se depun pe suprafețele interne ale sistemelor hidraulice și de ungere, cauzând blocarea supapelor și reducerea eficienței schimbului termic. Aplicație tipică: sisteme de ungere a turbinelor industriale unde depunerile de vernice afectează fiabilitatea. Pentru ofertă, clientul trebuie să trimită rezultatele unei analize de ulei sau tipul de simptome observate (blocare supape, colmatare filtre)." },
-      { name: "Unități de îndepărtare a acidității", description: "Unități care reduc aciditatea uleiului cauzată de degradarea termică sau oxidativă, prelungind durata de viață utilă a uleiului și protejând componentele metalice de coroziune. Aplicație tipică: uleiuri de transformator și uleiuri industriale supuse la temperaturi ridicate de lucru. Pentru ofertă, clientul trebuie să trimită tipul de ulei și valoarea acidității măsurate (dacă disponibilă)." }
+      { name: "Unități de îndepărtare a acidității", description: "Unități care reduc aciditatea uleiului cauzată de degradarea termică sau oxidativă, prelungind durata de viață utilă a uleiului și protejând componentele metalice de coroziune. Aplicație tipică: uleiuri de transformator și uleiuri de comandă ale turbinelor. Pentru ofertă, clientul trebuie să trimită tipul de ulei și valoarea acidității măsurate (dacă disponibilă)." }
     ],
     industries: [
       "Marină și offshore — filtrare offline pentru combustibil și ulei de ungere",
@@ -817,7 +817,7 @@ Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine indu
       },
       {
         "code": "Varnish Removal Units",
-        "description": "unități pentru îndepărtarea depunerilor de lac din ulei"
+        "description": "unități pentru îndepărtarea vernicelui (produșilor de oxidare) din ulei"
       },
       {
         "code": "Removing Acidity Units",
@@ -831,21 +831,21 @@ Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine indu
     faq: [
       {
         "q": "Ce este unitatea CJC HDU 27/108?",
-        "a": "HDU 27/108 este unitatea de filtrare fină din gama CJC dedicată sistemelor hidraulice, de ungere și de răcire de dimensiuni mari, acolo unde volumul de ulei procesat este ridicat. Funcționează prin trecerea uleiului printr-un cartuș filtrant fin, care reține particulele solide fără a afecta aditivii din ulei. Se alege în funcție de debitul instalației și de nivelul de contaminare estimat al sistemului."
+        "a": "HDU 27/108 este unitatea de filtrare fină din gama CJC dedicată sistemelor hidraulice, de ungere și de răcire de dimensiuni mari, acolo unde volumul de ulei procesat este ridicat. Funcționează prin trecerea uleiului printr-un cartuș filtrant fin, care reține particulele solide din ulei. Se alege în funcție de debitul instalației și de nivelul de contaminare estimat al sistemului."
       },
       {
-        "q": "Ce diferență este între unitățile CJC pentru apă și cele pentru lac?",
-        "a": "Unitățile de îndepărtare a apei extrag umiditatea liberă și dizolvată din ulei, prevenind coroziunea și degradarea aditivilor, în timp ce unitățile pentru lac rețin depunerile fine care se formează prin oxidarea uleiului în timp. Cele două tipuri se aleg în funcție de problema dominantă identificată în analiza uleiului din sistemul hidraulic sau de ungere."
+        "q": "Ce diferență este între unitățile CJC pentru apă și cele pentru vernice?",
+        "a": "Unitățile de îndepărtare a apei elimină apa din ulei, prevenind coroziunea, în timp ce unitățile pentru vernice rețin depunerile fine care se formează prin oxidarea uleiului în timp. Cele două tipuri se aleg în funcție de problema dominantă identificată în analiza uleiului din sistemul hidraulic sau de ungere."
       },
       {
         "q": "Livrați unități de filtrare CJC în România?",
-        "a": "Da, procurăm unitățile CJC exclusiv pe bază de comandă fermă, cu un timp de așteptare tipic între 1 și 4 săptămâni, fiindcă nu avem exemplare expuse din această gamă. Pentru o ofertă corectă spuneți-ne tipul de contaminant vizat, apă, particule sau lac, debitul sistemului și volumul total de ulei din instalație."
+        "a": "Da, procurăm unitățile CJC exclusiv pe bază de comandă fermă, cu un timp de așteptare tipic între 1 și 4 săptămâni, fiindcă nu avem exemplare expuse din această gamă. Pentru o ofertă corectă spuneți-ne tipul de contaminant vizat, apă, particule sau vernice, debitul sistemului și volumul total de ulei din instalație."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"C.C.JENSEN Oil Filtration for Reliable Operations","url":"https://www.ccjensen.com/","publisher":"C.C.Jensen A/S","accessed":"2026-09-25"},
       {"title":"CJC Particle Removal Units | Oil Filtration Systems","url":"https://www.ccjensen.com/products-and-services/products/particle-removal-units","publisher":"C.C.Jensen A/S","accessed":"2026-09-25"},

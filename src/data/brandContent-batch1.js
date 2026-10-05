@@ -5,36 +5,36 @@ export const brandContentBatch1 = {
   'grundfos': {
     founded: 1945,
     headquarters: 'Bjerringbro, Danemarca',
-    employees: '19000+',
-    overview: `Grundfos e numele pe care îl vezi cel mai des când deschizi un dulap tehnic într-o clădire modernă sau într-o stație de pompare. Producătorul danez a fost fondat în 1945 (fix când se termina al Doilea Război Mondial) și de atunci a devenit unul dintre cei mai mari producători de pompe din lume, cu fabrici și birouri pe mai multe continente.
+    employees: '21,000',
+    overview: `Grundfos este un producător de pompe utilizat în instalații tehnice din clădiri și în stații de pompare. Producătorul danez a fost fondat în 1945 (fix când se termina al Doilea Război Mondial) și de atunci a devenit unul dintre cei mai mari producători de pompe din lume, cu fabrici și birouri pe mai multe continente.
 
-Grundfos s-a remarcat prin investiția în eficiență energetică. În 2010, când majoritatea producătorilor încă vindeau motoare IE2 (standard la vremea aia), danezii deja lucrau la IE5. Astăzi, dacă intri pe site-ul lor, găsești pompe cu motoare ECM cu consum de curent redus față de echivalentele clasice. Pentru o fabrică care rulează 24/7, asta poate însemna economii relevante la factura de energie.
+Grundfos s-a remarcat prin investiția în eficiență energetică. Astăzi, dacă intri pe site-ul lor, găsești pompe cu motoare ECM cu consum de curent redus față de echivalentele clasice. Pentru o fabrică care rulează 24/7, asta poate însemna economii relevante la factura de energie.
 
-Produsele Grundfos se regăsesc peste tot: de la instalațiile de climatizare din malluri (seriile UPS, Alpha), la stațiile de pompare pentru apă potabilă (seriile SP, CR, NK), până la dozarea precisă de chimicale în rafinării (seriile DME, DDA). Pompele sunt proiectate pentru condiții extrem de agresive — pH 2, temperaturi de 80°C, porniri/opriri de 50 de ori pe zi.
+Produsele Grundfos se regăsesc peste tot: de la instalațiile de climatizare din malluri (seriile UPS, Alpha), la stațiile de pompare pentru apă potabilă (seriile SP, CR, NK), până la dozarea precisă de chimicale în rafinării (seriile DME, DDA). Condițiile de lucru admise (pH, temperatură, număr de porniri) depind de model și se confirmă pe cod, din documentația Grundfos.
 
-Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și Industry 4.0: pompe cu senzori încorporați, diagnosticare la distanță prin Grundfos Machine Cloud, optimizare automată a consumului. Pentru un operator de utilități publice, asta înseamnă că poate monitoriza 100 de stații de pompare dintr-un singur birou, poate detecta probleme înainte să apară defecțiuni, și poate programa mentenanță predictivă.`,
+Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și Industry 4.0: pompe cu senzori încorporați, diagnosticare la distanță prin platformele digitale ale producătorului, optimizare automată a consumului. Pentru un operator de utilități publice, asta poate însemna monitorizarea mai multor stații de pompare dintr-un singur birou, poate detecta probleme înainte să apară defecțiuni, și poate programa mentenanță predictivă.`,
 
     whyChoose: [
-      'Producător global cu peste 19,000 de angajați și prezență în 56 de țări — know-how acumulat în zeci de ani de inginerie de pompare',
+      'Producător global cu aproximativ 21.000 de angajați și prezență în peste 60 de țări — know-how acumulat în zeci de ani de inginerie de pompare',
       'Eficiență energetică ridicată: motoare IE5 și ECM care reduc consumul electric față de soluțiile tradiționale',
-      'Gamă completă de la pompe de circulație mici (10W) până la sisteme de mare putere, până la 500 kW, pentru utilități publice și petrochimie',
-      'Platforme digitale avansate: Grundfos GO (aplicație mobilă), Grundfos Machine Cloud pentru monitorizare și diagnosticare la distanță',
+      'Gamă extinsă, de la pompe de circulație mici până la sisteme de mare putere, pentru utilități publice și petrochimie',
+      'Platforme digitale: aplicația mobilă Grundfos GO; funcțiile digitale disponibile depind de model',
       'Fiabilitate ridicată în condiții extreme: chimicale agresive, temperaturi ridicate, ciclare intensă',
-      'Suport tehnic: documentație tehnică exhaustivă, training-uri pentru instalatori, asistență 24/7 pentru aplicații critice',
+      'Documentație tehnică publicată de producător pentru fiecare model',
     ],
 
     keyProducts: [
       {
         name: 'CR/CRN (Pompe Centrifugale Multietajate)',
-        description: 'Seria CR e "calul de bătaie" al Grundfos pentru aplicații industriale. Pompe verticale multietajate din inox AISI 304/316, debite de la 1 la 125 m³/h, înălțimi de pompare până la 340 metri. Perfecte pentru: sisteme de boost în clădiri înalte, procese industriale, instalații de osmozare inversă, sisteme de stingere incendii. Varianta CRN (N = Normală) e standard pentru apă curată, varianta CRI (I = Inline) se montează direct pe țeavă fără flanșe. Rezistență chimică excelentă, silențioase, compacte. Sunt pompele pe care le vezi cel mai des în spitale, hoteluri, fabrici de băuturi.'
+        description: 'Seria CR este o gamă de pompe verticale multietajate pentru aplicații industriale. Debitul și înălțimea de pompare depind de model și se confirmă pe cod, din documentația Grundfos. Perfecte pentru: sisteme de boost în clădiri înalte, procese industriale, instalații de osmozare inversă, sisteme de stingere incendii. Litera din codul seriei indică materialele în contact cu lichidul (de exemplu, la CRN piesele în contact cu lichidul sunt din oțel inoxidabil EN 1.4401); varianta exactă se confirmă pe cod, din documentația Grundfos. Rezistență chimică excelentă, silențioase, compacte.'
       },
       {
         name: 'SP/SQ (Pompe Submersibile pentru Puțuri)',
-        description: 'Seria SP (SP = Submersible Pump) e dedicată puțurilor adânci și captărilor de apă. Motoare de 4" până la 12" (diametru), debite de la 1 la 500 m³/h, adâncimi de pompare până la 550 metri. Utilizări clasice: alimentare cu apă potabilă în orașe, irigații agricole pe suprafețe mari, drenaj mină, sisteme geotermale. Motorele sunt răcite cu apă, etanșate dublu, cu protecție termică încorporată. Seria SQ (mai mică) e pentru puțuri de 3" și aplicații rezidențiale sau agricole mici.'
+        description: 'Seria SP (SP = Submersible Pump) e dedicată puțurilor adânci și captărilor de apă. Gama include modele pentru foraje de 4" și mai mari; debitul și adâncimea de pompare depind de model și se confirmă pe cod, din documentația Grundfos. Utilizări clasice: alimentare cu apă potabilă în orașe, irigații agricole pe suprafețe mari, drenaj mină, sisteme geotermale. Motorele sunt răcite cu apă, etanșate dublu, cu protecție termică încorporată. Seria SQ (mai mică) e pentru puțuri de 3" și aplicații rezidențiale sau agricole mici.'
       },
       {
         name: 'DME/DDA (Pompe Dozatoare Digitale)',
-        description: 'Aici vorbim de precizie: pompe dozatoare cu control digital pentru injectarea exactă de chimicale în procese industriale. Seria DME (Digital Metering Engine) și DDA (Digital Dosing and Analog) se folosesc în: tratarea apei (clor, acid pentru corecție pH, floculanți), industrie alimentară (acid citric, NaOH), petrochimie (inhibitori de coroziune). Debite de la 0.001 la 40 l/h, precizie de dozare ±1%, comunicație Modbus/Profibus pentru integrare în SCADA. Cap de dozare din PTFE sau ceramic pentru rezistență chimică totală. Sunt pompele pe care le vezi în rafinării, fabrici de băuturi, stații de epurare — oriunde dozarea trebuie să fie impecabilă.'
+        description: 'Aici vorbim de precizie: pompe dozatoare cu control digital pentru injectarea exactă de chimicale în procese industriale. Seriile DME și DDA (pompe dozatoare cu diafragmă) se folosesc în: tratarea apei (clor, acid pentru corecție pH, floculanți), industrie alimentară (acid citric, NaOH), petrochimie (inhibitori de coroziune). Debitul maxim depinde de model (de exemplu, DDA 7.5-16: 7,5 l/h la 16 bar), cu repetabilitate a dozării de 1% la DDA, conform fișei producătorului; comunicație Profibus DP, iar la DDA și Modbus. Materialul capului de dozare (de exemplu, polipropilenă) se confirmă pe cod.'
       },
       {
         name: 'UPS/TP (Pompe de Circulație pentru Instalații)',
@@ -45,12 +45,12 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
     certifications: [
       'ISO 9001:2015 (Managementul Calității)',
       'ISO 14001:2015 (Managementul Mediului)',
-      'ISO 50001 (Managementul Energiei)',
-      'OHSAS 18001 (Sănătate și Securitate Ocupațională)',
+      
+      'ISO 45001 (Sănătate și Securitate Ocupațională)',
       'CE, ATEX (pentru pompe în zone cu risc de explozie)',
       'NSF/ANSI 61 (certificare pentru apă potabilă în SUA)',
       'WRAS (certificare UK pentru contact cu apă potabilă)',
-      'GOST-R (certificare pentru piața Rusiei și CSI)',
+      
     ],
 
     industries: [
@@ -81,7 +81,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
     // find a real, checkable fact to cite. `limitation` was added on
     // 2026-09-22 (A5 repair pass) since it only states what we cannot
     // confirm/provide, which is not the same as an invented `ownFact`.
-    limitation: 'Nu putem confirma sau efectua intervenții de service în perioada de garanție a producătorului fără avizul prealabil al Grundfos, și nu configurăm platformele software Grundfos GO sau Machine Cloud.',
+    limitation: 'Nu putem confirma sau efectua intervenții de service în perioada de garanție a producătorului fără avizul prealabil al Grundfos, și nu configurăm platformele software Grundfos GO.',
     productCodes: [
       {
         "code": "ALPHA",
@@ -89,7 +89,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "code": "ALPHA2",
-        "description": "Unealta mobilă pentru echilibrarea hidraulică a radiatoarelor"
+        "description": "Circulator cu turație variabilă pentru încălzire și climatizare, cu funcția AUTOADAPT"
       },
       {
         "code": "AP",
@@ -179,7 +179,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "q": "Ce informații trimit pentru o ofertă la o pompă Grundfos?",
-        "a": "Trimiteti codul complet de pe eticheta pompei, debitul și înălțimea de pompare necesare, temperatura lichidului și tipul aplicației: apă curată, uzată sau industrială. Dacă pompa este deja montată, o fotografie a plăcuței de identificare ajută la identificarea corectă a seriei, a puterii motorului și a variantei electrice, evitând confuzia dintre modele din aceeași familie."
+        "a": "Trimiteți codul complet de pe eticheta pompei, debitul și înălțimea de pompare necesare, temperatura lichidului și tipul aplicației: apă curată, uzată sau industrială. Dacă pompa este deja montată, o fotografie a plăcuței de identificare ajută la identificarea corectă a seriei, a puterii motorului și a variantei electrice, evitând confuzia dintre modele din aceeași familie."
       },
       {
         "q": "Ce diferență este între seriile SB/SBA și SQ la Grundfos?",
@@ -191,8 +191,8 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-21', note: 'pagina restructurată cu întrebări și tabel de produse' },
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
@@ -397,39 +397,39 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
     founded: 1872,
     headquarters: 'Dortmund, Germania',
     employees: '8000+',
-    overview: `Wilo a pornit în 1872 ca o mică fabrică de pompe în Dortmund, iar acum e unul dintre top 5 producători mondiali pentru instalații de clădiri și sisteme de apă. Spre deosebire de Grundfos (care e peste tot) sau KSB (care se focusează pe heavy industry), Wilo și-a găsit nișa în building services și water management — adică pompe pentru încălzire/climatizare în clădiri comerciale, vile, blocuri, și sisteme municipale de apă.
+    overview: `Wilo a pornit în 1872 ca o mică fabrică de pompe în Dortmund, iar acum oferă soluții pentru instalații de clădiri și sisteme de apă. Wilo este activ în servicii pentru clădiri (building services) și în managementul apei (water management) — adică pompe pentru încălzire/climatizare în clădiri comerciale, vile, blocuri, și sisteme municipale de apă.
 
-Wilo s-a remarcat prin eficiență energetică și integrare smart. În 2008, când majoritatea încă vindea pompe cu motoare asincrone clasice (eficiență 60-70%), Wilo a lansat seria Stratos cu motor EC (electronically commutated) și eficiență de peste 80%. Astăzi au ajuns la Stratos MAXO cu IE5+, una dintre clasele de eficiență cele mai ridicate pentru pompe de circulație. Înlocuirea pompelor vechi cu Wilo Stratos poate reduce semnificativ factura electrică pe termen lung.
+Wilo s-a remarcat prin eficiență energetică și integrare smart. Wilo oferă seria Stratos cu motor EC (comutat electronic). Stratos MAXO este circulatorul cu motor EC din gama actuală; clasa de eficiență se confirmă pe cod, din documentația Wilo. Înlocuirea pompelor vechi cu Wilo Stratos poate reduce semnificativ factura electrică pe termen lung.
 
-Un alt punct forte e gama Wilo pentru drainage (drenaj și evacuare ape uzate). Seria DrainLift, DrainBox, și EMUport au o prezență puternică pe piața europeană pentru pompare apă uzată din subsoluri, băi la etaje joase, bucătării comerciale, spălătorii auto. Sunt compacte, silențioase, și fiabile. Instalațiile DrainLift sunt proiectate pentru exploatare de lungă durată, cu mentenanță redusă la curățarea periodică a filtrului.
+Wilo are și o gamă pentru drenaj și evacuare ape uzate din subsoluri, băi la etaje joase sau bucătării comerciale; modelele și parametrii se confirmă pe cod, din documentația Wilo.
 
-Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetooth și aplicație Wilo-Assistant pentru configurare/diagnosticare de pe telefon. Modelele mai mari (CronoLine, VeroLine) au conectivitate Modbus/BACnet pentru integrare în BMS (Building Management Systems). Pentru un facility manager care administrează 10 clădiri, asta înseamnă că poate vedea toate pompele pe un dashboard central, poate detecta probleme înainte să apară defecțiuni, și poate optimiza consumul automat. Tehnologie de viitor, disponibilă azi.`,
+Wilo e și un pionier în digitalizare: Stratos MAXO are interfață Bluetooth și aplicația Wilo-Assistant pentru configurare și diagnosticare de pe telefon. Stratos MAXO acceptă integrarea în automatizări de clădire prin Modbus RTU și BACnet MS/TP (BMS = Building Management Systems, sisteme de management al clădirii). Pentru un facility manager care administrează 10 clădiri, asta înseamnă că poate vedea toate pompele pe un dashboard central, poate detecta probleme înainte să apară defecțiuni, și poate optimiza consumul automat. `,
 
     whyChoose: [
-      'Producător european de referință în pompe pentru building services, cu prezență internațională',
-      'Eficiență energetică ridicată: seria Stratos MAXO cu IE5+ reduce consumul electric față de pompele vechi',
+      'Producător german de pompe pentru building services (servicii pentru clădiri), cu prezență internațională',
+      'Eficiență energetică: seria Stratos MAXO folosește motor EC cu funcții de economisire a energiei, conform producătorului',
       'Specializare în drainage și evacuare ape uzate: DrainLift, DrainBox, EMUport pentru subsoluri, băi, bucătării comerciale',
-      'Integrare smart completă: aplicație Wilo-Assistant pentru configurare pe telefon, conectivitate Modbus/BACnet pentru BMS',
-      'Gamă largă: de la pompe mici pentru vile (100W) până la sisteme de mare putere pentru districte termice (500+ kW)',
-      'Garanție extinsă și rețea de service: piese de schimb pentru modelele standard, conform politicii producătorului',
+      'Integrare: aplicația Wilo-Assistant pentru configurare pe telefon și conectivitate Modbus/BACnet pentru BMS la Stratos MAXO',
+      'Gamă largă: de la circulatoare pentru clădiri la pompe pentru aplicații industriale și apă',
+      'Piese de schimb pentru modelele standard, conform politicii producătorului',
     ],
 
     keyProducts: [
       {
         name: 'Stratos MAXO (Pompe de Circulație Ultra-Eficiente)',
-        description: 'Seria Stratos MAXO este o gamă de pompe de circulație pentru instalații termice și de climatizare, orientată spre eficiență energetică ridicată. Motor EC cu magneți permanenți, eficiență IE5+ (cea mai ridicată clasă de eficiență definită pentru acest tip de pompă), consum electric redus semnificativ față de pompele clasice. Debitul și înălțimea de pompare depind de mărime; le confirmăm pe cod, din documentația Wilo. Control inteligent cu 4 moduri de reglare: presiune constantă, presiune variabilă, temperatură diferențială, adaptare automată (Dynamic Adapt). Aplicații: sisteme de încălzire în clădiri comerciale/rezidențiale, sisteme de climatizare, districte termice mici și medii. Display TFT color, conectivitate Bluetooth + Wilo-Assistant app, diagnosticare avansată cu alerte predictive. Pentru un administrator de clădiri care vrea să reducă costurile cu energia, reducerea consumului electric poate genera economii relevante pe termen lung, în funcție de regimul de funcționare.'
+        description: 'Seria Stratos MAXO este o gamă de pompe de circulație pentru instalații termice și de climatizare, orientată spre eficiență energetică ridicată. Motor EC cu magneți permanenți, eficiență ridicată a motorului EC (clasa se confirmă pe cod, din documentația Wilo), cu funcții de economisire a energiei precum No-Flow Stop. Debitul și înălțimea de pompare depind de mărime; le confirmăm pe cod, din documentația Wilo. Moduri de reglare, între care Dynamic Adapt plus, T-const. și ΔT-const. Aplicații: sisteme de încălzire în clădiri comerciale/rezidențiale, sisteme de climatizare, districte termice mici și medii. Display grafic, conectivitate Bluetooth + Wilo-Assistant app, diagnosticare avansată cu alerte predictive. Pentru un administrator de clădiri care vrea să reducă costurile cu energia, reducerea consumului electric poate genera economii relevante pe termen lung, în funcție de regimul de funcționare.'
       },
       {
         name: 'DrainLift / DrainBox (Stații de Pompare Ape Uzate)',
-        description: 'Seria DrainLift și DrainBox e dedicată evacuării apelor uzate din subsoluri, băi la etaje joase (sub nivelul canalizării), bucătării comerciale, spălătorii auto. Sunt stații compacte cu rezervor din polietilenă (DrainBox) sau inox (DrainLift Box), pompă submersibilă cu tocător încorporat, și automatizare cu plutitor. Debite de la 5 la 40 m³/h, înălțimi de pompare până la 10 metri. Varianta DrainLift S e pentru apă uzată fecală (toalete în subsol), varianta DrainLift M e pentru apă menajera (chiuvete, mașini de spălat). Foarte silențioase (important pentru montaj în apartamente sau birouri), etanșare bună fără mirosuri, instalare rapidă. Sunt perfecte pentru case/vile cu băi în subsol, restaurante cu bucătărie la parter, hoteluri cu spălătorii în demisol.'
+        description: 'Seria DrainLift și DrainBox e dedicată evacuării apelor uzate din subsoluri, băi la etaje joase (sub nivelul canalizării), bucătării comerciale, spălătorii auto. Sunt stații compacte de pompare; configurația (rezervor, pompă, automatizare), debitul, înălțimea de pompare și varianta pentru apă uzată fecală sau menajeră se confirmă pe cod, din documentația Wilo.'
       },
       {
         name: 'CronoLine-IL (Pompe Inline pentru Industrie)',
-        description: 'Seria CronoLine-IL (Inline) e pentru aplicații industriale și comerciale unde ai nevoie de pompe robuste montate direct pe țeavă (fără fundație separată). Pompe centrifugale monobloc din inox AISI 304/316, debite de la 5 la 600 m³/h, înălțimi de pompare până la 80 metri. Motor electric IE3 sau IE4 (eficiență ridicată), etanșare mecanică, flanșe PN 16 sau PN 25. Aplicații tipice: boost presiune în clădiri înalte, sisteme de stingere incendii, procese industriale (transfer apă, glicol, lichide neutre). Varianta CronoLine-IL-E are convertizor de frecvență integrat pentru reglare debit (soft start, economie energie, protecție la funcționare uscată). Foarte compacte (economisesc spațiu față de pompele clasice pe soclu), instalare rapidă, mentenanță ușoară.'
+        description: 'Seria CronoLine-IL (Inline) e pentru aplicații industriale și comerciale unde ai nevoie de pompe robuste montate direct pe țeavă (fără fundație separată). Pompe centrifugale inline cu un etaj, cuplaj lung, cu corp spiral din fontă și rotor din bronz. Debitul, înălțimea de pompare, clasa motorului și flanșele depind de mărime; le confirmăm pe cod, din documentația Wilo. Aplicații tipice: boost presiune în clădiri înalte, sisteme de stingere incendii, procese industriale (transfer apă, glicol, lichide neutre). Varianta CronoLine-IL-E are convertizor de frecvență integrat pentru reglare debit (soft start, economie energie, protecție la funcționare uscată). Foarte compacte (economisesc spațiu față de pompele clasice pe soclu), instalare rapidă, mentenanță ușoară.'
       },
       {
         name: 'EMUport (Pompe Submersibile pentru Drenaj)',
-        description: 'Seria EMUport (EMU = Electric Motor Unit) e dedicată drenajului și pompării apei din excavații, șantiere, tuneluri, mine, stații de epurare. Pompe submersibile verticale cu rotor tip vortex sau semiaxial, debite de la 50 la 5000 m³/h, înălțimi de pompare până la 50 metri. Motor electric răcit cu apă, etanșare dublă cu senzor de umiditate în camera de ulei (te avertizează înainte să intre apă în motor), carcasă din fontă sau inox. Pot pompa apă cu solide până la 50 mm diametru (nisip, pietriș, nămol). Aplicații: drenaj șantiere de construcții, pompare ape pluviale, tuneluri metrou, mine subterane, bazine de decantare în stații de epurare. Proiectate pentru funcționare continuă în condiții solicitante.'
+        description: 'Pentru seria EMUport, destinația și parametrii (debit, înălțime de pompare, solide admise, materiale) se confirmă pe cod, din documentația Wilo.'
       },
     ],
 
@@ -439,7 +439,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       'ISO 50001 (Managementul Energiei)',
       'ISO 45001 (Sănătate și Securitate Ocupațională)',
       'CE, ATEX (Wilo: pentru pompe în zone cu risc de explozie)',
-      'ErP Directive (Ecodesign) - toate pompele Wilo respectă sau depășesc cerințele EU',
+      'ErP Directive (Ecodesign) - conformitate conform documentației fiecărui produs',
       'DVGW, SVGW (certificări germane/elvețiene pentru apă potabilă)',
       'WRAS (certificare UK pentru contact cu apă potabilă)',
       'UL, CSA (certificări nord-americane pentru piața SUA/Canada)',
@@ -546,7 +546,7 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
     faq: [
       {
         "q": "Cum citesc denumirea unei pompe Wilo, de exemplu Stratos MAXO-D?",
-        "a": "Numele familiei arată funcția de bază, iar sufixul descrie variantă constructivă: D înseamnă montaj dublu pentru redundantă, iar Z marchează folosirea la recirculare de apă caldă menajeră. Pentru puterea și dimensiunile exacte verificăm întotdeauna fișa tehnică Wilo corespunzătoare gamei respective, deoarece același nume de bază poate acoperi mai multe trepte de putere și diametre de racord."
+        "a": "Numele familiei arată funcția de bază, iar sufixul descrie variantă constructivă: D înseamnă montaj dublu pentru redundanță, iar Z marchează folosirea la recirculare de apă caldă menajeră. Pentru puterea și dimensiunile exacte verificăm întotdeauna fișa tehnică Wilo corespunzătoare gamei respective, deoarece același nume de bază poate acoperi mai multe trepte de putere și diametre de racord."
       },
       {
         "q": "Aduceți pompe Wilo la comandă în România?",
@@ -566,8 +566,8 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
     sources: [
@@ -585,27 +585,27 @@ Wilo e și un pionier în digitalizare: toate pompele noi au interfață Bluetoo
     founded: 1847,
     headquarters: 'Berlin și München, Germania',
     employees: '303000+',
-    overview: `Siemens e una dintre companiile industriale mari ale Germaniei — fondată în 1847 (în perioada revoluțiilor europene din 1848), compania are aproape 180 de ani de istorie. Pentru context, când Siemens a început, telegraful electric era "tehnologia de vârf". Astăzi, Siemens e prezent în tot ce înseamnă electrificare, automatizare, și digitalizare industrială: de la motoare electrice și convertizoare de frecvență, până la PLC-uri, HMI-uri, SCADA, roboți industriali, și platforme de simulare digitală.
+    overview: `Siemens e una dintre companiile industriale mari ale Germaniei — fondată în 1847, compania are aproape 180 de ani de istorie. Pentru context, când Siemens a început, telegraful electric era "tehnologia de vârf". Astăzi, Siemens e prezent în tot ce înseamnă electrificare, automatizare, și digitalizare industrială: de la motoare electrice și convertizoare de frecvență, până la PLC-uri, HMI-uri, SCADA, roboți industriali, și platforme de simulare digitală.
 
-În contextul InfiniTrade (pompare, ventilare, acționări industriale), Siemens e "provider-ul de bază" pentru motoare electrice și drive-uri. Seria SIMOTICS e una dintre gamele de referință pentru motoare asincrone și sincrone industriale: de la motoare mici de 0.12 kW pentru ventilatoare, până la motoare de foarte mare putere, de 50,000 kW, pentru stații de pompare și compresoare în petrochimie. Eficiență IE2, IE3, IE4, IE5 — Siemens are totul. Și nu vorbim doar de motoare standard, ci și de motoare ATEX pentru zone cu risc de explozie, motoare marină pentru nave, motoarecu răcire specială pentru temperaturi extreme.
+În contextul InfiniTrade (pompare, ventilare, acționări industriale), Siemens oferă motoare electrice și drive-uri pentru aplicații de pompare, ventilare și acționări industriale. Seria SIMOTICS e una dintre gamele de referință pentru motoare asincrone și sincrone industriale: de la motoare mici pentru ventilatoare, până la motoare de mare putere pentru stații de pompare și compresoare în petrochimie. Gama include mai multe clase de eficiență energetică, în funcție de serie. Și nu vorbim doar de motoare standard, ci și de motoare ATEX pentru zone cu risc de explozie, motoare marine pentru nave, motoare cu răcire specială pentru temperaturi extreme.
 
-Seria SINAMICS (convertizoare de frecvență) e la fel de impresionantă: de la micro-drive-uri G120C de 0.37 kW, până la mega-drive-uri GM150 de 120,000 kW pentru aplicații în minerit și oțelării. Un SINAMICS nu doar pornește/oprește motorul — el optimizează consumul energetic, protejează motorul de suprasarcini, permite control precis de viteză și cuplu, comunică cu PLC-ul prin Profinet/Profibus, și poate face diagnosticare predictivă (îți spune când urmează să cedeze un rulment sau un ventilator).
+Seria SINAMICS (convertizoare de frecvență) e la fel de impresionantă: de la micro-drive-uri G120C de 0.37 kW, până la convertizoare de medie tensiune din familia SINAMICS GM150, pentru aplicații în minerit și oțelării. Un SINAMICS nu doar pornește/oprește motorul — el optimizează consumul energetic, protejează motorul de suprasarcini, permite control precis de viteză și cuplu, comunică cu PLC-ul prin Profinet/Profibus, și, la unele configurații, oferă date pentru diagnosticare predictivă.
 
 Un alt punct forte Siemens e integrarea completă: poți avea un sistem automatizat 100% Siemens — motor SIMOTICS + drive SINAMICS + PLC SIMATIC S7-1500 + HMI Comfort Panel + soft de programare TIA Portal + platformă cloud MindSphere pentru monitorizare. Componentele comunică între ele, sunt certificate împreună și au garanție de la același producător. Pentru un integrator de sisteme, asta simplifică proiectarea și punerea în funcțiune.`,
 
     whyChoose: [
       'Producător global cu prezență internațională în automatizări și acționări industriale',
-      'Gamă completă motoare electrice SIMOTICS: de la 0.12 kW la 100,000+ kW, toate clasele de eficiență (IE2 până la IE5)',
+      'Gamă largă de motoare electrice SIMOTICS; motoarele de joasă tensiune acoperă 0,09–5.300 kW, conform Siemens',
       'Seria SINAMICS (drive-uri): de la micro-drive-uri pentru ventilatoare până la mega-drive-uri pentru laminoare și minerit',
       'Integrare totală în ecosistemul Siemens: TIA Portal pentru programare, SIMATIC PLC-uri, HMI Comfort Panels, cloud MindSphere',
       'Industry 4.0 și digitalizare: gemeni digitali (Digital Twin), simulare procese, mentenanță predictivă, optimizare automată',
-      'Suport tehnic: documentație tehnică exhaustivă, training-uri certificate, asistență 24/7 pentru aplicații critice',
+      'Suport tehnic: documentație tehnică și training-uri oferite de Siemens',
     ],
 
     keyProducts: [
       {
         name: 'SIMOTICS GP/SD/XP (Motoare Asincrone Industriale)',
-        description: 'Seria SIMOTICS (Siemens Motors and Control Systems) e "coloana vertebrală" pentru orice aplicație industrială cu motoare electrice. SIMOTICS GP (General Purpose) = motoare standard pentru ventilatoare, pompe, transportoare, puteri de 0.12 kW la 500 kW, eficiență IE2/IE3/IE4. SIMOTICS SD (Severe Duty) = motoare pentru condiții extreme (temperaturi -60°C până +60°C, umiditate ridicată, medii agresive), construcție robustă cu protecție IP55/IP66. SIMOTICS XP (Explosion Proof) = motoare ATEX pentru zone cu risc de explozie (rafinării, mine de cărbune, silozuri cereale), certificate ATEX Zone 1 și Zone 2. Toate variante au design modular, sunt compatibile cu drive-uri SINAMICS, și pot fi dotate cu senzori de temperatură, vibrații, rulmenți (pentru mentenanță predictivă).'
+        description: 'SIMOTICS este marca sub care Siemens grupează motoarele sale electrice. SIMOTICS GP (General Purpose) = motoare standard pentru ventilatoare, pompe, transportoare, puterile și clasele de eficiență depind de model. SIMOTICS SD (Severe Duty) = motoare robuste pentru condiții dificile (umiditate ridicată, medii agresive); temperaturile admise și gradul de protecție IP se confirmă pe cod, din documentația Siemens. SIMOTICS XP (Explosion Proof) = motoare ATEX pentru zone cu risc de explozie (rafinării, mine de cărbune, silozuri cereale), certificate ATEX Zone 1 și Zone 2. Toate variante au design modular, sunt compatibile cu drive-uri SINAMICS, și pot fi dotate cu senzori de temperatură, vibrații, rulmenți (pentru mentenanță predictivă).'
       },
       {
         name: 'SINAMICS G120 / G120C (Convertizoare de Frecvență)',
@@ -613,7 +613,7 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       },
       {
         name: 'SIMATIC S7-1500 (PLC-uri pentru Automatizări)',
-        description: 'Seria SIMATIC S7-1500 e "creierul" automatizărilor industriale Siemens. Controlare pompe, ventilatoare, motoare, procese complexe — orice ai nevoie să automatizezi. CPU-uri de la S7-1511 (minimalist pentru aplicații simple) până la S7-1518 (powerhouse pentru fabrici întregi cu mii de I/O). Programare în TIA Portal (Totally Integrated Automation) cu limbaje IEC 61131-3: LAD (Ladder), FBD (Function Block), SCL (Structured Control Language), GRAPH (pentru secvențe). Comunicație Profinet (standard), Profibus, Ethernet/IP, Modbus TCP — conectezi orice device industrial. Funcții avansate: control PID integrat, motion control pentru servomotoare, safety integrat (PLC-uri failsafe pentru aplicații critice), web server încorporat (monitorizare din browser). Pentru o stație de pompare automată sau un sistem HVAC complex, un S7-1500 este o alegere frecventă.'
+        description: 'Seria SIMATIC S7-1500 e "creierul" automatizărilor industriale Siemens. Controlare pompe, ventilatoare, motoare, procese complexe — orice ai nevoie să automatizezi. CPU-uri de la S7-1511 (minimalist pentru aplicații simple) până la S7-1518 (powerhouse pentru fabrici întregi cu mii de I/O). Programare în TIA Portal (Totally Integrated Automation) cu limbaje IEC 61131-3: LAD (Ladder), FBD (Function Block), SCL (Structured Control Language), GRAPH (pentru secvențe). Comunicație Profinet (standard); alte protocoale, precum Profibus sau Modbus TCP, se adaugă prin module de comunicație sau biblioteci dedicate, în funcție de configurație. Funcții avansate: control PID integrat, motion control pentru servomotoare, safety integrat (PLC-uri failsafe pentru aplicații critice), web server încorporat (monitorizare din browser). Pentru o stație de pompare automată sau un sistem HVAC complex, un S7-1500 este o alegere frecventă.'
       },
       {
         name: 'HMI Comfort Panels (Panouri Operator)',
@@ -626,11 +626,11 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       'ISO 14001:2015 (Managementul Mediului)',
       'ISO 50001 (Managementul Energiei)',
       'ISO 45001 (Sănătate și Securitate Ocupațională)',
-      'CE, ATEX (Siemens: pentru echipamente în zone cu risc de explozie)',
+      'CE, ATEX (pentru echipamente în zone cu risc de explozie, la produsele care o au)',
       'IECEx (certificare internațională pentru atmosfere explozive)',
       'UL, CSA (certificări nord-americane)',
       'EAC (certificare pentru piața Rusiei și CSI)',
-      'SIL 2 / SIL 3 (Siemens: Safety Integrity Level pentru aplicații critice)',
+      'SIL 2 / SIL 3 (Safety Integrity Level - nivel de integritate a siguranței, la produsele de siguranță care îl au)',
       'ErP Directive (toate motoarele respectă sau depășesc cerințele EU)',
     ],
 
@@ -711,8 +711,8 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
     sources: [
@@ -736,41 +736,41 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
     founded: 1988,
     headquarters: 'Zürich, Elveția (dual HQ: Zürich + Västerås, Suedia)',
     employees: '105000+',
-    overview: `ABB (Asea Brown Boveri) e rezultatul unei fuziuni mega în 1988 între suedezii de la ASEA și elvețienii de la BBC Brown Boveri — două companii mari europene în electrificare și automatizări. Deși compania "modernă" ABB are 36 de ani, rădăcinile merg mult mai adânc: ASEA a fost fondată în 1883, iar BBC în 1891. Deci vorbim de peste 130 de ani de experiență combinată în inginerie electrică și control industrial.
+    overview: `ABB (Asea Brown Boveri) e rezultatul unei fuziuni mega în 1988 între suedezii de la ASEA și elvețienii de la BBC Brown Boveri — două companii mari europene în electrificare și automatizări. Deși ABB în forma actuală există din 1988, rădăcinile merg mult mai adânc: ASEA s-a constituit în 1890, iar BBC în 1891. Deci vorbim de peste 130 de ani de experiență combinată în inginerie electrică și control industrial.
 
-Astăzi, ABB este unul dintre principalii jucători în robotică industrială (de exemplu, roboți pentru linii de asamblare auto), electrificare (transformatoare de înaltă tensiune, stații de distribuție), acționări industriale (motoare, drive-uri, soft-startere), și automatizări (PLC-uri, SCADA, sisteme de control pentru fabrici). În contextul InfiniTrade (pompare, ventilare, motoare), ABB e "rivalul direct" al Siemens — ambele oferă gamă completă de motoare electrice și convertizoare de frecvență.
+Astăzi, ABB este unul dintre principalii jucători în robotică industrială (de exemplu, roboți pentru linii de asamblare auto), electrificare (transformatoare de înaltă tensiune, stații de distribuție), acționări industriale (motoare, drive-uri, soft-startere), și automatizări (PLC-uri, SCADA, sisteme de control pentru fabrici). ABB oferă gamă de motoare electrice și convertizoare de frecvență pentru pompare, ventilare și acționări.
 
-Seria ABB de motoare (IE2, IE3, IE4, IE5) acoperă toate clasele actuale de eficiență definite de standardul IEC. ABB a fost primul producător care a lansat comercial motoare IE5 (synchronous reluctance motors cu magneti permanenți) — eficiență de peste 92%, superioară motoarelor IE3 standard. Pentru o fabrică care rulează motoare non-stop, upgrade-ul la ABB IE5 poate genera economii relevante de energie pe termen lung.
+Seria ABB de motoare (IE2, IE3, IE4, IE5) acoperă toate clasele actuale de eficiență definite de standardul IEC. ABB oferă motoare IE5 SynRM, cu reluctanță sincronă și fără magneți permanenți sau pământuri rare; eficiența exactă depinde de putere și se confirmă din documentația ABB. Pentru o fabrică care rulează motoare non-stop, upgrade-ul la ABB IE5 poate genera economii relevante de energie pe termen lung.
 
-Seria ACS (ABB Control Systems) pentru drive-uri acoperă o gamă largă de puteri: de la micro-drive-uri ACS180 de 0.18 kW, până la mega-drive-uri ACS6000 de 100,000+ kW pentru aplicații în oțelării și petrochimie. Un ACS880 (cel mai popular model) nu doar controlează viteza motorului, ci face și: control vectorial de flux (pentru cuplu maxim la viteze mici), regenerare energie (returnează energie în rețea când motorul frânează), filtrare activă armonici (reduce poluarea electrică), și conectivitate cloud pentru mentenanță predictivă.
+Seria ACS pentru drive-uri acoperă o gamă largă de puteri: de la ACS180 (de la 0,25 kW) până la ACS6000, drive de medie tensiune de 5–36 MW, pentru aplicații în oțelării și petrochimie. Un ACS880 nu doar controlează viteza motorului, ci face și: control vectorial de flux (pentru cuplu maxim la viteze mici), regenerare energie (returnează energie în rețea când motorul frânează), filtrare activă armonici (reduce poluarea electrică), și conectivitate cloud pentru mentenanță predictivă.
 
 Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conectarea echipamentelor industriale. Poți avea un motor ABB + drive ACS880 + gateway ABB Ability, și vezi în timp real (de pe telefon sau laptop) ce viteză are motorul, cât curent consumă, ce temperatură are, și dacă sunt probleme iminente. Pentru o companie cu 50 de stații de pompare răspândite pe 100 km, asta poate reduce costurile de mentenanță (mergi la fața locului doar când e cu adevărat nevoie).`,
 
     whyChoose: [
       'Producător global cu prezență internațională — know-how combinat de peste 130 de ani (ASEA + BBC)',
       'Motoare electrice cu clase de eficiență ridicate: seria IE5 SynRM are consum redus față de IE3 standard',
-      'Seria ACS (drive-uri): de la micro la mega (0.18 kW până la 100,000+ kW), control vectorial avansat, regenerare energie',
-      'Soft-startere PSR/PST: protejează motoarele și rețeaua electrică, reduc curentul de pornire cu 70%, prelungesc viața motorului',
+      'Seria ACS (drive-uri): de la micro la mega (de la 0,25 kW până la 36 MW), control vectorial avansat, regenerare energie',
+      'Soft-startere PSR/PST: protejează motoarele și rețeaua electrică, reduc curentul de pornire față de pornirea directă',
       'Platformă digitală ABB Ability: conectivitate cloud, monitorizare remote, mentenanță predictivă, analize avansate',
-      'Suport tehnic global: rețea de service ABB documentată de producător, training-uri certificate, asistență 24/7 pentru aplicații critice',
+      'Suport tehnic global: rețea de service ABB documentată de producător',
     ],
 
     keyProducts: [
       {
         name: 'Motoare IE4 / IE5 SynRM (Super Premium Efficiency)',
-        description: 'Seria de motoare ABB cu eficiență IE4 și IE5 (SynRM = Synchronous Reluctance Motor) este orientată spre economie de energie. Motoarele IE5 au eficiență de peste 92% (vs. 89-90% pentru IE3), ceea ce înseamnă o reducere a consumului electric pentru aceeași putere mecanică. Puteri de la 0.75 kW la 315 kW, viteze de la 750 rpm la 3000 rpm, construcție robustă cu protecție IP55/IP66. Aplicații: pompe, ventilatoare, compresoare, transportoare, mixere — oriunde ai motoare care rulează mult timp. Avantaj major: la upgrade de la IE3 la IE5, economiile de energie pot fi relevante, mai ales dacă motoarele rulează 24/7. Compatibile cu drive-uri ABB ACS (control vectorial optim), dar funcționează și cu pornire directă. Certificări ATEX disponibile pentru zone cu risc de explozie.'
+        description: 'Seria de motoare ABB cu eficiență IE4 și IE5 (SynRM = Synchronous Reluctance Motor) este orientată spre economie de energie. Motoarele IE5 au eficiență mai mare decât IE3, ceea ce înseamnă o reducere a consumului electric pentru aceeași putere mecanică. Puteri de la 0,75 kW până la 450 kW pentru gama IE5 SynRM; turația și gradul de protecție se confirmă pe cod, din documentația ABB. Aplicații: pompe, ventilatoare, compresoare, transportoare, mixere — oriunde ai motoare care rulează mult timp. Avantaj major: la upgrade de la IE3 la IE5, economiile de energie pot fi relevante, mai ales dacă motoarele rulează 24/7. Compatibile cu drive-uri ABB ACS (control vectorial optim), dar funcționează și cu pornire directă. Certificări ATEX disponibile pentru zone cu risc de explozie.'
       },
       {
         name: 'ACS880 (Convertizoare de Frecvență Industriale)',
-        description: 'Seria ACS880 e "baza de pornire" pentru drive-uri ABB în aplicații industriale. Puteri de 0.75 kW la 5,600 kW (versiunea single drive), aplicații: pompe, ventilatoare, compresoare, extrudere, textile, macarale. Control vectorial de flux DTC (Direct Torque Control) — cuplu maxim chiar și la viteze foarte mici (1 rpm), ideal pentru porniri grele. Funcții avansate: rampe S configurabile pentru start/stop lin, PID controller integrat (pentru menținere presiune/debit constant), regenerare energie (când motorul frânează, energia revine în rețea), Safe Torque Off (STO) integrat pentru siguranță funcțională. Comunicație: Ethernet/IP, Profinet, Modbus TCP/RTU, DeviceNet — integrat cu orice PLC. Display grafic color pentru parametrizare și diagnosticare la fața locului. Pentru o pompă sau ventilator industrial, ACS880 este o opțiune folosită frecvent — performanță, fiabilitate, eficiență, totul într-un singur pachet.'
+        description: 'Seria ACS880 e "baza de pornire" pentru drive-uri ABB în aplicații industriale. Puteri de la 0,55 kW până la 6000 kW (versiunea single drive), aplicații: pompe, ventilatoare, compresoare, extrudere, textile, macarale. Control vectorial de flux DTC (Direct Torque Control) — cuplu maxim chiar și la viteze foarte mici (1 rpm), ideal pentru porniri grele. Funcții avansate: rampe S configurabile pentru start/stop lin, PID controller integrat (pentru menținere presiune/debit constant), regenerare energie (când motorul frânează, energia revine în rețea), Safe Torque Off (STO) integrat pentru siguranță funcțională. Comunicație: Ethernet/IP, Profinet, Modbus TCP/RTU, DeviceNet — integrat cu orice PLC. Display grafic color pentru parametrizare și diagnosticare la fața locului. Pentru o pompă sau ventilator industrial, ACS880 este o opțiune folosită frecvent — performanță, fiabilitate, eficiență, totul într-un singur pachet.'
       },
       {
         name: 'PSR / PST (Soft-Startere pentru Motoare)',
-        description: 'Seria PSR (Compact Soft Starter) și PST (Advanced Soft Starter) e dedicată protecției motoarelor la pornire și oprire. Un soft-starter reduce curentul de pornire (de obicei 6-8x curentul nominal) la 2-3x, ceea ce protejează rețeaua electrică, reduce șocurile mecanice în sistem, și prelungește viața motorului și pompei/ventilatorului. PSR e varianta compactă (0.37 kW - 250 kW), montare în dulapuri mici, funcții de bază: rampe configurabile, protecții termice, bypass prin contactor. PST e varianta avansată (până la 1,250 kW), cu funcții pro: control în buclă închisă (menține cuplul constant pe rampă), kickstart pentru sarcini grele, protecție la funcționare uscată pentru pompe, comunicație Modbus/Profibus. Aplicații tipice: pompe mari de alimentare cu apă (evită lovitura de berbec), ventilatoare industriale (pornire lină fără zgomot), transportoare (evită ruperi de bandă). Foarte cost-eficiente — pentru motoare mari (>50 kW) fără variator de frecvență, un soft-starter este o soluție frecvent utilizată.'
+        description: 'Seria PSR (Compact Soft Starter) și PST (Advanced Soft Starter) e dedicată protecției motoarelor la pornire și oprire. Un soft-starter reduce curentul de pornire față de pornirea directă, ceea ce protejează rețeaua electrică, reduce șocurile mecanice în sistem, și prelungește viața motorului și pompei/ventilatorului. PSR e varianta compactă (domeniul de curent și putere se confirmă pe cod), montare în dulapuri mici, funcții de bază: rampe configurabile, protecții termice, bypass prin contactor. PST e varianta avansată (30–1.050 A), cu funcții pro: control în buclă închisă (menține cuplul constant pe rampă), kickstart pentru sarcini grele, protecție la funcționare uscată pentru pompe, comunicație Modbus/Profibus. Aplicații tipice: pompe mari de alimentare cu apă (evită lovitura de berbec), ventilatoare industriale (pornire lină fără zgomot), transportoare (evită ruperi de bandă). Pentru motoare mari fără variator de frecvență, soft-starterul este o soluție utilizată pentru pornirea lină.'
       },
       {
         name: 'ABB Ability (Platformă Digitală IoT)',
-        description: 'ABB Ability e ecosistemul digital al ABB pentru conectarea echipamentelor industriale la cloud și aplicații de monitorizare/optimizare. Poți conecta: motoare ABB (cu senzori smart), drive-uri ACS (prin gateway), roboți industriali, transformatoare, și orice alt echipament cu protocolul OPC UA sau Modbus. Funcționalități: dashboard centralizat pentru toate echipamentele (vezi status, consumuri, alarme), mentenanță predictivă cu algoritmi AI (detectează semne timpurii de defect la rulmenți, ventilatoare, izolații), optimizare automată a consumului energetic, rapoarte și analize pentru management. Exemple de aplicații: un operator de utilități publice poate monitoriza 100 de stații de pompare dintr-un singur dashboard, poate vedea care pompe consumă prea mult sau au vibrații anormale, și poate programa mentenanță înainte să apară defecțiuni. Poate reduce costurile de mentenanță și crește uptime-ul echipamentelor (mai puțin downtime neplănificat). Platforma rulează pe Azure cloud (Microsoft), cu măsuri de securitate precum encriptare, autentificare multi-factor și conformitate GDPR.'
+        description: 'ABB Ability e ecosistemul digital al ABB pentru conectarea echipamentelor industriale la cloud și aplicații de monitorizare/optimizare. Poți conecta: motoare ABB (cu senzori smart), drive-uri ACS (prin gateway), roboți industriali, transformatoare, și orice alt echipament cu protocolul OPC UA sau Modbus. Funcționalități: dashboard centralizat pentru toate echipamentele (vezi status, consumuri, alarme), mentenanță predictivă cu algoritmi AI (detectează semne timpurii de defect la rulmenți, ventilatoare, izolații), optimizare automată a consumului energetic, rapoarte și analize pentru management. Exemple de aplicații: un operator de utilități publice poate monitoriza 100 de stații de pompare dintr-un singur dashboard, poate vedea care pompe consumă prea mult sau au vibrații anormale, și poate programa mentenanță înainte să apară defecțiuni. Poate reduce costurile de mentenanță și crește uptime-ul echipamentelor (mai puțin downtime neplănificat). Platforma rulează pe Azure cloud (Microsoft). Măsurile de securitate se confirmă din documentația ABB.'
       },
     ],
 
@@ -822,7 +822,7 @@ Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conec
       },
       {
         "code": "ACS580-04",
-        "description": "Convertizor ACS580 în varianta de montaj specific"
+        "description": "Convertizor ACS580, varianta -04; tipul de montaj se confirmă din fișa ABB"
       },
       {
         "code": "ACS580-07",
@@ -834,7 +834,7 @@ Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conec
       },
       {
         "code": "IE6 SynRM",
-        "description": "Motor cu reluctanță sincronă de eficiență maximă, generație nouă"
+        "description": "Motor cu reluctanță sincronă fără magneți, denumit de ABB IE6 (hiper-eficiență), 110–450 kW la carcasele 280 și 315"
       },
       {
         "code": "LV Titanium VSM",
@@ -860,12 +860,12 @@ Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conec
       },
       {
         "q": "Ce diferență este între ABB ACS580 și ACS880?",
-        "a": "ACS580 este o gamă de uz general, gândită pentru aplicații industriale obișnuite cu configurare simplificată. ACS880 oferă funcții avansate de control și module suplimentare, fiind potrivit pentru aplicații complexe cu cerințe ridicate de precizie sau redundantă. Alegerea depinde de complexitatea procesului și de nevoia de funcții extinse de automatizare."
+        "a": "ACS580 este o gamă de uz general, gândită pentru aplicații industriale obișnuite cu configurare simplificată. ACS880 oferă funcții avansate de control și module suplimentare, fiind potrivit pentru aplicații complexe cu cerințe ridicate de precizie sau redundanță. Alegerea depinde de complexitatea procesului și de nevoia de funcții extinse de automatizare."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
     sources: [

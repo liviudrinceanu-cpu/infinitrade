@@ -349,28 +349,28 @@ Filtrec investește constant în testare, cu laborator propriu unde testează be
   'finder': {
     founded: 1954,
     headquarters: 'Almese (Torino), Italia',
-    employees: '1,200+',
-    overview: `De 70 de ani, Finder produce relee electromagnetice, temporizatoare și contactoare modulare pentru automatizări industriale și instalații electrice. Un releu Finder este cotat, conform producătorului, pentru 1 milion de comenzi mecanice. Gama Finder include relee miniaturale (seria 34), relee industriale (seria 55/65), temporizatoare multifuncționale, relee de interfață, contactoare modulare, și sisteme de monitorizare trifazată.
+    
+    overview: `De 70 de ani, Finder produce relee electromagnetice, temporizatoare și contactoare modulare pentru automatizări industriale și instalații electrice. Gama Finder include relee miniaturale (seria 34), relee industriale (seria 55/65), temporizatoare multifuncționale, relee de interfață, contactoare modulare, și sisteme de monitorizare trifazată.
 
-Tehnologia Finder combină contacte argintate masiv (nu placat subțire) cu mecanisme cu arc calibrate micrometric pentru durată de viață extremă. Toate releele trec prin 100% testare în fabrică – verificare rezistență bobină, forță contact, timp de comutare. Pentru aplicații critice, Finder oferă seria cu contacte AgSnO2 (argint-oxid de staniu) – rezistă la arcuri electrice puternice și la curenți mari de pornire. Gama de tensiuni de comandă acoperă tot – de la 6V DC până la 400V AC, plus variante universale AC/DC (detectare automată tip tensiune).
+Pentru aplicații critice, Finder oferă seria cu contacte AgSnO2 (argint-oxid de staniu) – rezistă la arcuri electrice puternice și la curenți mari de pornire. Gama de tensiuni de comandă acoperă tot – de la 6V DC până la 400V AC, plus variante universale AC/DC (detectare automată tip tensiune).
 
-Finder investește constant în conformitate – toate releele au certificări UL, CSA, GOST, CCC pentru export global. Producătorul dezvoltă și soluții smart – relee WiFi/Bluetooth controlabile de la distanță, temporizatoare programabile prin NFC, sisteme de monitorizare cu afișaj grafic. Pentru instalatori electricieni, seria modulară DIN-rail se montează în tablou ca și siguranțele automate, ocupă 1-2 module, se cablează rapid cu conectori detașabili.`,
+Aprobările diferă de la o serie la alta și se confirmă din fișa tehnică a codului solicitat. Pentru instalatori electricieni, seria modulară DIN-rail se montează în tablou ca și siguranțele automate, ocupă 1-2 module, se cablează rapid cu conectori detașabili.`,
     whyChoose: [
-      'Durată de viață mecanică 10 milioane operații – contacte argintate care nu se uzează',
-      'Certificări universale UL/CSA/VDE/GOST – aprobat pentru export în toată lumea',
+      'Durata de viață mecanică și electrică diferă pe serii; valorile exacte le confirmăm din fișa tehnică a codului',
+      'Aprobări diferite pe serii, de confirmat din fișa tehnică a codului',
       'Seria 55 și 65 cu LED indicator stare – vezi imediat dacă releul e activat (fără multimetru)',
-      'Temporizatoare multifuncționale 16 moduri – un singur aparat înlocuiește 16 tipuri clasice',
-      'Montaj rapid DIN-rail cu cleme detașabile – schimbi releul în 30 secunde fără rescrewit',
+      'Temporizatoare multifuncționale – o singură serie acoperă mai multe funcții de temporizare',
+      'Montaj rapid pe șină DIN, cu cleme detașabile care permit înlocuirea releului fără recablare',
       'Fabricație în Italia cu rețea de distribuție în toată Europa – acces facil la gama completă de relee și temporizatoare'
     ],
     keyProducts: [
       {
         name: 'Relee industriale Finder seria 55.32/55.34',
-        description: 'Caii de bătaie pentru automatizări – relee cu 2 contacte sau 4 contacte cu capacitate 10A/250V AC pe contact. Seria 55.32 (2C/O – 2 contacte schimbătoare), seria 55.34 (4C/O – 4 contacte schimbătoare). Bobine disponibile pentru toate tensiunile – 12V DC, 24V DC/AC, 48V DC, 110V AC, 230V AC. LED indicator pe fațadă – vezi când bobina e alimentată. Buton test mecanic – poți forța contactele manual pentru verificare circuit. Construcție modulară – se montează pe soclu detașabil (seria 95.05 pentru PCB sau seria 94.84 pentru DIN-rail). Contacte AgNi (argint-nichel) standard – rezistență la sudare pe sarcini inductive. Temperatură de lucru -40°C până +70°C. Durată de viață electrică 100,000 de comenzi la sarcină nominală.'
+        description: 'Caii de bătaie pentru automatizări – relee cu 2 contacte sau 4 contacte, cu capacitate de 7-10 A pe contact, în funcție de tip. Seria 55.32 (2C/O – 2 contacte schimbătoare), seria 55.34 (4C/O – 4 contacte schimbătoare). Bobine disponibile pentru toate tensiunile – 12V DC, 24V DC/AC, 48V DC, 110V AC, 230V AC. LED indicator pe fațadă – vezi când bobina e alimentată. Buton test mecanic – poți forța contactele manual pentru verificare circuit. Construcție modulară – se montează pe soclu detașabil (seria 95.05 pentru PCB sau seria 94.84 pentru DIN-rail). Contacte AgNi (argint-nichel) standard – rezistență la sudare pe sarcini inductive. Temperatură de lucru -40°C până +70°C. Durată de viață electrică 100,000 de comenzi la sarcină nominală.'
       },
       {
-        name: 'Temporizatoare multifuncționale Finder seria 80/85',
-        description: 'Un singur aparat care înlocuiește 16 tipuri diferite de temporizatoare clasice – selectezi funcția prin switch rotativ sau digital. Moduri disponibile: întârziere la pornire, întârziere la oprire, impuls la pornire, interval fix, ciclic simetric, ciclic asimetric, stea-triunghi, clipire (flasher), și multe altele. Seria 80 (montaj DIN-rail, 1-2 module), seria 85 (montaj panel cu adaptor). Timpi ajustabili de la 0.1 secunde până la 100 ore – potențiometru frontal sau setare digitală pe modelele cu afișaj. Afișaj LED arată timpul rămas sau timpul setat. Precizie ±1% – folosesc circuite cu quartz, nu RC simple. Alimentare universală 12-240V AC/DC (detectare automată). Contact de ieșire releu 16A – poți comanda direct contactoare sau alte sarcini mari.'
+        name: 'Temporizatoare multifuncționale Finder seria 80',
+        description: 'Temporizatoare multifuncționale, la care funcția se selectează prin comutator rotativ sau digital, în funcție de model. Moduri disponibile: întârziere la pornire, întârziere la oprire, impuls la pornire, interval fix, ciclic simetric, ciclic asimetric, stea-triunghi, clipire (flasher), și multe altele. Seria 80 este destinată montajului pe șină DIN, pe 1-2 module. Timpi ajustabili de la 0.1 secunde până la 100 ore – potențiometru frontal sau setare digitală pe modelele cu afișaj. Afișaj LED arată timpul rămas sau timpul setat. Alimentare universală 12-240V AC/DC (detectare automată). Contact de ieșire releu 16A – poți comanda direct contactoare sau alte sarcini mari.'
       },
       {
         name: 'Relee de interfață Finder seria 38/39',
@@ -378,14 +378,14 @@ Finder investește constant în conformitate – toate releele au certificări U
       },
       {
         name: 'Contactoare modulare Finder seria 22',
-        description: 'Alternative compacte la contactoarele clasice Siemens/Schneider – montaj DIN-rail, 2-4 module lățime. Seria 22.22 (2NO – 2 contacte normal deschise 25A), seria 22.32 (3NO+1NC – 3 contacte NO + 1 contact NC, 25A), seria 22.44 (4NO – 4 contacte normale deschise 25A). Bobină 230V AC standard sau opțional 24V AC/DC. Cârcotașe – mânuță frontală pentru comandă manuală ON/OFF (forțezi contactele pentru testare sau override). Categorie utilizare AC-1 (sarcini rezistive) și AC-3 (motoare). Durată de viață mecanică 10 milioane operații. Conexiuni prin șurub sau prin cleme detașabile. Bloc de contacte auxiliare se poate adăuga lateral – 2NO+2NC extra pentru semnalizare.'
+        description: 'Contactoare compacte, cu montaj pe șină DIN, 2-4 module lățime. Seria 22.22 (2NO – 2 contacte normal deschise 25A), seria 22.32 (3NO+1NC – 3 contacte NO + 1 contact NC, 25A), seria 22.44 (4NO – 4 contacte normale deschise 25A). Bobină 230V AC standard sau opțional 24V AC/DC. Comandă manuală – selector frontal ON/OFF (forțezi contactele pentru testare sau override). Categorie utilizare AC-1 (sarcini rezistive) și AC-3 (motoare). Durată de viață mecanică 10 milioane operații. Conexiuni prin șurub sau prin cleme detașabile. Bloc de contacte auxiliare se poate adăuga lateral – 2NO+2NC extra pentru semnalizare.'
       }
     ],
     certifications: [
       'ISO 9001:2015 certificare sistem calitate',
       'UL/cUL (CSA) – aprobări Nord America pentru export',
       'VDE Germania – certificare conformitate standarde europene',
-      'GOST Rusia – aprobat pentru export CSI',
+      
       'CCC China – mandatory pentru vânzări în China',
       'EAC – certificare Uniune Economică Eurasiatică',
       'RINA (naval) – releele seria 55 aprobate pentru aplicații marine',
@@ -403,7 +403,7 @@ Finder investește constant în conformitate – toate releele au certificări U
       'Energie regenerabilă – sisteme fotovoltaice, eoliene',
       'Telecomunicații – echipamente BTS, centrale telefonice'
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru Finder: lucrăm din cataloagele publice ale producătorului și nu ținem un stoc propriu documentat pentru fiecare serie de relee sau temporizatoare. Aprovizionarea se face prin canale din Uniunea Europeană – ca formulare generală a firmei, seriile cele mai comune pot fi asigurate în 24–72 h din stoc, restul gamei (contactoare, relee de interfață speciale) urmând fluxul de 1–4 săptămâni la comandă. Ca să-ți dăm un răspuns exact, trimite-ne codul complet al releului sau temporizatorului (serie, tensiune bobină, tip contact) și cantitatea dorită. Fără aceste informații nu putem confirma disponibilitatea sau termenul de livrare.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru Finder: lucrăm din cataloagele publice ale producătorului și nu ținem un stoc propriu documentat pentru fiecare serie de relee sau temporizatoare. Aprovizionarea se face prin canale din Uniunea Europeană – ca formulare generală a firmei, seriile cele mai comune pot fi asigurate în 24–72 h din stoc, restul gamei (contactoare, relee de interfață speciale) urmând fluxul de 1–4 săptămâni la comandă. Ca să vă dăm un răspuns exact, trimiteți-ne codul complet al releului sau temporizatorului (serie, tensiune bobină, tip contact) și cantitatea dorită. Fără aceste informații nu putem confirma disponibilitatea sau termenul de livrare.`,
     limitation: 'Nu putem confirma o legătură contractuală directă cu Finder și nici acoperirea prin stoc propriu a tuturor seriilor de relee și temporizatoare.',
     sources: [
       {"title":"55 Series - Miniature General Purpose Relays 7-10A","url":"https://www.findernet.com/en/worldwide/series/55-series-miniature-general-purpose-relays-7-10a/","publisher":"Finder","accessed":"2026-09-22"},
@@ -419,7 +419,7 @@ Finder investește constant în conformitate – toate releele au certificări U
       },
       {
         "code": "38 Series",
-        "description": "Module releu de interfață (EMR sau SSR), 0,1-16 A"
+        "description": "Module releu de interfață (EMR sau SSR), 0,1-2-6-8 A"
       },
       {
         "code": "39 Series",
@@ -427,7 +427,7 @@ Finder investește constant în conformitate – toate releele au certificări U
       },
       {
         "code": "39.80",
-        "description": "Modul MasterTIMER cu ieșire SSR din seria 39"
+        "description": "Modul din seria 39 (MasterINTERFACE); tipul exact îl confirmăm din documentația Finder"
       },
       {
         "code": "55 Series",
@@ -469,7 +469,7 @@ Finder investește constant în conformitate – toate releele au certificări U
       },
       {
         "q": "Care e diferența dintre seria 38 și seria 39 la Finder?",
-        "a": "Ambele sunt module de interfață cu releu, însă seria 38 acoperă un interval de curent de la 0,1 până la 16 A, în timp ce seria 39, numită MasterINTERFACE, oferă funcții suplimentare precum temporizare integrată prin tipuri ca 39.80. Alegerea depinde de curentul comutat și de nevoia de funcții de timer încorporate."
+        "a": "Ambele sunt module de interfață cu releu, însă seria 38 acoperă curenți de la 0,1 până la 8 A (variante de 0,1-2-6-8 A), iar seria 39, numită MasterINTERFACE, acoperă curenți de la 0,1 până la 6 A. Alegerea depinde de curentul comutat și de nevoia de funcții de timer încorporate."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de relee Finder?",
@@ -481,54 +481,54 @@ Finder investește constant în conformitate – toate releele au certificări U
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'fluke': {
     founded: 1948,
     headquarters: 'Everett, Washington, SUA',
     employees: '3,000+',
-    overview: `De 75 de ani, Fluke produce instrumente de măsurare electrică robuste și precise, recunoscute la nivel global pentru fiabilitate în condiții de teren. Multimetrele Fluke sunt construite să reziste căderilor, loviturilor, prafului și umezelii din teren, cu o durată de viață declarată de producător de 10-15 ani în utilizare industrială. Gama Fluke include multimetre digitale (de la entry-level până la true-RMS industrial), clești ampermetrici, termometre IR și camere termoviziune, megaohmetre pentru izolație, osciloscoape portabile, analizoare de calitate energie, și detectoare de scurgeri electrice.
+    overview: `Din 1948, Fluke produce instrumente de măsurare electrică robuste și precise, recunoscute la nivel global pentru fiabilitate în condiții de teren. Multimetrele Fluke sunt construite să reziste căderilor, loviturilor, prafului și umezelii din teren. Gama Fluke include multimetre digitale (de la entry-level până la true-RMS industrial), clești ampermetrici, termometre IR și camere termoviziune, megaohmetre pentru izolație, osciloscoape portabile, analizoare de calitate energie, și detectoare de scurgeri electrice.
 
-Tehnologia Fluke combină circuite analogice de precizie cu procesare digitală avansată – multimetrul 87V (unul dintre cele mai cunoscute modele ale gamei) are rezoluție 20,000 counts și acuratețe ±0.05% DC, ridicată pentru un aparat portabil. Toate instrumentele trec prin testare în condiții extreme – cădere de la 1 metru pe beton, funcționare la -20°C și +55°C, protecție IP67 (unele modele). Pentru termoviziune, Fluke folosește senzori VOx (vanadium oxide) microbolometer cu rezoluție până la 640x480 pixeli și sensibilitate termică 0.04°C – diferențe minuscule de temperatură devin vizibile.
+Tehnologia Fluke combină circuite analogice de precizie cu procesare digitală avansată – multimetrul 87V (unul dintre cele mai cunoscute modele ale gamei) are afișaj de 6.000 de counts (19.999 în modul de rezoluție ridicată) și acuratețe de ±(0,05% + 1) la tensiune continuă. Multimetrul 87V este testat la cădere de la 1 metru (IEC 61010-1) și funcționează între -20°C și +55°C; unele modele (de exemplu 87V MAX) au protecție IP67. Pentru termoviziune, Fluke folosește senzori VOx (oxid de vanadiu) de tip microbolometru; rezoluția și sensibilitatea termică depind de model (de exemplu, Ti450 PRO: detector 320x240, extins la 640x480 prin SuperResolution, sensibilitate termică ≤0,025°C).
 
-Fluke investește masiv în siguranță – toate multimetrele au protecție CAT III/CAT IV (rezistă la spike-uri de 1000V în rețele industriale), fuzibile ceramice HRC pentru protecție la scurtcircuit, și design cu bariere interne care împiedică arcul electric să ajungă la operator. Pentru mentenanță predictivă, dezvoltă soluții wireless – termometre IR cu Bluetooth care trimit date în cloud, camere termoviziune cu raportare automată, și sisteme de monitorizare continuă pentru echipamente critice.`,
+Fluke investește masiv în siguranță – multimetrele profesionale sunt încadrate în categorii de măsurare CAT III/CAT IV conform IEC 61010-1 (de exemplu, 87V: CAT III 1000 V / CAT IV 600 V, cu rezistență la impulsuri de peste 8000 V), fuzibile ceramice HRC pentru protecție la scurtcircuit, și design cu bariere interne care împiedică arcul electric să ajungă la operator. Pentru mentenanță predictivă, dezvoltă soluții wireless – termometre IR cu Bluetooth care trimit date în cloud, camere termoviziune cu raportare automată, și sisteme de monitorizare continuă pentru echipamente critice.`,
     whyChoose: [
-      'Acuratețe de referință ±0.05% DC – ridicată pentru măsurători de precizie',
+      'Acuratețe DC de ±(0,05% + 1) la multimetrul 87V',
       'Protecție CAT IV 600V – rezistă la transienți periculoși în instalații industriale',
       'True-RMS pe toate modelele profesionale – măsoară corect semnale distorsionate și non-sinusoidale',
-      'Garanție 3 ani standard – încredere în durabilitate',
-      'Termoviziune 640x480 pixeli – imagini clare pentru diagnosticare precisă',
-      'Calibrare NIST trasabilă – certificat de calibrare pentru fiecare instrument'
+      'Garanția diferă în funcție de model (de exemplu, pe viață la 87V, 3 ani la 1587 FC și 375 FC), conform paginilor oficiale',
+      'Termoviziune cu detector 320x240, extins la 640x480 prin SuperResolution (Ti450 PRO) – imagini clare pentru diagnosticare',
+      'Calibrare NIST trasabilă disponibilă prin laboratoare de calibrare, nu pe loc'
     ],
     keyProducts: [
       {
         name: 'Multimetru digital Fluke 87V Industrial True-RMS',
-        description: 'Multimetrul 87V – unul dintre cele mai utilizate multimetre industriale la nivel global. True-RMS înseamnă că măsoară corect și semnale distorsionate (variatori de viteză, surse switching, dimmer-e) – multimetre simple dau erori de 40-50% pe astfel de sarcini. Rezoluție 20,000 counts, acuratețe DC ±0.05%, AC ±0.7%. Măsoară până la 1000V DC/AC, curenți până 10A direct (20A pentru 30 secunde), rezistență până 50MΩ, frecvență până 200kHz, capacitate până 9,999µF. Funcții speciale: min/max/average pentru capturare fluctuații, hold pentru înghețare display, relative pentru măsurători diferențiale. Protecție CAT IV 600V / CAT III 1000V – rezistă la orice transient industrial. Carcasă cauciucată galbenă iconică – supraviețuiește căderilor repetate. Afișaj backlit pentru lucru în întuneric. Garanție 3 ani.'
+        description: 'Multimetrul 87V este un multimetru industrial True-RMS. True-RMS înseamnă că măsoară corect și semnale distorsionate (variatori de viteză, surse switching, dimmer-e). Afișaj de 6.000 de counts (19.999 în modul de rezoluție ridicată), acuratețe DC ±(0,05% + 1), AC ±(0,7% + 2). Măsoară până la 1000V DC/AC, curenți până 10A direct (20A pentru 30 secunde), rezistență până 50MΩ, frecvență până 200kHz, capacitate până 9,999µF. Funcții speciale: min/max/average pentru capturare fluctuații, hold pentru înghețare display, relative pentru măsurători diferențiale. Categorii de măsurare CAT IV 600V / CAT III 1000V. Carcasă cauciucată galbenă iconică – supraviețuiește căderilor repetate. Afișaj backlit pentru lucru în întuneric. Garanție pe viață, conform specificațiilor oficiale ale modelului.'
       },
       {
         name: 'Cameră termoviziune Fluke Ti450 PRO',
-        description: 'Termoviziunea profesională pentru mentenanță predictivă și diagnosticare defecțiuni electrice/mecanice. Senzor 640x480 pixeli (307,200 puncte de măsură) cu sensibilitate termică NETD 0.04°C – vezi diferențe minuscule de temperatură. Range de măsurare -20°C până +1200°C (cu opțiunea extinsă). MultiSharp Focus – capturează automat mai multe imagini cu focus diferit și combină pentru claritate totală. Vizor optic plus touchscreen 5" pentru vizualizare confortabilă. Include lentilă standard 24° (distanță focală 13mm) – poți adăuga lentile telephoto sau wide-angle. Software SmartView inclus – raportare automată cu șabloane, analiză post-procesare, export PDF/Word. Laser pointer integrat pentru marcare punct vizat. Înregistrare video IR. Conectivitate WiFi – trimiți imagini direct pe smartphone/PC. Baterie 4 ore autonomie.'
+        description: 'Termoviziunea profesională pentru mentenanță predictivă și diagnosticare defecțiuni electrice/mecanice. Detector 320x240 pixeli, extins la 640x480 prin tehnologia SuperResolution, cu sensibilitate termică ≤0,025°C. Domeniu de măsurare de la -10°C până la +1500°C. MultiSharp Focus – capturează automat mai multe imagini cu focus diferit și combină pentru claritate totală. Touchscreen de 3,5 inchi. Lentila standard are câmp vizual de 24°; sunt disponibile opțional lentile telephoto și wide-angle. Software SmartView inclus – raportare automată cu șabloane, analiză post-procesare, export PDF/Word. Laser pointer integrat pentru marcare punct vizat. Înregistrare video IR. Conectivitate WiFi – trimiți imagini direct pe smartphone/PC. Autonomie de 3–4 ore.'
       },
       {
         name: 'Clește ampermetric Fluke 376 FC True-RMS cu iFlex',
-        description: 'Cleștele care măsoară și curenți DC/AC (nu doar AC ca modelele simple) – esențial pentru diagnosticare sisteme cu variatori de viteză, solar, baterii. True-RMS pentru măsurare corectă pe sarcini non-liniare. Range AC/DC până 1000A cu cleștele standard (diametru conductor 34mm). Include iFlex – sondă flexibilă care măsoară până 2500A AC pe conductori oricât de groși sau în poziții inaccesibile (de exemplu, bare colectoare în tablouri). Display dual – arată simultan curenți și tensiune. Funcție inrush current – capturează curentul de pornire motoare (100ms startup). Funcție low-pass filter – elimină zgomotul de la variatori. Conectivitate Bluetooth (FC = Fluke Connect) – înregistrează măsurătorile în cloud, generează rapoarte automat. Protecție CAT IV 600V / CAT III 1000V. Garanție 3 ani.'
+        description: 'Cleștele care măsoară și curenți DC/AC (nu doar AC ca modelele simple) – esențial pentru diagnosticare sisteme cu variatori de viteză, solar, baterii. True-RMS pentru măsurare corectă pe sarcini non-liniare. Range AC/DC până 1000A cu cleștele standard (diametru conductor 34mm). Include iFlex – sondă flexibilă care măsoară până 2500A AC pe conductori oricât de groși sau în poziții inaccesibile (de exemplu, bare colectoare în tablouri). Display dual – arată simultan curenți și tensiune. Funcție inrush current – capturează curentul de pornire motoare (100ms startup). Funcție low-pass filter – elimină zgomotul de la variatori. Conectivitate Bluetooth (FC = Fluke Connect) – înregistrează măsurătorile în cloud, generează rapoarte automat. Protecție CAT IV 600V / CAT III 1000V.'
       },
       {
         name: 'Megaohmetru izolație Fluke 1587 FC Insulation Multimeter',
-        description: 'Doi în unu – megaohmetru pentru testare izolație plus multimetru true-RMS complet. Testează izolație la 50V, 100V, 250V, 500V, 1000V – selectezi tensiunea potrivită pentru echipamentul testat (de exemplu, 500V pentru motoare 380V, 1000V pentru cabluri înaltă tensiune). Măsoară rezistență izolație până la 2GΩ cu acuratețe ±5%. Include funcție PI (Polarization Index) și DAR (Dielectric Absorption Ratio) – calcule automate pentru evaluare degradare izolație în timp. Funcție comparație cu praguri – setezi limita acceptabilă și aparatul îți spune pass/fail. Multimetrul măsoară până 1000V AC/DC, curent până 2A, rezistență, capacitate, frecvență, temperatură (cu sonda K-Type). Memory 99 de înregistrări. Fluke Connect wireless – trimiți rezultate teste în cloud pentru arhivare și trending. CAT IV 600V / CAT III 1000V.'
+        description: 'Doi în unu – megaohmetru pentru testare izolație plus multimetru true-RMS complet. Testează izolație la 50V, 100V, 250V, 500V, 1000V – selectezi tensiunea potrivită pentru echipamentul testat (de exemplu, 500V pentru motoare 380V, 1000V pentru cabluri înaltă tensiune). Măsoară rezistență izolație până la 2GΩ. Testele PI (Polarization Index) și DAR (Dielectric Absorption Ratio) sunt disponibile prin aplicația Fluke Connect, pentru evaluarea degradării izolației în timp. Funcție comparație cu praguri – setezi limita acceptabilă și aparatul îți spune pass/fail. Multimetrul măsoară până 1000V AC/DC, curent până la 400 mA, rezistență, capacitate, frecvență, temperatură (cu sonda K-Type). Fluke Connect wireless – trimiți rezultate teste în cloud pentru arhivare și trending. CAT IV 600V / CAT III 1000V.'
       }
     ],
     certifications: [
       'ISO 9001:2015 certificare calitate sistem',
-      'ISO 17025 acreditare laborator calibrare (NIST trasabilitate)',
+      'ISO/IEC 17025 — acreditare a laboratoarelor de calibrare, nu a instrumentelor de măsurare standard',
       'CAT IV IEC 61010 – siguranță în instalații electrică până 1000V',
       'CE conformitate directivă europeană EMC și LVD',
       'ETL/UL Listed pentru piața nord-americană',
       'CSA Canada certificare echipamente electrice',
       'RoHS și WEEE compliant – fabricație ecologică',
-      'ATEX pentru termometre IR și camere în medii explozive'
+      'ATEX — doar la variantele dedicate mediilor explozive; se confirmă pe cod la comandă'
     ],
     industries: [
       'Mentenanță electrică industrială – diagnosticare instalații, echipamente',
@@ -542,7 +542,7 @@ Fluke investește masiv în siguranță – toate multimetrele au protecție CAT
       'Producție electronică – control calitate, testare componente',
       'Feroviar – testare motoare tracțiune, pantografe, surse alimentare'
     ],
-    infinitrade: `Pentru instrumentele Fluke lucrăm din informațiile publice ale producătorului și fără date proprii de stoc pentru fiecare model din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei putem asigura 24–72 h din stoc pentru modelele cele mai cerute (multimetre, clești ampermetrici), restul gamei – termoviziune, megaohmetre, analizoare de calitate a energiei – intrând pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns exact avem nevoie de modelul dorit și de aplicația de măsurare (CAT III/CAT IV, True-RMS sau nu). Dacă nu ne dai aceste informații, nu putem stabili corect disponibilitatea sau termenul de livrare.`,
+    infinitrade: `Pentru instrumentele Fluke lucrăm din informațiile publice ale producătorului și fără date proprii de stoc pentru fiecare model din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei livrarea este de regulă de 24–72 h din stocul nostru sau din stoc extern, atunci când modelul este disponibil; disponibilitatea se confirmă la fiecare comandă, restul gamei – termoviziune, megaohmetre, analizoare de calitate a energiei – intrând pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns exact avem nevoie de modelul dorit și de aplicația de măsurare (CAT III/CAT IV, True-RMS sau nu). Dacă nu ne transmiteți aceste informații, nu putem stabili corect disponibilitatea sau termenul de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor modelelor Fluke și nici calibrarea NIST-trasabilă pe loc – aceasta se face la laboratoare de calibrare separate.',
     sources: [
       {"title":"Clamp Meters","url":"https://www.fluke.com/en-us/products/electrical-testing/clamp-meters","publisher":"Fluke","accessed":"2026-09-22"},
@@ -557,7 +557,7 @@ Fluke investește masiv în siguranță – toate multimetrele au protecție CAT
       },
       {
         "code": "117",
-        "description": "Multimetru compact pentru electricieni, fără risc de arc electric"
+        "description": "Multimetru True-RMS compact pentru electricieni, cu detecție a tensiunii fără contact"
       },
       {
         "code": "179",
@@ -613,7 +613,7 @@ Fluke investește masiv în siguranță – toate multimetrele au protecție CAT
       },
       {
         "code": "375 FC",
-        "description": "Clește ampermetric wireless pentru curenți foarte mici"
+        "description": "Clește ampermetric True-RMS AC/DC, până la 600 A, cu conectivitate wireless Fluke Connect"
       },
       {
         "code": "374 FC",
@@ -621,7 +621,7 @@ Fluke investește masiv în siguranță – toate multimetrele au protecție CAT
       },
       {
         "code": "323",
-        "description": "Clește ampermetric True-RMS pentru curent AC/DC"
+        "description": "Clește ampermetric True-RMS pentru curent alternativ (AC), până la 400 A"
       },
       {
         "code": "773",
@@ -655,8 +655,8 @@ Fluke investește masiv în siguranță – toate multimetrele au protecție CAT
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale Fluke; am precizat modul de livrare; am eliminat formulările promoționale.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale Fluke; am precizat modul de livrare; am eliminat formulările promoționale.' }]
   },
 
   'forbo-siegling': {

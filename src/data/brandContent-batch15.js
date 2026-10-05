@@ -846,37 +846,37 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
     founded: 1941,
     headquarters: 'Galway, Irlanda (operațional: Berwyn, Pennsylvania, SUA)',
     employees: '85,000+',
-    overview: `TE Connectivity (fost Tyco Electronics, desprins din Tyco International în 2007) produce componente de conectivitate prezente într-o gamă largă de echipamente electronice moderne - de la conectori miniaturizați în smartphone-uri până la relee industriale de 500A în panouri electrice, de la senzori de presiune automotive până la antene 5G. Compania are un portofoliu foarte extins de componente în catalog și fabricație în peste 140 de locații la nivel global, conform producătorului.
+    overview: `TE Connectivity (fost Tyco Electronics, desprins din Tyco International în 2007) produce componente de conectivitate prezente într-o gamă largă de echipamente electronice moderne - de la conectori miniaturizați în smartphone-uri până la relee industriale de 500A în panouri electrice, de la senzori de presiune automotive până la antene 5G. Compania are un portofoliu foarte extins de componente în catalog și fabricație și inginerie în peste 100 de centre la nivel global, conform producătorului.
 
 Produsele TE se folosesc frecvent în proiecte diverse - de la conectori Micro-MaTch pe plăcile PCB în aparatură medicală, până la relee Kilovac în panouri de comandă industriale, până la senzori M12 pe mașini CNC. Produsele sunt proiectate pentru consistență în calitate: materiale precum contacte aurite pentru rezistență la coroziune minimă și izolatoare din polimeri high-performance, plus testare conform standardelor din industrie (cicluri mecanice, șocuri termice, vibrații, rezistență la chimicale).
 
-Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionieri ai conectorilor circular M8/M12 pentru senzori industriali, ai conectorilor hermetic sealed pentru aerospace/defense, ai senzorilor MEMS de presiune și accelerație. Investesc masiv în R&D pentru tehnologii next-gen: conectori high-speed pentru 112 Gbps datacom, senzori LiDAR pentru vehicule autonome, antene mmWave pentru 5G. Și suportul tehnic e impresionant: biblioteca online cu modele 3D CAD, drawings, specificații, application notes pentru fiecare produs.`,
+Dar TE nu e doar manufacturing scale - e și inovație continuă. Portofoliul include conectori circulari M8/M12 pentru senzori industriali, conectori etanși pentru aerospace/defense și senzori MEMS de presiune. Conform producătorului, TE investește în inginerie, cercetare și dezvoltare pentru tehnologii noi, precum conectori de mare viteză pentru datacom. Producătorul oferă pe site biblioteci online cu modele 3D CAD, desene, specificații și note de aplicație.`,
 
     whyChoose: [
-      'Portofoliu de produse foarte extins - acoperă practic orice nevoie de conectivitate, de la conectori miniaturizați până la relee industriale mari',
-      'Calitate și fiabilitate dovedite - produse testate riguros conform standarde automotive/aerospace/militare',
+      'Portofoliu larg de conectori, relee și senzori, de la conectori miniaturizați până la relee industriale',
+      'Produse testate conform standardelor aplicabile fiecărei serii, indicate în fișa tehnică',
       'Inovație tehnologică continuă - investiții masive în R&D pentru tehnologii de vârf',
-      'Distribuție globală - disponibilitate rapidă prin rețea de distribuitori worldwide',
-      'Suport tehnic excelent - ingineri de aplicații, biblioteci CAD, tooluri de selecție online',
-      'Certificări complete - automotive (AEC-Q), aerospace (AS), militare (MIL-SPEC), industriale (UL/CE/CSA)'
+      'Prezență globală a producătorului; disponibilitatea o confirmăm pe cod, la furnizor',
+      'Suport tehnic - documentație, biblioteci CAD și instrumente de selecție online ale producătorului',
+      'Certificări și calificări specifice fiecărei serii (de exemplu AEC-Q, UL, CE), conform fișelor tehnice'
     ],
 
     keyProducts: [
       {
         name: 'Conectori Industriali M8/M12',
-        description: `Conectorii circulari M8 și M12 TE Connectivity sunt standardul de facto pentru senzori și actuatori industriali în automatizări. Design robust: carcasă metalică (alamă nichelată sau zinc die-cast), IP67/IP68/IP69K waterproof și dustproof, rezistență la vibrații și șocuri conform IEC 60068. Codare mecanică (A-cod pentru senzori, D-cod pentru Ethernet industrială, X-cod pentru 10Gbps) previne conectări greșite. Contacte aurite pentru rezistență de contact minimă și stabilitate long-term. Variante straight și right-angle, montaj panou sau cable, solder/crimp/IDC termination. M12 suportă Ethernet Industrial: 100Base-TX, Gigabit, 10 Gigabit pentru comunicare deterministă în aplicații time-critical (motion control, safety). Certificări UL, CE, cULus, shipping approvals. Mating cycles 500+ pentru variante industriale, 5000+ pentru heavy-duty. Temperatură -40°C până +125°C (variante high-temp). Aplicații: senzori de proximitate, fotocelule, encodere, motoare servo, valve pneumatice, PLC I/O remot.`
+        description: `Conectorii circulari M8 și M12 TE Connectivity sunt folosiți frecvent pentru senzori și actuatoare industriale în automatizări. Design robust: carcasă metalică (alamă nichelată sau zinc die-cast), IP67/IP68/IP69K waterproof și dustproof, rezistență la vibrații și șocuri conform IEC 60068. Codare mecanică (A-cod pentru senzori, D-cod pentru Ethernet industrială, X-cod pentru 10Gbps) previne conectări greșite. Contacte aurite pentru rezistență de contact minimă și stabilitate long-term. Variante straight și right-angle, montaj panou sau cable, solder/crimp/IDC termination. M12 suportă Ethernet Industrial: 100Base-TX, Gigabit, 10 Gigabit pentru comunicare deterministă în aplicații time-critical (motion control, safety). Certificări UL, CE, cULus, shipping approvals. Temperatură -40°C până +125°C (variante high-temp). Aplicații: senzori de proximitate, fotocelule, encodere, motoare servo, valve pneumatice, PLC I/O remot.`
       },
       {
-        name: 'Relee Industriale - Seria Kilovac/PCHN',
-        description: `Releele TE Connectivity comută sarcini mari (curenți de la 10A până la 500A, tensiuni DC/AC până la 1000V) cu fiabilitate ridicată, conform producătorului, în aplicații industriale și vehicule electrice. Seria Kilovac (monostabil și bistabil) pentru switching DC high-voltage: contacte din argint sau argint-tungsten care rezistă la arcuri electrice, bobină low-power (sub 5W), izolație dielectrică 4-12 kV, magnetic blowout pentru întrerupere arc rapid. Aplicații: vehicule electrice/hibride (baterii 400-800V DC), solar inverters, UPS, telecomunicații (DC power distribution). Seria PCHN (Potter & Brumfield) pentru aplicații generale industriale AC/DC: 4PDT până la single pole, curent 10-40A, montaj DIN-rail sau PCB, indicator mecanic stare contact. Rezistență la șoc 50g, vibrație 10g, temperatură -40°C...+85°C. Durată de viață electrică și mecanică ridicată, conform fișei tehnice a producătorului. Certificări UL508, CSA, VDE, CQC. Variante cu supresie arc (varistor sau RC snubber integrat) pentru protecție bobină și contacte la comutarea sarcinilor inductive.`
+        name: 'Relee Industriale - Seria Kilovac/Potter & Brumfield',
+        description: `Releele TE Connectivity comută sarcini mari (curenți de la 10A până la peste 500A, la tensiuni DC de până la 900 VDC la seria LEV200 sau mai mari la alte serii) cu fiabilitate ridicată, conform producătorului, în aplicații industriale și vehicule electrice. Seria Kilovac (monostabil și bistabil) pentru switching DC high-voltage: contacte din argint sau argint-tungsten care rezistă la arcuri electrice, bobină low-power (sub 5W), izolație dielectrică 4-12 kV, magnetic blowout pentru întrerupere arc rapid. Aplicații: vehicule electrice/hibride (baterii 400-800V DC), solar inverters, UPS, telecomunicații (DC power distribution). Releele Potter & Brumfield (de exemplu seria PCH) se folosesc în aplicații generale; configurația contactelor și curentul depind de model, conform fișei tehnice. Rezistență la șoc 50g, vibrație 10g, temperatură -40°C...+85°C. Durată de viață electrică și mecanică ridicată, conform fișei tehnice a producătorului. Certificări UL508, CSA, VDE, CQC. Variante cu supresie arc (varistor sau RC snubber integrat) pentru protecție bobină și contacte la comutarea sarcinilor inductive.`
       },
       {
         name: 'Senzori de Presiune - Seria MEAS/AST',
-        description: `Senzorii de presiune TE (divisiile MEAS și AST dobândite prin achiziții) folosesc tehnologie MEMS (piezo-rezistivă sau capacitivă) pentru măsurarea precisă a presiunii în aplicații industriale, automotive, medicale. Seria MS5000 piezo-rezistivă pentru presiune absolută/relativă 0.5-10 bar, precizie ±0.25% FSO (Full Scale Output), compensare temperatură -40...+125°C, ieșire digitală I2C sau analogică 0.5-4.5V. Carcasă miniaturizată 10x10mm pentru integrare în spații mici. Seria 86BSD pentru aplicații industriale grele: presiune 0-1000 bar, membrană din inox 17-4PH, conexiune electrică DIN43650 sau M12, calibrare la 0...80°C cu certificat inclus. Ieșire 4-20mA sau 0-10V, alimentare 10-30VDC. Aplicații: hydraulic systems (control presiune pompe, cilindri), HVAC (monitoring presiune refrigerent), automotive (presiune combustibil, ulei motor, turbo boost), medical (monitoring presiune sânge, respiratoare). Certificări FDA pentru aplicații medicale, automotive AEC-Q pentru temperature cycling și humidity.`
+        description: `Senzorii de presiune TE (divisiile MEAS și AST dobândite prin achiziții) folosesc tehnologie MEMS (piezo-rezistivă sau capacitivă) pentru măsurarea precisă a presiunii în aplicații industriale, automotive, medicale. Senzorii MEAS miniaturizați folosesc tehnologie MEMS piezorezistivă; domeniul de presiune, precizia și tipul ieșirii (digitală sau analogică) depind de model, conform fișei tehnice. Seria MEAS 86 se adresează aplicațiilor industriale; domeniile de presiune, membrana, conexiunea electrică și ieșirea depind de model, conform fișei tehnice. Aplicații: sisteme hidraulice (controlul presiunii la pompe și cilindri), HVAC (monitorizarea presiunii agentului frigorific), automotive (presiune combustibil, ulei motor), aparatură medicală. Calificările pentru aplicații medicale sau automotive (de exemplu AEC-Q) depind de seria aleasă și se confirmă în fișa tehnică.`
       },
       {
         name: 'Conectori Board-to-Board și Wire-to-Board',
-        description: `Conectorii TE pentru interconectare plăci PCB (board-to-board) și cabluri către plăci (wire-to-board) sunt esențiali în electronice moderne. Seria Micro-MaTch pentru wire-to-board high-density: pitch 1.27mm, 4-40 pini, IDC termination (Insulation Displacement Contact) pentru montaj rapid fără solder, retention clips pentru fixing robust pe PCB. Curent 1A/pin, tensiune rating 125V AC. Aplicații: aparatură medicală, telecom, industrial control. Seria AMP-LATCH pentru board-to-board low-profile: pitch 2.54mm sau 2mm, stacking height 6-25mm, forță inserție redusă datorită designului ramp progresiv, retenție mecanică prin latch. Contacte aurite 3-50 microinches pentru rezistență la coroziune în medii umede sau saline. Rezistență la vibrații conform USCAR-2 automotive standard. Seria AMPMODU pentru aplicații generale: pitch 2.54mm sau 1.27mm, straight/right-angle, PCB through-hole sau SMT. Variante cu polarizare mecanică pentru prevenire inversare polaritate. Gama completă: 2-100 pini per conector, shrouded/unshrouded, locking/non-locking. Aplicații: industrial automation, consumer electronics, automotive infotainment, IoT devices.`
+        description: `Conectorii TE pentru interconectare plăci PCB (board-to-board) și cabluri către plăci (wire-to-board) sunt esențiali în electronice moderne. Seria Micro-MaTch pentru wire-to-board high-density: pitch 1.27mm, 4-40 pini, IDC termination (Insulation Displacement Contact) pentru montaj rapid fără solder, retention clips pentru fixing robust pe PCB. Curent 1A/pin, tensiune rating 125V AC. Aplicații: aparatură medicală, telecom, industrial control. Seria AMP-LATCH: headere PCB cu carcasă (shrouded) pe pas de 2,54 mm, cu retenție mecanică prin latch. Contacte aurite 3-50 microinches pentru rezistență la coroziune în medii umede sau saline. Rezistență la vibrații conform USCAR-2 automotive standard. Seria AMPMODU pentru aplicații generale: pitch 2.54mm sau 1.27mm, straight/right-angle, PCB through-hole sau SMT. Variante cu polarizare mecanică pentru prevenire inversare polaritate. Gama completă: 2-100 pini per conector, shrouded/unshrouded, locking/non-locking. Aplicații: industrial automation, consumer electronics, automotive infotainment, IoT devices.`
       }
     ],
 
@@ -931,7 +931,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       },
       {
         "code": "DEUTSCH DMC-M Series",
-        "description": "Conector industrial de uz greu pentru vibrații"
+        "description": "Conector modular robust pentru conectivitate aerospațială"
       },
       {
         "code": "AMPMODU",
@@ -943,7 +943,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       },
       {
         "code": "zSFP+",
-        "description": "Interconectare pluggable de mare viteză 28/56 Gbps"
+        "description": "Interconectare pluggable de mare viteză, conform fișei tehnice"
       },
       {
         "code": "QSFP",
@@ -977,49 +977,49 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       },
       {
         "q": "Ce este conectorul DEUTSCH DMC-M de la TE Connectivity?",
-        "a": "Este un conector industrial de uz greu, folosit în medii cu vibrații și solicitări mecanice ridicate, inclusiv aplicații aerospațiale. Este ales atunci când conectorii standard M12 nu oferă rezistența mecanică sau etanșarea necesară condițiilor de operare."
+        "a": "Este un conector modular robust, destinat conectivității în aplicații aerospațiale și în medii cu solicitări mecanice ridicate, conform paginii producătorului."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul TE Connectivity, conform surselor citate.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul TE Connectivity, conform surselor citate.' }],
     evidenceClass: 'transactional'
   },
 
   'tesa': {
     founded: 1941,
     headquarters: 'Renens, Elveția',
-    employees: '1,200+',
-    overview: `Tesa Technology (nu confunda cu Tesa din Germania care face benzi adezive!) e producătorul elvețian de instrumente de măsurare dimensională de înaltă precizie - comparatoare mecanice și digitale, rugozimetre, coloane de măsurat, aparate de măsurat rotunditate și cilindicitate. Când ai nevoie să măsori cu precizie sub micron (0.001 mm) în control calitate sau pe linia de producție, Tesa e unul dintre brandurile premium la care apelezi alături de Mitutoyo, Mahr și Sylvac.
+    
+    overview: `Tesa Technology (a nu se confunda cu tesa SE din Germania, producător de benzi adezive) este producătorul elvețian de instrumente de măsurare dimensională de înaltă precizie - comparatoare mecanice și digitale, șublere, rugozimetre, coloane de măsurat. Pentru măsurători dimensionale cu rezoluție de ordinul micronului (0.001 mm) în controlul calității sau pe linia de producție, Tesa este un brand cunoscut în metrologie, alături de Mitutoyo, Mahr și Sylvac.
 
-Comparatoarele Tesa se folosesc frecvent în verificarea pieselor prelucrate CNC, unde diferența față de instrumente generice este vizibilă: repetabilitate ridicată (±0.0002 mm, conform producătorului), construcție robustă din oțel inox cu protecție IP65, citire clară pe display digital rezolutiv 0.0001 mm (0.1 μm), interfață de date SPC (Statistical Process Control) pentru logging automat în soft-uri de calitate. Jetul de măsurare curge lin datorită ghidării pe rulmenți de precizie, iar mecanismul e protejat la overtravel - poți lăsa piesa să lovească sonda fără să strici scala.
+Comparatoarele Tesa se folosesc frecvent în verificarea pieselor prelucrate CNC, unde diferența față de instrumente generice este vizibilă: display digital cu rezoluție de 0.001 mm la modelele DIALTRONIC verificate, protecție IP54 la aceste modele și ieșire de date pentru colectare în soft-uri de calitate; valorile exacte depind de model.
 
-Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea parametrilor de rugozitate Ra/Rz/Rq conform ISO 4287 (esențial în verificarea suprafețelor rectificate/polizate), coloane de măsurat pentru verificări dimensionale complexe (șabloane, matrițe, piese prismatice), chiar aparate de măsurat rotunditate pentru arbori și alezaje. Totul cu software dedicat pentru analiza datelor și generare rapoarte de calitate conform ISO 9001/IATF 16949.`,
+Gama Tesa include și rugozimetre portabile pentru măsurarea parametrilor de rugozitate Ra/Rz/Rq conform ISO 4287 (esențial în verificarea suprafețelor rectificate/polizate), coloane de măsurat pentru verificări dimensionale complexe (șabloane, matrițe, piese prismatice), precum și software dedicat pentru colectarea și analiza datelor de măsurare.`,
 
     whyChoose: [
-      'Precizie ridicată - rezoluție 0.1 μm (0.0001 mm), repetabilitate sub ±0.2 μm',
-      'Construcție robustă industrială - carcasă inox IP65, rezistență la praf, lichide de răcire, șocuri',
+      'Precizie ridicată - rezoluția și repetabilitatea depind de model și se confirmă din fișa tehnică a producătorului',
+      'Construcție robustă pentru atelier - gradul de protecție depinde de model (de exemplu IP54 la DIALTRONIC verificat)',
       'Interfață SPC integrată - conexiune USB/RS232 pentru logging automat măsurători în soft-uri calitate',
-      'Software avansat de analiză - Tesa Reflex pentru gestionarea datelor, grafice de control, rapoarte PDF',
-      'Calibrare trasabilă - certificat de calibrare inclus cu referință la standarde naționale (METAS Elveția)',
+      'Software de măsurare - gama Tesa include soluții software (de exemplu REFLEX); funcțiile depind de versiune',
+      'Calibrare trasabilă - existența și conținutul certificatului de calibrare se confirmă pe cod',
       'Durabilitate ridicată - instrumente proiectate pentru utilizare intensivă în producție, conform producătorului'
     ],
 
     keyProducts: [
       {
-        name: 'Comparatoare Digitale - Seria GT',
-        description: `Comparatoarele digitale Tesa GT (Digico seria nouă) măsoară devierile dimensionale față de un etalon cu precizie de sub micron. Rezoluție 0.0001 / 0.001 mm (selectabil), domeniu de măsurare ±0.5 / 1 / 5 / 10 / 12.5 / 25 mm funcție de model. Display LCD mare cu cifre 10mm înălțime pentru citire ușoară chiar în condiții de iluminare slabă. Funcții: zero settable oriunde în cursă, toleranțe programabile (limită superioară/inferioară) cu indicator LED verde/roșie pentru go/no-go rapid, hold pentru înghețare valoare, preset pentru pre-setare dimensiune nominală, output de date SPC prin cablu USB sau wireless Bluetooth. Carcasă IP65 rezistentă la praf și jet de apă (protecție în medii industriale unde se folosesc lichide de răcire). Alimentare baterie SR44 (autonomie 2+ ani utilizare normală) sau versiune cu cablu pentru alimentare externă continuă. Montaj pe stative, coloane de măsurat, dispozitive de verificare customizate prin adaptor Ø8mm sau metrice. Aplicații: verificare piese după prelucrare (arbori, alezaje, grosimi), setare mașini-unelte, control calitate în linie. Calibrare anuală recomandată cu certificat trasabil METAS/PTB.`
+        name: 'Comparatoare Digitale - Seria DIALTRONIC',
+        description: `Comparatoarele digitale Tesa DIALTRONIC măsoară devierile dimensionale față de un etalon. Modelele verificate au rezoluție 0.001 mm, domenii de măsurare de 12.5 mm sau 50 mm, ieșire de date RS232 și protecție IP54; DIALTRONIC EASY are funcții esențiale, iar DIALTRONIC COMPACT este varianta compactă. Valorile exacte depind de model. Montaj pe stative, coloane de măsurat, dispozitive de verificare customizate prin adaptor Ø8mm sau metrice. Aplicații: verificare piese după prelucrare (arbori, alezaje, grosimi), setare mașini-unelte, control calitate în linie. Calibrare anuală recomandată cu certificat trasabil METAS/PTB.`
       },
       {
         name: 'Rugozimetre Portabile - Seria Rugosurf',
-        description: `Rugozimetrele Tesa Rugosurf măsoară parametrii de rugozitate ai suprafețelor prelucrate conform standardelor ISO 4287/4288. Principiu: o sondă cu vârf de diamant (rază 2 μm sau 5 μm) trece pe suprafața piesei, senzorii piezo-electrici sau inductivi detectează profilul micro-geometric, procesorul calculează parametrii Ra (rugozitate medie aritmetică), Rz (adâncime maximă), Rq (RMS), Rt, RSm etc. Rugosurf 20 model portabil compact: gamă măsurare Ra 0.05-10 μm, lungime de evaluare Lt 0.8-4.0 mm selectabil, display grafic care arată profilul real plus valorile calculate. Memorie pentru 100+ măsurători, interfață USB pentru transfer date pe PC, software WinSurf pentru analiză avansată (filtre Gaussian/2RC, comparare profile, rapoarte PDF cu logo companie). Alimentare baterie reîncărcabilă Li-Ion, autonomie 8+ ore utilizare continuă. Aplicații: verificare suprafețe rectificate (Ra<0.4 μm), polizate (Ra<0.1 μm), turnate (Ra>6 μm), control între operații în prelucrări complexe. Calibrare cu etalon certificat de rugozitate inclus în kit.`
+        description: `Rugozimetrele Tesa Rugosurf măsoară parametrii de rugozitate ai suprafețelor prelucrate conform standardelor ISO 4287/4288. Principiu: o sondă cu vârf de diamant (rază 2 μm sau 5 μm) trece pe suprafața piesei, senzorii piezo-electrici sau inductivi detectează profilul micro-geometric, procesorul calculează parametrii Ra (rugozitate medie aritmetică), Rz (adâncime maximă), Rq (RMS), Rt, RSm etc. Rugosurf 20, rugozimetru portabil: lungimi de undă limită (cut-off) selectabile de 0.25 - 0.8 - 2.5 mm, afișaj LCD alb-negru de 2 inch, memorie internă pentru 20 de măsurători cu profil sau peste 1000 cu parametri, interfață micro USB, software RUGOSOFT pentru arhivarea datelor, baterie NiMH cu autonomie de aproximativ 1000 de măsurători. Aplicații: verificare suprafețe rectificate (Ra<0.4 μm), polizate (Ra<0.1 μm), turnate (Ra>6 μm), control între operații în prelucrări complexe. Conținutul kitului (inclusiv etalonul de rugozitate) se confirmă pe cod.`
       },
       {
         name: 'Coloane de Măsurat - Seria Micro-Hite',
-        description: `Coloanele de măsurare Tesa Micro-Hite sunt standuri verticale de precizie pentru verificări dimensionale 1D/2D pe piese până la 600-1000mm înălțime. Construcție: coloană din granit sau oțel inox rectificat, cărucior mobil cu ghidare pe rulmenți de precizie (frecare minimă, mișcare lină), capete de măsurare interschimbabile (sondă sferică, plană, conic, scripete pentru interior). Scala de măsurare: encoder optic incremental rezoluție 0.001mm (1 μm), precizie U1 = 1.5 + L/200 μm conform ISO 13225. Display digital Digico integrat în cărucior cu funcții toleranțe, preset, zeroing, SPC output. Masă de bază din fontă nervurată pentru stabilitate (lipsa vibrațiilor), reglare pe 3 puncte pentru nivelare perfectă. Accesorii: dispozitive de prindere piese (menghine, V-blocks, plăci magnetice), capete de măsurare specializate (pentru filete, raze, adâncimi). Aplicații: verificare înălțimi și poziții în controlul calității, setare scule pe mașini (înălțime cuțite, poziționare bacuri), măsurători comparative rapid (go/no-go pentru loturi mari). Calibrare cu bloc etalon certificat inclus.`
+        description: `Coloanele de măsurare Tesa Micro-Hite sunt standuri verticale de precizie pentru verificări dimensionale 1D/2D pe piese până la 600-1000mm înălțime. Construcție: coloană din granit sau oțel inox rectificat, cărucior mobil cu ghidare pe rulmenți de precizie (frecare minimă, mișcare lină), capete de măsurare interschimbabile (sondă sferică, plană, conic, scripete pentru interior). Rezoluție selectabilă (de exemplu 0.001 mm), iar limita de eroare depinde de model (de exemplu 2 + 2L/1000 μm la MICRO-HITE tip 600, cu L în mm). Panou de comandă digital cu funcții precum preset și zeroing, cu interfață de date TLC/USB. Masă de bază din fontă nervurată pentru stabilitate (lipsa vibrațiilor), reglare pe 3 puncte pentru nivelare perfectă. Accesorii: dispozitive de prindere piese (menghine, V-blocks, plăci magnetice), capete de măsurare specializate (pentru filete, raze, adâncimi). Aplicații: verificare înălțimi și poziții în controlul calității, setare scule pe mașini (înălțime cuțite, poziționare bacuri), măsurători comparative rapid (go/no-go pentru loturi mari). Calibrare cu bloc etalon certificat inclus.`
       },
       {
         name: 'Software Tesa Reflex',
-        description: `Tesa Reflex e platforma software pentru gestionarea datelor de măsurare în medii industriale conform cerințelor ISO 9001 și IATF 16949. Funcționalitate: colectare automată măsurători de la toate instrumentele Tesa (comparatoare, rugozimetre, coloane) prin USB/RS232/Bluetooth, organizare pe produse/procese/operatori, calcul automat statistici SPC (Cpk, Cp, Pp, Ppk, histograme, grafice de control X-bar și R), alarme când procesul iese din control, rapoarte PDF/Excel customizabile cu logo și semnături digitale. Modul de calibrare: programare reminder-e pentru calibrare periodică instrumente, stocare certificate de calibrare scanate, blocare măsurători dacă instrumentul e expirat. Integrare cu sisteme ERP/MES prin API REST pentru sincronizare comenzi producție și rezultate QC. Interfață multi-limbă (română inclusă), multi-utilizatori cu permisiuni configurabile (operator/supervizor/admin). Deployment: on-premise pe server Windows sau cloud SaaS. Suport tehnic: training online/la fața locului, actualizări gratuite pentru versiuni noi, hotline telefonic. Licențiere: per instrument conectat sau per user.`
+        description: `Tesa REFLEX este un software de măsurare asociat unor sisteme Tesa (de exemplu Tesa Multi-gage, Tesa Scan 52). Funcțiile, modulele și formatele de export depind de versiune și se confirmă din documentația producătorului.`
       }
     ],
 
@@ -1027,7 +1027,7 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
       'ISO 9001 Quality Management',
       'ISO 14001 Environmental Management',
       'Calibrare trasabilă METAS (Swiss Federal Institute of Metrology)',
-      'Conformitate DIN/ISO 3611 pentru comparatoare',
+      '',
       'Conformitate ISO 4287/4288 pentru rugozimetre',
       'ISO 13225 pentru coloane de măsurat',
       'CE marking pentru toate instrumentele electrice',
@@ -1035,19 +1035,19 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
     ],
 
     industries: [
-      'Automotive (control calitate piese motor, transmisie)',
-      'Aerospace (verificare toleranțe strânse componente critice)',
-      'Machine tools (setare și verificare scule, piese prelucrate)',
-      'Medical devices (implante, instrumente chirurgicale)',
-      'Tooling & Dies (matrițe, șabloane, dispozitive)',
-      'Precision mechanics (ceasornicărie, optică)',
-      'Electronics (componente mecanice, carcase)',
-      'Energy (turbine, rulmenți, componente nucleare)',
-      'General manufacturing (orice industrie cu cerințe calitate stricte)',
-      'Metrology labs (laboratoare de calibrare, institute naționale)'
+      'Industria auto (controlul calității pieselor de motor și transmisie)',
+      'Industria aerospațială (verificarea toleranțelor strânse la componente critice)',
+      'Mașini-unelte (reglarea și verificarea sculelor, piese prelucrate)',
+      'Dispozitive medicale (implanturi, instrumente chirurgicale)',
+      'Matrițe și scule (matrițe, șabloane, dispozitive)',
+      'Mecanică de precizie (ceasornicărie, optică)',
+      'Electronică (componente mecanice, carcase)',
+      'Energie (turbine, rulmenți)',
+      'Producție generală (industrii cu cerințe stricte de calitate)',
+      'Laboratoare de metrologie (laboratoare de calibrare)'
     ],
 
-    infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe informațiile publice ale producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 1–4 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, spune-ne ce parametru vrei să măsori, precizia cerută și domeniul de măsurare. Îți confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
+    infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe informațiile publice ale producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 1–4 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, vă rugăm să ne comunicați parametrul de măsurat, precizia cerută și domeniul de măsurare. Vă confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
     sources: [
       {"title":"Height Gauges","url":"https://www.tesatechnology.com/en-us/products/height-gauges","publisher":"Tesa Technology","accessed":"2026-09-22"},
       {"title":"Calipers","url":"https://www.tesatechnology.com/en-us/products/calipers","publisher":"Tesa Technology","accessed":"2026-09-22"},
@@ -1123,8 +1123,8 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
         "a": "Este o familie de comparatoare digitale pentru control dimensional, disponibilă în variante compacte sau cu funcții esențiale, folosite frecvent pe standuri de control sau pentru verificarea rapidă a toleranțelor pieselor prelucrate."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'zero-evidence'
   },
 
@@ -1132,17 +1132,17 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
     founded: 1957,
     headquarters: 'Titisee-Neustadt, Germania (Pădurea Neagră)',
     employees: '3,900+',
-    overview: `Testo e specialistul german în instrumente de măsurare portabile pentru tehnicienii HVAC, inginerii de proces, auditorii energetici și profesioniștii din food safety. De la simple termometre digitale până la camere termografice sofisticate, de la analizoare de gaze de ardere până la data loggere wireless pentru monitoringul temperaturilor în depozite frigorifice - dacă ai nevoie să măsori temperatură, umiditate, presiune, viteză aer, CO2, CO sau alți parametri în teren, Testo are soluția rugged, precisă și ușor de folosit.
+    overview: `Testo e specialistul german în instrumente de măsurare portabile pentru tehnicienii HVAC, inginerii de proces, auditorii energetici și profesioniștii din food safety. De la simple termometre digitale până la camere termografice sofisticate, de la analizoare de gaze de ardere până la data loggere wireless pentru monitoringul temperaturilor în depozite frigorifice - dacă aveți de măsurat în teren temperatură, umiditate, presiune, viteză a aerului, CO2 sau CO, gama Testo include instrumente portabile pentru aceste aplicații.
 
-Instrumentele Testo se folosesc frecvent în aplicații diverse - analizoare de combustie pentru reglaj arzătoare, termo-anemometre pentru balansare sisteme de ventilație, termo-higrometre pentru validare camere curate pharma, data loggere pentru monitorizare HACCP în restaurante. Utilizatorii apreciază combinația de robustețe (supraviețuiesc în ghiozdanul tehnicianului și în medii industriale grele), acuratețe (senzori de calitate, calibrare trasabilă) și user experience excelent (interfață intuitivă, display clar chiar în soare, conectivitate smartphone prin Bluetooth pentru rapoarte instant).
+Instrumentele Testo se folosesc frecvent în aplicații diverse - analizoare de combustie pentru reglaj arzătoare, termo-anemometre pentru balansare sisteme de ventilație, termo-higrometre pentru validare camere curate pharma, data loggere pentru monitorizare HACCP în restaurante. Instrumentele sunt concepute pentru uz portabil în teren, cu calibrare trasabilă și conectivitate Bluetooth către smartphone, conform producătorului.
 
 Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Testo Smart Probes pentru configurare instrumente și vizualizare măsurători pe smartphone/tablet, platforma Testo Cloud pentru stocare și analiză date în timp real (perfect pentru monitoringul 24/7 al depozitelor frigorifice sau camerelor curate), software-uri dedicate pentru industrii specifice (testo IRSoft pentru analiza imaginilor termografice, testo EasyClimate pentru sizing sisteme HVAC). Totul proiectat să simplifice munca tehnicianului și să genereze rapoarte profesionale pentru clienți în câteva click-uri.`,
 
     whyChoose: [
       'Robustețe ridicată - instrumente proiectate pentru condiții dure de teren (căderi, praf, umezeală)',
-      'Acuratețe și calibrare trasabilă - toate instrumentele vin cu certificat de calibrare DKD/DAkkS sau ISO 17025',
+      'Acuratețe și calibrare trasabilă - tipul certificatului de calibrare (de fabrică sau acreditat) depinde de codul comandat și se confirmă în ofertă',
       'Ecosistem digital complet - aplicații smartphone, cloud storage, software de analiză pentru eficientizare workflow',
-      'Asistență și service local - furnizăm gama Testo în România, cu suport pentru service și calibrare periodică',
+      'Instrumente Testo disponibile la comandă în România; service-ul și calibrarea se fac prin rețeaua producătorului',
       'Baterie cu autonomie extinsă (săptămâni/luni pentru data loggere, zile pentru instrumente portabile)',
       'Conformitate cu standardele din industrie - FDA, GxP, HACCP, EN 12830 pentru aplicații food/pharma'
     ],
@@ -1150,19 +1150,19 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
     keyProducts: [
       {
         name: 'Analizoare Gaze Combustie - Seria testo 300/350',
-        description: `Analizoarele de gaze de ardere Testo măsoară eficiența și emisiile poluante ale instalațiilor termice (centrale, arzătoare, cazane) conform normelor EN 50379 și legislației de mediu. Testo 300 model compact pentru service rutină: măsoară O2, CO, CO2 calculat, temperatură fum, temperatură aer, trage ambiant, calculează randament și pierderi termice. Display color, meniu ghidat în română, imprimantă termică integrată pentru protocoale la fața locului. Testo 350 analizor profesional pentru emisii industriale: măsoară suplimentar NOx, NO2, SO2, H2S cu senzori electro-chimici de lungă durată (2+ ani). Pompă aspirație electronică controlată, compensare temperatură și presiune automată, memorie pentru 100+ protocoale. Conectivitate: USB, Bluetooth pentru transfer date pe PC/smartphone, software testo easyEmission pentru rapoarte PDF customizabile (cu logo companie, semnătură digitală). Aplicații: reglare arzătoare gaz/motorină pentru eficiență maximă și emisii minime, verificări periodice conform legislației (Certificat de performanță energetică pentru clădiri), troubleshooting probleme ardere (CO prea mare = ardere incompletă, pericol intoxicare). Calibrare anuală recomandată cu gaze etalon certificate.`
+        description: `Analizoarele de gaze de ardere Testo măsoară eficiența și emisiile poluante ale instalațiilor termice (centrale, arzătoare, cazane) conform normelor EN 50379 și legislației de mediu. Testo 300 model compact pentru service rutină: măsoară O2, CO, CO2 calculat, temperatură fum, temperatură aer, trage ambiant, calculează randament și pierderi termice. Display color de 5 inch, meniu ghidat, interfață Bluetooth pentru imprimarea protocoalelor la fața locului pe o imprimantă compatibilă. Testo 350 analizor profesional pentru emisii industriale: măsoară suplimentar NOx, NO2, SO2, H2S cu senzori electro-chimici de lungă durată (2+ ani). Pompă aspirație electronică controlată, compensare temperatură și presiune automată, memorie pentru 100+ protocoale. Conectivitate: USB, Bluetooth pentru transfer date pe PC/smartphone, software testo easyEmission pentru rapoarte PDF customizabile (cu logo companie, semnătură digitală). Aplicații: reglare arzătoare gaz/motorină pentru eficiență maximă și emisii minime, verificări periodice conform legislației aplicabile, troubleshooting probleme ardere (CO prea mare = ardere incompletă, pericol intoxicare). Calibrare anuală recomandată cu gaze etalon certificate.`
       },
       {
         name: 'Camere Termografice - Seria testo 865/872/885',
-        description: `Camerele termografice Testo (infrared imaging) detectează diferențe de temperatură pe suprafețe și le afișează ca imagini color pentru identificare rapidă a problemelor: pierderi termice în clădiri, supraîncălziri în instalații electrice, blocaje în sisteme HVAC. Testo 865 entry-level: rezoluție IR 160x120 pixeli, sensibilitate termică <120 mK, gamă -20...+280°C, display 3.5" touchscreen. Funcții: testo ScaleAssist pentru setare automată scală color, laser pointer pentru vizare, LED pentru iluminare zonă. Testo 872 mid-range: rezoluție 320x240 pixeli, sensibilitate <60 mK, gamă extinsă -30...+650°C, suprarezoluție digitală până la 640x480 prin testo SuperResolution (4 imagini combinate algoritmic). Aplicații HVAC: detectare pierderi termice la ferestre/uși/acoperișuri, verificare distribuție uniforme temperatură în încăperi, identificare blocaje radiatoare/țevi. Aplicații electrice: detectare conexiuni slabe (rezistență mare = căldură), supraîncălzire transformatoare/motoare, verificare echilibrare faze. Software testo IRSoft pentru analiza detaliată a imaginilor pe PC: ajustare paletă color, adăugare comentarii text/vocale, generare rapoarte profesionale PDF cu imagini înainte/după reparații. Conformitate standardelor EN 13187 (clădiri) și NFPA 70B (instalații electrice).`
+        description: `Camerele termografice Testo (infrared imaging) detectează diferențe de temperatură pe suprafețe și le afișează ca imagini color pentru identificare rapidă a problemelor: pierderi termice în clădiri, supraîncălziri în instalații electrice, blocaje în sisteme HVAC. Testo 865 entry-level: rezoluție IR 160x120 pixeli, sensibilitate termică <120 mK, gamă -20...+280°C, display 3.5" touchscreen. Funcții: testo ScaleAssist pentru setare automată scală color, laser pointer pentru vizare, LED pentru iluminare zonă. Testo 872 mid-range: rezoluție 320x240 pixeli, sensibilitate termică <50 mK, game de măsură -30...+100 °C și 0...+650 °C, suprarezoluție digitală până la 640x480 prin testo SuperResolution (4 imagini combinate algoritmic). Aplicații HVAC: detectare pierderi termice la ferestre/uși/acoperișuri, verificare distribuție uniforme temperatură în încăperi, identificare blocaje radiatoare/țevi. Aplicații electrice: detectare conexiuni slabe (rezistență mare = căldură), supraîncălzire transformatoare/motoare, verificare echilibrare faze. Software testo IRSoft pentru analiza detaliată a imaginilor pe PC: ajustare paletă color, adăugare comentarii text/vocale, generare rapoarte profesionale PDF cu imagini înainte/după reparații. Conformitate standardelor EN 13187 (clădiri) și NFPA 70B (instalații electrice).`
       },
       {
         name: 'Data Loggere Temperatură/Umiditate - Seria testo 174/184/160',
-        description: `Data loggerele Testo monitorizează și înregistrează automat temperatura și umiditatea în depozite, camere frigorifice, procese de transport conform cerințelor HACCP, GxP, FDA CFR 21 Part 11. Testo 174T mini logger USB: senzor temperatură -30...+70°C, precizie ±0.5°C, memorie 16,000 valori, programare interval înregistrare (1min-24h), baterie CR2032 autonomie 1+ an. Conectare la PC prin USB pentru download date și configurare (software testo ComSoft inclus). LED indicator care clipește verde = OK, roșu = limită depășită. Testo 184 logger de transport (single-use sau reusable): monitorizare continuă în timpul transportului mărfurilor sensibile (pharma, alimente), raport PDF generat automat la conectarea USB, conformitate FDA CFR 21 Part 11 cu PDF semnat digital și date criptate imposibil de modificat. Testo 160 sistem WiFi logger: conectare wireless la router local, upload automat date în testo Cloud (24/7 monitoring remote), alerte SMS/email instant când temperatura/umiditatea depășesc limitele setate. Ideal pentru depozite frigorifice, camere curate pharma, magazine alimentare - asigură conformitatea cu normele de siguranță alimentară și raportare automată pentru auditori. Montaj: magnet pe perete metalic, suport plastic, agățat cu chingă.`
+        description: `Data loggerele Testo monitorizează și înregistrează automat temperatura și umiditatea în depozite, camere frigorifice, procese de transport conform cerințelor HACCP, GxP, FDA CFR 21 Part 11. Testo 174T mini logger USB: senzor temperatură -30...+70°C, precizie ±0.5°C, memorie 16,000 valori, programare interval înregistrare (1min-24h), baterie CR2032 autonomie 1+ an. Conectare la PC prin USB pentru download date și configurare (software testo ComSoft inclus). LED indicator care clipește verde = OK, roșu = limită depășită. Testo 184 logger de transport (de unică folosință sau reutilizabil): monitorizare continuă în timpul transportului mărfurilor sensibile (pharma, alimente), raport PDF generat automat la conectarea USB, compatibil cu 21 CFR Part 11 în utilizare cu software-ul testo ComSoft CFR. Testo 160 sistem WiFi logger: conectare wireless la router local, upload automat date în testo Cloud (24/7 monitoring remote), alerte SMS/email instant când temperatura/umiditatea depășesc limitele setate. Ideal pentru depozite frigorifice, camere curate pharma, magazine alimentare - asigură conformitatea cu normele de siguranță alimentară și raportare automată pentru auditori. Montaj: magnet pe perete metalic, suport plastic, agățat cu chingă.`
       },
       {
         name: 'Termo-Anemometre și Manometre - Seria testo 400/480',
-        description: `Instrumentele Testo pentru măsurarea vitezei și debitului aerului sunt esențiale în HVAC pentru balansarea sistemelor de ventilație și verificarea confortului termic. Testo 400 instrument universal cu sonde interschimbabile: sondă viteză/temperatură (termo-anemometru), sondă umiditate/temperatură, sondă presiune diferențială, sondă CO2/temperatură. Display touchscreen 5" color, meniu ghidat pentru aplicații tipice (măsurare debit prin grilă, calcul schimburi aer/oră în încăpere, verificare presiune negativă cameră sterilă). Memorie pentru măsurători și topologii (poți salva dimensiunile unei grile și instrumentul calculează automat debitul total). Testo 480 analizor climat premium: toate sondele de mai sus + sondă intensitate luminoasă (lux), sondă nivel sonor (dB), sondă PMV (Predicted Mean Vote - indice confort termic ISO 7730). Software testo FlowRate pentru configurare complexă și rapoarte detaliate. Aplicații: balansare debit guri ventilație (fiecare grilă trebuie să livreze debitul proiectat), verificare curățare aer în camere curate (număr schimburi/oră), testare filtre HEPA (presiune diferențială înainte/după filtru), audit calitate aer interior (CO2, umiditate, temperatură, viteză aer pentru draft). Calibrare anuală recomandată pentru sonde.`
+        description: `Instrumentele Testo pentru măsurarea vitezei și debitului aerului sunt esențiale în HVAC pentru balansarea sistemelor de ventilație și verificarea confortului termic. Testo 400 instrument universal cu sonde interschimbabile: sondă viteză/temperatură (termo-anemometru), sondă umiditate/temperatură, sondă presiune diferențială, sondă CO2/temperatură. Display touchscreen 5" color, meniu ghidat pentru aplicații tipice (măsurare debit prin grilă, calcul schimburi aer/oră în încăpere, verificare presiune negativă cameră sterilă). Memorie pentru măsurători și topologii (poți salva dimensiunile unei grile și instrumentul calculează automat debitul total). Testo 480 analizor climat premium: toate sondele de mai sus + sondă intensitate luminoasă (lux), sondă PMV (Predicted Mean Vote - indice confort termic ISO 7730). Software testo FlowRate pentru configurare complexă și rapoarte detaliate. Aplicații: balansare debit guri ventilație (fiecare grilă trebuie să livreze debitul proiectat), verificare curățare aer în camere curate (număr schimburi/oră), testare filtre HEPA (presiune diferențială înainte/după filtru), audit calitate aer interior (CO2, umiditate, temperatură, viteză aer pentru draft). Calibrare anuală recomandată pentru sonde.`
       }
     ],
 
@@ -1190,7 +1190,7 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
       'Retail (supermarketuri - monitorizare lăzi frigorifice)'
     ],
 
-    infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la informațiile publice din fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 1–4 săptămâni la comandă. Pentru o cotație utilă, spune-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
+    infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la informațiile publice din fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 1–4 săptămâni la comandă. Pentru o cotație utilă, spuneți-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
     sources: [
       {"title":"Testo - sitemap produse (en-US)","url":"https://www.testo.com/en-US/sitemap/product.xml","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
       {"title":"Testo - pagina oficială","url":"https://www.testo.com/","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
@@ -1198,8 +1198,8 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
       { title: 'Testo SE & Co. KGaA', url: 'https://en.wikipedia.org/wiki/Testo_SE_%26_Co._KGaA', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu oferim noi calibrarea DKD/DAkkS a instrumentelor Testo și nu putem confirma stocul permanent pentru fiecare model din portofoliu.',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     productCodes: [
       {
         "code": "testo 300",
@@ -1269,7 +1269,7 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
       },
       {
         "q": "Aduceți camere termografice Testo în România?",
-        "a": "Da, camerele termografice și analizoarele Testo se aduc la comandă din gama oficială a producătorului, fără stoc ținut permanent pe raft; timpul de livrare depinde de model și de disponibilitatea din fabrică. Trimiteți codul exact (de exemplu testo 872s) sau aplicația dorită - electrică, mecanică, clădiri - pentru o ofertă corectă și rapidă."
+        "a": "Da, camerele termografice și analizoarele Testo se aduc la comandă din gama producătorului, fără stoc ținut permanent pe raft; termenul obișnuit este de 1–4 săptămâni, în funcție de model. Trimiteți codul exact (de exemplu testo 872s) sau aplicația dorită - electrică, mecanică, clădiri - pentru o ofertă corectă și rapidă."
       },
       {
         "q": "Ce trimit pentru o ofertă de instrument Testo?",
@@ -1287,37 +1287,37 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
     founded: 1899,
     headquarters: 'North Canton, Ohio, SUA',
     employees: '19,000+',
-    overview: `The Timken Company este un producător de rulmenți cu specializare în rulmenți conici (tapered roller bearings). Dar Timken nu e doar rulmenți - au și divizii de power transmission (lanțuri, curele, cuplate, reductoare dobândite prin achiziții Drives, Philadelphia Gear, Cone Drive), bearing steel (Timken Steel) și chiar aerospace bearings pentru aviație militară/civilă. Cu peste 125 de ani de istorie, compania a acumulat experiență în tribologie și metalurgie, fiind prezentă în aplicații heavy-duty: mining, oil & gas, wind energy, rail, heavy trucks.
+    overview: `The Timken Company este un producător de rulmenți cu specializare în rulmenți conici (tapered roller bearings). Dar Timken nu e doar rulmenți - au și produse de transmisie a puterii (lanțuri, curele, cuplaje, reductoare), precum și rulmenți pentru aplicații aerospațiale. Cu peste 125 de ani de istorie, compania a acumulat experiență în tribologie și metalurgie, fiind prezentă în aplicații heavy-duty: mining, oil & gas, wind energy, rail, heavy trucks.
 
-Rulmenții Timken se folosesc frecvent în aplicații grele - reductoare pentru macarale, roți excavatoare, arbori principali turbine eoliene. Rulmenții conici Timken suportă sarcini combinate (radială + axială) cu capacitate de încărcare superioară datorită designului geometric optimizat: ruloul conic și inelul interior/exterior sunt proiectate astfel încât toate liniile de contact să converge într-un singur punct pe axa rulmentului - rezultă distribuție uniformă a sarcinii și uzură minimă. Plus calitatea oțelului: Timken controlează întregul proces de la topire (clean steel cu incluziuni minime) până la tratament termic precis pentru duritate optimă 58-64 HRC.
+Rulmenții Timken se folosesc frecvent în aplicații grele - reductoare pentru macarale, roți excavatoare, arbori principali turbine eoliene. Rulmenții conici Timken suportă sarcini combinate (radială + axială) cu capacitate de încărcare superioară datorită designului geometric optimizat: ruloul conic și inelul interior/exterior sunt proiectate astfel încât toate liniile de contact să converge într-un singur punct pe axa rulmentului - rezultă distribuție uniformă a sarcinii și uzură minimă. Rulmenții sunt realizați din oțeluri pentru rulmenți cu tratament termic controlat; duritatea depinde de produs, conform documentației producătorului.
 
-Dar Timken nu vinde doar componente - oferă engineering services complete: calcul durată de viață L10 în condițiile reale de operare, recomandări de montaj și lubrifiere pentru maximizare performanță, training pentru personal de mentenanță, analiză vibrațiilor și investigație defecțiuni. Au chiar laboratoare de testare în North Canton unde pot simula condiții extreme și valida soluții customizate pentru aplicații critice. Investiție pentru decenii de funcționare fără probleme.`,
+Dar Timken nu vinde doar componente - oferă engineering services complete: calcul durată de viață L10 în condițiile reale de operare, recomandări de montaj și lubrifiere pentru maximizare performanță, training pentru personal de mentenanță, analiză vibrațiilor și investigație defecțiuni. `,
 
     whyChoose: [
       'Expertiză extinsă în rulmenți conici - acumulată în peste un secol de activitate',
-      'Calitate oțel ridicată - Timken Steel controlează metalurgia de la topire pentru puritate ridicată',
+      'Materiale și tratament termic controlate, conform documentației producătorului',
       'Capacitate de încărcare ridicată - design geometric optimizat pentru sarcini combinate mari',
       'Durată de viață prelungită - L10 life ridicat, datorită calității materialelor și prelucrării, conform producătorului',
       'Suport ingineresc avansat - calcul bearing life, recomandări montaj/lubrifiere, troubleshooting',
-      'Gamă completă power transmission - de la rulmenți până la reductoare și cuplate, soluție integrată'
+      'Gamă de produse pentru transmisia puterii (power transmission) - de la rulmenți până la reductoare și cuplaje'
     ],
 
     keyProducts: [
       {
         name: 'Rulmenți Conici (Tapered Roller Bearings)',
-        description: `Rulmenții conici Timken sunt soluția de referință pentru aplicații cu sarcini combinate mari (radială + axială simultană) în construcții grele, mining, energie. Design: con interior (inner race), con exterior (outer race - cup), set de role conice, cușcă de ghidare din oțel sau alamă. Geometrie optimizată: toate liniile de contact (rolă-con interior, rolă-con exterior) converg într-un punct comun pe axa rulmentului = distribuție perfectă a sarcinii, frecare redusă, uzură minimă. Disponibil în configurații: single-row (o singură linie role), double-row (două linii pentru capacitate axială și radială mare), four-row (patru linii pentru aplicații extreme - laminoare, excavatoare bucket wheel). Dimensiuni de la 15mm diametru interior până la peste 2000mm pentru aplicații gigantice. Material: oțel SAE 52100 sau Timken proprietary alloys pentru condiții extreme (temperatură, coroziune). Tratament termic controlat pentru duritate 58-64 HRC cu tenacitate internă pentru rezistență la șoc. Serii populare: 30200, 32000 (metrice), LM67000, HM88600 (inch). Aplicații: roți camioane/remorci, reductoare industriale, arbori principali turbine eoliene, punți rulare macarale, roți vagoane feroviare, arbori pompe mari. Lubrifiere: unsoare NLGI 2/3 sau ulei circulant funcție de viteză și sarcină. Montaj: necesită pre-load (pre-încărcare axială) corectă pentru funcționare optimă - Timken oferă specificații detaliate și scule speciale pentru setare.`
+        description: `Rulmenții conici Timken sunt folosiți în aplicații cu sarcini combinate mari (radială + axială simultană) în construcții grele, mining, energie. Design: con interior (inner race), con exterior (outer race - cup), set de role conice, cușcă de ghidare din oțel sau alamă. Geometrie optimizată: toate liniile de contact (rolă-con interior, rolă-con exterior) converg într-un punct comun pe axa rulmentului = distribuție perfectă a sarcinii, frecare redusă, uzură minimă. Disponibil în configurații: single-row (o singură linie role), double-row (două linii pentru capacitate axială și radială mare), four-row (patru linii pentru aplicații extreme - laminoare, excavatoare bucket wheel). Catalogul producătorului acoperă diametre interioare de la 10 mm până la 2000 mm. Materialul și tratamentul termic depind de produs, conform documentației producătorului. Serii populare: 30200, 32000 (metrice), LM67000, HM88600 (inch). Aplicații: roți camioane/remorci, reductoare industriale, arbori principali turbine eoliene, punți rulare macarale, roți vagoane feroviare, arbori pompe mari. Lubrifiere: unsoare NLGI 2/3 sau ulei circulant funcție de viteză și sarcină. Montaj: necesită pre-load (pre-încărcare axială) corectă pentru funcționare optimă - Timken oferă specificații detaliate și scule speciale pentru setare.`
       },
       {
         name: 'Rulmenți cu Role Sferice (Spherical Roller Bearings)',
-        description: `Rulmenții cu role sferice Timken (serie AP, seria din achiziția Fafnir) suportă sarcini radiale foarte mari și permit dezalinieri până la 3° între arbore și carcasă - esențial în aplicații unde alinierile perfecte sunt imposibile (utilaje mining, vibrating screens, crushers, mori pentru ciment). Design: două rânduri de role în formă de butoi (barrel-shaped rollers) cu ghidare pe cale comună sferică pe con exterior. Dezalinierile se compensează automat prin rotația rolelor pe calea sferică - eliminare stres și uzură prematură. Capacitate radială ridicată (mai mare decât la rulmenții conici echivalenți, conform producătorului), capacitate axială moderată (10-20% din radială). Dimensiuni 20-1500mm diametru interior. Variante: CA (cușcă din alamă), MB (cușcă din oțel), E (design optimizat Timken). Carcasă opțională: SNT, SNP (split plummer blocks) pentru montaj ușor pe arbori fără demontare lanțuri/curele. Garnituri integrate pentru protecție împotriva contaminării (praf, apă). Aplicații: crushing & screening (concasoare, ciururi vibrante), pulp & paper (role mașini hârtie), mining (role conveioare, cilindri zdrobitori), ciment (mori, cilindri transportoare), energie (generatoare hidro mari). Lubrifiere: unsoare pentru viteze mici-medii, ulei pentru viteze mari sau temperaturi ridicate. Service life: 50,000-100,000 ore în condiții normale, recondiționare posibilă prin înlocuire role și cușcă.`
+        description: `Rulmenții cu role sferice Timken suportă sarcini radiale mari și permit un anumit grad de dezaliniere între arbore și carcasă, în funcție de serie - esențial în aplicații unde alinierile perfecte sunt imposibile (utilaje mining, vibrating screens, crushers, mori pentru ciment). Design: două rânduri de role în formă de butoi (barrel-shaped rollers) cu ghidare pe cale comună sferică pe con exterior. Dezalinierile se compensează automat prin rotația rolelor pe calea sferică - eliminare stres și uzură prematură. Capacitatea radială și axială, dimensiunile și variantele de cușcă depind de serie și se confirmă din catalogul producătorului. Carcasă opțională: SNT, SNP (split plummer blocks) pentru montaj ușor pe arbori fără demontare lanțuri/curele. Garnituri integrate pentru protecție împotriva contaminării (praf, apă). Aplicații: crushing & screening (concasoare, ciururi vibrante), pulp & paper (role mașini hârtie), mining (role conveioare, cilindri zdrobitori), ciment (mori, cilindri transportoare), energie (generatoare hidro mari). Lubrifiere: unsoare pentru viteze mici-medii, ulei pentru viteze mari sau temperaturi ridicate. Durata de viață depinde de sarcină, viteză, lubrifiere și mediu; se calculează pentru fiecare aplicație.`
       },
       {
         name: 'Reductoare Industriale - Divizia Philadelphia Gear',
-        description: `Timken a achiziționat Philadelphia Gear (fondată 1892) și oferă acum reductoare industriale custom-built pentru aplicații heavy-duty. Tipuri: cu roți cilindrice (parallel shaft, helical gears) pentru puteri mari 100-50,000 HP, rapoarte 1.25:1 până 450:1, eficiență 96-98%. Cu roți conice-cilindrice (bevel-helical) pentru unghiuri 90° între intrare/ieșire. Planetare (planetary) compacte cu rapoarte mari într-un volum mic. Worm gear (melcat-roată melcată) pentru rapoarte foarte mari (până 3600:1) și auto-blocare. Aplicații: mining (conveioare, crushers, SAG mills, ball mills), ciment (mori, cuptoare rotative), oțelării (laminoare, mașini de turnare continuă), pulp & paper (digestoare, mașini hârtie), petrochimie (agitatoare, pompe mari), macarale (winch-uri, turle). Design customizat: inginerii Timken calculează dinții pentru rezistență la oboseală conform AGMA standards, selectează rulmenți și cuplaje optime, simulează termic pentru disipare căldură, verifică vibrații și zgomot. Construcție robustă: carcasă fontă sau oțel sudat, roți din oțel forjat tratat termic, rulmenți Timken pentru durată lungă, lubrifiere cu barbotare sau circulație forțată. Garanție extinsă și service la fața locului pentru reparații/reconditionări.`
+        description: `Timken oferă, prin Philadelphia Gear, reductoare industriale realizate la comandă pentru aplicații grele. Tipuri: cu roți cilindrice (parallel shaft, helical gears) pentru puteri mari; puterea, raportul de transmisie și randamentul depind de proiect. Cu roți conice-cilindrice (bevel-helical) pentru unghiuri 90° între intrare/ieșire. Planetare (planetary) compacte cu rapoarte mari într-un volum mic. Worm gear (melcat-roată melcată) pentru rapoarte mari de transmisie. Aplicații: mining (conveioare, crushers, SAG mills, ball mills), ciment (mori, cuptoare rotative), oțelării (laminoare, mașini de turnare continuă), pulp & paper (digestoare, mașini hârtie), petrochimie (agitatoare, pompe mari), macarale (winch-uri, turle). Design customizat: inginerii Timken calculează dinții pentru rezistență la oboseală conform AGMA standards, selectează rulmenți și cuplaje optime, simulează termic pentru disipare căldură, verifică vibrații și zgomot. Construcție robustă: carcasă fontă sau oțel sudat, roți din oțel forjat tratat termic, rulmenți Timken pentru durată lungă, lubrifiere cu barbotare sau circulație forțată. `
       },
       {
         name: 'Lanțuri și Transmisii - Divizia Drives',
-        description: `Prin achiziția mai multor companii (Diamond Chain, Drives Inc), Timken oferă lanțuri și sisteme de transmisie mecanică pentru industrie grea. Lanțuri cu role (roller chains) ISO/ANSI de la pitch 6mm până la 3" (76mm), simple/duble/triple strand, capacități până la 500,000 lbs (225 tone) tensiune rupere. Lanțuri engineered class: oțel special tratat, role bush-less pentru viață extinsă, pre-lubrifiere în fabrică. Lanțuri pentru condiții speciale: inox pentru food/pharma/coroziune, nickel-plated pentru temperaturi joase, case-hardened pentru abraziune. Curele de transmisie: V-belts classical și narrow, synchronous belts (timing belts HTD/STD), poly-V (multi-rib). Cuplate mecanice: grid couplings (flexibile prin grilă de oțel-primăvară), gear couplings (prin dinți), disc couplings (prin pachete de discuri flexibile) pentru compensare dezalinieri și absorție șocuri. Aplicații: conveioare (lanțuri pentru transport paleți, containere), agricultural machinery (combine, balers), oil & gas (pompe, drilling rigs), mining (drag-lines, bucket elevators). Engineering support: calcul putere transmisă, sizing pentru factor de service (șocuri, start/stop frecvent), recomandări lubrifiere pentru maximizare durată de viață. Instalare și mentenanță: training pentru tensionare corectă, aliniere roți, lubrifiere periodic.`
+        description: `Timken oferă lanțuri și sisteme de transmisie mecanică pentru industrie grea. Lanțuri cu role (roller chains) ISO/ANSI, simple, duble sau triple; pasul și sarcina de rupere depind de model. Lanțuri engineered class: oțel special tratat, role bush-less pentru viață extinsă, pre-lubrifiere în fabrică. Lanțuri pentru condiții speciale: inox pentru food/pharma/coroziune, nickel-plated pentru temperaturi joase, case-hardened pentru abraziune. Curele de transmisie: V-belts classical și narrow, synchronous belts (timing belts HTD/STD), poly-V (multi-rib). Cuplaje mecanice: grid couplings (flexibile prin grilă de oțel-primăvară), gear couplings (prin dinți), disc couplings (prin pachete de discuri flexibile) pentru compensare dezalinieri și absorție șocuri. Aplicații: conveioare (lanțuri pentru transport paleți, containere), agricultural machinery (combine, balers), oil & gas (pompe, drilling rigs), mining (drag-lines, bucket elevators). Engineering support: calcul putere transmisă, sizing pentru factor de service (șocuri, start/stop frecvent), recomandări lubrifiere pentru maximizare durată de viață. Instalare și mentenanță: training pentru tensionare corectă, aliniere roți, lubrifiere periodic.`
       }
     ],
 
@@ -1327,25 +1327,23 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       'ISO 45001 Occupational Health & Safety',
       'IATF 16949 Automotive Quality',
       'AS9100 Aerospace Quality',
-      'API (American Petroleum Institute) pentru oil & gas',
-      'AAR (Association of American Railroads) pentru railway',
-      'Military specifications (MIL-STD) pentru defense applications'
+
     ],
 
     industries: [
-      'Mining (excavatoare, crushers, conveioare)',
-      'Oil & Gas (drilling, pumps, compressors)',
-      'Wind Energy (main shaft bearings turbine)',
-      'Rail (roți vagoane, locomotive, gear boxes)',
-      'Heavy Trucks & Trailers (roți, transmisii)',
-      'Metals (laminoare, mașini turnare continuă)',
-      'Ciment (mori, cuptoare rotative)',
-      'Pulp & Paper (role mașini, digestoare)',
-      'Macarale și Construction Equipment',
-      'Marine (propeller shafts, rudder bearings)'
+      'Industria minieră (excavatoare, concasoare, benzi transportoare)',
+      'Petrol și gaze (foraj, pompe, compresoare)',
+      'Energie eoliană (rulmenți pentru arborele principal al turbinelor)',
+      'Feroviar (osii de vagoane, locomotive, cutii de viteze)',
+      'Camioane grele și remorci (roți, transmisii)',
+      'Metalurgie (laminoare, mașini de turnare continuă)',
+      'Industria cimentului (mori, cuptoare rotative)',
+      'Industria hârtiei și celulozei (cilindri de mașini, digestoare)',
+      'Macarale și utilaje de construcții',
+      'Naval (arbori de elice, rulmenți de cârmă)'
     ],
 
-    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu cataloagele tehnice publice ale producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 1–4 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o cotație corectă trimite-ne codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
+    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu cataloagele tehnice publice ale producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 1–4 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o ofertă corectă, vă rugăm să ne transmiteți codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
     sources: [
       {"title":"Timken Tapered Roller Bearing Catalog","url":"https://www.timken.com/wp-content/uploads/2022/11/Timken-Tapered-Roller-Bearing-Catalog_10481.pdf","publisher":"Timken","accessed":"2026-09-23"},
       { title: 'Advanced Motion Technology Solutions | The Timken Company', url: 'https://www.timken.com/', publisher: 'The Timken Company', accessed: '2026-09-22' },
@@ -1379,7 +1377,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "code": "TNA",
-        "description": "Ansamblu conic neajustabil pentru montaj rapid în bloc"
+        "description": "Rulment conic cu două rânduri, similar cu TDO, cu fețele frontale ale inelelor interioare prelungite astfel încât să se sprijine una pe alta"
       },
       {
         "code": "TNASW",
@@ -1387,7 +1385,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "code": "TNASWE",
-        "description": "Ansamblu conic neajustabil cu canale de ungere și flanșă extinsă"
+        "description": "Variantă TNA cu nervuri extinse pe fața din spate a inelelor interioare, rectificate la diametrul exterior"
       },
       {
         "code": "2TS-IM",
@@ -1399,7 +1397,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "code": "2S",
-        "description": "Ansamblu cu două rulmente conice și distanțier cu inel de siguranță"
+        "description": "Ansamblu cu două rulmente conici TS, livrat cu distanțiere pentru inelul interior și pentru cel exterior"
       },
       {
         "code": "SR",
@@ -1423,15 +1421,15 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "code": "TTC",
-        "description": "Rulment axial cu role conice, configurație standard cu cușcă"
+        "description": "Rulment axial cu role conice"
       },
       {
         "code": "TTCS",
-        "description": "Rulment axial cu role conice, variantă de cușcă separată"
+        "description": "Rulment axial cu role conice"
       },
       {
         "code": "TTCL",
-        "description": "Rulment axial cu role conice, variantă cu cale lungă"
+        "description": "Rulment axial cu role conice"
       }
     ],
     faq: [
@@ -1456,8 +1454,8 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
         "a": "Este un ansamblu de doi rulmenți conici livrat preajustat din fabrică pentru un anumit joc axial, gândit să reducă timpul de montaj la utilizator. Elimină reglajele manuale ale jocului pe care le presupune un montaj clasic cu piese individuale, fiind util în producția de serie."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'transactional'
   },
 

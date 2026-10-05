@@ -189,13 +189,13 @@ Habasit urmărește eficiență ridicată în fiecare aplicație - benzi gândit
     founded: 1955,
     headquarters: 'Blieskastel, Germania',
     employees: '11500+',
-    overview: `Hager înseamnă soluții electrice inteligente pentru instalații rezidențiale, comerciale și industriale. Hager dezvoltă tablouri de distribuție modulare, întrerupătoare automate, contactoare, aparataj modular, sisteme de management energetic și infrastructură pentru stații de încărcare vehicule electrice. Tot ce ai nevoie pentru o instalație electrică modernă, sigură și eficientă energetic.
+    overview: `Hager înseamnă soluții electrice inteligente pentru instalații rezidențiale, comerciale și industriale. Hager dezvoltă tablouri de distribuție modulare, întrerupătoare automate, contactoare, aparataj modular, sisteme de management energetic și infrastructură pentru stații de încărcare vehicule electrice. Gama acoperă componentele pentru instalații electrice moderne, sigure și eficiente energetic.
 
-Tablourile modulare Hager simplifică instalarea și întreținerea. Sistem complet coordonat: tablouri din oțel sau plastic ignifug, șine DIN standardizate, aparataj modular cu lățimi de 1 modul (18mm) până la 4 module, etichete integrate pentru identificare rapidă. Toate componentele sunt testate împreună - compatibilitate verificată, performanță predictibilă. Gama acoperă de la tablouri mici 4 module pentru apartamente până la distribuții complexe 144 module pentru clădiri comerciale.
+Tablourile modulare Hager simplifică instalarea și întreținerea. Sistem complet coordonat: tablouri din oțel sau plastic ignifug, șine DIN standardizate, aparataj modular cu lățimi de 1 modul (18mm) până la 4 module, etichete integrate pentru identificare rapidă. Toate componentele sunt testate împreună - compatibilitate verificată, performanță predictibilă. Gama acoperă tablouri de dimensiuni diferite, de la apartamente până la clădiri comerciale; numărul de module disponibil se confirmă din catalogul producătorului.
 
-Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au indicatori vizuali clari de stare, declanșare termică și magnetică precisă, capacitate de rupere ridicată. Sistemele de monitorizare energetică ajută la înțelegerea consumului real - contoare digitale cu interfață Modbus, afișaje locale, integrare în sisteme BMS. Hager investește constant în calitate - produsele trec teste de durabilitate (10.000+ operații mecanice), teste de mediu (temperaturi extreme, umiditate, vibrații), teste de siguranță (arc electric, sarcini inductive).`,
+Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au indicatori vizuali clari de stare, declanșare termică și magnetică precisă, capacitate de rupere ridicată. Sistemele de monitorizare energetică ajută la înțelegerea consumului real - contoare digitale cu interfață Modbus, afișaje locale, integrare în sisteme BMS. Hager investește constant în calitate - produsele trec teste de durabilitate, teste de mediu (temperaturi extreme, umiditate, vibrații), teste de siguranță (arc electric, sarcini inductive).`,
     whyChoose: [
-      'Tablouri modulare versatile - sisteme cu șine DIN pentru montaj rapid, configurații de la 4 la 144 module',
+      'Tablouri modulare - sisteme cu șine DIN pentru montaj rapid, cu număr variabil de module, conform catalogului producătorului',
       'Aparataj certificat CEI/IEC - întreruptoare automate curbe B/C/D, disjunctoare diferențiale 30-300mA, contactoare 25-63A',
       'Soluții smart building - contoare energie Modbus, întreruptoare programabile, integrare KNX pentru automatizare clădiri',
       'Calitate industrială - contacte argint, mecanisme termice bimetal calibrate, camere de stingere arc electric',
@@ -205,11 +205,11 @@ Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au ind
     keyProducts: [
       {
         name: 'Întreruptoare Automate Modulare (MCB)',
-        description: 'Protecții electrice miniaturizate pentru circuite monofazate și trifazate. Curbe de declanșare: B (6-10 x In) pentru circuite rezistive, C (10-14 x In) pentru uz general, D (20-30 x In) pentru motoare și transformatoare. Curenți nominali de la 6A la 63A, capacitate de rupere 6kA sau 10kA conform EN 60898. Declanșare termică prin bimetal calibrat pentru suprasarcini prelungite, declanșare magnetică instantanee pentru scurtcircuite. Indicator vizual poziție contacte, blocare în poziție OFF pentru lockout/tagout. Modularizare 1 pol = 1 modul (18mm), montaj rapid pe șină DIN 35mm. Durabilitate 10.000 operații mecanice, conform standardului EN 60898.'
+        description: 'Protecții electrice miniaturizate pentru circuite monofazate și trifazate. Curbe de declanșare conform EN 60898-1: B (3–5 x In) pentru circuite rezistive, C (5–10 x In) pentru uz general, D (10–20 x In) pentru motoare și transformatoare. Curenți nominali de la 6A la 63A, capacitate de rupere 6kA sau 10kA conform EN 60898. Declanșare termică prin bimetal calibrat pentru suprasarcini prelungite, declanșare magnetică instantanee pentru scurtcircuite. Indicator vizual poziție contacte, blocare în poziție OFF pentru lockout/tagout. Modularizare 1 pol = 1 modul (18mm), montaj rapid pe șină DIN 35mm. Durabilitatea mecanică și electrică se confirmă din fișa tehnică a codului, conform EN 60898.'
       },
       {
         name: 'Tablouri Distribuție Universale',
-        description: 'Carcase din oțel zincat sau ABS ignifug pentru montaj aparataj modular. Gama completă: tablouri încastrate (flush-mount) pentru apartamente, tablouri aparente (surface-mount) pentru spații tehnice, tablouri IP65 pentru exterior sau medii umede. Capacități: 4, 8, 12, 18, 24, 36, 48, 72, 144 module. Design inteligent: ușă transparentă pentru verificare vizuală fără deschidere, etichete inscriptibile pentru circuite, șine de legare la pământ, spații pentru contoare și automatizări. Preamblaj fabrică - cleme principale instalate, șine montate, reducere drastică timp instalare. Certificate fire resistance pentru aplicații critice.'
+        description: 'Carcase din oțel zincat sau ABS ignifug pentru montaj aparataj modular. Gama completă: tablouri încastrate (flush-mount) pentru apartamente, tablouri aparente (surface-mount) pentru spații tehnice, tablouri IP65 pentru exterior sau medii umede. Capacitățile (număr de module) se confirmă din catalogul producătorului pentru fiecare cod. Design inteligent: ușă transparentă pentru verificare vizuală fără deschidere, etichete inscriptibile pentru circuite, șine de legare la pământ, spații pentru contoare și automatizări. Preamblaj fabrică - cleme principale instalate, șine montate, reducere drastică timp instalare. Rezistența la foc a carcaselor se confirmă din documentația codului.'
       },
       {
         name: 'Contoare Energie Digitale',
@@ -233,12 +233,12 @@ Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au ind
       'Infrastructură - stații de încărcare EV, sisteme fotovoltaice, data centers',
       'Retail - magazine, supermarketuri, restaurante, cafenele',
       'Agricultură - ferme, sere, sisteme irigații, depozite frigorifice',
-      'Marine & offshore - tablouri certificate pentru aplicații maritime',
+      'Aplicații maritime - doar pentru gamele cu aprobări dedicate, confirmate pe cod',
       'Telecomunicații - protecții pentru echipamente telecom, stații bază',
       'Transport public - protecții pentru stații metrou, tramvai, sisteme semnalizare',
       'Spații publice - parcări, zone pietonale, iluminat stradal'
     ],
-    infinitrade: `Gama Hager de aparataj electric și tablouri de distribuție ajunge la clienții InfiniTrade prin canale de aprovizionare din UE; fără date proprii de stoc pentru fiecare referință, verificăm disponibilitatea la fiecare cerere primită. Componentele uzuale (întreruptoare automate, diferențiale) pot fi livrate în 24–72 h din stoc, iar tablourile configurate sau seriile speciale ajung de obicei în 1–4 săptămâni la comandă. Pentru o ofertă corectă, spune-ne curba de declanșare, curentul nominal, numărul de module necesar și tensiunea de lucru a instalației. Nu lucrăm cu prețuri publicate și nu confirmăm un termen fix înainte de a verifica stocul exact al furnizorului pentru codul cerut.`,
+    infinitrade: `Gama Hager de aparataj electric și tablouri de distribuție ajunge la clienții InfiniTrade prin canale de aprovizionare din UE; fără date proprii de stoc pentru fiecare referință, verificăm disponibilitatea la fiecare cerere primită. Componentele uzuale (întreruptoare automate, diferențiale) pot fi livrate în 24–72 h din stoc, iar tablourile configurate sau seriile speciale ajung de obicei în 1–4 săptămâni la comandă. Pentru o ofertă corectă, precizați-ne curba de declanșare, curentul nominal, numărul de module necesar și tensiunea de lucru a instalației. Nu lucrăm cu prețuri publicate și nu confirmăm un termen fix înainte de a verifica stocul exact al furnizorului pentru codul cerut.`,
     limitation: `Nu oferim configurare software pentru sistemele smart building Hager și nu confirmăm stocul pentru toate variantele de tablouri fără verificare punctuală.`,
     sources: [
       {"title":"Hager Romania","url":"https://hager.com/ro","publisher":"Hager","accessed":"2026-09-22"},
@@ -339,8 +339,8 @@ Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au ind
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hager în sursele citate.' }
     ]
   },
@@ -352,29 +352,29 @@ Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au ind
     employees: '6000+',
     overview: `Harting este unul dintre pionierii tehnologiei conectării industriale - de la clasicii conectori Han rectangulari până la soluții avansate de rețea Ethernet și wireless pentru Industrie 4.0. Harting dezvoltă conectori robuști pentru condiții extreme, module de interfață pentru automatizare, componente RFID pentru tracking industrial, soluții de rețea pentru fabrici inteligente. Peste 75 de ani experiență în inginerie de precizie.
 
-Conectorul Han este un standard larg răspândit în industrie. Design modular: carcasă metalică sau plastic high-impact, cadru central cu inserte interschimbabile (contacte putere, semnal, date, pneumatice), sistem de blocare rapid sau șuruburi. Asta înseamnă flexibilitate ridicată - conectorul se configurează exact cum e nevoie: 16 pini putere + 8 contacte semnal + modul Ethernet, sau protecție IP69K pentru spălare high-pressure. Contact cu argint pentru semnal, contact CuSn pentru putere, inserție fără scule.
+Conectorul Han este un standard larg răspândit în industrie. Design modular: carcasă metalică sau plastic high-impact, cadru central cu inserte interschimbabile (contacte putere, semnal, date, pneumatice), sistem de blocare rapid sau șuruburi. Asta înseamnă flexibilitate ridicată - conectorul se configurează exact cum e nevoie: 16 pini putere + 8 contacte semnal + modul Ethernet, sau protecție IP69K pentru spălare sub presiune. 
 
-Pentru Industrie 4.0, Harting a dezvoltat ecosistemul MICA - Mini Computer pentru aplicații industriale. E un PC compact modular care rulează la temperaturi de -40°C până +70°C, fără ventilator, cu conectivitate completă (Ethernet, serial, USB, I/O digitale), potrivit pentru edge computing - procesare locală a datelor, latență redusă, protecția informațiilor sensibile. Gama completează cu switch-uri Ethernet industriale, cabluri M12 pentru senzori, conectori PROFINET și EtherCAT pentru rețele deterministe.`,
+Pentru Industrie 4.0, Harting oferă platforma de calcul industrial MICA, destinată procesării locale a datelor (edge computing); specificațiile exacte (temperatură, interfețe) se confirmă din documentația producătorului. Gama completează cu switch-uri Ethernet industriale, cabluri M12 pentru senzori, conectori PROFINET și EtherCAT pentru rețele deterministe.`,
     whyChoose: [
       'Conectori Han recunoscuți ca standard industrial - modularitate completă (contact putere+semnal+date în aceeași carcasă)',
-      'Protecție IP extremă - variante IP65, IP67, IP68, IP69K pentru spălare high-pressure și medii submersibile',
-      'Ethernet industrial - switch-uri managed Layer 2/3, conectori M12 X-coded pentru 10 Gigabit, cablaje certificate Cat6A',
+      'Variante cu grade de protecție IP diferite (de exemplu IP65, IP67, IP69K), în funcție de model; gradul exact se confirmă pe cod',
+      'Ethernet industrial - switch-uri Ha-VIS eCon, conectori M12 și soluții HARTING RJ Industrial și ix Industrial pentru rețele de automatizare',
       'Soluții RFID robuste - cititori UHF și HF pentru tracking paleți, containere, scule în medii industriale',
-      'Calitate militară - teste vibrații conform MIL-STD, cicluri termice -40/+125°C, rezistență șocuri 50G',
-      'Inovație continuă - peste 100 patente active, laborator propriu testare, parteneriate universitare'
+      'Conectori proiectați pentru condiții industriale severe; valorile de vibrații, temperatură și șoc se confirmă pe cod',
+      'Producător german cu peste 75 de ani de experiență în tehnologia conectării'
     ],
     keyProducts: [
       {
         name: 'Conectori Han Modulari',
-        description: 'Sistem de conectare industrial versatil, cu o gamă largă de variante. Carcasă din aluminiu turnat (variante: nichel-plated, inox pentru offshore, plastic high-impact pentru light-duty). Dimensiuni: Han 3A (10 pini, mic și compact), Han 6B (16 pini), Han 10B (24 pini), Han 16B (48 pini), Han 24B (72 pini), Han 64B (144 pini). Inserții modulare: contacte putere 10-200A, contacte semnal AWG22-26, module Ethernet RJ45, module USB, module fibră optică, module pneumatice push-in. Blocare: Han-Quick Lock fără scule (1/4 rotație), sau închidere cu șuruburi pentru vibrații extreme. Protecție IP67 cu garnitură elastomerică, variante IP69K cu sistem dublu-seal. Utilizare: robotică industrială, mașini-unelte, instalații proces, echipamente mobile, energie regenerabilă (eoliene, fotovoltaice).'
+        description: 'Sistem de conectare industrial versatil, cu o gamă largă de variante. Carcasă din aluminiu turnat (variante nichelate, inox pentru offshore, plastic rezistent la impact pentru aplicații ușoare). Mărimile carcaselor (de exemplu Han 3A, Han 6B, Han 10B, Han 16B, Han 24B) și numărul de contacte depind de configurație și se confirmă pe cod. Inserții modulare: contacte de putere, contacte de semnal, module Ethernet RJ45, module USB, module fibră optică, module pneumatice. Blocare: Han-Quick Lock fără scule (1/4 rotație), sau închidere cu șuruburi pentru vibrații extreme. Gradul de protecție IP (de exemplu IP65/IP67, iar la unele variante IP69K) depinde de model. Utilizare: robotică industrială, mașini-unelte, instalații proces, echipamente mobile, energie regenerabilă (eoliene, fotovoltaice).'
       },
       {
         name: 'Switch-uri Ethernet Industriale',
-        description: 'Infrastructură rețea pentru fabrici inteligente și sisteme de automatizare. Porturi: 5, 8, 16, 24 porturi Gigabit Ethernet, opțional 2-4 porturi SFP pentru fibră optică. Funcții managed: VLAN pentru segmentare trafic, QoS pentru prioritizare protocoale industrial (PROFINET, EtherNet/IP), redundanță rețea prin RSTP/MRP (recovery sub 20ms la cădere link), port mirroring pentru diagnostic. Alimentare: 24VDC sau PoE+ pentru alimentare camere/access points. Carcasă metalică IP30 pentru montaj DIN rail, variante IP67 pentru medii umede. Temperatură operare -40°C până +75°C fără ventilator (convecție naturală). Aplicații: rețele fabrică, integrare roboți, sisteme viziune, monitorizare proces timp real.'
+        description: 'Infrastructură rețea pentru fabrici inteligente și sisteme de automatizare. Seria Ha-VIS eCon include switch-uri Ethernet industriale neadministrate, cu porturi RJ45 și variante cu fibră optică; numărul de porturi, funcțiile, alimentarea și domeniul de temperatură se confirmă pe cod, din fișa tehnică. Aplicații: rețele fabrică, integrare roboți, sisteme viziune, monitorizare proces timp real.'
       },
       {
         name: 'Sisteme RFID Industriale',
-        description: 'Tehnologie identificare radio-frecvență pentru tracking și trasabilitate. Cititori UHF (860-960 MHz, range 5-8 metri) pentru paleți, containere, vehicule industriale. Cititori HF (13.56 MHz, range 10-30cm) pentru componente, scule, work-in-process. Tag-uri: pasive (fără baterie, alimentare din câmpul cititorului), active (cu baterie, senzori temperatură/șoc integrați), IP68/IP69K pentru aplicații extreme. Antene: gate antennas pentru detectare trecere (porți logistice), panel antennas pentru zone definite, embedded antennas pentru integrare echipamente. Interfață: Ethernet TCP/IP, RS232/485, I/O digitale pentru integrare PLC. Software SDK pentru aplicații custom - inventory management, tool tracking, anti-counterfeiting. Frecvență citire până 200 tag-uri/secundă.'
+        description: 'Tehnologie identificare radio-frecvență pentru tracking și trasabilitate. Cititori UHF (860-960 MHz) pentru paleți, containere, vehicule industriale. Cititori HF (13,56 MHz) pentru componente, scule, work-in-process. Tag-uri: pasive (fără baterie, alimentare din câmpul cititorului), active (cu baterie, senzori temperatură/șoc integrați), IP68/IP69K pentru aplicații extreme. Antene: gate antennas pentru detectare trecere (porți logistice), panel antennas pentru zone definite, embedded antennas pentru integrare echipamente. Interfață: Ethernet TCP/IP, RS232/485, I/O digitale pentru integrare PLC. Software SDK pentru aplicații custom - inventory management, tool tracking, anti-counterfeiting. '
       }
     ],
     certifications: [
@@ -385,7 +385,7 @@ Pentru Industrie 4.0, Harting a dezvoltat ecosistemul MICA - Mini Computer pentr
       'CE Marking - conformitate directivele Low Voltage, EMC, RoHS',
       'DNV GL Certified - conectori pentru aplicații marine și offshore',
       'ATEX Directive - conectori pentru zone cu risc exploziv',
-      'MIL-DTL-38999 - conectori grad militar pentru aplicații defense'
+      'Certificările exacte depind de produs și se confirmă pe cod, din documentația Harting'
     ],
     industries: [
       'Automatizare industrială - conectare roboți, PLC-uri, servomotoare, senzori',
@@ -504,12 +504,12 @@ Pentru Industrie 4.0, Harting a dezvoltat ecosistemul MICA - Mini Computer pentr
       },
       {
         "q": "Ce este un conector Han-Yellock și când se folosește?",
-        "a": "Han-Yellock este o familie de conectori de mare densitate cu sistem de închidere rapidă cu o singură mână, gândită pentru spații reduse și cicluri frecvente de conectare-deconectare, fiind folosită frecvent în mașini modulare, roboți mobili și echipamente unde accesul la conector este limitat."
+        "a": "Han-Yellock este o familie de conectori de mare densitate cu densitate mare de contacte și utilizare simplă, potrivită pentru aplicații în care spațiul și ușurința de conectare contează."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Harting în sursele citate.' }
     ]
   },
@@ -519,18 +519,18 @@ Pentru Industrie 4.0, Harting a dezvoltat ecosistemul MICA - Mini Computer pentr
     founded: 1978,
     headquarters: 'Hemmingen, Germania',
     employees: '1800+',
-    overview: `Helukabel produce și distribuie cabluri și conductoare industriale pentru o gamă largă de aplicații - de la cabluri de comandă flexibile pentru automatizare până la cabluri armate pentru instalații permanente, de la cabluri de date Ethernet industrial până la cabluri rezistente la temperaturi extreme pentru furnale și oțelării. O gamă foarte largă de referințe în portofoliul de cabluri industriale.
+    overview: `Helukabel produce și distribuie cabluri și conductoare industriale pentru o gamă largă de aplicații - de la cabluri de comandă flexibile pentru automatizare până la cabluri armate pentru instalații permanente, de la cabluri de date Ethernet industrial până la cabluri rezistente la temperaturi extreme pentru furnale și oțelării.
 
-Expertiza Helukabel e în aplicații speciale - cabluri care rezistă la -60°C în condiții arctice, cabluri care suportă 180°C continuu lângă cuptor, cabluri pentru lanț portcablu cu milioane de cicluri de flexiune, cabluri submersibile IP68 permanent. Pentru fiecare condiție extremă, producătorul dezvoltă o soluție testată riguros. Toate cablurile trec teste de flexiune (mașini dedicate, milioane cicluri), teste termice (camere climatice -60/+200°C), teste de rezistență chimică (imersie uleiuri, solvenți, acizi).
+Expertiza Helukabel e în aplicații speciale - cabluri care rezistă la -60°C în condiții arctice, cabluri care suportă 180°C continuu lângă cuptor, cabluri pentru lanț portcablu cu milioane de cicluri de flexiune, cabluri submersibile IP68 permanent. Caracteristicile și testele fiecărei serii sunt descrise în fișa tehnică a producătorului.
 
-Helukabel investește constant în cercetare - laborator propriu de testare cu echipamente (spectrometrie materiale, microscop electronic pentru analiza conductorilor, camere climatice, benzi de testare flexiune) și colaborează cu producători de echipamente industriale pentru dezvoltarea de cabluri custom - specificații exacte pentru aplicație, teste de validare, certificare UL/CSA dacă e necesar.`,
+`,
     whyChoose: [
-      'Gamă vastă 40.000+ referințe - cabluri pentru o gamă largă de aplicații, de la senzori până la energie medie tensiune',
-      'Specialiști aplicații extreme - cabluri pentru temperaturi -60°C/+180°C, medii chimice agresive, abraziune severă',
-      'Calitate certificată - toate cablurile testate conform IEC, UL, CSA, VDE, marcaje metrice clare pe izolație',
+      'Gamă largă de cabluri și conductoare industriale, de la senzori până la energie medie tensiune',
+      'Cabluri pentru aplicații speciale (temperaturi scăzute sau ridicate, medii chimice agresive, abraziune); limitele exacte sunt în fișa tehnică a fiecărei serii',
+      'Cabluri produse conform standardelor aplicabile fiecărei serii (de exemplu IEC, VDE, UL/CSA unde este cazul), conform fișelor tehnice',
       'Flexibilitate lanț portcablu - cabluri certificate pentru un număr ridicat de cicluri de flexiune, raze minime de curbură calculate precis',
-      'Stock permanent - disponibilitate imediată pentru lungimi standard, tăiere la metru fără cost adițional',
-      'Suport tehnic expert - calculăm secțiuni, verificăm compatibilitate chimică, selectăm izolații pentru temperatura aplicației'
+      'Tăiere la metru la comandă; disponibilitatea și termenul se confirmă pe cod, la furnizor',
+      'Suport la identificarea codului potrivit, pe baza fișelor tehnice ale producătorului'
     ],
     keyProducts: [
       {
@@ -539,11 +539,11 @@ Helukabel investește constant în cercetare - laborator propriu de testare cu e
       },
       {
         name: 'Cabluri Lanț Portcablu',
-        description: 'Serie TROMMELFLEX optimizată pentru mișcare continuă în lanțuri portcablu. Design special: conductori ultra-flexibili (clasa 6 conform DIN VDE), izolație TPE rezistent abraziune, filling extruders pentru menținere formă circulară cablu, manta exterioară PUR (poliuretan) cu rezistență ridicată la rupere și abraziune. Testare riguroasă în lanțuri test (viteză 3m/s, accelerație 5m/s²), conform producătorului. Ray minim de curbură calculat pentru fiecare dimensiune - 5x până la 7.5x diametru exterior cablu. Marcaje metrice imprimate la fiecare metru pentru tracking uzură. Temperatură -25°C până +80°C, variante pentru -40°C. Utilizare: roboți industriali, portale CNC, macarale, sisteme pick & place, AGV-uri.'
+        description: 'Pentru lanțuri portcablu, cablul se alege din familia indicată în fișa tehnică (de exemplu TOPFLEX-611 C-PUR). Design special: conductori ultra-flexibili (clasa 6 conform DIN VDE), izolație TPE rezistent abraziune, filling extruders pentru menținere formă circulară cablu, manta exterioară PUR (poliuretan) cu rezistență ridicată la rupere și abraziune. Testare riguroasă în lanțuri test (viteză 3m/s, accelerație 5m/s²), conform producătorului. Raza minimă de curbură calculată pentru fiecare dimensiune - 5x până la 7.5x diametru exterior cablu. Marcaje metrice imprimate la fiecare metru pentru tracking uzură. Temperatură -25°C până +80°C, variante pentru -40°C. Utilizare: roboți industriali, portale CNC, macarale, sisteme pick & place, AGV-uri.'
       },
       {
         name: 'Cabluri Date Ethernet Industrial',
-        description: 'Infrastructură de rețea pentru aplicații industriale severe. Cabluri Cat5e, Cat6, Cat6A certificate pentru protocoale industrial Ethernet (PROFINET, EtherNet/IP, EtherCAT). Conductori AWG22 sau AWG23 cupru pur, izolație PE celular cu constantă dielectrică redusă, împletire perechi conform 568B. Ecranare: S/FTP (folie+împletitură per pereche + împletitură overall) pentru medii EMI extreme, U/FTP pentru aplicații standard. Manta PUR pentru flexibilitate lanț portcablu sau PVC pentru instalare fixă. Certificare Siemens, Phoenix Contact, Beckhoff pentru compatibilitate protocoale. Viteză transmisie până 10 Gbps (Cat6A), distanțe 100m între switch și echipament. Variante: patch cord-uri prelungite M12 sau RJ45, cabluri bulk pentru instalare permanentă, cabluri LSZH pentru instalații indoor.'
+        description: 'Infrastructură de rețea pentru aplicații industriale severe. Cabluri Cat5e, Cat6, Cat6A certificate pentru protocoale industrial Ethernet (PROFINET, EtherNet/IP, EtherCAT). Conductori AWG22 sau AWG23 cupru pur, izolație PE celular cu constantă dielectrică redusă, împletire perechi conform 568B. Ecranare: S/FTP (folie+împletitură per pereche + împletitură overall) pentru medii EMI extreme, U/FTP pentru aplicații standard. Manta PUR pentru flexibilitate lanț portcablu sau PVC pentru instalare fixă. Compatibilitatea cu protocoalele industriale (PROFINET, EtherNet/IP, EtherCAT) se confirmă din fișa tehnică a fiecărui cablu. Viteză transmisie până 10 Gbps (Cat6A), distanțe 100m între switch și echipament. Variante: patch cord-uri prelungite M12 sau RJ45, cabluri bulk pentru instalare permanentă, cabluri LSZH pentru instalații indoor.'
       }
     ],
     certifications: [
@@ -553,8 +553,8 @@ Helukabel investește constant în cercetare - laborator propriu de testare cu e
       'UL/CSA Listed - cabluri certificate pentru piața nord-americană',
       'CE Marking - conformitate directivele Low Voltage, RoHS, REACH',
       'IEC 60332 - test comportament la foc, cabluri ignifuge',
-      'Siemens Approved - cabluri certificate PROFINET',
-      'Phoenix Contact Certified - cabluri pentru sisteme automatizare'
+      'PROFINET - la cablurile Ethernet industriale care îl menționează în fișa tehnică',
+      'Aprobări ale producătorilor de echipamente, numai unde sunt menționate în fișa tehnică'
     ],
     industries: [
       'Automatizare industrială - cablare PLC, senzori, actuatori, drive-uri',
@@ -568,7 +568,7 @@ Helukabel investește constant în cercetare - laborator propriu de testare cu e
       'Water treatment - stații epurare, pompare, sisteme de filtrare',
       'Mining - echipamente extractive, transportoare, sisteme ventilație'
     ],
-    infinitrade: `Cablurile Helukabel ajung la clienții InfiniTrade prin canale de aprovizionare din UE, tăiate la metrul solicitat - fără date proprii de stoc pentru fiecare secțiune sau tip de manta, verificăm disponibilitatea reală înainte de a promite un termen. Pentru cablurile din gama standard (comandă, semnal) termenul uzual e 24–72 h din stoc, iar pentru cablurile speciale (lanț portcablu, temperaturi extreme) calculează 1–4 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne tipul de cablu, secțiunea conductorilor, numărul de fire și lungimea necesară. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de cantitate și disponibilitatea reală la momentul comenzii.`,
+    infinitrade: `Cablurile Helukabel ajung la clienții InfiniTrade prin canale de aprovizionare din UE, tăiate la metrul solicitat - fără date proprii de stoc pentru fiecare secțiune sau tip de manta, verificăm disponibilitatea reală înainte de a promite un termen. Pentru cablurile din gama standard (comandă, semnal) termenul uzual e 24–72 h din stoc, iar pentru cablurile speciale (lanț portcablu, temperaturi extreme) calculăm 1–4 săptămâni la comandă. Ca să pregătim o ofertă, spuneți-ne tipul de cablu, secțiunea conductorilor, numărul de fire și lungimea necesară. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de cantitate și disponibilitatea reală la momentul comenzii.`,
     limitation: `Nu putem confirma stocul exact pentru fiecare secțiune și tip de manta din portofoliul Helukabel fără o verificare punctuală la comandă.`,
     sources: [
       {"title":"JZ-500 / OZ-500 datasheet","url":"https://assets-cdn.helukabel.com/suppliers/Helukabel/documents/db/HELUKABEL_M10001_EN_GB.pdf","publisher":"Helukabel","accessed":"2026-09-22"},
@@ -635,8 +635,8 @@ Helukabel investește constant în cercetare - laborator propriu de testare cu e
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Helukabel în sursele citate.' }
     ]
   },

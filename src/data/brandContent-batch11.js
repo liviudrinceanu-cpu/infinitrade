@@ -9,9 +9,9 @@ Gama Legrand include și sisteme complete de cablare structurată pentru clădir
 
 Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare până la sisteme complexe pentru instalații industriale, cât și pe cele ale unei fabrici întregi. Echipa tehnică InfiniTrade poate ajuta la alegerea configurației potrivite pentru proiectul dumneavoastră, fie că este vorba de renovarea unei case sau de echiparea unei fabrici.`,
     whyChoose: [
-      'Prize și întrerupătoare cu design modular – serii Céliane, Valena, Mosaic cu peste 1000 de combinații',
+      'Prize și întrerupătoare cu design modular – serii Céliane, Valena, Mosaic',
       'Sisteme de cablare structurată categoria 6A și 7 pentru rețele de până la 10 Gb/s',
-      'Tablouri electrice modulare IP65 cu protecție la praf și apă pentru medii industriale',
+      'Tablouri electrice modulare pentru instalații rezidențiale și industriale',
       'PDU-uri pentru centre de date cu monitorizare consumului în timp real și alerting SNMP',
       'Contactoare modulare 16-63A cu categorii de utilizare AC-1/AC-3 pentru instalații industriale',
       'Sisteme KNX pentru automatizare clădiri – integrare HVAC, iluminat, jaluzele, securitate'
@@ -19,19 +19,19 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
     keyProducts: [
       {
         name: 'Serii Prize și Întrerupătoare Modulare',
-        description: 'Seriile Legrand Céliane, Valena și Mosaic oferă o interfață completă între utilizatori și rețeaua electrică. Designul modular permite combinații nelimitate: de la prize simple la module USB, prize RJ45, HDMI, chiar și module audio. Mecanismele sunt proiectate pentru peste 100.000 de manevre, clipsurile de fixare se montează fără șuruburi, iar finisajele variază de la plastic ABS la sticlă temperată, metal brushed sau chiar lemn natural. În birourile moderne vedem tot mai des montaje flush în birouri cu module integrate USB-C și wireless charging. Pentru medii industriale, varianta Plexo cu IP55 rezistă la jet de apă și praf. Fiecare serie are certificări VDE și conformitate cu standardele IEC 60884.'
+        description: 'Seriile Legrand Céliane, Valena și Mosaic oferă o interfață completă între utilizatori și rețeaua electrică. Designul modular permite combinații nelimitate: de la prize simple la module USB, prize RJ45, HDMI, chiar și module audio. Finisajele variază în funcție de serie; gama exactă o confirmăm din catalogul Legrand. Pentru medii industriale, varianta Plexo cu IP55 rezistă la jet de apă și praf.'
       },
       {
         name: 'Sisteme Cablare Structurată LCS³',
-        description: 'Sistemele de cablare structurată Legrand LCS³ sunt folosite frecvent în rack-uri de telecomunicații bine organizate. Patch panel-urile categoria 6A și categoria 7 oferă bandwidth de 10 Gb/s pe distanțe de până la 100 metri, potrivit pentru backbone de rețea în clădiri mari. Modulele RJ45 au contacte gold-plated cu minimum 750 de cicluri insert-extract, iar cablurile de patch sunt făcute din cupru fără oxigen (OFC) pentru atenuare minimă. Sistemele includ managementul documentației – fiecare port are zonă de etichetare și codificare color pentru identificare rapidă. O organizare corectă a cablării poate reduce timpul de depanare, conform producătorului.'
+        description: 'Sistemele de cablare structurată Legrand LCS³ sunt folosite frecvent în rack-uri de telecomunicații bine organizate. Patch panel-urile categoria 6A și categoria 7 oferă bandwidth de 10 Gb/s pe distanțe de până la 100 metri, potrivit pentru backbone de rețea în clădiri mari. Sistemele includ managementul documentației – fiecare port are zonă de etichetare și codificare color pentru identificare rapidă. O organizare corectă a cablării poate reduce timpul de depanare, conform producătorului.'
       },
       {
         name: 'Tablouri Electrice Modulare Pragma',
-        description: 'Tablourile Pragma de la Legrand sunt standard în instalațiile industriale și rezidențiale din România. Construcția modulară permite configurații de la 12 module (1 rând) până la 288 module (12 rânduri), toate în același sistem. Carcasa din oțel galvanizat cu vopsire epoxidică rezistă la coroziune, iar ușile au garnituri IP65 pentru protecție completă la praf și jeturi de apă. Șinele DIN sunt pre-montate la 125mm spacing pentru montaj rapid al echipamentelor modulare. Fiecare tablou are certificare test de impact IK10 (20 jouli) și rezistență la foc conform IEC 61439. Tablourile Pragma sunt montate frecvent la puncte de distribuție cu funcționare continuă, conform producătorului.'
+        description: 'Tablourile Pragma de la Legrand sunt tablouri modulare pentru instalații electrice. Șinele DIN sunt pre-montate la 125mm spacing pentru montaj rapid al echipamentelor modulare.'
       },
       {
         name: 'PDU-uri pentru Centre de Date',
-        description: 'Power Distribution Units de la Legrand sunt creier-ul distribuției electrice în centre de date. Modelele intelligent PDU au monitorizare per priză – măsori consumul fiecărui server în timp real cu precizie ±1%. Interfața SNMP permite integrare în sisteme de management și alerting automat când consumul depășește praguri setate. Construcția rack-mount 19" cu 0U lateral economisește spațiul prețios din rack, iar prizele C13/C19 sunt orientate perpendicular pentru cablu management optim. PDU-urile Legrand se folosesc frecvent în server rooms unde densitatea de putere ajunge la 10kW per rack – sistemele gestionează load balancing-ul automat între circuite.'
+        description: 'Power Distribution Units de la Legrand asigură distribuția energiei electrice în centre de date. Modelele inteligente de PDU pot monitoriza consumul pe priză, în funcție de model. Interfața SNMP permite integrare în sisteme de management și alerting automat când consumul depășește praguri setate. Construcția rack-mount 19" cu 0U lateral economisește spațiul prețios din rack, iar prizele C13/C19 sunt orientate perpendicular pentru cablu management optim.'
       }
     ],
     certifications: [
@@ -41,7 +41,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       'CE – Conformitate standarde europene',
       'KEMA – Testare produse instalații electrice',
       'UL – Certificare pentru piața nord-americană',
-      'LEED – Contribuție la clădiri verzi',
+      
       'RoHS – Restricție substanțe periculoase'
     ],
     industries: [
@@ -54,7 +54,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       'Educație – cablare structurată, prize USB în săli',
       'Sănătate – prize medicale, sisteme UPS'
     ],
-    infinitrade: `Pornim de la surse publice ale producătorului Legrand și spunem clientului deschis ce putem și ce nu putem confirma despre disponibilitatea unei serii anume. Nu deținem un stoc afișat public pentru fiecare referință Legrand, dar aducem prizele, întrerupătoarele, tablourile modulare sau componentele de cablare structurată solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24–72 h din stoc pentru codurile curente sau în 1–4 săptămâni la comandă pentru serii mai puțin uzuale. Pentru o ofertă corectă, trimite-ne codul produsului Legrand, cantitatea necesară și, dacă ai, schema instalației sau a tabloului electric. Confirmăm termenul exact abia după ce verificăm disponibilitatea reală la furnizor.`,
+    infinitrade: `Pornim de la surse publice ale producătorului Legrand și spunem clientului deschis ce putem și ce nu putem confirma despre disponibilitatea unei serii anume. Nu deținem un stoc afișat public pentru fiecare referință Legrand, dar aducem prizele, întrerupătoarele, tablourile modulare sau componentele de cablare structurată solicitate prin canale de aprovizionare din Uniunea Europeană, de obicei în 24–72 h din stoc pentru codurile curente sau în 1–4 săptămâni la comandă pentru serii mai puțin uzuale. Pentru o ofertă corectă, trimiteți-ne codul produsului Legrand, cantitatea necesară și, dacă o aveți, schema instalației sau a tabloului electric. Confirmăm termenul exact abia după ce verificăm disponibilitatea reală la furnizor.`,
     limitation: 'Nu putem confirma service-ul în garanția producătorului pentru echipamentele Legrand și nici stocul permanent pentru fiecare serie sau finisaj din gamă, care rămân în sarcina rețelei oficiale a fabricantului.',
     sources: [
       {"title":"KEOR LP - Legrand","url":"https://ups.legrand.com/en/products/keor-lp","publisher":"Legrand","accessed":"2026-09-22"},
@@ -76,7 +76,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR SP",
-        "description": "UPS monofazat de putere medie pentru birouri și rețele"
+        "description": "UPS monofazat de 600 până la 2000 VA pentru birouri și rețele"
       },
       {
         "code": "KEOR SPE TOWER",
@@ -88,11 +88,11 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       },
       {
         "code": "KEOR PDU",
-        "description": "unitate de distribuție a energiei pentru rack-uri de server"
+        "description": "UPS monofazat de 800 VA din gama KEOR PDU, pentru rack-uri de server"
       },
       {
         "code": "KEOR S",
-        "description": "UPS monofazat de intrare de gama pentru echipamente critice"
+        "description": "UPS monofazat de 3 până la 10 kVA"
       },
       {
         "code": "MEGALINE",
@@ -142,7 +142,7 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
     faq: [
       {
         "q": "Ce diferență este între UPS-urile Legrand KEOR LP și KEOR SP?",
-        "a": "KEOR LP este un UPS monofazat compact, cu puteri de 1 până la 3 kVA, potrivit pentru echipamente de birou sau rețele mici. KEOR SP acoperă puteri mai mari, fiind gândit pentru servere sau instalații cu cerințe de alimentare neîntreruptă mai ridicate. Alegerea corectă depinde de puterea totală a echipamentelor protejate și de autonomia dorită la pană de curent."
+        "a": "KEOR LP este un UPS monofazat compact, cu puteri de 1 până la 3 kVA, potrivit pentru echipamente de birou sau rețele mici. KEOR SP acoperă puteri mai mici, de 600 până la 2000 VA, fiind gândit pentru echipamente de birou și rețele mici. Alegerea corectă depinde de puterea totală a echipamentelor protejate și de autonomia dorită la pană de curent."
       },
       {
         "q": "Livrați UPS-uri Legrand în România?",
@@ -158,8 +158,8 @@ Legrand acoperă atât nevoile unei locuințe, de la prize și întrerupătoare 
       }
     ],
     evidenceClass: 'zero-evidence',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },

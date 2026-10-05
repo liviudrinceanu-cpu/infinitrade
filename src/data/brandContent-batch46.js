@@ -666,14 +666,14 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
     whyChoose: [
       "Gamă foarte largă — de la dedurizare casnică până la apă pentru injecție în industria farmaceutică",
       "Aproximativ 6.500 de angajați la nivel global, cu prezență în mai multe segmente de piață",
-      "Soluții de mineralizare a apei (Pearl Water), utile unde gustul și compoziția apei tratate contează",
+      "Apă dedurizată „Pearl Water” pentru dus și bazin și soluții de apă mineralizată cu magneziu pentru băut, utile unde calitatea apei tratate contează",
       "Tehnologii de membrană aplicabile și la celule de combustibil, dincolo de tratarea clasică a apei",
       "Sediu central în Austria, cu peste trei decenii de activitate în domeniul apei"
     ],
     keyProducts: [
       { name: "Sisteme de Dedurizare a Apei", description: "Dedurizatoare pentru reducerea durității apei prin schimb ionic, folosite atât în instalații casnice, cât și în clădiri comerciale unde apa dură ar afecta boilere, țevi sau echipamente de spălare. Reduc depunerile de calcar și prelungesc durata de viață a instalațiilor termice și sanitare din clădire." },
       { name: "Filtrare și Osmoză Inversă pentru Apă Potabilă", description: "Sisteme de filtrare sub chiuvetă și unități de osmoză inversă pentru apă potabilă, cu cartușe de filtru înlocuibile periodic. Folosite acolo unde apa de la rețea are nevoie de o etapă suplimentară de purificare înainte de consum, în clădiri de birouri, hoteluri sau spații comerciale." },
-      { name: "Sisteme Pearl Water de Mineralizare", description: "Sisteme de mineralizare a apei tratate, care ajustează compoziția minerală după filtrare pentru un gust mai bun al apei potabile. Se montează după etapa de filtrare sau osmoză inversă, în instalații unde calitatea percepută a apei de la robinet contează pentru utilizatorii finali." },
+      { name: "Sisteme de Mineralizare a Apei", description: "Sisteme de mineralizare a apei tratate, care ajustează compoziția minerală după filtrare pentru un gust mai bun al apei potabile. Se montează după etapa de filtrare sau osmoză inversă, în instalații unde calitatea percepută a apei de la robinet contează pentru utilizatorii finali." },
       { name: "Apă pentru Injecție (WFI) și Soluții Farma", description: "Sisteme pentru producerea de apă pentru injecție și apă de proces cu puritate ridicată, folosite în industria farmaceutică și biotehnologică unde standardele de calitate a apei sunt strict reglementate. Aplicație de nișă, diferită tehnic de sistemele de apă potabilă din portofoliul general BWT." }
     ],
     industries: [
@@ -692,11 +692,11 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
       },
       {
         "code": "Perla One",
-        "description": "Variantă monocolonă a sistemului de dedurizare Perla"
+        "description": "Variantă a sistemului de dedurizare bicolonă Perla"
       },
       {
         "code": "Perla Hybrid",
-        "description": "Sistem de dedurizare combinat cu protecție anticorozivă suplimentară"
+        "description": "Variantă a gamei Perla; caracteristicile le confirmăm din documentația BWT"
       },
       {
         "code": "Perla Seta",
@@ -734,7 +734,7 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
     faq: [
       {
         "q": "Ce este sistemul BWT Perla și cu ce diferă de Perla One?",
-        "a": "BWT Perla este un sistem de dedurizare cu două coloane de schimb ionic, care asigură apă dedurizată în mod continuu chiar și în timpul regenerării unei coloane. Perla One folosește o singură coloană, fiind o variantă mai compactă pentru gospodării cu consum mai redus de apă. Diferența principală constă în debitul de vârf susținut și în spațiul de montaj necesar pentru instalare."
+        "a": "BWT Perla este un sistem de dedurizare cu două coloane de schimb ionic, care asigură apă dedurizată în mod continuu chiar și în timpul regenerării unei coloane. Perla One face parte din aceeași gamă de dedurizatoare cu două coloane; diferențele de debit de vârf și de spațiu de montaj le confirmăm din fișa tehnică a modelului."
       },
       {
         "q": "Ce este OSMOTRON de la BWT și pentru ce se folosește?",
@@ -742,17 +742,17 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
       },
       {
         "q": "Livrați echipamente BWT în România?",
-        "a": "Da, procurăm la cerere sistemele de dedurizare și echipamentele pentru apă purificată BWT, fără un stoc constituit anticipat pentru această gamă. Producătorul indică public un termen orientativ de două până la patru săptămâni pentru disponibilitate. Recomandăm menționarea durității apei locale și a debitului necesar pentru dimensionarea corectă a sistemului."
+        "a": "Da, procurăm la cerere sistemele de dedurizare și echipamentele pentru apă purificată BWT, fără un stoc constituit anticipat pentru această gamă. Termenul orientativ este de 1–4 săptămâni, în funcție de model. Recomandăm menționarea durității apei locale și a debitului necesar pentru dimensionarea corectă a sistemului."
       },
       {
         "q": "Ce trebuie să comunic pentru o ofertă de sistem de dedurizare BWT?",
-        "a": "Este importantă duritatea apei sursă, exprimată în grade germane sau franceze, numărul de persoane din gospodărie și debitul de vârf necesar la robinete. Pentru clădiri comerciale contează și programul de consum, deoarece influențează alegerea între o variantă monocolonă sau bicolonă precum Perla sau Perla One. Spațiul disponibil pentru montaj și presiunea din rețea completează datele necesare unei oferte corecte."
+        "a": "Este importantă duritatea apei sursă, exprimată în grade germane sau franceze, numărul de persoane din gospodărie și debitul de vârf necesar la robinete. Pentru clădiri comerciale contează și programul de consum, deoarece influențează alegerea modelului din gama Perla. Spațiul disponibil pentru montaj și presiunea din rețea completează datele necesare unei oferte corecte."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"BWT – Business Divisions","url":"https://www.bwt.com/en/business-divisions/","publisher":"BWT","accessed":"2026-09-25"},
       {"title":"BWT Perla – Shop","url":"https://www.bwt.com/en/shop/BWT-Perla/125686699","publisher":"BWT","accessed":"2026-09-25"},
@@ -768,7 +768,7 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
 
 Ca subsidiară Arkema, Bostik beneficiază de infrastructura de cercetare și distribuție a unui grup chimic mare, ceea ce îi permite să acopere atât aplicații industriale de asamblare, cât și segmente conexe precum construcțiile sau ambalajele. Pentru un integrator sau un producător care are nevoie de adezivi structurali sau de etanșare, Bostik e o opțiune de luat în calcul alături de alți producători chimici europeni, mai ales unde contează suportul tehnic pentru alegerea formulei potrivite fluidului sau materialului de asamblat.
 
-Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamblare industrială și la aplicații de etanșare unde specificația tehnică a clientului cere un anumit tip de adeziv (poliuretanic, epoxidic, hot-melt) mai degrabă decât o soluție generică de la orice furnizor.`,
+Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamblare industrială și la aplicații de etanșare unde specificația tehnică a clientului cere un anumit tip de adeziv (de exemplu cianoacrilat, anaerob sau acrilic activat UV) mai degrabă decât o soluție generică de la orice furnizor.`,
     whyChoose: [
       "Parte a grupului chimic Arkema din 2015, cu acces la infrastructura de cercetare a grupului",
       "Istorie de peste un secol în industria adezivilor, provenită din compania americană originală",
@@ -787,7 +787,7 @@ Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamb
       "Producția de bunuri durabile — asamblare de componente în electrocasnice și mobilier"
     ],
     infinitrade: `Nu avem surse proprii de stoc pentru Bostik — verificăm doar ce apare public despre gamă și despre grupul Arkema înainte să răspundem unei cereri. Aducem adezivii la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de materialele care trebuie asamblate sau etanșate, condițiile de temperatură și umiditate din aplicație și cantitatea necesară. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă și confirmăm disponibilitatea reală înainte de a trimite prețul final.`,
-    limitation: "Nu putem confirma fișa tehnică exactă și compatibilitatea chimică pentru fiecare referință Bostik fără acces direct la site-ul oficial al producătorului la momentul cererii.",
+    limitation: "Nu putem confirma compatibilitatea chimică pentru fiecare referință Bostik fără fișa tehnică a producătorului pentru codul respectiv.",
     productCodes: [
       {
         "code": "Born2Bond Pre-Bonding Cleaner",
@@ -881,7 +881,7 @@ Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamb
       },
       {
         "q": "Livrați adezivi Bostik în România?",
-        "a": "Da, obținem la comandă adezivii Born2Bond și seriile anaerobe Bostik, deoarece nu menținem un stoc constituit din această gamă. Timpul uzual publicat de producător pentru această gamă este de două până la patru săptămâni. Fișa tehnică de siguranță a produsului ajută la confirmarea compatibilității cu materialele de îmbinat."
+        "a": "Da, obținem la comandă adezivii Born2Bond și seriile anaerobe Bostik, deoarece nu menținem un stoc constituit din această gamă. Termenul obișnuit este de 1–4 săptămâni la comandă. Fișa tehnică a produsului ajută la confirmarea compatibilității cu materialele de îmbinat."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de adeziv structural Bostik?",
@@ -890,8 +890,8 @@ Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamb
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Born2Bond – Products","url":"https://born2bond.bostik.com/en/products/search","publisher":"Bostik","accessed":"2026-09-25"},
       {"title":"Bostik Engineering Adhesives – Product Catalogue 2025","url":"https://born2bond.bostik.com/storage/bostik-engineering-adhesives-product-catalogue-2025.pdf","publisher":"Bostik","accessed":"2026-09-25"},

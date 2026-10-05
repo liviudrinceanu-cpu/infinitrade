@@ -685,7 +685,7 @@ Pentru România, cablurile Belden au sens la instalații industriale unde rețea
     founded: 1953,
     overview: `WD-40 este un producător american de spray-uri tehnice pentru lubrifiere, curățare și protecție anticorozivă, prezent pe piață de peste 70 de ani. Portofoliul pentru uz tehnic se împarte în două linii: WD-40 Multi-Use Product, spray-ul generalist "un produs, mii de utilizări", și WD-40 Specialist, o gamă dedicată profesioniștilor cu produse separate pentru degripare, lubrifiere uscată, curățare de contacte sau protecție anticorozivă. Putem oferta din ambele linii pentru mentenanță industrială.
 
-Diferența dintre cele două linii e scopul: produsul Multi-Use e gândit ca soluție universală de atelier — deplasează umezeala, desface piese înțepenite, unge ușor și curăță suprafețe —, în timp ce gama Specialist separă funcțiile pe produse dedicate, fiecare optimizat pentru o singură sarcină, de exemplu lubrifiant uscat cu PTFE pentru piese unde nu vrei reziduu gras. Această segmentare pe funcție lipsește la un spray multifuncțional generic și permite alegerea produsului potrivit fără compromisuri.
+Diferența dintre cele două linii e scopul: produsul Multi-Use e gândit ca soluție universală de atelier — deplasează umezeala, desface piese înțepenite, unge ușor și curăță suprafețe —, în timp ce gama Specialist separă funcțiile pe produse dedicate, fiecare optimizat pentru o singură sarcină, de exemplu lubrifiant uscat cu PTFE pentru piese unde nu se dorește reziduu gras. Segmentarea pe funcție permite alegerea produsului potrivit pentru fiecare sarcină.
 
 Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierele de întreținere, service-urile auto și liniile de producție unde se caută un produs rapid pentru degripare, curățare de contacte electrice sau protecție anticorozivă temporară.`,
     whyChoose: [
@@ -698,7 +698,7 @@ Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierel
     keyProducts: [
       { name: "WD-40 Multi-Use Product", description: "Spray-ul generalist de întreținere, gândit pentru mii de aplicații de atelier — deplasează umezeala de pe contacte electrice, desface șuruburi și piese ruginite, unge ușor mecanisme și curăță reziduuri de pe suprafețe metalice. Nu e un lubrifiant de precizie pentru sarcini grele, ci un produs de intervenție rapidă. Pentru comandă, clientul trebuie să indice formatul dorit și cantitatea necesară." },
       { name: "WD-40 Specialist — degripare și lubrifiere țintită", description: "Sub-gamă pentru profesioniști, cu produse separate pentru sarcini specifice: lubrifiant uscat cu PTFE pentru piese fără reziduu gras, spray de curățare a contactelor electrice și degripant de forță pentru piese blocate de rugină. Fiecare produs e optimizat pentru funcția lui. Pentru ofertă, clientul trebuie să precizeze funcția dorită." },
-      { name: "WD-40 Specialist — protecție anticorozivă pe termen lung", description: "Variante din gama Specialist dedicate protecției pieselor metalice expuse la umezeală sau depozitare îndelungată, cu peliculă de protecție mai persistentă decât spray-ul multifuncțional standard. Utile la scule sau piese de schimb depozitate între utilizări. Pentru comandă, clientul trebuie să trimită tipul de suprafață și durata de protecție dorită." },
+      { name: "WD-40 Specialist — protecție anticorozivă pe termen lung", description: "Pentru protecție anticorozivă confirmăm pe cod produsul din gama Specialist și formatul disponibil, din documentația WD-40. Pentru comandă, clientul trebuie să trimită tipul de suprafață și durata de protecție dorită." },
     ],
     industries: [
       "Mentenanță industrială — degripare și lubrifiere rapidă pe linii de producție",
@@ -753,7 +753,7 @@ Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierel
     faq: [
       {
         "q": "Care este diferența dintre WD-40 Multi-Use Product și gama WD-40 Specialist?",
-        "a": "WD-40 Multi-Use Product este formula universală, gândită pentru degripare, lubrifiere ușoară, protecție anticorozivă și îndepărtarea umidității, potrivită pentru majoritatea sarcinilor casnice și industriale ușoare. Gama WD-40 Specialist cuprinde produse dedicate unei singure sarcini, precum degresarea rapidă, lubrifierea uscată cu PTFE sau curățarea contactelor electrice, oferind performanță superioară acolo unde formula universală nu este suficient de țintită."
+        "a": "WD-40 Multi-Use Product este formula universală, gândită pentru degripare, lubrifiere ușoară, protecție anticorozivă și îndepărtarea umidității, potrivită pentru majoritatea sarcinilor casnice și industriale ușoare. Gama WD-40 Specialist cuprinde produse dedicate unei singure sarcini, precum degresarea rapidă, lubrifierea uscată cu PTFE sau curățarea contactelor electrice."
       },
       {
         "q": "Ce este WD-40 Smart Straw și cum diferă de doza clasică?",
@@ -774,8 +774,8 @@ Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierel
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Produse WD-40","url":"https://wd40.ro/produse/","publisher":"WD-40 Company","accessed":"2026-09-25"},
       { title: "WD-40 România — produse și tutoriale", url: "https://wd40.ro/", publisher: "WD-40 (site regional)", accessed: "2026-09-22" },
@@ -1069,21 +1069,21 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
     headquarters: "Wuppertal, Germania",
     overview: `Knipex este un producător german de clești și scule de mână, cu sediul la Wuppertal, în cartierul Cronenberg, tradițional pentru fabricarea de scule. Compania a pornit în 1882 ca mică forjă și a rămas în familia fondatoare, condusă din 1996 de Ralf Putsch, strănepotul fondatorului Carl Gustav Putsch. Gama include peste o sută de modele de bază și peste 900 de variante — clești combinați, clești pentru electricieni, clești de precizie pentru electronică, clești de tăiat sârmă și clești de apă tip Cobra și Alligator.
 
-Diferența față de un cleste generic vine din specializarea pe funcție — fiecare model e optimizat pentru o singură operație, spre deosebire de un set generic de scule unde compromisurile de design se văd la utilizare intensă. Gama de scule izolate rezistă la tensiuni de până la 1000V, testate pentru lucrul sub tensiune la instalații electrice, iar clești precum Cobra combină strângerea automată pe diametru cu o singură mișcare de reglare, fără șurub de ajustare separat ca la o cheie reglabilă clasică. Peste 60% din producție se exportă în peste o sută de țări.
+Gama este organizată pe funcții de lucru — prindere, tăiere, dezizolare, strângere —, iar fiecare familie de clești are variante de lungime, mâner și finisaj. Gama de scule izolate rezistă la tensiuni de până la 1000V, testate pentru lucrul sub tensiune la instalații electrice, iar clești precum Cobra combină strângerea automată pe diametru cu o singură mișcare de reglare, fără șurub de ajustare separat ca la o cheie reglabilă clasică. Peste 60% din producție se exportă în peste o sută de țări.
 
 Pentru România, sculele Knipex au sens la electricieni, instalatori și ateliere de mentenanță industrială care au nevoie de clești fiabili pentru uz zilnic intens.`,
     whyChoose: [
       "Peste 140 de ani de fabricație de clești, în aceeași familie fondatoare din 1882",
-      "Peste 900 de variante de clești, fiecare optimizată pentru o singură funcție de lucru",
+      "Peste 900 de variante de clești, în lungimi, tipuri de mâner și finisaje diferite",
       "Scule izolate certificate pentru lucrul sub tensiune până la 1000V",
       "Clești de apă tip Cobra cu reglare automată pe diametru, fără șurub separat",
       "Peste 60% din producție exportată în peste o sută de țări",
     ],
     keyProducts: [
       { name: "Clești combinați și clești pentru electricieni", description: "Gama de bază pentru uz general — clești combinați pentru prindere, îndoire și tăiere, plus clești dedicați electricienilor pentru dezizolare și tăiere de cablu. Construcție forjată, cu articulație de precizie și tăiș tratat termic. Aplicație tipică: instalații electrice și mentenanță generală. Pentru ofertă, clientul trebuie să trimită lungimea dorită și dacă are nevoie de mâner izolat." },
-      { name: "Clești de apă tip Cobra și Alligator", description: "Clești cu deschidere reglabilă automat pe diametrul piesei, fără șurub de reglare separat, folosiți la instalații sanitare și mentenanță industrială. Varianta Alligator are un design mai robust pentru piese mai mari. Pentru comandă, clientul trebuie să trimită lungimea clestelui și diametrul maxim de prindere necesar." },
+      { name: "Clești de apă tip Cobra și Alligator", description: "Clești cu deschidere reglabilă automat pe diametrul piesei, fără șurub de reglare separat, folosiți la instalații sanitare și mentenanță industrială. Varianta Alligator are un design mai robust pentru piese mai mari. Pentru comandă, clientul trebuie să trimită lungimea cleștelui și diametrul maxim de prindere necesar." },
       { name: "Clești de precizie pentru electronică", description: "Familie de clești mici, de precizie, pentru lucrul cu componente electronice — dezizolare fină, tăiere de fire subțiri și prindere în spații restrânse. Vârfuri fine, tratate pentru rezistență la uzură. Aplicație tipică: asamblare și service electronic. Pentru ofertă, clientul trebuie să trimită tipul de operație și lungimea dorită." },
-      { name: "Scule izolate până la 1000V", description: "Variante ale clestilor de bază cu mâner izolat, testate pentru lucrul sub tensiune la instalații electrice de până la 1000V. Izolația e integrată în procesul de fabricație, nu adăugată ulterior. Aplicație tipică: intervenții la tablouri electrice sub tensiune. Pentru comandă, clientul trebuie să confirme tensiunea de lucru și tipul de clește dorit." },
+      { name: "Scule izolate până la 1000V", description: "Variante ale cleștilor de bază cu mâner izolat, testate pentru lucrul sub tensiune la instalații electrice de până la 1000V. Aplicație tipică: intervenții la tablouri electrice sub tensiune. Pentru comandă, clientul trebuie să confirme tensiunea de lucru și tipul de clește dorit." },
     ],
     industries: [
       "Instalații electrice — clești izolați și clești pentru electricieni",
@@ -1176,8 +1176,8 @@ Pentru România, sculele Knipex au sens la electricieni, instalatori și atelier
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"KNIPEX Sets Catalog 12/2023","url":"https://web-assets.knipex.com/sites/default/files/2023-12/KNIPEX%20Sets%20Catalog%2012_2023%20Small%20file.pdf","publisher":"Knipex","accessed":"2026-09-26"},
       { title: "Knipex", url: "https://en.wikipedia.org/wiki/Knipex", publisher: "Wikipedia", accessed: "2026-09-22" },

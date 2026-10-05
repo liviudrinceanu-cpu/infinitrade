@@ -263,41 +263,41 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
     name: "VAG",
     founded: 1872,
     headquarters: "Mannheim, Germania",
-    overview: `VAG este unul dintre cei mai vechi producători europeni de armături pentru apă potabilă și apă uzată, cu activitate la Mannheim din 1873. Compania s-a specializat exclusiv pe robineți și accesorii pentru rețele de apă — de la stații de tratare și rezervoare de înmagazinare până la conductele de distribuție și stațiile de pompare — un segment în care ciclurile de viață ale produselor se măsoară în zeci de ani, iar fiabilitatea contează mai mult decât orice altă caracteristică. Robinetele VAG se regăsesc în infrastructura de apă din majoritatea țărilor europene, în instalații proiectate pentru funcționare îndelungată.
+    overview: `VAG este unul dintre cei mai vechi producători europeni de armături pentru apă potabilă și apă uzată, cu activitate la Mannheim din 1872. Compania este specializată pe robineți și accesorii pentru rețele de apă — de la stații de tratare și rezervoare de înmagazinare până la conductele de distribuție și stațiile de pompare — un segment în care ciclurile de viață ale produselor se măsoară în zeci de ani, iar fiabilitatea contează mai mult decât orice altă caracteristică.
 
-Robinetul cu excentricitate dublă EKN este produsul emblematic al gamei — o vană de sectorizare cu etanșare fără frecare pe toată cursa de închidere, disponibilă de la DN40 până la DN4000 și presiuni nominale de la PN10 până la PN25, folosită pentru izolarea tronsoanelor din rețelele de apă și apă uzată. Pentru protecția rețelelor împotriva loviturii de berbec și evacuarea aerului acumulat, seria de robineți de aerisire PICO combină funcțiile de admisie și evacuare a aerului mare și mic într-un singur corp compact. Gama se completează cu clapete de reținere, vane fluture pentru diametre mari și vane de linie pentru izolarea rapidă a branșamentelor.
+Robinetul cu excentricitate dublă EKN este produsul emblematic al gamei — o vană de sectorizare cu etanșare fără frecare pe aproape toată cursa de închidere, disponibilă în diametre de la DN100 până la DN4000, în funcție de variantă, și presiuni nominale de la PN6 până la PN25 (unele variante până la PN40), folosită pentru izolarea tronsoanelor din rețelele de apă și apă uzată. Pentru evacuarea aerului acumulat și admisia aerului la umplerea sau golirea conductei, gama include ventilele automate de aerisire VAG DUOJET (DN50–DN200), cu trei funcții într-un singur corp, conform producătorului. Gama se completează cu clapete de reținere, vane fluture pentru diametre mari și vane de linie pentru izolarea rapidă a branșamentelor.
 
 Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK sau RAL pentru protecție anticorozivă pe termen lung, iar garniturile de etanșare din EPDM sunt certificate pentru contact cu apa potabilă conform normelor europene. Pentru operatorii de utilități, avantajul robinetelor VAG constă în cuplul de manevră redus chiar și după ani de funcționare, datorită construcției fără frecare a sistemului de etanșare, conform producătorului. Domeniile principale de utilizare rămân stațiile de tratare a apei, rezervoarele de înmagazinare, stațiile de pompare și rețelele de distribuție și canalizare.`,
     whyChoose: [
-      "Robinet EKN cu etanșare fără frecare — cuplu de manevră constant pe toată durata de viață, chiar și după zeci de ani de exploatare",
-      "Gamă largă de diametre — de la DN40 pentru branșamente până la DN4000 pentru conducte magistrale de transport apă",
+      "Robinet EKN cu excentricitate dublă — cuplu de manevră redus, conform producătorului",
+      "Gamă largă de diametre — de la DN40 la vanele cu sertar până la DN4000 la robinetul EKN, pentru conducte magistrale de transport apă",
       "Materiale certificate pentru apă potabilă — acoperiri epoxidice GSK/RAL și garnituri EPDM conforme cu normele europene de contact alimentar",
-      "Robineți de aerisire PICO — protecție eficientă împotriva loviturii de berbec și a golurilor de aer din conductele de transport",
-      "Fiabilitate pe termen lung — armături proiectate pentru cicluri de viață de peste 30 de ani în rețele de apă și canalizare",
-      "Experiență de peste 150 de ani — specializare exclusivă pe armături pentru sectorul apei, fără compromisuri către alte industrii"
+      "Ventile automate de aerisire DUOJET — evacuarea și admisia aerului în conducte, cu trei funcții într-un singur corp, conform producătorului",
+      "Fiabilitate pe termen lung — durata de viață depinde de model și de condițiile de exploatare; o confirmăm pe cod, din documentația VAG",
+      "Experiență de peste 150 de ani în fabricarea armăturilor pentru rețele de apă și apă uzată"
     ],
     keyProducts: [
       {
         name: "Robinet cu Excentricitate Dublă EKN",
-        description: "EKN este vana de sectorizare de referință VAG pentru rețele de apă și apă uzată, cu disc excentric față de axul de rotație, ceea ce elimină frecarea dintre disc și scaun pe toată cursa, cu excepția ultimelor grade de închidere. Rezultatul este un cuplu de manevră redus și constant în timp, chiar și pe vane care stau ani întregi în poziție deschisă fără manevre. Gama acoperă DN40 până la DN4000, presiuni nominale PN10, PN16 și PN25, cu corp din fontă ductilă și acoperire epoxidică conform GSK. Disponibilă cu acționare manuală, cu roată sau tijă de extensie pentru montaj îngropat, sau cu servomotor electric pentru automatizare. Etanșarea se face prin garnitură EPDM certificată pentru apă potabilă."
+        description: "EKN este vana de sectorizare de referință VAG pentru rețele de apă și apă uzată, cu disc excentric față de axul de rotație, ceea ce elimină frecarea dintre disc și scaun pe toată cursa, cu excepția ultimelor grade de închidere. Rezultatul este un cuplu de manevră redus și constant în timp, chiar și pe vane care stau ani întregi în poziție deschisă fără manevre. Gama EKN acoperă diametre de la DN100 până la DN4000, în funcție de variantă, presiuni nominale de la PN6 până la PN25 (unele variante până la PN40), cu corp din fontă ductilă și acoperire epoxidică conform GSK. Disponibilă cu acționare manuală, cu roată sau tijă de extensie pentru montaj îngropat, sau cu servomotor electric pentru automatizare. Etanșarea se face prin garnitură EPDM certificată pentru apă potabilă."
       },
       {
-        name: "Robineți de Aerisire PICO",
-        description: "Robineții de aerisire PICO combină într-un singur corp funcțiile de evacuare a aerului acumulat în timpul funcționării normale a conductei, printr-un orificiu mic, și de admisie sau evacuare rapidă a unor volume mari de aer la umplerea sau golirea conductei, printr-un orificiu mare. Lipsa aerului evacuat corect dintr-o conductă de transport apă duce la reducerea secțiunii utile de curgere, coroziune accelerată și risc de lovitură de berbec la pornirea pompelor. Gama PICO acoperă diametre de racordare de la DN50 până la DN300, cu corp din fontă ductilă și plutitor care închide etanș orificiul mic la umplerea completă a corpului. Sunt montați pe punctele înalte ale traseului și pe stațiile de pompare."
+        name: "Ventile Automate de Aerisire DUOJET",
+        description: "Ventilele automate de aerisire DUOJET au o singură cameră și trei funcții: evacuarea unor volume mari de aer la golirea conductei, admisia unor volume mari de aer la umplere și evacuarea unor cantități mici de aer în timpul funcționării sub presiune. Gama DUOJET acoperă DN50–DN200 la PN10/16/25, cu corp din fontă ductilă acoperit epoxidic conform GSK, plutitor din inox și etanșare EPDM, conform producătorului. Se montează pe punctele înalte ale traseului și pe stațiile de pompare."
       },
       {
         name: "Vane Fluture pentru Rețele de Apă",
-        description: "Vanele fluture VAG pentru diametre mari sunt gândite pentru izolarea tronsoanelor din aducțiuni și rețele de transport apă unde o vană cu sertar sau EKN ar deveni prea voluminoasă și costisitoare. Discul, executat din fontă ductilă cu acoperire din elastomer sau inox, asigură etanșare bidirecțională la presiuni de până la PN25. Diametrele acoperă DN200 până la DN3000, cu acționare prin reductor manual, servomotor electric sau acționare hidraulică pentru vanele foarte mari montate în camere de vane sau stații de pompare. Construcția permite montaj între flanșe pentru diametre mici sau cu flanșe proprii pentru diametre mari, unde solicitările mecanice din conductă sunt mai importante."
+        description: "Vanele fluture VAG pentru diametre mari sunt gândite pentru izolarea tronsoanelor din aducțiuni și rețele de transport apă unde o vană cu sertar sau EKN ar deveni prea voluminoasă și costisitoare. Materialul discului, diametrele și presiunea nominală depind de seria aleasă (de exemplu CEREX 300: DN50–DN600, PN10/16); le confirmăm pe cod, din documentația VAG. Construcția permite montaj între flanșe pentru diametre mici sau cu flanșe proprii pentru diametre mari, unde solicitările mecanice din conductă sunt mai importante."
       },
       {
         name: "Clapete de Reținere și Vane de Linie",
-        description: "Clapetele de reținere VAG previn curgerea inversă în stațiile de pompare și pe conductele de refulare, cu construcție cu clapetă simplă sau duală în funcție de diametru și de viteza de închidere necesară pentru limitarea loviturii de berbec. Vanele de linie, de dimensiuni mai mici, sunt folosite pentru izolarea rapidă a branșamentelor și a conductelor secundare din rețeaua de distribuție, cu manevră directă printr-un sfert de rotație sau prin filet, în funcție de model. Ambele game se livrează cu aceleași standarde de acoperire anticorozivă și garnituri certificate pentru apă potabilă ca și restul portofoliului VAG, asigurând compatibilitate completă în cadrul aceluiași proiect de rețea."
+        description: "Clapetele de reținere VAG previn curgerea inversă în stațiile de pompare și pe conductele de refulare, cu construcție cu clapetă simplă sau duală în funcție de diametru și de viteza de închidere necesară pentru limitarea loviturii de berbec. Pentru izolarea branșamentelor, VAG oferă și vane de branșament; modelul și modul de manevră se confirmă pe cod, din documentația VAG. Ambele game se livrează cu aceleași standarde de acoperire anticorozivă și garnituri certificate pentru apă potabilă ca și restul portofoliului VAG, asigurând compatibilitate completă în cadrul aceluiași proiect de rețea."
       }
     ],
     industries: [
       "Alimentare cu apă potabilă — stații de tratare, rezervoare de înmagazinare, rețele de distribuție",
       "Canalizare și epurare apă uzată — stații de pompare, colectoare, stații de epurare",
-      "Irigații și hidroamelioratii — canale și conducte de transport pentru agricultură",
+      "Irigații și hidroameliorații — canale și conducte de transport pentru agricultură",
       "Industria energetică — sisteme de răcire cu apă pentru centrale electrice",
       "Administrații publice și operatori regionali de apă — proiecte de reabilitare a rețelelor",
       "Industria de proces — alimentare cu apă industrială și tehnologică"
@@ -308,8 +308,8 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       "EN 1074 / EN 1092 — conformitate dimensională și funcțională pentru armături de rețea",
       "Materiale certificate pentru contact cu apa potabilă conform normelor europene"
     ],
-    infinitrade: "Asigurăm accesul la armături VAG pentru operatorii de apă și canalizare din România — robinetul cu excentricitate dublă EKN, robineții de aerisire PICO, vanele fluture și clapetele de reținere — comandate prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, ne ghidăm după informațiile publice disponibile ale producătorului pentru fiecare diametru și presiune nominală. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de lucru (PN) și tipul de acoperire cerut în caietul de sarcini. Diametrele uzuale pentru branșamente sunt de regulă disponibile în 24–72 h, iar armăturile de diametre mari sau cu acționare specială ajung în 1–4 săptămâni la comandă.",
-    limitation: "Nu putem confirma o disponibilitate garantată pentru toate combinațiile de diametru și presiune din gama DN40–DN4000 — armăturile mari rămân, de regulă, produse la comandă.",
+    infinitrade: "Asigurăm accesul la armături VAG pentru operatorii de apă și canalizare din România — robinetul cu excentricitate dublă EKN, robineții de aerisire PICO, vanele fluture și clapetele de reținere — comandate prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, ne ghidăm după informațiile publice disponibile ale producătorului pentru fiecare diametru și presiune nominală. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de lucru (PN) și tipul de acoperire cerut în caietul de sarcini. Livrarea este de 24–72 h dacă articolul este confirmat în stoc la furnizor; altfel, de regulă 1–4 săptămâni la comandă, iar armăturile de diametre mari sau cu acționare specială pot depăși 4 săptămâni.",
+    limitation: "Nu putem confirma o disponibilitate garantată pentru toate combinațiile de diametru și presiune din gama VAG — armăturile mari rămân, de regulă, produse la comandă.",
     sources: [
       {"title":"Products","url":"https://www.vag-group.com/en/products","publisher":"VAG","accessed":"2026-09-22"},
       { title: "VAG – The Valve Experts. Since 1872.", url: "https://www.vag-group.com", publisher: "VAG-Armaturen GmbH", accessed: "2026-09-22" },
@@ -330,7 +330,7 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       },
       {
         "code": "EKOplus",
-        "description": "Vană cu sertar cu etanșare elastică, generație compactă"
+        "description": "Vană cu sertar cu etanșare elastică"
       },
       {
         "code": "KFS",
@@ -368,7 +368,7 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       },
       {
         "q": "Ce diferență este între vana VAG BETA 500 și EKOplus?",
-        "a": "Ambele sunt vane cu sertar cu etanșare elastică, dar EKOplus este generația mai compactă și mai ușoară, optimizată pentru instalare rapidă. BETA 500 este varianta consacrată, disponibilă într-o gamă mai largă de dimensiuni pentru rețele de apă și canalizare."
+        "a": "Ambele sunt vane cu sertar cu etanșare elastică. BETA 500 acoperă DN40–DN300 la PN10/16, iar EKOplus DN40–DN600 la PN10–PN25, conform catalogului producătorului."
       },
       {
         "q": "Livrați vane și hidranți VAG în România?",
@@ -384,8 +384,8 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării VAG, conform surselor citate." }
     ]
   },
@@ -1603,18 +1603,18 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
     founded: 1907,
     headquarters: "Frankfurt am Main, Germania",
     employees: "4.000+ angajați la nivel global (grup SAMSON)",
-    overview: `SAMSON este un producător independent important de robineți și regulatoare de reglare, cu sediul la Frankfurt am Main și activitate din 1907. Compania a rămas în proprietate privată de-a lungul a peste un secol și s-a construit ca un furnizor de sistem complet pentru automatizarea proceselor industriale: robineți de reglare, actuatoare, poziționeri și regulatoare auto-acționate, toate proiectate să funcționeze împreună într-un singur ecosistem de control al proceselor.
+    overview: `SAMSON este un producător independent important de robineți și regulatoare de reglare, cu sediul la Frankfurt am Main și activitate din 1907. SAMSON s-a construit ca un furnizor de sistem complet pentru automatizarea proceselor industriale: robineți de reglare, actuatoare, poziționeri și regulatoare auto-acționate, toate proiectate să funcționeze împreună într-un singur ecosistem de control al proceselor.
 
-Robinetul de reglare Tip 3241, cu corp glob, este produsul emblematic al gamei — disponibil în diametre de la DN15 până la DN300, cu presiuni nominale de până la PN40 și materiale de la oțel carbon la oțel inoxidabil și aliaje speciale pentru medii agresive. Actuatoarele pneumatice din seria 240/250 acționează robinetul cu precizie proporțională, iar poziționerul digital Tip 3730 traduce semnalul de comandă într-o poziție exactă a tijei robinetului, cu diagnosticare integrată a stării actuatorului și a robinetului. Gama se completează cu regulatoare auto-acționate din seria 42 pentru presiune și temperatură, care funcționează fără sursă externă de energie.
+Robinetul de reglare Tip 3241, cu corp glob, este produsul emblematic al gamei — disponibil în diametre de la DN15 până la DN300, cu presiuni nominale de până la PN40 și materiale de la oțel carbon la oțel inoxidabil și aliaje speciale pentru medii agresive. Actuatoarele pneumatice cu membrană (de exemplu Tip 3271 și Tip 3277) acționează robinetul cu precizie proporțională, iar poziționerul digital Tip 3730 traduce semnalul de comandă într-o poziție exactă a tijei robinetului, cu diagnosticare integrată a stării actuatorului și a robinetului. Gama se completează cu regulatoare auto-acționate din seria 42 pentru presiune, presiune diferențială și debit, care funcționează fără sursă externă de energie.
 
 SAMSON produce intern practic toate componentele critice ale unui lanț de reglare — corp de robinet, actuator, poziționer și electronică de control — ceea ce elimină problemele de compatibilitate care apar la asamblarea de componente din surse diferite și simplifică diagnosticarea unei probleme de reglare. Materialele acoperă întreaga plajă cerută de industria de proces, de la oțel carbon pentru aplicații generale, la oțel inoxidabil și aliaje pe bază de nichel pentru medii corozive sau la temperaturi extreme. Robinetele și regulatoarele SAMSON se regăsesc în rafinării, centrale electrice, industria chimică și farmaceutică, oriunde reglarea precisă a debitului, presiunii sau temperaturii este critică pentru siguranța și eficiența procesului.`,
     whyChoose: [
       "Sistem complet de reglare — robinet, actuator și poziționer proiectate și fabricate de același producător, fără incompatibilități de integrare",
-      "Robinetul Tip 3241 — soluția de referință pentru reglare de proces, cu peste jumătate de secol de utilizare dovedită în industrie",
+      "Robinetul Tip 3241 — robinet de reglare cu corp glob, DN15–300 și PN10–40, pentru linii de proces",
       "Poziționer digital Tip 3730 — diagnosticare integrată a stării robinetului și actuatorului, util pentru mentenanță predictivă",
       "Regulatoare auto-acționate seria 42 — funcționează fără energie electrică, pentru puncte izolate din instalații de proces",
       "Materiale pentru orice aplicație — de la oțel carbon la aliaje speciale rezistente la coroziune sau temperaturi extreme",
-      "Companie independentă de peste un secol — specializare strictă pe reglare de proces, fără diversificare către alte categorii"
+      "Producător specializat în robinete de reglare, actuatoare, poziționeri și regulatoare, cu activitate din 1907"
     ],
     keyProducts: [
       {
@@ -1622,16 +1622,16 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
         description: "Tipul 3241 este robinetul de reglare de referință SAMSON, cu corp glob și scaun schimbabil, folosit pentru controlul precis al debitului în linii de proces din industria chimică, energetică și petrochimică. Diametrele acoperă DN15 până la DN300, cu presiuni nominale de până la PN40 și caracteristici de curgere alese în funcție de comportamentul dorit al buclei de reglare. Materialele corpului variază de la oțel carbon pentru aplicații generale, la oțel inoxidabil și aliaje speciale precum Hastelloy pentru medii corozive sau la temperaturi ridicate. Construcția modulară permite înlocuirea internelor robinetului fără demontarea completă din conductă, reducând timpul de oprire la revizie sau schimbarea caracteristicii de reglare."
       },
       {
-        name: "Actuatoare Pneumatice Seria 240/250",
-        description: "Actuatoarele pneumatice cu membrană din seria 240/250 acționează robinetele de reglare SAMSON cu răspuns rapid și precis la semnalul de comandă, în construcție cu acțiune directă sau inversă, în funcție de comportamentul de siguranță dorit la pierderea aerului instrumental. Sunt dimensionate direct pentru cuplul necesar fiecărui diametru și fiecărei presiuni diferențiale din gama de robinete Tip 3241, eliminând riscul de subdimensionare. Pot fi echipate cu poziționer digital, limitatoare de cursă, electrovalve pentru acțiune de siguranță și senzori de poziție pentru semnalizare la distanță, acoperind atât aplicații simple de reglare, cât și bucle complexe integrate în sisteme DCS."
+        name: "Actuatoare Pneumatice cu Membrană Tip 3271 și 3277",
+        description: "Actuatoarele pneumatice cu membrană Tip 3271 și Tip 3277 acționează robinetele de reglare SAMSON cu răspuns rapid și precis la semnalul de comandă, în construcție cu acțiune directă sau inversă, în funcție de comportamentul de siguranță dorit la pierderea aerului instrumental. Dimensionarea actuatorului se face în funcție de forța necesară pentru fiecare diametru și presiune diferențială; o confirmăm pe baza datelor de proces transmise. Pot fi echipate cu poziționer digital, limitatoare de cursă, electrovalve pentru acțiune de siguranță și senzori de poziție pentru semnalizare la distanță, acoperind atât aplicații simple de reglare, cât și bucle complexe integrate în sisteme DCS."
       },
       {
         name: "Poziționer Digital Tip 3730",
-        description: "Poziționerul digital Tip 3730 traduce semnalul de comandă analogic sau digital, prin 4-20mA, HART, Profibus PA sau Foundation Fieldbus, într-o poziție exactă a tijei robinetului, cu buclă internă de control care compensează frecarea și histerezisul mecanic al ansamblului robinet-actuator. Oferă diagnosticare integrată a stării robinetului — semnalează uzura scaunului, blocarea tijei sau probleme de etanșare a actuatorului — utilă pentru programe de mentenanță predictivă în instalații critice. Se montează direct pe actuator, cu configurare prin buton local sau software dedicat, și poate comunica parametrii de proces către sistemul de automatizare al fabricii fără cablaj suplimentar de instrumentație."
+        description: "Poziționerul digital Tip 3730 traduce semnalul de comandă analogic sau digital, prin 4-20mA, HART, Profibus PA sau Foundation Fieldbus, într-o poziție exactă a tijei robinetului, cu buclă internă de control care compensează frecarea și histerezisul mecanic al ansamblului robinet-actuator. Oferă diagnosticare integrată a stării ansamblului robinet-actuator, utilă pentru programe de mentenanță predictivă; funcțiile exacte depind de varianta poziționerului și se confirmă din documentația producătorului. Se montează direct pe actuator, cu configurare prin buton local sau software dedicat, și poate comunica parametrii de proces către sistemul de automatizare al fabricii fără cablaj suplimentar de instrumentație."
       },
       {
         name: "Regulatoare Auto-Acționate Seria 42",
-        description: "Regulatoarele din seria 42 controlează presiunea sau temperatura unui proces folosind exclusiv energia fluidului vehiculat, fără alimentare electrică sau aer instrumental, similar principiului constructiv folosit de alți producători specializați în regulatoare auto-acționate. Sunt potrivite pentru puncte de reglare izolate din instalații de proces, stații de gaze tehnice sau rețele de abur, unde alimentarea cu utilități auxiliare ar fi costisitoare sau nepractică. Gama acoperă presiuni de reglare diferite și materiale de la oțel la oțel inoxidabil, în funcție de fluidul vehiculat, oferind o alternativă mecanică simplă și fiabilă acolo unde un sistem electronic complet nu se justifică economic."
+        description: "Regulatoarele din seria 42 controlează presiunea, presiunea diferențială sau debitul unui proces folosind exclusiv energia fluidului vehiculat, fără alimentare electrică sau aer instrumental. Sunt potrivite pentru puncte de reglare izolate din instalații de proces, stații de gaze tehnice sau rețele de abur, unde alimentarea cu utilități auxiliare ar fi costisitoare sau nepractică. Gama acoperă presiuni de reglare diferite și materiale de la oțel la oțel inoxidabil, în funcție de fluidul vehiculat, oferind o alternativă mecanică simplă și fiabilă acolo unde un sistem electronic complet nu se justifică economic."
       }
     ],
     industries: [
@@ -1648,7 +1648,7 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
       "SIL 2/3 — certificare funcțională de siguranță conform IEC 61508 pentru bucle critice",
       "ISO 9001 — management al calității pentru proiectarea și producția robinetelor de reglare și actuatoarelor"
     ],
-    infinitrade: "Realizăm aprovizionarea cu robinete de reglare, actuatoare și poziționeri SAMSON — robinetul Tip 3241, actuatoarele seria 240/250, poziționerul digital Tip 3730 și regulatoarele auto-acționate seria 42 — pentru rafinării și instalații de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem acces la stocul intern al fabricii și pornim de la informațiile publice disponibile ale producătorului pentru fiecare caracteristică de reglare. Pentru o specificație corectă, trimiteți-ne datele de proces — presiune diferențială, debit și fluidul vehiculat. Componentele standard ajung de regulă în 24–72 h, iar ansamblurile complete robinet-actuator-poziționer, configurate pentru aplicația specifică, în 1–4 săptămâni la comandă.",
+    infinitrade: "Realizăm aprovizionarea cu robinete de reglare, actuatoare și poziționeri SAMSON — robinetul Tip 3241, actuatoarele pneumatice Tip 3271 și 3277, poziționerul digital Tip 3730 și regulatoarele auto-acționate seria 42 — pentru rafinării și instalații de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem acces la stocul intern al fabricii și pornim de la informațiile publice disponibile ale producătorului pentru fiecare caracteristică de reglare. Pentru o specificație corectă, trimiteți-ne datele de proces — presiune diferențială, debit și fluidul vehiculat. Componentele standard ajung de regulă în 24–72 h, iar ansamblurile complete robinet-actuator-poziționer, configurate pentru aplicația specifică, în 1–4 săptămâni la comandă.",
     limitation: "Nu putem confirma configurarea firmware a poziționerelor pe protocoale Fieldbus/HART sau documentația de certificare SIL — acestea rămân în sarcina departamentului tehnic al proiectului și al producătorului.",
     sources: [
       {"title":"SAMSON Product Range Product Catalog","url":"https://www.samsongroup.com/document/k00200en.pdf","publisher":"SAMSON AG","accessed":"2026-09-23"},
@@ -1756,8 +1756,8 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul Samson în sursele citate." }
     ]
   },

@@ -806,22 +806,22 @@ Pentru clădiri din România fără acces la gaz la conductă sau pentru instala
   gea: {
     name: "GEA",
     headquarters: "Düsseldorf, Germania",
-    overview: `GEA este un grup german de echipamente și tehnologie de proces, cu sediul la Düsseldorf, activ mai ales în industria alimentară și a băuturilor — aproximativ 70% din afacere vine din acest sector. Gama pentru pompare include pompe centrifuge igienice, pompa cu șurub dublu GEA Hilge NOVATWIN+, pompe cu piston de înaltă presiune și pompe de vid tip jet din seria LVP1. Din portofoliul GEA putem oferta pompe și componente de proces pentru linii din industria alimentară, a băuturilor și farmaceutică.
+    overview: `GEA este un grup german de echipamente și tehnologie de proces, cu sediul la Düsseldorf, activ mai ales în industria alimentară și a băuturilor. Gama pentru pompare include pompe centrifuge igienice, pompa cu șurub dublu GEA Hilge NOVATWIN+, pompe cu piston de înaltă presiune și pompe de vid tip jet din seria LVP1. Din portofoliul GEA putem oferta pompe și componente de proces pentru linii din industria alimentară, a băuturilor și farmaceutică.
 
-Pompele GEA sunt gândite pentru procese igienice — construcție care permite curățare CIP (clean-in-place) fără demontare, materiale de contact conforme cerințelor alimentare și farmaceutice, și etanșări adaptate produselor vâscoase sau sensibile la forfecare. Seria Hilge NOVATWIN+ folosește principiul șurubului dublu pentru pompare eficientă energetic, cu uzură redusă la fluide cu particule. Compania concurează cu alți furnizori mari de echipamente de proces pentru industria alimentară, precum Alfa Laval, ambii acoperind atât partea de pompare, cât și cea de separare și schimb de căldură.
+Pompele GEA sunt gândite pentru procese igienice — construcție care permite curățare CIP (clean-in-place) fără demontare, materiale de contact conforme cerințelor alimentare și farmaceutice, și etanșări adaptate produselor vâscoase sau sensibile la forfecare. Seria Hilge NOVATWIN+ este o pompă cu șurub dublu reproiectată pentru un consum de resurse mai redus, conform producătorului.
 
 Pentru procesatorii din România din lactate, băuturi sau industria farmaceutică, GEA înseamnă acces la echipamente de pompare igienică pentru linii care trebuie curățate frecvent și care manipulează produse sensibile la contaminare încrucișată, nu neapărat pentru aplicații industriale generale unde o pompă centrifugală standard e suficientă.`,
     whyChoose: [
       "Pompe igienice cu curățare CIP, fără demontare, potrivite pentru linii din industria alimentară și farmaceutică cu cerințe stricte de igienă",
-      "Pompă cu șurub dublu Hilge NOVATWIN+ pentru eficiență energetică și uzură redusă la fluide cu conținut de particule",
+      "Pompă cu șurub dublu Hilge NOVATWIN+, reproiectată pentru un consum de resurse mai redus, conform producătorului",
       "Portofoliu extins de tehnologie de proces — de la pompare, prin separare, până la sisteme de gătit industrial CookStar",
-      "Grup cu peste 18.000 de angajați global, prezență extinsă pentru suport tehnic și piese de schimb",
+      "Grup cu peste 18.000 de angajați la nivel global, conform producătorului",
     ],
     keyProducts: [
       { name: "Pompă cu Șurub Dublu GEA Hilge NOVATWIN+", description: "Pompă cu două șuruburi sincronizate, gândită pentru pomparea eficientă energetic a fluidelor din industria alimentară și a băuturilor, inclusiv produse cu conținut moderat de particule sau vâscozitate variabilă. Construcție igienică, cu suprafețe de contact ușor de curățat prin proceduri CIP. Aplicație tipică: transferul de bere, lapte sau produse semi-vâscoase în linii de procesare continuă. Clientul precizează debitul necesar, vâscozitatea fluidului și cerințele de curățare CIP." },
       { name: "Pompe Centrifuge Igienice", description: "Pompe centrifuge cu construcție igienică pentru transferul de lapte, băuturi, produse farmaceutice lichide și alte fluide cu cerințe stricte de curățenie. Materiale de contact din inox, cu finisaje de suprafață adaptate cerințelor sanitare, și etanșări mecanice igienice. Aplicație tipică: circuitele de proces dintr-o fabrică de lactate sau băuturi, unde linia se curăță frecvent între loturi. Clientul trimite debitul, presiunea necesară și tipul de fluid pompat." },
       { name: "Pompe cu Piston de Înaltă Presiune", description: "Pompe cu piston pentru aplicații care necesită presiuni ridicate de proces, folosite acolo unde pompele centrifuge obișnuite nu ating presiunea de lucru necesară. Construcție robustă pentru funcționare continuă la presiuni mari. Aplicație tipică: procese de omogenizare sau transfer la presiune ridicată în industria alimentară. Clientul precizează presiunea și debitul necesar pentru proces." },
-      { name: "Pompe de Vid tip Jet (seria LVP1)", description: "Pompe de vid bazate pe principiul jetului de aer, fără piese mecanice în mișcare în contact cu fluidul vehiculat, folosite pentru generarea vidului în procese de filtrare, uscare sau transfer pneumatic. Construcție simplă, cu mentenanță redusă comparativ cu o pompă de vid mecanică clasică. Clientul precizează nivelul de vid necesar și debitul de aer de evacuat." },
+      { name: "Pompe de Vid tip Jet (seria LVP1)", description: "Pompe de vid bazate pe principiul jetului de aer, fără piese mecanice în mișcare în contact cu fluidul vehiculat, folosite pentru generarea vidului atunci când nu este disponibil abur ca mediu motor, conform producătorului. Clientul precizează nivelul de vid necesar și debitul de aer de evacuat." },
     ],
     industries: [
       "Industria lactatelor — pompare lapte și produse derivate cu cerințe CIP",
@@ -854,7 +854,7 @@ Pentru procesatorii din România din lactate, băuturi sau industria farmaceutic
       },
       {
         "code": "Aseptomag AV",
-        "description": "Supapă aseptică, cu proceduri de mentenanță documentate"
+        "description": "Supapă aseptică"
       },
       {
         "code": "Pompe centrifuge igienice",
@@ -888,11 +888,11 @@ Pentru procesatorii din România din lactate, băuturi sau industria farmaceutic
     faq: [
       {
         "q": "Ce este pompa GEA Hilge NOVATWIN+?",
-        "a": "GEA Hilge NOVATWIN+ este o pompă cu șurub dublu, regândită pentru un consum energetic redus față de generația anterioară, fiind folosită la pomparea produselor din industria alimentară și farmaceutică. Funcționează fără contact metalic între șuruburi, ceea ce reduce uzura, iar geometria internă este optimizată pentru eficiență hidraulică ridicată la debite variabile."
+        "a": "GEA Hilge NOVATWIN+ este o pompă cu șurub dublu, regândită pentru un consum energetic redus față de generația anterioară, fiind folosită la pomparea produselor din industria alimentară și farmaceutică. Detaliile constructive se confirmă din documentația GEA pentru modelul ales."
       },
       {
         "q": "Ce diferență este între o supapă Aseptomag GD și una Aseptomag AV?",
-        "a": "Aseptomag GD este o supapă de contrapresiune cu burduf din oțel inoxidabil, folosită pentru menținerea unei presiuni constante pe linie, în timp ce Aseptomag AV este o supapă aseptică generală, cu proceduri de întreținere documentate, potrivită pentru control de flux în sisteme sterile. Alegerea depinde de funcția exactă necesară în schema de proces."
+        "a": "Aseptomag GD este o supapă de contrapresiune cu burduf din oțel inoxidabil, folosită pentru menținerea unei presiuni constante pe linie, în timp ce Aseptomag AV este o supapă aseptică; funcția exactă se confirmă din documentația GEA. Alegerea depinde de funcția exactă necesară în schema de proces."
       },
       {
         "q": "Livrați pompe și supape GEA în România?",
@@ -901,8 +901,8 @@ Pentru procesatorii din România din lactate, băuturi sau industria farmaceutic
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"GEA - Pumps, Valves & Flow Components","url":"https://www.gea.com/en/products/pumps-valves-flow-components/","publisher":"GEA Group","accessed":"2026-09-25"},
       { title: "GEA – Company Website", url: "https://www.gea.com", publisher: "GEA Group AG", accessed: "2026-09-22" },
@@ -922,7 +922,7 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
     whyChoose: [
       "Mașini de găurit magnetice Slugger by Fein, pentru găurire în oțel până la diametre mari, direct pe piesa montată, fără suport fix",
       "Familie de scule oscilante MultiMaster, printre pionierii acestei categorii, cu accesorii pentru tăiere, șlefuire și răzuire",
-      "Specializare exclusivă pe scule pentru metal și montaj industrial, nu pe gama generală de scule de construcții",
+      "Gamă orientată spre prelucrarea metalului și montajul industrial, completată cu scule oscilante și alte categorii",
       "Peste 150 de ani de activitate, cu istoric legat de inventarea bormașinii electrice de mână",
     ],
     keyProducts: [
@@ -982,7 +982,7 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
       },
       {
         "code": "Seria Endurance",
-        "description": "Mașini de găurit magnetice de nivel de bază"
+        "description": "Clasă de performanță Endurance a liniei Slugger by FEIN"
       },
       {
         "code": "Seria Compact",
@@ -994,7 +994,7 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
       },
       {
         "code": "Seria Automatic",
-        "description": "Mașini de găurit magnetice cu avans automat"
+        "description": "Clasă de performanță Automatic a liniei Slugger by FEIN"
       },
       {
         "code": "Fierăstraie pentru metal",
@@ -1016,7 +1016,7 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
       },
       {
         "q": "Ce diferență este între mașinile de găurit magnetice Endurance și Universal?",
-        "a": "Seria Endurance este gândită ca variantă de bază pentru găurire magnetică, cu funcții esențiale și cost redus, în timp ce seria Universal oferă o gamă mai largă de puteri și accesorii, potrivită pentru aplicații variate pe șantier sau în atelier. Seria Automatic adaugă avans automat al burghiului, utilă la găuri repetitive de aceeași dimensiune."
+        "a": "Endurance, Compact, Universal și Automatic sunt clasele de performanță ale liniei Slugger by FEIN; diferențele de putere, capacitate și accesorii le confirmăm din fișa tehnică a modelului exact."
       },
       {
         "q": "Livrați scule Fein în România?",
@@ -1025,8 +1025,8 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"FEIN - Products","url":"https://fein.com/en_us/products/","publisher":"C. & E. Fein GmbH","accessed":"2026-09-25"},
       { title: "FEIN – Premium Power Tools", url: "https://fein.com", publisher: "C. & E. Fein GmbH", accessed: "2026-09-22" },

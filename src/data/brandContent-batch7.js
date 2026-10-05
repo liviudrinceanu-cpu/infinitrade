@@ -872,35 +872,35 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
     founded: '1911',
     headquarters: 'Dublin, Irlanda',
     employees: '85,000+',
-    overview: `Eaton e unul dintre cei mai mari producători mondiali de echipamente electrice de distribuție și protecție: întrerupătoare automate de la 6A până la 6300A, contactoare și relee termice pentru protecție motoare, UPS-uri de la 500VA la 1.5MW, tablouri electrice prefabricate, drive-uri cu frecvență variabilă pentru control motoare. Cu peste 110 ani de experiență, produsele Eaton (fostele branduri Moeller, Cutler-Hammer, Holec) echipează distribuțiile electrice din fabrici, clădiri comerciale, datacentre și infrastructură critică din toată lumea.
+    overview: `Eaton e unul dintre cei mai mari producători mondiali de echipamente electrice de distribuție și protecție: întrerupătoare automate de la 6A până la 6300A, contactoare și relee termice pentru protecție motoare, UPS-uri pentru diverse puteri, tablouri electrice prefabricate, drive-uri cu frecvență variabilă pentru control motoare. Cu peste 110 ani de experiență, produsele Eaton (fostele branduri Moeller, Cutler-Hammer, Holec) echipează distribuțiile electrice din fabrici, clădiri comerciale, datacentre și infrastructură critică din toată lumea.
 
-Tehnologia producătorului de protecție diferențială AFDD (Arc Fault Detection Device) detectează arcurile electrice periculoase care pot cauza incendii - obligatorii în noile instalații rezidențiale din Europa. Întrerupătoarele automate compacte xEffect au putere de rupere 50kA în carcasă de doar 18mm lățime per pol, economisind spațiu în tablouri. Sistemul de management energetic Power Xpert permite monitorizare consumuri în timp real și optimizare costuri energie.
+Dispozitivele AFDD (Arc Fault Detection Device, dispozitiv de detectare a arcului electric) detectează arcurile electrice periculoase care pot cauza incendii; cerința de montare depinde de normele naționale și de proiect. Întrerupătoarele automate modulare Eaton xEffect (de exemplu seria FAZ6) au curenți nominali de la 0,5 A până la 63 A și capacitate de rupere de 10 kA conform IEC/EN 60947-2 (6 kA conform IEC/EN 60898-1). Sistemul de management energetic Power Xpert permite monitorizare consumuri în timp real și optimizare costuri energie.
 
 Eaton produce în fabrici din Europa, America și Asia, cu controale calitate stricte la fiecare pas. Când proiectezi o instalație electrică care trebuie să funcționeze fără probleme 20-30 de ani, când ai nevoie de piese de schimb originale și documentație tehnică completă, Eaton este o opțiune de luat în calcul.`,
     whyChoose: [
       'Gamă completă distribuție BT/MT - De la întrerupătoare 6A rezidențiale până la întrerupătoare automate 6300A pentru industrie grea, toate din același furnizor',
-      'Tehnologie AFDD anti-incendiu - Detectare arcuri electrice cu algoritmi avansați, reducere semnificativă a riscului de incendiu în instalații vechi',
-      'UPS dublă conversie online - Protecție totală pentru echipamente IT critice, eficiență >95% în mod eco, baterii cu 10 ani viață',
+      'Tehnologie AFDD anti-incendiu - Detectare arcuri electrice periculoase, conform documentației producătorului',
+      'UPS dublă conversie online - Protecție pentru echipamente IT critice; la 9PX eficiența este de până la 94% în mod online și până la 98% în mod de înaltă eficiență (HE, High Efficiency), în funcție de model',
       'Integrare digitală IoT - Toate echipamentele comunicare Modbus RTU/TCP, Ethernet/IP, Profinet pentru industrie 4.0',
-      'Certificări și standarde globale - IEC, UL, CSA, GOST - aceleași produse pentru Europa, SUA, Rusia, fără probleme la export',
-      'Service și suport tehnic 24/7 - Hotline tehnic non-stop, bază de cunoștințe online, training gratuit pentru parteneri instalatori'
+      'Certificări și standarde internaționale - IEC, UL, CSA; certificările exacte depind de produs și se confirmă pe cod',
+      'Documentație tehnică și fișe de date disponibile online pe site-ul producătorului'
     ],
     keyProducts: [
       {
         name: 'Întrerupătoare Automate Compacte xEffect',
-        description: `Seria xEffect (PLSM) e noua generație de întrerupătoare automate modulare Eaton: curenți nominali de la 6A până la 125A, caracteristici declanșare B, C, D, K pentru orice tip de sarcină, putere de rupere 50kA la 230/400V (10kA versiunea standard), lățime compactă 18mm per pol pentru economie spațiu în tablouri. Tehnologie de declanșare termică bimetal pentru protecție suprasarcină și declanșare magnetică pentru protecție scurtcircuit, indicator mecanic poziție contacte (verde = închis, roșu = declanșat), durată de viață mecanică 20,000 operații la curent nominal. Versiuni disponibile: 1P, 1P+N, 2P, 3P, 4P pentru orice configurație de rețea. Accesorii: contact auxiliar, declanșator la minimă/maximă de tensiune, motor pentru telecomandă. Conform IEC 60898-1 și EN 60898-1, certificare CE. Ideal pentru protecție tablouri secundare în distribuții industriale și comerciale. Montaj standard pe șină DIN 35mm, conexiuni tip șurub sau rapidă tip pieptene.`
+        description: `Seria xEffect (de exemplu FAZ6) cuprinde întrerupătoare automate modulare Eaton: curenți nominali de la 0,5 A până la 63 A, caracteristici de declanșare B, C, D, K și Z, capacitate de rupere de 10 kA conform IEC/EN 60947-2 (6 kA conform IEC/EN 60898-1). Modelul PLSM aparține seriei xPole. Tehnologie de declanșare termică bimetal pentru protecție suprasarcină și declanșare magnetică pentru protecție scurtcircuit, indicator mecanic poziție contacte (verde = închis, roșu = declanșat), durată de viață mecanică 20,000 operații la curent nominal. Versiuni disponibile: 1P, 1P+N, 2P, 3P, 4P pentru orice configurație de rețea. Accesorii: contact auxiliar, declanșator la minimă/maximă de tensiune, motor pentru telecomandă. Conform IEC 60898-1 și EN 60898-1, certificare CE. Ideal pentru protecție tablouri secundare în distribuții industriale și comerciale. Montaj standard pe șină DIN 35mm, conexiuni tip șurub sau rapidă tip pieptene.`
       },
       {
-        name: 'Contactoare Diletta DILM Series',
-        description: `Contactoarele Eaton DILM (ex-Moeller) sunt workhorses în automatizările industriale: curenți nominali de la 9A până la 820A, categorii utilizare AC-1 (sarcini rezistive) și AC-3 (motoare), bobine comandă 24V DC, 230V AC sau 400V AC cu consum redus, contacte principale Ag/Ni rezistente la uzură. Durata de viață electrică până la 8 milioane operații pentru DILM7, contacte auxiliare frontale 2NO+2NC extensibile până la 8NO+8NC pentru logică comandă complexă. Protecție termică motor asigurată de releele termice seria PKZM: reglare curent 0.1-32A, clasă declanșare 10A conform IEC 60947, resetare manuală sau automată, contact NC pentru oprire linie. Combinațiile contactor + releu termic + întrerupător magneto-termic formează starter complet DOL (Direct-On-Line) pentru protecție și comandă motoare trifazate. Folosite masiv în pompare, ventilatoare, benzi transportoare, mașini-unelte. Montaj pe șină DIN sau fixare directă cu șuruburi, racordare prin șurub sau connect rapid tip arc.`
+        name: 'Contactoare DILM',
+        description: `Contactoarele Eaton DILM (ex-Moeller) sunt workhorses în automatizările industriale: curenți nominali de la 9A până la 820A, categorii utilizare AC-1 (sarcini rezistive) și AC-3 (motoare), bobine comandă 24V DC, 230V AC sau 400V AC cu consum redus, contacte principale Ag/Ni rezistente la uzură. Contacte auxiliare frontale 2NO+2NC extensibile până la 8NO+8NC pentru logică comandă complexă. Protecția motorului poate fi asigurată de întrerupătoarele de protecție a motorului din seria PKZM, care combină protecția la suprasarcină și la scurtcircuit; PKZM0 acoperă domeniul de reglaj 0,16–32 A. Combinațiile contactor + releu termic + întrerupător magneto-termic formează starter complet DOL (Direct-On-Line) pentru protecție și comandă motoare trifazate. Folosite masiv în pompare, ventilatoare, benzi transportoare, mașini-unelte. Montaj pe șină DIN sau fixare directă cu șuruburi, racordare prin șurub sau connect rapid tip arc.`
       },
       {
         name: 'UPS 9PX Tower/Rack 1-3 kVA',
-        description: `UPS-ul Eaton 9PX e soluția profesională pentru protecție servere, rețele și storage: tehnologie dublă conversie online (VFI-SS-111) pentru protecție totală împotriva tuturor perturbațiilor electrice, puteri de la 1 kVA până la 3 kVA, factor de putere 1.0 (kVA = kW) pentru alimentare completă a serverelor moderne cu alimentatoare PFC active. Eficiență >95% în mod online, >99% în mod eco (HE) pentru reducere costuri energie și răcire. Display LCD grafic touchscreen pentru monitorizare parametri (tensiune I/O, frecvență, sarcină, baterie), comunicație USB, serial, slot network-MS pentru SNMP/Modbus. Baterii interne pentru autonomie 5-10 minute standard, extensibil cu EBM (Extended Battery Module) până la 4+ ore pentru shutdown controlat prelungit. Carcasă tower convertibilă în rack 2U pentru montare în rack servere, hot-swappable baterii pentru înlocuire fără oprire echipament critic. Versiune tower/rack parallelabilă până la 6 unități pentru redundanță N+1 sau creștere putere. Garanție 3 ani cu opțiune extindere la 5 ani.`
+        description: `UPS-ul Eaton 9PX e soluția profesională pentru protecție servere, rețele și storage: tehnologie dublă conversie online (VFI-SS-111) pentru protecție totală împotriva tuturor perturbațiilor electrice, puteri de la 1 kVA până la 3 kVA, factor de putere 1.0 (kVA = kW) pentru alimentare completă a serverelor moderne cu alimentatoare PFC active. Eficiență de până la 94% în mod online și până la 98% în mod de înaltă eficiență (HE, High Efficiency), în funcție de model (1000–3000 VA). Display LCD grafic pentru monitorizare parametri (tensiune I/O, frecvență, sarcină, baterie), comunicație USB, serial, slot network-MS pentru SNMP/Modbus. Baterii interne pentru autonomie 5-10 minute standard, extensibil cu module externe de baterii EBM (Extended Battery Module, modul de baterii extins), până la patru module, pentru autonomie prelungită. Carcasă tower convertibilă în rack 2U pentru montare în rack servere, hot-swappable baterii pentru înlocuire fără oprire echipament critic. Garanție de 3 ani pentru componentele electronice, conform producătorului.`
       },
       {
         name: 'Variator de Frecvență PowerXL DA1',
-        description: `Drive-ul PowerXL DA1 e variator de viteză Eaton pentru motoare asincrone: puteri de la 0.37 kW până la 22 kW (0.5-30 HP), alimentare 1x230V sau 3x400V, control vectorial fără senzor (sensorless vector control) pentru cuplu constant de la 0 Hz, frecvență de ieșire 0-300 Hz pentru aplicații cu supraviteză. Funcții integrate: PID controller pentru aplicații pompare și ventilatoare cu control presiune/debit automat, frânare DC și frânare regenerativă pentru opriri rapide, protecție termică motor prin model electronic (fără PTC), skip frecvențe pentru evitare rezonanțe mecanice. Interfață utilizator: keypad cu display 4 linii text, programare rapidă prin Quick Setup Wizard, macrouri predefinite pentru pompe/ventilatoare/benzi. Comunicație: Modbus RTU serie standard, opțional Profibus DP, Profinet, EtherNet/IP, DeviceNet prin carduri de comunicație. Carcasă IP20 pentru montare în tablou electric, versiuni IP54/IP55 pentru montare liberă în medii industriale. Aplicații: pompare cu debit variabil, ventilatoare cu control presiune, benzi transportoare, mixere, extrudere, mașini textile. EMC filter integrat clasa C2 pentru emisii reduse.`
+        description: `Drive-ul PowerXL DA1 e variator de viteză Eaton pentru motoare asincrone: game de putere de la 0,75 kW până la 160 kW, în funcție de model, control vectorial fără senzor (sensorless vector control) pentru cuplu ridicat la turație mică, frecvență de ieșire reglabilă conform fișei tehnice a modelului. Funcții integrate: PID controller pentru aplicații pompare și ventilatoare cu control presiune/debit automat, frânare DC și frânare regenerativă pentru opriri rapide, protecție termică motor prin model electronic (fără PTC), skip frecvențe pentru evitare rezonanțe mecanice. Interfață utilizator: keypad cu display 4 linii text, programare rapidă prin Quick Setup Wizard, macrouri predefinite pentru pompe/ventilatoare/benzi. Comunicație: Modbus RTU serie standard, opțional Profibus DP, Profinet, EtherNet/IP, DeviceNet prin carduri de comunicație. Carcasă IP20 pentru montare în tablou electric, versiuni IP66 (până la 22 kW) pentru montare în afara tabloului, în medii industriale. Aplicații: pompare cu debit variabil, ventilatoare cu control presiune, benzi transportoare, mixere, extrudere, mașini textile. Filtru EMC (compatibilitate electromagnetică) integrat, clasa C2 sau C3 în funcție de model și de lungimea cablului motor.`
       }
     ],
     certifications: [
@@ -1010,8 +1010,8 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'eaton-filtration': {
@@ -1318,36 +1318,36 @@ Sistemul de valve electrohidraulice permite control milimetric al poziției cili
   'emerson': {
     founded: '1890',
     headquarters: 'Ferguson, Missouri, SUA',
-    employees: '86,000+',
+    employees: '',
     overview: `Emerson este unul dintre marii producători mondiali în tehnologie de automatizare industrială și control de proces: sisteme DCS (Distributed Control Systems) DeltaV pentru rafinării și chimie, transmițătoare inteligente Rosemount pentru presiune/temperatură/debit, valve de control Fisher cu actuatoare pneumatice și electrice, analizoare de proces pentru gaze și lichide, sisteme SCADA și software de optimizare proces. Cu peste 130 de ani în industrie, tehnologia Emerson echipează numeroase rafinării și fabrici chimice mari la nivel mondial.
 
-Tehnologia producătorului PlantWeb permite digitalizarea completă a instalațiilor industriale: fiecare transmițător, valvă și analizor comunică prin HART, Foundation Fieldbus sau WirelessHART direct cu sistemul de control. Diagnostic predictiv integrat în fiecare instrument alertează operatorii înainte ca echipamentul să se defecteze - reducere semnificativă a downtime-ului neplanificat. Valvele de control Fisher sunt cunoscute pentru fiabilitate: peste 1 milion de cicluri fără service, etanșeitate clasă VI conform ANSI/FCI, dimensiuni de la DN15 până la DN600.
+Tehnologia producătorului PlantWeb permite digitalizarea completă a instalațiilor industriale: fiecare transmițător, valvă și analizor comunică prin HART, Foundation Fieldbus sau WirelessHART direct cu sistemul de control. Diagnosticul integrat în instrumentele compatibile poate semnala din timp abaterile de funcționare, conform documentației producătorului. Valvele de control Fisher sunt cunoscute pentru fiabilitate; seria easy-e ED acoperă mărimile NPS 1–8 (clase CL125–CL600), iar seria EW ajunge până la NPS 12x8.
 
-Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță completă (controllere duble, rețele duale, servere fail-over), scalabilitate de la 50 până la 25,000 I/O points, interfață operator modernă touch cu grafice HD, integrare nativă sisteme de siguranță SIS (Safety Instrumented Systems) conform IEC 61511. Emerson este un furnizor consacrat pentru procese unde calitatea produsului depinde de control precis.`,
+Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță completă (controllere duble, rețele duale, servere fail-over), scalabilitate modulară de la sisteme mici la instalații mari (de exemplu controlerul MX: de la 50 până la 1500 DST - Device Signal Tags, etichete de semnal de dispozitiv), interfață operator DeltaV Live, sisteme de siguranță SIS (Safety Instrumented Systems, sisteme instrumentate de siguranță) disponibile ca produs separat. Emerson este un furnizor consacrat pentru procese unde calitatea produsului depinde de control precis.`,
     whyChoose: [
-      'Transmițătoare Rosemount seria 3051 - Precizie ±0.04% FS, stabilitate 10 ani fără re-calibrare, tehnologie coplanar pentru măsurare presiune diferențială fără drift',
-      'Valve de control Fisher ED/EWD - Actuatoare electrice Fieldvue cu diagnostic integrat, etanșeitate clasă VI (0.1 ml/min per inch la ΔP), durată viață >1 milion cicluri',
-      'DeltaV DCS scalabil modular - De la sisteme mici 50 I/O până la instalații uriașe 25,000+ I/O, redundanță completă fără single-point-of-failure',
-      'WirelessHART pentru retrofit - Retrofit instalații vechi cu senzori wireless fără cablare, baterii 10 ani autonomie, mesh network auto-healing',
-      'AMS Asset Management Suite - Software centralizat pentru management 10,000+ instrumente, diagnostic predictiv cu machine learning, planificare mentenanță',
+      'Transmițătoare Rosemount seria 3051 - Precizie de referință ±0.04% din span pentru gamele 1–4, stabilitate ±0.2% din URL (Upper Range Limit, limita superioară a domeniului) pe 10 ani la modelul 3051P, tehnologie Coplanar',
+      'Valve de control Fisher easy-e ED și EW - valve cu corp glob (seria ED, NPS 1–8, CL125–CL600) și cu tijă culisantă (seria EW, până la NPS 12x8), cu clase de etanșare II–V în funcție de model',
+      'DeltaV DCS scalabil modular - De la sisteme mici la instalații mari (controlerul MX: de la 50 până la 1500 DST - Device Signal Tags, etichete de semnal de dispozitiv), cu redundanță 1:1 a controlerului',
+      'WirelessHART pentru retrofit - Retrofit instalații vechi cu senzori wireless fără cablare, baterii cu autonomie de lungă durată, în funcție de dispozitiv și de rata de actualizare, mesh network auto-healing',
+      'AMS Asset Management Suite - Software centralizat pentru managementul instrumentelor de câmp, diagnostic predictiv și planificarea mentenanței',
       'Certificări SIL 2/3 pentru siguranță - Sisteme instrumentate de siguranță (SIS) certificate conform IEC 61508/61511 pentru aplicații critice (ESD, fire&gas)'
     ],
     keyProducts: [
       {
         name: 'Transmițător Presiune Rosemount 3051',
-        description: `Seria 3051 este o gamă consacrată de transmițătoare de presiune în industria de proces: tehnologie senzor capacitiv coplanar din safir monocristalin pentru stabilitate pe termen lung fără drift, precizie ±0.04% din span calibrat, game de măsurare de la 0-1 mbar până la 0-400 bar (presiune absolută, relativă sau diferențială), ieșire 4-20mA cu protecol HART digital suprapus pentru configurare și diagnostic de la distanță. Carcasă turnată aluminiu sau inox 316L, protecție IP66/IP68 (subersibil), certificare ATEX/IECEx pentru zone Ex ia/ib, clasificare SIL 2 conform IEC 61508. Versiuni disponibile: presiune absolută pentru măsurare nivel tank printr-o singură priză (presiune hidrostatică), presiune diferențială pentru măsurare debit prin diafragmă/ventury/pitot, presiune relativă (gauge) pentru monitorizare presiune linie. Opțiuni: display LCD local pentru vizualizare fără handheld, conexiuni proces flanșe remotseal pentru lichide fierbinți/vâscoase/corozive, separatoare de membrană pentru aplicații sanitare food&pharma. Aplicații: măsurare nivel rezervoare, măsurare debit prin elemente primare (diafragmă orifice), monitorizare presiune reactor/coloană distilare, control pompe. Calibrare o dată la 5 ani, garanție 5 ani standard.`
+        description: `Seria 3051 este o gamă consacrată de transmițătoare de presiune în industria de proces: tehnologie Coplanar, precizie de referință ±0.04% din span pentru gamele 1–4, game de măsurare care depind de model (presiune absolută, relativă sau diferențială), ieșire 4-20mA cu protocol HART digital suprapus pentru configurare și diagnostic de la distanță. Carcasă turnată aluminiu sau inox 316L, protecție IP66/IP68 (submersibil), în funcție de opțiunea comandată, certificare ATEX/IECEx pentru zone Ex ia/ib, clasificare SIL 2 conform IEC 61508. Versiuni disponibile: presiune absolută pentru măsurare nivel tank printr-o singură priză (presiune hidrostatică), presiune diferențială pentru măsurare debit prin diafragmă/tub Venturi/tub Pitot, presiune relativă (gauge) pentru monitorizare presiune linie. Opțiuni: display LCD local pentru vizualizare fără handheld, conexiuni proces flanșe remotseal pentru lichide fierbinți/vâscoase/corozive, separatoare de membrană pentru aplicații sanitare food&pharma. Aplicații: măsurare nivel rezervoare, măsurare debit prin elemente primare (diafragmă orifice), monitorizare presiune reactor/coloană distilare, control pompe. Garanția este de 3 sau 5 ani, în funcție de opțiunea comandată (WR3 sau WR5), iar intervalul de recalibrare îl stabilește utilizatorul.`
       },
       {
-        name: 'Valve de Control Fisher ED/EWD cu Actuator Electric',
-        description: `Valvele Fisher cu actuator electric Fieldvue sunt soluția când nu ai aer comprimat disponibil sau când vrei diagnostic avansat: corp valvă globe sau rotativ (fluture/bile) din oțel carbon, inox 304/316/alloy 20, mărimi DN15-DN300, presiuni până la PN420 (ANSI 2500), temperaturi -196°C până +540°C. Actuator electric Fieldvue DVC6200 cu servomotor brushless: cuplu de la 68 Nm până la 2034 Nm, viteză stroke 0.5-60 secunde pentru cursă completă, poziționare precisă ±0.5%, feedback poziție prin HART/Foundation Fieldbus/Profibus. Etanșeitate clasă VI conform ANSI/FCI 70-2 (max 0.15 ml/min per inch diametru scaun la ΔP testare) pentru aplicații cu gaze toxice sau scumpe. Diagnostic integrat: detectare fricțiune crescută (semn uzură ghidaj), detectare cavitare/flashing în lichide, alarmă dacă actuatorul nu mai poate poziționa corect. Configurație fail-safe: la pierdere alimentare merge în poziție închis (fail-close) sau deschis (fail-open) prin arc de siguranță. Aplicații: controlul debitului în rafinării (produse petroliere), controlul presiunii în fabrici chimice, dozare precisă reactivi, control temperatură prin reglare abur. Service recomandat la 2-3 ani sau 500,000 cicluri - verificare garnituri și lubrifiere. Garanție 3 ani cu posibilitate extindere la 5.`
+        name: 'Valve de Control Fisher easy-e ED și EW',
+        description: `Valvele Fisher easy-e ED sunt valve de control cu corp glob, cu un singur scaun, ghidare în cușcă și dop echilibrat, în mărimi NPS 1–8 (DN25–DN200) și clase CL125–CL600; temperatura de lucru depinde de materialul corpului (de exemplu -198°C până la +593°C la corp din inox, -29°C până la +427°C la oțel carbon). Valvele se acționează de regulă cu actuatoare pneumatice cu diafragmă (de exemplu seria 667); valorile de cuplu, viteză și precizie de poziționare depind de actuatorul și de controlerul ales și se confirmă din documentația Emerson pe cod. Clasele de etanșare disponibile la seria ED sunt II, III, IV și V, conform ANSI/FCI 70-2.  Configurație fail-safe: la pierdere alimentare merge în poziție închis (fail-close) sau deschis (fail-open) prin arc de siguranță. Aplicații: controlul debitului în rafinării (produse petroliere), controlul presiunii în fabrici chimice, dozare precisă reactivi, control temperatură prin reglare abur. Intervalul de service și condițiile de garanție se confirmă din documentația producătorului.`
       },
       {
         name: 'Sistem DCS DeltaV pentru Control de Proces',
-        description: `DeltaV DCS e sistemul distribuit de control pentru fabrici de proces continuu: arhitectură modernă controller-based cu fiecare controller MD Plus/MQ rulând independent (nu depinde de server pentru control real-time), capacitate 750 I/O points per controller, redundanță completă - controllere redundante, switch-uri rețea redundante, servere fail-over, alimentare dublă. Interfață operator ProPlus cu ecrane touchscreen full-HD, grafice vectoriale SVG pentru vizualizare proces, alarme inteligente care te anunță de probleme reale nu de fleacuri. Engineering tools integrate: configurare loop-uri de control prin drag-and-drop, bibliteci de blocuri funcționale predefinite pentru PID/split-range/cascade/ratio, simulare offline pentru testare înainte de commissioning. Comunicație nativă: HART, Foundation Fieldbus, WirelessHART, Modbus TCP, OPC UA pentru integrare cu MES/ERP. Module de siguranță SIS integrate conform IEC 61511 SIL 2/3 pentru funcții critice (ESD - Emergency Shutdown, F&G - Fire & Gas detection). Aplicații: rafinării petrol (CDU, FCC, hydrotreating), fabrici chimice (reactoare batch/continuu), farmaceutice (fermentare, purificare), pulp&paper, food&beverage. Scalabil de la instalații mici (1 controller, 100 I/O) până la mega-projects (100+ controllers, 20,000 I/O). Garanție hardware 2 ani, suport software printr-un contract SupportNet.`
+        description: `DeltaV DCS e sistemul distribuit de control pentru fabrici de proces continuu: arhitectură cu controlere distribuite (de exemplu MX și MQ), cu capacitate care depinde de model (MX: de la 50 până la 1500 DST - Device Signal Tags, etichete de semnal de dispozitiv) și redundanță 1:1 a controlerului. Interfața operator este DeltaV Live, descrisă de producător drept HMI (Human-Machine Interface, interfață om-mașină) avansat și intuitiv. Engineering tools integrate: configurare loop-uri de control prin drag-and-drop, biblioteci de blocuri funcționale predefinite pentru PID/split-range/cascade/ratio, simulare offline pentru testare înainte de commissioning. Comunicație nativă: HART, Foundation Fieldbus, WirelessHART, Modbus TCP, OPC UA pentru integrare cu MES/ERP. Module de siguranță SIS integrate conform IEC 61511 SIL 2/3 pentru funcții critice (ESD - Emergency Shutdown, F&G - Fire & Gas detection). Aplicații: rafinării petrol (CDU, FCC, hydrotreating), fabrici chimice (reactoare batch/continuu), farmaceutice (fermentare, purificare), pulp&paper, food&beverage. Condițiile de garanție și de suport software se confirmă din documentația producătorului.`
       },
       {
         name: 'Debitmetru Magnetic Rosemount 8700M',
-        description: `Debitmetrele electromagnetice Rosemount 8700M măsoară debit lichide conductive fără piese mobile, fără pierdere de sarcină: principiu Faraday - lichid conductor trece prin câmp magnetic, se generează tensiune proporțională cu viteza, precizie ±0.25% din rată măsurată (nu din full-scale!), repetabilitate ±0.1%, game de măsurare de la 0.03 m/s până la 12 m/s viteză liniară. Mărimi țeavă DN10 până la DN3000, presiuni până la PN40 (ANSI 600), temperaturi -10°C până +180°C standard. Configurație: senzor (flow tube) instalat în linie, transmițător montat remote sau integral pe senzor, liner interior PTFE/PFA/cauciuc/ceramică în funcție de lichid (acid/bazic/abraziv), electrozi inox 316L sau Hastelloy C pentru lichide super-corozive. Versiune hygienică 3A/EHEDG cu finisaj electropolis pentru industria alimentară și pharma. Comunicație: ieșire 4-20mA + HART standard, opțional Foundation Fieldbus/Profibus/Modbus, puls output pentru totalizator. Aplicații: măsurare debit apă de proces, dozare acid/bazic în neutralizare, măsurare debit pulpe minerale în miniere, debit lapte/suc în food processing, debit pastă hârtie în pulp&paper. Nu funcționează cu: uleiuri (non-conductive), gaze, lichide cu solide >50% volum. Calibrare: factory calibrated, verificare la 5 ani prin comparație cu flow stand traceable. Garanție 3 ani.`
+        description: `Debitmetrele electromagnetice Rosemount 8700M măsoară debit lichide conductive fără piese mobile, fără pierdere de sarcină: principiu Faraday - lichid conductor trece prin câmp magnetic, se generează tensiune proporțională cu viteza, precizie ±0.25% din rată măsurată (nu din full-scale!), viteză de curgere măsurată între 0 și 12 m/s. Senzorul cu flanșe 8705 se livrează pentru țevi de la DN15 la DN900; temperatura de proces depinde de materialul căptușelii (de exemplu PTFE/PFA: de la -50°C până la +177°C), iar presiunea maximă depinde de modelul de senzor și de clasa flanșei. Configurație: senzor (flow tube) instalat în linie, transmițător montat remote sau integral pe senzor, liner interior PTFE/PFA/cauciuc/ceramică în funcție de lichid (acid/bazic/abraziv), electrozi inox 316L sau Hastelloy C pentru lichide super-corozive. Versiunea higienică (senzorul 8721, DN15–DN100) este certificată 3-A, pentru industria alimentară și farmaceutică. Comunicație: ieșire 4-20mA + HART standard, opțional Foundation Fieldbus/Profibus/Modbus, puls output pentru totalizator. Aplicații: măsurare debit apă de proces, dozare acid/bazic în neutralizare, măsurare debit pulpe minerale în miniere, debit lapte/suc în food processing, debit pastă hârtie în pulp&paper. Nu se utilizează pentru lichide neconductive (de exemplu uleiurile) și nici pentru gaze. Senzorii se livrează calibrați din fabrică; intervalul de verificare și condițiile de garanție se confirmă din documentația producătorului.`
       }
     ],
     certifications: [
@@ -1357,22 +1357,21 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       'ATEX/IECEx - Echipamente zone explozive',
       'CE Marking - Conformitate PED pentru valve sub presiune',
       '3-A Sanitary Standards - Echipamente food grade',
-      'NACE MR0175 - Materiale pentru servicii H₂S (sour gas)',
-      'API 6D - Valve pentru petrol & gaz'
+      'NACE MR0175 - Materiale pentru servicii H₂S (sour gas)'
     ],
     industries: [
       'Rafinării petrol și petrochimie',
       'Industria chimică și farmaceutică',
       'Energie - centrale electrice',
-      'Oil & Gas - upstream, midstream, downstream',
-      'Pulp & paper',
+      'Petrol și gaze - extracție, transport și prelucrare',
+      'Industria hârtiei și celulozei',
       'Industria alimentară și băuturi',
-      'Mining și minerale',
+      'Industria minieră și minerale',
       'Apă și ape uzate',
-      'Life sciences - biotehnologie',
-      'Metals & mining - siderurgie'
+      'Științele vieții - biotehnologie',
+      'Metalurgie - siderurgie'
     ],
-    infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim informațiile publice disponibile de la producător atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, trimite-ne datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim informațiile publice disponibile de la producător atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, vă rugăm să ne transmiteți datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului; revenim cu ofertă și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare sau programare software pentru sistemele DeltaV sau valvele Fisher - acestea rămân în sarcina integratorului sau a producătorului.',
     sources: [
       {"title":"Fisher easy-e ED Control Valve","url":"https://www.emerson.com/en/final-control/products/fisher-ed","publisher":"Emerson","accessed":"2026-09-22"},
@@ -1432,7 +1431,7 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       },
       {
         "code": "Fisher easy-e EAD",
-        "description": "Varianta easy-e cu acționare pentru aplicații specifice de control"
+        "description": "Versiunea unghiulară (angle) a valvei easy-e ED, utilă la simplificarea traseului conductelor sau la autodrenare"
       },
       {
         "code": "Fisher easy-e ET",
@@ -1440,7 +1439,7 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       },
       {
         "code": "Fisher easy-e EWD-1",
-        "description": "Valvă de control easy-e cu design compact"
+        "description": "Versiune NPS 12x8 CL900 a seriei EW, cu inele de scaun filetate"
       },
       {
         "code": "Fisher EW Series (EWD/EWS/EWT)",
@@ -1462,11 +1461,11 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       },
       {
         "q": "Livrați echipamente Emerson Rosemount și Fisher în România?",
-        "a": "Da, codurile Emerson menționate se aduc la comandă, în bază specificațiilor publice din documentația producătorului, fără gama pe raft deținut în depozit. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de model, de configurația cerută și de confirmarea disponibilității transmitorului sau valvei alese pentru aplicația dumneavoastră industrială."
+        "a": "Da, codurile Emerson menționate se aduc la comandă, în baza specificațiilor publice din documentația producătorului, fără gama pe raft deținut în depozit. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de model, de configurația cerută și de confirmarea disponibilității transmitorului sau valvei alese pentru aplicația dumneavoastră industrială."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   }
 };

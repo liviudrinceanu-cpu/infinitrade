@@ -575,15 +575,15 @@ Pentru instalatorii și proiectanții electrici din România, Gewiss e relevant 
     headquarters: "San Bonifacio, Italia",
     overview: `Ferroli este un producător italian de echipamente termice, cu sediul la San Bonifacio, lângă Verona, activ din 1955. Pe lângă gama cunoscută de centrale murale și boilere pentru rezidențial, grupul produce și generatoare de abur industriale sub linia VAPOPREX, pentru procese care au nevoie de abur continuu la presiune medie sau joasă. Putem oferta din gama de generatoare de abur industriale pentru fabrici și unități de producție.
 
-Spre deosebire de un furnizor axat exclusiv pe climatizare industrială precum Trane, Ferroli acoperă generarea de abur cu trei niveluri de presiune: VAPOPREX 3GN pentru capacități mari (până la 25.000 kg/h) cu trei drumuri de gaze de ardere, VAPOPREX HVP pentru instalații medii și VAPOPREX LVP pentru abur la presiune joasă, sub 1 bar, unde cerințele de siguranță și autorizare sunt mai simple. Toate funcționează pe gaz sau motorină, cu temperaturi de lucru de până la aproape 192°C.
+Ferroli acoperă generarea de abur cu trei linii de generatoare: VAPOPREX 3GN pentru capacități mari (până la 25.000 kg/h) cu trei drumuri de gaze de ardere, VAPOPREX HVP pentru instalații medii și VAPOPREX LVP pentru abur la presiune joasă (1 bar), unde cerințele de siguranță și autorizare sunt mai simple. Toate funcționează pe gaz sau motorină, cu temperaturi de lucru de până la aproape 192°C.
 
-Pentru fabricile din România cu proces continuu — industrie alimentară, textilă sau farmaceutică — generatoarele de abur Ferroli sunt o opțiune când proiectul cere o capacitate intermediară, între cazanele mici comerciale și instalațiile de mare capacitate ale producătorilor specializați exclusiv industrial.`,
+Pentru fabricile din România cu proces continuu — industrie alimentară, textilă sau farmaceutică — generatoarele de abur Ferroli sunt o opțiune când proiectul cere o capacitate de abur în intervalul 1.500–25.000 kg/h, conform gamei VAPOPREX.`,
     whyChoose: [
-      "Gamă de generatoare de abur pe trei niveluri de presiune, de la joasă (LVP) la medie (HVP, 3GN)",
+      "Gamă de generatoare de abur de joasă presiune (LVP) și de presiune medie (HVP, 3GN)",
       "Capacități de la 1.500 până la 25.000 kg abur/oră, acoperind fabrici mici și medii",
       "Funcționare pe gaz sau motorină, cu flexibilitate la combustibilul disponibil pe amplasament",
-      "Status de Authorised Economic Operator (AEO), relevant pentru fluxul vamal la import din UE",
-      "Grup cu peste 70 de ani de experiență în echipamente termice, cu rețea de service pentru profesioniști"
+      "Grup cu statut de Authorised Economic Operator (AEO - Operator Economic Autorizat), conform site-ului Ferroli Group",
+      "Grup cu peste 70 de ani de experiență în echipamente termice (din 1955)"
     ],
     keyProducts: [
       { name: "Generator de Abur VAPOPREX 3GN", description: "Generator de abur de presiune medie, cu trei drumuri de gaze de ardere, pentru capacități de la 1.600 până la 25.000 kg abur/oră, la presiune de proiectare de 12 bar (disponibil și la presiuni mai mari, la cerere) și temperatură maximă de 191,7°C. Aplicație tipică: procese industriale continue cu necesar mare de abur — sterilizare, uscare, procesare alimentară la scară mare. Clientul trebuie să transmită capacitatea de abur necesară și presiunea de lucru a instalației." },
@@ -593,8 +593,8 @@ Pentru fabricile din România cu proces continuu — industrie alimentară, text
     industries: [
       "Industria alimentară — abur pentru procesare, sterilizare și curățare",
       "Industria textilă — abur de proces pentru vopsire și finisare",
-      "Industria farmaceutică — abur curat pentru procese controlate",
-      "Automotive — abur de proces menționat explicit de producător pentru linii de producție"
+      "Industria farmaceutică — abur pentru procese tehnologice",
+      "Automotive — abur de proces pentru linii de producție"
     ],
     infinitrade: `Nu ținem produse Ferroli pe stoc propriu; informațiile despre gama de generatoare de abur vin din surse publice ale producătorului italian. Aducem generatoare VAPOPREX la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare — pentru echipamente de capacitate mare, termenul poate fi mai lung, se confirmă punctual. Pentru o ofertă corectă avem nevoie de capacitatea de abur necesară (kg/h), presiunea de lucru și tipul de combustibil disponibil pe amplasament. Nu promitem disponibilitate permanentă din stoc pentru niciuna dintre variantele VAPOPREX.`,
     limitation: "Nu putem confirma termenul de livrare pentru generatoare de abur de capacitate mare configurate special și nici service-ul în garanția producătorului pentru instalarea și punerea în funcțiune.",
@@ -655,7 +655,7 @@ Pentru fabricile din România cu proces continuu — industrie alimentară, text
       },
       {
         "q": "Livrați generatoare de abur Ferroli în România?",
-        "a": "Da, aducem la comandă generatoare din gama VAPOPREX, precum și cazane cu ulei diatermic sau cu apă caldă industrială, pe baza codului sau modelului solicitat. Cazanele și generatoarele Ferroli se comandă punctual, fără a fi păstrate în depozit propriu, iar așteptarea uzuală anunțată de producător este cuprinsă între două și patru săptămâni. Menționarea capacității dorite, exprimată în kilograme de abur pe oră, grăbește pregătirea unei oferte corecte."
+        "a": "Da, aducem la comandă generatoare din gama VAPOPREX, precum și cazane cu ulei diatermic sau cu apă caldă industrială, pe baza codului sau modelului solicitat. Cazanele și generatoarele Ferroli se comandă punctual, fără a fi păstrate în depozit propriu, iar termenul uzual la comandă este de 1–4 săptămâni, confirmat punctual la ofertare. Menționarea capacității dorite, exprimată în kilograme de abur pe oră, grăbește pregătirea unei oferte corecte."
       },
       {
         "q": "Ce date sunt utile pentru o ofertă de cazan industrial Ferroli?",
@@ -668,8 +668,8 @@ Pentru fabricile din România cu proces continuu — industrie alimentară, text
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Ferroli – Cazane de abur","url":"https://www.ferroli.com/ro/products/cazane-de-abur","publisher":"Ferroli","accessed":"2026-09-25"},
       {"title":"Ferroli Group","url":"https://www.ferroligroup.com/en","publisher":"Ferroli","accessed":"2026-09-25"},
@@ -910,17 +910,17 @@ Pentru integratorii români de echipamente compacte — mașini medicale, sistem
     name: "Rohde & Schwarz",
     founded: 1933,
     headquarters: "München, Germania",
-    overview: `Rohde & Schwarz este un producător german de aparatură de măsură RF și microunde, cu sediul la München, fondat în 1933 și deținut integral de familiile fondatoare. Gama include osciloscoape, precum seria MXO 3, analizoare de spectru, generatoare de semnal, echipamente de testare EMC și sisteme de testare de antenă (OTA) pentru comunicații 5G/6G. Putem oferta din gama de aparate de măsură RF pentru laboratoare de testare și mentenanță electronică.
+    overview: `Rohde & Schwarz este un producător german de aparatură de măsură RF și microunde, cu sediul la München, fondat în 1933 și companie privată. Gama include osciloscoape, precum seria MXO 3, analizoare de spectru, generatoare de semnal, echipamente de testare EMC și sisteme de testare de antenă (OTA) pentru comunicații 5G/6G. Putem oferta din gama de aparate de măsură RF pentru laboratoare de testare și mentenanță electronică.
 
-Spre deosebire de un producător orientat spre mentenanță de teren precum Fluke, Rohde & Schwarz se concentrează pe instrumentație de laborator și de producție pentru RF și microunde — testare de telecomunicații, compatibilitate electromagnetică (EMC) și validare de sisteme radar sau de apărare. Compania operează cu peste 15.000 de angajați și peste 70 de filiale locale la nivel global, ceea ce asigură acoperire de service extinsă pentru echipamente complexe.
+Rohde & Schwarz se concentrează pe instrumentație de laborator și de producție pentru RF și microunde — testare de telecomunicații, compatibilitate electromagnetică (EMC) și validare de sisteme radar sau de apărare. Compania are peste 15.000 de angajați și este prezentă în peste 70 de țări.
 
 Pentru laboratoarele de testare și producătorii de electronice din România, Rohde & Schwarz e relevant la validarea de produse RF, testarea de compatibilitate electromagnetică înainte de certificare CE și la infrastructura de testare pentru rețele de telecomunicații.`,
     whyChoose: [
       "Gamă de osciloscoape MXO 3 pentru testare de laborator, alături de analizoare de spectru și generatoare de semnal",
       "Sisteme dedicate de testare EMC, necesare pentru certificarea produselor electronice",
       "Sisteme de testare de antenă (OTA) pentru validarea echipamentelor 5G și 6G",
-      "Companie 100% deținută de familiile fondatoare, cu peste 90 de ani de activitate continuă",
-      "Rețea de peste 70 de filiale locale la nivel global pentru suport tehnic și service"
+      "Companie privată, înființată în 1933 (peste 90 de ani de activitate)",
+      "Prezență în peste 70 de țări"
     ],
     keyProducts: [
       { name: "Osciloscoape Seria MXO 3", description: "Familie de osciloscoape de laborator, folosite pentru vizualizarea și analiza semnalelor electrice în dezvoltarea și depanarea echipamentelor electronice. Aplicație tipică: laboratoare de dezvoltare hardware, verificare de producție. Clientul trebuie să transmită banda de frecvență necesară, numărul de canale și rata de eșantionare cerută pentru aplicația sa." },
@@ -940,11 +940,11 @@ Pentru laboratoarele de testare și producătorii de electronice din România, R
     productCodes: [
       {
         "code": "MXO 3",
-        "description": "Osciloscop compact cu 4 sau 8 canale, echilibrat între performanță și preț"
+        "description": "Osciloscop compact cu 4 sau 8 canale, gamă de 100 MHz – 1 GHz, 5 GSample/s"
       },
       {
         "code": "MXO 4",
-        "description": "Osciloscop din generația nouă, cu ecran mare și interfață tactilă"
+        "description": "Osciloscop cu 4 canale, bandă de 200 MHz – 1,5 GHz"
       },
       {
         "code": "FSW",
@@ -986,11 +986,11 @@ Pentru laboratoarele de testare și producătorii de electronice din România, R
     faq: [
       {
         "q": "Ce diferență este între osciloscoapele Rohde & Schwarz MXO 3 și MXO 4?",
-        "a": "MXO 3 este gândit ca o soluție compactă, disponibilă în variante cu 4 sau 8 canale, orientată spre un raport bun între performanță și preț. MXO 4 face parte din generația mai nouă de osciloscoape ale producătorului, cu un ecran mai mare și o interfață tactilă gândită pentru diagnosticarea rapidă a semnalelor. Alegerea între cele două depinde de numărul de canale necesar și de bugetul disponibil pentru proiect."
+        "a": "MXO 3 este gândit ca o soluție compactă, disponibilă în variante cu 4 sau 8 canale, cu bandă de 100 MHz – 1 GHz. MXO 4 are 4 canale și bandă de 200 MHz – 1,5 GHz; dimensiunea ecranului și interfața se confirmă din fișa producătorului. Alegerea între cele două depinde de numărul de canale și de banda necesare."
       },
       {
         "q": "Livrați echipamente de măsură Rohde & Schwarz în România?",
-        "a": "Da, aducem la comandă osciloscoape din gama MXO, analizoare de semnal și spectru din familia FSW, precum și generatoare de semnal precum SMW200A, pe baza codului exact solicitat. Instrumentele Rohde & Schwarz sunt procurate la cerere, fără a fi depozitate în avans; termenul obișnuit comunicat public se întinde pe două până la patru săptămâni. Recomandăm precizarea benzii de frecvență și a numărului de canale necesare."
+        "a": "Da, aducem la comandă osciloscoape din gama MXO, analizoare de semnal și spectru din familia FSW, precum și generatoare de semnal precum SMW200A, pe baza codului exact solicitat. Instrumentele Rohde & Schwarz sunt procurate la cerere, fără a fi depozitate în avans; termenul obișnuit este de 1–4 săptămâni de la confirmare. Recomandăm precizarea benzii de frecvență și a numărului de canale necesare."
       },
       {
         "q": "Ce detalii sunt necesare pentru o ofertă de analizor de spectru?",
@@ -1003,8 +1003,8 @@ Pentru laboratoarele de testare și producătorii de electronice din România, R
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Rohde & Schwarz – Test and Measurement","url":"https://www.rohde-schwarz.com/products/test-and-measurement","publisher":"Rohde & Schwarz","accessed":"2026-09-25"},
       { title: "Rohde & Schwarz - Home", url: "https://www.rohde-schwarz.com", publisher: "Rohde & Schwarz GmbH & Co. KG", accessed: "2026-09-22" },

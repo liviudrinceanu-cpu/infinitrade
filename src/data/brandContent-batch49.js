@@ -938,12 +938,12 @@ Ce diferențiază Van der Graaf este principiul motorului tambur — motorul ele
     certifications: ["EcoVadis — evaluare de sustenabilitate menționată pe site"],
     overview: `Portwest este un producător irlandez de îmbrăcăminte și echipament de protecție pentru muncitori industriali, cu un portofoliu de peste 2.400 de modele. Gama acoperă îmbrăcăminte rezistentă la flacără (IFR, multi-normă), îmbrăcăminte de înaltă vizibilitate, încălțăminte de protecție și echipament pentru protecția mâinilor, capului, respirației și auzului. Pentru piața din România putem oferta din gama de echipament individual de protecție folosit pe șantiere, în industrie și în activități cu risc de foc sau vizibilitate redusă.
 
-Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate unor cerințe specifice, precum Fortrex pentru încălțăminte de lucru robustă, i4 pentru îmbrăcăminte modernă de protecție, Kaptiv pentru echipamente de captare a prafului sau particulelor și BizTex pentru îmbrăcăminte impermeabilă. În categoria echipamentului de protecție, Portwest se află alături de MSA Safety, cu accent pe volumul mare de modele disponibile și pe acoperirea completă a unei liste de dotare, nu doar pe câteva articole specializate.
+Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate unor cerințe specifice, precum Fortrex pentru încălțăminte de lucru robustă, i4 pentru încălțăminte de protecție cu proprietăți ESD (Electrostatic Discharge, descărcare electrostatică), Kaptiv pentru încălțăminte de lucru și BizTex pentru combinezoane microporoase de protecție. În categoria echipamentului de protecție, Portwest se află alături de MSA Safety, cu accent pe volumul mare de modele disponibile și pe acoperirea completă a unei liste de dotare, nu doar pe câteva articole specializate.
 
 În România, gama Portwest are sens pentru companii de construcții, echipe de mentenanță industrială și activități cu risc de incendiu sau vizibilitate redusă, unde se cere dotarea completă a personalului cu echipament certificat, de la cască până la încălțăminte.`,
     whyChoose: [
       "Portofoliu de peste 2.400 de modele de echipament de protecție",
-      "Serii dedicate: Fortrex pentru încălțăminte robustă, i4 pentru îmbrăcăminte modernă de protecție",
+      "Serii dedicate: Fortrex pentru încălțăminte robustă, i4 pentru încălțăminte de protecție ESD",
       "Gamă de îmbrăcăminte rezistentă la flacără (IFR) pentru medii cu risc de incendiu",
       "Îmbrăcăminte de înaltă vizibilitate pentru lucru pe șantiere și drumuri",
       "Evaluare de sustenabilitate EcoVadis menționată de producător",
@@ -952,12 +952,12 @@ Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate uno
       { name: "Îmbrăcăminte Rezistentă la Flacără (IFR)", description: "Îmbrăcăminte de protecție multi-normă, gândită pentru medii cu risc de incendiu sau arc electric — petrochimie, energie, sudură industrială. Nivelul de protecție variază după normativul respectat și materialul folosit. Pentru ofertă avem nevoie de tipul de risc (termic, chimic, electric), mărimile necesare și cantitatea." },
       { name: "Îmbrăcăminte de Înaltă Vizibilitate", description: "Veste, jachete și salopete cu benzi reflectorizante, obligatorii pe șantiere, la lucrări pe drumuri și în depozite cu trafic de utilaje. Clasa de vizibilitate cerută depinde de tipul de activitate și de normativul aplicabil pe șantier." },
       { name: "Încălțăminte de Protecție Seria Fortrex", description: "Bocanci și pantofi de protecție cu bombeu și lamelă anti-perforare, gândiți pentru șantiere și medii industriale dure. Necesar de precizat: mărimile, clasa de protecție cerută (S1, S3 etc.) și tipul de talpă (antiderapantă, rezistentă chimic)." },
-      { name: "Echipament de Protecție Kaptiv", description: "Serie de produse pentru protecția respiratorie și controlul particulelor, folosită în medii cu praf sau contaminanți în suspensie. Aplicație tipică în lucrări de demolare, șlefuire sau procesare de materiale care generează pulberi." },
+      { name: "Încălțăminte de Protecție Kaptiv", description: "Colecție de încălțăminte de protecție Portwest (de exemplu Kaptiv RXT). Pentru ofertă avem nevoie de mărimile necesare, clasa de protecție cerută (S1, S3 etc.) și tipul de talpă." },
     ],
     industries: [
       "Construcții — echipament complet de la cască la încălțăminte",
-      "Petrol și gaze — îmbrăcăminte rezistentă la flacără pentru risc de explozie",
-      "Energie — protecție la arc electric pentru echipe de mentenanță",
+      "Petrol și gaze — îmbrăcăminte rezistentă la flacără pentru medii cu risc de incendiu",
+      "Energie — îmbrăcăminte de protecție pentru echipe de mentenanță; protecția la arc electric se verifică pe fișa tehnică a fiecărui articol",
       "Transport și logistică — îmbrăcăminte de înaltă vizibilitate",
       "Industrie prelucrătoare — protecție respiratorie și a mâinilor",
     ],
@@ -966,7 +966,7 @@ Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate uno
     productCodes: [
       {
         "code": "A653",
-        "description": "Mănușă din nitril, căptușeală tip sandy, rezistență la tăiere nivel A4"
+        "description": "Mănușă cu înveliș din nitril tip sandy, rezistență la tăiere ANSI nivel A4"
       },
       {
         "code": "A746",
@@ -986,7 +986,7 @@ Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate uno
       },
       {
         "code": "A638",
-        "description": "Mănușă din poliuretan, rezistență la tăiere nivel A3, grosime redusă"
+        "description": "Mănușă cu înveliș din poliuretan, rezistență la tăiere ANSI nivel A3, liner de 15 gauge"
       },
       {
         "code": "A644",
@@ -998,11 +998,11 @@ Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate uno
       },
       {
         "code": "A647",
-        "description": "Mănușă din poliuretan, rezistență la tăiere nivel A4, grosime redusă"
+        "description": "Mănușă cu înveliș din poliuretan, rezistență la tăiere ANSI nivel A4, liner de 15 gauge"
       },
       {
         "code": "A649",
-        "description": "Mănușă din poliuretan, rezistență la tăiere nivel A4, variantă întărită"
+        "description": "Mănușă cu înveliș din poliuretan, rezistență la tăiere ANSI nivel A4, liner de 21 gauge pentru dexteritate"
       },
       {
         "code": "A651",
@@ -1010,17 +1010,17 @@ Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate uno
       },
       {
         "code": "A648",
-        "description": "Mănușă din nitril, rezistență la tăiere nivel A4, variantă întărită"
+        "description": "Mănușă cu înveliș din nitril spumat, rezistență la tăiere ANSI nivel A4, liner de 21 gauge"
       }
     ],
     faq: [
       {
         "q": "Ce înseamnă nivelurile de tăiere A3, A4 și A5 la mănușile Portwest?",
-        "a": "Nivelurile A3, A4 și A5 arată rezistența la tăiere a mănușii conform standardului EN388, fiecare literă însemnând un prag superior de protecție față de cel anterior. Codurile Portwest precum A636 sau A637 corespund nivelului A3, potrivit pentru manipulare generală, în timp ce A651 sau A652 ating nivelul A5, recomandat la manipularea tablei sau a sticlei. Alegerea depinde de riscul real de tăiere din activitatea desfășurată și de grosimea materialului manipulat."
+        "a": "Nivelurile A3, A4 și A5 arată rezistența la tăiere a mănușii conform standardului ANSI/ISEA 105 (niveluri A1–A9; marcajul EN 388 folosește o scală separată, cu litere de la A la F), fiecare nivel însemnând un prag superior de protecție față de cel anterior. Codurile Portwest precum A636 sau A637 corespund nivelului A3, potrivit pentru manipulare generală, în timp ce A651 sau A652 ating nivelul A5, recomandat la manipularea tablei sau a sticlei. Alegerea depinde de riscul real de tăiere din activitatea desfășurată și de grosimea materialului manipulat."
       },
       {
         "q": "Ce diferență este între mănușile din nitril și cele din poliuretan la Portwest?",
-        "a": "Mănușile din nitril, precum A636 sau A644, oferă aderență bună în medii uscate și ușor uleioase, fiind mai rezistente la abraziune. Variantele din poliuretan, cum sunt A637 sau A642, au sensibilitate tactilă superioară și sunt preferate la manipularea pieselor mici sau la asamblare de precizie. Ambele familii păstrează nivelul de protecție la tăiere marcat pe etichetă, diferența fiind în principal de senzație la purtare și rezistență la produse chimice ușoare."
+        "a": "Mănușile din nitril, precum A636 sau A644, oferă aderență bună în medii uscate și umede, conform descrierii producătorului. Variantele din poliuretan, cum sunt A637 sau A642, au sensibilitate tactilă superioară și sunt preferate la manipularea pieselor mici sau la asamblare de precizie. Ambele familii păstrează nivelul de protecție la tăiere marcat pe etichetă, diferența fiind în principal de senzație la purtare și rezistență la produse chimice ușoare."
       },
       {
         "q": "Ce trebuie să precizez pentru o comandă de mănuși de protecție Portwest?",
@@ -1028,13 +1028,13 @@ Ce diferențiază Portwest este amploarea portofoliului și seriile dedicate uno
       },
       {
         "q": "Livrați echipamente de protecție Portwest în România?",
-        "a": "Da, aducem la comandă mănuși, îmbrăcăminte și încălțăminte de protecție din portofoliul Portwest, pornind de la codul exact al produsului dorit. Comandăm aceste articole special, fără a le ține curent pe raft, iar termenul indicat public de producător este de două până la patru săptămâni. Recomandăm transmiterea codului complet de pe etichetă sau din fișa tehnică pentru a evita alegerea unei variante greșite."
+        "a": "Da, aducem la comandă mănuși, îmbrăcăminte și încălțăminte de protecție din portofoliul Portwest, pornind de la codul exact al produsului dorit. Comandăm aceste articole special, fără a le ține curent pe raft, iar termenul de livrare este, de regulă, de 1–4 săptămâni. Recomandăm transmiterea codului complet de pe etichetă sau din fișa tehnică pentru a evita alegerea unei variante greșite."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Portwest – Cut Resistant Gloves","url":"https://www.portwest.com/products/gloves/X/3/1","publisher":"Portwest","accessed":"2026-09-25"},
       {"title":"Portwest – Homepage","url":"https://www.portwest.com/","publisher":"Portwest","accessed":"2026-09-25"},
