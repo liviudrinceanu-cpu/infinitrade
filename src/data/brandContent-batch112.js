@@ -140,11 +140,11 @@ Pentru un integrator sau un service de utilaje din România, Stauff înseamnă a
     headquarters: "Ankara, Turcia",
     overview: `Ekoval este un producător turc de robinete industriale, cu sediul la Ankara, specializat în armături pentru rețele de apă și proiecte de infrastructură — robinete cu bilă, robinete fluture, vane sertar, clapete de reținere și hidranți. Compania se prezintă ca primul producător din Turcia al unei clapete de reținere cu disc din poliuretan, cu închidere rapidă și silențioasă, gândită să reducă loviturile de berbec din conducte. Din gama Ekoval putem oferta armături pentru proiecte de apă și apă uzată, de la robinete cu filet mic până la vane sertar de diametru mare pentru conducte de distribuție.
 
-Gama Ekoval acoperă practic toate tipurile uzuale de armături pentru rețele de apă: robinete cu bilă (flanșate, sudate sau tip wafer, din oțel forjat sau alamă), robinete fluture pentru reglarea debitului, vane sertar cu etanșare elastică sau cu scaun metalic conform standardelor AWWA și API, și clapete de reținere în mai multe variante constructive. Punctul lor de diferențiere declarat este clapeta de reținere cu disc din poliuretan, cu închidere silențioasă, utilă acolo unde loviturile de berbec produc zgomot sau uzură prematură a conductei. Compania se prezintă și ca producător neutru din punct de vedere al emisiilor de carbon, un argument suplimentar pentru proiectele publice cu cerințe de mediu.
+Gama Ekoval acoperă practic toate tipurile uzuale de armături pentru rețele de apă: robinete cu bilă (flanșate, sudate sau tip wafer, din oțel forjat sau alamă), robinete fluture pentru reglarea debitului, vane sertar cu etanșare elastică (AWWA C515) sau cu scaun metalic, precum și vane sertar API, și clapete de reținere în mai multe variante constructive. Punctul lor de diferențiere declarat este clapeta de reținere cu disc din poliuretan, cu închidere silențioasă, utilă acolo unde loviturile de berbec produc zgomot sau uzură prematură a conductei. Compania se prezintă și ca producător neutru din punct de vedere al emisiilor de carbon, un argument suplimentar pentru proiectele publice cu cerințe de mediu.
 
 Pentru un operator de apă sau un contractor de infrastructură din România, Ekoval înseamnă o sursă de armături standard pentru rețele de apă. Gama acoperă atât intervenții punctuale de mentenanță, cât și proiecte noi de rețea de apă și apă uzată.`,
     whyChoose: [
-      "Gamă completă de armături pentru apă — robinete cu bilă, fluture, vane sertar și clapete de reținere",
+      "Gamă largă de armături pentru apă — robinete cu bilă, fluture, vane sertar și clapete de reținere",
       "Clapetă de reținere cu disc din poliuretan, cu închidere rapidă și silențioasă, împotriva loviturilor de berbec",
       "Vane sertar disponibile conform standardelor AWWA C515 și API, pentru proiecte cu cerințe internaționale",
       "Robinete cu bilă în variante flanșate, sudate sau tip wafer, din oțel forjat sau alamă",
@@ -154,7 +154,7 @@ Pentru un operator de apă sau un contractor de infrastructură din România, Ek
     keyProducts: [
       { name: "Robinete cu bilă (Ball Valves)", description: "Gamă de robinete cu bilă în variante flanșate, complet sudate sau tip wafer, din oțel forjat sau alamă, pentru izolarea rapidă a unui segment de conductă. Variantele flanșate conform standardului japonez JIS 10K se adresează proiectelor cu specificații asiatice, iar cele conform claselor ANSI 150-600 cu bilă flotantă sunt potrivite pentru presiuni mai ridicate." },
       { name: "Robinete fluture (Butterfly Valves)", description: "Robinete fluture pentru reglarea și izolarea debitului pe conducte de diametru mare, disponibile în variantă standard, tip wafer-lug pentru montaj între flanșe, și variantă dedicată intrării în turbină. Discul rotativ oferă o cursă de închidere scurtă față de o vană sertar echivalentă." },
-      { name: "Vane sertar (Gate Valves)", description: "Vane sertar în variante cu etanșare elastică, conform standardului AWWA C515, cu tijă ascendentă sau îngropată, și variante cu scaun metalic din clasele F4/F5 pentru aplicații industriale. Gama include și vane cuțit pentru solide și vane API cu tijă exterioară, pentru clasele de presiune 150-300." },
+      { name: "Vane sertar (Gate Valves)", description: "Vane sertar în variante cu etanșare elastică, conform standardului AWWA C515, cu tijă ascendentă sau neascendentă, și variante cu scaun metalic, cu lungimi de montaj F4/F5 (seriile 14 și 15 din EN 558-1), pentru aplicații industriale. Gama include și vane cuțit pentru solide și vane API cu tijă exterioară, pentru clasele de presiune 150-300." },
       { name: "Clapete de reținere (Check Valves)", description: "Clapete de reținere în variante cu disc oscilant, cu două plăci sau cu închidere rapidă și silențioasă, cu disc din poliuretan — produsul cu care Ekoval se prezintă ca primul producător turc din categorie. Varianta cu închidere rapidă reduce loviturile de berbec la oprirea bruscă a unei pompe." }
     ],
     industries: [
@@ -169,7 +169,7 @@ Pentru un operator de apă sau un contractor de infrastructură din România, Ek
     productCodes: [
       { code: "Flanged Ball Valve", description: "Robinet cu bilă cu capete flanșate pentru linii de apă" },
       { code: "JIS 10K Flanged Ball Valve", description: "Robinet cu bilă flanșat conform standardului japonez JIS 10K" },
-      { code: "Fully Welded Ball Valve", description: "Robinet cu bilă complet sudat, pentru montaj îngropat" },
+      { code: "Fully Welded Ball Valve", description: "Robinet cu bilă complet sudat" },
       { code: "Forged Steel Wafer Ball Valve", description: "Robinet cu bilă tip wafer, din oțel forjat" },
       { code: "ANSI 150-600 Floating Ball Valve", description: "Robinet cu bilă flotantă conform claselor ANSI 150-600" },
       { code: "Brass Ball Valve", description: "Robinet cu bilă din alamă pentru instalații de apă" },
@@ -178,7 +178,7 @@ Pentru un operator de apă sau un contractor de infrastructură din România, Ek
       { code: "Wafer Lug Butterfly Valve", description: "Robinet fluture tip wafer-lug, montaj între flanșe" },
       { code: "AWWA C515 Gate Valve", description: "Vană sertar cu etanșare elastică, conform standardului AWWA C515" },
       { code: "Rising Stem Gate Valve", description: "Vană sertar cu tijă ascendentă și etanșare elastică" },
-      { code: "Metal Seated Gate Valve F4/F5", description: "Vană sertar cu scaun metalic, clasele F4 și F5" },
+      { code: "Metal Seated Gate Valve F4/F5", description: "Vană sertar cu scaun metalic, lungimi de montaj F4 și F5 (EN 558-1)" },
       { code: "Knife Gate Valve", description: "Vană cuțit pentru fluide cu conținut de solide" },
       { code: "API 150-300 OS&Y Gate Valve", description: "Vană sertar cu tijă exterioară, conform API, clasele 150-300" },
       { code: "Flanged Swing Check Valve", description: "Clapetă de reținere flanșată, cu disc oscilant" },
@@ -189,7 +189,7 @@ Pentru un operator de apă sau un contractor de infrastructură din România, Ek
     faq: [
       { q: "Ce produce Ekoval?", a: "Ekoval produce armături industriale pentru rețele de apă: robinete cu bilă, robinete fluture, vane sertar, clapete de reținere și hidranți, fabricate la Ankara, Turcia. Compania se prezintă ca primul producător turc al unei clapete de reținere cu disc din poliuretan, cu închidere silențioasă, gândită să reducă loviturile de berbec din conductele de apă." },
       { q: "Cum aleg o vană sertar Ekoval potrivită pentru rețeaua mea?", a: "Alegerea depinde de diametrul nominal al conductei, clasa de presiune și tipul de etanșare dorit — elastică, conform AWWA C515, sau cu scaun metalic pentru aplicații industriale mai solicitante. Trimiteți-ne aceste date, plus standardul de flanșă folosit în proiect, iar noi verificăm codul Ekoval potrivit împreună cu producătorul." },
-      { q: "Ce tip de robinet Ekoval se potrivește pentru conducte îngropate?", a: "Pentru conducte îngropate, gama Ekoval include robinete cu bilă complet sudate, fără flanșe expuse coroziunii în timp, potrivite pentru rețele de apă subterane. Pentru conducte accesibile, variantele flanșate sau tip wafer sunt mai simplu de întreținut și de înlocuit la nevoie." },
+      { q: "Ce tip de robinet Ekoval se potrivește pentru conducte îngropate?", a: "Gama Ekoval include robinete cu bilă complet sudate și variante flanșate sau tip wafer. Adecvarea pentru montaj îngropat sau supraterană se confirmă pe cod, din documentația Ekoval, în funcție de diametru, presiune și condițiile de instalare." },
       { q: "Livrați robinete Ekoval în România și cât durează?", a: "Aducem armăturile Ekoval la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de diametrul și configurația confirmate de producător. Nu ținem această gamă pe raft, așa că vă recomandăm să transmiteți cerința din timp pentru proiecte cu termen fix." },
       { q: "Ce informații trebuie să trimit pentru o ofertă Ekoval?", a: "Aveți nevoie să ne trimiteți diametrul nominal, clasa de presiune, standardul de flanșă (ANSI, JIS sau altul) și tipul de fluid vehiculat prin conductă. Pentru clapete de reținere, precizați și debitul aproximativ, ca să verificăm dimensiunea corectă a discului împreună cu producătorul." }
     ],

@@ -6,18 +6,18 @@ export const brandContentBatch89 = {
     headquarters: "Nanjing, China",
     overview: `Estun Automation este un producător chinez de automatizări industriale cu sediul la Nanjing, provincia Jiangsu, activ în controlul de mișcare și în robotica industrială. Compania produce servomotoare, servodrivere, invertoare, controlere de mișcare și sisteme CNC, alături de roboți industriali din seriile ER și UNO, roboți colaborativi și soluții software pentru linii robotizate. Din gama Estun putem oferta atât componente de acționare pentru integratori, cât și roboți articulați pentru linii complete de asamblare, sudură sau paletizare, cu documentația tehnică a producătorului.
 
-Ce diferențiază Estun în piața motion control este integrarea completă a lanțului motor-drive-controler sub aceeași marcă, ceea ce simplifică punerea în funcțiune pentru integratorii care nu vor să combine componente de la producători diferiți.
+Estun oferă în același portofoliu servomotoare, servodrivere, invertoare și controlere de mișcare, alături de roboți industriali.
 
-Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un proiect de automatizare cere componente de acționare și un robot din același ecosistem, cu suport tehnic unificat.`,
+Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un proiect de automatizare cere componente de acționare și un robot din același portofoliu.`,
     whyChoose: [
-      "Integrare completă motor-drive-controler sub aceeași marcă, fără combinare de componente de la mai mulți furnizori",
+      "Servomotoare, servodrivere și controlere de mișcare în același portofoliu",
       
       "Gamă de roboți articulați ER și UNO pentru linii de asamblare, sudură sau paletizare",
       "Roboți colaborativi disponibili pentru posturi de lucru alături de operatori umani, fără îngrădire completă",
       "Soluții software proprii (E-PMT și E-Noesis) pentru linii robotizate",
     ],
     keyProducts: [
-      { name: "Roboți industriali (seria ER și UNO)", description: "Roboți articulați pentru linii de producție, din seria ER pentru aplicații de mare viteză și precizie și seria UNO. Acoperă operații tipice precum sudură, paletizare, asamblare sau manipulare de piese, cu accesorii dedicate pentru integrare mai rapidă pe o linie existentă. Estun oferă și o gamă de roboți colaborativi pentru posturi unde robotul lucrează alături de un operator uman, fără o incintă de protecție completă." },
+      { name: "Roboți industriali (seria ER și UNO)", description: "Roboți articulați pentru linii de producție, din seriile ER și UNO. Acoperă operații tipice precum sudură, paletizare, asamblare sau manipulare de piese, cu accesorii dedicate pentru integrare mai rapidă pe o linie existentă. Estun oferă și o gamă de roboți colaborativi pentru posturi unde robotul lucrează alături de un operator uman, fără o incintă de protecție completă." },
       { name: "Sisteme de acționare (servo driver, servo motor, invertor)", description: "Componentele de bază pentru motion control — servomotoare cu densitate mare de putere, servodrivere de mare precizie și invertoare pentru comanda motoarelor — vândute atât ca set complet integrat, cât și separat pentru integratori care construiesc propria arhitectură de control. Pot fi achiziționate și separat de un robot, pentru alte aplicații de automatizare." },
       { name: "Controler de mișcare și sistem CNC", description: "Controler de mișcare multi-ax pentru sincronizarea mai multor axe servo pe aceeași mașină, alături de un sistem CNC pentru controlul numeric al mașinilor unelte. Ambele completează portofoliul de motion control al Estun pentru aplicații care nu sunt neapărat roboți articulați, ci mașini dedicate cu mai multe axe de mișcare coordonate." },
       { name: "E-PMT și E-Noesis (software)", description: "Soluții software ale producătorului pentru linii robotizate; funcțiile exacte ale E-PMT și E-Noesis se confirmă din documentația Estun." },
@@ -37,7 +37,7 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
     infinitrade: `Punem la dispoziție gama Estun de componente de acționare și roboți industriali pentru integratori din România. Ce putem și ce nu putem confirma: descrierile de mai sus vin din surse publice ale producătorului, fără date proprii despre stocul curent al fiecărui model. Comanda ajunge prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de fabrica din China. Pentru ofertă, spuneți-ne dacă aveți nevoie de o componentă individuală (servomotor, drive, invertor) sau de un robot complet cu accesorii; nu ținem gama Estun pe raft, fiecare comandă se aduce direct din canalul de aprovizionare confirmat de fabrică.`,
     limitation: "Nu putem confirma anul înființării sau numărul de angajați pentru Estun, informații care nu apar pe paginile oficiale consultate.",
     productCodes: [
-      { code: "ER series", description: "roboți industriali rapizi și de mare precizie pentru linii complete" },
+      { code: "ER series", description: "roboți industriali din seria ER" },
       { code: "UNO series", description: "roboți industriali din seria UNO" },
       { code: "Collaborative Robots", description: "roboți colaborativi pentru lucru alături de operatori umani" },
       { code: "Specialized series", description: "roboți dedicați aplicațiilor de nișă din portofoliul Estun" },

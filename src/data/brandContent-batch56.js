@@ -5,7 +5,7 @@ export const brandContentBatch56 = {
     name: "ITT Goulds",
     overview: `ITT Goulds Pumps este divizia de pompe industriale a grupului american ITT Inc., specializată în pompe centrifuge de proces pentru rafinării, platforme chimice, minerit și industria energetică. Gama include pompe de proces din familia 3196 (ANSI B73.1) și 3796, pompe verticale de tip turbină din seria VIT/VIC/VIDS pentru foraje adânci și puțuri industriale, și pompe cu carcasă despicată din seria HS pentru debite mari. Pentru piața din România putem oferta atât unități complete, cât și piese de schimb pentru instalațiile deja existente cu pompe Goulds.
 
-Important de reținut: ITT Goulds Pumps, producătorul pompelor industriale grele API 610, este o companie distinctă de Goulds Water Technology, brandul de pompe rezidențiale și comerciale rămas la Xylem după separarea din 2011 a diviziei de apă a ITT. Seria 3196, construită după standardul ANSI B73.1, este o pompă de proces folosită pe scară largă în industrie, cu variante i-FRAME pentru mentenanță rapidă, LF pentru debite mici și HT pentru fluide fierbinți. Concurează direct cu Flowserve și cu KSB pe segmentul pompelor API pentru rafinării și petrochimie.
+Important de reținut: ITT Goulds Pumps, producătorul pompelor industriale grele API 610, este o companie distinctă de Goulds Water Technology, brandul de pompe rezidențiale și comerciale rămas la Xylem după separarea din 2011 a diviziei de apă a ITT. Seria 3196, construită după standardul ANSI B73.1, este o pompă de proces folosită pe scară largă în industrie, cu variante i-FRAME pentru mentenanță rapidă, LF pentru debite mici și HT pentru fluide fierbinți. Concurează cu Flowserve și cu KSB pe segmentul pompelor de proces pentru rafinării și petrochimie.
 
 Pentru inginerii și mentenanții din România care operează instalații cu pompe Goulds mai vechi, aducem la comandă piese de schimb și unități de înlocuire, utile mai ales la rafinării, platforme chimice și stații de pompare industrială unde standardul API 610 este obligatoriu.`,
     whyChoose: [
@@ -16,8 +16,8 @@ Pentru inginerii și mentenanții din România care operează instalații cu pom
       "Parte din grupul ITT; documentația tehnică și piesele pentru instalațiile mai vechi se confirmă pe baza numărului de serie al pompei"
     ],
     keyProducts: [
-      { name: "Seria 3196 (ANSI/API)", description: "Pompa centrifugă de proces construită după standardul ANSI B73.1, din familia Goulds folosită în industria chimică și de proces. Design modular i-FRAME, care permite schimbarea etanșării mecanice fără scoaterea completă a pompei din linie. Variantele LF (Low Flow) și HT (High Temperature) acoperă debite mici, respectiv fluide fierbinți peste temperaturile standard. Clientul trebuie să transmită debitul, presiunea de refulare și temperatura fluidului pentru selecția corectă a variantei." },
-      { name: "Seria 3796 — Pompe Autoamorsante", description: "Pompă centrifugă autoamorsantă din seria i-FRAME, gândită pentru linii unde lichidul poate conține aer antrenat sau unde amorsarea manuală nu este practică — transfer de solvenți, condens sau fluide de proces cu conținut variabil de gaz. Păstrează aceeași platformă mecanică cu seria 3196, ceea ce simplifică stocul de piese de schimb pentru un utilizator care are deja ambele modele instalate." },
+      { name: "Seria 3196 (ANSI B73.1)", description: "Pompa centrifugă de proces construită după standardul ANSI B73.1, din familia Goulds folosită în industria chimică și de proces. Design modular i-FRAME, care permite schimbarea etanșării mecanice fără scoaterea completă a pompei din linie. Variantele LF (Low Flow) și HT (High Temperature) acoperă debite mici, respectiv fluide fierbinți peste temperaturile standard. Clientul trebuie să transmită debitul, presiunea de refulare și temperatura fluidului pentru selecția corectă a variantei." },
+      { name: "Seria 3796 — Pompe Autoamorsante", description: "Pompă centrifugă autoamorsantă din seria i-FRAME, gândită pentru linii unde lichidul poate conține aer antrenat sau unde amorsarea manuală nu este practică — transfer de solvenți, condens sau fluide de proces cu conținut variabil de gaz. Interschimbabilitatea pieselor cu seria 3196 se confirmă pe cod, din documentația Goulds." },
       { name: "Pompe Verticale Turbină VIT/VIC/VIDS", description: "Pompe verticale cu ax lung, pentru extragerea apei din foraje adânci sau alimentarea instalațiilor industriale direct din puțuri, cu variante VIT, VIC și VIDS, alese pe baza condițiilor de instalare. Folosite frecvent la stații de răcire industrială și la alimentarea cu apă a proceselor unde sursa este subterană." },
       { name: "Seria HS — Carcasă Despicată Axial", description: "Pompe centrifuge cu carcasă despicată axial, pentru debite mari la presiuni moderate, unde accesul rapid la rotor pentru mentenanță este important fără demontarea conductelor. Aplicație tipică: stații de pompare industrială și circuite de răcire cu debit constant, ridicat." }
     ],
@@ -31,24 +31,24 @@ Pentru inginerii și mentenanții din România care operează instalații cu pom
     infinitrade: `Aducem pompe și piese de schimb ITT Goulds la comandă prin canale de aprovizionare din Uniunea Europeană, pe baza informațiilor publice ale producătorului — fără date proprii despre stocul fabricilor din SUA. Termenul orientativ este de 1–4 săptămâni de la comandă, în funcție de model și de confirmarea disponibilității la partenerii din UE. Pentru o ofertă corectă, avem nevoie de seria exactă a pompei existente (ex. 3196, 3796, VIT), debitul și presiunea de lucru, plus tipul fluidului pompat. Nu promitem disponibilitate din depozit pentru nicio referință din gama Goulds.`,
     limitation: "Nu putem confirma disponibilitatea imediată a pieselor originale pentru modelele Goulds mai vechi și nu oferim service în perioada de garanție a producătorului.",
     productCodes: [
-      { code: "3196", description: "Pompă de proces ANSI/API, standard industrial" },
-      { code: "3796", description: "Pompă centrifugă autoamorsantă, aceeași platformă cu 3196" },
+      { code: "3196", description: "Pompă de proces ANSI B73.1; conformitatea cu API 610 se confirmă pe model, din documentația Goulds" },
+      { code: "3796", description: "Pompă centrifugă autoamorsantă" },
       { code: "3196 i-FRAME", description: "Variantă modulară pentru mentenanță rapidă a etanșării" },
       { code: "LF 3196i", description: "Variantă pentru debite mici (Low Flow)" },
       { code: "HT 3196i", description: "Variantă pentru fluide la temperatură ridicată" },
-      { code: "3196CC", description: "Variantă a seriei 3196" },
+      
       { code: "3410", description: "Pompă de proces din gama industrială Goulds" },
       { code: "3171", description: "Pompă centrifugă de proces, montaj vertical" },
       { code: "CV 3171 / LF 3171", description: "Variante ale seriei 3171 pentru debite reduse" },
-      { code: "3498", description: "Pompă de proces din familia ANSI" },
+      
       { code: "3420", description: "Pompă centrifugă industrială" },
       { code: "VIT", description: "Pompă verticală turbină pentru foraje adânci" },
       { code: "VIC", description: "Variantă VIC a pompelor verticale turbină" },
       { code: "VIDS", description: "Variantă VIDS a pompelor verticale turbină" },
       { code: "3296 EZMAG", description: "Pompă centrifugă cu antrenare magnetică, fără etanșare mecanică" },
-      { code: "3175", description: "Pompă de proces din familia ANSI industrială" },
-      { code: "3316", description: "Pompă centrifugă industrială Goulds" },
-      { code: "JC", description: "Serie de pompe centrifuge industriale" },
+      
+      
+      
       { code: "HS", description: "Pompă cu carcasă despicată axial pentru debite mari" },
       { code: "3400", description: "Pompă de proces industrială Goulds" }
     ],
@@ -56,7 +56,7 @@ Pentru inginerii și mentenanții din România care operează instalații cu pom
       { q: "Ce produce ITT Goulds Pumps?", a: "ITT Goulds Pumps fabrică pompe centrifuge industriale pentru procese grele — de la seria 3196/3796 pentru rafinării și industrie chimică, până la pompele verticale turbină VIT/VIC/VIDS pentru foraje adânci și pompele cu carcasă despicată HS pentru debite mari. Seria 3196 este construită după standardul ANSI B73.1; conformitatea cu API 610 se confirmă pe model, din documentația producătorului." },
       { q: "Ce diferență este între ITT Goulds Pumps și Goulds Water Technology de la Xylem?", a: "ITT Goulds Pumps produce pompe industriale grele pentru rafinării și chimie, în timp ce Goulds Water Technology este brandul de pompe rezidențiale și comerciale rămas la Xylem după separarea diviziei de apă a ITT în 2011. Cele două companii folosesc numele Goulds, dar au game de produse și piețe diferite." },
       { q: "Cum aleg seria potrivită de pompă ITT Goulds Pumps pentru o instalație industrială?", a: "Selecția pornește de la debitul necesar, presiunea de refulare și temperatura fluidului pompat: seria 3196 acoperă majoritatea aplicațiilor de proces, 3796 e varianta autoamorsantă, iar VIT/VIC/VIDS sunt pentru foraje adânci. Contează și conținutul de solide sau caracterul coroziv al fluidului, care determină materialul carcasei și tipul de etanșare mecanică." },
-      { q: "Livrați pompe ITT Goulds Pumps în România și cât durează?", a: "Livrăm pompe și piese ITT Goulds Pumps la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni în funcție de model și de confirmarea producătorului. Nu ținem această gamă pe raft pentru gama Goulds, așa că recomandăm verificarea termenului exact înainte de a planifica o oprire de mentenanță." },
+      { q: "Livrați pompe ITT Goulds Pumps în România și cât durează?", a: "Livrăm pompe și piese ITT Goulds Pumps la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni în funcție de model și de confirmarea producătorului. Nu ținem această gamă pe raft, așa că recomandăm verificarea termenului exact înainte de a planifica o oprire de mentenanță." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de pompă Goulds?", a: "Pentru o ofertă corectă avem nevoie de seria exactă a pompei existente sau dorite (de exemplu 3196, 3796 sau VIT), debitul și presiunea de lucru, temperatura fluidului și, dacă e cazul, conținutul de solide sau caracterul coroziv. Aceste date permit alegerea variantei potrivite de material și etanșare." }
     ],
     evidenceClass: "history-only",

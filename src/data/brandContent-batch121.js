@@ -111,11 +111,11 @@ Pentru România, gama Zurn are sens la proiectele cu specificații americane sau
       },
       {
         name: "Guri de Scurgere de Pardoseală Seria Z356/Z730",
-        description: "Gură de scurgere cu trapă integrată, cu corp din fontă cu acoperire Dura-Coated, cu intrări multiple ajustabile (Z356) sau cu diametru de 9 inch pentru debit ridicat (Z730). Diametrele de racord merg de la 2 la 4 inch, iar placa superioară e din fontă standard sau bronz nichelat lustruit (varianta ZN356). Greutatea variază între 24 și 36 kg pentru Z730, în funcție de configurație."
+        description: "Gură de scurgere cu sifon integrat, cu corp din fontă cu acoperire Dura-Coated, cu intrări multiple ajustabile (Z356) sau cu diametru de 9 inch pentru debit ridicat (Z730). Diametrele de racord merg de la 2 la 4 inch, iar placa superioară e din fontă standard sau bronz nichelat lustruit (varianta ZN356). Greutatea variază între 24 și 36 kg pentru Z730, în funcție de configurație."
       },
       {
         name: "Curățătoare de Pardoseală Ajustabile Seria Z1400/Z1840",
-        description: "Curățător de pardoseală de serviciu greu, ajustabil la nivelul pardoselii finite, cu corp din fontă și dop din ABS (Z1400) sau cu ramă pătrată din inox tip 304 și dop din PVC pentru zone industriale (Z1840-8S). Diametrele de țeavă acoperite merg de la 2 la 8 inch, cu conectare cu mufă interioară, fără mufă sau Neo-Loc. Varianta din inox tip 316 e disponibilă cu prefixul ZM."
+        description: "Curățător de pardoseală de serviciu greu, ajustabil la nivelul pardoselii finite, cu corp din fontă și dop din ABS (Z1400) sau în variantă cu ramă pătrată pentru zone industriale (Z1840-8S), cu materialele confirmate pe cod. Diametrele de țeavă acoperite merg de la 2 la 8 inch, cu conectare cu mufă interioară, fără mufă sau Neo-Loc. Variantele din inox se confirmă pe cod, din fișa tehnică."
       },
       {
         name: "Interceptor de Grăsime Seria GT2700",
@@ -141,15 +141,15 @@ Pentru România, gama Zurn are sens la proiectele cu specificații americane sau
       { code: "ZN356", description: "Variantă Z356 cu placă din bronz nichelat" },
       { code: "Z730", description: "Gură de scurgere diametru 9 inch, debit mare" },
       { code: "Z1400", description: "Curățător de pardoseală ajustabil, dop ABS" },
-      { code: "Z1840-8S", description: "Curățător industrial pătrat, inox 304, dop PVC" },
-      { code: "Z455B", description: "Sifon de pardoseală și duș cu trapă integrală" },
+      { code: "Z1840-8S", description: "Curățător industrial cu ramă pătrată; materialele se confirmă pe cod" },
+      { code: "Z455B", description: "Sifon de pardoseală și duș, cu sifon integrat și curățare la nivelul pardoselii" },
       { code: "Z886", description: "Sistem de canal de drenaj, lățime 6-1/4 inch, HDPE" },
       { code: "Z550", description: "Gură de scurgere diametru 9 inch, serviciu mediu" },
-      { code: "GT2700", description: "Interceptor de grăsime, debit 4-100 GPM" }
+      { code: "GT2700", description: "Interceptor de grăsime, debit 4-100 galoane pe minut (GPM)" }
     ],
     faq: [
       { q: "Ce produce Zurn?", a: "Zurn produce echipamente pentru instalații sanitare și de drenaj — hidranți de perete, guri de scurgere de pardoseală, curățătoare și interceptoare de grăsime — cu corpuri din fontă sau oțel inoxidabil. Compania are un istoric de peste un secol și operează mai multe linii de produse pentru clădiri comerciale, industriale și HoReCa." },
-      { q: "Cum aleg gura de scurgere Zurn potrivită după cod?", a: "Verificați diametrul de racord necesar (2-9 inch), tipul de trapă și finisajul plăcii superioare — fontă standard, bronz nichelat sau inox. Codul Z356 e pentru intrări multiple ajustabile, iar Z730 pentru debit mare cu diametru de 9 inch; alegeți în funcție de suprafața de drenat." },
+      { q: "Cum aleg gura de scurgere Zurn potrivită după cod?", a: "Verificați diametrul de racord necesar (în inch, conform fișei tehnice a codului), tipul de sifon și finisajul plăcii superioare — fontă standard, bronz nichelat sau inox. Codul Z356 e pentru intrări multiple ajustabile, iar Z730 pentru debit mare cu diametru de 9 inch; alegeți în funcție de suprafața de drenat." },
       { q: "Ce echivalent are hidrantul de perete Zurn Z1300?", a: "Z1300 este un hidrant de perete încastrat cu drenare automată. Echivalențele cu hidranții altor producători se verifică punctual, pe conexiunea de intrare și pe grosimea de perete acoperită, din fișa tehnică Zurn." },
       { q: "Livrați produse Zurn în România și cât durează?", a: "Da, aducem produse Zurn la comandă prin canale de aprovizionare din SUA sau prin rețeaua europeană a producătorului, cu termen orientativ de 1–4 săptămâni. Termenul depinde de codul exact solicitat și de disponibilitatea la fabrică la momentul confirmării." },
       { q: "Ce trebuie să trimit pentru o ofertă de produse Zurn?", a: "Trimiteți-ne codul exact al produsului (de exemplu Z1400 sau GT2700), diametrul de racord, tipul de conectare și finisajul dorit pentru placa superioară sau grătar. Pentru interceptoarele de grăsime, menționați și debitul necesar în galoane pe minut." }

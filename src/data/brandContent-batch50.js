@@ -6,21 +6,21 @@ export const brandContentBatch50 = {
     headquarters: "Neckartenzlingen, Germania",
     overview: `Hirschmann Automation and Control este producătorul german de switch-uri Ethernet industriale cu sediul la Neckartenzlingen, parte a grupului american Belden. Compania proiectează echipamente de rețea robuste — switch-uri gestionate, routere de securitate și puncte de acces wireless — construite pentru medii cu vibrații, praf, temperaturi extreme și cerințe stricte de disponibilitate. Din gama Hirschmann putem oferta switch-uri industriale pentru automatizări de proces, energie, transport feroviar și infrastructură critică, acolo unde o defecțiune de rețea oprește producția.
 
-Ce diferențiază switch-urile Hirschmann e arhitectura de redundanță — protocoale de redundanță precum HIPER-Ring și RSTP permit rețelei să se reconfigureze automat după o întrerupere de cablu; timpul de reconfigurare depinde de protocol și de topologie. Seria GREYHOUND acoperă switch-uri compatibile cu protocoale industriale, cu număr variabil de porturi, în funcție de model, iar seria BOBCAT vizează instalarea compactă la marginea rețelei, direct în tabloul de automatizare. Ca fabricant de infrastructură de rețea industrială, Hirschmann pune accent pe managementul centralizat al configurațiilor prin software dedicat, spre deosebire de switch-urile de birou fără funcții industriale.
+Ce diferențiază switch-urile Hirschmann e arhitectura de redundanță — protocoale de redundanță precum HIPER-Ring și RSTP permit rețelei să se reconfigureze automat după o întrerupere de cablu; timpul de reconfigurare depinde de protocol și de topologie. Seria GREYHOUND acoperă switch-uri compatibile cu protocoale industriale, cu număr variabil de porturi, în funcție de model, iar seria BOBCAT vizează instalarea compactă la marginea rețelei, direct în tabloul de automatizare. 
 
 Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă o opțiune solidă acolo unde rețeaua Ethernet trece prin hale de producție, stații electrice sau tunele — medii unde un switch obișnuit cedează rapid. Se pretează la proiecte de automatizare nouă și la extinderea rețelelor existente, cu mentenanță redusă odată instalat corect.`,
     whyChoose: [
       "Redundanță de rețea prin protocoale precum HIPER-Ring și RSTP, pentru reconfigurarea automată a rețelei după o întrerupere de cablu",
-      "Carcase metalice fără ventilator, rezistente la vibrații și praf, gândite pentru montaj direct în tabloul de automatizare, nu în server room",
+      "Carcase industriale gândite pentru montaj în tabloul de automatizare, nu în server room; gradul de protecție și rezistența la vibrații se confirmă pe cod, din documentația Hirschmann",
       "Gamă largă, de la switch-uri nemanageabile compacte până la switch-uri gestionate cu funcții avansate de securitate și diagnosticare",
-      "Parte din grupul Belden, cu acces la rețeaua globală de suport tehnic și piese de schimb a unui furnizor mare de infrastructură",
+      "Parte din grupul american Belden, din 2007",
       "Puncte de acces wireless industriale din familia BAT pentru zone unde cablarea fixă nu e practică — vehicule ghidate, macarale, linii mobile",
     ],
     keyProducts: [
-      { name: "Switch-uri BOBCAT (BXS/BXP/BRP/BRS)", description: "Familie de switch-uri industriale compacte, pentru montaj pe șină DIN, în tabloul de automatizare, aproape de echipamentul controlat. Variantele sunt BXS, BXP, BRP și BRS; funcțiile exacte ale fiecărui model se confirmă pe cod, din documentația Hirschmann. Alimentare redundantă și carcasă fără ventilator pentru funcționare în medii cu praf sau vibrații. Clientul precizează numărul de porturi necesare, tipul de fibră sau cupru și dacă are nevoie de funcții gestionate." },
+      { name: "Switch-uri BOBCAT (BXS/BXP/BRP/BRS)", description: "Familie de switch-uri industriale compacte, pentru montaj pe șină DIN, în tabloul de automatizare, aproape de echipamentul controlat. Variantele sunt BXS, BXP, BRP și BRS; funcțiile exacte ale fiecărui model se confirmă pe cod, din documentația Hirschmann. Alimentarea și gradul de protecție ale fiecărui model se confirmă pe cod, din documentația Hirschmann. Clientul precizează numărul de porturi necesare, tipul de fibră sau cupru și dacă are nevoie de funcții gestionate." },
       { name: "Switch-uri GREYHOUND (seria GRS)", description: "Switch-uri Ethernet industriale gestionate, cu porturi combinate cupru și fibră optică, pentru rețele de dimensiuni medii-mari în automatizarea de proces. Suportă protocoale de redundanță pentru reconfigurarea rapidă a rețelei. Aplicație tipică: coloana vertebrală de rețea a unei linii de producție sau a unei stații de tratare. Clientul trimite topologia dorită și numărul de noduri pentru dimensionare corectă." },
       { name: "Routere de securitate EAGLE (EAGLE20/30, EAGLE40, EAGLE One)", description: "Routere industriale cu funcții de firewall și VPN, pentru segmentarea rețelei de automatizare de rețeaua IT a fabricii sau acces la distanță securizat. Modelele EAGLE diferă prin funcții și număr de porturi; le confirmăm pe cod, din documentația producătorului. Aplicație tipică: izolarea unei linii sensibile de restul rețelei companiei. Clientul precizează topologia și cerințele de segmentare." },
-      { name: "Puncte de acces wireless BAT", description: "Familie de puncte de acces și clienți wireless industriali pentru conectarea echipamentelor mobile — vehicule ghidate automat, poduri rulante, roboți mobili — la rețeaua fixă a fabricii. Gândite pentru roaming rapid între celule, fără întreruperea comunicației în mișcare. Clientul precizează distanța de acoperire necesară și tipul de echipamente mobile conectate." },
+      { name: "Puncte de acces wireless BAT", description: "Familie de puncte de acces și clienți wireless industriali pentru conectarea echipamentelor mobile — vehicule ghidate automat, poduri rulante, roboți mobili — la rețeaua fixă a fabricii. Funcțiile de roaming ale fiecărui model se confirmă pe cod, din documentația Hirschmann. Clientul precizează distanța de acoperire necesară și tipul de echipamente mobile conectate." },
     ],
     industries: [
       "Automatizări industriale — coloană de rețea pentru linii de producție și celule robotizate",
@@ -62,7 +62,7 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
       },
       {
         "code": "GRS1020",
-        "description": "Switch industrial gestionat din familia GREYHOUND, variantă cu redundanță"
+        "description": "Switch industrial gestionat din familia GREYHOUND, cu module media"
       },
       {
         "code": "GRS1030",
@@ -70,7 +70,7 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
       },
       {
         "code": "GRS1040",
-        "description": "Switch industrial gestionat din familia GREYHOUND cu porturi fibră optică"
+        "description": "Switch industrial gestionat din familia GREYHOUND, clasă backbone"
       },
       {
         "code": "GRS2000",
@@ -116,7 +116,7 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
     faq: [
       {
         "q": "Ce diferență este între switch-urile Hirschmann din familia BOBCAT și cele din familia GREYHOUND?",
-        "a": "Familia BOBCAT, cu modelele BXS, BXP, BRP și BRS, acoperă switch-uri industriale simple sau cu performanță medie, potrivite pentru rețele de dimensiuni reduse spre medii. Familia GREYHOUND, cu seriile GRS103 până la GRS2000, oferă funcții avansate de gestiune, redundanță de rețea și, la modelele superioare, porturi de fibră optică. Alegerea depinde de dimensiunea rețelei, de nevoia de gestiune la distanță și de mediul de instalare, cu praf, vibrații sau temperaturi extreme."
+        "a": "Familia BOBCAT, cu modelele BXS, BXP, BRP și BRS, cuprinde switch-uri industriale de la modele de bază (BRS) până la modele cu performanță ridicată (BXP, BRP), potrivite pentru montaj în tabloul de automatizare. Familia GREYHOUND, cu seriile GRS103 până la GRS2000, oferă funcții avansate de gestiune, redundanță de rețea și, la modelele superioare, porturi de fibră optică. Alegerea depinde de dimensiunea rețelei, de nevoia de gestiune la distanță și de mediul de instalare, cu praf, vibrații sau temperaturi extreme."
       },
       {
         "q": "Ce rol are un router EAGLE de la Hirschmann într-o rețea industrială?",
@@ -147,7 +147,7 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
     headquarters: "Glatten, Germania",
     overview: `J. Schmalz este un producător german de tehnologie de vid, fondat în 1910 la Glatten și rămas până azi companie de familie. Gama acoperă ventuze și sisteme de prindere pe vid pentru roboți industriali, generatoare de vid, precum și echipamente de ridicare manuală asistată — de la sisteme compacte pentru ambalaje ușoare până la instalații pentru panouri grele de sticlă sau tablă metalică. Din portofoliul Schmalz putem oferta componente pentru linii de automatizare și pentru manipulare manuală ergonomică în depozite și producție.
 
-Punctul forte al Schmalz e acoperirea completă a lanțului de vid — de la ventuza propriu-zisă, prin generatorul de vid, până la senzorii care confirmă prinderea corectă a piesei, toate gândite să funcționeze împreună. Concurează cu alți producători specializați exclusiv pe tehnologie de vid, precum Vuototecnica, dar are o gamă mai largă de sisteme de ridicare manuală integrate cu partea de automatizare. Materialele ventuzelor variază după aplicație — cauciuc siliconic pentru contact alimentar, poliuretan pentru piese uleioase sau ascuțite.
+Punctul forte al Schmalz e acoperirea completă a lanțului de vid — de la ventuza propriu-zisă, prin generatorul de vid, până la senzorii care confirmă prinderea corectă a piesei, toate gândite să funcționeze împreună. Concurează cu alți producători specializați pe tehnologie de vid, precum Vuototecnica. Materialele ventuzelor variază după aplicație — cauciuc siliconic pentru contact alimentar, poliuretan pentru piese uleioase sau ascuțite.
 
 Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează piese cu suprafețe neuniforme sau fragile — sticlă, carton, folie — unde o gripă mecanică clasică ar deteriora produsul, sau la posturile de lucru unde operatorii ridică manual sarcini repetitive.`,
     whyChoose: [
@@ -181,10 +181,7 @@ Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează
         "code": "SCPSc",
         "description": "Ejector compact cu afișaj cu 7 segmente din gama de generatoare de vid"
       },
-      {
-        "code": "SCPSi-L",
-        "description": "Variantă a ejectorului compact SCPSi din gama de generatoare de vid"
-      },
+
       {
         "code": "VacuMaster",
         "description": "Dispozitiv de ridicare pe vid pentru manipulare manuală a sarcinilor"
@@ -198,27 +195,27 @@ Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează
         "description": "Dispozitiv de ridicare inteligent pentru manipulare asistată a sarcinilor"
       },
       {
-        "code": "Vacuum Clamping Technology",
+        "code": "Tehnologie de fixare pe vid",
         "description": "Sistem de fixare pe vid pentru prelucrarea pieselor pe mașini-unelte"
       },
       {
-        "code": "Vacuum Grippers",
+        "code": "Sisteme de prindere pe vid",
         "description": "Sisteme de prindere pe vid pentru automatizarea manipulării pieselor"
       },
       {
-        "code": "Vacuum Generators",
+        "code": "Generatoare de vid",
         "description": "Generatoare de vid pentru alimentarea sistemelor de prindere"
       },
       {
-        "code": "Switches and System Monitoring",
+        "code": "Comutatoare și monitorizare pentru vid",
         "description": "Elemente de comutare și monitorizare pentru sistemele de vid"
       },
       {
-        "code": "Crane Systems and Jib Cranes",
+        "code": "Sisteme de macarale și macarale cu braț",
         "description": "Sisteme de macarale și braț articulat pentru manipulare manuală pe vid"
       },
       {
-        "code": "Portable Conveyor Systems",
+        "code": "Sisteme portabile de transport",
         "description": "Sisteme portabile de transport pentru manipularea sarcinilor pe distanțe scurte"
       }
     ],

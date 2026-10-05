@@ -18,8 +18,8 @@ Pentru fabricile din România, Werma are sens acolo unde se dorește semnalizare
     ],
     keyProducts: [
       { name: "Coloane Luminoase Seria KombiSIGN", description: "Coloane de semnalizare modulare, disponibile în variantele KombiSIGN 71, KombiSIGN 72 și KombiSIGN 40, cu până la cinci nivele de culoare combinate pe același soclu, în execuție ClassicLOOK sau DesignLOOK. Fiecare nivel poate fi montat cu lumină continuă, intermitentă sau strobe, iar unele module includ și un buzzer integrat. Clientul stabilește la comandă numărul de nivele, culorile și tensiunea de alimentare." },
-      { name: "Coloane Preconfigurate RST 56 și KOMPAKT 37", description: "Variante de coloane luminoase gata configurate din fabrică, cu 2 până la 5 trepte de culoare la RST 56 și 1 până la 5 trepte la KOMPAKT 37, livrate ca ansamblu unic fără a mai alege module separate. Utile acolo unde proiectul cere montaj rapid pe mai multe linii identice." },
-      { name: "Serie eSIGN", description: "Coloană de semnalizare cu segmente electronice, disponibilă cu 9 sau 15 segmente, care înlocuiește modulele fizice separate cu un singur corp programabil electronic. Varianta cu PROFINET permite conectarea coloanei direct la rețeaua de automatizare a liniei, pentru raportare de stare în timp real către un sistem central de monitorizare." },
+      { name: "Coloane Preconfigurate RST 56 și KOMPAKT 37", description: "Variante de coloane luminoase gata configurate din fabrică, cu număr de trepte de culoare confirmat pe cod, din documentația producătorului, livrate ca ansamblu unic fără a mai alege module separate. Utile acolo unde proiectul cere montaj rapid pe mai multe linii identice." },
+      { name: "Serie eSIGN", description: "Coloană de semnalizare cu segmente electronice, care înlocuiește modulele fizice separate cu un singur corp programabil electronic; numărul de segmente se confirmă pe cod, din documentația producătorului. Varianta cu PROFINET permite conectarea coloanei direct la rețeaua de automatizare a liniei, pentru raportare de stare în timp real către un sistem central de monitorizare." },
       { name: "CleanSIGN", description: "Coloană de semnalizare cu carcasă complet închisă, gândită pentru camere curate și industria alimentară, unde suprafețele trebuie să fie ușor de dezinfectat și fără zone în care se pot acumula praf sau reziduuri." }
     ],
     industries: [
@@ -34,14 +34,14 @@ Pentru fabricile din România, Werma are sens acolo unde se dorește semnalizare
     productCodes: [
       { code: "KombiSIGN 71", description: "coloană modulară cu până la 5 nivele de culoare" },
       { code: "KombiSIGN 72", description: "coloană modulară" },
-      { code: "KombiSIGN 40", description: "coloană modulară compactă, până la 5 trepte" },
-      { code: "RST 56", description: "coloană preconfigurată, 2-5 trepte de culoare" },
-      { code: "KOMPAKT 37", description: "coloană preconfigurată, 1-5 trepte, montaj rapid" },
+      { code: "KombiSIGN 40", description: "coloană modulară compactă" },
+      { code: "RST 56", description: "coloană preconfigurată" },
+      { code: "KOMPAKT 37", description: "coloană preconfigurată, gata de montaj" },
       { code: "deSIGN 42", description: "coloană preconfigurată" },
       { code: "CleanSIGN", description: "coloană închisă pentru camere curate și industria alimentară" },
-      { code: "FlatSIGN", description: "coloană FlatSIGN" },
-      { code: "VarioSIGN", description: "coloană VarioSIGN" },
-      { code: "eSIGN", description: "coloană electronică cu 9 sau 15 segmente" },
+      { code: "FlatSIGN", description: "serie de coloane de semnalizare Werma; detalii pe cod" },
+      { code: "VarioSIGN", description: "serie de coloane de semnalizare Werma; detalii pe cod" },
+      { code: "eSIGN", description: "coloană electronică cu segmente" },
       { code: "MC55 High", description: "beacon de instalare cu dom înalt pentru vizibilitate" }
     ],
     faq: [

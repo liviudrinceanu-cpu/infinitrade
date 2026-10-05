@@ -303,8 +303,8 @@ Pentru un laborator de conformitate electrică sau un producător industrial din
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Chroma ATE Inc. | Global", url: "https://www.chromaate.com/", publisher: "Chroma ATE Inc.", accessed: "2026-09-26" },
       { title: "Chroma Hipot Tester / Safety Tester", url: "https://www.chromaate.com/en/products_list/hipot_tester", publisher: "Chroma ATE Inc.", accessed: "2026-09-26" },

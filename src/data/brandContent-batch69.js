@@ -16,7 +16,7 @@ Tehnologia de bază este senzorul de oxigen cu zirconiu din seria OXITEC 5000, c
     whyChoose: [
       "Senzor de oxigen cu zirconiu montat in-situ pe canal, fără linie de prelevare a probei.",
       "Variante certificate ATEX GASEX și STAUBEX, pentru montaj în zone cu gaze sau praf combustibil.",
-      "Gamă completă, de la analizor simplu de O2 (OXITEC) la măsurare combinată O2/CO (COMTEC).",
+      "Gamă care merge de la analizor de O2 (OXITEC) la măsurare combinată O2/CO (COMTEC).",
       "Sistem dedicat pentru monitorizarea silozurilor (SILOTEC 8000)."
     ],
     keyProducts: [

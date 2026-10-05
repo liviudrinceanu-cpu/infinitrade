@@ -73,7 +73,7 @@ Pentru România, Inovance are sens acolo unde bugetul de investiție e strâns �
     headquarters: "Italia",
     overview: `Salami este un producător italian de componente hidraulice pentru utilaje mobile, cu o gamă organizată pe corp de fontă și corp de aluminiu pentru pompe și motoare cu roți dințate, completată de divizoare de debit, valve monobloc, valve electroproporționale și sisteme de telecomandă electronică. Seriile 2PGE și 2MGE folosesc corp din fontă pentru aplicații cu solicitare mai mare, iar seriile 1,5PE și 2,5PB au corp din aluminiu, mai ușor, pentru montaje unde greutatea contează. Pentru o companie din România, Salami înseamnă o sursă de componente hidraulice modulare pentru remorci, utilaje agricole și echipamente de manipulare, alternativă la mărcile consacrate din segmentul de pompe cu roți dințate.
 
-Gama de pompe reversibile PG330, cu drenaj intern și eliberare de tip camion, este o serie de pompe reversibile; detaliile de funcționare se confirmă pe cod, din fișa producătorului. Divizoarele de debit cu corp din aluminiu completează oferta pentru instalații care trebuie să alimenteze simultan mai multe consumatori hidraulici la debite proporționale, iar valvele electroproporționale permit un control mai fin al vitezei de lucru decât o valvă on-off clasică — zonă în care Salami se compară cu gama Casappa de componente pentru mobile.
+Seria PG330 cuprinde pompe reversibile cu drenaj intern și eliberare de tip camion, conform denumirii producătorului; detaliile de funcționare se confirmă pe cod, din fișa producătorului. Divizoarele de debit cu corp din aluminiu completează oferta pentru instalații care trebuie să alimenteze simultan mai mulți consumatori hidraulici la debite proporționale, iar valvele electroproporționale permit un control mai fin al vitezei de lucru decât o valvă on-off clasică — zonă în care Salami se compară cu gama Casappa de componente pentru mobile.
 
 Pentru piața din România, gama Salami are sens la utilaje agricole, remorci basculante, macarale mobile și echipamente de manipulare unde proiectantul cere o pompă sau un motor hidraulic compact; varianta de montaj se confirmă pe cod, din documentația Salami.`,
     whyChoose: [
@@ -94,7 +94,7 @@ Pentru piața din România, gama Salami are sens la utilaje agricole, remorci ba
       "Utilaje agricole — acționare hidraulică pentru remorci și echipamente purtate",
       "Manipulare materiale — pompe și divizoare de debit pentru platforme mobile",
       "Construcții — motoare hidraulice pentru echipamente compacte de șantier",
-      "Silvicultură — circuite hidraulice pentru utilaje forestiere mobile"
+      "Utilaje mobile — componente hidraulice alese pe cod, din documentația Salami"
     ],
     infinitrade: `Furnizăm gama Salami de pompe, motoare și valve hidraulice pentru utilaje mobile prin canale de aprovizionare din Uniunea Europeană; nu ținem această gamă pe raft, ci o aducem la comandă pe baza informațiilor publice ale producătorului despre serii și corpuri disponibile. Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de varianta exactă — corp fontă sau aluminiu, cilindree și sens de rotație. Pentru ofertă, clientul trebuie să ne trimită codul seriei dacă îl are, sau tipul de prindere, cilindreea aproximativă și sensul de rotație necesar.`,
     limitation: "Nu putem confirma parametrii exacți de debit și presiune pentru fiecare variantă din gamă fără fișa tehnică punctuală de la producător, întrucât pagina publică listează doar familiile de produs.",
@@ -106,7 +106,7 @@ Pentru piața din România, gama Salami are sens la utilaje agricole, remorci ba
       { code: "PG330", description: "Pompă reversibilă cu drenaj intern, eliberare tip camion" },
       { code: "Distribuitoare secționale", description: "Familie de distribuitoare hidraulice secționale" },
       { code: "Valve monobloc", description: "Familie de valve hidraulice monobloc" },
-      { code: "Distribuitoare monobloc", description: "Valve pentru distribuitoare monobloc" },
+      { code: "Distribuitoare monobloc", description: "Familie de distribuitoare hidraulice monobloc" },
       { code: "Valve electroproporționale", description: "Familie de valve electroproporționale pentru control fin de debit" },
       { code: "Divizoare de debit cu corp din aluminiu", description: "Divizoare de debit cu roți dințate, corp din aluminiu" },
       { code: "Sisteme de telecomandă electronică", description: "Sisteme de telecomandă electronică pentru funcții hidraulice" }

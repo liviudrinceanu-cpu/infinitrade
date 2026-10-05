@@ -133,9 +133,9 @@ Pentru ateliere de producție, service auto sau linii de asamblare din România,
     name: "Starrett",
     founded: 1880,
     headquarters: "Athol, Massachusetts, SUA",
-    overview: `Starrett este un producător american de instrumente de măsurare de precizie, fondat în 1880 la Athol, Massachusetts, cu o gamă care acoperă micrometre, șublere, comparatoare cu ceas și electronice, plăci de granit de precizie, cale etalon și pânze de fierăstrău panglică. Compania produce și sisteme de măsurare laser, sisteme de colectare a datelor de măsurare și durimetre pentru testarea materialelor. Pentru piața din România putem oferta în principal din gama de instrumente de măsurare manuale și din pânzele de fierăstrău industriale, cele mai căutate în laboratoare de metrologie și ateliere de prelucrare.
+    overview: `Starrett este un producător american de instrumente de măsurare de precizie, fondat în 1880 la Athol, Massachusetts, cu o gamă care acoperă micrometre, șublere, comparatoare cu ceas și electronice, plăci de granit de precizie, cale etalon și pânze de fierăstrău panglică. Compania produce și sisteme de măsurare laser, sisteme de colectare a datelor de măsurare și durimetre pentru testarea materialelor. Pentru piața din România putem oferta în principal din gama de instrumente de măsurare manuale și din pânzele de fierăstrău industriale, utilizate în laboratoare de metrologie și ateliere de prelucrare.
 
-Ce ține Starrett relevant după peste un secol este acoperirea foarte largă a instrumentelor de măsurare dimensională dintr-un singur producător — de la instrumente clasice de atelier până la sisteme electronice de colectare a datelor (DataSure) și sisteme laser de măsurare a profilului (Profile360). În categoria instrumentelor de precizie, Starrett este un producător american, iar Mitutoyo unul japonez. Compania oferă și indicatoare electronice cu ecran tactil (W4900) pentru integrare directă în linii de control dimensional.
+Ce ține Starrett relevant după peste un secol este acoperirea foarte largă a instrumentelor de măsurare dimensională dintr-un singur producător — de la instrumente clasice de atelier până la sisteme electronice de colectare a datelor (DataSure) și sisteme laser de măsurare a profilului (Profile360). Compania oferă și indicatoare electronice cu ecran tactil (W4900) pentru integrare directă în linii de control dimensional.
 
 Pentru laboratoare de metrologie, ateliere de prelucrare mecanică și linii de control al calității din România, gama Starrett are sens atât pentru dotarea de bază cu instrumente manuale de măsurare, cât și pentru completarea cu pânze de fierăstrău industriale de uz zilnic, acolo unde durabilitatea lamei contează la fel de mult ca precizia instrumentelor de control.`,
     whyChoose: [
@@ -143,7 +143,7 @@ Pentru laboratoare de metrologie, ateliere de prelucrare mecanică și linii de 
       "Producător american, fondat în 1880",
       "Sisteme electronice proprii de colectare a datelor de măsurare, utile la integrarea în controlul calității",
       "Pânze de fierăstrău panglică dedicate pe tip de material — inclusiv seria TENNAX-PRO bi-metal pentru structuri și țevi",
-      "Durimetre proprii pentru testarea materialelor — Rockwell, Brinell și Vickers din aceeași gamă"
+      "Durimetre proprii pentru testarea materialelor, din aceeași gamă"
     ],
     keyProducts: [
       { name: "Instrumente de Măsurare de Precizie", description: "Familie largă de micrometre, șublere, comparatoare cu ceas și electronice, echere și nivele, pentru control dimensional în atelier și laborator de metrologie. Aplicație tipică: verificarea toleranțelor la piese prelucrate mecanic. Clientul trebuie să precizeze intervalul de măsurare și tipul de instrument dorit." },
@@ -171,7 +171,7 @@ Pentru laboratoare de metrologie, ateliere de prelucrare mecanică și linii de 
       { code: "W4900", description: "indicator electronic cu ecran tactil" },
       { code: "Precision Ground Flat Stock", description: "bare de oțel rectificate de precizie" },
       { code: "Precision Shop Tools", description: "scule de atelier de precizie pentru montaj" },
-      { code: "Hardness Testers", description: "durimetre Rockwell, Brinell și Vickers" },
+      { code: "Hardness Testers", description: "durimetre pentru testarea materialelor" },
       { code: "Surface Roughness Testers", description: "aparate pentru testarea rugozității suprafeței" },
       { code: "Thickness Testers", description: "aparate digitale și mecanice pentru măsurarea grosimii" },
       { code: "Vision Systems", description: "sisteme optice de măsurare pentru metrologie" },
@@ -180,7 +180,7 @@ Pentru laboratoare de metrologie, ateliere de prelucrare mecanică și linii de 
     faq: [
       { q: "Ce produce Starrett?", a: "Starrett produce instrumente de măsurare de precizie — micrometre, șublere, comparatoare, plăci de granit și cale etalon — plus pânze de fierăstrău panglică, sisteme laser de măsurare și durimetre pentru testarea materialelor. Este un producător american activ din 1880, cu gamă orientată spre metrologie industrială." },
       { q: "Cum aleg un instrument de măsurare Starrett potrivit?", a: "Alegerea depinde de intervalul de măsurare necesar, precizia cerută și tipul de piesă controlată — micrometru pentru dimensiuni exterioare, șubler pentru măsurători variate sau comparator pentru control rapid pe linie. Pentru toleranțe foarte strânse contează și clasa de precizie a instrumentului." },
-      { q: "Ce echivalent are un micrometru Starrett față de Mitutoyo?", a: "Ambele mărci produc micrometre de precizie comparabilă pentru uz industrial, Starrett fiind un producător american, iar Mitutoyo unul japonez; echivalența exactă de model depinde de intervalul de măsurare și rezoluția dorite, verificate punctual pentru fiecare aplicație." },
+      { q: "Ce echivalent are un micrometru Starrett față de Mitutoyo?", a: "Echivalența exactă între modelele a două mărci depinde de intervalul de măsurare, rezoluția și clasa de precizie din fișele tehnice ale ambelor produse, verificate punctual pentru fiecare aplicație." },
       { q: "Livrați instrumente Starrett în România și cât durează?", a: "Aducem instrumente de măsurare și pânze de fierăstrău Starrett la comandă, prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de disponibilitatea modelului la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de instrument Starrett?", a: "Este nevoie de tipul de instrument dorit, intervalul de măsurare, precizia cerută și, pentru pânze de fierăstrău, dimensiunea benzii și materialul de tăiat, astfel încât să identificăm codul corect din gama Starrett." }
     ],
@@ -197,14 +197,14 @@ Pentru laboratoare de metrologie, ateliere de prelucrare mecanică și linii de 
   "beijer-electronics": {
     name: "Beijer Electronics",
     headquarters: "Malmö, Suedia",
-    overview: `Beijer Electronics este un producător suedez de panouri HMI (interfață om-mașină) pentru operatorii de utilaje și linii industriale, cu sediul la Malmö. Gama actuală se construiește în jurul seriei de panouri X3, disponibilă și în variantă web (X3 web) pentru aplicații HTML5, completată de software-ul de dezvoltare iX/iX3 și de platforma WebIQ pentru vizualizare la distanță. Compania oferă și module de intrări-ieșiri distribuite, sisteme de control cu funcționalitate PLC integrată (CODESYS) și soluții de acces la distanță pentru echipamente. Pentru piața din România putem oferta în principal panouri HMI din seria X3, cea mai relevantă pentru mașinile industriale și liniile de producție.
+    overview: `Beijer Electronics este un producător suedez de panouri HMI (interfață om-mașină) pentru operatorii de utilaje și linii industriale, cu sediul la Malmö. Gama actuală se construiește în jurul seriei de panouri X3, disponibilă și în variantă web (X3 web) pentru aplicații HTML5, completată de software-ul de dezvoltare iX și de platforma WebIQ pentru vizualizare la distanță. Compania oferă și module de intrări-ieșiri distribuite, sisteme de control cu funcționalitate PLC integrată (CODESYS) și soluții de acces la distanță pentru echipamente. Pentru piața din România putem oferta în principal panouri HMI din seria X3, cea mai relevantă pentru mașinile industriale și liniile de producție.
 
 Ce diferențiază Beijer Electronics în categoria panourilor HMI este orientarea spre medii dure și aplicații navale, cu accent pe conformitate IMO și securitate cibernetică pentru echipamentele instalate la bordul navelor, alături de acoperirea standard a automatizării industriale terestre. În categoria panourilor HMI pentru mașini, Beijer Electronics oferă software propriu iX și module de intrări-ieșiri distribuite proprii. Platforma WebIQ permite vizualizarea datelor de proces din browser, fără instalare de client dedicat pe fiecare stație.
 
 Pentru integratorii de sisteme și producătorii de mașini din România, gama Beijer Electronics are sens acolo unde se cere un panou HMI robust pentru mediu industrial dur sau naval, ori unde o linie existentă trebuie completată cu module de intrări-ieșiri distribuite compatibile cu automatul deja instalat.`,
     whyChoose: [
       "Panouri HMI dedicate mediilor dure — cu accent pe conformitate și securitate cibernetică pentru aplicații navale",
-      "Software de dezvoltare propriu iX/iX3, folosit pe toată gama de panouri X3",
+      "Software de dezvoltare propriu iX pentru panourile HMI",
       "Platformă WebIQ pentru vizualizare de proces din browser, fără client software instalat local",
       "Module de intrări-ieșiri distribuite compatibile cu sisteme de control existente pe linie",
       "Funcționalitate PLC integrată prin CODESYS în sistemele de control din gamă"
@@ -219,7 +219,7 @@ Pentru integratorii de sisteme și producătorii de mașini din România, gama B
       "Construcții navale — panouri HMI cu conformitate IMO și securitate cibernetică",
       "Producție industrială — interfețe operator pentru mașini și linii de asamblare",
       "Automatizare industrială — sisteme de control cu funcționalitate PLC integrată",
-      "Medii dure — panouri rezistente la vibrații și condiții extreme",
+      "Medii dure — panouri HMI robuste pentru medii industriale exigente",
       "Digitalizare industrială — vizualizare de proces la distanță prin WebIQ"
     ],
     infinitrade: `Pentru gama Beijer Electronics lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru panourile HMI sau modulele de automatizare — nu putem confirma disponibilitatea unui model exact fără verificare prealabilă la producător. Aducem la comandă panouri HMI seria X3, module de intrări-ieșiri distribuite și sisteme de control, prin canale de aprovizionare din Europa, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de dimensiunea ecranului dorită, mediul de instalare și protocolul de comunicație folosit pe linie. Disponibilitate imediată nu putem asigura pentru niciun model din gamă.`,
@@ -228,7 +228,7 @@ Pentru integratorii de sisteme și producătorii de mașini din România, gama B
       { code: "X3 series", description: "familie de panouri HMI operator pentru mașini industriale" },
       { code: "X3 web", description: "variantă HMI pentru aplicații HTML5 în browser" },
       { code: "iX Developer", description: "software de dezvoltare pentru panourile HMI" },
-      { code: "iX3", description: "platformă software pentru configurarea panourilor X3" },
+      { code: "iX", description: "software de dezvoltare pentru panourile HMI Beijer Electronics" },
       { code: "WebIQ", description: "platformă web pentru vizualizare de proces la distanță" },
       { code: "Control Systems CODESYS", description: "sisteme de control cu PLC integrat prin CODESYS" },
       { code: "Distributed IOs", description: "module de intrări-ieșiri distribuite pentru automatizare" },
@@ -260,20 +260,20 @@ Pentru integratorii de sisteme și producătorii de mașini din România, gama B
     headquarters: "New Taipei City, Taiwan",
     overview: `Fatek Automation este un producător taiwanez de automate programabile (PLC), fondat în 1992 de un grup de ingineri specializați în proiectare de PLC-uri, cu sediul în New Taipei City. Gama actuală include automate din seria M, cu arhitectură proprie orientată spre viteză mare de procesare, familia FBs cu peste 300 de instrucțiuni, și seria B1/B1z/HB1 construită pe tehnologie SoC pentru un design mai compact. Compania produce și panouri HMI seria P5, module SCADA, sisteme servo, module de intrări-ieșiri la distanță și soluții IoT cu server OPC UA. Pentru piața din România putem oferta în principal automate PLC din seriile FBs și M, cele mai relevante pentru automatizarea mașinilor și liniilor industriale.
 
-Ce diferențiază Fatek Automation în categoria automatelor programabile este combinația dintre viteza mare de procesare a seriei M (declarată la nivel de nanosecunde per instrucțiune) și setul extins de peste 300 de instrucțiuni al familiei FBs, care acoperă atât aplicații simple, cât și logici complexe de control. În categoria PLC-urilor compacte, Fatek Automation oferă și module SCADA și IoT în același ecosistem cu automatele. Seria B1/B1z/HB1, bazată pe SoC, reduce numărul de componente și dimensiunea fizică a automatului.
+Ce diferențiază Fatek Automation în categoria automatelor programabile este combinația dintre viteza mare de procesare a seriei M (declarată la nivel de nanosecunde per instrucțiune) și setul extins de peste 300 de instrucțiuni al familiei FBs, care acoperă atât aplicații simple, cât și logici complexe de control. În categoria PLC-urilor compacte, Fatek Automation oferă și module SCADA și IoT în același ecosistem cu automatele. Seria B1/B1z/HB1 este construită pe tehnologie SoC, care reduce costurile de hardware.
 
 Pentru integratorii de sisteme și producătorii de mașini din România, gama Fatek Automation are sens acolo unde se caută un PLC compact la cost controlat pentru automatizare de bază sau medie, completat cu panou HMI din aceeași gamă și, opțional, cu module de conectare IoT pentru monitorizare de la distanță.`,
     whyChoose: [
       "Serie M cu procesare foarte rapidă, gândită pentru aplicații de control unde timpul de scanare contează",
       "Familie FBs cu peste 300 de instrucțiuni, suficientă pentru logici de automatizare complexe",
-      "Construcție SoC pe seria B1/B1z/HB1, cu design mai compact decât automatele clasice",
+      "Construcție SoC pe seria B1/B1z/HB1, care reduce costurile de hardware",
       "Panouri HMI proprii seria P5, compatibile direct cu automatele din gamă",
       "Module IoT și server OPC UA integrate, utile pentru conectarea la sisteme de monitorizare superioare"
     ],
     keyProducts: [
       { name: "Automate PLC Seria M", description: "Automate programabile cu arhitectură hard PLC, orientate spre viteză mare de procesare a instrucțiunilor. Aplicație tipică: control de mașini cu cicluri rapide unde timpul de scanare al automatului este critic. Clientul trebuie să precizeze numărul de intrări-ieșiri necesare și tipul de comunicație dorit." },
       { name: "Automate PLC Familia FBs", description: "Automate programabile cu structură multi-funcțională și peste 300 de instrucțiuni disponibile, potrivite pentru logici de automatizare de complexitate medie spre ridicată. Aplicație tipică: linii de producție cu secvențe multiple de control. Necesită specificarea numărului de puncte I/O și a modulelor de extensie dorite." },
-      { name: "Automate PLC Seria B1/B1z/HB1", description: "Automate programabile construite pe tehnologie SoC, cu design compact și număr redus de componente interne. Aplicație tipică: mașini cu spațiu limitat de montaj pentru automatul de control. Clientul trebuie să indice spațiul disponibil și cerințele de comunicație ale mașinii." },
+      { name: "Automate PLC Seria B1/B1z/HB1", description: "Automate programabile construite pe tehnologie SoC, care reduce costurile de hardware. Aplicație tipică: mașini cu spațiu limitat de montaj pentru automatul de control. Clientul trebuie să indice spațiul disponibil și cerințele de comunicație ale mașinii." },
       { name: "Panouri HMI Seria P5", description: "Panouri de interfață om-mașină pentru operarea automatelor Fatek, folosite pentru afișarea parametrilor de proces și comanda manuală a mașinii. Aplicație tipică: pupitru de operare pentru linii de producție automatizate. Necesită specificarea dimensiunii ecranului și a protocolului de comunicație cu automatul." }
     ],
     industries: [

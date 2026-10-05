@@ -1508,22 +1508,22 @@ Pentru electricienii și echipele de mentenanță din România care fac verific�
   'radwag': {
     name: "Radwag",
     headquarters: "Radom, Polonia",
-    overview: `Radwag este un producător polonez de balanțe analitice și de precizie, cu sediul la Radom și fabricație integral în Uniunea Europeană, care numără circa 460 de angajați și o rețea de aproximativ 2.000 de parteneri comerciali cu 300 de puncte de vânzare și service la nivel global. Gama acoperă balanțe analitice din seria XA pentru laborator, balanțe de precizie din seria PS (inclusiv modelul PS 5100.5Y, cu capacitate de 5,1 kg și citire de 1 mg), balanțe speciale WLC X7, analizoare de umiditate, cântare industriale, cântare de control (checkweighers), comparatoare de masă și sisteme automate de cântărire. Putem oferta balanțe individuale sau linii complete de control al greutății.
+    overview: `Radwag este un producător polonez de balanțe analitice și de precizie, cu sediul la Radom și fabricație integral în Uniunea Europeană. Gama acoperă balanțe analitice din seria XA pentru laborator, balanțe de precizie din seria PS (inclusiv modelul PS 5100.5Y, cu capacitate de 5,1 kg și citire de 1 mg), balanțe speciale WLC X7, analizoare de umiditate, cântare industriale, cântare de control (checkweighers), comparatoare de masă și sisteme automate de cântărire. Putem oferta balanțe individuale sau linii complete de control al greutății.
 
-Radwag concurează cu Kern pe segmentul de balanțe de laborator și industriale, cu o gamă orientată spre aplicații specializate — calibrare de pipete, cântărire de stenturi medicale sau soluții dedicate industriei farmaceutice și biotehnologice, unde precizia de citire trebuie documentată și trasabilă. Seria PS acoperă un spectru larg de capacități și citiri, de la balanțe de laborator general până la modele pentru sarcini apropiate de câțiva kilograme cu citire la miligram.
+Radwag concurează cu Kern pe segmentul de balanțe de laborator și industriale, cu o gamă orientată spre aplicații specializate — soluții dedicate industriei farmaceutice și biotehnologice, unde precizia de citire trebuie documentată și trasabilă. Seria PS acoperă un spectru larg de capacități și citiri, de la balanțe de laborator general până la modele pentru sarcini apropiate de câțiva kilograme cu citire la miligram.
 
 Pentru laboratoarele și liniile de producție din România care au nevoie de cântărire trasabilă — control de calitate, dozare de rețete sau verificare a preambalatelor — gama Radwag acoperă atât balanțe de banc pentru laborator, cât și sisteme integrate în linia de producție.`,
     whyChoose: [
       "Gamă largă, de la balanțe analitice de laborator la sisteme automate de cântărire industrială",
       "Modele de precizie cu citire la miligram, chiar la capacități de câțiva kilograme (seria PS)",
-      "Rețea de 300 de puncte de vânzare și service la nivel mondial",
+      "Rețea internațională de parteneri comerciali, conform informațiilor producătorului",
       "Soluții dedicate industriei farmaceutice și biotehnologice pentru cântărire trasabilă",
       "Producător european, cu sediul la Radom, Polonia"
     ],
     keyProducts: [
       { name: "Balanțe analitice seria XA", description: "Balanțe de laborator de înaltă precizie pentru determinări analitice, folosite în laboratoare de control al calității, cercetare și dezvoltare de produs, unde citirea trebuie să fie stabilă și trasabilă." },
       { name: "Balanțe de precizie seria PS", description: "Balanțe de precizie pentru laborator și producție, cu modele precum PS 5100.5Y (capacitate 5,1 kg, citire 1 mg), potrivite pentru cântărirea de rețete, componente sau probe unde precizia standard nu e suficientă." },
-      { name: "Balanțe speciale WLC X7", description: "Balanțe dedicate unor sarcini specifice de laborator — calibrare de pipete, cântărire de stenturi medicale și alte aplicații din industria farmaceutică și biotehnologică unde procedura de cântărire e documentată strict." },
+      { name: "Balanțe speciale WLC X7", description: "Balanțe speciale din gama Radwag pentru sarcini specifice de laborator; aplicațiile și specificațiile se confirmă pe cod, din documentația producătorului." },
       { name: "Cântare industriale și sisteme de cântărire automate", description: "Cântare de control (checkweighers) și sisteme automate integrate pe linia de producție, pentru verificarea greutății produselor preambalate din industria alimentară sau farmaceutică, conform cerințelor de metrologie legală." }
     ],
     industries: [
@@ -1550,11 +1550,11 @@ Pentru laboratoarele și liniile de producție din România care au nevoie de c�
       },
       {
         "code": "XA 320.5Y.A",
-        "description": "balanță analitică, capacitate 320 g, citire 0,05 mg"
+        "description": "balanță analitică, capacitate 320 g; citirea se confirmă pe cod, din fișa Radwag"
       },
       {
         "code": "XA 120/250.5Y.A",
-        "description": "balanță analitică cu două domenii, 120/250 g, citire 0,01/0,1 mg"
+        "description": "balanță analitică cu două domenii; capacitățile și citirile se confirmă pe cod, din fișa Radwag"
       },
       {
         "code": "XA 5Y-A",

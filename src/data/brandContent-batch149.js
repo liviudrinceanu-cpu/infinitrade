@@ -94,7 +94,7 @@ Pentru piața locală, gama are sens la producătorii și integratorii de echipa
     name: "Menzel Elektromotoren",
     founded: 1927,
     headquarters: "Hennigsdorf, Germania",
-    overview: `Menzel Elektromotoren fabrică motoare electrice de mare putere din 1927, cu sediul la Hennigsdorf, lângă Berlin. Gama acoperă motoare asincrone cu rotor în scurtcircuit între 75 kW și 25.000 kW, motoare asincrone cu inele colectoare între 75 kW și 20.000 kW, și motoare de curent continuu între 20 kW și 2.000 kW, la tensiuni de la 220 V până la 13.800 V. Pentru clienți din România putem oferta motoare de medie și mare putere pentru instalații care depășesc plaja motoarelor standard IEC de joasă tensiune.
+    overview: `Menzel Elektromotoren fabrică motoare electrice de mare putere din 1927, cu sediul la Hennigsdorf, lângă Berlin. Gama acoperă motoare asincrone cu rotor în scurtcircuit între 75 kW și 25.000 kW, motoare asincrone cu inele colectoare între 75 kW și 20.000 kW, și motoare de curent continuu între 20 kW și 2.000 kW (160-1.000 V). Motoarele asincrone se livrează la tensiuni de la 220 V până la 13.800 V. Pentru clienți din România putem oferta motoare de medie și mare putere pentru instalații care depășesc plaja motoarelor standard IEC de joasă tensiune.
 
 Ce ține Menzel relevant în segmentul de putere mare e varietatea de sisteme de răcire disponibile pe aceeași platformă de motor: răcire deschisă (IC 01, IC 06), răcire pe suprafață nervurată (IC 411, IC 416), schimbător de căldură aer-aer (IC 611, IC 616, IC 666) sau aer-apă (IC 81W, IC 86W), plus varianta cu răcire tubulară IC 511. Compania produce și motoare speciale — cu protecție IP67, execuție antiex Ex ec/Ex tc, motoare de macara și motoare pentru role de laminor.
 
@@ -140,7 +140,7 @@ Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțe
       { code: "IC 06", description: "Răcire deschisă, clasificare IC conform IEC 60034-6" },
       { code: "IC 411", description: "Răcire pe suprafață nervurată, carcasă închisă" },
       { code: "IC 416", description: "Răcire pe suprafață nervurată, ventilator separat" },
-      { code: "IC 511", description: "Răcire cu tub de aer montat pe carcasă" },
+      { code: "IC 511", description: "Răcire tubulară (tube cooling)" },
       { code: "IC 611", description: "Schimbător de căldură aer-aer, montaj pe carcasă" },
       { code: "IC 616", description: "Schimbător de căldură aer-aer, ventilator separat" },
       { code: "IC 666", description: "Schimbător de căldură aer-aer, clasificare IC conform IEC 60034-6" },
@@ -187,7 +187,7 @@ Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțe
     name: "Elprom Harmanli",
     founded: 1976,
     headquarters: "Harmanli, Bulgaria",
-    overview: `Elprom Harmanli produce motoare electrice asincrone din 1976, de la fabrica inițială din orașul Harmanli, în Bulgaria, extinsă ulterior cu unități la Plovdiv și Troyan. Gama de bază, seria AT, acoperă motoare trifazate și monofazate în mărimi de carcasă IEC de la 63 la 180 (puterile se confirmă din catalogul producătorului), cu 2, 4, 6 sau 8 poli, conforme IEC 60034-1. Pentru România putem oferta motoare standard din seria AT și variante speciale pentru macarale sau pompe submersibile.
+    overview: `Elprom Harmanli produce motoare electrice asincrone din 1976, de la fabrica inițială din orașul Harmanli, în Bulgaria, extinsă ulterior cu unități la Plovdiv și Troyan. Gama de bază, seria AT, acoperă motoare asincrone trifazate și monofazate; producătorul indică puteri de la 0,12 kW până la 30 kW, conforme IEC 60034-1, iar mărimile de carcasă și numărul de poli se confirmă pe model, din catalogul producătorului. Pentru România putem oferta motoare standard din seria AT și variante speciale pentru macarale sau pompe submersibile.
 
 Dincolo de motorul asincron standard, Elprom acoperă un segment neobișnuit de larg de motoare speciale: motoare sincrone cu magneți permanenți (PM), cu invertor integrat sau pentru control extern, motoare pentru pompe submersibile hidraulice, motoare de mare viteză (până la 6.000 min⁻¹), motoare de macara pentru deplasare și ridicare, motoare fără carcasă (frameless) și motoare cu encoder pentru poziționare precisă. Această diversitate îl apropie mai mult de un producător de acționări industriale complete decât de un simplu furnizor de motoare IEC de catalog, poziție diferită față de producători axați exclusiv pe motoare de mare putere.
 
@@ -196,13 +196,13 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
       "Gamă foarte largă de motoare speciale — macara, pompă submersibilă, mare viteză, fără carcasă — pe lângă motorul AT standard",
       "Motoare sincrone cu magneți permanenți, cu invertor integrat sau pentru control extern, alternativă la motorul asincron clasic",
       "Motoare de mare viteză, până la 6.000 min⁻¹, pentru aplicații unde turația standard IEC nu e suficientă",
-      "Conformitate IEC 60034-1 pe gama AT, în mărimi de carcasă de la 63 la 180",
+      "Conformitate IEC 60034-1 pe motoarele asincrone, cu puteri de la 0,12 kW până la 30 kW",
       "Producție continuă din 1976, cu trei fabrici în Bulgaria, utilă pentru capacitate de producție constantă",
     ],
     keyProducts: [
       {
         name: "Motoare trifazate seria AT",
-        description: "Motoare asincrone standard, trifazate și monofazate, în mărimi de carcasă IEC 63, 71, 80, 90, 100, 112, 132, 160 și 180, cu 2, 4, 6 sau 8 poli, la 50 sau 60 Hz. Sunt gama de bază pentru aplicații industriale generale — pompe, ventilatoare, benzi transportoare — unde nu e nevoie de o execuție specială.",
+        description: "Motoare asincrone standard, trifazate și monofazate, cu mărimile de carcasă, numărul de poli și frecvența confirmate pe model, din catalogul producătorului. Sunt gama de bază pentru aplicații industriale generale — pompe, ventilatoare, benzi transportoare — unde nu e nevoie de o execuție specială.",
       },
       {
         name: "Motoare de macara — deplasare și ridicare",
@@ -214,7 +214,7 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
       },
       {
         name: "Motoare sincrone cu magneți permanenți (PM)",
-        description: "Motoare PM cu invertor integrat sau pentru control cu invertor extern, plus variante line-start care pornesc direct pe rețea fără invertor. Randament mai bun decât motorul asincron clasic la sarcină parțială, opțiune pentru aplicații cu funcționare îndelungată.",
+        description: "Motoare PM cu invertor integrat sau pentru control cu invertor extern, plus variante line-start care pornesc direct pe rețea fără invertor. Pentru variantele cu invertor integrat, producătorul indică randamente între 89% și 93%; datele pe model se confirmă din documentația producătorului.",
       },
     ],
     industries: [
@@ -226,9 +226,9 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
     ],
     infinitrade: `La Elprom Harmanli nu avem date proprii de stoc, fiind un brand nou pentru noi — lucrăm cu ce confirmă producătorul pe paginile oficiale de produs, pentru fiecare familie de motor în parte. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, valabil atât pentru gama AT standard, cât și pentru variantele speciale de macara sau pompă submersibilă. Pentru ofertă, clientul trebuie să precizeze familia de motor (AT, macara, submersibil, PM), puterea, mărimea de carcasă dacă o cunoaște și tensiunea de alimentare. Nu ținem aceste motoare pe stoc; disponibilitatea reală se confirmă după verificarea la fabrica din Harmanli sau Plovdiv.`,
     limitation:
-      "Nu putem confirma codurile exacte de mărime de carcasă (de exemplu AT 90S sau AT 100L) pentru fiecare combinație de putere și turație, pentru care producătorul publică doar cataloage descărcabile, nu tabele pe pagina web.",
+      "Nu putem confirma codurile exacte de mărime de carcasă pentru fiecare combinație de putere și turație, pentru care producătorul publică doar cataloage descărcabile, nu tabele pe pagina web.",
     productCodes: [
-      { code: "AT (63-180)", description: "Serie motoare trifazate/monofazate, IEC 60034-1" },
+      { code: "AT", description: "Serie motoare trifazate/monofazate, IEC 60034-1" },
       { code: "Custom electric motors", description: "Motoare personalizate pe cerințele clientului" },
       { code: "PM Motors cu invertor integrat", description: "Motor sincron cu magneți permanenți, invertor încorporat" },
       { code: "PM Motors pentru invertor extern", description: "Motor sincron PM controlat de invertor separat" },

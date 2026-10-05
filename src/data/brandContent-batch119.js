@@ -5,9 +5,9 @@ export const brandContentBatch119 = {
     name: "Fenner Drives",
     overview: `Fenner Drives este marca americană de curele de transmisie cu link-uri detașabile și dispozitive de strângere fără pană, parte din Fenner Precision Polymers. Gama de bază, PowerTwist, oferă curele trapezoidale formate din segmente detașabile care se montează fără a demonta fuliile sau motorul, o soluție folosită acolo unde întreținerea rapidă contează mai mult decât costul unei curele clasice dintr-o singură bucată. Alături de curele, marca produce bucșe de strângere fără pană Trantorque și dispozitive de blocare B-LOC pentru fixarea pe arbore a roților, fuliilor și cuplajelor.
 
-Segmentele PowerTwist Drive acoperă secțiunile uzuale 3L, A/4L, B/5L și C, fiecare disponibilă sub coduri de catalog de tip 0405xxx, 0408xxx sau 0410xxx, cu diametre minime de fulie între aproximativ 1,78" și 9,00". Bucșele Trantorque vin în familiile GT, Mini, OE, NT și Micro, în variante metrice și în inch, iar dispozitivele B-LOC acoperă de la seria B103 până la seria B800, fiecare pe game de diametre de arbore diferite.
+Segmentele PowerTwist Drive acoperă secțiunile uzuale 3L, A/4L, B/5L și C, disponibile sub coduri de catalog de tip 0405xxx, 0408xxx sau 0410xxx (secțiunea 3L doar 0405xxx și 0408xxx), cu diametre minime de fulie între 2,00" (51 mm) și 9,00" (229 mm). Bucșele Trantorque vin în familiile GT, Mini, OE, NT și Micro, în variante metrice și în inch, iar dispozitivele B-LOC acoperă de la seria B103 până la seria B800, fiecare pe game de diametre de arbore diferite.
 
-Pentru clienții din România cu linii unde schimbarea unei curele clasice cere oprirea prelungită a instalației sau demontarea unor subansamble grele, gama PowerTwist reduce timpul de intervenție la câteva minute. Bucșele Trantorque și dispozitivele B-LOC sunt utile acolo unde montarea și demontarea repetată a unei roți sau fulii pe arbore trebuie făcută fără pană și fără forță de presare excesivă.`,
+Pentru clienții din România cu linii unde schimbarea unei curele clasice cere oprirea prelungită a instalației sau demontarea unor subansamble grele, gama PowerTwist reduce timpul de intervenție față de o curea clasică dintr-o singură bucată. Bucșele Trantorque și dispozitivele B-LOC sunt utile acolo unde montarea și demontarea repetată a unei roți sau fulii pe arbore trebuie făcută fără pană și fără forță de presare excesivă.`,
     whyChoose: [
       "Curele PowerTwist cu segmente detașabile — montaj și înlocuire fără demontarea fuliilor sau a motorului",
       "Acoperă secțiunile standard 3L, A/4L, B/5L și C, compatibile cu fulii de transmisie existente",
@@ -17,8 +17,8 @@ Pentru clienții din România cu linii unde schimbarea unei curele clasice cere 
     ],
     keyProducts: [
       { name: "Curea PowerTwist Drive Link Belting", description: "Curea trapezoidală formată din segmente detașabile care se conectează manual, fără scule speciale, ceea ce permite montarea și demontarea fără a scoate motorul sau fulia din poziție. Disponibilă în secțiunile 3L, A/4L, B/5L și C, cu coduri de catalog precum 0405030, 0408050 sau 0410070. Recomandată pentru linii unde opririle de mentenanță trebuie reduse la minimum sau unde accesul la transmisie e limitat." },
-      { name: "Bucșe de Strângere Trantorque", description: "Bucșe de strângere fără pană pentru fixarea roților, fuliilor și cuplajelor pe arbore, disponibile în familiile GT, Mini, OE, NT și Micro, fiecare cu variante în inch și metric. Strângerea se face prin compresie mecanică pe arbore, fără canal de pană, ceea ce reduce jocul și permite repoziționarea repetată a componentei montate. Aplicație tipică: role de transportor, ventilatoare și cuplaje unde demontarea frecventă e necesară." },
-      { name: "Dispozitive de Blocare B-LOC", description: "Familie de dispozitive de blocare fără pană pentru arbori, structurată pe serii cu capacități diferite — B103, B106, B109, B400, B800 pentru sarcini standard, și B112, B113, B115, B117 pentru sarcini medii, grele sau extra-grele. Disponibile în variante inch și metrice, cu numeroase dimensiuni pe fiecare serie. Aplicație tipică: montarea roților dințate, fuliilor și rotoarelor pe arbori de transmisie industrială." }
+      { name: "Bucșe de Strângere Trantorque", description: "Bucșe de strângere fără pană pentru fixarea roților, fuliilor și cuplajelor pe arbore, disponibile în familiile GT, Mini, OE, NT și Micro, în variante inch și metric (familia NT există doar în inch). Strângerea se face prin compresie mecanică pe arbore, fără canal de pană, ceea ce reduce jocul și permite repoziționarea repetată a componentei montate. Aplicație tipică: role de transportor, ventilatoare și cuplaje unde demontarea frecventă e necesară." },
+      { name: "Dispozitive de Blocare B-LOC", description: "Familie de dispozitive de blocare fără pană pentru arbori, structurată pe serii cu capacități diferite — B103, B106, B109, B400, B800 pentru sarcini standard, B112 pentru sarcini grele, B113 pentru sarcini extra-grele, B115 pentru sarcini medii și B117 pentru solicitări de încovoiere. Disponibile în variante inch și metrice, cu numeroase dimensiuni pe fiecare serie. Aplicație tipică: montarea roților dințate, fuliilor și rotoarelor pe arbori de transmisie industrială." }
     ],
     industries: [
       "Manipulare materiale — role și transportoare cu bandă",
@@ -71,14 +71,14 @@ Pentru clienții din România cu linii unde schimbarea unei curele clasice cere 
   'bishop-wisecarver': {
     name: "Bishop-Wisecarver",
     founded: 1950,
-    overview: `Bishop-Wisecarver este un producător american de ghidaje liniare cu role, deținut de familia Wisecarver din 1950. Gama de bază, DualVee, folosește role cu două suprafețe de rulare în V la 90°, montate pe o șină de ghidaj, pentru mișcare liniară cu frecare redusă în medii dificile — praf, umiditate sau contaminare — unde un ghidaj clasic cu bile s-ar bloca sau uza rapid. Din aceeași familie fac parte variante pentru vid înalt, pentru contact cu alimente sau pentru temperaturi ridicate, plus role cu știft filetat pentru montare directă fără arbore separat.
+    overview: `Bishop-Wisecarver este un producător american de ghidaje liniare cu role, deținut de familia Wisecarver din 1950. Gama de bază, DualVee, folosește role cu două suprafețe de rulare în V la 90°, montate pe o șină de ghidaj, pentru mișcare liniară cu frecare redusă în medii dificile — praf, umiditate sau contaminare — unde un ghidaj clasic cu bile s-ar bloca sau uza rapid. Din aceeași familie fac parte variante pentru vid înalt, plus roți cu știft filetat pentru montare directă fără arbore separat.
 
 Rolele DualVee sunt construite din oțel carbon AISI 52100 sau inox AISI 440C, cu rulment cu bile cu contact angular dublu și etanșare din cauciuc, scuturi metalice sau combinație a celor două, în funcție de mediul de lucru. Variantele pentru vid, precum seria SSVAC, funcționează până la 10⁻⁹ mbar cu unsoare specială pentru vid înalt. Alături de rolele originale, gama include roți cu știft (seriile SWS, SWA și SWI, cu filet scurt, lung sau corp polimeric supraturnat) și familiile MinVee, UtiliTrak, LoPro și MadeWell pentru ghidaje miniaturale, compacte, cu profil jos sau cu role radiale.
 
 Pentru linii din România unde ghidajele cu bile clasice se uzează rapid din cauza prafului, vibrațiilor sau contaminării cu lichide, gama DualVee și familiile derivate oferă o alternativă mecanică mai tolerantă, fără a necesita etanșări suplimentare complexe.`,
     whyChoose: [
       "Role de ghidaj cu profil V dublu la 90° — rulează pe două suprafețe simultan, tolerante la praf",
-      "Variante dedicate pentru vid înalt (până la 10⁻⁹ mbar), contact cu alimente sau temperaturi ridicate",
+      "Variantă dedicată pentru vid înalt (până la 10⁻⁹ mbar)",
       "Materiale la alegere — oțel carbon AISI 52100 sau inox AISI 440C, cu etanșare din cauciuc sau scuturi metalice",
       "Roți cu știft filetat (SWS, SWA, SWI) pentru montare directă, fără arbore intermediar"
     ],
@@ -86,11 +86,11 @@ Pentru linii din România unde ghidajele cu bile clasice se uzează rapid din ca
       { name: "Role DualVee Original (seria W)", description: "Role de ghidaj liniar cu profil dublu în V la 90°, folosite pe șină de ghidaj DualVee pentru mișcare liniară cu frecare redusă. Construite din oțel carbon AISI 52100 cu rulment cu bile cu contact angular dublu, disponibile în mai multe dimensiuni (de exemplu codul W4X pentru mărimea 4). Etanșarea combină o garnitură de cauciuc interioară cu scuturi metalice exterioare, pentru protecție împotriva contaminării în medii industriale grele." },
       { name: "Role DualVee pentru Vid Înalt", description: "Variantă a rolei DualVee construită integral din inox AISI 440C rezistent la coroziune, cu lubrifiant special pentru vid ultraînalt și capacitate de funcționare până la 10⁻⁹ mbar. Codul de familie SSVAC identifică această linie, cu dimensiuni pe mai multe mărimi (de exemplu W2SSVAC pentru mărimea 2). Aplicație tipică: echipamente de procesare a semiconductorilor și sisteme din industria vidului." },
       { name: "Roți cu Știft Filetat DualVee (SWS/SWA/SWI)", description: "Roți de ghidaj cu știft filetat din inox atașat permanent la un rulment cu bile, pentru montare directă pe o placă sau structură, fără arbore separat. Seria SWS are înălțime de montaj redusă și filet scurt, SWA are filet lung pentru grosimi mai mari de material, iar SWI folosește un corp polimeric supraturnat peste rulment. Disponibile în variante concentrice și excentrice, utile pentru reglaj fin de aliniere." },
-      { name: "Familii MinVee, UtiliTrak, LoPro și MadeWell", description: "Linii complementare gamei DualVee: MinVee pentru ghidaje liniare miniaturale, UtiliTrak pentru profil compact de ghidaj și șină integrate, LoPro pentru înălțime de montaj redusă și MadeWell pentru role radiale și cu bandaj (crown rollers), adaptate la spațiul disponibil pe echipament." }
+      { name: "Familii MinVee, UtiliTrak, LoPro și MadeWell", description: "Linii complementare gamei DualVee: MinVee pentru ghidaje liniare miniaturale, UtiliTrak pentru ghidaj compact care tolerează abateri de paralelism, LoPro pentru înălțime de montaj redusă și MadeWell pentru role radiale și cu bandaj (crown rollers), adaptate la spațiul disponibil pe echipament." }
     ],
     industries: [
       "Automatizare industrială — axe liniare expuse la praf sau așchii",
-      "Procesarea alimentelor — role rezistente la spălare și contact cu alimente",
+      "Procesarea alimentelor — ghidaje pentru medii cu umiditate și contaminare, varianta fiind confirmată pe cod",
       "Semiconductori și vid — role DualVee pentru vid înalt",
       "Ambalare — mișcare liniară pe linii cu viteze mari și mentenanță redusă",
       "Manipulare materiale — transportoare și module liniare cu role în V"
@@ -106,7 +106,7 @@ Pentru linii din România unde ghidajele cu bile clasice se uzează rapid din ca
       { code: "DualVee Journals", description: "arbori/axe pentru montarea rolelor DualVee" },
       { code: "MadeWell", description: "role radiale și cu bandaj (crown rollers)" },
       { code: "MinVee", description: "familie de ghidaje liniare miniaturale" },
-      { code: "UtiliTrak", description: "ghidaj liniar compact cu profil integrat" },
+      { code: "UtiliTrak", description: "ghidaj liniar compact, tolerant la abateri de paralelism" },
       { code: "LoPro", description: "familie de ghidaje cu profil de montaj jos" }
     ],
     faq: [
@@ -117,8 +117,8 @@ Pentru linii din România unde ghidajele cu bile clasice se uzează rapid din ca
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Bishop-Wisecarver — about-us", url: "https://www.bwc.com/about-us/", publisher: "Bishop-Wisecarver Corporation", accessed: "2026-09-26" },
       { title: "DualVee Original Guide Wheel W4X", url: "https://www.bwc.com/dualvee-original-guide-wheel-w4x.html", publisher: "Bishop-Wisecarver Corporation", accessed: "2026-09-26" },
@@ -307,27 +307,27 @@ Pentru operațiuni miniere sau de procesare minerală din România, gama Weir Mi
     name: "Winters Instruments",
     overview: `Winters Instruments este un producător canadian de manometre, termometre, presostate și garnituri de separare (diaphragm seals) pentru instalații industriale. Gama acoperă manometre economice pentru montaj general, manometre de proces cu carcasă umplută cu glicerină, presostate compacte cu contact electric și garnituri de separare pentru izolarea instrumentului de mediul de proces, atunci când fluidul e coroziv, vâscos sau conține particule solide.
 
-Seria PEM (și varianta fără plumb PEM-LF) acoperă manometrele economice de uz general, seria PPC acoperă manometrele de proces cu construcție mai robustă, iar seria PTB completează gama; caracteristicile ei se confirmă pe cod, din documentația producătorului. Pe partea de presostate, seriile 1WPS și 9WPS acoperă variante compacte; omologările pentru zone cu risc de explozie se confirmă pe codul exact, din documentația producătorului. Garniturile de separare (diaphragm seals) sunt împărțite pe tipuri constructive — D10 din PVC în două piese, D30 pentru presiune înaltă, D44 cu flanșă și membrană din PTFE, D70 pentru uz industrial greu și D71-70 în variantă NACE din Hastelloy C pentru medii puternic corozive.
+Seria PEM (și varianta fără plumb PEM-LF) acoperă manometrele economice de uz general, seria PPC acoperă manometrele de proces cu construcție mai robustă, iar seria PTB completează gama; caracteristicile ei se confirmă pe cod, din documentația producătorului. Pe partea de presostate, seriile 1WPS și 9WPS acoperă variante compacte; omologările pentru zone cu risc de explozie se confirmă pe codul exact, din documentația producătorului. Garniturile de separare (diaphragm seals) sunt împărțite pe tipuri constructive, desemnate prin codurile D10, D30, D44, D70, D71-70 și D81; materialele, presiunile de lucru și omologările se confirmă pe cod, din documentația producătorului.
 
 Pentru instalații din România unde manometrul montat direct pe conductă s-ar deteriora rapid din cauza mediului de proces, garniturile de separare din gama Winters permit montarea instrumentului la distanță de contactul direct cu fluidul, fără a schimba principiul de citire a presiunii.`,
     whyChoose: [
       "Gamă completă pe trei niveluri — manometre economice PEM, de proces PPC și seria PTB",
       "Presostate compacte din seriile 1WPS și 9WPS, cu detalii confirmate pe cod",
-      "Garnituri de separare pe cinci construcții diferite, de la PVC (D10) la Hastelloy C certificat NACE (D71-70)",
+      "Garnituri de separare pe mai multe tipuri constructive (D10, D30, D44, D70, D71-70), cu materialele confirmate pe cod",
       "Variantă PEM-LF fără plumb, pentru instalații unde conformitatea cu restricțiile de plumb contează",
       "Materiale de construcție adaptate mediului de proces — PTFE, PVC sau aliaje rezistente la coroziune"
     ],
     keyProducts: [
       { name: "Manometru Economic PEM / PEM-LF", description: "Manometru de uz general pentru montaj direct pe conductă, disponibil în variantă standard sau PEM-LF, fără plumb în componentele umede, pentru instalații care trebuie să respecte restricții privind conținutul de plumb. Construcție economică, gândită pentru citirea presiunii pe aplicații industriale curente, fără cerințe speciale de mediu. Aplicație tipică: montaj pe instalații de aer comprimat, apă sau linii hidraulice cu mediu necoroziv." },
       { name: "Manometru de Proces PPC", description: "Manometru cu construcție mai robustă decât seria economică, gândit pentru montaj pe linii de proces industrial unde vibrațiile sau pulsațiile de presiune sunt frecvente. Carcasa poate fi umplută cu lichid amortizor pentru a proteja mecanismul intern de citire. Aplicație tipică: linii de proces din industria chimică sau petrochimică, unde manometrul e expus la vibrații constante." },
-      { name: "Garnitură de Separare D71-70 (NACE, Hastelloy C)", description: "Garnitură de separare (diaphragm seal) construită din Hastelloy C, certificată conform standardului NACE pentru medii puternic corozive sau cu conținut de hidrogen sulfurat. Izolează manometrul sau traductorul de contactul direct cu fluidul de proces, transmițând presiunea printr-un lichid de umplere intermediar. Aplicație tipică: instalații din industria petrolieră și chimică unde fluidul de proces ar distruge rapid un manometru montat direct." },
+      { name: "Garnitură de Separare D71-70", description: "Garnitură de separare din gama Winters, destinată mediilor corozive; materialul și conformitatea cu standardul NACE se confirmă pe cod, din documentația producătorului. Izolează manometrul sau traductorul de contactul direct cu fluidul de proces, transmițând presiunea printr-un lichid de umplere intermediar. Aplicație tipică: instalații din industria petrolieră și chimică unde fluidul de proces ar distruge rapid un manometru montat direct." },
       { name: "Presostat Compact 1WPS / 9WPS", description: "Presostat compact cu contact electric, disponibil în seriile 1WPS și 9WPS; omologările pentru zone cu risc de explozie se confirmă pe codul exact. Comută un contact electric la atingerea unui prag de presiune reglabil, fiind folosit pentru semnalizare sau oprire automată a unui echipament. Aplicație tipică: protecția pompelor sau compresoarelor la depășirea unei presiuni limită de lucru." }
     ],
     industries: [
       "Industria chimică și petrochimică — garnituri de separare pentru medii corozive",
       "Industria alimentară și farmaceutică — aplicații cu cerințe de igienă, confirmate pe codul exact",
       "HVAC și instalații industriale — manometre economice pentru montaj curent",
-      "Petrol și gaze — garnituri NACE pentru medii cu hidrogen sulfurat",
+      "Petrol și gaze — garnituri de separare pentru medii corozive",
       "Automatizare industrială — presostate compacte pentru protecția echipamentelor"
     ],
     infinitrade: `Furnizăm manometre, termometre, presostate și garnituri de separare din gama Winters Instruments, pe baza codului de serie și a parametrilor de proces confirmați de client. Nu avem date proprii de stoc pentru această gamă — informația despre serii vine din surse publice ale producătorului — iar aducerea se face la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de seria dorită (PEM, PPC, PTB), domeniul de presiune, diametrul cadranului și tipul de racord, respectiv materialul garniturii de separare dacă mediul de proces e coroziv. Nu ținem gama pe raft propriu — fiecare comandă se confirmă pe codul exact de serie înainte de a fi trimisă spre aprovizionare.`,
@@ -340,16 +340,16 @@ Pentru instalații din România unde manometrul montat direct pe conductă s-ar 
       { code: "PSG", description: "serie de manometre Winters; detalii pe cod" },
       { code: "1WPS", description: "presostat compact, variantă standard" },
       { code: "9WPS", description: "presostat compact, seria 9WPS" },
-      { code: "D10", description: "garnitură de separare din PVC, în două piese" },
+      { code: "D10", description: "garnitură de separare; materialul se confirmă pe cod" },
       { code: "D30", description: "garnitură de separare pentru presiune înaltă" },
-      { code: "D44", description: "garnitură de separare cu flanșă, membrană PTFE" },
+      { code: "D44", description: "garnitură de separare cu flanșă; materialul membranei se confirmă pe cod" },
       { code: "D70", description: "garnitură de separare industrială, uz greu" },
-      { code: "D71-70", description: "garnitură de separare NACE, Hastelloy C" },
+      { code: "D71-70", description: "garnitură de separare; materialul și conformitatea NACE se confirmă pe cod" },
       { code: "D81", description: "inel de izolare pentru garnituri de separare" }
     ],
     faq: [
       { q: "Ce serii de manometre produce Winters Instruments?", a: "Winters produce trei niveluri principale de manometre: seria economică PEM (și varianta fără plumb PEM-LF) pentru montaj general, seria de proces PPC pentru linii cu vibrații, și seria PTB; caracteristicile ei se confirmă pe cod." },
-      { q: "Cum aleg o garnitură de separare Winters după cod?", a: "Codul indică materialul și construcția — de exemplu D10 e din PVC în două piese pentru medii ușor corozive, D30 e pentru presiune înaltă, iar D71-70 e certificat NACE din Hastelloy C pentru medii puternic corozive. Alegerea depinde de mediul de proces și presiunea de lucru." },
+      { q: "Cum aleg o garnitură de separare Winters după cod?", a: "Codul indică tipul constructiv al garniturii (D10, D30, D44, D70, D71-70, D81); materialul și presiunea de lucru se confirmă pe cod, din documentația producătorului. Alegerea depinde de mediul de proces și de presiunea de lucru." },
       { q: "Ce diferență e între presostatele 1WPS și 9WPS de la Winters?", a: "1WPS e varianta standard, compactă, pentru medii industriale obișnuite, în timp ce diferențele față de 9WPS (inclusiv omologările pentru zone cu risc de explozie) se confirmă pe codul exact, din documentația producătorului." },
       { q: "Livrați manometre Winters Instruments în România și cât durează?", a: "Aducem la comandă manometre, presostate și garnituri de separare din gama Winters prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, după confirmarea seriei și a parametrilor de proces." }
     ],

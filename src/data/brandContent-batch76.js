@@ -141,14 +141,14 @@ Pentru instalațiile din România, Dixon înseamnă acces la o nomenclatură amp
   'dropsa': {
     name: "DropsA",
     founded: 1946,
-    headquarters: "Milano, Italia",
-    overview: `DropsA proiectează sisteme de ungere centralizată pentru mașini industriale, cu sediul la Milano, Italia, activă din 1946. Gama include pompe electrice pentru dozare multi-punct, distribuitoare progresive și cu linie duală, injectoare, colectoare de ungere și controlere electronice pentru monitorizarea ciclului de ungere. Pentru România putem oferta atât componente individuale de schimb, cât și sisteme complete configurate pe numărul de puncte de ungere al utilajului.
+    headquarters: "Vimodrone (Milano), Italia",
+    overview: `DropsA proiectează sisteme de ungere centralizată pentru mașini industriale, cu sediul la Vimodrone, lângă Milano, Italia, activă din 1946. Gama include pompe electrice pentru dozare multi-punct, distribuitoare progresive și cu linie duală, injectoare, colectoare de ungere și controlere electronice pentru monitorizarea ciclului de ungere. Pentru România putem oferta atât componente individuale de schimb, cât și sisteme complete configurate pe numărul de puncte de ungere al utilajului.
 
-Compania oferă sisteme de ungere cu ulei, unsoare, ulei recirculat, aer-ulei și MQL (cantitate minimă de lubrifiant, pentru prelucrare aproape uscată). Seria de controlere VIP include modele precum VIP4Air 4.0; funcțiile exacte ale fiecărui model le confirmăm pe cod, din documentația DropsA.
+Compania oferă sisteme de ungere cu ulei, unsoare, aer-ulei și MQL (cantitate minimă de lubrifiant, pentru prelucrare aproape uscată). Seria de controlere VIP include modele precum VIP4Air 4.0; funcțiile exacte ale fiecărui model le confirmăm pe cod, din documentația DropsA.
 
 Pentru utilajele din România cu multe puncte de ungere greu accesibile — linii de ambalare, prese, utilaje pentru oțel sau ciment — un sistem DropsA centralizat elimină ungerea manuală punct cu punct și reduce riscul de gripare din lipsă de lubrifiant.`,
     whyChoose: [
-      "Sisteme de ungere cu ulei, unsoare, ulei recirculat, aer-ulei și MQL",
+      "Sisteme de ungere cu ulei, unsoare, aer-ulei și MQL",
       "Controlere electronice din seria VIP, pentru monitorizarea ciclului de ungere",
       "Distribuitoare progresive și cu linie duală pentru sisteme cu multe puncte de ungere",
       "Filtre dedicate seria Magnom, în variante Mini, Midi și Max pentru protecția componentelor",
@@ -156,8 +156,8 @@ Pentru utilajele din România cu multe puncte de ungere greu accesibile — lini
     ],
     keyProducts: [
       { name: "Pompe de Ungere BM5 și FEMTO", description: "Pompe electrice pentru dozare multi-punct (BM5) și pompă compactă FEMTO, folosite ca sursă centrală într-un sistem de ungere centralizată. Alimentează distribuitoare progresive sau cu linie duală montate pe utilaj, dozând cantități mici și precise de lubrifiant la intervale programate. Aplicație tipică: mașini de ambalat, prese și linii de producție cu multe lagăre." },
-      { name: "Controlere VIP4Air 4.0 și VIP5", description: "Controlere electronice pentru sisteme de ungere aer-ulei și pentru monitorizarea generală a ciclului de ungere,. Semnalează defecțiuni, blocaje de linie sau lipsa lubrifiantului din rezervor, util pentru mentenanța predictivă la utilajele critice unde o gripare oprește producția." },
-      { name: "Distribuitoare Progresive și Dual-Line", description: "Distribuitoare care împart un debit central de lubrifiant în cantități egale către fiecare punct de ungere, în configurație progresivă (pentru unsoare) sau cu linie duală (pentru sisteme mari, cu multe puncte). Permit monitorizarea funcționării fiecărui segment prin senzori de piston, util la depanarea rapidă a unui punct blocat." },
+      { name: "Controlere VIP4Air 4.0 și VIP5", description: "Controlere electronice pentru sisteme de ungere aer-ulei și pentru monitorizarea generală a ciclului de ungere. Semnalează defecțiuni, blocaje de linie sau lipsa lubrifiantului din rezervor, util pentru mentenanța predictivă la utilajele critice unde o gripare oprește producția." },
+      { name: "Distribuitoare Progresive și Dual-Line", description: "Distribuitoare care împart un debit central de lubrifiant în cantități egale către fiecare punct de ungere, în configurație progresivă sau cu linie duală. Permit monitorizarea funcționării fiecărui segment prin senzori de piston, util la depanarea rapidă a unui punct blocat." },
       { name: "Filtre Magnom Mini/Midi/Max", description: "Filtre pentru protecția pompelor și distribuitoarelor de particule din ulei sau unsoare, în trei dimensiuni (Mini, Midi, Max) pentru debite diferite. Montate în amonte de pompă sau distribuitor, prelungesc durata de viață a componentelor de precizie din sistemul de ungere." }
     ],
     industries: [
@@ -174,7 +174,7 @@ Pentru utilajele din România cu multe puncte de ungere greu accesibile — lini
       { code: "BM5", description: "Pompă electrică de dozare multi-punct" },
       { code: "FEMTO Pump", description: "Pompă compactă pentru ungere centralizată" },
       { code: "VIP5", description: "Controler electronic pentru sisteme de ungere" },
-      { code: "VIP4Air 4.0-S", description: "Modul controler pentru ungere aer-ulei" },
+      { code: "VIP4Air 4.0", description: "Controler pentru ungere aer-ulei" },
       { code: "VIPAIR 4.0", description: "Controler pentru ungere aer-ulei" },
       
       { code: "Magnom Mini", description: "Filtru mic pentru sisteme de ungere" },
@@ -191,7 +191,7 @@ Pentru utilajele din România cu multe puncte de ungere greu accesibile — lini
       { code: "Sensors & Monitoring Devices", description: "Senzori și dispozitive de monitorizare a ciclului" }
     ],
     faq: [
-      { q: "Ce produce DropsA?", a: "DropsA fabrică sisteme de ungere centralizată — pompe electrice, distribuitoare progresive și dual-line, injectoare, filtre și controlere electronice — pentru mașini industriale. Sediul este la Milano, Italia, iar compania activează din 1946 în acest domeniu." },
+      { q: "Ce produce DropsA?", a: "DropsA fabrică sisteme de ungere centralizată — pompe electrice, distribuitoare progresive și dual-line, injectoare, filtre și controlere electronice — pentru mașini industriale. Sediul este la Vimodrone, lângă Milano, Italia, iar compania activează din 1946 în acest domeniu." },
       { q: "Cum aleg un sistem DropsA pentru utilajul meu?", a: "Trebuie stabilite numărul de puncte de ungere, tipul de lubrifiant (ulei sau unsoare) și distanța de la pompă la cel mai îndepărtat punct, pentru a alege corect pompa și tipul de distribuitor (progresiv sau linie duală)." },
       { q: "Ce echivalent are gama DropsA față de SKF Lubrication?", a: "Echivalența cu sistemele altui producător depinde de compatibilitatea cu componentele deja montate pe utilaj și de tipul de lubrifiant folosit; o stabilim pe baza fișelor tehnice." },
       { q: "Livrați DropsA în România și cât durează?", a: "Da, aducem componente DropsA la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația sistemului și de confirmarea producătorului pentru codurile cerute." },

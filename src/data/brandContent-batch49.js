@@ -899,7 +899,7 @@ Ce diferențiază Van der Graaf este principiul motorului tambur — motorul ele
       },
       {
         "code": "IntelliDrive",
-        "description": "Serie de motoare tambur compacte cu monitorizare inteligentă, diametru 4 până la 6,5 inch"
+        "description": "Serie de motoare tambur cu magneți permanenți și variator de frecvență integrat, în diametre de 4,5, 5,0 și 6,5 inch"
       }
     ],
     faq: [
@@ -913,7 +913,7 @@ Ce diferențiază Van der Graaf este principiul motorului tambur — motorul ele
       },
       {
         "q": "Ce este seria IntelliDrive de la Van der Graaf?",
-        "a": "IntelliDrive este o serie de motoare tambur compacte, cu diametre între 4 și 6,5 inch, care integrează monitorizarea stării de funcționare direct în carcasă. Parametrii monitorizați se confirmă din documentația producătorului. Această gamă completează seriile SSV, Standard și GrizzlyDrive din portofoliul de motoare tambur al producătorului."
+        "a": "IntelliDrive este o serie de motoare tambur cu magneți permanenți, disponibilă în diametre de 4,5, 5,0 și 6,5 inch (TM113, TM127, TM160), care integrează un variator de frecvență. Funcțiile de diagnoză și comunicație se confirmă din documentația producătorului. Această gamă completează seriile SSV, Standard și GrizzlyDrive din portofoliul de motoare tambur al producătorului."
       },
       {
         "q": "Livrați motoare tambur Van der Graaf în România?",
@@ -1193,7 +1193,7 @@ Ce diferențiază Kyoritsu este specializarea îngustă și adâncă pe instrume
       },
       {
         "code": "MODEL 1110",
-        "description": "Multimetru digital din gama Kyoritsu pentru tehnicieni electricieni"
+        "description": "Multimetru analogic cu sensibilitate ridicată (DC 20 kΩ/V)"
       },
       {
         "code": "KEW 1021R",
@@ -1241,7 +1241,7 @@ Ce diferențiază Kyoritsu este specializarea îngustă și adâncă pe instrume
       },
       {
         "code": "KEW 1109S",
-        "description": "Multimetru digital din gama Kyoritsu pentru uz profesional"
+        "description": "Multimetru analogic cu scală cu oglindă pentru citire precisă"
       },
       {
         "code": "KEW 1012",
@@ -1284,11 +1284,11 @@ Ce diferențiază Kyoritsu este specializarea îngustă și adâncă pe instrume
     headquarters: "Natick, Massachusetts, SUA",
     overview: `Cognex este un producător american de sisteme de vedere artificială industrială și cititoare de coduri de bare, cu peste patru decenii de activitate în domeniu. Gama include sisteme de vedere de tip In-Sight, precum modelul In-Sight L38 pentru inspecție 3D cu procesare AI integrată, senzori de vedere și cititoare industriale de coduri de bare. Pentru piața din România putem oferta din gama de sisteme de vedere artificială și cititoare de coduri folosite pe linii de producție și în logistică.
 
-Ce diferențiază Cognex este gama largă de aplicații în care sunt folosite sistemele sale, de la controlul calității la logistică. În categoria vederii artificiale industriale, Cognex se află alături de Keyence, cu accent pe modelele In-Sight cu inteligență artificială integrată pentru inspecții 3D fără programare complexă.
+Ce diferențiază Cognex este gama largă de aplicații în care sunt folosite sistemele sale, de la controlul calității la logistică. În categoria vederii artificiale industriale, Cognex pune accent pe modelele In-Sight cu inteligență artificială integrată pentru inspecții 3D, cu antrenare grafică pentru aplicațiile simple.
 
 În România, gama Cognex are sens pentru linii de producție cu control de calitate automat, celule robotizate unde piesele trebuie identificate și poziționate optic, și depozite sau centre de distribuție unde citirea automată a codurilor de bare înlocuiește scanarea manuală.`,
     whyChoose: [
-      "Peste patru decenii de specializare exclusivă pe vedere artificială industrială",
+      "Peste patru decenii de activitate în vederea artificială industrială",
       "Sisteme In-Sight cu inteligență artificială integrată pentru inspecție 3D",
       "Sisteme de vedere folosite în controlul calității, robotică și logistică",
       "Cititoare industriale de coduri de bare pentru logistică și trasabilitate",
@@ -1430,7 +1430,7 @@ Ce diferențiază Rotronic este acoperirea de aplicații critice unde precizia �
       },
       {
         "code": "HF73A",
-        "description": "Transmițător avansat de umiditate și temperatură pentru aplicații critice"
+        "description": "Variantă din gama HygroFlex; detaliile se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "HygroFlex-EX",
@@ -1450,7 +1450,7 @@ Ce diferențiază Rotronic este acoperirea de aplicații critice unde precizia �
       },
       {
         "code": "Hygrocal100",
-        "description": "Soluție de calibrare salină pentru verificarea senzorilor de umiditate"
+        "description": "Produs din categoria de calibrare a umidității Rotronic; detaliile se confirmă pe cod, din documentația producătorului"
       }
     ],
     faq: [

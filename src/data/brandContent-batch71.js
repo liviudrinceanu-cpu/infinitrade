@@ -4,16 +4,16 @@ export const brandContentBatch71 = {
   etatron: {
     name: "Etatron",
     headquarters: "Roma, Italia",
-    overview: `Etatron este un producător italian de pompe dozatoare, cu fabrica și sediul la Santa Palomba, lângă Roma, specializat în echipamente electromagnetice și cu motor pentru dozarea precisă a substanțelor chimice lichide. Din gama sa putem oferta pompele solenoidale din familiile eOne, PKX, DLX/DLXB și BT, alături de pompele cu motor din seriile ST-D, ST-P, D și P, pentru instalații unde o dozare manuală nu mai oferă precizia necesară.
+    overview: `Etatron este un producător italian de pompe dozatoare, cu sediul în zona Romei, specializat în echipamente electromagnetice și cu motor pentru dozarea precisă a substanțelor chimice lichide. Din gama sa putem oferta pompele solenoidale din familiile eOne, PKX, DLX/DLXB și BT, alături de pompele cu motor din seriile ST-D, ST-P, D și P, pentru instalații unde o dozare manuală nu mai oferă precizia necesară.
 
-Punctul forte al gamei Etatron este acoperirea largă de debite și presiuni într-un format compact: de la fracțiuni de litru pe oră la pompele peristaltice, până la 1.027 l/h la seria P cu motor, cu presiuni de refulare de până la 25 bar. Corpul pompelor solenoidale este din PVDF rezistent chimic, cu membrană din PTFE și garnituri din FPM, iar frecvența impulsurilor de dozare merge până la 300 impulsuri pe minut la modelele electronice. Această combinație de materiale rezistente și reglaj fin face diferența față de pompele dozatoare mecanice simple, mai ales la produse chimice agresive.
+Punctul forte al gamei Etatron este acoperirea largă de debite și presiuni într-un format compact: de la 1,5–3 l/h la pompele peristaltice, până la 1.027 l/h la seria P cu motor, cu presiuni de refulare de până la 25 bar. Capul pompelor este din PP sau PVDF, cu membrană din PTFE și garnituri din FPM, iar frecvența impulsurilor de dozare ajunge la 300 impulsuri pe minut la seria eOne; la celelalte serii solenoidale frecvența este mai mică. Această combinație de materiale rezistente și reglaj fin face diferența față de pompele dozatoare mecanice simple, mai ales la produse chimice agresive.
 
 Pentru piața din România, gama Etatron are sens la stațiile de tratare a apei, piscine publice și private, spălătorii industriale și linii de procesare alimentară, oriunde e nevoie de dozare continuă și repetabilă a unui reactiv lichid.`,
     whyChoose: [
-      "Gamă largă de debite — de la sub 1 l/h la peste 1.000 l/h, acoperind atât dozarea fină cât și debite industriale",
-      "Corp de pompă din PVDF — rezistență chimică ridicată pentru reactivi agresivi folosiți în tratarea apei",
+      "Gamă largă de debite — de la aproximativ 1 l/h la peste 1.000 l/h, acoperind atât dozarea fină cât și debite industriale",
+      "Cap de pompă din PP sau PVDF, membrană din PTFE — rezistență chimică ridicată pentru reactivi folosiți în tratarea apei",
       "Variante solenoidale și cu motor — alegere în funcție de precizia și continuitatea cerute de proces",
-      "Pompe peristaltice dedicate — pentru fluide vâscoase sau cu particule, fără contact cu piesele metalice",
+      "Pompe peristaltice dedicate — pentru piscine și dozări mici, unde fluidul nu trebuie să atingă piese metalice",
       "Prezență pe piața europeană prin filiale locale — documentație tehnică disponibilă în mai multe limbi"
     ],
     keyProducts: [
@@ -51,8 +51,8 @@ Pentru piața din România, gama Etatron are sens la stațiile de tratare a apei
       { code: "eTwin (peristaltică)", description: "Pompă peristaltică compactă, până la 3 l/h" }
     ],
     faq: [
-      { q: "Ce produce Etatron?", a: "Etatron produce pompe dozatoare electromagnetice și cu motor, folosite pentru introducerea controlată a unor reactivi lichizi în apă sau alte fluide de proces. Gama include modele manuale, digitale și proporționale, cu debite de la sub un litru pe oră până la peste o mie de litri pe oră, pentru aplicații de la piscine domestice la instalații industriale de tratare a apei." },
-      { q: "Cum aleg o pompă Etatron după cod?", a: "Codul de model indică familia (eOne, DLX, BT, ST, P) și, la variantele digitale, cifre pentru debitul maxim și presiunea de lucru. Cel mai sigur e să ne trimiteți debitul necesar în l/h, presiunea din instalație și tipul fluidului dozat, iar noi verificăm în catalogul producătorului care variantă se potrivește." },
+      { q: "Ce produce Etatron?", a: "Etatron produce pompe dozatoare electromagnetice și cu motor, folosite pentru introducerea controlată a unor reactivi lichizi în apă sau alte fluide de proces. Gama include modele manuale, digitale și proporționale, cu debite de la aproximativ un litru pe oră până la peste o mie de litri pe oră, pentru aplicații de la piscine domestice la instalații industriale de tratare a apei." },
+      { q: "Cum aleg o pompă Etatron după cod?", a: "Codul de model indică familia (eOne, DLX, BT, ST, P), iar debitul maxim și presiunea de lucru se citesc din fișa tehnică a modelului. Cel mai sigur e să ne trimiteți debitul necesar în l/h, presiunea din instalație și tipul fluidului dozat, iar noi verificăm în catalogul producătorului care variantă se potrivește." },
       { q: "Ce echivalent are seria BT de la Etatron?", a: "Seria BT este o pompă solenoidală de capacitate medie, până la 80 l/h la 20 bar, poziționată între eOne (mai mic) și seriile cu motor ST/D/P (mai mari). Echivalențele cu alte mărci se verifică model cu model, pe debit și presiune." },
       { q: "Livrați pompe Etatron în România și cât durează?", a: "Da, aducem pompe Etatron la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea disponibilității de la producător sau distribuitorul său european. Nu ținem această gamă pe raft, iar termenul exact se confirmă după plasarea comenzii." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Etatron?", a: "Aveți nevoie să ne spuneți fluidul dozat, debitul dorit în litri pe oră, presiunea de lucru din instalație și dacă pompa trebuie să primească un semnal de control extern (4-20mA, impuls sau pH/Redox). Cu aceste date verificăm în gama producătorului varianta potrivită și pregătim oferta." }

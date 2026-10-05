@@ -298,7 +298,7 @@ Pentru un instalator sau un producător de echipamente din România, John Guest 
     name: "KAMAX",
     founded: 1935,
     headquarters: "Homberg (Ohm), Germania",
-    overview: `KAMAX produce elemente de fixare de înaltă rezistență pentru industria auto și pentru mobilitate în general, cu sediul la Homberg (Ohm), Germania, fondată în 1935 la Osterode am Harz de inginerul Rudolf Kellermann. Compania a devenit parte din grupul italian Fontana Gruppo, operează circa 15 fabrici în Europa și Asia și procesează anual aproximativ 209.000 tone de oțel pentru circa 2,8 miliarde de elemente de fixare și piese deformate la rece. Pentru piața din România putem oferta șuruburi și piese speciale din portofoliul curent, pentru aplicații auto și industriale conexe.
+    overview: `KAMAX produce elemente de fixare de înaltă rezistență pentru industria auto și pentru mobilitate în general, cu sediul la Homberg (Ohm), Germania, fondată în 1935 la Osterode am Harz de inginerul Rudolf Kellermann. Compania operează circa 15 fabrici în Europa și Asia și procesează anual aproximativ 209.000 tone de oțel pentru circa 2,8 miliarde de elemente de fixare și piese deformate la rece. Pentru piața din România putem oferta șuruburi și piese speciale din portofoliul curent, pentru aplicații auto și industriale conexe.
 
 Ce diferențiază KAMAX e specializarea pe fixări critice de siguranță pentru vehicule, nu șuruburi standard de uz general: gama acoperă șuruburi pentru bielă și reglarea supapelor la motor, șuruburi de roată și suporturi pentru roata de rezervă, bolțuri excentrice și pivoți sferici pentru stabilizatoare la suspensie, șuruburi pentru scaune și centuri de siguranță, șuruburi de fixare pentru etrierele de frână și bare de direcție. Pentru electromobilitate, compania oferă șuruburi de tensionare a carcasei pentru motoare electrice și bolțuri pentru frâna de parcare electronică, iar familiile KXtreme (ultra-rezistență) și KXtap (auto-filetante) completează gama pentru aplicații speciale unde șurubul standard nu ține sarcina sau temperatura de lucru — studurile pentru evacuare rezistă până la 650°C.
 
@@ -308,7 +308,7 @@ Pentru un producător de componente auto sau un furnizor de nivel 2 din România
       "Familii speciale KXtreme (ultra-rezistență) și KXtap (auto-filetante) pentru aplicații unde șurubul standard nu ține",
       "Studuri rezistente termic până la 650°C, pentru zona de evacuare a motorului",
       "Gamă dedicată electromobilității — bolțuri de tensionare a carcasei motorului electric și frâna de parcare electronică",
-      "Rețea de circa 15 fabrici în Europa și Asia, sub grupul Fontana, pentru continuitate în aprovizionare"
+      "Rețea de circa 15 fabrici în Europa și Asia"
     ],
     keyProducts: [
       { name: "Șuruburi de Motor", description: "Șuruburi pentru bielă și șuruburi de reglare a supapelor, dimensionate pentru sarcini ciclice ridicate la temperaturi de funcționare ale motorului, unde desprinderea accidentală ar produce avarii majore." },
@@ -339,7 +339,7 @@ Pentru un producător de componente auto sau un furnizor de nivel 2 din România
       { code: "Șuruburi fixare scaun", description: "Ancorare scaun în caroserie" },
       { code: "Ansamblu fixare centură", description: "Fixare centură de siguranță" },
       { code: "Șuruburi etrier de frână", description: "Fixare etrier pe fuzetă" },
-      { code: "Șuruburi bară de direcție", description: "Fixare tie-rod la direcție" },
+      { code: "Șuruburi bară de direcție", description: "Fixare bară de legătură la direcție" },
       { code: "Bolțuri sferice cu tijă lungă", description: "Fixare mecanism de direcție" },
       { code: "Bolțuri tensionare carcasă E-motor", description: "Fixare carcasă motor electric" },
       { code: "Bolțuri frână parcare electronică", description: "Fixare actuator frână electronică" },
