@@ -6,12 +6,12 @@ export const brandContentBatch63 = {
     headquarters: "Franța",
     overview: `Poclain Hydraulics este un producător francez specializat în motoare hidraulice cu piston radial și transmisii hidrostatice pentru utilaje mobile — tractoare, combine, mașini de construcții, utilaje forestiere și echipamente pentru mediu. Gama de motoare acoperă zece familii distincte: MK pentru compactitate, MG cu roată directoare, MHP de înaltă performanță, MS multifuncțional, ML cu antrenare pe lanț, MF cu camă rotativă, MT pentru șenile, MI de mare putere, MZ pentru mecanisme de rotire și CDM cu dublu arbore debreiabil. Pentru un integrator sau un atelier de utilaje mobile din România, Poclain oferă o sursă dedicată de motoare de roată și de șenilă, acolo unde soluțiile hidraulice generice nu acoperă cerința de cuplu la turație mică.
 
-Ceea ce diferențiază Poclain în raport cu alți producători de transmisii hidrostatice, precum Bosch Rexroth, este concentrarea exclusivă pe motoare cu piston radial multiplicate în familii dedicate fiecărui tip de aplicație, în locul unei game generaliste. Completează oferta pompele cu piston axial din seria PM și valvele de frânare hidraulică din seria VB, alături de valve de control al mișcării integrate direct pe motor. Seria MT include variante compacte precum modelul MT-250x174, gândit pentru șenile de dimensiuni reduse.
+Gama de motoare cu piston radial este organizată în familii dedicate fiecărui tip de aplicație. Completează oferta pompele cu piston axial din seria PM și valvele de frânare hidraulică din seria VB, alături de valve de control al mișcării integrate direct pe motor. Seria MT este destinată acționării șenilelor.
 
 Pentru piața din România, gama Poclain are sens la utilaje agricole, de construcții și forestiere unde tracțiunea hidrostatică pe roți sau șenile trebuie să funcționeze la turații mici și sarcini variabile, fără cutie de viteze mecanică.`,
     whyChoose: [
       "Zece familii de motoare cu piston radial, fiecare optimizată pentru un tip de aplicație — de la compactitate la putere mare",
-      "Concentrare exclusivă pe transmisii hidrostatice mobile, cu pompe axiale și valve de frânare integrate în aceeași gamă",
+      "Specializare pe transmisii hidrostatice și electrohidraulice pentru utilaje mobile, cu pompe axiale și valve de frânare în aceeași gamă",
       "Motoare dedicate pentru șenile (MT) și mecanisme de rotire (MZ), utile la utilaje de construcții și forestiere",
       "Familie CDM cu dublu arbore debreiabil, pentru aplicații unde tracțiunea trebuie decuplată selectiv",
       "Prezență confirmată în agricultură, construcții, silvicultură, drumuri și echipamente pentru mediu"
@@ -19,7 +19,7 @@ Pentru piața din România, gama Poclain are sens la utilaje agricole, de constr
     keyProducts: [
       { name: "Motoare Seria MHP (High Performance)", description: "Familie de motoare hidraulice cu piston radial gândite pentru randament ridicat la utilaje mobile care cer putere mare la turație redusă. Clientul trebuie să confirme cuplul necesar și tipul de montaj pe axul de tracțiune." },
       { name: "Motoare Seria MK (Compactness)", description: "Motoare compacte cu piston radial pentru spații reduse de montaj, folosite la utilaje mici și echipamente cu gabarit limitat. Necesită confirmarea diametrului de montaj disponibil." },
-      { name: "Motoare Seria MT (Track Drive)", description: "Motoare dedicate acționării șenilelor, disponibile inclusiv în varianta compactă MT-250x174, pentru utilaje de construcții și forestiere pe teren dificil." },
+      { name: "Motoare Seria MT (Track Drive)", description: "Motoare dedicate acționării șenilelor, pentru utilaje de construcții și forestiere pe teren dificil." },
       { name: "Pompe cu Piston Axial Seria PM", description: "Pompe hidraulice cu piston axial pentru alimentarea circuitului de tracțiune, dimensionate în funcție de debitul și presiunea cerute de motorul ales." },
       { name: "Valve Hidraulice de Frânare Seria VB", description: "Valve de frânare hidraulică pentru sisteme de tracțiune mobilă, integrate în circuitul motorului pentru controlul decelerării utilajului." },
     ],
@@ -40,7 +40,7 @@ Pentru piața din România, gama Poclain are sens la utilaje agricole, de constr
       { code: "ML", description: "Motor cu antrenare pe lanț" },
       { code: "MF", description: "Motor cu camă rotativă" },
       { code: "MT", description: "Motor pentru acționarea șenilelor" },
-      { code: "MT-250x174", description: "Variantă compactă din familia Track Drive" },
+      
       { code: "MI", description: "Motor de mare putere" },
       { code: "MZ", description: "Motor pentru mecanisme de rotire (swing drive)" },
       { code: "CDM", description: "Motor cu dublu arbore debreiabil" },
@@ -49,14 +49,14 @@ Pentru piața din România, gama Poclain are sens la utilaje agricole, de constr
     ],
     faq: [
       { q: "Ce produce Poclain Hydraulics?", a: "Poclain Hydraulics produce motoare hidraulice cu piston radial și componente pentru transmisii hidrostatice — pompe cu piston axial și valve de frânare — destinate utilajelor mobile din construcții, agricultură, silvicultură și drumuri. Gama e organizată în zece familii de motoare, fiecare optimizată pentru un tip de aplicație, de la compactitate la putere mare sau acționarea șenilelor." },
-      { q: "Cum aleg motorul Poclain potrivit pentru utilajul meu?", a: "Pornești de la tipul de tracțiune — roată, șenilă sau mecanism de rotire — și de la cuplul și turația necesare la arborele de ieșire. Familia MK e potrivită pentru spații reduse, MHP pentru putere mare, MT pentru șenile. Trimite-ne cuplul dorit, turația de lucru și tipul de montaj pentru identificarea codului corect." },
+      { q: "Cum aleg motorul Poclain potrivit pentru utilajul meu?", a: "Se pornește de la tipul de tracțiune — roată, șenilă sau mecanism de rotire — și de la cuplul și turația necesare la arborele de ieșire. Familia MK e potrivită pentru spații reduse, MHP pentru putere mare, MT pentru șenile. Vă rugăm să ne transmiteți cuplul dorit, turația de lucru și tipul de montaj pentru identificarea codului corect." },
       { q: "Ce diferență este între seriile MS și MHP de la Poclain?", a: "MS este familia multifuncțională, gândită pentru aplicații generale de tracțiune, în timp ce MHP e optimizată pentru randament ridicat la putere mare și turație redusă. Alegerea depinde de cerința reală de cuplu și de spațiul de montaj disponibil pe utilaj; verificăm ambele opțiuni pe baza datelor tehnice trimise." },
       { q: "Livrați motoare Poclain Hydraulics în România și cât durează?", a: "Da, aducem la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea seriei și a configurației la producător. Nu ținem această gamă pe raft, așa că termenul exact depinde de disponibilitatea codului cerut." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Poclain Hydraulics — Home", url: "https://poclain.com", publisher: "Poclain Hydraulics", accessed: "2026-09-22" },
       { title: "Products — Poclain Hydraulics", url: "https://poclain.com/products", publisher: "Poclain Hydraulics", accessed: "2026-09-22" },
@@ -67,13 +67,13 @@ Pentru piața din România, gama Poclain are sens la utilaje agricole, de constr
     headquarters: "Lohmar, Germania",
     overview: `Walterscheid este un producător german de transmisii cardanice (Gelenkwellen) și sisteme de atașare pentru tractoare, cu sediul la Lohmar. Din 2023 face parte din Comer Industries, grup descris pe propriul site drept furnizor global de soluții de transmisie conectate și inteligente. Gama Walterscheid acoperă arbori cardanici compleți și pe jumătăți, cuple de diverse tipuri (cu bolțuri radiale, cu came, cu bolț de forfecare, cu fricțiune, de tip roată liberă, cu joc rotativ), sisteme de atașare pentru tractor (brațe superioare și inferioare, sisteme de stabilizare) și tehnică de remorcare cu cuple cu bilă și bolț.
 
-Ce diferențiază Walterscheid de alți producători de transmisii cardanice este acoperirea completă a lanțului mecanic dintre tractor și utilajul acționat: de la sistemul ULTRA.PLUS de îmbinare a arborilor, la cutiile de viteze ICVD® pentru reglarea vitezei prizei de putere. Arborii cardanici sunt proiectați conform standardului EN 12965:2019, relevant pentru siguranța transmisiei principale de putere la utilajele agricole.
+Ce diferențiază Walterscheid de alți producători de transmisii cardanice este acoperirea completă a lanțului mecanic dintre tractor și utilajul acționat: de la sistemul ULTRA.PLUS la cutiile de viteze ICVD®, produse de Walterscheid Getriebe GmbH. Arborii cardanici sunt proiectați conform standardului EN 12965:2019, relevant pentru siguranța transmisiei principale de putere la utilajele agricole.
 
 Pentru România, gama Walterscheid are sens la ferme și service-uri de utilaje agricole unde un arbore cardanic sau o cuplă de siguranță trebuie înlocuită conform specificațiilor originale ale tractorului sau utilajului acționat.`,
     whyChoose: [
       "Gamă completă de transmisii cardanice și cuple de siguranță, proiectată conform EN 12965:2019",
-      "Sistem propriu de îmbinare ULTRA.PLUS pentru asamblarea rapidă a componentelor arborelui",
-      "Cutii de viteze ICVD® pentru reglarea vitezei prizei de putere direct la utilaj",
+      "Sistem propriu ULTRA.PLUS în gama de transmisii cardanice",
+      "Cutii de viteze ICVD® produse de Walterscheid Getriebe GmbH pentru utilaje agricole, de construcții și speciale",
       "Acoperire completă a sistemelor de atașare tractor — brațe, stabilizatoare, cuple de remorcare",
       "Parte din Comer Industries, grup specializat în soluții de transmisie pentru utilaje mobile",
     ],
@@ -81,7 +81,7 @@ Pentru România, gama Walterscheid are sens la ferme și service-uri de utilaje 
       { name: "Arbori Cardanici Compleți și pe Jumătăți", description: "Transmisii cardanice pentru preluarea puterii de la priza tractorului la utilajul acționat, proiectate conform EN 12965:2019. Clientul trebuie să trimită modelul tractorului și al utilajului pentru identificarea lungimii și a tipului de îmbinare." },
       { name: "Cuple de Siguranță (bolț radial, camă, bolț de forfecare, fricțiune)", description: "Familie de cuple pentru protecția transmisiei la suprasarcină, fiecare cu principiu diferit de decuplare. Alegerea depinde de cuplul de rupere necesar și de tipul utilajului acționat." },
       { name: "Sisteme de Atașare Tractor", description: "Brațe superioare și inferioare, sisteme de stabilizare pentru cuplarea utilajelor purtate la tractor, dimensionate după categoria de atașare a tractorului." },
-      { name: "Cutii de Viteze ICVD®", description: "Cutii de viteze pentru reglarea vitezei prizei de putere, montate între tractor și utilajul acționat, unde e nevoie de o turație diferită de cea standard." },
+      { name: "Cutii de Viteze ICVD®", description: "Cutii de viteze produse de Walterscheid Getriebe GmbH pentru utilaje agricole, de construcții și speciale. Funcția și configurația se confirmă din documentația producătorului." },
     ],
     industries: [
       "Agricultură — transmisii cardanice pentru utilaje purtate și tractate",
@@ -92,9 +92,9 @@ Pentru România, gama Walterscheid are sens la ferme și service-uri de utilaje 
     infinitrade: `Furnizăm arbori cardanici, cuple de siguranță și componente de atașare Walterscheid la comandă, prin canale de aprovizionare din Uniunea Europeană. Termenul orientativ este de 1–4 săptămâni, în funcție de confirmarea codului la producător — nu avem date proprii despre stocul curent al unei componente anume. Pentru identificarea corectă a arborelui sau a cuplei avem nevoie de modelul tractorului, al utilajului acționat și, dacă e posibil, de codul componentei existente. Lucrăm cu informațiile publicate de producător, iar disponibilitatea fiecărei variante din gamă se confirmă punctual, nu e permanentă.`,
     limitation: "Nu confirmăm echivalența exactă pentru fiecare tip vechi de arbore cardanic fără codul componentei originale.",
     productCodes: [
-      { code: "Gelenkwelle Komplett", description: "Arbore cardanic complet, montat între tractor și utilaj" },
-      { code: "Gelenkwelle Hälfte", description: "Jumătate de arbore cardanic, pentru înlocuire parțială" },
-      { code: "ULTRA.PLUS", description: "Sistem de îmbinare rapidă a componentelor arborelui" },
+      { code: "Arbore cardanic complet", description: "Arbore cardanic complet, montat între tractor și utilaj" },
+      { code: "Jumătate de arbore cardanic", description: "Jumătate de arbore cardanic, pentru înlocuire parțială" },
+      { code: "ULTRA.PLUS", description: "Sistem ULTRA.PLUS din gama de transmisii cardanice" },
       { code: "Radial Pin Clutch", description: "Cuplă de siguranță cu bolț radial" },
       { code: "Cam Type Clutch", description: "Cuplă de siguranță cu came" },
       { code: "Shear Bolt Clutch", description: "Cuplă de siguranță cu bolț de forfecare" },
@@ -106,18 +106,18 @@ Pentru România, gama Walterscheid are sens la ferme și service-uri de utilaje 
       { code: "Stabilisation System", description: "Sistem de stabilizare pentru utilaje purtate" },
       { code: "Bolt Hitch", description: "Cuplă de remorcare cu bolț" },
       { code: "Coupling Ball", description: "Cuplă de remorcare cu bilă" },
-      { code: "ICVD Gearbox", description: "Cutie de viteze pentru reglarea turației prizei de putere" },
+      { code: "ICVD Gearbox", description: "Cutie de viteze ICVD®" },
     ],
     faq: [
       { q: "Ce produce Walterscheid?", a: "Walterscheid produce transmisii cardanice, cuple de siguranță și sisteme de atașare pentru tractoare și utilaje agricole, parte azi din grupul Comer Industries. Gama acoperă arbori compleți sau pe jumătăți, mai multe tipuri de cuple de siguranță și componente pentru cuplarea utilajelor purtate sau tractate." },
-      { q: "Cum aleg cupla de siguranță Walterscheid potrivită?", a: "Alegerea depinde de cuplul de rupere necesar și de comportamentul dorit la suprasarcină: cuplă cu bolț radial sau de forfecare pentru decuplare bruscă, cuplă cu fricțiune pentru alunecare progresivă, cuplă tip roată liberă pentru inerție. Trimite-ne modelul utilajului acționat pentru identificarea variantei corecte." },
+      { q: "Cum aleg cupla de siguranță Walterscheid potrivită?", a: "Alegerea depinde de cuplul de rupere necesar și de comportamentul dorit la suprasarcină: tipurile disponibile sunt cuplă cu bolț radial, cu came, cu bolț de forfecare, cu fricțiune sau tip roată liberă. Vă rugăm să ne transmiteți modelul utilajului acționat pentru identificarea variantei corecte." },
       { q: "Livrați piese Walterscheid în România și cât durează?", a: "Da, aducem componentele la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Nu ținem arbori cardanici sau cuple pe raft, iar termenul exact depinde de disponibilitatea la fabrică." },
-      { q: "Ce informații trebuie să trimit pentru o ofertă Walterscheid?", a: "Ai nevoie să ne trimiți modelul tractorului, modelul utilajului acționat, lungimea aproximativă a arborelui existent și, dacă îl ai, codul componentei originale. Cu aceste date verificăm varianta potrivită din gama Walterscheid și trimitem cererea către canalul de aprovizionare." },
+      { q: "Ce informații trebuie să trimit pentru o ofertă Walterscheid?", a: "Este nevoie de modelul tractorului, modelul utilajului acționat, lungimea aproximativă a arborelui existent și, dacă este disponibil, codul componentei originale. Cu aceste date verificăm varianta potrivită din gama Walterscheid și trimitem cererea către canalul de aprovizionare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Walterscheid — Home", url: "https://www.walterscheid.com", publisher: "Walterscheid GmbH", accessed: "2026-09-22" },
       { title: "Products — Walterscheid", url: "https://www.walterscheid.com/en/products/", publisher: "Walterscheid GmbH", accessed: "2026-09-22" },
@@ -128,21 +128,21 @@ Pentru România, gama Walterscheid are sens la ferme și service-uri de utilaje 
     headquarters: "Güglingen, Germania",
     overview: `Weber-Hydraulik este un producător german de cilindri hidraulici cu peste 85 de ani de activitate, cu sediul la Güglingen și fabrici suplimentare la Reichenau, Wörth an der Isar (Germania), Losenstein (Austria) și Wykroty (Polonia). Gama de cilindri acoperă aplicații de șasiu, suspensie, direcție și tensionare pentru utilaje mobile — de la combine forestiere la macarale mobile și utilaje de deszăpezire. Fiecare model este identificat printr-un cod propriu de tip HZ, asociat unei aplicații specifice.
 
-Ce diferențiază Weber-Hydraulik este specializarea pe cilindri dedicați fiecărui tip de utilaj mobil, nu doar cilindri hidraulici generici: cilindri de direcție pentru tractoare, încărcătoare frontale, autobasculante și macarale mobile, cilindri de suspensie cu acumulator de piston integrat pentru mașini de stropit câmpuri, cilindri de tensionare a lanțului pentru mașini de bătătorit zăpadă și cilindri de ajustare a ecartamentului pentru macarale pe șenile. Compania a obținut recent certificarea ISO/SAE 21434 pentru securitate cibernetică și TISAX pentru protecția informației, semn al orientării spre utilaje conectate electronic.
+Ce diferențiază Weber-Hydraulik este specializarea pe cilindri dedicați fiecărui tip de utilaj mobil, nu doar cilindri hidraulici generici: cilindri de direcție pentru tractoare, încărcătoare frontale, autobasculante și macarale mobile, cilindri de suspensie cu acumulator de piston integrat pentru mașini de stropit câmpuri, cilindri de tensionare a lanțului pentru mașini de bătătorit zăpadă și cilindri de ajustare a ecartamentului pentru macarale pe șenile. Pe site-ul propriu, compania menționează ISO/SAE 21434 (securitate cibernetică în vehiculele rutiere) și TISAX (securitatea informației în industria auto).
 
 Pentru România, gama Weber-Hydraulik are sens la producătorii și service-urile de utilaje agricole, forestiere și de construcții care au nevoie de un cilindru de schimb identificat după codul original al utilajului.`,
     whyChoose: [
       "Peste 85 de ani de experiență în proiectarea de cilindri hidraulici pentru utilaje mobile",
       "Cilindri dedicați pe aplicație — direcție, suspensie, tensionare — nu doar cilindri generici",
       "Rețea de producție în Germania, Austria și Polonia, cu acoperire pentru mai multe segmente de utilaje",
-      "Certificare ISO/SAE 21434 pentru securitate cibernetică, relevantă pentru utilaje conectate",
+      "ISO/SAE 21434 (securitate cibernetică în vehiculele rutiere) și TISAX, menționate pe site-ul producătorului",
       "Cod de tip propriu (seria HZ) pentru fiecare model, util la identificarea piesei de schimb",
     ],
     keyProducts: [
       { name: "Cilindri de Direcție (seria HZ009–HZ014)", description: "Cilindri hidraulici de direcție pentru tractoare, mașini de stropit câmpuri, încărcătoare frontale și autobasculante. Clientul trebuie să confirme cursa și diametrul tijei pentru identificarea codului exact." },
       { name: "Cilindri de Șasiu (seria HZ001–HZ002)", description: "Cilindri pentru mecanismele de șasiu ale combinelor forestiere și ale stivuitoarelor cu conducător pieton." },
       { name: "Cilindri de Suspensie cu Acumulator (seria HZ003–HZ005)", description: "Cilindri de suspensie cu piston acumulator integrat, pentru mașini de stropit câmpuri și alte utilaje agricole." },
-      { name: "Cilindri de Tensionare și Ajustare (seria HZ007, HZ016, HZ017)", description: "Cilindri pentru tensionarea lanțului la mașinile de bătătorit zăpadă și pentru ajustarea ecartamentului la macarale pe șenile." },
+      { name: "Cilindri de Tensionare și Ajustare (seria HZ007 și HZ017)", description: "Cilindri pentru tensionarea lanțului la mașinile de bătătorit zăpadă și pentru ajustarea ecartamentului la macarale pe șenile." },
     ],
     industries: [
       "Agricultură — cilindri de direcție și suspensie pentru tractoare și mașini de stropit",
@@ -173,14 +173,14 @@ Pentru România, gama Weber-Hydraulik are sens la producătorii și service-uril
     ],
     faq: [
       { q: "Ce produce Weber-Hydraulik?", a: "Weber-Hydraulik produce cilindri hidraulici dedicați aplicațiilor de direcție, suspensie, șasiu și tensionare pentru utilaje mobile — tractoare, macarale, combine forestiere, mașini de deszăpezire. Fiecare model are un cod propriu de tip (seria HZ), asociat unei aplicații și unui utilaj specific." },
-      { q: "Cum identific cilindrul Weber-Hydraulik corect pentru utilajul meu?", a: "Cel mai simplu e după codul de tip vizibil pe cilindrul existent, de forma HZ urmat de un număr. Dacă nu îl ai, trimite-ne modelul și marca utilajului, diametrul tijei și cursa cilindrului, iar noi verificăm varianta corespunzătoare în gama producătorului." },
+      { q: "Cum identific cilindrul Weber-Hydraulik corect pentru utilajul meu?", a: "Cel mai simplu este după codul de tip vizibil pe cilindrul existent, de forma HZ urmat de un număr. Dacă acesta nu este vizibil, vă rugăm să ne transmiteți modelul și marca utilajului, diametrul tijei și cursa cilindrului, iar noi verificăm varianta corespunzătoare în gama producătorului." },
       { q: "Livrați cilindri Weber-Hydraulik în România și cât durează?", a: "Da, aducem cilindrii la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Nu ținem această gamă pe raft, iar termenul depinde de disponibilitatea reală la fabrică." },
-      { q: "Ce trebuie să trimit pentru o ofertă de cilindru Weber-Hydraulik?", a: "Ai nevoie să ne trimiți codul de tip HZ dacă îl vezi pe cilindru, sau diametrul tijei, cursa, presiunea de lucru și tipul utilajului pe care se montează. Cu aceste date căutăm codul potrivit din gamă și trimitem cererea către canalul de aprovizionare din Uniunea Europeană." },
+      { q: "Ce trebuie să trimit pentru o ofertă de cilindru Weber-Hydraulik?", a: "Este nevoie de codul de tip HZ, dacă este vizibil pe cilindru, sau de diametrul tijei, cursa, presiunea de lucru și tipul utilajului pe care se montează. Cu aceste date căutăm codul potrivit din gamă și trimitem cererea către canalul de aprovizionare din Uniunea Europeană." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Weber-Hydraulik — Home", url: "https://www.weber-hydraulik.com", publisher: "Weber-Hydraulik GmbH", accessed: "2026-09-22" },
       { title: "Products — Weber-Hydraulik", url: "https://www.weber-hydraulik.com/en/products/", publisher: "Weber-Hydraulik GmbH", accessed: "2026-09-22" },
@@ -190,7 +190,7 @@ Pentru România, gama Weber-Hydraulik are sens la producătorii și service-uril
     name: "Zimmer Group",
     founded: 1980,
     headquarters: "Germania",
-    overview: `Zimmer Group este un producător german de gripere, module de strângere și tehnologie de amortizare pentru automatizare industrială, cu primele produse fabricate în 1980 și astăzi peste 1.300 de angajați. Gama pentru manipulare acoperă gripere paralele cu două bacuri (seriile GEH6000IL, GPP5000, GH6000, GEP2000, REP2000) și gripere centrice cu trei bacuri (GED6000IL, GPD5000, GD, GD300, MGD800). Compania se descrie ca având prezență în peste 125 de țări prin cele 20 de domenii tehnologice ale grupului.
+    overview: `Zimmer Group este un producător german de gripere, module de strângere și tehnologie de amortizare pentru automatizare industrială, cu primele produse fabricate în 1980 și astăzi peste 1.300 de angajați. Gama pentru manipulare acoperă gripere paralele cu două bacuri (seriile GEH6000IL, GPP5000, GH6000, GEP2000, REP2000) și gripere centrice cu trei bacuri (GED6000IL, GPD5000, GD, GD300, MGD800). Compania se descrie ca având prezență în peste 125 de țări prin rețeaua de vânzări și ca activă în 20 de domenii tehnologice.
 
 Ce diferențiază Zimmer Group de alți producători de componente pentru automatizare este combinația dintre gripere, amortizoare industriale și module de strângere sub un singur brand: seria PowerStop (variante Mini, Standard, Adjustable și High Energy) pentru amortizarea impactului la roboți și axe liniare, respectiv seria BasicStop (axială și radială) pentru amortizare de bază. Modulele de strângere și frânare (DKPS1000, MKS, MiniHK, UBPS, RBPS, CBPS) completează gama pentru fixarea și blocarea axelor în aplicații de manipulare.
 
@@ -199,13 +199,13 @@ Pentru România, gama Zimmer Group are sens la integratorii de linii de automati
       "Gamă combinată de gripere, amortizoare și module de strângere sub un singur brand german",
       "Peste patru decenii de fabricație proprie, cu prezență declarată în peste 125 de țări",
       "Serii de gripere atât paralele (2 bacuri), cât și centrice (3 bacuri), pentru majoritatea aplicațiilor de manipulare",
-      "Familie PowerStop cu patru clase de energie de amortizare, de la mini la aplicații de mare energie",
+      "Familie PowerStop de amortizoare, în variantele Mini, Standard, Adjustable și High Energy",
       "Module de strângere și frânare dedicate pentru blocarea axelor liniare în automatizare",
     ],
     keyProducts: [
       { name: "Gripere Paralele Seria GEP2000 / GPP5000 / GH6000 / GEH6000IL", description: "Gripere cu două bacuri pentru prinderea pieselor în aplicații de manipulare și asamblare. Clientul trebuie să confirme forța de prindere necesară și cursa bacurilor." },
       { name: "Gripere Centrice Seria GD / GD300 / GPD5000 / GED6000IL / MGD800", description: "Gripere cu trei bacuri, centrare automată a piesei, pentru aplicații unde poziționarea repetabilă contează. Necesită confirmarea diametrului piesei și a forței de prindere." },
-      { name: "Amortizoare PowerStop (Mini, Standard, Adjustable, High Energy)", description: "Amortizoare industriale pentru reducerea impactului la axe liniare și roboți, în patru clase de energie absorbită. Alegerea depinde de masa mobilă și viteza de impact." },
+      { name: "Amortizoare PowerStop (Mini, Standard, Adjustable, High Energy)", description: "Amortizoare industriale pentru reducerea impactului la axe liniare și roboți, în variantele Mini, Standard, Adjustable și High Energy. Alegerea depinde de masa mobilă și viteza de impact." },
       { name: "Module de Strângere Seria DKPS1000 / MKS / RBPS / CBPS", description: "Module pentru fixarea și frânarea axelor liniare în poziții de lucru, folosite acolo unde o axă trebuie blocată mecanic în timpul procesării." },
     ],
     industries: [
@@ -216,19 +216,19 @@ Pentru România, gama Zimmer Group are sens la integratorii de linii de automati
       "Life science — gripere de precizie pentru aplicații de laborator",
       "Electronică — manipulare componente mici cu gripere centrice",
     ],
-    infinitrade: `Furnizăm gripere, amortizoare și module de strângere Zimmer Group la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Ne bazăm pe informațiile publice de pe site-ul Zimmer Group pentru identificarea seriei potrivite și nu deținem date proprii despre stocul curent al vreunui model. Pentru o ofertă corectă avem nevoie de forța de prindere sau energia de amortizare necesară, cursa sau diametrul piesei manipulate și tipul de montaj pe robot sau axă. Disponibilitatea fiecărui cod din gamă se verifică punctual la producător, fără promisiune de disponibilitate imediată garantată.`,
+    infinitrade: `Furnizăm gripere, amortizoare și module de strângere Zimmer Group la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Ne bazăm pe informațiile publice de pe site-ul Zimmer Group pentru identificarea seriei potrivite și nu deținem date proprii despre stocul curent al vreunui model. Pentru o ofertă corectă avem nevoie de forța de prindere sau energia de amortizare necesară, cursa sau diametrul piesei manipulate și tipul de montaj pe robot sau axă. Disponibilitatea fiecărui cod din gamă se verifică punctual la producător, fără promisiune de disponibilitate imediată.`,
     limitation: "Nu confirmăm stoc pentru un cod Zimmer Group anume și nu configurăm software-ul propriu de control al griperelor.",
     productCodes: [
-      { code: "GEH6000IL", description: "Gripper paralel cu două bacuri, seria industrială" },
+      { code: "GEH6000IL", description: "Gripper paralel cu două bacuri" },
       { code: "GPP5000", description: "Gripper paralel pneumatic, aplicații de manipulare" },
-      { code: "GH6000", description: "Gripper paralel, seria de bază" },
+      { code: "GH6000", description: "Gripper paralel" },
       { code: "GEP2000", description: "Gripper paralel compact, două bacuri" },
-      { code: "REP2000", description: "Gripper paralel cu modul de rotire integrat" },
-      { code: "GED6000IL", description: "Gripper centric cu trei bacuri, seria industrială" },
+      { code: "REP2000", description: "Gripper din gama Zimmer Group" },
+      { code: "GED6000IL", description: "Gripper centric cu trei bacuri" },
       { code: "GPD5000", description: "Gripper centric pneumatic, trei bacuri" },
-      { code: "GD", description: "Gripper centric, seria de bază" },
-      { code: "GD300", description: "Gripper centric compact, piese mici" },
-      { code: "MGD800", description: "Mini-gripper centric pentru piese de dimensiuni reduse" },
+      { code: "GD", description: "Gripper centric" },
+      { code: "GD300", description: "Gripper centric" },
+      { code: "MGD800", description: "Gripper centric, seria MGD800" },
       { code: "PowerStop Mini Energy", description: "Amortizor industrial, clasă de energie redusă" },
       { code: "PowerStop Standard Energy", description: "Amortizor industrial, clasă de energie standard" },
       { code: "PowerStop Adjustable Energy", description: "Amortizor industrial cu energie de absorbție reglabilă" },
@@ -237,21 +237,21 @@ Pentru România, gama Zimmer Group are sens la integratorii de linii de automati
       { code: "BasicStop Radial", description: "Amortizor radial de bază" },
       { code: "DKPS1000", description: "Modul de strângere pentru fixarea axelor liniare" },
       { code: "MKS", description: "Modul de strângere, seria de bază" },
-      { code: "MiniHK", description: "Modul de strângere miniatural" },
-      { code: "UBPS", description: "Modul de frânare/strângere universal" },
+      { code: "MiniHK", description: "Modul de strângere" },
+      { code: "UBPS", description: "Modul de frânare/strângere" },
       { code: "RBPS", description: "Modul de frânare radial" },
-      { code: "CBPS", description: "Modul de strângere compact, generație nouă" },
+      { code: "CBPS", description: "Modul de strângere" },
     ],
     faq: [
-      { q: "Ce produce Zimmer Group?", a: "Zimmer Group produce gripere pneumatice paralele și centrice, amortizoare industriale din familia PowerStop și BasicStop, plus module de strângere și frânare pentru axe liniare, destinate automatizării industriale — manipulare, asamblare și ambalare pe linii robotizate." },
-      { q: "Cum aleg griperul Zimmer Group potrivit pentru aplicația mea?", a: "Diferența principală e numărul de bacuri: griperele paralele (GEP2000, GPP5000, GH6000) au două bacuri, iar cele centrice (GD, GD300, GPD5000, MGD800) au trei bacuri și centrează automat piesa. Trimite-ne forța de prindere necesară și diametrul sau dimensiunea piesei pentru identificarea codului corect." },
-      { q: "Ce diferență este între seriile PowerStop și BasicStop de la Zimmer Group?", a: "PowerStop acoperă patru clase de energie de amortizare, de la Mini la High Energy, pentru aplicații cu impact variabil, în timp ce BasicStop e gama de bază, disponibilă în variante axială și radială. Alegerea depinde de masa mobilă și viteza de impact a aplicației." },
+      { q: "Ce produce Zimmer Group?", a: "Zimmer Group produce gripere paralele și centrice (pneumatice și electrice), amortizoare industriale din familia PowerStop și BasicStop, plus module de strângere și frânare pentru axe liniare, destinate automatizării industriale — manipulare, asamblare și ambalare pe linii robotizate." },
+      { q: "Cum aleg griperul Zimmer Group potrivit pentru aplicația mea?", a: "Diferența principală e numărul de bacuri: griperele paralele (GEP2000, GPP5000, GH6000) au două bacuri, iar cele centrice (GD, GD300, GPD5000, MGD800) au trei bacuri și centrează automat piesa. Vă rugăm să ne transmiteți forța de prindere necesară și diametrul sau dimensiunea piesei pentru identificarea codului corect." },
+      { q: "Ce diferență este între seriile PowerStop și BasicStop de la Zimmer Group?", a: "PowerStop include variantele Mini, Standard, Adjustable și High Energy, în timp ce BasicStop e gama de bază, disponibilă în variante axială și radială. Alegerea depinde de masa mobilă și viteza de impact a aplicației." },
       { q: "Livrați gripere Zimmer Group în România și cât durează?", a: "Da, aducem la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Nu ținem gripere sau amortizoare Zimmer Group pe raft." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Zimmer Group — Home", url: "https://www.zimmer-group.com", publisher: "Zimmer Group", accessed: "2026-09-22" },
       { title: "Company — Zimmer Group", url: "https://www.zimmer-group.com/en/company", publisher: "Zimmer Group", accessed: "2026-09-22" },
@@ -259,23 +259,23 @@ Pentru România, gama Zimmer Group are sens la integratorii de linii de automati
   },
   eagleburgmann: {
     name: "EagleBurgmann",
-    overview: `EagleBurgmann este un producător german de etanșări mecanice pentru pompe, compresoare, agitatoare și turbomașini, rezultat din alianța dintre Freudenberg (Germania) și EKK Group (Japonia). Grupul declară aproximativ 5.800 de angajați, peste 45.000 de clienți și 48 de filiale cu 89 de centre de service la nivel mondial. Gama de etanșări mecanice pentru pompe include familiile AD510/AD520, AGSR, AGSZ, AX05, AX25, AX40K, B800 și seria BT (BT-A2, BT-AR, BT-ARP, BT-C5E, BT-C7, BT-C8.KU, BT-FH, BT-FH.NB, BT-FN), completate de cartușele Cartex, Cartex ANSI și eCartex.
+    overview: `EagleBurgmann este un producător german de etanșări mecanice pentru pompe, compresoare, agitatoare și turbomașini, rezultat din alianța dintre Freudenberg (Germania) și EKK Group (Japonia). Grupul declară peste 5.650 de angajați, peste 45.000 de clienți, peste 48 de filiale și peste 250 de locații de service și vânzări în 86 de țări. Gama de etanșări mecanice pentru pompe include familiile AD510/AD520, AGSR, AGSZ, AX05, AX25, AX40K, B800 și seria BT (BT-A2, BT-AR, BT-ARP, BT-C5E, BT-C7, BT-C8.KU, BT-FH, BT-FH.NB, BT-FN), completate de cartușele Cartex, Cartex ANSI și eCartex.
 
-Ce diferențiază EagleBurgmann de alți producători de etanșări mecanice, precum Flowserve, este acoperirea aplicațiilor speciale în același portofoliu: CobaSeal pentru separarea gazelor la turbomașini, CobaDGS pentru compresoare centrifuge cu emisii de metan reduse la zero, HSMR34 și SeccoMix R pentru agitatoare și mixere, respectiv seria Espey WKA1200-Cartridge cu etanșare flotantă din carbon și funcție plug-and-run. SeccoLip completează gama cu compensare de deflexie a arborelui pentru aplicații cu abateri mecanice mai mari.
+Portofoliul EagleBurgmann include și aplicații speciale: CobaSeal pentru separarea gazelor la turbomașini, CobaDGS, soluție „Zero Emission” pentru compresoare centrifuge, HSMR34 și SeccoMix R pentru agitatoare și mixere, respectiv seria Espey WKA1200-Cartridge. SeccoLip completează gama; detaliile tehnice le confirmăm pe cod, din documentația producătorului.
 
 Pentru România, gama EagleBurgmann are sens la rafinării, platforme petrochimice, stații de tratare a apei și fabrici de procesare unde o etanșare mecanică standard trebuie înlocuită după codul original al pompei, compresorului sau agitatorului.`,
     whyChoose: [
       "Portofoliu larg de etanșări mecanice pentru pompe, compresoare, agitatoare și turbomașini, sub un singur brand",
-      "Familii dedicate pentru aplicații speciale — separare gaze (CobaSeal), emisii reduse de metan (CobaDGS)",
-      "Rețea globală de 48 de filiale și 89 de centre de service, utilă pentru piese de schimb identificate rapid",
+      "Familii dedicate pentru aplicații speciale — separare gaze (CobaSeal), emisii zero (CobaDGS)",
+      "Rețea globală de peste 48 de filiale și peste 250 de locații de service și vânzări",
       "Soluții specifice pentru agitatoare și mixere (HSMR34, SeccoMix R), nu doar pentru pompe centrifuge",
       "Cartușe de etanșare (Cartex, eCartex) pentru montaj simplificat, fără reglaj manual la instalare",
     ],
     keyProducts: [
       { name: "Etanșări Mecanice Seria BT (BT-A2, BT-AR, BT-ARP, BT-C5E, BT-C7, BT-FH)", description: "Familie de etanșări mecanice pentru pompe industriale, cu variante pentru diverse tipuri de carcasă și condiții de proces. Clientul trebuie să confirme codul pompei și mediul pompat." },
       { name: "Cartușe de Etanșare Cartex / Cartex ANSI / eCartex", description: "Etanșări mecanice tip cartuș, preasamblate pentru montaj rapid, disponibile în variante simple sau duble, inclusiv pentru pompe conform standard ANSI." },
-      { name: "CobaSeal — Etanșare de Separare pentru Turbomașini", description: "Etanșare de separare a gazelor pentru turbomașini, gândită pentru protecție maximă la consum minim de gaz de etanșare." },
-      { name: "CobaDGS — Etanșare Uscată pentru Compresoare Centrifuge", description: "Soluție de etanșare cu emisii de metan reduse la zero pentru compresoare centrifuge, relevantă în aplicații cu cerințe stricte de mediu." },
+      { name: "CobaSeal — Etanșare de Separare pentru Turbomașini", description: "Etanșare de separare a gazelor pentru turbomașini." },
+      { name: "CobaDGS — Etanșare Uscată pentru Compresoare Centrifuge", description: "Soluție de etanșare „Zero Emission” pentru compresoare centrifuge, relevantă în aplicații cu cerințe stricte de mediu." },
       { name: "HSMR34 și SeccoMix R — Etanșări pentru Agitatoare și Mixere", description: "Etanșări mecanice dedicate agitatoarelor și mixerelor industriale, unde arborele lucrează adesea în regim de mișcare variabilă." },
     ],
     industries: [
@@ -310,22 +310,22 @@ Pentru România, gama EagleBurgmann are sens la rafinării, platforme petrochimi
       { code: "CobaDGS", description: "Etanșare uscată pentru compresoare centrifuge" },
       { code: "Cartex", description: "Cartuș de etanșare mecanică, montaj rapid" },
       { code: "Cartex ANSI", description: "Cartuș de etanșare mecanică, standard ANSI" },
-      { code: "eCartex", description: "Cartuș de etanșare mecanică, generație electronică" },
+      { code: "eCartex", description: "Cartuș de etanșare mecanică din familia Cartex" },
       { code: "HSMR34", description: "Etanșare mecanică pentru agitatoare și mixere" },
       { code: "SeccoMix R", description: "Etanșare mecanică pentru mixere industriale" },
-      { code: "SeccoLip", description: "Etanșare cu compensare de deflexie a arborelui" },
-      { code: "Espey WKA1200-Cartridge", description: "Etanșare flotantă din carbon, funcție plug-and-run" },
+      { code: "SeccoLip", description: "Etanșare mecanică din gama EagleBurgmann" },
+      { code: "Espey WKA1200-Cartridge", description: "Etanșare cartuș din gama EagleBurgmann" },
     ],
     faq: [
       { q: "Ce produce EagleBurgmann?", a: "EagleBurgmann produce etanșări mecanice pentru pompe, compresoare, agitatoare și turbomașini, rezultat al alianței dintre Freudenberg și EKK Group. Gama include familii standard (AD, AX, BT), cartușe preasamblate (Cartex, eCartex) și soluții speciale pentru separare de gaze sau emisii reduse de metan." },
-      { q: "Cum aleg etanșarea EagleBurgmann potrivită pentru pompa mea?", a: "Cel mai sigur reper e codul original al etanșării existente sau al pompei. Dacă nu îl ai, trimite-ne diametrul arborelui, presiunea și temperatura de lucru și mediul pompat, iar noi identificăm familia potrivită — AD, AX, BT sau un cartuș Cartex — din gama EagleBurgmann." },
-      { q: "Ce diferență este între CobaSeal și CobaDGS de la EagleBurgmann?", a: "CobaSeal e o etanșare de separare a gazelor pentru turbomașini, gândită pentru protecție maximă cu consum redus de gaz de etanșare, în timp ce CobaDGS e o soluție uscată dedicată compresoarelor centrifuge, cu emisii de metan reduse la zero. Alegerea depinde de tipul echipamentului și de cerințele de mediu ale instalației." },
+      { q: "Cum aleg etanșarea EagleBurgmann potrivită pentru pompa mea?", a: "Cel mai sigur reper e codul original al etanșării existente sau al pompei. Dacă nu îl aveți, trimiteți-ne diametrul arborelui, presiunea și temperatura de lucru și mediul pompat, iar noi identificăm familia potrivită — AD, AX, BT sau un cartuș Cartex — din gama EagleBurgmann." },
+      { q: "Ce diferență este între CobaSeal și CobaDGS de la EagleBurgmann?", a: "CobaSeal e o etanșare de separare a gazelor pentru turbomașini, în timp ce CobaDGS e o soluție uscată („Zero Emission”) dedicată compresoarelor centrifuge. Alegerea depinde de tipul echipamentului și de cerințele de mediu ale instalației." },
       { q: "Livrați etanșări EagleBurgmann în România și cât durează?", a: "Da, aducem etanșările la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Nu ținem această gamă pe raft, iar termenul exact depinde de disponibilitate." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "EagleBurgmann — Home", url: "https://www.eagleburgmann.com/en/", publisher: "EagleBurgmann", accessed: "2026-09-22" },
       { title: "Mechanical Seals — EagleBurgmann", url: "https://www.eagleburgmann.com/en/products/mechanical-seals", publisher: "EagleBurgmann", accessed: "2026-09-22" },
@@ -336,7 +336,7 @@ Pentru România, gama EagleBurgmann are sens la rafinării, platforme petrochimi
     headquarters: "Metzingen, Germania",
     overview: `Gutekunst Federn este un producător german de arcuri metalice, cu sediul la Metzingen și un catalog propriu de peste 12.600 de arcuri standard, disponibile pentru livrare din propria producție. Gama acoperă arcuri de compresiune și de tracțiune, atât în variantă standard, cât și "endless" (bandă continuă din care se taie lungimea dorită), arcuri de torsiune simple și duble, inele de siguranță pentru alezaj și arcuri conice de compresiune și tracțiune pentru aplicații cu spațiu axial redus.
 
-Ce diferențiază Gutekunst Federn de alți furnizori de arcuri este completarea gamei standard cu piese din sârmă formată: bucșe simple și duble cu arc integrat, spirale de protecție pentru cabluri și furtunuri (seria 1400-1440), cleme de siguranță, arcuri de bară de tracțiune, inele de ax și arcuri de tip garter pentru interblocare. Compania vinde exclusiv către clienți profesionali (B2B), fără vânzare către persoane fizice, și deservește sectoare de la construcția de mașini la tehnica medicală și construcția de aeronave.
+Gama standard este completată cu piese din sârmă formată: spirale de protecție pentru cabluri și furtunuri (seria 1400-1440), inele de alezaj, inele de ax și cleme de siguranță. Compania vinde exclusiv către clienți profesionali (B2B), fără vânzare către persoane fizice, și deservește sectoare de la construcția de mașini la tehnica medicală și construcția de aeronave.
 
 Pentru România, gama Gutekunst Federn are sens la ateliere de mentenanță și producători de echipamente care au nevoie de un arc de compresiune, tracțiune sau torsiune identificat după dimensiune, fără a aștepta un lot minim de fabricație personalizată.`,
     whyChoose: [
@@ -344,7 +344,7 @@ Pentru România, gama Gutekunst Federn are sens la ateliere de mentenanță și 
       "Variante «endless» pentru arcuri de compresiune și tracțiune, tăiate la lungimea cerută",
       "Gamă completă de piese din sârmă formată — bucșe, spirale de protecție, cleme de siguranță",
       "Orientare exclusiv B2B, cu focus pe industrie, nu pe vânzare cu amănuntul",
-      "Acoperire pe sectoare exigente — tehnică medicală, construcția de aeronave, construcția navală",
+      "Acoperire pe sectoare exigente — tehnică medicală, construcția de aeronave",
     ],
     keyProducts: [
       { name: "Arcuri de Compresiune (standard, endless, conice)", description: "Arcuri elicoidale de compresiune din catalogul standard, disponibile și în variantă conică pentru spații axiale reduse. Clientul trebuie să confirme diametrul, lungimea liberă și forța necesară." },
@@ -357,7 +357,7 @@ Pentru România, gama Gutekunst Federn are sens la ateliere de mentenanță și 
       "Industria electrică — arcuri de contact și piese din sârmă formată",
       "Industria auto — arcuri standard pentru subansamble",
       "Tehnică medicală — arcuri de precizie pentru dispozitive",
-      "Construcția de aeronave și nave — arcuri și piese din sârmă pentru aplicații critice",
+      "Construcția de aeronave — arcuri și piese din sârmă pentru aplicații critice",
       "Instrumente de măsură — arcuri de precizie pentru mecanisme fine",
     ],
     infinitrade: `Furnizăm arcuri Gutekunst Federn la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea în catalogul producătorului la momentul comenzii. Ne bazăm pe informațiile publice din catalogul Gutekunst Federn pentru identificarea dimensiunii potrivite, fără date proprii despre stocul curent al unui arc anume. Pentru o ofertă corectă avem nevoie de diametrul exterior, lungimea liberă, diametrul sârmei și forța sau cuplul dorit. Disponibilitatea fiecărei dimensiuni din catalog se confirmă punctual, la momentul comenzii.`,
@@ -372,28 +372,28 @@ Pentru România, gama Gutekunst Federn are sens la ateliere de mentenanță și 
       { code: "Torsion Springs", description: "Arcuri de torsiune simple" },
       { code: "Double Torsion Springs", description: "Arcuri de torsiune duble, cuplu mai mare" },
       { code: "Bore Rings", description: "Inele de siguranță pentru alezaj" },
-      { code: "Single Spring Plug", description: "Bucșă simplă cu arc integrat" },
-      { code: "Double Spring Plug", description: "Bucșă dublă cu arc integrat" },
+      { code: "Single Spring Plug", description: "Piesă din sârmă formată din catalogul producătorului" },
+      { code: "Double Spring Plug", description: "Piesă din sârmă formată din catalogul producătorului" },
       { code: "Protection Coil 1400", description: "Spirală de protecție pentru cabluri și furtunuri" },
       { code: "Protection Coil 1410", description: "Spirală de protecție, variantă dimensională 1410" },
       { code: "Protection Coil 1420", description: "Spirală de protecție, variantă dimensională 1420" },
       { code: "Protection Coil 1430", description: "Spirală de protecție, variantă dimensională 1430" },
       { code: "Protection Coil 1440", description: "Spirală de protecție, variantă dimensională 1440" },
       { code: "Safety Clip", description: "Clemă de siguranță din sârmă formată" },
-      { code: "Draw Bar Spring", description: "Arc pentru bară de tracțiune" },
+      { code: "Draw Bar Spring", description: "Arc din catalogul producătorului" },
       { code: "Shaft Ring", description: "Inel de reținere pentru ax" },
-      { code: "Interlock Garter Spring", description: "Arc tip garter pentru interblocare mecanică" },
+      { code: "Interlock Garter Spring", description: "Arc din catalogul producătorului" },
     ],
     faq: [
       { q: "Ce produce Gutekunst Federn?", a: "Gutekunst Federn produce arcuri metalice standard — de compresiune, tracțiune și torsiune — dintr-un catalog propriu de peste 12.600 de variante, plus piese din sârmă formată precum bucșe cu arc, spirale de protecție și cleme de siguranță, pentru clienți exclusiv din mediul industrial." },
-      { q: "Cum aleg arcul Gutekunst Federn potrivit după dimensiune?", a: "Ai nevoie de diametrul exterior al arcului, lungimea liberă, diametrul sârmei și forța sau cuplul necesar la aplicație. Cu aceste date verificăm dacă există o variantă standard în catalogul Gutekunst Federn sau dacă e nevoie de o dimensiune tăiată din bandă continuă (variantă endless)." },
+      { q: "Cum aleg arcul Gutekunst Federn potrivit după dimensiune?", a: "Aveți nevoie de diametrul exterior al arcului, lungimea liberă, diametrul sârmei și forța sau cuplul necesar la aplicație. Cu aceste date verificăm dacă există o variantă standard în catalogul Gutekunst Federn sau dacă e nevoie de o dimensiune tăiată din bandă continuă (variantă endless)." },
       { q: "Livrați arcuri Gutekunst Federn în România și cât durează?", a: "Da, aducem arcurile la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea în catalogul producătorului. Nu ținem arcuri Gutekunst Federn pe raft la noi." },
-      { q: "Ce informații trebuie să trimit pentru o ofertă de arcuri Gutekunst Federn?", a: "Trimite-ne tipul de arc (compresiune, tracțiune sau torsiune), diametrul exterior, lungimea liberă, diametrul sârmei și forța sau cuplul dorit. Dacă ai un arc vechi de înlocuit, o fotografie cu o riglă alături ajută la identificarea rapidă a dimensiunii corecte." },
+      { q: "Ce informații trebuie să trimit pentru o ofertă de arcuri Gutekunst Federn?", a: "Trimiteți-ne tipul de arc (compresiune, tracțiune sau torsiune), diametrul exterior, lungimea liberă, diametrul sârmei și forța sau cuplul dorit. Dacă aveți un arc vechi de înlocuit, o fotografie cu o riglă alături ajută la identificarea rapidă a dimensiunii corecte." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Gutekunst Federn — Startseite", url: "https://www.federnshop.com/de/", publisher: "Gutekunst + Co. KG", accessed: "2026-09-22" },
       { title: "Gutekunst Federn — Home (English)", url: "https://www.federnshop.com/en/", publisher: "Gutekunst + Co. KG", accessed: "2026-09-22" },
@@ -417,14 +417,14 @@ Pentru România, gama James Walker are sens la rafinării, platforme petrochimic
       { name: "Garnituri Spiralate și cu Inel de Îmbinare", description: "Garnituri pentru flanșe industriale, în variante spiralate sau cu inel de îmbinare metalic, pentru aplicații de presiune și temperatură ridicate. Clientul trebuie să confirme dimensiunea flanșei și clasa de presiune." },
       { name: "Garnituri Kammprofile, PTFE și Grafit", description: "Garnituri semi-metalice sau nemetalice pentru medii chimice diverse, alese în funcție de compatibilitatea chimică și temperatura de proces." },
       { name: "Etanșări Hidraulice de Piston și Tijă/Capac", description: "Etanșări pentru cilindri hidraulici, atât pe partea de piston, cât și pe tijă, dimensionate după diametrul și presiunea cilindrului." },
-      { name: "Elemente de Fixare RotaBolt", description: "Șuruburi cu indicator vizual al tensiunii de strângere, folosite pentru verificarea directă a forței aplicate la o îmbinare cu flanșă." },
+      { name: "Elemente de Fixare RotaBolt", description: "Elemente de fixare cu indicare a tensiunii de strângere, folosite la îmbinări cu flanșă." },
     ],
     industries: [
       "Energie — garnituri și etanșări pentru centrale și instalații de proces",
       "Marină — etanșări și garnituri pentru echipamente de bord",
       "Petrol și gaze upstream — garnituri pentru flanșe de presiune ridicată",
       "Chimie și petrochimie — garnituri rezistente chimic (PTFE, grafit)",
-      "Nuclear — elemente de fixare RotaBolt cu verificare a tensiunii de strângere",
+      "Nuclear — soluții de etanșare și fixare pentru instalații cu cerințe stricte",
       "Industria hârtiei și celulozei — etanșări pentru echipamente rotative",
     ],
     infinitrade: `Aducem garnituri, etanșări și elemente de fixare James Walker la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Lucrăm doar cu informațiile publicate de James Walker pentru identificarea variantei potrivite, fără date proprii de stoc pentru vreun cod anume. Pentru o ofertă corectă avem nevoie de dimensiunea flanșei sau a arborelui, clasa de presiune, temperatura de lucru și mediul chimic. Nu promitem disponibilitate permanentă pentru o garnitură sau etanșare anume.`,
@@ -442,7 +442,7 @@ Pentru România, gama James Walker are sens la rafinării, platforme petrochimic
       { code: "Hydraulic Rod/Gland Seal", description: "Etanșare hidraulică pentru tijă și capac" },
       { code: "O-Ring", description: "Inel de etanșare O-ring" },
       { code: "Compression Packing", description: "Presetupă de compresie pentru arbori rotativi" },
-      { code: "Engineered Thermoplastic Seal", description: "Etanșare din termoplastic tehnic, spring-energised" },
+      { code: "Engineered Thermoplastic Seal", description: "Etanșare din termoplastic tehnic" },
       { code: "Metallic Sealing Component", description: "Componentă de etanșare metalică pentru OEM" },
       { code: "Fabric Expansion Joint", description: "Compensator de dilatare din material textil" },
       { code: "Metallic Expansion Joint", description: "Compensator de dilatare metalic" },
@@ -450,14 +450,14 @@ Pentru România, gama James Walker are sens la rafinării, platforme petrochimic
     ],
     faq: [
       { q: "Ce produce James Walker?", a: "James Walker produce garnituri industriale (spiralate, kammprofile, PTFE, grafit), etanșări rotative și hidraulice, O-ringuri, presetupe de compresie și elemente de fixare RotaBolt cu indicare a tensiunii de strângere, pentru sectoare precum energie, marină și petrochimie." },
-      { q: "Cum aleg garnitura James Walker potrivită pentru flanșa mea?", a: "Depinde de clasa de presiune, temperatura de lucru și mediul chimic din instalație: o garnitură spiralată sau cu inel de îmbinare pentru presiune ridicată, PTFE sau grafit pentru medii chimice agresive. Trimite-ne dimensiunea flanșei și condițiile de proces pentru identificarea variantei corecte." },
-      { q: "Ce este un element de fixare RotaBolt de la James Walker?", a: "RotaBolt este un șurub cu indicator vizual al tensiunii de strângere, care arată dacă forța aplicată la o îmbinare cu flanșă este cea corectă, fără instrumente suplimentare de măsură. Se folosește în special în aplicații unde strângerea corectă e critică pentru siguranță." },
+      { q: "Cum aleg garnitura James Walker potrivită pentru flanșa mea?", a: "Depinde de clasa de presiune, temperatura de lucru și mediul chimic din instalație: o garnitură spiralată sau cu inel de îmbinare pentru presiune ridicată, PTFE sau grafit pentru medii chimice agresive. Trimiteți-ne dimensiunea flanșei și condițiile de proces pentru identificarea variantei corecte." },
+      { q: "Ce este un element de fixare RotaBolt de la James Walker?", a: "RotaBolt este un element de fixare cu indicare a tensiunii de strângere (load-indicating fastener) din gama James Walker; modul exact de indicare îl confirmăm din documentația producătorului. Se folosește în special în aplicații unde strângerea corectă e critică pentru siguranță." },
       { q: "Livrați produse James Walker în România și cât durează?", a: "Da, aducem garniturile și etanșările la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Nu ținem această gamă pe raft." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "James Walker — Home", url: "https://www.jameswalker.biz", publisher: "James Walker Group", accessed: "2026-09-22" },
       { title: "James Walker — Home (en)", url: "https://www.jameswalker.biz/en", publisher: "James Walker Group", accessed: "2026-09-22" },
@@ -469,7 +469,7 @@ Pentru România, gama James Walker are sens la rafinării, platforme petrochimic
     headquarters: "Slough, Marea Britanie",
     overview: `John Crane este un producător britanic de etanșări mecanice și sisteme de transmisie a puterii, cu sediul la Slough și o istorie de peste 100 de ani în domeniu. Gama de etanșări de gaz necontactante pentru turbocompresoare acoperă familiile Type 28AT, Type 28XP, Type 28EXP (rezistentă la 425 bar(g)), Type 28ST pentru turbine cu abur și Type 28VL pentru lichide vaporizante, completate de familia Aura (Aura 120NS, Aura 220) cu tehnologie de etanșare polimerică patentată.
 
-Pentru pompe, John Crane oferă etanșări cu burduf elastomeric (Type 1/1A, Type 2, Type 21, Type 2100, Type 2106), cartușul universal Type 5611, etanșarea duală necontactantă Type 2874 și etanșarea metalică cu burduf sudat Type 609 pentru temperaturi ridicate. Compania completează gama cu cuplaje de transmisie a puterii (Metastream cu disc, Powerstream elastomeric, seria H pentru turbomașini) și cu izolatorii de rulment Isomag cu tehnologie magnetică. Certificările API 682, API 692 și NSF 61 confirmă conformitatea cu standardele industriei de proces și ale sistemelor de apă potabilă.
+Pentru pompe, John Crane oferă etanșări cu burduf elastomeric (Type 1/1A, Type 2, Type 21, Type 2100, Type 2106), cartușul universal Type 5611, etanșarea duală necontactantă Type 2874 și etanșarea metalică cu burduf sudat Type 609 pentru temperaturi ridicate. Compania completează gama cu cuplaje de transmisie a puterii (Metastream cu disc, Powerstream elastomeric, seria H pentru turbomașini) și cu izolatorii de rulment Isomag cu tehnologie magnetică. Conformitatea fiecărui tip cu standardele industriei (de exemplu API 682) se confirmă pe cod, din documentația producătorului.
 
 Pentru România, gama John Crane are sens la rafinării, platforme petrochimice și centrale electrice unde o etanșare de gaz pentru compresor sau o etanșare de pompă trebuie înlocuită după codul original al echipamentului.`,
     whyChoose: [
@@ -477,7 +477,7 @@ Pentru România, gama John Crane are sens la rafinării, platforme petrochimice 
       "Familie completă de etanșări de gaz necontactante (Type 28) pentru turbocompresoare, cu variante până la 425 bar(g)",
       "Etanșări metalice cu burduf sudat (Type 609) pentru aplicații de temperatură ridicată",
       "Cuplaje de transmisie a puterii proprii (Metastream, Powerstream, seria H), pe lângă gama de etanșări",
-      "Certificări API 682, API 692 și NSF 61, relevante pentru rafinării și sisteme de apă",
+      "Documentație tehnică a producătorului pentru fiecare tip de etanșare",
     ],
     keyProducts: [
       { name: "Etanșări de Gaz Seria Type 28 (28AT, 28XP, 28EXP, 28ST, 28VL)", description: "Etanșări de gaz necontactante pentru turbocompresoare, turbine cu abur și lichide vaporizante, cu varianta 28EXP rezistentă la 425 bar(g). Clientul trebuie să confirme presiunea de proces și tipul de gaz." },
@@ -491,25 +491,25 @@ Pentru România, gama John Crane are sens la rafinării, platforme petrochimice 
       "Energie — etanșări și cuplaje pentru turbine și pompe de alimentare",
       "Chimie și petrochimie — etanșări rezistente la medii agresive",
       "Industria hârtiei și celulozei — etanșări John Crane pentru pompe de proces",
-      "Tratarea apei — etanșări certificate NSF 61 pentru sisteme de apă potabilă",
+      "Tratarea apei — etanșări pentru pompe de apă",
       "Industria alimentară — etanșări igienice pentru pompe de proces",
       "Marină — etanșări și cuplaje pentru echipamente de bord",
     ],
-    infinitrade: `Furnizăm etanșări mecanice și cuplaje John Crane la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului de tip la producător. Ne bazăm pe surse publice ale producătorului pentru identificarea familiei potrivite, fără date proprii despre stocul curent al vreunui model. Pentru o ofertă corectă avem nevoie de codul echipamentului (pompă, compresor sau turbină), diametrul arborelui, presiunea de proces și mediul de lucru. Disponibilitatea fiecărui tip din gamă se verifică punctual, fără garanția unei disponibilități imediate asumat.`,
+    infinitrade: `Furnizăm etanșări mecanice și cuplaje John Crane la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului de tip la producător. Ne bazăm pe surse publice ale producătorului pentru identificarea familiei potrivite, fără date proprii despre stocul curent al vreunui model. Pentru o ofertă corectă avem nevoie de codul echipamentului (pompă, compresor sau turbină), diametrul arborelui, presiunea de proces și mediul de lucru. Disponibilitatea fiecărui tip din gamă se verifică punctual, fără asumarea unei disponibilități imediate.`,
     limitation: "Nu oferim service în garanția producătorului și nu confirmăm echivalența unei etanșări John Crane fără codul original al echipamentului.",
     productCodes: [
       { code: "Type 28AT", description: "Etanșare de gaz necontactantă pentru turbocompresoare" },
-      { code: "Type 28XP", description: "Etanșare de gaz necontactantă, generație extinsă" },
+      { code: "Type 28XP", description: "Etanșare de gaz necontactantă pentru turbocompresoare" },
       { code: "Type 28EXP", description: "Etanșare de gaz pentru medii ostile, până la 425 bar(g)" },
       { code: "Type 28ST", description: "Etanșare de gaz necontactantă pentru turbine cu abur" },
       { code: "Type 28VL", description: "Etanșare de gaz pentru lichide vaporizante" },
       { code: "Aura 120NS", description: "Etanșare de gaz uscată, secțiune îngustă" },
       { code: "Aura 220", description: "Etanșare de gaz uscată, tehnologie polimerică" },
       { code: "Type 1/1A", description: "Etanșare cu burduf elastomeric, uz industrial general" },
-      { code: "Type 2", description: "Etanșare cu burduf elastomeric, non-pusher" },
-      { code: "Type 21", description: "Etanșare cu burduf elastomeric, ajustare automată" },
+      { code: "Type 2", description: "Etanșare cu burduf elastomeric" },
+      { code: "Type 21", description: "Etanșare cu burduf elastomeric" },
       { code: "Type 2100", description: "Etanșare cu burduf elastomeric, unitizată, robustă" },
-      { code: "Type 2106", description: "Etanșare cu burduf elastomeric, arc unic, compactă" },
+      { code: "Type 2106", description: "Etanșare cu burduf elastomeric, unitizată, compactă" },
       { code: "Type 5611", description: "Cartuș universal, etanșare simplă" },
       { code: "Type 2874", description: "Etanșare duală de gaz necontactantă pentru pompe" },
       { code: "Type 609", description: "Etanșare metalică cu burduf sudat, temperatură ridicată" },
@@ -519,14 +519,14 @@ Pentru România, gama John Crane are sens la rafinării, platforme petrochimice 
     ],
     faq: [
       { q: "Ce produce John Crane?", a: "John Crane produce etanșări mecanice pentru pompe și compresoare, etanșări de gaz necontactante pentru turbocompresoare, cuplaje de transmisie a puterii și izolatori de rulment, folosite în rafinării, centrale electrice și industria chimică de peste 100 de ani." },
-      { q: "Cum aleg etanșarea John Crane potrivită pentru pompa mea?", a: "Depinde de tipul echipamentului: etanșările cu burduf elastomeric (Type 1/1A, 2, 21) acoperă pompe industriale generale, iar familia Type 28 e dedicată compresoarelor de gaz. Trimite-ne codul pompei sau compresorului, diametrul arborelui și presiunea de proces pentru identificarea variantei corecte." },
+      { q: "Cum aleg etanșarea John Crane potrivită pentru pompa mea?", a: "Depinde de tipul echipamentului: etanșările cu burduf elastomeric (Type 1/1A, 2, 21) acoperă pompe industriale generale, iar familia Type 28 e dedicată compresoarelor de gaz. Trimiteți-ne codul pompei sau compresorului, diametrul arborelui și presiunea de proces pentru identificarea variantei corecte." },
       { q: "Ce echivalent are o etanșare John Crane veche care nu mai e în catalog?", a: "Verificăm codul de tip vizibil pe eticheta etanșării sau pe documentația pompei și căutăm familia echivalentă în gama curentă John Crane, comparând diametrul arborelui și presiunea de lucru. Fotografiile etichetei existente ajută la o identificare mai rapidă." },
       { q: "Livrați etanșări John Crane în România și cât durează?", a: "Da, le aducem la comandă printr-un canal de aprovizionare european, cu un termen orientativ de 1–4 săptămâni, în funcție de confirmarea disponibilității la producător pentru codul de tip solicitat. Nu ținem etanșări John Crane pe raft și nu oferim service în garanția producătorului." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "John Crane — Home", url: "https://www.johncrane.com/en", publisher: "John Crane", accessed: "2026-09-22" },
       { title: "Products — John Crane", url: "https://www.johncrane.com/en/products", publisher: "John Crane", accessed: "2026-09-22" },
@@ -536,23 +536,23 @@ Pentru România, gama John Crane are sens la rafinării, platforme petrochimice 
     name: "Mayr",
     founded: 1897,
     headquarters: "Mauerstetten, Germania",
-    overview: `Mayr Antriebstechnik este un producător german de frâne de siguranță, limitatoare de cuplu și cuplaje de transmisie, fondat în 1897 și cu sediul la Mauerstetten. Grupul are aproximativ 750 de angajați la sediul central și circa 1.350 la nivel global, cu operațiuni în Polonia, China și o prezență în extindere în India. Gama de frâne de siguranță acoperă atât modele pentru lifturi și scenotehnică (ROBA-stop silenzio, ROBA diskstop, ROBA twinstop, ROBA-stop stage), cât și frâne industriale (ROBA topstop, ROBA-stop S, ROBA-stop M), noul model ROBA-stop M mărimea 2000 fiind gândit pentru sarcini extreme.
+    overview: `Mayr Antriebstechnik este un producător german de frâne de siguranță, limitatoare de cuplu și cuplaje de transmisie, fondat în 1897 și cu sediul la Mauerstetten. Grupul are aproximativ 650 de angajați la sediul central și circa 1.200 la nivel mondial, cu producție în Germania, Polonia, China și India (unitatea din India deschisă în toamna anului 2024). Gama de frâne de siguranță acoperă atât modele pentru lifturi și scenotehnică (ROBA-stop silenzio, ROBA diskstop, ROBA twinstop, ROBA-stop stage), cât și frâne pentru aplicații industriale (ROBA topstop, ROBA-stop S, ROBA-stop M).
 
-Ce diferențiază Mayr de alți producători de componente de siguranță pentru transmisii, precum KTR, este acoperirea completă a lanțului de siguranță mecanică: limitatoare de cuplu (ROBA slip hub, familia EAS-compact, EAS HTL, EAS HT, EAS reverse) pentru protecția la suprasarcină, și cuplaje elastice (ROBA DS servo, ROBA DS oțel, ROBA DS heavy duty) pentru transmisia efectivă a mișcării. Noul cuplaj din aluminiu Tip 9120 e proiectat pentru turații de până la 32.000 rpm, cu până la 60% mai puțină masă și inerție față de varianta din oțel. Certificările DQS, IQNet și statutul AEO confirmă un sistem de management al calității auditat și fluxuri vamale simplificate pentru export.
+Gama Mayr acoperă lanțul de siguranță mecanică: limitatoare de cuplu (ROBA slip hub, familia EAS-compact, EAS HTL, EAS HT, EAS reverse) pentru protecția la suprasarcină, și cuplaje elastice (ROBA DS servo, ROBA DS oțel, ROBA DS heavy duty) pentru transmisia efectivă a mișcării. Cuplajul din aluminiu Tip 9120 (ROBA DS Aluminium, pentru transductoare de cuplu) are moment de inerție redus. Certificările DQS, IQNet și statutul AEO confirmă un sistem de management al calității auditat și fluxuri vamale simplificate pentru export.
 
 Pentru România, gama Mayr are sens la producătorii de lifturi, eoliene, mașini-unelte și macarale care au nevoie de o frână de siguranță sau un limitator de cuplu identificat după codul original al instalației.`,
     whyChoose: [
       "Peste 125 de ani de experiență în frâne de siguranță și limitatoare de cuplu",
       "Gamă dedicată pentru lifturi și scenotehnică, separată de gama industrială generală",
-      "Cuplaj din aluminiu Tip 9120 pentru turații de până la 32.000 rpm, cu inerție redusă",
-      "Limitatoare de cuplu cu principii diferite de decuplare — bile, fricțiune, dinți — pentru fiecare tip de suprasarcină",
+      "Cuplaj din aluminiu Tip 9120, cu moment de inerție redus, pentru transductoare de cuplu",
+      "Limitatoare de cuplu cu principii diferite de funcționare — fricțiune, histerezis magnetic, decuplare cu reangrenare — în funcție de tipul de suprasarcină",
       "Certificări DQS, IQNet și statut AEO, relevante pentru proiecte cu cerințe stricte de calitate și export",
     ],
     keyProducts: [
       { name: "Frâne de Siguranță pentru Lifturi (ROBA-stop silenzio, ROBA diskstop, ROBA twinstop)", description: "Frâne electromagnetice de siguranță pentru lifturi și scenotehnică, cu funcționare silențioasă. Clientul trebuie să confirme cuplul de frânare necesar și tensiunea de alimentare a bobinei." },
-      { name: "Frâne de Siguranță Industriale (ROBA topstop, ROBA-stop S, ROBA-stop M)", description: "Frâne de siguranță pentru aplicații industriale grele, seria ROBA-stop M disponibilă și în mărimea 2000 pentru sarcini extreme." },
+      { name: "Frâne de Siguranță Industriale (ROBA topstop, ROBA-stop S, ROBA-stop M)", description: "Frâne de siguranță pentru aplicații industriale: ROBA-stop S (condiții extreme, până la IP67), ROBA-stop M (frână de motor, până la IP66) și ROBA topstop (axe verticale cu servomotoare)." },
       { name: "Limitatoare de Cuplu (ROBA slip hub, EAS-compact, EAS HT/HTL/reverse)", description: "Limitatoare de cuplu pentru protecția transmisiei la suprasarcină, cu diverse principii de decuplare în funcție de aplicație." },
-      { name: "Cuplaje ROBA DS (servo, oțel, heavy duty) și Tip 9120", description: "Cuplaje elastice pentru servomotoare și transmisii industriale, cu varianta din aluminiu Tip 9120 pentru turații mari și inerție redusă." },
+      { name: "Cuplaje ROBA DS (servo, oțel, heavy duty) și Tip 9120", description: "Cuplaje elastice pentru servomotoare și transmisii industriale, cu varianta din aluminiu Tip 9120, cu moment de inerție redus, pentru transductoare de cuplu." },
     ],
     industries: [
       "Lifturi — frâne de siguranță pentru motoare de tracțiune",
@@ -569,11 +569,11 @@ Pentru România, gama Mayr are sens la producătorii de lifturi, eoliene, mașin
       { code: "ROBA diskstop", description: "Frână de siguranță cu disc pentru lifturi" },
       { code: "ROBA twinstop", description: "Frână de siguranță dublă pentru lifturi" },
       { code: "ROBA-stop stage", description: "Frână de siguranță pentru scenotehnică" },
-      { code: "ROBA secustop", description: "Frână de siguranță pentru aplicații critice" },
-      { code: "ROBA duplostop", description: "Frână de siguranță cu design dublu" },
-      { code: "ROBA topstop", description: "Frână de siguranță industrială" },
+      { code: "ROBA secustop", description: "Frână de siguranță cu circuit dublu pentru palane cu lanț și dispozitive de ridicare" },
+      { code: "ROBA duplostop", description: "Frână de siguranță pentru lifturi, cu două corpuri de bobină separate (piața din China)" },
+      { code: "ROBA topstop", description: "Frână de siguranță pentru axe verticale cu servomotoare" },
       { code: "ROBA-stop S", description: "Frână de siguranță industrială, seria S" },
-      { code: "ROBA-stop M", description: "Frână de siguranță industrială, seria M, până la mărimea 2000" },
+      { code: "ROBA-stop M", description: "Frână de motor pentru acționări industriale, seria M" },
       { code: "ROBA servostop", description: "Frână de siguranță pentru servomotoare" },
       { code: "ROBA linearstop", description: "Frână de siguranță pentru axe liniare" },
       { code: "ROBA guidestop", description: "Frână de siguranță pentru sisteme de ghidare" },
@@ -581,25 +581,25 @@ Pentru România, gama Mayr are sens la producătorii de lifturi, eoliene, mașin
       { code: "EAS-compact", description: "Limitator de cuplu compact" },
       { code: "EAS HTL", description: "Limitator de cuplu, variantă HTL" },
       { code: "EAS HT", description: "Limitator de cuplu, variantă HT" },
-      { code: "EAS reverse", description: "Limitator de cuplu cu decuplare inversă" },
-      { code: "ROBA contitorque", description: "Limitator de cuplu cu monitorizare continuă" },
+      { code: "EAS reverse", description: "Limitator de cuplu cu reangrenare prin rotire inversă" },
+      { code: "ROBA contitorque", description: "Limitator de cuplu cu histerezis magnetic, fără contact" },
       { code: "ROBA DS servo", description: "Cuplaj elastic pentru servomotoare" },
       { code: "ROBA DS heavy duty", description: "Cuplaj elastic pentru sarcini grele" },
-      { code: "ROBA drive-checker", description: "Cuplaj cu monitorizare a transmisiei" },
-      { code: "smartflex", description: "Cuplaj elastic compact" },
+      { code: "ROBA drive-checker", description: "Element de măsurare a cuplului, turației și temperaturii" },
+      { code: "smartflex", description: "Cuplaj modular cu burduf metalic, fără sudură" },
       { code: "ROBA ES", description: "Cuplaj elastic, seria ES" },
-      { code: "Type 9120", description: "Cuplaj din aluminiu, turații până la 32.000 rpm" },
+      { code: "Type 9120", description: "Cuplaj din aluminiu cu inerție redusă, pentru transductoare de cuplu" },
     ],
     faq: [
-      { q: "Ce produce Mayr?", a: "Mayr produce frâne de siguranță electromagnetice, limitatoare de cuplu și cuplaje elastice de transmisie, folosite la lifturi, eoliene, mașini-unelte, macarale și scenotehnică. Compania are peste 125 de ani de experiență și un cuplaj recent din aluminiu, Tip 9120, pentru turații de până la 32.000 rpm." },
-      { q: "Cum aleg frâna de siguranță Mayr potrivită pentru instalația mea?", a: "Diferența principală e aplicația: seria ROBA-stop silenzio, diskstop și twinstop e gândită pentru lifturi și scenotehnică, silențioasă, iar seria ROBA topstop și ROBA-stop S/M e pentru aplicații industriale grele. Trimite-ne cuplul de frânare necesar și tensiunea de alimentare pentru identificarea codului corect." },
-      { q: "Ce diferență este între limitatoarele EAS-compact și ROBA slip hub de la Mayr?", a: "EAS-compact e un limitator de cuplu compact pentru transmisii cu spațiu redus, în timp ce ROBA slip hub folosește un principiu de alunecare pentru protecție continuă la suprasarcină. Alegerea depinde de cuplul de decuplare necesar și de spațiul disponibil pe arbore." },
+      { q: "Ce produce Mayr?", a: "Mayr produce frâne de siguranță electromagnetice, limitatoare de cuplu și cuplaje elastice de transmisie, folosite la lifturi, eoliene, mașini-unelte, macarale și scenotehnică. Compania are peste 125 de ani de experiență și oferă și cuplajul din aluminiu Tip 9120, cu inerție redusă." },
+      { q: "Cum aleg frâna de siguranță Mayr potrivită pentru instalația mea?", a: "Diferența principală e aplicația: seria ROBA-stop silenzio, diskstop și twinstop e gândită pentru lifturi și scenotehnică, silențioasă, iar ROBA topstop (axe verticale cu servomotoare), ROBA-stop S și ROBA-stop M sunt pentru aplicații industriale. Trimiteți-ne cuplul de frânare necesar și tensiunea de alimentare pentru identificarea codului corect." },
+      { q: "Ce diferență este între limitatoarele EAS-compact și ROBA slip hub de la Mayr?", a: "EAS-compact decuplează la suprasarcină (variante care se reangrenează după un număr de rotații sau la 360°), în timp ce ROBA slip hub transmite cuplul prin frecare și alunecă peste valoarea reglată. Alegerea depinde de cuplul de decuplare necesar și de spațiul disponibil pe arbore." },
       { q: "Livrați produse Mayr în România și cât durează?", a: "Da, aducem frânele, limitatoarele de cuplu și cuplajele Mayr la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Nu ținem această gamă pe raft." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Mayr Antriebstechnik — Home", url: "https://www.mayr.com/en/", publisher: "Chr. Mayr GmbH + Co. KG", accessed: "2026-09-22" },
       { title: "Products — Mayr", url: "https://www.mayr.com/en/products/", publisher: "Chr. Mayr GmbH + Co. KG", accessed: "2026-09-22" },

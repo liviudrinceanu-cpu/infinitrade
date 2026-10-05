@@ -5,9 +5,9 @@ export const brandContentBatch64 = {
     name: "Megadyne",
     overview: `Megadyne este un producător italian de curele de transmisie industrială, parte a grupului Ammega alături de alte branduri de curele și benzi transportoare. Gama acoperă curele dințate (timing belts) din cauciuc sau poliuretan, în variante fără sfârșit sau deschise, curele trapezoidale (V-belts) în execuție înfășurată, raw edge sau bandată, curele plate seria MEGAFLAT din poliuretan și curele multi-canal (poly-V) seria MEGARIB și Rollpower. Compania declară prezență în peste 50 de industrii, de la alimentar și auto la ambalare, lifturi, energie, fitness, dispozitive medicale, robotică, textile, tutun și prelucrarea lemnului.
 
-Spre deosebire de curelele dințate standard oferite de branduri precum Optibelt, care acoperă în principal profile clasice, Megadyne extinde oferta cu soluții fabricate la comandă — curele cu profil special, cu dinți falși sau perforații (MEGAWELD, sistemul de îmbinare Accu-Link) pentru transportul produselor pe linii de ambalare sau sortare. Seria MEGARIB de curele multi-canal și linia Rollpower vizează aplicații cu turații mari și spațiu de montaj redus, iar componentele metalice de transmisie completează oferta pentru linii complete de acționare.
+Megadyne oferă și soluții fabricate la comandă — curele cu modificări speciale precum dinți falși, perforații sau caneluri (gama MEGAWELD și Accu-Link) pentru transportul produselor pe linii de ambalare sau sortare. Seria MEGARIB de curele multi-canal și linia Rollpower sunt curele cu caneluri longitudinale care transmit puterea prin frecare, iar componentele metalice de transmisie completează oferta pentru linii complete de acționare.
 
-Pentru instalațiile din România, Megadyne înseamnă o alternativă tehnică la curelele standard atunci când aplicația cere o curea fabricată special (lungime nestandard, profil dublu, perforații) sau o soluție de transmisie completă, nu doar o curea izolată — util în linii de ambalare, benzi transportoare și utilaje agricole.`,
+Pentru instalațiile din România, Megadyne înseamnă o alternativă tehnică la curelele standard atunci când aplicația cere o curea fabricată special (lungime nestandard, profil dublu, perforații) sau o soluție de transmisie completă, nu doar o curea izolată — util în linii de ambalare și benzi transportoare.`,
     whyChoose: [
       "Gamă completă de curele — dințate, trapezoidale, plate și multi-canal, sub același producător",
       "Fabricație la comandă — profiluri speciale, dinți falși sau perforații pentru transport și sortare",
@@ -19,8 +19,8 @@ Pentru instalațiile din România, Megadyne înseamnă o alternativă tehnică l
       { name: "Curele Dințate (Timing Belts)", description: "Curele dințate din cauciuc sau poliuretan, disponibile fără sfârșit (endless) sau deschise (open end), pentru transmisii sincrone unde alunecarea nu este acceptată. Varianta poliuretanică permite sudarea la lungimea exactă cerută de aplicație, utilă la benzi transportoare cu spații de montaj atipice." },
       { name: "Curele Trapezoidale (V-Belts)", description: "Curele trapezoidale în execuție înfășurată, raw edge sau bandată, pentru transmisii clasice cu roți canelate. Varianta bandată leagă mai multe curele într-un ansamblu unic, reducând vibrația laterală la distanțe mari între axe." },
       { name: "Curele Plate Seria MEGAFLAT", description: "Curele plate din poliuretan pentru transportul și ghidarea produselor pe linii de ambalare, prelucrare alimentară și logistică, unde suprafața netedă și rezistența la abraziune contează mai mult decât transmisia de putere pură." },
-      { name: "Curele Multi-Canal MEGARIB și Rollpower", description: "Curele cu caneluri longitudinale (poly-V) pentru transmisii compacte la turații mari, cu contact continuu pe toată lățimea curelei. Seria Rollpower e gândită pentru spații de montaj reduse și rapoarte de transmisie ridicate." },
-      { name: "Curele Speciale și Fabricate (MEGAWELD, Accu-Link)", description: "Curele cu dinți falși, cleme, perforații sau capete sudate la comandă, pentru linii de transport și sortare unde geometria standard nu acoperă aplicația." },
+      { name: "Curele Multi-Canal MEGARIB și Rollpower", description: "Curele cu caneluri longitudinale (poly-V) care transmit puterea prin frecare. Seria Rollpower combină flexibilitatea curelei plate cu performanța de transmisie a curelei trapezoidale." },
+      { name: "Curele Speciale și Fabricate (MEGAWELD, Accu-Link)", description: "Curele cu modificări speciale (dinți falși, cleme, perforații, caneluri, fante) fabricate la comandă, pentru linii de transport și sortare unde geometria standard nu acoperă aplicația." },
     ],
     industries: [
       "Ambalare — transport și sortare produse pe benzi cu curele plate și multi-canal",
@@ -42,10 +42,10 @@ Pentru instalațiile din România, Megadyne înseamnă o alternativă tehnică l
       { code: "Rubber Banded V-Belt", description: "Curea trapezoidală bandată, mai multe fire unite" },
       { code: "PU MEGAFLAT", description: "Curea plată din poliuretan pentru transport produse" },
       { code: "PV Rubber Ribbed Belt", description: "Curea multi-canal din cauciuc, profil poly-V" },
-      { code: "MEGARIB", description: "Curea multi-canal pentru turații mari, spațiu redus" },
-      { code: "Rollpower", description: "Curea multi-canal pentru rapoarte de transmisie ridicate" },
-      { code: "MEGAWELD", description: "Curea specială cu capete sudate la comandă" },
-      { code: "Accu-Link", description: "Sistem de îmbinare pentru curele fabricate la comandă" },
+      { code: "MEGARIB", description: "Curea multi-canal (poly-V)" },
+      { code: "Rollpower", description: "Curea multi-canal, flexibilitate ridicată" },
+      { code: "MEGAWELD", description: "Curea specială fabricată la comandă" },
+      { code: "Accu-Link", description: "Curea specială fabricată la comandă" },
     ],
     faq: [
       { q: "Ce produce Megadyne?", a: "Megadyne produce curele de transmisie industrială — dințate, trapezoidale, plate seria MEGAFLAT și multi-canal seria MEGARIB — plus componente metalice de transmisie, ca parte a grupului italian Ammega." },
@@ -56,8 +56,8 @@ Pentru instalațiile din România, Megadyne înseamnă o alternativă tehnică l
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Megadyne Group – Official Website", url: "https://megadynegroup.com/en/", publisher: "Megadyne Group", accessed: "2026-09-22" },
       { title: "Products – Megadyne Group", url: "https://megadynegroup.com/en/products/", publisher: "Megadyne Group", accessed: "2026-09-22" },
@@ -67,20 +67,20 @@ Pentru instalațiile din România, Megadyne înseamnă o alternativă tehnică l
     name: "Mubea",
     overview: `Mubea este numele comercial al Muhr und Bender KG, producător german de componente elastice și arcuri de înaltă rezistență pentru industria auto și industrială. Firma dezvoltă sisteme de arcuri elicoidale și bare stabilizatoare pentru șasiu, arcuri de supapă și sisteme de întindere a curelei pentru motor, arcuri disc și arcuri de compresie pentru aplicații industriale, precum și componente structurale din materiale compozite (CFRP) și piese formate din tablă laminată variabil (tailor rolled).
 
-Ce diferențiază Mubea de un producător generic de arcuri este integrarea pe verticală — de la oțelul pentru arcuri până la componenta finită montată pe linia de asamblare auto — și extinderea către materiale ușoare, cu piese structurale din fibră de carbon alături de arcurile metalice clasice. Divizia industrială produce arcuri disc și de compresie pentru mașini și echipamente în afara sectorului auto, unde solicitarea principală este ciclul de oboseală la sarcini repetate, nu doar rigiditatea inițială.
+Pe lângă arcurile metalice, Mubea oferă și materiale ușoare, cu piese structurale din fibră de carbon (CFRP). Divizia industrială produce arcuri disc și de compresie pentru mașini și echipamente în afara sectorului auto, unde solicitarea principală este ciclul de oboseală la sarcini repetate, nu doar rigiditatea inițială.
 
 Pentru clienții din România, gama industrială (arcuri disc, arcuri de compresie) e cea mai relevantă pentru mentenanța echipamentelor de producție cu sisteme de tensionare, în timp ce componentele auto se adresează mai degrabă furnizorilor din lanțul de producție auto.`,
     whyChoose: [
-      "Integrare pe verticală — de la materialul pentru arcuri până la componenta finită",
+      "Gamă care cuprinde componente de șasiu, grup motopropulsor și produse industriale",
       "Gamă industrială separată de cea auto — arcuri disc și de compresie pentru echipamente",
       "Componente structurale ușoare din fibră de carbon, alături de arcurile metalice clasice",
-      "Peste 100 de ani de istorie în prelucrarea benzii și sârmei de oțel pentru arcuri",
+      "Aproximativ 100 de ani de istorie ca firmă cu capital familial",
       "Certificare ISO 14001 pentru managementul de mediu la nivel de grup",
     ],
     keyProducts: [
       { name: "Arcuri Elicoidale și Sisteme de Suspensie", description: "Arcuri elicoidale pentru șasiu auto, dimensionate pentru sarcina și cursa specifice fiecărui model de vehicul, din sârmă de oțel de înaltă rezistență trasă la rece." },
       { name: "Bare Stabilizatoare (Sisteme Stabilizatoare)", description: "Bare de torsiune care reduc ruliul caroseriei în viraj, disponibile în variante pline sau tubulare pentru reducerea greutății nesuspendate." },
-      { name: "Arcuri de Supapă și Sisteme de Întindere a Curelei", description: "Arcuri pentru motor — arcuri de supapă cu geometrie variabilă și sisteme de întindere a curelei de distribuție, dimensionate pentru turațiile și temperaturile camerei motorului." },
+      { name: "Arcuri de Supapă și Sisteme de Întindere a Curelei", description: "Componente pentru motor — arcuri de supapă și sisteme de întindere a curelei, din divizia grupului motopropulsor." },
       { name: "Arcuri Disc și Arcuri de Compresie (Divizia Industrială)", description: "Arcuri disc (Belleville) și arcuri de compresie pentru mașini industriale și echipamente cu sisteme de tensionare sau amortizare mecanică, în afara sectorului auto." },
     ],
     industries: [
@@ -99,12 +99,12 @@ Pentru clienții din România, gama industrială (arcuri disc, arcuri de compres
       { code: "Mubea Performance Wheels", description: "Roți de performanță din materiale ușoare" },
       { code: "Tailor Rolled Products", description: "Tablă laminată variabilă pentru caroserie" },
       { code: "CFRP Structural Parts", description: "Piese structurale din fibră de carbon" },
-      { code: "Interior Components", description: "Componente pentru interior auto" },
+      { code: "Precision Steel Tubes", description: "Tuburi de oțel de precizie" },
       { code: "Valve Springs", description: "Arcuri de supapă pentru motor" },
       { code: "Belt Tensioner Systems", description: "Sisteme de întindere a curelei de distribuție" },
       { code: "Transmission Springs", description: "Arcuri pentru sisteme de transmisie auto" },
       { code: "Tubular Shafts", description: "Arbori tubulari pentru transmisie" },
-      { code: "Fine Blanking Parts", description: "Piese ștanțate de precizie" },
+      { code: "Forming Tools", description: "Scule de formare" },
       { code: "Disc Springs", description: "Arcuri disc (Belleville) pentru aplicații industriale" },
       { code: "Compression Springs", description: "Arcuri de compresie pentru echipamente industriale" },
       { code: "Mubea Hydrogen Technology", description: "Componente pentru tehnologia hidrogenului" },
@@ -117,8 +117,8 @@ Pentru clienții din România, gama industrială (arcuri disc, arcuri de compres
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Mubea – Official Website", url: "https://www.mubea.com/", publisher: "Muhr und Bender KG", accessed: "2026-09-22" },
       { title: "Products – Mubea", url: "https://www.mubea.com/en/products/", publisher: "Muhr und Bender KG", accessed: "2026-09-22" },
@@ -127,64 +127,64 @@ Pentru clienții din România, gama industrială (arcuri disc, arcuri de compres
   pewag: {
     name: "pewag",
     headquarters: "Austria",
-    overview: `pewag este un producător austriac de lanțuri industriale, cu o gamă care acoperă lanțuri de ridicare de gradele 10, 12 și 12 Plus, lanțuri antiderapante pentru autoturisme, utilaje comerciale, tractoare și excavatoare, echipamente pentru silvicultură, sisteme de transport cu lanț și sprocheți, lanțuri de protecție pentru anvelope în minerit și accesorii de ridicare. Site-ul producătorului listează o secțiune dedicată pieței din România.
+    overview: `pewag este un producător austriac de lanțuri industriale, cu o gamă care acoperă lanțuri de ridicare de gradele 10, 12 și 12 Plus, lanțuri antiderapante pentru autoturisme, utilaje comerciale, tractoare și excavatoare, echipamente pentru silvicultură, sisteme de transport cu lanț și sprocheți, lanțuri de protecție pentru anvelope în minerit și accesorii de ridicare. Producătorul are site-uri regionale, iar documentația este disponibilă pe site-ul oficial.
 
-Spre deosebire de un concurent precum Tsubaki, orientat mai larg spre transmisii cu lanț, pewag se concentrează pe lanțurile de ridicare și tracțiune, cu gama G12 Plus poziționată ca succesor al vechii generații G8 la seturile de chingi cu lanț. Seria include variante pentru montaj cu un braț, două brațe, patru brațe și configurații reglabile, fiecare cu propriul cod — de la seturi simple până la ansambluri cu cârlig de siguranță.
+pewag se concentrează pe lanțurile de ridicare și tracțiune, cu gama G12 Plus poziționată ca succesor al generației G8 la seturile de chingi cu lanț. Seria include mai multe configurații de seturi de ridicare, fiecare cu propriul cod.
 
 Pentru instalațiile din România, gama pewag e relevantă mai ales pentru ridicare industrială și pentru utilaje forestiere sau de construcții unde lanțurile trebuie înlocuite periodic conform uzurii.`,
     whyChoose: [
-      "Producător specializat exclusiv pe lanțuri, cu gamă completă de la ridicare la silvicultură",
-      "Gama G12 Plus înlocuiește generația G8, cu configurații de la un braț la patru brațe",
-      "Variante certificate pentru medii cu risc de incendiu și din oțel inoxidabil",
-      "Prezență regională confirmată — secțiune dedicată pentru piața din România",
-      "Accesorii complete pentru ridicare — cârlige, cleme, chingi textile, sub același producător",
+      "Producător de lanțuri, cu gamă de la ridicare la silvicultură",
+      "Gama G12 Plus este poziționată de producător ca succesor al generației G8",
+      "Variante rezistente la foc în gama producătorului",
+      "Site-uri regionale ale producătorului, cu documentație pentru piețe locale",
+      "Accesorii pentru ridicare — cuple, cleme, grinzi de ridicare, sub același producător",
     ],
     keyProducts: [
-      { name: "Chingi cu Lanț Seria G12 Plus", description: "Seturi de ridicare din lanț grad 12 Plus, în configurații cu un braț, două brațe sau patru brațe, gândite ca înlocuitor pentru generația anterioară G8, cu cârlige și componente de capăt integrate." },
+      { name: "Chingi cu Lanț Seria G12 Plus", description: "Seturi de ridicare din lanț grad 12 Plus, gândite ca înlocuitor pentru generația anterioară G8; configurația exactă se confirmă pe cod." },
       { name: "Lanțuri de Ridicare Grad 10 și Grad 12", description: "Lanțuri de ridicare pentru macarale și poduri rulante, în gradele 10 și 12, cu rezistență la sarcină diferențiată față de lanțurile standard, folosite la seturi de ridicare industriale." },
       { name: "Sisteme pentru Silvicultură (forstgrip, bluetrack)", description: "Lanțuri de tracțiune forstgrip Essential și Essential Pro pentru vehicule forestiere, plus șenile bluetrack, pentru aderență pe teren accidentat sau înzăpezit." },
-      { name: "Cârlige, Cleme și Chingi Textile pentru Ridicare", description: "Cârlige automate de macara, cleme de ridicare, grinzi de ridicare și chingi textile, ca accesorii complementare seturilor de lanț pentru manipularea sarcinilor industriale." },
+      { name: "Cleme, Grinzi de Ridicare și Cuple", description: "Cleme de ridicare, grinzi de ridicare și cuple, ca accesorii complementare seturilor de lanț pentru manipularea sarcinilor industriale." },
     ],
     industries: [
       "Construcții și ridicare — chingi cu lanț și cârlige pentru macarale",
       "Silvicultură — lanțuri de tracțiune și șenile pentru utilaje forestiere",
       "Minerit — lanțuri de protecție pentru anvelope de utilaje grele",
       "Transport — lanțuri antiderapante pentru vehicule comerciale și tractoare",
-      "Energie eoliană — lanțuri și componente de ridicare pentru mentenanță",
+      
     ],
     infinitrade: `Pentru pewag folosim doar informația publică disponibilă pe site-ul producătorului, fără date proprii de stoc pentru lanțurile austriece de ridicare sau silvicultură. Aducem la comandă seturi de lanț grad 10, 12 sau 12 Plus, precum și accesorii de ridicare, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți sarcina de lucru necesară (WLL), numărul de brațe al setului de ridicare și diametrul lanțului dacă îl cunoașteți. Nu promitem disponibilitate din depozit pentru configurațiile speciale.`,
     limitation: "Nu putem confirma sau recertifica seturi de ridicare pewag deja aflate în exploatare — verificarea periodică obligatorie rămâne responsabilitatea unui organism de inspecție autorizat.",
     productCodes: [
-      { code: "AS G12 Plus", description: "Set de ridicare cu un braț, grad 12 Plus" },
-      { code: "C G12 Plus", description: "Chingă cu lanț simplă, grad 12 Plus" },
-      { code: "CBH G12 Plus", description: "Set de ridicare cu cârlig, grad 12 Plus" },
-      { code: "KBS G12 Plus", description: "Set de ridicare cu cârlig cu clichet" },
-      { code: "KHS G12 Plus", description: "Set de ridicare cu cârlig scurtabil" },
-      { code: "KLH G12 Plus", description: "Set de ridicare cu patru brațe" },
-      { code: "KLHG G12 Plus", description: "Set de ridicare cu patru brațe și inel" },
-      { code: "KP G12 Plus", description: "Componentă de capăt pentru chingi cu lanț" },
-      { code: "P G12 Plus", description: "Chingă cu lanț cu placă de capăt" },
-      { code: "PS G12 Plus", description: "Chingă cu lanț cu placă și cârlig scurtabil" },
-      { code: "PSG G12 Plus", description: "Chingă cu lanț cu placă, cârlig și inel" },
-      { code: "RK G12 Plus", description: "Set de ridicare cu inel rotativ" },
-      { code: "RKP G12 Plus", description: "Set de ridicare cu inel rotativ și placă" },
-      { code: "RS G12 Plus", description: "Set de ridicare cu inel și cârlig scurtabil" },
-      { code: "RSP G12 Plus", description: "Set de ridicare cu inel, cârlig și placă" },
-      { code: "SBS G12 Plus", description: "Set de ridicare cu cârlig cu siguranță" },
-      { code: "SFG-K G12 Plus", description: "Set de ridicare cu cârlig de siguranță și inel" },
-      { code: "SHS G12 Plus", description: "Set de ridicare cu cârlig scurtabil special" },
+      { code: "AS G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "C G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "CBH G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "KBS G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "KHS G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "KLH G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "KLHG G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "KP G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "P G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "PS G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "PSG G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "RK G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "RKP G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "RS G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "RSP G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "SBS G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "SFG-K G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
+      { code: "SHS G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
     ],
     faq: [
-      { q: "Ce produce pewag?", a: "pewag produce lanțuri de ridicare (gradele 10, 12 și 12 Plus), lanțuri antiderapante, sisteme pentru silvicultură, lanțuri de protecție pentru anvelope și accesorii de ridicare precum cârlige, cleme și chingi textile." },
-      { q: "Cum aleg un set de ridicare pewag după cod?", a: "Codul indică numărul de brațe (C pentru un braț, RS/PS pentru două, KLH pentru patru) și gradul lanțului G12 Plus; sarcina de lucru admisă (WLL) și diametrul lanțului completează selecția corectă pentru aplicația dumneavoastră." },
-      { q: "Ce înlocuiește gama G12 Plus de la pewag?", a: "G12 Plus este poziționată de producător ca succesor al generației G8 la chingile cu lanț, cu aceleași configurații de montaj dar rezistență mecanică superioară pentru sarcini echivalente." },
+      { q: "Ce produce pewag?", a: "pewag produce lanțuri de ridicare (gradele 10, 12 și 12 Plus), lanțuri antiderapante, sisteme pentru silvicultură, lanțuri de protecție pentru anvelope și accesorii de ridicare precum cuple, cleme și grinzi de ridicare." },
+      { q: "Cum aleg un set de ridicare pewag după cod?", a: "Codul indică configurația setului din gama G12 Plus; sarcina de lucru admisă (WLL) și diametrul lanțului completează selecția pentru aplicația dumneavoastră, iar semnificația codului o confirmăm din documentația producătorului." },
+      { q: "Ce înlocuiește gama G12 Plus de la pewag?", a: "G12 Plus este poziționată de producător ca succesor al generației G8 la chingile cu lanț." },
       { q: "Livrați lanțuri pewag în România și cât durează?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația și gradul lanțului confirmate de producător." },
-      { q: "Ce trebuie să trimit pentru o ofertă de lanț pewag?", a: "Trimiteți sarcina de lucru necesară (WLL), numărul de brațe pentru setul de ridicare și, dacă e cazul, dacă aplicația cere variantă rezistentă la foc sau din inox." },
+      { q: "Ce trebuie să trimit pentru o ofertă de lanț pewag?", a: "Trimiteți sarcina de lucru necesară (WLL), numărul de brațe pentru setul de ridicare și, dacă e cazul, dacă aplicația cere variantă rezistentă la foc." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "pewag – Official Website", url: "https://www.pewag.com/en/", publisher: "pewag austria GmbH", accessed: "2026-09-22" },
       { title: "Grade 12 Plus Lifting Chains & Equipment – pewag Shop", url: "https://shop.pewag.com/products/lifting-solutions/grade-12-plus-lifting-chains-equipment/", publisher: "pewag austria GmbH", accessed: "2026-09-22" },
@@ -193,7 +193,7 @@ Pentru instalațiile din România, gama pewag e relevantă mai ales pentru ridic
   "rk-rose-krieger": {
     name: "RK Rose+Krieger",
     headquarters: "Minden, Germania",
-    overview: `RK Rose+Krieger este un producător german de tehnică liniară, cu sediul la Minden, parte a grupului elvețian Phoenix Mecano. Gama include unități liniare acționate cu șurub trapezoidal, șurub cu bile, curea dințată sau cremalieră, coloane de ridicare electrice (Hubsäulen) pentru poziționare pe verticală, profile de aluminiu din sistemul BLOCAN pentru construcția de cadre, și conectori pentru țevi în trei materiale — plastic, aluminiu și inox.
+    overview: `RK Rose+Krieger este un producător german de tehnică liniară, cu sediul la Minden, parte a grupului elvețian Phoenix Mecano. Gama include unități liniare acționate cu șurub trapezoidal, șurub cu bile, curea dințată sau cremalieră, coloane de ridicare electrice pentru poziționare pe verticală, profile de aluminiu din sistemul BLOCAN pentru construcția de cadre, și conectori pentru țevi (Light Clamp, Solid Clamp, Robust Clamp).
 
 Punctul forte al gamei este coloana de ridicare electrică, cu variante dedicate diverselor combinații de cursă și forță — de la Multilift, pentru sarcini mai mici, până la seria X2 cu cursă de până la 3.000 mm și forță de împingere de 12.000 N pentru aplicații industriale grele. Sistemul de profile BLOCAN completează oferta cu structuri modulare din aluminiu pentru cadre și mese de lucru, iar conectorii pentru țevi permit asamblarea rapidă fără sudură.
 
@@ -201,16 +201,16 @@ Pentru clienții din România, coloanele de ridicare și unitățile liniare sun
     whyChoose: [
       "Coloane de ridicare electrice cu game de forță și cursă diferențiate, de la Multilift la seria X2",
       "Sistem modular de profile de aluminiu BLOCAN pentru cadre și structuri fără sudură",
-      "Conectori pentru țevi în trei materiale (plastic, aluminiu, inox), adaptați la mediul de lucru",
+      "Conectori pentru țevi în trei variante (Light Clamp, Solid Clamp, Robust Clamp)",
       "Parte din grupul Phoenix Mecano — acces la rețea internațională de distribuție tehnică",
-      "Management al calității și mediului documentat la nivel de companie",
+      "Documentație tehnică publică a producătorului pentru coloanele de ridicare",
     ],
     keyProducts: [
       { name: "Coloane de Ridicare Multilift și Multilift II", description: "Coloane de ridicare electrice cu cursă de până la 650 mm (varianta telescopică) și forță de împingere de până la 3.000 N, pentru poziționarea pe verticală a meselor de lucru sau echipamentelor." },
       { name: "Coloane RK Slimlift și RK Powerlift", description: "Coloane de ridicare compacte cu forță de împingere de până la 4.000 N și cursă de 500-650 mm, pentru aplicații unde spațiul de montaj e limitat dar sarcina rămâne semnificativă." },
       { name: "Coloane Alpha și Lambda Colonne", description: "Coloane de ridicare cu forță de până la 4.500 N și cursă de 600 mm, poziționate de producător pentru sarcini medii-mari în stații de lucru reglabile pe înălțime." },
       { name: "Seria X2 de Coloane Industriale", description: "Coloană de ridicare pentru sarcini grele, cu cursă de până la 3.000 mm, forță de împingere de 12.000 N și sarcină laterală admisă de 6.000 N." },
-      { name: "Profile BLOCAN și Conectori pentru Țevi", description: "Profile de aluminiu modulare pentru cadre, plus conectori pentru țevi în variante plastic, aluminiu și inox, pentru asamblare fără sudură." },
+      { name: "Profile BLOCAN și Conectori pentru Țevi", description: "Profile de aluminiu modulare pentru cadre, plus conectori pentru țevi, pentru asamblare fără sudură." },
     ],
     industries: [
       "Construcția de mașini — cadre și structuri modulare din profile BLOCAN",
@@ -231,9 +231,9 @@ Pentru clienții din România, coloanele de ridicare și unitățile liniare sun
       { code: "Alpha Colonne", description: "Coloană de ridicare, cursă 600 mm" },
       { code: "Lambda Colonne", description: "Coloană de ridicare, forță 4500 N" },
       { code: "X2-Series", description: "Coloană industrială, cursă până la 3000 mm" },
-      { code: "Light Clamp", description: "Conector pentru țevi din plastic" },
-      { code: "Solid Clamp", description: "Conector pentru țevi din aluminiu" },
-      { code: "Robust Clamp", description: "Conector pentru țevi din inox" },
+      { code: "Light Clamp", description: "Conector pentru țevi" },
+      { code: "Solid Clamp", description: "Conector pentru țevi" },
+      { code: "Robust Clamp", description: "Conector pentru țevi" },
     ],
     faq: [
       { q: "Ce produce RK Rose+Krieger?", a: "RK Rose+Krieger produce unități liniare, coloane de ridicare electrice, profile de aluminiu modulare din sistemul BLOCAN și conectori pentru țevi, ca parte a grupului elvețian Phoenix Mecano." },
@@ -243,8 +243,8 @@ Pentru clienții din România, coloanele de ridicare și unitățile liniare sun
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "RK Rose+Krieger – Official Website", url: "https://www.rk-rose-krieger.com/", publisher: "RK Rose+Krieger GmbH", accessed: "2026-09-22" },
       { title: "Hubsäulen – RK Rose+Krieger", url: "https://www.rk-rose-krieger.com/deutsch/produkte/lineartechnik/hubsaeulen", publisher: "RK Rose+Krieger GmbH", accessed: "2026-09-22" },
@@ -256,18 +256,18 @@ Pentru clienții din România, coloanele de ridicare și unitățile liniare sun
     headquarters: "Krefeld, Germania",
     overview: `Ringfeder Power Transmission este un producător german cu sediul la Krefeld, specializat în conexiuni arbore-butuc fără joc, cuplaje și componente de amortizare. Gama principală de conexiuni arbore-butuc (locking assemblies) seria RfN acoperă diametre de la câțiva milimetri până la 1.000 mm și cupluri de transmis de la câțiva Nm până la peste 2 milioane Nm, în funcție de model. Compania oferă și discuri de contracție, arcuri cu frecare pentru amortizare, precum și o gamă largă de cuplaje.
 
-Spre deosebire de un concurent precum KTR, care acoperă în principal cuplaje elastice standardizate, Ringfeder își construiește reputația pe conexiunile arbore-butuc prin frecare, unde strângerea mecanică între arbore și butuc elimină jocul și penele clasice, la cupluri și diametre care depășesc adesea ce oferă cuplajele elastice simple. Seria RfN 7012 acoperă diametre între 19 și 1.000 mm cu cupluri de până la 2,4 milioane Nm, iar RfN 7061 acoperă segmentul mic, 6-50 mm, pentru aplicații de precizie.
+Conexiunile arbore-butuc prin frecare ale Ringfeder înlocuiesc penele clasice: strângerea mecanică între arbore și butuc elimină jocul, la diametre și cupluri mari. Seria RfN 7012 acoperă diametre între 19 și 1.000 mm cu cupluri de până la 2,4 milioane Nm, iar RfN 7061 acoperă segmentul mic, 6-50 mm, pentru aplicații de precizie.
 
 Pentru instalațiile din România, gama Ringfeder e relevantă acolo unde o pană clasică nu mai face față — reductoare mari, tamburi de macara, mori și instalații cu arbori de diametru mare — precum și la cuplaje pentru linii de acționare cu cerințe de amortizare a șocurilor.`,
     whyChoose: [
-      "Peste 100 de ani de specializare pe conexiuni arbore-butuc prin frecare, fără joc mecanic",
+      "Companie înființată în 1922, cu gamă de conexiuni arbore-butuc prin frecare, fără joc mecanic",
       "Gama RfN acoperă diametre de la 6 mm la 1.000 mm și cupluri de până la peste 2 milioane Nm",
       "Portofoliu complet de cuplaje — elastice, cu burduf metalic, dințate, de siguranță",
       "Discuri de contracție pentru asamblarea arborilor fără canal de pană",
-      "Achiziția liniei RATHI TRANSPOWER extinde gama de cuplaje elastice și cu fluid",
+      "Gamă de cuplaje elastice, cu burduf metalic, cu disc de oțel și dințate, alături de conexiunile arbore-butuc",
     ],
     keyProducts: [
-      { name: "Conexiuni Arbore-Butuc Seria RfN 7012", description: "Conexiune arbore-butuc prin frecare, pentru diametre între 19 și 1.000 mm, cu cuplu transmisibil de la 306 Nm până la peste 2,4 milioane Nm, pentru arbori mari fără canal de pană." },
+      { name: "Conexiuni Arbore-Butuc Seria RfN 7012", description: "Conexiune arbore-butuc prin frecare, pentru diametre între 19 și 1.000 mm, cu cuplu transmisibil de la 306 Nm până la 2,4 milioane Nm, pentru arbori mari fără canal de pană." },
       { name: "Conexiuni Arbore-Butuc Seria RfN 7061", description: "Variantă compactă pentru diametre mici, 6-50 mm, cu cuplu de 6-1.900 Nm, potrivită pentru mecanisme de precizie și echipamente de dimensiuni reduse." },
       { name: "Discuri de Contracție (Shrink Discs)", description: "Componente pentru asamblarea arborilor și butucilor fără canal de pană, prin strângere mecanică uniformă, folosite frecvent la reductoare și tamburi de macara." },
       { name: "Cuplaje Elastice și cu Burduf Metalic", description: "Cuplaje elastice cu bolțuri, cuplaje cu burduf metalic pentru compensarea dezaxărilor și cuplaje cu disc de oțel pentru transmisii care necesită rigiditate torsională ridicată." },
@@ -276,7 +276,7 @@ Pentru instalațiile din România, gama Ringfeder e relevantă acolo unde o pan�
       "Construcția de mașini și instalații — conexiuni arbore-butuc pentru reductoare",
       "Ridicare — tamburi de macara și sisteme cu arbori de diametru mare",
       "Energie — cuplaje pentru turbine și generatoare",
-      "Aviație și aerospațial — componente de amortizare și cuplaje speciale",
+      
       "Industria extractivă — conexiuni arbore-butuc pentru echipamente grele",
     ],
     infinitrade: `Pentru Ringfeder, ce putem și ce nu putem confirma ține de informația publicată de producător — datele despre diametre și cupluri provin din fișele tehnice ale seriei RfN. Aducem la comandă conexiuni arbore-butuc, discuri de contracție și cuplaje prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți diametrul arborelui și al butucului, cuplul de transmis și, pentru cuplaje, dezaxarea admisă între arbori. Nu promitem disponibilitate din depozit — majoritatea conexiunilor arbore-butuc se dimensionează la comandă, în funcție de aplicație.`,
@@ -307,8 +307,8 @@ Pentru instalațiile din România, gama Ringfeder e relevantă acolo unde o pan�
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Ringfeder Power Transmission – Official Website", url: "https://www.ringfeder.com/en/", publisher: "Ringfeder Power Transmission GmbH", accessed: "2026-09-22" },
       { title: "Locking Assemblies – Ringfeder", url: "https://www.ringfeder.com/products/locking-assemblies/", publisher: "Ringfeder Power Transmission GmbH", accessed: "2026-09-22" },
@@ -318,11 +318,11 @@ Pentru instalațiile din România, gama Ringfeder e relevantă acolo unde o pan�
   zkl: {
     name: "ZKL",
     founded: 1921,
-    overview: `ZKL Group este un producător ceh de rulmenți, cu activitate din 1921, care acoperă rulmenți cu bile (rânduri simple și duble cu contact unghiular, rulmenți în patru puncte, oscilanți, axiali), rulmenți cu role (cilindrici, oscilanți, conici, axiali) și rulmenți speciali (hibrizi, izolați electric, despicați). Gama include și rulmenți dedicați industriei feroviare și energiei eoliene, plus linia proprie VOLPROTEQ. Pentru piața din România, ZKL înseamnă o alternativă central-europeană de aprovizionare cu rulmenți standard și speciali.
+    overview: `ZKL Group este un producător ceh de rulmenți, cu activitate din 1921, care acoperă rulmenți cu bile (rânduri simple și duble cu contact unghiular, rulmenți în patru puncte, oscilanți, axiali), rulmenți cu role (cilindrici, oscilanți, conici, axiali) și rulmenți speciali (hibrizi, izolați electric, despicați). Gama include și rulmenți dedicați industriei feroviare și energiei eoliene, plus soluția VOLPROTEQ pentru rulmenți izolați electric. Pentru piața din România, ZKL înseamnă o alternativă central-europeană de aprovizionare cu rulmenți standard și speciali.
 
-Spre deosebire de un brand precum SKF, care acoperă o gamă foarte extinsă cu accent pe soluții de mentenanță și monitorizare, ZKL rămâne un producător axat pe rulmentul ca produs — cu o gamă tehnică amplă dar fără ecosistemul de servicii digitale al marilor competitori internaționali. Rulmenții speciali despicați permit montajul fără demontarea completă a arborelui, util la reductoare mari sau ventilatoare industriale unde oprirea prelungită a liniei costă mai mult decât rulmentul în sine.
+ZKL este un producător axat pe rulmentul ca produs, cu o gamă tehnică amplă de rulmenți standard și speciali. Rulmenții speciali despicați permit montajul fără demontarea completă a arborelui, util la reductoare mari sau ventilatoare industriale unde oprirea prelungită a liniei costă mai mult decât rulmentul în sine.
 
-Pentru instalațiile din România, gama ZKL e relevantă la mentenanța corectivă a utilajelor mai vechi de proveniență central sau est-europeană, precum și ca alternativă de aprovizionare pentru rulmenți standard cu cotă dimensională compatibilă ISO.`,
+Pentru instalațiile din România, gama ZKL e relevantă la mentenanța utilajelor care folosesc rulmenți standard sau speciali; compatibilitatea dimensională se confirmă pe cod sau pe cotele rulmentului existent.`,
     whyChoose: [
       "Producător cu activitate din 1921 în fabricația de rulmenți, cu gamă tehnică amplă",
       "Rulmenți speciali despicați pentru montaj fără demontarea completă a arborelui",
@@ -347,7 +347,7 @@ Pentru instalațiile din România, gama ZKL e relevantă la mentenanța corectiv
     limitation: "Nu putem confirma echivalența exactă între un rulment ZKL și un cod dimensional similar de la alt producător fără verificarea toleranțelor și a clasei de precizie din desenul tehnic al aplicației.",
     productCodes: [
       { code: "Rulmenți radiali cu bile, rând simplu", description: "Rulment cu bile, rând simplu, sarcini radiale" },
-      { code: "Rulmenți cu bile, contact unghiular", description: "Rulment cu bile, rând dublu, contact unghiular" },
+      { code: "Rulmenți cu bile, contact unghiular", description: "Rulment cu bile, rând simplu sau dublu, contact unghiular" },
       { code: "Rulmenți în patru puncte", description: "Rulment cu bile pentru sarcini axiale combinate" },
       { code: "Rulmenți oscilanți cu bile", description: "Rulment cu bile, compensare dezaliniere arbore" },
       { code: "Rulmenți axiali cu bile, sens simplu", description: "Rulment axial cu bile, o direcție de sarcină" },
@@ -365,7 +365,7 @@ Pentru instalațiile din România, gama ZKL e relevantă la mentenanța corectiv
       { code: "Rulmenți hibrizi cu bile", description: "Rulment cu bile ceramice, turații mari" },
       { code: "Rulmenți izolați electric", description: "Rulment cu protecție la curenți paraziți de arbore" },
       { code: "Rulmenți cu role despicați", description: "Rulment cu inele despicate, montaj fără demontare arbore" },
-      { code: "VOLPROTEQ", description: "Linie proprie de rulmenți cu protecție specială" },
+      { code: "VOLPROTEQ", description: "Soluție ZKL pentru rulmenți izolați electric, cu strat dielectric pe inele" },
     ],
     faq: [
       { q: "Ce produce ZKL?", a: "ZKL produce rulmenți cu bile (radiali, cu contact unghiular, oscilanți), rulmenți cu role (cilindrici, conici, oscilanți) și rulmenți speciali — despicați, izolați electric sau hibrizi — inclusiv pentru industria feroviară și eoliană." },
@@ -376,8 +376,8 @@ Pentru instalațiile din România, gama ZKL e relevantă la mentenanța corectiv
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "ZKL Group – Official Website", url: "https://www.zkl.cz/en/", publisher: "ZKL Group", accessed: "2026-09-22" },
       { title: "Ball Bearings – ZKL", url: "https://www.zkl.cz/en/produkty/kulickova-loziska", publisher: "ZKL Group", accessed: "2026-09-22" },
@@ -396,7 +396,7 @@ Pentru instalațiile din România, sistemul item e relevant la construcția de m
       "Sistem modular complet — profile, fixare, tehnică liniară și cabine de protecție compatibile",
       "Peste 45 de ani de activitate în construcția de sisteme modulare de aluminiu",
       "Tehnică liniară integrată — unități gata de montat, ghidaje, motoare și senzori",
-      "Soluții pentru producție în camera curată și medii ESD-protejate",
+      "Soluții pentru producție în camera curată",
       "Structuri pentru robotică și platforme de acces, pe lângă cadrele clasice de mașină",
     ],
     keyProducts: [
@@ -439,8 +439,8 @@ Pentru instalațiile din România, sistemul item e relevant la construcția de m
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "item Industrietechnik – Official Website", url: "https://www.item24.com/en-us/", publisher: "item Industrietechnik GmbH", accessed: "2026-09-22" },
       { title: "Linear Technology – item24", url: "https://www.item24.com/en-us/categories/3daa5411-d50f-4f06-9696-67470dce8163", publisher: "item Industrietechnik GmbH", accessed: "2026-09-22" },
@@ -452,11 +452,11 @@ Pentru instalațiile din România, sistemul item e relevant la construcția de m
     headquarters: "Norden, Germania",
     overview: `Doepke Schaltgeräte este un producător german cu sediul la Norden, înființat în 1956, specializat în întrerupătoare diferențiale și echipamente de protecție la curent rezidual. Gama acoperă întrerupătoare diferențiale seria DFS (variante NU, PV pentru fotovoltaice, HP pentru pompe de căldură, FANA), separatoare de sarcină cu protecție diferențială seria DHS, întrerupătoare cu protecție la suprasarcină integrată seria DRCBO, disjunctoare miniaturale DLS 6i RT și module portabile de protecție diferențială DPRCD-M, plus sistemul de monitorizare e.Guard.
 
-Spre deosebire de un producător generalist precum Eaton, care acoperă protecția diferențială ca parte a unei game electrice foarte largi, Doepke și-a construit reputația exclusiv pe echipamente de protecție la curent rezidual, cu variante dedicate aplicațiilor cu curenți de defect specifici — de exemplu seria DFS PV, gândită pentru curenții continui parțiali generați de invertoarele fotovoltaice, unde un RCD standard poate declanșa greșit.
+Doepke se concentrează pe echipamente de protecție la curent rezidual, cu variante dedicate aplicațiilor cu curenți de defect specifici — de exemplu seria DFS PV, gândită pentru instalații fotovoltaice; tipul curentului de defect acoperit se confirmă din fișa tehnică a produsului.
 
-Pentru instalațiile din România, gama Doepke e relevantă la protecția instalațiilor fotovoltaice și a pompelor de căldură, unde standardele cer tot mai des RCD-uri de tip B sau variante speciale.`,
+Pentru instalațiile din România, gama Doepke e relevantă la protecția instalațiilor fotovoltaice și a pompelor de căldură; tipul de RCD necesar se stabilește de proiectant, conform normativelor aplicabile.`,
     whyChoose: [
-      "Producător specializat exclusiv pe protecție diferențială din 1956, cu 70 de ani de activitate",
+      "Producător specializat în protecție la curent rezidual, cu activitate din 1956",
       "Variante DFS dedicate aplicațiilor fotovoltaice (PV) și pompelor de căldură (HP)",
       "Sistem inteligent de monitorizare e.Guard pentru curent rezidual",
       "Module portabile DPRCD-M pentru protecție diferențială temporară pe șantier",
@@ -466,13 +466,13 @@ Pentru instalațiile din România, gama Doepke e relevantă la protecția instal
       { name: "Întrerupătoare Diferențiale Seria DFS", description: "Întrerupătoare diferențiale în variante NU (standard), PV (pentru instalații fotovoltaice), HP (pentru pompe de căldură) și FANA, dimensionate pentru curenți de defect specifici fiecărei aplicații." },
       { name: "Separatoare de Sarcină cu Protecție Diferențială Seria DHS", description: "Separatoare de sarcină cu funcție de protecție diferențială integrată, în variante NU/NUS și FANA, pentru izolarea și protecția simultană a circuitelor." },
       { name: "Întrerupătoare DRCBO cu Protecție la Suprasarcină", description: "Întrerupătoare diferențiale cu protecție integrată la suprasarcină și scurtcircuit, în variante PV și HP, pentru circuite unde protecția diferențială și cea la supracurent trebuie combinate." },
-      { name: "Sistemul de Monitorizare e.Guard", description: "Sistem inteligent de monitorizare a curentului rezidual, gândit pentru detectarea timpurie a defectelor de izolație înainte ca acestea să declanșeze un întrerupător diferențial clasic." },
+      { name: "Sistemul de Monitorizare e.Guard", description: "Sistem inteligent de monitorizare a curentului rezidual, pentru monitorizarea curentului rezidual." },
     ],
     industries: [
       "Fotovoltaic — protecție diferențială dedicată invertoarelor și instalațiilor solare",
       "Pompe de căldură — RCD-uri dimensionate pentru curenții specifici acestor echipamente",
       "Instalații trifazate industriale — separatoare de sarcină cu protecție diferențială",
-      "Laboratoare și instalații experimentale — echipamente de protecție specializate",
+      "Instalații de producție și distribuție — protecție la curent rezidual pentru circuite și prize",
     ],
     infinitrade: `Pentru Doepke aducem informația din sursele publice ale producătorului, fără date proprii despre stocul fiecărei variante DFS sau DHS. Furnizăm întrerupătoare diferențiale și separatoare de sarcină Doepke prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, trimiteți curentul nominal, sensibilitatea diferențială necesară și aplicația specifică — fotovoltaic, pompă de căldură sau instalație standard. Nu promitem disponibilitate din depozit pentru variantele speciale.`,
     limitation: "Nu putem confirma conformitatea unei instalații existente cu cerințele normative locale pentru protecția diferențială — aceasta rămâne responsabilitatea proiectantului sau electricianului autorizat al instalației.",
@@ -480,18 +480,18 @@ Pentru instalațiile din România, gama Doepke e relevantă la protecția instal
       { code: "DFS NU", description: "Întrerupător diferențial standard" },
       { code: "DFS PV", description: "Întrerupător diferențial pentru instalații fotovoltaice" },
       { code: "DFS HP", description: "Întrerupător diferențial pentru pompe de căldură" },
-      { code: "DFS FANA", description: "Întrerupător diferențial ajustabil" },
+      { code: "DFS FANA", description: "Întrerupător diferențial, variantă FANA" },
       { code: "DHS NU", description: "Separator de sarcină cu protecție diferențială" },
       { code: "DHS NUS", description: "Separator de sarcină cu protecție diferențială, variantă S" },
-      { code: "DHS FANA", description: "Separator de sarcină cu protecție diferențială ajustabilă" },
+      { code: "DHS FANA", description: "Separator de sarcină cu protecție diferențială, variantă FANA" },
       { code: "DRCBO PV", description: "Întrerupător cu protecție diferențială și suprasarcină, PV" },
       { code: "DRCBO HP", description: "Întrerupător cu protecție diferențială și suprasarcină, HP" },
-      { code: "DLS 6i RT", description: "Disjunctor miniatural pentru circuite de iluminat" },
+      { code: "DLS 6i RT", description: "Disjunctor miniatural pentru circuitele serviciilor de siguranță, cu identificare roșie" },
       { code: "DPRCD-M", description: "Modul portabil de protecție diferențială" },
-      { code: "e.Guard", description: "Sistem inteligent de monitorizare curent rezidual" },
+      { code: "e.Guard", description: "Sistem modular de monitorizare a curentului rezidual" },
     ],
     faq: [
-      { q: "Ce produce Doepke?", a: "Doepke produce întrerupătoare diferențiale (seria DFS), separatoare de sarcină cu protecție diferențială (DHS), întrerupătoare DRCBO cu protecție la suprasarcină și sistemul de monitorizare e.Guard, specializat exclusiv pe protecție la curent rezidual." },
+      { q: "Ce produce Doepke?", a: "Doepke produce întrerupătoare diferențiale (seria DFS), separatoare de sarcină cu protecție diferențială (DHS), întrerupătoare DRCBO cu protecție la suprasarcină și sistemul de monitorizare e.Guard, specializat în protecție la curent rezidual." },
       { q: "Cum aleg un întrerupător diferențial Doepke după cod?", a: "Litera de la finalul codului DFS indică aplicația — PV pentru fotovoltaic, HP pentru pompe de căldură, NU pentru uz standard; curentul nominal și sensibilitatea diferențială completează selecția corectă." },
       { q: "De ce am nevoie de un DFS PV Doepke la o instalație fotovoltaică?", a: "Varianta PV este dimensionată pentru curenții de defect parțial continui generați de invertoarele fotovoltaice, pe care un RCD standard îi poate interpreta greșit sau nu îi poate detecta corect." },
       { q: "Livrați produse Doepke în România și cât durează?", a: "Furnizăm prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de varianta DFS sau DHS confirmată de producător pentru aplicația dumneavoastră." },
@@ -499,8 +499,8 @@ Pentru instalațiile din România, gama Doepke e relevantă la protecția instal
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Doepke Schaltgeräte – Official Website", url: "https://www.doepke.de/en/", publisher: "Doepke Schaltgeräte GmbH", accessed: "2026-09-22" },
       { title: "Products – Doepke", url: "https://www.doepke.de/en/products/", publisher: "Doepke Schaltgeräte GmbH", accessed: "2026-09-22" },
@@ -511,20 +511,20 @@ Pentru instalațiile din România, gama Doepke e relevantă la protecția instal
     headquarters: "Norvegia",
     overview: `Glamox este un producător norvegian de corpuri de iluminat profesional, cu gamă structurată pe două direcții principale — soluții pentru clădiri profesionale și iluminat pentru marină, offshore și energie eoliană. Gama industrială și marină include proiectoare seria RLX (variante B, C, D G2/G3, inclusiv versiuni Ex pentru zone cu risc de explozie), corpuri liniare tehnice MIR G2 și MIRN G2, corpuri de tip bowlight BLX, proiectoare de căutare SL2IR LED și seria CL, lumini de navigație în seriile 60, 61, 75 și 76, plus downlight-uri seria DL70 și corpuri tehnice AL40 pentru interior.
 
-Ce diferențiază Glamox de un producător generic de corpuri de iluminat este segmentarea clară pe medii dificile — variantele Ex din seria RLX pentru zone cu risc de explozie, corpurile MAX G2 și MIX G2 pentru medii similare la interior, și seriile de navigație proiectate specific pentru cerințele nautice. Corpurile MIR G2 sunt disponibile și în variantă LED certificată UL, pentru piețele care cer această certificare.
+Ce diferențiază Glamox de un producător generic de corpuri de iluminat este segmentarea clară pe medii dificile — variantele Ex din seria RLX pentru zone cu risc de explozie, corpurile MAX G2 și MIX G2 pentru zone periculoase, și seriile de navigație proiectate specific pentru cerințele nautice. Disponibilitatea certificărilor (de exemplu UL) pentru corpurile MIR G2 se confirmă pe cod, din documentația producătorului.
 
 Pentru instalațiile din România, gama industrială Glamox e relevantă la iluminatul halelor de producție, platformelor exterioare și zonelor cu risc de explozie, în timp ce seriile de navigație și marine se adresează mai degrabă șantierelor navale.`,
     whyChoose: [
       "Game separate pentru medii cu risc de explozie (RLX Ex, MAX G2, MIX G2) și navigație maritimă",
       "Proiectoare RLX în variante G2 și G3, cu opțiuni Ex pentru zone periculoase",
       "Downlight-uri seria DL70 cu multiple diametre de montaj",
-      "Corpuri liniare tehnice MIR G2 disponibile și în variantă certificată UL",
+      "Corpuri liniare tehnice MIR G2 și MIRN G2 pentru aplicații tehnice și marine",
       "Divizie dedicată Marine, Offshore & Wind, separată de gama pentru clădiri",
     ],
     keyProducts: [
       { name: "Proiectoare Industriale Seria RLX", description: "Proiectoare în variantele B, C, D G2 și D G3, plus versiuni certificate pentru zone cu risc de explozie (CXZ1.21, DXZ1.21, DXZ2.21), pentru iluminat de hală sau platforme exterioare." },
-      { name: "Corpuri Liniare Tehnice MIR G2 și MIRN G2", description: "Corpuri de iluminat liniare pentru aplicații tehnice industriale și marine, disponibile în variantă standard, extinsă și certificată UL pentru piețele care cer această conformitate." },
-      { name: "Downlight-uri Seria DL70", description: "Downlight-uri pentru interior cu variante de diametru R70, R92, R108 și R155, pentru iluminat general în clădiri profesionale sau spații tehnice cu montaj îngropat." },
+      { name: "Corpuri Liniare Tehnice MIR G2 și MIRN G2", description: "Corpuri de iluminat liniare pentru aplicații tehnice industriale și marine, disponibile în mai multe variante; certificările necesare se confirmă pe cod, din documentația producătorului." },
+      { name: "Downlight-uri Seria DL70", description: "Downlight-uri pentru interior din seria DL70, pentru iluminat general în clădiri profesionale; variantele și dimensiunile de montaj se confirmă pe cod, din documentația producătorului." },
       { name: "Proiectoare de Căutare și Navigație", description: "Proiectoare de căutare cu LED (SL2IR) sau HMI/infraroșu (seria CL) și lumini de navigație în seriile 60, 61, 75 și 76, inclusiv variante arctice și militare, pentru echiparea navelor." },
     ],
     industries: [
@@ -537,9 +537,9 @@ Pentru instalațiile din România, gama industrială Glamox e relevantă la ilum
     limitation: "Nu putem confirma certificarea unei instalații complete de iluminat marin sau Ex fără documentația tehnică a proiectului și implicarea unui organism de certificare naval sau Ex autorizat.",
     productCodes: [
       { code: "MIR G2", description: "Corp liniar tehnic pentru aplicații industriale" },
-      { code: "MIR G2 400", description: "Corp liniar tehnic, variantă extinsă" },
+      { code: "MIR G2 400", description: "Corp liniar tehnic, variantă MIR G2 400" },
       { code: "MIRN G2", description: "Corp liniar tehnic, variantă N" },
-      { code: "MIR G2 LED UL", description: "Corp liniar tehnic, certificat UL" },
+      { code: "MIR G2 LED UL", description: "Corp liniar tehnic, certificarea se confirmă pe cod" },
       { code: "RAS 60N", description: "Corp de iluminat pentru suprafață mare" },
       { code: "RLX B G2", description: "Proiector industrial, tip B" },
       { code: "RLX C G2", description: "Proiector industrial, tip C" },
@@ -547,27 +547,27 @@ Pentru instalațiile din România, gama industrială Glamox e relevantă la ilum
       { code: "RLX D G3", description: "Proiector industrial, generația G3" },
       { code: "RLX CXZ1.21", description: "Proiector certificat pentru zone Ex" },
       { code: "RLX DXZ1.21", description: "Proiector certificat pentru zone Ex, tip D" },
-      { code: "RLX DXZ2.21", description: "Proiector certificat pentru zone Ex, categorie 2" },
+      { code: "RLX DXZ2.21", description: "Proiector certificat pentru zone Ex" },
       { code: "BLX C G2", description: "Corp tip bowlight, variantă C" },
       { code: "BLX D G2", description: "Corp tip bowlight, variantă D" },
       { code: "SL2IR LED", description: "Proiector de căutare cu LED" },
       { code: "CL25", description: "Proiector de căutare HMI/infraroșu" },
       { code: "CL35", description: "Proiector de căutare HMI/infraroșu" },
       { code: "CL38", description: "Proiector de căutare HMI/infraroșu" },
-      { code: "DL70 R70", description: "Downlight, diametru 70 mm" },
-      { code: "DL70 R155", description: "Downlight, diametru 155 mm" },
+      { code: "DL70 R70", description: "Downlight seria DL70, variantă R70" },
+      { code: "DL70 R155", description: "Downlight seria DL70, variantă R155" },
     ],
     faq: [
       { q: "Ce produce Glamox?", a: "Glamox produce corpuri de iluminat profesional pentru clădiri, industrie, zone cu risc de explozie și pentru marină și offshore — proiectoare seria RLX, corpuri liniare MIR G2, downlight-uri DL70 și lumini de navigație." },
-      { q: "Cum aleg un proiector Glamox seria RLX?", a: "Alegerea depinde de tipul de montaj (B, C sau D), generație (G2 sau G3) și dacă mediul cere certificare Ex; proiectoarele CXZ1.21 și DXZ1.21/DXZ2.21 sunt variantele pentru zone cu risc de explozie." },
+      { q: "Cum aleg un proiector Glamox seria RLX?", a: "Alegerea depinde de varianta (B, C sau D), generație (G2 sau G3) și dacă mediul cere certificare Ex; proiectoarele CXZ1.21 și DXZ1.21/DXZ2.21 sunt variantele pentru zone cu risc de explozie." },
       { q: "Ce corpuri Glamox sunt certificate pentru zone cu risc de explozie?", a: "Producătorul listează variante Ex din seria RLX și corpurile MAX G2/MIX G2 pentru interior; certificarea exactă necesară pentru zona dumneavoastră se verifică în fișa tehnică a produsului." },
       { q: "Livrați corpuri Glamox în România și cât durează?", a: "Furnizăm prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria și certificarea confirmate de producător pentru aplicația dumneavoastră." },
       { q: "Ce trebuie să trimit pentru o ofertă de iluminat Glamox?", a: "Trimiteți mediul de montaj, tipul de aplicație (industrial, marin, zonă cu risc de explozie) și certificarea cerută, plus numărul de corpuri sau suprafața de iluminat și înălțimea de montaj, dacă le cunoașteți." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Glamox – Official Website", url: "https://www.glamox.com/", publisher: "Glamox Group", accessed: "2026-09-22" },
       { title: "Marine, Offshore & Wind Products – Glamox", url: "https://www.glamox.com/global-marine/products/", publisher: "Glamox Group", accessed: "2026-09-22" },
@@ -604,7 +604,7 @@ Pentru instalațiile din România, sistemele icotek sunt relevante la modernizar
     infinitrade: `Pentru icotek nu deținem date proprii de stoc — informațiile despre seriile KEL, KVT și CONFiX provin din documentația publică a producătorului german. Furnizăm sisteme de trecere cabluri icotek prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, trimiteți dimensiunea decupajului din peretele dulapului, numărul și diametrul cablurilor de trecut și, dacă e cazul, cerința de ecranare EMC sau design igienic. Nu promitem disponibilitate din depozit pentru toate variantele de dimensiuni.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui sistem icotek cu un decupaj sau o carcasă existentă fără dimensiunile precise trimise de client sau desenul tehnic al dulapului.",
     productCodes: [
-      { code: "KEL-ER", description: "Sistem de trecere divizat cu conector integrat" },
+      { code: "KEL-ER", description: "Sistem de trecere divizat pentru cabluri cu conectori deja montați" },
       { code: "KEL-ER-BL", description: "Sistem de trecere pentru industria alimentară" },
       { code: "KEL-ER CR", description: "Sistem de trecere pentru camere curate" },
       { code: "KEL-DP", description: "Placă de trecere fără conector" },
@@ -613,7 +613,7 @@ Pentru instalațiile din România, sistemele icotek sunt relevante la modernizar
       { code: "KEL-DPU-OD", description: "Placă de trecere pentru exterior" },
       { code: "KVT-DS", description: "Presetupă divizată cu ecranare EMC" },
       { code: "PFS", description: "Clemă de ecranare EMC pentru cabluri" },
-      { code: "KBH-R", description: "Suport din aluminiu pentru bandă velcro" },
+      { code: "KBH-R", description: "Suport pentru bandă velcro" },
       { code: "KZL", description: "Placă de fixare a cablurilor" },
       { code: "CONFiX", description: "Sistem de dirijare a cablurilor" },
       { code: "IMAS-CONNECT", description: "Sistem de adaptoare pentru garnituri de trecere" },
@@ -621,15 +621,15 @@ Pentru instalațiile din România, sistemele icotek sunt relevante la modernizar
     ],
     faq: [
       { q: "Ce produce icotek?", a: "icotek produce sisteme de trecere a cablurilor prin pereți de dulapuri electrice — plăci și presetupe divizate cu sau fără conector, sisteme cu ecranare EMC, variante pentru industria alimentară și camere curate, plus sisteme de dirijare cabluri CONFiX." },
-      { q: "Cum aleg sistemul icotek potrivit după cod?", a: "KEL-ER înseamnă sistem divizat cu conector integrat, KEL-DP este placa fără conector; sufixele indică aplicația specifică — alimentar, cameră curată, design igienic sau exterior — iar dimensiunea decupajului confirmă compatibilitatea finală cu peretele dulapului." },
+      { q: "Cum aleg sistemul icotek potrivit după cod?", a: "KEL-ER este sistemul divizat pentru cabluri cu conectori deja montați, KEL-DP este placa fără conector; sufixele indică aplicația specifică — alimentar, cameră curată, design igienic sau exterior — iar dimensiunea decupajului confirmă compatibilitatea finală cu peretele dulapului." },
       { q: "Ce face diferit un sistem de trecere icotek față de o presetupă clasică?", a: "Construcția divizată permite trecerea unui cablu care are deja conectorul montat, fără să fie nevoie să demontați conectorul sau să tăiați cablul, spre deosebire de o presetupă clasică." },
       { q: "Livrați produse icotek în România și cât durează?", a: "Furnizăm prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria și dimensiunea confirmate de producător pentru aplicația dumneavoastră." },
       { q: "Ce trebuie să trimit pentru o ofertă icotek?", a: "Trimiteți dimensiunea decupajului din peretele dulapului, numărul și diametrul cablurilor de trecut și dacă aplicația cere ecranare EMC, design igienic sau protecție la foc, precum și materialul carcasei dacă e relevant." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "icotek – Official Website", url: "https://www.icotek.com/en/", publisher: "icotek GmbH", accessed: "2026-09-22" },
       { title: "Products – icotek", url: "https://www.icotek.com/en/products/", publisher: "icotek GmbH", accessed: "2026-09-22" },
@@ -638,49 +638,49 @@ Pentru instalațiile din România, sistemele icotek sunt relevante la modernizar
   klemsan: {
     name: "Klemsan",
     headquarters: "Kemalpașa, Izmir, Turcia",
-    overview: `Klemsan este un producător turc cu sediul la Kemalpașa, Izmir, cu peste 52 de ani de activitate în componente electrice de conexiune. Gama include cleme de conexiune în execuții cu șurub, cu arc, push-in și cu bolț, seriile PRD, MPB și DS, canale de cablu din materiale speciale (seria KHF, fără halogen), produse electronice (relee, surse de alimentare, senzori, traductoare, transformatoare de curent din seria KPR), soluții de marcare, platforma IoT KIO/KIO Module/KIOBOX și conectori industriali standard MIL-DTL-38999.
+    overview: `Klemsan este un producător turc cu sediul la Kemalpașa, Izmir, cu peste 52 de ani de activitate în componente electrice de conexiune. Gama include cleme de conexiune în execuții cu șurub, cu arc, push-in și cu bolț, canale de cablu (variante HF și PVC), produse electronice (relee, surse de alimentare, senzori, traductoare, transformatoare de curent), soluții de marcare, platforma IoT KIO/KIO Module/KIOBOX și conectori industriali standard MIL-DTL-38999.
 
-Spre deosebire de un producător precum Weidmüller, cu gamă foarte extinsă de accesorii pentru tablouri electrice, Klemsan combină clemele de conexiune clasice cu o linie proprie de produse electronice și cu o platformă IoT proprie pentru monitorizare la distanță — o direcție care depășește simpla componentă de conexiune. Canalele de cablu din seria KHF, fără halogen, răspund cerințelor de siguranță la incendiu din tablouri electrice.
+Klemsan combină clemele de conexiune clasice cu produse electronice și cu o platformă IoT pentru monitorizarea energiei. Canalele de cablu în varianta HF răspund cerințelor de siguranță la incendiu din tablouri electrice; caracteristicile exacte se confirmă din fișa produsului.
 
 Pentru instalațiile din România, gama de cleme de conexiune și canale de cablu Klemsan e relevantă la construcția și mentenanța tablourilor electrice, iar produsele electronice și platforma IoT pot fi utile pentru monitorizare suplimentară.`,
     whyChoose: [
       "Gamă completă de cleme de conexiune — șurub, arc, push-in și bolț, sub aceeași marcă",
-      "Canale de cablu fără halogen (seria KHF) pentru cerințe de siguranță la incendiu",
+      "Canale de cablu în variantele HF și PVC",
       "Linie proprie de produse electronice — relee, senzori, traductoare și transformatoare de curent",
       "Platformă IoT proprie (KIO) pentru monitorizare la distanță a parametrilor electrici",
       "Prezență declarată în peste 110 de țări, cu peste 52 de ani de activitate",
     ],
     keyProducts: [
-      { name: "Cleme de Conexiune cu Șurub și cu Arc", description: "Cleme de conexiune în execuție cu șurub, cu arc și push-in, din seriile PRD, MPB și DS, pentru montaj pe șină în tablouri electrice." },
-      { name: "Canale de Cablu Fără Halogen Seria KHF", description: "Canale de cablu din material fără halogen, pentru instalații unde cerințele de siguranță la incendiu limitează emisiile toxice în caz de ardere, alături de variante PVC standard." },
-      { name: "Produse Electronice Seria KPR", description: "Relee, surse de alimentare, senzori, traductoare și transformatoare de curent din seria KPR, pentru completarea tabloului electric cu funcții de măsură și comutare." },
+      { name: "Cleme de Conexiune cu Șurub și cu Arc", description: "Cleme de conexiune în execuție cu șurub, cu arc și push-in, pentru montaj pe șină în tablouri electrice." },
+      { name: "Canale de Cablu HF și PVC", description: "Canale de cablu în variantele HF și PVC, pentru instalații unde cerințele de siguranță la incendiu limitează emisiile toxice în caz de ardere, alături de variante PVC standard." },
+      { name: "Produse Electronice", description: "Relee, surse de alimentare, senzori, traductoare și transformatoare de curent, pentru completarea tabloului electric cu funcții de măsură și comutare." },
       { name: "Platformă IoT KIO / KIOBOX", description: "Platformă de monitorizare la distanță KIO, cu modul KIO Module și carcasă KIOBOX, pentru colectarea și transmiterea parametrilor electrici din tablou către un sistem central." },
     ],
     industries: [
       "Construcția de ascensoare — cleme de conexiune și canale de cablu pentru tablouri",
       "Construcția de mașini — cleme de conexiune pentru panouri de comandă",
       "Transport feroviar — canale de cablu fără halogen pentru siguranță la incendiu",
-      "Distribuție de energie — cleme și accesorii pentru tablouri de medie tensiune",
+      "Automatizări industriale — cleme de conexiune și accesorii pentru panouri de comandă",
     ],
     infinitrade: `Pentru Klemsan lucrăm cu informația publică disponibilă pe site-ul producătorului, fără date proprii de stoc pentru fiecare serie de cleme sau canale de cablu. Furnizăm produse Klemsan prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, trimiteți tipul de clemă dorit, secțiunea de cablu și numărul de poli, respectiv dimensiunea canalului de cablu dacă e cazul. Nu promitem disponibilitate din depozit pentru toate variantele din gama electronică sau IoT.`,
     limitation: "Nu putem configura sau integra platforma IoT KIO într-un sistem SCADA existent fără specificațiile complete de comunicație ale instalației clientului.",
     productCodes: [
-      { code: "PRD Series", description: "Cleme de conexiune cu clasă de inflamabilitate V0" },
-      { code: "MPB Series", description: "Cleme de conexiune modulare pentru tablouri" },
-      { code: "DS Series", description: "Cleme de conexiune pentru distribuție" },
-      { code: "KHF Series", description: "Canale de cablu fără halogen" },
-      { code: "PVC Wire Duct", description: "Canale de cablu din PVC standard" },
-      { code: "KPR Series", description: "Relee, senzori și transformatoare de curent" },
-      { code: "Bolt Type Terminal Blocks", description: "Cleme de conexiune cu bolț" },
-      { code: "Spring Clamp Type Terminal Blocks", description: "Cleme de conexiune cu arc" },
-      { code: "Push-In Type Terminal Blocks", description: "Cleme de conexiune push-in" },
-      { code: "Screw Type Terminal Blocks", description: "Cleme de conexiune cu șurub" },
+      { code: "PRD Series", description: "Cleme de conexiune, seria PRD" },
+      { code: "MPB Series", description: "Cleme de conexiune pentru tablouri" },
+      { code: "DS Series", description: "Cleme de conexiune" },
+      { code: "HF Wire Duct", description: "Canale de cablu, variantă HF" },
+      { code: "Canale de cablu PVC", description: "Canale de cablu din PVC standard" },
+      { code: "Electronics Products", description: "Relee, senzori, traductoare și transformatoare de curent" },
+      { code: "Cleme de conexiune cu bolț", description: "Cleme de conexiune cu bolț" },
+      { code: "Cleme de conexiune cu arc", description: "Cleme de conexiune cu arc" },
+      { code: "Cleme de conexiune push-in", description: "Cleme de conexiune push-in" },
+      { code: "Cleme de conexiune cu șurub", description: "Cleme de conexiune cu șurub" },
       { code: "KIO", description: "Platformă IoT pentru monitorizare la distanță" },
       { code: "KIO Module", description: "Modul de comunicație pentru platforma KIO" },
       { code: "KIOBOX", description: "Carcasă dedicată platformei IoT KIO" },
-      { code: "MIL-DTL-38999 Connectors", description: "Conectori industriali standard militar" },
-      { code: "Current Transformers", description: "Transformatoare de curent pentru măsură" },
-      { code: "Marking Solutions", description: "Soluții de marcare pentru cabluri și cleme" },
+      { code: "Conectori MIL-DTL-38999", description: "Conectori industriali standard militar" },
+      { code: "Transformatoare de curent", description: "Transformatoare de curent pentru măsură" },
+      { code: "Soluții de marcare", description: "Soluții de marcare pentru cabluri și cleme" },
     ],
     faq: [
       { q: "Ce produce Klemsan?", a: "Klemsan produce cleme de conexiune în execuții cu șurub, arc și push-in, canale de cablu fără halogen, produse electronice — relee, senzori, transformatoare de curent — și o platformă IoT proprie, KIO." },
@@ -691,8 +691,8 @@ Pentru instalațiile din România, gama de cleme de conexiune și canale de cabl
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Klemsan – Official Website", url: "https://www.klemsan.com.tr/en", publisher: "Klemsan Elektrik", accessed: "2026-09-22" },
       { title: "Products – Klemsan", url: "https://www.klemsan.com.tr/en/products", publisher: "Klemsan Elektrik", accessed: "2026-09-22" },
@@ -700,21 +700,21 @@ Pentru instalațiile din România, gama de cleme de conexiune și canale de cabl
   },
   relpol: {
     name: "Relpol",
-    overview: `Relpol este un producător polonez de relee electromagnetice, prezentat pe propriul site ca unul dintre principalii producători de relee din Polonia. Gama acoperă relee electromagnetice miniaturale seriile R (R50A, R90A, R2B, R3B, R4B), relee industriale seriile RM (RM84, RM85, RM87), relee de instalație RPN cu numeroase variante de ieșire, relee de curent de pornire RPI, relee bistabile RPB, relee de timp RPC, relee statice RSR (RSR25, RSR54, RSR58, RSR75, RSR86, RSR95), contactoare de instalație RXC și relee de interfață PI și SIR.
+    overview: `Relpol este un producător polonez de relee electromagnetice, prezentat pe propriul site ca unul dintre principalii producători de relee din Polonia. Gama acoperă relee electromagnetice de putere R50A și R90A, relee bistabile industriale R2B, R3B și R4B, relee industriale seriile RM (RM84, RM85, RM87), relee de monitorizare RPN, relee de curent de pornire RPI, relee de timp RPC, relee statice RSR (RSR25, RSR54, RSR58, RSR86), contactoare de instalație RXC și relee de interfață PI și SIR.
 
-Spre deosebire de un producător precum Finder, cu o gamă orientată mai ales spre relee de instalație electrică, Relpol acoperă și segmentul de relee statice și contactoare de instalație, pe lângă gama clasică de relee electromagnetice — ceea ce lărgește aplicabilitatea de la automatizări industriale la instalații electrice rezidențiale și comerciale.
+Relpol acoperă, pe lângă gama clasică de relee electromagnetice, relee statice, relee de monitorizare și contactoare de instalație, pentru automatizări industriale și instalații electrice.
 
 Pentru instalațiile din România, gama Relpol e relevantă la mentenanța panourilor de automatizare industrială și a tablourilor electrice unde releele existente trebuie înlocuite cu variante compatibile dimensional și funcțional.`,
     whyChoose: [
       "Gamă foarte largă de relee — de la miniaturale la statice și contactoare de instalație",
-      "Relee de instalație RPN cu numeroase variante de ieșire pentru aplicații specifice",
+      "Relee de monitorizare RPN pentru supravegherea tensiunii și a fazelor",
       "Relee statice RSR pentru comutare fără componente mecanice, în aplicații cu cicluri intense",
       "Relee de interfață PI și SIR pentru izolare galvanică între circuite de comandă",
       "Certificare ISO menționată pe site-ul producătorului",
     ],
     keyProducts: [
-      { name: "Relee Electromagnetice Miniaturale Seriile R și RM", description: "Relee electromagnetice miniaturale din seriile R (R50A, R90A, R2B, R3B, R4B) și RM (RM84, RM85, RM87), pentru comutare de semnal sau sarcini mici în panouri de automatizare." },
-      { name: "Relee de Instalație Seria RPN", description: "Relee de instalație cu numeroase variante de ieșire, pentru circuite de comandă în instalații electrice industriale și comerciale." },
+      { name: "Relee Electromagnetice Seriile R și RM", description: "Relee electromagnetice din seriile R (R50A și R90A, de putere; R2B, R3B și R4B, bistabile industriale) și RM (RM84, RM85, RM87), pentru panouri de automatizare." },
+      { name: "Relee de Monitorizare Seria RPN", description: "Relee de monitorizare a tensiunii și a fazelor, pentru supravegherea alimentării în instalații electrice industriale." },
       { name: "Relee Statice Seria RSR", description: "Relee statice cu comutare electronică, fără componente mecanice, în variantele RSR25, RSR54, RSR58, RSR75, RSR86 și RSR95, pentru aplicații cu frecvență mare de comutare." },
       { name: "Contactoare de Instalație RXC și Relee de Interfață PI/SIR", description: "Contactoare de instalație RXC pentru circuite de iluminat sau încălzire, plus relee de interfață PI71P, PI72P, SIR6W și SIR6WB pentru izolarea galvanică a semnalelor de comandă." },
     ],
@@ -724,25 +724,25 @@ Pentru instalațiile din România, gama Relpol e relevantă la mentenanța panou
       "Distribuție de energie — relee de monitorizare și protecție",
       "Construcția de mașini — relee de semnalizare și comutare în echipamente",
     ],
-    infinitrade: `Pentru Relpol, sursa noastră de informații e limitată la materialele publice ale producătorului polonez — nu avem date proprii despre stocul fiecărei serii de relee. Furnizăm relee Relpol prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, trimiteți codul releului existent sau, în lipsa lui, tensiunea bobinei, numărul de contacte și curentul comutat. Nu promitem disponibilitate din depozit pentru toate variantele de ieșire ale seriei RPN.`,
+    infinitrade: `Pentru Relpol, sursa noastră de informații e limitată la materialele publice ale producătorului polonez — nu avem date proprii despre stocul fiecărei serii de relee. Furnizăm relee Relpol prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, trimiteți codul releului existent sau, în lipsa lui, tensiunea bobinei, numărul de contacte și curentul comutat. Nu promitem disponibilitate din depozit pentru toate variantele seriei RPN.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui soclu de releu Relpol cu un soclu de la alt producător fără verificarea directă a dimensiunilor și a schemei de conectare.",
     productCodes: [
       { code: "RSR25-B", description: "Releu static, comutare electronică" },
       { code: "RSR54", description: "Releu static pentru cicluri intense" },
       { code: "RSR58", description: "Releu static pentru cicluri intense" },
-      { code: "RSR75", description: "Releu static pentru cicluri intense" },
+      { code: "RSR75", description: "Releu static" },
       { code: "RSR86", description: "Releu static pentru cicluri intense" },
-      { code: "RSR95", description: "Releu static pentru cicluri intense" },
-      { code: "RPN-2VMN-A400-L", description: "Releu de instalație, variantă bipolară" },
-      { code: "RPN-1A..-A230", description: "Releu de instalație, ieșire unipolară" },
-      { code: "RPN-1TMP-A230", description: "Releu de instalație cu temporizare" },
-      { code: "RPN-1AT-A230", description: "Releu de instalație cu contact de semnalizare" },
-      { code: "R50A", description: "Releu electromagnetic miniatural" },
-      { code: "R90A", description: "Releu electromagnetic miniatural" },
-      { code: "R2B", description: "Releu electromagnetic miniatural" },
-      { code: "R3B", description: "Releu electromagnetic miniatural" },
-      { code: "R4B", description: "Releu electromagnetic miniatural" },
-      { code: "RUC", description: "Releu cu soclu GUC11A-V0" },
+      { code: "RSR95", description: "Releu static" },
+      { code: "RPN-2VMN-A400-L", description: "Releu de monitorizare, seria RPN" },
+      { code: "RPN-1A..-A230", description: "Releu de monitorizare, seria RPN" },
+      { code: "RPN-1TMP-A230", description: "Releu de monitorizare, seria RPN" },
+      { code: "RPN-1AT-A230", description: "Releu de monitorizare, seria RPN" },
+      { code: "R50A", description: "Releu electromagnetic de putere" },
+      { code: "R90A", description: "Releu electromagnetic de putere" },
+      { code: "R2B", description: "Releu bistabil industrial" },
+      { code: "R3B", description: "Releu bistabil industrial" },
+      { code: "R4B", description: "Releu bistabil industrial" },
+      { code: "RUC", description: "Releu cu soclu" },
       { code: "RM84", description: "Releu industrial cu soclu" },
       { code: "RM85", description: "Releu industrial cu soclu" },
       { code: "RM87", description: "Releu industrial cu soclu" },
@@ -753,7 +753,7 @@ Pentru instalațiile din România, gama Relpol e relevantă la mentenanța panou
       { code: "SIR6WB", description: "Releu de interfață compact, variantă B" },
     ],
     faq: [
-      { q: "Ce produce Relpol?", a: "Relpol produce relee electromagnetice miniaturale (seriile R, RM), relee de instalație RPN, relee statice RSR, contactoare de instalație RXC și relee de interfață PI și SIR, prezentându-se drept unul dintre principalii producători polonezi de relee." },
+      { q: "Ce produce Relpol?", a: "Relpol produce relee electromagnetice (seriile R, RM), relee de monitorizare RPN, relee statice RSR, contactoare de instalație RXC și relee de interfață PI și SIR, prezentându-se drept unul dintre principalii producători polonezi de relee." },
       { q: "Cum aleg un releu Relpol după cod?", a: "Codul de pe releul existent, de exemplu RM84 sau RSR54, e cel mai sigur reper; în lipsa lui, tensiunea bobinei, numărul de contacte și curentul comutat permit identificarea variantei echivalente din gama Relpol." },
       { q: "Ce echivalent are un releu Finder la Relpol?", a: "Pentru releele de instalație standard există adesea echivalențe de soclu și funcție între branduri, dar confirmarea se face pe baza tensiunii bobinei, numărului de contacte și dimensiunilor soclului, nu doar a codului comercial." },
       { q: "Livrați relee Relpol în România și cât durează?", a: "Furnizăm prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria și cantitatea confirmate de producător pentru comanda dumneavoastră." },
@@ -761,8 +761,8 @@ Pentru instalațiile din România, gama Relpol e relevantă la mentenanța panou
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Relpol – Official Website", url: "https://www.relpol.pl/en", publisher: "Relpol S.A.", accessed: "2026-09-22" },
       { title: "Products – Relpol", url: "https://www.relpol.pl/en/products", publisher: "Relpol S.A.", accessed: "2026-09-22" },

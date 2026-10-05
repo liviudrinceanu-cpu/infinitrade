@@ -5,30 +5,30 @@ export const brandContentBatch61 = {
     name: "Rossi",
     founded: 1953,
     headquarters: "Modena, Italia",
-    overview: `Rossi este producătorul italian de reductoare, motoreductoare și motoare electrice fondat de Gilio Rossi la Modena, oraș cu tradiție puternică în mecanica industrială. Astăzi face parte din grupul Moovimenta, prezent în peste 70 de țări prin mai multe branduri de transmisie a puterii. Gama Rossi acoperă reductoare industriale cu roți dințate (seriile G, GX, H), reductoare planetare de mare cuplu (EP, EPS, EP King, EP Winch) și motoreductoare compacte pentru linii de producție (iFit, A, AS, E, SR). Pentru un integrator sau un service de mentenanță din România, Rossi înseamnă o gamă unică din care poți alege atât un motoreductor mic pentru o bandă transportoare, cât și un reductor planetar de vinci pentru utilaje grele.
+    overview: `Rossi este producătorul italian de reductoare, motoreductoare și motoare electrice fondat de Gilio Rossi la Modena, oraș cu tradiție puternică în mecanica industrială. Astăzi face parte din grupul Moovimenta, prezent în peste 70 de țări prin mai multe branduri de transmisie a puterii. Gama Rossi acoperă reductoare industriale cu roți dințate (seriile G, GX, H), reductoare planetare de mare cuplu (EP, EPS, EP King, EP Winch) și motoreductoare compacte pentru linii de producție (iFit, A, AS, E, SR). Pentru un integrator sau un service de mentenanță din România, Rossi înseamnă o gamă din care poți alege atât un motoreductor mic pentru o bandă transportoare, cât și un reductor planetar de vinci pentru utilaje grele.
 
-Ce diferențiază Rossi de alți producători italieni de reductoare (concurează direct cu Bonfiglioli sau Brevini) e lățimea gamei de cuplu: de la 30 Nm la motoreductoarele mici din seria A, până la 3.000.000 Nm la reductoarele planetare mari. Seria EP Winch, dedicată vinciurilor, vine în 5 mărimi cu cuplu de ieșire de până la 125.000 Nm, iar seria SR de motoreductoare servo e gândită pentru rigiditate torsională mare și joc unghiular minim.
+Ce diferențiază Rossi de alți producători italieni de reductoare (concurează direct cu Bonfiglioli sau Brevini) e lățimea gamei de cuplu: de la 30 Nm până la 3.000.000 Nm, pe ansamblul gamei. Seria EP Winch, dedicată vinciurilor, vine în 5 mărimi cu cuplu de ieșire de până la 125.000 Nm, iar seria SR de motoreductoare servo e gândită pentru rigiditate torsională mare și joc unghiular minim.
 
 Pentru piața din România, gama Rossi are sens acolo unde o linie de producție are nevoie fie de un motoreductor standard, fie de un reductor planetar pentru o aplicație grea — poduri rulante, mixere, benzi de mare capacitate. Certificările AGMA, GL și CTI contează în special în marină și în aplicații reglementate.`,
     whyChoose: [
-      "Gamă de cuplu foarte largă — de la 30 Nm la motoreductoare compacte până la 3.000.000 Nm la reductoare planetare",
+      "Gamă de cuplu foarte largă — de la 30 Nm până la 3.000.000 Nm",
       "Serie dedicată pentru vinciuri (EP Winch), 5 mărimi, cuplu de ieșire până la 125.000 Nm",
       "Motoreductoare servo seria SR cu joc unghiular minim, pentru automatizări de precizie",
-      "Parte din grupul Moovimenta, cu rețea de service în peste 70 de țări",
+      "Parte din grupul Moovimenta, prezent în peste 70 de țări",
       "Certificări ISO 9001, AGMA, GL, CTI, relevante pentru aplicații marine și reglementate"
     ],
     keyProducts: [
-      { name: "Reductoare Industriale Seria H", description: "Reductoare mari cu roți dințate, concepute pentru fiabilitate maximă în cele mai grele condiții de aplicație, cu variante multiple de montare. Folosite acolo unde solicitarea mecanică e constantă și oprirea neplanificată costă mult — mori, concasoare, transportoare de mare capacitate. Clientul trebuie să confirme puterea, raportul de transmisie și tipul de montaj." },
+      { name: "Reductoare Industriale Seria H", description: "Reductoare mari cu roți dințate, concepute pentru fiabilitate ridicată în condiții grele de aplicație, cu variante multiple de montare. Folosite acolo unde solicitarea mecanică e constantă și oprirea neplanificată costă mult — mori, concasoare, transportoare de mare capacitate. Clientul trebuie să confirme puterea, raportul de transmisie și tipul de montaj." },
       { name: "Reductoare Planetare Seria EP / EP King", description: "Reductoare epicicloidale de mare cuplu, cu cuplu de ieșire ridicat, capacitate mare la sarcină pe rulmenți și randament ridicat. Seria EP King e modulară, gândită pentru soluții personalizate acolo unde geometria instalației cere o configurație specifică. Aplicații tipice: mixere industriale, mecanisme de pivotare, benzi transportoare grele. Pentru ofertă e nevoie de cuplul necesar, turația de intrare și tipul de montaj." },
-      { name: "Reductoare pentru Vinciuri Seria EP Winch", description: "Reductoare planetare dedicate exclusiv acționării vinciurilor, disponibile în 5 mărimi (030A–125A) cu cuplu de ieșire de până la 125.000 Nm. Construcție compactă, gândită pentru montaj direct pe tamburul vinciului, cu frână integrabilă. Folosite în construcții, marină și ridicare de sarcini grele. Clientul trebuie să trimită sarcina de ridicat, viteza dorită și diametrul tamburului." },
-      { name: "Motoreductoare Seria iFit", description: "Familie de motoreductoare helicale în trei variante constructive — in linie (iFit-IC), conice (iFit-IO) și cu arbori paraleli (iFit-IP) — gândite ca înlocuire directă pentru instalații existente, cu interfețe de montaj standardizate. Aplicație tipică: benzi transportoare, agitatoare, linii de ambalare. Pentru ofertă e nevoie de puterea motorului, raportul de reducere și poziția arborilor." },
+      { name: "Reductoare pentru Vinciuri Seria EP Winch", description: "Reductoare planetare dedicate exclusiv acționării vinciurilor, disponibile în 5 mărimi (030A–125A) cu cuplu de ieșire de până la 125.000 Nm. Folosite în construcții, marină și ridicare de sarcini grele. Clientul trebuie să trimită sarcina de ridicat, viteza dorită și diametrul tamburului." },
+      { name: "Motoreductoare Seria iFit", description: "Familie de motoreductoare helicale în trei variante constructive — in linie (iFit-IC), conice (iFit-IO) și cu arbori paraleli (iFit-IP) — cu motoare compacte de eficiență IE3, ușor de configurat și de integrat. Aplicație tipică: benzi transportoare, agitatoare, linii de ambalare. Pentru ofertă e nevoie de puterea motorului, raportul de reducere și poziția arborilor." },
       { name: "Motoreductoare Servo Seria SR", description: "Motoreductoare de precizie pentru servomotoare, în variante coaxială, elicoidală/conică și cu roți melcate, cu joc unghiular minim și rigiditate torsională ridicată. Folosite în axe de poziționare și roboți industriali unde precizia contează mai mult decât puterea brută. Clientul trebuie să precizeze cuplul necesar și interfața de montaj." }
     ],
     industries: [
       "Construcții și ridicare — reductoare pentru vinciuri și macarale",
       "Minerit — reductoare industriale pentru concasoare și transportoare",
       "Marine — reductoare cu certificare GL pentru echipamente de punte",
-      "Alimentar — motoreductoare igienice pentru linii de ambalare",
+      "Alimentar — motoreductoare pentru linii de ambalare",
       "Prelucrarea metalelor — reductoare planetare pentru poduri rulante"
     ],
     infinitrade: `Aducem reductoare, motoreductoare și reductoare planetare Rossi la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea gamei alese. Lucrăm exclusiv cu surse publice ale producătorului pentru a identifica seria potrivită, fără date proprii despre stocul curent — nu promitem disponibilitate permanentă pentru un cod anume. Pentru o ofertă corectă avem nevoie de cuplul sau puterea necesară, raportul de transmisie, tipul de montaj și mediul de lucru. Pentru piese de schimb pe unități mai vechi, verificăm compatibilitatea pe baza codului de pe plăcuța motoreductorului.`,
@@ -53,7 +53,7 @@ Pentru piața din România, gama Rossi are sens acolo unde o linie de producție
       { code: "SR Worm", description: "Motoreductor servo cu roți melcate" }
     ],
     faq: [
-      { q: "Ce produce Rossi?", a: "Rossi produce reductoare industriale cu roți dințate, reductoare planetare de mare cuplu și motoreductoare compacte, sub un singur brand italian parte din grupul Moovimenta. Gama merge de la motoreductoare mici de 30 Nm până la reductoare planetare de 3.000.000 Nm, acoperind atât linii de producție ușoare, cât și utilaje grele de ridicare sau procesare." },
+      { q: "Ce produce Rossi?", a: "Rossi produce reductoare industriale cu roți dințate, reductoare planetare de mare cuplu și motoreductoare compacte, sub un singur brand italian parte din grupul Moovimenta. Gama acoperă cupluri de la 30 Nm până la 3.000.000 Nm, acoperind atât linii de producție ușoare, cât și utilaje grele de ridicare sau procesare." },
       { q: "Cum aleg reductorul Rossi potrivit după serie?", a: "Pornești de la aplicație: seria G/GX/H pentru reductoare industriale cu roți dințate, EP/EPS/EP King pentru cuplu mare la mecanisme de pivotare sau mixere, EP Winch pentru vinciuri, iar iFit sau A/AS/E pentru motoreductoare compacte de bandă. Trimite-ne cuplul necesar, turația de intrare și tipul de montaj pentru identificarea codului exact." },
       { q: "Livrați reductoare Rossi în România și cât durează?", a: "Da, aducem la comandă din rețeaua de aprovizionare europeană a producătorului, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea gamei și a configurației alese. Nu ținem această gamă pe raft, așa că termenul exact depinde de disponibilitatea la producător pentru codul solicitat." },
       { q: "Ce echivalent are un reductor Rossi vechi care nu mai e în producție?", a: "Verificăm codul de pe plăcuța motoreductorului sau reductorului și căutăm echivalentul actual în gama Rossi curentă, comparând cuplul, raportul de transmisie și interfața de montaj. Pentru o identificare corectă avem nevoie de fotografii ale plăcuței și, dacă există, de desenul de montaj al instalației." },
@@ -61,8 +61,8 @@ Pentru piața din România, gama Rossi are sens acolo unde o linie de producție
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Industrial gear boxes and gearmotors", url: "https://www.rossi.com/en/Products/Industrial-Gear-Units", publisher: "Rossi S.p.A.", accessed: "2026-09-22" },
       { title: "About Us - Rossi", url: "https://www.rossi.com/en-US/About-Us", publisher: "Rossi S.p.A.", accessed: "2026-09-22" },
@@ -72,23 +72,23 @@ Pentru piața din România, gama Rossi are sens acolo unde o linie de producție
   brevini: {
     name: "Brevini",
     headquarters: "Reggio Emilia, Italia",
-    overview: `Brevini e un brand italian de reductoare planetare, transmisii elicoidal-conice și vinciuri, cu sediul la Reggio Emilia. Operat astăzi de Dana Motion Systems Italia S.r.l. sub umbrela Allison Off-Highway (divizia de echipamente off-highway a Allison Transmission), Brevini rămâne numele tehnic recunoscut pentru gama de transmisii mecanice combinate cu componente hidraulice și electronice. Pentru o companie din România care caută o transmisie planetară de mare cuplu sau un vinci pentru utilaje grele, Brevini oferă o gamă construită special pentru condiții dificile — de la șantiere la platforme marine.
+    overview: `Brevini e un brand italian de reductoare planetare, transmisii elicoidal-conice și vinciuri, cu sediul la Reggio Emilia. Operat astăzi de Dana Motion Systems Italia S.r.l. sub umbrela Allison Off-Highway (divizia de echipamente off-highway a Allison Transmission), Brevini este numele sub care se comercializează gama de transmisii mecanice combinate cu componente hidraulice și electronice. Pentru o companie din România care caută o transmisie planetară de mare cuplu sau un vinci pentru utilaje grele, Brevini oferă o gamă construită special pentru condiții dificile — de la șantiere la platforme marine.
 
-Ce diferențiază gama Brevini e seria S de reductoare planetare, care acoperă cupluri de la 34.000 la 2.170.000 Nm, cu certificare de tip DNV și evaluare de proiectare ABS pentru aplicații marine — un nivel de acoperire comparabil cu Bonfiglioli sau Rossi pe segmentul industrial greu, dar orientat mai puternic spre off-highway și marine. Completează gama reductoarele elicoidal-conice (Helical Bevel), mecanismele de rotire (Slewing Drives), reductoarele compacte plano-elicoidale Posiplan și vinciurile cu acționare hidraulică integrată, gândite să funcționeze fără componente auxiliare de transmisie.
+Ce diferențiază gama Brevini e seria S de reductoare planetare, care acoperă cupluri de la 34.000 la 2.170.000 Nm, cu certificare de tip DNV și evaluare de proiectare ABS pentru aplicații marine. Completează gama reductoarele elicoidal-conice (Helical Bevel), mecanismele de rotire (Slewing Drives), reductoarele compacte plano-elicoidale Posiplan și vinciurile cu acționare hidraulică integrată, gândite să funcționeze fără componente auxiliare de transmisie.
 
 Pentru România, Brevini are sens în utilaje de construcții, echipamente de manipulare materiale, minerit și aplicații marine/portuare, acolo unde o transmisie planetară trebuie să reziste la sarcini de șoc și funcționare continuă în condiții grele. Proiectarea conform ISO 6336 pentru angrenaje și disponibilitatea certificărilor marine fac din Brevini o opțiune relevantă acolo unde clientul are nevoie de documentație de clasificare navală.`,
     whyChoose: [
       "Serie S de reductoare planetare cu cuplu de la 34.000 la 2.170.000 Nm, cu certificare de tip DNV pentru aplicații marine",
       "Gamă completă: planetare, elicoidal-conice, mecanisme de rotire, reductoare compacte Posiplan și vinciuri",
       "Proiectare de angrenaje conform ISO 6336, cu evaluare de proiectare ABS disponibilă pentru unități marine",
-      "Reducere de spațiu și greutate de 40-60% față de alternativele elicoidale clasice, la cuplu echivalent",
+      "Economie potențială de spațiu și greutate de 40-60% față de soluțiile elicoidale clasice, conform producătorului",
       "Parte din rețeaua globală Allison Off-Highway, cu prezență în agricultură, construcții și industrie grea"
     ],
     keyProducts: [
       { name: "Reductoare Planetare Seria S", description: "Reductoare planetare industriale cu cuplu de ieșire de la 34.000 la 2.170.000 Nm, construcție modulară din componente standard, disponibile cu frâne multidisc negative integrate. Certificate de tip DNV și evaluate ABS pentru aplicații marine și offshore, conform standardului ISO 6336 pentru proiectarea angrenajelor. Aplicație tipică: mecanisme de rotire, vinciuri de mare capacitate, benzi transportoare grele. Clientul trebuie să confirme cuplul necesar, turația de intrare și tipul de frână." },
       { name: "Reductoare Elicoidal-Conice (Helical Bevel)", description: "Familie de reductoare cu roți dințate elicoidale și conice, folosite pentru transmisii de putere unde e nevoie de schimbarea direcției axei și de un raport de reducere ridicat într-un singur corp compact. Aplicații în manipularea materialelor și în echipamente industriale unde spațiul de montaj e limitat. Pentru ofertă e nevoie de puterea motorului, raportul de transmisie și configurația arborilor." },
-      { name: "Mecanisme de Rotire (Slewing Drives)", description: "Sisteme complete de rotire, cu reductor planetar și rulment de rotire integrate, folosite pentru rotirea braței la excavatoare, macarale sau platforme de foraj. Construcție compactă, gândită pentru montaj direct fără elemente de transmisie suplimentare. Clientul trebuie să trimită momentul de rotire necesar și diametrul de montaj disponibil." },
-      { name: "Vinciuri și Transmisii pentru Vinciuri (Winches & Winch Drives)", description: "Vinciuri complete și transmisii dedicate de acționare a vinciurilor, pentru operațiuni de tracțiune și ridicare în construcții, marine și manipulare materiale. Integrează reductorul planetar cu motorul hidraulic și frâna într-un singur ansamblu. Pentru ofertă e nevoie de sarcina de tracțiune, viteza dorită și diametrul tamburului." }
+      { name: "Mecanisme de Rotire (Slewing Drives)", description: "Mecanisme de rotire din gama Brevini; configurația și datele tehnice se confirmă pe cod, din documentația producătorului. Construcție compactă, gândită pentru montaj direct fără elemente de transmisie suplimentare. Clientul trebuie să trimită momentul de rotire necesar și diametrul de montaj disponibil." },
+      { name: "Vinciuri și Transmisii pentru Vinciuri (Winches & Winch Drives)", description: "Vinciuri complete și transmisii dedicate de acționare a vinciurilor, pentru operațiuni de tracțiune și ridicare în construcții, marine și manipulare materiale. Pentru ofertă e nevoie de sarcina de tracțiune, viteza dorită și diametrul tamburului." }
     ],
     industries: [
       "Construcții — mecanisme de rotire pentru excavatoare și macarale",
@@ -99,18 +99,18 @@ Pentru România, Brevini are sens în utilaje de construcții, echipamente de ma
       "Deșeuri și reciclare — vinciuri și transmisii pentru echipamente de manipulare"
     ],
     infinitrade: `Furnizăm reductoare planetare, mecanisme de rotire și vinciuri Brevini pe baza informațiilor publice din gama Dana Motion Systems / Allison Off-Highway, fără date proprii despre stocul curent al producătorului. Aducem la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de configurația exactă și de confirmarea de la fabrică. Pentru o ofertă corectă avem nevoie de cuplul sau sarcina de tracțiune necesară, raportul de transmisie, tipul de frână (dacă e cazul) și, pentru aplicații marine, cerințele de certificare. Nu promitem disponibilitate din depozit pentru o mărime anume din seria S sau pentru o configurație de vinci — fiecare cerere se verifică punctual la producător înainte de confirmare.`,
-    limitation: "Nu confirmăm anul fondării companiei din surse oficiale și nu oferim configurare software pentru sistemele electronice asociate transmisiilor Brevini.",
+    limitation: "Nu oferim configurare software pentru sistemele electronice asociate transmisiilor Brevini.",
     productCodes: [
-      { code: "S-Series (Planetary Gearboxes)", description: "Reductoare planetare, cuplu 34.000-2.170.000 Nm" },
-      { code: "Industrial Planetary Gearboxes", description: "Familie generală de reductoare planetare industriale" },
-      { code: "Slewing Drives", description: "Mecanisme complete de rotire cu reductor integrat" },
-      { code: "Helical Bevel Gearboxes", description: "Reductoare elicoidal-conice cu schimbare de axă" },
-      { code: "Posiplan (Compact Plano-Helical)", description: "Reductoare compacte plano-elicoidale" },
-      { code: "Winches", description: "Vinciuri complete pentru tracțiune și ridicare" },
-      { code: "Winch Drives", description: "Transmisii dedicate de acționare a vinciurilor" },
-      { code: "Gearmotors", description: "Motoreductoare din gama Brevini" },
-      { code: "Pump Drives", description: "Transmisii pentru acționarea pompelor hidraulice" },
-      { code: "Electronics", description: "Componente electronice de control pentru transmisii" }
+      { code: "Seria S (reductoare planetare)", description: "Reductoare planetare, cuplu 34.000-2.170.000 Nm" },
+      { code: "Reductoare planetare industriale", description: "Familie generală de reductoare planetare industriale" },
+      { code: "Mecanisme de rotire", description: "Mecanisme complete de rotire cu reductor integrat" },
+      { code: "Reductoare elicoidal-conice", description: "Reductoare elicoidal-conice cu schimbare de axă" },
+      { code: "Posiplan (reductoare compacte plano-elicoidale)", description: "Reductoare compacte plano-elicoidale" },
+      { code: "Vinciuri", description: "Vinciuri complete pentru tracțiune și ridicare" },
+      { code: "Transmisii pentru vinciuri", description: "Transmisii dedicate de acționare a vinciurilor" },
+      { code: "Motoreductoare", description: "Motoreductoare din gama Brevini" },
+      { code: "Transmisii pentru pompe", description: "Transmisii pentru acționarea pompelor hidraulice" },
+      { code: "Componente electronice", description: "Componente electronice de control pentru transmisii" }
     ],
     faq: [
       { q: "Ce produce Brevini?", a: "Brevini produce reductoare planetare, reductoare elicoidal-conice, mecanisme de rotire și vinciuri, sub Dana Motion Systems Italia și grupul Allison Off-Highway. Seria S de reductoare planetare acoperă cupluri de la 34.000 la peste 2.000.000 Nm, cu certificare DNV pentru aplicații marine." },
@@ -121,8 +121,8 @@ Pentru România, Brevini are sens în utilaje de construcții, echipamente de ma
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Brevini Power Transmission - Company", url: "https://www.brevinipowertransmission.com/", publisher: "Dana Motion Systems Italia S.r.l. (Allison Off-Highway)", accessed: "2026-09-22" },
       { title: "S-Series Planetary Gearboxes | Allison", url: "https://allisonoffhighway.com/product/planetary-gearboxes-brevini/", publisher: "Allison Off-Highway", accessed: "2026-09-22" },
@@ -133,9 +133,9 @@ Pentru România, Brevini are sens în utilaje de construcții, echipamente de ma
     name: "Flender",
     founded: 1910,
     headquarters: "Bocholt, Germania",
-    overview: `Flender e producătorul german de reductoare industriale, cuplaje și transmisii pentru turbine eoliene, cu sediul la Bocholt și 13 fabrici pe patru continente. Fondată în 1910, compania a intrat pe piața energiei eoliene încă din 1981, sub brandul Winergy, și rămâne unul dintre numele de referință pentru transmisiile mecanice grele. Pentru un integrator din România, Flender înseamnă acces la o gamă amplă — de la platforma modulară FLENDER ONE pentru reductoare industriale standard, până la reductoare speciale pentru mori verticale sau nave.
+    overview: `Flender e producătorul german de reductoare industriale, cuplaje și transmisii pentru turbine eoliene, cu sediul la Bocholt și 13 locații de producție la nivel mondial. Fondată în 1910, compania este prezentă de peste 40 de ani pe piața energiei eoliene, sub brandul Winergy. Pentru un integrator din România, Flender înseamnă acces la o gamă amplă — de la platforma modulară FLENDER ONE pentru reductoare industriale standard, până la reductoare speciale pentru mori verticale sau nave.
 
-Ce diferențiază Flender de alți producători germani de reductoare (concurează cu Siemens și cu propriile linii moștenite din grupul Siemens, dar și cu Bonfiglioli sau SEW pe segmentul industrial) e acoperirea pe aplicații foarte specializate: seria PLANUREX pentru mori de ciment și materiale de construcție, seria KM (KMP, KMPS, KM2P) pentru mori verticale, și seria NAVILUS pentru transmisii marine — de la reductoare cu o singură intrare/ieșire până la reductoare de generator sau pentru dragă. Cuplajele Flender acoperă practic orice tip de aplicație: flexibile, torsional rigide, hidrodinamice, fără joc unghiular sau de siguranță.
+Ce diferențiază Flender de alți producători germani de reductoare e acoperirea pe aplicații foarte specializate: seria PLANUREX pentru mori de ciment și materiale de construcție, seria KM (KMP, KMPS, KM2P) pentru mori verticale, și seria NAVILUS pentru transmisii marine — de la reductoare cu o singură intrare/ieșire până la reductoare de generator sau pentru dragă. Gama de cuplaje Flender include variante flexibile, torsional rigide, hidrodinamice, fără joc unghiular sau de siguranță.
 
 Pentru piața din România, gama Flender are sens în instalații de ciment, hârtie, minerit, energie și porturi, acolo unde un reductor trebuie să funcționeze continuu ani la rând fără oprire neplanificată. Prezența Flender în peste 17 sectoare industriale, de la chimie la apărare, arată o gamă gândită pentru aplicații foarte diferite, nu doar pentru o nișă.`,
     whyChoose: [
@@ -143,7 +143,7 @@ Pentru piața din România, gama Flender are sens în instalații de ciment, hâ
       "Serii dedicate pentru aplicații grele — PLANUREX pentru mori de ciment, KM pentru mori verticale, NAVILUS pentru marine",
       "Gamă completă de cuplaje — flexibile, rigide torsional, hidrodinamice, fără joc unghiular, de siguranță și feroviare",
       "Prezență în peste 17 sectoare industriale, de la chimie și energie la porturi și apărare",
-      "13 fabrici pe patru continente, cu experiență din 1981 și în transmisii pentru turbine eoliene (Winergy)"
+      "13 locații de producție la nivel mondial și peste 40 de ani de experiență în transmisii pentru turbine eoliene (Winergy)"
     ],
     keyProducts: [
       { name: "Reductoare Industriale FLENDER ONE", description: "Platformă modulară de reductoare industriale, disponibilă în variante cu o treaptă sau multi-treaptă, gândită să acopere peste 100 de tipuri de aplicații standard cu un număr redus de componente de bază. Folosită pentru transportoare, agitatoare, pompe și ventilatoare industriale. Clientul trebuie să trimită puterea motorului, raportul de transmisie și tipul de montaj pentru identificarea configurației exacte." },
@@ -165,23 +165,23 @@ Pentru piața din România, gama Flender are sens în instalații de ciment, hâ
       { code: "FLENDER ONE", description: "Platformă modulară de reductoare industriale, mono/multi-treaptă" },
       { code: "PLANUREX 2", description: "Reductor planetar standard pentru mori" },
       { code: "PLANUREX 3", description: "Reductor planetar standard, variantă extinsă" },
-      { code: "PLANUREX Central Mill Gearbox", description: "Reductor planetar central pentru mori de ciment" },
-      { code: "PLANUREX for Slewing Drives", description: "Reductor planetar pentru mecanisme de rotire" },
+      { code: "PLANUREX pentru mori centrale", description: "Reductor planetar central pentru mori de ciment" },
+      { code: "PLANUREX pentru mecanisme de rotire", description: "Reductor planetar pentru mecanisme de rotire" },
       { code: "KMP", description: "Reductor pentru mori verticale" },
-      { code: "KMPS", description: "Reductor pentru mori verticale, variantă cu sarcină axială mare" },
-      { code: "KM2P", description: "Reductor pentru mori verticale, configurație dublă" },
+      { code: "KMPS", description: "Reductor pentru mori verticale" },
+      { code: "KM2P", description: "Reductor pentru mori verticale" },
       { code: "NAVILUS", description: "Reductor marin, configurații pentru propulsie și generator" },
       { code: "Flender SIP", description: "Reductor industrial din gama Flender" },
-      { code: "Single Screw Extruder Gear Unit", description: "Reductor pentru extrudere cu un singur șurub" },
-      { code: "Double Screw Extruder Gearbox", description: "Reductor pentru extrudere cu două șuruburi" },
-      { code: "Gear Unit for Aerator", description: "Reductor pentru sisteme de aerare" },
+      { code: "Reductor pentru extrudere cu un singur șurub", description: "Reductor pentru extrudere cu un singur șurub" },
+      { code: "Reductor pentru extrudere cu două șuruburi", description: "Reductor pentru extrudere cu două șuruburi" },
+      { code: "Reductor pentru aeratoare", description: "Reductor pentru sisteme de aerare" },
       { code: "N-EUPEX (cuplaje flexibile)", description: "Cuplaj flexibil pentru transmisii industriale" },
       { code: "Cuplaje rigide torsional", description: "Cuplaje fără elasticitate pentru transmisie directă" },
       { code: "Cuplaje hidrodinamice", description: "Cuplaje cu fluid pentru pornire lină" },
       { code: "Cuplaje de siguranță", description: "Cuplaje cu decuplare la suprasarcină" }
     ],
     faq: [
-      { q: "Ce produce Flender?", a: "Flender produce reductoare industriale, cuplaje mecanice și transmisii pentru turbine eoliene, cu platforma modulară FLENDER ONE pentru aplicații standard și serii dedicate — PLANUREX și KM pentru mori, NAVILUS pentru marine. Compania are 13 fabrici pe patru continente și sediul la Bocholt, Germania." },
+      { q: "Ce produce Flender?", a: "Flender produce reductoare industriale, cuplaje mecanice și transmisii pentru turbine eoliene, cu platforma modulară FLENDER ONE pentru aplicații standard și serii dedicate — PLANUREX și KM pentru mori, NAVILUS pentru marine. Compania are 13 locații de producție la nivel mondial și sediul la Bocholt, Germania." },
       { q: "Cum aleg reductorul Flender potrivit pentru o moară de ciment?", a: "Pentru mori orizontale verifici seria PLANUREX (2 sau 3, sau varianta pentru mori centrale), iar pentru mori verticale seria KM, în funcție de puterea de acționare și diametrul mesei. Trimite-ne cuplul necesar și tipul exact de moară pentru identificarea configurației." },
       { q: "Ce echivalent are un reductor Flender mai vechi, ieșit din producție?", a: "Verificăm codul de pe plăcuța reductorului și căutăm corespondentul actual în platforma FLENDER ONE sau în seria dedicată aplicației (PLANUREX, KM, NAVILUS). Ai nevoie să trimiți fotografii ale plăcuței și, dacă există, desenul de montaj." },
       { q: "Livrați reductoare Flender în România și cât durează?", a: "Da, le aducem la comandă prin canalele europene de aprovizionare ale producătorului, cu termen orientativ de 1–4 săptămâni în funcție de configurație. Nu ținem pe raft, așa că termenul exact depinde de confirmarea de la fabrica producătoare." },
@@ -189,8 +189,8 @@ Pentru piața din România, gama Flender are sens în instalații de ciment, hâ
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Flender - Home", url: "https://www.flender.com/en", publisher: "Flender GmbH", accessed: "2026-09-22" },
       { title: "Flender - Products", url: "https://www.flender.com/en/products", publisher: "Flender GmbH", accessed: "2026-09-22" },
@@ -201,18 +201,18 @@ Pentru piața din România, gama Flender are sens în instalații de ciment, hâ
     name: "Hansen",
     founded: 1923,
     headquarters: "Edegem, Belgia",
-    overview: `Hansen Industrial Transmissions e producătorul belgian de reductoare industriale mari, cu rădăcini din 1923 la Antwerp (sub numele La Mécanique Générale) și fabrica actuală la Edegem, lângă portul Antwerp. Din 2018 face parte din grupul Sumitomo Drive Technologies, alături de brandul Sumitomo, dar linia de produse Hansen și-a păstrat identitatea și gama tehnică proprie. Pentru o companie din România, Hansen înseamnă reductoare mari, robuste, pentru aplicații unde oprirea neplanificată e foarte costisitoare — mori, mixere industriale sau linii de răcire.
+    overview: `Hansen Industrial Transmissions e producătorul belgian de reductoare industriale mari, cu rădăcini din 1923 la Antwerp (sub numele La Mécanique Générale) și fabrica actuală la Edegem, lângă portul Antwerp. Face parte din grupul Sumitomo Drive Technologies, alături de brandul Sumitomo, dar linia de produse Hansen și-a păstrat identitatea și gama tehnică proprie. Pentru o companie din România, Hansen înseamnă reductoare mari, robuste, pentru aplicații unde oprirea neplanificată e foarte costisitoare — mori, mixere industriale sau linii de răcire.
 
 Ce diferențiază Hansen în gama Sumitomo (concurează pe segmentul reductoarelor mari cu Flender sau cu propria linie Paramax a Sumitomo) e seria P4, disponibilă în variante cu o treaptă (Single Stage), multi-treaptă orizontală sau verticală și o configurație specială pentru mineritul de suprafață (UniMiner). Reductorul P4 Multistage Horizontal oferă cuplu de ieșire de până la 1.100 kNm, rapoarte de transmisie de la 6,3:1 la 630:1, cu 2 până la 4 trepte de reducere și 19 mărimi disponibile — o plajă suficient de largă pentru majoritatea aplicațiilor industriale grele. Sistemul de etanșare Oil-lock, proiectat să țină uleiul înăuntru și murdăria afară, reduce nevoia de întreținere periodică costisitoare.
 
 Fabrica de la Edegem produce circa 50 de reductoare pe săptămână pe o suprafață construită de 30.000 m², cu o echipă de aproximativ 270 de angajați și cercetare-dezvoltare proprie. Pentru România, Hansen are sens în minerit, industria alimentară, tratarea apelor și aplicații de răcire industrială, acolo unde un reductor cu carcasă despicată facilitează inspecția fără golirea uleiului.`,
     whyChoose: [
-      "Serie P4 cu cuplu de ieșire de până la 1.100 kNm și rapoarte de transmisie de la 6,3:1 la 630:1",
-      "19 mărimi disponibile în seria P4 Multistage, cu 2 până la 4 trepte de reducere, pentru acoperire largă de aplicații",
+      "Serie P4 cu cuplu de ieșire de până la 1.100 kNm și rapoarte de transmisie de la 1,2:1 la 630:1, în funcție de variantă",
+      "19 mărimi în varianta P4 Multistage Horizontal (20 în varianta verticală), cu 2 până la 4 trepte de reducere",
       "Sistem de etanșare Oil-lock, gândit să reducă frecvența intervențiilor de întreținere",
       "Carcasă despicată cu capac mare de inspecție, pentru verificare fără golirea uleiului",
       "Fabrică dedicată la Edegem, cu circa 270 de angajați și capacitate de 50 de reductoare pe săptămână",
-      "Parte din grupul Sumitomo Drive Technologies, cu acces la o rețea globală de service"
+      "Parte din grupul Sumitomo Drive Technologies"
     ],
     keyProducts: [
       { name: "Reductor P4 Multistage Horizontal", description: "Reductor industrial orizontal cu 2, 3 sau 4 trepte de reducere, cuplu de ieșire de până la 1.100 kNm (9,7 milioane lb-in), rapoarte de transmisie de la 6,3:1 la 630:1 și viteză de intrare de până la 1.800 rpm, disponibil în 19 mărimi. Angrenaje elicoidale și elicoidal-conice conform AGMA, arbore de ieșire solid sau gol, lubrifiere prin stropire sau forțată. Aplicație tipică: procesarea alimentelor, extracția minereurilor, tratarea apelor, sisteme de răcire." },
@@ -244,15 +244,15 @@ Fabrica de la Edegem produce circa 50 de reductoare pe săptămână pe o supraf
     ],
     faq: [
       { q: "Ce produce Hansen Industrial Transmissions?", a: "Hansen produce reductoare industriale mari, din familia P4 (single stage, multistage orizontal și vertical, și varianta UniMiner pentru minerit) și M4/M5CT, cu cuplu de ieșire de până la 1.100 kNm. Compania are fabrica la Edegem, Belgia, și face parte din grupul Sumitomo Drive Technologies." },
-      { q: "Cum aleg reductorul Hansen P4 potrivit după cuplu?", a: "Verifici cuplul de ieșire necesar în plaja seriei P4 (rapoarte 6,3:1 până la 630:1, 2-4 trepte) și alegi orientarea potrivită aplicației — orizontală, verticală sau single stage. Trimite-ne cuplul, turația de intrare și orientarea de montaj pentru identificarea mărimii exacte." },
-      { q: "Ce echivalent are un reductor Hansen mai vechi din gama P3?", a: "Verificăm codul de pe plăcuța reductorului și comparăm cuplul de ieșire și raportul de transmisie cu gama P4 actuală, care a preluat funcțiile seriilor anterioare. Ai nevoie să trimiți fotografii ale plăcuței pentru o identificare corectă." },
+      { q: "Cum aleg reductorul Hansen P4 potrivit după cuplu?", a: "Verifici cuplul de ieșire necesar în plaja seriei P4 (rapoarte de la 1,2:1 până la 630:1, în funcție de variantă) și alegi orientarea potrivită aplicației — orizontală, verticală sau single stage. Trimite-ne cuplul, turația de intrare și orientarea de montaj pentru identificarea mărimii exacte." },
+      { q: "Ce echivalent are un reductor Hansen mai vechi?", a: "Verificăm codul de pe plăcuța reductorului și comparăm cuplul de ieșire și raportul de transmisie cu gama actuală. Ai nevoie să trimiți fotografii ale plăcuței pentru o identificare corectă." },
       { q: "Livrați reductoare Hansen în România și în cât timp?", a: "Da, le aducem la comandă prin canalele europene de aprovizionare, cu termen orientativ de 1–4 săptămâni în funcție de mărimea și configurația din seria P4 solicitată. Nu ținem pe raft pentru aceste reductoare." },
-      { q: "Ce trebuie să trimit pentru o ofertă Hansen P4?", a: "Ai nevoie să ne trimiți cuplul de ieșire necesar, turația de intrare, raportul de transmisie dorit, orientarea de montaj și mediul de lucru (praf, umiditate, temperatură). Cu aceste date verificăm mărimea potrivită din cele 19 disponibile în gama P4." }
+      { q: "Ce trebuie să trimit pentru o ofertă Hansen P4?", a: "Ai nevoie să ne trimiți cuplul de ieșire necesar, turația de intrare, raportul de transmisie dorit, orientarea de montaj și mediul de lucru (praf, umiditate, temperatură). Cu aceste date verificăm mărimea potrivită din gama P4 (19 mărimi la varianta orizontală, 20 la cea verticală)." }
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hansen Industrial Gearboxes", url: "https://us.sumitomodrive.com/en-us/hansen-industrial-gearboxes", publisher: "Sumitomo Drive Technologies", accessed: "2026-09-22" },
       { title: "Hansen Industrial Transmissions NV, Edegem", url: "https://us.sumitomodrive.com/en-us/facility/hansen-industrial-transmissions-nv-edegem", publisher: "Sumitomo Drive Technologies", accessed: "2026-09-22" },
@@ -273,8 +273,8 @@ Pentru piața din România, gama Sumitomo are sens în aeroporturi, industria al
       "Gamă foarte largă — de la motoreductoare cicloidale Cyclo compacte până la reductoare industriale Paramax 9000",
       "Variante specializate pe aplicație — Paramax SFC pentru turnuri de răcire, Paramax SEB pentru extrudere",
       "Motoare electrice proprii de eficiență ridicată — inducție IE3 și sincrone IE5 — pentru cuplare directă cu reductoarele",
-      "Prezență în peste 16 sectoare industriale, de la aeroporturi la industria cerealelor",
-      "Parte din grupul Sumitomo Heavy Industries, cu istorie din 1888 și rețea globală de producție și service"
+      "Prezență în 16 sectoare industriale, de la aeroporturi la industria cerealelor",
+      "Parte din grupul Sumitomo Heavy Industries, cu istorie din 1888 și prezență internațională"
     ],
     keyProducts: [
       { name: "Reductoare Industriale Paramax 9000", description: "Familie de reductoare paralele și în unghi drept, disponibile atât ca reductor simplu cât și ca motoreductor complet (Paramax 9000 Series Gearmotor / Reducer), cu opțiuni de reducere dublă, triplă sau cvadruplă. Aplicație tipică: transport de materiale în vrac, mixere, concasoare, cuptoare rotative, macarale. Clientul trebuie să confirme puterea necesară, raportul de transmisie și tipul de montaj." },
@@ -298,7 +298,7 @@ Pentru piața din România, gama Sumitomo are sens în aeroporturi, industria al
       { code: "Paramax SFC", description: "Reductor pentru turnuri de răcire" },
       { code: "Paramax SEB", description: "Reductor pentru aplicații de extrudere" },
       { code: "Cyclo (motoreductor cicloidal)", description: "Motoreductor cu rezistență la șocuri de sarcină" },
-      { code: "BBB4", description: "Reductor de viteză din gama Sumitomo" },
+      { code: "BBB4", description: "Reductor din gama Sumitomo; detaliile se confirmă pe cod, din documentația producătorului" },
       { code: "Servo-reductoare (Servo Gearboxes)", description: "Reductoare de precizie pentru axe servo" },
       { code: "Reductoare de precizie (Precision)", description: "Reductoare cicloidale de precizie" },
       { code: "Motor IE3 (inducție)", description: "Motor electric de inducție, eficiență IE3" },
@@ -314,8 +314,8 @@ Pentru piața din România, gama Sumitomo are sens în aeroporturi, industria al
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Sumitomo Drive Technologies - Home", url: "https://us.sumitomodrive.com/en-us", publisher: "Sumitomo Drive Technologies", accessed: "2026-09-22" },
       { title: "Find the Perfect Large Industrial Gearbox from Sumitomo", url: "https://us.sumitomodrive.com/en-us/large-industrial-gearboxes", publisher: "Sumitomo Drive Technologies", accessed: "2026-09-22" },
@@ -337,11 +337,11 @@ Pentru piața din România, gama Ziehl-Abegg are sens în refrigerare comercial�
       "Certificare de management energetic ISO 50001 și de mediu ISO 14001",
       "Extensie neobișnuită în tehnologia de acționare pentru mașini de lift (ZAdisc, ZAsyn, ZAtop, ZAtopx)",
       "Statut AEO (Authorised Economic Operator), relevant pentru importuri și vămuire simplificată",
-      "Peste un secol de activitate, cu sediul central și producție concentrată la Künzelsau"
+      "Peste un secol de activitate, cu sediul central la Künzelsau și mai multe locații de producție în Germania, Franța, Ungaria și SUA"
     ],
     keyProducts: [
       { name: "Ventilatoare Axiale Seria FE/FF/FP owlet", description: "Familie de ventilatoare axiale de eficiență ridicată, cu design aerodinamic al paletelor pentru reducerea zgomotului și a consumului energetic. Folosite în refrigerare comercială (vitrine, camere frigorifice) și în ventilația clădirilor. Clientul trebuie să trimită debitul de aer necesar, presiunea statică și dimensiunea de montaj disponibilă." },
-      { name: "Ventilatoare Centrifugale Seria Za", description: "Gamă de ventilatoare centrifugale de mare eficiență, cu variante ZAplus, ZAcube, ZAbluefin, ZAsilo și ZAvblue, adaptate pentru aplicații de la ventilație generală la sisteme de siloz. Aplicație tipică: instalații de ventilație industrială și sisteme de exhaustare. Pentru ofertă e nevoie de debitul de aer, presiunea necesară și spațiul de montaj." },
+      { name: "Ventilatoare Centrifugale Seria Za", description: "Gamă de ventilatoare centrifugale de mare eficiență, cu variante ZAcube, ZAbluefin, ZAsilo și ZAvblue, adaptate pentru aplicații de ventilație industrială. Aplicație tipică: instalații de ventilație industrială și sisteme de exhaustare. Pentru ofertă e nevoie de debitul de aer, presiunea necesară și spațiul de montaj." },
       { name: "Motoare EC cu Rotor Exterior", description: "Motoare electrice comutate electronic (EC), cu rotor exterior, gândite pentru cuplare directă cu ventilatoarele Ziehl-Abegg și pentru control fin al turației. Reduc consumul energetic față de motoarele AC clasice la debit variabil. Clientul trebuie să confirme puterea necesară și tipul de control al turației dorit." },
       { name: "Sisteme de Acționare pentru Lift ZAtop / ZAtopx", description: "Mașini de acționare pentru ascensoare, bazate pe motoare sincrone de eficiență ridicată, gândite pentru instalații fără cameră de mașini. Aplicație tipică: clădiri rezidențiale și comerciale cu cerințe de eficiență energetică ridicate. Pentru ofertă e nevoie de sarcina nominală a cabinei și viteza de deplasare." }
     ],
@@ -363,10 +363,10 @@ Pentru piața din România, gama Ziehl-Abegg are sens în refrigerare comercial�
       { code: "FFowlet", description: "Ventilator axial din familia owlet" },
       { code: "FPowlet", description: "Ventilator axial din familia owlet" },
       { code: "MAXventowlet", description: "Ventilator axial de mare capacitate" },
-      { code: "ZAplus", description: "Ventilator centrifugal din gama Za" },
+      { code: "ZAplus", description: "Ventilator axial din gama Za" },
       { code: "ZAcube", description: "Ventilator centrifugal compact" },
       { code: "ZAbluefin", description: "Ventilator centrifugal de eficiență ridicată" },
-      { code: "ZAsilo", description: "Ventilator centrifugal pentru sisteme de siloz" },
+      { code: "ZAsilo", description: "Ventilator centrifugal din gama Za" },
       { code: "ZAvblue", description: "Ventilator centrifugal din gama Za" },
       { code: "Motor EC rotor exterior", description: "Motor comutat electronic pentru ventilatoare" },
       { code: "Motor PMblue rotor interior", description: "Motor sincron cu magneți permanenți" },
@@ -381,8 +381,8 @@ Pentru piața din România, gama Ziehl-Abegg are sens în refrigerare comercial�
     ],
     evidenceClass: "zero-evidence",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ZIEHL-ABEGG - Home", url: "https://www.ziehl-abegg.com/en/", publisher: "ZIEHL-ABEGG SE", accessed: "2026-09-22" },
       { title: "Ziehl-Abegg", url: "https://en.wikipedia.org/wiki/Ziehl-Abegg", publisher: "Wikipedia", accessed: "2026-09-22" }
@@ -391,7 +391,7 @@ Pentru piața din România, gama Ziehl-Abegg are sens în refrigerare comercial�
   elektror: {
     name: "Elektror",
     headquarters: "Germania",
-    overview: `Elektror airsystems e un producător german de suflante industriale, ventilatoare și suflante cu canal lateral, cu prezență operațională în Germania, Austria, Cehia, Spania, Franța, Italia, Olanda, China, Danemarca și Polonia. Compania se descrie drept unul dintre producătorii de referință pentru suflante industriale, suflante cu canal lateral și ventilatoare de mare volum, cu echipamente disponibile în inox, oțel sau fontă. Pentru o companie din România, Elektror înseamnă o gamă de suflante gândită pentru aplicații industriale grele — aspirație, suflare, transport pneumatic sau generare de vid.
+    overview: `Elektror airsystems e un producător german de suflante industriale, ventilatoare și suflante cu canal lateral, cu sediul central și producție în Germania și societăți în alte opt țări (Austria, Franța, Italia, Olanda, Elveția, Danemarca, Polonia și China). Gama include suflante industriale, suflante cu canal lateral și ventilatoare de mare volum, cu echipamente disponibile în inox, oțel sau fontă. Pentru o companie din România, Elektror înseamnă o gamă de suflante gândită pentru aplicații industriale grele — aspirație, suflare, transport pneumatic sau generare de vid.
 
 Ce diferențiază Elektror de alți producători de suflante (concurează cu Aerzen sau Kaeser pe segmentul suflantelor industriale) e acoperirea foarte largă de presiune și debit: suflantele centrifugale din familiile A-HP, HRD, RD, ND și S (S-XP, S-HP, S-MP, S-LP, S-HE) acoperă aplicații de la presiune joasă la presiune înaltă, iar ventilatoarele de mare volum ajung la debite de până la 1 milion m³/h și presiuni de până la 750 mbar. Ventilatoarele axiale din gamă ating până la 200.000 m³/h și circa 5.200 Pa. Gama include și variante certificate ATEX pentru medii cu risc de explozie.
 
@@ -402,13 +402,13 @@ Pentru piața din România, Elektror are sens în aplicații de transport pneuma
       "Ventilatoare axiale cu debit de până la 200.000 m³/h, pentru aplicații de ventilație industrială de mare capacitate",
       "Variante certificate ATEX, pentru medii cu risc de explozie",
       "Construcție disponibilă în inox, oțel sau fontă, în funcție de mediul de lucru",
-      "Prezență operațională în 10 țări europene și în China, cu suport tehnic local"
+      "Prezență în Germania și în alte opt țări, inclusiv China"
     ],
     keyProducts: [
       { name: "Suflante Centrifugale Seria S (S-XP, S-HP, S-MP, S-LP, S-HE)", description: "Familie de suflante centrifugale acoperind plaja de la presiune joasă (S-LP) la presiune extra-înaltă (S-XP), cu variante de eficiență (S-HE) pentru consum energetic redus. Aplicație tipică: transport pneumatic, aspirație industrială, sisteme de vid. Clientul trebuie să confirme debitul necesar, presiunea de lucru și materialul de construcție dorit." },
-      { name: "Suflante Centrifugale A-HP / HRD / RD / ND", description: "Suflante centrifugale industriale pentru aplicații de presiune medie-înaltă, folosite în conversia pneumatică a materialelor și în procese de suflare/aspirație continuă. Construcție robustă pentru funcționare 24/7. Pentru ofertă e nevoie de debitul de aer necesar, presiunea diferențială și temperatura de lucru." },
-      { name: "Ventilatoare de Mare Volum (Large Volume Fans)", description: "Ventilatoare industriale pentru debite foarte mari, de până la 1 milion m³/h, cu presiuni de până la 750 mbar, folosite în ventilația industrială de mare capacitate și în sisteme de răcire de proces. Aplicație tipică: hale industriale mari, sisteme de evacuare a căldurii. Clientul trebuie să trimită debitul necesar și presiunea static necesară." },
-      { name: "Suflante cu Canal Lateral (Side Channel Blowers)", description: "Suflante cu canal lateral, disponibile în variante cu o treaptă sau cu două trepte (double-sided), pentru aplicații de vid și presiune joasă-medie fără ulei în fluxul de aer. Aplicație tipică: ambalare, transport pneumatic ușor, sisteme de vid pentru manipulare. Pentru ofertă e nevoie de debitul necesar și nivelul de vid sau presiune dorit." }
+      { name: "Suflante Centrifugale A-HP / HRD / RD / ND", description: "Suflante centrifugale industriale din aluminiu, de la presiune joasă (ND) și medie (RD) până la presiune înaltă (A-HP, HRD), folosite în procese de suflare și aspirație. Pentru ofertă e nevoie de debitul de aer necesar, presiunea diferențială și temperatura de lucru." },
+      { name: "Ventilatoare de Mare Volum (Large Volume Fans)", description: "Ventilatoare industriale pentru debite foarte mari, de până la 1 milion m³/h, cu presiuni de până la 750 mbar, folosite în ventilația industrială de mare capacitate și în sisteme de răcire de proces. Aplicație tipică: hale industriale mari, sisteme de evacuare a căldurii. Clientul trebuie să trimită debitul necesar și presiunea statică necesară." },
+      { name: "Suflante cu Canal Lateral (Side Channel Blowers)", description: "Suflante cu canal lateral, disponibile în variante cu o treaptă sau cu două trepte (double-stage), pentru aplicații de vid și presiune joasă-medie fără ulei în fluxul de aer. Aplicație tipică: ambalare, transport pneumatic ușor, sisteme de vid pentru manipulare. Pentru ofertă e nevoie de debitul necesar și nivelul de vid sau presiune dorit." }
     ],
     industries: [
       "Transport pneumatic — suflante pentru materiale ușoare, neabrazive",
@@ -434,20 +434,20 @@ Pentru piața din România, Elektror are sens în aplicații de transport pneuma
       { code: "Large Volume Fans", description: "Ventilator industrial, debit până la 1 milion m³/h" },
       { code: "Conveying Blowers", description: "Suflantă pentru transport pneumatic de materiale" },
       { code: "Suflante cu canal lateral, o treaptă", description: "Suflantă cu canal lateral, versiune simplă" },
-      { code: "Suflante cu canal lateral, două trepte", description: "Suflantă cu canal lateral, versiune double-sided" },
+      { code: "Suflante cu canal lateral, două trepte", description: "Suflantă cu canal lateral, versiune cu două trepte" },
       { code: "Suflante certificate ATEX", description: "Suflantă pentru medii cu risc de explozie" }
     ],
     faq: [
-      { q: "Ce produce Elektror?", a: "Elektror produce suflante centrifugale (familiile A-HP, HRD, RD, ND, S), ventilatoare axiale, ventilatoare de mare volum și suflante cu canal lateral, pentru aplicații industriale de transport pneumatic, aspirație și vid. Compania are prezență operațională în Germania și în alte nouă țări europene, plus China." },
-      { q: "Cum aleg suflanta Elektror potrivită după presiune?", a: "Pornești de la presiunea de lucru necesară: familia S acoperă de la presiune joasă (S-LP) la extra-înaltă (S-XP), iar familiile A-HP, HRD, RD și ND acoperă alte plaje de presiune medie-înaltă. Trimite-ne debitul necesar și presiunea diferențială pentru identificarea modelului potrivit." },
+      { q: "Ce produce Elektror?", a: "Elektror produce suflante centrifugale (familiile A-HP, HRD, RD, ND, S), ventilatoare axiale, ventilatoare de mare volum și suflante cu canal lateral, pentru aplicații industriale de transport pneumatic, aspirație și vid. Compania are prezență în Germania și în alte opt țări, inclusiv China." },
+      { q: "Cum aleg suflanta Elektror potrivită după presiune?", a: "Pornești de la presiunea de lucru necesară: familia S acoperă de la presiune joasă (S-LP) la extra-înaltă (S-XP), iar familiile ND (presiune joasă), RD (presiune medie) și A-HP/HRD (presiune înaltă) acoperă celelalte plaje de presiune. Trimite-ne debitul necesar și presiunea diferențială pentru identificarea modelului potrivit." },
       { q: "Ce suflantă Elektror e potrivită pentru medii cu risc de explozie?", a: "Elektror oferă variante certificate ATEX din gamele sale de suflante centrifugale și ventilatoare, adaptate pentru zone cu risc de explozie. Trebuie să ne trimiți zona ATEX exactă (categoria de risc) și parametrii de debit și presiune necesari." },
       { q: "Livrați suflante Elektror în România și cât durează?", a: "Da, le aducem la comandă prin canalele europene de aprovizionare, cu termen orientativ de 1–4 săptămâni în funcție de model și de eventuale cerințe de certificare. Nu ținem pe raft pentru aceste echipamente." },
       { q: "Ce informații trebuie să trimit pentru o ofertă Elektror?", a: "Ai nevoie să ne spui debitul de aer necesar, presiunea de lucru, materialul de construcție dorit și dacă aplicația cere certificare ATEX. Cu aceste date identificăm familia potrivită din gama de suflante sau ventilatoare Elektror." }
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Elektror airsystems - Home", url: "https://www.elektror.com/en/", publisher: "Elektror airsystems GmbH", accessed: "2026-09-22" },
       { title: "Elektror airsystems - Products", url: "https://www.elektror.com/en/products/", publisher: "Elektror airsystems GmbH", accessed: "2026-09-22" }
@@ -459,15 +459,15 @@ Pentru piața din România, Elektror are sens în aplicații de transport pneuma
     headquarters: "Vimodrone, Italia",
     overview: `Ing. Enea Mattei e producătorul italian de compresoare cu palete rotative, fondat în 1919 la Milano de inginerul Enea Mattei, mutat ulterior la Vimodrone și cu producție la Verdello-Zingonia din 1981. Compania a rămas în bună parte sub controlul familiei Contaldi, care a preluat-o în 1962, și s-a extins internațional între 1980 și 2000 în SUA, Franța, Marea Britanie, Germania, Rusia și Spania. Pentru o companie din România, Mattei înseamnă compresoare cu tehnologie de paletă rotativă, o alternativă la compresoarele cu șurub pentru anumite aplicații industriale.
 
-Ce diferențiază Mattei de producătorii de compresoare cu șurub (concurează cu Atlas Copco sau Kaeser pe segmentul aerului comprimat industrial) e principiul constructiv cu palete rotative, folosit pe toate seriile principale — RVX și RVD (compresoare de economie de energie, respectiv standard lubrifiate), CLASSIC/ERC (game de putere mică-medie), BLADE și BLADE i (compresoare compacte, cu variantă de eficiență energetică i), OPTIMA (compresoare de eficiență ridicată) și AIR CENTRE (unități integrate). Compania oferă și soluții personalizate pentru vehicule feroviare și rutiere (Rail, Road, Hybrid, Electric) și compresoare pe bază de gaz sau din aluminiu.
+Ce diferențiază Mattei de producătorii de compresoare cu șurub (concurează cu Atlas Copco sau Kaeser pe segmentul aerului comprimat industrial) e principiul constructiv cu palete rotative, folosit pe toate seriile principale — RVX și RVD (compresoare de economie de energie, respectiv standard lubrifiate), CLASSIC/ERC (game de putere mică-medie), BLADE și BLADE i (compresoare compacte, cu variantă de eficiență energetică i), OPTIMA (compresoare de eficiență ridicată) și AIR CENTRE (unități integrate). Compania oferă și soluții personalizate pentru transport feroviar și montare pe vehicule (Rail & Transportation, On-Vehicle), compresoare pentru gaze (inclusiv biogaz) și soluții pentru industria aluminiului.
 
 Pentru piața din România, gama Mattei are sens în manufactură, automotive, transport, agricultură, industria alimentară, biogaz și sănătate — sectoare unde tehnologia cu paletă rotativă oferă un profil de întreținere diferit față de compresoarele cu șurub. Certificarea ISO 9001, obținută încă din 1994, susține un istoric de peste un secol de fabricație continuă.`,
     whyChoose: [
       "Tehnologie de compresor cu palete rotative, aplicată consecvent pe toate seriile — o alternativă la compresoarele cu șurub",
       "Serii dedicate de eficiență energetică — RVX Ultra Performance, BLADE i, OPTIMA — pentru consum redus la funcționare continuă",
       "Peste un secol de fabricație continuă, cu certificare ISO 9001 obținută din 1994",
-      "Soluții personalizate pentru transport feroviar și rutier — Rail, Road, Hybrid, Electric",
-      "Gamă și pentru aplicații speciale — compresoare pe gaz și compresoare din aluminiu pentru medii corozive"
+      "Soluții personalizate pentru transport feroviar și pentru montare pe vehicule (Rail & Transportation, On-Vehicle)",
+      "Gamă și pentru aplicații speciale — compresoare pentru gaze (inclusiv biogaz) și soluții pentru industria aluminiului"
     ],
     keyProducts: [
       { name: "Compresoare de Economie de Energie Seria RVX", description: "Compresoare cu palete rotative de eficiență ridicată, disponibile în variantele RVX 55-75-90 și RVX 45-55-75 Ultra Performance, gândite pentru reducerea consumului energetic la funcționare continuă. Aplicație tipică: linii de producție cu necesar constant de aer comprimat. Clientul trebuie să confirme debitul de aer necesar și presiunea de lucru." },
@@ -477,14 +477,14 @@ Pentru piața din România, gama Mattei are sens în manufactură, automotive, t
     ],
     industries: [
       "Manufactură — compresoare pentru linii de producție cu necesar continuu de aer",
-      "Automotive și transport — soluții personalizate Rail, Road, Hybrid, Electric",
+      "Automotive și transport — soluții personalizate Rail & Transportation și On-Vehicle",
       "Agricultură — compresoare cu palete rotative pentru echipamente de fermă",
       "Industria alimentară — compresoare pentru linii de ambalare și procesare",
       "Biogaz și gaze naturale — compresoare pe bază de gaz",
       "Sănătate și farmaceutic — compresoare pentru aer comprimat de proces"
     ],
     infinitrade: `Furnizăm compresoare Mattei cu palete rotative la comandă, prin canale de aprovizionare din Uniunea Europeană, pe baza surselor publice ale producătorului — fără date proprii despre stocul fabricii de la Verdello-Zingonia. Termenul orientativ e de 1–4 săptămâni, în funcție de seria aleasă (RVX, BLADE, OPTIMA sau CLASSIC/ERC) și de configurația de putere. Pentru o ofertă corectă avem nevoie de debitul de aer necesar, presiunea de lucru dorită și spațiul de montaj disponibil. Nu promitem disponibilitate din depozit pentru o mărime anume din gamă — fiecare cerere se confirmă punctual la producător înainte de a trimite oferta finală.`,
-    limitation: "Nu oferim service în perioada de garanție a producătorului și nu confirmăm parametri tehnici exacți pentru soluțiile personalizate (Rail, Road, Hybrid, Electric) fără o cerere punctuală.",
+    limitation: "Nu oferim service în perioada de garanție a producătorului și nu confirmăm parametri tehnici exacți pentru soluțiile personalizate (Rail & Transportation, On-Vehicle) fără o cerere punctuală.",
     productCodes: [
       { code: "RVX 55-75-90", description: "Compresor cu paletă rotativă, eficiență energetică" },
       { code: "RVX 45-55-75 Ultra Performance", description: "Compresor cu paletă rotativă, performanță ridicată" },
@@ -510,12 +510,12 @@ Pentru piața din România, gama Mattei are sens în manufactură, automotive, t
       { q: "Cum aleg un compresor Mattei după debit și presiune?", a: "Pentru consum energetic redus alegi seria RVX sau BLADE i, pentru capacitate mare seria OPTIMA, iar pentru un buget mai limitat gama CLASSIC/ERC sau RVD. Trimite-ne debitul de aer necesar și presiunea de lucru pentru identificarea modelului potrivit." },
       { q: "Ce diferență e între BLADE și BLADE i la Mattei?", a: "Ambele sunt compresoare compacte cu palete rotative, dar varianta i (BLADE i 8-12, BLADE i 15-18-22) e gândită pentru eficiență energetică mai ridicată la funcționare continuă. Alegerea depinde de programul de lucru și de costul energiei la locația clientului." },
       { q: "Livrați compresoare Mattei în România și cât durează?", a: "Le putem aduce la comandă prin rețeaua de aprovizionare europeană a producătorului, cu un termen orientativ de 1–4 săptămâni, în funcție de seria aleasă și de disponibilitatea configurației cerute. Nu ținem pe raft pentru compresoarele Mattei." },
-      { q: "Ce informații trebuie să trimit pentru o ofertă Mattei?", a: "Ai nevoie să ne spui debitul de aer necesar, presiunea de lucru dorită, spațiul de montaj disponibil și dacă aplicația cere o soluție standard sau una personalizată (Rail, Road, Hybrid, Electric). Cu aceste date verificăm seria potrivită." }
+      { q: "Ce informații trebuie să trimit pentru o ofertă Mattei?", a: "Ai nevoie să ne spui debitul de aer necesar, presiunea de lucru dorită, spațiul de montaj disponibil și dacă aplicația cere o soluție standard sau una personalizată (Rail & Transportation, On-Vehicle). Cu aceste date verificăm seria potrivită." }
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Mattei Group - Home", url: "https://www.matteigroup.com/", publisher: "Ing. Enea Mattei S.p.A.", accessed: "2026-09-22" },
       { title: "Un secolo di storia", url: "https://www.matteigroup.com/en-us/about-us/century-history", publisher: "Ing. Enea Mattei S.p.A.", accessed: "2026-09-22" }
@@ -527,24 +527,24 @@ Pentru piața din România, gama Mattei are sens în manufactură, automotive, t
     headquarters: "Courbevoie, Franța",
     overview: `Mersen (fostă Carbone Lorraine) e un grup francez de materiale avansate și componente electrice de protecție, fondat în 1891 și cu sediul central la Courbevoie, în zona La Défense din Paris. Grupul acoperă siguranțe fuzibile pentru protecție electrică, bare de distribuție electrică (bus bars), componente din grafit izostatic și extrudat, schimbătoare de căldură din grafit și soluții de protecție la supratensiune. Pentru o companie din România, Mersen înseamnă componente de protecție electrică și materiale speciale pentru aplicații unde siguranța electrică sau rezistența chimică sunt critice.
 
-Ce diferențiază Mersen de alți producători de siguranțe și protecție electrică (concurează cu Eaton sau Littelfuse pe segmentul siguranțelor industriale) e combinația neobișnuită între componente electrice și materiale avansate din grafit — o gamă orientată puternic spre electromobilitate și energie regenerabilă. Seria ABAT de siguranțe e dedicată protecției curentului continuu pentru vehicule electrice și baterii, un segment în creștere accelerată. Componentele din grafit izostatic și extrudat, plus schimbătoarele de căldură din grafit, deservesc procesarea chimică și industriile cu medii corozive.
+Ce diferențiază Mersen de alți producători de siguranțe și protecție electrică (concurează cu Eaton sau Littelfuse pe segmentul siguranțelor industriale) e combinația neobișnuită între componente electrice și materiale avansate din grafit — o gamă orientată puternic spre electromobilitate și energie regenerabilă. Gama include siguranțe pentru protecția în curent continuu a bateriilor și a vehiculelor electrice (de exemplu NH gBat 1000–1500 V DC). Componentele din grafit izostatic și extrudat, plus schimbătoarele de căldură din grafit, deservesc procesarea chimică și industriile cu medii corozive.
 
 Pentru piața din România, gama Mersen are sens în tablouri electrice industriale, stații de reîncărcare și sisteme de stocare a energiei, aerospațial, feroviar și procesare chimică — sectoare unde protecția electrică certificată sau rezistența la coroziune a materialelor din grafit sunt cerințe explicite de proiect. Grupul are 24 de centre de cercetare-dezvoltare și peste 7.000 de angajați în 32 de țări.`,
     whyChoose: [
-      "Serie ABAT de siguranțe dedicate protecției curentului continuu pentru vehicule electrice și baterii",
-      "Combinație unică între componente electrice de protecție și materiale avansate din grafit",
+      "Siguranțe pentru protecția în curent continuu a bateriilor și a vehiculelor electrice (de exemplu NH gBat 1000–1500 V DC)",
+      "Combinație între componente electrice de protecție și materiale avansate din grafit",
       "Componente din grafit izostatic și extrudat pentru medii corozive în procesarea chimică",
-      "Prezență în sectoare de vârf — aerospațial, feroviar, semiconductori, energie regenerabilă",
+      "Prezență în sectoare precum aerospațial, feroviar, semiconductori, energie regenerabilă",
       "24 de centre de cercetare-dezvoltare și peste 7.000 de angajați în 32 de țări",
       "Peste 130 de ani de activitate continuă, cu rădăcini din 1891"
     ],
     keyProducts: [
-      { name: "Siguranțe Fuzibile Seria ABAT", description: "Siguranțe dedicate protecției curentului continuu pentru vehicule electrice și sisteme de baterii, gândite pentru deconectare rapidă în caz de scurtcircuit sau supracurent. Aplicație tipică: sisteme de stocare a energiei, vehicule electrice, stații de reîncărcare rapidă. Clientul trebuie să confirme curentul nominal, tensiunea de lucru și tipul de montaj." },
+      { name: "Siguranțe Fuzibile pentru Baterii și Vehicule Electrice (DC)", description: "Siguranțe dedicate protecției curentului continuu pentru vehicule electrice și sisteme de baterii, gândite pentru deconectare rapidă în caz de scurtcircuit sau supracurent. Aplicație tipică: sisteme de stocare a energiei, vehicule electrice, stații de reîncărcare rapidă. Clientul trebuie să confirme curentul nominal, tensiunea de lucru și tipul de montaj." },
       { name: "Bare de Distribuție Electrică (Bus Bars)", description: "Sisteme de distribuție a curentului electric pentru tablouri și echipamente industriale, folosite ca alternativă la cablare tradițională acolo unde curenții sunt mari. Aplicație tipică: tablouri electrice industriale, centre de date, echipamente de conversie a energiei. Pentru ofertă e nevoie de curentul nominal și configurația tabloului." },
       { name: "Componente din Grafit Izostatic și Extrudat", description: "Materiale din grafit pentru aplicații cu temperaturi ridicate și medii corozive, folosite în procesarea chimică și în echipamente industriale speciale. Include și schimbătoare de căldură din grafit, rezistente la acizi și substanțe corozive. Clientul trebuie să trimită mediul chimic de lucru și temperatura maximă de operare." }
     ],
     industries: [
-      "Electromobilitate — siguranțe ABAT pentru vehicule electrice și stații de reîncărcare",
+      "Electromobilitate — siguranțe DC pentru vehicule electrice și stații de reîncărcare",
       "Energie regenerabilă și stocare — protecție electrică pentru sisteme de baterii",
       "Aerospațial — componente de protecție electrică certificate",
       "Feroviar — bare de distribuție și siguranțe pentru echipamente de tracțiune",
@@ -554,7 +554,7 @@ Pentru piața din România, gama Mersen are sens în tablouri electrice industri
     infinitrade: `Aducem componente Mersen — siguranțe, bare de distribuție și materiale din grafit — la comandă, prin canale de aprovizionare din Uniunea Europeană, pe baza informațiilor publice ale producătorului, fără date proprii despre stocul curent al fabricilor grupului. Termenul orientativ e de 1–4 săptămâni, în funcție de componenta aleasă și de eventuale cerințe de certificare pentru aplicații electrice. Pentru o ofertă corectă avem nevoie de curentul nominal, tensiunea de lucru, tipul de montaj și, pentru materialele din grafit, mediul chimic și temperatura de operare. Nu promitem disponibilitate permanentă pentru o referință anume — verificăm fiecare cerere la producător înainte de confirmare.`,
     limitation: "Nu confirmăm certificări specifice pe fiecare piață de destinație fără o verificare punctuală și nu oferim configurare software pentru sistemele de monitorizare asociate protecției electrice.",
     productCodes: [
-      { code: "ABAT (siguranțe DC pentru EV/baterii)", description: "Siguranță pentru protecție curent continuu, vehicule electrice" },
+      { code: "Siguranțe DC pentru EV/baterii", description: "Siguranță pentru protecție curent continuu, vehicule electrice" },
       { code: "Bus Bar", description: "Bare de distribuție electrică pentru tablouri" },
       { code: "Fuse Holders and Systems", description: "Suporturi și sisteme de montaj pentru siguranțe" },
       { code: "Power Distribution Blocks", description: "Blocuri de distribuție a curentului electric" },
@@ -568,16 +568,16 @@ Pentru piața din România, gama Mersen are sens în tablouri electrice industri
       { code: "Slip Ring", description: "Inel colector pentru transfer de semnal și putere" }
     ],
     faq: [
-      { q: "Ce produce Mersen?", a: "Mersen produce siguranțe fuzibile de protecție electrică (inclusiv seria ABAT pentru vehicule electrice), bare de distribuție electrică și materiale avansate din grafit pentru medii corozive. Grupul francez are sediul la Courbevoie și rădăcini din 1891, sub numele inițial Carbone Lorraine." },
-      { q: "Cum aleg siguranța Mersen ABAT potrivită pentru un sistem de baterii?", a: "Trebuie să ne trimiți curentul nominal al sistemului, tensiunea de lucru și tipul de montaj (pe șină sau cu terminale) pentru identificarea siguranței potrivite din seria ABAT. Aceste siguranțe sunt gândite pentru protecția curentului continuu la vehicule electrice și stocare de energie." },
+      { q: "Ce produce Mersen?", a: "Mersen produce siguranțe fuzibile de protecție electrică (inclusiv siguranțe DC pentru vehicule electrice și baterii), bare de distribuție electrică și materiale avansate din grafit pentru medii corozive. Grupul francez are sediul la Courbevoie și rădăcini din 1891; până în 2010 s-a numit Carbone Lorraine." },
+      { q: "Cum aleg siguranța Mersen potrivită pentru un sistem de baterii?", a: "Trebuie să ne trimiți curentul nominal al sistemului, tensiunea de lucru și tipul de montaj (pe șină sau cu terminale) pentru identificarea siguranței potrivite din gama Mersen de protecție în curent continuu pentru baterii." },
       { q: "Ce aplicații folosesc componentele din grafit Mersen?", a: "Componentele din grafit izostatic și extrudat Mersen sunt folosite în procesarea chimică și în echipamente cu medii corozive, inclusiv schimbătoare de căldură rezistente la acizi. Pentru identificarea materialului potrivit avem nevoie de mediul chimic exact și de temperatura maximă de operare." },
       { q: "Livrați produse Mersen în România și cât durează?", a: "Da, le aducem la comandă prin canalele europene de aprovizionare, cu termen orientativ de 1–4 săptămâni în funcție de componentă și de eventuale cerințe de certificare. Nu ținem pe raft pentru aceste produse." },
       { q: "Ce trebuie să trimit pentru o ofertă de bare de distribuție Mersen?", a: "Ai nevoie să ne trimiți curentul nominal necesar, configurația tabloului electric și spațiul de montaj disponibil. Cu aceste date verificăm soluția potrivită din gama de bus bars Mersen pentru aplicația ta." }
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Mersen - Home", url: "https://www.mersen.com/en", publisher: "Mersen SA", accessed: "2026-09-22" },
       { title: "Mersen - Products", url: "https://www.mersen.com/en/products", publisher: "Mersen SA", accessed: "2026-09-22" },
@@ -590,7 +590,7 @@ Pentru piața din România, gama Mersen are sens în tablouri electrice industri
     headquarters: "Ludwigsburg, Germania",
     overview: `MANN+HUMMEL e un grup german de filtrare, cu sediul la Ludwigsburg și activitate din 1941, prezent atât pe piața pieselor auto (mărcile MANN-FILTER, WIX Filters, Purolator, FILTRON) cât și pe filtrare industrială, filtrare a apei și filtrare a aerului pentru clădiri. Pentru o companie din România, segmentul industrial al MANN+HUMMEL înseamnă filtre pentru motoare industriale, echipamente de manipulare materiale, agricultură și construcții, plus soluții specializate pentru curățarea aerului în procese de producție.
 
-Ce diferențiază MANN+HUMMEL de alți producători de filtre (concurează cu Donaldson sau Parker pe segmentul filtrării industriale) e amploarea gamei de aplicații: filtre pentru mist-uri de ulei și vapori din prelucrarea metalului, plasticului și cauciucului (seriile ScandMist, Tri-Mist, Pro-Fluid, EDM), filtre pentru temperaturi ridicate (până la 900°F), filtre pentru cabine de vopsit (certificate UL 900) și filtre pentru compresoare și pompe de vid. Gama pentru echipamente mobile acoperă filtre de aer, ulei, combustibil, hidraulice, uree, filtre pentru baterii electrice de acționare și pentru celule de combustie cu hidrogen.
+Ce diferențiază MANN+HUMMEL de alți producători de filtre (concurează cu Donaldson sau Parker pe segmentul filtrării industriale) e amploarea gamei de aplicații: filtre pentru mist-uri de ulei și vapori din prelucrarea metalului, plasticului și cauciucului (seriile ScandMist, Tri-Mist, Pro-Fluid, EDM), filtre pentru temperaturi ridicate (până la 900°F), filtre pentru cabine de vopsit (inclusiv variante certificate) și filtre pentru compresoare și pompe de vid. Gama pentru echipamente mobile acoperă filtre de aer, ulei, combustibil, hidraulice, uree, filtre pentru baterii electrice de acționare și pentru celule de combustie cu hidrogen.
 
 Pentru piața din România, gama industrială MANN+HUMMEL are sens în construcții, agricultură, manipulare materiale, logistică și producție — acolo unde filtrarea corectă a aerului sau a fluidelor de proces prelungește intervalul de mentenanță al echipamentelor. Prezența pe patru segmente Clean (mobilitate, aer, apă, industrie) arată o strategie de portofoliu construită pe filtrare, nu doar pe automotive.`,
     whyChoose: [
@@ -604,7 +604,7 @@ Pentru piața din România, gama industrială MANN+HUMMEL are sens în construc�
     keyProducts: [
       { name: "Filtre pentru Mist-uri de Ulei (ScandMist, Tri-Mist, Pro-Fluid, EDM)", description: "Familie de echipamente de filtrare a aerului pentru protecția împotriva vaporilor și mist-urilor de ulei generate în prelucrarea metalului, plasticului și cauciucului, cu intervale extinse de mentenanță și stabilitate a presiunii. Aplicație tipică: mașini-unelte, linii de prelucrare prin electroeroziune (EDM), procese de ștanțare. Clientul trebuie să confirme tipul de proces și volumul de aer de tratat." },
       { name: "Filtre pentru Temperaturi Ridicate", description: "Filtre industriale gândite pentru operare la temperaturi de până la 900°F (circa 480°C), folosite în aplicații industriale cu căldură intensă, unde filtrele standard s-ar degrada rapid. Aplicație tipică: procese termice industriale, echipamente de ardere. Pentru ofertă e nevoie de temperatura maximă de operare și debitul de aer necesar." },
-      { name: "Filtre pentru Cabine de Vopsit (Paint Booth Filters)", description: "Filtre pentru admisia și evacuarea aerului din cabinele de vopsire industrială, disponibile în variante certificate pentru rezistență la propagarea flăcării. Aplicație tipică: linii de vopsire auto și industrială. Clientul trebuie să trimită dimensiunea cabinei și debitul de aer al sistemului de ventilație." },
+      { name: "Filtre pentru Cabine de Vopsit (Paint Booth Filters)", description: "Filtre pentru admisia și evacuarea aerului din cabinele de vopsire industrială, disponibile și în variante certificate. Aplicație tipică: linii de vopsire auto și industrială. Clientul trebuie să trimită dimensiunea cabinei și debitul de aer al sistemului de ventilație." },
       { name: "Filtre pentru Echipamente Mobile și Industriale", description: "Gamă largă de filtre pentru motoare industriale și echipamente mobile — aer, ulei, combustibil, hidraulice, uree, filtre pentru ventilația carterului (CCV) și filtre pentru baterii de acționare electrică. Aplicație tipică: utilaje de construcții, echipamente agricole, echipamente de manipulare materiale. Pentru ofertă e nevoie de modelul echipamentului sau codul filtrului existent." }
     ],
     industries: [
@@ -615,7 +615,7 @@ Pentru piața din România, gama industrială MANN+HUMMEL are sens în construc�
       "Vopsire industrială — filtre pentru cabine de vopsit",
       "Compresoare și pompe de vid — filtre de aer și separatoare de ulei"
     ],
-    infinitrade: `Furnizăm filtre industriale MANN+HUMMEL la comandă, prin canale de aprovizionare din Uniunea Europeană, pe baza informațiilor publice ale producătorului — fără date proprii despre stocul curent al fabricilor grupului. Pentru filtre de schimb frecvent (aer, ulei, combustibil) ținem la dispoziție surse rapide din gama europeană, cu termene mai scurte pentru codurile curente; pentru echipamente de filtrare specializate (mist-uri de ulei, cabine de vopsit) termenul orientativ e de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul filtrului existent sau de modelul echipamentului deservit, plus debitul de aer sau fluid de tratat. Nu promitem disponibilitate din depozit pentru fiecare cod — disponibilitatea se confirmă punctual la producător.`,
+    infinitrade: `Furnizăm filtre industriale MANN+HUMMEL la comandă, prin canale de aprovizionare din Uniunea Europeană, pe baza informațiilor publice ale producătorului — fără date proprii despre stocul curent al fabricilor grupului. Pentru filtre de schimb frecvent (aer, ulei, combustibil), dacă codul este disponibil în stoc extern, termenul este de 24–72 de ore; altfel, la comandă, de regulă 1–4 săptămâni, la fel ca pentru echipamentele de filtrare specializate (mist-uri de ulei, cabine de vopsit). Pentru o ofertă corectă avem nevoie de codul filtrului existent sau de modelul echipamentului deservit, plus debitul de aer sau fluid de tratat. Nu promitem disponibilitate din depozit pentru fiecare cod — disponibilitatea se confirmă punctual la producător.`,
     limitation: "Nu confirmăm compatibilitatea exactă cu un echipament anume fără codul filtrului existent sau specificațiile tehnice ale mașinii deservite.",
     productCodes: [
       { code: "ScandMist", description: "Filtru pentru mist-uri de ulei industrial" },
@@ -637,14 +637,14 @@ Pentru piața din România, gama industrială MANN+HUMMEL are sens în construc�
     faq: [
       { q: "Ce produce MANN+HUMMEL pentru industrie?", a: "Pe segmentul industrial, MANN+HUMMEL produce filtre pentru mist-uri de ulei (ScandMist, Tri-Mist, Pro-Fluid, EDM), filtre pentru temperaturi ridicate, filtre pentru cabine de vopsit și filtre pentru echipamente mobile — aer, ulei, combustibil, hidraulice. Grupul are sediul la Ludwigsburg, Germania, și activitate din 1941." },
       { q: "Cum aleg filtrul industrial MANN+HUMMEL potrivit?", a: "Cel mai sigur e să pornești de la codul filtrului existent de pe echipament sau de la modelul exact al mașinii deservite, ca să identificăm echivalentul corect din gama MANN+HUMMEL. Dacă echipamentul e nou, trimite-ne debitul de aer sau fluid de tratat și tipul de proces." },
-      { q: "Ce filtru MANN-FILTER înlocuiește un filtru mai vechi?", a: "Verificăm codul filtrului existent (de pe cutia veche sau de pe plăcuța echipamentului) și căutăm corespondentul actual în catalogul MANN-FILTER sau în gama industrială MANN+HUMMEL. Trimite-ți fotografii ale filtrului vechi dacă nu găsești codul complet." },
-      { q: "Livrați filtre MANN+HUMMEL în România și cât durează?", a: "Pentru filtre de schimb curente (aer, ulei, combustibil) termenele sunt de regulă mai scurte din surse europene; pentru echipamente de filtrare specializate termenul orientativ e de 1–4 săptămâni la comandă. Nu promitem disponibilitate din depozit pentru fiecare cod." },
+      { q: "Ce filtru MANN-FILTER înlocuiește un filtru mai vechi?", a: "Verificăm codul filtrului existent (de pe cutia veche sau de pe plăcuța echipamentului) și căutăm corespondentul actual în catalogul MANN-FILTER sau în gama industrială MANN+HUMMEL. Trimiteți-ne fotografii ale filtrului vechi dacă nu găsiți codul complet." },
+      { q: "Livrați filtre MANN+HUMMEL în România și cât durează?", a: "Pentru filtre de schimb curente (aer, ulei, combustibil), dacă codul este disponibil în stoc extern, termenul este de 24–72 de ore; altfel, la comandă, de regulă 1–4 săptămâni, la fel ca pentru echipamentele de filtrare specializate. Nu promitem disponibilitate din depozit pentru fiecare cod." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de filtre industriale?", a: "Ai nevoie să ne trimiți codul filtrului existent sau modelul exact al echipamentului deservit, plus tipul de aplicație (mist de ulei, temperatură ridicată, vopsire). Cu aceste date identificăm gama potrivită din portofoliul MANN+HUMMEL." }
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "MANN+HUMMEL - Home", url: "https://www.mann-hummel.com/en.html", publisher: "MANN+HUMMEL Group", accessed: "2026-09-22" },
       { title: "Industrial filtration for cleaner industries", url: "https://www.mann-hummel.com/en/filtration-solutions/industrial-filtration-for-cleaner-industries.html", publisher: "MANN+HUMMEL Group", accessed: "2026-09-22" },

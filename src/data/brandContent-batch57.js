@@ -392,28 +392,28 @@ Pentru un cumpărător din România, Kamat are sens la aplicații de curățare 
 
   schwing: {
     name: "Schwing",
-    overview: `Schwing este brandul german de pompe pentru beton, parte a grupului Schwing-Stetter, cu o gamă largă de pompe staționare (seria SP), pompe montate pe camion (seria TP) și pompe pe șenile (seria CP) pentru transferul betonului la distanțe și înălțimi mari pe șantier. Gama staționară acoperă de la modele mai mici precum SP 500 D/E până la vârful gamei SP 9500 D/E, cu variante D (diesel) și E (electric) pentru fiecare treaptă de putere. Pentru piața din România, Schwing înseamnă acces la echipamente de turnare beton pentru proiecte de construcții de anvergură.
+    overview: `Schwing este brandul german de pompe pentru beton, parte a grupului Schwing-Stetter, cu o gamă largă de pompe staționare (seria SP), pompe din seria TP și pompe pe șenile (seria CP) pentru transferul betonului la distanțe și înălțimi mari pe șantier. Gama staționară acoperă de la modele mai mici precum SP 500 D/E până la vârful gamei SP 9500 D/E, cu variante D (diesel) și E (electric) pentru majoritatea treptelor de putere. Pentru piața din România, Schwing înseamnă acces la echipamente de turnare beton pentru proiecte de construcții de anvergură.
 
-Ce diferențiază gama Schwing e acoperirea completă a modurilor de montaj: pompe staționare pentru șantiere fixe sau tuneluri, pompe pe camion (TP) pentru mobilitate pe teren, inclusiv variantă cu duză pentru șpriț de beton torcretat (TP 100 TC D), și pompe pe șenile (CP) pentru teren dificil, inclusiv o variantă electrică (CP 2800 BE). Fiecare treaptă de debit are variantă diesel sau electrică, ceea ce permite alegerea sursei de energie potrivite pentru șantierul respectiv — un aspect tot mai relevant unde regulile de emisii pe șantier devin mai stricte.
+Ce diferențiază gama Schwing e acoperirea completă a modurilor de montaj: pompe staționare pentru șantiere fixe sau tuneluri, pompe din seria TP, inclusiv variantă cu duză pentru șpriț de beton torcretat (TP 100 TC D), și pompe pe șenile (CP) pentru teren dificil, inclusiv o variantă electrică (CP 2800 BE). Majoritatea treptelor de putere au variantă diesel sau electrică, ceea ce permite alegerea sursei de energie potrivite pentru șantierul respectiv — un aspect tot mai relevant unde regulile de emisii pe șantier devin mai stricte.
 
 Pentru un cumpărător din România, Schwing are sens la proiecte de infrastructură sau construcții civile unde betonul trebuie transportat la distanță mare sau înălțime, tuneluri unde manevrabilitatea pe șenile contează, sau șantiere urbane unde varianta electrică reduce emisiile și zgomotul.`,
     whyChoose: [
-      "Trei moduri de montaj în aceeași gamă — staționar (SP), pe camion (TP), pe șenile (CP) — pentru orice tip de șantier",
+      "Mai multe tipuri de pompe în aceeași gamă — staționare (SP), seria TP și pe șenile (CP) — pentru diverse tipuri de șantier",
       "Variante diesel și electrice pe majoritatea treptelor de putere, pentru alegerea sursei de energie potrivite",
       "Variantă dedicată de șpriț beton torcretat (TP 100 TC D), utilă pentru lucrări de tuneluri și stabilizare",
       "Gamă staționară cu trepte fine de putere, de la SP 500 la SP 9500, pentru dimensionare precisă a proiectului",
       "Pompe pe șenile pentru teren dificil, inclusiv variantă electrică CP 2800 BE cu emisii reduse pe șantier"
     ],
     keyProducts: [
-      { name: "Pompe Staționare Seria SP (500-2800)", description: "Segmentul de putere medie al gamei staționare, cu modele precum SP 500 D/E, SP 750 E și SP 1800 D/E/SP 2800 D/E, fiecare disponibil în variantă diesel (D) sau electrică (E). Recomandate pentru șantiere de dimensiune medie sau tuneluri unde e nevoie de o pompă fixă, nu mobilă pe camion, pentru turnare continuă de beton." },
-      { name: "Pompe Staționare Seria SP (3800-9500)", description: "Vârful gamei staționare, cu modelele SP 3800, SP 7000, SP 7500 și SP 9500, toate în variante D și E. Destinate proiectelor mari de infrastructură — baraje, poduri, fundații industriale — unde volumul de beton turnat pe oră depășește ce pot livra modelele din segmentul mediu." },
-      { name: "Pompe Montate Pe Camion Seria TP", description: "Familie de pompe mobile pe șasiu de camion, cu modelul de bază TP 100 E/D și varianta specializată TP 100 TC D pentru șpriț de beton torcretat (shotcrete). Recomandate pentru șantiere unde pompa trebuie să se deplaseze frecvent între puncte de turnare diferite, fără instalare fixă." },
+      { name: "Pompe Staționare Seria SP (500-2800)", description: "Segmentul de putere medie al gamei staționare, cu modele precum SP 500 D/E, SP 750 E, SP 1800 D/E și SP 2800 D/E, fiecare disponibil în variantă diesel (D) sau electrică (E). Recomandate pentru șantiere de dimensiune medie sau tuneluri unde e nevoie de o pompă fixă pentru turnare continuă de beton." },
+      { name: "Pompe Staționare Seria SP (3800-9500)", description: "Vârful gamei staționare, cu modelele SP 3800, SP 7000, SP 7500, SP 9000 și SP 9500, toate în variante D și E. Destinate proiectelor mari de infrastructură — baraje, poduri, fundații industriale — unde volumul de beton turnat pe oră depășește ce pot livra modelele din segmentul mediu." },
+      { name: "Pompe Seria TP", description: "Familie de pompe cu modelul de bază TP 100 E/D și varianta specializată TP 100 TC D pentru șpriț de beton torcretat (shotcrete). Domeniul de utilizare se confirmă pe cod, din documentația producătorului." },
       { name: "Pompe Pe Șenile Seria CP", description: "Familie de pompe montate pe șenile pentru teren dificil sau spații înguste, cu modelele CP 1800 D, CP 2800 D și varianta electrică CP 2800 BE. Utile în tuneluri, mine sau zone unde un camion nu poate accesa punctul de turnare, dar mobilitatea pe teren accidentat rămâne necesară." }
     ],
     industries: [
       "Construcții civile — turnare beton la fundații, plăci și structuri",
       "Infrastructură — poduri, baraje, tuneluri unde distanța de pompare e mare",
-      "Construcții subterane — pompe pe șenile pentru acces în tuneluri și mine",
+      "Construcții subterane — pompe pe șenile pentru spații cu acces dificil",
       "Șantiere urbane — variante electrice pentru emisii și zgomot reduse"
     ],
     infinitrade: `Aducem pompe de beton Schwing din seriile SP, TP și CP prin canale de aprovizionare din UE, la comandă, pentru proiecte de construcții și infrastructură. Pentru acest brand ne bazăm pe surse publice ale producătorului, fără date proprii de stoc — configurația exactă (mod de montaj, variantă diesel sau electrică, treaptă de putere) se stabilește împreună cu dumneavoastră și se confirmă cu producătorul înainte de ofertă. Termenul orientativ este de 1–4 săptămâni de la comanda confirmată, echipamentele de acest tip fiind în general configurate la cerere. Pentru o ofertă corectă avem nevoie de: distanța și înălțimea de pompare necesare, volumul orar dorit, tipul de șantier și dacă e preferată o sursă electrică sau diesel.`,
@@ -426,27 +426,27 @@ Pentru un cumpărător din România, Schwing are sens la proiecte de infrastruct
       { code: "SP 1800 E", description: "Pompă staționară beton, variantă electrică" },
       { code: "SP 2800 D", description: "Pompă staționară beton, treaptă mare, diesel" },
       { code: "SP 3800 D", description: "Pompă staționară beton, treaptă mare, diesel" },
-      { code: "SP 7000 D", description: "Pompă staționară beton, vârf de gamă, diesel" },
-      { code: "SP 7500 D", description: "Pompă staționară beton, vârf de gamă, diesel" },
+      { code: "SP 7000 D", description: "Pompă staționară beton, treaptă superioară, diesel" },
+      { code: "SP 7500 D", description: "Pompă staționară beton, treaptă superioară, diesel" },
       { code: "SP 9000 D", description: "Pompă staționară beton, treaptă superioară, diesel" },
       { code: "SP 9500 D", description: "Pompă staționară beton, treaptă superioară, diesel" },
-      { code: "TP 100 E", description: "Pompă montată pe camion, variantă electrică" },
-      { code: "TP 100 D", description: "Pompă montată pe camion, variantă diesel" },
-      { code: "TP 100 TC D", description: "Pompă pe camion pentru șpriț beton torcretat" },
+      { code: "TP 100 E", description: "Pompă seria TP, variantă electrică" },
+      { code: "TP 100 D", description: "Pompă seria TP, variantă diesel" },
+      { code: "TP 100 TC D", description: "Pompă seria TP pentru șpriț beton torcretat" },
       { code: "CP 1800 D", description: "Pompă pe șenile, teren dificil, diesel" },
       { code: "CP 2800 D", description: "Pompă pe șenile, treaptă mare, diesel" },
-      { code: "CP 2800 BE", description: "Pompă pe șenile, variantă electrică cu baterie" }
+      { code: "CP 2800 BE", description: "Pompă pe șenile, variantă electrică" }
     ],
     faq: [
-      { q: "Ce produce Schwing?", a: "Schwing produce pompe pentru beton în trei moduri de montaj — staționar (seria SP), pe camion (seria TP) și pe șenile (seria CP) — cu variante diesel și electrice pe majoritatea treptelor de putere, pentru turnare de beton pe șantiere de construcții și infrastructură." },
-      { q: "Ce diferență e între seriile SP, TP și CP la Schwing?", a: "SP sunt pompe staționare pentru instalare fixă pe șantier, TP sunt montate pe șasiu de camion pentru mobilitate rapidă între puncte de turnare, iar CP sunt montate pe șenile, pentru teren dificil sau spații înguste precum tunelurile." },
-      { q: "Ce este modelul TP 100 TC D de la Schwing?", a: "TP 100 TC D este varianta de pe camion a pompei TP 100, echipată special pentru șpriț de beton torcretat (shotcrete), folosită la stabilizarea pereților de tunel sau la reparații de suprafață unde betonul se aplică prin pulverizare." },
+      { q: "Ce produce Schwing?", a: "Schwing produce pompe pentru beton — staționare (seria SP), seria TP și pe șenile (seria CP) — cu variante diesel și electrice pe majoritatea treptelor de putere, pentru turnare de beton pe șantiere de construcții și infrastructură." },
+      { q: "Ce diferență e între seriile SP, TP și CP la Schwing?", a: "SP sunt pompe staționare pentru instalare fixă pe șantier, TP este o serie separată de pompe (tipul de montaj se confirmă pe cod, din documentația producătorului), iar CP sunt montate pe șenile, pentru teren dificil sau spații înguste precum tunelurile." },
+      { q: "Ce este modelul TP 100 TC D de la Schwing?", a: "TP 100 TC D este varianta pompei TP 100, echipată special pentru șpriț de beton torcretat (shotcrete), folosită la stabilizarea pereților de tunel sau la reparații de suprafață unde betonul se aplică prin pulverizare." },
       { q: "Livrați pompe Schwing în România și cât durează?", a: "Da, aducem pompe Schwing la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, echipamentul fiind configurat de la producător după parametrii proiectului dumneavoastră." }
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "SCHWING-Stetter – Stationary Concrete Pumps", url: "https://schwing-stetter.com/de_en/products/stationary-concrete-pumps/sp-500-d.html", publisher: "SCHWING-Stetter", accessed: "2026-09-22" },
       { title: "SCHWING Truck-Mounted Concrete Pumps", url: "https://schwing-stetter.com/de_en/products/truck-mounted-concrete-pumps.html", publisher: "SCHWING-Stetter", accessed: "2026-09-22" }
@@ -456,22 +456,22 @@ Pentru un cumpărător din România, Schwing are sens la proiecte de infrastruct
   viking: {
     name: "Viking Pump",
     founded: 1911,
-    overview: `Viking Pump este un producător american de pompe rotative volumetrice, activ din 1911, cu o gamă foarte extinsă de pompe cu roți dințate interne și externe, folosite pentru transferul a peste 1.400 de lichide diferite conform producătorului, de la combustibili la produse alimentare. Portofoliul acoperă serii pentru fontă, oțel și inox, de la modele mici precum SG-04 (0,5 gpm) la modele mari cum e GB-425 pentru debite foarte ridicate, plus serii dedicate industriei alimentare și farmaceutice (Hygienic). Pentru piața din România, Viking Pump înseamnă acces la o tehnologie matură de pompare rotativă, cu peste un secol de rafinare a designului.
+    overview: `Viking Pump este un producător american de pompe rotative volumetrice, activ din 1911, cu o gamă foarte extinsă de pompe cu roți dințate interne și externe, folosite pentru transferul a peste 1.400 de lichide diferite conform producătorului, de la combustibili la produse alimentare. Portofoliul acoperă serii pentru fontă, oțel și inox, de la modele mici precum SG-04 (0,5 galoane SUA pe minut, aproximativ 1,9 l/min) la modele cu debite de până la 1.600 galoane SUA pe minut (aproximativ 6.060 l/min), plus serii dedicate industriei alimentare și farmaceutice (Hygienic). Pentru piața din România, Viking Pump înseamnă acces la o tehnologie matură de pompare rotativă, cu peste un secol de rafinare a designului.
 
-Ce diferențiază Viking Pump e diversitatea extremă a gamei: zeci de serii diferite, fiecare optimizată pentru un domeniu de debit, material de carcasă sau tip de aplicație, de la seria 4124C (până la 500 gpm, fontă) la seria REVOLUTION (până la 400 gpm, inox, pentru aplicații igienice) sau seria GB-410/414/425 (fontă nodulară, până la debite foarte mari, exprimate uneori în barrels per day pentru aplicații petroliere). Compania face parte din grupul IDEX, alături de Warren Rupp (Sandpiper), ceea ce oferă acces la o rețea comună de distribuție și piese de schimb.
+Ce diferențiază Viking Pump e diversitatea extremă a gamei: zeci de serii diferite, fiecare optimizată pentru un domeniu de debit, material de carcasă sau tip de aplicație, de la seria 4124C (până la 500 gpm, fontă) la seria REVOLUTION (până la 400 gpm, inox, pentru aplicații igienice) sau seria GB-410/414/425 (debite mari, conform documentației producătorului). Compania face parte din grupul IDEX.
 
-Pentru un cumpărător din România, Viking Pump are sens acolo unde debitul trebuie să rămână constant indiferent de variațiile de vâscozitate — transfer de combustibili, uleiuri, produse chimice sau alimentare — și unde o gamă foarte largă de materiale (fontă, oțel, inox, ductil) permite alegerea exactă pentru fluidul respectiv.`,
+Pentru un cumpărător din România, Viking Pump are sens acolo unde este nevoie de o pompă volumetrică pentru fluide de vâscozități diferite — transfer de combustibili, uleiuri, produse chimice sau alimentare — și unde o gamă foarte largă de materiale (fontă, oțel, inox, ductil) permite alegerea exactă pentru fluidul respectiv.`,
     whyChoose: [
       "Gamă extrem de largă — zeci de serii diferite, pentru aproape orice combinație de debit, material și aplicație",
-      "Peste un secol de rafinare a designului cu roți dințate — pompare cu debit constant, indiferent de vâscozitate",
+      "Peste un secol de rafinare a designului cu roți dințate — pompe volumetrice cu roți dințate",
       "Serii dedicate industriei igienice (REVOLUTION®, STERILOBE®) pentru aplicații farmaceutice și alimentare",
       "Materiale multiple de carcasă — fontă, oțel, inox, fontă ductilă — pentru compatibilitate cu fluide diferite",
-      "Parte din grupul IDEX, alături de Sandpiper — acces la o rețea comună de distribuție și suport tehnic"
+      "Parte din grupul IDEX Corporation"
     ],
     keyProducts: [
       { name: "Seria 4124A/4124C (Fontă, Uz General)", description: "Familie de pompe cu roți dințate interne din fontă, cu debite de până la 420-500 gpm în funcție de variantă. Reprezintă segmentul de uz general al gamei Viking Pump, folosit pe scară largă pentru transfer de combustibili, uleiuri și produse chimice de proces în instalații industriale standard." },
-      { name: "Seria 1124A/1224A (Fontă, Compact)", description: "Variante mai compacte din familia de pompe cu roți dințate interne, cu debite de până la 400-500 gpm, disponibile și în variante speciale precum 1224A-CHC® (cu cameră de încălzire/răcire jacketed) pentru fluide care necesită control termic în timpul pompării." },
-      { name: "Seria GB-410/414/425 (Fontă Ductilă, Debit Mare)", description: "Segmentul de debit foarte mare al gamei, din fontă ductilă, cu GB-410 (67 gpm) și GB-414 (136 gpm) pentru debite medii-mari, și GB-425 pentru cel mai ridicat debit din serie, exprimat de producător în barrels per day pentru aplicații tipice industriei petroliere de transfer în vrac." },
+      { name: "Seria 1124A/1224A (Fontă, Compact)", description: "Variante mai compacte din familia de pompe cu roți dințate interne, cu debite de până la 400-500 gpm, disponibile și în variante speciale, confirmate pe cod din documentația producătorului." },
+      { name: "Seria GB-410/414/425 (Fontă Ductilă, Debit Mare)", description: "Segmentul de debit foarte mare al gamei, din fontă ductilă, cu GB-410 (67 gpm) și GB-414 (136 gpm) pentru debite medii-mari, și GB-425, cu debitul indicat de producător pe cod." },
       { name: "Seria REVOLUTION® și STERILOBE® (Inox, Igienic)", description: "Familii dedicate aplicațiilor cu cerințe stricte de igienă, în inox, cu REVOLUTION® la debite de până la 400 gpm și STERILOBE® la până la 753 gpm. Recomandate pentru industria alimentară, a băuturilor sau farmaceutică, unde curățarea internă completă a pompei (CIP) e o cerință de proces." }
     ],
     industries: [
@@ -479,14 +479,14 @@ Pentru un cumpărător din România, Viking Pump are sens acolo unde debitul tre
       "Alimentar și băuturi — serii igienice REVOLUTION® și STERILOBE® cu curățare CIP",
       "Farmaceutică și biotehnologie — pompare fluide de proces în condiții sterile",
       "Chimie — transfer de fluide vâscoase și corozive cu materiale de carcasă adaptate",
-      "Militar și aerospațial — aplicații industriale specializate menționate de producător"
+      "Militar — aplicații industriale specializate menționate de producător"
     ],
     infinitrade: `Aducem pompe Viking Pump din gama sa foarte extinsă de serii prin canale de aprovizionare din UE și SUA, la comandă. Pentru acest brand lucrăm din surse publice ale producătorului, fără date proprii de stoc — dată fiind diversitatea gamei, confirmăm seria și materialul exact direct cu rețeaua de distribuție Viking Pump/IDEX înainte de a emite oferta. Orientativ, livrarea durează 1–4 săptămâni de la confirmarea comenzii cu producătorul. Pentru o ofertă corectă avem nevoie de: lichidul pompat, debitul necesar, materialul de carcasă dorit (fontă, oțel, inox) și dacă aplicația impune cerințe igienice de tip CIP. Nu promitem disponibilitate din depozit pe nicio serie din gama Viking Pump.`,
     limitation: "Nu putem confirma echivalența exactă între o serie Viking Pump și un model concurent fără o cerere tehnică transmisă direct producătorului, dată fiind diversitatea foarte mare a gamei.",
     productCodes: [
       { code: "1124A Series", description: "Pompă roți dințate interne, fontă, până la 500 gpm" },
       { code: "1124C Series", description: "Pompă roți dințate interne, fontă, până la 400 gpm" },
-      { code: "1224A-CHC", description: "Pompă cu cameră de încălzire/răcire jacketed" },
+      { code: "1224A-CHC", description: "Variantă specială a seriei 1224A, confirmată pe cod" },
       { code: "124A Series", description: "Pompă roți dințate, fontă, până la 420 gpm" },
       { code: "124E Series", description: "Pompă roți dințate, fontă, până la 1600 gpm" },
       { code: "4124A Series", description: "Pompă roți dințate, fontă, până la 420 gpm" },
@@ -504,13 +504,13 @@ Pentru un cumpărător din România, Viking Pump are sens acolo unde debitul tre
     faq: [
       { q: "Ce produce Viking Pump?", a: "Viking Pump produce pompe rotative volumetrice cu roți dințate, într-o gamă foarte extinsă de zeci de serii, în fontă, oțel sau inox, pentru transfer de combustibili, uleiuri, produse chimice și alimentare, cu debite de la sub 1 gpm până la peste 1000 gpm." },
       { q: "Cum aleg seria Viking Pump potrivită pentru aplicația mea?", a: "Alegerea depinde de debitul necesar, materialul compatibil cu fluidul (fontă, oțel, inox) și de cerințele de igienă ale aplicației — pentru alimentar sau farmaceutic se aleg seriile igienice REVOLUTION® sau STERILOBE®, pentru uz general seriile 4124 sau 1124." },
-      { q: "Ce este seria GB-425 de la Viking Pump?", a: "GB-425 este o serie de pompe din fontă ductilă din segmentul de debit foarte mare al gamei Viking Pump, cu capacitate exprimată de producător în barrels per day, tipică aplicațiilor de transfer în vrac din industria petrolieră." },
+      { q: "Ce este seria GB-425 de la Viking Pump?", a: "GB-425 este o serie de pompe din fontă ductilă din segmentul de debit foarte mare al gamei Viking Pump, cu debitul indicat de producător pe cod." },
       { q: "Livrați pompe Viking Pump în România și cât durează?", a: "Da, aducem pompe Viking Pump la comandă prin canale de aprovizionare din UE și SUA, cu un termen orientativ de 1–4 săptămâni, în funcție de seria și configurația confirmate cu producătorul." }
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Viking Pump – Home", url: "https://www.vikingpump.com/", publisher: "Viking Pump, Inc. (IDEX Corporation)", accessed: "2026-09-22" },
       { title: "Browse Viking Pumps", url: "https://www.vikingpump.com/pumps", publisher: "Viking Pump, Inc. (IDEX Corporation)", accessed: "2026-09-22" }
@@ -520,7 +520,7 @@ Pentru un cumpărător din România, Viking Pump are sens acolo unde debitul tre
   maag: {
     name: "Maag",
     headquarters: "Elveția",
-    overview: `Maag este un grup elvețian specializat în pompe cu roți dințate pentru transportul polimerilor topiți, cu operațiuni în peste 16 locații la nivel mondial, completat de sisteme de filtrare, granulare și măsurare pentru industria materialelor plastice. Gama de pompe acoperă aplicații distincte — de la producția de rășini virgine (seriile flexinox, dosix, refinex, cinox) la extrudare de termoplaste (seria extrex) și compoundare/reciclare (seriile polyrex, thermorex) — fiecare familie fiind optimizată pentru un punct diferit al procesului de producție a polimerilor. Pentru piața din România, Maag înseamnă acces la echipamente specializate pentru linii de extrudare și reciclare a plasticului.
+    overview: `Maag este un grup elvețian specializat în pompe cu roți dințate pentru transportul polimerilor topiți, cu operațiuni în peste 16 locații la nivel mondial, completat de sisteme de filtrare și granulare pentru industria materialelor plastice. Gama de pompe acoperă aplicații distincte — de la producția de rășini virgine (seriile flexinox, dosix, refinex, cinox) la extrudare de termoplaste (seria extrex) și compoundare/reciclare (seriile polyrex, thermorex) — fiecare familie fiind optimizată pentru un punct diferit al procesului de producție a polimerilor. Pentru piața din România, Maag înseamnă acces la echipamente specializate pentru linii de extrudare și reciclare a plasticului.
 
 Ce diferențiază gama Maag e specializarea foarte fină pe aplicație: familia extrex are variante GU (uz general), EP, SP, MP, ER și una dedicată exclusiv reciclării, în timp ce familia thermorex acoperă mai multe variante (TR/TB/TP/TO și TRO/TRP) pentru producția de rășini și compoundare. Alături de pompe, Maag oferă sisteme de filtrare a topiturii (Continuous Melt Filter BRF, Single Cartridge Filter SCF) și sisteme de granulare subacvatică (PEARLO) sau prin fir (EBG), ceea ce permite echiparea unei linii complete de la extrudare la peletizare dintr-o singură sursă.
 
@@ -530,20 +530,20 @@ Pentru un cumpărător din România, Maag are sens la linii de extrudare de plas
       "Sisteme complete pentru linia de plastic — pompe cu roți dințate, filtrare a topiturii și granulare, din același grup",
       "Variante extrex multiple (GU, EP, SP, MP, ER, Recycling) pentru cerințe diferite de extrudare a termoplastelor",
       "Prezență în peste 16 locații la nivel mondial, pentru suport tehnic și piese de schimb pe mai multe continente",
-      "Aplicabilitate în polimeri, chimie, petrochimie, farmaceutic și alimentar, conform descrierii producătorului"
+      "Aplicabilitate în producția de rășini și polimeri, extrudare, compoundare, reciclare și pompe industriale/chimice, conform descrierii producătorului"
     ],
     keyProducts: [
       { name: "Pompe Extrex⁶ (Extrudare Termoplaste)", description: "Familie de pompe cu roți dințate pentru extrudarea termoplastelor, cu variante GU (uz general, folosită și în masterbatch, compoundare și reciclare), EP, SP, MP și ER, plus o variantă dedicată exclusiv liniilor de reciclare. Recomandată acolo unde topitura de plastic trebuie transportată la presiune constantă către matriță sau granulator, indiferent de fluctuațiile din amonte." },
       { name: "Pompe Cinox/Therminox (Producție Rășină și Adezivi)", description: "Familie de pompe pentru producția de rășini virgine și adezivi hot-melt, disponibilă în variantele cinox/therminox și cinox-V/therminox-V. Folosită în etapele de proces unde temperatura topiturii trebuie menținută constantă pe durata transportului, tipic pentru rășini termosensibile sau adezivi aplicați la cald." },
-      { name: "Sisteme De Filtrare BRF și SCF", description: "Sisteme de filtrare continuă a topiturii — Continuous Melt Filter (BRF) pentru filtrare fără oprirea liniei și Single Cartridge Filter (SCF) pentru aplicații cu volum mai mic de contaminanți. Completează linia de extrudare acolo unde topitura de plastic reciclat sau virgin conține impurități care ar deteriora matrița sau ar afecta calitatea produsului final." },
+      { name: "Sisteme De Filtrare BRF și SCF", description: "Sisteme de filtrare continuă a topiturii — Continuous Melt Filter (BRF) pentru filtrare fără oprirea liniei și Single Cartridge Filter (SCF). Completează linia de extrudare acolo unde topitura de plastic reciclat sau virgin conține impurități care ar deteriora matrița sau ar afecta calitatea produsului final." },
       { name: "Sisteme De Granulare PEARLO și EBG", description: "Sisteme de granulare subacvatică (PEARLO 350, PEARLO CS, M²-USG) pentru producție de peleți uniformi direct la ieșirea din extruder, și sistem de granulare prin fir (EBG 200) pentru aplicații unde răcirea în bandă e preferată variantei subacvatice. Alegerea între cele două depinde de tipul de material și de forma dorită a granulei finale." }
     ],
     industries: [
       "Producție de polimeri și rășini — pompare topitură la presiune constantă",
       "Compoundare și masterbatch — transport topitură pentru amestecuri colorate sau aditivate",
       "Reciclare mecanică de plastic — pompe și filtre dedicate materialului reciclat",
-      "Chimie și petrochimie — procese de extrudare specifice industriei",
-      "Farmaceutic și alimentar — aplicații de extrudare cu cerințe speciale de proces"
+      "Chimie — pompe pentru aplicații industriale și chimice (flexinox, dosix, hydrolub)",
+      "Adezivi hot-melt — pompe cinox/therminox pentru adezivi aplicați la cald"
     ],
     infinitrade: `Furnizăm pompe cu roți dințate Maag și sistemele conexe de filtrare sau granulare prin canale de aprovizionare din UE, la comandă. Pentru acest brand ne bazăm pe surse publice ale producătorului — fără date proprii de stoc — și confirmăm familia exactă (extrex, cinox, thermorex etc.) și configurația tehnică direct cu Maag înainte de a emite oferta, dată fiind specializarea foarte fină a fiecărei serii. Orientativ, așteptați 1–4 săptămâni de la confirmarea comenzii pentru livrare. Pentru o ofertă corectă avem nevoie de: materialul procesat, etapa de proces (extrudare, compoundare, reciclare), debitul de topitură necesar și dacă e nevoie și de sistem de filtrare sau granulare. Nu promitem disponibilitate din depozit pentru niciun echipament din gamă.`,
     limitation: "Nu putem confirma parametrii tehnici de presiune și temperatură pentru fiecare variantă extrex/cinox fără o cerere tehnică transmisă direct producătorului, aceștia nefiind publicați integral pe pagina generală de produse.",
@@ -556,11 +556,11 @@ Pentru un cumpărător din România, Maag are sens la linii de extrudare de plas
       { code: "extrex Recycling", description: "Pompă roți dințate dedicată liniilor de reciclare" },
       { code: "extrex RV/RB", description: "Pompă roți dințate pentru aplicații de extrudare" },
       { code: "flexinox", description: "Pompă pentru producție de rășină și polimer virgin" },
-      { code: "dosix", description: "Pompă de dozare pentru producție de rășină" },
-      { code: "refinex refitherm", description: "Pompă pentru rafinare polimer, control termic" },
+      { code: "dosix", description: "Pompă pentru producție de rășină și polimer virgin" },
+      { code: "refinex refitherm", description: "Pompă pentru producție de rășină și polimer virgin" },
       { code: "cinox therminox", description: "Pompă pentru rășini și adezivi hot-melt" },
       { code: "cinox-V therminox-V", description: "Variantă a pompei cinox/therminox" },
-      { code: "hydrolub", description: "Pompă pentru soluții industriale de pompare" },
+      { code: "hydrolub", description: "Pompă pentru aplicații industriale și chimice" },
       { code: "vacorex6 VX", description: "Pompă pentru producție de rășină virgină" },
       { code: "thermorex6 TR/TB/TP/TO", description: "Pompă pentru rășină, masterbatch, compoundare, reciclare" },
       { code: "polyrex6 PR", description: "Pompă pentru masterbatch și compoundare" },
@@ -575,8 +575,8 @@ Pentru un cumpărător din România, Maag are sens la linii de extrudare de plas
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "MAAG Group – Home", url: "https://www.maag.com/en/", publisher: "MAAG Group", accessed: "2026-09-22" },
       { title: "MAAG Group – Gear Pumps", url: "https://maag.com/categories/gear-pumps/", publisher: "MAAG Group", accessed: "2026-09-22" }
@@ -586,8 +586,8 @@ Pentru un cumpărător din România, Maag are sens la linii de extrudare de plas
   "imi-hydronic": {
     name: "IMI Hydronic",
     founded: 1897,
-    headquarters: "Ljung, Suedia (rădăcini istorice)",
-    overview: `IMI Hydronic Engineering este un grup cu rădăcini suedeze din 1897, cunoscut pentru sistemele de echilibrare hidraulică și control al debitului din instalațiile HVAC, sub brandurile IMI TA, IMI Pneumatex și IMI Flow Design. Gama IMI TA a introdus, conform producătorului, primul robinet de echilibrare manuală din lume în 1957 (seria STAD) și acoperă astăzi robineți de echilibrare clasici (STAD, STAF, STAF-SG) și robineți independenți de presiune (PICV) precum TA-Modulator și TA-COMPACT-P. Pentru piața din România, IMI Hydronic înseamnă acces la echipamente-cheie pentru echilibrarea corectă a instalațiilor de încălzire și răcire.
+    headquarters: "Suedia (rădăcini istorice la Ljung)",
+    overview: `IMI Hydronic Engineering este un grup cu rădăcini suedeze din 1897, cunoscut pentru sistemele de echilibrare hidraulică și control al debitului din instalațiile HVAC, sub brandurile IMI TA, IMI Pneumatex și IMI Flow Design. Gama IMI TA a introdus, conform producătorului, primul robinet de echilibrare manuală din lume în 1957 și acoperă astăzi robineți de echilibrare clasici (STAD, STAF, STAF-SG) și robineți independenți de presiune (PICV) precum TA-Modulator și TA-COMPACT-P. Pentru piața din România, IMI Hydronic înseamnă acces la echipamente-cheie pentru echilibrarea corectă a instalațiilor de încălzire și răcire.
 
 Ce diferențiază gama e combinația de robineți manuali de echilibrare, cu domeniu DN 20-400 și presiuni nominale PN 16/PN 25 pe seria STAF/STAF-SG, cu robineți independenți de presiune din familia PICV, care reglează automat debitul indiferent de variațiile de presiune din rețea — o tehnologie mai avansată decât echilibrarea manuală clasică. Brandul IMI Pneumatex completează portofoliul cu echipamente de presurizare și degazare (seria Statico, Compresso Connect), pentru controlul complet al circuitului hidraulic, nu doar al debitului.
 
@@ -600,9 +600,9 @@ Pentru un cumpărător din România, IMI Hydronic are sens la instalații de în
       "Domeniu larg DN 20-400 pe seria STAF/STAF-SG, cu presiuni nominale PN 16 și PN 25"
     ],
     keyProducts: [
-      { name: "Robineți De Echilibrare STAD/STAF/STAF-SG", description: "Familie de robineți manuali de echilibrare hidraulică, cu STAF și STAF-SG acoperind un domeniu DN 20-400 la presiuni nominale PN 16 și PN 25, STAF fiind din fontă și STAF-SG din fontă nodulară. STAD este robinetul original al gamei, introdus în 1957 ca prim robinet de echilibrare manuală comercializat. Recomandați pentru echilibrarea circuitelor de încălzire/răcire unde debitul se reglează o singură dată, la punerea în funcțiune." },
+      { name: "Robineți De Echilibrare STAD/STAF/STAF-SG", description: "Familie de robineți manuali de echilibrare hidraulică, cu STAF și STAF-SG acoperind un domeniu DN 20-400 la presiuni nominale PN 16 și PN 25, STAF fiind din fontă și STAF-SG din fontă nodulară. STAD este robinetul de echilibrare manuală al gamei. Recomandați pentru echilibrarea circuitelor de încălzire/răcire unde debitul se reglează o singură dată, la punerea în funcțiune." },
       { name: "Robinet Independent De Presiune TA-Modulator", description: "Robinet PICV (pressure independent control valve) care combină funcția de echilibrare cu cea de control automat al debitului, indiferent de variațiile de presiune din rețea. Recomandat pentru instalații cu presiune variabilă, unde un robinet de echilibrare manual clasic ar necesita reechilibrare la fiecare modificare a sarcinii din sistem." },
-      { name: "Robinet PIBCV TA-COMPACT-P", description: "Robinet de echilibrare și control independent de presiune (PIBCV), descris de producător ca având capacitate maximă de debit ajustabilă și funcție de prevenire a debitului excesiv (overflow). Disponibil și în variantă cu conexiuni NPT/SWT pentru instalații nord-americane. Compatibil cu instrumente de măsurare pentru diagnostic avansat al circuitului." },
+      { name: "Robinet PIBCV TA-COMPACT-P", description: "Robinet de echilibrare și control independent de presiune (PIBCV), descris de producător ca având capacitate maximă de debit ajustabilă și funcție de prevenire a debitului excesiv (overflow). Compatibil cu instrumente de măsurare pentru diagnostic avansat al circuitului." },
       { name: "Sisteme De Presurizare Statico și Compresso Connect", description: "Echipamente ale brandului IMI Pneumatex pentru menținerea presiunii corecte în circuitul hidraulic — Statico ca sistem de vase de expansiune, Compresso Connect ca unitate de presurizare conectată. Completează robineții de echilibrare acolo unde presiunea de sistem trebuie controlată activ, nu doar debitul pe fiecare circuit." }
     ],
     industries: [
@@ -614,11 +614,11 @@ Pentru un cumpărător din România, IMI Hydronic are sens la instalații de în
     infinitrade: `Aducem robineți de echilibrare și control IMI (STAD, STAF, TA-Modulator, TA-COMPACT-P) prin canale de aprovizionare din UE, la comandă. Pentru acest brand lucrăm din surse publice ale producătorului — informațiile publice disponibile pe pagina oficială nu includ un catalog complet de coduri, așa că fiecare comandă se confirmă cu dimensiunea DN, presiunea nominală și tipul exact direct cu rețeaua de distribuție IMI. Orientativ, livrarea durează 1–4 săptămâni din momentul confirmării comenzii cu producătorul. Pentru o ofertă corectă avem nevoie de: dimensiunea DN necesară, presiunea nominală a instalației (PN 16 sau PN 25), dacă e nevoie de echilibrare manuală sau de control independent de presiune (PICV) și dacă instalația necesită și componente de presurizare. Nu promitem disponibilitate din depozit pe nicio gamă.`,
     limitation: "Nu putem confirma codurile complete de comandă sau disponibilitatea variantelor cu actuatoare electrice pentru gama TA fără verificare directă cu rețeaua de distribuție IMI Hydronic.",
     productCodes: [
-      { code: "STAD", description: "Robinet de echilibrare manuală, primul din gamă, 1957" },
+      { code: "STAD", description: "Robinet de echilibrare manuală" },
       { code: "STAF", description: "Robinet de echilibrare, fontă, DN 20-400, PN 16/25" },
       { code: "STAF-SG", description: "Robinet de echilibrare, fontă nodulară, DN 20-400" },
-      { code: "TA-Smart", description: "Instrument de diagnosticare și echilibrare a circuitelor" },
-      { code: "ICSS", description: "Regulator automat de debit pentru instalații HVAC" },
+      { code: "TA-Smart", description: "Robinet de control cu 2 căi, cu măsurare de debit, temperatură și putere" },
+      { code: "ICSS", description: "Cod din gama IMI Hydronic; descrierea exactă se confirmă din documentația producătorului" },
       { code: "TA-Modulator", description: "Robinet PICV independent de presiune" },
       { code: "TA-COMPACT-P", description: "Robinet PIBCV cu debit maxim ajustabil" },
       { code: "Statico", description: "Sistem de vase de expansiune, brand IMI Pneumatex" },
@@ -634,8 +634,8 @@ Pentru un cumpărător din România, IMI Hydronic are sens la instalații de în
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "IMI Climate Control – Home", url: "https://climatecontrol.imiplc.com/en-us", publisher: "IMI Hydronic Engineering", accessed: "2026-09-22" },
       { title: "STAF & STAF-SG – Manual Balancing Valves for HVAC", url: "https://climatecontrol.imiplc.com/product/staf-staf-sg", publisher: "IMI Hydronic Engineering", accessed: "2026-09-22" }
@@ -645,22 +645,22 @@ Pentru un cumpărător din România, IMI Hydronic are sens la instalații de în
   crane: {
     name: "Crane",
     headquarters: "The Woodlands, Texas, SUA",
-    overview: `Crane, prin divizia Crane ChemPharma & Energy, este un grup american de armături industriale cu o istorie de peste 170 de ani, care reunește sub un singur acoperiș branduri specializate precum XOMOX (robinete cu sertar înmănușat, seria Tufline), SAUNDERS (robinete cu diafragmă), CENTER LINE și FLOWSEAL (robinete fluture), KROMBACH (robinete cu bilă), DEPA (pompe cu diafragmă) și ELRO (pompe peristaltice). Pentru piața din România, Crane înseamnă acces la o gamă foarte largă de robinete și pompe industriale, fiecare brand acoperind o nișă tehnică diferită.
+    overview: `Crane, prin divizia Crane ChemPharma & Energy, este un grup american de armături industriale cu o istorie de peste 170 de ani, care reunește sub un singur acoperiș branduri specializate precum XOMOX (robinete cu dop manșonat, seria Tufline), SAUNDERS (robinete cu diafragmă), CENTER LINE și FLOWSEAL (robinete fluture), KROMBACH (robinete cu bilă), DEPA (pompe cu diafragmă) și ELRO (pompe peristaltice). Pentru piața din România, Crane înseamnă acces la o gamă foarte largă de robinete și pompe industriale, fiecare brand acoperind o nișă tehnică diferită.
 
-Ce diferențiază Crane e specializarea fiecărui brand component: robinetele XOMOX Tufline vin în variante Full Port, Multiport, Lined, Jacketed, Severe Service sau Tertiary Top Seal, pentru medii diferite de la standard la extrem de agresive, în timp ce robinetele cu diafragmă SAUNDERS acoperă domeniul DN008-DN350 în tipurile A și KB, cu materiale de garnitură precum neopren, nitril, cauciuc natural sau Hypalon. Certificările menționate de grup includ ISO 9001, conformitate TA-Luft 2021 pentru emisii și ISO 15848-1 pentru etanșare fugitivă — relevante pentru instalații chimice și petrochimice cu cerințe stricte de mediu.
+Ce diferențiază Crane e specializarea fiecărui brand component: robinetele XOMOX Tufline vin în variante Full Port, Multiport, Lined, Jacketed, Severe Service sau Tertiary Top Seal, pentru medii diferite de la standard la extrem de agresive, în timp ce robinetele cu diafragmă SAUNDERS acoperă domeniul DN008-DN350 în tipurile A și KB, cu materiale de garnitură precum neopren, nitril, cauciuc natural sau Hypalon. Producătorul menționează conformitate TA-Luft 2021 pentru emisii și ISO 15848-1 pentru etanșare fugitivă — relevante pentru instalații chimice și petrochimice cu cerințe stricte de mediu.
 
 Pentru un cumpărător din România, Crane are sens la instalații din chimie, petrochimie, rafinării sau farmaceutică, unde alegerea tipului exact de robinet (sertar înmănușat pentru medii abrazive, diafragmă pentru izolare completă, fluture pentru spațiu redus) depinde de proprietățile fluidului și de cerințele de etanșare ale procesului.`,
     whyChoose: [
       "Portofoliu de branduri specializate (XOMOX, SAUNDERS, CENTER LINE, KROMBACH, FLOWSEAL, DEPA, ELRO) sub un singur furnizor",
       "Robinete XOMOX Tufline în variante multiple — Full Port, Jacketed, Severe Service — pentru medii de la standard la extrem de agresive",
       "Robinete cu diafragmă SAUNDERS pe domeniu larg DN008-DN350, cu materiale de garnitură adaptate chimic",
-      "Certificări relevante pentru industrie — ISO 9001, TA-Luft 2021 pentru emisii, ISO 15848-1 pentru etanșare fugitivă",
-      "Peste 170 de ani de istorie combinată a brandurilor din grup în armături industriale"
+      "Certificări relevante pentru industrie — TA-Luft 2021 pentru emisii, ISO 15848-1 pentru etanșare fugitivă (disponibilitatea pe serie se confirmă pe cod)",
+      "Grupul Crane are peste 170 de ani de istorie"
     ],
     keyProducts: [
-      { name: "Robinete Cu Sertar Înmănușat XOMOX Tufline", description: "Familie de robinete cu sertar din elastomer înmănușat, în variante Full Port (debit maxim), XP, Multiport (mai multe căi pe același corp), Lined (căptușit pentru medii corozive), Jacketed (cu manta de încălzire/răcire) și Severe Service sau Tertiary Top Seal pentru medii extrem de agresive, inclusiv acid fluorhidric. Recomandate acolo unde etanșarea perfectă la închidere contează mai mult decât viteza de acționare." },
+      { name: "Robinete Cu Dop Manșonat XOMOX Tufline", description: "Familie de robinete cu dop manșonat din elastomer, în variante Full Port (debit maxim), XP, Multiport (mai multe căi pe același corp), Lined (căptușit pentru medii corozive), Jacketed (cu manta de încălzire/răcire) și Severe Service sau Tertiary Top Seal pentru medii extrem de agresive, inclusiv acid fluorhidric. Recomandate acolo unde etanșarea la închidere contează mai mult decât viteza de acționare." },
       { name: "Robinete Cu Diafragmă SAUNDERS", description: "Robinete cu diafragmă în tipurile A (DN008-DN350) și KB (DN015-DN350), cu materiale de garnitură disponibile în neopren, nitril, cauciuc natural (Q și AA) sau Hypalon 237, alese în funcție de compatibilitatea chimică cu fluidul. Recomandate pentru izolare completă a mediului de proces față de mecanismul robinetului, tipic în industria chimică și farmaceutică." },
-      { name: "Pompe Cu Diafragmă DEPA și Pompe Peristaltice ELRO", description: "Pompe cu diafragmă DEPA pentru transfer de lichide agresive fără contact cu piese metalice în mișcare, și pompe peristaltice ELRO pentru fluide abrazive sau cu solide, unde tubul flexibil e singura piesă în contact cu lichidul. Completează gama de robinete Crane cu soluții de pompare pentru aceleași industrii chimice și farmaceutice." },
+      { name: "Pompe Cu Diafragmă DEPA și Pompe Peristaltice ELRO", description: "Pompe cu diafragmă acționate pneumatic DEPA și pompe peristaltice ELRO; modelul potrivit se alege în funcție de fluid, după documentația producătorului. Completează gama de robinete Crane cu soluții de pompare pentru aceleași industrii chimice și farmaceutice." },
       { name: "Robinete Fluture CENTER LINE și FLOWSEAL", description: "Robinete fluture din portofoliul Crane, folosite pentru izolare și reglare de debit în spații unde un robinet cu sertar sau diafragmă ar fi prea mare. CENTER LINE și FLOWSEAL acoperă aplicații industriale generale, completând gama de robinete de proces alături de familiile XOMOX și SAUNDERS pentru cerințe mai specializate." }
     ],
     industries: [
@@ -671,21 +671,20 @@ Pentru un cumpărător din România, Crane are sens la instalații din chimie, p
       "Industria alimentară și a băuturilor — componente compatibile cu cerințe de igienă"
     ],
     certifications: [
-      "ISO 9001 — sistem de management al calității",
       "TA-Luft 2021 — conformitate pentru controlul emisiilor fugitive",
       "ISO 15848-1 — standard de testare a etanșării fugitive pentru robinete industriale"
     ],
     infinitrade: `Aducem robinete și pompe din portofoliul Crane ChemPharma & Energy (XOMOX, SAUNDERS, CENTER LINE, KROMBACH, FLOWSEAL, DEPA, ELRO) prin canale de aprovizionare din UE, la comandă. Pentru acest brand ne bazăm pe surse publice ale producătorului, fără date proprii de stoc — dată fiind diversitatea foarte mare a gamei, confirmăm brandul, seria și dimensiunea exactă direct cu rețeaua Crane înainte de ofertă. Ca reper, livrarea durează orientativ 1–4 săptămâni din momentul confirmării comenzii. Pentru o ofertă corectă avem nevoie de: tipul de armătură necesar (sertar, diafragmă, fluture, bilă), dimensiunea DN, materialul de contact cu fluidul și dacă aplicația impune certificare specifică (TA-Luft, ISO 15848-1). Nu promitem disponibilitate din depozit pentru niciun brand din portofoliu.`,
     limitation: "Nu putem confirma codurile complete de comandă sau echivalențele exacte între branduri concurente pentru gama Crane fără o cerere tehnică transmisă direct producătorului.",
     productCodes: [
-      { code: "XOMOX Tufline Full Port", description: "Robinet cu sertar înmănușat, debit maxim prin corp" },
-      { code: "XOMOX Tufline XP", description: "Robinet cu sertar înmănușat, variantă XP" },
-      { code: "XOMOX Tufline Multiport", description: "Robinet cu sertar cu mai multe căi pe un corp" },
-      { code: "XOMOX Tufline Lined", description: "Robinet cu sertar căptușit pentru medii corozive" },
-      { code: "XOMOX Tufline Jacketed", description: "Robinet cu sertar cu manta de încălzire/răcire" },
-      { code: "XOMOX Tufline Severe Service", description: "Robinet cu sertar pentru medii extrem de agresive" },
-      { code: "XOMOX Tufline Tertiary Top Seal", description: "Robinet cu sertar cu etanșare terțiară suplimentară" },
-      { code: "XOMOX Tufline Hydrofluoric", description: "Robinet cu sertar pentru servicii cu acid fluorhidric" },
+      { code: "XOMOX Tufline Full Port", description: "Robinet cu dop manșonat, debit maxim prin corp" },
+      { code: "XOMOX Tufline XP", description: "Robinet cu dop manșonat, variantă XP" },
+      { code: "XOMOX Tufline Multiport", description: "Robinet cu dop manșonat cu mai multe căi pe un corp" },
+      { code: "XOMOX Tufline Lined", description: "Robinet cu dop manșonat căptușit pentru medii corozive" },
+      { code: "XOMOX Tufline Jacketed", description: "Robinet cu dop manșonat cu manta de încălzire/răcire" },
+      { code: "XOMOX Tufline Severe Service", description: "Robinet cu dop manșonat pentru medii extrem de agresive" },
+      { code: "XOMOX Tufline Tertiary Top Seal", description: "Robinet cu dop manșonat cu etanșare terțiară suplimentară" },
+      { code: "XOMOX Tufline Hydrofluoric", description: "Robinet cu dop manșonat pentru servicii cu acid fluorhidric" },
       { code: "SAUNDERS A Type", description: "Robinet cu diafragmă, domeniu DN008-DN350" },
       { code: "SAUNDERS KB Type", description: "Robinet cu diafragmă, domeniu DN015-DN350" },
       { code: "SAUNDERS IDV", description: "Gama de robinete industriale cu diafragmă" },
@@ -697,15 +696,15 @@ Pentru un cumpărător din România, Crane are sens la instalații din chimie, p
       { code: "RESISTOFLEX", description: "Brand de țevi și furtunuri căptușite din portofoliul Crane" }
     ],
     faq: [
-      { q: "Ce produce Crane (Crane ChemPharma & Energy)?", a: "Crane ChemPharma & Energy produce armături industriale sub mai multe branduri specializate — robinete cu sertar înmănușat XOMOX, robinete cu diafragmă SAUNDERS, robinete fluture CENTER LINE și FLOWSEAL, robinete cu bilă KROMBACH și pompe DEPA/ELRO — pentru chimie, petrochimie și energie." },
-      { q: "Ce diferență e între un robinet XOMOX și unul SAUNDERS de la Crane?", a: "XOMOX este un robinet cu sertar cilindric înmănușat în elastomer, potrivit pentru medii abrazive și acțiune rapidă de sfert de tură, în timp ce SAUNDERS este un robinet cu diafragmă, care izolează complet mecanismul de fluid, recomandat pentru medii extrem de corozive sau aplicații farmaceutice." },
-      { q: "Ce este seria Tufline de la XOMOX (Crane)?", a: "Tufline este familia de robinete cu sertar înmănușat a brandului XOMOX, cu variante precum Full Port, Lined, Jacketed sau Severe Service, alese în funcție de agresivitatea chimică a mediului și de cerințele de temperatură ale aplicației." },
+      { q: "Ce produce Crane (Crane ChemPharma & Energy)?", a: "Crane ChemPharma & Energy produce armături industriale sub mai multe branduri specializate — robinete cu dop manșonat XOMOX, robinete cu diafragmă SAUNDERS, robinete fluture CENTER LINE și FLOWSEAL, robinete cu bilă KROMBACH și pompe DEPA/ELRO — pentru chimie, petrochimie și energie." },
+      { q: "Ce diferență e între un robinet XOMOX și unul SAUNDERS de la Crane?", a: "XOMOX este un robinet cu dop manșonat în elastomer, acționat prin sfert de tură, în timp ce SAUNDERS este un robinet cu diafragmă, care izolează complet mecanismul de fluid, recomandat pentru medii extrem de corozive sau aplicații farmaceutice." },
+      { q: "Ce este seria Tufline de la XOMOX (Crane)?", a: "Tufline este familia de robinete cu dop manșonat a brandului XOMOX, cu variante precum Full Port, Lined, Jacketed sau Severe Service, alese în funcție de agresivitatea chimică a mediului și de cerințele de temperatură ale aplicației." },
       { q: "Livrați robinete Crane în România și cât durează?", a: "Da, aducem robinete și pompe din portofoliul Crane la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, în funcție de brandul, seria și dimensiunea confirmate cu producătorul." }
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Crane ChemPharma & Energy – Home", url: "https://www.cranecpe.com/", publisher: "Crane ChemPharma & Energy", accessed: "2026-09-22" },
       { title: "SAUNDERS® Standard Diaphragm Ranges", url: "https://cranecpe.com/product/saunders-standard-diaphragm-ranges/", publisher: "Crane ChemPharma & Energy", accessed: "2026-09-22" }

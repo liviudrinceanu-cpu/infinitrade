@@ -6,18 +6,18 @@ export const brandContentBatch67 = {
     headquarters: "Tucson, Arizona, SUA",
     overview: `Dataforth este un producător american din Tucson, Arizona, specializat în module de condiționare a semnalului și sisteme de achiziție de date pentru automatizări industriale. Produsele izolează electric semnalele de proces — temperatură, presiune, tensiune, curent — între senzor și sistemul de control, protejând automatul programabil de zgomot electric și supratensiuni induse pe cablaj. Gama acoperă module montate pe șină DIN sau backplane, sisteme complete de achiziție de date și transmițătoare de buclă 4-20mA, gândite pentru integrare directă în PLC-uri, SCADA sau sisteme DCS deja existente într-o instalație.
 
-Ce diferențiază gama Dataforth este izolarea galvanică prin transformator pe trei căi, folosită la seriile SCM5B, SCM7B și DSCA, mai robustă decât un simplu cuplaj optic la izolatoarele ieftine. Precizia tipică pe SCM5B ajunge la ±0,03%, utilă acolo unde eroarea de condiționare contează în bucla de măsură. Seria 8B coboară dimensiunea fizică a modulului pentru aplicații embedded sau portabile, iar variantele DSCA și DSCT vin certificate ATEX pentru montaj în zone cu risc de explozie.
+Ce diferențiază gama Dataforth este izolarea galvanică prin transformator pe trei căi, folosită la seriile SCM5B și DSCA. Precizia tipică pe SCM5B ajunge la ±0,03%, utilă acolo unde eroarea de condiționare contează în bucla de măsură. Seria 8B coboară dimensiunea fizică a modulului pentru aplicații embedded sau portabile, iar variantele DSCA și DSCT vin certificate ATEX pentru montaj în zone cu risc de explozie.
 
 Pentru instalațiile din România, gama Dataforth are sens acolo unde un integrator are nevoie de izolare galvanică sigură pe un semnal analogic — rafinării, stații de proces, linii unde zgomotul electric de la variatoare sau motoare afectează măsurătorile unui automat programabil existent.`,
     whyChoose: [
-      "Izolare galvanică prin transformator pe trei căi la seriile SCM5B, SCM7B și DSCA, nu doar cuplaj optic simplu",
+      "Izolare galvanică prin transformator pe trei căi la seriile SCM5B și DSCA",
       "Precizie de ±0,03% la modulele SCM5B, relevantă pentru bucle de măsură unde eroarea de condiționare contează",
       "Variante DSCA și DSCT certificate ATEX, montabile în zone cu risc de explozie fără condiționare suplimentară",
       "Sistemul MAQ20 certificat UL pentru locații periculoase, potrivit pentru petrochimie și rafinării",
       "Gamă completă de la modul individual la sistem de achiziție de date, fără schimbarea furnizorului pe parcursul proiectului",
     ],
     keyProducts: [
-      { name: "Module de Condiționare a Semnalului Seria SCM5B", description: "Module industriale cu izolare prin transformator pe trei căi, montate pe șină DIN sau backplane. Acoperă peste 19 familii și peste 250 de modele, pentru semnale de temperatură (termocuplu, RTD), tensiune, curent și frecvență, cu precizie tipică de ±0,03%. Izolarea galvanică separă complet partea de câmp de partea de control, protejând automatul programabil de supratensiuni și zgomot indus pe cablaj." },
+      { name: "Module de Condiționare a Semnalului Seria SCM5B", description: "Module industriale cu izolare prin transformator pe trei căi, montate pe șină DIN sau backplane. Acoperă 19 familii și peste 250 de modele, pentru semnale de temperatură (termocuplu, RTD), tensiune, curent și frecvență, cu precizie tipică de ±0,03%. Izolarea galvanică separă complet partea de câmp de partea de control, protejând automatul programabil de supratensiuni și zgomot indus pe cablaj." },
       { name: "Module Compacte Seria SCM7B și 8B", description: "SCM7B e varianta compactă montată pe șină DIN, cu 14 familii și peste 200 de modele, gândită pentru achiziție de date la cost redus. Seria 8B coboară și mai mult dimensiunea — este descrisă de producător ca cel mai mic condiționer de semnal izolat din gamă, cu 19 familii și 123 de module, potrivit pentru integrare în echipamente unde spațiul din carcasă este limitat." },
       { name: "Sistem de Achiziție de Date MAQ20", description: "Platformă modulară de achiziție de date și control, certificată UL pentru locații periculoase. Se completează cu module de intrare/ieșire pentru semnale analogice și digitale și poate funcționa distribuit prin rețea, util atunci când datele trebuie colectate din mai multe puncte ale unei instalații și centralizate într-un singur sistem de supraveghere." },
       { name: "Transmițătoare de Buclă DSCT și DSCP", description: "DSCT este un transmițător de buclă alimentat pe 2 fire, certificat ATEX, pentru conversia semnalului unui senzor în semnal standard 4-20mA. DSCP este varianta programabilă de utilizator, configurabilă pentru diverse tipuri de intrare fără hardware suplimentar. Ambele completează seriile DSCA de condiționare montate pe șină DIN, într-o singură familie coerentă de produse." },
@@ -34,12 +34,12 @@ Pentru instalațiile din România, gama Dataforth are sens acolo unde un integra
       "UL — pentru sistemul MAQ20 în locații periculoase",
       "ATEX — pentru seriile DSCA și DSCT",
     ],
-    infinitrade: `Aducem module Dataforth de condiționare a semnalului și sisteme de achiziție de date prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea la producător. Nu avem date proprii de stoc pentru această gamă — informațiile despre familii, module și certificări provin din surse publice ale producătorului, verificate în sesiunea curentă. Pentru o ofertă corectă avem nevoie de codul exact al modulului (de exemplu SCM5B37 sau DSCA47), tipul de semnal de intrare/ieșire și, dacă e cazul, cerința de certificare ATEX sau UL a instalației. Nu promitem disponibilitate din depozit și nu confirmăm termene mai scurte decât cele indicate de producător pentru codul solicitat.`,
+    infinitrade: `Aducem module Dataforth de condiționare a semnalului și sisteme de achiziție de date prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea la producător. Nu avem date proprii de stoc pentru această gamă — informațiile despre familii, module și certificări provin din surse publice ale producătorului. Pentru o ofertă corectă avem nevoie de codul exact al modulului (de exemplu SCM5B37 sau DSCA47), tipul de semnal de intrare/ieșire și, dacă e cazul, cerința de certificare ATEX sau UL a instalației. Nu promitem disponibilitate din depozit și nu confirmăm termene mai scurte decât cele indicate de producător pentru codul solicitat.`,
     limitation: "Nu putem confirma disponibilitatea în stoc a unui anumit cod SCM sau DSCA la un moment dat, aceasta depinzând exclusiv de producător.",
     productCodes: [
       { code: "SCM5B", description: "Modul izolat de condiționare semnal, transformator pe trei căi, precizie ±0,03%" },
       { code: "SCM7B", description: "Modul compact montat pe șină DIN pentru achiziție de date" },
-      { code: "8B", description: "Cel mai mic condiționer de semnal izolat, pentru aplicații embedded" },
+      { code: "8B", description: "Condiționer de semnal izolat compact, pentru aplicații embedded" },
       { code: "DSCA", description: "Condiționer DIN cu izolare prin transformator pe trei căi" },
       { code: "SCM9B", description: "Modul configurabil software pentru achiziție de date distribuită" },
       { code: "SCMD", description: "Dispozitiv miniatural în stare solidă pentru semnale ON/OFF, izolare 4kV" },
@@ -60,8 +60,8 @@ Pentru instalațiile din România, gama Dataforth are sens acolo unde un integra
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Dataforth — Signal Conditioning, Data Acquisition, Monitoring", url: "https://www.dataforth.com/", publisher: "Dataforth Corporation", accessed: "2026-09-22" },
       { title: "Signal Conditioning Products", url: "https://www.dataforth.com/signal-conditioning", publisher: "Dataforth Corporation", accessed: "2026-09-22" },
@@ -71,7 +71,7 @@ Pentru instalațiile din România, gama Dataforth are sens acolo unde un integra
   'kubler': {
     name: "Kübler",
     headquarters: "Villingen-Schwenningen, Germania",
-    overview: `Kübler Group este un producător german de sisteme de măsurare a poziției și mișcării, cu sediul la Villingen-Schwenningen. Gama principală acoperă encodere incrementale și absolute (singleturn și multiturn), encodere fără rulmenți (bearingless), sisteme de măsurare liniară cu cablu tractor, sisteme de copiere a cursei, măsurare magnetică de lungime, inclinometre și senzori radar de nivel. Completează oferta tehnica de transmisie — inele colectoare, convertoare de semnal, module de intrare/ieșire — și aparate de evaluare precum afișaje, numărătoare și monitoare de viteză de siguranță.
+    overview: `Kübler Group este un producător german de sisteme de măsurare a poziției și mișcării, cu sediul la Villingen-Schwenningen. Gama principală acoperă encodere incrementale și absolute (singleturn și multiturn), encodere fără rulmenți (bearingless), sisteme de măsurare liniară cu cablu tractor, sisteme de copiere a cursei, măsurare magnetică de lungime, inclinometre și senzori radar de nivel. Completează oferta tehnică de transmisie — inele colectoare, convertoare de semnal, module de intrare/ieșire — și aparate de evaluare precum afișaje, numărătoare și monitoare de viteză de siguranță.
 
 Diferența tehnică a gamei Kübler stă în acoperirea dimensională: seria compactă Sendix 2400 pornește de la un diametru de 24 mm, cu rezoluție de până la 1024 impulsuri pe rotație, în timp ce varianta hollow-shaft A02H/H100/H120 acceptă un ax gol de până la 42 mm, pentru montaj direct pe arborele unui motor sau reductor mare. Seria standard Sendix 5000, cu diametru 50-70 mm, urcă până la 36.000 impulsuri pe rotație și acceptă ieșiri HTL, TTL sau SinCos, cu variante certificate ATEX/IECEx sau de siguranță funcțională SIL2/SIL3 pentru aplicații critice.
 
@@ -85,7 +85,7 @@ Pentru instalațiile industriale din România, gama Kübler are sens la retehnol
     ],
     keyProducts: [
       { name: "Encodere Incrementale Seria Sendix (2400, KIH40, 5000)", description: "Familie de encodere incrementale în trei clase dimensionale: Sendix 2400 (Ø24mm, până la 1024 ppr, ax sau ax gol până la 6mm), Sendix KIH40 (Ø36-40mm, până la 3600 ppr, carcasă de plastic disponibilă) și Sendix 5000 (Ø50-70mm, până la 36.000 ppr, ax gol până la 25,4mm). Ieșiri HTL sau TTL, temperatură de lucru între -40°C și +105°C." },
-      { name: "Encodere Absolute Hollow-Shaft Seria A02H/H100/H120", description: "Encodere absolute cu ax gol pentru montaj direct pe arbori mari, cu rezoluție de până la 5000 de poziții pe rotație și diametru de ax gol de până la 42mm. Variantele sunt gândite pentru motoare, reductoare și generatoare unde encoderul se montează fără cuplaj mecanic suplimentar, reducând jocul mecanic din lanțul de măsurare." },
+      { name: "Encodere Hollow-Shaft Seria A02H/H100/H120", description: "Encodere absolute cu ax gol pentru montaj direct pe arbori mari, cu diametru de ax gol de până la 42mm. Variantele sunt gândite pentru motoare, reductoare și generatoare unde encoderul se montează fără cuplaj mecanic suplimentar, reducând jocul mecanic din lanțul de măsurare." },
       { name: "Sisteme de Măsurare Liniară", description: "Sisteme cu cablu tractor (draw-wire), sisteme de copiere a cursei și măsurare magnetică de lungime, folosite unde poziția liniară a unui element mobil trebuie citită fără șină optică pe toată lungimea cursei. Se completează cu inclinometre și senzori radar pentru măsurarea nivelului sau unghiului de înclinare." },
       { name: "Tehnică de Transmisie și Evaluare", description: "Inele colectoare (slip rings) pentru transferul de semnal și energie pe piese rotative, convertoare de semnal cu fibră optică, module de intrare/ieșire și afișaje sau numărătoare pentru citirea directă a valorii măsurate. Include și monitoare de viteză de siguranță pentru aplicații unde oprirea la depășirea unui prag e obligatorie." },
     ],
@@ -101,16 +101,16 @@ Pentru instalațiile industriale din România, gama Kübler are sens la retehnol
       "ATEX/IECEx — variante certificate pentru zone cu risc de explozie",
       "SIL2/SIL3 — encodere de siguranță funcțională",
     ],
-    infinitrade: `Furnizăm encodere și sisteme de măsurare Kübler prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului pentru seria și varianta solicitată. Fără date proprii de stoc pe această gamă — familiile, rezoluțiile și certificările de mai sus provin din surse publice ale producătorului, verificate în sesiunea curentă. Pentru o ofertă corectă avem nevoie de seria exactă (de exemplu Sendix 5000 sau A02H), diametrul axului sau al axului gol, rezoluția dorită și tipul de ieșire (HTL, TTL, SinCos). Dacă înlocuiți un encoder existent, o poză a plăcuței de fabricație grăbește identificarea codului echivalent și nu presupunem disponibilitate imediată garantată pentru varianta cerută.`,
+    infinitrade: `Furnizăm encodere și sisteme de măsurare Kübler prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului pentru seria și varianta solicitată. Fără date proprii de stoc pe această gamă — familiile, rezoluțiile și certificările de mai sus provin din surse publice ale producătorului. Pentru o ofertă corectă avem nevoie de seria exactă (de exemplu Sendix 5000 sau A02H), diametrul axului sau al axului gol, rezoluția dorită și tipul de ieșire (HTL, TTL, SinCos). Dacă înlocuiți un encoder existent, o poză a plăcuței de fabricație grăbește identificarea codului echivalent și nu presupunem disponibilitate imediată garantată pentru varianta cerută.`,
     limitation: "Nu putem confirma echivalența exactă cu un encoder de altă marcă fără plăcuța de fabricație sau desenul de montaj al aplicației.",
     productCodes: [
       { code: "Sendix 2400", description: "Encoder incremental miniatural, Ø24mm, până la 1024 ppr" },
       { code: "Sendix KIH40", description: "Encoder incremental compact, Ø36-40mm, carcasă de plastic disponibilă" },
       { code: "Sendix 5000", description: "Encoder incremental standard, până la 36.000 ppr" },
       { code: "Sendix A02H", description: "Encoder absolut hollow-shaft, ax gol pentru montaj direct" },
-      { code: "Sendix H100", description: "Encoder absolut hollow-shaft, variantă heavy-duty" },
-      { code: "Sendix H120", description: "Encoder absolut hollow-shaft, ax gol până la 42mm" },
-      { code: "Sendix 8.5020", description: "Encoder absolut din familia Sendix 8000" },
+      { code: "Sendix H100", description: "Encoder hollow-shaft din gama Kübler; tipul și specificațiile se confirmă pe cod" },
+      { code: "Sendix H120", description: "Encoder hollow-shaft din gama Kübler; tipul și specificațiile se confirmă pe cod" },
+      { code: "Sendix 8.5020", description: "Encoder din gama Sendix; tipul și specificațiile se confirmă pe cod" },
       { code: "Encodere pentru Motoare Asincrone", description: "Familie de encodere de feedback pentru motoare asincrone industriale" },
       { code: "Encodere pentru Generatoare Mari", description: "Familie de encodere pentru motoare și generatoare de dimensiuni mari" },
       { code: "Encodere pentru Motoare Pas cu Pas", description: "Familie de encodere de feedback pentru motoare pas cu pas" },
@@ -129,8 +129,8 @@ Pentru instalațiile industriale din România, gama Kübler are sens la retehnol
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Kübler Group — Products Overview", url: "https://www.kuebler.com/en/products", publisher: "Fritz Kübler GmbH", accessed: "2026-09-22" },
       { title: "Incremental Encoders", url: "https://www.kuebler.com/en/products/measurement/encoders/incremental", publisher: "Fritz Kübler GmbH", accessed: "2026-09-22" },
