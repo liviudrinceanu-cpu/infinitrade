@@ -5,25 +5,25 @@ export const brandContentBatch70 = {
     name: "Metal Work",
     founded: 1967,
     headquarters: "Concesio (Brescia), Italia",
-    overview: `Metal Work este un producător italian de componente pneumatice, cu sediul la Concesio, în provincia Brescia, activ din 1967 și cu o fabrică de circa 40.000 m² și peste 400 de angajați. Gama acoperă cilindri pneumatici construiți după standarde internaționale — minicilindri seria ISO 6432 cu alezaj între 8 și 25 mm, cilindri seria ISO 15552 (fostul ISO 6431 / VDMA) cu alezaj de la 32 la 320 mm, cilindri compacți seria ISO 21287 și CMPC, cilindri rotunzi seria RNDC și micro-cilindri cartuș seria CRTC. Pentru piața din România putem oferta cilindri, electrovalve și actuatori din portofoliul curent al producătorului, potriviți liniilor de automatizare industrială.
+    overview: `Metal Work este un producător italian de componente pneumatice, cu sediul la Concesio, în provincia Brescia, activ din 1967. Gama acoperă cilindri pneumatici construiți după standarde internaționale — minicilindri seria ISO 6432 cu alezaj între 8 și 25 mm, cilindri seria ISO 15552 (fostul ISO 6431 / VDMA) cu alezaj de la 32 la 200 mm, cilindri compacți seria ISO 21287 și CMPC, cilindri rotunzi seria RNDC și micro-cilindri cartuș seria CRTC. Pentru piața din România putem oferta cilindri, electrovalve și actuatori din portofoliul curent al producătorului, potriviți liniilor de automatizare industrială.
 
 Ce diferențiază Metal Work în categoria componentelor pneumatice e lățimea portofoliului dintr-un singur furnizor: pe lângă cilindri, gama include electrovalve seria 70 (variante mecanice, pneumatice și electropneumatice), electrovalve compacte PLT-10 și PIV, valve NAMUR pentru acționarea robineților sferici și fluture, grippere pneumatice seria P și actuatori rotativi seria R. Există și o linie de actuatori electrici (ELEKTRO) — axe cu curea seria SHAK, cantilever SVAK și VBK, unități rodless SK și BK — pentru aplicații unde poziționarea electrică înlocuiește cilindrul pneumatic clasic. Variantele INOX ale cilindrilor ISO 6432 și ISO 15552 acoperă mediile corozive sau spălabile.
 
-Pentru un integrator din România, Metal Work înseamnă un singur cod de comandă pentru cilindru, valvă și senzor de poziție, ceea ce simplifică proiectarea liniei. Variantele ATEX conform Directivei 2014/34/UE sunt relevante pentru zone cu risc de explozie, iar plaja de temperatură (-35°C la +200°C, în funcție de variantă) acoperă și procese la cald, și depozite frigorifice.`,
+Pentru un integrator din România, Metal Work înseamnă posibilitatea de a alege cilindri și electrovalve din același portofoliu, ceea ce simplifică proiectarea liniei. Variantele ATEX conform Directivei 2014/34/UE sunt relevante pentru zone cu risc de explozie, iar plaja de temperatură ambiantă (de la -35°C la +150°C, în funcție de variantă) acoperă și procese la cald, și depozite frigorifice.`,
     whyChoose: [
-      "Gamă unică de cilindru + valvă + senzor — reduce numărul de furnizori pentru o linie de automatizare",
+      "Cilindri și electrovalve din același portofoliu — reduce numărul de furnizori pentru o linie de automatizare",
       "Cilindri pe standarde ISO recunoscute — ISO 6432, ISO 15552 și ISO 21287, interschimbabili dimensional cu alte mărci de pe piață",
       "Variante ATEX certificate conform Directivei 2014/34/UE, pentru zone cu risc de explozie",
-      "Plajă largă de temperatură de lucru, de la -35°C la +200°C în funcție de execuție",
+      "Plajă largă de temperatură ambiantă, de la -35°C la +150°C în funcție de execuție",
       "Actuatori electrici (seria ELEKTRO) alături de cei pneumatici, pentru poziționare de precizie fără a schimba furnizorul",
       "Variante INOX pentru cilindri, potrivite mediilor corozive sau spălabile din industria alimentară"
     ],
     keyProducts: [
-      { name: "Cilindri Pneumatici Seria ISO 15552", description: "Cilindri cu profil standardizat conform ISO 15552 (fostul ISO 6431/VDMA), alezaje de la 32 la 320 mm, disponibili cu amortizare pneumatică reglabilă sau cursă lungă. Execuție standard sau INOX pentru medii corozive. Aplicație tipică: acționări liniare pe linii de asamblare și manipulare industrială." },
+      { name: "Cilindri Pneumatici Seria ISO 15552", description: "Cilindri cu profil standardizat conform ISO 15552 (fostul ISO 6431/VDMA), alezaje de la 32 la 200 mm, disponibili cu amortizare pneumatică reglabilă sau cursă lungă. Execuție standard sau INOX pentru medii corozive. Aplicație tipică: acționări liniare pe linii de asamblare și manipulare industrială." },
       { name: "Minicilindri Seria ISO 6432", description: "Cilindri compacți cu alezaj între 8 și 25 mm, conform ISO 6432, disponibili și în variantă INOX (16-25 mm) sau cu execuție pentru temperaturi ridicate (seria TP). Folosiți pentru curse scurte în spații reduse, pe echipamente de ambalare sau manipulare." },
-      { name: "Cilindri Compacți Seria CMPC / ISO 21287", description: "Cilindri cu gabarit redus, alezaj între 12 și 100 mm, în variantă ISO sau UNITOP, cu ghidaj pe bucșă de bronz sau rulmenți cu bile pentru sarcini laterale. Potriviți pentru montaje unde spațiul axial e limitat." },
+      { name: "Cilindri Compacți Seria CMPC / ISO 21287", description: "Cilindri cu gabarit redus, alezaj între 12 și 100 mm (CMPC; la ISO 21287, de la 20 la 100 mm), în variantă ISO sau UNITOP, cu ghidaj pe bucșă de bronz sau rulmenți cu bile pentru sarcini laterale. Potriviți pentru montaje unde spațiul axial e limitat." },
       { name: "Electrovalve Seria 70 și PLT/PIV", description: "Electrovalve pneumatice cu comandă mecanică, manuală sau electropneumatică, disponibile și în execuție pentru temperaturi joase. Seriile compacte PLT-10 și PIV (module de 10 și 15 mm) se montează pe rampă pentru comanda mai multor actuatori dintr-un singur punct." },
-      { name: "Actuatori Electrici Seria ELEKTRO", description: "Axe electrice liniare (SHAK, SVAK, VBK cantilever) și module rodless (SK, BK) bazate pe carcasa cilindrilor ISO 15552, pentru poziționare programabilă acolo unde acționarea pneumatică nu oferă precizia necesară." }
+      { name: "Actuatori Electrici Seria ELEKTRO", description: "Axe electrice liniare (SHAK, SVAK, VBK cantilever) și module rodless (SK, BK), pentru poziționare programabilă acolo unde acționarea pneumatică nu oferă precizia necesară." }
     ],
     industries: [
       "Automatizări industriale — acționare cilindri și electrovalve pe linii de asamblare",
@@ -39,7 +39,7 @@ Pentru un integrator din România, Metal Work înseamnă un singur cod de comand
       { code: "ISO 6432", description: "Minicilindri, alezaj 8-25 mm" },
       { code: "ISO 6432 TP", description: "Minicilindri pentru temperaturi ridicate" },
       { code: "ISO 6432 INOX", description: "Minicilindri inox, alezaj 16-25 mm" },
-      { code: "ISO 15552", description: "Cilindri standard, alezaj 32-320 mm" },
+      { code: "ISO 15552", description: "Cilindri standard, alezaj 32-200 mm" },
       { code: "ISO 15552 INOX", description: "Variantă inox, alezaj 32-100 mm" },
       { code: "TWNC", description: "Cilindri cu două tije, alezaj 32-100 mm" },
       { code: "ISO 21287", description: "Cilindri compacți liner, alezaj 20-100 mm" },
@@ -60,9 +60,9 @@ Pentru un integrator din România, Metal Work înseamnă un singur cod de comand
       { code: "SHAK", description: "Ax electric liniar cu curea" },
       { code: "SVAK", description: "Ax electric cantilever" },
       { code: "VBK", description: "Ax electric cantilever, variantă VBK" },
-      { code: "S13", description: "Slide de precizie, seria S" },
-      { code: "GDHK", description: "Ghidaj compact V-Lock" },
-      { code: "LEPK", description: "Unitate liniară seria V-Lock" }
+      { code: "S13", description: "Cod din catalogul producătorului; funcția se confirmă pe fișa tehnică" },
+      { code: "GDHK", description: "Cod din catalogul producătorului; funcția se confirmă pe fișa tehnică" },
+      { code: "LEPK", description: "Cod din catalogul producătorului; funcția se confirmă pe fișa tehnică" }
     ],
     faq: [
       { q: "Ce produce Metal Work?", a: "Metal Work produce cilindri pneumatici pe standarde ISO (6432, 15552, 21287), electrovalve, unități de tratare a aerului, actuatori electrici și grippere, folosite pe linii de automatizare industrială. Compania are sediul la Concesio, în provincia Brescia, Italia." },
@@ -73,8 +73,8 @@ Pentru un integrator din România, Metal Work înseamnă un singur cod de comand
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Metal Work S.p.A. — pagina oficială", url: "https://www.metalwork.it/", publisher: "Metal Work S.p.A.", accessed: "2026-09-23" },
       { title: "AT10 - Istruzioni Cilindri (catalog cilindri pneumatici)", url: "https://cdn.metalwork.it/certificazioni/AT10%20-%20Istr%20Cilindri.pdf", publisher: "Metal Work S.p.A.", accessed: "2026-09-23" },
@@ -88,21 +88,21 @@ Pentru un integrator din România, Metal Work înseamnă un singur cod de comand
     headquarters: "Milano, Italia",
     overview: `Manuli Hydraulics produce furtunuri hidraulice și industriale de înaltă presiune, cu rădăcini în Manuli Rubber Industries, companie italiană înființată în 1935 la Milano. Din 2020, divizia de furtunuri hidraulice s-a combinat cu producătorul australian RYCO, formând un grup cu cifră de afaceri de aproape 500 de milioane de euro și patru unități de afaceri: HP-Hydraulics, Industrial, Refrigeration and Cooling și Equipment. Pentru piața din România putem oferta furtunuri industriale din gama Manuli — pentru apă, aer comprimat, abur, combustibil sau produse chimice — alături de fitinguri și cuplaje rapide compatibile.
 
-Ce diferențiază gama Manuli e specializarea pe familii de furtun dedicate fiecărei aplicații, nu un singur furtun universal: seria AIRSERVICE pentru aer comprimat suportă până la 45 bar, seria STEAMER/18 pentru abur saturat merge până la 210°C, iar seria GLACIER/60 pentru tunuri de zăpadă rezistă la 60 bar și temperaturi de până la -40°C. Pentru combustibil, familia FUELSERVICE include variante certificate EN 12115 și, pentru realimentarea aeronavelor, o variantă conformă EN ISO 1825 clasa B. În industria alimentară, seriile BREWERS, MILKYWAY și MULTIFOOD acoperă bere, lapte și produse lichide alimentare, cu compatibilitate FDA. Concurentul direct pe segmentul furtunurilor hidraulice industriale rămâne Gates, cu care Manuli se compară în special pe piața furtunurilor de înaltă presiune pentru minerit și foraj.
+Ce diferențiază gama Manuli e specializarea pe familii de furtun dedicate fiecărei aplicații, nu un singur furtun universal: seria AIRSERVICE pentru aer comprimat suportă până la 45 bar (la DN 19-51; 35 bar la DN 63-102), seria STEAMER/18 pentru abur saturat merge până la 210°C, iar seria GLACIER/60 pentru tunuri de zăpadă rezistă la 60 bar și temperaturi de până la -40°C. Pentru combustibil, familia FUELSERVICE include variante certificate EN 12115 și, pentru realimentarea aeronavelor, o variantă conformă EN ISO 1825 clasa B. În industria alimentară, seriile BREWERS, MILKYWAY și MULTIFOOD acoperă bere, lapte și produse lichide alimentare.
 
 Pentru un atelier de hidraulică sau un integrator din România, gama Manuli înseamnă acces la furtunuri certificate pe standarde recunoscute (EN 12115, EN ISO 1825, ISO 6134) acolo unde fluidul transportat sau mediul de lucru impune o soluție dedicată, nu un furtun generic.`,
     whyChoose: [
       "Familii de furtun dedicate pe aplicație — aer, abur, combustibil, chimicale, alimentar — nu un furtun universal",
       "Certificări pe standarde recunoscute — EN 12115, EN ISO 1825, ISO 6134 — relevante pentru aviație și industrie chimică",
       "Plajă largă de temperatură — de la -60°C (seria COOLER) până la +210°C (seria STEAMER)",
-      "Compatibilitate FDA pentru seriile alimentare BREWERS, MILKYWAY și MULTIFOOD",
-      "Parte dintr-un grup cu patru unități de afaceri specializate, rezultat din combinarea Manuli cu RYCO în 2020"
+      "Serii dedicate industriei alimentare — BREWERS, MILKYWAY și MULTIFOOD (conformitatea alimentară se confirmă pe cod)",
+      "Parte dintr-un grup cu patru unități de afaceri specializate (HP-Hydraulics, Industrial, Refrigeration and Cooling, Equipment); Manuli Rubber Industries a preluat pachetul majoritar RYCO în 2020"
     ],
     keyProducts: [
-      { name: "Furtunuri Apă, Aer și Abur", description: "Seria MULTISERVICE/12 D și /21 D pentru apă și service general, până la 21 bar; AIRSERVICE pentru aer comprimat, până la 45 bar, DN 19-102 mm; STEAMER/18 pentru abur saturat, până la 18 bar și 210°C; GLACIER/60 pentru tunuri de zăpadă, 60 bar, până la -40°C." },
+      { name: "Furtunuri Apă, Aer și Abur", description: "Seria MULTISERVICE/12 D și /21 D pentru apă și service general, până la 21 bar; AIRSERVICE pentru aer comprimat, până la 45 bar la DN 19-51 și 35 bar la DN 63-102; STEAMER/18 pentru abur saturat, până la 18 bar și 210°C; GLACIER/60 pentru tunuri de zăpadă, 60 bar, până la -40°C." },
       { name: "Furtunuri Anti-statice pentru Combustibil", description: "Familia FUELSERVICE (10 D și 16 D, DN 19-76 mm, cu fir de împământare din cupru) pentru distribuția de combustibil, plus varianta FUELSERVICE/20 D conformă EN ISO 1825 clasa B pentru realimentarea aeronavelor și FUELTRUCK/16 D conform EN 1761 pentru cisterne auto." },
       { name: "Furtunuri Chimice CHEMKING", description: "CHEMKING/10 D, cu compus FKM pentru chimicale agresive, și CHEMKING/16 SD, anti-static și conform EN 12115, pentru transferul de substanțe chimice în instalații industriale." },
-      { name: "Furtunuri Alimentare", description: "BREWERS/12 SD pentru bere, vin și alcool, MILKYWAY/10 SD pentru lapte și produse grase, MULTIFOOD/10 SD pentru lichide alimentare diverse — toate cu compatibilitate FDA Title 21." },
+      { name: "Furtunuri Alimentare", description: "BREWERS/12 SD pentru bere, vin și alcool, MILKYWAY/10 SD pentru lapte și produse grase, MULTIFOOD/10 SD pentru lichide alimentare diverse — conformitatea alimentară se confirmă pe cod, din documentația producătorului." },
       { name: "Furtunuri Abrazive ABRASERVICE", description: "ABRASERVICE/10 D pentru aplicații abrazive uzuale și ABRASERVICE/100 D, rezistent la 100 bar, dedicat pompării betonului și altor medii abrazive sub presiune ridicată." }
     ],
     industries: [
@@ -118,7 +118,7 @@ Pentru un atelier de hidraulică sau un integrator din România, gama Manuli în
       "EN 12115 — furtunuri pentru chimicale și combustibil",
       "EN ISO 1825 — furtunuri pentru realimentarea aeronavelor",
       "ISO 6134 Type 2 Class A Grade M — furtunuri pentru abur",
-      "FDA Title 21 — compatibilitate alimentară"
+      "Seriile alimentare (BREWERS, MILKYWAY, MULTIFOOD) — conformitatea alimentară se confirmă pe cod, din documentația producătorului"
     ],
     infinitrade: `Ne bazăm strict pe surse publice ale producătorului Manuli Hydraulics pentru descrierea gamei — cataloage tehnice și pagina oficială, nu verificări proprii de teren. Furtunurile industriale și fitingurile aferente le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului pe cod. Pentru ofertă avem nevoie de seria exactă (de exemplu AIRSERVICE sau FUELSERVICE/16 D), diametrul DN, presiunea de lucru și fluidul transportat. Nu putem confirma disponibilitatea unei anumite bobine sau lungimi fără verificare prealabilă la furnizor.`,
     limitation: "Nu putem confirma montajul și sertizarea furtunurilor (Safe Crimp System) fără o comandă de execuție dedicată, transmisă către producător.",
@@ -126,7 +126,7 @@ Pentru un atelier de hidraulică sau un integrator din România, gama Manuli în
       { code: "MULTISERVICE/12 D", description: "Furtun apă/service, 12 bar, DN 12-76 mm" },
       { code: "MULTISERVICE/21 D", description: "Furtun apă/service, 21 bar, DN 12-76 mm" },
       { code: "GLACIER/60", description: "Furtun tunuri de zăpadă, 60 bar" },
-      { code: "AIRSERVICE", description: "Furtun aer comprimat, 45 bar, DN 19-102 mm" },
+      { code: "AIRSERVICE", description: "Furtun aer comprimat, 45 bar (DN 19-51) / 35 bar (DN 63-102)" },
       { code: "STEAMER/18", description: "Furtun abur saturat, 18 bar, până la 210°C" },
       { code: "COOLER/5", description: "Furtun răcire motor, 5 bar, până la 200°C" },
       { code: "FUELSERVICE/10 D", description: "Furtun combustibil anti-static, 10 bar" },
@@ -150,8 +150,8 @@ Pentru un atelier de hidraulică sau un integrator din România, gama Manuli în
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Manuli Hydraulics — pagina oficială", url: "https://www.manuli-hydraulics.com", publisher: "Manuli Hydraulics", accessed: "2026-09-23" },
       { title: "Industrial Hoses Product Catalogue 2026", url: "https://www.manuli-hydraulics.com/wp-content/uploads/2026/04/Manuli-Industrial-Hose-Catalogue.pdf", publisher: "Manuli Hydraulics", accessed: "2026-09-23" },
@@ -163,20 +163,20 @@ Pentru un atelier de hidraulică sau un integrator din România, gama Manuli în
     name: "FYH",
     founded: 1950,
     headquarters: "Sakai, Osaka, Japonia",
-    overview: `FYH este un producător japonez specializat exclusiv în lagăre cu carcasă (pillow block) și unități de rulmenți inserați, cu sediul la Sakai, în prefectura Osaka, activ din 1950. Compania face parte din grupul Nippon Pillow Block și se descrie ca fiind concentrată integral pe producția acestui tip de rulment, spre deosebire de fabricanții generaliști de rulmenți precum NSK. Pentru piața din România putem oferta unități FYH din seria ZK și variantele inoxidabile sau ceramice, pentru montaj rapid pe axe unde alinierea nu e perfectă.
+    overview: `FYH este un producător japonez specializat în lagăre cu carcasă (pillow block) și unități de rulmenți inserați, cu sediul la Sakai, în prefectura Osaka, activ din 1950. Compania se descrie ca producător de unități de lagăre cu carcasă (pillow block), cu circa 700 de tipuri standard de rulmenți și 300 de variante de carcasă. Pentru piața din România putem oferta unități FYH din seria ZK și variantele inoxidabile sau ceramice, pentru montaj rapid pe axe unde alinierea nu e perfectă.
 
-Ce diferențiază FYH e adâncimea gamei ZK: seria acoperă șapte configurații de montaj — bloc de lagăr standard (ZKP), bloc de lagăr gros (ZKIP), flanșă cu 4 șuruburi (ZKF), flanșă pătrată cu 4 șuruburi (ZKFS), flanșă cu 2 șuruburi (ZKFL), unitate cartuș cu flanșă cu 4 șuruburi (ZKFC) și unitate de întindere (ZKT) — toate cu diametre de ax între 20 și 55 mm. Peste acestea, gama include o serie din oțel inoxidabil pentru medii corozive, o serie ceramică pentru turații mari, o serie „clean" cu etanșare suplimentară pentru medii cu praf și rulmenți sferici oscilanți (SRB) pentru sarcini radiale mari cu dezaliniere unghiulară.
+Ce diferențiază FYH e adâncimea gamei ZK: seria acoperă șapte configurații de montaj — bloc de lagăr standard (ZKP), bloc de lagăr gros (ZKIP), flanșă cu 4 șuruburi (ZKF), flanșă pătrată cu 4 șuruburi (ZKFS), flanșă cu 2 șuruburi (ZKFL), unitate cartuș cu flanșă cu 4 șuruburi (ZKFC) și unitate de întindere (ZKT) — cu diametre de ax între 20 și 55 mm, în funcție de configurație (de exemplu ZKIP: 35-55 mm, ZKT: 20-40 mm). Peste acestea, gama include o serie din oțel inoxidabil pentru medii corozive, o serie ceramică pentru turații mari, o serie „clean" cu etanșare suplimentară pentru medii cu praf și rulmenți sferici oscilanți (SRB) pentru sarcini radiale mari cu dezaliniere unghiulară.
 
 Pentru un integrator sau o linie de transport industrial din România, FYH înseamnă un rulment autoaliniant, montat direct pe carcasă, fără a mai necesita o carcasă separată de prelucrat — util pe transportoare, ventilatoare industriale sau echipamente agricole unde axul nu e perfect coaxial cu structura de susținere.`,
     whyChoose: [
-      "Specializare exclusivă pe lagăre cu carcasă — șapte configurații de montaj în seria ZK, de la bloc standard la unitate de întindere",
+      "Specializare pe lagăre cu carcasă — șapte configurații de montaj în seria ZK, de la bloc standard la unitate de întindere",
       "Rulment autoaliniant integrat în carcasă — reduce cerințele de prelucrare precisă a structurii de montaj",
       "Variante pentru medii dificile — serie inoxidabilă, serie ceramică pentru turații mari, serie clean cu etanșare suplimentară",
       "Diametre de ax între 20 și 55 mm în seria ZK, acoperind majoritatea aplicațiilor industriale uzuale",
       "Rulmenți sferici oscilanți (SRB) pentru sarcini radiale mari cu toleranță la dezaliniere unghiulară"
     ],
     keyProducts: [
-      { name: "Seria ZK — Lagăre cu Carcasă", description: "Familie de șapte configurații de montaj: ZKP (bloc standard), ZKIP (bloc gros), ZKF (flanșă 4 șuruburi), ZKFS (flanșă pătrată), ZKFL (flanșă 2 șuruburi), ZKFC (cartuș cu flanșă) și ZKT (unitate de întindere), cu diametre de ax între 20 și 55 mm. Disponibile cu capac din oțel presat sau fontă, și variantă cu ax conic pentru montaj rapid fără șpan de reglaj." },
+      { name: "Seria ZK — Lagăre cu Carcasă", description: "Familie de șapte configurații de montaj: ZKP (bloc standard), ZKIP (bloc gros), ZKF (flanșă 4 șuruburi), ZKFS (flanșă pătrată), ZKFL (flanșă 2 șuruburi), ZKFC (cartuș cu flanșă) și ZKT (unitate de întindere), cu diametre de ax între 20 și 55 mm, în funcție de configurație (ZKIP: 35-55 mm; ZKT: 20-40 mm). Disponibile și cu alezaj conic cu adaptor, precum și cu etanșare dublă sau triplă." },
       { name: "Serie Inoxidabilă", description: "Variantă a lagărelor cu carcasă executată integral din oțel inoxidabil, pentru medii corozive sau cu spălare frecventă, unde carcasa standard din fontă nu rezistă în timp." },
       { name: "Serie Ceramică", description: "Unități cu bile ceramice, potrivite pentru turații mari sau medii unde rulmenții metalici clasici se uzează rapid din cauza frecării sau a temperaturii." },
       { name: "Rulmenți Sferici Oscilanți (SRB)", description: "Rulmenți cu role sferice montați în carcasă, capabili să preia sarcini radiale mari și să tolereze o dezaliniere unghiulară a axului, utili pe echipamente cu vibrații sau structuri mai puțin rigide." },
@@ -204,7 +204,7 @@ Pentru un integrator sau o linie de transport industrial din România, FYH înse
       { code: "Serie SRB", description: "Rulmenți sferici oscilanți în carcasă" },
       { code: "Serie Clean", description: "Etanșare suplimentară pentru medii cu praf" },
       { code: "FloBack Seal", description: "Sistem de etanșare pentru unități montate" },
-      { code: "Bullet Point", description: "Șurub de fixare pe ax, tip bullet" },
+      { code: "Bullet Point", description: "Denumire comercială FYH; detalii confirmate pe cod" },
       { code: "Backside Guard", description: "Protecție parte posterioară a carcasei" },
       { code: "Dust Resistant Units", description: "Unități rezistente la praf" }
     ],
@@ -217,8 +217,8 @@ Pentru un integrator sau o linie de transport industrial din România, FYH înse
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "FYH Inc. — pagina oficială", url: "https://www.fyh.co.jp/en/", publisher: "FYH Inc.", accessed: "2026-09-23" },
       { title: "会社概要 (Profil companie)", url: "https://www.fyh.co.jp/en/profile/", publisher: "FYH Inc.", accessed: "2026-09-23" },
@@ -229,14 +229,14 @@ Pentru un integrator sau o linie de transport industrial din România, FYH înse
   'john-guest': {
     name: "John Guest",
     headquarters: "West Drayton, Marea Britanie",
-    overview: `John Guest produce fitinguri push-in pentru aer comprimat și fluide, cu sediul la West Drayton, lângă Londra, și face parte din grupul american Reliance Worldwide Corporation. Gama de bază acoperă racorduri cu tub OD (5/32 până la 1/2 inch) în polipropilenă albă sau neagră, acetal gri sau alb, și variante metrice, plus o linie CTS (3/8 până la 1 inch) cu sistemele de blocare ProLock și Speedfit Twist & Lock. Pentru piața din România putem oferta racorduri și robineți din gama curentă, potriviți instalațiilor pneumatice și de fluide unde montajul rapid, fără sculă, contează.
+    overview: `John Guest produce fitinguri push-in pentru aer comprimat și fluide, cu sediul la West Drayton, lângă Londra, și face parte din grupul Reliance Worldwide Corporation. Gama de bază acoperă racorduri cu tub OD (5/32 până la 1/2 inch) în polipropilenă albă sau neagră, acetal gri sau alb, și variante metrice, plus o linie CTS (3/8 până la 1 inch) cu sistemele de blocare ProLock și Speedfit Twist & Lock. Pentru piața din România putem oferta racorduri și robineți din gama curentă, potriviți instalațiilor pneumatice și de fluide unde montajul rapid, fără sculă, contează.
 
-Ce diferențiază John Guest e principiul push-in: tubul se introduce direct în racord, fără filet sau sertizare, iar variantele SuperSeal (cod SI) adaugă o garnitură suplimentară pentru etanșare sporită pe aplicații critice. Materialele folosite — polipropilenă, acetal, oțel inoxidabil și alamă, cu garnituri EPDM sau nitril — se aleg în funcție de fluidul transportat și de temperatura de lucru. Gama include și robineți cu aceleași principii de montaj, tubulatură LLDPE, țeavă PEX compatibilă SharkBite și kituri de instalare complete, plus soluții OEM cu jumătăți de cartuș în acetal sau alamă pentru integrare în echipamente proprii.
+Ce diferențiază John Guest e principiul push-in: tubul se introduce direct în racord, fără filet sau sertizare, iar variantele SuperSeal (cod SI) adaugă o garnitură suplimentară pentru etanșare sporită pe aplicații critice. Materialele folosite — polipropilenă, acetal și alamă, cu garnituri EPDM sau nitril — se aleg în funcție de fluidul transportat și de temperatura de lucru. Gama include și robineți cu aceleași principii de montaj, tubulatură LLDPE, țeavă PEX compatibilă SharkBite și kituri de instalare complete, plus soluții OEM cu jumătăți de cartuș în acetal sau alamă pentru integrare în echipamente proprii.
 
 Pentru un instalator sau un producător de echipamente din România, John Guest înseamnă montaj rapid fără scule speciale pe linii de aer comprimat, apă potabilă sau sisteme de răcire industrială, acolo unde demontarea și remontarea frecventă a racordurilor ar fi costisitoare cu fitinguri filetate clasice.`,
     whyChoose: [
       "Montaj push-in fără sculă — tubul se introduce direct în racord, util pentru linii cu modificări frecvente",
-      "Gamă largă de materiale — polipropilenă, acetal, inox și alamă, alese după fluid și temperatură",
+      "Gamă largă de materiale — polipropilenă, acetal și alamă, alese după fluid și temperatură",
       "Variantă SuperSeal (cod SI) cu garnitură suplimentară pentru etanșare sporită",
       "Compatibilitate cu tubulatură LLDPE și țeavă PEX de tip SharkBite, pe lângă tuburile OD proprii",
       "Soluții OEM cu jumătăți de cartuș, pentru integrare directă în echipamente produse de clienți"
@@ -256,7 +256,7 @@ Pentru un instalator sau un producător de echipamente din România, John Guest 
       "Filtrare a apei și industria băuturilor",
       "OEM — integrare fitinguri în echipamente proprii ale clienților"
     ],
-    infinitrade: `Spunem clar ce putem și ce nu putem confirma pentru gama John Guest: informațiile despre materiale și game de fitinguri vin din pagina oficială a producătorului, fără verificări proprii pe teren. Fitingurile și robineții îi aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea disponibilității. Pentru ofertă avem nevoie de tipul de tub (OD sau CTS), diametrul în inch sau mm, materialul dorit (polipropilenă, acetal, inox) și fluidul transportat. Nu putem confirma un termen mai scurt fără verificare prealabilă la furnizor.`,
+    infinitrade: `Spunem clar ce putem și ce nu putem confirma pentru gama John Guest: informațiile despre materiale și game de fitinguri vin din pagina oficială a producătorului, fără verificări proprii pe teren. Fitingurile și robineții le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea disponibilității. Pentru ofertă avem nevoie de tipul de tub (OD sau CTS), diametrul în inch sau mm, materialul dorit (polipropilenă, acetal) și fluidul transportat. Nu putem confirma un termen mai scurt fără verificare prealabilă la furnizor.`,
     limitation: "Nu putem confirma configurațiile OEM cu jumătăți de cartuș personalizate sau certificările specifice de potabilitate pentru fiecare piață fără o cerere tehnică detaliată transmisă în avans.",
     productCodes: [
       { code: "PP", description: "Racord OD polipropilenă albă, 5/32-1/2 in" },
@@ -278,16 +278,16 @@ Pentru un instalator sau un producător de echipamente din România, John Guest 
       { code: "OEM Half Cartridge Brass", description: "Jumătate de cartuș alamă pentru integrare OEM" }
     ],
     faq: [
-      { q: "Ce produce John Guest?", a: "John Guest produce fitinguri și robineți push-in pentru aer comprimat și fluide, în polipropilenă, acetal, inox sau alamă, cu sediul la West Drayton, Marea Britanie, parte din grupul Reliance Worldwide Corporation." },
+      { q: "Ce produce John Guest?", a: "John Guest produce fitinguri și robineți push-in pentru aer comprimat și fluide, în polipropilenă, acetal sau alamă, cu sediul la West Drayton, Marea Britanie, parte din grupul Reliance Worldwide Corporation." },
       { q: "Cum aleg fitingul John Guest potrivit după cod?", a: "Trebuie să știți dacă tubul e de tip OD sau CTS, diametrul (de exemplu 5/32 sau 3/8 inch) și materialul dorit — codurile PP, PI, CI sau PM indică exact combinația de material și culoare." },
       { q: "Ce diferență e între fitingul standard și SuperSeal la John Guest?", a: "Varianta SuperSeal, cod SI, adaugă o garnitură suplimentară de etanșare față de fitingul acetal standard, fiind recomandată pe aplicații unde riscul de scurgere trebuie redus suplimentar." },
       { q: "Livrați fitinguri John Guest în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul și diametrul solicitate." },
-      { q: "Ce trebuie să trimit pentru o ofertă de fitinguri John Guest?", a: "Tipul de tub (OD sau CTS), diametrul exact în inch sau mm, materialul preferat (polipropilenă, acetal sau inox) și fluidul transportat, astfel încât să recomandăm racordul sau robinetul corect din gama disponibilă." }
+      { q: "Ce trebuie să trimit pentru o ofertă de fitinguri John Guest?", a: "Tipul de tub (OD sau CTS), diametrul exact în inch sau mm, materialul preferat (polipropilenă sau acetal) și fluidul transportat, astfel încât să recomandăm racordul sau robinetul corect din gama disponibilă." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "John Guest — pagina oficială", url: "https://www.johnguest.com", publisher: "John Guest / Reliance Worldwide Corporation", accessed: "2026-09-23" },
       { title: "John Guest US — Products", url: "https://www.johnguest.com/us/products", publisher: "John Guest / Reliance Worldwide Corporation", accessed: "2026-09-23" }
@@ -298,7 +298,7 @@ Pentru un instalator sau un producător de echipamente din România, John Guest 
     name: "KAMAX",
     founded: 1935,
     headquarters: "Homberg (Ohm), Germania",
-    overview: `KAMAX produce elemente de fixare de înaltă rezistență pentru industria auto și pentru mobilitate în general, cu sediul la Homberg (Ohm), Germania, fondată în 1935 la Osterode am Harz de inginerul Rudolf Kellermann. Compania a devenit în 2026 parte din grupul italian Fontana Gruppo, operează circa 15 fabrici în Europa și Asia și procesează anual aproximativ 209.000 tone de oțel pentru circa 2,8 miliarde de elemente de fixare și piese deformate la rece. Pentru piața din România putem oferta șuruburi și piese speciale din portofoliul curent, pentru aplicații auto și industriale conexe.
+    overview: `KAMAX produce elemente de fixare de înaltă rezistență pentru industria auto și pentru mobilitate în general, cu sediul la Homberg (Ohm), Germania, fondată în 1935 la Osterode am Harz de inginerul Rudolf Kellermann. Compania a devenit parte din grupul italian Fontana Gruppo, operează circa 15 fabrici în Europa și Asia și procesează anual aproximativ 209.000 tone de oțel pentru circa 2,8 miliarde de elemente de fixare și piese deformate la rece. Pentru piața din România putem oferta șuruburi și piese speciale din portofoliul curent, pentru aplicații auto și industriale conexe.
 
 Ce diferențiază KAMAX e specializarea pe fixări critice de siguranță pentru vehicule, nu șuruburi standard de uz general: gama acoperă șuruburi pentru bielă și reglarea supapelor la motor, șuruburi de roată și suporturi pentru roata de rezervă, bolțuri excentrice și pivoți sferici pentru stabilizatoare la suspensie, șuruburi pentru scaune și centuri de siguranță, șuruburi de fixare pentru etrierele de frână și bare de direcție. Pentru electromobilitate, compania oferă șuruburi de tensionare a carcasei pentru motoare electrice și bolțuri pentru frâna de parcare electronică, iar familiile KXtreme (ultra-rezistență) și KXtap (auto-filetante) completează gama pentru aplicații speciale unde șurubul standard nu ține sarcina sau temperatura de lucru — studurile pentru evacuare rezistă până la 650°C.
 
@@ -308,7 +308,7 @@ Pentru un producător de componente auto sau un furnizor de nivel 2 din România
       "Familii speciale KXtreme (ultra-rezistență) și KXtap (auto-filetante) pentru aplicații unde șurubul standard nu ține",
       "Studuri rezistente termic până la 650°C, pentru zona de evacuare a motorului",
       "Gamă dedicată electromobilității — bolțuri de tensionare a carcasei motorului electric și frâna de parcare electronică",
-      "Rețea de circa 15 fabrici în Europa și Asia, sub grupul Fontana din 2026, pentru continuitate în aprovizionare"
+      "Rețea de circa 15 fabrici în Europa și Asia, sub grupul Fontana, pentru continuitate în aprovizionare"
     ],
     keyProducts: [
       { name: "Șuruburi de Motor", description: "Șuruburi pentru bielă și șuruburi de reglare a supapelor, dimensionate pentru sarcini ciclice ridicate la temperaturi de funcționare ale motorului, unde desprinderea accidentală ar produce avarii majore." },
@@ -330,8 +330,8 @@ Pentru un producător de componente auto sau un furnizor de nivel 2 din România
     productCodes: [
       { code: "Șuruburi de bielă", description: "Fixare pentru biela motorului, sarcini ciclice ridicate" },
       { code: "Șuruburi reglare supape", description: "Reglaj joc supape la motor" },
-      { code: "Șuruburi cardanice", description: "Fixare arbore cardanic la transmisie" },
-      { code: "Pivoți de poziționare", description: "Piese de localizare pe subansambluri" },
+      { code: "Șuruburi cardanice", description: "Familie din portofoliul producătorului; detalii confirmate la cerere" },
+      { code: "Pivoți de poziționare", description: "Familie din portofoliul producătorului; detalii confirmate la cerere" },
       { code: "Șuruburi de roată", description: "Fixare roată pe butuc" },
       { code: "Suport roată de rezervă", description: "Fixare roată de rezervă în portbagaj" },
       { code: "Bolțuri excentrice", description: "Reglaj unghi la suspensie" },
@@ -356,8 +356,8 @@ Pentru un producător de componente auto sau un furnizor de nivel 2 din România
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "KAMAX — pagina oficială", url: "https://www.kamax.com/en/", publisher: "KAMAX Holding GmbH & Co. KG", accessed: "2026-09-23" },
       { title: "Company | KAMAX", url: "https://www.kamax.com/en/company/", publisher: "KAMAX Holding GmbH & Co. KG", accessed: "2026-09-23" },
@@ -371,7 +371,7 @@ Pentru un producător de componente auto sau un furnizor de nivel 2 din România
     headquarters: "Guastalla (Reggio Emilia), Italia",
     overview: `SAER Elettropompe este un producător italian de pompe electrice și motoare, cu sediul la Guastalla, în provincia Reggio Emilia, activ din 1951. Gama acoperă pompe de suprafață și submersibile pentru apă curată, pompe pentru ape reziduale cu conținut de solide, motoare electrice de suprafață și submersibile, și soluții speciale pentru eficiență energetică și desalinizare. Pentru piața din România putem oferta pompe și motoare din gama curentă, potrivite instalațiilor de irigații, alimentare cu apă și transfer industrial de fluide.
 
-Ce diferențiază SAER pe piața pompelor italiene e diversitatea configurațiilor de suprafață din propria gamă: seria L pentru pompe în linie, seria SKD cu carcasă despicată axial pentru debite mari, seria TM/TMB multistadiu cu ax orizontal pentru presiuni ridicate, și seria CB centrifugă multicelulară pentru uz rezidențial. Pe partea submersibilă, gama acoperă diametre de la 4 la 14 inch pentru foraje, plus configurația ENBLOC și seria BALLAST dedicată. Concurentul direct pe segmentul pompelor centrifuge pentru agricultură și industrie rămâne Calpeda, cu care SAER se compară frecvent pe piața europeană a pompelor de proces.
+Ce diferențiază SAER pe piața pompelor italiene e diversitatea configurațiilor de suprafață din propria gamă: pompe cu aspirație frontală, pompe în linie, pompe cu carcasă despicată axial, pompe multistadiu cu ax orizontal și pompe rezidențiale. Pe partea submersibilă, gama acoperă diametre de la 4 la 14 inch pentru foraje, plus configurația ENBLOC și seria BALLAST dedicată.
 
 Pentru o fermă, o stație de irigații sau un integrator din România, gama SAER înseamnă acces la pompe dimensionate pe aplicație — de la pompa rezidențială simplă până la pompa submersibilă de foraj de 14 inch — cu opțiunea de tablouri de comandă și invertoare pentru reglarea performanței în funcție de consum.`,
     whyChoose: [
@@ -379,13 +379,13 @@ Pentru o fermă, o stație de irigații sau un integrator din România, gama SAE
       "Pompe submersibile pe diametre de la 4 la 14 inch, pentru foraje de diverse adâncimi și debite",
       "Soluții speciale pentru eficiență energetică și desalinizare, dincolo de pompele standard",
       "Tablouri de comandă și invertoare proprii pentru reglarea performanței pompei în funcție de consum",
-      "Peste 70 de ani de producție italiană concentrată exclusiv pe pompe și motoare electrice"
+      "Peste 70 de ani de producție italiană de pompe și motoare electrice"
     ],
     keyProducts: [
-      { name: "Pompe în Linie Seria L", description: "Pompe de suprafață cu montaj în linie pe conductă, pentru apă curată, potrivite instalațiilor unde spațiul de montaj e limitat și pompa trebuie integrată direct pe traseul țevii, fără soclu separat." },
-      { name: "Pompe cu Carcasă Despicată Seria SKD", description: "Pompe de suprafață cu carcasă despicată axial, pentru debite mai mari și mentenanță facilă — rotorul se poate accesa fără demontarea conductelor de aspirație și refulare." },
-      { name: "Pompe Multistadiu Seria TM/TMB", description: "Pompe cu ax orizontal și mai multe rotoare în serie, pentru aplicații care necesită înălțime de pompare ridicată la debite moderate, tipice pentru alimentarea cu apă la presiune constantă." },
-      { name: "Pompe Centrifuge Multicelulare Seria CB", description: "Pompe de uz rezidențial, cu mai multe rotoare centrifuge, pentru presurizarea apei în locuințe sau clădiri mici, unde presiunea rețelei publice nu e suficientă." },
+      { name: "Pompe în Linie", description: "Pompe de suprafață cu montaj în linie pe conductă, pentru apă curată, potrivite instalațiilor unde spațiul de montaj e limitat și pompa trebuie integrată direct pe traseul țevii, fără soclu separat." },
+      { name: "Pompe cu Carcasă Despicată", description: "Pompe de suprafață cu carcasă despicată axial, pentru debite mai mari și mentenanță facilă — rotorul se poate accesa fără demontarea conductelor de aspirație și refulare." },
+      { name: "Pompe Multistadiu", description: "Pompe cu ax orizontal și mai multe rotoare în serie, pentru aplicații care necesită înălțime de pompare ridicată la debite moderate, tipice pentru alimentarea cu apă la presiune constantă." },
+      { name: "Pompe Rezidențiale", description: "Pompe de uz rezidențial, cu mai multe rotoare centrifuge, pentru presurizarea apei în locuințe sau clădiri mici, unde presiunea rețelei publice nu e suficientă." },
       { name: "Pompe Submersibile pentru Foraje", description: "Gamă de pompe submersibile pe diametre de 4, 6, 8, 10, 12 și 14 inch, plus configurația ENBLOC monobloc și seria BALLAST, pentru extracția apei din foraje de adâncimi și debite diferite." }
     ],
     industries: [
@@ -396,13 +396,13 @@ Pentru o fermă, o stație de irigații sau un integrator din România, gama SAE
       "Marină și offshore — pompe submersibile și de balast"
     ],
     infinitrade: `Nu deținem date proprii despre producția SAER, doar ce confirmă sursele oficiale ale producătorului — pagina de produse și categoriile publicate acolo. Pompele și motoarele din gamă le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea disponibilității la fabrică. Pentru ofertă avem nevoie de aplicație (apă curată sau uzată, foraj sau suprafață), debitul dorit în m³/h, înălțimea de pompare și diametrul forajului, dacă e cazul. Nu putem confirma un termen mai scurt fără verificare prealabilă la producător.`,
-    limitation: "Nu putem confirma parametrii tehnici exacți (debit, înălțime de pompare, putere motor) pentru fiecare model din seriile L, SKD, TM/TMB sau submersibile, pentru că pagina de produse citată nu publică fișele tehnice complete — acestea se verifică punctual la ofertare.",
+    limitation: "Nu putem confirma parametrii tehnici exacți (debit, înălțime de pompare, putere motor) pentru fiecare model din categoriile cu aspirație frontală, în linie, cu carcasă despicată, multistadiu sau submersibile, pentru că pagina de produse citată nu publică fișele tehnice complete — acestea se verifică punctual la ofertare.",
     productCodes: [
-      { code: "Seria L", description: "Pompe în linie, pentru apă curată" },
-      { code: "SKD", description: "Pompe cu carcasă despicată axial" },
-      { code: "CB", description: "Pompe centrifuge multicelulare, uz rezidențial" },
-      { code: "TM/TMB", description: "Pompe multistadiu, ax orizontal" },
-      { code: "SD", description: "Pompe submersibile pentru ape reziduale" },
+      { code: "Pompe în linie", description: "Pompe în linie, pentru apă curată" },
+      { code: "Carcasă despicată", description: "Pompe cu carcasă despicată axial" },
+      { code: "Rezidențiale", description: "Pompe centrifuge multicelulare, uz rezidențial" },
+      { code: "Multistadiu", description: "Pompe multistadiu, ax orizontal" },
+      { code: "Ape reziduale submersibile", description: "Pompe submersibile pentru ape reziduale" },
       { code: "ENBLOC", description: "Pompă submersibilă monobloc" },
       { code: "Submersibilă 4\"", description: "Pompă submersibilă pentru foraj 4 inch" },
       { code: "Submersibilă 6\"", description: "Pompă submersibilă pentru foraj 6 inch" },
@@ -417,15 +417,15 @@ Pentru o fermă, o stație de irigații sau un integrator din România, gama SAE
     ],
     faq: [
       { q: "Ce produce SAER Elettropompe?", a: "SAER produce pompe electrice de suprafață și submersibile pentru apă curată și ape reziduale, plus motoare electrice și tablouri de comandă, din fabrica de la Guastalla, Reggio Emilia, Italia, activă din 1951." },
-      { q: "Cum aleg pompa SAER potrivită după serie?", a: "Depinde de aplicație: seria L pentru montaj în linie, SKD pentru debite mari cu mentenanță facilă, TM/TMB pentru presiune ridicată la debit moderat, sau submersibilele pe diametrul forajului (4-14 inch)." },
-      { q: "Ce echivalent are seria SKD de la SAER?", a: "Pompele cu carcasă despicată axial au echivalente la majoritatea producătorilor europeni de pompe centrifuge de proces, precum Calpeda; verificăm debitul și înălțimea de pompare înainte de a propune o alternativă." },
+      { q: "Cum aleg pompa SAER potrivită după serie?", a: "Depinde de aplicație: pompe în linie pentru montaj pe conductă, pompe cu carcasă despicată axial, pompe multistadiu pentru presiune ridicată, sau submersibilele pe diametrul forajului (4-14 inch); recomandarea finală o facem pe baza documentației producătorului." },
+      { q: "Ce echivalent au pompele SAER cu carcasă despicată?", a: "Pompele cu carcasă despicată axial au echivalente la alți producători de pompe centrifuge; verificăm debitul și înălțimea de pompare înainte de a propune o alternativă." },
       { q: "Livrați pompe SAER în România?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru seria și configurația solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompe SAER Elettropompe?", a: "Aplicația exactă (apă curată, uzată, foraj sau suprafață), debitul necesar în m³/h, înălțimea de pompare dorită și, pentru submersibile, diametrul forajului în inch, plus tensiunea de alimentare disponibilă la punctul de montaj." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "SAER Elettropompe — pagina oficială", url: "https://www.saerelettropompe.com/en/", publisher: "SAER Elettropompe S.p.A.", accessed: "2026-09-23" },
       { title: "Gamma prodotti SAER", url: "https://www.saerelettropompe.com/prodotti", publisher: "SAER Elettropompe S.p.A.", accessed: "2026-09-23" },
