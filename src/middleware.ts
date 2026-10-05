@@ -21,11 +21,11 @@ export async function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Get token
-  const token = await getToken({
-    req: request,
-    secret: process.env.NEXTAUTH_SECRET,
-  });
+    // v34.3: pe HTTPS, cookie-ul de sesiune se numește „__Secure-authjs.session-token”.
+  const secret = process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET;
+  const token =
+    (await getToken({ req: request, secret, secureCookie: true })) ||
+    (await getToken({ req: request, secret, secureCookie: false }));
 
   const isLoggedIn = !!token;
 
