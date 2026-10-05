@@ -7,19 +7,19 @@ export const brandContentBatch153 = {
     headquarters: "Ris-Orangis, Franța",
     overview: `AOIP e un producător francez de instrumentație de măsură și control, cu sediul la Ris-Orangis, activ din 1896 pe două direcții: instrumente de test și măsură pentru laboratoare și mentenanță electrică, și pornitoare pentru motoare electrice de mare putere. Gama de măsură cuprinde calibratoare multifuncționale de câmp și de laborator (seria CALYS), micro-ohmetre pentru rezistențe inductive și non-inductive (seria OM), termometre de referință de precizie (MilliK, MicroK) și surse de corp negru pentru etalonarea instrumentelor cu infraroșu.
 
-Micro-ohmetrele de laborator OM 21 și OM 22 ajung la o acuratețe declarată de 0,03%, iar familiile de surse de corp negru Saturn Cyclop, Medusa, Pegasus și Gemini acoperă împreună un interval de la -10°C până la 1300°C, folosit pentru etalonarea pirometrelor și camerelor de termoviziune. Laboratorul propriu AOIP are acreditări COFRAC separate pentru temperatură, electricitate-magnetism și timp-frecvență, ceea ce îl plasează alături de nume ca Fluke Calibration sau Isotech în metrologia industrială — cu diferența că AOIP păstrează și o linie separată de pornitoare electrolitice pentru motoare de mare putere.
+Micro-ohmetrele de laborator OM 21 și OM 22 ajung la o acuratețe declarată de 0,03%, iar familiile de surse de corp negru Saturn Cyclop, Medusa, Pegasus și Gemini acoperă împreună un interval de la -10°C până la 1300°C, folosit pentru etalonarea pirometrelor și camerelor de termoviziune. Laboratorul propriu AOIP are acreditări COFRAC separate pentru temperatură, electricitate-magnetism și timp-frecvență.
 
 Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe de mentenanță electrică ce verifică periodic contacte și înfășurări, dar și pentru fabrici cu motoare de mare putere (ciment, minerit) unde e nevoie de pornire lină prin pornitoare electrolitice sau electronice.`,
     whyChoose: [
       "Acuratețe declarată de 0,03% la micro-ohmetrele de bancă OM 21 și OM 22, pentru verificarea contactelor și înfășurărilor",
-      "Familiile de surse de corp negru Medusa, Pegasus și Gemini acoperă -10°C până la 1300°C pentru etalonare de pirometre",
+      "Familiile de surse de corp negru Saturn Cyclop, Medusa, Pegasus și Gemini acoperă împreună -10°C până la 1300°C pentru etalonare de pirometre",
       "Laborator propriu cu acreditări COFRAC pe temperatură, electricitate-magnetism și timp-frecvență",
       "Pornitoare electrolitice EPM pentru motoare cu inele de până la 20.000 kW, plus starturi electronice NS3",
       "Termometre de referință MilliK/MicroK cu 3 canale expandabile, pentru laboratoare primare de temperatură",
     ],
     keyProducts: [
       { name: "Micro-ohmetre Seria OM", description: "Familie de micro-ohmetre de teren (OM 16/OM 17, 10 A) și de bancă (OM 21, OM 22, 0,03% acuratețe) pentru rezistențe inductive și non-inductive. Domeniul merge de la câțiva µΩ până la zeci de kΩ, util la verificarea contactelor de întrerupător sau înfășurărilor. Clientul precizează curentul de test și varianta preferată." },
-      { name: "Calibratoare Multifuncționale CALYS", description: "Calibratoare de proces de la modelul de câmp CALYS 50 până la cele de laborator CALYS 1200/1500, pentru semnale electrice, temperatură și presiune, cu funcție de documentare pe variantele avansate. Pentru ofertă, precizați tipurile de semnal de calibrat și dacă e nevoie de certificat." },
+      { name: "Calibratoare Multifuncționale CALYS", description: "Calibratoare de proces de la modelul de câmp CALYS 150 până la cele de bancă și de laborator CALYS 1000 și CALYS 1500, pentru semnale electrice, temperatură și presiune, cu funcție de documentare pe variantele avansate. Pentru ofertă, precizați tipurile de semnal de calibrat și dacă e nevoie de certificat." },
       { name: "Surse de Corp Negru și Blocuri Uscate", description: "Surse sferice de corp negru (Saturn Cyclop, Medusa R, Pegasus R, Gemini R) și blocuri uscate portabile (Jupiter 650, Quick-Cal), acoperind -10°C până la 1300°C, pentru etalonarea termometrelor infraroșu și camerelor de termoviziune." },
       { name: "Pornitoare de Motoare Electrolitice și Electronice", description: "Pornitoare electrolitice EPM pentru motoare cu inele de la 500 la 20.000 kW și starturi electronice NS3 pentru motoare în cușcă, folosite la pornirea lină a motoarelor mari din ciment, minerit și tratarea apei. Clientul transmite puterea motorului și tipul." },
     ],
@@ -41,8 +41,8 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
       { code: "OM 22", description: "Micro-ohmetru industrial de bancă, acuratețe declarată 0,03%" },
       { code: "OM 16", description: "Micro-ohmetru de teren 10 A, rezistențe inductive" },
       { code: "OM 17", description: "Micro-ohmetru de câmp 10 A, rezistențe inductive și non-inductive" },
-      { code: "OM 27", description: "Micro-ohmetru nou de bancă, 10 A" },
-      { code: "OM 37", description: "Micro-ohmetru de bancă, succesor al OM 21 și OM 22" },
+      { code: "OM 27", description: "Micro-ohmetru de bancă, 10 A" },
+      { code: "OM 37", description: "Micro-ohmetru de bancă; caracteristicile se confirmă pe cod, din documentația AOIP" },
       { code: "MilliK", description: "Termometru de precizie cu 3 canale expandabile, -270°C la 1820°C" },
       { code: "MicroK", description: "Termometru de precizie de laborator primar, 3 canale expandabile" },
       { code: "P200 PRO", description: "Calibrator de presiune de proces cu pompă detașabilă" },
@@ -67,12 +67,12 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
       { q: "Cum aleg micro-ohmetrul AOIP potrivit pentru verificarea contactelor?", a: "Alegerea depinde de curentul de test: pentru verificări de teren, seriile OM 16/OM 17 lucrează la 10 A, iar pentru măsurători de laborator cu acuratețe mai mare, OM 21 și OM 22 ajung la 0,03%. Trimiteți-ne curentul dorit și dacă preferați varianta portabilă sau de bancă." },
       { q: "Livrați instrumente AOIP în România și cât durează?", a: "Aducem la comandă din gama AOIP prin canale de aprovizionare din Uniunea Europeană; termenul orientativ e de 1–4 săptămâni, în funcție de confirmarea producătorului pentru modelul cerut. Fiecare aplicație cere o configurație diferită, așa că nu ținem produse pe raft." },
       { q: "Ce trebuie să trimit pentru o ofertă de calibrator CALYS?", a: "Precizați tipurile de semnal pe care vreți să le calibrați (curent, tensiune, termocuplu, RTD, presiune), dacă preferați o variantă de câmp sau de laborator și dacă aveți nevoie de certificat de etalonare la livrare." },
-      { q: "Ce acoperă sursele de corp negru AOIP față de alți producători?", a: "Familiile Medusa, Pegasus, Gemini și Saturn Cyclop acoperă împreună -10°C până la 1300°C, un interval comparabil cu ofertele Fluke Calibration sau Isotech; diferența ține de combinația cu blocurile uscate și sondele de referință din aceeași gamă." },
+      { q: "Ce acoperă sursele de corp negru AOIP față de alți producători?", a: "Familiile Medusa, Pegasus, Gemini și Saturn Cyclop acoperă împreună -10°C până la 1300°C, conform datelor publicate de producător; modelul potrivit se alege după intervalul de temperatură și tipul de instrument verificat." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "AOIP - Instrumentation et mesure", url: "https://www.aoip.com/", publisher: "AOIP", accessed: "2026-09-26" },
       { title: "Calibration & Measurement", url: "https://www.aoip.com/cat/calibration-measurement/", publisher: "AOIP", accessed: "2026-09-26" },
@@ -81,9 +81,9 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
   },
   "c-logic": {
     name: "C-Logic",
-    overview: `C-Logic e o marcă de instrumente electrice de test pentru electricieni și utilizatori casnici, cu game de testere de tensiune, detectoare de cabluri (fish tape) și multimetre digitale. Site-ul producătorului listează instrumente de măsură (multimetre C-LOGIC 3200, 55 și 520, clește ampermetric C-LOGIC 8730), testere de tensiune (C-LOGIC 25, 35, 350) și o gamă separată de detectoare/trasoare de cabluri (seria C-LOGIC 380), alături de instrumente pentru economisirea energiei (temporizatoare, control al iluminatului).
+    overview: `C-Logic e o marcă de instrumente electrice de test pentru electricieni și utilizatori casnici, cu game de testere de tensiune, detectoare de cabluri și multimetre digitale. Site-ul producătorului listează instrumente de măsură (multimetre C-LOGIC 3200, 55 și 520, clește ampermetric C-LOGIC 8730), testere de tensiune (C-LOGIC 25, 35, 350) și o gamă separată de detectoare/trasoare de cabluri (seria C-LOGIC 380), alături de instrumente pentru economisirea energiei (temporizatoare, control al iluminatului).
 
-Diferența față de multimetrele generaliste stă în concentrarea pe unelte de verificare rapidă pentru electricieni — testere de tensiune fără contact, trasoare de cabluri cu fir de nylon sau poliamidă și instrumente de măsură a mediului (temperatură, umiditate) grupate sub aceeași marcă, alături de accesorii de instalare precum benzile de tragere a cablurilor. Segmentul se suprapune cu game de la Klein Tools sau Extech, orientate tot spre electricieni profesioniști și utilizatori DIY.
+Diferența față de multimetrele generaliste stă în concentrarea pe unelte de verificare rapidă pentru electricieni — testere de tensiune fără contact, trasoare de cabluri și instrumente de măsură a mediului (temperatură, umiditate) grupate sub aceeași marcă, alături de accesorii de instalare precum benzile de tragere a cablurilor. 
 
 Pentru piața din România, C-Logic înseamnă acces la unelte de test electric de bază pentru echipe de electricieni și firme de instalații, fără pretenția unor instrumente de laborator de precizie înaltă.`,
     whyChoose: [
@@ -118,11 +118,11 @@ Pentru piața din România, C-Logic înseamnă acces la unelte de test electric 
       { code: "C-LOGIC 380UK", description: "Trasor de cabluri, variantă pentru fișe UK" },
       { code: "C-LOGIC 380US", description: "Trasor de cabluri, variantă pentru fișe US" },
       { code: "C-LOGIC 250", description: "Instrument de măsură a mediului (temperatură, umiditate)" },
-      { code: "C-LOGIC 545", description: "Instrument din gama nouă de testere" },
-      { code: "C-LOGIC 560", description: "Instrument din gama nouă de testere" },
-      { code: "C-LOGIC 840", description: "Instrument din gama nouă de testere" },
-      { code: "C-LOGIC 323", description: "Accesoriu pentru instrumentele de măsură" },
-      { code: "C-LOGIC 322", description: "Accesoriu pentru instrumentele de măsură" },
+      { code: "C-LOGIC 545", description: "Instrument din gama C-Logic; caracteristicile se confirmă pe cod, din documentația producătorului" },
+      { code: "C-LOGIC 560", description: "Instrument din gama C-Logic; caracteristicile se confirmă pe cod, din documentația producătorului" },
+      { code: "C-LOGIC 840", description: "Instrument din gama C-Logic; caracteristicile se confirmă pe cod, din documentația producătorului" },
+      { code: "C-LOGIC 323", description: "Accesoriu din gama C-Logic; tipul se confirmă pe cod, din documentația producătorului" },
+      { code: "C-LOGIC 322", description: "Accesoriu din gama C-Logic; tipul se confirmă pe cod, din documentația producătorului" },
     ],
     faq: [
       { q: "Ce produce C-Logic?", a: "C-Logic produce unelte de test electric pentru electricieni și utilizatori casnici: multimetre digitale, clești ampermetrici, testere de tensiune și detectoare de cabluri ascunse, plus câteva instrumente de măsură a mediului precum temperatura și umiditatea." },
@@ -132,8 +132,8 @@ Pentru piața din România, C-Logic înseamnă acces la unelte de test electric 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "C-Logic - Measuring Instruments", url: "https://clogic-intl.com/na/en/product-list/21b370197938cf7625e0a5be955ed3ff", publisher: "C-Logic", accessed: "2026-09-26" },
       { title: "C-Logic - About Us", url: "https://clogic-intl.com/na/en/about", publisher: "C-Logic", accessed: "2026-09-26" },
@@ -143,15 +143,15 @@ Pentru piața din România, C-Logic înseamnă acces la unelte de test electric 
     name: "EuroSMC",
     founded: 1986,
     headquarters: "Madrid, Spania",
-    overview: `EuroSMC e un producător spaniol de echipamente electronice pentru testarea protecțiilor electrice, cu sediul la Madrid, activ din 1986 (inițial ca SMC — Soluciones de Medida y Control, rebrand EuroSMC din 1991). Gama acoperă injecție primară de curent pentru testarea întreruptoarelor (seria PME), injecție secundară trifazată pentru relee de protecție (Quasar, Mentor-12), micro-ohmetre dinamice (PRIME 600, PRIME 200) și instrumente de monitorizare GOOSE/IEC 61850.
+    overview: `EuroSMC e un producător spaniol de echipamente electronice pentru testarea protecțiilor electrice, cu sediul la Madrid, activ din 1986 (inițial ca SMC — Soluciones de Medida y Control, rebrand EuroSMC din 1991). Gama acoperă cronometre pentru întreruptoare (seria PME), injecție secundară trifazată pentru relee de protecție (Quasar, Mentor-12), micro-ohmetre dinamice (PRIME 600, PRIME 200) și instrumente de monitorizare GOOSE/IEC 61850.
 
-Testerul trifazat Quasar oferă 300V/60A la o greutate de 19 kg, gândit pentru teste de teren la relee de protecție fără sursă externă masivă, iar Mentor-12 permite testarea simultană a două relee trifazate — un avantaj de timp direct pentru echipele de comisionare de substații. Micro-ohmetrele dinamice PRIME sunt folosite specific pentru cronometrarea contactelor la întreruptoare de înaltă tensiune, în timp ce seria PME de cronometre de întreruptor (PME-500/600/700-TR) acoperă testarea clasică a timpilor de deschidere-închidere. Compania are certificare ISO 9001 și marcaj CE pe toate produsele.
+Testerul trifazat Quasar oferă 300V/60A la o greutate de 19 kg, gândit pentru teste de teren la relee de protecție fără sursă externă masivă, iar Mentor-12 permite testarea simultană a două relee trifazate — un avantaj de timp direct pentru echipele de comisionare de substații. Micro-ohmetrele dinamice PRIME sunt folosite la verificarea contactelor întreruptoarelor de înaltă tensiune, în timp ce seria PME de cronometre de întreruptor (PME-500/600/700-TR) acoperă testarea clasică a timpilor de deschidere-închidere. Compania are certificare ISO 9001 și marcaj CE pe toate produsele.
 
 Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și echipelor de mentenanță din stații electrice care fac comisionare sau verificare periodică a releelor de protecție și întreruptoarelor de înaltă tensiune.`,
     whyChoose: [
       "Testerul trifazat Quasar oferă 300V/60A la doar 19 kg, util pentru teste de teren fără sursă externă",
       "Mentor-12 testează simultan două relee trifazate, reducând timpul de comisionare în substații",
-      "Micro-ohmetre dinamice PRIME 600/200 dedicate cronometrării contactelor la întreruptoare de înaltă tensiune",
+      "Micro-ohmetre dinamice PRIME 600/200 pentru verificarea contactelor întreruptoarelor de înaltă tensiune",
       "Certificare ISO 9001 și marcaj CE pe toată gama de echipamente de testare",
       "Instrumente de monitorizare GOOSE/IEC 61850 pentru substații digitale moderne",
     ],
@@ -159,7 +159,7 @@ Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și ec
       { name: "Sistem de Injecție Secundară Quasar", description: "Tester trifazat portabil de 300V/60A, 19 kg, pentru testarea releelor de protecție direct în stație, disponibil în variante Quasar-C (curent), Quasar-V (4 ieșiri de tensiune/curent). Clientul precizează tipul de relee testate și numărul de canale necesare." },
       { name: "Sistem de Injecție Secundară Mentor-12", description: "Sistem de capacitate ridicată care permite testarea simultană a două relee trifazate, reducând timpul de comisionare la stațiile cu volum mare de relee de protecție. Aplicație tipică: comisionare și verificare periodică în substații de înaltă tensiune." },
       { name: "Cronometre de Întreruptor Seria PME", description: "Aparate de măsurare a timpilor de deschidere-închidere la întreruptoare (PME-500-TR, PME-600-T, PME-700-TR), folosite la mentenanța și comisionarea întreruptoarelor de înaltă tensiune. Clientul trimite tipul de întreruptor testat." },
-      { name: "Micro-ohmetre Dinamice PRIME", description: "PRIME 600 și PRIME 200, micro-ohmetre dinamice cu baterie internă reîncărcabilă, pentru cronometrarea contactelor la întreruptoare de înaltă tensiune direct pe teren, fără alimentare externă continuă." },
+      { name: "Micro-ohmetre Dinamice PRIME", description: "PRIME 600 și PRIME 200, micro-ohmetre dinamice cu baterie internă reîncărcabilă, pentru verificarea contactelor întreruptoarelor de înaltă tensiune direct pe teren, fără alimentare externă continuă." },
     ],
     industries: [
       "Stații și substații electrice — comisionare și verificare relee de protecție",
@@ -178,7 +178,7 @@ Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și ec
       { code: "Mentor-12", description: "Sistem de injecție pentru testarea a două relee trifazate simultan" },
       { code: "PTE-100-C", description: "Tester monofazat de relee cu variac" },
       { code: "PTE-100-C Pro", description: "Variantă îmbunătățită a PTE-100-C" },
-      { code: "PTE-100-C Plus", description: "Cea mai nouă variantă monofazată" },
+      { code: "PTE-100-C Plus", description: "Variantă monofazată a seriei PTE-100-C" },
       { code: "PTE-50-CE", description: "Tester monofazat de putere mai mică" },
       { code: "PTE-100-V", description: "Tester monofazat de relee" },
       { code: "UNO", description: "Sistem monofazat de testare relee" },
@@ -198,8 +198,8 @@ Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și ec
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "EuroSMC - About SMC", url: "https://smcint.com/about-smc/", publisher: "EuroSMC", accessed: "2026-09-26" },
       { title: "Secondary Injection Equipment for Relay Testing", url: "https://smcint.com/category/secondary-injection-equipment-for-relay-testing/", publisher: "EuroSMC", accessed: "2026-09-26" },
@@ -210,17 +210,17 @@ Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și ec
     name: "Hoecherl & Hackl",
     founded: 1986,
     headquarters: "Konzell, Germania",
-    overview: `Hoecherl & Hackl e un producător german de sarcini electronice (electronic loads) și surse programabile DC/AC, cu dezvoltarea și producția concentrate la sediul din Konzell, Germania — compania marchează aproape 40 de ani de activitate în 2026. Gama de sarcini DC pornește de la seria mobilă TRL (1000 W, până la 1200 V, 60 A) și urcă până la seriile puternice PLI (până la 28.800 W, 2700 A) și HES (până la 14.000 W, 1350 A), completate de sarcini AC monofazate/trifazate din seria ACL.
+    overview: `Hoecherl & Hackl e un producător german de sarcini electronice (electronic loads) și surse programabile DC/AC, cu dezvoltarea și producția concentrate la sediul din Konzell, Germania — compania este activă din 1986. Gama de sarcini DC pornește de la seria mobilă TRL (1000 W, până la 1200 V, 60 A) și urcă până la seriile puternice PLI (până la 28.800 W, 2700 A) și HES (până la 14.000 W, 1350 A), completate de sarcini AC monofazate/trifazate din seria ACL.
 
-Ce diferențiază gama e acoperirea de la aplicații mici de laborator până la teste de putere mare pentru module de baterii sau surse feroviare: seria multi-canal PMLA ajunge la 72 de canale independente într-un rack de 19″, utilă la testarea în paralel a mai multor celule sau module, iar sursele Titan DC/AC sunt scalabile modular până la 750 kW pentru teste de sisteme complete. În aceeași categorie de sarcini electronice de test activează și Chroma sau EA Elektro-Automatik, dar Hoecherl & Hackl rămâne printre puținii cu configurație multi-canal de această densitate.
+Ce diferențiază gama e acoperirea de la aplicații mici de laborator până la teste de putere mare pentru module de baterii sau surse feroviare: seria multi-canal PMLA ajunge la 72 de canale independente într-un rack de 19″, utilă la testarea în paralel a mai multor celule sau module, iar sursele Titan DC/AC sunt scalabile modular până la 750 kW pentru teste de sisteme complete.
 
 Pentru România, gama se adresează laboratoarelor de testare din automotive, feroviar și energie regenerabilă care verifică performanța bateriilor, invertoarelor sau surselor de alimentare înainte de livrare, unde e nevoie de sarcini programabile cu profil de curent variabil.`,
     whyChoose: [
       "Seria PLI de sarcini DC ajunge la 28.800 W și 2700 A, pentru teste de putere mare pe baterii sau invertoare",
       "Sarcinile multi-canal PMLA oferă până la 72 de canale independente într-un rack de 19″",
       "Sursele Titan DC/AC sunt scalabile modular până la 750 kW, pentru teste de sisteme complete",
-      "Dezvoltare și producție concentrate la un singur sediu din Germania, aproape 40 de ani de activitate",
-      "Gamă acoperă de la teste mici de laborator (seria TRL, 1000 W) până la teste industriale de mare putere",
+      "Dezvoltare și producție concentrate la un singur sediu din Germania, activitate din 1986",
+      "Gama acoperă de la teste mici de laborator (seria TRL, 1000 W) până la teste industriale de mare putere",
     ],
     keyProducts: [
       { name: "Sarcini Electronice DC Seria PLI", description: "Sarcini electronice DC de putere mare, de la 600 la 28.800 W, tensiune până la 1200 V și curent până la 2700 A, pentru testarea bateriilor, celulelor de combustie sau surselor de alimentare industriale. Clientul precizează puterea și profilul de curent necesar." },
@@ -236,7 +236,7 @@ Pentru România, gama se adresează laboratoarelor de testare din automotive, fe
       "Producție și automatizare — testare de serie a modulelor electronice",
     ],
     infinitrade: `Pentru Hoecherl & Hackl folosim doar informația disponibilă public pe site-ul producătorului din Konzell, fără date interne despre producția din Germania. Putem aduce la comandă sarcini electronice din seriile TRL, PLI, HES, ACL, PMLA și surse Cortex/Titan, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți puterea, tensiunea și curentul de test necesare, plus numărul de canale dorit.`,
-    limitation: "Nu oferim configurare software proprietară sau service în garanția producătorului pentru sarcinile Hoecherl & Hackl — acestea rămân în sarcina producătorului sau a unui integrator autorizat de acesta.",
+    limitation: "Nu oferim configurare software proprietară sau service în garanția producătorului pentru sarcinile Hoecherl & Hackl — acestea rămân în sarcina producătorului sau a unui integrator specializat.",
     productCodes: [
       { code: "TRL Series", description: "Sarcină DC mobilă regenerativă, 1000 W, până la 1200 V, 60 A" },
       { code: "PLA Series", description: "Sarcină DC mică, 200-1500 W, până la 800 V, 120 A" },
@@ -253,15 +253,15 @@ Pentru România, gama se adresează laboratoarelor de testare din automotive, fe
       { code: "SE Series", description: "Distribuție centrală de alimentare, până la 3×400 V, 32 A" },
     ],
     faq: [
-      { q: "Ce produce Hoecherl & Hackl?", a: "Hoecherl & Hackl produce sarcini electronice programabile (DC și AC) și surse de alimentare programabile pentru testarea bateriilor, invertoarelor și surselor de alimentare industriale. Compania e germană, cu sediul la Konzell, activă de aproape 40 de ani." },
+      { q: "Ce produce Hoecherl & Hackl?", a: "Hoecherl & Hackl produce sarcini electronice programabile (DC și AC) și surse de alimentare programabile pentru testarea bateriilor, invertoarelor și surselor de alimentare industriale. Compania e germană, cu sediul la Konzell, activă din 1986." },
       { q: "Cum aleg sarcina electronică Hoecherl & Hackl potrivită?", a: "Alegerea depinde de puterea, tensiunea și curentul maxim al dispozitivului testat: pentru puteri mici de laborator merge seria TRL sau PLA, iar pentru teste industriale de putere mare, seriile PLI sau HES. Trimiteți-ne aceste trei valori pentru o recomandare." },
       { q: "Livrați sarcini electronice Hoecherl & Hackl în România?", a: "Da, aducem la comandă din gama Hoecherl & Hackl prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației dorite de producător." },
-      { q: "Ce echivalent are seria PMLA de la Hoecherl & Hackl?", a: "PMLA oferă până la 72 de canale independente într-un rack de 19″, o densitate comparabilă cu soluțiile multi-canal de la Chroma sau EA Elektro-Automatik, utilă la testarea paralelă a mai multor celule de baterie în producția de serie." },
+      { q: "Ce echivalent are seria PMLA de la Hoecherl & Hackl?", a: "PMLA oferă până la 72 de canale independente într-un rack de 19″, utilă la testarea paralelă a mai multor celule de baterie în producția de serie." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Höcherl & Hackl - Electronic Loads and Power Supplies", url: "https://www.hoecherl-hackl.com/", publisher: "Hoecherl & Hackl", accessed: "2026-09-26" },
       { title: "Product Lines", url: "https://www.hoecherl-hackl.com/products/product-lines/", publisher: "Hoecherl & Hackl", accessed: "2026-09-26" },
@@ -269,16 +269,16 @@ Pentru România, gama se adresează laboratoarelor de testare din automotive, fe
   },
   multimetrix: {
     name: "Multimetrix",
-    overview: `Multimetrix e o marcă a producătorului francez Chauvin Arnoux, cu game de multimetre, clești multimetrice și controlere pentru siguranța instalațiilor electrice, poziționată ca alternativă mai accesibilă în interiorul aceluiași grup. Gama numerică TRMS pornește de la modele portabile simple (CA 702, CA 703, 2000 de puncte) și urcă spre variante duble-afișaj de 2×6000 de puncte (CA 5273, CA 5275, CA 5277), toate certificate 600V CAT IV pentru lucru pe instalații de joasă tensiune.
+    overview: `Multimetrix e o marcă a producătorului francez Chauvin Arnoux, cu game de multimetre, clești multimetrice și controlere pentru siguranța instalațiilor electrice. Gama numerică TRMS pornește de la modele portabile simple (CA 702, CA 703, 2000 de puncte) și urcă spre variante duble-afișaj de 2×6000 de puncte (CA 5273, CA 5275, CA 5277), toate certificate 600V CAT IV pentru lucru pe instalații de joasă tensiune.
 
-Vârful gamei numerice îl reprezintă multimetrele grafice CA 5292 și CA 5293, cu 100.000 de puncte TRMS AC+DC, 1000V, 10A și înregistrare de până la 30.000 de măsurători pe port USB — utile pentru diagnoză de calitate a energiei direct pe teren. Multimetrix mai oferă și variante hibride cu funcție de osciloscop (CA 922 și CA 942 HandScope, cu bandă de 20, respectiv 40 MHz pe 2 canale), o combinație rară în segmentul de preț mediu, unde concurează cu Chauvin Arnoux însuși sau cu Metrix — ambele mărci din același grup francez.
+Vârful gamei numerice îl reprezintă multimetrele grafice CA 5292 și CA 5293, cu 100.000 de puncte TRMS AC+DC, 1000V, 10A și înregistrare de până la 30.000 de măsurători pe port USB — utile pentru diagnoză de calitate a energiei direct pe teren. Multimetrix mai oferă și variante hibride cu funcție de osciloscop (CA 922 și CA 942 HandScope, cu bandă de 20, respectiv 40 MHz pe 2 canale).
 
-Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/CAT IV pentru electricieni de mentenanță și echipe de verificare a instalațiilor electrice din clădiri și industrie, la un nivel de preț sub gama premium Chauvin Arnoux.`,
+Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/CAT IV pentru electricieni de mentenanță și echipe de verificare a instalațiilor electrice din clădiri și industrie.`,
     whyChoose: [
       "Multimetre grafice CA 5292/5293 cu 100.000 de puncte TRMS și înregistrare de până la 30.000 de măsurători pe USB",
       "Certificare 600V CAT IV pe majoritatea modelelor numerice, pentru lucru sigur pe instalații de joasă tensiune",
       "Variante hibride cu funcție de osciloscop (CA 922/942 HandScope, 20-40 MHz)",
-      "Marcă a grupului francez Chauvin Arnoux, poziționată la un nivel de preț sub gama premium a grupului",
+      "Marcă a grupului francez Chauvin Arnoux",
     ],
     keyProducts: [
       { name: "Multimetre Grafice CA 5292 / CA 5293", description: "Multimetre TRMS AC+DC cu afișaj grafic de 100.000 de puncte, tensiune până la 1000V, curent 10A, funcție de capacitate, frecvență și temperatură, cu înregistrare de 10.000-30.000 de măsurători pe USB și protecție IP67. Certificate 600V CAT IV." },
@@ -312,15 +312,15 @@ Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/
       { code: "CA 5011", description: "Multimetru TRMS analogic/numeric, IP54, CAT IV" },
     ],
     faq: [
-      { q: "Ce produce Multimetrix?", a: "Multimetrix produce multimetre digitale și analogice, clești multimetrice și controlere pentru siguranța instalațiilor electrice. Este o marcă a grupului francez Chauvin Arnoux, poziționată la un nivel de preț mai accesibil în cadrul aceluiași grup." },
+      { q: "Ce produce Multimetrix?", a: "Multimetrix produce multimetre digitale și analogice, clești multimetrice și controlere pentru siguranța instalațiilor electrice. Este o marcă a grupului francez Chauvin Arnoux." },
       { q: "Ce diferență e între multimetrele Multimetrix CA 5273 și CA 5292?", a: "CA 5273 are două afișaje de 6000 de puncte fiecare și e gândit pentru măsurători curente de tensiune, curent și temperatură, în timp ce CA 5292 e un multimetru grafic de 100.000 de puncte cu înregistrare de date pe USB, potrivit pentru diagnoză de calitate a energiei pe termen mai lung." },
       { q: "Livrați multimetre Multimetrix în România?", a: "Da, aducem la comandă din gama Multimetrix prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea modelului de către producător." },
       { q: "Ce categorie de siguranță (CAT) au multimetrele Multimetrix?", a: "Majoritatea modelelor numerice sunt certificate 600V CAT IV, potrivite pentru lucru la originea instalației de joasă tensiune, iar modelele HandScope cu funcție de osciloscop sunt certificate 600V CAT III." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Multimetrix - Nos marques", url: "https://www.chauvin-arnoux.com/fr/la-societe-nos-marques/multimetrix", publisher: "Chauvin Arnoux", accessed: "2026-09-26" },
       { title: "Multimètres", url: "https://www.chauvin-arnoux.com/fr/produits-et-solutions/multimetres", publisher: "Chauvin Arnoux", accessed: "2026-09-26" },
@@ -330,16 +330,16 @@ Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/
     name: "Pfiffner",
     founded: 1927,
     headquarters: "Elveția",
-    overview: `Pfiffner e un grup elvețian de instrumentație de înaltă tensiune, activ din 1927, care reunește mai multe divizii istorice: transformatoare de măsură de curent și tensiune (Pfiffner Instrument Transformers), sisteme de bare colectoare cu izolație solidă (Moser Glaser, din 1914), echipamente de testare de înaltă tensiune și EMC (Haefely, din 1904) și deconectoare/întrerupătoare fără SF6 (Pfiffner Switchgear). Catalogul comun listează peste 227 de produse, filtrabile după clasa de tensiune, mediul izolant (ulei, gaz, rășină) și aplicație.
+    overview: `Pfiffner e un grup elvețian de instrumentație de înaltă tensiune, activ din 1927, care reunește mai multe divizii istorice: transformatoare de măsură de curent și tensiune (Pfiffner Instrument Transformers), sisteme de bare colectoare cu izolație solidă (Moser Glaser, din 1914), echipamente de testare de înaltă tensiune și EMC (Haefely, din 1904) și deconectoare/întrerupătoare fără SF6 (Pfiffner Switchgear). Catalogul comun listează produse, filtrabile după clasa de tensiune, mediul izolant (ulei, gaz, rășină) și aplicație.
 
-Ce diferențiază Pfiffner e combinarea sub aceeași umbrelă a transformatoarelor de măsură cu echipamente de testare de înaltă tensiune (seturi de analiză CITAS pentru transformatoare de curent, VITAS pentru transformatoare de tensiune, standarde tan delta/factor de putere 3721/3723), utile atunci când același client are nevoie și de aparatul de măsură, și de echipamentul care îl verifică. În aceeași categorie de transformatoare de măsură activează Trench Group sau Ritz Instrument Transformers, dar puțini oferă și sarcinile electronice programabile (curent 3691, tensiune 3695) din același catalog.
+Ce diferențiază Pfiffner e combinarea sub aceeași umbrelă a transformatoarelor de măsură cu echipamente de testare de înaltă tensiune (seturi de analiză CITAS pentru transformatoare de curent, VITAS pentru transformatoare de tensiune, standarde tan delta/factor de putere 3721/3723), utile atunci când același client are nevoie și de aparatul de măsură, și de echipamentul care îl verifică.
 
 Pentru România, gama Pfiffner e relevantă pentru operatorii de rețea și utilitățile electrice care au nevoie de transformatoare de măsură pentru substații noi sau de retehnologizare, alături de laboratoare de încercări de înaltă tensiune care folosesc echipamentele Haefely.`,
     whyChoose: [
       "Grup cu patru divizii istorice sub aceeași umbrelă — transformatoare de măsură, bare colectoare, testare de înaltă tensiune, întrerupătoare",
       "Seturi de analiză CITAS și VITAS pentru verificarea transformatoarelor de curent și tensiune deja instalate",
       "Standarde de tan delta/factor de putere (3721/3723) pentru diagnoza izolației la echipamente de înaltă tensiune",
-      "Catalog de peste 227 de produse, filtrabil după clasa de tensiune și mediul izolant",
+      "Catalog filtrabil după clasa de tensiune și mediul izolant",
       "Divizia Pfiffner Switchgear oferă și deconectoare/întrerupătoare fără SF6, pentru rețele care renunță la gazul cu efect de seră",
     ],
     keyProducts: [
@@ -377,8 +377,8 @@ Pentru România, gama Pfiffner e relevantă pentru operatorii de rețea și util
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "PFIFFNER Group", url: "https://www.pfiffner-group.com/", publisher: "Pfiffner Group", accessed: "2026-09-26" },
       { title: "Products & Solutions", url: "https://www.pfiffner-group.com/products-solutions", publisher: "Pfiffner Group", accessed: "2026-09-26" },
@@ -388,9 +388,9 @@ Pentru România, gama Pfiffner e relevantă pentru operatorii de rețea și util
     name: "Tabor",
     founded: 1971,
     headquarters: "Nesher, Israel",
-    overview: `Tabor (Tabor Electronics) e un producător israelian de instrumentație de semnal pentru laboratoare de RF și microunde, cu sediul la Nesher, activ din 1971. Gama de surse de semnal cuprinde generatoare de undă arbitrară din seria Proteus (AWG/AWT), generatoare RF/microunde din seria Lucid (3, 6 și 12 GHz), generatoare cu comutare ultra-rapidă de frecvență din seria LSX (10 µs pe toată banda) și amplificatoare de semnal RF de până la 20 GHz.
+    overview: `Tabor (Tabor Electronics) e un producător israelian de instrumentație de semnal pentru laboratoare de RF și microunde. Gama de surse de semnal cuprinde generatoare de undă arbitrară din seria Proteus (AWG/AWT), generatoare RF/microunde din seria Lucid (3, 6 și 12 GHz), generatoare cu comutare ultra-rapidă de frecvență din seria LSX (10 µs pe toată banda) și amplificatoare de semnal RF de până la 20 GHz.
 
-Diferența față de generatoarele de semnal generaliste stă în orientarea spre teste de radar și război electronic: seria Proteus AWT combină generarea de formă de undă cu modulație IQ și procesare de semnal integrată, iar Tabor oferă și radiouri definite prin software dedicate simulării de amenințări radar și testării de război electronic prin dronă. Șasiurile PXIe proprii (PXE6410, PXE21100 cu 21 de sloturi Gen 4 x8) permit integrarea modulelor în sisteme de test modulare, categorie în care Tabor concurează cu Keysight sau National Instruments pe segmentul de instrumentație PXI pentru apărare.
+Diferența față de generatoarele de semnal generaliste stă în orientarea spre teste de radar și război electronic: seria Proteus AWT combină generarea de formă de undă cu modulație IQ și procesare de semnal integrată, iar Tabor oferă și radiouri definite prin software dedicate simulării de amenințări radar și testării de război electronic prin dronă. Șasiurile PXIe proprii (PXE6410, PXE21100 cu 21 de sloturi Gen 4 x8) permit integrarea modulelor în sisteme de test modulare.
 
 Pentru România, gama Tabor se adresează în principal laboratoarelor de cercetare, universităților tehnice și integratorilor din domeniul apărării care au nevoie de generatoare de semnal de precizie pentru dezvoltare de radar, comunicații și sisteme cuantice.`,
     whyChoose: [
@@ -398,26 +398,26 @@ Pentru România, gama Tabor se adresează în principal laboratoarelor de cercet
       "Seria Lucid acoperă 3, 6 și 12 GHz pentru generare de semnal RF/microunde de laborator",
       "Șasiuri PXIe proprii (PXE21100, 21 de sloturi Gen 4 x8) pentru sisteme de test modulare",
       "Radiouri definite prin software dedicate simulării de amenințări radar și testării de război electronic",
-      "Conformitate RoHS, WEEE și REACH pe gama de produse",
+      
     ],
     keyProducts: [
       { name: "Generatoare de Undă Arbitrară Seria Proteus", description: "Generatoare și transceivere de undă arbitrară (AWG/AWT) cu generare de semnal de mare viteză, modulație IQ și procesare de semnal integrată, disponibile în variante desktop, benchtop și module PXIe, pentru dezvoltare de radar și comunicații." },
       { name: "Generatoare RF/Microunde Seria Lucid", description: "Generatoare de semnal RF/microunde disponibile în variante de 3, 6 și 12 GHz, pentru laboratoare de test care au nevoie de o sursă de semnal stabilă pe bandă largă la dezvoltarea de receptoare și sisteme radar." },
-      { name: "Generatoare cu Comutare Rapidă Seria LSX", description: "Generatoare de semnal cu comutare ultra-rapidă de frecvență, sub 10 µs pe toată banda acoperită, folosite la testarea sistemelor de comunicații și radar unde agilitatea în frecvență e critică." },
+      { name: "Generatoare cu Comutare Rapidă Seria LSX", description: "Generatoare de semnal cu comutare ultra-rapidă de frecvență, în 10 µs pe toată banda acoperită, folosite la testarea sistemelor de comunicații și radar unde agilitatea în frecvență e critică." },
       { name: "Șasiuri PXIe PXE6410 / PXE21100", description: "Șasiuri modulare PXIe proprii, cu PXE21100 oferind 21 de sloturi Gen 4 x8, pentru integrarea modulelor de generare și analiză de semnal în sisteme de test automate de mare densitate." },
     ],
     industries: [
       "Aerospațial și apărare — testare radar și sisteme de război electronic",
       "Comunicații wireless — dezvoltare și testare de receptoare și transmițătoare",
       "Cercetare cuantică — surse de semnal pentru calcul și senzori cuantici",
-      "Industrie și energie — instrumentație de test pentru sisteme de putere",
+      
     ],
-    infinitrade: `Niciun fapt propriu nu apare aici despre Tabor, doar ce confirmă site-ul producătorului din Israel. Putem aduce la comandă generatoare din seriile Proteus, Lucid și LSX, amplificatoare de semnal și șasiuri PXIe, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți banda de frecvență necesară, numărul de canale și tipul de șasiu (dacă e cazul).`,
+    infinitrade: `Putem aduce la comandă generatoare din seriile Proteus, Lucid și LSX, amplificatoare de semnal și șasiuri PXIe, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți banda de frecvență necesară, numărul de canale și tipul de șasiu (dacă e cazul).`,
     limitation: "Nu oferim programare sau integrare software proprietară pentru instrumentele Tabor — configurarea aplicațiilor de test rămâne în sarcina clientului sau a producătorului.",
     productCodes: [
       { code: "Proteus AWG", description: "Generator de undă arbitrară de mare viteză cu procesare de semnal" },
       { code: "Proteus AWT", description: "Transceiver de undă arbitrară cu modulație IQ integrată" },
-      { code: "LSX Series", description: "Generator cu comutare de frecvență sub 10 µs pe toată banda" },
+      { code: "LSX Series", description: "Generator cu comutare de frecvență în 10 µs pe toată banda" },
       { code: "Lucid 3 GHz", description: "Generator RF/microunde de bandă largă, variantă 3 GHz" },
       { code: "Lucid 6 GHz", description: "Generator RF/microunde de bandă largă, variantă 6 GHz" },
       { code: "Lucid 12 GHz", description: "Generator RF/microunde de bandă largă, variantă 12 GHz" },
@@ -430,15 +430,15 @@ Pentru România, gama Tabor se adresează în principal laboratoarelor de cercet
       { code: "Drone Warfare Test Radio", description: "Radio definit prin software pentru testarea războiului electronic prin dronă" },
     ],
     faq: [
-      { q: "Ce produce Tabor?", a: "Tabor produce instrumentație de semnal pentru laboratoare de RF și microunde: generatoare de undă arbitrară, generatoare RF/microunde, amplificatoare de semnal și radiouri definite prin software pentru teste radar. Compania e israeliană, cu sediul la Nesher, activă din 1971." },
-      { q: "Ce diferență e între seriile Lucid și LSX de la Tabor?", a: "Lucid e o serie de generatoare RF/microunde de bandă largă (3, 6 sau 12 GHz), gândită pentru semnal stabil pe o gamă mare de frecvențe, în timp ce LSX e specializată pe comutare ultra-rapidă de frecvență, sub 10 µs, pentru teste de agilitate în frecvență." },
+      { q: "Ce produce Tabor?", a: "Tabor produce instrumentație de semnal pentru laboratoare de RF și microunde: generatoare de undă arbitrară, generatoare RF/microunde, amplificatoare de semnal și radiouri definite prin software pentru teste radar. Compania e israeliană." },
+      { q: "Ce diferență e între seriile Lucid și LSX de la Tabor?", a: "Lucid e o serie de generatoare RF/microunde de bandă largă (3, 6 sau 12 GHz), gândită pentru semnal stabil pe o gamă mare de frecvențe, în timp ce LSX e specializată pe comutare ultra-rapidă de frecvență, în 10 µs, pentru teste de agilitate în frecvență." },
       { q: "Livrați generatoare de semnal Tabor în România?", a: "Aducem la comandă din gama Tabor prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației de către producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de generator Tabor?", a: "Precizați banda de frecvență necesară, numărul de canale, dacă aveți nevoie de variantă desktop, benchtop sau modul PXIe și, dacă e cazul, tipul de șasiu în care trebuie integrat modulul." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Tabor Electronics - Signal Sources", url: "https://www.taborelec.com/Signal-Sources", publisher: "Tabor Electronics", accessed: "2026-09-26" },
       { title: "Tabor Electronics - Contact Us", url: "https://info.taborelec.com/contact-us", publisher: "Tabor Electronics", accessed: "2026-09-26" },

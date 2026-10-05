@@ -304,7 +304,7 @@ Pentru instalații din România cu cerințe de mișcare de precizie ridicată �
 
 Ce diferențiază gama Optidrive e acoperirea largă de putere cu design compact: seria de bază E3 acoperă 0,37–37 kW la tensiuni de 110–480 V, seria P2 de înaltă performanță merge de la 0,75 la 250 kW la tensiuni de până la 600 V și are protecție IP66/NEMA 4X pentru montaj în exterior, iar seria Coolvert e dedicată compresoarelor BLDC rotative și scroll din refrigerare, cu puteri de 1,5–40 kW. Seria E4 aduce comunicare BACnet integrată din fabrică, utilă pentru instalații HVAC conectate la sistemul de management al clădirii.
 
-Pentru instalații din România unde variatorul trebuie montat direct lângă utilaj, fără dulap suplimentar de protecție — pompe, ventilatoare, lifturi, sisteme de refrigerare — gama Optidrive completează variatoarele industriale de uz general deja disponibile în portofoliu.`,
+Pentru instalații din România unde variatorul trebuie montat direct lângă utilaj, fără dulap suplimentar de protecție, seriile P2 și Eco (IP66/NEMA 4X) sunt o variantă; pentru lifturi și refrigerare există serii dedicate, Elevator Core și Coolvert, al căror grad de protecție se confirmă din documentația producătorului.`,
     whyChoose: [
       "Seria Optidrive E3, putere 0,37–37 kW, tensiuni 110–480 V, cu filtru EMC intern.",
       "Seria Optidrive P2, putere 0,75–250 kW, protecție IP66/NEMA 4X pentru montaj direct lângă utilaj.",
@@ -355,8 +355,8 @@ Pentru instalații din România unde variatorul trebuie montat direct lângă ut
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Invertek Drives – Home", url: "https://www.invertekdrives.com/", publisher: "Invertek Drives Ltd", accessed: "2026-09-26" },
       { title: "Optidrive E3", url: "https://www.invertekdrives.com/variable-frequency-drives/optidrive-e3", publisher: "Invertek Drives Ltd", accessed: "2026-09-26" },
@@ -369,14 +369,14 @@ Pentru instalații din România unde variatorul trebuie montat direct lângă ut
     name: "Control Techniques",
     overview: `Control Techniques este o marcă britanică de convertizoare de frecvență, parte a grupului japonez Nidec, cu gama găzduită astăzi pe platforma comună Nidec Drives. Portofoliul acoperă de la variatoare de uz general din familia Commander, prin seriile de înaltă performanță Unidrive M600/M700/HS70, până la variatoare specializate pentru lifturi, pompe și HVAC și module de putere de mare capacitate pentru aplicații industriale grele. Pentru clienți din România putem oferta din gama Control Techniques, aleasă pe puterea motorului și tipul de aplicație.
 
-Ce diferențiază gama e amploarea acoperirii de putere sub o singură umbrelă de produs: la un capăt sunt variatoarele compacte Commander S și NE200 pentru aplicații simple, iar la celălalt modulul de putere de 500 kW/700 CP pentru instalații industriale de mare capacitate. Seriile specializate — Elevator Drive E300 pentru lifturi, Pump Drive F600 pentru pompe și HVAC Drive H300 pentru climatizare — au funcții dedicate aplicației, spre deosebire de un variator de uz general configurat generic.
+Ce diferențiază gama e amploarea acoperirii de putere sub o singură umbrelă de produs: la un capăt este variatorul compact Commander S pentru aplicații simple, iar la celălalt modulul de putere de 500 kW/700 CP pentru instalații industriale de mare capacitate. Seriile specializate — Elevator Drive E300 pentru lifturi, Pump Drive F600 pentru pompe și HVAC Drive H300 pentru climatizare — au funcții dedicate aplicației, spre deosebire de un variator de uz general configurat generic.
 
 Pentru instalații din România cu cerințe specifice de aplicație — lifturi, stații de pompare, sisteme HVAC de clădire — gama Control Techniques oferă o alternativă cu funcții deja adaptate, spre deosebire de configurarea manuală a unui variator generic.`,
     whyChoose: [
       "Gamă largă de putere, de la variatoare compacte Commander până la module de 500 kW pentru aplicații industriale grele.",
       "Serii specializate pe aplicație — lifturi (E300), pompe (F600), HVAC (H300) — cu funcții dedicate din fabrică.",
       "Seria de înaltă performanță Unidrive M700/M600, pentru aplicații cu cerințe ridicate de control de mișcare.",
-      "Parte din grupul Nidec, cu acces la o rețea globală de suport tehnic și piese de schimb.",
+      "Parte din grupul Nidec, cu o rețea globală de Drive Centres care oferă suport la instalare.",
     ],
     keyProducts: [
       {
@@ -403,8 +403,6 @@ Pentru instalații din România cu cerințe specifice de aplicație — lifturi,
     productCodes: [
       { code: "Commander S", description: "Variator compact de uz general, aplicații simple" },
       { code: "Commander C", description: "Variator de uz general, gamă medie de putere" },
-      { code: "NE200", description: "Variator de gamă medie pentru aplicații industriale" },
-      { code: "NE300", description: "Variator de gamă medie, generație mai recentă" },
       { code: "Unidrive HS30", description: "Variator de intrare pentru aplicații de mare viteză" },
       { code: "Unidrive M400", description: "Variator de performanță medie, familia Unidrive" },
       { code: "Unidrive M608", description: "Variator industrial din familia Unidrive" },
@@ -422,14 +420,14 @@ Pentru instalații din România cu cerințe specifice de aplicație — lifturi,
     ],
     faq: [
       { q: "Ce produce Control Techniques?", a: "Control Techniques produce convertizoare de frecvență pentru motoare electrice, de la variatoare compacte de uz general până la module de putere mare și serii specializate pentru lifturi, pompe și HVAC. Este o marcă britanică, parte a grupului japonez Nidec, cu gama găzduită pe platforma Nidec Drives." },
-      { q: "Cum aleg un variator Control Techniques din familia Unidrive?", a: "Alegerea între M400, M600, M700 sau HS70 depinde de puterea motorului, complexitatea buclei de control necesare și viteza maximă de operare cerută de aplicație. Seriile M700 și HS70 sunt gândite pentru aplicații cu cerințe ridicate de sincronizare între axe, spre deosebire de variatoarele de uz general M400." },
+      { q: "Cum aleg un variator Control Techniques din familia Unidrive?", a: "Alegerea între M400, M600, M700 sau HS70 depinde de puterea motorului, complexitatea buclei de control necesare și viteza maximă de operare cerută de aplicație. Seria M700 include un controler de mișcare integrat (funcții precum cuplaj electronic între axe și came electronice), spre deosebire de variatoarele de uz general M400." },
       { q: "Ce variator Control Techniques se potrivește unei stații de pompare?", a: "Pentru pompare, Pump Drive F600 include funcții precablate de control al mai multor pompe în cascadă, detectare de blocaj și amorsare, spre deosebire de un variator generic reconfigurat manual pentru aceeași funcție. Alegerea puterii depinde de motorul pompei acționate." },
       { q: "Livrați variatoare Control Techniques în România?", a: "Aducem la comandă variatoare Control Techniques prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii cu producătorul, în funcție de seria și puterea exactă solicitate." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Nidec Drives", url: "https://moen.nidec.com/drives", publisher: "Nidec Corporation", accessed: "2026-09-26" },
       { title: "Control Techniques (redirect to Nidec Drives)", url: "https://www.controltechniques.com", publisher: "Nidec Corporation", accessed: "2026-09-26" },
@@ -458,11 +456,11 @@ Pentru instalații din România cu cerințe speciale de mediu — medii corozive
       },
       {
         name: "Motoare Metrice IEC",
-        description: "Motoare trifazate TEFC cu protecție IP55, în standard metric IEC, disponibile în montaj B3 pe picioare, B35 cu flanșă D sau B34 cu flanșă C. Tensiunile de fabrică sunt 230/460 V la 60 Hz și 380/400 V la 50 Hz, cu alte tensiuni disponibile la cerere. Sunt gândite ca înlocuitor direct pentru motoare metrice existente în instalații industriale europene. Clientul trebuie să transmită puterea, turația, tipul de montaj și frecvența de rețea.",
+        description: "Motoare trifazate TEFC cu protecție IP55, în standard metric IEC, disponibile în montaj B3 pe picioare, B35 cu flanșă D sau B34 cu flanșă C. Tensiunile de fabrică sunt 230/460 V la 60 Hz și 380/400 V la 50 Hz, cu alte tensiuni disponibile la cerere. Sunt motoare metrice IEC, în montaj B3, B35 sau B34. Clientul trebuie să transmită puterea, turația, tipul de montaj și frecvența de rețea.",
       },
       {
         name: "Motoare Brake (cu Frână Integrată)",
-        description: "Motoare trifazate cu frână electromagnetică integrată, disponibile în gama de 1 până la 30 CP, pentru aplicații unde oprirea rapidă și menținerea poziției la oprire sunt esențiale — transportoare înclinate, macarale mici, uși industriale. Vin în variante cu tensiune standard sau 575 V. Pentru selecție, clientul trebuie să precizeze puterea necesară, turația și tipul de frână cerut de aplicație.",
+        description: "Motoare trifazate cu frână electromagnetică integrată, disponibile în gama de 1 până la 30 CP, pentru aplicații unde oprirea rapidă și menținerea poziției la oprire sunt esențiale — palane, macarale, transportoare, mașini-unelte. Vin în variante cu tensiune standard sau 575 V. Pentru selecție, clientul trebuie să precizeze puterea necesară, turația și tipul de frână cerut de aplicație.",
       },
     ],
     industries: [
@@ -475,16 +473,16 @@ Pentru instalații din România cu cerințe speciale de mediu — medii corozive
     infinitrade: `Gama de motoare, tensiuni și montaje de mai sus vine din informațiile publice disponibile pe site-ul producătorului, fără date proprii de utilizare a motoarelor Elektrim în instalații din România. Aducem la comandă motoare Elektrim prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii de către producător. Nu promitem o disponibilitate constantă din fabrică pentru fiecare combinație de putere și tensiune. Pentru ofertă avem nevoie de puterea necesară, turația, tipul de montaj (B3, B35, B34) și tensiunea de rețea din instalație.`,
     limitation: "Nu putem confirma disponibilitatea fiecărei combinații exacte de tensiune și frână din portofoliu fără verificare directă la producător și nu oferim recondiționare a motoarelor existente.",
     productCodes: [
-      { code: "60NCS-3-1.5-36", description: "Motor Severe Duty TEFC, carcasă 36, IP55" },
-      { code: "60NFS-3-1-18/575", description: "Motor Severe Duty, tensiune 575 V, carcasă 18" },
-      { code: "20NCB-3-1-18", description: "Motor Brake, carcasă 18, cu frână integrată" },
-      { code: "20NFB-3-1.5-36/575", description: "Motor Brake, tensiune 575 V, carcasă 36" },
-      { code: "20MDM-3-1-36P", description: "Motor Premium Efficient, carcasă 36P" },
-      { code: "38CR-3-1-36PA", description: "Motor Premium Efficient, carcasă 36PA" },
-      { code: "79F-3-1-36", description: "Motor Premium Efficient, carcasă 79F" },
-      { code: "20MCM-3-1-18P", description: "Motor Premium Efficient, carcasă 18P" },
-      { code: "39CF-3-1-18P", description: "Motor Premium Efficient, carcasă 39CF" },
-      { code: "X1 Series Blower Motors", description: "Motoare pentru suflante de spălătorii auto, carcasă aluminiu" },
+      { code: "60NCS-3-1.5-36", description: "Motor Severe Duty TEFC, IP55" },
+      { code: "60NFS-3-1-18/575", description: "Motor Severe Duty, tensiune 575 V" },
+      { code: "20NCB-3-1-18", description: "Motor Brake, cu frână integrată" },
+      { code: "20NFB-3-1.5-36/575", description: "Motor Brake, tensiune 575 V" },
+      { code: "20MDM-3-1-36P", description: "Motor din gama Elektrim; specificațiile se confirmă pe cod, din catalogul producătorului" },
+      { code: "38CR-3-1-36PA", description: "Motor din gama Elektrim; specificațiile se confirmă pe cod, din catalogul producătorului" },
+      { code: "79F-3-1-36", description: "Motor din gama Elektrim; specificațiile se confirmă pe cod, din catalogul producătorului" },
+      { code: "20MCM-3-1-18P", description: "Motor din gama Elektrim; specificațiile se confirmă pe cod, din catalogul producătorului" },
+      { code: "39CF-3-1-18P", description: "Motor din gama Elektrim; specificațiile se confirmă pe cod, din catalogul producătorului" },
+      { code: "X1 Series Blower Motors", description: "Motoare pentru suflante de spălătorii auto" },
       { code: "X1 Series Vacuum Motors", description: "Motoare pentru aspiratoare industriale de spălătorii auto" },
       { code: "Metric IEC Motors", description: "Motoare metrice, montaj B3/B35/B34, până la 4000 CP la cerere" },
       { code: "Close Coupled Pump Motors", description: "Motoare pentru pompe cu cuplare directă" },
@@ -492,14 +490,14 @@ Pentru instalații din România cu cerințe speciale de mediu — medii corozive
     ],
     faq: [
       { q: "Ce produce Elektrim Motors?", a: "Elektrim Motors produce motoare electrice AC monofazate și trifazate, în standard NEMA și IEC metric, de la modele de uz general până la unități de mare putere. Este o marcă americană cu sediul la Elgin, Illinois, și facilități de producție inclusiv în Polonia, parte din Toolmex Industrial Solutions." },
-      { q: "Cum aleg un motor Elektrim Motors din gama Severe Duty după cod?", a: "Codul indică de regulă mărimea carcasei și tensiunea — de exemplu sufixul /575 arată o variantă de 575 V. Pentru alegerea corectă trebuie precizate puterea necesară, turația, mărimea carcasei existente și tensiunea de rețea, iar noi confirmăm disponibilitatea exactă cu producătorul înainte de ofertă." },
-      { q: "Ce motor Elektrim se potrivește unei instalații europene cu montaj pe flanșă?", a: "Pentru montaj pe flanșă, gama de motoare metrice IEC oferă variante B35 cu flanșă D sau B34 cu flanșă C, la tensiuni de 230/460 V sau 380/400 V, ca înlocuitor direct pentru motoare metrice deja instalate în linia de producție." },
+      { q: "Cum aleg un motor Elektrim Motors din gama Severe Duty după cod?", a: "Sufixul /575 arată o variantă de 575 V, conform exemplelor din catalogul producătorului. Pentru alegerea corectă trebuie precizate puterea necesară, turația, mărimea carcasei existente și tensiunea de rețea, iar noi confirmăm disponibilitatea exactă cu producătorul înainte de ofertă." },
+      { q: "Ce motor Elektrim se potrivește unei instalații europene cu montaj pe flanșă?", a: "Pentru montaj pe flanșă, gama de motoare metrice IEC oferă variante B35 cu flanșă D sau B34 cu flanșă C, la tensiuni de 230/460 V sau 380/400 V." },
       { q: "Livrați motoare Elektrim în România?", a: "Aducem la comandă motoare Elektrim prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii cu producătorul, în funcție de puterea și tensiunea exactă solicitate." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Elektrim Motors – Home", url: "https://www.elektrimmotors.com/", publisher: "Elektrim Motors (Toolmex Industrial Solutions)", accessed: "2026-09-26" },
       { title: "Severe Duty Motors", url: "https://www.elektrimmotors.com/db-productlines/severe-duty-motors", publisher: "Elektrim Motors (Toolmex Industrial Solutions)", accessed: "2026-09-26" },

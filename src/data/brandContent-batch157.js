@@ -4,20 +4,20 @@
 export const brandContentBatch157 = {
   ellab: {
     name: "Ellab",
-    overview: `Ellab produce echipamente pentru validarea și monitorizarea proceselor termice și de mediu controlat, folosite mai ales în industria farmaceutică și cea alimentară. Gama de bază sunt dataloggerele wireless din familia TrackSense, completate de software-ul de validare ValSuite, de sistemul de monitorizare continuă TrackView Pro și de soluția IceSpy pentru depozite la temperaturi ultra-joase. Din această gamă putem oferta dataloggerele și indicatorii de proces cerute cel mai des la validarea sterilizării și a proceselor de uscare prin congelare.
+    overview: `Ellab produce echipamente pentru validarea și monitorizarea proceselor termice și de mediu controlat, folosite mai ales în industria farmaceutică și cea alimentară. Gama de bază sunt dataloggerele wireless din familia TrackSense, completate de software-ul de validare ValSuite, de sistemul de monitorizare continuă TrackView Pro și de soluția IceSpy pentru monitorizarea wireless a spațiilor de laborator și de depozitare. Din această gamă putem oferta dataloggerele și indicatorii de proces cerute cel mai des la validarea sterilizării și a proceselor de uscare prin congelare.
 
-Ce diferențiază TrackSense este plaja de temperatură a senzorilor interschimbabili, care merge de la -80°C la +400°C, cu memorie internă de până la 120.000 de puncte de date per logger — suficient pentru cicluri lungi de sterilizare sau liofilizare fără descărcare intermediară. Varianta TrackSense LyoPro e dedicată proceselor de liofilizare și poate coordona simultan până la 100 de loggere prin ValSuite, iar Ellab Temperature Indicator (ETI) oferă citire în timp real pentru autoclave și retorte, ca alternativă mai simplă la un logger complet. În categoria de validare termică, brandul e comparat frecvent cu Comark, cealaltă marcă prezentă des în specificațiile de calificare din industria alimentară.
+Ce diferențiază TrackSense este plaja de temperatură a senzorilor interschimbabili, care merge de la -80°C la +400°C, cu memorie internă de până la 120.000 de puncte de date per logger — suficient pentru cicluri lungi de sterilizare sau liofilizare fără descărcare intermediară. Varianta TrackSense LyoPro e dedicată proceselor de liofilizare și poate coordona simultan până la 100 de loggere prin ValSuite, iar Ellab Temperature Indicator (ETI) oferă citire în timp real pentru autoclave și retorte, ca alternativă mai simplă la un logger complet. 
 
 Pentru piața din România, Ellab are sens la calificarea și validarea periodică a autoclavelor, a camerelor de sterilizare și a instalațiilor de liofilizare din farma și din procesarea alimentelor, unde documentația de audit trebuie să respecte cerințele FDA 21 CFR Part 11 sau GMP.`,
     whyChoose: [
       "Senzori interschimbabili pe același logger, cu plajă de temperatură de la -80°C la +400°C, în funcție de model",
       "Memorie internă de până la 120.000 de puncte de date per logger, utilă la cicluri lungi fără descărcare",
       "Software ValSuite compatibil FDA 21 CFR Part 11, cu jurnal de audit și semnătură electronică",
-      "Gamă separată pentru liofilizare (LyoPro) și pentru depozite ultra-joase (IceSpy), nu doar validare termică generală",
+      "Gamă separată pentru liofilizare (LyoPro) și pentru monitorizare wireless în laborator și depozitare (IceSpy), nu doar validare termică generală",
       "Certificări de laborator de calibrare ISO 17025 și UKAS menționate pe site",
     ],
     keyProducts: [
-      { name: "TrackSense Pro", description: "Familia principală de dataloggere wireless pentru validare termică, cu senzori interschimbabili pentru temperatură, umiditate, presiune, CO₂ sau conductivitate. Plaja de temperatură ajunge la -80°C…+400°C, iar memoria internă stochează până la 120.000 de puncte de date. Variantele Pro X, Pro Mini și Pro Basic diferă prin dimensiune și tipul de senzor montat, dar folosesc același software ValSuite pentru descărcare și raportare." },
+      { name: "TrackSense Pro", description: "Familia principală de dataloggere wireless pentru validare termică, cu senzori interschimbabili pentru temperatură, umiditate, presiune, CO₂ sau conductivitate. Plaja de temperatură ajunge la -80°C…+400°C, iar memoria internă stochează până la 120.000 de puncte de date. Dataloggerele TrackSense folosesc software-ul ValSuite pentru descărcare și raportare." },
       { name: "TrackSense LyoPro", description: "Datalogger dedicat proceselor de uscare prin congelare (liofilizare), cu senzori de placă și de produs adaptați la incinte de liofilizare. Permite gestionarea simultană a până la 100 de loggere prin ValSuite, cu transmisie wireless în timp real chiar din interiorul camerei de proces. Util la calificarea ciclurilor de liofilizare la scară de laborator și la scară de producție." },
       { name: "TrackView Pro", description: "Sistem de monitorizare continuă, nu doar de validare punctuală, gândit pentru mai multe site-uri sau clădiri deservite din aceeași platformă software EMSuite. Colectează automat date de temperatură, umiditate și presiune diferențială, cu alerte în timp real la depășirea limitelor stabilite pentru fiecare punct de monitorizare." },
       { name: "Ellab Temperature Indicator (ETI)", description: "Indicator/înregistrator pentru monitorizarea în timp real a temperaturii sau presiunii din autoclave și retorte, ca alternativă mai simplă decât un logger complet acolo unde nu e nevoie de validare formală. Disponibil atât ca indicator simplu, cât și ca variantă cu înregistrare a datelor pentru documentare ulterioară." },
@@ -26,34 +26,34 @@ Pentru piața din România, Ellab are sens la calificarea și validarea periodic
       "Industria farmaceutică — validarea sterilizării și a proceselor termice reglementate",
       "Industria alimentară — validarea proceselor de sterilizare și pasteurizare",
       "Dispozitive medicale — validarea ciclurilor de sterilizare la producție",
-      "Biotehnologie — monitorizarea depozitării la temperaturi ultra-joase",
+      "Biotehnologie — monitorizarea condițiilor din laborator și din spațiile de depozitare",
       "Laboratoare — calibrare de instrumente de proces termic",
     ],
-    infinitrade: `Ce redăm despre Ellab vine din surse publice ale producătorului; nu avem date proprii de stoc pentru dataloggerele și software-ul din gama de validare. Aducem echipamentele Ellab la comandă, prin canale de aprovizionare din piața europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii; nu ținem această gamă pe raft. Pentru o ofertă avem nevoie de familia exactă de logger (TrackSense Pro, LyoPro sau variantă Basic), de tipul de senzor dorit și de aplicația de validare vizată. Nu promitem un termen fix înainte de confirmarea producătorului și nu oferim noi servicii de calibrare acreditată pentru aceste aparate.`,
+    infinitrade: `Ce redăm despre Ellab vine din surse publice ale producătorului; nu avem date proprii de stoc pentru dataloggerele și software-ul din gama de validare. Aducem echipamentele Ellab la comandă, prin canale de aprovizionare din piața europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii; nu ținem această gamă pe raft. Pentru o ofertă avem nevoie de familia exactă de logger (TrackSense Pro sau LyoPro), de tipul de senzor dorit și de aplicația de validare vizată. Nu promitem un termen fix înainte de confirmarea producătorului și nu oferim noi servicii de calibrare acreditată pentru aceste aparate.`,
     limitation: "Nu putem confirma prezența unei filiale sau a unui centru de service Ellab dedicat în România.",
     productCodes: [
       { code: "TrackSense Pro", description: "logger wireless de validare termică, senzor interschimbabil" },
-      { code: "TrackSense Pro X", description: "variantă TrackSense Pro cu senzor rigid de temperatură" },
-      { code: "TrackSense Pro Mini", description: "variantă compactă, senzor rigid de temperatură" },
-      { code: "TrackSense Pro Basic", description: "variantă de bază, senzor termocuplu sau intern" },
+      
+      
+      
       { code: "TrackSense LyoPro", description: "logger dedicat proceselor de liofilizare" },
       { code: "TrackView Pro", description: "sistem de monitorizare continuă multi-site" },
-      { code: "IceSpy System", description: "monitorizare wireless pentru depozite ultra-joase" },
+      { code: "IceSpy System", description: "monitorizare wireless pentru laborator și depozitare" },
       { code: "Ellab Temperature Indicator (ETI)", description: "indicator/înregistrator pentru autoclave și retorte" },
       { code: "ValSuite", description: "software de validare cu jurnal de audit" },
       { code: "EMSuite", description: "software de monitorizare continuă multi-facilitate" },
     ],
     faq: [
       { q: "Ce produce Ellab?", a: "Ellab produce dataloggere wireless și software pentru validarea și monitorizarea proceselor termice, folosite la calificarea autoclavelor, a instalațiilor de liofilizare și a proceselor de sterilizare din farma și din industria alimentară." },
-      { q: "Cum aleg un logger Ellab după model?", a: "Pornești de la aplicație: TrackSense Pro pentru validare termică generală, LyoPro pentru cicluri de liofilizare, IceSpy pentru monitorizare de depozit la temperaturi ultra-joase. Apoi alegi tipul de senzor și plaja de temperatură necesară procesului tău." },
+      { q: "Cum aleg un logger Ellab după model?", a: "Pornești de la aplicație: TrackSense Pro pentru validare termică generală, LyoPro pentru cicluri de liofilizare, IceSpy pentru monitorizare wireless de laborator și depozitare. Apoi alegi tipul de senzor și plaja de temperatură necesară procesului tău." },
       { q: "Ce echivalent are gama Ellab față de Comark?", a: "Ambele mărci acoperă validarea termică pentru farma și alimentar, cu dataloggere wireless și software de raportare; alegerea depinde de plaja exactă de temperatură, de tipul de senzor necesar și de compatibilitatea cu sistemul de calitate deja folosit intern." },
       { q: "Livrați Ellab în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din piața europeană; termenul orientativ este de 1–4 săptămâni, în funcție de confirmarea producătorului pentru modelul și senzorii ceruți." },
       { q: "Ce trebuie să trimit pentru o ofertă Ellab?", a: "Familia de logger dorită, tipul și numărul de senzori, plaja de temperatură sau parametrul de proces vizat (temperatură, presiune, CO₂) și dacă ai nevoie de compatibilitate cu FDA 21 CFR Part 11 pentru raportare." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Ellab — Home", url: "https://www.ellab.com/", publisher: "Ellab", accessed: "2026-09-26" },
       { title: "TrackSense® Wireless Data Logger", url: "https://www.ellab.com/solutions/wireless-data-loggers/tracksense-pro-data-logger/", publisher: "Ellab", accessed: "2026-09-26" },
@@ -67,14 +67,14 @@ Pentru piața din România, Ellab are sens la calificarea și validarea periodic
     headquarters: "Lockport, Illinois, SUA",
     overview: `Vitrek este un producător american de aparate de testare electrică de precizie, cu sediul în Lockport, Illinois. Sub același acoperiș operează și mărcile GaGe, pentru digitizoare și achiziție de date de mare viteză, și MTI Instruments, pentru sisteme de echilibrare a rotoarelor și senzori de deplasare fără contact. Din această gamă putem oferta testerele hipot, analizoarele de putere și teraohmmetrele cerute cel mai des în laboratoarele de siguranță electrică din România.
 
-Ce diferențiază familia de testere hipot Vitrek este acoperirea largă de tensiune: seria V10X ajunge la 10 kV AC sau 15 kV DC, cu rezoluție de curent de scurgere de 100 pA, iar seria 95X livrează până la 200 mA curent de test la 6-30 kV AC/DC. Analizoarele de putere din familia PA900/PA910/PA920 ating acuratețe de până la 0,024% și bandă de 5 MHz, pentru măsurători pe forme de undă cu factor de creastă mare — un segment în care Vitrek e comparat des cu Eaton/Sefelec. Seria 4700 pentru înaltă tensiune măsoară direct până la 10 kV DC/AC, extensibilă la 150 kV cu sonde smartprobe.
+Ce diferențiază familia de testere hipot Vitrek este acoperirea largă de tensiune: seria V10X ajunge la 10 kV AC sau 15 kV DC, cu rezoluție de curent de scurgere de 100 pA, iar seria 95X livrează până la 200 mA curent de test la 6-30 kV AC/DC. Analizoarele de putere din familia PA900/PA910/PA920 ating acuratețe de până la 0,024% și bandă de 5 MHz, pentru măsurători pe forme de undă cu factor de creastă mare. Seria 4700 pentru înaltă tensiune măsoară direct până la 10 kV DC/AC, extensibilă la 150 kV cu sonde smartprobe.
 
 Pentru piața din România, Vitrek are sens la laboratoarele de testare electrosecuritate, la liniile de producție din electronică și auto unde e nevoie de teste hipot/rezistență de izolație în serie, și la aplicațiile de echilibrare a rotoarelor din turbomașini.`,
     whyChoose: [
       "Testere hipot cu tensiune de test de până la 15 kV DC și rezoluție de curent de scurgere de 100 pA",
       "Analizoare de putere cu acuratețe de până la 0,024% și bandă de 5 MHz pentru forme de undă complexe",
-      "Familie separată MTI pentru echilibrare de rotoare, cu peste 25 de ani de utilizare în aviație",
-      "Laborator de calibrare acreditat ISO 17025, deținut de producător",
+      "Familie separată MTI Instruments pentru echilibrare de rotoare de turbomotoare",
+      "Certificări ISO 9001:2015 și ISO 17025 menționate de producător",
       "Sistem de comutare de înaltă tensiune (964i) pentru testare hipot multi-punct pe linii de producție",
     ],
     keyProducts: [
@@ -90,7 +90,7 @@ Pentru piața din România, Vitrek are sens la laboratoarele de testare electros
       "Semiconductori — teraohmmetre pentru măsurarea rezistenței de izolație",
       "Laboratoare de testare electrosecuritate — analizoare de putere și testere hipot",
     ],
-    infinitrade: `Datele despre Vitrek provin exclusiv din surse publice ale producătorului, fără date proprii despre stocul aparatelor din gama hipot, analizoare de putere sau echilibrare rotoare. Livrăm aparatele Vitrek, GaGe și MTI Instruments la comandă, prin canale de aprovizionare din SUA, cu un termen orientativ de 1–4 săptămâni; nu ținem această gamă pe raft pentru această gamă. Pentru ofertă avem nevoie de seria exactă a aparatului, de tensiunea sau curentul de test necesare și de eventualele accesorii (sonde, cabluri) cerute de aplicație. Configurarea software-ului de automatizare a testelor rămâne responsabilitatea producătorului sau a integratorului de linie.`,
+    infinitrade: `Datele despre Vitrek provin exclusiv din surse publice ale producătorului, fără date proprii despre stocul aparatelor din gama hipot, analizoare de putere sau echilibrare rotoare. Livrăm aparatele Vitrek, GaGe și MTI Instruments la comandă, prin canale de aprovizionare din SUA, cu un termen orientativ de 1–4 săptămâni; nu ținem această gamă pe raft. Pentru ofertă avem nevoie de seria exactă a aparatului, de tensiunea sau curentul de test necesare și de eventualele accesorii (sonde, cabluri) cerute de aplicație. Configurarea software-ului de automatizare a testelor rămâne responsabilitatea producătorului sau a integratorului de linie.`,
     limitation: "Nu putem confirma configurarea sau integrarea software-ului QT Insite pe linii de producție existente.",
     productCodes: [
       { code: "95X Series", description: "tester hipot AC/DC, 6-30 kV, curent test 200 mA" },
@@ -103,13 +103,13 @@ Pentru piața din România, Vitrek are sens la laboratoarele de testare electros
       { code: "964i", description: "sistem de comutare înaltă tensiune multi-punct" },
       { code: "98x Series", description: "teraohmmetru, testare izolație până la 2,5 kV" },
       { code: "DL Series", description: "sarcină electronică DC, configurabilă" },
-      { code: "2503 AH Series", description: "sistem de analiză de putere de înaltă performanță" },
+      
       { code: "PBS eXpress", description: "sistem de echilibrare rotoare, marca MTI" },
       { code: "PBS-4100+", description: "sistem de echilibrare rotoare portabil, marca MTI" },
       { code: "Accumeasure", description: "senzor capacitiv de deplasare fără contact" },
     ],
     faq: [
-      { q: "Ce produce Vitrek?", a: "Vitrek produce testere hipot, analizoare de putere de precizie și teraohmmetre, alături de digitizoare de mare viteză sub marca GaGe și sisteme de echilibrare a rotoarelor sub marca MTI Instruments, toate cu sediul de producție în Illinois, SUA." },
+      { q: "Ce produce Vitrek?", a: "Vitrek produce testere hipot, analizoare de putere de precizie și teraohmmetre, alături de digitizoare de mare viteză sub marca GaGe și sisteme de echilibrare a rotoarelor sub marca MTI Instruments, toate sub grupul Vitrek, cu sediul central în Lockport, Illinois, SUA." },
       { q: "Cum aleg un tester hipot Vitrek după serie?", a: "Verifici tensiunea maximă de test necesară aplicației: seria V7X acoperă până la 5 kV, seria 95X ajunge la 30 kV, iar seria V10X oferă rezoluție fină de curent de scurgere pentru izolații de calitate ridicată. Curentul de test și tipul de sarcină (rezistivă/capacitivă) contează la alegerea finală." },
       { q: "Ce echivalent are gama Vitrek față de Eaton/Sefelec?", a: "Ambele mărci acoperă testarea hipot și analiza de putere pentru linii de producție și laboratoare; diferența practică apare la acuratețea analizoarelor de putere și la rezoluția de curent de scurgere a testerelor hipot, unde specificațiile exacte se compară model cu model." },
       { q: "Livrați Vitrek în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA; termenul orientativ este de 1–4 săptămâni, în funcție de confirmarea producătorului pentru modelul și accesoriile solicitate." },
@@ -117,8 +117,8 @@ Pentru piața din România, Vitrek are sens la laboratoarele de testare electros
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Vitrek — Test & Measurement Systems", url: "https://www.vitrek.com/", publisher: "Vitrek", accessed: "2026-09-26" },
       { title: "Products — Vitrek", url: "https://www.vitrek.com/products", publisher: "Vitrek", accessed: "2026-09-26" },
@@ -132,14 +132,14 @@ Pentru piața din România, Vitrek are sens la laboratoarele de testare electros
     headquarters: "Zierikzee, Țările de Jos",
     overview: `Delta Elektronika este un producător olandez de surse de alimentare de curent continuu programabile, cu sediul la Zierikzee, activ din 1959. Gama acoperă de la surse mici de laborator din familia ES, cu puteri de 150-300 W, până la sisteme industriale bidirecționale din familia SM, care pot fi conectate în paralel pentru instalații de sute de kilowați. Din această gamă putem oferta sursele de laborator și modelele SM de putere medie cerute cel mai des la testarea de produs și cercetarea din România.
 
-Ce diferențiază sursele Delta Elektronika este funcția bidirecțională (regenerativă) a familiilor SM6K și SM15K, care pot atât alimenta o sarcină, cât și absorbi energie înapoi în rețea — utilă la testarea de anduranță unde altfel energia s-ar disipa doar sub formă de căldură. Multe modele din familia SM sunt autoranging, adică pot livra tensiune mai mare la curent mai mic sau invers, pe aceeași unitate fizică, ceea ce reduce numărul de surse diferite necesare într-un laborator. Puterea unitară merge de la câțiva wați, la sursele ES de precizie, până la 15 kW per unitate SM15K, cu opțiune de funcționare Master/Slave pentru sisteme de până la 900 kW.
+Ce diferențiază sursele Delta Elektronika este funcția bidirecțională (regenerativă) a familiilor SM6K și SM15K, care pot atât alimenta o sarcină, cât și absorbi energie înapoi în rețea — utilă la testarea de anduranță unde altfel energia s-ar disipa doar sub formă de căldură. Multe modele din familia SM sunt autoranging, adică pot livra tensiune mai mare la curent mai mic sau invers, pe aceeași unitate fizică, ceea ce reduce numărul de surse diferite necesare într-un laborator. Puterea unitară merge de la 150 W, la sursele ES de laborator, până la 15 kW per unitate SM15K, cu opțiune de funcționare Master/Slave pentru sisteme de până la 900 kW.
 
 Pentru piața din România, sursele Delta Elektronika au sens în laboratoarele de cercetare și dezvoltare, la bancurile de testare automatizate și la universitățile cu programe de inginerie electrică, unde precizia și repetabilitatea sursei contează mai mult decât costul inițial.`,
     whyChoose: [
       "Surse bidirecționale (regenerative) în familiile SM6K și SM15K, care pot absorbi energie înapoi în rețea",
       "Multe modele autoranging — tensiune mai mare la curent mai mic sau invers, pe aceeași unitate fizică",
-      "Putere unitară de la câțiva wați până la 15 kW, cu funcționare Master/Slave pentru sisteme de sute de kW",
-      "Producție integrală în Țările de Jos, din 1959, cu eficiență declarată de până la 95%",
+      "Putere unitară de la 150 W până la 15 kW, cu funcționare Master/Slave pentru sisteme de sute de kW",
+      "Producător olandez de surse DC programabile, activ din 1959, cu modele de putere mare descrise ca foarte eficiente la sarcină nominală",
       "Gamă separată de precizie (ES) pentru laborator și de putere industrială (SM) pentru testare automatizată",
     ],
     keyProducts: [
@@ -187,8 +187,8 @@ Pentru piața din România, sursele Delta Elektronika au sens în laboratoarele 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Delta Elektronika — Home", url: "https://www.deltaelektronika.com/en", publisher: "Delta Elektronika", accessed: "2026-09-26" },
       { title: "Products — Delta Elektronika", url: "https://www.deltaelektronika.com/en/products", publisher: "Delta Elektronika", accessed: "2026-09-26" },
@@ -199,9 +199,9 @@ Pentru piața din România, sursele Delta Elektronika au sens în laboratoarele 
     name: "ETS-Lindgren",
     founded: 1995,
     headquarters: "Austin, Texas, SUA",
-    overview: `ETS-Lindgren este un producător american de camere de testare electromagnetică (EMC), antene RF și sisteme de ecranare, format în 1995 din unirea a trei companii cu expertiză complementară în domeniu, cu sediul la Austin, Texas. Compania face parte din grupul ESCO Technologies. Gama acoperă camere anecoice din familia FACT 3, antene precum modelul 3104D Biconical sau 3106B Double-Ridged Guide, absorbanți RF din familia DuraSorb (DSH) și sisteme de ecranare arhitecturală sau pentru echipamente medicale. Din această gamă putem oferta antenele și absorbanții RF cerute cel mai des la laboratoarele de testare EMC din România.
+    overview: `ETS-Lindgren este un producător american de camere de testare electromagnetică (EMC), antene RF și sisteme de ecranare, format în 1995, cu sediul în zona Austin, Texas. Compania face parte din grupul ESCO Technologies. Gama acoperă camere anecoice din familia FACT 3, antene precum modelul 3104D Biconical sau 3106B Double-Ridged Guide, absorbanți RF din familia DuraSorb (DSH) și sisteme de ecranare arhitecturală sau pentru echipamente medicale. Din această gamă putem oferta antenele și absorbanții RF cerute cel mai des la laboratoarele de testare EMC din România.
 
-Ce diferențiază ETS-Lindgren este acoperirea completă a lanțului de testare EMC — de la camera anecoică și absorbanții din interior, până la antenele de măsură și software-ul de analiză precum TILE! 8 sau EMQuest, folosit pentru caracterizarea câmpului electromagnetic. Sistemele de poziționare multi-axă din familia MAPS (de exemplu 2112, 2117, 2122) mișcă automat antena sau dispozitivul testat în timpul măsurătorii, conform standardelor de testare. Pentru medii critice precum RMN medical, brandul oferă sisteme dedicate de ecranare (MRI Shield System), un segment în care e comparat des cu Frankonia.
+Ce diferențiază ETS-Lindgren este acoperirea completă a lanțului de testare EMC — de la camera anecoică și absorbanții din interior, până la antenele de măsură și software-ul de analiză precum TILE! 8 sau EMQuest, folosit pentru caracterizarea câmpului electromagnetic. Sistemele de poziționare multi-axă din familia MAPS (de exemplu 2112, 2117, 2122) mișcă automat antena sau dispozitivul testat în timpul măsurătorii, conform standardelor de testare. Pentru medii critice precum RMN medical, brandul oferă sisteme dedicate de ecranare (MRI Shield System).
 
 Pentru piața din România, ETS-Lindgren are sens la laboratoarele de testare EMC pentru echipamente industriale și auto, la instalațiile RMN din spitale care necesită ecranare RF, și la operatorii de telecom care testează conformitatea echipamentelor 5G.`,
     whyChoose: [
@@ -257,8 +257,8 @@ Pentru piața din România, ETS-Lindgren are sens la laboratoarele de testare EM
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ETS-Lindgren — Home", url: "https://www.ets-lindgren.com/", publisher: "ETS-Lindgren", accessed: "2026-09-26" },
       { title: "About Us — ETS-Lindgren", url: "https://www.ets-lindgren.com/about-us", publisher: "ETS-Lindgren", accessed: "2026-09-26" },
@@ -269,21 +269,21 @@ Pentru piața din România, ETS-Lindgren are sens la laboratoarele de testare EM
     name: "Dewesoft",
     founded: 2000,
     headquarters: "Trbovlje, Slovenia",
-    overview: `Dewesoft este un producător sloven de sisteme de achiziție de date (DAQ) și software de măsurare, fondat la sfârșitul anului 2000, cu sediul la Trbovlje. Gama de bază este familia modulară SIRIUS, completată de sistemele rugidizate KRYPTON pentru medii dure, de OBSIDIAN pentru înregistrare de sine stătătoare și de analizoarele de putere integrate în variantele SIRIUS cu terminație DB. Din această gamă putem oferta modulele SIRIUS și OBSIDIAN cerute cel mai des în testarea de anduranță și în achiziția de date pentru vehicule și mașini industriale.
+    overview: `Dewesoft este un producător sloven de sisteme de achiziție de date (DAQ) și software de măsurare, fondat la sfârșitul anului 2000, cu sediul la Trbovlje. Gama de bază este familia modulară SIRIUS, completată de sistemele robuste KRYPTON pentru medii dure, de OBSIDIAN pentru înregistrare de sine stătătoare și de analizoarele de putere integrate în variantele SIRIUS cu terminație DB. Din această gamă putem oferta modulele SIRIUS și OBSIDIAN cerute cel mai des în testarea de anduranță și în achiziția de date pentru vehicule și mașini industriale.
 
-Ce diferențiază arhitectura Dewesoft este amplificatorul DualCoreADC, cu două convertoare delta-sigma de 24 de biți per canal, care ating un domeniu dinamic de până la 160 dB — util atunci când semnalul de măsurat variază mult ca amplitudine în timpul aceluiași test. Modulele HybridADC permit comutarea între eșantionare de mare viteză (SAR, până la 15 milioane de eșantioane pe secundă) și precizie ridicată (delta-sigma), pe același canal fizic. Familia KRYPTON e rugidizată la protecție IP67 și funcționează între -40°C și +85°C, pentru montaj direct pe vehicul sau utilaj, un segment în care Dewesoft e comparat frecvent cu Oros.
+Ce diferențiază arhitectura Dewesoft este amplificatorul DualCoreADC, cu două convertoare delta-sigma de 24 de biți per canal, care ating un domeniu dinamic de până la 160 dB — util atunci când semnalul de măsurat variază mult ca amplitudine în timpul aceluiași test. Modulele HybridADC permit comutarea între eșantionare de mare viteză (SAR, până la 15 milioane de eșantioane pe secundă) și precizie ridicată (delta-sigma), pe același canal fizic. Familia KRYPTON are protecție IP67 și funcționează între -40°C și +85°C, pentru montaj direct pe vehicul sau utilaj.
 
 Pentru piața din România, Dewesoft are sens la testarea de anduranță auto și feroviară, la măsurătorile de vibrații și zgomot din mediul industrial, și la instalațiile de testare din energie și construcții civile, unde sincronizarea între mai multe canale de măsură contează.`,
     whyChoose: [
       "Amplificator DualCoreADC cu domeniu dinamic de până la 160 dB pe canal, pentru semnale cu variație mare de amplitudine",
       "Module HybridADC comutabile între eșantionare rapidă (până la 15 MS/s) și precizie ridicată, pe același canal",
-      "Familie rugidizată KRYPTON, protecție IP67, funcțională între -40°C și +85°C, pentru montaj direct pe vehicul",
-      "Sincronizare de canale cu acuratețe declarată la nivel de nanosecunde între module diferite",
-      "Garanție de 7 ani pe hardware, software DewesoftX inclus fără costuri suplimentare de licențiere",
+      "Familie robustă KRYPTON, protecție IP67, funcțională între -40°C și +85°C, pentru montaj direct pe vehicul",
+      "Sincronizare a canalelor între module diferite, cu specificații indicate de producător pe fiecare model",
+      "Software DewesoftX inclus fără costuri suplimentare de licențiere; condițiile de garanție se confirmă pe model, din documentația producătorului",
     ],
     keyProducts: [
       { name: "Seria SIRIUS", description: "Familia principală de sisteme DAQ modulare, cu variante Modular, X, XHS (high-speed), XR (extended range), Mini (compact USB) și RT (control în timp real). Amplificatoarele DualCoreADC oferă domeniu dinamic de până la 160 dB, iar izolarea canal-canal ajunge la ±1000 V. Variantele terminate în DB (R1DB, R2DB, R8DB) includ funcții de analizor de putere direct în modulul de achiziție." },
-      { name: "Familia KRYPTON", description: "Module de achiziție rugidizate, cu protecție IP67 și funcționare între -40°C și +85°C, gândite pentru montaj direct pe vehicul, utilaj sau structură testată în teren, nu doar în laborator. Se conectează la o unitate KRYPTON CPU sau la un sistem SIRIUS pentru procesare centralizată a datelor." },
+      { name: "Familia KRYPTON", description: "Module de achiziție robuste, cu protecție IP67 și funcționare între -40°C și +85°C, gândite pentru montaj direct pe vehicul, utilaj sau structură testată în teren, nu doar în laborator. Se conectează la o unitate KRYPTON CPU sau la un sistem SIRIUS pentru procesare centralizată a datelor." },
       { name: "Seria OBSIDIAN", description: "Sistem de achiziție de sine stătător, cu CPU embedded ARM/Linux și stocare pe SSD internă, folosit pentru înregistrare autonomă de lungă durată fără conectare permanentă la un calculator. Potrivit pentru teste de anduranță sau monitorizare structurală pe termen lung." },
       { name: "SBOX / SBOX Waterproof", description: "Sistem DAQ compact, în variantă standard sau cu protecție la apă (Waterproof, IP67), pentru măsurători de teren unde spațiul de montaj sau condițiile de mediu sunt limitate. Rulează același software DewesoftX ca restul gamei, pentru consistență între proiecte." },
     ],
@@ -306,7 +306,7 @@ Pentru piața din România, Dewesoft are sens la testarea de anduranță auto ș
       { code: "SIRIUS Waterproof", description: "variantă rezistentă la apă, IP67" },
       { code: "SIRIUS RT", description: "variantă cu control în timp real" },
       { code: "SIRIUS R8", description: "modul cu 8 canale de măsură" },
-      { code: "KRYPTON", description: "modul rugidizat IP67, montaj pe vehicul" },
+      { code: "KRYPTON", description: "modul robust IP67, montaj pe vehicul" },
       { code: "KRYPTON CPU", description: "unitate de procesare pentru module KRYPTON" },
       { code: "IOLITE Rack", description: "sistem DAQ montat în rack" },
       { code: "IOLITE X", description: "variantă compactă a familiei IOLITE" },
@@ -320,7 +320,7 @@ Pentru piața din România, Dewesoft are sens la testarea de anduranță auto ș
       { code: "NAVION", description: "sistem de navigație/poziționare GNSS" },
     ],
     faq: [
-      { q: "Ce produce Dewesoft?", a: "Dewesoft produce sisteme de achiziție de date și software de măsurare, fondat în 2000 la Trbovlje, Slovenia. Gama include familia modulară SIRIUS, sistemele rugidizate KRYPTON, loggerul de sine stătător OBSIDIAN și software-ul DewesoftX inclus fără cost suplimentar." },
+      { q: "Ce produce Dewesoft?", a: "Dewesoft produce sisteme de achiziție de date și software de măsurare, fondat în 2000 la Trbovlje, Slovenia. Gama include familia modulară SIRIUS, sistemele robuste KRYPTON, loggerul de sine stătător OBSIDIAN și software-ul DewesoftX inclus fără cost suplimentar." },
       { q: "Cum aleg un sistem Dewesoft după serie?", a: "Pornești de la mediul de testare: SIRIUS pentru laborator sau bancuri de test, KRYPTON pentru montaj direct pe vehicul în condiții dure, OBSIDIAN pentru înregistrare autonomă de lungă durată. Apoi verifici numărul de canale și tipul de senzor necesar aplicației." },
       { q: "Ce echivalent are gama SIRIUS de la Dewesoft față de Oros?", a: "Ambele mărci acoperă achiziția de date multicanal pentru testare industrială și de vehicule; diferența practică ține de arhitectura ADC folosită și de domeniul dinamic per canal, parametri care se compară direct din fișele tehnice ale fiecărui model." },
       { q: "Livrați Dewesoft în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Slovenia și din rețeaua europeană a producătorului; termenul orientativ este de 1–4 săptămâni, în funcție de configurația de canale solicitată." },
@@ -328,8 +328,8 @@ Pentru piața din România, Dewesoft are sens la testarea de anduranță auto ș
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Dewesoft — Home", url: "https://dewesoft.com/", publisher: "Dewesoft", accessed: "2026-09-26" },
       { title: "Products — Dewesoft", url: "https://dewesoft.com/products", publisher: "Dewesoft", accessed: "2026-09-26" },
@@ -341,21 +341,21 @@ Pentru piața din România, Dewesoft are sens la testarea de anduranță auto ș
     name: "Fixturlaser (Acoem)",
     founded: 1984,
     headquarters: "Mölndal, Suedia",
-    overview: `Fixturlaser este marca suedeză de sisteme laser pentru alinierea axelor la mașini rotative, activă din 1984, cu sediul la Mölndal. Astăzi produsele Fixturlaser sunt comercializate sub identitatea vizuală Acoem, compania-mamă cu peste 800 de angajați și facilități de producție în 11 țări. Gama acoperă instrumente de aliniere de la varianta de bază AT-100 până la AT-400, sistemul EXO pentru zone cu risc de explozie și RT-300, care combină alinierea cu verificarea de vibrații și rulmenți. Din această gamă putem oferta instrumentele de aliniere axe cerute cel mai des la mentenanța predictivă din România.
+    overview: `Fixturlaser este marca suedeză de sisteme laser pentru alinierea axelor la mașini rotative, activă din 1984, cu sediul la Mölndal. Astăzi produsele Fixturlaser sunt comercializate sub identitatea vizuală Acoem, compania-mamă, grup industrial cu activitate în mai multe țări. Gama acoperă instrumente de aliniere de la varianta de bază AT-100 până la AT-400, sistemul EXO pentru zone cu risc de explozie și RT-300, care combină alinierea cu verificarea de vibrații și rulmenți. Din această gamă putem oferta instrumentele de aliniere axe cerute cel mai des la mentenanța predictivă din România.
 
-Ce diferențiază gama Acoem/Fixturlaser este interfața GuideU, prezentă pe modelele AT-300 și AT-400, care ghidează tehnicianul pas cu pas prin procedura de aliniere, cu precizie declarată de până la 0,001 mm la AT-400. Varianta AT-WIND e adaptată specific pentru aliniere de arbori la turbine eoliene, cuplate sau necuplate, iar EXO extinde alinierea laser în zone clasificate cu risc de explozie — un segment în care marca e comparată frecvent cu Pruftechnik. Modelul RT-300 adaugă la aliniere și verificarea de vibrații și inspecția rulmenților, util pentru un tehnician de mentenanță care vrea un singur aparat pentru mai multe verificări de rutină.
+Ce diferențiază gama Acoem/Fixturlaser este interfața GuideU, prezentă pe modelele AT-300 și AT-400, care ghidează tehnicianul pas cu pas prin procedura de aliniere; precizia se confirmă pe model, din fișa tehnică a producătorului. Varianta AT-WIND e adaptată specific pentru aliniere de arbori la turbine eoliene, cuplate sau necuplate, iar EXO extinde alinierea laser în zone clasificate cu risc de explozie. Modelul RT-300 adaugă la aliniere și verificarea de vibrații și inspecția rulmenților, util pentru un tehnician de mentenanță care vrea un singur aparat pentru mai multe verificări de rutină.
 
 Pentru piața din România, sistemele Fixturlaser/Acoem au sens la mentenanța predictivă din energie (inclusiv eoliană), petrol și gaze, industria hârtiei și stațiile de pompare, oriunde dezalinierea axelor scurtează durata de viață a rulmenților și cuplajelor.`,
     whyChoose: [
-      "Precizie de aliniere declarată de până la 0,001 mm la modelul AT-400, cu interfață ghidată GuideU",
+      "Interfață ghidată GuideU pe modelele AT-300 și AT-400, cu precizia confirmată pe model din fișa producătorului",
       "Variantă dedicată EXO pentru aliniere laser în zone clasificate cu risc de explozie",
       "Model AT-WIND adaptat specific pentru aliniere de arbori la turbine eoliene, cuplate sau necuplate",
       "Model RT-300 combină aliniere axe, verificare vibrații și inspecție rulmenți într-un singur aparat",
-      "Parte din grupul Acoem, cu facilități de producție în 11 țări și rețea extinsă de service",
+      "Parte din grupul Acoem, compania care comercializează astăzi marca",
     ],
     keyProducts: [
       { name: "Seria AT-100/AT-200 — Aliniere de Bază", description: "Instrumente de intrare în gama de aliniere laser a axelor, cu ecran tactil și feedback în timp real pentru poziționarea mașinii. AT-100 e poziționat ca variantă accesibilă și ușor de folosit, iar AT-200 adaugă funcții suplimentare de afișare și interpretare a rezultatelor pentru tehnicieni cu experiență medie." },
-      { name: "Seria AT-300/AT-400 — Aliniere Avansată", description: "Instrumente cu interfață GuideU și senzori digitali de linie de generația a treia, cu precizie declarată de până la 0,001 mm la AT-400. Ghidează tehnicianul pas cu pas prin procedura de aliniere, reducând timpul de lucru și erorile de interpretare a datelor față de un aparat fără asistență ghidată." },
+      { name: "Seria AT-300/AT-400 — Aliniere Avansată", description: "Instrumente cu interfață GuideU, destinate alinierii avansate a axelor. Ghidează tehnicianul pas cu pas prin procedura de aliniere, reducând timpul de lucru și erorile de interpretare a datelor față de un aparat fără asistență ghidată." },
       { name: "Acoem EXO — Aliniere în Zone cu Risc de Explozie", description: "Sistem de aliniere laser gândit pentru zone clasificate cu risc de explozie, unde echipamentul standard nu poate fi folosit. Păstrează logica de aliniere a gamei AT, adaptată la cerințele de siguranță ale mediilor industriale cu atmosferă potențial explozivă, precum rafinării sau platforme petroliere." },
       { name: "Acoem RT-300 — Aliniere, Vibrații și Rulmenți", description: "Instrument multifuncțional care combină alinierea de axe cu verificarea vibrațiilor și inspecția rulmenților într-un singur aparat portabil. Util pentru un tehnician de mentenanță care face mai multe tipuri de verificări de rutină pe aceeași mașină rotativă, fără să care echipamente separate." },
     ],
@@ -372,7 +372,7 @@ Pentru piața din România, sistemele Fixturlaser/Acoem au sens la mentenanța p
       { code: "AT-100", description: "instrument de aliniere axe, gamă de bază" },
       { code: "AT-200", description: "instrument de aliniere axe, touchscreen" },
       { code: "AT-300", description: "instrument de aliniere, interfață GuideU" },
-      { code: "AT-400", description: "instrument de aliniere, precizie 0,001 mm" },
+      { code: "AT-400", description: "instrument de aliniere, interfață GuideU" },
       { code: "AT-WIND", description: "aliniere de arbori pentru turbine eoliene" },
       { code: "Acoem EXO", description: "aliniere laser pentru zone cu risc de explozie" },
       { code: "Acoem RT-300", description: "aliniere, vibrații și inspecție rulmenți" },
@@ -389,8 +389,8 @@ Pentru piața din România, sistemele Fixturlaser/Acoem au sens la mentenanța p
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Fixturlaser (Acoem) — Home", url: "https://fixturlaser.com/", publisher: "Acoem", accessed: "2026-09-26" },
       { title: "Products — Fixturlaser (Acoem)", url: "https://fixturlaser.com/products/", publisher: "Acoem", accessed: "2026-09-26" },
@@ -401,21 +401,21 @@ Pentru piața din România, sistemele Fixturlaser/Acoem au sens la mentenanța p
     name: "EXFO",
     founded: 1985,
     headquarters: "Quebec, Canada",
-    overview: `EXFO este un producător canadian de echipamente pentru testarea, monitorizarea și analiza rețelelor de fibră optică, fondat în 1985 de Germain Lamonde, cu sediul în Quebec. Gama acoperă teste de câmp pentru fibră optică (OTDR), analizoare de protocol pentru rețele de mare capacitate din familia LTS-1600, teste de câmp pentru servicii Ethernet și transport din familia MAX, și localizatoare vizuale de defecte precum FLS-170. Din această gamă putem oferta echipamentele de câmp (OTDR, power metere, localizatoare de defecte) cerute cel mai des la instalarea și mentenanța rețelelor de fibră din România.
+    overview: `EXFO este un producător canadian de echipamente pentru testarea, monitorizarea și analiza rețelelor de fibră optică, fondat în 1985 de Germain Lamonde, cu sediul în Quebec. Gama acoperă teste de câmp pentru fibră optică (OTDR), analizoare de protocol pentru rețele de mare capacitate din familia LTS-1600, teste de câmp pentru servicii Ethernet și transport din familia MAX, și localizatoare vizuale de defecte precum FLS-170. Din această gamă putem oferta echipamentele de câmp (OTDR, instrumente de măsurare a puterii optice, localizatoare de defecte) cerute cel mai des la instalarea și mentenanța rețelelor de fibră din România.
 
-Ce diferențiază EXFO este istoricul de peste patru decenii în testarea optică — compania a lansat în 1992 FOT-900, una dintre primele unități portabile pentru testare automată de pierderi optice, iar astăzi acoperă testarea de la nivel metro/longhaul cu OTDR-uri precum FTBx-750D, până la testarea submarină cu unitatea USO-1618. Familia MAX (MAX-880, MAX-890) testează servicii Ethernet și transport de până la 100G, iar FTB Lite 975 combină testarea OTDR cu certificarea de pierdere optică pe fibre multiple simultan. În acest segment, EXFO e comparat frecvent cu Trend Networks pentru echipamentele de teren mai simple.
+Ce diferențiază EXFO este istoricul de peste patru decenii în testarea optică — compania a lansat în 1992 FOT-900, una dintre primele unități portabile pentru testare automată de pierderi optice, iar astăzi acoperă testarea de la nivel metro/longhaul cu OTDR-uri precum FTBx-750D, până la testarea submarină cu unitatea USO-1618. Familia MAX (MAX-880, MAX-890) testează servicii Ethernet și transport de până la 100G, iar FTB Lite 975 combină testarea OTDR cu certificarea de pierdere optică pe fibre multiple simultan.
 
-Pentru piața din România, EXFO are sens la operatorii de telecom care instalează sau mentin rețele FTTx și 5G, la contractorii de rețele de fibră și la centrele de date care testează conformitatea legăturilor optice interne.`,
+Pentru piața din România, EXFO are sens la operatorii de telecom care instalează sau mențin rețele FTTx și 5G, la contractorii de rețele de fibră și la centrele de date care testează conformitatea legăturilor optice interne.`,
     whyChoose: [
       "Peste patru decenii de specializare exclusivă în testarea rețelelor de fibră optică",
       "Gamă completă, de la localizatoare de defecte portabile (FLS-170) până la teste de transport 100G (MAX-880/890)",
-      "OTDR dedicat pentru testare submarină (USO-1618), un segment de nișă rar acoperit de alți producători",
+      "OTDR dedicat pentru testare submarină (USO-1618)",
       "Testere multi-fibră (FTB Lite 975) care combină OTDR și certificare de pierdere optică pe până la 24 de fibre",
-      "Companie fondată și listată bursier, cu istoric documentat de inovație din 1985",
+      "Companie fondată în 1985, specializată în testarea rețelelor de fibră optică",
     ],
     keyProducts: [
       { name: "Familia FTB/FTBx — OTDR Metro/Longhaul", description: "OTDR-uri pentru caracterizarea fibrei optice pe distanțe metropolitane sau de lungă distanță, în variante precum FTB Lite 750D, cu conectivitate permanentă pentru testare de teren, și FTBx-750D, cu rezoluție și domeniu dinamic ridicate. Folosite la punerea în funcțiune și depanarea rețelelor de fibră optică." },
-      { name: "USO-1618 — OTDR Submarin", description: "OTDR specializat pentru testarea cablurilor submarine de fibră optică, descris de producător ca fiind printre primele unități de co-propagare (C-OTDR) din categoria sa, orientat spre detectarea defectelor pe cabluri submarine unde accesul fizic pentru reparații este dificil și costisitor." },
+      { name: "USO-1618 — OTDR Submarin", description: "OTDR specializat pentru testarea cablurilor submarine de fibră optică, orientat spre detectarea defectelor pe cabluri submarine unde accesul fizic pentru reparații este dificil și costisitor." },
       { name: "Familia MAX — Teste Ethernet și Transport", description: "Testere de teren pentru servicii Ethernet, OTN, SONET/SDH și DSn/PDH, cu capacitate de testare de până la 100G la modelele MAX-880 și MAX-890. Folosite de operatori și integratori pentru validarea serviciilor de transport de mare capacitate înainte de punerea în funcțiune." },
       { name: "FLS-170 și FTB Lite 975", description: "Localizator vizual de defecte (VFL) de format portabil pentru identificarea rapidă a rupturilor sau conectărilor greșite pe fibră, respectiv certificator multi-fibră FTB Lite 975, care combină testarea OTDR cu măsurarea pierderii optice bidirecționale pe conexiuni simplex, duplex sau multi-fibră de până la 24 de fire." },
     ],
@@ -426,7 +426,7 @@ Pentru piața din România, EXFO are sens la operatorii de telecom care instalea
       "Contractori de rețele — instalare și punere în funcțiune de cabluri de fibră",
       "Producători de echipamente de rețea — testare la nivel de fabricație",
     ],
-    infinitrade: `Despre EXFO folosim doar informațiile publice disponibile în materialele producătorului, fără date proprii de stoc pentru echipamentele de testare optică. Aducem aparatele EXFO la comandă, prin canale de aprovizionare din America de Nord sau din rețeaua europeană a producătorului, cu un termen orientativ de 1–4 săptămâni; Nu avem raft propriu pentru aceste aparate. Pentru ofertă avem nevoie de tipul de test necesar (OTDR, certificare de pierdere optică, testare de transport) și de banda/capacitatea de rețea vizată (de exemplu 10G, 100G).`,
+    infinitrade: `Despre EXFO folosim doar informațiile publice disponibile în materialele producătorului, fără date proprii de stoc pentru echipamentele de testare optică. Aducem aparatele EXFO la comandă, prin canale de aprovizionare din America de Nord sau din rețeaua europeană a producătorului, cu un termen orientativ de 1–4 săptămâni; nu ținem aceste aparate pe raft. Pentru ofertă avem nevoie de tipul de test necesar (OTDR, certificare de pierdere optică, testare de transport) și de banda/capacitatea de rețea vizată (de exemplu 10G, 100G).`,
     limitation: "Nu putem confirma disponibilitatea locală a serviciilor de calibrare acreditată pentru echipamentele EXFO — acestea rămân la producător sau la un laborator acreditat terț.",
     productCodes: [
       { code: "FOT-900", description: "prima unitate portabilă de testare pierdere optică, 1992" },
@@ -449,8 +449,8 @@ Pentru piața din România, EXFO are sens la operatorii de telecom care instalea
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "EXFO — Home", url: "https://www.exfo.com/", publisher: "EXFO", accessed: "2026-09-26" },
       { title: "Products — EXFO", url: "https://www.exfo.com/products/", publisher: "EXFO", accessed: "2026-09-26" },

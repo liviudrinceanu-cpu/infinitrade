@@ -5,21 +5,21 @@ export const brandContentBatch155 = {
     name: "Pomona Electronics",
     founded: 1951,
     headquarters: "Everett, Washington, SUA",
-    overview: `Pomona Electronics este un producător american de accesorii pentru testare și măsurare electrică, înființat în 1951 și mutat ulterior la Everett, statul Washington, SUA. Din 1999 face parte din Fluke Corporation. Gama acoperă fire și sonde de test pentru multimetre, cleme de tip grabber pentru puncte de test SMD, conectori și adaptoare RF/coaxiale, cordoane de test și accesorii pentru control static. Pentru piața din România putem oferta accesoriile din aceste familii, utile oriunde se fac măsurători electrice de rutină în laborator sau la bancul de lucru.
+    overview: `Pomona Electronics este un producător american de accesorii pentru testare și măsurare electrică, cu sediul la Everett, statul Washington, SUA, parte din Fluke Corporation. Gama acoperă fire și sonde de test pentru multimetre, cleme de tip grabber pentru puncte de test SMD, conectori și adaptoare RF/coaxiale, cordoane de test și accesorii pentru control static. Pentru piața din România putem oferta accesoriile din aceste familii, utile oriunde se fac măsurători electrice de rutină în laborator sau la bancul de lucru.
 
-Ce diferențiază gama Pomona e varietatea de cleme grabber și micrograbber pentru puncte de test greu accesibile — de la cleme standard pentru fire, până la variante micro-SMD pentru terminale de doar 0,3–0,8 mm, disponibile în seturi de până la zece culori pentru identificarea rapidă a circuitelor. Conectorii și adaptoarele RF acoperă familii uzuale precum BNC și SMA, aflate în aceeași categorie de accesorii de laborator ca produsele Multi-Contact. Cablurile telecom și de joasă frecvență completează gama pentru montaje de test permanente sau temporare.
+Ce diferențiază gama Pomona e varietatea de cleme grabber și micrograbber pentru puncte de test greu accesibile — de la cleme standard pentru fire, până la variante micro-SMD pentru terminale de doar 0,3–0,8 mm, disponibile în seturi de până la zece culori pentru identificarea rapidă a circuitelor. Conectorii și adaptoarele RF/coaxiale acoperă mai multe familii de conectori, confirmate pe cod. Cablurile telecom și de joasă frecvență completează gama pentru montaje de test permanente sau temporare.
 
 În România, gama Pomona are sens pentru laboratoare de metrologie, ateliere de service electronic și echipe de mentenanță care au nevoie constantă de fire de test, cleme și adaptoare de schimb, fără să depindă de un singur furnizor pentru fiecare accesoriu mărunt.`,
     whyChoose: [
       "Cleme grabber și micrograbber în zeci de variante, de la fire standard până la terminale SMD de sub un milimetru.",
-      "Conectori și adaptoare RF/coaxiale pentru familiile BNC și SMA, compatibile cu majoritatea multimetrelor și osciloscoapelor uzuale.",
+      "Conectori și adaptoare RF/coaxiale pentru interconectarea echipamentelor de test, cu familia de conectori confirmată pe cod.",
       "Accesorii disponibile în seturi colorate, utile pentru identificarea rapidă a circuitelor la măsurători cu mai multe canale.",
-      "Peste șapte decenii de fabricație de accesorii de test, cu catalog stabil de coduri și dimensiuni."
+      "Catalog larg de accesorii de test, cu coduri și dimensiuni specificate pentru fiecare produs."
     ],
     keyProducts: [
       { name: "Cleme Grabber și Micrograbber pentru Test", description: "Familie largă de cleme pentru conectarea rapidă la puncte de test — de la Minigrabber pentru fire de câțiva milimetri diametru, la Micrograbber pentru terminale mici, până la Micro SMD Grabber pentru IC-uri de 0,3–0,8 mm, disponibile în seturi de zece culori pentru identificarea circuitelor la măsurători cu mai multe canale." },
       { name: "Fire și Sonde de Test pentru Multimetre", description: "Seturi de fire de test cu mufe banană securizate și vârfuri interschimbabile, plus cleme alligator de dimensiune medie și industrială pentru conectare fermă la borne și șine, utile atât la uzul general de banc, cât și acolo unde e nevoie de un contact stabil pe termen mai lung." },
-      { name: "Conectori și Adaptoare RF/Coaxiale", description: "Adaptoare coaxiale și RF pentru interconectarea echipamentelor de test cu impedanțe și conectori diferiți, familiile BNC și SMA, plus kituri pentru schimbarea rapidă a tipului de conector fără a înlocui cablul întreg — utile la conectarea analizoarelor de spectru la dispozitivul testat." },
+      { name: "Conectori și Adaptoare RF/Coaxiale", description: "Adaptoare coaxiale și RF pentru interconectarea echipamentelor de test cu impedanțe și conectori diferiți, în mai multe familii de conectori, plus kituri pentru schimbarea tipului de conector (confirmate pe cod) — utile la conectarea analizoarelor de spectru la dispozitivul testat." },
       { name: "Cordoane de Test și Accesorii pentru Control Static", description: "Cordoane de test cu mufă banană, clemă alligator sau pin, plus prize banană și borne de conectare pentru montaje permanente pe panouri, alături de accesorii pentru control static, utile în zonele unde componentele sensibile la ESD trebuie protejate în timpul manipulării." }
     ],
     industries: [
@@ -29,7 +29,7 @@ Ce diferențiază gama Pomona e varietatea de cleme grabber și micrograbber pen
       "Telecomunicații — conectori și adaptoare RF/coaxiale pentru bancurile de test",
       "Învățământ tehnic — seturi de fire și cleme colorate pentru laboratoare didactice"
     ],
-    infinitrade: `Putem oferta accesorii Pomona din familiile de cleme grabber, fire de test și conectori RF, la comandă, prin canalele de aprovizionare ale grupului Fluke. Nu ținem această gamă pe raft; lucrăm din surse publice ale producătorului pentru a confirma codurile și dimensiunile exacte înainte de a trimite oferta. Pentru un accesoriu punctual, e suficient să ne trimiteți numărul de model de pe piesa veche sau descrierea aplicației — ce multimetru sau osciloscop folosiți, ce tip de punct de test aveți de accesat — și confirmăm compatibilitatea și termenul, orientativ 1–4 săptămâni, înainte de comandă. Nu promitem disponibilitate din depozit pentru fiecare cod din catalog.`,
+    infinitrade: `Putem oferta accesorii Pomona din familiile de cleme grabber, fire de test și conectori RF, la comandă, prin canale de aprovizionare din UE. Nu ținem această gamă pe raft; lucrăm din surse publice ale producătorului pentru a confirma codurile și dimensiunile exacte înainte de a trimite oferta. Pentru un accesoriu punctual, e suficient să ne trimiteți numărul de model de pe piesa veche sau descrierea aplicației — ce multimetru sau osciloscop folosiți, ce tip de punct de test aveți de accesat — și confirmăm compatibilitatea și termenul, orientativ 1–4 săptămâni, înainte de comandă. Nu promitem disponibilitate din depozit pentru fiecare cod din catalog.`,
     limitation: "Nu putem confirma stocuri pentru codurile mai vechi sau discontinuate din catalogul Pomona, care se verifică punctual cu producătorul.",
     productCodes: [
       { code: "3925", description: "Clemă Minigrabber pentru fire subțiri, zece culori disponibile" },
@@ -40,7 +40,7 @@ Ce diferențiază gama Pomona e varietatea de cleme grabber și micrograbber pen
       { code: "4723", description: "Clemă Minigrabber cu mufă banană integrată" },
       { code: "4826", description: "Clemă Minigrabber cu mufă pin tip, negru sau roșu" },
       { code: "5243", description: "Clemă SMD Grabber, disponibilă în zece culori" },
-      { code: "5360", description: "Clemă SMD Grabber cu pin pătrat de precizie" },
+      { code: "5360", description: "Clemă SMD Grabber cu pin pătrat de 0,025 in (0,64 mm), zece culori" },
       { code: "5418", description: "Clemă Minipincer do-it-yourself, zece culori disponibile" },
       { code: "5520", description: "Kit clemă SMD Grabber, set complet de zece culori" },
       { code: "5522", description: "Kit clemă Minigrabber, set complet de zece culori" },
@@ -54,14 +54,14 @@ Ce diferențiază gama Pomona e varietatea de cleme grabber și micrograbber pen
       { code: "72906", description: "Set cleme Mini SMD Grabber pentru puncte de test dense" }
     ],
     faq: [
-      { q: "Ce produce Pomona Electronics?", a: "Pomona Electronics fabrică accesorii pentru testare și măsurare electrică — fire și sonde pentru multimetre, cleme de tip grabber pentru puncte de test SMD, conectori și adaptoare RF/coaxiale. Compania are sediul la Everett, Washington, SUA, și face parte din Fluke Corporation din 1999." },
+      { q: "Ce produce Pomona Electronics?", a: "Pomona Electronics fabrică accesorii pentru testare și măsurare electrică — fire și sonde pentru multimetre, cleme de tip grabber pentru puncte de test SMD, conectori și adaptoare RF/coaxiale. Compania are sediul la Everett, Washington, SUA, și face parte din Fluke Corporation." },
       { q: "Cum aleg clema Pomona potrivită pentru un punct de test SMD?", a: "Alegerea depinde de dimensiunea terminalului: clemele Micro SMD Grabber acoperă IC-uri de 0,3–0,8 mm, iar variantele SMD Grabber standard sunt potrivite pentru puncte mai mari. Trimiteți-ne dimensiunea terminalului și tipul de măsurătoare pentru a confirma codul potrivit." },
-      { q: "Livrați accesorii Pomona Electronics în România și cât durează?", a: "Da, la comandă, prin canalele de aprovizionare ale grupului Fluke, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului. Nu ținem această gamă pe raft pentru fiecare cod din catalog, așa că termenul exact se confirmă înainte de finalizarea comenzii." },
+      { q: "Livrați accesorii Pomona Electronics în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului. Nu ținem această gamă pe raft pentru fiecare cod din catalog, așa că termenul exact se confirmă înainte de finalizarea comenzii." },
       { q: "Ce trebuie să trimit pentru o ofertă de accesorii de test?", a: "Codul de model dacă îl cunoașteți, sau descrierea aplicației — ce multimetru sau osciloscop folosiți, tipul punctului de test și diametrul firului. Verificăm compatibilitatea din surse publice ale producătorului și confirmăm codul exact înainte de a trimite oferta." }
     ],
     evidenceClass: "market-signal-ro",
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Pomona Electronics – Products", url: "https://www.pomonaelectronics.com/products", publisher: "Pomona Electronics", accessed: "2026-09-26" },
       { title: "Grabber Test Clips", url: "https://www.pomonaelectronics.com/products/test-clips/grabber-test-clips", publisher: "Pomona Electronics", accessed: "2026-09-26" },
@@ -72,7 +72,7 @@ Ce diferențiază gama Pomona e varietatea de cleme grabber și micrograbber pen
     name: "Easy-Laser",
     overview: `Easy-Laser este un producător suedez de sisteme laser pentru aliniere de arbori și măsurători geometrice pe utilaje rotative. Gama acoperă aliniere de arbori (seriile XT770, XT660, XT550, XT440), măsurători geometrice de planeitate, paralelism și linia centrelor de alezaj (XT920, XT915, XT950), plus aliniere de curele (XT190 BTA, D92 BTA) și instrumente conexe precum nivela digitală XT290 și vibrometrul XT280. Pentru România putem oferta din aceste familii pentru echipe de mentenanță mecanică.
 
-Ce diferențiază gama Easy-Laser e acoperirea completă a lanțului de aliniere — de la arbori de pompe și motoare, la geometria bancurilor de mașini-unelte și la curelele de transmisie, cu o variantă certificată pentru zone cu risc de explozie (XT550 Shaft EX, Zona 1/21). Rezultatele pot fi centralizate prin platforma cloud Easy-Laser PLUS, utilă la documentarea aliniamentelor pentru mai multe utilaje dintr-o instalație, alături de alte sisteme purtate de tehnicieni de mentenanță predictivă.
+Ce diferențiază gama Easy-Laser e acoperirea completă a lanțului de aliniere — de la arbori de pompe și motoare, la geometria bancurilor de mașini-unelte și la curelele de transmisie, cu o variantă certificată pentru zone cu risc de explozie (XT550 Shaft EX, Zona 1/21). Rezultatele pot fi centralizate prin platforma cloud Easy-Laser PLUS, utilă la documentarea aliniamentelor pentru mai multe utilaje dintr-o instalație.
 
 Pentru piața locală, sistemele Easy-Laser au sens la revizii planificate de pompe, ventilatoare, compresoare și turbine, acolo unde o dezaliniere de câțiva zecimi de milimetru scurtează viața rulmenților și crește vibrațiile, precum și la punerea în funcțiune a utilajelor noi.`,
     whyChoose: [
@@ -115,12 +115,12 @@ Pentru piața locală, sistemele Easy-Laser au sens la revizii planificate de po
     faq: [
       { q: "Ce produce Easy-Laser?", a: "Easy-Laser fabrică sisteme laser pentru alinierea arborilor la utilaje rotative și pentru măsurători geometrice pe structuri industriale — planeitate, paralelism, linia centrelor de alezaj. Compania are sediul în Suedia și acoperă și aliniere de curele de transmisie." },
       { q: "Cum aleg sistemul Easy-Laser potrivit pentru alinierea unei pompe?", a: "Depinde de distanța dintre lagăre și de accesul la arbore: pentru sarcini de bază e suficientă seria XT440, pentru montaje complexe cu mai multe puncte de măsură se folosește XT770 Shaft+GEO. Trimiteți-ne tipul utilajului și distanța aproximativă pentru a confirma seria." },
-      { q: "Există o variantă Easy-Laser certificată pentru zone cu risc de explozie?", a: "Da, XT550 Shaft EX este certificată pentru zone 1/21 cu risc de explozie, folosită la aliniere de arbori în rafinării și instalații petrochimice. Restul gamei nu are această certificare." },
+      { q: "Există o variantă Easy-Laser certificată pentru zone cu risc de explozie?", a: "Da, XT550 Shaft EX este certificată pentru zone 1/21 cu risc de explozie, folosită la aliniere de arbori în rafinării și instalații petrochimice." },
       { q: "Livrați sisteme de aliniere Easy-Laser în România?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația și accesoriile alese. Termenul exact se confirmă după ce ne trimiteți tipul utilajului și cerințele de măsurare." }
     ],
     evidenceClass: "market-signal-ro",
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Easy-Laser – Home", url: "https://easylaser.com/en-us", publisher: "Easy-Laser AB", accessed: "2026-09-26" },
       { title: "Easy-Laser – Products", url: "https://easylaser.com/en-us/products", publisher: "Easy-Laser AB", accessed: "2026-09-26" }
@@ -131,17 +131,17 @@ Pentru piața locală, sistemele Easy-Laser au sens la revizii planificate de po
     headquarters: "Everett, Washington, SUA",
     overview: `Fluke Networks este divizia de instrumente pentru cablare de rețea a Fluke Corporation, cu sediul la Everett, statul Washington, SUA. Gama acoperă certificatoare de cablu de cupru (seria DSX CableAnalyzer), teste de pierderi optice pe fibră (CertiFiber Pro/Max), reflectometrie optică (OptiFiber Pro OTDR), plus tonoare, sonde și testere de continuitate pentru instalatori. Pentru România putem oferta din aceste familii pentru echipele care instalează și certifică cablare structurată.
 
-Ce diferențiază Fluke Networks e combinația certificare-troubleshooting-instalare într-o singură platformă modulară: seria DSX folosește module interschimbabile de test pentru cupru și fibră pe același aparat de bază Versiv, iar rezultatele se pot gestiona prin LinkWare Live. Pentru testare de rețea generală, LinkIQ combină verificarea cablului cu testul de conectivitate Wi-Fi și rețea într-un singur aparat portabil, în aceeași categorie cu testere similare de la Softing sau alți producători de scule pentru cablare IT.
+Ce diferențiază Fluke Networks e combinația certificare-troubleshooting-instalare într-o singură platformă modulară: modelele DSX din platforma Versiv (DSX-5000 și DSX-8000) folosesc module interschimbabile de test pentru cupru și fibră pe același aparat de bază, iar DSX-602 este un certificator autonom de cupru, iar rezultatele se pot gestiona prin LinkWare Live. Pentru testare de rețea generală, LinkIQ combină verificarea cablului cu testul de conectivitate Wi-Fi și rețea într-un singur aparat portabil, în aceeași categorie cu testere similare de la Softing sau alți producători de scule pentru cablare IT.
 
 Pentru piața din România, gama Fluke Networks are sens la integratorii de rețele structurate, firmele de certificare cablare pentru clădiri și departamentele IT care fac recepția instalațiilor de cablu, acolo unde certificarea documentată e cerută de standard, nu doar o verificare rapidă de continuitate.`,
     whyChoose: [
       "Platformă modulară Versiv — același aparat de bază, module diferite pentru cupru și fibră optică.",
       "LinkWare Live centralizează rapoartele de certificare din mai multe șantiere într-un singur cont.",
       "LinkIQ combină testarea cablului cu verificarea conectivității Wi-Fi și rețea într-un aparat portabil.",
-      "Parte din Fluke Corporation, cu acces la rețeaua de suport tehnic și piese a grupului."
+      "Divizie a Fluke Corporation, cu sediul la Everett, Washington."
     ],
     keyProducts: [
-      { name: "Certificatoare de Cablu Seria DSX CableAnalyzer", description: "Familie de certificatoare de cablu de cupru construite pe platforma modulară Versiv, cu modelul DSX-602 pentru certificare pe categoriile de cablare uzuale în clădiri. Rezultatele se gestionează prin LinkWare Live, util la generarea rapoartelor cerute la recepția instalațiilor de cablare structurată." },
+      { name: "Certificatoare de Cablu Seria DSX CableAnalyzer", description: "Familie de certificatoare de cupru; modelul DSX-602 este un certificator autonom (în afara platformei modulare Versiv) pentru categoriile 3, 5, 5e, 6 și 6A (Clasa EA). Rezultatele se gestionează prin LinkWare Live, util la generarea rapoartelor cerute la recepția instalațiilor de cablare structurată." },
       { name: "Teste de Fibră Optică", description: "CertiFiber Pro și CertiFiber Max măsoară pierderile de inserție pe fibră optică, OptiFiber Pro OTDR localizează defectele de-a lungul traseului, iar camerele FI-7000 și FI-3000 FiberInspector Pro inspectează capetele conectorilor, inclusiv conectori MPO, înainte de punerea în funcțiune." },
       { name: "Testere de Instalare LinkIQ, CableIQ, MicroScanner", description: "LinkIQ combină verificarea cablului cu testul de conectivitate Wi-Fi și rețea; CableIQ califică rapid un cablu instalat înainte de certificarea finală; seria MicroScanner verifică rapid continuitatea și lungimea cablului pe șantier, la primul test al unei prize noi." },
       { name: "Tonoare și Localizatoare de Defecte", description: "IntelliTone Pro 200 și seria Pro3000 identifică traseul unui cablu prin ton audibil; seturile TS 54 și TS 52 PRO folosesc reflectometrie în domeniul timp pentru localizarea defectelor, iar TS 100 găsește rapid întreruperi sau scurtcircuite pe linii telefonice." }
@@ -153,13 +153,13 @@ Pentru piața din România, gama Fluke Networks are sens la integratorii de reț
       "Centre de date — inspecție conectori de fibră înainte de punere în funcțiune",
       "Operatori telecom — localizare defecte pe linii de cupru cu reflectometrie TDR"
     ],
-    infinitrade: `Furnizăm aparate Fluke Networks pentru certificare și testare de cablare prin canalele de aprovizionare ale grupului Fluke, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația de module aleasă. Nu avem raft propriu pentru fiecare model din gamă; verificăm din surse publice ale producătorului ce modul sau kit corespunde categoriei de cablare pe care o certificați. Pentru o ofertă, spuneți-ne ce standard de cablare certificați, câte porturi sau fire aveți de testat și dacă porniți de la o platformă Versiv existentă sau adăugați module noi.`,
+    infinitrade: `Furnizăm aparate Fluke Networks pentru certificare și testare de cablare prin canale externe de aprovizionare, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația de module aleasă. Nu avem raft propriu pentru fiecare model din gamă; verificăm din surse publice ale producătorului ce modul sau kit corespunde categoriei de cablare pe care o certificați. Pentru o ofertă, spuneți-ne ce standard de cablare certificați, câte porturi sau fire aveți de testat și dacă porniți de la o platformă Versiv existentă sau adăugați module noi.`,
     limitation: "Nu oferim instruire de certificare pentru operatori și nu confirmăm compatibilitatea retroactivă cu module Versiv mai vechi decât cele listate curent pe site-ul producătorului.",
     productCodes: [
-      { code: "DSX-602 CableAnalyzer", description: "Certificator cablu cupru pe platforma modulară Versiv" },
+      { code: "DSX-602 CableAnalyzer", description: "Certificator autonom de cablu cupru, categoriile 3–6A" },
       { code: "DSX CableAnalyzer", description: "Familie de certificatoare cablu cupru cu module interschimbabile" },
       { code: "CertiFiber Pro", description: "Test de pierdere de inserție pe fibră optică" },
-      { code: "CertiFiber Max", description: "Test de pierdere de inserție pe fibră, variantă extinsă" },
+      { code: "CertiFiber Max", description: "Test de pierdere optică, lungime și polaritate pe fibră multifibră (MPO/MMC), modul pentru platforma Versiv" },
       { code: "OptiFiber Pro OTDR", description: "Reflectometru optic pentru localizarea defectelor pe fibră" },
       { code: "FI-7000 FiberInspector Pro", description: "Cameră de inspecție capete conectori de fibră" },
       { code: "FI-3000 FiberInspector Pro MPO", description: "Cameră de inspecție pentru conectori de fibră tip MPO" },
@@ -179,8 +179,8 @@ Pentru piața din România, gama Fluke Networks are sens la integratorii de reț
       { q: "Livrați aparate Fluke Networks în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de modulele și accesoriile alese. Confirmăm termenul exact după ce ne spuneți standardul de cablare certificat și configurația dorită." }
     ],
     evidenceClass: "market-signal-ro",
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Fluke Networks – Products", url: "https://www.flukenetworks.com/products", publisher: "Fluke Networks", accessed: "2026-09-26" },
       { title: "Fluke Networks – About Us", url: "https://www.flukenetworks.com/about-us", publisher: "Fluke Networks", accessed: "2026-09-26" }
@@ -191,20 +191,20 @@ Pentru piața din România, gama Fluke Networks are sens la integratorii de reț
     headquarters: "Haar, Germania",
     overview: `Softing este un producător german cu sediul la Haar, lângă München, activ în testarea și certificarea cablării de rețea IT prin divizia Softing IT Networks, alături de divizii separate pentru electronică auto și comunicație industrială. Gama IT Networks acoperă certificatoare de cablu WireXpert, calificatoare de rețea NetXpert, verificatoare LinkXpert și CableMaster, plus echipamente de sudură fibră SpliceXpert. Pentru România putem oferta din familia de instrumente pentru cablare IT.
 
-Ce diferențiază gama WireXpert e capacitatea de testare mixtă cupru-fibră-Wi-Fi pe module compacte: seria WireXpert MP acoperă categorii de cablare precum C6A și C8, precum și module de fibră sau Wi-Fi, în timp ce WireXpert 4500 se adresează certificării de fibră monomod și multimod la distanțe mari. Softing concurează în aceeași categorie de certificatoare cu Fluke Networks, ambele oferind platforme modulare pentru integratori de cablare structurată.
+Ce diferențiază gama WireXpert e capacitatea de testare mixtă cupru-fibră pe module compacte: seria WireXpert MP acoperă categorii de cablare precum C6A (până la 600 MHz) și C8 (până la 3000 MHz), precum și module de fibră multimod și monomod, în timp ce WireXpert 4500 certifică atât cupru (până la 2500 MHz, inclusiv Cat 8), cât și fibră monomod și multimod. Softing concurează în aceeași categorie de certificatoare cu Fluke Networks, ambele oferind platforme modulare pentru integratori de cablare structurată.
 
 Pentru piața locală, instrumentele Softing IT Networks au sens la firmele de instalare și certificare cablare pentru clădiri de birouri, centre de date și rețele industriale, acolo unde recepția lucrării cere un raport de certificare pe categoria de cablu instalată, nu doar un test de continuitate.`,
     whyChoose: [
-      "Testare mixtă cupru, fibră și Wi-Fi pe aceeași platformă modulară WireXpert MP.",
-      "WireXpert 4500 pentru certificare de fibră monomod și multimod la distanțe mari.",
+      "Testare mixtă cupru și fibră pe aceeași platformă modulară WireXpert MP.",
+      "WireXpert 4500 pentru certificare de cupru (până la 2500 MHz) și de fibră monomod și multimod.",
       "NetXpert XG2 califică rapid o rețea înainte de certificarea completă cu WireXpert.",
       "Divizii separate pentru automotive, industrial și IT Networks, cu know-how tehnic dedicat fiecărei piețe."
     ],
     keyProducts: [
-      { name: "Certificatoare de Cablu Seria WireXpert", description: "Familie de certificatoare pentru cablare de cupru și fibră, de la WireXpert 500 pentru certificare standard, la WireXpert 500 Industrial pentru medii dure, până la WireXpert MP cu module interschimbabile pentru categoriile C6A și C8, module de fibră și Wi-Fi, plus WireXpert 4500 pentru fibră la distanțe extinse." },
+      { name: "Certificatoare de Cablu Seria WireXpert", description: "Familie de certificatoare pentru cablare de cupru și fibră, de la WireXpert 500 pentru certificare standard, la WireXpert 500 Industrial pentru medii dure, până la WireXpert MP cu module interschimbabile pentru categoriile C6A și C8 și module de fibră, plus WireXpert 4500 pentru certificare de cupru (până la 2500 MHz) și de fibră." },
       { name: "Calificatoare și Verificatoare de Rețea", description: "NetXpert XG2 și XG2-PLUS califică rapid o legătură de rețea înainte de certificarea completă; LinkXpert M3 și LinkXpert TP verifică cablarea instalată; CableMaster 210, FO, PoE și VFL acoperă verificări punctuale de cupru, fibră, alimentare PoE și localizare vizuală a defectelor." },
-      { name: "Instrumente de Fibră", description: "FiberXpert 700 și FiberXpert OTDR 5000 testează atenuarea și localizează evenimentele pe traseul de fibră; CableProbe 15 și microscopul de fibră inspectează vizual capetele conectorilor înainte de conectare, pas util pentru evitarea contaminării la joncțiuni." },
-      { name: "Echipamente de Sudură Fibră SpliceXpert", description: "SpliceXpert FiberFox MINI4S+ și MINI6S+ sunt echipamente compacte de sudură prin fuziune pentru fibră optică, folosite la repararea sau extinderea traseelor de fibră direct pe teren, fără a scoate cablul din traseu." }
+      { name: "Instrumente de Fibră", description: "FiberXpert 700 și FiberXpert OTDR 5000 testează atenuarea și localizează evenimentele pe traseul de fibră; Microscopul de fibră inspectează vizual capetele conectorilor înainte de conectare, pas util pentru evitarea contaminării la joncțiuni." },
+      { name: "Echipamente de Sudură Fibră SpliceXpert", description: "SpliceXpert FiberFox MINI4S+ și MINI6S+ sunt echipamente compacte de sudură prin fuziune pentru fibră optică, folosite la repararea sau extinderea traseelor de fibră direct pe teren." }
     ],
     industries: [
       "Integratori de rețele structurate — certificare cablare cupru și fibră",
@@ -213,17 +213,17 @@ Pentru piața locală, instrumentele Softing IT Networks au sens la firmele de i
       "Operatori de telecomunicații — sudură și testare fibră pe teren",
       "Firme de mentenanță IT — calificare rapidă a legăturilor de rețea"
     ],
-    infinitrade: `Putem oferta aparate Softing din familia WireXpert, NetXpert și LinkXpert prin canale de aprovizionare din Germania, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de modulele alese. Nu avem date proprii de stoc pentru fiecare configurație; ne bazăm pe informațiile publice ale producătorului pentru a confirma ce modul de test corespunde categoriei de cablare pe care o certificați. Pentru ofertă, spuneți-ne categoria de cablu, dacă aveți nevoie și de testare fibră sau Wi-Fi, și dacă porniți de la zero sau completați o platformă WireXpert existentă.`,
+    infinitrade: `Putem oferta aparate Softing din familia WireXpert, NetXpert și LinkXpert prin canale de aprovizionare din Germania, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de modulele alese. Nu avem date proprii de stoc pentru fiecare configurație; ne bazăm pe informațiile publice ale producătorului pentru a confirma ce modul de test corespunde categoriei de cablare pe care o certificați. Pentru ofertă, spuneți-ne categoria de cablu, dacă aveți nevoie și de testare fibră, și dacă porniți de la zero sau completați o platformă WireXpert existentă.`,
     limitation: "Nu confirmăm compatibilitatea între module WireXpert de generații diferite și nu oferim calibrarea proprie a aparatelor, care rămâne în sarcina producătorului.",
     productCodes: [
       { code: "WireXpert MP C6A", description: "Modul de certificare cablu categoria C6A pentru WireXpert MP" },
       { code: "WireXpert MP C8", description: "Modul de certificare cablu categoria C8" },
       { code: "WireXpert MP FM", description: "Modul de fibră multimod pentru WireXpert MP" },
       { code: "WireXpert MP FS", description: "Modul de fibră monomod pentru WireXpert MP" },
-      { code: "WireXpert MP FQ", description: "Modul de testare Wi-Fi pentru WireXpert MP" },
+      { code: "WireXpert MP FQ", description: "Modul de certificare fibră monomod și multimod (Tier 1) pentru WireXpert MP" },
       { code: "WireXpert 500", description: "Certificator standard de cablu cupru și fibră" },
       { code: "WireXpert 500 Industrial", description: "Certificator de cablu pentru medii industriale dure" },
-      { code: "WireXpert 4500", description: "Certificator de fibră monomod și multimod la distanțe mari" },
+      { code: "WireXpert 4500", description: "Certificator de cupru (până la 2500 MHz) și de fibră monomod și multimod" },
       { code: "FiberXpert 700", description: "Tester de atenuare pe fibră optică" },
       { code: "FiberXpert OTDR 5000", description: "Reflectometru optic pentru evenimente pe fibră" },
       { code: "NetXpert XG2", description: "Calificator de rețea pentru legături de cupru și fibră" },
@@ -237,13 +237,13 @@ Pentru piața locală, instrumentele Softing IT Networks au sens la firmele de i
     ],
     faq: [
       { q: "Ce produce Softing în domeniul testării de rețea?", a: "Divizia Softing IT Networks produce certificatoare de cablu WireXpert, calificatoare de rețea NetXpert, verificatoare LinkXpert și CableMaster, plus echipamente de sudură fibră SpliceXpert, folosite la instalarea și recepția cablării structurate. Compania are sediul la Haar, Germania." },
-      { q: "Ce diferență e între WireXpert 500 și WireXpert MP de la Softing?", a: "WireXpert 500 e un certificator standard pentru cupru și fibră, în timp ce WireXpert MP folosește module interschimbabile pentru categorii de cablare diferite și pentru fibră sau Wi-Fi, pe aceeași unitate de bază, util când testați medii mixte." },
-      { q: "Ce aparat Softing aleg pentru sudură de fibră pe teren?", a: "SpliceXpert FiberFox MINI4S+ sau MINI6S+ sunt echipamentele compacte de sudură prin fuziune din gama Softing, potrivite pentru repararea sau extinderea traseelor de fibră direct pe traseu, fără a scoate cablul." },
+      { q: "Ce diferență e între WireXpert 500 și WireXpert MP de la Softing?", a: "WireXpert 500 e un certificator standard pentru cupru și fibră, în timp ce WireXpert MP folosește module interschimbabile pentru categorii de cablare diferite și pentru fibră, pe aceeași unitate de bază, util când testați medii mixte." },
+      { q: "Ce aparat Softing aleg pentru sudură de fibră pe teren?", a: "SpliceXpert FiberFox MINI4S+ sau MINI6S+ sunt echipamentele compacte de sudură prin fuziune din gama Softing, potrivite pentru repararea sau extinderea traseelor de fibră pe teren." },
       { q: "Livrați aparate Softing în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de modulele alese. Confirmăm termenul exact după ce ne spuneți categoria de cablu și tipurile de test necesare." }
     ],
     evidenceClass: "market-signal-ro",
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Softing – Company", url: "https://company.softing.com/us/", publisher: "Softing AG", accessed: "2026-09-26" },
       { title: "Softing IT Networks – Products", url: "https://itnetworks.softing.com/en/products.html", publisher: "Softing IT Networks", accessed: "2026-09-26" }
@@ -255,18 +255,18 @@ Pentru piața locală, instrumentele Softing IT Networks au sens la firmele de i
     headquarters: "Norwich, Norfolk, Marea Britanie",
     overview: `Comark Instruments este un producător britanic de termometre digitale, sonde de temperatură și data loggere wireless, fondat în 1961 și cu sediul la Norwich, Norfolk, Marea Britanie. Din 2007 face parte din Fluke Corporation. Gama acoperă termometre de buzunar și industriale (seriile C22, C28, PDQ400), sonde interschimbabile pentru penetrare, suprafață, aer și imersie, plus data loggere wireless Diligence pentru temperatură și umiditate. Pentru România putem oferta din aceste familii pentru control de temperatură în lanțul alimentar și laboratoare.
 
-Ce diferențiază Comark e varietatea de sonde interschimbabile — sute de combinații de tip de senzor (Type K, Type T, PT100, thermistor), lungime și conector pentru aproape orice aplicație de măsurare a temperaturii. Data loggerele Diligence WiFi transmit automat citirile către un sistem central, utile la monitorizarea continuă cerută de standardele HACCP în industria alimentară, categorie în care Comark se regăsește alături de branduri precum Testo.
+Ce diferențiază Comark e varietatea de sonde interschimbabile — sute de combinații de tip de senzor (Type K, Type T, PT100, thermistor), lungime și conector pentru aproape orice aplicație de măsurare a temperaturii. Data loggerele Diligence WiFi transmit automat citirile către un sistem central, utile la documentarea monitorizării temperaturii în sisteme HACCP din industria alimentară, categorie în care Comark se regăsește alături de branduri precum Testo.
 
 Pentru piața din România, gama Comark are sens la unitățile de procesare alimentară, lanțurile de retail cu depozite frigorifice, spitale și laboratoare care trebuie să documenteze temperatura produselor sensibile — de la materii prime până la vaccinuri sau produse de sânge.`,
     whyChoose: [
       "Sute de combinații de sonde interschimbabile — Type K, Type T, PT100 sau thermistor, cu lungimi și conectori diferiți.",
       "Data loggere Diligence WiFi pentru monitorizare automată de temperatură și umiditate, cu transmitere continuă a citirilor.",
       "Termometre HACCP Touch cu memorie de până la 65.000 de citiri, utile la audituri de trasabilitate.",
-      "Parte din Fluke Corporation din 2007, cu acces la rețeaua globală de suport tehnic a grupului.",
+      "Face parte din Fluke Corporation din 2007.",
       "Peste șase decenii de fabricație de instrumente de temperatură pentru industria alimentară și laboratoare."
     ],
     keyProducts: [
-      { name: "Termometre de Buzunar și Industriale", description: "Familie de termometre portabile cu sondă tip K sau T, de la C22 pentru precizie de sistem ridicată cu sondă thermistor, la C28 cu domeniu extins de la -328°F la +1112°F, până la PDQ400 rezistent la apă pentru bucătării comerciale, unele variante cu cronometru integrat." },
+      { name: "Termometre de Buzunar și Industriale", description: "Familie de termometre portabile cu sondă tip K sau T, de la C22 pentru precizie ridicată, la C28 cu domeniu extins de la -328°F la +1112°F, până la PDQ400 rezistent la apă pentru bucătării comerciale, unele variante cu cronometru integrat." },
       { name: "Sonde de Temperatură Interschimbabile", description: "Sute de sonde de penetrare, suprafață, aer și imersie, cu domenii de la -328°F la +2012°F în funcție de tip și timpi de răspuns de la 0,2 la 100 de secunde, disponibile cu conectori sub-miniatură, Lumberg sau Bipole." },
       { name: "Data Loggere Diligence WiFi și EV", description: "Diligence WiFi (RF311, RF313, RF314) transmite automat citiri de temperatură, umiditate sau tensiune termocuplu către un sistem central; seria Diligence EV (N2011–N2014) înregistrează local pe canale multiple, cu N2014 acoperind termocuple tip K până la +2500°F." },
       { name: "Dispozitive HACCP și Termometre de Cadran", description: "HT100 HACCP Touch înregistrează până la 65.000 de citiri cu sonde termocuplu, util la audituri de trasabilitate alimentară; gama include și termometre de cadran clasice pentru citire directă fără baterii, la controale rapide de temperatură." }
@@ -308,12 +308,12 @@ Pentru piața din România, gama Comark are sens la unitățile de procesare ali
     faq: [
       { q: "Ce produce Comark Instruments?", a: "Comark fabrică termometre digitale de buzunar și industriale, sonde de temperatură interschimbabile și data loggere wireless pentru monitorizare de temperatură și umiditate. Compania a fost fondată în 1961 în Marea Britanie și face parte din Fluke Corporation din 2007." },
       { q: "Cum aleg sonda Comark potrivită pentru o aplicație anume?", a: "Depinde de tipul de măsurătoare — penetrare, suprafață, aer sau imersie — și de domeniul de temperatură necesar. Trimiteți-ne aplicația exactă, domeniul de temperatură și lungimea necesară, iar noi verificăm din catalogul producătorului codul de sondă potrivit." },
-      { q: "Ce data logger Comark aleg pentru monitorizare HACCP continuă?", a: "Seria Diligence WiFi transmite automat citirile către un sistem central, potrivită pentru monitorizare continuă cerută de HACCP. Pentru înregistrare locală pe mai multe canale, fără transmitere live, seria Diligence EV este alternativa." },
+      { q: "Ce data logger Comark aleg pentru monitorizare HACCP continuă?", a: "Seria Diligence WiFi transmite automat citirile către un sistem central, potrivită pentru monitorizare continuă a temperaturii în sisteme HACCP. Pentru înregistrare locală pe mai multe canale, fără transmitere live, seria Diligence EV este alternativa." },
       { q: "Livrați termometre Comark în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația de sonde. Confirmăm termenul exact după ce ne trimiteți aplicația și domeniul de temperatură necesar." }
     ],
     evidenceClass: "market-signal-ro",
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Comark Instruments – About Us", url: "https://www.comarkinstruments.net/about-us/", publisher: "Comark Instruments", accessed: "2026-09-26" },
       { title: "Comark – US Product Range Catalog", url: "https://www.comarkinstruments.net/assets/uploads/2017/04/20534-1-US-Product-Range-Catalog-web.pdf", publisher: "Comark Instruments", accessed: "2026-09-26" }
@@ -325,23 +325,22 @@ Pentru piața din România, gama Comark are sens la unitățile de procesare ali
     headquarters: "Glottertal, Germania",
     overview: `Beha-Amprobe reunește două branduri de instrumente electrice de test — Beha, fondat în 1974 la Glottertal, Germania, și Amprobe, brand american — ambele integrate în Fluke Corporation, Beha din 2003. Gama acoperă multimetre digitale (seriile 15XP-38XR și AM), clampmetre, testere de instalații electrice, trasatoare de cabluri și testere pentru HVAC și vehicule electrice. Pentru România putem oferta din aceste familii pentru tehnicieni electricieni și echipe de mentenanță industrială.
 
-Ce diferențiază gama Beha-Amprobe e acoperirea de la multimetre de bază (seria 15XP-38XR) până la variante cu categorie de siguranță ridicată — trasatorul AT-8000-EUR e evaluat CAT IV 600V, potrivit pentru lucrul pe circuite de distribuție unde riscul de arc electric e mai mare. Gama de testere pentru vehicule electrice (EV-500) și testerele de instalații conforme cu DIN VDE 0113 completează oferta, în aceeași categorie de instrumente electrice de bază cu Chauvin Arnoux.
+Ce diferențiază gama Beha-Amprobe e acoperirea de la multimetre de bază (seria 15XP-38XR) până la trasătoare de cabluri pentru localizarea firelor în tablouri electrice. Gama de testere pentru vehicule electrice (EV-500) și testerele pentru mașini conform DIN VDE 0113 completează oferta, în aceeași categorie de instrumente electrice de bază cu Chauvin Arnoux.
 
 Pentru piața locală, instrumentele Beha-Amprobe au sens la electricieni autorizați, service-uri electrice și echipe de mentenanță din industrie care au nevoie de multimetre și clampmetre de schimb sau de completare a dotării, alături de testere specializate pentru instalații sau vehicule electrice.`,
     certifications: [
-      "DIN VDE 0113 — conformitate pentru testere de instalații industriale",
-      "CAT IV 600V — evaluare de siguranță pentru trasatorul de cabluri AT-8000-EUR"
+      "Testere pentru mașini conform DIN VDE 0113 — categorie din gama producătorului",
     ],
     whyChoose: [
       "Gamă largă de multimetre, de la modele de bază (seria 15XP) până la variante cu funcții extinse (seria AM).",
-      "Trasator de cabluri AT-8000-EUR evaluat CAT IV 600V, pentru lucrul pe circuite de distribuție.",
-      "Testere dedicate pentru vehicule electrice (EV-500) și pentru instalații conform DIN VDE 0113.",
+      "Trasătoare de cabluri pentru localizarea firelor în tablouri electrice.",
+      "Testere dedicate pentru vehicule electrice (EV-500) și testere pentru mașini conform DIN VDE 0113.",
       "Parte din Fluke Corporation, cu istoric separat Beha (Germania, 1974) și Amprobe (SUA)."
     ],
     keyProducts: [
-      { name: "Multimetre Digitale Seriile 15XP-38XR și AM", description: "Familie de multimetre digitale de la 5XP-A și 15XP-B pentru măsurători de bază, la 30XR-A, 34XR-A și 38XR-A cu funcții extinse (test diodă, capacitate, frecvență), până la seria AM-500 la AM-555-EUR pentru utilizatori care au nevoie de rezoluție mai mare sau funcții suplimentare." },
+      { name: "Multimetre Digitale Seriile 15XP-38XR și AM", description: "Familie de multimetre digitale de la 5XP-A și 15XP-B pentru măsurători de bază, la 30XR-A, 34XR-A și 38XR-A cu funcții extinse, până la seria AM-500 la AM-555-EUR pentru utilizatori care au nevoie de rezoluție mai mare sau funcții suplimentare." },
       { name: "Clampmetre și Testere de Putere", description: "Clampmetre digitale pentru măsurarea curentului fără întreruperea circuitului, alături de testere de putere și energie pentru diagnosticarea instalațiilor electrice industriale, utile la depanarea consumurilor anormale sau la verificarea calității alimentării." },
-      { name: "Testere de Instalații și Trasătoare de Cabluri", description: "Testere de instalații electrice conforme cu standardul DIN VDE 0113 pentru echipamente industriale, plus trasătorul AT-8000-EUR, evaluat CAT IV 600V, pentru localizarea firelor și cablurilor în tablouri electrice aglomerate sau instalații de distribuție." },
+      { name: "Testere de Instalații și Trasătoare de Cabluri", description: "Testere pentru mașini din categoria DIN VDE 0113 (de exemplu MT204-S), plus trasătoare de cabluri pentru localizarea firelor și cablurilor în tablouri electrice aglomerate sau instalații de distribuție." },
       { name: "Testere HVAC și pentru Vehicule Electrice", description: "Instrumente ULD-400-EUR pentru detectarea scurgerilor la instalațiile de climatizare și seria EV-500 pentru testarea sistemelor electrice ale vehiculelor electrice și hibride, adaptate la particularitățile tensiunilor înalte din aceste aplicații." }
     ],
     industries: [
@@ -351,14 +350,14 @@ Pentru piața locală, instrumentele Beha-Amprobe au sens la electricieni autori
       "Service auto — testere pentru sisteme electrice ale vehiculelor electrice",
       "Electricieni autorizați — trasătoare de cabluri pentru tablouri aglomerate"
     ],
-    infinitrade: `Putem oferta multimetre, clampmetre și testere Beha-Amprobe prin canale de aprovizionare din rețeaua Fluke, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de model. Nu avem raft propriu pentru fiecare cod; confirmăm din surse publice ale producătorului ce model corespunde categoriei de siguranță și aplicației dumneavoastră — CAT II, III sau IV, tensiunea de lucru. Pentru ofertă, trimiteți-ne tipul de măsurătoare (tensiune, curent, izolație, continuitate), categoria de siguranță necesară și dacă lucrați pe instalații de joasă sau de medie tensiune.`,
+    infinitrade: `Putem oferta multimetre, clampmetre și testere Beha-Amprobe prin canale externe de aprovizionare, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de model. Nu avem raft propriu pentru fiecare cod; confirmăm din surse publice ale producătorului ce model corespunde categoriei de siguranță și aplicației dumneavoastră — CAT II, III sau IV, tensiunea de lucru. Pentru ofertă, trimiteți-ne tipul de măsurătoare (tensiune, curent, izolație, continuitate), categoria de siguranță necesară și dacă lucrați pe instalații de joasă sau de medie tensiune.`,
     limitation: "Nu confirmăm etalonarea aparatelor Beha-Amprobe; certificatele de etalonare se obțin, la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "5XP-A", description: "Multimetru digital de bază" },
       { code: "15XP-B", description: "Multimetru digital cu funcții standard" },
       { code: "30XR-A", description: "Multimetru digital cu funcții extinse" },
-      { code: "33XR-A", description: "Multimetru digital cu test diodă și capacitate" },
-      { code: "34XR-A", description: "Multimetru digital cu măsurare frecvență" },
+      { code: "33XR-A", description: "Multimetru digital Beha-Amprobe" },
+      { code: "34XR-A", description: "Multimetru digital Beha-Amprobe" },
       { code: "35XP-A", description: "Multimetru digital cu funcții standard extinse" },
       { code: "37XR-A", description: "Multimetru digital cu funcții avansate" },
       { code: "38SW-A", description: "Multimetru digital cu comutator rotativ" },
@@ -376,18 +375,18 @@ Pentru piața locală, instrumentele Beha-Amprobe au sens la electricieni autori
       { code: "HD160C", description: "Multimetru digital de precizie, variantă extinsă" },
       { code: "LCR55A", description: "Aparat de măsură LCR pentru inductanță, capacitate, rezistență" },
       { code: "PM51A", description: "Multimetru digital pentru uz general" },
-      { code: "AT-8000-EUR", description: "Trasator de cabluri evaluat CAT IV 600V" },
+      
       { code: "ULD-400-EUR", description: "Detector de scurgeri pentru instalații HVAC" }
     ],
     faq: [
       { q: "Ce produce Beha-Amprobe?", a: "Beha-Amprobe fabrică multimetre digitale, clampmetre, testere de instalații electrice și trasătoare de cabluri, plus instrumente pentru HVAC și vehicule electrice. Brandul reunește Beha (Germania, fondat 1974) și Amprobe (SUA), ambele parte din Fluke Corporation." },
       { q: "Care e diferența dintre seria 15XP-38XR și seria AM de la Beha-Amprobe?", a: "Seria 15XP-38XR acoperă multimetre de bază, de la 5XP-A la 38XR-A, cu funcții progresiv extinse, în timp ce seria AM, de la AM-500 la AM-555-EUR, oferă rezoluție și funcții suplimentare pentru utilizatori mai exigenți." },
-      { q: "Ce trasator de cabluri Beha-Amprobe aleg pentru un tablou electric aglomerat?", a: "AT-8000-EUR este trasătorul evaluat CAT IV 600V din gama Beha-Amprobe, potrivit pentru localizarea firelor pe circuite de distribuție cu risc mai mare de arc electric. Trimiteți-ne tensiunea de lucru pentru a confirma dacă e varianta potrivită." },
+      { q: "Ce trasator de cabluri Beha-Amprobe aleg pentru un tablou electric aglomerat?", a: "Gama Beha-Amprobe include trasătoare de cabluri pentru localizarea firelor în tablouri electrice, de exemplu AT-8020-EUR și AT-8030-EUR. Trimiteți-ne tensiunea de lucru și aplicația pentru a confirma modelul potrivit." },
       { q: "Livrați instrumente Beha-Amprobe în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de model și disponibilitate. Confirmăm termenul exact după ce ne trimiteți tipul de măsurătoare și categoria de siguranță necesară." }
     ],
     evidenceClass: "market-signal-ro",
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Beha-Amprobe – Home", url: "https://www.beha-amprobe.com/", publisher: "Beha-Amprobe", accessed: "2026-09-26" },
       { title: "Beha-Amprobe – Digital Multimeters", url: "https://www.beha-amprobe.com/en/products/digital-multimeters", publisher: "Beha-Amprobe", accessed: "2026-09-26" },
@@ -397,23 +396,23 @@ Pentru piața locală, instrumentele Beha-Amprobe au sens la electricieni autori
   dilo: {
     name: "DILO",
     founded: 1951,
-    headquarters: "Odessa, Florida, SUA",
+    headquarters: "Germania (filiala nord-americană: Odessa, Florida, SUA)",
     overview: `DILO este un producător de echipamente pentru manipularea gazului SF6, înființat în Germania în 1951, cu filiala nord-americană DILO Company Inc. stabilită în 1990 la Odessa, Florida, SUA. Gama acoperă cărucioare de service pentru umplere și evacuare gaz (seriile Micro, Mini, Mega), analizoare de gaz, detectoare de scurgeri și monitoare de densitate. Pentru România putem oferta din aceste familii pentru operatori de echipamente electrice izolate în gaz.
 
-Ce diferențiază DILO e specializarea exclusivă pe ciclul de viață al gazului SF6 — de la cărucioare compacte pentru intervenții mici (seria Micro), la unități mari pentru evacuarea și umplerea celulelor GIS (seria Mega), până la software de monitorizare (Direct-Track) pentru urmărirea calității gazului în timp. Compania oferă și echipamente pentru gaze alternative C4/C5, relevante pe măsură ce operatorii de rețea trec treptat de la SF6 la gaze cu impact redus.
+Ce diferențiază DILO e specializarea pe manipularea gazului SF6 și a gazelor izolante alternative — de la cărucioare compacte pentru intervenții mici (seria Micro), la unități mari pentru evacuarea și umplerea celulelor GIS (seria Mega), până la soluția de inventar digital al gazului Direct-Track. Compania oferă și echipamente pentru gaze izolante alternative, relevante pe măsură ce operatorii de rețea trec treptat de la SF6 la gaze cu impact redus.
 
 Pentru piața din România, echipamentele DILO au sens la operatorii de stații electrice cu echipamente GIS/GIL, la firmele de mentenanță pentru întrerupătoare izolate în gaz și la laboratoarele care verifică periodic calitatea și densitatea gazului SF6 din instalații.`,
     whyChoose: [
       "Cărucioare de service pentru toate scările de lucru — de la intervenții mici la evacuare/umplere celule GIS mari.",
       "Analizoare de gaz SF6 pentru verificarea purității și a conținutului de umiditate direct pe teren.",
-      "Software de monitorizare Direct-Track pentru urmărirea calității gazului la mai multe puncte dintr-o instalație.",
-      "Echipamente pentru gaze alternative C4/C5, relevante pe măsură ce rețelele trec de la SF6."
+      "Soluția Direct-Track pentru inventar digital al gazului, oferită prin partenerul de servicii In-Gas Direct.",
+      "Echipamente pentru gaze izolante alternative, relevante pe măsură ce rețelele trec de la SF6."
     ],
     keyProducts: [
       { name: "Cărucioare de Service pentru Gaz SF6", description: "Familie de cărucioare pentru evacuarea, filtrarea și umplerea cu gaz SF6 a echipamentelor electrice izolate în gaz, de la seria Micro (B160R11) pentru intervenții compacte, la seria Mini (B143R11) pentru lucrări curente, până la seria Mega (L170R01, L400, L600) pentru volume mari la stații GIS." },
       { name: "Analizoare și Monitoare de Gaz", description: "Multi-Analyzer SF6 și Mirror Analyzer SF6 verifică puritatea, conținutul de umiditate și produsele de descompunere ale gazului, iar monitoarele DensiControl DA și IN urmăresc continuu densitatea gazului din compartimentele echipamentelor electrice, semnalând scăderi care indică o posibilă scurgere." },
       { name: "Detectoare de Scurgeri", description: "Leak Pointer SF6 și Leak Spy SF6 localizează punctual scurgerile de gaz de la garnituri și îmbinări, iar Gas Safety Monitor supraveghează continuu concentrația de SF6 din aerul ambiental al camerelor cu echipamente electrice, pentru siguranța personalului de mentenanță." },
-      { name: "Echipamente de Umplere, Cântărire și Monitorizare Software", description: "Regulatoare și cărucioare de umplere, cântare electronice pentru cilindrii SF6 și pompe de vid mobile completează ciclul de manipulare a gazului, iar software-ul Direct-Track centralizează datele de calitate a gazului din mai multe puncte de măsură ale unei instalații." }
+      { name: "Echipamente de Umplere, Cântărire și Monitorizare Software", description: "Regulatoare și cărucioare de umplere, cântare electronice pentru cilindrii SF6 și pompe de vid mobile completează ciclul de manipulare a gazului, iar Direct-Track este soluția DILO de inventar digital al gazului." }
     ],
     industries: [
       "Echipamente electrice izolate în gaz (GIS) — evacuare, umplere și verificare calitate gaz",
@@ -422,7 +421,7 @@ Pentru piața din România, echipamentele DILO au sens la operatorii de stații 
       "Acceleratoare de particule — manipulare gaz izolant pentru instalații specializate",
       "Laboratoare de mentenanță electrică — verificare puritate și localizare scurgeri"
     ],
-    infinitrade: `Putem oferta echipamente DILO pentru manipularea gazului SF6 prin canale de aprovizionare din grupul DILO, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația căruciorului sau a analizorului ales. Nu ținem această gamă pe raft; lucrăm din surse publice ale producătorului pentru a confirma seria potrivită volumului de gaz și tipului de echipament electric deservit. Pentru ofertă, trimiteți-ne tipul de intervenție — evacuare, umplere, analiză sau detectare scurgeri — volumul aproximativ de gaz din compartimentul vizat și dacă aveți deja alte echipamente DILO în dotare.`,
+    infinitrade: `Putem oferta echipamente DILO pentru manipularea gazului SF6 prin canale externe de aprovizionare, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația căruciorului sau a analizorului ales. Nu ținem această gamă pe raft; lucrăm din surse publice ale producătorului pentru a confirma seria potrivită volumului de gaz și tipului de echipament electric deservit. Pentru ofertă, trimiteți-ne tipul de intervenție — evacuare, umplere, analiză sau detectare scurgeri — volumul aproximativ de gaz din compartimentul vizat și dacă aveți deja alte echipamente DILO în dotare.`,
     limitation: "Nu efectuăm noi certificarea sau etalonarea analizoarelor DILO, care rămân în sarcina producătorului sau a unui laborator acreditat pentru gaz SF6.",
     productCodes: [
       { code: "B160R11", description: "Cărucior de service seria Micro pentru intervenții compacte" },
@@ -437,7 +436,7 @@ Pentru piața din România, echipamentele DILO au sens la operatorii de stații 
       { code: "Leak Pointer SF6", description: "Detector portabil de scurgeri gaz SF6" },
       { code: "Leak Spy SF6", description: "Detector de scurgeri gaz SF6 de precizie" },
       { code: "Gas Safety Monitor", description: "Monitor continuu al concentrației de SF6 în aer" },
-      { code: "Direct-Track", description: "Software de monitorizare a calității gazului SF6" },
+      { code: "Direct-Track", description: "Soluție de inventar digital al gazului" },
       { code: "Electronic SF6 Cylinder Weight Scale", description: "Cântar electronic pentru cilindri de gaz SF6" },
       { code: "Mobile Vacuum Pumps", description: "Pompe de vid mobile pentru evacuare gaz" },
       { code: "Filling Regulator", description: "Regulator pentru umplere cu gaz SF6" }
@@ -449,8 +448,8 @@ Pentru piața din România, echipamentele DILO au sens la operatorii de stații 
       { q: "Livrați echipamente DILO în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația aleasă. Confirmăm termenul exact după ce ne trimiteți tipul de intervenție și volumul de gaz din compartimentul vizat." }
     ],
     evidenceClass: "market-signal-ro",
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "DILO – About Us", url: "https://dilo.com/about-us", publisher: "DILO Company, Inc.", accessed: "2026-09-26" },
       { title: "DILO – SF6 Gas Products", url: "https://dilo.com/sf6-gas/products", publisher: "DILO Company, Inc.", accessed: "2026-09-26" }

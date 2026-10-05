@@ -9,7 +9,7 @@ Spre deosebire de producătorii axați exclusiv pe fibră optică, Tempo acoper�
 
 Pentru un electrician sau un tehnician de telecomunicații din România care lucrează atât pe cupru cât și pe fibră, gama Tempo înseamnă un singur furnizor pentru aparatele de trasare de cabluri, kiturile de tonuri și aparatele de fibră folosite la punerea în funcțiune și depanarea rețelelor de date, CATV sau irigații.`,
     whyChoose: [
-      "Gamă unică pentru cupru și fibră — trasare de cabluri, tonuri și sudură de fibră de la același producător",
+      "Gamă pentru cupru și fibră — trasare de cabluri, tonuri și sudură de fibră de la același producător",
       "Localizatoare subterane dedicate — de la kituri simple de tonuri până la aparate pentru cabluri și robinete de irigație",
       "Aparate de fuziune și clivare proprii — pentru echipe care instalează și repară joncțiuni de fibră pe teren",
       "Accesorii și kituri complete — genți, seturi de sonde și adaptoare gândite pentru lucrul zilnic pe teren",
@@ -29,7 +29,7 @@ Pentru un electrician sau un tehnician de telecomunicații din România care luc
       "Instalații electrice de joasă tensiune — trasare circuite cu generator și sondă de ton",
     ],
     infinitrade: `Putem aduce la comandă aparate Tempo Communications de trasare a cablurilor, testare a fibrei optice și localizare a rețelelor îngropate, prin canale de aprovizionare din piața europeană. Nu avem date proprii de stoc pentru această gamă — ce transmitem clientului se bazează pe informațiile publice ale producătorului și pe confirmarea disponibilității la momentul comenzii, cu un termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul aparatului sau al kitului dorit, eventual accesoriile asociate (sonde, adaptoare, baterii) și aplicația exactă — fibră, cupru sau localizare subterană. Nu aducem aceste aparate pe raft dinainte — verificăm disponibilitatea abia la comandă.`,
-    limitation: "Nu putem confirma disponibilitatea imediată a unui model anume din gamă fără verificare punctuală la producător, iar service-ul în garanție rămâne responsabilitatea acestuia; nu ținem pe raft pe rafturi pentru aparatele Tempo.",
+    limitation: "Nu putem confirma disponibilitatea imediată a unui model anume din gamă fără verificare punctuală la producător, iar service-ul în garanție rămâne responsabilitatea acestuia; nu ținem aceste aparate pe raft.",
     productCodes: [
       { code: "OFL100", description: "OTDR pentru testarea traseului de fibră optică" },
       { code: "100XL", description: "localizator vizual de defecte, fibră optică" },
@@ -58,8 +58,8 @@ Pentru un electrician sau un tehnician de telecomunicații din România care luc
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Tempo Communications — Test & Measurement", url: "https://www.tempocom.com/", publisher: "Tempo Communications", accessed: "2026-09-26" },
       { title: "Tempo Communications — Product Sitemap", url: "https://www.tempocom.com/shopify_product-sitemap.xml", publisher: "Tempo Communications", accessed: "2026-09-26" },
@@ -142,7 +142,7 @@ Pentru un electrician autorizat sau o echipă de mentenanță din România, gama
       "Gamă completă de control universal — multimetre, pense ampermetrice și testere de continuitate",
       "Testere dedicate siguranței electrice — controlere de instalații, megohmetre, testere de paratrăsnet",
       "Pense multimetru bi-afișaj TRMS — citire simultană a două mărimi electrice pe teren",
-      "Parte a grupului Chauvin Arnoux — acces la rețeaua de inginerie și piese ale unui producător francez cu peste un secol de istorie",
+      "Parte a grupului francez Chauvin Arnoux, cu peste un secol de istorie",
     ],
     keyProducts: [
       { name: "Pense Multimetru Seria MX 350/355/650/670", description: "Pense ampermetrice cu funcție de multimetru, pentru măsurarea curentului fără întreruperea circuitului, alături de tensiune și rezistență. Gama acoperă modele compacte pentru curenți de până la 400 A AC/DC și modele pentru curenți mai mari, de până la 1000 A AC, folosite la verificarea tablourilor electrice și a instalațiilor industriale." },
@@ -179,14 +179,14 @@ Pentru un electrician autorizat sau o echipă de mentenanță din România, gama
     ],
     faq: [
       { q: "Ce produce brandul Metrix al grupului Chauvin Arnoux?", a: "Metrix produce multimetre, pense multimetru și aparate de verificare a siguranței electrice — controlere de instalații, megohmetre pentru izolație și testere de paratrăsnet — destinate electricienilor și echipelor de mentenanță." },
-      { q: "Cum aleg o pensă multimetru Metrix după cod?", a: "Codul indică plaja de curent și funcțiile disponibile: modelele MX 350/355 acoperă până la 400 A AC/DC pentru uz curent, iar MX 650 merge până la 1000 A AC. Modelele bi-afișaj, precum MX 675, permit citirea simultană a două mărimi." },
+      { q: "Cum aleg o pensă multimetru Metrix după cod?", a: "Plaja de curent diferă de la model la model și se confirmă pe cod, din fișa tehnică: modelele MX 350/355 acoperă până la 400 A AC/DC pentru uz curent, iar MX 650 merge până la 1000 A AC. Modelele bi-afișaj, precum MX 675, permit citirea simultană a două mărimi." },
       { q: "Livrați aparate Metrix în România?", a: "Da, aducem la comandă aparate ale brandului Metrix prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Disponibilitatea exactă a fiecărui model se verifică punctual, fără raft propriu ținut de noi." },
       { q: "Ce trebuie să trimit pentru o ofertă de multimetru Metrix?", a: "Trimiteți codul aparatului (de exemplu MX 23 sau MX 675), funcțiile de măsură necesare — curent, tensiune, izolație — și dacă aveți nevoie de accesorii specifice, pentru a verifica disponibilitatea și a pregăti oferta." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "La marque Metrix — Chauvin Arnoux", url: "https://www.chauvin-arnoux.com/fr/la-societe-nos-marques/la-marque-metrix", publisher: "Chauvin Arnoux", accessed: "2026-09-26" },
       { title: "Pince ampèremétrique - multimètre TRMS AC/DC bi-afficheur MX 675", url: "https://catalog.chauvin-arnoux.com/fr_fr/mx-675.html", publisher: "Chauvin Arnoux", accessed: "2026-09-26" },
@@ -206,7 +206,7 @@ Pentru un laborator de metrologie sau o echipă de mentenanță industrială din
       "Calibrator portabil DPI610E — acoperă domenii de la vid la 1000 bar, cu variantă intrinsec sigură",
       "Calibrator modular DPI620G — combină presiunea cu măsurători electrice într-un singur aparat",
       "Gamă completă de la senzor la calibrator — pentru laboratoare de metrologie și instrumentație de proces",
-      "Parte a grupului Crane Co. — susținere industrială pentru continuitatea gamei și a pieselor",
+      "Parte a grupului Crane Co.",
     ],
     keyProducts: [
       { name: "Calibrator Portabil de Presiune DPI610E", description: "Calibrator portabil pentru presiune pneumatică (vid până la 35 bar) și hidraulică (până la 1000 bar), cu incertitudine anuală totală de până la 0,025% din scara maximă în intervalul de temperatură -10°C până la 50°C. Include barometru intern, comunicație HART și autonomie de peste 60 de ore pe o încărcare. Există variantă intrinsec sigură DPI610E-IS pentru zone Ex." },
@@ -244,8 +244,8 @@ Pentru un laborator de metrologie sau o echipă de mentenanță industrială din
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Druck - Precision Pressure Measurement Solutions", url: "https://druck.com/", publisher: "Druck", accessed: "2026-09-26" },
       { title: "DPI610E Portable Pressure Calibrator", url: "https://druck.com/product/dpi610e-dpi610e-is-portable-pressure-calibrator/", publisher: "Druck", accessed: "2026-09-26" },

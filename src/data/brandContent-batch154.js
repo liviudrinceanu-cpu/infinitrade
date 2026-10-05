@@ -5,7 +5,7 @@ export const brandContentBatch154 = {
     name: "Trend Networks",
     overview: `Trend Networks este un producător britanic specializat în aparate de testare și certificare pentru cabluri de cupru, fibră optică și rețele de date, folosite de instalatori și tehnicieni de mentenanță pentru verificarea infrastructurii de comunicații. Gama acoperă certificatoare de cablu de cupru, calificatoare de semnal pentru rețele de 10G, testere de fibră optică, analizoare portabile de rețea activă și testere dedicate sistemelor CCTV/PoE. Prin canalele noastre de aprovizionare putem oferta principalele familii de produse din portofoliul curent al producătorului, pentru proiecte de cablare structurată și mentenanță de rețea din România.
 
-Seria LanTEK IV certifică legături de cablu de cupru și fibră până la categoria 8, cu rapoarte de conformitate cerute la recepția instalațiilor, în timp ce familia SignalTEK califică rapid o legătură de cupru, fibră sau Wi-Fi înainte de certificarea completă, cu suport pentru viteze de 10G. Testerele NaviTEK și UniPRO diagnostichează probleme de rețea activă — adresare IP, VLAN-uri, conectivitate la switch — completând partea de certificare pasivă cu depanare la nivel de rețea. Fiecare familie acoperă un pas distinct din ciclul instalare-verificare-mentenanță, nu se suprapun ca funcție.
+Seria LanTEK IV certifică legături de cablu de cupru și fibră până la categoria 8, cu rapoarte de conformitate cerute la recepția instalațiilor, în timp ce familia SignalTEK califică rapid o legătură de cupru, fibră sau Wi-Fi înainte de certificarea completă, cu suport pentru viteze de 10G. Testerele NaviTEK diagnostichează probleme de rețea și de cablu, iar UniPRO este un tester de transmisie pentru telecomunicații, completând partea de certificare pasivă cu depanare la nivel de rețea. Fiecare familie acoperă un pas distinct din ciclul instalare-verificare-mentenanță, nu se suprapun ca funcție.
 
 Are sens pentru integratori de cablare structurată, echipe de mentenanță IT și instalatori de sisteme de securitate care lucrează la recepția și verificarea rețelelor de date, acolo unde certificarea documentată a legăturilor de cablu contează pentru garanția lucrării executate.`,
     whyChoose: [
@@ -19,7 +19,7 @@ Are sens pentru integratori de cablare structurată, echipe de mentenanță IT �
     keyProducts: [
       { name: "Certificatoare de Cablu LanTEK IV", description: "Familie de certificatoare de cablu de cupru și fibră, cu capacitate de certificare până la categoria 8 și rapoarte de testare conform standardelor din domeniu. Utilizate la recepția instalațiilor de cablare structurată din clădiri de birouri, centre de date și rețele industriale, acolo unde antreprenorul trebuie să documenteze conformitatea fiecărei legături." },
       { name: "Calificatoare SignalTEK (10G/QT/NT/CT)", description: "Aparate de calificare rapidă pentru legături de cupru, fibră și Wi-Fi, cu variante pentru rețele de 1G și 10G. Verifică viteza reală de transmisie, mapările de cablu și conectivitatea end-to-end, utile la punerea în funcțiune a rețelelor înainte de certificarea completă." },
-      { name: "Testere de Rețea NaviTEK și UniPRO", description: "Testere portabile pentru depanarea rețelelor active — verifică adresare IP, VLAN-uri, conectivitate la switch și trafic — folosite de echipele de mentenanță pentru localizarea rapidă a problemelor, distinct de certificarea cablării pasive." },
+      { name: "Testere de Rețea NaviTEK și UniPRO", description: "Testere portabile pentru depanarea rețelelor — NaviTEK pentru rețea și cablu (varianta IE, pentru rețele industriale), UniPRO pentru transmisie în telecomunicații — folosite de echipele de mentenanță pentru localizarea rapidă a problemelor, distinct de certificarea cablării pasive." },
       { name: "Testere de Fibră FiberTEK IV și FiberMASTER", description: "Gamă de teste pentru fibră optică, de la verificarea pierderilor de inserție până la funcții OTDR pentru localizarea defectelor pe trasee lungi, relevante pentru rețele cu backbone optic sau distribuție de tip FTTx." },
       { name: "SecuriTEST IP și PoE Pro", description: "Testere dedicate sistemelor CCTV pe IP și verificării alimentării Power over Ethernet, folosite la punerea în funcțiune a camerelor de supraveghere și a echipamentelor alimentate prin cablul de date." },
     ],
@@ -46,7 +46,7 @@ Are sens pentru integratori de cablare structurată, echipe de mentenanță IT �
       { code: "LanXPLORER Pro", description: "Analizor portabil de rețea activă" },
       { code: "NaviTEK NT", description: "Tester de rețea activă, IP și conectivitate" },
       { code: "NaviTEK IE", description: "Tester de rețea industrială Ethernet" },
-      { code: "UniPRO MGIG1", description: "Tester de rețea Gigabit, diagnostic conectivitate" },
+      { code: "UniPRO MGIG1", description: "Tester de transmisie pentru telecomunicații" },
       { code: "SecuriTEST IP", description: "Tester dedicat sistemelor CCTV pe IP" },
     ],
     faq: [
@@ -54,12 +54,12 @@ Are sens pentru integratori de cablare structurată, echipe de mentenanță IT �
       { q: "Ce diferență este între SignalTEK și LanTEK?", a: "SignalTEK califică rapid o legătură — viteză reală, mapare, conectivitate — înainte de punerea în funcțiune, în timp ce LanTEK IV oferă certificarea completă, documentată, cerută la recepția finală a lucrării de cablare." },
       { q: "Livrați aparate Trend Networks în România și cât durează?", a: "Aducem aparatele Trend Networks la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului privind disponibilitatea modelului cerut." },
       { q: "Ce trebuie să trimit pentru o ofertă de aparate Trend Networks?", a: "Aveți nevoie de modelul exact, de exemplu SignalTEK QT sau FiberTEK IV, de tipul de cablare testată (cupru sau fibră) și de eventualele accesorii sau licențe software dorite, pentru a primi o ofertă corectă." },
-      { q: "Ce echivalent are seria NaviTEK pentru depanare de rețea?", a: "NaviTEK acoperă testarea rețelelor active — IP, VLAN, conectivitate la switch — o funcție diferită de certificarea pasivă a cablului, oferită de familia LanTEK din același portofoliu Trend Networks." },
+      { q: "Ce rol are seria NaviTEK în depanarea rețelelor?", a: "NaviTEK acoperă testarea rețelelor și a cablurilor, inclusiv în medii industriale (varianta IE) — o funcție diferită de certificarea pasivă a cablului, oferită de familia LanTEK din același portofoliu Trend Networks." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "TREND Networks — Home", url: "https://www.trend-networks.com/", publisher: "TREND Networks", accessed: "2026-09-26" },
       { title: "Copper Data Cable Tester", url: "https://www.trend-networks.com/product-category/copper-data-cable-tester/", publisher: "TREND Networks", accessed: "2026-09-26" },
@@ -83,10 +83,10 @@ Are sens pentru service-uri electrice, echipe HVAC și laboratoare de teren din 
       "Game dedicate pentru calitatea aerului și a apei, utile echipelor de mediu și celor care fac verificări HVAC",
     ],
     keyProducts: [
-      { name: "Multimetre și Clești Ampermetrici", description: "Clești ampermetrici AC/DC cu domenii de la 60A (MA63) la 1000A (PQ2071, 380976-K), pentru măsurători pe instalații monofazate și trifazate. Modelele mici, precum MA120, adaugă funcția de detector de tensiune fără contact, utilă la verificarea rapidă a prezenței tensiunii înainte de intervenție." },
+      { name: "Multimetre și Clești Ampermetrici", description: "Clești ampermetrici cu domenii de la 60A AC/DC (MA63) la 1000A AC (PQ2071, 380976-K), pentru măsurători pe instalații monofazate și trifazate. Modelele mici, precum MA120, adaugă funcția de detector de tensiune, utilă la verificarea rapidă a prezenței tensiunii înainte de intervenție." },
       { name: "Multimetre de Buzunar și Testere de Priză", description: "Multimetre compacte precum DM220 și 381676A, plus testere de priză (ET16, ET11) și de continuitate (CT20), gândite pentru verificări rapide de electrician — prezența tensiunii, continuitatea unui circuit sau starea unei prize cu împământare." },
-      { name: "Instrumente de Temperatură și Umiditate", description: "Higrometre digitale (RH250W, 445814, 445713) și dataloggere USB de umiditate/temperatură (RHT10, RHT20, RHT30), cu memorie de până la 16.000 de citiri și rată de eșantionare programabilă, pentru monitorizare pe durate lungi în depozite sau spații climatizate." },
-      { name: "Controlere PID și Termometre cu Infraroșu", description: "Controlere PID de proces în format 1/16 DIN (48VFL13) și 1/4 DIN (96VFL11), cu ieșire pe releu sau curent 4-20 mA, alături de termometre cu laser dublu (IR320) pentru măsurători de temperatură fără contact." },
+      { name: "Instrumente de Temperatură și Umiditate", description: "Higrometre digitale (RH250W, 445814, 445713) și dataloggere USB de umiditate/temperatură (RHT10, RHT20, RHT30), modelul RHT20 având memorie de până la 16.000 de citiri și rată de eșantionare programabilă, pentru monitorizare pe durate lungi în depozite sau spații climatizate." },
+      { name: "Controlere PID și Termometre cu Infraroșu", description: "Controlere PID de proces (48VFL13, 96VFL11), cu format și ieșiri confirmate pe cod din documentația Extech, alături de termometre cu laser dublu (IR320) pentru măsurători de temperatură fără contact." },
     ],
     industries: [
       "Service electric — verificarea instalațiilor cu clești ampermetrici și multimetre de teren",
@@ -111,8 +111,8 @@ Are sens pentru service-uri electrice, echipe HVAC și laboratoare de teren din 
       { code: "VT30", description: "Tester de tensiune multifuncțional cu LCD" },
       { code: "ET11", description: "Tester GFCI pentru priză de tip B" },
       { code: "380260", description: "Megohmmetru digital cu autoranging" },
-      { code: "48VFL13", description: "Controler PID 1/16 DIN, ieșire 4-20 mA" },
-      { code: "96VFL11", description: "Controler PID 1/4 DIN, două ieșiri releu" },
+      { code: "48VFL13", description: "Controler PID de proces" },
+      { code: "96VFL11", description: "Controler PID de proces" },
       { code: "RH250W", description: "Higrotermometru cu conectivitate la aplicație mobilă" },
       { code: "RHT10", description: "Datalogger USB umiditate și temperatură" },
       { code: "RHT20", description: "Datalogger cu până la 16.000 de citiri" },
@@ -127,8 +127,8 @@ Are sens pentru service-uri electrice, echipe HVAC și laboratoare de teren din 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Extech Instruments — Home", url: "https://www.extech.com/", publisher: "Extech Instruments", accessed: "2026-09-26" },
       { title: "Electrical Tools", url: "https://www.extech.com/browse/electrical-tools/", publisher: "Extech Instruments", accessed: "2026-09-26" },
@@ -140,17 +140,17 @@ Are sens pentru service-uri electrice, echipe HVAC și laboratoare de teren din 
     name: "Radian Research",
     founded: 1982,
     headquarters: "Lafayette, Indiana, SUA",
-    overview: `Radian Research este un producător american, cu sediul în Lafayette, Indiana, specializat din 1982 în standarde de referință pentru energie electrică și sisteme de testare a contoarelor de energie. Compania este deținută integral de angajați printr-un plan ESOP din 2008 și furnizează echipamente către companii de distribuție a energiei, producători de contoare și institute naționale de metrologie. Din gama sa putem oferta standardele de referință și bancurile de test folosite la verificarea periodică a contoarelor de energie electrică.
+    overview: `Radian Research este un producător american, cu sediul în Lafayette, Indiana, specializat de peste 40 de ani în standarde de referință pentru energie electrică și sisteme de testare a contoarelor de energie. Compania se prezintă ca firmă deținută de angajați și furnizează echipamente către companii de distribuție a energiei, producători de contoare și institute naționale de metrologie. Din gama sa putem oferta standardele de referință și bancurile de test folosite la verificarea periodică a contoarelor de energie electrică.
 
-Portofoliul acoperă trei paliere tehnice: standarde de referință monofazate (seria RX-10/RX-11/RX-15) și trifazate (RX-30/RX-31/RX-33) pentru calibrarea altor instrumente de măsură a energiei, bancuri automate de testare a contoarelor (seria WECO 4050X/4150X/4330X) pentru verificarea în masă la nivel de depozit sau laborator, și analizoare portabile de site (RW-30X/RW-31X, Bantam Plus) pentru diagnosticarea contoarelor direct la punctul de măsură. Producătorul deține certificări ISO 9001:2015 și ISO/IEC 17025:2017, relevante pentru laboratoarele care trebuie să demonstreze trasabilitatea metrologică a echipamentului de testare.
+Portofoliul acoperă trei paliere tehnice: standarde de referință monofazate (seria RX-10/RX-11/RX-15) și trifazate (RX-30/RX-31/RX-33) pentru calibrarea altor instrumente de măsură a energiei, bancuri automate de testare a contoarelor (seria WECO 4050X/4150X/4330X) pentru verificarea în masă la nivel de depozit sau laborator, și analizoare portabile de site (RW-30X/RW-31X, Bantam Plus) pentru diagnosticarea contoarelor direct la punctul de măsură. Standardele de referință sunt destinate laboratoarelor care trebuie să demonstreze trasabilitatea metrologică a echipamentului de testare; certificările producătorului se confirmă din documentația Radian Research.
 
 Are sens pentru laboratoare de metrologie, distribuitori de energie electrică și producători de contoare din România care trebuie să verifice sau să calibreze periodic contoare de energie conform cerințelor de acuratețe impuse de reglementator, fără să dezvolte intern un banc de test propriu.`,
     whyChoose: [
       "Standarde de referință monofazate și trifazate, de la RX-10 la RX-33, pentru calibrarea altor instrumente de măsură a energiei electrice",
       "Bancuri automate de testare a contoarelor din seria WECO, pentru verificare în volum, în laborator sau depozit de contoare",
       "Analizoare portabile de site (RW-30X, Bantam Plus) pentru diagnosticarea contoarelor direct la locul de instalare",
-      "Certificări ISO 9001:2015 și ISO/IEC 17025:2017, relevante pentru trasabilitatea metrologică cerută de reglementator",
-      "Companie deținută integral de angajați printr-un plan ESOP, cu producție concentrată în statul Indiana, SUA",
+      "Standarde de referință pentru trasabilitate metrologică, utilizate de laboratoare și companii de distribuție",
+      "Companie deținută de angajați, cu sediul în Lafayette, Indiana, SUA",
     ],
     keyProducts: [
       { name: "Standarde de Referință Monofazate RX-10/RX-11/RX-15", description: "Standarde portabile folosite ca referință de acuratețe la calibrarea contoarelor de energie monofazate și a altor instrumente de măsură din laborator sau din teren, cu niveluri de precizie diferite în funcție de model." },
@@ -165,30 +165,30 @@ Are sens pentru laboratoare de metrologie, distribuitori de energie electrică �
       "Laboratoare de metrologie — calibrare cu standarde de referință trasabile",
       "Institute naționale de metrologie — verificare la cel mai înalt nivel de acuratețe",
     ],
-    certifications: [ "ISO 9001:2015 — management al calității", "ISO/IEC 17025:2017 — competența laboratoarelor de testare și calibrare" ],
+    certifications: [  ],
     infinitrade: `Putem oferta standardele de referință și bancurile de testare Radian Research pe baza informațiilor publice de pe site-ul producătorului — fără date proprii de stoc pentru aceste echipamente specializate. Pentru o ofertă, aveți nevoie de modelul exact (de exemplu RX-30 sau WECO 4150X) și de aplicația de testare vizată: monofazat, trifazat sau bancuri de volum. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni; pentru sisteme complexe, termenul poate depinde de configurația cerută de laborator.`,
     limitation: "Nu oferim servicii proprii de etalonare pentru aceste standarde; certificatele de etalonare rămân disponibile la cerere de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "WECO 4050X", description: "Banc automat de testare contoare de energie" },
-      { code: "WECO 4150X", description: "Banc automat de testare contoare, capacitate extinsă" },
-      { code: "WECO 4330X", description: "Banc automat de testare contoare, configurație mare" },
+      { code: "WECO 4150X", description: "Banc automat de testare contoare" },
+      { code: "WECO 4330X", description: "Banc automat de testare contoare" },
       { code: "RW-30X", description: "Analizor portabil de site, trei faze" },
       { code: "RW-31X", description: "Analizor portabil de site pentru contoare instalate" },
       { code: "Bantam Plus", description: "Sistem portabil de testare a contorului la fața locului" },
       { code: "RS-933", description: "Sistem automat de calibrare Syntron" },
       { code: "RX-30", description: "Standard de referință trifazat" },
-      { code: "RX-31", description: "Standard de referință trifazat, precizie extinsă" },
-      { code: "RX-33", description: "Standard de referință trifazat de laborator" },
+      { code: "RX-31", description: "Standard de referință trifazat" },
+      { code: "RX-33", description: "Standard de referință trifazat" },
       { code: "RX-10", description: "Standard de referință monofazat portabil" },
-      { code: "RX-11", description: "Standard de referință monofazat, precizie ridicată" },
-      { code: "RX-15", description: "Standard de referință monofazat de laborator" },
+      { code: "RX-11", description: "Standard de referință monofazat" },
+      { code: "RX-15", description: "Standard de referință monofazat" },
       { code: "RD-22", description: "Standard de transfer primar" },
       { code: "WATT-Net", description: "Software de gestiune date de test și rapoarte" },
-      { code: "Powermetrix 6618A", description: "Instrument de măsură a puterii electrice" },
-      { code: "WPG-1", description: "Generator de putere pentru testare contoare" },
-      { code: "MPG-3", description: "Generator portabil de mărimi electrice de test" },
-      { code: "SPR-1", description: "Standard de referință pentru aplicații de site" },
-      { code: "WECO 9200", description: "Sistem de testare contoare de energie" },
+      { code: "Powermetrix 6618A", description: "Tester portabil de contoare pentru teren" },
+      { code: "WPG-1", description: "Generator wireless de impulsuri pentru contoare" },
+      { code: "MPG-3", description: "Generator wireless de impulsuri pentru contoare" },
+      { code: "SPR-1", description: "Releu de izolare a impulsurilor" },
+      { code: "WECO 9200", description: "Placă de sarcină pentru preîncălzirea contoarelor" },
     ],
     faq: [
       { q: "Ce produce Radian Research?", a: "Radian Research produce standarde de referință pentru energie electrică și sisteme de testare a contoarelor de energie, folosite de laboratoare de metrologie, distribuitori și producători de contoare pentru verificarea acurateței de măsură." },
@@ -199,8 +199,8 @@ Are sens pentru laboratoare de metrologie, distribuitori de energie electrică �
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "About Radian Research", url: "https://www.radianresearch.com/about/", publisher: "Radian Research", accessed: "2026-09-26" },
       { title: "Radian Products", url: "https://www.radianresearch.com/radian-products/", publisher: "Radian Research", accessed: "2026-09-26" },
@@ -212,7 +212,7 @@ Are sens pentru laboratoare de metrologie, distribuitori de energie electrică �
     headquarters: "Holzkirchen, Germania",
     overview: `Ahlborn este un producător german de familie, cu sediul la Holzkirchen, lângă München, specializat în instrumente de măsură și sisteme de achiziție de date sub marca ALMEMO. Sistemul ALMEMO se bazează pe conectori inteligenți care recunosc automat tipul de senzor conectat, ceea ce permite combinarea liberă a peste 60 de tipuri de măsurare — temperatură, umiditate, presiune, debit, mărimi electrice — pe același instrument de bază. Din gama Ahlborn putem oferta atât instrumentele de măsură portabile, cât și dataloggerele multicanal pentru monitorizare continuă.
 
-Diferența tehnică față de un data logger obișnuit stă în modularitate: același aparat de bază, de exemplu ALMEMO 710 sau seria 2590/2690/2890, acceptă orice combinație de conectori de senzor din portofoliu, fără reconfigurare de firmware, ceea ce reduce numărul de aparate distincte necesare într-un laborator sau pe un șantier de măsurători. Producătorul operează și un laborator de calibrare acreditat DAkkS conform ISO/IEC 17025, pentru temperatură, presiune, umiditate, viteza aerului și mărimi electrice — relevant pentru utilizatorii care au nevoie de trasabilitate metrologică documentată.
+Diferența tehnică față de un data logger obișnuit stă în modularitate: același aparat de bază, de exemplu ALMEMO 710 sau seria 2590/2690/2890, acceptă conectori de senzor din portofoliul ALMEMO (senzorii digitali D7 se conectează doar la intrări V7), ceea ce reduce numărul de aparate distincte necesare într-un laborator sau pe un șantier de măsurători. Producătorul operează și un laborator de calibrare acreditat DAkkS conform ISO/IEC 17025, pentru temperatură, presiune, umiditate, viteza aerului și mărimi electrice — relevant pentru utilizatorii care au nevoie de trasabilitate metrologică documentată.
 
 Are sens pentru laboratoare de cercetare, echipe de mentenanță industrială și auditori energetici din România care fac măsurători multi-parametru (temperatură, umiditate, debit) și preferă un singur sistem de instrumente compatibile între ele, în locul mai multor aparate dedicate de la producători diferiți.`,
     whyChoose: [
@@ -220,7 +220,7 @@ Are sens pentru laboratoare de cercetare, echipe de mentenanță industrială ș
       "Peste 60 de tipuri de măsurare disponibile pe același instrument de bază, util pentru laboratoare cu aplicații variate",
       "Laborator de calibrare acreditat DAkkS conform ISO/IEC 17025, pentru temperatură, presiune, umiditate și mărimi electrice",
       "Dataloggere multicanal din seria 2690/2890 pentru monitorizare continuă pe termen lung, cu memorie internă",
-      "Producție de familie, concentrată la Holzkirchen, Germania, cu tehnologie de conectori inteligenți rafinată de peste două decenii",
+      "Companie germană de familie, cu sediul la Holzkirchen, care folosește conectori inteligenți pentru senzori de peste două decenii",
     ],
     keyProducts: [
       { name: "Instrumente de Măsură Portabile ALMEMO (710, 104, 204)", description: "Instrumente de măsură de mână cu unul sau mai multe canale, compatibile cu întreaga gamă de conectori inteligenți ALMEMO, folosite pentru măsurători punctuale de temperatură, umiditate sau alți parametri direct pe teren." },
@@ -266,8 +266,8 @@ Are sens pentru laboratoare de cercetare, echipe de mentenanță industrială ș
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "About Ahlborn", url: "https://www.ahlborn.com/en/company/about-ahlborn", publisher: "Ahlborn Mess- und Regelungstechnik GmbH", accessed: "2026-09-26" },
       { title: "Data Logger & Measuring Instruments", url: "https://www.ahlborn.com/en/products/data-logger-measuring-instruments", publisher: "Ahlborn Mess- und Regelungstechnik GmbH", accessed: "2026-09-26" },
@@ -288,13 +288,13 @@ Are sens pentru laboratoare de înaltă tensiune, producători de echipamente el
       "Sistem UHVDC de până la 1800 kVDC, pentru teste pe transformatoare și izolatori de foarte înaltă tensiune",
       "Testere hipot portabile precum 100HVT-DI, cu ecran tactil color și transfer de date prin USB sau aplicație dedicată",
       "Localizatoare de defecte de cablu (CF30, CF70, X-WAVE) pentru identificarea rapidă a punctului de defect pe rețele de medie tensiune",
-      "Parte din grupul Hubbell, cu rețea internațională de distribuție a pieselor și suportului tehnic",
+      "Parte din grupul Hubbell, prezent în peste 100 de țări",
     ],
     keyProducts: [
       { name: "Sistem Modular DC 8000 Series", description: "Sistem cascadabil de testare dielectrică DC, cu module individuale de 60 kV/16 mA și configurații de la 60 la 300 kV (8060PL până la 8300PL), folosit pentru teste hipot pe cabluri, switchgear, motoare și generatoare, cu polaritate reversibilă." },
-      { name: "Sistem Ultra Înaltă Tensiune UHVDC", description: "Sistem construit din module standard de 400 sau 600 kV DC, cu ieșiri de 400–1800 kVDC și ripple sub 3%, pentru teste de izolație pe transformatoare, bușoane și cabluri de foarte înaltă tensiune." },
+      { name: "Sistem Ultra Înaltă Tensiune UHVDC", description: "Sistem modular cu ieșiri de până la 1800 kVDC, cu configurația confirmată pe model, pentru teste de izolație pe transformatoare, bușoane și cabluri de foarte înaltă tensiune." },
       { name: "Sistem AC Dielectric 700-DI", description: "Sistem de testare AC cu tensiune de ieșire ajustabilă continuu, disponibil în mai multe game de putere, pentru teste dielectrice pe transformatoare, cabluri și aparataj de comutație conform standardelor din domeniu." },
-      { name: "Testere Hipot Portabile 100HVT-DI și 7BT60", description: "Testere portabile pentru teste de rezistență a izolației — 100HVT-DI la 100 kV cu ecran tactil color, 7BT60 dedicat testării întrerupătoarelor cu vid la 60 kV — gândite pentru lucru pe teren, cu carcasă rezistentă." },
+      { name: "Testere Hipot Portabile 100HVT-DI și 7BT60", description: "Testere portabile pentru teste dielectrice (hipot) — 100HVT-DI la 100 kV AC cu ecran tactil color, 7BT60 dedicat testării întrerupătoarelor cu vid la 60 kV — gândite pentru lucru pe teren, cu carcasă rezistentă." },
       { name: "Localizatoare de Defecte de Cablu CF30/CF70 și X-WAVE", description: "Echipamente de tip thumper (CF30 la 30 kV, CF70 la 70 kV) și localizator portabil X-WAVE pentru identificarea punctului exact de defect pe cabluri de medie tensiune, reducând timpul de intervenție la rețelele subterane." },
     ],
     industries: [
@@ -329,8 +329,8 @@ Are sens pentru laboratoare de înaltă tensiune, producători de echipamente el
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hipotronics", url: "https://www.hubbell.com/hipotronics/en", publisher: "Hubbell Incorporated", accessed: "2026-09-26" },
       { title: "Modular High Voltage DC Hipot Tester | 8000 Series", url: "https://www.hubbell.com/hipotronics/en/products/modular-high-voltage-dc-hipot-tester/p/4529328", publisher: "Hubbell Incorporated", accessed: "2026-09-26" },
@@ -350,7 +350,7 @@ Are sens pentru laboratoare de testare a bateriilor, linii de producție din e-m
       "Game industriale EA-PU/PUB/PUL 10000 cu puteri de 30–60 kW per unitate, pentru linii de testare la scară",
       "Sisteme dedicate de testare a bateriilor (EA-BTS, EA-BT, EA-BIM) pentru caracterizarea celulelor și pachetelor de baterii",
       "Sarcini electronice regenerative care reinjectează energia absorbită în rețea, în loc să o disipe termic",
-      "Integrare în portofoliul Tektronix, cu acces la rețeaua de suport tehnic și service a grupului",
+      "Integrat în portofoliul Tektronix",
     ],
     keyProducts: [
       { name: "Surse Bidirecționale EA-PSB 10000/20000", description: "Surse DC bidirecționale cu puteri de la 1,5 la 30 kW per canal și tensiuni de până la 2000 V, capabile să recupereze energia primită de la sarcină și să o reinjecteze în rețea cu eficiență de peste 96%, folosite la testarea bateriilor." },
@@ -367,8 +367,8 @@ Are sens pentru laboratoare de testare a bateriilor, linii de producție din e-m
     infinitrade: `Putem oferta sursele de alimentare și sarcinile electronice EA Elektro-Automatik pe baza informațiilor publice din portofoliul actual, disponibil astăzi sub marca Tektronix — fără date proprii de stoc pentru aceste echipamente. Pentru o ofertă, avem nevoie de puterea, tensiunea și curentul necesare (de exemplu un rack PUB de 30 kW sau o sursă de bancă) și de aplicația vizată. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni la comandă.`,
     limitation: "Nu putem confirma disponibilitatea fiecărei variante de tensiune și curent din cele aproximativ 50 de configurații industriale fără o cerere punctuală trimisă către producător.",
     productCodes: [
-      { code: "EA-PSB 10000 2U", description: "Sursă bidirecțională, 1,5-3 kW, până la 1500 V" },
-      { code: "EA-PSB 10000 3U", description: "Sursă bidirecțională, 5-10 kW" },
+      { code: "EA-PSB 10000 2U", description: "Sursă bidirecțională, 1,5-3 kW" },
+      { code: "EA-PSB 10000 3U", description: "Sursă bidirecțională, 5-15 kW" },
       { code: "EA-PSB 10000 4U", description: "Sursă bidirecțională, 30 kW, până la 2000 V" },
       { code: "EA-PSB 20000 3U", description: "Sursă bidirecțională cu trei canale independente" },
       { code: "EA-PSB 20000 4U", description: "Sursă bidirecțională trei canale, 10 kW/canal" },
@@ -381,7 +381,7 @@ Are sens pentru laboratoare de testare a bateriilor, linii de producție din e-m
       { code: "EA-ELR 21000", description: "Sistem dinamic de testare cu sarcină regenerativă" },
       { code: "EA-BT 20000 Series", description: "Tester de baterii, canale independente" },
       { code: "EA-BIM 20000 Series", description: "Metru de impedanță pentru baterii" },
-      { code: "EA-SCB", description: "Cutie de conectare în serie pentru module" },
+      { code: "EA-SCB", description: "Cutie de conectare în serie a mai multor dispozitive EA, pentru creșterea tensiunii" },
     ],
     faq: [
       { q: "Ce produce brandul EA Elektro-Automatik?", a: "EA Elektro-Automatik produce surse de alimentare DC programabile, unități industriale de putere și sarcini electronice regenerative, astăzi integrate în portofoliul Tektronix, pentru laboratoare și linii de testare industriale." },
@@ -392,8 +392,8 @@ Are sens pentru laboratoare de testare a bateriilor, linii de producție din e-m
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "EA Elektro-Automatik | Tektronix", url: "https://www.tek.com/en/products/ea", publisher: "Tektronix", accessed: "2026-09-26" },
       { title: "EA Elektro-Automatik Industrial Series", url: "https://www.tek.com/en/products/ea/ea-elektro-automatik-industrial-series", publisher: "Tektronix", accessed: "2026-09-26" },
@@ -405,7 +405,7 @@ Are sens pentru laboratoare de testare a bateriilor, linii de producție din e-m
     name: "Land Instruments",
     overview: `Land Instruments, cunoscut și ca AMETEK Land, este un producător cu peste 75 de ani de activitate în măsurarea temperaturii fără contact, parte a grupului AMETEK. Gama acoperă pirometre infraroșu pentru puncte fixe, camere de imagistică termică pentru linii de producție, scanere liniare de temperatură și analizoare de gaze de ardere pentru monitorizarea emisiilor. Din portofoliul Land putem oferta atât pirometrele portabile, cât și sistemele fixe de monitorizare montate pe linia de proces.
 
-Tehnic, gama de pirometre SPOT+ vine în variante dedicate — SPOT+ AL pentru producția de aluminiu, SPOT+ GS pentru bandă de oțel acoperită, SPOT+ MM pentru metal lichid la turnare — fiecare cu algoritmi de măsură calibrați pentru materialul respectiv, nu doar o gamă generică de temperatură. Camerele termice acoperă domenii de la infraroșu apropiat până la infraroșu de undă lungă (LWIR-640, între -20°C și 1500°C) și mediu (MWIR, până la 1800°C), iar partea de monitorizare a emisiilor (seria FGA, monitorul de opacitate 4500 MkIII) e construită conform unor standarde de mediu recunoscute în domeniu.
+Tehnic, gama de pirometre SPOT+ vine în variante dedicate — SPOT+ AL pentru producția de aluminiu, SPOT+ GS pentru bandă de oțel acoperită, SPOT+ MM pentru metal lichid la turnare — fiecare cu algoritmi de măsură calibrați pentru materialul respectiv, nu doar o gamă generică de temperatură. Camerele termice acoperă domenii de la infraroșu apropiat până la infraroșu de undă lungă (LWIR-640) și mediu (MWIR), cu domeniile de temperatură confirmate pe model, iar partea de monitorizare a emisiilor (seria FGA, monitorul de opacitate 4500 MkIII) e construită conform unor standarde de mediu recunoscute în domeniu.
 
 Are sens pentru oțelării, turnătorii de aluminiu, fabrici de sticlă și centrale energetice din România care au nevoie de măsurare de temperatură fără contact pe linii de producție fierbinți sau de monitorizare continuă a emisiilor, acolo unde un termocuplu de contact nu rezistă sau nu poate fi montat.`,
     whyChoose: [
@@ -413,12 +413,12 @@ Are sens pentru oțelării, turnătorii de aluminiu, fabrici de sticlă și cent
       "Camere termice cu domenii de la infraroșu apropiat până la LWIR, pentru monitorizare continuă pe linii de producție fierbinți",
       "Analizoare de gaze de ardere și monitoare de opacitate pentru raportarea emisiilor conform standardelor din domeniu",
       "Peste 75 de ani de experiență în măsurarea temperaturii fără contact, cu laboratoare de calibrare acreditate ISO 17025",
-      "Parte din grupul AMETEK, cu acces la rețeaua de suport tehnic și piese de schimb la nivel global",
+      "Parte din grupul AMETEK",
     ],
     keyProducts: [
       { name: "Pirometre SPOT+ pe Aplicație (AL, GS, MM, TMT)", description: "Familie de pirometre infraroșu cu variante dedicate — aluminiu (AL), bandă de oțel acoperită (GS), metal lichid la turnare (MM), temperatura metalului în țevi (TMT) — fiecare cu algoritm de măsură calibrat pentru comportamentul optic al materialului țintă." },
-      { name: "Camere de Imagistică Termică LWIR-640 și MWIR", description: "Camere termice cu rezoluție 640×480 pixeli, LWIR-640 acoperind domeniul -20 până la 1500°C, iar MWIR acoperind 300–1800°C, folosite pentru monitorizare continuă pe linii de producție cu temperaturi ridicate." },
-      { name: "Scanere Liniare LSP-HD și Sistem System 4", description: "Scaner liniar de temperatură de înaltă rezoluție pentru profiluri termice pe lățimea unei benzi de produs, alături de sistemul modular System 4 cu elemente de măsură interschimbabile pentru domenii largi de temperatură." },
+      { name: "Camere de Imagistică Termică LWIR-640 și MWIR", description: "Camere termice (LWIR-640 pentru infraroșu de undă lungă, MWIR pentru infraroșu de undă medie), cu domeniile de temperatură și rezoluția confirmate pe model, folosite pentru monitorizare continuă pe linii de producție cu temperaturi ridicate." },
+      { name: "Scanere Liniare LSP-HD și Sistem System 4", description: "Scaner liniar de temperatură de înaltă rezoluție pentru profiluri termice pe lățimea unei benzi de produs, alături de pirometrul System 4 de uz general." },
       { name: "Analizoare de Emisii FGA și Monitoare de Opacitate 4500 MkIII", description: "Analizor de gaze de ardere și monitor de opacitate, construite conform standardelor de mediu din domeniu, folosite pentru monitorizarea continuă a emisiilor la centrale și instalații industriale supuse raportării." },
     ],
     industries: [
@@ -436,16 +436,16 @@ Are sens pentru oțelării, turnătorii de aluminiu, fabrici de sticlă și cent
       { code: "SPOT+ GS", description: "Pirometru pentru bandă de oțel acoperită" },
       { code: "SPOT+ MM", description: "Pirometru pentru metal lichid la turnare" },
       { code: "SPOT+ TMT", description: "Pirometru pentru temperatura metalului în țevi" },
-      { code: "System 4", description: "Sistem cu elemente de măsură interschimbabile" },
-      { code: "UNO", description: "Pirometru de precizie cu optică schimbabilă" },
-      { code: "SOLOnet", description: "Pirometru configurabil prin Ethernet sau RS485" },
-      { code: "SPRINT 8", description: "Pirometru cu domeniu larg de măsură" },
-      { code: "LWIR-640", description: "Cameră termică infraroșu lung, -20 la 1500°C" },
-      { code: "MWIR", description: "Cameră termică infraroșu mediu, până la 1800°C" },
+      { code: "System 4", description: "Pirometru de uz general" },
+      { code: "UNO", description: "Pirometru de temperatură fără contact" },
+      { code: "SOLOnet", description: "Pirometru cu interfață web" },
+      { code: "SPRINT 8", description: "Pirometru pentru temperaturi joase" },
+      { code: "LWIR-640", description: "Cameră termică infraroșu lung" },
+      { code: "MWIR", description: "Cameră termică infraroșu mediu" },
       { code: "NIR-656", description: "Cameră termică infraroșu apropiat" },
       { code: "NIR-2K", description: "Cameră termică infraroșu apropiat, rezoluție ridicată" },
       { code: "LSP-HD", description: "Scaner liniar de temperatură de înaltă rezoluție" },
-      { code: "HotSpotIR 9000", description: "Sistem portabil de imagistică termică pentru cuptoare" },
+      { code: "HotSpotIR 9000", description: "Sistem de scanare în infraroșu pentru benzi transportoare" },
       { code: "FGA Series", description: "Analizor de gaze de ardere pentru emisii" },
       { code: "WDG 1200", description: "Analizor de oxigen pentru monitorizare emisii" },
       { code: "4500 MkIII", description: "Monitor de opacitate pentru coșuri de fum" },
@@ -458,14 +458,14 @@ Are sens pentru oțelării, turnătorii de aluminiu, fabrici de sticlă și cent
     faq: [
       { q: "Ce produce Land Instruments (AMETEK Land)?", a: "Land Instruments produce pirometre infraroșu, camere de imagistică termică, scanere liniare și analizoare de emisii pentru măsurarea temperaturii fără contact în industrii precum oțel, aluminiu, sticlă și energie." },
       { q: "Cum aleg un pirometru Land Instruments după aplicație?", a: "Alegerea depinde de materialul măsurat — SPOT+ AL este calibrat pentru aluminiu, SPOT+ GS pentru bandă de oțel acoperită, iar SPOT+ MM pentru metal lichid la turnare — fiecare cu algoritm optic specific materialului." },
-      { q: "Ce diferență este între o cameră LWIR și una MWIR de la Land Instruments?", a: "LWIR-640 acoperă domeniul -20 până la 1500°C în banda de undă lungă, în timp ce MWIR acoperă 300–1800°C în banda medie, potrivită pentru temperaturi mai ridicate specifice metalurgiei." },
+      { q: "Ce diferență este între o cameră LWIR și una MWIR de la Land Instruments?", a: "LWIR-640 lucrează în banda de undă lungă, iar MWIR în banda de undă medie; domeniul de temperatură se confirmă pe model, din documentația AMETEK Land." },
       { q: "Livrați echipamente Land Instruments în România și cât durează?", a: "Aducem echipamentele Land Instruments la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, în funcție de configurația și aplicația cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă de pirometru Land Instruments?", a: "Materialul și domeniul de temperatură măsurat, distanța de la senzor la țintă și dacă aveți nevoie de ieșire analogică sau conectare la rețea, pentru a identifica modelul potrivit din gama SPOT+ sau System 4." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "AMETEK Land — Home", url: "https://www.ametek-land.com/", publisher: "AMETEK Land", accessed: "2026-09-26" },
       { title: "Products | Land", url: "https://www.ametek-land.com/products", publisher: "AMETEK Land", accessed: "2026-09-26" },

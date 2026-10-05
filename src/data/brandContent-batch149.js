@@ -5,11 +5,11 @@ export const brandContentBatch149 = {
     name: "Hanning Elektro-Werke",
     founded: 1949,
     headquarters: "Oerlinghausen, Germania",
-    overview: `Hanning Elektro-Werke proiectează și fabrică sisteme de acționare personalizate la Oerlinghausen, în Germania, cu fabrici suplimentare în România și India. Producătorul lucrează pe cinci direcții tehnice: motoare de curent alternativ pentru echipamente industriale (divizia hamotic), acționări liniare pentru uși și porți (hamatic), pompe mici de scurgere și circulație (haflowtic), acționări pentru ventilatoare (haventic) și electronică de control (hatronic). Pentru clienții din România putem oferta îndeosebi motoare compacte din hamotic și pompe din haflowtic, piese cerute des la retehnologizarea liniilor de spălare, uscare sau ventilație industrială.
+    overview: `Hanning Elektro-Werke proiectează și fabrică sisteme de acționare personalizate la Oerlinghausen, în Germania, cu fabrici suplimentare în România și India. Producătorul lucrează pe cinci direcții tehnice: motoare de curent alternativ pentru echipamente industriale (divizia hamotic), actuatoare liniare (hamatic), pompe mici de scurgere și circulație (haflowtic), acționări pentru ventilatoare (haventic) și electronică de control (hatronic). Pentru clienții din România putem oferta îndeosebi motoare compacte din hamotic și pompe din haflowtic, pentru echipamente de spălare, uscare sau ventilație industrială.
 
 Ce diferențiază gama hamotic e diversitatea de aplicații acoperite de aceeași platformă de motor: de la acționarea ușilor de garaj și porților industriale (motorul 301, până la 7,5 kW în execuție trifazată) până la motoare pentru centrifuge, cu turații de până la 18.000 min⁻¹ (seria 339/353), sau motoare pentru pompe de vid, protejate IP55 (motorul 307). Pompele haflowtic completează oferta cu unități compacte pentru mașini de spălat vase și rufe, cu debite între 40 și peste 800 de litri pe minut, în funcție de model (DPO, CP, PS). Spre deosebire de un motor IEC standard, gata pentru o linie mare de producție, Hanning miniaturizează acționarea pentru integrare directă în electrocasnice, utilaje de spălătorie și echipamente compacte.
 
-Pentru piața locală, gama are sens la producătorii și integratorii de echipamente de spălătorie industrială, uscătorii, centrifuge sau linii de ambalare care au nevoie de un motor deja dimensionat pentru aplicația lor, nu de un motor generic pe care să-l adapteze ulterior. Mentenanța se rezumă, de regulă, la înlocuirea motorului sau a pompei complete.`,
+Pentru piața locală, gama are sens la producătorii și integratorii de echipamente de spălătorie industrială, uscătorii, centrifuge sau linii de ambalare care au nevoie de un motor deja dimensionat pentru aplicația lor, nu de un motor generic pe care să-l adapteze ulterior.`,
     whyChoose: [
       "Platformă de motor dedicată fiecărei aplicații — ușă, centrifugă, pompă de vid — nu un motor IEC generic adaptat ulterior",
       "Turații ridicate pe unele motoare compacte, până la 18.000 min⁻¹, utile la centrifuge și acționări cu ax unic",
@@ -24,17 +24,17 @@ Pentru piața locală, gama are sens la producătorii și integratorii de echipa
       },
       {
         name: "Pompe haflowtic seria DPO/CP/PS",
-        description: "Pompe compacte de scurgere și circulație pentru mașini de spălat rufe, vase și echipamente similare, cu debite de la 40 de litri pe minut la modelele mici (DPO 20, DPO 40) până la peste 800 de litri pe minut la seria PS (PS 60, PS 80), la presiuni de până la 1,6 bar. Categoria include și varianta UP, cu presiune mai mare la debit moderat, utilă în circuite cu pierderi de sarcină ridicate.",
+        description: "Pompe compacte de scurgere și circulație pentru mașini de spălat rufe, vase și echipamente similare, cu debite de la 40 de litri pe minut la modelele mici (DPO 20, DPO 40) până la 870 de litri pe minut la modelul PS 80 (PS 60: 540 l/min), la presiuni de până la 1,6 bar. Categoria include și varianta UP, cu presiune mai mare la debit moderat, utilă în circuite cu pierderi de sarcină ridicate.",
       },
       {
         name: "Acționare sincronă hamotic varicon",
-        description: "Motor sincron compact (341), cu turație reglabilă între 1.000 și 3.000 min⁻¹ și protecție IP55, gândit pentru aplicații unde turația trebuie ajustată fin fără cutie de viteze suplimentară — poziționare, dozare sau linii cu viteză variabilă a benzii.",
+        description: "Motor sincron compact (341), cu turație reglabilă între 1.000 și 3.000 min⁻¹ și protecție IP55, gândit ca acționare sincronă compactă cu comandă electronică, cu unitate de control detașabilă opțional.",
       },
     ],
     industries: [
       "Spălătorii industriale și electrocasnice — acționare pompe și motoare pentru mașini de spălat rufe și vase",
       "Producție de electrocasnice — motoare compacte integrate în uscătoare și centrifuge de rufe",
-      "Automatizare uși și porți — acționare liniară pentru porți industriale și uși de garaj",
+      "Automatizare uși și porți — motorul hamotic 301 pentru acționarea ușilor și porților",
       "Ambalare și procesare — acționări cu turație variabilă pentru linii compacte de producție",
     ],
     infinitrade: `Pentru Hanning Elektro-Werke lucrăm strict din surse publice ale producătorului: paginile de produs pe diviziile hamotic și haflowtic, fără date proprii de stoc pentru un brand pe care nu l-am mai comercializat până acum. Aducem motoarele și pompele la comandă, prin canale de aprovizionare din spațiul UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea la fabrica producătorului. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al motorului sau pompei (ex. 307, DPO 20), tensiunea de alimentare și, dacă e cazul, desenul de montaj al echipamentului în care se integrează. Pentru Hanning Elektro-Werke nu promitem disponibilitate din depozit pe niciun cod din gamă.`,
@@ -42,7 +42,7 @@ Pentru piața locală, gama are sens la producătorii și integratorii de echipa
       "Nu putem confirma coduri de model pentru diviziile haventic (ventilatoare) și hatronic (electronică de control), pentru care site-ul producătorului nu publică denumiri de produs.",
     productCodes: [
       { code: "301", description: "Acționare uși/porți industriale, până la 7,5 kW, 2/4/6 poli" },
-      { code: "304", description: "Motor pentru ulei (Unterölmotor), până la 5,5 kW" },
+      { code: "304", description: "Motor fără carcasă pentru aplicații în ulei, până la 5,5 kW" },
       { code: "339", description: "Acționare centrifugă, turație până la 18.000 min⁻¹" },
       { code: "316", description: "Motor pentru arzător de ulei, 40 W până la 3 kW" },
       { code: "317", description: "Acționare spălare tip A07, 500-16.000 min⁻¹, IP20" },
@@ -72,7 +72,7 @@ Pentru piața locală, gama are sens la producătorii și integratorii de echipa
       },
       {
         q: "Ce trebuie să trimit pentru o ofertă de motor Hanning?",
-        a: "Ai nevoie de codul exact al motorului sau pompei așa cum apare pe eticheta produsului sau în documentația echipamentului (de exemplu 307 sau DPO 20), tensiunea și frecvența de alimentare, plus, dacă motorul se montează într-un utilaj propriu, desenul de gabarit. Fără aceste date nu putem confirma disponibilitatea la producător.",
+        a: "Aveți nevoie de codul exact al motorului sau pompei așa cum apare pe eticheta produsului sau în documentația echipamentului (de exemplu 307 sau DPO 20), tensiunea și frecvența de alimentare, plus, dacă motorul se montează într-un utilaj propriu, desenul de gabarit. Fără aceste date nu putem confirma disponibilitatea la producător.",
       },
       {
         q: "Livrați motoare Hanning în România și în cât timp?",
@@ -81,8 +81,8 @@ Pentru piața locală, gama are sens la producătorii și integratorii de echipa
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Hanning Elektro-Werke – pagina principală", url: "https://www.hanning-hew.com/", publisher: "Hanning Elektro-Werke GmbH & Co. KG", accessed: "2026-09-26" },
       { title: "Produkte – haflowtic Pumpen", url: "https://www.hanning-hew.com/de/produkte/haflowtic-pumpen/", publisher: "Hanning Elektro-Werke GmbH & Co. KG", accessed: "2026-09-26" },
@@ -101,9 +101,9 @@ Ce ține Menzel relevant în segmentul de putere mare e varietatea de sisteme de
 Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțelării, compresoare mari, ventilatoare industriale — Menzel oferă o alternativă europeană la motoarele de mare putere, utilă la retehnologizări unde motorul existent trebuie înlocuit cu unul de aceeași clasă de tensiune și răcire.`,
     whyChoose: [
       "Plajă de putere foarte largă, de la 75 kW la 25 MW pentru motoarele asincrone cu rotor în scurtcircuit",
-      "Șapte scheme de răcire disponibile pe aceeași platformă, de la IC 01 deschis la IC 86W cu schimbător aer-apă",
+      "Zece scheme de răcire (IC) disponibile pe aceeași platformă, de la IC 01 deschis la IC 86W cu schimbător aer-apă",
       "Tensiuni de alimentare de la 220 V la 13.800 V, acoperind atât rețele industriale, cât și medie tensiune",
-      "Motoare de curent continuu până la 2.000 kW, opțiune rară la producătorii care s-au orientat exclusiv spre AC",
+      "Motoare de curent continuu între 20 și 2.000 kW, pe lângă gama de motoare de curent alternativ",
       "Execuții speciale antiex (Ex ec/Ex tc) și motoare de macara, dincolo de motorul industrial standard",
     ],
     keyProducts: [
@@ -132,18 +132,18 @@ Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțe
       "Porturi — acționări pentru echipamente de manipulare marfă",
       "Energie — generatoare și grupuri rotative de conversie",
     ],
-    infinitrade: `Pentru motoarele Menzel Elektromotoren mergem doar pe ce publică oficial producătorul pe site — plaje de putere, tensiune și scheme de răcire — fără date proprii de stoc, întrucât brandul nu a mai fost comercializat de noi. La un motor de peste 75 kW, aducerea la comandă e regula, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor la fabrica din Hennigsdorf; la puteri foarte mari, termenul real se stabilește abia după ce producătorul confirmă disponibilitatea. Pentru ofertă avem nevoie de puterea nominală, tensiunea de alimentare, schema de răcire dorită (IC) și tipul de rotor (scurtcircuit sau inele colectoare). Nu promitem disponibilitate din depozit pentru niciun cod din gamă — motoarele de această clasă se produc, de regulă, la comandă fermă.`,
+    infinitrade: `Pentru motoarele Menzel Elektromotoren mergem doar pe ce publică oficial producătorul pe site — plaje de putere, tensiune și scheme de răcire — fără date proprii de stoc, întrucât brandul nu a mai fost comercializat de noi. La un motor de peste 75 kW, aducerea la comandă e regula, cu un termen de regulă peste 4 săptămâni, stabilit după confirmarea specificațiilor la fabrica din Hennigsdorf; la puteri foarte mari, termenul real se stabilește abia după ce producătorul confirmă disponibilitatea. Pentru ofertă avem nevoie de puterea nominală, tensiunea de alimentare, schema de răcire dorită (IC) și tipul de rotor (scurtcircuit sau inele colectoare). Nu promitem disponibilitate din depozit pentru niciun cod din gamă — motoarele de această clasă se produc, de regulă, la comandă fermă.`,
     limitation:
       "Nu putem confirma disponibilitatea unor variante constructive foarte specifice (de exemplu combinații rare între schema de răcire și execuția antiex), care la Menzel se stabilesc individual, proiect cu proiect.",
     productCodes: [
       { code: "IC 01", description: "Răcire deschisă, motor asincron cu rotor în scurtcircuit" },
-      { code: "IC 06", description: "Răcire deschisă cu ventilator montat pe ax" },
+      { code: "IC 06", description: "Răcire deschisă, clasificare IC conform IEC 60034-6" },
       { code: "IC 411", description: "Răcire pe suprafață nervurată, carcasă închisă" },
       { code: "IC 416", description: "Răcire pe suprafață nervurată, ventilator separat" },
       { code: "IC 511", description: "Răcire cu tub de aer montat pe carcasă" },
       { code: "IC 611", description: "Schimbător de căldură aer-aer, montaj pe carcasă" },
       { code: "IC 616", description: "Schimbător de căldură aer-aer, ventilator separat" },
-      { code: "IC 666", description: "Schimbător de căldură aer-aer, execuție de mare putere" },
+      { code: "IC 666", description: "Schimbător de căldură aer-aer, clasificare IC conform IEC 60034-6" },
       { code: "IC 81W", description: "Schimbător de căldură aer-apă, montaj compact" },
       { code: "IC 86W", description: "Schimbător de căldură aer-apă, ventilator separat" },
       { code: "Squirrel Cage Motors", description: "Gama principală cu rotor în scurtcircuit, 75-25.000 kW, tensiune 220-13.800 V" },
@@ -152,7 +152,7 @@ Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțe
       { code: "Ex ec / Ex tc motors", description: "Execuție antiex pentru zone cu risc de explozie" },
       { code: "Ex p motors", description: "Execuție antiex cu suprapresiune internă" },
       { code: "Crane duty motors", description: "Regim de funcționare intermitent, cuplu ridicat la pornire" },
-      { code: "Roller table motors", description: "Execuție rezistentă la șoc termic și mecanic, pentru role de laminor" },
+      { code: "Roller table motors", description: "Motoare pentru role de laminor; caracteristicile se confirmă din documentația producătorului" },
       { code: "IP67 motors", description: "Protecție ridicată la praf și imersie temporară" },
     ],
     faq: [
@@ -170,13 +170,13 @@ Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțe
       },
       {
         q: "Livrați motoare Menzel în România și cât durează?",
-        a: "Da, aducem motoare Menzel la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor la fabrica producătorului. La puterile foarte mari, termenul se confirmă abia după ce producătorul verifică disponibilitatea componentelor.",
+        a: "Da, aducem motoare Menzel la comandă, prin canale de aprovizionare din UE, cu un termen de regulă peste 4 săptămâni, stabilit după confirmarea specificațiilor la fabrica producătorului. La puterile foarte mari, termenul se confirmă abia după ce producătorul verifică disponibilitatea componentelor.",
       },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "MENZEL Elektromotoren – pagina principală", url: "https://www.menzel-motors.com/", publisher: "Menzel Elektromotoren GmbH", accessed: "2026-09-26" },
       { title: "Products – MENZEL Elektromotoren", url: "https://www.menzel-motors.com/en/products/", publisher: "Menzel Elektromotoren GmbH", accessed: "2026-09-26" },
@@ -187,7 +187,7 @@ Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțe
     name: "Elprom Harmanli",
     founded: 1976,
     headquarters: "Harmanli, Bulgaria",
-    overview: `Elprom Harmanli produce motoare electrice asincrone din 1976, de la fabrica inițială din orașul Harmanli, în Bulgaria, extinsă ulterior cu unități la Plovdiv și Troyan. Gama de bază, seria AT, acoperă motoare trifazate și monofazate între 0,12 kW și 30 kW, în mărimi de carcasă IEC de la 63 la 180, cu 2, 4, 6 sau 8 poli, conforme IEC 60034-1. Pentru România putem oferta motoare standard din seria AT și variante speciale pentru macarale sau pompe submersibile.
+    overview: `Elprom Harmanli produce motoare electrice asincrone din 1976, de la fabrica inițială din orașul Harmanli, în Bulgaria, extinsă ulterior cu unități la Plovdiv și Troyan. Gama de bază, seria AT, acoperă motoare trifazate și monofazate în mărimi de carcasă IEC de la 63 la 180 (puterile se confirmă din catalogul producătorului), cu 2, 4, 6 sau 8 poli, conforme IEC 60034-1. Pentru România putem oferta motoare standard din seria AT și variante speciale pentru macarale sau pompe submersibile.
 
 Dincolo de motorul asincron standard, Elprom acoperă un segment neobișnuit de larg de motoare speciale: motoare sincrone cu magneți permanenți (PM), cu invertor integrat sau pentru control extern, motoare pentru pompe submersibile hidraulice, motoare de mare viteză (până la 6.000 min⁻¹), motoare de macara pentru deplasare și ridicare, motoare fără carcasă (frameless) și motoare cu encoder pentru poziționare precisă. Această diversitate îl apropie mai mult de un producător de acționări industriale complete decât de un simplu furnizor de motoare IEC de catalog, poziție diferită față de producători axați exclusiv pe motoare de mare putere.
 
@@ -202,7 +202,7 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
     keyProducts: [
       {
         name: "Motoare trifazate seria AT",
-        description: "Motoare asincrone standard, trifazate și monofazate, între 0,12 kW și 30 kW, în mărimi de carcasă IEC 63, 71, 80, 90, 100, 112, 132, 160 și 180, cu 2, 4, 6 sau 8 poli, la 50 sau 60 Hz. Sunt gama de bază pentru aplicații industriale generale — pompe, ventilatoare, benzi transportoare — unde nu e nevoie de o execuție specială.",
+        description: "Motoare asincrone standard, trifazate și monofazate, în mărimi de carcasă IEC 63, 71, 80, 90, 100, 112, 132, 160 și 180, cu 2, 4, 6 sau 8 poli, la 50 sau 60 Hz. Sunt gama de bază pentru aplicații industriale generale — pompe, ventilatoare, benzi transportoare — unde nu e nevoie de o execuție specială.",
       },
       {
         name: "Motoare de macara — deplasare și ridicare",
@@ -228,7 +228,7 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
     limitation:
       "Nu putem confirma codurile exacte de mărime de carcasă (de exemplu AT 90S sau AT 100L) pentru fiecare combinație de putere și turație, pentru care producătorul publică doar cataloage descărcabile, nu tabele pe pagina web.",
     productCodes: [
-      { code: "AT (63-180)", description: "Serie motoare trifazate/monofazate, 0,12-30 kW, IEC 60034-1" },
+      { code: "AT (63-180)", description: "Serie motoare trifazate/monofazate, IEC 60034-1" },
       { code: "Custom electric motors", description: "Motoare personalizate pe cerințele clientului" },
       { code: "PM Motors cu invertor integrat", description: "Motor sincron cu magneți permanenți, invertor încorporat" },
       { code: "PM Motors pentru invertor extern", description: "Motor sincron PM controlat de invertor separat" },
@@ -250,7 +250,7 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
     faq: [
       {
         q: "Ce produce Elprom Harmanli?",
-        a: "Elprom Harmanli fabrică motoare electrice asincrone standard din seria AT, între 0,12 și 30 kW, plus o gamă largă de motoare speciale: pentru macarale, pompe submersibile, mare viteză, cu magneți permanenți, fără carcasă sau cu encoder. Producția pornește din 1976, de la fabrica din orașul Harmanli.",
+        a: "Elprom Harmanli fabrică motoare electrice asincrone standard din seria AT, plus o gamă largă de motoare speciale: pentru macarale, pompe submersibile, mare viteză, cu magneți permanenți, fără carcasă sau cu encoder. Producția pornește din 1976, de la fabrica din orașul Harmanli.",
       },
       {
         q: "Ce motor Elprom Harmanli se potrivește la o macara?",
@@ -258,7 +258,7 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
       },
       {
         q: "Ce trebuie să trimit pentru o ofertă de motor submersibil?",
-        a: "Ai nevoie de tipul pompei hidraulice pe care se montează motorul, puterea necesară, tensiunea de alimentare și dacă motorul trebuie să fie submersibil sau uscat, montat deasupra nivelului fluidului. Fără aceste date nu putem verifica disponibilitatea la producător.",
+        a: "Aveți nevoie de tipul pompei hidraulice pe care se montează motorul, puterea necesară, tensiunea de alimentare și dacă motorul trebuie să fie submersibil sau uscat, montat deasupra nivelului fluidului. Fără aceste date nu putem verifica disponibilitatea la producător.",
       },
       {
         q: "Livrați motoare Elprom în România și cât durează?",
@@ -267,8 +267,8 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Elprommotors – pagina principală", url: "https://www.elprommotors.com/en", publisher: "Elprom Harmanli AD", accessed: "2026-09-26" },
       { title: "About us – Elprommotors", url: "https://www.elprommotors.com/en/about-us", publisher: "Elprom Harmanli AD", accessed: "2026-09-26" },
@@ -280,14 +280,14 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
     name: "Electro Adda",
     founded: 1948,
     headquarters: "Beverate di Brivio, Italia",
-    overview: `Electro Adda fabrică motoare electrice asincrone trifazate din 1948, la Beverate di Brivio, în provincia Lecco, Italia, cu o producție anuală declarată de peste 110.000 de motoare, de la fracțiuni de kW până la 1,5 MW. Gama principală se împarte în două serii constructive: seria C, din aluminiu, pentru mărimi de carcasă între 63 și 355LT, și seria CS, cu carcasă din oțel, pentru puteri între 250 și 1.600 kW. Pentru România putem oferta motoare din ambele serii, plus variante speciale pentru zone cu risc de explozie sau pentru generatoare eoliene.
+    overview: `Electro Adda fabrică motoare electrice asincrone trifazate din 1948, la Beverate di Brivio, în provincia Lecco, Italia, cu o producție anuală declarată de peste 110.000 de motoare, de la fracțiuni de kW până la 1,6 MW. Gama principală se împarte în două serii constructive: seria C, din aluminiu, pentru mărimi de carcasă între 63 și 355LT, și seria CS, cu carcasă din oțel, pentru puteri între 250 și 1.600 kW. Pentru România putem oferta motoare din ambele serii, plus variante speciale pentru zone cu risc de explozie sau pentru generatoare eoliene.
 
 Dincolo de motorul standard, Electro Adda produce o gamă amplă de variante constructive: motoare cu frână (seria FE, FECC), motoare cu inele colectoare (seria CR ad anelli), motoare antideflagrante certificate ATEX, motoare răcite cu manta de apă, generatoare asincrone pentru turbine eoliene și microcentrale hidroelectrice, motoare pentru role transportoare (motorulli), o serie dedicată temperaturilor ridicate și una pentru mediul marin. Această acoperire largă a variantelor constructive pe aceeași bază de motor o apropie de producători precum Menzel Elektromotoren, orientat însă spre puteri mai mari.
 
 Pentru instalații din România — energie regenerabilă, industrie alimentară, siderurgie, marină — Electro Adda are sens acolo unde e nevoie de o variantă constructivă specifică (antiex, cu frână, răcită cu apă) pe un motor de putere medie, nu neapărat de puterea maximă disponibilă în catalog.`,
     whyChoose: [
-      "Zece variante constructive documentate pe site, de la motorul standard la generator eolian sau motor pentru role transportoare",
-      "Certificări multiple pentru export — ATEX, UL, EAC, Lloyd's Register, EASA — utile la proiecte cu cerințe de conformitate variate",
+      "Variante constructive multiple documentate pe site, de la motorul standard la generator eolian sau motor pentru role transportoare",
+      "Variante antideflagrante ATEX; alte certificări se confirmă pe cod, din documentația producătorului",
       "Producție anuală mare, peste 110.000 de motoare, semn de continuitate a liniilor de fabricație",
       "Serie CS cu carcasă din oțel pentru puteri de până la 1.600 kW, dincolo de plaja tipică a motorului de aluminiu",
       "Variantă dedicată generatoarelor pentru turbine eoliene și microcentrale hidroelectrice, nișă acoperită de puțini producători",
@@ -316,9 +316,8 @@ Pentru instalații din România — energie regenerabilă, industrie alimentară
       "Siderurgie — motoare cu carcasă din oțel pentru sarcini grele",
       "Marină — motoare cu variante constructive pentru mediul naval",
       "Industrie alimentară — motoare standard seria C pentru linii de procesare",
-      "Feroviar — motoare pentru aplicații specifice de tracțiune auxiliară",
     ],
-    infinitrade: `Pentru Electro Adda mergem pe informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc, brandul nefiind încă în portofoliul nostru curent. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, atât pentru seria C din aluminiu, cât și pentru seria CS din oțel. Pentru ofertă, clientul trebuie să indice seria dorită (C, CS, CR, FE etc.), puterea, mărimea de carcasă și, dacă e cazul, cerința de certificare (ATEX, marin). Nu promitem disponibilitate din depozit — la puterile mari din seria CS, producția se face de regulă la comandă fermă, confirmată de fabrica din Italia.`,
+    infinitrade: `Pentru Electro Adda mergem pe informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc, brandul nefiind încă în portofoliul nostru curent. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru seria C din aluminiu; pentru seria CS din oțel, termenul depășește de regulă 4 săptămâni. Pentru ofertă, clientul trebuie să indice seria dorită (C, CS, CR, FE etc.), puterea, mărimea de carcasă și, dacă e cazul, cerința de certificare (ATEX, marin). Nu promitem disponibilitate din depozit — la puterile mari din seria CS, producția se face de regulă la comandă fermă, confirmată de fabrica din Italia.`,
     limitation:
       "Nu putem confirma codurile exacte de mărime de carcasă pentru fiecare putere din seria C sau CS, pentru care producătorul trimite spre catalogul descărcabil, nu spre un tabel pe pagina web.",
     productCodes: [
@@ -326,8 +325,8 @@ Pentru instalații din România — energie regenerabilă, industrie alimentară
       { code: "Serie CS", description: "Motoare oțel, 250-1.600 kW, carcasă 355L-560" },
       { code: "Serie CR (ad anelli)", description: "Motoare cu inele colectoare, rotor bobinat" },
       { code: "Serie FE", description: "Motoare autofrenante (cu frână integrată)" },
-      { code: "Serie FECC", description: "Motoare autofrenante, variantă compactă" },
-      { code: "Serie FECCL", description: "Motoare autofrenante, variantă alungită" },
+      { code: "Serie FECC", description: "Motoare autofrenante, serie FECC" },
+      { code: "Serie FECCL", description: "Motoare autofrenante, serie FECCL" },
       { code: "Serie PE", description: "Motoare antideflagrante, certificare ATEX" },
       { code: "Serie W", description: "Motoare răcite cu manta de apă" },
       { code: "Serie G", description: "Generatoare pentru turbine eoliene și hidroelectrice" },
@@ -356,8 +355,8 @@ Pentru instalații din România — energie regenerabilă, industrie alimentară
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Electro Adda S.p.A. – pagina principală", url: "https://www.electroadda.com/", publisher: "Electro Adda S.p.A.", accessed: "2026-09-26" },
       { title: "Prodotti – motori asincroni trifase a gabbia di scoiattolo", url: "https://www.electroadda.com/it/products/motori-asincroni-trifase-a-gabbia-di-scoiattolo/", publisher: "Electro Adda S.p.A.", accessed: "2026-09-26" },
@@ -369,7 +368,7 @@ Pentru instalații din România — energie regenerabilă, industrie alimentară
     headquarters: "Hadsten, Danemarca",
     overview: `Hoyer Motors fabrică motoare electrice industriale și marine, cu sediul principal la Hadsten, în Danemarca, și operațiuni suplimentare la Frederikshavn și în China. Gama e organizată pe clase de eficiență energetică IEC — IE1, IE2, IE3 și IE4 — completată de motoare cu frână, motoare antiexplozive, motoare de medie tensiune, motoare EC și motoare sincrone cu magneți permanenți de clasă IE5. Pentru România putem oferta motoare din clasele IE3 și IE4, cerute tot mai des la echipamente noi din cauza cerințelor de eficiență energetică.
 
-Ce diferențiază oferta Hoyer e acoperirea explicită a segmentului marin, alături de cel industrial standard — motoare cu frână pentru medii marine și offshore, execuții rezistente la coroziune și la vibrații specifice navelor, pe lângă gama terestră obișnuită. Compania oferă și motoare cu magneți permanenți (PM) de eficiență IE5, peste pragul IE4 cerut în prezent de reglementările europene, pentru clienți care vor un avans suplimentar de eficiență față de motorul asincron standard.
+Ce diferențiază oferta Hoyer e acoperirea explicită a segmentului marin, alături de cel industrial standard — motoare cu frână pentru medii marine și offshore, execuții rezistente la coroziune și la vibrații specifice navelor, pe lângă gama terestră obișnuită. Compania oferă și motoare cu magneți permanenți (PM) de eficiență IE5, peste clasa IE4, pentru clienți care vor un avans suplimentar de eficiență față de motorul asincron standard.
 
 Pentru instalații din România cu cerințe stricte de eficiență energetică sau pentru echipamente destinate mediului marin, Hoyer oferă o alternativă europeană directă la motoarele asincrone standard IE3, cu opțiune de upgrade la IE4 sau la motorul PM de clasă IE5 acolo unde investiția se justifică prin economia de energie pe termen lung.`,
     whyChoose: [
@@ -386,7 +385,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
       },
       {
         name: "Motoare marine cu frână",
-        description: "Motoare adaptate mediului marin și offshore, cu frână integrată și execuție rezistentă la coroziune și la vibrațiile specifice funcționării la bordul navelor, diferite constructiv de motorul terestru standard prin protecția suplimentară a înfășurării și a rulmenților.",
+        description: "Motoare adaptate mediului marin și offshore, cu frână integrată și execuție rezistentă la coroziune și la vibrațiile specifice funcționării la bordul navelor, diferite de motorul terestru standard prin execuția pentru mediul marin; detaliile constructive se confirmă din documentația producătorului.",
       },
       {
         name: "Motoare antiexplozive (EX) și de medie tensiune (MV)",
@@ -416,7 +415,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
       { code: "Medium Voltage Motors (MV)", description: "Motor pentru instalații de medie tensiune" },
       { code: "EC Motors", description: "Motor cu control electronic integrat" },
       { code: "PM Motors (IE5)", description: "Motor sincron cu magneți permanenți, clasă IE5" },
-      { code: "World Efficiency Motors", description: "Gamă cu conformitate multiplă la standarde globale" },
+      { code: "World Efficiency Motors", description: "Gamă Hoyer World Efficiency; specificațiile se confirmă pe cod" },
     ],
     faq: [
       {
@@ -429,7 +428,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
       },
       {
         q: "Ce motor Hoyer se potrivește pentru o instalație marină?",
-        a: "Gama de motoare marine cu frână, cu execuție rezistentă la coroziune și la vibrațiile specifice navelor, e concepută special pentru acest mediu, spre deosebire de motorul terestru standard care nu are aceeași protecție a înfășurării și a rulmenților.",
+        a: "Gama de motoare marine cu frână, cu execuție rezistentă la coroziune și la vibrațiile specifice navelor, e concepută special pentru acest mediu, spre deosebire de motorul terestru standard.",
       },
       {
         q: "Livrați motoare Hoyer în România și cât durează?",
@@ -438,8 +437,8 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Hoyer Motors – pagina principală", url: "https://hoyermotors.com/", publisher: "Hoyer Motors A/S", accessed: "2026-09-26" },
       { title: "Products – Hoyer Motors", url: "https://hoyermotors.com/products-hoyer/", publisher: "Hoyer Motors A/S", accessed: "2026-09-26" },
@@ -468,7 +467,7 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
       },
       {
         name: "Motoare DELFIRE și seria MONO",
-        description: "DELFIRE este varianta de motor cu clasă termică H, pentru aplicații cu solicitare termică mai ridicată, iar seria MONO acoperă motoarele monofazate, pentru echipamente alimentate direct din rețeaua casnică sau monofazată industrială.",
+        description: "DELFIRE este o serie separată de motoare trifazate, a cărei destinație și clasă termică se confirmă din documentația producătorului, iar seria MONO acoperă motoarele monofazate, pentru echipamente alimentate direct din rețeaua casnică sau monofazată industrială.",
       },
       {
         name: "Invertoare NEO și NANO",
@@ -492,7 +491,7 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
     productCodes: [
       { code: "DELPHI 56-132", description: "Motor trifazat, mărime constructivă mică-medie" },
       { code: "DELPHI 160-355", description: "Motor trifazat, mărime constructivă mare" },
-      { code: "DELFIRE", description: "Motor trifazat, clasă termică H" },
+      { code: "DELFIRE", description: "Motor trifazat, serie DELFIRE" },
       { code: "MONO", description: "Motor monofazat, alimentare directă la rețea" },
       { code: "Motoare ATEX/IECEx", description: "Motor certificat pentru zone cu risc de explozie" },
       { code: "NEO-WiFi", description: "Invertor de frecvență cu conectivitate wireless" },
@@ -532,8 +531,8 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Motive – pagina principală", url: "https://www.motive.it/", publisher: "Motive S.r.l.", accessed: "2026-09-26" },
       { title: "DELPHI three-phase motors 56-132 – Motive", url: "https://www.motive.it/en/p-1-delphi-three-phase-motors-56-132.html", publisher: "Motive S.r.l.", accessed: "2026-09-26" },
@@ -578,10 +577,9 @@ Pentru instalații din România — centrale electrice, fabrici de ciment, rafin
       "Energie — centrale electrice, motoare de medie și înaltă tensiune",
       "Petrol și gaze — motoare antiexplozive H17RX/H27RX",
       "Minerit — motoare de mare putere pentru benzi transportoare și concasoare",
-      "Prelucrarea lemnului — motoare pentru ventilatoare și linii de procesare",
       "Rafinării — motoare de medie tensiune pentru pompe și compresoare",
     ],
-    infinitrade: `Pentru VYBO Electric nu avem date proprii de stoc — mergem pe informația publicată de producător despre plajele de putere și tensiune pentru fiecare serie, fiind un brand nou în oferta noastră. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea seriei și a puterii cerute; la puterile foarte mari din seria H27R, termenul real se stabilește după confirmarea disponibilității la fabrica din Slovacia. Pentru ofertă, clientul trebuie să trimită seria (H17RL, 3LC, H17R, H27R etc.), puterea, tensiunea de alimentare și tipul de rotor (scurtcircuit sau inele colectoare). Nu ținem această gamă pe raft; aducem la comandă fiecare motor confirmat de producător.`,
+    infinitrade: `Pentru VYBO Electric nu avem date proprii de stoc — mergem pe informația publicată de producător despre plajele de putere și tensiune pentru fiecare serie, fiind un brand nou în oferta noastră. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu un termen de regulă peste 4 săptămâni, stabilit după confirmarea seriei și a puterii cerute; la puterile foarte mari din seria H27R, termenul real se stabilește după confirmarea disponibilității la fabrica din Slovacia. Pentru ofertă, clientul trebuie să trimită seria (H17RL, 3LC, H17R, H27R etc.), puterea, tensiunea de alimentare și tipul de rotor (scurtcircuit sau inele colectoare). Nu ținem această gamă pe raft; aducem la comandă fiecare motor confirmat de producător.`,
     limitation:
       "Nu putem confirma anul înființării companiei, informație pe care site-ul oficial nu o publică explicit, și nici parametrii tehnici exacți pentru fiecare mărime intermediară din seriile de medie și înaltă tensiune.",
     productCodes: [
@@ -616,13 +614,13 @@ Pentru instalații din România — centrale electrice, fabrici de ciment, rafin
       },
       {
         q: "Livrați motoare VYBO în România și cât durează?",
-        a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea seriei și a puterii cerute. La motoarele de foarte mare putere, termenul final se confirmă abia după verificarea disponibilității la fabrica din Slovacia.",
+        a: "Da, la comandă, prin canale de aprovizionare din UE, cu un termen de regulă peste 4 săptămâni, stabilit după confirmarea seriei și a puterii cerute. La motoarele de foarte mare putere, termenul final se confirmă abia după verificarea disponibilității la fabrica din Slovacia.",
       },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "VYBO Electric – pagina principală", url: "https://www.vyboelectric.com/", publisher: "VYBO Electric a.s.", accessed: "2026-09-26" },
       { title: "Induction motors – VYBO Electric", url: "https://vyboelectric.com/induction-motors-vybo-electric/", publisher: "VYBO Electric a.s.", accessed: "2026-09-26" },

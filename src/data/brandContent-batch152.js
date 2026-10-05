@@ -4,9 +4,9 @@
 export const brandContentBatch152 = {
   procon: {
     name: "PROCON",
-    founded: 1948,
+    
     headquarters: "Tennessee, SUA",
-    overview: `PROCON este un producător american de pompe rotative cu palete de deplasare pozitivă, cu sediul în Tennessee, SUA. Originile pompei urcă până în 1948, iar producția propriu-zisă a pornit doi ani mai târziu. Gama actuală cuprinde pompele standard din familia Series, variantele mag-drive fără etanșare pe ax din familia Mag, pompe cu roți dințate externe și ansambluri complete pompă-motor, folosite la aparate de espresso, dozatoare de băuturi, echipamente medicale și stații mici de tratare a apei. Din această gamă putem oferta variantele standard și mag-drive cerute cel mai des în instalațiile de băuturi și filtrare a apei din România.
+    overview: `PROCON este un producător american de pompe rotative cu palete de deplasare pozitivă, cu sediul în Tennessee, SUA. Originile pompei urcă până în 1948, iar producția propriu-zisă a pornit doi ani mai târziu. Gama actuală cuprinde pompele standard din familia Series, variantele mag-drive fără etanșare pe ax din familia Mag, pompe cu roți dințate externe și ansambluri complete pompă-motor, folosite la aparate de espresso, dozatoare de băuturi, echipamente medicale și stații mici de tratare a apei. Din această gamă putem oferta variantele standard și mag-drive pentru instalațiile de băuturi și filtrare a apei din România.
 
 Ce diferențiază pompele PROCON este principiul cu palete rotative, care asigură un debit relativ constant chiar la variații mici de presiune, fără pulsațiile unei pompe cu piston. Familia Mag elimină etanșarea mecanică pe ax printr-un cuplaj magnetic între motor și rotor, util acolo unde o scurgere pe ax nu este acceptabilă, ca la echipamentele medicale sau la dozarea de lichide alimentare. Debitele publicate acoperă un interval de la 15 până la 660 galoane pe oră, cu presiuni de refulare de până la 250 psi, iar porturile de racord sunt de tip NPT sau G, de la 3/8 la 1 țol.
 
@@ -19,9 +19,9 @@ Pentru piața din România, pompele PROCON au sens la echipamentele de cafea și
       "Porturi de racord NPT și G, de la 3/8 la 1 țol, pentru montaj rapid pe instalații existente",
     ],
     keyProducts: [
-      { name: "Pompe Standard Seria Series", description: "Familia de bază a pompelor PROCON cu palete rotative, cu debite între 15 și 660 galoane pe oră și presiuni de refulare de până la 250 psi, în funcție de model. Porturile de racord sunt de tip NPT sau G, de la 3/8 la 1 țol. Este gama folosită cel mai des la aparatele de espresso și la dozatoarele de băuturi carbogazoase." },
+      { name: "Pompe Standard Series 1–7", description: "Familia de bază a pompelor PROCON cu palete rotative, cu debite între 15 și 660 galoane pe oră și presiuni de refulare de până la 250 psi, în funcție de model. Porturile de racord sunt de tip NPT sau G, de la 3/8 la 1 țol. Se folosește, printre altele, la aparate de espresso și la dozatoare de băuturi." },
       { name: "Pompe Mag-Drive Seria Mag", description: "Variantă fără etanșare mecanică pe ax, cu cuplare magnetică între motor și rotor — soluție pentru fluide unde o scurgere pe ax nu e acceptabilă. Familia acoperă modelele Mag 2, Mag 3, Mag 5, Mag 11, Mag 207 și Mag 215, cu debite crescătoare. Aplicație tipică: echipamente medicale și dozare de lichide alimentare." },
-      { name: "Pompe cu Roți Dințate Externe Seria Co", description: "Pompă cu roți dințate exterioare, în variante cu construcție tip cavitate sau cu papuc de aspirație, potrivită pentru fluide mai vâscoase decât apa. Modelul Co 207 e varianta menționată explicit pe site pentru acest tip constructiv, folosită la transferul de uleiuri sau siropuri în aplicații industriale și alimentare de volum mic." },
+      { name: "Pompe cu Roți Dințate Externe Seria Co", description: "Pompă cu roți dințate exterioare, potrivită pentru fluide mai vâscoase decât apa. Modelul exact și compatibilitatea fluidului se confirmă pe cod, din fișa producătorului." },
       { name: "Ansambluri Pompă-Motor pentru Aplicații Specifice", description: "Configurații complete pompă plus motor, asamblate pentru băuturi, espresso, medical, industrial și tratarea apei, cu motoare de curent alternativ din familia AC PSC menționată pe site. Clientul alege pompa după debitul necesar, iar ansamblul ajunge gata de montat, fără cuplare separată a motorului la pompă." },
     ],
     industries: [
@@ -30,16 +30,16 @@ Pentru piața din România, pompele PROCON au sens la echipamentele de cafea și
       "Medical — pompare de fluide, cu variante mag-drive fără etanșare pe ax",
       "Chimie și tipografie — pompare de cerneluri și soluții de printare",
     ],
-    infinitrade: `Pentru PROCON lucrăm cu ce publică producătorul pe site și cu ce putem și ce nu putem confirma din fișele de model citite, fără date proprii de stoc pentru această gamă. Pompele PROCON ajung la noi la comandă, prin canale de aprovizionare din Irlanda sau direct din Tennessee, SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de seria exactă — Series, Mag sau Co —, de debitul dorit în galoane pe oră, de presiunea de lucru și de compatibilitatea chimică a fluidului pompat. Pentru PROCON nu promitem o disponibilitate permanentă și recomandăm confirmarea termenului real înainte de a-l transmite mai departe clientului final.`,
+    infinitrade: `Pentru PROCON ne bazăm pe informațiile publicate de producător, fără date proprii de stoc pentru această gamă. Pompele PROCON ajung la noi la comandă, prin canale de aprovizionare din Irlanda sau direct din Tennessee, SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de seria exactă — Series, Mag sau Co —, de debitul dorit în galoane pe oră, de presiunea de lucru și de compatibilitatea chimică a fluidului pompat. Pentru PROCON nu promitem o disponibilitate permanentă și recomandăm confirmarea termenului real înainte de a-l transmite mai departe clientului final.`,
     limitation: "Nu putem confirma accesul direct la service de garanție al producătorului pentru gama PROCON.",
     productCodes: [
-      { code: "Series 1", description: "pompă rotativă cu palete, familia standard, debit mic" },
-      { code: "Series 2", description: "pompă rotativă cu palete, familia standard, uz general" },
+      { code: "Series 1", description: "pompă rotativă cu palete, familia standard" },
+      { code: "Series 2", description: "pompă rotativă cu palete, familia standard" },
       { code: "Series 3", description: "pompă rotativă cu palete, familia standard STD" },
-      { code: "Series 4", description: "pompă rotativă cu palete, debit mediu, espresso și industrial" },
+      { code: "Series 4", description: "pompă rotativă cu palete, familia standard" },
       { code: "Series 5", description: "pompă rotativă cu palete, familia standard STD" },
-      { code: "Series 6", description: "pompă rotativă cu palete, familia standard, debit mai mare" },
-      { code: "Series 7", description: "pompă rotativă cu palete, debit maxim din familia standard" },
+      { code: "Series 6", description: "pompă rotativă cu palete, familia standard" },
+      { code: "Series 7", description: "pompă rotativă cu palete, familia standard" },
       { code: "Mag 2", description: "pompă mag-drive fără etanșare pe ax, debit mic" },
       { code: "Mag 3", description: "pompă mag-drive fără etanșare pe ax, familia Mag" },
       { code: "Mag 5", description: "pompă mag-drive fără etanșare pe ax, familia Mag" },
@@ -47,10 +47,10 @@ Pentru piața din România, pompele PROCON au sens la echipamentele de cafea și
       { code: "Mag 207", description: "pompă mag-drive fără etanșare pe ax, familia Mag extinsă" },
       { code: "Mag 215", description: "pompă mag-drive fără etanșare pe ax, familia Mag extinsă" },
       { code: "Co 207", description: "pompă cu roți dințate externe, pentru fluide vâscoase" },
-      { code: "301J015F116B1AXXX", description: "cod de parte pentru o configurație Mag 2" },
+      
     ],
     faq: [
-      { q: "Ce produce PROCON?", a: "PROCON fabrică pompe rotative cu palete de deplasare pozitivă, din 1948, cu sediul în Tennessee, SUA. Gama include familia standard Series, familia mag-drive Mag, pompe cu roți dințate externe și ansambluri pompă-motor complete pentru băuturi, espresso, echipamente medicale, industrie și tratarea apei." },
+      { q: "Ce produce PROCON?", a: "PROCON fabrică pompe rotative cu palete de deplasare pozitivă; originile construcției urcă până în 1948, iar producția a început în 1950, cu sediul în Tennessee, SUA. Gama include familia standard Series, familia mag-drive Mag, pompe cu roți dințate externe și ansambluri pompă-motor complete pentru băuturi, espresso, echipamente medicale, industrie și tratarea apei." },
       { q: "Cum aleg o pompă PROCON după serie?", a: "Pornești de la debitul necesar, exprimat în galoane sau litri pe oră, apoi verifici presiunea de lucru și compatibilitatea chimică a fluidului cu materialele pompei. Seria Mag e de preferat acolo unde o scurgere pe ax nu este acceptabilă; seria Series standard acoperă restul aplicațiilor uzuale." },
       { q: "Se poate procura PROCON în România sau Europa?", a: "Da, la comandă; producătorul are și o unitate de producție în Irlanda, pe lângă cea din Tennessee, SUA, iar site-ul oficial listează distribuitori pe regiuni. Noi aducem pompa prin canalele de aprovizionare disponibile, cu un termen orientativ de 1–4 săptămâni." },
       { q: "Ce echivalent are seria Mag de la PROCON?", a: "Seria Mag este varianta fără etanșare mecanică pe ax a pompei cu palete rotative, cu cuplare magnetică între motor și rotor. În gama PROCON, modelele Mag 2, Mag 3, Mag 5, Mag 11, Mag 207 și Mag 215 urcă în trepte de debit; alegerea depinde de debitul și presiunea necesare aplicației." },
@@ -58,8 +58,8 @@ Pentru piața din România, pompele PROCON au sens la echipamentele de cafea și
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "PROCON Pumps — Home", url: "https://proconpumps.com/", publisher: "PROCON Pumps", accessed: "2026-09-26" },
       { title: "About Us — PROCON Pumps", url: "https://proconpumps.com/about-us", publisher: "PROCON Pumps", accessed: "2026-09-26" },
@@ -70,26 +70,26 @@ Pentru piața din România, pompele PROCON au sens la echipamentele de cafea și
   rehlko: {
     name: "Rehlko",
     headquarters: "SUA",
-    overview: `Rehlko este un producător american de grupuri electrogene și sisteme de energie industrială, cunoscut până de curând sub numele Kohler Power Systems; site-ul oficial confirmă direct rebranding-ul: „Kohler Power Systems is now Rehlko". Gama acoperă generatoare diesel de la 15 kW până la câțiva megawați, generatoare pe gaz din familia KG, comutatoare automate de transfer și controlere pentru paralelarea mai multor generatoare. Din această gamă putem oferta grupurile diesel și controlerele cerute cel mai des la alimentarea de rezervă pentru clădiri și instalații industriale din România.
+    overview: `Rehlko este un producător american de grupuri electrogene și sisteme de energie industrială, cunoscut până de curând sub numele Kohler Power Systems; site-ul oficial confirmă direct rebranding-ul: „Kohler Power Systems is now Rehlko". Gama acoperă generatoare diesel de la 10 kW până la 4 MW, generatoare pe gaz din familia KG, comutatoare automate de transfer și controlere pentru paralelarea mai multor generatoare. Din această gamă putem oferta grupurile diesel și controlerele potrivite pentru alimentarea de rezervă a clădirilor și a instalațiilor industriale.
 
-Ce diferențiază gama Rehlko este acoperirea largă de puteri, de la generatoare compacte KD100 până la unități mari KD4000, toate cu certificare US EPA pentru funcționare de urgență staționară și, la unele modele, aprobări CSA, OSHPD și UL 2200 pentru sisteme seismice. Controlerele din familiile APM și Decision-Maker, alături de tablourile de paralelare MPAC, permit sincronizarea mai multor generatoare într-o singură instalație de rezervă, iar comutatoarele automate din familiile KAS, KUS și KSSB gestionează trecerea de pe rețea pe generator fără intervenție manuală.
+Ce diferențiază gama Rehlko este acoperirea largă de puteri, de la generatoare compacte KD100 până la unități mari KD4000, cu certificare US EPA pentru funcționare de urgență staționară pe modelele verificate și, la unele modele, aprobări CSA, OSHPD și UL 2200 pentru sisteme seismice. Controlerele din familiile APM și Decision-Maker, permit comanda și monitorizarea generatorului (APM603 suportă și funcționarea în paralel a mai multor generatoare), controlerele MPAC 1200 și MPAC 1500 sunt destinate comutatoarelor automate de transfer, iar comutatoarele automate din familiile KAS, KUS și KSSB gestionează trecerea de pe rețea pe generator fără intervenție manuală.
 
 Pentru piața din România, Rehlko are sens la alimentarea de rezervă a centrelor de date, a spitalelor și a stațiilor de tratare a apei, acolo unde întreruperea alimentării nu este acceptabilă. Configurația corectă depinde de puterea necesară, de tipul de combustibil și de numărul de generatoare care trebuie sincronizate.`,
     whyChoose: [
       "Gamă largă de puteri, de la generatoare compacte de câțiva kW până la unități industriale de câțiva megawați",
       "Certificare US EPA pentru funcționare de urgență staționară, prezentă pe modelele diesel verificate",
       "Controlere proprii din familiile APM și Decision-Maker, pentru monitorizare și comandă la distanță a generatorului",
-      "Tablouri de paralelare MPAC, pentru sincronizarea mai multor generatoare într-o singură instalație de rezervă",
+      "Controlere MPAC 1200 și MPAC 1500 pentru comutatoarele automate de transfer, până la 4000 A",
       "Instrument propriu de localizare a distribuitorilor pe regiuni, disponibil direct pe site-ul producătorului",
     ],
     keyProducts: [
       { name: "Grupuri Electrogene Diesel Seria KD", description: "Familie de generatoare diesel staționare, de la modele compacte precum KD100 până la unități mari precum KD4000, certificate US EPA pentru funcționare de urgență și, la unele modele, cu aprobări CSA, OSHPD Pre-Approval, Seismic Certified și UL 2200. Aplicație tipică: alimentare de rezervă pentru clădiri comerciale și instalații industriale." },
       { name: "Grupuri Electrogene pe Gaz Seria KG", description: "Familie de generatoare pe gaz, redesenată recent conform anunțurilor de pe site, gândită ca alternativă la generatoarele diesel acolo unde alimentarea cu gaz e disponibilă și continuă. Se folosește la alimentarea de rezervă a clădirilor conectate la rețeaua de gaz." },
-      { name: "Controlere de Generator Seriile APM și Decision-Maker", description: "Controlere digitale pentru monitorizarea și comanda generatorului — pornire/oprire automată, afișare parametri electrici și diagnoză de bază. Modelele APM402, APM603, APM804 și Decision-Maker 3500 apar în cataloagele de accesorii ale producătorului, alături de tablourile de paralelare MPAC 1200 și MPAC 1500." },
+      { name: "Controlere de Generator Seriile APM și Decision-Maker", description: "Controlere digitale pentru monitorizarea și comanda generatorului — pornire/oprire automată, afișare parametri electrici și diagnoză de bază. Modelele APM402, APM603, APM804 și Decision-Maker 3500 apar în cataloagele de accesorii ale producătorului, alături de controlerele MPAC 1200 și MPAC 1500 pentru comutatoare automate de transfer." },
       { name: "Comutatoare Automate de Transfer (ATS)", description: "Familie de comutatoare pentru trecerea automată de pe alimentarea din rețea pe generator, cu variante KAS, KUS, KAP, KBC, KBP, KBS, KCC, KCS și KUP, plus KSSB pentru montaje cu funcție de bypass. Alegerea variantei depinde de curentul nominal și de numărul de surse comutate." },
     ],
     industries: [
-      "Centre de date — alimentare de rezervă neîntreruptă pentru echipamente critice",
+      "Centre de date — alimentare de rezervă pentru echipamente critice",
       "Sănătate — generatoare de rezervă pentru spitale și clinici",
       "Tratarea apei și apelor uzate — alimentare de rezervă pentru stații publice",
       "Telecomunicații — alimentare de rezervă pentru stații și facilități de rețea",
@@ -99,7 +99,7 @@ Pentru piața din România, Rehlko are sens la alimentarea de rezervă a centrel
       "UL 2200 — la modelele cu aprobare Seismic Certified",
       "CSA — aprobare menționată la modelele diesel verificate",
     ],
-    infinitrade: `Pentru Rehlko lucrăm cu fișele publice din cataloagele producătorului și cu ce putem și ce nu putem confirma despre disponibilitate, fără date proprii de stoc pentru această gamă. Generatoarele și accesoriile Rehlko ajung la noi la comandă, prin canale de aprovizionare din SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de puterea necesară în kW, tipul de combustibil, tensiunea de lucru și, dacă e cazul, numărul de generatoare care trebuie sincronizate printr-un tablou de paralelare. Nu promitem o livrare mai rapidă decât termenul orientativ și recomandăm confirmarea lui înainte de a-l transmite clientului final.`,
+    infinitrade: `Pentru Rehlko ne bazăm pe fișele publice din cataloagele producătorului; nu avem date proprii de stoc pentru această gamă. Generatoarele și accesoriile Rehlko ajung la noi la comandă, prin canale de aprovizionare din SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de puterea necesară în kW, tipul de combustibil, tensiunea de lucru și, dacă e cazul, numărul de generatoare care trebuie sincronizate printr-un tablou de paralelare. Nu promitem o livrare mai rapidă decât termenul orientativ și recomandăm confirmarea lui înainte de a-l transmite clientului final.`,
     limitation: "Nu putem confirma un termen de intervenție tehnică locală sau piese de schimb specifice modelelor mai vechi din gama Rehlko.",
     productCodes: [
       { code: "KD100", description: "grup electrogen diesel, familia KD, certificare US EPA" },
@@ -115,20 +115,20 @@ Pentru piața din România, Rehlko are sens la alimentarea de rezervă a centrel
       { code: "2000REOZMD", description: "grup electrogen diesel, seria REOZM, putere foarte mare" },
       { code: "APM603", description: "controler digital de generator, familia APM" },
       { code: "Decision-Maker 3500", description: "controler de generator, monitorizare și comandă la distanță" },
-      { code: "MPAC 1500", description: "tablou de paralelare pentru sincronizarea mai multor generatoare" },
+      { code: "MPAC 1500", description: "controler pentru comutatoare automate de transfer, curent până la 4000 A, 115-600 V" },
       { code: "KSSB", description: "comutator automat de transfer cu funcție de bypass" },
     ],
     faq: [
-      { q: "Ce produce Rehlko?", a: "Rehlko, fost Kohler Power Systems, fabrică grupuri electrogene diesel și pe gaz, de la 15 kW până la câțiva megawați, alături de comutatoare automate de transfer și controlere pentru generator. Producătorul are sediul în SUA și certifică modelele diesel conform standardului US EPA pentru funcționare de urgență staționară." },
-      { q: "Cum aleg un generator Rehlko după model?", a: "Pornești de la puterea necesară în kW și de la tipul de combustibil — diesel din familia KD sau gaz din familia KG. Dacă instalația are mai multe generatoare, verifici și compatibilitatea cu un tablou de paralelare MPAC și cu un controler din familia APM sau Decision-Maker." },
+      { q: "Ce produce Rehlko?", a: "Rehlko, fost Kohler Power Systems, fabrică grupuri electrogene diesel și pe gaz, de la 10 kW până la 4 MW pentru gama diesel, alături de comutatoare automate de transfer și controlere pentru generator. Producătorul are sediul în SUA și certifică modelele diesel conform standardului US EPA pentru funcționare de urgență staționară." },
+      { q: "Cum aleg un generator Rehlko după model?", a: "Pornești de la puterea necesară în kW și de la tipul de combustibil — diesel din familia KD sau gaz din familia KG. Dacă instalația are mai multe generatoare, verifici și dacă tipul de controler (din familia APM, de exemplu APM603 cu suport pentru funcționare în paralel, sau Decision-Maker) este compatibil cu modelul ales." },
       { q: "Se poate procura Rehlko în România sau Europa?", a: "Da, la comandă; site-ul oficial are un instrument de căutare a distribuitorilor pe regiuni, dar nu am confirmat direct un birou Rehlko dedicat pieței europene. Aducem generatoarele și accesoriile prin canalele de aprovizionare disponibile din SUA, cu un termen orientativ de 1–4 săptămâni." },
       { q: "Ce comutator automat de transfer recomandă Rehlko pentru un generator staționar?", a: "Familia de comutatoare KAS, KUS, KAP, KBC, KBP, KBS, KCC, KCS și KUP acoperă majoritatea instalațiilor staționare, iar varianta KSSB adaugă funcție de bypass pentru mentenanță fără întreruperea alimentării. Alegerea exactă depinde de curentul nominal al instalației și de numărul de surse comutate." },
       { q: "Ce trebuie să trimit pentru o ofertă de generator Rehlko?", a: "Puterea necesară în kW, tipul de combustibil disponibil, tensiunea de lucru și, dacă instalația are mai multe generatoare, numărul lor și tipul de tablou de paralelare dorit. Aceste informații permit identificarea rapidă a modelului din familia KD sau KG potrivit aplicației." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Kohler Power Systems is now Rehlko", url: "https://www.powersystems.rehlko.com/", publisher: "Rehlko", accessed: "2026-09-26" },
       { title: "Diesel Generators — Rehlko Power Systems", url: "https://www.powersystems.rehlko.com/products/Diesel+Generators", publisher: "Rehlko", accessed: "2026-09-26" },
@@ -142,7 +142,7 @@ Pentru piața din România, Rehlko are sens la alimentarea de rezervă a centrel
     headquarters: "SUA",
     overview: `TESCOM este o marcă americană a grupului Emerson, specializată în regulatoare de presiune și valve de control pentru fluide și gaze de înaltă puritate, cu sediul de brand în SUA, în cadrul diviziei Emerson Discrete Automation. Gama acoperă regulatoare miniaturale de mare precizie precum seria 10-X, regulatoare de laborator din familiile 44 și 22, valve motorizate de control precum RC-X și panouri centrale pentru distribuția gazelor analitice. Din această gamă putem oferta regulatoarele și valvele de proces cerute la instalațiile de laborator și de gaze speciale din România.
 
-Ce diferențiază gama TESCOM este atenția la puritatea fluidului controlat — corpuri din inox 316L, diafragme din Hastelloy, finisaje interioare fine (10 Ra microinch) și rate de scurgere verificate până la 1×10⁻⁸ mbar·l/s He la panourile de înaltă puritate. Regulatorul miniatural 10-X acoperă presiuni de intrare de până la 150 psig, în timp ce valva motorizată RC-X ajunge la 15.000 psig și integrează protecție ATEX pentru zone cu risc de explozie. Seriile numerice 44 și 22 sunt regulatoarele de gaz folosite tipic în laboratoare și pe linii de analiză.
+Ce diferențiază gama TESCOM este atenția la puritatea fluidului controlat — corpuri din inox 316L, diafragme din Hastelloy, finisaje interioare fine (10 Ra microinch) și rate de scurgere verificate până la 1×10⁻⁸ mbar·l/s He la panourile de înaltă puritate. Regulatorul miniatural 10-X acoperă presiuni de intrare de până la 150 psig, în timp ce valva motorizată RC-X ajunge la 15.000 psig și integrează protecție ATEX pentru zone cu risc de explozie. Seria numerică 44 cuprinde regulatoare de gaz într-o treaptă, destinate tipic laboratoarelor și liniilor de analiză.
 
 Pentru piața din România, TESCOM are sens la laboratoare de analiză, la stațiile de eșantionare de gaze și la instalațiile unde puritatea fluidului sau presiunea de lucru depășesc ce acoperă un regulator industrial obișnuit. Alegerea variantei corecte pornește de la presiunea de intrare și de ieșire necesară și de la materialul compatibil cu fluidul.`,
     whyChoose: [
@@ -150,11 +150,11 @@ Pentru piața din România, TESCOM are sens la laboratoare de analiză, la staț
       "Rate de scurgere verificate până la 1×10⁻⁸ mbar·l/s He, la panourile de gaze analitice",
       "Valva motorizată RC-X acoperă presiuni de până la 15.000 psig, cu protecție ATEX pentru zone explozive",
       "Regulator miniatural 10-X pentru sisteme OEM și cutii de gaze cu spațiu de montaj redus",
-      "Marcă Emerson, cu documentație tehnică publică detaliată pentru fiecare serie de regulator",
+      "Marcă Emerson, cu documentație tehnică publică pe site-ul producătorului",
     ],
     keyProducts: [
       { name: "Regulator Miniatural de Înaltă Puritate Seria 10-X", description: "Regulator de presiune tip free poppet, pentru sisteme OEM și cutii de gaze cu spațiu de montaj redus. Presiune de intrare maximă 150 psig, ieșire reglabilă între 3 și 100 psig, corp din inox 316L și diafragmă din Hastelloy, cu finisaj interior de 10 Ra microinch pentru puritate ridicată." },
-      { name: "Regulatoare de Laborator Seriile 44 și 22", description: "Regulatoare de presiune într-o treaptă, pentru sisteme de gaze de laborator, eșantionare și analiză cromatografică. Seria 44-2200 acoperă presiuni de intrare de până la 3.500 psig, cu ieșiri reglabile între 0 și 500 psig, iar seria 22-2200 vine în variantă electropolizată pentru puritate suplimentară." },
+      { name: "Regulatoare de Laborator Seriile 44 și 22", description: "Regulatoare de presiune într-o treaptă, pentru sisteme de gaze de laborator, eșantionare și analiză cromatografică. Seria 44-2200 acoperă presiuni de intrare de până la 3.500 psig, cu ieșiri reglabile între 0 și 500 psig." },
       { name: "Valvă Motorizată de Control RC-X", description: "Valvă electronică de control al debitului, pentru operații de injecție chimică în medii corozive sau periculoase. Alimentare 24 VDC, semnal de control 4-20mA, presiune maximă 15.000 psig, corp din inox 316L și protecție ATEX II2G pentru zone cu risc de explozie." },
       { name: "Panou Central de Înaltă Puritate (Compact Panel)", description: "Unitate centrală compatibilă VCR pentru alimentarea cu gaze analitice de înaltă puritate în laboratoare, cu comutare automată pe butelia de rezervă și monitorizare a buteliilor goale prin manometre de contact. Presiune de intrare de până la 3.480 psig, corp din inox cu scaune ceramice." },
     ],
@@ -167,34 +167,34 @@ Pentru piața din România, TESCOM are sens la laboratoare de analiză, la staț
     certifications: [
       "ATEX — pe modelele destinate zonelor cu risc de explozie, precum valva RC-X",
     ],
-    infinitrade: `Pentru TESCOM lucrăm cu fișele tehnice publice de pe site-ul Emerson și cu ce putem și ce nu putem confirma din cataloagele citite, fără date proprii de stoc pentru această gamă. Regulatoarele și valvele TESCOM ajung la noi la comandă, prin rețeaua Emerson din SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de codul exact al seriei — 10-X, 44-2200 sau RC-X, de exemplu —, de presiunile de intrare și ieșire dorite și de materialul compatibil cu fluidul controlat. Nu promitem un termen mai scurt decât cel orientativ și verificăm disponibilitatea reală înainte de confirmarea comenzii.`,
+    infinitrade: `Pentru TESCOM ne bazăm pe fișele tehnice publice de pe site-ul Emerson; nu avem date proprii de stoc pentru această gamă. Regulatoarele și valvele TESCOM ajung la noi la comandă, prin rețeaua Emerson din SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de codul exact al seriei — 10-X, 44-2200 sau RC-X, de exemplu —, de presiunile de intrare și ieșire dorite și de materialul compatibil cu fluidul controlat. Nu promitem un termen mai scurt decât cel orientativ și verificăm disponibilitatea reală înainte de confirmarea comenzii.`,
     limitation: "Nu putem confirma configurarea software sau calibrarea specializată a valvelor TESCOM la fața locului, în afara documentației publice a producătorului.",
     productCodes: [
       { code: "RC-X", description: "valvă motorizată de control al debitului la injecție chimică" },
       { code: "10-X", description: "regulator miniatural de înaltă puritate, presiune intrare max. 150 psig" },
       { code: "44-2200", description: "regulator de presiune într-o treaptă pentru gaze de laborator" },
       { code: "44-3200", description: "regulator de presiune într-o treaptă pentru gaze industriale" },
-      { code: "44-5200", description: "regulator de presiune cu control, familia numerică 44" },
-      { code: "22-2200", description: "regulator de presiune electropolizat, pentru puritate suplimentară" },
+      { code: "44-5200", description: "regulator din familia numerică 44; caracteristicile se confirmă pe cod, din documentația Emerson" },
+      { code: "22-2200", description: "regulator de presiune din familia numerică 22; caracteristicile se confirmă pe cod, din documentația Emerson" },
       { code: "Compact Panel", description: "panou central VCR pentru distribuția gazelor analitice de laborator" },
-      { code: "Metal Diaphragm Shutoff Valve", description: "robinet de închidere cu diafragmă metalică" },
-      { code: "Metal Bellows Shutoff Valve", description: "robinet de închidere cu burduf metalic, etanșare fără scurgeri" },
-      { code: "Diaphragm Metering Valve", description: "robinet de dozare cu diafragmă pentru control fin al debitului" },
-      { code: "High Pressure Valve (gas)", description: "robinet pentru gaze la presiune înaltă" },
-      { code: "WegaMed 300", description: "regulator din gama TESCOM pentru gaze medicale" },
-      { code: "WegaMed Single", description: "regulator cu o treaptă din gama pentru gaze medicale" },
+      
+      
+      
+      
+      
+      
     ],
     faq: [
       { q: "Ce produce TESCOM?", a: "TESCOM, marcă a grupului Emerson, fabrică regulatoare de presiune și valve de control pentru fluide și gaze de înaltă puritate. Gama acoperă regulatoare miniaturale precum seria 10-X, regulatoare de laborator din familiile 44 și 22 și valve motorizate precum RC-X, folosite în laboratoare, analiză de gaze și procese industriale cu cerințe stricte de puritate." },
       { q: "Cum aleg un regulator TESCOM după cod?", a: "Pornești de la presiunea de intrare și de ieșire necesară, apoi verifici materialul de contact cu fluidul — inox 316L, Hastelloy sau variante electropolizate pentru puritate suplimentară. Codul exact, de tipul 44-2200 sau 10-X, se identifică cel mai sigur după plăcuța regulatorului sau după fișa tehnică publicată de Emerson." },
       { q: "Se poate procura TESCOM în România sau Europa?", a: "Da, la comandă; TESCOM este o marcă globală a grupului Emerson, iar documentația tehnică este publicată pe site-ul internațional al producătorului. Nu am confirmat direct o pagină dedicată distribuitorilor europeni pentru acest brand, așa că aducem regulatoarele prin canalele de aprovizionare disponibile, cu un termen orientativ de 1–4 săptămâni." },
-      { q: "Ce echivalent are seria 44 de la TESCOM?", a: "Seria 44 este familia de regulatoare de presiune într-o treaptă pentru gaze de laborator, cu variante numerotate după presiunea de lucru — 44-2200, 44-3200 sau 44-5200, de exemplu. Alegerea exactă depinde de presiunea de intrare disponibilă și de ieșirea reglabilă necesară pentru aplicație." },
+      { q: "Ce echivalent are seria 44 de la TESCOM?", a: "Seria 44 este familia de regulatoare de presiune într-o treaptă pentru gaze de laborator, cu modele precum 44-2200 sau 44-3200 (regulator compact, cu debit mare). Alegerea exactă depinde de presiunea de intrare disponibilă și de ieșirea reglabilă necesară pentru aplicație." },
       { q: "Ce trebuie să trimit pentru o ofertă de regulator TESCOM?", a: "Codul seriei, dacă îl cunoști, presiunea de intrare disponibilă, presiunea de ieșire dorită și tipul de gaz sau fluid controlat, inclusiv cerințele de puritate. Pentru valva RC-X este utilă și informația despre mediul de lucru, corozivitate și clasificarea de zonă explozivă a instalației." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "TESCOM | Precise flow and high-pressure control regulators and valves", url: "https://discreteautomation.emerson.com/brands/tescom", publisher: "Emerson", accessed: "2026-09-26" },
       { title: "TESCOM RC-X Motorized IRC Valve", url: "https://discreteautomation.emerson.com/product/tescom-rc-x", publisher: "Emerson", accessed: "2026-09-26" },
@@ -207,7 +207,7 @@ Pentru piața din România, TESCOM are sens la laboratoare de analiză, la staț
   topworx: {
     name: "TopWorx",
     headquarters: "SUA",
-    overview: `TopWorx este o marcă americană a grupului Emerson, specializată în senzori de proximitate fără contact și monitoare de poziție pentru robineți, cu sediul de brand în SUA, în cadrul diviziei Emerson Discrete Automation. Gama acoperă senzorii GO Switch (modelele 11, 12, 22, 81 și altele), monitoarele de poziție din familiile TX și TV, controlerul de robinet DXS și cutia de comutare DVR. Din această gamă putem oferta senzorii și monitoarele de poziție cerute cel mai des la automatizarea robineților din instalațiile industriale românești.
+    overview: `TopWorx este o marcă americană a grupului Emerson, specializată în senzori de proximitate fără contact și monitoare de poziție pentru robineți, cu sediul de brand în SUA, în cadrul diviziei Emerson Discrete Automation. Gama acoperă senzorii GO Switch (modelele 11, 12, 22, 81 și altele), monitoarele de poziție din familiile TX și TV, controlerul de robinet DXS și cutia de comutare DVR. Din această gamă putem oferta senzorii și monitoarele de poziție potrivite pentru automatizarea robineților din instalațiile industriale.
 
 Ce diferențiază gama TopWorx este principiul de detecție magnetică fără contact al senzorilor GO Switch, care „detectează ca un senzor de proximitate și funcționează ca un limitator", cu contacte etanșate ce elimină uzura mecanică. Intervalul de temperatură publicat merge de la -50°C până la +204°C, iar variantele certificate acoperă zone cu risc de explozie de tip Flameproof, Non-Incendive și Intrinsically Safe. Controlerul DXS integrează într-o singură carcasă din inox 316 funcțiile de rețea, pilot valve și senzori de poziție, cu protocoale FOUNDATION Fieldbus, AS-Interface și DeviceNet, iar cutia de comutare DVR e gândită pentru montaj în spații foarte înguste.
 
@@ -223,7 +223,7 @@ Pentru piața din România, TopWorx are sens la automatizarea robineților din i
       { name: "Senzori de Proximitate GO Switch", description: "Familie de senzori fără contact, cu detecție magnetică și contacte sigilate, disponibili în variante pătrate (Model 11, 12, 22) și rotunde cu detecție frontală (Model 81). Interval de temperatură de la -50°C la +204°C, cu certificări pentru zone explozive și variante din inox pentru medii corozive. Aplicație tipică: monitorizarea poziției robineților și a echipamentelor rotative." },
       { name: "Controler de Robinet DXS", description: "Controler din inox 316 care integrează într-o singură carcasă funcțiile de rețea, pilot valve și senzori de poziție tip GO Switch, cu certificări IECEx, ATEX, UL, NEPSI, KOSHA, InMetro, PESO și EAC. Suportă protocoalele FOUNDATION Fieldbus, AS-Interface și DeviceNet, pentru operațiuni standardizate în instalații globale." },
       { name: "Cutie de Comutare DVR", description: "Switchbox cu design cu came, pentru montaj direct pe robinet în spații foarte înguste, cu carcasă IP66/67 și UL Type 4/4X, rotație de arbore de 90 de grade. Folosit în industria apei și apelor uzate, utilități industriale și sectorul alimentar și băuturi, unde spațiul de montaj este limitat." },
-      { name: "Monitoare de Poziție Robinet Familiile TX și TV", description: "Monitoare de poziție pentru robineți, montate pe actuatoare pneumatice sau electrice, în variantele TX Series, TXP, TVA, TVF și TVH. Se folosesc pentru semnalizarea la distanță a stării deschis/închis a robinetului în instalații de proces." },
+      { name: "Monitoare de Poziție Robinet Familiile TX și TV", description: "Cutii de comutare compacte pentru monitorizarea poziției robineților, în variantele TX Series, TXP, TVA, TVF și TVH. Se folosesc pentru semnalizarea la distanță a stării deschis/închis a robinetului în instalații de proces." },
     ],
     industries: [
       "Petrol și gaze — senzori GO Switch pentru aplicații offshore subacvatice, până la 7.010 m adâncime",
@@ -236,7 +236,7 @@ Pentru piața din România, TopWorx are sens la automatizarea robineților din i
       "ATEX/IECEx — pe seria GO Switch și pe controlerul DXS, pentru zone cu risc de explozie",
       "UL — menționat pe fișa tehnică a controlerului DXS",
     ],
-    infinitrade: `Pentru TopWorx lucrăm cu fișele tehnice publice de pe site-ul Emerson și cu ce putem și ce nu putem confirma din paginile de produs citite, fără date proprii de stoc pentru această gamă. Senzorii și monitoarele TopWorx ajung la noi la comandă, prin rețeaua Emerson din SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de modelul exact — Model 22, DXS sau DVR, de exemplu —, de clasificarea zonei de instalare, dacă instalația are risc de explozie, și de tipul de robinet sau actuator pe care se montează senzorul. Nu promitem un termen mai scurt decât cel orientativ și verificăm disponibilitatea reală înainte de a o confirma clientului.`,
+    infinitrade: `Pentru TopWorx ne bazăm pe fișele tehnice publice de pe site-ul Emerson; nu avem date proprii de stoc pentru această gamă. Senzorii și monitoarele TopWorx ajung la noi la comandă, prin rețeaua Emerson din SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de modelul exact — Model 22, DXS sau DVR, de exemplu —, de clasificarea zonei de instalare, dacă instalația are risc de explozie, și de tipul de robinet sau actuator pe care se montează senzorul. Nu promitem un termen mai scurt decât cel orientativ și verificăm disponibilitatea reală înainte de a o confirma clientului.`,
     limitation: "Nu putem confirma programarea unei configurări software specializate pentru controlerul DXS direct la instalarea din România.",
     productCodes: [
       { code: "Model 11", description: "senzor de proximitate GO Switch, rază 3/8\", contacte placate cu aur" },
@@ -250,7 +250,7 @@ Pentru piața din România, TopWorx are sens la automatizarea robineților din i
       { code: "TVA", description: "monitor de poziție pentru robineți, familia TV" },
       { code: "TVF", description: "monitor de poziție pentru robineți, variantă a familiei TV" },
       { code: "TVH", description: "monitor de poziție pentru robineți, variantă a familiei TV" },
-      { code: "Defender", description: "din gama de monitoare de poziție TopWorx pentru robineți" },
+      { code: "Defender", description: "produs din gama TopWorx; specificațiile se confirmă pe cod, din documentația Emerson" },
       { code: "Thief hatch monitoring kits", description: "kit de monitorizare pentru capace de vizitare la rezervoare" },
       { code: "Safety Shower/Eyewash Monitoring Kit", description: "kit de monitorizare pentru dușuri de siguranță și stații de spălare a ochilor" },
     ],
@@ -263,8 +263,8 @@ Pentru piața din România, TopWorx are sens la automatizarea robineților din i
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "TopWorx — Discrete Automation", url: "https://discreteautomation.emerson.com/brands/topworx", publisher: "Emerson", accessed: "2026-09-26" },
       { title: "TopWorx GO Switch Model 22", url: "https://discreteautomation.emerson.com/product/topworx-22", publisher: "Emerson", accessed: "2026-09-26" },
@@ -278,7 +278,7 @@ Pentru piața din România, TopWorx are sens la automatizarea robineților din i
     name: "Weiler Abrasives",
     founded: 1944,
     headquarters: "Cresco, Pennsylvania, SUA",
-    overview: `Weiler Abrasives este un producător american de abrazive și perii industriale, cu sediul central la Cresco, Pennsylvania, SUA. Istoria companiei urcă până în 1944, când Karl E. Weiler a înființat Weiler Brush Company în Long Island, New York; producătorul s-a mutat la Cresco în 1957 și a extins gama spre abrazive lipite și pe suport prin achiziții succesive. Gama actuală acoperă discuri de tăiere și polizare, discuri lamelare, abrazive nețesute și o gamă largă de perii tehnice și de sârmă. Din această gamă putem oferta discurile abrazive și periile tehnice cerute cel mai des la atelierele de sudură și fabricație metalică din România.
+    overview: `Weiler Abrasives este un producător american de abrazive și perii industriale, cu sediul central la Cresco, Pennsylvania, SUA. Istoria companiei urcă până în 1944, când Karl E. Weiler a înființat Weiler Brush Company în Long Island, New York; producătorul s-a mutat la Cresco în 1957 și a extins gama spre abrazive lipite și pe suport prin achiziții succesive. Gama actuală acoperă discuri de tăiere și polizare, discuri lamelare, abrazive nețesute și o gamă largă de perii tehnice și de sârmă. Din această gamă putem oferta discurile abrazive și periile tehnice potrivite pentru atelierele de sudură și fabricație metalică.
 
 Ce diferențiază Weiler Abrasives este acoperirea celor patru categorii de bază — abrazive lipite, abrazive pe suport, abrazive nețesute și perii tehnice — sub linii proprii precum Tiger, Tiger Zirc, Tiger AO, Wolverine și CrossFlex. Discurile lamelare Tiger Zirc și discurile de tăiere Wolverine sunt disponibile în dimensiuni și granulații multiple, cu găuri de arbore standardizate, iar periile CrossFlex sunt gândite special pentru curățarea găurilor și alezajelor. Compania are din 2015 și o filială europeană dedicată, rezultată din achiziția SwatyComet, cu site propriu pentru piața EMEA.
 
@@ -291,8 +291,8 @@ Pentru piața din România, Weiler Abrasives are sens la atelierele de sudură, 
       "Gamă largă de perii tehnice — de sârmă, de tub, de scărpinat manual și perii pentru curățarea alezajelor",
     ],
     keyProducts: [
-      { name: "Abrazive Lipite — Discuri de Tăiere și Polizare", description: "Discuri de tăiere și polizare portabile, disponibile în linia Wolverine și în linia premium Tiger, cu diametre și grosimi multiple și găuri de arbore standardizate (ex. 1/4\", 20mm). Aplicație tipică: debitare și polizare metal în ateliere de fabricație și sudură." },
-      { name: "Abrazive pe Suport — Discuri Lamelare Fibră", description: "Discuri lamelare (flap discs) din linia Tiger Zirc, cu granulații multiple (ex. 60Z) și diametre de la câțiva țoli în sus, montate pe arbore prin gaură centrală filetată sau deschisă. Folosite pentru finisare și îndepărtare de material pe suprafețe metalice, ca alternativă mai flexibilă la discul de polizare rigid." },
+      { name: "Abrazive Lipite — Discuri de Tăiere și Polizare", description: "Discuri de tăiere și polizare portabile, disponibile în linia Wolverine și în linia Tiger, cu diametre și grosimi multiple și găuri de arbore standardizate (ex. 1/4\", 20mm). Aplicație tipică: debitare și polizare metal în ateliere de fabricație și sudură." },
+      { name: "Abrazive pe Suport — Discuri Lamelare", description: "Discuri lamelare (flap discs) din linia Tiger Zirc, cu granulații multiple (ex. 60Z) și diametre de la câțiva țoli în sus, montate pe arbore prin gaură centrală filetată sau deschisă. Folosite pentru finisare și îndepărtare de material pe suprafețe metalice, ca alternativă mai flexibilă la discul de polizare rigid." },
       { name: "Abrazive Nețesute — Discuri de Condiționare a Suprafeței", description: "Discuri și role nețesute pentru curățare, finisare și pregătirea suprafeței înainte de vopsire sau sudură, mai puțin agresive decât un disc abraziv lipit. Completează gama de discuri lamelare acolo unde e nevoie de o finisare mai fină, fără îndepărtare mare de material." },
       { name: "Perii Tehnice și de Sârmă", description: "Gamă largă de perii — cupe cu sârmă răsucită sau simplă, perii de tub (power tube), perii de mână pentru scărpinat și perii CrossFlex pentru curățarea alezajelor și găurilor. Disponibile în oțel, inox sau fibră, cu montaj pe filet sau ax, pentru curățare, decapare și pregătire de suprafață." },
     ],
@@ -303,7 +303,7 @@ Pentru piața din România, Weiler Abrasives are sens la atelierele de sudură, 
       "Aerospațial — finisare de precizie cu discuri nețesute și perii tehnice",
       "Șantiere navale — pregătire suprafață cu perii de sârmă și discuri de curățare",
     ],
-    infinitrade: `Pentru Weiler Abrasives lucrăm cu ce publică producătorul pe site-ul global și pe cel european, cu ce putem și ce nu putem confirma din cataloagele citite, fără date proprii de stoc pentru această gamă. Discurile și periile Weiler Abrasives ajung la noi la comandă, prin filiala europeană rezultată din achiziția SwatyComet sau direct din SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de codul de produs de pe ambalaj, dacă există, de dimensiunea discului sau periei, de granulație și de tipul de material prelucrat. Nu promitem un termen mai scurt decât cel orientativ și confirmăm disponibilitatea reală înainte de a stabili o dată fermă cu clientul.`,
+    infinitrade: `Pentru Weiler Abrasives ne bazăm pe ce publică producătorul pe site-ul global și pe cel european; nu avem date proprii de stoc pentru această gamă. Discurile și periile Weiler Abrasives ajung la noi la comandă, prin filiala europeană rezultată din achiziția SwatyComet sau direct din SUA; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de codul de produs de pe ambalaj, dacă există, de dimensiunea discului sau periei, de granulație și de tipul de material prelucrat. Nu promitem un termen mai scurt decât cel orientativ și confirmăm disponibilitatea reală înainte de a stabili o dată fermă cu clientul.`,
     limitation: "Nu putem confirma echivalențe exacte de granulație sau de duritate față de alte mărci de abrazive fără codul de produs Weiler.",
     productCodes: [
       { code: "44089", description: "perie acid/flux 3/8\", fir din păr de cal" },
@@ -311,7 +311,7 @@ Pentru piața din România, Weiler Abrasives are sens la atelierele de sudură, 
       { code: "13240", description: "perie cupă cu sârmă răsucită 3\", fir oțel .014\", filet M10x1.25" },
       { code: "70215", description: "mătură de sârmă 16\", fir rotund" },
       { code: "21181", description: "perie de tub 7/16\", fir inox .005\", lungime 1\"" },
-      { code: "59734", description: "disc fibră Tiger Zirc 4-1/2\", grit 60Z, gaură arbore 7/8\"" },
+      { code: "59734", description: "disc din linia Tiger Zirc (tipul se confirmă pe codul de produs), 4-1/2\", grit 60Z, gaură arbore 7/8\"" },
       { code: "12816", description: "perie cupă cu un rând de sârmă 6\", fir oțel .023\", filet 5/8\"-11" },
       { code: "34179", description: "perie CrossFlex pentru alezaje, diametru 20mm, grit 180SC" },
       { code: "57094", description: "disc de tăiere Tiger AO 14\"x1/8\", A30S, gaură 20mm, viteză mare" },
@@ -324,15 +324,15 @@ Pentru piața din România, Weiler Abrasives are sens la atelierele de sudură, 
     ],
     faq: [
       { q: "Ce produce Weiler Abrasives?", a: "Weiler Abrasives fabrică abrazive lipite, abrazive pe suport, abrazive nețesute și perii tehnice și de sârmă, sub linii proprii precum Tiger, Wolverine și CrossFlex. Producătorul american, cu sediul la Cresco, Pennsylvania, are rădăcini în fabricația de perii din 1944 și o filială europeană dedicată pieței EMEA." },
-      { q: "Cum aleg un disc Weiler Abrasives după cod?", a: "Codul de produs de pe ambalaj identifică exact dimensiunea, granulația și tipul de material abraziv — de exemplu, un cod din linia Tiger Zirc arată diametrul discului și granulația RFD. Dacă nu ai codul, dimensiunea găurii de arbore și materialul prelucrat ajută la identificarea variantei echivalente." },
+      { q: "Cum aleg un disc Weiler Abrasives după cod?", a: "Codul de produs de pe ambalaj identifică exact articolul din catalogul producătorului, cu dimensiunea, granulația și tipul de material abraziv. Dacă nu aveți codul, dimensiunea găurii de arbore și materialul prelucrat ajută la orientarea spre varianta potrivită, pe care o confirmăm pe baza codului." },
       { q: "Se poate procura Weiler Abrasives în România sau Europa?", a: "Da, la comandă; Weiler Abrasives are o filială europeană dedicată, rezultată din achiziția SwatyComet din 2015, cu site propriu pentru piața EMEA. Aducem produsele prin acest canal sau direct din SUA, în funcție de disponibilitate, cu un termen orientativ de 1–4 săptămâni." },
       { q: "Ce diferență este între abrazivele lipite și cele nețesute de la Weiler Abrasives?", a: "Abrazivele lipite (discuri de tăiere și polizare) îndepărtează material rapid, fiind mai agresive, în timp ce abrazivele nețesute condiționează suprafața mai fin, pentru curățare sau pregătire înainte de vopsire ori sudură. Alegerea depinde de cât material trebuie îndepărtat și de finisajul final dorit." },
       { q: "Ce trebuie să trimit pentru o ofertă de produse Weiler Abrasives?", a: "Codul de produs de pe ambalaj, dacă îl ai, sau dimensiunea discului ori periei, granulația dorită și materialul prelucrat. Pentru perii tehnice, e util și tipul de fir (oțel, inox) și dimensiunea filetului sau axului pe care se montează." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Weiler Abrasives — Home", url: "https://www.weilerabrasives.com/", publisher: "Weiler Abrasives", accessed: "2026-09-26" },
       { title: "Company — Weiler Abrasives", url: "https://www.weilerabrasives.com/company", publisher: "Weiler Abrasives", accessed: "2026-09-26" },
