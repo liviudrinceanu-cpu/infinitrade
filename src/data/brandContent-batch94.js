@@ -5,29 +5,29 @@ export const brandContentBatch94 = {
   newco: {
     name: "Newco",
     headquarters: "Houston, Texas, SUA",
-    overview: `Newco este marca de robineți industriali a producătorului american Newmans Valve, cu sediul la Houston, Texas. Gama acoperă patru familii de bază: robineți cu sertar, cu ventil (globe), de reținere (check) și cu bilă, fabricați din oțel carbon turnat sau forjat, oțel inoxidabil, duplex, super duplex și aliaje speciale precum Inconel sau Hastelloy. Dimensiunile merg de la 1/4″ până la 48″, cu capabilitate de fabricație până la 72″ la comandă specială. Pentru piața din România putem oferta robineți Newco pentru linii de proces unde un corp turnat sau forjat trebuie să reziste la presiuni și temperaturi ridicate.
+    overview: `Newco este marca de robineți industriali a producătorului american Newmans Valve, cu sediul la Houston, Texas. Gama acoperă patru familii de bază: robineți cu sertar, cu ventil (globe), de reținere (check) și cu bilă, fabricați din oțel carbon turnat sau forjat, oțel inoxidabil și aliaje speciale. Dimensiunile merg de la 1/4″ până la 48″, cu capabilitate de fabricație până la 72″ la comandă specială. Pentru piața din România putem oferta robineți Newco pentru linii de proces unde un corp turnat sau forjat trebuie să reziste la presiuni și temperaturi ridicate.
 
-Ce diferențiază gama Newco e acoperirea claselor de presiune ANSI de la 150 până la 4500 lbs: robineții turnați respectă API 600 și ASME B16.34, iar variantele forjate API 602, cu bonetă înfiletată sau sudată pentru presiuni mari. Robineții cu bilă flotantă sau pe trunion respectă API 608, API 607 pentru rezistență la foc și API 6D pentru transport prin conducte. În aceeași categorie de robineți turnați și forjați pentru presiuni înalte se regăsește și Bonney Forge. Compania produce sub același acoperiș și marca Powell, cu robineți turnați cu bonetă sigilată prin presiune pentru clasele 600 până la 4500.
+Ce diferențiază gama Newco e acoperirea claselor de presiune ANSI de la 150 până la 4500 lbs: robineții turnați respectă API 600 și ASME B16.34, iar variantele forjate API 602, cu bonetă înfiletată sau sudată pentru presiuni mari. Robineții cu bilă flotantă sau pe trunion respectă API 608, API 607 pentru rezistență la foc și API 6D pentru transport prin conducte. În aceeași categorie de robineți turnați și forjați pentru presiuni înalte se regăsește și Bonney Forge. Newmans Valve oferă și marca Powell, cu robineți cu bonetă sigilată prin presiune pentru clasele 600 până la 4500.
 
 Pentru un inginer de achiziții din România, Newco înseamnă acces la robineți turnați și forjați pentru instalații unde certificarea API contează — rafinării, stații de compresoare pe conducte de gaz sau linii auxiliare din centrale electrice. Montajul rămâne în sarcina antreprenorului local; noi facilităm aprovizionarea cu corpul de robinet certificat și materialul cerut de proiect.`,
     whyChoose: [
       "Clase de presiune de la 150 la 4500 lbs, de la linii de proces standard până la presiuni foarte ridicate",
-      "Materiale de la oțel carbon turnat până la duplex, super duplex și aliaje Inconel sau Hastelloy",
-      "Robineți cu bilă certificați API 607 pentru rezistență la foc, relevanți unde siguranța la incendiu e cerută explicit",
+      "Materiale de la oțel carbon turnat sau forjat până la oțel inoxidabil și aliaje speciale",
+      "Robineți cu bilă conform API 607 pentru rezistență la foc, relevanți unde siguranța la incendiu e cerută explicit",
       "Variante forjate API 602 cu bonetă sudată, pentru presiuni mari la dimensiuni mici de conductă",
       "Gamă completă de tipuri constructive — sertar, ventil, reținere și bilă — de la același producător",
     ],
     keyProducts: [
-      { name: "Newco Robineți din Oțel Turnat", description: "Robineți sertar, cu ventil și de reținere din oțel carbon turnat, conform API 600 și ASME B16.34, cu bonetă înșurubată. Dimensiuni de la 2″ la 48″, cu execuții speciale până la 72″. Clase de presiune de la 150 la 2500. Clientul trebuie să confirme tipul constructiv, dimensiunea și clasa dorită." },
+      { name: "Newco Robineți din Oțel Turnat", description: "Robineți sertar, cu ventil și de reținere din oțel carbon turnat, conform API 600 și ASME B16.34. Dimensiuni de la 2″ la 48″, cu execuții speciale până la 72″. Clase de presiune de la 150 la 2500. Clientul trebuie să confirme tipul constructiv, dimensiunea și clasa dorită." },
       { name: "Newco Robineți din Oțel Forjat", description: "Robineți sertar, cu ventil, de reținere și tip Y din oțel forjat, conform API 602, cu bonetă înșurubată sau sudată. Dimensiuni de la 1/4″ la 2″, clase de presiune de la 150 la 4500 — utili pe linii mici de presiune foarte ridicată din instalații petrochimice." },
       { name: "Newco Robineți cu Bilă", description: "Robineți cu bilă flotantă sau montată pe trunion, conform API 608, API 607 pentru rezistență la foc și API 6D pentru transport prin conducte. Dimensiuni de la 1/2″ la 36″, clase de presiune de la 150 la 2500. Aplicație tipică: izolare rapidă pe conducte de gaz sau țiței." },
-      { name: "Powell Robineți din Oțel Turnat cu Etanșare prin Presiune", description: "Robineți sertar, cu ventil și de reținere cu bonetă sigilată prin presiune, gândiți pentru clasele înalte 600 până la 4500. Dimensiuni de la 2″ la 24″, conform ASME B16.34 — folosiți în centrale electrice unde clasa de presiune depășește ce acoperă o bonetă înșurubată standard." },
+      { name: "Powell Robineți din Oțel Turnat cu Etanșare prin Presiune", description: "Robineți sertar, cu ventil și de reținere cu bonetă sigilată prin presiune, gândiți pentru clasele înalte 600 până la 4500. Dimensiuni de la 2″ la 24″, conform ASME B16.34." },
     ],
     industries: [
       "Downstream petrolier și rafinare — izolare pe linii de proces cu robineți turnați API 600",
       "Producție de energie electrică — robineți forjați pe circuite auxiliare de presiune înaltă",
-      "Transport de gaze prin conducte — robineți cu bilă certificați API 6D",
-      "Procesare cu medii corozive — variante din duplex și super duplex pentru rezistență chimică",
+      "Transport de gaze prin conducte — robineți cu bilă conform API 6D",
+      "Procesare cu medii corozive — variante din oțel inoxidabil și aliaje speciale",
     ],
     certifications: [
       "ASME B16.34 — proiectare robineți industriali",
@@ -40,7 +40,7 @@ Pentru un inginer de achiziții din România, Newco înseamnă acces la robineț
     productCodes: [
       { code: "NEWCO Cast Steel Gate", description: "robinet sertar turnat, API 600, 2″–48″, clase 150–2500" },
       { code: "NEWCO Cast Steel Globe", description: "robinet cu ventil turnat, API 600, clase 150–2500" },
-      { code: "NEWCO Cast Steel Check", description: "robinet de reținere turnat, bonetă înșurubată, clase 150–2500" },
+      { code: "NEWCO Cast Steel Check", description: "robinet de reținere turnat, clase 150–2500" },
       { code: "NEWCO Forged Steel Gate", description: "robinet sertar forjat, API 602, 1/4″–2″, clase 150–4500" },
       { code: "NEWCO Forged Steel Globe", description: "robinet cu ventil forjat, API 602, bonetă sudată sau înșurubată" },
       { code: "NEWCO Forged Steel Check", description: "robinet de reținere forjat, API 602, clase până la 4500" },
@@ -52,15 +52,15 @@ Pentru un inginer de achiziții din România, Newco înseamnă acces la robineț
       { code: "POWELL Cast Steel Check", description: "robinet de reținere turnat, 2″–24″, bonetă sigilată prin presiune" },
     ],
     faq: [
-      { q: "Ce robineți produce Newco?", a: "Newco fabrică robineți industriali cu sertar, cu ventil, de reținere și cu bilă, din oțel carbon turnat sau forjat, oțel inoxidabil, duplex și aliaje speciale, cu sediul de producție la Houston, Texas. Gama acoperă dimensiuni de la 1/4″ până la 48″ și clase de presiune între 150 și 4500 lbs." },
-      { q: "Cum aleg robinetul Newco potrivit pentru o linie de proces?", a: "Ai nevoie de tipul constructiv (sertar, ventil, reținere sau bilă), dimensiunea nominală, clasa de presiune ANSI și materialul de construcție cerut de fluidul din instalație. Pentru medii corozive, variantele din duplex sau super duplex oferă rezistență suplimentară față de oțelul carbon standard." },
-      { q: "Ce echivalent are gama Newco față de Bonney Forge?", a: "Newco și Bonney Forge produc ambele robineți turnați și forjați pentru clase de presiune ridicate, cu certificări API similare; alegerea între ele depinde de disponibilitatea configurației exacte cerute de proiect, nu de o diferență fundamentală de standard." },
+      { q: "Ce robineți produce Newco?", a: "Newco fabrică robineți industriali cu sertar, cu ventil, de reținere și cu bilă, din oțel carbon turnat sau forjat, oțel inoxidabil și aliaje speciale, cu sediul la Houston, Texas. Gama acoperă dimensiuni de la 1/4″ până la 48″ și clase de presiune între 150 și 4500 lbs." },
+      { q: "Cum aleg robinetul Newco potrivit pentru o linie de proces?", a: "Ai nevoie de tipul constructiv (sertar, ventil, reținere sau bilă), dimensiunea nominală, clasa de presiune ANSI și materialul de construcție cerut de fluidul din instalație. Pentru medii corozive, materialul se alege în funcție de fluid, din variantele din oțel inoxidabil sau aliaje speciale oferite de producător." },
+      { q: "Ce echivalent are gama Newco față de Bonney Forge?", a: "Newco și Bonney Forge oferă robineți pentru clase de presiune ridicate; alegerea depinde de configurația exactă cerută de proiect (tip, dimensiune, clasă, material), confirmată din fișele tehnice ale fiecărui producător." },
       { q: "Livrați robineți Newco în România și cât durează?", a: "Da, aducem robineți Newco la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de dimensiune, clasă și material. Termenul exact se confirmă după ce transmiteți specificația completă a robinetului." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products & Catalogs - Newco Valves", url: "https://www.newmansvalves.com/products/products-catalogs/", publisher: "Newmans Valve", accessed: "2026-09-25" },
       { title: "Newmans Valve - Home", url: "https://www.newmansvalves.com", publisher: "Newmans Valve", accessed: "2026-09-25" },
@@ -68,7 +68,7 @@ Pentru un inginer de achiziții din România, Newco înseamnă acces la robineț
   },
   "forbes-marshall": {
     name: "Forbes Marshall",
-    overview: `Forbes Marshall este un producător de echipamente pentru eficiența aburului, cu peste șapte decenii de activitate în domeniu, conform informațiilor publicate pe site-ul propriu. Gama acoperă oale de condens pentru linii principale și pentru procese, robineți și accesorii pentru abur curat, plus soluții de recuperare a condensatului. Pentru piața din România putem oferta din gama de oale de condens și accesorii pentru abur a producătorului.
+    overview: `Forbes Marshall este un producător de echipamente pentru eficiența aburului. Gama acoperă oale de condens pentru linii principale și pentru procese, robineți și accesorii pentru sistemele de abur, plus soluții de recuperare a condensatului. Pentru piața din România putem oferta din gama de oale de condens și accesorii pentru abur a producătorului.
 
 Ce diferențiază portofoliul Forbes Marshall e acoperirea completă a traseului aburului, de la eliminarea condensatului cu oale termodinamice și cu plutitor, până la pompare activă cu oale acționate cu abur (SOPT) și module cu două orificii (CMTOFT) pentru sarcini variabile de pornire și funcționare. Gama pentru linii principale include oale bimetalice (FMBM) și termodinamice (FMTD), alături de eliminatoare de aer (FMAE) și oale tip clopot (FMBT). În categoria eficienței aburului, Forbes Marshall se compară cu Spirax Sarco, ambele acoperind oale de condens, robineți de reglare și recuperare a condensatului.
 
@@ -81,18 +81,18 @@ Pentru un inginer de utilități dintr-o fabrică din România, gama Forbes Mars
     ],
     keyProducts: [
       { name: "Oală de Condens CMTOFT", description: "Oală cu două orificii și mecanism cu plutitor, gândită pentru diferențe mari între sarcina de pornire și cea de funcționare normală. Aplicație tipică: linii de proces cu cerere variabilă de abur. Clientul trebuie să transmită presiunea liniei și debitul de condensat de evacuat pentru dimensionare corectă." },
-      { name: "Oală de Condens SOFT", description: "Oală cu un singur orificiu și plutitor modulat, pentru descărcare continuă a condensatului fără pierdere de abur viu. Aplicație tipică: linii de proces cu sarcină relativ constantă. Clientul precizează presiunea de lucru și debitul maxim de condensat așteptat." },
+      { name: "Oală de Condens SOFT", description: "Oală cu un singur orificiu și plutitor modulat, pentru descărcare continuă a condensatului fără pierdere de abur viu. Clientul precizează presiunea de lucru și debitul maxim de condensat așteptat." },
       { name: "Oală de Condens SOPT", description: "Oală acționată cu abur, care pompează activ condensatul acolo unde contrapresiunea din linia de retur ar bloca o oală clasică. Previne condițiile de coroziune și lovitura de berbec. Aplicație tipică: recuperare condensat pe distanțe lungi sau la înălțime." },
       { name: "Oală de Condens Bimetalică FMBM", description: "Oală termostatică bimetalică pentru linii principale de distribuție a aburului, cu răspuns treptat la variația temperaturii condensatului. Aplicație tipică: drenaj continuu al conductelor de abur. Clientul confirmă presiunea liniei principale pentru selecția corectă a modelului." },
     ],
     industries: [
       "Industrie de proces cu abur — eliminarea condensatului pe linii cu sarcini variabile",
       "Centrale termice și utilități — recuperare condensat pe linii principale de abur",
-      "Industrie alimentară și farmaceutică — abur curat pentru procese sterile",
+      "Industrie alimentară și farmaceutică — sisteme de abur pentru procese de producție",
       "Chimie și petrochimie — oale de condens pentru linii de proces la presiune variabilă",
     ],
     infinitrade: `Furnizăm oale de condens și accesorii pentru abur din gama Forbes Marshall, aduse la comandă prin canale de aprovizionare din UE. Informația din acest text vine din surse publice ale producătorului; nu avem date proprii de stoc pentru acest brand și nu ținem gama pe raft pentru livrare imediată. Termenul orientativ pentru o oală de condens configurată pe presiune și debit este de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de presiunea liniei de abur, debitul de condensat estimat și tipul de aplicație.`,
-    limitation: "Nu putem confirma disponibilitatea variantelor Clean Steam pentru aplicații sterile fără o cerere tehnică transmisă producătorului.",
+    limitation: "Nu putem confirma disponibilitatea unei variante anume pentru aplicații sterile fără o cerere tehnică transmisă producătorului.",
     productCodes: [
       { code: "CMTOFT", description: "oală de condens cu două orificii, sarcini variabile de proces" },
       { code: "SOFT", description: "oală de condens cu un orificiu și plutitor, descărcare continuă" },
@@ -108,15 +108,15 @@ Pentru un inginer de utilități dintr-o fabrică din România, gama Forbes Mars
       { code: "VU", description: "vizor de sticlă pentru observarea fluxului de condensat" },
     ],
     faq: [
-      { q: "Ce produce Forbes Marshall?", a: "Forbes Marshall fabrică oale de condens, robineți și accesorii pentru eficiența sistemelor de abur, cu game separate pentru linii principale și pentru procese industriale. Portofoliul include și o linie dedicată aburului curat pentru aplicații sterile." },
+      { q: "Ce produce Forbes Marshall?", a: "Forbes Marshall fabrică oale de condens, robineți și accesorii pentru eficiența sistemelor de abur, cu game separate pentru linii principale și pentru procese industriale." },
       { q: "Cum aleg oala de condens Forbes Marshall potrivită?", a: "Trebuie să știi presiunea liniei de abur, debitul de condensat de evacuat și dacă sarcina variază mult între pornire și funcționare normală. Pentru sarcini variabile, modelele cu două orificii precum CMTOFT sunt gândite special pentru acest scenariu." },
       { q: "Ce diferență e între oalele Forbes Marshall pentru linii principale și cele pentru proces?", a: "Gama pentru linii principale (FMBM, FMTD, FMBT) e dimensionată pentru drenajul continuu al conductelor de distribuție, în timp ce gama pentru proces (CMTOFT, SOFT, SOPT) răspunde la variații mari de sarcină generate de echipamente." },
       { q: "Livrați produse Forbes Marshall în România și cât durează?", a: "Da, aducem oale de condens și accesorii Forbes Marshall la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact se confirmă după ce primim presiunea și debitul liniei de abur." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Steam Systems: Traps, Condensate Pumps, Valves & Accessories", url: "https://www.forbesmarshall.com/product-category/steam-systems/", publisher: "Forbes Marshall", accessed: "2026-09-25" },
       { title: "Steam Traps for Process Applications", url: "https://www.forbesmarshall.com/product-category/steam-systems/traps-for-process/", publisher: "Forbes Marshall", accessed: "2026-09-25" },
@@ -129,58 +129,58 @@ Pentru un inginer de utilități dintr-o fabrică din România, gama Forbes Mars
     headquarters: "Heidenheim, Germania",
     overview: `ERHARD este un producător german de armături pentru apă, cu sediul la Heidenheim și activitate din 1871, specializat în robineți fluture, sertar, cu bilă și cu cuțit pentru rețele de apă potabilă și canalizare. Gama include și hidranți și sisteme de conectare și reparație a conductelor. Pentru piața din România putem oferta din gama ERHARD pentru operatori de apă și antreprenori de rețele edilitare.
 
-Ce diferențiază gama ERHARD e acoperirea întregului ciclu al apei, de la robineți sertar seria Multamed (codurile EH1040P, EH1100P, EH1170P, EH1200P și EH1270P, cu variante pentru apă uzată EH1104P și EH1174P), până la robineți fluture seria ROCO Wave (EH2010M) pentru conducte mari. Clapetele de reținere cu scaun înclinat (codurile 9885 și 9886) și supapa de picior (9888) completează oferta pentru protecția pompelor la lovitura de berbec. În categoria armăturilor pentru apă, ERHARD se compară cu VAG, ambele oferind game complete de robineți sertar și fluture pentru operatori de utilități.
+Ce diferențiază gama ERHARD e acoperirea întregului ciclu al apei, de la robineți sertar seria Multamed (codurile EH1040P, EH1100P, EH1170P, EH1200P și EH1270P, cu variante pentru apă uzată EH1104P și EH1174P), până la robineți fluture seria ROCO Wave (EH2010M) pentru conducte mari. Clapetele de reținere cu scaun înclinat (codurile 9885 și 9886) și supapa de picior (9888) completează oferta pentru stațiile de pompare. În categoria armăturilor pentru apă, ERHARD se compară cu VAG, ambele oferind game complete de robineți sertar și fluture pentru operatori de utilități.
 
 Pentru un operator de apă sau un antreprenor de rețele din România, ERHARD înseamnă acces la robineți dimensionați specific pentru presiunile și diametrele din rețelele de distribuție, cu variante rezistente la mediul apei uzate. Recomandăm gama pentru proiecte de extindere sau reabilitare a rețelelor, unde tipul de conexiune se confirmă înainte de comandă.`,
     whyChoose: [
       "Robineți sertar seria Multamed, cu variante dedicate apei uzate (EH1104P, EH1174P)",
       "Robineți fluture ROCO Wave pentru închidere și reglaj pe conducte de diametru mare",
-      "Sisteme de conectare și reparație VSK și Synoflex pentru intervenții rapide pe conducte",
+      "Sisteme de conectare VSK și Synoflex pentru conducte",
       "Peste 150 de produse în catalogul curent, acoperind întregul ciclu al apei",
       "Producător activ din 1871, cu sediul la Heidenheim, Germania",
     ],
     keyProducts: [
       { name: "Robineți Sertar Seria Multamed", description: "Robineți sertar cu pană cauciucată, coduri EH1040P, EH1100P, EH1170P, EH1200P și EH1270P, disponibili cu acoperire epoxidică și corp scurt sau lung. Variantele EH1104P și EH1174P sunt adaptate pentru apă uzată. Clientul trebuie să confirme diametrul, presiunea și tipul de aplicație." },
-      { name: "Robineți Fluture ROCO Wave", description: "Robinet fluture cod EH2010M, pentru închidere și reglaj pe conducte de diametru mare din rețele de distribuție a apei. Construcție pentru montaj între flanșe. Clientul precizează diametrul nominal și presiunea de lucru pentru selecția corectă a variantei." },
-      { name: "Clapete de Reținere cu Scaun Înclinat", description: "Clapete de reținere codurile 9885 și 9886, plus supapă de picior 9888, disponibile cu scaun metalic sau elastomeric. Protejează pompele împotriva lovitúrii de berbec la oprirea instalației. Clientul confirmă diametrul și presiunea maximă din rețea." },
-      { name: "Sisteme de Conectare și Reparație VSK / Synoflex", description: "Conectori flanșați și coturi la unghi variabil (codurile EH6000-EH6060), plus sisteme de cuplare Synoflex (EH6700, EH6710) pentru joncțiuni rapide fără sudură. Aplicație tipică: reparații și extinderi de rețea. Clientul transmite diametrul conductei existente." },
+      { name: "Robineți Fluture ROCO Wave", description: "Robinet fluture cod EH2010M, pentru închidere și reglaj pe conducte de diametru mare din rețele de distribuție a apei. Clientul precizează diametrul nominal și presiunea de lucru pentru selecția corectă a variantei." },
+      { name: "Clapete de Reținere cu Scaun Înclinat", description: "Clapete de reținere codurile 9885 și 9886, plus supapă de picior 9888, disponibile cu scaun metalic sau elastomeric.  Clientul confirmă diametrul și presiunea maximă din rețea." },
+      { name: "Sisteme de Conectare și Reparație VSK / Synoflex", description: "Conector flanșat VSK (EH6000) și cot VSK de 11° (EH6060), plus conectori Synoflex (EH6700, EH6710). Aplicație tipică: reparații și extinderi de rețea. Clientul transmite diametrul conductei existente." },
     ],
     industries: [
       "Distribuție apă potabilă — robineți sertar Multamed pentru izolare pe rețea",
-      "Canalizare și ape uzate — variante rezistente EH1104P/EH1174P pentru medii agresive",
-      "Stații de pompare a apei — clapete de reținere pentru protecție la lovitura de berbec",
+      "Canalizare și ape uzate — variantele pentru apă uzată EH1104P/EH1174P",
+      "Stații de pompare a apei — clapete de reținere și supapă de picior",
       "Protecție la incendiu — hidranți din gama ERHARD",
     ],
     infinitrade: `Furnizăm robineți sertar, fluture și clapete de reținere ERHARD pentru rețele de apă, aduși la comandă prin canale de aprovizionare din UE. Datele tehnice de mai sus provin din informațiile publicate de producător; nu ținem această gamă pe raft și nu avem date proprii despre stocul din fabrică. Termenul orientativ pentru un robinet ERHARD configurat pe diametru și presiune este de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă, transmiteți diametrul nominal, presiunea de lucru și dacă aplicația e pe apă potabilă sau apă uzată.`,
     limitation: "Nu putem confirma echivalența exactă între codul EH și varianta de flanșă cerută de proiect fără specificația tehnică completă.",
     productCodes: [
-      { code: "EH1040P", description: "robinet sertar Multamed, acoperire epoxidică, corp scurt" },
-      { code: "EH1100P", description: "robinet sertar Multamed, corp lung, flanșe standard" },
-      { code: "EH1170P", description: "robinet sertar Multamed, variantă cu tijă neascunsă" },
-      { code: "EH1200P", description: "robinet sertar Multamed, corp scurt, presiune standard" },
-      { code: "EH1270P", description: "robinet sertar Multamed, variantă cu tijă ascunsă" },
+      { code: "EH1040P", description: "robinet sertar Multamed, acoperire epoxidică, cu conector VSK" },
+      { code: "EH1100P", description: "robinet sertar Multamed, acoperire epoxidică, corp scurt" },
+      { code: "EH1170P", description: "robinet sertar Multamed, acoperire epoxidică, corp lung" },
+      { code: "EH1200P", description: "robinet sertar Multamed, acoperire epoxidică, corp scurt" },
+      { code: "EH1270P", description: "robinet sertar Multamed, acoperire epoxidică, corp lung" },
       { code: "EH1104P", description: "robinet sertar Multamed pentru apă uzată, corp scurt" },
       { code: "EH1174P", description: "robinet sertar Multamed pentru apă uzată, corp lung" },
       { code: "EH2010M", description: "robinet fluture ROCO Wave pentru conducte de diametru mare" },
       { code: "9885", description: "clapetă de reținere cu scaun înclinat, seria Özkan" },
-      { code: "9886", description: "clapetă de reținere cu scaun înclinat, variantă flanșată" },
+      { code: "9886", description: "clapetă de reținere cu scaun înclinat, cu etanșare elastomerică (resilient seated)" },
       { code: "9888", description: "supapă de picior pentru aspirația pompelor" },
       { code: "EH6000", description: "conector flanșat pentru repararea conductelor de apă" },
-      { code: "EH6060", description: "cot de conectare la unghi variabil pentru conducte" },
-      { code: "EH6700", description: "sistem de cuplare Synoflex pentru joncțiuni rapide" },
-      { code: "EH6710", description: "cuplaj Synoflex, variantă pentru diametre mari" },
+      { code: "EH6060", description: "cot VSK de 11° pentru conducte" },
+      { code: "EH6700", description: "conector flanșat Synoflex" },
+      { code: "EH6710", description: "conector Synoflex" },
       { code: "EH7360", description: "robinet de control cu ieșire conică (cone outlet)" },
     ],
     faq: [
       { q: "Ce produce ERHARD?", a: "ERHARD fabrică robineți sertar, fluture, cu bilă și cu cuțit, clapete de reținere și hidranți pentru rețele de apă potabilă și canalizare, cu sediul la Heidenheim, Germania, activ din 1871." },
-      { q: "Cum aleg robinetul sertar ERHARD potrivit pentru rețeaua mea de apă?", a: "Ai nevoie de diametrul nominal, presiunea de lucru și dacă aplicația e pe apă potabilă sau apă uzată. Pentru apă uzată, variantele EH1104P și EH1174P din seria Multamed au o construcție adaptată mediului agresiv." },
-      { q: "Ce este seria Multamed de la ERHARD?", a: "Multamed este seria de robineți sertar cu pană cauciucată a ERHARD, disponibilă în variante cu corp scurt sau lung și cu tijă ascunsă sau neascunsă, codurile EH1040P până la EH1270P." },
+      { q: "Cum aleg robinetul sertar ERHARD potrivit pentru rețeaua mea de apă?", a: "Ai nevoie de diametrul nominal, presiunea de lucru și dacă aplicația e pe apă potabilă sau apă uzată. Pentru apă uzată, seria Multamed are variantele EH1104P (corp scurt) și EH1174P (corp lung)." },
+      { q: "Ce este seria Multamed de la ERHARD?", a: "Multamed este seria de robineți sertar cu pană cauciucată a ERHARD, disponibilă în variante cu corp scurt sau lung, codurile EH1040P până la EH1270P." },
       { q: "Livrați robineți ERHARD în România și cât durează?", a: "Da, aducem robineți ERHARD la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de diametru, presiune și disponibilitatea la producător." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ERHARD - Provider for the entire water cycle", url: "https://www.erhard.de/en/", publisher: "ERHARD", accessed: "2026-09-25" },
       { title: "Product Overview - ERHARD", url: "https://www.erhard.de/en/products/products-overview", publisher: "ERHARD", accessed: "2026-09-25" },
@@ -190,28 +190,28 @@ Pentru un operator de apă sau un antreprenor de rețele din România, ERHARD î
     name: "Valpres",
     founded: 1978,
     headquarters: "Marcheno (Brescia), Italia",
-    overview: `Valpres este un producător italian de robineți industriali, cu sediul la Marcheno, în provincia Brescia, activ din 1978. Gama acoperă robineți cu bilă din oțel inoxidabil și aliaje speciale, în construcție cu două piese, trei piese sau wafer, plus robineți de control și robineți criogenici cu bilă plutitoare. Pentru piața din România putem oferta din gama Valpres pentru instalații industriale și de tratare a apei.
+    overview: `Valpres este un producător italian de robineți industriali, cu sediul la Marcheno, în provincia Brescia, activ din 1978. Gama acoperă robineți cu bilă din oțel inoxidabil și aliaje speciale, în construcție cu două piese, wafer sau cu corp demontabil (split-body), plus robineți fluture și accesorii. Pentru piața din România putem oferta din gama Valpres pentru instalații industriale și de tratare a apei.
 
-Ce diferențiază Valpres e acoperirea unei game largi de configurații constructive pentru robineți cu bilă: seria INOX-VAL cu două piese, EURO-INOX și EURO-SFER pentru aplicații industriale generale, WAFER și WAFER-SPLIT pentru montaj între flanșe cu spațiu redus, SPLIT-BODY și COMBI-SFER pentru corp demontabil, plus INTER-GAS pentru instalații de gaz și RADIAMONT pentru aplicații speciale. Sistemul propriu LOCPOWER, brevetat de producător, e destinat reglajului și captării energiei din robineți. Compania deține certificări ISO 9001, ISO 14001, ISO 45001 și ISO 50001. În categoria robinetelor sferice din oțel pentru industrie, Valpres se compară cu Cimberio, ambele acoperind configurații extinse pentru aplicații industriale și energetice.
+Ce diferențiază Valpres e acoperirea unei game largi de configurații constructive pentru robineți cu bilă: seria INOX-VAL cu două piese, EURO-INOX și EURO-SFER pentru aplicații industriale generale, WAFER și WAFER-SPLIT pentru montaj între flanșe cu spațiu redus, SPLIT-BODY și COMBI-SFER pentru corp demontabil, plus INTER-GAS pentru instalații de gaz și RADIAMONT pentru aplicații speciale. Sistemul brevetat LOCPOWER este un sistem de robinet de control care transformă energia disipată la reglarea presiunii și a debitului în energie electrică reutilizabilă. Compania deține certificări ISO 9001, ISO 14001, ISO 45001 și ISO 50001. În categoria robinetelor sferice din oțel pentru industrie, Valpres se compară cu Cimberio, ambele acoperind configurații extinse pentru aplicații industriale și energetice.
 
-Pentru un integrator de instalații industriale din România, gama Valpres are sens acolo unde configurația exactă a robinetului — două piese, trei piese sau wafer — contează pentru spațiul de montaj și mentenanța ulterioară. Recomandăm brandul pentru proiecte din industria chimică, tratarea apei sau energie regenerabilă, cu selecția seriei făcută pe baza presiunii, diametrului și fluidului vehiculat.`,
+Pentru un integrator de instalații industriale din România, gama Valpres are sens acolo unde configurația exactă a robinetului — două piese, wafer sau cu corp demontabil — contează pentru spațiul de montaj și mentenanța ulterioară. Recomandăm brandul pentru proiecte din industria chimică, tratarea apei sau energie regenerabilă, cu selecția seriei făcută pe baza presiunii, diametrului și fluidului vehiculat.`,
     whyChoose: [
-      "Game multiple de robineți cu bilă — două piese, trei piese, wafer și split-body — pentru orice configurație de montaj",
+      "Game multiple de robineți cu bilă — două piese, wafer și split-body — pentru diverse configurații de montaj",
       "Serie dedicată INTER-GAS pentru instalații de gaz, separată de gama industrială generală",
-      "Sistem propriu LOCPOWER, brevetat, pentru reglaj și captare de energie",
+      "Sistem LOCPOWER, brevetat, care transformă energia disipată la reglarea presiunii și a debitului în energie electrică",
       "Certificări ISO 9001, ISO 14001, ISO 45001 și ISO 50001",
       "Producător activ din 1978, cu sediul la Marcheno, Brescia, Italia",
     ],
     keyProducts: [
       { name: "Robineți cu Bilă INOX-VAL — Două Piese", description: "Robinet cu bilă din oțel inoxidabil, construcție două piese, pentru izolare pe linii industriale generale. Disponibil în mai multe variante de conexiune și cod produs (700000, 701000, 702000). Clientul trebuie să transmită diametrul nominal, presiunea și tipul de fluid vehiculat." },
       { name: "Robineți cu Bilă EURO-SFER / EURO-INOX", description: "Robinet cu bilă pentru aplicații industriale generale, disponibil în variante din inox sau aliaje speciale. Aplicație tipică: linii de proces din chimie sau tratarea apei. Clientul confirmă diametrul, clasa de presiune și materialul garniturilor compatibil cu fluidul." },
-      { name: "Robineți cu Bilă WAFER / WAFER-SPLIT", description: "Robinet cu bilă tip wafer, pentru montaj între flanșe cu spațiu axial redus. Varianta WAFER-SPLIT permite demontarea corpului fără scoaterea din linie. Aplicație tipică: retehnologizări unde spațiul de montaj e limitat. Clientul precizează distanța între flanșe disponibilă." },
+      { name: "Robineți cu Bilă WAFER / WAFER-SPLIT", description: "Robinet cu bilă tip wafer, pentru montaj între flanșe cu spațiu axial redus. Varianta WAFER-SPLIT combină montajul wafer cu un corp demontabil (split). Aplicație tipică: retehnologizări unde spațiul de montaj e limitat. Clientul precizează distanța între flanșe disponibilă." },
       { name: "Robineți INTER-GAS pentru Instalații de Gaz", description: "Serie dedicată robineților cu bilă pentru distribuția gazelor combustibile, separată de gama industrială generală a producătorului. Aplicație tipică: stații de reglare-măsurare sau branșamente de gaz. Clientul trebuie să confirme presiunea de lucru și normativa locală aplicabilă." },
     ],
     industries: [
       "Industrie chimică — robineți cu bilă din inox pentru fluide de proces",
       "Tratarea apei — robineți cu bilă rezistenți la coroziune pe linii de tratare",
-      "Energie regenerabilă și Oil&Gas — robineți criogenici cu bilă plutitoare",
+      "Sectorul energetic — sistemul LOCPOWER pentru recuperarea energiei disipate la reglare",
       "Instalații de gaz — serie dedicată INTER-GAS pentru distribuție",
     ],
     certifications: [
@@ -233,20 +233,20 @@ Pentru un integrator de instalații industriale din România, gama Valpres are s
       { code: "WAFER-SPLIT", description: "robinet cu bilă wafer, corp demontabil" },
       { code: "COMBI-SFER", description: "robinet cu bilă, variantă combinată" },
       { code: "EUROFLY", description: "robinet fluture din gama Valpres" },
-      { code: "700000", description: "cod produs INOX-VAL, variantă de bază" },
-      { code: "701000", description: "cod produs INOX-VAL, variantă cu flanșe" },
+      { code: "700000", description: "cod produs INOX-VAL" },
+      { code: "701000", description: "cod produs INOX-VAL" },
       { code: "700355", description: "cod produs INOX-VAL, variantă C1/C2/C3" },
     ],
     faq: [
-      { q: "Ce produce Valpres?", a: "Valpres fabrică robineți cu bilă din inox și aliaje speciale, în construcție cu două piese, trei piese, wafer sau split-body, plus robineți criogenici și de control, cu sediul la Marcheno, Brescia, activ din 1978." },
+      { q: "Ce produce Valpres?", a: "Valpres fabrică robineți cu bilă din inox și aliaje speciale, în construcție cu două piese, wafer sau split-body, plus robineți fluture, cu sediul la Marcheno, Brescia, activ din 1978." },
       { q: "Cum aleg robinetul cu bilă Valpres potrivit pentru instalația mea?", a: "Ai nevoie de diametrul nominal, presiunea de lucru, fluidul vehiculat și spațiul disponibil pentru montaj. Pentru spații reduse între flanșe, seriile WAFER sau WAFER-SPLIT ocupă mai puțin decât variantele cu două piese." },
-      { q: "Ce este sistemul LOCPOWER de la Valpres?", a: "LOCPOWER este soluția brevetată a Valpres pentru reglajul robinetului și captarea energiei asociate, folosită în aplicații unde poziția și cuplul robinetului trebuie monitorizate. Detaliile de integrare se confirmă direct cu producătorul." },
+      { q: "Ce este sistemul LOCPOWER de la Valpres?", a: "LOCPOWER este sistemul brevetat de robinet de control al Valpres, care transformă energia disipată la reglarea presiunii și a debitului în energie electrică reutilizabilă. Detaliile de integrare se confirmă direct cu producătorul." },
       { q: "Livrați robineți Valpres în România și cât durează?", a: "Da, aducem robineți Valpres la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de seria aleasă și de disponibilitatea la fabrica din Italia." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Valpres - Home", url: "https://www.valpres.it/en/home", publisher: "Valpres S.p.A.", accessed: "2026-09-25" },
       { title: "Products - Valpres", url: "https://www.valpres.it/en/products", publisher: "Valpres S.p.A.", accessed: "2026-09-25" },
@@ -257,36 +257,36 @@ Pentru un integrator de instalații industriale din România, gama Valpres are s
     headquarters: "Irwin, Pennsylvania, SUA",
     overview: `IMI PBM este un producător american de robineți sferici industriali și sanitari, cu sediul la Irwin, Pennsylvania, parte a grupului britanic IMI plc. Gama acoperă robineți cu 2 căi și cu porturi multiple (3, 4 sau 5 căi), robineți de izolare, de blocare și purjare, robineți criogenici și robineți cu flanșe ANSI. Pentru piața din România putem oferta din gama IMI PBM pentru aplicații industriale, criogenice și farmaceutice.
 
-Ce diferențiază IMI PBM e acoperirea unor nișe tehnice specifice: robineți criogenici pentru temperaturi între -200°C și 205°C, cu dimensiuni de la 1/2″ la 4″ și trecere integrală (full port), robineți speciali de tip divertor, de verificare și de pulverizare, plus accesorii de automatizare pentru comanda de la distanță. Compania deține certificări API, ISPE pentru inginerie farmaceutică, VMA și CGA pentru gaze comprimate. În categoria robinetelor sferice industriale de proces, IMI PBM se compară cu Cameron, ambele acoperind aplicații severe din energie și procesarea gazelor.
+Ce diferențiază IMI PBM e acoperirea unor nișe tehnice specifice: robineți criogenici pentru temperaturi între -200°C și 205°C, cu dimensiuni de la 1/2″ la 4″ și trecere integrală (full port), robineți speciali de tip divertor, de verificare și de pulverizare, plus accesorii de automatizare pentru comanda de la distanță. Robineții criogenici sunt testați la foc conform API 607, iar performanța la scurgeri respectă MSS SP-134, conform paginii producătorului. În categoria robinetelor sferice industriale de proces, IMI PBM se compară cu Cameron, ambele acoperind aplicații severe din energie și procesarea gazelor.
 
-Pentru un integrator din industria farmaceutică, criogenică sau energetică din România, IMI PBM înseamnă acces la robineți sferici pentru aplicații unde temperatura extremă sau igiena procesului sunt cerințe explicite ale proiectului. Recomandăm gama pentru instalații de gaze industriale, centre de date cu răcire criogenică sau linii sanitare din industria alimentară.`,
+Pentru un integrator din industria farmaceutică, criogenică sau energetică din România, IMI PBM înseamnă acces la robineți sferici pentru aplicații unde temperatura extremă sau igiena procesului sunt cerințe explicite ale proiectului. Recomandăm gama pentru instalații de gaze industriale sau linii sanitare din industria alimentară.`,
     whyChoose: [
       "Robineți criogenici cu trecere integrală, pentru temperaturi de la -200°C la 205°C",
       "Robineți sanitari cu 2 căi, potriviți pentru linii de proces din industria alimentară și farmaceutică",
       "Robineți cu porturi multiple (3, 4 sau 5 căi) pentru distribuție și direcționare de flux",
-      "Certificare ISPE, relevantă pentru inginerie farmaceutică și biotehnologie",
+      "Robineți criogenici testați la foc conform API 607",
       "Parte a grupului britanic IMI plc, cu acces la rețeaua globală de suport tehnic",
     ],
     keyProducts: [
       { name: "Robineți Sferici Sanitari cu 2 Căi", description: "Robinet sferic pentru linii de proces sanitare din industria alimentară și farmaceutică, cu suprafețe interioare fără zone moarte. Clientul trebuie să specifice dimensiunea portului, tipul de conexiune (clamp, filetată) și dacă e necesară execuția pentru CIP/SIP." },
-      { name: "Robineți Criogenici cu Trecere Integrală", description: "Robinet sferic cu trecere integrală (full port), dimensiuni de la 1/2″ la 4″, pentru temperaturi de la -200°C la 205°C. Aplicație tipică: transfer de gaze lichefiate sau răcire criogenică în centre de date. Clientul confirmă temperatura minimă de operare." },
+      { name: "Robineți Criogenici cu Trecere Integrală", description: "Robinet sferic cu trecere integrală (full port), dimensiuni de la 1/2″ la 4″, pentru temperaturi de la -200°C la 205°C. Aplicație tipică: servicii criogenice. Clientul confirmă temperatura minimă de operare." },
       { name: "Robineți cu Porturi Multiple (3/4/5 căi)", description: "Robinet sferic cu 3, 4 sau 5 căi pentru direcționarea sau amestecul fluxului de fluid într-o singură unitate, în locul mai multor robineți cu 2 căi. Aplicație tipică: rutare de proces în instalații chimice. Clientul precizează numărul de porturi și configurația dorită." },
     ],
     industries: [
-      "Farmaceutică și biotehnologie — robineți sanitari conform ISPE",
+      "Farmaceutică și biotehnologie — robineți sanitari pentru linii de proces",
       "Industrie alimentară și băuturi — robineți sferici pentru linii sanitare",
       "Criogenie și gaze industriale — robineți cu trecere integrală pentru temperaturi extreme",
       "Chimie și petrochimie — robineți de izolare și blocare-purjare",
-      "Centre de date — robineți criogenici pentru sisteme de răcire",
+      
     ],
     certifications: [
-      "API — standarde pentru robineți industriali",
-      "ISPE — inginerie pentru industria farmaceutică",
-      "VMA — Valve Manufacturers Association",
-      "CGA — Compressed Gas Association",
+      "API 607 — test la foc pentru robineții criogenici; MSS SP-134 — performanță la scurgeri",
+      
+      
+      
     ],
     infinitrade: `Furnizăm robineți sferici IMI PBM pentru aplicații industriale, criogenice și sanitare, aduși la comandă prin canale de aprovizionare din UE. Ne bazăm pe informațiile publice ale producătorului pentru parametrii tehnici din acest text; nu avem raft propriu pentru acest brand și nu ținem gama pe raft. Termenul orientativ pentru un robinet configurat pe port, material și tip de conexiune este de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă, transmiteți numărul de căi, dimensiunea portului, temperatura de lucru și fluidul vehiculat.`,
-    limitation: "Nu putem confirma disponibilitatea certificării ISPE pentru fiecare variantă de robinet fără o cerere tehnică punctuală transmisă producătorului.",
+    limitation: "Nu putem confirma conformitatea cu cerințele sanitare ale proiectului pentru fiecare variantă de robinet fără o cerere tehnică punctuală transmisă producătorului.",
     productCodes: [
       { code: "Robinet Sferic 2-Way", description: "robinet sferic cu 2 căi, uz sanitar și industrial" },
       { code: "Robinet Sferic Multi-Port 3-Way", description: "robinet sferic cu 3 căi, direcționare flux" },
@@ -309,8 +309,8 @@ Pentru un integrator din industria farmaceutică, criogenică sau energetică di
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "IMI PBM Products", url: "https://www.pbmvalve.com/imipbmproducts/", publisher: "IMI PBM", accessed: "2026-09-25" },
       { title: "Cryogenic Valves - IMI PBM", url: "https://www.pbmvalve.com/cryogenic-valves/", publisher: "IMI PBM", accessed: "2026-09-25" },
@@ -320,9 +320,9 @@ Pentru un integrator din industria farmaceutică, criogenică sau energetică di
   "hy-lok": {
     name: "Hy-Lok",
     founded: 1977,
-    overview: `Hy-Lok este un producător sud-coreean de robineți și fitinguri de instrumentație, activ din 1977, cu filiala americană Hy-Lok USA înființată în 1997 în Texas. Gama de robineți acoperă robineți cu bilă și cu dop (plug), robineți toggle, robineți burduf (bellows), robineți de blocare-purjare, robineți de reținere și de siguranță, robineți criogenici, robineți cu membrană și robineți cu ac, plus manifolduri de instrumentație. Pentru piața din România putem oferta din gama Hy-Lok pentru instalații de instrumentație industrială.
+    overview: `Hy-Lok este un producător sud-coreean de robineți și fitinguri de instrumentație, activ din 1977, cu Hy-Lok USA, înființată în 1997 în Texas. Gama de robineți acoperă robineți cu bilă și cu dop (plug), robineți toggle, robineți burduf (bellows), robineți de blocare-purjare, robineți de reținere și de siguranță, robineți criogenici, robineți cu membrană și robineți cu ac, plus manifolduri de instrumentație. Pentru piața din România putem oferta din gama Hy-Lok pentru instalații de instrumentație industrială.
 
-Ce diferențiază Hy-Lok e acoperirea completă a lanțului de instrumentație, de la robineți la fitinguri de compresie cu două ferule, fitinguri conform DIN 2353, fitinguri cu filet conic, fitinguri sudate și fitinguri cu etanșare pe suprafață. Seria CRYOT de robineți cu bilă montați pe trunion acoperă aplicații criogenice unde etanșarea pe tijă trebuie să reziste la temperaturi extrem de scăzute. Compania deține certificare ISO 9001:2015 și respectă standardele ASME pentru fitingurile de presiune. În categoria fitingurilor și robinetelor de instrumentație, Hy-Lok se compară cu Swagelok, ambele acoperind game similare de conexiuni prin compresie.
+Ce diferențiază Hy-Lok e acoperirea completă a lanțului de instrumentație, de la robineți la fitinguri de compresie cu două ferule, fitinguri conform DIN 2353, fitinguri filetate pentru conducte, fitinguri sudate și fitinguri cu etanșare pe suprafață (face seal). Seria CRYOT de robineți cu bilă montați pe trunion este destinată aplicațiilor criogenice. Compania deține certificare ISO 9001:2015 și respectă standardele ASME pentru fitingurile de presiune. În categoria fitingurilor și robinetelor de instrumentație, Hy-Lok se compară cu Swagelok, ambele acoperind game similare de conexiuni prin compresie.
 
 Pentru un integrator de instalații de instrumentație din România, gama Hy-Lok are sens acolo unde compatibilitatea dimensională cu fitingurile existente contează, la fel ca disponibilitatea unei game complete de robineți mici pentru linii de măsură și control. Recomandăm brandul pentru proiecte din procesare chimică, rafinare sau producție de semiconductori.`,
     whyChoose: [
@@ -330,19 +330,19 @@ Pentru un integrator de instalații de instrumentație din România, gama Hy-Lok
       "Serie CRYOT cu bilă montată pe trunion, pentru aplicații criogenice",
       "Fitinguri de compresie cu două ferule, compatibile dimensional cu conexiuni uzuale de instrumentație",
       "Certificare ISO 9001:2015 și conformitate cu standardele ASME",
-      "Filială americană Hy-Lok USA din 1997, pentru suport tehnic pe piața nord-americană",
+      "Hy-Lok USA, înființată în 1997 în Texas pentru distribuția pe piața americană",
     ],
     keyProducts: [
       { name: "Robineți cu Bilă și Dop de Instrumentație", description: "Robinet cu bilă sau cu dop, pentru izolare pe linii mici de măsură și control. Disponibil cu conexiuni filetate sau prin compresie. Aplicație tipică: instrumentație de proces. Clientul trebuie să transmită dimensiunea conexiunii și presiunea maximă de lucru." },
-      { name: "Robineți Criogenici Seria CRYOT", description: "Robinet cu bilă montat pe trunion, cu bonetă extinsă pentru menținerea etanșării la temperaturi criogenice. Aplicație tipică: transfer de gaze lichefiate sau azot lichid. Clientul confirmă temperatura minimă de operare și tipul de conexiune necesar." },
-      { name: "Robineți cu Ac (Needle Valves)", description: "Robinet cu ac pentru reglaj fin de debit pe linii de manometre și prize de eșantionare. Construcție compactă, cu etanșare pe tijă rezistentă la vibrații. Clientul precizează presiunea de lucru și dimensiunea conexiunii de instrumentație." },
+      { name: "Robineți Criogenici Seria CRYOT", description: "Robinet cu bilă montat pe trunion, din seria de robineți criogenici industriali Hy-Lok; detaliile constructive se confirmă din fișa tehnică. Clientul confirmă temperatura minimă de operare și tipul de conexiune necesar." },
+      { name: "Robineți cu Ac (Needle Valves)", description: "Robinet cu ac pentru reglaj fin de debit pe linii de manometre și prize de eșantionare. Clientul precizează presiunea de lucru și dimensiunea conexiunii de instrumentație." },
       { name: "Manifolduri de Instrumentație", description: "Manifold cu robineți multipli pentru izolarea și egalizarea presiunii la transmițătoare sau manometre. Aplicație tipică: montaj direct pe transmițător de presiune diferențială. Clientul confirmă numărul de robineți necesar și tipul de racord la instrument." },
     ],
     industries: [
       "Procesare chimică — robineți de instrumentație pe linii de măsură și control",
       "Rafinare petrolieră — manifolduri și robineți pentru transmițere de presiune",
       "Criogenie — robineți seria CRYOT pentru gaze lichefiate",
-      "Producție de semiconductori — fitinguri de înaltă puritate pentru linii de gaze",
+      "Producție de semiconductori — componente pentru linii de gaze",
       "Producție de energie — robineți de instrumentație pentru sisteme de control",
     ],
     certifications: [
@@ -354,11 +354,11 @@ Pentru un integrator de instalații de instrumentație din România, gama Hy-Lok
     productCodes: [
       { code: "Ball and Plug Valves", description: "robinet cu bilă sau dop pentru linii de instrumentație" },
       { code: "Toggle Valves", description: "robinet cu manetă toggle, acționare rapidă manuală" },
-      { code: "Bellows Valves", description: "robinet cu burduf metalic, etanșare fără scurgeri pe tijă" },
+      { code: "Bellows Valves", description: "robinet cu burduf (bellows)" },
       { code: "Bleed and Purge Valves", description: "robinet pentru golire și purjare pe linii de măsură" },
       { code: "Check and Relief Valves", description: "robinet de reținere sau siguranță pentru instrumentație" },
       { code: "CRYOT Series", description: "robinet cu bilă pe trunion, aplicații criogenice" },
-      { code: "Diaphragm Valves", description: "robinet cu membrană, pentru fluide cu particule" },
+      { code: "Diaphragm Valves", description: "robinet cu membrană (diaphragm)" },
       { code: "Needle Valves", description: "robinet cu ac, reglaj fin de debit" },
       { code: "Instrument Manifolds", description: "manifold cu robineți multipli pentru izolare transmițător" },
       { code: "Inline and Tee Filters", description: "filtru de linie sau tip T pentru instrumentație" },
@@ -371,8 +371,8 @@ Pentru un integrator de instalații de instrumentație din România, gama Hy-Lok
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "About - Hy-Lok USA", url: "https://www.hylokusa.com/about/", publisher: "Hy-Lok USA", accessed: "2026-09-25" },
       { title: "Products - Hy-Lok USA", url: "https://www.hylokusa.com/products/", publisher: "Hy-Lok USA", accessed: "2026-09-25" },
@@ -385,19 +385,19 @@ Pentru un integrator de instalații de instrumentație din România, gama Hy-Lok
     headquarters: "Kirchheim unter Teck, Germania",
     overview: `Fromme Armaturen (F&M Armaturen) este un producător german de robineți industriali din oțel turnat și inox, cu sediul la Kirchheim unter Teck, activ din 1982. Gama acoperă robineți fluture (Absperrklappen), robineți sertar (Absperrschieber) în variante cu pană plată, ovală sau rotundă, robineți cu bilă (Kugelhähne), clapete și robineți de reținere, plus filtre de linie (Schmutzfänger). Pentru piața din România putem oferta din gama Fromme pentru instalații industriale și rețele de apă și ape uzate.
 
-Ce diferențiază Fromme e acoperirea standardelor duale DIN și ANSI, cu robineți certificați TA-Luft (2021) pentru presiuni până la PN40 și clasa ANSI 300, relevanți unde emisiile fugitive de gaz trebuie limitate. Gama de robineți sertar include patru variante constructive de pană — plată, ovală, rotundă și pentru dimensiuni mici — adaptate diferitelor cerințe de etanșare. Materialele merg de la oțel GP240GH+N la inox 1.4408, cu variante și din fontă pentru aplicații mai puțin severe. În categoria robinetelor industriale din oțel turnat și inox, Fromme se compară cu VAG, ambele acoperind aplicații de la industrie până la tehnologia apei.
+Ce diferențiază Fromme e acoperirea standardelor duale DIN și ANSI, cu robineți cu ventil și robineți sertar cu certificat TA-Luft (2021), până la PN40 și clasa ANSI 300, relevanți unde emisiile fugitive de gaz trebuie limitate. Gama de robineți sertar include trei variante constructive de pană — plată (Keilflachschieber), ovală (Keilovalschieber) și rotundă (Keilrundschieber) — plus robineți sertar de dimensiuni mici (Kleinschieber) și variante ANSI. Materialele merg de la oțel GP240GH+N la inox 1.4408, cu variante și din fontă pentru aplicații mai puțin severe. În categoria robinetelor industriale din oțel turnat și inox, Fromme se compară cu VAG, ambele acoperind aplicații de la industrie până la tehnologia apei.
 
 Pentru un integrator din industrie sau din sectorul de apă din România, gama Fromme are sens acolo unde certificarea TA-Luft pentru etanșeitate la gaze e o cerință de proiect, sau unde o variantă specifică de pană trebuie aleasă în funcție de fluid. Recomandăm brandul pentru retehnologizări unde standardul de referință e deja stabilit de proiectant.`,
     whyChoose: [
-      "Certificare TA-Luft (2021) pentru robineți DIN și ANSI, relevantă pentru limitarea emisiilor fugitive de gaz",
-      "Patru variante constructive de pană la robineții sertar — plată, ovală, rotundă și pentru dimensiuni mici",
+      "Certificat TA-Luft (2021) pentru robineți cu ventil și robineți sertar DIN și ANSI, relevant pentru limitarea emisiilor fugitive de gaz",
+      "Trei variante de pană la robineții sertar — plată, ovală și rotundă — plus robineți sertar pentru dimensiuni mici",
       "Materiale de construcție de la oțel GP240GH+N la inox 1.4408",
       "Gamă completă — fluture, sertar, ventil, reținere, bilă și filtre — de la un singur producător",
       "Producător activ din 1982, cu sediul la Kirchheim unter Teck, Germania",
     ],
     keyProducts: [
       { name: "Robineți Fluture (Absperrklappen)", description: "Robinet fluture pentru închidere pe linii de proces industriale și rețele de apă. Disponibil în execuții DIN sau ANSI, cu disc metalic sau cauciucat. Aplicație tipică: sectorizare rețea. Clientul trebuie să confirme diametrul, presiunea și standardul de referință dorit." },
-      { name: "Robineți Sertar (Absperrschieber)", description: "Robinet sertar în patru variante de pană — plată, ovală, rotundă și pentru dimensiuni mici — disponibil certificat TA-Luft pentru etanșeitate la gaze, până la PN40 sau clasa ANSI 300. Clientul precizează tipul de pană necesar și materialul de construcție." },
+      { name: "Robineți Sertar (Absperrschieber)", description: "Robinet sertar cu pană plată, ovală sau rotundă, plus robinet sertar pentru dimensiuni mici, disponibil certificat TA-Luft pentru etanșeitate la gaze, până la PN40 sau clasa ANSI 300. Clientul precizează tipul de pană necesar și materialul de construcție." },
       { name: "Robineți cu Bilă (Kugelhähne)", description: "Robinet cu bilă pentru închidere rapidă pe linii de diametru mai mic, din oțel sau inox. Aplicație tipică: branșamente și linii secundare din instalații industriale. Clientul confirmă diametrul, presiunea de lucru și tipul de conexiune (filetată sau flanșată)." },
       { name: "Filtre de Linie (Schmutzfänger)", description: "Filtru de linie pentru protecția robineților și echipamentelor din aval împotriva impurităților din fluid. Disponibil în execuție filetată sau flanșată. Aplicație tipică: montaj înaintea unui robinet de control sau a unei pompe. Clientul precizează diametrul conductei." },
     ],
@@ -408,7 +408,7 @@ Pentru un integrator din industrie sau din sectorul de apă din România, gama F
       "Protecția echipamentelor — filtre de linie montate înaintea robinetelor de control",
     ],
     certifications: [
-      "TA-Luft (2021) — etanșeitate la emisii fugitive de gaz, robineți DIN și ANSI PN40/class 300",
+      "TA-Luft (2021) — certificat pentru robineți cu ventil și robineți sertar DIN și ANSI, până la PN40/class 300",
     ],
     infinitrade: `Furnizăm robineți fluture, sertar și cu bilă Fromme Armaturen pentru instalații industriale și rețele de apă, aduși la comandă prin canale de aprovizionare din UE. Informațiile tehnice de mai sus vin din surse publice ale producătorului; nu avem raft propriu pentru acest brand și nu ținem gama pe raft. Termenul orientativ pentru un robinet configurat pe standard, diametru și material este de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă, transmiteți standardul de referință (DIN sau ANSI), diametrul nominal și dacă e necesară certificarea TA-Luft.`,
     limitation: "Nu putem confirma disponibilitatea fiecărei variante de pană la robinetul sertar pentru diametre foarte mari fără o cerere tehnică transmisă producătorului.",
@@ -418,9 +418,9 @@ Pentru un integrator din industrie sau din sectorul de apă din România, gama F
       { code: "Absperrschieber Keilovalschieber", description: "robinet sertar cu pană ovală" },
       { code: "Absperrschieber Keilrundschieber", description: "robinet sertar cu pană rotundă" },
       { code: "Kleinschieber", description: "robinet sertar pentru dimensiuni mici de conductă" },
-      { code: "Absperrventil", description: "robinet cu ventil (globe) pentru reglaj de debit" },
-      { code: "Rückschlagklappe", description: "clapetă de reținere, montaj între flanșe" },
-      { code: "Rückschlagventil", description: "robinet de reținere cu disc articulat" },
+      { code: "Absperrventil", description: "robinet cu ventil (globe) pentru închidere" },
+      { code: "Rückschlagklappe", description: "clapetă de reținere" },
+      { code: "Rückschlagventil", description: "robinet de reținere" },
       { code: "Kugelrückschlagventil", description: "robinet de reținere cu bilă" },
       { code: "Kugelhahn", description: "robinet cu bilă pentru închidere rapidă" },
       { code: "Schmutzfänger", description: "filtru de linie pentru protecția echipamentelor din aval" },
@@ -428,13 +428,13 @@ Pentru un integrator din industrie sau din sectorul de apă din România, gama F
     faq: [
       { q: "Ce produce Fromme Armaturen?", a: "Fromme Armaturen (F&M Armaturen) fabrică robineți fluture, sertar, cu ventil, cu bilă și de reținere din oțel turnat și inox, plus filtre de linie, cu sediul la Kirchheim unter Teck, Germania, activ din 1982." },
       { q: "Cum aleg robinetul sertar Fromme potrivit pentru instalația mea?", a: "Ai nevoie de standardul de referință (DIN sau ANSI), diametrul nominal, presiunea de lucru și tipul de pană cerut de fluid — plată, ovală sau rotundă. Pentru limitarea emisiilor de gaz, varianta certificată TA-Luft e cea potrivită." },
-      { q: "Ce este certificarea TA-Luft la robineții Fromme?", a: "TA-Luft este un certificat german din 2021 care confirmă etanșeitatea redusă la emisii fugitive de gaz a robineților DIN și ANSI, până la PN40 sau clasa ANSI 300, relevant pentru instalații de proces cu cerințe stricte de mediu." },
+      { q: "Ce este certificarea TA-Luft la robineții Fromme?", a: "TA-Luft este norma germană privind emisiile fugitive; producătorul indică un certificat TA-Luft din 2021 pentru robineți cu ventil și robineți sertar DIN și ANSI, până la PN40 sau clasa ANSI 300, relevant pentru instalații de proces cu cerințe stricte de mediu." },
       { q: "Livrați robineți Fromme Armaturen în România și cât durează?", a: "Da, aducem robineți Fromme Armaturen la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de standard, diametru și material." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Fromme F&M Armaturen - Startseite", url: "https://frommefm.de", publisher: "Fromme Armaturen GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "Produkte - Fromme F&M Armaturen", url: "https://frommefm.de/produkte/", publisher: "Fromme Armaturen GmbH & Co. KG", accessed: "2026-09-25" },
@@ -446,7 +446,7 @@ Pentru un integrator din industrie sau din sectorul de apă din România, gama F
     headquarters: "Bione (Brescia), Italia",
     overview: `Univer este un producător italian de componente pneumatice, cu sediul la Bione, în provincia Brescia, activ din 1971 și cu o unitate de producție suplimentară la Milano. Gama acoperă electrovalve cu sertar și cu supapă (poppet), cilindri pneumatici standard și speciali, grupuri de tratare a aerului și accesorii de automatizare. Pentru piața din România putem oferta din gama Univer pentru linii de automatizare pneumatică.
 
-Ce diferențiază Univer e segmentul High-Tech al gamei: cilindri telescopici seria RT, cu 2 sau 3 trepte de extindere, cilindri ovali seria OV cu alezaj între 18 și 80 mm pentru montaje compacte și cuplate, și unități de blocare seria L1-N pentru fixarea tijei în poziție. Electrovalvele poppet seria AG, cu porturi de la G1/8 la G1 1/2, sunt gândite pentru aplicații de vid, cu variantă servoasistată disponibilă. Cilindrii conformi ISO 15552 din seria L au un profil "clean" cu caneluri pentru senzori încastrați. În categoria automatizării pneumatice, Univer se compară cu Camozzi, ambele oferind game complete de cilindri, electrovalve și accesorii pentru linii de producție automatizate.
+Ce diferențiază Univer e segmentul High-Tech al gamei: cilindri telescopici seria RT, cu 2 sau 3 trepte de extindere, cilindri ovali seria OV cu alezaj între 18 și 80 mm pentru montaje compacte și cuplate, și unități de blocare seria L1-N pentru fixarea tijei în poziție. Electrovalvele poppet seria AG, cu porturi de la G1/8 la G1 1/2, sunt gândite pentru aplicații de vid, cu variantă servoasistată disponibilă. Gama include și cilindri pneumatici standard seria L; detaliile constructive se confirmă din catalogul producătorului. În categoria automatizării pneumatice, Univer se compară cu Camozzi, ambele oferind game complete de cilindri, electrovalve și accesorii pentru linii de producție automatizate.
 
 Pentru un integrator de linii automatizate din România, gama Univer are sens acolo unde un cilindru standard nu acoperă cerința — spațiu redus pentru cilindri ovali, curse mari cu cilindri telescopici sau fixare de poziție cu unități de blocare. Recomandăm brandul pentru retehnologizarea stațiilor de asamblare sau ambalare, cu selecția seriei făcută pe baza cursei, alezajului și presiunii de lucru.`,
     whyChoose: [
@@ -454,29 +454,29 @@ Pentru un integrator de linii automatizate din România, gama Univer are sens ac
       "Cilindri ovali seria OV, alezaj 18-80 mm, pentru montaje compacte și cuplate",
       "Electrovalve poppet seria AG pentru aplicații de vid, cu variantă servoasistată",
       "Unități de blocare L1-N pentru fixarea tijei cilindrului în poziție",
-      "Cilindri ISO 15552 seria L, cu profil clean pentru senzori încastrați",
+      "Cilindri pneumatici standard seria L",
     ],
     keyProducts: [
-      { name: "Electrovalve Poppet Seria AG", description: "Electrovalvă cu supapă (poppet), porturi de la G1/8 la G1 1/2, gândită pentru aplicații de vid. Variantă servoasistată disponibilă pentru fiabilitate crescută la cicluri repetate. Aplicație tipică: manipulare cu ventuze. Clientul confirmă portul necesar și tipul de acționare." },
+      { name: "Electrovalve Poppet Seria AG", description: "Electrovalvă cu supapă (poppet), porturi de la G1/8 la G1 1/2, gândită pentru aplicații de vid. Variantă servoasistată disponibilă. Aplicație tipică: manipulare cu ventuze. Clientul confirmă portul necesar și tipul de acționare." },
       { name: "Cilindri Telescopici Seria RT", description: "Cilindru pneumatic telescopic cu 2 sau 3 trepte de extindere, pentru curse mari într-o lungime retrasă compactă. Aplicație tipică: ridicare sau împingere în spații unde un cilindru standard nu încape. Clientul precizează cursa totală necesară și forța de împingere." },
       { name: "Cilindri Ovali Seria OV", description: "Cilindru pneumatic cu profil oval, alezaj între 18 și 80 mm, cu amortizare pneumatică reglabilă și variantă magnetică standard. Permite asamblarea mai multor cilindri cuplați cu lățime redusă. Clientul transmite alezajul și cursa dorite pentru configurația finală." },
-      { name: "Cilindri ISO 15552 Seria L", description: "Cilindru pneumatic standard ISO 15552, cu profil curățabil și caneluri pentru senzori încastrați pe o parte. Aplicație tipică: linii de vopsire industrială cu pulbere, reciclare textilă sau prelucrarea lemnului. Clientul confirmă alezajul, cursa și tipul de senzor dorit." },
+      { name: "Cilindri ISO 15552 Seria L", description: "Cilindru pneumatic standard din seria L; standardul constructiv, profilul și montarea senzorilor se confirmă din catalogul producătorului. Clientul confirmă alezajul, cursa și tipul de senzor dorit." },
     ],
     industries: [
-      "Vopsire industrială cu pulbere — cilindri ISO 15552 cu profil curățabil",
-      "Reciclare textilă — cilindri seria L pentru linii de procesare",
-      "Prelucrarea lemnului — cilindri pneumatici pentru linii de producție",
+      "Automatizări industriale — cilindri pneumatici standard și speciali",
+      
+      
       "Manipulare cu vid — electrovalve poppet seria AG",
     ],
     infinitrade: `Furnizăm componente pneumatice Univer — electrovalve, cilindri și accesorii — pentru linii de automatizare, aduse la comandă prin canale de aprovizionare din UE. Informațiile din acest text provin din surse publice ale producătorului; nu ținem această gamă pe raft și nu avem date proprii de stoc pentru acest brand. Termenul orientativ pentru o comandă configurată pe serie, alezaj și cursă este de 1–4 săptămâni de la confirmare. Pentru ofertă, transmiteți seria dorită, alezajul sau portul, cursa și tipul de montaj.`,
     limitation: "Nu putem confirma compatibilitatea exactă cu senzori sau accesorii de la alți producători fără o verificare tehnică punctuală.",
     productCodes: [
       { code: "AG", description: "electrovalvă poppet pentru vid, porturi G1/8-G1 1/2" },
-      { code: "AT", description: "serie de electrovalve din gama de automatizare Univer" },
-      { code: "AF", description: "serie de electrovalve din gama de automatizare Univer" },
-      { code: "AU", description: "serie de electrovalve din gama de automatizare Univer" },
-      { code: "AC", description: "serie de electrovalve din gama de automatizare Univer" },
-      { code: "Seria L (ISO 15552)", description: "cilindru pneumatic ISO 15552, profil clean" },
+      
+      
+      
+      
+      { code: "Seria L", description: "cilindru pneumatic standard" },
       { code: "OV", description: "cilindru pneumatic oval, alezaj 18-80 mm" },
       { code: "RT", description: "cilindru telescopic pneumatic, 2 sau 3 trepte" },
       { code: "L1-N", description: "unitate de blocare pentru fixarea tijei cilindrului" },
@@ -486,13 +486,13 @@ Pentru un integrator de linii automatizate din România, gama Univer are sens ac
     faq: [
       { q: "Ce produce Univer?", a: "Univer fabrică electrovalve pneumatice, cilindri standard și speciali (telescopici, ovali), unități de blocare și grupuri de tratare a aerului, cu sediul la Bione, Brescia, Italia, activ din 1971." },
       { q: "Cum aleg cilindrul pneumatic Univer potrivit pentru linia mea?", a: "Ai nevoie de cursa necesară, alezajul, presiunea de lucru și spațiul disponibil pentru montaj. Pentru spații reduse cu curse mari, seria telescopică RT ocupă mai puțin decât un cilindru standard retras complet." },
-      { q: "Ce este seria AG de electrovalve Univer?", a: "AG este seria de electrovalve poppet Univer pentru aplicații de vid, cu porturi de la G1/8 la G1 1/2 și variantă servoasistată disponibilă pentru fiabilitate crescută la cicluri repetate." },
+      { q: "Ce este seria AG de electrovalve Univer?", a: "AG este seria de electrovalve poppet Univer pentru aplicații de vid, cu porturi de la G1/8 la G1 1/2 și variantă servoasistată disponibilă." },
       { q: "Livrați componente Univer în România și cât durează?", a: "Da, aducem electrovalve, cilindri și accesorii Univer la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de serie și de configurația exactă cerută." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Pneumatic Automation - Univer Group", url: "https://www.univer-group.com/en/univer-pneumatic-automation.php", publisher: "Univer S.p.A.", accessed: "2026-09-25" },
       { title: "AG Series - Poppet Valves - Univer Group", url: "https://www.univer-group.com/en/valves/poppet-valves/info-ag.php", publisher: "Univer S.p.A.", accessed: "2026-09-25" },
@@ -502,27 +502,27 @@ Pentru un integrator de linii automatizate din România, gama Univer are sens ac
   nibco: {
     name: "NIBCO",
     headquarters: "Elkhart, Indiana, SUA",
-    overview: `NIBCO este un producător american de robineți și fitinguri industriale, cu sediul la Elkhart, Indiana, și fabrici suplimentare în Polonia și Mexic. Gama de robineți acoperă robineți sertar, cu bilă, fluture, de reținere și cu ventil, din fontă, oțel ductil, bronz și alamă, alături de fitinguri metalice și din plastic (ABS, PVC, CPVC, polipropilenă, PVDF). Pentru piața din România putem oferta din gama de robineți NIBCO pentru instalații industriale și de protecție la incendiu.
+    overview: `NIBCO este un producător american de robineți și fitinguri industriale, cu sediul la Elkhart, Indiana, și fabrici suplimentare în Polonia și Mexic. Gama de robineți acoperă robineți sertar, cu bilă, fluture, de reținere și cu ventil, din fontă, fontă ductilă, bronz și alamă, alături de fitinguri metalice și din plastic (ABS, PVC, CPVC, polipropilenă, PVDF). Pentru piața din România putem oferta din gama de robineți NIBCO pentru instalații industriale și de protecție la incendiu.
 
-Ce diferențiază NIBCO e acoperirea largă a materialelor la robineții de reținere: variante din bronz cu disc din PTFE, Buna-N sau metal, pentru linii filetate, cu lipire sau flanșate, plus variante fără plumb (Lead-Free) pentru apă potabilă și variante pentru protecția la incendiu, cu conexiuni canelate sau tip wafer. La robineții sertar, gama acoperă fontă și oțel ductil cu pană rezilientă, în variante flanșate, cu mufă mecanică sau capete PVC pentru irigații. Compania operează și mărcile Webstone, Chemtrol și Sure Seal pentru segmente specializate. În categoria robinetelor și fitingurilor industriale, NIBCO se compară cu Zurn, ambele acoperind game largi de materiale și aplicații pentru instalații.
+Ce diferențiază NIBCO e acoperirea largă a materialelor la robineții de reținere: variante din bronz cu disc din PTFE, Buna-N sau metal, pentru linii filetate, cu lipire sau flanșate, plus variante fără plumb (Lead-Free) pentru apă potabilă și variante pentru protecția la incendiu, cu conexiuni canelate sau tip wafer. La robineții sertar, gama acoperă fontă și fontă ductilă cu pană rezilientă, în variante flanșate, cu mufă mecanică sau capete PVC pentru irigații. Compania operează și mărcile Webstone, Chemtrol și Sure Seal pentru segmente specializate. În categoria robinetelor și fitingurilor industriale, NIBCO se compară cu Zurn, ambele acoperind game largi de materiale și aplicații pentru instalații.
 
 Pentru un antreprenor de instalații sau un integrator de sisteme de stingere din România, gama NIBCO are sens acolo unde varianta exactă de material și conexiune — filetată, cu lipire, flanșată sau canelată — trebuie să corespundă standardului de proiect. Recomandăm brandul pentru proiecte de protecție la incendiu, irigații sau instalații industriale unde disponibilitatea variantei Lead-Free contează pentru apa potabilă.`,
     whyChoose: [
       "Robineți de reținere în zeci de variante de material, conexiune și disc de etanșare",
-      "Robineți sertar din fontă și oțel ductil, cu pană rezilientă, pentru irigații și protecție la incendiu",
+      "Robineți sertar din fontă și fontă ductilă, cu pană rezilientă, pentru irigații și protecție la incendiu",
       "Variante Lead-Free pentru linii de apă potabilă, conform cerințelor actuale de reglementare",
       "Fitinguri metalice și din plastic (ABS, PVC, CPVC, polipropilenă, PVDF) din aceeași gamă",
       "Mărci specializate proprii — Webstone, Chemtrol și Sure Seal — pentru segmente dedicate",
     ],
     keyProducts: [
       { name: "Robineți de Reținere din Bronz", description: "Robinet de reținere din bronz, cu conexiune filetată sau prin lipire, disc din bronz, Buna-N sau PTFE. Aplicație tipică: instalații rezidențiale, comerciale și industriale de apă. Clientul trebuie să transmită dimensiunea, tipul de conexiune și materialul discului de etanșare dorit." },
-      { name: "Robineți de Reținere pentru Protecție la Incendiu", description: "Robinet de reținere din fontă sau oțel ductil, cu conexiune flanșată, canelată sau tip wafer, inclusiv variante silențioase cu disc dublu. Aplicație tipică: coloane de sprinklere. Clientul confirmă dimensiunea, tipul de conexiune și clasa de presiune a sistemului." },
-      { name: "Robineți Sertar din Fontă și Oțel Ductil", description: "Robinet sertar cu pană rezilientă, disponibil flanșat, cu mufă mecanică sau cu capete PVC pentru irigații. Aplicație tipică: conducte principale de irigații sau protecție la incendiu. Clientul precizează tipul de capete și diametrul nominal necesar." },
+      { name: "Robineți de Reținere pentru Protecție la Incendiu", description: "Robinet de reținere din fontă sau fontă ductilă, cu conexiune flanșată, canelată sau tip wafer, inclusiv variante silențioase cu disc dublu. Aplicație tipică: coloane de sprinklere. Clientul confirmă dimensiunea, tipul de conexiune și clasa de presiune a sistemului." },
+      { name: "Robineți Sertar din Fontă și Fontă Ductilă", description: "Robinet sertar cu pană rezilientă, disponibil flanșat, cu mufă mecanică sau cu capete PVC pentru irigații. Aplicație tipică: conducte principale de irigații sau protecție la incendiu. Clientul precizează tipul de capete și diametrul nominal necesar." },
       { name: "Robineți Lead-Free", description: "Robinet de reținere sau sertar din bronz sau fontă, conform cerințelor Lead-Free pentru apă potabilă, cu diverse tipuri de conexiune. Aplicație tipică: instalații rezidențiale și comerciale de apă potabilă. Clientul confirmă dacă proiectul cere explicit certificarea Lead-Free." },
     ],
     industries: [
       "Protecție la incendiu — robineți de reținere și sertar pentru sisteme sprinklere",
-      "Irigații — robineți sertar din oțel ductil cu capete PVC",
+      "Irigații — robineți sertar din fontă ductilă cu capete PVC",
       "Distribuție apă potabilă — variante Lead-Free pentru conformitate de reglementare",
       "Instalații industriale și comerciale — robineți de reținere din bronz pentru linii de proces",
     ],
@@ -539,25 +539,25 @@ Pentru un antreprenor de instalații sau un integrator de sisteme de stingere di
       { code: "T-480", description: "robinet de reținere Ring Check din bronz, filetat" },
       { code: "KG-900-W", description: "robinet de reținere silențios, canelat, protecție la incendiu" },
       { code: "KW-900-W", description: "robinet de reținere tip wafer, protecție la incendiu" },
-      { code: "W-960-W", description: "robinet de reținere din fontă, clasa 250, disc Buna-N" },
+      { code: "W-960-W", description: "robinet de reținere din fontă, clasa 250, scaun Buna-N" },
       { code: "F-607-OTS", description: "robinet sertar din fontă, protecție la incendiu, tijă pre-canelată" },
       { code: "F-609", description: "robinet sertar din fontă, flanșat, protecție la incendiu" },
-      { code: "F-619-RWS", description: "robinet sertar cu pană rezilientă, irigații, oțel ductil" },
+      { code: "F-619-RWS", description: "robinet sertar cu pană rezilientă, irigații, fontă ductilă" },
       { code: "FM-609-RWS", description: "robinet sertar cu pană rezilientă, flanșat x mufă mecanică" },
       { code: "M-609-RWS", description: "robinet sertar cu pană rezilientă, mufă mecanică" },
-      { code: "MJ-619-RWS", description: "robinet sertar irigații, mufă mecanică, oțel ductil" },
+      { code: "MJ-619-RWS", description: "robinet sertar irigații, mufă mecanică, fontă ductilă" },
       { code: "PCR-619-RW", description: "robinet sertar irigații, capete PVC, pană rezilientă" },
     ],
     faq: [
-      { q: "Ce produce NIBCO?", a: "NIBCO fabrică robineți sertar, cu bilă, fluture, de reținere și cu ventil din fontă, oțel ductil, bronz și alamă, plus fitinguri metalice și din plastic, cu sediul la Elkhart, Indiana." },
-      { q: "Cum aleg robinetul de reținere NIBCO potrivit?", a: "Ai nevoie de dimensiunea nominală, tipul de conexiune (filetată, cu lipire, flanșată sau canelată) și materialul discului de etanșare — bronz, Buna-N sau PTFE. Pentru apă potabilă, verifică dacă e necesară varianta Lead-Free." },
-      { q: "Ce înseamnă codul RWS la robineții sertar NIBCO?", a: "RWS indică o pană rezilientă (resilient wedge) la robinetul sertar, folosită frecvent la variantele din oțel ductil pentru irigații sau protecție la incendiu, în locul penei metalice clasice." },
+      { q: "Ce produce NIBCO?", a: "NIBCO fabrică robineți sertar, cu bilă, fluture, de reținere și cu ventil din fontă, fontă ductilă, bronz și alamă, plus fitinguri metalice și din plastic, cu sediul la Elkhart, Indiana." },
+      { q: "Cum aleg robinetul de reținere NIBCO potrivit?", a: "Aveți nevoie de dimensiunea nominală, tipul de conexiune (filetată, cu lipire, flanșată sau canelată) și materialul discului de etanșare — bronz, Buna-N sau PTFE. Pentru apă potabilă, verificați dacă este necesară varianta Lead-Free." },
+      { q: "Ce înseamnă codul RWS la robineții sertar NIBCO?", a: "RWS indică o pană rezilientă (resilient wedge) la robinetul sertar, folosită la variantele din fontă ductilă pentru irigații sau protecție la incendiu, în locul penei metalice clasice." },
       { q: "Livrați robineți NIBCO în România și cât durează?", a: "Da, aducem robineți NIBCO la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de codul exact și de disponibilitatea la producător." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Check Valves - NIBCO Catalog", url: "https://catalog.nibco.com/category/check-valves-5", publisher: "NIBCO INC.", accessed: "2026-09-25" },
       { title: "Gate Valves - NIBCO Catalog", url: "https://catalog.nibco.com/category/gate-valves-4", publisher: "NIBCO INC.", accessed: "2026-09-25" },
@@ -566,23 +566,23 @@ Pentru un antreprenor de instalații sau un integrator de sisteme de stingere di
   },
   tyco: {
     name: "Tyco",
-    overview: `Tyco Fire Products este marca de sisteme de protecție la incendiu a grupului Johnson Controls, cu robineți, sprinklere și componente pentru instalații de stingere cu apă. Gama de robineți acoperă robineți fluture cu conexiune canelată sau tip lug, robineți de reținere și de alarmă pentru sisteme umede, robineți pentru sisteme uscate și componente pentru sisteme deluge și preaction. Pentru piața din România putem oferta din gama Tyco pentru sisteme de sprinklere și hidranți interiori.
+    overview: `Tyco Fire Products este marca de sisteme de protecție la incendiu a grupului Johnson Controls, cu robineți, sprinklere și componente pentru instalații de stingere cu apă. Gama de robineți acoperă robineți fluture cu conexiune canelată, robineți de reținere și de alarmă pentru sisteme umede, robineți pentru sisteme uscate și componente pentru sisteme deluge și preaction. Pentru piața din România putem oferta din gama Tyco pentru sisteme de sprinklere și hidranți interiori.
 
-Ce diferențiază gama Tyco e acoperirea completă a componentelor unui sistem de sprinklere: robineți fluture seria BFV, disponibili în variante canelate (BFV-300/BFV-300C, 2″-12″, DN50-DN300, presiune 300 psi la dimensiuni mici și 175 psi la cele mari) și cu montaj lug (BFV-N, 250 psi, compatibil cu flanșe ANSI clasa 125 sau 150), plus robinetul de alarmă AV-1-300 și robinetul de test și drenaj TD-2 pentru sisteme umede. Pentru sisteme uscate, gama include robinetul DPV-1, cu construcție cu clapetă unică și resetare externă fără priming water. La sprinklere, seriile TY-B, TY-FRB, TY-FRL și TY-L acoperă acoperire standard, cu variante rezistente la coroziune. În categoria robinetelor de control pentru protecția la incendiu, Tyco se compară cu Grinnell, ambele oferind game complete de sprinklere și robineți certificați UL și FM.
+Ce diferențiază gama Tyco e acoperirea completă a componentelor unui sistem de sprinklere: robineți fluture seria BFV, disponibili în variante canelate (BFV-300, 2″-12″, DN50-DN300); presiunea nominală și tipul de conexiune se confirmă pe model, din fișa tehnică Tyco Fire, plus robinetul de alarmă AV-1-300 și robinetul de test și drenaj TD-2 pentru sisteme umede. Pentru sisteme uscate, gama include robinetul DPV-1, cu construcție cu clapetă unică și resetare externă, fără apă de amorsare. La sprinklere, seriile TY-B, TY-FRB, TY-FRL și TY-L fac parte din gama cu acoperire standard, în mai multe orientări de montaj.
 
 Pentru un proiectant sau instalator de sisteme de stingere din România, gama Tyco are sens acolo unde certificarea UL, FM sau ULC a robinetului sau sprinklerului e cerută explicit de autorizația ISU sau de asigurător. Recomandăm brandul pentru proiecte noi de sprinklere sau pentru completarea unui sistem existent cu componente compatibile.`,
     whyChoose: [
-      "Robineți fluture BFV certificați UL, FM și ULC, în variante canelate și cu montaj lug",
+      "Robineți fluture BFV cu listări UL, FM și ULC, în funcție de model și dimensiune",
       "Robinet de sisteme uscate DPV-1, cu resetare externă și eliminarea priming water",
-      "Sprinklere seria TY, cu variante rezistente la coroziune (TY-FRB, TY-FRL)",
+      "Sprinklere seria TY (TY-B, TY-FRB, TY-FRL, TY-L), în mai multe orientări de montaj",
       "Robinet de alarmă AV-1-300 și cameră de întârziere RC-1 pentru sisteme umede",
       "Marcă a grupului Johnson Controls, cu acces la documentație tehnică globală",
     ],
     keyProducts: [
-      { name: "Robineți Fluture Seria BFV", description: "Robinet fluture indicator, disponibil canelat (BFV-300/BFV-300C, 2″-12″, 300 psi până la 8″ și 175 psi la 10″-12″) sau cu montaj lug (BFV-N, 250 psi, flanșe ANSI 125/150). Aplicație tipică: robinet de sistem, de secțiune sau de pompă. Clientul confirmă dimensiunea și tipul de conexiune." },
+      { name: "Robineți Fluture Seria BFV", description: "Robinet fluture indicator, disponibil canelat (BFV-300, 2″-12″); presiunea nominală și tipul de conexiune se confirmă pe model. Aplicație tipică: robinet de sistem, de secțiune sau de pompă. Clientul confirmă dimensiunea și tipul de conexiune." },
       { name: "Robinet pentru Sisteme Uscate DPV-1", description: "Robinet pre-trim pentru sisteme uscate de sprinklere, cu design cu clapetă unică decalată din fontă ductilă și resetare externă care elimină apa de amorsare. Aplicație tipică: spații neîncălzite. Clientul confirmă dimensiunea conductei și presiunea de aer a sistemului." },
       { name: "Componente pentru Sisteme Umede", description: "Robinet de alarmă AV-1-300, cameră de întârziere RC-1 și robinet de test și drenaj TD-2, pentru coloane de sprinklere umede. Aplicație tipică: monitorizarea și testarea periodică a sistemului. Clientul precizează dimensiunea coloanei și tipul de alarmă necesar." },
-      { name: "Sprinklere Seria TY", description: "Sprinklere cu acoperire standard, coduri TY-B, TY-FRB, TY-FRL și TY-L, cu variante rezistente la coroziune și timpi de răspuns diferiți. Aplicație tipică: spații cu risc uzual sau ordinar. Clientul confirmă temperatura de declanșare și mediul de instalare (coroziv sau standard)." },
+      { name: "Sprinklere Seria TY", description: "Sprinklere cu acoperire standard, coduri TY-B, TY-FRB, TY-FRL și TY-L, în mai multe orientări de montaj. Aplicație tipică: spații cu risc uzual sau ordinar. Clientul confirmă temperatura de declanșare și mediul de instalare (coroziv sau standard)." },
     ],
     industries: [
       "Protecție la incendiu în clădiri comerciale — sprinklere seria TY și robineți de control",
@@ -599,9 +599,9 @@ Pentru un proiectant sau instalator de sisteme de stingere din România, gama Ty
     limitation: "Nu putem confirma disponibilitatea unui model exact pentru piața europeană fără verificarea certificării locale cerute de proiect.",
     productCodes: [
       { code: "BFV-1", description: "robinet fluture, redesignare pentru Central/Grinnell Figure 570/580" },
-      { code: "BFV-300", description: "robinet fluture canelat, 2″-12″, 300/175 psi" },
-      { code: "BFV-300C", description: "robinet fluture canelat, variantă compactă" },
-      { code: "BFV-N", description: "robinet fluture tip lug, 250 psi, flanșe ANSI" },
+      { code: "BFV-300", description: "robinet fluture canelat, 2″-12″" },
+      { code: "BFV-300C", description: "robinet fluture canelat" },
+      { code: "BFV-N", description: "robinet fluture; specificațiile se confirmă din fișa tehnică Tyco Fire" },
       { code: "AV-1-300", description: "robinet de alarmă pentru sisteme umede" },
       { code: "CV-1FR", description: "robinet de reținere tip riser pentru sisteme umede" },
       { code: "RC-1", description: "cameră de întârziere pentru robinetul de alarmă" },
@@ -611,21 +611,21 @@ Pentru un proiectant sau instalator de sisteme de stingere din România, gama Ty
       { code: "WMA-1", description: "alarmă hidraulică cu motor de apă" },
       { code: "DPV-1", description: "robinet pre-trim pentru sisteme uscate, resetare externă" },
       { code: "TY-B", description: "sprinkler cu acoperire standard, serie de bază" },
-      { code: "TY-FRB", description: "sprinkler rezistent la coroziune, acoperire standard" },
-      { code: "TY-FRL", description: "sprinkler rezistent la coroziune, răspuns rapid" },
-      { code: "TY-L", description: "sprinkler cu răspuns rapid, acoperire standard" },
+      { code: "TY-FRB", description: "sprinkler cu acoperire standard" },
+      { code: "TY-FRL", description: "sprinkler cu acoperire standard" },
+      { code: "TY-L", description: "sprinkler cu acoperire standard" },
       { code: "RFII", description: "sprinkler cu acoperire standard, serie RFII" },
     ],
     faq: [
       { q: "Ce produce Tyco pentru sistemele de sprinklere?", a: "Tyco Fire Products fabrică robineți fluture, robineți pentru sisteme umede și uscate, componente deluge/preaction și sprinklere pentru protecția la incendiu, ca marcă a grupului Johnson Controls." },
-      { q: "Cum aleg robinetul fluture Tyco potrivit pentru sistemul meu?", a: "Ai nevoie de dimensiunea conductei, tipul de conexiune (canelată sau flanșată) și presiunea maximă de lucru a sistemului. Modelul BFV-300 acoperă conexiuni canelate până la 12″, iar BFV-N e gândit pentru montaj lug pe flanșe ANSI." },
+      { q: "Cum aleg robinetul fluture Tyco potrivit pentru sistemul meu?", a: "Aveți nevoie de dimensiunea conductei, tipul de conexiune (canelată sau flanșată) și presiunea maximă de lucru a sistemului. Modelul BFV-300 acoperă conexiuni canelate între 2″ și 12″; alte tipuri de conexiune se confirmă pe model." },
       { q: "Ce este robinetul DPV-1 de la Tyco?", a: "DPV-1 este robinetul pre-trim pentru sisteme uscate de sprinklere, cu design cu clapetă unică decalată și resetare externă, care elimină necesitatea apei de amorsare la reactivarea sistemului." },
       { q: "Livrați robineți Tyco în România și cât durează?", a: "Da, aducem robineți și componente Tyco la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de model și de certificarea cerută de proiect." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products and Solutions - Tyco Fire", url: "https://www.tyco-fire.com/products-and-solutions", publisher: "Tyco Fire Products LP (Johnson Controls)", accessed: "2026-09-25" },
       { title: "Model BFV-1 Butterfly Valve Datasheet", url: "https://docs.johnsoncontrols.com/tycofire/api/khub/documents/qBT5bT7UkqBpiKqd4MGbxw/content", publisher: "Tyco Fire Products LP (Johnson Controls)", accessed: "2026-09-25" },
