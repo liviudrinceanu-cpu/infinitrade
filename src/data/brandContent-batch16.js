@@ -290,33 +290,33 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
     employees: "5,500+ angajați la nivel global",
     overview: `Turck este un producător german important de senzori industriali și sisteme de automatizare de câmp — senzori inductivi, RFID industrial sau module I/O pentru bus de câmp. Compania a pornit în 1965 producând senzori de proximitate și de atunci a evoluat constant, lansând soluții integrate pentru Industry 4.0. Astăzi Turck oferă, conform producătorului, peste 30,000 de produse diferite — de la senzori simpli de poziție până la gateway-uri cloud și sisteme complete de identificare RFID pentru tracking de active și produse.
 
-Turck folosește filozofia de "plug and work" — senzorii vin pre-configurați, conectarea e simplă (M8, M12, sau eurofast), iar integrarea în PLC sau DCS se face rapid prin profile device file (GSDML, EDS). Se montează senzori inductivi Turck pe linii de producție unde poziționarea exactă a pieselor este critică — repetabilitate de 0.01mm, fără drift termic, și LED-uri de status pentru diagnosticare rapidă. Pentru aplicații RFID, sistemele Turck sunt proiectate pentru rate de citire ridicate chiar și la viteze mari de bandă, conform producătorului.
+Turck folosește filozofia de "plug and work" — senzorii vin pre-configurați, conectarea e simplă (M8, M12, sau eurofast), iar integrarea în PLC sau DCS se face rapid prin profile device file (GSDML, EDS). Se montează senzori inductivi Turck pe linii de producție unde poziționarea exactă a pieselor este critică — LED-uri de status pentru diagnosticare rapidă. Pentru aplicații RFID, sistemele Turck sunt proiectate pentru rate de citire ridicate chiar și la viteze mari de bandă, conform producătorului.
 
 Turck nu vinde doar componente — oferă soluții complete. Pentru conectarea unui număr mare de senzori la un PLC industrial, Turck are module I/O multiprotocol (Profinet, EtherNet/IP, Modbus TCP) care reduc cablajul și costurile de instalare. Pentru tracking-ul paleților într-un depozit automatizat, sistemul BL ident RFID al Turck oferă această funcționalitate, cu software de management inclus.`,
     whyChoose: [
-      "Producător important de senzori inductivi — gamă completă de la M5 până la M30, cu distanțe de sensing de la 1mm la 60mm",
-      "Sisteme RFID robuste — citire fiabilă la viteze de până la 10 m/s, conform producătorului, potrivite pentru tracking produse și paletizare",
+      "Producător important de senzori inductivi — senzori în construcții cilindrice și rectangulare, cu distanțe de comutare în funcție de model",
+      "Sisteme RFID robuste — potrivite pentru tracking produse și paletizare; viteza maximă de citire depinde de model și de tag",
       "Integrare simplă — conectori standardizați (M8, M12), profile GSDML/EDS pentru toate PLC-urile majore",
-      "IO-Link nativ — majoritatea senzorilor suportă IO-Link pentru parametrizare remotă și diagnosticare avansată",
+      "IO-Link — o parte din senzori suportă IO-Link pentru parametrizare remotă și diagnosticare; disponibilitatea se confirmă pe cod",
       "Calitate germană — MTBF ridicat, rezistență la șocuri și vibrații, funcționare în -40°C până +85°C",
-      "Suport tehnic excelent — documentație detaliată, software gratuit de configurare, training și consultanță"
+      "Suport tehnic — documentație, software de configurare, training și consultanță, conform ofertei producătorului"
     ],
     keyProducts: [
       {
         name: "Senzori Inductivi de Proximitate",
-        description: "Gama completă de senzori inductivi pentru detectarea metalelor feroase și neferoase, în construcții cilindrică (M5, M8, M12, M18, M30) și rectangulară (Q20, Q40, Q80). Disponibili cu ieșire PNP, NPN sau curent continuu, în versiuni NO (normally open), NC (normally closed) sau comutabile. Distanțe de sensing de la 1mm (pentru M5) până la 60mm (pentru M30 și modele speciale cu factor 1). Construcție robustă din inox sau alamă cromată, cu protecție IP67/IP68/IP69K pentru medii umede sau cu jet de apă la presiune. Include și senzori cu factor 1 (detectează oțel și aluminiu la aceeași distanță) și senzori cu suprafață activă extinsă pentru detectarea prin pereți plastici sau lemnoși. Toți senzorii au LED de status vizibil 360° și rezistență la câmpuri magnetice externe."
+        description: "Gama completă de senzori inductivi pentru detectarea metalelor feroase și neferoase, în construcții cilindrică (M5, M8, M12, M18, M30) și rectangulară (Q20, Q40, Q80). Disponibili cu ieșire PNP, NPN sau curent continuu, în versiuni NO (normally open), NC (normally closed) sau comutabile. Distanța nominală de comutare depinde de model, conform fișei tehnice. Construcție robustă din inox sau alamă cromată, cu protecție IP67/IP68/IP69K pentru medii umede sau cu jet de apă la presiune. Include și senzori cu factor 1 (detectează oțel și aluminiu la aceeași distanță) și senzori cu suprafață activă extinsă pentru detectarea prin pereți plastici sau lemnoși. Toți senzorii au LED de status vizibil 360° și rezistență la câmpuri magnetice externe."
       },
       {
         name: "Sisteme RFID Industriale (BL ident)",
-        description: "Soluții complete RFID pentru identificarea și tracking-ul produselor, paletizilor, scule și active în producție și logistică. Sistemul include read/write heads (HF 13.56 MHz și UHF 865-868 MHz), tag-uri robuste industriale (rezistente la temperatură, șocuri, chimicale), și module de interfață pentru integrarea în PLC și DCS. Capacități de citire multiplă — până la 50 de tag-uri citite simultan la distanțe de până la 6 metri (UHF) sau 1.2 metri (HF). Perfect pentru tracking paleți pe linii automate, identificare scule pe mașini CNC, sau management de inventar în timp real. Software-ul BL ident oferă configurare simplă, logging de evenimente, și integrare directă cu sisteme ERP/MES."
+        description: "Soluții complete RFID pentru identificarea și tracking-ul produselor, paletizilor, scule și active în producție și logistică. Sistemul include read/write heads (HF 13.56 MHz și UHF 865-868 MHz), tag-uri robuste industriale (rezistente la temperatură, șocuri, chimicale), și module de interfață pentru integrarea în PLC și DCS. Numărul de tag-uri citite simultan și distanța de citire depind de model și de tag și se confirmă din fișa tehnică. Perfect pentru tracking paleți pe linii automate, identificare scule pe mașini CNC, sau management de inventar în timp real. Software-ul BL ident oferă configurare simplă, logging de evenimente, și integrare directă cu sisteme ERP/MES."
       },
       {
         name: "Module I/O Multiprotocol",
-        description: "Familia TBEN (Turck Block I/O Ethernet) și TBPN (Profinet) oferă module I/O compacte și modulare pentru conectarea rapidă a senzorilor și actuatorilor la rețelele industriale. Suport pentru Profinet, EtherNet/IP, Modbus TCP, POWERLINK în același hardware — schimbi doar configurația software. Module disponibile cu 8, 16 sau 32 de canale digitale, 4-8 canale analogice (4-20mA, 0-10V, termocuple, RTD), și funcții speciale pentru IO-Link, safety, sau RFID. Montare pe profil DIN sau direct pe mașină, conectare rapidă prin conector M12 multipin. Reduce drastic timpul și costul de cablare față de I/O centralizat clasic — aduci inteligența la câmp, nu cablurile la dulap."
+        description: "Familia TBEN (Turck Block I/O Ethernet) și TBPN (Profinet) oferă module I/O compacte și modulare pentru conectarea rapidă a senzorilor și actuatorilor la rețelele industriale. Suport pentru Profinet, EtherNet/IP, Modbus TCP și CC-Link IE Field Basic în același hardware, conform fișelor modulelor TBEN. Module disponibile cu 8, 16 sau 32 de canale digitale, 4-8 canale analogice (4-20mA, 0-10V, termocuple, RTD), și funcții speciale pentru IO-Link, safety, sau RFID. Montare pe profil DIN sau direct pe mașină, conectare rapidă prin conector M12 multipin. Reduce drastic timpul și costul de cablare față de I/O centralizat clasic — aduci inteligența la câmp, nu cablurile la dulap."
       },
       {
         name: "Senzori de Presiune și Temperatură",
-        description: "Senzori de presiune din inox pentru măsurarea presiunii relative, absolute sau diferențiale în hidraulică, pneumatică și procese industriale. Gama de măsurare de la 0-1 bar până la 0-1000 bar, cu ieșire 4-20mA, 0-10V sau digitală (IO-Link). Acuratețe de până la ±0.25% FS, display LCD opțional pentru citire locală, și construcție IP67 cu conectori M12. Include și transmițătoare de temperatură cu sonde Pt100, Pt1000 sau termocuple tip K, J, T pentru măsurarea proceselor industriale între -200°C și +600°C. Toate senzorii sunt configurabili via IO-Link pentru setarea gamei, offset-ului și filtrării, fără necesitatea de a-i demonta sau recabla."
+        description: "Senzori de presiune din inox pentru măsurarea presiunii relative, absolute sau diferențiale în hidraulică, pneumatică și procese industriale. Gama de măsurare depinde de modelul ales (în magazinul online Turck sunt listate transmițătoare de la vid până la 600 bar), cu ieșire 4-20mA, 0-10V sau digitală (IO-Link). Acuratețea depinde de model și se confirmă din fișa tehnică, display LCD opțional pentru citire locală, și construcție IP67 cu conectori M12. Include și transmițătoare de temperatură cu sonde Pt100, Pt1000 sau termocuple tip K, J, T pentru măsurarea proceselor industriale în domeniul indicat în fișa tehnică a fiecărui model. Toate senzorii sunt configurabili via IO-Link pentru setarea gamei, offset-ului și filtrării, fără necesitatea de a-i demonta sau recabla."
       }
     ],
     certifications: [
@@ -363,7 +363,7 @@ Turck nu vinde doar componente — oferă soluții complete. Pentru conectarea u
       },
       {
         "code": "BI4U-EM12WD-AP6X-H1141",
-        "description": "Senzor inductiv ultra-plat, pentru montaj îngropat în metal"
+        "description": "Senzor inductiv pentru industria alimentară, cu montaj îngropat (flush) și distanță de comutare de 4 mm"
       },
       {
         "code": "BI4U-M12-AP6X-H1141",
@@ -387,13 +387,13 @@ Turck nu vinde doar componente — oferă soluții complete. Pentru conectarea u
       },
       {
         "code": "PS510-10V-05-LI2UPN8-H1141",
-        "description": "Traductor de presiune cu ieșire analogică de 0-10V"
+        "description": "Traductor de presiune cu domeniul -1...10 bar, cu ieșiri comutată, analogică și IO-Link"
       }
     ],
     faq: [
       {
         "q": "Ce senzor Turck aleg pentru montaj îngropat în metal?",
-        "a": "Seria BI4U, precum BI4U-EM12WD-AP6X-H1141, este construită special pentru montaj complet îngropat în material metalic, fără câmp electromagnetic lateral care să interfereze cu piese apropiate. Un senzor standard neîngropabil ar avea distanța de comutare redusă sau ar declanșa fals dacă este montat la fel de aproape de metal."
+        "a": "Seria BI4U, precum BI4U-EM12WD-AP6X-H1141, are montaj îngropat (flush), iar distanța de comutare și condițiile de montaj se confirmă din fișa tehnică a codului ales. Un senzor standard neîngropabil ar avea distanța de comutare redusă sau ar declanșa fals dacă este montat la fel de aproape de metal."
       },
       {
         "q": "Ce diferență este între senzorii Turck BI5-M18-AN6X-H1141 și BI8-M18-AP6X-H1141?",
@@ -412,8 +412,8 @@ Turck nu vinde doar componente — oferă soluții complete. Pentru conectarea u
         "a": "Prefixul BI marchează un senzor inductiv de proximitate; cifra care urmează indică distanța nominală de comutare în milimetri, iar restul codului descrie forma carcasei, filetul de montare și tipul ieșirii electrice. De exemplu, BI8 are o distanță nominală de 8 mm, mai mare decât BI5."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am precizat modul de livrare; am verificat anul înființării și sediul Turck în sursele citate." }
     ],
     evidenceClass: "transactional"
@@ -863,33 +863,33 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
     employees: "6,000+ angajați la nivel global",
     overview: `Weidmüller nu e doar despre borniere și conectori — compania germană oferă o gamă completă de componente electronice pentru automatizare industrială, cu focus pe alimentare, protecție, și conversie semnale. Când proiectezi un dulap de comandă modern, nu poți folosi doar PLC-ul — ai nevoie de alimentatoare switching stabilizate pentru 24VDC, module de protecție la supratensiuni (surge protection) pentru linii de senzori expuse, convertoare de semnal pentru interfața între senzori și PLC, și relee de siguranță pentru opriri de urgență. Weidmüller are toate acestea într-o gamă integrată, cu același design modular pe șină DIN și aceleași standarde de calitate germană.
 
-Alimentatoarele Weidmüller PRO se folosesc frecvent în tablouri unde fiabilitatea este critică — fabrici care nu-și permit downtime, utilaje mobile supuse la vibrații și temperaturi extreme. Față de alimentatoare generice ieftine, producătorul menționează: randament ridicat (>95%, deci mai puțină căldură disipată), protecții complete (scurtcircuit, suprasarcină, supratensiune), și capacitate de overload pentru porniri grele (150% curent pentru câteva secunde). Plus că design-ul îngust (22.5mm lățime pentru 5A) economisește spațiu în dulapuri aglomerate. Monitoring-ul e integrat — LED-uri de status și ieșire de semnal DC OK pentru PLC, ca să știi când alimentarea devine instabilă înainte de colaps total.
+Alimentatoarele Weidmüller PRO se folosesc frecvent în tablouri unde fiabilitatea este critică — fabrici care nu-și permit downtime, utilaje mobile supuse la vibrații și temperaturi extreme. Față de alimentatoare generice ieftine, producătorul menționează: randament de 88–93% la modelele PRO verificate (de exemplu 92% la PRO MAX 480 W), protecții (scurtcircuit, limitare de curent la suprasarcină, supratensiune) și rezervă de curent pentru porniri grele; valorile exacte sunt în fișa fiecărui model. Plus că design-ul compact (35–40 mm lățime pentru 5 A) economisește spațiu în dulapuri aglomerate. Monitoring-ul e integrat — LED-uri de status și ieșire de semnal DC OK pentru PLC, ca să știi când alimentarea devine instabilă înainte de colaps total.
 
-Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoare analogice 4-20mA în 0-10V cu izolare galvanică, module pentru termocuple și RTD-uri care aduc semnalele direct în PLC fără necesitatea de input cards scumpe, și sisteme complete de monitorizare curenți trifazați pentru detectarea asimetriilor sau pierderilor de fază. Toate componentele sunt certificate pentru medii industriale grele — temperaturi -25°C până +70°C, vibratii conform EN 60068-2-6, și protecție la supratensiuni conform EN 61000-4-5.`,
+Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoare analogice 4-20mA în 0-10V cu izolare galvanică, module pentru termocuple și RTD-uri care aduc semnalele direct în PLC fără necesitatea de input cards scumpe, și sisteme complete de monitorizare curenți trifazați pentru detectarea asimetriilor sau pierderilor de fază. Toate componentele sunt certificate pentru medii industriale grele — temperaturi -25°C până +70°C, vibrații conform EN 60068-2-6, și protecție la supratensiuni conform EN 61000-4-5.`,
     whyChoose: [
-      "Alimentatoare PRO cu randament >95% — mai puțină căldură, mai multă fiabilitate, costuri de operare reduse",
+      "Alimentatoare PRO cu randament ridicat (de exemplu 92% la PRO MAX 480 W și 93% la PRO MAX 960 W, conform fișelor producătorului)",
       "Protecție completă la supratensiuni — module dedicate pentru salvarea PLC-urilor și senzorilor de la descărcări atmosferice",
       "Convertoare de semnal cu izolare galvanică — eliminarea buclelor de masă și interferențelor EMI",
       "Design modular pe șină DIN — integrare bună cu bornierele și conectorii Weidmüller",
-      "Certificări complete — CE, UL, ATEX, IECEx, maritime (DNV-GL) pentru toate aplicațiile industriale",
+      "Certificări specifice fiecărei serii (de exemplu CE, UL), conform fișelor tehnice",
       "Monitoring integrat — semnale de stare pentru PLC, diagnosticare preventivă a problemelor"
     ],
     keyProducts: [
       {
         name: "Alimentatoare Switching PRO (Power Supplies)",
-        description: "Seria PRO oferă alimentatoare switching pentru tensiuni de ieșire 24VDC, 12VDC, 48VDC — gama de putere de la 30W (1.3A) până la 960W (40A). Randament tipic >95% (versiunile PRO ECO chiar >96%), factor de putere activ >0.98, și curent de pornire controlat (inrush limitat la <20A) pentru protecția siguranțelor. Include protecții complete: scurtcircuit cu auto-recovery, suprasarcină cu limitare de curent, supratensiune cu shutdown, și supraîncălzire cu derating termic progresiv. Design îngust — modelul de 120W (5A) are doar 22.5mm lățime, încape trei alimentatoare unde intră unul clasic. Ieșire DC OK programabilă (relay sau tranzistor) pentru monitorizare PLC. Montare pe șină DIN 35mm, temperatură de lucru -25°C până +70°C (cu derating peste +60°C), și conformitate cu EN 61000-6-2 pentru imunitate EMC."
+        description: "Seria PRO oferă alimentatoare switching pentru tensiuni de ieșire 24VDC, 12VDC, 48VDC — gama de putere până la 960W (40A). Randamentul, factorul de putere și curentul de pornire depind de model (de exemplu PRO MAX 480 W: randament 92%, factor de putere 0,95, curent de pornire maxim 15 A; PRO ECO 120 W II: randament 90,1% la 230 V AC), conform fișelor tehnice ale producătorului. Include protecții complete: scurtcircuit cu auto-recovery, suprasarcină cu limitare de curent, supratensiune cu shutdown, și supraîncălzire cu derating termic progresiv. Design compact — PRO ECO 120 W 24 V 5 A II are 35 mm lățime, iar PRO MAX 120 W 24 V 5 A are 40 mm, conform fișelor tehnice. Ieșire DC OK programabilă (relay sau tranzistor) pentru monitorizare PLC. Montare pe șină DIN 35mm, temperatură de lucru -25°C până +70°C (cu derating peste +60°C), și conformitate cu EN 61000-6-2 pentru imunitate EMC."
       },
       {
         name: "Module de Protecție la Supratensiuni (Surge Protection)",
-        description: "Dispozitive VPU (Voltage Protection Unit) pentru protejarea circuitelor de semnale și alimentare împotriva tranzitorilor de tensiune cauzați de descărcări atmosferice, comutații de sarcini inductive, sau interferențe de rețea. Gama include protecții pentru alimentări AC 230V/400V (tip 1+2+3 conform EN 61643-11), protecții pentru circuite DC 24V/48V/110V, și protecții dedicate pentru linii de semnale 4-20mA, 0-10V, HART, Profibus, Ethernet. Tehnologie hybrid (spark gap + varistor + diode de suprimare) pentru răspuns ultra-rapid (<25ns) și capacitate mare de descărcare (până la 100kA per fază pentru tip 1). Montare pe șină DIN,Indicație vizuală și electrică a stării (OK/Fault), și posibilitate de înlocuire modul protecție fără decablare (plug-in cartridges)."
+        description: "Dispozitive VPU (Voltage Protection Unit) pentru protejarea circuitelor de semnale și alimentare împotriva tranzitorilor de tensiune cauzați de descărcări atmosferice, comutații de sarcini inductive, sau interferențe de rețea. Gama include protecții pentru alimentări AC 230V/400V (tipurile se confirmă pe cod, din fișa tehnică), protecții pentru circuite DC 24V/48V/110V, și protecții dedicate pentru linii de semnale 4-20mA, 0-10V, HART, Profibus, Ethernet. Tehnologia constructivă și capacitatea de descărcare depind de modelul ales; de exemplu VPU II 2 PV 600V DC are curent de descărcare 20/40 kA (8/20 µs) și timp de răspuns ≤25 ns, conform fișei tehnice. Montare pe șină DIN,Indicație vizuală și electrică a stării (OK/Fault), și posibilitate de înlocuire modul protecție fără decablare (plug-in cartridges)."
       },
       {
         name: "Convertoare de Semnal și Izolare (Signal Conditioners)",
-        description: "Module pentru conversie și izolare semnale analogice și digitale — convertoare 4-20mA în 0-10V și invers, amplificatoare de semnal cu izolare galvanică 1500VAC, convertoare pentru termocuple (tip K, J, T, N, E, R, S) și RTD (Pt100, Pt1000), și convertoare frecvență-tensiune pentru senzori inductivi sau encodere. Izolarea galvanică elimină buclele de masă și protejează echipamentele scumpe (PLC, DCS) de supratensiuni pe linia de senzori. Acuratețe tipică <±0.1% FS, liniaritate <±0.05%, și timp de răspuns <50ms pentru aplicații dinamice. Configurare prin comutatoare DIP sau software (modele ACT), alimentare 24VDC, montare pe șină DIN 35mm în carcasă de doar 6mm lățime."
+        description: "Module pentru conversie și izolare semnale analogice și digitale — convertoare 4-20mA în 0-10V și invers, amplificatoare de semnal cu izolare galvanică, convertoare pentru termocuple (tip K, J, T, N, E, R, S) și RTD (Pt100, Pt1000), și convertoare frecvență-tensiune pentru senzori inductivi sau encodere. Izolarea galvanică elimină buclele de masă și protejează echipamentele scumpe (PLC, DCS) de supratensiuni pe linia de senzori. Acuratețea, liniaritatea și timpul de răspuns depind de model și se confirmă în fișa tehnică. Configurare prin comutatoare DIP sau software (modele ACT), alimentare 24VDC, montare pe șină DIN 35mm în carcasă compactă (lățimea depinde de model)."
       },
       {
         name: "Relee de Monitorizare și Siguranță (Monitoring Relays)",
-        description: "Relee inteligente pentru monitorizarea parametrilor electrici și protecția echipamentelor — monitoare de tensiune AC/DC (undervoltage, overvoltage, asimetrie faze), monitoare de curent (overcurrent, undercurrent, lipsa fazei), monitoare de izolație pentru sisteme IT, și relee de siguranță funcțională SIL 3 pentru circuite de oprire de urgență, porți de protecție, și covoare de siguranță. Fiecare releu are setări ajustabile (praguri, histereză, timpi de întârziere) și ieșiri contact liber de potențial pentru comandă sau alarmă. Include și relee de timp (delay-on, delay-off, interval, ciclic) pentru automatizări simple fără PLC. Montare pe șină DIN, LED-uri de status, certificări TÜV pentru aplicații de siguranță."
+        description: "Relee inteligente pentru monitorizarea parametrilor electrici și protecția echipamentelor — monitoare de tensiune AC/DC (undervoltage, overvoltage, asimetrie faze), monitoare de curent (overcurrent, undercurrent, lipsa fazei), monitoare de izolație pentru sisteme IT, și relee de siguranță pentru circuite de oprire de urgență (nivelul SIL/PL al fiecărui model se confirmă în fișa tehnică), porți de protecție, și covoare de siguranță. Fiecare releu are setări ajustabile (praguri, histereză, timpi de întârziere) și ieșiri contact liber de potențial pentru comandă sau alarmă. Include și relee de timp (delay-on, delay-off, interval, ciclic) pentru automatizări simple fără PLC. Montare pe șină DIN, LED-uri de status, certificări TÜV pentru aplicații de siguranță."
       }
     ],
     certifications: [
@@ -991,7 +991,7 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
       },
       {
         "q": "Ce diferență este între alimentatoarele Weidmüller PRO ECO și PRO MAX?",
-        "a": "PRO ECO acoperă necesarul curent de putere la un preț de listă mai accesibil, fiind gândit pentru aplicații standard fără cerințe speciale. PRO MAX oferă rezervă suplimentară de putere și funcții extinse de diagnoză, recomandat acolo unde alimentarea trebuie să suporte vârfuri de sarcină sau condiții de mediu mai dificile."
+        "a": "PRO ECO este gândită pentru aplicații standard fără cerințe speciale. PRO MAX oferă rezervă suplimentară de putere și funcții extinse de diagnoză, recomandat acolo unde alimentarea trebuie să suporte vârfuri de sarcină sau condiții de mediu mai dificile."
       },
       {
         "q": "Livrați alimentatoare și protecții la supratensiune Weidmüller în România?",
@@ -1006,8 +1006,8 @@ Pentru aplicații complexe, Weidmüller oferă soluții integrate — convertoar
         "a": "Tipul 2, prezent la seria VPU II, protejează la nivelul tabloului de distribuție împotriva supratensiunilor induse în rețea. Tipul 3, folosit la VPU III R, se montează aproape de echipamentul final, pentru o protecție suplimentară fină, acolo unde distanța de cablu față de protecția principală de tip 2 este mare."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "gsc-only"
@@ -1158,35 +1158,35 @@ Portofoliul Wera este mai degrabă concentrat decât vast — șurubelnițe și 
     founded: 1872,
     headquarters: "Dortmund, Germania",
     employees: "8,000+ angajați la nivel global",
-    overview: `Wilo este unul dintre producătorii importanți la nivel mondial în pompe de circulație, și linia lor HVAC (Heating, Ventilation, Air Conditioning) e omniprezentă în industria de climatizare și încălzire — de la apartamente și case până la clădiri comerciale, spitale, fabrici. Dacă ai centrală termică în bloc sau casă, șansele sunt foarte mari că pompa de circulație care împinge apa caldă prin radiatoare e o Wilo. Compania are peste 150 de ani de experiență în mișcarea lichidelor și s-a specializat pe eficiență energetică — pompele lor moderne cu motoare ECM (Electronically Commutated Motor) și control automat al debitului consumă considerabil mai puțin decât modelele vechi cu turație fixă, conform producătorului și normelor ErP aplicabile.
+    overview: `Wilo este unul dintre producătorii importanți la nivel mondial în pompe de circulație, și linia lor HVAC (Heating, Ventilation, Air Conditioning) e omniprezentă în industria de climatizare și încălzire — de la apartamente și case până la clădiri comerciale, spitale, fabrici. Pompele de circulație Wilo se folosesc în instalații de încălzire rezidențiale și comerciale. Compania are peste 150 de ani de experiență în mișcarea lichidelor și s-a specializat pe eficiență energetică — pompele lor moderne cu motoare ECM (Electronically Commutated Motor) și control automat al debitului consumă considerabil mai puțin decât modelele vechi cu turație fixă, conform producătorului și normelor ErP aplicabile.
 
-Pompele din seria Stratos PICO au senzori integrați care detectează debitul necesar și ajustează automat turația — când sobele termostatice se închid și rezistența la flux crește, pompa reduce turația, economisind energie, iar când cineva deschide un robinet de apă caldă, pompa accelerează pentru a menține presiunea, fără intervenție manuală.
+Pompele din seria Stratos PICO ajustează automat turația în funcție de cerința instalației (funcția Wilo Dynamic Adapt plus): când robinetele termostatice ale radiatoarelor se închid și rezistența la flux crește, pompa reduce turația și economisește energie, fără intervenție manuală.
 
 Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (25-40 W consum) până la pompe triple pentru clădiri comerciale mari (racorduri DN80, debite de sute de m³/h). Include și pompe pentru apa de consum (booster systems pentru presiune constantă în clădiri înalte), pompe pentru recirculare apă caldă menajeră (comfort imediat la robinet), și pompe pentru sisteme geotermale (încălzire/răcire prin sondă).`,
     whyChoose: [
       "Economii de energie — motoare ECM cu consum redus semnificativ față de pompe clasice cu turație fixă, conform producătorului",
       "Reglare automată — ajustare dinamică a turației în funcție de nevoie, fără setări manuale",
       "Fiabilitate germană — MTBF ridicat, funcționare silențioasă, durată de viață îndelungată conform producătorului",
-      "Instalare simplă — dimensiuni standard (racorduri G1, G1¼, G1½, DN flanse), înlocuire directă",
+      "Instalare simplă — dimensiuni standard, cu racorduri filetate sau flanșate în funcție de model; compatibilitatea la înlocuire se verifică pe cod",
       "Certificări complete — ErP 2015 (Energy-related Products Directive), certificări pentru apă potabilă",
-      "Suport tehnic excelent — software gratuit de selecție pompe (Wilo-Select), documentație detaliată, training"
+      "Suport tehnic — software de selecție pompe (Wilo-Select), documentație, training, conform ofertei producătorului"
     ],
     keyProducts: [
       {
         name: "Pompe de Circulație Wilo-Stratos PICO (High Efficiency)",
-        description: "Seria Stratos PICO este folosită pe scară largă pentru pompe de înaltă eficiență în încălzire rezidențială și comercială mică — consum de la 4W la 85W (în funcție de model și regim), clasă energetică A conform ErP 2015. Motor ECM (brushless DC) cu magneți permanenți și control electronic PWM pentru randament ridicat peste întreaga gamă de funcționare. Display LED color pentru setări și diagnostic — alegi modul de funcționare (presiune constantă, presiune variabilă, sau turație fixă), vezi consumul instantaneu, și verifici alerte. Racorduri filetate G1, G1¼, G1½ sau flanșe DN25-50, corp pompă din fontă sau inox (pentru sisteme cu apă potabilă). Funcții smart: auto-adapt (pompă învață rezistența sistemului și se optimizează), deaeration automat (elimină aerul captiv din instalație), și protecție anti-blocare (pornește periodic pompa dacă stă oprită luni de zile)."
+        description: "Seria Stratos PICO este folosită pe scară largă pentru pompe de înaltă eficiență în încălzire rezidențială și comercială mică — consum între 3 W și 75 W la modelul Stratos PICO 25/0,5-8-130 (în funcție de regim), indice de eficiență energetică EEI ≤0,23, conform fișei producătorului. Motor ECM (brushless DC) cu magneți permanenți și control electronic PWM pentru randament ridicat peste întreaga gamă de funcționare. Display LED color pentru setări și diagnostic — alegi modul de funcționare (presiune constantă, presiune variabilă, sau turație fixă), vezi consumul instantaneu, și verifici alerte. Racorduri filetate (de exemplu G 1½ la modelul 25/0,5-8-130, care nu este flanșat), corp din fontă cenușie; racordurile disponibile se confirmă pe cod, din fișa Wilo. Funcții smart: auto-adapt (pompă învață rezistența sistemului și se optimizează), deaeration automat (elimină aerul captiv din instalație), și protecție anti-blocare (pornește periodic pompa dacă stă oprită luni de zile)."
       },
       {
         name: "Pompe de Circulație Clasice Wilo-Star-RS (Economy)",
-        description: "Pentru aplicații unde bugetul e limitat sau eficiența energetică nu este prioritatea principală, seria Star-RS oferă pompe de circulație robuste și fiabile la preț accesibil. Motor asincron clasic cu 3 trepte de turație selectabile manual (printr-un comutator pe carcasă), consum de la 40W la 120W. Construcție simplă și dovedită — rotor înecat (wet rotor) fără etanșări mecanice care să se uzeze, lagăre lubrifiate de lichidul pompat (zero mentenanță). Racorduri G1 sau G1½, corp fontă, temperatură de lucru -10°C până +110°C. Potrivit pentru înlocuirea pompelor vechi în sisteme de încălzire rezidențială unde costul inițial este mai important decât economiile pe termen lung. Include termostat integrat pentru protecție la supraîncălzire și rezistență la blocare temporară."
+        description: "Pentru aplicații unde bugetul e limitat sau eficiența energetică nu este prioritatea principală, seria Star-RS oferă pompe de circulație cu construcție simplă. Motor asincron clasic cu 3 trepte de turație selectabile manual (printr-un comutator pe carcasă), consumul se confirmă din fișa modelului. Construcție simplă și dovedită — rotor înecat (wet rotor) fără etanșări mecanice care să se uzeze, lagăre lubrifiate de lichidul pompat (zero mentenanță). Racorduri G1 sau G1½, corp fontă, temperatura maximă de lucru se confirmă din fișa modelului. Potrivit pentru înlocuirea pompelor vechi în sisteme de încălzire rezidențială unde costul inițial este mai important decât economiile pe termen lung. Include termostat integrat pentru protecție la supraîncălzire și rezistență la blocare temporară."
       },
       {
         name: "Sisteme de Presiune Constantă Wilo-Comfort (Booster)",
-        description: "Stații de pompare compacte pentru menținerea presiunii constante în rețelele de apă rece și caldă menajeră — ideal pentru clădiri cu mai multe etaje unde presiunea de la rețea nu ajunge uniform la toate nivelurile. Sistem complet integrat: 1-3 pompe centrifuge în paralel, rezervor de expansiune (hidrofor), senzori de presiune și debit, și controler electronic cu invertor pentru reglare continuă a turației. Funcționare automată — când cineva deschide un robinet, presiunea scade și pompa pornește imediat, accelerând până la restabilirea presiunii setate (tipic 3-4 bar). Când consumul e mic (un singur robinet), rulează o singură pompă; când e mare (mai multe dușuri simultan), pornesc și celelalte. Montare pe cadru compact cu racorduri de aspirație și refulare, zgomot redus (<43 dB), și protecție completă (run dry, suprasarcină, supraîncălzire)."
+        description: "Stații de pompare compacte pentru menținerea presiunii constante în rețelele de apă rece și caldă menajeră — ideal pentru clădiri cu mai multe etaje unde presiunea de la rețea nu ajunge uniform la toate nivelurile. Sistem complet integrat: 1-3 pompe centrifuge în paralel, rezervor de expansiune (hidrofor), senzori de presiune și debit, și controler electronic cu invertor pentru reglare continuă a turației. Funcționare automată — când cineva deschide un robinet, presiunea scade și pompa pornește imediat, accelerând până la restabilirea presiunii setate (tipic 3-4 bar). Când consumul e mic (un singur robinet), rulează o singură pompă; când e mare (mai multe dușuri simultan), pornesc și celelalte. Montare pe cadru compact cu racorduri de aspirație și refulare, zgomot redus și protecții (funcționare fără apă, suprasarcină, supraîncălzire), conform fișei modelului."
       },
       {
         name: "Pompe de Recirculare Apă Caldă Wilo-Star-Z (Comfort)",
-        description: "Pompe mici dedicate recirculării continue a apei calde menajer în sistemele cu boiler central — elimină așteptarea la robinet pentru apă caldă, oferind confort instant. Pornesc automat pe bază de program orar (timer integrat) sau termostat — pompează apă caldă prin bucla de recirculare doar când e nevoie (de exemplu dimineața și seara), economisind energie față de recirculare continuă 24/7. Debit mic (1-3 m³/h), consum redus (5-25W pentru modele ECM), racorduri G¾ sau G1, corp din bronz rezistent la coroziune. Montare simplă pe conducta de recirculare lângă boiler, fără necesitatea de tablou electric sau automatizare externă. Include protecție anti-blocare și funcție boost pentru spălarea periodică a bucli de recirculare (prevenție legionella)."
+        description: "Pompe mici dedicate recirculării continue a apei calde menajer în sistemele cu boiler central — elimină așteptarea la robinet pentru apă caldă, oferind confort instant. Funcționează la turație constantă sau, la variantele Star-Z-3, pe trei trepte de turație selectabile manual, conform paginii oficiale Wilo. Debit mic, racorduri G 1, G 1¼ sau G 1½, corp din bronz, temperatura lichidului până la 65°C (70°C scurt timp), conform paginii oficiale Wilo. Montare pe conducta de recirculare lângă boiler."
       }
     ],
     certifications: [
@@ -1287,8 +1287,8 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
         "a": "Este o pompă de circulație cu turație electronic variabilă, folosită la instalații de încălzire unde debitul necesar variază în funcție de sarcina termică a clădirii. Reglajul automat reduce consumul de energie electrică față de o pompă cu turație fixă, care funcționează constant la puterea maximă indiferent de cerere."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "gsc-only"
@@ -1299,35 +1299,35 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
     founded: 1945,
     headquarters: "Künzelsau, Germania",
     employees: "83,000+ angajați la nivel global",
-    overview: `Würth este un producător german important în produse chimice tehnice și consumabile pentru industrie, ateliere, și construcții — de la spray-uri lubrifiere și curățare până la adezivi structurali, paste și produse de protecție. Când intri într-un atelier auto profesional sau într-o hală de producție bine organizată, vezi rafturi pline cu produse Würth în ambalajele lor roșii distinctive — asta pentru că Würth nu vinde doar chimicale, vinde sistem complet: produse de calitate constantă, organizare (rack-uri, dispensere, organizatoare) și livrare la timp prin echipe dedicate. Compania a pornit în 1945 ca distribuitor de șuruburi și s-a extins într-un furnizor global de consumabile industriale, cu un portofoliu foarte amplu de produse.
+    overview: `Würth este un producător german important în produse chimice tehnice și consumabile pentru industrie, ateliere, și construcții — de la spray-uri lubrifiere și curățare până la adezivi structurali, paste și produse de protecție. Când intri într-un atelier auto profesional sau într-o hală de producție bine organizată, vezi rafturi pline cu produse Würth în ambalajele lor roșii distinctive — asta pentru că Würth nu vinde doar chimicale, vinde sistem complet: produse de calitate constantă, organizare (rack-uri, dispensere, organizatoare) și documentație tehnică. Compania a pornit în 1945 ca distribuitor de șuruburi și s-a extins într-un furnizor global de consumabile industriale, cu un portofoliu foarte amplu de produse.
 
-Produsele Würth chimice se folosesc frecvent pe o gamă largă de aplicații — de la spray-uri degresante pentru curățarea pieselor înainte de vopsire, până la adezivi anaerobici pentru fixarea lagărelor, și paste anti-grippare pentru șuruburile din inox (ca să nu se sudeze prin coroziune galvanică). Unul dintre argumentele frecvent menționate de utilizatori este consistența între loturi — același lubrifiant sau același spray de curățare oferă performanță repetabilă, fără variații de la un lot la altul. Ambalajele sunt gândite pentru uz industrial greu — spray-uri cu valve robuste care nu se înfund, tuburi de adeziv cu duze de precizie, bidoane cu pompe dozatoare pentru ateliere.
+Produsele Würth chimice se folosesc frecvent pe o gamă largă de aplicații — de la spray-uri degresante pentru curățarea pieselor înainte de vopsire, până la adezivi anaerobici pentru fixarea lagărelor, și paste anti-grippare pentru șuruburile din inox (ca să nu se sudeze prin coroziune galvanică).  Ambalajele sunt gândite pentru uz industrial greu — spray-uri cu valve robuste care nu se înfund, tuburi de adeziv cu duze de precizie, bidoane cu pompe dozatoare pentru ateliere.
 
 Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (spray-uri, paste, uleiuri), curățare (degresante, solutii de curățare frâne, sprayuri contact cleaner), protecție (vopsele spray, anti-coroziune, ceară protectoare), adezivi (cianoacrilat, anaerobic, epoxidic, MS-polymer), și produse auxiliare (spray de aer comprimat, detectoare scurgeri, spray-uri de marcare). Produsele Würth sunt folosite, printre altele, în fabrici auto și industriale, cu aceeași documentație tehnică disponibilă pentru toți clienții.`,
     whyChoose: [
       "Gamă vastă — portofoliu foarte amplu de produse, acoperă practic orice nevoie de chimicale tehnice și consumabile",
-      "Calitate germană constantă — produse testate riguros, performanță repetabilă, fără variații între loturi",
+      "Calitate constantă, conform producătorului",
       "Sistem de organizare — rack-uri, dispensere, organizatoare pentru atelier curat și eficient",
-      "Livrare rapidă — echipe Würth locale cu stoc pe vehicul, livrare directă la client",
+      "Termene de livrare confirmate pentru fiecare comandă, conform politicii noastre",
       "Documentație completă — fișe tehnice, fișe de securitate (SDS), instrucțiuni de utilizare în română",
       "Suport tehnic — consultanță pentru alegerea produsului potrivit, training pentru aplicații speciale"
     ],
     keyProducts: [
       {
         name: "Spray-uri Lubrifiere și Degripare",
-        description: "Gama completă de lubrifianți în spray pentru mentenanță industrială — HHS 2000 (lubrifiant sintetic cu aditivare EP pentru temperaturi -30°C până +250°C, aderă puternic pe suprafețe verticale), lubrifiant cu PTFE pentru reducerea frecării pe ghidaje și lanțuri, lubrifiant cu grafit pentru temperaturi extreme (până +600°C), și lubrifiant cu silicon pentru aplicații unde nu se acceptă pete (plastice, cauciuc). Include și spray-uri degripare (penetrating oil) — formulă clasică cu solvenți și uleiuri minerale pentru desfacerea șuruburilor și piulițelor ruginite, și versiuni biodegradabile pentru aplicații ecologice. Fiecare spray are valvă în 360° (funcționează și cu tubul în jos) și extensie subțire pentru locuri greu accesibile."
+        description: "Gama completă de lubrifianți în spray pentru mentenanță industrială — HHS 2000 (ulei semisintetic rezistent la presiuni foarte mari, pentru temperaturi de la -35°C până la +180°C, scurt timp +200°C), lubrifiant cu PTFE pentru reducerea frecării pe ghidaje și lanțuri, lubrifiant cu grafit pentru temperaturi ridicate, și lubrifiant cu silicon pentru aplicații unde nu se acceptă pete (plastice, cauciuc). Include și spray-uri degripare (penetrating oil) — formulă clasică cu solvenți și uleiuri minerale pentru desfacerea șuruburilor și piulițelor ruginite, și versiuni biodegradabile pentru aplicații ecologice. Fiecare spray are valvă în 360° (funcționează și cu tubul în jos) și extensie subțire pentru locuri greu accesibile."
       },
       {
         name: "Degresanți și Curățătoare Industriale",
-        description: "Produse de curățare pentru suprafețe metalice, plastice și electronice — degreaser universal pe bază de solvenți pentru îndepărtarea uleiului, grăsimii, și murdăriei de pe piese mecanice înainte de asamblare sau vopsire, brake cleaner (curățare frâne și ambreiaje) cu uscare ultrarapidă și fără reziduuri, contact cleaner pentru curățarea contactelor electrice și electronice (elimină oxizi, praf conductiv), și curățătoare pentru suprafețe plastice (dashboard cleaner, nu lasă reziduuri grase). Disponibile în spray aerosol (400ml, 500ml), bidoane (5L, 10L, 25L) cu pompă dozatoare pentru consum mare, și și ștergere impregnate (wipes) pentru curățare rapidă fără ustensile."
+        description: "Produse de curățare pentru suprafețe metalice, plastice și electronice — degreaser universal pe bază de solvenți pentru îndepărtarea uleiului, grăsimii, și murdăriei de pe piese mecanice înainte de asamblare sau vopsire, brake cleaner (curățare frâne și ambreiaje) cu uscare ultrarapidă și fără reziduuri, contact cleaner pentru curățarea contactelor electrice și electronice (elimină oxizi, praf conductiv), și curățătoare pentru suprafețe plastice (dashboard cleaner, nu lasă reziduuri grase). Disponibile în spray aerosol (400ml, 500ml), bidoane (5L, 10L, 25L) cu pompă dozatoare pentru consum mare, și șervețele impregnate (wipes) pentru curățare rapidă fără ustensile."
       },
       {
         name: "Adezivi Tehnici (Structural Adhesives)",
-        description: "Familie completă de adezivi pentru aplicații industriale — cianoacrilat (super glue) pentru lipiri rapide metal-metal, metal-plastic, plastic-plastic (priză în 5-30 secunde, rezistență la tracțiune până la 25 MPa), adezivi anaerobici pentru fixarea și etanșarea îmbinărilor filetate și a lagărelor (Loctite-type, polimerizează în absența aerului), adezivi epoxidici bi-componenti pentru reparații structurale și lipiri de rezistență mare (rezistență la tracțiune până la 30 MPa, temperaturi până +150°C), și adezivi MS-polymer (hibrid silanic) pentru lipiri elastice rezistente la intemperii (ideal pentru caroserii, panouri, aplicații outdoor). Fiecare tip vine cu documentație detaliată — timpi de priză, rezistență mecanică, rezistență chimică și termică."
+        description: "Familie completă de adezivi pentru aplicații industriale — cianoacrilat (super glue) pentru lipiri rapide metal-metal, metal-plastic, plastic-plastic (timpii de priză și rezistența se confirmă în fișa tehnică a produsului), adezivi anaerobici pentru fixarea și etanșarea îmbinărilor filetate și a lagărelor (polimerizează în absența aerului), adezivi epoxidici bi-componenti pentru reparații structurale și lipiri de rezistență mare (rezistența și temperatura maximă se confirmă în fișa tehnică a produsului), și adezivi MS-polymer (hibrid silanic) pentru lipiri elastice rezistente la intemperii (ideal pentru caroserii, panouri, aplicații outdoor). Fiecare tip vine cu documentație detaliată — timpi de priză, rezistență mecanică, rezistență chimică și termică."
       },
       {
         name: "Produse Anti-Coroziune și Protecție",
-        description: "Soluții pentru protejarea metalelor împotriva coroziunii — spray-uri de zinc (cold galvanizing) cu 95% zinc pur pentru protecție cathodică echivalentă galvanizării la cald (rezistență la coroziune peste 1000 ore salt spray test), ceară protectoare pentru caroserii și șasii auto (protecție long-term împotriva sării de drum și umidității), spray-uri de grund (primer) pentru pregătirea suprafețelor înainte de vopsire, și vopsele spray în toate culorile RAL pentru reparații și marcare. Include și paste anti-grippare (anti-seize) — paste pe bază de cupru, grafit sau ceramică pentru filete supuse la temperaturi mari sau medii corozive (împiedică sudarea prin coroziune galvanică, facilitează demontarea chiar după ani de funcționare)."
+        description: "Soluții pentru protejarea metalelor împotriva coroziunii — spray-uri de zinc (cold galvanizing) pentru protecția metalelor feroase; conținutul de zinc și rezistența la coroziune se confirmă în fișa tehnică, ceară protectoare pentru caroserii și șasii auto (protecție long-term împotriva sării de drum și umidității), spray-uri de grund (primer) pentru pregătirea suprafețelor înainte de vopsire, și vopsele spray în toate culorile RAL pentru reparații și marcare. Include și paste anti-grippare (anti-seize) — paste pe bază de cupru, grafit sau ceramică pentru filete supuse la temperaturi mari sau medii corozive (împiedică sudarea prin coroziune galvanică, facilitează demontarea chiar după ani de funcționare)."
       }
     ],
     certifications: [
@@ -1361,8 +1361,8 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
       { title: "Company | Würth Group", url: "https://www.wuerth.com/wuerth-group/Company/Company.php", publisher: "Würth Group", accessed: "2026-09-22" }
     ],
     limitation: "Nu confirmăm compatibilitatea chimică a fiecărui produs cu toate materialele clientului fără o verificare punctuală, și nu garantăm un inventar constant pentru toată gama.",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     productCodes: [
@@ -1422,7 +1422,7 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
       },
       {
         "q": "Ce diferență este între HHS 2000 și HHS 5000 de la Würth?",
-        "a": "HHS 2000 este un lubrifiant semi-sintetic universal pentru presiuni ridicate, în timp ce HHS 5000 este o formulă sintetică cu PTFE, gândită special pentru zone de precizie care funcționează la temperaturi mult mai mari, până la 200 grade Celsius pe termen scurt. Alegerea depinde de temperatura de lucru și de toleranțele mecanice ale piesei unse."
+        "a": "HHS 2000 este un lubrifiant semi-sintetic universal pentru presiuni ridicate, în timp ce HHS 5000 este o formulă sintetică cu PTFE, gândită special pentru zone de precizie care funcționează la temperaturi mult mai mari, până la 200 grade Celsius în regim continuu și 250 grade Celsius scurt timp. Alegerea depinde de temperatura de lucru și de toleranțele mecanice ale piesei unse."
       },
       {
         "q": "Ce trebuie să trimit pentru o comandă de adeziv WIT-PM 200 de la Würth?",
@@ -1446,22 +1446,22 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
       "Precizie ridicată — transmițătoare cu acuratețe de până la ±0.04%, stabilitate pe termen lung, conform producătorului",
       "Fiabilitate ridicată — sisteme DCS cu uptime raportat de >99.99%, instalații cu durată lungă de utilizare",
       "Gamă completă de instrumentație — presiune, temperatură, debit, nivel, pH, analize gaze și lichide",
-      "Sisteme DCS scalabile — de la instalații mici (50 puncte I/O) până la mega-rafinării (>100,000 puncte)",
-      "Suport long-term — Yokogawa oferă suport și piese de schimb chiar și pentru sisteme instalate acum 30 de ani",
-      "Certificări complete — SIL 2/SIL 3 pentru sisteme de siguranță, ATEX pentru zone explozive, FDA pentru pharma"
+      "Sisteme DCS scalabile — de la instalații mici până la instalații mari, în funcție de configurație",
+      "Suport pe termen lung — condițiile pentru sistemele existente se confirmă la producător",
+      "Certificări specifice fiecărui produs (de exemplu SIL, ATEX), conform fișelor tehnice"
     ],
     keyProducts: [
       {
         name: "Transmițătoare de Presiune EJA (High Performance)",
-        description: "Seria EJA (Yokogawa flagship) oferă transmițătoare de presiune cu capsule de măsurare rezonante (resonant sensor technology) — în loc să măsoare deformarea unei membrane prin strain gauge (tehnologie clasică), capsula EJA măsoară schimbarea frecvenței de rezonanță a unui cristal de siliciu. Rezultatul: acuratețe de ±0.04% până la ±0.1% FS, stabilitate pe 10 ani de ±0.1%, conform producătorului, și rezistență ridicată la șocuri de presiune și temperatură. Disponibile pentru presiune diferențială (0.5 kPa până la 2 MPa), presiune absolută și relativă (0-10 MPa), și nivel hidrostatic. Ieșire 4-20mA cu HART, sau digitală FOUNDATION Fieldbus / Profibus PA. Construcție din inox 316L, certificări SIL 2, ATEX, și temperatura de proces de la -50°C până +400°C (cu separator de diafragmă)."
+        description: "Seria EJA (Yokogawa flagship) oferă transmițătoare de presiune cu capsule de măsurare rezonante (resonant sensor technology) — în loc să măsoare deformarea unei membrane prin strain gauge (tehnologie clasică), capsula EJA măsoară schimbarea frecvenței de rezonanță a unui cristal de siliciu. Rezultatul: acuratețea și stabilitatea pe termen lung depind de model și se confirmă din fișa tehnică, conform producătorului. Disponibile pentru presiune diferențială, presiune absolută și relativă, și nivel hidrostatic; domeniile de măsură depind de model. Ieșire 4-20mA cu HART, sau digitală FOUNDATION Fieldbus / Profibus PA. Construcție din inox 316L, certificări SIL 2, ATEX, iar temperatura de proces depinde de model și de configurație."
       },
       {
         name: "Transmițătoare de Debit Vortex digitalYEWFLO",
-        description: "Debitmetre vortex (vortex shedding) pentru măsurarea debitului de lichide, gaze și vapori fără piese mobile — un obstacol (bluff body) plasat în curgere generează vortex-uri regulate (von Kármán vortex street), iar frecvența vortex-urilor e proporțională cu viteza fluidului. Seria digitalYEWFLO are senzori duali (două senzori independenți pentru redundanță și auto-diagnosticare), compensare automată pentru temperatura și presiunea fluidului (masa flow calculation), și acuratețe de ±0.75% pentru lichide și ±1% pentru gaze/vapori. Gama de măsurare de la DN15 până la DN300, temperatură de proces -200°C până +450°C, presiune până 63 bar. Ieșire 4-20mA + puls, sau digitală (HART, Fieldbus). Fără mentenanță — nu are piese mobile care să se uzeze, nu necesită recalibrări periodice."
+        description: "Debitmetre vortex (vortex shedding) pentru măsurarea debitului de lichide, gaze și vapori fără piese mobile — un obstacol (bluff body) plasat în curgere generează vortex-uri regulate (von Kármán vortex street), iar frecvența vortex-urilor e proporțională cu viteza fluidului. Seria digitalYEWFLO are senzori duali (două senzori independenți pentru redundanță și auto-diagnosticare), compensare automată pentru temperatura și presiunea fluidului (masa flow calculation), și acuratețe de ±0.75% pentru lichide și ±1% pentru gaze/vapori. Diametrul nominal, temperatura de proces și presiunea maximă depind de model și se confirmă din fișa tehnică. Ieșire 4-20mA + puls, sau digitală (HART, Fieldbus). Nu are piese mobile în curgere; intervalele de verificare se stabilesc conform documentației producătorului."
       },
       {
         name: "Sistem DCS CENTUM VP (Distributed Control System)",
-        description: "CENTUM VP e sistemul DCS Yokogawa — platformă completă pentru controlul și supervizarea proceselor industriale continue și batch. Arhitectură 100% redundantă la nivel de controlere, I/O, rețea de comunicație, și servere SCADA pentru eliminarea single point of failure. Controlere de câmp (FCS) cu timp de scan de 10ms, capacitate de până la 10,000 puncte I/O per controler, și biblioteci extinse de algoritmi de control (PID, cascade, feedforward, model predictive control). Interfața operator (HMI) bazată pe HTML5 rulează în browser modern fără plugin-uri, cu acces de pe PC, tabletă sau mobil. Include și sisteme de management alarme conform ISA 18.2, istoric de proces cu stocare pe zeci de ani, și integrare cu sisteme ERP/MES. Certificare SIL 3 pentru sisteme de siguranță funcțională (Safety Instrumented Systems)."
+        description: "CENTUM VP e sistemul DCS Yokogawa — platformă completă pentru controlul și supervizarea proceselor industriale continue și batch. Arhitectură cu controlere redundante (Pair and Spare), conform producătorului; redundanța I/O și a rețelei se confirmă din documentație. Controlere de câmp (FCS); timpul de scan și capacitatea I/O depind de modelul de controler și se confirmă din documentația producătorului. Interfața operator (HMI) este de tip Human Interface Station; opțiunile de acces la distanță se confirmă din documentația producătorului. Include și sisteme de management alarme conform ISA 18.2, istoric de proces cu stocare pe zeci de ani, și integrare cu sisteme ERP/MES. Sistemele instrumentate de siguranță se realizează cu ProSafe-RS, integrat cu CENTUM VP; nivelul SIL se confirmă din documentația producătorului."
       },
       {
         name: "Analizoare de Gaze și Lichide",
@@ -1504,7 +1504,7 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
       },
       {
         "code": "EJX110A",
-        "description": "Traductor de presiune diferențială, generație DPharp mai nouă"
+        "description": "Traductor de presiune diferențială din seria EJX-A"
       },
       {
         "code": "EJA130E",
@@ -1582,11 +1582,11 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
     faq: [
       {
         "q": "Ce traductor de presiune Yokogawa aleg pentru presiune diferențială?",
-        "a": "Seria EJA-E, cu modele precum EJA110E și EJA130E, acoperă aplicațiile standard de presiune diferențială cu montare clasică pe proces. Pentru o generație mai nouă a senzorului DPharp, cu stabilitate și precizie îmbunătățite, varianta EJX110A sau EJX130A din seria EJX oferă aceleași dimensiuni de montare, fiind interschimbabilă mecanic cu seria mai veche."
+        "a": "Seria EJA-E, cu modele precum EJA110E și EJA130E, acoperă aplicațiile standard de presiune diferențială cu montare clasică pe proces. Variantele EJX110A și EJX130A din seria EJX-A sunt alternative la EJA110E și EJA130E; compatibilitatea de montare se confirmă pe cod, din fișele tehnice."
       },
       {
         "q": "Ce diferență este între traductoarele Yokogawa EJA și EJX?",
-        "a": "Seria EJA reprezintă generația tradițională de traductoare DPharp, cu o gamă largă de modele consacrate pentru presiune diferențială, manometrică și absolută. Seria EJX este generația mai nouă, cu un senzor de siliciu rezonant îmbunătățit, precizie mai bună și opțiuni suplimentare precum comunicația wireless sau ieșirea multivariabilă, păstrând aceleași dimensiuni de racordare ca EJA."
+        "a": "Seriile EJA-E și EJX-A sunt familii de traductoare Yokogawa cu tehnologie DPharp; diferențele de performanță, opțiunile de comunicație și interschimbabilitatea mecanică se confirmă pe cod, din fișele tehnice ale producătorului."
       },
       {
         "q": "Livrați traductoare de presiune Yokogawa în România?",
@@ -1597,8 +1597,8 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
         "a": "Este util să precizați tipul de măsurare dorit (diferențială, manometrică sau absolută), limita superioară a intervalului de măsură și tipul de proces racordat. De asemenea, contează dacă este nevoie de certificare pentru zone explozive, de protocol de comunicație HART sau Fieldbus și de materialul umezit de proces, pentru alegerea corectă a modelului Yokogawa potrivit."
       }
     ],
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ],
     evidenceClass: "transactional"

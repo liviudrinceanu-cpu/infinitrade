@@ -216,40 +216,40 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
   'ksb': {
     founded: 1871,
     headquarters: 'Frankenthal, Germania',
-    employees: '16000+',
-    overview: `KSB e unul dintre "veteranii" industriei de pompare — vorbim de o companie fondată în 1871, deci are 153 de ani de experiență. Pentru comparație, când KSB a început să facă pompe, Edison abia descoperise becul electric (1879). Compania a traversat Revoluția Industrială, două războaie mondiale, tranziția către automatizare, și acum Industry 4.0, devenind unul dintre marii producători mondiali de pompe și robineți industriali.
+    employees: '15000+',
+    overview: `KSB e unul dintre "veteranii" industriei de pompare — vorbim de o companie fondată în 1871, deci are peste 150 de ani de experiență. Pentru comparație, când KSB a început să facă pompe, Edison abia descoperise becul electric (1879). Compania a traversat Revoluția Industrială, două războaie mondiale, tranziția către automatizare, și acum Industry 4.0, devenind unul dintre marii producători mondiali de pompe și robineți industriali.
 
-Ceea ce diferențiază KSB de mulți competitori e focusul lor pe aplicații heavy-duty și critice. Dacă ai o pompă care trebuie să pompeze acid sulfuric concentrat la 120°C, sau apă fierbinte supraîncălzită în centrale nucleare, sau nămol abraziv în minerit — iei KSB. Nu sunt cei mai ieftini, dar sunt cunoscuți pentru fiabilitate în aplicații critice.
+Ceea ce diferențiază KSB de mulți competitori e focusul lor pe aplicații heavy-duty și critice. Dacă ai o pompă care trebuie să pompeze acid sulfuric concentrat la 120°C, sau apă fierbinte supraîncălzită în centrale nucleare, sau nămol abraziv în minerit — iei KSB. 
 
-Produsele lor emblematice sunt seria Etanorm (pompe centrifugale standardizate conform DIN 24255/EN 733) și seria Sewatec (pentru canalizare și epurare). Etanorm respectă standardele DIN 24255/EN 733, iar dimensiunile de montaj sunt adoptate și de alți producători de pompe similare. KSB a patentat designul în anii '60, iar concepția de bază este preluată de atunci și de alți producători.
+Produsele lor emblematice sunt seria Etanorm (pompe centrifugale standardizate conform DIN 24255/EN 733) și seria Sewatec (pentru canalizare și epurare). Etanorm respectă standardele DIN 24255/EN 733, iar dimensiunile de montaj sunt adoptate și de alți producători de pompe similare. 
 
-Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac doar pompe — fac și supape fluture, robinete sferice, robinete cu sertar, robinete de reglare, toate pentru aplicații extreme (presiuni de 100+ bar, temperaturi de 400°C, fluide toxice/corozive). Pentru un proiect complex în petrochimie sau energie, poți echipa întregul sistem cu KSB: pompe + robinete + sisteme de control, totul de la același producător. Asta simplifică enorm mentenanța și compatibilitatea.`,
+Un alt punct forte al KSB e experiența lor în robinetărie industrială. Nu fac doar pompe — fac și supape fluture, robinete sferice, robinete cu sertar, robinete de reglare, toate pentru aplicații industriale; parametrii de funcționare se confirmă pe cod, din documentația KSB. Pentru un proiect complex în petrochimie sau energie, poți echipa întregul sistem cu KSB: pompe + robinete + sisteme de control, totul de la același producător. Asta simplifică enorm mentenanța și compatibilitatea.`,
 
     whyChoose: [
       'Peste 150 de ani de experiență în industria de pompare — know-how acumulat în mii de aplicații critice pe tot globul',
-      'Seria Etanorm: pompe centrifugale conform standardelor DIN 24255/EN 733, design robust și interschimbabil între producători',
+      'Seria Etanorm: pompe centrifugale cu parametri și dimensiuni principale conform EN 733',
       'Specializare în aplicații extreme: petrochimie, centrale nucleare, minerit, offshore — acolo unde fiabilitatea nu poate fi compromisă',
-      'Gamă completă pompe + robineți + sisteme de control de la același producător, compatibilitate testată între componente din aceeași gamă',
+      'Gamă completă pompe + robineți + sisteme de control de la același producător',
       'Rezistență chimică ridicată: materiale speciale (Alloy C, Hastelloy, Duplex) pentru fluide agresive',
-      'Rețea globală de service: peste 200 de centre de service în 100+ țări, piese de schimb disponibile rapid oriunde',
+      'Prezență în peste 150 de țări; disponibilitatea service-ului și a pieselor de schimb se confirmă pe cod',
     ],
 
     keyProducts: [
       {
         name: 'Etanorm (Pompe Centrifugale Standardizate)',
-        description: 'Seria Etanorm este o gamă de referință pentru pompe centrifugale din inox conform DIN 24255 și EN 733. Debite de la 5 la 1500 m³/h, înălțimi de pompare până la 160 metri, temperaturi de lucru -40°C până la +140°C. Design modular cu rotor deschis sau închis, etanșare mecanică sau garnitură moale. Aplicații tipice: procese chimice, alimentare cazane, sisteme de răcire, transfer produse petroliere, industrie farmaceutică. Ceea ce face Etanorm special e standardizarea: dimensiunile de montaj sunt identice între producători, deci poți înlocui o pompă KSB cu alta de la Wilo sau Grundfos (teoretic) fără să modifici fundația.'
+        description: 'Seria Etanorm este o gamă de pompe centrifugale cu o treaptă și voluta, în construcție back pull-out, cu parametri și dimensiuni principale conform EN 733, rotoare radiale închise și inele de uzură înlocuibile pe carcasă, cu etanșare mecanică simplă sau dublă conform EN 12756. Debitul și înălțimea de pompare depind de model și se confirmă pe cod. Aplicații tipice: procese chimice, alimentare cazane, sisteme de răcire, transfer produse petroliere, industrie farmaceutică. Standardizarea conform EN 733 stabilește dimensiunile principale ale acestui tip de pompă.'
       },
       {
-        name: 'Sewatec (Pompe Submersibile pentru Canalizare)',
-        description: 'Seria Sewatec (Sewage + Technology) e dedicată pompării apelor uzate și nămolului în stații de epurare și sisteme de canalizare. Pompe submersibile verticale cu rotor tip vortex sau channel impeller (nu se înfundă cu deșeuri solide), debite de la 10 la 3000 m³/h, înălțimi de pompare până la 50 metri. Motor electric răcit cu apă, etanșare dublă cu cameră de ulei, carcasă din fontă GG25 sau inox pentru medii corozive. Se montează în bazine de colectare, stații de pompare canalizare, drenaj tuneluri/mine. KSB oferă și sisteme complete "plug-and-play" cu automatizări, vane de retenție, separator de grăsimi — dai drumul și funcționează.'
+        name: 'Sewatec (Pompe cu Voluta pentru Canalizare)',
+        description: 'Seria Sewatec este o pompă cu voluta pentru montaj orizontal sau vertical, cu diverse tipuri de rotoare de generație nouă și flanșă de refulare conform DIN și ANSI, destinată apelor uzate și nămolului; există și variante antiexplozive. Debitul, înălțimea de pompare și materialele depind de model și se confirmă pe cod, din documentația KSB.'
       },
       {
         name: 'Multitec (Pompe Multietajate pentru Presiuni Înalte)',
-        description: 'Seria Multitec e pentru aplicații unde ai nevoie de presiuni mari: alimentare cu apă în clădiri înalte (30+ etaje), sisteme de osmozare inversă (presiuni de 60-80 bar), stingere incendii, procese cu presiune în petrochimie. Pompe centrifugale multietajate orizontale sau verticale, debite de la 3 la 400 m³/h, înălțimi de pompare până la 700 metri (da, ați citit bine: 700m = ~70 bar presiune). Corp din inox AISI 304/316, etaje de pompare modulate (poți adăuga sau scoate etaje în funcție de presiunea necesară). Varianta Multitec-RO e special pentru osmozare inversă, cu rezistență la salinitate și presiuni mari. E pompa pe care o folosesc în centrale termice, rafinării, fabrici de hârtie — oriunde presiunea e critică.'
+        description: 'Seria Multitec este o pompă centrifugală multietajată orizontală sau verticală, în construcție cu secțiuni inelare, cu rotoare radiale turnate și aspirație axială sau radială. Debitul, înălțimea de pompare, materialele și domeniile de utilizare se confirmă pe cod, din documentația KSB.'
       },
       {
-        name: 'Omega (Robinete Fluture Industriale)',
-        description: 'KSB nu face doar pompe — face și robinete industriale. Seria Omega e dedicată robinetelor fluture (butterfly valves) pentru diametere mari (DN 50 până la DN 4000, adică până la 4 metri!). Se folosesc în: conducte principale de apă (utilități publice), sisteme de răcire în centrale electrice, rafinării, industrie minieră. Disc din inox sau fontă cu acoperire EPDM/PTFE pentru etanșare, acționare manuală sau cu servomotor electric/pneumatic. Rezistență chimică și termică excelentă, presiuni de lucru până la 25 bar. Pentru un proiect de utilități publice cu conducte de DN 800-1200, robinetele fluture KSB Omega sunt o soluție frecvent utilizată, cu etanșare bună și mentenanță redusă.'
+        name: 'Omega (Pompe cu Voluta Axial Divizată)',
+        description: 'KSB produce și robinete industriale. Seria Omega este o pompă cu o treaptă, cu voluta divizată axial și rotor radial cu dublă intrare, pentru montaj orizontal sau vertical. Debitul, înălțimea de pompare și materialele se confirmă pe cod, din documentația KSB.'
       },
     ],
 
@@ -284,11 +284,11 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
     productCodes: [
       {
         "code": "Etanorm",
-        "description": "Pompa monobloc cu voluta, montaj orizontal, back pull-out"
+        "description": "Pompă cu o treaptă și voluta, construcție back pull-out"
       },
       {
         "code": "Etaline",
-        "description": "Pompă în linie cu arbore rigid și turație variabilă"
+        "description": "Pompă cu voluta într-o treaptă, în construcție în linie, cu arborii pompei și motorului legați rigid"
       },
       {
         "code": "Etabloc",
@@ -296,7 +296,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "code": "Etachrom",
-        "description": "Pompă cu motor cu reluctanță sincronă, fără magneți"
+        "description": "Pompă orizontală cu o treaptă și carcasă circulară, cu parametri și dimensiuni principale conform EN 733"
       },
       {
         "code": "Movitec",
@@ -336,7 +336,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "code": "BOAX",
-        "description": "Vană fluture cu disc centrat, etanșare elastomer sau plastic"
+        "description": "Vană fluture cu disc centrat, etanșare cu manșetă elastomerică"
       },
       {
         "code": "DANAIS",
@@ -358,11 +358,11 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
     faq: [
       {
         "q": "Ce înseamnă literele din codul unei pompe KSB, de exemplu Etanorm G?",
-        "a": "Numele de bază arată familia constructivă, iar sufixele indică varianta: materialul carcasei, tipul de etanșare sau montajul back pull-out. La Etanorm G, sufixul marchează o execuție specială față de modelul standard din catalog. Pentru identificarea completă verificăm întotdeauna denumirea tipărită pe plăcuța pompei împreună cu fișa tehnică publicată de KSB, nu doar litera finală."
+        "a": "Numele de bază arată familia constructivă, iar sufixele indică varianta: materialul carcasei, tipul de etanșare sau montajul back pull-out. Pentru identificarea completă verificăm întotdeauna denumirea tipărită pe plăcuța pompei împreună cu fișa tehnică publicată de KSB, nu doar litera finală."
       },
       {
         "q": "Livrează KSB în România prin comandă?",
-        "a": "Aducem la comandă pompe și vane din gamele Etanorm, Sewatec, Amarex sau Multitec, pe bază codului confirmat de client. Nu avem această gamă pe raft, ne raportăm la informațiile publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă. Este utilă transmiterea codului exact de pe pompă existentă pentru a gasi variantă compatibilă."
+        "a": "Aducem la comandă pompe și vane din gamele Etanorm, Sewatec, Amarex sau Multitec, pe baza codului confirmat de client. Nu avem această gamă pe raft, ne raportăm la informațiile publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă. Este utilă transmiterea codului exact de pe pompă existentă pentru a găsi o variantă compatibilă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de pompă KSB?",
@@ -370,7 +370,7 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       },
       {
         "q": "Ce diferență există între KSB Etanorm și Etaline?",
-        "a": "Etanorm este o pompă monobloc clasică, montată pe un postament separat, potrivită pentru majoritatea aplicațiilor industriale generale. Etaline are o construcție în linie, cu racorduri de aspirație și refulare pe aceeași axă, ceea ce reduce spațiul de montaj în centrale termice sau stații compacte. Alegerea depinde de configurația conductelor și de spațiul disponibil în instalație."
+        "a": "Etanorm este o pompă cu o treaptă, în construcție back pull-out, montată pe un postament separat, potrivită pentru majoritatea aplicațiilor industriale generale. Etaline are o construcție în linie, cu racorduri de aspirație și refulare pe aceeași axă, ceea ce reduce spațiul de montaj în centrale termice sau stații compacte. Alegerea depinde de configurația conductelor și de spațiul disponibil în instalație."
       },
       {
         "q": "Cum găsesc o vană KSB echivalentă pentru o instalație mai veche?",
@@ -378,8 +378,8 @@ Un alt punct forte al KSB e experiența lor în robonetică industrială. Nu fac
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
     sources: [

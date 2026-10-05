@@ -3,35 +3,35 @@ export const brandContentBatch6 = {
     founded: 1980,
     headquarters: 'Verl, Germania',
     employees: '5000+',
-    overview: `Beckhoff a introdus conceptul de PC-based Control în 1986 și produce soluții de automatizare bazate pe PC pentru fabrici din toată lumea - de la linii de producție auto până la instalații de procesare farmaceutică. Tehnologia TwinCAT a producătorului transformă orice PC industrial într-un PLC multi-core performant, capabil să controleze mii de axe servo simultan cu precizie de microsecunde.
+    overview: `Beckhoff a introdus conceptul de PC-based Control în 1986 și produce soluții de automatizare bazate pe PC pentru fabrici din toată lumea - de la linii de producție auto până la instalații de procesare farmaceutică. Tehnologia TwinCAT a producătorului transformă orice PC industrial într-un PLC multi-core performant, folosit pentru automatizări de mașini cu control de mișcare multi-axă.
 
-Gama Beckhoff acoperă întregul lanț de automatizare: PLC-uri modulare CX și CP, terminale I/O EtherCAT ultra-rapide (cycle time până la 100 μs), servo drive-uri AMP8000 cu sincronizare multi-axă perfectă, și motoare servo AM8000 fără mentenanță. Tehnologia EtherCAT, dezvoltată de Beckhoff, a devenit un standard industrial deschis, integrat și de alți producători în echipamentele lor.
+Gama Beckhoff acoperă întregul lanț de automatizare: PC-uri industriale embedded CX, terminale I/O EtherCAT (comunicație la 100 Mbit/s), sisteme de acționare distribuite AMP8000, care combină servoamplificatorul și motorul într-o singură unitate, și servomotoare sincrone AM8000. Tehnologia EtherCAT, dezvoltată de Beckhoff, a devenit un standard industrial deschis, integrat și de alți producători în echipamentele lor.
 
 Sistemele PC-based Beckhoff sunt alese în automotive, packaging, semiconductor și logistică pentru flexibilitatea platformei - un singur software (TwinCAT) controlează PLC, motion control, robotică, viziune și safety. Actualizările se fac prin software fără schimbare hardware, ceea ce înseamnă investiții protejate pe termen lung.`,
     whyChoose: [
       'TwinCAT 3 - Automation software integrat (PLC, Motion, CNC, Robotics) pe Windows',
       'EtherCAT - Fieldbus deterministic 100 Mbps cu topologie flexibilă',
-      'Servo drive-uri AMP8000 - Multi-feedback, 16 kHz PWM, regenerare energy',
-      'PLC-uri industriale CX - Multi-core Intel, fanless, -25°C to +60°C',
-      'I/O terminale EtherCAT - IP67, ex zone 2, 1000+ tipuri semnale',
-      'C++ în PLC - Performanță 100x față de IEC 61131, biblioteci C/C++ integrate'
+      'Sisteme de acționare distribuite AMP8000 - servoamplificator și motor într-o singură unitate, pentru mașini modulare fără dulap electric',
+      'PC-uri industriale CX5000 - procesor Intel Atom, fără ventilator, -25°C până la +60°C',
+      'Terminale I/O EtherCAT - digitale (2 - 32 de canale), analogice, ELX pentru zone cu risc de explozie și terminale de siguranță TwinSAFE',
+      'TwinCAT 3 - platformă software pentru PLC și control de mișcare'
     ],
     keyProducts: [
       {
         name: 'CX5000 Embedded PC Series',
-        description: `Gama CX5000 reprezintă inima sistemelor de automatizare Beckhoff - PLC-uri embedded cu procesor Intel Atom până la Core i7, rulând Windows 10 IoT și TwinCAT 3. Modelele CX5020 (dual-core Atom) sunt perfecte pentru automatizări medii cu până la 64 axe servo, în timp ce CX5240 (quad-core i7) gestionează linii complexe cu 256+ axe și safety integrate. Design compact DIN-rail (82mm lățime), fanless cu cooling prin șasiu, interfaces multiple (2x Ethernet, USB, DVI, EtherCAT master integrat). Funcționează de la -25°C până la +60°C fără derating, certificări CE/UL/ATEX. Software-ul TwinCAT 3 vine pre-instalat - configurezi PLC, motion, viziune și robotică din același IDE Visual Studio. Backup pe microSD, boot redundant, UPS intern opțional. Upgrade se face doar prin licențe software - hardware-ul rămâne valabil ani de zile.`
+        description: `Gama CX5000 este formată din PC-uri industriale embedded fără ventilator, cu procesor Intel Atom, montaj pe șină DIN, două porturi Gigabit Ethernet, patru porturi USB 2.0 și ieșire DVI-D, cu temperatură de lucru de -25°C până la +60°C, memorie pe card CF industrial, UPS capacitiv de 1 secundă și carcasă din magneziu; rulează software-ul TwinCAT pentru PLC și motion control. Modelele (de exemplu CX5020 și CX5240), sistemul de operare și numărul de nuclee se confirmă pe cod, din documentația Beckhoff.`
       },
       {
         name: 'AMP8000 Distributed Servo Drives',
-        description: `Seria AMP8000 aduce servo drive-urile direct pe mașină printr-o arhitectură distribuită EtherCAT - cutii IP67 montate lângă motoare, elimină dulapurile electrice voluminoase. Modele de la 1A (48V) până la 55A (480V), PWM 16 kHz pentru funcționare silențioasă, regenerare energie 100% (fără rezistențe frânare). Multi-feedback simultaneo - encoder, resolver, sin/cos, Hiperface - pentru aplicații critice. Funcții avansate integrate: auto-tuning (identifică inerția și optimizează bucle în 5 secunde), safety STO/SS1 certificate SIL3, predictive maintenance (analiză vibrații, temperatură rulmenți, curenți). Configurare prin TwinCAT fără parametrizare externă - toate setările salvate în proiect. One Cable Technology disponibilă pe modele selecte - putere și date pe același cablu hibrid. Garanție 3 ani, MTBF peste 500.000 ore demonstrate în teren.`
+        description: `Seria AMP8000 reunește servoamplificatorul și servomotorul într-o singură unitate (sistem de acționare distribuit), pentru mașini modulare fără dulap electric. Curentul, tensiunea, funcțiile de siguranță, tehnologia de cablare și garanția se confirmă pe cod, din documentația Beckhoff.`
       },
       {
         name: 'EtherCAT Terminal System (ELxxxx)',
-        description: `Peste 1000 de tipuri de terminale I/O EtherCAT acoperă o gamă largă de semnale industriale - de la simple digitale 24V până la ADC 24-bit pentru forță/greutate, termorezistențe Pt1000 cu precizie 0.01°C, encoder SSI/incremental, pneumatice proporționale cu control debit. Clipsare simplă pe șină DIN fără backplane - sistemul auto-detectează topologia. Terminale EL1xxx/EL2xxx (I/O digitale) au izolare 500V canal cu canal, EL3xxx (analogice) oferă filtrare hardware configurabilă și calibrare fabrică. Versiuni speciale: EP boxes IP67 pentru montaj pe mașină, EPP modules direct pe cilindri pneumatici, EJ seria ultra-compactă pentru spații restrânse. Cycle time descendent până la 100 μs (10.000 actualizări/secundă) cu sincronizare distribuită DC - toate terminalele timestamp identic cu precizie <1 μs. Diagnosticare prin LED-uri multi-color și mesaje detaliate în TwinCAT - identifici instant cablul defect sau suprasarcina.`
+        description: `Terminalele I/O EtherCAT acoperă semnale digitale (2, 4, 8, 16 sau 32 de canale), intrări analogice de curent, tensiune, temperatură și rezistență, ieșiri analogice (±10 V, 0…10 V, 0…20 mA, 4…20 mA), module de măsurare de mare precizie ELMxxxx (rate de eșantionare de până la 50.000 de eșantioane/s), terminale ELXxxxx pentru zone cu risc de explozie și terminale de siguranță TwinSAFE. Comunicația EtherCAT are viteza de 100 Mbit/s (EtherCAT G: 1 și 10 Gbit/s). Numărul de canale, izolarea galvanică și timpii de ciclu se confirmă pe cod.`
       },
       {
         name: 'AM8000 Servomotor Series',
-        description: `Motoarele servo AM8000 combină o construcție compactă cu performanță ridicată - couple constant de la 0.16 Nm până la 43 Nm, viteze până 9000 rpm. Encoder multi-turn absolut One Cable integrat elimină bateriile - poziția rămâne memorată ani întregi fără alimentare. Rulmenți speciali pentru 20.000 ore la viteză maximă, bobinaj optimizat termic pentru funcționare continuă la 100% cuplu fără derating. Opțiuni: frâne electromagnetice safety-rated (tine sarcini verticale la lipsa tensiunii), ventilație forțată pentru aplicații extreme, rezolvere opțională pentru roboți (4 milioane pași/rotație). Șuruburi de montaj compatibile cu standardele NEMA și IEC - retrofit direct pe mașini existente. Raport inerție rotor/cuplu optim pentru răspuns dinamic - accelerații de 50.000 rad/s² în aplicații pick&place. Cablu power+feedback hibrid One Cable reduce timpul de cablare și elimină erorile de conexiune, conform producătorului.`
+        description: `Seria AM8000 este o gamă scalabilă de servomotoare sincrone cu magneți permanenți, potrivite pentru aplicații foarte variate. Cuplul, turația, tipul de feedback (de exemplu One Cable Technology), frâna și rulmenții se confirmă pe cod, din documentația Beckhoff.`
       }
     ],
     certifications: [
@@ -133,7 +133,7 @@ Sistemele PC-based Beckhoff sunt alese în automotive, packaging, semiconductor 
       },
       {
         "q": "Ce informații trimit pentru o ofertă pentru module Beckhoff de automatizare?",
-        "a": "Numărul exact al terminalului sau al modulului cerut (de exemplu EL1008 sau CX5020), numărul de canale necesare, tipul de semnal și protocolul de rețea din instalație sunt suficiente pentru o ofertă. La servomotoare și drive-uri, mai spuneti-ne cuplul necesar și tipul de feedback, pentru o potrivire corectă cu automatul existent."
+        "a": "Numărul exact al terminalului sau al modulului cerut (de exemplu EL1008 sau CX5020), numărul de canale necesare, tipul de semnal și protocolul de rețea din instalație sunt suficiente pentru o ofertă. La servomotoare și drive-uri, mai spuneți-ne cuplul necesar și tipul de feedback, pentru o potrivire corectă cu automatul existent."
       },
       {
         "q": "Livrați componente Beckhoff în România?",
@@ -145,52 +145,52 @@ Sistemele PC-based Beckhoff sunt alese în automotive, packaging, semiconductor 
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'boll-kirch': {
     founded: 1950,
     headquarters: 'Kerpen, Germania',
     employees: '300+',
-    overview: `Boll & Kirch este specialist în filtrare automată de fluide industriale de peste 75 de ani. Producătorul a inventat primul filtru automat backwash în anii '50 și de atunci a dezvoltat gama de sisteme Bollfilter, folosite la nivel internațional. Expertiza producătorului se concentrează pe eliminarea solidelor din lichide și gaze în procese continue - de la filtrare apă de răcire în centrale electrice (10.000 m³/h) până la protecție ugere fine în injecție plastice (3 μm).
+    overview: `Boll & Kirch este specialist în filtrare automată de fluide industriale de peste 75 de ani. Compania a fost înființată în 1950 la Köln-Ehrenfeld, iar în 1968 a introdus filtrele automate cu spălare inversă brevetate, cu asistență de aer comprimat; de atunci a dezvoltat gama de filtre Bollfilter. Expertiza producătorului se concentrează pe eliminarea solidelor din lichide și gaze în procese continue - de la filtrare apă de răcire în centrale electrice (10.000 m³/h) până la protecția echipamentelor sensibile din instalații de proces.
 
-Tehnologia de bază a producătorului este filtrarea cu backwash automat - elemente filtrante metalice (wedge wire, sinter, mesh) se curăță periodic invers cu fluid propriu fără oprire proces. Sistemele Bollfilter sunt gândite să funcționeze ani întregi fără intervenție manuală - senzori diferențiali de presiune (ΔP) detectează colmatarea și declanșează automat secvența de curățare. În funcție de aplicație, producătorul oferă backwash mecanic (disc raclor rotativ), hidraulic (jet reversal), sau pneumatic (air pulse).
+Tehnologia de bază a producătorului este filtrarea cu backwash automat - elemente filtrante metalice (wedge wire, sinter, mesh) se curăță periodic invers cu fluid propriu fără oprire proces. Sistemele automate Bollfilter pot fi echipate cu control electronic al spălării inverse. La filtrul automat Type 6.18, spălarea inversă se face cu un braț de spălare rotativ, mediul de spălare fiind intern.
 
-Filtrele Boll & Kirch sunt folosite în oil&gas, chimie, marine și metalurgie pentru fiabilitate în condiții extreme - filtre care lucrează la 400°C, 400 bar, fluide corozive (acizi, baze, solvenți), sau medii explozive (ATEX Zone 1). Materialele disponibile (Hastelloy, Duplex, Titanium) sunt alese pentru aplicații unde filtrele standard cedează rapid.`,
+Filtrele Bollfilter sunt folosite în industria chimică și petrochimică, tratarea apelor uzate, industria hârtiei, offshore, minerit, industria auto și siderurgie. Materialele disponibile la Type 6.18 includ oțel carbon, oțel carbon cauciucat, oțel inoxidabil și aliaje speciale; presiunea și temperatura se confirmă pe cod.`,
     whyChoose: [
       'Filtre automate backwash - Curățare continuă fără oprire proces',
-      'Elemente metalice - Wedge wire 25 μm to 5000 μm, durată >15 ani',
-      'ATEX Zone 1/2 - Certificare pentru atmosfere explozive gaz/praf',
-      'Design custom - Pressure vessels conform ASME/PED, materiale speciale',
-      'Automatizare completă - PLC integrat, interfață SCADA, predictive maintenance',
-      'Marine approved - DNV-GL, ABS, Lloyd\'s Register pentru offshore/naval'
+      'Elemente filtrante wedge wire, lumânare longitudinală wedge wire sau plasă de sârmă; la Type 6.18 finețea de filtrare este de 10 µm - 5 mm, în funcție de dimensiune',
+      'Variantele ATEX se confirmă pe cod, din documentația Boll & Kirch',
+      'Materiale la alegere: oțel carbon, oțel inoxidabil, aliaje speciale (la Type 6.18)',
+      'Control electronic opțional pentru spălarea inversă (la Type 6.18)',
+      'Aplicații în industria offshore; aprobările navale se confirmă pe cod'
     ],
     keyProducts: [
       {
         name: 'Bollfilter Type 6.18 Automatic',
-        description: `Seria 6.18 este unul dintre modelele frecvent alese din gama Boll & Kirch pentru industrie generală - filtre automate cu disc raclor rotativ pentru debite 5-500 m³/h și filtrări 100-3000 μm. Elementul filtrant din wedge wire (sârmă trapezoidală înfășurată) oferă suprafață filtrare mare în volum compact - 6.18.2 (DN100) filtrează 100 m³/h apă în corp de doar 0.5 m înălțime. Procesul de backwash durează 10-30 secunde: motoreductor rotește discul raclor care împinge particulele colmatate către cameră resturi, iar jetul tangențial le evacuează prin valvă automată. Presiune lucru până la 40 bar, temperatură -20°C to +200°C, conexiuni flanșate standard PN16/ANSI 150. Materiale: corp carbon steel vopsit, elemente inox 316L, garnituri EPDM/Viton. Control: tablou IP65 cu PLC Siemens, afișaj touchscreen 7", ieșiri 4-20mA pentru integrare DCS. Opțiuni: senzori debit turbină, transmițători presiune redundanți, steam sterilization pentru pharma.`
+        description: `Filtru automat autocurățător cu spălare inversă, pentru apă, cu debite de până la 10.000 m³/h și grade de filtrare de 10 µm - 5 mm (în funcție de dimensiune). Diametre nominale DN 500 - DN 1000 (20″ - 40″), presiune de lucru PN 10 (trepte superioare la cerere). Spălarea se face cu un braț de spălare rotativ, mediul de spălare fiind intern; elemente filtrante de tip wedge wire, lumânare longitudinală wedge wire sau plasă de sârmă. Materiale: oțel carbon, oțel carbon cauciucat, oțel inoxidabil, aliaje speciale. Control electronic opțional.`
       },
       {
-        name: 'Bollfilter Type 4.85 Duplex',
-        description: `Sistemele duplex 4.85 oferă filtrare neîntreruptă chiar și în timpul mentenanței - două filtre paralele cu valve de comutare automată 3-way. În funcționare normală ambele filtre lucrează simultan (50% flux fiecare), iar când unul se colmatează, sistemul redirecționează 100% flux prin filtrul curat și oprește pe cel colmatat pentru backwash sau service manual. Ideal pentru procese critice unde oprirea înseamnă pierderi mari - rafInării, chimie continuă, turbine gaz. Elemente disponibile: sinter metal (porozitate controlată 10-200 μm) pentru fluide vâscoase, mesh inox (25-1000 μm) pentru temperaturi extreme, sau wedge wire pentru debite mari. Actuare valve: pneumatic (90° în 2 secunde) sau electric (fail-safe spring return). Instrumentație completă: differential pressure transmitters pe fiecare filtru, flow meters ultrasonice clamp-on, analizor particule online opțional. Certificate conform ASME Section VIII Div.1 pentru SUA/Canada.`
+        name: 'Bollfilter Duplex (tipuri BFD, 2.04.5, 2.05.5)',
+        description: `Filtrele duplex Bollfilter au două carcase care funcționează alternativ: în timp ce una este în serviciu, cealaltă poate fi curățată sau întreținută. Comutarea se face manual, prin butonul de comutare, fără șocuri de presiune. Tipuri disponibile: BFD (turnat, cu robinet sferic de comutare), 2.04.5 (carcasă turnată compactă, comutare cu cep, pentru debite mici), 2.05.5 (fontă cu grafit nodular, pentru debite mari), 2.68.2 / 2.78.2 (construcție sudată, cu robinet sferic) și 2.59.5 (oțel inoxidabil, pentru apă). Variantele cu tehnologie Double Block and Bleed și cele pentru gaze (BFD-C, BFD-P) se confirmă pe cod.`
       },
       {
-        name: 'Bollfilter Type 1.15 Inline',
-        description: `Gama 1.15 sunt filtre compacte inline pentru protecție echipamente sensibile - pompe dozatoare, valve control, ugere fine. Design Y-strainer optimizat: corp forjat din bară plină (fără suduri), element filtrant conic din mesh inox multi-strat (20-500 μm), cameră colectare particule voluminoasă. Dimensiuni DN15-DN100, presiune până la 350 bar (versiuni High Pressure pentru hidraulică), temperatură -60°C to +450°C (versiuni criogenice sau high-temp). Backwash manual prin valvă bilă 1/2" la baza camerei - golire rapida fără demontaj element. Aplicații tipice: protecție injectoare Diesel common-rail (particule >10 μm distrug injectoarele de 2000 bar), filtrare combustibil naval înainte ardere (normă ISO 8217), protecție schimbătoare căldură placă (blocaj canale 2mm). Material opțional: Hastelloy C-276 pentru HCl concentrat, Duplex 2205 pentru apă mare, Titanium Grade 2 pentru acizi oxidanți. Quick-opening closure pe versiuni DN50+ permite schimbare element în sub 5 minute.`
+        name: 'Bollfilter Simplex (tipuri 1.03.2, 1.12.2, 1.65.1, 1.88.2)',
+        description: `Filtrele simplex Bollfilter au o singură carcasă și sunt potrivite acolo unde linia poate fi oprită pentru curățare: se depresurizează camera, se scoate capacul și se clătește elementul filtrant. Tipuri: 1.03.2 (presiune joasă), 1.12.2 (volume mici de lichid), 1.65.1 / 1.53.1 (presiune înaltă, filtrare fină și grosieră), 1.88.2 (volume mari), 1.78.1 / 1.58.1 (presiune înaltă, filtrare mai fină). Presiunea, temperatura și finețea de filtrare se confirmă pe cod.`
       },
       {
-        name: 'Bollfilter Type 2.04 Backflush',
-        description: `Seria 2.04 folosește tehnologie backflush hidraulic - multiple nozzle-uri interne inversează local fluxul pentru a descărca particulele, fără piese mobile mecanice. Avantaj major: nicio uzură (nu există racloare sau discuri rotative), mentenanță zero ani întregi. Funcționare: când ΔP atinge setpoint (ex: 0.5 bar), valve secvențiale deschid pe rând fiecare din 4-12 nozzle-uri timp de 3-5 secunde - jetul invers (10-15 m/s) desprinde stratul de particule și îl evacuează prin linia de drain. Consumul de backflush e doar 2-5% din debit total. Aplicații: apă de răcire (eliminare alge, nisip, scoici în sisteme deschise), emulsii de laminare (particule metal 50-200 μm), condensat steam (oxizi fier din coroziune). Elemente sinter inox gradat - porozitate fină interior (20 μm) și grosieră exterior (200 μm) previne pătrunderea adâncă a particulelor. Certificare PED 2014/68/EU Categoria III pentru > 10 bar, plus ATEX II 2G Ex h IIC T3 pentru zone 1 gaz.`
+        name: 'Bollfilter FineFilter (stații cu membrane)',
+        description: `Unități de filtrare fină Bollfilter: stații cu membrane tubulare, stații cu membrane plane și unități de osmoză inversă. Debitele, materialele membranelor și condițiile de lucru se confirmă pe cod, din documentația Boll & Kirch.`
       }
     ],
     certifications: [
       'PED 2014/68/EU - Pressure Equipment Directive categorii I-IV',
-      'ASME Section VIII - U-stamp pentru piața SUA/Canada',
+      
       'ATEX 2014/34/EU - Zone 0/1/2 gaz și Zone 20/21/22 praf',
-      'DNV-GL Type Approval - Marine și offshore',
-      'Lloyd\'s Register - Naval și industrie maritimă',
-      'ABS - American Bureau of Shipping',
+      
+      
+      
       'CE - Conformitate Europeană DGRL/ATEX',
       'ISO 9001 - Sistem management calitate producție',
       'AD 2000 Merkblatt - Normă germană vase presiune'
@@ -264,11 +264,11 @@ Filtrele Boll & Kirch sunt folosite în oil&gas, chimie, marine și metalurgie p
     faq: [
       {
         "q": "Ce filtre Bollfilter sunt potrivite pentru linii de apă de răcire?",
-        "a": "Pentru apă de răcire și linii continue, seria Automatic Type 6.18 oferă spălare inversă automată, fără oprirea fluxului, iar variantele Duplex permit comutarea între două linii pentru mențenanta fără întrerupere. Alegerea între modelele automate și cele simplex sau duplex depinde de debitul instalației, gradul de filtrare cerut și dacă procesul admite opriri scurte pentru curățare manuală."
+        "a": "Pentru apă de răcire și linii continue, seria Automatic Type 6.18 oferă spălare inversă automată, fără oprirea fluxului, iar variantele Duplex permit comutarea între două linii pentru mentenanță fără întrerupere. Alegerea între modelele automate și cele simplex sau duplex depinde de debitul instalației, gradul de filtrare cerut și dacă procesul admite opriri scurte pentru curățare manuală."
       },
       {
         "q": "Ce date trimit pentru o ofertă pentru un filtru Bollfilter de înlocuire?",
-        "a": "Tipul și dimensiunea de pe plăcuța filtrului existent, debitul nominal al liniei, presiunea de lucru și gradul de filtrare în microni formează bază unei oferte corecte. Pentru stațiile FineFilter cu membrane, spuneți-ne și tipul de fluid și temperatură de proces, că să alegem între membrană tubulară și cea plană."
+        "a": "Tipul și dimensiunea de pe plăcuța filtrului existent, debitul nominal al liniei, presiunea de lucru și gradul de filtrare în microni formează baza unei oferte corecte. Pentru stațiile FineFilter cu membrane, spuneți-ne și tipul de fluid și temperatura de proces, ca să alegem între membrană tubulară și cea plană."
       },
       {
         "q": "Livrați filtre Boll & Kirch în România?",
@@ -280,8 +280,8 @@ Filtrele Boll & Kirch sunt folosite în oil&gas, chimie, marine și metalurgie p
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării și sediul Boll & Kirch, conform surselor citate.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării și sediul Boll & Kirch, conform surselor citate.' }]
   },
 
   'bosch-professional': {
@@ -429,33 +429,33 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
     employees: '3000+',
     overview: `B&R Automation (achiziționat de ABB în 2017, păstrând brandul) este unul dintre producătorii de automatizare industrială integrată - producătorul a introdus POWERLINK în 2001, una dintre primele rețele Ethernet real-time open source. B&R produce soluții de automatizare pentru producători OEM și end-users în automotive, packaging, plastics și semiconductors. Filozofia producătorului: un singur software (Automation Studio) controlează PLC, motion, viziune, safety și robotică - inginerii configurează întreaga mașină din același IDE.
 
-Gama B&R acoperă toate componentele unei linii automatizate: PLC-uri modulare X20 și compacte APC (Automation PC cu Intel Core), servo drive-uri ACOPOS P3 regenerative, motoare sincrone 8LS și ACOPOSmotor integrate (motor+drive într-o carcasă), paneluri HMI Power Panel rezistive/capacitive până la 24", sisteme safety openSAFETY certificate SIL3. Tehnologia POWERLINK conectează toate acestea la 100 Mbps cu cycle time 200 μs și jitter <1 μs - sincronizare pe până la 100 de axe simultan.
+Gama B&R acoperă toate componentele unei linii automatizate: PLC-uri modulare X20 și compacte APC (Automation PC cu Intel Core), servo drive-uri ACOPOS P3 regenerative, motoare sincrone 8LS și ACOPOSmotor integrate (motor+drive într-o carcasă), paneluri HMI Power Panel rezistive/capacitive până la 24", sisteme safety openSAFETY certificate SIL3. Parametrii de timp ai rețelei POWERLINK (ciclu, jitter, număr de axe sincronizate) depind de configurație și se confirmă din documentația B&R.
 
-Clienții din industria auto și packaging aleg B&R pentru un cost total de deținere redus - hardware-ul modular se extinde fără redesign, software-ul e reutilizabil între mașini (biblioteci mapp standardizate), iar un singur partener acoperă PLC, drive și viziune fără a mai integra separat mai mulți furnizori. Actualizările se fac online fără oprire producție prin redundanță integrată.`,
+Sistemul X20 are arhitectură modulară în trei părți (bloc de borne, modul electronic, modul de magistrală), cu electronice care se pot înlocui în funcționare, fără precablarea modulelor.`,
     whyChoose: [
       'Automation Studio - IDE integrat PLC/HMI/Motion/Safety/Viziune',
-      'POWERLINK - Ethernet real-time 100 Mbps, 200 μs cycle, open source',
-      'openSAFETY - Safety over POWERLINK, black channel SIL3/PLe',
+      'POWERLINK - rețea Ethernet în timp real',
+      'openSAFETY - comunicație de siguranță; nivelul SIL se confirmă pe cod',
       'mapp Technology - Biblioteci software ready-made (robotică, CNC, tracking)',
       'ACOPOStrak - Transport magnetic linear pentru asynchronous production',
-      'Integrated Drive - Motor+drive+encoder în carcasă IP65'
+      'ACOPOSmotor - motor și servoamplificator într-o singură carcasă'
     ],
     keyProducts: [
       {
         name: 'X20 Modular PLC System',
-        description: `Sistemul X20 oferă flexibilitate maximă prin module I/O clipsabile pe backplane - construiești PLC-ul exact pe nevoile aplicației fără a plăti pentru canale neutilizate. CPU-uri de la X20CP1301 (ARM Cortex 400 MHz, 64 axe) până la X20CP3687 (Intel Atom quad-core, 256 axe, viziune integrată). Module I/O de toate tipurile: digitale 24V (izolate canal cu canal), analogice ±10V/4-20mA (rezoluție 16-bit), termorezistențe Pt100/Pt1000 cu compensare cold junction, encoder SSI/EnDat/Hiperface, valve pneumatice cu diagnoza. Design compact: 12.5mm lățime per modul digital, backplane cu bus integrat elimină cablaje point-to-point. Montare DIN-rail cu clipsuri metalice, temperatură funcționare -25°C to +60°C fără ventilație forțată. Comunicații: POWERLINK master integrat în CPU, interfețe opționale EtherNet/IP, PROFINET, Modbus TCP, CANopen. Programare IEC 61131-3 (Ladder, ST, FBD) plus C/C++ pentru algoritmi complecși. Hot-swap module I/O fără oprire CPU - înlocuire cartelă defectă în producție fără downtime. Certificare openSAFETY - X20 SafeLogic rulează PLC și Safety pe același hardware cu separare softwarecertificată TÜV.`
+        description: `Sistemul X20 este mai mult decât un sistem I/O la distanță: o soluție completă de control, cu arhitectură în trei părți (bloc de borne, modul electronic, modul de magistrală), electronice care se pot înlocui în funcționare, fără precablare, variantă High-Density cu densitate de conexiune cu 50% mai mare și module cu unul sau două canale. Modelele de CPU, numărul de axe, lățimea modulelor și temperatura de lucru se confirmă pe cod, din documentația B&R.`
       },
       {
         name: 'ACOPOS P3 Servo Drive Series',
-        description: `Drive-urile servo ACOPOS P3 combină compactitatea (50mm lățime pentru 3A/400V) cu performanță extremă - PWM 62.5 kHz pentru operare silențioasă, bandwidth 800 Hz pentru răspuns dinamic în aplicații pick&place. Modele de la 1.3A (230V single-phase) până la 72A (400V three-phase), topologie modulară permite configurații multi-axes în același șasiu (până la 8 axe în 400mm lățime). Regenerare activă integrată - energia de frânare se returnează în rețea cu eficiență 98%, elimină rezistențele de frânare și poate reduce consumul în aplicații cu cicluri start-stop, conform producătorului. Feedback suportat: resolver, EnDat 2.2, Hiperface DSL, sin/cos 1Vpp, SSI, BiSS - conectezi orice motor fără adaptoare externe. Funcții advanced: auto-tuning adaptiv (identifică parametri motor în mers), predictive maintenance (algoritmi urmăresc degradare rulmenți/izolație), electronic gearing (sincronizare matematică axe virtual master). Conectare POWERLINK direct - toate parametrele se configurează din Automation Studio fără software terță parte. SafeMOTION integrat - STO/SS1/SLS/SDI certificate SIL3 fără releuri externe, funcții safety executate de drive local.`
+        description: `Servoamplificatoare din seria ACOPOS P3 pentru aplicații de control al mișcării. Curentul, tensiunea, frecvența de comutare, tipurile de feedback și funcțiile de siguranță (SafeMOTION) se confirmă pe cod, din documentația B&R.`
       },
       {
         name: 'Power Panel HMI Series',
-        description: `Panourile Power Panel combină PC industrial și ecran într-o carcasă robustă - de la 4.3" portabile până la 24" multi-touch pentru control room. Procesor Intel Atom/Celeron/Core i (funcție model), memorie 2-16 GB RAM, storage SSD 32-512 GB, sistem operare VxWorks real-time sau Windows 10 IoT. Display-uri: rezistive 5-wire pentru medii murdare (mănuși, umiditate) sau capacitive projected multi-touch pentru gesture control. Rezoluție până WUXGA 1920x1200, luminozitate 400-500 cd/m² vizibilă în lumină solară, LED backlight durată >50.000 ore. Montare: panel-cutout frontal IP65 (față rezistentă jet apă), rear IP20, sau VESA mount pentru brațe articulat. Interfețe bogate: 2-4x Ethernet Gigabit, USB 2.0/3.0, serial RS232/485, audio, POWERLINK integrat. Software mapp View - HMI vizualizare responsive (același proiect rulează pe 7" și 21" fără redesign), widget library industriale (trend recorder, alarm viewer, recipe manager), audit trail conform FDA 21 CFR Part 11. Certificare UL Class I Div 2 pentru zone hazardous gas, marine DNV-GL pentru offshore.`
+        description: `Panouri Power Panel, care combină un PC industrial cu un ecran într-o singură carcasă. Dimensiunea ecranului, procesorul, memoria, sistemul de operare, tipul de ecran tactil și gradul de protecție se confirmă pe cod, din documentația B&R.`
       },
       {
         name: 'ACOPOStrak Magnetic Transport',
-        description: `ACOPOStrak este sistemul B&R de transport magnetic linear - shuttle-uri independente levitează și se deplasează la viteze până 4 m/s pe segmente track flexibile. Spre deosebire de transportoare clasice (lanț, curea) unde produsele se mișcă sincron, aici fiecare shuttle are traiectorie și viteză proprie - unele accelerează pentru recuperare delay, altele așteaptă la stație process, altele ocolesc secțiuni în mentenanță. Aplicații: bottle filling asincron (sticle diferite își ajustează timpii), assembly cu buffer dinamic (produsele problema se extrag din flux fără oprire linie), inspection cu reject automat (shuttle cu defect se rutează la waste bin). Tehnologie: motoare lineare sincrone pe segmente track drepte și curbe (raze de la 218mm), shuttle-uri cu magneți permanenți fără cablare la bord, senzori de poziție optici rezoluție 31 μm. Software: track editor grafic în Automation Studio aranjează segmentele, shuttle manager alocă dinamic sarcinile, collision avoidance previne impacturile. Benefit: OEE ridicat (Overall Equipment Effectiveness) - mașina rulează la capacitate maximă fără compromisuri pentru produse diferite, changeover instant (reconfigurezi în software fără mecanic).`
+        description: `ACOPOStrak este sistemul B&R de transport magnetic liniar, cu transportoare (shuttle-uri) independente pe segmente de pistă. Viteza, razele segmentelor și precizia de poziționare se confirmă pe cod, din documentația B&R.`
       }
     ],
     certifications: [
@@ -463,10 +463,10 @@ Clienții din industria auto și packaging aleg B&R pentru un cost total de deț
       'UL/cUL - Listare America de Nord control systems',
       'TÜV SIL3/PLe - openSAFETY safety communication',
       'EAC - Certificare Rusia/Eurasia industrial automation',
-      'SEMI S2 - Safety semiconductor equipment',
-      'FDA 21 CFR Part 11 - Audit trail pharmaceutical',
-      'DNV-GL - Marine și offshore automation',
-      'ATEX Zone 2 - Panouri HMI pentru gaz atmosfere',
+      
+      
+      
+      
       'ISO 9001 - Calitate management producție'
     ],
     industries: [
@@ -558,55 +558,55 @@ Clienții din industria auto și packaging aleg B&R pentru un cost total de deț
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'bucher-hydraulics': {
     founded: 1923,
-    headquarters: 'Frutigen, Elveția',
-    employees: '3500+',
-    overview: `Bucher Hydraulics produce sisteme hidraulice complete de peste 100 de ani - de la pompe și motoare până la valve, cilindri și electronice de control. Expertiza producătorului se împarte în două divizii: Mobile Hydraulics (echipamente construcții, agricole, mining) și Industrial Hydraulics (presă, injecție, machine tools). Producătorul are fabrici în Elveția, Germania, SUA, China și India.
+    headquarters: 'Elveția',
+    employees: 'aproximativ 3000',
+    overview: `Bucher Hydraulics produce sisteme hidraulice complete de peste 100 de ani - de la pompe și motoare până la valve, cilindri și electronice de control. Compania a fost înființată în 1923 și are 12 locații de producție la nivel mondial. Producătorul are fabrici în Elveția, Germania, SUA, China și India.
 
-Tehnologia de bază a producătorului sunt pompele cu pistoane axiale - seria QX oferă presiuni până la 500 bar cu eficiență volumetrică >98% și durată peste 20.000 ore. Pentru aplicații mobile, Bucher dezvoltă valve directionale compacte rezistente la șocuri și vibrații (testare 100g acceleration), iar pentru industrial produce power units complet integrate (motor electric + pompă + rezervor + filtrare + cooling). Inovația Vario-X a producătorului permite ajustarea debitului pompei proporțional cu sarcina - cu efect asupra consumului de combustibil în excavatoare și încărcătoare, conform documentației producătorului.
+Pompele seria QX sunt pompe cu roți dințate interioare, descrise de producător ca soluții universale („all-rounders”) pentru presiuni de până la 400 bar; seria AX cuprinde pompe cu pistoane axiale. Gama include valve direcționale, valve cartridge, valve stivuibile, valve de menținere a sarcinii și valve cu răspuns rapid, precum și grupuri hidraulice (power units) în șapte familii.
 
-Pompele Bucher sunt alese în construcții și de integratori OEM pentru robustețea documentată de producător - funcționează, conform specificațiilor tehnice, la temperaturi extreme, fără pierdere de performanță. Rețeaua de service globală a producătorului asigură livrări de piese și reparații - downtime minim pentru utilaje critice.`,
+Producătorul indică 190 de parteneri de vânzări la nivel mondial; disponibilitatea pieselor și condițiile de service se confirmă direct cu producătorul.`,
     whyChoose: [
-      'Pompe QX pistoane axiale - 500 bar presiune, 98% eficiență, 20.000h durată',
-      'Vario-X displacement control - Reduce consumul de combustibil prin load sensing, conform producătorului',
-      'Valve mobile rezistente - 100g shock resistance, IP67, -40°C to +80°C',
-      'Power units custom - Design engineering integrat motor/pompă/cooling',
-      'Electronice CAN/IoT - AX controllers PDM-ready, diagnostic remote',
-      'Service global - 30 centre tehnice, piese disponibile rapid la nivel mondial'
+      'Pompe QX cu roți dințate interioare, pentru presiuni de până la 400 bar',
+      'Pompe cu roți dințate interioare pentru turații variabile (QXEH, QXEHX) și pentru fluide cu vâscozitate mică (QXV)',
+      'Valve direcționale, cartridge, stivuibile, de menținere a sarcinii și cu răspuns rapid',
+      'Șapte familii de grupuri hidraulice (power units), de la GPP PowerPacks la seria YBZ',
+      'Componente standard flexibile și soluții personalizate, conform producătorului',
+      '190 de parteneri de vânzări la nivel mondial, conform producătorului'
     ],
     keyProducts: [
       {
-        name: 'QX Axial Piston Pumps',
-        description: `Seria QX este o gamă de pompe cu pistoane axiale de înaltă performanță - displacement variabil 22-250 cm³/rotație, presiuni continue 420 bar (peak 500 bar), viteze până 3000 rpm. Design cu placă înclinată (swashplate) permite ajustare debit de la 0 la 100% prin unghi variabil - control precis fără throttling losses. Eficiență volumetrică 98.5% la presiune nominală înseamnă căldură minimă generată - funcționare fără cooling forțat în multe aplicații. Rulmenți axiali cu role conice supradimensionați rezistă forțelor axiale uriașe (10.000 kg la QX62), durată demonstrată >20.000 ore în teren. Control displacement: manual (șurub reglare), hidraulic (presiune pilot), electric (solenoid proporțional), sau load-sensing Vario-X (ajustare automată pe sarcină). Montare: SAE flange standard, antrenare directă motor diesel/electric prin cuplaj elastic. Aplicații: excavatoare (2 pompe QX pentru travel + implement), buldozere (transmisie hidrostatică), prese hidraulice (menținere presiune constantă). Fluide compatibile: uleiuri minerale HLP, biodegradabile HETG/HEES, HFA emulsii apă-ulei. Filtrare obligatorie: 10 μm absolut pentru protecție pistoane/cilindru (clearance 5-8 μm).`
+        name: 'QX Pompe cu Roți Dințate Interioare',
+        description: `Seria QX este formată din pompe cu roți dințate interioare, descrise de producător ca pompe universale („all-rounders”) pentru presiuni de până la 400 bar. Variante: QXEH (funcționare dinamică la turație variabilă), QYEH (zgomot redus și eficiență ridicată), QXEHX (turații foarte mari), QXV (fluide cu vâscozitate mică), QXP (pompă de dozare pentru producția de poliuretan), QXM și QXEM (pompă-motor pentru aplicații multi-cadran). Cilindreea, turația și fluidele compatibile se confirmă pe cod, din documentația Bucher Hydraulics.`
       },
       {
-        name: 'DDPC Directional Control Valves',
-        description: `Valvele direcționale DDPC (Dual Drive Proportional Control) sunt optimizate pentru hidraulica mobilă - controlează direcția și debitul uleiului către cilindri și motoare cu precizie ridicată. Arhitectură spool-in-sleeve cu 2-6 secții stivuibile, debit până 180 l/min per secție, presiune lucru 350 bar. Acționare: solenoid proporțional 12V/24V (curent 0-2A = deschidere 0-100%), time response <50ms pentru dinamică ridicată. Funcții integrate: load-sensing (ajustare presiune pompă la nevoie), anti-cavitation (previne vacuum destructiv la coborâre greutăți), shock valve (amortizare hidraulică oprire bruscă). Compensatori de presiune și debit individuali per secție asigură mișcări simultane precise - ridicare braț excavator + rotire turelă la viteze independente fără interferență. Design robust pentru mobile: carcasă fontă nodulară, bobine solenoid IP67 rezistente umezeală/murdărie, conectori Deutsch rezistenți vibrații. Diagnosticare: senzori presiune P/A/B integrați opțional, comunicație CAN pentru monitorizare ECU. Configurare modulară: add-on blocks pentru funcții suplimentare (counterbalance, float position, hydraulic fuse).`
+        name: 'Valve Direcționale',
+        description: `Bucher Hydraulics oferă valve direcționale, valve cartridge, valve stivuibile, valve de menținere a sarcinii și valve cu răspuns rapid, precum și soluții cu blocuri colectoare. Seria, debitul și presiunea de lucru se confirmă pe cod, din documentația Bucher Hydraulics.`
       },
       {
-        name: 'AX Compact Power Units',
-        description: `Power unit-urile AX sunt sisteme hidraulice complete plug&play - motor electric trifazat + pompă + rezervor + filtrare + răcire într-o singură bază compactă. Gamă 3-75 kW putere motor, presiuni 160-350 bar, rezervoare 50-500 litri. Pompe disponibile: gear pumps pentru aplicații simple constant flow, piston pumps pentru presiuni înalte și control precis. Configurații: open-loop (ulei circulă motor→cilindri→rezervor, aplicații simple) sau closed-loop (ulei circulă în circuit închis, răcire prin schimbător, aplicații servo-hidraulice). Componente integrate: filtru aspirație 150 μm grilă protecție pompă, filtru return 10 μm absolute pentru protecție sistem, manometru analog cu switch presiune max, termometru rezervor cu switch temperatură. Opțiuni: răcire air-cooled (ventilator 230V) sau water-cooled (schimbător placă inox), preîncălzire ulei electric 1-3 kW pentru pornire la -20°C, accumulator hidraulic pentru funcții emergency. Control: start/stop simplu via contactor, sau PLC integrat Bucher cu logică complexă (presiuni diferite pe faze proces, diagnosticare). Aplicații: prese hidraulice (deep drawing, forjare), test benches (automotive, aerospace), machine tools (grinding, clamping), plastic injection (core pull, ejection).`
+        name: 'Power Units (grupuri hidraulice)',
+        description: `Bucher Hydraulics oferă șapte familii de grupuri hidraulice: GPP PowerPacks, Smart PowerPacks, Electro-Pumps ET, Hydraulic Power Packs seria UP, seria M (unități compacte pentru aplicații mobile DC și AC), seriile MT și T (unități AC pentru uz industrial și comercial) și YBZ. Puterea motorului, presiunea și volumul rezervorului se confirmă pe cod, din documentația Bucher Hydraulics.`
       },
       {
-        name: 'M-Series Hydraulic Motors',
-        description: `Motoarele hidraulice seria M convertesc energie hidraulică în rotație continuă - displacement fix de la 8 cm³ până la 250 cm³/rotație, presiuni continue 400 bar (peak 450 bar), viteze 50-4000 rpm funcție model. Tehnologie: pistoane axiale sau radiale (funcție mărime), distribuție prin disc valve sau port plate. Cuplu constant pe toată plaja viteze - motor M80 livrează 200 Nm de la 100 rpm până la 3000 rpm fără pierdere. Eficiență mecanică 92-95% înseamnă putere shaft maximă cu căldură minimă. Montaje diverse: flanșă SAE, arbore conic sau cilindric cu pană, flange ISO. Aplicații mobile: antrenare wheel pentru excavatoare (2 motoare M roți independente), rotor mixer betoniară (viteză variabilă 0-30 rpm, cuplu ridicat), trolii winch (tracțiune controlată logging, marine). Aplicații industriale: antrenare conveyor (speed variable pentru sincronizare), index tables (poziționare precisă stații asamblare), test dynamometers (simulare sarcină). Protecție: case drain obligatoriu pentru evacuare leakage intern (presiune carcasă <2 bar), flushing valve pentru evacuare aer la prima pornire. Compatibilitate fluide: HLP mineral, HFC glycol, HFD esteri sintetici.`
+        name: 'AX Pompe cu Pistoane Axiale',
+        description: `Seria AX cuprinde pompe cu pistoane axiale din oferta Bucher Hydraulics. Cilindreea, presiunea și modul de reglare se confirmă pe cod, din documentația Bucher Hydraulics.`
       }
     ],
     certifications: [
       'ISO 9001 - Management calitate producție',
       'ISO 14001 - Management mediu fabrici',
       'CE - Conformitate Europeană componente hidraulice',
-      'ATEX - Zone 2 valve și motoare pentru atmosfere gaz',
-      'DNV-GL Type Approval - Marine și offshore hydraulics',
-      'ABS - American Bureau Shipping naval equipment',
+      
+      
+      
       'RoHS - Restriction hazardous substances electronics',
       'REACH - Registration chemicals EU compliance',
-      'UL - Component recognition SUA/Canada'
+      
     ],
     industries: [
       'Construction Equipment - Excavatoare, încărcătoare, buldozere, macarale',
@@ -693,12 +693,12 @@ Pompele Bucher sunt alese în construcții și de integratori OEM pentru robuste
       },
       {
         "q": "Ce diferență este între pompele QX și QXV din gama Bucher?",
-        "a": "Pompă QX este variantă de bază cu roți dințate interioare, gândită că soluție universală pentru presiuni de până la 400 bar în aplicații industriale obișnuite. Varianta QXV este optimizată pentru fluide cu vâscozitate mică, precum uleiuri ușoare sau combustibili, menținând eficiență volumetrică acolo unde o pompă standard ar pierde randament din cauza scăpărilor interne."
+        "a": "Pompa QX este varianta de bază cu roți dințate interioare, gândită ca soluție universală pentru presiuni de până la 400 bar. Varianta QXV este optimizată pentru fluide cu vâscozitate mică, precum uleiuri ușoare sau combustibili, menținând eficiență volumetrică acolo unde o pompă standard ar pierde randament din cauza scăpărilor interne."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'burkert-sensors': {
@@ -707,33 +707,33 @@ Pompele Bucher sunt alese în construcții și de integratori OEM pentru robuste
     employees: '3200+',
     overview: `Bürkert este furnizor global de tehnologii de măsurare, control și reglare pentru fluide și gaze - de la valve solenoid simple până la sisteme complete process control cu IoT. Producătorul are peste 75 de ani de activitate și acoperă industrii de la pharmaceutical până la semiconductor. Filosofia Bürkert: soluții integrate - un singur partener pentru valve, senzori, controlere și software de analiză.
 
-Gama de senzori Bürkert acoperă parametrii uzuali de fluid: debit (thermal mass, electromagnetic, ultrasonic, Coriolis), presiune (piezoresistive, capacitive), temperatură (Pt100, termocuple), conductivitate, pH, turbiditate. Transmițătoarele Type 8400 oferă, conform producătorului, precizie ±0.5% cu stabilitate long-term (drift <0.1%/an), relevantă în pharma și food. Pentru aplicații critice, Bürkert dezvoltă senzori cu design hygienic certificat 3A/EHEDG - suprafețe electropolished fără dead zones, sterilizare SIP 140°C.
+Gama de senzori Bürkert acoperă parametrii uzuali de fluid: debit (thermal mass, electromagnetic, ultrasonic, Coriolis), presiune (piezoresistive, capacitive), temperatură (Pt100, termocuple), conductivitate, pH, turbiditate. Precizia, stabilitatea pe termen lung și calibrarea depind de tipul de senzor și se confirmă pe cod, din documentația producătorului. Pentru aplicații igienice, Bürkert oferă variante cu design igienic; certificările și limitele de sterilizare se confirmă pe cod, din documentația producătorului.
 
-Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate - fiecare senzor vine cu certificat de calibrare DIN/ISO acreditat, iar sistemele producătorului pot loga automat parametrii conform FDA 21 CFR Part 11. Integrarea digitală prin Ethernet/IP, PROFINET sau IO-Link permite mentenanță predictivă - algoritmii detectează drift sau colmatare înainte de ieșirea din specificație.`,
+Certificatele de calibrare, interfețele digitale (de exemplu IO-Link, PROFINET, EtherNet/IP) și funcțiile de diagnosticare diferă pe tip de produs și se confirmă pe cod, din documentația producătorului.`,
     whyChoose: [
-      'Hygiene design - Suprafețe electropolished Ra<0.8μm, certificare 3A/EHEDG/ASME-BPE',
-      'Multi-parametru - Senzori combină debit+temperatură+presiune într-o carcasă',
-      'Precizie ±0.5% - Calibrare fabrică ISO 17025, certificat inclus',
-      'Materialele - Hastelloy, Tantalum, PTFE pentru chimicale agresive',
+      'Design igienic - variantele și certificările se confirmă pe cod, din documentația producătorului',
+      'Gamă de senzori - debit, presiune, temperatură și analiză a apei, conform site-ului producătorului',
+      'Precizie și calibrare - datele de precizie și certificatele de calibrare se confirmă pe cod',
+      'Materiale - variantele pentru fluide agresive se confirmă pe cod, din documentația producătorului',
       'IO-Link + PROFINET - Integrare Industry 4.0, diagnosticare remote',
-      'SIP/CIP capable - Sterilizare 140°C, cleaning aggressive chemicals'
+      'CIP/SIP - compatibilitatea depinde de tip (de exemplu Type 8098 este indicat CIP/SIP compatibil); limitele de temperatură se confirmă pe cod'
     ],
     keyProducts: [
       {
-        name: 'Type 8400 Flow Transmitter',
-        description: `Transmițătorul de debit 8400 folosește tehnologie electromagnetic (Faraday) - măsoară viteza fluidelor conductive (>5 μS/cm) fără piese mobile, fără cădere presiune, fără mentenanță. Gama DN03-DN100 (1/8" până 4"), debite 0.003-500 l/min, precizie ±0.5% reading ±1mm/s, repeatabilitate 0.2%. Electrozi disponibili: inox 316L pentru apă/neutral, Hastelloy C pentru acizi, Tantalum pentru HCl/H2SO4 concentrat, Platinum pentru hipoclorit. Liner: PTFE (-20 to +130°C) pentru chimicale, PFA FDA compliant pentru food/pharma, ceramică pentru abrazive. Display LCD integrat afișează debit instant, totalizator, temperatură (Pt1000 integrat), alarme. Output-uri: 4-20mA izolat, pulsuri, relay alarme, comunicație HART/PROFIBUS/PROFINET/Modbus. Funcții: auto-zero elimină drift, empty pipe detection (alarma lipsa fluid), bi-directional flow (măsoară forward și reverse). Certificare: ATEX/IECEx Zone 1 gaz, 3A Sanitary pentru dairy, EHEDG aseptic design. Alimentare: 24VDC sau 230VAC, consum 8W max. Montare: in-line threading sau flanșa, poziție orizontală/verticală/înclinată (asigură umplere completă).`
+        name: 'Type 8400 Temperature Transmitter',
+        description: `Type 8400 este, conform paginii oficiale Bürkert, un detector de prag și transmițător pentru temperatură, cu afișaj mare, montaj prin înșurubare sau pe perete, cu ieșire 4-20 mA către PLC. Producătorul a anunțat retragerea acestui tip începând cu 1 ianuarie 2025. Pentru măsurarea debitului alegem împreună tipul potrivit, în funcție de fluid și de conexiunea de proces.`
       },
       {
-        name: 'Type 8701 Thermal Mass Flow Controller',
-        description: `Controllerul de debit termic 8701 măsoară și reglează simultan debitul gazelor - de la 0.003 Nl/min până la 2000 Nl/min, presiuni până 100 bar, gaze pure sau amestecuri. Principiu: două senzori Pt100 în contact cu gazul - unul încălzit, altul referință; diferența temperatură e proporțională cu debitul masic. Avantaj major: măsoară direct masa (nu volum) - citirea e corectă indiferent de presiune/temperatură fluctuante. Valve de control integrat (solenoid proporțional) reglează debitul la setpoint cu precizie ±1% full scale, timp răspuns <1s. Display TFT color 2.8" afișează debit, presiune, temperatură, totalizator, grafic trend. Configurare: 100 gaze pre-programate (N2, O2, Ar, CO2, etc.), sau gas mix custom (introduci compoziție procentuală). Comunicații: Ethernet/IP, PROFINET, Modbus TCP, USB config, analog 4-20mA/0-10V. Aplicații: reactoare pilot pharma (dozare reactiviante gazoși), fermentare (control O2/CO2), coating (debit Ar protective atmosphere), fuel cells (H2 precise metering). Material: corp inox 316L, conexiuni VCR sau Swagelok ultra-tight seal (10⁻⁹ mbar·l/s helium leak).`
+        name: 'Type 8701 Mass Flow Meter',
+        description: `Type 8701 este, conform paginii oficiale Bürkert, un debitmetru masic (MFM) pentru gaze, cu senzor termic MEMS, cu domeniu nominal de la 0,010 până la 80 l/min și calibrare pentru două gaze, comutabile de utilizator. Producătorul a retras tipul începând cu 1 iulie 2025; succesorul indicat este Type 8741. Interfețele și variantele se confirmă pe cod, din fișa tehnică.`
       },
       {
         name: 'Type 8314 Pressure Transmitter',
-        description: `Transmițătorul de presiune 8314 combină precizie industrială cu design hygienic pentru food și pharma - măsoară 0-1 bar până 0-400 bar cu precizie ±0.5% full scale. Element senzor: ceramic piezoresistiv flush-mounted (fără dead volume) sau membrană inox electropolished Ra<0.4μm separată prin ulei silicon (pentru extreme temperatures). Output digital HART sau analog 4-20mA cu override manual pentru calibrare. Display LCD rotativ 4-digit afișează presiune în bara, psi, kPa (selectabil). Compensare temperatură -10 to +80°C menține precizia indiferent ambient - coeficient termic <0.1%/10K. Conexiuni proces: clamp aseptic ISO 2852 (DN25-DN100), threading DIN 11851, flanșa ANSI. Versiuni speciale: dual-seal pentru toxic/flammable (membrană dublă cu monitoring spațiu intermediar), cooling element pentru steam applications (+200°C process). Certificare: EHEDG aseptic, 3A sanitary, PED 2014/68/EU Category II, ATEX II 1/2 G Ex ia. Aplicații: bioreactor pressure monitoring (sterilizare in-situ 140°C), CIP return line (detectare foam), filling machine (control presiune exact pentru volume repeatability). Calibrare fabrică ISO 17025 acreditată - certificat inclus cu valori multiple puncte.`
+        description: `Type 8314 este, conform paginii oficiale Bürkert, un traductor de presiune OEM cu celulă de măsură ceramică, în execuție cu două fire. Producătorul l-a retras la 31 decembrie 2012, succesorul fiind Type 8316. Domeniile de presiune și variantele se confirmă pe cod, din fișa tehnică a succesorului.`
       },
       {
         name: 'Type 8905 Analytical Controller',
-        description: `Controllerul analitic 8905 este creierul sistemelor complexe Bürkert - conectează până la 16 senzori (debit, presiune, temperatură, pH, conductivitate) și execută logică control avansată. Procesor ARM Cortex 1 GHz, memorie 1 GB RAM, storage 8 GB eMMC pentru data logging years. Display TFT touchscreen 7" color (800x480) cu interfață grafică intuitivă - vizualizezi simultan toate parametrele, trend-uri istorice, alarme active. Programare: function blocks drag&drop (fără coding pentru aplicații standard), sau Structured Text IEC 61131-3 pentru logici custom. I/O expansion: 8 intrări analogice 0/4-20mA (rezoluție 16-bit), 4 ieșiri analogice, 8 digitale in/out, 2 relay 230VAC/5A. Comunicații: Ethernet dual-port switch integrat, PROFINET device/controller, Modbus TCP server/client, OPC-UA pentru integrare MES/ERP. Funcții process: PID multi-loop cu auto-tuning, batch control cu recipe management (200 rețete salvate), alarm management cu acknowledge și email notification. Certificare: CE, UL, ATEX Zone 2 (intrinsic safe inputs pentru Zone 1 sensors). Aplicații: control bioreactor (temperatură, pH, pO2, debit gaze), blending system (dozare proporțională 3-6 componente), water treatment (conductivitate, chlorine, turbiditate).`
+        description: `Type 8905 este, conform paginii oficiale Bürkert, un sistem online de analiză a apei, cu afișaj tactil integrat de 7 inch, modular, care poate măsura până la 8 parametri de calitate a apei (de exemplu pH, clor, conductivitate, potențial redox, turbiditate, temperatură). Alimentarea este de 20-30 V c.c. Configurația și senzorii se confirmă pe cod, din documentația producătorului.`
       }
     ],
     certifications: [
@@ -745,7 +745,7 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate - fieca
       'ATEX/IECEx - Zone 0/1/2 gaz și 20/21/22 praf',
       'PED 2014/68/EU - Pressure Equipment Directive',
       'SIL2/SIL3 - Safety valve și senzori certificate TÜV',
-      'ISO 17025 - Calibrare laborator acreditat'
+      'Calibrare - acreditarea și certificatele se confirmă pe codul produsului'
     ],
     industries: [
       'Pharmaceutical - Bioreactor, filling sterile, CIP/SIP',
@@ -773,7 +773,7 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate - fieca
       },
       {
         "code": "Type 2103",
-        "description": "Valvă de proces cu acționare pneumatică sau electromotoare"
+        "description": "Valvă cu diafragmă 2/2 căi, cu acționare pneumatică, din oțel inoxidabil"
       },
       {
         "code": "Type 3360",
@@ -785,37 +785,37 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate - fieca
       },
       {
         "code": "Type 8098",
-        "description": "Traductor și controler cu conexiuni multiple pentru senzori"
+        "description": "Debitmetru FLOWave cu unde acustice de suprafață (SAW), pentru aplicații igienice"
       },
       {
         "code": "Type 6712",
-        "description": "Pompa de microfluidică pentru dozare de precizie"
+        "description": "Valvă cu 2/2 căi, cu separare de mediu, cu zgomot de comutare redus (Whisper Valve)"
       },
       {
         "code": "Type 8741",
-        "description": "Debitmetru masic pentru gaze și lichide, cu controler integrat"
+        "description": "Debitmetru sau regulator de debit masic pentru gaze, cu senzor termic MEMS"
       },
       {
         "code": "Type 2875",
-        "description": "Valvă proporțională cu acționare electromagnetică sau electromotoare"
+        "description": "Valvă proporțională 2/2 căi, cu acționare directă electromagnetică"
       },
       {
         "code": "Type 10",
-        "description": "Modul de comunicație industrială pentru Profinet și EtherNet/IP"
+        "description": "Tip Bürkert; descrierea exactă se confirmă pe cod, din fișa tehnică a producătorului"
       },
       {
         "code": "Type BBS03",
-        "description": "Cilindru pneumatic și conectori push-in pentru accesorii"
+        "description": "Cod Bürkert; descrierea exactă se confirmă pe cod, din fișa tehnică a producătorului"
       }
     ],
     faq: [
       {
         "q": "Ce valve Burkert sunt potrivite pentru controlul proceselor cu fluide?",
-        "a": "Pentru control de proces, seria Type 2103 oferă valve cu acționare pneumatică sau electromotoare pentru sarcini generale, iar Type 2875 acoperă aplicațiile care cer reglaj proporțional fin de debit sau presiune. Alegerea între variante depinde de tipul de fluid, presiunea de lucru și dacă instalația are deja aer comprimat disponibil pentru acționare pneumatică."
+        "a": "Pentru control de proces, seria Type 2103 oferă valve cu diafragmă cu acționare pneumatică, iar Type 2875 este o valvă proporțională cu acționare electromagnetică, pentru aplicațiile care cer reglaj fin de debit sau presiune. Alegerea între variante depinde de tipul de fluid, presiunea de lucru și dacă instalația are deja aer comprimat disponibil pentru acționare pneumatică."
       },
       {
         "q": "Ce informații trimit pentru o ofertă pentru o valvă Burkert de înlocuire?",
-        "a": "Tipul complet marcat pe valvă (de exemplu Type 6027 sau Type 8652), presiunea și temperatura de lucru, tipul de fluid și tensiunea de comandă din instalație sunt suficiente pentru o ofertă. La debitmetrele masice din seria Type 8741, spuneți-ne și ce gaz sau lichid măsurați, pentru calibrarea corectă."
+        "a": "Tipul complet marcat pe valvă (de exemplu Type 6027 sau Type 8652), presiunea și temperatura de lucru, tipul de fluid și tensiunea de comandă din instalație sunt suficiente pentru o ofertă. La debitmetrele masice din seria Type 8741, spuneți-ne și ce gaz măsurați, pentru calibrarea corectă."
       },
       {
         "q": "Livrați echipamente Burkert în România?",
@@ -827,8 +827,8 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate - fieca
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'caleffi-thermal': {
@@ -837,33 +837,33 @@ Clienții din pharma, food și chimie aleg Bürkert pentru trasabilitate - fieca
     employees: '1400+',
     overview: `Caleffi produce componente termice și hidronice pentru instalații HVAC de peste 60 de ani - de la vase de expansiune până la grupuri de pompare complexe. Producătorul are facilități de producție în Italia. Gama Caleffi acoperă întregul circuit termic: expansiune (vase membrane), siguranță (supape presiune/temperatură), echilibrare (valve termostatice, presiune diferențială), separare (separatoare aer/particule), control (mixing valves, actuatoare).
 
-Printre tehnologiile de vârf ale producătorului se numără vasele de expansiune seria DISCAL - membrane EPDM/Butyl rezistente 100°C, pre-încărcare azot precisă ±0.1 bar, certificate PED pentru presiuni până la 10 bar. Pentru instalații mari, Caleffi dezvoltă grupuri de pompare Hydrolink - modul compact ce integrează pompe, valve, senzori și controller într-o singură bază plug&play, conceput să reducă timpul de instalare. Separatoarele de aer Discaldirt combină deaeration (elimină oxigenul coroziv) cu filtrarea particulelor magnetice (oxidul de fier din țevi vechi).
+Printre produsele producătorului se numără separatoarele de aer DISCAL, care folosesc tehnologia cu efect de coalescență pentru eliminarea aerului și a microbulelor dizolvate din instalațiile hidronice. Gama Caleffi include și separatoare hidraulice, care decuplează hidraulic circuitul primar de cel secundar în instalațiile de încălzire și răcire. Separatoarele DISCALDIRT tratează impuritățile și aerul din instalațiile hidronice, iar varianta DISCALDIRTMAG adaugă separare magnetică pentru impuritățile feroase și neferoase.
 
-Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitatea testată între componente - acestea sunt verificate împreună în configurații de sistem real, nu doar individual. Software-ul gratuit al producătorului, HVAC Solutions, dimensionează automat vase, pompe și valve pe baza planurilor clădirii - reduce erorile de calcul manual și ajută la optimizarea consumului energetic.`,
+Specificațiile și compatibilitatea componentelor se confirmă pe cod, din documentația tehnică publicată de producător.`,
     whyChoose: [
-      'Vase DISCAL - Membrană EPDM/Butyl 100°C, pre-încărcare azot precisă, 10 ani garanție',
-      'Hydrolink modules - Grupuri pompare integrate plug&play, commissioning rapid',
+      'Separatoare de aer DISCAL - eliminarea aerului și a microbulelor din instalațiile hidronice',
+      'Separatoare hidraulice - decuplarea circuitului primar de cel secundar',
       'Discaldirt separatoare - Deaeration + magnetic filtration într-o carcasă',
-      'Mixing valves - 3-way/4-way cu actuatoare 24V/230V, control PI/PID',
-      'Software HVAC Solutions - Dimensionare automată sistem complet gratis',
-      'Made in Italy - Fabricație internă turnare/asamblare, control calitate 100%'
+      'Vane de amestec - variante termostatice (MixCal, AngleMix) și digitale (LEGIOMIX evo)',
+      'Documentație tehnică - fișe tehnice publice pe site-ul producătorului',
+      'Fabricat în Italia - patru unități de producție în Italia, conform site-ului producătorului'
     ],
     keyProducts: [
       {
-        name: 'DISCAL Expansion Vessels',
-        description: `Vasele de expansiune DISCAL protejează instalațiile termice de suprapresiune cauzată de dilatarea apei la încălzire (apă la 20°C → 80°C crește volum cu 2.5%). Gamă 2-5000 litri, presiuni maxime 3-10 bar funcție model, temperatură -10°C to +100°C (membrană EPDM) sau +120°C (membrană Butyl specială). Construcție: carcasă oțel carbon vopsit epoxy roșu RAL 3000, membrană elastică fixată de flanșa prin inel metalic (replaceable), pre-încărcare azot sec (nu aer - oxidarea e eliminată). Conexiune filet 3/4" până 2" sau flanșa DN pentru modele >200L. Montare: verticală mandatory cu conexiune jos (membrana expandează în sus), suport kit inclus pentru >100L. Normativ: vasele DISCAL respectă EN 13831 (fixed pressure equipment) și PED 2014/68/EU - certificat CE inclus. Calcul volum necesar: formula Vn = (e × Vt) / (1 - P1/P2) unde e=coeficient expansiune, Vt=volum total instalație, P1=presiune pre-încărcare, P2=presiune supapă siguranță. Software Caleffi calculează automat - introduci putere cazan, volum țevi, înălțime clădire. Mentenanță: verificare anuală presiune azot (trebuie egală cu presiune statică +0.5 bar), control vizual corroziune externe, testare membrană (apasă ventil Schrader - iese doar azot, nu apă).`
+        name: 'DISCAL Air Separators',
+        description: `DISCAL este, conform site-ului Caleffi, o gamă de separatoare de aer care folosesc tehnologia cu efect de coalescență pentru eliminarea aerului și a microbulelor dizolvate din instalațiile hidronice. Dimensiunile, presiunile și racordurile fiecărui model se confirmă pe cod, din fișa tehnică a producătorului.`
       },
       {
-        name: 'Hydrolink Pump Groups',
-        description: `Grupurile de pompare Hydrolink sunt soluții pre-asamblate pentru distribuție termică în clădiri - integrează pompe, valve, senzori și controller electronic pe bază compactă inox. Configurații: single pump 0.5-10 kW pentru instalații mici, twin pumps redundant (duty/standby cu comutare automată la defect), sau variable speed pumps cu inverter integrat (ajustare viteză pe delta-T sau presiune diferențială). Componente incluse: pompe Wilo/Grundfos selectate optimal, valve izolare bilă full-bore, termometre afundare ±1°C, manometre glicerină anti-vibration, valve golire/purjare, izolație termică EPE 13mm. Controller Hydrolink: display LCD parametri (temperaturi tur/retur, ΔP, ore funcționare), programare săptămânală (7 zile × 6 intervale), alarmă frost protection (pornire pompă sub +5°C pentru prevenire îngheț). Opțiuni: mixing valve 3-way motorizată cu actuator 24V (control temperatură tur pentru floor heating), flowmeter ultrasonic cu totalizator energie, compensare climatică (ajustare temperatură pe exterior sensor). Montare: pe perete via console incluse sau free-standing pe picioare anti-vibrații. Aplicații: alimentare radiatoare, floor heating, ventiloconvectoare, AHU coils. Benefit: poate reduce semnificativ timpul de instalare față de montajul din componente separate, conform producătorului, cu commissioning instant (parametri pre-setați fabrică).`
+        name: 'Hydraulic Separators',
+        description: `Separatoarele hidraulice Caleffi decuplează hidraulic circuitul primar de cel secundar în instalațiile de încălzire și răcire, conform site-ului producătorului. Debitele, presiunile și racordurile fiecărui model se confirmă pe cod, din fișa tehnică oficială.`
       },
       {
         name: 'Discaldirt Magnetic Separator',
-        description: `Separatorul Discaldirt 546 combină deaeration (eliminare oxigen dizolvat coroziv) cu magnetic filtration (captare particule fier/magnetită) într-o singură unitate compactă. Design ingenios: corp alamă/inox cu cameră vortex - fluxul tangențial creează rotație care separă aerul (urcă sus prin float ventil automat) și particulele grele (cad jos în camera colectare). Element magnetic central din pământuri rare (neodymium) generează câmp 8000 Gauss - atrage particulele feromagnetice (oxizi fier, rugină, magnetită) care colmatează schimbătoarele și reduc eficiența cu 15-30%. Conexiuni: filet 3/4" până 2" sau flanșa DN pentru diametre mari, montare în-line pe tur sau retur (preferabil retur - temperatura mai mică prelungește viață magnet). Cameră transparentă polimer permite vizualizare acumulare particule - când nivelul atinge 70%, golești prin valvă bilă inferioară fără oprire sistem. Eficiență, conform producătorului: elimină peste 95% din particulele >5 μm la primul pas și peste 99% din oxigenul dizolvat după 48h de circulare. Aplicații: instalații noi (elimină flux paste/uleiuri din montaj), instalații vechi (curățare particule coroziune acumulată ani), retrofit boiler (protecție schimbător). Certificare EN 12845 sprinkler systems, PED Cat I până PN10. Mentenanță: curățare magnet anual (scoți cartușul, ștergi particulele), înlocuire float ventil la 5 ani.`
+        description: `Separatoarele DISCALDIRT tratează impuritățile și aerul din instalațiile hidronice, iar DISCALDIRTMAG adaugă separare magnetică pentru impuritățile feroase și neferoase, conform site-ului Caleffi. Valorile tehnice (câmp magnetic, eficiență de separare, racorduri, presiune) se confirmă pe cod, din fișa tehnică a producătorului.`
       },
       {
-        name: 'Mixing Valves 3-Way Series 642',
-        description: `Valvele de amestec cu 3 căi seria 642 reglează temperatura circuitului secundar prin amestecarea fluxurilor cald (de la cazan/centrală) și rece (retur instalație) - esențiale pentru floor heating (max 45°C) sau ventiloconvectoare (control confort). Design rotativ mixing plug din alamă cromată - rotație 90° modifică proporția AB/B de la 0/100% la 100/0%. Kvs (coeficient debit) 4-25 m³/h funcție DN (DN20-DN50), presiune max 10 bar, temperatură -10 to +110°C. Acționare: manuală prin roată (aplicații simple fără control), sau motorizată prin actuatoare electrice - 642 compatibility: 24V on/off (2-point control simplu), 24V/230V modulating 0-10V (proportional control precis), sau 24V 3-point floating. Configurații: mixing (2 intrări + 1 ieșire pentru amestec variabil), diverting (1 intrare + 2 ieșiri pentru distribuție flux). Aplicații: mixing pentru floor heating cu senzor exterior (compensare climatică - scade temperatura tur când crește exterior), diverting pentru prioritizare ACM (redirecționează tot fluxul la boiler preparare apă caldă menajeră, oprește temporar încălzire). Kit actuator 642: include motor 230V, linkage conectare valve, auxiliary switch pentru feedback, manual override pentru emergency. Time response: full stroke (90°) în 60-180 secunde funcție actuator - dinamică potrivită inerției termice instalații.`
+        name: 'Mixing Valves',
+        description: `Caleffi oferă vane de amestec termostatice (de exemplu MixCal, AngleMix) și digitale (LEGIOMIX evo), conform site-ului producătorului. Seria, coeficientul Kvs, presiunea și temperatura maximă se confirmă pe cod, din fișa tehnică oficială.`
       }
     ],
     certifications: [
@@ -900,15 +900,15 @@ Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitatea
     productCodes: [
       {
         "code": "Seria 145",
-        "description": "Vană de control cu presiune independență pentru rețele comerciale"
+        "description": "Serie din catalogul Caleffi; descrierea exactă se confirmă din fișa tehnică oficială"
       },
       {
         "code": "Seria 3040",
-        "description": "Supapă Vacu-Stop pentru eliminarea vidului din instalațiile termice"
+        "description": "Serie din catalogul Caleffi; descrierea exactă se confirmă din fișa tehnică oficială"
       },
       {
         "code": "Seria 536",
-        "description": "Reductor de presiune PresCal HP cu debit mărit"
+        "description": "Serie din catalogul Caleffi; descrierea exactă se confirmă din fișa tehnică oficială"
       },
       {
         "code": "LEGIOMIX evo 6003",
@@ -936,7 +936,7 @@ Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitatea
       },
       {
         "code": "Grupuri de umplere și kituri cazane",
-        "description": "Ansambluri de umplere automată și accesorii pentru montaj cazăn"
+        "description": "Ansambluri de umplere automată și accesorii pentru montaj la cazan"
       },
       {
         "code": "Vane de amestecare",
@@ -970,11 +970,11 @@ Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitatea
     faq: [
       {
         "q": "Ce înseamnă codul de serie de la Caleffi, de exemplu Seria 145?",
-        "a": "Codul de serie arată familia de produs și varianta constructivă din catalogul oficial al producătorului. Seria 145 desemnează o vană de control cu presiune independență pentru rețele comerciale, iar cifrele următoare din cod indică de regulă dimensiunea sau tipul de racord montat pe corpul valvei. Pentru comenzi fără erori recomandăm transmiterea codului complet așa cum apare în fișa tehnică descărcată de pe site-ul Caleffi, împreună cu diametrul nominal necesar."
+        "a": "Codul de serie arată familia de produs și varianta constructivă din catalogul oficial al producătorului. Dimensiunea și tipul de racord se regăsesc în fișa tehnică a fiecărui produs. Pentru comenzi fără erori recomandăm transmiterea codului complet așa cum apare în fișa tehnică descărcată de pe site-ul Caleffi, împreună cu diametrul nominal necesar."
       },
       {
         "q": "Ce diferență este între Seria 536 și alte reductoare de presiune?",
-        "a": "Seria 536, cunoscută ca PresCal HP, este un reductor de presiune cu debit mărit față de gamele standard, potrivit pentru instalații cu consum ridicat de apă. Diferența față de alte reductoare din gamă constă în capacitatea de trecere mai mare la aceeași presiune de ieșire reglată. Alegerea variantei potrivite depinde de diametrul conductei și de debitul de vârf estimat, iar aceste detalii pot fi verificate în fișa tehnică oficială înainte de a solicita o ofertă."
+        "a": "Diferențele dintre seriile de reductoare de presiune Caleffi (debit, presiune de ieșire, racorduri) se confirmă în fișa tehnică oficială a fiecărei serii. Alegerea variantei potrivite depinde de diametrul conductei și de debitul de vârf estimat, iar aceste detalii pot fi verificate în fișa tehnică oficială înainte de a solicita o ofertă."
       },
       {
         "q": "Livrați produse Caleffi în România la comandă?",
@@ -982,47 +982,47 @@ Clienții instalatori și proiectanți HVAC aleg Caleffi pentru compatibilitatea
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă pentru un separator hidraulic Caleffi?",
-        "a": "Pentru o ofertă corectă trimiteți diametrul nominal al conductei, debitul maxim al instalației și numărul de circuite secundare conectate la separator. Este util să menționați tipul de instalație, de exemplu încălzire în pardoseală sau radiatoare, precum și dacă este nevoie de variantă cu vas de expansiune integrat. Cu aceste date putem identifică variantă din gamă Caleffi cea mai apropiată de cerință dumneavoastră și pregătim rapid un răspuns."
+        "a": "Pentru o ofertă corectă trimiteți diametrul nominal al conductei, debitul maxim al instalației și numărul de circuite secundare conectate la separator. Este util să menționați tipul de instalație, de exemplu încălzire în pardoseală sau radiatoare, precum și dacă este nevoie de variantă cu vas de expansiune integrat. Cu aceste date putem identifica varianta din gama Caleffi cea mai apropiată de cerința dumneavoastră și pregătim un răspuns."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'camozzi': {
     founded: 1964,
     headquarters: 'Brescia, Italia',
     employees: '1600+',
-    overview: `Camozzi este unul dintre producătorii importanți din Europa în pneumatică industrială, cu fabrici în Italia, Germania, Polonia și China. În peste 60 de ani, producătorul a dezvoltat o gamă foarte largă de repere pentru automatizare pneumatică, de la cilindri mini ∅6mm pentru electronică până la cilindri ∅320mm pentru prese industriale.
+    overview: `Camozzi este un producător italian de pneumatică industrială, înființat în 1964 la Lumezzane, în provincia Brescia, cu filiale în mai multe țări. În peste 60 de ani, producătorul a dezvoltat o gamă foarte largă de componente pentru automatizare pneumatică.
 
-Gama Camozzi acoperă întregul lanț pneumatic: cilindri (ISO 15552, compacți, rotativi, fără tijă), valve direcționale (5/2, 5/3, solenoid/pilot/manual), tratare aer (unități FRL: filtrare, reglare presiune, lubrifiere), fitinguri instant-lock (push-in, push-pull, thread-lock), tubulatură poliuretan/poliamidă. Printre tehnologiile de vârf ale producătorului se numără cilindrii seria 61 ultra-compacți - aceeași cursă în circa 40% mai puțină lungime față de standardul ISO, conform documentației producătorului.
+Gama Camozzi acoperă întregul lanț pneumatic: cilindri (ISO 15552, compacți, rotativi, fără tijă), valve direcționale (5/2, 5/3, solenoid/pilot/manual), tratare aer (unități FRL: filtrare, reglare presiune, lubrifiere), fitinguri instant-lock (push-in, push-pull, thread-lock), tubulatură poliuretan/poliamidă. Seria 61 cuprinde cilindri pneumatici cu profil de aluminiu, magnetici, cu amortizare, conformi ISO 15552, cu alezaje de 32 până la 125 mm, conform fișei producătorului.
 
-Clienții OEM din packaging, automotive și woodworking aleg Camozzi pentru posibilitatea de personalizare rapidă - cursă, montaje, senzori magnetici sau finisaje speciale pot fi adaptate la cerere, cu cantități minime de comandă reduse. Ingineria italiană, combinată cu fabricile din Polonia și China pentru volume mari, susține un raport calitate-preț competitiv.`,
+Variantele personalizate (cursă, montaj, senzori) se confirmă în ofertă, pe baza documentației producătorului.`,
     whyChoose: [
-      'Cilindri 61 Series - Ultra-compact 40% mai scurt, stroke până 500mm',
-      'Fitinguri instant - Push-in Ni-plated brass, seal HNBR, 0-16 bar',
-      'Valve 358 Series - Manifold modular, ATEX Zone 2, IP65',
-      'FRL Lockout - Filtrare 5μm, reglare 0.5-10 bar, lubrifiere micro-fog',
-      'Senzori magnetici - Reed switch/solid-state, LED indicator, IO-Link',
+      'Cilindri seria 61 - ISO 15552, alezaje 32-125 mm, curse de la 10 până la 2500 mm',
+      'Fitinguri instant push-in - gama și presiunile se confirmă pe cod',
+      'Electrovalve seria 3 - variante 3/2, 5/2 și 5/3, bobine 24 V c.c., 110 V și 230 V c.a.',
+      'Tratare aer (FRL) - filtrare, reglare și ungere; specificațiile se confirmă pe cod',
+      'Senzori magnetici - pentru cilindri cu piston magnetic; tipurile se confirmă pe cod',
       'Variante personalizate la cerere; cantitatea minimă și termenul se confirmă în ofertă'
     ],
     keyProducts: [
       {
-        name: 'Series 61 Compact Cylinders',
-        description: `Cilindrele compacte seria 61 reduc dimensiunile față de designul pneumatic clasic - același stroke în circa 40% mai puțină lungime totală față de ISO 15552, conform producătorului. Gamă bore ∅12-100mm, stroke 10-500mm, presiune lucru 1-10 bar, forță theoretical 11N (∅12) până 7850N (∅100) la 6 bar. Design cu piston magnetic integrat (fără piese adiționale) permite montare directă senzori reed/solid-state - detectare poziție end-stroke cu precizie ±0.5mm, repeatabilitate 0.1mm. Construcție: cămașa aluminiu anodat 25μm hard-coat pentru rezistență coroziune/uzură, piston alamă sau aluminiu cu garnituri NBR/PU (standard) sau Viton (temperaturi extreme -20/+150°C), tija inox cromată duritate >50 HRC. Montaje: ISO 15552 compatible - flange anterioară/posterioară, feet mounting, trunnion, clevis - interschimbabil cu SMC/Festo/Parker cilindri. Amortizare: pneumatică reglabilă ambele capete pentru reducere șoc la viteză mare (>0.5 m/s), sau amortizare hidraulică pentru sarcini grele. Opțiuni: magnet rezistent câmpuri electromagnetice puternice (sudare, inducție), senzori IO-Link digitali cu diagnosticare (counter cicluri, presiune, temperatură), coating special Rilsan pentru industrie alimentară. Aplicații: pick&place packaging (cicluri rapide 2-3/secundă), fixare în matrițe (forțe precise repetabile), mecanism deschidere uși automatizate.`
+        name: 'Series 61 Profile Cylinders ISO 15552',
+        description: `Seria 61 cuprinde cilindri pneumatici cu simplă sau dublă acțiune, magnetici, cu amortizare, conformi cu ISO 15552 (și cu standardul anterior DIN/ISO 6431 - VDMA 24562), cu profil de aluminiu. Sunt disponibili în șapte alezaje (32, 40, 50, 63, 80, 100 și 125 mm), cu curse de la 10 mm până la 2500 mm, la presiuni de lucru de 1-10 bar (0,1-10 bar la varianta cu frecare redusă). Temperatura de lucru este, la versiunea standard, de la 0°C la 80°C. Variantele și accesoriile se confirmă pe cod, din fișa producătorului.`
       },
       {
         name: 'Series 358 Directional Control Valves',
-        description: `Valvele directionale seria 358 sunt destinate distribuției aerului comprimat - configurație 5/2 sau 5/3 (5 porturi, 2 sau 3 poziții), acționare solenoid 24VDC monostabil/bistabil, debit Qn 600-1400 Nl/min funcție orifice. Arhitectură manifold modular: până 16 valve pe același bar cu alimentare comună și evacuare silențioasă centralizată - elimină cablajul pneumatic complex și reduce punctele de scurgere. Conexiuni: bottom porting M5 (montaj manifold), side porting M7 pentru aplicații standalone. Bobine solenoid: 24VDC standard (3.6W consum), opțional 12VDC, 110VAC, 230VAC, sau pilot pneumatic 3 bar pentru zone fără electricitate. LED indicator stare integrat în bobină - diagnostic vizual rapid (valve activată = LED verde). Protecție: IP65 standard (stropi apă, praf), opțional IP67 sau ATEX II 2G Ex mb IIC T4 pentru zone 2 gaz. Manual override: push-button mecanic sau mushroom lockout pentru emergency/mentenanță (forțează comutare fără electric). Aplicații: control cilindri dublu-effect (avans/retragere), vacuum pick&place (alternanță vid/aer), blow-off (suflare piese după prelucrare). Configurare manifold: software CAD 3D Camozzi generează automat manifold custom - selectezi număr valve, tip acționare, senzori presiune - descarci STEP file pentru integrare mașină.`
+        description: `Seria 358 este o electrovalvă 5/2 cu racord G1/8, potrivită pentru comanda cilindrilor cu dublu efect, cu debit nominal de 700 Nl/min, conform catalogului oficial Camozzi (seria 3). Presiunea de lucru este de 2,5-10 bar la varianta monostabilă și de 1,5-10 bar la cea bistabilă. Bobinele sunt disponibile la 24 V c.c., 110 V și 230 V c.a., iar o variantă are certificare ATEX II 2G Ex mb IIC T4 Gb. Variantele pentru montaj pe bază de distribuție se confirmă pe cod, din catalog.`
       },
       {
-        name: 'Lockout Series FRL Units',
-        description: `Unitățile FRL (Filter-Regulator-Lubricator) Lockout pregătesc aerul comprimat pentru consumatori pneumatici - elimină contaminanții, stabilizează presiunea și adaugă lubrifiere controlată. Modul FILTER: element sinter bronz 40μm (standard) sau 5μm (high-filtration) elimină particulele solide, condensatul (apă+ulei) se colectează în bowl transparent policarbonat cu golire manuală sau auto-drain. Capacitate separare 99.99% particule >mărime element, debit până 3600 Nl/min (la ΔP=0.1 bar). Modul REGULATOR: membrană elastică + arc calibrat reglează presiune downstream 0.5-10 bar indiferent de fluctuații upstream (6-16 bar). Manometru analog dual-scale (bar/psi) afișează presiune reglată, lock-nut previne modificare accidentală. Relieving type - scădere presiune upstream duce automat la scădere downstream prin deschidere valve relief. Modul LUBRICATOR: picurare controlată ulei pneumatic (ISO VG32) în flux aer - reglabil 1-15 picături/minut via șurub needle valve. Bowl transparent graduare 0-250 ml permite monitorizare nivel. Montare: inline sequence obligatorie Filter→Regulator→Lubricator, conexiuni filet G1/4" până G1", mounting bracket inclus. Metal-bowl opțional pentru temperaturi extreme sau ATEX zone. Mentenanță: curățare/înlocuire element filtru la 6-12 luni, reîncărcare lubricator săptămânal-lunar funcție consum.`
+        name: 'FRL Units',
+        description: `Unitățile FRL (filtru, regulator de presiune, ungător) pregătesc aerul comprimat pentru consumatorii pneumatici. Seria, gradul de filtrare, domeniul de reglare și racordurile depind de model și se confirmă pe cod, din documentația Camozzi.`
       },
       {
         name: 'Instant Push-In Fittings',
-        description: `Fitingurile instant push-in Camozzi permit conexiuni pneumatice rapide fără unelte - inserție simplă tub în fitting creează o etanșare sigură, deconectare prin apăsare inel collet. Materiale: corp alamă nichelată rezistentă coroziune, collet POM/PPSU engineering plastic, O-ring seal NBR sau HNBR (nitrile high-temp) pentru temperaturi -20 to +80°C. Conexiuni: straight (tub-to-thread), elbow 90° (economie spațiu colțuri strâmte), tee (ramificații), Y (distribuție echilibrată), bulkhead (montare perete/panou). Threading: BSPP parallel (ISO 228/1) sau NPT conic (ANSI B1.20.1), metrică M5-M7 pentru valve compacte. Diametre tub: 4-16mm exterior pentru poliuretan/poliamidă, presiune lucru 0-16 bar (safety factor 3:1 la burst). Avantaje: instalare instant fără Teflon tape/paste (seal-ul e asigurat de O-ring), re-usable (deconectare/reconectare de 20+ ori fără degradare), space-saving (30% mai compact decât fitinguri compression clasice). Precauții: tăiere tub perfect perpendicular (nu în unghi - scurgeri), debarring exterior (bavuri taie O-ring), inserție completă până stop (verifică vizual marcaj tub). Certificări: CE, RoHS lead-free, REACH compliant materials. Aplicații: conexiuni rapide cilindri↔valve, distribuție aer machines modulare, retrofit tubulatura rigidă cu flexibilă (vibration absorption).`
+        description: `Fitingurile instant push-in Camozzi permit conectarea rapidă a tuburilor pneumatice, fără unelte. Materialele, filetele, diametrele de tub și presiunea maximă depind de serie și se confirmă pe cod, din documentația producătorului.`
       }
     ],
     certifications: [
@@ -1140,35 +1140,35 @@ Clienții OEM din packaging, automotive și woodworking aleg Camozzi pentru posi
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'carrier': {
     founded: 1915,
     headquarters: 'Palm Beach Gardens, Florida, SUA',
-    employees: '53000+',
-    overview: `Carrier este creditat cu inventarea aerului condiționat modern în 1902 și produce, de atunci, soluții HVAC comerciale și industriale la nivel global - de la data centers și spitale până la aeroporturi și fabrici. Producătorul are fabrici în SUA, Mexic, China și Europa.
+    employees: '47000',
+    overview: `Carrier este creditat cu inventarea aerului condiționat modern în 1902 și produce, de atunci, soluții HVAC comerciale și industriale la nivel global - de la data centers și spitale până la aeroporturi și fabrici.
 
-Gama Carrier acoperă toate segmentele HVAC industrial: chillere răcite cu aer/apă (30RT-2000RT capacitate), unități de tratare a aerului AHU (2.000-100.000 CFM debit), rooftop packaged units (3-150 tone), pompe de căldură aer-apă pentru încălzire. Printre tehnologiile de vârf ale producătorului se numără chillerele centrifugale 19XR cu compresoare magnetic-bearing - eficiență de până la 0,45 kW/ton (COP 7,8, conform producătorului), funcționare silențioasă, fără mentenanță la rulmenți, și control variabil al capacității între 10-100%.
+Gama Carrier de răcitoare (chillere) include modele răcite cu apă (centrifugale, cu șurub și scroll) și răcite cu aer (scroll AquaSnap, cu șurub AquaForce), conform site-ului producătorului. Carrier produce răcitoare centrifugale semi-ermetice 19XR, cu capacități de 300-3.400 tone (1.055-11.957 kW) și agenți frigorifici R-513A sau R-515B; lagărele magnetice fără ulei sunt menționate de producător la modelul 19MV, nu la 19XR.
 
-Clienții corporate și facility managers aleg Carrier pentru costul total de deținere redus pe care producătorul îl documentează - chillerele din generația actuală consumă, conform Carrier, mai puțină energie decât generația anterioară, iar sistemul de mentenanță predictivă i-Vu ajută la prevenirea opririlor neplanificate. Rețeaua de service Carrier funcționează la nivel global.`,
+Datele de eficiență energetică, de mentenanță și de service se confirmă pe model, din documentația oficială Carrier.`,
     keyProducts: [
       {
-        name: '19XR Magnetic-Bearing Centrifugal Chiller',
-        description: `Chilerul centrifugal 19XR cu compresoare magnetic-bearing se remarcă prin eficiență energetică ridicată - IPLV (Integrated Part Load Value) de 0.39 kW/ton echivalează COP 9.0, conform producătorului. Capacitate 150-2000 RT (530-7000 kW), refrigerant HFO R-1233zd (GWP=1, zero ozone depletion). Tehnologie magnetic-bearing: rotorul compresoare levitează electromagnetic fără contact cu stator - zero uzură mecanică, MTBF >100.000 ore (vs 40.000 la rulmenți clasici), funcționare ultra-silențioasă (<75 dBA la 1m). Variable-speed drive integrează inverter 3-level pentru control capacitate 10-100% fără staging - răspuns dinamic rapid la variații de sarcină. Evaporator falling-film cu tuburi rifled enhances heat transfer - suprafață redusă 30% vs shell-and-tube, charge refrigerant mai mic. Condensator hybrid air/water-cooled permite operare în temps extreme - sub 0°C folosește heat recovery pentru încălzire gratuită. Controller Comfort Network Panel: touchscreen 10" color, 200+ parameters monitored, alarms history 10.000 events, trending graphs 2 ani. Comunicații: BACnet IP/MSTP, Modbus TCP/RTU, LonWorks FTT-10 pentru integrare BMS. Certificare: AHRI 550/590, ASHRAE 90.1, Eurovent, China Energy Label Level 1.`
+        name: '19XR Semi-Hermetic Centrifugal Chiller',
+        description: `19XR este un răcitor centrifugal semi-ermetic, cu capacități de 300-3.400 tone (1.055-11.957 kW) și agenți frigorifici R-513A sau R-515B, conform paginii oficiale Carrier a răcitoarelor răcite cu apă. Eficiența, nivelul de zgomot și certificările depind de configurație și se confirmă pe cod, din documentația producătorului.`
       },
       {
-        name: '39M Air-Cooled Modular Chiller',
-        description: `Chilerul modular răcit cu aer 39M oferă flexibilitate ridicată la instalare - unități 40-160 RT se conectează în configurații master/slave până 800 RT total capacitate, expandabil încremental fără redesign. Avantaje vs chiller monolitic: redundanță (1 modul în service, restul rulează), staging optim (pornește modulele necesare exact pentru load instant = eficiență ridicată part-load), transport ușor (module <3 tone trec prin uși standard, nu e nevoie macara). Compresoare scroll Copeland Ultratech twin-tandem în fiecare modul - 4 circuite independente refrigerant pentru reliability. Condensatoare microchannel aluminiu all-welded - 40% mai ușoare și 15% mai eficiente decât copper-fin. Evaporator cu tube-in-tube coaxial optimizat transfer termic, pump-out cycle automat protejează compresoarele la shutdown. Control Carrier ComfortLink: comunicație între module via CAN bus, master unit optimizează global staging/sequencing, interface BACnet/Modbus pentru BMS. Sound attenuation: compresoare montate pe izolatori elastici, ventilatoare axiale low-RPM cu blade design aeroacustic, wrap-around panels fonoabsorbante - nivel sonor 68 dBA la 10m (residential-friendly). Aplicații: office buildings (cooling office spaces), hotels (guest rooms + conference), data centers (precision cooling IT equipment), hospitals (operating rooms constant temp). Instalare rooftop sau ground-level, connections quick-disconnect facilitează commissioning rapid.`
+        name: '39M',
+        description: `Datele despre seria 39M nu au putut fi confirmate pe site-ul oficial Carrier; le confirmăm pe cod, din documentația producătorului, înainte de ofertă.`
       },
       {
-        name: '40RU Rooftop Packaged Unit',
-        description: `Unitățile rooftop 40RU sunt soluții all-in-one HVAC pentru clădiri comerciale medii - cooling, heating, ventilation și filtrare într-o carcasă weatherproof montabilă pe acoperiș. Capacitate 3-150 tone cooling (10-530 kW), heating prin rezistențe electrice (15-150 kW) sau gas furnace până 1500 MBH. Compresoare: scroll single/tandem pentru <25 tone, screw pentru >30 tone, toate cu unloading steps (25/50/75/100%) pentru control capacitate. Ventilatoare: centrifugale backward-curved EC motors variable-speed - ajustare CFM 40-100% cu consum proporțional (fan law cubic), static pressure până 2.5" w.g. pentru ducting lung. Evaporator: serpentine cupronickel multi-row cu circuite interlaced, face velocity optimizată 450 FPM pentru dehumidification. Condensator microchannel cu ventilatoare EC modulating - condensing pressure flotant reduce head compression = economie energie. Filtrare: pre-filter MERV 8 lavabil + main filter MERV 13 (opțional HEPA H13 pentru healthcare). Economizer integrat: dampers motorizate introduce aer exterior când temp exterior < interior - free cooling reduce ore compresoare cu 1000-2000/an în climat temperat. Controller Carrier i-Vu: full BMS functionality standalone, 7 zile scheduling, demand limiting, remote access via Ethernet. Certificare AHRI, California Title 24, ASHRAE 90.1 compliance. Instalare: curb-mount pe acoperiș terasa, supply/return duct connections, electrical single-point 460V 3-phase. Warranty: 1 an labor, 5 ani compresoare, 10 ani heat-exchanger.`
+        name: '40RU',
+        description: `Datele despre seria 40RU (capacități, compresoare, încălzire, garanție) nu au putut fi confirmate pe site-ul oficial Carrier; le confirmăm pe cod, din documentația producătorului, înainte de ofertă.`
       },
       {
         name: 'AquaSnap Air-Cooled Chiller',
-        description: `Chilerul AquaSnap combină compactitatea (<6 m² footprint pentru 100 RT) cu eficiență ridicată - IPLV 12.5 EER (COP 3.66) certificat AHRI. Capacitate 30-210 RT (105-740 kW), refrigerant R-410A sau eco-friendly R-454B (GWP 466). Compresoare scroll Copeland Ultratech cu Enhancements: vapor injection pentru capacitate +15% la temperaturi exterior extreme (>40°C), oil management activ pentru return sigur la compresoare in tandem configuration. Condensatoare: microchannel aluminiu all-welded rezistente coroziune (coating e-coat), ventilatoare axiale EC motors cu control VFD integrat - modulare speed pe condensing pressure optimizează EER part-load. Evaporator: shell-and-tube cu turbulatori interni Turbo-Cor pentru coefficient ridicat, izolație elastomerică closed-cell 19mm reduce pierderile și previne condensare. HMI: panel Carrier CCN standard cu display LCD 4-line, parametri vizibili (temp chilled water in/out, load %, alarm codes), sau upgrade la ComfortVu touchscreen 7" color cu trending. Hydraulic module opțional integrat: pompe twin Grundfos variable-speed, buffer tank inox 300-1000L, expansion vessel, pressure sensors, flowmeter - sistem complet plug&play. Sound package: partial/full acoustic enclosure reduce noise la 62 dBA @10m - suitable instalare urban/rezidențial. Aplicații: office buildings medium-size, industrial process cooling (plastics, printing), district cooling plantrooms. Free-cooling opțional: dry-cooler separat operează iarna fără compresoare, economie 40-60% energie sezon rece.`
+        description: `AquaSnap este o serie de răcitoare răcite cu aer, cu compresoare scroll; conform site-ului Carrier, capacitățile sunt de 10-300 tone (35-1.050 kW), cu agent frigorific R-410A sau, la unele modele, R-32. Opțiunile (modul hidraulic, atenuare acustică, free-cooling) și datele de eficiență se confirmă pe cod, din documentația producătorului.`
       }
     ],
     certifications: [
@@ -1193,14 +1193,14 @@ Clienții corporate și facility managers aleg Carrier pentru costul total de de
       'Government - Clădiri administrative, military',
       'Transportation - Aeroporturi, gări, metrou',
       'Mixed-Use - Residential+commercial developments',
-      '19XR Centrifugal - Compresoare magnetic-bearing, 0.45 kW/ton, 150-2000 RT',
-      'AquaEdge - Variable-speed centrifugal, IPLV 0.39 kW/ton, soft-start',
-      '30RB Screw - Roți melc twin-rotor, economizer integrat, 80-350 RT',
-      'i-Vu Control - BMS integrat BACnet/LonWorks, touchscreen 10", remote diagnostics',
-      'SmartVu Analytics - Cloud platform predictive maintenance, energy optimization',
-      'R-515B refrigerant - Ultra-low GWP 299, drop-in retrofit R-134a'
+      '19XR - răcitor centrifugal semi-ermetic, 300-3.400 tone',
+      'AquaEdge - serie de răcitoare Carrier; datele se confirmă pe cod',
+      '30HX - răcitor cu șurub răcit cu apă, 75-265 tone',
+      'i-Vu - platformă de control Carrier; funcțiile se confirmă din documentație',
+      'SmartVu - soluție Carrier; funcțiile se confirmă din documentație',
+      'R-515B - agent frigorific folosit la modele precum 19MV și 19XR, conform site-ului Carrier'
     ],
-    infinitrade: `Echipamentele Carrier - chillere, unități rooftop, AHU - sunt de regulă proiecte cu configurație individuală, nu articole de stoc; nu avem date proprii de disponibilitate pentru fiecare model. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană, cu termen obișnuit 1–4 săptămâni la comandă, iar doar pe piesele de schimb uzuale putem asigura, uneori, 24–72 h din stoc. Trimiteți-ne capacitatea necesară, tipul de aplicație și condițiile locului de montaj, ca să pregătim o selecție tehnică potrivită. La sisteme mari, termenul final se confirmă direct cu producătorul, după validarea configurației.`,
+    infinitrade: `Echipamentele Carrier - chillere, unități rooftop, AHU - sunt de regulă proiecte cu configurație individuală, nu articole de stoc; nu avem date proprii de disponibilitate pentru fiecare model. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană; pentru chillere și unități mari termenul depășește, de regulă, 4 săptămâni, iar pe piesele de schimb uzuale putem asigura, uneori, 24–72 h din stoc. Trimiteți-ne capacitatea necesară, tipul de aplicație și condițiile locului de montaj, ca să pregătim o selecție tehnică potrivită. La sisteme mari, termenul final se confirmă direct cu producătorul, după validarea configurației.`,
     limitation: 'Nu putem confirma disponibilitatea garantată a echipamentelor sau pieselor critice și nici commissioning direct de tehnicieni Carrier fără contract separat.',
     sources: [
       {"title":"Water-Cooled Chillers – Carrier Commercial","url":"https://carrier.com/commercial/en/us/products/chillers-components/water-cooled-chillers","publisher":"Carrier Global Corporation","accessed":"2026-09-22"},
@@ -1211,7 +1211,7 @@ Clienții corporate și facility managers aleg Carrier pentru costul total de de
     productCodes: [
       {
         "code": "19MV",
-        "description": "Răcitor centrifugal cu compresor în două trepte economizate"
+        "description": "Răcitor centrifugal cu lagăre magnetice fără ulei, 150-700 tone"
       },
       {
         "code": "19DV",
@@ -1239,15 +1239,15 @@ Clienții corporate și facility managers aleg Carrier pentru costul total de de
       },
       {
         "code": "AquaEdge",
-        "description": "Gama de răcitoare centrifugale și elicoidale cu control avansat"
+        "description": "Gamă de răcitoare Carrier; modelele se confirmă pe cod"
       },
       {
         "code": "AquaForce",
-        "description": "Serie de răcitoare elicoidale de interior din portofoliul Carrier"
+        "description": "Serie de răcitoare răcite cu aer, cu compresoare cu șurub (elicoidale)"
       },
       {
         "code": "AquaSnap",
-        "description": "Serie de răcitoare scroll răcite cu apă, de tip compact"
+        "description": "Serie de răcitoare scroll răcite cu aer"
       }
     ],
     faq: [
@@ -1257,11 +1257,11 @@ Clienții corporate și facility managers aleg Carrier pentru costul total de de
       },
       {
         "q": "Ce înseamnă denumirea AquaSnap la Carrier?",
-        "a": "AquaSnap este numele unei serii de răcitoare Carrier, nu un cod de model unic, și acoperă în prezent unități scroll răcite cu apă precum modelul 30MP. Denumirea de serie grupează produse cu principii constructive și domenii de aplicare asemănătoare, în timp ce codul numeric de după denumire identifică exact modelul și capacitatea. La solicitarea unei oferte pentru Carrier este util să menționați atât seria, cât și codul numeric."
+        "a": "AquaSnap este numele unei serii de răcitoare Carrier răcite cu aer, cu compresoare scroll, nu un cod de model unic. Denumirea de serie grupează produse cu principii constructive și domenii de aplicare asemănătoare, în timp ce codul numeric de după denumire identifică exact modelul și capacitatea. La solicitarea unei oferte pentru Carrier este util să menționați atât seria, cât și codul numeric."
       },
       {
         "q": "Livrați echipamente Carrier în România la comandă?",
-        "a": "Comandăm unitățile Carrier pe baza specificațiilor primite de la client, sprijinindu-ne exclusiv pe documentația publică a producătorului, fără depozit propriu de utilaje păstrat în avans. Termenul uzual este 1–4 săptămâni la comandă, în funcție de model și de disponibilitatea din rețeaua Carrier. Vă recomandăm să ne trimiteti codul echipamentului și capacitatea necesară pentru un răspuns rapid și corect."
+        "a": "Comandăm unitățile Carrier pe baza specificațiilor primite de la client, sprijinindu-ne exclusiv pe documentația publică a producătorului, fără depozit propriu de utilaje păstrat în avans. Pentru răcitoare și unități de capacitate mare termenul este, de regulă, peste 4 săptămâni și se confirmă după validarea configurației. Vă recomandăm să ne trimiteți codul echipamentului și capacitatea necesară pentru un răspuns rapid și corect."
       },
       {
         "q": "Ce date trebuie să trimit pentru o ofertă pentru un chiller Carrier?",
@@ -1269,8 +1269,8 @@ Clienții corporate și facility managers aleg Carrier pentru costul total de de
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'castrol': {
@@ -1279,45 +1279,45 @@ Clienții corporate și facility managers aleg Carrier pentru costul total de de
     employees: '7000+',
     overview: `Castrol (parte a grupului BP din 2000) produce lubrifianți industriali și automotive de peste 125 de ani - de la uleiurile minerale clasice până la fluide sintetice high-performance pentru aplicații extreme. Producătorul are fabrici la nivel global și acoperă industrii precum automotive (uleiuri motor, transmisii), metalworking (emulsii de tăiere, uleiuri întregi), hidraulică (fluide HLP, HFC, HFD) și transmisii industriale (uleiuri EP, sintetice PAO/PAG).
 
-Printre tehnologiile de vârf ale producătorului se numără emulsiile semi-sintetice Hysol - o combinație de uleiuri minerale rafinate, esteri sintetici și aditivi EP (Extreme Pressure) pentru prelucrări grele (frezare titan, broșare oțel călit). Formula Microflux, conform producătorului, reduce frecarea metal-sculă față de emulsiile standard, cu efect asupra duratei sculelor și a finisajului suprafeței.
+Printre produsele producătorului se numără gama Castrol Hysol, fluide de așchiere solubile pentru prelucrarea metalelor feroase, formulate cu aditivi rezistenți la contaminare, conform site-ului producătorului.
 
-Clienții din automotive, aerospace și prelucrări mecanice aleg Castrol pentru programele de gestionare a fluidelor pe care producătorul le oferă pe lângă lubrifianți: analiză de ulei uzat (detectare contaminare/degradare), optimizarea concentrației emulsiilor și training pentru personal (manipulare corectă, siguranță). Producătorul dezvoltă continuu formule noi - uleiuri bio-based, vâscozitate ultra-redusă pentru transmisii de vehicule electrice și aditivi pe bază de nanomateriale.`,
+Produsele și serviciile asociate (de exemplu analiza uleiului) se confirmă pe produs, din documentația oficială Castrol.`,
     whyChoose: [
-      'Hysol SL emulsii - Semi-synthetic 10-15% concentrate, EP additives, stable pH',
-      'Molub-Alloy grease - Lithium complex +MoS2, -30°C to +150°C, EP performance',
-      'Alpha hydraulic - HLP ISO 32/46/68, zinc-free anti-wear, 10.000h durată',
-      'Magna industrial gear - ISO 150-680, EP additives, FZG >12 load stage',
-      'Labcheck analysis - Free oil sampling kits, 72h results, trend reports',
-      'Technical support - Application engineers, on-site troubleshooting, training'
+      'Hysol - fluide de așchiere solubile pentru metale feroase (de exemplu Hysol XP 60, 33 FF, 11 FF, MB 50)',
+      'Molub-Alloy - unsori, uleiuri și paste cu solide pentru sarcini mari și temperaturi ridicate',
+      'Optigear - uleiuri de transmisie pentru reducerea frecării și creșterea eficienței',
+      'Tribol - lubrifianți industriali adaptați condițiilor de funcționare variabile',
+      'Fișe tehnice - disponibile public pentru produsele Castrol',
+      'Alusol și Syntilo - fluide pentru aliaje de aluminiu, respectiv fluide sintetice de așchiere și rectificare'
     ],
     keyProducts: [
       {
-        name: 'Hysol SL Semi-Synthetic Coolant',
-        description: `Emulsia semi-sintetică Hysol SL este utilizată frecvent pentru prelucrări prin așchiere CNC generale - combinație 85% apă deionizată + 15% concentrate (uleiuri minerale + esteri sintetici + aditivi EP/anti-coroziune/biocide). Concentrație recomandată: 5-10% pentru operații ușoare (strunjire aluminiu, frezare oțel moale), 10-15% pentru grele (frezare titan, broșare oțel călit 45+ HRC). Performanță: coeficient de fricțiune redus față de emulsiile minerale simple, conform producătorului, cu efect asupra forțelor de tăiere, consumului de scule și productivității. Cooling capacity excelentă - căldura specifică ridicată a apei evacuează rapid temperatura (zone tăiere 800°C+ se răcesc instant la <100°C) prevenind deformări termice piese. Protecție coroziune: aditivi formatori film hidrofob protejează mașini-unelte și piese prelucrate - oțel nu ruginește 48h expus emulsie. Stabilitate biologică: biocide broad-spectrum (bacterii, fungi) mențin emulsia proaspătă 6-12 luni fără mirosuri (o problemă frecventă la emulsiile ieftine este degradarea bacteriană după 2-3 luni). pH stabil 8.8-9.2 (ușor alcalin) - nu atacă garnituri, nu irită piele operatori. Monitorizare: refractometru măsoară concentrație (refraction index 3.5° = 10% concentrate), pH-metru verifică alcalinitate, test tramp oil (uleiuri contaminate din ghidaje mașină - extracție necesară >5%). Aplicații: centre prelucrare CNC (aluminiu, oțel, inox), strunguri automate, frezare, găurire, filetare. Eliminare: emulsia uzată e colectată waste hazardous - separare ulei/apă prin centrifugare, tratare biologică apă.`
+        name: 'Hysol Soluble Metalworking Fluids',
+        description: `Castrol Hysol este o gamă de fluide de așchiere solubile pentru prelucrarea metalelor feroase; printre variante se numără Hysol XP 60, Hysol 33 FF (descris ca fluid semi-sintetic de înaltă performanță), Hysol 11 FF și Hysol MB 50, conform site-ului producătorului. Concentrația de lucru, valoarea pH și durata de viață a emulsiei depind de produs și se confirmă din fișa tehnică oficială.`
       },
       {
-        name: 'Molub-Alloy Paste 1000 EP Grease',
-        description: `Pasta Molub-Alloy 1000 este grăsimea heavy-duty pentru aplicații extreme - bază litiu complex (drop-point >250°C) + 20% MoS2 (disulfură molibden) + additivi EP zinc/fosfor. Range temperatură -30°C to +150°C continuous (peak +180°C short-term), consistency NLGI 1 (soft) pentru pompare sau NLGI 2 (medium) pentru aplicare manuală. Performanță EP (Extreme Pressure): test 4-ball weld load >3000N, wear scar <0.5mm la 40 kg load - rezistă presiuni Hertz 2+ GPa fără gripare. Molibdenul formează film solid lubricant pe suprafețe metalice - chiar la dispariția filmului fluid (condiții boundary lubrication), MoS2 previne contactul metal-metal. Water-resistant: nu se spală la expunere jet apă (test spray 3 bar, 30 min - pierdere <5% greutate) - ideal rulmenți expuși umezeală, marine, food processing. Aplicații: rulmenți încărcare axială mare (thrust bearings excavatoare, pompe), angrenaje deschise (gear racks, pinion drives), șuruburi înalt-cuplu (pre-lubrifiere înainte asamblare elimină galling), glisiere mașini-unelte (low-friction stick-slip free). Compatibilitate: most elastomers (NBR, FKM, EPDM), nu atacă vopsele/coating-uri. Pompabilitate: până -20°C prin sisteme centrale lubrifiere - preîncălzire 40°C recomandată sub -20°C. Packaging: cartuș 400g pentru pistol gresare, găleată 5kg, butoi 180kg. Re-greasing interval: funcție RPM×DN (bearing pitch diameter × speed) - calcul via formula fabricant rulment, typical 500-2000h pentru industrial bearings.`
+        name: 'Molub-Alloy Greases, Oils and Pastes',
+        description: `Gama Castrol Molub-Alloy cuprinde unsori, uleiuri și paste care conțin solide microscopice, ce absorb sarcinile mari și cele de șoc și separă suprafețele aflate în frecare, pentru industrii grele și temperaturi ridicate, conform site-ului producătorului. Produsele exacte, temperaturile de lucru și clasa NLGI se confirmă din fișa tehnică oficială.`
       },
       {
-        name: 'Alpha SP Series Hydraulic Oil',
-        description: `Uleiurile hidraulice Alpha SP sunt formulații high-performance zinc-free anti-wear (ZDDP replacement cu additivi ashless) - protecție ridicată a pompei, durată extinsă, mediu-friendly. Viscozități: ISO VG 32 (light-duty, temperaturi ridicate), ISO VG 46 (all-purpose industrial), ISO VG 68 (heavy-duty, sarcini mari). Performanță anti-uzură: test vane-pump Vickers V104C la 100h arată uzură <30 mg (limit 50 mg) - pompele cu pistoane/palete durează 10.000+ ore fără degradare. Indice viscozitate VI=160 (vs 95-100 uleiuri minerale straight) - viscozitatea rămâne stabilă -20°C to +80°C, porniri la rece facile, protecție la temp ridicate. Hydrolitic stability excelentă - rezistă contaminare apă până 2000 ppm fără formare sedimente/varnish (problema uleiurilor ieftine). Filterability superior: pass ISO 13357 test fără blocare filtre chiar la 3 μm absolute - contribuie la curățenia sistemului, conform producătorului. Demulsibility rapidă: apă contaminantă se separă <30 minute (ASTM D1401) - extracție ușoară din rezervor. Air release: bullele aer eliberate <5 minute evită cavitație pompe și sponginess răspuns actuatori. Aplicații: pompe hidraulice pistoane/palete (presiuni >250 bar), servo-valve (toleranțe strânse 5 μm), sisteme mobile (excavatoare, macarale), machine-tools (prese, grinding). Compatibilitate: seals NBR/FKM/HNBR standard, vopsele industriale, metale feroase/non-feroase. Schimb ulei: 4000-8000h funcție contaminare (monitorizare via Labcheck oil analysis - TAN, viscozitate, particle count). Disposal: colectare waste oil certificat - recycling/re-refining sau burning controlled.`
+        name: 'Optigear Gear Oils',
+        description: `Castrol Optigear este o gamă de uleiuri de transmisie care, conform site-ului producătorului, folosește tehnologia MTF (plastic deformation) pentru a reduce coeficientul de frecare cu până la 60% față de uleiurile standard pentru angrenaje, cu aplicații în generarea de energie și în fabrici. Gradele de vâscozitate se aleg după recomandarea producătorului utilajului și se confirmă din fișa tehnică.`
       },
       {
-        name: 'Magna BD Industrial Gear Oil',
-        description: `Uleiurile pentru angrenaje industriale Magna BD oferă protecție extremă pentru reducătoare grele - additivi EP (Extreme Pressure) sulfur/fosfor formează filme sacrifice pe dinți angrenaj care previn gripare la presiuni >1500 MPa. Viscozități: ISO VG 150, 220, 320, 460, 680 (creștere viscozitate = aplicații mai lente, sarcini mai mari). Performanță: test FZG gear rig load stage >12 (fail-load stage unde dinții încep pitting), un nivel ridicat pentru această categorie de produse. Micro-pitting resistance: additivi special formulați previn fatigue suprafață dinți - durată angrenaj extinsă comparativ cu uleiurile standard, conform producătorului. Thermal/oxidation stability: rezistă 110°C+ continuous fără formare sludge/varnish - interval schimb 5000-8000h (vs 2000h minerale basic). Rust/corrosion protection: test ASTM D665 pass fără rust chiar în prezență apă sărată - rulmenți și dinți protejați. Foam control: aditivi anti-spumant elimină bullele aer generate la rotație mare viteze - lubrifiere consistentă fără cavities. Aplicații: reducătoare industriale (planetare, melc, cil/conice) poweră >100 kW, mixere grele (concrete, plastice), rolling mills (steel, aluminum), extruders (plastics, rubber), wind turbines gearboxes (loading variabil, șocuri). Seal compatibility: standard NBR/FKM, testat cu Viton/Kalrez în food-grade versions. Filtrare: bypass filter 10-25 μm absolute prelungește viață ulei - particule uzură sunt eliminate continuu. Oil analysis: Labcheck program monitorizează TAN (acid number - oxidare), viscozitate (shear stability), particule fier (gear wear), water content. Extended drain: în condiții ideale (filtrare, no contamination, temp <80°C), uleiul durează 10.000-15.000h, ceea ce poate reduce frecvența schimburilor, conform producătorului.`
+        name: 'Tribol Industrial Lubricants',
+        description: `Castrol Tribol este o gamă de lubrifianți industriali formulați pentru a prelungi durata de funcționare a utilajelor, adaptându-se condițiilor de lucru variabile, conform site-ului producătorului. Produsele și gradele de vâscozitate se confirmă din fișa tehnică oficială.`
       }
     ],
     certifications: [
       'ISO 9001 - Quality management manufacturing lubricants',
       'ISO 14001 - Environmental management refineries',
       'ISO 45001 - Occupational health safety',
-      'ISO/TS 16949 - Automotive quality (pentru motor oils)',
+      'Standarde de calitate pentru industria auto - se confirmă pe produs, din documentația Castrol',
       'NSF H1 - Food-grade lubricants (Castrol Foodgrade line)',
-      'Ecolabel EU - Bio-based lubricants environmental certification',
+      'Certificări de mediu - se confirmă pe produs, din fișa tehnică',
       'REACH - Registration chemicals EU compliance',
       'API - American Petroleum Institute classification motor oils',
-      'OEM approvals - Mercedes, BMW, VW, Volvo, Caterpillar, etc.'
+      'Aprobări OEM - se confirmă pe fiecare produs, din fișa tehnică'
     ],
     industries: [
       'Metalworking - CNC machining, grinding, forming, stamping',
@@ -1373,11 +1373,11 @@ Clienții din automotive, aerospace și prelucrări mecanice aleg Castrol pentru
       },
       {
         "code": "Castrol XBB Technology",
-        "description": "Formulare de fluid de așchiere fără aditivi chimici tradiționali"
+        "description": "Metodă de formulare care prelungește durata de viață a fluidului de așchiere, fără bor, agenți eliberatori de formaldehidă sau biocide"
       },
       {
         "code": "Castrol Iloform CFX",
-        "description": "Familie de fluide pentru formarea metalelor din gama industrială"
+        "description": "Gamă din portofoliul Castrol; descrierea se confirmă din fișa tehnică oficială"
       }
     ],
     faq: [
@@ -1395,11 +1395,11 @@ Clienții din automotive, aerospace și prelucrări mecanice aleg Castrol pentru
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de lubrifiant Castrol?",
-        "a": "Pentru o ofertă corectă indicați tipul de echipament sau de operație, materialul prelucrat dacă este vorba de un fluid de așchiere, și gradul de vâscozitate cerut de producătorul utilajului. Este util să menționați și condițiile de mediu, temperatură de funcționare și volumul aproximativ necesar. Cu aceste detalii identificăm gamă Castrol potrivită, de exemplu Hysol, Alusol sau Optigear."
+        "a": "Pentru o ofertă corectă indicați tipul de echipament sau de operație, materialul prelucrat dacă este vorba de un fluid de așchiere, și gradul de vâscozitate cerut de producătorul utilajului. Este util să menționați și condițiile de mediu, temperatură de funcționare și volumul aproximativ necesar. Cu aceste detalii identificăm gama Castrol potrivită, de exemplu Hysol, Alusol sau Optigear."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Castrol, conform surselor citate.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Castrol, conform surselor citate.' }]
   }
 };

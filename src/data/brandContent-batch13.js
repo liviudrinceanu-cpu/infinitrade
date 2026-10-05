@@ -177,45 +177,43 @@ Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare p
     founded: 1872,
     headquarters: 'Höxter, Germania',
     employees: '2,000+',
-    overview: `Optibelt produce curele de transmisie de aproape 150 de ani și este unul dintre producătorii cu prezență importantă în Europa. Ce a început ca o fabrică de curele din piele în 1872 s-a transformat într-un producător important specializat în curele V, sincrone, plate și speciale pentru aplicații industriale extreme. Când spunem "germană până-n măduva oaselor", ne referim la precizie dimensională de ±0.2mm, materiale premium și teste de rezistență care depășesc cu mult standardele ISO. Curelele Optibelt RED POWER III sunt gândite pentru compresoare industriale unde funcționarea non-stop și rezistența la uzură contează, conform producătorului.
+    overview: `Optibelt produce curele de transmisie de peste 150 de ani și este unul dintre producătorii cu prezență importantă în Europa. Optibelt este un producător de curele trapezoidale, sincrone și speciale pentru aplicații industriale. Curelele Optibelt RED POWER III sunt gândite pentru compresoare industriale unde funcționarea non-stop și rezistența la uzură contează, conform producătorului.
 
-Tehnologia lor BLUE POWER și RED POWER combină corzi sintetice de rezistență ridicată cu compuși elastomerici avansați. Rezultatul: curele care suportă temperaturi -40°C până +100°C, rezistă la ulei, ozon și substanțe chimice, și transmit putere cu randament peste 98%. OMEGA-HP sunt curele sincrone cu dinți hi-torque pentru transmisii precise în mașini-unelte CNC. RB SUPER X-POWER sunt curele plate aramide pentru logistică și transport. Optibelt nu vinde doar curele - oferă soluții complete de transmisie mecanică cu software de calcul, roți de curea și service predictiv prin monitorizare cu ultrasunete.
+Gamele BLUE POWER și RED POWER sunt curele trapezoidale (wedge belts) de înaltă performanță, descrise în catalogul producătorului. OMEGA-HP sunt curele sincrone cu dinți hi-torque pentru transmisii precise în mașini-unelte CNC. SUPER X-POWER sunt curele trapezoidale dințate cu flancuri brute (raw edge, moulded cogged), iar RB sunt curele nervurate (ribbed). Optibelt publică un catalog tehnic pentru alegerea curelei potrivite.
 
-Fabricile Optibelt din Germania și facilitatea din SUA produc curele la scară industrială pentru piața europeană și internațională. Investiții continue în R&D au dus la patente pentru structuri cord hibrid și profile geometrice optimizate. Certificările DIN, ISO și homologările OEM de la Mercedes, Bosch, Atlas Copco confirmă calitatea în transmisii. Optibelt este distribuit pentru că poate reduce downtimele neprogramate - o curea de calitate superioară costă mai mult inițial, dar are, conform producătorului, o durată de viață mai mare.`,
+Optibelt face parte din grupul Arntz Optibelt Group, cu sediul la Höxter. `,
     whyChoose: [
       'Calitate germană cu peste 150 ani experiență în transmisii',
       'Curele RED POWER III cu durată de viață crescută față de cele clasice, conform producătorului',
       'Profile speciale pentru aplicații grele (SUPER X-POWER)',
-      'Software laser pointer pentru aliniament precis roți curea',
-      'Stoc extins și livrare rapidă pentru dimensiuni standard',
+      'Documentație tehnică de la producător pentru alegerea curelei',
+      'Termene de livrare confirmate după verificarea disponibilității la furnizor',
       'Suport tehnic pentru calculul corect al transmisiilor'
     ],
     keyProducts: [
       {
         name: 'Curele V RED POWER III',
-        description: 'Gamă superioară Optibelt pentru transmisii industriale clasice. Structură cu corzi aramidice încastrate în elastomer HNBR rezistent termic și chimic. Îmbunătățiri față de generațiile anterioare: rezistență la tracțiune mai mare, flexibilitate crescută (roți minime mai mici), antistatice conform ISO 1813. Profile disponibile: SPZ, SPA, SPB, SPC (metrice) și 3V, 5V, 8V (inch). Temperatura operare -30°C până +100°C continuu. Conform producătorului, RED POWER III are o durată de funcționare mai mare decât curelele standard în condiții identice. Rezistență la ulei mineral, biodiesel, ozon. Aplicații tipice: compresoare, pompe, ventilatoare industriale, agregate frigorifice. Montaj simplu fără pre-tensionare excesivă - cordul aramidic nu se întinde. Recomandăm verificare tensiune la 24h după montaj și retensionare dacă e cazul. Disponibile în lungimi standard sau fabricate la comandă pentru aplicații speciale.'
+        description: 'Gamă superioară Optibelt pentru transmisii industriale clasice. Curele trapezoidale de înaltă performanță (high performance wedge belts), fără întreținere, conform producătorului. Profile disponibile: SPZ, SPA, SPB, SPC (metrice) și 3V, 5V, 8V (inch).  Conform producătorului, RED POWER III are o durată de funcționare mai mare decât curelele standard în condiții identice.  Aplicații tipice: compresoare, pompe, ventilatoare industriale, agregate frigorifice. Tensionarea se face conform instrucțiunilor producătorului. Disponibile în lungimi standard sau fabricate la comandă pentru aplicații speciale.'
       },
       {
         name: 'Curele sincrone OMEGA HP',
-        description: 'Curele dințate de precizie pentru transmisii sincrone fără alunecare. Profile HTD, STD, RPP, AT cu dinți hi-torque optimizați pentru momente mari. Structură cord fibră sticlă sau Kevlar încastrat în cauciuc cloroprenic sau poliuretanic. Zero întindere în exploatare - raport transmisie constant. Precizie unghiulară ±0.1° pentru aplicații robotică și poziționare. Lățimi 10-170mm, pași dinți 3-14mm. OMEGA HP suportă puteri până la 500kW pe curea și viteze liniare 80m/s. Temperatura operare -20°C până +100°C (policloropren) sau -40°C până +80°C (poliuretan). Aplicații: mașini-unelte CNC, roboți industriali, imprimante industriale, mașini textile, automatizări de poziționare. Nivel zgomot redus - dinți rectificați precis. Montaj pe roți dințate Optibelt cu profile perfect compatibile. Durată viață 10.000-30.000h în funcție de sarcină. Înlocuirea preventivă se face la semne vizuale de uzură dinți sau la intervale programate.'
+        description: 'Curele dințate pentru transmisii sincrone fără alunecare. OMEGA HP este o curea sincronă (timing belt) de înaltă performanță, conform catalogului producătorului. Zero întindere în exploatare - raport transmisie constant. Datele tehnice (pas, lățime, putere, viteză, temperatură) depind de profil și se confirmă din catalogul producătorului. Aplicații: mașini-unelte CNC, roboți industriali, imprimante industriale, mașini textile, automatizări de poziționare. Nivel zgomot redus - dinți rectificați precis. Montaj pe roți dințate Optibelt cu profile perfect compatibile.  Înlocuirea preventivă se face la semne vizuale de uzură dinți sau la intervale programate.'
       },
       {
-        name: 'Curele plate SUPER X-POWER',
-        description: 'Soluția Optibelt pentru transportoare industriale și transmisii grele. Structură multicord cu fibre aramidice de rezistență extremă + acoperire cauciuc rezistent abraziune. Lățimi până la 3000mm, grosimi 3-15mm. Rezistență tracțiune până la 315N/mm lățime. Flexibilitate excelentă permite roți mici (diametre până la 30mm). Profile cu burduf lateral prevent tracking problems pe distanțe lungi. Temperatura -40°C până +100°C. Rezistență la: ulei, grăsimi, substanțe chimice ușoare, UV. Aplicații: transportoare industrie lemn, sisteme manipulare bagaje aeroporturi, linii sortare colete, mașini agricole, echipamente de construction. SUPER X-POWER cu inserții transversale pentru prindere accesorii. Sudură la cald Optibelt - îmbinare cu rezistență de circa 90% din cea a curelei, conform producătorului. Instalare pe role cilindrice sau bombate. Tracking ajustat prin înclinare role sau ghidaje laterale. Întreținere minimă - verificare vizuală periodică și curățare de impurități.'
+        name: 'Curele trapezoidale SUPER X-POWER',
+        description: 'SUPER X-POWER este o gamă de curele trapezoidale dințate cu flancuri brute (raw edge, moulded cogged), în profilele XPZ, XPA, XPB, XPC, 3VX și 5VX, conform catalogului producătorului. Alegerea profilului, a lungimii și a condițiilor de utilizare se face pe baza catalogului producătorului.'
       },
       {
-        name: 'Curele speciale RB AGRO',
-        description: 'Gama dedicată utilajelor agricole și construcțiilor. Profil Special RB (Raw Edge Belt) cu suprafață brută pentru aderență maximă în condiții umede și prăfuite. Cord poliester rezistent la șocuri și sarcini variabile. Acoperire antistatic și oleo-rezistentă. Profile clasice HI/HJ/HK/HL pentru combine, balotiere, prese. Temperature extremă: -40°C iarna până +80°C în compartimente motor vară. Rezistență UV superioară - nu se degradează la soare. Curelele sunt gândite pentru combine ce rulează sute de ore pe sezon, mai multe sezoane la rând, fără schimbare, conform producătorului. Protecție la praf și particule abrazive prin structura cord închis. Montaj rapid în câmp cu scule standard. Lungimi ajustate la dimensiuni utilaje. Compatibilitate roți originale John Deere, Case, Claas, New Holland. Disponibile cu ghidaj lateral sau varianta centrată. Recomandăm comandarea din timp a dimensiunilor populare pentru a evita întreruperi în sezonul agricol.'
+        name: 'Curele nervurate RB',
+        description: 'Seria RB cuprinde curele nervurate (ribbed), pentru transmisii cu spațiu redus; profilele disponibile sunt în catalogul producătorului.   Montaj rapid în câmp cu scule standard. Lungimi ajustate la dimensiuni utilaje.  Disponibile cu ghidaj lateral sau varianta centrată. Recomandăm comandarea din timp a dimensiunilor populare pentru a evita întreruperi în sezonul agricol.'
       }
     ],
     certifications: [
       'ISO 9001 - Calitate producție',
       'ISO 14001 - Management ecologic',
-      'ISO 50001 - Eficiență energetică',
       'DIN 7753 - Standard german curele trapezoidale',
       'ISO 1813 - Curele antistatice',
       'RoHS - Conformitate substanțe',
-      'Homologări OEM (Bosch, Mercedes, Atlas Copco)',
       'FSC - Ambalaje din surse sustenabile'
     ],
     industries: [
@@ -243,7 +241,7 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc curele la scară 
       },
       {
         "code": "BLUE POWER",
-        "description": "curea trapezoidală pentru transmisii de uz general"
+        "description": "curea trapezoidală de înaltă performanță, cu cord aramidic, în profilele SPB, SPC și 8V"
       },
       {
         "code": "SUPER X-POWER",
@@ -251,11 +249,11 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc curele la scară 
       },
       {
         "code": "SUPER TX",
-        "description": "curea trapezoidală dințată, variantă îmbunătățită"
+        "description": "curea trapezoidală clasică dințată, cu flancuri brute (raw edge, moulded cogged)"
       },
       {
         "code": "VARIO POWER",
-        "description": "curea trapezoidală cu profil variabil"
+        "description": "curea pentru variatoare de turație (variable speed belt)"
       },
       {
         "code": "OMEGA",
@@ -267,7 +265,7 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc curele la scară 
       },
       {
         "code": "OMEGA HL",
-        "description": "curea dințată cu profil pentru sarcini ușoare"
+        "description": "curea dințată sincronă, variantă de înaltă performanță a seriei OMEGA"
       },
       {
         "code": "OMEGA FAN POWER",
@@ -303,7 +301,7 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc curele la scară 
       },
       {
         "code": "OPTIMAT OE",
-        "description": "curea specială pentru aplicații industriale dedicate"
+        "description": "curea trapezoidală cu capete libere, perforată (open-ended punched V-belt)"
       },
       {
         "code": "LB",
@@ -313,11 +311,11 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc curele la scară 
     faq: [
       {
         "q": "Ce diferență este între RED POWER 3 și BLUE POWER la Optibelt?",
-        "a": "RED POWER 3 este o curea trapezoidală cu profil ranforsat, gândită pentru transmisii puternic solicitate, unde producătorul indică o creștere a puterii transmise față de o curea standard. BLUE POWER este varianta pentru transmisii de uz general, fără solicitări extreme de sarcină sau temperatură. Alegerea depinde de puterea motorului și de factorul de serviciu al aplicației."
+        "a": "RED POWER 3 este o curea trapezoidală cu profil ranforsat, gândită pentru transmisii puternic solicitate, unde producătorul indică o creștere a puterii transmise față de o curea standard. BLUE POWER este o curea trapezoidală de înaltă performanță, cu cord aramidic, în profilele SPB, SPC și 8V. Alegerea depinde de puterea motorului și de factorul de serviciu al aplicației."
       },
       {
         "q": "Ce curea Optibelt aleg pentru o transmisie cu cuplu variabil?",
-        "a": "Pentru cuplu variabil sau șocuri de sarcină, seriile dințate din poliuretan ALPHA TORQUE sau ALPHA FLEX transmit mișcarea fără alunecare și tolerează mai bine variațiile bruște decât o curea trapezoidală clasică. Pentru transmisii mai simple, cu sarcină relativ constantă, o curea trapezoidală din seria SUPER X-POWER sau VARIO POWER poate fi suficientă și mai ușor de întreținut."
+        "a": "Pentru cuplu variabil sau șocuri de sarcină, seriile dințate din poliuretan ALPHA TORQUE sau ALPHA FLEX transmit mișcarea fără alunecare și tolerează mai bine variațiile bruște decât o curea trapezoidală clasică. Pentru transmisii mai simple, cu sarcină relativ constantă, o curea trapezoidală din seria SUPER X-POWER poate fi suficientă și mai ușor de întreținut."
       },
       {
         "q": "Livrați curele Optibelt în România?",
@@ -333,8 +331,8 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc curele la scară 
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru curelele Optibelt, informațiile publice disponibile de la producător stau la baza recomandărilor noastre, nu un stoc propriu pe care să-l putem garanta oricând. Ca regulă generală a firmei, ceea ce avem fizic ajunge la client în 24-72 de ore, iar profilele speciale sau lungimile la comandă vin prin canalele de aprovizionare din UE în aproximativ 1–4 săptămâni. Pentru o estimare corectă, avem nevoie de profilul curelei, dimensiunile roților și puterea transmisă. Nu confirmăm în avans o anumită referință ca fiind disponibilă imediat, dar verificăm rapid și revenim cu un termen realist pentru comanda dumneavoastră.`
   },
 
@@ -342,35 +340,35 @@ Fabricile Optibelt din Germania și facilitatea din SUA produc curele la scară 
     founded: 1946,
     headquarters: 'Port Washington, New York, SUA',
     employees: '11,000+',
-    overview: `Pall Corporation (acum parte din Danaher Corporation din 2015) este unul dintre furnizorii globali importanți în tehnologii de filtrare, separare și purificare. Fondată în 1946 de Dr. David Pall, compania a introdus primul filtru metalic sinterizat pentru avioane militare, marcând un pas important în filtrarea industrială. Astăzi Pall dezvoltă soluții de filtrare pentru industrii critice: biofarmaceutice, microelectronică, apă ultra-pură, alimentar-băuturi, aerospațial și energie. Când produci medicamente injectabile sau chipuri cu tranzistori de 5nm, nu poți face compromisuri la puritatea mediilor - și aici Pall stabilește standardele.
+    overview: `Pall Corporation (acum parte din Danaher Corporation din 2015) este unul dintre furnizorii globali importanți în tehnologii de filtrare, separare și purificare. Pall a fost fondată în 1946 și face parte din Danaher. Astăzi Pall dezvoltă soluții de filtrare pentru industrii critice: biofarmaceutice, microelectronică, apă ultra-pură, alimentar-băuturi, aerospațial și energie. 
 
-Tehnologia lor de membrane și media filtrante acoperă gamă completă: microfiltrare (0.1-10 μm), ultrafiltrare (0.001-0.1 μm), nanofiltrare și osmoză inversă. Filtrele Pall Supor retin bacterii cu eficiență 99.9999% fără să afecteze fluxul. Supracap combină adsorpție cu filtrare pentru eliminare virusuri și endotoxine din produse biologice. Instalațiile de apă ultra-pură pentru semiconductori folosesc soluții Pall pentru a menține, conform producătorului, sub 1 ppb particule organice - niveluri greu de măsurat, darămite de atins. Separatoarele lor de ulei-apă recuperează 99.9% din uleiul dispersat din apele industriale, transformând un poluant într-o resursă valorificabilă.
+Pall oferă membrane și medii filtrante pentru filtrare, separare și purificare. Membranele Supor sunt din polietersulfonă (PES), în grade de reținere de 0,2 și 0,45 microni, conform fișei producătorului.  
 
-Pall investește masiv în R&D - peste 400 brevete active și colaborări cu universități de prestigiu. Facilități de producție în SUA, Europa și Asia asigură supply chain global cu standarde uniforme. FDA, EMA și autoritățile din farma din peste 50 țări au aprobat sistemele Pall pentru producție medicamente critice. Certificări ISO 9001, ISO 13485 (medical), ISO 14001. Pall este distribuit pentru că fiabilitatea sa în aplicații critice este documentată de producător: batch-uri uniforme, validare completă și suport tehnic solid.`,
+ Certificări ISO 9001, ISO 13485 (medical), ISO 14001. Pall este distribuit pentru că fiabilitatea sa în aplicații critice este documentată de producător: batch-uri uniforme, validare completă și suport tehnic solid.`,
     whyChoose: [
       'Portofoliu amplu de filtrare pentru aplicații critice (farma, semiconductori)',
-      'Membrane Supor și Supracap cu performanță validată FDA/EMA',
-      'Sisteme complete de purificare apă (RO, EDI, UV, ultrafiltrare)',
-      'Tehnologie separare ulei-apă cu recuperare peste 99%',
+      'Membrane Supor din polietersulfonă, în grade de reținere de 0,2 și 0,45 microni',
+      'Documentație tehnică publicată de producător pentru fiecare familie de produse',
+      'Elemente filtrante Ultipor III pentru hidraulică și lubrifiere, cu rapoarte Beta declarate de producător',
       'Suport tehnic și validare pentru industrii reglementate',
       'Parte din Danaher - resurse și inovație susținută'
     ],
     keyProducts: [
       {
         name: 'Filtre Supor membrane PES',
-        description: 'Cartuș filtrare absolută cu membrană polyethersulfone hidrofil asimetric. Retenție nominală 0.2 μm sau 0.45 μm conform ASTM F838. Eficiență 99.9999% (LRV >7) pe Brevundimonas diminuta. Suprafață filtrare 2.5 m²/cartuș 10" standard - throughput mare la presiune diferențială mică. Construcție double-layer asigură rezistență mecanică și prefiltrare integrată. Compatibilitate chimică excelentă: acizi, baze, solvenți, soluții apoase și organice. Temperatura până la 80°C sterilizare cu abur, autoclavabil la 121°C. Aplicații: filtrare sterilă soluții parenterale, vaccinuri, produse biologice, medii de cultură stele, apă pentru injectabile. Validare conform FDA CFR 21 Part 211 - documente complete pentru audit. Integritate testabilă prin bubble point, diffusion sau pressure hold test. Carcasă 316L electropolished pentru aplicații sanitare. Conexiuni Tri-Clamp, DIN 11851, flanșe ANSI. Disponibili în 5", 10", 20", 30", 40" lungimi. Extractables și leachables la nivele ultra-joase conform USP <665>.'
+        description: 'Cartuș filtrare absolută cu membrană polyethersulfone hidrofil asimetric. Gradele de reținere sunt de 0,2 μm (HTRA, LTRA) și 0,45 μm (HTRB); testele de validare se confirmă din documentația Pall. Construcție double-layer asigură rezistență mecanică și prefiltrare integrată. Compatibilitatea chimică se verifică în fișa producătorului pentru fiecare fluid. Sterilizare cu abur la 125°C (257°F) și sanitizare cu apă caldă la 85°C (185°F), conform fișei producătorului. Aplicații: filtrare sterilă soluții parenterale, vaccinuri, produse biologice, medii de cultură sterile, apă pentru injectabile.  Integritate testabilă prin bubble point, diffusion sau pressure hold test. Carcasă 316L electropolished pentru aplicații sanitare. Conexiuni Tri-Clamp, DIN 11851, flanșe ANSI. Disponibili în 5", 10", 20", 30", 40" lungimi. '
       },
       {
-        name: 'Sisteme Aria pentru apă ultra-pură',
-        description: 'Instalații turnkey de purificare apă pentru microelectronică și farma. Proces multi-step: prefiltrare multimedia, carbon activ, softener, RO double-pass, electrodeionizare continuă (CEDI), filtrare finală 0.2 μm, UV 185/254 nm, recirculare cu ultrafiltrare. Output: rezistivitate 18.2 MΩ·cm, TOC <5 ppb, particule >0.2 μm sub 1/mL, bacterii <0.1 CFU/mL, endotoxine <0.03 EU/mL. Producție 100 L/h până la 100 m³/h configurații modulare. Automatizare completă Siemens PLC cu loop control și optimizare flux. Monitorizare online: conductivitate, TOC, particule, ozon dizolvat. Sistem CIP integrat pentru sanitizare periodică membranes. Materiale contact: 316L electropolished, PVDF, PVC-U. Design conform ASME BPE pentru aplicații farmaceutice. Validare IQ/OQ/PQ inclusă. Eficiență energetică - recuperare energie prin turbine presiune RO. Amprenta redusă - sisteme skid-mounted gata conectare. Service predictiv prin monitorizare parametri membranes.'
+        name: 'Sisteme de purificare a apei',
+        description: 'Instalații turnkey de purificare apă pentru microelectronică și farma. Proces multi-step: prefiltrare multimedia, carbon activ, softener, RO double-pass, electrodeionizare continuă (CEDI), filtrare finală 0.2 μm, UV 185/254 nm, recirculare cu ultrafiltrare. Calitatea apei, capacitatea și automatizarea depind de proiect și se confirmă din documentația Pall. Monitorizare online: conductivitate, TOC, particule, ozon dizolvat. Sistem CIP integrat pentru sanitizare periodică membranes. Materiale contact: 316L electropolished, PVDF, PVC-U. Design conform ASME BPE pentru aplicații farmaceutice.  Eficiență energetică - recuperare energie prin turbine presiune RO. Amprenta redusă - sisteme skid-mounted gata conectare. Service predictiv prin monitorizare parametri membranes.'
       },
       {
-        name: 'Separatoare ulei-apă seria OSMO',
-        description: 'Tehnologie coalescență îmbunătățită pentru separare ulei emulsionat din ape industriale. Principle: prefiltrare particule mari, coalescență pe media oleofil special, separare gravitațională în camera dedicată, postfiltrare finală. Eficiență: reduce concentrație ulei de la 1000 ppm la <10 ppm discharge. Flow rate 50-500 m³/h pe unitate. Media coalescență Pall proprietar - structură 3D optimizată capturare picături ulei 5-20 μm. Автоматizare cu senzor infraroșu pentru nivel ulei separat - pompare automată în container recuperare. Aplicații: ape din mașini-unelte CNC, sisteme refrigerare, spălătorii industriale, drenaje rafinate. Construcție PP, GRP sau oțel carbon coated. Compact - montare underground sau suprafață. Întreținere simplă - schimb media coalescență 6-12 luni. Conformitate discharge conform legislație EPA și directive UE apă. ROI rapid - uleiul recuperat se revinde, costuri tratare ape reduse drastic. Versiuni mobile pentru site-uri temporare sau emergencies.'
+        name: 'Separatoare ulei-apă',
+        description: 'Tehnologie coalescență îmbunătățită pentru separare ulei emulsionat din ape industriale. Principle: prefiltrare particule mari, coalescență pe media oleofil special, separare gravitațională în camera dedicată, postfiltrare finală. Eficiența și debitul se confirmă din documentația producătorului. Media coalescență Pall proprietar - structură 3D optimizată capturare picături ulei 5-20 μm.  Aplicații: ape din mașini-unelte CNC, sisteme refrigerare, spălătorii industriale, drenaje rafinate. Construcție PP, GRP sau oțel carbon coated. Compact - montare underground sau suprafață. Întreținere simplă - schimb media coalescență 6-12 luni.  Versiuni mobile pentru site-uri temporare sau emergencies.'
       },
       {
         name: 'Filtre Process Vent pentru fermentatoare',
-        description: 'Filtre sterile pentru aerare bioreactoare și protecție event-uri fermentatoare. Membrană PTFE hidrofob 0.2 μm absolute - retenție Brevundimonas și alte contaminanți. Carcasă 316L sanitară autoclavabilă 125°C. Conexiuni Tri-Clamp 1" - 3" standard. Flow aer până la 500 SLPM la ΔP <5 psi. Validare steam-in-place 30 cicluri la 121°C fără degradare performanță. Aplicații: aerare sterilă fermentatoare bacterii/drojdii/fungi, protecție tank-uri stocare medii, event breathing protecție în timpul transfer. Design asigură că condensatul nu blochează pori - structură drenare gravitațională. Teste integritate prin bubble point conform FDA guidelines. Disponibili seturi complete cu carcasă SS, manometru ΔP, valve izolare, conexiuni. Compatibilitate cu sistemele de automatizare - pressure transmitter connection optional. Documentație validare completă pentru audit GMP. Întreținere: verificare integrity înainte fiecare batch, replacement după 6-12 luni sau 50 cicluri sterilizare.'
+        description: 'Filtre sterile pentru aerare bioreactoare și protecție event-uri fermentatoare. Membrană PTFE hidrofob 0.2 μm absolute - retenție Brevundimonas și alte contaminanți. Carcasă 316L sanitară autoclavabilă 125°C. Conexiuni Tri-Clamp 1" - 3" standard. Debitul și numărul de cicluri de sterilizare se confirmă din documentația producătorului. Aplicații: aerare sterilă fermentatoare bacterii/drojdii/fungi, protecție tank-uri stocare medii, event breathing protecție în timpul transfer. Design asigură că condensatul nu blochează pori - structură drenare gravitațională. Teste integritate prin bubble point conform FDA guidelines. Disponibili seturi complete cu carcasă SS, manometru ΔP, valve izolare, conexiuni. Compatibilitate cu sistemele de automatizare - pressure transmitter connection optional. Documentație validare completă pentru audit GMP. Întreținere: verificare integrity înainte fiecare batch, replacement după 6-12 luni sau 50 cicluri sterilizare.'
       }
     ],
     certifications: [
@@ -380,8 +378,6 @@ Pall investește masiv în R&D - peste 400 brevete active și colaborări cu uni
       'FDA registered - Producție dispozitive medicale',
       'cGMP compliant - Good Manufacturing Practice',
       'ASME BPE - Bioprocessing Equipment',
-      'NSF/ANSI 61 - Componente contact apă potabilă',
-      '3-A Sanitary Standards - Echipamente industrie alimentară'
     ],
     industries: [
       'pharma',
@@ -463,7 +459,7 @@ Pall investește masiv în R&D - peste 400 brevete active și colaborări cu uni
       },
       {
         "q": "Ce diferență este între membranele Supor HTRA și HTRB de la Pall?",
-        "a": "HTRA este o membrană Supor de înaltă eficiență pentru reținerea coloizilor fini la 0,2 microni, în timp ce LTRA acoperă tot pragul de 0,2 microni dar cu o construcție diferită. HTRB este pragul mai permisiv, de 0,45 microni, potrivit unde o filtrare foarte fină nu este necesară. Codul complet al cartușului combină lungimea, acest cod de reținere și tipul de adaptor."
+        "a": "HTRA este o membrană Supor de înaltă eficiență pentru reținerea coloizilor fini la 0,2 microni, în timp ce LTRA este varianta de eficiență standard pentru același prag de 0,2 microni. HTRB este pragul mai permisiv, de 0,45 microni, potrivit unde o filtrare foarte fină nu este necesară. Codul complet al cartușului combină lungimea, acest cod de reținere și tipul de adaptor."
       },
       {
         "q": "Livrați filtre Pall în România?",
@@ -475,12 +471,12 @@ Pall investește masiv în R&D - peste 400 brevete active și colaborări cu uni
       },
       {
         "q": "Cum citesc codul unui element Ultipor III, de exemplu HC2253FKS16H?",
-        "a": "Codul HC2253FKS16H combină seria de dimensiune (HC2253), litera care indică materialul filtrant, un cod pentru pragul de reținere și o cifră legată de configurația garniturilor. Structura exactă variază între familii de produse Pall, motiv pentru care recomandăm trimiterea codului complet, nu doar a seriei de bază, pentru identificarea corectă a piesei de schimb."
+        "a": "Codul HC2253FKS16H începe cu seria de dimensiune (HC2253); semnificația restului caracterelor se verifică în structura de comandă Pall. Structura exactă variază între familii de produse Pall, motiv pentru care recomandăm trimiterea codului complet, nu doar a seriei de bază, pentru identificarea corectă a piesei de schimb."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru filtrele și sistemele Pall, plecăm de la ce putem și ce nu putem confirma: nu avem acces la datele interne de stoc ale producătorului și nu validăm noi înșine conformitatea GMP a instalațiilor. Componentele fizice disponibile la noi pleacă în 24-72 de ore, iar cartușele sau sistemele specifice vin la comandă prin canale de aprovizionare din Uniunea Europeană, în general în 1–4 săptămâni. Pentru un răspuns concret, trimiteți-ne codul cartușului sau specificația tehnică a aplicației (debit, presiune, cerințe de puritate). Confirmăm disponibilitatea reală după verificare, nu înainte.`
   },
 
@@ -490,33 +486,33 @@ Pall investește masiv în R&D - peste 400 brevete active și colaborări cu uni
     employees: '58,000+ (Parker Hannifin total)',
     overview: `Parker Hannifin este unul dintre producătorii americani importanți în tehnologiile de mișcare și control, iar divizia Filtration reprezintă una dintre ofertele complete de filtre industriale de pe piață. Fondată în 1917, compania a evoluat de la simple fittings hidraulice la sisteme integrate de filtrare pentru hidraulică, pneumatică, proces, combustibili și lubrifianți. Când vorbim de Parker Filtration, ne referim la peste 100 de ani de experiență în protejarea echipamentelor scumpe de contaminanți - de la particule solide și apă la varnish și produse de oxidare.
 
-Tehnologia lor de filtrare acoperă toate nevoile industriale: filtre Beta-rated pentru hidraulică (β > 1000 la dimensiuni țintă), separatoare coalescentă pentru aer comprimat (puncte rouă până la -70°C), filtre absolute pentru gaze de proces, sisteme de purificare ulei offline și cartuși high-flow pentru aplicații marine și mobile. Filtrix hIPleated folosește media microfiber cu capacitate de retenție 3x mai mare decât filtrele celulozice clasice. Zander combină filtrare cu adsorbție pentru eliminare vapori ulei din aer comprimat până la <0.003 mg/m³. Menținerea uleiului sub ISO 4406 14/12/9 prin filtrarea Parker poate contribui, la sisteme hidraulice de 500 kW, la evitarea schimbării premature a pompei sau valvelor.
+Parker Filtration oferă filtre hidraulice și de lubrifiere testate conform ISO 16889, sisteme portabile și staționare de purificare a uleiului și echipamente de analiză a fluidului, conform catalogului producătorului. 
 
-Parker investește continuu în R&D - facilitățile lor de testare din SUA și Germania simulează conditii extreme pentru validare produse. Certificări ISO 9001, ISO 14001, plus homologări specifice maritime (DNV, ABS), aeronautice (FAA) și automotive (OEM major). Prezență globală în 50+ țări asigură suport local și delivery rapid. Parker Filtration este distribuit pentru că oferă un ecosistem complet: filtre pentru o gamă largă de aplicații, accesorii compatibile, software de monitoring (PEMIS) și training tehnic avansat.`,
+ Parker Filtration este distribuit pentru că oferă un ecosistem complet: filtre pentru o gamă largă de aplicații, accesorii compatibile, echipamente de analiză a fluidului (Icount, Par-Test).`,
     whyChoose: [
       'Gamă completă filtre pentru hidraulică, pneumatică, proces',
       'Tehnologie Beta-rated cu eficiență validată ISO 16889',
-      'Separatoare coalescentă pentru aer comprimat ultra-uscat',
+      'Sisteme portabile și staționare de purificare a uleiului hidraulic',
       'Sisteme mobile de purificare ulei offline',
-      'Software PEMIS pentru monitorizare predictivă filtre',
+      'Analiză a fluidului hidraulic cu contoare de particule Icount și laborator Par-Test',
       'Suport tehnic global și cross-reference pentru filtre OEM'
     ],
     keyProducts: [
       {
-        name: 'Filtre hidraulice seria 9xx',
-        description: 'Filtre de presiune, return și suction pentru protecția sistemelor hidraulice. Construcție: carcasă oțel carbon sau inox, capace aluminiu sau inox, seal-uri Viton sau Buna-N. Media filtrare: microfiber sintetic multi-layer cu Beta ratio >1000 conform ISO 16889. Clase filtrare 3, 5, 10, 16, 25 μm absolute. Flow rate până la 1500 L/min pe element. Presiune lucru până la 420 bar (6000 psi) pentru versiuni HP. Temperatură -30°C până +110°C continuu. Bypass valve integrat protejează la colmatare (set point 1.5-3.5 bar differential). Indicator vizual sau electric pentru schimb element (opțional pressure switch). Aplicații: presă hidraulică, mașini-unelte, excavatoare, platforme offshore. 9306 pentru presiune high-side, 9606 pentru return low-pressure, 9056 pentru suction cu rezistență mare la colaps. Compatibilitate fluide: uleiuri minerale, HFC, HFD, biodegradabile HETG/HEES. Element înlocuibil fără scurgeri - design spin-on sau drop-in. Verificare element recomandat la 500h sau conform indicator. Longevitate element: 1000-2000h în funcție de contaminare sistem.'
+        name: 'Filtre hidraulice și de lubrifiere',
+        description: 'Filtre de presiune, return și suction pentru protecția sistemelor hidraulice. Construcție: carcasă oțel carbon sau inox, capace aluminiu sau inox, seal-uri Viton sau Buna-N. Mediul filtrant (celuloză sau Microglass III), debitul, valva de bypass și presiunea depind de serie; catalogul Parker indică, de exemplu, 10,3 bar (150 psi) la seriile de joasă presiune și 414 bar (6000 psi) la seria 12S. Indicator vizual sau electric pentru schimb element (opțional pressure switch). Aplicații: presă hidraulică, mașini-unelte, excavatoare, platforme offshore.  Compatibilitatea cu fluidul se verifică în fișa seriei alese. Element înlocuibil fără scurgeri - design spin-on sau drop-in. Intervalul de schimb al elementului se stabilește conform indicatorului și recomandărilor producătorului.'
       },
       {
         name: 'Separatoare coalescentă Zander',
-        description: 'Filtrare aer comprimat în 3 stadii: particule solide, aerosoli ulei și vapori organici. Stadiu 1 - prefiltrare particule >1 μm prin media fibră sticlă. Stadiu 2 - coalescență aerosoli ulei prin media borosilicate multi-layer - reduce concentrare ulei la 0.01 mg/m³. Stadiu 3 - adsorpție carbon activ - elimină vapori ulei rezidual până la <0.003 mg/m³ (Clasa 1 ISO 8573-1). Flow 50-15,000 m³/h configurații modulare. Presiune lucru până la 16 bar. Punct rouă presiune până la -70°C când combinat cu uscător adsorbție. Aplicații: aer pentru instrumentație, procese alimentare, farma, vopsitorie, industrie electronică. Design carcasă aluminiu sau oțel inox, conexiuni filetate sau flanșate. Drainage automat condensat prin valve electronice sau mecanice. Schimb elemente rapid fără întrerupere flux - bypass integrat. Element coalescență 6-12 luni, element carbon activ 12-24 luni. Diferențial presiune <0.2 bar la flow nominal. Certificări PED, ISO 8573 validate independent.'
+        description: 'Filtrare aer comprimat în 3 stadii: particule solide, aerosoli ulei și vapori organici. Stadiu 1 - prefiltrare particule >1 μm prin media fibră sticlă. Performanța (conținut rezidual de ulei, clasă ISO 8573-1, debit, presiune) se confirmă din documentația Parker pentru fiecare model. Aplicații: aer pentru instrumentație, procese alimentare, farma, vopsitorie, industrie electronică. Design carcasă aluminiu sau oțel inox, conexiuni filetate sau flanșate. Drainage automat condensat prin valve electronice sau mecanice. Schimb elemente rapid fără întrerupere flux - bypass integrat. Element coalescență 6-12 luni, element carbon activ 12-24 luni. Diferențial presiune <0.2 bar la flow nominal. '
       },
       {
-        name: 'Sisteme purificare ulei offline ICU',
-        description: 'Unități mobile de curățare ulei în afara sistemului principal (kidney loop). Principiu: pompare ulei din rezervor prin filtre fine + separare apă + degasare vacuum + returnare ulei curat. Capacitate filtrare: 20-200 L/min flux continuu. Ating puritate ISO 4406 cod 13/11/8 sau mai bun din ulei degradat 22/20/18. Filtre dual-stage: prefiltru 25 μm protecție pompă + filtru fin 3 μm Beta>1000. Modul separare apă: coalescență + separare gravitațională - elimină apă liberă și emulsionată până la <100 ppm. Vacuum degassing optional - reduce aer dizolvat sub 5% volum, previne cavitație. Aplicații: mentenanță preventivă sisteme hidraulice mari (prese, turnătorie, platforme), prelungire viață ulei în turbine, reducere particule în sisteme critice. Portabil - roți și mâner transport. Conectare rapid-couplers la rezervor. Operare autonomă programabilă - pornire/oprire bazat pe timer. Monitorizare online cleanliness prin senzori particule (opțional). ROI rapid - evită schimburi ulei premature și downtime.'
+        name: 'Sisteme de purificare a uleiului offline (PVS, SMR, SOS)',
+        description: 'Unități mobile de curățare ulei în afara sistemului principal (kidney loop). Principiu: pompare ulei din rezervor prin filtre fine + separare apă + degasare vacuum + returnare ulei curat. Capacitatea și clasa de curățenie ISO 4406 atinsă depind de model și se confirmă din documentația Parker. Configurația filtrelor și opțiunile (separare apă, degazare) depind de model. Aplicații: mentenanță preventivă sisteme hidraulice mari (prese, turnătorie, platforme), prelungire viață ulei în turbine, reducere particule în sisteme critice. Portabil - roți și mâner transport. Conectare rapid-couplers la rezervor. Operare autonomă programabilă - pornire/oprire bazat pe timer. Monitorizare online cleanliness prin senzori particule (opțional). '
       },
       {
         name: 'Filtre combustibil seria RACOR Turbine',
-        description: 'Filtre marine și industriale pentru diesel, biodiesel, kerosen și combustibili grei. Separare apă prin coalescență 99.9% eficiență - protejează injectoare și pompe înaltă presiune. Media filtrare Aquabloc hydrophobic - reține apă dar permite trecere combustibil. Clase filtrare 2, 10, 30 μm. Flow 40-2000 L/h pe element. Carcasă aluminiu naval-grade sau oțel inox 316L pentru marine. Separator apă transparent sau metal cu senzor nivel. Presiune lucru până la 5 bar. Temperatura -40°C până +120°C. Aplicații: motoare diesel marine principale, generatoare emergență, echipamente construcție, locomotive. Turbine series optimizat pentru biodiesel - rezistență la degradare și contaminanți biologici. Element înlocuibil rapid - cartridge drop-in. Indicator diferențial presiune sau electric. Drainage manuală sau automată apă separată. Conformitate USCG, Lloyd, DNV pentru aplicații maritime. Versiuni dual cu switching valve pentru schimb element fără oprire motor. Pre-filter + final filter configuration pentru protecție maximă.'
+        description: 'Filtre marine și industriale pentru diesel, biodiesel, kerosen și combustibili grei. Seria Racor Turbine separă apa din combustibil; eficiența se confirmă din documentația producătorului. Media filtrare Aquabloc hydrophobic - reține apă dar permite trecere combustibil. Clasele de filtrare și debitele depind de model. Carcasă aluminiu naval-grade sau oțel inox 316L pentru marine. Separator apă transparent sau metal cu senzor nivel. Presiune lucru până la 5 bar. Temperatura -40°C până +120°C. Aplicații: motoare diesel marine principale, generatoare emergență, echipamente construcție, locomotive. Turbine series optimizat pentru biodiesel - rezistență la degradare și contaminanți biologici. Element înlocuibil rapid - cartridge drop-in. Indicator diferențial presiune sau electric. Drainage manuală sau automată apă separată.  Versiuni dual cu switching valve pentru schimb element fără oprire motor. Pre-filter + final filter configuration pentru protecție maximă.'
       }
     ],
     certifications: [
@@ -525,9 +521,7 @@ Parker investește continuu în R&D - facilitățile lor de testare din SUA și 
       'ISO 16889 - Testare filtre hidraulice',
       'ISO 8573 - Puritate aer comprimat',
       'PED (Pressure Equipment Directive)',
-      'ATEX - Zone explozive',
       'DNV, ABS, Lloyd - Certificate maritime',
-      'FAA - Componente aeronautice'
     ],
     industries: [
       'oil-gas',
@@ -664,12 +658,12 @@ Parker investește continuu în R&D - facilitățile lor de testare din SUA și 
       },
       {
         "q": "Cât durează livrarea unui filtru Parker la comandă?",
-        "a": "Termenul depinde de serie și de disponibilitatea la producător, orientativ 1–4 săptămâni la comandă, fără date proprii de stoc. Filtrele din seriile de bază, precum PT sau 12CS/50CS, tind să fie disponibile mai repede decât sistemele speciale de înaltă presiune sau unitățile portabile de purificare."
+        "a": "Termenul depinde de serie și de disponibilitatea la producător, orientativ 1–4 săptămâni la comandă, fără date proprii de stoc. Confirmăm termenul după verificarea disponibilității la producător."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Parker Filtration, conform surselor citate.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Parker Filtration, conform surselor citate.' }],
     infinitrade: `Pentru filtrarea Parker, pornim fără date proprii de stoc actualizate în timp real pentru fiecare cod din catalog. Elementele pe care le avem fizic în acest moment pleacă spre client în 24-72 de ore; restul seriei 9xx, Zander sau RACOR ajunge prin canalele noastre de aprovizionare din UE, de regulă în 1–4 săptămâni. Ca să vă putem oferi un termen corect, avem nevoie de codul complet al filtrului sau de specificațiile sistemului (presiune, debit, clasa de filtrare). Nu facem promisiuni de livrare fără să verificăm întâi disponibilitatea reală la furnizor.`
   },
 
@@ -677,35 +671,35 @@ Parker investește continuu în R&D - facilitățile lor de testare din SUA și 
     founded: 1945,
     headquarters: 'Mannheim, Germania',
     employees: '6,800+',
-    overview: `Pepperl+Fuchs este un pionier al tehnologiilor de automatizare pentru zone explozive și unul dintre furnizorii importanți în senzori industriali inteligenți. Fondată în 1945 în Germania, compania a dezvoltat primul senzor de proximitate cu protecție intrinsec sigură pentru zone ATEX - tehnologie care a schimbat semnificativ automatizarea în industria chimică, petrochimică și minieră. Astăzi P+F oferă un ecosistem complet: senzori inductivi/capacitivi/optici, bariere și izolatoare Ex, sisteme de identificare RFID, tehnologie IO-Link și soluții Industrie 4.0. Când automatizezi o platformă offshore sau o rafinărie, componentele P+F sunt adesea singura opțiune certificată pentru zone 0/1/2 gaz și 20/21/22 praf.
+    overview: `Pepperl+Fuchs este un pionier al tehnologiilor de automatizare pentru zone explozive și unul dintre furnizorii importanți în senzori industriali inteligenți. Fondată în 1945 la Mannheim de Walter Pepperl și Ludwig Fuchs, compania produce senzori industriali și echipamente pentru protecție la explozie. Astăzi P+F oferă un ecosistem complet: senzori inductivi/capacitivi/optici, bariere și izolatoare Ex, sisteme de identificare RFID, tehnologie IO-Link și soluții Industrie 4.0. 
 
-Tehnologia lor Ex (explosion protection) acoperă toate conceptele: intrinsec sigur (ia/ib), non-incendive (nA/nC), încapsulare (m/o), pressurizare (p) și siguranță crescută (e). Barierele Zener și izolatoarele galvanice permit conectarea senzorilor/actuatorilor din zona periculoasă la PLC-uri din zona sigură cu protecție certificată TÜV, FM, CSA, IECEx. Senzorii inductivi F/V/S acoperă game de detecție 1-60mm cu hysteresis sub 1% și rezistență la câmpuri magnetice externe. Sistemele de viziune industrială VOS detectează 3D pentru robotică sau verifică 100% calitate produse pe linii rapide. RFID-urile UHF citesc sute de tag-uri simultan pentru tracking asset-uri sau piese în producție.
+Tehnologia lor Ex (explosion protection) acoperă toate conceptele: intrinsec sigur (ia/ib), non-incendive (nA/nC), încapsulare (m/o), pressurizare (p) și siguranță crescută (e). Barierele Zener și izolatoarele galvanice permit conectarea senzorilor/actuatorilor din zona periculoasă la PLC-uri din zona sigură cu protecție certificată TÜV, FM, CSA, IECEx. Senzorii inductivi au distanțe de comutare diferite în funcție de serie și de mărimea carcasei, indicate în fișa fiecărui cod.
 
-P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare la Mannheim și Singapore pentru validare Ex și medii extreme. Peste 6,000 brevete active și certificări în 40+ țări. Gama lor se extinde de la senzori simpli de câțiva euro până la sisteme process automation de sute de mii euro pentru rafinate și platforms offshore. Noi distribuim Pepperl+Fuchs pentru că oferă soluția certificată pentru orice aplicație - fie că e zonă sigură sau ATEX Zona 0, fie că vorbim de tracking asset-uri sau vision inspection.`,
+ Gama include senzori, bariere și izolatoare Ex, sisteme RFID și soluții de viziune industrială. Alegerea produsului potrivit depinde de aplicație și de clasificarea zonei, iar noi o confirmăm pe cod, din documentația producătorului.`,
     whyChoose: [
       'Portofoliu amplu de echipamente pentru zone explozive (ATEX/IECEx)',
       'Gamă completă senzori inductivi/capacitivi/optici IO-Link',
       'Bariere și izolatoare Ex pentru conectare safe area - hazardous area',
       'Sisteme RFID UHF pentru tracking industrial',
       'Viziune industrială VOS pentru robotică și inspecție calitate',
-      'Suport tehnic certificat și training ATEX/IECEx'
+      'Documentație tehnică publicată de producător'
     ],
     keyProducts: [
       {
-        name: 'Senzori inductivi Ex seria NBB/NCB',
-        description: 'Senzori de proximitate pentru zone explozive cu certificare ATEX Zone 1 și IECEx ia. Principiu induction: bobină oscilantă detectează obiectul metalic fără contact. Game detecție 2-40mm în funcție de dimensiune senzor (M8, M12, M18, M30). Protecție intrinsec sigură [Ex ia] permite instalare Zone 1 gaz când conectat la barieră aprobată. Carcasă oțel inox 316L sau nichel-plated brass. Grad protecție IP67/IP68/IP69K. Temperatura -40°C până +85°C sau +105°C versiuni HT. Ieșire NPN sau PNP, NO/NC configurabil, cu sau fără LED indicator (LED blue certificat Ex). Consum <10mA pentru compatibilitate bariere low-power. Aplicații: detectare poziție în mixere zone 1, counting piese pe benzi în zone clasificate, poziționare cilindri pneumatici în zone praf combustibil. Certificare FM, CSA pentru piețele Nord America. Conexiune M12 connector sau cable gland. Factube factor Sn reduced față de versiuni standard - vezi datasheets pentru distanțe exacte. Instalare cu brackets sau direct threaded în echipament. Hysteresis <3% asigură switching stabil fără oscilații.'
+        name: 'Senzori inductivi seria NBB',
+        description: 'Senzori inductivi de proximitate din seria NBB; de exemplu NBB4-12GM75-US are aprobări CE, cULus, cCSAus, CCC și UKCA, fără aprobări pentru zone explozive. Principiu induction: bobină oscilantă detectează obiectul metalic fără contact. Distanța de comutare este indicată în codul senzorului (de exemplu NBB4 = 4 mm) și depinde de seria și mărimea carcasei.  Carcasă oțel inox 316L sau nichel-plated brass. Gradul de protecție, temperatura și tipul ieșirii depind de cod; de exemplu NBB4-12GM75-US: IP67, -25...70 °C, ieșire în 2 fire AC/DC, normal deschis. Aplicațiile și aprobările depind de codul ales și se confirmă din fișa producătorului. Conexiune M12 connector sau cable gland. Factorul de reducere depinde de materialul țintei; distanțele exacte sunt în fișa tehnică. Instalare cu brackets sau direct threaded în echipament. '
       },
       {
-        name: 'Bariere Zener seria KFD2/KCD2',
-        description: 'Bariere intrinsec sigure pentru alimentare și izolare senzori/actuatori din zone ATEX. Principiu: limitare tensiune, curent și putere prin diode Zener și siguranțe rapide astfel încât energia maximă transferată în zona Ex să fie sub nivelul de ignition. KFD2 pentru semnale analogice 4-20mA, 0-10V. KCD2 pentru alimentare simplă senzori NAMUR, switches. Montare șină DIN EN 60715 lățime 35mm. Ocupare 6-12.5mm per canal - densitate mare. Alimentare 24VDC din safe area. Ieșire certificată [ia] pentru Zone 0 gaz sau Zone 20 praf. Parametri Ex listate pe etichetă: Ui (tensiune max), Ii (curent max), Pi (putere max), Ci/Li (capacitate/inductanță cablu max). Aplicații: conectare senzori presiune/temperatură/nivel/flow din zone classified la PLC din control room. Versiuni dual-channel pentru economie spațiu. LED status pe fiecare canal. Test functionality conform NAMUR NE21. Certificări ATEX, IECEx, FM, CSA. Design cu redundanță - dacă un Zener dă fail, al doilea preia protecția. Documentație completă pentru inspector și audit. Cross-reference tables pentru migrare de la MTL, Stahl, Eaton.'
+        name: 'Bariere intrinsec sigure seria KFD2/KCD2',
+        description: 'Bariere intrinsec sigure pentru alimentare și izolare senzori/actuatori din zone ATEX. Principiu: limitarea tensiunii, a curentului și a puterii transferate în zona Ex sub nivelul de aprindere. Funcția fiecărui modul KFD2/KCD2 se confirmă din fișa codului. Montare șină DIN EN 60715 lățime 35mm.  Ieșire certificată [ia] pentru Zone 0 gaz sau Zone 20 praf. Parametri Ex listate pe etichetă: Ui (tensiune max), Ii (curent max), Pi (putere max), Ci/Li (capacitate/inductanță cablu max). Aplicații: conectare senzori presiune/temperatură/nivel/flow din zone classified la PLC din control room. Versiuni dual-channel pentru economie spațiu. LED status pe fiecare canal. Test functionality conform NAMUR NE21. Certificări ATEX, IECEx, FM, CSA.  Documentație completă pentru inspector și audit. '
       },
       {
         name: 'Sisteme RFID UHF seria F190',
-        description: 'Cititori RFID ultra-high frequency (865-868 MHz EU, 902-928 MHz US) pentru tracking asset-uri și flow material. Tehnologie multi-tag reading - citește simultan până la 200 tag-uri în câmp. Distanță citire până la 8m în aer liber (depinde de tag și mediu). Antene integrate sau externe - panel, circular polarized, linear. Interfață Ethernet TCP/IP, Profinet, EtherNet/IP sau serial RS232/485. Protocol EPC Gen2 ISO 18000-6C. Putere emisie ajustabilă 10-33 dBm (1W ERP max EU). Aplicații: tracking paleți în logistică, identificare piese în producție automotive, management inventar warehouse, access control vehicule. F190 versiune industrială IP65 carcasă metal, temperatura -20°C până +55°C. Software Development Kit pentru integrare în ERP/MES. Configurare prin web interface - definire zone citire, filtre, trigger events. Anti-collision algorithm asigură citire fiabilă chiar cu sute de tag-uri în mișcare. Tag-uri disponibile: passive paper labels pentru carton/pallet, industrial hard tags pentru metal/high-temp, special tags ATEX pentru zone Ex. ROI prin eliminare scanare manuală, reducere erori picking, tracking real-time asset-uri scumpe.'
+        description: 'Cititori RFID ultra-high frequency (865-868 MHz EU, 902-928 MHz US) pentru tracking asset-uri și flow material. Numărul de tag-uri citite simultan și distanța de citire depind de model, de tag și de mediu. Antene integrate sau externe - panel, circular polarized, linear. Interfață Ethernet TCP/IP, Profinet, EtherNet/IP sau serial RS232/485. Protocol EPC Gen2 ISO 18000-6C. Putere emisie ajustabilă 10-33 dBm (1W ERP max EU). Aplicații: tracking paleți în logistică, identificare piese în producție automotive, management inventar warehouse, access control vehicule. Gradul de protecție și temperatura de lucru se confirmă din fișa modelului. Software Development Kit pentru integrare în ERP/MES. Configurare prin web interface - definire zone citire, filtre, trigger events. Anti-collision algorithm asigură citire fiabilă chiar cu sute de tag-uri în mișcare. Tag-uri disponibile: passive paper labels pentru carton/pallet, industrial hard tags pentru metal/high-temp, special tags ATEX pentru zone Ex. '
       },
       {
         name: 'Viziune industrială VOS seria 2D/3D',
-        description: 'Sisteme smart camera pentru aplicații robot guidance, quality inspection și measurement. VOS 2D cu senzor CMOS până la 5MP, procesor ARM embedded, software viziune integrat. Algoritmi pre-configurați: pattern matching, blob analysis, OCR, barcode reading, edge detection, color verification. VOS 3D combină laser line proiector cu cameră 2D pentru scanare 3D - măsurare volum, înălțime, defecte suprafață. Rezoluție Z-axis până la 0.01mm. Configurare prin web interface - desenezi zona interes, setezi parametri, testezi live. Zero programming - wizard ghidat. Aplicații: verificare prezență componente pe PCB, OCR expiry date pe ambalaje, măsurare dimensiuni piese turnate, ghidare robot pick-and-place cu corectare poziție. Comunicație Ethernet TCP/IP, Profinet, EtherNet/IP - trimite direct coordonate la robot. Trigger extern sau freerun mode. Iluminare LED integrată sau control stroboscop extern pentru obiecte în mișcare rapidă. Carcasă IP67 pentru medii industriale. Temperatura -10°C până +50°C. Lentile varifocal sau fix-focus în funcție de distanță lucru. Software PC pentru setup avansat și debugging. Training și suport tehnic pentru aplicații complexe.'
+        description: 'Sisteme smart camera pentru aplicații robot guidance, quality inspection și measurement. Rezoluția și funcțiile software depind de modelul VOS. Algoritmi pre-configurați: pattern matching, blob analysis, OCR, barcode reading, edge detection, color verification. VOS 3D combină laser line proiector cu cameră 2D pentru scanare 3D - măsurare volum, înălțime, defecte suprafață.  Configurare prin web interface - desenezi zona interes, setezi parametri, testezi live. Zero programming - wizard ghidat. Aplicații: verificare prezență componente pe PCB, OCR expiry date pe ambalaje, măsurare dimensiuni piese turnate, ghidare robot pick-and-place cu corectare poziție. Comunicație Ethernet TCP/IP, Profinet, EtherNet/IP - trimite direct coordonate la robot. Trigger extern sau freerun mode. Iluminare LED integrată sau control stroboscop extern pentru obiecte în mișcare rapidă. Carcasă IP67 pentru medii industriale. Temperatura -10°C până +50°C. Lentile varifocal sau fix-focus în funcție de distanță lucru. Software PC pentru setup avansat și debugging. Training și suport tehnic pentru aplicații complexe.'
       }
     ],
     certifications: [
@@ -739,7 +733,7 @@ P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare
     productCodes: [
       {
         "code": "NBB4-12GM75-US",
-        "description": "Senzor inductiv cilindric cu montare nerasantă"
+        "description": "Senzor inductiv cilindric M12 cu montare rasantă (flush), distanță de comutare 4 mm, ieșire în 2 fire AC/DC"
       },
       {
         "code": "NBB5-18GM60-I",
@@ -781,11 +775,11 @@ P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare
     faq: [
       {
         "q": "Ce înseamnă codul unui senzor inductiv Pepperl+Fuchs seria NBB?",
-        "a": "Codul indică gabaritul filetului, distanța nominală de comutare, forma carcasei și tipul ieșirii electrice. De exemplu NBB4-12GM75-US descrie un senzor cu diametru de 4 mm, distanță de 12 mm, carcasă filetată metrică și ieșire specifică. Structura este comună întregii serii, cu variații pentru montare rasantă sau nerasantă."
+        "a": "Codul indică gabaritul filetului, distanța nominală de comutare, forma carcasei și tipul ieșirii electrice. De exemplu NBB4-12GM75-US descrie un senzor cu distanță nominală de comutare de 4 mm, carcasă filetată M12 din alamă nichelată, lungime 75 mm și ieșire în 2 fire AC/DC. Structura este comună întregii serii, cu variații pentru montare rasantă sau nerasantă."
       },
       {
         "q": "Ce distanță de detecție are seria NBB de la Pepperl+Fuchs?",
-        "a": "Distanța variază după model, de la câțiva milimetri la senzorii subminiaturali, precum NBB1,5-8GM40-Z0, până la peste 20 mm la variantele de gabarit mare precum NBB20-U1-E2. Distanța exactă depinde de diametrul carcasei, de tipul montării și de materialul țintei detectate."
+        "a": "Distanța variază după model, de la câțiva milimetri la senzorii subminiaturali, precum NBB1,5-8GM40-Z0, până la 20 mm la variantele de gabarit mare precum NBB20-U1-E2. Distanța exactă depinde de diametrul carcasei, de tipul montării și de materialul țintei detectate."
       },
       {
         "q": "Livrați senzori Pepperl+Fuchs în România?",
@@ -797,12 +791,12 @@ P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare
       },
       {
         "q": "Care e diferența dintre variantele -E2 și -E3 la seria NBB?",
-        "a": "Sufixul indică varianta constructivă a ieșirii electrice și a circuitului intern al senzorului, cu diferențe de protecție la scurtcircuit sau la inversarea polarității, în funcție de generația senzorului. Alegerea corectă depinde de cerințele specifice ale automatului programabil la care se conectează senzorul."
+        "a": "Sufixele (de exemplu -E2, -E3) indică varianta electrică a ieșirii; semnificația exactă se verifică în fișa tehnică a fiecărui cod. Alegerea corectă depinde de cerințele specifice ale automatului programabil la care se conectează senzorul."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru echipamentele Pepperl+Fuchs, folosim informațiile publice disponibile ale producătorului și nu deținem un sistem propriu de urmărire a stocului în timp real. Ce avem fizic pleacă, ca regulă generală, în 24-72 de ore; senzorii, barierele sau sistemele RFID mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, în circa 1–4 săptămâni. Pentru zone clasificate ATEX/IECEx, trimiteți-ne clasificarea zonei, tipul de protecție necesar și codul echipamentului. Verificăm disponibilitatea reală înainte de a confirma orice termen și nu facem recomandări fără aceste detalii.`
   },
 
@@ -810,45 +804,40 @@ P+F investește peste 10% din cifra de afaceri în R&D - facilități de testare
     founded: 1909,
     headquarters: 'Solon, Ohio, SUA',
     employees: '300+',
-    overview: `Permatex produce adezivi, etanșanți și produse chimice pentru mentenanță de peste 115 ani și e brandul de încredere al mecanicilor auto, tehnicians industriali și service-urilor de întreținere din întreaga lume. Ce a început ca o mică companie de shellac pentru cauciuc în 1909 s-a transformat într-un producător important de specialty chemicals pentru automotive aftermarket și industrial MRO în America de Nord. Dacă ai schimbat vreodată o garnitură motor sau ai reparat un filet stricat, probabil ai folosit Permatex - Ultra Blue RTV, Threadlocker, Anti-Seize sau Form-A-Gasket. Produsele lor rezolvă probleme practice: scurgeri de ulei, filete slăbite, coroziune, vibratii, contact metal-metal.
+    overview: `Permatex produce adezivi, etanșanți și produse chimice pentru mentenanță de peste 115 ani și este folosit de mecanici auto, tehnicieni industriali și service-uri de întreținere. Compania a început în 1909 cu un produs pe bază de shellac pentru anvelope de bicicletă și produce astăzi etanșanți, adezivi și produse de întreținere pentru automobile. Dacă ai schimbat vreodată o garnitură motor sau ai reparat un filet stricat, probabil ai folosit Permatex - Ultra Blue RTV, Threadlocker, Anti-Seize sau Form-A-Gasket. Produsele lor rezolvă probleme practice: scurgeri de ulei, filete slăbite, coroziune, vibratii, contact metal-metal.
 
-Gama Permatex acoperă toate nevoile de mentenanță: etanșanți RTV siliconic (albastru, roșu, negru - rezistență până la 315°C), adezivi anaerobi pentru filete (low/medium/high strength), paste anti-seize (cupru, nichel, ceramic - previne gripare la temperaturi până la 1650°C), adezivi structural (epoxy bi-component, cyanoacrilat), produse curățare (brake cleaner, carb cleaner, degresant), tratamente suprafețe (rust converter, copper spray). The Right Stuff e etanșantul lor magic pentru garnituri motor - înlocuiește garnitura clasică cu o aplicație uniformă care nu curge și polimerizează în prezența umidității. Loctite (parte din Henkel) poate fi mai cunoscut global, dar Permatex are o prezență puternică pe piața americană prin calitate consistentă și preț corect.
+Gama Permatex acoperă toate nevoile de mentenanță: etanșanți RTV siliconici (Ultra Blue, Ultra Black, Ultra Grey, Ultra Copper), adezivi anaerobi pentru filete (low/medium/high strength), paste anti-seize, adezivi structural (epoxy bi-component, cyanoacrilat), produse curățare (brake cleaner, carb cleaner, degresant), tratamente suprafețe (rust converter, copper spray). The Right Stuff este un etanșant de tip „gasket maker”, care poate înlocui garnitura clasică. 
 
-Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calității și inovație rapidă bazată pe feedback real din service-uri. Permatex colaborează cu constructori auto majori pentru validarea produselor în condiții extreme, iar produsele Permatex certificate pentru rețeaua de dealeri a unor astfel de constructori reflectă acest nivel de calitate. Permatex este distribuit pentru că rezolvă probleme practice rapid și fiabil, la un raport calitate-preț bun față de o reparație sau o piesă custom de înlocuire.`,
+ `,
     whyChoose: [
       'Peste 115 ani experiență în adezivi și etanșanți automotive',
-      'Gama completă RTV siliconic pentru toate temperaturile (-65°C până +315°C)',
-      'Threadlocker-e anaerobi în 3 puteri (low/medium/high)',
-      'Anti-seize paste pentru temperaturi extreme (până la 1650°C)',
-      'Produse OEM-approved de GM, Ford, Chrysler',
-      'Raport calitate/preț excelent pentru MRO industrial'
+      'Gamă de etanșanți RTV siliconici (Ultra Blue, Ultra Black, Ultra Grey, Ultra Copper)',
+      'Threadlockere în patru variante (Purple, Blue, Orange, Red), de la rezistență mică la mare',
+      'Paste anti-seize pentru prevenirea gripării filetelor',
+      'Gamă largă de produse pentru mentenanță auto și industrială',
+      'Produse pentru mentenanță auto și industrială (MRO)'
     ],
     keyProducts: [
       {
         name: 'Ultra Blue RTV Silicone',
-        description: 'Etanșant siliconic cu vulcanizare la temperatura camerei (Room Temperature Vulcanizing). Culoare albastră caracteristică. Temperatura operare -65°C până +260°C continuu, spike-uri până la +315°C. Rezistență chimică excelentă la uleiuri motor, lichide transmisie, antigel, apă. Aplicații: garnituri carter ulei, capac supape, pompă apă, carter transmisie, diferențial. Vulcanizare prin umiditate atmosferică - skin time 5-10 min, cure complet 24h pentru secțiuni subțiri. Rezistență tracțiune 300 psi. Elongație 400% - compensează mișcări termice. Tub 85g sau cartridge 310ml. Aplicare: curăță suprafețe de grăsimi/ulei cu Brake Cleaner, aplică bead continuu 2-3mm grosime, asamblează în 15 minute, lasă să vulcanizeze înainte de umplere fluide. Sensor-safe - nu emite acid acetic care ar ataca senzorii oxigen. Depășește performance garnituri cork tradiționale. Reutilizabil - se îndepărtează ușor la dezasamblare viitoare. Variante: Ultra Black (rezistență ulei superioară), Ultra Grey (pentru bare și diferențiale), Ultra Copper (high-temp până la 343°C).'
+        description: 'Etanșant siliconic cu vulcanizare la temperatura camerei (Room Temperature Vulcanizing). Culoare albastră caracteristică. Temperatura de lucru și compatibilitatea cu fluidele sunt indicate în fișa tehnică a produsului. Aplicații: garnituri carter ulei, capac supape, pompă apă, carter transmisie, diferențial. Vulcanizare prin umiditate atmosferică - skin time 5-10 min, cure complet 24h pentru secțiuni subțiri.  Aplicare: curăță suprafețe de grăsimi/ulei cu Brake Cleaner, aplică bead continuu 2-3mm grosime, asamblează în 15 minute, lasă să vulcanizeze înainte de umplere fluide. Sensor-safe - nu emite acid acetic care ar ataca senzorii oxigen.  Reutilizabil - se îndepărtează ușor la dezasamblare viitoare. Variante: Ultra Black, Ultra Grey și Ultra Copper.'
       },
       {
         name: 'Threadlocker Red/Blue',
-        description: 'Adezivi anaerobi pentru securizare și etanșare filete. Principiu: lichid ce polimerizează în absența aerului între suprafețe metalice. Blue 242 - medium strength (10-15 Nm breakaway torque) - pentru filete M6-M20 ce trebuie desfăcute periodic cu scule standard. Red 271 - high strength (20-25 Nm breakaway) - pentru filete permanente sau critical, desfacere necesită încălzire la 250°C. Aplicații: buloane motor, fitting-uri hidraulice, seturi screws, fitting-uri pneumatice, axe și arbori, fasteners pe echipamente vibrante. Aplicare: curăță filete de ulei/murdărie, aplică 2-3 picături pe filetul bărbătesc, înșurubă normal, handling strength în 10-20 min, cure complet 24h. Rezistență la șoc și vibrații - elimină deșurubarea accidentală. Etanșează micro-clearance-urile filetului - previne scurgeri în aplicații hidraulice/pneumatice. Temperatura operare -55°C până +150°C. Variante: Green (wicking grade pentru filete pre-asamblate), Purple (low strength pentru filete fine electronice). Îndepărtare: Blue se deșurubă cu moment crescut, Red necesită încălzire torch 250°C apoi deșurubare la cald.'
+        description: 'Adezivi anaerobi pentru securizare și etanșare filete. Principiu: lichid ce polimerizează în absența aerului între suprafețe metalice. Blue - medium strength (aprox. 13 Nm, adică 115 in-lb, cuplu de desfacere) - pentru filete M6-M20 ce trebuie desfăcute periodic cu scule standard. Red - high strength / permanent (aprox. 21-28 Nm, adică 190-250 in-lb, cuplu de desfacere) - pentru filete permanente sau critical, desfacere necesită încălzire la 250°C. Aplicații: buloane motor, fitting-uri hidraulice, seturi screws, fitting-uri pneumatice, axe și arbori, fasteners pe echipamente vibrante. Aplicare: curăță filete de ulei/murdărie, aplică 2-3 picături pe filetul bărbătesc, înșurubă normal, handling strength în 10-20 min, cure complet 24h. Rezistență la șoc și vibrații - elimină deșurubarea accidentală. Etanșează micro-clearance-urile filetului - previne scurgeri în aplicații hidraulice/pneumatice. Temperatura operare -55°C până +150°C. Variante: Purple (rezistență mică, pentru șuruburi mici) și Orange gel (rezistență mare, demontabil). Îndepărtare: Blue se deșurubă cu moment crescut, Red necesită încălzire torch 250°C apoi deșurubare la cald.'
       },
       {
         name: 'Anti-Seize Copper/Nickel/Ceramic',
-        description: 'Paste lubrifiere pentru prevenirea gripării filetelor și suprafețelor în contact la temperaturi înalte sau medii corosive. **Copper Anti-Seize** - particule cupru în grease sintetic - temperatura -30°C până +980°C - aplicații: buloane colector eșapament, spark plugs, brake caliper bolts. **Nickel Anti-Seize** - particule nichel pur - temperatura până la +1425°C - pentru inox și aliaje nichel unde cuprul e incompatibil. **Ceramic Anti-Seize** - particule ceramic inert - temperatura până la +1650°C - pentru aplicații nuclear, chimice, aerospace unde metalele sunt interzise. Protecție anti-coroziune - barieră contra umiditate, sare, substanțe chimice. Aplicare: curăță filete, aplică strat subțire cu perie, asamblează. Reduce torque-ul de seating cu 20-30% față de filete dry - important pentru filete critice (head bolts) - folosește torque wrench cu valori reduced. Aplicații industriale: flanșe high-temp, studs turbine, fitting-uri inox, zone marine/offshore. Brush-top containers pentru aplicare curată. Shelf life 5+ ani.'
+        description: 'Paste lubrifiere pentru prevenirea gripării filetelor și suprafețelor în contact la temperaturi înalte sau medii corosive. Copper Anti-Seize - pastă cu particule de cupru, pentru filete expuse la temperaturi ridicate; limita de temperatură este în fișa produsului. Nickel Anti-Seize - pastă cu particule de nichel, pentru inox și aliaje de nichel; limita de temperatură este în fișa produsului. Ceramic Anti-Seize - pastă fără metale, pentru aplicații unde metalele nu sunt permise; disponibilitatea și limita de temperatură se confirmă din fișa produsului. Protecție anti-coroziune - barieră contra umiditate, sare, substanțe chimice. Aplicare: curăță filete, aplică strat subțire cu perie, asamblează. Pasta modifică cuplul de strângere; folosiți valorile indicate de producătorul echipamentului pentru filete lubrifiate. Aplicații industriale: flanșe high-temp, studs turbine, fitting-uri inox, zone marine/offshore. Brush-top containers pentru aplicare curată. '
       },
       {
         name: 'The Right Stuff',
-        description: 'Etanșant garnituri în tub ("gasket maker") ce înlocuiește garniturile tradiționale din plută sau hârtie. Formula proprietară gray paste ce nu curge vertical - aplicabil pe suprafețe verticale fără să alunece. Rezistență instant la ulei - poți umple fluidele imediat după asamblare (pentru cure complet așteaptă 1h). Temperatura -65°F până +500°F (-54°C până +260°C). Aplicații: garnituri carter transmisie, diferențial, transfer case, carter motor, capace diverse. Avantaje vs garnituri tradiționale: umple perfect imperfecțiuni suprafețe, nu necesită stoc de garnituri pentru 100 modele diferite, aplicare uniformă fără risc de strângere neuniformă, îndepărtare ușoară la service. Aplicare: curăță complet suprafețele vechi (scraper + Brake Cleaner), aplică bead continuu 3-4mm grosime, asamblează piesele în 5 minute, strânge buloane la torque specificat, lasă 1h înainte de operare full-load. Skin time 10 min. Sensor-safe formula. Cartridge 7oz (200ml) sau bottle 4oz (115ml) cu aplicator. Certificat OEM pentru multiple aplicații GM, Ford, Chrysler.'
+        description: 'Etanșant garnituri în tub ("gasket maker") ce înlocuiește garniturile tradiționale din plută sau hârtie. Formula proprietară gray paste ce nu curge vertical - aplicabil pe suprafețe verticale fără să alunece. Timpul de întărire înainte de umplerea cu fluide este indicat pe ambalajul produsului. Temperatura -65°F până +500°F (-54°C până +260°C). Aplicații: garnituri carter transmisie, diferențial, transfer case, carter motor, capace diverse. Avantaje vs garnituri tradiționale: umple perfect imperfecțiuni suprafețe, nu necesită stoc de garnituri pentru 100 modele diferite, aplicare uniformă fără risc de strângere neuniformă, îndepărtare ușoară la service. Aplicare: curăță complet suprafețele vechi (scraper + Brake Cleaner), aplică bead continuu 3-4mm grosime, asamblează piesele în 5 minute, strânge buloane la torque specificat, lasă 1h înainte de operare full-load. Skin time 10 min. Sensor-safe formula. Cartridge 7oz (200ml) sau bottle 4oz (115ml) cu aplicator. '
       }
     ],
     certifications: [
-      'OEM Approved - GM, Ford, Chrysler, Cummins',
-      'NSF P1 - Etanșanți aprobați pentru contact incidental alimentare',
-      'MIL-SPEC - Specificații militare SUA (produse selectate)',
       'ISO 9001 - Management calitate producție',
       'OSHA Compliant - Fișe siguranță conform OSHA HazCom',
-      'California Prop 65 - Conformitate emisii VOC',
-      'UL Listed - Produse selectate certificate UL',
       'RoHS - Fără substanțe restricționate'
     ],
     industries: [
@@ -872,15 +861,15 @@ Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calit�
     productCodes: [
       {
         "code": "The Right Stuff Rapid Cure Red",
-        "description": "Garnitură lichidă rapidă, rezistență ridicată la temperatură"
+        "description": "Threadlocker rapid (Rapid Cure), rezistență mare, pentru temperatură ridicată"
       },
       {
         "code": "The Right Stuff Rapid Cure Blue",
-        "description": "Garnitură lichidă rapidă, rezistență medie la solicitări"
+        "description": "Threadlocker rapid (Rapid Cure), rezistență medie"
       },
       {
         "code": "The Right Stuff Rapid Cure Orange",
-        "description": "Garnitură lichidă rapidă, tip demontabil, rezistență ridicată"
+        "description": "Threadlocker rapid (Rapid Cure), rezistență mare, demontabil"
       },
       {
         "code": "Threadlocker Orange Gel HS",
@@ -930,7 +919,7 @@ Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calit�
     faq: [
       {
         "q": "Ce produs Permatex aleg pentru etanșarea unei flanșe de motor?",
-        "a": "Pentru flanșe cu joc mic și rezistență ridicată la temperatură, The Right Stuff Rapid Cure Red sau Ultra Copper RTV sunt alegerile tipice, ambele înlocuind garniturile clasice de hârtie. Alegerea între cele două depinde de temperatura maximă de funcționare și de expunerea la ulei a suprafeței etanșate."
+        "a": "Pentru etanșarea flanșelor se folosesc etanșanții de garnituri Permatex, de exemplu Ultra Copper RTV; alegerea depinde de temperatura maximă de funcționare și de expunerea la ulei. Alegerea între cele două depinde de temperatura maximă de funcționare și de expunerea la ulei a suprafeței etanșate."
       },
       {
         "q": "Care e diferența dintre Threadlocker Red și Blue de la Permatex?",
@@ -946,12 +935,12 @@ Fabricarea în SUA (Ohio și Carolina de Nord) asigură control strict al calit�
       },
       {
         "q": "Cât timp durează întărirea unui silicon RTV Permatex?",
-        "a": "Timpul de întărire variază după produs; variantele „Rapid Cure” ating rezistență la manipulare în câteva minute, în timp ce siliconul RTV standard, precum Ultra Copper, necesită de obicei câteva ore pentru o etanșare completă la temperatură ridicată și presiune de ulei."
+        "a": "Timpul de întărire variază după produs; este indicat pe ambalaj și în fișa tehnică; siliconii RTV, precum Ultra Copper, necesită timp de vulcanizare înainte de contactul cu uleiul sau de punerea sub presiune."
       }
     ],
     evidenceClass: 'zero-evidence',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru gama Permatex, nu avem date proprii de stoc valabile pentru fiecare ambalaj sau variantă de produs din catalog. Produsele pe care le deținem fizic pleacă în 24-72 de ore, iar variantele mai rar cerute ajung prin canalele noastre de aprovizionare din UE, de obicei în 1–4 săptămâni. Pentru o recomandare corectă, spuneți-ne aplicația exactă (tipul de îmbinare, temperatura de lucru, fluidul cu care intră în contact) și cantitatea dorită. Confirmăm disponibilitatea reală după verificare, nu promitem livrare imediată doar pentru că produsul apare în catalogul general Permatex.`
   },
 
@@ -1097,46 +1086,45 @@ Producătorul este prezent în peste 100 de țări și are 11 facilități de pr
     founded: 1923,
     headquarters: 'Blomberg, Germania',
     employees: '20,000+',
-    overview: `Phoenix Contact este asociat cu conexiuni electrice industriale de calitate ridicată și inovație continuă în tehnologia de conectare. Fondată în 1923, compania a introdus primele borniere modulare cu șurub și, mai târziu, tehnologia push-in care elimină înșurubarea. Astăzi Phoenix Contact produce o gamă largă de componente pentru conexiuni industriale: borniere pentru toate aplicațiile (putere, semnal, feed-through, disconnect, fuse-holder), conectori industriali M8/M12/M23 pentru fieldbus și senzori, cabluri pre-fabricate, sisteme de marcare și etichetare. Când construiești un panou electric conform IEC 61439, șansele sunt că jumătate din componente vor fi Phoenix Contact.
+    overview: `Phoenix Contact este asociat cu conexiuni electrice industriale de calitate ridicată și inovație continuă în tehnologia de conectare. Fondată în 1923, compania produce borniere, conectori și componente de automatizare, inclusiv borniere cu conexiune push-in. Astăzi Phoenix Contact produce o gamă largă de componente pentru conexiuni industriale: borniere pentru toate aplicațiile (putere, semnal, feed-through, disconnect, fuse-holder), conectori industriali M8/M12/M23 pentru fieldbus și senzori, cabluri pre-fabricate, sisteme de marcare și etichetare. 
 
-Tehnologia CLIPLINE stabilește standardul pentru borniere feed-through - contact arc spring-loaded care menține presiune constantă pe conductor eliminând deșurubarea din vibrații. Push-in technology permite inserție conductori rigizi fără scule - economie 50% timp la wiring. Borniere multi-nivel (2,3,4 nivele) economisesc spațiu panou - o bornă de 6mm lățime poate conecta 4 circuite separate. Surge protection terminals integrate varistori în bornă standard - protecție supratensiune fără componente extra. Disconnect terminals cu lever permit deconectare rapidă circuit fără deșurubat fire. Connectorii M12 X-coded pentru 10 Gigabit Ethernet în fieldbus, T-coded pentru DC power până la 16A, L-coded pentru PROFINET. Catalogul Phoenix acoperă o gamă foarte largă de componente - există soluție pentru orice aplicație.
+Tehnologia CLIPLINE stabilește standardul pentru borniere feed-through - contact arc spring-loaded care menține presiune constantă pe conductor eliminând deșurubarea din vibrații. Tehnologia push-in permite conectarea conductorilor fără scule, conform producătorului. Bornele multi-nivel economisesc spațiu în panou; numărul de niveluri și lățimea depind de model. Disconnect terminals cu lever permit deconectare rapidă circuit fără deșurubat fire. Conectorii M12 se produc în mai multe codificări (A, B, D, X, T, L ș.a.), cu utilizări diferite; codificarea și valorile nominale se confirmă din fișa fiecărui cod. 
 
-Cu 18 facilități de producție în Europa, Asia și America și peste 60 de filiale, Phoenix Contact asigură disponibilitate globală și suport tehnic local. Certificări complete: UL, CSA, DNV, ABS, ATEX, IECEx, GOST. Software-ul CLIP-PROJECT permite design automatizat panou electric - importă lista fire, software-ul generează layout borniere, liste comenzi, etichete și documentație. Phoenix Contact este distribuit pentru că oferă calitate germană și un ecosistem complet pentru panoul electric - de la o bornieră simplă la sisteme complete de cablare prefabricată.`,
+Phoenix Contact este un grup internațional cu sediul central la Blomberg, Germania. Aprobările (de exemplu UL, ATEX, IECEx, aprobări navale) diferă de la un produs la altul și se verifică în fișa fiecărui cod. Software-ul CLIP-PROJECT permite design automatizat panou electric - importă lista fire, software-ul generează layout borniere, liste comenzi, etichete și documentație. Phoenix Contact este distribuit pentru că oferă o gamă largă pentru panoul electric, de la borne simple la cabluri prefabricate.`,
     whyChoose: [
       'Borniere CLIPLINE cu tehnologie push-in pentru conexiune rapidă fără scule',
       'Gamă completă multi-level terminals pentru economie spațiu (2/3/4 nivele)',
-      'Conectori industriali M8/M12 pentru toate protocoalele fieldbus',
-      'Sisteme surge protection integrate în borniere standard',
+      'Conectori industriali M8/M12 pentru senzori și fieldbus',
+      'Borniere cu aprobări multiple (UL, ATEX, IECEx, navale), conform fișelor producătorului',
       'Software CLIP-PROJECT pentru design automatizat panou electric',
-      'Stoc global și livrare rapidă prin rețea logistică optimizată'
+      'Termene de livrare confirmate după verificarea disponibilității la furnizor'
     ],
     keyProducts: [
       {
         name: 'Borniere CLIPLINE seria PT',
-        description: 'Borniere feed-through cu tehnologie spring-cage connection pentru conductori 0.2-35mm². Montare șină DIN EN 60715 35mm standard. Lățimi 5.2mm (PT 1.5), 6.2mm (PT 2.5), 8.2mm (PT 4), 10.2mm (PT 6) până la 17.8mm (PT 35). Curent nominal 17.5A (PT 1.5) până la 125A (PT 35). Tensiune 500-1000V în funcție de tip. Conexiune: spring-cage universal (wire ferrule sau conductor rigid), push-in pentru conductori rigidi (0.5-4mm²), screw connection pentru aplicații speciale. Culori: gri standard, albastru (neutru), galben-verde (PE), roșu/negru (DC power). Accesorii integrate: bridge jumpers multi-way, disconnect knife, LED indicators, fuse holders, surge protection inserts. Markare: snap-on carriers cu imprimare laser sau thermal transfer. Test point access frontal pentru multimeter fără disconnect fire. Aplicații: conexiuni panou electric industrial conform IEC 61439, distribuție semnal de la senzori, feed-through power distribution, ground connections. Temperatura -60°C până +130°C (continuous la rated current). Rezistență vibrație conform IEC 60068-2-6. UL, CSA, DNV, ATEX certified. Tool-less installation - push wire in, pull to test, push orange lever to release.'
+        description: 'Borniere de trecere (feed-through) cu conexiune push-in, pentru montare pe șină NS 35. Montare șină DIN EN 60715 35mm standard. De exemplu, PT 2,5: 800 V, 24 A, conductori 0,14-4 mm², conexiune push-in, conform fișei producătorului. Valorile pentru celelalte mărimi (PT 1,5; PT 4; PT 6 ș.a.) se confirmă din fișa fiecărui cod. Culori: gri standard, albastru (neutru), galben-verde (PE), roșu/negru (DC power). Accesorii integrate: bridge jumpers multi-way, disconnect knife, LED indicators, fuse holders, surge protection inserts. Markare: snap-on carriers cu imprimare laser sau thermal transfer. Test point access frontal pentru multimeter fără disconnect fire. Aplicații: conexiuni panou electric industrial conform IEC 61439, distribuție semnal de la senzori, feed-through power distribution, ground connections. Aprobările (UL, ATEX, IECEx, aprobări navale) se confirmă din fișa fiecărui cod. Conectare fără scule, prin inserarea conductorului.'
       },
       {
         name: 'Borniere multi-level MTKD/PTTB',
-        description: 'Borniere cu 2, 3 sau 4 nivele pentru economie spațiu panou. MTKD double-level: 2 circuite complet separate într-o bornieră de 6mm lățime. PTTB triple-level: 3 circuite în 6mm. Aplicații: distribuție +24VDC/GND/PE într-o singură bornă, feed-through senzori cu separare circuit power/signal, conexiuni compact pentru panouri mici. Fiecare nivel electric independent - izolare conform EN 60947-7-1. Curent 6A per nivel pentru MTKD-PE (conductor până la 2.5mm²). Conexiune push-in sau spring-cage. Configurații: double-deck cu PE integrat (LED indicators pentru 24VDC, GND, PE), triple pentru DC power systems (L+, L-, PE), quadruple pentru aplicații speciale. Markare independentă per nivel - carrier multi-position. Test point per nivel. Bridge jumpers multi-way pentru distribuție rapid. Versiuni disconnect - lever disconnect oricare nivel independent. Economie panou: 10 borniere triple PT 2.5 ocupă 62mm vs 180mm pentru single-level echivalent. Temperatura -60°C până +100°C. Conformitate UL, IEC, ATEX. Design modular - combină cu borniere single-level pe aceeași șină DIN.'
+        description: 'Borniere cu 2, 3 sau 4 nivele pentru economie spațiu panou. Bornele cu mai multe niveluri au lățimi și configurații diferite, în funcție de model. Aplicații: distribuție +24VDC/GND/PE într-o singură bornă, feed-through senzori cu separare circuit power/signal, conexiuni compact pentru panouri mici. Fiecare nivel electric independent - izolare conform EN 60947-7-1.  Conexiune push-in sau spring-cage. Configurații: double-deck cu PE integrat (LED indicators pentru 24VDC, GND, PE), triple pentru DC power systems (L+, L-, PE), quadruple pentru aplicații speciale. Markare independentă per nivel - carrier multi-position. Test point per nivel. Bridge jumpers multi-way pentru distribuție rapid. Versiuni disconnect - lever disconnect oricare nivel independent.  Temperatura -60°C până +100°C. Conformitate UL, IEC, ATEX. Design modular - combină cu borniere single-level pe aceeași șină DIN.'
       },
       {
         name: 'Conectori M12 industrial serie SACC',
-        description: 'Conectori circulari filetați M12 pentru senzori, actuatori și fieldbus industrial. Coduri disponibile: A-coded (senzori standard 4-pin), B-coded (PROFIBUS, DeviceNet 5-pin), D-coded (PROFINET, Ethernet 4-pin), X-coded (10 Gigabit Ethernet Cat6A), T-coded (DC power până la 16A), L-coded (PROFINET advanced). Straight sau right-angle body orientation. Versiuni: cable mount (field-installable), PCB mount (through-hole sau SMD), panel feed-through. Materiale: zinc die-cast nickel-plated, oțel inox 316L pentru medii corosive, plastic pentru cost-sensitive. Grad protecție IP67 mated (IP68 pentru versiuni marine). Temperatura -40°C până +85°C standard, -25°C până +125°C versiuni HT. Contact goldflash pentru rezistență coroziune. Screw-locking sau push-pull locking rapid. Aplicații: conexiune senzori inductivi/capacitivi/optici, valve pneumatice, switch-uri industriale Ethernet, camere viziune. Cable glands integrate prevent stress wire. Color-coding per protocol pentru identificare rapidă. Pre-assembled cables disponibile în lungimi standard 2-20m. Conformitate PROFINET, EtherNet/IP, IO-Link standards. UL, CSA, DNV certified.'
+        description: 'Conectori circulari filetați M12 pentru senzori, actuatori și fieldbus industrial. Conectorii M12 există în mai multe codificări (A, B, D, X, T, L ș.a.); utilizarea fiecăreia și valorile nominale se confirmă din fișa codului. Straight sau right-angle body orientation. Versiuni: cable mount (field-installable), PCB mount (through-hole sau SMD), panel feed-through. Materiale: zinc die-cast nickel-plated, oțel inox 316L pentru medii corosive, plastic pentru cost-sensitive. Gradul de protecție, temperatura de lucru și materialele contactelor depind de cod; se confirmă din fișa producătorului. Screw-locking sau push-pull locking rapid. Aplicații: conexiune senzori inductivi/capacitivi/optici, valve pneumatice, switch-uri industriale Ethernet, camere viziune. Cable glands integrate prevent stress wire. Color-coding per protocol pentru identificare rapidă. Cablurile prefabricate și aprobările diferă pe fiecare cod.'
       },
       {
         name: 'Sisteme etichetare Thermofox',
-        description: 'Printer termic industrial pentru markare borniere, cabluri, panouri. Tehnologie thermal transfer - ribbon consumabil produce text rezistent UV, solvenți, abraziune. Rezoluție 300 dpi - text clear până la 1mm înălțime. Software Marking System - importă lista terminale din CAD, generează automat etichete conform standard. Suportă coduri: barcode 1D/2D, QR codes, DataMatrix pentru tracking asset. Material etichete: polyester, polyamide, polyolefin - rezistență temperatură -40°C până +150°C. Lățimi tape 6-50mm. Adhesive permanent sau removable. Pre-cut labels sau continuous tape. Aplicații: markare borniere Phoenix Contact (snap-on carriers), cable markers (wrap-around sau flag), panel labels, warning labels. Thermofox ONE - printer portabil USB alimentat din laptop. Thermofox CU - unit industrial standalone cu display touchscreen și conexiune Ethernet. Print speed până la 50mm/s. Conformitate UL969, CSA, RoHS. Software gratuit download - design custom layouts, logo companie, fonts variable. Database connection pentru markare automată din bill of materials. ROI rapid - elimină handwriting sau label makers consumer.'
+        description: 'Printer termic industrial pentru markare borniere, cabluri, panouri. Tehnologie thermal transfer - ribbon consumabil produce text rezistent UV, solvenți, abraziune.  Software Marking System - importă lista terminale din CAD, generează automat etichete conform standard. Suportă coduri: barcode 1D/2D, QR codes, DataMatrix pentru tracking asset. Material etichete: polyester, polyamide, polyolefin - rezistență temperatură -40°C până +150°C. Lățimi tape 6-50mm. Adhesive permanent sau removable. Pre-cut labels sau continuous tape. Aplicații: markare borniere Phoenix Contact (snap-on carriers), cable markers (wrap-around sau flag), panel labels, warning labels. Modelele de imprimante de marcare și caracteristicile lor se confirmă din documentația Phoenix Contact. Software gratuit download - design custom layouts, logo companie, fonts variable. Database connection pentru markare automată din bill of materials. '
       }
     ],
     certifications: [
       'ISO 9001 - Calitate producție',
-      'UL, CSA - Certificate Nord America pentru toate produsele',
+      'UL, CSA - aprobări pentru America de Nord, la produsele care le poartă',
       'DNV, ABS - Certificate maritime',
       'IEC 60947-7-1 - Standard borniere industriale',
       'ATEX, IECEx - Componente zone explozive',
       'CE - Conformitate directive UE',
       'RoHS, REACH - Conformitate substanțe',
-      'GOST - Certificate piață Rusia/CSI'
     ],
     industries: [
       'panel-building',
@@ -1164,7 +1152,7 @@ Cu 18 facilități de producție în Europa, Asia și America și peste 60 de fi
       },
       {
         "code": "SACC-M12-SET/2,5-3,5",
-        "description": "Set conector M12 cu garnitură de etanșare"
+        "description": "Set de accesorii (șurub de presare și garnitură Pg7) pentru conector M12 neecranat, cablu cu diametrul de 2,5-3,5 mm"
       },
       {
         "code": "SACC-M12FS-4PL M",
@@ -1222,8 +1210,8 @@ Cu 18 facilități de producție în Europa, Asia și America și peste 60 de fi
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru borniere și conectori Phoenix Contact, lucrăm din informațiile publice disponibile ale producătorului, nu dintr-un sistem intern de gestiune a stocului actualizat live. Referințele pe care le deținem fizic pleacă în 24-72 de ore, iar tipurile de bornă mai puțin cerute sau conectorii M12 specializați ajung prin canalele noastre de aprovizionare din UE în aproximativ 1–4 săptămâni. Pentru un răspuns rapid și corect, trimiteți-ne codul CLIPLINE sau seria conectorului, plus cantitatea necesară. Nu estimăm termene fără să verificăm întâi disponibilitatea reală, chiar dacă referința pare una standard din catalog.`
   },
 
@@ -1231,39 +1219,39 @@ Cu 18 facilități de producție în Europa, Asia și America și peste 60 de fi
     founded: 1948,
     headquarters: 'Ostfildern, Germania',
     employees: '2,500+',
-    overview: `Pilz GmbH & Co. KG este un pionier al tehnologiilor de siguranță industrială și a automatizărilor safety. Fondată în 1948, compania a introdus în 1987 primul releu de siguranță programabil PNOZ - tehnologie care a contribuit la stabilirea standardelor pentru safety control în industrie. Astăzi Pilz oferă ecosistem complet de automatizare sigură: relee safety, controlere safety PLC, senzori safety (light curtains, door switches, safety laser scanners), sisteme de comandă bimanuală, module safety I/O distribuite. Când proiectezi o mașină conform EN ISO 13849-1 sau IEC 62061 și trebuie să atingi Performance Level PLe sau SIL3, componente Pilz sunt adesea singura soluție certificată și validată.
+    overview: `Pilz GmbH & Co. KG este un pionier al tehnologiilor de siguranță industrială și a automatizărilor safety. Fondată în 1948, compania a introdus în 1987 releul de siguranță PNOZ pentru circuite de oprire de urgență; sistemul de siguranță liber configurabil PNOZmulti a apărut în 2002. Astăzi Pilz oferă ecosistem complet de automatizare sigură: relee safety, controlere safety PLC, senzori safety (light curtains, door switches, safety laser scanners), sisteme de comandă bimanuală, module safety I/O distribuite. Când proiectezi o mașină conform EN ISO 13849-1 sau IEC 62061 și trebuie să atingi Performance Level PLe sau SIL3, se pot utiliza și componente Pilz, cu certificările indicate de producător pentru fiecare model.
 
-Tehnologia PNOZ acoperă toate funcțiile de siguranță: monitorizare emergency stop, safety gate monitoring cu guard locking, two-hand control, speed/standstill monitoring, light curtain evaluation. PSENcode sisteme codificate pentru protecție acces previne defeat simplu. PSENopt light curtains cu rezoluție 14-30mm și câmp protecție până la 70m pentru aplicații robotică colaborativă. SafetyEYE scanner laser 2D detectează zone periculoase și reduce viteza robotului proporțional cu distanța operator. PNOZmulti 2 combină logica safety programabilă cu I/O integrate - înlocuiește 20+ relee discrete într-o singură unitate configurabilă prin software. PLC PSS4000 oferă logică safety SIL3 integrată cu automation standard într-o platformă unică.
+Tehnologia PNOZ acoperă toate funcțiile de siguranță: monitorizare emergency stop, safety gate monitoring cu guard locking, two-hand control, speed/standstill monitoring, light curtain evaluation. PSENcode sisteme codificate pentru protecție acces previne defeat simplu. PSENopt light curtains, disponibile în variante Type 2, Type 3 și Type 4, pentru protecția degetelor, a mâinilor sau a corpului. SafetyEYE este un sistem sigur de cameră pentru supravegherea spațiului în 3D. PNOZmulti 2 combină logica safety programabilă cu I/O integrate într-o singură unitate configurabilă prin software. PLC PSS4000 oferă logică safety SIL3 integrată cu automation standard într-o platformă unică.
 
-Cu peste 40 filiale globale și prezență în 70+ țări, Pilz asigură suport tehnic local și training certificat conform standardelor de siguranță. Certificări TÜV pentru toate produsele safety conform IEC 61508, ISO 13849, IEC 62061. Software gratuit PAScal pentru calculul Performance Level și dimensionarea corectă a sistemului safety. Pilz este distribuit pentru că siguranța nu acceptă compromisuri - componentele lor sunt validate, documentate complet și acceptate pe scară largă de inspectorii de muncă.`,
+Pilz are 42 de filiale și sucursale în lume și 25 de parteneri comerciali; disponibilitatea suportului local și a instruirilor se confirmă la producător. Certificările și nivelurile de siguranță (PL, SIL) diferă pe model și se confirmă din fișa tehnică. Pilz oferă software de configurare pentru senzori (PSENopt Configurator, PSENscan Configurator). Documentația tehnică a componentelor Pilz este publicată de producător.`,
     whyChoose: [
       'Peste 75 de ani de experiență în safety automation',
-      'Relee safety PNOZ certificate SIL3/PLe conform EN ISO 13849-1',
+      'Relee safety PNOZ; nivelul de siguranță (PL/SIL) diferă pe model și se confirmă din fișa tehnică',
       'Light curtains PSENopt și safety scanners PSENscan pentru robotică',
       'Controlere safety PNOZmulti și PLC PSS4000 cu logică programabilă',
-      'Software gratuit PAScal pentru calcul Performance Level',
+      'Software de configurare PSENopt Configurator și PSENscan Configurator',
       'Suport tehnic certificat și training conform standarde safety'
     ],
     keyProducts: [
       {
         name: 'Relee safety PNOZ X/S',
-        description: 'Relee de siguranță electromecanic pentru monitorizare funcții safety de bază. PNOZ X - gamă completă pentru emergency stop (1-2 canale), safety gates (cu/fără guard locking), two-hand control, light curtain monitoring. Principiu: arhitectură redundantă dual-channel cu auto-monitoring - dacă un canal eșuează, relay-ul nu permite restart periculos. Output contacts forcibly-guided conform EN 50205 - garantează că NO și NC nu pot fi închise simultan. Categorie safety 4 conform EN ISO 13849-1, SIL3 conform IEC 62061. PNOZ s - versiuni compacte width 22.5mm pentru panou dens. Montare șină DIN EN 60715. Conexiune screw terminals sau spring-cage. LED status indicator per canal pentru diagnostic. Reset manual, automatic sau monitored manual conform aplicație. Aplicații: protecție prese, mașini-unelte, roboți, line-uri ambalare. Temperatura -25°C până +60°C. UL, CSA, CE certified. Durată de viață estimată de producător la 20 ani în funcționare. PNOZ XV - versiuni cu comunicație AS-i pentru diagnostic remote. Manual detaliat cu wiring diagrams pentru fiecare aplicație standard. TÜV certified conform toate standardele relevante safety.'
+        description: 'Relee de siguranță electromecanic pentru monitorizare funcții safety de bază. PNOZ X - gamă completă pentru emergency stop (1-2 canale), safety gates (cu/fără guard locking), two-hand control, light curtain monitoring. Principiu: arhitectură redundantă dual-channel cu auto-monitoring - dacă un canal eșuează, relay-ul nu permite restart periculos. Output contacts forcibly-guided conform EN 50205 - garantează că NO și NC nu pot fi închise simultan. Nivelul de siguranță (categorie, PL, SIL) diferă pe model și se confirmă din fișa tehnică. PNOZ s (PNOZsigma) - versiuni compacte, de la 12,5 mm lățime, pentru panou dens. Montare șină DIN EN 60715. Conexiune screw terminals sau spring-cage. LED status indicator per canal pentru diagnostic. Reset manual, automatic sau monitored manual conform aplicație. Aplicații: protecție prese, mașini-unelte, roboți, line-uri ambalare. UL, CSA, CE certified; domeniul de temperatură se confirmă din fișa tehnică a modelului. Manual detaliat cu wiring diagrams pentru fiecare aplicație standard. TÜV certified conform toate standardele relevante safety.'
       },
       {
         name: 'Controlere safety PNOZmulti 2',
-        description: 'Sistem modular de control safety configurable prin software. Base unit cu procesor safety + module I/O expansion. Funcții safety: emergency stop multi-channel, safety gates cu locking, muting, blanking, two-hand control, speed monitoring, standstill detection, safe motion (SLS, SSR, STO). Performance Level PLe, Categorie 4, SIL3. Programare prin software PNOZmulti Configurator (gratuit download) - function block diagram intuitiv fără scripting. Configurație salvată în SD card - backup și transfer ușor. I/O expansion: module 8/16 intrări safety, 4/8 ieșiri safety, intrări/ieșiri standard non-safety, module comunicație (PROFINET, EtherNet/IP, Modbus TCP). Base unit cu display pentru diagnostic text. Aplicații: mașini complexe cu multiple zone safety, linii producție cu interlock, sisteme cu guard locking și escape release, replacement pentru panouri mari cu zeci de relee discrete. Economie spațiu și wiring dramatic vs soluții cu relee individuale. Simulation mode pentru test logic fără echipament conectat. Version management - audit trail pentru modificări configurație. Temperatura -25°C până +60°C. Certificare TÜV conform EN ISO 13849-1, IEC 62061, IEC 61508.'
+        description: 'Sistem modular de control safety configurable prin software. Base unit cu procesor safety + module I/O expansion. Funcții safety: emergency stop multi-channel, safety gates cu locking, muting, blanking, two-hand control, speed monitoring, standstill detection, safe motion (SLS, SSR, STO). Performance Level PLe, Categorie 4, SIL3. Programare prin software PNOZmulti Configurator.  I/O expansion: module 8/16 intrări safety, 4/8 ieșiri safety, intrări/ieșiri standard non-safety, module comunicație (PROFINET, EtherNet/IP, Modbus TCP). Base unit cu display pentru diagnostic text. Aplicații: mașini complexe cu multiple zone safety, linii producție cu interlock, sisteme cu guard locking și escape release, replacement pentru panouri mari cu zeci de relee discrete. Economie spațiu și wiring dramatic vs soluții cu relee individuale. Simulation mode pentru test logic fără echipament conectat. Version management - audit trail pentru modificări configurație. Domeniul de temperatură și certificările se confirmă din fișa tehnică a modelului.'
       },
       {
         name: 'Light curtains PSENopt Advanced',
-        description: 'Perdele optice de siguranță pentru protecție zone periculoase fără bariere fizice. Tehnologie: emițător LED infraroșu array + receptor multi-beam. Rezoluție 14, 20, 30mm - determină obiectul cel mai mic detectabil (finger, hand, body detection). Înălțime câmp protecție 300-1800mm configurații standard. Distanță operare până la 70m între emițător/receptor (cu reflectoare până la 35m). Timp răspuns 9-21ms în funcție de rezoluție - necesar pentru calculul distanței minime safety conform EN ISO 13855. Funcții avansate: muting (permite palet să treacă fără a opri mașina), blanking (ignoră obiecte fixe în câmp), floating blanking (tracking obiect mobil autorizat). Configurare prin Bluetooth de pe smartphone - zero wiring pentru setup. Cascading - conectare până la 4 curtain pairs pe aceeași ieșire safety. Aplicații: protecție prese, roboți, mașini ambalare, accese la zone periculoase. Carcasă aluminiu IP65/IP67. Conexiune M12 8-pin. Diagnostic LEDs + semnale digitale pentru fault finding. Certificare TÜV Type 4, SIL3, PLe. Conformitate EN IEC 61496, ISO 13849-1. Rezistență vibrații, șocuri, EMI conform EN 60947-5-2.'
+        description: 'Perdele optice de siguranță pentru protecție zone periculoase fără bariere fizice. Tehnologie: emițător LED infraroșu array + receptor multi-beam. Rezoluția determină obiectul cel mai mic detectabil (protecție pentru degete, mâini sau corp); rezoluțiile, înălțimile câmpului de protecție, distanța de operare și timpul de răspuns se confirmă din fișa tehnică a modelului. Timpul de răspuns este necesar pentru calculul distanței minime de siguranță conform EN ISO 13855. Funcții avansate: muting (permite palet să treacă fără a opri mașina), blanking (ignoră obiecte fixe în câmp), floating blanking (tracking obiect mobil autorizat). Funcții precum muting, blanking sau cascading se configurează prin software-ul PSENopt Configurator. Aplicații: protecție prese, roboți, mașini ambalare, accese la zone periculoase. Gradul de protecție și conectica se confirmă din fișa tehnică a modelului. Diagnostic LEDs + semnale digitale pentru fault finding. Disponibilă în variante Type 2, Type 3 și Type 4, până la PL e; nivelul exact se confirmă din fișa tehnică. Conformitate EN IEC 61496, ISO 13849-1.'
       },
       {
         name: 'Safety laser scanner PSENscan',
-        description: 'Scanner laser 2D de siguranță pentru supraveghere zonă și reducere viteza robotilor. Principiu: laser pulsed TOF (time of flight) măsoară distanță până la 5.5m cu rezoluție angulară 0.1°. Câmp scanare 275° acoperire. Configurare zone multiple: zona roșie (stop imediat), zona orange (warning/reduce speed), zona verde (safe). Funcții: protective field static, warning field, dynamic field switching (schimbă zone în funcție de poziție mașină), field pair switching. Aplicații: robotică colaborativă (cobots), AGV/AMR autonomous vehicles, zone acces restrict, protecție perimetru. Certificare TÜV Type 3, SIL2, PLd conform EN ISO 13849-1, EN 61496-3. Montare lateral sau overhead. Conexiune Ethernet pentru configurare + OSSD outputs pentru safety stop. Software PSENscan Configurator vizualizează zone, permite teach-in rapid. Carcasă IP65 rezistență praf/apă. Temperatura -10°C până +50°C. Rezistență lumină ambientă până la 50,000 lux. Diagnostic remote prin Ethernet - status zones, contamination level window. Versiuni outdoor cu heating pentru condiții extreme. Test functional periodic conform EN 61496.'
+        description: 'Scanner laser 2D de siguranță pentru supraveghere zonă și reducere viteza robotilor. Principiu: câmp de protecție de până la 5,5 m, cu rezoluții de detecție de 30, 40, 50, 70 și 150 mm. Câmp scanare 275° acoperire. Configurare zone multiple: zona roșie (stop imediat), zona orange (warning/reduce speed), zona verde (safe). Funcții: protective field static, warning field, dynamic field switching (schimbă zone în funcție de poziție mașină), field pair switching. Aplicații: robotică colaborativă (cobots), AGV/AMR autonomous vehicles, zone acces restrict, protecție perimetru. Certificare TÜV Type 3, SIL2, PLd conform EN ISO 13849-1, EN 61496-3. Montare lateral sau overhead. Conexiune Ethernet pentru configurare + OSSD outputs pentru safety stop. Software PSENscan Configurator vizualizează zone, permite teach-in rapid. Carcasă IP65 rezistență praf/apă. Temperatura -10°C până +50°C.  Diagnostic remote prin Ethernet - status zones, contamination level window.  Test functional periodic conform EN 61496.'
       }
     ],
     certifications: [
-      'TÜV SÜD - Certificare produse safety',
+      'TÜV - Certificare produse safety, conform fișei tehnice a modelului',
       'ISO 13849-1 PLe - Performance Level e',
       'IEC 61508 SIL3 - Safety Integrity Level 3',
       'IEC 62061 - Safety of machinery',
@@ -1306,7 +1294,7 @@ Cu peste 40 filiale globale și prezență în 70+ țări, Pilz asigură suport 
       },
       {
         "code": "PNOZ X4",
-        "description": "Modul de extindere contacte pentru seria PNOZ X"
+        "description": "Releu de siguranță pentru oprire de urgență și poartă de protecție"
       },
       {
         "code": "PMUT X1P",
@@ -1376,44 +1364,44 @@ Cu peste 40 filiale globale și prezență în 70+ țări, Pilz asigură suport 
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     infinitrade: `Pentru echipamentele de siguranță Pilz, pornim de la surse publice ale producătorului și nu deținem noi calculul oficial de Performance Level pentru mașina dumneavoastră. Componentele fizice disponibile la noi pleacă în 24-72 de ore; relee PNOZ, light curtains sau scannere mai puțin uzuale vin prin canale de aprovizionare din Uniunea Europeană, de regulă în 1–4 săptămâni. Pentru o ofertă corectă, trimiteți-ne categoria de siguranță necesară, tipul aplicației și codul componentei dacă îl aveți deja. Verificăm disponibilitatea reală înainte de a confirma un termen, mai ales pentru sistemele complexe PNOZmulti sau PSENscan.`
   },
 
   'pneumax': {
     founded: 1976,
     headquarters: 'Lurano (Bergamo), Italia',
-    employees: '500+',
-    overview: `Pneumax S.p.A. este producător italian de componente pneumatice cu focalizare pe calitate, inovație și flexibilitate. Fondată în 1976 în Brescia, compania a crescut de la un atelier de prelucrare mecanică la unul dintre furnizorii europeni importanți pentru cilindri pneumatici, valve, FRL-uri (Filter-Regulator-Lubricator) și accesorii. Filosofia Pneumax e simplă: oferă calitate italiană la prețuri competitive și răspunde rapid la cerințe custom - de la cilindri cu curse speciale până la manifolduri valve configure la comandă. Când ai nevoie de 50 cilindri Ø40 cu cursă 380mm livrați în 3 zile, Pneumax livrează. Flexibility și customer service sunt punctele lor forte.
+    employees: '850',
+    overview: `Pneumax S.p.A. este producător italian de componente pneumatice cu focalizare pe calitate, inovație și flexibilitate. Fondată în 1976, compania are sediul la Lurano (Bergamo) și este un furnizor european de componente pentru automatizări pneumatice, între care cilindri pneumatici, valve, FRL-uri (Filter-Regulator-Lubricator) și accesorii. Pneumax produce, între altele, cilindri cu curse speciale și manifolduri de valve configurate la comandă; disponibilitatea și termenul se confirmă la fiecare cerere.
 
-Gama de produse acoperă toate nevoile pneumatice: cilindri ISO 15552 (Ø32-320mm), cilindri compacți, cilindri rotative, valve 3/2, 5/2, 5/3 (solenoide, pneumatice, manuale), insule valve modulare cu comunicație fieldbus (AS-i, PROFIBUS, DeviceNet, IO-Link), FRL-uri combinații cu filtre 5-40 μm, regulatoare presiune 0.5-10 bar, lubricatoare. Cilindrii Pneumax cu profile aluminiu extrudat și piston magnetic sunt echivalent functional ISO dar la cost redus cu 20-30% față de SMC/Festo. Valve cu comandă electrică au solenoizi low-power (<2W) pentru economie energie și compatibilitate cu insule compacte. Manifoldurile cu montare valve quick-connect permit configurare și service rapid fără scule.
+Gama de produse acoperă toate nevoile pneumatice: cilindri ISO 15552 (Ø32-320mm), cilindri compacți, cilindri rotative, valve 3/2, 5/2, 5/3 (solenoide, pneumatice, manuale), insule valve modulare cu comunicație fieldbus (AS-i, PROFIBUS, DeviceNet, IO-Link), FRL-uri (filtre, regulatoare de presiune, lubricatoare). Cilindrii Pneumax conformi ISO 15552 sunt interschimbabili dimensional, conform standardului. Consumul bobinelor valvelor cu comandă electrică se confirmă pe cod. Manifoldurile cu montare valve quick-connect permit configurare și service rapid fără scule.
 
-Cu facilități de producție în Italia și distribution în 60+ țări, Pneumax combină manufacturing tradițional italian cu supply chain modern. Certificări ISO 9001, componente conform EN ISO 15552, valve conform ISO 5599-1. Time-to-market scurt pentru produse custom - engineerii Pneumax modifică și produc cilindri speciali într-un termen redus, conform producătorului. Pneumax este distribuit pentru că oferă un echilibru bun între calitate europeană și flexibilitate - componente fiabile la preț competitiv cu delivery rapid și suport tehnic responsive.`,
+Cu producție concentrată în Italia și prezență în peste 50 de țări, Pneumax combină manufacturing tradițional italian cu supply chain modern. Certificări ISO 9001, componente conform EN ISO 15552, valve conform ISO 5599-1. Time-to-market scurt pentru produse custom - engineerii Pneumax modifică și produc cilindri speciali într-un termen redus, conform producătorului. Pneumax produce componente pneumatice în Italia; termenul de livrare și suportul tehnic se confirmă la fiecare cerere.`,
     whyChoose: [
-      'Cilindri pneumatici ISO 15552 calitate italiană la prețuri competitive',
+      'Cilindri pneumatici ISO 15552 produși în Italia',
       'Flexibilitate ridicată - curse și configurații custom la cerere',
-      'Valve cu solenoid low-power (<2W) pentru eficiență energetică',
-      'Insule valve modulare cu fieldbus (PROFIBUS, DeviceNet, IO-Link)',
-      'Delivery rapid - stoc Europa și producție cu lead-time scurt',
+      'Valve cu comandă electrică; consumul bobinei se confirmă pe cod',
+      'Insule de valve cu sisteme fieldbus; protocoalele disponibile se confirmă pe cod',
+      'Termenul de livrare se confirmă la fiecare cerere (de regulă 1–4 săptămâni la comandă)',
       'Suport tehnic direct și modificări pe măsură'
     ],
     keyProducts: [
       {
-        name: 'Cilindri pneumatici ISO 15552 seria 1300',
-        description: 'Cilindri dublu-efect conformi standard ISO 15552 (ex-VDMA 24562) pentru intercambiabilitate universală. Diametru Ø32, 40, 50, 63, 80, 100, 125, 160, 200, 250, 320mm. Curse standard 25-1000mm, curse speciale până la 3000mm la comandă. Construcție: țeavă aluminiu extrudat, capace aluminiu turnat, piston aluminiu, tijă oțel inox cromată dură. Etanșări piston și tijă NBR sau PU pentru lungă durată. Magnet piston pentru detectare senzori reed. Presiune lucru 1-10 bar. Temperatura -20°C până +80°C (seal NBR) sau -40°C până +90°C (seal PU special). Amortizare pneumatică adjustable front/rear pentru curse >100mm. Montare: front/rear flange, foot mounting, trunnion, clevis - accesorii conform ISO disponibile. Aplicații: automatizări ambalare, mașini transfer, positionare piese, prese pneumatice, gate actuators. Viteză piston până la 1m/s în funcție de sarcină. Forță teoretică (push la 6 bar): 480N (Ø32) până la 49,000N (Ø320). Protecție piston rotation prin groove anti-rotation în tijă sau key external. Finish: anodized natural sau black. Garanție 24 luni utilization normală.'
+        name: 'Cilindri pneumatici ISO 15552',
+        description: 'Cilindri dublu-efect conformi standard ISO 15552 (ex-VDMA 24562) pentru intercambiabilitate universală. Diametru Ø32, 40, 50, 63, 80, 100, 125, 160, 200, 250, 320mm. Cursele standard și cele speciale se confirmă pe cod. Construcție: țeavă aluminiu extrudat, capace aluminiu turnat, piston aluminiu, tijă oțel inox cromată dură. Etanșări piston și tijă NBR sau PU pentru lungă durată. Magnet piston pentru detectare senzori reed. Presiune lucru 1-10 bar. Domeniul de temperatură depinde de materialul etanșărilor și se confirmă pe cod. Amortizare pneumatică adjustable front/rear pentru curse >100mm. Montare: front/rear flange, foot mounting, trunnion, clevis - accesorii conform ISO disponibile. Aplicații: automatizări ambalare, mașini transfer, positionare piese, prese pneumatice, gate actuators. Forță teoretică (împingere la 6 bar): aprox. 480 N (Ø32) până la aprox. 48 300 N (Ø320). Protecție piston rotation prin groove anti-rotation în tijă sau key external. Finish: anodized natural sau black. '
       },
       {
         name: 'Valve distribuție 5/2 seria 2400',
-        description: 'Valve pneumatice 5 căi 2 poziții pentru comanda cilindri dublu-efect. Principiu: spool slide sau poppet în funcție de dimensiune. Conexiuni: G1/8", G1/4", G3/8", G1/2" sau racord rapid push-in Ø4-12mm. Flow CV până la 2.5 (valve mari) - alimentare cilindri mari fără restricție. Comandă: solenoid electric 24VDC (versiuni 12VDC, 110VAC, 230VAC disponibil), pilot pneumatic, manual override. Solenoid low-power <2W pentru eficiență și compatibilitate insule compacte. Protecție bobină: diode varistor integrat pentru sarcini inductive, grad IP65. Presiune lucru 2-10 bar. Funcții: monostabil (spring return), bistabil (impulse sau detent). Montare: individual cu bracket, subbază ISO 5599-1 pentru intercambiabilitate, manifold serie 2400M cu montare modulară quick-connect. LED indicator status integrat în conector. Certificări CE, conform ISO 5599-1. Aplicații: comandă cilindri, automatizări secvențiale, sisteme de prindere, gate control. Temperatura -10°C până +60°C. Material body aluminiu anodized, interior inox. Durată de viață ridicată la presiunea nominală, conform producătorului. Manual override pentru emergency sau setup.'
+        description: 'Valve pneumatice 5 căi 2 poziții pentru comanda cilindri dublu-efect. Principiu: spool slide sau poppet în funcție de dimensiune. Conexiuni: G1/8", G1/4", G3/8", G1/2" sau racord rapid push-in Ø4-12mm. Debitul depinde de model și se confirmă pe cod. Comandă: solenoid electric 24VDC (versiuni 12VDC, 110VAC, 230VAC disponibil), pilot pneumatic, manual override.  Protecție bobină: diode varistor integrat pentru sarcini inductive, grad IP65. Presiune lucru 2-10 bar. Funcții: monostabil (spring return), bistabil (impulse sau detent). Montare: individual cu bracket, subbază ISO 5599-1 pentru intercambiabilitate, manifold serie 2400M cu montare modulară quick-connect. LED indicator status integrat în conector. Certificări CE, conform ISO 5599-1. Aplicații: comandă cilindri, automatizări secvențiale, sisteme de prindere, gate control. Domeniul de temperatură și materialele corpului se confirmă pe cod. Durată de viață ridicată la presiunea nominală, conform producătorului. Manual override pentru emergency sau setup.'
       },
       {
         name: 'Insule valve modulare seria 2600 cu fieldbus',
-        description: 'Manifold pneumatic cu valve compacte montare modulară și comunicație industrială. Configurație: base plate cu alimentare aer comprimat + până la 32 valve distribuție plug-in + modul comunicație fieldbus terminal. Valve disponibile: 5/2 monostabil/bistabil, 3/2 NO/NC, proporționale pentru flow control. Conexiuni: racord push-in Ø4, 6, 8mm per valve. Flow CV 0.5-1.2 per valvă. Solenoid 24VDC low-power <1.5W per bobină. Fieldbus support: AS-Interface (ASi), PROFIBUS DP, DeviceNet, EtherNet/IP, IO-Link, Modbus TCP. Diagnostic: status LED per valvă, transmite presiune/flow/fault către PLC. Protecție IP65/IP67 versiuni outdoor. Presiune lucru 0-10 bar. Aplicații: automatizare mașini ambalare, roboți pick-and-place cu multi-gripper, sisteme handling cu actuatori multipli. Economie wiring - un singur cablu fieldbus înlocuiește 64 fire discrete. Base plate aluminiu cu canale integrate pentru distribuție aer - zero tubing extern. Valve hot-swap - schimbi valvă defectă fără a opri sistemul. Configurare prin software device DTM conform FDT standard. Temperatură -5°C până +50°C. Montare DIN rail sau direct pe mașină. Expansion graduală - adaugi valve pe măsură ce crește aplicația.'
+        description: 'Manifold pneumatic cu valve compacte montare modulară și comunicație industrială. Configurație: base plate cu alimentare aer comprimat + valve de distribuție + modul de comunicație fieldbus; numărul de valve depinde de configurație. Valve disponibile: 5/2 monostabil/bistabil, 3/2 NO/NC, proporționale pentru flow control. Conexiuni: racord push-in Ø4, 6, 8mm per valve. Debitul și consumul bobinei se confirmă pe cod. Fieldbus support: AS-Interface (ASi), PROFIBUS DP, DeviceNet, EtherNet/IP, IO-Link, Modbus TCP. Diagnostic: status LED per valvă, transmite presiune/flow/fault către PLC. Protecție IP65/IP67 versiuni outdoor. Presiune lucru 0-10 bar. Aplicații: automatizare mașini ambalare, roboți pick-and-place cu multi-gripper, sisteme handling cu actuatori multipli. Un cablu fieldbus poate înlocui cablajul individual al valvelor. Base plate aluminiu cu canale integrate pentru distribuție aer - zero tubing extern.  Temperatură -5°C până +50°C. Montare DIN rail sau direct pe mașină. Expansion graduală - adaugi valve pe măsură ce crește aplicația.'
       },
       {
-        name: 'FRL combo seria 3000',
-        description: 'Unitate combinată Filter-Regulator-Lubricator pentru pregătire aer comprimat. **Filter**: separare apă prin coalescență + filtrare particule solide 5, 25 sau 40 μm. Bowl policarbonat transparent (vizualizare nivel condensat) sau metal pentru presiuni mari. Drainage manuală sau semi-automată. **Regulator**: ajustare presiune downstream 0.5-10 bar prin knob cu lock nut. Manometru analogic 0-10/16 bar indicare vizuală. Relieving type - reduce presiune la ajustare downward. **Lubricator**: nebulizare ulei pneumatic în flux aer - reglare debit picături vizibil prin dome transparent. Capacitate bowl 50-250ml în funcție de dimensiune. Montare: combinație modulară pe șină DIN sau bracket. Conexiuni G1/4", G3/8", G1/2", G3/4" sau NPT. Flow 600-6000 L/min (ANR) în funcție de port size. Aplicații: pregătire aer pentru valve, cilindri, scule pneumatice, echipamente ce necesită lubrifiere. Temperatura -5°C până +60°C. Presiune max 16 bar. Atenție: filtrare și lubrifiere necesară selectiv - echipamentele moderne adesea preferă aer non-lubricated.'
+        name: 'Unități FRL combinate',
+        description: 'Unitate combinată Filter-Regulator-Lubricator pentru pregătire aer comprimat. **Filter**: separare apă prin coalescență + filtrare particule solide 5, 25 sau 40 μm. Bowl policarbonat transparent (vizualizare nivel condensat) sau metal pentru presiuni mari. Drainage manuală sau semi-automată. **Regulator**: ajustare presiune downstream 0.5-10 bar prin knob cu lock nut. Manometru analogic 0-10/16 bar indicare vizuală. Relieving type - reduce presiune la ajustare downward. **Lubricator**: nebulizare ulei pneumatic în flux aer - reglare debit picături vizibil prin dome transparent. Capacitate bowl 50-250ml în funcție de dimensiune. Montare: combinație modulară pe șină DIN sau bracket. Conexiuni G1/4", G3/8", G1/2", G3/4" sau NPT. Debitul depinde de dimensiunea portului și se confirmă pe cod. Aplicații: pregătire aer pentru valve, cilindri, scule pneumatice, echipamente ce necesită lubrifiere. Temperatura și presiunea maximă se confirmă pe cod. Atenție: filtrare și lubrifiere necesară selectiv - echipamentele moderne adesea preferă aer non-lubricated.'
       }
     ],
     certifications: [
@@ -1423,8 +1411,8 @@ Cu facilități de producție în Italia și distribution în 60+ țări, Pneuma
       'CE - Conformitate directive UE',
       'RoHS - Conformitate substanțe',
       'REACH - Registration chemicals',
-      'ISO 14001 - Management mediu (in process)',
-      'PED - Pressure Equipment Directive (componente presiune)'
+      'ISO 14001 - Management de mediu',
+      'ATEX 2014/34/UE - pentru gamele aplicabile, conform profilului companiei'
     ],
     industries: [
       'packaging',
@@ -1494,7 +1482,7 @@ Cu facilități de producție în Italia și distribution în 60+ țări, Pneuma
     faq: [
       {
         "q": "Ce serie Pneumax aleg pentru un cilindru compact ISO 15552?",
-        "a": "Gama de cilindri și microcilindri Steel Line, din seria 3000, acoperă dimensiunile standard ISO 15552 folosite frecvent în automatizarea industrială. Alegerea diametrului și a cursei depinde de forța necesară și de spațiul de montaj disponibil pe mașină."
+        "a": "Pneumax oferă cilindri și microcilindri; seria și conformitatea cu ISO 15552 se confirmă pe cod. Alegerea diametrului și a cursei depinde de forța necesară și de spațiul de montaj disponibil pe mașină."
       },
       {
         "q": "Ce este seria Line-Flat-VDMA de la Pneumax?",
@@ -1510,12 +1498,12 @@ Cu facilități de producție în Italia și distribution în 60+ țări, Pneuma
       },
       {
         "q": "Care e diferența dintre seria 2400 și seria 2600 la Pneumax?",
-        "a": "Ambele sunt distribuitoare Line-Flat cu montare VDMA, dar diferă prin gabarit și prin debitul nominal de aer pe care îl pot comuta. Seria 2600 acoperă un debit mai mare, recomandat pentru actuatoare pneumatice de dimensiuni superioare celor deservite de seria 2400."
+        "a": "Ambele sunt distribuitoare Line-Flat cu montare VDMA; diferențele de gabarit și de debit se confirmă din fișele tehnice ale producătorului."
       }
     ],
     evidenceClass: 'history-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Pneumax, conform surselor citate.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Pneumax, conform surselor citate.' }],
     infinitrade: `Pentru pneumatica Pneumax, nu avem niciun fapt propriu verificat despre stocul exact al fabricii din Italia la un moment dat. Cilindrii și valvele standard pe care le deținem fizic pleacă în 24-72 de ore; configurațiile custom (curse speciale, manifolduri la comandă) ajung prin canalele noastre de aprovizionare din UE, de obicei în 1–4 săptămâni. Pentru un termen realist, trimiteți-ne diametrul și cursa cilindrului sau schema manifoldului dorit, împreună cu cantitatea necesară. Nu promitem livrare rapidă pentru configurații speciale fără să confirmăm întâi disponibilitatea la fabrică.`
   }
 };

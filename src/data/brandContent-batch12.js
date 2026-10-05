@@ -316,33 +316,33 @@ Certificatele de calibrare, trasabilitatea și serviciile de recalibrare diferă
     employees: '62,000+ (ExxonMobil)',
     overview: `Mobil (ExxonMobil) este unul dintre producătorii importanți de lubrifianți industriali la nivel mondial, cu peste 150 de ani de cercetare în tribologie și formulări sintetice. Conform producătorului, uleiurile hidraulice din seria Mobil DTE sunt formulate pentru intervale lungi de funcționare în prese hidraulice, unsorile Mobilith SHC sunt gândite pentru rulmenți la temperaturi ridicate în cuptoare rotative, iar uleiurile de transmisie Mobil SHC Gear urmăresc reducerea consumului energetic față de uleiurile minerale clasice. Diferența față de un lubrifiant obișnuit se poate observa prin analiza periodică a uleiului (oil analysis) - uzură redusă, intervale de schimb mai lungi, temperaturi de funcționare mai mici.
 
-Gama industrială Mobil e organizată pe aplicații: seria DTE (Dynamic Technology Excellence) pentru hidraulică cu formule ISO VG 10-680, seria SHC (Synthetic Hydrocarbon) pentru temperaturi extreme -54°C la +200°C, Mobilith pentru unsori litiu complex și sintetic cu NLGI 0-3, Mobilgear pentru transmisii industriale și automotive, Mobil Rarus pentru compresoare cu șurub și palete, Vacuoline pentru pompe vid și turbine, Mobilmet pentru operații de așchiere și formarea metalelor. Fiecare serie are zeci de grade și formulări optimizate pentru presiune, temperatură, compatibilitate etanșări, biodegradabilitate.
+Gama industrială Mobil e organizată pe aplicații: seria DTE pentru hidraulică cu formule ISO VG 10-680, seria SHC (lubrifianți sintetici) pentru temperaturi extreme, cu domeniul exact în funcție de produs, Mobilith pentru unsori litiu complex și sintetic cu NLGI 0-3, Mobilgear pentru transmisii industriale, Mobil Rarus pentru compresoare cu șurub și palete, Mobilmet pentru operații de așchiere și formarea metalelor. Fiecare serie are zeci de grade și formulări optimizate pentru presiune, temperatură, compatibilitate etanșări, biodegradabilitate.
 
-Producătorul investește în R&D - laborator propriu de tribologie pentru testare în condiții extreme, parteneriate cu OEM-uri majore (SKF pentru rulmenți, Siemens pentru reductoare, Atlas Copco pentru compresoare) și suport tehnic prin programul Mobil Serv (oil analysis, lubrication surveys, training). În industria grea - siderurgie, mining, ciment, hârtie - unde echipamentul lucrează la capacitate ridicată, lubrifierea corectă influențează direct costurile de mentenanță și opririle neplanificate.`,
+Producătorul investește în R&D - activități de cercetare și testare; serviciile tehnice (de exemplu analiza uleiului) se stabilesc direct cu producătorul. În industria grea - siderurgie, mining, ciment, hârtie - unde echipamentul lucrează la capacitate ridicată, lubrifierea corectă influențează direct costurile de mentenanță și opririle neplanificate.`,
     whyChoose: [
-      'Tehnologie sintetică de vârf - Mobil SHC cu PAO rezistă -54°C la +200°C',
-      'Intervale schimb extinse - 2-4x mai lungi vs. minerale standard (cost total redus)',
+      'Tehnologie sintetică - gama Mobil SHC; domeniul de temperatură diferă pe produs',
+      'Intervale de schimb extinse la unele produse sintetice, conform producătorului; valorile depind de aplicație',
       'Eficiență energetică - reducere de consum cu uleiuri low-friction, conform producătorului',
-      'OEM approvals - peste 600 aprobare de la producători echipamente (SKF, Siemens, Bosch)',
-      'Mobil Serv Program - analiză ulei gratuită, lubrication surveys, training tehnic',
-      'Gamă completă 400+ produse - de la hidraulică la transmisii, compresoare, turbine'
+      'Aprobări ale producătorilor de echipamente - la produsele care le au, conform fișei tehnice',
+      'Servicii tehnice ale producătorului (de exemplu analiza uleiului) - se stabilesc direct cu ExxonMobil',
+      'Gamă largă - de la hidraulică la transmisii, compresoare și turbine'
     ],
     keyProducts: [
       {
         name: 'Mobil DTE 20 Series Hydraulic Oil',
-        description: 'Uleiuri hidraulice high-performance cu tehnologie anti-uzură avansată - protecție pompă vane/piston peste 5,000 ore FZG test. Formulare Zinc-free pentru compatibilitate vopsele industriale și catalizatori. Vâscozitate ISO VG 32, 46, 68 cu indice vâscozitate 95+ pentru stabilitate temperatură. Protecție oxidare 8,000+ ore TOST, filtrabilitate excelentă (wet filterability <180s ISO 13357-1), demulsibilitate sub 20 min. Compatibilitate etanșări NBR, Viton, polyurethane. Aplicații: sisteme hidraulice industriale prese, injectoare plastic, mașini ambalare, mobile hydraulics. Interval schimb 4,000-8,000 ore vs. 2,000-3,000 minerale standard - economie substanțială în manhours și disposal.'
+        description: 'Gamă de uleiuri hidraulice Mobil DTE pentru sisteme hidraulice industriale; gradele de vâscozitate ISO VG, aditivarea, compatibilitatea cu etanșările și intervalele de schimb se confirmă pe cod, din fișa tehnică Mobil.'
       },
       {
         name: 'Mobilith SHC 220 Grease',
-        description: 'Unsoare sintetică premium litiu complex cu bază PAO (polyalphaolefin) pentru performanță extremă. Temperatură lucru continuă -40°C la +180°C, vârf până la +220°C. NLGI Grade 2, penetrație 265-295 (0.1mm), dropping point >260°C. Protecție anti-uzură superioară - test 4-balls welding load 315 kg, wear scar 0.4mm. Rezistență apă excelentă, oxidare extremă (10,000+ ore ASTM D942), compatibilitate elastomeri. Aplicații: rulmenți motor electric, reductoare sellate, pompe vid rotative, ventilatore cuptor, lanțuri transportoare la cald. Interval relubrificare de 2-3x mai lung vs. unsori litiu convenționale - scade manhours mentenanță și consumul de unsoare.'
+        description: 'Unsoare sintetică premium litiu complex cu bază PAO (polyalphaolefin) pentru performanță extremă. Clasa NLGI 2 (conform denumirii seriei); domeniul de temperatură, protecția la uzură și rezistența la apă se confirmă din fișa tehnică Mobil. Aplicații: rulmenți motor electric, reductoare sellate, pompe vid rotative, ventilatore cuptor, lanțuri transportoare la cald. Intervalele de relubrifiere depind de aplicație.'
       },
       {
         name: 'Mobil SHC Gear 320 Synthetic Gear Oil',
-        description: 'Ulei sintetic pentru transmisii industriale cu formulare PAO și aditivi EP (extreme pressure). ISO VG 320, indice vâscozitate 160 pentru stabilitate termică superioară. FZG gear test fail stage 13+ (protecție anti-pitting extremă), Load Carrying Capacity Timken OK load 65 lbs. Eficiență energetică - reducere frecare vs. minerale, cu economie de energie măsurată în teste de teren. Interval schimb 3x mai lung (12,000-15,000 ore vs. 4,000-5,000 minerale). Compatibilitate etanșări, filtrare superioară. Aplicații: reductoare industriale heavy-duty, extrudere plastic, mixere, conveyors, elevators, wind turbine gearboxes. Investiție care poate reduce costurile pe termen lung prin economii de energie și mentenanță redusă.'
+        description: 'Ulei sintetic Mobil SHC Gear 320 (ISO VG 320) pentru angrenaje industriale închise; indicele de vâscozitate, protecția la uzură, intervalele de schimb și compatibilitatea cu etanșările se confirmă din fișa tehnică Mobil.'
       },
       {
-        name: 'Mobil Rarus SHC 1026 Compressor Oil',
-        description: 'Ulei sintetic pentru compresoare cu șurub și palete cu cerințe extreme - formulare PAO cu aditivi anti-uzură și anti-oxidare proprietari. Vâscozitate ISO VG 46, stabilitate termică ridicată (temperaturi descărcare până la 220°C fără formare depuneri). Separare de aer excelentă pentru eficiență comprimare, protecție rulmenți și angrenaje superioare, interval schimb 4,000-6,000 ore vs. 2,000 minerale. Compatibilitate etanșări NBR, Viton, PTFE. Aplicații: compresoare rotative cu șurub industriale (Atlas Copco, Ingersoll Rand, Kaeser), compresoare palete, aplicații pharmaceutical unde puritatea aerului e critică. Reduce consumul de energie la comprimare, scade costuri de mentenanță și downtime, conform testelor de teren în textile, food processing, automotive.'
+        name: 'Mobil SHC Rarus Series Compressor Oil',
+        description: 'Uleiuri sintetice pentru compresoare cu șurub și cu palete, disponibile în grade ISO VG 32, 46 și 68 (Mobil SHC Rarus 32, 46, 68); aditivarea, intervalele de schimb și compatibilitatea cu etanșările se confirmă din fișa tehnică Mobil.'
       }
     ],
     certifications: [
@@ -395,7 +395,7 @@ Producătorul investește în R&D - laborator propriu de tribologie pentru testa
       },
       {
         "code": "Mobil SHC Gear 220",
-        "description": "ulei sintetic pentru angrenaje închise, aprobat pentru cutii de roți motorizate"
+        "description": "ulei sintetic pentru angrenaje închise, ISO 220"
       },
       {
         "code": "Mobil SHC Gear 320",
@@ -461,8 +461,8 @@ Producătorul investește în R&D - laborator propriu de tribologie pentru testa
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -472,35 +472,35 @@ Producătorul investește în R&D - laborator propriu de tribologie pentru testa
     founded: 1951,
     headquarters: 'New York, SUA',
     employees: '11,500+',
-    overview: `Moog e un nume de referință în domeniul servo-valvelor și sistemelor de control hidraulic de precizie - de la programele aerospațiale până la simulatoarele de zbor și turbinele eoliene offshore moderne. Peste 70 ani de inginerie concentrată în controlul extrem de precis al fluidelor sub presiune. Servo-valvele Moog se folosesc frecvent în teste materiale (universal testing machines) unde poziționarea la ±0.01mm și controlul forței la ±0.5% sunt standarde zilnice - repetabilitatea și fiabilitatea sunt documentate de producător chiar și după 50.000 cicluri.
+    overview: `Moog e un nume de referință în domeniul servo-valvelor și sistemelor de control hidraulic de precizie - de la programele aerospațiale până la simulatoarele de zbor și turbinele eoliene offshore moderne. Peste 70 ani de inginerie concentrată în controlul extrem de precis al fluidelor sub presiune. Servo-valvele Moog se folosesc frecvent în echipamente de testare a materialelor, unde contează precizia de poziționare și de control al forței; valorile atinse depind de modelul valvei și de sistem.
 
-Tehnologia lor de bază e servo-valva cu jet pipe sau flapper-nozzle care convertește semnale electrice mici (±10V, 4-20mA) în mișcări hidraulice precise și puternice. Seria D634 (direct drive servo-valve) oferă bandwidth până la 100Hz, hysteresis sub 0.5%, linearitate ±1% în toată cursa. Seria D765 (proportional valve) e mai economică dar încă oferă control excellent pentru aplicații non-critical. Și apoi sunt sistemele complete - motion controllers RMC75E cu 4 axe hidraulice sincronizate la ±0.1mm, servo-drives și amplificatoare care închid bucla de control la 1kHz, transduzeri de poziție și presiune integrate.
+Tehnologia lor de bază e servo-valva cu jet pipe sau flapper-nozzle care convertește semnale electrice mici (±10V, 4-20mA) în mișcări hidraulice precise și puternice. Seria D634 (direct drive servo-valve) oferă bandwidth până la 100Hz, hysteresis sub 0.5%, linearitate ±1% în toată cursa. Seria D765 (proportional valve) e mai economică dar încă oferă control excellent pentru aplicații non-critical. Și apoi sunt sistemele complete - motion controllers RMC75E pentru sisteme servo-hidraulice multi-axă, servo-drives și amplificatoare care închid bucla de control la 1kHz, transduzeri de poziție și presiune integrate.
 
-Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele magnetice și jet-pipe-ul din servo-vavlă până la software-ul motion control și interfețele HMI. Rezultatul: compatibilitate perfectă între componente, diagnoză avansată, upgrade-uri facile. În aplicații unde controlul precis forță/poziție hidraulică e vital - teste structurale aerospace, simulatoare mișcare, steel rolling mills, injection molding prese mari - Moog înseamnă performanță fără compromis și suport tehnic solid. Costă mai mult, dar ROI-ul vine din precizie repetabilă și uptime ridicat.`,
+Moog oferă atât valve și pompe, cât și controlere și servo-drive-uri pentru sisteme hidraulice; compatibilitatea între componente și opțiunile disponibile se confirmă pe cod. În aplicații unde controlul precis forță/poziție hidraulică e vital - teste structurale aerospace, simulatoare mișcare, steel rolling mills, injection molding prese mari - Moog este folosit în aplicații cu cerințe ridicate de control hidraulic; alegerea modelului se face după fișa tehnică oficială.`,
     whyChoose: [
-      'Servo-valve de precizie extremă - hysteresis <0.5%, bandwidth 100Hz, linearitate ±1%',
+      'Servo-valve de precizie - valorile de histerezis, bandwidth și liniaritate depind de model',
       'Sisteme integrate complete - valve + controller + drives + HMI de la un singur OEM',
       'Aplicații extreme dovedite - aerospațial, simulatoare motorsport, offshore wind, steel mills',
-      'Motion control multi-axă - până la 32 axe hidraulice sincronizate la 0.1mm',
+      'Motion control multi-axă - numărul de axe și precizia de sincronizare depind de model',
       'Diagnostică avansată - monitorizare continuă parametri, predictive maintenance alerts',
-      'Suport global 24/7 - ingineri aplicații, training la client, piese de schimb rapid delivery'
+      'Suport tehnic al producătorului - se stabilește direct cu Moog'
     ],
     keyProducts: [
       {
         name: 'D634 Direct Drive Servo Valve',
-        description: 'Servo-valve hidraulică cu torque motor direct drive - o soluție de precizie ridicată pentru control poziție/forță/presiune în hidraulică industrială. Flow rate 5-380 L/min la presiune diferențială 70 bar, presiune sistem până la 315 bar. Bandwidth ±3dB la 60-100Hz (model dependent), hysteresis <0.5%, linearitate ±1%, simetrie ±3%. Temperatură fluid -40°C la +80°C, vâscozitate 10-400 cSt. Opțiuni: feedback poziție spool integrat LVDT, mounting SAE, ISO, CETOP, filtre integrate 5μm absolute. Aplicații: teste materiale servo-hidraulice, simulatoare mișcare (flight, driving), injection molding prese mari, steel hot rolling mills, active vibration damping. Costisitoare dar de neînlocuit unde repetabilitatea sub 0.01mm și forța constantă la ±0.5% sunt non-negociabile.'
+        description: 'Servo-valve hidraulică cu torque motor direct drive - o soluție de precizie ridicată pentru control poziție/forță/presiune în hidraulică industrială. Debitul nominal depinde de mărimea și modelul supapei (D633: 40 l/min, D634: 100 l/min la 35 bar, conform catalogului Moog); presiunea maximă de sistem se confirmă pe cod. Bandwidth ±3dB la 60-100Hz (model dependent), hysteresis <0.5%, linearitate ±1%, simetrie ±3%. Temperatură fluid -40°C la +80°C, vâscozitate 10-400 cSt. Opțiuni: feedback poziție spool integrat LVDT, mounting SAE, ISO, CETOP, filtre integrate 5μm absolute. Aplicații: teste materiale servo-hidraulice, simulatoare mișcare (flight, driving), injection molding prese mari, steel hot rolling mills, active vibration damping.'
       },
       {
         name: 'D765 Proportional Directional Valve',
-        description: 'Valve hidraulice proporționale direct-operated pentru aplicații industrial standard unde servo-valve full e over-engineered. Flow rate 20-300 L/min, presiune până la 350 bar. Bandwidth ±3dB la 20-35Hz, hysteresis <3%, linearitate ±3%, repetiție ±1.5%. Comandă 4-20mA sau ±10V cu feedback poziție spool opțional. Temperatură -30°C la +80°C, vâscozitate 10-500 cSt, filtrare recomandată 10μm. Versiuni: 2-stage (pilot-operated) pentru flow >100 L/min, direct-operated pentru <100 L/min. Aplicații: mobile hydraulics premium (excavatoare, cranes), industrial presses formare metal, plastic injection molding tier-2, test rigs non-critical. Preț 50-60% din servo-valve dar performanță excelentă pentru majoritatea aplicațiilor industriale.'
+        description: 'Valve hidraulice proporționale cu acționare directă, pentru aplicații industriale standard. Flow rate 20-300 L/min, presiune până la 350 bar. Bandwidth ±3dB la 20-35Hz, hysteresis <3%, linearitate ±3%, repetiție ±1.5%. Comandă 4-20mA sau ±10V cu feedback poziție spool opțional. Temperatură -30°C la +80°C, vâscozitate 10-500 cSt, filtrare recomandată 10μm. Versiuni: 2-stage (pilot-operated) pentru flow >100 L/min, direct-operated pentru <100 L/min. Aplicații: mobile hydraulics premium (excavatoare, cranes), industrial presses formare metal, plastic injection molding tier-2, test rigs non-critical.'
       },
       {
         name: 'RMC75E Motion Controller',
-        description: 'Controller multi-axă dedicat sisteme servo-hidraulice - până la 4 axe hidraulice controlate simultan cu sincronizare la 0.1mm și 0.5% forță. Bucle control închise la 1kHz (1ms), algoritmi PID avansați cu feed-forward și adaptive tuning. Intrări: transduzeri poziție (LVDT, Temposonics, encodere), celule forță/presiune (strain gauge, piezo). Ieșiri: comenzi servo-valve ±10V/4-20mA. Comunicare: EtherNet/IP, Profinet, Modbus TCP, USB pentru programming. Software: RMCTools cu programare graphical sau text-based, scope real-time 4 canale, data logging, remote diagnostics. Perfect pentru universal testing machines, structural test rigs, simulatoare mișcare, steel rolling stands. Înlocuiește PLC + motion card + amplificator cu o soluție optimizată hidraulică - setup rapid, tuning automat, troubleshooting facil.'
+        description: 'Controller multi-axă dedicat sistemelor servo-hidraulice; numărul de axe, rata buclei de control și precizia se confirmă pe cod, din documentația Moog. Bucle control închise la 1kHz (1ms), algoritmi PID avansați cu feed-forward și adaptive tuning. Intrări: transduzeri poziție (LVDT, Temposonics, encodere), celule forță/presiune (strain gauge, piezo). Ieșiri: comenzi servo-valve ±10V/4-20mA. Comunicare: EtherNet/IP, Profinet, Modbus TCP, USB pentru programming. Software: RMCTools cu programare graphical sau text-based, scope real-time 4 canale, data logging, remote diagnostics. Perfect pentru universal testing machines, structural test rigs, simulatoare mișcare, steel rolling stands. Înlocuiește PLC + motion card + amplificator cu o soluție optimizată hidraulică - setup rapid, tuning automat, troubleshooting facil.'
       },
       {
-        name: 'Moog Radial Piston Pumps (RPP)',
-        description: 'Pompe hidraulice cu pistoane radiale pentru aplicații heavy-duty unde presiune înaltă constantă și eficiență sunt critice. Presiune continuă 400 bar, vârf 450 bar, displacement 9-84 cm³/rev, viteză până la 3,000 rpm. Eficiență volumetrică 98%, eficiență mecanică 95% - consum energie redus vs. pompe cu pistoane axiale. Nivel zgomot 68-75 dB(A), vibrații joase datorită design compensat. Fluid hidraulic mineral sau sintetic ISO VG 15-68, filtrare 10μm absolute. Aplicații: power packs pentru teste materiale, sisteme hydroforming automotive, steel descaling high-pressure, offshore hydraulics ROV. Design robust cu viață 30,000+ ore MTBF, service facil modular, piese schimb disponibile 15+ ani. Investiție pentru sisteme unde fiabilitatea și eficiența energetică justifică costul premium.'
+        name: 'Pompe cu pistoane radiale Moog RKP',
+        description: 'Pompe hidraulice cu pistoane radiale pentru sisteme care cer presiune ridicată și funcționare stabilă. Gama Moog RKP (RKP19 ... RKP250) are cilindree de la 19 până la 250 cm³/rotație; presiunea, turația, nivelul de zgomot și durata de viață se confirmă pe cod, din catalogul Moog.'
       }
     ],
     certifications: [
@@ -598,8 +598,8 @@ Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele m
       }
     ],
     evidenceClass: 'history-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -609,35 +609,35 @@ Ce îi diferențiază e verticalitatea - produc totul in-house: de la bobinele m
     founded: 1964,
     headquarters: 'Milano, Italia',
     employees: '1,200+',
-    overview: `MP Filtri e specialist absolut în filtrare hidraulică și monitorizare contaminare - 60 ani dedicați unei singure obsesii: să țină uleiul hidraulic curat și să detecteze orice problemă înainte să devină catastrofă. Filtrele MP Filtri se folosesc frecvent în sisteme hidraulice de la 50L la 2.000L rezervor, iar diferența față de filtre generice este documentată de producător - beta ratio real (nu teoretic) peste specificații, capacitate de retenție praf dublă, indicatori saturație fiabili, viață filtru prelungită cu 30-50%. Analizele de ulei arată, conform producătorului, coduri de contaminare mai bune decât cu filtre standard - asta înseamnă pompe și valve care trăiesc semnificativ mai mult.
+    overview: `MP Filtri este un producător italian de filtre hidraulice și de echipamente pentru monitorizarea contaminării fluidelor. Filtrele MP Filtri se folosesc în sisteme hidraulice industriale și mobile; performanțele de filtrare (de exemplu valorile beta determinate conform ISO 16889) și capacitatea de retenție depind de elementul filtrant ales și se confirmă din fișa tehnică MP Filtri.
 
-Gama lor acoperă tot ce înseamnă protecție hidraulică: filtre return line (seria FMP/FHP pentru debit 25-1,500 L/min), filtre presiune (seria FMM/FHM până la 420 bar), filtre suction (STR strainere cu magnet permanent), filtre off-line (seria FKP pentru by-pass constant cleaning), filtre breather (desiccant și coalescent pentru protecție contaminare aer). Elementele filtrante au tehnologii avansate: media fiberglass multi-layer pentru beta 1000 la 3μm, plisare uniformă pentru arie maximă, etanșări Viton/NBR/EPDM pentru compatibilitate chimică, collapse pressure rating 4x presiunea diferențială maximă pentru siguranță.
+Gama lor acoperă tot ce înseamnă protecție hidraulică: filtre return line (de exemplu seria FHP), filtre de presiune, filtre suction (STR strainere cu magnet permanent), filtre off-line (seria FKP pentru by-pass constant cleaning), filtre breather (desiccant și coalescent pentru protecție contaminare aer). Elementele filtrante sunt disponibile în mai multe grade de filtrare și materiale (de exemplu microfibră anorganică, codurile A, sau plasă metalică, codul M); etanșările și presiunea de colaps se confirmă pe cod, din fișa tehnică MP Filtri.
 
-Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filtru (pop-up, switches), senzori de particule online (seria MPT care numără particule 4μm, 6μm, 14μm în timp real și trimite alerte), sisteme complete condition monitoring MPM cu logging date și predictive maintenance. Asta schimbă total jocul: în loc să schimbi filtrele preventiv la 500 ore indiferent de stare, le schimbi când indicatorul spune (poate 800-1,200 ore) și primești alarme când contaminarea crește brusc - semn că e o problemă upstream (etanșare ruptă, pompa uzată). În industrii unde hidraulica e critică - siderurgie, offshore, mining - investiția în filtre și monitorizare MP Filtri se întoarce rapid prin echipamente protejate și mentenanță predictivă.`,
+Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filtru (pop-up, switches), senzori de particule online și sisteme de monitorizare a stării fluidului. Monitorizarea permite schimbarea elementelor în funcție de starea reală a fluidului și semnalarea unor creșteri bruște ale contaminării, care pot indica o problemă în amonte (de exemplu o etanșare defectă sau o pompă uzată). Filtrarea și monitorizarea contaminării sunt relevante în industrii unde hidraulica este critică, precum siderurgia, offshore sau mineritul.`,
     whyChoose: [
-      'Specializare pură filtrare - 60 ani dedicați doar protecției sistemelor hidraulice',
-      'Beta ratio verificat - performance reală testat conform ISO 16889 (nu "claimed")',
+      'Producător specializat în filtrare hidraulică și monitorizarea contaminării fluidelor',
+      'Valori beta determinate conform ISO 16889 - se confirmă pe cod, din fișa tehnică',
       'Gamă completă filtrare - return, pressure, suction, off-line, breather, toate debite',
       'Condition monitoring - senzori particule online, indicatori saturație, data logging',
-      'Durabilitate superioară - collapse pressure 4x și capacitate retenție 30-50% mai bună',
-      'Consultanță tehnică - sizing corect, analiza contaminare, optimizare intervale schimb'
+      'Presiunea de colaps și capacitatea de retenție depind de elementul filtrant - se confirmă pe cod',
+      'Fișe tehnice oficiale pentru dimensionarea corectă și alegerea gradului de filtrare'
     ],
     keyProducts: [
       {
         name: 'FHP Series Return Line Filters',
-        description: 'Filtre hidraulice return line high-pressure pentru protecție rezervor de contaminare generată în sistem. Debit 25-1,000 L/min, presiune până la 25 bar working / 30 bar peak, by-pass valve integrat set la 3.5 bar diferențial. Element filtrante media fiberglass multi-layer - finețe absolută 3μ, 5μ, 10μ, 25μ cu beta ratio β3≥1000, β10≥200 conform ISO 16889. Carcasă aluminiu sau oțel, etanșări Viton standard (-20°C la +100°C fluid). Indicatori saturație: vizual pop-up sau electric switch contact-free. Montare tank-top sau in-line, porting SAE sau ISO. Perfect pentru menținerea curățeniei ulei în sisteme mobile hydraulics (excavatoare, cranes) și industrial (prese, injectoare). Capacitate dirt holding 30-50% mai mare vs. filtre competitor - interval schimb prelungit, cost total redus.'
+        description: 'Filtre hidraulice return line high-pressure pentru protecție rezervor de contaminare generată în sistem. Debit 25-1,000 L/min, presiune până la 25 bar working / 30 bar peak, by-pass valve integrat set la 3.5 bar diferențial. Element filtrante media fiberglass multi-layer - finețe absolută 3μ, 5μ, 10μ, 25μ cu beta ratio β3≥1000, β10≥200 conform ISO 16889. Carcasă aluminiu sau oțel, etanșări Viton standard (-20°C la +100°C fluid). Indicatori saturație: vizual pop-up sau electric switch contact-free. Montare tank-top sau in-line, porting SAE sau ISO. Perfect pentru menținerea curățeniei ulei în sisteme mobile hydraulics (excavatoare, cranes) și industrial (prese, injectoare).'
       },
       {
         name: 'MPT Series Online Particle Counters',
-        description: 'Senzori online pentru numărarea particulelor în timp real și monitorizare continuă curățenie ulei hidraulic. Măsurare conform ISO 4406 în 3 canale: >4μm, >6μm, >14μm cu calibrare MTD (Motion Technology Dynamics). Debit intern 50 mL/min, presiune până la 400 bar, temperatură fluid -20°C la +100°C. Ieșire 4-20mA proportional cu contaminare + alarme relay hi/lo setabile. Display local LCD cu cod ISO live, trend-uri, alarme. Comunicare Modbus RTU/TCP, CANbus opțional pentru integrare SCADA. Montare in-line sau tank-side cu prelevare continuă. Aplicații: sisteme hidraulice critice (offshore, steel mills, power generation) unde deteriorarea calității ulei trebuie detectată instant - permite maintenance predictivă și evită damage catastrofal pompe/valve. Înlocuiește oil analysis lunar manual cu monitoring 24/7 automat și alertare imediată probleme.'
+        description: 'Senzori online pentru numărarea particulelor în timp real și monitorizare continuă curățenie ulei hidraulic. Măsurare conform ISO 4406 în 3 canale: >4μm, >6μm, >14μm cu calibrare ISO MTD (Medium Test Dust). Debit intern 50 mL/min, presiune până la 400 bar, temperatură fluid -20°C la +100°C. Ieșire 4-20mA proportional cu contaminare + alarme relay hi/lo setabile. Display local LCD cu cod ISO live, trend-uri, alarme. Comunicare Modbus RTU/TCP, CANbus opțional pentru integrare SCADA. Montare in-line sau tank-side cu prelevare continuă. Aplicații: sisteme hidraulice critice (offshore, steel mills, power generation) unde deteriorarea calității ulei trebuie detectată instant - permite maintenance predictivă și evită damage catastrofal pompe/valve. Înlocuiește oil analysis lunar manual cu monitoring 24/7 automat și alertare imediată probleme.'
       },
       {
         name: 'FKP Series Off-Line Filtration Units',
-        description: 'Unități de filtrare off-line (bypass) pentru curățare continuă ulei în rezervoare mari și recuperare ulei contaminat. Pompă cu angrenaje sau palete 5-100 L/min, motor electric 0.37-3 kW trifazat sau monofazat. Filtre dual-stage: pre-filtru 25μ + filtru fin 3-10μ cu beta ratio β3≥1000. Opțiune: coloană desiccant pentru îndepărtare umiditate (<100 ppm water) și separator water bowl. Carcasă montare mobilă cu roți pentru portabilitate sau fixare podea/perete. Aplicații: curățare proactivă rezervoare mari (>500L) pentru menținere cod ISO <16/14/11, recuperare ulei contaminat incident (scurgeri apă, praf, rugină), flush hidraulic la commissioning sisteme noi. O unitate FKP poate servi 5-10 mașini diferite în fabrică - investiție mică ROI rapid prin ulei prelungit viață și protecție echipamente. Folosit combinat cu MPT online counters pentru strategie completă fluid management.'
+        description: 'Unități de filtrare off-line (bypass) pentru curățare continuă ulei în rezervoare mari și recuperare ulei contaminat. Pompă cu angrenaje sau palete 5-100 L/min, motor electric 0.37-3 kW trifazat sau monofazat. Filtre dual-stage: pre-filtru 25μ + filtru fin 3-10μ cu beta ratio β3≥1000. Opțiune: coloană desiccant pentru îndepărtare umiditate (<100 ppm water) și separator water bowl. Carcasă montare mobilă cu roți pentru portabilitate sau fixare podea/perete. Aplicații: curățare proactivă rezervoare mari (>500L) pentru menținere cod ISO <16/14/11, recuperare ulei contaminat incident (scurgeri apă, praf, rugină), flush hidraulic la commissioning sisteme noi. O unitate off-line mobilă poate deservi pe rând mai multe mașini; capacitatea se alege după volumul rezervorului. Folosit combinat cu MPT online counters pentru strategie completă fluid management.'
       },
       {
         name: 'STR Series Suction Strainers',
-        description: 'Strecurători aspiration (suction) montate în rezervor pentru protecție pompă de contaminare grosieră. Mașa din inox AISI 304/316 cu finețe 80-250 mesh (60μ-180μ), arie filtrare supradimensionată pentru rezistență minimă flow. Magnet permanent neodim integrat pentru capturare particule feroase uzură înainte să ajungă la pompă. Capacitate 25-600 L/min dependent dimensiune, montare prin flanșă SAE sau ISO. Indicator visual saturation opțional cu pop-up mecanic. Temperatură -30°C la +120°C, compatibilitate uleiuri minerale, sintetice, HFC, HFD. Aplicații: toate sistemele hidraulice pentru protecție "first line" aspirație pompă - dirt grosier, particule turnare, contaminare inițială umplere rezervor. Investiție mică (50-150 EUR) care poate salva pompe de mii EUR - suction strainer clogged e de 100x mai ieftin decât pompă cavitating destroyed. Mentenanță simplă - curățare periodic, verificare magnet pentru particule uzură ca diagnostică timpurie probleme.'
+        description: 'Strecurători aspiration (suction) montate în rezervor pentru protecție pompă de contaminare grosieră. Plasa din inox AISI 304/316 cu finețe 80-250 mesh (60μ-180μ), arie filtrare supradimensionată pentru rezistență minimă flow. Magnet permanent neodim integrat pentru capturare particule feroase uzură înainte să ajungă la pompă. Capacitate 25-600 L/min dependent dimensiune, montare prin flanșă SAE sau ISO. Indicator visual saturation opțional cu pop-up mecanic. Temperatură -30°C la +120°C, compatibilitate uleiuri minerale, sintetice, HFC, HFD. Aplicații: toate sistemele hidraulice pentru protecție "first line" aspirație pompă - dirt grosier, particule turnare, contaminare inițială umplere rezervor. Strecurătoarea protejează pompa de contaminarea grosieră. Mentenanță simplă - curățare periodic, verificare magnet pentru particule uzură ca diagnostică timpurie probleme.'
       }
     ],
     certifications: [
@@ -731,7 +731,7 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
       },
       {
         "q": "Ce înseamnă codurile A03, A06 sau M25 la filtrele MP Filtri?",
-        "a": "Codurile A03, A06, A10, A16 și A25 arată gradul de filtrare în microni al elementului din microfibră anorganică, de la cel mai fin (3 microni) la cel mai permisiv (25 microni). M25 este o variantă cu plasă metalică de 25 microni, spălabilă și mai rezistentă mecanic, folosită unde elementul din microfibră s-ar deteriora la șocuri de presiune."
+        "a": "Codurile A03, A06, A10, A16 și A25 arată gradul de filtrare în microni al elementului din microfibră anorganică, de la cel mai fin (3 microni) la cel mai permisiv (25 microni). M25 este o variantă cu plasă metalică de 25 microni, spălabilă."
       },
       {
         "q": "Livrați filtre MP Filtri în România?",
@@ -743,12 +743,12 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
       },
       {
         "q": "Care e diferența dintre elementul A10 și M25 la seria FHP?",
-        "a": "Elementul A10 este din microfibră anorganică și reține particule de la 10 microni, oferind o filtrare mai fină dar cu o durată de viață mai scurtă între schimburi. M25 este o plasă metalică de 25 microni, mai permisivă, dar spălabilă și reutilizabilă, potrivită pentru aplicații cu contaminare grosieră sau cicluri de întreținere mai rare."
+        "a": "Elementul A10 este din microfibră anorganică, cu grad de filtrare de 10 microni. M25 este o plasă metalică de 25 microni, mai permisivă, dar spălabilă și reutilizabilă, potrivită pentru aplicații cu contaminare grosieră sau cicluri de întreținere mai rare."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul MP Filtri și am corectat datele greșite, conform surselor citate.' }
     ]
   },
@@ -758,13 +758,13 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
     founded: 1914,
     headquarters: 'Pennsylvania, SUA',
     employees: '5,000+',
-    overview: `MSA Safety (Mine Safety Appliances) e sinonim cu protecția vieții în medii industriale periculoase - peste 110 ani dedicați dezvoltării echipamentelor care salvează oameni în mining, oil&gas, firefighting, confined spaces. De la primele măști de gaze în Primul Război Mondial la detectoarele multi-gaz moderne și căștile smart de azi, MSA a fost mereu pionier tehnologic în safety. Detectoarele portabile ALTAIR și cele fixe ULTIMA X sunt folosite frecvent pentru detecția O2, LEL, H2S, CO, cu fiabilitate ridicată în detecție, conform producătorului.
+    overview: `MSA Safety (Mine Safety Appliances) e sinonim cu protecția vieții în medii industriale periculoase - peste 110 ani dedicați dezvoltării echipamentelor care salvează oameni în mining, oil&gas, firefighting, confined spaces. MSA a început în 1914 cu lampa de siguranță Edison pentru mineri și produce astăzi detectoare de gaze, căști și echipamente de protecție respiratorie. Detectoarele portabile ALTAIR și cele fixe ULTIMA X sunt folosite frecvent pentru detecția O2, LEL, H2S, CO, cu fiabilitate ridicată în detecție, conform producătorului.
 
 Gama lor e vastă și specializată pe domenii: detectoare gaze portabile (ALTAIR seria 4X/5X multi-gas, serie single-gas pentru specific toxic), sisteme fixe monitorizare (ULTIMA X seria senzori electrochimici și infraroșu), aparate respiratorii (SCBA pentru firefighting, PAPR pentru industrie, emergency escape sets), căști protecție (V-Gard cu suspensii innovative, modele dielectric/high-temp), protecție cădere de la înălțime (harnașamente full-body, lanyard-uri shock-absorbing, sisteme fall arrest), ochelari și viziere, costume protective. Toate testate în condiții extreme și certificate conform standarde internaționale riguroase (ATEX, IECEx, NIOSH, EN).
 
-Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu testare gaze toxice, colaborări universități pentru materiale noi, feedback direct din field (firefighters, miners, oil rig workers). Rezultatul: produse care funcționează când viața ta depinde de ele - detectoare care pornesc instant la -40°C, SCBA care rezistă căldură radiativă 500°C, harnașamente care țin la 22kN impact chiar după 5 ani UV exposure. În industriile unde riscul e real zilnic - petrochimie, confined spaces, firefighting, mining - MSA înseamnă diferența între acasă sănătos sau accident tragic. Costă mai mult decât alternative budget, dar când vorbim despre viață, nu există compromis.`,
+ Specificațiile (temperatură de lucru, rezistență termică, rezistență mecanică) diferă pe fiecare model și le confirmăm pe cod, din documentația MSA. `,
     whyChoose: [
-      '110+ ani experiență în safety - de la WWI gas masks la detectoare smart IoT moderne',
+      'Peste 110 ani de activitate în echipamente de siguranță (MSA a fost înființată în 1914)',
       'Certificări globale complete - ATEX, IECEx, NIOSH, EN, teste extreme rigoroase',
       'Fiabilitate dovedită field - echipamente folosite pe scară largă în mining, oil&gas, firefighting',
       'Tehnologie avansată - senzori electrochimici/IR, telemetrie wireless, data logging',
@@ -774,24 +774,24 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
     keyProducts: [
       {
         name: 'ALTAIR 5X Multi-Gas Detector',
-        description: 'Detector portabil multi-gaz cu până la 6 senzori simultan - configurabil pentru LEL (combustibili metanizați), O2 (oxigen), CO (monoxid carbon), H2S (hidrogen sulfurat), SO2, NO2, Cl2, NH3. Senzori electrochimici pentru toxici (rezoluție 0.1 ppm), catalitic pentru LEL, galvanic pentru O2. Alarme: vizuală (LED ultra-bright), auditivă (95 dB), vibrații. Display TFT color 2" cu live readings, STEL, TWA, peak. Autonomie baterie 24 ore continuous, încărcare USB sau docking station. Certificare ATEX/IECEx Zone 0, IP68 waterproof, drop test 6m. Datalogging 6 luni, telemetrie wireless MSA ALTAIR Connect pentru monitoring centralizat echipe. Perfect confined spaces, oil&gas, wastewater, petrochimie unde expoziția simultană multi-gaz e risc zilnic. Calibrare recomandată 180 zile, bump test zilnic automat prin dock.'
+        description: 'Detector portabil multi-gaz cu până la 6 senzori simultan - configurabil pentru LEL (combustibili metanizați), O2 (oxigen), CO (monoxid carbon), H2S (hidrogen sulfurat), SO2, NO2, Cl2, NH3. Senzori XCell, cu senzor PID opțional pentru compuși organici volatili (VOC), conform producătorului. Alarme: vizuală (LED ultra-bright), auditivă (95 dB), vibrații. Rezistent la praf și la jeturi de apă (IP65) și la căderi de la 3 m (10 ft), conform producătorului. Datalogging compatibil cu software-ul MSA Link. Aprobările pentru zone explozive, autonomia bateriei și tipul de afișaj se confirmă din fișa modelului. Perfect confined spaces, oil&gas, wastewater, petrochimie unde expoziția simultană multi-gaz e risc zilnic. Frecvența de calibrare și de testare funcțională se stabilește conform instrucțiunilor producătorului.'
       },
       {
         name: 'ULTIMA X5000 Fixed Gas Monitor',
-        description: 'Monitor fix de gaze cu senzor electrochimic sau infraroșu (IR) pentru instalare permanentă zone cu risc. Detectare: combustibili (0-100% LEL IR), toxici (CO, H2S, SO2, NO2, Cl2, NH3 electrochimic 0-500 ppm), O2 (0-25% vol). Ieșire 4-20mA + relays alarme hi/lo/fault, comunicare Modbus RTU/TCP, HART opțional. Display local LCD cu readings live și alarme. Temperatură -40°C la +75°C, umiditate 0-95% RH non-condensing, certificare ATEX/IECEx Zone 1, IP66/67. Calibrare la 6-12 luni dependent gaz, senzori înlocuibili field fără tools special. Aplicații: petrochimie (rafinārii, crackers), wastewater treatment (biogas, H2S), mining (CH4, CO underground), parking subteran (CO monitoring). Conectat la controller central MSA Supreme sau DCS pentru shutdown automat ventilație/proces la alarmă. Investiție mică pentru protecție 24/7 a personalului și activelor în zone periculoase permanente.'
+        description: 'Monitor fix de gaze cu senzor electrochimic sau infraroșu (IR) pentru instalare permanentă zone cu risc. Gazele detectate și domeniile de măsură depind de senzorul ales; le confirmăm pe cod, din documentația MSA. Ieșire 4-20 mA, port HART ca accesoriu, comunicare Modbus/Profibus prin controlerul MSA SUPREMATouch. Display OLED cu indicatoare LED de stare. Ciclurile de calibrare pot ajunge până la 24 de luni, iar senzorul se poate înlocui fără oprirea alimentării (SafeSwap), conform producătorului. Aplicații: petrochimie (rafinării, instalații de cracare), wastewater treatment (biogas, H2S), mining (CH4, CO underground), parking subteran (CO monitoring). Poate fi conectat la controlerul MSA SUPREMATouch.'
       },
       {
         name: 'G1 SCBA Firefighting',
-        description: 'Aparat respirator autonom (Self-Contained Breathing Air) pentru firefighting profesional - standard NFPA 1981:2019. Butelie carbon composite 6.8L sau 9L la 300 bar (autonomie 45-60 min dependent consum), regulator presiune pozitivă pentru protecție maximă inhalare. Mască full-face cu vizor policarbonat anti-abraziune, dublă etanșare silicon, speaking diaphragm pentru comunicare. Harnășament ergonomic cu shoulder/waist adjustment rapid, backplate composite lightweight. PASS device (Personal Alert Safety System) integrat cu alarme motion, manual, low-pressure. HUD (Head-Up Display) în vizor mască cu presiune rămasă. Temperatură operare -30°C la +60°C, rezistență radiant heat 500°C/min. Greutate totală 15kg (9L cylinder). Certificare NFPA, CE, approval Firefighting Services international. Service la 12 luni sau după fiecare utilizare - teste hidrostatice butelii, recalibrare PASS, verificare regulator. Investiție 2,500-3,500 EUR per set dar zero compromis când intrii în incendiu.'
+        description: 'Aparat respirator autonom (Self-Contained Breathing Air) pentru firefighting profesional - standard NFPA 1981:2019. Butelia, presiunea și autonomia depind de configurație; le confirmăm pe cod, din documentația MSA. Mască full-face cu vizor policarbonat anti-abraziune, dublă etanșare silicon, speaking diaphragm pentru comunicare. Harnășament ergonomic cu shoulder/waist adjustment rapid, backplate composite lightweight. PASS device (Personal Alert Safety System) integrat cu alarme motion, manual, low-pressure. HUD (Head-Up Display) în vizor mască cu presiune rămasă.  Certificare NFPA, CE, approval Firefighting Services international. Verificările periodice și întreținerea se fac conform manualului producătorului.'
       },
       {
         name: 'V-Gard Hard Hats',
-        description: 'Căști de protecție industrială iconic design MSA din 1962, îmbunătățite continuu cu materiale și suspenții noi. Material carcasă: HDPE (high-density polyethylene) cu UV stabilizatori pentru durabilitate 5+ ani. Sistem suspensie: 4-point sau 6-point Fas-Trac ratchet cu adjustment height și tightness - confort suprem chiar 12 ore/zi. Slot-uri laterale pentru accesorii: viziere protecție facială, ear muffs, chinstraps, headlamps. Certificare EN 397 (impact 440N, lateral deformation, penetration), EN 50365 (electrical insulation 1,000V AC opțional), ANSI Z89.1 Type I/II. Opțiuni: venting pentru căldură, reflective stripes pentru vizibilitate nocturnă, culori diverse pentru identificare departamente. Aplicații: construcții, mining, oil&gas, utilities, manufacturing - oriunde risc impact/penetrare cap. Greutate 350-420g dependent configurație. Înlocuire la 5 ani (plastic degradation UV) sau după orice impact semnificativ. Cost 15-40 EUR - investiție minoră pentru protecția capului, cel mai vulnerabil la leziuni grave.'
+        description: 'Căști de protecție industrială MSA. Materialul carcasei, tipul de suspensie și accesoriile depind de model; le confirmăm pe cod, din documentația MSA. Slot-uri laterale pentru accesorii: viziere protecție facială, ear muffs, chinstraps, headlamps. Standardele aplicabile (de exemplu EN 397, EN 50365, ANSI Z89.1) diferă pe model și se confirmă din fișa producătorului. Opțiuni: venting pentru căldură, reflective stripes pentru vizibilitate nocturnă, culori diverse pentru identificare departamente. Aplicații: construcții, mining, oil&gas, utilities, manufacturing - oriunde risc impact/penetrare cap. Greutate 350-420g dependent configurație. Înlocuire la 5 ani (plastic degradation UV) sau după orice impact semnificativ. '
       }
     ],
     certifications: [
       'ISO 9001:2015 - Management Calitate fabricație echipamente protecție',
-      'ISO 14001:2015 - MSA Safety: Management de Mediu producție și operații',
+      'ISO 14001:2015 - Management de Mediu producție și operații (Msa Safety)',
       'ATEX / IECEx - Certificări echipamente zone explozive (detectoare, lămpi)',
       'NIOSH Approved - National Institute Occupational Safety Health (SCBA, respiratoare)',
       'NFPA 1981:2019 - Standard SCBA firefighting profesional',
@@ -884,8 +884,8 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
       }
     ],
     evidenceClass: 'zero-evidence',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale MSA Safety; am precizat modul de livrare; am eliminat formulările promoționale.' }
     ]
   },
@@ -895,14 +895,14 @@ Ce diferențiază MSA e investiția continuă în cercetare - laborator propriu 
     founded: 1975,
     headquarters: 'Oppenweiler, Germania',
     employees: '3,000+',
-    overview: `Murr Elektronik e specialist german în conectică industrială și infrastructură electrică pentru automatizări - zeci de ani dedicați unei misiuni simple: conectează totul robust, rapid, fără erori. De la cabluri M8/M12 pentru senzori până la switch-uri Ethernet managed și alimentatoare cu redundanță N+1, produsele Murr rezolvă problema eternă a câblării industriale complicate. Modulele I/O remote IMPACT67 se folosesc frecvent în aplicații automotive assembly, unde reducerea timpului de cablare față de terminale clasice este semnificativă datorită conectorilor quick-disconnect și modulelor pre-configurate.
+    overview: `Murr Elektronik e specialist german în conectică industrială și infrastructură electrică pentru automatizări - zeci de ani dedicați unei misiuni simple: conectează totul robust, rapid, fără erori. De la cabluri M8/M12 pentru senzori până la switch-uri Ethernet industriale și surse de alimentare, produsele Murr rezolvă problema eternă a câblării industriale complicate. Modulele I/O remote IMPACT67 se folosesc frecvent în aplicații automotive assembly, unde reducerea timpului de cablare față de terminale clasice este semnificativă datorită conectorilor quick-disconnect și modulelor pre-configurate.
 
-Gama lor acoperă tot lanțul conectivitate: cabluri și conectori M8/M12/M23 pentru senzori/actuatori (straight, right-angle, shielded, cu LED, push-pull, bayonet), module I/O distribuite IP67 (IMPACT67 cu IO-Link, EtherNet/IP, PROFINET), switch-uri Ethernet industriale (managed/unmanaged cu redundanță, PoE, fiber), alimentatoare 24VDC (EVOLVE cu eficiență 96%, redundanță diode OR, monitoring curent), sistem decentralizare MVK Metal cu protecție fuse/breaker per circuit. Și totul gândit modular - adaugi 8 I/O aici, un switch acolo, un alimentator redundant - fără redesign complet panou.
+Gama lor acoperă tot lanțul conectivitate: cabluri și conectori M8/M12/M23 pentru senzori/actuatori (straight, right-angle, shielded, cu LED, push-pull, bayonet), module I/O distribuite IP67 (IMPACT67 cu IO-Link, EtherNet/IP, PROFINET), switch-uri Ethernet industriale (managed/unmanaged cu redundanță, PoE, fiber), surse de alimentare 24VDC (gama Emparro, cu eficiență între 92% și 96%, conform catalogului producătorului), sistem decentralizare MVK Metal cu protecție fuse/breaker per circuit. Și totul gândit modular - adaugi 8 I/O aici, un switch acolo, un alimentator redundant - fără redesign complet panou.
 
-Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezistă jet high-pressure cleaning la 80°C (food processing, automotive paint shop), cabluri PUR/PVC cu rezistență ulei, abraziune, UV, temperaturi -40°C la +90°C, module I/O cu coating protectiv pentru medii corozive. Și apoi e ușurința diagnosticării - LED-uri status pe fiecare conector, module cu web server integrat pentru troubleshooting remote, alimentatoare cu alarme DC-OK. La cablarea unei mașini noi sau la retrofitul unui echipament vechi, Murr înseamnă timp redus de commissioning și fiabilitate pe termen lung fără probleme intermitente de contact. În automatizări unde sute de senzori și actuatori comunică, conectica corectă e tot atât de importantă ca PLC-ul.`,
+Ce apreciem e fiabilitatea în mediu industrial dur - gradul de protecție (IP67 și, la unele produse, IP69K), rezistența la ulei și domeniul de temperatură depind de produs și se confirmă din fișa producătorului. Și apoi e ușurința diagnosticării - LED-uri status pe fiecare conector, module cu web server integrat pentru troubleshooting remote, alimentatoare cu alarme DC-OK. La cablarea unei mașini noi sau la retrofitul unui echipament vechi, Murr înseamnă timp redus de commissioning și fiabilitate pe termen lung fără probleme intermitente de contact. În automatizări unde sute de senzori și actuatori comunică, conectica corectă e tot atât de importantă ca PLC-ul.`,
     whyChoose: [
       'Specialist conectică industrială - de la conectori M8 simpli la ecosisteme I/O distribuite',
-      'Robustețe industrială extremă - IP67/IP69K, rezistență chimică, temperaturi -40°C/+90°C',
+      'Robustețe industrială - grade de protecție IP67 și, la unele produse, IP69K',
       'Modularitate completă - cabluri, conectori, module I/O, switch-uri, alimentatoare integrate',
       'Reducere timp de cablare - conectori quick-disconnect vs. terminale clasice',
       'Diagnostică avansată - LED status, web server module, alarme alimentatoare',
@@ -915,15 +915,15 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
       },
       {
         name: 'IMPACT67 Modular I/O System',
-        description: 'Sistem I/O distribuit modular IP67 pentru decentralizarea semnalelor în câmp - reduce cablarea și costul de instalare. Module: DI/DO (4/8/16 canale 24VDC), AI (4/8 canale ±10V/4-20mA/RTD/TC), combinații mixte. Comunicare: PROFINET, EtherNet/IP, Modbus TCP, IO-Link master. Alimentare 24VDC redundantă prin backplane, consum per modul 1-3W. Carcasă aluminiu IP67, temperatură -25°C la +60°C, vibrații 5g, șoc 30g. Montare DIN rail sau direct mașină cu bracket-uri. Diagnostică: LED status per canal, web server integrat cu readings live și alarme, SNMP pentru integrare SCADA. Aplicații: mașini modulare (packaging, assembly) unde I/O sunt distribuite fizic, retrofit echipamente vechi fără rewire complet, mobile machinery. Setup rapid - conectezi alimentare + Ethernet, configurezi în software PLC, apoi plug senzori/actuatori direct în câmp. Scalabilitate de la 4 I/O la 128+ prin daisy-chain module.'
+        description: 'Sistem I/O distribuit modular IP67 pentru decentralizarea semnalelor în câmp - reduce cablarea și costul de instalare. Module: DI/DO (4/8/16 canale 24VDC), AI (4/8 canale ±10V/4-20mA/RTD/TC), combinații mixte. Protocoalele, alimentarea și limitele de temperatură și vibrații depind de modul; le confirmăm pe cod, din documentația Murrelektronik. Diagnosticarea (LED-uri de stare, funcții suplimentare) depinde de modul și se confirmă din fișa producătorului. Aplicații: mașini modulare (packaging, assembly) unde I/O sunt distribuite fizic, retrofit echipamente vechi fără rewire complet, mobile machinery. Setup rapid - conectezi alimentare + Ethernet, configurezi în software PLC, apoi plug senzori/actuatori direct în câmp. '
       },
       {
-        name: 'EVOLVE Power Supplies 24VDC',
-        description: 'Alimentatoare comutate 24VDC cu eficiență extremă pentru reducere pierderi și costuri energie. Power 120W-960W (5A-40A), intrare 100-240VAC sau 320-575VAC (3-phase pentru modele >480W). Eficiență până la 96.5% (80 PLUS Platinum equivalent), corecție factor putere >0.99 pasiv. Output adjustable 24-28VDC cu precizie ±1%, ripple <50mV p-p. Funcții: soft-start, short-circuit constant current, overload auto-recovery, DC-OK relay signal. Protecție IP20 standard, temperatură -25°C la +70°C derating, convection cooling fără fan (MTBF 500,000h). Montare DIN rail TS35, conexiuni spring-clamp cage sau screw. Certificare UL508, cUL, CE, marine. Aplicații: alimentare PLC, I/O modules, HMI, drives în panouri control. Model EVOLVE 24V/20A (480W) reduce pierderile de energie an de an vs. un alimentator standard, iar fiabilitatea și compactitatea justifică diferența de cost.'
+        name: 'Surse de alimentare Emparro / Evolution 24VDC',
+        description: 'Surse de alimentare comutate 24VDC din gamele Emparro (monofazate, eficiență între 92% și 96%, conform catalogului producătorului) și Evolution (trifazate, eficiență până la 91%). Parametrii electrici și protecțiile depind de model și se confirmă din fișa producătorului. Montare DIN rail TS35, conexiuni spring-clamp cage sau screw. Certificare UL508, cUL, CE, marine. Aplicații: alimentare PLC, I/O modules, HMI, drives în panouri control. '
       },
       {
-        name: 'Tree8 Managed Ethernet Switches',
-        description: 'Switch-uri Ethernet industriale managed pentru backbone comunicație în automatizări complexe. Porturi: 8-28 (combinații RJ45 10/100/1000Mbit, SFP fiber, PoE+). Funcții managed: VLAN, QoS, IGMP snooping, RSTP/MRP redundanță <200ms, port mirroring pentru diagnostică. PoE+: IEEE 802.3at până la 30W per port, budget total 240-480W dependent model. Alimentare 24VDC sau 110-230VAC redundant input cu relay alarme. Carcasă metal IP30 montare DIN rail, temperatură -40°C la +75°C fanless. Certificare IEC 61850-3, IEEE 1613 (substation), EN 50121 (railway), marine DNV. Management: web interface, CLI, SNMP v1/v2c/v3, email alerts, syslog. Aplicații: manufacturing plants cu multiple PLC, SCADA networks, IP camera systems industrial, building automation BACnet/IP. Redundanță <200ms asigură continuitate chiar dacă un cablu sau switch cade din rețea.'
+        name: 'Switch-uri Ethernet industriale',
+        description: 'Switch-uri Ethernet industriale managed pentru backbone comunicație în automatizări complexe. Numărul de porturi, funcțiile de management, alimentarea și aprobările depind de model; le confirmăm pe cod, din documentația Murrelektronik. Aplicații: manufacturing plants cu multiple PLC, SCADA networks, IP camera systems industrial, building automation BACnet/IP. '
       }
     ],
     certifications: [
@@ -931,9 +931,7 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
       'ISO 14001:2015 - Management de Mediu producție',
       'UL / cUL Listed - certificări America de Nord pentru conectori și alimentatoare',
       'CE marking - directivele EMC, Low Voltage, RoHS pentru toate produsele',
-      'ATEX / IECEx - conectori pentru zone explozive (versiuni Ex e, Ex d)',
       'IEC 61076 - standard internațional conectori circulari industrial (M8, M12, M23)',
-      'IEC 61850-3 / IEEE 1613 - standarde substații electrice pentru switch-uri',
       'Marine approvals - DNV, Lloyd\'s Register pentru aplicații naval/offshore'
     ],
     industries: [
@@ -943,7 +941,7 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
       'Pharmaceuticals - clean rooms, reactors, filling sterile cu conectică FDA compliant',
       'Material Handling - conveyors, sortare automată, AS/RS cu I/O distribuit',
       'Machine Building - OEM-uri mașini packaging, printing, textile cu cablare modular',
-      'Water/Wastewater - treatement plants, pump stations, telemetrie cu conectică outdoor',
+      'Water/Wastewater - stații de tratare, pump stations, telemetrie cu conectică outdoor',
       'Renewable Energy - wind turbines, solar tracking cu switch-uri și alimentatoare robust',
       'Transportation - railway signaling, metro, tram cu certificări EN 50121',
       'Building Automation - HVAC, lighting, access control cu PoE și BACnet/IP'
@@ -1056,8 +1054,8 @@ Ce apreciem e fiabilitatea în mediu industrial dur - conectori IP67/IP69K rezis
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării Murr Elektronik și am corectat datele greșite, conform surselor citate.' }
     ]
   },
@@ -1240,46 +1238,45 @@ Caracteristicile funcționale (reglaje, alarme, filtrare, siguranță) diferă p
 
   'norgren': {
     name: 'Norgren',
-    founded: 1927,
+    founded: 1926,
     headquarters: 'Lichfield, UK',
     employees: '5,500+ (IMI Precision Engineering)',
     overview: `Norgren (parte din grupul IMI Precision Engineering) este unul dintre producătorii importanți la nivel mondial în pneumatică industrială - peste 95 de ani de activitate în controlul aerului comprimat pentru automatizări. De la primele valve și cilindri pentru industria aviatică până la sistemele electronice de control motion pneumatic de azi, Norgren și-a extins constant gama tehnologică. Componentele Norgren se folosesc într-o gamă largă de aplicații - de la mașini de ambalare rapidă cu cilindri ISO compact la linii de asamblare automotive cu valve manifold gestionate prin bus industrial - cu fiabilitate documentată de producător pe milioane de cicluri.
 
 Gama lor industrială e vastă și bine organizată pe categorii: cilindri pneumatici (ISO 15552 standard și compact, rotative, ghidate, rodless, cu magnet pentru senzori), valve (directionale 3/2, 5/2, 5/3 monostabile/bistabile, proporționale pentru control debit/presiune), FRL units (filtre, regulatoare presiune, lubricatoare modular combinabile), actuatoare (clești, grippers, rotative, linear slides), fitting-uri și tubulatura (push-in, instant, brass/inox pentru toate diametrele). Și apoi e linia electronică - valve manifold cu driver integrat (comunicare PROFIBUS, PROFINET, EtherNet/IP, IO-Link), regulatoare presiune electronice cu feedback closed-loop, motion controllers pneumatici.
 
-Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența parametrilor - când spec sheet spune forță 1,200N la 6 bar, vei obține exact asta ±2% pe toți cilindrii dintr-un lot, nu ±10% ca la producători low-cost. Rezultat: mașini care funcționează repetat fără re-tuning, timpi ciclu stabili, menos downtime. În food packaging, automotive, pharmaceuticals unde viteza și precizia pneumatică dictează productivitatea, Norgren înseamnă investiție justificată prin performanță. Service-ul lor e organizat printr-o rețea de distribuitori locali care țin stoc și oferă suport tehnic rapid.`,
+Parametrii fiecărui produs sunt cei din documentația tehnică a producătorului, pe care o folosim la identificarea codului potrivit. `,
     whyChoose: [
       '95+ ani experiență pneumatică - de la aviație la automatizări industriale moderne',
-      'Calitate manufacturing UK/EU - consistență parametri ±2% vs. ±10% low-cost brands',
+      'Documentație tehnică publică pentru fiecare serie, cu parametri declarați de producător',
       'Gamă completă sistem pneumatic - cilindri, valve, FRL, actuatoare, control electronic',
       'Tehnologie avansată - valve proporționale, motion control, IO-Link, bus industrial',
       'Durabilitate ridicată - cilindri ISO cu testare extinsă la oboseală, conform producătorului',
-      'Rețea de distribuție locală - stoc regional, suport tehnic, livrare rapidă'
+      'Coduri de produs și documentație publicate de producător'
     ],
     keyProducts: [
       {
         name: 'ISO 15552 Pneumatic Cylinders',
-        description: 'Cilindri pneumatici standard ISO 15552 (fost ISO 6431) - o configurație larg răspândită în automatizări industriale, conform standardului ISO 15552. Diametru piston 32-320mm, cursă până la 2,000mm (dependent diametru), presiune lucru 1-10 bar. Construcție: țeavă aluminiu hard-anodized, piston aluminiu cu etanșări NBR/PUR, tijă inox AISI 304 cromată hard. Amortizare: fixă elastomer (standard) sau adjustabilă pneumatică (opțiune) pentru reducere șoc la capete cursă. Magnet permanent integrat pentru senzori reed/Hall proximity fără contact. Mounting: numeroase opțiuni (front/rear flange, clevis, trunnion) conform ISO. Temperatură -20°C la +80°C, mediu lubrifiat sau non-lube (long-life seals). Aplicații: mașini ambalare, conveyors, automotive assembly, material handling. Model 63mm × 100mm stroke e o soluție standard pentru mișcare liniară pneumatică robustă și interschimbabilă între producători.'
+        description: 'Cilindri pneumatici standard ISO 15552 (fost ISO 6431) - o configurație larg răspândită în automatizări industriale, conform standardului ISO 15552. Diametru piston 32-320mm, cursă până la 2,000mm (dependent diametru), presiune lucru 1-10 bar. Materialele și etanșările depind de seria aleasă și se confirmă din fișa producătorului. Amortizare: fixă elastomer (standard) sau adjustabilă pneumatică (opțiune) pentru reducere șoc la capete cursă. Magnet permanent integrat pentru senzori reed/Hall proximity fără contact. Mounting: numeroase opțiuni (front/rear flange, clevis, trunnion) conform ISO.  Aplicații: mașini ambalare, conveyors, automotive assembly, material handling. Model 63mm × 100mm stroke e o soluție standard pentru mișcare liniară pneumatică robustă și interschimbabilă între producători.'
       },
       {
         name: 'V60 Fieldbus Valve Manifold',
-        description: 'Manifold valve pneumatice cu control electronic integrat - reduce cablare și costuri instalare dramatic vs. valve individuale. Configurație modulară: până la 32 valve directionale 5/2 sau 5/3 pe o bază comună, alimentare aer centralizată, evacuare silențioasă integrate. Driver electronic: comunicare PROFIBUS DP, PROFINET IO, EtherNet/IP, Modbus TCP, IO-Link selectabil. Diagnostică avansată: monitorizare status fiecare valvă, alarme electrical/pneumatic fault, counters cicluri pentru predictive maintenance. Debit per valvă până la 1,600 Nl/min, presiune 0-10 bar. Protecție IP65 montare direct mașină sau IP20 pentru panou. Sub-base cu conexiuni push-in 6mm/8mm/10mm pentru tubulatura rapidă. Aplicații: mașini packaging modulare, automotive assembly stations, pick&place systems. Înlocuiește multe valve individuale, conectori și fire cu un singur manifold plus un cablu Ethernet - cablare mai simplă și troubleshooting mult mai facil cu diagnostică centralizată.'
+        description: 'Manifold valve pneumatice cu control electronic integrat - reduce cablare și costuri instalare dramatic vs. valve individuale. Numărul de valve și protocoalele de comunicare depind de configurație; le confirmăm pe cod, din documentația Norgren. Diagnostică avansată: monitorizare status fiecare valvă, alarme electrical/pneumatic fault, counters cicluri pentru predictive maintenance. Debitul, presiunea și gradul de protecție depind de serie și se confirmă din fișa producătorului. Aplicații: mașini packaging modulare, automotive assembly stations, pick&place systems. Înlocuiește multe valve individuale, conectori și fire cu un singur manifold plus un cablu Ethernet - cablare mai simplă și troubleshooting mult mai facil cu diagnostică centralizată.'
       },
       {
         name: 'VP50 Proportional Pressure Regulator',
-        description: 'Regulator electronic presiune pneumatică proporțional pentru control precis forță în aplicații assembly și testare. Presiune intrare 0-10 bar, ieșire controlată 0-8 bar (sau range mai mic 0-2 bar pentru precizie crescută), comandă analogică 0-10V sau 4-20mA. Rezoluție control 0.01 bar, hysteresis <0.5%, timp răspuns <50ms pentru step change. Feedback presiune integrat senzor piezo-rezistiv cu bucla closed-loop PID. Debit până la 1,200 Nl/min dependent presiune. Comunicare digitală opțional IO-Link pentru parametrizare și diagnostică. Protecție IP40 montare panel sau IP65 pentru field. Aplicații: control forță press-fit (automotive bearings, electronic connectors), testare leak pressure controlat, blow molding cu presiune variabilă per fază. Înlocuiește regulatoare manuale care necesită ajustare mecanică operator - setpoint trimis din PLC, repeatabilitate perfectă lot după lot.'
+        description: 'Regulator electronic presiune pneumatică proporțional pentru control precis forță în aplicații assembly și testare. Domeniul de presiune, semnalul de comandă, debitul și gradul de protecție depind de model; le confirmăm pe cod, din documentația Norgren. Aplicații: control forță press-fit (automotive bearings, electronic connectors), testare leak pressure controlat, blow molding cu presiune variabilă per fază. Înlocuiește regulatoare manuale care necesită ajustare mecanică operator - setpoint trimis din PLC, repeatabilitate perfectă lot după lot.'
       },
       {
         name: 'Excelon Plus FRL Units',
-        description: 'Unități combinare filtru-regulator-lubricator (FRL) modulare pentru pregătire aer comprimat la punctul de utilizare. Filtru: separare apă și particule >5μm (standard) sau >0.01μm (coalescent pentru breathing air quality), bowl policarbonat transparent sau aluminiu, drain manual sau auto. Regulator: presiune setabilă 0.5-12 bar cu manometru, relieving sau non-relieving. Lubricator: fog type cu reglare debit picături pentru valve și cilindri care necesită lubrifiere. Debit 600-12,000 Nl/min dependent sizing (1/8" până la 1" NPT/G). Modular stacking cu bracket-uri eliminate threading - configurezi FRL exact cum ai nevoie (F, FR, FRL, FFRL pentru filtrare dual-stage). Protecție IP54, temperatură -10°C la +60°C. Aplicații: alimentare aer mașini individuale, branch lines în fabrici, stații lucru manual pneumatic. Protejează echipamentul pneumatic downstream de contaminare și asigură presiune constantă pentru performanță repetabilă.'
+        description: 'Unități combinare filtru-regulator-lubricator (FRL) modulare pentru pregătire aer comprimat la punctul de utilizare. Filtru: separare apă și particule, cu grade de filtrare la alegere, bowl policarbonat transparent sau aluminiu, drain manual sau auto. Regulator: presiune setabilă 0.5-12 bar cu manometru, relieving sau non-relieving. Lubricator: fog type cu reglare debit picături pentru valve și cilindri care necesită lubrifiere. Debitul depinde de mărime (1/8" până la 1" NPT/G). Modular stacking cu bracket-uri eliminate threading - configurezi FRL exact cum ai nevoie (F, FR, FRL, FFRL pentru filtrare dual-stage).  Aplicații: alimentare aer mașini individuale, branch lines în fabrici, stații lucru manual pneumatic. Protejează echipamentul pneumatic downstream de contaminare și asigură presiune constantă pentru performanță repetabilă.'
       }
     ],
     certifications: [
       'ISO 9001:2015 - Management Calitate fabricație componente pneumatice',
       'ISO 14001:2015 - Management de Mediu producție',
-      'ATEX / IECEx - Valve și cilindri pentru zone explozive (versiuni Ex h, Ex d)',
       'CE marking - Directivele Machinery, EMC, Pressure Equipment (PED) pentru toate produsele',
-      'FDA CFR 21 compliant - Materiale contact alimente pentru industria food&beverage',
+      'NSF - la supapele Q2 Quick-Connect, conform documentației producătorului',
       'ISO 15552 / ISO 6432 - Standarde internaționale cilindri pneumatici interschimbabili',
       'VDMA 24562 - Standard German cilindri pneumatici și accesorii',
       'Marine approvals - Lloyd\'s Register, DNV pentru aplicații naval/offshore'
@@ -1310,11 +1307,11 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
       },
       {
         "code": "Series 2",
-        "description": "supapă solenoid cu wattaj redus, Cv între 0,035 și 0,290"
+        "description": "supapă solenoid pentru presiune de până la 1000 psi, Cv între 0,035 și 0,290"
       },
       {
         "code": "Series 3",
-        "description": "supapă solenoid cu capacitate mai mare, orificii 3/32–1/4\""
+        "description": "supapă solenoid cu capacitate mai mare, orificii 5/64–1/4\""
       },
       {
         "code": "Series 6",
@@ -1400,8 +1397,8 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -1411,56 +1408,54 @@ Ce diferențiază Norgren e calitatea manufacturării UK/German și consistența
     founded: 1916,
     headquarters: 'Tokyo, Japonia',
     employees: '30,000+',
-    overview: `NSK (Nippon Seiko) e unul dintre cei mai mari și respectați producători mondiali de rulmenți de precizie și sisteme liniare - peste 100 ani de inovație japoneză în tribologie și control fricțiune. De la primii rulmenți pentru industria auto japoneză în anii '20 până la rulmenți ceramici hibrizi pentru sateliți și sisteme liniare ultra-precise pentru semiconductor manufacturing azi, NSK a fost mereu în fruntea tehnologiei bearing. Rulmenții NSK se folosesc frecvent în aplicații de la motoare electrice industriale la ax principal mașini CNC - diferența față de branduri tier-2 este vizibilă în vibrații reduse, zgomot mai mic, temperaturi de funcționare mai joase și viață utilă mai lungă în condiții identice.
+    overview: `NSK (Nippon Seiko) e unul dintre cei mai mari și respectați producători mondiali de rulmenți de precizie și sisteme liniare - peste 100 ani de inovație japoneză în tribologie și control fricțiune. De la înființarea companiei în 1916 până la rulmenți ceramici hibrizi pentru sateliți și sisteme liniare ultra-precise pentru semiconductor manufacturing azi, NSK a fost mereu în fruntea tehnologiei bearing. Rulmenții NSK se folosesc frecvent în aplicații de la motoare electrice industriale la ax principal mașini CNC.
 
-Gama industrială NSK acoperă tot spectrul bearings: rulmenți radiali cu bile (deep groove, angular contact, self-aligning), rulmenți cu role (cilindrice, conice, sferice, ace), rulmenți axiali (bile, role), unități rulment UC/UCP/UCFL pentru arbori (insertabile în carcasă cu prindere excentrică), rulmenți de precizie (ABEC-7/ABEC-9 pentru machine tools), rulmenți ceramici hibrizi (bile Si3N4 pentru viteză extremă și medii corozive). Apoi sunt sistemele liniare: ghidaje liniare (LH/LS series cu bile recirculate), șuruburi cu bile (HTF series precizie C3-C7), actuatoare liniare (Monocoque pentru high-speed).
+Gama industrială NSK acoperă tot spectrul bearings: rulmenți radiali cu bile (deep groove, angular contact, self-aligning), rulmenți cu role (cilindrice, conice, sferice, ace), rulmenți axiali (bile, role), unități rulment UC/UCP/UCFL pentru arbori (insertabile în carcasă cu prindere excentrică), rulmenți de precizie (ABEC-7/ABEC-9 pentru machine tools), rulmenți ceramici hibrizi (bile Si3N4 pentru viteză extremă și medii corozive). Apoi sunt sistemele liniare: ghidaje liniare (LH/LS series cu bile recirculate), șuruburi cu bile (HTF series precizie C3-C7), actuatoare liniare (Monocarrier).
 
-Un element notabil este atenția la detalii manufacturing - toleranțe strânse ale căilor de rulare, sfericitate bile sub 0.5μm, curățenie internă ridicată (gradul cleanliness impact direct noise și viață), unsoare pre-filled de înaltă calitate (NSK LG series pentru -40°C la +150°C). Rezultatul: rulmenți care rulează mai lin, durează mai mult, necesită menos mentenanță. În aplicații critice - spindle-uri CNC, pompe high-pressure, motoare electrice premium, robotică de precizie - NSK înseamnă investiție care se vede în performanță mașină, calitate produse și costuri mentenanță reduse pe termen lung. Service-ul lor e organizat printr-o rețea tehnică de distribuitori care ajută la selecția corectă și troubleshooting.`,
+Un element notabil este atenția la detalii manufacturing - toleranțe, curățenie internă și unsori alese pentru fiecare tip de rulment, conform documentației producătorului. În aplicații critice - spindle-uri CNC, pompe high-pressure, motoare electrice premium, robotică de precizie - NSK este o alegere frecventă. Service-ul lor e organizat printr-o rețea tehnică de distribuitori care ajută la selecția corectă și troubleshooting.`,
     whyChoose: [
       'Experiență 100+ ani - de la auto industry la aerospace și semiconductor manufacturing',
-      'Precizie japoneză extremă - toleranțe sub micron, sfericitate bile 0.5μm, curățenie strict',
+      'Rulmenți de precizie pentru mașini-unelte, cu clase de precizie conform standardelor ISO',
       'Gamă completă bearings - de la commodity radial ball la super-precision ceramic hybrid',
-      'Durabilitate superioară - viață L10 ridicată, conform testelor producătorului',
+      'Durabilitate - durata de viață se dimensionează pe fiecare aplicație, conform datelor producătorului',
       'Tehnologie avansată - unsori LG series, etanșări non-contact, coatings tribologice',
       'Support tehnic din partea rețelei - ingineri aplicații, training, failure analysis'
     ],
     keyProducts: [
       {
         name: 'Deep Groove Ball Bearings 6200 Series',
-        description: 'Rulmenți radiali cu bile deep groove - cea mai comună configurație bearing în lume, versatili pentru aproape orice aplicație. Serie 6200 (light): bore 10-100mm, capacitate radială 2-50 kN dependent sizing, viteză până la 20,000 rpm (dependent lubrifiere). Construcție: inele interior/exterior oțel bearing SAE 52100 (1% C, 1.5% Cr) hardened HRC 58-64, bile oțel/ceramică, colivie oțel/brass/polymer dependent aplicație. Unsoare: standard lithium grease NSK LG2 (-30°C la +120°C), opțiuni high-temp, food-grade, low-noise. Etanșări: open (fără), shields metalic (Z/ZZ), seals cauciuc (DDU/VV) pentru protecție contamination. Precizie: standard ABEC-1, opțiuni ABEC-3/5/7 pentru aplicații demanding. Aplicații universal: motoare electrice, pompe, ventilatoare, reductoare, conveyors, household appliances.'
+        description: 'Rulmenți radiali cu bile deep groove - o configurație foarte răspândită, versatili pentru aproape orice aplicație. Seria 62 este seria ușoară (light series); dimensiunile, capacitatea de încărcare și turația limită sunt în tabelele producătorului. Construcție: inele și bile din oțel pentru rulmenți, colivie din oțel, alamă sau rășină poliamidică, în funcție de variantă. Unsoarea și domeniul de temperatură se confirmă din documentația NSK. Etanșări: open (fără), shields metalic (Z/ZZ), seals cauciuc (DDU/VV) pentru protecție contamination. Precizie: standard ABEC-1, opțiuni ABEC-3/5/7 pentru aplicații demanding. Aplicații universal: motoare electrice, pompe, ventilatoare, reductoare, conveyors, household appliances.'
       },
       {
         name: 'Super Precision Angular Contact Ball Bearings',
-        description: 'Rulmenți de super-precizie pentru aplicații machine tools și high-speed spindles - performanță extremă. Unghi contact 15° sau 25°, precizie ABEC-7/ABEC-9 (ISO P4/P2), toleranțe radial runout <2μm, axial runout <2.5μm. Construcție: oțel special vacuum degassed pentru puritate maximă, bile ceramice Si3N4 opțional (densitate 40% mai mică decât oțel = viteză mai mare, coeficient dilatare termică mai mic = stabilitate temperatură). Unsoare: minimal quantity high-performance grease sau oil-air lubrication pentru speed extreme (DN >1.5 million). Preload: light/medium/heavy în configurații paired (back-to-back, face-to-face, tandem) pentru rigiditate axială. Aplicații: spindle-uri CNC machining centers (20,000-40,000 rpm), grinding spindles, dental drills, gyroscopes, precision test equipment. Setul de rulmenți potrivit poate ajuta la atingerea unor toleranțe de prelucrare sub 2μm și finisaje de suprafață Ra sub 0.2μm.'
+        description: 'Rulmenți de super-precizie pentru aplicații machine tools și high-speed spindles - performanță extremă. Unghiul de contact, clasa de precizie și materialul bilelor (oțel sau ceramică) depind de serie; le confirmăm pe cod, din documentația NSK. Unsoare: minimal quantity high-performance grease sau oil-air lubrication pentru speed extreme (DN >1.5 million). Preload: light/medium/heavy în configurații paired (back-to-back, face-to-face, tandem) pentru rigiditate axială. Aplicații: spindle-uri CNC machining centers (20,000-40,000 rpm), grinding spindles, dental drills, gyroscopes, precision test equipment. '
       },
       {
         name: 'LH/LS Series Linear Guides',
-        description: 'Ghidaje liniare cu bile recirculate pentru mișcare liniară de precizie în machine tools și automatizări. Serie LH (high load): capacitate radială 5-80 kN, serie LS (compact): capacitate 1-15 kN. Construcție: șină oțel hard-chromed sau inox (LS-V pentru medii corozive), car cu bile recirculate în 4 rânduri, preload adjustabil pentru rigiditate. Precizie: standard grade (toleranță paralelism 20μm), high grade (10μm), precision grade (5μm), super precision (3μm). Unsoare: pre-filled lifetime grease NSK K1 sau nipple pentru re-lubrifiere periodică în medii contaminate. Etanșări: end seals standard, opțiuni scraper seals, bellows pentru protecție praf/așchii. Aplicații: mașini CNC (axe X/Y/Z), roboți pick&place, measuring machines, medical imaging (CT/MRI gantries), semiconductor wafer handling.'
+        description: 'Ghidaje liniare cu bile recirculate pentru mișcare liniară de precizie în machine tools și automatizări. Seriile de ghidaje liniare și capacitățile de încărcare sunt în catalogul producătorului, pe fiecare dimensiune. Construcție: șină oțel hard-chromed sau inox (LS-V pentru medii corozive), car cu bile recirculate în 4 rânduri, preload adjustabil pentru rigiditate. Clasele de precizie disponibile sunt în catalogul producătorului. Unsoare: pre-filled lifetime grease NSK K1 sau nipple pentru re-lubrifiere periodică în medii contaminate. Etanșări: end seals standard, opțiuni scraper seals, bellows pentru protecție praf/așchii. Aplicații: mașini CNC (axe X/Y/Z), roboți pick&place, measuring machines, medical imaging (CT/MRI gantries), semiconductor wafer handling.'
       },
       {
         name: 'HTF Series Precision Ball Screws',
-        description: 'Șuruburi cu bile de precizie pentru conversie mișcare rotativă în liniară cu eficiență ridicată și precizie. Diametru nominal 12-80mm, lead (pas) 5-40mm, lungime până la 6m. Precizie: clasa C7 (toleranță 50μm/300mm pentru general machining), C5 (18μm), C3 (8μm), C2 (4μm pentru grinding machines). Preload: adjustabil prin bile oversized pentru eliminare backlash și rigiditate crescută. Construcție: șurub și piuliță oțel bearing hardened ground finish Ra 0.2μm, bile recirculate prin tubulatura internă. Eficiență mecanică >90% vs. 30-50% șurub trapezoidal - economie energie și heat generation redusă. Aplicații: CNC machining (feed axes X/Y/Z), injection molding machines (screw injection), semiconductor equipment, coordinate measuring machines (CMM), unde e nevoie de positioning accuracy sub 10μm și repeatability ±2μm.'
+        description: 'Șuruburi cu bile de precizie pentru conversie mișcare rotativă în liniară cu eficiență ridicată și precizie. Diametrele, pașii, lungimile și clasele de precizie (C0–C10) sunt în catalogul producătorului, pe fiecare serie. Preload: adjustabil prin bile oversized pentru eliminare backlash și rigiditate crescută. Construcție: șurub și piuliță oțel bearing hardened ground finish Ra 0.2μm, bile recirculate prin tubulatura internă. Eficiență mecanică >90% vs. 30-50% șurub trapezoidal - economie energie și heat generation redusă. Aplicații: CNC machining (feed axes X/Y/Z), injection molding machines (screw injection), semiconductor equipment, coordinate measuring machines (CMM), unde e nevoie de poziționare precisă.'
       }
     ],
     certifications: [
       'ISO 9001:2015 - Management Calitate fabricație rulmenți',
       'ISO 14001:2015 - Management de Mediu producție',
-      'ISO/TS 16949 - Quality Management automotive industry (rulmenți auto)',
       'ISO 3290 - Standard bile oțel și ceramice pentru rulmenți (sfericitate, lot variation)',
       'ABEC / ISO 492 - Standarde precizie rulmenți (toleranțe dimensionale și runout)',
       'JIS B 1501 - Japanese Industrial Standard rulmenți radiali cu bile',
-      'AS9100D - Quality Management aerospace applications (rulmenți aerospace)',
       'RoHS & REACH compliant - restricții substanțe periculoase în materiale'
     ],
     industries: [
       'Machine Tools - CNC machining, grinding, EDM cu rulmenți super-precision și ghidaje liniare',
       'Automotive - motoare, transmisii, wheel hubs, steering, AC compressors cu volume mari',
-      'Industrial Motors - motoare electrice 0.1-500kW cu bearings pentru 20,000+ ore L10',
+      'Industrial Motors - motoare electrice, cu rulmenți dimensionați pe aplicație',
       'Aerospace - actuatoare flight control, landing gear, APU cu cerințe extreme reliability',
       'Semiconductor - wafer handling, lithography, inspection equipment ultra-clean și precis',
       'Medical - imaging (CT/MRI gantries), surgical robots, dental drills cu smooth operation',
       'Robotics - articulații, ghidaje liniare, ball screws pentru motion precis și repetat',
-      'Renewable Energy - wind turbine main shaft și gearbox bearings cu viață 20+ ani',
+      'Renewable Energy - rulmenți pentru turbine eoliene',
       'Pumps & Compressors - industriale și HVAC cu bearings pentru high-speed și load variabil',
       'Railway - wheel bearings, traction motors, suspension cu shock și vibration extreme'
     ],
@@ -1552,7 +1547,7 @@ Un element notabil este atenția la detalii manufacturing - toleranțe strânse 
       },
       {
         "q": "Care e diferența dintre seria 62 și seria 63 la rulmenții NSK?",
-        "a": "Cifra din seria unui rulment NSK arată raportul dintre diametrul exterior și cel interior, nu calitatea produsului. Seria 62 este seria ușoară, cu pereți mai subțiri și gabarit exterior mai mic la același alezaj, în timp ce seria 63 este seria medie, cu pereți mai groși și capacitate de sarcină mai mare pentru același alezaj."
+        "a": "Seria indică categoria dimensională a rulmentului, nu calitatea produsului. Seria 62 este seria ușoară, cu pereți mai subțiri și gabarit exterior mai mic la același alezaj, în timp ce seria 63 este seria medie, cu pereți mai groși și capacitate de sarcină mai mare pentru același alezaj."
       },
       {
         "q": "Livrați rulmenți NSK în România?",
@@ -1564,12 +1559,12 @@ Un element notabil este atenția la detalii manufacturing - toleranțe strânse 
       },
       {
         "q": "Ce diferență este între etanșarea DDU și ecranul ZZ la NSK?",
-        "a": "DDU este o etanșare de cauciuc cu contact direct pe bila interioară, montată pe ambele părți, care oprește aproape complet praful și umezeala, cu prețul unei frecări ușor mai mari. ZZ folosește ecrane metalice fără contact, cu frecare mai mică, dar protecție mai slabă la particule fine sau la stropire cu lichide."
+        "a": "DDU este o etanșare de cauciuc cu contact direct pe inelul interior, montată pe ambele părți, care oprește aproape complet praful și umezeala, cu prețul unei frecări ușor mai mari. ZZ folosește ecrane metalice fără contact, cu frecare mai mică, dar protecție mai slabă la particule fine sau la stropire cu lichide."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   }

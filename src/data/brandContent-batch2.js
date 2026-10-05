@@ -178,7 +178,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
     founded: 1888,
     headquarters: 'Cheltenham, Marea Britanie',
     employees: '~9,500',
-    overview: `Spirax Sarco este specializat în sisteme cu abur. Fondată în 1888 în Cheltenham (Anglia), compania are peste 135 de ani de experiență concentrată pe managementul aburului industrial - un nivel de specializare mai rar întâlnit, majoritatea producătorilor acoperind o gamă mai largă de tehnologii.
+    overview: `Spirax Sarco este specializat în sisteme cu abur. Fondată în 1888 la Londra (sub numele Sarco), cu sediul actual la Cheltenham (Anglia), compania are peste 135 de ani de experiență concentrată pe managementul aburului industrial - un nivel de specializare mai rar întâlnit, majoritatea producătorilor acoperind o gamă mai largă de tehnologii.
 
 Aburul industrial se folosește mai ales în industria alimentară, textilă, chimică și la producătorii de carton/hârtie. Problemele frecvente în astfel de instalații sunt pierderile de abur prin trape defecte, energia irosită atunci când condensatul nu este recuperat și controlul imprecis al presiunii. Trapele de condensat, supapele de reglare și sistemele de recuperare a condensatului din gama Spirax Sarco sunt gândite să adreseze exact aceste puncte, conform documentației producătorului.
 
@@ -188,24 +188,24 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       'Sisteme concepute pentru reducerea pierderilor de energie prin recuperarea condensatului',
       'Produse testate de producător la presiuni și temperaturi ridicate',
       'Consultanță tehnică și audit energetic disponibile prin producător pentru proiecte mari',
-      'Furnizăm în România prin aprovizionare din UE + suport tehnic local'
+      'Aprovizionare prin canale din UE; disponibilitatea și documentația tehnică se confirmă înainte de ofertă'
     ],
     keyProducts: [
       {
         name: 'Trape de condensat (steam traps) – toate tipurile',
-        description: `Trapele de condensat Spirax Sarco sunt folosite pe scară largă în industrie. Termodinamicele (seria TD) sunt robuste – merg și la presiuni mari, și la abur supraîncălzit. Bimetalicele (seria BM) sunt potrivite pentru aplicații unde vrei descărcare la temperaturi controlate (nu imediat ce apa se condensează). Iar trapele cu plutitor (seria FT) sunt potrivite pentru debite mari de condensat – se folosesc frecvent în industria textilă și alimentară. Toate din oțel inox sau fontă de calitate, certificate pentru presiune. Le furnizăm cu racorduri filetate sau flanșate, depinde de instalație.`
+        description: `Trapele de condensat Spirax Sarco sunt folosite pe scară largă în industrie. Termodinamicele (seria TD) sunt robuste – merg și la presiuni mari, și la abur supraîncălzit. Bimetalicele (de exemplu seriile HP și SM) sunt potrivite pentru aplicații unde vrei descărcare la temperaturi controlate (nu imediat ce apa se condensează). Iar trapele cu plutitor (seria FT) sunt potrivite pentru debite mari de condensat – se folosesc frecvent în industria textilă și alimentară. Toate din oțel inox sau fontă de calitate, certificate pentru presiune. Le furnizăm cu racorduri filetate sau flanșate, depinde de instalație.`
       },
       {
         name: 'Supape de reglare presiune și temperatură',
-        description: `Supapele Spirax Sarco pentru reducerea presiunii aburului (seria 25P, DP27) sunt mașinării de precizie. Mențin presiunea downstream constantă indiferent de fluctuațiile upstream – esențial când alimentezi echipamente care au nevoie de presiune stabilă (autoclave, reactoare, schimbătoare). Supapele de control temperatură (seria SM) modulează debitul de abur pentru a menține temperatura exactă în procese. Se folosesc frecvent în sisteme de încălzire indirectă, uscătoare industriale, cazane de fierbere. Diferența față de supape "generice"? Precizie în jurul a ±1-2°C și durabilitate – pot funcționa 8-10 ani fără recalibrare, conform producătorului.`
+        description: `Supapele Spirax Sarco pentru reducerea presiunii aburului (seria 25P, DP27) sunt mașinării de precizie. Mențin presiunea din aval constantă indiferent de fluctuațiile din amonte – esențial când alimentezi echipamente care au nevoie de presiune stabilă (autoclave, reactoare, schimbătoare). Supapele de control al temperaturii modulează debitul de abur pentru a menține temperatura exactă în procese. Se folosesc frecvent în sisteme de încălzire indirectă, uscătoare industriale, cazane de fierbere. Precizia de reglaj și durabilitatea depind de model și se confirmă din documentația producătorului.`
       },
       {
         name: 'Separatoare de condensat și filtre pentru abur',
-        description: `Separatoarele Spirax Sarco (seria Spiratec, Hurricane) elimină picăturile de condensat din linia de abur înainte să ajungă la echipament. De ce e important? Pentru că aburul umed lovește paletele turbinelor sau suprafețele de încălzire și face eroziune. Un separator bun crește eficiența transferului termic și prelungește viața echipamentului. Filtrele (seria DSC, Strainer) elimină particulele solide (rugină, sare) din abur – se montează de regulă înaintea supapelor de reglare sau a echipamentelor sensibile. Curățarea e simplă, au coș demontabil.`
+        description: `Separatoarele Spirax Sarco elimină picăturile de condensat din linia de abur înainte să ajungă la echipament. De ce e important? Pentru că aburul umed lovește paletele turbinelor sau suprafețele de încălzire și face eroziune. Un separator bun crește eficiența transferului termic și prelungește viața echipamentului. Filtrele pentru abur elimină particulele solide (rugină, sare) din abur – se montează de regulă înaintea supapelor de reglare sau a echipamentelor sensibile. Curățarea e simplă, au coș demontabil.`
       },
       {
         name: 'Sisteme de recuperare și pompare condensat',
-        description: `Condensatul care iese din trape e apă fierbinte, curată, la 90-100°C. Dacă îl arunci, pierzi și apa (tratată chimic, costisitoare) și energia termică. Sistemele Spirax Sarco de recuperare (rezervoare, pompe mecanice seria MFP, pompe electrice seria CEMS) returnează condensatul la cazan. Conform producătorului, economia poate fi semnificativă la un sistem de abur de dimensiuni medii, doar din recuperarea condensatului. Pompele mecanice (acționate de abur, fără electricitate) sunt potrivite pentru locații explozive sau unde nu există curent electric disponibil - se folosesc frecvent în industria chimică.`
+        description: `Condensatul care iese din trape e apă fierbinte, curată, la 90-100°C. Dacă îl arunci, pierzi și apa (tratată chimic, costisitoare) și energia termică. Sistemele Spirax Sarco de recuperare (rezervoare, pompe mecanice și pompe electrice) returnează condensatul la cazan. Conform producătorului, economia poate fi semnificativă la un sistem de abur de dimensiuni medii, doar din recuperarea condensatului. Pompele mecanice (acționate de abur, fără electricitate) sunt potrivite pentru locații explozive sau unde nu există curent electric disponibil - se folosesc frecvent în industria chimică.`
       }
     ],
     certifications: [
@@ -238,7 +238,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
     productCodes: [
       {
         "code": "TD42L",
-        "description": "Purjor termodinamic standard, corp din oțel carbon"
+        "description": "Purjor termodinamic din gama TD42, pentru presiuni joase"
       },
       {
         "code": "TD42H",
@@ -300,7 +300,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
     faq: [
       {
         "q": "Cum aleg între purjoarele Spirax Sarco TD42L și TD42H?",
-        "a": "Ambele sunt purjoare termodinamice din aceeași familie constructivă, însă TD42L este destinat presiunilor joase, iar TD42H presiunilor mai ridicate din instalație. Diferența principală constă în materialul discului și limita de presiune admisă, nu în principiul de funcționare. Alegerea corectă se face după presiunea reală de lucru a liniei de abur, confirmată din fișa tehnică Spirax Sarco."
+        "a": "Ambele sunt purjoare termodinamice din aceeași familie constructivă, însă TD42L este destinat presiunilor joase, iar TD42H presiunilor mai ridicate din instalație. Limitele de presiune și materialele se confirmă din fișa tehnică Spirax Sarco. Alegerea corectă se face după presiunea reală de lucru a liniei de abur, confirmată din fișa tehnică Spirax Sarco."
       },
       {
         "q": "Livrați produse Spirax Sarco în România la comandă?",
@@ -312,12 +312,12 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         "q": "Ce înseamnă litera M din codul unui purjor Spirax Sarco?",
-        "a": "Litera M indică o variantă cu scaun mentenabil, adică piesa internă de uzură poate fi înlocuită fără demontarea completă a corpului din conductă. Modelele fără M au de obicei o construcție mai compactă, gândită pentru înlocuire integrală la finalul duratei de viață. Alegerea depinde de politica de mențenanta a instalației și de accesul disponibil la punctul de montaj."
+        "a": "Semnificația exactă a literelor din cod (de exemplu M) se confirmă din fișa tehnică Spirax Sarco pentru modelul respectiv. Alegerea depinde de politica de mentenanță a instalației și de accesul disponibil la punctul de montaj."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -325,31 +325,31 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
   'ari-armaturen': {
     founded: 1950,
     headquarters: 'Schloß Holte-Stukenbrock, Germania',
-    employees: '~1,200',
-    overview: `ARI Armaturen este un producător german de armături industriale. Fondată în 1950 în vestul Germaniei, ARI s-a dezvoltat în peste 70 de ani ca unul dintre producătorii respectați din Europa în acest domeniu. Compania vinde exclusiv B2B, iar în industria chimică, petrochimică și energetică produsele ARI sunt asociate cu certificări solide și durabilitate pe termen lung, conform documentației producătorului.
+    employees: '1,000+',
+    overview: `ARI Armaturen este un producător german de armături industriale. Fondată în 1950 în vestul Germaniei, ARI s-a dezvoltat în peste 70 de ani ca unul dintre producătorii respectați din Europa în acest domeniu. Compania este un producător independent, familial, iar în industria chimică, petrochimică și energetică produsele ARI sunt asociate cu certificări solide și durabilitate pe termen lung, conform documentației producătorului.
 
-Gama ARI este vastă: supape cu glob (control și închidere), supape cu bilă, supape de siguranță (vapori, lichide, gaze), supape de reținere, supape fluture și armături speciale PTFE-lined pentru industria chimică. Supapele de siguranță ARI, certificate TÜV și calibrate la fabrică, se folosesc frecvent pentru protecția echipamentelor sub presiune din rafinării, cu documentație compatibilă pentru ISCIR. În industria alimentară, supapele inox ARI din seria sanitară (design igienizabil, fără zone moarte) sunt o opțiune frecventă pentru linii de procesare lapte, suc sau bere.
+Gama ARI este vastă: supape cu glob (control și închidere), supape cu bilă, supape de siguranță (vapori, lichide, gaze), supape de reținere, supape fluture și armături speciale PTFE-lined pentru industria chimică. Supapele de siguranță ARI, certificate TÜV și calibrate la fabrică, se folosesc frecvent pentru protecția echipamentelor sub presiune din rafinării, cu documentație compatibilă pentru ISCIR. 
 
 Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materialele cele mai solicitate (DN15-DN100, oțel carbon, inox 316L). Pentru aplicații speciale cu materiale exotice, precum Hastelloy pentru acizi concentrați, coordonăm comenzi directe din fabrică, iar termenul depinde de complexitate; livrarea vine cu certificat de material și calibrare de la producător.`,
     whyChoose: [
       'Producător german specializat în armături industriale, cu materiale și finisaje de calitate',
       'Specializare în industrii grele: chimică, petrochimică, energetică, offshore',
       'Gamă completă armături PTFE-lined pentru medii agresive (acizi, baze, solvenți)',
-      'Certificări complete: TÜV, CE-PED, ATEX, GOST, certificat material pentru fiecare lot',
-      'Stoc în România la dimensiuni standard + comenzi custom din fabrică pentru aplicații speciale'
+      'Certificate și documentație în funcție de execuție, confirmate pe cod din documentația ARI',
+      'Aprovizionare prin canale din UE; disponibilitatea se confirmă înainte de ofertă (Ari Armaturen)'
     ],
     keyProducts: [
       {
         name: 'Supape cu glob (globe valves) – control și închidere',
-        description: `Supapele cu glob ARI sunt mașinării de precizie pentru controlul debitului în instalații industriale. Seria Stevi (cu ștuț drept) este potrivită pentru reglare fină în linii de vapori, apă fierbinte, condensat. Seria Faba (unghi drept) o folosim când ai schimbări de direcție – economisești coturi și reduci pierderile de presiune. Corpuri din oțel carbon, oțel inox (304, 316, 316L), fontă nodulară sau aliaje speciale (Hastelloy, Monel) pentru medii super agresive. Toate cu garnituri PTFE sau grafit, certificate pentru temperaturi până 450°C și presiuni până PN160. Le furnizăm cu actuatori manuali, pneumatici sau electrici.`
+        description: `Supapele cu glob ARI sunt mașinării de precizie pentru controlul debitului în instalații industriale. Seria Stevi (cu ștuț drept) este potrivită pentru reglare fină în linii de vapori, apă fierbinte, condensat. Seria Faba este o supapă de închidere cu etanșare prin burduf, pentru presiuni medii (PN 63–160, conform catalogului ARI). Corpuri din oțel carbon, oțel inox (304, 316, 316L), fontă nodulară sau aliaje speciale (Hastelloy, Monel) pentru medii super agresive. Parametrii (temperatură, presiune, materiale) depind de serie și execuție și se confirmă pe cod, din documentația ARI. Le furnizăm cu actuatori manuali, pneumatici sau electrici.`
       },
       {
         name: 'Supape de siguranță (safety relief valves)',
-        description: `Supapele de siguranță ARI sunt protecția finală împotriva suprapresiunii în cazane, reactoare, recipiente sub presiune. Seria Predomat (pentru vapori și gaze) și seria Safe (pentru lichide) sunt certificate TÜV și PED Category IV – adică pot fi folosite pe echipamente critice de siguranță. Fiecare supapă vine calibrată la presiunea de taraj solicitată, sigilată, cu certificat de calibrare. Se folosesc frecvent în rafinării, fabrici chimice, centrale termice. Recertificarea ISCIR este facilitată de documentația originală de la producător. Material: oțel carbon, inox, bronz sau aliaje speciale.`
+        description: `Supapele de siguranță ARI sunt protecția finală împotriva suprapresiunii în cazane, reactoare, recipiente sub presiune. Seria Safe (execuție conform DIN) și seria ARI-REYCO (conform API 526) fac parte din gama ARI de supape de siguranță; certificările și domeniul de utilizare se confirmă pe cod, din documentația producătorului. Fiecare supapă vine calibrată la presiunea de taraj solicitată, sigilată, cu certificat de calibrare. Se folosesc frecvent în rafinării, fabrici chimice, centrale termice. Recertificarea ISCIR este facilitată de documentația originală de la producător. Material: oțel carbon, inox, bronz sau aliaje speciale.`
       },
       {
         name: 'Supape și armături PTFE-lined pentru industria chimică',
-        description: `Produsele ARI cu căptușeală PTFE (teflon) sunt soluția când lucrezi cu acizi concentrați (sulfuric, clorhidric, azotic), baze puternice (sodă caustică), solvenți organici sau alte medii super corosive. Corpul supapei e din oțel sau fontă, dar toate suprafețele în contact cu fluidul sunt acoperite cu PTFE – rezistență chimică totală. Seria Chem (supape cu bilă PTFE-lined) și seria Vexo (supape cu membrană) se folosesc frecvent în fabrici de vopsele, îngrășăminte chimice, tratare ape acide. Etanșeitatea este ridicată pe termen lung, iar întreținerea este minimă, conform producătorului. Le furnizăm DN15-DN300, PN10-PN40.`
+        description: `Produsele ARI cu căptușeală PTFE (teflon) sunt soluția când lucrezi cu acizi concentrați (sulfuric, clorhidric, azotic), baze puternice (sodă caustică), solvenți organici sau alte medii super corosive. Corpul supapei e din oțel sau fontă, dar toate suprafețele în contact cu fluidul sunt acoperite cu PTFE – rezistență chimică totală. Disponibilitatea și gama armăturilor căptușite cu PTFE se confirmă din documentația ARI, pe baza codului. Dimensiunile și presiunile nominale se confirmă din documentația ARI.`
       },
       {
         name: 'Supape fluture (butterfly valves) pentru aplicații industriale',
@@ -363,7 +363,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       'TÜV certificare pentru supape de siguranță',
       'ATEX pentru zone explozive (grup II, categorii 1-3)',
       'GOST-R (Rusia), CRN (Canada)',
-      'SIL (Safety Integrity Level) pentru aplicații critice',
+      
       'Certificare navală: DNV-GL, Lloyds, ABS',
       'Certificat material 3.1 conform EN 10204 pentru fiecare lot'
     ],
@@ -387,11 +387,11 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
     productCodes: [
       {
         "code": "ARI-FABA Plus",
-        "description": "Vană cu burduf pentru izolare și control"
+        "description": "Vană de izolare cu etanșare prin burduf"
       },
       {
         "code": "ARI-FABA Supra I/C",
-        "description": "Vană cu burduf, varianta izolare și control extinsă"
+        "description": "Vană cu burduf din gama FABA, varianta Supra I/C"
       },
       {
         "code": "ARI-STOBU",
@@ -411,7 +411,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "code": "ARI-SAFE TCP",
-        "description": "Supapă de siguranță, varianta cu capac termic"
+        "description": "Supapă de siguranță, varianta SAFE TCP"
       },
       {
         "code": "ARI-CONA",
@@ -473,8 +473,8 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -483,36 +483,36 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
     founded: 1883,
     headquarters: 'Lund, Suedia',
     employees: '~20,500',
-    overview: `Alfa Laval este un producător cu istorie îndelungată în transfer termic, separare și manevrare fluide. Fondată în 1883 la Stockholm de Gustaf de Laval, compania a început cu separatoare centrifugale pentru lapte. Astăzi este unul dintre producătorii importanți la nivel global în cele trei domenii menționate, cu un portofoliu extins de brevete, în special la schimbătoarele de căldură cu plăci.
+    overview: `Alfa Laval este un producător cu istorie îndelungată în transfer termic, separare și manevrare fluide. Fondată în 1883 la Stockholm de Gustaf de Laval, compania a început cu separatoare centrifugale pentru lapte. Astăzi este unul dintre producătorii importanți la nivel global în cele trei domenii menționate.
 
 Un schimbător Alfa Laval cu plăci ocupă, conform producătorului, un spațiu semnificativ mai mic decât un schimbător tubular clasic cu aceeași capacitate termică, cu un randament termic superior - motiv pentru care tehnologia este larg răspândită în industria alimentară.
 
 Schimbătoarele de căldură Alfa Laval se folosesc frecvent: în fabricile de lapte (pasteurizare, răcire, încălzire UHT), în industria berii și băuturilor (răcire must, încălzire pentru fermentație), în industria chimică (preîncălzire reactanți, răcire produse finite) și în sisteme HVAC industriale (recuperare căldură, răcire procese).
 
-Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (demontabile pentru curățare), schimbătoare brazate (compacte, fără garnituri, pentru refrigerare), schimbătoare toate-sudate (pentru presiuni mari sau fluide agresive), schimbătoare tubulare (când există particule solide în fluid), separatoare centrifugale, decantoare. Pentru proiecte mari colaborăm direct cu inginerii Alfa Laval pentru dimensionare exactă, folosind software-ul specializat al producătorului.`,
+Putem oferi pentru piața românească: schimbătoare cu plăci gasketed (demontabile pentru curățare), schimbătoare brazate (compacte, fără garnituri, pentru refrigerare), schimbătoare toate-sudate (pentru presiuni mari sau fluide agresive), schimbătoare tubulare (când există particule solide în fluid), separatoare centrifugale, decantoare. `,
     whyChoose: [
-      'Producător de referință în tehnologia schimbătoarelor de căldură cu plăci',
+      'Producător cu istorie îndelungată în tehnologia schimbătoarelor de căldură cu plăci',
       'Eficiență energetică ridicată, documentată de producător, față de tehnologiile clasice',
       'Design compact – economisește spațiu semnificativ față de schimbătoarele tubulare',
       'Gamă completă: de la mini schimbătoare brazate până la sisteme industriale mari',
-      'Furnizăm în România cu stoc la modele standard + comenzi custom pentru proiecte complexe'
+      'Aprovizionare prin canale din UE; disponibilitatea se confirmă înainte de ofertă'
     ],
     keyProducts: [
       {
         name: 'Schimbătoare de căldură cu plăci gasketed (demontabile)',
-        description: `Seria Alfa Laval M (M3, M6, M10, M15, M20) sunt adaptabile la o gamă largă de aplicații. Plăcile din inox presate într-un tipar special creează turbulență mare în fluidele care circulă între ele, maximizând transferul termic. Garniturile (EPDM, NBR, FKM) se schimbă ușor când e nevoie. Se folosesc frecvent în pasteurizare lapte (perechi de plăci pentru încălzire + răcire regenerativă), răcire apă proces cu turnuri de răcire, încălzire glicol pentru sisteme de dezgheț. Fiecare schimbător vine cu certificat de presiune (PED), instrucțiuni de asamblare, piese de schimb disponibile local. Le furnizăm de la 0.1 m² (mini-aplicații) până la 1500 m² (industrii mari).`
+        description: `Seria Alfa Laval M (M3, M6, M10, M15, M20) sunt adaptabile la o gamă largă de aplicații. Plăcile din inox presate într-un tipar special creează turbulență mare în fluidele care circulă între ele, maximizând transferul termic. Garniturile (EPDM, NBR, FKM) se schimbă ușor când e nevoie. Se folosesc frecvent în pasteurizare lapte (perechi de plăci pentru încălzire + răcire regenerativă), răcire apă proces cu turnuri de răcire, încălzire glicol pentru sisteme de dezgheț. Documentația și certificatele se confirmă pe cod, din documentația Alfa Laval. `
       },
       {
         name: 'Schimbătoare de căldură brazate (compact, fără garnituri)',
-        description: `Schimbătoarele brazate Alfa Laval (seria CB, CBH) sunt soluția când vrei compactitate maximă și nu trebuie să deschizi niciodată schimbătorul pentru curățare mecanică (fluidele sunt curate). Plăcile din inox sunt brazate cu cupru sau nichel la temperaturi înalte – rezultatul e un bloc solid, fără garnituri, extrem de compact. Se folosesc frecvent în pompe de căldură (evaporator + condensator), chilere, sisteme de refrigerare comercială (răcire glicol pentru camere frigorifice), încălzire apă sanitară cu solar termic. Un CB30 de exemplu (30 plăci) are capacitate termică de 50-80 kW și încape într-o palmă. Presiuni până 30 bar, temperaturi -195°C până +200°C.`
+        description: `Schimbătoarele brazate Alfa Laval (seria CB, CBH) sunt soluția când vrei compactitate maximă și nu trebuie să deschizi niciodată schimbătorul pentru curățare mecanică (fluidele sunt curate). Plăcile din inox sunt brazate cu cupru la temperaturi înalte – rezultatul e un bloc solid, fără garnituri, extrem de compact. Se folosesc frecvent în pompe de căldură (evaporator + condensator), chilere, sisteme de refrigerare comercială (răcire glicol pentru camere frigorifice), încălzire apă sanitară cu solar termic. Capacitatea termică, presiunea și temperatura depind de model și se confirmă din documentația Alfa Laval.`
       },
       {
         name: 'Schimbătoare toate-sudate (pentru presiuni mari și medii agresive)',
-        description: `Când ai presiuni de 40-100 bar sau fluide super corosive (acizi concentrați, săruri topiți, solvenți organici fierbinți), schimbătoarele gasketed nu mai sunt opțiune. Seria Alfa Laval Compabloc (toate-sudate, plăci + cadru sudat laser) rezolvă problema. Construcție 100% inox 316L sau aliaje speciale (titanium, Hastelloy), fără garnituri, etanșeitate ridicată. Se folosesc frecvent în rafinării (preîncălzire crude oil), fabrici chimice (răcitoare reactoare sub presiune), centrale electrice (recuperare căldură gaze eșapament). Costă mai mult decât variantele gasketed, dar pentru aplicații critice reprezintă adesea singura opțiune tehnică potrivită.`
+        description: `Pentru presiuni sau temperaturi ridicate ori fluide agresive, schimbătoarele cu garnituri pot să nu fie potrivite; Alfa Laval oferă în acest scop schimbătoare toate-sudate, de exemplu seria Compabloc. Materialele și parametrii se confirmă din documentația producătorului. Se folosesc frecvent în rafinării (preîncălzire crude oil), fabrici chimice (răcitoare reactoare sub presiune), centrale electrice (recuperare căldură gaze eșapament). `
       },
       {
         name: 'Separatoare centrifugale pentru lichide',
-        description: `Separatoarele Alfa Laval (disc stack separators) folosesc forță centrifugă de până 10,000 G pentru a separa lichide de densități diferite sau solide de lichide. În industria alimentară: separare smântână din lapte, clarificare suc de fructe, separare uleiuri vegetale. În industria petrochimică: separare apă din combustibili, purificare uleiuri lubrifiate, tratare slop oil. În naval: separare apă bilge, purificare combustibil naval. Capacități de la 100 litri/oră (lab) până la 100,000 litri/oră (fabrici mari). Separarea e continuă, automată, cu eficiență ridicată – obții produse finale de puritate ridicată. Le furnizăm cu sisteme de curățare automată (self-cleaning) pentru că ai solide.`
+        description: `Separatoarele Alfa Laval (disc stack separators) folosesc forța centrifugă pentru a separa lichide de densități diferite sau solide de lichide. În industria alimentară: separare smântână din lapte, clarificare suc de fructe, separare uleiuri vegetale. În industria petrochimică: separare apă din combustibili, purificare uleiuri lubrifiate, tratare slop oil. În naval: separare apă bilge, purificare combustibil naval. Separarea e continuă, automată, cu eficiență ridicată – obții produse finale de puritate ridicată. Le furnizăm cu sisteme de curățare automată (self-cleaning) pentru că ai solide.`
       }
     ],
     certifications: [
@@ -563,7 +563,7 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
       },
       {
         "code": "M6-FD",
-        "description": "Schimbător M6, varianta de cadru dublă"
+        "description": "Schimbător M6, cadru FD pentru presiune de lucru de până la 25 barg"
       },
       {
         "code": "M6-M",
@@ -595,7 +595,7 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
       },
       {
         "code": "M15-FD",
-        "description": "Schimbător M15, cadru dublu"
+        "description": "Schimbător M15, cadru FD (treapta de presiune cea mai ridicată)"
       },
       {
         "code": "T6",
@@ -607,7 +607,7 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
       },
       {
         "code": "AC65",
-        "description": "Schimbător brazat pentru pompe de căldură de mare volum"
+        "description": "Schimbător brazat pentru pompe de căldură rezidențiale, cu agenți frigorifici cu GWP redus (de exemplu R290)"
       },
       {
         "code": "AC540",
@@ -621,11 +621,11 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
       },
       {
         "q": "Livrează Alfa Laval schimbătoare de căldură în România la comandă?",
-        "a": "Da, aducem la comandă schimbătoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbatorului existent."
+        "a": "Da, aducem la comandă schimbătoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbătorului existent."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un schimbător Alfa Laval?",
-        "a": "Este nevoie de modelul exact, numărul de placi, tipul garniturii, materialul placilor și presiunea maximă de lucru a instalației. Dacă schimbatorul este deja montat, o fotografie a plăcuței de identificare cu seria și numărul de placi reduce mult riscul de a comanda o piesă incompatibilă cu pachetul existent."
+        "a": "Este nevoie de modelul exact, numărul de plăci, tipul garniturii, materialul plăcilor și presiunea maximă de lucru a instalației. Dacă schimbătorul este deja montat, o fotografie a plăcuței de identificare cu seria și numărul de placi reduce mult riscul de a comanda o piesă incompatibilă cu pachetul existent."
       },
       {
         "q": "Ce înseamnă sufixul MX la o placă Alfa Laval din seria M6?",
@@ -633,8 +633,8 @@ Distribuim gama pentru piața românească: schimbătoare cu plăci gasketed (de
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },

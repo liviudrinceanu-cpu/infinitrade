@@ -674,27 +674,27 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
     founded: 1946,
     headquarters: 'Klingenberg am Main, Germania',
     employees: '11,000+',
-    overview: `WIKA e un nume pe care îl vezi peste tot în industrie — de la manometre simple pe compresoare până la transmițători de presiune în centrale nucleare. Fondată în 1946 în Germania, compania s-a specializat pe măsurare presiune, temperatură, nivel, debit și calibrare. Cu 11,000 de angajați și 50 de filiale globale, WIKA e unul dintre principalii producători independenți de instrumente de măsurare. De ce independent contează? Pentru că nu sunt legați de un ecosistem specific de automatizare — produsele WIKA funcționează cu orice PLC, DCS sau SCADA.
+    overview: `WIKA e un nume pe care îl vezi peste tot în industrie — de la manometre simple pe compresoare până la transmițători de presiune în centrale nucleare. Fondată în 1946 în Germania, compania s-a specializat pe măsurare presiune, temperatură, nivel, debit și calibrare. Cu aproximativ 11.000 de angajați și 45 de filiale și unități de producție la nivel mondial, WIKA e unul dintre principalii producători independenți de instrumente de măsurare. De ce independent contează? Pentru că nu sunt legați de un ecosistem specific de automatizare — produsele WIKA funcționează cu orice PLC, DCS sau SCADA.
 
-Un punct forte al WIKA este varietatea catalogului. Acesta are peste 50,000 de variante de produse — de la manometre mecanice cu filet 1/4" până la transmițători digitale wireless cu protocol LoRaWAN, acoperind o gamă largă de aplicații industriale.
+Un punct forte al WIKA este varietatea catalogului. Acesta cuprinde un număr foarte mare de tipuri de produse și variante — de la manometre mecanice cu filet 1/4" până la transmițători digitale wireless cu protocol LoRaWAN, acoperind o gamă largă de aplicații industriale.
 
 Precizia este un domeniu central pentru WIKA, care are propriul laborator de calibrare acreditat DKD/DAkkS în Germania, cu standarde de referință naționale. Pentru aplicații critice în nuclear, aero-spațial, farma, sunt disponibile certificate de calibrare trasabile la standarde naționale — cerință legală în multe industrii; fiecare senzor poate veni cu certificat individual de calibrare și documentație de trasabilitate, conform producătorului.
 
 Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerină, cu membrana separatoare), transmițători presiune (absolute, relative, diferențiale, cu celulă ceramică sau metal), termometre (mecanice bimetalice, digitale, cu termorezistență PT100, cu termocuplu), senzori nivel (hidrostatici, ultrasonic, radar), debitmetru (rotametru, turbină, vortex), accesorii (valve, separatoare, sifonuri, racorduri).`,
     whyChoose: [
-      'Catalog amplu de instrumente de măsurare — peste 50.000 de variante disponibile',
-      'Calibrare certificată trасabilă la standarde naționale pentru aplicații critice',
-      'Aprobare nuclear, farmaceutic, naval, ATEX — produse pentru orice industrie',
+      'Catalog amplu de instrumente de măsurare, cu foarte multe variante constructive',
+      'Calibrare certificată trasabilă la standarde naționale pentru aplicații critice',
+      'Execuții cu aprobări specifice (de exemplu ATEX), în funcție de model; se confirmă pe cod',
       'Gamă largă de instrumente disponibilă prin canalele noastre de aprovizionare din UE'
     ],
     keyProducts: [
       {
         name: 'Manometre Mecanice și cu Glicerină',
-        description: 'Serie 111, 113, 232.50 cu conexiuni filet NPT/G, cadrane 40-250mm, presiuni -1 la 1600 bar. Umplere glicerină pentru vibrații, carcasă inox pentru medii corozive, execuție ATEX pentru zone explozive. Când comanda e urgentă, confirmăm întâi cu WIKA disponibilitatea reală și abia apoi termenul.'
+        description: 'Serie 111, 113, 232.50 cu conexiuni filet NPT/G, cadrane și domenii de presiune în funcție de model, conform fișei tehnice WIKA. Umplere glicerină pentru vibrații, carcasă inox pentru medii corozive, execuție ATEX pentru zone explozive. Când comanda e urgentă, confirmăm întâi cu WIKA disponibilitatea reală și abia apoi termenul.'
       },
       {
         name: 'Transmițători Presiune A-10, S-20, MH-3',
-        description: 'Transmițători inteligenți cu ieșire 4-20mA, HART, Profibus, Modbus. Precizie până la ±0.05% FS, stabilitate pe termen lung ±0.1%/an. Execuții speciale cu membrană separatoare pentru fluide vâscoase, cristalizante, toxice. Montare directă pe proces sau cu racord capillar.'
+        description: 'Transmițători de presiune; semnalele de ieșire, precizia și stabilitatea depind de model și se confirmă din fișa tehnică WIKA (de exemplu PE 81.60 pentru A-10). Execuții speciale cu membrană separatoare pentru fluide vâscoase, cristalizante, toxice. Montare directă pe proces sau cu racord capillar.'
       },
       {
         name: 'Termometre Bimetalice și cu Termocuplu',
@@ -702,7 +702,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       },
       {
         name: 'Laborator Mobil de Calibrare și Echipamente Metrologie',
-        description: 'Pompe presiune pneumatice și hidraulice CPP30, CPA, controller calibrare CPC6050, calibratoare temperatură CTD/CTB. Soluții complete pentru calibrare la fața locului conform ISO 9001, ISO/IEC 17025. Oferim și servicii de calibrare certificată prin laboratorul Infinitrade acreditat Renar.'
+        description: 'Pompe presiune pneumatice și hidraulice CPP30, CPA, controller calibrare CPC6050, calibratoare temperatură CTD/CTB. Soluții complete pentru calibrare la fața locului conform ISO 9001, ISO/IEC 17025. '
       }
     ],
     certifications: [
@@ -712,8 +712,8 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       'IECEx - Certificare internațională Ex',
       'SIL 2 / SIL 3 - Safety Integrity Level',
       'PED 2014/68/EU - Echipamente sub presiune',
-      'FDA 21 CFR Part 11 - Industrie farmaceutică',
-      'ASME U-Stamp - Industrie nuclear',
+      
+      
       'DNV GL - Industrie naval marine',
       '3-A Sanitary - Industrie alimentară'
     ],
@@ -728,7 +728,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       'Mașini-Unelte și Hidraulică',
       'Aeronautică și Aero-Spațial'
     ],
-    infinitrade: `La instrumentele WIKA procedăm ca la toate brandurile noastre: spunem ce putem și ce nu putem confirma, fără date proprii de stoc pentru fiecare cod din catalog. Ne aprovizionăm prin canale din Uniunea Europeană; produsele din gama standard — manometre, termometre, transmițătoare uzuale — pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar execuțiile speciale sau certificatele de calibrare individuale se aduc la comandă în 1–4 săptămâni. Pentru un calcul de preț și termen avem nevoie de codul produsului, domeniul de măsurare și cantitatea dorită. Trimite-ne aceste informații și revenim cu o ofertă verificată.`,
+    infinitrade: `La instrumentele WIKA procedăm ca la toate brandurile noastre: spunem ce putem și ce nu putem confirma, fără date proprii de stoc pentru fiecare cod din catalog. Ne aprovizionăm prin canale din Uniunea Europeană; produsele din gama standard — manometre, termometre, transmițătoare uzuale — pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar execuțiile speciale sau certificatele de calibrare individuale se aduc la comandă în 1–4 săptămâni. Pentru un calcul de preț și termen avem nevoie de codul produsului, domeniul de măsurare și cantitatea dorită. Trimiteți-ne aceste informații și revenim cu o ofertă verificată.`,
     limitation: 'Nu putem confirma că toate variantele de manometre și transmițătoare WIKA sunt disponibile din stoc în orice moment, nici serviciile de calibrare certificată pentru fiecare tip de instrument din gamă.',
     sources: [
       {"title":"Pressure measurement products","url":"https://www.wika.com/en-en/pressure_measurement.WIKA","publisher":"WIKA","accessed":"2026-09-22"},
@@ -802,7 +802,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       },
       {
         "code": "IV31",
-        "description": "Manifold cu 2 cai, versiune compactă"
+        "description": "Manifold cu 2 căi, versiune compactă"
       },
       {
         "code": "IV50",
@@ -810,7 +810,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       },
       {
         "code": "IV51",
-        "description": "Manifold cu 5 cai, versiune compactă"
+        "description": "Manifold cu 5 căi, versiune compactă"
       },
       {
         "code": "IVM",
@@ -836,7 +836,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
     faq: [
       {
         "q": "Cum aleg un manometru Wika potrivit pentru vibrații în instalație?",
-        "a": "Pentru puncte cu vibrații sau pulsații de presiune, seria 213.53 cu umplere de glicerină reduce uzura acului indicator și prelungește durata de viață a manometrului Wika. Verificam domeniul de presiune necesar, diametrul carcasei și tipul racordului de proces înainte de a recomanda varianta exactă."
+        "a": "Pentru puncte cu vibrații sau pulsații de presiune, seria 213.53 cu umplere de glicerină reduce uzura acului indicator și prelungește durata de viață a manometrului Wika. Verificăm domeniul de presiune necesar, diametrul carcasei și tipul racordului de proces înainte de a recomanda varianta exactă."
       },
       {
         "q": "Ce diferență este între un manometru Wika cu tub Bourdon și unul cu membrană?",
@@ -844,7 +844,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       },
       {
         "q": "Livrează Wika instrumente de măsură în România?",
-        "a": "Da, aducem instrumentele Wika la comandă pe bază informațiilor publice ale producătorului, fără a ține evidență unui stoc propriu pe site. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și domeniul de presiune cerut, iar pentru variante speciale poate dura mai mult."
+        "a": "Da, aducem instrumentele Wika la comandă pe baza informațiilor publice ale producătorului, fără a ține evidență unui stoc propriu pe site. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și domeniul de presiune cerut, iar pentru variante speciale poate dura mai mult."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de manifold Wika, de exemplu IV30?",
@@ -852,8 +852,8 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   }

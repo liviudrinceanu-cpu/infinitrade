@@ -2,32 +2,32 @@ export const brandContentBatch14 = {
   'prominent-dosing': {
     founded: 1960,
     headquarters: 'Heidelberg, Germania',
-    employees: '3000+',
+    employees: '2800',
     overview: `ProMinent a pornit din nevoia de a trata apa în mod precis și sigur, iar astăzi sunt recunoscuți global pentru pompele lor dozatoare și sistemele complete de tratare. Un aspect notabil este că ProMinent nu vinde doar pompe - vinde soluții complete pentru chimicalizare, dezinfecție și analiza apei. Fie că e vorba de o stație de epurare, o instalație de purificare a apei potabile sau un circuit industrial de răcire, producătorul german are expertiză în dozarea precisă a substanțelor chimice.
 
-Gama lor de produse acoperă pompe dozatoare cu membrană (seria Gamma, Smart Digital, Concept), pompe peristaltice pentru substanțe agresive, stații de dozare complet automatizate și sisteme de dezinfecție cu clor, ozon sau UV. La ProMinent găsești și măsurători online (pH, redox, clor rezidual, turbiditate) integrate cu dozarea automată - practic sistemul se reglează singur. Tehnologia lor de comunicație digitală (bus profibus, profinet, modbus) face ca pompele să poată fi controlate remote și integrate în sisteme SCADA. Pe lângă asta, oferă servicii complete de consultanță în tratarea apei, sizing corect al pompelor și training pentru personal. Au centre de service și support tehnic în toată Europa, iar piesele de schimb le găsești rapid. În România lucrează cu multe stații de epurare, fabrici chimice, industria farmaceutică și alimentară - oriunde e nevoie de dozare precisă și repetabilă.
+Gama lor de produse acoperă pompe dozatoare cu membrană (seria Gamma, Smart Digital, Concept), pompe peristaltice pentru substanțe agresive, stații de dozare complet automatizate și sisteme de dezinfecție cu clor, ozon sau UV. La ProMinent găsești și măsurători online (pH, redox, clor rezidual, turbiditate) integrate cu dozarea automată - practic sistemul se reglează singur. Interfețele de comunicație disponibile (de exemplu pentru integrare în sisteme SCADA) depind de model și se confirmă din fișa tehnică. Pe lângă asta, oferă servicii complete de consultanță în tratarea apei, sizing corect al pompelor și training pentru personal. Aplicațiile tipice includ stațiile de epurare, industria chimică, farmaceutică și alimentară; disponibilitatea pieselor de schimb se confirmă la fiecare cerere.
 
-ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de electroliză pentru producția de hipoclorit de sodiu on-site (Bellozon), filtre automate, stații de neutralizare, rezervoare de stocare și mixere statice. Nemții au investit serios în digitalizare - platforma lor Smart Services permite monitorizarea pompelor de la distanță, predictive maintenance și istoric complet al parametrilor de funcționare. Pentru aplicații critice (apa potabilă, pharma) oferă pompe certificate conform standardelor FDA și W270. Miza lor e zero downtime și precizie de dozare sub 1%. ProMinent acoperă aplicații de tratare a apei care necesită funcționare îndelungată și fiabilă.`,
+ProMinent oferă și sisteme de dezinfecție, stații de neutralizare și alte echipamente pentru tratarea apei; gama exactă și serviciile digitale disponibile se confirmă din documentația producătorului. Pentru aplicații critice (apa potabilă, pharma) oferă pompe certificate conform standardelor FDA și W270. Precizia de dozare depinde de model și se confirmă din fișa tehnică. ProMinent acoperă aplicații de tratare a apei care necesită funcționare îndelungată și fiabilă.`,
     whyChoose: [
-      'Pompe dozatoare cu precizie sub 1% - ideale pentru aplicații critice în pharma și apa potabilă',
+      'Pompe dozatoare; precizia de dozare depinde de model și se confirmă din fișa tehnică',
       'Sisteme complete integrate (pompă + analiză + dozare automată) - economisești timp la punere în funcțiune',
-      'Tehnologie digitală Smart Services cu predictive maintenance - știi exact când să schimbi membrana',
-      'Materiale rezistente la substanțe agresive (PTFE, Hastelloy, PVDF) - funcționează cu acizi, baze, oxidanți',
-      'Support tehnic și service rapid în România - piesele de schimb le primești în maxim 72h',
-      'Gamă largă de debite (0.01 l/h până la 1000 l/h) - de la laborator la stații industriale mari'
+      'Funcții de diagnostic, în funcție de model, descrise în documentația producătorului',
+      'Materiale ale capului de dozare alese după compatibilitatea chimică, conform fișei tehnice a modelului',
+      'Piesele de schimb se comandă pe cod; termenul se confirmă la fiecare cerere (de regulă 1–4 săptămâni la comandă)',
+      'Gamă largă de debite, începând de la 0,01 l/h; domeniul exact se confirmă pe model'
     ],
     keyProducts: [
       {
-        name: 'Pompe dozatoare cu membrană Gamma, Smart Digital',
-        description: `Seria Gamma (motor-driven) și Smart Digital (solenoid-driven) sunt best-seller-urile ProMinent pentru dozare precisă în industrie și utilități. Gamma merge până la 1000 l/h și 40 bar, are control digital al cursei cu afișaj LCD și poate fi reglată manual sau automat (4-20mA, Profibus). Smart Digital e mai compactă, perfectă pentru chimicale agresive datorită capului PTFE complet etanș. Ambele au membrană multicamere rezistentă minim 8000h funcționare continuă. Se regăsesc frecvent la stații de epurare pentru dozare polimer, clor, acid sau bază. Faptul că ai diagnostic complet (ore funcționare, alarme membrană, contor curse) te scutește de ghiceli la mentenanță. Practic pornești pompa, setezi debitul și uiți de ea până vine notificarea de schimb membrană peste câțiva ani.`
+        name: 'Pompe dozatoare cu membrană gamma/ X',
+        description: `Seria gamma/ X este o serie de pompe dozatoare cu membrană acționate solenoidal, cu domeniu de 2,3–45 l/h la 25–2 bar, conform catalogului ProMinent. Pompele cu motor aparțin altor serii (de exemplu alpha, Vario C, Sigma). Se regăsesc frecvent la stații de epurare pentru dozare polimer, clor, acid sau bază. Faptul că ai diagnostic complet (ore funcționare, alarme membrană, contor curse) te scutește de ghiceli la mentenanță. `
       },
       {
-        name: 'Sisteme de electroliză Bellozon pentru producție hipoclorit',
-        description: `Bellozon e soluția ProMinent pentru producția on-site de hipoclorit de sodiu din sare și apă - elimini complet stocarea de clor gazos sau lichid periculos. Sistemul face electroliză cu celule membranare sau tubulare, produce concentrații de la 0.4% până la 0.8% NaOCl și se reglează automat după consumul din rețea. Astfel de sisteme se folosesc frecvent la piscine și rezervoare de apă potabilă - funcționează non-stop, producția e constantă și siguranța e ridicată (nu mai ai chimicale periculoase pe stoc). Celulele de electroliză au durată de viață 4-5 ani, consumul electric e scăzut și poți integra sistemul în automatizarea existentă. ProMinent oferă și service pack cu înlocuire celulă programată. Dacă vrei să scapi de logistica chimicalelor și de riscurile de manipulare, Bellozon este o opțiune de urmărit, cu o perioadă de amortizare ce depinde de aplicație.`
+        name: 'Sisteme de dezinfecție ProMinent',
+        description: `Tehnologia, capacitatea și domeniul de aplicare ale sistemelor de dezinfecție ProMinent se confirmă din documentația producătorului.`
       },
       {
         name: 'Stații de măsurare și control (pH, redox, clor rezidual, turbiditate)',
-        description: `ProMinent nu se limitează la pompe - oferă și controlere digitale complete pentru monitorizarea și reglarea parametrilor apei. Seria Dulcometer cu senzori pH, redox, clor liber/total, turbiditate, conductivitate - toate cu certificare pentru apă potabilă și industria alimentară. Controllerul primește semnalul de la senzor, afișează valoarea pe display color și comandă pompa dozatoare să corecteze automat (ex: pH scade sub 7.0 → pompă bazăpornește până reajunge la setpoint). Aceste stații se folosesc frecvent la piscine și circuite de răcire - merg fără recalibrare luni întregi, alarmele te anunță instant dacă iese ceva din parametri și istoricul se salvează pe card SD. Integrarea cu SCADA e simplă (modbus RTU/TCP, profinet), iar interfața web îți permite să monitorizezi de pe telefon. Practic ai laborator automat 24/7 care îți ține apa în parametri fără intervenție umană.`
+        description: `ProMinent nu se limitează la pompe - oferă și controlere digitale complete pentru monitorizarea și reglarea parametrilor apei. Seria DULCOMETER cu senzori pentru pH, redox, clor și alți parametri; certificările se confirmă pe model. Controllerul primește semnalul de la senzor, afișează valoarea pe display color și comandă pompa dozatoare să corecteze automat (ex: pH scade sub 7.0 → pompă bazăpornește până reajunge la setpoint). Aceste stații se folosesc la piscine și circuite de răcire; funcțiile de alarmă și de stocare a datelor depind de model. Integrarea cu SCADA e simplă (modbus RTU/TCP, profinet), iar interfața web îți permite să monitorizezi de pe telefon. Practic ai laborator automat 24/7 care îți ține apa în parametri fără intervenție umană.`
       }
     ],
     certifications: [
@@ -37,7 +37,7 @@ ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de elec
       'FDA compliance - Pompe și materiale aprobate pentru pharma și food',
       'W270 - Certificare pentru componentele în contact cu apa potabilă',
       'CE marking - Conformitate produse pentru piața europeană',
-      'Drinking Water Inspectorate (UK) - Aprobare pentru tratarea apei potabile',
+      'Aprobări pentru apa potabilă - conform fișei tehnice a fiecărui model',
       'NSF/ANSI 61 - Certificare contacte cu apa potabilă (piața SUA)'
     ],
     industries: [
@@ -144,7 +144,7 @@ ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de elec
     faq: [
       {
         "q": "Ce pompă dozatoare ProMinent aleg pentru o soluție chimică agresivă?",
-        "a": "Pentru substanțe chimice agresive, seria ProMinent EXtronic sau pompele hidraulice Orlita Evolution sunt alegerile tipice, ambele proiectate pentru presiuni și medii dificile. Materialul capului de dozare trebuie ales în funcție de compatibilitatea chimică a substanței dozate, verificată în fișa tehnică a fiecărui model."
+        "a": "Pentru substanțe chimice agresive, alegerea seriei depinde de presiune, debit și compatibilitatea materialului capului de dozare; seriile pentru proces (de exemplu Orlita Evolution) se confirmă din catalogul ProMinent. Materialul capului de dozare trebuie ales în funcție de compatibilitatea chimică a substanței dozate, verificată în fișa tehnică a fiecărui model."
       },
       {
         "q": "Ce diferență este între pompa gamma/X și Sigma/2 la ProMinent?",
@@ -164,8 +164,8 @@ ProMinent nu s-a oprit doar la pompe - au dezvoltat și sisteme complete de elec
       }
     ],
     evidenceClass: "gsc-only",
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'renold': {
@@ -308,29 +308,29 @@ Renold oferă un selector online de lanțuri (Chain Selector), pentru alegerea l
     employees: '30000+ (Regal Rexnord)',
     overview: `Rexnord a fost timp de peste un secol unul dintre furnizorii importanți pentru componente de transmisie mecanică - lagăre, cuplaje, lanțuri, roți dințate. În 2021 s-au unit cu Regal Beloit formând Regal Rexnord, un grup global important în power transmission și motion control. Compania are experiență în aplicații cu sarcini grele și condiții extreme - mining, oțelării, cimentării, offshore -, cu lagăre gândite pentru condiții dificile: praf, căldură, șocuri și vibrații. Gama lor acoperă de la lagăre mici de câteva centimetri până la lagăre uriașe pentru role de laminor sau morile de ciment.
 
-Portofoliul Rexnord include: lagăre radiale și axiale (sferice, cu role conice, cu bile), lagăre cu cuzineți (seria Link-Belt), cuplaje cu dinți (Omega, Addax), cuplaje elastice (Falk Lifelign), lanțuri de transmisie și transportoare (Rex, Euroflex), roți dințate și reductoare planetare. Lagărele Link-Belt sunt faimoase pentru design-ul care permite montaj și demontaj rapid fără a scoate arborele - economisești ore întregi la mentenanță. Cuplajele Omega (cu dinți curbați) transmit momente uriașe (până la 2 milioane Nm) și compensează dezalinieri - le găsești pe turbine, generatoare, laminoare. Lanțurile Rex sunt construite pentru aplicații heavy-duty (minerit, drag-line, transportoare cu sarcini peste 100 tone). Americanii oferă și soluții custom - lagăre speciale pentru temperaturi extreme (-40°C până +250°C), medii corozive (versiuni inox), zone ATEX (design anti-scânteie). Service-ul lor include analiză vibrații, termografie, inspecții cu ultrasunete și training pentru personalul de mentenanță.
+Portofoliul Rexnord include: lagăre radiale și axiale (sferice, cu role conice, cu bile), lagăre cu cuzineți (seria Link-Belt), cuplaje elastomerice (Omega, Wrapflex), cuplaje cu grilă (Falk Steelflex), cuplaje cu dinți (Falk Lifelign), lanțuri de transmisie și transportoare (Rex), roți dințate și reductoare planetare. Lagărele Link-Belt sunt lagăre cu carcasă (pillow block) pentru aplicații industriale; metoda de montaj se confirmă din documentația producătorului. Cuplajele Omega sunt cuplaje elastomerice care compensează dezalinieri; momentul transmis și dezalinierea admisă se confirmă pe model, din documentația producătorului. Lanțurile Rex sunt destinate aplicațiilor heavy-duty (de exemplu minerit). Variantele speciale (temperaturi extreme, medii corozive, zone ATEX) se confirmă pe cod, din documentația producătorului.
 
-Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare cu senzori wireless pe lagăre și cuplaje care transmit date vibrații, temperatură, lubrifiere în cloud și îți spun exact când să faci mentenanță înainte de defectare. Au și aplicații de sizing online foarte avansate - introduci sarcina, turația, condițiile de mediu și sistemul îți recomandă lagărul sau cuplajul optim din catalogul lor uriaș. Pentru aplicații critice oferă și service de consultanță - inginerii lor vin la fața locului, analizează instalația, fac măsurători și îți propun soluția completă (lagăre, cuplaje, lubrifiere, montaj). Dacă ai echipamente care lucrează non-stop în condiții extreme și nu-ți permiți opriri neplanificate, Rexnord/Regal Rexnord e brandul de încredere.`,
+Soluțiile de monitorizare disponibile se confirmă din documentația producătorului. Instrumentele de selecție și serviciile de consultanță ale producătorului se confirmă direct la acesta.`,
     whyChoose: [
       'Peste 130 ani experiență în power transmission - know-how american consacrat',
-      'Lagăre Link-Belt cu montaj rapid fără demontare arbore - economisești ore la mentenanță',
-      'Cuplaje Omega pentru momente uriaș (până la 2 mil Nm) - soluția pentru turbine și generatoare',
-      'Produse pentru aplicații extreme (mining, oțelării, offshore) - rezistență dovedită în teren',
-      'Monitorizare digitală cu senzori wireless - predictive maintenance care previne defectările',
-      'Service și consultanță tehnică în România - analiză vibrații, termografie, training'
+      'Lagăre Link-Belt cu carcasă (pillow block)',
+      'Cuplaje Omega (elastomerice); momentul transmis se confirmă pe model',
+      'Produse pentru aplicații industriale grele (minerit, oțelării, offshore)',
+      'Soluții de monitorizare; disponibilitatea se confirmă la producător',
+      'Asistență la identificarea codului potrivit, pe baza documentației producătorului'
     ],
     keyProducts: [
       {
         name: 'Lagăre radiale Link-Belt cu montaj rapid (seria spherical, pillow block)',
-        description: `Lagărele Link-Belt sunt faimoase pentru design-ul care permite montaj/demontaj fără a scoate arborele din instalație - economisești ore întregi când trebuie să schimbi un lagăr defect. Seria spherical roller bearings (cu role sferice) suportă sarcini radiale și axiale mari, compensează dezalinieri până la 3° și merge perfect în condiții cu șocuri și vibrații. Pillow block housings (corpuri lagăre cu patru șuruburi) sunt perfecte pentru transportoare, ventilatoare, pompe - montajul e extrem de simplu și precis. Se folosesc frecvent pe linii de producție unde downtime-ul costă scump - cu un lagăr de rezervă la îndemână, se deșurubează patru șuruburi, se scoate lagărul vechi, se montează cel nou și instalația poate reporni în câteva minute. Link-Belt oferă și versiuni pentru medii agresive (sigilare Redi-Sert cu protecție IP67, corpuri inox) și pentru temperaturi extreme. Dacă vrei mentenanță rapidă și fiabilitate crescută, Link-Belt e investiția care merită.`
+        description: `Lagărele Link-Belt cu role sferice suportă sarcini radiale și axiale; metoda de montaj și capacitatea de compensare a dezalinierii se confirmă pe model, din documentația producătorului. Pillow block housings (corpuri lagăre cu patru șuruburi) sunt perfecte pentru transportoare, ventilatoare, pompe - montajul e extrem de simplu și precis. Variantele pentru medii agresive sau temperaturi extreme se confirmă pe cod.`
       },
       {
-        name: 'Cuplaje cu dinți curbați Omega și Addax pentru aplicații heavy-duty',
-        description: `Cuplajele Omega (gear coupling cu dinți curbați) sunt construite pentru a transmite momente foarte mari (de la 5000 Nm până la 2 milioane Nm) în aplicații unde cuplajele clasice cedează - turbine, generatoare, laminoare, morile de ciment. Dinții curbați permit compensarea dezalinierii unghiulare până la 1.5° fără creșterea forțelor radiale pe lagăre (spre deosebire de cuplajele cu dinți drepți). Addax e versiunea pentru aplicații cu spații limitate - design compact, greutate redusă dar moment transmis foarte mare. Se folosesc frecvent la oțelării și cimentării - merg ani întregi în praf, căldură, șocuri fără probleme dacă sunt lubrifiate corect. Rexnord oferă și versiuni ATEX cu protecție anti-scânteie pentru zone cu risc explozie. Montajul e simplu (flanșe bolt-on sau asamblare cu inele de strângere) și ai acces ușor la dinți pentru inspecție/lubrifiere. Dacă transmiți puteri mari și ai vibrații/dezalinieri, Omega e soluția engineerilor.`
+        name: 'Cuplaje Omega și Addax pentru aplicații industriale',
+        description: `Cuplajele Omega sunt cuplaje elastomerice pentru aplicații industriale; momentul transmis și dezalinierea admisă se confirmă pe model, din documentația Rexnord. Tipul constructiv al seriei Addax și disponibilitatea variantelor ATEX se confirmă din documentația producătorului.`
       },
       {
         name: 'Lanțuri de transmisie și transportoare Rex heavy-duty',
-        description: `Lanțurile Rex sunt făcute pentru aplicații industriale cu sarcini grele și funcționare continuă 24/7 - mining, drag-line, transportoare cu cărbune/minereu, laminoare. Seria de transmisie acoperă de la lanțuri standard ANSI până la lanțuri custom pentru momente uriașe. Seria de transportoare (Rex chain, Euroflex) are design robust cu plăci late, pivoți mari și tratament termic pentru rezistență la uzură. Sunt gândite pentru transportoare de minereu cu funcționare îndelungată - lanțul Rex rezistă la șocuri, praf abraziv, sarcini neuniforme, conform producătorului. Rexnord oferă și lanțuri pentru temperaturi extreme (până la +500°C pentru cuptoare) și medii corozive (versiuni inox pentru offshore). Avantajul e că ai și service complet - Rexnord vine, măsoară uzura lanțului, verifică tensionarea, recomandă când să schimbi preventiv. Dacă ai aplicație critică cu sarcini mari, Rex e lanțul care nu te lasă baltă.`
+        description: `Lanțurile Rex sunt făcute pentru aplicații industriale cu sarcini grele și funcționare continuă 24/7 - mining, drag-line, transportoare cu cărbune/minereu, laminoare. Seria de transmisie acoperă de la lanțuri standard ANSI până la lanțuri custom pentru momente uriașe. Seria de transportoare (Rex chain, Euroflex) are design robust cu plăci late, pivoți mari și tratament termic pentru rezistență la uzură. Sunt gândite pentru transportoare de minereu cu funcționare îndelungată - lanțul Rex rezistă la șocuri, praf abraziv, sarcini neuniforme, conform producătorului. Variantele pentru temperaturi extreme sau medii corozive se confirmă pe cod, din documentația producătorului.`
       }
     ],
     certifications: [
@@ -338,10 +338,10 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
       'ISO 14001 - Management de mediu procese producție',
       'ISO 45001 - Sănătate și securitate ocupațională',
       'ATEX - Cuplaje și lagăre pentru zone cu risc explozie',
-      'API 671 - Cuplaje pentru industria petrol și gaze',
+      'API 671 - aplicabilitatea se confirmă pe cod',
       'AGMA standards - Conformitate cuplaje și roți dințate (American Gear Manufacturers)',
       'CE marking - Conformitate produse pentru piața europeană',
-      'DNV GL - Certificare produse pentru aplicații maritime și offshore'
+      'Aprobări maritime - se confirmă pe cod'
     ],
     industries: [
       'Minerit și extracție (transportoare, morile, separatoare)',
@@ -366,7 +366,7 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
     productCodes: [
       {
         "code": "PB22400",
-        "description": "Lagăr Link-Belt cu carcasă solidă, pillow block"
+        "description": "Lagăr Link-Belt cu carcasă solidă, pillow block (marcat ca retras din producție pe pagina oficială; disponibilitatea se confirmă)"
       },
       {
         "code": "PB22500",
@@ -402,7 +402,7 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
       },
       {
         "code": "Rexnord Addax",
-        "description": "Cuplaj elastomeric pentru aplicații industriale generale"
+        "description": "Cod din gama Rexnord; tipul se confirmă din documentația producătorului"
       },
       {
         "code": "Rexnord Omega",
@@ -444,8 +444,8 @@ Regal Rexnord a investit masiv în digitalizare - au platformă de monitorizare 
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
       { date: '2026-09-22', note: 'Am corectat anul înființării Rexnord, conform surselor citate.' }
     ]
@@ -586,9 +586,9 @@ Producătorul a investit în digitalizare și IoT - platforma Rittal IoT Interfa
     employees: '28000+',
     overview: `Rockwell Automation este unul dintre producătorii americani importanți din automatizări industriale, cel mai cunoscut pentru brandul Allen-Bradley, larg folosit în multe industrii. Când zici Rockwell te gândești instant la PLC-uri CompactLogix și ControlLogix, variatori de frecvență PowerFlex și panouri HMI PanelView - echipamente gândite pentru funcționare îndelungată în fabrici din toată lumea. Ecosistemul Rockwell este integrat complet: de la senzori și butoane până la SCADA enterprise, totul comunică prin rețeaua EtherNet/IP. Nu trebuie să te chinui cu gateway-uri și conversii de protocol - conectezi totul în aceeași rețea și funcționează out of the box.
 
-Portofoliul Rockwell acoperă toată piramida automatizării: la nivel câmp au senzori inductivi/capacitivi, fotocelule, encodere seria 842E, butoane și semnalizări luminoase seria 800. La nivel control au PLC-uri de la Micro800 (micro PLC pentru mașini simple) până la ControlLogix (PLC modular scalabil pentru linii complexe) și PAC-uri (controllere avansate cu motion control integrat). Variatorii PowerFlex acoperă de la 0.2kW până la megawatti (seria 755 pentru aplicații grele). HMI-urile PanelView (de la 4 inch până la 21 inch touchscreen) sunt extrem de robuste și vin cu software FactoryTalk View preinstalat. Pentru safety au gama Guardlogix (PLC-uri safety integrated SIL3) și dispozitive safety (light curtain, safety relay, interlock switches). Software-ul Studio 5000 unifică programarea PLC, HMI, motion, safety într-o singură platformă - programezi o dată și deploy pe orice controler Allen-Bradley. La nivel enterprise au FactoryTalk suite pentru MES, SCADA, historian, analytics - practic ai vizibilitate completă de la senzor până la management dashboard.
+Portofoliul Rockwell acoperă toată piramida automatizării: la nivel câmp au senzori inductivi/capacitivi, fotocelule, encodere seria 842E, butoane și semnalizări luminoase seria 800. La nivel control au PLC-uri de la Micro800 (micro PLC pentru mașini simple) până la ControlLogix (PLC modular scalabil pentru linii complexe) și PAC-uri (controllere avansate cu motion control integrat). Variatorii PowerFlex acoperă o gamă largă de puteri; puterea exactă a fiecărui model se confirmă pe cod. HMI-urile PanelView sunt disponibile în mai multe dimensiuni de ecran, în funcție de serie; software-ul inclus se confirmă pe cod. Pentru safety au gama Guardlogix (PLC-uri safety integrated SIL3) și dispozitive safety (light curtain, safety relay, interlock switches). Software-ul Studio 5000 se folosește pentru programarea controlerelor Logix 5000, inclusiv funcții de motion și safety; compatibilitatea cu fiecare controler se confirmă pe cod. La nivel enterprise au FactoryTalk suite pentru MES, SCADA, historian, analytics - practic ai vizibilitate completă de la senzor până la management dashboard.
 
-Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics trimite date din producție în cloud (Azure), rulează algoritmi machine learning pentru predictive maintenance și îți raportează anomalii înainte să se transforme în downtime. Oferă și Connected Services - inginerii Rockwell se conectează remote la instalația ta, fac diagnostic, update firmware, optimizare performanță. Pentru aplicații critice (pharma, food) au soluții validate conform FDA 21 CFR Part 11 și GAMP5. Service-ul lor în România include training certificat (cursuri Studio 5000, PowerFlex, safety), consultanță pentru migrare de la PLC-uri vechi (PLC5, SLC500) la platforme noi și suport tehnic rapid. Dacă construiești automatizare industrială și vrei ecosistem complet interoperabil cu suport pe termen lung (producătorul declară disponibilitate de piese de schimb pe 15 ani), Allen-Bradley este o opțiune de încredere.`,
+Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics trimite date din producție în cloud (Azure), rulează algoritmi machine learning pentru predictive maintenance și îți raportează anomalii înainte să se transforme în downtime. Oferă și Connected Services - inginerii Rockwell se conectează remote la instalația ta, fac diagnostic, update firmware, optimizare performanță. Pentru aplicații critice (pharma, food) au soluții validate conform FDA 21 CFR Part 11 și GAMP5. Rockwell Automation oferă cursuri și documentație prin site-ul producătorului; asistența locală se confirmă la fiecare cerere. Dacă construiești automatizare industrială și vrei ecosistem complet interoperabil cu suport pe termen lung, Allen-Bradley este o opțiune de încredere.`,
     whyChoose: [
       'Ecosistem complet integrat EtherNet/IP - de la senzor la SCADA fără conversii protocol',
       'PLC-uri CompactLogix și ControlLogix cu fiabilitate ridicată, conform producătorului',
@@ -600,19 +600,19 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
     keyProducts: [
       {
         name: 'PLC-uri CompactLogix și ControlLogix cu programare Studio 5000',
-        description: `CompactLogix e PLC-ul modular mid-range perfect pentru majoritatea aplicațiilor industriale - de la mașini standalone până la linii de producție complexe. Controlerele seria 5380 (CPU cu procesor multi-core) au performanță ridicată, memorie mare (până la 100MB program + data), porturi EtherNet/IP dual pentru redundanță și posibilitate expansiune prin module I/O locale sau remote (Flex I/O, Point I/O). ControlLogix e platforma high-end pentru aplicații mari (sute/mii I/O, coordonare axe motion, redundanță controler) - chassis-ul modular acceptă module CPU, I/O digitale/analogice, module motion (SERCOS, EtherNet/IP motion), module safety, comunicații (Profibus, DeviceNet, Modbus). Programarea se face în Studio 5000 (Logix Designer) cu limbaje IEC 61131-3 (ladder, structured text, function block) - mediul e intuitiv, debugging-ul e excelent (online edit, force I/O, trend variabile). Se folosesc frecvent la sute de tipuri de aplicații - de la linii de ambalare la mixere chimice - cu stabilitate și performanță consistente, conform documentației producătorului. Rockwell oferă și bibloteci pre-făcute (Add-On Instructions) pentru echipamente standard (variatori, servos, valve) care pot scurta semnificativ timpul de programare. CompactLogix acoperă aplicațiile care necesită funcționare pe termen lung și posibilitatea de a face modificări ulterioare fără probleme de compatibilitate.`
+        description: `CompactLogix e PLC-ul modular mid-range perfect pentru majoritatea aplicațiilor industriale - de la mașini standalone până la linii de producție complexe. Controlerele seria 5380 (CPU cu procesor multi-core) au performanță ridicată, memorie de 0,6–10 MB, în funcție de model, porturi EtherNet/IP dual pentru redundanță și posibilitate expansiune prin module I/O locale sau remote (Flex I/O, Point I/O). ControlLogix e platforma high-end pentru aplicații mari (sute/mii I/O, coordonare axe motion, redundanță controler) - chassis-ul modular acceptă module CPU, I/O digitale/analogice, module motion (SERCOS, EtherNet/IP motion), module safety, comunicații (Profibus, DeviceNet, Modbus). Programarea se face în Studio 5000 (Logix Designer) cu limbaje IEC 61131-3 (ladder, structured text, function block) - mediul e intuitiv, debugging-ul e excelent (online edit, force I/O, trend variabile). Se folosesc frecvent la sute de tipuri de aplicații - de la linii de ambalare la mixere chimice - cu stabilitate și performanță consistente, conform documentației producătorului. Rockwell oferă și bibloteci pre-făcute (Add-On Instructions) pentru echipamente standard (variatori, servos, valve) care pot scurta semnificativ timpul de programare. CompactLogix acoperă aplicațiile care necesită funcționare pe termen lung și posibilitatea de a face modificări ulterioare fără probleme de compatibilitate.`
       },
       {
         name: 'Variatori de frecvență PowerFlex (525, 755, 755T)',
-        description: `Seria PowerFlex e gama completă de variatori Rockwell pentru motoare asincrone - de la aplicații simple HVAC (PowerFlex 525 de la 0.2kW la 22kW) până la variatori industriali heavy-duty (PowerFlex 755T de la 0.75kW la 1.5MW). PowerFlex 525 e best-seller-ul pentru pompe, ventilatoare, transportoare - programare simplă prin keypad sau Connected Components Workbench, comunicație Modbus RTU/TCP sau EtherNet/IP. PowerFlex 755 e variator premium cu control vectorial, frânare regenerativă, filtre EMC integrate, protecție IP20/IP54 - perfect pentru aplicații care cer dinamic rapid (extrudere, laminoare, mixere). PowerFlex 755T e special pentru torque mare constant low-speed (morile, prese, pompe volumetrice) - merge până la 1Hz fără derating și menține cuplul 100%. Se integrează în sute de aplicații - configurarea din Studio 5000 e simplă (Add-On Profile detectează automat variatorul și pune la dispoziție parametrii), iar diagnosticul afișează clar erorile și istoricul alarmelor. Rockwell oferă și TotalFORCE technology pentru reducere armonici (THDi < 5%) fără filtre passive mari. Dacă vrei variator care să comunice perfect cu PLC-ul Allen-Bradley și să meargă 10+ ani fără service, PowerFlex e soluția.`
+        description: `Seria PowerFlex e gama completă de variatori Rockwell pentru motoare asincrone - de la aplicații simple HVAC (PowerFlex 525, putere conform fișei tehnice) până la variatori industriali heavy-duty (PowerFlex 755T, putere conform fișei tehnice). PowerFlex 525 e best-seller-ul pentru pompe, ventilatoare, transportoare - programare simplă prin keypad sau Connected Components Workbench, comunicație Modbus RTU/TCP sau EtherNet/IP. PowerFlex 755 e variator premium cu control vectorial, frânare regenerativă, filtre EMC integrate, protecție IP20/IP54 - perfect pentru aplicații care cer dinamic rapid (extrudere, laminoare, mixere).  Se integrează în sute de aplicații - configurarea din Studio 5000 e simplă (Add-On Profile detectează automat variatorul și pune la dispoziție parametrii), iar diagnosticul afișează clar erorile și istoricul alarmelor. Nivelul de armonici și funcțiile tehnologiei TotalFORCE se confirmă din documentația producătorului.`
       },
       {
         name: 'HMI PanelView și software FactoryTalk View pentru interfață operator',
-        description: `PanelView este gama de panouri HMI touchscreen Rockwell - de la 4 inch (PanelView 800 pentru mașini compacte) până la 21 inch (PanelView 5000 pentru controlroom). Construcție robustă IP65 front, ecran rezistiv sau capacitiv, procesor performant pentru grafică complexă, porturi Ethernet pentru comunicație cu PLC-uri și server SCADA. Programarea se face în FactoryTalk View Studio - editor grafic drag-and-drop pentru ecrane, alarme, trend-uri, rețete. Integrarea cu Studio 5000 e seamless - importi tag-urile direct din proiectul PLC fără să le tastezi manual și orice modificare în PLC se reflectă automat în HMI. PanelView Plus 7 (ultima generație) are performanță excelentă - tranzițiile între ecrane sunt instant, graficele complexe (curbe trend, faceplate-uri pump/valve) merg fluid. Se folosesc pe o gamă largă de aplicații - de la HVAC simplu cu câteva ecrane până la linii farmaceutice cu sute de alarme și audit trail complet. Pentru aplicații critice Rockwell oferă PanelView validat FDA 21 CFR Part 11 (electronic signatures, audit trail, user management). Dacă vrei HMI care să arate profesional, să meargă rapid și să fie ușor de întreținut de operatori fără experiență IT, PanelView este o opțiune de referință.`
+        description: `PanelView este gama de panouri HMI touchscreen Rockwell - în mai multe dimensiuni de ecran, în funcție de serie (de exemplu PanelView 800 pentru mașini compacte). Construcție robustă IP65 front, ecran rezistiv sau capacitiv, procesor performant pentru grafică complexă, porturi Ethernet pentru comunicație cu PLC-uri și server SCADA. Programarea se face în FactoryTalk View Studio - editor grafic drag-and-drop pentru ecrane, alarme, trend-uri, rețete. Integrarea cu Studio 5000 e seamless - importi tag-urile direct din proiectul PLC fără să le tastezi manual și orice modificare în PLC se reflectă automat în HMI.  Se folosesc pe o gamă largă de aplicații - de la HVAC simplu cu câteva ecrane până la linii farmaceutice cu sute de alarme și audit trail complet. Pentru aplicații critice Rockwell oferă PanelView validat FDA 21 CFR Part 11 (electronic signatures, audit trail, user management). `
       },
       {
         name: 'Sisteme safety GuardLogix și dispozitive safety (light curtain, interlock)',
-        description: `GuardLogix e platforma Rockwell pentru safety integrated - PLC care combină controlul standard cu safety control certified SIL3/PLe într-un singur controler. Programezi logica safety tot în Studio 5000 (Logix Designer cu extensie Safety) folosind aceleași limbaje (ladder, structured text) ca la logica standard - nu mai ai nevoie de safety PLC separat și cablaj dublat. Modulele GuardLogix Safety I/O conectează direct light curtain-uri, safety switches, emergency stops, two-hand controls - toate certificate SIL3 conform EN ISO 13849-1. Rockwell oferă și dispozitive safety complete: light curtain-uri seria 440L (protecție zone periculoase, range până 20m), safety relays seria 440R (monitorizare circuite emergency stop), safety switches seria 440G (interlock uși cu blocare electromagnetică), safety laser scanner-e seria 442L (protecție zone variabile). Se integrează frecvent pe mașini conform directivei 2006/42/EC - validarea safety e simplificată datorită certificărilor produselor și bibliotecilor safety pre-certificate din Studio 5000. Dacă construiești mașini pentru piața UE și ai nevoie de conformitate safety rapidă cu documentație completă, GuardLogix + dispozitive Allen-Bradley e cea mai eficientă cale.`
+        description: `GuardLogix e platforma Rockwell pentru safety integrated - PLC care combină controlul standard cu safety control certified SIL3/PLe într-un singur controler. Programezi logica safety tot în Studio 5000 (Logix Designer cu extensie Safety) folosind aceleași limbaje (ladder, structured text) ca la logica standard - nu mai ai nevoie de safety PLC separat și cablaj dublat. Modulele GuardLogix Safety I/O conectează direct light curtain-uri, safety switches, emergency stops, two-hand controls - toate certificate SIL3 conform EN ISO 13849-1. Rockwell oferă și dispozitive safety complete: light curtain-uri seria 440L (protecție zone periculoase), safety relays seria 440R (monitorizare circuite emergency stop), safety switches seria 440G (interlock uși cu blocare electromagnetică), safety laser scanner-e seria 442L (protecție zone variabile). Se integrează frecvent pe mașini conform directivei 2006/42/EC - validarea safety e simplificată datorită certificărilor produselor și bibliotecilor safety pre-certificate din Studio 5000. Documentația și certificările fiecărui dispozitiv de siguranță se confirmă din fișa tehnică a producătorului.`
       }
     ],
     certifications: [
@@ -665,7 +665,7 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
       },
       {
         "code": "CompactLogix 5390",
-        "description": "Controler PLC compact, șasiu 5039"
+        "description": "Controler PLC compact, șasiu 5069"
       },
       {
         "code": "CompactLogix 5380",
@@ -731,35 +731,35 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'schneider': {
     founded: 1836,
     headquarters: 'Rueil-Malmaison, Franța',
-    employees: '135000+',
-    overview: `Schneider Electric este unul dintre producătorii mari la nivel mondial în management energie și automatizări industriale. Deși sunt cunoscuți și pentru echipamentele electrice (întrerupătoare, contactoare - vezi schneider-electric), aici ne concentrăm pe divizia lor industrială: PLC-uri Modicon, variatori de frecvență Altivar, HMI Harmony și sisteme complete de control motoare Tesys. Ecosistemul companiei acoperă de la controlul mașinilor simple până la automatizări de proces complexe cu redundanță și safety integrat, cu soluții complete - nu doar PLC și variator separate, ci platforme integrate cu software comun (EcoStruxure) care unifică programarea, configurarea și monitorizarea.
+    employees: '160000',
+    overview: `Schneider Electric este unul dintre producătorii mari la nivel mondial în management energie și automatizări industriale. Deși sunt cunoscuți și pentru echipamentele electrice (întrerupătoare, contactoare), aici ne concentrăm pe divizia lor industrială: PLC-uri Modicon, variatori de frecvență Altivar, HMI Harmony și sisteme complete de control motoare Tesys. Ecosistemul companiei acoperă de la controlul mașinilor simple până la automatizări de proces complexe cu redundanță și safety integrat, cu soluții complete - nu doar PLC și variator separate, ci platforme integrate cu software comun (EcoStruxure) care unifică programarea, configurarea și monitorizarea.
 
-Gama industrială Schneider include: PLC-uri Modicon (de la M221 micro PLC până la M580 ePAC cu redundanță hot-standby), variatori de frecvență Altivar (de la ATV320 entry-level 0.18kW până la Altivar Process cu frânare regenerativă și megawatti), soft-startere și contactoare electronice Tesys pentru pornire motoare, HMI Harmony touchscreen (de la 3.5 inch până la 15 inch), butoane și semnalizări luminoase seria Harmony XB. Pentru safety au gama Preventa (light curtain, safety relay, interlock switches) și controllere safety Modicon M262. Software-ul EcoStruxure Machine Expert unifică programarea PLC (IEC 61131-3), configurarea HMI, sizing variatori, totul din aceeași interfață - economisești timp serios la punerea în funcțiune. La nivel enterprise au Citect SCADA și Wonderware (achiziționat de Schneider) pentru control centralizat și raportare producție. Comunicația e puternică - Modbus (nativ Schneider), EtherNet/IP, Profinet, OPC UA - practic se integrează cu orice.
+Gama industrială Schneider include: PLC-uri Modicon (de la M221 micro PLC până la M580 ePAC cu redundanță hot-standby), variatori de frecvență Altivar (de la ATV320 entry-level 0.18kW până la Altivar Process cu frânare regenerativă și megawatti), soft-startere și contactoare electronice Tesys pentru pornire motoare, HMI Harmony touchscreen (de la 3.5 inch până la 15 inch), butoane și semnalizări luminoase seria Harmony XB. Pentru safety au gama Preventa (light curtain, safety relay, interlock switches). Software-ul EcoStruxure Machine Expert unifică programarea PLC (IEC 61131-3), configurarea HMI, sizing variatori, totul din aceeași interfață - economisești timp serios la punerea în funcțiune. La nivel enterprise Schneider Electric oferă soluții software SCADA; gama exactă se confirmă din documentația producătorului. Comunicația e puternică - Modbus (nativ Schneider), EtherNet/IP, Profinet, OPC UA - practic se integrează cu orice.
 
-Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure trimite date din mașini în cloud, rulează analytics pentru predictive maintenance, optimizare energie, OEE tracking. Au și marketplace cu aplicații pre-făcute pentru diverse industrii (packaging, food, water treatment). Pentru clienți mari oferă Connected Services - inginerii Schneider se conectează remote, fac diagnostic, update, training. În România au prezență puternică prin distribuitori și service center București - piese de schimb și suport tehnic rapid. Dacă ai nevoie de automatizare industrială completă cu focus pe eficiență energetică, ecosistemul Modicon + Altivar + Harmony este o soluție integrată consistentă.`,
+Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure trimite date din mașini în cloud, rulează analytics pentru predictive maintenance, optimizare energie, OEE tracking. Au și marketplace cu aplicații pre-făcute pentru diverse industrii (packaging, food, water treatment). Pentru clienți mari oferă Connected Services - inginerii Schneider se conectează remote, fac diagnostic, update, training. Disponibilitatea pieselor de schimb și a suportului local se confirmă la fiecare cerere. Dacă ai nevoie de automatizare industrială completă cu focus pe eficiență energetică, ecosistemul Modicon + Altivar + Harmony este o soluție integrată consistentă.`,
     whyChoose: [
-      'Ecosistem industrial complet Modicon PLC + Altivar VFD + Harmony HMI - integrare perfectă',
+      'Ecosistem industrial complet Modicon PLC + Altivar VFD + Harmony HMI - integrare în același ecosistem',
       'Software EcoStruxure Machine Expert unificat - programare PLC/HMI/VFD din aceeași platformă',
-      'Variatori Altivar cu eficiență energetică ridicată (IE3, IE4 ready) - economii electricitate semnificative',
+      'Variatori Altivar pentru reglarea turației motoarelor; economiile de energie depind de aplicație',
       'Comunicații flexibile (Modbus, EtherNet/IP, Profinet, OPC UA) - compatibilitate universală',
       'Focus pe sustainability și management energie - raportare consumuri și carbon footprint',
-      'Prezență puternică România cu service local - piese și suport tehnic rapid'
+      'Piesele și suportul tehnic se confirmă la fiecare cerere'
     ],
     keyProducts: [
       {
         name: 'PLC-uri Modicon M221, M241, M262, M580 cu programare IEC 61131-3',
-        description: `Gama Modicon acoperă de la micro PLC-uri pentru mașini simple (M221 Logic Controller cu până la 38 I/O digitale integrate) până la controllere enterprise-grade cu redundanță (M580 ePAC hot-standby). M241 e best-seller-ul pentru automatizări mid-size - CPU performant, Ethernet integrat, extensie prin cartele TM3 (I/O digitale, analogice, comunicații), programare în SoMachine (rebranded acum EcoStruxure Machine Expert) cu limbaje ladder, structured text, function block. M262 e controler safety integrat (SIL3/PLe) perfect pentru mașini conform 2006/42/EC - programezi logica safety și standard în același software, fără PLC safety separat. M580 e platforma high-end pentru aplicații de proces - redundanță CPU + rețea + IO, hot-swap module fără oprire proces, comunicații avansate (OPC UA server integrat), cybersecurity (firewall, user authentication). Tranziția între modele este simplă datorită aceluiași software, bibliotecile de funcții sunt compatibile și codul poate fi reutilizat între proiecte. Dacă vrei PLC flexibil care să crească odată cu aplicația ta (de la mașină simplă la linie complexă), Modicon e alegerea engineerilor.`
+        description: `Gama Modicon acoperă de la micro PLC-uri pentru mașini simple (M221 Logic Controller) până la controllere enterprise-grade cu redundanță (M580 ePAC hot-standby). M241 e best-seller-ul pentru automatizări mid-size - CPU performant, Ethernet integrat, extensie prin cartele TM3 (I/O digitale, analogice, comunicații), programare în SoMachine (rebranded acum EcoStruxure Machine Expert) cu limbaje ladder, structured text, function block. M262 este un controler Modicon pentru mașini; funcțiile de siguranță, dacă există, și nivelul lor (SIL/PL) se confirmă din fișa tehnică a modelului. M580 e platforma high-end pentru aplicații de proces - redundanță CPU + rețea + IO, hot-swap module fără oprire proces, comunicații avansate (OPC UA server integrat), cybersecurity (firewall, user authentication). Tranziția între modele este simplă datorită aceluiași software, bibliotecile de funcții sunt compatibile și codul poate fi reutilizat între proiecte. Dacă vrei PLC flexibil care să crească odată cu aplicația ta (de la mașină simplă la linie complexă), Modicon e alegerea engineerilor.`
       },
       {
         name: 'Variatori de frecvență Altivar 320, 630, Process pentru motoare asincrone',
-        description: `Seria Altivar acoperă de la variatori compacți low-cost (ATV320 de la 0.18kW la 15kW pentru pompe/ventilatoare simple) până la variatori industriali premium (Altivar Process 900 cu frânare regenerativă și puteri în megawatti pentru industria chimică/petrochimică). ATV320 e perfect pentru HVAC și aplicații OEM - programare prin keypad sau Bluetooth (app SoMove pe telefon), comunicație Modbus RTU/TCP, funcții pre-programate pentru pompe (PID control, dry-run protection). Altivar 630 (rebranding recent al seriei 61/71) e variator industrial robust cu control vectorial, protecție overload 150% pentru 60s, filtre EMC integrate, opțiuni comunicație avansată (EtherNet/IP, Profinet). Altivar Process e top-tier pentru aplicații cu cerințe stricte - filtru activ integrat pentru THDi < 5%, frânare regenerativă (returnează energie în rețea), bypass integrat pentru continuitate alimentare în caz defect variator. Se folosesc pe sute de tipuri de aplicații - de la pompe submersibile la extrudere plastic. Schneider oferă și software SoMove pentru configurare avansată, backup parametri, monitorizare. Dacă vrei variator care să consume mai puțin (motor IE3/IE4 + variator Altivar optimizat energetic pot reduce semnificativ consumul față de pornirea directă, conform producătorului), Altivar este o opțiune cu potențial bun de amortizare.`
+        description: `Seria Altivar acoperă de la variatori compacți low-cost (ATV320 de la 0,18 kW la 22 kW pentru pompe/ventilatoare simple) până la variatori industriali premium (Altivar Process 900 cu frânare regenerativă și puteri în megawatti pentru industria chimică/petrochimică). ATV320 e perfect pentru HVAC și aplicații OEM - programare prin keypad sau Bluetooth (app SoMove pe telefon), comunicație Modbus RTU/TCP, funcții pre-programate pentru pompe (PID control, dry-run protection). Altivar 630 este variator industrial; funcțiile, supraîncărcarea admisă și opțiunile de comunicație se confirmă pe cod. Altivar Process e top-tier pentru aplicații cu cerințe stricte - opțiuni (de exemplu filtrare armonici, frânare regenerativă, bypass) care se confirmă pe model. Se folosesc pe sute de tipuri de aplicații - de la pompe submersibile la extrudere plastic. Schneider oferă și software SoMove pentru configurare avansată, backup parametri, monitorizare. Dacă vrei variator care să consume mai puțin (motor IE3/IE4 + variator Altivar optimizat energetic pot reduce semnificativ consumul față de pornirea directă, conform producătorului), Altivar este o opțiune cu potențial bun de amortizare.`
       },
       {
         name: 'HMI touchscreen Harmony și sisteme control motoare Tesys',
@@ -770,7 +770,7 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
       'ISO 9001 - Management calitate fabricație echipamente industriale',
       'ISO 14001 - Management de mediu procese producție',
       'ISO 50001 - Management energie eficiență energetică produse',
-      'IEC 61508 - Safety integrity level (SIL3) pentru controllere M262',
+      'IEC 61508 - nivelul SIL se confirmă din fișa tehnică a fiecărui model',
       'EN ISO 13849-1 - Safety of machinery (PLe) dispozitive Preventa',
       'UL/cUL certification - Aprobare produse pentru piața nord-americană',
       'CE marking - Conformitate produse pentru piața europeană',
@@ -812,7 +812,7 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
       },
       {
         "code": "ATV6100",
-        "description": "Variator compact pentru aplicații generale până la 8880 kW"
+        "description": "Variator de medie tensiune, până la 8880 kW"
       },
       {
         "code": "ATV320",
@@ -890,8 +890,8 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
       }
     ],
     evidenceClass: "gsc-only",
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'schrack': {
@@ -1045,31 +1045,31 @@ Documentația tehnică (fișe tehnice, certificate, declarații de conformitate)
     founded: 1907,
     headquarters: 'Londra, Marea Britanie (Shell plc)',
     employees: '80000+ (Shell global)',
-    overview: `Shell este unul dintre producătorii importanți de lubrifianți industriali la nivel mondial - când zici Shell Tellus (hidraulic), Shell Omala (angrenaje), Shell Gadus (unsori) vorbești despre produse recunoscute în industrie de zeci de ani. Shell a investit masiv în cercetare - laboratoare proprii unde testează lubrifianți în condiții extreme și colaborări cu producători mari de echipamente industriale pentru aprobare fabrică. Un punct forte al Shell Lubricants este că nu vinde doar ulei - oferă servicii complete de lubrifiere: analiză condiție ulei, program lubrifiere optimizat, training pentru personal, consultanță pentru reducere consum și creștere interval schimb. Practic investești în lubrifiant premium Shell și economisești la mentenanță, downtime, consum energie.
+    overview: `Shell este unul dintre producătorii importanți de lubrifianți industriali la nivel mondial - când zici Shell Tellus (hidraulic), Shell Omala (angrenaje), Shell Gadus (unsori) vorbești despre produse recunoscute în industrie de zeci de ani. Aprobările de la producătorii de echipamente se confirmă pe fișa tehnică a fiecărui produs; serviciile de lubrifiere ale Shell se confirmă direct la producător. 
 
-Gama Shell Lubricants industriale include: Shell Tellus (uleiuri hidraulice de la HLP 32 până la HLP 100, sintetice pentru temperaturi extreme), Shell Omala (uleiuri angrenaje industriale de la ISO 68 până la 680, cu aditivi EP pentru presiune extremă), Shell Gadus (unsori pe bază litiu, calciu, polimeri - pentru lagăre, ghidaje, lanțuri), Shell Turbo (uleiuri turbine cu gaze și abur), Shell Diala (uleiuri transformatoare electrice), Shell Mysella (uleiuri compresoare cu gaz natural), Shell Rimula (uleiuri motoare diesel heavy-duty pentru utilaje). Seria Tellus S2 (hidraulic) are performanță excelentă anti-uzură, protecție coroziune, stabilitate termică - interval schimb dublu față de uleiuri minerale standard (de la 2000h la 4000h). Omala S4 (sintetic pe bază PAO) merge până la temperaturi -40°C și +120°C, reduce frecarea cu 10-15% față de uleiuri minerale (economie energie semnificativă), interval schimb triplu (>12000h). Gadus S5 (unsoare sintetică) rezistă la apă, temperaturi extreme, sarcini mari - perfectă pentru lagăre expuse (excavatoare, macarale, utilaje outdoor).
+Gama Shell Lubricants industriale include: Shell Tellus (uleiuri hidraulice de la HLP 32 până la HLP 100, sintetice pentru temperaturi extreme), Shell Omala (uleiuri angrenaje industriale de la ISO 68 până la 680, cu aditivi EP pentru presiune extremă), Shell Gadus (unsori pe bază litiu, calciu, polimeri - pentru lagăre, ghidaje, lanțuri), Shell Turbo (uleiuri turbine cu gaze și abur), Shell Diala (uleiuri transformatoare electrice), Shell Mysella (uleiuri compresoare cu gaz natural), Shell Rimula (uleiuri motoare diesel heavy-duty pentru utilaje). Seria Tellus S2 este gama de uleiuri hidraulice minerale; intervalul de schimb se stabilește conform fișei tehnice și recomandărilor producătorului utilajului. Omala S4 este gama sintetică pentru angrenaje; domeniul de temperatură, intervalul de schimb și eficiența energetică se confirmă din fișa tehnică a gradului ales. Gadus S5 este gama de unsori pentru sarcini mari și condiții dificile; domeniul de temperatură se confirmă din fișa tehnică a produsului ales.
 
-Shell oferă și servicii digitale - platforma LubeAnalyst pentru monitorizare condiție ulei online (senzori în rezervor hidraulic trimite date vâscozitate, particule, umiditate în cloud și îți spune când să schimbi uleiul), LubeMatch app pentru recomandare lubrifiant pe baza echipamentului tău (introduci marca pompei hidraulice și îți spune ce Tellus să folosești). Au și program de sustenabilitate - Shell Eco-Marathon pentru reducere amprenta carbon prin lubrifianți sintetici cu interval schimb lung (mai puțin ulei uzat generat). Service-ul include și training pentru personal mentenanță - cum să iei probe ulei corect, cum să interpretezi rapoarte analiză, cum să implementezi program lubrifiere preventivă. În România, Shell colaborează cu fabrici mari din industria auto, mine, cimentării - orice aplicație industrială grea. Dacă vrei lubrifianți care să protejeze echipamentele și să reducă costurile pe termen lung, Shell e investiția care merită.`,
+Shell oferă servicii și instrumente digitale pentru lubrifiere; disponibilitatea și funcțiile lor se confirmă direct la producător.   `,
     whyChoose: [
-      'Brand global cu peste 100 ani experiență în lubrifianți - know-how dovedit',
+      'Brand global, înființat în 1907',
       'Gamă completă pentru orice aplicație industrială - de la hidraulic la turbine',
-      'Lubrifianți sintetici premium (Tellus S4, Omala S4) - interval schimb triplu și economie energie',
-      'Servicii analiză ulei LubeAnalyst - predictive maintenance și optimizare consum',
-      'Aprobări OEM (Siemens, Bosch Rexroth, Flender) - conformitate cu cerințele producătorilor de echipamente',
-      'Prezență puternică pe piața din România - livrări rapide și suport tehnic local'
+      'Lubrifianți sintetici (Tellus S4, Omala S4); intervalul de schimb se confirmă din fișa tehnică',
+      'Servicii și instrumente digitale pentru lubrifiere, la producător',
+      'Aprobări OEM (de exemplu Flender pentru Omala S2 GX) - se confirmă pe gradul ales',
+      'Livrarea se confirmă la fiecare cerere (de regulă 1–4 săptămâni la comandă)'
     ],
     keyProducts: [
       {
         name: 'Shell Tellus S2 M și S4 - Uleiuri hidraulice pentru sisteme industriale',
-        description: `Tellus e gama de hidraulic Shell pentru sisteme industriale - de la mașini-unelte CNC la prese hidraulice de sute tone. Tellus S2 M (mineral) e ulei HLP cu aditivi anti-uzură zinc (ZDDP), protecție coroziune, filtrabilitate excelentă (separă rapid apa și impuritățile), stabilitate oxidativă - interval schimb standard 2000h dar în practică merge și 3000-4000h la aplicații curate. Tellus S4 (sintetic PAO) e premium - viscozitate stabilă de la -30°C la +80°C (porniri la rece fără probleme, protecție la temperaturi înalte), economie de energie față de mineral (frecarea mai mică), conform producătorului, interval schimb >6000h. Se folosește frecvent pe excavatoare, prese de injecție, centrale hidraulice mari - conform producătorului, ajută la reducerea scurgerilor (sigilii mai bine protejate), la colmatarea mai lentă a filtrelor (ulei mai curat) și la o durată de viață mai mare a pompelor. Shell oferă și Tellus S2 VX (high VI pentru aplicații cu variații mari temperatură) și Tellus Arctic (pentru utilaje în zone polare unde temperatura coboară sub -40°C). Dacă ai sistem hidraulic important și vrei să uiți de schimbat ulei la fiecare 6 luni, Tellus S4 este o opțiune cu potențial bun de amortizare.`
+        description: `Tellus e gama de hidraulic Shell pentru sisteme industriale - de la mașini-unelte CNC la prese hidraulice de sute tone. Tellus S2 M este ulei hidraulic mineral; intervalul de schimb se stabilește conform fișei tehnice și recomandărilor producătorului utilajului. Tellus S4 este gama sintetică premium; baza uleiului, domeniul de temperatură și intervalul de schimb se confirmă din fișa tehnică a gradului ales. Se folosește frecvent pe excavatoare, prese de injecție, centrale hidraulice mari - conform producătorului, ajută la reducerea scurgerilor (sigilii mai bine protejate), la colmatarea mai lentă a filtrelor (ulei mai curat) și la o durată de viață mai mare a pompelor. Shell oferă și Tellus S2 VX (indice de vâscozitate ridicat, pentru aplicații cu variații de temperatură). `
       },
       {
         name: 'Shell Omala S2 G și S4 - Uleiuri angrenaje industriale cu aditivi EP',
-        description: `Omala e gama Shell pentru angrenaje industriale - reductoare, multiplicatoare, angrenaje deschise. Omala S2 G (mineral cu aditivi EP extreme pressure) protejează dinții angrenajului la sarcini mari, reduce uzura prin ungere film gros, rezistă la micropitting (fisuri de oboseală pe suprafața dinților). Oferim viscozități de la ISO 68 (angrenaje rapide) până la ISO 680 (angrenaje lente cu sarcini uriașe - morile de ciment, laminoare). Omala S4 GX (sintetic PAO) e premium pentru aplicații critice - eficiență energetică crescută, conform producătorului (frecarea mai mică înseamnă mai puțină căldură disipată și consum electric redus), interval schimb triplu (>12000h față de 4000h la mineral), protecție extreme-pressure superioară (suportă șocuri mai mari fără deteriorare dinți). Se recomandă frecvent la reductoare Flender, SEW, Bonfiglioli - conform producătorului, temperatura de funcționare poate scădea (protecție termică mai bună pentru rulmenți) și zgomotul se reduce (ungere mai bună, vibrații mai mici). Shell oferă și Omala HD (heavy-duty pentru angrenaje deschise expuse) și Omala S5 D (sintetic biodegradabil pentru aplicații unde scurgerile ajung în mediu - forestier, agricol). Omala S4 acoperă aplicațiile în care prelungirea duratei de viață a reductoarelor este prioritară.`
+        description: `Omala e gama Shell pentru angrenaje industriale - reductoare, multiplicatoare, angrenaje deschise. Omala S2 G (mineral cu aditivi EP extreme pressure) protejează dinții angrenajului la sarcini mari, reduce uzura prin ungere film gros, rezistă la micropitting (fisuri de oboseală pe suprafața dinților). Gradele de vâscozitate ISO disponibile se confirmă pe cod. Omala S4 GX (sintetic PAO) e premium pentru aplicații critice - eficiență energetică crescută, conform producătorului (frecarea mai mică înseamnă mai puțină căldură disipată și consum electric redus), intervalul de schimb și nivelul de protecție se confirmă din fișa tehnică. Aprobările pentru reductoare (de exemplu Flender, conform fișei Omala S2 GX 220) se confirmă pe gradul ales. Variantele speciale (pentru angrenaje deschise sau aplicații cu cerințe de mediu) se confirmă pe cod, din documentația Shell.`
       },
       {
         name: 'Shell Gadus S2, S3, S5 - Unsori litiu și polimeri pentru lagăre industriale',
-        description: `Gadus e gama completă de unsori Shell pentru lagăre, ghidaje, lanțuri, articulații. Gadus S2 (pe bază litiu) e unsoare clasică universal - temperatura funcționare -20°C la +120°C, rezistență apă bună, stabilitate mecanică (nu se separă la frecare îndelungată). Gadus S3 (litiu complex cu aditivi EP) merge până la +160°C, suportă sarcini mai mari, rezistență apă excelentă - perfectă pentru lagăre expuse (utilaje construcții, agricole, mining). Gadus S5 (pe bază polimeri sintetici + litiu complex) e top-tier - temperaturi de la -40°C la +180°C, protecție anti-uzură superioară, interval reungere triplu față de unsori clasice. Se folosește frecvent la lagăre de ventilatoare de cuptoare (+150°C continuu), excavatoare în zone reci (-30°C iarna) și lagăre expuse ploii sau prafului pe transportoare outdoor. Shell oferă și Gadus Rail (special pentru aplicații feroviare), Gadus S2 OGH (open gear pentru angrenaje mari expuse - morile, excavatoare), Gadus S2 A180 (adhesive pentru lanțuri transportoare). Dacă vrei să scazi frecvența reungere și să protejezi lagărele în condiții extreme, Gadus S5 e investiția care merită - costă mai mult dar economisești pe manoperă și rulmenți.`
+        description: `Gadus e gama completă de unsori Shell pentru lagăre, ghidaje, lanțuri, articulații. Gama Gadus include unsori S2, S3 și S5; domeniul de temperatură, tipul de îngroșător și intervalul de re-ungere se confirmă din fișa tehnică a produsului ales. Se folosește frecvent la lagăre de ventilatoare de cuptoare (+150°C continuu), excavatoare în zone reci (-30°C iarna) și lagăre expuse ploii sau prafului pe transportoare outdoor. Alte produse Gadus se confirmă pe cod, din documentația Shell.`
       }
     ],
     certifications: [
@@ -1077,7 +1077,7 @@ Shell oferă și servicii digitale - platforma LubeAnalyst pentru monitorizare c
       'ISO 14001 - Management de mediu procese fabricație',
       'ISO 21469 - Lubrifianți pentru industria alimentară (Shell Cassida)',
       'NSF H1 - Aprobare contact incidental cu alimente (unsori food-grade)',
-      'OEM approvals - Aprobări Siemens, Flender, SEW, Bosch Rexroth, FAG/SKF',
+      'Aprobări OEM - se confirmă pe fișa tehnică a gradului ales (de exemplu Flender T 7300 pentru Omala S2 GX 220)',
       'DIN 51517 - Standard uleiuri angrenaje industriale (Omala)',
       'DIN 51524 - Standard uleiuri hidraulice (Tellus)',
       'NLGI grades - Clasificare unsori (0, 1, 2, 3) conform National Lubricating Grease Institute',
@@ -1165,12 +1165,12 @@ Shell oferă și servicii digitale - platforma LubeAnalyst pentru monitorizare c
       },
       {
         "q": "Ce este unsoarea Shell Gadus S2 V220 2?",
-        "a": "Este o unsoare pe bază de ulei mineral rafinat, cu punct de picurare de aproximativ 180°C, folosită atât în aplicații auto, cât și industriale generale, pentru lagăre și componente expuse la sarcini moderate, acolo unde este nevoie de o lubrifiere semi-solidă stabilă la temperatura ambientală."
+        "a": "Este o unsoare pentru lagăre și componente expuse la sarcini moderate; proprietățile (ulei de bază, punct de picurare) se confirmă din fișa tehnică a produsului."
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
       { date: '2026-09-22', note: 'Am corectat sediul Shell Lubricants, conform surselor citate.' }
     ]
@@ -1316,35 +1316,35 @@ SICK a investit în digitalizare - platforma SICK AppSpace permite programarea s
     founded: 1847,
     headquarters: 'München, Germania',
     employees: '300000+ (Siemens AG global)',
-    overview: `Siemens este unul dintre producătorii mari la nivel mondial în tehnologie electrică și automatizări - în context instalații electrice, numele Siemens este asociat cu întrerupătoare automate seria 5SL/5SY, contactoare SIRIUS, protecții diferențiale, tablouri complete SIVACON. Compania are peste 175 de ani de istorie și a stabilit multe standarde în industrie. Deși Siemens are și divizii automatizări industriale (PLC SIMATIC, variatori SINAMICS - vezi siemens-automation), aici ne concentrăm pe echipamentele electrice pure: componente pentru tablouri BT (low voltage), aparataj modular, distribuție energie, protecții. Un punct forte al Siemens Electrical este ecosistemul complet integrat - de la întrerupător MCB de 6A până la tablou SIVACON complet cu busbar și control digital, totul compatibil și testat împreună.
+    overview: `Siemens este unul dintre producătorii mari la nivel mondial în tehnologie electrică și automatizări - în context instalații electrice, numele Siemens este asociat cu întrerupătoare automate seria 5SL/5SY, contactoare SIRIUS, protecții diferențiale, tablouri complete SIVACON. Compania are peste 175 de ani de istorie și a stabilit multe standarde în industrie. Deși Siemens are și divizii automatizări industriale (PLC SIMATIC, variatori SINAMICS), aici ne concentrăm pe echipamentele electrice pure: componente pentru tablouri BT (low voltage), aparataj modular, distribuție energie, protecții. Un punct forte al Siemens Electrical este ecosistemul complet integrat - de la întrerupător MCB de 6A până la tablou SIVACON complet cu busbar și control digital, totul compatibil și testat împreună.
 
-Gama Siemens Electrical include: întrerupătoare automate modulare (seria 5SL miniature circuit breakers 1-125A, caracteristici B/C/D), protecții diferențiale (seria 5SM RCCB 25-125A, sensibilitate 10mA-300mA), întrerupătoare automate diferențiale combinate (seria 5SU RCBO), întrerupătoare compacte (seria 3VA 160-1600A pentru aplicații industriale), contactoare putere seria SIRIUS 3RT (9A-820A), protecții motor seria 3RV (0.1-100A cu protecție termică și magnetică), relee auxiliare seria 3RH, soft-startere seria 3RW, aparataj modular (buton, semnalizări, comutatoare seria 3SB/3SU), tablouri prefabricate SIVACON S4/S8 cu busbar și modularitate completă. Seria 5SL e best-seller pentru instalații rezidențiale și comerciale - putere de rupere 6kA/10kA (suficient pentru majoritatea rețelelor), design compact (1 modul per pol), durată mecanică >20000 operații, certificate conform IEC 60898. Contactoarele SIRIUS 3RT au durată electrică uriașă (>2 milioane operații la AC3 pentru motoare), arc de stingere puternic, contacte auxiliare adiționale (frontale sau pe laterală), comunicație AS-i sau IO-Link pentru integrare în automatizări.
+Gama Siemens Electrical include: întrerupătoare automate modulare (seria 5SL miniature circuit breakers 1-125A, caracteristici B/C/D), protecții diferențiale (seria 5SM RCCB 25-125A, sensibilitate 10mA-300mA), întrerupătoare automate diferențiale combinate (seria 5SU RCBO), întrerupătoare compacte (seria 3VA 160-1600A pentru aplicații industriale), contactoare putere seria SIRIUS 3RT, protecții motor seria 3RV (0.1-100A cu protecție termică și magnetică), relee auxiliare seria 3RH, soft-startere seria 3RW, aparataj modular (buton, semnalizări, comutatoare seria 3SB/3SU), tablouri prefabricate SIVACON S4/S8 cu busbar și modularitate completă. Seria 5SL se folosește în instalații rezidențiale și comerciale - putere de rupere 6kA/10kA (suficient pentru majoritatea rețelelor), design compact (1 modul per pol), durată mecanică >20000 operații, certificate conform IEC 60898. Contactoarele SIRIUS 3RT se aleg după puterea motorului și tensiunea bobinei; durata de viață electrică și accesoriile disponibile se confirmă din fișa tehnică a modelului.
 
-Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (TIP) conectează toate echipamentele electrice (întrerupătoare, contactoare, protecții motor) în rețea Profinet/Ethernet și oferă monitorizare consumuri, alarme predictive, istoric evenimente. Au și configurator online Siemens LV Configurator pentru proiectare tablouri - introduci schemă unifilară și sistemul îți recomandă exact ce componente Siemens să folosești, calculează secțiuni cabluri, verifică selectivitate protecții. Pentru aplicații critice (datacentre, spitale, industrie pharma) oferă tablouri SIVACON cu redundanță, comutare automată surse, UPS integrat. Service-ul include training pentru electricieni, consultanță proiectare, auditare instalații existente, retrofit pentru modernizare tablouri vechi. În România Siemens are prezență prin distribuitori și service center București - disponibilitate produse excelentă, suport tehnic rapid. Dacă construiești instalații electrice profesionale și vrei un brand cu disponibilitate pe termen lung a pieselor de schimb, Siemens Electrical este o opțiune folosită frecvent de proiectanți și instalatori.`,
+Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (TIP) conectează toate echipamentele electrice (întrerupătoare, contactoare, protecții motor) în rețea Profinet/Ethernet și oferă monitorizare consumuri, alarme predictive, istoric evenimente. Au și configurator online Siemens LV Configurator pentru proiectare tablouri - introduci schemă unifilară și sistemul îți recomandă exact ce componente Siemens să folosești, calculează secțiuni cabluri, verifică selectivitate protecții. Configurațiile SIVACON pentru aplicații critice se confirmă din documentația producătorului. Disponibilitatea produselor și a suportului local se confirmă la fiecare cerere. `,
     whyChoose: [
       'Brand global cu 175+ ani experiență în tehnologie electrică - know-how german consacrat',
-      'Ecosistem complet integrat de la MCB la tablouri SIVACON - componente testate în ansamblu de producător',
-      'Contactoare SIRIUS cu durată electrică >2 mil operații - fiabilitate dovedită în industrie',
+      'Gamă completă de la MCB la tablouri SIVACON',
+      'Contactoare SIRIUS; durata de viață electrică se confirmă din fișa tehnică',
       'Digitalizare avansată (Totally Integrated Power) - monitorizare consumuri și predictive maintenance',
       'Configurator online LV pentru sizing rapid și verificare selectivitate - proiectare simplificată',
-      'Prezență puternică România cu distribuitori și service - disponibilitate și suport excelent'
+      'Disponibilitatea și suportul local se confirmă la fiecare cerere'
     ],
     keyProducts: [
       {
         name: 'Întrerupătoare automate modulare 5SL și protecții diferențiale 5SM',
-        description: `Seria 5SL e gama de MCB (miniature circuit breakers) Siemens pentru tablouri rezidențiale și comerciale - protecție supracurent și scurtcircuit conform IEC 60898, curente nominale de la 1A la 125A, caracteristici B (circuite cu sarcini rezistive), C (sarcini mixte, motoare mici), D (transformatoare, motoare cu curent pornire mare). Putere de rupere 6kA sau 10kA (versiune enhanced) - suficient pentru majoritatea rețelelor urbane și industriale. Design compact 1 modul (18mm) per pol, montare pe șină DIN 35mm, durată mecanică >20000 operații, contacts argint pentru fiabilitate. Se folosesc frecvent în tablouri - declanșarea este precisă la curentul nominal, conexiunile sunt robuste (cage clamp terminals - nu se deșurubează în timp), iar vizualizarea stării este clară (indicator ON/OFF vizibil frontal). Seria 5SM (RCCB protecții diferențiale) protejează împotriva curenților de defect la pământ - sensibilități 10mA (protecție persoane enhanced), 30mA (standard rezidențial), 100mA/300mA (protecție incendiu industrial). Siemens oferă și seria 5SU (RCBO - protecție combinată supracurent + diferențială în modul compact) - economisești spațiu în tablou. Dacă construiești tablouri la volum și vrei brand de încredere cu disponibilitate excelentă, 5SL/5SM e alegerea care nu dezamăgește.`
+        description: `Seria 5SL e gama de MCB (miniature circuit breakers) Siemens pentru tablouri rezidențiale și comerciale - protecție supracurent și scurtcircuit conform IEC 60898, curente nominale de la 1A la 125A, caracteristici B (circuite cu sarcini rezistive), C (sarcini mixte, motoare mici), D (transformatoare, motoare cu curent pornire mare). Putere de rupere 6kA sau 10kA (versiune enhanced) - suficient pentru majoritatea rețelelor urbane și industriale. Design compact 1 modul (18mm) per pol, montare pe șină DIN 35mm, durată mecanică >20000 operații, contacts argint pentru fiabilitate. Se folosesc frecvent în tablouri - declanșarea este precisă la curentul nominal, conexiunile sunt robuste (cage clamp terminals - nu se deșurubează în timp), iar vizualizarea stării este clară (indicator ON/OFF vizibil frontal). Seria 5SM (RCCB protecții diferențiale) protejează împotriva curenților de defect la pământ - sensibilități 10mA (protecție persoane enhanced), 30mA (standard rezidențial), 100mA/300mA (protecție incendiu industrial). Siemens oferă și seria 5SU (RCBO - protecție combinată supracurent + diferențială în modul compact) - economisești spațiu în tablou. `
       },
       {
         name: 'Contactoare putere SIRIUS 3RT și protecții motor 3RV',
-        description: `SIRIUS 3RT e gama de contactoare Siemens pentru comenzi motoare și sarcini industriale - de la 3RT10 (9A-25A pentru motoare mici) până la 3RT12 (630A-820A pentru aplicații heavy-duty). Construcție robustă cu bobine AC sau DC (toate tensiunile standard), contacte principale argint masiv (uzură minimă), arc de stingere puternic ceramic, contacte auxiliare adiționale (module frontale sau laterale click-on). Durată electrică declarată >2 milioane operații la categorie AC3 (motoare asincrone) - practic contactorul merge 15-20 ani la aplicații normale fără înlocuire contacte. Se montează frecvent la porniri directe, star-delta, reversări, fiind compatibile cu accesoriile din gamă (timer pneumatic pentru star-delta, supresor varistor, module comunicație AS-i/IO-Link). Seria 3RV (motor starter protectors) combină protecție termică și magnetică motor într-un singur aparat compact - setare curent 0.1A-100A pe scala frontală, declanșare la suprasarcină sau scurtcircuit, contact auxiliar pentru semnalizare fault. 3RV înlocuiește clasicul releu termic + contactor magnetic cu avantajul că e mai compact (economie spațiu tablou) și mai precis (setare electronică versus bimetal). Dacă construiești tablouri pentru linii de producție cu multe motoare, ecosistemul SIRIUS (contactoare + protecții + relee) e productivitate maximă.`
+        description: `SIRIUS 3RT e gama de contactoare Siemens pentru comenzi motoare și sarcini industriale - în mai multe mărimi, în funcție de puterea motorului. Construcție robustă cu bobine AC sau DC (toate tensiunile standard), contacte principale argint masiv (uzură minimă), arc de stingere puternic ceramic, contacte auxiliare adiționale (module frontale sau laterale click-on).  Se montează frecvent la porniri directe, star-delta, reversări, fiind compatibile cu accesoriile din gamă (timer pneumatic pentru star-delta, supresor varistor, module comunicație AS-i/IO-Link). Seria 3RV (motor starter protectors) combină protecție termică și magnetică motor într-un singur aparat compact - setare curent 0.1A-100A pe scala frontală, declanșare la suprasarcină sau scurtcircuit, contact auxiliar pentru semnalizare fault. 3RV înlocuiește clasicul releu termic + contactor magnetic cu avantajul că e mai compact (economie spațiu tablou) și mai precis (setare electronică versus bimetal). `
       },
       {
         name: 'Soft-startere 3RW și întrerupătoare compacte 3VA pentru aplicații industriale',
-        description: `Pentru porniri motoare care cer reducere curent și protecție echipament Siemens oferă seria 3RW (soft-startere electronice) - pornire progresivă prin controlul unghiului de deschidere tiristoare, reducere curent pornire până la 70%, rampe accelerare/decelerare configurabile, protecții integrate (suprasarcină, asimetrie faze, lipsă fază). Gama acoperă de la 3RW30 (3kW-250kW) până la 3RW44 (250kW-1200kW pentru aplicații mari). Se folosesc frecvent pe pompe, ventilatoare, compresoare, transportoare - beneficiile documentate de producător includ: șocuri mecanice reduse la pornire (protecție cuplaje, reductoare), consum de curent mai mic la pornire (dimensionare cabluri mai mică) și un stres termic redus la înfășurările motorului. Comunicația e flexibilă - Profibus, Profinet, Modbus - integrare în SCADA pentru monitorizare și comandă remote. Pentru protecția tablourilor BT industriale seria 3VA (compact circuit breakers 160A-1600A) oferă protecție supracurent, scurtcircuit, opțional diferențială și măsurare puteri - practic înlocuiește întrerupătorul clasic cu aparat inteligent care raportează consumuri, alarme, istoric evenimente prin comunicație digitală. Dacă ai tablou industrial cu puteri mari și vrei protecție inteligentă + soft-start pentru motoare critice, 3RW + 3VA e combinația profesionistă.`
+        description: `Pentru porniri motoare care cer reducere curent și protecție echipament Siemens oferă seria 3RW (soft-startere electronice) - pornire progresivă prin controlul unghiului de deschidere tiristoare, reducere curent pornire până la 70%, rampe accelerare/decelerare configurabile, protecții integrate (suprasarcină, asimetrie faze, lipsă fază). Gama 3RW acoperă mai multe clase de putere; puterile fiecărei familii se confirmă pe cod. Se folosesc frecvent pe pompe, ventilatoare, compresoare, transportoare - beneficiile documentate de producător includ: șocuri mecanice reduse la pornire (protecție cuplaje, reductoare), consum de curent mai mic la pornire (dimensionare cabluri mai mică) și un stres termic redus la înfășurările motorului. Comunicația e flexibilă - Profibus, Profinet, Modbus - integrare în SCADA pentru monitorizare și comandă remote. Pentru protecția tablourilor BT industriale seria 3VA (compact circuit breakers 160A-1600A) oferă protecție supracurent, scurtcircuit, opțional diferențială și măsurare puteri - practic înlocuiește întrerupătorul clasic cu aparat inteligent care raportează consumuri, alarme, istoric evenimente prin comunicație digitală. Dacă ai tablou industrial cu puteri mari și vrei protecție inteligentă + soft-start pentru motoare critice, 3RW + 3VA e combinația profesionistă.`
       },
       {
         name: 'Tablouri prefabricate SIVACON S4/S8 cu modularitate și busbar integrat',
-        description: `Pentru distribuție energie în industrie, clădiri comerciale, datacentre Siemens oferă sistemul modular SIVACON - tablouri prefabricate cu busbar (bare colectoare) integrat, compartimente modulare pentru montaj aparataj, grad protecție IP30-IP54, certificare type-tested conform IEC 61439. SIVACON S4 e soluția pentru tablouri mici-medii (până la 4000A busbar, înălțime 2200mm) - design flexibil cu compartimente retractabile (withdrawable) pentru mentenanță fără oprire instalație, bare colectoare cupru sau aluminiu, opțiuni comunicație digitală pentru monitorizare. SIVACON S8 e sistem premium pentru aplicații mari (până la 7000A busbar) - redundanță posibilă, compartimente cu arc-proof protection (protecție personal în caz arc electric), integrare UPS și generatoare, SCADA complet pentru management energie. Sunt folosite frecvent în fabrici mari, spitale, datacentre - calitatea construcției este ridicată (vopsea rezistentă, uși cu închidere precisă, compartimentare clară), flexibilitatea este ridicată (poți adăuga compartimente sau schimba configurația fără modificări structurale) și siguranța este ridicată (testate la scurtcircuit >100kA). Siemens oferă și configurator 3D online - proiectezi tabloul virtual, vezi cum arată, primești listă completă componente. Dacă construiești instalație electrică serioasă și vrei tablou testat și certificat care să meargă 20-30 ani fără probleme, SIVACON e investiția care merită.`
+        description: `Pentru distribuție energie în industrie, clădiri comerciale, datacentre Siemens oferă sistemul modular SIVACON - tablouri prefabricate cu busbar (bare colectoare) integrat, compartimente modulare pentru montaj aparataj, grad protecție IP30-IP54, certificare type-tested conform IEC 61439. SIVACON S4 e soluția pentru tablouri mici-medii - design flexibil cu compartimente retractabile (withdrawable) pentru mentenanță fără oprire instalație, bare colectoare cupru sau aluminiu, opțiuni comunicație digitală pentru monitorizare. SIVACON S8 e sistemul pentru aplicații mari; curentul barelor, protecția la arc intern și opțiunile de integrare se confirmă din documentația producătorului. Sunt folosite frecvent în fabrici mari, spitale, datacentre - calitatea construcției este ridicată (vopsea rezistentă, uși cu închidere precisă, compartimentare clară), flexibilitatea este ridicată (poți adăuga compartimente sau schimba configurația fără modificări structurale) . Siemens oferă și configurator 3D online - proiectezi tabloul virtual, vezi cum arată, primești listă completă componente. `
       }
     ],
     certifications: [
@@ -1358,7 +1358,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       'CE marking - Conformitate produse pentru piața europeană',
       'UL/cUL certification - Aprobare produse pentru piața nord-americană',
       'ATEX - Echipamente pentru zone cu risc explozie',
-      'KEMA certification - Siemens Electrical: Testare și certificare produse (laborator independent)',
+      'KEMA - testare și certificare produse (laborator independent), unde este aplicabil',
       'RoHS compliance - Produse fără substanțe periculoase'
     ],
     industries: [
@@ -1411,7 +1411,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       },
       {
         "code": "3RT1",
-        "description": "Contactor de putere pentru motoare până la 335 kW"
+        "description": "Contactor de putere din gama SIRIUS; puterea se confirmă pe cod"
       },
       {
         "code": "3RT2",
@@ -1449,7 +1449,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       }
     ],
     evidenceClass: "gsc-only",
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   }
 };

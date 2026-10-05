@@ -4,42 +4,42 @@ export const brandContentBatch9 = {
     founded: 1946,
     headquarters: 'Reinach, Elveția',
     employees: '4000+',
-    overview: `Habasit produce benzi transportoare pentru industria alimentară, farmaceutică și logistică. Habasit dezvoltă soluții de transport modular și curele plate de proces destinate condițiilor extreme - de la temperaturi criogenice până la 150°C, de la medii umede până la aplicații cu contact alimentar direct.
+    overview: `Habasit produce benzi transportoare pentru industria alimentară, farmaceutică și logistică. Habasit dezvoltă soluții de transport modular și curele plate de proces destinate condițiilor extreme - de la medii umede până la aplicații cu contact alimentar direct.
 
-Benzile modulare din plastic din gama Habasit rezistă la impact, abraziune și chimicale agresive. Le găsești pe liniile de îmbuteliere, în sortoarele aeroporturilor, pe liniile de ambalare automatizate. Gama acoperă tipuri variate de benzi - de la micro-benzi de 25mm lățime pentru transport componente electronice până la benzi late de 2000mm pentru paleți. Fiecare bandă e proiectată cu grijă: structură modulară pentru reparații rapide, suprafețe anti-aderente, profile speciale pentru înclinări mari.
+Benzile modulare din plastic din gama Habasit rezistă la impact, abraziune și chimicale agresive. Se întâlnesc pe liniile de îmbuteliere, în sortoarele aeroporturilor, pe liniile de ambalare automatizate. Gama acoperă tipuri variate de benzi - de la benzi Micropitch pentru transferuri strânse până la benzi de rază pentru curbe. Fiecare bandă e proiectată cu grijă: structură modulară pentru reparații rapide, suprafețe anti-aderente, profile speciale pentru înclinări mari.
 
 Habasit urmărește eficiență ridicată în fiecare aplicație - benzi gândite pentru funcționare continuă, consum energetic redus, întreținere simplă. Gama include benzi certificate FDA pentru industria alimentară, benzi antistatice pentru electronică, benzi cu profil ridicat pentru transportul în pantă, plus componente complementare - lanțuri de acționare, ghidaje laterale, componente de transfer.`,
     whyChoose: [
       'Benzi modulare durabile - structură din plastic de înaltă rezistență, reparații pe loc fără oprire completă linie',
-      'Gamă completă aplicații - de la micro-transport electronice (benzi 25mm) până la paleți heavy-duty (benzi 2000mm)',
-      'Rezistență chimică ridicată - benzi din acetal, polipropilen, poliester rezistă la uleiuri, acizi, baze concentrate',
+      'Gamă completă aplicații - de la transferuri strânse (Micropitch) până la curbe (benzi de rază), peste 150 de stiluri conform producătorului',
+      'Rezistență chimică - materialul benzii se alege în funcție de mediu; compatibilitatea se confirmă pe cod',
       'Certificate contact alimentar - benzi FDA/EU conforme pentru procesare carne, lactate, băuturi, panificație',
-      'Eficiență energetică - fricțiune redusă față de benzile PVC, conform producătorului, cu efect asupra consumului la linii lungi',
+      'Fricțiune și consum energetic - depind de materialul și de tipul benzii; se discută pe baza aplicației',
       'Suport tehnic complet - calculăm dimensiuni, selectăm materiale, optimizăm traseul pentru fiecare aplicație'
     ],
     keyProducts: [
       {
         name: 'Benzi Modulare HabasitLINK',
-        description: 'Sistem modular de transport folosit pe scară largă în industrie. Structură din module din plastic unite cu tije metalice sau clips - montaj rapid, înlocuire zone deteriorate fără demontare completă. Suprafețe: netede pentru ambalare, structurate pentru grip, perforate pentru drenaj sau răcire forțată. Materiale: acetal pentru rezistență mecanică, polipropilen pentru chimicale, poliester pentru temperaturi ridicate. Lățimi de la 50mm la 2000mm, rezistență tracțiune până 50 kN. Aplicații: linii de îmbuteliere (25.000 sticle/oră), sortare colete aeroporturi, transport paleți pe platforme logistice.'
+        description: 'Sistem modular de transport folosit pe scară largă în industrie. Structură din module din plastic unite cu tije metalice sau clips - montaj rapid, înlocuire zone deteriorate fără demontare completă. Suprafețe: netede pentru ambalare, structurate pentru grip, perforate pentru drenaj sau răcire forțată. Materiale: acetal pentru rezistență mecanică, polipropilen pentru chimicale, poliester pentru temperaturi ridicate. Lățimile și rezistența la tracțiune depind de serie și se confirmă din documentația Habasit. Aplicații: linii de îmbuteliere, sortare colete aeroporturi, transport paleți pe platforme logistice.'
       },
       {
-        name: 'Curele Plate HabaSYNC',
-        description: 'Curele de proces pentru transmisie pozitivă - dinți trapezoidali sincronizați pentru aplicații cu precizie de poziționare. Elimină alunecarea, pentru sincronizare precisă pe axe multiple. Utilizate pe mese de tăiere CNC, sisteme de print & apply, echipamente de ambalare flowpack. Structură: nucleu poliuretan armat cu corzi Kevlar sau oțel, suprafață netedă sau texturată. Grosimi de la 2mm la 15mm, lățimi până 3000mm. Rezistă la uleiuri de tăiere, agenți de curățare. Precizie repetat sub 0.1mm pe lungimi de 10 metri.'
+        name: 'Curele sincrone HabaSYNC',
+        description: 'Curele de proces pentru transmisie pozitivă - dinți trapezoidali sincronizați pentru aplicații cu precizie de poziționare. Elimină alunecarea, pentru sincronizare precisă pe axe multiple. Utilizate pe mese de tăiere CNC, sisteme de print & apply, echipamente de ambalare flowpack. Structură: nucleu poliuretan armat cu corzi Kevlar sau oțel, suprafață netedă sau texturată. Lățimi de 25-150 mm la curelele plate și până la 600 mm la curelele late; grosimi standard de 1,5-4 mm. Rezistă la uleiuri de tăiere, agenți de curățare. '
       },
       {
-        name: 'Benzi Alimentare HabaFLOW',
-        description: 'Benzi certificate FDA și EU 1935/2004 pentru contact direct cu alimente. Material: polipropilen medical grade fără aditivi migratori, culoare albastră pentru detectabilitate vizuală. Suprafețe speciale: anti-stick pentru paste, micro-texturate pentru pâine, perforate pentru scurgere lichide. Rezistență termică -40°C până +100°C, compatibile spălare CIP cu clor, baze, acizi slabi. Design deschis - fără zone de acumulare bacterii, inspecție ușoară. Folosite pe linii procesare carne (tranșare, ambalare), panificație (dozare, răcire), lactate (cheese slicing), confecții (decorare torturi).'
+        name: 'Benzi pentru contact alimentar',
+        description: 'Benzi destinate contactului cu alimente; conformitatea (FDA, regulamentul UE 1935/2004) și materialul se confirmă pe cod, din documentația Habasit. Suprafețe speciale: anti-stick pentru paste, micro-texturate pentru pâine, perforate pentru scurgere lichide. Rezistența termică și chimică și compatibilitatea cu spălarea CIP depind de materialul benzii și se confirmă pe cod. Folosite pe linii procesare carne (tranșare, ambalare), panificație (dozare, răcire), lactate (cheese slicing), confecții (decorare torturi).'
       }
     ],
     certifications: [
       'ISO 9001:2015 - management calitate producție benzi transportoare',
-      'ISO 14001:2015 - management ambiental fabrici Elveția, Germania, SUA',
+      
       'FDA Compliance - benzi contact alimentar conforme 21 CFR 177.2600',
       'EU 1935/2004 - materiale contact alimentar testate migrare',
-      'HACCP Certified - benzi pentru procesare alimentară certificare igienă',
-      'ATEX Directive - benzi antistatice pentru zone explozive',
-      'NSF/ANSI 51 - componente transport alimentar certificate',
-      'USDA Approved - benzi pentru facilități supravegheate USDA'
+      
+      
+      
+      
     ],
     industries: [
       'Industria alimentară - procesare carne, lactate, panificație, băuturi, confecții',
@@ -53,7 +53,7 @@ Habasit urmărește eficiență ridicată în fiecare aplicație - benzi gândit
       'Recyclare - sortare deșeuri, transport PET, hârtie, metale',
       'E-commerce - benzi pentru centre fulfillment, pick & pack, shipping'
     ],
-    infinitrade: `Pentru gama Habasit de benzi transportoare și curele de proces, la InfiniTrade lucrăm fără date proprii de stoc pentru fiecare cod - aducem produsele la comandă prin canale de aprovizionare din UE. Componentele uzuale din gamă pot ajunge la tine în 24–72 h din stoc, în timp ce benzile speciale sau dimensiunile custom ajung de regulă în 1–4 săptămâni la comandă. Ca să pregătim o ofertă corectă, trimite-ne lățimea și lungimea benzii, tipul de suprafață și aplicația exactă - linie de îmbuteliere, sortare sau transport paleți. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de disponibilitatea reală verificată la momentul comenzii. Pentru configurațiile complexe recomandăm o discuție tehnică înainte de a confirma comanda.`,
+    infinitrade: `Pentru gama Habasit de benzi transportoare și curele de proces, la InfiniTrade lucrăm fără date proprii de stoc pentru fiecare cod - aducem produsele la comandă prin canale de aprovizionare din UE. Componentele uzuale din gamă pot ajunge la dumneavoastră în 24–72 h din stoc, în timp ce benzile speciale sau dimensiunile custom ajung de regulă în 1–4 săptămâni la comandă. Pentru a pregăti o ofertă corectă, vă rugăm să ne trimiteți lățimea și lungimea benzii, tipul de suprafață și aplicația exactă - linie de îmbuteliere, sortare sau transport paleți. Nu publicăm prețuri aici - fiecare cerere primește un calcul separat, în funcție de disponibilitatea reală verificată la momentul comenzii. Pentru configurațiile complexe recomandăm o discuție tehnică înainte de a confirma comanda.`,
     limitation: `Nu putem confirma stocul exact pentru fiecare cod de bandă sau curea Habasit fără o verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"Products - Habasit conveyor and processing belts","url":"https://www.habasit.com/en/products","publisher":"Habasit","accessed":"2026-09-22"},
@@ -162,11 +162,11 @@ Habasit urmărește eficiență ridicată în fiecare aplicație - benzi gândit
     faq: [
       {
         "q": "Ce diferență este între banda HabasitLINK M2500 și seria M5000?",
-        "a": "Seria M2500 este gama standard de benzi modulare cu pas mic, potrivită pentru transport general și acumulare ușoară, în timp ce M5000 oferă module mai late și rezistență sporită pentru sarcini mai mari și aplicații de igienizare intensivă precum industria alimentară."
+        "a": "Diferențele dintre seriile M2500 și M5000 (pas, lățimea modulelor, rezistență, destinație) depind de stilul ales și se confirmă din documentația Habasit pe cod."
       },
       {
         "q": "Cum recunosc codul unei benzi Habasit pe eticheta produsului?",
-        "a": "Codul începe cu litera M urmată de patru cifre, de exemplu M2520, care indică familia constructivă, urmat uneori de un sufix ce descrie varianta de suprafață, precum GripTop sau Flush Grid; acest format apare pe eticheta rulei și în documentația tehnică Habasit."
+        "a": "Codul începe de regulă cu litera M urmată de cifre, de exemplu M2520 (unele serii folosesc alte prefixe, precum IS sau FF), care indică familia constructivă, urmat uneori de un sufix ce descrie varianta de suprafață, precum GripTop sau Flush Grid; acest format apare pe eticheta rulei și în documentația tehnică Habasit."
       },
       {
         "q": "Livrați benzi transportoare Habasit în România?",
@@ -174,12 +174,12 @@ Habasit urmărește eficiență ridicată în fiecare aplicație - benzi gândit
       },
       {
         "q": "Ce tip de bandă modulară aleg pentru transport pe curbe?",
-        "a": "Pentru trasee cu curbe se recomandă benzile de rază precum M2540 sau M3398, care au module articulate ce permit rotația pe ambele fețe ale traseului; alegerea între Flush Grid și GripTop depinde de necesitatea de drenaj sau de aderență suplimentară a produsului transportat."
+        "a": "Pentru trasee cu curbe se folosesc benzile de rază (Radius Modular Belts), de exemplu seriile RS511 și RS515 din gama HabasitLINK; alegerea între Flush Grid și GripTop depinde de necesitatea de drenaj sau de aderență suplimentară a produsului transportat."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Habasit în sursele citate.' }
     ]
   },
@@ -648,29 +648,29 @@ Expertiza Helukabel e în aplicații speciale - cabluri care rezistă la -60°C 
     employees: '3500+',
     overview: `Hengst înseamnă filtrare industrială de înaltă performanță - protejează motoare, sisteme hidraulice, compresoare, turbine de contaminare și uzură prematură. Hengst dezvoltă filtre de ulei, aer, combustibil, filtre hidraulice, separatoare de apă, sisteme de filtrare pentru aplicații industriale și mobile. Tehnologie avansată de medii filtrante, design optimizat flux, durată de viață extinsă.
 
-Filosofia Hengst e filtrare totală - de la admisia aerului până la returnul uleiului în rezervor. Fiecare punct de contaminare e acoperit prin medii filtrante multi-strat: pre-filtru pentru particule mari, media principală din fibre sintetice sau celuloză tratată, strat exterior de protecție. Rezultat: eficiență ridicată (filtrare particule până la 3 microni), capacitate de reținere mare (durată extinsă înainte de înfundare), rezistență mecanică (suportă presiuni și pulsații fără deteriorare).
+Filosofia Hengst e filtrare totală - de la admisia aerului până la returnul uleiului în rezervor. Fiecare punct de contaminare e acoperit prin medii filtrante multi-strat: pre-filtru pentru particule mari, media principală din fibre sintetice sau celuloză tratată, strat exterior de protecție. Eficiența de filtrare, capacitatea de reținere și rezistența mecanică depind de tipul de filtru și se confirmă din fișele tehnice ale producătorului.
 
-Hengst investește constant în cercetare - laborator de testare cu benzi de simulare condiții reale (temperaturi extreme, vibrații, presiuni variabile), analiza microscopică a mediilor filtrante, teste de rezistență la colmatare - și dezvoltă filtre optimizate pentru producători de echipamente OEM (forme speciale, conexiuni custom, integrare senzori pentru monitorizare stare). Producție certificată ISO, calitate constantă lot de lot.`,
+Hengst este atât furnizor OEM pentru producători de echipamente, cât și furnizor de piese de schimb, conform paginii companiei. Producție certificată ISO, calitate constantă lot de lot.`,
     whyChoose: [
-      'Eficiență de filtrare ridicată - media multi-strat captează particule până la 3 microni, protecție completă componente',
+      'Eficiență de filtrare - gradul de filtrare depinde de elementul ales și se confirmă din fișa tehnică',
       'Durată viață extinsă - capacitate reținere mare, intervaluri de schimb prelungite față de filtrele standard, conform producătorului',
-      'Rezistență mecanică - structură metalică reinforced, suportă presiuni până 25 bar, vibrații extreme',
+      'Rezistență mecanică - presiunea maximă depinde de tipul elementului și al carcasei; se confirmă din fișa tehnică',
       'Gamă completă - filtre pentru ulei motor, ulei hidraulic, combustibil diesel, aer comprimat, separatoare apă',
-      'Compatibilitate OEM - dimensiuni identice cu filtrele originale, montaj direct fără modificări',
-      'Certificări internaționale - teste conform ISO 4548, ISO 16889, validare independentă performanță'
+      'Compatibilitate - se confirmă pe baza codului OEM al filtrului original și a fișei tehnice Hengst',
+      'Standarde de testare - ISO 4548 și ISO 16889; documentația se confirmă din fișele tehnice ale producătorului'
     ],
     keyProducts: [
       {
         name: 'Filtre Ulei Motor Industrial',
-        description: 'Protecție completă pentru motoare diesel și pe gaz din grupuri electrogene, compresoare, pompe. Media filtranta: celuloză tratată rezin sintetic + fibre sticlă pentru rigiditate. Configurații: spin-on (înșurubare directă, schimb rapid), cartridge (element înlocuibil, reducere waste), dual-stage (pre-filtru + filtru fin în serie). Eficiență >99% pentru particule >10 microni, >95% pentru particule >5 microni conform ISO 4548-12. Presiune nominală 5-10 bar, presiune de burst >25 bar. Valvă bypass calibrată - se deschide la presiune critică pentru protecție motor la pornire la rece sau colmatare filtru. Valvă anti-retur pentru prevenire drenaj ulei la oprire motor. Aplicații: generatoare diesel 50-3000 kVA, compresoare cu piston/șurub, pompe hidraulice heavy-duty.'
+        description: 'Protecție completă pentru motoare diesel și pe gaz din grupuri electrogene, compresoare, pompe. Media filtranta: celuloză tratată rezin sintetic + fibre sticlă pentru rigiditate. Configurații: spin-on (înșurubare directă, schimb rapid), cartridge (element înlocuibil, reducere waste), dual-stage (pre-filtru + filtru fin în serie). Eficiența de filtrare și presiunea de lucru depind de modelul filtrului și se confirmă din fișa tehnică Hengst. Valvă bypass calibrată - se deschide la presiune critică pentru protecție motor la pornire la rece sau colmatare filtru. Valvă anti-retur pentru prevenire drenaj ulei la oprire motor. Aplicații: generatoare diesel 50-3000 kVA, compresoare cu piston/șurub, pompe hidraulice heavy-duty.'
       },
       {
         name: 'Filtre Hidraulice Înaltă Presiune',
-        description: 'Filtrare sistemelor hidraulice industriale și mobile - protecție servovalve, proporționale, cilindri de precizie. Media sintetică din fibre sticlă tratate cu rășină fenolică - rezistență chimică completă la uleiuri minerale și sintetice, stabilitate dimensională la temperaturi -40°C/+100°C. Grade de filtrare: 3, 5, 10, 25 microni (absolute) conform ISO 16889. Eficiență Beta: β10>200 (99.5% reținere particule 10μ), β3>75 pentru aplicații ultra-clean. Presiuni de lucru până 400 bar (filtre linie înaltă presiune), 25 bar (filtre retur și aerisire). Indicator vizual/electric de colmatare - schimb preventiv înainte de bypass. Configurații: inline (filet sau flanșă), tank-top (montaj pe rezervor), spin-on pentru aplicații mobile.'
+        description: 'Filtrare sistemelor hidraulice industriale și mobile - protecție servovalve, proporționale, cilindri de precizie. Media sintetică din fibre sticlă tratate cu rășină fenolică - rezistență chimică completă la uleiuri minerale și sintetice, stabilitate dimensională la temperaturi -40°C/+100°C. Gradele de filtrare și valorile Beta depind de elementul ales și se confirmă din fișa tehnică Hengst. Presiunea maximă depinde de tipul elementului și al carcasei (de exemplu, pagina producătorului indică până la 5 bar pentru cartușele filtrante și pentru elementele de tip 1-20, până la 330 bar pentru elementele din plasă metalică). Indicator vizual/electric de colmatare - schimb preventiv înainte de bypass. Configurații: inline (filet sau flanșă), tank-top (montaj pe rezervor), spin-on pentru aplicații mobile.'
       },
       {
         name: 'Separatoare Apă Combustibil',
-        description: 'Protecție sisteme de injecție diesel împotriva apei și impurităților din combustibil. Design multi-stadiu: 1) Pre-separare gravitațională în cameră de calm - apa se depune pe fundul bolului transparent. 2) Coalescer - media hidrofobă forțează picături mici de apă să se unească în picături mari. 3) Filtru fin - media celuloză reține particule, fungi, bacterii. 4) Separator final - elimină ultimele urme de apă. Eficiență separare apă >95%, eficiență filtrare particule >98% la 4 microni. Bowl transparent pentru inspecție vizuală nivel apă, senzor capacitiv opțional pentru alarmă automată. Robinet drenaj pentru evacuare apă acumulată. Presiune nominală 6 bar, flow-rate 30-500 l/h. Aplicații: generatoare diesel, tractoare, utilaje construcții, flote transport, instalații încălzire.'
+        description: 'Protecție sisteme de injecție diesel împotriva apei și impurităților din combustibil. Design multi-stadiu: 1) Pre-separare gravitațională în cameră de calm - apa se depune pe fundul bolului transparent. 2) Coalescer - media hidrofobă forțează picături mici de apă să se unească în picături mari. 3) Filtru fin - media celuloză reține particule, fungi, bacterii. 4) Separator final - elimină ultimele urme de apă.  Bowl transparent pentru inspecție vizuală nivel apă, senzor capacitiv opțional pentru alarmă automată. Robinet drenaj pentru evacuare apă acumulată. Presiunea și debitul depind de model și se confirmă din fișa tehnică. Aplicații: generatoare diesel, tractoare, utilaje construcții, flote transport, instalații încălzire.'
       }
     ],
     certifications: [
@@ -679,9 +679,9 @@ Hengst investește constant în cercetare - laborator de testare cu benzi de sim
       'ISO 4548-12 - standard testare filtre ulei motor',
       'ISO 16889 - standard testare filtre hidraulice, rapoarte Beta',
       'IATF 16949 - calitate automotive pentru filtre OEM',
-      'VDA 6.3 - proces audit industria auto germană',
-      'OEM Approvals - Caterpillar, Cummins, Deutz, Perkins, Volvo',
-      'ATEX Directive - filtre pentru aplicații zone explozive'
+      
+      
+      
     ],
     industries: [
       'Energie - grupuri electrogene diesel/gaz, turbine, cogenerare',
@@ -695,7 +695,7 @@ Hengst investește constant în cercetare - laborator de testare cu benzi de sim
       'Forestry - harvester-e, forwardere, măcinătoare, transportoare',
       'Material handling - stivuitoare, reach stackers, telescopice'
     ],
-    infinitrade: `Filtrele Hengst (ulei, hidraulice, separatoare apă-combustibil) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru codul exact cerut - fără date proprii de stoc pentru fiecare cod OEM. Informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o verificăm punctual pentru fiecare cerere. Codurile mai căutate pot ajunge în 24–72 h din stoc, dar pentru filtrele rare sau seriile speciale termenul e de regulă 1–4 săptămâni la comandă. Pentru identificarea corectă, trimite-ne codul echipamentului - motor, generator sau pompă - sau codul OEM al filtrului vechi, plus cantitatea necesară. Nu confirmăm compatibilitatea sau termenul fără să vedem specificațiile complete ale aplicației tale.`,
+    infinitrade: `Filtrele Hengst (ulei, hidraulice, separatoare apă-combustibil) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru codul exact cerut - fără date proprii de stoc pentru fiecare cod OEM. Informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o verificăm punctual pentru fiecare cerere. Codurile mai căutate pot ajunge în 24–72 h din stoc, dar pentru filtrele rare sau seriile speciale termenul e de regulă 1–4 săptămâni la comandă. Pentru identificarea corectă, vă rugăm să ne trimiteți codul echipamentului - motor, generator sau pompă - sau codul OEM al filtrului vechi, plus cantitatea necesară. Nu confirmăm compatibilitatea sau termenul fără să vedem specificațiile complete ale aplicației dumneavoastră.`,
     limitation: `Nu confirmăm compatibilitatea unui filtru Hengst cu un anumit echipament fără codul OEM exact și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"Products - Hengst Filtration","url":"https://www.hengst.com/en/products/","publisher":"Hengst Filtration","accessed":"2026-09-22"},
@@ -706,55 +706,55 @@ Hengst investește constant în cercetare - laborator de testare cu benzi de sim
     productCodes: [
       {
         "code": "RE 51515",
-        "description": "element filtrant hidraulic tip 1 pentru sisteme industriale"
+        "description": "element filtrant hidraulic tip 1, conform DIN 24550 și standardului Hengst"
       },
       {
         "code": "RE 51517",
-        "description": "element filtrant hidraulic tip 2 cu eficiență ridicată"
+        "description": "element filtrant hidraulic tip 2, conform DIN 24550 și standardului Hengst"
       },
       {
         "code": "RE 51519",
-        "description": "element filtrant hidraulic tip 4 pentru filtrare fină"
+        "description": "element filtrant hidraulic tip 4, conform standardului Hengst"
       },
       {
         "code": "RE 51521",
-        "description": "element filtrant hidraulic tip 6 pentru retur de ulei"
+        "description": "element filtrant hidraulic tip 6, conform standardului Hengst"
       },
       {
         "code": "RE 51523",
-        "description": "element filtrant hidraulic tip 7 pentru presiune medie"
+        "description": "element filtrant hidraulic tip 7, conform standardului Hengst"
       },
       {
         "code": "RE 51525",
-        "description": "element filtrant hidraulic tip 20 de capacitate mare"
+        "description": "element filtrant hidraulic tip 20, conform standardului Hengst"
       },
       {
         "code": "RE 51527",
-        "description": "element filtrant hidraulic tip 2.Z, variantă întărită"
+        "description": "element filtrant hidraulic tip 2.Z, conform standardului Hengst"
       },
       {
         "code": "RE 51529",
-        "description": "element filtrant hidraulic tip 9 pentru aspirație"
+        "description": "element filtrant hidraulic tip 9, pentru montaj în carcase de filtru ale altor producători"
       },
       {
         "code": "RE 51531",
-        "description": "element filtrant hidraulic tip 10 pentru presiune înaltă"
+        "description": "element filtrant hidraulic tip 10, pentru montaj în carcase de filtru ale altor producători"
       },
       {
         "code": "RE 51533",
-        "description": "element filtrant hidraulic tip 16 de uz general"
+        "description": "element filtrant hidraulic tip 16, pentru montaj în carcase de filtru ale altor producători"
       },
       {
         "code": "RE 51535",
-        "description": "element filtrant hidraulic tip 18 pentru sisteme mobile"
+        "description": "element filtrant hidraulic tip 18, pentru montaj în carcase de filtru ale altor producători"
       },
       {
         "code": "RE 51487",
-        "description": "cartuș filtrant de schimb pentru carcase de tip Eaton"
+        "description": "cartușe filtrante (Filter cartridges), conform paginii producătorului"
       },
       {
         "code": "RE 51537",
-        "description": "element filtrant tip Celludisc pentru particule fine"
+        "description": "element filtrant tip Celludisc (presiune maximă 4 bar, conform paginii producătorului)"
       },
       {
         "code": "HE 51485",
@@ -784,12 +784,12 @@ Hengst investește constant în cercetare - laborator de testare cu benzi de sim
       },
       {
         "q": "Ce diferență există între elementele tip 6 și tip 18 la Hengst?",
-        "a": "Diferența constă în principal în capacitatea de reținere și presiunea de lucru: elementele cu numărul de tip mai mic sunt gândite pentru debite și presiuni mai reduse, în timp ce tipurile cu numere mai mari, precum tipul 18, sunt destinate sistemelor hidraulice mobile cu solicitări mai ridicate."
+        "a": "Numărul de tip identifică construcția elementului și standardul sau carcasa pentru care este destinat (de exemplu, tipul 6 este definit prin standardul Hengst, iar tipul 18 se montează în carcase ale altor producători); nu indică o clasă de presiune sau de aplicație. Detaliile sunt în fișa tehnică a fiecărui tip."
       }
     ],
     evidenceClass: 'zero-evidence',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hengst în sursele citate.' }
     ]
   },
@@ -801,29 +801,29 @@ Hengst investește constant în cercetare - laborator de testare cu benzi de sim
     employees: '32000+',
     overview: `Hilti dezvoltă scule electrice și sisteme de fixare pentru profesioniștii din construcții - de la bormasini și demolatoare până la sisteme de ancoraj chimic și mecanic, de la nivele laser până la software pentru managementul productivității pe șantier. Peste 80 de ani experiență în condiții extreme de lucru.
 
-Filozofia Hilti este productivitatea pe șantier: nu doar o bormasină, ci un sistem complet pentru găurirea betonului armat - unealtă potrivită aplicației, burghie cu geometrie studiată pentru viteză ridicată și uzură redusă, aspirație integrată pentru mediu curat de lucru, baterii cu autonomie extinsă, service profesional cu înlocuire pe loc dacă ceva nu funcționează. Asta înseamnă Hilti Fleet Management - tu lucrezi, Hilti se ocupă de scule.
+Filozofia Hilti este productivitatea pe șantier: nu doar o bormasină, ci un sistem complet pentru găurirea betonului armat - unealtă potrivită aplicației, burghie cu geometrie studiată pentru viteză ridicată și uzură redusă, aspirație integrată pentru mediu curat de lucru, baterii cu autonomie extinsă, condițiile de service se stabilesc direct cu Hilti. Asta înseamnă Hilti Fleet Management - tu lucrezi, Hilti se ocupă de scule.
 
-Hilti investește constant în inovație. Centrul de cercetare din Liechtenstein testează în condiții extreme - camere climatice -30°C/+60°C, benzi de vibrații pentru simularea a mii de ore de utilizare, teste de cădere de la înălțimi regulate. Produsele sunt supradimensionate pentru siguranță față de specificațiile nominale. Service rapid, piese originale disponibile ani de zile după discontinuarea unui model.`,
+Hilti investește constant în inovație. `,
     whyChoose: [
-      'Durabilitate ridicată - scule construite pentru șantier dur, nu pentru DIY, durată de viață extinsă față de alternative, conform producătorului',
-      'Productivitate ridicată - viteze de găurire mai rapide, conform producătorului, autonomie baterii extinsă, ergonomie studiată',
+      'Scule destinate utilizării profesionale pe șantier; durabilitatea depinde de model și de utilizare',
+      'Productivitate - viteza de găurire și autonomia bateriei depind de model; se confirmă din fișa tehnică',
       'Sisteme integrate - scule + accesorii + aspirație + depozitare + management, pentru productivitate ridicată',
-      'Service profesional - reparații rapide, înlocuire pe loc dacă peste 48h, piese originale',
-      'Fleet Management - chirie full-service scule, tu folosești, noi menținem, upgrade automat tehnologie nouă',
-      'Siguranță certificată - toate sistemele de ancoraj testate pentru sarcini seismice, aprobare ETA europeană'
+      'Service - condițiile de service și piese originale se stabilesc direct cu producătorul',
+      'Hilti Fleet Management - program al producătorului; disponibilitatea în România se confirmă direct cu Hilti',
+      'Aprobări tehnice europene (ETA) și aprobări seismice pentru anumite sisteme de ancorare, conform documentației fiecărui produs'
     ],
     keyProducts: [
       {
         name: 'Bormasin SDS-Plus TE 7-C',
-        description: 'Bormasin rotopercutor profesional pentru beton, zidărie, beton armat. Motor brushless 1010W, energie impact 2.8 Jouli, frecvență percuție 4500 bpm. Trei moduri: rotopercuție (pentru beton), percuție pură (dăltuire), rotație pură (găurire lemn/metal cu mandrină). Sistem Active Vibration Reduction - vibrații reduse la <11 m/s² (sub limita UE 2.5 m/s² pentru 8h/zi), protecție operator. Active Torque Control - oprire automată la blocare burghiu, prevenție vătămări încheieturi. Diametru maxim găurire 28mm (SDS-Plus), adâncime 340mm în beton. Baterie Li-Ion 36V/6.0Ah, autonomie 200+ găuri ⌀12mm în beton armat. Greutate 3.9kg cu baterie. Aplicații: instalații electrice/sanitare, montaj sisteme HVAC, fixări structurale.'
+        description: 'Bormasin rotopercutor profesional pentru beton, zidărie, beton armat. Datele de putere, energie de impact și frecvență de percuție depind de model și se confirmă din fișa tehnică Hilti. Trei moduri: rotopercuție (pentru beton), percuție pură (dăltuire), rotație pură (găurire lemn/metal cu mandrină). Sistem Active Vibration Reduction (AVR) pentru reducerea vibrațiilor transmise operatorului, disponibil la anumite modele; valorile se confirmă din fișa tehnică. Active Torque Control - oprire automată la blocare burghiu, prevenție vătămări încheieturi.   Aplicații: instalații electrice/sanitare, montaj sisteme HVAC, fixări structurale.'
       },
       {
         name: 'Ancore Chimice HIT-HY 200-A',
-        description: 'Sistem de ancoraj chimic cu rășină hibrid poliuretanică bicomponentă pentru beton, zidărie, beton celular. Rezistență ridicată în beton fisurat și nefisurat, performanță seismică certificată conform ETAG 001 Annex E. Cartuș static mixer 330ml sau 500ml, aplicare cu pistol manual sau electric. Procedură: 1) găurire ⌀ burghiu cu 2-4mm mai mare decât ⌀ tijă. 2) curățare gaură cu perie+suflare (obligatoriu pentru performanță). 3) injectare rășină până la umplere 2/3 gaură. 4) inserție tijă filetată M8-M24 sau tijă smooth pentru bare armare. Timp de lucru (pot life) 4 minute la +20°C, timp întărire completă 45 minute. Sarcină rupere până 50 kN pentru M16 în beton C20/25. Aplicații: fixări structurale seismice, balustrade, scări metalice, fațade ventilate, echipamente HVAC grele, consoles pentru conductori.'
+        description: 'Sistem de ancoraj chimic cu rășină hibrid poliuretanică bicomponentă pentru beton, zidărie, beton celular. Rezistență ridicată în beton fisurat și nefisurat, aprobări pentru aplicații seismice, la incendiu și structurale, conform paginii Hilti dedicate ancorelor chimice. Cartuș static mixer 330ml sau 500ml, aplicare cu pistol manual sau electric. Procedură: 1) găurire ⌀ burghiu cu 2-4mm mai mare decât ⌀ tijă. 2) curățare gaură cu perie+suflare (obligatoriu pentru performanță). 3) injectare rășină până la umplere 2/3 gaură. 4) inserție tijă filetată M8-M24 sau tijă smooth pentru bare armare. Timpii de lucru și de întărire și valorile de încărcare depind de temperatură, de diametrul tijei și de beton; se confirmă din fișa tehnică Hilti. Aplicații: fixări structurale seismice, balustrade, scări metalice, fațade ventilate, echipamente HVAC grele, consoles pentru conductori.'
       },
       {
         name: 'Nivela Laser Rotativă PR 30-HVS',
-        description: 'Sistem de nivelare laser auto-nivelant cu precizie topografică. Laser roșu clasa 2, rotație 300-600 rpm (reglabil), diametru lucru 400m cu receptor (200m vizibilitate directă). Auto-nivelare automată ±5°, precizie ±1.5mm la 30m (±0.05mm/m). Funcții: nivel orizontal (360°), nivel vertical (90°), aliniere muchie (VH90), pante programabile ±10% pe ambele axe (X/Y). Receptor PRA 30 pentru lucru exterior lumină solară, precizie detectare ±1mm. Telecomandă RC 30 pentru control de la distanță (schimb viteze rotație, inclinare). Alimentare: baterie Li-Ion reîncărcabil sau acumulatori AA. Protecție IP66 (praf+apă), rezistență la cădere de la 1.5m. Aplicații: fundații și șape (nivel orizontal), montaj pereți gips-carton (nivel vertical), instalare scări (pante), topografie șantier.'
+        description: 'Sistem de nivelare laser auto-nivelant cu precizie topografică. Clasa laserului, viteza de rotație, raza de lucru și precizia se confirmă din fișa tehnică Hilti a modelului. Funcții: nivel orizontal (360°), nivel vertical (90°), aliniere muchie (VH90), pante programabile ±10% pe ambele axe (X/Y). Receptor PRA 30 pentru lucru exterior lumină solară, precizie detectare ±1mm. Telecomandă RC 30 pentru control de la distanță (schimb viteze rotație, inclinare). Alimentare: baterie Li-Ion reîncărcabil sau acumulatori AA.  Aplicații: fundații și șape (nivel orizontal), montaj pereți gips-carton (nivel vertical), instalare scări (pante), topografie șantier.'
       }
     ],
     certifications: [
@@ -832,7 +832,7 @@ Hilti investește constant în inovație. Centrul de cercetare din Liechtenstein
       'ETA (European Technical Assessment) - ancore chimice și mecanice certificate',
       'CE Marking - conformitate directivele Machinery, Low Voltage, EMC',
       'GS Mark - certificare siguranță institut german TÜV',
-      'ATEX Directive - scule pentru zone cu risc exploziv',
+      
       'UL Listed - produse certificate pentru piața nord-americană',
       'Seismic Approvals - sisteme de fixare certificate pentru zone seismice'
     ],
@@ -848,7 +848,7 @@ Hilti investește constant în inovație. Centrul de cercetare din Liechtenstein
       'Electricieni - instalații electrice rezidențiale/industriale',
       'Renovări - retrofit clădiri istorice, modernizări'
     ],
-    infinitrade: `Sculele și sistemele de ancoraj Hilti ajung la InfiniTrade prin canale de aprovizionare din UE - fără un stoc propriu care să acopere toată gama, verificăm disponibilitatea înainte de fiecare confirmare. Pentru specificațiile tehnice ne bazăm pe informațiile publice disponibile ale producătorului. Accesoriile și consumabilele uzuale (burghie, cartușe de rășină) pot fi livrate în 24–72 h din stoc, iar sculele sau kiturile mai specializate ajung de obicei în 1–4 săptămâni la comandă. Pentru o ofertă corectă, spune-ne modelul exact, tensiunea bateriei dacă e cazul, și aplicația - tipul de material și diametrul de găurire. Nu emitem prețuri fără o cerere concretă și nu promitem termene fixe pentru modelele rar cerute.`,
+    infinitrade: `Sculele și sistemele de ancoraj Hilti ajung la InfiniTrade prin canale de aprovizionare din UE - fără un stoc propriu care să acopere toată gama, verificăm disponibilitatea înainte de fiecare confirmare. Pentru specificațiile tehnice ne bazăm pe informațiile publice disponibile ale producătorului. Accesoriile și consumabilele uzuale (burghie, cartușe de rășină) pot fi livrate în 24–72 h din stoc, iar sculele sau kiturile mai specializate ajung de obicei în 1–4 săptămâni la comandă. Pentru o ofertă corectă, vă rugăm să ne comunicați modelul exact, tensiunea bateriei dacă este cazul și aplicația - tipul de material și diametrul de găurire. Nu emitem prețuri fără o cerere concretă și nu promitem termene fixe pentru modelele rar cerute.`,
     limitation: `Nu oferim service în garanția producătorului pentru sculele Hilti și nu confirmăm stocul exact al fiecărui model fără verificare punctuală.`,
     sources: [
       {"title":"Chemical anchors - Hilti USA","url":"https://www.hilti.com/c/CLS_FASTENER_7135/CLS_CHEMICAL_ANCHORS_7135","publisher":"Hilti","accessed":"2026-09-22"},
@@ -870,7 +870,7 @@ Hilti investește constant în inovație. Centrul de cercetare din Liechtenstein
       },
       {
         "code": "HIT-FP 700 R",
-        "description": "adeziv cimentos injectabil pentru ancorare în zidărie"
+        "description": "adeziv cimentos injectabil pentru conexiuni de armături rezistente la foc"
       },
       {
         "code": "HIT-HY 270",
@@ -948,8 +948,8 @@ Hilti investește constant în inovație. Centrul de cercetare din Liechtenstein
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hilti în sursele citate.' }
     ]
   },
@@ -959,15 +959,15 @@ Hilti investește constant în inovație. Centrul de cercetare din Liechtenstein
     founded: 1885,
     headquarters: 'Charlotte, North Carolina, SUA',
     employees: '2500+ (divizia Analytics)',
-    overview: `Honeywell Analytics dezvoltă sisteme de detectare a gazelor pentru protecția vieții și mediului - de la detectoare fixe monocanal până la sisteme centralizate cu sute de puncte de măsură, de la detectoare portabile personale până la analizoare pentru medii explozive. Tehnologie de vârf și inginerie de precizie pentru protecția vieții.
+    overview: `Honeywell Analytics dezvoltă sisteme de detectare a gazelor pentru protecția vieții și mediului - de la detectoare fixe monocanal până la sisteme centralizate cu sute de puncte de măsură, de la detectoare portabile personale până la analizoare pentru medii explozive.
 
 Portofoliul acoperă toate tipurile de gaze periculoase: combustibile (metan, propan, hidrogen - risc exploziv), toxice (H2S, CO, Cl2, NH3 - risc sănătate), asfixiante (CO2, N2 - risc sufocare), refrigeranți (amoniac, freon - risc toxic/ambiental). Pentru fiecare gaz există senzori specializați - catalitici pentru combustibile, electro-chimici pentru toxice, infraroșu pentru CO2 și hidrocarburi, semiconductori pentru compuși organici volatili.
 
-Honeywell Analytics investește constant în cercetare - laborator de calibrare cu gaze certificate, camere de testare pentru condiții extreme (temperaturi -40°C/+70°C, umiditate 0-100% RH, presiuni variate), simulări de scenarii reale (scurgeri, ventilație diferită). Toate detectoarele sunt certificate SIL (Safety Integrity Level) pentru aplicații critice de siguranță. Service global - calibrare periodică, înlocuire senzori, validare funcționalitate conform normelor internaționale.`,
+ Anumite modele au documentație SIL (de exemplu transmițătorul XNX, evaluat SIL 2 conform IEC 61508); certificarea depinde de model. Service global - calibrare periodică, înlocuire senzori, validare funcționalitate conform normelor internaționale.`,
     whyChoose: [
-      'Tehnologie senzori avansată - catalitici poison-resistant, electro-chimici long-life (3-5 ani), IR dual-wavelength',
-      'Certificate SIL 2/3 - detectoare pentru aplicații safety-critical conform IEC 61508, validare TÜV',
-      'Gamă completă - detectoare fixe (perete/duct), portabile (single/multi-gas), sisteme centralizate (până 512 puncte)',
+      'Tehnologii de senzori adaptate gazului: catalitici, electro-chimici și în infraroșu; durata de viață a senzorilor depinde de model',
+      'Documentație SIL pentru anumite modele (de exemplu XNX, SIL 2 conform IEC 61508); se confirmă pe cod',
+      'Gamă completă - detectoare fixe, portabile (single-gas și multigaz) și transmițătoare',
       'Algoritmi inteligenți - compensare temperatura/umiditate automată, auto-calibrare, diagnostic preventiv senzori',
       'Comunicații industriale - 4-20mA, Modbus RTU/TCP, HART, wireless mesh pentru zone dificile',
       'Service global - calibrare certificată, înlocuire senzori originali, rapoarte conformitate reglementări'
@@ -975,26 +975,26 @@ Honeywell Analytics investește constant în cercetare - laborator de calibrare 
     keyProducts: [
       {
         name: 'Detectoare Fixe Sensepoint XCD',
-        description: 'Platformă de detectare gaze fixă universală pentru aplicații industriale. Configurații: combustibile (senzor catalitic pellistor, range 0-100% LEL), toxice (senzori electro-chimici specifici: H2S 0-100ppm, CO 0-500ppm, NH3 0-100ppm, Cl2 0-10ppm, SO2 0-20ppm), oxigen (senzor O2 electro-chimic 0-25% vol). Display LCD local cu backlight, afișare concentrație+status+alarme. Ieșiri: 4-20mA (standard industrial), releu alarme (configurabil praguri LOW/HIGH/STEL/TWA), Modbus RTU pentru integrare SCADA. Protecție IP66/67, certificare ATEX/IECEx pentru Zone 1, temperatura operare -40°C/+70°C. Carcasă aluminiu/inox, montaj perete sau țeavă. Calibrare: auto-zero, aplicare gaz test certificat, interval recomandat 6 luni. Aplicații: platforme offshore, rafinării, depozite chimice, fabrici procesare, spații confinate.'
+        description: 'Platformă de detectare gaze fixă universală pentru aplicații industriale. Configurații: combustibile (senzor catalitic pellistor, range 0-100% LEL), toxice (senzori electro-chimici specifici; gazele și domeniile de măsură disponibile se confirmă pe cod), oxigen (senzor O2 electro-chimic 0-25% vol). Display LCD local cu backlight, afișare concentrație+status+alarme. Ieșiri: 4-20mA, trei relee de alarmă și Modbus RTU (RS485) pentru integrare în sisteme de control. Protecție IP66, certificare ATEX/IECEx, temperatura de operare -40°C/+65°C. Carcasă aluminiu/inox, montaj perete sau țeavă. Intervalul de calibrare recomandat se confirmă din documentația producătorului. Aplicații: platforme offshore, rafinării, depozite chimice, fabrici procesare, spații confinate.'
       },
       {
         name: 'Detectoare Portabile BW Solo',
-        description: 'Detector personal single-gas compact pentru protecție individuală. Variante: CO (monoxid de carbon 0-1000ppm), H2S (hidrogen sulfurat 0-500ppm), O2 (oxigen 0-30% vol), SO2 (dioxid sulf 0-100ppm). Alarme: vizuală (LED roșu pulsant), auditivă (95dB la 30cm), vibrație. Praguri configurabile pentru TWA (Time Weighted Average 8h), STEL (Short Term Exposure Limit 15min), alarme instante LOW/HIGH. Baterie Li-Ion reîncărcabilă, autonomie 2 ani între încărcări (citire continuă). Display LCD afișare concentrație live + peak (maxim înregistrat sesiune). Datalogging - stocare 10.000 evenimente, descărcare USB pentru audit conformitate. Protecție IP68 (submersibil), rezistență cădere 5m. Greutate 98g, clip curea inclus. Utilizare: muncitori platforme petroliere, spații confinate, industrie chimică, rețele canalizare.'
+        description: 'Detector personal single-gas compact pentru protecție individuală. Variante: CO (monoxid de carbon 0-2000ppm), H2S (hidrogen sulfurat 0-200ppm), O2 (oxigen 0-30% vol), SO2 (dioxid sulf 0-100ppm), plus alte gaze toxice disponibile pe cod. Alarme: vizuală, auditivă și prin vibrație. Praguri configurabile pentru TWA (Time Weighted Average 8h), STEL (Short Term Exposure Limit 15min), alarme instante LOW/HIGH. Autonomia bateriei este de 6-12 ore, conform paginii producătorului. Display LCD afișare concentrație live + peak (maxim înregistrat sesiune). Înregistrare date: șase luni la interval de 5 secunde, cu conectivitate Bluetooth Low Energy, conform paginii producătorului. Protecție IP68. Greutate 116 g. Utilizare: muncitori platforme petroliere, spații confinate, industrie chimică, rețele canalizare.'
       },
       {
-        name: 'Sistem Centralizat Maxum Edition II',
-        description: 'Analizor multi-component pentru compoziție gaze de proces în rafinării și petrochimie. Cromatografie gaz (GC) cu până 4 canale paralele, analiză simultană 50+ componenți. Detectoare: TCD (Thermal Conductivity Detector) pentru gaze permanente (H2, N2, O2, CO, CO2), FID (Flame Ionization Detector) pentru hidrocarburi C1-C20. Precizie <0.5% relativă, repetabilitate <0.2% CV. Timp ciclu analiză: 3-15 minute configurabil. Integrare proces: eșantionare automată din 8 puncte (via stream selector valve), condiționare eșantion (presiune/temperatură), calibrare automată cu gaz standard. Comunicații: Modbus TCP, OPC UA, 4-20mA outputs pentru integrare DCS. Aplicații: monitorizare compoziție gaz natural, analiză puritate hidrogen, control calitate etilena/propilena, detectare contaminare CO în reforming catalytic.'
+        name: 'Analizor de proces Maxum Edition II',
+        description: 'Analizor pentru compoziția gazelor de proces; încadrarea în portofoliul Honeywell Analytics și specificațiile se confirmă pe cod, din documentația producătorului.  Aplicații: monitorizare compoziție gaz natural, analiză puritate hidrogen, control calitate etilena/propilena, detectare contaminare CO în reforming catalytic.'
       }
     ],
     certifications: [
       'ISO 9001:2015 - management calitate producție detectoare gaze',
       'ISO 14001:2015 - management ambiental fabrici SUA, UK, China',
-      'SIL 2/3 Certified - detectoare pentru sisteme safety-critical conform IEC 61508',
+      'SIL - documentație disponibilă pentru anumite modele (de exemplu XNX: SIL 2 conform IEC 61508)',
       'ATEX/IECEx - certificare pentru zone explozive (Zone 0, 1, 2)',
       'FM Approved - certificare Factory Mutual pentru piața nord-americană',
       'CSA Certified - Canadian Standards Association pentru Class I Div 1/2',
-      'PESO Approval - Petroleum and Explosives Safety Organization (India)',
-      'KOSHA Certified - Korea Occupational Safety and Health Agency'
+      
+      
     ],
     industries: [
       'Oil & gas - platforme offshore, rafinării, conducte, depozite',
@@ -1008,7 +1008,7 @@ Honeywell Analytics investește constant în cercetare - laborator de calibrare 
       'Food & beverage - fermentare CO2, refrigerare NH3, spații confinate',
       'Marine - transport gaz lichefiat (LNG/LPG), spații cargo, engine rooms'
     ],
-    infinitrade: `Detectoarele de gaz Honeywell Analytics ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru gazul și rangeul de măsură cerut. Nu putem confirma disponibilitatea unui cod anume fără o verificare punctuală, așa că întrebăm întotdeauna specificațiile exacte înainte de ofertă. Pentru senzorii și piesele mai comune termenul poate fi 24–72 h din stoc, iar pentru sistemele centralizate sau senzorii speciali calculează 1–4 săptămâni la comandă. Trimite-ne tipul de gaz de detectat, rangeul de măsură necesar și tipul de ieșire dorit - 4-20mA sau Modbus - pentru o ofertă corectă. Nu oferim prețuri orientative fără cerere și nu confirmăm certificarea SIL fără documentația exactă a aplicației tale.`,
+    infinitrade: `Detectoarele de gaz Honeywell Analytics ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru gazul și rangeul de măsură cerut. Nu putem confirma disponibilitatea unui cod anume fără o verificare punctuală, așa că întrebăm întotdeauna specificațiile exacte înainte de ofertă. Pentru senzorii și piesele mai comune termenul poate fi 24–72 h din stoc, iar pentru sistemele centralizate sau senzorii speciali termenul este, de regulă, de 1–4 săptămâni la comandă. Vă rugăm să ne comunicați tipul de gaz de detectat, domeniul de măsură necesar și tipul de ieșire dorit - 4-20mA sau Modbus - pentru o ofertă corectă. Nu oferim prețuri orientative fără cerere și nu confirmăm certificarea SIL fără documentația exactă a aplicației tale.`,
     limitation: `Nu efectuăm calibrarea sau certificarea SIL a detectoarelor Honeywell Analytics - acestea rămân în sarcina producătorului sau a unui laborator acreditat.`,
     sources: [
       {"title":"Gas and Flame Detection - Honeywell","url":"https://automation.honeywell.com/us/en/products/sensing-solutions/gas-and-flame-detection","publisher":"Honeywell","accessed":"2026-09-22"},
@@ -1076,8 +1076,8 @@ Honeywell Analytics investește constant în cercetare - laborator de calibrare 
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării și sediul Honeywell Analytics, conform surselor citate.' }
     ]
   },
@@ -1087,31 +1087,31 @@ Honeywell Analytics investește constant în cercetare - laborator de calibrare 
     founded: 1885,
     headquarters: 'Charlotte, North Carolina, SUA',
     employees: '8000+ (divizia Safety)',
-    overview: `Honeywell Safety dezvoltă echipamente de protecție individuală pentru toate tipurile de riscuri industriale - de la mănuși rezistente la tăiere și perforare până la ochelari de protecție și măști respiratorii, de la harnașamente anti-cădere până la încălțăminte de siguranță. Peste un secol de experiență în protecția vieții la locul de muncă.
+    overview: `Gama de echipamente de protecție individuală asociată mărcii Honeywell Safety Products (mărci precum Uvex, Miller, North și Howard Leight, prezentate acum sub PIP Global Safety, conform paginii Honeywell; Honeywell a anunțat în noiembrie 2024 intenția de a vinde afacerea PPE către Protective Industrial Products) acoperă diverse riscuri industriale - de la mănuși rezistente la tăiere și perforare până la ochelari de protecție și măști respiratorii, de la harnașamente anti-cădere până la încălțăminte de siguranță.
 
-Gama de mănuși acoperă toate nivelurile de protecție: rezistență tăiere (niveluri A1-A9 conform EN 388), rezistență la căldură (până 500°C contact), rezistență chimică (nitril, neopren, viton pentru diverse substanțe), protecție antivibratorie conform ISO 10819. Materialele Spectra și Kevlar oferă protecție ridicată cu dexteritate bună - mănuși subțiri care permit manipulare precisă.
+Gama de mănuși acoperă toate nivelurile de protecție: rezistență la tăiere (niveluri A-F conform EN 388:2016; scara A1-A9 aparține standardului ANSI/ISEA 105), rezistență la căldură (în funcție de model), rezistență chimică (nitril, neopren, viton pentru diverse substanțe), protecție antivibratorie conform ISO 10819. Materialele Spectra și Kevlar oferă protecție ridicată cu dexteritate bună - mănuși subțiri care permit manipulare precisă.
 
 Pentru protecție respiratorie, gama include măști filtrante FFP1/FFP2/FFP3 pentru praf și aerosoli, semimăști cu filtre înlocuibile pentru vapori organici/amoniac/gaze acide, aparate cu aer comprimat pentru spații confinate sau IDLH (Immediately Dangerous to Life or Health). Toate certificate conform standardelor europene EN și americane NIOSH, testate riguros pentru validarea protecției reale.`,
     whyChoose: [
       'Protecție certificată - toate EPI-urile testate conform EN standards, marcaje clare nivel protecție',
-      'Materiale avansate - Spectra UHMWPE (ultra-high molecular weight polyethylene), Kevlar, Nomex pentru rezistență extremă',
+      'Materiale - fibre tehnice, alese în funcție de model',
       'Confort ridicat - design ergonomic, materiale respirante, greutăți reduse pentru utilizare prelungită',
       'Gamă completă - protecție cap până picioare (head-to-toe), soluții coordonate pentru fiecare industrie',
-      'Durabilitate - EPI-uri rezistente la uzură, spălări multiple (mănuși reutilizabile), raport cost/utilizare avantajos',
-      'Consultanță risk assessment - analizăm riscurile locului tău de muncă, recomandăm EPI-uri potrivite conform legislație'
+      'Durabilitate - rezistența la uzură și numărul de spălări depind de model; se confirmă din fișa tehnică',
+      'Gamă documentată - fiecare model are fișă tehnică și marcaje de conformitate; evaluarea de riscuri rămâne responsabilitatea angajatorului'
     ],
     keyProducts: [
       {
-        name: 'Mănuși Rezistente Tăiere Tuff-Glo',
-        description: 'Protecție mâini nivel ridicat pentru manipulare obiecte ascuțite. Construcție tricotată seamless din fibre Spectra (polietilenă greutate moleculară ultra-înaltă) + fibră sticlă + nylon. Palma și degete acoperite cu nitril microporos - grip excelent în medii uscate/uleioase, rezistență abraziune. Nivel protecție conform EN 388:2016 - tăiere nivel C sau D (rezistență 11-22 N la test TDM), abraziune nivel 4 (>8000 cicluri), perforare nivel 4 (>150 N). Dexteritate nivel 3-4 (manipulare componente mici posibilă). Spălabile la 40°C, reutilizabile 20+ ori. Aplicații: manipulare tablă, sticlă, componente sharp edges, asamblare automotive, procesare carne (deboning, slicing), recyclare (sortare metal/sticlă).'
+        name: 'Mănuși rezistente la tăiere',
+        description: 'Protecție mâini nivel ridicat pentru manipulare obiecte ascuțite. Construcție tricotată cu înveliș pe palmă și degete; materialele și acoperirea diferă în funcție de model. Nivelurile de protecție conform EN 388:2016 se confirmă pe cod, din marcajul și fișa tehnică a fiecărui model. Aplicații: manipulare tablă, sticlă, componente sharp edges, asamblare automotive, procesare carne (deboning, slicing), recyclare (sortare metal/sticlă).'
       },
       {
         name: 'Ochelari Protecție Uvex Genesis',
-        description: 'Protecție ochi pentru risc impact, substanțe chimice, radiații UV. Lentile policarbonat tratate anti-aburire (Uvex Supravision) + anti-zgâriere (hardcoat), blocare 99.9% radiații UV. Conformitate EN 166: impact energie ridicată (marking "B", test bilă 6mm la 120 m/s), protecție particule mari viteză (marking "F", 45 m/s). Ramă wraparound pentru acoperire laterală, braț reglabil lungime+unghi, punte nazală moale ajustabilă. Greutate 26g, utilizare confortabilă 8+ ore. Variante lentile: clare (interior), fumurii (exterior), galbene (contrast crescut lumină slabă). Compatibili cu cască și vizor. Aplicații: sudură (lentile speciale shade 3-5), laboratoare chimice, polizare/șlefuire, construcții, silvicultură.'
+        description: 'Protecție ochi pentru risc impact, substanțe chimice, radiații UV. Lentile policarbonat tratate anti-aburire (Uvex Supravision) + anti-zgâriere (hardcoat), protecție UV, conform marcajului lentilei. Conformitate EN 166: impact cu energie medie (marcaj "B", test cu bilă de 6 mm la 120 m/s), protecție particule mari viteză (marking "F", 45 m/s). Ramă wraparound pentru acoperire laterală, braț reglabil lungime+unghi, punte nazală moale ajustabilă.  Variante lentile: clare (interior), fumurii (exterior), galbene (contrast crescut lumină slabă). Compatibili cu cască și vizor. Aplicații: sudură (lentile speciale shade 3-5), laboratoare chimice, polizare/șlefuire, construcții, silvicultură.'
       },
       {
         name: 'Harnașament Anti-Cădere Miller Titan',
-        description: 'Sistem protecție cădere la lucru în înălțime conform EN 361. Harnașament full-body din webbing poliester lățime 44mm, rezistență rupere >22 kN. Catarame cu ajustare rapidă pe piept, coapse, talie pentru o ajustare precisă. Punct de ataș dorsal (D-ring oțel forjat rezistent 22 kN) pentru conectare la lanyard sau sistem opritor cădere.Indicatori de cădere - dacă harnașamentul a suferit un impact trebuie scos din uz (webbing alungit vizibil). Greutate 1.8 kg. Utilizare cu: lanyard-uri cu absorbant energie (limitează forța impact la <6 kN), dispozitive reglare cablu (retractable lifelines), sisteme de poziționare (work restraint). Aplicații: construcții (lucrări acoperiș, schele, arbori), eoliene (suiș turn, mentenanță nacela), telecom (antene, turnuri), utilități (stâlpi electricitate), spații confinate (coborâre/ridicare).'
+        description: 'Sistem protecție cădere la lucru în înălțime conform EN 361. Harnașament full-body din webbing poliester; dimensiunile și rezistențele se confirmă din fișa tehnică a modelului. Catarame cu ajustare rapidă pe piept, coapse, talie pentru o ajustare precisă. Punct de ataș dorsal (D-ring oțel forjat rezistent 22 kN) pentru conectare la lanyard sau sistem opritor cădere. Indicatori de cădere - dacă harnașamentul a suferit un impact trebuie scos din uz (webbing alungit vizibil). Utilizare cu: lanyard-uri cu absorbant energie (limitează forța impact la <6 kN), dispozitive reglare cablu (retractable lifelines), sisteme de poziționare (work restraint). Aplicații: construcții (lucrări acoperiș, schele, arbori), eoliene (suiș turn, mentenanță nacela), telecom (antene, turnuri), utilități (stâlpi electricitate), spații confinate (coborâre/ridicare).'
       }
     ],
     certifications: [
@@ -1136,7 +1136,7 @@ Pentru protecție respiratorie, gama include măști filtrante FFP1/FFP2/FFP3 pe
       'Forestry - protecție tăiere motofierăstrău, harnașamente, ochelari anti-impact',
       'Curățenie industrială - mănuși chimicale, protecție respiratorie, combinezoane'
     ],
-    infinitrade: `Echipamentele de protecție Honeywell Safety (mănuși, ochelari, harnașamente) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru cantitățile solicitate. Fără date proprii de stoc pentru toate mărimile și modelele, verificăm disponibilitatea reală înainte de a confirma un termen. Modelele curente din gama de mănuși și ochelari pot ajunge în 24–72 h din stoc, iar comenzile mari de harnașamente sau seriile speciale ajung de obicei în 1–4 săptămâni la comandă. Ca să pregătim o ofertă, spune-ne modelul, mărimile necesare și cantitatea totală comandată. Evaluarea de risc la locul de muncă rămâne responsabilitatea angajatorului conform legislației - noi oferim echipamentul potrivit specificațiilor pe care ni le trimiți.`,
+    infinitrade: `Echipamentele de protecție Honeywell Safety (mănuși, ochelari, harnașamente) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru cantitățile solicitate. Fără date proprii de stoc pentru toate mărimile și modelele, verificăm disponibilitatea reală înainte de a confirma un termen. Modelele curente din gama de mănuși și ochelari pot ajunge în 24–72 h din stoc, iar comenzile mari de harnașamente sau seriile speciale ajung de obicei în 1–4 săptămâni la comandă. Pentru a pregăti o ofertă, vă rugăm să ne comunicați modelul, mărimile necesare și cantitatea totală. Evaluarea de risc la locul de muncă rămâne responsabilitatea angajatorului conform legislației - noi oferim echipamentul potrivit specificațiilor pe care ni le trimiți.`,
     limitation: `Nu realizăm evaluarea de risc la locul de muncă pentru echipamentele Honeywell Safety - aceasta rămâne responsabilitatea angajatorului conform legislației.`,
     sources: [
       {"title":"Personal Protective Equipment - Honeywell","url":"https://automation.honeywell.com/us/en/pip-hsp","publisher":"Honeywell","accessed":"2026-09-22"},
@@ -1204,7 +1204,7 @@ Pentru protecție respiratorie, gama include măști filtrante FFP1/FFP2/FFP3 pe
     faq: [
       {
         "q": "Ce diferență este între ochelarii Uvex Genesis și Uvex Genesis X2 de la Honeywell?",
-        "a": "Genesis, în varianta de bază, oferă o lentilă standard curbată pentru un câmp vizual larg, în timp ce Genesis X2 vine cu o lentilă extinsă lateral pentru protecție suplimentară a zonei temporale, fiind recomandată acolo unde riscul de particule laterale este mai ridicat, de exemplu la polizare sau tăiere."
+        "a": "Diferențele dintre Genesis, Genesis X2 și Genesis XC (lentile, acoperiri, formă) se confirmă din fișa tehnică a fiecărui model."
       },
       {
         "q": "La ce folosesc gluga AFHOOD20 și când aleg varianta AFHOOD10?",
@@ -1220,8 +1220,8 @@ Pentru protecție respiratorie, gama include măști filtrante FFP1/FFP2/FFP3 pe
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Honeywell Safety și am corectat datele greșite, conform surselor citate.' }
     ]
   },
@@ -1233,29 +1233,29 @@ Pentru protecție respiratorie, gama include măști filtrante FFP1/FFP2/FFP3 pe
     employees: '10000+',
     overview: `Hydac este specialist în hidraulică și electronică fluidică - de la acumulatoare hidraulice și răcitoare de ulei până la filtre, senzori de presiune și sisteme de monitorizare condiție. Dezvoltă soluții complete pentru sistemele hidraulice industriale și mobile, de la componente individuale până la subsisteme integrate cu automatizare completă.
 
-Acumulatorul hidraulic Hydac este un standard larg folosit pentru stocarea energiei în sisteme hidraulice. Tehnologia producătorului cu membrană sau piston permite stocarea și eliberarea rapidă a uleiului sub presiune - utilizat pentru absorbție șocuri, compensare pulsații pompe, energie de urgență la cădere alimentare. Gama include acumulatoare de la 0.1 litri (aplicații mobile compacte) până la 200 litri (prese heavy-duty), presiuni până 500 bar, pre-încărcare azot precisă pentru fiecare aplicație.
+Acumulatorul hidraulic Hydac este un standard larg folosit pentru stocarea energiei în sisteme hidraulice. Tehnologia producătorului cu membrană sau piston permite stocarea și eliberarea rapidă a uleiului sub presiune - utilizat pentru absorbție șocuri, compensare pulsații pompe, energie de urgență la cădere alimentare. Gama include acumulatoare cu vezică, cu piston, cu membrană și cu burduf metalic; volumele și presiunile depind de serie (de exemplu, seria cu vezică SB330 este pentru presiuni până la 330 bar), iar pre-încărcarea cu azot se stabilește pentru fiecare aplicație.
 
 Hydac investește constant în senzori inteligenți și IoT industrial. Senzorii de presiune, temperatură, nivel și debit din gamă comunică direct cu PLC-uri sau sisteme cloud pentru monitorizare predictivă - detectarea degradării uleiului înainte să afecteze componentele, măsurarea vibrațiilor pompelor pentru diagnostic lagăre, monitorizarea presiunilor cilindrilor pentru optimizare proces, cu reducere de downtime prin mentenanță predictivă în loc de preventivă.`,
     whyChoose: [
       'Expertiză hidraulică completă - Hydac proiectează sisteme integrate (pompă+răcire+filtrare+acumulare+control)',
-      'Acumulatoare premium - membrane elastomere high-grade, pre-încărcare azot precisă, valve siguranță integrate',
-      'Răcitoare eficiente - heat exchangers optimizate CFD, disipare de căldură ridicată la dimensiune identică, conform producătorului',
-      'Senzori inteligenți - măsurare presiune 0-1000 bar (±0.3% FS), ATEX/SIL certified, comunicații IO-Link/CANopen',
+      'Gamă de acumulatoare - cu vezică, piston, membrană și burduf metalic, cu pre-încărcare cu azot; accesoriile (de exemplu blocurile de siguranță) se aleg separat',
+      'Răcitoare aer-ulei - gamă standard, sisteme modulare (AC-MS) și soluții pentru mașini mobile, conform paginii producătorului',
+      'Senzori de presiune - transmițătoare și presostate; domeniile de măsură, precizia și certificările (ATEX, SIL) depind de model și se confirmă din fișa tehnică',
       'Monitorizare online - sisteme CMU (Condition Monitoring Unit) cu alarme predictive, cloud connectivity',
       'Service global - analiza ulei în laborator propriu, training tehnic, suport commissioning'
     ],
     keyProducts: [
       {
         name: 'Acumulatoare Hidraulice SB/SBO',
-        description: 'Stocarea energiei în sisteme hidraulice prin comprimarea azotului. Design cu membrană elastomerică (NBR pentru uleiuri minerale, FKM pentru rezistență termică/chimică superioară). Dimensiuni: 0.1L până 50L volum nominal, presiuni lucru până 500 bar. Pre-încărcare azot calculată pentru fiecare aplicație (tipic 90% din presiunea minimă sistem). Valve siguranță integrate, conexiuni SAE/BSPP/metric. Funcții: 1) Absorbție șocuri hidraulice - elimină spike-uri presiune la oprire bruscă cilindri, protejează valve și pompe. 2) Compensare pulsații - netezește flowul de la pompe cu piston, reduce zgomot și vibrații. 3) Energie urgență - menține presiune pentru operații critice la cădere pompe (frânare, închidere valve). 4) Compensare volum - absoarbe variații volum la încălzire ulei. Aplicații: prese hidraulice (absorbție șoc), mobile (suspensie cabină, frânare), wind turbines (pitch control).'
+        description: 'Stocarea energiei în sisteme hidraulice prin comprimarea azotului. Design cu vezică elastomerică (bladder), din NBR, ECO, IIR sau FKM, în funcție de fluid și temperatură. Volumele și presiunile de lucru depind de serie (de exemplu, seria SB330 lucrează până la 330 bar, iar seria SB690 la 690 bar și peste). Pre-încărcare azot calculată pentru fiecare aplicație (tipic 90% din presiunea minimă sistem). Valve siguranță integrate, conexiuni SAE/BSPP/metric. Funcții: 1) Absorbție șocuri hidraulice - elimină spike-uri presiune la oprire bruscă cilindri, protejează valve și pompe. 2) Compensare pulsații - netezește flowul de la pompe cu piston, reduce zgomot și vibrații. 3) Energie urgență - menține presiune pentru operații critice la cădere pompe (frânare, închidere valve). 4) Compensare volum - absoarbe variații volum la încălzire ulei. Aplicații: prese hidraulice (absorbție șoc), mobile (suspensie cabină, frânare), wind turbines (pitch control).'
       },
       {
         name: 'Răcitoare Ulei Hidraulic OK-EL',
-        description: 'Schimbătoare de căldură aer-ulei pentru disiparea căldurii generate în sisteme hidraulice. Design: tub aluminiu cu aripioare răcire, flow ulei prin interior tuburi, aer atmosferic forțat prin ventilator axial sau radial. Capacitate disipare: 5 kW până 200 kW la ΔT=50K (diferență temperatură ulei-aer). Control: termostat electronic reglează turația ventilator (inverter) sau pornire/oprire ON/OFF pentru menținere temperatură setpoint ±2°C. Protecție: filtru aer anti-praf pentru finning, indicator vizual/electric colmatare, valve bypass pentru pornire la rece (ulei vâscos). Temperatură ulei maxim 100°C, presiune design 50 bar. Aplicații: centrale hidraulice staționare (ateliere, fabrici), mobile (excavatoare, macarale - variante 24VDC), mașini-unelte (presă, injecție).'
+        description: 'Schimbătoare de căldură aer-ulei pentru disiparea căldurii generate în sisteme hidraulice. Design: tub aluminiu cu aripioare răcire, flow ulei prin interior tuburi, aer atmosferic forțat prin ventilator axial sau radial. Capacitatea de disipare depinde de model și de diferența de temperatură ulei-aer. Control: termostat electronic reglează turația ventilator (inverter) sau pornire/oprire ON/OFF pentru menținere temperatură setpoint ±2°C. Protecție: filtru aer anti-praf pentru finning, indicator vizual/electric colmatare, valve bypass pentru pornire la rece (ulei vâscos). Temperatura maximă a uleiului și presiunea de lucru depind de model. Aplicații: centrale hidraulice staționare (ateliere, fabrici), mobile (excavatoare, macarale - variante 24VDC), mașini-unelte (presă, injecție).'
       },
       {
-        name: 'Senzori Presiune HDA/HMR',
-        description: 'Măsurarea presiunii în sisteme hidraulice și pneumatice. Principiu: elementul de măsură este o membrană metalică (oțel inox) care se deformează proporțional cu presiunea aplicată. Deformarea se convertește în semnal electric prin: 1) ceramică rezistivă (thick film) pentru aplicații industriale standard, 2) thin-film pe oțel inox pentru precizie superioară și SIL. Range-uri: 0-1 bar până 0-1000 bar (presiuni absolute, relative sau diferențiale). Precizie: ±0.3% din Full Scale (FS) pentru variante standard, ±0.05% FS pentru variante laborator. Ieșiri: 4-20mA (loop-powered), 0-10V, CANopen, IO-Link pentru comunicare digitală bidirecțională. Protecție: IP67, variante ATEX pentru zone explozive, certificare SIL2/SIL3 pentru aplicații safety. Aplicații: control presiune în cilindri, monitorizare pompe, protecție suprapresiune, logging pentru diagnostic.'
+        name: 'Senzori de presiune HDA',
+        description: 'Măsurarea presiunii în sisteme hidraulice și pneumatice. Principiu: elementul de măsură este o membrană metalică (oțel inox) care se deformează proporțional cu presiunea aplicată. Deformarea se convertește în semnal electric prin: 1) ceramică rezistivă (thick film) pentru aplicații industriale standard, 2) thin-film pe oțel inox pentru precizie superioară și SIL. Domeniile de măsură, precizia, ieșirile, gradul de protecție și certificările (ATEX, SIL) depind de model și se confirmă din fișa tehnică Hydac. Aplicații: control presiune în cilindri, monitorizare pompe, protecție suprapresiune, logging pentru diagnostic.'
       }
     ],
     certifications: [
@@ -1280,7 +1280,7 @@ Hydac investește constant în senzori inteligenți și IoT industrial. Senzorii
       'Renewable energy - wind turbines, wave energy, hydro power',
       'Test benches - simulare încărcări, teste de rezistență, validare componente'
     ],
-    infinitrade: `Componentele hidraulice Hydac (acumulatoare, răcitoare, senzori de presiune) ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru presiunea și volumul cerut de aplicația ta. Fără date proprii de stoc pentru fiecare variantă, verificăm disponibilitatea exactă la fiecare cerere primită. Componentele standard din gamă pot fi livrate în 24–72 h din stoc, iar acumulatoarele sau senzorii cu specificații particulare ajung de regulă în 1–4 săptămâni la comandă. Pentru o ofertă corectă, trimite-ne presiunea de lucru, volumul necesar pentru acumulatoare sau rangeul de măsură pentru senzori, plus tipul de conexiune. Nu confirmăm prețuri fără o cerere punctuală și nu putem garanta un termen fix pentru variantele rar solicitate.`,
+    infinitrade: `Componentele hidraulice Hydac (acumulatoare, răcitoare, senzori de presiune) ajung la InfiniTrade prin canale de aprovizionare din UE, configurate pentru presiunea și volumul cerute de aplicația dumneavoastră. Fără date proprii de stoc pentru fiecare variantă, verificăm disponibilitatea exactă la fiecare cerere primită. Componentele standard din gamă pot fi livrate în 24–72 h din stoc, iar acumulatoarele sau senzorii cu specificații particulare ajung de regulă în 1–4 săptămâni la comandă. Pentru o ofertă corectă, vă rugăm să ne comunicați presiunea de lucru, volumul necesar pentru acumulatoare sau domeniul de măsură pentru senzori, plus tipul de conexiune. Nu confirmăm prețuri fără o cerere punctuală și nu putem garanta un termen fix pentru variantele rar solicitate.`,
     limitation: `Nu confirmăm stocul exact pentru fiecare variantă de acumulator sau senzor Hydac fără o verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"HYDAC - product portfolio","url":"https://www.hydac.com","publisher":"Hydac","accessed":"2026-09-22"},
@@ -1299,23 +1299,23 @@ Hydac investește constant în senzori inteligenți și IoT industrial. Senzorii
       },
       {
         "code": "HDA 4000-HC",
-        "description": "traductor de presiune cu detecție senzor tip HCSI"
+        "description": "variantă a traductorului HDA 4000; diferențele se confirmă din fișa tehnică"
       },
       {
         "code": "HDA 4000-H",
-        "description": "traductor de presiune cu detecție senzor tip HSI"
+        "description": "variantă a traductorului HDA 4000; diferențele se confirmă din fișa tehnică"
       },
       {
         "code": "SB330-1A1/112U-330A",
-        "description": "acumulator hidraulic cu membrană, configurație specifică"
+        "description": "acumulator hidraulic cu vezică (bladder), configurație specifică"
       },
       {
         "code": "SB330-32F1/112U-210C",
-        "description": "acumulator hidraulic cu membrană, variantă de volum mare"
+        "description": "acumulator hidraulic cu vezică (bladder), variantă de volum mare"
       },
       {
         "code": "SB330-10F1/112U-210C",
-        "description": "acumulator hidraulic cu membrană, variantă compactă"
+        "description": "acumulator hidraulic cu vezică (bladder), variantă compactă"
       },
       {
         "code": "EDS 4000",
@@ -1357,8 +1357,8 @@ Hydac investește constant în senzori inteligenți și IoT industrial. Senzorii
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hydac în sursele citate.' }
     ]
   },
@@ -1370,29 +1370,29 @@ Hydac investește constant în senzori inteligenți și IoT industrial. Senzorii
     employees: '1200+ (divizia Filtration)',
     overview: `Hydac Filtration este divizia specializată în filtrarea fluidelor industriale - uleiuri hidraulice, uleiuri de ungere, combustibili, lichide de răcire, emulsii. Dezvoltă filtre, sisteme de filtrare offline, unități de condiționare a uleiului care elimină particule solide, apă și aerul dizolvat. Misiunea companiei e să prelungească viața sistemelor hidraulice și a componentelor prin menținerea curățeniei uleiului la niveluri ISO 4406 ultra-clean.
 
-Filosofia Hydac Filtration e filtrare totală - nu doar un filtru pe linia de presiune, ci filtrare strategică în toate punctele critice: presiune (protejează actuatori și valve), retur (protejează pompă și rezervor), aerisire (elimină contaminare prin respirație rezervor), offline (curățare continuă ulei la standstill). Mediile filtrante din fibre de sticlă tratate cu rășină fenolică oferă eficiență ridicată (filtrare particule până la 3 microni), capacitate de reținere mare, rezistență mecanică la presiuni și temperaturi extreme.
+Filosofia Hydac Filtration e filtrare totală - nu doar un filtru pe linia de presiune, ci filtrare strategică în toate punctele critice: presiune (protejează actuatori și valve), retur (protejează pompă și rezervor), aerisire (elimină contaminare prin respirație rezervor), offline (curățare continuă ulei la standstill). Gradul de filtrare, capacitatea de reținere și rezistența la presiune și temperatură depind de elementul filtrant ales și se confirmă din fișa tehnică Hydac.
 
-Producătorul inovează constant - sisteme de monitorizare inteligentă a stării filtrelor (senzori diferențial de presiune cu alarme), filtre cu indicator vizual pentru schimb preventiv, tehnologie de separare apă (coalescer + vacuum dehydration pentru uleiuri ultra-uscate <50ppm apă) - și investește în cercetare: laborator de analiză particule (particle counting conform ISO 4406/NAS 1638), teste de compatibilitate materiale, optimizare design pentru minimizare presiune diferențială.`,
+Producătorul inovează constant - sisteme de monitorizare inteligentă a stării filtrelor (senzori diferențial de presiune cu alarme), filtre cu indicator vizual pentru schimb preventiv, tehnologie de separare a apei (coalescer și deshidratare în vid) - și investește în cercetare: laborator de analiză particule (particle counting conform ISO 4406/NAS 1638), teste de compatibilitate materiale, optimizare design pentru minimizare presiune diferențială.`,
     whyChoose: [
-      'Eficiență de filtrare ridicată - media fibră sticlă captează 99.5% particule >3μ (Beta ratio >200)',
-      'Durată viață extinsă - capacitate reținere 15-25g/element, intervale de schimb mai lungi față de filtrele celulozice, conform producătorului',
+      'Eficiență de filtrare - gradul de filtrare și valorile Beta depind de elementul ales și se confirmă din fișa tehnică Hydac',
+      'Capacitate de reținere - depinde de elementul ales; se confirmă din fișa tehnică Hydac',
       'Sistem complet filtrare - filtre presiune/retur/aerisire + offline units + separatoare apă + monitorizare',
-      'Compatibilitate fluidică - certificate pentru uleiuri minerale, sintetice (ester, PAO), HFC/HFD, biodegradabile',
-      'Protecție componentă - menținerea codului de curățenie ISO 16/14/11 poate prelungi viața pompelor/valvelor, conform producătorului',
+      'Compatibilitate fluidică - se confirmă pe cod, în funcție de fluid și de materialele de etanșare',
+      'Protecție componente - filtrarea fluidului contribuie la creșterea duratei de viață a componentelor, conform paginii producătorului',
       'Suport tehnic - analiza ulei în laborator Hydac, recomandări filtrare pentru fiecare aplicație'
     ],
     keyProducts: [
       {
         name: 'Filtre Presiune RFBN/HC',
-        description: 'Protecție echipamente hidraulice sensibile instalate pe linia de presiune între pompă și actuatori/valve. Carcasă oțel sau aluminiu filetată SAE/BSPP, presiune nominală 210-420 bar, presiune burst >630 bar. Element filtrant: media din fibre sticlă multi-strat (pre-layer + media principală + support layer), grade de filtrare 3, 5, 10, 25 microni (valori absolute conform ISO 16889). Eficiență Beta: β3>200 (99.5% reținere particule 3μ), β10>1000. Configurație: spin-on (element unic cu filet, schimb rapid), sau cartridge (element înlocuibil în carcasă reutilizabilă, reducere waste). Indicator diferențial presiune vizual/electric - schimb la 3.5 bar ΔP. Valve bypass calibrată - se deschide la 4.5 bar ΔP pentru protecție pompă. Temperatură operare -30°C/+100°C. Aplicații: protecție servovalve, valve proporționale, cilindri precizie în prese, mașini-unelte, mobile hydraulics.'
+        description: 'Protecție echipamente hidraulice sensibile instalate pe linia de presiune între pompă și actuatori/valve. Carcasă oțel sau aluminiu filetată SAE/BSPP, presiunea nominală depinde de model. Element filtrant: media din fibre sticlă multi-strat (pre-layer + media principală + support layer), grade de filtrare 3, 5, 10, 25 microni (valori absolute conform ISO 16889).  Configurație: spin-on (element unic cu filet, schimb rapid), sau cartridge (element înlocuibil în carcasă reutilizabilă, reducere waste). Indicator de colmatare vizual sau electric și supapă de bypass, în funcție de model; presiunile de comutare și temperatura de lucru se confirmă din fișa tehnică. Aplicații: protecție servovalve, valve proporționale, cilindri precizie în prese, mașini-unelte, mobile hydraulics.'
       },
       {
         name: 'Unități Filtrare Offline OLF',
-        description: 'Sisteme de curățare continuă ulei independent de funcționarea utilajului. Design: pompă electrică de transfer, filtru fin (3-6 microni), heat exchanger opțional, manometre, indicator colmatare. Flow-rate: 10-100 l/min configurabil. Funcționare: ulei extras din rezervor → filtrare → întoarcere în rezervor. Beneficii: 1) Curățare profundă în timp (rulează 24/7), atingere cod curățenie ISO 14/12/9 pentru aplicații ultra-clean. 2) Reducere sarcină filtre principale (presiune/retur) → durata lor crește. 3) Posibilitate integrare module de condiționare: vacuum dehydration (elimină apă până <50ppm), degassing (elimină aer dizolvat), magnetic separator (particule feroase). Control: automat cu timer sau continuu, oprire la colmatare filtru. Aplicații: turbine eoliene (gearbox), centrale hidraulice mari (siderurgie), sisteme kritice cu cleanliness requirements (aerospace test benches).'
+        description: 'Sisteme de curățare continuă ulei independent de funcționarea utilajului. Design: pompă electrică de transfer, filtru fin (3-6 microni), heat exchanger opțional, manometre, indicator colmatare. Debitul depinde de model. Funcționare: ulei extras din rezervor → filtrare → întoarcere în rezervor. Beneficii: 1) Curățare continuă a uleiului, independentă de funcționarea utilajului. 2) Reducere sarcină filtre principale (presiune/retur) → durata lor crește. 3) Posibilitate integrare module de condiționare: deshidratare în vid (eliminarea apei), degassing (elimină aer dizolvat), magnetic separator (particule feroase). Control: automat cu timer sau continuu, oprire la colmatare filtru. Aplicații: turbine eoliene (gearbox), centrale hidraulice mari (siderurgie), sisteme kritice cu cleanliness requirements (aerospace test benches).'
       },
       {
-        name: 'Separatoare Apă Coalescer CS',
-        description: 'Eliminarea apei libere și emulsionate din uleiuri hidraulice. Principiu: media coalescente forțează picături mici de apă să se unească în picături mari → separare gravitațională în cameră de decantare. Design: 2 stadii - 1) Coalescer element (media hidrofobă fibră sticlă), apă trece și se acumulează pe suprafață în picături mari. 2) Chamber de separare unde apa (densitate mai mare) se depune pe fund, ulei curat iese pe top. Bowl transparent pentru inspecție vizuală nivel apă, robinet drenaj manual sau automat (float valve). Eficiență: reduce apă de la 500-2000ppm la <100ppm (îndepărtare >95% apă liberă). Flow-rate: 10-60 l/min. Aplicații: sisteme hidraulice mobile expuse umiditate (excavatoare, forestry), sisteme cu emulsie oil-in-water (laminoare, machining coolants după separare), prevenire coroziune și degradare aditivi prin conținut apă.'
+        name: 'Separatoare de apă cu coalescer',
+        description: 'Eliminarea apei libere și emulsionate din uleiuri hidraulice. Principiu: media coalescente forțează picături mici de apă să se unească în picături mari → separare gravitațională în cameră de decantare. Design: 2 stadii - 1) Coalescer element (media hidrofobă fibră sticlă), apă trece și se acumulează pe suprafață în picături mari. 2) Chamber de separare unde apa (densitate mai mare) se depune pe fund, ulei curat iese pe top. Bowl transparent pentru inspecție vizuală nivel apă, robinet drenaj manual sau automat (float valve). Eficiența de separare a apei și debitul depind de model. Aplicații: sisteme hidraulice mobile expuse umiditate (excavatoare, forestry), sisteme cu emulsie oil-in-water (laminoare, machining coolants după separare), prevenire coroziune și degradare aditivi prin conținut apă.'
       }
     ],
     certifications: [
@@ -1417,7 +1417,7 @@ Producătorul inovează constant - sisteme de monitorizare inteligentă a stări
       'Paper mills - prese, calendre, sisteme acționare (filtrare + separare apă)',
       'Plastic injection - mașini de injecție (protecție valve proporționale)'
     ],
-    infinitrade: `Filtrele și unitățile de filtrare Hydac Filtration ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru gradul de filtrare și presiunea cerută de sistemul tău. Informațiile despre disponibilitate vin din surse publice ale producătorului și din verificarea punctuală pentru fiecare cerere primită. Elementele filtrante uzuale pot fi livrate în 24–72 h din stoc, în timp ce unitățile complete de filtrare offline sau separatoarele de apă ajung de obicei în 1–4 săptămâni la comandă. Pentru identificare corectă, trimite-ne codul elementului filtrant sau presiunea de lucru, gradul de filtrare dorit și tipul de conexiune necesar. Nu confirmăm termene sau prețuri fără să vedem cerința completă a aplicației.`,
+    infinitrade: `Filtrele și unitățile de filtrare Hydac Filtration ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru gradul de filtrare și presiunea cerută de sistemul dumneavoastră. Informațiile despre disponibilitate vin din surse publice ale producătorului și din verificarea punctuală pentru fiecare cerere primită. Elementele filtrante uzuale pot fi livrate în 24–72 h din stoc, în timp ce unitățile complete de filtrare offline sau separatoarele de apă ajung de obicei în 1–4 săptămâni la comandă. Pentru identificare corectă, vă rugăm să ne comunicați codul elementului filtrant sau presiunea de lucru, gradul de filtrare dorit și tipul de conexiune necesar. Nu confirmăm termene sau prețuri fără să vedem cerința completă a aplicației.`,
     limitation: `Nu confirmăm stocul pentru fiecare element filtrant Hydac Filtration fără verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"Filtration Technology - HYDAC","url":"https://www.hydac.com/shop/en/filtration-technology","publisher":"Hydac","accessed":"2026-09-22"},
@@ -1489,8 +1489,8 @@ Producătorul inovează constant - sisteme de monitorizare inteligentă a stări
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Hydac Filtration în sursele citate.' }
     ]
   }
