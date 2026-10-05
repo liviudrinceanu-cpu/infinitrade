@@ -351,8 +351,8 @@ Pentru fabricile din România, Nederman are sens la posturile de sudură, atelie
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Nederman Group – Homepage", url: "https://www.nedermangroup.com/en", publisher: "Nederman Group", accessed: "2026-09-22" },
       { title: "Products – Nederman", url: "https://www.nederman.com/en/products", publisher: "Nederman Group", accessed: "2026-09-22" }
@@ -485,7 +485,7 @@ Pentru instalațiile din România, Leybold are sens la linii de ambalare în atm
     headquarters: "San Pietro di Legnago, Italia",
     overview: `Madas este un producător italian de robinetărie de siguranță și reglare pentru gaz, cu sediul la San Pietro di Legnago, în provincia Verona. Gama acoperă electrovalve normal închise și normal deschise pentru gaz, valve de blocare la suprapresiune și subpresiune (OPSO/UPSO), valve de siguranță și de relief, regulatoare de presiune pentru gaz, filtre de gaz și de combustibil lichid, valve de blocare pentru combustibil și baterii de gaz (gas trains) complete. Pentru piața din România putem oferta componente individuale din aceste familii, pentru centrale termice și instalații industriale pe gaz.
 
-Ce diferențiază Madas este acoperirea completă a lanțului de siguranță pe o instalație de gaz — de la valva de blocare automată la suprapresiune sau subpresiune, prin regulatorul de presiune, până la filtrul de gaz care protejează restul instalației de impurități. Regulatoarele de presiune sunt împărțite pe game în funcție de presiunea de intrare, de la instalații cu presiune joasă (P1 sub 2 bar) la game cu presiune de intrare de până la 5 bar, iar dimensiunile de racord acoperite merg de la 1/4 inch la conexiuni DN 150. Un concurent cunoscut pe segmentul de robinetărie industrială pentru gaz este Bürkert, cu care Madas se suprapune pe zona valvelor de siguranță.
+Ce diferențiază Madas este acoperirea completă a lanțului de siguranță pe o instalație de gaz — de la valva de blocare automată la suprapresiune sau subpresiune, prin regulatorul de presiune, până la filtrul de gaz care protejează restul instalației de impurități. Regulatoarele de presiune sunt împărțite pe game în funcție de presiunea de intrare, de la instalații cu presiune joasă (P1 maxim 2 bar) la game cu presiune de intrare de până la 5 bar, iar valvele de siguranță sunt disponibile cu racorduri de la 1/4 inch (DN 8) până la 6 inch (DN 150). Un concurent cunoscut pe segmentul de robinetărie industrială pentru gaz este Bürkert, cu care Madas se suprapune pe zona valvelor de siguranță.
 
 Pentru instalatorii din România, Madas are sens la centrale termice industriale, arzătoare pe gaz și stații de reglare-măsurare, acolo unde normele de siguranță cer blocare automată a alimentării cu gaz în caz de suprapresiune, subpresiune sau depășire de temperatură.`,
     whyChoose: [
@@ -530,8 +530,8 @@ Pentru instalatorii din România, Madas are sens la centrale termice industriale
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Safety Valves for Gas – Madas", url: "https://www.madas.it/en/safety-valves-for-gas", publisher: "Madas S.r.l.", accessed: "2026-09-22" },
       { title: "Madas – Home", url: "https://www.madas.it/en/home", publisher: "Madas S.r.l.", accessed: "2026-09-22" }
@@ -612,18 +612,18 @@ Pentru instalațiile din România, Barksdale are sens la protecția compresoarel
     founded: 1943,
     overview: `Metrohm este un producător elvețian de instrumente de analiză chimică, cu sediul la Herisau și activitate din 1943. Gama acoperă titratoare potențiometrice manuale și automate, titrare Karl Fischer pentru determinarea conținutului de apă, cromatografie ionică, spectrometre NIR și Raman, analizoare de proces pentru linii industriale, potențiostate și galvanostate pentru electrochimie, măsurare pH/ioni și sisteme de automatizare a probelor de laborator. Pentru piața din România putem oferta titratoare și module aferente din gama de laborator, pornind de la aplicația de analiză dorită.
 
-Ce diferențiază Metrohm este platforma modulară OMNIS, care unifică titrarea potențiometrică și cromatografia ionică sub aceeași arhitectură de control, alături de linii dedicate — Titrando pentru titrare automată integrabilă în rețea, Ti-Touch pentru titrare compactă de rutină și Eco Titrator ca variantă de bază la preț mai accesibil. Pe partea de cromatografie ionică, 930 Compact IC Flex acoperă analiza de rutină, iar 940 Professional IC Vario oferă configurare aproape nelimitată pentru laboratoare cu cerințe variate. Un concurent cunoscut pe segmentul instrumentelor de laborator pentru proces este Mettler Toledo, cu care Metrohm se suprapune pe zona titrării și analizei electrochimice.
+Ce diferențiază Metrohm este platforma modulară OMNIS, care unifică titrarea potențiometrică și cromatografia ionică sub aceeași arhitectură de control, alături de linii dedicate — Titrando pentru titrare automată integrabilă în rețea, Ti-Touch pentru titrare compactă de rutină și Eco Titrator ca variantă de bază. Pe partea de cromatografie ionică, 930 Compact IC Flex acoperă analiza de rutină, iar 940 Professional IC Vario oferă configurare aproape nelimitată pentru laboratoare cu cerințe variate. Un concurent cunoscut pe segmentul instrumentelor de laborator pentru proces este Mettler Toledo, cu care Metrohm se suprapune pe zona titrării și analizei electrochimice.
 
 Pentru laboratoarele și liniile de proces din România, Metrohm are sens la controlul calității apei, analiza conținutului de umiditate din materii prime sau produse, și monitorizarea electrochimică a proceselor din petrochimie, energie sau tratarea apei.`,
     whyChoose: [
       "Platformă modulară OMNIS, care unifică titrarea și cromatografia ionică sub aceeași arhitectură de control.",
       "Gamă completă de titrare Karl Fischer, volumetrică și coulometrică, pentru determinarea conținutului de apă.",
-      "Producție proprie a componentelor cheie — hardware, plăci electronice, senzori și coloane — conform informațiilor producătorului.",
+      "Instrumente pentru analiză chimică de laborator și de proces — titrare, cromatografie ionică, spectroscopie și electrochimie.",
       "Instrumente dedicate procesului industrial (analizoare inline/online/atline), nu doar pentru laborator."
     ],
     keyProducts: [
-      { name: "Titratoare Potențiometrice (Titrando, Ti-Touch, Eco Titrator, OMNIS)", description: "Titratoare potențiometrice pentru determinări de concentrație, aciditate sau bazicitate, de la varianta compactă Ti-Touch (inclusiv modelul 916 Ti-Touch) pentru rutină de laborator, la Titrando pentru integrare într-o rețea automatizată de titrare, și platforma modulară OMNIS pentru laboratoare cu volum mare de probe. Eco Titrator este varianta de bază, orientată spre cost redus fără a renunța la precizia specifică mărcii." },
-      { name: "Cromatografie Ionică (930 Compact IC Flex, 940 Professional IC Vario, OMNIS IC, Eco IC)", description: "Sisteme de cromatografie ionică pentru analiza anionilor, cationilor și substanțelor polare din probe de apă sau proces. 930 Compact IC Flex este un sistem cu un singur canal pentru analiză de rutină, 940 Professional IC Vario oferă configurare extinsă pentru laboratoare cu cerințe variate, iar Eco IC este varianta de intrare în gamă la preț mai accesibil." },
+      { name: "Titratoare Potențiometrice (Titrando, Ti-Touch, Eco Titrator, OMNIS)", description: "Titratoare potențiometrice pentru determinări de concentrație, aciditate sau bazicitate, de la varianta compactă Ti-Touch (inclusiv modelul 916 Ti-Touch) pentru rutină de laborator, la Titrando pentru integrare într-o rețea automatizată de titrare, și platforma modulară OMNIS pentru laboratoare cu volum mare de probe. Eco Titrator este varianta de bază din gama de titratoare." },
+      { name: "Cromatografie Ionică (930 Compact IC Flex, 940 Professional IC Vario, OMNIS IC, Eco IC)", description: "Sisteme de cromatografie ionică pentru analiza anionilor, cationilor și substanțelor polare din probe de apă sau proces. 930 Compact IC Flex este un sistem cu un singur canal pentru analiză de rutină, 940 Professional IC Vario oferă configurare extinsă pentru laboratoare cu cerințe variate, iar Eco IC este varianta de intrare în gama de cromatografie ionică." },
       { name: "Titrare Karl Fischer și Automatizare de Laborator", description: "Instrumente de titrare Karl Fischer, volumetrică sau coulometrică, pentru determinarea precisă a conținutului de apă din materii prime, produse finite sau solvenți. Gama include și module de automatizare a pregătirii probelor, precum 858 Professional Sample Processor și 889 IC Sample Center, pentru laboratoare cu volum ridicat de eșantioane." }
     ],
     industries: [
@@ -641,7 +641,7 @@ Pentru laboratoarele și liniile de proces din România, Metrohm are sens la con
       { code: "Titrando", description: "titrator potențiometric integrabil în rețea" },
       { code: "Ti-Touch", description: "titrator compact pentru rutină de laborator" },
       { code: "916 Ti-Touch", description: "titrator compact, model de referință" },
-      { code: "848 Titrino plus", description: "titrator potențiometric automatizat" },
+      
       { code: "1115 Optrode", description: "electrod optic pentru titrare" },
       { code: "Eco Titrator", description: "titrator potențiometric de bază" },
       { code: "940 Professional IC Vario", description: "cromatograf ionic configurabil" },
@@ -658,8 +658,8 @@ Pentru laboratoarele și liniile de proces din România, Metrohm are sens la con
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products – Metrohm", url: "https://www.metrohm.com/en_us/products.html", publisher: "Metrohm AG", accessed: "2026-09-22" },
       { title: "Titration – Metrohm", url: "https://www.metrohm.com/en_us/products/titration.html", publisher: "Metrohm AG", accessed: "2026-09-22" },

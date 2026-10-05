@@ -300,7 +300,7 @@ Pentru integratorii din România, gama Impinj are sens acolo unde volumul de art
     productCodes: [
       { code: "R700", description: "Cititor fix enterprise, până la 32 de antene" },
       { code: "R220", description: "Cititor fix din portofoliul Impinj" },
-      { code: "R120", description: "Cititor fix din portofoliul Impinj" },
+      
       { code: "Speedway", description: "Familie de cititoare fixe, generație anterioară" },
       { code: "M800", description: "Cip endpoint pentru etichete, sensibilitate crescută" },
       { code: "M830", description: "Cip endpoint din familia M800" },
@@ -319,8 +319,8 @@ Pentru integratorii din România, gama Impinj are sens acolo unde volumul de art
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Impinj — RAIN RFID readers", url: "https://www.impinj.com/products/readers", publisher: "Impinj, Inc.", accessed: "2026-09-25" },
       { title: "Impinj — reader ICs", url: "https://www.impinj.com/products/reader-ics", publisher: "Impinj, Inc.", accessed: "2026-09-25" },

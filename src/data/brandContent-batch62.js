@@ -318,7 +318,7 @@ Pentru integratorii de sisteme și producătorii de mașini din România, gama F
   "wieland-electric": {
     name: "Wieland Electric",
     headquarters: "Bamberg, Germania",
-    overview: `Wieland Electric este un producător german de tehnică de siguranță și de conectare pentru tablouri electrice și mașini industriale, cu sediul la Bamberg. Gama de siguranță acoperă relee de siguranță de bază, variante cu funcție de temporizare, relee de extensie de contacte și relee de monitorizare a mișcării, alături de controlere de siguranță programabile din familia SAMOS Pro. Pe partea de conectare, compania produce cleme de conexiune din generația selos (cu conexiune prin șurub sau push-in), plus seriile mai vechi fasis, încă disponibile în perioada de tranziție. Pentru piața din România putem oferta atât din gama de relee de siguranță, cât și din cea de cleme de conexiune pentru tablouri electrice.
+    overview: `Wieland Electric este un producător german de tehnică de siguranță și de conectare pentru tablouri electrice și mașini industriale, cu sediul la Bamberg. Gama de siguranță acoperă relee de siguranță de bază, variante cu funcție de temporizare, relee de extensie de contacte și relee de monitorizare a mișcării, alături de controlere de siguranță programabile din familia SAMOS Pro. Pe partea de conectare, compania produce cleme de conexiune din generația selos (cu conexiune prin șurub sau push-in). Pentru piața din România putem oferta atât din gama de relee de siguranță, cât și din cea de cleme de conexiune pentru tablouri electrice.
 
 Ce diferențiază Wieland Electric în categoria releelor de siguranță este nivelul de performanță atins — până la PL e conform ISO 13849 și SIL3 conform IEC 61508 — combinat cu o gamă de cleme de conexiune proprie, ceea ce înseamnă că un tablou electric poate fi echipat integral de la un singur producător, de la protecția funcțională la conexiunile fizice. În categoria releelor și controlerelor de siguranță, Wieland Electric oferă și relee de monitorizare a mișcării cu detectare a stării de repaus fără senzor suplimentar. Clemele selos noi reduc spațiul ocupat în tablou cu până la 66% la varianta pe trei etaje față de generația anterioară.
 
@@ -354,9 +354,9 @@ Pentru producătorii de mașini și integratorii de tablouri electrice din Româ
       { code: "selos WTPN", description: "cleme de conexiune push-in, secțiuni 1,5–16 mm²" },
       { code: "selos WTN", description: "cleme de conexiune cu șurub, secțiuni 1,5–240 mm²" },
       { code: "selos PRINT", description: "sistem de marcare pentru identificarea clemelor" },
-      { code: "fasis WKFN", description: "generație anterioară de cleme cu conexiune pe șurub" },
-      { code: "fasis WTP", description: "generație anterioară de cleme push-in" },
-      { code: "selos WT", description: "predecesorul generației selos actuale de cleme" }
+      
+      
+      
     ],
     faq: [
       { q: "Ce produce Wieland Electric?", a: "Wieland Electric produce relee de siguranță pentru mașini industriale, controlere de siguranță programabile SAMOS Pro și cleme de conexiune pentru tablouri electrice din gama selos. Este un producător german specializat în tehnică de siguranță și conectare, cu sediul la Bamberg." },

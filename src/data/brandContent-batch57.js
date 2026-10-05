@@ -260,8 +260,8 @@ Pentru un cumpărător din România, Sandpiper are sens unde trebuie aleasă geo
   yamada: {
     name: "Yamada",
     founded: 1905,
-    headquarters: "Arlington Heights, Illinois, SUA",
-    overview: `Yamada este un producător cu rădăcini japoneze, activ din 1905, cunoscut pentru pompele pneumatice cu membrană (AODD) din seria NDP, cu operațiuni nord-americane la Arlington Heights, Illinois. Gama de bază acoperă de la NDP-5 (port de 0,25", 3,4 gpm) până la NDP-80/800 (port de 3", 305 gpm), completată de seria de înaltă puritate DP-F (DP-5F până la DP-38F) pentru aplicații unde contaminarea trebuie evitată strict. Pentru piața din România, Yamada e o alternativă la Wilden și Sandpiper pe segmentul pompelor AODD, cu accent pe puritate și certificări.
+    headquarters: "Tokyo, Japonia",
+    overview: `Yamada este un producător cu rădăcini japoneze, activ din 1905, cunoscut pentru pompele pneumatice cu membrană (AODD) din seria NDP, cu sediul central la Tokyo și cu filiala Yamada America (înființată în 1986) la Arlington Heights, Illinois. Gama de bază acoperă de la NDP-5 (port de 0,25", 3,4 gpm) până la NDP-80/800 (port de 3", 305 gpm), completată de seria de înaltă puritate DP-F (DP-5F până la DP-38F) pentru aplicații unde contaminarea trebuie evitată strict. Pentru piața din România, Yamada e o alternativă la Wilden și Sandpiper pe segmentul pompelor AODD, cu accent pe puritate și certificări.
 
 Ce diferențiază seria DP-F e electro-polizarea și designul dedicat industriilor cu cerințe FDA, farmaceutice sau electronice, unde reziduurile de suprafață pot compromite produsul final. Gama standard NDP oferă și variante SolidPRO pentru solide, pompe de înaltă presiune și modele certificate UL/CSA pentru piața nord-americană, cu certificare ISO 9001 la nivel de companie. În aceeași categorie de pompe AODD japoneze/americane, Yamada concurează cu Wilden și Sandpiper, ambele acoperind game de dimensiuni similare.
 
@@ -271,10 +271,10 @@ Pentru un cumpărător din România, Yamada are sens acolo unde puritatea lichid
       "Serie dedicată de înaltă puritate DP-F, electro-polizată, pentru aplicații farmaceutice, electronice și alimentare",
       "Certificări recunoscute — ISO 9001 la nivel de companie, plus modele UL Listed și CSA Certified",
       "Variante specializate SolidPRO pentru lichide cu solide și modele de înaltă presiune în aceeași familie NDP",
-      "Peste un secol de activitate în fabricația de pompe, cu prezență directă pe piața nord-americană"
+      "Companie înființată în 1905, cu filială proprie pentru piața americană (Yamada America, din 1986)"
     ],
     keyProducts: [
-      { name: "Seria NDP-15/NDP-20/NDP-25", description: "Segmentul mediu al gamei NDP, cu port de fluid de la 0,5\" (NDP-15, 13,5 gpm) la 1\" (NDP-25, până la 46,2 gpm). Reprezintă dimensiunile cele mai des solicitate pentru transfer industrial general — vopsele, adezivi, produse chimice de proces — unde debitul mediu și portabilitatea contează mai mult decât capacitatea maximă." },
+      { name: "Seria NDP-15/NDP-20/NDP-25", description: "Segmentul mediu al gamei NDP, cu port de fluid de la 0,5\" (NDP-15, 13,5 gpm) la 1\" (NDP-25, până la 46,2 gpm). Sunt dimensiuni potrivite pentru transfer industrial general — vopsele, adezivi, produse chimice de proces — unde debitul mediu și portabilitatea contează mai mult decât capacitatea maximă." },
       { name: "Seria NDP-40/NDP-50/NDP-80", description: "Segmentul de debit mare al gamei, cu port de fluid de la 1,5\" (NDP-40, 107 gpm) la 3\" (NDP-80/800, 305 gpm). Recomandată pentru transfer de volum ridicat în instalații industriale sau stații de tratare, unde o singură pompă trebuie să acopere un debit pe care variantele mici NDP nu îl pot atinge." },
       { name: "Seria De Înaltă Puritate DP-F", description: "Familie de pompe electro-polizate pentru aplicații unde contaminarea de suprafață trebuie evitată strict, de la DP-5F la DP-38F, plus variante speciale precum DP-C25F. Utilizate în farmaceutică, electronică sau cosmetică, acolo unde o pompă AODD standard nu îndeplinește cerințele de curățenie ale procesului." },
       { name: "Modele Specializate SolidPRO și Înaltă Presiune", description: "Variante ale gamei NDP adaptate pentru lichide cu conținut de solide (SolidPRO) sau pentru aplicații care necesită presiune de refulare mai mare decât standardul AODD. Completează portofoliul acolo unde nici seria de bază, nici seria de înaltă puritate nu acoperă cerința specifică a procesului." }
@@ -284,13 +284,13 @@ Pentru un cumpărător din România, Yamada are sens acolo unde puritatea lichid
       "Electronică — manipulare fluide de proces fără contaminare de suprafață",
       "Energie alternativă și baterii — inclusiv aplicații pentru litiu și EV",
       "Chimie și vopsele/acoperiri — transfer industrial general cu seria NDP",
-      "Alimentar și bere/vin — pompe cu certificare FDA din gama standard",
+      "Alimentar și bere/vin — pompe conforme cerințelor FDA, conform producătorului",
       "Petrol și gaze, minerit — variante de proces industrial general"
     ],
     certifications: [
       "ISO 9001 — sistem de management al calității la nivel de companie",
       "UL Listed / CSA Certified — pentru modele destinate pieței nord-americane",
-      "FDA — pentru variantele dedicate industriei alimentare"
+      "Conformitate cu cerințele FDA — conform producătorului, pentru variantele destinate industriei alimentare"
     ],
     infinitrade: `Aducem pompe Yamada din seria NDP și seria de înaltă puritate DP-F prin canale de aprovizionare din UE și SUA, la comandă. Pentru acest brand lucrăm din surse publice ale producătorului, fără date proprii de stoc, și confirmăm fiecare configurație (dimensiune port, material, certificare) cu rețeaua de distribuție Yamada înainte de ofertă. Livrarea efectivă durează, orientativ, 1–4 săptămâni din momentul confirmării comenzii. Pentru o ofertă corectă precizați lichidul pompat, dimensiunea portului dorită, dacă e nevoie de certificare UL/CSA sau FDA și dacă aplicația impune electro-polizare (seria DP-F). Nu promitem disponibilitate din depozit pe variantele de înaltă puritate.`,
     limitation: "Nu putem confirma disponibilitatea imediată a variantelor DP-F electro-polizate sau a certificărilor specifice de proiect fără verificare directă cu rețeaua de distribuție Yamada.",
@@ -307,19 +307,19 @@ Pentru un cumpărător din România, Yamada are sens acolo unde puritatea lichid
       { code: "DP-10F", description: "Pompă de înaltă puritate, dimensiune medie-mică" },
       { code: "DP-20F", description: "Pompă de înaltă puritate, dimensiune medie" },
       { code: "DP-25F", description: "Pompă de înaltă puritate, dimensiune medie-mare" },
-      { code: "DP-38F", description: "Pompă de înaltă puritate, cea mai amplă din seria F" },
+      { code: "DP-38F", description: "Pompă de înaltă puritate din seria F" },
       { code: "DP-C25F", description: "Variantă specială a seriei de înaltă puritate" }
     ],
     faq: [
       { q: "Ce produce Yamada?", a: "Yamada produce pompe pneumatice cu membrană (AODD) din seria NDP, în dimensiuni de la port 0,25\" la 3\", plus o serie dedicată de înaltă puritate (DP-F), electro-polizată, pentru aplicații farmaceutice, electronice și alimentare." },
       { q: "Cum aleg dimensiunea potrivită dintr-o pompă Yamada?", a: "Dimensiunea se alege după debitul necesar și diametrul conexiunii disponibile: gama NDP acoperă de la 3,4 gpm (NDP-5) la 305 gpm (NDP-80), iar pentru cerințe de puritate strictă se alege seria DP-F în locul seriei standard." },
-      { q: "Ce certificări are gama Yamada?", a: "Compania are certificare ISO 9001 la nivel general, iar modelele destinate pieței nord-americane pot fi UL Listed sau CSA Certified; variantele pentru alimentar au și certificare FDA." },
+      { q: "Ce certificări are gama Yamada?", a: "Compania are certificare ISO 9001 la nivel general, iar modelele destinate pieței nord-americane pot fi UL Listed sau CSA Certified; variantele pentru industria alimentară sunt indicate de producător ca fiind conforme cerințelor FDA." },
       { q: "Livrați pompe Yamada în România și cât durează?", a: "Da, aducem pompe Yamada la comandă prin canale de aprovizionare din UE și SUA, cu un termen orientativ de 1–4 săptămâni, în funcție de configurația confirmată cu producătorul." }
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Yamada Pump – Home", url: "https://www.yamadapump.com/", publisher: "Yamada Corporation", accessed: "2026-09-22" },
       { title: "Yamada Pump – Products", url: "https://www.yamadapump.com/products", publisher: "Yamada Corporation", accessed: "2026-09-22" }

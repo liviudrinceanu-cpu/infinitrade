@@ -371,7 +371,7 @@ Pentru un producător de componente auto sau un furnizor de nivel 2 din România
     headquarters: "Guastalla (Reggio Emilia), Italia",
     overview: `SAER Elettropompe este un producător italian de pompe electrice și motoare, cu sediul la Guastalla, în provincia Reggio Emilia, activ din 1951. Gama acoperă pompe de suprafață și submersibile pentru apă curată, pompe pentru ape reziduale cu conținut de solide, motoare electrice de suprafață și submersibile, și soluții speciale pentru eficiență energetică și desalinizare. Pentru piața din România putem oferta pompe și motoare din gama curentă, potrivite instalațiilor de irigații, alimentare cu apă și transfer industrial de fluide.
 
-Ce diferențiază SAER pe piața pompelor italiene e diversitatea configurațiilor de suprafață din propria gamă: pompe cu aspirație frontală, pompe în linie, pompe cu carcasă despicată axial, pompe multistadiu cu ax orizontal și pompe rezidențiale. Pe partea submersibilă, gama acoperă diametre de la 4 la 14 inch pentru foraje, plus configurația ENBLOC și seria BALLAST dedicată.
+Ce diferențiază SAER pe piața pompelor italiene e diversitatea configurațiilor de suprafață din propria gamă: pompe cu aspirație frontală, pompe în linie, pompe cu carcasă despicată axial, pompe multistadiu cu ax orizontal și pompe rezidențiale. Pe partea submersibilă, gama acoperă diametre de la 4 la 14 inch pentru foraje, plus seriile ENBLOC și BALLAST.
 
 Pentru o fermă, o stație de irigații sau un integrator din România, gama SAER înseamnă acces la pompe dimensionate pe aplicație — de la pompa rezidențială simplă până la pompa submersibilă de foraj de 14 inch — cu opțiunea de tablouri de comandă și invertoare pentru reglarea performanței în funcție de consum.`,
     whyChoose: [
@@ -386,14 +386,14 @@ Pentru o fermă, o stație de irigații sau un integrator din România, gama SAE
       { name: "Pompe cu Carcasă Despicată", description: "Pompe de suprafață cu carcasă despicată axial, pentru debite mai mari și mentenanță facilă — rotorul se poate accesa fără demontarea conductelor de aspirație și refulare." },
       { name: "Pompe Multistadiu", description: "Pompe cu ax orizontal și mai multe rotoare în serie, pentru aplicații care necesită înălțime de pompare ridicată la debite moderate, tipice pentru alimentarea cu apă la presiune constantă." },
       { name: "Pompe Rezidențiale", description: "Pompe de uz rezidențial, cu mai multe rotoare centrifuge, pentru presurizarea apei în locuințe sau clădiri mici, unde presiunea rețelei publice nu e suficientă." },
-      { name: "Pompe Submersibile pentru Foraje", description: "Gamă de pompe submersibile pe diametre de 4, 6, 8, 10, 12 și 14 inch, plus configurația ENBLOC monobloc și seria BALLAST, pentru extracția apei din foraje de adâncimi și debite diferite." }
+      { name: "Pompe Submersibile pentru Foraje", description: "Gamă de pompe submersibile pe diametre de 4, 6, 8, 10, 12 și 14 inch, plus seriile ENBLOC și BALLAST, pentru extracția apei din foraje de adâncimi și debite diferite." }
     ],
     industries: [
       "Agricultură — irigații și alimentare cu apă din foraje",
       "Construcții civile — presurizare și alimentare cu apă",
       "Industrie — transfer de fluide și răcire",
       "Minerit — pompare apă din exploatări",
-      "Marină și offshore — pompe submersibile și de balast"
+      "Marină și offshore — pompe submersibile"
     ],
     infinitrade: `Nu deținem date proprii despre producția SAER, doar ce confirmă sursele oficiale ale producătorului — pagina de produse și categoriile publicate acolo. Pompele și motoarele din gamă le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea disponibilității la fabrică. Pentru ofertă avem nevoie de aplicație (apă curată sau uzată, foraj sau suprafață), debitul dorit în m³/h, înălțimea de pompare și diametrul forajului, dacă e cazul. Nu putem confirma un termen mai scurt fără verificare prealabilă la producător.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (debit, înălțime de pompare, putere motor) pentru fiecare model din categoriile cu aspirație frontală, în linie, cu carcasă despicată, multistadiu sau submersibile, pentru că pagina de produse citată nu publică fișele tehnice complete — acestea se verifică punctual la ofertare.",
@@ -403,17 +403,17 @@ Pentru o fermă, o stație de irigații sau un integrator din România, gama SAE
       { code: "Rezidențiale", description: "Pompe centrifuge multicelulare, uz rezidențial" },
       { code: "Multistadiu", description: "Pompe multistadiu, ax orizontal" },
       { code: "Ape reziduale submersibile", description: "Pompe submersibile pentru ape reziduale" },
-      { code: "ENBLOC", description: "Pompă submersibilă monobloc" },
+      { code: "ENBLOC", description: "Serie de pompe submersibile pentru apă curată" },
       { code: "Submersibilă 4\"", description: "Pompă submersibilă pentru foraj 4 inch" },
       { code: "Submersibilă 6\"", description: "Pompă submersibilă pentru foraj 6 inch" },
       { code: "Submersibilă 8\"", description: "Pompă submersibilă pentru foraj 8 inch" },
       { code: "Submersibilă 10\"", description: "Pompă submersibilă pentru foraj 10 inch" },
       { code: "Submersibilă 12\"", description: "Pompă submersibilă pentru foraj 12 inch" },
       { code: "Submersibilă 14\"", description: "Pompă submersibilă pentru foraj 14 inch" },
-      { code: "BALLAST", description: "Pompă submersibilă dedicată balastului" },
-      { code: "Autoadescantă portabilă", description: "Pompă portabilă cu autoamorsare" },
-      { code: "Booster", description: "Pompă de presurizare pentru rețea" },
-      { code: "Piscină", description: "Pompă dedicată circulației apei de piscină" }
+      { code: "BALLAST", description: "Serie de pompe submersibile pentru apă curată" },
+      
+      
+      
     ],
     faq: [
       { q: "Ce produce SAER Elettropompe?", a: "SAER produce pompe electrice de suprafață și submersibile pentru apă curată și ape reziduale, plus motoare electrice și tablouri de comandă, din fabrica de la Guastalla, Reggio Emilia, Italia, activă din 1951." },

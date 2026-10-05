@@ -826,8 +826,8 @@ Pentru instalațiile din România, gama Spelsberg e relevantă la protejarea con
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Spelsberg – Official Website", url: "https://www.spelsberg.de/", publisher: "Gebr. Spelsberg GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Abzweigdosen/Abzweigkasten – Spelsberg", url: "https://www.spelsberg.de/abzweigdosen-abzweigkasten/", publisher: "Gebr. Spelsberg GmbH & Co. KG", accessed: "2026-09-22" },

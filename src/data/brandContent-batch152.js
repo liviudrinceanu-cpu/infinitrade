@@ -280,7 +280,7 @@ Pentru piața din România, TopWorx are sens la automatizarea robineților din i
     headquarters: "Cresco, Pennsylvania, SUA",
     overview: `Weiler Abrasives este un producător american de abrazive și perii industriale, cu sediul central la Cresco, Pennsylvania, SUA. Istoria companiei urcă până în 1944, când Karl E. Weiler a înființat Weiler Brush Company în Long Island, New York; producătorul s-a mutat la Cresco în 1957 și a extins gama spre abrazive lipite și pe suport prin achiziții succesive. Gama actuală acoperă discuri de tăiere și polizare, discuri lamelare, abrazive nețesute și o gamă largă de perii tehnice și de sârmă. Din această gamă putem oferta discurile abrazive și periile tehnice potrivite pentru atelierele de sudură și fabricație metalică.
 
-Ce diferențiază Weiler Abrasives este acoperirea celor patru categorii de bază — abrazive lipite, abrazive pe suport, abrazive nețesute și perii tehnice — sub linii proprii precum Tiger, Tiger Zirc, Tiger AO, Wolverine și CrossFlex. Discurile lamelare Tiger Zirc și discurile de tăiere Wolverine sunt disponibile în dimensiuni și granulații multiple, cu găuri de arbore standardizate, iar periile CrossFlex sunt gândite special pentru curățarea găurilor și alezajelor. Compania are din 2015 și o filială europeană dedicată, rezultată din achiziția SwatyComet, cu site propriu pentru piața EMEA.
+Ce diferențiază Weiler Abrasives este acoperirea celor patru categorii de bază — abrazive lipite, abrazive pe suport, abrazive nețesute și perii tehnice — sub linii proprii precum Tiger, Tiger Zirc, Tiger AO, Wolverine și CrossFlex. Discurile Tiger Zirc și discurile de tăiere Wolverine sunt disponibile în dimensiuni și granulații multiple, cu găuri de arbore standardizate, iar periile CrossFlex sunt gândite special pentru curățarea găurilor și alezajelor. Compania are din 2015 și o filială europeană dedicată, rezultată din achiziția SwatyComet, cu site propriu pentru piața EMEA.
 
 Pentru piața din România, Weiler Abrasives are sens la atelierele de sudură, fabricație metalică și mentenanță industrială, unde discurile de tăiere, periile de sârmă și abrazivele nețesute se consumă constant și trebuie înlocuite rapid. Alegerea produsului corect pornește de la materialul prelucrat, dimensiunea găurii de arbore și granulația necesară.`,
     whyChoose: [
@@ -292,7 +292,7 @@ Pentru piața din România, Weiler Abrasives are sens la atelierele de sudură, 
     ],
     keyProducts: [
       { name: "Abrazive Lipite — Discuri de Tăiere și Polizare", description: "Discuri de tăiere și polizare portabile, disponibile în linia Wolverine și în linia Tiger, cu diametre și grosimi multiple și găuri de arbore standardizate (ex. 1/4\", 20mm). Aplicație tipică: debitare și polizare metal în ateliere de fabricație și sudură." },
-      { name: "Abrazive pe Suport — Discuri Lamelare", description: "Discuri lamelare (flap discs) din linia Tiger Zirc, cu granulații multiple (ex. 60Z) și diametre de la câțiva țoli în sus, montate pe arbore prin gaură centrală filetată sau deschisă. Folosite pentru finisare și îndepărtare de material pe suprafețe metalice, ca alternativă mai flexibilă la discul de polizare rigid." },
+      { name: "Abrazive pe Suport — Discuri Lamelare", description: "Discuri abrazive pe suport, între care linia Tiger Zirc (de exemplu discuri din fibră rășinată RFD, grit 60Z), cu diametre de la câțiva țoli în sus; tipul exact (lamelar sau fibră rășinată), granulația și gaura de arbore se confirmă pe codul de produs. Folosite pentru finisare și îndepărtare de material pe suprafețe metalice, ca alternativă mai flexibilă la discul de polizare rigid." },
       { name: "Abrazive Nețesute — Discuri de Condiționare a Suprafeței", description: "Discuri și role nețesute pentru curățare, finisare și pregătirea suprafeței înainte de vopsire sau sudură, mai puțin agresive decât un disc abraziv lipit. Completează gama de discuri lamelare acolo unde e nevoie de o finisare mai fină, fără îndepărtare mare de material." },
       { name: "Perii Tehnice și de Sârmă", description: "Gamă largă de perii — cupe cu sârmă răsucită sau simplă, perii de tub (power tube), perii de mână pentru scărpinat și perii CrossFlex pentru curățarea alezajelor și găurilor. Disponibile în oțel, inox sau fibră, cu montaj pe filet sau ax, pentru curățare, decapare și pregătire de suprafață." },
     ],
@@ -307,11 +307,11 @@ Pentru piața din România, Weiler Abrasives are sens la atelierele de sudură, 
     limitation: "Nu putem confirma echivalențe exacte de granulație sau de duritate față de alte mărci de abrazive fără codul de produs Weiler.",
     productCodes: [
       { code: "44089", description: "perie acid/flux 3/8\", fir din păr de cal" },
-      { code: "36213", description: "perie cupă Wolverine cu sârmă răsucită inox 4\", filet 5/8\"-11" },
-      { code: "13240", description: "perie cupă cu sârmă răsucită 3\", fir oțel .014\", filet M10x1.25" },
+      { code: "36213", description: "perie circulară Wolverine cu sârmă răsucită în noduri din inox 4\", filet 5/8\"-11" },
+      { code: "13240", description: "perie cupă cu sârmă ondulată (crimped) 3\", fir oțel .014\", filet M10x1.25" },
       { code: "70215", description: "mătură de sârmă 16\", fir rotund" },
       { code: "21181", description: "perie de tub 7/16\", fir inox .005\", lungime 1\"" },
-      { code: "59734", description: "disc din linia Tiger Zirc (tipul se confirmă pe codul de produs), 4-1/2\", grit 60Z, gaură arbore 7/8\"" },
+      { code: "59734", description: "disc din fibră rășinată (RFD) din linia Tiger Zirc, 4-1/2\", grit 60Z, gaură arbore 7/8\"" },
       { code: "12816", description: "perie cupă cu un rând de sârmă 6\", fir oțel .023\", filet 5/8\"-11" },
       { code: "34179", description: "perie CrossFlex pentru alezaje, diametru 20mm, grit 180SC" },
       { code: "57094", description: "disc de tăiere Tiger AO 14\"x1/8\", A30S, gaură 20mm, viteză mare" },

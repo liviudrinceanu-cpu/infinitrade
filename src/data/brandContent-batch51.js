@@ -254,21 +254,21 @@ Pentru piața din România, SUCO este relevant pentru instalații hidraulice mob
     headquarters: "Koblenz, Germania",
     overview: `Stabilus este un producător german de arcuri cu gaz, amortizoare hidraulice și sisteme electrice de acționare liniară, cu sediul la Koblenz, unde compania a fost înființată în 1934. Gama acoperă arcuri cu gaz nezăvorâte (Lift-O-Mat), arcuri cu gaz blocabile (Bloc-O-Lift, Kombi-Lift), amortizoare de mișcare și vibrații (Stab-O-Shoc) și sisteme electromecanice de acționare (Industrial Powerise). Putem oferta din gama Stabilus componente de control al mișcării pentru mașini industriale, mobilier tehnic și echipamente medicale.
 
-Ce diferențiază Stabilus e acoperirea completă a controlului mișcării — de la simpla susținere a unui capac (Lift-O-Mat, „probabil cel mai de succes arc cu gaz din lume, după cum îl descrie producătorul") până la blocare rigidă în orice poziție (Bloc-O-Lift) și amortizare dedicată de vibrații (gama Stab-O-Shoc, seriile HD și GD, cu variante pentru sarcini joase și înalte). Sistemele Industrial Powerise (familia IPR35/IPR40) aduc acționare electrică sincronizabilă până la patru unități, cu forțe active de până la 5 kN la seria IPR40. În segmentul arcurilor cu gaz industriale, Stabilus concurează cu ACE Stoßdämpfer și cu Suspa.
+Ce diferențiază Stabilus e acoperirea completă a controlului mișcării — de la simpla susținere a unui capac (Lift-O-Mat) până la blocare rigidă în orice poziție (Bloc-O-Lift) și amortizare dedicată de vibrații (gama Stab-O-Shoc, seriile HD și GD, cu variante pentru sarcini joase și înalte). Sistemele Industrial Powerise (familia IPR35/IPR40) aduc acționare electrică, cu funcționare sincronă a până la patru unități la varianta IPR35 Smart și forțe de până la 5 kN la seria IPR40. În segmentul arcurilor cu gaz industriale, Stabilus concurează cu ACE Stoßdämpfer și cu Suspa.
 
 Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, echipamente medicale (paturi de spital, mese de operație) și mașini industriale care au nevoie de arcuri cu gaz sau amortizoare de schimb, precum și pentru integratorii care proiectează capace, uși de acces sau panouri de service ce trebuie susținute sau amortizate controlat.`,
     whyChoose: [
-      "Lift-O-Mat — gamă de arcuri cu gaz nezăvorâte disponibile, potrivit producătorului, în aproape orice mărime și forță",
+      "Lift-O-Mat — gamă de arcuri cu gaz nezăvorâte, cu variante cu amortizare hidraulică și cu compensare de temperatură",
       "Bloc-O-Lift oferă blocare atât elastică, cât și rigidă, montabilă în orice poziție, pentru aplicații medicale și de mobilier",
       "Gama Stab-O-Shoc acoperă atât amortizoare de poziție, cât și amortizoare de vibrații, pentru sarcini joase și înalte",
-      "Industrial Powerise aduce acționare electrică sincronă până la patru unități, cu limitator de curs integrat la seria IPR40",
+      "Industrial Powerise: varianta IPR35 Smart permite funcționarea sincronă a până la patru unități, iar seria IPR40 are limitatoare de cursă integrate",
       "Peste 90 de ani de la înființarea la Koblenz, în 1934, cu unități de producție în nouă țări prin grupul Stabilus"
     ],
     keyProducts: [
       { name: "Arcuri cu gaz Lift-O-Mat", description: "Arcuri cu gaz nezăvorâte, pentru susținerea controlată a capacelor, ușilor și panourilor de acces, cu amortizare hidraulică sau prin tehnologie „groove-in-the-tube\" și compensare de temperatură. Disponibile într-o gamă largă de forțe și lungimi. Aplicații: capote și portbagaje auto, uși tehnice, panouri de mentenanță industrială. Pentru ofertă, clientul indică forța necesară, cursa și tipul de capete de prindere." },
       { name: "Arcuri cu gaz blocabile Bloc-O-Lift / Kombi-Lift", description: "Arcuri cu gaz cu blocare elastică sau rigidă, unde poziția trebuie fixată ferm — paturi de spital, mese de operație, scaune rotative, mese de rulotă. Varianta cu ulei oferă forță de blocare mai mare decât cea elastică. Kombi-Lift combină funcțiile arcului blocabil și ale celui nezăvorât, printr-un canal special în tubul de presiune care permite blocarea selectivă pe cursă, de exemplu la hayoanele vehiculelor înalte. Pentru ofertă, clientul precizează forța de blocare, orientarea de montaj și tipul de eliberare." },
-      { name: "Amortizoare Stab-O-Shoc", description: "Amortizoare hidraulice de mișcare, oprire și vibrații, în serii pentru sarcini joase (HD 15, GD 15) și înalte (HD 24/29, GD 24/29), cu variante dependente de poziție sau cu forță de extensie (SP). Protejează la închiderea/deschiderea bruscă a capacelor. Aplicație: amortizarea capacelor grele pe utilaje și vehicule comerciale. Pentru ofertă, clientul indică sarcina, orientarea de montaj și nevoia de funcție de vibrații." },
-      { name: "Sisteme electrice Industrial Powerise", description: "Sisteme electromecanice de acționare liniară, familia IPR35 și IPR40, cu control extern sau integrat (Smart), pas de șurub 2-30 mm și forțe active de până la 5 kN la IPR40. Varianta Smart sincronizează până la patru unități prin CAN bus, cu conformitate EN ISO 13849-1. Pentru clapete și sisteme de deplasare unde arcul cu gaz nu oferă control suficient de poziție. Pentru ofertă, clientul precizează forța, cursa și nevoia de sincronizare." }
+      { name: "Amortizoare Stab-O-Shoc", description: "Amortizoare hidraulice de mișcare, oprire și vibrații, în serii pentru sarcini joase (HD 15, GD 15) și înalte (HD 24/29, GD 24/29), cu variante dependente sau independente de poziția de montaj, unele cu piston separator. Protejează la închiderea/deschiderea bruscă a capacelor. Aplicație: amortizarea capacelor grele pe utilaje și vehicule comerciale. Pentru ofertă, clientul indică sarcina, orientarea de montaj și nevoia de funcție de vibrații." },
+      { name: "Sisteme electrice Industrial Powerise", description: "Sisteme electromecanice de acționare liniară, familia IPR35 și IPR40, cu control extern sau integrat (Smart) și forțe de până la 2,5 kN la IPR35 și până la 5 kN la IPR40. Varianta IPR35 Smart permite funcționarea sincronă a până la patru unități, iar IPR40 Smart are control intern și conformitate EN ISO 13849-1; comunicația CAN bus este indicată de producător ca disponibilă ulterior. Pentru clapete și sisteme de deplasare unde arcul cu gaz nu oferă control suficient de poziție. Pentru ofertă, clientul precizează forța, cursa și nevoia de sincronizare." }
     ],
     industries: [
       "Auto și vehicule comerciale — arcuri cu gaz pentru capote, portbagaje, uși laterale",
@@ -278,7 +278,7 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
       "Feroviar și energie regenerabilă — amortizoare de vibrații, de exemplu pentru pantografe și module solare"
     ],
     infinitrade: `La Stabilus mergem strict pe ce publică producătorul — nu avem date proprii de stoc și spunem clar ce putem confirma din gamă. Aducem arcuri cu gaz, amortizoare și sisteme Powerise prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, clientul trimite codul de pe arcul existent (dacă e piesă de schimb) sau forța, cursa și tipul de capete de prindere pentru o aplicație nouă. Nu promitem disponibilitate permanentă din stoc — fiecare configurație se verifică individual înainte de confirmare.`,
-    limitation: "Nu putem confirma configurarea electronică a sistemelor Industrial Powerise Smart (parametrizare CAN bus) — aceasta rămâne în sarcina integratorului sau a service-ului tehnic al producătorului.",
+    limitation: "Nu putem confirma configurarea electronică a sistemelor Industrial Powerise Smart (parametrizare electronică) — aceasta rămâne în sarcina integratorului sau a service-ului tehnic al producătorului.",
     productCodes: [
       {
         "code": "LIFT-O-MAT PTL",
@@ -290,7 +290,7 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
       },
       {
         "code": "INTER-STOP",
-        "description": "Arc cu gaz cu valvă integrată pentru oprire în orice poziție"
+        "description": "Arc cu gaz din familia Lift-O-Mat, cu oprire în mai multe poziții"
       },
       {
         "code": "HYDRO-LIFT",
@@ -306,7 +306,7 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
       },
       {
         "code": "STAB-O-SHOC GD 15 SP",
-        "description": "Amortizor fără cursă liberă, funcționează în ambele direcții"
+        "description": "Variantă SP a seriei GD 15; detaliile constructive se confirmă pe cod, din documentația Stabilus"
       },
       {
         "code": "STAB-O-SHOC HD 24/29",
@@ -353,8 +353,8 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Stabilus - Lift-O-Mat Gas Springs","url":"https://www.stabilus.com/products/gas-springs/lift-o-mat","publisher":"Stabilus","accessed":"2026-09-25"},
       {"title":"Stabilus - Stab-O-Shoc Hydraulic Dampers","url":"https://www.stabilus.com/products/hydraulic-dampers/stab-o-shoc","publisher":"Stabilus","accessed":"2026-09-25"},

@@ -661,7 +661,7 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
       },
       {
         "code": "Vitocrossal 200 CM2",
-        "description": "Cazan în condensație cu schimbător cilindric, seria CM2"
+        "description": "Cazan în condensație cu schimbător de căldură Inox-Crossal din oțel inoxidabil și arzător cilindric MatriX (400-620 kW), seria CM2"
       },
       {
         "code": "Vitocrossal 300 (CR3B)",
@@ -673,7 +673,7 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
       },
       {
         "code": "Vitocrossal 300 (CT3U)",
-        "description": "Cazan în condensație de proces, variantă CT3U"
+        "description": "Cazan în condensație de putere mare (400-630 kW), pentru clădiri rezidențiale mari și comerciale, variantă CT3U"
       },
       {
         "code": "Vitocrossal 300 CM3",
@@ -724,8 +724,8 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Sitemap produse Viessmann România","url":"https://www.viessmann.ro/sitemap.xml","publisher":"Viessmann","accessed":"2026-09-26"},
       {"title":"Cazane industriale Viessmann","url":"https://www.viessmann.ro/ro/cunostinte/tehnologie-sistem/cazane-industriale.html","publisher":"Viessmann","accessed":"2026-09-26"},
@@ -1314,12 +1314,12 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
     headquarters: "Woonsocket, Rhode Island, SUA",
     overview: `Hanna Instruments e un producător de instrumente de măsură pentru calitatea apei și controlul de proces, fondat în 1978 la Padova, Italia, și organizat astăzi cu sediul central de grup la Woonsocket, Rhode Island. Gama acoperă pH-metre, conductometre, termometre, titratoare (mini-titratoare, potențiometrice și Karl Fischer), spectrofotometre și fotocolorimetre, instrumente multiparametru, oxigenometre, turbidimetre, refractometre și controlere pentru piscine și SPA din seria BL (BL131, BL132, BL136). Grupul are entitate proprie în România din 2006, cu sediul la Cluj-Napoca. Pentru clienții din România putem oferta instrumente din această gamă pentru laborator sau control de proces.
 
-Diferența Hanna față de un furnizor generalist de instrumentație stă în specializarea strictă pe chimia apei și a proceselor lichide: grupul are 4 unități de producție și 3 centre de cercetare-dezvoltare distribuite în SUA, România, Italia și Mauritius, cu un catalog de peste 3.500 de produse și peste 1.500 de angajați la nivel global. Entitatea din România operează cu certificare ISO 9001:2015 pentru operațiunile de service.
+Hanna Instruments este specializat pe chimia apei și a proceselor lichide: grupul are 4 unități de producție și 3 centre de cercetare-dezvoltare distribuite în SUA, România, Italia și Mauritius, cu un catalog de peste 3.500 de produse și peste 1.500 de angajați la nivel global. Entitatea din România operează cu certificare ISO 9001:2015 pentru operațiunile de service.
 
 Pentru laboratoarele și instalațiile de proces din România — stații de epurare, procesare alimentară, acvacultură sau agricultură — gama Hanna Instruments acoperă atât instrumentele portabile de teren, cât și cele de proces montate permanent, cu avantajul unei prezențe locale de peste un deceniu care simplifică suportul tehnic și service-ul.`,
     whyChoose: [
       "Prezență proprie în România din 2006, cu sediu la Cluj-Napoca și certificare ISO 9001:2015 pentru service",
-      "Specializare exclusivă pe instrumentație pentru apă și procese lichide, cu peste 3.500 de produse în catalog",
+      "Specializare pe instrumentație pentru apă și procese lichide, cu peste 3.500 de produse în catalog",
       "4 unități de producție pe 3 continente, utile pentru continuitatea aprovizionării cu instrumente și consumabile",
       "Gamă completă de la instrumente portabile de teren la echipamente de proces montate permanent",
       "Peste patru decenii de experiență specializată, de la înființarea din 1978 la Padova"
@@ -1372,7 +1372,7 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       },
       {
         "code": "HI935005",
-        "description": "Instrument portabil din gama Hanna Instruments (detalii pe cod)"
+        "description": "Termometru portabil cu termocuplu tip K, cu domeniile de măsură -50,0 până la 199,9°C și 200 până la 1350°C"
       },
       {
         "code": "HI9828",
@@ -1380,7 +1380,7 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       },
       {
         "code": "HI9819X",
-        "description": "Tester portabil multiparametru din gama Hanna Instruments"
+        "description": "Familie de instrumente portabile Hanna Instruments (HI9819X); modelul exact se confirmă pe cod"
       },
       {
         "code": "HI9814",
@@ -1407,8 +1407,8 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Hanna Instruments România","url":"https://www.hannainst.ro","publisher":"Hanna Instruments","accessed":"2026-09-25"},
       {"title":"Hanna Instruments – pH-metre","url":"https://www.hannainst.ro/ph-metre","publisher":"Hanna Instruments","accessed":"2026-09-25"},

@@ -966,7 +966,7 @@ Pentru fabricile și fermele din România care folosesc motoare electrice pe sca
     headquarters: "Kyoto, Japonia",
     overview: `Nidec este un grup japonez de motoare electrice, cu sediul la Kyoto, fondat în 1973 sub numele Nippon Densan Corporation. Prin Nidec Motor Corporation, grupul produce motoare industriale de curent alternativ de putere mare, sub brandul U.S. MOTORS, inclusiv seria TITAN pentru aplicații industriale grele. Pentru piața din România putem oferta motoare industriale de mare putere din această gamă, pentru pompe, compresoare și utilaje de proces.
 
-Seria TITAN acoperă atât motoare verticale, precum TITAN 449 WPII, cu putere de până la 450 CP și protecție împotriva intemperiilor (WPII), cât și motoare orizontale din familia 5000/5800, construite conform standardului IEEE 841 pentru servicii severe, cu carcasă total închisă și răcire prin ventilator. Variantele cu carcasă din fontă turnată dintr-o singură bucată, precum TITAN 6813, reduc variațiile constructive și oferă performanță constantă în timp.
+Seria TITAN acoperă atât motoare verticale, precum TITAN 449 WPII, cu putere de până la 450 CP și protecție împotriva intemperiilor (WPII), cât și motoare orizontale din seriile TITAN 841 (construite conform standardului IEEE 841, cu carcasă total închisă și răcire prin ventilator), 5800 (carcasă total închisă cu răcire prin ventilator, pentru servicii severe) și 5000 (protecție ODP/WPI/WPII). Variantele cu carcasă din fontă turnată dintr-o singură bucată, precum TITAN 6813, reduc variațiile constructive și oferă performanță constantă în timp.
 
 Pentru instalații industriale din România cu pompe sau compresoare de putere mare — apă și ape uzate, minerit, petrol și gaze — seria TITAN oferă o alternativă construită după standarde de serviciu sever.`,
     whyChoose: [
@@ -977,8 +977,8 @@ Pentru instalații industriale din România cu pompe sau compresoare de putere m
       "Grup global cu producție dedicată motoarelor de mare putere, sub brandul U.S. MOTORS"
     ],
     keyProducts: [
-      { name: "TITAN 449 WPII — Motor vertical", description: "Motor vertical cu putere de până la 450 CP la 460V, cu protecție împotriva intemperiilor (Weather Protected II) și construcție rigidă pentru creșterea frecvenței critice Reed (RCF), în medie cu 12%, conform producătorului. Folosit la pompe verticale de mare putere. Clientul trebuie să indice puterea necesară, turația și tipul de cuplare cu pompa acționată." },
-      { name: "TITAN 5000/5800 — Motor orizontal severe duty", description: "Motor orizontal construit conform standardului IEEE 841 pentru servicii severe, cu carcasă total închisă și răcire prin ventilator, mai multe poziții de montaj și compatibilitate cu tălpi IEC 315. Folosit la pompe, compresoare, ventilatoare și utilaje de procesare a materialelor. Clientul trebuie să confirme puterea, turația și standardul de montaj necesar." },
+      { name: "TITAN 449 WPII — Motor vertical", description: "Motor vertical cu putere de până la 450 CP, cu protecție împotriva intemperiilor (Weather Protected II) și construcție rigidă pentru creșterea frecvenței critice Reed (RCF), în medie cu 12%, conform producătorului. Folosit la pompe verticale de mare putere. Clientul trebuie să indice puterea necesară, turația și tipul de cuplare cu pompa acționată." },
+      { name: "TITAN 5000/5800 — Motor orizontal severe duty", description: "Motoare orizontale din seriile TITAN 5000 (protecție ODP/WPI/WPII, montaj în mai multe poziții, compatibilitate cu tălpi IEC 315, API 547 la anumite modele) și TITAN 5800 (carcasă total închisă cu răcire prin ventilator, servicii severe). Standardul IEEE 841 este indicat de producător pentru seria TITAN 841. Folosit la pompe, compresoare, ventilatoare și utilaje de procesare a materialelor. Clientul trebuie să confirme puterea, turația și standardul de montaj necesar." },
       { name: "TITAN 6813 — Motor cu carcasă monobloc din fontă", description: "Motor cu carcasă din fontă turnată dintr-o singură bucată, pentru servicii industriale generale în apă, ape uzate, minerit și petrol și gaze, cu variații constructive reduse față de carcasele asamblate din mai multe piese." }
     ],
     industries: [
@@ -1001,7 +1001,7 @@ Pentru instalații industriale din România cu pompe sau compresoare de putere m
       },
       {
         "code": "TITAN 5813",
-        "description": "Motor vertical cu ramă din fontă, variantă extinsă"
+        "description": "Motor vertical cu ramă din fontă"
       },
       {
         "code": "TITAN 6813",
@@ -1068,8 +1068,8 @@ Pentru instalații industriale din România cu pompe sau compresoare de putere m
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"AC Motors","url":"https://acim.nidec.com/en/motors/usmotors/Products-And-Services/AC-Motors","publisher":"Nidec (US Motors)","accessed":"2026-09-22"},
       {"title":"Large AC TITAN","url":"https://acim.nidec.com/en/motors/usmotors/Products-And-Services/AC-Motors/Large-AC-TITAN","publisher":"Nidec (US Motors)","accessed":"2026-09-22"},

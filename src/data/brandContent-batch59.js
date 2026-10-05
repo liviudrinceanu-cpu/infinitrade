@@ -138,7 +138,7 @@ Pentru operatorii de apă, fermele cu irigații prin picurare sau aspersiune și
     headquarters: "Arzignano, Italia",
     overview: `Marelli Motori este un producător italian de motoare electrice și generatoare industriale, cu sediul la Arzignano, lângă Verona, parte din grupul britanic Langley Holdings din 2019. Gama acoperă motoare de inducție de uz industrial, generatoare sincrone pentru cogenerare și centrale hidro, precum și regulatoare automate de tensiune (AVR) pentru controlul generatoarelor. Pentru România putem oferta motoare și generatoare Marelli pentru aplicații de producție de energie și industrie grea.
 
-Puterea acoperită de gama Marelli merge până la aproximativ 13 MW, la tensiuni de până la 15 kV, cu unități care ajung la 50 de tone — dimensiuni tipice pentru generatoarele folosite în hidrocentrale și instalații de cogenerare. Seriile de generatoare MJB și MJH sunt completate de regulatoare de tensiune digitale D-Vo și E-Vo, plus alte modele de regulatoare, precum MGC I sau Mark XX. Pe segmentul motoarelor industriale, seria APF IE4 acoperă cerințele de eficiență energetică actuale, poziționând Marelli alături de Leroy-Somer și Brook Crompton, celelalte branduri de motoare electrice din portofoliul nostru.
+Puterea acoperită de gama Marelli merge până la aproximativ 13 MW, la tensiuni de până la 15 kV, cu unități care ajung la 50 de tone — dimensiuni tipice pentru generatoarele folosite în hidrocentrale și instalații de cogenerare. Seriile de generatoare MJB și MJH sunt completate de regulatoare de tensiune digitale D-Vo și E-Vo, plus alte modele de regulatoare, precum MGC I sau Mark XX. Pe segmentul motoarelor industriale, Marelli Motori oferă și seria APF, ale cărei caracteristici (inclusiv clasa de eficiență) se confirmă pe cod, din documentația producătorului.
 
 Pentru centrale de cogenerare, hidrocentrale mici și instalații industriale din România care au nevoie de generatoare sincrone sau motoare de inducție cu eficiență ridicată, gama Marelli oferă o alternativă verificată în peste un secol de prezență în sectorul marin și energetic.`,
     whyChoose: [
@@ -148,8 +148,8 @@ Pentru centrale de cogenerare, hidrocentrale mici și instalații industriale di
       "Parte din grupul Langley Holdings din mai 2019",
     ],
     keyProducts: [
-      { name: "Motoare Industriale Seria APF IE4", description: "Motoare de inducție trifazate cu clasă de eficiență IE4, pentru acționări industriale generale unde randamentul energetic este cerut explicit de proiect." },
-      { name: "Generatoare Sincrone MJB/MJH", description: "Generatoare sincrone pentru cogenerare, producție de energie și Oil&Gas, cu puteri care ajung până la aproximativ 13 MW și tensiuni de până la 15 kV." },
+      { name: "Motoare Industriale Seria APF", description: "Motoare industriale din seria APF, pentru acționări industriale generale; tipul constructiv și clasa de eficiență se confirmă pe cod, din documentația Marelli Motori." },
+      { name: "Generatoare Sincrone MJB/MJH", description: "Generatoare sincrone pentru cogenerare, producție de energie și Oil&Gas, cu puteri de până la 12.500 kVA (seriile MJB/MJH)." },
       { name: "Regulatoare de Tensiune D-Vo/E-Vo", description: "Regulatoare automate de tensiune digitale pentru controlul excitației generatoarelor sincrone." },
     ],
     industries: [
@@ -157,23 +157,23 @@ Pentru centrale de cogenerare, hidrocentrale mici și instalații industriale di
       "Producție de energie — generatoare pentru instalații de generare a energiei",
       "Petrol și gaze — motoare și generatoare pentru platforme și stații",
       "Marină — motoare și generatoare cu peste un secol de aplicații",
-      "Industrie generală — motoare de inducție seria APF IE4",
+      "Industrie generală — motoare industriale seria APF",
     ],
-    certifications: ["ATEX — Marelli: variante certificate pentru zone cu risc de explozie"],
+    certifications: ["ATEX — disponibilitatea variantelor pentru zone cu risc de explozie se confirmă pe cod, din documentația producătorului (Marelli)"],
     infinitrade: `Pentru Marelli Motori lucrăm pe baza materialelor publice ale producătorului, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și generatoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de puterea și configurația cerută. Pentru o ofertă corectă avem nevoie de puterea necesară, tensiunea de lucru, turația și aplicația (motor sau generator, cogenerare, hidro sau marină). Nu putem promite un termen mai scurt decât cel confirmat de fabrică la momentul comenzii.`,
     limitation: "Nu putem confirma disponibilitatea locală a service-ului de punere în funcțiune pentru generatoarele de putere mare fără o cerere transmisă direct producătorului.",
     productCodes: [
-      { code: "APF IE4", description: "Motor de inducție trifazat, clasă eficiență IE4" },
+      { code: "APF", description: "Motor industrial seria APF, date tehnice pe cod" },
       { code: "MXB-E", description: "Generator sincron pentru producție de energie" },
       { code: "MJB", description: "Generator sincron pentru cogenerare și producție de energie" },
       { code: "MJH", description: "Generator sincron pentru aplicații de putere mare" },
       { code: "MGC I", description: "Regulator de tensiune (AVR)" },
       { code: "MEC 20", description: "Regulator de tensiune (AVR) pentru generatoare" },
       { code: "MEC 100", description: "Regulator de tensiune (AVR), variantă extinsă" },
-      { code: "Mark VX", description: "Regulator automat de tensiune" },
-      { code: "Mark XX", description: "Regulator automat de tensiune, model consacrat" },
+      { code: "Mark VX", description: "Regulator automat de tensiune analogic" },
+      { code: "Mark XX", description: "Regulator automat de tensiune analogic" },
       { code: "D-Vo", description: "Regulator de tensiune digital" },
-      { code: "E-Vo", description: "Regulator de tensiune digital, generație recentă" },
+      { code: "E-Vo", description: "Regulator de tensiune digital" },
     ],
     faq: [
       { q: "Ce produce Marelli Motori?", a: "Marelli Motori produce motoare electrice de inducție și generatoare sincrone pentru energie, cogenerare și aplicații marine, alături de regulatoare automate de tensiune pentru controlul excitației generatoarelor." },
@@ -183,8 +183,8 @@ Pentru centrale de cogenerare, hidrocentrale mici și instalații industriale di
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Marelli Motori — Official Website", url: "https://www.marellimotori.com", publisher: "Marelli Motori", accessed: "2026-09-22" },
       { title: "Marelli Motori — Downloads / Product Catalogues", url: "https://www.marellimotori.com/downloads/", publisher: "Marelli Motori", accessed: "2026-09-22" },

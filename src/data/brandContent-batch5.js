@@ -886,13 +886,13 @@ Separatoarele centrifugale Armstrong (seriile DS) elimină condensul antrenat î
     founded: 1957,
     headquarters: 'Sesto Calende, Italia',
     employees: '750+',
-    overview: `Atos este un producător italian specializat în hidraulică industrială de precizie - valve proporționale, pompe, cilindri, electronice de comandă. Sistemele Atos se folosesc frecvent în prese hidraulice, injectoare plastic, mașini test din România, unde răspunsul dinamic și precizia lor sunt apreciate de utilizatori. Valvele servoproporționale direcționale din seria DLHZO-TE au traductor de poziție LVDT și electronică analogică integrată; conform catalogului Atos, pentru mărimea ISO 4401-06 timpul de răspuns este de maximum 15 ms, iar histerezisul de maximum 0,1%.
+    overview: `Atos este un producător italian specializat în hidraulică industrială de precizie - valve proporționale, pompe, cilindri, electronice de comandă. Sistemele Atos se folosesc în prese hidraulice, mașini de injecție a maselor plastice și bancuri de test, în aplicații care cer reglaj precis al presiunii, al debitului și al poziției. Valvele servoproporționale direcționale Atos, de exemplu cele din seria DLHZO, au traductor de poziție LVDT și electronică de comandă integrată; timpul de răspuns, histerezisul și debitul pe fiecare mărime se confirmă pe cod, din documentația Atos.
 
 Pompele cu pistoane axiale cu cilindree variabilă din seria PVPC au, conform catalogului Atos, cilindree între 29 și 160 cm³/rot și comenzi mecanice (compensator de presiune, reglaj în funcție de sarcină - load sensing, putere constantă) sau proporționale. La modelul PVPC-C-5073 (73 cm³/rot, cu compensator de presiune manual) cilindreea se reduce pe măsură ce presiunea din sistem se apropie de valoarea reglată, deci pompa consumă doar puterea cerută de sarcină, nu debitul maxim permanent.
 
 Electronica de comandă Atos seria E-ME-AC este un driver electronic în format Eurocard pentru valve proporționale fără traductor integrat; reglează curentul din solenoid și poate fi folosită în sisteme de reglare a presiunii, debitului sau poziției, în buclă deschisă sau închisă, cu semnal de referință de 0-5 V, ±5 V sau 4-20 mA. Certificare: ISO 9001, ISO 14001, directiva PED pentru componente presiune.`,
     whyChoose: [
-      'Răspuns dinamic rapid: valve servoproporționale DLHZO-TE cu timp de răspuns de maximum 15 ms și histerezis de maximum 0,1%, conform catalogului',
+      'Valve servoproporționale cu traductor de poziție LVDT, pentru reglaj precis al poziției și al debitului; performanțele dinamice se confirmă pe cod, din catalogul Atos',
       'Drivere electronice E-ME-AC pentru valve proporționale, utilizabile în sisteme de reglare în buclă deschisă sau închisă',
       'Eficiență energetică: pompe PVPC cu cilindree variabilă, care adaptează debitul la cerința sarcinii',
       'Gamă largă de componente hidraulice: valve, pompe, cilindri, filtre, grupuri hidraulice și drivere electronice',
@@ -902,11 +902,11 @@ Electronica de comandă Atos seria E-ME-AC este un driver electronic în format 
     keyProducts: [
       {
         name: 'Atos DLHZO Valve Proporționale Direcționale',
-        description: `Valve servoproporționale direcționale cu traductor de poziție LVDT și electronică analogică integrată, pentru reglaj precis al debitului și al direcției. Conform catalogului Atos, pentru mărimea ISO 4401-06 (DLHZO-TE): debit maxim 40 l/min la ΔP 70 bar, presiune maximă 350 bar la porturile P, A, B, timp de răspuns maximum 15 ms și histerezis maximum 0,1%. Mărimile mai mari și debitele lor maxime se confirmă pe cod, din documentația Atos. Aplicații tipice: reglarea vitezei și poziției cilindrilor hidraulici.`
+        description: `Valve servoproporționale direcționale cu traductor de poziție LVDT și electronică analogică integrată, pentru reglaj precis al debitului și al direcției. Conform site-ului Atos, valvele servoproporționale direcționale au variante în mărimi ISO 06–35, iar familiile cu manșon DLHZO/DLKZOR-TES (mărimile 06–10) ajung la debite de până la 130 l/min și presiune maximă de 350 bar. Timpul de răspuns, histerezisul și debitul pe fiecare mărime se confirmă pe cod, din documentația Atos. Aplicații tipice: reglarea vitezei și poziției cilindrilor hidraulici.`
       },
       {
         name: 'Atos PVPC Pompe cu Pistoane Axiale cu Cilindree Variabilă',
-        description: `Pompe cu pistoane axiale cu cilindree variabilă. Conform catalogului Atos, seria PVPC acoperă cilindree între 29 și 160 cm³/rot (mărimile 3029, 4046, 5073, 5090, 6140, 6160), cu presiuni continue de 250-350 bar în funcție de mărime. Comenzile mecanice disponibile sunt compensatorul de presiune manual (C) sau la distanță (R), reglajul în funcție de sarcină - load sensing (L) și puterea constantă (LW); există și variante cu comenzi proporționale de presiune, debit sau p/Q. Modelul PVPC-C-5073 are cilindreea de 73 cm³/rot și compensator de presiune manual (C).`
+        description: `Pompe cu pistoane axiale cu cilindree variabilă. Conform catalogului Atos, seria PVPC acoperă cilindree între 29 și 160 cm³/rot (mărimile 3029, 4046, 5073, 5090, 6140, 6160), cu presiuni maxime de 250-350 bar în funcție de mărime. Comenzile mecanice disponibile sunt compensatorul de presiune manual (C) sau la distanță (R), reglajul în funcție de sarcină - load sensing (L) și puterea constantă (LW); există și variante cu comenzi proporționale de presiune, debit sau p/Q. Modelul PVPC-C-5073 are cilindreea de 73 cm³/rot și compensator de presiune manual (C).`
       },
       {
         name: 'Atos E-ME-AC Driver Electronic pentru Valve Proporționale',
@@ -914,13 +914,13 @@ Electronica de comandă Atos seria E-ME-AC este un driver electronic în format 
       },
       {
         name: 'Atos CK Cilindri Hidraulici cu Tiranți',
-        description: `Cilindri hidraulici cu tiranți, conform ISO 6020-2, pentru aplicații industriale. Conform catalogului Atos, alezajele sunt între 25 și 200 mm, iar diametrele tijei între 12 și 140 mm; presiunea nominală este de 160 bar, iar cea maximă de 250 bar. Tija este din oțel aliat călit și revenit, cromată dur (minimum 0,020 mm). Garniturile sunt disponibile în variantele NBR + poliuretan sau FKM + PTFE (până la 120°C), cu amortizare fixă sau reglabilă și 11 stiluri standard de fixare.`
+        description: `Cilindri hidraulici cu tiranți, conform ISO 6020-2, pentru aplicații industriale. Conform site-ului Atos, alezajele sunt între 25 și 200 mm, iar presiunea maximă este de 250 bar. Tija, garniturile, amortizarea și stilurile de fixare disponibile se confirmă pe cod, din documentația Atos.`
       },
     ],
     certifications: [
       'ISO 9001:2015 (Sistem management calitate)',
       'ISO 14001:2015 (Management ambiental)',
-      'PED 2014/68/EU Categorie II-IV (Componente sub presiune)',
+      'PED 2014/68/EU (Componente sub presiune)',
       'ATEX Directive 2014/34/EU (Valve pentru zone explozive Ex)',
       'CE Marking conform Machinery Directive 2006/42/EC',
       'RoHS Directive 2011/65/EU',
@@ -1016,8 +1016,8 @@ Electronica de comandă Atos seria E-ME-AC este un driver electronic în format 
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul Atos în sursele citate.' },
     ],
   },

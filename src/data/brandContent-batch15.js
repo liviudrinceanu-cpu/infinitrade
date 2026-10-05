@@ -365,14 +365,14 @@ SKF oferă și unelte manuale de ungere, cartușe pre-umplute, unsori și uleiur
     founded: 1959,
     headquarters: 'Tokyo, Japonia',
     employees: '21,000+',
-    overview: `SMC Corporation este un producător important de pneumatică industrială la nivel mondial, cu o gamă de 12.000 de modele de bază și 880.000 de variante, conform producătorului. De la cilindri pneumatici simpli până la sisteme complete de control cu valve proporționale, senzori integrați și comunicare IO-Link, SMC oferă soluții pentru majoritatea aplicațiilor. 
+    overview: `SMC Corporation este un producător important de pneumatică industrială la nivel mondial, cu o gamă foarte largă de modele de bază și variante, conform producătorului. De la cilindri pneumatici simpli până la sisteme complete de control cu valve proporționale, senzori integrați și comunicare IO-Link, SMC oferă soluții pentru majoritatea aplicațiilor. 
 
 Componentele SMC se folosesc frecvent în automatizări - linii de ambalare, roboți pick-and-place, sisteme de prelucrare CNC, prese - iar utilizatorii apreciază gândirea de ansamblu: cilindrii au montaj standardizat ISO, valvele au conectică comună, senzorii se prind direct pe cilindru fără suporți suplimentari, furtunurile și fitingurile se montează rapid fără scule (one-touch). Timpul de asamblare se reduce, iar la mentenanță componenta defectă se poate schimba rapid, fără opriri lungi ale producției.
 
-SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aducem la comandă componente din gama SMC, pe baza codului exact sau a parametrilor aplicației dumneavoastră.`,
+SMC declară o rețea de aproximativ 400 de birouri de vânzări în peste 80 de țări. Pentru România, aducem la comandă componente din gama SMC, pe baza codului exact sau a parametrilor aplicației dumneavoastră.`,
 
     whyChoose: [
-      'Gamă extinsă de pneumatică: 12.000 de modele de bază, conform producătorului',
+      'Gamă extinsă de pneumatică, cu număr mare de modele de bază și variante, conform producătorului',
       'Durata de viață și fiabilitatea se consultă în cataloagele fiecărei serii',
       'Standardizare: cilindri conform ISO 6432 și ISO 15552, cu montaj standardizat',
       'Configurator online SMC pentru generarea codului de comandă; termenul de livrare îl confirmăm pe cod',
@@ -382,32 +382,32 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
 
     keyProducts: [
       {
-        name: 'Cilindri Pneumatici ISO (C85, C95, CA2, CDA2)',
-        description: `Cilindrele pneumatice SMC sunt workhorses-ul oricărei automatizări. Seriile standard ISO ale SMC sunt C85 (ISO 6432, cu corp rotund, diametre 8-25 mm), C96/CP96 (ISO 15552, cu tiranți, diametre 32-125 mm) și C95 (ISO 6431, cu tiranți, diametre 160-250 mm); presiunea maximă de lucru este de 1,0 MPa (10 bar), conform catalogului SMC. Construcție robustă: țeavă aluminiu anodizat dur, piston cu garnituri poliuretan rezistente, tija cromată și rectificată. Viteză ajustabilă prin șuruburi de reglaj debit integrate în capace. Magneți integrați pentru senzori reed sau Hall. Montaj versatil: prin flanșă anterioară/posterioară, prin picioare, prin clemă intermediară, prin filet tijă. Seria CA2 este un cilindru cu tiranți cu diametre de 40, 50, 63, 80 și 100 mm și amortizare pneumatică reglabilă la capete; pentru spațiu redus se folosește seria compactă C55 (ISO 21287, diametre 20-100 mm). Rezistență medie la coroziune standard, variante CG pentru medii agresive (tija inox, garnituri FKM). Certificări ATEX pentru zone Ex. Durată de viață ridicată în condiții normale de funcționare, conform specificațiilor producătorului. Configurator online SMC generează cod comandă instant pentru orice combinație diametru-cursă-montaj.`
+        name: 'Cilindri Pneumatici ISO (C85, C96/CP96, C95, CA2)',
+        description: `Cilindrii pneumatici SMC sunt componente de bază în automatizări. Seriile standard ISO ale SMC sunt C85 (ISO 6432, cu corp rotund, diametre 8-25 mm), C96/CP96 (ISO 15552, cu tiranți) și C95 (ISO 6431, cu tiranți), cu diametrele disponibile confirmate pe cod, din catalogul SMC; presiunea maximă de lucru este de 1,0 MPa (10 bar), conform catalogului SMC. Construcție robustă: țeavă aluminiu anodizat dur, piston cu garnituri poliuretan rezistente, tija cromată și rectificată. Viteză ajustabilă prin șuruburi de reglaj debit integrate în capace. Magneți integrați pentru senzori reed sau Hall. Montaj versatil: prin flanșă anterioară/posterioară, prin picioare, prin clemă intermediară, prin filet tijă. Seria CA2 este un cilindru cu tiranți cu diametre de 40, 50, 63, 80 și 100 mm și amortizare pneumatică reglabilă la capete; pentru spațiu redus se folosește seria compactă C55 (ISO 21287, diametre 20-100 mm). Rezistență medie la coroziune standard, variante CG pentru medii agresive (tija inox, garnituri FKM). Certificări ATEX pentru zone Ex. Durată de viață ridicată în condiții normale de funcționare, conform specificațiilor producătorului. Configurator online SMC generează cod comandă instant pentru orice combinație diametru-cursă-montaj.`
       },
       {
         name: 'Valve Electropneumatice (SY, VQ, VQZ)',
-        description: `Valvele electropneumatice SMC controlează fluxul de aer comprimat către actuatori. Seria SY pentru distribuție manifold (5 porturi, 2/3 poziții) compactă și modulară - adaugi secții pe aceeași bară fără modificări. Seria VQ4000/5000 (5 porturi, montaj pe placă de bază) este destinată performanței ridicate; debitul și timpul de răspuns se citesc în catalogul fiecărei serii. Seria VQZ cu valve individuale montabile pe panou sau direct pe echipament. Seriile VQ4000/5000 au bobine de 12 și 24 VDC, cu variantă cu consum redus (0,4 W) pentru alimentare continuă; clasa de protecție standard este IP40, cu opțiuni compatibile IP65 și IP67. Opțiuni de feedback: micro-switch integrat, led indicator, conector sub-base pentru senzori suplimentari. Comunicare fieldbus: EX600 (EtherCAT, EtherNet/IP, PROFINET, CC-Link), SI (DeviceNet, PROFIBUS). `
+        description: `Valvele electropneumatice SMC controlează fluxul de aer comprimat către actuatori. Seria SY pentru distribuție manifold (5 porturi, 2/3 poziții) compactă și modulară - adaugi secții pe aceeași bară fără modificări. Seria VQ4000/5000 (5 porturi, montaj pe placă de bază) este destinată performanței ridicate; debitul și timpul de răspuns se citesc în catalogul fiecărei serii. Seria VQZ cu valve individuale montabile pe panou sau direct pe echipament. Tensiunea bobinei, consumul, clasa de protecție și opțiunile pentru seriile VQ4000/5000 se confirmă pe cod, din catalogul SMC. Opțiuni de feedback: micro-switch integrat, led indicator, conector sub-base pentru senzori suplimentari. Comunicare fieldbus: EX600 (EtherCAT, EtherNet/IP, PROFINET, CC-Link), SI (DeviceNet, PROFIBUS). `
       },
       {
         name: 'Unități de Pregătire Aer (AC, AW)',
-        description: `Aerul comprimat industrial conține impurități (particule, apă condensată, ulei de la compresor) care reduc drastic durata de viață a componentelor pneumatice. Unitățile de pregătire SMC (FRL - Filter, Regulator, Lubricator) curăță, reglează presiunea și opțional adaugă ceață de ulei pentru ungerea componentelor. Seria AC modular combină filtru 5μm, regulator cu manometru și lubricator tip Venturi într-o singură unitate compactă. Seria AW este un filtru-regulator modular, care combină filtrarea cu reglarea presiunii într-o singură unitate; debitul, gradul de filtrare și capacitatea paharului depind de mărime și se confirmă pe cod, din catalogul SMC. Montaj direct pe panou sau pe șină DIN. Varianta "mist separator" pentru aplicații food/pharma unde uleiul e interzis - elimină până la 99.9% din ceața de ulei. Instalare tipică: câte o unitate FRL la fiecare mașină/celulă automată pentru presiune optimă și protecție locală.`
+        description: `Aerul comprimat industrial conține impurități (particule, apă condensată, ulei de la compresor) care reduc drastic durata de viață a componentelor pneumatice. Unitățile de pregătire SMC (FRL - Filter, Regulator, Lubricator) curăță, reglează presiunea și opțional adaugă ceață de ulei pentru ungerea componentelor. Seria AC modular combină filtru 5μm, regulator cu manometru și lubricator tip Venturi într-o singură unitate compactă. Seria AW este un filtru-regulator modular, care combină filtrarea cu reglarea presiunii într-o singură unitate; debitul, gradul de filtrare și capacitatea paharului depind de mărime și se confirmă pe cod, din catalogul SMC. Montaj direct pe panou sau pe șină DIN. Pentru aplicații alimentare sau farmaceutice, unde uleiul nu este admis, există separatoare de ceață de ulei; eficiența de filtrare se confirmă pe cod, din catalogul SMC. Instalare tipică: câte o unitate FRL la fiecare mașină/celulă automată pentru presiune optimă și protecție locală.`
       },
       {
         name: 'Grippere Pneumatice și Actuatoare Rotative',
-        description: `SMC produce game complete de grippere (clești) pneumatice pentru manipulare obiecte în automatizări. Seria MHZ2 este un gripper paralel cu ghidaj liniar integrat, cu diametre de 6 până la 40 mm, repetabilitate de ±0,01 mm (±0,02 mm la diametrele 32 și 40), forță de prindere de la 3,3 N (diametrul 6) la 254 N (diametrul 40) și curse de 4-14 mm (diametre 6-25) sau 22-30 mm (diametre 32-40), conform catalogului SMC. Seria MHZJ2 este varianta cu capac de protecție împotriva prafului, iar MHZL2 este varianta cu cursă lungă (diametre 10-25). Seria MKB face parte din familia de cilindri rotativi de fixare (rotary clamp) MK. Toate cu senzori magnetici integrați pentru detectare poziție deschis/închis, montaj direct pe brațe robot sau șine liniare SMC. Aplicații: alimentare mașini CNC, sortare produse, asamblare automată, palletizare. Certificări clean room ISO 14644 pentru variante în medii controlate.`
+        description: `SMC produce game complete de grippere (clești) pneumatice pentru manipulare obiecte în automatizări. Seria MHZ2 este un gripper paralel cu ghidaj liniar integrat; diametrele, repetabilitatea, forța de prindere și cursa se confirmă pe cod, din catalogul SMC. Seria MHZJ2 este varianta cu capac de protecție împotriva prafului, iar MHZL2 este varianta cu cursă lungă. Seria MKB face parte din familia de cilindri rotativi de fixare (rotary clamp) MK. Toate cu senzori magnetici integrați pentru detectare poziție deschis/închis, montaj direct pe brațe robot sau șine liniare SMC. Aplicații: alimentare mașini CNC, sortare produse, asamblare automată, palletizare. Certificări clean room ISO 14644 pentru variante în medii controlate.`
       }
     ],
 
     certifications: [
-      'ISO 9001 Quality Management',
-      'ISO 14001 Environmental Management',
-      'ISO 45001 Occupational Health & Safety',
+      'ISO 9001 — management al calității',
+      'ISO 14001 — management de mediu',
+      'ISO 45001 — sănătate și securitate în muncă',
       'ATEX/IECEx pentru produse în zone explozive',
-      'CE conformity pentru toate produsele comercializate în UE',
+      'Marcaj CE pentru produsele comercializate în UE, acolo unde directivele îl cer',
       'UL/CSA pentru piața nord-americană',
-      'Clean room certification ISO 14644 pentru aplicații pharma/electronics',
-      'FDA compliance pentru aplicații alimentare și medicale'
+      'Clasificare cameră curată conform ISO 14644, pentru seriile indicate de producător (aplicații farmaceutice și electronice)',
+      'Conformitate FDA doar la anumite serii (de exemplu furtunul din poliuretan HF2B-TU), conform producătorului'
     ],
 
     industries: [
@@ -423,7 +423,7 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
       'Lemn și mobilă (presare, șlefuire, vopsire)'
     ],
 
-    infinitrade: `Distribuim componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe cataloagele și configuratorul online publicate de producător pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 1–4 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimiteți-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
+    infinitrade: `Putem oferta componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe cataloagele și configuratorul online publicate de producător pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 1–4 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimiteți-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
     sources: [
       {"title":"SMC Corporation Homepage","url":"https://www.smcworld.com/en-jp/","publisher":"SMC Corporation","accessed":"2026-09-22"},
       { title: 'SMC Corporation – site oficial', url: 'https://www.smcworld.com/', publisher: 'SMC Corporation', accessed: '2026-09-22' },
@@ -453,7 +453,7 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
       },
       {
         "code": "EX600",
-        "description": "Sistem fieldbus de siguranță pentru comunicație"
+        "description": "Sistem de transmisie serială (fieldbus) cu master IO-Link pentru comunicație"
       },
       {
         "code": "VHA200-C06-X410",
@@ -491,7 +491,7 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
       },
       {
         "q": "Ce este sistemul fieldbus EX600 de la SMC?",
-        "a": "Este un sistem de comunicație fieldbus cu funcții de siguranță integrate, folosit pentru conectarea insulelor de valve și a modulelor de intrare/ieșire la rețeaua de automatizare a mașinii. Permite reducerea cablajului și diagnosticarea centralizată a stării componentelor pneumatice."
+        "a": "Este un sistem de transmisie serială (fieldbus) cu master IO-Link, folosit pentru conectarea insulelor de valve și a modulelor de intrare/ieșire la rețeaua de automatizare a mașinii. Permite reducerea cablajului și diagnosticarea centralizată a stării componentelor pneumatice."
       },
       {
         "q": "Livrați cilindri și valve SMC în România?",
@@ -506,8 +506,8 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
         "a": "Este o ventuză de vacuum cu suprafață antiderapantă, folosită la manipularea pieselor cu robotul sau la sisteme de ridicare pneumatică. Alegerea diametrului ventuzei depinde de greutatea piesei manipulate și de forma suprafeței de contact cu materialul ridicat."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'gsc-only'
   },
 

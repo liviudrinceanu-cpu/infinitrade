@@ -697,7 +697,7 @@ Pentru un integrator de instalații petrochimice sau de tratare a apei din Româ
     name: "Bardiani Valvole",
     headquarters: "Fornovo di Taro, Italia",
     founded: 1981,
-    overview: `Bardiani Valvole este un producător italian de valve igienice din inox, cu sediul la Fornovo di Taro, activ din 1981, producție integral realizată în Italia. Gama cuprinde valve cu scaun simplu, valve cu dublu scaun (mixproof), valve de înaltă presiune (până la 150 bar), valve fluture, valve cu bilă (inclusiv modelul VVS, cu conexiuni DN10 la DN100 și presiune de lucru de 25–100 bar pe circuitul principal), valve de reglare și soluții pentru sisteme de pigging. Pentru piața din România putem oferta din această gamă pe bază de diametru și presiune necesare.
+    overview: `Bardiani Valvole este un producător italian de valve igienice din inox, cu sediul la Fornovo di Taro, activ din 1981, producție integral realizată în Italia. Gama cuprinde valve cu scaun simplu, valve cu dublu scaun (mixproof), valve de înaltă presiune, valve fluture, valve cu bilă (inclusiv modelul VVS, cu conexiuni DN10 la DN100 și presiune de lucru de 25–100 bar pe circuitul principal), valve de reglare și soluții pentru sisteme de pigging. Pentru piața din România putem oferta din această gamă pe bază de diametru și presiune necesare.
 
 Ce diferențiază Bardiani e combinația dintre precizia constructivă a valvelor cu bilă (bila cu orificiu intern permite trecerea produsului fără restricții) și acoperirea completă a categoriilor sanitare — de la izolare simplă până la mixproof pentru linii cu produse diferite în paralel. Valva VVS, de exemplu, oferă variante cu două sau trei căi, cu garnituri FKM sau PTFE și certificare ATEX pentru zone cu risc de explozie. Pe segmentul valvelor igienice din inox, gama se compară cu Inoxpa.
 
@@ -706,13 +706,13 @@ Pentru un integrator de linii de procesare din industria alimentară, a băuturi
       "Producție integral realizată în Italia, cu peste 40 de ani de activitate declarați",
       "Valva VVS oferă variante cu două și trei căi, cu certificare ATEX pentru zone cu risc de explozie",
       "Gamă completă de valve mixproof pentru separarea strictă a circuitelor de produs",
-      "Valve de înaltă presiune, până la 150 bar, pentru aplicații speciale de proces",
+      "Valve de înaltă presiune pentru aplicații speciale de proces; presiunea maximă depinde de model și se confirmă pe cod",
       "Garnituri disponibile în FKM și PTFE, pentru compatibilitate chimică extinsă"
     ],
     keyProducts: [
       { name: "Valve cu Bilă VVS", description: "Valvă manuală cu bilă de precizie, cu orificiu intern care permite trecerea produsului fără restricții, potrivită pentru lichide vâscoase și cu particule în suspensie. Conexiuni DN10 până la DN100 (1/2\" la 4\"), presiune de lucru de 25–100 bar pentru varianta cu două căi și 16–40 bar pentru cea cu trei căi, garnituri FKM sau PTFE, certificare ATEX." },
       { name: "Valve cu Dublu Scaun (Mixproof)", description: "Valve cu două scaune independente, folosite pentru a separa strict două circuite de produs diferite pe aceeași linie, esențiale în instalații unde produsele nu trebuie să se amestece nici accidental, la schimbarea rețetei sau la curățare." },
-      { name: "Valve de Înaltă Presiune", description: "Familie de valve dedicate aplicațiilor de proces la presiuni ridicate, până la 150 bar, folosite acolo unde valvele sanitare standard nu ating presiunea de lucru necesară." },
+      { name: "Valve de Înaltă Presiune", description: "Familie de valve dedicate aplicațiilor de proces la presiuni ridicate, folosite acolo unde valvele sanitare standard nu ating presiunea de lucru necesară; presiunea maximă depinde de model." },
       { name: "Valve Fluture și Valve cu Scaun Simplu", description: "Gamă de bază pentru izolare și control de debit pe linii sanitare, complementară valvelor mixproof și de înaltă presiune, pentru aplicații unde separarea strictă a circuitelor nu e necesară." }
     ],
     industries: [
@@ -729,7 +729,7 @@ Pentru un integrator de linii de procesare din industria alimentară, a băuturi
     productCodes: [
       { code: "Single Seat Valves", description: "valve cu scaun simplu, izolare și control debit" },
       { code: "Double Seat / Mixproof Valves", description: "separare strictă a două circuite de produs" },
-      { code: "High Pressure Valves", description: "aplicații de proces, până la 150 bar" },
+      { code: "High Pressure Valves", description: "aplicații de proces la presiuni ridicate" },
       { code: "Butterfly Valves", description: "valve fluture pentru izolare sanitară" },
       { code: "Ball Valves", description: "valve cu bilă pentru trecere fără restricții" },
       { code: "Regulating Valves", description: "valve de reglare a debitului de proces" },
@@ -748,8 +748,8 @@ Pentru un integrator de linii de procesare din industria alimentară, a băuturi
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Bardiani Valvole — Home", url: "https://www.bardiani.com/en/", publisher: "Bardiani Valvole S.p.A.", accessed: "2026-09-25" },
       { title: "VVS - Bardiani Valvole", url: "https://www.bardiani.com/en/prodotto/vvs-en/", publisher: "Bardiani Valvole S.p.A.", accessed: "2026-09-25" },

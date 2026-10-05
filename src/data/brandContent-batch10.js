@@ -1001,46 +1001,46 @@ Klüber oferă suport tehnic prin specialiști proprii; serviciile disponibile (
     founded: 1980,
     headquarters: 'Hofheim am Taunus, Germania',
     employees: '500+',
-    overview: `Kobold Messring este producător german de instrumentație industrială pentru măsurarea și controlul debitului, nivelului, presiunii și temperaturii. De peste 40 de ani dezvoltă senzori și traductoare compacte, robuste și precise pentru aplicații de proces în chimie, petrochimie, farmaceutică, alimentară, tratare apă și automatizare industrială. 
+    overview: `Kobold Messring este producător german de instrumentație industrială pentru măsurarea și controlul debitului, nivelului, presiunii și temperaturii. Dezvoltă senzori și traductoare compacte, robuste și precise pentru aplicații de proces în chimie, petrochimie, farmaceutică, alimentară, tratare apă și automatizare industrială. 
 
-Filosofia Kobold este "Small Size - Big Performance": aparate compacte, cu dimensiuni reduse, care se încadrează în spații înguste dar oferă acuratețe și fiabilitate comparabile cu instrumentația de mari dimensiuni. Gama cuprinde debitmetre cu float variabil (rotametre), debitmetre cu ultrasunete și magneto-inductive, switchuri de nivel cu float magnetic, traductoare de presiune și senzori de temperatură; domeniile de măsură, temperatura și presiunea maximă diferă de la o serie la alta și se confirmă pe cod.
+Kobold își descrie activitatea prin trei direcții: măsurare, monitorizare și analiză. Gama cuprinde debitmetre cu float variabil (rotametre), debitmetre cu ultrasunete și magneto-inductive, switchuri de nivel cu float magnetic, traductoare de presiune și senzori de temperatură; domeniile de măsură, temperatura și presiunea maximă diferă de la o serie la alta și se confirmă pe cod.
 
 Kobold oferă o gamă largă de configurații standard plus posibilitatea de personalizare - alegeri de materiale (inox, Hastelloy, PTFE, PVDF), conexiuni proces, ieșiri semnal, limite alarmă. Integrarea în sisteme de control industriale se face prin ieșiri 4-20mA, 0-10V, HART, PROFIBUS, Modbus.`,
     whyChoose: [
       'Dimensiuni compacte - dimensiunile exacte sunt în fișa tehnică a fiecărui model',
       'Acuratețea depinde de serie și este indicată în fișa tehnică a fiecărui model',
       'Materiale: inox 316L, Hastelloy C, titan, PTFE, PVDF pentru medii agresive',
-      'Domenii de temperatură diferite pe serii - de exemplu până la 250°C la switchurile de nivel NGS, conform producătorului',
-      'Presiunea maximă depinde de serie - de exemplu 100 bar la switchurile de nivel MS, conform producătorului',
-      'Certificări ATEX/IECEx zona 0/1/2 - safe pentru atmosfere explozive'
+      'Domenii de temperatură diferite pe serii, indicate în fișa tehnică a fiecărui model',
+      'Presiunea maximă depinde de serie și este indicată în fișa tehnică a fiecărui model',
+      'Variante cu aprobări ATEX/IECEx pentru atmosfere explozive, conform documentației fiecărui model'
     ],
     keyProducts: [
       {
         name: 'Debitmetre cu float variabil (rotametre)',
-        description: 'Debitmetre mecanice cu tub conic și float, pentru lichide și gaze. Principiu: fluidul circulă prin tubul conic vertical și ridică floatul până când greutatea acestuia este echilibrată de forța de portanță, iar poziția floatului indică debitul pe scara gradată. Seriile (de exemplu BGN, BGF, KFR, VKM), domeniile de debit, acuratețea și limitele de temperatură și presiune diferă de la o serie la alta și se confirmă pe cod, din catalogul Kobold.'
+        description: 'Debitmetre mecanice cu tub conic și float, pentru lichide și gaze. Principiu: fluidul circulă prin tubul conic vertical și ridică floatul până când greutatea acestuia este echilibrată de forța de portanță, iar poziția floatului indică debitul pe scara gradată. Seriile, domeniile de debit, acuratețea și limitele de temperatură și presiune diferă de la o serie la alta și se confirmă pe cod, din catalogul Kobold.'
       },
       {
         name: 'Switchuri de nivel cu float magnetic',
-        description: 'Switchurile de nivel cu float magnetic detectează prezența lichidului în rezervoare, conducte, separatoare. Floatul conține un magnet permanent care, atunci când nivelul atinge un anumit punct, activează un contact reed din interiorul tubului etanș. Seriile (de exemplu M cu montaj superior și MS cu montaj lateral) diferă prin materiale, tipul de contact, temperatura maximă (150°C la seriile M și MS) și presiunea maximă (100 bar la seria MS); valorile exacte se confirmă pe cod. Aplicații: alarme de nivel minim/maxim, comanda pompelor, protecție la funcționarea fără lichid.'
+        description: 'Switchurile de nivel cu float magnetic detectează prezența lichidului în rezervoare, conducte, separatoare. Floatul conține un magnet permanent care, atunci când nivelul atinge un anumit punct, activează un contact reed din interiorul tubului etanș. Seriile diferă prin materiale, tipul de contact, montaj, temperatura maximă și presiunea maximă; valorile exacte se confirmă pe cod, din fișa tehnică Kobold. Aplicații: alarme de nivel minim/maxim, comanda pompelor, protecție la funcționarea fără lichid.'
       },
       {
         name: 'Traductoare presiune seria SEN/PAD',
-        description: 'Seria SEN este un traductor compact de presiune, iar seria PAD este un traductor de presiune diferențială cu HART. Domeniile de măsură, acuratețea, materialele membranei, ieșirile și certificările Ex diferă de la o serie la alta și se confirmă pe cod, din fișa tehnică Kobold.'
+        description: 'Traductoarele de presiune Kobold se aleg pe serie și model. Domeniile de măsură, acuratețea, materialele membranei, ieșirile și certificările Ex diferă de la o serie la alta și se confirmă pe cod, din fișa tehnică Kobold.'
       },
       {
         name: 'Senzori de nivel radar seria NRE',
-        description: 'Senzorii radar fără contact NRE folosesc frecvența de 80 GHz (banda W), în sistem cu 2 fire și HART. NRE-4 (Expert Line) măsoară până la 30 m cu acuratețe de ±2 mm, la temperaturi de proces de până la 180°C și presiuni de până la 40 bar; NRE-7 (Compact Line) măsoară până la 30 m (lichide), la până la 80°C și 3 bar. Pentru măsurarea prin ghid de undă există seria NGM. Celelalte caracteristici se confirmă pe cod.'
+        description: 'Senzorii de nivel radar fără contact din gama Kobold se aleg pe serie și model. Frecvența de lucru, domeniul de măsură, acuratețea, temperatura și presiunea de proces se confirmă pe cod, din fișa tehnică Kobold.'
       }
     ],
     certifications: [
       'ISO 9001:2015 - Management calitate certificat TÜV',
       'ATEX/IECEx - Certificare zona 0/1/2 gaz și praf',
-      'SIL 2 - Certificare funcțională siguranță IEC 61508',
+      'Aprobările specifice (de exemplu SIL, WHG, 3-A, FDA, NACE) depind de model și se confirmă pe cod, din documentația Kobold',
       'PED 2014/68/EU - Directive echipamente sub presiune',
-      'WHG - Aprobări germane depozitare substanțe poluante apă',
-      '3-A Sanitary - Certificare contact alimente',
-      'FDA - Aprobări SUA pentru pharma/food',
-      'NACE MR0175 - Rezistență H2S pentru oil & gas',
+      
+      
+      
+      
       'CE - conformitate pentru piața UE'
     ],
     industries: [
@@ -1142,8 +1142,8 @@ Kobold oferă o gamă largă de configurații standard plus posibilitatea de per
     ],
     evidenceClass: 'transactional',
     limitation: 'Nu efectuăm recalibrări acreditate pentru instrumentele Kobold și nu putem garanta disponibilitate neîntreruptă pentru toate configurațiile posibile.',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },

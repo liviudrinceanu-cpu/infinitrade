@@ -318,7 +318,7 @@ Pentru instalațiile din România, encoderele POSITAL au sens acolo unde poziți
     founded: 1976,
     overview: `Perle Systems este un producător de echipamente pentru rețele de dispozitive, conversie media și conectivitate IoT, activ din 1976. Gama acoperă console servers pentru administrarea la distanță a echipamentelor de rețea (seria IOLAN), routere celulare 5G/LTE, switch-uri industriale, convertoare de media pe fibră și extensoare pentru semnal serial sau Ethernet pe distanțe mari. Pentru piața din România putem oferta echipamente din gama de bază a producătorului, la comandă.
 
-Ce diferențiază Perle este acoperirea completă a nevoilor de conectare a unor echipamente mai vechi sau izolate la o rețea modernă — de la un simplu convertor de media pe fibră, până la un router celular pentru un site fără cablare fixă, cu management centralizat prin platformele proprii PerleCLOUD și PerleVIEW. La switch-urile industriale, puterea PoE disponibilă pe port depinde de model și o confirmăm pe cod, din fișa tehnică.
+Ce diferențiază Perle este acoperirea completă a nevoilor de conectare a unor echipamente mai vechi sau izolate la o rețea modernă — de la un simplu convertor de media pe fibră, până la un router celular pentru un site fără cablare fixă, cu management centralizat prin software-ul de management Perle (de exemplu PerleVIEW). La switch-urile industriale, puterea PoE disponibilă pe port depinde de model și o confirmăm pe cod, din fișa tehnică.
 
 Pentru instalațiile din România, echipamentele Perle au sens acolo unde trebuie conectat un echipament serial vechi la o rețea Ethernet, unde distanța de cablu depășește limitele normale de cupru, sau unde un site izolat are nevoie de conectivitate celulară de rezervă pentru monitorizare de la distanță.`,
     whyChoose: [
@@ -326,12 +326,12 @@ Pentru instalațiile din România, echipamentele Perle au sens acolo unde trebui
       "Console servers IOLAN pentru administrare out-of-band a echipamentelor de rețea",
       "Switch-uri industriale Ethernet pentru medii dure, cu specificații confirmate pe cod din fișa tehnică",
       "Routere celulare 5G/LTE pentru conectivitate de rezervă la site-uri izolate",
-      "Management centralizat prin platformele proprii PerleCLOUD și PerleVIEW"
+      "Management centralizat prin platforma proprie de management Perle, inclusiv PerleVIEW"
     ],
     keyProducts: [
       { name: "Console Servers IOLAN", description: "Servere de consolă pentru administrarea la distanță (out-of-band) a echipamentelor de rețea și a serverelor, folosite acolo unde administratorii trebuie să acceseze un echipament chiar și atunci când rețeaua principală e picată." },
-      { name: "Routere Celulare IRG7440 / IRG5000", description: "Routere celulare 5G și LTE pentru conectivitate de rezervă sau principală la site-uri fără cablare fixă disponibilă, utile pentru monitorizare de la distanță sau ca legătură de backup pentru echipamente critice." },
-      { name: "Switch Industrial IDS-710HP", description: "Switch Ethernet industrial; puterea PoE pe port și standardul acceptat depind de model și se confirmă pe cod, din fișa tehnică." },
+      { name: "Routere Celulare IRG7440 / IRG5500", description: "Routere celulare 5G și LTE pentru conectivitate de rezervă sau principală la site-uri fără cablare fixă disponibilă, utile pentru monitorizare de la distanță sau ca legătură de backup pentru echipamente critice." },
+      { name: "Switch-uri Industriale IDS", description: "Switch-uri Ethernet industriale din gama IDS (gestionate, PoE și negestionate); puterea PoE pe port și standardul acceptat depind de model și se confirmă pe cod, din fișa tehnică." },
       { name: "Convertoare Media pe Fibră și Extensoare", description: "Convertoare pentru extinderea rețelelor Ethernet pe fibră optică și extensoare pentru semnal serial sau RS485 pe distanțe mari, folosite pentru a conecta echipamente aflate la sute de metri distanță de dulapul principal de rețea." }
     ],
     industries: [
@@ -345,14 +345,14 @@ Pentru instalațiile din România, echipamentele Perle au sens acolo unde trebui
     productCodes: [
       { code: "IOLAN", description: "serie de console servers pentru management out-of-band" },
       { code: "IRG7440", description: "router celular industrial" },
-      { code: "IRG5000", description: "router celular pentru conectivitate la distanță" },
-      { code: "IDS-710HP", description: "switch industrial Ethernet; specificațiile PoE se confirmă pe cod" },
+      { code: "IRG5500", description: "router celular 4G LTE" },
+      { code: "IDS", description: "gama de switch-uri industriale Ethernet; specificațiile PoE se confirmă pe cod" },
       { code: "Fiber Media Converters", description: "convertoare media pentru extinderea rețelelor pe fibră" },
       { code: "Ethernet Extenders", description: "extensoare Ethernet pentru distanțe mari pe cablu de cupru" },
       { code: "Terminal Servers", description: "servere terminal pentru conectarea echipamentelor seriale la rețea" },
       { code: "Device Servers", description: "servere pentru conectarea dispozitivelor seriale la Ethernet" },
       { code: "Industrial Switches", description: "switch-uri Ethernet industriale pentru medii dure" },
-      { code: "PerleCLOUD", description: "platformă de management central în cloud" },
+      { code: "Central Management Platform", description: "platformă Perle de management central, în cloud sau local" },
       { code: "PerleVIEW", description: "software de management centralizat pentru dispozitive Perle" },
       { code: "DIN Rail Power Supplies", description: "surse de alimentare pentru montaj pe șină DIN" },
       { code: "Serial to Fiber Extenders", description: "extensoare pentru semnal serial pe fibră optică" },

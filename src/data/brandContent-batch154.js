@@ -280,22 +280,22 @@ Are sens pentru laboratoare de cercetare, echipe de mentenanță industrială ș
     headquarters: "Shelton, Connecticut, SUA",
     overview: `Hipotronics este un producător american de echipamente de testare de înaltă tensiune, parte a grupului Hubbell, cu sediul la Shelton, Connecticut. Gama acoperă sisteme de testare dielectrică AC și DC, testere hipot portabile, localizatoare de defecte de cablu și kilovoltmetre, folosite pentru verificarea izolației la transformatoare, cabluri, echipamente de comutație și mașini rotative. Din portofoliul Hipotronics putem oferta atât sistemele modulare de laborator, cât și instrumentele portabile pentru testare pe teren.
 
-Tehnic, gama se împarte pe capacitate de tensiune: sistemul modular 8000 Series produce între 60 și 300 kV DC prin module cascadabile de 60 kV/16 mA fiecare, sistemul UHVDC ajunge la 400–1800 kVDC pentru teste pe transformatoare și izolatori de foarte înaltă tensiune, iar sistemul AC 700-DI acoperă un domeniu larg de tensiune și putere pentru teste dielectrice conform standardelor internaționale din domeniu. La capătul portabil, testere precum 100HVT-DI (100 kV, ecran tactil color) sau localizatoare de defecte CF30/CF70 (30/70 kV) sunt gândite pentru lucru direct pe teren, nu în laborator fix.
+Tehnic, gama se împarte pe capacitate de tensiune: sistemul modular 8000 Series produce între 60 și 300 kV DC prin module cascadabile de 60 kV/16 mA fiecare, sistemul UHVDC este destinat testelor de foarte înaltă tensiune în curent continuu, cu tensiunile disponibile confirmate pe model, din documentația Hipotronics, iar sistemul AC 700-DI acoperă un domeniu larg de tensiune și putere pentru teste dielectrice conform standardelor internaționale din domeniu. La capătul portabil, testere precum 100HVT-DI (100 kV, ecran tactil color) sau localizatoare de defecte CF30/CF70 (30/70 kV) sunt gândite pentru lucru direct pe teren, nu în laborator fix.
 
 Are sens pentru laboratoare de înaltă tensiune, producători de echipamente electrice și companii de distribuție a energiei din România care testează izolația transformatoarelor, cablurilor sau echipamentelor de comutație înainte de punerea în funcțiune sau la verificări periodice ulterioare.`,
     whyChoose: [
       "Sistem modular 8000 Series, cascadabil de la 60 la 300 kV DC, pentru teste pe cabluri, echipamente de comutație și generatoare",
-      "Sistem UHVDC de până la 1800 kVDC, pentru teste pe transformatoare și izolatori de foarte înaltă tensiune",
+      "Sistem UHVDC pentru teste de foarte înaltă tensiune în curent continuu, cu configurația confirmată pe model",
       "Testere hipot portabile precum 100HVT-DI, cu ecran tactil color și transfer de date prin USB sau aplicație dedicată",
       "Localizatoare de defecte de cablu (CF30, CF70, X-WAVE) pentru identificarea rapidă a punctului de defect pe rețele de medie tensiune",
       "Parte din grupul Hubbell, prezent în peste 100 de țări",
     ],
     keyProducts: [
       { name: "Sistem Modular DC 8000 Series", description: "Sistem cascadabil de testare dielectrică DC, cu module individuale de 60 kV/16 mA și configurații de la 60 la 300 kV (8060PL până la 8300PL), folosit pentru teste hipot pe cabluri, switchgear, motoare și generatoare, cu polaritate reversibilă." },
-      { name: "Sistem Ultra Înaltă Tensiune UHVDC", description: "Sistem modular cu ieșiri de până la 1800 kVDC, cu configurația confirmată pe model, pentru teste de izolație pe transformatoare, bușoane și cabluri de foarte înaltă tensiune." },
+      { name: "Sistem Ultra Înaltă Tensiune UHVDC", description: "Sistem modular de testare de foarte înaltă tensiune în curent continuu, cu tensiunea și configurația confirmate pe model, pentru teste de izolație pe echipamente de foarte înaltă tensiune." },
       { name: "Sistem AC Dielectric 700-DI", description: "Sistem de testare AC cu tensiune de ieșire ajustabilă continuu, disponibil în mai multe game de putere, pentru teste dielectrice pe transformatoare, cabluri și aparataj de comutație conform standardelor din domeniu." },
-      { name: "Testere Hipot Portabile 100HVT-DI și 7BT60", description: "Testere portabile pentru teste dielectrice (hipot) — 100HVT-DI la 100 kV AC cu ecran tactil color, 7BT60 dedicat testării întrerupătoarelor cu vid la 60 kV — gândite pentru lucru pe teren, cu carcasă rezistentă." },
-      { name: "Localizatoare de Defecte de Cablu CF30/CF70 și X-WAVE", description: "Echipamente de tip thumper (CF30 la 30 kV, CF70 la 70 kV) și localizator portabil X-WAVE pentru identificarea punctului exact de defect pe cabluri de medie tensiune, reducând timpul de intervenție la rețelele subterane." },
+      { name: "Testere Hipot Portabile 100HVT-DI și 7BT60", description: "Testere portabile pentru teste dielectrice (hipot) — 100HVT-DI la 100 kV AC cu ecran tactil color, 7BT60 dedicat testării întrerupătoarelor cu vid, cu tensiunea de test confirmată pe model — gândite pentru lucru pe teren, cu carcasă rezistentă." },
+      { name: "Localizatoare de Defecte de Cablu CF30/CF70 și X-WAVE", description: "Echipamente de tip thumper (CF30 și CF70, cu tensiunile confirmate pe model) și localizator portabil X-WAVE pentru identificarea punctului exact de defect pe cabluri de medie tensiune, reducând timpul de intervenție la rețelele subterane." },
     ],
     industries: [
       "Producători de echipamente electrice — testarea izolației înainte de livrare",
@@ -322,7 +322,7 @@ Are sens pentru laboratoare de înaltă tensiune, producători de echipamente el
     ],
     faq: [
       { q: "Ce produce Hipotronics?", a: "Hipotronics produce sisteme de testare de înaltă tensiune AC și DC, testere hipot portabile și localizatoare de defecte de cablu, folosite pentru verificarea izolației la transformatoare, cabluri și echipamente de comutație." },
-      { q: "Cum aleg un sistem DC Hipotronics după kV necesar?", a: "Seria modulară 8000 acoperă 60–300 kV prin module cascadabile, iar sistemul UHVDC ajunge la 1800 kVDC pentru teste pe transformatoare și izolatori de foarte înaltă tensiune, în funcție de standardul de test aplicat." },
+      { q: "Cum aleg un sistem DC Hipotronics după kV necesar?", a: "Seria modulară 8000 acoperă 60–300 kV prin module cascadabile, iar pentru tensiuni mai mari există sistemul UHVDC, cu tensiunile disponibile confirmate pe model, în funcție de standardul de test aplicat." },
       { q: "Ce diferență este între testerul portabil 100HVT-DI și sistemul modular Hipotronics 8000 Series?", a: "100HVT-DI este un aparat compact de 100 kV pentru teste rapide pe teren, în timp ce seria 8000 este un sistem modular de laborator sau șantier, cascadabil până la 300 kV, pentru teste mai ample." },
       { q: "Livrați echipamente Hipotronics în România și cât durează?", a: "Aducem echipamentele Hipotronics la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, în funcție de configurația de tensiune și curent cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă de echipament Hipotronics?", a: "Tensiunea și curentul de test necesare, tipul de echipament testat (cablu, transformator, switchgear) și standardul aplicat, pentru a identifica sistemul potrivit din gamă și a pregăti oferta." },
@@ -422,11 +422,11 @@ Are sens pentru oțelării, turnătorii de aluminiu, fabrici de sticlă și cent
       { name: "Analizoare de Emisii FGA și Monitoare de Opacitate 4500 MkIII", description: "Analizor de gaze de ardere și monitor de opacitate, construite conform standardelor de mediu din domeniu, folosite pentru monitorizarea continuă a emisiilor la centrale și instalații industriale supuse raportării." },
     ],
     industries: [
-      "Oțelării — măsurarea temperaturii benzii și a țevilor pe linia de laminare",
+      "Oțelării — măsurarea temperaturii benzii pe linia de laminare",
       "Producția de aluminiu — control termic la turnare și laminare",
       "Industria sticlei — monitorizare termică pe linia de fabricație",
       "Energie și petrochimie — monitorizarea emisiilor și a temperaturii de proces",
-      "Extracția minereurilor — măsurare termică fără contact în medii dure",
+      "Operațiuni petrochimice — măsurare termică fără contact în medii dure",
     ],
     certifications: [ "ISO 17025 — laboratoare de calibrare acreditate" ],
     infinitrade: `Furnizăm pirometrele, camerele termice și analizoarele de emisii Land Instruments pe baza informațiilor publice ale producătorului — fără date proprii de stoc pentru aceste echipamente. Pentru o ofertă, avem nevoie de aplicația exactă (materialul măsurat, domeniul de temperatură, distanța de la senzor la țintă) pentru a identifica modelul SPOT+ sau camera termică potrivită. Livrarea se face la comandă, prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni.`,
@@ -450,7 +450,7 @@ Are sens pentru oțelării, turnătorii de aluminiu, fabrici de sticlă și cent
       { code: "WDG 1200", description: "Analizor de oxigen pentru monitorizare emisii" },
       { code: "4500 MkIII", description: "Monitor de opacitate pentru coșuri de fum" },
       { code: "4750-PM", description: "Monitor de particule pentru emisii" },
-      { code: "Millwatch", description: "Detector de monoxid de carbon pentru mori industriale" },
+      { code: "Millwatch", description: "Detector de monoxid de carbon" },
       { code: "Silowatch", description: "Detector de monoxid de carbon pentru silozuri" },
       { code: "Cyclops L", description: "Pirometru portabil de mână" },
       { code: "Landcal", description: "Sursă de calibrare tip corp negru" },

@@ -70,16 +70,16 @@ Pentru România, binder are sens acolo unde deja există echipamente cablate cu 
   'block-transformatoren-elektronik': {
     name: "Block Transformatoren-Elektronik",
     headquarters: "Verden, Germania",
-    overview: `Block Transformatoren-Elektronik este un producător german de transformatoare și componente pentru alimentare electrică, cu sediul la Verden și o istorie de peste 85 de ani în domeniu. Portofoliul acoperă transformatoare de comandă, de siguranță, de separare galvanică, autotransformatoare, transformatoare de rețea și transformatoare toroidale, alături de surse de alimentare în comutație, sisteme UPS și filtre pentru compatibilitate electromagnetică. Pentru un tablou electric sau o linie de automatizare din România, Block acoperă atât partea de alimentare de joasă tensiune, cât și filtrarea armonicilor generate de variatoarele de turație.
+    overview: `Block Transformatoren-Elektronik este un producător german de transformatoare și componente pentru alimentare electrică, cu sediul la Verden și o istorie de circa 85 de ani în domeniu. Portofoliul acoperă transformatoare de comandă, de siguranță, de separare galvanică, autotransformatoare, transformatoare de rețea și transformatoare toroidale, alături de surse de alimentare în comutație, sisteme UPS și filtre pentru compatibilitate electromagnetică. Pentru un tablou electric sau o linie de automatizare din România, Block acoperă atât partea de alimentare de joasă tensiune, cât și filtrarea armonicilor generate de variatoarele de turație.
 
-Ce diferențiază Block este acoperirea largă — de la transformatorul clasic bobinat, prin componente inductive de frecvență medie folosite în electronica de putere, până la module de redundanță pentru alimentări critice. Compania dezvoltă anual mii de produse, o parte semnificativă fiind soluții personalizate pentru clienți industriali, ceea ce arată o linie de producție flexibilă și nu doar un catalog fix. Comparativ cu producători mai generaliști de surse de alimentare, Block rămâne specializat pe partea de transformatoare și filtrare, cu accent pe fiabilitate în medii industriale grele.
+Ce diferențiază Block este acoperirea largă — de la transformatorul clasic bobinat, prin componente inductive de frecvență medie folosite în electronica de putere, până la module de redundanță pentru alimentări critice. Pe lângă gama standard, producătorul oferă și produse personalizate (custom-made) pentru clienți industriali. Comparativ cu producători mai generaliști de surse de alimentare, Block rămâne specializat pe partea de transformatoare și filtrare, cu accent pe fiabilitate în medii industriale grele.
 
 Pentru piața din România, Block are sens la retehnologizarea tablourilor electrice unde trebuie înlocuit un transformator de comandă defect sau adăugat un filtru EMC pentru un variator de turație nou montat, precum și în proiecte de automatizare unde alimentarea de 24V trebuie separată galvanic de rețea.`,
     whyChoose: [
-      "Peste 85 de ani de fabricație de transformatoare și componente de alimentare electrică pentru industrie",
+      "Circa 85 de ani de istorie în fabricația de transformatoare și componente de alimentare electrică pentru industrie",
       "Gamă completă, de la transformatoare de comandă și siguranță, până la autotransformatoare și transformatoare toroidale",
       "Filtre EMC și de armonici dedicate variatoarelor de turație, pentru reducerea perturbațiilor în rețeaua electrică",
-      "Producție cu componentă ridicată de soluții personalizate, utilă pentru cerințe electrice nestandard",
+      "Posibilitatea de produse personalizate (custom-made), utilă pentru cerințe electrice nestandard",
       "Module de redundanță și surse UPS pentru alimentări unde întreruperea nu este acceptabilă"
     ],
     keyProducts: [
@@ -124,8 +124,8 @@ Pentru piața din România, Block are sens la retehnologizarea tablourilor elect
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Block Transformatoren-Elektronik – Home", url: "https://www.block.eu/", publisher: "Block Transformatoren-Elektronik GmbH", accessed: "2026-09-25" },
       { title: "Transformatoren – Produkte", url: "https://www.block.eu/de_DE/produkte/transformatoren", publisher: "Block Transformatoren-Elektronik GmbH", accessed: "2026-09-25" }
@@ -598,15 +598,15 @@ Pentru România, HD Hyundai Electric are sens la proiecte de infrastructură ene
   },
   'hammond-power-solutions': {
     name: "Hammond Power Solutions",
-    overview: `Hammond Power Solutions este unul dintre cei mai mari producători de transformatoare uscate din America de Nord, cu activitate distinctă pentru piețele Americas, Asia și EMEA. Gama acoperă transformatoare de comandă și automatizare, transformatoare pentru izolarea acționărilor, filtre de armonici active și pasive, transformatoare de distribuție de joasă și medie tensiune, autotransformatoare și produse speciale sub comandă (OEM). Pentru un proiect electric din România, HPS acoperă atât alimentarea de bază a tablourilor, cât și problemele de calitate a energiei generate de variatoare de turație.
+    overview: `Hammond Power Solutions este un producător de transformatoare uscate din America de Nord, cu activitate distinctă pentru piețele Americas, Asia și EMEA. Gama acoperă transformatoare de comandă și automatizare, transformatoare pentru izolarea acționărilor, filtre de armonici active și pasive, transformatoare de distribuție de joasă și medie tensiune, autotransformatoare și produse speciale sub comandă (OEM). Pentru un proiect electric din România, HPS acoperă atât alimentarea de bază a tablourilor, cât și problemele de calitate a energiei generate de variatoare de turație.
 
-Ce diferențiază Hammond Power Solutions este acoperirea completă a gamei de tensiuni — de la transformatoare de comandă de putere mică, până la transformatoare de distribuție de medie tensiune izolate în rășină turnată (cast resin) sau impregnate sub vid (VPI), pentru clase de până la 46 kV. Seriile Sentinel K și Sentinel H sunt gândite special pentru sarcini neliniare (variatoare de turație, redresoare), reducând supraîncălzirea cauzată de armonici față de un transformator standard.
+Ce diferențiază Hammond Power Solutions este acoperirea completă a gamei de tensiuni — de la transformatoare de comandă de putere mică, până la transformatoare de distribuție de medie tensiune izolate în rășină turnată (cast resin, până la clasa 35 kV) sau impregnate sub vid (VPI, până la clasa 46 kV). Seriile Sentinel K și Sentinel H sunt gândite special pentru sarcini neliniare (variatoare de turație, redresoare), reducând supraîncălzirea cauzată de armonici față de un transformator standard.
 
 Pentru România, HPS are sens la proiecte industriale cu sarcini neliniare importante (variatoare de turație multiple), la stații de încărcare EV și la instalații care cer transformatoare de distribuție de medie tensiune.`,
     whyChoose: [
-      "Unul dintre cei mai mari producători de transformatoare uscate din America de Nord, cu game separate pentru joasă și medie tensiune",
+      "Producător de transformatoare uscate din America de Nord, cu game separate pentru joasă și medie tensiune",
       "Transformatoare Sentinel K și Sentinel H dedicate sarcinilor neliniare cu conținut ridicat de armonici",
-      "Transformatoare de distribuție de medie tensiune izolate în rășină turnată (cast resin) sau VPI, până la 46 kV",
+      "Transformatoare de distribuție de medie tensiune izolate în rășină turnată (cast resin, până la clasa 35 kV) sau VPI (până la clasa 46 kV)",
       "Linie dedicată transformatoarelor pentru stații de încărcare EV și pentru aplicații solare"
     ],
     keyProducts: [
@@ -630,24 +630,24 @@ Pentru România, HPS are sens la proiecte industriale cu sarcini neliniare impor
       { code: "Sentinel H", description: "Atenuare armonici pentru sarcini neliniare" },
       { code: "Sentinel Solar Duty", description: "Dedicat instalațiilor fotovoltaice" },
       { code: "Titan N", description: "Transformator încapsulat pentru medii dure" },
-      { code: "Titan (legacy)", description: "Variantă anterioară a liniei încapsulate" },
+      
       { code: "Fortress", description: "Transformator încapsulat pentru aplicații comerciale" },
-      { code: "Fortress (legacy)", description: "Variantă anterioară a liniei Fortress" },
+      
       { code: "Universal", description: "Transformator buck-boost pentru ajustare de tensiune" },
       { code: "Autotransformator trifazat 3-500 kVA", description: "Ajustări mici de tensiune între rețele" },
       { code: "Transformator distribuție cast resin", description: "Izolație în rășină turnată, medie tensiune" },
       { code: "Transformator VPI până la 46 kV", description: "Impregnare sub vid, medie tensiune" }
     ],
     faq: [
-      { q: "Ce produce Hammond Power Solutions?", a: "Hammond Power Solutions fabrică transformatoare uscate pentru aplicații de comandă, automatizare, distribuție de joasă și medie tensiune, plus produse dedicate sarcinilor neliniare (seriile Sentinel K și H), instalațiilor solare și stațiilor de încărcare EV. Este unul dintre cei mai mari producători de transformatoare uscate din America de Nord." },
+      { q: "Ce produce Hammond Power Solutions?", a: "Hammond Power Solutions fabrică transformatoare uscate pentru aplicații de comandă, automatizare, distribuție de joasă și medie tensiune, plus produse dedicate sarcinilor neliniare (seriile Sentinel K și H), instalațiilor solare și stațiilor de încărcare EV. " },
       { q: "Ce transformator Hammond Power Solutions aleg pentru un variator de turație?", a: "Pentru instalații cu variatoare de turație sau alte sarcini neliniare, seriile Sentinel K sau Sentinel H sunt dimensionate special pentru a suporta căldura suplimentară generată de armonici, spre deosebire de un transformator standard de uz general. Trimiteți-ne puterea instalată a variatoarelor și tensiunile de lucru pentru o recomandare corectă." },
       { q: "Livrați Hammond Power Solutions în România și cât durează?", a: "Aducem transformatoarele standard la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru transformatoare de medie tensiune sau configurații speciale, termenul de fabricație este stabilit direct de producător, în funcție de complexitatea proiectului." },
       { q: "Ce trebuie să trimit pentru o ofertă de transformatoare Hammond Power Solutions?", a: "Trimiteți puterea nominală necesară în kVA, tensiunile primare și secundare, tipul de sarcină conectată (liniară sau neliniară) și gradul de protecție dorit (deschis, încapsulat). Pentru medie tensiune, precizați și clasa de tensiune și tipul de izolație preferat." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hammond Power Solutions — Home", url: "https://americas.hammondpowersolutions.com/", publisher: "Hammond Power Solutions Inc.", accessed: "2026-09-25" },
       { title: "Low Voltage Distribution — HPS", url: "https://americas.hammondpowersolutions.com/products/low-voltage-distribution", publisher: "Hammond Power Solutions Inc.", accessed: "2026-09-25" }
@@ -718,19 +718,19 @@ Pentru România, Hongfa are sens la retehnologizarea tablourilor de automatizare
     headquarters: "Denzlingen, Germania",
     overview: `Hummel este un producător german de tehnică de conectare, cu sediul la Denzlingen și producție în orașul învecinat Waldkirch. Gama acoperă trei direcții principale: presetupe pentru cabluri (variante Ex, EMC, fără plumb, plastic și metal), conectori circulari (M12 Power, M16, M23, M27, M40) și soluții pentru instalații de apă potabilă și încălzire. Pentru o instalație electrică sau un tablou industrial din România, Hummel acoperă atât trecerea etanșă a cablurilor prin carcasă, cât și conectarea propriu-zisă a echipamentelor.
 
-Ce diferențiază Hummel este acoperirea foarte largă de dimensiuni pe conectorii circulari — de la M12 Power, cu 4 variante de codare (K, L, S, T) și curent de până la 16A, până la M40, capabil de până la 75A cu secțiune de conductor de până la 16 mm². Toate seriile principale sunt disponibile și în variantă din inox (AISI 316L), utilă în medii corozive, precum și în variantă cu cablu deja montat (moulded), care elimină operațiunea de asamblare manuală a conectorului.
+Ce diferențiază Hummel este acoperirea foarte largă de dimensiuni pe conectorii circulari — de la M12 Power, cu 4 variante de codare (K, L, S, T) și curent de până la 16A, până la M40, capabil de până la 75A cu secțiune de conductor de până la 16 mm². Există variante din inox (AISI 316L), utile în medii corozive, și variante cu cablu deja montat (moulded), care elimină operațiunea de asamblare manuală a conectorului; disponibilitatea pe fiecare serie se confirmă pe cod.
 
 Pentru România, Hummel are sens la echipamente industriale cu grad ridicat de protecție (IP67/IP69K), la instalații în medii corozive unde varianta inox e necesară și la instalații sanitare sau de încălzire care folosesc componentele lor de trecere a cablurilor.`,
     whyChoose: [
-      "Conectori circulari de la M12 Power (16A) până la M40 (75A), toți disponibili și în variantă inox AISI 316L",
+      "Conectori circulari de la M12 Power (16A) până la M40 (75A), cu variante inox AISI 316L pentru medii dure",
       "Presetupe pentru cabluri în variante Ex, EMC și fără plumb, pentru instalații cu cerințe speciale",
       "Variante moulded (cablu montat din fabrică) care elimină asamblarea manuală a conectorului pe teren",
       "Gama M23 modulară, cu carcasă și inserții combinabile pentru semnal, putere sau industrial Ethernet"
     ],
     keyProducts: [
-      { name: "Conectori Circulari M12 Power și M16", description: "M12 Power acoperă curenți de până la 16A și tensiuni de până la 630V, cu variante de codare K, L, S și T, cablu de 3-11mm și grade de protecție IP67/IP69K. M16 e conceput compact (diametru sub 20mm), disponibil cu 3, 6, 10 sau 12 pini, inclusiv variante hibride cu contacte de semnal și putere combinate, plus opțiune de blocare rapidă TWILOCK pentru montaj fără scule." },
+      { name: "Conectori Circulari M12 Power și M16", description: "M12 Power acoperă curenți de până la 16A și tensiuni de până la 630V, cu variante de codare K, L, S și T, cablu de 3-11mm și grade de protecție IP67/IP69K. M16 este un conector compact, disponibil în configurațiile 3, 4+3+PE, 6+PE, 10, 12+3 și 12+6, inclusiv variante hibride cu contacte de semnal și putere combinate, plus opțiune de blocare rapidă TWILOCK pentru montaj fără scule." },
       { name: "Conectori Circulari M23 și M27", description: "M23 e un sistem modular unde carcasa și inserția se pot combina în funcție de aplicație — semnal, putere, Ethernet industrial sau variante hibride — cu conectare prin filet sau prin sistemul rapid TWILOCK. M27 acoperă 26 sau 28 de pini, cu cablu de 7-17mm și contacte disponibile pentru sertizare, lipire sau montaj direct pe fir." },
-      { name: "Conectori Circulari M40", description: "M40 este dedicat curenților mari, până la 75A, cu secțiune de conductor de până la 16 mm² și cablu de 13-28mm, disponibil în variante IP67/IP69K și cu opțiune de contacte hibride (putere plus semnal) pentru echipamente care au nevoie de ambele tipuri de conexiune într-un singur conector." }
+      { name: "Conectori Circulari M40", description: "M40 este dedicat curenților mari, până la 75A, cu secțiune de conductor de până la 16 mm² și cablu de 13-28mm, disponibil și cu opțiune de contacte hibride (putere plus semnal) pentru echipamente care au nevoie de ambele tipuri de conexiune într-un singur conector." }
     ],
     industries: [
       "Automatizare industrială — conectori circulari pentru echipamente și utilaje",
@@ -742,7 +742,7 @@ Pentru România, Hummel are sens la echipamente industriale cu grad ridicat de p
     limitation: "Nu putem confirma compatibilitatea exactă cu un conector Hummel deja montat pe echipament, fără verificarea codului de referință de pe carcasă.",
     productCodes: [
       { code: "M12 Power", description: "Conector circular, curent până la 16A, IP67/IP69K" },
-      { code: "M16 3-pini", description: "Conector compact, diametru sub 20mm" },
+      { code: "M16 3-pini", description: "Conector compact" },
       { code: "M16 4+3+PE", description: "Conector hibrid semnal-putere" },
       { code: "M16 6+PE", description: "Conector cu 6 contacte plus împământare" },
       { code: "M16 10-pini", description: "Conector pentru semnal cu mai multe contacte" },
@@ -765,8 +765,8 @@ Pentru România, Hummel are sens la echipamente industriale cu grad ridicat de p
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hummel — Home", url: "https://www.hummel.com/en/", publisher: "Hummel AG", accessed: "2026-09-25" },
       { title: "Circular Connectors — Hummel", url: "https://www.hummel.com/en/circular-connectors/", publisher: "Hummel AG", accessed: "2026-09-25" }

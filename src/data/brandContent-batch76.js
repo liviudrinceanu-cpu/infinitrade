@@ -73,9 +73,9 @@ Pentru clienții din România relevanța vine din combinația unitate de putere 
   'dixon-valve': {
     name: "Dixon Valve",
     headquarters: "Chestertown, Maryland, SUA",
-    overview: `Dixon Valve fabrică cuple și fitinguri pentru transferul de fluide la Chestertown, Maryland, cu o gamă întinsă pe categorii precum cuplele cam-and-groove, fitingurile Boss pentru abur, King Crimp și fitingurile sanitare pentru industria alimentară. Catalogul acoperă și componente pentru gaz natural comprimat, racorduri de incendiu și accesorii pentru autocisterne. Pentru România putem oferta cuple hidraulice, adaptoare, fitinguri pneumatice și pentru furtunuri industriale, folosite la stațiile de alimentare, echipamentele agricole și liniile de proces.
+    overview: `Dixon Valve fabrică cuple și fitinguri pentru transferul de fluide la Chestertown, Maryland, cu o gamă întinsă pe categorii precum cuplele cam-and-groove, fitingurile Boss pentru abur, King Crimp și fitingurile sanitare pentru industria alimentară. Catalogul acoperă și racorduri de incendiu și accesorii pentru autocisterne. Pentru România putem oferta cuple hidraulice, adaptoare, fitinguri pneumatice și pentru furtunuri industriale, folosite la stațiile de alimentare, echipamentele agricole și liniile de proces.
 
-Ce diferențiază Dixon în categoria conexiunilor rapide e amploarea catalogului: peste douăzeci de familii de produse, de la cuple pentru gaz natural comprimat (CNG) până la accesorii pentru autocisterne și racorduri pentru furtunul de incendiu.  Materialele variază de la oțel și alamă la plastic și PTFE, în funcție de compatibilitatea chimică cerută de fluidul vehiculat.
+Ce diferențiază Dixon în categoria conexiunilor rapide e amploarea catalogului: peste douăzeci de familii de produse, de la fitinguri sanitare până la accesorii pentru autocisterne și racorduri pentru furtunul de incendiu.  Materialele variază de la oțel și alamă la plastic și PTFE, în funcție de compatibilitatea chimică cerută de fluidul vehiculat.
 
 Pentru instalațiile din România, Dixon înseamnă acces la o nomenclatură amplă de fitinguri și cuple standardizate, utile atunci când o linie existentă folosește deja conexiuni Dixon și trebuie completată sau reparată cu piese compatibile.`,
     whyChoose: [
@@ -83,7 +83,7 @@ Pentru instalațiile din România, Dixon înseamnă acces la o nomenclatură amp
       "Cuple cam-and-groove pentru conectare și deconectare rapidă fără scule, folosite pe scară largă în industrie",
       "Fitinguri sanitare pentru industria alimentară și farmaceutică, conforme cerințelor de igienă din procesare",
       "Gamă de materiale variată — oțel, alamă, plastic și PTFE — pentru compatibilitate cu fluide diferite",
-      "Componente pentru sectorul CNG și pentru autocisterne, utile la transportul de combustibili"
+      "Fitinguri pentru autocisterne, dintr-o categorie dedicată a catalogului"
     ],
     keyProducts: [
       { name: "Cuple Cam & Groove", description: "Cuple cu came și caneluri pentru conectare și deconectare rapidă, fără unelte, folosite la transferul de lichide industriale, apă și produse chimice compatibile. Construcție din aluminiu, oțel inoxidabil sau polipropilenă, în funcție de mediul de lucru. Soluție frecventă la cisterne, pompe mobile și linii temporare de transfer unde viteza de conectare contează." },
@@ -94,7 +94,7 @@ Pentru instalațiile din România, Dixon înseamnă acces la o nomenclatură amp
     industries: [
       "Industria alimentară și băuturi — fitinguri sanitare pentru linii de procesare",
       "Agricultură — cuple cam-and-groove pentru echipamente de irigație și transfer",
-      "Combustibili și CNG — cuple pentru gaz natural comprimat și autocisterne",
+      "Autocisterne — fitinguri din categoria Tank Truck Fittings",
       "Protecție la incendiu — racorduri și fitinguri pentru furtunul de incendiu",
       "Chimie și petrochimie — cuple din materiale compatibile cu fluide agresive"
     ],
@@ -106,7 +106,7 @@ Pentru instalațiile din România, Dixon înseamnă acces la o nomenclatură amp
       { code: "Cam & Groove", description: "Cuple cu came și caneluri pentru conectare rapidă" },
       { code: "Engineered Fluid Transfer Couplings", description: "Cuple inginerite pentru transfer de fluide" },
       { code: "Sanitary/Hygienic Fittings", description: "Fitinguri sanitare pentru industria alimentară" },
-      { code: "Holedall®", description: "Gamă Holedall® (soluții pentru panouri și cabluri, conform site-ului producătorului); aplicația exactă se confirmă pe cod" },
+      { code: "Holedall®", description: "Gamă Holedall® (categorie din catalogul producătorului); aplicația exactă se confirmă pe cod, din documentația Dixon" },
       { code: "Brass Fittings", description: "Fitinguri din alamă pentru aplicații generale" },
       { code: "Pipe, Weld, and Tube Fittings", description: "Fitinguri pentru țeavă, sudură și tub" },
       { code: "Plastic Fittings and Tubing", description: "Fitinguri și tuburi din plastic" },
@@ -120,10 +120,10 @@ Pentru instalațiile din România, Dixon înseamnă acces la o nomenclatură amp
       { code: "Washdown and Garden Hose Accessories", description: "Accesorii pentru furtun de spălare și grădină" },
       { code: "Clamps", description: "Coliere de strângere pentru furtunuri" },
       { code: "Loading Arms and Swivel Joints", description: "Brațe de încărcare și articulații rotative" },
-      { code: "CNG Quick Disconnect", description: "Cuple de deconectare rapidă pentru CNG" }
+      
     ],
     faq: [
-      { q: "Ce produce Dixon Valve?", a: "Dixon Valve fabrică cuple și fitinguri pentru transferul de fluide — cam-and-groove, fitinguri crimpate, racorduri sanitare, componente pentru CNG și pentru autocisterne. Sediul este la Chestertown, Maryland, iar gama acoperă peste douăzeci de familii de produse pentru industrii diferite, de la alimentar la petrochimie." },
+      { q: "Ce produce Dixon Valve?", a: "Dixon Valve fabrică cuple și fitinguri pentru transferul de fluide — cam-and-groove, fitinguri crimpate, racorduri sanitare, componente pentru autocisterne. Sediul este la Chestertown, Maryland, iar gama acoperă peste douăzeci de familii de produse pentru industrii diferite, de la alimentar la petrochimie." },
       { q: "Cum aleg o cuplă Dixon Valve pentru linia existentă?", a: "Trebuie confirmate diametrul conexiunii, materialul furtunului sau țevii și tipul de mediu vehiculat, pentru că fiecare familie Dixon (cam-and-groove, King Crimp, Boss) e dedicată unui tip de aplicație. Cel mai simplu e să trimiteți o poză sau codul de pe piesa existentă." },
       { q: "Ce echivalent au fitingurile Dixon Valve la Parker Hannifin?", a: "Echivalența exactă de cod față de produsele altui producător depinde de diametru, material și tipul conexiunii. Recomandăm confirmarea specificațiilor înainte de înlocuire." },
       { q: "Livrați Dixon Valve în România și cât durează?", a: "Da, aducem fitinguri și cuple Dixon Valve la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de codul exact și de confirmarea producătorului pentru materialul cerut." },
@@ -211,37 +211,37 @@ Pentru utilajele din România cu multe puncte de ungere greu accesibile — lini
     headquarters: "Parabiago, Italia",
     overview: `Duplomatic MS produce valve hidraulice, cilindri, pompe și actuatori electrici la Parabiago, lângă Milano, cu decenii de activitate în domeniul hidraulicii industriale și mobile. Din 2022 compania face parte din Daikin Industries, alături de mărcile Hydreco (aplicații mobile) și Continental Hydraulics (piața nord-americană). Pentru România putem oferta valve proporționale, valve on-off, pompe cu angrenaje, palete sau piston, plus cilindri oleodinamici și electromecanici din gama industrială.
 
-Gama proporțională acoperă valve direcționale, de presiune, de debit și servo-proporționale, cu electronică de control dedicată pentru amplificare și feedback de poziție. Duplomatic mai produce și actuatori electrici liniari seria ECL3/ECS3 cu protocol IO-Link, plus sisteme de termoreglare (chillere hibride Daikin). 
+Gama proporțională acoperă valve direcționale, de presiune, de debit și servo-proporționale, cu electronică de control dedicată pentru amplificare și feedback de poziție. Duplomatic mai produce și actuatori electrici liniari seria ECL3/ECS3, plus sisteme de termoreglare (chillere Daikin cu compresor cu inverter). 
 
 Pentru instalațiile din România, gama Duplomatic e relevantă la mașini-unelte, prese hidraulice, bancuri de testare și linii unde reglarea fină de presiune sau debit trebuie integrată electronic în automatizarea existentă.`,
     whyChoose: [
       "Gamă completă de valve proporționale — direcționale, de presiune, de debit și servo-proporționale",
-      "Actuatori electrici ECL3/ECS3 cu protocol IO-Link, alternativă la cilindrii hidraulici clasici",
-      "Sisteme de termoreglare (chillere hibride Daikin), cu specificații confirmate pe cod",
-      "Parte din Daikin Industries, cu acces la o rețea globală de producție",
+      "Actuatori electrici ECL3/ECS3, alternativă la cilindrii hidraulici clasici",
+      "Sisteme de termoreglare (chillere Daikin cu compresor cu inverter), cu specificații confirmate pe cod",
+      "Parte din grupul Daikin Industries din 2022",
       "Pompe cu angrenaje, palete și piston pentru circuite hidraulice de putere diferite"
     ],
     keyProducts: [
       { name: "Valve Proporționale Direcționale", description: "Valve cu comandă proporțională pentru controlul direcției și debitului de ulei, cu electronică de bord pentru amplificare și, în variante avansate, feedback de poziție a sertarului. Folosite la automatizarea axelor hidraulice unde mișcarea trebuie controlată gradual, nu doar deschis-închis, de exemplu la prese sau linii de formare." },
       { name: "Valve Servo-Proporționale", description: "Valve de precizie ridicată pentru bucle de control în circuit închis, unde repetabilitatea poziției sau presiunii contează mai mult decât la o valvă proporțională standard. Aplicație tipică: bancuri de testare hidraulice și mașini de formare unde profilul de mișcare trebuie reprodus identic la fiecare ciclu." },
-      { name: "Actuatori Electrici ECL3/ECS3", description: "Cilindri electrici liniari cu motor integrat și protocol de comunicare IO-Link, gândiți ca alternativă la cilindrii hidraulici acolo unde nu se justifică o centrală hidraulică separată. " },
-      { name: "Chillere de Proces AKW/AKL/AKZ/AKJ", description: "Unități de răcire pentru termoreglarea proceselor industriale; puterea, precizia și agentul frigorific depind de serie și se confirmă pe cod, din documentația Duplomatic." }
+      { name: "Actuatori Electrici ECL3/ECS3", description: "Cilindri electrici liniari cu șurub cu bile, la care se poate monta motorul și reductorul dorit, gândiți ca alternativă la cilindrii hidraulici acolo unde nu se justifică o centrală hidraulică separată. " },
+      { name: "Chillere de Proces AKW/AKZ/AKJ", description: "Unități de răcire pentru termoreglarea proceselor industriale; puterea, precizia și agentul frigorific depind de serie și se confirmă pe cod, din documentația Duplomatic." }
     ],
     industries: [
       "Prelucrarea metalelor — valve proporționale pentru mașini-unelte și prese",
       "Energie — sisteme hidraulice pentru bancuri de testare și turbine",
       "Marină — valve și pompe pentru echipamente hidraulice de bord",
-      "Feroviar — actuatori și valve pentru sisteme de automatizare",
+      
       "Petrol și gaze — valve on-off pentru echipamente de proces",
       "Utilaje mobile — cilindri și pompe pentru agricultură și construcții"
     ],
     infinitrade: `Furnizăm valve, cilindri, pompe și actuatori Duplomatic la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru configurația confirmată de producător. Datele tehnice vin din surse publice ale producătorului, iar pentru fiecare cerere transmitem clientului confirmarea codului exact înainte de a face oferta. Pentru o valvă proporțională sau un actuator electric avem nevoie de codul de pe unitatea existentă sau de parametrii de presiune, debit ori cursă, plus tensiunea de comandă folosită în automatizare. Nu ținem un stoc fix pe gama proporțională, fiecare configurație fiind verificată punctual la fabrică.`,
     limitation: "Nu putem confirma configurația electronică exactă (amplificator, protocol de comunicare) pentru fiecare variantă de valvă proporțională fără o cerere punctuală la producător.",
     productCodes: [
-      { code: "ECL3", description: "Actuator electric liniar cu protocol IO-Link" },
+      { code: "ECL3", description: "Actuator electric liniar" },
       { code: "ECS3", description: "Actuator electric liniar" },
       { code: "AKW", description: "Chiller de proces pentru termoreglare" },
-      { code: "AKL", description: "Chiller de proces" },
+      
       { code: "AKZ", description: "Chiller de proces" },
       { code: "AKJ", description: "Chiller de proces" },
       { code: "Valve Proporționale Direcționale", description: "Valve proporționale pentru controlul direcției fluxului" },
